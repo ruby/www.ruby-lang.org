@@ -1,0 +1,65 @@
+---
+layout: page
+title: To Ruby From Perl
+---
+
+<p>Perl is awesome. Perl’s docs are awesome. The Perl community is …
+awesome.  However, the language is fairly large and arguably complex.
+For those Perlers who long for a simpler time, a more orthogonal language,
+and elegant OO features built-in from the beginning, Ruby may be for you.</p>
+
+
+	<h3>Similarities</h3>
+
+
+As with Perl, in Ruby,...
+	<ul>
+<li>You’ve got a package management system, somewhat like <span class="caps">CPAN</span> (though it’s called
+<a href="http://docs.rubygems.org/">RubyGems</a>)</li>
+		<li>Regexes are built right in. Bon appétit!</li>
+		<li>There’s a fairly large number of commonly-used built-ins.</li>
+		<li>Parentheses are often optional</li>
+		<li>Strings work basically the same.</li>
+		<li>There’s a general delimited string and regex quoting syntax
+similar to Perl’s (looks like <code>%q{this (single-quoted)}</code>, or <code>%Q{this (double-quotish)}</code>, and
+<code>%w{this for a single-quoted list of words}</code>. You <code>%Q|can|</code> <code>%Q(use)</code> <code>%Q^other^</code> delimiters if you like).</li>
+		<li>You’ve got double-quotish variable interpolation, though it
+<code>"looks #{like} this"</code> (and you can put any Ruby code you like inside
+that <code>#{}</code>).</li>
+		<li>Shell command expansion uses `backticks`.</li>
+		<li>You’ve got embedded doc tools (Ruby’s is called rdoc).</li>
+	</ul>
+<h3>Differences</h3>
+
+
+Unlike Perl, in Ruby,...
+	<ul>
+<li>You don’t have the context-dependent rules like with Perl.</li>
+		<li>A variable isn’t the same as the object to which it refers. Instead, it’s
+always just a reference to an object.</li>
+		<li>Although <code>$</code> and <tt>@</tt> are used as the first character in variable names sometimes, rather than
+indicating type, they indicate scope (<code>$</code> for globals, <tt>@</tt> for object instance, and
+<tt>@@</tt> for class attributes).</li>
+		<li>Array literals go in brackets instead of parentheses.</li>
+		<li>Composing lists of other lists does not flatten them into one big list.
+Instead you get an array of arrays.</li>
+		<li>It’s <code>def</code> instead of <code>sub</code>.</li>
+		<li>There’s no semicolons needed at the end of each line. Incidentally, you end things like
+function definitions, class definitions, and case statements with the <code>end</code> keyword.</li>
+		<li>Objects are strongly typed. You’ll be manually calling <code>foo.to_i</code>, <code>foo.to_s</code>, etc.,
+if you need to convert between types.</li>
+		<li>There’s no <code>eq</code>, <code>ne</code>, <code>lt</code>, <code>gt</code>, <code>ge</code>, nor <code>le</code>.</li>
+		<li>There’s no diamond operator. You usually use <tt>IO.<i>some_func</i></tt> instead.</li>
+		<li>The fat comma is only used for hash literals.</li>
+		<li>There’s no <code>undef</code>. In Ruby you have <code>nil</code>. <code>nil</code> is an object (like anything else
+in Ruby). It’s not the same as an undefined variable. It evaluates to <code>false</code> if you
+treat it like a boolean.</li>
+		<li>When tested for truth, only <code>false</code> and <code>nil</code> evaluate to a false value. Everything else
+is true (including <code>0</code>, <code>0.0</code>, and <code>"0"</code>).</li>
+		<li>There’s no <a href="http://www.perlmonks.org/">PerlMonks</a>. Though the ruby-talk mailing
+list is a very helpful place.</li>
+	</ul>
+<div id="extended">
+
+</div>
+            

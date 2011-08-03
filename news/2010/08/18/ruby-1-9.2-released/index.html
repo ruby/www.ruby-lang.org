@@ -1,0 +1,138 @@
+---
+layout: page
+title: Ruby 1.9.2 is released
+---
+
+Ruby 1.9.2 is released. This is the latest stable version of 1.9 series.
+
+<div id="extended">
+<h3><a name="label-0" id="label-0">About Ruby 1.9.2</a></h3>
+<!-- RDLabel: "About Ruby 1.9.2" --><p>The new 1.9.2 is almost compatible with 1.9.1, except these changes:</p>
+<ul>
+<li>Many new methods</li>
+<li>New socket API (improved IPv6 support)</li>
+<li>New encodings</li>
+<li>New Random class which supports several random numbers generators</li>
+<li>Time is reimplemented. The bug with year 2038 is fixed.</li>
+<li>regex improvements</li>
+<li>$: doesn't include the current direcotry.</li>
+<li>dl is reimplemented on top of libffi.</li>
+<li>new psych library wrapping libyaml which can replace syck.</li>
+</ul>
+<p>See <a href="http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/NEWS">NEWS</a> and <a href="http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/ChangeLog">ChangeLog</a> for more detailed information.</p>
+<p>Ruby 1.9.2 passes more than 99% of <a href="http://www.rubyspec.org">RubySpec</a>.</p>
+<h3><a name="label-1" id="label-1">Supported platforms</a></h3>
+<!-- RDLabel: "Supported platforms" --><p>Ruby 1.9 supports four levels.</p>
+<dl>
+<dt><a name="label-2" id="label-2">Supported</a></dt>
+<!-- RDLabel: "Supported" -->
+<dd>
+We've checked that Ruby 1.9.2 works well on most of them..
+<ul>
+<li>Debian GNU/Linux 5.0 на IA32.</li>
+</ul>
+</dd>
+<dt><a name="label-3" id="label-3">Efforts made for</a></dt>
+<!-- RDLabel: "Efforts made for" -->
+<dd>
+We've checked that Ruby 1.9.2 works well on most of them.
+<ul>
+<li>mswin32, x64-mswin64, mingw32</li>
+<li>MacOS X 10.5 (Intel) and 10.6</li>
+<li>FreeBSD 6 and later (amd64, IA32)</li>
+<li>Solaris 10</li>
+<li>Symbian OS</li>
+</ul>
+</dd>
+<dt><a name="label-4" id="label-4">Efforts made for</a></dt>
+<!-- RDLabel: "Efforts made for" -->
+<dd>
+We've checked that Ruby 1.9.2 works well on most of them with small modifications. Patches are accepted.
+<ul>
+<li>Other Linux distributions</li>
+<li>Other versions of MacOS X.</li>
+<li>cygwin</li>
+<li>AIX 5</li>
+<li>Other POSIX-compatible systems</li>
+<li>BeOS (Haiku)</li>
+</ul>
+</dd>
+</dl>
+<h3><a name="label-5" id="label-5">FAQ</a></h3>
+<!-- RDLabel: "FAQ" --><dl>
+<dt><a name="label-6" id="label-6">Standard library is installed in <kbd>/usr/local/lib/ruby/1.9.1</kbd></a></dt>
+<!-- RDLabel: "Standard library is installed in /usr/local/lib/ruby/1.9.1" -->
+<dd>
+This version is a "library compatible version." Ruby 1.9.2 is almost 1.9.1 compatible, so the library is installed in the 1.9.1 directory.
+</dd>
+<dt><a name="label-7" id="label-7">It causes a <code>LoadError</code></a></dt>
+<!-- RDLabel: "It causes a LoadError" -->
+<dd>
+<code>$:</code> doesn't include the current directory. Some script may need modifications to work properly.
+</dd>
+</dl>
+<h3><a name="label-8" id="label-8">Downloads</a></h3>
+<!-- RDLabel: "Downloads" --><ul>
+<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2">&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2&gt;</a>
+<dl>
+<dt><a name="label-9" id="label-9">SIZE:</a></dt>
+<!-- RDLabel: "SIZE:" -->
+<dd>
+8495472 bytes
+</dd>
+<dt><a name="label-10" id="label-10">MD5:</a></dt>
+<!-- RDLabel: "MD5:" -->
+<dd>
+d8a02cadf57d2571cd4250e248ea7e4b
+</dd>
+<dt><a name="label-11" id="label-11">SHA256:</a></dt>
+<!-- RDLabel: "SHA256:" -->
+<dd>
+e9710990ed8c2e794123aba509010471915fb13c27dae0118831d2001a9c8d3b
+</dd>
+</dl>
+</li>
+<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz">&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz&gt;</a>
+<dl>
+<dt><a name="label-12" id="label-12">SIZE:</a></dt>
+<!-- RDLabel: "SIZE:" -->
+<dd>
+10787899 bytes
+</dd>
+<dt><a name="label-13" id="label-13">MD5:</a></dt>
+<!-- RDLabel: "MD5:" -->
+<dd>
+755aba44607c580fddc25e7c89260460
+</dd>
+<dt><a name="label-14" id="label-14">SHA256:</a></dt>
+<!-- RDLabel: "SHA256:" -->
+<dd>
+8c0c4e261a921b5c406bf9e76ac23bf3c915651534e9d1b9e8c5d0bee4a7285c
+</dd>
+</dl>
+</li>
+<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip">&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip&gt;</a>
+<dl>
+<dt><a name="label-15" id="label-15">SIZE:</a></dt>
+<!-- RDLabel: "SIZE:" -->
+<dd>
+12159728 bytes
+</dd>
+<dt><a name="label-16" id="label-16">MD5:</a></dt>
+<!-- RDLabel: "MD5:" -->
+<dd>
+e57a393ccd62ddece4c63bd549d8cf7f
+</dd>
+<dt><a name="label-17" id="label-17">SHA256:</a></dt>
+<!-- RDLabel: "SHA256:" -->
+<dd>
+e61521af06da71fde9f0c7c08baaf7415614d00c86ec5a7ab08b60a4f3185b2a
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+            

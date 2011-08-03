@@ -1,0 +1,85 @@
+---
+layout: page
+title: WEBrick has an Escape Sequence Injection vulnerability
+---
+
+<p>A vulnerability was found on WEBrick, a part of Ruby's standard library.
+WEBrick lets attackers to inject malicious escape sequences to its logs,
+making it possible for dangerous control characters to be executed on a
+victim's terminal emulator.</p>
+
+<p>We already have a fix for it.  Releases for every active branches are to follow
+this announce. But for a meantime, we recommend you to avoid looking at your
+WEBrick logs, until you update your WEBrick process.</p>
+<div id="extended">
+<h2>Detailed description</h2>
+
+<p>Terminal escape sequences are used to allow various forms of interaction
+between a terminal and a inside process.  The problem is that those sequences
+are not intended to be issued by untrusted sources; such as network inputs. So
+if a remote attacker could inject escape sequences into WEBrick logs, and a
+victim happen to consult them through his/her terminal, the attacker could take
+advantages of various <a href="http://marc.info/?l=bugtraq&amp;m=104612710031920&amp;w=2" title="Terminal Emulator Security Issues">weaknesses in terminal emulators</a>.</p>
+
+<p>And WEBrick fails to filter those terminal escape sequences.</p>
+
+<p>Example:</p>
+
+<pre><code>% xterm -e ruby -rwebrick -e 'WEBrick::HTTPServer.new(:Port=&gt;8080).start' &amp;
+% wget http://localhost:8080/%1b%5d%32%3b%6f%77%6e%65%64%07%0a
+</code></pre>
+
+<p>Watch out for the window title of xterm.</p>
+
+<h2>Affected versions</h2>
+
+<ul>
+<li>Ruby 1.8.6 patchlevel 383 and all prior versions</li>
+<li>Ruby 1.8.7 patchlevel 248 and all prior versions</li>
+<li>Development versions of Ruby 1.8 (1.8.8dev)</li>
+<li>Ruby 1.9.1 patchlevel 376 and all prior versions</li>
+<li>Development versions of Ruby 1.9 (1.9.2dev)</li>
+</ul>
+<h2>Solutions</h2>
+
+<ul>
+<li>Fixes for 1.8.6, 1.8.7, and 1.9.1 are to follow this announce.
+<ul>
+<li>
+<strong>Update</strong> 1.8.7 pl. 249 was released to fix this issue.
+1.8.7 users are encouraged to upgrade.
+<ul>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz">ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz</a></li>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2">ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2</a></li>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip">ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip</a></li>
+</ul>
+</li>
+<li>
+<strong>Update</strong> 1.9.1 pl. 378 was released to fix this issue.
+1.9.1 users are encouraged to upgrade.
+<ul>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz">ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz</a></li>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2">ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2</a></li>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip">ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip</a></li>
+</ul>
+</li>
+<li>
+<strong>Update</strong> 1.8.6 pl. 388 was released to fix this issue.
+1.8.6 users are encouraged to upgrade.
+<ul>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz">ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz</a></li>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2">ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2</a></li>
+<li><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip">ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>For development versions, please update to the most recent revision for each
+development branch.</li>
+</ul>
+<h2>Credit</h2>
+
+<p>Credit to Giovanni "evilaliv3" Pellerano, Alessandro "jekil" Tanasi, and
+Francesco "ascii" Ongaro for discovering this vulnerability.</p>
+</div>
+            

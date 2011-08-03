@@ -1,0 +1,254 @@
+---
+layout: default
+title: Ruby in Twenty Minutes
+---
+<div id="page">
+      <div id="header">
+        <div id="logo"><a href="/en/"><img src="/images/logo.gif" width="331" height="119" alt="Ruby - A Programmer's Best Friend" title=""></a></div>
+        <div class="site-links">
+<a href="/en/downloads/">Downloads</a><span class="separator"> | </span><strong><a href="/en/documentation/">Documentation</a></strong><span class="separator"> | </span><a href="/en/libraries/">Libraries</a><span class="separator"> | </span><a href="/en/community/">Community</a><span class="separator"> | </span><a href="/en/news/">News</a><span class="separator"> | </span><a href="/en/security/">Security</a><span class="separator"> | </span><a href="/en/about/">About Ruby</a>
+        </div>
+      </div>
+      <hr class="hidden-modern">
+<div id="main-wrapper">
+        <div id="main">
+          <div id="content-wrapper">
+            <div id="head-wrapper-1">
+              <div id="head-wrapper-2">
+                <div id="head">
+<div class="multi-page">
+
+  <strong>1</strong>
+  <span class="separator"> | </span>
+  <a href="./2/" title="Part 2">2</a>
+  <span class="separator"> | </span>
+  <a href="./3/" title="Part 3">3</a>
+  <span class="separator"> | </span>
+  <a href="./4/" title="Part 4">4</a>
+
+
+
+
+</div>
+                  <h1>Ruby in Twenty Minutes</h1>
+                </div>
+              </div>
+            </div>
+            <div id="content">
+<h2>Introduction</h2>
+
+
+	<p>This is a small Ruby tutorial that should take no more than 20 minutes to
+complete. It makes the assumption that you already have Ruby installed.
+(If you don’t have Ruby on your computer <a href="/en/downloads/">download</a> and
+install it before you get started.)</p>
+
+
+	<h2>Interactive Ruby</h2>
+
+
+	<p>Ruby comes with a program that will show the results of any Ruby statements you feed it.  Playing with Ruby code in interactive sessions like this is a terrific way to learn the language.</p>
+
+
+	<p>Open up <span class="caps">IRB</span> (which stands for Interactive Ruby).</p>
+
+
+	<ul>
+<li>If you’re  using <strong>Mac <span class="caps">OS  X</span></strong> open up <code>Terminal</code>  and type
+<code>irb</code>, then hit enter.</li>
+		<li>If you’re using <strong>Linux</strong>, open up a shell and type
+<code>irb</code> and hit enter.  </li>
+		<li>If you’re using <strong>Windows</strong>, open <code>fxri</code> from the Ruby section of your Start Menu.</li>
+	</ul>
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">001</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span></code></pre>
+
+	<p>Ok, so it’s open.  Now what?</p>
+
+
+	<p>Type this: <code>"Hello World"</code></p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">001</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="punct">"</span><span class="string">Hello World</span><span class="punct">"</span><br><span class="punct">=&gt;</span> <span class="punct">"</span><span class="string">Hello World</span><span class="punct">"</span></code></pre>
+
+	<h2>Ruby Obeyed You!</h2>
+
+
+	<p>What just  happened?  Did  we just write  the world’s  shortest “Hello
+World” program?   Not exactly.  The second  line is just  <span class="caps">IRB</span>’s way of
+telling us the result of the last expression it evaluated.  If we want
+to print out “Hello World” we need a bit more:</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">002</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="ident">puts</span> <span class="punct">"</span><span class="string">Hello World</span><span class="punct">"</span><br><span class="constant">Hello</span> <span class="constant">World</span><br><span class="punct">=&gt;</span> <span class="constant">nil</span></code></pre>
+
+	<p><code>puts</code> is  the basic command  to print something  out in Ruby.  But then what’s the
+<code>=&gt; nil</code>  bit?  That’s  the result of  the expression.   <code>puts</code> always
+returns nil, which is Ruby’s absolutely-positively-nothing value.</p>
+
+
+	<h2>Your Free Calculator is Here</h2>
+
+
+	<p>Already, we have enough to use <span class="caps">IRB</span> as a basic calculator:</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">003</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="number">3</span><span class="punct">+</span><span class="number">2</span><br><span class="punct">=&gt;</span> <span class="number">5</span></code></pre>
+
+	<p>Three plus two.  Easy enough.   What about three <em>times</em> two?  You could
+type it in, it’s  short enough, but you may also be able to go up and
+change  what you  just  entered.   Try hitting  the <strong>up-arrow</strong> on  your
+keyboard and  see if it brings  up the line  with <code>3+2</code> on it.   If it
+does, you can use  the left arrow key to move just  after the <code>+</code> sign
+and then  use backspace  to change it  to a  <code>*</code> sign.</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">004</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="number">3</span><span class="punct">*</span><span class="number">2</span><br><span class="punct">=&gt;</span> <span class="number">6</span></code></pre>
+
+	<p>Next, let’s try three squared:</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">005</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="number">3</span><span class="punct">**</span><span class="number">2</span><br><span class="punct">=&gt;</span> <span class="number">9</span></code></pre>
+
+	<p>In Ruby <code>**</code>  is the way you say  “to the power of”.  But  what if you
+want to go the other way and find the square root of something?</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">006</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="constant">Math</span><span class="punct">.</span><span class="ident">sqrt</span><span class="punct">(</span><span class="number">9</span><span class="punct">)</span><br><span class="punct">=&gt;</span> <span class="number">3.0</span></code></pre>
+
+	<p>Ok, wait, what was that last  one?  If you guessed, “it was figuring out
+the square  root of nine,” you’re  right.  But let’s take  a closer
+look at things.  First of all, what’s <code>Math</code>?</p>
+
+
+	<h2>Modules, Group Code by Topic</h2>
+
+
+	<p><code>Math</code> is a built-in module for mathematics.  Modules  serve two  roles in
+Ruby.  This shows one role: grouping similar methods together under a familiar
+name.   <code>Math</code> also  contains  methods like  <code>sin()</code> and <code>tan()</code>.</p>
+
+
+	<p>Next is a dot.  What does the dot do?  The dot is how  you identify the
+receiver  of  a message.  What’s  the message?   In this  case  it’s
+<code>sqrt(9)</code>, which  means call the method <code>sqrt</code>, shorthand for “square
+root” with the parameter of <code>9</code>.</p>
+
+
+	<p>The result of  this method call is the value  <code>3.0</code>.  You might notice
+it’s not just <code>3</code>.  That’s because most of the time the square root of
+a  number  won’t  be  an  integer,  so the  method  always  returns  a
+floating-point number.</p>
+
+
+	<p>What if we  want to remember the result of some  of this math?  Assign
+the result to a variable.</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">007</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="ident">a</span> <span class="punct">=</span> <span class="number">3</span> <span class="punct">**</span> <span class="number">2</span><br><span class="punct">=&gt;</span> <span class="number">9</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">008</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="ident">b</span> <span class="punct">=</span> <span class="number">4</span> <span class="punct">**</span> <span class="number">2</span><br><span class="punct">=&gt;</span> <span class="number">16</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">009</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="constant">Math</span><span class="punct">.</span><span class="ident">sqrt</span><span class="punct">(</span><span class="ident">a</span><span class="punct">+</span><span class="ident">b</span><span class="punct">)</span> <span class="punct">=&gt;</span> <span class="number">5.0</span></code></pre>
+
+	<p>As great as this is for a calculator, we’re getting away from the traditional
+<code>Hello World</code> message that beginning tutorials are supposed to focus on… <a href="2/">so let’s go back to that.</a></p>
+<div id="extended">
+
+</div>
+            </div>
+          </div>
+          <hr class="hidden-modern">
+<div id="sidebar-wrapper">
+            <div id="sidebar">
+
+
+<div class="navigation">
+  <h3>
+<strong>Get Started,</strong> it’s easy!</h3>
+  <ul class="menu">
+<li><a href="http://TryRuby.org">Try Ruby! (in your browser)</a></li>
+
+    <li><a href="/en/downloads/">Download Ruby</a></li>
+
+    <li><a href="/en/documentation/quickstart/">Ruby in Twenty Minutes</a></li>
+    <li><a href="/en/documentation/ruby-from-other-languages/">Ruby from Other Languages</a></li>
+  </ul>
+</div>
+
+<div class="navigation">
+  <h3>
+<strong>Explore</strong> a new world…</h3>
+  <ul class="menu">
+<li><a href="/en/documentation/">Documentation</a></li>
+    <li><a href="http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&amp;rs=1000&amp;keywords=Ruby&amp;rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5">Books</a></li>
+    <li><a href="/en/libraries/">Libraries</a></li>
+    <li><a href="/en/documentation/success-stories/">Success Stories</a></li>
+  </ul>
+</div>
+
+<div class="navigation">
+  <h3>
+<strong>Participate</strong> in a friendly and growing community.</h3>
+  <ul>
+<li>
+<a href="/en/community/mailing-lists/">Mailing Lists</a>: Talk about Ruby with programmers from all around the world.</li>
+    <li>
+<a href="/en/community/user-groups/">User Groups</a>: Get in contact with Rubyists in your area.</li>
+    <li>
+<a href="/en/community/weblogs/">Weblogs</a>: Read about what’s happening right now in the Ruby community.</li>
+    <li>
+<a href="/en/community/ruby-core/">Ruby Core</a>: Help polish the rough edges of the latest Ruby.</li>
+    <li>
+<a href="http://redmine.ruby-lang.org/">Issue Tracking</a>: Report or help solve issues in Ruby.</li>
+  </ul>
+</div>
+
+
+<h3>Some Top Ruby Projects</h3>
+
+<ul>
+<li><a href="http://rubyforge.org/projects/rubyinstaller/" title='A self-contained installer that includes the Ruby language, several popular extensions, an HTML Help based API reference, and the "Book of Ruby" courtesy of Huw Collingbourne. Platforms: Windows 2000/XP/Vista/7.'>Ruby Installer for Windows</a></li>
+
+<li><a href="http://rubyforge.org/projects/ruby/" title="Main Ruby language project for providing a mirror of the Ruby releases, tracking bugs, etc.">Ruby</a></li>
+
+<li><a href="http://rubyforge.org/projects/instiki/" title="A wiki clone pretty and easy to set up. Runs on Rails and focuses on portability and stability. Supports file uploads, PDF export, RSS, multiple users and password protection. Some use Instiki as a CMS because of it’s ability to export static pages.">Instiki</a></li>
+
+<li><a href="http://rubyforge.org/projects/actionmailer/" title="Simplifies the creation of mail service classes that uses Action View (from Action Pack) to render the body templates.">Action Mailer</a></li>
+
+<li><a href="http://rubyforge.org/projects/mongrel/" title="A small fast HTTP server for Ruby and JRuby that can be used to host web frameworks directly with HTTP.
+Please report tickets on the Mongrel website: http://mongrel.rubyforge.org/ .">Mongrel</a></li>
+
+</ul>
+<p class="more"><a href="/en/libraries/top-projects/">More…</a></p>
+
+
+<h3>Syndicate</h3>
+<p><a href="/en/feeds/news.rss">Recent News (RSS)</a></p>
+            </div>
+          </div>
+          <hr class="hidden-modern">
+<div class="foot">
+            <div class="site-links">
+<a href="/en/downloads/">Downloads</a><span class="separator"> | </span><strong><a href="/en/documentation/">Documentation</a></strong><span class="separator"> | </span><a href="/en/libraries/">Libraries</a><span class="separator"> | </span><a href="/en/community/">Community</a><span class="separator"> | </span><a href="/en/news/">News</a><span class="separator"> | </span><a href="/en/security/">Security</a><span class="separator"> | </span><a href="/en/about/">About Ruby</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="search-box">
+<form id="search-form" action="http://www.google.com/cse">
+  <table class="fieldset"><tr>
+<td>
+        <input class="field" type="text" name="q" size="31" style="background: white url(http://www.google.com/coop/intl/en/images/google_custom_search_watermark.gif) left no-repeat" onfocus="this.style.background='white'" onblur="if (/^\s*$/.test(this.value)) this.style.background='white url(http://www.google.com/coop/intl/en/images/google_custom_search_watermark.gif) left no-repeat'">
+</td>
+      <td>
+        <input type="hidden" name="cx" value="013598269713424429640:g5orptiw95w"><input type="hidden" name="ie" value="UTF-8"><input class="button" type="submit" name="sa" value="Search">
+</td>
+    </tr></table>
+</form>
+      </div>
+      <div id="footer">
+        <div class="fine-print">
+          <p>Content available in <a href="/en/">English</a>, <a href="/fr/">French</a>, <a href="/ja/">Japanese</a>, <a href="/ko/">Korean</a>, <a href="/pl/">Polish</a>, <a href="/es/">Spanish</a>, <a href="/pt/">Portuguese</a>, <a href="/zh_cn/">Simplified Chinese</a>, <a href="/zh_TW/">Traditional Chinese</a>, <a href="/id/">Bahasa Indonesia</a>, <a href="/de/">German</a>, <a href="/it/">Italian</a>, <a href="/cs/">Czech</a>, <a href="/bg/">Bulgarian</a> and <a href="/tr/">Turkish</a>.</p> 
+          <p>This website is made with Ruby and powered by <a href="http://radiantcms.org">Radiant CMS</a>.
+            It is proudly maintained by <a href="http://rubyidentity.org">members of the Ruby community</a>. Please contact
+            our <a href="mailto:webmaster@ruby-lang.org">webmaster</a> for questions or comments
+            concerning this website.</p>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,123 @@
+---
+layout: page
+title: Download Ruby
+---
+
+<p>Here you can get the latest Ruby distributions in your favorite flavor. The current stable version is 1.9.2. Please be sure to read <a href="http://www.ruby-lang.org/en/about/license.txt">Ruby&#8217;s License</a>.</p>
+
+
+	<h3>Ruby Source Code</h3>
+
+
+	<p>Installing from the source code is a great solution for when you are comfortable enough with your platform and perhaps need specific settings for your environment. It&#8217;s also a good solution in the event that there are no other premade packages for your platform.</p>
+
+
+	<ul>
+<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz">Ruby 1.9.2-p290</a> (md5:&#160;604da71839a6ae02b5b5b5e1b792d5eb) Stable Version (<em>recommended</em>)</li>
+		<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz">Ruby 1.9.3 preview1</a> (md5:&#160;0f0220be4cc7c51a82c1bd8f6a0969f3)</li>
+		<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz">Stable Snapshot</a> This is tar&#8217;ed and gzip&#8217;ed file of the latest stable <span class="caps">SVN</span>. It should be better than the last stable release.</li>
+		<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz">Nightly Snapshot</a> This is tar&#8217;ed and gzip&#8217;ed file of the latest <span class="caps">SVN</span>. It may contain unfixed problems.</li>
+	</ul>
+<p>For information about the Ruby Subversion and Git repositories, see our <a href="/en/community/ruby-core/">Ruby Core</a> page.</p>
+
+
+	<h3>Ruby on Windows</h3>
+
+
+	<p>The Windows platform has several options to install Ruby. The first option is to use the <a href="http://rubyinstaller.org/">RubyInstaller</a>, an installer that contains compiled binaries. The second option is usage of packaged executables and binaries. If you&#8217;re unsure about how to install Ruby, the first option might be the best for you.</p>
+
+
+	<ul>
+<li>
+<a href="http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe">Ruby 1.8.6-p398 RubyInstaller</a> (md5:&#160;233d6b3ddc4c61436b075b51254cd138) Stable version</li>
+		<li>
+<a href="http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe">Ruby 1.8.7-p334 RubyInstaller</a> (md5:&#160; 64e30e63e16028282fcfe3ec57b561dc) Stable version (<em>recommended</em>)</li>
+		<li>
+<a href="http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe">Ruby 1.9.1-p430 RubyInstaller</a> (md5:&#160;86ac589a955898c3163b161d81750a05) Stable version</li>
+		<li>
+<a href="http://rubyforge.org/frs/download.php/74298/rubyinstaller-1.9.2-p180.exe">Ruby 1.9.2-p180 RubyInstaller</a> (md5:&#160; 2c94aef50987416d64c85a4ea0fa428b) Stable version (<em>recommended</em>)</li>
+		<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip">Ruby 1.8.7-p249 Binary</a>
+(md5:&#160;4fd37b0b4b21a042cae7f5f0a8daad16) Stable version</li>
+		<li>
+<a href="http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip">Ruby 1.9.1-p378 Binary</a>
+(md5:&#160;7d14a918cc8d243d3e2c409aff41f454) Stable version</li>
+	</ul>
+<p>Please note that using the above indicated binaries will require manual download and installation of additional components detailed on <a href="http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html">this page</a>.  Please ensure you have followed and performed these steps prior reporting a bug.</p>
+
+
+	<p>The <a href="http://rubyinstaller.org/">RubyInstaller</a> does not require these additional tasks.</p>
+
+
+	<p>Please also investigate the use of <a href="http://github.com/vertiginous/pik">pik</a> which eases the process of installing and maintaining concurrent versions of both ruby and gems on Windows.</p>
+
+
+	<h3>Ruby On Linux</h3>
+
+
+	<p>Depending on the distribution you are using, there are several ways to install Ruby. The first option is simply to download the source code above and compile by hand. However, on some platforms, there are package management solutions that make installing Ruby extremely easy. There is also <code>rvm</code>, the <a href="http://rvm.beginrescueend.com">Ruby Version Manager</a>, which eases the process of installing and maintaining concurrent versions of both ruby and gems. This software may become the default installation choice for newcomers as it is quite straightforward to use. If however you would like to stick to your distribution package system, read on.</p>
+
+
+	<p>For example, on Debian or Ubuntu <code>apt-get</code> provides an easy and elegant solution:</p>
+
+
+<pre class="code sh-code"><code>% sudo apt-get install ruby1.9.1-full</code></pre>
+
+	<p>The above command installs the current stable version of Ruby 1.9.1.  If you prefer to install a Ruby 1.8 version, you can use:</p>
+
+
+<pre class="code sh-code"><code>% sudo apt-get install ruby-full</code></pre>
+
+	<p>For irb and rdoc, you will need to enable the universe repository.</p>
+
+
+	<h3>Ruby On <span class="caps">OS X</span>
+</h3>
+
+
+	<p>Ruby 1.8.6 is fully supported in Mac <span class="caps">OS X</span> Leopard including Ruby on Rails, Mongrel, Capistrano, and many other popular Ruby gems (packages). For details, see the <a href="http://trac.macosforge.org/projects/ruby/wiki">Ruby wiki at MacOS Forge</a>.</p>
+
+
+	<p>Mac <span class="caps">OS X</span> Tiger is packaged with version 1.8.2 of Ruby, but, for those who haven&#8217;t upgraded to Leopard, there are a number  of options for installing the latest version of Ruby. <a href="http://locomotive.raaum.org/">Locomotive</a> is a nice choice if you are looking for something to get you up and running quickly for Rails development.  Using <a href="http://www.macports.org/">MacPorts</a> or <a href="http://fink.sourceforge.net/">Fink</a> might be a little nicer for the more technically savvy.</p>
+
+
+	<p>On MacPorts, you can install Ruby with&#8230;</p>
+
+
+<pre class="code sh-code"><code>% sudo port install ruby</code></pre>
+
+	<p>Fink has a graphical interface (using Fink Commander) for installing Ruby.</p>
+
+
+	<p>Also, since <span class="caps">OS X</span> is based on Unix, downloading and installing from the source is just as easy and effective as the other solutions.</p>
+
+
+	<p>For a detailed look at installing Ruby (and Rails), Dan Benjamin&#8217;s excellent articles <a href="http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx">for Tiger</a>, <a href="http://hivelogic.com/articles/ruby-rails-leopard">for Leopard</a>, and <a href="http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/">for Snow Leopard</a> will get you up and running very quickly.</p>
+
+
+	<h3>Ruby On Solaris and OpenSolaris</h3>
+
+
+	<p>Ruby 1.8.7 are available for Solaris 8 through Solaris 10 on <a href="http://www.sunfreeware.com">Sunfreeware</a> and Ruby 1.8.7 is available at <a href="http://www.blastwave.org">Blastwave</a>. Ruby 1.9.2p0 is also available at <a href="http://www.sunfreeware.com">Sunfreeware</a> now. An optimized Ruby on Rails stack for Solaris 10 is available as <a href="http://cooltools.sunsource.net/coolstack">Coolstack</a> from Sun&#8217;s Cooltools project.</p>
+
+
+	<p>To install Ruby on <a href="http://www.opensolaris.org">OpenSolaris</a>, please use the <a href="http://opensolaris.org/os/project/pkg/">Image Packaging System, or <span class="caps">IPS</span></a> client. This will install the latest Ruby binaries and Rubygems directly from the OpenSolaris network repository. It&#8217;s easy:</p>
+
+
+<pre class="code sh-code"><code>% pfexec pkg install SUNWruby18</code></pre>
+
+	<p>This will install Ruby, Rubygems, common extensions and their supporting libraries. This package also contains DTrace support and performance optimizations. The locations of various artifacts are described in the <a href="http://jp.opensolaris.org/os/community/arc/caselog/2007/600/">Ruby OpenSolaris <span class="caps">ARC</span> Case</a>.</p>
+
+
+	<p>The other OpenSolaris distribution, called the <a href="http://opensolaris.org/os/downloads">Solaris Express Community Edition or <span class="caps">SXCE</span></a> comes with Ruby preinstalled. The version, location etc., are the same as with the vanilla OpenSolaris distribution, and are documented in the above mentioned <span class="caps">ARC</span> case.</p>
+
+
+	<p>To install <span class="caps">SVR4</span> packages manually, please visit the <a href="http://rubyforge.org/projects/rubyopensolaris">RubyOpenSolaris project @ Rubyforge</a>.</p>
+<div id="extended">
+
+</div>
+            

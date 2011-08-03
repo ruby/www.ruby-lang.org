@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ruby News</title>
+    <link>http://www.ruby-lang.org/en/feeds/news.rss/</link>
+    <language>en-us</language>
+    <ttl>40</ttl>
+    <description>The latest news from Ruby-Lang.org.</description>
+
+
+        <item>
+          <title>Ruby 1.9.3 preview1 has been released</title>
+          <description>&lt;p&gt;Ruby 1.9.3 preview1 has been released. This is a first preview of next version and there're still minor known issues.
+But it will be fixed in next release, Ruby 1.9.3-p0.&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/ChangeLog&quot;&gt;ChangeLogs&lt;/a&gt; and &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/NEWS&quot;&gt;NEWS&lt;/a&gt; for the descriptions.&lt;/p&gt; &lt;h2&gt;&lt;a name=&quot;label-0&quot; id=&quot;label-0&quot;&gt;Downloads&lt;/a&gt;&lt;/h2&gt;&lt;!-- RDLabel: &quot;Downloads&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-1&quot; id=&quot;label-1&quot;&gt;SIZE:   9507455 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   9507455 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-2&quot; id=&quot;label-2&quot;&gt;MD5:    7d93dc773c5824f05c6e6630d8c4bf9b&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    7d93dc773c5824f05c6e6630d8c4bf9b&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-3&quot; id=&quot;label-3&quot;&gt;SHA256: a15d7924d74a45ffe48d5421c5fc4ff83b7009676054fa5952b890711afef6fc&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: a15d7924d74a45ffe48d5421c5fc4ff83b7009676054fa5952b890711afef6fc&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-4&quot; id=&quot;label-4&quot;&gt;SIZE:   12186410 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   12186410 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-5&quot; id=&quot;label-5&quot;&gt;MD5:    0f0220be4cc7c51a82c1bd8f6a0969f3&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    0f0220be4cc7c51a82c1bd8f6a0969f3&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-6&quot; id=&quot;label-6&quot;&gt;SHA256: 75c2dd57cabd67d8078a61db4ae86b22dc6f262b84460e5b95a0d8a327b36642&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: 75c2dd57cabd67d8078a61db4ae86b22dc6f262b84460e5b95a0d8a327b36642&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.zip&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.zip&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-7&quot; id=&quot;label-7&quot;&gt;SIZE:   13696708 bytes&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:   13696708 bytes&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-8&quot; id=&quot;label-8&quot;&gt;MD5:    960e08b2dc866c9987f17d0480de63a1&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:    960e08b2dc866c9987f17d0480de63a1&quot; --&gt;
+&lt;dt&gt;&lt;a name=&quot;label-9&quot; id=&quot;label-9&quot;&gt;SHA256: 249483f88156b4ae65cd45742c6f6316660f793b78739657596c63b86f76aaeb&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256: 249483f88156b4ae65cd45742c6f6316660f793b78739657596c63b86f76aaeb&quot; --&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a name=&quot;label-10&quot; id=&quot;label-10&quot;&gt;Differences from previous version&lt;/a&gt;&lt;/h3&gt;&lt;!-- RDLabel: &quot;Differences from previous version&quot; --&gt;&lt;p&gt;Previous Ruby versions was licensed under &quot;GPLv2&quot; and &quot;Ruby&quot; license but &quot;2-clause BSDL&quot;(AKA Simplfied BSD License) and &quot;Ruby&quot; lisence been replacement of them.&lt;/p&gt;&lt;h3&gt;&lt;a name=&quot;label-11&quot; id=&quot;label-11&quot;&gt;Encoding&lt;/a&gt;&lt;/h3&gt;&lt;!-- RDLabel: &quot;Encoding&quot; --&gt;&lt;p&gt;SJIS changed to alias for Windows-31J, instead of Shift_JIS.&lt;/p&gt;&lt;h3&gt;&lt;a name=&quot;label-12&quot; id=&quot;label-12&quot;&gt;Standard Libraries&lt;/a&gt;&lt;/h3&gt;&lt;!-- RDLabel: &quot;Standard Libraries&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;io/console: Add capabilities to IO instances. &lt;/li&gt;
+&lt;li&gt;openssl&lt;/li&gt;
+&lt;li&gt;test/unit: supports parallel test&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a name=&quot;label-13&quot; id=&quot;label-13&quot;&gt;Other changes&lt;/a&gt;&lt;/h3&gt;&lt;!-- RDLabel: &quot;Other changes&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;pathname and date are re-implemented on current preview.&lt;/li&gt;
+&lt;li&gt;A purpose of VM locking is changed.&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Mon, 01 Aug 2011 17:50:00 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/08/01/ruby-1-9-3-preview1-has-been-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/08/01/ruby-1-9-3-preview1-has-been-released/</link>
+        </item>
+
+        <item>
+          <title>Ruby 1.9.2-p290 is released</title>
+          <description>&lt;p&gt;Ruby 1.9.2-p290 is released.&lt;/p&gt;&lt;p&gt;This release doesn't include any security fixes, but many bugs are fixed in this release.&lt;/p&gt; &lt;p&gt;See &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_290/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt; for details.&lt;/p&gt;&lt;h3&gt;&lt;a name=&quot;label-0&quot; id=&quot;label-0&quot;&gt;Downloads&lt;/a&gt;&lt;/h3&gt;&lt;!-- RDLabel: &quot;Downloads&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-1&quot; id=&quot;label-1&quot;&gt;SIZE:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:&quot; --&gt;
+&lt;dd&gt;
+8811237 bytes
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-2&quot; id=&quot;label-2&quot;&gt;MD5:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:&quot; --&gt;
+&lt;dd&gt;
+096758c3e853b839dc980b183227b182
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-3&quot; id=&quot;label-3&quot;&gt;SHA256:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256:&quot; --&gt;
+&lt;dd&gt;
+403b3093fbe8a08dc69c269753b8c6e7bd8f87fb79a7dd7d676913efe7642487
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-4&quot; id=&quot;label-4&quot;&gt;SIZE:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:&quot; --&gt;
+&lt;dd&gt;
+11182217 bytes
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-5&quot; id=&quot;label-5&quot;&gt;MD5:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:&quot; --&gt;
+&lt;dd&gt;
+604da71839a6ae02b5b5b5e1b792d5eb
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-6&quot; id=&quot;label-6&quot;&gt;SHA256:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256:&quot; --&gt;
+&lt;dd&gt;
+1cc817575c4944d3d78959024320ed1d5b7c2b4931a855772dacad7c3f6ebd7e
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-7&quot; id=&quot;label-7&quot;&gt;SIZE:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:&quot; --&gt;
+&lt;dd&gt;
+12600100 bytes
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-8&quot; id=&quot;label-8&quot;&gt;MD5:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:&quot; --&gt;
+&lt;dd&gt;
+6060b410aa15d09ac13b93033b8b5c66
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-9&quot; id=&quot;label-9&quot;&gt;SHA256:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256:&quot; --&gt;
+&lt;dd&gt;
+bce3d1c8c78fbafb6a0d67df2b8dec5322301f7b4b0f7594656ad689e9cb461d
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Fri, 15 Jul 2011 22:20:00 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/07/15/ruby-1-9-2-p290-is-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/07/15/ruby-1-9-2-p290-is-released/</link>
+        </item>
+
+        <item>
+          <title>Ruby 1.8.7-p352 released</title>
+          <description>&lt;p&gt;Ruby 1.8.7 was released on June 1st, 2008.  In commemoration
+of the thrid anniversary of Ruby 1.8.7, we have a new
+patchlevel release today.  It includes several bug fixes.
+For the detail please read the &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_352/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt;.&lt;/p&gt; &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.bz2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Checksums:&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;MD5(ruby-1.8.7-p352.tar.gz)= 0c33f663a10a540ea65677bb755e57a7
+SHA256(ruby-1.8.7-p352.tar.gz)= 2325b9f9ab2af663469d057c6a1ef59d914a649808e9f6d1a4877c8973c2dad0
+SIZE(ruby-1.8.7-p352.tar.gz)= 4894181
+
+MD5(ruby-1.8.7-p352.tar.bz2)= 0c61ea41d1b1183b219b9afe97f18f52
+SHA256(ruby-1.8.7-p352.tar.bz2)= 9df4e9108387f7d24a6ab8950984d0c0f8cdbc1dad63194e744f1a176d1c5576
+SIZE(ruby-1.8.7-p352.tar.bz2)= 4207576
+
+MD5(ruby-1.8.7-p352.zip)= 6f745837e50a86fe0c924dccfa65b4ec
+SHA256(ruby-1.8.7-p352.zip)= 24fd9eb8734fd81a51806d16bf3a5624e87a58b877a9a9affb1f6c6158cad5c9
+SIZE(ruby-1.8.7-p352.zip)= 5993612
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thank you for all the efforts you made in these three years.&lt;/p&gt;</description>
+          <pubDate>Sat, 02 Jul 2011 10:58:25 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/07/02/ruby-1-8-7-p352-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/07/02/ruby-1-8-7-p352-released/</link>
+        </item>
+
+        <item>
+          <title>Planned maintenance of redmine.ruby-lang.org</title>
+          <description>&lt;p&gt;&lt;a href=&quot;http://redmine.ruby-lang.org&quot;&gt;Ruby's issue tracker&lt;/a&gt; will be down from 2011-02-23 10:00+09:00 to 24:00 for planned maintenance.&lt;/p&gt;&lt;p&gt;If you have any issue to report, I am afraid but please post a mail to &lt;a href=&quot;../mailto:ruby-core@ruby-lang.org&quot;&gt;ruby-core&lt;/a&gt; mailing list or wait for my finishing maintenance.&lt;/p&gt; </description>
+          <pubDate>Tue, 22 Feb 2011 02:10:33 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/02/22/planned-maintenance-of-redmine-ruby-lang-org/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/02/22/planned-maintenance-of-redmine-ruby-lang-org/</link>
+        </item>
+
+        <item>
+          <title>Exception methods can bypass $SAFE</title>
+          <description>Exception#to_s method can be used to trick $SAFE check, which makes a untrusted codes to modify arbitrary strings.  &lt;h3&gt;Detailed description&lt;/h3&gt;
+
+&lt;p&gt;In Ruby's $SAFE semantics, safe level of 4 is used to run a untrusted code (such as plugin).  So in upper safe levels, some sort of operations are prohibited to prevent untrusted codes from attacking outer (trusted) data.&lt;/p&gt;
+
+&lt;p&gt;Exception#to_s was found to be problematic around it.  The method can trick safe level mechanism and destructively modifies an untaitned string to be tainted.  With this an attacker can modify arbitrary untainted strings like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$secret_path = &quot;foo&quot;
+
+proc do
+    $SAFE = 4
+    Exception.new($secret_path).to_s
+    $secret_path.replace &quot;/etc/passwd&quot;
+end.call
+
+open($secret_path) do
+  ...
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Affected versions&lt;/h3&gt;
+
+&lt;p&gt;Luckily this attack is ineffective for 1.9.x series of ruby.  Affected versions are restricted to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ruby 1.8.6 patchlevel 420 and all prior versions&lt;/li&gt;
+&lt;li&gt;Ruby 1.8.7 patchlevel 330 and all prior versions&lt;/li&gt;
+&lt;li&gt;Development versions of Ruby 1.8 (1.8.8dev)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solutions&lt;/h3&gt;
+
+&lt;p&gt;Please upgrade to a newer version.&lt;/p&gt;
+
+&lt;h3&gt;Updates&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1.8.7-334 was released to fix this issue.
+1.8.7 users are encouraged to upgrade.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Fri, 18 Feb 2011 12:14:50 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/02/18/exception-methods-can-bypass-safe/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/02/18/exception-methods-can-bypass-safe/</link>
+        </item>
+
+        <item>
+          <title>FileUtils is vulnerable to symlink race attacks</title>
+          <description>&lt;p&gt;A symlink race condition vulnerability was found in
+FileUtils.remove_entry_secure.  The vulnerability allows local users
+to delete arbitrary files and directories.&lt;/p&gt; &lt;h3&gt;Affected versions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ruby 1.8.6 patchlevel 420 and all prior versions&lt;/li&gt;
+&lt;li&gt;Ruby 1.8.7 patchlevel 330 and all prior versions&lt;/li&gt;
+&lt;li&gt;Development versions of Ruby 1.8 (1.8.8dev)&lt;/li&gt;
+&lt;li&gt;Ruby 1.9.1 patchlevel 430 and all prior versions&lt;/li&gt;
+&lt;li&gt;Ruby 1.9.2 patchlevel 136 and all prior versions&lt;/li&gt;
+&lt;li&gt;Development versions of Ruby 1.9 (1.9.3dev)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Solutions&lt;/h3&gt;
+
+&lt;p&gt;We have fixed this situation.  All affected users are encouraged to upgrade their ruby installation.&lt;/p&gt;
+
+&lt;p&gt;But please also note, that symlink race attacks are unavoidable when any of upper directories from where you want to delete are owned by someone you cannot trust.  So if you want to be secure, you must ensure that &lt;strong&gt;ALL&lt;/strong&gt; parent directories cannot be moved by other untrusted users.  For example, parent directories should not be owned by untrusted users, and should not be world writable except when the sticky bit set.&lt;/p&gt;
+
+&lt;h3&gt;Updates&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed typo. (vulnerabile -&gt; vulnerable)&lt;/li&gt;
+&lt;li&gt;1.8.7-334 was released to fix this issue.
+1.8.7 users are encouraged to upgrade.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;1.9.1-p431 was released to fix this issue.
+1.9.1 users are encouraged to upgrade.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;1.9.2-p180 was released to fix this issue.
+1.9.2 users are encouraged to upgrade.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Fixed affected versions for 1.9 series.&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Fri, 18 Feb 2011 11:49:16 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/</guid>
+          <link>http://www.ruby-lang.org/en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/</link>
+        </item>
+
+        <item>
+          <title>Ruby 1.9.2-p136 is released</title>
+          <description>Ruby 1.9.2-p136 has been released.  &lt;p&gt;This is the second release of Ruby 1.9.2. 
+It fixes many bugs found in 1.9.2-p0.
+See &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog&quot;&gt;ChangeLog&lt;/a&gt; for
+more detail.&lt;/p&gt;&lt;h3&gt;&lt;a name=&quot;label-0&quot; id=&quot;label-0&quot;&gt;Download&lt;/a&gt;&lt;/h3&gt;&lt;!-- RDLabel: &quot;Download&quot; --&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-1&quot; id=&quot;label-1&quot;&gt;SIZE:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:&quot; --&gt;
+&lt;dd&gt;
+8819324 bytes
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-2&quot; id=&quot;label-2&quot;&gt;MD5:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:&quot; --&gt;
+&lt;dd&gt;
+52958d35d1b437f5d9d225690de94c13
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-3&quot; id=&quot;label-3&quot;&gt;SHA256:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256:&quot; --&gt;
+&lt;dd&gt;
+33092509aad118f07f0483a3db1d4c5adaccf4bb0324cd43f44e3bd3dd1858cb
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-4&quot; id=&quot;label-4&quot;&gt;SIZE:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:&quot; --&gt;
+&lt;dd&gt;
+11155066 bytes
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-5&quot; id=&quot;label-5&quot;&gt;MD5:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:&quot; --&gt;
+&lt;dd&gt;
+6e17b200b907244478582b7d06cd512e
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-6&quot; id=&quot;label-6&quot;&gt;SHA256:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256:&quot; --&gt;
+&lt;dd&gt;
+c4314df44f3ab81230685fb51c296ce21034f4c719e2fcc0baba221d19f28746
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip&quot;&gt;&amp;lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip&amp;gt;&lt;/a&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a name=&quot;label-7&quot; id=&quot;label-7&quot;&gt;SIZE:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SIZE:&quot; --&gt;
+&lt;dd&gt;
+12566581 bytes
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-8&quot; id=&quot;label-8&quot;&gt;MD5:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;MD5:&quot; --&gt;
+&lt;dd&gt;
+f400021058e886786ded510a9f45b2c6
+&lt;/dd&gt;
+&lt;dt&gt;&lt;a name=&quot;label-9&quot; id=&quot;label-9&quot;&gt;SHA256:&lt;/a&gt;&lt;/dt&gt;&lt;!-- RDLabel: &quot;SHA256:&quot; --&gt;
+&lt;dd&gt;
+84ffc047b29032ba848dbbf50d3302de7ac732db1448e57303c27ad4b47c2c5b
+&lt;/dd&gt;
+&lt;/dl&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+          <pubDate>Sat, 25 Dec 2010 11:38:40 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2010/12/25/ruby-1-9-2-p136-is-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2010/12/25/ruby-1-9-2-p136-is-released/</link>
+        </item>
+
+        <item>
+          <title>Ruby 1.8.7-p330 released</title>
+          <description>&lt;p&gt;Here you are an annual release of 1.8.7 updates.&lt;/p&gt; &lt;h3&gt;Downloads&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip&quot;&gt;ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Checksums&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;MD5(ruby-1.8.7-p330.tar.gz)= 50a49edb787211598d08e756e733e42e
+SHA256(ruby-1.8.7-p330.tar.gz)= 6c261a463b5ffce1dc0920c980218379479dbdf94866d5ed53f1c71f1407c561
+SIZE(ruby-1.8.7-p330.tar.gz)= 4873383
+
+MD5(ruby-1.8.7-p330.tar.bz2)= 2689719fb42c8cf0aa336f8c8933f413
+SHA256(ruby-1.8.7-p330.tar.bz2)= 486c73b023b564c07e062e2e61114e81de970913b04fac6798d0fbe8b7723790
+SIZE(ruby-1.8.7-p330.tar.bz2)= 4191156
+
+MD5(ruby-1.8.7-p330.zip)= 537d424438a0fefe40bed91b022592d6
+SHA256(ruby-1.8.7-p330.zip)= 18df0d26d10a9be32275ba7b39ffd222a153fcc4669e4b772eab142d7e7bde90
+SIZE(ruby-1.8.7-p330.zip)= 5972777
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is worth noting that, though Ruby project experienced license
+change recently (from GPLv2 to 2-clause BSDL) and this is the
+first time since then to release something, that change do not
+reach to already-released versions like 1.8.7, matz said to us.
+So you do not have to worry about it.  If you are already using
+1.8.7, you can continue using it.&lt;/p&gt;
+
+&lt;p&gt;Thank you, happy holidays.&lt;/p&gt;</description>
+          <pubDate>Sat, 25 Dec 2010 09:06:36 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2010/12/25/ruby-1-8-7-p330-released/</guid>
+          <link>http://www.ruby-lang.org/en/news/2010/12/25/ruby-1-8-7-p330-released/</link>
+        </item>
+
+        <item>
+          <title>Fukuoka Ruby Award 2011 Competition - Grand Prize, $12,000!</title>
+          <description>&lt;p&gt;Even though it&amp;#8217;s last minute, if you are Ruby Rock Star, you have a
+chance to win a 1,000,000 Japanese Yen (approximately 12,000 U.S.
+dollars!). The Government of Fukuoka Japan (the Fukuoka Ruby Business
+Hub Promotion Committee) is hosting the Fukuoka Ruby Award 2011
+Competition. Not only the big prize, but also the inventor and creator
+of Ruby, Matz will be testing and reviewing your source code
+thoroughly. So it&amp;#8217;s very meaningful to apply. The official deadline is
+November 15th, but they will accept the late entries from the U.S.
+specially up until the end of this month(11/30). There aren&amp;#8217;t many
+applicants at this point (less than 10). Which means you have a very
+high chance to win the prize! So, hurry up! It&amp;#8217;s Free to enter!
+Please see &lt;a href=&quot;http://www.f-ruby.com/en/news/information/11&quot;&gt;this page&lt;/a&gt; for more details.&lt;/p&gt; </description>
+          <pubDate>Wed, 17 Nov 2010 03:17:36 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2010/11/17/fukuoka-ruby-award-2011-competition---grand-prize-12000/</guid>
+          <link>http://www.ruby-lang.org/en/news/2010/11/17/fukuoka-ruby-award-2011-competition---grand-prize-12000/</link>
+        </item>
+
+        <item>
+          <title>See Matz in San Francisco or Silicon Valley</title>
+          <description>&lt;p&gt;Matz is visiting San Francisco and Silicon Vally on October 7th and 11th. He will be talking about new opportunities for Ruby such as embedded applications, cloud computing, and super computing. Keynote Speech is &amp;#8220;Ruby 2.0 What we want to accomplish in the near future.&amp;#8221; Not only Matz but some cool startups from Fukuoka, Japan will give a demo on some of their latest developments using Ruby. For more info, please go to &lt;a href=&quot;http://investfk.com/&quot;&gt;http://investfk.com/&lt;/a&gt;.&lt;/p&gt;
+
+
+	&lt;p&gt;By the way, the reason why Matz is coming with startups from Fukuoka is Fukuoka is the only prefecture that has governmental Ruby committee in Japan. Fukuoka is one of the most enthusiastic city in Japan in terms of Ruby.&lt;/p&gt; </description>
+          <pubDate>Fri, 01 Oct 2010 00:13:19 GMT</pubDate>
+          <guid>http://www.ruby-lang.org/en/news/2010/10/01/see-matz-in-san-francisco-or-silicon-valley/</guid>
+          <link>http://www.ruby-lang.org/en/news/2010/10/01/see-matz-in-san-francisco-or-silicon-valley/</link>
+        </item>
+
+
+  </channel>
+</rss>

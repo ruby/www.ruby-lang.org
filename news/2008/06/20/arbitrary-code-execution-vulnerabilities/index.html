@@ -1,0 +1,79 @@
+---
+layout: page
+title: Arbitrary code execution vulnerabilities
+---
+
+<p>Multiple vulnerabilities in Ruby may lead to a denial of service (DoS)
+condition or allow execution of arbitrary code.</p>
+<div id="extended">
+<h2><a name="label-0" id="label-0">Impact</a></h2>
+<!-- RDLabel: "Impact" --><p>With the following vulnerabilities, an attacker can lead to denial of
+service condition or execute arbitrary code.</p>
+<ul>
+<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2662">CVE-2008-2662</a></li>
+<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2663">CVE-2008-2663</a></li>
+<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2725">CVE-2008-2725</a></li>
+<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2726">CVE-2008-2726</a></li>
+<li><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2664">CVE-2008-2664</a></li>
+</ul>
+<h2><a name="label-1" id="label-1">Vulnerable versions</a></h2>
+<!-- RDLabel: "Vulnerable versions" --><dl>
+<dt><a name="label-2" id="label-2">1.8 series</a></dt>
+<!-- RDLabel: "1.8 series" -->
+<dd>
+<ul>
+<li>1.8.4 and all prior versions</li>
+<li>1.8.5-p230 and all prior versions</li>
+<li>1.8.6-p229 and all prior versions</li>
+<li>1.8.7-p21 and all prior versions</li>
+</ul>
+</dd>
+<dt><a name="label-3" id="label-3">1.9 series</a></dt>
+<!-- RDLabel: "1.9 series" -->
+<dd>
+<ul>
+<li>1.9.0-1 and all prior versions</li>
+</ul>
+</dd>
+</dl>
+<h2><a name="label-4" id="label-4">Solution</a></h2>
+<!-- RDLabel: "Solution" --><dl>
+<dt><a name="label-5" id="label-5">1.8 series</a></dt>
+<!-- RDLabel: "1.8 series" -->
+<dd>
+Please upgrade to 1.8.5-p231, or 1.8.6-p230, or 1.8.7-p22. 
+<ul>
+<li>
+<a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz">&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz&gt;</a>
+      (md5sum: e900cf225d55414bffe878f00a85807c)</li>
+<li>
+<a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz">&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz&gt;</a>
+      (md5sum: 5e8247e39be2dc3c1a755579c340857f)</li>
+<li>
+<a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz">&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz&gt;</a>
+      (md5sum: fc3ede83a98f48d8cb6de2145f680ef2)</li>
+</ul>
+</dd>
+<dt><a name="label-6" id="label-6">1.9 series</a></dt>
+<!-- RDLabel: "1.9 series" -->
+<dd>
+Please upgrade to 1.9.0-2.
+<ul>
+<li>
+<a href="ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz">&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz&gt;</a>
+      (md5sum: 2a848b81ed1d6393b88eec8aa6173b75)</li>
+</ul>
+</dd>
+</dl>
+<p>These versions also fix the vulnerability of WEBrick (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1891">CVE-2008-1891</a>).</p>
+<p>Please note that a package that corrects this weakness may already be
+available through your package management software.</p>
+<h2><a name="label-7" id="label-7">Credit</a></h2>
+<!-- RDLabel: "Credit" --><p>Credit to Drew Yao of Apple Product Security for disclosing the problem to Ruby
+Security Team.</p>
+<h2><a name="label-8" id="label-8">Changes</a></h2>
+<!-- RDLabel: "Changes" --><ul>
+<li>2008-06-21 00:29 +09:00  removed wrong CVE IDs (CVE-2008-2727, CVE-2008-2728).</li>
+</ul>
+</div>
+            

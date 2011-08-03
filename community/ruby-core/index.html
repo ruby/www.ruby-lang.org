@@ -1,0 +1,117 @@
+---
+layout: page
+title: Ruby Core
+---
+
+<p>Now is a fantastic time to follow Ruby&#8217;s development, with Ruby 2.0 development underway.  With the increased attention Ruby has received in the past few years, there&#8217;s a growing need for good talent to help enhance Ruby and document its parts.  So, where do you start?</p>
+
+
+	<p>The topics related to Ruby development covered here are:</p>
+
+
+	<ul>
+<li><a href="#following-ruby">Using Subversion to Track Ruby Development</a></li>
+		<li><a href="#git-ruby">How to Use Git With the Main Ruby Repository</a></li>
+		<li><a href="#patching-ruby">Improving Ruby, Patch by Patch</a></li>
+		<li>and, <a href="#coding-standards">Rules for Core Developers</a>
+</li>
+	</ul>
+<h3>
+<a name="following-ruby"></a>Using Subversion to Track Ruby Development</h3>
+
+
+	<p>Checking out the latest Ruby source code is a matter of logging into the <a href="http://subversion.tigris.org/">Subversion</a> anonymous account. From your commandline:</p>
+
+
+<code><pre>
+ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+</pre></code>
+
+	<p>The <code>ruby</code> directory will now contain the latest source code for Ruby 1.9 (trunk), which is the development version of Ruby. The trunk was used to release a stable 1.9.1 version in January 2009. Currently patches applied to the trunk are backported to the stable 1_9_1 branch (see below).</p>
+
+
+	<p>If you&#8217;d like to follow patching of Ruby 1.9.1, you should use the <code>ruby_1_9_1</code> branch when checking out:</p>
+
+
+<code><pre>
+ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+</pre></code>
+
+	<p>If you&#8217;d like to follow patching of Ruby 1.8, you should use the <code>ruby_1_8_6</code> or <code>ruby_1_8_7</code> branch when checking out (depending on the version you&#8217;re using):</p>
+
+
+<code><pre>
+ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7
+</pre></code>
+
+	<p>This will check out the Ruby 1.8.7 development tree into a <code>ruby_1_8_7</code> directory.  Developers working on Ruby 1.8 are expected to migrate their changes to Ruby&#8217;s trunk, so often the two branches are very similiar, with the exception of improvements made by Matz and Nobu to the language itself.</p>
+
+
+	<p>If you prefer, you may browse <a href="http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/">Ruby&#8217;s repository via the web</a>.</p>
+
+
+	<p>For information about Subversion, please see <a href="http://subversion.tigris.org/faq.html">the Subversion <span class="caps">FAQ</span></a> and <a href="http://svnbook.org">the Subversion book</a>. Alternatively, you may find <a href="http://www.pragmaticprogrammer.com/titles/svn/">Pragmatic Version Control with Subversion</a> to be a useful introductory book.</p>
+
+
+	<h3>
+<a name="git-ruby"></a>How to Use Git With the Main Ruby Repository</h3>
+
+
+	<p>Those who prefer to use <a href="http://git-scm.com/">Git</a> over Subversion can find instructions with <a href="http://github.com/ruby/ruby">the mirror on GitHub</a>, both for <a href="http://wiki.github.com/shyouhei/ruby/committerhowto">those with commit access</a> and <a href="http://wiki.github.com/shyouhei/ruby/noncommitterhowto">everybody else</a>.</p>
+
+
+	<h3>
+<a name="patching-ruby"></a>Improving Ruby, Patch by Patch</h3>
+
+
+	<p>The core team maintains <a href="http://redmine.ruby-lang.org/">a bug tracker</a> for submitting patches and bug reports to Matz and the gang.  These reports also get submitted to the <a href="/en/community/mailing-lists/#ruby-core">Ruby-Core mailing list</a> for discussion, so you can be sure your request won&#8217;t go unnoticed.  You can also send your patches straight to the mailing list.  Either way, you are encouraged to take part in the discussion that ensues.</p>
+
+
+	<p>Please look over the <a href="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139">Patch Writer&#8217;s Guide</a> for some tips, straight from matz, on how to get your patches considered.</p>
+
+
+	<p>To summarize, the steps for building a patch are:</p>
+
+
+	<ol>
+<li>If you are fixing a bug in Ruby 1.8, check out a copy of Ruby 1.8 from Subversion using the <code>ruby_1_8</code> branch.<code><pre>
+ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+</pre></code>If you wish to add a feature to Ruby, check out the trunk of Ruby&#8217;s source. Even if you wish to add a feature to Ruby 1.8, it has to be proven in the trunk first.<code><pre>
+ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+</pre></code>
+</li>
+		<li>Add your improvements to the code.</li>
+		<li>Create a patch.<code><pre>
+ $ svn diff &gt; ruby-changes.patch
+</pre></code>
+</li>
+		<li>Email your patch to the <a href="/en/community/mailing-lists/#ruby-core">Ruby-Core mailing list</a> with a <span class="caps">CHANGELOG</span> entry describing the patch.</li>
+		<li>If there are no issues raised about the patch, committers will be given the approval to apply it.</li>
+	</ol>
+<p><strong>Please note:</strong> patches should be submitted as a <a href="http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html">unified diff</a>.  For more on how patches are merged, see <a href="http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch">the diffutils reference</a>.</p>
+
+
+	<p>Discussion of Ruby&#8217;s development converges on the <a href="/en/community/mailing-lists/#ruby-core">Ruby-Core mailing list</a>.  So, if you are curious about whether your patch is worthwhile or you want to spark a discussion about Ruby&#8217;s future, don&#8217;t hesitate to come aboard.  Be warned that off-topic discussions are not tolerated on this list, the noise level should be very low, topics should be pointed, well-conceived and well-written.  Since we&#8217;re addressing Ruby&#8217;s creator, let&#8217;s have some reverence.</p>
+
+
+	<p>Keep in mind that Ruby&#8217;s core developers live in Japan and, while many speak very good English, there is a significant timezone difference.  They also have an entire body of Japanese development lists happening alongside the English counterparts.  Be patient, if your claim isn&#8217;t resolved, be persistent&#8212;give it another shot a few days later.</p>
+
+
+	<h3>
+<a name="coding-standards"></a>Rules for Core Developers</h3>
+
+
+	<p>Generally, the developers of Ruby should be familiar with the source code and the style of development used by the team.  To be clear, the following guidelines should be honored when checking into Subversion:</p>
+
+
+	<ul>
+<li>All check-ins should be described in the <code>ChangeLog</code>, following the <a href="http://www.gnu.org/prep/standards/standards.html#Change-Logs"><span class="caps">GNU</span> conventions</a>.  (Many Ruby core developers use Emacs <code>add-log</code> mode, which can be accessed with the command <code>C-x 4 a</code>.)</li>
+		<li>Check-in dates should be given in Japan Standard Time (UTC+9).</li>
+		<li>The bulleted points from your ChangeLog should also be placed in the Subversion commit message.  This message will be automatically mailed to the Ruby-CVS list after you commit.</li>
+		<li>K&amp;R function declarations are used throughout Ruby&#8217;s source code and its packaged extensions.</li>
+		<li>Please, do not use C++-style comments (<code>//</code>), Ruby&#8217;s maintainers instead prefer the standard C multiline comment. (<code>/* .. */</code>)</li>
+	</ul>
+<div id="extended">
+
+</div>
+            

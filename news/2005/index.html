@@ -1,0 +1,249 @@
+---
+layout: page
+title: 2005 Archives
+---
+
+<div class="post">
+  <h3><a href="/en/news/2005/12/24/ruby-184-released/">Ruby 1.8.4 released!</a></h3>
+
+  <p>Ruby 1.8.4 has been released.
+The source is <a href="ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.4.tar.gz">ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.4.tar.gz</a>, the md5sum is bd8c2e593e1fa4b01fd98eaf016329bb, and filesize is 4,312,965 bytes.</p>
+
+  <p class="post-info">Posted by maki on 24 Dec 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/12/14/ruby-184-preview-2-released/">Ruby 1.8.4 preview 2 released</a></h3>
+
+  <p>Ruby 1.8.4 preview 2 has been released.  You can download the source
+<a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.4-preview2.tar.gz">here</a>.
+The md5 sum is: e5a48054fb34f09da17e8e8f04b8c706</p>
+
+  <p class="post-info">Posted by David Black on 14 Dec 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/10/11/new-ruby-web-magazine-goes-live/">New Ruby Web Magazine Goes Live</a></h3>
+
+  <p>The newest on-line resource for serious Ruby information has gone live.  
+<a href="http://www.artima.com/rubycs/index.html">Ruby Code &amp; Style</a>, an on-line magazine from <a href="http://www.artima.com">Artima</a>, has just published issue #1.
+Check out the names on the advisory board. It&#8217;s a Who&#8217;s Who of everybody who&#8217;s anybody in the Ruby world.
+The premiere issue has three outstanding articles:
+First up, Jack Herrington, author of Code Generation in Action (Manning, 2002) and Podcasting Hacks (O&#8217;Reilly, 2005), has written <a href="http://www.artima.com/rubycs/articles/modular_apis_with_ruby.html">Modular Architectures with Ruby</a>
+Next, Austin Ziegler gives us <a href="http://www.artima.com/rubycs/articles/pdf_writer.html">Creating Printable Documents with Ruby</a>
+And there&#8217;s a reprint of Ara Howard&#8217;s article, <a href="http://www.artima.com/rubycs/articles/rubyqueue.html">Linux Clustering with Ruby Queue: Small is Beautiful</a>, which first appeared in Linux Journal but deserves repeat attention
+A big thanks to the advisory board, and especial to Bill Venners for starting this whole thing.</p>
+
+  <p class="post-info">Posted by james on 11 Oct 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/10/10/euruko-2005/">EuRuKo 2005</a></h3>
+
+  <p><a href="http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko05">EuRuKo 2005</a>, the European Ruby Conference, will be in Munich, Germany, October 15 and 16, 2005.  
+If you have any means whatsoever to attend, go.  It is still fairly small, and the intimate feeling of the conference is something special.
+You can see the current agenda <a href="http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko05AgendaDetail">here</a>, but last year there were assorted spontaneous talks and discussions as well and it will likely be the same this year.</p>
+
+  <p class="post-info">Posted by james on 10 Oct 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/">Ruby vulnerability in the safe level settings</a></h3>
+
+  <p>The Ruby versions listed below have a vulnerability that allows an arbitrary code to run bypassing the safe level check.</p>
+
+<pre>
+Date published: 2005-10-02
+Versions affected:
+  Stable releases(1.8.x) - Versions 1.8.2 and earlier (fixed on Version 1.8.3)
+  Old releases(1.6.x) - Versions 1.6.8 and earlier
+  Development versions(1.9.0) - Versions 2005-09-01 and earlier (fixed on Version 2005-09-02)
+</pre>
+
+    <h4>Solution:</h4>
+
+    <p>Users of stable releases (1.8.x) and development versions (1.9.0) should update Ruby to the latest versions listed above.
+Users of old releases (1.6.x) should update to the stable releases (1.8.x) or download the latest snapshot for 1.6.x from the <span class="caps"><span class="caps">URL</span></span> below, build, and install.</p>
+
+    <p><a href="ftp://ftp.ruby-lang.org/pub/ruby/snapshot-1.6.tar.gz">ftp://ftp.ruby-lang.org/pub/ruby/snapshot-1.6.tar.gz</a></p>
+
+    <p>A patch from ruby-1.6.8.tar.gz is also provided at the following location:</p>
+
+    <p><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.6/1.6.8-patch1.gz">ftp://ftp.ruby-lang.org/pub/ruby/1.6/1.6.8-patch1.gz</a></p>
+
+    <p>md5sum: 7a97381d61576e68aec94d60bc4cbbab</p>
+
+    <p>A patch from ruby-1.8.2.tar.gz is also provided at the following location:</p>
+
+    <p><a href="ftp://ftp.ruby-lang.org/pub/ruby/1.8/1.8.2-patch1.gz">ftp://ftp.ruby-lang.org/pub/ruby/1.8/1.8.2-patch1.gz</a></p>
+
+    <p>md5sum: 4f32bae4546421a20a9211253da103d3</p>
+
+    <h4>Description:</h4>
+
+The Object Oriented Scripting Language Ruby supports safely executing an
+untrusted code with two mechanisms: safe level and taint flag on objects.
+A vulnerability has been found that allows bypassing these mechanisms.
+By using the vulnerability, arbitrary code can be executed beyond the
+restrictions specified in each safe level. Therefore, Ruby has to be
+updated on all systems that use safe level to execute untrusted code.
+    <h4>Reference:</h4>
+
+    <p><span class="caps"><span class="caps">JVN</span></span>#62914675 <a href="http://jvn.jp/jp/JVN%2362914675/index.html">http://jvn.jp/jp/JVN%2362914675/index.html</a>
+(in Japanese)</p>
+
+    <h4>Acknowledgment:</h4>
+
+    <p>We thank Dr. Yutaka Oiwa, Research Center for Information Security,
+National Institute of Advanced Industrial Science and Technology, who
+found the vulnerability that allows bypassing safe level.</p>
+
+  <p class="post-info">Posted by Matz on 03 Oct 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/09/21/ruby-183-released/">Ruby 1.8.3 released</a></h3>
+
+  <p>Ruby 1.8.3 has been released.  The source is
+<a href="ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.3.tar.gz">here</a>,
+and the md5sum is 63d6c2bddd6af86664e338b31f3189a6.</p>
+
+  <p class="post-info">Posted by David Black on 21 Sep 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/09/07/registration-for-rubyconf-2005-is-closing-soon/">Registration for RubyConf 2005 is <span class="caps">CLOSING</span> soon.</a></h3>
+
+  <p>Registration for RubyConf 2005 is <span class="caps"><span class="caps">CLOSING</span></span> soon.
+The schedule is as follows:</p>
+
+    <ul>
+<li>Friday, September 16: last day for full registration (meals included)</li>
+        <li>Friday, September 23: last day for events-only registration (no meals)</li>
+    </ul>
+<p>So, all you stragglers, get over to the <a href="http://www.rubycentral.org/conference/register">RubyConf site</a></p>
+
+  <p class="post-info">Posted by james on 07 Sep 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/08/31/rubyconf-2005-registration-time-is-running-out/">RubyConf 2005 Registration: Time is running out</a></h3>
+
+  <p>David Black <a href="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/154337">announced</a> on ruby-talk that there are now  136 registrants, from 12 countries, for RubyConf 2005.  If you still have not registered, do it now.  
+Full registration  (i.e., full meal plans) ends in two weeks.  Non-full may continue past that, but not forever.  
+Go to the <a href="http://www.rubyconf.org">RubyConf</a> site for complete registration details.</p>
+
+  <p class="post-info">Posted by james on 31 Aug 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/08/20/rubyconf-2005-registration-tops-100/">RubyConf 2005 Registration Tops 100</a></h3>
+
+  <p>David A. Black recently reported on ruby-talk that over 100 people have registered for <a href="http://www.rubyconf.org/">RubyConf 2005</a>, to be held this coming October 14-16 in San Diego.
+If you haven&#8217;t yet registered, now is the time!</p>
+
+  <p class="post-info">Posted by Unknown Author on 20 Aug 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/07/02/securityruby-langorg/">security@ruby-lang.org</a></h3>
+
+  <p>Created <a href="mailto:security@ruby-lang.org">security@ruby-lang.org</a> .
+If you have found vulnerabilities in Ruby, please report to this address.
+security@ruby-lang.org is a private ML, and anyone can post to it without subscription.</p>
+
+  <p class="post-info">Posted by Shugo Maeda on 02 Jul 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/07/01/xmlrpcipimethods-vulnerability/"><span class="caps">XMLRPC</span>.iPIMethods Vulnerability</a></h3>
+
+  <p>On Fri Jun 17 2005, a vulnerability of <span class="caps"><span class="caps">XMLRPC</span></span>.iPIMethods was reported
+in [ruby-core:05237].  Remote attackers can execute arbitrary commands by this vulnerability.</p>
+
+    <h4>Affected Programs</h4>
+
+    <p>Programs providing <span class="caps"><span class="caps">XML</span></span>-RPC services by <span class="caps"><span class="caps">XMLRPC</span></span>.iPIMethods are affected.</p>
+
+    <h4>Fix</h4>
+
+    <p>This vulnerability was already fixed in both the <span class="caps"><span class="caps">CVS HEAD</span></span> and the ruby_1_8
+branch.</p>
+
+    <p>Please apply this patch for ruby-1.8.2.</p>
+
+    <ul>
+<li><a href="/patches/ruby-1.8.2-xmlrpc-ipimethods-fix.diff">ruby-1.8.2-xmlrpc-ipimethods-fix.diff</a></li>
+    </ul>
+<p class="post-info">Posted by Shugo Maeda on 01 Jul 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/06/22/upgrade-to-debian-gnulinux-31/">Upgrade to Debian <span class="caps">GNU</span>/Linux 3.1</a></h3>
+
+  <p>We&#8217;ll upgrade this host to Debian <span class="caps"><span class="caps">GNU</span></span>/Linux 3.1 (sarge)
+on Wed Jun 29 05:00:00 <span class="caps"><span class="caps">UTC 2005</span></span>.
+Services will be stopped for a while.
+Successfully <span class="caps"><span class="caps">DONE</span></span>. Thank you.</p>
+
+  <p class="post-info">Posted by Shugo Maeda on 22 Jun 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/04/27/anonymous-cvs-service-restart/">Anonymous <span class="caps">CVS</span> Service Restart</a></h3>
+
+  <p>Anonymous <span class="caps"><span class="caps">CVS</span></span> Service was restarted.
+Thank you.</p>
+
+  <p class="post-info">Posted by Shugo Maeda on 27 Apr 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/04/19/anonymous-cvs-service-stopped/">Anonymous <span class="caps">CVS</span> Service Stopped</a></h3>
+
+  <p>We stopped the anonymous <span class="caps"><span class="caps">CVS</span></span> service because of <a href="https://ccvs.cvshome.org/servlets/NewsItemView?newsItemID=141">Security Update of <span class="caps"><span class="caps">CVS</span></span></a>.
+The service will be restarted after Debian package update.</p>
+
+  <p class="post-info">Posted by Shugo Maeda on 19 Apr 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/04/14/server-maintenance/">Server Maintenance</a></h3>
+
+  <p>We&#8217;ll be performing server maintenance on Thu Apr 14 03:00:00 <span class="caps"><span class="caps">UTC 2005</span></span>. It may be down briefly.</p>
+
+  <p class="post-info">Posted by Unknown Author on 14 Apr 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/03/23/rubyconf-2005-preregistration-now-open/">RubyConf 2005 Preregistration now open</a></h3>
+
+  <p>Preregistration for the upcoming Fifth Annual International Ruby Conference (RubyConf 2005) is now open.  RubyConf 2005 will be held in San Diego, CA, October 14-16.
+You can preregister 
+<a href="http://www.rubycentral.org/conference/prereg/">here</a>.  The full announcement is <a href="http://www.ruby-talk.org/cgi-bin/scat.rb/ruby/ruby-talk/134660">here</a>.</p>
+
+  <p class="post-info">Posted by Unknown Author on 23 Mar 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/03/11/rubycentral-codefest-grants-announced/">RubyCentral CodeFest Grants Announced</a></h3>
+
+  <p>Ruby Central <a href="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/133197">announced</a> the the recipients of its first <a href="http://www.rubycentral.org/grant/announce.html">CodeFest Grant Program</a>.
+Five projects were awarded funding to support regional coding sessions, whose aim are to build working Ruby code to fill a void in the landscape of available Ruby libraries.
+Congratulations to the recipients!</p>
+
+  <p class="post-info">Posted by chad on 11 Mar 2005</p>
+</div>
+
+<div class="post">
+  <h3><a href="/en/news/2005/02/20/ruby-weekly-news/">Ruby Weekly News</a></h3>
+
+  <p>Tim Sutherland <a href="http://ruby-talk.org/cgi-bin/scat.rb/ruby/ruby-talk/131807">announced</a> the latest publication of the <a href="http://rubygarden.org/ruby/ruby?RubyNews/2005-02-14">Ruby Weekly News</a>.  The Ruby Weekly News is a weekly summary of the <a href="http://www.ruby-talk.org">ruby-talk</a> mailing list.  Tim recently resurrected it after an extended hiatus.
+The Ruby Weekly News is a great way to stay in touch with what&#8217;s happening in the world of ruby-talk as its volume continues to grow.  Many thanks to Tim for this valuable resource!</p>
+
+  <p class="post-info">Posted by chad on 20 Feb 2005</p>
+</div>
+<div id="extended">
+
+</div>
+            

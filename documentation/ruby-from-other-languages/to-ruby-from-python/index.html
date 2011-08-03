@@ -1,0 +1,69 @@
+---
+layout: page
+title: To Ruby From Python
+---
+
+<p>Python is another very nice general purpose programming language.
+Going from Python to Ruby, you&#8217;ll find that there&#8217;s a little bit more
+syntax to learn than with Python.</p>
+
+
+	<h3>Similarities</h3>
+
+
+As with Python, in Ruby,...
+	<ul>
+<li>There&#8217;s an interactive prompt (called <code>irb</code>).</li>
+		<li>You can read docs on the command line (with the <code>ri</code> command instead
+of <code>pydoc</code>).</li>
+		<li>There are no special line terminators (except the usual newline).</li>
+		<li>String literals can span multiple lines like Python&#8217;s triple-quoted
+strings.</li>
+		<li>Brackets are for lists, and braces are for dicts (which, in Ruby, are called
+&#8220;hashes&#8221;).</li>
+		<li>Arrays work the same (adding them makes one long array, but composing
+them like this <code>a3 = [ a1, a2 ]</code> gives you an array of arrays).</li>
+		<li>Objects are strongly and dynamically typed.</li>
+		<li>Everything is an object, and variables are just references to objects.</li>
+		<li>Although the keywords are a bit different, exceptions work about the same.</li>
+		<li>You&#8217;ve got embedded doc tools (Ruby&#8217;s is called rdoc).</li>
+	</ul>
+<h3>Differences</h3>
+
+
+Unlike Python, in Ruby,...
+	<ul>
+<li>Strings are mutable.</li>
+		<li>You can make constants (variables whose value you don&#8217;t intend to change).</li>
+		<li>There are some enforced case-conventions (ex. class names start
+with a capital letter, variables start with a lowercase letter).</li>
+		<li>There&#8217;s only one kind of list container (an Array), and it&#8217;s mutable.</li>
+		<li>Double-quoted strings allow escape sequences (like \t) and
+a special &#8220;expression substitution&#8221; syntax (which allows you to insert
+the results of Ruby expressions directly into other strings without
+having to <code>"add " + "strings " + "together"</code>). Single-quoted strings
+are like Python&#8217;s <code>r"raw strings"</code>.</li>
+		<li>There are no &#8220;new style&#8221; and &#8220;old style&#8221; classes. Just one kind.</li>
+		<li>You never directly access attributes. With Ruby, it&#8217;s all method calls.</li>
+		<li>Parentheses for method calls are usually optional.</li>
+		<li>There&#8217;s <code>public</code>, <code>private</code>, and <code>protected</code> to enforce access, instead
+of Python&#8217;s <code>_voluntary_</code> underscore <code>__convention__</code>.</li>
+		<li>&#8220;mixin&#8217;s&#8221; are used instead of multiple inheritance.</li>
+		<li>You can add or modify the methods of built-in classes. Both languages let you open up and modify classes at any point, but Python prevents modification of built-ins &#8212; Ruby does not.</li>
+		<li>You&#8217;ve got <code>true</code> and <code>false</code> instead of <code>True</code> and <code>False</code> (and <code>nil</code>
+instead of <code>None</code>).</li>
+		<li>When tested for truth, only <code>false</code> and <code>nil</code> evaluate to a false value.
+Everything else is true (including <code>0</code>, <code>0.0</code>, <code>""</code>, and <code>[]</code>).</li>
+		<li>It&#8217;s <code>elsif</code> instead of <code>elif</code>.</li>
+		<li>It&#8217;s <code>require</code> instead of <code>import</code>. Otherwise though, usage is the same.</li>
+		<li>The usual-style comments on the line(s) <em>above</em> things (instead of
+docstrings below them) are used for generating docs.</li>
+		<li>There are a number of shortcuts that, although give you more to
+remember, you quickly learn. They tend to make Ruby fun and very
+productive.</li>
+		<li>There&#8217;s no way to unset a variable once set (like Python&#8217;s <code>del</code> statement).  You can reset a variable to <code>nil</code>, allowing the old contents to be garbage collected, but the variable will remain in the symbol table as long as it is in scope.</li>
+	</ul>
+<div id="extended">
+
+</div>
+            

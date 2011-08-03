@@ -1,0 +1,305 @@
+---
+layout: page
+title: Ruby From Other Languages
+---
+
+<p>When you first look at some Ruby code, it will likely remind you of other
+programming languages you&#8217;ve used. This is on purpose. Much of the
+syntax is familiar to users of  Perl, Python, and Java (among other
+languages), so if you&#8217;ve used those, learning Ruby will be a piece of cake.</p>
+
+
+	<p>This document contains two major sections. The first attempts
+to be a rapid-fire summary of what you can expect to see when going
+from language <em>X</em> to Ruby. The second section tackles the major
+language features and how they might compare to what you&#8217;re already
+familiar with.</p>
+
+
+	<h2>What to Expect: <em>Language X</em> to Ruby</h2>
+
+
+	<ul>
+<li><a href="/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/">To Ruby From C and C++</a></li>
+		<li><a href="/en/documentation/ruby-from-other-languages/to-ruby-from-java/">To Ruby From Java</a></li>
+		<li><a href="/en/documentation/ruby-from-other-languages/to-ruby-from-perl/">To Ruby From Perl</a></li>
+		<li><a href="/en/documentation/ruby-from-other-languages/to-ruby-from-php/">To Ruby From <span class="caps">PHP</span></a></li>
+		<li><a href="/en/documentation/ruby-from-other-languages/to-ruby-from-python/">To Ruby From Python</a></li>
+	</ul>
+<h2>Important Language Features And Some Gotchas</h2>
+
+
+	<p>Here are some pointers and hints on major Ruby features you&#8217;ll
+see while learning Ruby.</p>
+
+
+	<h3>Iteration</h3>
+
+
+	<p>Two Ruby features that are a bit unlike what you may have seen before,
+and which take some getting used to, are &#8220;blocks&#8221; and iterators. Instead
+of looping over an index (like with C, C++, or pre-1.5 Java),
+or looping over a list (like Perl&#8217;s <tt>for (@a) {...}</tt>, or Python&#8217;s
+<tt>for i in aList: ...</tt>), with Ruby you&#8217;ll very often instead see</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">some_list</span><span class="punct">.</span><span class="ident">each</span> <span class="keyword">do</span> <span class="punct">|</span><span class="ident">this_item</span><span class="punct">|</span><br>&#160;&#160;<span class="comment"># We're inside the block.</span><br>&#160;&#160;<span class="comment"># deal with this_item.</span><br><span class="keyword">end</span></code></pre>
+
+	<p>For more info on <code>each</code> (and it&#8217;s friends <code>collect</code>, <code>find</code>, <code>inject</code>, <code>sort</code>, etc.),
+see <code>ri Enumerable</code> (and then <tt>ri Enumerable#<i>func_name</i></tt>).</p>
+
+
+	<h3>Everything has a value</h3>
+
+
+	<p>There&#8217;s no difference between an expression and a statement. Everything has a value,
+even if that value is <strong>nil</strong>. This is possible:</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">x</span> <span class="punct">=</span> <span class="number">10</span><br><span class="ident">y</span> <span class="punct">=</span> <span class="number">11</span><br><span class="ident">z</span> <span class="punct">=</span> <span class="keyword">if</span> <span class="ident">x</span> <span class="punct">&lt;</span> <span class="ident">y</span><br>&#160;&#160;<span class="constant">true</span><br><span class="keyword">else</span><br>&#160;&#160;<span class="constant">false</span><br><span class="keyword">end</span><br><span class="ident">z</span> <span class="comment"># =&gt; true</span></code></pre>
+
+	<h3>Symbols are not lightweight Strings</h3>
+
+
+	<p>Many Ruby newbies struggle with understanding what Symbols are, and what they can
+be used for.</p>
+
+
+	<p>Symbols can best be described as identities. A symbol is all about <strong>who</strong> it is,
+not <strong>what</strong> it is. Fire up <code>irb</code> and see the difference:</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">001</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="symbol">:george</span><span class="punct">.</span><span class="ident">object_id</span> <span class="punct">==</span> <span class="symbol">:george</span><span class="punct">.</span><span class="ident">object_id</span><br><span class="punct">=&gt;</span> <span class="constant">true</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">002</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="punct">"</span><span class="string">george</span><span class="punct">".</span><span class="ident">object_id</span> <span class="punct">==</span> <span class="punct">"</span><span class="string">george</span><span class="punct">".</span><span class="ident">object_id</span><br><span class="punct">=&gt;</span> <span class="constant">false</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">003</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span></code></pre>
+
+	<p>The <code>object_id</code> methods returns the identity of an Object. If two
+objects have the same <code>object_id</code>, they are the same (point to the
+same Object in memory).</p>
+
+
+	<p>As you can see, once you have used a Symbol once, any Symbol with the same
+characters references the same Object in memory. For any given two Symbols that
+represent the same characters, the <code>object_id</code>s match.</p>
+
+
+	<p>Now take a look at the String (&#8220;george&#8221;). The <code>object_id</code>s don&#8217;t
+match. That means they&#8217;re referencing two different objects in memory.
+Whenever you use a new String, Ruby allocates memory for it.</p>
+
+
+	<p>If you&#8217;re in doubt whether to use a Symbol or a String, consider what&#8217;s more
+important: the identity of an object (i.e. a Hash key), or the contents (in
+the example above, &#8220;george&#8221;).</p>
+
+
+	<h3>Everything is an Object</h3>
+
+
+	<p>&#8220;Everything is an object&#8221; isn&#8217;t just hyperbole. Even classes and integers are
+objects, and you can do the same things with them as with any other object:</p>
+
+
+<pre class="code ruby-code"><code><span class="comment"># This is the same as</span><br><span class="comment"># class MyClass</span><br><span class="comment">#   attr_accessor :instance_var</span><br><span class="comment"># end</span><br><span class="constant">MyClass</span> <span class="punct">=</span> <span class="constant">Class</span><span class="punct">.</span><span class="ident">new</span> <span class="keyword">do</span><br>&#160;&#160;<span class="ident">attr_accessor</span> <span class="symbol">:instance_var</span><br><span class="keyword">end</span></code></pre>
+
+	<h3>Variable Constants</h3>
+
+
+	<p>Constants are not really constant. If you modify an already initialized constant,
+it will trigger a warning, but not halt your program. That isn&#8217;t to say you
+<strong>should</strong> redefine constants, though.</p>
+
+
+	<h3>Naming conventions</h3>
+
+
+	<p>Ruby enforces some naming conventions. If an identifier starts with a capital letter,
+it is a constant. If it starts with a dollar sign ($), it is a global variable. If
+it starts with <code>@</code>, it is an instance variable. If it starts with <code>@@</code>,
+it is a class variable.</p>
+
+
+	<p>Method names, however, are allowed to start with capital letters. This can lead to
+confusion, as the example below shows:</p>
+
+
+<pre class="code ruby-code"><code><span class="constant">Constant</span> <span class="punct">=</span> <span class="number">10</span><br><span class="keyword">def </span><span class="method">Constant</span><br>&#160;&#160;<span class="number">11</span><br><span class="keyword">end</span></code></pre>
+
+	<p>Now <code>Constant</code> is 10, but <code>Constant()</code> is 11.</p>
+
+
+	<h3>Fake keyword parameters</h3>
+
+
+	<p>Ruby doesn&#8217;t have keyword parameters, like Python has. However, it can be faked by
+using symbols and hashes. Ruby on Rails, among others, uses this heavily. Example:</p>
+
+
+<pre class="code ruby-code"><code><span class="keyword">def </span><span class="method">some_keyword_params</span><span class="punct">(</span> <span class="ident">params</span> <span class="punct">)</span><br>&#160;&#160;<span class="ident">params</span><br><span class="keyword">end</span><br><span class="ident">some_keyword_params</span><span class="punct">(</span> <span class="symbol">:param_one</span> <span class="punct">=&gt;</span> <span class="number">10</span><span class="punct">,</span> <span class="symbol">:param_two</span> <span class="punct">=&gt;</span> <span class="number">42</span> <span class="punct">)</span><br><span class="comment"># =&gt; {:param_one=&gt;10, :param_two=&gt;42}</span></code></pre>
+
+	<h3>The universal truth</h3>
+
+
+	<p>In Ruby, everything except <strong>nil</strong> and <strong>false</strong> is considered true. In C, Python and
+many other languages, 0 and possibly other values, such as empty lists, are consided
+false. Take a look at the following Python code (the example applies to other languages,
+too):</p>
+
+
+<pre class="code ruby-code"><code><span class="comment"># in Python</span><br><span class="keyword">if</span> <span class="number">0</span><span class="punct">:</span><br>&#160;&#160;<span class="ident">print</span> <span class="punct">"</span><span class="string">0 is true</span><span class="punct">"</span><br><span class="keyword">else</span><span class="punct">:</span><br>&#160;&#160;<span class="ident">print</span> <span class="punct">"</span><span class="string">0 is false</span><span class="punct">"</span></code></pre>
+
+	<p>This will print &#8220;0 is false&#8221;. The equivalent Ruby:</p>
+
+
+<pre class="code ruby-code"><code><span class="comment"># in Ruby</span><br><span class="keyword">if</span> <span class="number">0</span><br>&#160;&#160;<span class="ident">puts</span> <span class="punct">"</span><span class="string">0 is true</span><span class="punct">"</span><br><span class="keyword">else</span><br>&#160;&#160;<span class="ident">puts</span> <span class="punct">"</span><span class="string">0 is false</span><span class="punct">"</span><br><span class="keyword">end</span></code></pre>
+
+	<p>Prints &#8220;0 is true&#8221;.</p>
+
+
+	<h3>Access modifiers apply until the end of scope</h3>
+
+
+	<p>In the following Ruby code,</p>
+
+
+<pre class="code ruby-code"><code><span class="keyword">class </span><span class="class">MyClass</span><br>&#160;&#160;<span class="ident">private</span><br>&#160;&#160;<span class="keyword">def </span><span class="method">a_method</span><span class="punct">;</span> <span class="constant">true</span><span class="punct">;</span> <span class="keyword">end</span><br>&#160;&#160;<span class="keyword">def </span><span class="method">another_method</span><span class="punct">;</span> <span class="constant">false</span><span class="punct">;</span> <span class="keyword">end</span><br><span class="keyword">end</span></code></pre>
+
+	<p>You might expect <code>another_method</code> to be public. Not so. The &#8216;private&#8217; access
+modifier continues until the end of the scope, or until another access modifier
+pops up, whichever comes first. By default, methods are public:</p>
+
+
+<pre class="code ruby-code"><code><span class="keyword">class </span><span class="class">MyClass</span><br>&#160;&#160;<span class="comment"># Now a_method is public</span><br>&#160;&#160;<span class="keyword">def </span><span class="method">a_method</span><span class="punct">;</span> <span class="constant">true</span><span class="punct">;</span> <span class="keyword">end</span><br><br>&#160;&#160;<span class="ident">private</span><br><br>&#160;&#160;<span class="comment"># another_method is private</span><br>&#160;&#160;<span class="keyword">def </span><span class="method">another_method</span><span class="punct">;</span> <span class="constant">false</span><span class="punct">;</span> <span class="keyword">end</span><br><span class="keyword">end</span></code></pre>
+
+<code>public</code>, <code>private</code> and <code>protected</code> are really methods,
+so they can take parameters. If you pass a Symbol to one of them, that method&#8217;s visibility
+is altered.
+
+	<h3>Method access</h3>
+
+
+<p>In Java, <code>public</code> means a method is accessible by anyone. <code>protected</code>
+means the class&#8217;s instances, instances of descendant classes, and instances of classes in the same package
+can access it, but not anyone else, and <code>private</code> means nobody besides the classes instances 
+can access the method.</p>
+
+	<p>Ruby differs slightly. <code>public</code> is, naturally, public. <code>private</code> means
+the method(s) are accessible only when they can be called without an explicit receiver. Only <strong>self</strong> is
+allowed to be the receiver of a private method call.</p>
+
+
+<code>protected</code> is the one to be on the lookout for. A protected method can be called
+from a class or descendant class instances, but also with another instance as its receiver.
+
+	<p>Example, adapted from the <a href="http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F">Ruby <span class="caps">FAQ</span></a>:</p>
+
+
+<pre class="code ruby-code"><code><span class="global">$ </span><span class="ident">irb</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">001</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="keyword">class </span><span class="class">Test</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">002</span><span class="punct">:</span><span class="number">1</span><span class="punct">&gt;</span>   <span class="comment"># public by default</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">003</span><span class="punct">:</span><span class="number">1</span><span class="punct">*</span>   <span class="keyword">def </span><span class="method">func</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">004</span><span class="punct">:</span><span class="number">2</span><span class="punct">&gt;</span>     <span class="number">99</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">005</span><span class="punct">:</span><span class="number">2</span><span class="punct">&gt;</span>   <span class="keyword">end</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">006</span><span class="punct">:</span><span class="number">1</span><span class="punct">&gt;</span> <br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">007</span><span class="punct">:</span><span class="number">1</span><span class="punct">*</span>   <span class="keyword">def </span><span class="method">==</span><span class="punct">(</span><span class="ident">other</span><span class="punct">)</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">008</span><span class="punct">:</span><span class="number">2</span><span class="punct">&gt;</span>     <span class="ident">func</span> <span class="punct">==</span> <span class="ident">other</span><span class="punct">.</span><span class="ident">func</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">009</span><span class="punct">:</span><span class="number">2</span><span class="punct">&gt;</span>   <span class="keyword">end</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">010</span><span class="punct">:</span><span class="number">1</span><span class="punct">&gt;</span> <span class="keyword">end</span><br><span class="punct">=&gt;</span> <span class="constant">nil</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">011</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">012</span><span class="punct">:</span><span class="number">0</span><span class="punct">*</span> <span class="ident">t1</span> <span class="punct">=</span> <span class="constant">Test</span><span class="punct">.</span><span class="ident">new</span><br><span class="punct">=&gt;</span> <span class="comment">#&lt;Test:0x34ab50&gt;</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">013</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="ident">t2</span> <span class="punct">=</span> <span class="constant">Test</span><span class="punct">.</span><span class="ident">new</span><br><span class="punct">=&gt;</span> <span class="comment">#&lt;Test:0x342784&gt;</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">014</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="ident">t1</span> <span class="punct">==</span> <span class="ident">t2</span><br><span class="punct">=&gt;</span> <span class="constant">true</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">015</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="comment"># now make `func` protected, still works</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">016</span><span class="punct">:</span><span class="number">0</span><span class="punct">*</span> <span class="comment"># because protected allows the other reference</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">017</span><span class="punct">:</span><span class="number">0</span><span class="punct">*</span> <span class="keyword">class </span><span class="class">Test</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">018</span><span class="punct">:</span><span class="number">1</span><span class="punct">&gt;</span>   <span class="ident">protected</span> <span class="symbol">:func</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">019</span><span class="punct">:</span><span class="number">1</span><span class="punct">&gt;</span> <span class="keyword">end</span><br><span class="punct">=&gt;</span> <span class="constant">Test</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">020</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="ident">t1</span> <span class="punct">==</span> <span class="ident">t2</span><br><span class="punct">=&gt;</span> <span class="constant">true</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">021</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="comment"># now make `func` private</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">022</span><span class="punct">:</span><span class="number">0</span><span class="punct">*</span> <span class="keyword">class </span><span class="class">Test</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">023</span><span class="punct">:</span><span class="number">1</span><span class="punct">&gt;</span>   <span class="ident">private</span> <span class="symbol">:func</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">024</span><span class="punct">:</span><span class="number">1</span><span class="punct">&gt;</span> <span class="keyword">end</span><br><span class="punct">=&gt;</span> <span class="constant">Test</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">025</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span> <span class="ident">t1</span> <span class="punct">==</span> <span class="ident">t2</span><br><span class="constant">NoMethodError</span><span class="punct">:</span> <span class="ident">private</span> <span class="ident">method</span> `<span class="ident">func</span><span class="punct">'</span><span class="string"> called for #&lt;Test:0x342784&gt;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;from (irb):8:in `==</span><span class="punct">'</span><br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span class="ident">from</span> <span class="punct">(</span><span class="ident">irb</span><span class="punct">):</span><span class="number">25</span><br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span class="ident">from</span> <span class="punct">:</span><span class="number">0</span><br><span class="ident">irb</span><span class="punct">(</span><span class="ident">main</span><span class="punct">):</span><span class="number">026</span><span class="punct">:</span><span class="number">0</span><span class="punct">&gt;</span></code></pre>
+
+	<h3>Classes are open</h3>
+
+
+Ruby classes are open. You can open them up, add to them, and change them
+at any time. Even core classes, like <code>Fixnum</code> or even
+<code>Object</code>, the parent of all objects. Ruby on Rails defines a
+bunch of methods for dealing with time on <code>Fixnum</code>. Watch:
+
+<pre class="code ruby-code"><code><span class="keyword">class </span><span class="class">Fixnum</span><br>&#160;&#160;<span class="keyword">def </span><span class="method">hours</span><br>&#160;&#160;&#160;&#160;<span class="constant">self</span> <span class="punct">*</span> <span class="number">3600</span> <span class="comment"># number of seconds in an hour</span><br>&#160;&#160;<span class="keyword">end</span><br>&#160;&#160;<span class="keyword">alias</span> <span class="ident">hour</span> <span class="ident">hours</span><br><span class="keyword">end</span><br>&#160;&#160;<br><span class="comment"># 14 hours from 00:00 January 1st</span><br><span class="comment"># (aka when you finally wake up ;)</span><br><span class="constant">Time</span><span class="punct">.</span><span class="ident">mktime</span><span class="punct">(</span><span class="number">2006</span><span class="punct">,</span> <span class="number">01</span><span class="punct">,</span> <span class="number">01</span><span class="punct">)</span> <span class="punct">+</span> <span class="number">14</span><span class="punct">.</span><span class="ident">hours</span> <span class="comment"># =&gt; Sun Jan 01 14:00:00</span></code></pre>
+
+	<h3>Funny method names</h3>
+
+
+In Ruby, methods are allowed to end with question marks or exclamation marks.
+By convention, methods that answer questions (i.e. <tt>Array#empty?</tt>
+returns <strong>true</strong> if the receiver is empty) end in question marks. Potentially
+&#8220;dangerous&#8221; methods (ie methods that modify <strong>self</strong> or the arguments,
+<code>exit!</code> etc.) by convention end with exclamation marks.
+
+	<p>All methods that change their arguments don&#8217;t end with exclamation marks,
+though. <tt>Array#replace</tt> replaces the contents of an array with the contents
+of another array. It doesn&#8217;t make much sense to have a method like that
+that <strong>doesn&#8217;t</strong> modify self.</p>
+
+
+	<h3>Singleton methods</h3>
+
+
+	<p>Singleton methods are per-object methods. They are only available on the
+Object you defined it on.</p>
+
+
+<pre class="code ruby-code"><code><span class="keyword">class </span><span class="class">Car</span><br>&#160;&#160;<span class="keyword">def </span><span class="method">inspect</span><br>&#160;&#160;&#160;&#160;<span class="punct">"</span><span class="string">Cheap car</span><span class="punct">"</span><br>&#160;&#160;<span class="keyword">end</span><br><span class="keyword">end</span><br><br><span class="ident">porsche</span> <span class="punct">=</span> <span class="constant">Car</span><span class="punct">.</span><span class="ident">new</span><br><span class="ident">porsche</span><span class="punct">.</span><span class="ident">inspect</span> <span class="comment"># =&gt; Cheap car</span><br><span class="keyword">def </span><span class="method">porsche.inspect</span><br>&#160;&#160;<span class="punct">"</span><span class="string">Expensive car</span><span class="punct">"</span><br><span class="keyword">end</span><br><br><span class="ident">porsche</span><span class="punct">.</span><span class="ident">inspect</span> <span class="comment"># =&gt; Expensive car</span><br><br><span class="comment"># Other objects are not affected</span><br><span class="ident">other_car</span> <span class="punct">=</span> <span class="constant">Car</span><span class="punct">.</span><span class="ident">new</span><br><span class="ident">other_car</span><span class="punct">.</span><span class="ident">inspect</span> <span class="comment"># =&gt; Cheap car</span></code></pre>
+
+	<h3>Missing methods</h3>
+
+
+	<p>Ruby doesn&#8217;t give up if it can&#8217;t find a method that responds to a particular
+message. It calls the <code>method_missing</code> method with the name of the method
+it couldn&#8217;t find and the arguments. By default, method_missing raises a
+NameError exception, but you can redefine it to better fit your application,
+and many libraries do. Here is an example:</p>
+
+
+<pre class="code ruby-code"><code><span class="comment"># id is the name of the method called, the * syntax collects</span><br><span class="comment"># all the arguments in an array named 'arguments'</span><br><span class="keyword">def </span><span class="method">method_missing</span><span class="punct">(</span> <span class="ident">id</span><span class="punct">,</span> <span class="punct">*</span><span class="ident">arguments</span> <span class="punct">)</span><br>&#160;&#160;<span class="ident">puts</span> <span class="punct">"</span><span class="string">Method <span class="expr">#{id}</span> was called, but not found. It has </span><span class="punct">"</span> <span class="punct">+</span> <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span class="punct">"</span><span class="string">these arguments: <span class="expr">#{arguments.join(", ")}</span></span><span class="punct">"</span><br><span class="keyword">end</span><br><br><span class="ident">__</span> <span class="symbol">:a</span><span class="punct">,</span> <span class="symbol">:b</span><span class="punct">,</span> <span class="number">10</span><br><span class="comment"># =&gt; Method __ was called, but not found. It has these</span><br><span class="comment"># arguments: a, b, 10</span></code></pre>
+
+	<p>The code above just prints the details of the call, but you are free to handle the message in any way that is appropriate.</p>
+
+
+	<h3>Message passing, not function calls</h3>
+
+
+	<p>A method call is really a <strong>message</strong> to another object:</p>
+
+
+<pre class="code ruby-code"><code><span class="comment"># This</span><br><span class="number">1</span> <span class="punct">+</span> <span class="number">2</span><br><span class="comment"># Is the same as this ...</span><br><span class="number">1</span><span class="punct">.+(</span><span class="number">2</span><span class="punct">)</span><br><span class="comment"># Which is the same as this:</span><br><span class="number">1</span><span class="punct">.</span><span class="ident">send</span> <span class="punct">"</span><span class="string">+</span><span class="punct">",</span> <span class="number">2</span></code></pre>
+
+	<h3>Blocks are Objects, they just don&#8217;t know it yet</h3>
+
+
+	<p>Blocks (closures, really) are heavily used by the standard library. To call a
+block, you can either use <code>yield</code>, or make it a <code>Proc</code> by appending a special
+argument to the argument list, like so:</p>
+
+
+<pre class="code ruby-code"><code><span class="keyword">def </span><span class="method">block</span><span class="punct">(</span> <span class="punct">&amp;</span><span class="ident">the_block</span> <span class="punct">)</span><br>&#160;&#160;<span class="comment"># Inside here, the_block is the block passed to the method</span><br>&#160;&#160;<span class="ident">the_block</span> <span class="comment"># return the block</span><br><span class="keyword">end</span><br><span class="ident">adder</span> <span class="punct">=</span> <span class="ident">block</span> <span class="punct">{</span> <span class="punct">|</span><span class="ident">a</span><span class="punct">,</span> <span class="ident">b</span><span class="punct">|</span> <span class="ident">a</span> <span class="punct">+</span> <span class="ident">b</span> <span class="punct">}</span><br><span class="comment"># adder is now a Proc object</span><br><span class="ident">adder</span><span class="punct">.</span><span class="keyword">class </span><span class="class">#</span> <span class="punct">=&gt;</span> <span class="ident">Proc</span></code></pre>
+
+	<p>You can create blocks outside of method calls, too, by calling Proc.new with
+a block or calling the <code>lambda</code> method.</p>
+
+
+	<p>Similarly, methods are also Objects in the making:</p>
+
+
+<pre class="code ruby-code"><code><span class="ident">method</span><span class="punct">(</span><span class="symbol">:puts</span><span class="punct">).</span><span class="ident">call</span> <span class="punct">"</span><span class="string">puts is an object!</span><span class="punct">"</span><br><span class="comment"># =&gt; puts is an object!</span></code></pre>
+
+	<h3>Operators are syntactic sugar</h3>
+
+
+	<p>Most operators in Ruby are just syntactic sugar (with some precedence rules) for method calls. You can, for example, override Fixnums + method:</p>
+
+
+<pre class="code ruby-code"><code><span class="keyword">class </span><span class="class">Fixnum</span><br>&#160;&#160;<span class="comment"># You can, but please don't do this</span><br>&#160;&#160;<span class="keyword">def </span><span class="method">+</span><span class="punct">(</span> <span class="ident">other</span> <span class="punct">)</span><br>&#160;&#160;&#160;&#160;<span class="constant">self</span> <span class="punct">-</span> <span class="ident">other</span><br>&#160;&#160;<span class="keyword">end</span><br><span class="keyword">end</span></code></pre>
+
+	<p>You don&#8217;t need C++&#8217;s <code>operator+</code>, etc.</p>
+
+
+You can even have array-style access if you define the <code>[]</code> and <code>[]=</code>
+methods. To define the unary + and &#8211; (think +1 and -2), you must define the
+<code>+@</code> and <code>-@</code> methods, respectively.
+
+	<p>The operators below are <strong>not</strong> syntactic sugar, though. They are not methods, 
+and cannot be redefined:</p>
+
+
+<pre class="code symbols-code"><code>=, .., ..., !, not, &amp;&amp;, and, ||, or, !=, !~, ::</code></pre>
+
+In addition, +=, *= etc. are just abbrevations for
+<code>var = var + other_var</code>, <code>var = var * other_var</code>, etc. and therefore
+cannot be redefined.
+
+	<h2>Finding Out More</h2>
+
+
+	<p>When you are ready for more Ruby knowledge, see our <a href="/en/documentation/">Documentation</a> section.</p>
+<div id="extended">
+
+</div>
+            
