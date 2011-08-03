@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    {% if page.title != null %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>Ruby Programming Language</title>
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="/stylesheets/low.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+
+  <body id="home-page-layout">
+    {{ content }}
+  </body>
+</html>
