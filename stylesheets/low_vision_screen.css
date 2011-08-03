@@ -1,0 +1,6 @@
+/*
+  low_vision_screen.css - styles for the screen for visually impaired people
+*/
+
+@import url(/stylesheets/low_vision_shared.css);
+@import url(/stylesheets/low_vision_high.css);

@@ -1,0 +1,40 @@
+/*
+  low_vision_high.css - styles for modern browsers for visually impaired people
+*/
+
+@import url(/stylesheets/high.css);
+
+#content #news ul a {
+  color: #1111ee;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#content dl dt {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#sidebar {
+  font-size: 90%;
+}
+#sidebar .navigation .menu a,
+#sidebar .navigation .more a {
+  color: #1111ee;
+}
+#sidebar .navigation a {
+  color: #1111ee;
+}
+#search-box {
+  width: 738px;
+}
+#search-form {
+  position: absolute;
+  top: 57px;
+  width: 738px;
+  height: 50px:
+}
+#search-form .field {
+  width: 214px;
+  height: 48px;
+}
+#search-form .button {
+  width: 148px;
+  height: 48px;
+}

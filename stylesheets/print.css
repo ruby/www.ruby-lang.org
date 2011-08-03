@@ -1,0 +1,45 @@
+/*
+  print.css - styles for print
+*/
+
+@import url(/stylesheets/shared.css);
+
+.site-links, #sidebar-wrapper,
+#search-form {
+  display: none;
+}
+#header {
+  border: 0px solid black;
+  border-bottom-width: 1pt;
+}
+#content-wrapper {
+  float: left;
+  padding-bottom: 2em;
+  width: 100%;
+}
+#footer {
+  border: 0px solid black;
+  border-top-width: 1pt;
+}
+#footer p {
+  margin-top: .5em;
+}
+#code {
+  border: 1px solid gray;
+  padding: 20px;
+}
+#code code {
+  display: block;
+  color: gray;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 90%;
+}
+#code .comment {
+  color: green;
+}
+#code .keyword {
+  color: blue;
+}
+#head .multi-page {
+  display: none;
+}

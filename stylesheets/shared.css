@@ -1,0 +1,74 @@
+/*
+  shared.css - styles shared between print and high
+*/
+
+body {
+  font-size: 80%;
+}
+.hidden-modern {
+  position: absolute;
+  left: -20000px;
+  top: -20000px;
+}
+.site-links .separator { display: none; }
+.site-links {
+  background-color: #7d0000;
+}
+#content h2 {
+  font-size: 170%;
+  margin-top: 1.5em;
+}
+#content h3 {
+  color: #c61a1a;
+  font-weight: normal;
+  font-size: 170%;
+  line-height: 110%;
+  /*margin-top: 1.5em;*/
+  margin-bottom: .75em;
+}
+#content .post {
+  margin-bottom: 2em;
+}
+#content h4 {
+  font-weight: normal;
+  font-size: 160%;
+  line-height: 110%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+#content h5 {
+  font-weight: bold;
+  font-size: 110%;
+  line-height: 110%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+#content p {
+  margin-top: 0;
+}
+#content .post-info {
+  color: #b0af99;
+  font-size: 80%;
+}
+#search-form .field {
+  border: 1px solid #d3d3cf;
+}
+#search-form .button {
+  border: 1px solid #d3d3cf;
+  background-color: #e6e6d7;
+  color: #7b7b75;
+  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+#footer {
+  clear: both;
+}
+
+
+/* layouts */
+
+#home-page-layout h3 {
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
