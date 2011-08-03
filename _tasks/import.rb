@@ -2,6 +2,8 @@ gem 'spidr', '~> 0.3'
 require 'spidr'
 require 'fileutils'
 
+IMPORT_DIR = '_import'
+
 desc 'Spiders ruby-lang.org and imports HTML content'
 task :import do
   Spidr.site('http://www.ruby-lang.org/index.html') do |agent|
@@ -14,7 +16,7 @@ task :import do
     end
 
     agent.every_ok_page do |page|
-      local_path = page.url.path[1..-1]
+      local_path = File.join(IMPORT_DIR,page.url.path[1..-1])
 
       if local_path[-1..-1] == '/'
         local_path += 'index.html'
