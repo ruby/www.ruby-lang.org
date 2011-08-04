@@ -16,7 +16,40 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   </head>
 
-  <body id="home-page-layout">
-    {{ content }}
+  <body>
+    <div id="page">
+      <div id="header">
+        <div id="logo">
+          <img src="/images/logo.gif" width="331" height="119" alt="Ruby - A Programmer's Best Friend" title="">
+        </div>
+        <div class="site-links">
+          {% include sitelinks.html %}
+        </div>
+      </div>
+      <hr class="hidden-modern" />
+
+      <div id="main-wrapper">
+        <div id="main">
+          {{ content }}
+
+          <div class="foot">
+            <div class="site-links">
+              {% include sitelinks.html %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="search-box">
+        {% include search.html %}
+      </div>
+      <div id="footer">
+        <div class="fine-print">
+          {% include footer.html %}
+        </div>
+      </div>
+    </div>
+
+    {% include analytics.html %}
   </body>
 </html>

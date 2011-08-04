@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div id="content-wrapper">
+  <div id="head-wrapper-1">
+    <div id="head-wrapper-2">
+      <div id="head">
+        {% if page.header != null %}
+        <div id="intro">
+          {{ page.header | markdownify }}
+        </div>
+        {% else %}
+        <h1>{{ page.title }}</h1>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+    {{ content }}
+  </div>
+</div>
+<hr class="hidden-modern" />
+
+<div id="sidebar-wrapper">
+  <div id="sidebar">
+    {% include sidebar.html %}
+  </div>
+</div>
+<hr class="hidden-modern" />

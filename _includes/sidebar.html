@@ -1,60 +1,60 @@
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation"><a href="/en/downloads/"><img src="/images/download.gif" alt="Download Ruby" title="" /></a></div>
-
-    <div class="navigation">
-      <h3><strong>Get Started,</strong> it&#8217;s easy!</h3>
-
-      <ul class="menu">
-        <li><a href="http://TryRuby.org">Try Ruby! (in your browser)</a></li>
-
-        <li><a href="/en/documentation/quickstart/">Ruby in Twenty Minutes</a></li>
-        <li><a href="/en/documentation/ruby-from-other-languages/">Ruby from Other Languages</a></li>
-      </ul>
-    </div>
-
-    <div class="navigation">
-      <h3><strong>Explore</strong> a new world&hellip;</h3>
-      <ul class="menu">
-        <li><a href="/en/documentation/">Documentation</a></li>
-        <li><a href="http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&amp;rs=1000&amp;keywords=Ruby&amp;rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5">Books</a></li>
-        <li><a href="/en/libraries/">Libraries</a></li>
-        <li><a href="/en/documentation/success-stories/">Success Stories</a></li>
-
-      </ul>
-    </div>
-
-    <div class="navigation">
-      <h3><strong>Participate</strong> in a friendly and growing community.</h3>
-      <ul>
-        <li><a href="/en/community/mailing-lists/">Mailing Lists</a>: Talk about Ruby with programmers from all around the world.</li>
-        <li><a href="/en/community/user-groups/">User Groups</a>: Get in contact with Rubyists in your area.</li>
-
-        <li><a href="/en/community/weblogs/">Weblogs</a>: Read about what&#8217;s happening right now in the Ruby community.</li>
-        <li><a href="/en/community/ruby-core/">Ruby Core</a>: Help polish the rough edges of the latest Ruby.</li>
-        <li><a href="http://redmine.ruby-lang.org/">Issue Tracking</a>: Report or help solve issues in Ruby.</li>
-      </ul>
-    </div>
-
-    <h3>Some Top Ruby Projects</h3>
-
-    <ul>
-      <li><a href="http://rubyforge.org/projects/flvtool2/" title="FLVTool2 is a manipulation tool for Macromedia Flash Video files (FLV).
-        It can calculate a lot of meta data, insert an onMetaData tag, cut FLV files, add cue points (onCuePoint), show the FLV structure and print meta data information in XML or YAML.">FLVTool2</a></li>
-
-      <li><a href="http://rubyforge.org/projects/emm-ruby/" title="Ruby Enterprise Edition is a branch of Ruby, which includes an enhanced garbage collector and developer tools. This allows one to reduce memory usage of Ruby on Rails applications by 33% on average.">Ruby Enterprise Edition</a></li>
-
-      <li><a href="http://rubyforge.org/projects/sqlite-ruby/" title="A Ruby interface for the SQLite database engine.">SQLite-Ruby</a></li>
-
-      <li><a href="http://rubyforge.org/projects/ruby-dbi/" title="Ruby/DBI develops a database independent interface for accessing databases - similar to Perl's DBI.">Ruby/DBI</a></li>
-
-      <li><a href="http://rubyforge.org/projects/wtr/" title="Watir is a testing tool for automating browser-based tests of web applications. It is a Ruby library that works with Internet Explorer and Firefox.">Watir</a></li>
-
-    </ul>
-    <p class="more"><a href="/en/libraries/top-projects/">More&#8230;</a></p>
-
-
-    <h3>Syndicate</h3>
-    <p><a href="/en/feeds/news.rss">Recent News (RSS)</a></p>
-  </div>
+{% if page.sidebar != null %}
+<div class="navigation">
+  {{ page.sidebar }}
 </div>
+{% endif %}
+
+<div class="navigation">
+  <h3><strong>Get Started,</strong> it&#8217;s easy!</h3>
+
+  <ul class="menu">
+    <li><a href="http://TryRuby.org">Try Ruby! (in your browser)</a></li>
+
+    <li><a href="/en/documentation/quickstart/">Ruby in Twenty Minutes</a></li>
+    <li><a href="/en/documentation/ruby-from-other-languages/">Ruby from Other Languages</a></li>
+  </ul>
+</div>
+
+<div class="navigation">
+  <h3><strong>Explore</strong> a new world&hellip;</h3>
+  <ul class="menu">
+    <li><a href="/en/documentation/">Documentation</a></li>
+    <li><a href="http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&amp;rs=1000&amp;keywords=Ruby&amp;rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5">Books</a></li>
+    <li><a href="/en/libraries/">Libraries</a></li>
+    <li><a href="/en/documentation/success-stories/">Success Stories</a></li>
+
+  </ul>
+</div>
+
+<div class="navigation">
+  <h3><strong>Participate</strong> in a friendly and growing community.</h3>
+  <ul>
+    <li><a href="/en/community/mailing-lists/">Mailing Lists</a>: Talk about Ruby with programmers from all around the world.</li>
+    <li><a href="/en/community/user-groups/">User Groups</a>: Get in contact with Rubyists in your area.</li>
+
+    <li><a href="/en/community/weblogs/">Weblogs</a>: Read about what&#8217;s happening right now in the Ruby community.</li>
+    <li><a href="/en/community/ruby-core/">Ruby Core</a>: Help polish the rough edges of the latest Ruby.</li>
+    <li><a href="http://redmine.ruby-lang.org/">Issue Tracking</a>: Report or help solve issues in Ruby.</li>
+  </ul>
+</div>
+
+<h3>Some Top Ruby Projects</h3>
+
+<ul>
+  <li><a href="http://rubyforge.org/projects/flvtool2/" title="FLVTool2 is a manipulation tool for Macromedia Flash Video files (FLV).
+    It can calculate a lot of meta data, insert an onMetaData tag, cut FLV files, add cue points (onCuePoint), show the FLV structure and print meta data information in XML or YAML.">FLVTool2</a></li>
+
+  <li><a href="http://rubyforge.org/projects/emm-ruby/" title="Ruby Enterprise Edition is a branch of Ruby, which includes an enhanced garbage collector and developer tools. This allows one to reduce memory usage of Ruby on Rails applications by 33% on average.">Ruby Enterprise Edition</a></li>
+
+  <li><a href="http://rubyforge.org/projects/sqlite-ruby/" title="A Ruby interface for the SQLite database engine.">SQLite-Ruby</a></li>
+
+  <li><a href="http://rubyforge.org/projects/ruby-dbi/" title="Ruby/DBI develops a database independent interface for accessing databases - similar to Perl's DBI.">Ruby/DBI</a></li>
+
+  <li><a href="http://rubyforge.org/projects/wtr/" title="Watir is a testing tool for automating browser-based tests of web applications. It is a Ruby library that works with Internet Explorer and Firefox.">Watir</a></li>
+
+</ul>
+<p class="more"><a href="/en/libraries/top-projects/">More&#8230;</a></p>
+
+
+<h3>Syndicate</h3>
+<p><a href="/en/feeds/news.rss">Recent News (RSS)</a></p>
