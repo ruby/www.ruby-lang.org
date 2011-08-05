@@ -16,7 +16,7 @@ branch.
 
     $ git clone https://github.com/postmodern/www.ruby-lang.org.git
     $ cd www.ruby-lang.org/
-    # Pick your native language
+    # Pick your native language (example: en)
     $ git fetch origin en
     $ git checkout en
 
