@@ -1,0 +1,13 @@
+---
+layout: news
+---
+
+<div class="post">
+  <h3>{{ page.title }}</h3>
+
+  {{ content }}
+
+  <p class="post-info">Posted By {{ page.author }} on {{ page.date | date_to_string }}</p>
+</div>
+
+<p><a href="/news/">Back to News Archive</a></p>
