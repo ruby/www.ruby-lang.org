@@ -18,61 +18,35 @@ sidebar: |
 
 ---
 
+{% for post in site.categories.news limit:2 %}
 <div class="post">
-  <h3><a href="/en/news/2011/08/01/ruby-1-9-3-preview1-has-been-released/">Ruby 1.9.3 preview1 has been released</a></h3>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-  <p>Ruby 1.9.3 preview1 has been released. This is a first preview of next version and there're still minor known issues.
-But it will be fixed in next release, Ruby 1.9.3-p0.</p>
-<p>See <a href="http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/ChangeLog">ChangeLogs</a> and <a href="http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/NEWS">NEWS</a> for the descriptions.</p>
+  {{ post.content | strip_html | truncatewords: 25 }}
 
-  <p><a href="/en/news/2011/08/01/ruby-1-9-3-preview1-has-been-released/">Continue&#160;Reading&#8230;</a></p>
+  <p><a href="{{ post.url }}">Continue Reading...</a></p>
 
-  <p class="post-info">Posted by Moru on 01 Aug 2011</p>
+  <span class="post-info">Posted By {{ post.author }} on {{ post.date | date_to_string }}</span>
 </div>
-
-
-<div class="post">
-  <h3><a href="/en/news/2011/07/15/ruby-1-9-2-p290-is-released/">Ruby 1.9.2-p290 is released</a></h3>
-
-  <p>Ruby 1.9.2-p290 is released.</p>
-<p>This release doesn't include any security fixes, but many bugs are fixed in this release.</p>
-
-  <p><a href="/en/news/2011/07/15/ruby-1-9-2-p290-is-released/">Continue&#160;Reading&#8230;</a></p>
-
-  <p class="post-info">Posted by Shota Fukumori on 15 Jul 2011</p>
-</div>
-
-
+{% endfor %}
 
 <div id="news">
   <h3><a href="/en/news/">Other News</a></h3>
   <ul>
-<li>
-<a href="/en/news/2011/07/02/ruby-1-8-7-p352-released/">Ruby 1.8.7-p352 released</a>
-      <span class="post-info">Posted by Urabe Shyouhei on 02 Jul 2011</span>
-</li>
+    {% for post in site.categories.news offset:2 limit:3 %}
     <li>
-<a href="/en/news/2011/02/22/planned-maintenance-of-redmine-ruby-lang-org/">Planned maintenance of redmine.ruby-lang.org</a>
-      <span class="post-info">Posted by Yugui on 22 Feb 2011</span>
-</li>
-    <li>
-<a href="/en/news/2011/02/18/exception-methods-can-bypass-safe/">Exception methods can bypass $SAFE</a>
-      <span class="post-info">Posted by Urabe Shyouhei on 18 Feb 2011</span>
-</li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Posted By {{ post.author }} on {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
   </ul>
-<ul>
-<li>
-<a href="/en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/">FileUtils is vulnerable to symlink race attacks</a>
-      <span class="post-info">Posted by Urabe Shyouhei on 18 Feb 2011</span>
-</li>
+
+  <ul>
+    {% for post in site.categories.news offset:5 limit:3 %}
     <li>
-<a href="/en/news/2010/12/25/ruby-1-9-2-p136-is-released/">Ruby 1.9.2-p136 is released</a>
-      <span class="post-info">Posted by Yugui on 25 Dec 2010</span>
-</li>
-    <li>
-<a href="/en/news/2010/12/25/ruby-1-8-7-p330-released/">Ruby 1.8.7-p330 released</a>
-      <span class="post-info">Posted by Urabe Shyouhei on 25 Dec 2010</span>
-</li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Posted By {{ post.author }} on {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
   </ul>
-<p class="more"><a href="/en/news/">More&#160;News&#8230;</a></p>
 </div>
