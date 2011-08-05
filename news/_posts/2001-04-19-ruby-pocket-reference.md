@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Pocket Reference
+author: Matz
 ---
 
 O&#8217;Reilly finally decided to publish translation of Ruby Pocket Reference.
