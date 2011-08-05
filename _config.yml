@@ -1,2 +1,4 @@
 auto: true
 server: true
+permalink: date
+pygments: true

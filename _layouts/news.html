@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div id="content-wrapper">
+  <div id="head-wrapper-1">
+    <div id="head-wrapper-2">
+      <div id="head">
+        {% if page.header != null %}
+        <div id="intro">
+          {{ page.header | markdownify }}
+        </div>
+        {% else %}
+        <h1>{{ page.title }}</h1>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+    {{ content }}
+  </div>
+</div>
+<hr class="hidden-modern" />
+
+<div id="sidebar-wrapper">
+  <div id="sidebar">
+    <div class="navigation">
+      <h3>Archive</h3>
+
+      <ul class="menu">
+      {% for post in site.categories.news %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<hr class="hidden-modern" />
