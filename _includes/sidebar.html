@@ -41,17 +41,9 @@
 <h3>Some Top Ruby Projects</h3>
 
 <ul>
-  <li><a href="http://rubyforge.org/projects/flvtool2/" title="FLVTool2 is a manipulation tool for Macromedia Flash Video files (FLV).
-    It can calculate a lot of meta data, insert an onMetaData tag, cut FLV files, add cue points (onCuePoint), show the FLV structure and print meta data information in XML or YAML.">FLVTool2</a></li>
-
-  <li><a href="http://rubyforge.org/projects/emm-ruby/" title="Ruby Enterprise Edition is a branch of Ruby, which includes an enhanced garbage collector and developer tools. This allows one to reduce memory usage of Ruby on Rails applications by 33% on average.">Ruby Enterprise Edition</a></li>
-
-  <li><a href="http://rubyforge.org/projects/sqlite-ruby/" title="A Ruby interface for the SQLite database engine.">SQLite-Ruby</a></li>
-
-  <li><a href="http://rubyforge.org/projects/ruby-dbi/" title="Ruby/DBI develops a database independent interface for accessing databases - similar to Perl's DBI.">Ruby/DBI</a></li>
-
-  <li><a href="http://rubyforge.org/projects/wtr/" title="Watir is a testing tool for automating browser-based tests of web applications. It is a Ruby library that works with Internet Explorer and Firefox.">Watir</a></li>
-
+  {% for project in site.top_projects %}
+  <li><a href="{{ project.url }}" title="{{ project.description }}">{{ project.name }}</a></li>
+  {% endfor %}
 </ul>
 <p class="more"><a href="/libraries/top-projects/">More&#8230;</a></p>
 
