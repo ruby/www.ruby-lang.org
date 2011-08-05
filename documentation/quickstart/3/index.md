@@ -40,7 +40,7 @@ Hmm, what if we want to get at the name directly?
 
 Nope, can&#8217;t do it.
 
-## Under the Object&#8217;s Skin<
+## Under the Object&#8217;s Skin
 
 Instance variables are hidden away  inside the object. They&#8217;re not
 terribly hidden, you see them whenever you inspect the  object, and there

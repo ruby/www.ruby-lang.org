@@ -16,7 +16,7 @@ header: |
   
 ---
 
-## Introduction<
+## Introduction
 
 
 This is a small Ruby tutorial that should take no more than 20 minutes to

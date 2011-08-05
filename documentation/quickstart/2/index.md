@@ -118,4 +118,4 @@ Greeter and a bunch of methods for that class. Also notice `@name`.
 This is an instance variable, and is available to all the methods of
 the class. As you can see it&#8217;s used by `say_hi` and `say_bye`.
 
-So how do we get this Greeter class set in motion? [Create an object.](../3/")
+So how do we get this Greeter class set in motion? [Create an object.](../3/)
