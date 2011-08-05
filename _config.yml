@@ -1,4 +1,5 @@
 auto: true
 server: true
+markdown: kramdown
 permalink: date
 pygments: true
