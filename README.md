@@ -30,7 +30,8 @@ branch.
 1. Generate site using `jekyll` and compare to
    [www.ruby-lang.org](http://www.ruby-lang.org/). Submit Issues for any
    formatting mistakes.
-2. Write some JavaScript to randomly request code examples, from the
+2. Generate the yearly/monthly News Post index pages.
+3. Write some JavaScript to randomly request code examples, from the
    `examples/` directory, for the front-page.
-3. Auto-generate the Top Projects page using a `rake` task that pulls
+4. Auto-generate the Top Projects page using a `rake` task that pulls
    statistics from [www.rubygems.org](http://www.rubygems.org/).
