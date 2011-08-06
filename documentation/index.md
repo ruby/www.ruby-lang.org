@@ -3,9 +3,10 @@ layout: page
 title: Documentation
 ---
 
-<p>Here you will find pointers to manuals, tutorials and references that will come in handy when you feel like coding in Ruby.</p>
+Here you will find pointers to manuals, tutorials and references that will
+come in handy when you feel like coding in Ruby.
 
-<h3>Getting Started</h3>
+### Getting Started
 
 <dl>
   <dt><a href="http://tryruby.org/">Try Ruby!</a></dt>
@@ -40,7 +41,7 @@ title: Documentation
   <dd>A site that aims to provide well-organized, rich content tutorials for both Ruby and Rails.</dd>
 </dl>
 
-<h3>Manuals</h3>
+### Manuals
 
 <dl>
   <dt><a href="http://www.ruby-doc.org/docs/ProgrammingRuby/">Programming Ruby</a></dt>
@@ -75,12 +76,10 @@ title: Documentation
   <dd>Ruby, Rails, Gem and Plugin Documentation.</dd>
 </dl>
 
-<h3>Further Reading</h3>
+### Further Reading
 
-<p>
-<a href="http://ruby-doc.org">Ruby-Doc.org</a> maintains a comprehensive list
+[Ruby-Doc.org](http://ruby-doc.org) maintains a comprehensive list
 of English documentation sources. There are also plenty of
-<a href="http://www.ruby-doc.org/bookstore">books about Ruby</a>.
-If you have questions about Ruby the <a href="/en/community/mailing-lists/">mailing list</a>
+[books about Ruby](http://www.ruby-doc.org/bookstore).
+If you have questions about Ruby the [mailing list](/en/community/mailing-lists/)
 is a great place to start.
-</p>
