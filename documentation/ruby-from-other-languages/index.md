@@ -17,11 +17,11 @@ with.
 
 ## What to Expect: *Language X* to Ruby
 
-* [To Ruby From C and C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
-* [To Ruby From Java](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [To Ruby From Perl](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [To Ruby From PHP](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [To Ruby From Python](/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [To Ruby From C and C++](/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+* [To Ruby From Java](/documentation/ruby-from-other-languages/to-ruby-from-java/)
+* [To Ruby From Perl](/documentation/ruby-from-other-languages/to-ruby-from-perl/)
+* [To Ruby From PHP](/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [To Ruby From Python](/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
 ## Important Language Features And Some Gotchas
 
@@ -421,6 +421,6 @@ In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`,
 ## Finding Out More
 
 When you are ready for more Ruby knowledge, see our
-[Documentation](/en/documentation/) section.
+[Documentation](/documentation/) section.
 
 [1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F 
