@@ -33,7 +33,7 @@ the world's major cities and Ruby-related conferences filled to capacity.
 
 <p style="float:right"><img src="http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity" style="padding-left:8px;" title="Graph courtesy of Gmane." alt="Graph courtesy of Gmane."></p>
 
-Ruby-Talk, the primary [mailing list](/community/mailing-lists/) for
+Ruby-Talk, the primary [mailing list](/en/community/mailing-lists/) for
 discussion of the Ruby language, climbed to an average of 200 messages per
 day in 2006. It has dropped in recent years as the size of the community
 pushed discussion from one central list into many smaller groups.

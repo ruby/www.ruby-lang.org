@@ -62,7 +62,7 @@ and [everybody else][9].
 
 The core team maintains [a bug tracker][10] for submitting patches and
 bug reports to Matz and the gang. These reports also get submitted to
-the [Ruby-Core mailing list](/community/mailing-lists/#ruby-core) for
+the [Ruby-Core mailing list](/en/community/mailing-lists/#ruby-core) for
 discussion, so you can be sure your request won’t go unnoticed. You can
 also send your patches straight to the mailing list. Either way, you are
 encouraged to take part in the discussion that ensues.
@@ -85,7 +85,7 @@ To summarize, the steps for building a patch are:
      $ svn diff > ruby-changes.patch
     `
 4.  Email your patch to the [Ruby-Core mailing
-    list](/community/mailing-lists/#ruby-core) with a CHANGELOG entry
+    list](/en/community/mailing-lists/#ruby-core) with a CHANGELOG entry
     describing the patch.
 5.  If there are no issues raised about the patch, committers will be
     given the approval to apply it.
@@ -94,7 +94,7 @@ To summarize, the steps for building a patch are:
 For more on how patches are merged, see [the diffutils reference][13].
 
 Discussion of Ruby’s development converges on the [Ruby-Core mailing
-list](/community/mailing-lists/#ruby-core). So, if you are curious
+list](/en/community/mailing-lists/#ruby-core). So, if you are curious
 about whether your patch is worthwhile or you want to spark a discussion
 about Ruby’s future, don’t hesitate to come aboard. Be warned that
 off-topic discussions are not tolerated on this list, the noise level

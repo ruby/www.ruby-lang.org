@@ -14,8 +14,7 @@ It’s a must-buy item for Ruby hacker, who can read Japanese. :(
 * Author: AOKI, Minero under the editorship of MATSUMOTO, Yukihiro
 * ISBN\: 4-8443-1721-0
 
-I tried to translate the [table of
-contents](/news/2002/12/11/ruby-hacking-guide-is-out-though-/table-of-contents/).
+I tried to translate the [table of contents](table-of-contents/).
 Bear in mind that it’s an unofficial translation.
 
 [1]: http://direct.ips.co.jp/book/Template/Goods/go_BookstempGR.cfm?GM_ID=1721&amp;SPM_ID=1&amp;CM_ID=004000G20&amp;PM_No=&amp;PM_Class=&amp;HN_NO=00420 

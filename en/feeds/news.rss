@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Ruby News</title>
-    <link>http://www.ruby-lang.org/feeds/news.rss/</link>
+    <link>http://www.ruby-lang.org/en/feeds/news.rss/</link>
     <language>en-us</language>
     <ttl>40</ttl>
     <description>The latest news from Ruby-Lang.org.</description>

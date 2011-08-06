@@ -25,10 +25,10 @@ come in handy when you feel like coding in Ruby.
   <dt><a href="http://pine.fm/LearnToProgram/">Learn to Program</a></dt>
   <dd>A wonderful little tutorial by Chris Pine for programming newbies. If you don&#8217;t know how to program, start here.</dd>
 
-  <dt><a href="/documentation/quickstart/">Ruby in Twenty Minutes</a></dt>
+  <dt><a href="quickstart/">Ruby in Twenty Minutes</a></dt>
   <dd>A nice tutorial covering the basics of Ruby. From start to finish it shouldn&#8217;t take you more than twenty minutes.</dd>
 
-  <dt><a href="/documentation/ruby-from-other-languages/">Ruby from Other Languages</a></dt>
+  <dt><a href="ruby-from-other-languages/">Ruby from Other Languages</a></dt>
   <dd>Coming to Ruby from another language? Whether it&#8217;s C, C++, Java, Perl, <span class="caps">PHP</span>, or Python, this article has you covered!</dd>
 
   <dt><a href="http://rubylearning.com/">Learning Ruby</a></dt>
@@ -81,5 +81,5 @@ come in handy when you feel like coding in Ruby.
 [Ruby-Doc.org](http://ruby-doc.org) maintains a comprehensive list
 of English documentation sources. There are also plenty of
 [books about Ruby](http://www.ruby-doc.org/bookstore).
-If you have questions about Ruby the [mailing list](/community/mailing-lists/)
+If you have questions about Ruby the [mailing list](/en/community/mailing-lists/)
 is a great place to start.

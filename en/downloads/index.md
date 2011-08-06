@@ -5,7 +5,7 @@ title: Download Ruby
 
 Here you can get the latest Ruby distributions in your favorite flavor.
 The current stable version is 1.9.2. Please be sure to read
-[Ruby&#8217;s License](/about/license.txt).
+[Ruby&#8217;s License](/en/about/license.txt).
 
 ### Ruby Source Code
 
@@ -16,7 +16,7 @@ Installing from the source code is a great solution for when you are comfortable
 {% endfor %}
 
 For information about the Ruby Subversion and Git repositories, see our
-[Ruby Core](/community/ruby-core/) page.
+[Ruby Core](/en/community/ruby-core/) page.
 
 ### Ruby on Windows
 

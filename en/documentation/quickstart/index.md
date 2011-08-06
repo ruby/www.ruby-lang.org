@@ -6,11 +6,11 @@ header: |
   <div class="multi-page">
     <strong>1</strong>
     <span class="separator"> | </span>
-    <a href="./2/" title="Part 2">2</a>
+    <a href="2/" title="Part 2">2</a>
     <span class="separator"> | </span>
-    <a href="./3/" title="Part 3">3</a>
+    <a href="3/" title="Part 3">3</a>
     <span class="separator"> | </span>
-    <a href="./4/" title="Part 4">4</a>
+    <a href="4/" title="Part 4">4</a>
   </div>
   <h1>Ruby in Twenty Minutes</h1>
   
@@ -21,7 +21,7 @@ header: |
 
 This is a small Ruby tutorial that should take no more than 20 minutes to
 complete. It makes the assumption that you already have Ruby installed.
-(If you don’t have Ruby on your computer [download](/downloads/) and
+(If you don’t have Ruby on your computer [download](/en/downloads/) and
 install it before you get started.)
 
 ## Interactive Ruby

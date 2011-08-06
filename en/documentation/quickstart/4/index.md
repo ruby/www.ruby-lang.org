@@ -146,7 +146,7 @@ explore, the different control structures that Ruby offers; the use of
 blocks and `yield`; modules as mixins; and more.  I hope this taste of
 Ruby has left you wanting to learn more.
 
-If so, please head on over to our [Documentation](/documentation/) area,
+If so, please head on over to our [Documentation](/en/documentation/) area,
 which rounds up links to manuals and tutorials, all freely available online.
 
 Or, if you&#8217;d really like to dig into a book, check the
