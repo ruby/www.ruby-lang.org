@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby Pocket Reference
+title:  Ruby Pocket Reference
 author: Matz
 ---
 

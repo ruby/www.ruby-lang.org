@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby Garden
+title:  Ruby Garden
 author: Matz
 ---
 

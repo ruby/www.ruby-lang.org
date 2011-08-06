@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby introduction presentation
+title:  Ruby introduction presentation
 author: Matz
 ---
 
