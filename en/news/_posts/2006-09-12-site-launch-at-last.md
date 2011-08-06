@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Site Launch At Last!
+lang: en
 ---
 
 As you can see the much anticipated redesign is now live. It was over a

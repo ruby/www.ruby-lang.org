@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Anonymous CVS Service Stopped
+lang: en
 ---
 
 We stopped the anonymous <span class="caps">CVS</span> service because

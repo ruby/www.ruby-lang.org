@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Fool\'s Conference
+lang: en
 ---
 
 The first [Ruby Fools conference][1] will be held on April Fools’ Day in

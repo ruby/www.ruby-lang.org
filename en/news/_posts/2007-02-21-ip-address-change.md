@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: IP Address Change
+lang: en
 ---
 
 The IP address of the server will be changed on Thu Feb 22 03:00:00 UTC

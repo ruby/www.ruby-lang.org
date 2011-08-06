@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2004 pre-registration is open
+lang: en
 ---
 
 Pre-registration is open for the Fourth Annual International Ruby

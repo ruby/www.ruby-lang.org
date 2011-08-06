@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2008 Proposals Now Being Accepted
+lang: en
 ---
 
 [RubyConf 2008][1] will be held in Orlando, Florida, <span

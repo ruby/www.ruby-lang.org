@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Brad Cox to keynote RubyConf 2004
+lang: en
 ---
 
 Brad Cox, creator of Objective-C, will deliver the keynote address at

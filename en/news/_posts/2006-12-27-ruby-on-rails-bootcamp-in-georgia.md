@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby on Rails Bootcamp in Georgia
+lang: en
 ---
 
 Big Nerd Ranch, Inc. is offering their Ruby on Rails Bootcamp classes in

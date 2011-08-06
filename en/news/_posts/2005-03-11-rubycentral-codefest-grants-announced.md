@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyCentral CodeFest Grants Announced
+lang: en
 ---
 
 Ruby Central [announced][1] the the recipients of its first [CodeFest

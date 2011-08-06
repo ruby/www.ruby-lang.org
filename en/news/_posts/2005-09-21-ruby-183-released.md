@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.8.3 released
+lang: en
 ---
 
 Ruby 1.8.3 has been released. The source is [here][1], and the md5sum is

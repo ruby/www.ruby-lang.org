@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  Matz\'s Slides at 4 conferences
+lang: en
 ---
 
 Matz’s Slides at Ruby Conference 2002, OOPSLA2002, LL2 and O+F kansai

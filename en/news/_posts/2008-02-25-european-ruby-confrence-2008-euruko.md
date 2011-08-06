@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: European Ruby Confrence 2008 (EURUKO)
+lang: en
 ---
 
 <span class="caps">EURUKO</span> is an annual conference about the Ruby

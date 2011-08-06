@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Server maintenance
+lang: en
 ---
 
 Services except mailinglists will be down for a server maintenance on

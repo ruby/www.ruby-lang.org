@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: How to write an RCR
+lang: en
 ---
 
 For those interested in submitting a [Ruby Change Request][1], Jim

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2005 Preregistration now open
+lang: en
 ---
 
 Preregistration for the upcoming Fifth Annual International Ruby

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2007 Registration Now Open
+lang: en
 ---
 
 [Registration is now open][1] for RubyConf 2007.

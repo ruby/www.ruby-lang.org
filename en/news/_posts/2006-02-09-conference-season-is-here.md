@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Conference season is here
+lang: en
 ---
 
 This coming spring and summer are shaping up to be a real “conference

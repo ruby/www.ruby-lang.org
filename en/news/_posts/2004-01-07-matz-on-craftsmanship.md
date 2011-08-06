@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Matz on Craftsmanship
+lang: en
 ---
 
 Artima.com is running another [segment][1], (part four) of Bill Venners’

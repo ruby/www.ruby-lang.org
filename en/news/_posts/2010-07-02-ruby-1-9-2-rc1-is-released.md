@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.2 RC1 is released
+lang: en
 ---
 
 Ruby 1.9.2 RC has just been released. This is a release candidate of

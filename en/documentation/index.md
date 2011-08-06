@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Documentation
+lang: en
 ---
 
 Here you will find pointers to manuals, tutorials and references that will

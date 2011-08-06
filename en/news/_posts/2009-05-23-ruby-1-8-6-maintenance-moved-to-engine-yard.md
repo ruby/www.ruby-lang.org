@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.8.6 maintenance moved to Engine Yard
+lang: en
 ---
 
 Recently we have a welcome, historic development that the Ruby 1.8.6\'s

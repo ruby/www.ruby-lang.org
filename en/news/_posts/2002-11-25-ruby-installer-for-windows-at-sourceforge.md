@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Installer For Windows at sourceforge
+lang: en
 ---
 
 Now you can get Ruby Installer For Windows from

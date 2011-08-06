@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Track and Tutorials at OSCON
+lang: en
 ---
 
 The [O’Reilly Open Source Convention][1], taking place July 26-30 in

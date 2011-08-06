@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Libraries
+lang: en
 ---
 
 A myriad of fascinating and useful libraries are out there for Ruby,

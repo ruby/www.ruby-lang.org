@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  RAA replaced
+lang: en
 ---
 
 We www-admin@ruby-lang.org rewrote current [RAA][1] which got a little old

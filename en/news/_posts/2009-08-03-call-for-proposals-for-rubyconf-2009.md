@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Call for Proposals for RubyConf 2009
+lang: en
 ---
 
 The Call for Proposals for presenting at RubyConf 2009 is now open.

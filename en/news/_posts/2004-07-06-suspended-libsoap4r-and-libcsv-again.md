@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: suspended lib/soap4r and lib/csv again
+lang: en
 ---
 
 Anonymous <span class="caps">CVS</span> repository for csv(lib/csv) and

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby In 2002: Contents Wanted"
+lang: en
 ---
 
 Here on the Ruby Garden Wiki comes [a page][1] to compile Ruby’s year

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Proposals now being accepted for RubyConf 2007 presentations
+lang: en
 ---
 
 David A. Black announced on ruby-talk that presentation proposals for

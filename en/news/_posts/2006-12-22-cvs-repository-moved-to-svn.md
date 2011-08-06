@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: CVS Repository moved to SVN
+lang: en
 ---
 
 We have moved the source code repository to

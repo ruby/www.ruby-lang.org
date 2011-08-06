@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: MountainWest RubyConf 2010
+lang: en
 ---
 
 MountainWest RubyConf 2010 will be held March 11 and 12, 2010, in Salt

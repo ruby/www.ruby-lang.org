@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.1-preview 1 released
+lang: en
 ---
 
 Yugui (Yuki Sonoda) announced the release of Ruby 1.9.1-preview 1:

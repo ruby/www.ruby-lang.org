@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RAA.succ!.version #=> 2.3.0
+lang: en
 ---
 
 <span class="caps">RAA</span> <del>- [Ruby Application Archive][1] -</del> has been updated. (see [\[ruby-talk:63170\]][2]) Changes: * Change <span class="caps">URL</span>\: www.ruby-lang.org/raa -&gt;

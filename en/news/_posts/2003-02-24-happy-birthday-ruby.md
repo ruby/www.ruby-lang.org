@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Happy Birthday, Ruby
+lang: en
 ---
 
 (dblack posted an article ‘Happy Birthday, Ruby, and an announcement….’

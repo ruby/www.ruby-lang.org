@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Weekly News
+lang: en
 ---
 
 Tim Sutherland [announced][1] the latest publication of the [Ruby Weekly

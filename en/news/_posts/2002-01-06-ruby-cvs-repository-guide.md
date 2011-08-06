@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  Ruby CVS Repository Guide
+lang: en
 ---
 
 The source code of Ruby is stored in CVS

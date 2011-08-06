@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Scotland on Rails 2009
+lang: en
 ---
 
 [Scotland on Rails][1] is pleased to announce that Conference2009 will

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Article in Linux Journal
+lang: en
 ---
 
 The March issue of [Linux Journal][1] has an article by James Britt on

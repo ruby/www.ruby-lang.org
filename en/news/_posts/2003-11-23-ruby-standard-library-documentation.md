@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Standard Library Documentation
+lang: en
 ---
 
 ” Documentation for the Ruby 1.8 standard library”\:

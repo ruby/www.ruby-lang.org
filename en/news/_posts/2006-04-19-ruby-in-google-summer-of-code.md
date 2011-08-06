@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby in Google Summer of Code
+lang: en
 ---
 
 Student Rubyists will be able to participate in the [Google Summer of

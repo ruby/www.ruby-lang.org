@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: New Ruby Web Magazine Goes Live
+lang: en
 ---
 
 The newest on-line resource for serious Ruby information has gone live.

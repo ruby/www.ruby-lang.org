@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2005 Registration Tops 100
+lang: en
 ---
 
 David A. Black recently reported on ruby-talk that over 100 people have

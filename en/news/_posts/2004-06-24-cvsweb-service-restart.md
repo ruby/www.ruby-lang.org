@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: CVSweb service restart
+lang: en
 ---
 
 CVSweb service is restarted.

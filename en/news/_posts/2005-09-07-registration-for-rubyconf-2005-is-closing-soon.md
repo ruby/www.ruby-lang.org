@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Registration for RubyConf 2005 is CLOSING soon.
+lang: en
 ---
 
 Registration for RubyConf 2005 is <span class="caps">CLOSING</span>

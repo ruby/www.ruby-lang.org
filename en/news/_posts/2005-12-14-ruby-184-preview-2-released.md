@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.8.4 preview 2 released
+lang: en
 ---
 
 Ruby 1.8.4 preview 2 has been released. You can download the source

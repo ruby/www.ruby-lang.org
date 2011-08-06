@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.8.6 released!
+lang: en
 ---
 
 Ruby 1.8.6 has been released (see the [announcement on Ruby-Talk][1]).

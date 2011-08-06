@@ -1,6 +1,7 @@
 ---
 layout: page
 title: User Groups
+lang: en
 ---
 
 In the programming community, user groups form support networks for

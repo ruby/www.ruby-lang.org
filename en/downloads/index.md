@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Download Ruby
+lang: en
 ---
 
 Here you can get the latest Ruby distributions in your favorite flavor.

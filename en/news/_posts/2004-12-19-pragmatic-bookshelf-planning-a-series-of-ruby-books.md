@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Pragmatic Bookshelf planning a series of Ruby books
+lang: en
 ---
 
 “Programming Ruby” author Dave Thomas of the Pragmatic Programmers

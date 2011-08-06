@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Scotland on Rails 2008
+lang: en
 ---
 
 Scotland on Rails is pleased to announce that Conference2008 is open for

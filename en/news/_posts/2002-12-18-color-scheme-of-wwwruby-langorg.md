@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  Color scheme of www.ruby-lang.org
+lang: en
 ---
 
 We webmasters decided to change the red only color scheme of this site

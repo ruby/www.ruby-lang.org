@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyWorld Conference
+lang: en
 ---
 
 [The RubyWorld Conference][1] will be held at the Shimane Prefectural

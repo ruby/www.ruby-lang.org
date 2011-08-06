@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: FileUtils is vulnerable to symlink race attacks
+lang: en
 ---
 
 A symlink race condition vulnerability was found in

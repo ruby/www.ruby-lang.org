@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.0 Released
+lang: en
 ---
 
 Matz announced the release of Ruby 1.9.0, a development release.

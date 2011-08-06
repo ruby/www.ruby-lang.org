@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Tulsa Ruby Workshop
+lang: en
 ---
 
 I wanted to get the word out about the upcoming Tulsa Ruby Workshop.

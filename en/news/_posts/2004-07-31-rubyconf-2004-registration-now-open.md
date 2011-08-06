@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2004 registration now open
+lang: en
 ---
 
 Registration for [RubyConf 2004][1] is now open. You can register

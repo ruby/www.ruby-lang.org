@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Ruby
+lang: en
 ---
 
 Wondering why Ruby is so popular? Its fans call it a beautiful,

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Exception methods can bypass $SAFE
+lang: en
 ---
 
 Exception#to\_s method can be used to trick $SAFE check, which makes a untrusted codes to modify arbitrary strings. 

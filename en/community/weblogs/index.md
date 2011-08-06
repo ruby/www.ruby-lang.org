@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Weblogs
+lang: en
 ---
 
 Ruby blogs have exploded over the past year and, given sufficient

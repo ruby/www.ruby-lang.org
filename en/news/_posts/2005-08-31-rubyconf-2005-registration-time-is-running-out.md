@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2005 Registration: Time is running out"
+lang: en
 ---
 
 David Black [announced][1] on ruby-talk that there are now 136

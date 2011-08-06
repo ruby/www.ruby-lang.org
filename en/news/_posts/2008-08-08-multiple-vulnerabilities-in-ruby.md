@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Multiple vulnerabilities in Ruby
+lang: en
 ---
 
 Multiple vulnerabilities have been discovered in Ruby. It\'s recommended

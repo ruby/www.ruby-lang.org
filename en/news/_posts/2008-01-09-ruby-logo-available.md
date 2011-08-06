@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby logo available
+lang: en
 ---
 
 The official Ruby logo is [available to download][1] under Creative

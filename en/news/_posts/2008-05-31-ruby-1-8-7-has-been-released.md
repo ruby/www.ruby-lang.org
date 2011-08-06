@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.8.7 has been released
+lang: en
 ---
 
 Akinori <span class="caps">MUSHA</span> announced today that Ruby 1.8.7

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Security
+lang: en
 ---
 
 Here you will find information about security issues of Ruby.

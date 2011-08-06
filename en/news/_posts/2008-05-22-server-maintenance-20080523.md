@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Server maintenance
+lang: en
 ---
 
 Services on ruby-lang.org except SVN will be down for server maintenance

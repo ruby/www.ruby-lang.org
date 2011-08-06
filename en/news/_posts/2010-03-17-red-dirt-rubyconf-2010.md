@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Red Dirt RubyConf 2010
+lang: en
 ---
 
 Registration is now open for the [Red Dirt RubyConf][1]. Our \"early

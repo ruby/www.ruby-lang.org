@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  RAA XML Interfaces are updated
+lang: en
 ---
 
 Following RAA/2.1, RAA XML Interfaces are updated.

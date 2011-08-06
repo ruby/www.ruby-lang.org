@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: See Matz in San Francisco or Silicon Valley
+lang: en
 ---
 
 Matz is visiting San Francisco and Silicon Vally on October 7th and

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: MountainWest RubyConf 2008
+lang: en
 ---
 
 Registration for [MountainWest RubyConf 2008][1] is now open. This year

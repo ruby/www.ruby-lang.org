@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: security@ruby-lang.org
+lang: en
 ---
 
 Created [security@ruby-lang.org](mailto:security@ruby-lang.org) . If you

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ruby From Other Languages
+lang: en
 ---
 
 When you first look at some Ruby code, it will likely remind you of

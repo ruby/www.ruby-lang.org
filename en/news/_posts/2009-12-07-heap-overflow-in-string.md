@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Heap overflow in String
+lang: en
 ---
 
 There is a heap overflow vulnerability in `String#ljust`,

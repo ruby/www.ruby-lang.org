@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2006 Almost Upon Us!
+lang: en
 ---
 
 With people traveling from all over the world, [by train][1], by car,

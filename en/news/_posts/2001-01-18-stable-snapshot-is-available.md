@@ -2,6 +2,7 @@
 layout: news_post
 title:  Stable snapshot is available
 author: Matz
+lang: en
 ---
 
 [Stable snapshot](ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz)

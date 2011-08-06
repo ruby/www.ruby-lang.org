@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby on Rails Bootcamp in Germany
+lang: en
 ---
 
 Big Nerd Ranch Europe is offering their Ruby on Rails Bootcamp classes

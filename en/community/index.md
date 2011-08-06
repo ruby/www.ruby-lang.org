@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Community
+lang: en
 ---
 
 The community that grows up around a programming language is one of its

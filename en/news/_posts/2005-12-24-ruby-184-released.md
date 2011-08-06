@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.8.4 released!
+lang: en
 ---
 
 Ruby 1.8.4 has been released. The source is

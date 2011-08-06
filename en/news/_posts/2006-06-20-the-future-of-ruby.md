@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: The Future of Ruby
+lang: en
 ---
 
 There has been much discussion recently on the future directions Ruby

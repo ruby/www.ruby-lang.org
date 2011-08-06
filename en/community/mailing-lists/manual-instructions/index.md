@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Manual Mailing List Instructions
+lang: en
 ---
 
 To subscribe to a mailing list, please send a mail with the following

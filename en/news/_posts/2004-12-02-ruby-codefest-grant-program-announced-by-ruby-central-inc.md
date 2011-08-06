@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Codefest Grant Program announced by Ruby Central, Inc.
+lang: en
 ---
 
 [Ruby Central, Inc.][1] has announced its first Ruby Codefest Grant

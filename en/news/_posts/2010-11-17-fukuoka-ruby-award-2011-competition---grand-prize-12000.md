@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Fukuoka Ruby Award 2011 Competition - Grand Prize, $12,000!
+lang: en
 ---
 
 Even though it’s last minute, if you are Ruby Rock Star, you have a

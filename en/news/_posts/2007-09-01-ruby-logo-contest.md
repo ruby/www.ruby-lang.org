@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Logo Contest
+lang: en
 ---
 
 The Ruby Association open [the Ruby Logo Contest][1]. Please submit your

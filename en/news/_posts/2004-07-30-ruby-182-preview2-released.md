@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: ruby 1.8.2 preview2 released
+lang: en
 ---
 
 [ruby 1.8.2 preview2][1] was released.

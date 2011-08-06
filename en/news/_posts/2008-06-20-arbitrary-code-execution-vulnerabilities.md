@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Arbitrary code execution vulnerabilities
+lang: en
 ---
 
 Multiple vulnerabilities in Ruby may lead to a denial of service (DoS)

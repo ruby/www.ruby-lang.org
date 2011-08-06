@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  \"Ruby Hacking Guide\" is out though ...
+lang: en
 ---
 
 [![RHG](http://direct.ips.co.jp/directsys/Images/Goods/1/1721B.gif){:

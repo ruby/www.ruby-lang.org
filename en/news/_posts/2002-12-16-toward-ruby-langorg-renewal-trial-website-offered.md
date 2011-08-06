@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  Toward ruby-lang.org renewal; trial website offered
+lang: en
 ---
 
 We webmasters’ team of ruby-lang.org have reformed our official site

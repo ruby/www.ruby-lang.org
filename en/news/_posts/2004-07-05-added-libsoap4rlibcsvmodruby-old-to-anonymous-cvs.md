@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: added lib/soap4r,lib/csv,mod\_ruby-old to Anonymous CVS
+lang: en
 ---
 
 lib/soap4r, lib/csv, mod\_ruby-old were added to the Anonymous <span

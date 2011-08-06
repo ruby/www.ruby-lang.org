@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mailing Lists
+lang: en
 ---
 
 Mailing-lists are a great way to keep your finger on the pulse of the

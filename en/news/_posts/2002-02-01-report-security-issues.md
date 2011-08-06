@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  Report Security Issues
+lang: en
 ---
 
 Please send a mail to

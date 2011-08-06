@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: MountainWest RubyConf 2009 Proposal Deadline Approaching
+lang: en
 ---
 
 [MountainWest RubyConf 2009][1] will be held March 13-14, 2009, in Salt

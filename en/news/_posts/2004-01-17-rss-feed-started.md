@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RSS feed started
+lang: en
 ---
 
 We just started <span class="caps">RSS</span> feed in this site. Check

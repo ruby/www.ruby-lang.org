@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: MountainWest RubyConf Schedule
+lang: en
 ---
 
 The schedule for the upcoming [MountainWest RubyConf][1] is

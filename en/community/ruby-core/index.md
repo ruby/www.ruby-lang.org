@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ruby Core
+lang: en
 ---
 
 Now is a fantastic time to follow Ruby’s development, with Ruby 2.0

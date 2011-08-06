@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2008 Summary Video
+lang: en
 ---
 
 While RubyConf fans are waiting on the videos trickle in [Confreaks][1],

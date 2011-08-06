@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: New Ruby Change Request (RCR) process
+lang: en
 ---
 
 In [\[ruby-talk:88503\]][1], David Alan Black announced the launch of

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby-talk Mailing Posting Policy Change
+lang: en
 ---
 
 The ruby-talk mailing has changed its posting policy. The list now

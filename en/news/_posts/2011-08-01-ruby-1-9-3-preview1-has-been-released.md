@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.3 preview1 has been released
+lang: en
 ---
 
 Ruby 1.9.3 preview1 has been released. This is a first preview of next

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Success Stories
+lang: en
 ---
 
 Many people use Ruby in their daily jobs. Others just as a hobby. Here

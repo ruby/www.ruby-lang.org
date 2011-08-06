@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.8.2 released!
+lang: en
 ---
 
 Matz announced that ruby 1.8.2 was released

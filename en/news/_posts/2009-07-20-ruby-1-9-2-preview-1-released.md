@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.2 preview 1 released
+lang: en
 ---
 
 Ruby 1.9.2 preview 1 has been released.

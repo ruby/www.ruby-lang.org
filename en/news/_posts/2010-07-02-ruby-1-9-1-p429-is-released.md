@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.1-p429 is released
+lang: en
 ---
 
 Ruby 1.9.1-p429 has just been released. This is a patchlevel release for

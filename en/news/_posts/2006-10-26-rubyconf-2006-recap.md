@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2006 Recap
+lang: en
 ---
 
 Last weekend over 300 Rubyists gathered in Denver, CO to discuss many

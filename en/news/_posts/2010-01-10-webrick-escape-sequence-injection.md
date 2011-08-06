@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: WEBrick has an Escape Sequence Injection vulnerability
+lang: en
 ---
 
 A vulnerability was found on WEBrick, a part of Ruby\'s standard

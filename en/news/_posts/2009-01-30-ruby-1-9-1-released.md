@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.1 released
+lang: en
 ---
 
 Ruby 1.9.1 is released. This is the first stable release of the Ruby 1.9

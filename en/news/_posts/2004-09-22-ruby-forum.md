@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Forum
+lang: en
 ---
 
 A link to [Ruby Forum][1] was added to [Community](/en/community/)

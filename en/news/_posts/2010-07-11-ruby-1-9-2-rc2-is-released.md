@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby 1.9.2 RC2 is released
+lang: en
 ---
 
 Ruby 1.9.2 RC2 has just been released. This is the second release

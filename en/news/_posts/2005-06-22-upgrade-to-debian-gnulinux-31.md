@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Upgrade to Debian GNU/Linux 3.1
+lang: en
 ---
 
 We’ll upgrade this host to Debian <span class="caps">GNU</span>/Linux

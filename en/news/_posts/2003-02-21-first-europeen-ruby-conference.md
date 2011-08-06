@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: First Europeen Ruby Conference
+lang: en
 ---
 
 (MNeumann announced the first European Ruby Conference at

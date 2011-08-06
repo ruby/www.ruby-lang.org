@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: 1.8.2 preview4 released
+lang: en
 ---
 
 Matz announced that [ruby 1.8.2 preview4][1] was released

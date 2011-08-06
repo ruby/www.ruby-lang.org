@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Voices That Matter 2008
+lang: en
 ---
 
 Pearson Education is running a [Voices That Matter][1] Ruby conference

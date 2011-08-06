@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Ruby Conference 2003
+lang: en
 ---
 
 [Ruby Conference 2003][1] will soon be held in November 14-16, 2003, on

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: CVS services will be permanently unavailable
+lang: en
 ---
 
 CVS services (including CVSup and CVSweb) will be permanently

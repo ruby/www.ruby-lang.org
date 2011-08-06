@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: O\'Reilly ONLamp Ruby article
+lang: en
 ---
 
 Mike Stok has written an excellent [ recap][1] of the 3rd International

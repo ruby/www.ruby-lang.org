@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: MountainWest RubyConf 2007 Registration Now Open
+lang: en
 ---
 
 Registration for the upcoming [MountainWest RubyConf][1] is open.

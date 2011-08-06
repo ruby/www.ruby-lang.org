@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title:  Dutch translation of www.ruby-lang.org
+lang: en
 ---
 
 [Dutch translation of www.ruby-lang.org][1] is available. Thanks to John

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: RubyConf 2008 is Sold-out
+lang: en
 ---
 
 [RubyConf 2008][1] is sold out

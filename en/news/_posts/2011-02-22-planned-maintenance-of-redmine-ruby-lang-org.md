@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Planned maintenance of redmine.ruby-lang.org
+lang: en
 ---
 
 [Ruby\'s issue tracker][1] will be down from 2011-02-23 10:00+09:00 to

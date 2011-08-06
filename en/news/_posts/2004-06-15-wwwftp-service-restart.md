@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: WWW/FTP service restart
+lang: en
 ---
 
 We have finished the validation on <span class="caps">WWW</span>/FTP

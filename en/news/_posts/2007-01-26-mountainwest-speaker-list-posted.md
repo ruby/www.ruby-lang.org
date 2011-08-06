@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: MountainWest Speaker List Posted
+lang: en
 ---
 
 The list of speakers and topics for MountainWest RubyConf has [gone

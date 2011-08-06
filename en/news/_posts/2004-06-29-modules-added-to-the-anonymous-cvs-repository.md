@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: modules added to the Anonymous CVS repository
+lang: en
 ---
 
 These checked modules are added to the Anonymous <span class="caps">CVS</span> repository. * app

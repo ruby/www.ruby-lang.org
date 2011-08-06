@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: Incident Analysis of the intrusion on helium.ruby-lang.org
+lang: en
 ---
 
 As already reported, helium.ruby-lang.org, which is one of the servers
