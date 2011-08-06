@@ -23,7 +23,7 @@ Ruby-Doc
 Ruby-CVS
 : This list reports all commits to Ruby’s CVS repository.
 
-<form action="/en/community/mailing-lists/" id="subscriptions-form" method="post">
+<form action="/community/mailing-lists/" id="subscriptions-form" method="post">
   <h2>Subscribe or Unsubscribe</h2>
 
   <table class="fieldset" cellspacing="0" cellpadding="0" border="0">
