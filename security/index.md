@@ -28,32 +28,32 @@ Here are recent issues.
   at 10 Jan, 2010
 * [Heap overflow in String][6] published at 7 Dec, 2009
 * [DoS vulnerability in
-  REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/) published at
+  REXML](/news/2008/08/23/dos-vulnerability-in-rexml/) published at
   23 Aug, 2008
 * [Multiple vulnerabilities in
-  Ruby](/en/news/2008/08/08/multiple-vulnerabilities-in-ruby/) published
+  Ruby](/news/2008/08/08/multiple-vulnerabilities-in-ruby/) published
   at 8 Aug, 2008
 * [Arbitrary code execution
-  vulnerabilities](/en/news/2008/06/20/arbitrary-code-execution-vulnerabilities/)
+  vulnerabilities](/news/2008/06/20/arbitrary-code-execution-vulnerabilities/)
   published at 20 Jun, 2008
 * [File access vulnerability of
-  WEBrick](/en/news/2008/03/03/webrick-file-access-vulnerability/)
+  WEBrick](/news/2008/03/03/webrick-file-access-vulnerability/)
   published at 3 Mar, 2008
 * [Net::HTTPS
-  Vulnerability](/en/news/2007/10/04/net-https-vulnerability/) published
+  Vulnerability](/news/2007/10/04/net-https-vulnerability/) published
   at 4 Oct, 2007
 * [Another DoS Vulnerability in CGI
-  Library](/en/news/2006/12/04/another-dos-vulnerability-in-cgi-library/)
+  Library](/news/2006/12/04/another-dos-vulnerability-in-cgi-library/)
   published at 4 Dec, 2006
-* [DoS Vulnerability in CGI Library](/en/news/2006/11/03/CVE-2006-5467/)
+* [DoS Vulnerability in CGI Library](/news/2006/11/03/CVE-2006-5467/)
   published at 3 Nov, 2006
 * [Ruby vulnerability in the safe level
-  settings](/en/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
+  settings](/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
   published at 2 Oct, 2005
 
-[1]: http://www.ruby-lang.org/en/news/2011/02/18/exception-methods-can-bypass-safe/ 
-[2]: http://www.ruby-lang.org/en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/ 
-[3]: http://www.ruby-lang.org/en/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
-[4]: http://www.ruby-lang.org/en/news/2010/07/02/ruby-1-9-1-p429-is-released/ 
-[5]: http://www.ruby-lang.org/en/news/2010/01/10/webrick-escape-sequence-injection// 
-[6]: http://www.ruby-lang.org/en/news/2009/12/07/heap-overflow-in-string/ 
+[1]: http://www.ruby-lang.org/news/2011/02/18/exception-methods-can-bypass-safe/ 
+[2]: http://www.ruby-lang.org/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/ 
+[3]: http://www.ruby-lang.org/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
+[4]: http://www.ruby-lang.org/news/2010/07/02/ruby-1-9-1-p429-is-released/ 
+[5]: http://www.ruby-lang.org/news/2010/01/10/webrick-escape-sequence-injection// 
+[6]: http://www.ruby-lang.org/news/2009/12/07/heap-overflow-in-string/ 

@@ -21,7 +21,7 @@ header: |
 
 This is a small Ruby tutorial that should take no more than 20 minutes to
 complete. It makes the assumption that you already have Ruby installed.
-(If you don’t have Ruby on your computer [download](/en/downloads/) and
+(If you don’t have Ruby on your computer [download](/downloads/) and
 install it before you get started.)
 
 ## Interactive Ruby
