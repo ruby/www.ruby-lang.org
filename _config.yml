@@ -1,6 +1,6 @@
 auto: true
 server: true
-markdown: kramdown
+markdown: rdiscount
 permalink: date
 pygments: true
 
