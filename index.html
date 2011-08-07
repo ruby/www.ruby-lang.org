@@ -1,0 +1,18 @@
+---
+layout: nil
+---
+
+<html>
+  <head>
+    <script type="text/javascript">
+      var languages = {
+        'en-US': 'en',
+      };
+
+      var language = languages[window.navigator.language];
+      if (language == null) { language = 'en'; }
+
+      document.location = "/" + language;
+    </script>
+  </head>
+</html>
