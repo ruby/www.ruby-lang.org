@@ -12,7 +12,7 @@ LAYOUTS = {
   :post => 'news_post'
 }
 
-desc 'Spiders ruby-lang.org and imports HTML content'
+desc 'Spiders ruby-lang.org and converts HTML to Markdown'
 task :import do
   Spidr.site('http://www.ruby-lang.org/index.html') do |agent|
     agent.ignore_links_like /\/cgi-bin\//
