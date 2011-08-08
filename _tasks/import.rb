@@ -1,7 +1,6 @@
 require 'fileutils'
-require 'yaml'
 
-gem 'spidr', '~> 0.3'
+gem 'spidr', '~> 0.4'
 require 'spidr'
 
 gem 'kramdown', '~> 0.13'
@@ -23,14 +22,14 @@ task :import do
     agent.every_ok_page do |page|
       path = page.url.path[1..-1]
 
-      layout = LAYOUTS[:default]
+      layout = :default
 
       if path =~ %r{^[a-z_-]+/news/\d{4}/\d{1,2}/\d{1,2}/[^/]+/$}
         # map news posts in to news/_posts/
         dirs = path.split('/')
         local_path = File.join(OUTPUT_DIR,dirs[0,2],'_posts',dirs[2..-1].join('-')) + '.md'
 
-        layout = LAYOUTS[:post]
+        layout = :post
       else
         # normal page
         local_path = File.join(OUTPUT_DIR,path)
@@ -53,17 +52,18 @@ task :import do
 
         File.open(local_path,'w') do |file|
           if page.html?
-            header = {
-              'layout' => layout,
-              'title' => page.title.strip,
-              'lang' => path.split('/',2).first
-            }
+            title = page.title.strip
+            lang = path.split('/',2).first
 
-            # add the YAML header
-            YAML.dump(header,file)
-
-            # YAML header separator
-            file.puts '---'
+            # add the YAML front matter
+            file.puts(
+              '---',
+              "layout: #{LAYOUTS[layout]}",
+              "title: \"#{title}\"",
+              "lang: #{lang}",
+              '---',
+              ''
+            )
 
             if (content_div = page.at('#content'))
               # remove all comments
