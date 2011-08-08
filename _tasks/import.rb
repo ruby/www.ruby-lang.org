@@ -59,7 +59,7 @@ task :import do
             file.puts(
               '---',
               "layout: #{LAYOUTS[layout]}",
-              "title: #{title.dump}",
+              "title: #{title.inspect}",
               "lang: #{lang}",
               '---',
               ''
