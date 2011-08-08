@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Site Launch At Last!
+title: "Site Launch At Last!"
 lang: en
 ---
 
@@ -11,11 +11,10 @@ team created over 20 mockups for the the new site, [posted several][2]
 for the Ruby community to comment on, and finally decided on the current
 design.
 
-Once the design was chosen it was lovingly converted to <span
-class="caps">CSS</span> and <span class="caps">XHTML</span> and an
-[administration system][3] was written for it. The content was then
-ported over from the old Web site and massaged by an enthusiastic group
-of volunteers.
+Once the design was chosen it was lovingly converted to CSS and XHTML
+and an [administration system][3] was written for it. The content was
+then ported over from the old Web site and massaged by an enthusiastic
+group of volunteers.
 
 The Ruby Visual Identity Team is composed of:
 
@@ -46,8 +45,10 @@ community and we want to thank everyone who made it happen. Kudos to
 each and every one of you!
 
 If you have comments or questions about the redesign, you are cordially
-invited to join the discussion over on the [<span
-class="caps">VIT</span>-Discuss mailing list][4].
+invited to join the discussion over on the [VIT-Discuss mailing
+list][4].
+
+
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/131284 
 [2]: http://redhanded.hobix.com/redesign2005/ 

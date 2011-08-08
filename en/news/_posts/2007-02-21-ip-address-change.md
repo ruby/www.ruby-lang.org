@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: IP Address Change
+title: "IP Address Change"
 lang: en
 ---
 

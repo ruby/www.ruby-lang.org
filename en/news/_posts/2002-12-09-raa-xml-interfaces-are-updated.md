@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title:  RAA XML Interfaces are updated
+title: "RAA XML Interfaces are updated"
 lang: en
 ---
 
@@ -21,6 +21,8 @@ Following RAA/2.1, RAA XML Interfaces are updated.
 * YAML (not a XML!)
   * [http://raa.ruby-lang.org/raa-yaml.yml][5]
   * [http://raa.ruby-lang.org/raa-yaml10.yml][6]
+
+
 
 [1]: http://raa.ruby-lang.org/raa-xml.xml 
 [2]: http://raa.ruby-lang.org/raa-xml10.xml 

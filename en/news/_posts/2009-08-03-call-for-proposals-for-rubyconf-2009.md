@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Call for Proposals for RubyConf 2009
+title: "Call for Proposals for RubyConf 2009"
 lang: en
 ---
 
@@ -12,7 +12,8 @@ You need to sign up for an account at [rubyconf.org][1], and then you
 can submit your proposal.
 
 RubyConf 2009 will take place November 19-21 2009, at the Embassy Suites
-Hotel at the San Francisco Airport, California, <span
-class="caps">USA</span>.
+Hotel at the San Francisco Airport, California, USA.
+
+
 
 [1]: http://www.rubyconf.org 

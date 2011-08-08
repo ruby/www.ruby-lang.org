@@ -1,117 +1,124 @@
 ---
 layout: page
-title: Libraries
+title: "Libraries"
 lang: en
 ---
 
-A myriad of fascinating and useful libraries are out there for Ruby,
-many released as [a convenient *gem* file][1]. Other libraries are
-released as archived (.zip or .tar.gz) directories of source code. Let’s
-take a look at finding libraries and installing them for your own use.
+As most programming languages, Ruby leverages a wide set of third-party
+libraries.
 
-###  <a id="finding-libraries" />Finding Libraries
+Most of them are released in the form of a **gem**. [**RubyGems**][1] is
+a Ruby packaging system designed to facilitate the creation, sharing and
+installation of libraries (in some ways, it is a distribution packaging
+system similar to, say, `apt-get`, but targeted at Ruby software). Ruby
+1.9 comes with RubyGems by default, while previous Ruby versions require
+to [install it by hand][2].
 
-[**RubyForge**][2] is a popular home for Ruby libraries. One good spot
-to browse is its [software map][3], which lists libraries by topic. (If
-you end up creating your own libraries, you can [register][4] your
-project at Rubyforge to get free Subversion access, web space, and
-mailing lists.)
+Some other libraries are released as archived (.zip or .tar.gz)
+directories of **source code**. Installation processes may vary,
+typically a `README` or `INSTALL` file is available with instructions.
 
-The [**Ruby Application Archive**][5] (or RAA)
-is a directory of all manner of Ruby software, categorized by function.
-Right now, the [Database][6] category has the most entries, leading by 1
-over [Net.][7] [HTML][8] and [XML][9] are also popular categories.
-There are even 4 [Physics][10] entries.
+Let’s take a look at finding libraries and installing them for your own
+use.
 
-###  <a id="using-rubygems" />Using RubyGems
+### Finding libraries
 
-As stated on the [RubyGems website][1], “RubyGems is the premier ruby
-packaging system. It provides a standard format for distributing Ruby
-programs and libraries, and an easy to use tool for managing the
-installation of gem packages.” In some ways, it is a distribution
-packaging system similar to, say, apt-get, targeted at ruby software.
-The official gems repository is [RubyGems.org][11].
+The main place where libraries are hosted is [**RubyGems.org**][3],
+providing Ruby libs as gems. You may browse the website directly, or use
+the `gem` command.
 
-Ruby 1.9 and the Windows installer includes RubyGems, so you may not
-need to install it separately. Please refer to [Installing
-RubyGems](#installing-rubygems) below, if next gem commands do not work
-for you.
+Using `gem search -r`, you can inspect RubyGems repository. For
+instance, `gem search -r rails` will return a list of Rails-related
+gems. Without the `remote` (`-r`) option, you would perform a local
+search through you installed gems. To install a gem, use `gem install
+[gem]`. Browsing installed gems is done with `gem list`. For more
+information about the `gem` command, see below or head to [RubyGems’
+docs][1].
 
-#### Searching for Gems
+There are other source of libraries though. [RubyForge][4] used to be a
+popular home for Ruby libraries, but last years saw the rise of
+[**Github**][5] as one of the main ruby-related content repository. Most
+often a gem source code will be hosted on Github while being published
+as a fully-fledged gem to RubyGems.org.
 
-The **search** command can be used to look for gems of a certain name.
-To search for the word “html” in the name of a gem:
+The [Ruby Application Archive][6] (or RAA) is a directory of all manner
+of Ruby software, categorized by function, but it is not quite used
+anymore. You probably don’t want to go there.
 
-    {% highlight bash %}
-    $ gem search html --remote
-    *** REMOTE GEMS ***
-    html-sample (1.0, 1.1)
-    {% endhighlight %}
+### A few more words about RubyGems
 
-A sample Ruby gem, just to illustrate how RubyGems works.
+Here is a quick review of the `gem` command for your daily use. [More
+detailed documentation][7] is available, covering all aspects of this
+packaging system.
 
-(*The `--remote` flag indicates that we’ll be searching the official
-Gemcutter gems.*)
+#### Searching among available gems
 
-#### Installing a Gem
+The **search** command can be used to look for gems, based on a string.
+Gems which names contain the specified string will be listed in return.
+For instance, to search for the “html”-related gems:
 
-Once you know which gem you’d like to **install**\:
+    $ gem search -r html
+    
+     *** REMOTE GEMS ***
+    
+     html-sample (1.0, 1.1)
+        A sample Ruby gem, just to illustrate how RubyGems works.
+{: .code .bash-code}
 
-    {% highlight bash %}
-    $ gem install html-sample
+The `--remote` / `-r` flag indicates that we want to inspect the
+official RubyGems.org repository. Without this flag, you would perform a
+local search (among your installed gems).
 
-You can even install just a certain version of the library using the
-`--version` flag.
+#### Installing a gem
 
-    {% highlight bash %}
-    $ gem install html-sample --version 1.0
-    {% endhighlight %}
+Once you know which gem you would like to **install**, for instance the
+popular Rails:
 
-#### Listing All Gems
+    $ gem install rails
+{: .code .bash-code}
 
-For a complete **list** of all gems at Gemcutter:
+You can even install just a certain version of the library, using the
+`--version` / `-v` flag:
 
-    {% highlight bash %}
-    $ gem list --remote
-    {% endhighlight %}
+    $ gem install rails --version 3.0
+{: .code .bash-code}
 
-To list only gems you’ve installed, leave off the flag.
+#### Listing all gems
 
-    {% highlight bash %}
+For a complete **list** of all gems available on RubyGems.org:
+
+    $ gem list -r
+{: .code .bash-code}
+
+To list only local gems:
+
     $ gem list
-    {% endhighlight %}
+{: .code .bash-code}
 
-For more on using RubyGems, see [**the official manual**][12], which
-includes examples for using gems in your Ruby scripts.
+#### Help!
 
-###  <a id="installing-rubygems" />Installing RubyGems
+Documentation is available inside your terminal:
 
-To install RubyGems, download the latest version of RubyGems from its
-[downloads page][13]. Extract the archive and run `setup.rb`. On some
-operating systems you may need to do this as root.
+    $ gem help
+{: .code .bash-code}
 
-For example, on Linux:
+For instance, `gem help commands` is very useful as it outputs a list of
+all `gem`’s commands.
 
-    {% highlight bash %}
-    $ tar xzvf rubygems-1.7.2.tgz
-    $ cd rubygems-1.7.2
-    $ su -# ruby setup.rb
-    {% endhighlight %}
+#### Crafting your own gems
 
-If you need some further direction on how to install Ruby, check out the
-[**installation chapter**][14] in the RubyGems manual.
+[RubyGems.org][8] has several guides about this topic. You may also want
+to investigate on [Bundler][9], a generic tool which helps you manage an
+application’s dependencies and may be used along RubyGems.
+
+
 
 [1]: http://docs.rubygems.org 
-[2]: http://rubyforge.org/ 
-[3]: http://rubyforge.org/softwaremap/trove_list.php 
-[4]: http://rubyforge.org/register/ 
-[5]: http://raa.ruby-lang.org/ 
-[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database 
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net 
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML 
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML 
-[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics 
-[11]: http://rubygems.org/ 
-[12]: http://rubygems.org/read/chapter/1 
-[13]: http://rubyforge.org/frs/?group_id=126 
-[14]: http://rubygems.org/read/chapter/3 
+[2]: http://rubygems.org/pages/download 
+[3]: http://rubygems.org 
+[4]: http://rubyforge.org/ 
+[5]: http://github.com 
+[6]: http://raa.ruby-lang.org/ 
+[7]: http://docs.rubygems.org/ 
+[8]: http://guides.rubygems.org 
+[9]: http://gembundler.com 

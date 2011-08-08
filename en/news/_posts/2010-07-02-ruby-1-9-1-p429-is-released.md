@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.9.1-p429 is released
+title: "Ruby 1.9.1-p429 is released"
 lang: en
 ---
 
@@ -49,6 +49,8 @@ The vulnerability was found and reported by Masaya TARUI.
   * MD5: fcd031414e5e4534f97aa195bb586d6c
   * SHA256:
     c9fe2364b477ad004030f4feeb89aeaa2a01675ff95db1bed31a932806f85680
+
+
 
 [1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2 
 [2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: CVS Repository moved to SVN
+title: "CVS Repository moved to SVN"
 lang: en
 ---
 
@@ -11,6 +11,8 @@ svn command, or you can also browse it by [ViewVC][2].
 The new machine for svn.ruby-lang.org is provided by [Sun
 Microsystems][3]. We are using [Solaris 10][4] on the new machine, and
 it works pretty well.
+
+
 
 [1]: http://svn.ruby-lang.org/repos/ruby/ 
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby 

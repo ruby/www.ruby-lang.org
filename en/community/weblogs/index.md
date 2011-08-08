@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Weblogs
+title: "Weblogs"
 lang: en
 ---
 
@@ -18,10 +18,7 @@ chart][2] for recent upcomers in the Ruby community.
 [**Ruby on Technorati**][3]\: Technorati’s search for *“Ruby”* yields
 the most recent posts across the blogs covered in its index.
 
-**Planets**\: some planets (online specialized feeds agregators) have been
-running for years now. A few of them providing convenient content:
-
-* [Ruby Corner][4]
+ **Planets**\: some planets (online specialized feeds agregators) have been running for years now. A few of them providing convenient content: * [Ruby Corner][4]
 * [Planet Ruby][5]
 * [PlanetRubyOnRails.org][6]
 * [PlanetRubyOnRails.com][7]
@@ -54,6 +51,8 @@ not be as interested—but you never know.)
 Ruby is also a common topic on [Digg][14], [Slashdot][15], [reddit][16],
 and [Hacker News][17], in their respective programming news. If you find
 some brilliant code out there, be sure to let them know!
+
+
 
 [1]: http://del.icio.us/tag/ruby 
 [2]: http://del.icio.us/popular/ruby 

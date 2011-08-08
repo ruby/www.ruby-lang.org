@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ruby Core
+title: "Ruby Core"
 lang: en
 ---
 
@@ -21,9 +21,9 @@ The topics related to Ruby development covered here are:
 Checking out the latest Ruby source code is a matter of logging into the
 [Subversion][1] anonymous account. From your commandline:
 
-    $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
-
-The `ruby` directory will now contain the latest source code for Ruby
+ `
+ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+` The `ruby` directory will now contain the latest source code for Ruby
 1.9 (trunk), which is the development version of Ruby. The trunk was
 used to release a stable 1.9.1 version in January 2009. Currently
 patches applied to the trunk are backported to the stable 1\_9\_1 branch
@@ -32,15 +32,15 @@ patches applied to the trunk are backported to the stable 1\_9\_1 branch
 If you’d like to follow patching of Ruby 1.9.1, you should use the
 `ruby_1_9_1` branch when checking out:
 
-    $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
-
-If you’d like to follow patching of Ruby 1.8, you should use the
+ `
+ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+` If you’d like to follow patching of Ruby 1.8, you should use the
 `ruby_1_8_6` or `ruby_1_8_7` branch when checking out (depending on the
 version you’re using):
 
-    $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7
-
-This will check out the Ruby 1.8.7 development tree into a `ruby_1_8_7`
+ `
+ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7
+` This will check out the Ruby 1.8.7 development tree into a `ruby_1_8_7`
 directory. Developers working on Ruby 1.8 are expected to migrate their
 changes to Ruby’s trunk, so often the two branches are very similiar,
 with the exception of improvements made by Matz and Nobu to the language
@@ -49,9 +49,8 @@ itself.
 If you prefer, you may browse [Ruby’s repository via the web][2].
 
 For information about Subversion, please see [the Subversion FAQ][3] and
-[the Subversion book][4]. Alternatively, you may find
-[Pragmatic Version Control with Subversion][5] to be a useful introductory
-book.
+[the Subversion book][4]. Alternatively, you may find [Pragmatic Version
+Control with Subversion][5] to be a useful introductory book.
 
 ###  <a name="git-ruby" />How to Use Git With the Main Ruby Repository
 
@@ -126,6 +125,8 @@ following guidelines should be honored when checking into Subversion:
   and its packaged extensions.
 * Please, do not use C++-style comments (`//`), Ruby’s maintainers
   instead prefer the standard C multiline comment. (`/* .. */`)
+
+
 
 [1]: http://subversion.tigris.org/ 
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/ 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: First Europeen Ruby Conference
+title: "First Europeen Ruby Conference"
 lang: en
 ---
 
@@ -14,5 +14,7 @@ lang: en
 
 (For more detail about the entrance fee, calling for speakers,
 mailing-lists, and so on, see [\[ruby-talk:65418\]][1])
+
+
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/65418 

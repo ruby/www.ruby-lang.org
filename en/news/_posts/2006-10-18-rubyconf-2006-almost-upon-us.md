@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: RubyConf 2006 Almost Upon Us!
+title: "RubyConf 2006 Almost Upon Us!"
 lang: en
 ---
 
@@ -10,17 +10,18 @@ conference is scheduled to begin Friday morning, but if you arrive early
 you may be able to join in on a few preliminary activities.
 
 There are over [16 talks scheduled][3] with topics ranging from
-*Leveraging Mac <span class="caps">OS X</span> from Ruby* to *<span
-class="caps">YARV</span> on Rails*. There’s even a talk on *Natural
-Language Processing in Ruby* and one on the development of Iron Mongrel
-(the hot new Web server written in Ruby). Check out the [talk
-descriptions][4] for the gory details.
+*Leveraging Mac OS X from Ruby* to *YARV on Rails*. There’s even a talk
+on *Natural Language Processing in Ruby* and one on the development of
+Iron Mongrel (the hot new Web server written in Ruby). Check out the
+[talk descriptions][4] for the gory details.
 
 Also, if you are planning to attend the conference, be sure to put a bio
 up on the [RubyConf 2006 Facebook][5]. If you are blogging or posting
 photos about the conference, tag your content with “rubyconf” (one word)
 and “rubyconf2006” (also one word). This will make it easy for people to
 find your stuff on [Technorati][6] and [Flickr][7].
+
+
 
 [1]: http://mokolabs.com/2006/09/08/the-rubyconf-express/ 
 [2]: http://rubyconf.org/ 

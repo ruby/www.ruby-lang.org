@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ruby Conferences
+title: "Ruby Conferences"
 lang: en
 ---
 
@@ -17,8 +17,8 @@ the Ruby community.
   between 2001 and 2006. RubyConf has provided a forum for presentations
   about Ruby technologies by their creators, including talks by
   Nathaniel Talbot on Test Unit, Jim Weirich on Rake, David Heinemeier
-  Hansson on Ruby on Rails, Why the Lucky Stiff on the  YAML library,
-  and Sasada Koichi on YARV. Matz has attended, and spoken at, all the
+  Hansson on Ruby on Rails, Why the Lucky Stiff on the YAML library, and
+  Sasada Koichi on YARV. Matz has attended, and spoken at, all the
   RubyConfs but one.
 
 [RubyKaigi][3]
@@ -59,6 +59,8 @@ have also been devoted to [Ruby on Rails][10], including Ruby Central’s
 [RailsConf][11], [RailsConf Europe][12] (co-produced in 2006 by Ruby
 Central and [Skills Matter][13], and in 2007 by Ruby Central and
 O’Reilly), and Canada on Rails.
+
+
 
 [1]: http://rubyconf.org/ 
 [2]: http://www.rubycentral.org 

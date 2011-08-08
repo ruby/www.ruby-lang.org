@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title:  Color scheme of www.ruby-lang.org
+title: "Color scheme of www.ruby-lang.org"
 lang: en
 ---
 
@@ -12,5 +12,7 @@ Thank you for your kind corporation.
 
 And we also thank people who are discussing about color scheme on
 ruby-talk.
+
+
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/59202 

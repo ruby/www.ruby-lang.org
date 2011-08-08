@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title:  Toward ruby-lang.org renewal; trial website offered
+title: "Toward ruby-lang.org renewal; trial website offered"
 lang: en
 ---
 
@@ -26,7 +26,10 @@ to the address below.
 Cheers,
 
 —ruby-lang.org webmaster team  
-[webmaster@ruby-lang.org](mailto:webmaster@ruby-lang.org){: align="right"}
+[webmaster@ruby-lang.org](mailto:webmaster@ruby-lang.org)
+{: align="right"}
+
+
 
 [1]: http://dev.ruby-lang.org/en/ 
 [2]: http://dev.ruby-lang.org/ja/ 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby Summer of Code 2010
+title: "Ruby Summer of Code 2010"
 lang: en
 ---
 
@@ -19,6 +19,8 @@ for news.
   Ruby community, and history of motivated open source contribution
 
 The more we raise, the more students we can fund. [Donate now!][4]
+
+
 
 [1]: http://rubycentral.org/ 
 [2]: http://www.engineyard.com/blog/2010/ruby-summer-of-code-is-here/ 

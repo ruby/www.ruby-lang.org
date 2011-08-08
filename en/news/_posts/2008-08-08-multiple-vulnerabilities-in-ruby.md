@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: Multiple vulnerabilities in Ruby
+title: "Multiple vulnerabilities in Ruby"
 lang: en
 ---
 
 Multiple vulnerabilities have been discovered in Ruby. It\'s recommended
 that you upgrade to the latest versions.
 
-## Details
+## 
 
 The following vulnerabilities have been discovered.
 
-### Several vulnerabilities in safe level
+### 
 
 Several vulnerabilities in safe level have been discovered.
 
@@ -76,7 +76,7 @@ Several vulnerabilities in safe level have been discovered.
 
 These vulnerabilities were reported by Keita Yamaguchi.
 
-### DoS vulnerability in WEBrick
+### 
 
 WEBrick::HTTP::DefaultFileHandler is faulty of exponential time taking
 requests due to a backtracking regular expression in
@@ -101,7 +101,7 @@ The request likely won\'t finish in this universe.
 
 This vulnerability was reported by Christian Neukirchen.
 
-### Lack of taintness check in dl
+### 
 
 dl doesn\'t check taintness, so it could allow attackers to call
 dangerous functions.
@@ -115,7 +115,7 @@ dangerous functions.
 
 This vulnerability was reported by sheepman.
 
-### DNS spoofing vulnerability in resolv.rb
+### 
 
 resolv.rb allow remote attackers to spoof DNS answers. This risk can be
 reduced by randomness of DNS transaction IDs and source ports, so
@@ -125,24 +125,25 @@ resolv.rb is fixed to randomize them.
 
 This vulnerability was reported by Tanaka Akira.
 
-## Vulnerable versions
+## 
 
-1.8 series
+
 : * 1\.8.5 and all prior versions
   * 1\.8.6-p286 and all prior versions
   * 1\.8.7-p71 and all prior versions
 
-1.9 series
+
 : * r18423 and all prior revisions
 
-## Solution
+## 
 
-1.8 series
+
 : Please upgrade to 1.8.6-p287, or 1.8.7-p72.
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz&gt;][2]
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz&gt;][3]
 
-1.9 series
+
+
 : Please check out the latest version using Subversion.
   
       $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
@@ -150,16 +151,18 @@ This vulnerability was reported by Tanaka Akira.
 Please note that a package that corrects this weakness may already be
 available through your package management software.
 
-## Credit
+## 
 
 Credit to Keita Yamaguchi, Christian Neukirchen, sheepman, and Tanaka
 Akira for disclosing these problems to Ruby Security Team.
 
-## Changes
+## 
 
 * 2008-08-08 12:21 +09:00 fixed the revision number of ruby 1.9.
 * 2008-08-11 11:23 +09:00 fixed the patchlevel of ruby 1.8. see [the
   release announcement of Ruby 1.8.7-p72 and 1.8.6-p287][4]
+
+
 
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1447 
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz 

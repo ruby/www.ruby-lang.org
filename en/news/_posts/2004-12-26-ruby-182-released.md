@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.8.2 released!
+title: "Ruby 1.8.2 released!"
 lang: en
 ---
 
@@ -15,5 +15,7 @@ This is mainly a bug fix release. You can download it at:
 md5sum is 8ffc79d96f336b80f2690a17601dea9b
 
 Merry Christmas!
+
+
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.2.tar.gz 

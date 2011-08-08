@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: RubyConf 2006 Recap
+title: "RubyConf 2006 Recap"
 lang: en
 ---
 
@@ -15,11 +15,10 @@ If there was a theme to this year’s conference, I would have to say it’s
 Ruby implementations. Two presentations focused on alternate Ruby
 implementations and a third challenged us to get our planned m17n
 additions to Ruby just right. Apple dropped in to show their plans for
-Ruby integration in Mac <span class="caps">OS X</span> and the first
-Ruby Implementors Summit was held. Koichi brought us up to speed on
-<span class="caps">YARV</span>, which plans are currently underway to
-merge into the core at long last. As a teaser, he even showed it running
-Rails.
+Ruby integration in Mac OS X and the first Ruby Implementors Summit was
+held. Koichi brought us up to speed on YARV, which plans are currently
+underway to merge into the core at long last. As a teaser, he even
+showed it running Rails.
 
 And, of course, Matz answered our questions at the roundtable and shared
 his vision of the future with his keynote address.
@@ -45,6 +44,8 @@ For more details on the conference, I suggest the following links:
 * [Nick Sieger’s Blog][1]
 * [Kevin Tew’s Blog][2]
 * [TechKnow Zenze][3]
+
+
 
 [1]: http://blog.nicksieger.com/ 
 [2]: http://blog.tewk.com/ 

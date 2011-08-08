@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.9.2 RC2 is released
+title: "Ruby 1.9.2 RC2 is released"
 lang: en
 ---
 
@@ -53,6 +53,8 @@ more than 99% of RubySpecs. Try out the new Ruby and let us know via
   * MD5: 05229b43981e4e5ce58b5fb2e98eee52
   * SHA256:
     33f7f4cdd8444c2594728f70ac07477575a7cba5e7756bd3645f23e52605618c
+
+
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/NEWS 
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/ChangeLog 

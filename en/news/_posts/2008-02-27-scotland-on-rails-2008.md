@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Scotland on Rails 2008
+title: "Scotland on Rails 2008"
 lang: en
 ---
 
@@ -19,8 +19,10 @@ We’re also planning a charity event on Thursday 3rd. This will feature
 an beginner level intro to Ruby and Rails in the morning, and sessions
 from several of the speakers from the main conference (including Jim
 Weirich, Bruce Williams and Giles Bowkett) in the afternoon. All the
-money raised from that days event will be going to <span
-class="caps">CHAS</span> – The Childrens Hospice Association.
+money raised from that days event will be going to CHAS – The Childrens
+Hospice Association.
+
+
 
 [1]: http://scotlandonrails.com/register 
 [2]: http://scotlandonrails.com/talks 

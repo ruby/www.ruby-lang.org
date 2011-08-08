@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: FileUtils is vulnerable to symlink race attacks
+title: "FileUtils is vulnerable to symlink race attacks"
 lang: en
 ---
 
@@ -51,6 +51,8 @@ should not be world writable except when the sticky bit set.
   * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip][9]
 
 * Fixed affected versions for 1.9 series.
+
+
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz 
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2 

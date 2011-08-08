@@ -10,5 +10,7 @@ registered, do it now. Full registration (i.e., full meal plans) ends in
 two weeks. Non-full may continue past that, but not forever. Go to the
 [RubyConf][2] site for complete registration details.
 
+
+
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/154337 
 [2]: http://www.rubyconf.org 

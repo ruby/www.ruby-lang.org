@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.9.0 Released
+title: "Ruby 1.9.0 Released"
 lang: en
 ---
 
@@ -19,6 +19,8 @@ You can fetch it from:
 [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip][3]
 
     78b2a5f9a81c5f6775002c4fb24d2d75
+
+
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2 
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz 

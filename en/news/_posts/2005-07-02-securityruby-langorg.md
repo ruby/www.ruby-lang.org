@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: security@ruby-lang.org
+title: "security@ruby-lang.org"
 lang: en
 ---
 

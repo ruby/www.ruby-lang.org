@@ -1,6 +1,7 @@
 ---
 layout: page
-title: To Ruby From Python
+title: "To Ruby From Python"
+lang: en
 ---
 
 Python is another very nice general purpose programming language. Going
@@ -9,9 +10,7 @@ to learn than with Python.
 
 ### Similarities
 
-As with Python, in Ruby,...
-
-* There’s an interactive prompt (called `irb`).
+ As with Python, in Ruby,... * There’s an interactive prompt (called `irb`).
 * You can read docs on the command line (with the `ri` command instead
   of `pydoc`).
 * There are no special line terminators (except the usual newline).
@@ -29,9 +28,7 @@ As with Python, in Ruby,...
 
 ### Differences
 
-Unlike Python, in Ruby,...
-
-* Strings are mutable.
+ Unlike Python, in Ruby,... * Strings are mutable.
 * You can make constants (variables whose value you don’t intend to
   change).
 * There are some enforced case-conventions (ex. class names start with a
@@ -68,3 +65,4 @@ Unlike Python, in Ruby,...
   statement). You can reset a variable to `nil`, allowing the old
   contents to be garbage collected, but the variable will remain in the
   symbol table as long as it is in scope.
+

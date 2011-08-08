@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Planned maintenance of redmine.ruby-lang.org
+title: "Planned maintenance of redmine.ruby-lang.org"
 lang: en
 ---
 
@@ -10,5 +10,7 @@ lang: en
 If you have any issue to report, I am afraid but please post a mail to
 [ruby-core](../mailto:ruby-core@ruby-lang.org) mailing list or wait for
 my finishing maintenance.
+
+
 
 [1]: http://redmine.ruby-lang.org 

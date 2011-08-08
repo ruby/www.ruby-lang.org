@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: The Future of Ruby
+title: "The Future of Ruby"
 lang: en
 ---
 
@@ -14,6 +14,8 @@ you are interested to know what’s coming, check out the following links:
 
 Please remember that Ruby will continue to grow and change. The above
 information is only what we think we know at this point in that process.
+
+
 
 [1]: http://eigenclass.org/hiki.rb?Changes+in+Ruby+1.9 
 [2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/197229 

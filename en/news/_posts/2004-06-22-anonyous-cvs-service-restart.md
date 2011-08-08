@@ -1,11 +1,12 @@
 ---
 layout: news_post
-title: Anonyous CVS service restart
+title: "Anonyous CVS service restart"
 lang: en
 ---
 
-Anonymous <span class="caps">CVS</span> service is restarted.
+Anonymous CVS service is restarted.
 
 The server accepts any password now:)
 
-[Read more…](announce/)
+[Read more…](/en/news/2004/06/22/anonyous-cvs-service-restart/announce/)
+

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Happy Birthday, Ruby
+title: "Happy Birthday, Ruby"
 lang: en
 ---
 
@@ -12,6 +12,8 @@ lang: en
 
 dblack also annouces the new non-profit organization [Ruby Central,
 Inc][1] and RubyConf 2003!. See [\[ruby-talk:65632\]][2].
+
+
 
 [1]: http://www.rubycentral.org 
 [2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/65632 

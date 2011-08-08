@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: O\'Reilly ONLamp Ruby article
+title: "O'Reilly ONLamp Ruby article"
 lang: en
 ---
 
@@ -10,6 +10,8 @@ site, entitled “Ruby’s Present and Future”.
 
 For additional post-conference information, see Jim Weirich’s [ site][3]
 or Ryan Davis’s [ Archive][4] of the RubyConf presentations.
+
+
 
 [1]: http://www.onlamp.com/pub/a/onlamp/2003/12/18/ruby_con.html 
 [2]: http://www.onlamp.com 

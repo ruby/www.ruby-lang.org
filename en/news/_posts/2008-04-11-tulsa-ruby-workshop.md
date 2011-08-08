@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Tulsa Ruby Workshop
+title: "Tulsa Ruby Workshop"
 lang: en
 ---
 
@@ -25,5 +25,7 @@ workshop at:
 [http://tulsarb.org/wiki/Tulsa\_Ruby\_Workshop][1]
 
 Hope to see you there.
+
+
 
 [1]: http://tulsarb.org/wiki/Tulsa_Ruby_Workshop 

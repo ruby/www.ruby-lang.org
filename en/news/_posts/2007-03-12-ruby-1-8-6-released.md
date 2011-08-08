@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.8.6 released!
+title: "Ruby 1.8.6 released!"
 lang: en
 ---
 
@@ -26,14 +26,15 @@ The source is available in three formats:
         sha256: c4b011d66b3f7e3bddbdf61a7404120d5ac80c6b742ad08e7e75b6d14ee56e76
 
 For a brief list of user visible changes and a full list of all changes
-since 1.8.5, see the bundled files [<span class="caps">NEWS</span>][5]
-and [ChangeLog][6].
+since 1.8.5, see the bundled files [NEWS][5] and [ChangeLog][6].
 
 After this announcement, we will start the development for 1.8.7 as well
 as maintaining the “ruby\_1\_8\_6” branch on which only critical bugs
 and security vulnerabilities found in the 1.8.6 release are fixed, and
 patch releases will follow on appropriate and timely occasions. Please
 check them out after upgrading Ruby to 1.8.6.
+
+
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/43267 
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.bz2 

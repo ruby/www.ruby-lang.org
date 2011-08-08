@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.8.6 maintenance moved to Engine Yard
+title: "Ruby 1.8.6 maintenance moved to Engine Yard"
 lang: en
 ---
 

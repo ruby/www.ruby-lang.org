@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby Conference 2003
+title: "Ruby Conference 2003"
 lang: en
 ---
 
@@ -11,6 +11,8 @@ Austin, Texas U.S.A.
 until Sunday, October 26.
 
 See also [\[ruby-talk:83169\]][3], and [\[ruby-talk:84427\]][4].
+
+
 
 [1]: http://rubycentral.org/03/ 
 [2]: http://rubycentral.org/03/index.rb?dest=start_reg 

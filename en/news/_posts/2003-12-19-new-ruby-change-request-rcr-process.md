@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: New Ruby Change Request (RCR) process
+title: "New Ruby Change Request (RCR) process"
 lang: en
 ---
 
@@ -11,8 +11,10 @@ matz’s desire to further formalize the process, as expressed in his
 
 The new site for Ruby Change Requests is [rcrchive.net][4].
 
-Many thanks to [Dave Thomas][5], who facilitated the creation of the
-<span class="caps">RCR</span> process 3 years ago.
+Many thanks to [Dave Thomas][5], who facilitated the creation of the RCR
+process 3 years ago.
+
+
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/88503 
 [2]: http://www.rubyconf.org 

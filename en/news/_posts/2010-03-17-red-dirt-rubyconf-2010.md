@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Red Dirt RubyConf 2010
+title: "Red Dirt RubyConf 2010"
 lang: en
 ---
 
@@ -106,6 +106,8 @@ I hope you all find that as exciting as I do and I hope to see you
 there!
 
 James Edward Gray II
+
+
 
 [1]: http://reddirtrubyconf.com/ 
 [2]: http://reddirtrubyconf.com/register_to_attend 

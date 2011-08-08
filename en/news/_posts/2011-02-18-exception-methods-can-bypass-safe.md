@@ -1,11 +1,10 @@
 ---
 layout: news_post
-title: Exception methods can bypass $SAFE
+title: "Exception methods can bypass $SAFE"
 lang: en
 ---
 
-Exception#to\_s method can be used to trick $SAFE check, which makes a untrusted codes to modify arbitrary strings. 
-### Detailed description
+ Exception#to\_s method can be used to trick $SAFE check, which makes a untrusted codes to modify arbitrary strings. ### Detailed description
 
 In Ruby\'s $SAFE semantics, safe level of 4 is used to run a untrusted
 code (such as plugin). So in upper safe levels, some sort of operations
@@ -49,6 +48,8 @@ Please upgrade to a newer version.
   * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz][1]
   * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2][2]
   * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip][3]
+
+
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz 
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2 

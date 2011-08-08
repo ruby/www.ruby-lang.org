@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.9.1 released
+title: "Ruby 1.9.1 released"
 lang: en
 ---
 
@@ -20,7 +20,7 @@ year.
 
 You can read about major changes since 1.8.7 [here][1]
 
-7 [bugs have been fixed][2] since 1.9.1 <span class="caps">RC2</span>.
+7 [bugs have been fixed][2] since 1.9.1 RC2.
 
 If you encounter any bugs or any problems, please report them using the
 official issue [tracking system][3].
@@ -28,30 +28,32 @@ official issue [tracking system][3].
 Download from
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2][4]
-  <span class="caps">SIZE</span>\: 7190271 bytes
+  SIZE: 7190271 bytes
   
-  <span class="caps">MD5</span>\: 0278610ec3f895ece688de703d99143e
+  MD5: 0278610ec3f895ece688de703d99143e
   
-  <span class="caps">SHA256</span>\:
+  SHA256:
   de7d33aeabdba123404c21230142299ac1de88c944c9f3215b816e824dd33321
 ^
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz][5]
-  <span class="caps">SIZE</span>\: 9025004 bytes
+  SIZE: 9025004 bytes
   
-  <span class="caps">MD5</span>\: 50e4f381ce68c6de72bace6d75f0135b
+  MD5: 50e4f381ce68c6de72bace6d75f0135b
   
-  <span class="caps">SHA256</span>\:
+  SHA256:
   a5485951823c8c22ddf6100fc9e10c7bfc85fb5a4483844033cee0fad9e292cc
 ^
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip][6]
-  <span class="caps">SIZE</span>\: 10273609 bytes
+  SIZE: 10273609 bytes
   
-  <span class="caps">MD5</span>\: 3377d43b041877cda108e243c6b7f436
+  MD5: 3377d43b041877cda108e243c6b7f436
   
-  <span class="caps">SHA256</span>\:
+  SHA256:
   00562fce4108e5c6024c4152f943eaa7dcc8cf97d5c449ac102673a0d5c1943b
+
+
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS 
 [2]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=11 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby Codefest Grant Program announced by Ruby Central, Inc.
+title: "Ruby Codefest Grant Program announced by Ruby Central, Inc."
 lang: en
 ---
 
@@ -9,6 +9,8 @@ Program. This program is designed to provide support for local and
 regional groups working on development of Ruby libraries. (See [full
 text of the announcement][2].) You can [apply for a grant][3] on behalf
 of your group.
+
+
 
 [1]: http://www.rubycentral.org 
 [2]: http://www.rubycentral.org/grant/announce.html 

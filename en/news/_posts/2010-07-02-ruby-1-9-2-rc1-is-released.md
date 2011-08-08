@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby 1.9.2 RC1 is released
+title: "Ruby 1.9.2 RC1 is released"
 lang: en
 ---
 
@@ -52,6 +52,8 @@ Ruby and let us know via [our issue tracker][4] if you have any issues.
   * MD5: 3da59c5d3567f6e1f1697abbef71f507
   * SHA256:
     4f593a3d0873cea8f371a7fc7484cad7bc03acac0ada1970cb9f83a89bc27997
+
+
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS 
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog 

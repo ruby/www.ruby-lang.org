@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mailing Lists
+title: "Mailing Lists"
 lang: en
 ---
 
@@ -24,59 +24,27 @@ Ruby-Doc
 Ruby-CVS
 : This list reports all commits to Ruby’s CVS repository.
 
-<form action="/community/mailing-lists/" id="subscriptions-form" method="post">
-  <h2>Subscribe or Unsubscribe</h2>
+<form action="/en/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
+## Subscribe or Unsubscribe
 
-  <table class="fieldset" cellspacing="0" cellpadding="0" border="0">
-    <tr>
-      <td class="label">Mailing List</td>
-      <td>
-        <select name="list">
-          <option value="ruby-talk">Ruby-Talk</option>
-          <option value="ruby-core">Ruby-Core</option>
-          <option value="ruby-doc">Ruby-Doc</option>
-          <option value="ruby-cvs">Ruby-CVS</option>
-        </select>
-      </td>
-    </tr>
+| Mailing List | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
+| First Name | <input name="first_name" value="" /> |
+| Last Name | <input name="last_name" value="" /> |
+| E-mail Address | <input name="email" value="" /> |
+| Action | <select name="action"><option value="subscribe">Subscribe</option><option value="unsubscribe">Unsubscribe</option></select> |
+{: .fieldset cellspacing="0" cellpadding="0" border="0"}
 
-    <tr>
-      <td class="label">First Name</td>
-      <td>
-        <input name="first_name" value="" />
-      </td>
-    </tr>
-    <tr>
-      <td class="label">Last Name</td>
-      <td>
-        <input name="last_name" value="" />
-      </td>
-    </tr>
-    <tr>
-      <td class="label">E-mail Address</td>
-      <td>
-        <input name="email" value="" />
-      </td>
-    </tr>
-
-    <tr>
-      <td class="label">Action</td>
-      <td>
-        <select name="action">
-          <option value="subscribe">Subscribe</option>
-          <option value="unsubscribe">Unsubscribe</option>
-        </select>
-      </td>
-    </tr>
-  </table>
-
-  <div class="buttons">
-    <input class="button" type="submit" value="Submit Form" />
-  </div>
+<div class="buttons">
+<input class="button" type="submit" value="Submit Form" />
+</div>
 </form>
+
+
 
 If you fail to receive a confirmation e-mail using the form, try
 subscribing the [manual way](manual-instructions/).
+
+
 
 [1]: http://ruby-forum.com 
 [2]: http://www.rubyweeklynews.org/ 

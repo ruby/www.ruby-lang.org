@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: See Matz in San Francisco or Silicon Valley
+title: "See Matz in San Francisco or Silicon Valley"
 lang: en
 ---
 
@@ -16,5 +16,7 @@ By the way, the reason why Matz is coming with startups from Fukuoka is
 Fukuoka is the only prefecture that has governmental Ruby committee in
 Japan. Fukuoka is one of the most enthusiastic city in Japan in terms of
 Ruby.
+
+
 
 [1]: http://investfk.com/ 

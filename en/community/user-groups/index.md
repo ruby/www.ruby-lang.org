@@ -1,6 +1,6 @@
 ---
 layout: page
-title: User Groups
+title: "User Groups"
 lang: en
 ---
 
@@ -36,6 +36,8 @@ If you are interested in forming your own group, be sure to find out if
 there is already a Ruby user group in your area. Larger meetings are
 usually much more fun, so starting your own group may not be the best
 option if there is already one nearby.
+
+
 
 [1]: http://www.rubyusergroups.org/ 
 [2]: http://ruby.meetup.com 

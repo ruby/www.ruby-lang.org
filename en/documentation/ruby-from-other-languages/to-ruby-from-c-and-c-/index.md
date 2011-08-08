@@ -1,6 +1,7 @@
 ---
 layout: page
-title: To Ruby From C and C++
+title: "To Ruby From C and C++"
+lang: en
 ---
 
 It’s difficult to write a bulleted list describing how your code will be
@@ -35,9 +36,7 @@ And, of course, Ruby itself is written in C.
 
 ### Similarities with C
 
-As with C, in Ruby,...
-
-* You may program procedurally if you like (but it will still be
+ As with C, in Ruby,... * You may program procedurally if you like (but it will still be
   object-oriented behind the scenes).
 * Most of the operators are the same (including the compound assignment
   and also bitwise operators). Though, Ruby doesn’t have `++` or `--`.
@@ -66,9 +65,7 @@ As with C, in Ruby,...
 
 ### Differences from C
 
-Unlike C, in Ruby,...
-
-* Objects are strongly typed (and variable names themselves have no type
+ Unlike C, in Ruby,... * Objects are strongly typed (and variable names themselves have no type
   at all).
 * There’s no macros or preprocessor. No casts. No pointers (nor pointer
   arithmetic). No typedefs, sizeof, nor enums.
@@ -109,9 +106,7 @@ Unlike C, in Ruby,...
 
 ### Differences from C++
 
-Unlike C++, in Ruby,...
-
-* There’s no explicit references. That is, in Ruby, every variable is
+ Unlike C++, in Ruby,... * There’s no explicit references. That is, in Ruby, every variable is
   just an automatically dereferenced name for some object.
 * Objects are strongly but *dynamically* typed. The runtime discovers
   *at runtime* if that method call actually works.
@@ -144,3 +139,4 @@ Unlike C++, in Ruby,...
   threads” (implemented only within the interpreter) as opposed to
   native threads.
 * A unit testing lib comes standard with Ruby.
+

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Scotland on Rails 2009
+title: "Scotland on Rails 2009"
 lang: en
 ---
 
@@ -22,5 +22,7 @@ can sign up on the site.
 
 Come and enjoy all that Edinburgh has to offer (whisky! castle! volcano!
 ruby! whisky!) in March. We hope to see you there.
+
+
 
 [1]: http://scotlandonrails.com 

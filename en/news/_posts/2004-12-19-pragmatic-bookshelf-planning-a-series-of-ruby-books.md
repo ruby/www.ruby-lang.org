@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Pragmatic Bookshelf planning a series of Ruby books
+title: "Pragmatic Bookshelf planning a series of Ruby books"
 lang: en
 ---
 
@@ -13,5 +13,7 @@ to solve real-world problems.”
 
 See [the full announcement][1] for more information, including follow-up
 guidelines for potential authors.
+
+
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/123137 

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: To Ruby From Perl
+title: "To Ruby From Perl"
+lang: en
 ---
 
 Perl is awesome. Perl’s docs are awesome. The Perl community is …
@@ -11,10 +12,8 @@ you.
 
 ### Similarities
 
-As with Perl, in Ruby,...
-
-* You’ve got a package management system, somewhat like CPAN
-  (though it’s called [RubyGems][1])
+ As with Perl, in Ruby,... * You’ve got a package management system, somewhat like CPAN (though
+  it’s called [RubyGems][1])
 * Regexes are built right in. Bon appétit!
 * There’s a fairly large number of commonly-used built-ins.
 * Parentheses are often optional
@@ -31,9 +30,7 @@ As with Perl, in Ruby,...
 
 ### Differences
 
-Unlike Perl, in Ruby,...
-
-* You don’t have the context-dependent rules like with Perl.
+ Unlike Perl, in Ruby,... * You don’t have the context-dependent rules like with Perl.
 * A variable isn’t the same as the object to which it refers. Instead,
   it’s always just a reference to an object.
 * Although `$` and <tt>@</tt> are used as the first character in
@@ -60,6 +57,8 @@ Unlike Perl, in Ruby,...
   value. Everything else is true (including `0`, `0.0`, and `"0"`).
 * There’s no [PerlMonks][2]. Though the ruby-talk mailing list is a very
   helpful place.
+
+
 
 [1]: http://docs.rubygems.org/ 
 [2]: http://www.perlmonks.org/ 

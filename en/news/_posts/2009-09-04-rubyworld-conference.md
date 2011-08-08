@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: RubyWorld Conference
+title: "RubyWorld Conference"
 lang: en
 ---
 
@@ -12,6 +12,8 @@ Convention Center “Kunibiki Messe”, Shimane Prefecture, during September
 broadcasted at [the official web site][1].
 
 Stay tuned!
+
+
 
 [1]: http://www.rubyworld-conf.org/en/ 
 [2]: http://www.rubyworld-conf.org/en/program/ 

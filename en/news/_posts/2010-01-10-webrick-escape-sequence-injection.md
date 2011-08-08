@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: WEBrick has an Escape Sequence Injection vulnerability
+title: "WEBrick has an Escape Sequence Injection vulnerability"
 lang: en
 ---
 
@@ -68,6 +68,8 @@ Watch out for the window title of xterm.
 
 Credit to Giovanni \"evilaliv3\" Pellerano, Alessandro \"jekil\" Tanasi,
 and Francesco \"ascii\" Ongaro for discovering this vulnerability.
+
+
 
 [1]: http://marc.info/?l=bugtraq&amp;m=104612710031920&amp;w=2 "Terminal Emulator Security Issues"
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz 

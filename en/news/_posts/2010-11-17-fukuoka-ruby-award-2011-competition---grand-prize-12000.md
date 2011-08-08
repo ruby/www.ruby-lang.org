@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Fukuoka Ruby Award 2011 Competition - Grand Prize, $12,000!
+title: "Fukuoka Ruby Award 2011 Competition - Grand Prize, $12,000!"
 lang: en
 ---
 
@@ -16,5 +16,7 @@ until the end of this month(11/30). There aren’t many applicants at this
 point (less than 10). Which means you have a very high chance to win the
 prize! So, hurry up! It’s Free to enter! Please see [this page][1] for
 more details.
+
+
 
 [1]: http://www.f-ruby.com/en/news/information/11 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Ruby-talk Mailing Posting Policy Change
+title: "Ruby-talk Mailing Posting Policy Change"
 lang: en
 ---
 

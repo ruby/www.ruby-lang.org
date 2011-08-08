@@ -1,9 +1,10 @@
 ---
 layout: news_post
-title: WWW/FTP service restart
+title: "WWW/FTP service restart"
 lang: en
 ---
 
-We have finished the validation on <span class="caps">WWW</span>/FTP
-contents, so we restarted <span class="caps">WWW</span>/FTP services.
-[Read more…](a/)
+We have finished the validation on WWW/FTP contents, so we restarted
+WWW/FTP services. [Read
+more…](/en/news/2004/06/15/wwwftp-service-restart/a/)
+

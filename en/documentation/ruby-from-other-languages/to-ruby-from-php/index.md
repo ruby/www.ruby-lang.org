@@ -1,38 +1,34 @@
 ---
 layout: page
-title: To Ruby From PHP
+title: "To Ruby From PHP"
+lang: en
 ---
 
-PHP is in widespread use for web applications,
-but if you want to use Ruby on Rails or just want a language that’s more
-tailored for general use, Ruby is worth a look.
+PHP is in widespread use for web applications, but if you want to use
+Ruby on Rails or just want a language that’s more tailored for general
+use, Ruby is worth a look.
 
 ### Similarities
 
-As in PHP, in Ruby&#8230;
-
-* Ruby is dynamically typed, like in PHP, so
-  you don’t need to worry about having to declare variables.
-* There are classes, and you can control access to them like in
-  PHP 5 (`public`, `protected` and `private`)
+ As in PHP, in Ruby… * Ruby is dynamically typed, like in PHP, so you don’t need to worry
+  about having to declare variables.
+* There are classes, and you can control access to them like in PHP 5
+  (`public`, `protected` and `private`)
 * Some variables start with $, like in PHP (but not all)
 * There’s `eval`, too.
 * You can use string interpolating. Instead of doing ”$foo is a $bar”,
-  you can do ”#\{foo} is a #\{bar}”—like in <span
-  class="caps">PHP</span>, this doesn’t apply for single-quoted strings.
+  you can do ”#\{foo} is a #\{bar}”—like in PHP, this doesn’t apply for
+  single-quoted strings.
 * There’s heredocs
-* Ruby has exceptions, like <span class="caps">PHP 5</span>
+* Ruby has exceptions, like PHP 5
 * There’s a fairly large standard library
 * Arrays and hashes work like expected, if you exchange `array()` for
   `{` and `}`\: `array('a' => 'b')` becomes `{'a' => 'b'}`.
-* `true` and `false` behave like in <span class="caps">PHP</span>, but
-  `null` is called `nil`
+* `true` and `false` behave like in PHP, but `null` is called `nil`
 
 ### Differences
 
-Unlike in PHP, in Ruby&#8230;
-
-* There’s strong typing. You’ll need to call `to_s`, `to_i` etc. to
+ Unlike in PHP, in Ruby… * There’s strong typing. You’ll need to call `to_s`, `to_i` etc. to
   convert between strings, integers and so on, instead of relying on the
   language to do it
 * Strings, numbers, arrays, hashes, etc. are objects. Instead of calling
@@ -49,3 +45,4 @@ Unlike in PHP, in Ruby&#8230;
 * Only `false` and `nil` are false: `0`, `array()` and `""` are all true
   in conditionals.
 * Almost everything is a method call, even `raise` (`throw` in PHP).
+

@@ -12,5 +12,7 @@ Euruko 2007 will be located in Vienna, Austria, on Saturday &amp; Sunday
 There is an informal [registration page][2] and a general information
 [site][1] .
 
+
+
 [1]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko07 
 [2]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Registration2007 

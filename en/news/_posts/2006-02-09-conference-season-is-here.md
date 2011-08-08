@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: Conference season is here
+title: "Conference season is here"
 lang: en
 ---
 
@@ -13,11 +13,13 @@ Upcoming events of interest include:
   [SDForum][3] and [Ruby Central, Inc.][4]
 * the first official [International Rails Conference][5], June 22-25,
   produced by [Ruby Central, Inc.][4]
-* the [Ruby track][6] at [<span class="caps">OSCON</span>][7], July
-  24-28 (call for papers closing soon!)
+* the [Ruby track][6] at [OSCON][7], July 24-28 (call for papers closing
+  soon!)
 
 Check specific events for information about submitting talk proposals
 and/or registering to attend.
+
+
 
 [1]: http://www.canadaonrails.org 
 [2]: http://www.sdforum.org/rubyconference 

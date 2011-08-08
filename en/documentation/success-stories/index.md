@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Success Stories
+title: "Success Stories"
 lang: en
 ---
 
@@ -10,6 +10,8 @@ you’ll find a small sample of real world usage of Ruby.
 #### Simulations
 
 * [NASA Langley Research Center][1] uses Ruby to conduct simulations.
+^
+
 * A research group in [Motorola][2] uses Ruby to script a simulator,
   both to generate scenarios and to post process the data.
 
@@ -26,14 +28,14 @@ you’ll find a small sample of real world usage of Ruby.
 
 #### Robotics
 
-* At [MORPHA][5] project, Ruby was used to implemented the reactive control
-  part for the Siemens service robot.
+* At [MORPHA][5] project, Ruby was used to implemented the reactive
+  control part for the Siemens service robot.
 
 #### Networking
 
 * [Open Domain Server][6] uses Ruby to allow people using Dynamic DNS
-  clients to update in real time their IP configuration so that it can be
-  mapped to static domains.
+  clients to update in real time their IP configuration so that it can
+  be mapped to static domains.
 
 #### Telephony
 
@@ -51,11 +53,17 @@ you’ll find a small sample of real world usage of Ruby.
 
 * [Basecamp][9], a web-based project management application developed by
   [37signals][10], is programmed entirely in Ruby.
+^
+
 * [43 Things][11] allows you to keep a list of goals and share it with
   the world. It was developed entirely in Ruby.
+^
+
 * [A List Apart][12], a magazine for people who make websites that has
   been around since 1997, has recently been revamped and uses a custom
   application built with Ruby on Rails.
+^
+
 * [Blue Sequence][13], a sophisticated mission-critical application
   which forms part of Toyota Motor Manufacturing’s own
   “sequence-in-time” production process, has recently been selected as
@@ -70,6 +78,8 @@ you’ll find a small sample of real world usage of Ruby.
   code and has been downloaded over a million times in 2010. The
   commercial editions [Metasploit Express][16] and [Metasploit Pro][17]
   developed by Rapid7 are also based on Ruby.
+
+
 
 [1]: http://www.larc.nasa.gov/ 
 [2]: http://www.motorola.com 
