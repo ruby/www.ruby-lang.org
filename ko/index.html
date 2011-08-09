@@ -1,0 +1,58 @@
+---
+layout: page
+title: "루비 : 프로그래머의 단짝 친구"
+lang: ko
+
+header: |
+  <div id="intro">
+    <h1>루비는...</h1>
+
+    <p>
+    간결함과 생산성을 강조한 동적인 오픈 소스 프로그래밍 언어입니다.
+    </p>
+    <p>
+    루비의 우아한 문법으로 자연스럽게 읽고 쓰기 편한 프로그램을 만들수 있습니다.
+    </p>
+
+    <a href="about/">자세히 읽기...</a>
+  </div>
+
+sidebar: |
+  <a href="downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.ko limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">자세히 읽기...</a></p>
+
+  <span class="post-info">작성자 {{ post.author }} ({{ post.date | date_to_string }})</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="news/">이전 뉴스</a></h3>
+  <ul>
+    {% for post in site.categories.ko offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">작성자 {{ post.author }} ({{ post.date | date_to_string }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.ko offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">작성자  {{ post.author }} ({{ post.date | date_to_string }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
