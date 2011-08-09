@@ -1,4 +1,4 @@
-# www.ruby-lang.org + Jekyll = ruby-lang.tk
+# www.ruby-lang.org on Jekyll
 
 This is an attempt to port the poorly maintained
 [www.ruby-lang.org](http://www.ruby-lang.org/) website to
@@ -14,7 +14,7 @@ This is an attempt to port the poorly maintained
 
 ## Todo
 
-1. Generate site using `jekyll` and compare to
+1. Compare [ruby-lang.tk](http://ruby-lang.tk/) to
    [www.ruby-lang.org](http://www.ruby-lang.org/). Submit Issues for any
    formatting mistakes.
 2. Generate the yearly/monthly News Post index pages.
