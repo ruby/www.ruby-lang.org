@@ -1,0 +1,56 @@
+---
+layout: page
+title: "Ruby Programming Language 中文官方網頁"
+lang: zh_TW
+
+header: |
+  <div id="intro">
+    <h1>Ruby 是...</h1>
+
+    <p>
+    一個簡易且充滿生產力的開放原碼動態程式設計語言．高雅的語法，
+    得以自然的閱讀與易於撰寫．
+    </p>
+
+    <a href="about/">深入了解...</a>
+  </div>
+
+sidebar: |
+  <a href="downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.zh_TW limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">深入閱讀...</a></p>
+
+  <span class="post-info">Posted By {{ post.author }} on {{ post.date | date_to_string }}</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="news/">其他新聞</a></h3>
+  <ul>
+    {% for post in site.categories.zh_TW offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Posted By {{ post.author }} on {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.zh_TW offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Posted By {{ post.author }} on {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
