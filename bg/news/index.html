@@ -1,0 +1,17 @@
+---
+layout: news
+title: "Последни новини"
+lang: bg
+---
+
+{% for post in site.categories.bg %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">Continue Reading...</a></p>
+
+  <p class="post-info">Публикувана от {{ post.author }} на {{ post.date | date_to_string }}</p>
+</div>
+{% endfor %}

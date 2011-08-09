@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ruby новини</title>
+    <link>http://www.ruby-lang.org/bg/feeds/news.rss</link>
+    <language>bg</language>
+    <ttl>40</ttl>
+    <description>Последните новини от Ruby-Lang.org.</description>
+    {% for post in site.categories.bg %}
+    <item>
+      <title>{{ post.title }}</title>
+      <description>{{ post.content | xml_escape }}</description>
+      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+      <guid>http://www.ruby-lang.org/{{ post.url }}</guid>
+      <link>http://www.ruby-lang.org/{{ post.url }}</link>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
