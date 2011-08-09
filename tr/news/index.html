@@ -1,0 +1,17 @@
+---
+layout: news
+title: "Son Haberler"
+lang: tr
+---
+
+{% for post in site.categories.tr %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">Devamını Okuyun...</a></p>
+
+  <p class="post-info">{{ post.author }} tarafından {{ post.date | date_to_string }} tarihinde gönderildi.</p>
+</div>
+{% endfor %}

@@ -1,0 +1,56 @@
+---
+layout: page
+title: "Ruby Programlama Dili"
+lang: tr
+
+header: |
+  <div id="intro">
+    <h1>Ruby...</h1>
+
+    <p>
+    Verimlilik ve sadelik üzerine odaklanmış, açık kaynak kodlu dinamik bir 
+    dildir. Okumayı ve yazmayı kolaylaştıran, doğal bir sözdizimine sahiptir.
+    </p>
+
+    <a href="about/">Devamını  Okuyun...</a>
+  </div>
+
+sidebar: |
+  <a href="downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.tr limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">Devamı...</a></p>
+
+  <span class="post-info">{{ post.author }} tarafından {{ post.date | date_to_string }} tarihinde gönderildi.</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="news/">Diğer Haberler</a></h3>
+  <ul>
+    {% for post in site.categories.tr offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">{{ post.author }} tarafından {{ post.date | date_to_string }} tarihinde gönderildi.</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.tr offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">{{ post.author }} tarafından {{ post.date | date_to_string }} tarihinde gönderildi.</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
