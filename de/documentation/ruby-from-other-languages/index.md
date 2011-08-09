@@ -1,0 +1,435 @@
+---
+layout: page
+title: "Ruby für Umsteiger"
+lang: de
+---
+
+Wenn du zum ersten Mal Ruby-Code siehst, wird er dich wahrscheinlich an
+andere Programmiersprachen erinnern, die du benutzt hast. Das ist
+Absicht. Der größte Teil der Syntax ist (unter anderem) Perl-, Python-
+und Java-Programmierern vertraut. Wenn du diese Sprachen also schon mal
+benutzt hast, wird das Lernen von Ruby ein Kinderspiel.
+
+Dieses Dokument besteht aus zwei Teilen: Der erste versucht, eine
+Dauerfeuer-Zusammenfassung darüber zu geben, was dich erwartet, wenn du
+von *Sprache X* zu Ruby wechselst. Der zweite Teil geht auf die
+Hauptbestandteile von Ruby ein und vergleicht sie mit Konstrukten
+anderer Sprachen, die du bereits kennst.
+
+## <span style="font-size:0.9em;;">Von *Sprache X* zu Ruby: Was erwartet mich?</span>
+
+* [Von C und C++ zu
+  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+* [Von Java zu
+  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-java/)
+* [Von Perl zu
+  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-perl/)
+* [Von PHP zu
+  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [Von Python zu
+  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-python/)
+
+## Wichtige Features und ein paar Fallen
+
+Hier sind ein paar Hinweise zu wichtigen Ruby-Features, denen du beim
+Lernen begegnen wirst.
+
+### Iteration
+
+Zwei Dinge, denen du in dieser Form vermutlich noch nicht begegnet bist,
+und an die man sich ein wenig gewöhnen muss, sind Blöcke und Iteratoren.
+In Ruby iteriert man weder über einen Index (wie in C), noch über eine
+Liste (wie in Perls <tt>for (@a) \{...}</tt> oder Pythons `for item in
+aList:`), sondern in den meisten Fällen so:
+
+    a_list.each do |item|
+      # Wir sind im Innern des Blocks
+      # und arbeiten mit item.
+    end
+{: .code .ruby-code}
+
+Mehr zu `each` (und seine Artgenossen `collect`/`map`, `find`, `inject`,
+`sort` etc.) erfährst du über `ri Enumerable` (bzw. <tt>ri
+Enumerable#*methodenname*</tt>).
+
+### Alles hat einen Wert
+
+Es gibt in Ruby keinen Unterschied zwischen einem Ausdruck und einer
+Anweisung. Alles hat einen Wert, auch wenn er manchmal nur `nil` ist.
+Damit ist so etwas möglich:
+
+    x = 10
+    y = 11
+    z = if x  true
+{: .code .ruby-code}
+
+### Symbole sind keine Strings
+
+Viele Ruby-Anfänger kämpfen damit, zu verstehen, was Symbole sind und
+wofür sie benutzt werden können.
+
+Symbole sind am einfachsten als Identitäten (IDs) zu verstehen. Bei
+einem Symbol ist wichtig, *wer* es ist, nicht *was* es ist. Starte `irb`
+und du siehst den Unterschied:
+
+    irb(main):001:0> :george.object_id == :george.object_id
+    => true
+    irb(main):002:0> "george".object_id == "george".object_id
+    => false
+    irb(main):003:0>
+{: .code .ruby-code}
+
+Die Methode `object_id` liefert die ID eines Objektes. Haben zwei
+Objekte dieselbe `object_id`, dann sind sie identisch (zeigen auf
+dasselbe Objekt im Speicher.)
+
+Wie du siehst, zeigt jedes gleichnamige Symbol auf dasselbe Objekt im
+Speicher, und zwar von dem Moment an, in dem du das Symbol zum ersten
+mal benutzt. Für zwei Symbole mit denselben Zeichen sind die
+<tt>object\_id</tt>s gleich.
+
+Bei den Strings hingegen (`"george"`) sind die <tt>object\_id</tt>s
+nicht gleich. Das bedeutet, dass sie auf zwei verschiedene Objekte im
+Speicher zeigen. Immer wenn du einen neuen String benutzt, reserviert
+Ruby dafür Speicher.
+
+Wenn du nicht genau weißt, ob du ein Symbol oder einen String brauchst,
+überlege dir, was wichtiger ist: die Identität des Objektes (z. B. ein
+Schlüssel in einem Hash) oder sein Inhalt (“george” im obigen Beispiel).
+
+### Alles ist ein Objekt
+
+Das ist keine Übertreibung. Sogar Klassen und Zahlen sind Objekte, und
+du kannst mit ihnen dasselbe tun wie mit jedem anderen Objekt:
+
+    # Das ist dasselbe wie
+    # class MyClass
+    #   attr_accessor :instance_var
+    # end
+    MyClass = Class.new do
+      attr_accessor :instance_var
+    end
+{: .code .ruby-code}
+
+### Variable Konstanten
+
+Konstanten sind in Ruby nicht wirklich konstant. Wenn du eine schon
+initialisierte Konstante veränderst, wird eine Warnung erzeugt, aber das
+Programm läuft weiter. Was nicht heißt, dass du Konstanten umdefinieren
+*solltest*.
+
+### Namenskonventionen
+
+Ruby erzwingt einige Namenskonventionen. Wenn ein Bezeichner mit einem
+Großbuchstaben beginnt, dann ist er eine Konstante. Beginnt er mit einem
+Dollarzeichen (`$`), dann ist er eine globale Variable. Wenn er mit `@`
+anfängt, ist es eine Instanzvariable, und Klassenvariablen beginnen mit
+`@@`.
+
+Methodennamen dürfen allerdings auch mit einem Großbuchstaben beginnen.
+Das kann zu Verwirrung führen, wie das folgende Beispiel zeigt:
+
+    Constant = 10
+    def Constant
+      11
+    end
+{: .code .ruby-code}
+
+Nun hat `Constant` den Wert 10, aber die Funktion `Constant()` gibt 11
+aus.
+
+Nützlich ist dies, wenn man eine Methode genauso nennen möchte wie eine
+Klasse. Die folgenden Aufrufe generieren drei mal dasselbe Array mit den
+Zahlen von 1 bis 5:
+
+    five1 = [1, 2, 3, 4, 5]
+    # Klasse Array
+    five2 = Array.new 
+{: .code .ruby-code}
+
+### Ersatz für benannte Parameter
+
+Ruby hat keine Keyword-Argumente wie Python. Man kann sie allerdings
+imitieren, indem man Symbole und Hashes kombiniert. Beispiel:
+
+    def some_keyword_params( params )
+      params
+    end
+    some_keyword_params( :param_one => 10, :param_two => 42 )
+    # => {:param_one=>10, :param_two=>42}
+{: .code .ruby-code}
+
+Diese Methode wird unter anderem in Ruby on Rails häufig eingesetzt.
+
+### Die reine Wahrheit
+
+In Ruby wird alles außer `nil` und `false` als Wahr (true) behandelt. In
+C, Python und vielen anderen Sprachen verhalten sich die Zahl 0, leere
+Listen und andere Werte als Unwahr (false). Sieh dir dazu folgenden
+Python-Code an (das Beispiel funktioniert auch in anderen Sprachen):
+
+    # in Python
+    if 0:
+      print "0 ist true"
+    else:
+      print "0 ist false"
+{: .code .ruby-code}
+
+Hier wird “0 ist false” ausgeben. Dasselbe in Ruby:
+
+    # in Ruby
+    if 0
+      puts "0 ist true"
+    else
+      puts "0 ist false"
+    end
+{: .code .ruby-code}
+
+Ruby gibt “0 ist true” aus.
+
+### Sichtbarkeits-Modifikatoren gelten bis zum Ende des Blocks
+
+Im folgenden Ruby-Code:
+
+    class MyClass
+      private
+      def a_method; true; end
+      def another_method; false; end
+    end
+{: .code .ruby-code}
+
+könnte man erwarten, dass `another_method` *public* ist. Falsch.
+`private` gilt bis zum Ende des Blocks, oder bis ein anderer Modifikator
+aufgerufen wird. Standardmäßig sind Methoden *public*\:
+
+    class MyClass
+      # Jetzt ist a_method "public".
+      def a_method; true; end
+    
+      private
+    
+      # another_method ist "private".
+      def another_method; false; end
+    end
+{: .code .ruby-code}
+
+ `public`, `private` und `protected` sind in Wirklichkeit Methoden und akzeptieren Parameter. Wenn du ein Symbol an eine davon übergibst, wird die Sichtbarkeit der Methode mit diesem Namen geändert:     class MyClass
+      # Jetzt ist a_method wieder "private".
+      private :a_method
+    end
+{: .code .ruby-code}
+
+### Sichtbarkeit von Methoden
+
+In Java bedeutet *public*, dass jeder eine Methode aufrufen darf.
+*protected* bedeutet, dass nur die Klasse selbst, ihre Instanzen und von
+ihr abgeleitete Klassen und deren Instanzen Zugriff haben. *private*
+beschränkt den Zugriff ganz auf die Klasse und ihre Instanzen.
+
+Ruby verhält sich anders. *public* ist natürlich öffentlich. *private*
+bedeutet, dass die Methode nicht mit einem expliziten Empfänger
+aufgerufen werden kann, mit anderen Worten: Der Empfänger ist immer
+`self`.
+
+Bei *protected* muss man aufpassen: Eine so geschützte Methode kann ohne
+Empfänger in der Klasse und abgeleiteten Klassen aufgerufen werden (wie
+bei *private*), aber zusätzlich auch mit einer anderen Instanz dieser
+Klasse als Empfänger.
+
+Ein Beispiel aus den [Ruby FAQ][1]\:
+
+    $ irb
+    irb(main):001:0> class Test
+    irb(main):002:1>   # normalerweise "public"
+    irb(main):003:1*   def func
+    irb(main):004:2>     99
+    irb(main):005:2>   end
+    irb(main):006:1> 
+    irb(main):007:1*   def ==(other)
+    irb(main):008:2>     func == other.func
+    irb(main):009:2>   end
+    irb(main):010:1> end
+    => nil
+    irb(main):011:0> 
+    irb(main):012:0* t1 = Test.new
+    => #<0x34ab50>
+    irb(main):013:0> t2 = Test.new
+    => #<0x342784>
+    irb(main):014:0> t1 == t2
+    => true
+    irb(main):015:0> # func ist jetzt "protected". Das funktioniert,
+    irb(main):016:0* # weil other eine Instanz derselben Klasse ist.
+    irb(main):017:0* class Test
+    irb(main):018:1>   protected :func
+    irb(main):019:1> end
+    => Test
+    irb(main):020:0> t1 == t2
+    => true
+    irb(main):021:0> # Jetzt ist func "private" => Boom.
+    irb(main):022:0* class Test
+    irb(main):023:1>   private :func
+    irb(main):024:1> end
+    => Test
+    irb(main):025:0> t1 == t2
+    NoMethodError: private method `func' called for #<0x342784>        from (irb):8:in `=='
+            from (irb):25
+            from :0
+    irb(main):026:0></0x342784></0x342784></0x34ab50>
+{: .code .ruby-code}
+
+### Offene Klassen
+
+Ruby-Klassen sind offen. Du kannst sie jeder Zeit verändern und ihnen
+Methoden hinzufügen. Sogar eingebaute Klassen wie `Fixnum` oder `Object`
+(die Mutter aller Objekte) sind erweiterbar. ActiveSupport fügt `Fixnum`
+viele Methoden zur Erzeugung von Zeitangaben hinzu:
+
+    class Fixnum
+      def hours
+        self * 3600  # Anzahl der Sekunden in einer Stunde
+      end
+    end
+    
+    # 14 Stunden nach 00:00 am 1. Januar
+    # (oder "als du endlich aufwachst" ;)
+    Time.mktime(2006, 01, 01) + 14.hours  #-> Sun Jan 01 14:00:00
+{: .code .ruby-code}
+
+### Lustige Namen für Methoden
+
+In Ruby dürfen Methoden mit einem Frage- oder Ausrufezeichen enden. Die
+Konvention ist, dass Methoden, die auf eine Ja-Nein-Frage antworten, ein
+Fragezeichen erhalten: `Array#empty?` liefert `true`, wenn das Array
+leer ist. Potentiell gefährliche Methoden (die den Empfänger selbst
+verändern wie `String#reverse!`, oder das brutale `exit!`) enden mit
+einem Ausrufezeichen.
+
+Aber nicht alle Methoden, die ihre Empfänger verändern, haben ein
+Ausrufezeichen. `Array#replace` ersetzt den Inhalt des Arrays mit dem
+Inhalt eines anderen. Es macht wenig Sinn, eine derartige Methode zu
+schreiben, die den Empfänger *nicht* verändert.
+
+### Singleton-Methoden
+
+Singleton-Methoden sind Methoden für Objekte. Sie gehören nur zu dem
+Objekt, für das du sie definierst:
+
+    class Car
+      def inspect
+        "billig"
+      end
+    end
+    
+    porsche = Car.new
+    porsche.inspect  #-> billig
+    
+    def porsche.inspect
+      "teuer"
+    end
+    porsche.inspect  #-> teuer
+    
+    # Andere Objekte werden nicht beeinflusst:
+    car = Car.new
+    car.inspect  #-> billig
+{: .code .ruby-code}
+
+### Fehlende Methoden
+
+Ruby gibt nicht auf, wenn es zu einem Aufruf keine passende Methode
+finden kann. Es ruft stattdessen die Methode `method_missing` auf und
+übergibt den Namen der fehlenden Methode und die Argumente.
+Standardmäßig erzeugt `method_missing` einen `NameError`, aber du kannst
+es umdefinieren, so dass es besser in deine Anwendung passt (was viele
+Bibliotheken auch tun.) Hier ist ein Beispiel:
+
+    # 'id' ist der Name der aufgerufenen Methode, ein * sammelt
+    # alle argumente in einem Array namens 'arguments'.
+    def method_missing( id, *arguments )
+      puts "Die Methode #{id} wurde nicht gefunden."
+      puts "Folgende Argumente wurden übergeben: " +
+        arguments.join(", ") + "."
+    end
+    
+    __ :a, :b, 10
+    #-> Die Methode __ wurde nicht gefunden.
+    #-> Folgende Argumente wurden übergeben: a, b, 10.
+{: .code .ruby-code}
+
+Der obige Code gibt nur die Details des Aufrufs aus, aber du kannst die
+Botschaft natürlich auch völlig anders behandeln.
+
+### Botschaften senden statt Funktionen aufrufen
+
+Ein Methodenaufruf ist in Ruby in Wirklichkeit eine Botschaft an ein
+Objekt:
+
+    1 + 2
+    # ist dasselbe wie
+    1.+(2)
+    # ist dasselbe wie
+    1.send "+", 2
+{: .code .ruby-code}
+
+### Blöcke sind Objekte, sie wissen es nur noch nicht
+
+Blöcke werden überall in der Standardbibliothek benutzt. Um einen Block
+aufzurufen, kannst du `yield` benutzen, oder du machst eine
+`Proc`-Instanz daraus, indem du einen speziellen Parameter zur Signatur
+hinzufügst:
+
+    def block( &the_block )
+      # der Block, der an die Methode übergeben wurde
+      the_block  # Gib den Block zurück.
+    end
+    adder = block { |a, b| a + b }
+    # adder ist jetzt ein Proc
+    adder.class  #-> Proc
+{: .code .ruby-code}
+
+Du kannst Blockobjekte auch außerhalb von Methodenaufrufen erzeugen,
+indem du `Proc.new` oder die Methode `lambda` mit dem Block aufrufst.
+
+In ähnlicher Weise können auch aus Methoden Objekte gemacht werden:
+
+    method(:puts).call "puts ist ein Objekt!"
+    #-> puts ist ein Objekt!
+{: .code .ruby-code}
+
+### Operatoren sind syntaktischer Zucker
+
+Die meisten Operatoren in Ruby sind nur Methodenaufrufe mit einer
+speziellen Syntax (und ein paar Vorrangregeln). Du kannst zum Beispiel
+die Methode `+` für `Fixnum` überschreiben:
+
+    class Fixnum
+      # Du kannst, aber bitte tu es nicht.
+      def +( other )
+        self - other
+      end
+    end
+{: .code .ruby-code}
+
+Du brauchst kein `operator+` oder ähnliches.
+
+Du kannst sogar Elementzugriff in der Art eines Arrays ermöglichen, wenn
+du die Methoden `[]` und `[]=` definierst. Um das unäre `+` und `-` zu
+überschreiben (für Vorzeichen), musst du die Methoden `+@` und `-@`
+benutzen.
+
+Die folgenden Operatoren sind *kein* syntaktischer Zucker. Sie sind
+keine Methoden, und können nicht umdefiniert werden:
+
+    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{: .code .symbols-code}
+
+Zudem sind `+=`, `*=` usw. nur Abkürzungen für `foo = foo + bar` usw.
+und können deshalb auch nicht überschrieben werden.
+
+## Weiterlesen
+
+Wenn du bereit für noch mehr Ruby-Wissen bist, dann schau dir die
+[Dokumentation](/de/documentation/) an.
+
+
+
+[1]: http://www.rubycentral.com/faq/rubyfaq-7.html 

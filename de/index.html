@@ -1,0 +1,55 @@
+---
+layout: page
+title: "Die Programmiersprache Ruby"
+lang: de
+
+header: |
+  <div id="intro">
+    <h1>Ruby ist...</h1>
+
+    ...eine dynamische, freie Programmiersprache, die sich einfach
+    anwenden und produktiv einsetzen lässt. Sie hat eine elegante Syntax,
+    die man leicht lesen und schreiben kann.
+
+    <a href="about/">Weiterlesen...</a>
+  </div>
+
+sidebar: |
+  <a href="/de/downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.de limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">Continue Reading...</a></p>
+
+  <span class="post-info">Geschrieben von {{ post.author }} am {{ post.date | date_to_string }}</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="/de/news/">Other News</a></h3>
+  <ul>
+    {% for post in site.categories.de offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Geschrieben von {{ post.author }} am {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.de offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Geschrieben von {{ post.author }} am {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
