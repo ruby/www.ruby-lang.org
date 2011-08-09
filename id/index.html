@@ -1,0 +1,54 @@
+---
+layout: page
+title: "Bahasa Pemrograman Ruby"
+lang: id
+
+header: |
+  <div id="intro">
+    <h1>Ruby adalah...</h1>
+
+    Bahasa pemrograman open source dinamis, mudah dimengerti dan produktif. 
+    Sintaks Ruby elegan, natural, mudah dibaca dan ditulis.
+
+    <a href="about/">Tentang Ruby...</a>
+  </div>
+
+sidebar: |
+  <a href="downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.id limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">Artikel Selengkapnya...</a></p>
+
+  <span class="post-info">Ditulis oleh {{ post.author }} tanggal {{ post.date | date_to_string }}</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="news/">Berita Lain</a></h3>
+  <ul>
+    {% for post in site.categories.id offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Ditulis oleh {{ post.author }} tanggal {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.id offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Ditulis oleh {{ post.author }} tanggal {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
