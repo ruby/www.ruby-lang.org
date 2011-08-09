@@ -1,0 +1,72 @@
+---
+layout: page
+title: "Conférences"
+lang: fr
+---
+
+Des programmeurs du monde entier, chaque année plus nombreux, se
+rencontrent dans des conférences diverses—l’occasion pour eux de
+partager leurs vues sur le travail en cours et le futur du langage ; un
+bon moment pour accueillir le nouveaux, également.
+
+### Les principales conférences
+
+[RubyConf][1]
+: Chaque année depuis 2001, [Ruby Central, Inc.][2] a organisé RubyConf,
+  la conférence internationale de Ruby. La fréquentation y a été
+  multipliée par dix entre 2001 et 2006. RubyConf, c’est la possibilité
+  d’écouter les créateurs de Ruby au cours d’une suite de conférences à
+  la fois techniques et ouvertes.
+
+[RubyKaigi][3]
+: La première conférence japonaise sur Ruby, le RubyKaigi 2006, s’est
+  tenue à Odaiba. Bien qu’il n’y ai pas eu d’annonce sur éventuelle
+  poursuite en 2007 et au-delà, tout est possible.
+
+[EuRuKo <small>(Europaeische Ruby Konferenz)</small>][4]
+: La première conférence europénne sur Ruby (EuRuKo) s’est tenue à
+  Karlsruhe, en Allemagne, en 2003. Organisée par une équipe de
+  rubyistes de langue allemande, dont Armin Roehrl et Michael Neumann,
+  l’EuRuKo s’est imposé comme le second évènement annuel dans la
+  communauté.
+
+[Open Source Developer Conference][5]
+: Une conférence annuelle sur le développement open source. Basée en
+  Australie, elle a gagné une aura particulière et chaque année, on
+  dénombre plusieurs interventions à propos de Ruby.
+
+### Les conférences régionales
+
+[Ruby Central][2] maintient un [*Regional Conference Grant Program*][6]
+afin de guider sur les plans budgétaire et organisationnel les groupes
+amateurs souhaitant monter des conférences locales ou régionales.
+
+Ruby Central s’est également rapproché de [SDForum][7] pour monter la
+*Silicon Valley Ruby Conference*, dont le deuxième opus se tient en
+2007.
+
+### Ruby à d’autres conférences
+
+Une intervention sur Ruby est programmée à l’[*O’Reilly Open Source
+Conference*][8] (OSCON) depuis 2004. Par ailleurs, les rubyistes
+maintiennent une très forte présence dans divers regroupements non
+directement liés à Ruby. De très nombreuses conférences ont été
+consacrées à [Ruby on Rails][9], à commencer par la [RailsConf][10] de
+Ruby Central, la [RailsConf Europe][11] (co-produite en 2006 par Ruby
+Central et [Skills Matter][12], organisée en 2007 par Ruby Central et
+O’Reilly) et enfin *Canada on Rails*.
+
+
+
+[1]: http://www.rubycentral.org/conference 
+[2]: http://www.rubycentral.org 
+[3]: http://jp.rubyist.net/RubyKaigi2006/ 
+[4]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06 
+[5]: http://www.osdc.com.au/ 
+[6]: http://www.rubycentral.org/rcg2006.pdf 
+[7]: http://www.sdforum.org 
+[8]: http://conferences.oreillynet.com/os2006/ 
+[9]: http://www.rubyonrails.org 
+[10]: http://www.railsconf.org 
+[11]: http://europe.railsconf.org 
+[12]: http://www.skillsmatter.com 

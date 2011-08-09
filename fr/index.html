@@ -1,0 +1,55 @@
+---
+layout: page
+title: "Le langage Ruby"
+lang: fr
+
+header: |
+  <div id="intro">
+    <h1>Ruby...</h1>
+
+    est un langage open-source dynamique qui met l'accent sur la simplicité 
+    et la productivité. Sa syntaxe élégante en facilite la lecture et
+    l'écriture.
+
+    <a href="about/">En savoir plus...</a>
+  </div>
+
+sidebar: |
+  <a href="downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.fr limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">Lire la suite...</a></p>
+
+  <span class="post-info">Posté par {{ post.author }} le {{ post.date | date_to_string }}</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="news/">Autres actualités</a></h3>
+  <ul>
+    {% for post in site.categories.fr offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Posté par {{ post.author }} le {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.fr offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Posté par {{ post.author }} le {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
