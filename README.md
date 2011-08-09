@@ -9,7 +9,7 @@ This is an attempt to port the poorly maintained
     $ git clone https://github.com/postmodern/www.ruby-lang.org.git
     $ cd www.ruby-lang.org/
     $ jekyll
-    $ open http://localhost:4000/en/
+    $ open http://localhost:4000/
 
 ## Todo
 
