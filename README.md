@@ -1,10 +1,9 @@
-# www.ruby-lang.org on Jekyll
-
-* [www.ruby-lang.tk](http://ruby-lang.tk/)
+# www.ruby-lang.org + Jekyll = ruby-lang.tk
 
 This is an attempt to port the poorly maintained
 [www.ruby-lang.org](http://www.ruby-lang.org/) website to
-[Jekyll](http://www.jekyllrb.com/).
+[Jekyll](http://www.jekyllrb.com/). You can view the live site at
+[ruby-lang.tk](http://ruby-lang.tk/)
 
 ## Get It
 
