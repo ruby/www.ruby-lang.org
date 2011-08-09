@@ -1,0 +1,21 @@
+---
+layout: news_post
+title: "SVNへの移行"
+lang: ja
+---
+
+Rubyのソースコードレポジトリは[http://svn.ruby-lang.org/repos/ruby/][1] に移動しました。
+svnコマンドでチェックアウトしたり、 [ViewVC][2] で参照することができます。
+
+svn.ruby-lang.org用の新しいマシンは[Sun Microsystems社][3]に 提供していただきました。
+新しいマシンでは、[Solaris 10][4]を使用しています。
+
+Posted by Shugo Maeda on 22 Dec 2006
+{: .post-info}
+
+
+
+[1]: http://svn.ruby-lang.org/repos/ruby/ 
+[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby 
+[3]: http://www.sun.com 
+[4]: http://jp.sun.com/products/software/solaris/ 

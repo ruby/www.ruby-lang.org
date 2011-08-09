@@ -1,0 +1,16 @@
+---
+layout: news_post
+title: "redmine.ruby-lang.orgメンテナンスのお知らせ"
+lang: ja
+---
+
+[Rubyの課題追跡システム][1]は2011-02-23 10:00+09:00から24:00まで、メンテナンスのためサービスを停止します。
+
+恐れ入りますが期間中の報告の際は[ruby-dev](mailto:ruby-dev@ruby-lang.org)メーリングリストに投稿なさるか、もしくはサービス再開までお待ちください。
+
+Posted by Yugui on 22 Feb 2011
+{: .post-info}
+
+
+
+[1]: http://redmine.ruby-lang.org 
