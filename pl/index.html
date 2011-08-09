@@ -1,0 +1,56 @@
+---
+layout: page
+title: "Język programowania Ruby"
+lang: pl
+
+header: |
+  <div id="intro">
+    <h1>Ruby to...</h1>
+
+    <p>
+    Dynamiczny język programowania skupiający się na prostocie i wydajności.
+    Ma elegancką składnie, którą czyta się naturalnie i jest łatwa w zapisie.
+    </p>
+
+    <a href="about/">Czytaj więcej...</a>
+  </div>
+
+sidebar: |
+  <a href="downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.pl limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">Więcej...</a></p>
+
+  <span class="post-info">Zamieszczone przez {{ post.author }} {{ post.date | date_to_string }}</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="news/">Więcej aktualności</a></h3>
+  <ul>
+    {% for post in site.categories.pl offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Zamieszczone przez {{ post.author }} {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.pl offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">Zamieszczone przez {{ post.author }} {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
