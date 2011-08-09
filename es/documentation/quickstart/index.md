@@ -1,0 +1,123 @@
+---
+layout: page
+title: "Ruby en 20 minutos"
+lang: es
+---
+
+## Introducción
+
+Este es un pequeño tutorial de Ruby que no debería tomar más de 20
+minutos completarlo. Se asume que ya tienes instalado Ruby. Si no tienes
+Ruby funcionando en tu PC, [descárgalo](/es/downloads/) e instálalo
+antes de comenzar.
+
+## Ruby interactivo
+
+Arranca el IRB.
+
+* Si estás usando **Mac OS X** abre una `Terminal` y escribe `irb`,
+  después presiona enter.
+* Si estás usando **Linux**, abre una `Terminal` y escribe `irb`,
+  después presiona enter.
+* Si estás usando **Windows**, abre `fxri` desde la sección Ruby de tu
+  Menú de Inicio.
+^
+
+    irb(main):001:0>
+{: .code .ruby-code}
+
+Bien, ahora está abierto. ¿Y ahora qué?
+
+Escribe esto: `"Hola Mundo"`
+
+    irb(main):001:0> "Hola Mundo"
+    => "Hola Mundo"
+{: .code .ruby-code}
+
+## ¡Ruby te obedeció!
+
+¿Qué fue lo que pasó? ¿Acaso acabamos de escribir el programa “Hola
+Mundo” más corto del mundo? No exactamente. La segunda linea sólo es la
+forma que tiene IRB para decirnos el resultado de la última expresión
+evaluada. Si queremos que el programa escriba “Hola Mundo” necesitamos
+un poco más:
+
+    irb(main):002:0> puts "Hola Mundo" 
+    Hola Mundo 
+    => nil
+{: .code .ruby-code}
+
+`puts` es el comando básico para escribir algo en Ruby. Pero entonces,
+¿qué es ese `=> nil`? Ese es el resultado de la expresión. `puts`
+siempre retorna `nil`, que es el valor que significa “absolutamente
+nada” en Ruby.
+
+## Tu calculadora gratis está aquí
+
+Pronto, tenemos suficiente para usar IRB como una calculadora básica:
+
+    irb(main):003:0> 3+2
+    => 5
+{: .code .ruby-code}
+
+Tres más dos. Bastante fácil. ¿Y qué tal tres *veces* dos? Podrías
+escribirlo, es bastante corto, pero también podrías subir y simplemente
+cambiar lo que ya ingresaste. Prueba presionando la **flecha hacia
+arriba** en tu teclado y verifica si aparece la linea con `3+2` escrito.
+Si es así, puedes usar la **flecha hacia la izquierda** para
+posicionarte junto al signo `+` y cambiarlo por un `*`.
+
+    irb(main):004:0> 3*2
+    => 6
+{: .code .ruby-code}
+
+Ahora intentemos tres al cuadrado:
+
+    irb(main):005:0> 3**2
+    => 9
+{: .code .ruby-code}
+
+En Ruby `**` es la forma que tienes para decir “elevado al”. ¿Y qué tal
+si quieres hacer lo inverso y encontrar la raíz cuadrada de algo?
+
+    irb(main):006:0> Math.sqrt(9)
+    => 3.0
+{: .code .ruby-code}
+
+Bien, esperen, ¿qué fue eso? Si adivinaste, “fue la forma de averiguar
+la raíz cuadrada de nueve”, estás en lo cierto. Pero veamos las cosas un
+poco más de cerca. Antes que nada, ¿qué es `Math`?
+
+## Módulos, agrupa el código por tópicos
+
+`Math` es un módulo incluido para matemáticas. Los módulos tienen dos
+roles en Ruby. Esto muestra uno de sus roles: agrupar métodos similares
+bajo un nombre familiar. `Math` también tiene métodos como `sin()` y
+`tan()`.
+
+Después de `Math` hay un punto. ¿Cuál es la función del punto? El punto
+es la forma de identificar al receptor de un mensaje. ¿Qué es un
+mensaje? En este caso es `sqrt(9)`, que significa “llama al método
+`sqrt`”, abreviación de “square root” (raíz cuadrada) con el parámetro
+`9`.
+
+El resultado de la llamada a este método es el valor `3.0`. Notarás que
+no es simplemente `3`. Eso es porque la mayoría de las veces la raíz
+cuadrada de un número no será un número entero, así que el método
+siempre retorna un número flotante.
+
+¿Y qué pasa si queremos recordar el resultado de algunas de estas
+operaciones? Asigna el resultado a una variable.
+
+    irb(main):007:0> a = 3 ** 2
+    => 9
+    irb(main):008:0> b = 4 ** 2
+    => 16
+    irb(main):009:0> Math.sqrt(a+b)
+    => 5.0
+{: .code .ruby-code}
+
+Por más bueno que esté esto de la calculadora, nos estamos alejando del
+tradicional mensaje `Hola Mundo` en el que se supone que los cursos para
+principiantes deben enfocarse… [así que volvamos a eso](2/).
+
