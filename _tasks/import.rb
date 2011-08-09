@@ -79,6 +79,9 @@ task :import do
                 span.replace(span.inner_text)
               end
 
+              # remove the 'class' attribute from all pre tags
+              content_div.search('pre').remove_attr('class')
+
               # map all code elements to their inner_text
               content_div.search('pre > code').each do |code|
                 code.replace(code.children.map { |node|
