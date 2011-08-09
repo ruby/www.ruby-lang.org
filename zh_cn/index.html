@@ -1,0 +1,56 @@
+---
+layout: page
+title: "Ruby 程序设计语言官方网站"
+lang: zh_cn
+
+header: |
+  <div id="intro">
+    <h1>Ruby 是...</h1>
+
+    <p>
+    一种跨平台、面向对象的动态类型编程语言。Ruby 体现了表达的一致性和简单性，
+    它不仅是一门编程语言，更是表达想法的一种简练方式。
+    </p>
+
+    <a href="about/">更多...</a>
+  </div>
+
+sidebar: |
+  <a href="downloads/">
+    <img src="/images/download.gif" alt="Download Ruby" title="" />
+  </a>
+
+---
+
+{% for post in site.categories.zh_cn limit:2 %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">阅读全文...</a></p>
+
+  <span class="post-info">由 {{ post.author }} 发表于 {{ post.date | date_to_string }}</span>
+</div>
+{% endfor %}
+
+<div id="news">
+  <h3><a href="news/">其它新闻</a></h3>
+  <ul>
+    {% for post in site.categories.zh_cn offset:2 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">由 {{ post.author }} 发表于 {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
+    {% for post in site.categories.zh_cn offset:5 limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-info">由 {{ post.author }} 发表于 {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,17 @@
+---
+layout: news
+title: "最新消息"
+lang: zh_cn
+---
+
+{% for post in site.categories.zh_cn %}
+<div class="post">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.content | strip_html | truncatewords: 25 }}
+
+  <p><a href="{{ post.url }}">阅读全文...</a></p>
+
+  <p class="post-info">由 {{ post.author }} 发表于 {{ post.date | date_to_string }}</p>
+</div>
+{% endfor %}
