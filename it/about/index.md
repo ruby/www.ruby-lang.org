@@ -70,7 +70,6 @@ facilmente dimostrabile dalla seguente porzione di codice che applica
 un’azione ad un numero:
 
     5.times { print "Ruby è un linguaggio fantastico" }
-{: .code .ruby-code}
 
 In molti linguaggi, i numeri e gli altri tipi primitivi non sono
 oggetti, ma Ruby, seguendo l’esempio di Smalltalk, dà metodi e variabili
@@ -96,7 +95,6 @@ puoi creare tale metodo aggiungendolo alla stessa classe `Numeric`, che
     
     y = 5.aggiungi 6
     # y è ora uguale a 11
-{: .code .ruby-code}
 
 Gli operatori di Ruby non sono altro che un modo semplice per eseguire
 operazioni normalmente effettuate dai metodi, e possono essere
@@ -118,7 +116,6 @@ Lisp<sup>[4](#fn4)</sup>.”
       %w[Google Yahoo MSN].map do |sito|
         "http://www." + sito.downcase + ".com"
       end
-{: .code .ruby-code}
 
 In questo pezzo di codice, il blocco è deimitato dal costrutto `do ...
 end`, e il metodo `map` applica il codice del blocco alla lista di
@@ -143,7 +140,6 @@ qualsiasi classe che implementa il metodo `each` può includere il modulo
     class IlMioArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 Generalmente, gli appassionati di Ruby considerano questa pratica molto
 più pulita e gestibile dell’eredità multipla, che è complessa e può

@@ -10,7 +10,6 @@ lang: zh_TW
     irb(main):011:1> puts "Hello World!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 從 `def h` 開始定義一個方法。它告訴 Ruby 方法名字是 `h`。下一行是方法的內容，也就是我們之前看過的 `puts "Hello
 World"`。接著最後一行 `end` 表示方法定義結束。 Ruby 回應 `=> nil` 告訴我們它知悉了這個方法定義。
@@ -25,7 +24,6 @@ World"`。接著最後一行 `end` 表示方法定義結束。 Ruby 回應 `=> n
     irb(main):014:0> h()
     Hello World!
     => nil
-{: .code .ruby-code}
 
 簡單吧。在 Ruby 中呼叫方法只要輸入方法名字就可以了。如果方法不需要參數，那麼括號可以省略。你也可以加上空括號，但不是必要的。
 
@@ -38,7 +36,6 @@ World"`。接著最後一行 `end` 表示方法定義結束。 Ruby 回應 `=> n
     irb(main):018:0> h("Matz")
     Hello Matz!
     => nil
-{: .code .ruby-code}
 
 正如預期... 讓我們仔細看看到底發生什麼事情。
 
@@ -57,7 +54,6 @@ World"`。接著最後一行 `end` 表示方法定義結束。 Ruby 回應 `=> n
     irb(main):023:0> h
     Hello World!
     => nil
-{: .code .ruby-code}
 
 這裡還有幾個小訣竅。第一是我們再次省略了方法的括號。如果方法呼叫很簡單，那麼括號建議你可以省略掉。另一個訣竅是參數有預設值
 `World`。意思是說 “如果沒有給 name 參數，那麼就使用預設值 `"World"`“。
@@ -79,7 +75,6 @@ World"`。接著最後一行 `end` 表示方法定義結束。 Ruby 回應 `=> n
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 新的關鍵字是 `class`。這定義了一個新的類別叫做 Greeter，以及屬於這個類別的方法。注意到 `@name`
 這是一個實例變數，可以在類別裡面的方法中存取到。你可以看到在方法 `say_hi` 和 `say_bye` 裡使用了它。

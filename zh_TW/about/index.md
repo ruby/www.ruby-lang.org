@@ -51,7 +51,6 @@ scripting language \[3\]”.
 這特點來看，可以證明 Ruby 是個純物件導向的語言。
 
     5.times { print "We *love* Ruby -- it's outrageous!" }
-{: .code .ruby-code}
 
 在許多的語言中，數字與其他的原生資料型態(primitive types) 都不是物件。 而 Ruby 受到了 Smalltalk
 語言讓所有的資料型態都可賦予方法與產生實體變數的影響。更進而讓這規則適用於 Ruby 中所有物件。
@@ -72,7 +71,6 @@ Ruby 是個相當具有彈性的語言， 它可以讓使用者自由的去改�
     
     y = 5.plus 6
     # y is now equal to 11
-{: .code .ruby-code}
 
 Ruby 的運算元其實就是個方法(method)\[4\]。你也可以重新定義運算元。
 
@@ -89,7 +87,6 @@ Block 的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ru
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 在上方的程式碼中，block 是在 `do ... end` 之間。其中 `map` method 提供一個字串陣列給 block。Ruby
 中還有許多其他的 methods 提供了類似的方式可以讓程式設計師撰寫自己的 block 來完成此 method 該做的事。
@@ -105,7 +102,6 @@ Block 的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ru
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 一般來說，Ruby 使用者使用這種方式會比使用複雜且有很多限制的多重繼承來得清楚。
 

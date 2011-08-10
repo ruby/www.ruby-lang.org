@@ -11,7 +11,6 @@ Dobbiamo definire un metodo!
     irb(main):011:1> puts "Ciao Mondo!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 Il codice `def c` apre la definizione del metodo. Non fa altro che dire
 a Ruby che stiamo definendo un metodo, il cui nome è `c`. La linea
@@ -30,7 +29,6 @@ Ora proviamo questo metodo più volte:
     irb(main):014:0> c()
     Ciao Mondo!
     => nil
-{: .code .ruby-code}
 
 Bene, fino a qui è facile. Chiamare un metodo in Ruby è semplice, basta
 scrivere il suo nome. Se il metodo non ha bisogno parametri, questo è
@@ -47,7 +45,6 @@ Basta ridefinire `c` in modo che accetti “nome” come parametro.
     irb(main):018:0> c("Matz")
     Ciao Matz!
     => nil
-{: .code .ruby-code}
 
 Così funziona… ma diamo un’occhiata a cosa sta succedendo.
 
@@ -69,7 +66,6 @@ le iniziali maiuscole:
     irb(main):023:0> c
     Ciao Mondo!
     => nil
-{: .code .ruby-code}
 
 Ci sono molte altre cose che puoi fare in questo modo. Una è chiamare il
 metodo senza le parentesi. Se quello che stai facendo è ovvio, le
@@ -95,7 +91,6 @@ oggetto. Creiamo quindi una classe chiamata “PersonaCordiale”.
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 La nuova parola qui è `class`, essa definisce una nuova classe chiamata
 PersonaCordiale ed una serie di metodi. Fai attenzione a `@nome`. Questa

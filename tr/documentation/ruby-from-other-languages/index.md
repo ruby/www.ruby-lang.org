@@ -44,7 +44,6 @@ görürsünüz:
       # Burası blok içi.
       # this_item ile çalışan kodlar buradadır.
     end
-{: .code .ruby-code}
 
 `each` (ve arkadaşları `collect`, `find`, `inject`, `sort`, vs.)
 hakkında daha fazla bilgi için komut satırında `ri Enumerable` (ve
@@ -58,7 +57,6 @@ olsa bir değer geri döner. Şu mümkündür:
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### Semboller Sıradan Stringler Değildir
 
@@ -74,7 +72,6 @@ girin ve farkı görelim:
     irb(main):002:0> "george".object_id == "george".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
  `object_id` metodu bir nesnenin tanımlama kodunu geri döner. Eğer iki nesne birbirine eşitse `object_id` leri de eşit olacaktır. Bunun anlamı ikisi de hafıza da aynı yeri işaret ediyor demektir. Gördüğünüz gibi bir sembol ilk defa kullanıldıktan sonra aynı
 karakterler her zaman hafızada aynı yeri gösterir. Yani `object_id`leri
@@ -101,7 +98,6 @@ yaptığınız herşeyi onlarla da yapabilirsiniz:
     MyClass = Class.new do
       attr_accessor :instance_var
     end
-{: .code .ruby-code}
 
 ### Değişken Sabitler
 
@@ -123,7 +119,6 @@ karışıklığa sebep olabilir:
     def Constant
       11
     end
-{: .code .ruby-code}
 
 Burada `Constant` 10 değerindeyken `Constant()` değeri 11 dir.
 
@@ -138,7 +133,6 @@ yerine hash ve semboller kullanarak taklidi yapılır. Ruby on Rails’de
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
-{: .code .ruby-code}
 
 ### Evrensel Doğruluk
 
@@ -152,7 +146,6 @@ yanlış kabul edilir. Aşağıdaki Python koduna bakın (diğer dillere de
       print "0 is true"
     else:
       print "0 is false"
-{: .code .ruby-code}
 
 Bunu çıktısı “0 is false” olacaktır. Ruby karşılığı ise:
 
@@ -162,7 +155,6 @@ Bunu çıktısı “0 is false” olacaktır. Ruby karşılığı ise:
     else
       puts "0 is false"
     end
-{: .code .ruby-code}
 
 “0 is true” çıktısı verecektir.
 
@@ -175,7 +167,6 @@ Aşağıdaki Ruby kodunda,
       def bir_metod; true; end
       def diger_metod; false; end
     end
-{: .code .ruby-code}
 
  `diger_metod` erişiminin genel olacağını düşünebilirsiniz ama öyle değil. “privete” erişim belirleyici sınıf tanımı sonuna kadar veya başka bir erişim belirleyici satıra kadar geçerli olacaktır. Default olarak tüm metodlar “public”(genel erişim)dir:     class MyClass
       # Şimdi a_method public erişim
@@ -186,7 +177,6 @@ Aşağıdaki Ruby kodunda,
       # another_method private erişim
       def another_method; false; end
     end
-{: .code .ruby-code}
 
  `public`, `private` ve `protected` aslında metoddur ve bu yüzden parametre alabilirler. Eğer bunlara bir sembol gönderirseniz metodun görünrlüğü değişir. ### Metod Erişimleri
 
@@ -238,7 +228,6 @@ erişilebileceğini belirtir ve bu alıcı sadece **self** olabilir.
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### Sınıflar Açıktır
 
@@ -257,7 +246,6 @@ zamanla ilgili bir kısım metod eklemiştir. İzleyin:
     # 1 Ocak saat 00:00 dan itibaren 14 saat sonra
     # anca uyanmışsınız ;)
     Time.mktime(2011, 01, 01) + 14.hours # => Sat Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### Eğlenceli Metod İsimleri
 
@@ -293,7 +281,6 @@ tanımlandıysa onun için geçerlidir.
     # Diğer nesneler etkilenmez
     other_car = Car.new
     other_car.inspect # => Ucuz araba
-{: .code .ruby-code}
 
 ### Kayıp Metodlar
 
@@ -313,7 +300,6 @@ yapar. Bir örnek:
     __ :a, :b, 10
     # => Metod __ çağrıldı fakat bulunamadı. Argümanları 
     # şunlar: a, b, 10
-{: .code .ruby-code}
 
 Yukardaki kod sadece çağrının detaylarını çağırır, fakat siz bu mesajı
 istediğiniz gibi değiştirmekte serbestsiniz.
@@ -328,7 +314,6 @@ Bir metod çağrısı aslında diğer bir nesneye bir **mesaj** dır:
     1.+(2)
     # Bu da aynıdır:
     1.send "+", 2
-{: .code .ruby-code}
 
 ### Bloklar Nesnedir, Sadece Henüz Bunu Bilmiyorlar
 
@@ -344,7 +329,6 @@ argüman listesinde özel bir argüman ekleyerek `Proc` da yapabilirsiniz.
     adder = block { |a, b| a + b }
     # burada adder şimdi bir Proc nesnesidir
     adder.class # => Proc
-{: .code .ruby-code}
 
 Blokları metod çağrıları dışında da Proc.new ile veya `lambda` metodu
 ile üretebilirsiniz
@@ -353,7 +337,6 @@ Benzer olarak metodlar da birer nesnedir:
 
     method(:puts).call "puts is an object!"
     # => puts is an object!
-{: .code .ruby-code}
 
 ### Operatörler de Deyimdir
 
@@ -366,7 +349,6 @@ Bu yüzden isterseniz Fixnum’un + metodunu değiştirebilirsiniz:
         self - other
       end
     end
-{: .code .ruby-code}
 
 C++’ın `operator+` sına ihtiyacınız yok.
 

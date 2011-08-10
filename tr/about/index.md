@@ -66,7 +66,6 @@ Ruby’nin yüzde yüz saf nesneye yönelik bir dil olduğunun en iyi ispatı
 bir kod parçası ile bir sayıya olay vererek yapılır:
 
     5.times { print "Ruby'ti *seviyoruz* -- harika bir dil!" }
-{: .code .ruby-code}
 
 Çoğu dilde sayılar ve diğer ilkel tipler nesne değildir. Ruby tüm
 tiplerine metotlar ve örnek değişkenler verme geleneğini Smalltalk’tan
@@ -92,7 +91,6 @@ ekleyebilirsiniz.
     
     y = 5.topla 6
     # y'nin değeri 11 oldu.
-{: .code .ruby-code}
 
 Ruby’nin operatörleri sözdizimsel olarak esnektir, yeniden tanımlamanıza
 olanak sağlar.
@@ -114,7 +112,6 @@ istedim<sup>[4](#fn4)</sup>.” demiştir.
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 Yukarıdaki kodda bir blok `do ... end` yapıları içerisinde tanımlanıyor.
 `map` metodu bloğa bir kelime listesi ile çalıştığını bildiriyor.
@@ -136,7 +133,6 @@ almış olur. Örneğin `each` metodunu gerçekleştiren her sınıf
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 Genelde Ruby’ciler bu yolu bazen çok karmaşıklaşan ve kısıtlayıcı olan
 çoklu mirastan daha temiz ve sağlam bir yöntem olarak görürler.

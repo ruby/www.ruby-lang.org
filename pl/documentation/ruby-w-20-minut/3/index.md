@@ -14,7 +14,6 @@ Utwórzmy teraz obiekt klasy Greeter:
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 Gdy obiekt `g` jest utworzony, zapamiętuje on imię jako Pat. Hmm, co
 jeśli chcielibyśmy dostać się bezpośrednio do imienia ?
@@ -23,7 +22,6 @@ jeśli chcielibyśmy dostać się bezpośrednio do imienia ?
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 Niestety, nie możemy tak zrobić.
 
@@ -47,7 +45,6 @@ Więc jakie to metody istnieją dla obiektów klasy Greeter?
         "clone", "public_methods", "respond_to?", "freeze",
         "say_bye", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 Dużo metod. My zdefiniowaliśmy tylko dwie metody. Co tutaj się dzieje?
 No coż, to są **wszystkie** metody obiektów klas Greeter, kompletna
@@ -58,7 +55,6 @@ nadrzędnych poprzez przekazanie parametru `false`.
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["say_bye", "say_hi"]
-{: .code .ruby-code}
 
 Zobaczmy więc, na jakie metody nasz obiekt odpowiada (responds\_to):
 
@@ -68,7 +64,6 @@ Zobaczmy więc, na jakie metody nasz obiekt odpowiada (responds\_to):
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 Rozumie więc `say_hi`, oraz `to_s` (oznaczającą zamienienie czegoś w
 stringa, metoda która jest zdefiniowana domyślnie dla każdego obiektu),
@@ -83,7 +78,6 @@ nam łatwy dostępn do zmiennych obiektu.
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 W Rubim możesz ponownie otworzyć klasę i zmodyfikować ją. To nie zmienia
 żadnych obiektów, które juz isnieją, ale zmienia obiekty, które dopiero
@@ -108,7 +102,6 @@ powstaną. Utwórzmy więc nowy obiekt i pobawmy się jego właściwością
     irb(main):054:0> g.say_hi
     Hi Betty!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 Użycie `attr_accessor` zdefiniowało dwie nowe metody dla nas, `name` aby
 odczytać wartość oraz `name=` aby ją ustawić.
@@ -186,7 +179,6 @@ Control-D.
       mg.say_hi
       mg.say_bye
     end
-{: .code .ruby-code}
 
 Zapisz ten plik pod nazwą “ri20min.rb”, i uruchom go wpisując “ruby
 ri20min.rb”. Wynik poniżej:

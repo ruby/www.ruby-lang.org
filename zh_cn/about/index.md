@@ -52,7 +52,6 @@ variables*），称命令为方法 （*methods*）。 从下列程序代码中�
 是纯面向对象的语言。
 
     5.times { print "We *love* Ruby -- it's outrageous!" }
-{: .code .ruby-code}
 
 在许多语言中，数字和其它原生的类型都不是对象。而 Ruby 受 Smalltalk
 语言影响，让所有的类型都可以赋予方法及产生实例变量，并让这些规则适用于 Ruby 所有对象。
@@ -72,7 +71,6 @@ Ruby 是一个相当灵活的语言，她允许用户去改变她本身。 Ruby 
     
     y = 5.plus 6
     # y is now equal to 11
-{: .code .ruby-code}
 
 Ruby 的符号只是语法的甜头 (syntactic sugar)。你可以随时重定义他们。
 
@@ -88,7 +86,6 @@ Ruby 的代码块是非常强大的。程序员可以给任何函数添加一个
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 在上面的代码中，代码块是在 `do ... end` 中的结构。 `map` 函数将代码块应用到一个词的列表中。Ruby
 的其他函数经常会为程序员留出一个空当给代码块来控制函数的功能。
@@ -104,7 +101,6 @@ Ruby 的代码块是非常强大的。程序员可以给任何函数添加一个
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 一般来说，Ruby 爱好者相对于复杂和限制颇多的多态继承方法来讲更偏向于这种混合方法。
 

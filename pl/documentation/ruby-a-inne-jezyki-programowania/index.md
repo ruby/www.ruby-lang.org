@@ -39,7 +39,6 @@ i in lista: ...</tt>), w Rubim zobaczysz:
       # Jesteśmy w bloku.
       # Tutaj zajmujemy się element-em.
     end
-{: .code .ruby-code}
 
 Aby dowiedzieć się więcej o `each` (oraz pokrewnych: `collect`, `find`,
 `inject`, `sort`, itd), rzuć okiem na `ri Enumerable` (a potem <tt>ri
@@ -53,7 +52,6 @@ wartość, nawet jeśli ta wartość jest **nil**.
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### Symbole nie są “lekkimi stringami”
 
@@ -69,7 +67,6 @@ Spójrz na ten przykład:
     irb(main):002:0> "george".object_id == "george".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
 Metoda `object_id` zwraca unikalny identyfikator obiektu w pamięci.
 Jeśli dwa obiekty mają ten sam `object_id`, to są tym samym obiektem
@@ -100,7 +97,6 @@ obiektach:
     MyClass = Class.new do
       attr_accessor :instance_var
     end
-{: .code .ruby-code}
 
 ### Stałe (zmienne)
 
@@ -124,7 +120,6 @@ pewnego zamieszania, jak widać poniżej:
     def Constant
       11
     end
-{: .code .ruby-code}
 
 Teraz `Constant` ma wartość 10, ale `Constant()` daje wartość 11.
 
@@ -139,7 +134,6 @@ Rails używa tego na każdym kroku:
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
-{: .code .ruby-code}
 
 ### Prawda absolutna
 
@@ -153,7 +147,6 @@ poniższy kod w Pythonie:
       print "0 is true"
     else:
       print "0 is false"
-{: .code .ruby-code}
 
 Ten kawałek kodu wypisze <tt>0 is false</tt> To samo w Rubim wygląda
 tak:
@@ -164,7 +157,6 @@ tak:
     else
       puts "0 is false"
     end
-{: .code .ruby-code}
 
 Wypisze “0 is true”.
 
@@ -177,7 +169,6 @@ W poniższym kodzie,
       def a_method; true; end
       def another_method; false; end
     end
-{: .code .ruby-code}
 
 Być może oczekujesz, że `another_method` jest metodą publiczną? Nie
 jest. Modyfikator dostępu ‘private’ jest zastosowany dla wszystkich
@@ -193,7 +184,6 @@ modyfikatora zakresu dostępu. Domyślnie, wszystkie metody są publiczne.
       # another_method jest metodą prywatną
       def another_method; false; end
     end
-{: .code .ruby-code}
 
  `public`, `private` and `protected` to tak naprawdę metody, mogą więc przyjmowac paramatery. Jeśli tym metodom przekażesz Symbol jako parametr, zmienisz widoczność danej metody. ### Dostęp do metod
 
@@ -246,7 +236,6 @@ Jedynie **self** jest dozwolonym odbiorcą wywołań prywatnych metod.
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### Klasy są otwarte
 
@@ -266,7 +255,6 @@ klasie `Fixnum`. Poniżej:
     # 14 hours from 00:00 January 1st
     # (czyt. kiedy w końcu się obudzisz ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### Śmieszne nazwy metod
 
@@ -304,7 +292,6 @@ dla danego obiektu.
     # Inne obiekty nie zostały zmienione
     other_car = Car.new
     other_car.inspect # => Tani samochód
-{: .code .ruby-code}
 
 ### Brakujące metody
 
@@ -324,7 +311,6 @@ Twojej aplikacji, wiele bibliotek tak robi. Poniżej jeden z przykładów:
     __ :a, :b, 10
     # => Wywołano niezdefiniowaną metodę __. Przekazano poniższe 
     # argumenty: a, b, 10
-{: .code .ruby-code}
 
 Powyższy kod wyświetla po prostu szczegóły wywołania, możesz to
 zachowanie dowolnie zmienić.
@@ -340,7 +326,6 @@ obiektowi:
     1.+(2)
     # Jest to to samo co:
     1.send "+", 2
-{: .code .ruby-code}
 
 ### Bloki są Obiektami, tylko o tym jeszcze nie wiedzą
 
@@ -356,7 +341,6 @@ tak jak w poniższym przykładzie:
     adder = block { |a, b| a + b }
     # adder to teraz obiekt typu Proc
     adder.class # => Proc
-{: .code .ruby-code}
 
 Możesz tworzyć bloki równiez poza wywołaniami metod, wywołując Proc.new
 lub metodę `lambda`.
@@ -365,7 +349,6 @@ Podobnie, metody to także obiekty:
 
     method(:puts).call "puts to obiekt!"
     # => puts to obiekt!
-{: .code .ruby-code}
 
 ### Operatory to cukier syntaktyczny
 
@@ -378,7 +361,6 @@ wywołań metod. Możesz, na przykład, nadpisać metodę + klasy Fixnum:
         self - other
       end
     end
-{: .code .ruby-code}
 
 Nie potrzebujesz operatora z C++’s `operator+`, etc.
 

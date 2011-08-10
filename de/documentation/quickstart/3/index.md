@@ -14,7 +14,6 @@ Erzeugen wir nun ein Greeter-Objekt und benutzen es:
     irb(main):037:0> g.sag_tschuess
     Tschuess, Patrick, bis bald!
     => nil</0x16cac>
-{: .code .ruby-code}
 
 Wenn `g` einmal erzeugt wurde, merkt es sich, dass der Name Patrick ist.
 Hmm, und wenn wir direkt auf den Namen im Objekt zugreifen wollen?
@@ -23,7 +22,6 @@ Hmm, und wenn wir direkt auf den Namen im Objekt zugreifen wollen?
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 Nö, das geht offensichtlich nicht.
 
@@ -47,7 +45,6 @@ Welche Methoden existieren nun für Greeter-Objekte?
         "clone", "public_methods", "respond_to?", "freeze",
         "sag_tschuess", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 Hoppla, das sind aber ganz schön viele! Wir haben doch nur zwei Methoden
 definiert. Was ist hier also los? Es handelt sich hier um **alle**
@@ -59,7 +56,6 @@ sollen, indem wir `false` als Parameter angeben.
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["sag_hallo", "sag_tschuess"]
-{: .code .ruby-code}
 
 Aha, das sieht schon besser aus! Nun schauen wir mal, auf welche
 Methoden unser Greeter-Objekt reagiert:
@@ -70,7 +66,6 @@ Methoden unser Greeter-Objekt reagiert:
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 Es kennt also `sag_hallo` und `to_s`. (Die zuletzt genannte Methode ist
 jedem Objekt per Voreinstellung bekannt – sie wandelt etwas in einen
@@ -86,7 +81,6 @@ die Variablen eines Objekts zu gewähren.
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 In Ruby kann man eine Klasse jederzeit verändern. Das ändert keine
 Objekte, die bereits existieren, aber es beeinflusst sämtliche neuen
@@ -111,7 +105,6 @@ spielen ein bisschen mit dessen `@name`-Eigenschaft herum.
     irb(main):054:0> g.sag_hallo
     Hallo, Bettina!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 Die Benutzung von `attr_accessor` hat zwei neue Methoden für uns
 definiert: Mit `name` erhält man den Wert, mit `name=` setzt man ihn.
@@ -190,7 +183,6 @@ Strg-D.
       mg.sag_hallo
       mg.sag_tschuess
     end
-{: .code .ruby-code}
 
 Speichere diese Textdatei als “ri20min.rb” und starte es mit “ruby
 ri20min.rb”. Die Ausgabe sollte sein:

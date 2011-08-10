@@ -28,7 +28,6 @@ IRB’i açın (Interactive Ruby anlamına gelir).
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Tamam açıldı şimdi ne yapacağız?
 
@@ -36,7 +35,6 @@ Tamam açıldı şimdi ne yapacağız?
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## Ruby Size İtaat Eder!
 
@@ -48,7 +46,6 @@ fazla birşeyler yapmalıyız:
     irb(main):002:0> puts "Hello World"
     Hello World
     => nil
-{: .code .ruby-code}
 
 `puts` Ruby’de çıktı almak için en basit bir komut. Fakat bu `=> nil` ne
 oluyor ki? Bu işlevin sonucudur. `puts` herzaman Ruby’de hiçbirşeyi
@@ -60,7 +57,6 @@ IRB basit bir hesap makinası olarak kullanılabilir:
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Üç artı iki. Çok kolay. Peki üç *kere* iki nedir? Bunu girebileceğiniz
 gibi bir önce girdiğiniz satırı yukarı tuşuna basarak tekrar
@@ -69,20 +65,17 @@ gibi bir önce girdiğiniz satırı yukarı tuşuna basarak tekrar
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 Sonra üçün karesini bulalım:
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 Ruby’de `**` “üssü” demenin yoludur. Fakat bir sayının karekökü için ne
 yapmalı?
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Tamam, bu ne demek sizce? Tahmin ederseniz dokuzun karekökü alınmış.
 Haklısınız fakat daha yakından inceleyelim, en başta bu `Math` ne ?
@@ -110,7 +103,6 @@ bir değişkene atama yaparız.
     irb(main):008:0> b = 4 ** 2
     => 16
     irb(main):009:0> Math.sqrt(a+b) => 5.0
-{: .code .ruby-code}
 
 Bir hsap makinası için oldukça yeterli. Klasik `Hello World` mesajından
 uzaklaşmaya başladık, [geri dönelim.](2/)

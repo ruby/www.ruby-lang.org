@@ -24,7 +24,6 @@ Zuerst starten wir die interaktive Ruby-Konsole: IRB.
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 So, IRB ist nun gestartet. Wie geht es weiter?
 
@@ -32,7 +31,6 @@ Gib folgendes ein: `"Hallo, Welt!"`
 
     irb(main):001:0> "Hallo, Welt!"
     => "Hallo, Welt!"
-{: .code .ruby-code}
 
 ## Ruby hört auf Dich!
 
@@ -45,7 +43,6 @@ wollen, müssen wir ein bisschen mehr tun:
     irb(main):002:0> puts "Hallo, Welt!" 
     Hallo, Welt!
     => nil
-{: .code .ruby-code}
 
 `puts` ist das grundlegende Kommando, um etwas in Ruby auf den
 Bildschirm auszugeben. Und was bedeutet `=> nil`? Das ist das Ergebnis
@@ -59,7 +56,6 @@ Taschenrechner zu benutzen:
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Drei plus Zwei. Das war nicht schwer. Was ist mit Drei *mal* Zwei? Man
 könnte das nun einfach eintippen, kurz genug ist es jedenfalls. Du
@@ -72,20 +68,17 @@ Multiplikations-Operator) umändern.
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 Probieren wir als nächstes Drei zum Quadrat aus:
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 In Ruby sagt man `**`, wenn man “hoch” sagen will. Aber was, wenn man
 den umgekehrten Weg gehen und die Quadratwurzel von etwas finden will?
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Moment, wie war das? So wird die Quadratwurzel von Neun berechnet? Damit
 liegst Du vollkommen richtig. Aber sehen wir uns das genauer an!
@@ -118,7 +111,6 @@ Dann weisen wir das Ergebnis einfach einer Variablen zu.
     => 16
     irb(main):009:0> Math.sqrt(a+b)
     => 5.0
-{: .code .ruby-code}
 
 So nützlich das auch für einen Taschenrechner ist: Wir entfernen uns von
 der traditionellen `"Hallo, Welt!"`-Botschaft, auf die Anleitungen für

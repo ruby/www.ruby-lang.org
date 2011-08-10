@@ -7,14 +7,12 @@ lang: bg
  Когато за първи път се сблъскате с код писан на Ruby е вероятно да ви напомни на езици за програмиране, които вече ползвате. Това е направено с цел. Много от синтаксиса е заимстван от Perl, Python и Java (както от други езици), за това научаването на Ruby би било много по-лесно. Този страница е разделена на две секции. Първата е обобщение на нещата, които ще видите от езика \_X\_ в Ruby. Втората секция е посветена на някои от основните принципи на езика. h2. Какво да очакваме \* [Oт C/C++ към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/) \* [Oт Java към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-java/) \* [Oт Perl към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-perl/) \* [Oт PHP към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-php/) \* [Oт Python към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-python/) h2. Важни неща в езика Това са някои насоки за нещата, с които ще се запознаете при изучаването на Ruby. h3. Итерация Две от нещата, с които може би не сте се сблъсквали са \"блоковете\" и итераторите. Вместо да използваме цикъл с индекс ( както в C, C++ или в ранните версии на 1.5 Java), итерацията на списък (в Perl <tt>for (@a) \{...}</tt> или в Python <tt>for i in aList: ...</tt>) може да се осъществи с : <notextile markdown="1">    some_list.each do |this_item|
       # операции за всеки елемент this_item.
     end
-{: .code .ruby-code}
 
 </notextile>
 
  За повече информация относно @each@ (и неговите приятели @collect@, @find@, @inject@, @sort@ и т.н.) можете да прочетете с командата @ri Enumerable@ (и <tt>ri Enumerable#*име\_на\_метод*</tt>). h3. Всичко има стойност Няма разлика между expression и statement. Всичко има стойност, дори и тя да бъде \*nil\*: <notextile markdown="1">    x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 </notextile>
 
@@ -23,7 +21,6 @@ lang: bg
     irb(main):002:0> "george".object_id == "george".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
 </notextile>
 
@@ -34,7 +31,6 @@ lang: bg
     MyClass = Class.new do
       attr_accessor :instance_var
     end
-{: .code .ruby-code}
 
 </notextile>
 
@@ -42,7 +38,6 @@ lang: bg
     def Constant
       11
     end
-{: .code .ruby-code}
 
 </notextile>
 
@@ -51,7 +46,6 @@ lang: bg
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
-{: .code .ruby-code}
 
 </notextile>
 
@@ -60,7 +54,6 @@ lang: bg
       print "0 is true"
     else:
       print "0 is false"
-{: .code .ruby-code}
 
 </notextile>
 
@@ -70,7 +63,6 @@ lang: bg
     else
       puts "0 is false"
     end
-{: .code .ruby-code}
 
 </notextile>
 
@@ -79,7 +71,6 @@ lang: bg
       def a_method; true; end
       def another_method; false; end
     end
-{: .code .ruby-code}
 
 </notextile>
 
@@ -92,7 +83,6 @@ lang: bg
       # another_method is private
       def another_method; false; end
     end
-{: .code .ruby-code}
 
 </notextile>
 
@@ -133,7 +123,6 @@ lang: bg
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 </notextile>
 
@@ -147,7 +136,6 @@ lang: bg
     # 14 hours from 00:00 January 1st
     # (aka when you finally wake up ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 </notextile>
 
@@ -168,7 +156,6 @@ lang: bg
     # Other objects are not affected
     other_car = Car.new
     other_car.inspect # => Cheap car
-{: .code .ruby-code}
 
 </notextile>
 
@@ -182,7 +169,6 @@ lang: bg
     __ :a, :b, 10
     # => Method __ was called, but not found. It has these
     # arguments: a, b, 10
-{: .code .ruby-code}
 
 </notextile>
 
@@ -192,7 +178,6 @@ lang: bg
     1.+(2)
     # Which is the same as this:
     1.send "+", 2
-{: .code .ruby-code}
 
 </notextile>
 
@@ -203,13 +188,11 @@ lang: bg
     adder = block { |a, b| a + b }
     # adder is now a Proc object
     adder.class # => Proc
-{: .code .ruby-code}
 
 </notextile>
 
  Можем да създаваме блокове извън извиквания към методи чрез Proc.new или чрез метода `lambda`. Впрочем, методите са обекти: <notextile markdown="1">    method(:puts).call "puts is an object!"
     # => puts is an object!
-{: .code .ruby-code}
 
 </notextile>
 
@@ -219,7 +202,6 @@ lang: bg
         self - other
       end
     end
-{: .code .ruby-code}
 
 </notextile>
 

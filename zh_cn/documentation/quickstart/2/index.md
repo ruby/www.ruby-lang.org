@@ -10,7 +10,6 @@ lang: zh_cn
     irb(main):011:1> puts "Hello World!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 `def h` 定义一个函数。它告诉 Ruby 我们的函数名字是 `h`。下一行是函数的内容， 正是我们前面看到过的那行代码：`puts
 "Hello World!"`。最后的一行 `end` 告诉 Ruby 函数的定义完成了。
@@ -25,7 +24,6 @@ lang: zh_cn
     irb(main):014:0> h()
     Hello World!
     => nil
-{: .code .ruby-code}
 
 很方便吧。在 Ruby 里调用函数就像提起 Ruby 的名字一样简单。如果函数不需要接受参数，
 您只要提到它就够了。您可以加一对括号，但不是必需的。
@@ -39,7 +37,6 @@ lang: zh_cn
     irb(main):018:0> h("Matz")
     Hello Matz!
     => nil
-{: .code .ruby-code}
 
 和期待的一样。让我们再仔细看看究竟发生了什么。
 
@@ -58,7 +55,6 @@ lang: zh_cn
     irb(main):023:0> h
     Hello World!
     => nil
-{: .code .ruby-code}
 
 这里还有几个小窍门。第一是我们又一次省略了函数的括号。如果我们的命令看起来意图很明显的话， 函数的括号是可以省略的。另一个是函数缺省的参数值是
 `World`。意思就是说 “如果 name 参数没有给出的话， name 的缺省值就设置为 `“World"`。
@@ -80,7 +76,6 @@ lang: zh_cn
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 新的关键字 `class`！ 这个关键字定义了一个新的类 Greeter 和它的一些函数。 特别留意一下
 `@name`，这是一个实例变量。类里面的任何函数都可以使用实例变量。 您可以看到 `say_hi` 和 `say_bye` 函数都使用了它。

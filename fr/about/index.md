@@ -80,7 +80,6 @@ sous le terme de *variables d’instance*, et aux actions sous le nom de
 par un bout de code montrant l’application d’une action à un nombre.
 
     5.times { print "Nous *adorons* Ruby -- Même trop !" }
-{: .code .ruby-code}
 
 Dans beaucoup de langages, les nombres et autres types primaires ne sont
 pas des objets. Ruby suit ici la voie de Smalltalk, en donnant accès aux
@@ -112,7 +111,6 @@ l’opérateur plus (`+`). Mais si vous préférez utiliser une méthode
     
     y = 5.plus 6
     # y vaut maintenant 11
-{: .code .ruby-code}
 
 Tous les opérateurs de Ruby sont des méthodes pensées pour être aussi
 pratique que faire se peut, syntaxiquement parlant. Vous pouvez
@@ -136,7 +134,6 @@ respecter la voie tracée par Lisp<sup>[4](#fn4)</sup>. »
       %w[Google Yahoo MSN].map do |moteur|
         "http://www." + moteur.downcase + ".com"
       end
-{: .code .ruby-code}
 
 Dans le code ci-dessus, le bloc est délimité par la structure `do ...
 end`. La méthode `map` applique le bloc à la liste de mots fournie en
@@ -160,7 +157,6 @@ méthodes utilisant `each` pour faire des boucles.
     class MonTableau
       include Enumerable
     end
-{: .code .ruby-code}
 
 En général, les rubyistes préfèrent cette façon de faire à l’héritage
 multiple, qui est complexe et peut se révéler trop restrictif.

@@ -11,7 +11,6 @@ metod tanımlamamız gerekiyor!
     irb(main):011:1> puts "Hello World!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 `def h` kodu ile metod tanımlaması başlar. Bu Ruby’ye adı `h` olan bir
 metod tanıtımı (definition) başlattığımızı bildirir. Sonraki satır
@@ -30,7 +29,6 @@ belirtir.
     irb(main):014:0> h()
     Hello World!
     => nil
-{: .code .ruby-code}
 
 Pekala, bu kolaydı. Ruby’de metodları çağırmak için adlarını Ruby’ye
 söylemek yeterli. Eğer metod bir parametre almıyorsa tüm yapmanız
@@ -47,7 +45,6 @@ Eğer dünyaya değil de bir kişiye merhaba demek istersek ne olacak? Hemen
     irb(main):018:0> h("Matz")
     Hello Matz!
     => nil
-{: .code .ruby-code}
 
 Çalıştığını gördükten sonra neler olduğunu tekrar bir inceleyelim.
 
@@ -68,7 +65,6 @@ olduğundan emin olmak için kullanabilirsiniz:
     irb(main):023:0> h
     Hello World!
     => nil
-{: .code .ruby-code}
 
 Burda birkaç diğer şekil görünüyor. Biri metodu parantez kullanmadan
 çağırıyoruz. Parantezler keyfe bağlı kullanılır görsel olarak isterseniz
@@ -94,7 +90,6 @@ isteyebilirsiniz. Bir “Greeter” sınıfı oluşturalım.
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 Buradaki yeni kelime `class`. Bu Greeter adı verilen bir nesne ve içinde
 birkaç metod tanımlar. Ayrıca dikkat ederseniz `@name` bu sınıfın bir

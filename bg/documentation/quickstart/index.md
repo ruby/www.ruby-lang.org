@@ -26,13 +26,11 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Напишете : `"Hello World"`
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## Ruby току що ви се подчини !
 
@@ -44,7 +42,6 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
     irb(main):002:0> puts "Hello World"
     Hello World
     => nil
-{: .code .ruby-code}
 
 `puts` е метод, който позволява да отпечатате израз/текст/низ в Ruby. А
 какво тогава означава `=> nil`? Това е резултата от изпълнения израз.
@@ -56,24 +53,20 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Дотук добре, нека пробваме умножение и вдигане на квадрат:
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 В Ruby метода `**` е начин да повдигаме на степен. Следва пример с
 намиране на корен:
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Резултатът е верен, но какво значи Math.sqrt ? И по-точно, какво значи
 `Math`?
@@ -102,7 +95,6 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
     irb(main):008:0> b = 4 ** 2
     => 16
     irb(main):009:0> Math.sqrt(a+b) => 5.0
-{: .code .ruby-code}
 
 Леснотата на писане на калкулатора ни отклони от кода в началото –
 изписването на “Hello World”. За това, нека [прехвърлим отново фокуса си

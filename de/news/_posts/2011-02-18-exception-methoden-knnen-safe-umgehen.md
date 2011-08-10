@@ -31,7 +31,6 @@ beliebige *untainted* Strings wie folgt verändern:
     open($secret_path) do
       ...
     end
-{: .code .ruby-code}
 
 ### Betroffene Versionen
 

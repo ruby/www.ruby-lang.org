@@ -14,7 +14,6 @@ Bene, creiamo il nostro oggetto PersonaCordiale e usiamolo:
     irb(main):037:0> p.congeda
     Arrivederci Mario, a presto.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 Una volta che l’oggetto `p` è stato creato, ricorda che il nome è Mario.
 Ma cosa succede se vogliamo accedere direttamente al nome?
@@ -23,7 +22,6 @@ Ma cosa succede se vogliamo accedere direttamente al nome?
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 Nulla, non si può.
 
@@ -47,7 +45,6 @@ Quindi quanti metodi esistono per il l’oggetto PersonaCordiale?
         "clone", "public_methods", "respond_to?", "freeze",
         "congeda", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 Ci sono moltissimi metodi! Eppure ne avevamo definiti solo due: cosa sta
 succedendo? Questi sono tutti i metodi per il nostro oggetto
@@ -58,7 +55,6 @@ Dobbiamo dirgli di non elencare il metodi della sua classe genitore
 
     irb(main):040:0> PersonaCordiale.instance_methods(false)
     => ["saluta", "congeda"]
-{: .code .ruby-code}
 
 Ah, ora va meglio! Vediamo a quali metodi risponde la nostra classe:
 
@@ -68,7 +64,6 @@ Ah, ora va meglio! Vediamo a quali metodi risponde la nostra classe:
     => true
     irb(main):043:0> p.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 Bene, la nostra classe conosce `saluta` e `to_s` (che significa
 convertire “qualcosa” in una stringa, un metodo definito di default per
@@ -83,7 +78,6 @@ per permetterci di accedere alle variabili di un oggetto.
     irb(main):045:1>   attr_accessor :nome
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 In Ruby, puoi aprire una classe e modificarla. I cambiamenti vengono
 aggiunti a tutti gli oggetti che crei e sempre disponibili per gli
@@ -108,7 +102,6 @@ oggetti esistenti della classe. Quindi creiamo un nuovo oggetto e
     irb(main):054:0> p.saluta
     Ciao Francesca!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 Usando `attr_accessor` definiamo due nuovi metodi, `nome` per ricevere
 il valore e `nome=` per settarlo.
@@ -185,7 +178,6 @@ Per chiudere IRB, scrivi “quit”, “exit” o semplicemnte premi Control-D.
       adt.saluta
       adt.congeda
     end
-{: .code .ruby-code}
 
 Salva questo file come “ri20min.rb” ed eseguilo così “ruby ri20min.rb”
 Verrà mostrato qualcosa di simile:

@@ -63,7 +63,6 @@ sering** melihat kode yang mirip seperti ini di Ruby:
       # orang_ini disebut parameter blok
       puts orang_ini.nama
     end
-{: .code .ruby-code}
 
 Untuk info lebih lanjut tentang `each` (dan teman-temannya seperti
 `collect`, `find`, `inject`, `sort`, dan lain-lain.), lihat `ri
@@ -78,7 +77,6 @@ juga tetap punya *value*). Ini karena:
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### Symbol Bukan String
 
@@ -94,7 +92,6 @@ perbedaan berikut ini:
     irb(main):002:0> "joko".object_id == "joko".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
 Metode `object_id` mengembalikan identitas dari sebuah `Object`. Jika
 ada dua obyek memiliki `object_id` yang sama, maka mereka sebenarnya
@@ -128,7 +125,6 @@ perlakuan Anda terhadap obyek-obyek lain:
     KelasSaya = Class.new do
       attr_accessor :variabel_instan
     end
-{: .code .ruby-code}
 
 ### Konstanta
 
@@ -154,7 +150,6 @@ membingungkan, seperti ditunjukkan pada contoh berikut:
     def Konstanta
       11
     end
-{: .code .ruby-code}
 
 Sekarang `Konstanta` adalah 10, tetapi `Konstanta()` adalah 11.
 
@@ -172,7 +167,6 @@ dibuat dengan Ruby, banyak menggunakan trik ini. Contoh:
     keluarkan( :param_satu => 10, :param_dua => 42 )
     
     # => {:param_satu=>10, :param_dua=>42}
-{: .code .ruby-code}
 
 Ini dikarenakan Ruby otomatis mengubah parameter yang diberikan tersebut
 menjadi bentuk hash. (meskipun pemanggilannya tanpa menggunakan kurung
@@ -190,7 +184,6 @@ seperti list yang kosong, dianggap false. Perhatikan kode Python berikut
       print "0 is true"
     else:
       print "0 is false"
-{: .code .ruby-code}
 
 Ini akan print “0 is false”. Kode yang sama di Ruby:
 
@@ -200,7 +193,6 @@ Ini akan print “0 is false”. Kode yang sama di Ruby:
     else
       puts "0 is false"
     end
-{: .code .ruby-code}
 
 Print “0 is true”.
 
@@ -213,7 +205,6 @@ Pada kode Ruby berikut ini,
       def metode; true; end
       def metode_lain; false; end
     end
-{: .code .ruby-code}
 
 Anda mungkin berharap `metode_lain` adalah `public`. Tetapi tidak
 demikian. *Access modifier* `private` bersambung terus sampai akhir
@@ -229,7 +220,6 @@ lebih awal. Secara default, metode bersifat `public`\:
       # metode_lain adalah private
       def metode_lain; false; end
     end
-{: .code .ruby-code}
 
  `public`, `private` dan `protected` benar-benar merupakan metode, sehingga mereka bisa menerima parameter. Jika Anda melewatkan `Symbol` pada satu dari parameter, maka *visibility* metode diubah. ### Akses Metode
 
@@ -283,7 +273,6 @@ pemanggilan metode private.
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### Kelas Bersifat Terbuka
 
@@ -304,7 +293,6 @@ kode berikut:
     # 14 hours from 00:00 January 1st
     # jadi 14 jam dari jam 00:00 pada tanggal 1 Januari
     Time.mktime(2007, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### Nama Metode Deskriptif dan Menarik
 
@@ -344,7 +332,6 @@ tersebut tidak tersedia pada obyek-obyek yang lain dari kelas yang sama.
     # Sementara obyek-obyek yang lain tidak terpengaruh
     mobil_lain = Mobil.new
     mobil_lain.inspect # => Mobil murah
-{: .code .ruby-code}
 
 ### Metode method\_missing
 
@@ -371,7 +358,6 @@ dan banyak *library* yang melakukan hal yang sama. Contoh:
     # => Metode __ telah dipanggil, tetapi metode __ 
     # tidak berhasil ditemukan. Metode tersebut 
     # memiliki argument sebagai berikut: a, b, 10
-{: .code .ruby-code}
 
 Kode diatas hanya print detil tentang pemanggilan (call), tetapi Anda
 bisa dengan bebas menangani message dengan cara ini.
@@ -387,7 +373,6 @@ lain:
     1.+(2)
     # juga sebetulnya sama dengan penambahan ini :
     1.send "+", 2
-{: .code .ruby-code}
 
 ### Blok Bisa Diubah Menjadi Sebuah Object
 
@@ -403,7 +388,6 @@ contoh berikut:
     adder = blok { |a, b| a + b }
     # adder sekarang merupakan obyek Proc
     adder.class # => Proc
-{: .code .ruby-code}
 
 Anda juga dapat membuat blok diluar pemanggilan metode dengan memanggil
 `Proc.new` dengan blok atau pemanggilan metode `lambda`.
@@ -412,7 +396,6 @@ Ketika dibuat metode juga merupakan Object.
 
     method(:puts).call "puts adalah obyek!"
     # => puts adalah obyek!
-{: .code .ruby-code}
 
 ### Operator adalah *Syntactic Sugar* 
 
@@ -430,7 +413,6 @@ kelas Fixnum:
         self - other
       end
     end
-{: .code .ruby-code}
 
 Anda tidak membutuhkan `operator+` C++, dan seterusnya.
 

@@ -31,7 +31,6 @@ temps :
         puts "Hello #{@names}!"
       end
     end
-{: .code .ruby-code}
 
 Elle jette maintenant un coup d’œil au paramètre `@name` pour décider de
 la suite. S’il s’agit de l’absence de valeur signalée par `nil`, elle
@@ -53,7 +52,6 @@ Voyons d’un peu plus près cette fameuse itération :
     @names.each do |name|
       puts "Hello #{name}!"
     end
-{: .code .ruby-code}
 
 `each` est une méthode, un itérateur, qui travaille conjointement avec
 un bloc de code. Elle fait tourner ce bloc sur chaque élément récupéré
@@ -71,7 +69,6 @@ La plupart des autres langages utilisent un itérateur célèbre, la «
 boucle for », ce qui donne par exemple en C :
 
     for (i=0; i<number_of_elements i>
-{: .code .ruby-code}
 
 Ce qui fonctionne parfaitement, mais n’est pas spécialement élégant.
 Vous devez en effet définir une variable locale telle que `i`,
@@ -107,7 +104,6 @@ qui s’en moque totalement.
         puts "Goodbye #{@names}.  Come back soon!"
       end
     end
-{: .code .ruby-code}
 
 Cette méthode n’utilise pas `each`, mais la méthode `join` (si elle est
 comprise par `@names` ; sinon, elle écrit juste la valeur de `@names`,
@@ -133,7 +129,6 @@ des appels à cette classe, la manipulation d’instances… Il reste un seul
 point d’ombre :
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` est une variable « magique » qui contient le nom du fichier
 courant. `$0` contient quant à elle le nom du fichier utilisé pour

@@ -19,13 +19,11 @@ irb를 시작하십시오.
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 이제 irb 프롬프트에 “Hello World”라고 입력해 봅니다.
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## 당신의 첫 루비 코드가 실행되었습니다!
 
@@ -35,7 +33,6 @@ irb를 시작하십시오.
     irb(main):002:0> puts "Hello World" 
     Hello World 
     => nil
-{: .code .ruby-code}
 
 puts는 루비에서 출력을 할때 주로 사용하는 명령어입니다. ”=&gt; nil” 부분은 무엇일까요? 바루 우리가 입력한 루비
 코드가 리턴한 값이랍니다. puts 명령어는 언제나 nil을 리턴합니다. nil은 무(無)를 의미하는데, 즉 리턴하는 값이 없음을
@@ -47,26 +44,22 @@ irb는 계산기로 쓰기에도 무척 유용합니다.
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 3 더하기 2. 무척 쉽지요. 3 곱하기 2는 어떨까요? 다시 입력하는 대신에 위쪽 화살표키를 눌러보세요. 아마도 “3+2”가
 나올겁니다. 화살표키로 커서를 움직여서 ”+”를 “`*`“로 바꾸어 보세요.
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 이번에는 3의 제곱을 계산해보죠.
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 루비에서 “`**`“는 거듭제곱을 뜻합니다. 제곱근은 어떻게 구할까요?
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 무언가 새로운게 나왔군요. 뭐, 9의 제곱근은 잘 계산되었지만 말입니다. 우선 “Math”가 무엇인지 부터 보도록 하지요.
 
@@ -91,7 +84,6 @@ irb는 계산기로 쓰기에도 무척 유용합니다.
     => 16
     irb(main):009:0> Math.sqrt(a+b)
     => 5.0
-{: .code .ruby-code}
 
 이는 계산기로도 유용하겠지만, 이제 다시 [Hello World
 프로그램](/ko/documentation/quickstart/2/)으로 돌아가 보겠습니다.

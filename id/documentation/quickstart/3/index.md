@@ -14,7 +14,6 @@ Mari kita bikin obyek TukangSapa dan kita pakai:
     irb(main):015:0> t.say_bye
     Bye Arie, datang lagi ya.
     => nil</0x6b274>
-{: .code .ruby-code}
 
 Sekali obyek `t` dibuat, maka obyek `t` mengingat name adalah Arie. Hmm,
 bagaimana jika kita ingin mendapatkan nama saja langsung?
@@ -24,7 +23,6 @@ bagaimana jika kita ingin mendapatkan nama saja langsung?
     (irb):17: syntax error, unexpected tIVAR
             from (irb):17
             from :0
-{: .code .ruby-code}
 
 Tidak, caranya tidak bisa begitu.
 
@@ -51,7 +49,6 @@ Jadi metode-metode apa yang sebetulnya ada pada obyek TukangSapa?
     "extend", "to_s", "say_bye", "hash", "class", 
     "tainted?", "=~", "private_methods", "nil?", 
     "untaint", "is_a?"]
-{: .code .ruby-code}
 
 Wih. Metode-metodenya banyak ya. Padahal kita hanya mendefinisikan dua
 metode. Apa yang sebenarnya terjadi? Jadi ini barusan adalah **semua**
@@ -64,7 +61,6 @@ didefinisikan kelas induk (ancestor).
 
     irb(main):019:0> TukangSapa.instance_methods(false)
     => ["say_bye", "say_hai"]
-{: .code .ruby-code}
 
 Nah, begitu. Sekarang coba kita lihat metode yang mana dari obyek
 TukangSapa kita yang merespon siapa saja:
@@ -77,7 +73,6 @@ TukangSapa kita yang merespon siapa saja:
     => true
     irb(main):023:0> t.respond_to?('to_s')
     => true
-{: .code .ruby-code}
 
 Hm, jadi obyek mengetahui metode `say_hai`, dan metode `to_s` (artinya
 mengkonversi suatu obyek ke string, metode yang didefinisikan secara
@@ -93,7 +88,6 @@ menyediakan cara yang mudah untuk mengakses variabel obyek.
     irb(main):025:1>   attr_accessor :name
     irb(main):026:1> end
     => nil
-{: .code .ruby-code}
 
 Di Ruby, Anda dapat membuka kelas lagi dan memodifikasi kelas tersebut.
 Perubahan-perubahan tersebut akan hadir pada obyek baru yang Anda buat
@@ -119,7 +113,6 @@ property `@name`.
     irb(main):034:0> t.say_hai
     Hai Yohanes!
     => nil</0x5b040></0x5b040>
-{: .code .ruby-code}
 
 Dengan menggunakan `attr_accessor` kita sudah mendefinisikan dua metode
 baru untuk kita, `name` untuk mendapatkan (get) value, dan `name=` untuk
@@ -197,7 +190,6 @@ Untuk keluar dari IRB, ketik “quit”, “exit” atau tekan saja Control-D.
       mg.say_hai
       mg.say_bye
     end
-{: .code .ruby-code}
 
 Simpan file dengan nama “ri20min.rb”, dan jalankan dengan “ruby
 ri20min.rb”. Outputnya seharusnya menjadi sebagai berikut:

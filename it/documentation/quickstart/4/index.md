@@ -25,7 +25,6 @@ Il nostro metodo `saluta` è diventato un pochino più complicato.
         puts "Ciao #{@nomi}!"
       end
     end
-{: .code .ruby-code}
 
 Ora controlla la variabile di istanza `@nomi` per prendere una
 decisione. Se è nil, mostra tre puntini: senza nome non possiamo
@@ -42,7 +41,6 @@ Vediamo l’iterazione in modo più approfondito:
     @nomi.each do |nome|
       puts "Ciao #{nome}!"
     end
-{: .code .ruby-code}
 
 `each` è un metodo che accetta un bloccho di codice e lo ripete per ogni
 elemento nella lista, il codice tra `do` e `end` è il blocco che verrà
@@ -56,7 +54,6 @@ Molti altri linguaggi di programmazione esaminano una lista utilizzando
 il ciclo `for`, in C si ottiene qualcosa di simile:
 
     for (i=0; i<numero_di_elementi i>
-{: .code .ruby-code}
 
 Funziona ma non è molto elegante. C’è bisogno di una variabile come `i`,
 capire quanto è lunga la lista e creare una funzione da ripetere. In
@@ -84,7 +81,6 @@ gli errori. Tutti nascosti dagli occhi indiscreti degli utenti.
         puts "Arrivederci #{@nomi}. A presto!"
       end
     end
-{: .code .ruby-code}
 
 Il metodo `congeda` non usa `each`, ma controlla se `@nomi` risponde al
 metodo `join` e in tal caso viene utilizzato. Se non risponde al metodo
@@ -103,7 +99,6 @@ preoccupa di chiamare i metodi di questa classe. C’è qualcos’altro che
 dobbiamo vedere:
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` è una variabile “magica” che contiene il nome del file. `$0`
 è il nome del file utilizzato per avviare il programma. Questo controllo

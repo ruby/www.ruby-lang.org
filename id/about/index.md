@@ -72,7 +72,6 @@ Pendekatan murni berorientasi obyek terutama terlihat pada demonstrasi
 sedikit kode yang diberikan pada number.
 
     5.times { print "Kami *cinta* Ruby -- Ruby sungguh aduhai!" }
-{: .code .ruby-code}
 
 Di banyak bahasa-bahasa lain, number dan tipe primitif bukan obyek. Ruby
 mengikuti pengaruh bahasa Smalltalk dengan memberikan metode dan
@@ -98,7 +97,6 @@ dapat menambahkan metode tersebut pada kelas builtin `Numeric`.
     
     y = 5.plus 6
     # y sekarang adalah 11
-{: .code .ruby-code}
 
 Demi kemudahan, operator-operator Ruby adalah juga metode. Anda juga
 bisa mendefinisikan ulang operator.
@@ -119,7 +117,6 @@ ingin menghormati kultur Lisp di closure Ruby<sup>[4](#fn4)</sup>.”
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 Pada kode diatas, blok dijelaskan dalam bentuk `do ... end`. Metode
 `map` memberlakukan blok agar menerima array kata-kata (Google, Yahoo
@@ -144,7 +141,6 @@ setiap kelas yang mengimplementasikan metode `each` bisa mixin module
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 Secara umum, <abbr title="Matz telah mendeklarasikan pengguna Ruby
 disebut Rubyist">Rubyist</abbr> menganggap ini sebagai cara yang lebih

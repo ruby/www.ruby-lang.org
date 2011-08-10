@@ -12,7 +12,6 @@ nous fatiguer. Il va falloir définir une méthode.
     irb(main):011:1> puts "Hello World!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 Le mot-clé `def` a ici pour rôle de commencer la définition d’une
 méthode. Il dit tout simplement à Ruby que nous \[*attention !*\]
@@ -35,7 +34,6 @@ pour voir :
     irb(main):014:0> h()
     Hello World!
     => nil
-{: .code .ruby-code}
 
 Rien de très compliqué. Appeler une méthode en Ruby, c’est simplement
 dire son nom, au minimum. Si la méthode n’attend pas de paramètres pour
@@ -55,7 +53,6 @@ de la méthode `h`\:
     irb(main):018:0> h("Matz")
     Hello Matz!
     => nil
-{: .code .ruby-code}
 
 Ça fonctionne… mais pourquoi ? et comment ?
 
@@ -81,7 +78,6 @@ majuscule avec `capitalize`\:
     irb(main):023:0> h
     Hello World!
     => nil
-{: .code .ruby-code}
 
 D’autres petits ajouts ont eu lieu dans ce dernier bout de code. Tout
 d’abord, nous n’appelons plus la méthode avec des parenthèses autour du
@@ -110,7 +106,6 @@ dans la foulée créer une classe, “Greeter”.
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 Évidemment, la nouveauté la plus importante ici est le mot-clé `class`.
 Son rôle est de définir une nouvelle classe, en l’occurence `Greeter`,

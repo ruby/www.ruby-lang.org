@@ -60,7 +60,6 @@ verás muy frecuentemente código de este estilo:
       # Estamos dentro del bloque.
       # Trabaja con este_item.
     end
-{: .code .ruby-code}
 
 Para obtener más información sobre `each` (y sus amigos `collect`,
 `find`, `inject`, `sort`, etc.), ejecuta `ri Enumerable` (y después
@@ -74,7 +73,6 @@ incluso si ese valor es **nil**. Esto es posible:
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### Los symbols (símbolos) no son strings especiales
 
@@ -90,7 +88,6 @@ diferencia:
     irb(main):002:0> "jorge".object_id == "jorge".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
 El método `object_id` retorna la identidad de un objeto. Si dos objetos
 tienen el mismo `object_id`, son el mismo objeto (apuntan al mismo
@@ -122,7 +119,6 @@ cualquier otro objeto:
     MiClase = Class.new do
       attr_accessor :variable_de_instancia
     end
-{: .code .ruby-code}
 
 ### Constantes variables
 
@@ -147,7 +143,6 @@ ejemplo:
     def Constante
       11
     end
-{: .code .ruby-code}
 
 Ahora `Constante` vale 10, pero `Constante()` retorna 11.
 
@@ -162,7 +157,6 @@ entre otros, usa esto a discreción. Por ejemplo:
     end
     parametros_con_nombre( :param_uno => 10, :param_dos => 42 )
     # => {:param_uno=>10, :param_dos=>42}
-{: .code .ruby-code}
 
 ### La verdad universal
 
@@ -176,7 +170,6 @@ código Python (el ejemplo aplica también a otros lenguajes):
       print "0 es verdadero"
     else:
       print "0 es falso"
-{: .code .ruby-code}
 
 Esto imprimirá “0 es falso”. El equivalente en Ruby:
 
@@ -186,7 +179,6 @@ Esto imprimirá “0 es falso”. El equivalente en Ruby:
     else
       puts "0 es falso"
     end
-{: .code .ruby-code}
 
 Imprime “0 es verdadero”.
 
@@ -199,7 +191,6 @@ En el siguiente código Ruby,
       def un_metodo; true; end
       def otro_metodo; false; end
     end
-{: .code .ruby-code}
 
 Puede ser que esperes que `otro_metodo` sea de alcance público. Esto no
 es así. El modificador de acceso ‘private’ continúa hasta el fin del
@@ -215,7 +206,6 @@ ocurra primero. Por defecto, los métodos son públicos:
       # otro_metodo es privado
       def otro_metodo; false; end
     end
-{: .code .ruby-code}
 
  `public`, `private` y `protected` en realidad son métodos, así que pueden recibir parámetros. Si pasas un símbolo a uno de ellos, la visibilidad de ese método es alterada. ### Acceso a los métodos
 
@@ -273,7 +263,6 @@ Ejemplo, adaptado del [Ruby FAQ][1]\:
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### Las clases están abiertas
 
@@ -292,7 +281,6 @@ tiempo y los horarios en `Fixnum`. Mira:
       
     # 14 horas desde las 00:00 del 1ro de enero del 2006
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### Nombres de métodos graciosos
 
@@ -330,7 +318,6 @@ el objeto en el que los defines.
     # Otros objetos no son afectados
     otro_auto = Automovil.new
     otro_auto.inspect # => Auto barato
-{: .code .ruby-code}
 
 ### Métodos faltantes
 
@@ -351,7 +338,6 @@ Aquí tienes un ejemplo:
     __ :a, :b, 10
     # => El método __ fue invocado, pero no existe. Tiene estos
     # argumentos: a, b, 10
-{: .code .ruby-code}
 
 Este código sólo imprime los detalles de la invocación, pero eres libre
 de manejar el mensaje como te parezca más apropiado.
@@ -366,7 +352,6 @@ Una invocación a un método en realidad es un **mensaje** a otro objeto:
     1.+(2)
     # Que es lo mismo que esto:
     1.send "+", 2
-{: .code .ruby-code}
 
 ### Los bloques son objetos, sólo que todavía no lo saben
 
@@ -382,7 +367,6 @@ así:
     sumador = block { |a, b| a + b }
     # sumador ahora es un objeto Proc
     sumador.class # => Proc
-{: .code .ruby-code}
 
 También puedes crear bloques fuera de las invocaciones a métodos,
 utilizando Proc.new con un bloque o llamando al método `lambda`.
@@ -391,7 +375,6 @@ Similarmente, los métodos también pueden ser objetos:
 
     method(:puts).call "¡puts es un objeto!"
     # => ¡puts es un objeto!
-{: .code .ruby-code}
 
 ### Los operadores son comodidades sintácticas
 
@@ -405,7 +388,6 @@ métodos. Puedes, por ejemplo, redefinir el método <tt>Fixnum#+</tt>\:
         self - otro
       end
     end
-{: .code .ruby-code}
 
 No necesitas el`operator+` de C++, etc.
 

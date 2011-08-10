@@ -64,7 +64,6 @@ obiektowe podejście Rubiego jest zazwyczaj demonstrowane przy użyciu
 fragmentu kodu, który wywołuje czynność na liczbie.
 
     5.times { print "We *love* Ruby -- it's outrageous!" }
-{: .code .ruby-code}
 
 W wielu językach, liczby i inne typy podstawowe nie są obiektami. Ruby
 podąża za Smalltalkiem udostępniając metody i zmienne instancji
@@ -91,7 +90,6 @@ stosowną metodę do klasy `Numeric`.
     
     y = 5.plus 6
     # y wynosi teraz 11
-{: .code .ruby-code}
 
 Operatory Rubiego są [lukrem składniowym][2] dla metod, metody również
 możesz przedefiniować.
@@ -112,7 +110,6 @@ Lispa<sup>[4](#fn4)</sup>.”
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 W powyższym kodzie, blok jest opisany pomiędzy słowami `do ... end`.
 Metoda `map` aplikuje zadany blok do podanej listy słów (Google Yahoo
@@ -134,7 +131,6 @@ metod, które wykorzystują metodę `each` do iterowania po elementach.
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 Programiści języka Ruby uznają tą technikę za prostszą niż wielokrotne
 dziedziczenie—które może być skomplikowane i nakłada wiele ograniczeń.

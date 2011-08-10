@@ -70,7 +70,6 @@ Aktionen *Methoden*. Rubys rein objektorientierter Ansatz wird
 Zahl aufgerufen wird:
 
     5.times { print "Wir *lieben* Ruby -- es ist ungeheuerlich!" }
-{: .code .ruby-code}
 
 In vielen Sprachen sind Zahlen und andere primitive Typen keine Objekte.
 Ruby folgt dem Einfluss von Smalltalk und gibt all ihren Typen Methoden
@@ -96,7 +95,6 @@ zu Rubys eingebauter Klasse `Numeric` hinzufügen.
     
     y = 5.plus 6
     # y ist jetzt 11
-{: .code .ruby-code}
 
 Rubys Operatoren sind syntaktischer Zucker für Methoden; man kann sie
 ebenfalls umdefinieren.
@@ -118,7 +116,6 @@ bewahren<sup>[4](#fn4)</sup>.”
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 Im obigen Quelltext steht der Block zwischen `do` und `end`. Die Methode
 `map` wendet den Block auf die gegebene Liste von Namen an. Viele andere
@@ -139,7 +136,6 @@ neue Methoden, die auf `each` aufbauen (wie `map`).
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 Im Allgemeinen halten Rubyisten Mixins für klarer als Mehrfachvererbung,
 die komplex und einschränkend sein kann.

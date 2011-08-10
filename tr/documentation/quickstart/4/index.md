@@ -26,7 +26,6 @@ Bizim `say_hi` metodunda biraz kurnazlıklar mevcut:
         puts "Hello #{@names}!"
       end
     end
-{: .code .ruby-code}
 
 Bu betik nasıl cevap vereceğine karar vermek için `@names` değişkenine
 bakıyor. Eğer değişken boşsa üç nokta koyuyor, selamlanacak kimse yoksa
@@ -45,7 +44,6 @@ Haydi bu yineleyiciyi daha yakından inceleyelim:
     @names.each do |name|
       puts "Hello #{name}!"
     end
-{: .code .ruby-code}
 
 `each` metodu arkasından gelen kod bloğunu listenin her elemanı için
 çalıştırır. `do` ve `end` arasında kod bloğu yer alır. Liste elemanları
@@ -60,7 +58,6 @@ Birçok diğer programlama dilinde bir liste `for` döngüsü ile işlenir,
 C’de şuna benzer bir kod olur:
 
     for (i=0; i<number_of_elements i>
-{: .code .ruby-code}
 
 Bu kod çalışıyor ama şık bir görüntüsü yok. `i` gibi bir değişken
 üretmek zorundasınız, listenin uzunluğunu bulmak zorundasınız ve liste
@@ -91,7 +88,6 @@ from the cares of the user.
         puts "Goodbye #{@names}.  Come back soon!"
       end
     end
-{: .code .ruby-code}
 
 `say_bye` metodu `each` kullanmaz onun yerine `@names` değişeninin
 `join` metoduna cevap vermesini sınar ve kullanır. Diğer durumda liste
@@ -108,7 +104,6 @@ sınıfın kullanılmasından ibaret. Dikkatinizi çekecek son bir nokta
 kaldı, o da şu:
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` sihirli bir değişkendir ve bulunduğu dosyanın ismini içerir.
 `$0` ise bu programı çağıran dosyanın ismini içerir. Buradaki koşul ile

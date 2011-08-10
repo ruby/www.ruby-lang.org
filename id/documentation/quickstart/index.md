@@ -24,7 +24,6 @@ Buka IRB.
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Ok, sekarang irb sudah dibuka. Sekarang mau apa?
 
@@ -32,7 +31,6 @@ Ketik ini: `"Hello World"`
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## Ruby Mematuhi Anda!
 
@@ -45,7 +43,6 @@ kita perlu tambahkan sedikit:
     irb(main):002:0> puts "Hello World" 
     Hello World 
     => nil
-{: .code .ruby-code}
 
 `puts` merupakan perintah dasar untuk mencetak (print) sesuatu di Ruby.
 Tetapi kemudian apa artinya `=> nil` ? Artinya adalah result dari
@@ -58,7 +55,6 @@ Dengan IRB kita sudah cukup mempunyai kalkulator dasar:
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Tiga tambah dua. Cukup mudah. Bagaimana dengan tiga *kali* dua? Anda
 bisa mencoba dengan langsung mengetikkannya, cukup pendek, tetapi Anda
@@ -70,13 +66,11 @@ menggantinya dengan tanda `*`.
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 Lanjut, mari kita coba tiga kuadrat:
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 Di Ruby, `**` merupakan cara Anda mengatakan “kepada kekuatan dari”.
 Tetapi bagaimana jika Anda ingin melakukannya dengan cara lain dan
@@ -84,7 +78,6 @@ mendapatkan akar dari suatu bilangan?
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Ok, tunggu dulu, bagaimana yang terakhir itu? Jika Anda menebak, “Kode
 tersebut mencari sqrt (akar) dari 9”, berarti Anda benar. Tetapi mari
@@ -117,7 +110,6 @@ matematika ini? Caranya assign hasilnya ke variabel.
     => 16
     irb(main):009:0> Math.sqrt(a+b)
     => 5.0
-{: .code .ruby-code}
 
 Sehebat kalkulator, kita sudah pergi dari message tradisional `Hello
 World` yang biasanya selalu saja kalau ada tutorial untuk pemula

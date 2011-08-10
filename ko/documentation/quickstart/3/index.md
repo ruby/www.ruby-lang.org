@@ -14,7 +14,6 @@ lang: ko
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 “g” 객체가 만들어진 이후에는 “Pat”이란 이름을 기억합니다. 직접 이름을 접근할 수 있냐구요?
 
@@ -22,7 +21,6 @@ lang: ko
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 보다시피 가능하지 않습니다.
 
@@ -42,7 +40,6 @@ lang: ko
         "clone", "public_methods", "respond_to?", "freeze",
         "say_bye", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 메서드가 상당히 많은 것을 알 수 있습니다. 우리가 정의한 메서드는 2개에 불과한데 어떻게 된 것일까요? 위의 리스트는
 “Greeter” 클래스 자체의 메서드 뿐만 아니라 모든 부모 클래스의 메서드도 포함하고 있기 때문입니다. “false”를 인자로
@@ -50,7 +47,6 @@ lang: ko
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["say_bye", "say_hi"]
-{: .code .ruby-code}
 
 우리의 “Greeter” 객체가 어떤 메서드에 응답하는지를 개별적으로 확인하는 것도 가능합니다.
 
@@ -60,7 +56,6 @@ lang: ko
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 즉 “g” 객체는 “say\_hi”라는 이름의 메서드를 가지고 있고 “to\_s”라는 이름의 메서드도 가지고 있지만,
 “name”이란 이름의 메서드에 응답하지는 않습니다.
@@ -74,7 +69,6 @@ lang: ko
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 루비에서는 클래스를 언제나 열어서 정의를 변경할 수 있습니다. 새로운 객체를 만들어서 ”@name”에 접근해봅시다.
 
@@ -96,7 +90,6 @@ lang: ko
     irb(main):054:0> g.say_hi
     Hi Betty!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 “attr\_accessor”은 두개의 메서드를 새로 정의하는데, “name”은 객체변수의 값에 접근하기 위해서이고
 “name=”은 객체변수의 값을 변경하기 위해서입니다.
@@ -169,7 +162,6 @@ IRB에서 빠져나오기 위해서는 “quit” 또는 “exit”이라고 입
       mg.say_hi
       mg.say_bye
     end
-{: .code .ruby-code}
 
 위의 파일을 “ri20min.rb”로 저장을 하고, “ruby ri20min.rb”라고 입력해서 실행을 시킵니다. 결과는 다음과
 같아야 합니다.
@@ -187,7 +179,6 @@ IRB에서 빠져나오기 위해서는 “quit” 또는 “exit”이라고 입
     back soon!
     ...
     ...
-{: .code .ruby-code}
 
 이번 예제에는 새로운 내용들이 여럿 있으므로 [다음에서](/ko/documentation/quickstart/4/) 하나씩 자세히
 살펴보도록 합시다.

@@ -23,7 +23,6 @@ Apri la shell interattiva di Ruby (IRB).
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Perfetto, ora è aperta… e adesso?
 
@@ -31,7 +30,6 @@ Prova a scrivere `"Ciao Mondo"`
 
     irb(main):001:0> "Ciao Mondo"
     => "Ciao Mondo"
-{: .code .ruby-code}
 
 ## Ruby ti ha obbedito!
 
@@ -44,7 +42,6 @@ in più:
     irb(main):002:0> puts "Ciao Mondo" 
     Ciao Mondo 
     => nil
-{: .code .ruby-code}
 
 `puts` è il comando base per stampare a schermo qualcosa, in Ruby.
 Invece `=> nil` in questo caso è il risultato dell’espressione, dal
@@ -56,7 +53,6 @@ IRB si può usare come una calcolatrice:
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Tre più due è abbastanza semplice dopotutto. Così come tre per due, per
 esempio: potresti scriverlo direttamente in IRB, ma è anche possibile
@@ -66,20 +62,17 @@ visualizzata, nel cui caso è solamente sufficiente sostituire `+` con
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 Ora proviamo a calcolare il quadrato di tre:
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 In Ruby `**` rappresenta l’operatore per calcolare le potenze. Mentre
 per calcolare una radice quadrata si fa così:
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Già, funziona, ma che cosa è successo? E in particolare che cos’è
 `Math`?
@@ -109,7 +102,6 @@ assegnarlo ad una variabile:
     => 16
     irb(main):009:0> Math.sqrt(a+b)
     => 5.0
-{: .code .ruby-code}
 
 Sebbene tutto questo sia utile ai fini della nostra “calcolatrice”, ci
 stiamo allontanando droppo dal messaggio `Ciao Mondo` usato in tutti i

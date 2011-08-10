@@ -28,7 +28,6 @@ bisa dipakai agar proses hidup lebih sejahtera.
     email.match(/(x)/)[1]         # => NoMethodError [:(]
     email[/(x)/, 1]               # => nil
     email[/([bcd]).*?([fgh])/, 2] # => “g”
-{: .code .ruby-code}
 
 **2 – Shortcut buat Array#join**
 
@@ -39,7 +38,6 @@ buat string ketimbang memakai Array#join!
 
     %w{ariekeren lagi ngetes} * ", "          # => "ariekeren, lagi, ngetes"
     h = { :name => "ArieKeren“, :age => 27 }h.map { |i| i * "=" } * "\n"              # => “age=27\nname=ArieKeren”
-{: .code .ruby-code}
 
 **3 – Cara Cepat Memformat Angka Desimal**
 
@@ -49,7 +47,6 @@ dengan formatting interpolation:
 
     duit = 9.5
     "%.2f" % duit # => “9.50″
-{: .code .ruby-code}
 
 **4 – Cara Cepat Mengapit Teks**
 
@@ -57,14 +54,12 @@ Teknik formatting interpolation dari nomor ketiga keluar lagi, kali ini
 adalah bagaimana menyisipkan suatu string ke string yang lain:
 
     "[%s]" % "stringnya pindah doang" # => “[stringnya pindah doang]”
-{: .code .ruby-code}
 
 Anda juga bisa menggunakan elemen-elemen dari array untuk mengganti
 penempatan string tersebut:
 
     x = %w{p ketemulagi p}
     "%s%s>" % x # => “ketemulagi"
-{: .code .ruby-code}
 
 **5 – Menghapus direktori beserta seluruh isinya**
 
@@ -74,7 +69,6 @@ direktori berikut seluruh isinya:
 
     require 'fileutils'
     FileUtils.rm_r 'somedir'
-{: .code .ruby-code}
 
 Hati-hati kalau Anda menggunakan cara ini!
 
@@ -91,7 +85,6 @@ Contah dengan Array:
     b = %w{c d}
     [ a + b ]   # => [[”a”, “b”, “c”, “d”]]
     [ *a + b ]  # => [”a”, “b”, “c”, “d”]
-{: .code .ruby-code}
 
 Contoh dengan Hash:
 
@@ -103,7 +96,6 @@ Contoh dengan Hash:
     
     [*a]
     # => [[:name, "ArieKeren"], [:age, 27]]
-{: .code .ruby-code}
 
 Contoh dengan tangkapan parameter paralel:
 
@@ -115,7 +107,6 @@ Contoh dengan tangkapan parameter paralel:
     
     a.values_at(*b)
     # => ["a", "f", "g"]
-{: .code .ruby-code}
 
 **7 – Persingkat definisi variabel lokal**
 
@@ -124,8 +115,7 @@ Daripada mendefinisikan variabel lokal dengan beragam konten awal
 bisa langsung mendefinisikan variabel lokal “sekaligus” ketika operasi
 sedang berlangsung:
 
-    (z ||= []) 
-{: .code .ruby-code}
+    (z ||= [])
 
 **8 – Penggunaan yang-bukan-string maupun yang-bukan-simbol sebagai hash
 key**
@@ -141,7 +131,6 @@ dahsyat):
     
     is[10 > 5]
     # => “Yes”
-{: .code .ruby-code}
 
 **9 – Gunakan ‘and’ dan ‘or’ untuk mengelompokkan operasi satu baris**
 
@@ -152,8 +141,7 @@ yang pendek-pendek:
 
     queue = []
     %w{hello x world}.each do |word|
-      queue 
-{: .code .ruby-code}
+      queue
 
 **10 – Menentukan eksekusi kode**
 
@@ -166,7 +154,6 @@ atau tidak:
     if __FILE__ == $0
       # Do something.. run tests, call a method, etc. We're direct.
     end
-{: .code .ruby-code}
 
 **11 – Mempercepat assignment sekaligus (mass assignment)**
 
@@ -175,7 +162,6 @@ awal-awal ya, tetapi adalah sesuatu yang amazing dan menyenangkan betapa
 jarang trik ini digunakan:
 
     a, b, c, d = 1, 2, 3, 4
-{: .code .ruby-code}
 
 Trik ini bisa dipakai di banyak kasus seperti menangkap parameter
 argumen suatu metode yang berupa array dengan tanda \* (bintang) :
@@ -183,7 +169,6 @@ argumen suatu metode yang berupa array dengan tanda \* (bintang) :
     def my_method(*args)
       a, b, c, d = args
     end
-{: .code .ruby-code}
 
 **12 – Gunakan range daripada perbandingan rumit untuk angka**
 
@@ -196,12 +181,10 @@ Tidak ada lagi kode omong kosong seperti if x &gt; 1000 &amp;&amp; x
             when 1980..1989: "Delapanpuluhan"
             when 1990..1999: "Sembilanpuluhan"
           end
-{: .code .ruby-code}
 
 **13 – Gunakan Enumeration untuk menghindari kode-kode berulang**
 
     %w{rubygems daemons eventmachine}.each { |x| require x }
-{: .code .ruby-code}
 
 **14 – Operator Ternary**
 
@@ -214,7 +197,6 @@ tetapi terkadang bisa membuat banyak hal menjadi singkat dan padat.
     
     # Atau.. bisa juga digunakan untuk assignment yang bersandar pada hasil operator ternary
     LOG.sev_threshold = ENVIRONMENT == :development ? Logger::DEBUG : Logger::INFO
-{: .code .ruby-code}
 
 **15 – Operator Ternary Bersarang (Nested Ternary Operators)**
 
@@ -225,7 +207,6 @@ hanya urusan return obyek saja sama seperti banyak obyek lain di Ruby.
     qty == 0 ? 'none' : qty == 1 ? 'one' : 'many'
     # Hanya sebagai ilustrasi saja supaya tidak bingung:
     (qty == 0 ? 'none' : (qty == 1 ? 'one' : 'many'))
-{: .code .ruby-code}
 
 **16 – Maksimalkan penggunaan fitur bawaan logis di Ruby**
 
@@ -240,7 +221,6 @@ berikut:
         return true
       end
     end
-{: .code .ruby-code}
 
 Mungkin kita bisa saja menggunakan operator ternary untuk improve?
 
@@ -248,7 +228,6 @@ Mungkin kita bisa saja menggunakan operator ternary untuk improve?
       # Jangan sekali-sekali menaruh false dan true pada operator ternary!!
       x % 2 == 0 ? false : true
     end
-{: .code .ruby-code}
 
 Ya, kode barusan tadi memang lebih pendek, dan saya sering melihat
 pattern seperti itu, padahal sebenarnya Anda seharusnya bisa selangkah
@@ -259,7 +238,6 @@ comparison Ruby yang berupa true maupun false langsung!
       # Gunakan hasil logis yang sudah disediakan Ruby secara otomstis untuk Anda..
       x % 2 != 0
     end
-{: .code .ruby-code}
 
 **17 – Perhatikan seluruh exception backtrace**
 
@@ -269,14 +247,12 @@ comparison Ruby yang berupa true maupun false langsung!
     rescue => exception
       puts exception.backtrace
     end
-{: .code .ruby-code}
 
 **18 – Manfaatkan obyek tunggal DAN array agar dapat dienumerasikan**
 
     [*items].each do |item|
       # …
     end
-{: .code .ruby-code}
 
 **19 – Rescue yang berada dalam blok tidak perlu diapit ‘begin’**
 
@@ -292,7 +268,6 @@ comparison Ruby yang berupa true maupun false langsung!
     rescue
       # …
     end
-{: .code .ruby-code}
 
 **20 – Komentar format blok**
 
@@ -302,14 +277,12 @@ dengan pagar ataupun menggunakan blok begin dan end:
     puts "x"
     =begin  ini adalah blok komentar  Anda dapat menaruh apa saja yang Anda suka disini!  puts “y”=end
     puts "z"
-{: .code .ruby-code}
 
 **21 – Rescue satu baris**
 
     h = { :age => 10 }
     h[:name].downcase                         # ERROR
     h[:name].downcase rescue "No name"        # => “No name”
-{: .code .ruby-code}
 
 Jika Anda ingin mem-posting daftar trik-trik Ruby di blog Anda, kirimkan
 trackback kesini atau berkomentarlah lewat media milis ID Ruby maupun

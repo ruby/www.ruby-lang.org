@@ -51,7 +51,6 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 코드로 대표되곤 한다.
 
     5.times { print "우리는 루비를 *사랑*해요! 너무 멋져요!" }
-{: .code .ruby-code}
 
 많은 언어에서 숫자는 원시 타입이지 객체는 아니다. 하지만 루비는 스몰토크의 영향을 받아 모든 형태의 것에 메서드와 인스턴스
 변수를 부여한다. 이는 모든 곳에서 일관되게 적용되므로 루비 사용법을 쉽게 해준다.
@@ -73,7 +72,6 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
     
     y = 5.plus 6
     # 이제 y는 11이 되었다
-{: .code .ruby-code}
 
 루비의 연산자는 메서드를 이용한 문법 단축에 불과하다. 물론 이 부분도 재정의할 수 있다.
 
@@ -90,7 +88,6 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 위 예제에서 블럭은 `do ... end` 문법 구조에 기술되었다. `map` 메서드는 주어진 단어 리스트에 블럭을 적용한다.
 이처럼 루비의 다른 메서드들도 그 동작 중 일부를 자신의 블럭으로 채워넣을 수 있도록 개발자에게 열린 구조를 제공하고 있다.
@@ -106,7 +103,6 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 대부분 루비스트들은 위와 같은 기능이 복잡하기만하고 제한적인 다중 상속보다 훨씬 간결한 방법이라고 보고 있다.
 

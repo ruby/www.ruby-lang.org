@@ -21,7 +21,6 @@ Ruby 附帶了一支程式可以讓你即時看到執行 Ruby 敘述的結果。
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Ok，打開了，現在怎麼辦？
 
@@ -29,7 +28,6 @@ Ok，打開了，現在怎麼辦？
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## 讓 Ruby 聽話!
 
@@ -39,7 +37,6 @@ Ok，打開了，現在怎麼辦？
     irb(main):002:0> puts "Hello World"
     Hello World
     => nil
-{: .code .ruby-code}
 
 `puts` 是 Ruby 的基本輸出指令。但是什麼是 `=> nil` 呢? 那是那一行敘述的執行結果。 `puts` 總是回傳
 nil，nil 在 Ruby 中表示一個絕對的空值。
@@ -50,26 +47,22 @@ nil，nil 在 Ruby 中表示一個絕對的空值。
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 三加二，夠簡單了。那怎麼三乘二呢? 你可以試試，一點都不難，你也能夠隨意輸入數字試試。試著按按看 **上** 它會顯示上一行的
 `3+2`，然後你可以往左移動到 `+` 更改成 `*` 乘號。
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 接下來，讓我們試試看三的平方：
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 在 Ruby 中 `**` 是 “次方” 的意思。但是如果你想開根號呢?
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 等一下，上面那是什麼? 如果你想說：”它是 9 的平方根” 那就對了。讓我們來仔細看一下。首先，什麼是 `Math`?
 
@@ -91,7 +84,6 @@ nil，nil 在 Ruby 中表示一個絕對的空值。
     irb(main):008:0> b = 4 ** 2
     => 16
     irb(main):009:0> Math.sqrt(a+b) => 5.0
-{: .code .ruby-code}
 
 儘管這是一個不錯的計算機，但我們將逐漸脫離基本的 `Hello World`，[讓我們繼續吧](2/)。
 

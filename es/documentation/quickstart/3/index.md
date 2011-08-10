@@ -14,7 +14,6 @@ Ahora vamos a crear y usar un objeto anfitrión:
     irb(main):037:0> a.decir_adios
     Adiós Juan, vuelve pronto.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 Una vez que el objeto `a` es creado, nos recuerda que el nombre es Juan.
 Mmm, ¿y si queremos acceder al nombre directamente?
@@ -23,7 +22,6 @@ Mmm, ¿y si queremos acceder al nombre directamente?
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 No, no podemos.
 
@@ -48,7 +46,6 @@ Entonces, ¿qué métodos están disponibles para los objetos Anfitrion?
         "clone", "public_methods", "respond_to?", "freeze",
         "decir_adios", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 Bien. Eso es un montón de métodos. Nosotros sólo definimos dos métodos.
 ¿Qué es lo que está sucediendo? Bueno, estos son **todos** los métodos
@@ -60,7 +57,6 @@ no queremos los métodos definidos por sus ancestros.
 
     irb(main):040:0> Anfitrion.instance_methods(false)
     => ["decir_adios", "decir_hola"]
-{: .code .ruby-code}
 
 Ah, hay más cosas como esa. Veamos a qué métodos puede responder nuestro
 objeto anfitrión:
@@ -71,7 +67,6 @@ objeto anfitrión:
     => true
     irb(main):043:0> a.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 Así que, sabe `decir_hola`, y `to_s` (que significa “convertir algo en
 un string”, un método que está definido por defecto para todos los
@@ -86,7 +81,6 @@ una forma fácil para permitir acceder a las variables de un objeto.
     irb(main):045:1>   attr_accessor :nombre
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 En Ruby, puedes volver a abrir una clase y modificarla. Eso no cambia
 objetos que ya existan, pero afecta a los nuevos objetos que puedas
@@ -111,7 +105,6 @@ crear. Así que vamos a crear un nuevo objeto y juguemos con su propiedad
     irb(main):054:0> a.decir_hola
     Hola Matilde
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 El uso de `attr_accessor` determinó que se definan dos nuevos métodos
 por nosotros, `nombre` para obtener el valor, y `nombre=` para
@@ -193,7 +186,6 @@ Control-D.
       ma.decir_hola
       ma.decir_adios
     end
-{: .code .ruby-code}
 
 Guarda este archivo como “ri20min.rb”, y ejecútalo con “ruby
 ri20min.rb”. El resultado debería ser:

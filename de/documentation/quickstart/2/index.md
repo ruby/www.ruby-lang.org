@@ -11,7 +11,6 @@ Finger wund zu tippen? Wir definieren eine Methode!
     irb(main):011:1> puts "Hallo, Welt!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 Mit dem Code `def h` beginnt man die Methodendefinition. Er teilt Ruby
 mit, dass wir eine Methode definieren, deren Name `h` ist. Die nächste
@@ -31,7 +30,6 @@ Rufen wir nun die Methode ein paar Mal auf:
     irb(main):014:0> h()
     Hallo, Welt!
     => nil
-{: .code .ruby-code}
 
 So einfach ist das also! Man ruft eine Methode auf, indem man Ruby
 einfach ihren Namen nennt. Wenn die Methode keine Parameter hat, ist das
@@ -50,7 +48,6 @@ Name als Parameter akzeptiert wird:
     irb(main):018:0> h("Matz")
     Hallo, Matz!
     => nil
-{: .code .ruby-code}
 
 Es funktioniert also … aber sehen wir uns genauer an, was hier vor sich
 geht.
@@ -74,7 +71,6 @@ einem Großbuchstaben anfängt:
     irb(main):023:0> h
     Hallo Welt!
     => nil
-{: .code .ruby-code}
 
 Hier kann man noch weitere Tricks beobachten. Einer davon ist, dass wir
 die Methode wieder ohne Klammern aufrufen. Wenn es also offensichtlich
@@ -102,7 +98,6 @@ Dafür erzeugen wir am besten ein Objekt. Lass uns also eine Klasse
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 Das neue Schlüsselwort hier ist `class`. Damit definieren wir eine neue
 Klasse namens “Greeter” und eine gewisse Anzahl von Methoden für diese

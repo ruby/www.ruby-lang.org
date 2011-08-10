@@ -14,7 +14,6 @@ lang: zh_TW
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 一旦建立了 `g` 物件，它就會記得它的名字是 Pat。嗯，但是我們如何拿到這個名字的值呢?
 
@@ -22,7 +21,6 @@ lang: zh_TW
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 啊，這樣不行。
 
@@ -44,7 +42,6 @@ lang: zh_TW
         "clone", "public_methods", "respond_to?", "freeze",
         "say_bye", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 哇。有這麼多。我們不是只定義了兩個方法，怎麼回事呢? 這裡列出的是**所有** Greeter
 物件的方法，因此也包括了它所繼承的類別的方法。如果我們只需要 Greeter 自己的方法，可以傳入一個 **false**
@@ -52,7 +49,6 @@ lang: zh_TW
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["say_bye", "say_hi"]
-{: .code .ruby-code}
 
 看起來好多了。讓我們看看 greeter 物件對哪些方法有反應?
 
@@ -62,7 +58,6 @@ lang: zh_TW
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 它知道 `say_hi` 和 `to_s` (意思是轉換成字串，這是每個物件都有的方法)，但是不知道 `name` 這個方法。
 
@@ -74,7 +69,6 @@ lang: zh_TW
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 在 Ruby
 裡你可以再度打開一個類別然後修改它。這個改變會對之後產生的物件，甚至是已經產生的物件產生即時效果。所以，我們來建立一個新的物件試試看
@@ -98,7 +92,6 @@ lang: zh_TW
     irb(main):054:0> g.say_hi
     Hi Betty!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 `attr_accessor` 會定義兩個新的方法，`name` 用來取值，而 `name=` 用來給值。
 
@@ -172,7 +165,6 @@ lang: zh_TW
       mg.say_hi
       mg.say_bye
     end
-{: .code .ruby-code}
 
 把這個檔案存成 “ri20min.rb”，然後輸入 “ruby ri20min.rb” 來執行它。您應該可以看到輸出是：
 

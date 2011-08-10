@@ -70,7 +70,6 @@ como *métodos*. La orientación a objetos pura de Ruby se suele demostrar
 con un simple código que aplica una acción a un número.
 
     5.times { print "Nos *encanta* Ruby -- ¡es fuera de serie!" }
-{: .code .ruby-code}
 
 En muchos lenguajes, los números y otros tipos primitivos no son
 objetos. Ruby sigue la influencia del lenguaje Smalltalk pudiendo poner
@@ -97,7 +96,6 @@ prefieres usar la palabra *sumar*, puedes agregar un método llamado
     
     y = 5.sumar 6
     # ahora y vale 11
-{: .code .ruby-code}
 
 Los operadores de Ruby son simples conveniencias sintácticas para los
 métodos. Los puedes redefinir como y cuando quieras.
@@ -119,7 +117,6 @@ Lisp<sup>[4](#fn4)</sup>”.
       %w[Google Yahoo MSN].map do |motor|
         "http://www." + motor.downcase + ".com"
       end
-{: .code .ruby-code}
 
 En este código, el bloque está descrito entre la construcción `do ...
 end`. El método `map` aplica el bloque a la lista de palabras provista.
@@ -142,7 +139,6 @@ conjunto de métodos que usan `each` para recorrer sus elementos.
     class MiArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 En general, los Rubyistas ven esto como una forma mucho más clara de
 herencia múltiple, que es compleja e incluso puede ser restrictiva.

@@ -47,7 +47,6 @@ Ruby vedrai spesso costrutti come:
       # Dentro il blocco:
       # facciamo qualcosa con questo_elemento
     end
-{: .code .ruby-code}
 
 Per maggiori informazioni su `each` e simili (`collect`, `find`,
 `inject`, `sort`, ecc.) vedi `ri Enumerable` (e poi <tt>ri
@@ -61,7 +60,6 @@ valore, anche se tale valore è nullo (nil):
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### I Simboli *non* sono Stringhe!
 
@@ -76,7 +74,6 @@ Per capire la differenza, prova a scrivere le espressioni seguenti in
     irb(main):002:0> "pippo".object_id == "pippo".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
 Il metodo `object_id` ritorna l’identità di un’oggetto. Se due oggetti
 hanno la stessa `object_id` allora sono di fatto la stessacosa (puntano
@@ -107,7 +104,6 @@ altro oggetto:
     MyClass = Class.new do
       attr_accessor :instance_var
     end
-{: .code .ruby-code}
 
 ### Costanti variabili
 
@@ -132,7 +128,6 @@ può causare confusione, come nell’esempio seguente:
     def Costante
       11
     end
-{: .code .ruby-code}
 
 In questo modo, `Costante` è 10, ma `Costante()` è 11.
 
@@ -149,7 +144,6 @@ Esempio:
     end
     qualche_parola_chiave( :parametro_uno => 10, :parametro_due => 42 )
     # => {:parametro_uno=>10, :parametro_due=>42}
-{: .code .ruby-code}
 
 ### Verità universale
 
@@ -165,7 +159,6 @@ applica anche ad atri linguaggi):
       print "0 è true"
     else:
       print "0 è false"
-{: .code .ruby-code}
 
 Questo stamperà “0 is false”, mentre l’equivalente in Ruby:
 
@@ -175,7 +168,6 @@ Questo stamperà “0 is false”, mentre l’equivalente in Ruby:
     else
       puts "0 è false"
     end
-{: .code .ruby-code}
 
 Stampa “0 è true”.
 
@@ -188,7 +180,6 @@ Nel seguente codice Ruby:
       def un_metodo; true; end
       def un_altro_metodo; false; end
     end
-{: .code .ruby-code}
 
 Ci si potrebbe aspettare che `un_altro_metodo` sia pubblico, ma non è
 così: il modificatore di accesso ‘private’ continua fino alla fine dello
@@ -206,7 +197,6 @@ I metodi sono pubblici di default:
       # un_altro_metodo è privato
       def un_altro_metodo; false; end
     end
-{: .code .ruby-code}
 
  `public`, `private` e `protected` sono, di fatto, dei metodi, e come tali accettano anche dei parametri. Per modificare la visibilità di un solo metodo, per esempio, è sufficiente passare un simbolo a tale metodo come parametro di un modificatore di accesso per cambiarne la visibilità. ### Accesso ai metodi
 
@@ -258,7 +248,6 @@ usato come ricevente per una chiamata ad un metodo pubblico.
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### Classi aperte
 
@@ -271,7 +260,6 @@ usato come ricevente per una chiamata ad un metodo pubblico.
       
     # 14 ore dalla mezzanotte del primo gennaio 2006
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### Metodi con nomi “strani”
 
@@ -311,7 +299,6 @@ pertanto devinibili sull’oggetto per il quale sono stati definiti.
     # Gli altri oggetti non sono affetti dalla ridefinizione
     altra_auto = Automobile.new
     altra_auto.ispeziona # => Macchina a buon mercato
-{: .code .ruby-code}
 
 ### Metodi Mancanti
 
@@ -333,7 +320,6 @@ molte librerie. Ecco un esempio:
     __ :a, :b, 10
     # => l metodo #{id} è inesistente - è stato chiamato 
     # con i seguenti argomenti: a, b, 10
-{: .code .ruby-code}
 
 Questo esempio stampa i dettagli della chiamata, ma è possibile gestire
 il messaggio nel modo più appropriato, a seconda delle proprie esigenze.
@@ -349,7 +335,6 @@ oggetto:
     1.+(2)
     # che è lo stesso di
     1.send "+", 2
-{: .code .ruby-code}
 
 ### I blocchi sono degli oggetti, ma non lo sanno ancora
 
@@ -365,7 +350,6 @@ speciale, così:
     sommatore = blocco { |a, b| a + b }
     # sommatore è ora un oggetto Proc
     sommatore.class # => Proc
-{: .code .ruby-code}
 
 È possibile anche creare dei blocchi fuori da chiamate a metodi,
 semplicemente chiamando Proc.new con un blocco o chiamando il metodo
@@ -375,7 +359,6 @@ Allo stesso modo, anche i metodi sono pur sempre oggetti:
 
     method(:puts).call "puts è un oggetto!"
     # => puts è un oggetto!
-{: .code .ruby-code}
 
 ### Gli operatori sono “zucchero sintattico”
 
@@ -389,7 +372,6 @@ possibile, per esempio, ridefinire il metodo ”+” della classe Fixnum:
         self - other
       end
     end
-{: .code .ruby-code}
 
 Non c’è nemmeno bisogno di usare `operator+`, come in C++.
 

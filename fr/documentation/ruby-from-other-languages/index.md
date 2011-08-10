@@ -47,7 +47,6 @@ C++ ou java &lt; 1.5) ou sur une liste (comme en Perl, avec <tt>for (@a)
       # Nous sommes dans le bloc.
       # Travaillons avec l'item_courant de la liste...
     end
-{: .code .ruby-code}
 
 Pour plus d’informations sur `each` et ses méthodes apparentées
 (`collect`, `find@n @inject`, `sort`, etc.), voyez `ri Enumerable` dans
@@ -64,7 +63,6 @@ qui suit est possible :
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### Les symboles ne sont pas des chaînes allégées
 
@@ -82,7 +80,6 @@ notion :
     irb(main):002:0> "george".object_id == "george".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
 La méthode `object_id` retourne l’identité d’un objet donné. Si deux
 objets ont la même identité, alors il s’agit d’un seul et même objet
@@ -118,7 +115,6 @@ objet à part entière—objet acceptant les manipulations usuelles du type
     MaClass = Class.new do
       attr_accessor :var_instance
     end
-{: .code .ruby-code}
 
 ### Des constantes variables
 
@@ -142,7 +138,6 @@ conduire à des confusions, comme dans l’exemple qui suit :
     def Constante
       11
     end
-{: .code .ruby-code}
 
  `Constante` vaut 10, mais `Constante()` vaut 11. ### De vrai-faux paramètres mot-clés
 
@@ -156,7 +151,6 @@ mécanisme. Exemple :
     end
     param_motcle( :param_un => 10, :param_deux => 42 )
     # => {:param_un=>10, :param_deux=>42}
-{: .code .ruby-code}
 
 ### Toujours dire la vérité
 
@@ -170,7 +164,6 @@ Voyez par exemple le bout de code suivant, écrit en Python :
       print "0 est vrai/true"
     else:
       print "0 est faux/false"
-{: .code .ruby-code}
 
 Ce qui affichera « 0 est faux/false. » L’équivalent en Ruby, maintenant
 :
@@ -181,7 +174,6 @@ Ce qui affichera « 0 est faux/false. » L’équivalent en Ruby, maintenant
     else
       puts "0 est faux/false"
     end
-{: .code .ruby-code}
 
 Cette fois, vous lirez « 0 est vrai/true. »
 
@@ -194,7 +186,6 @@ Considérez le bout de code suivant :
       def a_method; true; end
       def another_method; false; end
     end
-{: .code .ruby-code}
 
 Vous pourriez vous attendre à ce que `another_method` soit publique. Ce
 n’est pas le cas. Le mot-clé `private` est effectif jusqu’à la fin de la
@@ -210,7 +201,6 @@ mot-clé change la donne. Par défaut, les méthodes sont publiques :
       # Cette méthode est privée
       def another_method; false; end
     end
-{: .code .ruby-code}
 
 `public`, `private` et `protected` sont des méthodes à part entière,
 elles peuvent prendre des paramètres. Si vous passez un symbole à l’une
@@ -271,7 +261,6 @@ Un exemple, repris de la [FAQ Ruby][1]\:
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### Les classes restent ouvertes
 
@@ -290,7 +279,6 @@ méthodes pour traiter le temps, au sein de `Fixnum`. Voyez ceci :
       
     # 14 heures après le 1er janvier à 00h00
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### Indices sémantiques sur les méthodes
 
@@ -328,7 +316,6 @@ disponible que pour l’objet défini.
     # Les autres objets ne sont pas affectés
     other_car = Car.new
     other_car.inspect # => Cheap car
-{: .code .ruby-code}
 
 ### Gestion des méthodes manquantes
 
@@ -350,7 +337,6 @@ bibliothèques exploitent cette possibilité. Voici un exemple :
     __ :a, :b, 10
     # => La méthode __ a été appelée, mais elle n'existe pas. Voici les paramètres de l'appel :
     # arguments: a, b, 10
-{: .code .ruby-code}
 
 Le code ci-dessus ne fait qu’afficher les détails de l’appel, mais vous
 êtes libres de manipuler tout ça à votre guise.
@@ -366,7 +352,6 @@ message envoyé* à un autre objet—voyez plutôt :
     1.+(2)
     # qui est la même chose que :
     1.send "+", 2
-{: .code .ruby-code}
 
 ### Les blocs aussi sont des objets—bien qu’ils ne le sachent pas (encore)
 
@@ -382,7 +367,6 @@ d’arguments, comme ceci :
     addition = bloc { |a, b| a + b }
     # addition est maintenant un objet du genre Proc
     addition.class # => Proc
-{: .code .ruby-code}
 
 Cela signifie que vous pouvez créer des blocs en-dehors du contexte des
 appels de méthode, en utilisant `Proc.new` avec un bloc ou en appelant
@@ -392,7 +376,6 @@ De la même façon, les méthodes sont également des objets bien réels :
 
     method(:puts).call "puts est un objet !"
     # => puts est un objet !
-{: .code .ruby-code}
 
 ### Opérer sur les opérateurs
 
@@ -406,7 +389,6 @@ pouvez, par exemple, redéfinir la méthode `+` de la classe `Fixnum`\:
         self - other
       end
     end
-{: .code .ruby-code}
 
 Pas besoin des `operator+` comme en C++, etc.
 

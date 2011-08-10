@@ -66,7 +66,6 @@ as *methods*. Ruby’s pure object-oriented approach is most commonly
 demonstrated by a bit of code which applies an action to a number.
 
     5.times { print "We *love* Ruby -- it's outrageous!" }
-{: .code .ruby-code}
 
 In many languages, numbers and other primitive types are not objects.
 Ruby follows the influence of the Smalltalk language by giving methods
@@ -92,7 +91,6 @@ to Ruby’s builtin `Numeric` class.
     
     y = 5.plus 6
     # y is now equal to 11
-{: .code .ruby-code}
 
 Ruby’s operators are syntactic sugar for methods. You can redefine them
 as well.
@@ -112,7 +110,6 @@ closures, I wanted to respect the Lisp culture<sup>[4](#fn4)</sup>.”
       %w[Google Yahoo MSN].map do |engine|
         "http://www." + engine.downcase + ".com"
       end
-{: .code .ruby-code}
 
 In the above code, the block is described inside the `do ... end`
 construct. The `map` method applies the block to the provided list of
@@ -133,7 +130,6 @@ looping.
     class MyArray
       include Enumerable
     end
-{: .code .ruby-code}
 
 Generally, Rubyists see this as a much clearer way than multiple
 inheritance, which is complex and can be too restrictive.

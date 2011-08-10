@@ -14,7 +14,6 @@ lang: zh_cn
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 当 `g` 对象被建立后，它就记住了名字属性的值 Pat。Hmm… 如果我们想直接读取名字的值呢？
 
@@ -22,7 +21,6 @@ lang: zh_cn
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 晕，做不到。
 
@@ -44,7 +42,6 @@ lang: zh_cn
         "clone", "public_methods", "respond_to?", "freeze",
         "say_bye", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 哇。。。有这么多！可我们只定义了两个啊，怎么回事？这里列出的其实是 Greeter 对象包含的 **所有**
 的函数，当然也就包括了它所继承的类的函数了。如果我们只希望列出 Greeter 自己的函数，可以提供一个 `false` 参数给
@@ -52,7 +49,6 @@ lang: zh_cn
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["say_bye", "say_hi"]
-{: .code .ruby-code}
 
 看起来好多了。我们来看看 greeter 会对哪些函数作出回应：
 
@@ -62,7 +58,6 @@ lang: zh_cn
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 它知道 `say_hi` 和 `to_s`（意思是把什么东西转换成字符串，这是每个对象都有的功能）， 但是它不知道 `name`。
 
@@ -74,7 +69,6 @@ lang: zh_cn
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 在 Ruby 里，您可以把一个类打开然后改变它。这些改变会对以后生成的甚至是已经生成的对象产生即时效果。 下面我们来建一个新的 Greeter
 对象，然后看一看它的 `@name` 属性。
@@ -97,7 +91,6 @@ lang: zh_cn
     irb(main):054:0> g.say_hi
     Hi Betty!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 `attr_accessor` 会自动为我们定义两个新的函数， `name` 用来读取变量的值， `name=` 用来给变量赋值。
 
@@ -171,7 +164,6 @@ lang: zh_cn
       mg.say_hi
       mg.say_bye
     end
-{: .code .ruby-code}
 
 把这个文件储存到 “ri20min.rb”， 然后在命令行输入 “ruby ri20min.rb” 来运行它。 您应该可以看到：:
 

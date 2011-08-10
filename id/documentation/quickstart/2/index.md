@@ -12,7 +12,6 @@ metode!
     irb(main):011:1>   puts "Hello World!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 Kode `def h` memulai definisi suatu metode. Kode tersebut berkata pada
 Ruby bahwa kita sedang mendefinisikan sebuah metode, yang bernama `h`.
@@ -32,7 +31,6 @@ Sekarang mari kita coba menjalankan metode tersebut berulang kali:
     irb(main):014:0> h()
     Hello World!
     => nil
-{: .code .ruby-code}
 
 Nah, mudah khan?! Pemanggilan metode di Ruby memang semudah menyebut
 nama metode yang bersangkutan ke Ruby. Jika metode tidak menerima
@@ -51,7 +49,6 @@ agar menerima `name` sebagai parameter.
     irb(main):018:0> h("Matz")
     Hello Matz!
     => nil
-{: .code .ruby-code}
 
 Sukses… tetapi coba kita lihat dulu sebentar apa yang terjadi disini.
 
@@ -75,7 +72,6 @@ depannya (singkatnya, dikapitalkan, bahasa Inggrisnya, di-capitalize):
     irb(main):023:0> h
     Hello World!
     => nil
-{: .code .ruby-code}
 
 Ada beberapa trik di metode barusan. Trik pertama, kita panggil metode
 tanpa menggunakan buka dan tutup kurung lagi. Jika sudah jelas apa yang
@@ -103,7 +99,6 @@ untuk keperluan itu. Maka, mari kita buat kelas “TukangSapa”.
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 Keyword baru disini adalah `class`. Keyword ini mendifinisikan kelas
 baru yang disebut TukangSapa dan beberapa metode untuk kelas TukangSapa

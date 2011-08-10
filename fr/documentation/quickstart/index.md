@@ -31,7 +31,6 @@ IRB permet d’écrire et d’interpréter du Ruby *à la volée*, sans avoir à
 enregistrer un fichier et l’exécuter ensuite.
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Voilà, IRB est lancé. Et maintenant ?
 
@@ -40,7 +39,6 @@ que vous devrez faire après chaque nouvelle ligne).
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## Ruby… au doigt et à l’œil
 
@@ -54,7 +52,6 @@ peu plus :
     irb(main):002:0> puts "Hello World" 
     Hello World 
     => nil
-{: .code .ruby-code}
 
 `puts` est la commande de base pour écrire quelque chose avec Ruby. Et
 qu’est-ce que `nil` que nous présente IRB ? Le résultat de notre
@@ -68,7 +65,6 @@ Il est très facile d’utiliser IRB comme une vulgaire calculatrice :
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Trois plus deux. Assez facile, j’en conviens. Et *quid* de trois
 **fois** deux ? Notez ici que vous pouvez, si vous le voulez, appuyer
@@ -78,13 +74,11 @@ signe `+` par `*`\:
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 Maintenant, essayons trois au carré :
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 Dans la syntaxe Ruby, `**` est là pour signifier « à la puissance… » ;
 et si vous souhaitez aller dans l’autre sens, à savoir obtenir la racine
@@ -92,7 +86,6 @@ carré d’un nombre, vous écrirez ceci :
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Un peu moins trivial. Vous avez vraisembablement deviné que cela
 demandait la racine carré (Ndt : ***sq**uare* ***r***oo***t*** en
@@ -134,7 +127,6 @@ opération mathématique, il suffit de l’assigner à une variable.
     => 16
     irb(main):009:0> Math.sqrt(a+b)
     => 5.0
-{: .code .ruby-code}
 
 Bien, notre calculatrice est déjà un bon début, mais le sujet principal
 de ce tutoriel est le programme *Hello World*. Revenons donc à nos

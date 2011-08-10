@@ -27,7 +27,6 @@ Anda dapat menuliskan program tersebut di Ruby sebagai berikut:
     b = gets.to_i
     c = a + b
     puts c
-{: .code .ruby-code}
 
 Sumber: [A Very Quick Comparison of Popular Languages for Teaching
 Computer Programming][1]

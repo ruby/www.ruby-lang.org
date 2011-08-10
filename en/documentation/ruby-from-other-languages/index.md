@@ -46,7 +46,6 @@ in aList: ...</tt>), with Ruby you’ll very often instead see
       # We're inside the block.
       # deal with this_item.
     end
-{: .code .ruby-code}
 
 For more info on `each` (and it’s friends `collect`, `find`, `inject`,
 `sort`, etc.), see `ri Enumerable` (and then <tt>ri
@@ -60,7 +59,6 @@ has a value, even if that value is **nil**. This is possible:
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### Symbols are not lightweight Strings
 
@@ -75,7 +73,6 @@ Symbols can best be described as identities. A symbol is all about
     irb(main):002:0> "george".object_id == "george".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
 The `object_id` methods returns the identity of an Object. If two
 objects have the same `object_id`, they are the same (point to the same
@@ -106,7 +103,6 @@ any other object:
     MyClass = Class.new do
       attr_accessor :instance_var
     end
-{: .code .ruby-code}
 
 ### Variable Constants
 
@@ -128,7 +124,6 @@ can lead to confusion, as the example below shows:
     def Constant
       11
     end
-{: .code .ruby-code}
 
 Now `Constant` is 10, but `Constant()` is 11.
 
@@ -143,7 +138,6 @@ this heavily. Example:
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
-{: .code .ruby-code}
 
 ### The universal truth
 
@@ -157,7 +151,6 @@ code (the example applies to other languages, too):
       print "0 is true"
     else:
       print "0 is false"
-{: .code .ruby-code}
 
 This will print “0 is false”. The equivalent Ruby:
 
@@ -167,7 +160,6 @@ This will print “0 is false”. The equivalent Ruby:
     else
       puts "0 is false"
     end
-{: .code .ruby-code}
 
 Prints “0 is true”.
 
@@ -180,7 +172,6 @@ In the following Ruby code,
       def a_method; true; end
       def another_method; false; end
     end
-{: .code .ruby-code}
 
 You might expect `another_method` to be public. Not so. The ‘private’
 access modifier continues until the end of the scope, or until another
@@ -196,7 +187,6 @@ public:
       # another_method is private
       def another_method; false; end
     end
-{: .code .ruby-code}
 
  `public`, `private` and `protected` are really methods, so they can take parameters. If you pass a Symbol to one of them, that method’s visibility is altered. ### Method access
 
@@ -250,7 +240,6 @@ private method call.
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### Classes are open
 
@@ -264,7 +253,6 @@ private method call.
     # 14 hours from 00:00 January 1st
     # (aka when you finally wake up ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### Funny method names
 
@@ -295,7 +283,6 @@ Object you defined it on.
     # Other objects are not affected
     other_car = Car.new
     other_car.inspect # => Cheap car
-{: .code .ruby-code}
 
 ### Missing methods
 
@@ -315,7 +302,6 @@ better fit your application, and many libraries do. Here is an example:
     __ :a, :b, 10
     # => Method __ was called, but not found. It has these
     # arguments: a, b, 10
-{: .code .ruby-code}
 
 The code above just prints the details of the call, but you are free to
 handle the message in any way that is appropriate.
@@ -330,7 +316,6 @@ A method call is really a **message** to another object:
     1.+(2)
     # Which is the same as this:
     1.send "+", 2
-{: .code .ruby-code}
 
 ### Blocks are Objects, they just don’t know it yet
 
@@ -345,7 +330,6 @@ appending a special argument to the argument list, like so:
     adder = block { |a, b| a + b }
     # adder is now a Proc object
     adder.class # => Proc
-{: .code .ruby-code}
 
 You can create blocks outside of method calls, too, by calling Proc.new
 with a block or calling the `lambda` method.
@@ -354,7 +338,6 @@ Similarly, methods are also Objects in the making:
 
     method(:puts).call "puts is an object!"
     # => puts is an object!
-{: .code .ruby-code}
 
 ### Operators are syntactic sugar
 
@@ -368,7 +351,6 @@ method:
         self - other
       end
     end
-{: .code .ruby-code}
 
 You don’t need C++’s `operator+`, etc.
 

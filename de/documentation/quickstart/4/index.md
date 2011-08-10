@@ -27,7 +27,6 @@ Unsere `sag_hallo`-Methode ist ein bisschen trickreicher geworden:
         puts "Hallo, #{@names}!"
       end
     end
-{: .code .ruby-code}
 
 Sie berücksichtigt nun den `@names`-Parameter und trifft abhängig davon
 Entscheidungen. Ist er nil, schreibt sie nur drei Punkte auf den
@@ -46,7 +45,6 @@ Sehen wir uns den Iterator genauer an:
     @names.each do |name|
       puts "Hallo, #{name}!"
     end
-{: .code .ruby-code}
 
 `each` ist eine Methode, die einen Code-Block akzeptiert und diesen für
 jedes einzelne Element der Liste ausführt. Das Stück zwischen `do` und
@@ -62,7 +60,6 @@ Die meisten anderen Programmiersprachen behandeln einen Listendurchlauf
 mit einer `for`-Schleife, was in C in etwa so aussieht:
 
     for (i=0; i<anzahl_der_elemente i>
-{: .code .ruby-code}
 
 Das funktioniert auch, ist aber nicht besonders elegant. Man benötigt
 eine “Wegwerf-Variable” wie `i`, man muss die Größe der Liste kennen,
@@ -92,7 +89,6 @@ Benutzers.
         puts "Tschuess, #{@names}, bis bald!"
       end
     end
-{: .code .ruby-code}
 
 Die `sag_tschuess`-Methode benutzt kein `each`. Stattdessen prüft sie,
 ob `@names` der `join`-Methode antwortet, und benutzt sie in diesem
@@ -113,7 +109,6 @@ nur Methoden dieser Klasse auf. Es gibt einen letzten Trick, den man
 beachten sollte, und das ist diese Zeile:
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` ist die magische Variable, die den Namen der gerade benutzen
 Datei als Wert hat, während `$0` der Name der Datei ist, mit dem das

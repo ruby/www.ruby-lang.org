@@ -26,7 +26,6 @@ Nasza metoda `say_hi` stała się trochę bardziej skomplikowana:
         puts "Hello #{@names}!"
       end
     end
-{: .code .ruby-code}
 
 Metoda ta sprawdza teraz parametr `@names` i jeśli wynosi on nil to
 wyświetla trzy kropki. Nie ma sensu witać kogoś kogo nie ma, prawda ?
@@ -43,7 +42,6 @@ Przyjrzyjmy się bliżej iteratorowi:
     @names.each do |name|
       puts "Hello #{name}!"
     end
-{: .code .ruby-code}
 
 `each` jest metodą, która przyjmuje blok kodu i wywołuje ten blok kodu
 dla każdego elementu na liście. Kod pomiędzy `do` oraz `end` jest
@@ -58,7 +56,6 @@ Większość innych języków programowania obsługuje iterację po elementach
 listy za pomocą pętli `for`, w C wygląda to mniej więcej tak:
 
     for (i=0; i<number_of_elements i>
-{: .code .ruby-code}
 
 To działą, ale nie jest zbyt eleganckie. Potrzebujesz tu tymczasowej
 zmiennej do przechowania rozmiaru listy `i` oraz musisz opisać jak
@@ -86,7 +83,6 @@ zakończenie i błędy – wszystko ukryte przed użytkownikiem twoich metod.
         puts "Goodbye #{@names}.  Come back soon!"
       end
     end
-{: .code .ruby-code}
 
 Metoda `say_bye` nie korzysta z `each`, zamiast tego sprawdza czy
 `@names` odpowiada na wywołanie metody `join`, jeśli tak, to uzywa tej
@@ -107,7 +103,6 @@ Więc, oto jest klasa MegaGreeter , reszta pliku po prostu wywołuje
 metody z tej klasy. Zwróćmy uwagę jeszcze na ostatni trik, to linia:
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` jest magiczną zmienną która zawiera nazwę obecnie używanego
 pliku. `$0` jest nazwą pliku użytego do uruchomienia programu. To

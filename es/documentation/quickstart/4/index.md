@@ -28,7 +28,6 @@ Nuestro método `decir_hola` se ha vuelto un poco más complicado:
         puts "Hola #{@nombres}"
       end
     end
-{: .code .ruby-code}
 
 Ahora usa el atributo `@nombres` para tomar decisiones. Si es nil, sólo
 imprime tres puntos. No hay razón para saludar a nadie, ¿cierto?
@@ -46,7 +45,6 @@ Veamos ese iterador en más detalle:
     @nombres.each do |nombre|
       puts "Hola #{nombre}"
     end
-{: .code .ruby-code}
 
 El método `each` acepta un bloque de código y lo ejecuta por cada
 elemento de la lista, y el código entre `do` y `end` es el bloque en sí
@@ -61,7 +59,6 @@ Muchos otros lenguajes de programación manejan la iteración de una lista
 usando la clásica sintaxis `for`, que en C se ve así:
 
     for (i=0; i<cantidad_de_elementos i>
-{: .code .ruby-code}
 
 Esto funciona, pero no es muy elegante. Necesitas una variable
 descartable como `i`, averiguar la cantidad de elementos de la lista, y
@@ -92,7 +89,6 @@ simplificados frente a las preocupaciones del desarrollador.
         puts "Adiós #{@nombres}. Vuelve pronto."
       end
     end
-{: .code .ruby-code}
 
 El método `decir_adios` no usa `each`, en vez de eso se fija si
 `@nombres` responde al método `join`, y si es así, lo usa. Si no es así,
@@ -111,7 +107,6 @@ los métodos de la clase. Hy un último truco para tener en cuenta, y es
 la linea:
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` es la variable mágica que contiene el nombre del archivo que
 se está ejecutando en ese momento. `$0` es el nombre del archivo usado

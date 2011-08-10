@@ -14,7 +14,6 @@ Maintenant, créons un objet de la classe `Greeter` et animons-le :
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 Une fois l’objet `g` créé, il se souvient que le nom qui lui est lié est
 Pat, comme indiqué à sa création. Il serait d’ailleurs intéressant de
@@ -24,7 +23,6 @@ pouvoir récupérer directement ce nom. Essayons :
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 Whoa, ça n’a pas l’air possible pour l’instant.
 
@@ -54,7 +52,6 @@ Quelles sont les méthodes disponibles pour nos instances de la classe
         "clone", "public_methods", "respond_to?", "freeze",
         "say_bye", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 Ouch. Voilà une sacré liste de méthodes. Et pourtant, nous n’en avons
 défini que deux… d’où sortent donc les autres ? En fait, il s’agit d’une
@@ -65,7 +62,6 @@ uniquement pour `Greeter`, il suffit de passer le paramètre `false`\:
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["say_bye", "say_hi"]
-{: .code .ruby-code}
 
 Ok, c’est déjà plus confortable. Et conforme. Vérifions que c’est vrai,
 en testant quelles méthodes reconnaissent effectivement les instances de
@@ -77,7 +73,6 @@ en testant quelles méthodes reconnaissent effectivement les instances de
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 Une instance de `Greeter` connaît donc `say_hi` et `to_s` (une méthode
 qui transforme « quelque chose » en une chaîne de caractère et qui est
@@ -93,7 +88,6 @@ pour accéder aux variables d’instances :
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 Il semblerait que nous ayons défini une seconde fois la classe
 `Greeter`... mais il n’en est rien. Nous l’avons simplement « ré-ouverte
@@ -119,7 +113,6 @@ existants ! Créons un nouvel objet et testons l’artifice :
     irb(main):054:0> g.say_hi
     Hi Betty!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 Le fait d’écrire `attr_accessor` a implicitement défini deux nouvelles
 méthodes à peu de frais : `name` pour récupérer la valeur de la
@@ -200,7 +193,6 @@ Notre fichier va se présenter comme suit :
       mg.say_hi
       mg.say_bye
     end
-{: .code .ruby-code}
 
 Sauvegardez ce fichier, par exemple en tant que “ri20min.rb”
 (l’extension .rb, pour ruby, est importante sous Windows, d’usage sous

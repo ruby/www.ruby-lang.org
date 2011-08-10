@@ -14,7 +14,6 @@ lang: tr
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 Birkez `g` nesnesi üretildimi, ismin Pat olduğunu hep hatırlayacaktır.
 Hımm, peki ismi direk olarak almak istersek nolcak?
@@ -23,7 +22,6 @@ Hımm, peki ismi direk olarak almak istersek nolcak?
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 Yok, yapamadık.
 
@@ -47,7 +45,6 @@ Pekala Greeter nesnesinin ne metodları mevcut?
         "clone", "public_methods", "respond_to?", "freeze",
         "say_bye", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 Waw, bir sürü metod varmış. Biz sadece iki metod tanımladık. Burda neler
 oluyor? Pekala bunlar Greeter nesnesinin tüm metodları, kalıtımdan
@@ -57,7 +54,6 @@ anlamı kalıtımsal metodları istemediğimizdir.
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["say_bye", "say_hi"]
-{: .code .ruby-code}
 
 Ah, şimdi daha iyi. Haydi şimdide selamlayıcı nesnemizin hangi metodlara
 cevap veriyor bulalım:
@@ -68,7 +64,6 @@ cevap veriyor bulalım:
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 Gördüğünüz gibi `say_hi` ve `to_s` (birşeyi stringe çevirme emridir)
 kelimelerinin anlamını biliyor, fakat `name` anlamını bilmiyor.
@@ -82,7 +77,6 @@ nesnenin değişkenlerine erişmek için kolay bir yol sunar.
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 Ruby’de, sınıfı tekrar açıp değiştirebilirsiniz. Yapılan değişiklikler
 yeni üretilecek nesnelerde etkili olacağı gibi üretilmiş nesnelerde de
@@ -107,7 +101,6 @@ biraz oynayalım.
     irb(main):054:0> g.say_hi
     Hi Betty!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 `attr_accessor` kullanarak iki yeni metod tanımlanmış olur, değeri
 okumak için `name` ve değeri değiştirmek için `name=` metodları.
@@ -184,7 +177,6 @@ IRB’den çıkmak için “quit”, “exit” yazın ya da sadece Control-D ba
       mg.say_hi
       mg.say_bye
     end
-{: .code .ruby-code}
 
 Bu dosyayı “ri20min.rb” olarak kaydedin ve “ruby ri20min.rb” konsol
 komutuyla çalıştırın. Çıktısı şöyle olmalı:

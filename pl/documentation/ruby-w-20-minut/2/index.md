@@ -11,7 +11,6 @@ zmęczyły ? Musimy zdefiniować metodę!
     irb(main):011:1> puts "Hello World!"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 Kod `def h` rozpoczyna definicję metody. Wskazuje Rubiemu, że
 definiujemy metodę, która nazywa się `h`. Następna linia to ciało
@@ -30,7 +29,6 @@ Teraz wypróbujmy uruchomić tę metodę kilka razy:
     irb(main):014:0> h()
     Hello World!
     => nil
-{: .code .ruby-code}
 
 No cóż, to było proste. Wywołanie metody w Rubim sprowadza się do
 napisania jej nazwy. Jeśli metoda nie przyjmuje żadnych parametrów, to
@@ -48,7 +46,6 @@ parametr.
     irb(main):018:0> h("Matz")
     Hello Matz!
     => nil
-{: .code .ruby-code}
 
 Działa … ale spójrzmy bliżej na to co się tutaj dzieje.
 
@@ -70,7 +67,6 @@ drukowane z dużej litery:
     irb(main):023:0> h
     Hello World!
     => nil
-{: .code .ruby-code}
 
 Warto zwrócić tutaj uwagę na kilka innych sztuczek. Jedną z nich jest
 to, że wywołujemy metodę bez nawiasów. Jeśli to co robisz jest
@@ -96,7 +92,6 @@ celu użyjemy obiektu. Stwórzmy klasę “Greeter”.
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 Nowym słowem kluczowym jest tutaj `class`. Definiuje ono nową klasę
 nazwaną Greeter oraz kilka metod tej klasy. Zauważ również `@name`. Jest

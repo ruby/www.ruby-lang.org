@@ -9,7 +9,6 @@ dan remote login (ssh), yang ditulis dengan Ruby dan menerima syntax
 Ruby untuk menjalankan sistem operasi. Seperti operasi berikut:
 
     processes.each { |p| p.kill if p.command == “mongrel_rails“ }
-{: .code .ruby-code}
 
 Atau
 
@@ -19,7 +18,6 @@ Atau
     remote_dir = remote[’/home/myproj/app/‘]
     local_dir.copy_to remote_dir
     remote_dir[’**/.svn/‘].each { |d| d.destroy }
-{: .code .ruby-code}
 
 Anda dapat membuat sesuatu dengan menggunakan usual UNIX commands, Rush
 abstracts sebuah kumpulan dari sitem tasks dan memudahkan anda untuk

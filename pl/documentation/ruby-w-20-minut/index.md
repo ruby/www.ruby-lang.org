@@ -24,7 +24,6 @@ Otwórz IRB’a.
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Ok, udało się otworzyć IRB’a. Co teraz?
 
@@ -32,7 +31,6 @@ Wpisz: `"Hello World"`
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## Ruby Wykonał Polecenie!
 
@@ -44,7 +42,6 @@ wyświetlić “Hello World” potrzebujemy troszkę więcej:
     irb(main):002:0> puts "Hello World" 
     Hello World 
     => nil
-{: .code .ruby-code}
 
 `puts` jest poleceniem, które ogólnie rzecz biorąc wyświetla różne
 rzeczy w Rubim. A co oznacza `=> nil` ? To wynik wyrażenia. `puts`
@@ -58,7 +55,6 @@ kalkulatora:
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Trzy plus dwa. Wystarczająco proste. Co z “trzy razy dwa” (three times
 two)? Możesz to napisać, jest to wciąż bardzo krótkie, ale możesz też
@@ -70,20 +66,17 @@ i zamienić plus na `*`.
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 Następnie, wypróbujmy potęgowania:
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 W Rubim `**` jest sposobem zapisu potęgowania. Co jeśli chciałbyś pójść
 odwrotną drogą i obliczyć pierwiastek kwadratowy danej liczby ?
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Co przedsatwia powyższa linia ? Tak, zgadza się, obliczamy tutaj
 pierwiastek kwadratowy liczby 9. Przypatrzmy się temu bliżej. Po
@@ -115,7 +108,6 @@ wynik do zmiennej.
     => 16
     irb(main):009:0> Math.sqrt(a+b)
     => 5.0
-{: .code .ruby-code}
 
 Odbiegamy tutaj jednak od tradycyjnego programu “Hello World” , na
 którym tutoriale dla początkujących powinny się skupiać więc [wróćmy do

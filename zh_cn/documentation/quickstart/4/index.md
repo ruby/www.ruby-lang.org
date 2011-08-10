@@ -23,7 +23,6 @@ lang: zh_cn
         puts "Hello #{@names}!"
       end
     end
-{: .code .ruby-code}
 
 它现在会根据 `@names` 参数的不同而采取不同的行动。如果参数是 nil，它会打印三个点。没有理由和空气问好对吗？
 
@@ -37,7 +36,6 @@ lang: zh_cn
     @names.each do |name|
       puts "Hello #{name}!"
     end
-{: .code .ruby-code}
 
 `each` 是一个可以接受代码块的函数。它在迭代每一个元素时都会调用一次之前所接受到的代码块。 代码块像是一个不需要命名的函数，和
 `lambda` 类似。 在`|  |`之间的就是传输给代码块的参数。
@@ -48,7 +46,6 @@ lang: zh_cn
 大多数编程语言都是用 `for` 循环来完成迭代的，比如在 C 里面：
 
     for (i=0; i<number_of_elements i>
-{: .code .ruby-code}
 
 这样也成，不过不那么优美。您需要一个没什么意思的 `i` 来监控列表长度和检测循环退出的判断。 Ruby
 的方法对比来看就更清爽，所有的清理工作都被隐藏在 `each` 函数里了， 您只需要告诉它您想做什么。在 `each`
@@ -69,7 +66,6 @@ lang: zh_cn
         puts "Goodbye #{@names}.  Come back soon!"
       end
     end
-{: .code .ruby-code}
 
 `say_bye` 函数并没有用到 `each`，而是查看 `@names` 是否支持 `join`
 函数。如果是的话就调用，否则就简单的将变量转化为字符串。
@@ -82,7 +78,6 @@ lang: zh_cn
 这就是 MegaGreeter 类的所有内容了。剩下的代码就只是调用一下这个类的函数。 还有最后一点小技术在这里：
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` 是一个魔法值，它存有现在运行的脚本文件的名字。`$0` 是启动脚本的名字。 代码里的比较结构的意思是
 “如果这是启动脚本的话...” 这允许代码作为库调用的时候不运行启动代码， 而在作为执行脚本的时候调用启动代码。

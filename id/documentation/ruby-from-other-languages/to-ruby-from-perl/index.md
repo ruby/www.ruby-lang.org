@@ -37,7 +37,6 @@ Program tersebut dapat ditulis sebagai berikut di Ruby: \*
     
     puts sep
     puts "\n No more beer on the wall :-("
-{: .code .ruby-code}
 
 * Algoritma yang digunakan kedua program tersebut sedikit berbeda, tapi
   secara fungsionalitas sama.

@@ -11,7 +11,6 @@ con el teclado? ¡Necesitamos definir un método!
     irb(main):011:1> puts "Hola Mundo"
     irb(main):012:1> end
     => nil
-{: .code .ruby-code}
 
 La expresión `def h` inicia la definición del método. Le dice a Ruby que
 estamos definiendo un método, cuyo nombre es `h`. La siguiente linea es
@@ -30,7 +29,6 @@ Ahora intentemos ejecutar ese método algunas veces:
     irb(main):014:0> h()
     Hola Mundo
     => nil
-{: .code .ruby-code}
 
 Bien, eso fue fácil. Ejecutar un método en Ruby es tan fácil como sólo
 mencionar su nombre. Si el método no requiere parámetros para
@@ -47,7 +45,6 @@ Simplemente redefine `h` para que tome un nombre como parámetro.
     irb(main):018:0> h("Matz")
     Hola Matz
     => nil
-{: .code .ruby-code}
 
 Así que eso funciona… pero tomémonos un segundo para ver más en detalle
 qué es lo que está sucediendo.
@@ -70,7 +67,6 @@ esto para asegurarte que el nombre comience con mayúscula:
     irb(main):023:0> h
     Hola Mundo
     => nil
-{: .code .ruby-code}
 
 Algunos otros trucos para destacar. Uno es que otra vez estamos llamando
 al método sin utilizar los paréntesis. Si lo que quieres hacer es obvio,
@@ -96,7 +92,6 @@ querer utilizar un objeto para eso. Vamos a crear la clase “Anfitrion”.
     irb(main):033:2>   end
     irb(main):034:1> end
     => nil
-{: .code .ruby-code}
 
 La nueva palabra clave aquí es `class`. Esto define una nueva clase
 llamada Anfitrion y un par de métodos para esa clase. También toma nota

@@ -28,7 +28,6 @@ Open up IRB (which stands for Interactive Ruby).
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 Ok, so it’s open. Now what?
 
@@ -36,7 +35,6 @@ Type this: `"Hello World"`
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## Ruby Obeyed You!
 
@@ -48,7 +46,6 @@ the result of the last expression it evaluated. If we want to print out
     irb(main):002:0> puts "Hello World"
     Hello World
     => nil
-{: .code .ruby-code}
 
 `puts` is the basic command to print something out in Ruby. But then
 what’s the `=> nil` bit? That’s the result of the expression. `puts`
@@ -60,7 +57,6 @@ Already, we have enough to use IRB as a basic calculator:
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 Three plus two. Easy enough. What about three *times* two? You could
 type it in, it’s short enough, but you may also be able to go up and
@@ -71,20 +67,17 @@ use backspace to change it to a `*` sign.
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 Next, let’s try three squared:
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 In Ruby `**` is the way you say “to the power of”. But what if you want
 to go the other way and find the square root of something?
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 Ok, wait, what was that last one? If you guessed, “it was figuring out
 the square root of nine,” you’re right. But let’s take a closer look at
@@ -114,7 +107,6 @@ result to a variable.
     irb(main):008:0> b = 4 ** 2
     => 16
     irb(main):009:0> Math.sqrt(a+b) => 5.0
-{: .code .ruby-code}
 
 As great as this is for a calculator, we’re getting away from the
 traditional `Hello World` message that beginning tutorials are supposed

@@ -14,7 +14,6 @@ lang: bg
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
     => nil</0x16cac>
-{: .code .ruby-code}
 
 След като веднъж сме създали обектът `g`, той запаметява името Pat.
 Какво би се случило, ако искаме да променим името директно ?
@@ -23,7 +22,6 @@ lang: bg
     SyntaxError: compile error
     (irb):52: syntax error
             from (irb):52
-{: .code .ruby-code}
 
 Изходът от горния пример е грешка.
 
@@ -46,7 +44,6 @@ lang: bg
         "clone", "public_methods", "respond_to?", "freeze",
         "say_bye", "__id__", "=~", "methods", "nil?", "dup",
         "instance_variables", "instance_of?"]
-{: .code .ruby-code}
 
 Интересно е да видим, че обектът “притежава” доста методи, въпреки, че
 ние сме дефинирали само 3. Ще разбулим мистерията, като кажем, че това
@@ -56,7 +53,6 @@ lang: bg
 
     irb(main):040:0> Greeter.instance_methods(false)
     => ["say_bye", "say_hi"]
-{: .code .ruby-code}
 
 Съществува метод, който ни дава прествава какви методи може да извикаме
 върху обекта:
@@ -67,7 +63,6 @@ lang: bg
     => true
     irb(main):043:0> g.respond_to?("to_s")
     => true
-{: .code .ruby-code}
 
 ## Никога не е късно за промяна на класа
 
@@ -79,7 +74,6 @@ lang: bg
     irb(main):045:1>   attr_accessor :name
     irb(main):046:1> end
     => nil
-{: .code .ruby-code}
 
 В Ruby лесно може да отворим класа отново за модификация. Промените ще
 се отразят на наличните и новите обекти. Нека създадем нов обект.
@@ -102,7 +96,6 @@ lang: bg
     irb(main):054:0> g.say_hi
     Hi Betty!
     => nil</0x3c9b0></0x3c9b0>
-{: .code .ruby-code}
 
 Използването на `attr_accessor` дефинира два нови метода, `name` за
 прочитане на стойността и `name=` за промяна на стойността.
@@ -179,7 +172,6 @@ Control-D.
       mg.say_hi
       mg.say_bye
     end
-{: .code .ruby-code}
 
 Съхранете този файл като “ri20min.rb” и го стартирайте, като напишете
 “ruby ri20min.rb”. Изходът на програмата би изглеждал така:

@@ -37,7 +37,6 @@ Python 的 <tt>for i in aList: ...</tt>)。在 Ruby 裡你會常常看到：
       # 我們在程式區塊中
       # 處理 this_item
     end
-{: .code .ruby-code}
 
 關於更多 `each` 的資訊 (以及 `collect`, `find`, `inject`, `sort` 等等)，請參考 `ri
 Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
@@ -49,7 +48,6 @@ Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
     x = 10
     y = 11
     z = if x  true
-{: .code .ruby-code}
 
 ### Symbols 不是輕量化的字串
 
@@ -62,7 +60,6 @@ Symbols 就如同一個識別符號。一個 symbol 就代表它是”誰”了�
     irb(main):002:0> "george".object_id == "george".object_id
     => false
     irb(main):003:0>
-{: .code .ruby-code}
 
  `object_id` 方法會回傳物件的識別編號。如果有兩個物件有相同的 `object_id` 表示它們其實是同一個(指向同一個記憶體位置)。 如你所見，使用過 Symbols 之後，任何相同名字的 Symbol 都是指記憶體裡的同一個物件。對任何相同名字的 Symbols，它們的
 `object_id` 都一樣。
@@ -84,7 +81,6 @@ key)，還是物件內容(比如這個例子的 “george”)。
     MyClass = Class.new do
       attr_accessor :instance_var
     end
-{: .code .ruby-code}
 
 譯註：在 Ruby 中任何類別都是由 `Class` 類別所實例(new)出來的物件。
 
@@ -103,7 +99,6 @@ variable)、`@@` 開頭則是類別變數。
     def Constant
       11
     end
-{: .code .ruby-code}
 
 這裡的 `Constant` 是 10，但是 `Constant()` 卻是 11。
 
@@ -117,7 +112,6 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
-{: .code .ruby-code}
 
 ### 一切為 true
 
@@ -129,7 +123,6 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
       print "0 is true"
     else:
       print "0 is false"
-{: .code .ruby-code}
 
 這會輸出 “0 is false”。而在 Ruby 裡:
 
@@ -139,7 +132,6 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
     else
       puts "0 is false"
     end
-{: .code .ruby-code}
 
 這會輸出 “0 is true”。
 
@@ -152,7 +144,6 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
       def a_method; true; end
       def another_method; false; end
     end
-{: .code .ruby-code}
 
 你可能會認為 `another_method` 是 public 的，但不是這樣。這個 ‘private’
 存取修飾到作用域(scope)結束，或是直到另一個存取修飾詞開始作用。方法預設都是 public 的：
@@ -166,7 +157,6 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
       # 這個 another_method 是 private 的
       def another_method; false; end
     end
-{: .code .ruby-code}
 
  `public`, `private` 和 `protected` 其實也是一種方法，所以可以接受參數。如果你傳入一個 Symbol，那個該 Symbol 代表的方法就會改變存取權限。 ### 方法存取權限
 
@@ -215,7 +205,6 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
-{: .code .ruby-code}
 
 ### 類別是開放的
 
@@ -232,7 +221,6 @@ Ruby 的類別是開放的，你可以隨時打開它新增一點程式或是修
     # 從一月一號 00:00 往後數 14 個小時
     # (你終於醒了吧 ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
-{: .code .ruby-code}
 
 ### 有趣的方法名稱
 
@@ -264,7 +252,6 @@ replace 的意思就是要修改替換自己。
     # 其他物件就不受影響
     other_car = Car.new
     other_car.inspect # => Cheap car
-{: .code .ruby-code}
 
 ### Missing 方法
 
@@ -282,7 +269,6 @@ replace 的意思就是要修改替換自己。
     __ :a, :b, 10
     # => Method __ was called, but not found. It has these
     # arguments: a, b, 10
-{: .code .ruby-code}
 
 以上程式會輸出呼叫的細節，但你可以隨意定義這個訊息。
 
@@ -296,7 +282,6 @@ replace 的意思就是要修改替換自己。
     1.+(2)
     # 也等同於:
     1.send "+", 2
-{: .code .ruby-code}
 
 ### Blocks 也算是物件
 
@@ -310,7 +295,6 @@ replace 的意思就是要修改替換自己。
     adder = block { |a, b| a + b }
     # adder 是一個 Proc 物件
     adder.class # => Proc
-{: .code .ruby-code}
 
 你也可以透過 Proc.new 或 lambda 在方法外建立程式區塊。
 
@@ -318,7 +302,6 @@ replace 的意思就是要修改替換自己。
 
     method(:puts).call "puts is an object!"
     # => puts is an object!
-{: .code .ruby-code}
 
 ### 操作符只是語法包裝
 
@@ -331,7 +314,6 @@ sugar)，加上一些優先權規則。你要的話，舉例來說，我們可�
         self - other
       end
     end
-{: .code .ruby-code}
 
 你不需要 C++ 的 `operator+` 等等。
 

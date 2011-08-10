@@ -19,7 +19,6 @@ lang: zh_cn
 ^
 
     irb(main):001:0>
-{: .code .ruby-code}
 
 已经打开了。继续？
 
@@ -27,7 +26,6 @@ lang: zh_cn
 
     irb(main):001:0> "Hello World"
     => "Hello World"
-{: .code .ruby-code}
 
 ## Ruby 顺从您！
 
@@ -37,7 +35,6 @@ lang: zh_cn
     irb(main):002:0> puts "Hello World" 
     Hello World 
     => nil
-{: .code .ruby-code}
 
 `puts` 是 Ruby 语言里用来打印的基本命令。那 `=> nil` 是什么？其实是命令的返回值。 `puts` 命令永远返回
 nil，nil 也是 Ruby 的空值。
@@ -48,26 +45,22 @@ nil，nil 也是 Ruby 的空值。
 
     irb(main):003:0> 3+2
     => 5
-{: .code .ruby-code}
 
 三加二很简单。三减二呢？您可以试试啊。虽然输入的命令很短，不过您可以在原来命令的基础上进行修改。 试着按一下 **上方键**
 看看是不是打出了原来输入的 `3+2`。 如果能正常显示出的话，您可以用**左方键**来移动光标直到 `+`，然后按退格删除它 并输入 `*`。
 
     irb(main):004:0> 3*2
     => 6
-{: .code .ruby-code}
 
 下面我们来试试次方：
 
     irb(main):005:0> 3**2
     => 9
-{: .code .ruby-code}
 
 在 Ruby 里 `**` 是”次方”的意思。但如果您想开根号呢？
 
     irb(main):006:0> Math.sqrt(9)
     => 3.0
-{: .code .ruby-code}
 
 等一下！上面那个东西是什么？您猜想：“它是不是真的对 9 开了平方呢？” 您猜对了！我们还是来仔细看一下。第一，什么是 `Math`？
 
@@ -90,7 +83,6 @@ nil，nil 也是 Ruby 的空值。
     => 16
     irb(main):009:0> Math.sqrt(a+b)
     => 5.0
-{: .code .ruby-code}
 
 尽管这是个非常好的计算器，我们已经要从基本的 `Hello World` 程序向更有意思的领域迈进了。[现在就开始吧](2/)
 

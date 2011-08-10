@@ -27,7 +27,6 @@ Metode `say_hai` kita sudah punya trik sedikit:
         puts "Hello #{@names}!"
       end
     end
-{: .code .ruby-code}
 
 Sekarang kelas memperhatikan parameter `@names` untuk menentukan
 pilihan. Jika parameter nil, maka print tiga dot (...). Ya karena memang
@@ -46,7 +45,6 @@ Mari kita perhatikan iterator lebih dalam lagi:
     @names.each do |name|
       puts "Hello #{name}!"
     end
-{: .code .ruby-code}
 
 `each` merupakan metode yang menerima blok kode yang kemudian
 menjalankan blok kode tersebut untuk setiap elemen dalam list, dan
@@ -62,7 +60,6 @@ Kebanyakan bahasa-bahasa pemrograman lain menangani list dengan
 menggunakan perulangan `for`, kalau di C seperti ini:
 
     for (i=0; i<total_elemen i>
-{: .code .ruby-code}
 
 Kode diatas memang jalan, tetapi tidak begitu elegan. Anda perlu
 variabel `i`, untuk mencari tahu berapa panjang/total list, dan juga
@@ -91,7 +88,6 @@ diluar dari sepengatahuan user)
         puts "Sampai jumpa #{@names}. Datang lagi ya!"
       end
     end
-{: .code .ruby-code}
 
 Metode `say_bye` tidak menggunakan `each`, tetapi memeriksa apakah
 `@names` merespon metode `join`, jika Ya, maka gunakan join. Tetapi jika
@@ -112,7 +108,6 @@ memanggil metode-metode pada kelas tersebut. Ada satu trik yang perlu
 diperhatikan di baris:
 
     if __FILE__ == $0
-{: .code .ruby-code}
 
 `__FILE__` adalah variabel magic yang berisi nama file saat ini. `$0`
 adalah nama file yang dipakai ketika memulai program. Pemeriksaan ini
