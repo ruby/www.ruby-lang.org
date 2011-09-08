@@ -113,6 +113,7 @@ Here is a list of popular tools used by Rubyists:
   * [Vim][26] with [vim-ruby][27] plugin and [Rsense][23]
   * [RubyMine][28]
   * [SciTe][29]
+  * [Netbeans][37]
 
 * On Windows:
   * [Notepad++][30]
@@ -168,3 +169,4 @@ list](/en/community/mailing-lists/) is a great place to start.
 [34]: http://www.barebones.com/products/textwrangler/ 
 [35]: http://ruby-doc.org 
 [36]: http://www.ruby-doc.org/bookstore 
+[37]: http://netbeans.org/ 
