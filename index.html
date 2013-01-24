@@ -27,7 +27,7 @@ layout: nil
       };
 
       var language = languages[window.navigator.language];
-      if (language == null) { language = 'en'; }
+      if (language == undefined) { language = 'en'; }
 
       document.location = "/" + language;
     </script>
