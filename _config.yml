@@ -125,4 +125,64 @@ nav:
       url:  security
     - name: About Ruby
       url:  about
+  de:
+    - name: Downloads
+      url:  downloads
+    - name: Dokumentation
+      url:  documentation
+    - name: Bibliotheken
+      url:  libraries
+    - name: Community
+      url:  community
+    - name: Neuigkeiten
+      url:  news
+    # - name: Sicherheit
+    #   url:  security
+    - name: Über Ruby
+      url:  about
+  es:
+    - name: Descargas
+      url:  downloads
+    - name: Documentación
+      url:  documentation
+    - name: Bibliotecas
+      url:  libraries
+    - name: Comunidad
+      url:  community
+    - name: Noticias
+      url:  news
+    # - name: Seguridad
+    #   url:  security
+    - name: Acerca de Ruby
+      url:  about
+  fr:
+    - name: Téléchargements
+      url:  downloads
+    - name: Documentation
+      url:  documentation
+    - name: Bibliothèques
+      url:  libraries
+    - name: Communauté
+      url:  community
+    - name: Actualités
+      url:  news
+    - name: Sécurité
+      url:  security
+    - name: À propos de Ruby
+      url:  about
+  it:
+    - name: Scarica
+      url:  downloads
+    - name: Documentazione
+      url:  documentation
+    - name: Librerie
+      url:  libraries
+    - name: Comunità
+      url:  community
+    - name: Notizie
+      url:  news
+    - name: Sicurezza
+      url:  security
+    - name: A proposito di Ruby
+      url:  about
 
