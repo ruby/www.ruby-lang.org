@@ -1,1 +1,8 @@
-<a href="/{{ page.lang }}/downloads/">Downloads</a><span class="separator"> | </span><a href="/{{ page.lang }}/documentation/">Documentation</a><span class="separator"> | </span><a href="/{{ page.lang }}/libraries/">Libraries</a><span class="separator"> | </span><a href="/{{ page.lang }}/community/">Community</a><span class="separator"> | </span><a href="/{{ page.lang }}/news/">News</a><span class="separator"> | </span><a href="/{{ page.lang }}/security/">Security</a><span class="separator"> | </span><a href="/{{ page.lang }}/about/">About Ruby</a>
+{% if site.nav[page.lang] %}
+  {% assign navlang = page.lang %}
+{% else %}
+  {% assign navlang = 'en' %}
+{% endif %}
+{% for link in site.nav[navlang] %}
+  <a href="/{{ page.lang }}/{{ link.url }}/">{{ link.name }}</a>{% unless forloop.last %}<span class="separator"> | </span>{% endunless %}
+{% endfor %}

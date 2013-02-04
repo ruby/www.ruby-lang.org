@@ -109,3 +109,20 @@ credits:
       Puoi contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       per domande e commenti riguardanti questo sito.
 
+nav:
+  en:
+    - name: Downloads
+      url:  downloads
+    - name: Documentation
+      url:  documentation
+    - name: Libraries
+      url:  libraries
+    - name: Community
+      url:  community
+    - name: News
+      url:  news
+    - name: Security
+      url:  security
+    - name: About Ruby
+      url:  about
+
