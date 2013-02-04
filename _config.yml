@@ -84,3 +84,12 @@ top_projects:
       applications. It is a Ruby library that works with Internet Explorer
       and Firefox.
 
+
+# Localization
+
+credits:
+  en: This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      It is proudly maintained by <a href="http://rubyidentity.org">members of the Ruby community</a>.
+      Please contact our <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      for questions or comments concerning this website.
+
