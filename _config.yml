@@ -84,3 +84,105 @@ top_projects:
       applications. It is a Ruby library that works with Internet Explorer
       and Firefox.
 
+
+# Localization
+
+credits:
+  en: This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      It is proudly maintained by <a href="http://rubyidentity.org">members of the Ruby community</a>.
+      Please contact our <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      for questions or comments concerning this website.
+  de: Diese Webseite wurde mit Ruby unter Verwendung von <a href="http://www.jekyllrb.com/">Jekyll</a> erstellt.
+      Sie wird mit Stolz von <a href="http://rubyidentity.org">Mitgliedern der Ruby-Community</a> gepflegt.
+      Bei Fragen oder Kommentaren, die diese Seite betreffen, kontaktieren Sie bitte
+      unseren <a href="mailto:webmaster@ruby-lang.org">Webmaster</a> (in Englisch).
+  es: Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      Es orgullosamente mantenido por <a href="http://rubyidentity.org">miembros de la comunidad Ruby</a>.
+      Por favor contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      si tienes preguntas o comentarios al respecto del sitio web.
+  fr: Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      Il est fièrement maintenu par des <a href="http://rubyidentity.org">membres de la communauté Ruby</a>.
+      Veuillez contacter notre <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      pour toute question ou tout commentaire le concernant.
+  it: Questo sito è stato sviluppato con Ruby e <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      È curato con dedizione dai <a href="http://rubyidentity.org">membri della comunità di Ruby</a>.
+      Puoi contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      per domande e commenti riguardanti questo sito.
+
+nav:
+  en:
+    - name: Downloads
+      url:  downloads
+    - name: Documentation
+      url:  documentation
+    - name: Libraries
+      url:  libraries
+    - name: Community
+      url:  community
+    - name: News
+      url:  news
+    - name: Security
+      url:  security
+    - name: About Ruby
+      url:  about
+  de:
+    - name: Downloads
+      url:  downloads
+    - name: Dokumentation
+      url:  documentation
+    - name: Bibliotheken
+      url:  libraries
+    - name: Community
+      url:  community
+    - name: Neuigkeiten
+      url:  news
+    # - name: Sicherheit
+    #   url:  security
+    - name: Über Ruby
+      url:  about
+  es:
+    - name: Descargas
+      url:  downloads
+    - name: Documentación
+      url:  documentation
+    - name: Bibliotecas
+      url:  libraries
+    - name: Comunidad
+      url:  community
+    - name: Noticias
+      url:  news
+    # - name: Seguridad
+    #   url:  security
+    - name: Acerca de Ruby
+      url:  about
+  fr:
+    - name: Téléchargements
+      url:  downloads
+    - name: Documentation
+      url:  documentation
+    - name: Bibliothèques
+      url:  libraries
+    - name: Communauté
+      url:  community
+    - name: Actualités
+      url:  news
+    - name: Sécurité
+      url:  security
+    - name: À propos de Ruby
+      url:  about
+  it:
+    - name: Scarica
+      url:  downloads
+    - name: Documentazione
+      url:  documentation
+    - name: Librerie
+      url:  libraries
+    - name: Comunità
+      url:  community
+    - name: Notizie
+      url:  news
+    - name: Sicurezza
+      url:  security
+    - name: A proposito di Ruby
+      url:  about
+
