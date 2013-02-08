@@ -4,18 +4,18 @@ title: "下载 Ruby - Ruby 官方网站"
 lang: zh_cn
 ---
 
-在这里可以下载到适合您的最新的 Ruby 版本，当前稳定的版本是 1.8.6 。下载前请先阅读 [Ruby 开源许可][1] 。
+在这里可以下载到适合您的最新的 Ruby 版本，当前稳定的版本是
+{{ site.downloads.stable.version }} 。下载前请先阅读 [Ruby 开源许可][1] 。
 
 ### Ruby 源代码
 
 如果您欲使之与您的平台更为兼容或者需要专一设置您的环境，那么从源代码安装是最好的解决方案。如果有预先做好的 packages
 需要安装到您的平台上，这也是一个好的方法。
 
-* [Ruby 1.9.1-p0][2] (md5: 50e4f381ce68c6de72bace6d75f0135b) 稳定版 (*推荐*)
-* [Ruby 1.8.6-p114][3] (md5: 500a9f11613d6c8ab6dcf12bec1b3ed3) 稳定版
-  (*推荐*)
-* [稳定版快照][4] 这里的 tar’ed 和 gzip’ed 文件是最新稳定的 CVS。它应该比上次发布的版本更稳定。
-* [开发版快照][5] 这里的 tar’ed 和 gzip’ed 文件是最新的 CVS。它可能包含一些没有解决的问题。
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5: {{ site.downloads.stable.url }}) 稳定版 (*推荐*)
+* [稳定版快照][3] 这里的 tar’ed 和 gzip’ed 文件是最新稳定的 CVS。它应该比上次发布的版本更稳定。
+* [开发版快照][4] 这里的 tar’ed 和 gzip’ed 文件是最新的 CVS。它可能包含一些没有解决的问题。
 
 更多信息见 [Ruby Core](/zh_CN/community/ruby-core/) 页。
 
@@ -70,10 +70,9 @@ LightTPD, and MySQL on Tiger*][16] 将快速的教您启动和运行。
 
 
 [1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p114.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [6]: http://rubyinstaller.rubyforge.org/wiki/wiki.pl?RubyInstaller 
 [7]: http://rubyforge.org/frs/download.php/29263/ruby186-26.exe 
 [8]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.6-p111-i386-mswin32.zip 
