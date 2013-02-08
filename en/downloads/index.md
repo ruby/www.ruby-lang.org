@@ -5,7 +5,7 @@ lang: en
 ---
 
 Here you can get the latest Ruby distributions in your favorite flavor.
-The current stable version is 1.9.2.
+The current stable version is {{ site.downloads.stable.version }}.
 
 ### Three Ways of Installing Ruby
 
@@ -37,12 +37,11 @@ are no other premade packages for your platform.
 If you have an issue compiling Ruby, consider using one of the third
 party tools in the next section. They may help you.
 
-* [Ruby {{ site.downloads.source.stable.version }}]({{ site.downloads.source.stable.url }})
-  (md5: {{ site.downloads.source.stable.md5 }}) Stable (*recommended*)
-* [Stable Snapshot]({{ site.downloads.source.stable_snapshot.url }})
-  This is a tarball of the latest snapshot of the Stable branch.
-* [Nightly Snapshot]({{ site.downloads.source.nightly_snapshot.url }})
-  This is a tarball of whatever is in svn, made nightly.
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5: {{ site.downloads.stable.md5 }}) Stable (*recommended*)
+* [Stable Snapshot][3] This is a tarball of the latest snapshot of the Stable
+  branch.
+* [Nightly Snapshot][4] This is a tarball of whatever is in svn, made nightly.
   This may contain bugs or other issues, use at your own risk!
 
 For information about the Ruby Subversion and Git repositories, see our
@@ -200,6 +199,10 @@ programming language”.
 
 
 
+[1]: http://www.ruby-lang.org/en/about/license.txt 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [5]: https://github.com/vertiginous/pik 
 [6]: http://git-scm.com/ 
 [7]: https://rvm.beginrescueend.com/rvm/install/ 

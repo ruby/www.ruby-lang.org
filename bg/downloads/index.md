@@ -5,8 +5,8 @@ lang: bg
 ---
 
 Това е мястото, от където можете да свалите последната версия на Ruby.
-Наличната стабилна версия е 1.9.1. Препоръчително е да прочете [Ruby’s
-License][1].
+Наличната стабилна версия е {{ site.downloads.stable.version }}.
+Препоръчително е да прочете [Ruby’s License][1].
 
 ### Инсталация от сорс код
 
@@ -15,12 +15,12 @@ License][1].
 вашата среда. Това е и добър вариант, ако липсва прекомпилиран пакет за
 вашата платформа.
 
-* [Ruby {{ site.downloads.source.stable.version }}]({{ site.downloads.source.stable.url }})
+* [Ruby {{ site.downloads.source.stable.version }}][2]
   (md5:  {{ site.downloads.source.stable.md5 }})
   стабилна версия (*препоръчително*)
-* [Стабилен Snapshot]({{ site.downloads.source.stable_snapshot.url }})
+* [Стабилен Snapshot][3]
   Това е архвирано копие на последната стабилна версия в SVN хранилището.
-* [Нощен Snapshot]({{ site.downloads.source.nightly_snapshot.url }})
+* [Нощен Snapshot][4]
   Това е архивирано копие на последната версия в SVN хранилището.
   Възможно е да съдържа некоригирани проблеми.
 
@@ -121,9 +121,9 @@ Ruby идва инсталиран по подразбиране в друга �
 
 
 [1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: ftp://ftp.ruby-lang.org:21//pub/ruby/1.9/ruby-1.9.2-p0.tar.gz 
-[3]: ftp://ftp.ruby-lang.org:21//pub/ruby/ruby-1.9-stable.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [5]: http://rubyinstaller.org/ 
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
 [7]: http://rubyforge.org/frs/download.php/72085/rubyinstaller-1.8.7-p302.exe 
