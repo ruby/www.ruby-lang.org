@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "IP Address Change"
+author: "Shugo Maeda"
 lang: en
 ---
 

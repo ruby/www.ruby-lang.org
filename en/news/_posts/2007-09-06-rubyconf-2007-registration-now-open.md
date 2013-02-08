@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2007 Registration Now Open"
+author: "james"
 lang: en
 ---
 

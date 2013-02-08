@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "한국어 홈페이지 디자인 개편"
+author: "Bryan Kang"
 lang: ko
 ---
 

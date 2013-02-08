@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Conference 2003"
+author: "Unknown Author"
 lang: de
 ---
 

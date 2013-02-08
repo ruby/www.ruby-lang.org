@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Arbitrary code execution vulnerabilities"
+author: "Shugo Maeda"
 lang: en
 ---
 

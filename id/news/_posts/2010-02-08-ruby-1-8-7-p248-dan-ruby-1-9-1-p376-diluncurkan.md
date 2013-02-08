@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-p248 dan Ruby 1.9.1-p376 diluncurkan"
+author: "Hendy Irawan"
 lang: id
 ---
 

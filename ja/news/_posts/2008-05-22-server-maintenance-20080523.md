@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "サーバメンテナンス"
+author: "maki"
 lang: ja
 ---
 

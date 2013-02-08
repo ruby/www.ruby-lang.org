@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "net/httpsライブラリにおける「中間者によるなりすまし攻撃」に対する脆弱性について"
+author: "Shugo Maeda"
 lang: ja
 ---
 

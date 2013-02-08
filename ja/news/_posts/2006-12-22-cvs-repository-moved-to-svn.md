@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "SVNへの移行"
+author: "usa"
 lang: ja
 ---
 

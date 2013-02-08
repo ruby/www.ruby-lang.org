@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2005 Registration: Time is running out"
+author: "james"
 lang: en
 ---
 

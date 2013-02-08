@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.6 Maintainerwechsel"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Sicherheitslücke in FileUtils durch Race-Conditions in Symlinks"
+author: "Quintus"
 lang: de
 ---
 

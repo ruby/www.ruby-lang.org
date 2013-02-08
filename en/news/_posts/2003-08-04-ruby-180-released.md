@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "ruby-1.8.0 released!"
+author: "sughimsi"
 lang: en
 ---
 

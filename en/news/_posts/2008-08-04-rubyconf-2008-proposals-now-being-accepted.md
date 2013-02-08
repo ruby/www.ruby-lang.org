@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2008 Proposals Now Being Accepted"
+author: "Shugo Maeda"
 lang: en
 ---
 

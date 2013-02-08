@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Membentuk Aplikasi JSF dengan JRuby dan ActiveRecord-JDBC"
+author: "Hendy Irawan"
 lang: id
 ---
 

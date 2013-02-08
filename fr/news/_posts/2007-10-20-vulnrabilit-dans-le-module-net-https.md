@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Vulnérabilité dans le module Net::HTTPS"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

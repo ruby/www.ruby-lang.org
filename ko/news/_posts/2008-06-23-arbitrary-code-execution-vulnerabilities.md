@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "임의의 코드를 실행할 수 있는 보안 취약성"
+author: "Bryan Kang"
 lang: ko
 ---
 

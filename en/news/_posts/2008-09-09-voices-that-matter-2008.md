@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Voices That Matter 2008"
+author: "James Edward Gray II"
 lang: en
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.2-p136リリース"
+author: "usa"
 lang: ja
 ---
 

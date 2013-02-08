@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Anonymous CVS Service Stopped"
+author: "Shugo Maeda"
 lang: ko
 ---
 

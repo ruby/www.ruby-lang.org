@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "CVS Repository ab 16. März nicht mehr verfügbar"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

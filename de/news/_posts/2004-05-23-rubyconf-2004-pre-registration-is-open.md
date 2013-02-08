@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2004 pre-registration is open"
+author: "Shugo Maeda"
 lang: de
 ---
 

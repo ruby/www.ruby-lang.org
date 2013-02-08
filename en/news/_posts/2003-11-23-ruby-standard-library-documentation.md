@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Standard Library Documentation"
+author: "Unknown Author"
 lang: en
 ---
 

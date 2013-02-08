@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Changement d'adresse IP"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

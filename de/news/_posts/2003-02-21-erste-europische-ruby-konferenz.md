@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Erste Europäische  Ruby Konferenz"
+author: "NaHi"
 lang: de
 ---
 

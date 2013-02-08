@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Vulnérabilité de type DoS dans la librairie BigDecimal"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

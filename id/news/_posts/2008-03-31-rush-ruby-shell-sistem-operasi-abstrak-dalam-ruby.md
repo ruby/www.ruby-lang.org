@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rush: Ruby Shell-Sistem Operasi Abstrak dalam Ruby"
+author: "Hendy Irawan"
 lang: id
 ---
 

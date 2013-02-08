@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2004 registration now open"
+author: "David Black"
 lang: en
 ---
 

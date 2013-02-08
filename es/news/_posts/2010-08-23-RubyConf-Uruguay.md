@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf Uruguay,  29 y 30 de Octubre de 2010."
+author: "Manuel Ramos"
 lang: es
 ---
 

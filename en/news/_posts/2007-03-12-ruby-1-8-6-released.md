@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.6 released!"
+author: "Shugo Maeda"
 lang: en
 ---
 

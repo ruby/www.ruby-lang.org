@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby In 2002: Contents Wanted"
+author: "usa"
 lang: en
 ---
 

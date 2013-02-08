@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Gathering Milis id-ruby Ketiga"
+author: "Hendy Irawan"
 lang: id
 ---
 

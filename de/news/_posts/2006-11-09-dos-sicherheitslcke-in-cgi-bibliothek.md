@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "DoS Sicherheitslücke in CGI Bibliothek"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

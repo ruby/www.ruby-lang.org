@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rubyロゴコンテスト"
+author: "maki"
 lang: ja
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-preview4 公開とリリース前最後のプレビューのお願い"
+author: "maki"
 lang: ja
 ---
 

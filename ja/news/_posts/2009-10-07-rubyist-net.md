@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "rubyist.netのサービス停止"
+author: "Shugo Maeda"
 lang: ja
 ---
 

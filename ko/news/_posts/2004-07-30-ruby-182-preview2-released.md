@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "ruby 1.8.2 preview2 released"
+author: "David Black"
 lang: ko
 ---
 

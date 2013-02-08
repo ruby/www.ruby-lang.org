@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Multiple vulnerabilità in Ruby"
+author: "Fabio Cevasco"
 lang: it
 ---
 

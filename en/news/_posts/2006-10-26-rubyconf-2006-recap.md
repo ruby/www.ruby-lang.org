@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2006 Recap"
+author: "James Edward Gray II"
 lang: en
 ---
 

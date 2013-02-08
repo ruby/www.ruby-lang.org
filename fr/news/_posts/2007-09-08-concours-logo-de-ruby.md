@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Concours : logo de Ruby"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

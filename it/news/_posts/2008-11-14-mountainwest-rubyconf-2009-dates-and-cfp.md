@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Date e CFP per MountainWest RubyConf 2009"
+author: "Fabio Cevasco"
 lang: it
 ---
 

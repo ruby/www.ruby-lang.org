@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Planned maintenance of redmine.ruby-lang.org"
+author: "Yugui"
 lang: en
 ---
 

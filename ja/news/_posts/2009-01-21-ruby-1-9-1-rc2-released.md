@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.1 RC2 公開"
+author: "maki"
 lang: ja
 ---
 

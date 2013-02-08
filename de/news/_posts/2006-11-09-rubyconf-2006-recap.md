@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2006 Review"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

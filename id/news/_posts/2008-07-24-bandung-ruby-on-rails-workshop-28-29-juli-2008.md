@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Bandung Ruby on Rails Workshop, 28 - 29 Juli 2008"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 

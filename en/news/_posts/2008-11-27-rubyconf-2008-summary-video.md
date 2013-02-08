@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2008 Summary Video"
+author: "James Edward Gray II"
 lang: en
 ---
 

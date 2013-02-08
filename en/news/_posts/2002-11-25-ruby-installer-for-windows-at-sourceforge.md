@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Installer For Windows at sourceforge"
+author: "NaHi"
 lang: en
 ---
 
@@ -17,11 +18,11 @@ Excerpted from the site.
     contains the full text of the book, "Programming Ruby:
     The Pragmatic Programmer's Guide". 
 
-It’s a must item for Ruby users on Win32 box. Check also <a
-href=\"http://www.dm4lab.to/&lt;sub&gt;usa/ruby/index\_en.html#download%E2%80%9D&gt;usa%E2%80%99s%20binaries&lt;/a&gt;%20and%0A&lt;a%20href=\"
-http:>eban/ruby/binaries/”&gt;eban’s win32 binaries to get Win32
-binaries with dozens of popular extensions.
+It’s a must item for Ruby users on Win32 box. Check also
+[eban/ruby/binaries/”&gt;eban’s win32 binaries][2]{: http:=""} to get
+Win32 binaries with dozens of popular extensions.
 
 
 
 [1]: http://rubyinstaller.sourceforge.net/ 
+[2]: http://www.dm4lab.to/&lt;sub&gt;usa/ruby/index_en.html#download%E2%80%9D&gt;usa%E2%80%99s%20binaries&lt;/a&gt;%20and%0A&lt;a%20href= 

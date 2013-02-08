@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.2 preview1 공개"
+author: "Moru"
 lang: ko
 ---
 

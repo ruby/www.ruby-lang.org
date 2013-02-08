@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby公式ロゴ公開"
+author: "Shugo Maeda"
 lang: ja
 ---
 

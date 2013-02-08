@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "helium.ruby-lang.org was cracked"
+author: "Shugo Maeda"
 lang: en
 ---
 

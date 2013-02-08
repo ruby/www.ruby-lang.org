@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Launching Planet Ruby Indonesia"
+author: "Hendy Irawan"
 lang: id
 ---
 

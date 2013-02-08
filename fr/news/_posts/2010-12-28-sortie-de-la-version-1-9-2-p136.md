@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Sortie de la version 1.9.2-p136"
+author: "Bruno Michel"
 lang: fr
 ---
 

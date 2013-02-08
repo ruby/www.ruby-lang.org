@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-p299 veröffentlicht"
+author: "Quintus"
 lang: de
 ---
 

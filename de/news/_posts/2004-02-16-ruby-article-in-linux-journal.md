@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Article in Linux Journal"
+author: "Unknown Author"
 lang: de
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Anonyous CVS service restart"
+author: "Shugo Maeda"
 lang: en
 ---
 

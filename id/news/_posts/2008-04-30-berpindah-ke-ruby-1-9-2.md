@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Berpindah ke Ruby 1.9"
+author: "Hendy Irawan"
 lang: id
 ---
 

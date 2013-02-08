@@ -1,5 +1,5 @@
 ---
-layout: news_post
+layout: default
 title: "RuPy 2012 muito em breve"
 lang: pt
 ---

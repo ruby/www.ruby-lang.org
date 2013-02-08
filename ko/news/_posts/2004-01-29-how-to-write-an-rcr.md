@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "How to write an RCR"
+author: "Unknown Author"
 lang: ko
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.2 released!"
+author: "maki"
 lang: ko
 ---
 

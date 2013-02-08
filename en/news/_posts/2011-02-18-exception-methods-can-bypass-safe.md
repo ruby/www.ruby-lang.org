@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Exception methods can bypass $SAFE"
+author: "Yugui"
 lang: en
 ---
 

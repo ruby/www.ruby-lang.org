@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rails Framework 상의 웹 프로그램 개발 세미나"
+author: "Bryan Kang"
 lang: ko
 ---
 

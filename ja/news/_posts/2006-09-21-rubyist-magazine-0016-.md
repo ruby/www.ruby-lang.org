@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rubyist Magazine 0016号 発行"
+author: "SASADA Koichi"
 lang: ja
 ---
 

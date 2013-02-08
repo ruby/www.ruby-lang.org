@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Membangun Sebuah Aplikasi dengan Merb Mulai Dari Awal Hingga Akhir"
+author: "Hendy Irawan"
 lang: id
 ---
 

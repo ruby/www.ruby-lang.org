@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "WEBrick::이스케이프 시퀀스 취약점"
+author: "Moru"
 lang: ko
 ---
 

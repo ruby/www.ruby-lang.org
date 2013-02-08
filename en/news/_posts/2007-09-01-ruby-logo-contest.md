@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Logo Contest"
+author: "james"
 lang: en
 ---
 

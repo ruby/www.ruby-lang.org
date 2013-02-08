@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Net::HTTPS Sicherheitslücke"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Arrêt définitif du service CVS"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

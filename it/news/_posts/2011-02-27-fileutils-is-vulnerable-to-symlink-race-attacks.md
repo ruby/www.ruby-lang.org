@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "FileUtils vulnerabile ad attacchi dovuti a symlink race conditions"
+author: "Fabio Cevasco"
 lang: it
 ---
 

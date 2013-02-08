@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "CVSサービスの廃止"
+author: "usa"
 lang: ja
 ---
 

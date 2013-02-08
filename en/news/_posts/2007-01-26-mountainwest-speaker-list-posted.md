@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "MountainWest Speaker List Posted"
+author: "james"
 lang: en
 ---
 

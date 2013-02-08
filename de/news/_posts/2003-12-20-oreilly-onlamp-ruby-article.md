@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "O'Reilly ONLamp Ruby article"
+author: "sughimsi"
 lang: de
 ---
 

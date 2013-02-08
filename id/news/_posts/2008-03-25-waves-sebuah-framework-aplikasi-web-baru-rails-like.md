@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Waves: Sebuah Framework Aplikasi Web Baru Rails-like"
+author: "Hendy Irawan"
 lang: id
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "WEBrick \"Escapesequence Injection\" Schwachstelle"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

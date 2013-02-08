@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rubyに複数の脆弱性"
+author: "Shugo Maeda"
 lang: ja
 ---
 

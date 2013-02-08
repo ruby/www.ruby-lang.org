@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "MountainWest RubyConf Schedule"
+author: "james"
 lang: en
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Doodle: Cara Baru Membentuk dan Mendefinisikan Ruby Classes"
+author: "Hendy Irawan"
 lang: id
 ---
 

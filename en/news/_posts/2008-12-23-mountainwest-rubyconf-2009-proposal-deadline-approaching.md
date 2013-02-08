@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "MountainWest RubyConf 2009 Proposal Deadline Approaching"
+author: "james"
 lang: en
 ---
 

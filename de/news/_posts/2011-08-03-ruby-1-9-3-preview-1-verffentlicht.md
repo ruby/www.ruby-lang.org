@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3 Preview 1 veröffentlicht"
+author: "Quintus"
 lang: de
 ---
 

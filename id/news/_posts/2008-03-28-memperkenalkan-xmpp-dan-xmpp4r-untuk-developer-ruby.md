@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Memperkenalkan XMPP dan XMPP4R Untuk Developer Ruby"
+author: "Hendy Irawan"
 lang: id
 ---
 

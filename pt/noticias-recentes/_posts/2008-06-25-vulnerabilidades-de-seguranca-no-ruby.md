@@ -1,5 +1,5 @@
 ---
-layout: news_post
+layout: default
 title: "Vulnerabilidades de segurança no Ruby"
 lang: pt
 ---

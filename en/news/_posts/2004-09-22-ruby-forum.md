@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Forum"
+author: "Shugo Maeda"
 lang: en
 ---
 

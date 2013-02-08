@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Menggunakan Processing Graphics System Ruby"
+author: "Hendy Irawan"
 lang: id
 ---
 

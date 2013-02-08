@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "CVSweb Service läuft nun wieder"
+author: "Shugo Maeda"
 lang: de
 ---
 

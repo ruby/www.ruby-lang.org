@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "CVS Repository moved to SVN"
+author: "James Edward Gray II"
 lang: en
 ---
 

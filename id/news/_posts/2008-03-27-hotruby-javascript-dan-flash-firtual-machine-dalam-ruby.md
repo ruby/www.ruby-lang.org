@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "HotRuby: JavaScript dan Flash Firtual Machine dalam Ruby"
+author: "Hendy Irawan"
 lang: id
 ---
 

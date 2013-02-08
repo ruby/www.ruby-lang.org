@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Tutto esaurito a RubyConf 2008"
+author: "Fabio Cevasco"
 lang: it
 ---
 

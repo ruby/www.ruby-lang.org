@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Fukuoka Ruby Award 2011 - Primo Premio: $12,000!"
+author: "Fabio Cevasco"
 lang: it
 ---
 

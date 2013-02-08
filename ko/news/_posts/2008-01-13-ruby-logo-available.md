@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "루비 로고를 사용할 수 있습니다"
+author: "Bryan Kang"
 lang: ko
 ---
 

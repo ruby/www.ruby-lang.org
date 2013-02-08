@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Proposals now being accepted for RubyConf 2007 presentations"
+author: "james"
 lang: en
 ---
 

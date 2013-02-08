@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Matz visita San Francisco  y Silicon Valley."
+author: "Manuel Ramos"
 lang: es
 ---
 

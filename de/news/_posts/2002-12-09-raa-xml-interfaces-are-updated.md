@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RAA XML Interfaces are updated"
+author: "Matz"
 lang: de
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Euruko 2007: The European Ruby Conference"
+author: "james"
 lang: en
 ---
 

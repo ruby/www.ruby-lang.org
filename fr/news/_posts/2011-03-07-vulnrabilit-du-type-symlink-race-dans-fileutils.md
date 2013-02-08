@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Vulnérabilité  du type symlink race dans FileUtils"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

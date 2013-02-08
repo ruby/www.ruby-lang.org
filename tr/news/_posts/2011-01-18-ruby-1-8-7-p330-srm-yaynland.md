@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-p330 Sürümü Yayınlandı"
+author: "Ümit Kayacık"
 lang: tr
 ---
 

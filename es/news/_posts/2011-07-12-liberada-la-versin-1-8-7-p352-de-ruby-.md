@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Liberada la versión 1.8.7-p352 de Ruby."
+author: "Manuel Ramos"
 lang: es
 ---
 

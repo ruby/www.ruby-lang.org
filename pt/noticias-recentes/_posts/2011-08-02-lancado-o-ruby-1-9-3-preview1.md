@@ -1,5 +1,5 @@
 ---
-layout: news_post
+layout: default
 title: "Lançado o Ruby 1.9.3 preview1"
 lang: pt
 ---

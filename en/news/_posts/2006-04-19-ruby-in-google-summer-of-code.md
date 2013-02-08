@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby in Google Summer of Code"
+author: "David Black"
 lang: en
 ---
 

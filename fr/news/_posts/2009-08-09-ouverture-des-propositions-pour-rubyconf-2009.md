@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ouverture des propositions pour RubyConf 2009"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

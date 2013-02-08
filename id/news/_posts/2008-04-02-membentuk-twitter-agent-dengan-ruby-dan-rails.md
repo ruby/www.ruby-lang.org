@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Membentuk Twitter Agent dengan Ruby dan Rails"
+author: "Hendy Irawan"
 lang: id
 ---
 

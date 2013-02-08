@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Europäische Ruby Konferenz 2011 (EuRuKo)"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

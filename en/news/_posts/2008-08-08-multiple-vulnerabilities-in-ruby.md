@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Multiple vulnerabilities in Ruby"
+author: "Shugo Maeda"
 lang: en
 ---
 

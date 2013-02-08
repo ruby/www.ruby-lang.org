@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "21 Trik-Trik Ruby"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 
@@ -115,7 +116,7 @@ Daripada mendefinisikan variabel lokal dengan beragam konten awal
 bisa langsung mendefinisikan variabel lokal “sekaligus” ketika operasi
 sedang berlangsung:
 
-    (z ||= [])
+    (z ||= []) 
 
 **8 – Penggunaan yang-bukan-string maupun yang-bukan-simbol sebagai hash
 key**
@@ -141,7 +142,7 @@ yang pendek-pendek:
 
     queue = []
     %w{hello x world}.each do |word|
-      queue
+      queue 
 
 **10 – Menentukan eksekusi kode**
 

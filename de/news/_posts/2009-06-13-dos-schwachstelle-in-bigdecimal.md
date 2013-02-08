@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "DoS Schwachstelle in BigDecimal"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

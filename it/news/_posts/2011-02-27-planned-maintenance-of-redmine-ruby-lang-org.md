@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Manutenzione pianificata di redmine.ruby-lang.org"
+author: "Fabio Cevasco"
 lang: it
 ---
 

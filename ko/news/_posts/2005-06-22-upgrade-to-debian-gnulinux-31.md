@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Upgrade to Debian GNU/Linux 3.1"
+author: "Shugo Maeda"
 lang: ko
 ---
 

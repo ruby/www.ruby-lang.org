@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Sortie de Ruby 1.9.1"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

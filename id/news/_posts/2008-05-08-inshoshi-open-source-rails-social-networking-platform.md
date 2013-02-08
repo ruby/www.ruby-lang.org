@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Inshoshi: Open-Source Rails, Social Networking Platform"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 

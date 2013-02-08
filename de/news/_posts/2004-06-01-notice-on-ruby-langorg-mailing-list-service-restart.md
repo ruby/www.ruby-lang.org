@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Notice on ruby-lang.org mailing list service restart"
+author: "Shugo Maeda"
 lang: de
 ---
 

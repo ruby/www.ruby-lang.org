@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-p160 und 1.8.6-p368 veröffentlicht"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

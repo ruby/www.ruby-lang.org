@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Framework 2.1 : RubyOnRails vs. Django"
+author: "Bryan Kang"
 lang: ko
 ---
 

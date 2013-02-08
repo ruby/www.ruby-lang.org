@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2007 : inscriptions ouvertes"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

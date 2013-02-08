@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "2009年11月・12月開催の地域Ruby会議(Regional RubyKaigi)のおしらせ"
+author: "KAKUTANI Shintaro"
 lang: ja
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "CVS Service wurde wieder gestartet"
+author: "Shugo Maeda"
 lang: de
 ---
 

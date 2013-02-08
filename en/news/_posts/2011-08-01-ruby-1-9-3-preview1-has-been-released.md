@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3 preview1 has been released"
+author: "James Edward Gray II"
 lang: en
 ---
 

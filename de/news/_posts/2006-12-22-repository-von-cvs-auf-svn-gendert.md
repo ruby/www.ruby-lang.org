@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Repository von CVS auf SVN geändert"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

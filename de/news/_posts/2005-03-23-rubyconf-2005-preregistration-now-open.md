@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2005 Preregistration now open"
+author: "Unknown Author"
 lang: de
 ---
 

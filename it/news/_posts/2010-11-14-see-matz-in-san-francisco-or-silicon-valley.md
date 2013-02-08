@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Vai a vedere Matz a San Francisco o Silicon Valley"
+author: "Fabio Cevasco"
 lang: it
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Manutenzione del server"
+author: "Fabio Cevasco"
 lang: it
 ---
 

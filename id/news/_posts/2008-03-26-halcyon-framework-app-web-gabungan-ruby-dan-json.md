@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Halcyon:  Framework app web Gabungan Ruby dan JSON"
+author: "Hendy Irawan"
 lang: id
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Call for Proposals for RubyConf 2009"
+author: "james"
 lang: en
 ---
 

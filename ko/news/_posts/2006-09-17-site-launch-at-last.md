@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby-Lang 디자인 개편"
+author: "Bryan Kang"
 lang: ko
 ---
 

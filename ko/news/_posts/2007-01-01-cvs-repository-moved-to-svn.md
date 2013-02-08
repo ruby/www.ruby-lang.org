@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "루비 소스 저장소가 SVN으로 옮겨졌습니다"
+author: "Bryan Kang"
 lang: ko
 ---
 

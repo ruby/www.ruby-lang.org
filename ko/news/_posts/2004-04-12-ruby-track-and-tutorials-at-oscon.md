@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Track and Tutorials at OSCON"
+author: "Unknown Author"
 lang: ko
 ---
 

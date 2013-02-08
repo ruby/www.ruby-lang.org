@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Google SketchUp Ruby API - Ruby 官方网站"
+author: "XiaoBo Liu"
 lang: zh_cn
 ---
 

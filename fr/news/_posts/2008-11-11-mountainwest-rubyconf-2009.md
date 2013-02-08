@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "MountainWest RubyConf 2009"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

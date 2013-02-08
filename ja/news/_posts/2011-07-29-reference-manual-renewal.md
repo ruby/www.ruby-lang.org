@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "リファレンスマニュアル移行のお知らせ"
+author: "okkez"
 lang: ja
 ---
 

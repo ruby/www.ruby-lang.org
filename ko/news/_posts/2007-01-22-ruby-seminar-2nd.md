@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "루비 세미나 2회를 마쳤습니다"
+author: "Bryan Kang"
 lang: ko
 ---
 

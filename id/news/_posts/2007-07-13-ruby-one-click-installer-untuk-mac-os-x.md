@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby One-Click Installer untuk Mac OS X"
+author: "Hendy Irawan"
 lang: id
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Kemudahan Mengakses Dokumentasi Rails pada OS X"
+author: "Hendy Irawan"
 lang: id
 ---
 

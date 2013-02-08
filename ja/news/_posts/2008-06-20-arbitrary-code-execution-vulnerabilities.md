@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "任意のコードが実行される脆弱性について"
+author: "Shugo Maeda"
 lang: ja
 ---
 

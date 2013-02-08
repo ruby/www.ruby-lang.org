@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Summer of Code 2010"
+author: "Moru"
 lang: ko
 ---
 

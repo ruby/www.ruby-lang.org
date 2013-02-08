@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Pocket Reference"
+author: "Matz"
 lang: ko
 ---
 

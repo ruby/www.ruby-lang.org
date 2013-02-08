@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rubinius On Rails: Rubinius Telah Menjadi Implementasi Ruby Ketiga yang Menjalankan Rails"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 

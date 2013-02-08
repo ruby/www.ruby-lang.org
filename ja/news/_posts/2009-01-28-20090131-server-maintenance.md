@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "サーバメンテナンスのお知らせ"
+author: "maki"
 lang: ja
 ---
 

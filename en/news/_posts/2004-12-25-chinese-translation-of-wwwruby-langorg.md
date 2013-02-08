@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Chinese translation of www.ruby-lang.org"
+author: "maki"
 lang: en
 ---
 

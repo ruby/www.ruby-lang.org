@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Deutsches Rubyforum und Wiki wieder erreichbar"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

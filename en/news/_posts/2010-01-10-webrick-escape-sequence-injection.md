@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "WEBrick has an Escape Sequence Injection vulnerability"
+author: "Urabe Shyouhei"
 lang: en
 ---
 

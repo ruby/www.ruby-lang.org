@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "루비 로고 공모전"
+author: "Bryan Kang"
 lang: ko
 ---
 

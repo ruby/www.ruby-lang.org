@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.0 veröffentlicht"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

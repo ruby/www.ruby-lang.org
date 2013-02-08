@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Endlich ist das neue Design da!"
+author: "John Long"
 lang: de
 ---
 

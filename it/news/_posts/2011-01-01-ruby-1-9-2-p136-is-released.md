@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rilasciato Ruby 1.9.2-p136"
+author: "Fabio Cevasco"
 lang: it
 ---
 

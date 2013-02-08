@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "See Matz in San Francisco or Silicon Valley"
+author: "James Edward Gray II"
 lang: en
 ---
 

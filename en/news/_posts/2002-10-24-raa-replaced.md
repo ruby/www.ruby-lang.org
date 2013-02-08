@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RAA replaced"
+author: "Unknown Author"
 lang: en
 ---
 

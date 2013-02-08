@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Alles Gute zum Geburtstag Ruby"
+author: "NaHi"
 lang: de
 ---
 

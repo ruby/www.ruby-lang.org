@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "CVSweb service restart"
+author: "Shugo Maeda"
 lang: ko
 ---
 

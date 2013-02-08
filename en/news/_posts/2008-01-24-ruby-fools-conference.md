@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Fool's Conference"
+author: "James Edward Gray II"
 lang: en
 ---
 

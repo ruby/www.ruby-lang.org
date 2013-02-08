@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Les intervenants de MountainWest"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Conference season is here"
+author: "David Black"
 lang: ko
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Garden"
+author: "Matz"
 lang: ko
 ---
 

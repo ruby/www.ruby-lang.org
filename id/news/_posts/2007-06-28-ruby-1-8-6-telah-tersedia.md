@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.6 telah tersedia!"
+author: "Hendy Irawan"
 lang: id
 ---
 

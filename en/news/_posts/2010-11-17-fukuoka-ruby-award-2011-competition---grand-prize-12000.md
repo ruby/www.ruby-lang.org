@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Fukuoka Ruby Award 2011 Competition - Grand Prize, $12,000!"
+author: "James Edward Gray II"
 lang: en
 ---
 

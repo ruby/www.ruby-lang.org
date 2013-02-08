@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.3 released"
+author: "David Black"
 lang: ko
 ---
 

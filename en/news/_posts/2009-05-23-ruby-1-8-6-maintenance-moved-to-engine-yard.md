@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.6 maintenance moved to Engine Yard"
+author: "Urabe Shyouhei"
 lang: en
 ---
 

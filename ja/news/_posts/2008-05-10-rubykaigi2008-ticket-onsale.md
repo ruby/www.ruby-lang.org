@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "日本Ruby会議2008チケット発売開始"
+author: "maki"
 lang: ja
 ---
 

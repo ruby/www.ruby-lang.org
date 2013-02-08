@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "루비 1.9.0 공개"
+author: "Bryan Kang"
 lang: ko
 ---
 

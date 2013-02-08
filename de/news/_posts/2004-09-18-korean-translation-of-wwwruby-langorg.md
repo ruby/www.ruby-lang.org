@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Korean translation of www.ruby-lang.org"
+author: "Shugo Maeda"
 lang: de
 ---
 

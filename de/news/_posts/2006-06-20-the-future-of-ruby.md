@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "The Future of Ruby"
+author: "James Edward Gray II"
 lang: de
 ---
 

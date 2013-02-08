@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Matz on Craftsmanship"
+author: "Unknown Author"
 lang: de
 ---
 

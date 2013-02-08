@@ -1,0 +1,19 @@
+---
+layout: news_post
+title: "Rubyist Magazine 0040号 発行"
+author: "maki"
+lang: ja
+---
+
+[日本Rubyの会][1]有志による、ウェブ雑誌[Rubyist
+Magazine][2]の[0040号][3]がリリースされました([\[ruby-list:49015\]][4])。 お楽しみください。
+
+Posted by maki on 25 Nov 2012
+{: .post-info}
+
+
+
+[1]: http://ruby-no-kai.org 
+[2]: http://jp.rubyist.net/magazine/ 
+[3]: http://jp.rubyist.net/magazine/?0040 
+[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49015 

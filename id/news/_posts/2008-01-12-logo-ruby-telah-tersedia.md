@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Logo Ruby Telah Tersedia"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 

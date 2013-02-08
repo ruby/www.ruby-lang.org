@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "1.8.2 preview4 veröffentlicht"
+author: "maki"
 lang: de
 ---
 

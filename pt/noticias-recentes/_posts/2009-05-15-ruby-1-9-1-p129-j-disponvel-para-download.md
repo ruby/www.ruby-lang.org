@@ -1,5 +1,5 @@
 ---
-layout: news_post
+layout: default
 title: "Ruby 1.9.1-p129 já disponível para download"
 lang: pt
 ---

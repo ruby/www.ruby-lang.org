@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Red Dirt RubyConf 2010"
+author: "James Edward Gray II"
 lang: en
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "プログラミング言語Ruby、日経BP技術賞大賞受賞"
+author: "usa"
 lang: ja
 ---
 

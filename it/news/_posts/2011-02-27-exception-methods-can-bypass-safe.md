@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "I metodi della classe Exception possono bypassare $SAFE"
+author: "Fabio Cevasco"
 lang: it
 ---
 

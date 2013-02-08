@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Exception-Methoden können $SAFE umgehen"
+author: "Quintus"
 lang: de
 ---
 

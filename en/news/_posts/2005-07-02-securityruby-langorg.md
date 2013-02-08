@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "security@ruby-lang.org"
+author: "Shugo Maeda"
 lang: en
 ---
 

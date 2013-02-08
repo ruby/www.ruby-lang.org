@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Geplante Wartungsarbeiten an redmine.ruby-lang.org"
+author: "Quintus"
 lang: de
 ---
 

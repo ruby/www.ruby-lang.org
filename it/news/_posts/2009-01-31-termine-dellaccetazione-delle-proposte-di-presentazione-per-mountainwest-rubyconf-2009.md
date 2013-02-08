@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Termine dell'accetazione delle proposte di presentazione per MountainWest RubyConf 2009"
+author: "Fabio Cevasco"
 lang: it
 ---
 

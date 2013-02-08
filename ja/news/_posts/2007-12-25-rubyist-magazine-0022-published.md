@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rubyist Magazine 0022号 発行"
+author: "maki"
 lang: ja
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Server maintenance"
+author: "james"
 lang: en
 ---
 

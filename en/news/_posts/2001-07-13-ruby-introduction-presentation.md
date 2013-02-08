@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby introduction presentation"
+author: "Matz"
 lang: en
 ---
 

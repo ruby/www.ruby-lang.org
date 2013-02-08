@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Europäische Ruby Konferenz 2008 (EURUKO)"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Dutch translation of www.ruby-lang.org"
+author: "Unknown Author"
 lang: ko
 ---
 

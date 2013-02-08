@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "﻿﻿Liberaciones Navideñas"
+author: "Manuel Ramos"
 lang: es
 ---
 

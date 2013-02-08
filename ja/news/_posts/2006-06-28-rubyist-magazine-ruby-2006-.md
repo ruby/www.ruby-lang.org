@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rubyist Magazine 日本 Ruby カンファレンス 2006 特別号発行"
+author: "sughimsi"
 lang: ja
 ---
 

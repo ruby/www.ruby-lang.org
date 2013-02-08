@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rubyist Magazine 0027号 発行"
+author: "SHIMADA Koji"
 lang: ja
 ---
 

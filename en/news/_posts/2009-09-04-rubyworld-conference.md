@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyWorld Conference"
+author: "Shugo Maeda"
 lang: en
 ---
 

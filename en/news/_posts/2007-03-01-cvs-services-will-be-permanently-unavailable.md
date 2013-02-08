@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "CVS services will be permanently unavailable"
+author: "Shugo Maeda"
 lang: en
 ---
 

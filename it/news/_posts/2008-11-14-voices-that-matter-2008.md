@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Voices That Matter 2008"
+author: "Fabio Cevasco"
 lang: it
 ---
 

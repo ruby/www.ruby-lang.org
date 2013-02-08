@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Les méthodes d'exception peuvent outrepasser $SAFE"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

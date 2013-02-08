@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "New Ruby Web Magazine Goes Live"
+author: "james"
 lang: en
 ---
 

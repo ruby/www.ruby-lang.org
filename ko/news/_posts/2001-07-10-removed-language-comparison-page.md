@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Removed language comparison page"
+author: "Matz"
 lang: ko
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "1.8.2 preview3 released"
+author: "usa"
 lang: en
 ---
 

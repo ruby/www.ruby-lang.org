@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "루비 1.8.5 릴리즈!"
+author: "Bryan Kang"
 lang: ko
 ---
 

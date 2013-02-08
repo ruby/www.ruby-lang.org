@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2008 is Sold-out"
+author: "james"
 lang: en
 ---
 

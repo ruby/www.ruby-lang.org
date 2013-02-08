@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ebb: Server Web  yang Lebih Cepat dari Mongrel dan Thin"
+author: "Hendy Irawan"
 lang: id
 ---
 

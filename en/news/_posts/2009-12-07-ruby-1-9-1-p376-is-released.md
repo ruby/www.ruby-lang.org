@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.1-p376 is released"
+author: "Urabe Shyouhei"
 lang: en
 ---
 

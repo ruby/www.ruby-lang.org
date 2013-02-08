@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "WEBrickにエスケープシーケンス挿入の脆弱性"
+author: "Yugui"
 lang: ja
 ---
 

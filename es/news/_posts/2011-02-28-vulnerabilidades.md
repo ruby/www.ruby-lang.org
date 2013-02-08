@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Dos vulnerabilidades de seguridad fuerzan tres nuevas versiones de Ruby."
+author: "Manuel Ramos"
 lang: es
 ---
 

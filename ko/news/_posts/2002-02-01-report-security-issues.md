@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Report Security Issues"
+author: "Unknown Author"
 lang: ko
 ---
 

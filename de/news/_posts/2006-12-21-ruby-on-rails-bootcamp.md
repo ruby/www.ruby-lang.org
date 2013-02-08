@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby on Rails Bootcamp"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 

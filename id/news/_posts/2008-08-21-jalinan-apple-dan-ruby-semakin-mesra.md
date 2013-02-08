@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Jalinan Apple dan Ruby Semakin Mesra"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Brad Cox to keynote RubyConf 2004"
+author: "David Black"
 lang: en
 ---
 

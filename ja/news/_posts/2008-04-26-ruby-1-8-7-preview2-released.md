@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-preview2 公開"
+author: "maki"
 lang: ja
 ---
 

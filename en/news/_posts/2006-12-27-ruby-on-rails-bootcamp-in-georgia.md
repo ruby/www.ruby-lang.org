@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby on Rails Bootcamp in Georgia"
+author: "James Edward Gray II"
 lang: en
 ---
 

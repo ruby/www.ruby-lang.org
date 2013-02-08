@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Tulsa Ruby Workshop"
+author: "James Edward Gray II"
 lang: en
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2008 : un résumé en vidéo"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

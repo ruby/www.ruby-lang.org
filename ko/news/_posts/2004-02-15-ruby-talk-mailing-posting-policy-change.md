@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby-talk Mailing Posting Policy Change"
+author: "Unknown Author"
 lang: ko
 ---
 

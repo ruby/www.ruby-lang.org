@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "WWW/FTP service restart"
+author: "Shugo Maeda"
 lang: de
 ---
 

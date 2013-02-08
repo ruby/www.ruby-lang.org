@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rilasciato Ruby 1.9.1-preview"
+author: "Fabio Cevasco"
 lang: it
 ---
 

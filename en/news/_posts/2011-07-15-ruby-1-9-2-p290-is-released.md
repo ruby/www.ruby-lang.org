@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.2-p290 is released"
+author: "Shota Fukumori"
 lang: en
 ---
 

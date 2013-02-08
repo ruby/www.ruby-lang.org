@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "modules added to the Anonymous CVS repository"
+author: "Shugo Maeda"
 lang: en
 ---
 

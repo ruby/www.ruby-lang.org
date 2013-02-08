@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Buku ActiveMerchant oleh Cody Fauser"
+author: "Hendy Irawan"
 lang: id
 ---
 

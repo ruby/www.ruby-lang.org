@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Mack: Framework App Web \"Best Of The Rest\" yang Cepat"
+author: "Hendy Irawan"
 lang: id
 ---
 

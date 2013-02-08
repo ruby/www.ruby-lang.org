@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7 リリース!"
+author: "Shugo Maeda"
 lang: ja
 ---
 

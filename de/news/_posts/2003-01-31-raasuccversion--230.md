@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RAA.succ!.version #=> 2.3.0"
+author: "usa"
 lang: de
 ---
 

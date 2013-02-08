@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Video Riassuntivo di RubyConf 2008"
+author: "Fabio Cevasco"
 lang: it
 ---
 

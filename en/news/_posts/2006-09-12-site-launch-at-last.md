@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Site Launch At Last!"
+author: "John Long"
 lang: en
 ---
 

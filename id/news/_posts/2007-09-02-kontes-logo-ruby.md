@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Kontes Logo Ruby"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 

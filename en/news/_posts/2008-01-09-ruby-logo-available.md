@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby logo available"
+author: "James Edward Gray II"
 lang: en
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: news_post
+layout: default
 title: "Vulnerabilidade DoS na biblioteca REXML"
 lang: pt
 ---

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Engine Yard assurera le maintien de Ruby 1.8.6"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

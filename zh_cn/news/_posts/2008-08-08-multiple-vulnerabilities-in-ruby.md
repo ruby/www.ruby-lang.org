@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby中的多个安全漏洞 - Ruby 官方网站"
+author: "Xpol Wan"
 lang: zh_cn
 ---
 

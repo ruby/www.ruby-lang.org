@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.1-p429 veröffentlicht"
+author: "Quintus"
 lang: de
 ---
 

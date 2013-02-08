@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.1 RC1 公開とリリース前のプレビューのお願い"
+author: "maki"
 lang: ja
 ---
 

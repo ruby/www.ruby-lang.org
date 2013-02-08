@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Germany.rb 2011 in Leipzig"
+author: "Daniel Bovensiepen"
 lang: de
 ---
 
