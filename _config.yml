@@ -203,6 +203,23 @@ nav:
       url:  security
     - name: A proposito di Ruby
       url:  about
+  ja:
+    - name: ダウンロード
+      url: downloads
+    - name: ドキュメント
+      url: documentation
+    - name: ライブラリ
+      url: libraries
+    - name: コミュニティ
+      url: community
+    - name: コア開発
+      url: dev
+    - name: ニュース
+      url: news
+    - name: セキュリティ
+      url: security
+    - name: Rubyとは
+      url: about
   ko:
     - name: 다운로드
       url: downloads
