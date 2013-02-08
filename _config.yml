@@ -344,7 +344,7 @@ locales:
             Помогнете за разработката на Ruby.
         issue_tracking:
           text: Следене на бъгове
-          url: http://redmine.ruby-lang.org/
+          url: http://bugs.ruby-lang.org/
           description: |
             Докладвайте или помогнете за решаването на проблеми в Ruby.
       top_ruby_projects:
@@ -407,7 +407,7 @@ locales:
             Help polish the rough edges of the latest Ruby.
         issue_tracking:
           text: Issue Tracking
-          url: http://redmine.ruby-lang.org/
+          url: http://bugs.ruby-lang.org/
           description: |
             Report or help solve issues in Ruby.
       top_ruby_projects:
