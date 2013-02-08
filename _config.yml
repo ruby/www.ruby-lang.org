@@ -87,338 +87,338 @@ top_projects:
 locales:
   sitelinks:
     bg:
-      - name: За сваляне
+      - text: За сваляне
         url: downloads
-      - name: Документация
+      - text: Документация
         url: documentation
-      - name: Библиотеки
+      - text: Библиотеки
         url: libraries
-      - name: Общество
+      - text: Общество
         url: community
-      - name: Новини
+      - text: Новини
         url: news
-      - name: Сигурност
+      - text: Сигурност
         url: security
-      - name: Относно
+      - text: Относно
         url: about
     de:
-      - name: Downloads
+      - text: Downloads
         url:  downloads
-      - name: Dokumentation
+      - text: Dokumentation
         url:  documentation
-      - name: Bibliotheken
+      - text: Bibliotheken
         url:  libraries
-      - name: Community
+      - text: Community
         url:  community
-      - name: Neuigkeiten
+      - text: Neuigkeiten
         url:  news
-      # - name: Sicherheit
+      # - text: Sicherheit
       #   url:  security
-      - name: Über Ruby
+      - text: Über Ruby
         url:  about
     en:
-      - name: Downloads
+      - text: Downloads
         url:  downloads
-      - name: Documentation
+      - text: Documentation
         url:  documentation
-      - name: Libraries
+      - text: Libraries
         url:  libraries
-      - name: Community
+      - text: Community
         url:  community
-      - name: News
+      - text: News
         url:  news
-      - name: Security
+      - text: Security
         url:  security
-      - name: About Ruby
+      - text: About Ruby
         url:  about
     es:
-      - name: Descargas
+      - text: Descargas
         url:  downloads
-      - name: Documentación
+      - text: Documentación
         url:  documentation
-      - name: Bibliotecas
+      - text: Bibliotecas
         url:  libraries
-      - name: Comunidad
+      - text: Comunidad
         url:  community
-      - name: Noticias
+      - text: Noticias
         url:  news
-      # - name: Seguridad
+      # - text: Seguridad
       #   url:  security
-      - name: Acerca de Ruby
+      - text: Acerca de Ruby
         url:  about
     fr:
-      - name: Téléchargements
+      - text: Téléchargements
         url:  downloads
-      - name: Documentation
+      - text: Documentation
         url:  documentation
-      - name: Bibliothèques
+      - text: Bibliothèques
         url:  libraries
-      - name: Communauté
+      - text: Communauté
         url:  community
-      - name: Actualités
+      - text: Actualités
         url:  news
-      - name: Sécurité
+      - text: Sécurité
         url:  security
-      - name: À propos de Ruby
+      - text: À propos de Ruby
         url:  about
     id:
-      - name: Download
+      - text: Download
         url: downloads
-      - name: Dokumentasi
+      - text: Dokumentasi
         url: documentation
-      - name: Library
+      - text: Library
         url: libraries
-      - name: Komunitas
+      - text: Komunitas
         url: community
-      - name: Berita
+      - text: Berita
         url: news
-      - name: Tentang Ruby
+      - text: Tentang Ruby
         url: about
     it:
-      - name: Scarica
+      - text: Scarica
         url:  downloads
-      - name: Documentazione
+      - text: Documentazione
         url:  documentation
-      - name: Librerie
+      - text: Librerie
         url:  libraries
-      - name: Comunità
+      - text: Comunità
         url:  community
-      - name: Notizie
+      - text: Notizie
         url:  news
-      - name: Sicurezza
+      - text: Sicurezza
         url:  security
-      - name: A proposito di Ruby
+      - text: A proposito di Ruby
         url:  about
     ja:
-      - name: ダウンロード
+      - text: ダウンロード
         url: downloads
-      - name: ドキュメント
+      - text: ドキュメント
         url: documentation
-      - name: ライブラリ
+      - text: ライブラリ
         url: libraries
-      - name: コミュニティ
+      - text: コミュニティ
         url: community
-      - name: コア開発
+      - text: コア開発
         url: dev
-      - name: ニュース
+      - text: ニュース
         url: news
-      - name: セキュリティ
+      - text: セキュリティ
         url: security
-      - name: Rubyとは
+      - text: Rubyとは
         url: about
     ko:
-      - name: 다운로드
+      - text: 다운로드
         url: downloads
-      - name: 문서
+      - text: 문서
         url: documentation
-      - name: 라이브러리
+      - text: 라이브러리
         url: libraries
-      - name: 커뮤니티
+      - text: 커뮤니티
         url: community
-      - name: 뉴스
+      - text: 뉴스
         url: news
-      - name: 보안이슈
+      - text: 보안이슈
         url: security
-      - name: 루비에 대해서
+      - text: 루비에 대해서
         url: about
     pl:
-      - name: Pobierz
+      - text: Pobierz
         url: downloads
-      - name: Dokumentacja
+      - text: Dokumentacja
         url: dokumentacja
-      - name: Biblioteki
+      - text: Biblioteki
         url: libraries
-      - name: Społeczność
+      - text: Społeczność
         url: spolecznosc
-      - name: Wiadomości
+      - text: Wiadomości
         url: news
-      - name: O języku Ruby
+      - text: O języku Ruby
         url: about
     pt:
-      - name:  Downloads
+      - text:  Downloads
         url: downloads
-      - name: Documentação
+      - text: Documentação
         url: documentacao
-      - name: Módulos
+      - text: Módulos
         url: bibliotecas
-      - name: Comunidade
+      - text: Comunidade
         url: comunidade
-      - name: Notícias
+      - text: Notícias
         url: noticias-recentes
-      - name: Sobre Ruby
+      - text: Sobre Ruby
         url: sobre-o-ruby
     tr:
-      - name: İndirin
+      - text: İndirin
         url: downloads
-      - name: Belgeler
+      - text: Belgeler
         url: documentation
-      - name: Kütüphaneler
+      - text: Kütüphaneler
         url: libraries
-      - name: Topluluk
+      - text: Topluluk
         url: community
-      - name: Haberler
+      - text: Haberler
         url: news
-      - name: Güvenlik
+      - text: Güvenlik
         url: security
-      - name: Ruby Hakkında
+      - text: Ruby Hakkında
         url: about
     zh_cn:
-      - name: 下载
+      - text: 下载
         url: downloads
-      - name: 文档
+      - text: 文档
         url: documentation
-      - name: 资源库
+      - text: 资源库
         url: libraries
-      - name: 社区
+      - text: 社区
         url: community
-      - name: 新闻
+      - text: 新闻
         url: news
-      - name: 安全
+      - text: 安全
         url: security
-      - name: 关于 Ruby
+      - text: 关于 Ruby
         url: about
     zh_TW:
-      - name: 下載安裝
+      - text: 下載安裝
         url: downloads
-      - name: 文件
+      - text: 文件
         url: documentation
-      - name: 函式庫
+      - text: 函式庫
         url: libraries
-      - name: 社群
+      - text: 社群
         url: community
-      - name: 新聞
+      - text: 新聞
         url: news
-      - name: 安全
+      - text: 安全
         url: security
-      - name: 關於 Ruby
+      - text: 關於 Ruby
         url: about
 
   sidebar:
     bg:
       get_started:
-        name: <strong>Започнете</strong> лесно е!
+        text: <strong>Започнете</strong> лесно е!
         try_ruby:
-          name: Пробвайте Ruby! (в браузъра)
+          text: Пробвайте Ruby! (в браузъра)
           url: http://tryruby.org/
         ruby_in_twenty_minutes:
-          name: Ruby в 20 минути
+          text: Ruby в 20 минути
           url: /bg/documentation/quickstart/
         ruby_from_other_languages:
-          name: Ruby от други езици
+          text: Ruby от други езици
           url: /bg/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Изследвайте</strong> нов свят…
         documentation:
-          name: Документация
+          text: Документация
           url: /bg/documentation/
         books:
-          name: Книги
+          text: Книги
           url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
         libraries:
-          name: Библиотеки
+          text: Библиотеки
           url: /bg/libraries/
         success_stories:
-          name: Успешни истории
+          text: Успешни истории
           url: /bg/documentation/success-stories/
       participate:
-        name: <strong>Участвайте</strong> в приятелски настроено общество.
+        text: <strong>Участвайте</strong> в приятелски настроено общество.
         mailing_lists:
-          name: Пощенски списъци
+          text: Пощенски списъци
           url: /bg/community/mailing-lists/
           description: |
             Дискусии относно Ruby с програмисти от цял свят.
         user_groups:
-          name: Потребителски групи
+          text: Потребителски групи
           url: /bg/community/user-groups/
           description: |
             Свържете се с рубисти в твоя район.
         weblogs:
-          name: Блогове
+          text: Блогове
           url: /bg/community/weblogs/
           description: |
             Прочетете какво се случва в Ruby обществото.
         ruby_core:
-          name: Ruby ядро
+          text: Ruby ядро
           url: /bg/community/ruby-core/
           description: |
             Помогнете за разработката на Ruby.
         issue_tracking:
-          name: Следене на бъгове
+          text: Следене на бъгове
           url: http://redmine.ruby-lang.org/
           description: |
             Докладвайте или помогнете за решаването на проблеми в Ruby.
       top_ruby_projects:
-        name: Няколко топ Ruby проекта
+        text: Няколко топ Ruby проекта
         more:
-          name: Още…
+          text: Още…
           url: /bg/libraries/top-projects/
       syndicate:
-        name: Новини
+        text: Новини
         recent_news:
-          name: Последните новини (RSS)
+          text: Последните новини (RSS)
           url: /bg/feeds/news.rss
     en:
       get_started:
-        name: <strong>Get Started</strong>, it's easy!
+        text: <strong>Get Started</strong>, it's easy!
         try_ruby:
-          name: Try Ruby! (in your browser)
+          text: Try Ruby! (in your browser)
           url: http://tryruby.org/
         ruby_in_twenty_minutes:
-          name: Ruby in Twenty Minutes
+          text: Ruby in Twenty Minutes
           url: /en/documentation/quickstart/
         ruby_from_other_languages:
-          name: Ruby from Other Languages
+          text: Ruby from Other Languages
           url: /en/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Explore</strong> a new world…
         documentation:
-          name: Documentation
+          text: Documentation
           url: /en/documentation/
         books:
-          name: Books
+          text: Books
           url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
         libraries:
-          name: Libraries
+          text: Libraries
           url: /en/libraries/
         success_stories:
-          name: Success Stories
+          text: Success Stories
           url: /en/documentation/success-stories/
       participate:
-        name: <strong>Participate</strong> in a friendly and growing community.
+        text: <strong>Participate</strong> in a friendly and growing community.
         mailing_lists:
-          name: Mailing Lists
+          text: Mailing Lists
           url: /en/community/mailing-lists/
           description: |
             Talk about Ruby with programmers from all around the world.
         user_groups:
-          name: User Groups
+          text: User Groups
           url: /en/community/user-groups/
           description: |
             Get in contact with Rubyists in your area.
         weblogs:
-          name: Weblogs
+          text: Weblogs
           url: /en/community/weblogs/
           description: |
             Read about what’s happening right now in the Ruby community.
         ruby_core:
-          name: Ruby Core
+          text: Ruby Core
           url: /en/community/ruby-core/
           description: |
             Help polish the rough edges of the latest Ruby.
         issue_tracking:
-          name: Issue Tracking
+          text: Issue Tracking
           url: http://redmine.ruby-lang.org/
           description: |
             Report or help solve issues in Ruby.
       top_ruby_projects:
-        name: Some Top Ruby Projects
+        text: Some Top Ruby Projects
         more:
-          name: More…
+          text: More…
           url: /en/libraries/top-projects/
       syndicate:
-        name: Syndicate
+        text: Syndicate
         recent_news:
-          name: Recent News (RSS)
+          text: Recent News (RSS)
           url: /en/feeds/news.rss
 
   credits:

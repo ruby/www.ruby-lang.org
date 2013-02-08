@@ -1,8 +1,8 @@
 {% if site.locales.sitelinks[page.lang] %}
-  {% assign sitelinks_lang = page.lang %}
+  {% assign sitelinks = site.locales.sitelinks[page.lang] %}
 {% else %}
-  {% assign sitelinks_lang = 'en' %}
+  {% assign sitelinks = site.locales.sitelinks['en'] %}
 {% endif %}
-{% for link in site.locales.sitelinks[sitelinks_lang] %}
-  <a href="/{{ page.lang }}/{{ link.url }}/">{{ link.name }}</a>{% unless forloop.last %}<span class="separator"> | </span>{% endunless %}
+{% for link in sitelinks %}
+  <a href="/{{ page.lang }}/{{ link.url }}/">{{ link.text }}</a>{% unless forloop.last %}<span class="separator"> | </span>{% endunless %}
 {% endfor %}
