@@ -5,7 +5,8 @@ lang: tr
 ---
 
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
-En son kararlı sürüm 1.9.2 , lütfen önce [Ruby lisansını][1] okuyun.
+En son kararlı sürüm {{ site.downloads.stable.version }} , lütfen önce
+[Ruby lisansını][1] okuyun.
 
 ### Ruby Kaynak Kodu
 
@@ -13,8 +14,9 @@ Kaynak kodundan kurmak, platformunuza yeterince hakimseniz ve
 ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
-* [Ruby 1.9.2-p136][2] (md5:  6e17b200b907244478582b7d06cd512e) Kararlı
-  Versiyon (*tavsiye edilir*)
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5:  {{ site.downloads.stable.md5 }})
+  Kararlı Versiyon (*tavsiye edilir*)
 * [Stable Snapshot][3] Bu son kararlı SVN’nin tar gzip hali. Son kararlı
   sürümden daha iyi olması beklenir.
 * [Nightly Snapshot][4] Bu son SVN’nin tar gzip hali. Çözülmemiş
@@ -136,9 +138,9 @@ Rubyforge][29] adresini inceleyin.
 
 
 [1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: ftp://ftp.ruby-lang.org:21//pub/ruby/1.9/ruby-1.9.2-p136.tar.gz 
-[3]: ftp://ftp.ruby-lang.org:21//pub/ruby/ruby-1.9-stable.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [5]: http://rubyinstaller.org/ 
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
 [7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe 
