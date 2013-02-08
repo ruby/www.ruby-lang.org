@@ -37,13 +37,13 @@ are no other premade packages for your platform.
 If you have an issue compiling Ruby, consider using one of the third
 party tools in the next section. They may help you.
 
-* [Ruby 1.9.2-p290][1] (md5: 604da71839a6ae02b5b5b5e1b792d5eb) Stable
-  (*recommended*)
-* [Ruby 1.9.3 preview1][2] (md5: 0f0220be4cc7c51a82c1bd8f6a0969f3)
-* [Stable Snapshot][3] This is a tarball of the latest snapshot of the
-  Stable branch.
-* [Nightly Snapshot][4] This is a tarball of whatever is in svn, made
-  nightly. This may contain bugs or other issues, use at your own risk!
+* [Ruby {{ downloads.source.stable.name }}][{{ downloads.source.stable.url }}]
+  (md5: {{ downloads.source.stable.md5 }}) Stable (*recommended*)
+* [Stable Snapshot][{{ downloads.source.stable_snapshot.url }}]
+  This is a tarball of the latest snapshot of the Stable branch.
+* [Nightly Snapshot][{{ downloads.source.nightly_snapshot.url }}]
+  This is a tarball of whatever is in svn, made nightly.
+  This may contain bugs or other issues, use at your own risk!
 
 For information about the Ruby Subversion and Git repositories, see our
 [Ruby Core](/en/community/ruby-core/) page.
@@ -200,10 +200,6 @@ programming language”.
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
 [5]: https://github.com/vertiginous/pik 
 [6]: http://git-scm.com/ 
 [7]: https://rvm.beginrescueend.com/rvm/install/ 
