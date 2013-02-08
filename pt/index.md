@@ -57,4 +57,8 @@ sidebar: |
     </li>
     {% endfor %}
   </ul>
+
+  <p class="more">
+    <a href="/pt/news/">Mais Notícias…</a>
+  </p>
 </div>
