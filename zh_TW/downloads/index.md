@@ -4,14 +4,15 @@ title: "下載安裝"
 lang: zh_TW
 ---
 
-你可以在這裡下載適合您的最新 Ruby 發佈版本。目前最新的穩定版本是 1.9.2。另外，請先看看 [Ruby 版權說明][1]。
+你可以在這裡下載適合您的最新 Ruby 發佈版本。目前最新的穩定版本是
+{{ site.downloads.stable.version }}。另外，請先看看 [Ruby 版權說明][1]。
 
 ### Ruby 原始碼
 
 如果您非常熟悉您的作業系統，或是您需要特別設定的環境，那麼直接使用原始碼來安裝是個不錯的方式。如果您的平台沒有編譯好的套件，那麼也必須透過原始碼來安裝。
 
-* [Ruby 1.9.2-p0][2] (md5:  755aba44607c580fddc25e7c89260460) 穩定版本
-  (*推薦*)
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5:  {{ site.downloads.stable.md5 }}) 穩定版本 (*推薦*)
 * [Stable Snapshot][3] 這是 SVN 中最新的穩定版本，它應該比上一個穩定版本更好。
 * [Nightly Snapshot][4] 這是 SVN 中最新的開發版本，它也許包含了一些已知尚未解決的問題。
 
@@ -124,9 +125,9 @@ Rails][39] 和 [Phusion Passenger][40] 使用。
 
 
 [1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: ftp://ftp.ruby-lang.org:21//pub/ruby/1.9/ruby-1.9.2-p0.tar.gz 
-[3]: ftp://ftp.ruby-lang.org:21//pub/ruby/ruby-1.9-stable.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [5]: http://rubyinstaller.org/ 
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
 [7]: http://rubyforge.org/frs/download.php/72085/rubyinstaller-1.8.7-p302.exe 
