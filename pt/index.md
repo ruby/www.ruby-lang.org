@@ -3,6 +3,9 @@ layout: page
 title: "Linguagem de Programação Ruby"
 lang: pt
 
+javascript:
+ - examples
+
 header: |
   <div id="intro">
     <h1>Ruby é...</h1>
@@ -14,6 +17,7 @@ header: |
 
     <a href="about/">Ler Mais...</a>
   </div>
+  <div id="code"></div>
 
 sidebar: |
   <a href="downloads/">
