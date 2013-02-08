@@ -37,11 +37,11 @@ are no other premade packages for your platform.
 If you have an issue compiling Ruby, consider using one of the third
 party tools in the next section. They may help you.
 
-* [Ruby {{ downloads.source.stable.name }}][{{ downloads.source.stable.url }}]
-  (md5: {{ downloads.source.stable.md5 }}) Stable (*recommended*)
-* [Stable Snapshot][{{ downloads.source.stable_snapshot.url }}]
+* [Ruby {{ site.downloads.source.stable.version }}]({{ site.downloads.source.stable.url }})
+  (md5: {{ site.downloads.source.stable.md5 }}) Stable (*recommended*)
+* [Stable Snapshot]({{ site.downloads.source.stable_snapshot.url }})
   This is a tarball of the latest snapshot of the Stable branch.
-* [Nightly Snapshot][{{ downloads.source.nightly_snapshot.url }}]
+* [Nightly Snapshot]({{ site.downloads.source.nightly_snapshot.url }})
   This is a tarball of whatever is in svn, made nightly.
   This may contain bugs or other issues, use at your own risk!
 
