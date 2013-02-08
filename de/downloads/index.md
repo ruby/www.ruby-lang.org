@@ -5,8 +5,8 @@ lang: de
 ---
 
 Hier kannst du die aktuellen Ruby-Distributionen herunterladen. Die
-stabile Version ist derzeit 1.9.2. Bitte nimm auch [Rubys Lizenz][1] zur
-Kenntnis.
+stabile Version ist derzeit {{ site.downloads.stable.version }}.
+Bitte nimm auch [Rubys Lizenz][1] zur Kenntnis.
 
 ### Ruby-Quellcode
 
@@ -15,8 +15,8 @@ du dich gut mit deinem System auskennst und eventuell spezielle
 Einstellungen für deine Umgebung benötigst. Es ist außerdem eine gute
 Lösung, falls es keine vorgefertigten Pakete für dein System gibt.
 
-* [Ruby 1.9.2-p290][2] (md5: 096758c3e853b839dc980b183227b182) stabile
-  Version (*empfohlen*)
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5: {{ site.downloads.stable.md5 }}) stabile Version (*empfohlen*)
 * [Stable Snapshot][3] Bei diesem Snapshot handelt es sich um die
   absolut letzte stabile SVN-Version. Sie sollte etwas stabiler sein als
   das letzte Release.
@@ -140,9 +140,9 @@ Projekt @ Rubyforge][26] hilfreich.
 
 
 [1]: http://www.ruby-lang.org/de/about/license.txt 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2 
-[3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [5]: http://rubyinstaller.org 
 [6]: http://rubyforge.org/frs/download.php/75127/rubyinstaller-1.9.2-p290.exe 
 [7]: http://rubyforge.org/frs/download.php/75107/rubyinstaller-1.8.7-p352.exe 
