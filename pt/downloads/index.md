@@ -10,7 +10,12 @@ de ler a [Licença Ruby][1].
 
 ### Código-Fonte do Ruby
 
- Instalar pelo código fonte é uma boa solução para quando estiver suficientemente confortável com a sua plataforma ou por ventura necessite de configurações específicas para o seu ambiente. É eventualmente também uma boa solução porque pode não haver pacotes pré-construídos para a sua plataforma. * [Ruby 1.9.2-p290][2] (md5: 604da71839a6ae02b5b5b5e1b792d5eb) Versão
+Instalar pelo código fonte é uma boa solução para quando estiver
+suficientemente confortável com a sua plataforma ou por ventura necessite de
+configurações específicas para o seu ambiente. É eventualmente também uma boa
+solução porque pode não haver pacotes pré-construídos para a sua plataforma.
+ 
+* [Ruby 1.9.2-p290][2] (md5: 604da71839a6ae02b5b5b5e1b792d5eb) Versão
   estávelStable Version (*recomendada*)
 * [Ruby 1.9.3 preview1][3] (md5: 0f0220be4cc7c51a82c1bd8f6a0969f3)
 * [Snapshot Estável][4] Ficheiros compactados em tar e gzip do último
