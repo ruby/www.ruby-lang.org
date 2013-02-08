@@ -1,8 +1,8 @@
-{% if site.nav[page.lang] %}
-  {% assign navlang = page.lang %}
+{% if site.locales.sitelinks[page.lang] %}
+  {% assign sitelinks_lang = page.lang %}
 {% else %}
-  {% assign navlang = 'en' %}
+  {% assign sitelinks_lang = 'en' %}
 {% endif %}
-{% for link in site.nav[navlang] %}
+{% for link in site.locales.sitelinks[sitelinks_lang] %}
   <a href="/{{ page.lang }}/{{ link.url }}/">{{ link.name }}</a>{% unless forloop.last %}<span class="separator"> | </span>{% endunless %}
 {% endfor %}

@@ -114,195 +114,196 @@ credits:
     Puoi contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
     per domande e commenti riguardanti questo sito.
 
-nav:
-  en:
-    - name: Downloads
-      url:  downloads
-    - name: Documentation
-      url:  documentation
-    - name: Libraries
-      url:  libraries
-    - name: Community
-      url:  community
-    - name: News
-      url:  news
-    - name: Security
-      url:  security
-    - name: About Ruby
-      url:  about
-  de:
-    - name: Downloads
-      url:  downloads
-    - name: Dokumentation
-      url:  documentation
-    - name: Bibliotheken
-      url:  libraries
-    - name: Community
-      url:  community
-    - name: Neuigkeiten
-      url:  news
-    # - name: Sicherheit
-    #   url:  security
-    - name: Über Ruby
-      url:  about
-  es:
-    - name: Descargas
-      url:  downloads
-    - name: Documentación
-      url:  documentation
-    - name: Bibliotecas
-      url:  libraries
-    - name: Comunidad
-      url:  community
-    - name: Noticias
-      url:  news
-    # - name: Seguridad
-    #   url:  security
-    - name: Acerca de Ruby
-      url:  about
-  fr:
-    - name: Téléchargements
-      url:  downloads
-    - name: Documentation
-      url:  documentation
-    - name: Bibliothèques
-      url:  libraries
-    - name: Communauté
-      url:  community
-    - name: Actualités
-      url:  news
-    - name: Sécurité
-      url:  security
-    - name: À propos de Ruby
-      url:  about
-  id:
-    - name: Download
-      url: downloads
-    - name: Dokumentasi
-      url: documentation
-    - name: Library
-      url: libraries
-    - name: Komunitas
-      url: community
-    - name: Berita
-      url: news
-    - name: Tentang Ruby
-      url: about
-  it:
-    - name: Scarica
-      url:  downloads
-    - name: Documentazione
-      url:  documentation
-    - name: Librerie
-      url:  libraries
-    - name: Comunità
-      url:  community
-    - name: Notizie
-      url:  news
-    - name: Sicurezza
-      url:  security
-    - name: A proposito di Ruby
-      url:  about
-  ja:
-    - name: ダウンロード
-      url: downloads
-    - name: ドキュメント
-      url: documentation
-    - name: ライブラリ
-      url: libraries
-    - name: コミュニティ
-      url: community
-    - name: コア開発
-      url: dev
-    - name: ニュース
-      url: news
-    - name: セキュリティ
-      url: security
-    - name: Rubyとは
-      url: about
-  ko:
-    - name: 다운로드
-      url: downloads
-    - name: 문서
-      url: documentation
-    - name: 라이브러리
-      url: libraries
-    - name: 커뮤니티
-      url: community
-    - name: 뉴스
-      url: news
-    - name: 보안이슈
-      url: security
-    - name: 루비에 대해서
-      url: about
-  pl:
-    - name: Pobierz
-      url: downloads
-    - name: Dokumentacja
-      url: dokumentacja
-    - name: Biblioteki
-      url: libraries
-    - name: Społeczność
-      url: spolecznosc
-    - name: Wiadomości
-      url: news
-    - name: O języku Ruby
-      url: about
-  pt:
-    - name:  Downloads
-      url: downloads
-    - name: Documentação
-      url: documentacao
-    - name: Módulos
-      url: bibliotecas
-    - name: Comunidade
-      url: comunidade
-    - name: Notícias
-      url: noticias-recentes
-    - name: Sobre Ruby
-      url: sobre-o-ruby
-  tr:
-    - name: İndirin
-      url: downloads
-    - name: Belgeler
-      url: documentation
-    - name: Kütüphaneler
-      url: libraries
-    - name: Topluluk
-      url: community
-    - name: Haberler
-      url: news
-    - name: Güvenlik
-      url: security
-    - name: Ruby Hakkında
-      url: about
-  zh_cn:
-    - name: 下载
-      url: downloads
-    - name: 文档
-      url: documentation
-    - name: 资源库
-      url: libraries
-    - name: 社区
-      url: community
-    - name: 新闻
-      url: news
-    - name: 安全
-      url: security
-    - name: 关于 Ruby
-      url: about
-  zh_TW:
-    - name: 下載安裝
-      url: downloads
-    - name: 文件
-      url: documentation
-    - name: 函式庫
-      url: libraries
-    - name: 社群
-      url: community
-    - name: 新聞
-      url: news
-    - name: 安全
-      url: security
-    - name: 關於 Ruby
-      url: about
+locales:
+  sitelinks:
+    en:
+      - name: Downloads
+        url:  downloads
+      - name: Documentation
+        url:  documentation
+      - name: Libraries
+        url:  libraries
+      - name: Community
+        url:  community
+      - name: News
+        url:  news
+      - name: Security
+        url:  security
+      - name: About Ruby
+        url:  about
+    de:
+      - name: Downloads
+        url:  downloads
+      - name: Dokumentation
+        url:  documentation
+      - name: Bibliotheken
+        url:  libraries
+      - name: Community
+        url:  community
+      - name: Neuigkeiten
+        url:  news
+      # - name: Sicherheit
+      #   url:  security
+      - name: Über Ruby
+        url:  about
+    es:
+      - name: Descargas
+        url:  downloads
+      - name: Documentación
+        url:  documentation
+      - name: Bibliotecas
+        url:  libraries
+      - name: Comunidad
+        url:  community
+      - name: Noticias
+        url:  news
+      # - name: Seguridad
+      #   url:  security
+      - name: Acerca de Ruby
+        url:  about
+    fr:
+      - name: Téléchargements
+        url:  downloads
+      - name: Documentation
+        url:  documentation
+      - name: Bibliothèques
+        url:  libraries
+      - name: Communauté
+        url:  community
+      - name: Actualités
+        url:  news
+      - name: Sécurité
+        url:  security
+      - name: À propos de Ruby
+        url:  about
+    id:
+      - name: Download
+        url: downloads
+      - name: Dokumentasi
+        url: documentation
+      - name: Library
+        url: libraries
+      - name: Komunitas
+        url: community
+      - name: Berita
+        url: news
+      - name: Tentang Ruby
+        url: about
+    it:
+      - name: Scarica
+        url:  downloads
+      - name: Documentazione
+        url:  documentation
+      - name: Librerie
+        url:  libraries
+      - name: Comunità
+        url:  community
+      - name: Notizie
+        url:  news
+      - name: Sicurezza
+        url:  security
+      - name: A proposito di Ruby
+        url:  about
+    ja:
+      - name: ダウンロード
+        url: downloads
+      - name: ドキュメント
+        url: documentation
+      - name: ライブラリ
+        url: libraries
+      - name: コミュニティ
+        url: community
+      - name: コア開発
+        url: dev
+      - name: ニュース
+        url: news
+      - name: セキュリティ
+        url: security
+      - name: Rubyとは
+        url: about
+    ko:
+      - name: 다운로드
+        url: downloads
+      - name: 문서
+        url: documentation
+      - name: 라이브러리
+        url: libraries
+      - name: 커뮤니티
+        url: community
+      - name: 뉴스
+        url: news
+      - name: 보안이슈
+        url: security
+      - name: 루비에 대해서
+        url: about
+    pl:
+      - name: Pobierz
+        url: downloads
+      - name: Dokumentacja
+        url: dokumentacja
+      - name: Biblioteki
+        url: libraries
+      - name: Społeczność
+        url: spolecznosc
+      - name: Wiadomości
+        url: news
+      - name: O języku Ruby
+        url: about
+    pt:
+      - name:  Downloads
+        url: downloads
+      - name: Documentação
+        url: documentacao
+      - name: Módulos
+        url: bibliotecas
+      - name: Comunidade
+        url: comunidade
+      - name: Notícias
+        url: noticias-recentes
+      - name: Sobre Ruby
+        url: sobre-o-ruby
+    tr:
+      - name: İndirin
+        url: downloads
+      - name: Belgeler
+        url: documentation
+      - name: Kütüphaneler
+        url: libraries
+      - name: Topluluk
+        url: community
+      - name: Haberler
+        url: news
+      - name: Güvenlik
+        url: security
+      - name: Ruby Hakkında
+        url: about
+    zh_cn:
+      - name: 下载
+        url: downloads
+      - name: 文档
+        url: documentation
+      - name: 资源库
+        url: libraries
+      - name: 社区
+        url: community
+      - name: 新闻
+        url: news
+      - name: 安全
+        url: security
+      - name: 关于 Ruby
+        url: about
+    zh_TW:
+      - name: 下載安裝
+        url: downloads
+      - name: 文件
+        url: documentation
+      - name: 函式庫
+        url: libraries
+      - name: 社群
+        url: community
+      - name: 新聞
+        url: news
+      - name: 安全
+        url: security
+      - name: 關於 Ruby
+        url: about
