@@ -291,3 +291,18 @@ nav:
       url: security
     - name: 关于 Ruby
       url: about
+  zh_TW:
+    - name: 下載安裝
+      url: downloads
+    - name: 文件
+      url: documentation
+    - name: 函式庫
+      url: libraries
+    - name: 社群
+      url: community
+    - name: 新聞
+      url: news
+    - name: 安全
+      url: security
+    - name: 關於 Ruby
+      url: about
