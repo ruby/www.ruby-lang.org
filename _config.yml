@@ -300,7 +300,7 @@ locales:
         try_ruby:
           text: Пробвайте Ruby! (в браузъра)
           url: http://tryruby.org/
-        ruby_in_twenty_minutes:
+        quickstart:
           text: Ruby в 20 минути
           url: /bg/documentation/quickstart/
         ruby_from_other_languages:
@@ -363,7 +363,7 @@ locales:
         try_ruby:
           text: Try Ruby! (in your browser)
           url: http://tryruby.org/
-        ruby_in_twenty_minutes:
+        quickstart:
           text: Ruby in Twenty Minutes
           url: /en/documentation/quickstart/
         ruby_from_other_languages:
