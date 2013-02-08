@@ -190,3 +190,16 @@ nav:
       url:  security
     - name: A proposito di Ruby
       url:  about
+  pt:
+    - name:  Downloads
+      url: downloads
+    - name: Documentação
+      url: documentacao
+    - name: Módulos
+      url: bibliotecas
+    - name: Comunidade
+      url: comunidade
+    - name: Notícias
+      url: noticias-recentes
+    - name: Sobre Ruby
+      url: sobre-o-ruby
