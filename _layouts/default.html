@@ -14,6 +14,12 @@
     <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    {% if page.javascript != null %}
+    {% for javascript in page.javascript %}
+    <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
+    {% endfor %}
+    {% endif %}
   </head>
 
   <body>
