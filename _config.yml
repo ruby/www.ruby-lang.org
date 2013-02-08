@@ -175,20 +175,18 @@ nav:
       url:  security
     - name: À propos de Ruby
       url:  about
-  ko:
-    - name: 다운로드
+  id:
+    - name: Download
       url: downloads
-    - name: 문서
+    - name: Dokumentasi
       url: documentation
-    - name: 라이브러리
+    - name: Library
       url: libraries
-    - name: 커뮤니티
+    - name: Komunitas
       url: community
-    - name: 뉴스
+    - name: Berita
       url: news
-    - name: 보안이슈
-      url: security
-    - name: 루비에 대해서
+    - name: Tentang Ruby
       url: about
   it:
     - name: Scarica
@@ -205,6 +203,21 @@ nav:
       url:  security
     - name: A proposito di Ruby
       url:  about
+  ko:
+    - name: 다운로드
+      url: downloads
+    - name: 문서
+      url: documentation
+    - name: 라이브러리
+      url: libraries
+    - name: 커뮤니티
+      url: community
+    - name: 뉴스
+      url: news
+    - name: 보안이슈
+      url: security
+    - name: 루비에 대해서
+      url: about
   pt:
     - name:  Downloads
       url: downloads
