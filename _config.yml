@@ -261,3 +261,18 @@ nav:
       url: noticias-recentes
     - name: Sobre Ruby
       url: sobre-o-ruby
+  tr:
+    - name: İndirin
+      url: downloads
+    - name: Belgeler
+      url: documentation
+    - name: Kütüphaneler
+      url: libraries
+    - name: Topluluk
+      url: community
+    - name: Haberler
+      url: news
+    - name: Güvenlik
+      url: security
+    - name: Ruby Hakkında
+      url: about
