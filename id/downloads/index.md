@@ -5,8 +5,9 @@ lang: id
 ---
 
 Di sini Anda bisa mendapatkan distribusi Ruby terbaru. Versi stabil saat
-ini adalah 1.9.1. Ruby disediakan secara gratis, namun pastikan Anda
-membaca [Lisensi Ruby][1] terlebih dahulu sebelum menggunakannya.
+ini adalah {{ site.downloads.stable.version }}. Ruby disediakan secara gratis,
+namun pastikan Anda membaca [Lisensi Ruby][1] terlebih dahulu sebelum
+menggunakannya.
 
 ### Ruby di Windows
 
@@ -122,8 +123,8 @@ Anda berpengalaman dengan sistem operasi Anda atau membutuhkan
 konfigurasi yang spesifik. Apabila tidak ada paket distribusi siap pakai
 untuk sistem operasi Anda, alternatif ini juga solusi yang baik.
 
-* [Ruby 1.9.1-p376][20] (md5: ebb20550a11e7f1a2fbd6fdec2a3e0a3)) Versi
-  Stabil (*dianjurkan*)
+* [Ruby {{ site.downloads.stable.version }}][20]
+  (md5: {{ site.downloads.stable.md5 }})) Versi Stabil (*dianjurkan*)
 * [*Snapshot* Versi Stabil][21] Ini adalah versi stabil terakhir dalam
   format tar+gzip. Versi ini cenderung lebih baik daripada rilis versi
   stabil terakhir.
@@ -155,6 +156,6 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 [17]: http://www.freebsd.org/ 
 [18]: http://www.sun.com/software/solaris/ 
 [19]: http://www.gnusolaris.org/ 
-[20]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz 
-[21]: ftp://ftp.ruby-lang.org//pub/ruby/ruby-1.9-stable.tar.gz 
-[22]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[20]: {{ site.downloads.stable.url }}
+[21]: {{ site.downloads.stable_snapshot.url }}
+[22]: {{ site.downloads.nightly_snapshot.url }}
