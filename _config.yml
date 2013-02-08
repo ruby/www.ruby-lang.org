@@ -294,12 +294,17 @@ locales:
         url: about
 
   sidebar:
+    try_ruby: &try_ruby
+      url: http://tryruby.org/
+    books: &books
+      url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
+
     bg:
       get_started:
         text: <strong>Започнете</strong> лесно е!
         try_ruby:
           text: Пробвайте Ruby! (в браузъра)
-          url: http://tryruby.org/
+          <<: *try_ruby
         quickstart:
           text: Ruby в 20 минути
           url: /bg/documentation/quickstart/
@@ -313,7 +318,7 @@ locales:
           url: /bg/documentation/
         books:
           text: Книги
-          url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
+          <<: *books
         libraries:
           text: Библиотеки
           url: /bg/libraries/
@@ -344,7 +349,7 @@ locales:
             Помогнете за разработката на Ruby.
         issue_tracking:
           text: Следене на бъгове
-          url: http://bugs.ruby-lang.org/
+          url: https://bugs.ruby-lang.org/
           description: |
             Докладвайте или помогнете за решаването на проблеми в Ruby.
       top_ruby_projects:
@@ -362,7 +367,7 @@ locales:
         text: <strong>Get Started</strong>, it's easy!
         try_ruby:
           text: Try Ruby! (in your browser)
-          url: http://tryruby.org/
+          <<: *try_ruby
         quickstart:
           text: Ruby in Twenty Minutes
           url: /en/documentation/quickstart/
@@ -376,7 +381,7 @@ locales:
           url: /en/documentation/
         books:
           text: Books
-          url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
+          <<: *books
         libraries:
           text: Libraries
           url: /en/libraries/
@@ -407,7 +412,7 @@ locales:
             Help polish the rough edges of the latest Ruby.
         issue_tracking:
           text: Issue Tracking
-          url: http://bugs.ruby-lang.org/
+          url: https://bugs.ruby-lang.org/
           description: |
             Report or help solve issues in Ruby.
       top_ruby_projects:
