@@ -5,8 +5,8 @@ lang: fr
 ---
 
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
-version stable actuelle est la 1.9.2. N’oubliez pas de consulter la
-[licence Ruby][1].
+version stable actuelle est la {{ site.downloads.stable.version }}.
+N’oubliez pas de consulter la [licence Ruby][1].
 
 ### Le code source
 
@@ -17,8 +17,8 @@ autres), et qui souhaitent obtenir une configuration spécifique pour
 leur environnement. C’est également la solution à adopter par défaut
 lorsqu’aucun paquetage « tout compris » n’existe pour votre plateforme.
 
-* [Ruby 1.9.2-p290][2] (md5: 604da71839a6ae02b5b5b5e1b792d5eb) Version
-  stable (*recommandée*)
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5: {{ site.downloads.stable.md5 }}) Version stable (*recommandée*)
 * [Stable Snapshot][3] Archive de la dernière version stable du SVN. A
   priori plus à jour que la dernière version stable publique.
 * [Nightly Snapshot][4] Archive de la dernière version du SVN.
@@ -147,9 +147,9 @@ site [RubyOpenSolaris project @ Rubyforge][27].
 
 
 [1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [5]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
 [6]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p334.exe 
 [7]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe 
