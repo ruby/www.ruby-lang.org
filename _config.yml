@@ -101,21 +101,6 @@ locales:
         url: security
       - name: Относно
         url: about
-    en:
-      - name: Downloads
-        url:  downloads
-      - name: Documentation
-        url:  documentation
-      - name: Libraries
-        url:  libraries
-      - name: Community
-        url:  community
-      - name: News
-        url:  news
-      - name: Security
-        url:  security
-      - name: About Ruby
-        url:  about
     de:
       - name: Downloads
         url:  downloads
@@ -130,6 +115,21 @@ locales:
       # - name: Sicherheit
       #   url:  security
       - name: Über Ruby
+        url:  about
+    en:
+      - name: Downloads
+        url:  downloads
+      - name: Documentation
+        url:  documentation
+      - name: Libraries
+        url:  libraries
+      - name: Community
+        url:  community
+      - name: News
+        url:  news
+      - name: Security
+        url:  security
+      - name: About Ruby
         url:  about
     es:
       - name: Descargas
