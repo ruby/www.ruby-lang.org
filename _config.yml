@@ -86,6 +86,21 @@ top_projects:
 
 locales:
   sitelinks:
+    bg:
+      - name: За сваляне
+        url: downloads
+      - name: Документация
+        url: documentation
+      - name: Библиотеки
+        url: libraries
+      - name: Общество
+        url: community
+      - name: Новини
+        url: news
+      - name: Сигурност
+        url: security
+      - name: Относно
+        url: about
     en:
       - name: Downloads
         url:  downloads
