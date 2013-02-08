@@ -67,7 +67,7 @@ def html_to_markdown(content_div)
 end
 
 namespace :import do
-  desc 'Spiders ruby-lang.org and converts HTML to Markdown'
+  desc "Spiders #{HOST} and converts HTML to Markdown"
   task :pages do
     Spidr.site("http://www.#{HOST}/index.html") do |agent|
       agent.ignore_links_like /\/cgi-bin\//
@@ -113,7 +113,7 @@ namespace :import do
     end
   end
 
-  desc "Imports news posts from the RSS feed"
+  desc "Spiders the news posts on #{HOST} and converts HTML to Markdown"
   task :news do
     languages = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
     by_lines = {
@@ -222,3 +222,6 @@ namespace :import do
     end
   end
 end
+
+desc "Imports #{HOST}"
+task :import => ['import:pages', 'import:news']
