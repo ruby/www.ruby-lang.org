@@ -5,8 +5,8 @@ lang: es
 ---
 
 Aquí puedes obtener las últimas distribuciones de Ruby en tu sabor
-favorito. La versión estable actual es 1.9.2-p0. Por favor asegúrate de
-leer la [licencia de Ruby](/es/about/license.txt).
+favorito. La versión estable actual es {{ site.downloads.stable.version }}.
+Por favor asegúrate de leer la [licencia de Ruby](/es/about/license.txt).
 
 ### El código fuente de Ruby
 
@@ -15,8 +15,8 @@ confiado con tu plataforma y puedas necesitar configuraciones
 específicas para tu entorno. También es una buena solución en el caso de
 que no existan paquetes ya armados para tu plataforma.
 
-* [Ruby 1.9.2-p180][1] (md5:  0d6953820c9918820dd916e79f4bfde8) Stable
-  Version (*recommended*)
+* [Ruby {{ site.downloads.stable.version }}][1]
+  (md5:  {{ site.downloads.stable.md5 }}) Stable Version (*recommended*)
 * [Snapshot estable][2] This is tar’ed and gzip’ed file of the latest
   stable SVN. It should be better than the last stable release.
 * [Snapshot diario][3] This is tar’ed and gzip’ed file of the latest
@@ -97,9 +97,9 @@ información aquí][16]). Con suerte, cuando Leopard salga las cosas
 
 
 
-[1]: ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p180.tar.gz 
-[2]: ftp://ftp.ruby-lang.org:21//pub/ruby/ruby-1.9-stable.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[1]: {{ site.downloads.stable.url }}
+[2]: {{ site.downloads.stable_snapshot.url }}
+[3]: {{ site.downloads.nightly_snapshot.url }}
 [4]: http://rubyinstaller.org 
 [5]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
 [6]: http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe 
