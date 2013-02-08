@@ -85,15 +85,6 @@ top_projects:
       and Firefox.
 
 locales:
-  directories:
-    en:
-      downloads: downloads
-      documentation: documentation
-      libraries: libraries
-      community: community
-      news: news
-      security: security
-      about: about
   sitelinks:
     bg:
       - name: За сваляне
@@ -304,8 +295,8 @@ locales:
 
   sidebar:
     bg:
-      getting_started:
-        name: <strong>Започнете</strong> лесно е
+      get_started:
+        name: <strong>Започнете</strong> лесно е!
         try_ruby:
           name: Пробвайте Ruby! (в браузъра)
           url: http://tryruby.org/
@@ -364,8 +355,71 @@ locales:
       syndicate:
         name: Новини
         recent_news:
-          name: Последните новини
+          name: Последните новини (RSS)
           url: /bg/feeds/news.rss
+    en:
+      get_started:
+        name: <strong>Get Started</strong>, it's easy!
+        try_ruby:
+          name: Try Ruby! (in your browser)
+          url: http://tryruby.org/
+        ruby_in_twenty_minutes:
+          name: Ruby in Twenty Minutes
+          url: /en/documentation/quickstart/
+        ruby_from_other_languages:
+          name: Ruby from Other Languages
+          url: /en/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Explore</strong> a new world…
+        documentation:
+          name: Documentation
+          url: /en/documentation/
+        books:
+          name: Books
+          url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
+        libraries:
+          name: Libraries
+          url: /en/libraries/
+        success_stories:
+          name: Success Stories
+          url: /en/documentation/success-stories/
+      participate:
+        name: <strong>Participate</strong> in a friendly and growing community.
+        mailing_lists:
+          name: Mailing Lists
+          url: /en/community/mailing-lists/
+          description: |
+            Talk about Ruby with programmers from all around the world.
+        user_groups:
+          name: User Groups
+          url: /en/community/user-groups/
+          description: |
+            Get in contact with Rubyists in your area.
+        weblogs:
+          name: Weblogs
+          url: /en/community/weblogs/
+          description: |
+            Read about what’s happening right now in the Ruby community.
+        ruby_core:
+          name: Ruby Core
+          url: /en/community/ruby-core/
+          description: |
+            Help polish the rough edges of the latest Ruby.
+        issue_tracking:
+          name: Issue Tracking
+          url: http://redmine.ruby-lang.org/
+          description: |
+            Report or help solve issues in Ruby.
+      top_ruby_projects:
+        name: Some Top Ruby Projects
+        more:
+          name: More…
+          url: /en/libraries/top-projects/
+      syndicate:
+        name: Syndicate
+        recent_news:
+          name: Recent News (RSS)
+          url: /en/feeds/news.rss
 
   credits:
     en: |
