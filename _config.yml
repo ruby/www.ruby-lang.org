@@ -85,6 +85,15 @@ top_projects:
       and Firefox.
 
 locales:
+  directories:
+    en:
+      downloads: downloads
+      documentation: documentation
+      libraries: libraries
+      community: community
+      news: news
+      security: security
+      about: about
   sitelinks:
     bg:
       - name: За сваляне
@@ -292,6 +301,71 @@ locales:
         url: security
       - name: 關於 Ruby
         url: about
+
+  sidebar:
+    bg:
+      getting_started:
+        name: <strong>Започнете</strong> лесно е
+        try_ruby:
+          name: Пробвайте Ruby! (в браузъра)
+          url: http://tryruby.org/
+        ruby_in_twenty_minutes:
+          name: Ruby в 20 минути
+          url: /bg/documentation/quickstart/
+        ruby_from_other_languages:
+          name: Ruby от други езици
+          url: /bg/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Изследвайте</strong> нов свят…
+        documentation:
+          name: Документация
+          url: /bg/documentation/
+        books:
+          name: Книги
+          url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
+        libraries:
+          name: Библиотеки
+          url: /bg/libraries/
+        success_stories:
+          name: Успешни истории
+          url: /bg/documentation/success-stories/
+      participate:
+        name: <strong>Участвайте</strong> в приятелски настроено общество.
+        mailing_lists:
+          name: Пощенски списъци
+          url: /bg/community/mailing-lists/
+          description: |
+            Дискусии относно Ruby с програмисти от цял свят.
+        user_groups:
+          name: Потребителски групи
+          url: /bg/community/user-groups/
+          description: |
+            Свържете се с рубисти в твоя район.
+        weblogs:
+          name: Блогове
+          url: /bg/community/weblogs/
+          description: |
+            Прочетете какво се случва в Ruby обществото.
+        ruby_core:
+          name: Ruby ядро
+          url: /bg/community/ruby-core/
+          description: |
+            Помогнете за разработката на Ruby.
+        issue_tracking:
+          name: Следене на бъгове
+          url: http://redmine.ruby-lang.org/
+          description: |
+            Докладвайте или помогнете за решаването на проблеми в Ruby.
+      top_ruby_projects:
+        name: Няколко топ Ruby проекта
+        more:
+          name: Още…
+          url: /bg/libraries/top-projects/
+      syndicate:
+        name: Новини
+        recent_news:
+          name: Последните новини
+          url: /bg/feeds/news.rss
 
   credits:
     en: |
