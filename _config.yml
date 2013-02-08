@@ -235,6 +235,19 @@ nav:
       url: security
     - name: 루비에 대해서
       url: about
+  pl:
+    - name: Pobierz
+      url: downloads
+    - name: Dokumentacja
+      url: dokumentacja
+    - name: Biblioteki
+      url: libraries
+    - name: Społeczność
+      url: spolecznosc
+    - name: Wiadomości
+      url: news
+    - name: O języku Ruby
+      url: about
   pt:
     - name:  Downloads
       url: downloads
