@@ -5,8 +5,8 @@ lang: pt
 ---
 
 Aqui pode receber as últimas distribuições de Ruby nos seus sabores
-preferidos. A versão actual e estável é a 1.9.2. Por favor certifique-se
-de ler a [Licença Ruby][1].
+preferidos. A versão actual e estável é a {{ site.downloads.stable.version }}.
+Por favor certifique-se de ler a [Licença Ruby][1].
 
 ### Código-Fonte do Ruby
 
@@ -15,12 +15,12 @@ suficientemente confortável com a sua plataforma ou por ventura necessite de
 configurações específicas para o seu ambiente. É eventualmente também uma boa
 solução porque pode não haver pacotes pré-construídos para a sua plataforma.
  
-* [Ruby 1.9.2-p290][2] (md5: 604da71839a6ae02b5b5b5e1b792d5eb) Versão
-  estávelStable Version (*recomendada*)
-* [Ruby 1.9.3 preview1][3] (md5: 0f0220be4cc7c51a82c1bd8f6a0969f3)
-* [Snapshot Estável][4] Ficheiros compactados em tar e gzip do último
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5: {{ site.downloads.stable.md5 }})
+  Versão estávelStable Version (*recomendada*)
+* [Snapshot Estável][3] Ficheiros compactados em tar e gzip do último
   CVS estável. Deverá ser melhor que o última distribuição estável.
-* [Snapshot Nocturno][5] Ficheiros compactados em tar e gzip do último
+* [Snapshot Nocturno][4] Ficheiros compactados em tar e gzip do último
   CVS. Pode conter problemas por resolver.
 
 Para informações sobre o repositório CVS de Ruby, veja a nossa página
@@ -115,10 +115,9 @@ necessitam de testar as suas aplicações em ambientes diversos.
 
 
 [1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz 
-[5]: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
 [7]: http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe 
 [8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe 
