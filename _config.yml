@@ -276,3 +276,18 @@ nav:
       url: security
     - name: Ruby Hakkında
       url: about
+  zh_cn:
+    - name: 下载
+      url: downloads
+    - name: 文档
+      url: documentation
+    - name: 资源库
+      url: libraries
+    - name: 社区
+      url: community
+    - name: 新闻
+      url: news
+    - name: 安全
+      url: security
+    - name: 关于 Ruby
+      url: about
