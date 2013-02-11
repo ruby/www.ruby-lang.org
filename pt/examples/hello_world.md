@@ -3,15 +3,16 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# The famous Hello World
-# Program is trivial in
-# Ruby. Superfluous:
+# O famoso programa
+# "Olá Mundo" é trivial
+# em Ruby. Não necessita de:
 #
-# * A "main" method
-# * Newline
-# * Semicolons
+# * um método "main"
+# * caracteres escape
+#   de linha
+# * ponto e virgulas
 #
-# Here is the Code:
+# Aqui está o código:
 
-puts "Hello World!"
+puts "Olá Mundo!"
 {% endhighlight %}

@@ -3,19 +3,16 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# Ruby knows what you
-# mean, even if you
-# want to do math on
-# an entire Array
-cities  = %w[ London
-              Oslo
-              Paris
-              Amsterdam
-              Berlin ]
-visited = %w[Berlin Oslo]
+# Ruby sait ce que vous
+# voulez vraiment faire,
+# même avec des tableaux.
+villes   = %w[ Londres
+               Oslo
+               Paris
+               Amsterdam
+               Berlin ]
+visitees = %w[Berlin Oslo]
 
-puts "I still need " +
-     "to visit the " +
-     "following cities:",
-     cities - visited
+puts "Encore à visiter :",
+     villes - visitees
 {% endhighlight %}

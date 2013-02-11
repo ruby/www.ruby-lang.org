@@ -3,15 +3,15 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# Output "I love Ruby"
-say = "I love Ruby"
-puts say
+# Stampa "Mi piace Ruby"
+frase = "Mi piace Ruby"
+puts frase
 
-# Output "I *LOVE* RUBY"
-say['love'] = "*love*"
-puts say.upcase
+# Stampa "MI *PIACE* RUBY"
+frase['piace'] = "*piace*"
+puts frase.upcase
 
-# Output "I *love* Ruby"
-# five times
-5.times { puts say }
+# Stampa "Mi *piace* Ruby"
+# cinque volte
+5.times { puts frase }
 {% endhighlight %}

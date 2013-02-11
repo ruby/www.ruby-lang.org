@@ -3,20 +3,20 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# The Greeter class
+# Selamlama sınıfı
 class Greeter
-  def initialize(name)
-    @name = name.capitalize
+  def initialize(isim)
+    @isim = isim.capitalize
   end
 
   def salute
-    puts "Hello #{@name}!"
+    puts "Merhaba #{@isim}!"
   end
 end
 
-# Create a new object
-g = Greeter.new("world")
+# Yeni bir obje üretin
+g = Greeter.new("Dünya!")
 
-# Output "Hello World!"
+# Çıktı "Merhaba Dünya!"
 g.salute
 {% endhighlight %}
