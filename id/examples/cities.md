@@ -14,7 +14,7 @@ cities  = %w[ London
               Amsterdam
               Berlin ]
 visited = %w[Berlin Oslo]
- 
+
 puts "Saya masih perlu " +
      "mengunjungi " +
      "kota-kota berikut:",

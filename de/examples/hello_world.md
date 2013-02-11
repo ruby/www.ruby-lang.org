@@ -12,6 +12,6 @@ layout: nil
 # * Semikolons
 #
 # Hier ist der Code:
- 
+
 puts "Hallo Welt!"
 {% endhighlight %}
