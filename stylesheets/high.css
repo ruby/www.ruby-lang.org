@@ -246,6 +246,26 @@ body {
 #content pre {
   overflow: auto;
 }
+#content .highlight pre {
+  background-color: #213449;
+  background-image: url(/images/code-box-top-left.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  color: white;
+  display: block;
+  width: 100%;
+}
+#content .highlight pre code {
+  background-image: url(/images/code-box-bottom-right.gif);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  display: block;
+  overflow: auto;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 115%;
+  line-height: 135%;
+  padding: 15px;
+}
 #content pre.code {
   background-color: #213449;
   background-image: url(/images/code-box-top-left.gif);
