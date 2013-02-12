@@ -16,28 +16,28 @@
   <ul class="menu">
     <li><a href="{{ sidebar.get_started.try_ruby.url }}">{{ sidebar.get_started.try_ruby.text }}</a></li>
 
-    <li><a href="{{ sidebar.get_started.quickstart.url }}">{{ sidebar.get_started.quickstart.text }}</a></li>
-    <li><a href="{{ sidebar.get_started.ruby_from_other_languages.url }}">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.get_started.quickstart.url }}">{{ sidebar.get_started.quickstart.text }}</a></li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.get_started.ruby_from_other_languages.url }}">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
   </ul>
 </div>
 
 <div class="navigation">
   <h3>{{ sidebar.explore.text }}</h3>
   <ul class="menu">
-    <li><a href="{{ sidebar.explore.documentation.url }}">{{ sidebar.explore.documentation.text }}</a></li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.explore.documentation.url }}">{{ sidebar.explore.documentation.text }}</a></li>
     <li><a href="{{ sidebar.explore.books.url }}">{{ sidebar.explore.books.text }}</a></li>
-    <li><a href="{{ sidebar.explore.libraries.url }}">{{ sidebar.explore.libraries.text }}</a></li>
-    <li><a href="{{ sidebar.explore.success_stories.url }}">{{ sidebar.explore.success_stories.text }}</a></li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.explore.libraries.url }}">{{ sidebar.explore.libraries.text }}</a></li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.explore.success_stories.url }}">{{ sidebar.explore.success_stories.text }}</a></li>
   </ul>
 </div>
 
 <div class="navigation">
   <h3>{{ sidebar.participate.text }}</h3>
   <ul>
-    <li><a href="{{ sidebar.participate.mailing_lists.url }}">{{ sidebar.participate.mailing_lists.text }}</a>: {{ sidebar.participate.mailing_lists.description }}</li>
-    <li><a href="{{ sidebar.participate.user_groups.url }}">{{ sidebar.participate.user_groups.text }}</a>: {{ sidebar.participate.user_groups.description }}</li>
-    <li><a href="{{ sidebar.participate.weblogs.url }}">{{ sidebar.participate.weblogs.text }}</a>: {{ sidebar.participate.weblogs.description }}</li>
-    <li><a href="{{ sidebar.participate.ruby_core.url }}">{{ sidebar.participate.ruby_core.text }}</a>: {{ sidebar.participate.ruby_core.description }}</li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.participate.mailing_lists.url }}">{{ sidebar.participate.mailing_lists.text }}</a>: {{ sidebar.participate.mailing_lists.description }}</li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.participate.user_groups.url }}">{{ sidebar.participate.user_groups.text }}</a>: {{ sidebar.participate.user_groups.description }}</li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.participate.weblogs.url }}">{{ sidebar.participate.weblogs.text }}</a>: {{ sidebar.participate.weblogs.description }}</li>
+    <li><a href="/{{ page.lang }}/{{ sidebar.participate.ruby_core.url }}">{{ sidebar.participate.ruby_core.text }}</a>: {{ sidebar.participate.ruby_core.description }}</li>
     <li><a href="{{ sidebar.participate.issue_tracking.url }}">{{ sidebar.participate.issue_tracking.text }}</a>: {{ sidebar.participate.issue_tracking.description }}</li>
   </ul>
 </div>
@@ -49,8 +49,8 @@
   <li><a href="{{ project.url }}" title="{{ project.description }}">{{ project.name }}</a></li>
   {% endfor %}
 </ul>
-<p class="more"><a href="{{ sidebar.top_ruby.more.text }}">{{ sidebar.top_ruby.more.url }}</a></p>
+<p class="more"><a href="/{{ page.lang }}/{{ sidebar.top_ruby.more.text }}">{{ sidebar.top_ruby.more.url }}</a></p>
 
 
 <h3>{{ sidebar.syndicate.text }}</h3>
-<p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
+<p><a href="/{{ page.lang }}/{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>

@@ -271,44 +271,44 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby в 20 минути
-          url: /bg/documentation/quickstart/
+          url: documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby от други езици
-          url: /bg/documentation/ruby-from-other-languages/
+          url: documentation/ruby-from-other-languages/
       explore:
         text: <strong>Изследвайте</strong> нов свят…
         documentation:
           text: Документация
-          url: /bg/documentation/
+          url: documentation/
         books:
           text: Книги
           <<: *books
         libraries:
           text: Библиотеки
-          url: /bg/libraries/
+          url: libraries/
         success_stories:
           text: Успешни истории
-          url: /bg/documentation/success-stories/
+          url: documentation/success-stories/
       participate:
         text: <strong>Участвайте</strong> в приятелски настроено общество.
         mailing_lists:
           text: Пощенски списъци
-          url: /bg/community/mailing-lists/
+          url: community/mailing-lists/
           description: |
             Дискусии относно Ruby с програмисти от цял свят.
         user_groups:
           text: Потребителски групи
-          url: /bg/community/user-groups/
+          url: community/user-groups/
           description: |
             Свържете се с рубисти в твоя район.
         weblogs:
           text: Блогове
-          url: /bg/community/weblogs/
+          url: community/weblogs/
           description: |
             Прочетете какво се случва в Ruby обществото.
         ruby_core:
           text: Ruby ядро
-          url: /bg/community/ruby-core/
+          url: community/ruby-core/
           description: |
             Помогнете за разработката на Ruby.
         issue_tracking:
@@ -320,12 +320,12 @@ locales:
         text: Няколко топ Ruby проекта
         more:
           text: Още…
-          url: /bg/libraries/top-projects/
+          url: libraries/top-projects/
       syndicate:
         text: Новини
         recent_news:
           text: Последните новини (RSS)
-          url: /bg/feeds/news.rss
+          url: feeds/news.rss
     en:
       get_started:
         text: <strong>Get Started</strong>, it's easy!
@@ -334,44 +334,44 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby in Twenty Minutes
-          url: /en/documentation/quickstart/
+          url: documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby from Other Languages
-          url: /en/documentation/ruby-from-other-languages/
+          url: documentation/ruby-from-other-languages/
       explore:
         text: <strong>Explore</strong> a new world…
         documentation:
           text: Documentation
-          url: /en/documentation/
+          url: documentation/
         books:
           text: Books
           <<: *books
         libraries:
           text: Libraries
-          url: /en/libraries/
+          url: libraries/
         success_stories:
           text: Success Stories
-          url: /en/documentation/success-stories/
+          url: documentation/success-stories/
       participate:
         text: <strong>Participate</strong> in a friendly and growing community.
         mailing_lists:
           text: Mailing Lists
-          url: /en/community/mailing-lists/
+          url: community/mailing-lists/
           description: |
             Talk about Ruby with programmers from all around the world.
         user_groups:
           text: User Groups
-          url: /en/community/user-groups/
+          url: community/user-groups/
           description: |
             Get in contact with Rubyists in your area.
         weblogs:
           text: Weblogs
-          url: /en/community/weblogs/
+          url: community/weblogs/
           description: |
             Read about what’s happening right now in the Ruby community.
         ruby_core:
           text: Ruby Core
-          url: /en/community/ruby-core/
+          url: community/ruby-core/
           description: |
             Help polish the rough edges of the latest Ruby.
         issue_tracking:
@@ -383,12 +383,12 @@ locales:
         text: Some Top Ruby Projects
         more:
           text: More…
-          url: /en/libraries/top-projects/
+          url: libraries/top-projects/
       syndicate:
         text: Syndicate
         recent_news:
           text: Recent News (RSS)
-          url: /en/feeds/news.rss
+          url: feeds/news.rss
 
   credits:
     en: |
