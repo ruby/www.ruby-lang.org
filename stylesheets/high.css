@@ -286,57 +286,6 @@ body {
   line-height: 135%;
   padding: 15px;
 }
-#content pre.code .comment {
-  color: #428bdd;
-}
-#content pre.code .keyword {
-  color: #f9bb00;
-}
-#content pre.code .method {
-  color: #fff;
-}
-#content pre.code .class {
-  color: #fff;
-}
-#content pre.code .module {
-  color: #050;
-}
-#content pre.code .punct {
-  color: #8aa6c1;
-}
-#content pre.code .symbol {
-  color: #b53b3c;
-}
-#content pre.code .string {
-  color: #00cc00;
-}
-#content pre.code .char {
-  color: #f07;
-}
-#content pre.code .ident {
-  color: #fff;
-}
-#content pre.code .constant {
-  color: #8aa6c1;
-}
-#content pre.code .regex {
-  color: #ca4344;
-}
-#content pre.code .number {
-  color: #eddd3d;
-}
-#content pre.code .global {
-  color: #fff;
-}
-#content pre.code .expr {
-  color: #fff;
-}
-#content pre.code .escape {
-  color: #eddd3d;
-}
-#content pre.code .attribute {  
-  color: #8aa6c1;
-}
 #content pre.code.xml-code .string {
   color: #fff;
 }
