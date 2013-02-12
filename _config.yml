@@ -389,6 +389,69 @@ locales:
         recent_news:
           text: Recent News (RSS)
           url: feeds/news.rss
+    de:
+      get_started:
+        text: <strong>Der Einstieg</strong> ist einfach!
+        try_ruby:
+          text: Teste Ruby! (im Browser)
+          <<: *try_ruby
+        quickstart:
+          text: Ruby in 20 Minuten
+          url: documentation/quickstart/
+        ruby_from_other_languages:
+          text: Ruby für Umsteiger
+          url: documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Entdecke</strong> eine neue Welt…
+        documentation:
+          text: Dokumentation
+          url: documentation/
+        books:
+          text: Bücher
+          <<: *books
+        libraries:
+          text: Bibliotheken
+          url: libraries/
+        success_stories:
+          text: Erfolgsgeschichten
+          url: documentation/success-stories/
+      participate:
+        text: <strong>Beteilige dich</strong> an einer freundlichen und wachsenden Community.
+        mailing_lists:
+          text: Mailing-Listen
+          url: community/mailing-lists/
+          description: |
+            Sprich mit Programmierern auf der ganzen Welt über Ruby.
+        user_groups:
+          text: User-Groups
+          url: community/user-groups/
+          description: |
+            Treffe Rubyisten in deiner Umgebung.
+        weblogs:
+          text: Weblogs
+          url: community/weblogs/
+          description: |
+            Lies, was gerade jetzt in der Ruby-Community passiert.
+        ruby_core:
+          text: Ruby-Entwicklung
+          url: community/ruby-core/
+          description: |
+            Hilf mit, die neuesten Ruby-Versionen zu verbessern.
+        issue_tracking:
+          text: Fehler melden
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Melde einen Fehler oder hilf mit, offene Fehler zu beseitigen.
+      top_ruby_projects:
+        text: Beliebte Ruby-Projekte
+        more:
+          text: Mehr…
+          url: libraries/top-projects/
+      syndicate:
+        text: Syndication
+        recent_news:
+          text: Aktuelle Neuigkeiten (RSS)
+          url: feeds/news.rss
 
   credits:
     en: |
