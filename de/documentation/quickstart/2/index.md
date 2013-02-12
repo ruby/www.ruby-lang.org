@@ -69,7 +69,7 @@ einem Großbuchstaben anfängt:
     Hallo, Chris!
     => nil
     irb(main):023:0> h
-    Hallo Welt!
+    Hallo, Welt!
     => nil
 
 Hier kann man noch weitere Tricks beobachten. Einer davon ist, dass wir
