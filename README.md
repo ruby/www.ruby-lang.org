@@ -3,7 +3,7 @@
 This is an attempt to port the poorly maintained
 [www.ruby-lang.org](http://www.ruby-lang.org/) website to
 [Jekyll](http://www.jekyllrb.com/). You can view the live site at
-[ruby-lang.tk](http://ruby-lang.tk/)
+[ruby-lang.github.com](http://ruby-lang.github.com/)
 
 ## Get It
 
@@ -14,7 +14,7 @@ This is an attempt to port the poorly maintained
 
 ## Todo
 
-1. Compare [ruby-lang.tk](http://ruby-lang.tk/) to
+1. Compare [ruby-lang.github.com](http://ruby-lang.github.com/) to
    [www.ruby-lang.org](http://www.ruby-lang.org/). Submit Issues for any
    formatting mistakes.
 2. Generate the yearly/monthly News Post index pages.
