@@ -50,6 +50,21 @@ top_projects:
 
 locales:
   sitelinks:
+    en:
+      - text: Downloads
+        url:  downloads
+      - text: Documentation
+        url:  documentation
+      - text: Libraries
+        url:  libraries
+      - text: Community
+        url:  community
+      - text: News
+        url:  news
+      - text: Security
+        url:  security
+      - text: About Ruby
+        url:  about
     bg:
       - text: За сваляне
         url: downloads
@@ -79,21 +94,6 @@ locales:
       # - text: Sicherheit
       #   url:  security
       - text: Über Ruby
-        url:  about
-    en:
-      - text: Downloads
-        url:  downloads
-      - text: Documentation
-        url:  documentation
-      - text: Libraries
-        url:  libraries
-      - text: Community
-        url:  community
-      - text: News
-        url:  news
-      - text: Security
-        url:  security
-      - text: About Ruby
         url:  about
     es:
       - text: Descargas
@@ -263,69 +263,6 @@ locales:
     books: &books
       url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
 
-    bg:
-      get_started:
-        text: <strong>Започнете</strong> лесно е!
-        try_ruby:
-          text: Пробвайте Ruby! (в браузъра)
-          <<: *try_ruby
-        quickstart:
-          text: Ruby в 20 минути
-          url: documentation/quickstart/
-        ruby_from_other_languages:
-          text: Ruby от други езици
-          url: documentation/ruby-from-other-languages/
-      explore:
-        text: <strong>Изследвайте</strong> нов свят…
-        documentation:
-          text: Документация
-          url: documentation/
-        books:
-          text: Книги
-          <<: *books
-        libraries:
-          text: Библиотеки
-          url: libraries/
-        success_stories:
-          text: Успешни истории
-          url: documentation/success-stories/
-      participate:
-        text: <strong>Участвайте</strong> в приятелски настроено общество.
-        mailing_lists:
-          text: Пощенски списъци
-          url: community/mailing-lists/
-          description: |
-            Дискусии относно Ruby с програмисти от цял свят.
-        user_groups:
-          text: Потребителски групи
-          url: community/user-groups/
-          description: |
-            Свържете се с рубисти в твоя район.
-        weblogs:
-          text: Блогове
-          url: community/weblogs/
-          description: |
-            Прочетете какво се случва в Ruby обществото.
-        ruby_core:
-          text: Ruby ядро
-          url: community/ruby-core/
-          description: |
-            Помогнете за разработката на Ruby.
-        issue_tracking:
-          text: Следене на бъгове
-          url: https://bugs.ruby-lang.org/
-          description: |
-            Докладвайте или помогнете за решаването на проблеми в Ruby.
-      top_ruby_projects:
-        text: Няколко топ Ruby проекта
-        more:
-          text: Още…
-          url: libraries/top-projects/
-      syndicate:
-        text: Новини
-        recent_news:
-          text: Последните новини (RSS)
-          url: feeds/news.rss
     en:
       get_started:
         text: <strong>Get Started</strong>, it's easy!
@@ -388,6 +325,69 @@ locales:
         text: Syndicate
         recent_news:
           text: Recent News (RSS)
+          url: feeds/news.rss
+    bg:
+      get_started:
+        text: <strong>Започнете</strong> лесно е!
+        try_ruby:
+          text: Пробвайте Ruby! (в браузъра)
+          <<: *try_ruby
+        quickstart:
+          text: Ruby в 20 минути
+          url: documentation/quickstart/
+        ruby_from_other_languages:
+          text: Ruby от други езици
+          url: documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Изследвайте</strong> нов свят…
+        documentation:
+          text: Документация
+          url: documentation/
+        books:
+          text: Книги
+          <<: *books
+        libraries:
+          text: Библиотеки
+          url: libraries/
+        success_stories:
+          text: Успешни истории
+          url: documentation/success-stories/
+      participate:
+        text: <strong>Участвайте</strong> в приятелски настроено общество.
+        mailing_lists:
+          text: Пощенски списъци
+          url: community/mailing-lists/
+          description: |
+            Дискусии относно Ruby с програмисти от цял свят.
+        user_groups:
+          text: Потребителски групи
+          url: community/user-groups/
+          description: |
+            Свържете се с рубисти в твоя район.
+        weblogs:
+          text: Блогове
+          url: community/weblogs/
+          description: |
+            Прочетете какво се случва в Ruby обществото.
+        ruby_core:
+          text: Ruby ядро
+          url: community/ruby-core/
+          description: |
+            Помогнете за разработката на Ruby.
+        issue_tracking:
+          text: Следене на бъгове
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Докладвайте или помогнете за решаването на проблеми в Ruby.
+      top_ruby_projects:
+        text: Няколко топ Ruby проекта
+        more:
+          text: Още…
+          url: libraries/top-projects/
+      syndicate:
+        text: Новини
+        recent_news:
+          text: Последните новини (RSS)
           url: feeds/news.rss
     de:
       get_started:
