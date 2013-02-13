@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ruby in Twenty Minutes
+lang: en
 
 header: |
   <div class="multi-page">
