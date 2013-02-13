@@ -91,8 +91,8 @@ locales:
         url:  community
       - text: Neuigkeiten
         url:  news
-      # - text: Sicherheit
-      #   url:  security
+      - text: Sicherheit (en)
+        url:  /en/security
       - text: Über Ruby
         url:  about
     es:
