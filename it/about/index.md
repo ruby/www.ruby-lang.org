@@ -10,10 +10,6 @@ funzionale. Come mai?
 
 ### Gli ideali del creatore di Ruby
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 Ruby è un linguaggio di equilibrio e armonia. Il suo creatore, [Yukihiro
 “matz” Matsumoto][1], ha fuso insieme parti dei suoi linguaggi di
 programmazione preferiti (Perl, Smalltalk, Eiffel, Ada e Lisp) per

@@ -9,10 +9,6 @@ lang: ko
 
 ### 루비를 만든 마츠의 목표
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 루비는 균형잡힌 언어입니다. 루비를 만든 [유키히로 마츠모토][1](일명 마츠)는 그가 좋아하는 언어인 펄, 스몰토크, 아이펠,
 에이다, 리스프를 섞어서 명령형 프로그래밍언어이자 함수형 언어인 새로운 언어를 만들었습니다.
 

@@ -10,10 +10,6 @@ praktyczny. O co chodzi ?
 
 ### Ideały twórcy języka Ruby
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 Ruby jest językiem starannie dobranej równowagi. Jego twórca, [Yukihiro
 “matz” Matsumoto][1], połączył części jego ulubionych języków (Perla,
 Smalltalka, Eiffel, Ady i Lispa) by uformować nowy język, który

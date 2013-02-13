@@ -10,10 +10,6 @@ lang: bg
 
 ### Принципи и идеали на създателя на Ruby
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 Ruby e перфектно балансиран език за програмиране. Създателят му
 [Yukihiro „matz“ Matsumoto][1] е черпил вдъхновение от любимите си езици
 (Perl, Smalltalk, Eiffel, Ada, и Lisp) докато е писал творението си.

@@ -9,10 +9,6 @@ gleichzeitig funktional und praktisch. Wie kommt das?
 
 ### Die Ideale des Ruby-Erfinders
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 Ruby ist eine Sprache der Balance. Ihr Schöpfer [Yukihiro “matz”
 Matsumoto][1] vermischte Teile seiner Lieblingssprachen (Perl,
 Smalltalk, Eiffel, Ada und Lisp) und formte daraus eine neue

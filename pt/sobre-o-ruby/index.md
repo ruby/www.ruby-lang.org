@@ -10,10 +10,6 @@ conveniente. Afinal qual é o resultado?
 
 ### Os Ideais do Criador do Ruby
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 O Ruby é uma linguagem com um equilíbrio cuidado. O seu criador,
 [Yukihiro “matz” Matsumoto][1], uniu partes das suas linguagens
 favoritas (Perl, Smalltalk, Eiffel, Ada, e Lisp) para formar uma nova

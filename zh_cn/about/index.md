@@ -8,10 +8,6 @@ lang: zh_cn
 
 ### Ruby 发明者的理想
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 Ruby 是一个注重均衡的语言，它的发明者[松本行弘 Yukihiro “matz” Matsumoto][1]，混合了他喜欢的语言（Perl、
 Smalltalk、 Eiffel、 Ada 和 Lisp ） 产生了一种具有函数式及指令程序设计特性的新语言。
 

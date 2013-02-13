@@ -9,10 +9,6 @@ language. And yet, they say it’s handy and practical. What gives?
 
 ### The Ideals of Ruby’s Creator
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 Ruby is a language of careful balance. Its creator, [Yukihiro “matz”
 Matsumoto][1], blended parts of his favorite languages (Perl, Smalltalk,
 Eiffel, Ada, and Lisp) to form a new language that balanced functional

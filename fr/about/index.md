@@ -12,10 +12,6 @@ concrètement parlant ?
 
 ### Ruby, une conceptualisation personnelle
 
-![](http://redhanded.hobix.com/images/ruby-lang-matz.png){:
-style="padding-left:8px;"}
-{: style="float:right"}
-
 Le langage ruby, en terme de syntaxe et de fonctionnalité, a été dès le
 départ conçu comme un ensemble homogène. Son créateur est le programmeur
 japonais [Yukihiro « matz » Matsumoto][1]. Ce dernier a rassemblé

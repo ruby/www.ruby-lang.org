@@ -16,10 +16,6 @@ Smalltalk, Eiffel, Ada, y Lisp) para formar un nuevo lenguaje que
 incorporara tanto la programación funcional como la programación
 imperativa.
 
-![Yukihiro Matsumoto, creador de
-Ruby](http://soveran.com/extra/yukihiro_matsumoto.jpg "Yukihiro
-Matsumoto, creador de Ruby")
-
 A menudo ha manifestado que está “tratando de hacer que Ruby sea
 natural, no simple”, de una forma que se asemeje a la vida real.
 
