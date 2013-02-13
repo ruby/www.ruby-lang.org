@@ -4,5 +4,5 @@
   {% assign sitelinks = site.locales.sitelinks['en'] %}
 {% endif %}
 {% for link in sitelinks %}
-  <a href="/{{ page.lang }}/{{ link.url }}/">{{ link.text }}</a>{% unless forloop.last %}<span class="separator"> | </span>{% endunless %}
+  <a href="{{ link.url | localize }}/">{{ link.text }}</a>{% unless forloop.last %}<span class="separator"> | </span>{% endunless %}
 {% endfor %}
