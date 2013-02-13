@@ -26,7 +26,5 @@ Note that creating the site may take several minutes.
    [www.ruby-lang.org](http://www.ruby-lang.org/). Submit Issues for any
    formatting mistakes.
 2. Generate the yearly/monthly News Post index pages.
-3. Write some JavaScript to randomly request code examples, from the
-   `examples/` directory, for the front-page.
-4. Auto-generate the Top Projects page using a `rake` task that pulls
+3. Auto-generate the Top Projects page using a `rake` task that pulls
    statistics from [www.rubygems.org](http://www.rubygems.org/).
