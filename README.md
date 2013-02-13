@@ -7,10 +7,18 @@ This is an attempt to port the poorly maintained
 
 ## Get It
 
+You need to have [Jekyll and Pygments installed](https://github.com/mojombo/jekyll/wiki/install)
+on your system.
+
+Clone the repository and create the site:
+
     $ git clone https://github.com/postmodern/www.ruby-lang.org.git
     $ cd www.ruby-lang.org/
     $ jekyll
-    $ open http://localhost:4000/
+
+Then open `http://localhost:4000/` in your browser.
+
+Note that creating the site may take several minutes.
 
 ## Todo
 
