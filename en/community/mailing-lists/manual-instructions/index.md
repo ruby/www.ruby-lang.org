@@ -8,10 +8,12 @@ To subscribe to a mailing list, please send a mail with the following
 mail body (not the subject) to the automated “controller” address:
 
     subscribe Your-First-Name Your-Last-Name
+{: .code}
 
 e.g.
 
     subscribe John Doe
+{: .code}
 
 Ruby-Talk
 : For the Ruby-Talk list, the controller address is
