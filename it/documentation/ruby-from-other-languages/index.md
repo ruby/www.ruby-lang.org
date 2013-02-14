@@ -252,7 +252,9 @@ usato come ricevente per una chiamata ad un metodo pubblico.
 
 ### Classi aperte
 
- In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli oggetti. Ruby on Rails, per esempio, definishe una serie di metodi per fare operazioni temporali con oggetti `Fixnum`\:     class Fixnum
+ In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli oggetti. Ruby on Rails, per esempio, definishe una serie di metodi per fare operazioni temporali con oggetti `Fixnum`\:
+
+    class Fixnum
       def hours
         self * 3600 # numero di secondi in un'ora
       end

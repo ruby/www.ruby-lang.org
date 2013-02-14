@@ -202,7 +202,9 @@ Ruby 有些不同。`public` 还是公开的。`private`
 
 ### Classes are open
 
- Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:     class Fixnum
+ Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:
+
+    class Fixnum
       def hours
         self * 3600 # number of seconds in an hour
       end
