@@ -67,8 +67,9 @@ or consider using RubyInstaller, described in the next section.
 As of this writing, as long as you have [git][6] installed, you can
 install RVM with:
 
-    $ bash 
-{: .code .sh-code}
+{% highlight sh %}
+$ \curl -L https://get.rvm.io | bash -s stable --ruby
+{% endhighlight %}
 
 For the latest instructions on installing rvm, check out [the RVM
 installation page][7]. Installing the latest Ruby version with RVM is
@@ -107,8 +108,9 @@ instead.
 Debian GNU/Linux uses the apt package manager system. (So does Ubuntu.)
 You can use it like this:
 
-    $ sudo apt-get install ruby1.9.1
-{: .code .sh-code}
+{% highlight sh %}
+$ sudo apt-get install ruby1.9.1
+{% endhighlight %}
 
 Yes, this will install Ruby 1.9.2. It has a ‘library compatibility
 version’ of 1.9.1, hence the name.
@@ -118,8 +120,9 @@ If you install the ‘ruby’ package, you’ll get the older Ruby 1.8.
 Arch Linux uses a package manager named pacman. To get Ruby, just do
 this:
 
-    $ sudo pacman -S ruby
-{: .code .sh-code}
+{% highlight sh %}
+$ sudo pacman -S ruby
+{% endhighlight %}
 
 On other systems, RVM might be the right choice for you, or you can
 search the package repository for your Linux distro’s manager.
@@ -137,8 +140,9 @@ number of options for installing the latest version of Ruby.
 Many people on Mac OS X use [Homebrew][12] as a package manager. It’s
 really easy to get Ruby:
 
-    $ brew install ruby
-{: .code .sh-code}
+{% highlight sh %}
+$ brew install ruby
+{% endhighlight %}
 
 Also, since OS X is based on Unix, downloading and installing from the
 source is just as easy and effective as the other solutions. To help you
@@ -162,8 +166,9 @@ System, or IPS][20] client. This will install the latest Ruby binaries
 and Rubygems directly from the OpenSolaris network repository for Ruby
 1.9. It’s easy:
 
-    % pkg install runtime/ruby-18
-{: .code .sh-code}
+{% highlight sh %}
+% pkg install runtime/ruby-18
+{% endhighlight %}
 
 Like before, RVM is a good way to obtain Ruby 1.9.2, the latest version.
 

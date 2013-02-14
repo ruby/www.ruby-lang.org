@@ -57,13 +57,14 @@ The **search** command can be used to look for gems, based on a string.
 Gems which names contain the specified string will be listed in return.
 For instance, to search for the “html”-related gems:
 
-    $ gem search -r html
-    
-     *** REMOTE GEMS ***
-    
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
-{: .code .bash-code}
+{% highlight sh %}
+$ gem search -r html
+
+ *** REMOTE GEMS ***
+
+ html-sample (1.0, 1.1)
+    A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 The `--remote` / `-r` flag indicates that we want to inspect the
 official RubyGems.org repository. Without this flag, you would perform a
@@ -74,33 +75,38 @@ local search (among your installed gems).
 Once you know which gem you would like to **install**, for instance the
 popular Rails:
 
-    $ gem install rails
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install rails
+{% endhighlight %}
 
 You can even install just a certain version of the library, using the
 `--version` / `-v` flag:
 
-    $ gem install rails --version 3.0
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install rails --version 3.0
+{% endhighlight %}
 
 #### Listing all gems
 
 For a complete **list** of all gems available on RubyGems.org:
 
-    $ gem list -r
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list -r
+{% endhighlight %}
 
 To list only local gems:
 
-    $ gem list
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 #### Help!
 
 Documentation is available inside your terminal:
 
-    $ gem help
-{: .code .bash-code}
+{% highlight sh %}
+$ gem help
+{% endhighlight %}
 
 For instance, `gem help commands` is very useful as it outputs a list of
 all `gem`’s commands.
