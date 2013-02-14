@@ -19,12 +19,12 @@ header: |
 What if we want to say &#8220;Hello&#8221; a lot without getting our fingers
 all tired?  We need to define a method!
 
-    {% highlight ruby %}
-    irb(main):010:0> def h
-    irb(main):011:1> puts "Hello World!"
-    irb(main):012:1> end
-    => nil
-    {% endhighlight %}
+{% highlight ruby %}
+irb(main):010:0> def h
+irb(main):011:1> puts "Hello World!"
+irb(main):012:1> end
+=> nil
+{% endhighlight %}
 
 The code `def h` starts the definition of the method. It tells Ruby that
 we&#8217;re defining a method,  that its name is `h`. The next line
@@ -37,14 +37,14 @@ defining the method.
 
 Now let&#8217;s try running that method a few times:
 
-    {% highlight ruby %}
-    irb(main):013:0> h
-    Hello World!
-    => nil
-    irb(main):014:0> h()
-    Hello World!
-    => nil
-    {% endhighlight %}
+{% highlight ruby %}
+irb(main):013:0> h
+Hello World!
+=> nil
+irb(main):014:0> h()
+Hello World!
+=> nil
+{% endhighlight %}
 
 Well, that was easy. Calling a method in Ruby is as easy as just mentioning
 its name to Ruby. If the method doesn&#8217;t take  parameters that&#8217;s
@@ -54,15 +54,15 @@ they&#8217;re not needed.
 What if we want  to say hello to one person, and  not the whole world?
 Just redefine `h` to take a name as a parameter.
 
-    {% highlight ruby %}
-    irb(main):015:0> def h(name)
-    irb(main):016:1> puts "Hello #{name}!"
-    irb(main):017:1> end
-    => nil
-    irb(main):018:0> h("Matz")
-    Hello Matz!
-    => nil
-    {% endhighlight %}
+{% highlight ruby %}
+irb(main):015:0> def h(name)
+irb(main):016:1> puts "Hello #{name}!"
+irb(main):017:1> end
+=> nil
+irb(main):018:0> h("Matz")
+Hello Matz!
+=> nil
+{% endhighlight %}
 
 So it  works&#8230; but let&#8217;s take a  second to see what&#8217;s  going on here.
 
@@ -74,18 +74,18 @@ something into a string. The bit between the braces is turned into a string
 at that point. You  can also use this to make sure that someone&#8217;s name is
 properly capitalized:
 
-    {% highlight ruby %}
-    irb(main):019:0> def h(name = "World")
-    irb(main):020:1> puts "Hello #{name.capitalize}!"
-    irb(main):021:1> end
-    => nil
-    irb(main):022:0> h "chris"
-    Hello Chris!
-    => nil
-    irb(main):023:0> h
-    Hello World!
-    => nil
-    {% endhighlight %}
+{% highlight ruby %}
+irb(main):019:0> def h(name = "World")
+irb(main):020:1> puts "Hello #{name.capitalize}!"
+irb(main):021:1> end
+=> nil
+irb(main):022:0> h "chris"
+Hello Chris!
+=> nil
+irb(main):023:0> h
+Hello World!
+=> nil
+{% endhighlight %}
 
 A couple of other tricks to spot here. One is that we&#8217;re calling
 the method without parentheses again. If it&#8217;s  obvious what
@@ -99,20 +99,20 @@ What if we want a real greeter around, one that remembers your name and
 welcomes you and treats you always with respect.  You might  want to use an
 object for  that.  Let&#8217;s create a &#8220;Greeter&#8221; class.
 
-    {% highlight ruby %}
-    irb(main):024:0> class Greeter
-    irb(main):025:1>   def initialize(name = "World")
-    irb(main):026:2>     @name = name
-    irb(main):027:2>   end
-    irb(main):028:1>   def say_hi
-    irb(main):029:2>     puts "Hi #{@name}!"
-    irb(main):030:2>   end
-    irb(main):031:1>   def say_bye
-    irb(main):032:2>     puts "Bye #{@name}, come back soon."
-    irb(main):033:2>   end
-    irb(main):034:1> end
-    => nil
-    {% endhighlight %}
+{% highlight ruby %}
+irb(main):024:0> class Greeter
+irb(main):025:1>   def initialize(name = "World")
+irb(main):026:2>     @name = name
+irb(main):027:2>   end
+irb(main):028:1>   def say_hi
+irb(main):029:2>     puts "Hi #{@name}!"
+irb(main):030:2>   end
+irb(main):031:1>   def say_bye
+irb(main):032:2>     puts "Bye #{@name}, come back soon."
+irb(main):033:2>   end
+irb(main):034:1> end
+=> nil
+{% endhighlight %}
 
 The new keyword here is `class`. This defines a new class called
 Greeter and a bunch of methods for that class. Also notice `@name`.

@@ -26,21 +26,21 @@ for clarity.
 
 Our `say_hi` method has become a bit trickier:
 
-    {% highlight ruby %}
-    # Say hi to everybody
-    def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names is a list of some kind, iterate!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+{% highlight ruby %}
+# Say hi to everybody
+def say_hi
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("each")
+    # @names is a list of some kind, iterate!
+    @names.each do |name|
+      puts "Hello #{name}!"
     end
-    {% endhighlight %}
+  else
+    puts "Hello #{@names}!"
+  end
+end
+{% endhighlight %}
 
 It now  looks at the `@names` instance variable to make decisions.
 If it&#8217;s nil,  it just prints  out three dots. No point
@@ -56,11 +56,11 @@ default greeting.
 
 Let&#8217;s look at that iterator in more depth:
 
-    {% highlight ruby %}
-    @names.each do |name|
-      puts "Hello #{name}!"
-    end
-    {% endhighlight %}
+{% highlight ruby %}
+@names.each do |name|
+  puts "Hello #{name}!"
+end
+{% endhighlight %}
 
 `each` is a method that accepts a block of code then runs that block
 of code for every element in a  list, and the bit  between `do` and
@@ -75,12 +75,12 @@ is run with that name.
 Most other  programming languages handle  going over a list  using the
 `for` loop, which in C looks something like:
 
-    {% highlight ruby %}
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
-    {% endhighlight %}
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 This works, but isn&#8217;t very elegant. You need a throw-away variable
 like `i`, have to figure out how long the list  is, and have to
@@ -98,19 +98,19 @@ complicated  than   lists.  Beyond handling simple
 housekeeping  details within the  method, you can also  handle setup,
 teardown, and errors&#8212;all hidden away from the cares of the user.
 
-    {% highlight ruby %}
-    # Say bye to everybody
-    def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Join the list elements with commas
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
-    end
-    {% endhighlight %}
+{% highlight ruby %}
+# Say bye to everybody
+def say_bye
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("join")
+    # Join the list elements with commas
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+  else
+    puts "Goodbye #{@names}.  Come back soon!"
+  end
+end
+{% endhighlight %}
 
 The `say_bye` method doesn&#8217;t use `each`, instead it checks to see if
 `@names`  responds  to  the  `join`  method, and  if  so,  uses  it.
@@ -129,9 +129,9 @@ So,  that&#8217;s the MegaGreeter  class, the  rest of  the file  just calls
 methods on that class.  There&#8217;s  one final trick to notice, and that&#8217;s
 the line:
 
-    {% highlight ruby %}
-    if __FILE__ == $0
-    {% endhighlight %}
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` is the magic variable that contains the name of the current
 file.  `$0` is  the name of the file used to  start the program.  This
