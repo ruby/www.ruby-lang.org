@@ -61,7 +61,7 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 </td>
 </tr>
 <tr class="book">
-<td> <img src="http://www.pro-linux.de/berichte/jpgs/rubytn.jpg" alt="" /> </td>
+<td><img src="http://www.pro-linux.de/berichte/jpgs/rubytn.jpg" alt="" /></td>
 <td>
   <p><strong class="title">Programmieren mit Ruby</strong></p>
   <p>

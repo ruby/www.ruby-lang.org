@@ -32,7 +32,7 @@ Pour plus d’information sur le dépôt Subversion de Ruby, voyez la page
 Il existe plusieurs façons d’installer Ruby sur la plateforme Microsoft
 Windows. La première consiste à installer les sources binaires
 pré-compilées ; la seconde est d’utiliser l’installateur
-« RubyInstaller. » Si vous ne savez pas quoi choisir, RubyInstaller est
+« RubyInstaller. » Si vous ne savez pas quoi choisir, RubyInstaller est
 vraisemblablement le moyen le plus simple (il fournit par ailleurs, en
 plus de Ruby, plusieurs bibliothèques additionnelles très utiles).
 
