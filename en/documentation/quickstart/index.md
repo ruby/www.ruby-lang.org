@@ -25,16 +25,19 @@ Open up IRB (which stands for Interactive Ruby).
   enter.
 * If you’re using **Windows**, open `fxri` from the Ruby section of your
   Start Menu.
-^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Ok, so it’s open. Now what?
 
 Type this: `"Hello World"`
 
-    irb(main):001:0> "Hello World"
-    => "Hello World"
+{% highlight ruby %}
+irb(main):001:0> "Hello World"
+=> "Hello World"
+{% endhighlight %}
 
 ## Ruby Obeyed You!
 
@@ -43,9 +46,11 @@ program? Not exactly. The second line is just IRB’s way of telling us
 the result of the last expression it evaluated. If we want to print out
 “Hello World” we need a bit more:
 
-    irb(main):002:0> puts "Hello World"
-    Hello World
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Hello World"
+Hello World
+=> nil
+{% endhighlight %}
 
 `puts` is the basic command to print something out in Ruby. But then
 what’s the `=> nil` bit? That’s the result of the expression. `puts`
@@ -55,8 +60,10 @@ always returns nil, which is Ruby’s absolutely-positively-nothing value.
 
 Already, we have enough to use IRB as a basic calculator:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Three plus two. Easy enough. What about three *times* two? You could
 type it in, it’s short enough, but you may also be able to go up and
@@ -65,19 +72,25 @@ keyboard and see if it brings up the line with `3+2` on it. If it does,
 you can use the left arrow key to move just after the `+` sign and then
 use backspace to change it to a `*` sign.
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 Next, let’s try three squared:
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 In Ruby `**` is the way you say “to the power of”. But what if you want
 to go the other way and find the square root of something?
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Ok, wait, what was that last one? If you guessed, “it was figuring out
 the square root of nine,” you’re right. But let’s take a closer look at
@@ -102,11 +115,13 @@ floating-point number.
 What if we want to remember the result of some of this math? Assign the
 result to a variable.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b) => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b) => 5.0
+{% endhighlight %}
 
 As great as this is for a calculator, we’re getting away from the
 traditional `Hello World` message that beginning tutorials are supposed
