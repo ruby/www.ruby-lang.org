@@ -59,10 +59,10 @@ For instance, to search for the “html”-related gems:
 
     $ gem search -r html
     
-     *** REMOTE GEMS ***
+     *** REMOTE GEMS ***
     
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
+     html-sample (1.0, 1.1)
+        A sample Ruby gem, just to illustrate how RubyGems works.
 {: .code .bash-code}
 
 The `--remote` / `-r` flag indicates that we want to inspect the

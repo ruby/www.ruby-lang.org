@@ -20,7 +20,7 @@ lang: zh_TW
     irb(main):038:0> g.@name
     SyntaxError: compile error
     (irb):52: syntax error
-            from (irb):52
+            from (irb):52
 
 啊，這樣不行。
 
@@ -33,15 +33,15 @@ lang: zh_TW
 
     irb(main):039:0> Greeter.instance_methods
     => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "say_hi", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+        "__send__", "equal?", "taint", "frozen?",
+        "instance_variable_get", "kind_of?", "to_a",
+        "instance_eval", "type", "protected_methods", "extend",
+        "eql?", "display", "instance_variable_set", "hash",
+        "is_a?", "to_s", "class", "tainted?", "private_methods",
+        "untaint", "say_hi", "id", "inspect", "==", "===",
+        "clone", "public_methods", "respond_to?", "freeze",
+        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
+        "instance_variables", "instance_of?"]
 
 哇。有這麼多。我們不是只定義了兩個方法，怎麼回事呢? 這裡列出的是**所有** Greeter
 物件的方法，因此也包括了它所繼承的類別的方法。如果我們只需要 Greeter 自己的方法，可以傳入一個 **false**
@@ -107,63 +107,63 @@ lang: zh_TW
     #!/usr/bin/env ruby
     
     class MegaGreeter
-      attr_accessor :names
+      attr_accessor :names
     
-      # 初始化這個物件
-      def initialize(names = "World")
-        @names = names
-      end
+      # 初始化這個物件
+      def initialize(names = "World")
+        @names = names
+      end
     
-      # 向每個人說 hi
-      def say_hi
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("each")
+      # 向每個人說 hi
+      def say_hi
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("each")
     
-          # @names 是可以迭代的陣列容器
-          @names.each do |name|
-            puts "Hello #{name}!"
-          end
-        else
-          puts "Hello #{@names}!"
-        end
-      end
+          # @names 是可以迭代的陣列容器
+          @names.each do |name|
+            puts "Hello #{name}!"
+          end
+        else
+          puts "Hello #{@names}!"
+        end
+      end
     
-      # 向每個人說 bye
-      def say_bye
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("join")
-          # 用逗號將陣列中的元素串接成一個字串
-          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-        else
-          puts "Goodbye #{@names}.  Come back soon!"
-        end
-      end
+      # 向每個人說 bye
+      def say_bye
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("join")
+          # 用逗號將陣列中的元素串接成一個字串
+          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+        else
+          puts "Goodbye #{@names}.  Come back soon!"
+        end
+      end
     
     end
     
     
     if __FILE__ == $0
-      mg = MegaGreeter.new
-      mg.say_hi
-      mg.say_bye
+      mg = MegaGreeter.new
+      mg.say_hi
+      mg.say_bye
     
-      # 變更成 "Zeke"
-      mg.names = "Zeke"
-      mg.say_hi
-      mg.say_bye
+      # 變更成 "Zeke"
+      mg.names = "Zeke"
+      mg.say_hi
+      mg.say_bye
     
-      # 變更成一個名字的陣列
-      mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Englebert"]
-      mg.say_hi
-      mg.say_bye
+      # 變更成一個名字的陣列
+      mg.names = ["Albert", "Brenda", "Charles",
+        "Dave", "Englebert"]
+      mg.say_hi
+      mg.say_bye
     
-      # 變更成 nil
-      mg.names = nil
-      mg.say_hi
-      mg.say_bye
+      # 變更成 nil
+      mg.names = nil
+      mg.say_hi
+      mg.say_bye
     end
 
 把這個檔案存成 “ri20min.rb”，然後輸入 “ruby ri20min.rb” 來執行它。您應該可以看到輸出是：

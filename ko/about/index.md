@@ -61,9 +61,9 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 `Numeric`에 메서드드를 추가하면 된다.
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -81,9 +81,9 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 싶었다\[4\]”고 말했다.
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 위 예제에서 블럭은 `do ... end` 문법 구조에 기술되었다. `map` 메서드는 주어진 단어 리스트에 블럭을 적용한다.
 이처럼 루비의 다른 메서드들도 그 동작 중 일부를 자신의 블럭으로 채워넣을 수 있도록 개발자에게 열린 구조를 제공하고 있다.
@@ -97,7 +97,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 있는 클래스는 어떤 것이든 `Enumerable` 모듈을 믹스인하기만 하면, `each`를 루프에 이용해 많은 함수들이 추가된다.
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 대부분 루비스트들은 위와 같은 기능이 복잡하기만하고 제한적인 다중 상속보다 훨씬 간결한 방법이라고 보고 있다.

@@ -142,7 +142,7 @@ yang pendek-pendek:
 
     queue = []
     %w{hello x world}.each do |word|
-      queue 
+      queue 
 
 **10 – Menentukan eksekusi kode**
 
@@ -153,7 +153,7 @@ trik ini untuk menentukan apakah Anda sedang menjalankan script langsung
 atau tidak:
 
     if __FILE__ == $0
-      # Do something.. run tests, call a method, etc. We're direct.
+      # Do something.. run tests, call a method, etc. We're direct.
     end
 
 **11 – Mempercepat assignment sekaligus (mass assignment)**
@@ -168,7 +168,7 @@ Trik ini bisa dipakai di banyak kasus seperti menangkap parameter
 argumen suatu metode yang berupa array dengan tanda \* (bintang) :
 
     def my_method(*args)
-      a, b, c, d = args
+      a, b, c, d = args
     end
 
 **12 – Gunakan range daripada perbandingan rumit untuk angka**
@@ -178,10 +178,10 @@ Tidak ada lagi kode omong kosong seperti if x &gt; 1000 &amp;&amp; x
 
     year = 1972
     puts  case year
-            when 1970..1979: "Tujuhpuluhan"
-            when 1980..1989: "Delapanpuluhan"
-            when 1990..1999: "Sembilanpuluhan"
-          end
+            when 1970..1979: "Tujuhpuluhan"
+            when 1980..1989: "Delapanpuluhan"
+            when 1990..1999: "Sembilanpuluhan"
+          end
 
 **13 – Gunakan Enumeration untuk menghindari kode-kode berulang**
 
@@ -215,19 +215,19 @@ Ada sering banyak metode yang menggunakan pattern kurang lebih sebagai
 berikut:
 
     def is_odd(x)
-      # Terlalu panjang..
-      if x % 2 == 0
-        return false
-      else
-        return true
-      end
+      # Terlalu panjang..
+      if x % 2 == 0
+        return false
+      else
+        return true
+      end
     end
 
 Mungkin kita bisa saja menggunakan operator ternary untuk improve?
 
     def is_odd(x)
-      # Jangan sekali-sekali menaruh false dan true pada operator ternary!!
-      x % 2 == 0 ? false : true
+      # Jangan sekali-sekali menaruh false dan true pada operator ternary!!
+      x % 2 == 0 ? false : true
     end
 
 Ya, kode barusan tadi memang lebih pendek, dan saya sering melihat
@@ -236,38 +236,38 @@ lebih maju dan menyandarkan diri pada hasil respon dari operator
 comparison Ruby yang berupa true maupun false langsung!
 
     def is_odd(x)
-      # Gunakan hasil logis yang sudah disediakan Ruby secara otomstis untuk Anda..
-      x % 2 != 0
+      # Gunakan hasil logis yang sudah disediakan Ruby secara otomstis untuk Anda..
+      x % 2 != 0
     end
 
 **17 – Perhatikan seluruh exception backtrace**
 
     def do_division_by_zero; 5 / 0; end
     begin
-      do_division_by_zero
+      do_division_by_zero
     rescue => exception
-      puts exception.backtrace
+      puts exception.backtrace
     end
 
 **18 – Manfaatkan obyek tunggal DAN array agar dapat dienumerasikan**
 
     [*items].each do |item|
-      # …
+      # …
     end
 
 **19 – Rescue yang berada dalam blok tidak perlu diapit ‘begin’**
 
     def x
-      begin
-        # …
-      rescue
-        # …
-      end
+      begin
+        # …
+      rescue
+        # …
+      end
     end
     def x
-      # …
+      # …
     rescue
-      # …
+      # …
     end
 
 **20 – Komentar format blok**
@@ -276,7 +276,7 @@ Di Ruby kita bisa dengan bebas sesuai selera untuk berkomentas di kode
 dengan pagar ataupun menggunakan blok begin dan end:
 
     puts "x"
-    =begin  ini adalah blok komentar  Anda dapat menaruh apa saja yang Anda suka disini!  puts “y”=end
+    =begin  ini adalah blok komentar  Anda dapat menaruh apa saja yang Anda suka disini!  puts “y”=end
     puts "z"
 
 **21 – Rescue satu baris**

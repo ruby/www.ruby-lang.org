@@ -15,16 +15,16 @@ Nasza metoda `say_hi` stała się trochę bardziej skomplikowana:
 
     # Powiedz hi wszystkim
     def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names to pewnego rodzaju lista, przejdź po elementach tej listy
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names to pewnego rodzaju lista, przejdź po elementach tej listy
+        @names.each do |name|
+          puts "Hello #{name}!"
+        end
+      else
+        puts "Hello #{@names}!"
+      end
     end
 
 Metoda ta sprawdza teraz parametr `@names` i jeśli wynosi on nil to
@@ -40,7 +40,7 @@ to na stringa i wyświetlmy domyśle powitanie.
 Przyjrzyjmy się bliżej iteratorowi:
 
     @names.each do |name|
-      puts "Hello #{name}!"
+      puts "Hello #{name}!"
     end
 
 `each` jest metodą, która przyjmuje blok kodu i wywołuje ten blok kodu
@@ -74,14 +74,14 @@ zakończenie i błędy – wszystko ukryte przed użytkownikiem twoich metod.
 
     # Powiedz wszystkim "do widzenia"
     def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Połącz elementy listy przecinkiem
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # Połącz elementy listy przecinkiem
+        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+      else
+        puts "Goodbye #{@names}.  Come back soon!"
+      end
     end
 
 Metoda `say_bye` nie korzysta z `each`, zamiast tego sprawdza czy

@@ -16,16 +16,16 @@ Metode `say_hai` kita sudah punya trik sedikit:
 
     # Bilang Hai buat semua
     def say_hai
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names adalah list, iterate!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names adalah list, iterate!
+        @names.each do |name|
+          puts "Hello #{name}!"
+        end
+      else
+        puts "Hello #{@names}!"
+      end
     end
 
 Sekarang kelas memperhatikan parameter `@names` untuk menentukan
@@ -43,7 +43,7 @@ default.
 Mari kita perhatikan iterator lebih dalam lagi:
 
     @names.each do |name|
-      puts "Hello #{name}!"
+      puts "Hello #{name}!"
     end
 
 `each` merupakan metode yang menerima blok kode yang kemudian
@@ -79,14 +79,14 @@ diluar dari sepengatahuan user)
 
     # Bilang "sampai jumpa" buat semua
     def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Gabung (Join) elemen list dengan koma
-        puts "Sampai jumpa #{@names.join(", ")}. Datang lagi ya!"
-      else
-        puts "Sampai jumpa #{@names}. Datang lagi ya!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # Gabung (Join) elemen list dengan koma
+        puts "Sampai jumpa #{@names.join(", ")}. Datang lagi ya!"
+      else
+        puts "Sampai jumpa #{@names}. Datang lagi ya!"
+      end
     end
 
 Metode `say_bye` tidak menggunakan `each`, tetapi memeriksa apakah

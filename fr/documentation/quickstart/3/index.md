@@ -22,7 +22,7 @@ pouvoir récupérer directement ce nom. Essayons :
     irb(main):038:0> g.@name
     SyntaxError: compile error
     (irb):52: syntax error
-            from (irb):52
+            from (irb):52
 
 Whoa, ça n’a pas l’air possible pour l’instant.
 
@@ -43,15 +43,15 @@ Quelles sont les méthodes disponibles pour nos instances de la classe
 
     irb(main):039:0> Greeter.instance_methods
     => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "say_hi", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+        "__send__", "equal?", "taint", "frozen?",
+        "instance_variable_get", "kind_of?", "to_a",
+        "instance_eval", "type", "protected_methods", "extend",
+        "eql?", "display", "instance_variable_set", "hash",
+        "is_a?", "to_s", "class", "tainted?", "private_methods",
+        "untaint", "say_hi", "id", "inspect", "==", "===",
+        "clone", "public_methods", "respond_to?", "freeze",
+        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
+        "instance_variables", "instance_of?"]
 
 Ouch. Voilà une sacré liste de méthodes. Et pourtant, nous n’en avons
 défini que deux… d’où sortent donc les autres ? En fait, il s’agit d’une
@@ -135,63 +135,63 @@ Notre fichier va se présenter comme suit :
     #!/usr/bin/env ruby
     
     class MegaGreeter
-      attr_accessor :names
+      attr_accessor :names
     
-      # Création d'un objet
-      def initialize(names = "World")
-        @names = names
-      end
+      # Création d'un objet
+      def initialize(names = "World")
+        @names = names
+      end
     
-      # Saluer tout le monde
-      def say_hi
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("each")
+      # Saluer tout le monde
+      def say_hi
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("each")
     
-          # @names est une liste de noms : traitons-les uns par uns
-          @names.each do |name|
-            puts "Hello #{name}!"
-          end
-        else
-          puts "Hello #{@names}!"
-        end
-      end
+          # @names est une liste de noms : traitons-les uns par uns
+          @names.each do |name|
+            puts "Hello #{name}!"
+          end
+        else
+          puts "Hello #{@names}!"
+        end
+      end
     
-      # Dire au revoir à tout le monde
-      def say_bye
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("join")
-          # Grouper les différents noms de la liste par des virgules
-          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-        else
-          puts "Goodbye #{@names}.  Come back soon!"
-        end
-      end
+      # Dire au revoir à tout le monde
+      def say_bye
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("join")
+          # Grouper les différents noms de la liste par des virgules
+          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+        else
+          puts "Goodbye #{@names}.  Come back soon!"
+        end
+      end
     
     end
     
     
     if __FILE__ == $0
-      mg = MegaGreeter.new
-      mg.say_hi
-      mg.say_bye
+      mg = MegaGreeter.new
+      mg.say_hi
+      mg.say_bye
     
-      # Modifier le nom en Zeke
-      mg.names = "Zeke"
-      mg.say_hi
-      mg.say_bye
+      # Modifier le nom en Zeke
+      mg.names = "Zeke"
+      mg.say_hi
+      mg.say_bye
     
-      # Changer le nom pour un tableau (une liste de noms)
-      mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Englebert"]
-      mg.say_hi
-      mg.say_bye
+      # Changer le nom pour un tableau (une liste de noms)
+      mg.names = ["Albert", "Brenda", "Charles",
+        "Dave", "Englebert"]
+      mg.say_hi
+      mg.say_bye
     
-      # Maintenant, le nom n'est plus...
-      mg.names = nil
-      mg.say_hi
-      mg.say_bye
+      # Maintenant, le nom n'est plus...
+      mg.names = nil
+      mg.say_hi
+      mg.say_bye
     end
 
 Sauvegardez ce fichier, par exemple en tant que “ri20min.rb”

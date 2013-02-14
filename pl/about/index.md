@@ -79,9 +79,9 @@ gdybyś chciał wykorzystać w tym celu słowa `plus`, mógłbyś dodać
 stosowną metodę do klasy `Numeric`.
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -103,9 +103,9 @@ blokach Rubiego chciałem oddać szacunek środowisku
 Lispa<sup>[4](#fn4)</sup>.”
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 W powyższym kodzie, blok jest opisany pomiędzy słowami `do ... end`.
 Metoda `map` aplikuje zadany blok do podanej listy słów (Google Yahoo
@@ -125,7 +125,7 @@ modułu. Dla przykładu, którakolwiek z klas implementujących metodę
 metod, które wykorzystują metodę `each` do iterowania po elementach.
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 Programiści języka Ruby uznają tą technikę za prostszą niż wielokrotne

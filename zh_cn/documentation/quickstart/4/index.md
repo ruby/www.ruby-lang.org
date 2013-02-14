@@ -12,16 +12,16 @@ lang: zh_cn
 
     # Say hi to everybody
     def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names is a list of some kind, iterate!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names is a list of some kind, iterate!
+        @names.each do |name|
+          puts "Hello #{name}!"
+        end
+      else
+        puts "Hello #{@names}!"
+      end
     end
 
 它现在会根据 `@names` 参数的不同而采取不同的行动。如果参数是 nil，它会打印三个点。没有理由和空气问好对吗？
@@ -34,7 +34,7 @@ lang: zh_cn
 下面看一看这个迭代结构
 
     @names.each do |name|
-      puts "Hello #{name}!"
+      puts "Hello #{name}!"
     end
 
 `each` 是一个可以接受代码块的函数。它在迭代每一个元素时都会调用一次之前所接受到的代码块。 代码块像是一个不需要命名的函数，和
@@ -57,14 +57,14 @@ lang: zh_cn
 
     # Say bye to everybody
     def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Join the list elements with commas
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # Join the list elements with commas
+        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+      else
+        puts "Goodbye #{@names}.  Come back soon!"
+      end
     end
 
 `say_bye` 函数并没有用到 `each`，而是查看 `@names` 是否支持 `join`

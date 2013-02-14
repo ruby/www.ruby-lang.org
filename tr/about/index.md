@@ -80,9 +80,9 @@ kullanmak istiyorsanız Ruby’nin gömülü `Numeric` sınıfına yeni bir meto
 ekleyebilirsiniz.
 
     class Numeric
-      def topla(x)
-        self.+(x)
-      end
+      def topla(x)
+        self.+(x)
+      end
     end
     
     y = 5.topla 6
@@ -105,9 +105,9 @@ Bloklar fonksiyonel dillerden esinlenilerek Ruby’ye getirilmiştir. Matz
 istedim<sup>[4](#fn4)</sup>.” demiştir.
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 Yukarıdaki kodda bir blok `do ... end` yapıları içerisinde tanımlanıyor.
 `map` metodu bloğa bir kelime listesi ile çalıştığını bildiriyor.
@@ -127,7 +127,7 @@ almış olur. Örneğin `each` metodunu gerçekleştiren her sınıf
 `each` ile beraber kullanabileceği bir dizi metoda sahip olur.
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 Genelde Ruby’ciler bu yolu bazen çok karmaşıklaşan ve kısıtlayıcı olan

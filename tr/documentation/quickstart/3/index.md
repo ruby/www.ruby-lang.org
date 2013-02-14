@@ -21,7 +21,7 @@ Hımm, peki ismi direk olarak almak istersek nolcak?
     irb(main):038:0> g.@name
     SyntaxError: compile error
     (irb):52: syntax error
-            from (irb):52
+            from (irb):52
 
 Yok, yapamadık.
 
@@ -36,15 +36,15 @@ Pekala Greeter nesnesinin ne metodları mevcut?
 
     irb(main):039:0> Greeter.instance_methods
     => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "say_hi", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+        "__send__", "equal?", "taint", "frozen?",
+        "instance_variable_get", "kind_of?", "to_a",
+        "instance_eval", "type", "protected_methods", "extend",
+        "eql?", "display", "instance_variable_set", "hash",
+        "is_a?", "to_s", "class", "tainted?", "private_methods",
+        "untaint", "say_hi", "id", "inspect", "==", "===",
+        "clone", "public_methods", "respond_to?", "freeze",
+        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
+        "instance_variables", "instance_of?"]
 
 Waw, bir sürü metod varmış. Biz sadece iki metod tanımladık. Burda neler
 oluyor? Pekala bunlar Greeter nesnesinin tüm metodları, kalıtımdan
@@ -119,63 +119,63 @@ IRB’den çıkmak için “quit”, “exit” yazın ya da sadece Control-D ba
     #!/usr/bin/env ruby
     
     class MegaGreeter
-      attr_accessor :names
+      attr_accessor :names
     
-      # Nesnenin üretilmesi
-      def initialize(names = "World")
-        @names = names
-      end
+      # Nesnenin üretilmesi
+      def initialize(names = "World")
+        @names = names
+      end
     
-      # Herkese merhaba de
-      def say_hi
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("each")
+      # Herkese merhaba de
+      def say_hi
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("each")
     
-          # @names içinde bir çeşit liste var, içinde döndür!
-          @names.each do |name|
-            puts "Hello #{name}!"
-          end
-        else
-          puts "Hello #{@names}!"
-        end
-      end
+          # @names içinde bir çeşit liste var, içinde döndür!
+          @names.each do |name|
+            puts "Hello #{name}!"
+          end
+        else
+          puts "Hello #{@names}!"
+        end
+      end
     
-      # Herkese hoşçakal de
-      def say_bye
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("join")
-          # Liste elemanlarını virgülle birleştir
-          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-        else
-          puts "Goodbye #{@names}.  Come back soon!"
-        end
-      end
+      # Herkese hoşçakal de
+      def say_bye
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("join")
+          # Liste elemanlarını virgülle birleştir
+          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+        else
+          puts "Goodbye #{@names}.  Come back soon!"
+        end
+      end
     
     end
     
     
     if __FILE__ == $0
-      mg = MegaGreeter.new
-      mg.say_hi
-      mg.say_bye
+      mg = MegaGreeter.new
+      mg.say_hi
+      mg.say_bye
     
-      # İsimi "Zeke" olarak değiştir
-      mg.names = "Zeke"
-      mg.say_hi
-      mg.say_bye
+      # İsimi "Zeke" olarak değiştir
+      mg.names = "Zeke"
+      mg.say_hi
+      mg.say_bye
     
-      # İsimi bir isimler dizisine çevir
-      mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Englebert"]
-      mg.say_hi
-      mg.say_bye
+      # İsimi bir isimler dizisine çevir
+      mg.names = ["Albert", "Brenda", "Charles",
+        "Dave", "Englebert"]
+      mg.say_hi
+      mg.say_bye
     
-      #  nil yap
-      mg.names = nil
-      mg.say_hi
-      mg.say_bye
+      #  nil yap
+      mg.names = nil
+      mg.say_hi
+      mg.say_bye
     end
 
 Bu dosyayı “ri20min.rb” olarak kaydedin ve “ruby ri20min.rb” konsol

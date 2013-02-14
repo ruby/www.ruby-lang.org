@@ -15,16 +15,16 @@ Bizim `say_hi` metodunda biraz kurnazlıklar mevcut:
 
     # Herkese merhaba de
     def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names içinde bir çeşit liste var, içinde döndür!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names içinde bir çeşit liste var, içinde döndür!
+        @names.each do |name|
+          puts "Hello #{name}!"
+        end
+      else
+        puts "Hello #{@names}!"
+      end
     end
 
 Bu betik nasıl cevap vereceğine karar vermek için `@names` değişkenine
@@ -42,7 +42,7 @@ selamlama şeklini yapar.
 Haydi bu yineleyiciyi daha yakından inceleyelim:
 
     @names.each do |name|
-      puts "Hello #{name}!"
+      puts "Hello #{name}!"
     end
 
 `each` metodu arkasından gelen kod bloğunu listenin her elemanı için
@@ -79,14 +79,14 @@ from the cares of the user.
 
     # Herkese hoşçakal de
     def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Liste elemanlarını virgülle birleştir
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # Liste elemanlarını virgülle birleştir
+        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+      else
+        puts "Goodbye #{@names}.  Come back soon!"
+      end
     end
 
 `say_bye` metodu `each` kullanmaz onun yerine `@names` değişeninin

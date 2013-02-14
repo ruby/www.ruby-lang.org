@@ -57,8 +57,8 @@ C++, o Java anterior al 1.5), o recorrer una lista (como el <tt>for (@a)
 verás muy frecuentemente código de este estilo:
 
     una_lista.each do |este_item|
-      # Estamos dentro del bloque.
-      # Trabaja con este_item.
+      # Estamos dentro del bloque.
+      # Trabaja con este_item.
     end
 
 Para obtener más información sobre `each` (y sus amigos `collect`,
@@ -117,7 +117,7 @@ cualquier otro objeto:
     #   attr_accessor :variable_de_instancia
     # end
     MiClase = Class.new do
-      attr_accessor :variable_de_instancia
+      attr_accessor :variable_de_instancia
     end
 
 ### Constantes variables
@@ -141,7 +141,7 @@ ejemplo:
 
     Constante = 10
     def Constante
-      11
+      11
     end
 
 Ahora `Constante` vale 10, pero `Constante()` retorna 11.
@@ -153,7 +153,7 @@ pueden ser emulados mediante el uso de symbols y hashes. Ruby on Rails,
 entre otros, usa esto a discreción. Por ejemplo:
 
     def parametros_con_nombre( params )
-      params
+      params
     end
     parametros_con_nombre( :param_uno => 10, :param_dos => 42 )
     # => {:param_uno=>10, :param_dos=>42}
@@ -167,17 +167,17 @@ código Python (el ejemplo aplica también a otros lenguajes):
 
     # en Python
     if 0:
-      print "0 es verdadero"
+      print "0 es verdadero"
     else:
-      print "0 es falso"
+      print "0 es falso"
 
 Esto imprimirá “0 es falso”. El equivalente en Ruby:
 
     # en Ruby
     if 0
-      puts "0 es verdadero"
+      puts "0 es verdadero"
     else
-      puts "0 es falso"
+      puts "0 es falso"
     end
 
 Imprime “0 es verdadero”.
@@ -187,9 +187,9 @@ Imprime “0 es verdadero”.
 En el siguiente código Ruby,
 
     class MiClase
-      private
-      def un_metodo; true; end
-      def otro_metodo; false; end
+      private
+      def un_metodo; true; end
+      def otro_metodo; false; end
     end
 
 Puede ser que esperes que `otro_metodo` sea de alcance público. Esto no
@@ -198,13 +198,13 @@ alcance, o hasta que aparezca un nuevo modificador de acceso, lo que
 ocurra primero. Por defecto, los métodos son públicos:
 
     class MiClase
-      # Ahora un_metodo es público
-      def un_metodo; true; end
+      # Ahora un_metodo es público
+      def un_metodo; true; end
     
-      private
+      private
     
-      # otro_metodo es privado
-      def otro_metodo; false; end
+      # otro_metodo es privado
+      def otro_metodo; false; end
     end
 
  `public`, `private` y `protected` en realidad son métodos, así que pueden recibir parámetros. Si pasas un símbolo a uno de ellos, la visibilidad de ese método es alterada. ### Acceso a los métodos
@@ -260,9 +260,9 @@ Ejemplo, adaptado del [Ruby FAQ][1]\:
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Las clases están abiertas
@@ -274,12 +274,12 @@ objetos. Ruby on Rails define un montón de métodos para menejar el
 tiempo y los horarios en `Fixnum`. Mira:
 
     class Fixnum
-      def hours
-        self * 3600 # cantidad de segundos en una hora
-      end
-      alias hour hours
+      def hours
+        self * 3600 # cantidad de segundos en una hora
+      end
+      alias hour hours
     end
-      
+      
     # 14 horas desde las 00:00 del 1ro de enero del 2006
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
@@ -303,15 +303,15 @@ Los métodos Singleton son métodos-por-objeto. Sólo están disponibles en
 el objeto en el que los defines.
 
     class Automovil
-      def inspect
-        "Auto barato"
-      end
+      def inspect
+        "Auto barato"
+      end
     end
     
     porsche = Automovil.new
     porsche.inspect # => Auto barato
     def porsche.inspect
-      "Auto muy caro"
+      "Auto muy caro"
     end
     
     porsche.inspect # => Auto muy caro
@@ -332,8 +332,8 @@ Aquí tienes un ejemplo:
     # id es el nombre del método invocado, la sintaxis * recolecta
     # todos los argumentos en un array llamado 'argumentos'
     def method_missing( id, *argumentos )
-      puts "El método #{id} fue invocado, pero no existe. Tiene " + 
-           "estos argumentos: #{argumentos.join(", ")}"
+      puts "El método #{id} fue invocado, pero no existe. Tiene " + 
+           "estos argumentos: #{argumentos.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -362,8 +362,8 @@ en un `Proc` al anexarle un parámetro especial a la lista de argumentos,
 así:
 
     def block( &el_bloque )
-      # Aquí dentro, el_bloque es el bloque pasado al método
-      el_bloque # retornar el bloque
+      # Aquí dentro, el_bloque es el bloque pasado al método
+      el_bloque # retornar el bloque
     end
     sumador = block { |a, b| a + b }
     # sumador ahora es un objeto Proc
@@ -384,10 +384,10 @@ sintácticas (con algunas reglas de precedencia) para llamar a ciertos
 métodos. Puedes, por ejemplo, redefinir el método <tt>Fixnum#+</tt>\:
 
     class Fixnum
-      # Puedes, pero por favor no lo hagas
-      def +( otro )
-        self - otro
-      end
+      # Puedes, pero por favor no lo hagas
+      def +( otro )
+        self - otro
+      end
     end
 
 No necesitas el`operator+` de C++, etc.

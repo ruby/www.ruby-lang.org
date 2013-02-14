@@ -66,9 +66,9 @@ Ruby е считан за гъвкав език поради факта, че п
 (`+`) директно във вградения клас `Numeric`.
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -89,9 +89,9 @@ Ruby е считан за гъвкав език поради факта, че п
 програмиране.
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 В горния отрязък код блокът е реализиран в `do ... end` конструкцията.
 Методът `map` се прилага за списъка от думи в блока. Много други методи
@@ -111,7 +111,7 @@ Ruby е считан за гъвкав език поради факта, че п
 `Enumerable`, който добавя известен брой методи за работа с `each`.
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
  Като цяло рубистите смятат, че това е по-изчистен начин за реализиране на идеята за множествено наследяване, което по-принцип е сложно и ограничаващо в много от случаите. ### Визуално представяне на Ruby код

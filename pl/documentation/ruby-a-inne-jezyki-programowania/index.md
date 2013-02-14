@@ -36,8 +36,8 @@ liście (jak w Perlowym <tt>for (@a) \{...}</tt>, lub Pythonowym <tt>for
 i in lista: ...</tt>), w Rubim zobaczysz:
 
     lista.each do |element|
-      # Jesteśmy w bloku.
-      # Tutaj zajmujemy się element-em.
+      # Jesteśmy w bloku.
+      # Tutaj zajmujemy się element-em.
     end
 
 Aby dowiedzieć się więcej o `each` (oraz pokrewnych: `collect`, `find`,
@@ -95,7 +95,7 @@ obiektach:
     #   attr_accessor :instance_var
     # end
     MyClass = Class.new do
-      attr_accessor :instance_var
+      attr_accessor :instance_var
     end
 
 ### Stałe (zmienne)
@@ -118,7 +118,7 @@ pewnego zamieszania, jak widać poniżej:
 
     Constant = 10
     def Constant
-      11
+      11
     end
 
 Teraz `Constant` ma wartość 10, ale `Constant()` daje wartość 11.
@@ -130,7 +130,7 @@ można jest bardzo łatwo zastąpić używając słowników i symboli. Ruby on
 Rails używa tego na każdym kroku:
 
     def some_keyword_params( params )
-      params
+      params
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
@@ -144,18 +144,18 @@ poniższy kod w Pythonie:
 
     # w Pythonie
     if 0:
-      print "0 is true"
+      print "0 is true"
     else:
-      print "0 is false"
+      print "0 is false"
 
 Ten kawałek kodu wypisze <tt>0 is false</tt> To samo w Rubim wygląda
 tak:
 
     # w Rubim
     if 0
-      puts "0 is true"
+      puts "0 is true"
     else
-      puts "0 is false"
+      puts "0 is false"
     end
 
 Wypisze “0 is true”.
@@ -165,9 +165,9 @@ Wypisze “0 is true”.
 W poniższym kodzie,
 
     class MyClass
-      private
-      def a_method; true; end
-      def another_method; false; end
+      private
+      def a_method; true; end
+      def another_method; false; end
     end
 
 Być może oczekujesz, że `another_method` jest metodą publiczną? Nie
@@ -176,13 +176,13 @@ metod następujących po nim, lub do momentu napotkania innego
 modyfikatora zakresu dostępu. Domyślnie, wszystkie metody są publiczne.
 
     class MyClass
-      # Now a_method is public
-      def a_method; true; end
+      # Now a_method is public
+      def a_method; true; end
     
-      private
+      private
     
-      # another_method jest metodą prywatną
-      def another_method; false; end
+      # another_method jest metodą prywatną
+      def another_method; false; end
     end
 
  `public`, `private` and `protected` to tak naprawdę metody, mogą więc przyjmowac paramatery. Jeśli tym metodom przekażesz Symbol jako parametr, zmienisz widoczność danej metody. ### Dostęp do metod
@@ -232,9 +232,9 @@ Jedynie **self** jest dozwolonym odbiorcą wywołań prywatnych metod.
     irb(main):024:1> end
     => Test
     irb(main):025:0> t1 == t2
-    NoMethodError: private method `func' called for #<0x342784>        from (irb):8:in `=='
-            from (irb):25
-            from :0
+    NoMethodError: private method `func' called for #<0x342784>        from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Klasy są otwarte
@@ -246,12 +246,12 @@ on Rails na przykład definiuje zestaw metod do operowania czasem w
 klasie `Fixnum`. Poniżej:
 
     class Fixnum
-      def hours
-        self * 3600 # liczba sekund w godzinie
-      end
-      alias hour hours
+      def hours
+        self * 3600 # liczba sekund w godzinie
+      end
+      alias hour hours
     end
-      
+      
     # 14 hours from 00:00 January 1st
     # (czyt. kiedy w końcu się obudzisz ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
@@ -276,15 +276,15 @@ Metody singletonowe to metody, które zostały zdefiniowane i są dostępne
 dla danego obiektu.
 
     class Car
-      def inspect
-        "Tani samochód"
-      end
+      def inspect
+        "Tani samochód"
+      end
     end
     
     porsche = Car.new
     porsche.inspect # => Tani samochód
     def porsche.inspect
-      "Drogi samochód"
+      "Drogi samochód"
     end
     
     porsche.inspect # => Drogi samochód
@@ -304,8 +304,8 @@ Twojej aplikacji, wiele bibliotek tak robi. Poniżej jeden z przykładów:
     # id jest nazwą wywołanej metody, składnia * łączy wszystkie pozostałe argumenty
     # w tablicę nazwaną 'arguments'
     def method_missing( id, *arguments )
-      puts "Wywołano niezdefiniowaną metodę #{id}. Przekazano " + 
-           "poniższe argumenty: #{arguments.join(", ")}"
+      puts "Wywołano niezdefiniowaną metodę #{id}. Przekazano " + 
+           "poniższe argumenty: #{arguments.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -335,8 +335,8 @@ utworzyć specjalny obiekt typu `Proc` przekazując specjalny argument,
 tak jak w poniższym przykładzie:
 
     def block( &the_block )
-      # Tutaj, the_block jest blokiem przekazanym do tej metody
-      the_block # zwróć blok
+      # Tutaj, the_block jest blokiem przekazanym do tej metody
+      the_block # zwróć blok
     end
     adder = block { |a, b| a + b }
     # adder to teraz obiekt typu Proc
@@ -356,10 +356,10 @@ Większość operatorów w Rubim to po prostu cukier syntaktyczny dla
 wywołań metod. Możesz, na przykład, nadpisać metodę + klasy Fixnum:
 
     class Fixnum
-      # Możesz, ale proszę nie rób tego !
-      def +( other )
-        self - other
-      end
+      # Możesz, ale proszę nie rób tego !
+      def +( other )
+        self - other
+      end
     end
 
 Nie potrzebujesz operatora z C++’s `operator+`, etc.

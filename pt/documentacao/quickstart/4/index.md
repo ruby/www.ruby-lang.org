@@ -16,16 +16,16 @@ O nosso método `dizer_ola` tornou-se um pouco mais complexo:
 
     # Dizer ola a todos
     def dizer_ola
-      if @nomes.nil?
-        puts "..."
-      elsif @nomes.respond_to?("each")
-        # @nomes é uma lista de algum tipo, iterar!
-        @nomes.each do |nome|
-          puts "Ola #{nome}!"
-        end
-      else
-        puts "Ola #{@nomes}!"
-      end
+      if @nomes.nil?
+        puts "..."
+      elsif @nomes.respond_to?("each")
+        # @nomes é uma lista de algum tipo, iterar!
+        @nomes.each do |nome|
+          puts "Ola #{nome}!"
+        end
+      else
+        puts "Ola #{@nomes}!"
+      end
     end
 
 Agora toma o parâmetro `@nomes` e toma decisões. Se for nil, só imprime
@@ -42,7 +42,7 @@ saudação por omissão.
 Vejamos o iterador com mais profundidade:
 
     @nomes.each do |nome|
-      puts "Ola #{nome}!"
+      puts "Ola #{nome}!"
     end
 
 `each` é um método que aceita um bloco de código e que depois o executa
@@ -78,14 +78,14 @@ de forma escondida das preocupações do utilizador.
 
     # Dizer adeus a toda a gente
     def dizer_adeus
-      if @nomes.nil?
-        puts "..."
-      elsif @nomes.respond_to?("join")
-        # Juntar os elementos da lista com vírgulas
-        puts "Adeus #{@nomes.join(", ")}.  Voltem em breve!"
-      else
-        puts "Adeus #{@nomes}.  Volta em breve!"
-      end
+      if @nomes.nil?
+        puts "..."
+      elsif @nomes.respond_to?("join")
+        # Juntar os elementos da lista com vírgulas
+        puts "Adeus #{@nomes.join(", ")}.  Voltem em breve!"
+      else
+        puts "Adeus #{@nomes}.  Volta em breve!"
+      end
     end
 
 O método `dizer_adeus` não usa o método `each`, em vez disso verifica se

@@ -45,13 +45,13 @@ Berikut ini adalah contoh program untuk menjumlahkan dua angka
     
     int main(int argc, char *argv[]) 
     {
-        int a, b, c;
+        int a, b, c;
     
-        scanf("%d", &a);
-        scanf("%d", &b);
+        scanf("%d", &a);
+        scanf("%d", &b);
     
-        c = a + b;
-        printf("%d\n", c);
+        c = a + b;
+        printf("%d\n", c);
     }
 {: .code .python-code}
 

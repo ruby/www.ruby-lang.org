@@ -21,7 +21,7 @@ Mmm, ¿y si queremos acceder al nombre directamente?
     irb(main):038:0> a.@nombre
     SyntaxError: compile error
     (irb):52: syntax error
-            from (irb):52
+            from (irb):52
 
 No, no podemos.
 
@@ -37,15 +37,15 @@ Entonces, ¿qué métodos están disponibles para los objetos Anfitrion?
 
     irb(main):039:0> Anfitrion.instance_methods
     => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "decir_hola", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "decir_adios", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+        "__send__", "equal?", "taint", "frozen?",
+        "instance_variable_get", "kind_of?", "to_a",
+        "instance_eval", "type", "protected_methods", "extend",
+        "eql?", "display", "instance_variable_set", "hash",
+        "is_a?", "to_s", "class", "tainted?", "private_methods",
+        "untaint", "decir_hola", "id", "inspect", "==", "===",
+        "clone", "public_methods", "respond_to?", "freeze",
+        "decir_adios", "__id__", "=~", "methods", "nil?", "dup",
+        "instance_variables", "instance_of?"]
 
 Bien. Eso es un montón de métodos. Nosotros sólo definimos dos métodos.
 ¿Qué es lo que está sucediendo? Bueno, estos son **todos** los métodos
@@ -126,65 +126,65 @@ Control-D.
     #!/usr/bin/env ruby
     
     class MegaAnfitrion
-      attr_accessor :nombres
+      attr_accessor :nombres
     
-      # Crear el objeto
-      def initialize(nombres = "Mundo")
-        @nombres = nombres
-      end
+      # Crear el objeto
+      def initialize(nombres = "Mundo")
+        @nombres = nombres
+      end
     
-      # Decirle hola a todos
-      def decir_hola
-        if @nombres.nil?
-          puts "..."
-        elsif @nombres.respond_to?("each")
+      # Decirle hola a todos
+      def decir_hola
+        if @nombres.nil?
+          puts "..."
+        elsif @nombres.respond_to?("each")
     
-          # @nombres es una lista de algún tipo,
-          # ¡así que podemos iterar!
-          @nombres.each do |nombre|
-            puts "Hola #{nombre}"
-          end
-        else
-          puts "Hola #{@nombres}"
-        end
-      end
+          # @nombres es una lista de algún tipo,
+          # ¡así que podemos iterar!
+          @nombres.each do |nombre|
+            puts "Hola #{nombre}"
+          end
+        else
+          puts "Hola #{@nombres}"
+        end
+      end
     
-      # Decirle adiós a todos
-      def decir_adios
-        if @nombres.nil?
-          puts "..."
-        elsif @nombres.respond_to?("join")
-          # Juntar los elementos de la lista
-          # usando la coma como separador
-          puts "Adiós #{@nombres.join(", ")}. Vuelvan pronto."
-        else
-          puts "Adiós #{@nombres}. Vuelve pronto."
-        end
-      end
+      # Decirle adiós a todos
+      def decir_adios
+        if @nombres.nil?
+          puts "..."
+        elsif @nombres.respond_to?("join")
+          # Juntar los elementos de la lista
+          # usando la coma como separador
+          puts "Adiós #{@nombres.join(", ")}. Vuelvan pronto."
+        else
+          puts "Adiós #{@nombres}. Vuelve pronto."
+        end
+      end
     
     end
     
     
     if __FILE__ == $0
-      ma = MegaAnfitrion.new
-      ma.decir_hola
-      ma.decir_adios
+      ma = MegaAnfitrion.new
+      ma.decir_hola
+      ma.decir_adios
     
-      # Cambiar el nombre a "Diego"
-      ma.nombres = "Diego"
-      ma.decir_hola
-      ma.decir_adios
+      # Cambiar el nombre a "Diego"
+      ma.nombres = "Diego"
+      ma.decir_hola
+      ma.decir_adios
     
-      # Cambiar el nombre a un vector de nombres
-      ma.nombres = ["Alberto", "Beatriz", "Carlos",
-        "David", "Ernesto"]
-      ma.decir_hola
-      ma.decir_adios
+      # Cambiar el nombre a un vector de nombres
+      ma.nombres = ["Alberto", "Beatriz", "Carlos",
+        "David", "Ernesto"]
+      ma.decir_hola
+      ma.decir_adios
     
-      # Cambiarlo a nil
-      ma.nombres = nil
-      ma.decir_hola
-      ma.decir_adios
+      # Cambiarlo a nil
+      ma.nombres = nil
+      ma.decir_hola
+      ma.decir_adios
     end
 
 Guarda este archivo como “ri20min.rb”, y ejecútalo con “ruby

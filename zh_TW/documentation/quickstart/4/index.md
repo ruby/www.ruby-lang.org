@@ -12,16 +12,16 @@ lang: zh_TW
 
     # 對每個人說 hi
     def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names 是可以迭代的陣列容器
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names 是可以迭代的陣列容器
+        @names.each do |name|
+          puts "Hello #{name}!"
+        end
+      else
+        puts "Hello #{@names}!"
+      end
     end
 
 它現在會根據 `@names` 參數的不同而有不同的行為。如果是 nil，它會輸出三個點。沒必要對空氣打招呼，對吧?
@@ -34,7 +34,7 @@ lang: zh_TW
 下面來看一看這是怎麼迭代的：
 
     @names.each do |name|
-      puts "Hello #{name}!"
+      puts "Hello #{name}!"
     end
 
 `each` 是一個可以接受程式區塊(a block of code)的方法，它會對 `@names` 裡的每個元素執行這個程式區塊，也就是從
@@ -56,14 +56,14 @@ lang: zh_TW
 
     # 向每個人說 bye
     def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # 用逗號將陣列中的元素串接成一個字串
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # 用逗號將陣列中的元素串接成一個字串
+        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+      else
+        puts "Goodbye #{@names}.  Come back soon!"
+      end
     end
 
 `say_bye` 方法沒有用到 `each`，而是檢查 `@names`@ 是不是可以回應 `join`

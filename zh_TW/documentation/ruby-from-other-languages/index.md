@@ -34,8 +34,8 @@ C++ 和 pre-1.5 Java)，或是迴圈控制結構(例如 Perl 的 <tt>for (@a) \{
 Python 的 <tt>for i in aList: ...</tt>)。在 Ruby 裡你會常常看到：
 
     some_list.each do |this_item|
-      # 我們在程式區塊中
-      # 處理 this_item
+      # 我們在程式區塊中
+      # 處理 this_item
     end
 
 關於更多 `each` 的資訊 (以及 `collect`, `find`, `inject`, `sort` 等等)，請參考 `ri
@@ -79,7 +79,7 @@ key)，還是物件內容(比如這個例子的 “george”)。
     #   attr_accessor :instance_var
     # end
     MyClass = Class.new do
-      attr_accessor :instance_var
+      attr_accessor :instance_var
     end
 
 譯註：在 Ruby 中任何類別都是由 `Class` 類別所實例(new)出來的物件。
@@ -97,7 +97,7 @@ variable)、`@@` 開頭則是類別變數。
 
     Constant = 10
     def Constant
-      11
+      11
     end
 
 這裡的 `Constant` 是 10，但是 `Constant()` 卻是 11。
@@ -108,7 +108,7 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
 來替代。Ruby on Rails 和非常多的函式庫都使用了這個方法，例如：
 
     def some_keyword_params( params )
-      params
+      params
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
@@ -120,17 +120,17 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
 
     # in Python
     if 0:
-      print "0 is true"
+      print "0 is true"
     else:
-      print "0 is false"
+      print "0 is false"
 
 這會輸出 “0 is false”。而在 Ruby 裡:
 
     # in Ruby
     if 0
-      puts "0 is true"
+      puts "0 is true"
     else
-      puts "0 is false"
+      puts "0 is false"
     end
 
 這會輸出 “0 is true”。
@@ -140,22 +140,22 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
 在下面的 Ruby 程式中，
 
     class MyClass
-      private
-      def a_method; true; end
-      def another_method; false; end
+      private
+      def a_method; true; end
+      def another_method; false; end
     end
 
 你可能會認為 `another_method` 是 public 的，但不是這樣。這個 ‘private’
 存取修飾到作用域(scope)結束，或是直到另一個存取修飾詞開始作用。方法預設都是 public 的：
 
     class MyClass
-      # 這個 a_method 是 public 的
-      def a_method; true; end
+      # 這個 a_method 是 public 的
+      def a_method; true; end
     
-      private
+      private
     
-      # 這個 another_method 是 private 的
-      def another_method; false; end
+      # 這個 another_method 是 private 的
+      def another_method; false; end
     end
 
  `public`, `private` 和 `protected` 其實也是一種方法，所以可以接受參數。如果你傳入一個 Symbol，那個該 Symbol 代表的方法就會改變存取權限。 ### 方法存取權限
@@ -202,9 +202,9 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### 類別是開放的
@@ -213,12 +213,12 @@ Ruby 的類別是開放的，你可以隨時打開它新增一點程式或是修
 `Object`(這是所有類別的父類別) 都一樣。 Ruby on Rails 甚至定義了一堆時間方法到 `Fixnum` 去，例如：
 
     class Fixnum
-      def hours
-        self * 3600 # 一小時有多少秒
-      end
-      alias hour hours
+      def hours
+        self * 3600 # 一小時有多少秒
+      end
+      alias hour hours
     end
-      
+      
     # 從一月一號 00:00 往後數 14 個小時
     # (你終於醒了吧 ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
@@ -237,15 +237,15 @@ replace 的意思就是要修改替換自己。
 單件方法(Singleton methods)是個別物件才有的方法。它們只存在於你要定義的物件之中。
 
     class Car
-      def inspect
-        "Cheap car"
-      end
+      def inspect
+        "Cheap car"
+      end
     end
     
     porsche = Car.new
     porsche.inspect # => Cheap car
     def porsche.inspect
-      "Expensive car"
+      "Expensive car"
     end
     
     porsche.inspect # => Expensive car
@@ -263,8 +263,8 @@ replace 的意思就是要修改替換自己。
     # id 是被呼叫方法的名字，而 * 符號會收集
     # 所有傳進來的參數變成一個叫做 'arguments' 的陣列
     def method_missing( id, *arguments )
-      puts "Method #{id} was called, but not found. It has " + 
-           "these arguments: #{arguments.join(", ")}"
+      puts "Method #{id} was called, but not found. It has " + 
+           "these arguments: #{arguments.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -290,8 +290,8 @@ replace 的意思就是要修改替換自己。
 ，或是透過一個特別的參數讓它變成 `Proc`，例如：
 
     def block( &the_block )
-      # 在這裡面，the_block 是被傳進來的程式區塊
-      the_block # return the block
+      # 在這裡面，the_block 是被傳進來的程式區塊
+      the_block # return the block
     end
     adder = block { |a, b| a + b }
     # adder 是一個 Proc 物件
@@ -310,10 +310,10 @@ replace 的意思就是要修改替換自己。
 sugar)，加上一些優先權規則。你要的話，舉例來說，我們可以覆寫掉 Fixnum 的 + 方法：
 
     class Fixnum
-      # 可以這麼做，但請不要這麼改
-      def +( other )
-        self - other
-      end
+      # 可以這麼做，但請不要這麼改
+      def +( other )
+        self - other
+      end
     end
 
 你不需要 C++ 的 `operator+` 等等。

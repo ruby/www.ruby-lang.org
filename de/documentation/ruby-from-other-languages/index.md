@@ -43,8 +43,8 @@ Liste (wie in Perls <tt>for (@a) \{...}</tt> oder Pythons `for item in
 aList:`), sondern in den meisten Fällen so:
 
     a_list.each do |item|
-      # Wir sind im Innern des Blocks
-      # und arbeiten mit item.
+      # Wir sind im Innern des Blocks
+      # und arbeiten mit item.
     end
 
 Mehr zu `each` (und seine Artgenossen `collect`/`map`, `find`, `inject`,
@@ -104,7 +104,7 @@ du kannst mit ihnen dasselbe tun wie mit jedem anderen Objekt:
     #   attr_accessor :instance_var
     # end
     MyClass = Class.new do
-      attr_accessor :instance_var
+      attr_accessor :instance_var
     end
 
 ### Variable Konstanten
@@ -127,7 +127,7 @@ Das kann zu Verwirrung führen, wie das folgende Beispiel zeigt:
 
     Constant = 10
     def Constant
-      11
+      11
     end
 
 Nun hat `Constant` den Wert 10, aber die Funktion `Constant()` gibt 11
@@ -147,7 +147,7 @@ Ruby hat keine Keyword-Argumente wie Python. Man kann sie allerdings
 imitieren, indem man Symbole und Hashes kombiniert. Beispiel:
 
     def some_keyword_params( params )
-      params
+      params
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
@@ -163,17 +163,17 @@ Python-Code an (das Beispiel funktioniert auch in anderen Sprachen):
 
     # in Python
     if 0:
-      print "0 ist true"
+      print "0 ist true"
     else:
-      print "0 ist false"
+      print "0 ist false"
 
 Hier wird “0 ist false” ausgeben. Dasselbe in Ruby:
 
     # in Ruby
     if 0
-      puts "0 ist true"
+      puts "0 ist true"
     else
-      puts "0 ist false"
+      puts "0 ist false"
     end
 
 Ruby gibt “0 ist true” aus.
@@ -183,9 +183,9 @@ Ruby gibt “0 ist true” aus.
 Im folgenden Ruby-Code:
 
     class MyClass
-      private
-      def a_method; true; end
-      def another_method; false; end
+      private
+      def a_method; true; end
+      def another_method; false; end
     end
 
 könnte man erwarten, dass `another_method` *public* ist. Falsch.
@@ -193,18 +193,18 @@ könnte man erwarten, dass `another_method` *public* ist. Falsch.
 aufgerufen wird. Standardmäßig sind Methoden *public*\:
 
     class MyClass
-      # Jetzt ist a_method "public".
-      def a_method; true; end
+      # Jetzt ist a_method "public".
+      def a_method; true; end
     
-      private
+      private
     
-      # another_method ist "private".
-      def another_method; false; end
+      # another_method ist "private".
+      def another_method; false; end
     end
 
  `public`, `private` und `protected` sind in Wirklichkeit Methoden und akzeptieren Parameter. Wenn du ein Symbol an eine davon übergibst, wird die Sichtbarkeit der Methode mit diesem Namen geändert:     class MyClass
-      # Jetzt ist a_method wieder "private".
-      private :a_method
+      # Jetzt ist a_method wieder "private".
+      private :a_method
     end
 
 ### Sichtbarkeit von Methoden
@@ -260,9 +260,9 @@ Ein Beispiel aus den [Ruby FAQ][1]\:
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Offene Klassen
@@ -273,9 +273,9 @@ Methoden hinzufügen. Sogar eingebaute Klassen wie `Fixnum` oder `Object`
 viele Methoden zur Erzeugung von Zeitangaben hinzu:
 
     class Fixnum
-      def hours
-        self * 3600  # Anzahl der Sekunden in einer Stunde
-      end
+      def hours
+        self * 3600  # Anzahl der Sekunden in einer Stunde
+      end
     end
     
     # 14 Stunden nach 00:00 am 1. Januar
@@ -302,16 +302,16 @@ Singleton-Methoden sind Methoden für Objekte. Sie gehören nur zu dem
 Objekt, für das du sie definierst:
 
     class Car
-      def inspect
-        "billig"
-      end
+      def inspect
+        "billig"
+      end
     end
     
     porsche = Car.new
     porsche.inspect  #-> billig
     
     def porsche.inspect
-      "teuer"
+      "teuer"
     end
     porsche.inspect  #-> teuer
     
@@ -331,9 +331,9 @@ Bibliotheken auch tun.) Hier ist ein Beispiel:
     # 'id' ist der Name der aufgerufenen Methode, ein * sammelt
     # alle argumente in einem Array namens 'arguments'.
     def method_missing( id, *arguments )
-      puts "Die Methode #{id} wurde nicht gefunden."
-      puts "Folgende Argumente wurden übergeben: " +
-        arguments.join(", ") + "."
+      puts "Die Methode #{id} wurde nicht gefunden."
+      puts "Folgende Argumente wurden übergeben: " +
+        arguments.join(", ") + "."
     end
     
     __ :a, :b, 10
@@ -362,8 +362,8 @@ aufzurufen, kannst du `yield` benutzen, oder du machst eine
 hinzufügst:
 
     def block( &the_block )
-      # der Block, der an die Methode übergeben wurde
-      the_block  # Gib den Block zurück.
+      # der Block, der an die Methode übergeben wurde
+      the_block  # Gib den Block zurück.
     end
     adder = block { |a, b| a + b }
     # adder ist jetzt ein Proc
@@ -384,10 +384,10 @@ speziellen Syntax (und ein paar Vorrangregeln). Du kannst zum Beispiel
 die Methode `+` für `Fixnum` überschreiben:
 
     class Fixnum
-      # Du kannst, aber bitte tu es nicht.
-      def +( other )
-        self - other
-      end
+      # Du kannst, aber bitte tu es nicht.
+      def +( other )
+        self - other
+      end
     end
 
 Du brauchst kein `operator+` oder ähnliches.

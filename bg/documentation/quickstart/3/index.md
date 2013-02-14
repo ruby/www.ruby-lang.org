@@ -21,7 +21,7 @@ lang: bg
     irb(main):038:0> g.@name
     SyntaxError: compile error
     (irb):52: syntax error
-            from (irb):52
+            from (irb):52
 
 Изходът от горния пример е грешка.
 
@@ -35,15 +35,15 @@ lang: bg
 
     irb(main):039:0> Greeter.instance_methods
     => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "say_hi", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+        "__send__", "equal?", "taint", "frozen?",
+        "instance_variable_get", "kind_of?", "to_a",
+        "instance_eval", "type", "protected_methods", "extend",
+        "eql?", "display", "instance_variable_set", "hash",
+        "is_a?", "to_s", "class", "tainted?", "private_methods",
+        "untaint", "say_hi", "id", "inspect", "==", "===",
+        "clone", "public_methods", "respond_to?", "freeze",
+        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
+        "instance_variables", "instance_of?"]
 
 Интересно е да видим, че обектът “притежава” доста методи, въпреки, че
 ние сме дефинирали само 3. Ще разбулим мистерията, като кажем, че това
@@ -114,63 +114,63 @@ Control-D.
     #!/usr/bin/env ruby
     
     class MegaGreeter
-      attr_accessor :names
+      attr_accessor :names
     
-      # Create the object
-      def initialize(names = "World")
-        @names = names
-      end
+      # Create the object
+      def initialize(names = "World")
+        @names = names
+      end
     
-      # Say hi to everybody
-      def say_hi
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("each")
+      # Say hi to everybody
+      def say_hi
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("each")
     
-          # @names is a list of some kind, iterate!
-          @names.each do |name|
-            puts "Hello #{name}!"
-          end
-        else
-          puts "Hello #{@names}!"
-        end
-      end
+          # @names is a list of some kind, iterate!
+          @names.each do |name|
+            puts "Hello #{name}!"
+          end
+        else
+          puts "Hello #{@names}!"
+        end
+      end
     
-      # Say bye to everybody
-      def say_bye
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("join")
-          # Join the list elements with commas
-          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-        else
-          puts "Goodbye #{@names}.  Come back soon!"
-        end
-      end
+      # Say bye to everybody
+      def say_bye
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("join")
+          # Join the list elements with commas
+          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+        else
+          puts "Goodbye #{@names}.  Come back soon!"
+        end
+      end
     
     end
     
     
     if __FILE__ == $0
-      mg = MegaGreeter.new
-      mg.say_hi
-      mg.say_bye
+      mg = MegaGreeter.new
+      mg.say_hi
+      mg.say_bye
     
-      # Change name to be "Zeke"
-      mg.names = "Zeke"
-      mg.say_hi
-      mg.say_bye
+      # Change name to be "Zeke"
+      mg.names = "Zeke"
+      mg.say_hi
+      mg.say_bye
     
-      # Change the name to an array of names
-      mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Englebert"]
-      mg.say_hi
-      mg.say_bye
+      # Change the name to an array of names
+      mg.names = ["Albert", "Brenda", "Charles",
+        "Dave", "Englebert"]
+      mg.say_hi
+      mg.say_bye
     
-      # Change to nil
-      mg.names = nil
-      mg.say_hi
-      mg.say_bye
+      # Change to nil
+      mg.names = nil
+      mg.say_hi
+      mg.say_bye
     end
 
 Съхранете този файл като “ri20min.rb” и го стартирайте, като напишете

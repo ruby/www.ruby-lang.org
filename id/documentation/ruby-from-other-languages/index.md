@@ -58,10 +58,10 @@ ataupun <tt>for i in aList: ...</tt> di Python). Anda akan **sangat
 sering** melihat kode yang mirip seperti ini di Ruby:
 
     daftar_orang.each do |orang_ini|
-      # Kita berada dalam blok
-      # Kita sedang berurusan dengan orang_ini
-      # orang_ini disebut parameter blok
-      puts orang_ini.nama
+      # Kita berada dalam blok
+      # Kita sedang berurusan dengan orang_ini
+      # orang_ini disebut parameter blok
+      puts orang_ini.nama
     end
 
 Untuk info lebih lanjut tentang `each` (dan teman-temannya seperti
@@ -123,7 +123,7 @@ perlakuan Anda terhadap obyek-obyek lain:
     #   attr_accessor :variabel_instan
     # end
     KelasSaya = Class.new do
-      attr_accessor :variabel_instan
+      attr_accessor :variabel_instan
     end
 
 ### Konstanta
@@ -148,7 +148,7 @@ membingungkan, seperti ditunjukkan pada contoh berikut:
 
     Konstanta = 10
     def Konstanta
-      11
+      11
     end
 
 Sekarang `Konstanta` adalah 10, tetapi `Konstanta()` adalah 11.
@@ -161,7 +161,7 @@ Python. Tetapi, ini bisa dimanipulasi (*fake*) dengan cara menggunakan
 dibuat dengan Ruby, banyak menggunakan trik ini. Contoh:
 
     def keluarkan( params )
-      params
+      params
     end
     
     keluarkan( :param_satu => 10, :param_dua => 42 )
@@ -181,17 +181,17 @@ seperti list yang kosong, dianggap false. Perhatikan kode Python berikut
 
     # di Python
     if 0:
-      print "0 is true"
+      print "0 is true"
     else:
-      print "0 is false"
+      print "0 is false"
 
 Ini akan print “0 is false”. Kode yang sama di Ruby:
 
     # di Ruby
     if 0
-      puts "0 is true"
+      puts "0 is true"
     else
-      puts "0 is false"
+      puts "0 is false"
     end
 
 Print “0 is true”.
@@ -201,9 +201,9 @@ Print “0 is true”.
 Pada kode Ruby berikut ini,
 
     class KelasSaya
-      private
-      def metode; true; end
-      def metode_lain; false; end
+      private
+      def metode; true; end
+      def metode_lain; false; end
     end
 
 Anda mungkin berharap `metode_lain` adalah `public`. Tetapi tidak
@@ -212,13 +212,13 @@ demikian. *Access modifier* `private` bersambung terus sampai akhir
 lebih awal. Secara default, metode bersifat `public`\:
 
     class KelasSaya
-      # Sekarang metode adalah public
-      def metode; true; end
+      # Sekarang metode adalah public
+      def metode; true; end
     
-      private
+      private
     
-      # metode_lain adalah private
-      def metode_lain; false; end
+      # metode_lain adalah private
+      def metode_lain; false; end
     end
 
  `public`, `private` dan `protected` benar-benar merupakan metode, sehingga mereka bisa menerima parameter. Jika Anda melewatkan `Symbol` pada satu dari parameter, maka *visibility* metode diubah. ### Akses Metode
@@ -270,9 +270,9 @@ pemanggilan metode private.
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Kelas Bersifat Terbuka
@@ -285,12 +285,12 @@ metode yang berhubungan dengan waktu ke dalam kelas `Fixnum`. Perhatikan
 kode berikut:
 
     class Fixnum
-      def hours
-        self * 3600 # total detik dalam satu jam adalah 3600
-      end
-      alias hour hours
+      def hours
+        self * 3600 # total detik dalam satu jam adalah 3600
+      end
+      alias hour hours
     end
-      
+      
     # 14 hours from 00:00 January 1st
     # jadi 14 jam dari jam 00:00 pada tanggal 1 Januari
     Time.mktime(2007, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
@@ -317,15 +317,15 @@ Metode *singleton* merupakan metode-metode yang basisnya per obyek.
 tersebut tidak tersedia pada obyek-obyek yang lain dari kelas yang sama.
 
     class Mobil
-      def inspect
-        "Mobil murah"
-      end
+      def inspect
+        "Mobil murah"
+      end
     end
     
     porsche = Mobil.new
     porsche.inspect # => Mobil murah
     def porsche.inspect
-      "Mobil mahal"
+      "Mobil mahal"
     end
     
     porsche.inspect # => Mobil mahal
@@ -348,10 +348,10 @@ dan banyak *library* yang melakukan hal yang sama. Contoh:
     # sintaks * mengumpulkan semua arguments
     # dalam array yang bernama 'arguments'
     def method_missing( id, *arguments )
-      puts "Metode #{id} telah dipanggil, " + 
-        "tetapi tidak ditemukan. " +
-        "Metode ini punya arguments sebagai berikut: " +
-        arguments.join(", ")
+      puts "Metode #{id} telah dipanggil, " + 
+        "tetapi tidak ditemukan. " +
+        "Metode ini punya arguments sebagai berikut: " +
+        arguments.join(", ")
     end
     
     __ :a, :b, 10
@@ -383,8 +383,8 @@ memanggil blok, Anda bisa menggunakan `yield`, atau membuat sebuah obyek
 contoh berikut:
 
     def blok( &the_block )
-      # Di dalam sini, the_block adalah blok yang dilewatkan ke metode blok
-      the_block # return the block
+      # Di dalam sini, the_block adalah blok yang dilewatkan ke metode blok
+      the_block # return the block
     end
     adder = blok { |a, b| a + b }
     # adder sekarang merupakan obyek Proc
@@ -408,11 +408,11 @@ tetap dituruti. Contohnya, Anda bisa meng-*override* metode + milik
 kelas Fixnum:
 
     class Fixnum
-      # Sebenarnya Anda bisa melakukan ini, 
-      # tetapi tolong jangan lakukan ini
-      def +( other )
-        self - other
-      end
+      # Sebenarnya Anda bisa melakukan ini, 
+      # tetapi tolong jangan lakukan ini
+      def +( other )
+        self - other
+      end
     end
 
 Anda tidak membutuhkan `operator+` C++, dan seterusnya.

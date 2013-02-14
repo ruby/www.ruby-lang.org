@@ -60,9 +60,9 @@ Ruby 是一个相当灵活的语言，她允许用户去改变她本身。 Ruby 
 比如(`+`) 是用做加法的运算符。如果你更喜欢使用易读的 `plus` 的话，你可以给 Ruby 的内建 `Numeric` 类添加一个函数。
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -79,9 +79,9 @@ Ruby 的代码块是非常强大的。程序员可以给任何函数添加一个
 代码块取自函数语言。Matz 说：“我希望在 Ruby 的密封中融入 Lisp 的文化 \[4\]。”
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 在上面的代码中，代码块是在 `do ... end` 中的结构。 `map` 函数将代码块应用到一个词的列表中。Ruby
 的其他函数经常会为程序员留出一个空当给代码块来控制函数的功能。
@@ -95,7 +95,7 @@ Ruby 的代码块是非常强大的。程序员可以给任何函数添加一个
 模块，来得到这个模块提供的所有方法，当然这些方法都会调用 `each` 做循环。
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 一般来说，Ruby 爱好者相对于复杂和限制颇多的多态继承方法来讲更偏向于这种混合方法。

@@ -12,16 +12,16 @@ lang: ko
 
     # Say hi to everybody
     def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names is a list of some kind, iterate!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names is a list of some kind, iterate!
+        @names.each do |name|
+          puts "Hello #{name}!"
+        end
+      else
+        puts "Hello #{@names}!"
+      end
     end
 
 “say\_hi” 메서드는 이제 ”@names” 인스턴스 변수의 내용을 확인하고 결정을 내립니다. 만약 ”@names”가
@@ -35,7 +35,7 @@ nil이라면, 세개의 점을 출력하게 되죠. 존재하지 않는 사람�
 그 부분을 조금 더 자세히 들여다 보도록 하지요.
 
     @names.each do |name|
-      puts "Hello #{name}!"
+      puts "Hello #{name}!"
     end
 
 “each”는 코드 블록을 넘겨 받아서 리스트의 각 원소에 순차적으로 이를 적용시키는 메서드입니다. “do”와 “end” 사이의
@@ -61,14 +61,14 @@ nil이라면, 세개의 점을 출력하게 되죠. 존재하지 않는 사람�
 
     # Say bye to everybody
     def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Join the list elements with commas
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # Join the list elements with commas
+        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+      else
+        puts "Goodbye #{@names}.  Come back soon!"
+      end
     end
 
 “say\_bye” 메서드는 “each” 메서드를 사용하지 않는군요. “say\_bye” 메서드는 단지 ”@names”가

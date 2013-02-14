@@ -32,7 +32,7 @@ Program tersebut dapat ditulis sebagai berikut di Ruby: \*
     sep = "~" * 32
     
     99.downto 1 do |n|
-      puts "#{sep}#{bottles[n]} of beer on the wall#{bottles[n]} of beerTake one down, pass it around#{bottles[n - 1]} of beer on the wall"
+      puts "#{sep}#{bottles[n]} of beer on the wall#{bottles[n]} of beerTake one down, pass it around#{bottles[n - 1]} of beer on the wall"
     end
     
     puts sep

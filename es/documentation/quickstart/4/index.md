@@ -16,17 +16,17 @@ Nuestro método `decir_hola` se ha vuelto un poco más complicado:
 
     # Decirle hola a todos
     def decir_hola
-      if @nombres.nil?
-        puts "..."
-      elsif @nombres.respond_to?("each")
-        # @nombres es una lista de algún tipo,
-        # ¡así que podemos iterar!
-        @nombres.each do |nombre|
-          puts "Hola #{nombre}"
-        end
-      else
-        puts "Hola #{@nombres}"
-      end
+      if @nombres.nil?
+        puts "..."
+      elsif @nombres.respond_to?("each")
+        # @nombres es una lista de algún tipo,
+        # ¡así que podemos iterar!
+        @nombres.each do |nombre|
+          puts "Hola #{nombre}"
+        end
+      else
+        puts "Hola #{@nombres}"
+      end
     end
 
 Ahora usa el atributo `@nombres` para tomar decisiones. Si es nil, sólo
@@ -43,7 +43,7 @@ defecto.
 Veamos ese iterador en más detalle:
 
     @nombres.each do |nombre|
-      puts "Hola #{nombre}"
+      puts "Hola #{nombre}"
     end
 
 El método `each` acepta un bloque de código y lo ejecuta por cada
@@ -79,15 +79,15 @@ simplificados frente a las preocupaciones del desarrollador.
 
     # Decirle adiós a todos
     def decir_adios
-      if @nombres.nil?
-        puts "..."
-      elsif @nombres.respond_to?("join")
-        # Juntar los elementos de la lista
-        # usando la coma como separador
-        puts "Adiós #{@nombres.join(", ")}. Vuelvan pronto."
-      else
-        puts "Adiós #{@nombres}. Vuelve pronto."
-      end
+      if @nombres.nil?
+        puts "..."
+      elsif @nombres.respond_to?("join")
+        # Juntar los elementos de la lista
+        # usando la coma como separador
+        puts "Adiós #{@nombres.join(", ")}. Vuelvan pronto."
+      else
+        puts "Adiós #{@nombres}. Vuelve pronto."
+      end
     end
 
 El método `decir_adios` no usa `each`, en vez de eso se fija si

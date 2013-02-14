@@ -21,7 +21,7 @@ Hmm, und wenn wir direkt auf den Namen im Objekt zugreifen wollen?
     irb(main):038:0> g.@name
     SyntaxError: compile error
     (irb):52: syntax error
-            from (irb):52
+            from (irb):52
 
 Nö, das geht offensichtlich nicht.
 
@@ -36,15 +36,15 @@ Welche Methoden existieren nun für Greeter-Objekte?
 
     irb(main):039:0> Greeter.instance_methods
     => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "sag_hallo", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "sag_tschuess", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+        "__send__", "equal?", "taint", "frozen?",
+        "instance_variable_get", "kind_of?", "to_a",
+        "instance_eval", "type", "protected_methods", "extend",
+        "eql?", "display", "instance_variable_set", "hash",
+        "is_a?", "to_s", "class", "tainted?", "private_methods",
+        "untaint", "sag_hallo", "id", "inspect", "==", "===",
+        "clone", "public_methods", "respond_to?", "freeze",
+        "sag_tschuess", "__id__", "=~", "methods", "nil?", "dup",
+        "instance_variables", "instance_of?"]
 
 Hoppla, das sind aber ganz schön viele! Wir haben doch nur zwei Methoden
 definiert. Was ist hier also los? Es handelt sich hier um **alle**
@@ -125,63 +125,63 @@ Strg-D.
     #!/usr/bin/env ruby
     
     class MegaGreeter
-      attr_accessor :names
+      attr_accessor :names
     
-      # Erzeuge das Objekt
-      def initialize(names = "Welt")
-        @names = names
-      end
+      # Erzeuge das Objekt
+      def initialize(names = "Welt")
+        @names = names
+      end
     
-      # Sag Hallo zu allen
-      def sag_hallo
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("each")
+      # Sag Hallo zu allen
+      def sag_hallo
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("each")
     
-          # @names ist eine Liste, durchlaufe sie!
-          @names.each do |name|
-            puts "Hallo, #{name}!"
-          end
-        else
-          puts "Hallo, #{@names}!"
-        end
-      end
+          # @names ist eine Liste, durchlaufe sie!
+          @names.each do |name|
+            puts "Hallo, #{name}!"
+          end
+        else
+          puts "Hallo, #{@names}!"
+        end
+      end
     
-      # Sag Tschuess zu allen
-      def sag_tschuess
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("join")
-          # Verbinde die Listenelemente mit einem Komma
-          puts "Tschuess, #{@names.join(", ")}, bis bald!"
-        else
-          puts "Tschuess, #{@names}, bis bald!"
-        end
-      end
+      # Sag Tschuess zu allen
+      def sag_tschuess
+        if @names.nil?
+          puts "..."
+        elsif @names.respond_to?("join")
+          # Verbinde die Listenelemente mit einem Komma
+          puts "Tschuess, #{@names.join(", ")}, bis bald!"
+        else
+          puts "Tschuess, #{@names}, bis bald!"
+        end
+      end
     
     end
     
     
     if __FILE__ == $0
-      mg = MegaGreeter.new
-      mg.sag_hallo
-      mg.sag_tschuess
+      mg = MegaGreeter.new
+      mg.sag_hallo
+      mg.sag_tschuess
     
-      # Aendere den Namen in "Maximilian"
-      mg.names = "Maximilian"
-      mg.sag_hallo
-      mg.sag_tschuess
+      # Aendere den Namen in "Maximilian"
+      mg.names = "Maximilian"
+      mg.sag_hallo
+      mg.sag_tschuess
     
-      # Aendere den Namen in ein Array von Namen
-      mg.names = ["Albert", "Bianca", "Carl-Heinz",
-        "David", "Engelbert"]
-      mg.sag_hallo
-      mg.sag_tschuess
+      # Aendere den Namen in ein Array von Namen
+      mg.names = ["Albert", "Bianca", "Carl-Heinz",
+        "David", "Engelbert"]
+      mg.sag_hallo
+      mg.sag_tschuess
     
-      # Aendere in nil
-      mg.names = nil
-      mg.sag_hallo
-      mg.sag_tschuess
+      # Aendere in nil
+      mg.names = nil
+      mg.sag_hallo
+      mg.sag_tschuess
     end
 
 Speichere diese Textdatei als “ri20min.rb” und starte es mit “ruby

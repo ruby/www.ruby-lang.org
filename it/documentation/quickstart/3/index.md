@@ -21,7 +21,7 @@ Ma cosa succede se vogliamo accedere direttamente al nome?
     irb(main):038:0> p.@nome
     SyntaxError: compile error
     (irb):52: syntax error
-            from (irb):52
+            from (irb):52
 
 Nulla, non si può.
 
@@ -36,15 +36,15 @@ Quindi quanti metodi esistono per il l’oggetto PersonaCordiale?
 
     irb(main):039:0> PersonaCordiale.instance_methods
     => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "saluta", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "congeda", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+        "__send__", "equal?", "taint", "frozen?",
+        "instance_variable_get", "kind_of?", "to_a",
+        "instance_eval", "type", "protected_methods", "extend",
+        "eql?", "display", "instance_variable_set", "hash",
+        "is_a?", "to_s", "class", "tainted?", "private_methods",
+        "untaint", "saluta", "id", "inspect", "==", "===",
+        "clone", "public_methods", "respond_to?", "freeze",
+        "congeda", "__id__", "=~", "methods", "nil?", "dup",
+        "instance_variables", "instance_of?"]
 
 Ci sono moltissimi metodi! Eppure ne avevamo definiti solo due: cosa sta
 succedendo? Questi sono tutti i metodi per il nostro oggetto
@@ -120,63 +120,63 @@ Per chiudere IRB, scrivi “quit”, “exit” o semplicemnte premi Control-D.
     #!/usr/bin/env ruby
     
     class AmicoDiTutti
-      attr_accessor :nomi
+      attr_accessor :nomi
     
-      # Crea l'oggetto
-      def initialize(nomi = "Mondo")
-        @nomi = nomi
-      end
+      # Crea l'oggetto
+      def initialize(nomi = "Mondo")
+        @nomi = nomi
+      end
     
-      # Saluta tutti
-      def saluta
-        if @nomi.nil?
-          puts "..."
-        elsif @nomi.respond_to?("each")
+      # Saluta tutti
+      def saluta
+        if @nomi.nil?
+          puts "..."
+        elsif @nomi.respond_to?("each")
     
-          # @nomi è una lista di qualche tipo, allora iteriamo!
-          @nomi.each do |nome|
-            puts "Ciao #{nome}!"
-          end
-        else
-          puts "Ciao #{@nomi}!"
-        end
-      end
+          # @nomi è una lista di qualche tipo, allora iteriamo!
+          @nomi.each do |nome|
+            puts "Ciao #{nome}!"
+          end
+        else
+          puts "Ciao #{@nomi}!"
+        end
+      end
     
-      # Congeda tutti
-      def congeda
-        if @nomi.nil?
-          puts "..."
-        elsif @nomi.respond_to?("join")
-          # Unisci gli elementi della lista con delle virgole
-          puts "Arrivederci #{@nomi.join(", ")}. A presto!"
-        else
-          puts "Arrivederci #{@nomi}. A presto!"
-        end
-      end
+      # Congeda tutti
+      def congeda
+        if @nomi.nil?
+          puts "..."
+        elsif @nomi.respond_to?("join")
+          # Unisci gli elementi della lista con delle virgole
+          puts "Arrivederci #{@nomi.join(", ")}. A presto!"
+        else
+          puts "Arrivederci #{@nomi}. A presto!"
+        end
+      end
     
     end
     
     
     if __FILE__ == $0
-      adt = AmicoDiTutti.new
-      adt.saluta
-      adt.congeda
+      adt = AmicoDiTutti.new
+      adt.saluta
+      adt.congeda
     
-      # Cambia @nomi in "Paolo"
-      adt.nomi = "Paolo"
-      adt.saluta
-      adt.saluta
+      # Cambia @nomi in "Paolo"
+      adt.nomi = "Paolo"
+      adt.saluta
+      adt.saluta
     
-      # Cambia @nomi in una lista di nome
-      adt.nomi = ["Fabio", "Davide", "Raul",
-        "Giorgia", "Federica"]
-      adt.saluta
-      adt.congeda
+      # Cambia @nomi in una lista di nome
+      adt.nomi = ["Fabio", "Davide", "Raul",
+        "Giorgia", "Federica"]
+      adt.saluta
+      adt.congeda
     
-      # Cambia @nomi in nil
-      adt.nomi = nil
-      adt.saluta
-      adt.congeda
+      # Cambia @nomi in nil
+      adt.nomi = nil
+      adt.saluta
+      adt.congeda
     end
 
 Salva questo file come “ri20min.rb” ed eseguilo così “ruby ri20min.rb”

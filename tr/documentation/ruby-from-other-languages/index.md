@@ -41,8 +41,8 @@ döngü yapmak (C, C++ ve 1.5 öncesi Java daki gibi) veya bir liste
 görürsünüz:
 
     some_list.each do |this_item|
-      # Burası blok içi.
-      # this_item ile çalışan kodlar buradadır.
+      # Burası blok içi.
+      # this_item ile çalışan kodlar buradadır.
     end
 
 `each` (ve arkadaşları `collect`, `find`, `inject`, `sort`, vs.)
@@ -96,7 +96,7 @@ yaptığınız herşeyi onlarla da yapabilirsiniz:
     # end
     # Koduyla aynı anlama gelen bir kod
     MyClass = Class.new do
-      attr_accessor :instance_var
+      attr_accessor :instance_var
     end
 
 ### Değişken Sabitler
@@ -117,7 +117,7 @@ karışıklığa sebep olabilir:
 
     Constant = 10
     def Constant
-      11
+      11
     end
 
 Burada `Constant` 10 değerindeyken `Constant()` değeri 11 dir.
@@ -129,7 +129,7 @@ yerine hash ve semboller kullanarak taklidi yapılır. Ruby on Rails’de
 çok sık kullanılır. Örneğin:
 
     def some_keyword_params( params )
-      params
+      params
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
@@ -143,17 +143,17 @@ yanlış kabul edilir. Aşağıdaki Python koduna bakın (diğer dillere de
 
     # Python'da
     if 0:
-      print "0 is true"
+      print "0 is true"
     else:
-      print "0 is false"
+      print "0 is false"
 
 Bunu çıktısı “0 is false” olacaktır. Ruby karşılığı ise:
 
     # Ruby'de
     if 0
-      puts "0 is true"
+      puts "0 is true"
     else
-      puts "0 is false"
+      puts "0 is false"
     end
 
 “0 is true” çıktısı verecektir.
@@ -163,19 +163,19 @@ Bunu çıktısı “0 is false” olacaktır. Ruby karşılığı ise:
 Aşağıdaki Ruby kodunda,
 
     class MyClass
-      private
-      def bir_metod; true; end
-      def diger_metod; false; end
+      private
+      def bir_metod; true; end
+      def diger_metod; false; end
     end
 
  `diger_metod` erişiminin genel olacağını düşünebilirsiniz ama öyle değil. “privete” erişim belirleyici sınıf tanımı sonuna kadar veya başka bir erişim belirleyici satıra kadar geçerli olacaktır. Default olarak tüm metodlar “public”(genel erişim)dir:     class MyClass
-      # Şimdi a_method public erişim
-      def a_method; true; end
+      # Şimdi a_method public erişim
+      def a_method; true; end
     
-      private
+      private
     
-      # another_method private erişim
-      def another_method; false; end
+      # another_method private erişim
+      def another_method; false; end
     end
 
  `public`, `private` ve `protected` aslında metoddur ve bu yüzden parametre alabilirler. Eğer bunlara bir sembol gönderirseniz metodun görünrlüğü değişir. ### Metod Erişimleri
@@ -225,9 +225,9 @@ erişilebileceğini belirtir ve bu alıcı sadece **self** olabilir.
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Sınıflar Açıktır
@@ -238,12 +238,12 @@ sınıfların anası `Object` sınıfı dahil. Ruby on Rails `Fixnum` sınıfın
 zamanla ilgili bir kısım metod eklemiştir. İzleyin:
 
     class Fixnum
-      def hours
-        self * 3600 # bir saat içindeki saniye miktarı
-      end
-      alias hour hours
+      def hours
+        self * 3600 # bir saat içindeki saniye miktarı
+      end
+      alias hour hours
     end
-      
+      
     # 1 Ocak saat 00:00 dan itibaren 14 saat sonra
     # anca uyanmışsınız ;)
     Time.mktime(2011, 01, 01) + 14.hours # => Sat Jan 01 14:00:00
@@ -266,15 +266,15 @@ ama ünlemle bitmez.
 tanımlandıysa onun için geçerlidir.
 
     class Car
-      def inspect
-        "Ucuz araba"
-      end
+      def inspect
+        "Ucuz araba"
+      end
     end
     
     porsche = Car.new
     porsche.inspect # => Ucuz araba
     def porsche.inspect
-      "Pahalı araba"
+      "Pahalı araba"
     end
     
     porsche.inspect # => Pahalı araba
@@ -294,8 +294,8 @@ yapar. Bir örnek:
     # id çağrılan metodun adı, * deyimiyle tüm argümanlar 
     # bir 'arguments' adlı bir array içinde toplanır
     def method_missing( id, *arguments )
-      puts "Metod #{id} çağrıldı fakat bulunamadı. Argümanları " + 
-           "şunlar : #{arguments.join(", ")}"
+      puts "Metod #{id} çağrıldı fakat bulunamadı. Argümanları " + 
+           "şunlar : #{arguments.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -324,8 +324,8 @@ argüman listesinde özel bir argüman ekleyerek `Proc` da yapabilirsiniz.
 Şöyleki:
 
     def block( &the_block )
-      # Burada the_block metoda gönderilen bloktur
-      the_block # bloğu geri döndür
+      # Burada the_block metoda gönderilen bloktur
+      the_block # bloğu geri döndür
     end
     adder = block { |a, b| a + b }
     # burada adder şimdi bir Proc nesnesidir
@@ -345,10 +345,10 @@ Ruby’deki operatörler birbirlerine belli öncelikleri olan metodlardır.
 Bu yüzden isterseniz Fixnum’un + metodunu değiştirebilirsiniz:
 
     class Fixnum
-      # Yapabilirsiniz ama lütfen bunu yapmayın
-      def +( other )
-        self - other
-      end
+      # Yapabilirsiniz ama lütfen bunu yapmayın
+      def +( other )
+        self - other
+      end
     end
 
 C++’ın `operator+` sına ihtiyacınız yok.

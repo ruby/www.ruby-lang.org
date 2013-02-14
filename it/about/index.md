@@ -84,9 +84,9 @@ puoi creare tale metodo aggiungendolo alla stessa classe `Numeric`, che
 è predefinita, così:
 
     class Numeric
-      def aggiungi(x)
-        self.+(x)
-      end
+      def aggiungi(x)
+        self.+(x)
+      end
     end
     
     y = 5.aggiungi 6
@@ -109,9 +109,9 @@ I blocchi sono stati ispirati dai linguaggi funzionali. Matz ha detto,
 Lisp<sup>[4](#fn4)</sup>.”
 
     motori_di_ricerca = 
-      %w[Google Yahoo MSN].map do |sito|
-        "http://www." + sito.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |sito|
+        "http://www." + sito.downcase + ".com"
+      end
 
 In questo pezzo di codice, il blocco è deimitato dal costrutto `do ...
 end`, e il metodo `map` applica il codice del blocco alla lista di
@@ -134,7 +134,7 @@ qualsiasi classe che implementa il metodo `each` può includere il modulo
 `each` per le iterazioni.
 
     class IlMioArray
-      include Enumerable
+      include Enumerable
     end
 
 Generalmente, gli appassionati di Ruby considerano questa pratica molto

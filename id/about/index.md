@@ -86,9 +86,9 @@ Anda ingin menggunakan kata `plus` yang lebih mudah dibaca, maka Anda
 dapat menambahkan metode tersebut pada kelas builtin `Numeric`.
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -110,9 +110,9 @@ Blok terinspirasi dari bahasa-bahasa fungsional. Matz berkata, “Saya
 ingin menghormati kultur Lisp di closure Ruby<sup>[4](#fn4)</sup>.”
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 Pada kode diatas, blok dijelaskan dalam bentuk `do ... end`. Metode
 `map` memberlakukan blok agar menerima array kata-kata (Google, Yahoo
@@ -135,7 +135,7 @@ setiap kelas yang mengimplementasikan metode `each` bisa mixin module
 `each` untuk melakukan perulangan.
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 Secara umum, <abbr title="Matz telah mendeklarasikan pengguna Ruby

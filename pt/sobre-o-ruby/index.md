@@ -84,9 +84,9 @@ preferir utilizar a palavra escrita `plus`, poderia adicionar esse
 método à classe nativa do Ruby `Numeric`.
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -108,9 +108,9 @@ fechos em Ruby, Eu quis respeitar a cultura do
 Lisp<sup>[4](#fn4)</sup>”.
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 No código aqui apresentado, o bloco é descrito dentro do trecho `do ...
 end`. O método `map` aplica o bloco à lista de palavras fornecida.
@@ -131,7 +131,7 @@ directamente. Por exemplo, qualquer classe que implemente o método
 métodos que utilizam `each` para iterar.
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 Geralmente os programadores de Ruby, vêm esta abordagem como uma forma

@@ -85,9 +85,9 @@ prefieres usar la palabra *sumar*, puedes agregar un método llamado
 `sumar` a la clase `Numeric` que viene incorporada.
 
     class Numeric
-      def sumar(x)
-        self.+(x)
-      end
+      def sumar(x)
+        self.+(x)
+      end
     end
     
     y = 5.sumar 6
@@ -110,9 +110,9 @@ Los bloques están inspirados por los lenguajes funcionales. Matz dijo,
 Lisp<sup>[4](#fn4)</sup>”.
 
     motores_de_busqueda = 
-      %w[Google Yahoo MSN].map do |motor|
-        "http://www." + motor.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |motor|
+        "http://www." + motor.downcase + ".com"
+      end
 
 En este código, el bloque está descrito entre la construcción `do ...
 end`. El método `map` aplica el bloque a la lista de palabras provista.
@@ -133,7 +133,7 @@ método `each` puede incorporar el módulo `Enumerable`, que le agrega un
 conjunto de métodos que usan `each` para recorrer sus elementos.
 
     class MiArray
-      include Enumerable
+      include Enumerable
     end
 
 En general, los Rubyistas ven esto como una forma mucho más clara de

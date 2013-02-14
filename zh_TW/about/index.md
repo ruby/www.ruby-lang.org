@@ -60,9 +60,9 @@ Ruby 是個相當具有彈性的語言， 它可以讓使用者自由的去改�
 `Numeric` 類別之中。
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -80,9 +80,9 @@ Block 的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ru
 致敬\[5\].”
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 在上方的程式碼中，block 是在 `do ... end` 之間。其中 `map` method 提供一個字串陣列給 block。Ruby
 中還有許多其他的 methods 提供了類似的方式可以讓程式設計師撰寫自己的 block 來完成此 method 該做的事。
@@ -96,7 +96,7 @@ Block 的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ru
 `Enumerable` 模組進來，就可以使用 `each` 方法來達到執行迴圈的目的。
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 一般來說，Ruby 使用者使用這種方式會比使用複雜且有很多限制的多重繼承來得清楚。

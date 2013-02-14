@@ -83,9 +83,9 @@ to Ruby’s builtin `Numeric` class.
 
 {% highlight ruby %}
 class Numeric
-  def plus(x)
-    self.+(x)
-  end
+  def plus(x)
+    self.+(x)
+  end
 end
 
 y = 5.plus 6
@@ -108,9 +108,9 @@ closures, I wanted to respect the Lisp culture<sup>[4](#fn4)</sup>.”
 
 {% highlight ruby %}
 search_engines =
-  %w[Google Yahoo MSN].map do |engine|
-    "http://www." + engine.downcase + ".com"
-  end
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
 {% endhighlight %}
 
 In the above code, the block is described inside the `do ... end`
@@ -131,7 +131,7 @@ looping.
 
 {% highlight ruby %}
 class MyArray
-  include Enumerable
+  include Enumerable
 end
 {% endhighlight %}
 

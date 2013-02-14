@@ -100,9 +100,9 @@ l’opérateur plus (`+`). Mais si vous préférez utiliser une méthode
 `plus`, vous pouvez l’ajouter à la classe de base `Numeric` de Ruby :
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -127,9 +127,9 @@ a dit à ce propos : « en créant les *closures* de Ruby, je souhaitais
 respecter la voie tracée par Lisp<sup>[4](#fn4)</sup>. »
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |moteur|
-        "http://www." + moteur.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |moteur|
+        "http://www." + moteur.downcase + ".com"
+      end
 
 Dans le code ci-dessus, le bloc est délimité par la structure `do ...
 end`. La méthode `map` applique le bloc à la liste de mots fournie en
@@ -151,7 +151,7 @@ incorporer le module `Enumerable`, lequel fournit gratuitement plusieurs
 méthodes utilisant `each` pour faire des boucles.
 
     class MonTableau
-      include Enumerable
+      include Enumerable
     end
 
 En général, les rubyistes préfèrent cette façon de faire à l’héritage

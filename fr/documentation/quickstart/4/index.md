@@ -20,16 +20,16 @@ temps :
 
     # Saluer tout le monde
     def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names est une liste de noms : traitons-les uns par uns
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names est une liste de noms : traitons-les uns par uns
+        @names.each do |name|
+          puts "Hello #{name}!"
+        end
+      else
+        puts "Hello #{@names}!"
+      end
     end
 
 Elle jette maintenant un coup d’œil au paramètre `@name` pour décider de
@@ -50,7 +50,7 @@ manipulation.
 Voyons d’un peu plus près cette fameuse itération :
 
     @names.each do |name|
-      puts "Hello #{name}!"
+      puts "Hello #{name}!"
     end
 
 `each` est une méthode, un itérateur, qui travaille conjointement avec
@@ -95,14 +95,14 @@ qui s’en moque totalement.
 
     # Dire au revoir à tout le monde
     def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Grouper les noms par des virgules
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # Grouper les noms par des virgules
+        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+      else
+        puts "Goodbye #{@names}.  Come back soon!"
+      end
     end
 
 Cette méthode n’utilise pas `each`, mais la méthode `join` (si elle est

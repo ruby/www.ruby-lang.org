@@ -45,10 +45,10 @@ Ainsi, une recherche sur le mot « audio » :
 
     $ gem search html --remote
     
-     *** REMOTE GEMS ***
+     *** REMOTE GEMS ***
     
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
+     html-sample (1.0, 1.1)
+        A sample Ruby gem, just to illustrate how RubyGems works.
 {: .code .bash-code}
 
 *Le mot-clé `--remote` ordonne d’effectuer la recherche directement dans

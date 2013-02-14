@@ -16,16 +16,16 @@ Unsere `sag_hallo`-Methode ist ein bisschen trickreicher geworden:
 
     # Sag Hallo zu allen
     def sag_hallo
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names ist eine Liste, iteriere!
-        @names.each do |name|
-          puts "Hallo, #{name}!"
-        end
-      else
-        puts "Hallo, #{@names}!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("each")
+        # @names ist eine Liste, iteriere!
+        @names.each do |name|
+          puts "Hallo, #{name}!"
+        end
+      else
+        puts "Hallo, #{@names}!"
+      end
     end
 
 Sie berücksichtigt nun den `@names`-Parameter und trifft abhängig davon
@@ -43,7 +43,7 @@ einen String umgewandelt und die Standard-Begrüßung veranlasst.
 Sehen wir uns den Iterator genauer an:
 
     @names.each do |name|
-      puts "Hallo, #{name}!"
+      puts "Hallo, #{name}!"
     end
 
 `each` ist eine Methode, die einen Code-Block akzeptiert und diesen für
@@ -80,14 +80,14 @@ Benutzers.
 
     # Sag Tschuess zu allen
     def sag_tschuess
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Verbinde die Listenelemente mit Kommata
-        puts "Tschuess, #{@names.join(", ")}, bis bald!"
-      else
-        puts "Tschuess, #{@names}, bis bald!"
-      end
+      if @names.nil?
+        puts "..."
+      elsif @names.respond_to?("join")
+        # Verbinde die Listenelemente mit Kommata
+        puts "Tschuess, #{@names.join(", ")}, bis bald!"
+      else
+        puts "Tschuess, #{@names}, bis bald!"
+      end
     end
 
 Die `sag_tschuess`-Methode benutzt kein `each`. Stattdessen prüft sie,

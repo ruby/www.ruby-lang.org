@@ -84,9 +84,9 @@ wenn man lieber das Wort `plus` benutzen möchte, kann man diese Methode
 zu Rubys eingebauter Klasse `Numeric` hinzufügen.
 
     class Numeric
-      def plus(x)
-        self.+(x)
-      end
+      def plus(x)
+        self.+(x)
+      end
     end
     
     y = 5.plus 6
@@ -109,9 +109,9 @@ Blöcke sind durch funktionale Programmiersprachen inspiriert. Matz sagt:
 bewahren<sup>[4](#fn4)</sup>.”
 
     search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+      %w[Google Yahoo MSN].map do |engine|
+        "http://www." + engine.downcase + ".com"
+      end
 
 Im obigen Quelltext steht der Block zwischen `do` und `end`. Die Methode
 `map` wendet den Block auf die gegebene Liste von Namen an. Viele andere
@@ -130,7 +130,7 @@ implementiert, das Modul `Enumerable` einmixen, und erhält zwei Dutzend
 neue Methoden, die auf `each` aufbauen (wie `map`).
 
     class MyArray
-      include Enumerable
+      include Enumerable
     end
 
 Im Allgemeinen halten Rubyisten Mixins für klarer als Mehrfachvererbung,

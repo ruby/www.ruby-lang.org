@@ -43,8 +43,8 @@ over a list (like Perl’s <tt>for (@a) \{...}</tt>, or Python’s <tt>for i
 in aList: ...</tt>), with Ruby you’ll very often instead see
 
     some_list.each do |this_item|
-      # We're inside the block.
-      # deal with this_item.
+      # We're inside the block.
+      # deal with this_item.
     end
 
 For more info on `each` (and it’s friends `collect`, `find`, `inject`,
@@ -101,7 +101,7 @@ any other object:
     #   attr_accessor :instance_var
     # end
     MyClass = Class.new do
-      attr_accessor :instance_var
+      attr_accessor :instance_var
     end
 
 ### Variable Constants
@@ -122,7 +122,7 @@ can lead to confusion, as the example below shows:
 
     Constant = 10
     def Constant
-      11
+      11
     end
 
 Now `Constant` is 10, but `Constant()` is 11.
@@ -134,7 +134,7 @@ be faked by using symbols and hashes. Ruby on Rails, among others, uses
 this heavily. Example:
 
     def some_keyword_params( params )
-      params
+      params
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
@@ -148,17 +148,17 @@ code (the example applies to other languages, too):
 
     # in Python
     if 0:
-      print "0 is true"
+      print "0 is true"
     else:
-      print "0 is false"
+      print "0 is false"
 
 This will print “0 is false”. The equivalent Ruby:
 
     # in Ruby
     if 0
-      puts "0 is true"
+      puts "0 is true"
     else
-      puts "0 is false"
+      puts "0 is false"
     end
 
 Prints “0 is true”.
@@ -168,9 +168,9 @@ Prints “0 is true”.
 In the following Ruby code,
 
     class MyClass
-      private
-      def a_method; true; end
-      def another_method; false; end
+      private
+      def a_method; true; end
+      def another_method; false; end
     end
 
 You might expect `another_method` to be public. Not so. The ‘private’
@@ -179,13 +179,13 @@ access modifier pops up, whichever comes first. By default, methods are
 public:
 
     class MyClass
-      # Now a_method is public
-      def a_method; true; end
+      # Now a_method is public
+      def a_method; true; end
     
-      private
+      private
     
-      # another_method is private
-      def another_method; false; end
+      # another_method is private
+      def another_method; false; end
     end
 
  `public`, `private` and `protected` are really methods, so they can take parameters. If you pass a Symbol to one of them, that method’s visibility is altered. ### Method access
@@ -237,20 +237,20 @@ private method call.
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Classes are open
 
  Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:     class Fixnum
-      def hours
-        self * 3600 # number of seconds in an hour
-      end
-      alias hour hours
+      def hours
+        self * 3600 # number of seconds in an hour
+      end
+      alias hour hours
     end
-      
+      
     # 14 hours from 00:00 January 1st
     # (aka when you finally wake up ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
@@ -268,15 +268,15 @@ Singleton methods are per-object methods. They are only available on the
 Object you defined it on.
 
     class Car
-      def inspect
-        "Cheap car"
-      end
+      def inspect
+        "Cheap car"
+      end
     end
     
     porsche = Car.new
     porsche.inspect # => Cheap car
     def porsche.inspect
-      "Expensive car"
+      "Expensive car"
     end
     
     porsche.inspect # => Expensive car
@@ -296,8 +296,8 @@ better fit your application, and many libraries do. Here is an example:
     # id is the name of the method called, the * syntax collects
     # all the arguments in an array named 'arguments'
     def method_missing( id, *arguments )
-      puts "Method #{id} was called, but not found. It has " + 
-           "these arguments: #{arguments.join(", ")}"
+      puts "Method #{id} was called, but not found. It has " + 
+           "these arguments: #{arguments.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -325,8 +325,8 @@ call a block, you can either use `yield`, or make it a `Proc` by
 appending a special argument to the argument list, like so:
 
     def block( &the_block )
-      # Inside here, the_block is the block passed to the method
-      the_block # return the block
+      # Inside here, the_block is the block passed to the method
+      the_block # return the block
     end
     adder = block { |a, b| a + b }
     # adder is now a Proc object
@@ -347,10 +347,10 @@ rules) for method calls. You can, for example, override Fixnums +
 method:
 
     class Fixnum
-      # You can, but please don't do this
-      def +( other )
-        self - other
-      end
+      # You can, but please don't do this
+      def +( other )
+        self - other
+      end
     end
 
 You don’t need C++’s `operator+`, etc.

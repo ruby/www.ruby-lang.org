@@ -44,8 +44,8 @@ C++ ou java &lt; 1.5) ou sur une liste (comme en Perl, avec <tt>for (@a)
 écrirez souvent en Ruby quelque chose comme :
 
     une_liste.each do |item_courant|
-      # Nous sommes dans le bloc.
-      # Travaillons avec l'item_courant de la liste...
+      # Nous sommes dans le bloc.
+      # Travaillons avec l'item_courant de la liste...
     end
 
 Pour plus d’informations sur `each` et ses méthodes apparentées
@@ -113,7 +113,7 @@ objet à part entière—objet acceptant les manipulations usuelles du type
     #   attr_accessor :var_instance
     # end
     MaClass = Class.new do
-      attr_accessor :var_instance
+      attr_accessor :var_instance
     end
 
 ### Des constantes variables
@@ -136,7 +136,7 @@ conduire à des confusions, comme dans l’exemple qui suit :
 
     Constante = 10
     def Constante
-      11
+      11
     end
 
  `Constante` vaut 10, mais `Constante()` vaut 11. ### De vrai-faux paramètres mot-clés
@@ -147,7 +147,7 @@ hashs. Ruby on Rails et d’autres applications usent et abusent de ce
 mécanisme. Exemple :
 
     def param_motcle( params )
-      params
+      params
     end
     param_motcle( :param_un => 10, :param_deux => 42 )
     # => {:param_un=>10, :param_deux=>42}
@@ -161,18 +161,18 @@ Voyez par exemple le bout de code suivant, écrit en Python :
 
     # en Python
     if 0:
-      print "0 est vrai/true"
+      print "0 est vrai/true"
     else:
-      print "0 est faux/false"
+      print "0 est faux/false"
 
 Ce qui affichera « 0 est faux/false. » L’équivalent en Ruby, maintenant
 :
 
     # en Ruby
     if 0
-      puts "0 est vrai/true"
+      puts "0 est vrai/true"
     else
-      puts "0 est faux/false"
+      puts "0 est faux/false"
     end
 
 Cette fois, vous lirez « 0 est vrai/true. »
@@ -182,9 +182,9 @@ Cette fois, vous lirez « 0 est vrai/true. »
 Considérez le bout de code suivant :
 
     class MyClass
-      private
-      def a_method; true; end
-      def another_method; false; end
+      private
+      def a_method; true; end
+      def another_method; false; end
     end
 
 Vous pourriez vous attendre à ce que `another_method` soit publique. Ce
@@ -193,13 +193,13 @@ portée actuelle (ici, la classe `MyClass`), ou jusqu’à ce qu’un autre
 mot-clé change la donne. Par défaut, les méthodes sont publiques :
 
     class MyClass
-      # Méthode implicitement publique
-      def a_method; true; end
+      # Méthode implicitement publique
+      def a_method; true; end
     
-      private
+      private
     
-      # Cette méthode est privée
-      def another_method; false; end
+      # Cette méthode est privée
+      def another_method; false; end
     end
 
 `public`, `private` et `protected` sont des méthodes à part entière,
@@ -258,9 +258,9 @@ Un exemple, repris de la [FAQ Ruby][1]\:
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Les classes restent ouvertes
@@ -272,12 +272,12 @@ toute autre. Par exemple, l’application Ruby on Rails défini nombre de
 méthodes pour traiter le temps, au sein de `Fixnum`. Voyez ceci :
 
     class Fixnum
-      def hours
-        self * 3600 # nombre de secondes dans une heure
-      end
-      alias hour hours
+      def hours
+        self * 3600 # nombre de secondes dans une heure
+      end
+      alias hour hours
     end
-      
+      
     # 14 heures après le 1er janvier à 00h00
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
@@ -301,15 +301,15 @@ Une méthode singleton est une méthode liée à *un* objet. Elle n’est
 disponible que pour l’objet défini.
 
     class Car
-      def inspect
-        "Cheap car"
-      end
+      def inspect
+        "Cheap car"
+      end
     end
     
     porsche = Car.new
     porsche.inspect # => Cheap car
     def porsche.inspect
-      "Expensive car"
+      "Expensive car"
     end
     
     porsche.inspect # => Expensive car
@@ -331,8 +331,8 @@ bibliothèques exploitent cette possibilité. Voici un exemple :
     # id est le nom de la méthode appelée, la syntaxe * renvoie
     # tous les paramètres dans un tableau nommé « arguments »
     def method_missing( id, *arguments )
-      puts "La méthode #{id} a été appelée, mais elle n'existe pas. " + 
-           "Voici les paramètres de l'appel : #{arguments.join(", ")}"
+      puts "La méthode #{id} a été appelée, mais elle n'existe pas. " + 
+           "Voici les paramètres de l'appel : #{arguments.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -362,8 +362,8 @@ transformer en `Proc` en rajoutant un paramètre spécial à la liste
 d’arguments, comme ceci :
 
     def bloc( &le_bloc )
-      # Ici, dedans, le_bloc est le bloc passé à la méthode
-      le_bloc # retourne le bloc
+      # Ici, dedans, le_bloc est le bloc passé à la méthode
+      le_bloc # retourne le bloc
     end
     addition = bloc { |a, b| a + b }
     # addition est maintenant un objet du genre Proc
@@ -385,10 +385,10 @@ programmeur (et gèrent aussi les règles de priorité mathématique). Vous
 pouvez, par exemple, redéfinir la méthode `+` de la classe `Fixnum`\:
 
     class Fixnum
-      # Possible, mais pas recommandé...
-      def +( other )
-        self - other
-      end
+      # Possible, mais pas recommandé...
+      def +( other )
+        self - other
+      end
     end
 
 Pas besoin des `operator+` comme en C++, etc.

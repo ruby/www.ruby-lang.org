@@ -14,16 +14,16 @@ Il nostro metodo `saluta` è diventato un pochino più complicato.
 
     # Say hi to everybody
     def saluta
-      if @nomi.nil?
-         puts "..."
-      elsif @nomi.respond_to?("each")
-         # @nomi è una lista di qualche tipo, allora iteriamo!
-        @nomi.each do |nome|
-          puts "Ciao #{nome}!"
-        end
-      else
-        puts "Ciao #{@nomi}!"
-      end
+      if @nomi.nil?
+         puts "..."
+      elsif @nomi.respond_to?("each")
+         # @nomi è una lista di qualche tipo, allora iteriamo!
+        @nomi.each do |nome|
+          puts "Ciao #{nome}!"
+        end
+      else
+        puts "Ciao #{@nomi}!"
+      end
     end
 
 Ora controlla la variabile di istanza `@nomi` per prendere una
@@ -39,7 +39,7 @@ automaticamente lo convertiamo in stringa e usiamo il saluto di default.
 Vediamo l’iterazione in modo più approfondito:
 
     @nomi.each do |nome|
-      puts "Ciao #{nome}!"
+      puts "Ciao #{nome}!"
     end
 
 `each` è un metodo che accetta un bloccho di codice e lo ripete per ogni
@@ -72,14 +72,14 @@ gli errori. Tutti nascosti dagli occhi indiscreti degli utenti.
 
     # Congeda tutti
     def congeda
-      if @nomi.nil?
-        puts "..."
-      elsif @nomi.respond_to?("join")
-        # Unisci gli elementi della lista con delle virgole
-        puts "Arrivederci #{@nomi.join(", ")}. A presto!"
-      else
-        puts "Arrivederci #{@nomi}. A presto!"
-      end
+      if @nomi.nil?
+        puts "..."
+      elsif @nomi.respond_to?("join")
+        # Unisci gli elementi della lista con delle virgole
+        puts "Arrivederci #{@nomi.join(", ")}. A presto!"
+      else
+        puts "Arrivederci #{@nomi}. A presto!"
+      end
     end
 
 Il metodo `congeda` non usa `each`, ma controlla se `@nomi` risponde al

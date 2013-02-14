@@ -20,13 +20,13 @@ Berikut ini adalah contoh program untuk menjumlahkan dua angka
     import java.io.*;
     public class Addup
     {
-       static public void main(String args[]) throws Exception {
-           InputStreamReader stdin = new InputStreamReader(System.in);
-           BufferedReader console = new BufferedReader(stdin);
-           int i1 = Integer.parseInt(console.readLine());
-           int i2 = Integer.parseInt(console.readLine());
-           System.out.println(i1 + i2);
-       }
+       static public void main(String args[]) throws Exception {
+           InputStreamReader stdin = new InputStreamReader(System.in);
+           BufferedReader console = new BufferedReader(stdin);
+           int i1 = Integer.parseInt(console.readLine());
+           int i2 = Integer.parseInt(console.readLine());
+           System.out.println(i1 + i2);
+       }
     }
 {: .code .java-code}
 

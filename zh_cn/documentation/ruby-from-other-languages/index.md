@@ -33,8 +33,8 @@ Java），或者以列表做循环（比如 Perl 的 <tt>for (@a) \{...}</tt>，
 in aList: ...</tt>），但是在 Ruby 中，我们常会看到
 
     some_list.each do |this_item|
-      # We're inside the block.
-      # deal with this_item.
+      # We're inside the block.
+      # deal with this_item.
     end
 
 关于更多 `each` 的信息（还有 `collect`, `find`, `inject`, `sort`, etc.），请参考 `ri
@@ -77,7 +77,7 @@ Enumerable` （和 <tt>ri Enumerable#*func\_name*</tt>）。
     #   attr_accessor :instance_var
     # end
     MyClass = Class.new do
-      attr_accessor :instance_var
+      attr_accessor :instance_var
     end
 
 ### 可以改变的常量
@@ -90,7 +90,7 @@ Enumerable` （和 <tt>ri Enumerable#*func\_name*</tt>）。
 
     Constant = 10
     def Constant
-      11
+      11
     end
 
 这里 `Constant` 是 10，而 `Constant()` 是 11。
@@ -101,7 +101,7 @@ Ruby 并不像 Python 一样支持命名参数，但可以用符和字典来替�
 程序都使用了这种方法。例如：
 
     def some_keyword_params( params )
-      params
+      params
     end
     some_keyword_params( :param_one => 10, :param_two => 42 )
     # => {:param_one=>10, :param_two=>42}
@@ -113,17 +113,17 @@ Ruby 把任何不是 **nil** 和 **false** 的值当作真值。在 C，Python �
 
     # in Python
     if 0:
-      print "0 is true"
+      print "0 is true"
     else:
-      print "0 is false"
+      print "0 is false"
 
 这会打印出 “0 is false”，而在 Ruby 中：
 
     # in Ruby
     if 0
-      puts "0 is true"
+      puts "0 is true"
     else
-      puts "0 is false"
+      puts "0 is false"
     end
 
 会打印出 “0 is true”。
@@ -133,22 +133,22 @@ Ruby 把任何不是 **nil** 和 **false** 的值当作真值。在 C，Python �
 下面的 Ruby 代码中，
 
     class MyClass
-      private
-      def a_method; true; end
-      def another_method; false; end
+      private
+      def a_method; true; end
+      def another_method; false; end
     end
 
 您可能认为 `another_method` 是公开的。并不是这样的，”private” 权限声明会一直应用到类声明底线，
 或者直到另外一个权限声明开始起作用。函数默认是公开的：
 
     class MyClass
-      # Now a_method is public
-      def a_method; true; end
+      # Now a_method is public
+      def a_method; true; end
     
-      private
+      private
     
-      # another_method is private
-      def another_method; false; end
+      # another_method is private
+      def another_method; false; end
     end
 
  `public`， `private` 和 `protected` 其实都是函数， 所以他们可以接受参数。如果您给他们传递一个符号的话，那么符号所代表的函数的可见性会被改变。 ### 函数访问
@@ -195,20 +195,20 @@ Ruby 有些不同。`public` 还是公开的。`private`
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Classes are open
 
  Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:     class Fixnum
-      def hours
-        self * 3600 # number of seconds in an hour
-      end
-      alias hour hours
+      def hours
+        self * 3600 # number of seconds in an hour
+      end
+      alias hour hours
     end
-      
+      
     # 14 hours from 00:00 January 1st
     # (aka when you finally wake up ;)
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
@@ -226,15 +226,15 @@ Singleton methods are per-object methods. They are only available on the
 Object you defined it on.
 
     class Car
-      def inspect
-        "Cheap car"
-      end
+      def inspect
+        "Cheap car"
+      end
     end
     
     porsche = Car.new
     porsche.inspect # => Cheap car
     def porsche.inspect
-      "Expensive car"
+      "Expensive car"
     end
     
     porsche.inspect # => Expensive car
@@ -254,8 +254,8 @@ better fit your application, and many libraries do. Here is an example:
     # id is the name of the method called, the * syntax collects
     # all the arguments in an array named 'arguments'
     def method_missing( id, *arguments )
-      puts "Method #{id} was called, but not found. It has " + 
-           "these arguments: #{arguments.join(", ")}"
+      puts "Method #{id} was called, but not found. It has " + 
+           "these arguments: #{arguments.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -283,8 +283,8 @@ call a block, you can either use `yield`, or make it a `Proc` by
 appending a special argument to the argument list, like so:
 
     def block( &the_block )
-      # Inside here, the_block is the block passed to the method
-      the_block # return the block
+      # Inside here, the_block is the block passed to the method
+      the_block # return the block
     end
     adder = block { |a, b| a + b }
     # adder is now a Proc object
@@ -305,10 +305,10 @@ rules) for method calls. You can, for example, override Fixnums +
 method:
 
     class Fixnum
-      # You can, but please don't do this
-      def +( other )
-        self - other
-      end
+      # You can, but please don't do this
+      def +( other )
+        self - other
+      end
     end
 
 You don’t need C++’s `operator+`, etc.

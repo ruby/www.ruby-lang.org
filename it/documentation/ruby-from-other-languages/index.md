@@ -44,8 +44,8 @@ su un indice (come in C, C++, o Java pre-1.5), o su una lista (come il
 Ruby vedrai spesso costrutti come:
 
     una_lista.each do |questo_elemento|
-      # Dentro il blocco:
-      # facciamo qualcosa con questo_elemento
+      # Dentro il blocco:
+      # facciamo qualcosa con questo_elemento
     end
 
 Per maggiori informazioni su `each` e simili (`collect`, `find`,
@@ -102,7 +102,7 @@ altro oggetto:
     #   attr_accessor :instance_var
     # end
     MyClass = Class.new do
-      attr_accessor :instance_var
+      attr_accessor :instance_var
     end
 
 ### Costanti variabili
@@ -126,7 +126,7 @@ può causare confusione, come nell’esempio seguente:
 
     Costante = 10
     def Costante
-      11
+      11
     end
 
 In questo modo, `Costante` è 10, ma `Costante()` è 11.
@@ -140,7 +140,7 @@ pratica è molto utilizzata in Ruby on Rails.
 Esempio:
 
     def qualche_parola_chiave( parametri )
-      params
+      params
     end
     qualche_parola_chiave( :parametro_uno => 10, :parametro_due => 42 )
     # => {:parametro_uno=>10, :parametro_due=>42}
@@ -156,17 +156,17 @@ applica anche ad atri linguaggi):
 
     # in Python
     if 0:
-      print "0 è true"
+      print "0 è true"
     else:
-      print "0 è false"
+      print "0 è false"
 
 Questo stamperà “0 is false”, mentre l’equivalente in Ruby:
 
     # in Ruby
     if 0
-      puts "0 è true"
+      puts "0 è true"
     else
-      puts "0 è false"
+      puts "0 è false"
     end
 
 Stampa “0 è true”.
@@ -176,9 +176,9 @@ Stampa “0 è true”.
 Nel seguente codice Ruby:
 
     class MiaClass
-      private
-      def un_metodo; true; end
-      def un_altro_metodo; false; end
+      private
+      def un_metodo; true; end
+      def un_altro_metodo; false; end
     end
 
 Ci si potrebbe aspettare che `un_altro_metodo` sia pubblico, ma non è
@@ -189,13 +189,13 @@ specificato.
 I metodi sono pubblici di default:
 
     class MyClass
-      # un_metodo è pubblico
-      def un_metodo; true; end
+      # un_metodo è pubblico
+      def un_metodo; true; end
     
-      private
+      private
     
-      # un_altro_metodo è privato
-      def un_altro_metodo; false; end
+      # un_altro_metodo è privato
+      def un_altro_metodo; false; end
     end
 
  `public`, `private` e `protected` sono, di fatto, dei metodi, e come tali accettano anche dei parametri. Per modificare la visibilità di un solo metodo, per esempio, è sufficiente passare un simbolo a tale metodo come parametro di un modificatore di accesso per cambiarne la visibilità. ### Accesso ai metodi
@@ -245,20 +245,20 @@ usato come ricevente per una chiamata ad un metodo pubblico.
     => Test
     irb(main):025:0> t1 == t2
     NoMethodError: private method `func' called for #<0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
+            from (irb):8:in `=='
+            from (irb):25
+            from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
 
 ### Classi aperte
 
  In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli oggetti. Ruby on Rails, per esempio, definishe una serie di metodi per fare operazioni temporali con oggetti `Fixnum`\:     class Fixnum
-      def hours
-        self * 3600 # numero di secondi in un'ora
-      end
-      alias hour hours
+      def hours
+        self * 3600 # numero di secondi in un'ora
+      end
+      alias hour hours
     end
-      
+      
     # 14 ore dalla mezzanotte del primo gennaio 2006
     Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
@@ -284,15 +284,15 @@ I metodi singleton sono dei metodi *ad hoc* per singoli oggetti, e sono
 pertanto devinibili sull’oggetto per il quale sono stati definiti.
 
     class Automobile
-      def ispeziona
-        "Macchina a buon mercato"
-      end
+      def ispeziona
+        "Macchina a buon mercato"
+      end
     end
     
     porsche = Automobile.new
     porsche.ispeziona # => Macchina a buon mercato
     def porsche.ispeziona
-      "Macchina costosa"
+      "Macchina costosa"
     end
     
     porsche.ispeziona # => Macchina costosa
@@ -314,8 +314,8 @@ molte librerie. Ecco un esempio:
     # fa si che tutti gli argomenti del metodo siano 
     # immagazzinati in un array chiamato 'argomenti'
     def method_missing( id, *argomenti )
-      puts "Il metodo #{id} è inesistente - è stato chiamato con " + 
-           "i seguenti argomenti: #{argomenti.join(", ")}"
+      puts "Il metodo #{id} è inesistente - è stato chiamato con " + 
+           "i seguenti argomenti: #{argomenti.join(", ")}"
     end
     
     __ :a, :b, 10
@@ -345,8 +345,8 @@ oppure rendere il blocco un oggetto `Proc` aggiungendo un argomento
 speciale, così:
 
     def blocco( &il_blocco )
-      # Qui dentro, il_blocco è il blocco passato al metodo:
-      il_blocco # ritorna il blocco
+      # Qui dentro, il_blocco è il blocco passato al metodo:
+      il_blocco # ritorna il blocco
     end
     sommatore = blocco { |a, b| a + b }
     # sommatore è ora un oggetto Proc
@@ -368,10 +368,10 @@ alcune regole di precendenza però) per delle chiamate a dei metodi. È
 possibile, per esempio, ridefinire il metodo ”+” della classe Fixnum:
 
     class Fixnum
-      # Puoi farlo, ma è meglio di no!
-      def +( other )
-        self - other
-      end
+      # Puoi farlo, ma è meglio di no!
+      def +( other )
+        self - other
+      end
     end
 
 Non c’è nemmeno bisogno di usare `operator+`, come in C++.
