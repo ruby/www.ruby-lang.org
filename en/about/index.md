@@ -61,7 +61,9 @@ calls properties by the name *instance variables* and actions are known
 as *methods*. Ruby’s pure object-oriented approach is most commonly
 demonstrated by a bit of code which applies an action to a number.
 
-    5.times { print "We *love* Ruby -- it's outrageous!" }
+{% highlight ruby %}
+5.times { print "We *love* Ruby -- it's outrageous!" }
+{% endhighlight %}
 
 In many languages, numbers and other primitive types are not objects.
 Ruby follows the influence of the Smalltalk language by giving methods
@@ -79,14 +81,16 @@ For example, addition is performed with the plus (`+`) operator. But, if
 you’d rather use the readable word `plus`, you could add such a method
 to Ruby’s builtin `Numeric` class.
 
-    class Numeric
-      def plus(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.plus 6
-    # y is now equal to 11
+{% highlight ruby %}
+class Numeric
+  def plus(x)
+    self.+(x)
+  end
+end
+
+y = 5.plus 6
+# y is now equal to 11
+{% endhighlight %}
 
 Ruby’s operators are syntactic sugar for methods. You can redefine them
 as well.
@@ -102,10 +106,12 @@ languages like PHP or Visual Basic.
 Blocks are inspired by functional languages. Matz said, “in Ruby
 closures, I wanted to respect the Lisp culture<sup>[4](#fn4)</sup>.”
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines =
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
+{% endhighlight %}
 
 In the above code, the block is described inside the `do ... end`
 construct. The `map` method applies the block to the provided list of
@@ -123,9 +129,11 @@ example, any class which implements the `each` method can mixin the
 `Enumerable` module, which adds a pile of methods that use `each` for
 looping.
 
-    class MyArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MyArray
+  include Enumerable
+end
+{% endhighlight %}
 
 Generally, Rubyists see this as a much clearer way than multiple
 inheritance, which is complex and can be too restrictive.
