@@ -224,7 +224,8 @@ erişilebileceğini belirtir ve bu alıcı sadece **self** olabilir.
     irb(main):024:1> end
     => Test
     irb(main):025:0> t1 == t2
-    NoMethodError: private method `func' called for #<0x342784>        from (irb):8:in `=='
+    NoMethodError: private method `func' called for #<0x342784>
+            from (irb):8:in `=='
             from (irb):25
             from :0
     irb(main):026:0></0x342784></0x342784></0x34ab50>
