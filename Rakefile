@@ -105,7 +105,7 @@ task :check => ['check:lang']
 namespace :import do
   desc "Spiders #{HOST} and converts HTML to Markdown"
   task :pages do
-    Spidr.site("http://www.#{HOST}/index.html") do |agent|
+    Spidr.site("http://#{HOST}/index.html") do |agent|
       agent.ignore_links_like /\/cgi-bin\//
       agent.ignore_links_like /\.cgi[\/]?$/
       agent.ignore_links_like /\/[a-z_]+\/feeds\//
@@ -125,12 +125,12 @@ namespace :import do
           File.open(local_path,'w') do |file|
             if page.html?
               title = page.title.strip
-              lang  = path.split('/',2).first
+              lang  = local_path.split('/',3)[1]
 
               # add the YAML front matter
               file.puts(
                 '---',
-                "layout: default",
+                "layout: page",
                 "title: #{title.inspect}",
                 "lang: #{lang}",
                 '---',
