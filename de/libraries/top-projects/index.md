@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Top Ruby Projekete"
+title: "Top Ruby Projekte"
 lang: de
 ---
 
