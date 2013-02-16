@@ -8,6 +8,28 @@ Hier kannst du die aktuellen Ruby-Distributionen herunterladen. Die
 stabile Version ist derzeit {{ site.downloads.stable.version }}.
 Bitte nimm auch [Rubys Lizenz][1] zur Kenntnis.
 
+### Drei Möglichkeiten, Ruby zu installieren
+
+Man kann Ruby auf vielen verschiedenen Wegen erhalten und jeder einzelne
+zieht eine Methode einer anderen aus bestimmten Gründen vor. Jede wird
+im Folgenden kurz vorgestellt, aber hier ist eine Übersicht:
+
+* Kompilierung aus dem Quellcode ist der Standard, nach dem Software
+  seit vielen, vielen Jahren verteilt wird. Die meisten
+  Softwareentwickler werden sich damit auskennen.
+* Es gibt ein paar Drittanbieter-Werkzeuge, um Ruby zu installieren.
+  Meistens sind diese für frühe Anfänger und weit fortgeschrittene
+  Nutzer am einfachsten zu benutzen.
+* Schließlich unterstützen auch einige Paketmanagement-Systeme Ruby.
+  Diese Methode wird den Leuten am meisten gefallen, die ein einziges
+  Betriebssystem für alles nutzen und dessen jeweiligen Richtlinien
+  folgen möchten.
+
+Möchte man mehrere verschiedene Ruby-Versionen auf demselben Computer
+betreiben, sollte man sich über die Drittanbieter-Werkzeuge unten
+einlesen und RVM oder Pik benutzen, solange man nicht ganz genau weiß,
+was man tut.
+
 ### Ruby-Quellcode
 
 Ruby aus dem Quellcode zu installieren ist eine geeignete Lösung, wenn
@@ -22,146 +44,195 @@ Lösung, falls es keine vorgefertigten Pakete für dein System gibt.
   das letzte Release.
 * [Nightly Snapshot][4] Bei diesem Snapshot handelt es sich um eine
   Kopie von letzter Nacht. Es besteht durchaus die Gefahr, dass in
-  dieser noch nicht gelöste Fehler enthalten sind.
+  dieser noch nicht korrigierte Fehler enthalten sind.
 
 Weitergehende Informationen zum Subversion- und Git-Repository von Ruby
 sind unter [Ruby Core](/en/community/ruby-core/) zu finden.
 
-### Ruby unter Windows
+### Drittanbieter-Werkzeuge
 
-Unter Windows gibt es verschiedene Möglichkeiten, Ruby zu installieren.
-Die erste und in der Regel einfachere besteht darin, den
-[RubyInstaller][5] zu verwenden. Die Zweite ist, ein vorkompiliertes
-Binärpaket zu installieren. Wenn du dir nicht sicher bist, wie du Ruby
-installieren sollst, ist die erste Möglichkeit wohl die beste Wahl für
-dich (da der RubyInstaller das komplette Setup der Ruby-Installation
-übernimmt, welches du bei den Binärpaketen von Hand machen musst).
+Viele Rubyisten benutzen Drittanbietersoftware, um ihr Ruby zu
+installieren. Sie bieten verschieden Vorteile, werden aber dafür nicht
+offiziell unterstützt. Nichtsdestotrotz sind ihre jeweiligen Communities
+sehr hilfsbereit.
 
-* [Ruby 1.9.2-p290 RubyInstaller][6]
-  (md5:&nbsp;2ebae0cddbcc3176d145b59f3cc02c43) Stabile Version (*empfohlen*)
-* [Ruby 1.8.7-p352 RubyInstaller][7]
-  (md5:&nbsp;ac56ea30df53bf782c95754b13e296e0) Stabile Version (*empfohlen*)
-* [Ruby 1.8.6-p398 RubyInstaller][8]
-  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) Stabile Version
-* [Ruby 1.9.2-p136 Binary][9] (md5:&nbsp;fb744af867b2386728ca034a8a773fe7)
-  Stabile Version
-* [Ruby 1.8.7-p330 Binary][10] (md5:&nbsp;74a3114501c51520d97ed09f5bfe25c3)
-  Stabile Version
+#### RubyInstaller
 
-Es sei darauf hingewiesen, dass es notwendig ist, für die oben
-aufgelisteten Binaries zusätzliche Pakete [herunterzuladen und zu
-installieren][11]. Bevor Fehler diesbezüglich gemeldet werden, sollten
-diese Schritte befolgt werden.
+Für Windows-Nutzer hat sich die Installation mithilfe des
+[RubyInstallers][5] etabliert, der alle notwendigen Tools für die
+Rubyentwicklung unter Windows mitbringt. Momentan stehen folgende
+Installer zur Verfügung:
 
-Der [RubyInstaller][5] benötigt diese zusätzlichen Schritte nicht.
+* [Ruby 1.9.3-p385 RubyInstaller][6]
+  (md5:&nbsp;53f48cef7e124065abf58bbc68b33a97) Stabile Version (*empfohlen*)
+* [Ruby 1.8.7-p371 RubyInstaller][7]
+  (md5:&nbsp;4fe69c7a284e9937d3d1db9b76626beb) Stabile Version
+
+Speziell für die Entwicklung mit RubyOnRails unter Windows gibt es den
+[RailsInstaller][8]. Dieser baut auf dem RubyInstaller auf, enthält aber
+noch einige weitere Werkzeuge, die die Entwicklung mit Rails
+vereinfachen.
 
 Wenn du auf Windows mehrere Ruby- und RubyGems-Installationen
-gleichzeitig betreiben möchtest, solltest du dir [Pik][12] anschauen,
+gleichzeitig betreiben möchtest, solltest du dir [Pik][9] anschauen,
 welches diese Aufgabe enorm vereinfacht.
 
-### Ruby unter Linux
+#### RVM und Pik
+
+Das bekannteste Ruby-Installationswerkzeug ist RVM („Ruby Version
+Manager“). Es erlaubt nicht nur, Ruby sehr einfach zu installieren,
+sondern unterstützt auch die Installation und Verwaltung verschiedener
+Ruby-Versionen und -implementationen auf einem System.
+
+RVM steht nur für Linux, Max OS X und andere UNIX-ähnliche
+Betriebssysteme zur Verfügung. Windows-Nutzer sollten sich [Pik][10] für
+ein ähnliches Projekt anschauen oder den oben beschriebenen
+RubyInstaller verwenden.
+
+Zum Zeitpunkt des Verfassens dieses Textes kann RVM, soweit [Git][11]
+verfügbar ist, wie folgt installiert werden:
+
+    $ curl -L get.rvm.io | bash -s stable
+{: .code .sh-code}
+
+Die aktuellsten Installationsanweisungen für RVM können auf der
+[Installationsseite von RVM][12] nachgelesen werden. Die neueste
+Ruby-Version lässt sich durch `rvm install 1.9.3` installieren; alle
+unterstützten Versionen und Implementationen können mit `rvm list known`
+aufgelistet werden.
+
+### Paketverwaltungssysteme
+
+#### Ruby unter Linux
 
 Je nach dem, welche Distribution du verwendest, gibt es mehrere
-Möglichkeiten, Ruby zu installieren. Die erste besteht darin, den oben
-genannten Quellcode herunterzuladen und von Hand zu kompilieren. Einige
-Distributionen bieten jedoch Werkzeuge zur Paketverwaltung an, die die
-Installation von Ruby extrem vereinfachen.
+Möglichkeiten, Ruby zu installieren. Unter Debian oder Ubuntu
+beispielsweise stellt `apt-get` eine einfache und elegante Lösung dar:
 
-Unter Debian oder Ubuntu beispielsweise stellt `apt-get` eine einfache
-und elegante Lösung dar:
+    #Ruby 1.9 (es handelt sich hierbei tatsächlich um Ruby 1.9.2 oder neuer,
+    #die "1.9.1" steht für die sog. "library compatibility version").
+    % sudo apt-get install ruby1.9.1-full
 
     #Ruby 1.8
     % sudo apt-get install ruby-full
-    #Ruby 1.9
-    % sudo apt-get install ruby1.9.1-full
 {: .code .sh-code}
 
-Für irb und rdoc muss das “Universe Reposiory” aktiviert werden.
+Für `irb` und `rdoc` muss das „Universe“-Repository aktiviert werden.
 
-Unter Arch Linux findest du Ruby im “extra”-Repository.
+Unter Arch Linux findest du Ruby im „extra“-Repository.
 
     % pacman -S ruby
 {: .code .sh-code}
 
-### Ruby unter OS X
+#### Ruby unter OS X
 
-Es gibt verschiedene Möglichkeiten, die neueste version von Ruby unter
-Macintosh OS X zu installieren. [Locomotive][13] ist eine gute Wahl,
-wenn du etwas suchst, das du schnell zum Laufen bekommst, um mit Rails
-zu entwickeln. Weiterhin gibt es den [One-click Installer for Mac OS
-X][14] welcher eine komplette Ruby Umgebung auf einem Mac installiert
-und konfiguriert. [DarwinPorts][15] oder [Fink][16] dürften
-ansprechendere Lösungen für technisch erfahrenere Benutzer sein.
+Ruby 1.8.7 wird von Macintosh OS X Lion genauso vollständig unterstützt
+wie viele bekannte RubyGems (Pakete). Genauere Informationen gibt es im
+[RubyWiki bei MacOS Forge][13].
 
-Mittels DarwinPorts kannst du Ruby folgendermaßen installieren:
+Max OS X Tiger kommt mit der Ruby-Versionen 1.8.2 und Leopard mit 1.8.6,
+aber für die, die noch nicht auf Leopard aktualisiert haben, gibt es
+eine gewisse Anzahl an Möglichkeiten, die neuste Ruby-Version zu
+installieren.
 
-    % port install ruby
+Viele Leute benutzen unter Mac OS X [Homebrew][14] als Paketmanager:
+
+    $ brew install ruby
 {: .code .sh-code}
 
-Fink stellt eine graphische Oberfläche zur Verfügung (Fink Commander),
-über die Ruby installiert werden kann.
+Da OS X aber auch auf UNIX basiert, ist die Installation aus dem
+Quellcode ebenso einfach und effektiv wie die anderen Möglichkeiten;
+selbstverständlich ist es auch möglich, RVM zu benutzen. `rvm notes`
+gibt systemspezifische Informationen aus.
 
-Da OS X auf Unix basiert, ist es eine ebenso einfache und effektive
-Lösung, Ruby aus dem Quellcode zu installieren.
+Eine genaue Beschreibung der Installation von Ruby (und Rails) findet
+sich in Dan Benjamins Artikeln zu [Tiger][15], [Leopard][16] und [Snow
+Leopard][17]. Für Lion mag [dieser Artikel][18] hilfreich sein.
 
-Dan Benjamins exzellenter Artikel [*Building Ruby, Rails, LightTPD, and
-MySQL on Tiger*][17] wird dir helfen, einen detaillierten Einblick zu
-bekommen, wie man Ruby (und Rails) installiert. Unter [Mac OS X
-Leopard][18] ist der Einstieg noch einfacherer, da diese Version direkt
-Ruby und RubyOnRails mitbringt.
-
-### Ruby On Ruby unter Solaris und OpenSolaris
+#### Ruby unter Solaris und OpenIndiana
 
 Ruby 1.8.7 ist für Solaris 8 bis Solaris 10 unter [Sunfreeware][19]
-verfügbar. Ruby 1.8.7 ist bei [Blastwave][20] erhältlich. Ein
+verfügbar und Ruby 1.8.7 ist bei [Blastwave][20] erhältlich, ein
 optimierter Ruby On Rails Stack für Solaris 10 ist bei [Coolstack][21]
-innerhalb von Sun’s Cooltools Projekt verfügbar.
+innerhalb von Sun’s Cooltools Projekt verfügbar. Ruby 1.9.2-p0 kann
+ebenfalls bei [Sunfreeware][19] gefunden werden, jedoch ist diese
+Version veraltet. Eine neuere kann etwa mit RVM installiert werden.
 
-Um Ruby unter [OpenSolaris][22] zu installieren, sollte der [Image
-Packaging System oder der IPS][23] Client verwendet werden. Dies
-installiert die aktuellsten Ruby und Rubygems Version direkt vom
-OpenSolaris Network Repository. In etwa so:
+Um Ruby unter [OpenIndiana][22] zu installieren, sollte man das [Image
+Packaging System][23], IPS, verwenden. Damit werden die neuesten
+Ruby-Binaries (1.9) und RubyGems direkt aus dem OpenSolaris-Repository
+installiert:
 
-    % pfexec pkg install SUNWruby18
+    % pkg install runtime/ruby-19
 {: .code .sh-code}
 
-Hier wird Ruby, Rubygems und weitere Erweiterungen installiert. Dieses
-Paket enthält auch DTrace Support und Performance Optimierungen. Weitere
-Informationen sind im [Ruby OpenSolaris ARC Case][24] verfügbar.
+Selbstverständlich kann man auch hier RVM verwenden.
 
-Eine andere OpenSolaris Distribution [Solaris Express Community Edition
-bzw. SXCE][25] wird direkt mit einer vorinstallierten Version von Ruby
-ausgeliefert. Die Version entspricht der vanilla OpenSolaris
-Distribution.
+### Alternative Ruby-Implementationen
 
-Für eine manuelle Installation der SVR4 Pakete ist das [RubyOpenSolaris
-Projekt @ Rubyforge][26] hilfreich.
+Ruby als Sprache hat einige verschiedene Implementierungen. Diese
+Anleitung diskutiert die Referenzimplementation **MRI** („Matz’
+Ruby-Interpreter“), es gibt aber noch einige weitere. Oftmals sind diese
+in bestimmten Situationen nützlich, stellen spezielle Sprach- oder
+Umgebungsintergration zur Verfügung oder haben einfach spezielle
+Features, die der MRI nicht hat.
+
+Hier ist eine Liste:
+
+* [JRuby][24] ist ein Ruby auf der JVM (Java Virtual Machine), das von
+  den optimierenden JIT-Compiliern der JVM, ihrem Garbage Collector,
+  nebenläufigen Threads, diversen Tools und einer immensen Menge an
+  Programmbibliotheken profitiert.
+* [Rubinius][25] ist ein „Ruby geschrieben in Ruby“. Aufgebaut auf der
+  LLVM stellt Rubinius eine gute virtuelle Maschine zur Verfügung, auf
+  der sogar andere Sprachen aufbauen. Ebenso wie JRuby besitzt es echt
+  nebenläufige Threads, ist jedoch im Gegensatz zu diesem kompatibel zur
+  C-API des MRI.
+* [MacRuby][26] ist stark integriert in Apples Cocoa-Libraries für Mac
+  OS X, was ein leichtes Erstellen von Desktopanwendungen für Mac OS X
+  ermöglicht.
+* [Cardinal][27] ist ein „Ruby-Compiler für die [Parrot Virtual
+  Machine][28]“ (Perl 6).
+* [IronRuby][29] integriert sich gut in Microsofts .NET-Framework.
+* [MagLev][30] definiert sich selbst als „eine schnelle, stabile
+  Ruby-Implementation mit integrierter Objektpersistenz und verteiltem
+  Shared Cache“.
+
+Einige der genannten Implementationen, MRI eingeschlossen, folgen den
+Richtlinien der [RubySpec][31], einer von den Rubinius-Entwicklern
+initiierten „kompletten ausführbaren Spezifikation für die
+Programmiersprache Ruby“.
 
 
 
 [1]: http://www.ruby-lang.org/de/about/license.txt 
-[2]: {{ site.downloads.stable.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.bz2 
+[3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.bz2 
+[4]: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2 
 [5]: http://rubyinstaller.org 
-[6]: http://rubyforge.org/frs/download.php/75127/rubyinstaller-1.9.2-p290.exe 
-[7]: http://rubyforge.org/frs/download.php/75107/rubyinstaller-1.8.7-p352.exe 
-[8]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
-[9]: http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.2-p136-i386-mswin32.zip 
-[10]: http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p330-i386-mswin32.zip 
-[11]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html 
-[12]: http://rubyinstaller.org/add-ons/pik/ 
-[13]: http://locomotive.raaum.org/ 
-[14]: http://rubyosx.rubyforge.org/ 
-[15]: http://darwinports.opendarwin.org/ 
-[16]: http://fink.sourceforge.net/ 
-[17]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
-[18]: http://danbenjamin.com/articles/2008/02/ruby-rails-leopard 
+[6]: http://rubyforge.org/frs/download.php/76752/rubyinstaller-1.9.3-p385.exe 
+[7]: http://rubyforge.org/frs/download.php/76524/rubyinstaller-1.8.7-p371.exe 
+[8]: http://railsinstaller.org 
+[9]: http://rubyinstaller.org/add-ons/pik/ 
+[10]: https://github.com/vertiginous/pik 
+[11]: http://git-scm.com 
+[12]: https://rvm.io/rvm/install/ 
+[13]: http://trac.macosforge.org/projects/ruby/wiki 
+[14]: http://mxcl.github.com/homebrew 
+[15]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx 
+[16]: http://hivelogic.com/articles/ruby-rails-leopard 
+[17]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/ 
+[18]: http://intridea.com/2011/7/26/setting-up-ruby-dev-on-lion?blog=company 
 [19]: http://www.sunfreeware.com 
 [20]: http://www.blastwave.org 
 [21]: http://cooltools.sunsource.net/coolstack 
-[22]: http://www.opensolaris.org 
-[23]: http://opensolaris.org/os/project/pkg/ 
-[24]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/ 
-[25]: http://opensolaris.org/os/downloads 
-[26]: http://rubyforge.org/projects/rubyopensolaris 
+[22]: http://openindiana.org 
+[23]: http://opensolaris.org/os/project/pkg 
+[24]: http://jruby.org 
+[25]: http://rubini.us 
+[26]: http://www.macruby.org 
+[27]: https://github.com/parrot/cardinal 
+[28]: http://parrot.org 
+[29]: http://www.ironruby.net 
+[30]: http://ruby.gemstone.com 
+[31]: http://rubyspec.org 

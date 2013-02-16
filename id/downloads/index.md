@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Download Ruby"
+title: "Unduh Ruby"
 lang: id
 ---
 
@@ -9,21 +9,39 @@ ini adalah {{ site.downloads.stable.version }}. Ruby disediakan secara gratis,
 namun pastikan Anda membaca [Lisensi Ruby][1] terlebih dahulu sebelum
 menggunakannya.
 
+### Tiga Cara Menginstall Ruby
+
+Anda bisa mendapatkan copy dari Ruby dalam berbagai cara, dan ada tiga
+metode untuk alasan yang berbeda:
+
+* **Kompilasi dari Sumber** adalah cara standar memasang perangkat lunak
+  telah dipakai selama bertahun-tahun. Ini dikhususkan bagi developer
+  yang terbiasa mengkompilasi sendiri.
+* Ada beberapa perangkat lunak **pihak ketiga** untuk menginstall Ruby.
+  Ini paling sederhana untuk pemula total.
+* Terakhir, sebuah **sistem manajemen paket** yang mendukung Ruby. Cara
+  ini paling akrab bagi orang yang menggunakan sistem operasi berbasis
+  Linux seperti [Linux Mint][2], [Ubuntu][3], [Debian][4], dan
+  [Fedora][5].
+
+Jika Anda ingin menjalankan beberapa versi Ruby pada mesin yang sama,
+silakan gunakan RVM. Ini cara terbaik melakukannya, kecuali Anda tahu
+persis apa yang Anda lakukan.
+
 ### Ruby di Windows
 
-Ruby mempunyai beberapa installer untuk Windows, yaitu menggunakan paket
-khusus binary dan menggunakan *one-click installer*. Apabila Anda tidak
-yakin, *one-click installer* adalah pilihan instalasi yang paling
-praktis dan mudah. Di samping itu, *one-click installer* juga berisi
-beberapa *library* tambahan. Anda juga bisa membaca [keterangan lebih
-lanjut tentang one-click installer][2].
+Jika Anda menggunakan Windows, ada sebuah proyek besar untuk membantu
+Anda menginstal Ruby: [RubyInstaller][6]. Ini memberi Anda semua yang
+anda butuhkan untuk menyiapkan lingkungan pengembangan Ruby lengkap pada
+Windows.
 
-* [Ruby 1.8.6 One-Click Installer][3]
-  (md5:&nbsp;69945dfae60224cc64139c91e000590e) Versi Stabil (*dianjurkan*)
-* [Ruby 1.8.7-p72][4] (md5:&nbsp;d4b04ba03a76dc70120fe96ffa22e5df) Versi
-  Stabil (*dianjurkan*)
-* [Ruby 1.9.1][5] (md5:&nbsp;c12b4df115797a2f9766b56719805a12) Versi Stabil
-  (*dianjurkan*)
+Untuk menggunakan RubyInstaller, download dari [laman download
+RubyInstaller][7]. Kemudian jalankan installer, dan Anda selesai!
+
+Jika Anda menginstal Ruby untuk menggunakan Rails, Anda harus
+menggunakan [RailsInstaller][8] yang menggunakan RubyInstaller tapi
+memberi Anda tambahan yang membantu untuk pengembangan website berbasis
+Ruby on Rails.
 
 ### Ruby di Linux
 
@@ -35,7 +53,7 @@ instalasi dari *source code* Ruby di bawah.
 
 ### Debian dan Ubuntu
 
-Apabila Anda menggunakan [Debian][6] atau [Ubuntu][7] (juga distribusi
+Apabila Anda menggunakan [Debian][4] atau [Ubuntu][3] (juga distribusi
 turunan Debian yang lain), Anda bisa menggunakan `apt-get` untuk
 melakukan instalasi Ruby dengan mudah:
 
@@ -54,7 +72,7 @@ Untuk menginstall versi 1.8.x, gunakan perintah:
 
 ### Fedora dan CentOS
 
-Apabila Anda menggunakan [Fedora][8] atau [CentOS][9] (juga distribusi
+Apabila Anda menggunakan [Fedora][9] atau [CentOS][10] (juga distribusi
 berbasis Fedora yang lain), login sebagai `root` dan gunakan *package
 manager* `yum`\:
 
@@ -64,12 +82,12 @@ manager* `yum`\:
 ### Ruby di Mac OS X
 
 Ada beberapa pilihan untuk melakukan instalasi Ruby di Macintosh OS X.
-[Locomotive][10] adalah pilihan yang paling praktis untuk segera memulai
+[Locomotive][11] adalah pilihan yang paling praktis untuk segera memulai
 pemrograman menggunakan Ruby dan Rails. Apabila Anda hanya membutuhkan
 *installer* berukuran kecil yang berisi Ruby dan beberapa *library* lain
 (tanpa Rails), Anda bisa menggunakan [Ruby One-Click Installer for Mac
-OS X][11]. Untuk Anda yang lebih berpengalaman, Anda juga bisa
-menggunakan [MacPorts][12] atau [Fink][13].
+OS X][12]. Untuk Anda yang lebih berpengalaman, Anda juga bisa
+menggunakan [MacPorts][13] atau [Fink][14].
 
 Untuk melakukan instalasi Ruby menggunakan MacPorts…
 
@@ -84,21 +102,21 @@ bisa melakukan instalasi Ruby dari paket *source code* di bawah.
 
 Untuk instalasi Ruby (dan Rails) di Mac OS X yang lebih detail, Anda
 bisa mengikuti artikel [*Building Ruby, Rails, LightTPD, and MySQL on
-Tiger*][14] yang ditulis oleh Dan Benjamin.
+Tiger*][15] yang ditulis oleh Dan Benjamin.
 
 *Catatan: Ruby 1.8.6 dan Rails akan dimasukkan dalam distribusi Mac OS X
-rilis selanjutnya, 10.5 “Leopard”. [Informasi lebih lanjut][15].*
+rilis selanjutnya, 10.5 “Leopard”. [Informasi lebih lanjut][16].*
 
 ### Ruby di FreeBSD
 
-Gunakan [Ports][16] untuk menginstall Ruby di [FreeBSD][17]\:
+Gunakan [Ports][17] untuk menginstall Ruby di [FreeBSD][18]\:
 
     # pkg_add -r ruby ruby18-gems
 {: .code .sh-code}
 
 ### Ruby di Solaris
 
-Untuk melakukan instalasi Ruby di [Solaris][18], download distribusi
+Untuk melakukan instalasi Ruby di [Solaris][19], download distribusi
 *source code* Ruby terlebih dahulu. Dengan login sebagai root
 menggunakan console atau xterm:
 
@@ -109,7 +127,7 @@ menggunakan console atau xterm:
     # make install
 {: .code .sh-code}
 
-Apabila Anda menggunakan [Nexenta][19], Anda bisa menggunakan Synaptic
+Apabila Anda menggunakan [Nexenta][20], Anda bisa menggunakan Synaptic
 untuk melakukan instalasi paket bernama **ruby**. Anda juga bisa
 menggunakan console:
 
@@ -123,12 +141,11 @@ Anda berpengalaman dengan sistem operasi Anda atau membutuhkan
 konfigurasi yang spesifik. Apabila tidak ada paket distribusi siap pakai
 untuk sistem operasi Anda, alternatif ini juga solusi yang baik.
 
-* [Ruby {{ site.downloads.stable.version }}][20]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }})) Versi Stabil (*dianjurkan*)
-* [*Snapshot* Versi Stabil][21] Ini adalah versi stabil terakhir dalam
-  format tar+gzip. Versi ini cenderung lebih baik daripada rilis versi
-  stabil terakhir.
-* [*Snapshot* Harian][22] Ini adalah versi paling mutakhir langsung dari
+* [Ruby {{ site.downloads.stable.version }}][21]
+  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stable (*dianjurkan*)
+* [Ruby 1.9.3 preview1][22] (md5:&nbsp;0f0220be4cc7c51a82c1bd8f6a0969f3)
+* [Stable Snapshot][23]
+* [Nightly Snapshot][24] Ini adalah versi paling mutakhir langsung dari
   Subversion *repository* dalam format tar+gzip. Versi ini mungkin
   memiliki bug yang belum diperbaiki.
 
@@ -138,24 +155,26 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 
 
 [1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: http://rubyinstaller.rubyforge.org/wiki/wiki.pl?RubyInstaller 
-[3]: http://rubyforge.org/frs/download.php/47082/ruby186-27_rc2.exe 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p72-i386-mswin32.zip "Binary saja"
-[5]: ftp://ftp.ruby-lang.org//pub/ruby/binaries/mswin32/ruby-1.9.1-p376-i386-mswin32.zip "Binary saja"
-[6]: http://www.debian.org 
-[7]: http://www.ubuntu.com 
-[8]: http://fedoraproject.org/ 
-[9]: http://www.centos.org/ 
-[10]: http://locomotive.raaum.org/ 
-[11]: http://rubyosx.rubyforge.org/ 
-[12]: http://www.macports.org/ 
-[13]: http://fink.sourceforge.net/ 
-[14]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
-[15]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard 
-[16]: http://www.freebsd.org/ports/ 
-[17]: http://www.freebsd.org/ 
-[18]: http://www.sun.com/software/solaris/ 
-[19]: http://www.gnusolaris.org/ 
-[20]: {{ site.downloads.stable.url }}
-[21]: {{ site.downloads.stable_snapshot.url }}
-[22]: {{ site.downloads.nightly_snapshot.url }}
+[2]: http://www.linuxmint.com/ 
+[3]: http://www.ubuntu.com 
+[4]: http://www.debian.org 
+[5]: http://fedoraproject.org 
+[6]: http://rubyinstaller.org/ 
+[7]: http://rubyinstaller.org/downloads/ 
+[8]: http://railsinstaller.org/ 
+[9]: http://fedoraproject.org/ 
+[10]: http://www.centos.org/ 
+[11]: http://locomotive.raaum.org/ 
+[12]: http://rubyosx.rubyforge.org/ 
+[13]: http://www.macports.org/ 
+[14]: http://fink.sourceforge.net/ 
+[15]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
+[16]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard 
+[17]: http://www.freebsd.org/ports/ 
+[18]: http://www.freebsd.org/ 
+[19]: http://www.sun.com/software/solaris/ 
+[20]: http://www.gnusolaris.org/ 
+[21]: {{ site.downloads.stable.url }}
+[22]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz 
+[23]: {{ site.downloads.stable_snapshot.url }}
+[24]: {{ site.downloads.nightly_snapshot.url }}
