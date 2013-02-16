@@ -42,7 +42,7 @@ diferentes implementaciones existentes.
 Para instalar RVM es indispensable tener instalado [git][5]. Una vez
 cumplido este requisito se utilizara el siguiente comando.
 
-    $ bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
+    $ \curl -L https://get.rvm.io | bash -s stable --ruby
 {: .code .sh-code}
 
 Para obtener información actualizada del proceso de instalación de RVM

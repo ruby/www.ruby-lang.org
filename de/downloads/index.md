@@ -92,7 +92,7 @@ RubyInstaller verwenden.
 Zum Zeitpunkt des Verfassens dieses Textes kann RVM, soweit [Git][11]
 verfügbar ist, wie folgt installiert werden:
 
-    $ curl -L get.rvm.io | bash -s stable
+    $ \curl -L https://get.rvm.io | bash -s stable --ruby
 {: .code .sh-code}
 
 Die aktuellsten Installationsanweisungen für RVM können auf der
