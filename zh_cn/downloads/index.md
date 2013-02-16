@@ -13,7 +13,7 @@ lang: zh_cn
 需要安装到您的平台上，这也是一个好的方法。
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5: {{ site.downloads.stable.url }}) 稳定版 (*推荐*)
+  (md5:&nbsp;{{ site.downloads.stable.url }}) 稳定版 (*推荐*)
 * [稳定版快照][3] 这里的 tar’ed 和 gzip’ed 文件是最新稳定的 CVS。它应该比上次发布的版本更稳定。
 * [开发版快照][4] 这里的 tar’ed 和 gzip’ed 文件是最新的 CVS。它可能包含一些没有解决的问题。
 
@@ -25,11 +25,11 @@ lang: zh_cn
 有几个选择。第一个选择是仅安装编译好的二进制文件。第二个选择是直接执行“一步安装”程序，假如您不知道如何安装 Ruby ，[一步安装][6]
 将是您最好的选择。（这种安装方式除 Ruby 之外，捆绑一些额外的资源库。）
 
-* [Ruby 1.8.6 一步安装][7] (md5: 00540689d1039964bc8d844b2b0c7db6) 稳定版
+* [Ruby 1.8.6 一步安装][7] (md5:&nbsp;00540689d1039964bc8d844b2b0c7db6) 稳定版
   (*推荐*)
-* [Ruby 1.8.6 二进制][8] (md5: 3ec2a8a34d5db1f09cc8cad3f8305c28) 稳定版 (*推荐*)
-* [Ruby 1.9.0 二进制][9] (md5: 489ee1bcd72e97f50b38b64fb354e661) 开发版 (*实验*)
-* [Ruby 1.9.1-p0 二进制][10] (md5: 921db53c709ce20106610f7d229e24e1) 稳定版
+* [Ruby 1.8.6 二进制][8] (md5:&nbsp;3ec2a8a34d5db1f09cc8cad3f8305c28) 稳定版 (*推荐*)
+* [Ruby 1.9.0 二进制][9] (md5:&nbsp;489ee1bcd72e97f50b38b64fb354e661) 开发版 (*实验*)
+* [Ruby 1.9.1-p0 二进制][10] (md5:&nbsp;921db53c709ce20106610f7d229e24e1) 稳定版
   (*推荐*)
 
 ### Linux 系统

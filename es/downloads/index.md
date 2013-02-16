@@ -16,7 +16,7 @@ específicas para tu entorno. También es una buena solución en el caso de
 que no existan paquetes ya armados para tu plataforma.
 
 * [Ruby {{ site.downloads.stable.version }}][1]
-  (md5:  {{ site.downloads.stable.md5 }}) Stable Version (*recommended*)
+  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stable Version (*recommended*)
 * [Snapshot estable][2] This is tar’ed and gzip’ed file of the latest
   stable SVN. It should be better than the last stable release.
 * [Snapshot diario][3] This is tar’ed and gzip’ed file of the latest
@@ -32,16 +32,16 @@ instalar Ruby, RubyInstaller puede ser tu mejor opción. (Además de Ruby,
 el one-click installer incluye un montón de bibliotecas).
 
 * [Ruby 1.8.6-p398 RubyInstaller][5]
-  (md5: 233d6b3ddc4c61436b075b51254cd138) Stable version
+  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) Stable version
 * [Ruby 1.8.7-p334 RubyInstaller][6]
-  (md5: 64e30e63e16028282fcfe3ec57b561dc) Stable version (*recomendada*)
+  (md5:&nbsp;64e30e63e16028282fcfe3ec57b561dc) Stable version (*recomendada*)
 * [Ruby 1.9.1-p430 RubyInstaller][7]
-  (md5: 86ac589a955898c3163b161d81750a05) Stable version
+  (md5:&nbsp;86ac589a955898c3163b161d81750a05) Stable version
 * [Ruby 1.9.2-p180 RubyInstaller][8]
-  (md5: 2c94aef50987416d64c85a4ea0fa428b) Stable version (*recomendada*)
-* [Ruby 1.8.7-p249 Binary][9] (md5: 4fd37b0b4b21a042cae7f5f0a8daad16)
+  (md5:&nbsp;2c94aef50987416d64c85a4ea0fa428b) Stable version (*recomendada*)
+* [Ruby 1.8.7-p249 Binary][9] (md5:&nbsp;4fd37b0b4b21a042cae7f5f0a8daad16)
   Stable version
-* [Ruby 1.9.1-p378 Binary][10] (md5: 7d14a918cc8d243d3e2c409aff41f454)
+* [Ruby 1.9.1-p378 Binary][10] (md5:&nbsp;7d14a918cc8d243d3e2c409aff41f454)
   Stable version
 * [Ruby 1.9.1-p129-x64 Binary][11] Versión estable rama 1.9 64 bits
 

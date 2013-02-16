@@ -19,10 +19,10 @@ beberapa *library* tambahan. Anda juga bisa membaca [keterangan lebih
 lanjut tentang one-click installer][2].
 
 * [Ruby 1.8.6 One-Click Installer][3]
-  (md5: 69945dfae60224cc64139c91e000590e) Versi Stabil (*dianjurkan*)
-* [Ruby 1.8.7-p72][4] (md5: d4b04ba03a76dc70120fe96ffa22e5df) Versi
+  (md5:&nbsp;69945dfae60224cc64139c91e000590e) Versi Stabil (*dianjurkan*)
+* [Ruby 1.8.7-p72][4] (md5:&nbsp;d4b04ba03a76dc70120fe96ffa22e5df) Versi
   Stabil (*dianjurkan*)
-* [Ruby 1.9.1][5] (md5: c12b4df115797a2f9766b56719805a12) Versi Stabil
+* [Ruby 1.9.1][5] (md5:&nbsp;c12b4df115797a2f9766b56719805a12) Versi Stabil
   (*dianjurkan*)
 
 ### Ruby di Linux
@@ -124,7 +124,7 @@ konfigurasi yang spesifik. Apabila tidak ada paket distribusi siap pakai
 untuk sistem operasi Anda, alternatif ini juga solusi yang baik.
 
 * [Ruby {{ site.downloads.stable.version }}][20]
-  (md5: {{ site.downloads.stable.md5 }})) Versi Stabil (*dianjurkan*)
+  (md5:&nbsp;{{ site.downloads.stable.md5 }})) Versi Stabil (*dianjurkan*)
 * [*Snapshot* Versi Stabil][21] Ini adalah versi stabil terakhir dalam
   format tar+gzip. Versi ini cenderung lebih baik daripada rilis versi
   stabil terakhir.

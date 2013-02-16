@@ -18,7 +18,7 @@ siano disponibili pacchetti di installazione precompilati per il tuo
 sistema operativo.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5: {{ site.downloads.stable.md5 }}) Versione Stabile (*raccomandato*)
+  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Versione Stabile (*raccomandato*)
 * [Snaphot Stabile][3] Questo è un file compresso (tar.gz) dell’ultimo
   snapshot *stabile* in CVS. Dovrebbe essere migliore del rilascio
   ufficiale.
@@ -40,18 +40,18 @@ binari. Se non sei sicuro di come installare Ruby, la prima possibilità
 è probabilmente la migliore.
 
 * [Ruby 1.8.6-p398 RubyInstaller][6]
-  (md5: 233d6b3ddc4c61436b075b51254cd138) Versione stabile
+  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) Versione stabile
   (*raccomandato*)
-* [Ruby 1.8.7-p330 RubyInstaller][7] (md5: 
+* [Ruby 1.8.7-p330 RubyInstaller][7] (md5:&nbsp;
   18d688cfae6e60857cad24da6f9ee055) Versione stabile (*raccomandato*)
 * [Ruby 1.9.1-p430 RubyInstaller][8]
-  (md5: 86ac589a955898c3163b161d81750a05) Versione stabile
+  (md5:&nbsp;86ac589a955898c3163b161d81750a05) Versione stabile
   (*raccommandato*)
-* [Ruby 1.9.2-p136 RubyInstaller][9] (md5: 
+* [Ruby 1.9.2-p136 RubyInstaller][9] (md5:&nbsp;
   8e8843963dae29a98ce3e2ba2ee111f1) Versione stabile (*raccommandato*)
-* [Ruby 1.8.7-p249 Binary][10] (md5: 4fd37b0b4b21a042cae7f5f0a8daad16)
+* [Ruby 1.8.7-p249 Binary][10] (md5:&nbsp;4fd37b0b4b21a042cae7f5f0a8daad16)
   Versione stabile
-* [Ruby 1.9.1-p378 Binary][11] (md5: 7d14a918cc8d243d3e2c409aff41f454)
+* [Ruby 1.9.1-p378 Binary][11] (md5:&nbsp;7d14a918cc8d243d3e2c409aff41f454)
   Versione stabile
 
 Nota che l’uso dei file binari sopra indicati richiede scaricamento

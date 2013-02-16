@@ -16,7 +16,7 @@ Einstellungen für deine Umgebung benötigst. Es ist außerdem eine gute
 Lösung, falls es keine vorgefertigten Pakete für dein System gibt.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5: {{ site.downloads.stable.md5 }}) stabile Version (*empfohlen*)
+  (md5:&nbsp;{{ site.downloads.stable.md5 }}) stabile Version (*empfohlen*)
 * [Stable Snapshot][3] Bei diesem Snapshot handelt es sich um die
   absolut letzte stabile SVN-Version. Sie sollte etwas stabiler sein als
   das letzte Release.
@@ -38,14 +38,14 @@ dich (da der RubyInstaller das komplette Setup der Ruby-Installation
 übernimmt, welches du bei den Binärpaketen von Hand machen musst).
 
 * [Ruby 1.9.2-p290 RubyInstaller][6]
-  (md5: 2ebae0cddbcc3176d145b59f3cc02c43) Stabile Version (*empfohlen*)
+  (md5:&nbsp;2ebae0cddbcc3176d145b59f3cc02c43) Stabile Version (*empfohlen*)
 * [Ruby 1.8.7-p352 RubyInstaller][7]
-  (md5: ac56ea30df53bf782c95754b13e296e0) Stabile Version (*empfohlen*)
+  (md5:&nbsp;ac56ea30df53bf782c95754b13e296e0) Stabile Version (*empfohlen*)
 * [Ruby 1.8.6-p398 RubyInstaller][8]
-  (md5: 233d6b3ddc4c61436b075b51254cd138) Stabile Version
-* [Ruby 1.9.2-p136 Binary][9] (md5: fb744af867b2386728ca034a8a773fe7)
+  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) Stabile Version
+* [Ruby 1.9.2-p136 Binary][9] (md5:&nbsp;fb744af867b2386728ca034a8a773fe7)
   Stabile Version
-* [Ruby 1.8.7-p330 Binary][10] (md5: 74a3114501c51520d97ed09f5bfe25c3)
+* [Ruby 1.8.7-p330 Binary][10] (md5:&nbsp;74a3114501c51520d97ed09f5bfe25c3)
   Stabile Version
 
 Es sei darauf hingewiesen, dass es notwendig ist, für die oben
