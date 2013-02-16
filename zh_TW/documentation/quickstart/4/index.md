@@ -44,7 +44,10 @@ lang: zh_TW
 
 大多數的程式語言會用 `for` 迴圈來做這件事情，例如在 C 裡面：
 
-    for (i=0; i<number_of_elements i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 這樣也行，只是沒這麼漂亮。你需要一個用過即丟的 `i` 變數、需要計算容器的長度、檢查離開迴圈的條件。而 Ruby
 的方式漂亮多了，所有的工作都被包裝在 `each` 方法裡。在 `each` 內部會去輪流呼叫 `yield "Albert"`、`yield

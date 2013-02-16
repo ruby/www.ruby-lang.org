@@ -57,7 +57,10 @@ elemanlarına bağlanır ve `puts "Hello #{name}!"` satırı bu isimle
 Birçok diğer programlama dilinde bir liste `for` döngüsü ile işlenir,
 C’de şuna benzer bir kod olur:
 
-    for (i=0; i<number_of_elements i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 Bu kod çalışıyor ama şık bir görüntüsü yok. `i` gibi bir değişken
 üretmek zorundasınız, listenin uzunluğunu bulmak zorundasınız ve liste

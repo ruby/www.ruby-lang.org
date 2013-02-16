@@ -55,7 +55,10 @@ wywoływane jest wyrażenie “Hello #\{name}!”@ które wyświetla powitanie.
 Większość innych języków programowania obsługuje iterację po elementach
 listy za pomocą pętli `for`, w C wygląda to mniej więcej tak:
 
-    for (i=0; i<number_of_elements i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 To działą, ale nie jest zbyt eleganckie. Potrzebujesz tu tymczasowej
 zmiennej do przechowania rozmiaru listy `i` oraz musisz opisać jak
