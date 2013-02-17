@@ -9,7 +9,7 @@ var Examples = {
     var lang = document.location.pathname.split('/')[1];
     var name = Examples.random();
 
-    $("#code").load('/' + lang + '/examples/' + name + '.html');
+    $("#code").load('/' + lang + '/examples/' + name + '/');
   }
 };
 
