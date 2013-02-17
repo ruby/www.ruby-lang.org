@@ -205,7 +205,7 @@ programming language”.
 
 
 [1]: {{ site.downloads.stable.url }}
-[2]: {{ site.downloads.stable_snapshot.url }
+[2]: {{ site.downloads.stable_snapshot.url }}
 [3]: {{ site.downloads.nightly_snapshot.url }}
 [4]: https://github.com/vertiginous/pik 
 [5]: http://git-scm.com/ 
