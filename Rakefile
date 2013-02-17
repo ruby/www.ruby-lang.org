@@ -74,7 +74,6 @@ namespace :import do
       agent.ignore_links_like /\/cgi-bin\//
       agent.ignore_links_like /\.cgi[\/]?$/
       agent.ignore_links_like /\/[a-z_]+\/feeds\//
-      agent.ignore_links_like /\/[a-z_]+\/news\//
       agent.ignore_links_like /\/[a-z_]+\/old-man\//
 
       agent.every_ok_page do |page|
