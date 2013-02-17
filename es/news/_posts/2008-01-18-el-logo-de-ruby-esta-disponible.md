@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "El logo de Ruby está disponible"
+author: ""
 lang: es
 ---
 

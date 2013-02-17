@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Liberado Ruby 1.8.6"
+author: ""
 lang: es
 ---
 

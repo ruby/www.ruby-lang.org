@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby on Rails en Costa Rica Technology Insight"
+author: ""
 lang: es
 ---
 

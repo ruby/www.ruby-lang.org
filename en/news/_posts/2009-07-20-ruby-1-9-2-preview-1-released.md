@@ -53,8 +53,8 @@ see the [NEWS][1] and the [ChangeLog][2] for more detail.
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/trunk/NEWS%0D%0A 
-[2]: http://svn.ruby-lang.org/repos/ruby/trunk/ChangeLog%0D%0A 
+[1]: http://svn.ruby-lang.org/repos/ruby/trunk/NEWS%0A 
+[2]: http://svn.ruby-lang.org/repos/ruby/trunk/ChangeLog%0A 
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2 
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz 
 [5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip 

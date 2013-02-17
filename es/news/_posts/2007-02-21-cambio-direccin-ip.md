@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Cambio dirección IP"
+author: ""
 lang: es
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Experiencia Ruby on Rails"
+author: ""
 lang: es
 ---
 

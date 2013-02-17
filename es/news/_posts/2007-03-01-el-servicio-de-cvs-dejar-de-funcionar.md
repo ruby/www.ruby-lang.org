@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "El servicio de CVS dejará de funcionar"
+author: ""
 lang: es
 ---
 

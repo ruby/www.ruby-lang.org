@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Rails Summit Latin America en Español"
+author: ""
 lang: es
 ---
 

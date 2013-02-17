@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby-Lang.org en español"
+author: ""
 lang: es
 ---
 

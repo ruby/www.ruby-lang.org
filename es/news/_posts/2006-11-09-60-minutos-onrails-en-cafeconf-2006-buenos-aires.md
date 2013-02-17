@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "60 minutos OnRails en Cafeconf 2006 Buenos Aires"
+author: ""
 lang: es
 ---
 

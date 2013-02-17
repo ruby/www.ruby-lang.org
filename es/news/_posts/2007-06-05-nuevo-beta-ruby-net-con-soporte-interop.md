@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Nuevo beta Ruby.NET con soporte interop"
+author: ""
 lang: es
 ---
 

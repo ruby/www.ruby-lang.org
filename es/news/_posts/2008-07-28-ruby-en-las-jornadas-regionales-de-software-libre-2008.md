@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby en las Jornadas Regionales de Software Libre 2008"
+author: ""
 lang: es
 ---
 

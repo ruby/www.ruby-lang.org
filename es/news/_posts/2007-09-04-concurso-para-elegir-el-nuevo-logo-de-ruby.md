@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Concurso para elegir el nuevo logo de Ruby"
+author: ""
 lang: es
 ---
 

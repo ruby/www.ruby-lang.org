@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Vulnerabilidad en BigDecimal"
+author: ""
 lang: es
 ---
 

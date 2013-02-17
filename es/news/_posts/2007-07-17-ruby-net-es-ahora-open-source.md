@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby.net es ahora Open Source"
+author: ""
 lang: es
 ---
 
