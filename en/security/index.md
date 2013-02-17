@@ -24,7 +24,7 @@ Here are recent issues.
 * [FileUtils is vulnerable to symlink race attacks](/en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/) published at 18
   Feb, 2011.
 * [XSS in WEBrick (CVE-2010-0541)](/en/news/2010/08/16/xss-in-webrick-cve-2010-0541/) published at 16 Aug, 2010.
-* [Buffer over-run in ARGF.inplace\_mode=](/en/2010/07/02/ruby-1-9-1-p429-is-released/) published at 2 Jul, 2010.
+* [Buffer over-run in ARGF.inplace\_mode=](/en/news/2010/07/02/ruby-1-9-1-p429-is-released/) published at 2 Jul, 2010.
 * [WEBrick has an Escape Sequence Injection vulnerability](/en/news/2010/01/10/webrick-escape-sequence-injection/) published
   at 10 Jan, 2010
 * [Heap overflow in String](/en/news/2009/12/07/heap-overflow-in-string/) published at 7 Dec, 2009
