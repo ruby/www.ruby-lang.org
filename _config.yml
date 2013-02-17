@@ -931,6 +931,132 @@ locales:
         recent_news:
           text: Em Português
           url: /pt/feeds/noticias.rss
+    tr:
+      get_started:
+        text: <strong>Başlamak</strong>, çok kolay!
+        try_ruby:
+          text: Ruby'yi Deneyin! (tarayıcınızda)
+          <<: *try_ruby
+        quickstart:
+          text: Yirmi Dakikada Ruby
+          url: /tr/documentation/quickstart/
+        ruby_from_other_languages:
+          text: Diğer Dillerden Ruby'ye
+          url: /tr/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Yeni Bir Dünya</strong> keşfedina…
+        documentation:
+          text: Belgeler
+          url: /tr/documentation/
+        books:
+          text: Kitaplar
+          <<: *books
+        libraries:
+          text: Kütüphaneler
+          url: /tr/libraries/
+        success_stories:
+          text: Başarı Hikayeleri
+          url: /tr/documentation/success-stories/
+      participate:
+        text: <strong>Arkadaşça</strong> ve büyüyen bir topluluğa kaltılın.
+        mailing_lists:
+          text: Mail Listeleri
+          url: /tr/community/mailing-lists/
+          description: |
+            Tüm dünyadan Ruby programcılarıyla görüşün.
+        user_groups:
+          text: Kullanıcı Grupları
+          url: /tr/community/user-groups/
+          description: |
+            Bölgenizdeki Ruby'cilerle temas kurun.
+        weblogs:
+          text: Web günlükleri
+          url: /tr/community/weblogs/
+          description: |
+            Rubyde neler olduğunu takip edin.
+        ruby_core:
+          text: Ruby Core
+          url: /tr/community/ruby-core/
+          description: |
+            En son Rubynin kaba taraflarının parlatılmasına yardımcı olun.
+        issue_tracking:
+          text: Sorun Takibi
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Ruby sorunlarını rapor edin ya da çözümüne yardım edin.
+      top_ruby_projects:
+        text: Bazı Popüler Ruby Projeleri
+        more:
+          text: Daha…
+          url: /tr/libraries/top-projects/
+      syndicate:
+        text: Takip Edin
+        recent_news:
+          text: Son Haberler (RSS)
+          url: /en/feeds/news.rss
+    zh_TW:
+      get_started:
+        text: <strong>上手入門</strong>, 一點都不難!
+        try_ruby:
+          text: 在瀏覽器中試用 Ruby!
+          <<: *try_ruby
+        quickstart:
+          text: 20分鐘 Ruby 體驗
+          url: /zh_TW/documentation/quickstart/
+        ruby_from_other_languages:
+          text: 從其他語言到 Ruby
+          url: /zh_TW/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>探索</strong> 新世界…
+        documentation:
+          text: 文件
+          url: /zh_TW/documentation/
+        books:
+          text: 書籍
+          <<: *books
+        libraries:
+          text: 函式庫
+          url: /zh_TW/libraries/
+        success_stories:
+          text: 成功案例
+          url: /zh_TW/documentation/success-stories/
+      participate:
+        text: <strong>加入</strong> 友善且持續成長的社群
+        mailing_lists:
+          text: 郵件論壇
+          url: /zh_TW/community/mailing-lists/
+          description: |
+            與世界各地的程式設計師一同聊聊
+        user_groups:
+          text: 使用者群組
+          url: /zh_TW/community/user-groups/
+          description: |
+            與身旁的 Ruby 使用者接觸
+        weblogs:
+          text: 部落格
+          url: /zh_TW/community/weblogs/
+          description: |
+            了解 Ruby 社群中的最新消息
+        ruby_core:
+          text: Ruby 核心
+          url: /zh_TW/community/ruby-core/
+          description: |
+            幫助開發最新的 Ruby
+        issue_tracking:
+          text: 問題追蹤
+          url: https://bugs.ruby-lang.org/
+          description: |
+            回報或解決 Ruby 問題
+      top_ruby_projects:
+        text: 熱門的 Ruby 專案
+        more:
+          text: 更多專案…
+          url: /zh_TW/libraries/top-projects/
+      syndicate:
+        text: 訂閱
+        recent_news:
+          text: 最新消息 (RSS)
+          url: /zh_TW/feeds/news.rss
 
   credits:
     bg: |
