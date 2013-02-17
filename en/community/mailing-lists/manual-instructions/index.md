@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Manual Mailing List Instructions
+title: "Manual Mailing List Instructions"
 lang: en
 ---
 

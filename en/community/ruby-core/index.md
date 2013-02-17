@@ -133,8 +133,8 @@ following guidelines should be honored when checking into Subversion:
 * The bulleted points from your ChangeLog should also be placed in the
   Subversion commit message. This message will be automatically mailed
   to the Ruby-CVS list after you commit.
-* K&amp;R function declarations are used throughout Ruby’s source code
-  and its packaged extensions.
+* Function prototypes are used throughout Ruby’s source code and its
+  packaged extensions.
 * Please, do not use C++-style comments (`//`), Ruby’s maintainers
   instead prefer the standard C multiline comment. (`/* .. */`)
 

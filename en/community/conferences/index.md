@@ -50,14 +50,18 @@ Valley Ruby Conference, entering its second year in 2007.
 [RubyNation][8] is an annual Ruby conference serving the Virginia, West
 Virginia, Maryland, and Washington, DC areas.
 
+WindyCityRails is an annual gathering for all who are passionate about
+Ruby on Rails. The Chicago-based conference has served the Ruby
+community since 2008. Visit [http://windycityrails.org][9] for details.
+
 ### Ruby At Other Conferences
 
-There has been a Ruby track at the [O’Reilly Open Source Conference][9]
+There has been a Ruby track at the [O’Reilly Open Source Conference][10]
 (OSCON) since 2004, and an increasing presence on the part of Ruby and
 Rubyists at other non-Ruby-specific gatherings. A number of conferences
-have also been devoted to [Ruby on Rails][10], including Ruby Central’s
-[RailsConf][11], [RailsConf Europe][12] (co-produced in 2006 by Ruby
-Central and [Skills Matter][13], and in 2007 by Ruby Central and
+have also been devoted to [Ruby on Rails][11], including Ruby Central’s
+[RailsConf][12], [RailsConf Europe][13] (co-produced in 2006 by Ruby
+Central and [Skills Matter][14], and in 2007 by Ruby Central and
 O’Reilly), and Canada on Rails.
 
 
@@ -70,8 +74,9 @@ O’Reilly), and Canada on Rails.
 [6]: http://www.rubycentral.org/rcg2006.pdf 
 [7]: http://www.sdforum.org 
 [8]: http://rubynation.org/ 
-[9]: http://conferences.oreillynet.com/os2006/ 
-[10]: http://www.rubyonrails.org 
-[11]: http://www.railsconf.org 
-[12]: http://europe.railsconf.org 
-[13]: http://www.skillsmatter.com 
+[9]: http://windycityrails.org 
+[10]: http://conferences.oreillynet.com/os2006/ 
+[11]: http://www.rubyonrails.org 
+[12]: http://www.railsconf.org 
+[13]: http://europe.railsconf.org 
+[14]: http://www.skillsmatter.com 

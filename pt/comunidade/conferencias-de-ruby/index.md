@@ -27,7 +27,7 @@ comunidade Ruby.
   Odaiba. Planos futuros ainda não foram anunciados — mas esteja atento
   para mais eventos Japoneses.
 
-<a href=\"http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06\" title=\"\" confer europeia de ruby>EuRuKo <small>(Europaeische Ruby Konferenz)</small>
+[EuRuKo <small>(Europaeische Ruby Konferenz)</small>][4]
 : A primeira Conferência Ruby Europeia (EuRuKo) teve lugar em Karlsruhe,
   na Alemanha, em 2003. Organizada por uma equipa Alemã de Programadores
   Ruby incluindo Armin Roehrl e Michael Neumann. A EuRuKo tornou-se no
@@ -35,22 +35,22 @@ comunidade Ruby.
 
 ### Conferências Regionais de Ruby
 
-A [Ruby Central][2] administra o [Regional Conference Grant Program][4],
+A [Ruby Central][2] administra o [Regional Conference Grant Program][5],
 para compensar despesas para grupos regionais e locais que desejem
 organizar eventos.
 
-A Ruby Central juntou-se também com a [SDForum][5] para realizar a
+A Ruby Central juntou-se também com a [SDForum][6] para realizar a
 “Silicon Valley Ruby Conference”, entrando no seu segundo ano em 2007.
 
 ### Ruby em Outras Conferências
 
-Tem havido uma rasto de Ruby na [O’Reilly Open Source Conference][6]
+Tem havido uma rasto de Ruby na [O’Reilly Open Source Conference][7]
 (OSCON) desde 2004, e uma crescente presença da parte do Ruby e
 Programadores Ruby em outras assembleias não relacionadas com Ruby. Tem
 havido também, um crescente número de conferências dedicadas a [Ruby on
-Rails][7], incluindo a [RailsConf][8] da Ruby Central, a [RailsConf
-Europe][9] (co-realizada in 2006 by Ruby Central e a [Skills
-Matter][10], e que em 2007 o será pela Ruby Central e O’Reilly) e, para
+Rails][8], incluindo a [RailsConf][9] da Ruby Central, a [RailsConf
+Europe][10] (co-realizada in 2006 by Ruby Central e a [Skills
+Matter][11], e que em 2007 o será pela Ruby Central e O’Reilly) e, para
 finalizar a Canada on Rails.
 
 
@@ -58,10 +58,11 @@ finalizar a Canada on Rails.
 [1]: http://www.rubycentral.org/conference "RubyConf"
 [2]: http://www.rubycentral.org "Ruby Central, Inc."
 [3]: http://jp.rubyist.net/RubyKaigi2006/ "RubyKaigi"
-[4]: http://www.rubycentral.org/rcg2006.pdf "Programa de Apoio a Conferências Regionais"
-[5]: http://www.sdforum.org "SDForum"
-[6]: http://conferences.oreillynet.com/os2006/ "O'Reilly Open Source Conference"
-[7]: http://www.rubyonrails.org 
-[8]: http://www.railsconf.org 
-[9]: http://europe.railsconf.org 
-[10]: http://www.skillsmatter.com 
+[4]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06 ""
+[5]: http://www.rubycentral.org/rcg2006.pdf "Programa de Apoio a Conferências Regionais"
+[6]: http://www.sdforum.org "SDForum"
+[7]: http://conferences.oreillynet.com/os2006/ "O'Reilly Open Source Conference"
+[8]: http://www.rubyonrails.org 
+[9]: http://www.railsconf.org 
+[10]: http://europe.railsconf.org 
+[11]: http://www.skillsmatter.com 

@@ -7,16 +7,19 @@ lang: ja
 ## 
 
 * [日本Rubyの会][1]
-  * 日本Rubyの会は開発者、利用者の支援を行いたい人が集まる会です。
+  * 一般社団法人日本Rubyの会は開発者、利用者の支援を行っている団体です。
 
-* [Rubyビジネス・コモンズ][2]
+* [Rubyアソシエーション][2]
+  * 一般財団法人Rubyアソシエーションは、プログラミング言語Rubyの普及と発展のための組織です。
+
+* [Rubyビジネス・コモンズ][3]
   * Rubyビジネス・コモンズは、ビジネスの現場で活用できるRubyに関するノウハウをコモンズとし、クリエイティビティの増幅を目論むコミュニティです。
     エンジニアだけではなく、デザイナ、ユーザー、企業経営者など、幅広いキャラクターが集まっています。
     RubyとRubyに関わる人たちの持つ先進性と温かさ。
     プログラムが楽しく、エンジニアであることに生き甲斐を感じられるような行動を続けていきたいと思っております。
     みなさん、よろしくお願いします。
 
-* [rubyusergroups.org][3]
+* [rubyusergroups.org][4]
   * rubyusergroups.orgは世界中のRubyistとRubyistの集まりを地図上にプロットして公開するサービスです。日本のRubyistやRubyistの集まりもどんどんリストに追加していくとよいでしょう。
 
 ## 
@@ -47,18 +50,19 @@ lang: ja
 
 ## 
 
-* [日本Ruby会議][4]
-* [International Ruby Conference][5]
-* [European Ruby Conference][6]
+* [RubyKaigi][5]
+* [International Ruby Conference][6]
+* [European Ruby Conference][7]
 
 Posted by Shugo Maeda on 26 May 2006
 {: .post-info}
 
 
 
-[1]: http://jp.rubyist.net/ 
-[2]: http://www.rubybizcommons.jp/ 
-[3]: http://www.rubyusergroups.org/ 
-[4]: http://www.rubykaigi.org 
-[5]: http://www.rubycentral.org/conference/ 
-[6]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko05 
+[1]: http://ruby-no-kai.org/ 
+[2]: http://www.ruby.or.jp/ 
+[3]: http://www.rubybizcommons.jp/ 
+[4]: http://www.rubyusergroups.org/ 
+[5]: http://www.rubykaigi.org 
+[6]: http://www.rubycentral.org/conference/ 
+[7]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko05 
