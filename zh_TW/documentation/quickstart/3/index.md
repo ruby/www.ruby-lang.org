@@ -156,7 +156,7 @@ lang: zh_TW
     
       # 變更成一個名字的陣列
       mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Englebert"]
+        "Dave", "Engelbert"]
       mg.say_hi
       mg.say_bye
     
@@ -176,8 +176,8 @@ lang: zh_TW
     Hello Brenda!
     Hello Charles!
     Hello Dave!
-    Hello Englebert!
-    Goodbye Albert, Brenda, Charles, Dave, Englebert.  Come
+    Hello Engelbert!
+    Goodbye Albert, Brenda, Charles, Dave, Engelbert.  Come
     back soon!
     ...
     ...

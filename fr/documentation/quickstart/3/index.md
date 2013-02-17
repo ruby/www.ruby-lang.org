@@ -184,7 +184,7 @@ Notre fichier va se présenter comme suit :
     
       # Changer le nom pour un tableau (une liste de noms)
       mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Englebert"]
+        "Dave", "Engelbert"]
       mg.say_hi
       mg.say_bye
     
@@ -207,8 +207,8 @@ terminal. Vous devriez y lire ceci :
     Hello Brenda!
     Hello Charles!
     Hello Dave!
-    Hello Englebert!
-    Goodbye Albert, Brenda, Charles, Dave, Englebert.  Come
+    Hello Engelbert!
+    Goodbye Albert, Brenda, Charles, Dave, Engelbert.  Come
     back soon!
     ...
     ...
