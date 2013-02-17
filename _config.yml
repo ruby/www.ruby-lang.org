@@ -867,6 +867,70 @@ locales:
         recent_news:
           text: Ostatnie Wiadomości (RSS)
           url: /pl/feeds/news.rss
+    pt:
+      get_started:
+        text: <strong>Primeiros passos</strong>, é fácil!
+        try_ruby:
+          text: Try Ruby! (in your browser)
+          <<: *try_ruby
+        quickstart:
+          text: Ruby em Vinte Minutos
+          url: /pt/documentacao/quickstart/
+        ruby_from_other_languages:
+          text: Ruby a partir de outras linguagens
+          url: /pt/documentacao/ruby-a-partir-de-outras-linguagens/
+      explore:
+        text: <strong>Explora</strong> um novo mundo…
+        documentation:
+          text: Documentação
+          url: /pt/documentacao/
+        books:
+          text: Livros
+          url: http://www.ruby-doc.org/bookstore
+        libraries:
+          text: Bibliotecas
+          url: /pt/bibliotecas/
+        success_stories:
+          text: Histórias de sucesso
+          url: pt/documentacao/historias-de-sucesso/
+      participate:
+        text: |
+          <strong>Participa</strong> numa comunidade simpática e em crescimento.
+        mailing_lists:
+          text: Listas de Correio
+          url: /pt/comunidade/listas-de-correio/
+          description: |
+            Fala sobre Ruby com programadores de todo o mundo.
+        user_groups:
+          text: Grupos de Utilizadores
+          url: /pt/comunidade/grupos-de-utilizadores/
+          description: |
+            Entra em contacto com colegas da tua área.
+        weblogs:
+          text: Núcleo de Ruby
+          url: /pt/comunidade/weblogs/
+          description: |
+            Ajuda a limar as arestas da última versão de Ruby.
+#       ruby_core:
+#         text: Ruby Core
+#         url: /en/community/ruby-core/
+#         description: |
+#           Help polish the rough edges of the latest Ruby.
+#       issue_tracking:
+#         text: Issue Tracking
+#         url: https://bugs.ruby-lang.org/
+#         description: |
+#           Report or help solve issues in Ruby.
+      top_ruby_projects:
+        text: Top de projectos de Ruby
+        more:
+          text: Saber mais…
+          url: /pt/bibliotecas/top-de-projectos-ruby/
+      syndicate:
+        text: Feeds de noticias (RSS)
+        recent_news:
+          text: Em Português
+          url: /pt/feeds/noticias.rss
 
   credits:
     bg: |
