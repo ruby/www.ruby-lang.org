@@ -14,40 +14,6 @@ downloads:
   nightly_snapshot:
     url: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
 
-top_projects:
-  - name: FLVTool2
-    url: http://rubyforge.org/projects/flvtool2/
-    description: |
-      FLVTool2 is a manipulation tool for Macromedia Flash Video files (FLV).
-      It can calculate a lot of meta data, insert an onMetaData tag, cut FLV
-      files, add cue points (onCuePoint), show the FLV structure and print
-      meta data information in XML or YAML.
-
-  - name: Ruby Enterprise Edition
-    url: http://rubyforge.org/projects/emm-ruby/
-    description: |
-      Ruby Enterprise Edition is a branch of Ruby, which includes an enhanced
-      garbage collector and developer tools. This allows one to reduce memory
-      usage of Ruby on Rails applications by 33% on average.
-
-  - name: SQLite-Ruby
-    url: http://rubyforge.org/projects/sqlite-ruby/
-    description: |
-      A Ruby interface for the SQLite database engine.
-
-  - name: Ruby/DBI
-    url: http://rubyforge.org/projects/ruby-dbi/
-    description: |
-      Ruby/DBI develops a database independent interface for accessing
-      databases - similar to Perl's DBI.
-
-  - name: Watir
-    url: http://rubyforge.org/projects/wtr/
-    description: |
-      Watir is a testing tool for automating browser-based tests of web
-      applications. It is a Ruby library that works with Internet Explorer
-      and Firefox.
-
 locales:
   sitelinks:
     bg:

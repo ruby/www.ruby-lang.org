@@ -81,11 +81,6 @@
 {% if sidebar.top_ruby_projects != null %}
 <h3>{{ sidebar.top_ruby_projects.text }}</h3>
 
-<ul>
-  {% for project in site.top_projects %}
-  <li><a href="{{ project.url }}" title="{{ project.description }}">{{ project.name }}</a></li>
-  {% endfor %}
-</ul>
 <p class="more"><a href="{{ sidebar.top_ruby_projects.more.url | localize }}">{{ sidebar.top_ruby_projects.more.text }}</a></p>
 {% endif %}
 
