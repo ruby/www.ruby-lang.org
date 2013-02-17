@@ -268,8 +268,10 @@ namespace :check do
         url_map[dest] << origin
       end
 
-      agent.every_failed_url do |url|
-        puts "Broken Link: #{url} on #{url_map[url].last}"
+      agent.every_page do |page|
+        if page.code == 404
+          puts "Broken Link: #{page.url} on #{url_map[page.url].last}"
+        end
       end
     end
   end
