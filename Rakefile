@@ -11,6 +11,7 @@ require 'kramdown'
 
 HOST = 'www.ruby-lang.org'
 OUTPUT_DIR = '_import'
+LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
 
 def url_to_path(url)
   local_path = File.join(OUTPUT_DIR,url.path[1..-1])
@@ -66,42 +67,6 @@ def html_to_markdown(content_div)
   ).to_kramdown
 end
 
-
-namespace :check do
-
-  def lang_variable_defined?(filename)
-    match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
-    return false  unless match_data
-    front_matter = match_data[1]
-
-    front_matter =~ /^lang: [a-zA-Z_]*$/
-  end
-
-  desc "Checks for missing lang variables in markdown files"
-  task :lang do
-    print "Checking for missing lang variables in markdown files..."
-
-    md_files = Dir["**/*.md"]
-    skip_patterns = [/README.md/, %r{[^/]*/examples/}]
-
-    skip_patterns.each do |pattern|
-      md_files.delete_if {|fn| fn =~ pattern }
-    end
-
-    lang_missing = md_files.select {|fn| !lang_variable_defined?(fn) }
-    if lang_missing.empty?
-      puts " ok"
-    else
-      puts "\nNo lang variable defined in:"
-      puts lang_missing.map {|s| "  #{s}\n"}.join
-    end
-  end
-end
-
-desc "Carries out some tests"
-task :check => ['check:lang']
-
-
 namespace :import do
   desc "Spiders #{HOST} and converts HTML to Markdown"
   task :pages do
@@ -151,7 +116,6 @@ namespace :import do
 
   desc "Spiders the news posts on #{HOST} and converts HTML to Markdown"
   task :news do
-    languages = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
     by_lines = {
       'bg' => /Публикувана от (.+) на/,
       'de' => /Geschrieben von (.+) am/,
@@ -170,7 +134,7 @@ namespace :import do
     }
 
     Spidr.host(HOST) do |agent|
-      languages.each do |lang|
+      LANGUAGES.each do |lang|
         feed, news_dir = case lang
                          when 'pt' then ['noticias', 'noticias-recentes']
                          else           ['news', 'news']
@@ -261,3 +225,55 @@ end
 
 desc "Imports #{HOST}"
 task :import => ['import:pages', 'import:news']
+
+namespace :check do
+  def lang_variable_defined?(filename)
+    match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
+    return false  unless match_data
+    front_matter = match_data[1]
+
+    front_matter =~ /^lang: [a-zA-Z_]*$/
+  end
+
+  desc "Checks for missing lang variables in markdown files"
+  task :lang do
+    print "Checking for missing lang variables in markdown files..."
+
+    md_files = Dir["**/*.md"]
+    skip_patterns = [/README.md/, %r{[^/]*/examples/}]
+
+    skip_patterns.each do |pattern|
+      md_files.delete_if {|fn| fn =~ pattern }
+    end
+
+    lang_missing = md_files.select {|fn| !lang_variable_defined?(fn) }
+    if lang_missing.empty?
+      puts " ok"
+    else
+      puts "\nNo lang variable defined in:"
+      puts lang_missing.map {|s| "  #{s}\n"}.join
+    end
+  end
+
+  desc "Checks for broken links on http://localhost:4000/"
+  task :links do
+    url_map = Hash.new { |hash,key| hash[key] = [] }
+
+    Spidr.site('http://localhost:4000/') do |agent|
+      LANGUAGES.each do |lang|
+        agent.enqueue("http://localhost:4000/#{lang}/")
+      end
+
+      agent.every_link do |origin,dest|
+        url_map[dest] << origin
+      end
+
+      agent.every_failed_url do |url|
+        puts "Broken Link: #{url} on #{url_map[url].last}"
+      end
+    end
+  end
+end
+
+desc "Carries out some tests"
+task :check => ['check:lang']
