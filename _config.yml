@@ -452,6 +452,69 @@ locales:
         recent_news:
           text: Aktuelle Neuigkeiten (RSS)
           url: /de/feeds/news.rss
+    es:
+      get_started:
+        text: <strong>Iníciate</strong>, ¡es fácil!
+        try_ruby:
+          text: ¡Prueba Ruby! (en tu navegador)
+          <<: *try_ruby
+        quickstart:
+          text: Ruby en 20 Minutos
+          url: /es/documentation/quickstart/
+        ruby_from_other_languages:
+          text: Ruby desde otros lenguajes
+          url: /es/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Explora</strong> un nuevo mundo…
+        documentation:
+          text: Documentación
+          url: /es/documentation/
+        books:
+          text: Libros
+          url: http://www.ruby-doc.org/bookstore
+        libraries:
+          text: Bibliotecas
+          url: /es/libraries/
+        success_stories:
+          text: Casos exitosos (en inglés)
+          url: /en/documentation/success-stories/
+      participate:
+        text: <strong>Participa</strong> en una amistosa y creciente comunidad.
+        mailing_lists:
+          text: Listas de correo
+          url: /es/community/mailing-lists/
+          description: |
+            Habla sobre Ruby con desarrolladores al rededor del mundo.
+        user_groups:
+          text: Grupos de usuarios
+          url: /es/community/user-groups/
+          description: |
+            Ponte en contacto con otros Rubyistas en tu localidad.
+        weblogs:
+          text: Blogs (en inglés)
+          url: /en/community/weblogs/
+          description: |
+             Entérate de lo que está sucediendo en la comunidad.
+        ruby_core:
+          text: Ruby Core (en inglés)
+          url: /en/community/ruby-core/
+          description: |
+            Ayuda a mejorar el futuro de Ruby.
+#         issue_tracking:
+#           text: Issue Tracking
+#           url: https://bugs.ruby-lang.org/
+#           description: |
+#             Report or help solve issues in Ruby.
+#       top_ruby_projects:
+#         text: Some Top Ruby Projects
+#         more:
+#           text: More…
+#           url: /en/libraries/top-projects/
+      syndicate:
+        text: Feeds de noticias (RSS)
+        recent_news:
+          text: En español
+          url: /es/feeds/news.rss
 
   credits:
     en: |
