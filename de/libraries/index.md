@@ -6,7 +6,7 @@ lang: de
 
 Es gibt unzählige faszinierende und nützliche Bibliotheken für Ruby, von
 denen viele im praktischen *gem*-Format zur Verfügung stehen. Andere
-Bibliotheken werden als gewöhnlches Archiv angeboten (.zip oder
+Bibliotheken werden als gewöhnliches Archiv angeboten (.zip oder
 .tar.gz). Nun musst du nur noch wissen, wie du diese Bibliotheken finden
 und installieren kannst.
 
