@@ -12,7 +12,7 @@ RubyのソースコードはSVNレポジトリに保存されており、ViewVC�
 
 また、Anonymous SVNも利用可能です:
 
-1\.9の場合:
+trunkの場合:
 
     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
