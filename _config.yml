@@ -892,7 +892,7 @@ locales:
           url: /pt/bibliotecas/
         success_stories:
           text: Histórias de sucesso
-          url: pt/documentacao/historias-de-sucesso/
+          url: /pt/documentacao/historias-de-sucesso/
       participate:
         text: |
           <strong>Participa</strong> numa comunidade simpática e em crescimento.
