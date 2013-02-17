@@ -52,210 +52,210 @@ locales:
   sitelinks:
     en:
       - text: Downloads
-        url:  downloads
+        url:  /en/downloads
       - text: Documentation
-        url:  documentation
+        url:  /en/documentation
       - text: Libraries
-        url:  libraries
+        url:  /en/libraries
       - text: Community
-        url:  community
+        url:  /en/community
       - text: News
-        url:  news
+        url:  /en/news
       - text: Security
-        url:  security
+        url:  /en/security
       - text: About Ruby
-        url:  about
+        url:  /en/about
     bg:
       - text: За сваляне
-        url: downloads
+        url: /bg/downloads
       - text: Документация
-        url: documentation
+        url: /bg/documentation
       - text: Библиотеки
-        url: libraries
+        url: /bg/libraries
       - text: Общество
-        url: community
+        url: /bg/community
       - text: Новини
-        url: news
+        url: /bg/news
       - text: Сигурност
-        url: security
+        url: /bg/security
       - text: Относно
-        url: about
+        url: /bg/about
     de:
       - text: Downloads
-        url:  downloads
+        url:  /de/downloads
       - text: Dokumentation
-        url:  documentation
+        url:  /de/documentation
       - text: Bibliotheken
-        url:  libraries
+        url:  /de/libraries
       - text: Community
-        url:  community
+        url:  /de/community
       - text: Neuigkeiten
-        url:  news
+        url:  /de/news
       - text: Sicherheit (en)
         url:  /en/security
       - text: Über Ruby
-        url:  about
+        url:  /de/about
     es:
       - text: Descargas
-        url:  downloads
+        url:  /es/downloads
       - text: Documentación
-        url:  documentation
+        url:  /es/documentation
       - text: Bibliotecas
-        url:  libraries
+        url:  /es/libraries
       - text: Comunidad
-        url:  community
+        url:  /es/community
       - text: Noticias
-        url:  news
+        url:  /es/news
       # - text: Seguridad
-      #   url:  security
+      #   url:  /es/security
       - text: Acerca de Ruby
-        url:  about
+        url:  /es/about
     fr:
       - text: Téléchargements
-        url:  downloads
+        url:  /fr/downloads
       - text: Documentation
-        url:  documentation
+        url:  /fr/documentation
       - text: Bibliothèques
-        url:  libraries
+        url:  /fr/libraries
       - text: Communauté
-        url:  community
+        url:  /fr/community
       - text: Actualités
-        url:  news
+        url:  /fr/news
       - text: Sécurité
-        url:  security
+        url:  /fr/security
       - text: À propos de Ruby
-        url:  about
+        url:  /fr/about
     id:
       - text: Download
-        url: downloads
+        url: /id/downloads
       - text: Dokumentasi
-        url: documentation
+        url: /id/documentation
       - text: Library
-        url: libraries
+        url: /id/libraries
       - text: Komunitas
-        url: community
+        url: /id/community
       - text: Berita
-        url: news
+        url: /id/news
       - text: Tentang Ruby
-        url: about
+        url: /id/about
     it:
       - text: Scarica
-        url:  downloads
+        url:  /it/downloads
       - text: Documentazione
-        url:  documentation
+        url:  /it/documentation
       - text: Librerie
-        url:  libraries
+        url:  /it/libraries
       - text: Comunità
-        url:  community
+        url:  /it/community
       - text: Notizie
-        url:  news
+        url:  /it/news
       - text: Sicurezza
-        url:  security
+        url:  /it/security
       - text: A proposito di Ruby
-        url:  about
+        url:  /it/about
     ja:
       - text: ダウンロード
-        url: downloads
+        url: /ja/downloads
       - text: ドキュメント
-        url: documentation
+        url: /ja/documentation
       - text: ライブラリ
-        url: libraries
+        url: /ja/libraries
       - text: コミュニティ
-        url: community
+        url: /ja/community
       - text: コア開発
-        url: dev
+        url: /ja/dev
       - text: ニュース
-        url: news
+        url: /ja/news
       - text: セキュリティ
-        url: security
+        url: /ja/security
       - text: Rubyとは
-        url: about
+        url: /ja/about
     ko:
       - text: 다운로드
-        url: downloads
+        url: /ko/downloads
       - text: 문서
-        url: documentation
+        url: /ko/documentation
       - text: 라이브러리
-        url: libraries
+        url: /ko/libraries
       - text: 커뮤니티
-        url: community
+        url: /ko/community
       - text: 뉴스
-        url: news
+        url: /ko/news
       - text: 보안이슈
-        url: security
+        url: /ko/security
       - text: 루비에 대해서
-        url: about
+        url: /ko/about
     pl:
       - text: Pobierz
-        url: downloads
+        url: /pl/downloads
       - text: Dokumentacja
-        url: dokumentacja
+        url: /pl/dokumentacja
       - text: Biblioteki
-        url: libraries
+        url: /pl/libraries
       - text: Społeczność
-        url: spolecznosc
+        url: /pl/spolecznosc
       - text: Wiadomości
-        url: news
+        url: /pl/news
       - text: O języku Ruby
-        url: about
+        url: /pl/about
     pt:
       - text:  Downloads
-        url: downloads
+        url: /pt/downloads
       - text: Documentação
-        url: documentacao
+        url: /pt/documentacao
       - text: Módulos
-        url: bibliotecas
+        url: /pt/bibliotecas
       - text: Comunidade
-        url: comunidade
+        url: /pt/comunidade
       - text: Notícias
-        url: noticias-recentes
+        url: /pt/noticias-recentes
       - text: Sobre Ruby
-        url: sobre-o-ruby
+        url: /pt/sobre-o-ruby
     tr:
       - text: İndirin
-        url: downloads
+        url: /tr/downloads
       - text: Belgeler
-        url: documentation
+        url: /tr/documentation
       - text: Kütüphaneler
-        url: libraries
+        url: /tr/libraries
       - text: Topluluk
-        url: community
+        url: /tr/community
       - text: Haberler
-        url: news
+        url: /tr/news
       - text: Güvenlik
-        url: security
+        url: /tr/security
       - text: Ruby Hakkında
-        url: about
+        url: /tr/about
     zh_cn:
       - text: 下载
-        url: downloads
+        url: /zh_cn/downloads
       - text: 文档
-        url: documentation
+        url: /zh_cn/documentation
       - text: 资源库
-        url: libraries
+        url: /zh_cn/libraries
       - text: 社区
-        url: community
+        url: /zh_cn/community
       - text: 新闻
-        url: news
+        url: /zh_cn/news
       - text: 安全
-        url: security
+        url: /zh_cn/security
       - text: 关于 Ruby
-        url: about
+        url: /zh_cn/about
     zh_TW:
       - text: 下載安裝
-        url: downloads
+        url: /zh_TW/downloads
       - text: 文件
-        url: documentation
+        url: /zh_TW/documentation
       - text: 函式庫
-        url: libraries
+        url: /zh_TW/libraries
       - text: 社群
-        url: community
+        url: /zh_TW/community
       - text: 新聞
-        url: news
+        url: /zh_TW/news
       - text: 安全
-        url: security
+        url: /zh_TW/security
       - text: 關於 Ruby
-        url: about
+        url: /zh_TW/about
 
   sidebar:
     try_ruby: &try_ruby
@@ -271,44 +271,44 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby in Twenty Minutes
-          url: documentation/quickstart/
+          url: /en/documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby from Other Languages
-          url: documentation/ruby-from-other-languages/
+          url: /en/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Explore</strong> a new world…
         documentation:
           text: Documentation
-          url: documentation/
+          url: /en/documentation/
         books:
           text: Books
           <<: *books
         libraries:
           text: Libraries
-          url: libraries/
+          url: /en/libraries/
         success_stories:
           text: Success Stories
-          url: documentation/success-stories/
+          url: /en/documentation/success-stories/
       participate:
         text: <strong>Participate</strong> in a friendly and growing community.
         mailing_lists:
           text: Mailing Lists
-          url: community/mailing-lists/
+          url: /en/community/mailing-lists/
           description: |
             Talk about Ruby with programmers from all around the world.
         user_groups:
           text: User Groups
-          url: community/user-groups/
+          url: /en/community/user-groups/
           description: |
             Get in contact with Rubyists in your area.
         weblogs:
           text: Weblogs
-          url: community/weblogs/
+          url: /en/community/weblogs/
           description: |
             Read about what’s happening right now in the Ruby community.
         ruby_core:
           text: Ruby Core
-          url: community/ruby-core/
+          url: /en/community/ruby-core/
           description: |
             Help polish the rough edges of the latest Ruby.
         issue_tracking:
@@ -320,12 +320,12 @@ locales:
         text: Some Top Ruby Projects
         more:
           text: More…
-          url: libraries/top-projects/
+          url: /en/libraries/top-projects/
       syndicate:
         text: Syndicate
         recent_news:
           text: Recent News (RSS)
-          url: feeds/news.rss
+          url: /en/feeds/news.rss
     bg:
       get_started:
         text: <strong>Започнете</strong> лесно е!
@@ -334,44 +334,44 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby в 20 минути
-          url: documentation/quickstart/
+          url: /bg/documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby от други езици
-          url: documentation/ruby-from-other-languages/
+          url: /bg/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Изследвайте</strong> нов свят…
         documentation:
           text: Документация
-          url: documentation/
+          url: /bg/documentation/
         books:
           text: Книги
           <<: *books
         libraries:
           text: Библиотеки
-          url: libraries/
+          url: /bg/libraries/
         success_stories:
           text: Успешни истории
-          url: documentation/success-stories/
+          url: /bg/documentation/success-stories/
       participate:
         text: <strong>Участвайте</strong> в приятелски настроено общество.
         mailing_lists:
           text: Пощенски списъци
-          url: community/mailing-lists/
+          url: /bg/community/mailing-lists/
           description: |
             Дискусии относно Ruby с програмисти от цял свят.
         user_groups:
           text: Потребителски групи
-          url: community/user-groups/
+          url: /bg/community/user-groups/
           description: |
             Свържете се с рубисти в твоя район.
         weblogs:
           text: Блогове
-          url: community/weblogs/
+          url: /bg/community/weblogs/
           description: |
             Прочетете какво се случва в Ruby обществото.
         ruby_core:
           text: Ruby ядро
-          url: community/ruby-core/
+          url: /bg/community/ruby-core/
           description: |
             Помогнете за разработката на Ruby.
         issue_tracking:
@@ -383,12 +383,12 @@ locales:
         text: Няколко топ Ruby проекта
         more:
           text: Още…
-          url: libraries/top-projects/
+          url: /bg/libraries/top-projects/
       syndicate:
         text: Новини
         recent_news:
           text: Последните новини (RSS)
-          url: feeds/news.rss
+          url: /bg/feeds/news.rss
     de:
       get_started:
         text: <strong>Der Einstieg</strong> ist einfach!
@@ -397,44 +397,44 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby in 20 Minuten
-          url: documentation/quickstart/
+          url: /de/documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby für Umsteiger
-          url: documentation/ruby-from-other-languages/
+          url: /de/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Entdecke</strong> eine neue Welt…
         documentation:
           text: Dokumentation
-          url: documentation/
+          url: /de/documentation/
         books:
           text: Bücher
           <<: *books
         libraries:
           text: Bibliotheken
-          url: libraries/
+          url: /de/libraries/
         success_stories:
           text: Erfolgsgeschichten
-          url: documentation/success-stories/
+          url: /de/documentation/success-stories/
       participate:
         text: <strong>Beteilige dich</strong> an einer freundlichen und wachsenden Community.
         mailing_lists:
           text: Mailing-Listen
-          url: community/mailing-lists/
+          url: /de/community/mailing-lists/
           description: |
             Sprich mit Programmierern auf der ganzen Welt über Ruby.
         user_groups:
           text: User-Groups
-          url: community/user-groups/
+          url: /de/community/user-groups/
           description: |
             Treffe Rubyisten in deiner Umgebung.
         weblogs:
           text: Weblogs
-          url: community/weblogs/
+          url: /de/community/weblogs/
           description: |
             Lies, was gerade jetzt in der Ruby-Community passiert.
         ruby_core:
           text: Ruby-Entwicklung
-          url: community/ruby-core/
+          url: /de/community/ruby-core/
           description: |
             Hilf mit, die neuesten Ruby-Versionen zu verbessern.
         issue_tracking:
@@ -446,12 +446,12 @@ locales:
         text: Beliebte Ruby-Projekte
         more:
           text: Mehr…
-          url: libraries/top-projects/
+          url: /de/libraries/top-projects/
       syndicate:
         text: Syndication
         recent_news:
           text: Aktuelle Neuigkeiten (RSS)
-          url: feeds/news.rss
+          url: /de/feeds/news.rss
 
   credits:
     en: |
