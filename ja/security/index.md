@@ -17,10 +17,20 @@ security@ruby-lang.orgは非公開MLで、報告された問題が確認され�
 
 新しいものから順に並べています。
 
-* [Exceptionのメソッドの$SAFE機構をバイパス可能な脆弱性について][1] 2011年2月18日公開
-* [FileUtilsのsymlink race attack脆弱性について][2] 2011年2月18日公開
-* [WEBrickのXSS脆弱性 (CVE-2010-0541)][3] 2010年8月16日公開
-* [ARGF.inplace\_mode=にバッファーオーバーフロー][4] 2010年7月2日公開
+* [RDoc で生成した HTML ドキュメントにおける XSS 脆弱性 (CVE-2013-0256)][1] 2013年02月06日公開
+* [ruby 1.9 におけるハッシュ飽和攻撃による DoS 脆弱性 (CVE-2012-5371)][2] 2012年11月10日公開
+* [不当な NUL 文字挿入によって意図しないファイルが生成されうる脆弱性の対応][3] 2012年10月12日公開
+* [Exception#to\_s 等による $SAFE 機構をバイパス可能な脆弱性の対応 (CVE-2012-4464,
+  CVE-2012-4466)][4] 2012年10月12日公開
+* [Security Fix for RubyGems: SSL server verification failure for remote
+  repository][5] 2012年4月20日公開
+* [Security Fix for Ruby OpenSSL module: Allow 0/n splitting as a
+  prevention for the TLS BEAST attack][6] 2012年2月16日公開
+* [ruby 1.8 におけるハッシュ飽和攻撃による DoS 脆弱性 (CVE-2011-4815)][7] 2011年12月28日公開
+* [Exceptionのメソッドの$SAFE機構をバイパス可能な脆弱性について][8] 2011年2月18日公開
+* [FileUtilsのsymlink race attack脆弱性について][9] 2011年2月18日公開
+* [WEBrickのXSS脆弱性 (CVE-2010-0541)][10] 2010年8月16日公開
+* [ARGF.inplace\_mode=にバッファーオーバーフロー][11] 2010年7月2日公開
 * [WEBrickにエスケープシーケンス挿入の脆弱性](/ja/news/2010/01/10/webrick-escape-sequence-injection/)
   2010年1月10日公開
 * [Stringのヒープオーバーフロー](/ja/news/2009/12/07/string/) 2009年12月7日公開
@@ -30,7 +40,7 @@ security@ruby-lang.orgは非公開MLで、報告された問題が確認され�
   2009年5月12日公開
 * [REXMLのDoS脆弱性](/ja/news/2008/08/23/dos-vulnerability-in-rexml/)
   2008年8月23日公開
-* [Rubyに複数の脆弱性][5] 2008年8月8日公開
+* [Rubyに複数の脆弱性][12] 2008年8月8日公開
 * [任意のコードが実行される脆弱性について](/ja/news/2008/06/20/arbitrary-code-execution-vulnerabilities)
   2008年6月20日公開
 * [WEBrickの非公開ファイルにアクセスされる脆弱性について](/ja/news/2008/03/03/webrick-file-access-vulnerability/)
@@ -55,8 +65,15 @@ Posted by usa on 02 Jun 2006
 
 
 
-[1]: http://www.ruby-lang.org/ja/news/2011/02/18/exception-methods-can-bypass-safe/ 
-[2]: http://www.ruby-lang.org/ja/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/ 
-[3]: http://www.ruby-lang.org/ja/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
-[4]: http://www.ruby-lang.org/ja/news/2010/07/02/ruby-1-9-1-p429-is-released/ 
-[5]: http://www.ruby-lang.org/ja/news/2008/08/08/multiple-vulnerabilities-in-ruby/ 
+[1]: http://www.ruby-lang.org/ja/news/2013/02/06/rdoc-xss-cve-2013-0256/ 
+[2]: http://www.ruby-lang.org/ja/news/2012/11/09/ruby19-hashdos-cve-2012-5371/ 
+[3]: http://www.ruby-lang.org/ja/news/2012/10/12/poisoned-NUL-byte-vulnerability/ 
+[4]: http://www.ruby-lang.org/ja/news/2012/10/12/cve-2012-4464-cve-2012-4466/ 
+[5]: http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/ 
+[6]: http://www.ruby-lang.org/en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/ 
+[7]: http://www.ruby-lang.org/en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/ 
+[8]: http://www.ruby-lang.org/ja/news/2011/02/18/exception-methods-can-bypass-safe/ 
+[9]: http://www.ruby-lang.org/ja/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/ 
+[10]: http://www.ruby-lang.org/ja/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
+[11]: http://www.ruby-lang.org/ja/news/2010/07/02/ruby-1-9-1-p429-is-released/ 
+[12]: http://www.ruby-lang.org/ja/news/2008/08/08/multiple-vulnerabilities-in-ruby/ 
