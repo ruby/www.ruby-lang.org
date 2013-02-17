@@ -65,4 +65,4 @@ Posted by Shugo Maeda on 26 May 2006
 [4]: http://www.rubyusergroups.org/ 
 [5]: http://www.rubykaigi.org 
 [6]: http://www.rubycentral.org/conference/ 
-[7]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko05 
+[7]: http://euruko.org

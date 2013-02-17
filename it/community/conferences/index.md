@@ -57,7 +57,7 @@ e in 2007 da Ruby Central e O’Reilly), e infine Canada on Rails.
 [1]: http://www.rubycentral.org/conference 
 [2]: http://www.rubycentral.org 
 [3]: http://jp.rubyist.net/RubyKaigi2006/ 
-[4]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06 
+[4]: http://euruko.org
 [5]: http://www.rubycentral.org/rcg2006.pdf 
 [6]: http://www.sdforum.org 
 [7]: http://conferences.oreillynet.com/os2006/ 

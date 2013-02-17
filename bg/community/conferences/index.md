@@ -60,7 +60,7 @@ Central и [Skills Matter][12], и през 2007 г. с помощта на Ruby
 [1]: http://www.rubycentral.org/conference 
 [2]: http://www.rubycentral.org 
 [3]: http://jp.rubyist.net/RubyKaigi2008/ 
-[4]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko07 
+[4]: http://euruko.org
 [5]: http://www.osdc.com.au/ 
 [6]: http://www.rubycentral.org/rcg2006.pdf 
 [7]: http://www.sdforum.org 

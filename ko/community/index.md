@@ -40,7 +40,7 @@ lang: ko
 [1]: http://groups.google.com/group/rubykr 
 [2]: http://www.rubycentral.org/conference 
 [3]: http://www.railsconf.org/ 
-[4]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06 
+[4]: http://euruko.org
 [5]: http://jp.rubyist.net/RubyKaigi2006/ 
 [6]: http://ruby-lang.org/en/community/ruby-core 
 [7]: http://ruby-lang.org/en/community/mailing-lists 

@@ -58,7 +58,7 @@ finalizar a Canada on Rails.
 [1]: http://www.rubycentral.org/conference "RubyConf"
 [2]: http://www.rubycentral.org "Ruby Central, Inc."
 [3]: http://jp.rubyist.net/RubyKaigi2006/ "RubyKaigi"
-[4]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06 ""
+[4]: http://euruko.org
 [5]: http://www.rubycentral.org/rcg2006.pdf "Programa de Apoio a Conferências Regionais"
 [6]: http://www.sdforum.org "SDForum"
 [7]: http://conferences.oreillynet.com/os2006/ "O'Reilly Open Source Conference"

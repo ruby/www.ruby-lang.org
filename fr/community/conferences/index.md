@@ -61,7 +61,7 @@ O’Reilly) et enfin *Canada on Rails*.
 [1]: http://www.rubycentral.org/conference 
 [2]: http://www.rubycentral.org 
 [3]: http://jp.rubyist.net/RubyKaigi2006/ 
-[4]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06 
+[4]: http://euruko.org
 [5]: http://www.osdc.com.au/ 
 [6]: http://www.rubycentral.org/rcg2006.pdf 
 [7]: http://www.sdforum.org 

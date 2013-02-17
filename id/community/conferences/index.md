@@ -75,7 +75,7 @@ on Rails.
 [4]: http://www.rubycentral.org/conference 
 [5]: http://www.rubycentral.org 
 [6]: http://jp.rubyist.net/RubyKaigi2006/ 
-[7]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko06 
+[7]: http://euruko.org
 [8]: http://www.rubycentral.org/rcg2006.pdf 
 [9]: http://www.sdforum.org 
 [10]: http://conferences.oreillynet.com/os2006/ 
