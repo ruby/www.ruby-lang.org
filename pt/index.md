@@ -39,7 +39,7 @@ sidebar: |
 {% endfor %}
 
 <div id="news">
-  <h3><a href="news/">Outras Notícias</a></h3>
+  <h3><a href="noticias-recentes/">Outras Notícias</a></h3>
   <ul>
     {% for post in site.categories.en offset:2 limit:3 %}
     <li>
