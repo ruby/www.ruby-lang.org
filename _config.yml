@@ -676,6 +676,69 @@ locales:
         recent_news:
           text: Ultime Notizie (RSS)
           url: /it/feeds/news.rss
+    ja:
+#       get_started:
+#         text: <strong>Get Started</strong>, it's easy!
+#         try_ruby:
+#           text: Try Ruby! (in your browser)
+#           <<: *try_ruby
+#         quickstart:
+#           text: Ruby in Twenty Minutes
+#           url: /ja/documentation/quickstart/
+#         ruby_from_other_languages:
+#           text: Ruby from Other Languages
+#           url: /ja/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>探求しよう!</strong>
+        documentation:
+          text: ドキュメント
+          url: /ja/documentation/
+#         books:
+#           text: Books
+#           <<: *books
+        libraries:
+          text: ライブラリ
+          url: /ja/libraries/
+#         success_stories:
+#           text: Success Stories
+#           url: /ja/documentation/success-stories/
+      participate:
+        text: <strong>コミュニティに参加しよう</strong>
+        mailing_lists:
+          text: メーリングリスト
+          url: /ja/community/mailing-lists/
+          description: |
+            世界中のプログラマとRubyについて話しましょう。
+         user_groups:
+           text: 日本Rubyの会
+           url: http://ruby-no-kai.org/
+           description: |
+             Rubyの利用者/開発者の支援を目的としたグループです。
+         weblogs:
+           text: 更新順リンク
+           url: http://www.rubyist.net/~kazu/samidare/
+           description: |
+             Ruby関連のサイトのリンクを更新順に並べたものです。
+#         ruby_core:
+#           text: Ruby Core
+#           url: /en/community/ruby-core/
+#           description: |
+#             Help polish the rough edges of the latest Ruby.
+#         issue_tracking:
+#           text: Issue Tracking
+#           url: https://bugs.ruby-lang.org/
+#           description: |
+#             Report or help solve issues in Ruby.
+      top_ruby_projects:
+        text: RubyForge トッププロジェクト
+        more:
+          text: もっと読む…
+          url: /en/libraries/top-projects/
+      syndicate:
+        text: Syndicate
+        recent_news:
+          text: 最近のニュース (RSS)
+          url: /ja/feeds/news.rss
 
   credits:
     bg: |
