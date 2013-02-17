@@ -10,38 +10,74 @@
 </div>
 {% endif %}
 
+{% if sidebar.get_started != null %}
 <div class="navigation">
   <h3>{{ sidebar.get_started.text }}</h3>
 
   <ul class="menu">
     <li><a href="{{ sidebar.get_started.try_ruby.url | localize }}">{{ sidebar.get_started.try_ruby.text }}</a></li>
 
+    {% if sidebar.get_started.quickstart != null %}
     <li><a href="{{ sidebar.get_started.quickstart.url | localize }}">{{ sidebar.get_started.quickstart.text }}</a></li>
+    {% endif %}
+
+    {% if sidebar.get_started.ruby_from_other_languages != null %}
     <li><a href="{{ sidebar.get_started.ruby_from_other_languages.url | localize }}">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
+    {% endif %}
   </ul>
 </div>
+{% endif %}
 
+{% if sidebar.explore != null %}
 <div class="navigation">
   <h3>{{ sidebar.explore.text }}</h3>
   <ul class="menu">
+    {% if sidebar.explore.documentation != null %}
     <li><a href="{{ sidebar.explore.documentation.url | localize }}">{{ sidebar.explore.documentation.text }}</a></li>
+    {% endif %}
+
+    {% if sidebar.explore.books != null %}
     <li><a href="{{ sidebar.explore.books.url | localize }}">{{ sidebar.explore.books.text }}</a></li>
+    {% endif %}
+
+    {% if sidebar.explore.libraries != null %}
     <li><a href="{{ sidebar.explore.libraries.url | localize }}">{{ sidebar.explore.libraries.text }}</a></li>
+    {% endif %}
+
+    {% if sidebar.explore.success_stories != null %}
     <li><a href="{{ sidebar.explore.success_stories.url | localize }}">{{ sidebar.explore.success_stories.text }}</a></li>
+    {% endif %}
   </ul>
 </div>
+{% endif %}
 
+{% if sidebar.participate != null %}
 <div class="navigation">
   <h3>{{ sidebar.participate.text }}</h3>
   <ul>
+    {% if sidebar.participate.mailing_lists != null %}
     <li><a href="{{ sidebar.participate.mailing_lists.url | localize }}">{{ sidebar.participate.mailing_lists.text }}</a>: {{ sidebar.participate.mailing_lists.description }}</li>
+    {% endif %}
+
+    {% if sidebar.participate.user_groups != null %}
     <li><a href="{{ sidebar.participate.user_groups.url | localize }}">{{ sidebar.participate.user_groups.text }}</a>: {{ sidebar.participate.user_groups.description }}</li>
+    {% endif %}
+
+    {% if sidebar.participate.weblogs != null %}
     <li><a href="{{ sidebar.participate.weblogs.url | localize }}">{{ sidebar.participate.weblogs.text }}</a>: {{ sidebar.participate.weblogs.description }}</li>
+    {% endif %}
+
+    {% if sidebar.participate.ruby_core != null %}
     <li><a href="{{ sidebar.participate.ruby_core.url | localize }}">{{ sidebar.participate.ruby_core.text }}</a>: {{ sidebar.participate.ruby_core.description }}</li>
+    {% endif %}
+
+    {% if sidebar.participate.issue_tracking != null %}
     <li><a href="{{ sidebar.participate.issue_tracking.url | localize }}">{{ sidebar.participate.issue_tracking.text }}</a>: {{ sidebar.participate.issue_tracking.description }}</li>
+    {% endif %}
   </ul>
 </div>
 
+{% if sidebar.top_ruby_projects != null %}
 <h3>{{ sidebar.top_ruby_projects.text }}</h3>
 
 <ul>
@@ -50,7 +86,7 @@
   {% endfor %}
 </ul>
 <p class="more"><a href="{{ sidebar.top_ruby_projects.more.url | localize }}">{{ sidebar.top_ruby_projects.more.text }}</a></p>
-
+{% endif %}
 
 <h3>{{ sidebar.syndicate.text }}</h3>
 <p><a href="{{ sidebar.syndicate.recent_news.url | localize }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
