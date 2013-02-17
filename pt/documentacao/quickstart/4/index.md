@@ -58,7 +58,10 @@ executada com esse nome.
 A generalidade das outras linguagens tratar de passar por uma lista
 usando o ciclo `for`, que em C se assemelha a algo como:
 
-    for (i=0; i<numero_de_elementos i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 Isto funciona mas não é muito elegante. Necessitamos de uma variável
 descartável semelhante a `i`, temos que determinar previamente qual o

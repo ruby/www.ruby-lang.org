@@ -58,7 +58,10 @@ nombre.
 Muchos otros lenguajes de programación manejan la iteración de una lista
 usando la clásica sintaxis `for`, que en C se ve así:
 
-    for (i=0; i<cantidad_de_elementos i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 Esto funciona, pero no es muy elegante. Necesitas una variable
 descartable como `i`, averiguar la cantidad de elementos de la lista, y

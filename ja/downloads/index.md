@@ -11,13 +11,13 @@ lang: ja
 Rubyの各バージョンのソースコードは、以下から入手できます。
 
 * 最新の安定版であるruby
-  1.9.2-p290\[[tar.bz2][1]\|[tar.gz][2]\|[zip][3]\]が各ミラーサイトから入手できます。
+  1.9.3-p385\[[tar.bz2][1]\|[tar.gz][2]\|[zip][3]\]が各ミラーサイトから入手できます。
 * 前世代の安定版であるruby
-  1.8.7-p352\[[tar.bz2][4]\|[tar.gz][5]\|[zip][6]\]も各ミラーサイトから入手できます。
-* 現時点での[最新版スナップショット][7](2011/08/09
-  04:06:37)をtar.gzで固めています。これはSubversionレポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。スナップショットの取得はある時刻に問答無用で行っているので、何らかの問題が残っている可能性があります。自己責任でどうぞ。
-* 現時点での[安定版スナップショット][8](2011/08/09
-  04:07:03)をtar.gzで固めています。これはSubversionレポジトリのruby
+  1.8.7-p371\[[tar.bz2][4]\|[tar.gz][5]\|[zip][6]\]も各ミラーサイトから入手できます。
+* 現時点での[最新版スナップショット][7](2013/02/16
+  04:08:46)をtar.gzで固めています。これはSubversionレポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。スナップショットの取得はある時刻に問答無用で行っているので、何らかの問題が残っている可能性があります。自己責任でどうぞ。
+* 現時点での[安定版スナップショット][8](2013/02/16
+  04:09:25)をtar.gzで固めています。これはSubversionレポジトリのruby
   1.8系のブランチ(ruby\_1\_8ブランチ)の先端から自動的にスナップショットを取ったものです。
 * 最新のソースをAnonymous
   SVNで入手する方法については、[レポジトリガイド](/ja/documentation/repository-guide)を参照ください。
@@ -90,12 +90,12 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.bz2 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.zip 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.bz2 
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.gz 
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.zip 
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.bz2 
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.gz 
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.zip 
 [7]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
 [8]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz 
 [9]: http://www.ruby-lang.org/ja/install.cgi?cmd=view;name=Microsoft+Windows%C8%C7%A4%CE%A5%D3%A5%EB%A5%C8%B4%C4%B6%AD%A4%CB%A4%E8%A4%EB%B0%E3%A4%A4 

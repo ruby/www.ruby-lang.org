@@ -5,8 +5,8 @@ lang: tr
 ---
 
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
-En son kararlı sürüm {{ site.downloads.stable.version }} , lütfen önce
-[Ruby lisansını][1] okuyun.
+En son kararlı sürüm {{ site.downloads.stable.version }},
+lütfen önce [Ruby lisansını][1] okuyun.
 
 ### Ruby Kaynak Kodu
 
@@ -15,7 +15,7 @@ ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:  {{ site.downloads.stable.md5 }})
+  (md5:&nbsp;{{ site.downloads.stable.md5 }})
   Kararlı Versiyon (*tavsiye edilir*)
 * [Stable Snapshot][3] Bu son kararlı SVN’nin tar gzip hali. Son kararlı
   sürümden daha iyi olması beklenir.
@@ -34,18 +34,18 @@ kullanılması. Ruby’yi nasıl kuracağınızdan emin değilseniz, ilk seçene
 sizin için daha doğru olacaktır.
 
 * [Ruby 1.8.6-p398 RubyInstaller][6]
-  (md5: 233d6b3ddc4c61436b075b51254cd138) Kararlı versiyon (*tavsiye
+  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) Kararlı versiyon (*tavsiye
   edilir*)
-* [Ruby 1.8.7-p330 RubyInstaller][7] (md5: 
+* [Ruby 1.8.7-p330 RubyInstaller][7] (md5:&nbsp;
   18d688cfae6e60857cad24da6f9ee055) Kararlı versiyon (*tavsiye edilir*)
 * [Ruby 1.9.1-p430 RubyInstaller][8]
-  (md5: 86ac589a955898c3163b161d81750a05) Kararlı versiyon (*tavsiye
+  (md5:&nbsp;86ac589a955898c3163b161d81750a05) Kararlı versiyon (*tavsiye
   edilir*)
-* [Ruby 1.9.2-p136 RubyInstaller][9] (md5: 
+* [Ruby 1.9.2-p136 RubyInstaller][9] (md5:&nbsp;
   8e8843963dae29a98ce3e2ba2ee111f1) Kararlı versiyon (*tavsiye edilir*)
-* [Ruby 1.8.7-p249 Binary][10] (md5: 4fd37b0b4b21a042cae7f5f0a8daad16)
+* [Ruby 1.8.7-p249 Binary][10] (md5:&nbsp;4fd37b0b4b21a042cae7f5f0a8daad16)
   Kararlı versiyon
-* [Ruby 1.9.1-p378 Binary][11] (md5: 7d14a918cc8d243d3e2c409aff41f454)
+* [Ruby 1.9.1-p378 Binary][11] (md5:&nbsp;7d14a918cc8d243d3e2c409aff41f454)
   Kararlı versiyon
 
 Lütfen dikkat edin yukarda belirtilen binaryler indirilip elle

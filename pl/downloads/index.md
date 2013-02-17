@@ -4,125 +4,70 @@ title: "Pobierz Ruby'ego"
 lang: pl
 ---
 
-Tutaj możesz pobrać najnowszą dystrybucje języka Ruby dostarczaną w
-kilku wariantach. Obecna wersja stabilna to 1.9.1. Proszę pamiętać o
-zapoznaniu się z [Licencją Ruby’ego][1].
+Tutaj znajdziesz najnowsze dystrybucje języka Ruby. Aktualna stabilna
+wersja to {{ site.downloads.stable.version }}.
 
-### Ruby – Kod Źródłowy
+### MRI/YARV (główne implementacje w języku C)
 
-Instalacja [ze źródeł][2] jest odpowiednim rozwiązaniem jeśli czujesz
-się pewnie na swojej platformie i być może potrzebujesz szczególnych
-ustawień dla swojego środowiska. Jest to także dobre rozwiązanie w
-przypadku gdy nie ma specjalnie przygotowanych pakietów na twoją
-platformę.
+Pliki [źródłowe][1] do kompilacji:
 
-* [Ruby 1.8.6-p420][3] wersja stabilna
-* [Ruby 1.8.7-p330][4] wersja stabilna
-* [Ruby 1.9.2-p136][5] wersja stabilna (*zalecana*)
+* [Ruby 1.8.7-p371][2]
+* [Ruby 1.9.3-p385][3] zalecana
+* [Ruby 2.0.0-rc2][4]
 
-### Ruby dla Windows
+Zalecana instalacja dla **OS X** oraz **Linuksa** za pomocą [rbenv][5]
+lub [RVM][6].
 
-Na platformie Windows istnieje kilka możliwości instalacji Ruby’ego.
-Pierwsza z nich to po prostu instalacja [skompilowanych binariów][6].
-Kolejna z nich to użycie graficznego [Ruby Installer][7]. Jeśli nie
-jesteś pewien jak zainstalować Ruby’ego, graficzny instalator może być
-najlepszym rozwiązaniem. (Dodatkowo, graficzny instalator jest
-dostarczany z wieloma przydatnymi bibliotekami.)
+Dla **Windows** zalecany instalator to [RubyInstaller][7]. Jeśli
+potrzebna instalacja frameworka Rails, to jest również dostępny
+[RailsInstaller][8].
 
-### Ruby pod Linuksem
+### Pozostałe implementacje
 
-W zależności od używanej przez Ciebie dystrybucji, istnieje kilka
-sposobów instalacji Ruby’ego. Pierwsza możliwość to po prostu pobranie
-kodu źródłowego powyżej i ręczna ich kompilacja. Na niektórych jednak
-platformach istnieje możliwość instalacji przy pomocy menedżera
-pakietów, która czyni instalacje Ruby’ego ekstremalnie łatwą.
+* [REE – Ruby Enterprise Edition][9]{: :http:=""}. Zmodyfikowana
+  implementacja w języku C. Tylko dla systemów uniksowych (i na razie
+  tylko Ruby 1.8). Można zainstalować za pomocą rbenv lub RVM.
+^
 
-Dla przykładu, platforma Debian lub Ubuntu `apt-get` udostępnia łatwe i
-eleganckie rozwiązanie:
+* [JRuby][10]{: :http:=""}. Implementacja w Javie. Dostępny instalator
+  dla OS X i Windows oraz binaria (jak i źródła w Javie do kompilacji za
+  pomocą ant). Dla systemów uniksowych JRuby można zainstalować także za
+  pomocą rbenv lub RVM.
+^
 
-    sudo apt-get install ruby
-{: .code .sh-code}
+* [Rubinius][11]. Ruby zaimplementowany w Ruby z wykorzystaniem
+  wirtualnej maszyny w C++. Jest dostępny instalator dla OS X ale też
+  można zainstalować za pomocą rbenv lub RVM.
+^
 
-### Ruby dla OS X
+* [MagLev][12]. Implementacja w języku Smalltalk. MagLev dostępny jest
+  tylko dla 64 bitowych systemów uniksowych. Posiada w pełni obiektową,
+  transakcyjną bazę danych. MagLev jest zbudowany na smalltalkowej
+  VMWare Gemstone/S 3.1 Virtual Machine (rozwijanej od ponad 20 lat,
+  używanej komercyjnie w branży finansowej). Można zainstalować za
+  pomocą rbenv lub RVM. Na razie implementacja tylko dla Ruby 1.8.
+^
 
-Instalacja przez RVM ([http://rvm.beginrescueend.com/][8])
+* [MacRuby][13]. Implementacja w języku Objective-C dla systemu OS X.
+  Można zainstalować za pomocą RVM.
+^
 
-    bash 
-{: .code .sh-code}
-
-Ruby 1.8.7 jest pełni dostępny w Mac OS X Leopard włącznie z Ruby on
-Rails, Mongrel, Capistrano i wieloma innymi popularnymi gemami
-(pakietami) Ruby’ego (zobacz też [MacRuby][9] będący bardzo szybką
-implementacją Ruby’ego 1.9 w języku Objective-C).
-
-Mac OS X Tiger jest dostarczany ze starszą wersją Ruby 1.8.2. Ci, co nie
-zrobili sobie aktualizacji do Leoparda, poza RVM, istnieje jeszcze kilka
-innych możliwości instalacji najnowszej wersji Ruby’ego na platformie
-Macintosh OS X. [Locomotive][10] jest dobrym wyborem jeśli szukasz
-czegoś do szybkiego uruchomienia środowiska do tworzenia aplikacji w
-frameworku Rails. Użycie [MacPorts][11] lub [Fink][12] może okazać się
-lepszym rozwiązaniem dla doświadczonych użytkowników.
-
-Używając MacPorts, możesz zainstalować Ruby 1.8 przy pomocy polecenia…
-
-    sudo port install ruby
-{: .code .sh-code}
-
-lub wersję Ruby 1.9.x przy pomocy polecenia…
-
-    sudo port install ruby19
-{: .code .sh-code}
-
-Używając Fink Commandera możesz zainstalować pakiet Ruby z poziomu
-interfejsu graficznego.
-
-Dodatkowo, od kiedy OS X bazuje na Uniksie, ściągniecie i instalacja z
-źródeł jest równie łatwa i efektywna jak inne rozwiązania.
-
-### Ruby dla Solaris i OpenSolaris
-
-Ruby 1.8.7 jest dostępny dla Solarisa w wersjach od 8 do 10 na stronie
-[Sunfreeware][13] a Ruby 1.8.6 jest dostępny na stronie [Blastwave][14]
-. Zoptymalizowany Ruby on Rails dla Solarisa 10 jest dostępny jako
-projekt [Coolstack][15] należący do sunowskiego projektu Cooltools pro.
-
-Aby zainstalować Ruby’ego na [OpenSolarisie][16], użyj [Image Packaging
-System, lub klienta IPS][17]. Zainstaluje on najnowsze binaria Ruby’ego
-i RubyGems prosto z sieci OpenSolarisa:
-
-    % pfexec pkg install SUNWruby18
-{: .code .sh-code}
-
-Powyższa komenda zainstaluje Ruby, Rubygems, popularne rozszerzenia i
-potrzebne do nich biblioteki. Pakiet ten zawiera także wsparcie dla
-DTrace oraz jest zoptymalizowany wydajnościowo. Lokalizacja różnych
-“artifacts” jest opisana w [Ruby OpenSolaris ARC Case][18] .
-
-Pozostałe dystrybucje OpenSolarisa, znane jako [Solaris Express
-Community Edition lub SXCE][19] są dostarczane z preinstalowanym Ruby’m.
-
-Aby zainstalować ręcznie pakiety SVR4, zobacz [RubyOpenSolaris project @
-Rubyforge][20].
+* [IronRuby][14] implementacja w języku C# dla platformy .NET. Na
+  systemach uniksowych można zainstalować za pomocą RVM.
 
 
 
-[1]: http://www.ruby-lang.org/en/about/license.txt 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/ 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p420.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ 
-[7]: http://rubyinstaller.org 
-[8]: http://rvm.beginrescueend.com/ 
-[9]: http://www.macruby.org/trac/wiki/MacRuby 
-[10]: http://locomotive.raaum.org/ 
-[11]: http://www.macports.org/ 
-[12]: http://fink.sourceforge.net/ 
-[13]: http://www.sunfreeware.com 
-[14]: http://www.blastwave.org 
-[15]: http://cooltools.sunsource.net/coolstack 
-[16]: http://www.opensolaris.org 
-[17]: http://opensolaris.org/os/project/pkg/ 
-[18]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/ 
-[19]: http://opensolaris.org/os/downloads 
-[20]: http://rubyforge.org/projects/rubyopensolaris 
+[1]: http://ftp.ruby-lang.org/pub/ruby/ 
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.gz 
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.gz 
+[4]: http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz 
+[5]: https://github.com/sstephenson/rbenv 
+[6]: https://rvm.io/ 
+[7]: http://rubyinstaller.org/ 
+[8]: http://railsinstaller.org/ 
+[9]: http://www.rubyenterpriseedition.com/ 
+[10]: http://jruby.org 
+[11]: http://rubini.us 
+[12]: http://maglev.github.com/ 
+[13]: http://www.macruby.org/ 
+[14]: http://www.ironruby.net/ 

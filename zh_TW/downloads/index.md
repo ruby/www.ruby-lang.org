@@ -12,7 +12,7 @@ lang: zh_TW
 如果您非常熟悉您的作業系統，或是您需要特別設定的環境，那麼直接使用原始碼來安裝是個不錯的方式。如果您的平台沒有編譯好的套件，那麼也必須透過原始碼來安裝。
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:  {{ site.downloads.stable.md5 }}) 穩定版本 (*推薦*)
+  (md5:&nbsp;{{ site.downloads.stable.md5 }}) 穩定版本 (*推薦*)
 * [Stable Snapshot][3] 這是 SVN 中最新的穩定版本，它應該比上一個穩定版本更好。
 * [Nightly Snapshot][4] 這是 SVN 中最新的開發版本，它也許包含了一些已知尚未解決的問題。
 
@@ -25,14 +25,14 @@ Core](/en/community/ruby-core/) 頁面。
 ，這是一個編譯好的安裝包(Installer)。第二個選項則是編譯好的執行檔。如果您不確定怎麼安裝，那麼建議您用安裝包(Installer)的方式。
 
 * [Ruby 1.8.6-p398 RubyInstaller][6]
-  (md5: 233d6b3ddc4c61436b075b51254cd138) 穩定版本 (*推薦*)
+  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) 穩定版本 (*推薦*)
 * [Ruby 1.8.7-p302 RubyInstaller][7]
-  +(md5: 9391a3dddbbda3ee8aa3bb368fdc5279) 穩定版本 (*推薦*)
+  +(md5:&nbsp;9391a3dddbbda3ee8aa3bb368fdc5279) 穩定版本 (*推薦*)
 * [Ruby 1.9.1-p430 RubyInstaller][8]
-  (md5: 86ac589a955898c3163b161d81750a05) 穩定版本 (*推薦*)
-* [Ruby 1.8.7-p249 Binary][9] (md5: 4fd37b0b4b21a042cae7f5f0a8daad16)
+  (md5:&nbsp;86ac589a955898c3163b161d81750a05) 穩定版本 (*推薦*)
+* [Ruby 1.8.7-p249 Binary][9] (md5:&nbsp;4fd37b0b4b21a042cae7f5f0a8daad16)
   穩定版本
-* [Ruby 1.9.1-p378 Binary][10] (md5: 7d14a918cc8d243d3e2c409aff41f454)
+* [Ruby 1.9.1-p378 Binary][10] (md5:&nbsp;7d14a918cc8d243d3e2c409aff41f454)
   穩定版本
 
 請注意以上的 Binaries 執行檔除了需要您手動下載，還需要一些額外的元件，請參考 [這一篇][11] 一步步執行。

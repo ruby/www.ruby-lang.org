@@ -66,10 +66,46 @@ def html_to_markdown(content_div)
   ).to_kramdown
 end
 
+
+namespace :check do
+
+  def lang_variable_defined?(filename)
+    match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
+    return false  unless match_data
+    front_matter = match_data[1]
+
+    front_matter =~ /^lang: [a-zA-Z_]*$/
+  end
+
+  desc "Checks for missing lang variables in markdown files"
+  task :lang do
+    print "Checking for missing lang variables in markdown files..."
+
+    md_files = Dir["**/*.md"]
+    skip_patterns = [/README.md/, %r{[^/]*/examples/}]
+
+    skip_patterns.each do |pattern|
+      md_files.delete_if {|fn| fn =~ pattern }
+    end
+
+    lang_missing = md_files.select {|fn| !lang_variable_defined?(fn) }
+    if lang_missing.empty?
+      puts " ok"
+    else
+      puts "\nNo lang variable defined in:"
+      puts lang_missing.map {|s| "  #{s}\n"}.join
+    end
+  end
+end
+
+desc "Carries out some tests"
+task :check => ['check:lang']
+
+
 namespace :import do
   desc "Spiders #{HOST} and converts HTML to Markdown"
   task :pages do
-    Spidr.site("http://www.#{HOST}/index.html") do |agent|
+    Spidr.site("http://#{HOST}/index.html") do |agent|
       agent.ignore_links_like /\/cgi-bin\//
       agent.ignore_links_like /\.cgi[\/]?$/
       agent.ignore_links_like /\/[a-z_]+\/feeds\//
@@ -89,12 +125,12 @@ namespace :import do
           File.open(local_path,'w') do |file|
             if page.html?
               title = page.title.strip
-              lang  = path.split('/',2).first
+              lang  = local_path.split('/',3)[1]
 
               # add the YAML front matter
               file.puts(
                 '---',
-                "layout: default",
+                "layout: page",
                 "title: #{title.inspect}",
                 "lang: #{lang}",
                 '---',

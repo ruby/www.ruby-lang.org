@@ -45,7 +45,10 @@ lang: zh_cn
 
 大多数编程语言都是用 `for` 循环来完成迭代的，比如在 C 里面：
 
-    for (i=0; i<number_of_elements i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 这样也成，不过不那么优美。您需要一个没什么意思的 `i` 来监控列表长度和检测循环退出的判断。 Ruby
 的方法对比来看就更清爽，所有的清理工作都被隐藏在 `each` 函数里了， 您只需要告诉它您想做什么。在 `each`

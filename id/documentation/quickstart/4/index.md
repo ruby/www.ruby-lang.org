@@ -59,7 +59,10 @@ dengan name tersebut.
 Kebanyakan bahasa-bahasa pemrograman lain menangani list dengan
 menggunakan perulangan `for`, kalau di C seperti ini:
 
-    for (i=0; i<total_elemen i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 Kode diatas memang jalan, tetapi tidak begitu elegan. Anda perlu
 variabel `i`, untuk mencari tahu berapa panjang/total list, dan juga

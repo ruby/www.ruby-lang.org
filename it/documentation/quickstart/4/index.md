@@ -53,7 +53,10 @@ Qui, per ogni elemento della lista `nome` viene eseguita l’espressione
 Molti altri linguaggi di programmazione esaminano una lista utilizzando
 il ciclo `for`, in C si ottiene qualcosa di simile:
 
-    for (i=0; i<numero_di_elementi i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 Funziona ma non è molto elegante. C’è bisogno di una variabile come `i`,
 capire quanto è lunga la lista e creare una funzione da ripetere. In

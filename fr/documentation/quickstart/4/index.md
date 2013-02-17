@@ -68,7 +68,10 @@ les noms, dans l’ordre de la liste `names`.
 La plupart des autres langages utilisent un itérateur célèbre, la «
 boucle for », ce qui donne par exemple en C :
 
-    for (i=0; i<number_of_elements i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 Ce qui fonctionne parfaitement, mais n’est pas spécialement élégant.
 Vous devez en effet définir une variable locale telle que `i`,

@@ -59,7 +59,10 @@ das aktuelle Listenelement gebunden und dann der Ausdruck `puts "Hallo,
 Die meisten anderen Programmiersprachen behandeln einen Listendurchlauf
 mit einer `for`-Schleife, was in C in etwa so aussieht:
 
-    for (i=0; i<anzahl_der_elemente i>
+    for (i=0; i<number_of_elements; i++)
+    {
+      do_something_with(element[i]);
+    }
 
 Das funktioniert auch, ist aber nicht besonders elegant. Man benötigt
 eine “Wegwerf-Variable” wie `i`, man muss die Größe der Liste kennen,
