@@ -709,16 +709,16 @@ locales:
           url: /ja/community/mailing-lists/
           description: |
             世界中のプログラマとRubyについて話しましょう。
-         user_groups:
-           text: 日本Rubyの会
-           url: http://ruby-no-kai.org/
-           description: |
-             Rubyの利用者/開発者の支援を目的としたグループです。
-         weblogs:
-           text: 更新順リンク
-           url: http://www.rubyist.net/~kazu/samidare/
-           description: |
-             Ruby関連のサイトのリンクを更新順に並べたものです。
+        user_groups:
+          text: 日本Rubyの会
+          url: http://ruby-no-kai.org/
+          description: |
+            Rubyの利用者/開発者の支援を目的としたグループです。
+        weblogs:
+          text: 更新順リンク
+          url: http://www.rubyist.net/~kazu/samidare/
+          description: |
+            Ruby関連のサイトのリンクを更新順に並べたものです。
 #       ruby_core:
 #         text: Ruby Core
 #         url: /en/community/ruby-core/
