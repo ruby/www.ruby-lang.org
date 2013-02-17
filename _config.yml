@@ -810,10 +810,10 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby w 20 Minut
-          url: /ko/documentation/quickstart/
+          url: /pl/documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby a inne języki programowania
-          url: /ko/documentation/ruby-from-other-languages/
+          url: /pl/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Poznaj</strong> nowy świat…
         documentation:
