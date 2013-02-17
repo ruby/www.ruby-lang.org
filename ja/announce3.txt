@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+= WWW/FTPサービス再開のお知らせ
+
+コンテンツの検証作業が終了しましたので、WWW/FTPサービスを再開いた
+しました。
+
+  <URL:http://www.ruby-lang.org/>
+  <URL:ftp://ftp.ruby-lang.org/>
+
+検証作業の内容については後日改めてご報告いたしますので、今しばら
+くお待ちください。
+
+なお、しばらくの間は、メンテナンスのためサービスを停止することが
+あるかもしれませんが、御了承ください。
+
+2004年6月15日 ruby-lang.org管理グループ
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFAzwCbZ3GizHGDKdwRAsJYAJ4siwbRreZVAZv8jtmarQS5BkTqbgCgpxo+
+Bcs8ASRT24NKuk2LWnUeLD4=
+=E275
+-----END PGP SIGNATURE-----

@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+= Anonymous CVSサービス再開のお知らせ
+
+安全のための対策が完了しましたので、Anonymous CVSサービスを再開いたし
+ました。
+
+以下の手順でRubyの最新のソースコードを入手することができます。
+
+  $ cvs -d :pserver:anonymous@cvs.ruby-lang.org:/src login
+  (Logging in to anonymous@cvs.ruby-lang.org)
+  CVS password: [Enter]
+  $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src co ruby
+
+パスワードは必要ありません。
+
+CVSupも利用可能です。supfileは<URL:http://cvs.ruby-lang.org/cvsup/>で
+入手できます。
+
+なお、CVSレポジトリの内容に改竄がないことは、管理グループによって確認
+されております。
+検証作業の内容については後日改めてご報告いたしますので、今しばらくお待
+ちください。
+
+2004年6月22日
+ruby-lang.org管理グループ
+前田 修吾 <shugo@ruby-lang.org>
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFA16FmZ3GizHGDKdwRAlPJAJ0dJDDfiqCllWsuc8WGqiI+jtf2ggCeNmjy
+enx9cMdU4bYwRCvRw/nRXao=
+=HU3t
+-----END PGP SIGNATURE-----

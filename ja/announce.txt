@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+= helium.ruby-lang.orgがクラックされました
+
+平素はruby-lang.orgのサービスをご利用いただき、
+ありがとうございます。
+
+当サイトで提供しておりますCVSサーバの脆弱性を利用し、
+何者かがhelium.ruby-lang.orgに侵入していたことを、
+2004年5月28日(金)にサイト管理者が確認いたしました。
+
+幸いcvsプロセス自体はchroot環境で実行していたため、
+他のサービス・コンテンツへの影響の可能性が低いと考えておりますが、
+改竄等が行われていないかなど、現在確認作業を行っております。
+現在のところ、改竄されたアプリケーション・コンテンツは
+見つかっておりません。
+
+もっとも影響が懸念されているのはCVSレポジトリですが、少なくとも
+以下の配布物に関しては改竄がないことが確認されています。
+
+5d52c7d0e6a6eb6e3bc68d77e794898e  ruby-1.8.1.tar.gz
+bf48d49dbd94b5c0eda5f75b3bfbac16  ruby-1.6.8.tar.gz
+
+なお、現在、当サイトで提供しているサービスはメーリングリストのみ
+となっております。
+CVS/WWW/FTP/RSYNCにつきましては、申し訳ありませんがサービスを
+停止させていただいております。
+
+今後もこの件に関する情報をhttp://www.ruby-lang.org/で情報を提供して
+まいります。
+より詳しい情報が必要な場合、admin@ruby-lang.org宛にメールをお送りください。
+
+みなさまにはご迷惑をおかけして申し訳ございませんが、
+何卒よろしくお願い申し上げます。
+
+2004年5月29日 ruby-lang.org 管理グループ
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFAuDXAZ3GizHGDKdwRAqsuAJ9oR/WlgbCthK7odKEQ5afDvSf5QwCdFTVu
+j7loh0EBKUFaLniPEK3Bu/Q=
+=r9pN
+-----END PGP SIGNATURE-----
