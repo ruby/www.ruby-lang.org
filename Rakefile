@@ -270,7 +270,20 @@ namespace :check do
 
       agent.every_page do |page|
         if page.code == 404
-          puts "Broken Link: #{page.url} on #{url_map[page.url].last}"
+          origin = url_map[page.url].last
+          dest   = page.url.request_uri
+
+          external = URI::HTTP.build(
+            :host  => HOST,
+            :path  => page.url.path,
+            :query => page.url.query
+          )
+
+          if Net::HTTP.get_response(external).code == '404'
+            puts "Old Broken Link: #{origin} -> #{dest}"
+          else
+            puts "New Broken Link: #{origin} -> #{dest}"
+          end
         end
       end
     end
