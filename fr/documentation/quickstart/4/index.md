@@ -32,8 +32,8 @@ temps :
       end
     end
 
-Elle jette maintenant un coup d’œil au paramètre `@name` pour décider de
-la suite. S’il s’agit de l’absence de valeur signalée par `nil`, elle
+Elle jette maintenant un coup d’œil au paramètre `@names` pour décider
+de la suite. S’il s’agit de l’absence de valeur signalée par `nil`, elle
 écrira trois points « ... »—ça ne sert à rien de dire bonjour dans le
 vide s’il n’y a personne, n’est-ce pas ?
 

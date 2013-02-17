@@ -82,10 +82,11 @@ die Variablen eines Objekts zu gewähren.
     irb(main):046:1> end
     => nil
 
-In Ruby kann man eine Klasse jederzeit verändern. Das ändert keine
-Objekte, die bereits existieren, aber es beeinflusst sämtliche neuen
-Objekte, die wir erzeugen. Erzeugen wir also ein neues Objekt und
-spielen ein bisschen mit dessen `@name`-Eigenschaft herum.
+In Ruby kann man eine Klasse jederzeit verändern. Die Änderungen werden
+in sämtlichen neu erzeugten Objekten vorhanden sein und darüber hinaus
+sogar von bereits existenten Objekten übernommen. Erzeugen wir also ein
+neues Objekt und spielen ein bisschen mit dessen `@name`-Eigenschaft
+herum.
 
     irb(main):047:0> g = Greeter.new("Andreas")
     => #<0x3c9b0>

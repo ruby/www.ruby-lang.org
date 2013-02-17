@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ruby in Twenty Minutes
+title: "Ruby in Twenty Minutes"
 lang: en
 
 header: |
@@ -16,8 +16,9 @@ header: |
   <h1>Ruby in Twenty Minutes</h1>
 
 ---
-What if we want to say &#8220;Hello&#8221; a lot without getting our fingers
-all tired?  We need to define a method!
+
+What if we want to say “Hello” a lot without getting our fingers all
+tired? We need to define a method!
 
 {% highlight ruby %}
 irb(main):010:0> def h
@@ -27,15 +28,15 @@ irb(main):012:1> end
 {% endhighlight %}
 
 The code `def h` starts the definition of the method. It tells Ruby that
-we&#8217;re defining a method,  that its name is `h`. The next line
-is the body of the method, the same line we saw earlier: `puts "Hello World"`.
-Finally, the last  line `end` tells Ruby we&#8217;re done defining the method.
-Ruby&#8217;s response `=> nil` tells us that it knows we&#8217;re done
-defining the method.
+we’re defining a method, that its name is `h`. The next line is the body
+of the method, the same line we saw earlier: `puts "Hello World"`.
+Finally, the last line `end` tells Ruby we’re done defining the method.
+Ruby’s response `=> nil` tells us that it knows we’re done defining the
+method.
 
 ## The Brief, Repetitive Lives of a Method
 
-Now let&#8217;s try running that method a few times:
+Now let’s try running that method a few times:
 
 {% highlight ruby %}
 irb(main):013:0> h
@@ -46,12 +47,12 @@ Hello World!
 => nil
 {% endhighlight %}
 
-Well, that was easy. Calling a method in Ruby is as easy as just mentioning
-its name to Ruby. If the method doesn&#8217;t take  parameters that&#8217;s
-all you need. You can add empty parentheses if you&#8217;d like, but
-they&#8217;re not needed.
+Well, that was easy. Calling a method in Ruby is as easy as just
+mentioning its name to Ruby. If the method doesn’t take parameters
+that’s all you need. You can add empty parentheses if you’d like, but
+they’re not needed.
 
-What if we want  to say hello to one person, and  not the whole world?
+What if we want to say hello to one person, and not the whole world?
 Just redefine `h` to take a name as a parameter.
 
 {% highlight ruby %}
@@ -64,14 +65,14 @@ Hello Matz!
 => nil
 {% endhighlight %}
 
-So it  works&#8230; but let&#8217;s take a  second to see what&#8217;s  going on here.
+So it works… but let’s take a second to see what’s going on here.
 
 ## Holding Spots in a String
 
-What&#8217;s the `#{name}` bit? That&#8217;s Ruby&#8217;s way of inserting
-something into a string. The bit between the braces is turned into a string
-(if it isn&#8217;t one already) and then substituted into the outer string
-at that point. You  can also use this to make sure that someone&#8217;s name is
+What’s the `#{name}` bit? That’s Ruby’s way of inserting something into
+a string. The bit between the braces is turned into a string (if it
+isn’t one already) and then substituted into the outer string at that
+point. You can also use this to make sure that someone’s name is
 properly capitalized:
 
 {% highlight ruby %}
@@ -87,17 +88,17 @@ Hello World!
 => nil
 {% endhighlight %}
 
-A couple of other tricks to spot here. One is that we&#8217;re calling
-the method without parentheses again. If it&#8217;s  obvious what
-you&#8217;re doing, the parentheses are optional. The other trick is the default
-parameter `World`.  What this is saying is &#8220;If the name isn&#8217;t
-supplied, use the default name of `"World"`&#8221;.
+A couple of other tricks to spot here. One is that we’re calling the
+method without parentheses again. If it’s obvious what you’re doing, the
+parentheses are optional. The other trick is the default parameter
+`World`. What this is saying is “If the name isn’t supplied, use the
+default name of `"World"`”.
 
 ## Evolving Into a Greeter
 
 What if we want a real greeter around, one that remembers your name and
-welcomes you and treats you always with respect.  You might  want to use an
-object for  that.  Let&#8217;s create a &#8220;Greeter&#8221; class.
+welcomes you and treats you always with respect. You might want to use
+an object for that. Let’s create a “Greeter” class.
 
 {% highlight ruby %}
 irb(main):024:0> class Greeter
@@ -114,9 +115,11 @@ irb(main):034:1> end
 => nil
 {% endhighlight %}
 
-The new keyword here is `class`. This defines a new class called
-Greeter and a bunch of methods for that class. Also notice `@name`.
-This is an instance variable, and is available to all the methods of
-the class. As you can see it&#8217;s used by `say_hi` and `say_bye`.
+The new keyword here is `class`. This defines a new class called Greeter
+and a bunch of methods for that class. Also notice `@name`. This is an
+instance variable, and is available to all the methods of the class. As
+you can see it’s used by `say_hi` and `say_bye`.
 
-So how do we get this Greeter class set in motion? [Create an object.](../3/)
+So how do we get this Greeter class set in motion? [Create an
+object.](../3/)
+

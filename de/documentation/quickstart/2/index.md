@@ -8,7 +8,7 @@ Was machen wir, wenn wir ganz oft “Hallo” sagen wollen, ohne uns die
 Finger wund zu tippen? Wir definieren eine Methode!
 
     irb(main):010:0> def h
-    irb(main):011:1> puts "Hallo, Welt!"
+    irb(main):011:1>   puts "Hallo, Welt!"
     irb(main):012:1> end
     => nil
 
@@ -42,7 +42,7 @@ Welt sagen möchten? Dann definieren wir `h` einfach neu, so dass ein
 Name als Parameter akzeptiert wird:
 
     irb(main):015:0> def h(name)
-    irb(main):016:1> puts "Hallo, #{name}!"
+    irb(main):016:1>   puts "Hallo, #{name}!"
     irb(main):017:1> end
     => nil
     irb(main):018:0> h("Matz")
@@ -62,7 +62,7 @@ man auch dazu benutzen, um sicherzugehen, dass der Name einer Person mit
 einem Großbuchstaben anfängt:
 
     irb(main):019:0> def h(name = "Welt")
-    irb(main):020:1> puts "Hallo, #{name.capitalize}!"
+    irb(main):020:1>   puts "Hallo, #{name.capitalize}!"
     irb(main):021:1> end
     => nil
     irb(main):022:0> h "chris"
