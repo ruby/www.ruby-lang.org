@@ -10,40 +10,41 @@ allgemeinere Fälle ausgelegt ist, ist Ruby sicher einen Blick wert.
 
 ### Gemeinsamkeiten
 
- Genauso wie in PHP ist Ruby… * Ruby is dynamically typed, like in PHP, so you don’t need to worry
-  about having to declare variables.
-* there are classes, and you can control access to them like in PHP 5
-  (`public`, `protected` and `private`)
+ Genauso wie in PHP ist Ruby… * Ruby ist eine dynamisch typisierte Sprache, so dass man sich keine
+  Gedanken um die Deklaration von Variablen machen muss.
+* Ruby kennt Klassen und die gleichen Mechanismen für die
+  Zugriffskontrolle wie PHP 5 (`public`, `protected` und `private`)
 * Einige Variablen beginnen mit $, genau wie in PHP (aber nicht alle).
-* there’s `eval`, too.
-* you can use string interpolating. Instead of doing ”$foo is a $bar”,
-  you can do ”#\{foo} is a #\{bar}”—like in PHP, this doesn’t apply for
-  single-quoted strings.
-* there’s heredocs
-* Ruby has exceptions, like PHP 5
-* there’s a fairly large standard library
-* arrays and hashes work like expected, if you exchange `array()` for
-  `{` and `}`\: `array('a' => 'b')` becomes `{'a' => 'b'}`.
+* Es gibt auch das Schlüsselwort `eval`
+* Natürlich kennt auch Ruby string interpolation, wenn doppelte
+  Anführungstriche verwendet werden – man kann also ”#\{foo} und
+  #\{bar}” schreiben. Und wie in PHP funktioniert das bei einfachen
+  Anführungstrichen nicht.
+* Es gibt auch heredocs.
+* Wie in PHP 5 gibt es auch in Ruby Exceptions.
+* Es gibt eine ziemlich umfangreiche Standard-Bibliothek.
+* Standard-Arrays und Assoziative-Arrays (Hashes) funktionieren wie in
+  PHP, man braucht nur weniger zu tippen: aus `array('a' => 'b')` wird
+  einfach `{'a' => 'b'}`.
 * `true` und `false` verhalten sich wie in PHP, aber `null` wird mit
   `nil` bezeichnet
 
 ### Unterschiede
 
- Im Gegensatz zu PHP hat Ruby… * there’s strong typing. You’ll need to call `to_s`, `to_i` etc. to
-  convert between strings, integers and so on, instead of relying on the
-  language to do it
-* strings, numbers, arrays, hashes, etc. are objects. Instead of calling
-  abs(-1) it’s -1.abs
-* paranthesis are optional in method calls, except to clarify which
-  parametres go to which method calls
-* instead of naming conditions, like underscores, the standard library
-  and extensions are organized in modules and classes
-* reflection is an inherent capatibility of objects, you don’t need to
-  use `Reflection` classes like in PHP 5
-* variables are references.
-* there’s no `abstract` classes or `interface`s
-* hashes and arrays are not interchangable
+ Im Gegensatz zu PHP hat Ruby… * Es gibt auch strenge Typisierung: man muss explizit Funktionen zur
+  Typkonvertierung aufrufen. Z.B. `to_s` oder `to_i`
+* strings, numbers, arrays, hashes, etc. sind Objekte. Also statt
+  abs(-1) schreibt man in Ruby -1.abs
+* Parameter bei Methodenaufrufen brauchen nicht in runde Klammern
+  gesetzt werden – außer, falls notwendig, um Mehrdeutigkeit zu
+  vermeiden.
+* Die Ruby Standard Bibliothek ist in Modulen und Klassen organisiert.
+* Objekte bringen Reflection-Eigenschaften bereits mit. Die Verwendung
+  einer besondern `Reflection` Klasse, wie in PHP 5, ist nicht notwendig
+* Variablen sind Referenzen
+* Es gibt keine `abstract` Klassen und auch keine @interface@s
+* Hashes und Arrays sind verschiedene Typen in Ruby.
 * nur `false` und `nil` liefern false: `0`, `array()` und `""` ergeben
-  in Bedingungen true.
-* fast alles ist Methodenaufruf, sogar `raise` (`throw` in PHP).
+  in Bedingungen true. \* fast alles ist Methodenaufruf, sogar `raise`
+  (`throw` in PHP).
 

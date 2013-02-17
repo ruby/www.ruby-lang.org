@@ -40,6 +40,8 @@ to learn than with Python.
   to `"add " + "strings " + "together"`). Single-quoted strings are like
   Python’s `r"raw strings"`.
 * There are no “new style” and “old style” classes. Just one kind.
+  (Python 3+ doesn’t have this issue, but it isn’t fully backward
+  compatible with Python 2.)
 * You never directly access attributes. With Ruby, it’s all method
   calls.
 * Parentheses for method calls are usually optional.
