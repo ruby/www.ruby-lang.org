@@ -1,7 +1,7 @@
 auto: true
 server: true
 markdown: kramdown
-permalink: date
+permalink: pretty
 pygments: true
 
 downloads:
