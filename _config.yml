@@ -546,6 +546,11 @@ locales:
           url: /fr/feeds/news.rss
 
   credits:
+    bg: |
+      Този сайт е разработен на Ruby и използва <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      Поддържа се от <a href="http://rubyidentity.org">членове на Ruby
+      обществото</a>. Моля, свържете се с нашия <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      за въпроси или коментари относно сайта.
     de: |
       Diese Webseite wurde mit Ruby unter Verwendung von <a href="http://www.jekyllrb.com/">Jekyll</a> erstellt.
       Sie wird mit Stolz von <a href="http://rubyidentity.org">Mitgliedern der Ruby-Community</a> gepflegt.
