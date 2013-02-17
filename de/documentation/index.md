@@ -31,61 +31,68 @@ Ruby-Programmieren sicher nützlich sein werden.
   Egal ob C, C++, Java, Perl, PHP, oder Python – dieser Artikel ist für
   Dich!
 
+[Programmieren lernen mit Ruby][4]
+: Ein wunderbares kleines Tutorial, um Programmieren zu lernen, mit Ruby
+  als erster Sprache. Wenn Du Anfänger bist, dann starte hier. Deutsche
+  Übersetzung der populären englischen Einführung [Learn To Program][5].
+
 ### Anleitungen
 
-[Programming Ruby][4]
+[Programming Ruby][6]
 : Dies ist die erste Auflage des bekannten Pickaxe Buches der Pragmatic
   Programmers. Es ist im Moment kostenlos im Internet verfügbar.
 
-[Ruby User’s Guide][5]
+[Ruby User’s Guide][7]
 : Übersetzung der japanischen Version von Yukihiro Matsumoto (der Vater
   von Ruby), diese Seite bietet einen Überblick über viele Aspekte der
   Programmiersprache Ruby (englisch).
 
-[Programmieren mit Ruby][6]
+[Programmieren mit Ruby][8]
 : Ein deutschsprachiges Buch zum Thema Ruby von Armin Roehrl, Stefan
   Schmiedl und Clemens Wyss. Es steht vollständig kostenlos im Internet
   zur Verfügung.
 
 ### Referenzdokumentation
 
-[Referenz zu Rubys Standardklassen][7]
+[Referenz zu Rubys Standardklassen][9]
 : Dies ist die Referenz-Dokumentation des Rubykerns. Es handelt sich
   hierbei um eine aus dem Quelltext generierte Dokumentation (englisch).
 
-[Referenz zu Rubys Standardbibliotheken][8]
+[Referenz zu Rubys Standardbibliotheken][10]
 : Dies ist die Referenz-Dokumentation der Standardbibliothek. Diese
   Dokumentation wird ebenfalls direkt aus dem Quelltext generiert
   (englisch).
 
-[Referenz zu Rubys C-API][9]
+[Referenz zu Rubys C-API][11]
 : Eine C-API-Dokumentation von Ruby. Für Erweiterungen von Ruby ist
   dieses API absolut unverzichtbar. Es beschreibt die vordefinierten
   Schnittstellen für Erweiterungen in der Programmiersprache C und wie
   diese sowohl von der Ruby- als auch der C-Seite aus verwendet werden.
 
-[RubyDoc.info][10]
+[RubyDoc.info][12]
 : Die Referenzdokumentation für Ruby, Gems und auf GitHub gehostete
   Ruby-Projekte.
 
 ### Weitere Informationen
 
-[Ruby-Doc.org][11] ist eine große Quelle von englischsprachigen
-Dokumenten zum Thema Ruby. Das [Rubywiki][12] ist ein Wiki mit vielen
+[Ruby-Doc.org][13] ist eine große Quelle von englischsprachigen
+Dokumenten zum Thema Ruby. Das [Rubywiki][14] ist ein Wiki mit vielen
 deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [Community](/de/community/) zur Verfügung.
 
 
 
 [1]: http://tryruby.org 
-[2]: http://hacketyhack.heroku.com/ 
+[2]: http://hackety-hack.com/ 
 [3]: http://mislav.uniqpath.com/poignant-guide/ 
-[4]: http://home.vrweb.de/~juergen.katins/ruby/buch/index.html 
-[5]: http://www.rubyist.net/~slagell/ruby/ 
-[6]: http://www.approximity.com/rubybuch2/ 
-[7]: http://www.ruby-doc.org/core 
-[8]: http://www.ruby-doc.org/stdlib 
-[9]: http://www.ruby-doc.org/doxygen/current/ 
-[10]: http://www.rubydoc.info/ 
-[11]: http://ruby-doc.org 
-[12]: http://wiki.ruby-portal.de 
+[4]: http://www.moccasoft.de/papers/ruby_tutorial 
+[5]: http://pine.fm/LearnToProgram/ 
+[6]: http://home.vrweb.de/~juergen.katins/ruby/buch/index.html 
+[7]: http://www.rubyist.net/~slagell/ruby/ 
+[8]: http://www.approximity.com/rubybuch2/ 
+[9]: http://www.ruby-doc.org/core 
+[10]: http://www.ruby-doc.org/stdlib 
+[11]: http://www.ruby-doc.org/doxygen/current/ 
+[12]: http://www.rubydoc.info/ 
+[13]: http://ruby-doc.org 
+[14]: http://wiki.ruby-portal.de 

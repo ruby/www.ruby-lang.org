@@ -64,7 +64,7 @@ Ruby.
 
 [Ruby Core Reference][13]
 : Vindo directamente do código-fonte através de [RDoc][14], esta
-  referência trabalha todos os documentos das classes do núcleo e
+  referência trabalha todos os documentos das classes do núcleo  e
   módulos (como String, Array, Sumbol, etc…).
 
 [Ruby Standard Library Reference][15]
