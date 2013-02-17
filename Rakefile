@@ -81,7 +81,7 @@ namespace :import do
         local_path = url_to_path(page.url)
 
         # ensure the parent directory exists
-        mkdir_p File.dirname(local_path)
+        FileUtils.mkdir_p File.dirname(local_path)
 
         # don't overwrite existing files
         unless File.exist?(local_path)
