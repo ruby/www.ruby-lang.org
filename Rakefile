@@ -27,6 +27,26 @@ def url_to_path(url)
   return local_path
 end
 
+def highlight(code, language_class)
+  language = {
+    'ruby-code'   => 'ruby',
+    'sh-code'     => 'sh',
+    'bash-code'   => 'sh',
+    'java-code'   => 'java',
+    'perl-code'   => 'perl',
+    'python-code' => 'python'
+  }
+
+  lang = language[language_class]
+  if lang
+    "{% highlight #{lang} %}\n" <<
+    code << "\n" <<
+    "{% endhighlight %}"
+  else
+    code << "\n{: .code}"
+  end
+end
+
 def html_to_markdown(content_div)
   # remove all comments
   content_div.traverse do |node|
@@ -41,8 +61,25 @@ def html_to_markdown(content_div)
     span.replace(span.inner_text)
   end
 
-  # remove the 'class' attribute from all pre tags
-  content_div.search('pre').remove_attr('class')
+  # add Jekyll highlight tag to all pre elements
+  # with class="code xy-code"
+  content_div.search('pre.code').each do |pre|
+    classes = pre['class'].split
+    next  unless classes.size == 2
+
+    lang = classes.reject {|e| e == 'code' }.first
+
+    # map all code elements to their inner_text
+    pre.search('code').each do |code|
+      code.replace(highlight(code.children.map { |node|
+        if node.name == 'br'
+          $/
+        else
+          node.inner_text
+        end
+      }.join, lang))
+    end
+  end
 
   # map all code elements to their inner_text
   content_div.search('pre > code').each do |code|
@@ -54,6 +91,9 @@ def html_to_markdown(content_div)
       end
     }.join)
   end
+
+  # remove the 'class' attribute from all pre tags
+  content_div.search('pre').remove_attr('class')
 
   # replace the #extended div with it's children
   if (extended_div = content_div.at('#extended'))
