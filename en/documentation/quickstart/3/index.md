@@ -131,8 +131,8 @@ Hi Betty!
 => nil
 {% endhighlight %}
 
-Using `attr_accessor`  defined two new  methods for us, `name`  to get
-the value, and `name=` to set it.
+Using `attr_accessor` defined two new methods for us, `name` to get the
+value, and `name=` to set it.
 
 ## Greeting Anything and Everything, MegaGreeter Neglects None!
 
