@@ -6,23 +6,27 @@ lang: fr
 
 Maintenant, créons un objet de la classe `Greeter` et animons-le :
 
-    irb(main):035:0> g = Greeter.new("Pat")
-    => #<Greeter:0x16cac @name="Pat">
-    irb(main):036:0> g.say_hi
-    Hi Pat!
-    => nil
-    irb(main):037:0> g.say_bye
-    Bye Pat, come back soon.
-    => nil
+{% highlight ruby %}
+irb(main):035:0> g = Greeter.new("Pat")
+=> #<Greeter:0x16cac @name="Pat">
+irb(main):036:0> g.say_hi
+Hi Pat!
+=> nil
+irb(main):037:0> g.say_bye
+Bye Pat, come back soon.
+=> nil
+{% endhighlight %}
 
 Une fois l’objet `g` créé, il se souvient que le nom qui lui est lié est
 Pat, comme indiqué à sa création. Il serait d’ailleurs intéressant de
 pouvoir récupérer directement ce nom. Essayons :
 
-    irb(main):038:0> g.@name
-    SyntaxError: compile error
-    (irb):52: syntax error
-            from (irb):52
+{% highlight ruby %}
+irb(main):038:0> g.@name
+SyntaxError: compile error
+(irb):52: syntax error
+        from (irb):52
+{% endhighlight %}
 
 Whoa, ça n’a pas l’air possible pour l’instant.
 
@@ -41,17 +45,19 @@ données et variables qui les renferment.
 Quelles sont les méthodes disponibles pour nos instances de la classe
 `Greeter` ?
 
-    irb(main):039:0> Greeter.instance_methods
-    => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "say_hi", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+{% highlight ruby %}
+irb(main):039:0> Greeter.instance_methods
+=> ["method", "send", "object_id", "singleton_methods",
+    "__send__", "equal?", "taint", "frozen?",
+    "instance_variable_get", "kind_of?", "to_a",
+    "instance_eval", "type", "protected_methods", "extend",
+    "eql?", "display", "instance_variable_set", "hash",
+    "is_a?", "to_s", "class", "tainted?", "private_methods",
+    "untaint", "say_hi", "id", "inspect", "==", "===",
+    "clone", "public_methods", "respond_to?", "freeze",
+    "say_bye", "__id__", "=~", "methods", "nil?", "dup",
+    "instance_variables", "instance_of?"]
+{% endhighlight %}
 
 Ouch. Voilà une sacré liste de méthodes. Et pourtant, nous n’en avons
 défini que deux… d’où sortent donc les autres ? En fait, il s’agit d’une
@@ -60,19 +66,23 @@ liste exhaustive des méthodes appliquables aux objets de la classe
 `Greeter`. Si nous voulons obtenir la listes des méthodes définies
 uniquement pour `Greeter`, il suffit de passer le paramètre `false`\:
 
-    irb(main):040:0> Greeter.instance_methods(false)
-    => ["say_bye", "say_hi"]
+{% highlight ruby %}
+irb(main):040:0> Greeter.instance_methods(false)
+=> ["say_bye", "say_hi"]
+{% endhighlight %}
 
 Ok, c’est déjà plus confortable. Et conforme. Vérifions que c’est vrai,
 en testant quelles méthodes reconnaissent effectivement les instances de
 `Greeter`\:
 
-    irb(main):041:0> g.respond_to?("name")
-    => false
-    irb(main):042:0> g.respond_to?("say_hi")
-    => true
-    irb(main):043:0> g.respond_to?("to_s")
-    => true
+{% highlight ruby %}
+irb(main):041:0> g.respond_to?("name")
+=> false
+irb(main):042:0> g.respond_to?("say_hi")
+=> true
+irb(main):043:0> g.respond_to?("to_s")
+=> true
+{% endhighlight %}
 
 Une instance de `Greeter` connaît donc `say_hi` et `to_s` (une méthode
 qui transforme « quelque chose » en une chaîne de caractère et qui est
@@ -84,10 +94,12 @@ Mais nous n’en démordrons pas : il nous *faut* un moyen de récupérer le
 nom lié à un objet. Comment faire ? Ruby propose un moyen très simple
 pour accéder aux variables d’instances :
 
-    irb(main):044:0> class Greeter
-    irb(main):045:1>   attr_accessor :name
-    irb(main):046:1> end
-    => nil
+{% highlight ruby %}
+irb(main):044:0> class Greeter
+irb(main):045:1>   attr_accessor :name
+irb(main):046:1> end
+=> nil
+{% endhighlight %}
 
 Il semblerait que nous ayons défini une seconde fois la classe
 `Greeter`... mais il n’en est rien. Nous l’avons simplement « ré-ouverte
@@ -95,24 +107,26 @@ Il semblerait que nous ayons défini une seconde fois la classe
 disponibles dans tout objet nouvellement créé, ainsi que dans ceux déjà
 existants ! Créons un nouvel objet et testons l’artifice :
 
-    irb(main):047:0> g = Greeter.new("Andy")
-    => #<Greeter:0x3c9b0 @name="Andy">
-    irb(main):048:0> g.respond_to?("name")
-    => true
-    irb(main):049:0> g.respond_to?("name=")
-    => true
-    irb(main):050:0> g.say_hi
-    Hi Andy!
-    => nil
-    irb(main):051:0> g.name="Betty"
-    => "Betty"
-    irb(main):052:0> g
-    => #<Greeter:0x3c9b0 @name="Betty">
-    irb(main):053:0> g.name
-    => "Betty"
-    irb(main):054:0> g.say_hi
-    Hi Betty!
-    => nil
+{% highlight ruby %}
+irb(main):047:0> g = Greeter.new("Andy")
+=> #<Greeter:0x3c9b0 @name="Andy">
+irb(main):048:0> g.respond_to?("name")
+=> true
+irb(main):049:0> g.respond_to?("name=")
+=> true
+irb(main):050:0> g.say_hi
+Hi Andy!
+=> nil
+irb(main):051:0> g.name="Betty"
+=> "Betty"
+irb(main):052:0> g
+=> #<Greeter:0x3c9b0 @name="Betty">
+irb(main):053:0> g.name
+=> "Betty"
+irb(main):054:0> g.say_hi
+Hi Betty!
+=> nil
+{% endhighlight %}
 
 Le fait d’écrire `attr_accessor` a implicitement défini deux nouvelles
 méthodes à peu de frais : `name` pour récupérer la valeur de la
@@ -132,67 +146,69 @@ simplement `quit`, `exit` ou appuyez sur \[Ctrl\]+\[D\].
 
 Notre fichier va se présenter comme suit :
 
-    #!/usr/bin/env ruby
-    
-    class MegaGreeter
-      attr_accessor :names
-    
-      # Création d'un objet
-      def initialize(names = "World")
-        @names = names
+{% highlight ruby %}
+#!/usr/bin/env ruby
+
+class MegaGreeter
+  attr_accessor :names
+
+  # Création d'un objet
+  def initialize(names = "World")
+    @names = names
+  end
+
+  # Saluer tout le monde
+  def say_hi
+    if @names.nil?
+      puts "..."
+    elsif @names.respond_to?("each")
+
+      # @names est une liste de noms : traitons-les uns par uns
+      @names.each do |name|
+        puts "Hello #{name}!"
       end
-    
-      # Saluer tout le monde
-      def say_hi
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("each")
-    
-          # @names est une liste de noms : traitons-les uns par uns
-          @names.each do |name|
-            puts "Hello #{name}!"
-          end
-        else
-          puts "Hello #{@names}!"
-        end
-      end
-    
-      # Dire au revoir à tout le monde
-      def say_bye
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("join")
-          # Grouper les différents noms de la liste par des virgules
-          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-        else
-          puts "Goodbye #{@names}.  Come back soon!"
-        end
-      end
-    
+    else
+      puts "Hello #{@names}!"
     end
-    
-    
-    if __FILE__ == $0
-      mg = MegaGreeter.new
-      mg.say_hi
-      mg.say_bye
-    
-      # Modifier le nom en Zeke
-      mg.names = "Zeke"
-      mg.say_hi
-      mg.say_bye
-    
-      # Changer le nom pour un tableau (une liste de noms)
-      mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Engelbert"]
-      mg.say_hi
-      mg.say_bye
-    
-      # Maintenant, le nom n'est plus...
-      mg.names = nil
-      mg.say_hi
-      mg.say_bye
+  end
+
+  # Dire au revoir à tout le monde
+  def say_bye
+    if @names.nil?
+      puts "..."
+    elsif @names.respond_to?("join")
+      # Grouper les différents noms de la liste par des virgules
+      puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+    else
+      puts "Goodbye #{@names}.  Come back soon!"
     end
+  end
+
+end
+
+
+if __FILE__ == $0
+  mg = MegaGreeter.new
+  mg.say_hi
+  mg.say_bye
+
+  # Modifier le nom en Zeke
+  mg.names = "Zeke"
+  mg.say_hi
+  mg.say_bye
+
+  # Changer le nom pour un tableau (une liste de noms)
+  mg.names = ["Albert", "Brenda", "Charles",
+    "Dave", "Engelbert"]
+  mg.say_hi
+  mg.say_bye
+
+  # Maintenant, le nom n'est plus...
+  mg.names = nil
+  mg.say_hi
+  mg.say_bye
+end
+{% endhighlight %}
 
 Sauvegardez ce fichier, par exemple en tant que “ri20min.rb”
 (l’extension .rb, pour ruby, est importante sous Windows, d’usage sous
@@ -212,7 +228,7 @@ terminal. Vous devriez y lire ceci :
     back soon!
     ...
     ...
-{: .code .output-code}
+{: .code}
 
 Il y a un certain nombre de choses nouvelles dans ce fichier.
 [Examinons-les en détails](../4/).

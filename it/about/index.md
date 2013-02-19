@@ -65,7 +65,9 @@ come *metodi*. L’approccio puramente orientato agli oggetti di Ruby è
 facilmente dimostrabile dalla seguente porzione di codice che applica
 un’azione ad un numero:
 
-    5.times { print "Ruby è un linguaggio fantastico" }
+{% highlight ruby %}
+5.times { print "Ruby è un linguaggio fantastico" }
+{% endhighlight %}
 
 In molti linguaggi, i numeri e gli altri tipi primitivi non sono
 oggetti, ma Ruby, seguendo l’esempio di Smalltalk, dà metodi e variabili
@@ -83,14 +85,16 @@ mediante l’operatore `+`, ma se preferisci usare la parola `aggiungere`,
 puoi creare tale metodo aggiungendolo alla stessa classe `Numeric`, che
 è predefinita, così:
 
-    class Numeric
-      def aggiungi(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.aggiungi 6
-    # y è ora uguale a 11
+{% highlight ruby %}
+class Numeric
+  def aggiungi(x)
+    self.+(x)
+  end
+end
+
+y = 5.aggiungi 6
+# y è ora uguale a 11
+{% endhighlight %}
 
 Gli operatori di Ruby non sono altro che un modo semplice per eseguire
 operazioni normalmente effettuate dai metodi, e possono essere
@@ -108,10 +112,12 @@ I blocchi sono stati ispirati dai linguaggi funzionali. Matz ha detto,
 “nelle *closures* in Ruby closures, ho voluto rispettare la cultura di
 Lisp<sup>[4](#fn4)</sup>.”
 
-    motori_di_ricerca = 
-      %w[Google Yahoo MSN].map do |sito|
-        "http://www." + sito.downcase + ".com"
-      end
+{% highlight ruby %}
+motori_di_ricerca = 
+  %w[Google Yahoo MSN].map do |sito|
+    "http://www." + sito.downcase + ".com"
+  end
+{% endhighlight %}
 
 In questo pezzo di codice, il blocco è deimitato dal costrutto `do ...
 end`, e il metodo `map` applica il codice del blocco alla lista di
@@ -133,9 +139,11 @@ qualsiasi classe che implementa il metodo `each` può includere il modulo
 `Enumerable` per ottenere una serie di metodi utili che usano il metodo
 `each` per le iterazioni.
 
-    class IlMioArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class IlMioArray
+  include Enumerable
+end
+{% endhighlight %}
 
 Generalmente, gli appassionati di Ruby considerano questa pratica molto
 più pulita e gestibile dell’eredità multipla, che è complessa e può

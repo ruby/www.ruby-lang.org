@@ -67,7 +67,9 @@ dengan nama *variabel instan* dan action, yang disebut sebagai *metode*.
 Pendekatan murni berorientasi obyek terutama terlihat pada demonstrasi
 sedikit kode yang diberikan pada number.
 
-    5.times { print "Kami *cinta* Ruby -- Ruby sungguh aduhai!" }
+{% highlight ruby %}
+5.times { print "Kami *cinta* Ruby -- Ruby sungguh aduhai!" }
+{% endhighlight %}
 
 Di banyak bahasa-bahasa lain, number dan tipe primitif bukan obyek. Ruby
 mengikuti pengaruh bahasa Smalltalk dengan memberikan metode dan
@@ -85,14 +87,16 @@ Misalnya, penambahan dilakukan dengan operator plus (`+`). Tetapi, jika
 Anda ingin menggunakan kata `plus` yang lebih mudah dibaca, maka Anda
 dapat menambahkan metode tersebut pada kelas builtin `Numeric`.
 
-    class Numeric
-      def plus(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.plus 6
-    # y sekarang adalah 11
+{% highlight ruby %}
+class Numeric
+  def plus(x)
+    self.+(x)
+  end
+end
+
+y = 5.plus 6
+# y sekarang adalah 11
+{% endhighlight %}
 
 Demi kemudahan, operator-operator Ruby adalah juga metode. Anda juga
 bisa mendefinisikan ulang operator.
@@ -109,10 +113,12 @@ dari bahasa-bahasa imperatif lain seperti PHP atau Visual Basic.
 Blok terinspirasi dari bahasa-bahasa fungsional. Matz berkata, “Saya
 ingin menghormati kultur Lisp di closure Ruby<sup>[4](#fn4)</sup>.”
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines = 
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
+{% endhighlight %}
 
 Pada kode diatas, blok dijelaskan dalam bentuk `do ... end`. Metode
 `map` memberlakukan blok agar menerima array kata-kata (Google, Yahoo
@@ -134,9 +140,11 @@ setiap kelas yang mengimplementasikan metode `each` bisa mixin module
 `Enumerable`, yang menambahkan banyak metode-metode yang menggunakan
 `each` untuk melakukan perulangan.
 
-    class MyArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MyArray
+  include Enumerable
+end
+{% endhighlight %}
 
 Secara umum, <abbr title="Matz telah mendeklarasikan pengguna Ruby
 disebut Rubyist">Rubyist</abbr> menganggap ini sebagai cara yang lebih

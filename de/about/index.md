@@ -65,7 +65,9 @@ Aktionen *Methoden*. Rubys rein objektorientierter Ansatz wird
 üblicherweise mit einem Stück Code demostriert, in dem die Methode einer
 Zahl aufgerufen wird:
 
-    5.times { print "Wir *lieben* Ruby -- es ist ungeheuerlich!" }
+{% highlight ruby %}
+5.times { print "Wir *lieben* Ruby -- es ist ungeheuerlich!" }
+{% endhighlight %}
 
 In vielen Sprachen sind Zahlen und andere primitive Typen keine Objekte.
 Ruby folgt dem Einfluss von Smalltalk und gibt all ihren Typen Methoden
@@ -83,14 +85,16 @@ Ein Beispiel: In Ruby wird mit dem Plus-Operator (`+`) addiert. Aber
 wenn man lieber das Wort `plus` benutzen möchte, kann man diese Methode
 zu Rubys eingebauter Klasse `Numeric` hinzufügen.
 
-    class Numeric
-      def plus(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.plus 6
-    # y ist jetzt 11
+{% highlight ruby %}
+class Numeric
+  def plus(x)
+    self.+(x)
+  end
+end
+
+y = 5.plus 6
+# y ist jetzt 11
+{% endhighlight %}
 
 Rubys Operatoren sind syntaktischer Zucker für Methoden; man kann sie
 ebenfalls umdefinieren.
@@ -108,10 +112,12 @@ Blöcke sind durch funktionale Programmiersprachen inspiriert. Matz sagt:
 “Mit Ruby-Closures wollte ich die Kultur von LISP
 bewahren<sup>[4](#fn4)</sup>.”
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines = 
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
+{% endhighlight %}
 
 Im obigen Quelltext steht der Block zwischen `do` und `end`. Die Methode
 `map` wendet den Block auf die gegebene Liste von Namen an. Viele andere
@@ -129,9 +135,11 @@ geschenkt. Zum Beispiel kann jede Klasse, die die Methode `each`
 implementiert, das Modul `Enumerable` einmixen, und erhält zwei Dutzend
 neue Methoden, die auf `each` aufbauen (wie `map`).
 
-    class MyArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MyArray
+  include Enumerable
+end
+{% endhighlight %}
 
 Im Allgemeinen halten Rubyisten Mixins für klarer als Mehrfachvererbung,
 die komplex und einschränkend sein kann.

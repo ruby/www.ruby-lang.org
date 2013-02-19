@@ -48,13 +48,15 @@ Ruby。
 
 例如，在 Debian 或 Ubuntu 上的 `apt-get` 提供了簡單又優雅的解決方案：
 
-    % sudo apt-get install ruby1.9.1-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby1.9.1-full
+{% endhighlight %}
 
 以上的指令會安裝 Ruby 1.9.1 穩定版本。如果你偏好安裝 Ruby 1.8，請執行：
 
-    % sudo apt-get install ruby-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby-full
+{% endhighlight %}
 
 對於 irb 和 rdoc 你需要啟動 universe repository。
 
@@ -71,8 +73,9 @@ Mac OS X Leopard 預設安裝了 Ruby 1.8.6、Mac OS X Tiger 則安裝了 Ruby
 
 使用 MacPorts 的話，你可以這樣安裝 Ruby …
 
-    % port install ruby
-{: .code .sh-code}
+{% highlight sh %}
+% port install ruby
+{% endhighlight %}
 
 Fink 則有圖型化介面(使用 Fink 指令)來安裝 Ruby。
 
@@ -92,8 +95,9 @@ Leopard][19] 以及 [給 Snow Leopard][20] 都可以幫助你很快地安裝起�
 要在 [OpenSolaris][24] 上安裝 Ruby，請使用 [Image Packaging System 或 IPS][25]
 。這會從 OpenSolaris network repository 安裝最新的 Ruby 和 Rubygems，很簡單：
 
-    % pfexec pkg install SUNWruby18
-{: .code .sh-code}
+{% highlight sh %}
+% pfexec pkg install SUNWruby18
+{% endhighlight %}
 
 這會安裝 Ruby、Rubygems、常見的擴充以及支援函式庫。這個套件也包括 DTrace 和效能最佳化。進一步的資訊請參考 [Ruby
 OpenSolaris ARC Case][26] 。

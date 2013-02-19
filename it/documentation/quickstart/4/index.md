@@ -12,19 +12,21 @@ avviare il file. Il resto dei commenti invece serve come spiegazione.
 
 Il nostro metodo `saluta` è diventato un pochino più complicato.
 
-    # Say hi to everybody
-    def saluta
-      if @nomi.nil?
-         puts "..."
-      elsif @nomi.respond_to?("each")
-         # @nomi è una lista di qualche tipo, allora iteriamo!
-        @nomi.each do |nome|
-          puts "Ciao #{nome}!"
-        end
-      else
-        puts "Ciao #{@nomi}!"
-      end
+{% highlight ruby %}
+# Say hi to everybody
+def saluta
+  if @nomi.nil?
+     puts "..."
+  elsif @nomi.respond_to?("each")
+     # @nomi è una lista di qualche tipo, allora iteriamo!
+    @nomi.each do |nome|
+      puts "Ciao #{nome}!"
     end
+  else
+    puts "Ciao #{@nomi}!"
+  end
+end
+{% endhighlight %}
 
 Ora controlla la variabile di istanza `@nomi` per prendere una
 decisione. Se è nil, mostra tre puntini: senza nome non possiamo
@@ -38,9 +40,11 @@ automaticamente lo convertiamo in stringa e usiamo il saluto di default.
 
 Vediamo l’iterazione in modo più approfondito:
 
-    @nomi.each do |nome|
-      puts "Ciao #{nome}!"
-    end
+{% highlight ruby %}
+@nomi.each do |nome|
+  puts "Ciao #{nome}!"
+end
+{% endhighlight %}
 
 `each` è un metodo che accetta un bloccho di codice e lo ripete per ogni
 elemento nella lista, il codice tra `do` e `end` è il blocco che verrà
@@ -53,10 +57,12 @@ Qui, per ogni elemento della lista `nome` viene eseguita l’espressione
 Molti altri linguaggi di programmazione esaminano una lista utilizzando
 il ciclo `for`, in C si ottiene qualcosa di simile:
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 Funziona ma non è molto elegante. C’è bisogno di una variabile come `i`,
 capire quanto è lunga la lista e creare una funzione da ripetere. In
@@ -73,17 +79,19 @@ complicato rispetto alle liste. Al di là di semplici esempi all’interno
 del metodo, puoi anche gestire l’inizializzazione, la finalizzazione e
 gli errori. Tutti nascosti dagli occhi indiscreti degli utenti.
 
-    # Congeda tutti
-    def congeda
-      if @nomi.nil?
-        puts "..."
-      elsif @nomi.respond_to?("join")
-        # Unisci gli elementi della lista con delle virgole
-        puts "Arrivederci #{@nomi.join(", ")}. A presto!"
-      else
-        puts "Arrivederci #{@nomi}. A presto!"
-      end
-    end
+{% highlight ruby %}
+# Congeda tutti
+def congeda
+  if @nomi.nil?
+    puts "..."
+  elsif @nomi.respond_to?("join")
+    # Unisci gli elementi della lista con delle virgole
+    puts "Arrivederci #{@nomi.join(", ")}. A presto!"
+  else
+    puts "Arrivederci #{@nomi}. A presto!"
+  end
+end
+{% endhighlight %}
 
 Il metodo `congeda` non usa `each`, ma controlla se `@nomi` risponde al
 metodo `join` e in tal caso viene utilizzato. Se non risponde al metodo
@@ -101,7 +109,9 @@ Quindi questa è la nostra classe AmicoDiTutti, il resto del file si
 preoccupa di chiamare i metodi di questa classe. C’è qualcos’altro che
 dobbiamo vedere:
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` è una variabile “magica” che contiene il nome del file. `$0`
 è il nome del file utilizzato per avviare il programma. Questo controllo

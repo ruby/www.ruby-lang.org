@@ -41,26 +41,29 @@ Dan tentu saja Ruby sendiri ditulis dengan C.
 Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di C:
 
-    #include 
-    
-    int main(int argc, char *argv[]) 
-    {
-        int a, b, c;
-    
-        scanf("%d", &a);
-        scanf("%d", &b);
-    
-        c = a + b;
-        printf("%d\n", c);
-    }
-{: .code .python-code}
+{% highlight python %}
+#include 
+
+int main(int argc, char *argv[]) 
+{
+    int a, b, c;
+
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    c = a + b;
+    printf("%d\n", c);
+}
+{% endhighlight %}
 
 Anda dapat menuliskan program tersebut di Ruby sebagai berikut:
 
-    a = gets.to_i
-    b = gets.to_i
-    c = a + b
-    puts c
+{% highlight ruby %}
+a = gets.to_i
+b = gets.to_i
+c = a + b
+puts c
+{% endhighlight %}
 
 Sumber: [A Very Quick Comparison of Popular Languages for Teaching
 Computer Programming][1]

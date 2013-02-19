@@ -42,8 +42,9 @@ diferentes implementaciones existentes.
 Para instalar RVM es indispensable tener instalado [git][5]. Una vez
 cumplido este requisito se utilizara el siguiente comando.
 
-    $ \curl -L https://get.rvm.io | bash -s stable --ruby
-{: .code .sh-code}
+{% highlight sh %}
+$ \curl -L https://get.rvm.io | bash -s stable --ruby
+{% endhighlight %}
 
 Para obtener información actualizada del proceso de instalación de RVM
 la mejor opción es visitar su [pagina de instalación][6].
@@ -57,18 +58,21 @@ que hacen la instalación de Ruby extremadamente sencilla.
 
 Debian/Ubuntu:
 
-    % sudo apt-get install ruby irb rdoc
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby irb rdoc
+{% endhighlight %}
 
 Archlinux:
 
-    # pacman -S ruby
-{: .code .sh-code}
+{% highlight sh %}
+# pacman -S ruby
+{% endhighlight %}
 
 Gentoo/Sabayon/Funtoo Linux:
 
-    # emerge ruby
-{: .code .sh-code}
+{% highlight sh %}
+# emerge ruby
+{% endhighlight %}
 
 ### Ruby en OS X
 
@@ -80,8 +84,9 @@ con más conocimientos técnicos.
 
 En DarwinPorts, puedes instalar Ruby con…
 
-    % port install ruby
-{: .code .sh-code}
+{% highlight sh %}
+% port install ruby
+{% endhighlight %}
 
 Fink tiene una interfaz gráfica (usando Fink Commander) para instalar
 Ruby.

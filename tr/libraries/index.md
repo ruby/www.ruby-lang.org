@@ -39,13 +39,14 @@ kısmına bakınız.
 **search** komutu adı belirli bir gem’i bulmak için kullanılır. Adında
 “html” olan bir Gem bulmak için:
 
-    $ gem search html --remote
-    
-     *** REMOTE GEMS ***
-    
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
-{: .code .bash-code}
+{% highlight sh %}
+$ gem search html --remote
+
+ *** REMOTE GEMS ***
+
+ html-sample (1.0, 1.1)
+    A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 (*Burada `--remote` bayrağı ile ana depodaki gemleri sorguluyoruz.*)
 
@@ -53,26 +54,30 @@ kısmına bakınız.
 
 Hangi gem’i **kuracağınıza** karar verdiğinizde:
 
-    $ gem install html-sample
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install html-sample
+{% endhighlight %}
 
 Eğer isterseniz `--version` bayrağı ile belli bir versiyonu da
 yükleyebilirsiniz.
 
-    $ gem install html-sample --version 1.0
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install html-sample --version 1.0
+{% endhighlight %}
 
 #### Tüm Gemlerin Listelenmesi
 
 Ana depodaki tüm gemlerin bir **listesi** için:
 
-    $ gem list --remote
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list --remote
+{% endhighlight %}
 
 Sizde kurulu olan gemleri listelemek için bayrak kullanmadan yazın.
 
-    $ gem list
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 RubyGems kullanımı hakkında daha fazla bilgi için [**the official
 manual**][11] e bakınız, burada Ruby betiklerinizde gemlerin nasıl
@@ -86,11 +91,12 @@ olarak yapmanız gerekir.
 
 Örneğin, Linux’ta:
 
-    $ tar xzvf rubygems-0.9.0.tar.gz
-    $ cd rubygems-0.9.0
-    $ su -
-    # ruby setup.rb
-{: .code .bash-code}
+{% highlight sh %}
+$ tar xzvf rubygems-0.9.0.tar.gz
+$ cd rubygems-0.9.0
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 Eğer daha fazla kurulum bilgisine ihtiyaç duyarsanız RubyGems
 manualindeki [**installation chapter**][13] inceleyin.

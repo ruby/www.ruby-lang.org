@@ -20,23 +20,26 @@ contoh *source code*.
 Berikut ini adalah kode program [99 Bottles of Beer on the Wall][1]
 menggunakan bahasa Perl:
 
-    $n = 5;
-    sub bottle { my $n = shift; $n 
-{: .code .perl-code}
+{% highlight perl %}
+$n = 5;
+sub bottle { my $n = shift; $n 
+{% endhighlight %}
 
 Program tersebut dapat ditulis sebagai berikut di Ruby: \*
 
-    puts "\n It's beer song time!\n"
-    
-    bottles = lambda {|n| n == 1 ? "#{n} bottle" : "#{n} bottles"}
-    sep = "~" * 32
-    
-    99.downto 1 do |n|
-      puts "#{sep}#{bottles[n]} of beer on the wall#{bottles[n]} of beerTake one down, pass it around#{bottles[n - 1]} of beer on the wall"
-    end
-    
-    puts sep
-    puts "\n No more beer on the wall :-("
+{% highlight ruby %}
+puts "\n It's beer song time!\n"
+
+bottles = lambda {|n| n == 1 ? "#{n} bottle" : "#{n} bottles"}
+sep = "~" * 32
+
+99.downto 1 do |n|
+  puts "#{sep}#{bottles[n]} of beer on the wall#{bottles[n]} of beerTake one down, pass it around#{bottles[n - 1]} of beer on the wall"
+end
+
+puts sep
+puts "\n No more beer on the wall :-("
+{% endhighlight %}
 
 * Algoritma yang digunakan kedua program tersebut sedikit berbeda, tapi
   secara fungsionalitas sama.

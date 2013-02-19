@@ -17,25 +17,28 @@ Java.
 Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di Java:
 
-    import java.io.*;
-    public class Addup
-    {
-       static public void main(String args[]) throws Exception {
-           InputStreamReader stdin = new InputStreamReader(System.in);
-           BufferedReader console = new BufferedReader(stdin);
-           int i1 = Integer.parseInt(console.readLine());
-           int i2 = Integer.parseInt(console.readLine());
-           System.out.println(i1 + i2);
-       }
-    }
-{: .code .java-code}
+{% highlight java %}
+import java.io.*;
+public class Addup
+{
+   static public void main(String args[]) throws Exception {
+       InputStreamReader stdin = new InputStreamReader(System.in);
+       BufferedReader console = new BufferedReader(stdin);
+       int i1 = Integer.parseInt(console.readLine());
+       int i2 = Integer.parseInt(console.readLine());
+       System.out.println(i1 + i2);
+   }
+}
+{% endhighlight %}
 
 Anda dapat menuliskan program tersebut di Ruby sebagai berikut:
 
-    a = gets.to_i
-    b = gets.to_i
-    c = a + b
-    puts c
+{% highlight ruby %}
+a = gets.to_i
+b = gets.to_i
+c = a + b
+puts c
+{% endhighlight %}
 
 Sumber: [A Very Quick Comparison of Popular Languages for Teaching
 Computer Programming][1], dengan modifikasi dari Yohanes Santoso

@@ -33,10 +33,12 @@ Ruby 有兩個常用的特色你可能沒見過，那就是 “程式區塊(bloc
 C++ 和 pre-1.5 Java)，或是迴圈控制結構(例如 Perl 的 <tt>for (@a) \{...}</tt>，或是
 Python 的 <tt>for i in aList: ...</tt>)。在 Ruby 裡你會常常看到：
 
-    some_list.each do |this_item|
-      # 我們在程式區塊中
-      # 處理 this_item
-    end
+{% highlight ruby %}
+some_list.each do |this_item|
+  # 我們在程式區塊中
+  # 處理 this_item
+end
+{% endhighlight %}
 
 關於更多 `each` 的資訊 (以及 `collect`, `find`, `inject`, `sort` 等等)，請參考 `ri
 Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
@@ -45,9 +47,11 @@ Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
 
 表達式(expression)和敘述(statement)沒有差別，都會有回傳值，即使那個值是 **nil**。例如下述用法：
 
-    x = 10
-    y = 11
-    z = if x  true
+{% highlight ruby %}
+x = 10
+y = 11
+z = if x  true
+{% endhighlight %}
 
 ### Symbols 不是輕量化的字串
 
@@ -55,11 +59,13 @@ Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
 
 Symbols 就如同一個識別符號。一個 symbol 就代表它是”誰”了，而不是代表它是”什麼”。打開 `irb` 來看一看它們的區別：
 
-    irb(main):001:0> :george.object_id == :george.object_id
-    => true
-    irb(main):002:0> "george".object_id == "george".object_id
-    => false
-    irb(main):003:0>
+{% highlight ruby %}
+irb(main):001:0> :george.object_id == :george.object_id
+=> true
+irb(main):002:0> "george".object_id == "george".object_id
+=> false
+irb(main):003:0>
+{% endhighlight %}
 
  `object_id` 方法會回傳物件的識別編號。如果有兩個物件有相同的 `object_id` 表示它們其實是同一個(指向同一個記憶體位置)。 如你所見，使用過 Symbols 之後，任何相同名字的 Symbol 都是指記憶體裡的同一個物件。對任何相同名字的 Symbols，它們的
 `object_id` 都一樣。
@@ -74,13 +80,15 @@ key)，還是物件內容(比如這個例子的 “george”)。
 
 “所有東西都是物件” 並不是誇大，甚至是類別跟整數也是物件，你可以與其他物件一樣操作它們：
 
-    # 這是等價的程式：
-    # class MyClass
-    #   attr_accessor :instance_var
-    # end
-    MyClass = Class.new do
-      attr_accessor :instance_var
-    end
+{% highlight ruby %}
+# 這是等價的程式：
+# class MyClass
+#   attr_accessor :instance_var
+# end
+MyClass = Class.new do
+  attr_accessor :instance_var
+end
+{% endhighlight %}
 
 譯註：在 Ruby 中任何類別都是由 `Class` 類別所實例(new)出來的物件。
 
@@ -95,10 +103,12 @@ variable)、`@@` 開頭則是類別變數。
 
 方法名稱可以允許大寫字母開頭，雖然可能造成一些混淆，例如：
 
-    Constant = 10
-    def Constant
-      11
-    end
+{% highlight ruby %}
+Constant = 10
+def Constant
+  11
+end
+{% endhighlight %}
 
 這裡的 `Constant` 是 10，但是 `Constant()` 卻是 11。
 
@@ -107,31 +117,37 @@ variable)、`@@` 開頭則是類別變數。
 Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以用 symbols 和雜湊(hash)
 來替代。Ruby on Rails 和非常多的函式庫都使用了這個方法，例如：
 
-    def some_keyword_params( params )
-      params
-    end
-    some_keyword_params( :param_one => 10, :param_two => 42 )
-    # => {:param_one=>10, :param_two=>42}
+{% highlight ruby %}
+def some_keyword_params( params )
+  params
+end
+some_keyword_params( :param_one => 10, :param_two => 42 )
+# => {:param_one=>10, :param_two=>42}
+{% endhighlight %}
 
 ### 一切為 true
 
 在 Ruby 裡，除了 **nil** 和 **false** 之外的所有東西，都可以當做 true 值。在 C, Python
 和其他語言中，0 和一些其他值，例如空列表，會被當做 false。例如我們看看以下的 Python 程式(其他語言亦同)：
 
-    # in Python
-    if 0:
-      print "0 is true"
-    else:
-      print "0 is false"
+{% highlight ruby %}
+# in Python
+if 0:
+  print "0 is true"
+else:
+  print "0 is false"
+{% endhighlight %}
 
 這會輸出 “0 is false”。而在 Ruby 裡:
 
-    # in Ruby
-    if 0
-      puts "0 is true"
-    else
-      puts "0 is false"
-    end
+{% highlight ruby %}
+# in Ruby
+if 0
+  puts "0 is true"
+else
+  puts "0 is false"
+end
+{% endhighlight %}
 
 這會輸出 “0 is true”。
 
@@ -139,24 +155,28 @@ Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以�
 
 在下面的 Ruby 程式中，
 
-    class MyClass
-      private
-      def a_method; true; end
-      def another_method; false; end
-    end
+{% highlight ruby %}
+class MyClass
+  private
+  def a_method; true; end
+  def another_method; false; end
+end
+{% endhighlight %}
 
 你可能會認為 `another_method` 是 public 的，但不是這樣。這個 ‘private’
 存取修飾到作用域(scope)結束，或是直到另一個存取修飾詞開始作用。方法預設都是 public 的：
 
-    class MyClass
-      # 這個 a_method 是 public 的
-      def a_method; true; end
-    
-      private
-    
-      # 這個 another_method 是 private 的
-      def another_method; false; end
-    end
+{% highlight ruby %}
+class MyClass
+  # 這個 a_method 是 public 的
+  def a_method; true; end
+
+  private
+
+  # 這個 another_method 是 private 的
+  def another_method; false; end
+end
+{% endhighlight %}
 
  `public`, `private` 和 `protected` 其實也是一種方法，所以可以接受參數。如果你傳入一個 Symbol，那個該 Symbol 代表的方法就會改變存取權限。 ### 方法存取權限
 
@@ -168,60 +188,64 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
 
  `protected` 也有點不同。一個 protected 方法除了可以被一個類別或衍生類別的實例呼叫，也可以讓另一個相同類別的實例來當做接受者。 來看看 [Ruby FAQ][1] 的例子：
 
-    $ irb
-    irb(main):001:0> class Test
-    irb(main):002:1>   # 預設是 public 的
-    irb(main):003:1*   def func
-    irb(main):004:2>     99
-    irb(main):005:2>   end
-    irb(main):006:1> 
-    irb(main):007:1*   def ==(other)
-    irb(main):008:2>     func == other.func
-    irb(main):009:2>   end
-    irb(main):010:1> end
-    => nil
-    irb(main):011:0> 
-    irb(main):012:0* t1 = Test.new
-    => #<Test:0x34ab50>
-    irb(main):013:0> t2 = Test.new
-    => #<Test:0x342784>
-    irb(main):014:0> t1 == t2
-    => true
-    irb(main):015:0> # 來讓 `func` 變成 protected，一樣沒問題
-    irb(main):016:0* # 因為 protected 允許其他相同類別的實例呼叫
-    irb(main):017:0* class Test
-    irb(main):018:1>   protected :func
-    irb(main):019:1> end
-    => Test
-    irb(main):020:0> t1 == t2
-    => true
-    irb(main):021:0> # 來讓 `func` 變成 private
-    irb(main):022:0* class Test
-    irb(main):023:1>   private :func
-    irb(main):024:1> end
-    => Test
-    irb(main):025:0> t1 == t2
-    NoMethodError: private method `func' called for #<Test:0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
-    irb(main):026:0>
+{% highlight ruby %}
+$ irb
+irb(main):001:0> class Test
+irb(main):002:1>   # 預設是 public 的
+irb(main):003:1*   def func
+irb(main):004:2>     99
+irb(main):005:2>   end
+irb(main):006:1> 
+irb(main):007:1*   def ==(other)
+irb(main):008:2>     func == other.func
+irb(main):009:2>   end
+irb(main):010:1> end
+=> nil
+irb(main):011:0> 
+irb(main):012:0* t1 = Test.new
+=> #<Test:0x34ab50>
+irb(main):013:0> t2 = Test.new
+=> #<Test:0x342784>
+irb(main):014:0> t1 == t2
+=> true
+irb(main):015:0> # 來讓 `func` 變成 protected，一樣沒問題
+irb(main):016:0* # 因為 protected 允許其他相同類別的實例呼叫
+irb(main):017:0* class Test
+irb(main):018:1>   protected :func
+irb(main):019:1> end
+=> Test
+irb(main):020:0> t1 == t2
+=> true
+irb(main):021:0> # 來讓 `func` 變成 private
+irb(main):022:0* class Test
+irb(main):023:1>   private :func
+irb(main):024:1> end
+=> Test
+irb(main):025:0> t1 == t2
+NoMethodError: private method `func' called for #<Test:0x342784>
+        from (irb):8:in `=='
+        from (irb):25
+        from :0
+irb(main):026:0>
+{% endhighlight %}
 
 ### 類別是開放的
 
 Ruby 的類別是開放的，你可以隨時打開它新增一點程式或是修改。即使是核心類別如 `Fixnum` 或是
 `Object`(這是所有類別的父類別) 都一樣。 Ruby on Rails 甚至定義了一堆時間方法到 `Fixnum` 去，例如：
 
-    class Fixnum
-      def hours
-        self * 3600 # 一小時有多少秒
-      end
-      alias hour hours
-    end
-      
-    # 從一月一號 00:00 往後數 14 個小時
-    # (你終於醒了吧 ;)
-    Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
+{% highlight ruby %}
+class Fixnum
+  def hours
+    self * 3600 # 一小時有多少秒
+  end
+  alias hour hours
+end
+  
+# 從一月一號 00:00 往後數 14 個小時
+# (你終於醒了吧 ;)
+Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
+{% endhighlight %}
 
 ### 有趣的方法名稱
 
@@ -236,23 +260,25 @@ replace 的意思就是要修改替換自己。
 
 單件方法(Singleton methods)是個別物件才有的方法。它們只存在於你要定義的物件之中。
 
-    class Car
-      def inspect
-        "Cheap car"
-      end
-    end
-    
-    porsche = Car.new
-    porsche.inspect # => Cheap car
-    def porsche.inspect
-      "Expensive car"
-    end
-    
-    porsche.inspect # => Expensive car
-    
-    # 其他物件就不受影響
-    other_car = Car.new
-    other_car.inspect # => Cheap car
+{% highlight ruby %}
+class Car
+  def inspect
+    "Cheap car"
+  end
+end
+
+porsche = Car.new
+porsche.inspect # => Cheap car
+def porsche.inspect
+  "Expensive car"
+end
+
+porsche.inspect # => Expensive car
+
+# 其他物件就不受影響
+other_car = Car.new
+other_car.inspect # => Cheap car
+{% endhighlight %}
 
 ### Missing 方法
 
@@ -260,16 +286,18 @@ replace 的意思就是要修改替換自己。
 這個方法，並把這個不存在的方法名稱傳進去當做參數。method\_missing 預設會丟出一個 NameError
 例外，但是你可以根據你的需求重新定義過，也有許多函式庫這麼做。這是一個例子：
 
-    # id 是被呼叫方法的名字，而 * 符號會收集
-    # 所有傳進來的參數變成一個叫做 'arguments' 的陣列
-    def method_missing( id, *arguments )
-      puts "Method #{id} was called, but not found. It has " + 
-           "these arguments: #{arguments.join(", ")}"
-    end
-    
-    __ :a, :b, 10
-    # => Method __ was called, but not found. It has these
-    # arguments: a, b, 10
+{% highlight ruby %}
+# id 是被呼叫方法的名字，而 * 符號會收集
+# 所有傳進來的參數變成一個叫做 'arguments' 的陣列
+def method_missing( id, *arguments )
+  puts "Method #{id} was called, but not found. It has " + 
+       "these arguments: #{arguments.join(", ")}"
+end
+
+__ :a, :b, 10
+# => Method __ was called, but not found. It has these
+# arguments: a, b, 10
+{% endhighlight %}
 
 以上程式會輸出呼叫的細節，但你可以隨意定義這個訊息。
 
@@ -277,44 +305,52 @@ replace 的意思就是要修改替換自己。
 
 一個方法呼叫(method call)其實就是送一個 **訊息(message)** 給一個物件：
 
-    # 這個
-    1 + 2
-    # 等同於 ...
-    1.+(2)
-    # 也等同於:
-    1.send "+", 2
+{% highlight ruby %}
+# 這個
+1 + 2
+# 等同於 ...
+1.+(2)
+# 也等同於:
+1.send "+", 2
+{% endhighlight %}
 
 ### Blocks 也算是物件
 
 程式區塊 Blocks (或叫做 closures) 被廣泛應用在標準函式庫。要執行一個程式區塊，可以用 `yield`
 ，或是透過一個特別的參數讓它變成 `Proc`，例如：
 
-    def block( &the_block )
-      # 在這裡面，the_block 是被傳進來的程式區塊
-      the_block # return the block
-    end
-    adder = block { |a, b| a + b }
-    # adder 是一個 Proc 物件
-    adder.class # => Proc
+{% highlight ruby %}
+def block( &the_block )
+  # 在這裡面，the_block 是被傳進來的程式區塊
+  the_block # return the block
+end
+adder = block { |a, b| a + b }
+# adder 是一個 Proc 物件
+adder.class # => Proc
+{% endhighlight %}
 
 你也可以透過 Proc.new 或 lambda 在方法外建立程式區塊。
 
 同樣的，方法也可以當做物件：
 
-    method(:puts).call "puts is an object!"
-    # => puts is an object!
+{% highlight ruby %}
+method(:puts).call "puts is an object!"
+# => puts is an object!
+{% endhighlight %}
 
 ### 操作符只是語法包裝
 
 大部分的 Ruby 操作符(operators)只是一種方法呼叫的語法包裝(syntactic
 sugar)，加上一些優先權規則。你要的話，舉例來說，我們可以覆寫掉 Fixnum 的 + 方法：
 
-    class Fixnum
-      # 可以這麼做，但請不要這麼改
-      def +( other )
-        self - other
-      end
-    end
+{% highlight ruby %}
+class Fixnum
+  # 可以這麼做，但請不要這麼改
+  def +( other )
+    self - other
+  end
+end
+{% endhighlight %}
 
 你不需要 C++ 的 `operator+` 等等。
 
@@ -324,7 +360,7 @@ sugar)，加上一些優先權規則。你要的話，舉例來說，我們可�
 以下的操作符則**不是**語法包裝。它們不是方法，不能被覆寫定義：
 
     =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code .symbols-code}
+{: .code}
 
 此外 +=, \*= 等只是 `var = var + other_var` 跟 `var = var * other_var`
 等的縮寫，因此也不能被覆寫定義。

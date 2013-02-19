@@ -18,19 +18,21 @@ Ruby, dont elle indique la localisation.
 La méthode `say_hi` est devenue un tout petit peu plus complexe entre
 temps :
 
-    # Saluer tout le monde
-    def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names est une liste de noms : traitons-les uns par uns
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+{% highlight ruby %}
+# Saluer tout le monde
+def say_hi
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("each")
+    # @names est une liste de noms : traitons-les uns par uns
+    @names.each do |name|
+      puts "Hello #{name}!"
     end
+  else
+    puts "Hello #{@names}!"
+  end
+end
+{% endhighlight %}
 
 Elle jette maintenant un coup d’œil au paramètre `@names` pour décider
 de la suite. S’il s’agit de l’absence de valeur signalée par `nil`, elle
@@ -49,9 +51,11 @@ manipulation.
 
 Voyons d’un peu plus près cette fameuse itération :
 
-    @names.each do |name|
-      puts "Hello #{name}!"
-    end
+{% highlight ruby %}
+@names.each do |name|
+  puts "Hello #{name}!"
+end
+{% endhighlight %}
 
 `each` est une méthode, un itérateur, qui travaille conjointement avec
 un bloc de code. Elle fait tourner ce bloc sur chaque élément récupéré
@@ -68,10 +72,12 @@ les noms, dans l’ordre de la liste `names`.
 La plupart des autres langages utilisent un itérateur célèbre, la «
 boucle for », ce qui donne par exemple en C :
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 Ce qui fonctionne parfaitement, mais n’est pas spécialement élégant.
 Vous devez en effet définir une variable locale telle que `i`,
@@ -96,17 +102,19 @@ mais également de gérer personnalisation, destruction et erreurs
 éventuelles—tout ça loin des yeux de l’utilisateur final de la méthode,
 qui s’en moque totalement.
 
-    # Dire au revoir à tout le monde
-    def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Grouper les noms par des virgules
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
-    end
+{% highlight ruby %}
+# Dire au revoir à tout le monde
+def say_bye
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("join")
+    # Grouper les noms par des virgules
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+  else
+    puts "Goodbye #{@names}.  Come back soon!"
+  end
+end
+{% endhighlight %}
 
 Cette méthode n’utilise pas `each`, mais la méthode `join` (si elle est
 comprise par `@names` ; sinon, elle écrit juste la valeur de `@names`,
@@ -131,7 +139,9 @@ contient la classe `MegaGreeter`, le reste du fichier étant simplement
 des appels à cette classe, la manipulation d’instances… Il reste un seul
 point d’ombre :
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` est une variable « magique » qui contient le nom du fichier
 courant. `$0` contient quant à elle le nom du fichier utilisé pour

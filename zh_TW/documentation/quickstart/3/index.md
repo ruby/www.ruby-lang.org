@@ -6,21 +6,25 @@ lang: zh_TW
 
 讓我們建立一個 greeter 物件來使用：
 
-    irb(main):035:0> g = Greeter.new("Pat")
-    => #<Greeter:0x16cac @name="Pat">
-    irb(main):036:0> g.say_hi
-    Hi Pat!
-    => nil
-    irb(main):037:0> g.say_bye
-    Bye Pat, come back soon.
-    => nil
+{% highlight ruby %}
+irb(main):035:0> g = Greeter.new("Pat")
+=> #<Greeter:0x16cac @name="Pat">
+irb(main):036:0> g.say_hi
+Hi Pat!
+=> nil
+irb(main):037:0> g.say_bye
+Bye Pat, come back soon.
+=> nil
+{% endhighlight %}
 
 一旦建立了 `g` 物件，它就會記得它的名字是 Pat。嗯，但是我們如何拿到這個名字的值呢?
 
-    irb(main):038:0> g.@name
-    SyntaxError: compile error
-    (irb):52: syntax error
-            from (irb):52
+{% highlight ruby %}
+irb(main):038:0> g.@name
+SyntaxError: compile error
+(irb):52: syntax error
+        from (irb):52
+{% endhighlight %}
 
 啊，這樣不行。
 
@@ -31,33 +35,39 @@ lang: zh_TW
 
 到底 Greeter 物件有哪些方法呢?
 
-    irb(main):039:0> Greeter.instance_methods
-    => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "say_hi", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+{% highlight ruby %}
+irb(main):039:0> Greeter.instance_methods
+=> ["method", "send", "object_id", "singleton_methods",
+    "__send__", "equal?", "taint", "frozen?",
+    "instance_variable_get", "kind_of?", "to_a",
+    "instance_eval", "type", "protected_methods", "extend",
+    "eql?", "display", "instance_variable_set", "hash",
+    "is_a?", "to_s", "class", "tainted?", "private_methods",
+    "untaint", "say_hi", "id", "inspect", "==", "===",
+    "clone", "public_methods", "respond_to?", "freeze",
+    "say_bye", "__id__", "=~", "methods", "nil?", "dup",
+    "instance_variables", "instance_of?"]
+{% endhighlight %}
 
 哇。有這麼多。我們不是只定義了兩個方法，怎麼回事呢? 這裡列出的是**所有** Greeter
 物件的方法，因此也包括了它所繼承的類別的方法。如果我們只需要 Greeter 自己的方法，可以傳入一個 **false**
 參數，表示我們不希望包括父類別的方法。
 
-    irb(main):040:0> Greeter.instance_methods(false)
-    => ["say_bye", "say_hi"]
+{% highlight ruby %}
+irb(main):040:0> Greeter.instance_methods(false)
+=> ["say_bye", "say_hi"]
+{% endhighlight %}
 
 看起來好多了。讓我們看看 greeter 物件對哪些方法有反應?
 
-    irb(main):041:0> g.respond_to?("name")
-    => false
-    irb(main):042:0> g.respond_to?("say_hi")
-    => true
-    irb(main):043:0> g.respond_to?("to_s")
-    => true
+{% highlight ruby %}
+irb(main):041:0> g.respond_to?("name")
+=> false
+irb(main):042:0> g.respond_to?("say_hi")
+=> true
+irb(main):043:0> g.respond_to?("to_s")
+=> true
+{% endhighlight %}
 
 它知道 `say_hi` 和 `to_s` (意思是轉換成字串，這是每個物件都有的方法)，但是不知道 `name` 這個方法。
 
@@ -65,33 +75,37 @@ lang: zh_TW
 
 那麼要怎麼能夠讀取或修改名字呢? Ruby 提供了一個簡單的方式來讓你存取物件的變數：
 
-    irb(main):044:0> class Greeter
-    irb(main):045:1>   attr_accessor :name
-    irb(main):046:1> end
-    => nil
+{% highlight ruby %}
+irb(main):044:0> class Greeter
+irb(main):045:1>   attr_accessor :name
+irb(main):046:1> end
+=> nil
+{% endhighlight %}
 
 在 Ruby
 裡你可以再度打開一個類別然後修改它。這個改變會對之後產生的物件，甚至是已經產生的物件產生即時效果。所以，我們來建立一個新的物件試試看
 `@name` 屬性。
 
-    irb(main):047:0> g = Greeter.new("Andy")
-    => #<Greeter:0x3c9b0 @name="Andy">
-    irb(main):048:0> g.respond_to?("name")
-    => true
-    irb(main):049:0> g.respond_to?("name=")
-    => true
-    irb(main):050:0> g.say_hi
-    Hi Andy!
-    => nil
-    irb(main):051:0> g.name="Betty"
-    => "Betty"
-    irb(main):052:0> g
-    => #<Greeter:0x3c9b0 @name="Betty">
-    irb(main):053:0> g.name
-    => "Betty"
-    irb(main):054:0> g.say_hi
-    Hi Betty!
-    => nil
+{% highlight ruby %}
+irb(main):047:0> g = Greeter.new("Andy")
+=> #<Greeter:0x3c9b0 @name="Andy">
+irb(main):048:0> g.respond_to?("name")
+=> true
+irb(main):049:0> g.respond_to?("name=")
+=> true
+irb(main):050:0> g.say_hi
+Hi Andy!
+=> nil
+irb(main):051:0> g.name="Betty"
+=> "Betty"
+irb(main):052:0> g
+=> #<Greeter:0x3c9b0 @name="Betty">
+irb(main):053:0> g.name
+=> "Betty"
+irb(main):054:0> g.say_hi
+Hi Betty!
+=> nil
+{% endhighlight %}
 
 `attr_accessor` 會定義兩個新的方法，`name` 用來取值，而 `name=` 用來給值。
 
@@ -104,67 +118,69 @@ lang: zh_TW
 
 要離開 IRB 請輸入 “quit” 或 “exit” 或按下 Control-D。
 
-    #!/usr/bin/env ruby
-    
-    class MegaGreeter
-      attr_accessor :names
-    
-      # 初始化這個物件
-      def initialize(names = "World")
-        @names = names
+{% highlight ruby %}
+#!/usr/bin/env ruby
+
+class MegaGreeter
+  attr_accessor :names
+
+  # 初始化這個物件
+  def initialize(names = "World")
+    @names = names
+  end
+
+  # 向每個人說 hi
+  def say_hi
+    if @names.nil?
+      puts "..."
+    elsif @names.respond_to?("each")
+
+      # @names 是可以迭代的陣列容器
+      @names.each do |name|
+        puts "Hello #{name}!"
       end
-    
-      # 向每個人說 hi
-      def say_hi
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("each")
-    
-          # @names 是可以迭代的陣列容器
-          @names.each do |name|
-            puts "Hello #{name}!"
-          end
-        else
-          puts "Hello #{@names}!"
-        end
-      end
-    
-      # 向每個人說 bye
-      def say_bye
-        if @names.nil?
-          puts "..."
-        elsif @names.respond_to?("join")
-          # 用逗號將陣列中的元素串接成一個字串
-          puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-        else
-          puts "Goodbye #{@names}.  Come back soon!"
-        end
-      end
-    
+    else
+      puts "Hello #{@names}!"
     end
-    
-    
-    if __FILE__ == $0
-      mg = MegaGreeter.new
-      mg.say_hi
-      mg.say_bye
-    
-      # 變更成 "Zeke"
-      mg.names = "Zeke"
-      mg.say_hi
-      mg.say_bye
-    
-      # 變更成一個名字的陣列
-      mg.names = ["Albert", "Brenda", "Charles",
-        "Dave", "Engelbert"]
-      mg.say_hi
-      mg.say_bye
-    
-      # 變更成 nil
-      mg.names = nil
-      mg.say_hi
-      mg.say_bye
+  end
+
+  # 向每個人說 bye
+  def say_bye
+    if @names.nil?
+      puts "..."
+    elsif @names.respond_to?("join")
+      # 用逗號將陣列中的元素串接成一個字串
+      puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+    else
+      puts "Goodbye #{@names}.  Come back soon!"
     end
+  end
+
+end
+
+
+if __FILE__ == $0
+  mg = MegaGreeter.new
+  mg.say_hi
+  mg.say_bye
+
+  # 變更成 "Zeke"
+  mg.names = "Zeke"
+  mg.say_hi
+  mg.say_bye
+
+  # 變更成一個名字的陣列
+  mg.names = ["Albert", "Brenda", "Charles",
+    "Dave", "Engelbert"]
+  mg.say_hi
+  mg.say_bye
+
+  # 變更成 nil
+  mg.names = nil
+  mg.say_hi
+  mg.say_bye
+end
+{% endhighlight %}
 
 把這個檔案存成 “ri20min.rb”，然後輸入 “ruby ri20min.rb” 來執行它。您應該可以看到輸出是：
 
@@ -181,7 +197,7 @@ lang: zh_TW
     back soon!
     ...
     ...
-{: .code .output-code}
+{: .code}
 
 這個最後的範例有許多新東西，讓我們來[仔細瞧瞧](../4/)。
 

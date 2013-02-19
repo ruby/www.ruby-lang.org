@@ -67,14 +67,16 @@ paket yöneticileri vardır.
 
 Örneğin Debian’da ya da Ubuntu’da `apt-get` harika bir çözüm sunar:
 
-    % sudo apt-get install ruby1.9.1-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby1.9.1-full
+{% endhighlight %}
 
 Yukarıdaki komut Ruby 1.9.1’in şu andaki kararlı sürümünü kuracaktır.
 Eğer Ruby 1.8 versiyon kurmak isterseniz şunu kullanabilirsiniz:
 
-    % sudo apt-get install ruby-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby-full
+{% endhighlight %}
 
 irb ve rdoc için “universe repository” aktif edilmelidir.
 
@@ -95,8 +97,9 @@ kişiler için daha güzel gelebilir.
 
 MacPorts’da, Ruby’yi kurmak için…
 
-    % port install ruby
-{: .code .sh-code}
+{% highlight sh %}
+% port install ruby
+{% endhighlight %}
 
 Fink (Fink Commander kullanarak) Ruby kurulumu için bir grafik arabirime
 sahiptir.
@@ -119,8 +122,9 @@ bulunabilir [Coolstack][24].
 veya IPS][26] client kullanın. Bu en son binary ve gem’leri direk olarak
 OpenSolaris depolarından indirecektir. Şunu yazın:
 
-    % pfexec pkg install SUNWruby18
-{: .code .sh-code}
+{% highlight sh %}
+% pfexec pkg install SUNWruby18
+{% endhighlight %}
 
 Bu Ruby, Rubygems, ortak eklentiler ve onların destek kütüphanelerini
 kuracaktır. Bu paket ayrıca DTrace desteği ve performans

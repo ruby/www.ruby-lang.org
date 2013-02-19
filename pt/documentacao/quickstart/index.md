@@ -23,14 +23,18 @@ Abrir o IRB.
   no seu menu Iniciar.
 ^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Ok, abriu. E agora?
 
 Escreva isto: `"Ola Mundo"`
 
-    irb(main):001:0> "Ola Mundo"
-    => "Ola Mundo"
+{% highlight ruby %}
+irb(main):001:0> "Ola Mundo"
+=> "Ola Mundo"
+{% endhighlight %}
 
 ## O Ruby obedeceu-lhe!
 
@@ -39,9 +43,11 @@ programa «Olá mundo»? Não exactamente, a segunda linha é a forma de o
 IRB nos dizer qual o resultado da última expressão que avaliou. Se
 desejarmos imprimir «Ola Mundo» necessitamos de um pouco mais:
 
-    irb(main):002:0> puts "Ola Mundo" 
-    Ola Mundo 
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Ola Mundo" 
+Ola Mundo 
+=> nil
+{% endhighlight %}
 
 `puts` é o comando básico para imprimir algo em Ruby. Mas então o que é
 aquele `=> nil` ? É o resultado da expressão. `puts` retorna sempre nil,
@@ -52,8 +58,10 @@ o que em Ruby é o valor que representa o nada absoluto.
 Já temos neste momento conhecimento suficiente para utilizar o IRB como
 uma calculadora básica:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Três mais dois. Suficientemente fácil. E então três *vezes* dois? Pode
 escrevê-lo, é suficientemente curto, mas também podemos voltar atrás e
@@ -63,19 +71,25 @@ tecla da seta para a esquerda para mover o cursor para a frente do sinal
 de mais `+` e depois use a tecla de backspace para mudar o sinal para
 `*`.
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 De seguida vamos tentar três ao quadrado:
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 Em Ruby `**` é a forma de dizer potência de. Mas o que acontece quando
 queremos saber o inverso disto ou seja a raiz quadrada de algo?
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Muito bem, o que aconteceu aqui atrás? Se disse “que estava a determinar
 a raiz quadrada de nove” então está correcto. Mas vejamos as coisas com
@@ -101,12 +115,14 @@ método retorna sempre um número de vírgula flutuante.
 E se nos quisermos lembrar do resultado desta matemática toda? Podemos
 atribuir o resultado a uma variável.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b)
-    => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b)
+=> 5.0
+{% endhighlight %}
 
 Como calculadora isto é muito bom mas nós estamos a afastarmos-nos da
 mensagem mais tradicional `Ola Mundo` que os guias de iniciação

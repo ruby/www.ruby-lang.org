@@ -64,7 +64,9 @@ acções como *métodos*. A aproximação pura, da orientação aos objectos do
 Ruby, é geralmente demonstrada pelo seguinte excerto de código que
 aplica uma acção a um número.
 
-    5.times { print "Nós *amamos* o Ruby -- é fantástica!" }
+{% highlight ruby %}
+5.times { print "Nós *amamos* o Ruby -- é fantástica!" }
+{% endhighlight %}
 
 Em muitas linguagens, números e outros tipos primitivos não são
 objectos. O Ruby segue a influência da linguagem Smalltalk em atribuir
@@ -83,14 +85,16 @@ Por exemplo, a adição é realizada com o operador mais (`+`). Mas, se
 preferir utilizar a palavra escrita `plus`, poderia adicionar esse
 método à classe nativa do Ruby `Numeric`.
 
-    class Numeric
-      def plus(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.plus 6
-    # y is now equal to 11
+{% highlight ruby %}
+class Numeric
+  def plus(x)
+    self.+(x)
+  end
+end
+
+y = 5.plus 6
+# y is now equal to 11
+{% endhighlight %}
 
 Os Operadores do Ruby são `açúcar sintático` para os métodos, também
 podem ser redefinidos.
@@ -107,10 +111,12 @@ Os Blocos são inspirados nas linguagens funcionais. O Matz disse, “nos
 fechos em Ruby, Eu quis respeitar a cultura do
 Lisp<sup>[4](#fn4)</sup>”.
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines = 
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
+{% endhighlight %}
 
 No código aqui apresentado, o bloco é descrito dentro do trecho `do ...
 end`. O método `map` aplica o bloco à lista de palavras fornecida.
@@ -130,9 +136,11 @@ directamente. Por exemplo, qualquer classe que implemente o método
 `each` pode ‘mixin’ o módulo `Enumerable`, que adiciona um conjunto de
 métodos que utilizam `each` para iterar.
 
-    class MyArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MyArray
+  include Enumerable
+end
+{% endhighlight %}
 
 Geralmente os programadores de Ruby, vêm esta abordagem como uma forma
 muito mais clara do que a herança múltipla, que é complexa e pode ser

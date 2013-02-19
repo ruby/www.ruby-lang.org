@@ -7,10 +7,12 @@ lang: es
 ¿Qué tal si queremos decir “Hola” muchas veces sin cansar nuestros dedos
 con el teclado? ¡Necesitamos definir un método!
 
-    irb(main):010:0> def h
-    irb(main):011:1> puts "Hola Mundo"
-    irb(main):012:1> end
-    => nil
+{% highlight ruby %}
+irb(main):010:0> def h
+irb(main):011:1> puts "Hola Mundo"
+irb(main):012:1> end
+=> nil
+{% endhighlight %}
 
 La expresión `def h` inicia la definición del método. Le dice a Ruby que
 estamos definiendo un método, cuyo nombre es `h`. La siguiente linea es
@@ -23,12 +25,14 @@ comunica que él sabe que terminamos de definir el método.
 
 Ahora intentemos ejecutar ese método algunas veces:
 
-    irb(main):013:0> h
-    Hola Mundo
-    => nil
-    irb(main):014:0> h()
-    Hola Mundo
-    => nil
+{% highlight ruby %}
+irb(main):013:0> h
+Hola Mundo
+=> nil
+irb(main):014:0> h()
+Hola Mundo
+=> nil
+{% endhighlight %}
 
 Bien, eso fue fácil. Ejecutar un método en Ruby es tan fácil como sólo
 mencionar su nombre. Si el método no requiere parámetros para
@@ -38,13 +42,15 @@ vacíos, pero no son necesarios.
 ¿Y qué tal si queremos saludar sólo a una persona y no a todo el mundo?
 Simplemente redefine `h` para que tome un nombre como parámetro.
 
-    irb(main):015:0> def h(nombre)
-    irb(main):016:1> puts "Hola #{nombre}"
-    irb(main):017:1> end
-    => nil
-    irb(main):018:0> h("Matz")
-    Hola Matz
-    => nil
+{% highlight ruby %}
+irb(main):015:0> def h(nombre)
+irb(main):016:1> puts "Hola #{nombre}"
+irb(main):017:1> end
+=> nil
+irb(main):018:0> h("Matz")
+Hola Matz
+=> nil
+{% endhighlight %}
 
 Así que eso funciona… pero tomémonos un segundo para ver más en detalle
 qué es lo que está sucediendo.
@@ -57,16 +63,18 @@ transformada en un String (si todavía no lo es) y posteriormente
 sustituida en ese punto del String que la contiene. También puedes usar
 esto para asegurarte que el nombre comience con mayúscula:
 
-    irb(main):019:0> def h(nombre = "Mundo")
-    irb(main):020:1> puts "Hola #{nombre.capitalize}"
-    irb(main):021:1> end
-    => nil
-    irb(main):022:0> h "pedro"
-    Hola Pedro
-    => nil
-    irb(main):023:0> h
-    Hola Mundo
-    => nil
+{% highlight ruby %}
+irb(main):019:0> def h(nombre = "Mundo")
+irb(main):020:1> puts "Hola #{nombre.capitalize}"
+irb(main):021:1> end
+=> nil
+irb(main):022:0> h "pedro"
+Hola Pedro
+=> nil
+irb(main):023:0> h
+Hola Mundo
+=> nil
+{% endhighlight %}
 
 Algunos otros trucos para destacar. Uno es que otra vez estamos llamando
 al método sin utilizar los paréntesis. Si lo que quieres hacer es obvio,
@@ -80,18 +88,20 @@ por defecto `"Mundo"`”.
 recuerde tu nombre, te dé la bienvenida y te trate con respeto. Puedes
 querer utilizar un objeto para eso. Vamos a crear la clase “Anfitrion”.
 
-    irb(main):024:0> class Anfitrion
-    irb(main):025:1>   def initialize(nombre = "Mundo")
-    irb(main):026:2>     @nombre = nombre
-    irb(main):027:2>   end
-    irb(main):028:1>   def decir_hola
-    irb(main):029:2>     puts "Hola #{@nombre}"
-    irb(main):030:2>   end
-    irb(main):031:1>   def decir_adios
-    irb(main):032:2>     puts "Adiós #{@nombre}, vuelve pronto."
-    irb(main):033:2>   end
-    irb(main):034:1> end
-    => nil
+{% highlight ruby %}
+irb(main):024:0> class Anfitrion
+irb(main):025:1>   def initialize(nombre = "Mundo")
+irb(main):026:2>     @nombre = nombre
+irb(main):027:2>   end
+irb(main):028:1>   def decir_hola
+irb(main):029:2>     puts "Hola #{@nombre}"
+irb(main):030:2>   end
+irb(main):031:1>   def decir_adios
+irb(main):032:2>     puts "Adiós #{@nombre}, vuelve pronto."
+irb(main):033:2>   end
+irb(main):034:1> end
+=> nil
+{% endhighlight %}
 
 La nueva palabra clave aquí es `class`. Esto define una nueva clase
 llamada Anfitrion y un par de métodos para esa clase. También toma nota

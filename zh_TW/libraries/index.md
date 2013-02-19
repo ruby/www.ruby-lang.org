@@ -33,13 +33,14 @@ RubyGems](#installing-rubygems) 。
 
 **search** 命令可以搜尋特定名字的 gems。例如，要搜尋有 “html” 字眼的 gem:
 
-    $ gem search html --remote
-    
-     *** REMOTE GEMS ***
-    
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
-{: .code .bash-code}
+{% highlight sh %}
+$ gem search html --remote
+
+ *** REMOTE GEMS ***
+
+ html-sample (1.0, 1.1)
+    A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 (*加上 `--remote` 旗標(flag)表示我們要搜尋的是遠端 Gemcutter 上的官方 gem。*)
 
@@ -47,25 +48,29 @@ RubyGems](#installing-rubygems) 。
 
 當確定要裝某一個 gem 時，請使用 **install** 指令:
 
-    $ gem install html-sample
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install html-sample
+{% endhighlight %}
 
 你可以透過 `--version` 旗標來安裝特定的版本。
 
-    $ gem install html-sample --version 1.0
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install html-sample --version 1.0
+{% endhighlight %}
 
 #### 列出所有的 Gems
 
 要列出 Gemcutter 上的完整 gems 清單：
 
-    $ gem list --remote
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list --remote
+{% endhighlight %}
 
 如果只需要列出你安裝的 gems，拿掉旗標即可。
 
-    $ gem list
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 關於 RubyGems 的更多資料，請參考 [**官方手冊**][13] ，手冊中也介紹了如何在你的 Ruby 程式中使用 gems 的例子。
 
@@ -76,11 +81,12 @@ RubyGems](#installing-rubygems) 。
 
 例如，在 Linux 上：
 
-    $ tar xzvf rubygems-0.9.0.tar.gz
-    $ cd rubygems-0.9.0
-    $ su -
-    # ruby setup.rb
-{: .code .bash-code}
+{% highlight sh %}
+$ tar xzvf rubygems-0.9.0.tar.gz
+$ cd rubygems-0.9.0
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 如果你需要更完整地知道如何安裝，請參考 RubyGems 手冊的 [**安裝 RubyGems**][15] 一章。
 

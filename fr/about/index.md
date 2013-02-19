@@ -75,7 +75,9 @@ sous le terme de *variables d’instance*, et aux actions sous le nom de
 *méthodes*. L’approche purement objet de Ruby est très souvent illustrée
 par un bout de code montrant l’application d’une action à un nombre.
 
-    5.times { print "Nous *adorons* Ruby -- Même trop !" }
+{% highlight ruby %}
+5.times { print "Nous *adorons* Ruby -- Même trop !" }
+{% endhighlight %}
 
 Dans beaucoup de langages, les nombres et autres types primaires ne sont
 pas des objets. Ruby suit ici la voie de Smalltalk, en donnant accès aux
@@ -99,14 +101,16 @@ Par exemple, l’opération arithmétique d’addition est réalisée par
 l’opérateur plus (`+`). Mais si vous préférez utiliser une méthode
 `plus`, vous pouvez l’ajouter à la classe de base `Numeric` de Ruby :
 
-    class Numeric
-      def plus(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.plus 6
-    # y vaut maintenant 11
+{% highlight ruby %}
+class Numeric
+  def plus(x)
+    self.+(x)
+  end
+end
+
+y = 5.plus 6
+# y vaut maintenant 11
+{% endhighlight %}
 
 Tous les opérateurs de Ruby sont des méthodes pensées pour être aussi
 pratique que faire se peut, syntaxiquement parlant. Vous pouvez
@@ -126,10 +130,12 @@ Les blocs trouvent leur inspiration dans les langages fonctionnels. Matz
 a dit à ce propos : « en créant les *closures* de Ruby, je souhaitais
 respecter la voie tracée par Lisp<sup>[4](#fn4)</sup>. »
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |moteur|
-        "http://www." + moteur.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines = 
+  %w[Google Yahoo MSN].map do |moteur|
+    "http://www." + moteur.downcase + ".com"
+  end
+{% endhighlight %}
 
 Dans le code ci-dessus, le bloc est délimité par la structure `do ...
 end`. La méthode `map` applique le bloc à la liste de mots fournie en
@@ -150,9 +156,11 @@ exemple, toute classe implémentant une méthode `each` peut ensuite
 incorporer le module `Enumerable`, lequel fournit gratuitement plusieurs
 méthodes utilisant `each` pour faire des boucles.
 
-    class MonTableau
-      include Enumerable
-    end
+{% highlight ruby %}
+class MonTableau
+  include Enumerable
+end
+{% endhighlight %}
 
 En général, les rubyistes préfèrent cette façon de faire à l’héritage
 multiple, qui est complexe et peut se révéler trop restrictif.

@@ -8,12 +8,12 @@ Pour vous inscrire à une liste de diffusion, vous pouvez envoyer un
 e-mail au robot d’inscription, avec le corps (pas le sujet) suivant :
 
     subscribe Prénom Nom
-{: .code .mail-code}
+{: .code}
 
 par exemple :
 
     subscribe Didier Dupont
-{: .code .mail-code}
+{: .code}
 
 Ruby-Talk
 : L’adresse du robot pour s’inscrire est

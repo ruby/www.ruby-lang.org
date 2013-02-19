@@ -92,8 +92,9 @@ RubyInstaller verwenden.
 Zum Zeitpunkt des Verfassens dieses Textes kann RVM, soweit [Git][11]
 verfügbar ist, wie folgt installiert werden:
 
-    $ \curl -L https://get.rvm.io | bash -s stable --ruby
-{: .code .sh-code}
+{% highlight sh %}
+$ \curl -L https://get.rvm.io | bash -s stable --ruby
+{% endhighlight %}
 
 Die aktuellsten Installationsanweisungen für RVM können auf der
 [Installationsseite von RVM][12] nachgelesen werden. Die neueste
@@ -109,20 +110,22 @@ Je nach dem, welche Distribution du verwendest, gibt es mehrere
 Möglichkeiten, Ruby zu installieren. Unter Debian oder Ubuntu
 beispielsweise stellt `apt-get` eine einfache und elegante Lösung dar:
 
-    #Ruby 1.9 (es handelt sich hierbei tatsächlich um Ruby 1.9.2 oder neuer,
-    #die "1.9.1" steht für die sog. "library compatibility version").
-    % sudo apt-get install ruby1.9.1-full
+{% highlight sh %}
+#Ruby 1.9 (es handelt sich hierbei tatsächlich um Ruby 1.9.2 oder neuer,
+#die "1.9.1" steht für die sog. "library compatibility version").
+% sudo apt-get install ruby1.9.1-full
 
-    #Ruby 1.8
-    % sudo apt-get install ruby-full
-{: .code .sh-code}
+#Ruby 1.8
+% sudo apt-get install ruby-full
+{% endhighlight %}
 
 Für `irb` und `rdoc` muss das „Universe“-Repository aktiviert werden.
 
 Unter Arch Linux findest du Ruby im „extra“-Repository.
 
-    % pacman -S ruby
-{: .code .sh-code}
+{% highlight sh %}
+% pacman -S ruby
+{% endhighlight %}
 
 #### Ruby unter OS X
 
@@ -137,8 +140,9 @@ installieren.
 
 Viele Leute benutzen unter Mac OS X [Homebrew][14] als Paketmanager:
 
-    $ brew install ruby
-{: .code .sh-code}
+{% highlight sh %}
+$ brew install ruby
+{% endhighlight %}
 
 Da OS X aber auch auf UNIX basiert, ist die Installation aus dem
 Quellcode ebenso einfach und effektiv wie die anderen Möglichkeiten;
@@ -163,8 +167,9 @@ Packaging System][23], IPS, verwenden. Damit werden die neuesten
 Ruby-Binaries (1.9) und RubyGems direkt aus dem OpenSolaris-Repository
 installiert:
 
-    % pkg install runtime/ruby-19
-{: .code .sh-code}
+{% highlight sh %}
+% pkg install runtime/ruby-19
+{% endhighlight %}
 
 Selbstverständlich kann man auch hier RVM verwenden.
 

@@ -8,12 +8,12 @@ Um dich bei einer Liste anzumelden, sende eine E-mail mit dem folgenden
 Inhalt (nicht Betreff) an die Controller Adresse:
 
     subscribe Vorname Nachname
-{: .code .mail-code}
+{: .code}
 
 e.g.
 
     subscribe John Doe
-{: .code .mail-code}
+{: .code}
 
 Ruby-Talk
 : Für Ruby-Talk ist die Controller Adresse

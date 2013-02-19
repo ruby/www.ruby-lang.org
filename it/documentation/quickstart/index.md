@@ -22,14 +22,18 @@ Apri la shell interattiva di Ruby (IRB).
   menu di avvio.
 ^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Perfetto, ora è aperta… e adesso?
 
 Prova a scrivere `"Ciao Mondo"`
 
-    irb(main):001:0> "Ciao Mondo"
-    => "Ciao Mondo"
+{% highlight ruby %}
+irb(main):001:0> "Ciao Mondo"
+=> "Ciao Mondo"
+{% endhighlight %}
 
 ## Ruby ti ha obbedito!
 
@@ -39,9 +43,11 @@ di IRB di dirci che è stato ritornato un valore dall’ultima espressione.
 Se vogliamo stampare a schermo “Ciao Mondo” dobbiamo aggiungere qualcosa
 in più:
 
-    irb(main):002:0> puts "Ciao Mondo" 
-    Ciao Mondo 
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Ciao Mondo" 
+Ciao Mondo 
+=> nil
+{% endhighlight %}
 
 `puts` è il comando base per stampare a schermo qualcosa, in Ruby.
 Invece `=> nil` in questo caso è il risultato dell’espressione, dal
@@ -51,8 +57,10 @@ momento che `puts` ritorna sempre nil, ovvero assolutamente nulla.
 
 IRB si può usare come una calcolatrice:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Tre più due è abbastanza semplice dopotutto. Così come tre per due, per
 esempio: potresti scriverlo direttamente in IRB, ma è anche possibile
@@ -60,19 +68,25 @@ premere **freccia su** e vedere se l’ultima espressione viene
 visualizzata, nel cui caso è solamente sufficiente sostituire `+` con
 `*`.
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 Ora proviamo a calcolare il quadrato di tre:
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 In Ruby `**` rappresenta l’operatore per calcolare le potenze. Mentre
 per calcolare una radice quadrata si fa così:
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Già, funziona, ma che cosa è successo? E in particolare che cos’è
 `Math`?
@@ -96,12 +110,14 @@ quadrata di un numero non è un intero, bensì un numero a virgola mobile.
 E se vogliamo salvare il risultato di questo calcolo? Semplice, basta
 assegnarlo ad una variabile:
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b)
-    => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b)
+=> 5.0
+{% endhighlight %}
 
 Sebbene tutto questo sia utile ai fini della nostra “calcolatrice”, ci
 stiamo allontanando droppo dal messaggio `Ciao Mondo` usato in tutti i

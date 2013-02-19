@@ -10,19 +10,21 @@ lang: zh_cn
 
 我们熟悉的 `say_hi` 函数也了有点变化：
 
-    # Say hi to everybody
-    def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names is a list of some kind, iterate!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+{% highlight ruby %}
+# Say hi to everybody
+def say_hi
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("each")
+    # @names is a list of some kind, iterate!
+    @names.each do |name|
+      puts "Hello #{name}!"
     end
+  else
+    puts "Hello #{@names}!"
+  end
+end
+{% endhighlight %}
 
 它现在会根据 `@names` 参数的不同而采取不同的行动。如果参数是 nil，它会打印三个点。没有理由和空气问好对吗？
 
@@ -33,9 +35,11 @@ lang: zh_cn
 
 下面看一看这个迭代结构
 
-    @names.each do |name|
-      puts "Hello #{name}!"
-    end
+{% highlight ruby %}
+@names.each do |name|
+  puts "Hello #{name}!"
+end
+{% endhighlight %}
 
 `each` 是一个可以接受代码块的函数。它在迭代每一个元素时都会调用一次之前所接受到的代码块。 代码块像是一个不需要命名的函数，和
 `lambda` 类似。 在`|  |`之间的就是传输给代码块的参数。
@@ -45,10 +49,12 @@ lang: zh_cn
 
 大多数编程语言都是用 `for` 循环来完成迭代的，比如在 C 里面：
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 这样也成，不过不那么优美。您需要一个没什么意思的 `i` 来监控列表长度和检测循环退出的判断。 Ruby
 的方法对比来看就更清爽，所有的清理工作都被隐藏在 `each` 函数里了， 您只需要告诉它您想做什么。在 `each`
@@ -58,17 +64,19 @@ lang: zh_cn
 
 代码块最有用的地方是用来处理比迭代列表更繁琐的工作。除了一般家务活之外， 您可以用它来自动安装卸载或处理运行错误。真正做到让用户省心、放心。
 
-    # Say bye to everybody
-    def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Join the list elements with commas
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
-    end
+{% highlight ruby %}
+# Say bye to everybody
+def say_bye
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("join")
+    # Join the list elements with commas
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+  else
+    puts "Goodbye #{@names}.  Come back soon!"
+  end
+end
+{% endhighlight %}
 
 `say_bye` 函数并没有用到 `each`，而是查看 `@names` 是否支持 `join`
 函数。如果是的话就调用，否则就简单的将变量转化为字符串。
@@ -80,7 +88,9 @@ lang: zh_cn
 
 这就是 MegaGreeter 类的所有内容了。剩下的代码就只是调用一下这个类的函数。 还有最后一点小技术在这里：
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` 是一个魔法值，它存有现在运行的脚本文件的名字。`$0` 是启动脚本的名字。 代码里的比较结构的意思是
 “如果这是启动脚本的话...” 这允许代码作为库调用的时候不运行启动代码， 而在作为执行脚本的时候调用启动代码。

@@ -8,12 +8,12 @@ lang: bg
 със следното съдържание:
 
     subscribe Your-First-Name Your-Last-Name
-{: .code .mail-code}
+{: .code}
 
 e.g.
 
     subscribe John Doe
-{: .code .mail-code}
+{: .code}
 
 Ruby-Talk
 : За Ruby-Talk, адреса за записване е

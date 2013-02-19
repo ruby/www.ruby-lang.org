@@ -57,8 +57,9 @@ Apabila Anda menggunakan [Debian][4] atau [Ubuntu][3] (juga distribusi
 turunan Debian yang lain), Anda bisa menggunakan `apt-get` untuk
 melakukan instalasi Ruby dengan mudah:
 
-    % sudo apt-get install ruby1.9.1-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby1.9.1-full
+{% endhighlight %}
 
 Catatan: Banyak package Ruby (termasuk `irb` dan `rdoc`) terdapat dalam
 *package repository* `universe`. Gunakan package manager yang Anda pakai
@@ -67,8 +68,9 @@ Catatan: Banyak package Ruby (termasuk `irb` dan `rdoc`) terdapat dalam
 Perintah di atas akan menginstall Ruby stabil terakhir versi 1.9.1.
 Untuk menginstall versi 1.8.x, gunakan perintah:
 
-    % sudo apt-get install ruby-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby-full
+{% endhighlight %}
 
 ### Fedora dan CentOS
 
@@ -76,8 +78,9 @@ Apabila Anda menggunakan [Fedora][9] atau [CentOS][10] (juga distribusi
 berbasis Fedora yang lain), login sebagai `root` dan gunakan *package
 manager* `yum`\:
 
-    # yum install ruby ruby-libs ruby-mode ruby-rdoc ruby-irb ruby-ri ruby-docs
-{: .code .sh-code}
+{% highlight sh %}
+# yum install ruby ruby-libs ruby-mode ruby-rdoc ruby-irb ruby-ri ruby-docs
+{% endhighlight %}
 
 ### Ruby di Mac OS X
 
@@ -91,8 +94,9 @@ menggunakan [MacPorts][13] atau [Fink][14].
 
 Untuk melakukan instalasi Ruby menggunakan MacPorts…
 
-    % port install ruby
-{: .code .sh-code}
+{% highlight sh %}
+% port install ruby
+{% endhighlight %}
 
 Fink mempunyai tampilan grafis (Fink Commander) untuk melakukan
 instalasi Ruby.
@@ -111,8 +115,9 @@ rilis selanjutnya, 10.5 “Leopard”. [Informasi lebih lanjut][16].*
 
 Gunakan [Ports][17] untuk menginstall Ruby di [FreeBSD][18]\:
 
-    # pkg_add -r ruby ruby18-gems
-{: .code .sh-code}
+{% highlight sh %}
+# pkg_add -r ruby ruby18-gems
+{% endhighlight %}
 
 ### Ruby di Solaris
 
@@ -120,19 +125,21 @@ Untuk melakukan instalasi Ruby di [Solaris][19], download distribusi
 *source code* Ruby terlebih dahulu. Dengan login sebagai root
 menggunakan console atau xterm:
 
-    # tar -xzv -f ruby-1.8.6.tar.gz
-    # cd ruby-1.8.6
-    # ./configure --enable-pthread
-    # make
-    # make install
-{: .code .sh-code}
+{% highlight sh %}
+# tar -xzv -f ruby-1.8.6.tar.gz
+# cd ruby-1.8.6
+# ./configure --enable-pthread
+# make
+# make install
+{% endhighlight %}
 
 Apabila Anda menggunakan [Nexenta][20], Anda bisa menggunakan Synaptic
 untuk melakukan instalasi paket bernama **ruby**. Anda juga bisa
 menggunakan console:
 
-    sudo apt-get install ruby
-{: .code .sh-code}
+{% highlight sh %}
+sudo apt-get install ruby
+{% endhighlight %}
 
 ### Source Code Ruby
 

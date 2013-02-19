@@ -9,12 +9,12 @@ endereço de “controlo” com o seguinte no corpo da mensagem (não no
 assunto):
 
     subscribe O-Seu-Primeiro-Nome O-Seu-Último-Nome
-{: .code .mail-code}
+{: .code}
 
 por exemplo:
 
     subscribe John Doe
-{: .code .mail-code}
+{: .code}
 
 Ruby-Talk
 : Para a lista Ruby-Talk, o endereço de controlo é

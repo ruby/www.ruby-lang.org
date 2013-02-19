@@ -65,7 +65,9 @@ las propiedades *variables de instancia* y las acciones son conocidas
 como *métodos*. La orientación a objetos pura de Ruby se suele demostrar
 con un simple código que aplica una acción a un número.
 
-    5.times { print "Nos *encanta* Ruby -- ¡es fuera de serie!" }
+{% highlight ruby %}
+5.times { print "Nos *encanta* Ruby -- ¡es fuera de serie!" }
+{% endhighlight %}
 
 En muchos lenguajes, los números y otros tipos primitivos no son
 objetos. Ruby sigue la influencia del lenguaje Smalltalk pudiendo poner
@@ -84,14 +86,16 @@ Por ejemplo, la suma se realiza con el operador suma (`+`). Pero si
 prefieres usar la palabra *sumar*, puedes agregar un método llamado
 `sumar` a la clase `Numeric` que viene incorporada.
 
-    class Numeric
-      def sumar(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.sumar 6
-    # ahora y vale 11
+{% highlight ruby %}
+class Numeric
+  def sumar(x)
+    self.+(x)
+  end
+end
+
+y = 5.sumar 6
+# ahora y vale 11
+{% endhighlight %}
 
 Los operadores de Ruby son simples conveniencias sintácticas para los
 métodos. Los puedes redefinir como y cuando quieras.
@@ -109,10 +113,12 @@ Los bloques están inspirados por los lenguajes funcionales. Matz dijo,
 “en las cláusulas de Ruby, quise respetar la cultura de
 Lisp<sup>[4](#fn4)</sup>”.
 
-    motores_de_busqueda = 
-      %w[Google Yahoo MSN].map do |motor|
-        "http://www." + motor.downcase + ".com"
-      end
+{% highlight ruby %}
+motores_de_busqueda = 
+  %w[Google Yahoo MSN].map do |motor|
+    "http://www." + motor.downcase + ".com"
+  end
+{% endhighlight %}
 
 En este código, el bloque está descrito entre la construcción `do ...
 end`. El método `map` aplica el bloque a la lista de palabras provista.
@@ -132,9 +138,11 @@ métodos gratuitamente. Por ejemplo, cualquier clase que implemente el
 método `each` puede incorporar el módulo `Enumerable`, que le agrega un
 conjunto de métodos que usan `each` para recorrer sus elementos.
 
-    class MiArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MiArray
+  include Enumerable
+end
+{% endhighlight %}
 
 En general, los Rubyistas ven esto como una forma mucho más clara de
 herencia múltiple, que es compleja e incluso puede ser restrictiva.

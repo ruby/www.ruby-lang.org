@@ -7,10 +7,12 @@ lang: it
 Se vogliamo dire “Ciao” molte volte senza stancarci troppo le dita?
 Dobbiamo definire un metodo!
 
-    irb(main):010:0> def c
-    irb(main):011:1> puts "Ciao Mondo!"
-    irb(main):012:1> end
-    => nil
+{% highlight ruby %}
+irb(main):010:0> def c
+irb(main):011:1> puts "Ciao Mondo!"
+irb(main):012:1> end
+=> nil
+{% endhighlight %}
 
 Il codice `def c` apre la definizione del metodo. Non fa altro che dire
 a Ruby che stiamo definendo un metodo, il cui nome è `c`. La linea
@@ -23,12 +25,14 @@ che ha capito che abbiamo finito la creazione del metodo.
 
 Ora proviamo questo metodo più volte:
 
-    irb(main):013:0> c
-    Ciao  Mondo!
-    => nil
-    irb(main):014:0> c()
-    Ciao Mondo!
-    => nil
+{% highlight ruby %}
+irb(main):013:0> c
+Ciao  Mondo!
+=> nil
+irb(main):014:0> c()
+Ciao Mondo!
+=> nil
+{% endhighlight %}
 
 Bene, fino a qui è facile. Chiamare un metodo in Ruby è semplice, basta
 scrivere il suo nome. Se il metodo non ha bisogno parametri, questo è
@@ -38,13 +42,15 @@ delle parentesi vuote, ma non sono necessarie.
 E se vogliamo dire “ciao” ad una sola persona e non a tutto il mondo?
 Basta ridefinire `c` in modo che accetti “nome” come parametro.
 
-    irb(main):015:0> def c(nome)
-    irb(main):016:1> puts "Ciao #{nome}!"
-    irb(main):017:1> end
-    => nil
-    irb(main):018:0> c("Matz")
-    Ciao Matz!
-    => nil
+{% highlight ruby %}
+irb(main):015:0> def c(nome)
+irb(main):016:1> puts "Ciao #{nome}!"
+irb(main):017:1> end
+=> nil
+irb(main):018:0> c("Matz")
+Ciao Matz!
+=> nil
+{% endhighlight %}
 
 Così funziona… ma diamo un’occhiata a cosa sta succedendo.
 
@@ -56,16 +62,18 @@ stringa (se non lo è già) e sostituito col valore a cui fa riferimento.
 Puoi anche utilizzare questa strada per essere sicuro che un nome abbia
 le iniziali maiuscole:
 
-    irb(main):019:0> def c(nome = "Mondo")
-    irb(main):020:1> puts "Ciao #{nome.capitalize}!"
-    irb(main):021:1> end
-    => nil
-    irb(main):022:0> c "chris"
-    Ciao Chris!
-    => nil
-    irb(main):023:0> c
-    Ciao Mondo!
-    => nil
+{% highlight ruby %}
+irb(main):019:0> def c(nome = "Mondo")
+irb(main):020:1> puts "Ciao #{nome.capitalize}!"
+irb(main):021:1> end
+=> nil
+irb(main):022:0> c "chris"
+Ciao Chris!
+=> nil
+irb(main):023:0> c
+Ciao Mondo!
+=> nil
+{% endhighlight %}
 
 Ci sono molte altre cose che puoi fare in questo modo. Una è chiamare il
 metodo senza le parentesi. Se quello che stai facendo è ovvio, le
@@ -79,18 +87,20 @@ Se vogliamo veramente una “persona” cordiale, che ricorda il tuo nome,
 che ti saluta e che ti tratta sempre con rispetto dobbiamo creare un
 oggetto. Creiamo quindi una classe chiamata “PersonaCordiale”.
 
-    irb(main):024:0> class PersonaCordiale
-    irb(main):025:1>   def initialize(nome = "Mondo")
-    irb(main):026:2>     @nome = name
-    irb(main):027:2>   end
-    irb(main):028:1>   def saluta
-    irb(main):029:2>     puts "Ciao #{@nome}!"
-    irb(main):030:2>   end
-    irb(main):031:1>   def congeda
-    irb(main):032:2>     puts "Arrivederci #{@nome}, a presto."
-    irb(main):033:2>   end
-    irb(main):034:1> end
-    => nil
+{% highlight ruby %}
+irb(main):024:0> class PersonaCordiale
+irb(main):025:1>   def initialize(nome = "Mondo")
+irb(main):026:2>     @nome = name
+irb(main):027:2>   end
+irb(main):028:1>   def saluta
+irb(main):029:2>     puts "Ciao #{@nome}!"
+irb(main):030:2>   end
+irb(main):031:1>   def congeda
+irb(main):032:2>     puts "Arrivederci #{@nome}, a presto."
+irb(main):033:2>   end
+irb(main):034:1> end
+=> nil
+{% endhighlight %}
 
 La nuova parola qui è `class`, essa definisce una nuova classe chiamata
 PersonaCordiale ed una serie di metodi. Fai attenzione a `@nome`. Questa

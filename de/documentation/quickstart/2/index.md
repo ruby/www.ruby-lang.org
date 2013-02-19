@@ -7,10 +7,12 @@ lang: de
 Was machen wir, wenn wir ganz oft “Hallo” sagen wollen, ohne uns die
 Finger wund zu tippen? Wir definieren eine Methode!
 
-    irb(main):010:0> def h
-    irb(main):011:1>   puts "Hallo, Welt!"
-    irb(main):012:1> end
-    => nil
+{% highlight ruby %}
+irb(main):010:0> def h
+irb(main):011:1>   puts "Hallo, Welt!"
+irb(main):012:1> end
+=> nil
+{% endhighlight %}
 
 Mit dem Code `def h` beginnt man die Methodendefinition. Er teilt Ruby
 mit, dass wir eine Methode definieren, deren Name `h` ist. Die nächste
@@ -24,12 +26,14 @@ das nun weiß.
 
 Rufen wir nun die Methode ein paar Mal auf:
 
-    irb(main):013:0> h
-    Hallo, Welt!
-    => nil
-    irb(main):014:0> h()
-    Hallo, Welt!
-    => nil
+{% highlight ruby %}
+irb(main):013:0> h
+Hallo, Welt!
+=> nil
+irb(main):014:0> h()
+Hallo, Welt!
+=> nil
+{% endhighlight %}
 
 So einfach ist das also! Man ruft eine Methode auf, indem man Ruby
 einfach ihren Namen nennt. Wenn die Methode keine Parameter hat, ist das
@@ -41,13 +45,15 @@ Was, wenn wir nun Hallo zu einer ganz bestimmten Person statt zur ganzen
 Welt sagen möchten? Dann definieren wir `h` einfach neu, so dass ein
 Name als Parameter akzeptiert wird:
 
-    irb(main):015:0> def h(name)
-    irb(main):016:1>   puts "Hallo, #{name}!"
-    irb(main):017:1> end
-    => nil
-    irb(main):018:0> h("Matz")
-    Hallo, Matz!
-    => nil
+{% highlight ruby %}
+irb(main):015:0> def h(name)
+irb(main):016:1>   puts "Hallo, #{name}!"
+irb(main):017:1> end
+=> nil
+irb(main):018:0> h("Matz")
+Hallo, Matz!
+=> nil
+{% endhighlight %}
 
 Es funktioniert also … aber sehen wir uns genauer an, was hier vor sich
 geht.
@@ -61,16 +67,18 @@ der entsprechenden Stelle innerhalb der Zeichenkette eingefügt. Das kann
 man auch dazu benutzen, um sicherzugehen, dass der Name einer Person mit
 einem Großbuchstaben anfängt:
 
-    irb(main):019:0> def h(name = "Welt")
-    irb(main):020:1>   puts "Hallo, #{name.capitalize}!"
-    irb(main):021:1> end
-    => nil
-    irb(main):022:0> h "chris"
-    Hallo, Chris!
-    => nil
-    irb(main):023:0> h
-    Hallo, Welt!
-    => nil
+{% highlight ruby %}
+irb(main):019:0> def h(name = "Welt")
+irb(main):020:1>   puts "Hallo, #{name.capitalize}!"
+irb(main):021:1> end
+=> nil
+irb(main):022:0> h "chris"
+Hallo, Chris!
+=> nil
+irb(main):023:0> h
+Hallo, Welt!
+=> nil
+{% endhighlight %}
 
 Hier kann man noch weitere Tricks beobachten. Einer davon ist, dass wir
 die Methode wieder ohne Klammern aufrufen. Wenn es also offensichtlich
@@ -86,18 +94,20 @@ erinnert, Dich willkommenheißt und Dich immer mit Respekt behandelt?
 Dafür erzeugen wir am besten ein Objekt. Lass uns also eine Klasse
 “Greeter” (“Begrüßer”) schreiben!
 
-    irb(main):024:0> class Greeter
-    irb(main):025:1>   def initialize(name = "Welt")
-    irb(main):026:2>     @name = name
-    irb(main):027:2>   end
-    irb(main):028:1>   def sag_hallo
-    irb(main):029:2>     puts "Hallo, #{@name}!"
-    irb(main):030:2>   end
-    irb(main):031:1>   def sag_tschuess
-    irb(main):032:2>     puts "Tschuess, #{@name}, bis bald!"
-    irb(main):033:2>   end
-    irb(main):034:1> end
-    => nil
+{% highlight ruby %}
+irb(main):024:0> class Greeter
+irb(main):025:1>   def initialize(name = "Welt")
+irb(main):026:2>     @name = name
+irb(main):027:2>   end
+irb(main):028:1>   def sag_hallo
+irb(main):029:2>     puts "Hallo, #{@name}!"
+irb(main):030:2>   end
+irb(main):031:1>   def sag_tschuess
+irb(main):032:2>     puts "Tschuess, #{@name}, bis bald!"
+irb(main):033:2>   end
+irb(main):034:1> end
+=> nil
+{% endhighlight %}
 
 Das neue Schlüsselwort hier ist `class`. Damit definieren wir eine neue
 Klasse namens “Greeter” und eine gewisse Anzahl von Methoden für diese

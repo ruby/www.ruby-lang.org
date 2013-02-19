@@ -6,22 +6,26 @@ lang: it
 
 Bene, creiamo il nostro oggetto PersonaCordiale e usiamolo:
 
-    irb(main):035:0> p = PersonaCordiale.new("Mario")
-    => #<Greeter:0x16cac @name="Pat">
-    irb(main):036:0> p.saluta
-    Ciao Mario!
-    => nil
-    irb(main):037:0> p.congeda
-    Arrivederci Mario, a presto.
-    => nil
+{% highlight ruby %}
+irb(main):035:0> p = PersonaCordiale.new("Mario")
+=> #<Greeter:0x16cac @name="Pat">
+irb(main):036:0> p.saluta
+Ciao Mario!
+=> nil
+irb(main):037:0> p.congeda
+Arrivederci Mario, a presto.
+=> nil
+{% endhighlight %}
 
 Una volta che l’oggetto `p` è stato creato, ricorda che il nome è Mario.
 Ma cosa succede se vogliamo accedere direttamente al nome?
 
-    irb(main):038:0> p.@nome
-    SyntaxError: compile error
-    (irb):52: syntax error
-            from (irb):52
+{% highlight ruby %}
+irb(main):038:0> p.@nome
+SyntaxError: compile error
+(irb):52: syntax error
+        from (irb):52
+{% endhighlight %}
 
 Nulla, non si può.
 
@@ -34,17 +38,19 @@ agli oggetti per accedere ai dati nascosti.
 
 Quindi quanti metodi esistono per il l’oggetto PersonaCordiale?
 
-    irb(main):039:0> PersonaCordiale.instance_methods
-    => ["method", "send", "object_id", "singleton_methods",
-        "__send__", "equal?", "taint", "frozen?",
-        "instance_variable_get", "kind_of?", "to_a",
-        "instance_eval", "type", "protected_methods", "extend",
-        "eql?", "display", "instance_variable_set", "hash",
-        "is_a?", "to_s", "class", "tainted?", "private_methods",
-        "untaint", "saluta", "id", "inspect", "==", "===",
-        "clone", "public_methods", "respond_to?", "freeze",
-        "congeda", "__id__", "=~", "methods", "nil?", "dup",
-        "instance_variables", "instance_of?"]
+{% highlight ruby %}
+irb(main):039:0> PersonaCordiale.instance_methods
+=> ["method", "send", "object_id", "singleton_methods",
+    "__send__", "equal?", "taint", "frozen?",
+    "instance_variable_get", "kind_of?", "to_a",
+    "instance_eval", "type", "protected_methods", "extend",
+    "eql?", "display", "instance_variable_set", "hash",
+    "is_a?", "to_s", "class", "tainted?", "private_methods",
+    "untaint", "saluta", "id", "inspect", "==", "===",
+    "clone", "public_methods", "respond_to?", "freeze",
+    "congeda", "__id__", "=~", "methods", "nil?", "dup",
+    "instance_variables", "instance_of?"]
+{% endhighlight %}
 
 Ci sono moltissimi metodi! Eppure ne avevamo definiti solo due: cosa sta
 succedendo? Questi sono tutti i metodi per il nostro oggetto
@@ -53,17 +59,21 @@ superclasse. Ma se volessimo vedere solo quelli che abbiamo creato noi?
 Dobbiamo dirgli di non elencare il metodi della sua classe genitore
 (super classe) passandogli come parametro `false`.
 
-    irb(main):040:0> PersonaCordiale.instance_methods(false)
-    => ["saluta", "congeda"]
+{% highlight ruby %}
+irb(main):040:0> PersonaCordiale.instance_methods(false)
+=> ["saluta", "congeda"]
+{% endhighlight %}
 
 Ah, ora va meglio! Vediamo a quali metodi risponde la nostra classe:
 
-    irb(main):041:0> p.respond_to?("name")
-    => false
-    irb(main):042:0> p.respond_to?("say_hi")
-    => true
-    irb(main):043:0> p.respond_to?("to_s")
-    => true
+{% highlight ruby %}
+irb(main):041:0> p.respond_to?("name")
+=> false
+irb(main):042:0> p.respond_to?("say_hi")
+=> true
+irb(main):043:0> p.respond_to?("to_s")
+=> true
+{% endhighlight %}
 
 Bene, la nostra classe conosce `saluta` e `to_s` (che significa
 convertire “qualcosa” in una stringa, un metodo definito di default per
@@ -74,34 +84,38 @@ ogni oggetto), ma non conosce `name`.
 E se volessimo vedere o cambiare il nome? Ruby fornisce un modo semplice
 per permetterci di accedere alle variabili di un oggetto.
 
-    irb(main):044:0> class PersonaCordiale
-    irb(main):045:1>   attr_accessor :nome
-    irb(main):046:1> end
-    => nil
+{% highlight ruby %}
+irb(main):044:0> class PersonaCordiale
+irb(main):045:1>   attr_accessor :nome
+irb(main):046:1> end
+=> nil
+{% endhighlight %}
 
 In Ruby, puoi aprire una classe e modificarla. I cambiamenti vengono
 aggiunti a tutti gli oggetti che crei e sempre disponibili per gli
 oggetti esistenti della classe. Quindi creiamo un nuovo oggetto e
 “giochiamo” con la sua proprietà `nome`.
 
-    irb(main):047:0> p = PersonaCordiale.new("Luigi")
-    => #<Greeter:0x3c9b0 @name="Andy">
-    irb(main):048:0> p.respond_to?("nome")
-    => true
-    irb(main):049:0> p.respond_to?("nome=")
-    => true
-    irb(main):050:0> p.saluta
-    Ciao Luigi!
-    => nil
-    irb(main):051:0> p.nome="Francesca"
-    => "Francesca"
-    irb(main):052:0> p
-    => #<Greeter:0x3c9b0 @name="Betty">
-    irb(main):053:0> p.nome
-    => "Francesca"
-    irb(main):054:0> p.saluta
-    Ciao Francesca!
-    => nil
+{% highlight ruby %}
+irb(main):047:0> p = PersonaCordiale.new("Luigi")
+=> #<Greeter:0x3c9b0 @name="Andy">
+irb(main):048:0> p.respond_to?("nome")
+=> true
+irb(main):049:0> p.respond_to?("nome=")
+=> true
+irb(main):050:0> p.saluta
+Ciao Luigi!
+=> nil
+irb(main):051:0> p.nome="Francesca"
+=> "Francesca"
+irb(main):052:0> p
+=> #<Greeter:0x3c9b0 @name="Betty">
+irb(main):053:0> p.nome
+=> "Francesca"
+irb(main):054:0> p.saluta
+Ciao Francesca!
+=> nil
+{% endhighlight %}
 
 Usando `attr_accessor` definiamo due nuovi metodi, `nome` per ricevere
 il valore e `nome=` per settarlo.
@@ -117,67 +131,69 @@ interattivo di Ruby IRB.
 
 Per chiudere IRB, scrivi “quit”, “exit” o semplicemnte premi Control-D.
 
-    #!/usr/bin/env ruby
-    
-    class AmicoDiTutti
-      attr_accessor :nomi
-    
-      # Crea l'oggetto
-      def initialize(nomi = "Mondo")
-        @nomi = nomi
+{% highlight ruby %}
+#!/usr/bin/env ruby
+
+class AmicoDiTutti
+  attr_accessor :nomi
+
+  # Crea l'oggetto
+  def initialize(nomi = "Mondo")
+    @nomi = nomi
+  end
+
+  # Saluta tutti
+  def saluta
+    if @nomi.nil?
+      puts "..."
+    elsif @nomi.respond_to?("each")
+
+      # @nomi è una lista di qualche tipo, allora iteriamo!
+      @nomi.each do |nome|
+        puts "Ciao #{nome}!"
       end
-    
-      # Saluta tutti
-      def saluta
-        if @nomi.nil?
-          puts "..."
-        elsif @nomi.respond_to?("each")
-    
-          # @nomi è una lista di qualche tipo, allora iteriamo!
-          @nomi.each do |nome|
-            puts "Ciao #{nome}!"
-          end
-        else
-          puts "Ciao #{@nomi}!"
-        end
-      end
-    
-      # Congeda tutti
-      def congeda
-        if @nomi.nil?
-          puts "..."
-        elsif @nomi.respond_to?("join")
-          # Unisci gli elementi della lista con delle virgole
-          puts "Arrivederci #{@nomi.join(", ")}. A presto!"
-        else
-          puts "Arrivederci #{@nomi}. A presto!"
-        end
-      end
-    
+    else
+      puts "Ciao #{@nomi}!"
     end
-    
-    
-    if __FILE__ == $0
-      adt = AmicoDiTutti.new
-      adt.saluta
-      adt.congeda
-    
-      # Cambia @nomi in "Paolo"
-      adt.nomi = "Paolo"
-      adt.saluta
-      adt.saluta
-    
-      # Cambia @nomi in una lista di nome
-      adt.nomi = ["Fabio", "Davide", "Raul",
-        "Giorgia", "Federica"]
-      adt.saluta
-      adt.congeda
-    
-      # Cambia @nomi in nil
-      adt.nomi = nil
-      adt.saluta
-      adt.congeda
+  end
+
+  # Congeda tutti
+  def congeda
+    if @nomi.nil?
+      puts "..."
+    elsif @nomi.respond_to?("join")
+      # Unisci gli elementi della lista con delle virgole
+      puts "Arrivederci #{@nomi.join(", ")}. A presto!"
+    else
+      puts "Arrivederci #{@nomi}. A presto!"
     end
+  end
+
+end
+
+
+if __FILE__ == $0
+  adt = AmicoDiTutti.new
+  adt.saluta
+  adt.congeda
+
+  # Cambia @nomi in "Paolo"
+  adt.nomi = "Paolo"
+  adt.saluta
+  adt.saluta
+
+  # Cambia @nomi in una lista di nome
+  adt.nomi = ["Fabio", "Davide", "Raul",
+    "Giorgia", "Federica"]
+  adt.saluta
+  adt.congeda
+
+  # Cambia @nomi in nil
+  adt.nomi = nil
+  adt.saluta
+  adt.congeda
+end
+{% endhighlight %}
 
 Salva questo file come “ri20min.rb” ed eseguilo così “ruby ri20min.rb”
 Verrà mostrato qualcosa di simile:
@@ -194,7 +210,7 @@ Verrà mostrato qualcosa di simile:
     Goodbye Fabio, Davide, Raul, Giorgia, Federica. A presto!
     ...
     ...
-{: .code .output-code}
+{: .code}
 
 Ci sono moltissime cose nuove in questo esempio che [possono assumere un
 significato più profondo](../4/).

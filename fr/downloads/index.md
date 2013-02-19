@@ -56,14 +56,16 @@ précédentes, lisez la suite.
 Sous Debian ou Ubuntu, le programme `aptitude` rend les choses très
 faciles :
 
-    % sudo aptitude install ruby1.9.1-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo aptitude install ruby1.9.1-full
+{% endhighlight %}
 
 Cette commande installe la dernière version stable de la branche 1.9.1.
 Pour installer plutôt la branche 1.8.\*, faites :
 
-    % sudo aptitude install ruby-full
-{: .code .sh-code}
+{% highlight sh %}
+% sudo aptitude install ruby-full
+{% endhighlight %}
 
 (pour installer également les dépendances `irb` et `rdoc`, les dépôts
 `Universe` doivent être actifs).
@@ -83,8 +85,9 @@ utuliser Rails. Vous pouvez également passer par [MacPorts][10] ou
 
 Avec MacPorts, vous pouvez installer Ruby avec la commande :
 
-    % port install ruby
-{: .code .sh-code}
+{% highlight sh %}
+% port install ruby
+{% endhighlight %}
 
 Fink est distribué avec une interface graphique (« Fink Commander ») que
 vous pouvez utiliser pour installer Ruby.
@@ -109,8 +112,9 @@ Pour installer Ruby sous [OpenSolaris][18], veuillez utiliser le client
 binaires de Ruby et Rubygems directement depuis le dépôt OpenSolaris. La
 mise en œuvre est très simple :
 
-    % pfexec pkg install SUNWruby18
-{: .code .sh-code}
+{% highlight sh %}
+% pfexec pkg install SUNWruby18
+{% endhighlight %}
 
 Ceci provoquera l’installation de Ruby, Rubygems, des extensions
 usuelles et des librairies nécessaires. Ce paquet contient également un

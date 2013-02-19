@@ -27,14 +27,18 @@ IRB’i açın (Interactive Ruby anlamına gelir).
   çalıştırın.
 ^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Tamam açıldı şimdi ne yapacağız?
 
 Şunu yazın : `"Hello World"`
 
-    irb(main):001:0> "Hello World"
-    => "Hello World"
+{% highlight ruby %}
+irb(main):001:0> "Hello World"
+=> "Hello World"
+{% endhighlight %}
 
 ## Ruby Size İtaat Eder!
 
@@ -43,9 +47,11 @@ Tam olarak değil. İkinci satır sadece IRB’in yaptığı işlemin sonucunu
 bildirme tekniği. Eğer ekrana “Hello World” yazdırmak istiyorsak daha
 fazla birşeyler yapmalıyız:
 
-    irb(main):002:0> puts "Hello World"
-    Hello World
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Hello World"
+Hello World
+=> nil
+{% endhighlight %}
 
 `puts` Ruby’de çıktı almak için en basit bir komut. Fakat bu `=> nil` ne
 oluyor ki? Bu işlevin sonucudur. `puts` herzaman Ruby’de hiçbirşeyi
@@ -55,27 +61,35 @@ ifade eden nil döner.
 
 IRB basit bir hesap makinası olarak kullanılabilir:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Üç artı iki. Çok kolay. Peki üç *kere* iki nedir? Bunu girebileceğiniz
 gibi bir önce girdiğiniz satırı yukarı tuşuna basarak tekrar
 çağırabilirsiniz. Yukarı tuşuna basıp bunu test edin `+` işaretinin
 üstüne gidip silin ve `*` ile değiştirin.
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 Sonra üçün karesini bulalım:
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 Ruby’de `**` “üssü” demenin yoludur. Fakat bir sayının karekökü için ne
 yapmalı?
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Tamam, bu ne demek sizce? Tahmin ederseniz dokuzun karekökü alınmış.
 Haklısınız fakat daha yakından inceleyelim, en başta bu `Math` ne ?
@@ -98,11 +112,13 @@ noktalı bir sayı geri döner.
 Peki bazı matematik işlemlerimizin sonucunu hatırlamak istersek? Cevabı
 bir değişkene atama yaparız.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b) => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b) => 5.0
+{% endhighlight %}
 
 Bir hsap makinası için oldukça yeterli. Klasik `Hello World` mesajından
 uzaklaşmaya başladık, [geri dönelim.](2/)

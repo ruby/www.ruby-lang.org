@@ -30,15 +30,19 @@ de [Shakespeare][2].
 IRB permet d’écrire et d’interpréter du Ruby *à la volée*, sans avoir à
 enregistrer un fichier et l’exécuter ensuite.
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Voilà, IRB est lancé. Et maintenant ?
 
 Tapez ceci : `"Hello World"` et appuyez sur \[Entrée\] pour valider (ce
 que vous devrez faire après chaque nouvelle ligne).
 
-    irb(main):001:0> "Hello World"
-    => "Hello World"
+{% highlight ruby %}
+irb(main):001:0> "Hello World"
+=> "Hello World"
+{% endhighlight %}
 
 ## Ruby… au doigt et à l’œil
 
@@ -49,9 +53,11 @@ nous informe du résultat de la dernière expression évaluée. Si nous
 voulons véritablement *écrire* « Hello World », il en faut un tout petit
 peu plus :
 
-    irb(main):002:0> puts "Hello World" 
-    Hello World 
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Hello World" 
+Hello World 
+=> nil
+{% endhighlight %}
 
 `puts` est la commande de base pour écrire quelque chose avec Ruby. Et
 qu’est-ce que `nil` que nous présente IRB ? Le résultat de notre
@@ -63,8 +69,10 @@ totale de valeur*.
 
 Il est très facile d’utiliser IRB comme une vulgaire calculatrice :
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Trois plus deux. Assez facile, j’en conviens. Et *quid* de trois
 **fois** deux ? Notez ici que vous pouvez, si vous le voulez, appuyer
@@ -72,20 +80,26 @@ sur la touche \[Flèche haut\] pour rappeler la dernière ligne tapée dans
 IRB, et avec les flèches directionnelles et \[backspace\], remplacer le
 signe `+` par `*`\:
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 Maintenant, essayons trois au carré :
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 Dans la syntaxe Ruby, `**` est là pour signifier « à la puissance… » ;
 et si vous souhaitez aller dans l’autre sens, à savoir obtenir la racine
 carré d’un nombre, vous écrirez ceci :
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Un peu moins trivial. Vous avez vraisembablement deviné que cela
 demandait la racine carré (Ndt : ***sq**uare* ***r***oo***t*** en
@@ -121,12 +135,14 @@ réel (du point de vue de l’ordinateur, un nombre à virgule flottante).
 Si nous souhaitons conserver « quelque part » le résultat de cette
 opération mathématique, il suffit de l’assigner à une variable.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b)
-    => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b)
+=> 5.0
+{% endhighlight %}
 
 Bien, notre calculatrice est déjà un bon début, mais le sujet principal
 de ce tutoriel est le programme *Hello World*. Revenons donc à nos

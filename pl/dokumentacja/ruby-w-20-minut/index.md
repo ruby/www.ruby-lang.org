@@ -23,14 +23,18 @@ Otwórz IRB’a.
   Start.
 ^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Ok, udało się otworzyć IRB’a. Co teraz?
 
 Wpisz: `"Hello World"`
 
-    irb(main):001:0> "Hello World"
-    => "Hello World"
+{% highlight ruby %}
+irb(main):001:0> "Hello World"
+=> "Hello World"
+{% endhighlight %}
 
 ## Ruby Wykonał Polecenie!
 
@@ -39,9 +43,11 @@ Co się stało? Czy właśnie napisaliśmy najkrótszy na świecie program
 informuje nas o wyniku ostatniego wyrażenia jakie wykonał. Jeśli chcemy
 wyświetlić “Hello World” potrzebujemy troszkę więcej:
 
-    irb(main):002:0> puts "Hello World" 
-    Hello World 
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Hello World" 
+Hello World 
+=> nil
+{% endhighlight %}
 
 `puts` jest poleceniem, które ogólnie rzecz biorąc wyświetla różne
 rzeczy w Rubim. A co oznacza `=> nil` ? To wynik wyrażenia. `puts`
@@ -53,8 +59,10 @@ jakiejkolwiek wartości.
 Mamy już wystarczająco informacji, aby użyć IRB’a jako prostego
 kalkulatora:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Trzy plus dwa. Wystarczająco proste. Co z “trzy razy dwa” (three times
 two)? Możesz to napisać, jest to wciąż bardzo krótkie, ale możesz też
@@ -64,19 +72,25 @@ z tekstem `3+2` . Jeśli pojawi się, wtedy możesz użyć strzałki w lewo
 aby ustawić kursor zaraz za znakiem plus `+` nacisnąć klawisz backspace
 i zamienić plus na `*`.
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 Następnie, wypróbujmy potęgowania:
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 W Rubim `**` jest sposobem zapisu potęgowania. Co jeśli chciałbyś pójść
 odwrotną drogą i obliczyć pierwiastek kwadratowy danej liczby ?
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Co przedsatwia powyższa linia ? Tak, zgadza się, obliczamy tutaj
 pierwiastek kwadratowy liczby 9. Przypatrzmy się temu bliżej. Po
@@ -102,12 +116,14 @@ ta metoda zawsze zwraca liczbę zmiennoprzecinkową.
 Co jeśli chcialibyśmy zapamiętać wynik naszych obliczeń ? Przypiszmy
 wynik do zmiennej.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b)
-    => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b)
+=> 5.0
+{% endhighlight %}
 
 Odbiegamy tutaj jednak od tradycyjnego programu “Hello World” , na
 którym tutoriale dla początkujących powinny się skupiać więc [wróćmy do

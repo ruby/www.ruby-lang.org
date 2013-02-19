@@ -13,20 +13,23 @@ sintaks antara Ruby dengan Python.
 Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di Python:
 
-    import sys
-    
-    a = sys.stdin.readline()
-    b = sys.stdin.readline()
-    c = int(a) + int(b)
-    print c
-{: .code .python-code}
+{% highlight python %}
+import sys
+
+a = sys.stdin.readline()
+b = sys.stdin.readline()
+c = int(a) + int(b)
+print c
+{% endhighlight %}
 
 Anda dapat menuliskan program tersebut di Ruby sebagai berikut:
 
-    a = gets.to_i
-    b = gets.to_i
-    c = a + b
-    puts c
+{% highlight ruby %}
+a = gets.to_i
+b = gets.to_i
+c = a + b
+puts c
+{% endhighlight %}
 
 Sumber: [A Very Quick Comparison of Popular Languages for Teaching
 Computer Programming][1]

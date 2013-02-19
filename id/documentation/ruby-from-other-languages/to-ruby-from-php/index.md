@@ -13,15 +13,18 @@ disesuaikan, maka ada baiknya Anda mempertimbangkan menggunakan Ruby.
 Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di PHP:
 
+{% highlight python %}
 
-{: .code .python-code}
+{% endhighlight %}
 
 Anda dapat menuliskan program tersebut di Ruby sebagai berikut:
 
-    a = gets.to_i
-    b = gets.to_i
-    c = a + b
-    puts c
+{% highlight ruby %}
+a = gets.to_i
+b = gets.to_i
+c = a + b
+puts c
+{% endhighlight %}
 
 ### Kemiripan Ruby dan PHP
 

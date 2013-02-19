@@ -10,19 +10,21 @@ lang: zh_TW
 
 我們的 `say_hi` 方法也改變了：
 
-    # 對每個人說 hi
-    def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names 是可以迭代的陣列容器
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+{% highlight ruby %}
+# 對每個人說 hi
+def say_hi
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("each")
+    # @names 是可以迭代的陣列容器
+    @names.each do |name|
+      puts "Hello #{name}!"
     end
+  else
+    puts "Hello #{@names}!"
+  end
+end
+{% endhighlight %}
 
 它現在會根據 `@names` 參數的不同而有不同的行為。如果是 nil，它會輸出三個點。沒必要對空氣打招呼，對吧?
 
@@ -33,9 +35,11 @@ lang: zh_TW
 
 下面來看一看這是怎麼迭代的：
 
-    @names.each do |name|
-      puts "Hello #{name}!"
-    end
+{% highlight ruby %}
+@names.each do |name|
+  puts "Hello #{name}!"
+end
+{% endhighlight %}
 
 `each` 是一個可以接受程式區塊(a block of code)的方法，它會對 `@names` 裡的每個元素執行這個程式區塊，也就是從
 `do` 到 `end` 的程式碼。一個程式區塊就像是一個匿名方法，也像是 `lambda`。而在直線 `|` 符號之間的是這個程式區塊的參數。
@@ -44,10 +48,12 @@ lang: zh_TW
 
 大多數的程式語言會用 `for` 迴圈來做這件事情，例如在 C 裡面：
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 這樣也行，只是沒這麼漂亮。你需要一個用過即丟的 `i` 變數、需要計算容器的長度、檢查離開迴圈的條件。而 Ruby
 的方式漂亮多了，所有的工作都被包裝在 `each` 方法裡。在 `each` 內部會去輪流呼叫 `yield "Albert"`、`yield
@@ -57,17 +63,19 @@ lang: zh_TW
 
 程式區塊真正厲害的地方是，它可以處理比迭代更複雜的任務。你可以用來設定(setup)、卸載(teardown)和錯誤處理，這些都可以隱藏起來讓方法使用者無需擔心。
 
-    # 向每個人說 bye
-    def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # 用逗號將陣列中的元素串接成一個字串
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
-    end
+{% highlight ruby %}
+# 向每個人說 bye
+def say_bye
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("join")
+    # 用逗號將陣列中的元素串接成一個字串
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+  else
+    puts "Goodbye #{@names}.  Come back soon!"
+  end
+end
+{% endhighlight %}
 
 `say_bye` 方法沒有用到 `each`，而是檢查 `@names`@ 是不是可以回應 `join`
 方法。如果可以，就呼叫它。不然它就把它當做字串輸出。這個方法並不在乎變數真正的
@@ -79,7 +87,9 @@ lang: zh_TW
 
 這就是 MegaGreeter 類別了。剩下的部份是就是使用這個類別而已。唯一要注意的技巧是以下這行：
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` 是一個預先定義好的變數，內容是目前這個檔案的名稱。而 `$0` 是執行這隻程式的執行檔名稱。這個檢查是說
 “如果這個檔案就是執行程式的檔案....”。這可以允許將這個檔案當做方法庫使用。也就是說，這個檔案如果當做方法庫使用時，不會執行這段程式。如果當做執行檔執行，就會執行這段程式。

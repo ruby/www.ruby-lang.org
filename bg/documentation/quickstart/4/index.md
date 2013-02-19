@@ -12,19 +12,21 @@ UNIX-подобни операционни системи.
 
 Въведохме известна промяна в метода `say_hi`\:
 
-    # Say hi to everybody
-    def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names is a list of some kind, iterate!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+{% highlight ruby %}
+# Say hi to everybody
+def say_hi
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("each")
+    # @names is a list of some kind, iterate!
+    @names.each do |name|
+      puts "Hello #{name}!"
     end
+  else
+    puts "Hello #{@names}!"
+  end
+end
+{% endhighlight %}
 
 В горния пример правим проверка на параметъра `@names` за да вземем
 решение. Ако е nil, отпечатваме три точки.
@@ -38,9 +40,11 @@ UNIX-подобни операционни системи.
 
 Нека разгледаме итератора от близо:
 
-    @names.each do |name|
-      puts "Hello #{name}!"
-    end
+{% highlight ruby %}
+@names.each do |name|
+  puts "Hello #{name}!"
+end
+{% endhighlight %}
 
 Методът `each` приема блок с код, който се изпълнява за всеки елемент от
 списъка, бит по бит, между ключовите думи `do` и `end.  Блокът е като
@@ -50,10 +54,12 @@ UNIX-подобни операционни системи.
 В повечето езици за програмиране се ползва цикъл като `for` за обхождане
 на списъка, като това става на C по следния начин:
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 Този вариант работи, но не е най-елегантното решение. Имаме нужда от
 променлива i, големината на списъка и описание на начина на обхождане. В
@@ -66,17 +72,19 @@ Ruby това става много елегантно, като всички д
 Истинската мощ на блоковете може да видим в обработката на сложни
 списъци.
 
-    # Say bye to everybody
-    def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Join the list elements with commas
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
-    end
+{% highlight ruby %}
+# Say bye to everybody
+def say_bye
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("join")
+    # Join the list elements with commas
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+  else
+    puts "Goodbye #{@names}.  Come back soon!"
+  end
+end
+{% endhighlight %}
 
 Методът `say_bye` не използва `each`, а вместо това прави проверка дали
 `@names` отговаря на метода `join` и при положителен резултат го ползва.
@@ -92,7 +100,9 @@ Ruby това става много елегантно, като всички д
 
 Ползваме един последен трик за стартиране на скрипта:
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` е специална променлива, която съдържа името на настоящия
 файл, а `$0` представлява името на файла, нужен за стартирането на

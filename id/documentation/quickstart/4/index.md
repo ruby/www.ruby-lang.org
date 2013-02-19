@@ -14,19 +14,21 @@ selanjutnya untuk penjelasan.
 
 Metode `say_hai` kita sudah punya trik sedikit:
 
-    # Bilang Hai buat semua
-    def say_hai
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names adalah list, iterate!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+{% highlight ruby %}
+# Bilang Hai buat semua
+def say_hai
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("each")
+    # @names adalah list, iterate!
+    @names.each do |name|
+      puts "Hello #{name}!"
     end
+  else
+    puts "Hello #{@names}!"
+  end
+end
+{% endhighlight %}
 
 Sekarang kelas memperhatikan parameter `@names` untuk menentukan
 pilihan. Jika parameter nil, maka print tiga dot (...). Ya karena memang
@@ -42,9 +44,11 @@ default.
 
 Mari kita perhatikan iterator lebih dalam lagi:
 
-    @names.each do |name|
-      puts "Hello #{name}!"
-    end
+{% highlight ruby %}
+@names.each do |name|
+  puts "Hello #{name}!"
+end
+{% endhighlight %}
 
 `each` merupakan metode yang menerima blok kode yang kemudian
 menjalankan blok kode tersebut untuk setiap elemen dalam list, dan
@@ -59,10 +63,12 @@ dengan name tersebut.
 Kebanyakan bahasa-bahasa pemrograman lain menangani list dengan
 menggunakan perulangan `for`, kalau di C seperti ini:
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 Kode diatas memang jalan, tetapi tidak begitu elegan. Anda perlu
 variabel `i`, untuk mencari tahu berapa panjang/total list, dan juga
@@ -80,17 +86,19 @@ lebih rumit ketimbang list. Selain dari berhubungan dengan list, Anda
 juga bisa menangani setup, teardown dan error (yang mana semua itu
 diluar dari sepengatahuan user)
 
-    # Bilang "sampai jumpa" buat semua
-    def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Gabung (Join) elemen list dengan koma
-        puts "Sampai jumpa #{@names.join(", ")}. Datang lagi ya!"
-      else
-        puts "Sampai jumpa #{@names}. Datang lagi ya!"
-      end
-    end
+{% highlight ruby %}
+# Bilang "sampai jumpa" buat semua
+def say_bye
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("join")
+    # Gabung (Join) elemen list dengan koma
+    puts "Sampai jumpa #{@names.join(", ")}. Datang lagi ya!"
+  else
+    puts "Sampai jumpa #{@names}. Datang lagi ya!"
+  end
+end
+{% endhighlight %}
 
 Metode `say_bye` tidak menggunakan `each`, tetapi memeriksa apakah
 `@names` merespon metode `join`, jika Ya, maka gunakan join. Tetapi jika
@@ -110,7 +118,9 @@ Begitulah akhir cerita kelas BosTukangSapa, akhir dari file hanya
 memanggil metode-metode pada kelas tersebut. Ada satu trik yang perlu
 diperhatikan di baris:
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` adalah variabel magic yang berisi nama file saat ini. `$0`
 adalah nama file yang dipakai ketika memulai program. Pemeriksaan ini

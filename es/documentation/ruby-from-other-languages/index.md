@@ -56,10 +56,12 @@ C++, o Java anterior al 1.5), o recorrer una lista (como el <tt>for (@a)
 \{...}</tt> de Perl, o <tt>for i in aList: ...</tt> en Python, con Ruby
 verás muy frecuentemente código de este estilo:
 
-    una_lista.each do |este_item|
-      # Estamos dentro del bloque.
-      # Trabaja con este_item.
-    end
+{% highlight ruby %}
+una_lista.each do |este_item|
+  # Estamos dentro del bloque.
+  # Trabaja con este_item.
+end
+{% endhighlight %}
 
 Para obtener más información sobre `each` (y sus amigos `collect`,
 `find`, `inject`, `sort`, etc.), ejecuta `ri Enumerable` (y después
@@ -70,9 +72,11 @@ Para obtener más información sobre `each` (y sus amigos `collect`,
 No hay diferencia entre una expresión y un comando. Todo tiene un valor,
 incluso si ese valor es **nil**. Esto es posible:
 
-    x = 10
-    y = 11
-    z = if x  true
+{% highlight ruby %}
+x = 10
+y = 11
+z = if x  true
+{% endhighlight %}
 
 ### Los symbols (símbolos) no son strings especiales
 
@@ -83,11 +87,13 @@ Los symbols pueden ser descritos como identidades. Lo importante de un
 Symbol es **quién** es, no **qué** es. Arranca `irb` y experimenta la
 diferencia:
 
-    irb(main):001:0> :jorge.object_id == :jorge.object_id
-    => true
-    irb(main):002:0> "jorge".object_id == "jorge".object_id
-    => false
-    irb(main):003:0>
+{% highlight ruby %}
+irb(main):001:0> :jorge.object_id == :jorge.object_id
+=> true
+irb(main):002:0> "jorge".object_id == "jorge".object_id
+=> false
+irb(main):003:0>
+{% endhighlight %}
 
 El método `object_id` retorna la identidad de un objeto. Si dos objetos
 tienen el mismo `object_id`, son el mismo objeto (apuntan al mismo
@@ -112,13 +118,15 @@ el contenido (en nuestro ejemplo, “jorge”).
 enteros son objetos, y puedes hacer con ellos las mismas cosas que con
 cualquier otro objeto:
 
-    # Esto es lo mismo que:
-    # class MiClase
-    #   attr_accessor :variable_de_instancia
-    # end
-    MiClase = Class.new do
-      attr_accessor :variable_de_instancia
-    end
+{% highlight ruby %}
+# Esto es lo mismo que:
+# class MiClase
+#   attr_accessor :variable_de_instancia
+# end
+MiClase = Class.new do
+  attr_accessor :variable_de_instancia
+end
+{% endhighlight %}
 
 ### Constantes variables
 
@@ -139,10 +147,12 @@ Sin embargo, los nombres de los métodos tienen permitido comenzar con
 letras mayúsculas. Esto puede confundirte, como muestra el siguiente
 ejemplo:
 
-    Constante = 10
-    def Constante
-      11
-    end
+{% highlight ruby %}
+Constante = 10
+def Constante
+  11
+end
+{% endhighlight %}
 
 Ahora `Constante` vale 10, pero `Constante()` retorna 11.
 
@@ -152,11 +162,13 @@ A diferencia de Python, Ruby no tiene parámetros nombrados. Sin embargo,
 pueden ser emulados mediante el uso de symbols y hashes. Ruby on Rails,
 entre otros, usa esto a discreción. Por ejemplo:
 
-    def parametros_con_nombre( params )
-      params
-    end
-    parametros_con_nombre( :param_uno => 10, :param_dos => 42 )
-    # => {:param_uno=>10, :param_dos=>42}
+{% highlight ruby %}
+def parametros_con_nombre( params )
+  params
+end
+parametros_con_nombre( :param_uno => 10, :param_dos => 42 )
+# => {:param_uno=>10, :param_dos=>42}
+{% endhighlight %}
 
 ### La verdad universal
 
@@ -165,20 +177,24 @@ Python y muchos otros lenguajes, **0\* y posiblemente otros valores,
 como listas vacías, son considerados \*false**. Examina el siguiente
 código Python (el ejemplo aplica también a otros lenguajes):
 
-    # en Python
-    if 0:
-      print "0 es verdadero"
-    else:
-      print "0 es falso"
+{% highlight ruby %}
+# en Python
+if 0:
+  print "0 es verdadero"
+else:
+  print "0 es falso"
+{% endhighlight %}
 
 Esto imprimirá “0 es falso”. El equivalente en Ruby:
 
-    # en Ruby
-    if 0
-      puts "0 es verdadero"
-    else
-      puts "0 es falso"
-    end
+{% highlight ruby %}
+# en Ruby
+if 0
+  puts "0 es verdadero"
+else
+  puts "0 es falso"
+end
+{% endhighlight %}
 
 Imprime “0 es verdadero”.
 
@@ -186,26 +202,30 @@ Imprime “0 es verdadero”.
 
 En el siguiente código Ruby,
 
-    class MiClase
-      private
-      def un_metodo; true; end
-      def otro_metodo; false; end
-    end
+{% highlight ruby %}
+class MiClase
+  private
+  def un_metodo; true; end
+  def otro_metodo; false; end
+end
+{% endhighlight %}
 
 Puede ser que esperes que `otro_metodo` sea de alcance público. Esto no
 es así. El modificador de acceso ‘private’ continúa hasta el fin del
 alcance, o hasta que aparezca un nuevo modificador de acceso, lo que
 ocurra primero. Por defecto, los métodos son públicos:
 
-    class MiClase
-      # Ahora un_metodo es público
-      def un_metodo; true; end
-    
-      private
-    
-      # otro_metodo es privado
-      def otro_metodo; false; end
-    end
+{% highlight ruby %}
+class MiClase
+  # Ahora un_metodo es público
+  def un_metodo; true; end
+
+  private
+
+  # otro_metodo es privado
+  def otro_metodo; false; end
+end
+{% endhighlight %}
 
  `public`, `private` y `protected` en realidad son métodos, así que pueden recibir parámetros. Si pasas un símbolo a uno de ellos, la visibilidad de ese método es alterada. ### Acceso a los métodos
 
@@ -226,44 +246,46 @@ ancestros, pero también con otra instancia como su receptor.
 
 Ejemplo, adaptado del [Ruby FAQ][1]\:
 
-    $ irb
-    irb(main):001:0> class Test
-    irb(main):002:1>   # public por defecto
-    irb(main):003:1*   def func
-    irb(main):004:2>     99
-    irb(main):005:2>   end
-    irb(main):006:1> 
-    irb(main):007:1*   def ==(otro)
-    irb(main):008:2>     func == otro.func
-    irb(main):009:2>   end
-    irb(main):010:1> end
-    => nil
-    irb(main):011:0> 
-    irb(main):012:0* t1 = Test.new
-    => #<Test:0x34ab50>
-    irb(main):013:0> t2 = Test.new
-    => #<Test:0x342784>
-    irb(main):014:0> t1 == t2
-    => true
-    irb(main):015:0> # ahora haz 'func' protected, todavía funciona
-    irb(main):016:0* # porque protected permite la otra referencia
-    irb(main):017:0* class Test
-    irb(main):018:1>   protected :func
-    irb(main):019:1> end
-    => Test
-    irb(main):020:0> t1 == t2
-    => true
-    irb(main):021:0> # ahora haz 'func' private
-    irb(main):022:0* class Test
-    irb(main):023:1>   private :func
-    irb(main):024:1> end
-    => Test
-    irb(main):025:0> t1 == t2
-    NoMethodError: private method `func' called for #<Test:0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
-    irb(main):026:0>
+{% highlight ruby %}
+$ irb
+irb(main):001:0> class Test
+irb(main):002:1>   # public por defecto
+irb(main):003:1*   def func
+irb(main):004:2>     99
+irb(main):005:2>   end
+irb(main):006:1> 
+irb(main):007:1*   def ==(otro)
+irb(main):008:2>     func == otro.func
+irb(main):009:2>   end
+irb(main):010:1> end
+=> nil
+irb(main):011:0> 
+irb(main):012:0* t1 = Test.new
+=> #<Test:0x34ab50>
+irb(main):013:0> t2 = Test.new
+=> #<Test:0x342784>
+irb(main):014:0> t1 == t2
+=> true
+irb(main):015:0> # ahora haz 'func' protected, todavía funciona
+irb(main):016:0* # porque protected permite la otra referencia
+irb(main):017:0* class Test
+irb(main):018:1>   protected :func
+irb(main):019:1> end
+=> Test
+irb(main):020:0> t1 == t2
+=> true
+irb(main):021:0> # ahora haz 'func' private
+irb(main):022:0* class Test
+irb(main):023:1>   private :func
+irb(main):024:1> end
+=> Test
+irb(main):025:0> t1 == t2
+NoMethodError: private method `func' called for #<Test:0x342784>
+        from (irb):8:in `=='
+        from (irb):25
+        from :0
+irb(main):026:0>
+{% endhighlight %}
 
 ### Las clases están abiertas
 
@@ -273,15 +295,17 @@ principales, como `Fixnum` o incluso `Object`, el padre de todos los
 objetos. Ruby on Rails define un montón de métodos para menejar el
 tiempo y los horarios en `Fixnum`. Mira:
 
-    class Fixnum
-      def hours
-        self * 3600 # cantidad de segundos en una hora
-      end
-      alias hour hours
-    end
-      
-    # 14 horas desde las 00:00 del 1ro de enero del 2006
-    Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
+{% highlight ruby %}
+class Fixnum
+  def hours
+    self * 3600 # cantidad de segundos en una hora
+  end
+  alias hour hours
+end
+  
+# 14 horas desde las 00:00 del 1ro de enero del 2006
+Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
+{% endhighlight %}
 
 ### Nombres de métodos graciosos
 
@@ -302,23 +326,25 @@ sentido tener un método como ese que **no** modifique **self**.
 Los métodos Singleton son métodos-por-objeto. Sólo están disponibles en
 el objeto en el que los defines.
 
-    class Automovil
-      def inspect
-        "Auto barato"
-      end
-    end
-    
-    porsche = Automovil.new
-    porsche.inspect # => Auto barato
-    def porsche.inspect
-      "Auto muy caro"
-    end
-    
-    porsche.inspect # => Auto muy caro
-    
-    # Otros objetos no son afectados
-    otro_auto = Automovil.new
-    otro_auto.inspect # => Auto barato
+{% highlight ruby %}
+class Automovil
+  def inspect
+    "Auto barato"
+  end
+end
+
+porsche = Automovil.new
+porsche.inspect # => Auto barato
+def porsche.inspect
+  "Auto muy caro"
+end
+
+porsche.inspect # => Auto muy caro
+
+# Otros objetos no son afectados
+otro_auto = Automovil.new
+otro_auto.inspect # => Auto barato
+{% endhighlight %}
 
 ### Métodos faltantes
 
@@ -329,16 +355,18 @@ method\_missing lanza una excepción NameError, pero puedes redefinirlo
 para que se ajuste mejor a tu aplicación, y muchas bibliotecas lo hacen.
 Aquí tienes un ejemplo:
 
-    # id es el nombre del método invocado, la sintaxis * recolecta
-    # todos los argumentos en un array llamado 'argumentos'
-    def method_missing( id, *argumentos )
-      puts "El método #{id} fue invocado, pero no existe. Tiene " + 
-           "estos argumentos: #{argumentos.join(", ")}"
-    end
-    
-    __ :a, :b, 10
-    # => El método __ fue invocado, pero no existe. Tiene estos
-    # argumentos: a, b, 10
+{% highlight ruby %}
+# id es el nombre del método invocado, la sintaxis * recolecta
+# todos los argumentos en un array llamado 'argumentos'
+def method_missing( id, *argumentos )
+  puts "El método #{id} fue invocado, pero no existe. Tiene " + 
+       "estos argumentos: #{argumentos.join(", ")}"
+end
+
+__ :a, :b, 10
+# => El método __ fue invocado, pero no existe. Tiene estos
+# argumentos: a, b, 10
+{% endhighlight %}
 
 Este código sólo imprime los detalles de la invocación, pero eres libre
 de manejar el mensaje como te parezca más apropiado.
@@ -347,12 +375,14 @@ de manejar el mensaje como te parezca más apropiado.
 
 Una invocación a un método en realidad es un **mensaje** a otro objeto:
 
-    # Esto
-    1 + 2
-    # Es lo mismo que esto ...
-    1.+(2)
-    # Que es lo mismo que esto:
-    1.send "+", 2
+{% highlight ruby %}
+# Esto
+1 + 2
+# Es lo mismo que esto ...
+1.+(2)
+# Que es lo mismo que esto:
+1.send "+", 2
+{% endhighlight %}
 
 ### Los bloques son objetos, sólo que todavía no lo saben
 
@@ -361,21 +391,25 @@ estandar. Para llamar a un bloque, puedes usar `yield`, o transformarlo
 en un `Proc` al anexarle un parámetro especial a la lista de argumentos,
 así:
 
-    def block( &el_bloque )
-      # Aquí dentro, el_bloque es el bloque pasado al método
-      el_bloque # retornar el bloque
-    end
-    sumador = block { |a, b| a + b }
-    # sumador ahora es un objeto Proc
-    sumador.class # => Proc
+{% highlight ruby %}
+def block( &el_bloque )
+  # Aquí dentro, el_bloque es el bloque pasado al método
+  el_bloque # retornar el bloque
+end
+sumador = block { |a, b| a + b }
+# sumador ahora es un objeto Proc
+sumador.class # => Proc
+{% endhighlight %}
 
 También puedes crear bloques fuera de las invocaciones a métodos,
 utilizando Proc.new con un bloque o llamando al método `lambda`.
 
 Similarmente, los métodos también pueden ser objetos:
 
-    method(:puts).call "¡puts es un objeto!"
-    # => ¡puts es un objeto!
+{% highlight ruby %}
+method(:puts).call "¡puts es un objeto!"
+# => ¡puts es un objeto!
+{% endhighlight %}
 
 ### Los operadores son comodidades sintácticas
 
@@ -383,12 +417,14 @@ La mayoría de los operadores en Ruby son simples simplificaciones
 sintácticas (con algunas reglas de precedencia) para llamar a ciertos
 métodos. Puedes, por ejemplo, redefinir el método <tt>Fixnum#+</tt>\:
 
-    class Fixnum
-      # Puedes, pero por favor no lo hagas
-      def +( otro )
-        self - otro
-      end
-    end
+{% highlight ruby %}
+class Fixnum
+  # Puedes, pero por favor no lo hagas
+  def +( otro )
+    self - otro
+  end
+end
+{% endhighlight %}
 
 No necesitas el`operator+` de C++, etc.
 
@@ -400,7 +436,7 @@ Sin embargo, los siguientes operadores **no** son simplificaciones
 sintácticas. No son métodos, y no pueden ser redefinidos:
 
     =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code .symbols-code}
+{: .code}
 
  Además, +=, \*= etc. sólo son abreviaciones para `var = var + otra_var`, `var = var * otra_var`, etc. y por ende no pueden ser redefinidos. ## Para saber más
 

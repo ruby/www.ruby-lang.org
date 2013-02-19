@@ -70,8 +70,9 @@ instalação do Ruby extremamente fácil.
 Por exemplo, o Debian ou Ubunto `apt-get` providenciam uma solução
 simples e elegante:
 
-    % sudo apt-get install ruby irb rdoc
-{: .code .sh-code}
+{% highlight sh %}
+% sudo apt-get install ruby irb rdoc
+{% endhighlight %}
 
 Para o irb e rdoc vamos necessitar de activar o repositório universal.
 
@@ -85,8 +86,9 @@ mais experientes.
 
 No DarwinPorts, pode instalar o Ruby com…
 
-    % port install ruby
-{: .code .sh-code}
+{% highlight sh %}
+% port install ruby
+{% endhighlight %}
 
 O Fink tem uma interface gráfica (utilizando o “Fink Commander”) para
 instalar o Ruby.

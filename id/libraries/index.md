@@ -40,9 +40,10 @@ belum terinstall RubyGems.
 Gunakan perintah `gem -v` untuk mengecek apakah RubyGems terinstall di
 sistem Anda, dan versi RubyGems yang terinstall.
 
-    $ gem -v
-    0.9.4
-{: .code .sh-code}
+{% highlight sh %}
+$ gem -v
+0.9.4
+{% endhighlight %}
 
 #### Mencari Gems
 
@@ -50,13 +51,14 @@ Perintah **search** digunakan untuk mencari gem dengan nama tertentu.
 
 Misalnya, untuk mencari gem dengan nama “html” di dalamnya:
 
-    $ gem search html --remote
-    
-     *** REMOTE GEMS ***
-    
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
-{: .code .sh-code}
+{% highlight sh %}
+$ gem search html --remote
+
+ *** REMOTE GEMS ***
+
+ html-sample (1.0, 1.1)
+    A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 (*Flag `--remote` menandakan bahwa kita ingin mencari gem dari
 repository resmi Rubyforge.*)
@@ -65,27 +67,31 @@ repository resmi Rubyforge.*)
 
 Setelah Anda mengetahui gem yang ingin Anda **install**\:
 
-    $ gem install html-sample
-{: .code .sh-code}
+{% highlight sh %}
+$ gem install html-sample
+{% endhighlight %}
 
 Anda juga dapat menginstall versi library tertentu menggunakan flag
 `--version`.
 
-    $ gem install html-sample --version 1.0
-{: .code .sh-code}
+{% highlight sh %}
+$ gem install html-sample --version 1.0
+{% endhighlight %}
 
 #### Melihat Daftar Semua Gem
 
 Untuk melihat daftar semua gem di Rubyforge:
 
-    $ gem list --remote
-{: .code .sh-code}
+{% highlight sh %}
+$ gem list --remote
+{% endhighlight %}
 
 Untuk melihat daftar gem yang sudah diinstall di sistem Anda, gunakan
 perintah tanpa flag `--remote`\:
 
-    $ gem list
-{: .code .sh-code}
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 Informasi lebih lanjut mengenai RubyGems bisa didapatkan di [**manual
 resmi RubyGems**][10], termasuk contoh penggunaan gem dalam *script*
@@ -100,11 +106,12 @@ hal ini.
 
 Sebagai contoh, di Linux:
 
-    $ tar xzvf rubygems-0.9.4.tar.gz
-    $ cd rubygems-0.9.4
-    $ su -
-    # ruby setup.rb
-{: .code .sh-code}
+{% highlight sh %}
+$ tar xzvf rubygems-0.9.4.tar.gz
+$ cd rubygems-0.9.4
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 Bila Anda membutuhkan panduan lebih lanjut tentang instalasi, Anda dapat
 membaca [**bab instalasi**][12] di manual RubyGems.

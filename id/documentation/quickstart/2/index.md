@@ -8,10 +8,12 @@ Bagaimana jika kita ingin mengatakan “Hello” sekaligus banyak tanpa
 membuat jari dan tangan kita semua kelelahan? Kita perlu mendefinisikan
 metode!
 
-    irb(main):010:0> def h
-    irb(main):011:1>   puts "Hello World!"
-    irb(main):012:1> end
-    => nil
+{% highlight ruby %}
+irb(main):010:0> def h
+irb(main):011:1>   puts "Hello World!"
+irb(main):012:1> end
+=> nil
+{% endhighlight %}
 
 Kode `def h` memulai definisi suatu metode. Kode tersebut berkata pada
 Ruby bahwa kita sedang mendefinisikan sebuah metode, yang bernama `h`.
@@ -25,12 +27,14 @@ kalau kita sudah selesai mendefinisikan metode `h` tersebut.
 
 Sekarang mari kita coba menjalankan metode tersebut berulang kali:
 
-    irb(main):013:0> h
-    Hello World!
-    => nil
-    irb(main):014:0> h()
-    Hello World!
-    => nil
+{% highlight ruby %}
+irb(main):013:0> h
+Hello World!
+=> nil
+irb(main):014:0> h()
+Hello World!
+=> nil
+{% endhighlight %}
 
 Nah, mudah khan?! Pemanggilan metode di Ruby memang semudah menyebut
 nama metode yang bersangkutan ke Ruby. Jika metode tidak menerima
@@ -42,13 +46,15 @@ Bagaimana kalau kita ingin bilang hello ke orang, dan bukan bilang hello
 ke seluruh dunia? Caranya, Anda tinggal mendefinisikan ulang metode `h`
 agar menerima `name` sebagai parameter.
 
-    irb(main):015:0> def h(name)
-    irb(main):016:1>   puts "Hello #{name}!"
-    irb(main):017:1> end
-    => nil
-    irb(main):018:0> h("Matz")
-    Hello Matz!
-    => nil
+{% highlight ruby %}
+irb(main):015:0> def h(name)
+irb(main):016:1>   puts "Hello #{name}!"
+irb(main):017:1> end
+=> nil
+irb(main):018:0> h("Matz")
+Hello Matz!
+=> nil
+{% endhighlight %}
 
 Sukses… tetapi coba kita lihat dulu sebentar apa yang terjadi disini.
 
@@ -62,16 +68,18 @@ juga bisa menggunakan tanda pagar dan kurung kurawal ini untuk
 memastikan nama seseorang tersebut telah diubah menjadi kapital huruf
 depannya (singkatnya, dikapitalkan, bahasa Inggrisnya, di-capitalize):
 
-    irb(main):019:0> def h(name = "World")
-    irb(main):020:1>   puts "Hello #{name.capitalize}!"
-    irb(main):021:1> end
-    => nil
-    irb(main):022:0> h "arie"
-    Hello Arie!
-    => nil
-    irb(main):023:0> h
-    Hello World!
-    => nil
+{% highlight ruby %}
+irb(main):019:0> def h(name = "World")
+irb(main):020:1>   puts "Hello #{name.capitalize}!"
+irb(main):021:1> end
+=> nil
+irb(main):022:0> h "arie"
+Hello Arie!
+=> nil
+irb(main):023:0> h
+Hello World!
+=> nil
+{% endhighlight %}
 
 Ada beberapa trik di metode barusan. Trik pertama, kita panggil metode
 tanpa menggunakan buka dan tutup kurung lagi. Jika sudah jelas apa yang
@@ -87,18 +95,20 @@ nama Anda dan menyambut Anda dengan ucapan selamat datang dan juga yang
 selalu memperlakukan Anda dengan hormat. Anda akan membutuhkan obyek
 untuk keperluan itu. Maka, mari kita buat kelas “TukangSapa”.
 
-    irb(main):024:0> class TukangSapa
-    irb(main):025:1>   def initialize(name = "Dunia")
-    irb(main):026:2>     @name = name
-    irb(main):027:2>   end
-    irb(main):028:1>   def say_hai
-    irb(main):029:2>     puts "Hai #{@name}!"
-    irb(main):030:2>   end
-    irb(main):031:1>   def say_bye
-    irb(main):032:2>     puts "Bye #{@name}, datang lagi ya."
-    irb(main):033:2>   end
-    irb(main):034:1> end
-    => nil
+{% highlight ruby %}
+irb(main):024:0> class TukangSapa
+irb(main):025:1>   def initialize(name = "Dunia")
+irb(main):026:2>     @name = name
+irb(main):027:2>   end
+irb(main):028:1>   def say_hai
+irb(main):029:2>     puts "Hai #{@name}!"
+irb(main):030:2>   end
+irb(main):031:1>   def say_bye
+irb(main):032:2>     puts "Bye #{@name}, datang lagi ya."
+irb(main):033:2>   end
+irb(main):034:1> end
+=> nil
+{% endhighlight %}
 
 Keyword baru disini adalah `class`. Keyword ini mendifinisikan kelas
 baru yang disebut TukangSapa dan beberapa metode untuk kelas TukangSapa

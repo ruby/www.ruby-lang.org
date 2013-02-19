@@ -43,13 +43,14 @@ pas encore installé RubyGems.
 La commande **search** permet de retrouver des gems selon leurs noms.
 Ainsi, une recherche sur le mot « audio » :
 
-    $ gem search html --remote
-    
-     *** REMOTE GEMS ***
-    
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
-{: .code .bash-code}
+{% highlight sh %}
+$ gem search html --remote
+
+ *** REMOTE GEMS ***
+
+ html-sample (1.0, 1.1)
+    A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 *Le mot-clé `--remote` ordonne d’effectuer la recherche directement dans
 le catalogue officiel des gems hébergées sur Gemcutter.*
@@ -59,26 +60,30 @@ le catalogue officiel des gems hébergées sur Gemcutter.*
 Une fois que vous avez choisi une bibliothèque à installer, utilisez la
 commande `install`\:
 
-    $ gem install html-sample
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install html-sample
+{% endhighlight %}
 
 Vous pouvez par ailleurs ordonner l’installation d’une version précise
 avec l’option `--version`\:
 
-    $ gem install html-sample --version 1.0
-{: .code .bash-code}
+{% highlight sh %}
+$ gem install html-sample --version 1.0
+{% endhighlight %}
 
 #### Lister toutes les gems
 
 Pour récupérer la liste complète des gems disponibles sur Gemcutter :
 
-    $ gem list --remote
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list --remote
+{% endhighlight %}
 
 Pour afficher uniquement les gems que vous avez installées :
 
-    $ gem list
-{: .code .bash-code}
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 Pour plus d’informations sur l’usage de RubyGems, reportez-vous à la
 [**documentation officielle**][7], qui donne notamment des exemples sur
@@ -94,11 +99,12 @@ d’exploitation, il vous faudra les droits d’administrateur pour procéder
 
 Ainsi, sous GNU/Linux :
 
-    $ tar xzvf rubygems-1.3.7.tar.gz
-    $ cd rubygems-1.3.7
-    $ su -
-    # ruby setup.rb
-{: .code .bash-code}
+{% highlight sh %}
+$ tar xzvf rubygems-1.3.7.tar.gz
+$ cd rubygems-1.3.7
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 Si vous avez besoin d’informations complémentaires sur l’installation de
 Ruby, voyez le chapitre [Installation][9] du manuel RubyGems.

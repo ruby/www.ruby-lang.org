@@ -73,7 +73,7 @@ run with that name.
 Most other programming languages handle going over a list using the
 `for` loop, which in C looks something like:
 
-{% highlight c %}
+{% highlight ruby %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);

@@ -49,7 +49,9 @@ Ruby е абсолютно [безплатен](./license.txt) за употре
 свои атрибути и методи. Пример за това ни дава кодът, който следва
 (метод, извикан върху число).
 
-    5.times { print "We *love* Ruby -- it's outrageous!" }
+{% highlight ruby %}
+5.times { print "We *love* Ruby -- it's outrageous!" }
+{% endhighlight %}
 
 В много други езици числата и примитивните типове не са обекти. Ruby е
 повлиян от Smalltalk и дава възможност за извикването на методи на
@@ -65,14 +67,16 @@ Ruby е считан за гъвкав език поради факта, че п
 Пример за това е добавянето на метода `plus`, който дублира оператора
 (`+`) директно във вградения клас `Numeric`.
 
-    class Numeric
-      def plus(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.plus 6
-    # y е равно на 11
+{% highlight ruby %}
+class Numeric
+  def plus(x)
+    self.+(x)
+  end
+end
+
+y = 5.plus 6
+# y е равно на 11
+{% endhighlight %}
 
 Операторите в Ruby всъщност представляват синтактична „захар“ за
 методите. Те също могат да бъдат променени.
@@ -88,10 +92,12 @@ Ruby е считан за гъвкав език поради факта, че п
 Появата на блоковете в Ruby е вдъхновена от езиците за функционално
 програмиране.
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines = 
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
+{% endhighlight %}
 
 В горния отрязък код блокът е реализиран в `do ... end` конструкцията.
 Методът `map` се прилага за списъка от думи в блока. Много други методи
@@ -110,9 +116,11 @@ Ruby е считан за гъвкав език поради факта, че п
 `each` метода, като това е условието за „наследяване“ на модула
 `Enumerable`, който добавя известен брой методи за работа с `each`.
 
-    class MyArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MyArray
+  include Enumerable
+end
+{% endhighlight %}
 
  Като цяло рубистите смятат, че това е по-изчистен начин за реализиране на идеята за множествено наследяване, което по-принцип е сложно и ограничаващо в много от случаите. ### Визуално представяне на Ruby код
 

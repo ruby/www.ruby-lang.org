@@ -23,14 +23,18 @@ Zuerst starten wir die interaktive Ruby-Konsole: IRB.
   Start-Menüs heraus.
 ^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 So, IRB ist nun gestartet. Wie geht es weiter?
 
 Gib folgendes ein: `"Hallo, Welt!"`
 
-    irb(main):001:0> "Hallo, Welt!"
-    => "Hallo, Welt!"
+{% highlight ruby %}
+irb(main):001:0> "Hallo, Welt!"
+=> "Hallo, Welt!"
+{% endhighlight %}
 
 ## Ruby hört auf Dich!
 
@@ -40,9 +44,11 @@ Zeile teilt uns IRB lediglich das Ergebnis des letzten ausgewerteten
 Ausdrucks mit. Wenn wir “Hallo, Welt!” auf den Bildschirm ausgeben
 wollen, müssen wir ein bisschen mehr tun:
 
-    irb(main):002:0> puts "Hallo, Welt!" 
-    Hallo, Welt!
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Hallo, Welt!" 
+Hallo, Welt!
+=> nil
+{% endhighlight %}
 
 `puts` ist das grundlegende Kommando, um etwas in Ruby auf den
 Bildschirm auszugeben. Und was bedeutet `=> nil`? Das ist das Ergebnis
@@ -54,8 +60,10 @@ nichts”).
 Wir haben schon genügend Informationen, um IRB als einfachen
 Taschenrechner zu benutzen:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Drei plus Zwei. Das war nicht schwer. Was ist mit Drei *mal* Zwei? Man
 könnte das nun einfach eintippen, kurz genug ist es jedenfalls. Du
@@ -66,19 +74,25 @@ Pfeil-nach-links-Taste den Cursor direkt hinter das `+`-Zeichen setzen,
 dort einfach Backspace drücken und es so zu einem `*`-Zeichen (dem
 Multiplikations-Operator) umändern.
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 Probieren wir als nächstes Drei zum Quadrat aus:
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 In Ruby sagt man `**`, wenn man “hoch” sagen will. Aber was, wenn man
 den umgekehrten Weg gehen und die Quadratwurzel von etwas finden will?
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Moment, wie war das? So wird die Quadratwurzel von Neun berechnet? Damit
 liegst Du vollkommen richtig. Aber sehen wir uns das genauer an!
@@ -105,12 +119,14 @@ liefert die Methode immer eine Fließkomma-Zahl.
 Was, wenn wir nun das Ergebnis eine dieser Rechnungen behalten wollen?
 Dann weisen wir das Ergebnis einfach einer Variablen zu.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b)
-    => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b)
+=> 5.0
+{% endhighlight %}
 
 So nützlich das auch für einen Taschenrechner ist: Wir entfernen uns von
 der traditionellen `"Hallo, Welt!"`-Botschaft, auf die Anleitungen für

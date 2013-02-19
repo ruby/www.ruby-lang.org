@@ -14,20 +14,22 @@ código.
 
 Nuestro método `decir_hola` se ha vuelto un poco más complicado:
 
-    # Decirle hola a todos
-    def decir_hola
-      if @nombres.nil?
-        puts "..."
-      elsif @nombres.respond_to?("each")
-        # @nombres es una lista de algún tipo,
-        # ¡así que podemos iterar!
-        @nombres.each do |nombre|
-          puts "Hola #{nombre}"
-        end
-      else
-        puts "Hola #{@nombres}"
-      end
+{% highlight ruby %}
+# Decirle hola a todos
+def decir_hola
+  if @nombres.nil?
+    puts "..."
+  elsif @nombres.respond_to?("each")
+    # @nombres es una lista de algún tipo,
+    # ¡así que podemos iterar!
+    @nombres.each do |nombre|
+      puts "Hola #{nombre}"
     end
+  else
+    puts "Hola #{@nombres}"
+  end
+end
+{% endhighlight %}
 
 Ahora usa el atributo `@nombres` para tomar decisiones. Si es nil, sólo
 imprime tres puntos. No hay razón para saludar a nadie, ¿cierto?
@@ -42,9 +44,11 @@ defecto.
 
 Veamos ese iterador en más detalle:
 
-    @nombres.each do |nombre|
-      puts "Hola #{nombre}"
-    end
+{% highlight ruby %}
+@nombres.each do |nombre|
+  puts "Hola #{nombre}"
+end
+{% endhighlight %}
 
 El método `each` acepta un bloque de código y lo ejecuta por cada
 elemento de la lista, y el código entre `do` y `end` es el bloque en sí
@@ -58,10 +62,12 @@ nombre.
 Muchos otros lenguajes de programación manejan la iteración de una lista
 usando la clásica sintaxis `for`, que en C se ve así:
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 Esto funciona, pero no es muy elegante. Necesitas una variable
 descartable como `i`, averiguar la cantidad de elementos de la lista, y
@@ -80,18 +86,20 @@ infraestructura dentro del método, también puedes manejar la
 inicialización, la finalización, y los errores—todos ocultos y
 simplificados frente a las preocupaciones del desarrollador.
 
-    # Decirle adiós a todos
-    def decir_adios
-      if @nombres.nil?
-        puts "..."
-      elsif @nombres.respond_to?("join")
-        # Juntar los elementos de la lista
-        # usando la coma como separador
-        puts "Adiós #{@nombres.join(", ")}. Vuelvan pronto."
-      else
-        puts "Adiós #{@nombres}. Vuelve pronto."
-      end
-    end
+{% highlight ruby %}
+# Decirle adiós a todos
+def decir_adios
+  if @nombres.nil?
+    puts "..."
+  elsif @nombres.respond_to?("join")
+    # Juntar los elementos de la lista
+    # usando la coma como separador
+    puts "Adiós #{@nombres.join(", ")}. Vuelvan pronto."
+  else
+    puts "Adiós #{@nombres}. Vuelve pronto."
+  end
+end
+{% endhighlight %}
 
 El método `decir_adios` no usa `each`, en vez de eso se fija si
 `@nombres` responde al método `join`, y si es así, lo usa. Si no es así,
@@ -109,7 +117,9 @@ Así que eso es la clase MegaAnfitrion, el resto del archivo sólo llama a
 los métodos de la clase. Hy un último truco para tener en cuenta, y es
 la linea:
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` es la variable mágica que contiene el nombre del archivo que
 se está ejecutando en ese momento. `$0` es el nombre del archivo usado

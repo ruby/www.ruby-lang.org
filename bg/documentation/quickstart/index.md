@@ -25,12 +25,16 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
   Menu.
 ^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Напишете : `"Hello World"`
 
-    irb(main):001:0> "Hello World"
-    => "Hello World"
+{% highlight ruby %}
+irb(main):001:0> "Hello World"
+=> "Hello World"
+{% endhighlight %}
 
 ## Ruby току що ви се подчини !
 
@@ -39,9 +43,11 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
 резултата от последната “команда”, въведена в IRB. Ако искаме наистина
 да отпечатаме “Hello Wolrd”, това може да стане така:
 
-    irb(main):002:0> puts "Hello World"
-    Hello World
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Hello World"
+Hello World
+=> nil
+{% endhighlight %}
 
 `puts` е метод, който позволява да отпечатате израз/текст/низ в Ruby. А
 какво тогава означава `=> nil`? Това е резултата от изпълнения израз.
@@ -51,22 +57,31 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
 
 Лесно е да превърнем IRB в прост калкулатор:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Дотук добре, нека пробваме умножение и вдигане на квадрат:
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
+^
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 В Ruby метода `**` е начин да повдигаме на степен. Следва пример с
 намиране на корен:
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Резултатът е верен, но какво значи Math.sqrt ? И по-точно, какво значи
 `Math`?
@@ -90,11 +105,13 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
 Изниква въпроса “как да процедираме за да запазим резултатът от
 операциите ?” . Отговора се крие в присвояването му в променлива.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b) => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b) => 5.0
+{% endhighlight %}
 
 Леснотата на писане на калкулатора ни отклони от кода в началото –
 изписването на “Hello World”. За това, нека [прехвърлим отново фокуса си

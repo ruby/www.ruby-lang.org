@@ -30,12 +30,12 @@ ke alamat *controller* milis yang Anda inginkan dengan isi pesan (bukan
 subjek/judul) sebagai berikut:
 
     subscribe Nama-Depan-Anda Nama-Belakang-Anda
-{: .code .mail-code}
+{: .code}
 
 misalnya:
 
     subscribe Adinda Putri
-{: .code .mail-code}
+{: .code}
 
 Ruby-Talk
 : Untuk milis Ruby-Talk, alamat *controller* di

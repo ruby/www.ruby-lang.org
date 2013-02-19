@@ -61,7 +61,9 @@ kendi özelliklerine ve olaylarına sahiptir. Özellikleri isimle çağırma
 Ruby’nin yüzde yüz saf nesneye yönelik bir dil olduğunun en iyi ispatı
 bir kod parçası ile bir sayıya olay vererek yapılır:
 
-    5.times { print "Ruby'ti *seviyoruz* -- harika bir dil!" }
+{% highlight ruby %}
+5.times { print "Ruby'ti *seviyoruz* -- harika bir dil!" }
+{% endhighlight %}
 
 Çoğu dilde sayılar ve diğer ilkel tipler nesne değildir. Ruby tüm
 tiplerine metotlar ve örnek değişkenler verme geleneğini Smalltalk’tan
@@ -79,14 +81,16 @@ biliyoruz. Ama eğer okunabilirlik amacıyla `topla` gibi bir kelime
 kullanmak istiyorsanız Ruby’nin gömülü `Numeric` sınıfına yeni bir metod
 ekleyebilirsiniz.
 
-    class Numeric
-      def topla(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.topla 6
-    # y'nin değeri 11 oldu.
+{% highlight ruby %}
+class Numeric
+  def topla(x)
+    self.+(x)
+  end
+end
+
+y = 5.topla 6
+# y'nin değeri 11 oldu.
+{% endhighlight %}
 
 Ruby’nin operatörleri sözdizimsel olarak esnektir, yeniden tanımlamanıza
 olanak sağlar.
@@ -104,10 +108,12 @@ Bloklar fonksiyonel dillerden esinlenilerek Ruby’ye getirilmiştir. Matz
 “Ruby kapamalarında, Lisp kültürüne saygı göstermek
 istedim<sup>[4](#fn4)</sup>.” demiştir.
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines = 
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
+{% endhighlight %}
 
 Yukarıdaki kodda bir blok `do ... end` yapıları içerisinde tanımlanıyor.
 `map` metodu bloğa bir kelime listesi ile çalıştığını bildiriyor.
@@ -126,9 +132,11 @@ almış olur. Örneğin `each` metodunu gerçekleştiren her sınıf
 `Enumerable` modülünü de kendisine dahil edebilir, böylece döngülerde
 `each` ile beraber kullanabileceği bir dizi metoda sahip olur.
 
-    class MyArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MyArray
+  include Enumerable
+end
+{% endhighlight %}
 
 Genelde Ruby’ciler bu yolu bazen çok karmaşıklaşan ve kısıtlayıcı olan
 çoklu mirastan daha temiz ve sağlam bir yöntem olarak görürler.

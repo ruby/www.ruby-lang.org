@@ -23,14 +23,18 @@ Buka IRB.
   Menu Start Anda.
 ^
 
-    irb(main):001:0>
+{% highlight ruby %}
+irb(main):001:0>
+{% endhighlight %}
 
 Ok, sekarang irb sudah dibuka. Sekarang mau apa?
 
 Ketik ini: `"Hello World"`
 
-    irb(main):001:0> "Hello World"
-    => "Hello World"
+{% highlight ruby %}
+irb(main):001:0> "Hello World"
+=> "Hello World"
+{% endhighlight %}
 
 ## Ruby Mematuhi Anda!
 
@@ -40,9 +44,11 @@ kedua hanya sekedar cara IRB memberitahu hasil (result) dari ekspresi
 terakhir yang dievaluasi/dijalankan. Jika kita ingin print “Hello World”
 kita perlu tambahkan sedikit:
 
-    irb(main):002:0> puts "Hello World" 
-    Hello World 
-    => nil
+{% highlight ruby %}
+irb(main):002:0> puts "Hello World" 
+Hello World 
+=> nil
+{% endhighlight %}
 
 `puts` merupakan perintah dasar untuk mencetak (print) sesuatu di Ruby.
 Tetapi kemudian apa artinya `=> nil` ? Artinya adalah result dari
@@ -53,8 +59,10 @@ ketiadaan di Ruby.
 
 Dengan IRB kita sudah cukup mempunyai kalkulator dasar:
 
-    irb(main):003:0> 3+2
-    => 5
+{% highlight ruby %}
+irb(main):003:0> 3+2
+=> 5
+{% endhighlight %}
 
 Tiga tambah dua. Cukup mudah. Bagaimana dengan tiga *kali* dua? Anda
 bisa mencoba dengan langsung mengetikkannya, cukup pendek, tetapi Anda
@@ -64,20 +72,26 @@ memunculkan baris `3+2` lagi. Jika Ya, Anda dapat menggunakan panah-kiri
 untuk berpindah ke setelah tanda `+` kemudian gunakan backspace untuk
 menggantinya dengan tanda `*`.
 
-    irb(main):004:0> 3*2
-    => 6
+{% highlight ruby %}
+irb(main):004:0> 3*2
+=> 6
+{% endhighlight %}
 
 Lanjut, mari kita coba tiga kuadrat:
 
-    irb(main):005:0> 3**2
-    => 9
+{% highlight ruby %}
+irb(main):005:0> 3**2
+=> 9
+{% endhighlight %}
 
 Di Ruby, `**` merupakan cara Anda mengatakan “kepada kekuatan dari”.
 Tetapi bagaimana jika Anda ingin melakukannya dengan cara lain dan
 mendapatkan akar dari suatu bilangan?
 
-    irb(main):006:0> Math.sqrt(9)
-    => 3.0
+{% highlight ruby %}
+irb(main):006:0> Math.sqrt(9)
+=> 3.0
+{% endhighlight %}
 
 Ok, tunggu dulu, bagaimana yang terakhir itu? Jika Anda menebak, “Kode
 tersebut mencari sqrt (akar) dari 9”, berarti Anda benar. Tetapi mari
@@ -104,12 +118,14 @@ floating-point.
 Bagaimana jika kita ingin mengingat hasil dari beberapa perhitungan
 matematika ini? Caranya assign hasilnya ke variabel.
 
-    irb(main):007:0> a = 3 ** 2
-    => 9
-    irb(main):008:0> b = 4 ** 2
-    => 16
-    irb(main):009:0> Math.sqrt(a+b)
-    => 5.0
+{% highlight ruby %}
+irb(main):007:0> a = 3 ** 2
+=> 9
+irb(main):008:0> b = 4 ** 2
+=> 16
+irb(main):009:0> Math.sqrt(a+b)
+=> 5.0
+{% endhighlight %}
 
 Sehebat kalkulator, kita sudah pergi dari message tradisional `Hello
 World` yang biasanya selalu saja kalau ada tutorial untuk pemula

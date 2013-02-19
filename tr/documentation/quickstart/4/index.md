@@ -13,19 +13,21 @@ anlatır. Diğer bütün yorum satırları sadece bilgilendirme amaçlıdır.
 
 Bizim `say_hi` metodunda biraz kurnazlıklar mevcut:
 
-    # Herkese merhaba de
-    def say_hi
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("each")
-        # @names içinde bir çeşit liste var, içinde döndür!
-        @names.each do |name|
-          puts "Hello #{name}!"
-        end
-      else
-        puts "Hello #{@names}!"
-      end
+{% highlight ruby %}
+# Herkese merhaba de
+def say_hi
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("each")
+    # @names içinde bir çeşit liste var, içinde döndür!
+    @names.each do |name|
+      puts "Hello #{name}!"
     end
+  else
+    puts "Hello #{@names}!"
+  end
+end
+{% endhighlight %}
 
 Bu betik nasıl cevap vereceğine karar vermek için `@names` değişkenine
 bakıyor. Eğer değişken boşsa üç nokta koyuyor, selamlanacak kimse yoksa
@@ -41,9 +43,11 @@ selamlama şeklini yapar.
 
 Haydi bu yineleyiciyi daha yakından inceleyelim:
 
-    @names.each do |name|
-      puts "Hello #{name}!"
-    end
+{% highlight ruby %}
+@names.each do |name|
+  puts "Hello #{name}!"
+end
+{% endhighlight %}
 
 `each` metodu arkasından gelen kod bloğunu listenin her elemanı için
 çalıştırır. `do` ve `end` arasında kod bloğu yer alır. Liste elemanları
@@ -57,10 +61,12 @@ elemanlarına bağlanır ve `puts "Hello #{name}!"` satırı bu isimle
 Birçok diğer programlama dilinde bir liste `for` döngüsü ile işlenir,
 C’de şuna benzer bir kod olur:
 
-    for (i=0; i<number_of_elements; i++)
-    {
-      do_something_with(element[i]);
-    }
+{% highlight ruby %}
+for (i=0; i<number_of_elements; i++)
+{
+  do_something_with(element[i]);
+}
+{% endhighlight %}
 
 Bu kod çalışıyor ama şık bir görüntüsü yok. `i` gibi bir değişken
 üretmek zorundasınız, listenin uzunluğunu bulmak zorundasınız ve liste
@@ -80,17 +86,19 @@ than lists. Beyond handling simple housekeeping details within the
 method, you can also handle setup, teardown, and errors—all hidden away
 from the cares of the user.
 
-    # Herkese hoşçakal de
-    def say_bye
-      if @names.nil?
-        puts "..."
-      elsif @names.respond_to?("join")
-        # Liste elemanlarını virgülle birleştir
-        puts "Goodbye #{@names.join(", ")}.  Come back soon!"
-      else
-        puts "Goodbye #{@names}.  Come back soon!"
-      end
-    end
+{% highlight ruby %}
+# Herkese hoşçakal de
+def say_bye
+  if @names.nil?
+    puts "..."
+  elsif @names.respond_to?("join")
+    # Liste elemanlarını virgülle birleştir
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+  else
+    puts "Goodbye #{@names}.  Come back soon!"
+  end
+end
+{% endhighlight %}
 
 `say_bye` metodu `each` kullanmaz onun yerine `@names` değişeninin
 `join` metoduna cevap vermesini sınar ve kullanır. Diğer durumda liste
@@ -106,7 +114,9 @@ Peki, bu MegaGreeter sınıf tanımıydı, dosyanın geri kalanı ise bu
 sınıfın kullanılmasından ibaret. Dikkatinizi çekecek son bir nokta
 kaldı, o da şu:
 
-    if __FILE__ == $0
+{% highlight ruby %}
+if __FILE__ == $0
+{% endhighlight %}
 
 `__FILE__` sihirli bir değişkendir ve bulunduğu dosyanın ismini içerir.
 `$0` ise bu programı çağıran dosyanın ismini içerir. Buradaki koşul ile

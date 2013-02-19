@@ -46,7 +46,9 @@ scripting language \[3\]”.
 *方法*(*methods*)。從下列程式碼中看到 Ruby 能夠給 “數字(number)” 賦予 “行為(actions)”
 這特點來看，可以證明 Ruby 是個純物件導向的語言。
 
-    5.times { print "We *love* Ruby -- it's outrageous!" }
+{% highlight ruby %}
+5.times { print "We *love* Ruby -- it's outrageous!" }
+{% endhighlight %}
 
 在許多的語言中，數字與其他的原生資料型態(primitive types) 都不是物件。 而 Ruby 受到了 Smalltalk
 語言讓所有的資料型態都可賦予方法與產生實體變數的影響。更進而讓這規則適用於 Ruby 中所有物件。
@@ -59,14 +61,16 @@ Ruby 是個相當具有彈性的語言， 它可以讓使用者自由的去改�
 舉例而言，我們使用 (`+`) 運算元來執行加法。但是如果你打算使用 `plus` 來取代，你可以加入以下的方法到 Ruby 的內建
 `Numeric` 類別之中。
 
-    class Numeric
-      def plus(x)
-        self.+(x)
-      end
-    end
-    
-    y = 5.plus 6
-    # y is now equal to 11
+{% highlight ruby %}
+class Numeric
+  def plus(x)
+    self.+(x)
+  end
+end
+
+y = 5.plus 6
+# y is now equal to 11
+{% endhighlight %}
 
 Ruby 的運算元其實就是個方法(method)\[4\]。你也可以重新定義運算元。
 
@@ -79,10 +83,12 @@ Ruby 的區塊可說是它強大彈性的來源。 程式設計師可以為任�
 Block 的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ruby closures 之中, 我要向 Lisp culture
 致敬\[5\].”
 
-    search_engines = 
-      %w[Google Yahoo MSN].map do |engine|
-        "http://www." + engine.downcase + ".com"
-      end
+{% highlight ruby %}
+search_engines = 
+  %w[Google Yahoo MSN].map do |engine|
+    "http://www." + engine.downcase + ".com"
+  end
+{% endhighlight %}
 
 在上方的程式碼中，block 是在 `do ... end` 之間。其中 `map` method 提供一個字串陣列給 block。Ruby
 中還有許多其他的 methods 提供了類似的方式可以讓程式設計師撰寫自己的 block 來完成此 method 該做的事。
@@ -95,9 +101,11 @@ Block 的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ru
 類別(Class) 可以 混入(mixin) 模組並且可以自由的取用模組內的所有方法。舉例而也，所有要實作 `each` 方法的類別都可以 混入
 `Enumerable` 模組進來，就可以使用 `each` 方法來達到執行迴圈的目的。
 
-    class MyArray
-      include Enumerable
-    end
+{% highlight ruby %}
+class MyArray
+  include Enumerable
+end
+{% endhighlight %}
 
 一般來說，Ruby 使用者使用這種方式會比使用複雜且有很多限制的多重繼承來得清楚。
 

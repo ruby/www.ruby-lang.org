@@ -57,12 +57,14 @@ perulangan lewat *list* (seperti <tt>for (@a) \{...}</tt> di Perl
 ataupun <tt>for i in aList: ...</tt> di Python). Anda akan **sangat
 sering** melihat kode yang mirip seperti ini di Ruby:
 
-    daftar_orang.each do |orang_ini|
-      # Kita berada dalam blok
-      # Kita sedang berurusan dengan orang_ini
-      # orang_ini disebut parameter blok
-      puts orang_ini.nama
-    end
+{% highlight ruby %}
+daftar_orang.each do |orang_ini|
+  # Kita berada dalam blok
+  # Kita sedang berurusan dengan orang_ini
+  # orang_ini disebut parameter blok
+  puts orang_ini.nama
+end
+{% endhighlight %}
 
 Untuk info lebih lanjut tentang `each` (dan teman-temannya seperti
 `collect`, `find`, `inject`, `sort`, dan lain-lain.), lihat `ri
@@ -74,9 +76,11 @@ Tidak ada perbedaan antara ekspresi dan pernyataan. Semua punya *value*
 (nilai), bahkan jika *value* tersebut adalah **nil** (maksudnya, `nil`
 juga tetap punya *value*). Ini karena:
 
-    x = 10
-    y = 11
-    z = if x  true
+{% highlight ruby %}
+x = 10
+y = 11
+z = if x  true
+{% endhighlight %}
 
 ### Symbol Bukan String
 
@@ -87,11 +91,13 @@ Symbol dapat dijelaskan sebagai identitas. Symbol merupakan sebuah hal
 tentang **siapa** ini, bukan **apa** ini. Buka `irb` dan perhatikan
 perbedaan berikut ini:
 
-    irb(main):001:0> :joko.object_id == :joko.object_id
-    => true
-    irb(main):002:0> "joko".object_id == "joko".object_id
-    => false
-    irb(main):003:0>
+{% highlight ruby %}
+irb(main):001:0> :joko.object_id == :joko.object_id
+=> true
+irb(main):002:0> "joko".object_id == "joko".object_id
+=> false
+irb(main):003:0>
+{% endhighlight %}
 
 Metode `object_id` mengembalikan identitas dari sebuah `Object`. Jika
 ada dua obyek memiliki `object_id` yang sama, maka mereka sebenarnya
@@ -118,13 +124,15 @@ key `Hash`), atau isi (seperti contoh di atas, “joko”).
 `integer` juga obyek, dan Anda dapat melakukan hal yang sama seperti
 perlakuan Anda terhadap obyek-obyek lain:
 
-    # Ini sama saja dengan
-    # class KelasSaya
-    #   attr_accessor :variabel_instan
-    # end
-    KelasSaya = Class.new do
-      attr_accessor :variabel_instan
-    end
+{% highlight ruby %}
+# Ini sama saja dengan
+# class KelasSaya
+#   attr_accessor :variabel_instan
+# end
+KelasSaya = Class.new do
+  attr_accessor :variabel_instan
+end
+{% endhighlight %}
 
 ### Konstanta
 
@@ -146,10 +154,12 @@ kelas.
 Tetapi, nama-nama metode boleh diawali dengan huruf kapital. Ini bisa
 membingungkan, seperti ditunjukkan pada contoh berikut:
 
-    Konstanta = 10
-    def Konstanta
-      11
-    end
+{% highlight ruby %}
+Konstanta = 10
+def Konstanta
+  11
+end
+{% endhighlight %}
 
 Sekarang `Konstanta` adalah 10, tetapi `Konstanta()` adalah 11.
 
@@ -160,13 +170,15 @@ Python. Tetapi, ini bisa dimanipulasi (*fake*) dengan cara menggunakan
 *symbol* dan *hash*. Ruby on Rails, satu diantara banyak aplikasi yang
 dibuat dengan Ruby, banyak menggunakan trik ini. Contoh:
 
-    def keluarkan( params )
-      params
-    end
-    
-    keluarkan( :param_satu => 10, :param_dua => 42 )
-    
-    # => {:param_satu=>10, :param_dua=>42}
+{% highlight ruby %}
+def keluarkan( params )
+  params
+end
+
+keluarkan( :param_satu => 10, :param_dua => 42 )
+
+# => {:param_satu=>10, :param_dua=>42}
+{% endhighlight %}
 
 Ini dikarenakan Ruby otomatis mengubah parameter yang diberikan tersebut
 menjadi bentuk hash. (meskipun pemanggilannya tanpa menggunakan kurung
@@ -179,20 +191,24 @@ Python dan banyak bahasa lain, 0 dan mungkin juga nilai-nilai lain,
 seperti list yang kosong, dianggap false. Perhatikan kode Python berikut
 (contoh berikut juga berguna untuk bahasa-bahasa lain):
 
-    # di Python
-    if 0:
-      print "0 is true"
-    else:
-      print "0 is false"
+{% highlight ruby %}
+# di Python
+if 0:
+  print "0 is true"
+else:
+  print "0 is false"
+{% endhighlight %}
 
 Ini akan print “0 is false”. Kode yang sama di Ruby:
 
-    # di Ruby
-    if 0
-      puts "0 is true"
-    else
-      puts "0 is false"
-    end
+{% highlight ruby %}
+# di Ruby
+if 0
+  puts "0 is true"
+else
+  puts "0 is false"
+end
+{% endhighlight %}
 
 Print “0 is true”.
 
@@ -200,26 +216,30 @@ Print “0 is true”.
 
 Pada kode Ruby berikut ini,
 
-    class KelasSaya
-      private
-      def metode; true; end
-      def metode_lain; false; end
-    end
+{% highlight ruby %}
+class KelasSaya
+  private
+  def metode; true; end
+  def metode_lain; false; end
+end
+{% endhighlight %}
 
 Anda mungkin berharap `metode_lain` adalah `public`. Tetapi tidak
 demikian. *Access modifier* `private` bersambung terus sampai akhir
 *scope*, atau sampai *access modifier* lain muncul, apapun yang muncul
 lebih awal. Secara default, metode bersifat `public`\:
 
-    class KelasSaya
-      # Sekarang metode adalah public
-      def metode; true; end
-    
-      private
-    
-      # metode_lain adalah private
-      def metode_lain; false; end
-    end
+{% highlight ruby %}
+class KelasSaya
+  # Sekarang metode adalah public
+  def metode; true; end
+
+  private
+
+  # metode_lain adalah private
+  def metode_lain; false; end
+end
+{% endhighlight %}
 
  `public`, `private` dan `protected` benar-benar merupakan metode, sehingga mereka bisa menerima parameter. Jika Anda melewatkan `Symbol` pada satu dari parameter, maka *visibility* metode diubah. ### Akses Metode
 
@@ -236,44 +256,46 @@ pemanggilan metode private.
 
  `protected` perlu diperhatikan lebih lanjut. Metode `protected` bisa dipanggil dari kelas ataupun *instance* kelas turunan, tetapi juga dengan *instance* lain sebagai penerima. Contoh, diadaptasi dari [Ruby FAQ][2]\:
 
-    $ irb
-    irb(main):001:0> class Test
-    irb(main):002:1>   # metode berikut secara default adalah public
-    irb(main):003:1*   def func
-    irb(main):004:2>     99
-    irb(main):005:2>   end
-    irb(main):006:1> 
-    irb(main):007:1*   def ==(other)
-    irb(main):008:2>     func == other.func
-    irb(main):009:2>   end
-    irb(main):010:1> end
-    => nil
-    irb(main):011:0> 
-    irb(main):012:0* t1 = Test.new
-    => #<Test:0x34ab50>
-    irb(main):013:0> t2 = Test.new
-    => #<Test:0x342784>
-    irb(main):014:0> t1 == t2
-    => true
-    irb(main):015:0> # sekarang atur `func` menjadi protected, 
-    irb(main):016:0* # masih jalan karena protected bisa reference ke lain
-    irb(main):017:0* class Test
-    irb(main):018:1>   protected :func
-    irb(main):019:1> end
-    => Test
-    irb(main):020:0> t1 == t2
-    => true
-    irb(main):021:0> # sekarang atur `func` menjadi private
-    irb(main):022:0* class Test
-    irb(main):023:1>   private :func
-    irb(main):024:1> end
-    => Test
-    irb(main):025:0> t1 == t2
-    NoMethodError: private method `func' called for #<Test:0x342784>
-            from (irb):8:in `=='
-            from (irb):25
-            from :0
-    irb(main):026:0>
+{% highlight ruby %}
+$ irb
+irb(main):001:0> class Test
+irb(main):002:1>   # metode berikut secara default adalah public
+irb(main):003:1*   def func
+irb(main):004:2>     99
+irb(main):005:2>   end
+irb(main):006:1> 
+irb(main):007:1*   def ==(other)
+irb(main):008:2>     func == other.func
+irb(main):009:2>   end
+irb(main):010:1> end
+=> nil
+irb(main):011:0> 
+irb(main):012:0* t1 = Test.new
+=> #<Test:0x34ab50>
+irb(main):013:0> t2 = Test.new
+=> #<Test:0x342784>
+irb(main):014:0> t1 == t2
+=> true
+irb(main):015:0> # sekarang atur `func` menjadi protected, 
+irb(main):016:0* # masih jalan karena protected bisa reference ke lain
+irb(main):017:0* class Test
+irb(main):018:1>   protected :func
+irb(main):019:1> end
+=> Test
+irb(main):020:0> t1 == t2
+=> true
+irb(main):021:0> # sekarang atur `func` menjadi private
+irb(main):022:0* class Test
+irb(main):023:1>   private :func
+irb(main):024:1> end
+=> Test
+irb(main):025:0> t1 == t2
+NoMethodError: private method `func' called for #<Test:0x342784>
+        from (irb):8:in `=='
+        from (irb):25
+        from :0
+irb(main):026:0>
+{% endhighlight %}
 
 ### Kelas Bersifat Terbuka
 
@@ -284,16 +306,18 @@ induk dari semua obyek di Ruby. Ruby on Rails mendefinisikan banyak
 metode yang berhubungan dengan waktu ke dalam kelas `Fixnum`. Perhatikan
 kode berikut:
 
-    class Fixnum
-      def hours
-        self * 3600 # total detik dalam satu jam adalah 3600
-      end
-      alias hour hours
-    end
-      
-    # 14 hours from 00:00 January 1st
-    # jadi 14 jam dari jam 00:00 pada tanggal 1 Januari
-    Time.mktime(2007, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
+{% highlight ruby %}
+class Fixnum
+  def hours
+    self * 3600 # total detik dalam satu jam adalah 3600
+  end
+  alias hour hours
+end
+  
+# 14 hours from 00:00 January 1st
+# jadi 14 jam dari jam 00:00 pada tanggal 1 Januari
+Time.mktime(2007, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
+{% endhighlight %}
 
 ### Nama Metode Deskriptif dan Menarik
 
@@ -316,23 +340,25 @@ Metode *singleton* merupakan metode-metode yang basisnya per obyek.
 *Singleton* hanya tersedia pada obyek yang Anda definisikan, jadi metode
 tersebut tidak tersedia pada obyek-obyek yang lain dari kelas yang sama.
 
-    class Mobil
-      def inspect
-        "Mobil murah"
-      end
-    end
-    
-    porsche = Mobil.new
-    porsche.inspect # => Mobil murah
-    def porsche.inspect
-      "Mobil mahal"
-    end
-    
-    porsche.inspect # => Mobil mahal
-    
-    # Sementara obyek-obyek yang lain tidak terpengaruh
-    mobil_lain = Mobil.new
-    mobil_lain.inspect # => Mobil murah
+{% highlight ruby %}
+class Mobil
+  def inspect
+    "Mobil murah"
+  end
+end
+
+porsche = Mobil.new
+porsche.inspect # => Mobil murah
+def porsche.inspect
+  "Mobil mahal"
+end
+
+porsche.inspect # => Mobil mahal
+
+# Sementara obyek-obyek yang lain tidak terpengaruh
+mobil_lain = Mobil.new
+mobil_lain.inspect # => Mobil murah
+{% endhighlight %}
 
 ### Metode method\_missing
 
@@ -344,21 +370,23 @@ daftar parameternya. Secara *default*, `method_missing` membangkitkan
 `Exception` tersebut supaya lebih sesuai dengan aplikasi yang Anda buat,
 dan banyak *library* yang melakukan hal yang sama. Contoh:
 
-    # id adalah nama metode yang dipanggil, 
-    # sintaks * mengumpulkan semua arguments
-    # dalam array yang bernama 'arguments'
-    def method_missing( id, *arguments )
-      puts "Metode #{id} telah dipanggil, " + 
-        "tetapi tidak ditemukan. " +
-        "Metode ini punya arguments sebagai berikut: " +
-        arguments.join(", ")
-    end
-    
-    __ :a, :b, 10
-    
-    # => Metode __ telah dipanggil, tetapi metode __ 
-    # tidak berhasil ditemukan. Metode tersebut 
-    # memiliki argument sebagai berikut: a, b, 10
+{% highlight ruby %}
+# id adalah nama metode yang dipanggil, 
+# sintaks * mengumpulkan semua arguments
+# dalam array yang bernama 'arguments'
+def method_missing( id, *arguments )
+  puts "Metode #{id} telah dipanggil, " + 
+    "tetapi tidak ditemukan. " +
+    "Metode ini punya arguments sebagai berikut: " +
+    arguments.join(", ")
+end
+
+__ :a, :b, 10
+
+# => Metode __ telah dipanggil, tetapi metode __ 
+# tidak berhasil ditemukan. Metode tersebut 
+# memiliki argument sebagai berikut: a, b, 10
+{% endhighlight %}
 
 Kode diatas hanya print detil tentang pemanggilan (call), tetapi Anda
 bisa dengan bebas menangani message dengan cara ini.
@@ -368,12 +396,14 @@ bisa dengan bebas menangani message dengan cara ini.
 Pemanggilan metode adalah sungguh-sungguh merupakan **message** ke obyek
 lain:
 
-    # Penambahan ini
-    1 + 2
-    # adalah sama dengan penambahan ini ...
-    1.+(2)
-    # juga sebetulnya sama dengan penambahan ini :
-    1.send "+", 2
+{% highlight ruby %}
+# Penambahan ini
+1 + 2
+# adalah sama dengan penambahan ini ...
+1.+(2)
+# juga sebetulnya sama dengan penambahan ini :
+1.send "+", 2
+{% endhighlight %}
 
 ### Blok Bisa Diubah Menjadi Sebuah Object
 
@@ -382,21 +412,25 @@ memanggil blok, Anda bisa menggunakan `yield`, atau membuat sebuah obyek
 `Proc` dengan menambahkan argumen khusus pada list argument, seperti
 contoh berikut:
 
-    def blok( &the_block )
-      # Di dalam sini, the_block adalah blok yang dilewatkan ke metode blok
-      the_block # return the block
-    end
-    adder = blok { |a, b| a + b }
-    # adder sekarang merupakan obyek Proc
-    adder.class # => Proc
+{% highlight ruby %}
+def blok( &the_block )
+  # Di dalam sini, the_block adalah blok yang dilewatkan ke metode blok
+  the_block # return the block
+end
+adder = blok { |a, b| a + b }
+# adder sekarang merupakan obyek Proc
+adder.class # => Proc
+{% endhighlight %}
 
 Anda juga dapat membuat blok diluar pemanggilan metode dengan memanggil
 `Proc.new` dengan blok atau pemanggilan metode `lambda`.
 
 Ketika dibuat metode juga merupakan Object.
 
-    method(:puts).call "puts adalah obyek!"
-    # => puts adalah obyek!
+{% highlight ruby %}
+method(:puts).call "puts adalah obyek!"
+# => puts adalah obyek!
+{% endhighlight %}
 
 ### Operator adalah *Syntactic Sugar* 
 
@@ -407,13 +441,15 @@ saja, tentunya dengan peraturan tertentu supaya jenjang *precedence*
 tetap dituruti. Contohnya, Anda bisa meng-*override* metode + milik
 kelas Fixnum:
 
-    class Fixnum
-      # Sebenarnya Anda bisa melakukan ini, 
-      # tetapi tolong jangan lakukan ini
-      def +( other )
-        self - other
-      end
-    end
+{% highlight ruby %}
+class Fixnum
+  # Sebenarnya Anda bisa melakukan ini, 
+  # tetapi tolong jangan lakukan ini
+  def +( other )
+    self - other
+  end
+end
+{% endhighlight %}
 
 Anda tidak membutuhkan `operator+` C++, dan seterusnya.
 
@@ -426,7 +462,7 @@ Operator-operator dibawah ini bukan metode dan tidak dapat didefinisikan
 ulang:
 
     =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code .symbols-code}
+{: .code}
 
 Tambahan, +=, \*= dan lain sebagainya hanyalah singkatan untuk `var =
 var + var_lain`, `var = var * var_lain`, dan seterusnya tidak dapat

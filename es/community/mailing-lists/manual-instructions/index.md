@@ -9,12 +9,12 @@ siguiente texto en el cuerpo del mensaje (no en el asunto) al
 “administrador” automatizado:
 
     subscribe Tu-Nombre Tu-Apellido
-{: .code .mail-code}
+{: .code}
 
 e.g.
 
     subscribe Juan Sosa
-{: .code .mail-code}
+{: .code}
 
 Ruby-Talk
 : Para la lista Ruby-Talk, la dirección de administración automatizada

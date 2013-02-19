@@ -212,21 +212,20 @@ end
 Save this file as “ri20min.rb”, and run it as “ruby ri20min.rb”. The
 output should be:
 
-{% highlight ruby %}
-Hello World!
-Goodbye World.  Come back soon!
-Hello Zeke!
-Goodbye Zeke.  Come back soon!
-Hello Albert!
-Hello Brenda!
-Hello Charles!
-Hello Dave!
-Hello Engelbert!
-Goodbye Albert, Brenda, Charles, Dave, Engelbert.  Come
-back soon!
-...
-...
-{% endhighlight %}
+    Hello World!
+    Goodbye World.  Come back soon!
+    Hello Zeke!
+    Goodbye Zeke.  Come back soon!
+    Hello Albert!
+    Hello Brenda!
+    Hello Charles!
+    Hello Dave!
+    Hello Engelbert!
+    Goodbye Albert, Brenda, Charles, Dave, Engelbert.  Come
+    back soon!
+    ...
+    ...
+{: .code}
 
 There are a lot of new things thrown into this final example that we
 [can take a deeper look at.](../4/)

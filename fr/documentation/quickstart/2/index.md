@@ -8,10 +8,12 @@ Admettons, pour la bonne continuité de ce tutoriel, que nous voulons
 tout à coup répéter et répéter encore « Hello World » ... mais sans trop
 nous fatiguer. Il va falloir définir une méthode.
 
-    irb(main):010:0> def h
-    irb(main):011:1> puts "Hello World!"
-    irb(main):012:1> end
-    => nil
+{% highlight ruby %}
+irb(main):010:0> def h
+irb(main):011:1> puts "Hello World!"
+irb(main):012:1> end
+=> nil
+{% endhighlight %}
 
 Le mot-clé `def` a ici pour rôle de commencer la définition d’une
 méthode. Il dit tout simplement à Ruby que nous \[*attention !*\]
@@ -28,12 +30,14 @@ lui de dire qu’il a bien compris et enregistré notre nouvelle méthode.
 Bien, essayons de faire fonctionner cette méthode deux ou trois fois,
 pour voir :
 
-    irb(main):013:0> h
-    Hello World!
-    => nil
-    irb(main):014:0> h()
-    Hello World!
-    => nil
+{% highlight ruby %}
+irb(main):013:0> h
+Hello World!
+=> nil
+irb(main):014:0> h()
+Hello World!
+=> nil
+{% endhighlight %}
 
 Rien de très compliqué. Appeler une méthode en Ruby, c’est simplement
 dire son nom, au minimum. Si la méthode n’attend pas de paramètres pour
@@ -46,13 +50,15 @@ et pas au monde entier ? Et bien, il suffit justement de demander à ce
 que le nom de la personne concernée soit mentionné en tant que paramètre
 de la méthode `h`\:
 
-    irb(main):015:0> def h(name)
-    irb(main):016:1> puts "Hello #{name}!"
-    irb(main):017:1> end
-    => nil
-    irb(main):018:0> h("Matz")
-    Hello Matz!
-    => nil
+{% highlight ruby %}
+irb(main):015:0> def h(name)
+irb(main):016:1> puts "Hello #{name}!"
+irb(main):017:1> end
+=> nil
+irb(main):018:0> h("Matz")
+Hello Matz!
+=> nil
+{% endhighlight %}
 
 Ça fonctionne… mais pourquoi ? et comment ?
 
@@ -68,16 +74,18 @@ une variable (`name`), vous pouvez lui passer des messages avec des
 méthodes… Par exemple, lui demander de toujours débuter par une
 majuscule avec `capitalize`\:
 
-    irb(main):019:0> def h(name = "World")
-    irb(main):020:1> puts "Hello #{name.capitalize}!"
-    irb(main):021:1> end
-    => nil
-    irb(main):022:0> h "chris"
-    Hello Chris!
-    => nil
-    irb(main):023:0> h
-    Hello World!
-    => nil
+{% highlight ruby %}
+irb(main):019:0> def h(name = "World")
+irb(main):020:1> puts "Hello #{name.capitalize}!"
+irb(main):021:1> end
+=> nil
+irb(main):022:0> h "chris"
+Hello Chris!
+=> nil
+irb(main):023:0> h
+Hello World!
+=> nil
+{% endhighlight %}
 
 D’autres petits ajouts ont eu lieu dans ce dernier bout de code. Tout
 d’abord, nous n’appelons plus la méthode avec des parenthèses autour du
@@ -94,18 +102,20 @@ serait pas de trop d’avoir une formule plus respectueuse à l’encontre de
 l’usager. Pour ce faire, nous utiliserons un objet. Et nous allons même
 dans la foulée créer une classe, “Greeter”.
 
-    irb(main):024:0> class Greeter
-    irb(main):025:1>   def initialize(name = "World")
-    irb(main):026:2>     @name = name
-    irb(main):027:2>   end
-    irb(main):028:1>   def say_hi
-    irb(main):029:2>     puts "Hi #{@name}!"
-    irb(main):030:2>   end
-    irb(main):031:1>   def say_bye
-    irb(main):032:2>     puts "Bye #{@name}, come back soon."
-    irb(main):033:2>   end
-    irb(main):034:1> end
-    => nil
+{% highlight ruby %}
+irb(main):024:0> class Greeter
+irb(main):025:1>   def initialize(name = "World")
+irb(main):026:2>     @name = name
+irb(main):027:2>   end
+irb(main):028:1>   def say_hi
+irb(main):029:2>     puts "Hi #{@name}!"
+irb(main):030:2>   end
+irb(main):031:1>   def say_bye
+irb(main):032:2>     puts "Bye #{@name}, come back soon."
+irb(main):033:2>   end
+irb(main):034:1> end
+=> nil
+{% endhighlight %}
 
 Évidemment, la nouveauté la plus importante ici est le mot-clé `class`.
 Son rôle est de définir une nouvelle classe, en l’occurence `Greeter`,
