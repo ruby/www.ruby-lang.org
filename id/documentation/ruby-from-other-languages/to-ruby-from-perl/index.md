@@ -22,7 +22,18 @@ menggunakan bahasa Perl:
 
 {% highlight perl %}
 $n = 5;
-sub bottle { my $n = shift; $n 
+sub bottle { my $n = shift; $n < 2 ? "$n bottle" : "$n bottles" }
+while ($n) {
+   print <<"BOTOL";
+${\bottle $n} of beer on the wall
+${\bottle $n} of beer
+Take one down, pass it around
+${\bottle --$n} of beer on the wall
+
+BOTOL
+}
+
+print "No more beer on the wall :-(\n";
 {% endhighlight %}
 
 Program tersebut dapat ditulis sebagai berikut di Ruby: \*

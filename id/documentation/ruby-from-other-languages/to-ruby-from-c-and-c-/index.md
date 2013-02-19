@@ -42,7 +42,7 @@ Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di C:
 
 {% highlight python %}
-#include 
+#include <stdio.h>
 
 int main(int argc, char *argv[]) 
 {
