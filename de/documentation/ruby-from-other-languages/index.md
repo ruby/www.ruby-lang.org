@@ -139,7 +139,9 @@ Zahlen von 1 bis 5:
 
     five1 = [1, 2, 3, 4, 5]
     # Klasse Array
-    five2 = Array.new
+    five2 = Array.new << 1 << 2 << 3 << 4 << 5
+    # Methode Array
+    five3 = Array(1..5)
 
 ### Ersatz für benannte Parameter
 
