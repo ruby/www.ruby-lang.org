@@ -7,13 +7,13 @@ lang: ko
 “Greeter” 객체를 만들어서 사용해 봅시다.
 
     irb(main):035:0> g = Greeter.new("Pat")
-    => #<0x16cac>
+    => #<Greeter:0x16cac @name="Pat">
     irb(main):036:0> g.say_hi
     Hi Pat!
     => nil
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
-    => nil</0x16cac>
+    => nil
 
 “g” 객체가 만들어진 이후에는 “Pat”이란 이름을 기억합니다. 직접 이름을 접근할 수 있냐구요?
 
@@ -73,7 +73,7 @@ lang: ko
 루비에서는 클래스를 언제나 열어서 정의를 변경할 수 있습니다. 새로운 객체를 만들어서 ”@name”에 접근해봅시다.
 
     irb(main):047:0> g = Greeter.new("Andy")
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Andy">
     irb(main):048:0> g.respond_to?("name")
     => true
     irb(main):049:0> g.respond_to?("name=")
@@ -84,12 +84,12 @@ lang: ko
     irb(main):051:0> g.name="Betty"
     => "Betty"
     irb(main):052:0> g
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Betty">
     irb(main):053:0> g.name
     => "Betty"
     irb(main):054:0> g.say_hi
     Hi Betty!
-    => nil</0x3c9b0></0x3c9b0>
+    => nil
 
 “attr\_accessor”은 두개의 메서드를 새로 정의하는데, “name”은 객체변수의 값에 접근하기 위해서이고
 “name=”은 객체변수의 값을 변경하기 위해서입니다.

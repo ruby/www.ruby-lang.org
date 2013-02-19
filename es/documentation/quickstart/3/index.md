@@ -7,13 +7,13 @@ lang: es
 Ahora vamos a crear y usar un objeto anfitrión:
 
     irb(main):035:0> a = Anfitrion.new("Juan")
-    => #<0x16cac>
+    => #<Greeter:0x16cac @name="Pat">
     irb(main):036:0> a.decir_hola
     Hola Juan
     => nil
     irb(main):037:0> a.decir_adios
     Adiós Juan, vuelve pronto.
-    => nil</0x16cac>
+    => nil
 
 Una vez que el objeto `a` es creado, nos recuerda que el nombre es Juan.
 Mmm, ¿y si queremos acceder al nombre directamente?
@@ -88,7 +88,7 @@ crear. Así que vamos a crear un nuevo objeto y juguemos con su propiedad
 `@nombre`.
 
     irb(main):047:0> a = Anfitrion.new("Pedro")
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Andy">
     irb(main):048:0> a.respond_to?("nombre")
     => true
     irb(main):049:0> a.respond_to?("nombre=")
@@ -99,12 +99,12 @@ crear. Así que vamos a crear un nuevo objeto y juguemos con su propiedad
     irb(main):051:0> a.nombre="Matilde"
     => "Matilde"
     irb(main):052:0> a
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Betty">
     irb(main):053:0> a.nombre
     => "Matilde"
     irb(main):054:0> a.decir_hola
     Hola Matilde
-    => nil</0x3c9b0></0x3c9b0>
+    => nil
 
 El uso de `attr_accessor` determinó que se definan dos nuevos métodos
 por nosotros, `nombre` para obtener el valor, y `nombre=` para

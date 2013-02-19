@@ -7,13 +7,13 @@ lang: pt
 Agora vamos criar e usar um objecto Anfitrião:
 
     irb(main):035:0> h = Anfitriao.new("João")
-    => #<0x16cac>
+    => #<Greeter:0x16cac @name="Pat">
     irb(main):036:0> h.dizer_ola
     Ola João
     => nil
     irb(main):037:0> h.dizer_adeus
     Adeus João, volta em breve.
-    => nil</0x16cac>
+    => nil
 
 Uma vez criado o objecto `h`, lembra-nos que o nome é João. Mmm, e se
 quisermos aceder directamente ao nome?
@@ -89,7 +89,7 @@ criar. Assim vamos criar um novo objecto e vamos brincar com a sua
 propriedade `@nome`.
 
     irb(main):047:0> h = Anfitriao.new("Pedro")
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Andy">
     irb(main):048:0> h.respond_to?("nome")
     => true
     irb(main):049:0> h.respond_to?("nome=")
@@ -100,12 +100,12 @@ propriedade `@nome`.
     irb(main):051:0> h.nome="Matilde"
     => "Matilde"
     irb(main):052:0> h
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Betty">
     irb(main):053:0> h.nome
     => "Matilde"
     irb(main):054:0> h.dizer_ola
     Ola Matilde
-    => nil</0x3c9b0></0x3c9b0>
+    => nil
 
 O uso de `attr_accessor` determina que se tenha definido dois novos
 métodos: `nome` para obter o valor, e `nome=` para o alterar.

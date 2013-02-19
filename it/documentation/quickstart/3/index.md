@@ -7,13 +7,13 @@ lang: it
 Bene, creiamo il nostro oggetto PersonaCordiale e usiamolo:
 
     irb(main):035:0> p = PersonaCordiale.new("Mario")
-    => #<0x16cac>
+    => #<Greeter:0x16cac @name="Pat">
     irb(main):036:0> p.saluta
     Ciao Mario!
     => nil
     irb(main):037:0> p.congeda
     Arrivederci Mario, a presto.
-    => nil</0x16cac>
+    => nil
 
 Una volta che l’oggetto `p` è stato creato, ricorda che il nome è Mario.
 Ma cosa succede se vogliamo accedere direttamente al nome?
@@ -85,7 +85,7 @@ oggetti esistenti della classe. Quindi creiamo un nuovo oggetto e
 “giochiamo” con la sua proprietà `nome`.
 
     irb(main):047:0> p = PersonaCordiale.new("Luigi")
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Andy">
     irb(main):048:0> p.respond_to?("nome")
     => true
     irb(main):049:0> p.respond_to?("nome=")
@@ -96,12 +96,12 @@ oggetti esistenti della classe. Quindi creiamo un nuovo oggetto e
     irb(main):051:0> p.nome="Francesca"
     => "Francesca"
     irb(main):052:0> p
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Betty">
     irb(main):053:0> p.nome
     => "Francesca"
     irb(main):054:0> p.saluta
     Ciao Francesca!
-    => nil</0x3c9b0></0x3c9b0>
+    => nil
 
 Usando `attr_accessor` definiamo due nuovi metodi, `nome` per ricevere
 il valore e `nome=` per settarlo.

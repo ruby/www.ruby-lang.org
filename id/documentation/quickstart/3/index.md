@@ -13,7 +13,7 @@ Mari kita bikin obyek TukangSapa dan kita pakai:
     => nil
     irb(main):015:0> t.say_bye
     Bye Arie, datang lagi ya.
-    => nil</0x6b274>
+    => nil
 
 Sekali obyek `t` dibuat, maka obyek `t` mengingat name adalah Arie. Hmm,
 bagaimana jika kita ingin mendapatkan nama saja langsung?
@@ -112,7 +112,7 @@ property `@name`.
     => "Yohanes"
     irb(main):034:0> t.say_hai
     Hai Yohanes!
-    => nil</0x5b040></0x5b040>
+    => nil
 
 Dengan menggunakan `attr_accessor` kita sudah mendefinisikan dua metode
 baru untuk kita, `name` untuk mendapatkan (get) value, dan `name=` untuk

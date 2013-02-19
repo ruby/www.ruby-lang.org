@@ -7,13 +7,13 @@ lang: zh_TW
 讓我們建立一個 greeter 物件來使用：
 
     irb(main):035:0> g = Greeter.new("Pat")
-    => #<0x16cac>
+    => #<Greeter:0x16cac @name="Pat">
     irb(main):036:0> g.say_hi
     Hi Pat!
     => nil
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
-    => nil</0x16cac>
+    => nil
 
 一旦建立了 `g` 物件，它就會記得它的名字是 Pat。嗯，但是我們如何拿到這個名字的值呢?
 
@@ -75,7 +75,7 @@ lang: zh_TW
 `@name` 屬性。
 
     irb(main):047:0> g = Greeter.new("Andy")
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Andy">
     irb(main):048:0> g.respond_to?("name")
     => true
     irb(main):049:0> g.respond_to?("name=")
@@ -86,12 +86,12 @@ lang: zh_TW
     irb(main):051:0> g.name="Betty"
     => "Betty"
     irb(main):052:0> g
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Betty">
     irb(main):053:0> g.name
     => "Betty"
     irb(main):054:0> g.say_hi
     Hi Betty!
-    => nil</0x3c9b0></0x3c9b0>
+    => nil
 
 `attr_accessor` 會定義兩個新的方法，`name` 用來取值，而 `name=` 用來給值。
 

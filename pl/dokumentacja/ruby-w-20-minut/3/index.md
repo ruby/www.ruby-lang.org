@@ -7,13 +7,13 @@ lang: pl
 Utwórzmy teraz obiekt klasy Greeter:
 
     irb(main):035:0> g = Greeter.new("Pat")
-    => #<0x16cac>
+    => #<Greeter:0x16cac @name="Pat">
     irb(main):036:0> g.say_hi
     Hi Pat!
     => nil
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
-    => nil</0x16cac>
+    => nil
 
 Gdy obiekt `g` jest utworzony, zapamiętuje on imię jako Pat. Hmm, co
 jeśli chcielibyśmy dostać się bezpośrednio do imienia ?
@@ -85,7 +85,7 @@ powstaną. Utwórzmy więc nowy obiekt i pobawmy się jego właściwością
 `@name`.
 
     irb(main):047:0> g = Greeter.new("Andy")
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Andy">
     irb(main):048:0> g.respond_to?("name")
     => true
     irb(main):049:0> g.respond_to?("name=")
@@ -96,12 +96,12 @@ powstaną. Utwórzmy więc nowy obiekt i pobawmy się jego właściwością
     irb(main):051:0> g.name="Betty"
     => "Betty"
     irb(main):052:0> g
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Betty">
     irb(main):053:0> g.name
     => "Betty"
     irb(main):054:0> g.say_hi
     Hi Betty!
-    => nil</0x3c9b0></0x3c9b0>
+    => nil
 
 Użycie `attr_accessor` zdefiniowało dwie nowe metody dla nas, `name` aby
 odczytać wartość oraz `name=` aby ją ustawić.

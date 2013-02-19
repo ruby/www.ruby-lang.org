@@ -182,9 +182,9 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
     => nil
     irb(main):011:0> 
     irb(main):012:0* t1 = Test.new
-    => #<0x34ab50>
+    => #<Test:0x34ab50>
     irb(main):013:0> t2 = Test.new
-    => #<0x342784>
+    => #<Test:0x342784>
     irb(main):014:0> t1 == t2
     => true
     irb(main):015:0> # 來讓 `func` 變成 protected，一樣沒問題
@@ -201,11 +201,11 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
     irb(main):024:1> end
     => Test
     irb(main):025:0> t1 == t2
-    NoMethodError: private method `func' called for #<0x342784>
+    NoMethodError: private method `func' called for #<Test:0x342784>
             from (irb):8:in `=='
             from (irb):25
             from :0
-    irb(main):026:0></0x342784></0x342784></0x34ab50>
+    irb(main):026:0>
 
 ### 類別是開放的
 

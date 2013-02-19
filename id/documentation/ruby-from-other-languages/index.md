@@ -250,9 +250,9 @@ pemanggilan metode private.
     => nil
     irb(main):011:0> 
     irb(main):012:0* t1 = Test.new
-    => #<0x34ab50>
+    => #<Test:0x34ab50>
     irb(main):013:0> t2 = Test.new
-    => #<0x342784>
+    => #<Test:0x342784>
     irb(main):014:0> t1 == t2
     => true
     irb(main):015:0> # sekarang atur `func` menjadi protected, 
@@ -269,11 +269,11 @@ pemanggilan metode private.
     irb(main):024:1> end
     => Test
     irb(main):025:0> t1 == t2
-    NoMethodError: private method `func' called for #<0x342784>
+    NoMethodError: private method `func' called for #<Test:0x342784>
             from (irb):8:in `=='
             from (irb):25
             from :0
-    irb(main):026:0></0x342784></0x342784></0x34ab50>
+    irb(main):026:0>
 
 ### Kelas Bersifat Terbuka
 

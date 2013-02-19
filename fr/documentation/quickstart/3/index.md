@@ -7,13 +7,13 @@ lang: fr
 Maintenant, créons un objet de la classe `Greeter` et animons-le :
 
     irb(main):035:0> g = Greeter.new("Pat")
-    => #<0x16cac>
+    => #<Greeter:0x16cac @name="Pat">
     irb(main):036:0> g.say_hi
     Hi Pat!
     => nil
     irb(main):037:0> g.say_bye
     Bye Pat, come back soon.
-    => nil</0x16cac>
+    => nil
 
 Une fois l’objet `g` créé, il se souvient que le nom qui lui est lié est
 Pat, comme indiqué à sa création. Il serait d’ailleurs intéressant de
@@ -96,7 +96,7 @@ disponibles dans tout objet nouvellement créé, ainsi que dans ceux déjà
 existants ! Créons un nouvel objet et testons l’artifice :
 
     irb(main):047:0> g = Greeter.new("Andy")
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Andy">
     irb(main):048:0> g.respond_to?("name")
     => true
     irb(main):049:0> g.respond_to?("name=")
@@ -107,12 +107,12 @@ existants ! Créons un nouvel objet et testons l’artifice :
     irb(main):051:0> g.name="Betty"
     => "Betty"
     irb(main):052:0> g
-    => #<0x3c9b0>
+    => #<Greeter:0x3c9b0 @name="Betty">
     irb(main):053:0> g.name
     => "Betty"
     irb(main):054:0> g.say_hi
     Hi Betty!
-    => nil</0x3c9b0></0x3c9b0>
+    => nil
 
 Le fait d’écrire `attr_accessor` a implicitement défini deux nouvelles
 méthodes à peu de frais : `name` pour récupérer la valeur de la
