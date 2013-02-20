@@ -359,8 +359,9 @@ end
 
 以下的操作符則**不是**語法包裝。它們不是方法，不能被覆寫定義：
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
 此外 +=, \*= 等只是 `var = var + other_var` 跟 `var = var * other_var`
 等的縮寫，因此也不能被覆寫定義。
