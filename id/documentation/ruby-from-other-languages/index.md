@@ -461,8 +461,9 @@ Tetapi operator-operator dibawah ini bukan syntactic sugar.
 Operator-operator dibawah ini bukan metode dan tidak dapat didefinisikan
 ulang:
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
 Tambahan, +=, \*= dan lain sebagainya hanyalah singkatan untuk `var =
 var + var_lain`, `var = var * var_lain`, dan seterusnya tidak dapat

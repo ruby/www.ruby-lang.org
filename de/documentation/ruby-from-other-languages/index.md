@@ -444,8 +444,9 @@ benutzen.
 Die folgenden Operatoren sind *kein* syntaktischer Zucker. Sie sind
 keine Methoden, und können nicht umdefiniert werden:
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
 Zudem sind `+=`, `*=` usw. nur Abkürzungen für `foo = foo + bar` usw.
 und können deshalb auch nicht überschrieben werden.

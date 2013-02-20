@@ -435,8 +435,9 @@ Pode ainda ter um acesso no estilo de um array se definir os métodos
 Os operadores abaixo não são, no entanto, açúcar sintáctico.Não são
 métodos, e não podem ser redifinidos:
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
  Como +=, \*= etc. são somente abreviações para `var = var + outra_var`, `var = var * outra_var`, etc. não podem ser redefinidos. ## Mais informação
 

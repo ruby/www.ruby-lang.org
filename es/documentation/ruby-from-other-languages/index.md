@@ -435,8 +435,9 @@ definir los métodos `+@` and `-@` respectivamente.
 Sin embargo, los siguientes operadores **no** son simplificaciones
 sintácticas. No son métodos, y no pueden ser redefinidos:
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
  Además, +=, \*= etc. sólo son abreviaciones para `var = var + otra_var`, `var = var * otra_var`, etc. y por ende no pueden ser redefinidos. ## Para saber más
 

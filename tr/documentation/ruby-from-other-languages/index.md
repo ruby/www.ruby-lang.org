@@ -398,8 +398,9 @@ tanımlamalısınız.
 Aşağıdaki operatörler bu şekilde değerlendirilmezler. Bunlar metod
 değildir ve tekrar tanımlanamazlar:
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
  Ek olarak, +=, \*= vb. şunların kısaltmasıdır : `var = var + other_var`, `var = var * other_var`, vb. ve bu yüzden tekrar tanımlanamazlar. ## Daha Fazla Bilgi
 

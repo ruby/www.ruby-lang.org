@@ -424,8 +424,9 @@ definire, rispettivamente, i metodi `+@` and `-@`.
 I seguenti operatori però **non** sono zucchero sintattico: non sono
 metodi e non possono essere ridefiniti:
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
 Inoltre, +=, \*= ecc. sono solo abbreviazioni di:
 

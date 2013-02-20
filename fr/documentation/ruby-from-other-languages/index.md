@@ -436,8 +436,9 @@ méthodes `[]` et `[]=`. Pour définir les signes + et -, comme pour +1 et
 Les opérateurs ci-dessous ne sont pas des méthodes, et ne peuvent pas
 être modifiés :
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
 Par ailleurs, `+=`, `*=`, etc. ne sont que des raccourcis pour `var =
 var + autre_var`, `var = var * autre_var`, etc. et ne peuvent être

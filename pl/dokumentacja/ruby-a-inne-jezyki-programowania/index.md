@@ -404,8 +404,9 @@ Nie potrzebujesz operatora z C++’s `operator+`, etc.
 Poniższe operatory jednak **nie są cukrem syntaktycznym**. Nie są
 metodami dlatego nie można ich przedefiniować.
 
-    =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
-{: .code}
+{% highlight ruby %}
+=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+{% endhighlight %}
 
  Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`, `var = var * other_var`, etc. dlatego też nie można ich przedefiniować. ## Więcej
 
