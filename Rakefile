@@ -29,12 +29,13 @@ end
 
 def highlight(code, language_class)
   language = {
-    'ruby-code'   => 'ruby',
-    'sh-code'     => 'sh',
-    'bash-code'   => 'sh',
-    'java-code'   => 'java',
-    'perl-code'   => 'perl',
-    'python-code' => 'python'
+    'ruby-code'    => 'ruby',
+    'symbols-code' => 'ruby',
+    'sh-code'      => 'sh',
+    'bash-code'    => 'sh',
+    'java-code'    => 'java',
+    'perl-code'    => 'perl',
+    'python-code'  => 'python'
   }
 
   lang = language[language_class]
