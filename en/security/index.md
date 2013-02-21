@@ -6,17 +6,13 @@ lang: en
 
 Here you will find information about security issues of Ruby.
 
-## <a name="label-0" id="label-0">Reporting Security Vulnerabilities</a>
-
-<!-- RDLabel: "Reporting Security Vulnerabilities" -->
+## Reporting Security Vulnerabilities
 
 Security vulnerabilities should be reported via an email to
 security@ruby-lang.org ([the PGP public key](/security.asc)), which is a
 private mailing list. Reported problems will be published after fixes.
 
-## <a name="label-1" id="label-1">Known issues</a>
-
-<!-- RDLabel: "Known issues" -->
+## Known issues
 
 Here are recent issues.
 
