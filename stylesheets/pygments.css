@@ -38,7 +38,7 @@
 .ne { color: #D2413A } /* Name.Exception */
 .nf { color: #fff    } /* Name.Function */
 .nl { color: #A0A000 } /* Name.Label */
-.nn { color: #050    } /* Name.Namespace */
+.nn { color: #8aa6c1 } /* Name.Namespace */
 .nt { color: #f9bb00 } /* Name.Tag */
 .nv { color: #8aa6c1 } /* Name.Variable */
 .vc { color: #8aa6c1 } /* Name.Variable.Class */
