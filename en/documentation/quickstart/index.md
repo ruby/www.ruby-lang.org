@@ -25,6 +25,7 @@ Open up IRB (which stands for Interactive Ruby).
   enter.
 * If you’re using **Windows**, open `fxri` from the Ruby section of your
   Start Menu.
+^
 
 {% highlight ruby %}
 irb(main):001:0>
