@@ -7,5 +7,9 @@ layout: news
 
   {{ content }}
 
-  <p class="post-info">Posted By {{ page.author }} on {{ page.date | date_to_string }}</p>
+  {% if page.author and page.author != "" %}
+  <p class="post-info">{{ page.author }} &ndash; {{ page.date | date_to_string }}</p>
+  {% else %}
+  <p class="post-info">{{ page.date | date_to_string }}</p>
+  {% endif %}
 </div>
