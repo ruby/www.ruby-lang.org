@@ -54,8 +54,10 @@ def html_to_markdown(content_div)
     node.remove if node.comment?
   end
 
-  # remove all page anchors
-  content_div.search('//a[@id]').remove
+  # replace all page anchors with their text
+  content_div.search('//a[@id]').each do |anchor|
+    anchor.replace(anchor.inner_text)
+  end
 
   # replace all caps spans with their text
   content_div.search('span.caps').each do |span|
