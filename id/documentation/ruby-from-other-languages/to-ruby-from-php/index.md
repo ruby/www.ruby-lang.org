@@ -14,7 +14,12 @@ Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di PHP:
 
 {% highlight python %}
-
+<?php
+$fp = fopen('php://stdin', 'r');
+$a = fgets($fp);
+$b = fgets($fp);
+echo $a + $b . "\n";
+?>
 {% endhighlight %}
 
 Anda dapat menuliskan program tersebut di Ruby sebagai berikut:
