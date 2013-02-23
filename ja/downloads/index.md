@@ -6,7 +6,7 @@ lang: ja
 
 ここでは、Rubyインタプリタの代表的な入手方法を説明します。
 
-## 
+## Rubyのソースコード
 
 Rubyの各バージョンのソースコードは、以下から入手できます。
 
@@ -22,7 +22,7 @@ Rubyの各バージョンのソースコードは、以下から入手できま�
 * 最新のソースをAnonymous
   SVNで入手する方法については、[レポジトリガイド](/ja/documentation/repository-guide)を参照ください。
 
-## 
+## 各環境用バイナリ
 
 各種の環境向けのバイナリが有志により配布されています。
 
@@ -35,11 +35,11 @@ Rubyの各バージョンのソースコードは、以下から入手できま�
   * [Ruby-mswin32][12] mswin32版の安定版・開発版を随時提供
   * [cygwin,djgpp,mingw,mswin32][13]
 
-## 
+## ミラーサイト
 
 Rubyのソースコードや、それを含めた当サイトの内容が、有志によりミラーされています。
 
-### 
+### FTPミラーサイト
 
 * [日本 1][14]及び[ミラー][15] (RingServer)
 * [日本 2][16] (IIJ)
@@ -59,7 +59,7 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 * [台湾 2][30] (ftp.cs.pu.edu.tw)
 * [カナダ][31] (mirror.cs.mun.ca)
 
-### 
+### HTTPミラーサイト
 
 * [イギリス][32] (The Mirror Service)
 * [日本][33]及び[ミラー][15] (RingServer)
@@ -76,7 +76,7 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 * [台湾 1][44] (cdpa.nsysu.edu.tw)
 * [台湾 2][45] (ftp.cs.pu.edu.tw)
 
-### 
+### Rsyncミラーサイト
 
 * rsync://rsync.mirrorservice.org/ftp.ruby-lang.org/pub/ruby/ (イギリス)
 * rsync://sunsite.dk/ftp/mirrors/ruby/ (デンマーク)

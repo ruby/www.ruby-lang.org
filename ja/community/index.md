@@ -4,7 +4,7 @@ title: "コミュニティ"
 lang: ja
 ---
 
-## 
+## 団体
 
 * [日本Rubyの会][1]
   * 一般社団法人日本Rubyの会は開発者、利用者の支援を行っている団体です。
@@ -22,7 +22,7 @@ lang: ja
 * [rubyusergroups.org][4]
   * rubyusergroups.orgは世界中のRubyistとRubyistの集まりを地図上にプロットして公開するサービスです。日本のRubyistやRubyistの集まりもどんどんリストに追加していくとよいでしょう。
 
-## 
+## IRC
 
 * IRCNetの[#ruby-ja](irc://irc.ircnet.ne.jp/%23ruby:*.jp?charset=iso-2022-jp)
   * Rubyの開発用兼、簡単な質疑応答用のチャンネルです。
@@ -40,15 +40,15 @@ lang: ja
 * freenodeの[#ruby-core](irc://freenode/%23ruby-core?charset=utf-8)
   * Rubyの開発用のチャンネルです。(英語)
 
-## 
+## メーリングリスト
 
 * [メーリングリスト](/ja/community/mailing-lists/) のページを参照してください。
 
-## 
+## ニュースグループ
 
 * [fj.comp.lang.ruby](news:fj.comp.lang.ruby)
 
-## 
+## カンファレンス
 
 * [RubyKaigi][5]
 * [International Ruby Conference][6]

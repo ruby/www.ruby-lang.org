@@ -7,14 +7,14 @@ lang: fr
 Cette page rescence les informations relatives à la sécurité et aux
 alertes de vulnérabilité.
 
-## 
+## Signaler une vulnérabilité
 
 Les alertes de vulnérabilités et failles doivent être signalées à
 security@ruby-lang.org, qui est une liste de diffusion privée. Les
 problèmes qui y sont signalés ne sont rendus publics qu\'après la
 création d\'un patch résolvant la vulnérabilité.
 
-## 
+## Alertes passées
 
 * [Vulnérabilité WEBrick par injection d\'une séquence
   d\'échappement][1] publiée le 10 janvier 2010

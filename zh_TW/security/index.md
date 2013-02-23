@@ -6,12 +6,12 @@ lang: zh_TW
 
 這裡你可以找到 Ruby 的安全問題資訊。
 
-## 
+## 回報安全缺陷(Security Vulnerabilities)
 
 安全缺陷回報請透過 email 至 security@ruby-lang.org ([the PGP public
 key](/security.asc)) ，這是一個保密的郵件論壇。回報的問題會直到修正之後才會公布出來。
 
-## 
+## 已知的缺陷問題
 
 以下最近的問題列表：
 

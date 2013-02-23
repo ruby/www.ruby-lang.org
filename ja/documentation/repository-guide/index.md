@@ -4,7 +4,7 @@ title: "レポジトリガイド"
 lang: ja
 ---
 
-## 
+## SVNレポジトリ
 
 RubyのソースコードはSVNレポジトリに保存されており、ViewVC経由で参照できます:
 
@@ -22,7 +22,7 @@ trunkの場合:
 
 その他のブランチ・タグなどは[&lt;URL:http://svn.ruby-lang.org/repos/ruby/&gt;][2]から確認してください。
 
-## 
+## Gitレポジトリ
 
 Gitをお使いの方は、[githubにあるRubyのレポジトリ][3]も利用可能です。
 

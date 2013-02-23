@@ -6,14 +6,14 @@ lang: ja
 
 Rubyのセキュリティ問題に関連する情報を紹介します。
 
-## 
+## セキュリティ問題の報告窓口
 
 Rubyのセキュリティに関する問題の報告は、[security@ruby-lang.org](mailto:security@ruby-lang.org)
 ([PGP公開鍵](/security.asc)) までお願いします。
 
 security@ruby-lang.orgは非公開MLで、報告された問題が確認され、対策が講じられた後に、問題が一般に公開されます。
 
-## 
+## 既知のセキュリティ問題
 
 新しいものから順に並べています。
 
