@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Ruby 1.9.1 disponível para download"
 lang: pt
 ---

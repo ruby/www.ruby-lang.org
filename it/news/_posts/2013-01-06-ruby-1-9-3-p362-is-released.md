@@ -17,7 +17,7 @@ Vedi [tickets][1] e [ChangeLog][2] per maggiori dettagli.
 
 Security fix non sono incluse in questa versione.
 
-## 
+## Downloads
 
 Puoi scaricare questa versione da:
 
@@ -39,7 +39,7 @@ Puoi scaricare questa versione da:
   * SHA256:
     713ed8149f819ef3ae6b9ac0e27d0c9ee26d3d78e44d42d02ce426d6cb18068d
 
-## 
+## Commento dell\'autore di questa versione
 
 Molti committer e utenti hanno fornito dei bug report che mi hanno
 aiutato enormemente a rilasciare questa versione.

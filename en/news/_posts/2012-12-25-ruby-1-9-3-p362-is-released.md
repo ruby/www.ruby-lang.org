@@ -17,7 +17,7 @@ See [tickets][1] and [ChangeLog][2] for details.
 
 In addition, any security fixes are not included in this release.
 
-## 
+## Downloads
 
 You can download this release from:
 
@@ -39,7 +39,7 @@ You can download this release from:
   * SHA256:
     713ed8149f819ef3ae6b9ac0e27d0c9ee26d3d78e44d42d02ce426d6cb18068d
 
-## 
+## Release Comment
 
 Many committers and users who gave bug reports greatly helped me to make
 this release. Thank you everyone.

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3-p385 is released"
-author: "James Edward Gray II"
+author: "usa"
 lang: en
 ---
 
@@ -14,7 +14,7 @@ And some small bugfixes are also included.
 
 See [tickets][2] and [ChangeLog][3] for details.
 
-## 
+## Download
 
 You can download this release from:
 
@@ -36,7 +36,7 @@ You can download this release from:
       MD5:    044564fe519a2c8e278472c4272b3ff2
       SHA256: 0cb389fcc1ac9fccf32f3db27497908b7365aa910b6dd1559389416e828addc5
 
-## 
+## Release Comment
 
 Many committers, testers and users who gave bug reports greatly helped
 me to make this release. Thanks for their contributions.

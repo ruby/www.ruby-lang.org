@@ -14,7 +14,7 @@ inicialmente la noticia.
 Para tener información sobre los cambios concretos de esta versión os
 recomiendo la lectura del registro de [cambios.][2]
 
-## 
+## Descargas
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2&gt;][3]
   * SIZE: 9961862 bytes

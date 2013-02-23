@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.0.0-rc2 リリース"
-author: "Yusuke Endoh"
+author: "usa"
 lang: ja
 ---
 
@@ -9,7 +9,7 @@ Ruby 2.0.0-rc2 がリリースされました。Ruby 2.0.0 の最後の Release 
 
 どうぞお試しください。もし何か問題があればお知らせ下さい。
 
-## 
+## 所在
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2&gt;][1]
   
@@ -29,7 +29,7 @@ Ruby 2.0.0-rc2 がリリースされました。Ruby 2.0.0 の最後の Release 
       MD5:    1a2d33f1c50e32ca1532f8dea4790d53
       SHA256: c28e9baf3aa00b41b8823c16df436ae143e8a63e43e7a53302f23119e13d0ebf
 
-## 
+## 2.0.0 の新機能
 
 * キーワード引数
 * Enumerable#lazy
@@ -61,9 +61,9 @@ Ruby 2.0.0-rc2 がリリースされました。Ruby 2.0.0 の最後の Release 
 
 (他にも記事を書いて頂けると、今後のリリースアナウンスで引用や参照をさせて頂くかも)
 
-## 
+## 注意点
 
-### 
+### 非互換について
 
 特筆すべき非互換を 3 つ把握しています。
 
@@ -82,12 +82,12 @@ Ruby 2.0.0-rc2 がリリースされました。Ruby 2.0.0 の最後の Release 
 
 * [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][15]
 
-### 
+### refinements の扱い
 
 2\.0.0 では refinement を「実験的機能」として提供します。仕様の詳細について合意に至らなかったためです。 挙動が Ruby
 の将来のバージョンで変化する可能性があることに注意してください。
 
-## 
+## special thanks
 
 preview と rc1 を試してくれた皆さんに感謝します。 相変わらずたくさんのバグを直してくれているコントリビュータの皆さんに感謝します。
 このリリースを支えてくれた皆さんに本当に感謝します。

@@ -17,7 +17,7 @@ This release includes some security fixes, and many other bug fixes.
 
 See [tickets][3] and [ChangeLog][4] for details.
 
-## 
+## Download
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2&gt;][5]
   * SIZE: 9961862 bytes

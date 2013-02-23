@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Matz recebe o FSF's 2011 Free Software Award"
 lang: pt
 ---

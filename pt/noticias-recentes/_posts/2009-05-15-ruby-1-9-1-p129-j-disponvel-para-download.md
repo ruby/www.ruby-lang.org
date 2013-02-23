@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Ruby 1.9.1-p129 já disponível para download"
 lang: pt
 ---
@@ -11,7 +11,7 @@ e duas vulnerabilidades de seguranla. Uma vez que é uma versão que
 contém uma correcção de segurança aconselha-se que todos os utilizadores
 façam esta actualização.
 
-#### 
+#### Disponível a partir de
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.tar.bz2&gt;][1]
   
@@ -31,7 +31,7 @@ façam esta actualização.
       MD5:    156305e9633758eb60b419fabc33b6e4
       SHA256: 6cbf0eda4ba0afedd8f0bd320e6a14f826149ef517d8bb967149af0558b0743b
 
-#### 
+#### Vulnerabilidades de Segurança
 
 * DL::Function#call could pass tainted arguments to a C function even if
 

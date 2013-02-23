@@ -7,11 +7,11 @@ lang: zh_cn
 
 Ruby中发现多个安全漏洞。建议你更新到最新版本。
 
-## 
+## 详情
 
 发现以下安全漏洞。
 
-### 
+### 在安全级别下的几个漏洞
 
 发现在安全级别下存在几个漏洞。
 
@@ -76,7 +76,7 @@ Ruby中发现多个安全漏洞。建议你更新到最新版本。
 
 以上漏洞是由Keita Yamaguchi报告的。
 
-### 
+### WEBrick中的致拒绝服务(DoS)漏洞
 
 WEBrick::HTTP::DefaultFileHandler存在消耗指数时间响应请求的错误，
 因为WEBrick::HTTPUtils.split\_header\_value中的一个回溯正则表达式 （backtracking
@@ -101,7 +101,7 @@ regular expression）。
 
 这个漏洞是由Christian Neukirchen报告的。
 
-### 
+### dl中缺乏完整性检查
 
 dl没有进行完整性检查，因此可能允许攻击者调用危险的函数。
 
@@ -114,7 +114,7 @@ dl没有进行完整性检查，因此可能允许攻击者调用危险的函数
 
 这个漏洞是由sheepman报告的。
 
-### 
+### resolv.rb的欺骗DNS漏洞
 
 resolv.rb允许远程攻击者欺骗DNS响应。这个漏洞可以通过随机的DNS事务ID和源端口来解决。
 所以resolv.rb已经采用随机化的方式来修正。
@@ -123,19 +123,19 @@ resolv.rb允许远程攻击者欺骗DNS响应。这个漏洞可以通过随机�
 
 这个漏洞是由Tanaka Akira报告的。
 
-## 
+## 受影响的版本
 
-
+1.8系列
 : * 1\.8.5 和所有之前的版本
   * 1\.8.6-p285 和所有之前的版本
   * 1\.8.7-p70 和所有之前的版本
 
-
+1.9系列
 : * r18423 和所有之前的修订版本
 
-## 
+## 解决办法
 
-
+1.8系列
 : 请更新到1.8.6-p286或者1.8.7-p71。
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p286.tar.gz&gt;][2]
     
@@ -149,7 +149,7 @@ resolv.rb允许远程攻击者欺骗DNS响应。这个漏洞可以通过随机�
         sha256: 30ec4298e9ac186a2fe1a94362919ba805538252b707f3aadae1938429269c1a,
         size: 4805478)
 
-
+1.9系列
 
 : 请通过Subversion取得最新版本。
   
@@ -157,12 +157,12 @@ resolv.rb允许远程攻击者欺骗DNS响应。这个漏洞可以通过随机�
 
 请注意修正这个漏洞的软件包可能已经可以通过你的软件包管理软件更新了。
 
-## 
+## 贡献者
 
 感谢Keita Yamaguchi, Christian Neukirchen, sheepman, and Tanaka Akira为Ruby
 Security Team指出这个问题。
 
-## 
+## 修订记录
 
 * 2008-08-08 12:21 +09:00 fixed the revision number of ruby 1.9.
 

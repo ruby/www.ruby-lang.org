@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "RuPy 2012 muito em breve"
 lang: pt
 ---

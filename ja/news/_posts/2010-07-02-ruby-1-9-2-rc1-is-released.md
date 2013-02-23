@@ -26,36 +26,36 @@ Ruby 1.9.2は8月初旬にリリースされる予定です。1.9.2リリース�
 は、1.9.2がRubySpecにパスすることを保証する目的で一度はキャンセルされま したが、現在はRubySpecの99%超にパスしています。
 どうぞお試しください。何が問題があれば[課題追跡システム][4]にてお知らせください。
 
-### 
+### 所在
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2&gt;][5]
-  
+  SIZE
   : 8479087 bytes
   
-  
+  MD5
   : 242dcfaed8359a6918941b55d0806bf0
   
-  
+  SHA256
   : c2a680aa5472c8d04a71625afa2b0f75c030d3655a3063fe364cfda8b33c1480
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz&gt;][6]
-  
+  SIZE
   : 10779309 bytes
   
-  
+  MD5
   : fdedd5b42ae89a9a46797823ad2d9acf
   
-  
+  SHA256
   : 3e90036728342ce8463be00d42d4a36de70dabed96216c5f8a26ec9ba4b29537
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip&gt;][7]
-  
+  SIZE
   : 12158992 bytes
   
-  
+  MD5
   : 3da59c5d3567f6e1f1697abbef71f507
   
-  
+  SHA256
   : 4f593a3d0873cea8f371a7fc7484cad7bc03acac0ada1970cb9f83a89bc27997
 
 Posted by Yugui on 02 Jul 2010

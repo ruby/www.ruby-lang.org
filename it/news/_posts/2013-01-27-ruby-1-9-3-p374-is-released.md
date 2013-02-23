@@ -19,7 +19,7 @@ Nessuna nuova correzione legata alla sicurezza è stata inclusa in questo
 rilascio, tuttavia si raccomanda agli utenti della versione precedente
 (p362) di aggiornare.
 
-## 
+## Download
 
 Puoi scaricare questa versione da:
 
@@ -41,7 +41,7 @@ Puoi scaricare questa versione da:
   * SHA256:
     058af4cf409c93cce1de74a6b3355ddcf740f3efae1ab02d63471fcdbed19088
 
-## 
+## Commento sulla version
 
 Molti sviluppatori, testatori e utenti che hanno notificato dei bachi mi
 hanno aiutato molto a preparare questa versione.

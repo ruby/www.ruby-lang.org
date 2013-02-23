@@ -19,7 +19,7 @@ Pour plus de détails, veuillez consulter les [ticktes][1] et le
 De plus, veuillez noter que cette version n\'inclut pas de correctifs de
 sécurité.
 
-## 
+## Téléchargements
 
 Vous pouvez télécharger cette version depuis :
 
@@ -41,7 +41,7 @@ Vous pouvez télécharger cette version depuis :
   * SHA256:
     713ed8149f819ef3ae6b9ac0e27d0c9ee26d3d78e44d42d02ce426d6cb18068d
 
-## 
+## Commentaire
 
 Les nombreux commiteurs et utilisateurs ayant remonté des bugs ont été
 d\'une grande aide pour sortir cette version. Merci à tous.

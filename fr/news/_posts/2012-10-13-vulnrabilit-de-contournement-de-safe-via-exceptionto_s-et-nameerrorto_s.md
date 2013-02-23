@@ -5,7 +5,7 @@ author: "Bruno Michel"
 lang: fr
 ---
 
- Des vulnérabilités ont été découvertes sur les méthodes Exception#to\_s, NameError#to\_s et name\_err\_mesg\_to\_s(), cette dernière faisant partie de l\'API interne de l\'interpréteur Ruby. Une personne malveillante peut contourner la vérification de $SAFE en utilisant un de ces trous de sécurité. ## 
+ Des vulnérabilités ont été découvertes sur les méthodes Exception#to\_s, NameError#to\_s et name\_err\_mesg\_to\_s(), cette dernière faisant partie de l\'API interne de l\'interpréteur Ruby. Une personne malveillante peut contourner la vérification de $SAFE en utilisant un de ces trous de sécurité. ## Détails
 
 $SAFE est un mécanisme de Ruby n\'autorisant du code provenant d\'un
 utilisateur non-autorisé que dans un mode où la variable $SAFE est
@@ -26,22 +26,22 @@ Exception#to\_s et NameError#to\_s avaient été corrigées à sa suite,
 mais le problème est resté pour name\_err\_mesg\_to\_str() malgré le
 correctif de sécurité.
 
-## 
+## Versions de Ruby affectées
 
 * Toutes les versions de Ruby 1.8.7 antérieures au patchlevel 371
 * Toutes les versions de Ruby 1.9.3 antérieures au patchlevel 286
 * Toutes les branches de développement de Ruby 2.0 antérieures à la
   révision r37068
 
-## 
+## Solution
 
 Mettre à jour vers la dernière version disponible.
 
-## 
+## Crédit
 
 La vulnérabilité a été découverte par Tyler Hickes.
 
-## 
+## Mises à jour
 
 * Initialement publié le 2012-10-12 à 19:17:50 JST.
 

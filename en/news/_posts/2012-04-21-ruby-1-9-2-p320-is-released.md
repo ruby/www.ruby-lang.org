@@ -10,7 +10,7 @@ Ruby 1.9.2-p320 is released.
 This release include Security Fix for RubyGems: SSL server verification
 failure for remote repository. And many bugs are fixed in this release.
 
-## 
+## Security Fix for RubyGems: SSL server verification failure for remote repository
 
 This release includes two security fixes in RubyGems.
 
@@ -41,7 +41,7 @@ Credit to John Firebaugh for reporting this issue.
 \[1\]
 [&lt;URL:https://github.com/rubygems/rubygems/blob/1.8/History.txt&gt;][1]
 
-## 
+## Fixes
 
 * Security Fix for RubyGems: SSL server verification failure for remote
   repository
@@ -49,7 +49,7 @@ Credit to John Firebaugh for reporting this issue.
 
 See [tickets][2] and [ChangeLog][3] for details.
 
-## 
+## Downloads
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2&gt;][4]
   * SIZE: 8981382 bytes

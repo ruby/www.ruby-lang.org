@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.0.0-rc2 is released"
-author: "James Edward Gray II"
+author: "usa"
 lang: en
 ---
 
@@ -10,7 +10,7 @@ Ruby 2.0.0.
 
 Please give it a try, and report any issue if you notice.
 
-## 
+## Locations
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2&gt;][1]
   
@@ -30,7 +30,7 @@ Please give it a try, and report any issue if you notice.
       MD5:    1a2d33f1c50e32ca1532f8dea4790d53
       SHA256: c28e9baf3aa00b41b8823c16df436ae143e8a63e43e7a53302f23119e13d0ebf
 
-## 
+## New features in 2.0.0
 
 * Keyword arguments
 * Enumerable#lazy
@@ -65,9 +65,9 @@ Here are some introductory articles by third parties:
 (If you volunteer to provide additional articles, we may cite or refer
 to them in the next release announcement.)
 
-## 
+## Notes
 
-### 
+### Incompatibility
 
 There are three notable incompatibilities we know of:
 
@@ -89,13 +89,13 @@ FYI: We are creating upgrade notes, but some parts are already outdated.
 
 * [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
 
-### 
+### Status of Refinements
 
 2\.0.0 will include refinements as an \"experimental feature\" because we
 could not agree on its detailed spec. Note that the behavior may change
 in future versions of Ruby.
 
-### 
+### Special thanks
 
 I appreciate all who try preview and rc1 release! I\'m grateful for all
 the contributors\' hard work to fix many bugs. I\'m really thankful to

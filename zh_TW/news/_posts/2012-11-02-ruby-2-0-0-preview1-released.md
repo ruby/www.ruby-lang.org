@@ -31,7 +31,7 @@ check out the new features in Ruby 2.0 before final release!
   * SHA256:
     c327f3d91ed7033790244d5b263d7b346f3d8efe808079f5a598507fad90ee6e
 
-## 
+## The new features in 2.0.0
 
 * Refinements
 * Keyword arguments
@@ -48,7 +48,7 @@ Unfortunately, no introductory document is available yet. (If you
 volunteer to write and provide, we may cite or refer to it in the next
 release announcement.)
 
-## 
+## The targets
 
 All Ruby users, especially, the following people are strongly encouraged
 to provide feedback on anything you notice.
@@ -80,7 +80,7 @@ We have taken considerable care in source-level compatibility with 1.9.
 We believe all \"normal\" programs will work without modification. So,
 please give it a try, and report if your program does not work.
 
-## 
+## The (rough) schedule
 
 * in early December: 2.0.0-preview2
 * around Christmas time: code freeze
@@ -88,7 +88,7 @@ please give it a try, and report if your program does not work.
 * in early February: 2.0.0-rc2
 * 24 February: 2.0.0-p0
 
-## 
+## special thanks
 
 I appreciate all who helped me (a lazy release manager). In particular,
 ko1 coordinated a lot, naruse covered almost all release jobs in place

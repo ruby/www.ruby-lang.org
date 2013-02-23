@@ -5,11 +5,11 @@ author: "Fabio Cevasco"
 lang: it
 ---
 
- Multiple vulnerabilità sono state scoperte in Ruby. Si raccomanda di eseguire un aggiornamento alle ultime versioni. ## 
+ Multiple vulnerabilità sono state scoperte in Ruby. Si raccomanda di eseguire un aggiornamento alle ultime versioni. ## Dettagli
 
 Le seguenti vulnerabilità sono state scoperte.
 
-### 
+### Molteplici vulnerabilità nel safe level
 
 Molteplici vulnerabilità nel \_safe level\_ sono state scoperte:
 
@@ -74,7 +74,7 @@ Molteplici vulnerabilità nel \_safe level\_ sono state scoperte:
 
 Queste vulnerabilità sono state notificate da Keita Yamaguchi.
 
-### 
+### Vulnerabilità DoS in WEBrick
 
 WEBrick::HTTP::DefaultFileHandler è soggetto a richieste che occupano
 tempi esponenziali dovute a un\'espressione regolare retroattiva in
@@ -100,7 +100,7 @@ infinito.
 
 Questa vulnerabilità è stata notificata da Christian Neukirchen.
 
-### 
+### Mancanza di controlli di \_taintness\_ in dl
 
 dl non controlla la \_taintness\_, e questo potrebbe permettere la
 chiamata di funzioni pericolose.
@@ -114,7 +114,7 @@ chiamata di funzioni pericolose.
 
 Questa vulnerabilità è stata notificata da sheepman.
 
-### 
+### Vulnerabilità di spoofing del DNS spoofing in resolv.rb
 
 resolv.rb permette ad utenti remoti di mascherare le risposte del DNS.
 Questo rischio può essere ridotto randomizzando le ID di transazione e
@@ -125,24 +125,24 @@ questo.
 
 Questa vulnerabilità è stata notificata da Tanaka Akira.
 
-## 
+## Versioni di Ruby vulnerabili
 
-
+serie 1.8
 : * 1\.8.5 e precedenti
   * 1\.8.6-p286 e precedenti
   * 1\.8.7-p71 e precedenti
 
-
+serie 1.9
 : * r18423 e precedenti
 
-## 
+## Soluzione
 
-
+serie 1.8
 : Eseguire l\'agggiornamento a 1.8.6-p287 o 1.8.7-p72.
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz&gt;][2]
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz&gt;][3]
 
-
+serie 1.9
 
 : Eseguire un checkout dell\'ultima versione tramite Subversion.
   
@@ -151,13 +151,13 @@ Questa vulnerabilità è stata notificata da Tanaka Akira.
 Nota che un pacchetto che corregge questa vulnerabilità potrebbe essere
 già disponibile attraverso il tuo software di package management.
 
-## 
+## Crediti
 
 Un sincero ringraziamento a Keita Yamaguchi, Christian Neukirchen,
 sheepman, e Tanaka Akira per aver notificato questi problemi al Ruby
 Security Team.
 
-## 
+## Cambiamenti
 
 * 2008-08-08 12:21 +09:00 Corretto il numero di revisione di Ruby 1.9.
 * 2008-08-11 11:23 +09:00 Corretto il patchlevel di Ruby 1.8. vedi

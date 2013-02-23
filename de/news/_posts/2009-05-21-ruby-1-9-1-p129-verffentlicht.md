@@ -11,7 +11,7 @@ Es handelt sich hierbei um ein Patchlevel Release der Version 1.9.1. Da
 diese Version zwei sicherheitskritische Fehler beseitigt, empfehlen wir
 allen 1.9.1 Benutzern auf diese Version umzusteigen.
 
-#### 
+#### Download
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.tar.bz2&gt;][1]
   
@@ -31,7 +31,7 @@ allen 1.9.1 Benutzern auf diese Version umzusteigen.
       MD5:    156305e9633758eb60b419fabc33b6e4
       SHA256: 6cbf0eda4ba0afedd8f0bd320e6a14f826149ef517d8bb967149af0558b0743b
 
-#### 
+#### Sicherheitskritische Fehler
 
 * DL::Function#call konnte \"tainted\" Argumente an C Funktionen
   weitergeben, obwohl das $SAFE Level größer 0 war

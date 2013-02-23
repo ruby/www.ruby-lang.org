@@ -18,7 +18,7 @@ See [tickets][1] and [ChangeLog][2] for details.
 Any new security fixes are not included in this release, but I recommend
 users of previous release (p362) to update.
 
-## 
+## Downloads
 
 You can download this release from:
 
@@ -40,7 +40,7 @@ You can download this release from:
   * SHA256:
     058af4cf409c93cce1de74a6b3355ddcf740f3efae1ab02d63471fcdbed19088
 
-## 
+## Release Comment
 
 Many committers, testers and users who gave bug reports greatly helped
 me to make this release. Thank you everyone.

@@ -14,7 +14,7 @@ This release includes some security fixes, and many other bug fixes.
 
 See [tickets][2] and [ChangeLog][3] for details.
 
-## 
+## Download
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.bz2&gt;][4]
   * SIZE: 9975835 bytes

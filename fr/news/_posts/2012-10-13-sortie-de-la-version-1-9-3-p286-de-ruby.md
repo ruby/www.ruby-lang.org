@@ -17,7 +17,7 @@ corrections de bugs :
 Veuillez consulter [les tickets][3] et [ChangeLog][4] pour plus de
 détails.
 
-## 
+## Téléchargement
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2&gt;][5]
   * TAILLE: 9961862 bytes

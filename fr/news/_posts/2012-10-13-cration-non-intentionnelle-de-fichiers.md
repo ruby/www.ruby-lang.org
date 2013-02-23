@@ -5,7 +5,7 @@ author: "Bruno Michel"
 lang: fr
 ---
 
- Une vulnérabilité a été découverte, qui permet la création non-intentionnelle de fichiers en insérant de manière bien choisie des caractères NUL dans le chemin des fichiers. ## 
+ Une vulnérabilité a été découverte, qui permet la création non-intentionnelle de fichiers en insérant de manière bien choisie des caractères NUL dans le chemin des fichiers. ## Détails
 
 Ruby permet de manipuler des données binaires arbitraires en tant que
 chaînes de caractères, y compris des caractères NUL. Par contre, les
@@ -25,21 +25,21 @@ de fichiers, comme dans cet exemple :
     p File.exists?("foo")      #=> true
     p File.exists?("foo\0bar") #=> raises ArgumentError
 
-## 
+## Versions de Ruby affectées
 
 * Toutes les versions de Ruby 1.9.3 antérieurs au patchlevel 286
 * Toutes les branches de développement de Ruby 2.0.0 antérieures à la
   révision r37163
 
-## 
+## Solution
 
 Mettre à jour vers la version la plus récente.
 
-## 
+## Crédit
 
 Ce problème a été remonté par Peter Bex.
 
-## 
+## Mises à jour
 
 * Initialement publiées le 2012-10-12 à 19:19:55 JST.
 

@@ -10,7 +10,7 @@ candidate avant la version 2.0.0.
 
 N\'hésitez pas à la tester et à rapporter tout problème rencontré.
 
-## 
+## Téléchargement
 
 Vous pouvez obtenir cette version depuis :
 
@@ -32,7 +32,7 @@ Vous pouvez obtenir cette version depuis :
       MD5:    1a2d33f1c50e32ca1532f8dea4790d53
       SHA256: c28e9baf3aa00b41b8823c16df436ae143e8a63e43e7a53302f23119e13d0ebf
 
-## 
+## Nouvelles fonctionnalités de Ruby 2.0.0
 
 * arguments « mots-clé »
 * Enumerable#lazy
@@ -70,9 +70,9 @@ Voici quelques articles sur ces différents sujets récemment publiés :
 S\'il vous prend l\'envie d\'écrire un article, prévenez-nous pour
 qu\'il soit cité dans la prochaine actualité.
 
-## 
+## Notes
 
-### 
+### Incompatibilités
 
 Il en existe à notre connaissance trois principales :
 
@@ -101,7 +101,7 @@ partie d\'entre elles soient déjà dépassées.
 
 * [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
 
-### 
+### À propose des Refinements
 
 Ruby 2.0.0 apportera les Refinements en tant que « fonctionnalité
 expérimentale », faute d\'un accord final sur leur spécification.
@@ -109,7 +109,7 @@ expérimentale », faute d\'un accord final sur leur spécification.
 Notez donc que leur comportement pourrait changer dans les prochaines
 versions.
 
-### 
+### Remerciements spéciaux
 
 Merci à tous ceux et celles qui ont testé les preview et release
 candidates ! Je suis très honoré du travail acharné de tous ces

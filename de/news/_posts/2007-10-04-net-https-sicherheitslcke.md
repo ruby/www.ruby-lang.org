@@ -10,7 +10,7 @@ Es wurde eine Sicherheitslücke in der net/https Bibliothek entdeckt.
 Detailierte Informationen finden Sie in [der ursprünglichen
 Veröffentlichung][1].
 
-#### 
+#### Auswirkung
 
 Die Sicherheitslücke liegt in der connect Methode innerhalb von http.rb,
 welche fehlerhafter Weise den post\_connection\_check, nach einem
@@ -20,19 +20,19 @@ Angreifer kann dadurch einen Zielserver bei einer SSL Verbindung
 imitieren. Die Vertrauenswürdigkeit einer so aufgebauten SSL Verbindung
 ist damit nicht mehr vorhanden.
 
-#### 
+#### Gefährdete Versionen
 
-
+1.8 Serie
 : * 1\.8.4 und alle vorherigen
   * 1\.8.5-p113 und alle vorherigen
   * 1\.8.6-p110 und alle vorherigen
 
-
+Entwicklerversion (1.9 Serien)
 : Alle Versionen vor dem 2006-09-23
 
-#### 
+#### Lösung
 
-
+1.8 Serie
 
 : Bitte aktualisieren Sie auf die Version 1.8.6-p111 oder 1.8.5-p114.
   
@@ -57,7 +57,7 @@ ist damit nicht mehr vorhanden.
   Beachten Sie, dass eine fehlerbereinigte Version eventuell bereits
   über Ihren Paketmanager zur Verfügung stehen könnte.
 
-
+Entwicklerversion (1.9 Serie)
 : Bitte aktualsieren Sie Ihr Ruby auf eine Version nach 2006-09-23. Der
   Standardwert von Net::HTTP#enable\_post\_connection\_check wurde auf
   true in Ruby 1.9 gesetzt.

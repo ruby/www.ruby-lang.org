@@ -9,7 +9,7 @@ Ruby 1.9.3-p194 がリリースされました。
 
 このリリースはRubyGemsに対するセキュリティフィックスを含んでいます。これは、リモートレポジトリへのSSLサーバ検証についてのものです。それ以外にも、多くの修正が含まれています。
 
-## 
+## RubyGemsに関するセキュリティフィックス: リモートレポジトリへのSSLサーバ検証の修正
 
 このリリースはRubyGemsに関する2つのセキュリティフィックスを含んでいます。
 
@@ -33,14 +33,14 @@ RubyGemsがSSL証明書をどのように使うかは、~/.gemrcファイルや/
 \[1\]
 [&lt;URL:https://github.com/rubygems/rubygems/blob/1.8/History.txt&gt;][1]
 
-## 
+## 修正点
 
 * RubyGemsに関するセキュリティフィックス: リモートレポジトリへのSSLサーバ検証の誤りを修正
 * その他のバグ修正
 
 詳しくは[チケット][2]もしくは[ChageLog][3]をご覧ください。
 
-## 
+## ダウンロード
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&gt;][4]
   * SIZE: 9841223 bytes

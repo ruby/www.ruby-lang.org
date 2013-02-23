@@ -13,24 +13,24 @@ Esta vulnerabilidad está abierta al público como [JVN#84798830][1].
 
 Tener en cuenta que el [parche previo][2] no corrige este problema.
 
-#### 
+#### Impacto
 
 Una solicitud HTTP específica para cualquier aplicación web que use
 cgi.rb causa el consumo de CPU en la máquina en la que se ejecuta la
 aplicación web. Muchas de estas solicitudes tienen como resultado la
 denegación de servicio.
 
-#### 
+#### Versiones vulnerables
 
-
+series 1.8
 : 1\.8.5 y todas las versiones anteriores
 
-
+Versión de desarrollo (series 1.9)
 : Todas las versiones anteriores al 2006-12-04
 
-#### 
+#### Solución
 
-
+series 1.8
 
 : Por favor actualízate a la versión 1.8.5-p2.
   
@@ -40,7 +40,7 @@ denegación de servicio.
   Recuerda que puede ya estar disponible un paquete que corrige esta
   debilidad a través de tu software de administración de paquetes.
 
-
+Versión de desarrollo (series 1.9)
 : Por favor actualiza tu Ruby a una versión posterior al 2006-12-04.
 
 

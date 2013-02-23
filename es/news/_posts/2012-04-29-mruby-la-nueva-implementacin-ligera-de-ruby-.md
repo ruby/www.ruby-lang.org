@@ -19,7 +19,7 @@ Creación para la Investigación y el Desarrollo del Ministerio de
 Economía, Comercio e Industria de Japón. Actualmente se encuentra en una
 fase de trabajo previa a la liberación definitiva.
 
-## 
+## Características principales.
 
 * Compatibilidad completa con Ruby MRI.
 * Sintaxis sencilla.
