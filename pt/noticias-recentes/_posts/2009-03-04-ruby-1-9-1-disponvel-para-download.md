@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: news_post
 title: "Ruby 1.9.1 disponível para download"
 lang: pt
 ---

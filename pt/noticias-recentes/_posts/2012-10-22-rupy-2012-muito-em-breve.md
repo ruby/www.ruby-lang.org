@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: news_post
 title: "RuPy 2012 muito em breve"
 lang: pt
 ---
