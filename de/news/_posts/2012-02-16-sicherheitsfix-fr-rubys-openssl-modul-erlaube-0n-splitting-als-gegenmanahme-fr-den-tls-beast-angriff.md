@@ -30,11 +30,13 @@ Optionen aus `SSL_OP_ALL` deaktivieren können. Nichtsdestotrotz ist die
 Standardoption noch immer `SSL_OP_ALL`, man kann jedoch einen SSL-Socket
 mit “0/n splitting” zur BEAST-Prävention wie folgt erstellen:
 
-    ctx             = SSLContext.new
-    ctx.options     = OP_ALL & ~OP_DONT_INSERT_EMPTY_FRAGMENTS
-    ctx.verify_mode = OpenSSL::SSL::VERIFY_PEER
-    
-    SSLSocket.new(socket, ctx)
+{% highlight ruby %}
+ctx             = SSLContext.new
+ctx.options     = OP_ALL & ~OP_DONT_INSERT_EMPTY_FRAGMENTS
+ctx.verify_mode = OpenSSL::SSL::VERIFY_PEER
+
+SSLSocket.new(socket, ctx)
+{% endhighlight %}
 
 Dank geht an Apple für die Meldung des Problems.
 

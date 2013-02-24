@@ -23,10 +23,12 @@ Dateinamen bisher allerdings nicht auf solche Zeichen, sondern gaben ihn
 direkt an die unterliegenden Lowlevel-Routinen weiter, was zur
 unbeabsichtigten Erstellung von Dateien etwa wie folgt führen kann:
 
-    p File.exists?("foo")      #=> false
-    open("foo\0bar", "w") { |f| f.puts "hai" }
-    p File.exists?("foo")      #=> true
-    p File.exists?("foo\0bar") #=> wirft ArgumentError
+{% highlight ruby %}
+p File.exists?("foo")      #=> false
+open("foo\0bar", "w") { |f| f.puts "hai" }
+p File.exists?("foo")      #=> true
+p File.exists?("foo\0bar") #=> wirft ArgumentError
+{% endhighlight %}
 
 ## Betroffene Versionen
 

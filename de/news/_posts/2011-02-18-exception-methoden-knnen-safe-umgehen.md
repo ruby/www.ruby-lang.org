@@ -21,17 +21,19 @@ Sicherheitsstufen umgehen und einen *untainted* String destruktiv
 bearbeiten und in einen *tainted* umwandeln. Damit kann ein Angreifer
 beliebige *untainted* Strings wie folgt verändern:
 
-    $secret_path = "foo"
-    
-    proc do
-        $SAFE = 4
-        Exception.new($secret_path).to_s
-        $secret_path.replace "/etc/passwd"
-    end.call
-    
-    open($secret_path) do
-      ...
-    end
+{% highlight ruby %}
+$secret_path = "foo"
+
+proc do
+    $SAFE = 4
+    Exception.new($secret_path).to_s
+    $secret_path.replace "/etc/passwd"
+end.call
+
+open($secret_path) do
+  ...
+end
+{% endhighlight %}
 
 ### Betroffene Versionen
 

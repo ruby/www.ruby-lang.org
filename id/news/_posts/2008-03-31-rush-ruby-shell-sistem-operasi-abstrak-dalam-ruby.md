@@ -9,16 +9,20 @@ lang: id
 dan remote login (ssh), yang ditulis dengan Ruby dan menerima syntax
 Ruby untuk menjalankan sistem operasi. Seperti operasi berikut:
 
-    processes.each { |p| p.kill if p.command == “mongrel_rails“ }
+{% highlight ruby %}
+processes.each { |p| p.kill if p.command == “mongrel_rails“ }
+{% endhighlight %}
 
 Atau
 
-    local = Rush::Box.new(’localhost‘)
-    remote = Rush::Box.new(’my.remote.server.com‘)
-    local_dir = local[’/Users/adam/myproj/‘]
-    remote_dir = remote[’/home/myproj/app/‘]
-    local_dir.copy_to remote_dir
-    remote_dir[’**/.svn/‘].each { |d| d.destroy }
+{% highlight ruby %}
+local = Rush::Box.new(’localhost‘)
+remote = Rush::Box.new(’my.remote.server.com‘)
+local_dir = local[’/Users/adam/myproj/‘]
+remote_dir = remote[’/home/myproj/app/‘]
+local_dir.copy_to remote_dir
+remote_dir[’**/.svn/‘].each { |d| d.destroy }
+{% endhighlight %}
 
 Anda dapat membuat sesuatu dengan menggunakan usual UNIX commands, Rush
 abstracts sebuah kumpulan dari sitem tasks dan memudahkan anda untuk

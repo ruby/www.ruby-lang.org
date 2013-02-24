@@ -18,18 +18,21 @@ Um ataque deste tipo pode ser repetido pedindo uma análise de um
 documento XML contendo entidades aninhadas recursivas pela biblioteca
 REXML. Veja-se o exemplo:
 
-    
-      
-      
-      
-      
-      
-      
-      
-    ]>
-    
-    
-    &a;
+{% highlight ruby %}
+
+  
+  
+  
+  
+  
+  
+  
+]>
+
+
+&a;
+
+{% endhighlight %}
 
 ## Versões vulneráveis
 
@@ -51,12 +54,18 @@ Faça download do seguinte *patch* para corrigir o problema.
 Depois adicione a linha na aplicação para carregar
 rexml-expansion-fix.rb antes de utilizar REXML.
 
-    require "rexml-expansion-fix"
-     ...
-     doc = REXML::Document.new(str)
-     ...
+{% highlight ruby %}
+require "rexml-expansion-fix"
+ ...
+ doc = REXML::Document.new(str)
+ ...
+{% endhighlight %}
 
- para aplicações em Rails, copie o ficheiro rexml-expansion-fix.rb para a directoria RAILS\_ROOT/lib/, por exemplo, e adicione a linha seguinte no ficheiro config/environment.rb.     require "rexml-expansion-fix"
+ para aplicações em Rails, copie o ficheiro rexml-expansion-fix.rb para a directoria RAILS\_ROOT/lib/, por exemplo, e adicione a linha seguinte no ficheiro config/environment.rb.
+
+{% highlight ruby %}
+require "rexml-expansion-fix"
+{% endhighlight %}
 
 Se a sua aplicação utiliza Rails 2.1 ou posterior, basta copiar o
 ficheiro rexml-expansion-fix.rb para a directoria
@@ -66,7 +75,9 @@ inicializado.
 Por omissão, a expansão de entidades XML é de 10000. Poderá alterar este
 valor mudando REXML::Document.entity\_expansion\_limit.
 
-    REXML::Document.entity_expansion_limit = 1000
+{% highlight ruby %}
+REXML::Document.entity_expansion_limit = 1000
+{% endhighlight %}
 
 Esta correcção estará disponível também como uma gema e utilizada por
 versões futuras de Rails, mas aconselham-se medidas de correcção

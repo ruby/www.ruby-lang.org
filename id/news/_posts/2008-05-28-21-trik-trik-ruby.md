@@ -23,12 +23,14 @@ Cara yang biasa digunakan untuk mengekstrak data dari teks pakai regexp
 adalah dengan menggunakan metode match. Nah sebetulnya ada shortcut yang
 bisa dipakai agar proses hidup lebih sejahtera.
 
-    email = "Fred Bloggs "
-    email.match(//)[1]     # => “fred@bloggs.com”
-    email[//, 1]           # => “fred@bloggs.com”
-    email.match(/(x)/)[1]         # => NoMethodError [:(]
-    email[/(x)/, 1]               # => nil
-    email[/([bcd]).*?([fgh])/, 2] # => “g”
+{% highlight ruby %}
+email = "Fred Bloggs "
+email.match(//)[1]     # => “fred@bloggs.com”
+email[//, 1]           # => “fred@bloggs.com”
+email.match(/(x)/)[1]         # => NoMethodError [:(]
+email[/(x)/, 1]               # => nil
+email[/([bcd]).*?([fgh])/, 2] # => “g”
+{% endhighlight %}
 
 **2 – Shortcut buat Array#join**
 
@@ -37,8 +39,10 @@ dengan angka, untuk memproses kali dari besarnya array banyak elemen,
 tetapi jarang diketahui kalau sebenarnya kita bisa menggunakan Array#\*
 buat string ketimbang memakai Array#join!
 
-    %w{ariekeren lagi ngetes} * ", "          # => "ariekeren, lagi, ngetes"
-    h = { :name => "ArieKeren“, :age => 27 }h.map { |i| i * "=" } * "\n"              # => “age=27\nname=ArieKeren”
+{% highlight ruby %}
+%w{ariekeren lagi ngetes} * ", "          # => "ariekeren, lagi, ngetes"
+h = { :name => "ArieKeren“, :age => 27 }h.map { |i| i * "=" } * "\n"              # => “age=27\nname=ArieKeren”
+{% endhighlight %}
 
 **3 – Cara Cepat Memformat Angka Desimal**
 
@@ -46,21 +50,27 @@ Memformat angka float ke bentuk yang biasa digunakan untuk harga bisa
 dicapai dengan sprintf atau bisa juga dengan cara alternatif, yaitu
 dengan formatting interpolation:
 
-    duit = 9.5
-    "%.2f" % duit # => “9.50″
+{% highlight ruby %}
+duit = 9.5
+"%.2f" % duit # => “9.50″
+{% endhighlight %}
 
 **4 – Cara Cepat Mengapit Teks**
 
 Teknik formatting interpolation dari nomor ketiga keluar lagi, kali ini
 adalah bagaimana menyisipkan suatu string ke string yang lain:
 
-    "[%s]" % "stringnya pindah doang" # => “[stringnya pindah doang]”
+{% highlight ruby %}
+"[%s]" % "stringnya pindah doang" # => “[stringnya pindah doang]”
+{% endhighlight %}
 
 Anda juga bisa menggunakan elemen-elemen dari array untuk mengganti
 penempatan string tersebut:
 
-    x = %w{p ketemulagi p}
-    "%s%s>" % x # => “ketemulagi"
+{% highlight ruby %}
+x = %w{p ketemulagi p}
+"%s%s>" % x # => “ketemulagi"
+{% endhighlight %}
 
 **5 – Menghapus direktori beserta seluruh isinya**
 
@@ -68,8 +78,10 @@ Jangan sortir ulang dengan menggunakan shell. Ruby punya library file
 utilities yang nyaman dipakai untuk operasi file seperti menghapus
 direktori berikut seluruh isinya:
 
-    require 'fileutils'
-    FileUtils.rm_r 'somedir'
+{% highlight ruby %}
+require 'fileutils'
+FileUtils.rm_r 'somedir'
+{% endhighlight %}
 
 Hati-hati kalau Anda menggunakan cara ini!
 
@@ -82,32 +94,38 @@ saja biar jelas:
 
 Contah dengan Array:
 
-    a = %w{a b}
-    b = %w{c d}
-    [ a + b ]   # => [[”a”, “b”, “c”, “d”]]
-    [ *a + b ]  # => [”a”, “b”, “c”, “d”]
+{% highlight ruby %}
+a = %w{a b}
+b = %w{c d}
+[ a + b ]   # => [[”a”, “b”, “c”, “d”]]
+[ *a + b ]  # => [”a”, “b”, “c”, “d”]
+{% endhighlight %}
 
 Contoh dengan Hash:
 
-    a = { :name => "ArieKeren", :age => 27 } 
-    # => {:name=>"ArieKeren", :age=>27}
-    
-    [a]
-    # => [{:name=>"ArieKeren", :age=>27}]
-    
-    [*a]
-    # => [[:name, "ArieKeren"], [:age, 27]]
+{% highlight ruby %}
+a = { :name => "ArieKeren", :age => 27 } 
+# => {:name=>"ArieKeren", :age=>27}
+
+[a]
+# => [{:name=>"ArieKeren", :age=>27}]
+
+[*a]
+# => [[:name, "ArieKeren"], [:age, 27]]
+{% endhighlight %}
 
 Contoh dengan tangkapan parameter paralel:
 
-    a = %w{a b c d e f g h}
-    # => ["a", "b", "c", "d", "e", "f", "g", "h"]
-    
-    b = [0, 5, 6]
-    # => [0, 5, 6]
-    
-    a.values_at(*b)
-    # => ["a", "f", "g"]
+{% highlight ruby %}
+a = %w{a b c d e f g h}
+# => ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+b = [0, 5, 6]
+# => [0, 5, 6]
+
+a.values_at(*b)
+# => ["a", "f", "g"]
+{% endhighlight %}
 
 **7 – Persingkat definisi variabel lokal**
 
@@ -116,7 +134,9 @@ Daripada mendefinisikan variabel lokal dengan beragam konten awal
 bisa langsung mendefinisikan variabel lokal “sekaligus” ketika operasi
 sedang berlangsung:
 
-    (z ||= []) 
+{% highlight ruby %}
+(z ||= [])
+{% endhighlight %}
 
 **8 – Penggunaan yang-bukan-string maupun yang-bukan-simbol sebagai hash
 key**
@@ -126,12 +146,14 @@ yang-bukan-simbol sebagai hash key. Padahal itu semua bisa dilakukan,
 dan kadang-kadang berguna (dan, tidak, contoh berikut bukan contoh yang
 dahsyat):
 
-    does = is = { true => 'Yes', false => 'No' }
-    does[10 == 50] 
-    # => “No”
-    
-    is[10 > 5]
-    # => “Yes”
+{% highlight ruby %}
+does = is = { true => 'Yes', false => 'No' }
+does[10 == 50] 
+# => “No”
+
+is[10 > 5]
+# => “Yes”
+{% endhighlight %}
 
 **9 – Gunakan ‘and’ dan ‘or’ untuk mengelompokkan operasi satu baris**
 
@@ -140,9 +162,11 @@ percaya diri untuk memperpadat, mempersingkat, dan menghilangkan terlalu
 banyaknya baris-baris kode yang sebetulnya berisikan statement-statement
 yang pendek-pendek:
 
-    queue = []
-    %w{hello x world}.each do |word|
-      queue 
+{% highlight ruby %}
+queue = []
+%w{hello x world}.each do |word|
+  queue
+{% endhighlight %}
 
 **10 – Menentukan eksekusi kode**
 
@@ -152,9 +176,11 @@ sebagai library maupun langsung dari command line, Anda bisa menggunakan
 trik ini untuk menentukan apakah Anda sedang menjalankan script langsung
 atau tidak:
 
-    if __FILE__ == $0
-      # Do something.. run tests, call a method, etc. We're direct.
-    end
+{% highlight ruby %}
+if __FILE__ == $0
+  # Do something.. run tests, call a method, etc. We're direct.
+end
+{% endhighlight %}
 
 **11 – Mempercepat assignment sekaligus (mass assignment)**
 
@@ -162,30 +188,38 @@ Mass assignment merupakan trik yang Ruby Developer pelajari dari
 awal-awal ya, tetapi adalah sesuatu yang amazing dan menyenangkan betapa
 jarang trik ini digunakan:
 
-    a, b, c, d = 1, 2, 3, 4
+{% highlight ruby %}
+a, b, c, d = 1, 2, 3, 4
+{% endhighlight %}
 
 Trik ini bisa dipakai di banyak kasus seperti menangkap parameter
 argumen suatu metode yang berupa array dengan tanda \* (bintang) :
 
-    def my_method(*args)
-      a, b, c, d = args
-    end
+{% highlight ruby %}
+def my_method(*args)
+  a, b, c, d = args
+end
+{% endhighlight %}
 
 **12 – Gunakan range daripada perbandingan rumit untuk angka**
 
 Tidak ada lagi kode omong kosong seperti if x &gt; 1000 &amp;&amp; x
 &lt; 2000.
 
-    year = 1972
-    puts  case year
-            when 1970..1979: "Tujuhpuluhan"
-            when 1980..1989: "Delapanpuluhan"
-            when 1990..1999: "Sembilanpuluhan"
-          end
+{% highlight ruby %}
+year = 1972
+puts  case year
+        when 1970..1979: "Tujuhpuluhan"
+        when 1980..1989: "Delapanpuluhan"
+        when 1990..1999: "Sembilanpuluhan"
+      end
+{% endhighlight %}
 
 **13 – Gunakan Enumeration untuk menghindari kode-kode berulang**
 
-    %w{rubygems daemons eventmachine}.each { |x| require x }
+{% highlight ruby %}
+%w{rubygems daemons eventmachine}.each { |x| require x }
+{% endhighlight %}
 
 **14 – Operator Ternary**
 
@@ -194,96 +228,116 @@ sesuatu yang sebenarnya jarang kelihatan digunakan oleh Ruby Developer
 berpengalaman adalah operator ternary. Operator ternary bukan hammer,
 tetapi terkadang bisa membuat banyak hal menjadi singkat dan padat.
 
-    puts x == 10 ? "x adalah sepuluh" : "x bukan sepuluh"
-    
-    # Atau.. bisa juga digunakan untuk assignment yang bersandar pada hasil operator ternary
-    LOG.sev_threshold = ENVIRONMENT == :development ? Logger::DEBUG : Logger::INFO
+{% highlight ruby %}
+puts x == 10 ? "x adalah sepuluh" : "x bukan sepuluh"
+
+# Atau.. bisa juga digunakan untuk assignment yang bersandar pada hasil operator ternary
+LOG.sev_threshold = ENVIRONMENT == :development ? Logger::DEBUG : Logger::INFO
+{% endhighlight %}
 
 **15 – Operator Ternary Bersarang (Nested Ternary Operators)**
 
 Trik ini bisa jadi membuat kode menjadi rumit dibaca. Tetapi sebenarnya
 hanya urusan return obyek saja sama seperti banyak obyek lain di Ruby.
 
-    qty = 1
-    qty == 0 ? 'none' : qty == 1 ? 'one' : 'many'
-    # Hanya sebagai ilustrasi saja supaya tidak bingung:
-    (qty == 0 ? 'none' : (qty == 1 ? 'one' : 'many'))
+{% highlight ruby %}
+qty = 1
+qty == 0 ? 'none' : qty == 1 ? 'one' : 'many'
+# Hanya sebagai ilustrasi saja supaya tidak bingung:
+(qty == 0 ? 'none' : (qty == 1 ? 'one' : 'many'))
+{% endhighlight %}
 
 **16 – Maksimalkan penggunaan fitur bawaan logis di Ruby**
 
 Ada sering banyak metode yang menggunakan pattern kurang lebih sebagai
 berikut:
 
-    def is_odd(x)
-      # Terlalu panjang..
-      if x % 2 == 0
-        return false
-      else
-        return true
-      end
-    end
+{% highlight ruby %}
+def is_odd(x)
+  # Terlalu panjang..
+  if x % 2 == 0
+    return false
+  else
+    return true
+  end
+end
+{% endhighlight %}
 
 Mungkin kita bisa saja menggunakan operator ternary untuk improve?
 
-    def is_odd(x)
-      # Jangan sekali-sekali menaruh false dan true pada operator ternary!!
-      x % 2 == 0 ? false : true
-    end
+{% highlight ruby %}
+def is_odd(x)
+  # Jangan sekali-sekali menaruh false dan true pada operator ternary!!
+  x % 2 == 0 ? false : true
+end
+{% endhighlight %}
 
 Ya, kode barusan tadi memang lebih pendek, dan saya sering melihat
 pattern seperti itu, padahal sebenarnya Anda seharusnya bisa selangkah
 lebih maju dan menyandarkan diri pada hasil respon dari operator
 comparison Ruby yang berupa true maupun false langsung!
 
-    def is_odd(x)
-      # Gunakan hasil logis yang sudah disediakan Ruby secara otomstis untuk Anda..
-      x % 2 != 0
-    end
+{% highlight ruby %}
+def is_odd(x)
+  # Gunakan hasil logis yang sudah disediakan Ruby secara otomstis untuk Anda..
+  x % 2 != 0
+end
+{% endhighlight %}
 
 **17 – Perhatikan seluruh exception backtrace**
 
-    def do_division_by_zero; 5 / 0; end
-    begin
-      do_division_by_zero
-    rescue => exception
-      puts exception.backtrace
-    end
+{% highlight ruby %}
+def do_division_by_zero; 5 / 0; end
+begin
+  do_division_by_zero
+rescue => exception
+  puts exception.backtrace
+end
+{% endhighlight %}
 
 **18 – Manfaatkan obyek tunggal DAN array agar dapat dienumerasikan**
 
-    [*items].each do |item|
-      # …
-    end
+{% highlight ruby %}
+[*items].each do |item|
+  # …
+end
+{% endhighlight %}
 
 **19 – Rescue yang berada dalam blok tidak perlu diapit ‘begin’**
 
-    def x
-      begin
-        # …
-      rescue
-        # …
-      end
-    end
-    def x
-      # …
-    rescue
-      # …
-    end
+{% highlight ruby %}
+def x
+  begin
+    # …
+  rescue
+    # …
+  end
+end
+def x
+  # …
+rescue
+  # …
+end
+{% endhighlight %}
 
 **20 – Komentar format blok**
 
 Di Ruby kita bisa dengan bebas sesuai selera untuk berkomentas di kode
 dengan pagar ataupun menggunakan blok begin dan end:
 
-    puts "x"
-    =begin  ini adalah blok komentar  Anda dapat menaruh apa saja yang Anda suka disini!  puts “y”=end
-    puts "z"
+{% highlight ruby %}
+puts "x"
+=begin  ini adalah blok komentar  Anda dapat menaruh apa saja yang Anda suka disini!  puts “y”=end
+puts "z"
+{% endhighlight %}
 
 **21 – Rescue satu baris**
 
-    h = { :age => 10 }
-    h[:name].downcase                         # ERROR
-    h[:name].downcase rescue "No name"        # => “No name”
+{% highlight ruby %}
+h = { :age => 10 }
+h[:name].downcase                         # ERROR
+h[:name].downcase rescue "No name"        # => “No name”
+{% endhighlight %}
 
 Jika Anda ingin mem-posting daftar trik-trik Ruby di blog Anda, kirimkan
 trackback kesini atau berkomentarlah lewat media milis ID Ruby maupun
