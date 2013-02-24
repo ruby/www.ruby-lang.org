@@ -9,23 +9,23 @@ Ruby-Community zu halten. Ruby hat vier englischsprachige
 Mailing-Listen:
 
 Ruby-Talk
-{: #ruby-talk}: Dies ist die höchstfrequentierte Liste. Sie behandelt alle allgemeinen
+: Dies ist die höchstfrequentierte Liste. Sie behandelt alle allgemeinen
   Themen über Ruby. Ruby-Talk wird auf der
   [comp.lang.ruby](news:comp.lang.ruby) Newsgroup und im
   [Ruby-Forum.org][1] gespiegelt. ([Wöchentliche Zusammenfassung][2],
   [FAQ][3], [Archiv][4])
 
 Ruby-Core
-{: #ruby-core}: Diese Liste behandelt die Core-Entwicklung von Ruby. Sie wird
+: Diese Liste behandelt die Core-Entwicklung von Ruby. Sie wird
   hauptsächlich zum Besprechen von Implementationsfragen und
   Patch-Reviews verwendet. ([Archiv][5])
 
 Ruby-Doc
-{: #ruby-doc}: Diese Liste dient der Diskussion über Ruby Dokumentation und die dafür
+: Diese Liste dient der Diskussion über Ruby Dokumentation und die dafür
   verwendeten Programme. ([Archiv auf Gmane][6])
 
 Ruby-CVS
-{: #ruby-cvs}: Sämtliche Commits in das Ruby Repository werden an diese Liste
+: Sämtliche Commits in das Ruby Repository werden an diese Liste
   gesendet.
 
 <form action="/de/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
