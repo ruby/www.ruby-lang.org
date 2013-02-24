@@ -58,7 +58,7 @@ Wiki][16] 里有用户维护的内容。如果您有问题，可以参加 Ruby
 
 
 
-[1]: http://tryruby.hobix.com/ 
+[1]: http://tryruby.org/ 
 [2]: http://whytheluckystiff.net 
 [3]: http://pine.fm/LearnToProgram/ 
 [4]: http://rubycn.ce-lab.net/ 

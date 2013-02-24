@@ -97,7 +97,7 @@ memulai.
 
 
 
-[1]: http://tryruby.hobix.com/ 
+[1]: http://tryruby.org/ 
 [2]: http://whytheluckystiff.net 
 [3]: http://pine.fm/LearnToProgram/ 
 [4]: http://rubylearning.com/ 
