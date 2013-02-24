@@ -135,7 +135,7 @@ bisa langsung mendefinisikan variabel lokal “sekaligus” ketika operasi
 sedang berlangsung:
 
 {% highlight ruby %}
-(z ||= [])
+(z ||= []) << 'coba'
 {% endhighlight %}
 
 **8 – Penggunaan yang-bukan-string maupun yang-bukan-simbol sebagai hash
@@ -165,7 +165,13 @@ yang pendek-pendek:
 {% highlight ruby %}
 queue = []
 %w{hello x world}.each do |word|
-  queue
+  queue << word and puts "Added to queue" unless word.length < 2
+end
+puts queue.inspect
+# Output:
+#   Added to queue
+#   Added to queue
+#   ["hello", "world"]
 {% endhighlight %}
 
 **10 – Menentukan eksekusi kode**
