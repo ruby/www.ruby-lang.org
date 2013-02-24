@@ -10,7 +10,8 @@ fuori, molte delle quali disponibili per la tua convenienza tramite file
 compresse (.zip o .tar.gz). Diamo un’occhiata a come fare per trovare
 queste librerie e installarle per il tuo uso e consumo.
 
-###  <a name="finding-libraries" />Trovare le librerie
+### Trovare le librerie
+{: #finding-libraries}
 
 [**RubyForge**][1] è il posto più comune dove trovare delle librerie per
 Ruby. Un buon punto di partenza per iniziare la ricerca è la [software
@@ -25,7 +26,8 @@ categoria [Database][5] ha il maggior numero di elementi, uno in più di
 [Net.][6]. [HTML][7] e [XML][8] sono tra le altre categorie più
 popolari. Ci sono anche 4 elementi nella categoria [Fisica][9] entries.
 
-###  <a name="using-rubygems" />Usare RubyGems
+### Usare RubyGems
+{: #using-rubygems}
 
 Sebbene il programma di installazione di Ruby per Windows includa
 RubyGems, molti sistemi operativi no. Dai un’occhiata a [Installare
@@ -76,7 +78,8 @@ il flag `--remote`.
 ufficiale**][10], che contiene anche esempi su come usare le gemme nei
 tuoi programmi in Ruby.
 
-###  <a name="installing-rubygems" />Installare RubyGems
+### Installare RubyGems
+{: #installing-rubygems}
 
 Per installare RubyGems, scarica RubyGems 0.9.0 da [questa pagina][11].
 Estrai l’archivio ed esegui `setup.rb`. Su alcuni sistemi operativi,

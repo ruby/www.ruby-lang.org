@@ -17,7 +17,8 @@ Topik seputar pengembangan Ruby yang dibahas disini adalah:
 * [Menyempurnakan Ruby, dengan patch](#patching-ruby)
 * dan, [Peraturan untuk Developer Inti](#coding-standards)
 
-###  <a name="following-ruby" />Menggunakan Subversion untuk Memonitor Pengembangan Ruby
+### Menggunakan Subversion untuk Memonitor Pengembangan Ruby
+{: #following-ruby}
 
 Instalasi [Subversion][1] terlebih dahulu.
 
@@ -49,7 +50,8 @@ Subversion FAQ][3] dan [the Subversion book][4]. Sebagai alternatif,
 Anda bisa juga dapatkan buku [Pragmatic Version Control with
 Subversion][5] sebagai buku yang berguna untuk pengenalan svn.
 
-###  <a name="patching-ruby" />Menyempurnakan Ruby, dengan Patch
+### Menyempurnakan Ruby, dengan Patch
+{: #patching-ruby}
 
 Rubyforge mempunyai [bug tracker][6] dengan submit patch dan bug report
 (laporan adanya bug) ke Matz dan rekan-rekan lainnya (Developer Ruby
@@ -100,7 +102,8 @@ Jepang selain dengan milis yang Bahasa Inggris. Jadi sabarlah jika tidak
 ada yang membalas posting anda; jangan menyerah dan coba lagi beberapa
 hari kemudian.
 
-###  <a name="coding-standards" />Pedoman untuk Pengembang Inti
+### Pedoman untuk Pengembang Inti
+{: #coding-standards}
 
 Secara umum developer Ruby harus sudah terbiasa dengan *source code* dan
 *style* pengembangan yang digunakan oleh tim Ruby Core. Supaya jelas,

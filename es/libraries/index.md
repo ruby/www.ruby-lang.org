@@ -10,7 +10,8 @@ liberadas como directorios comprimidos (.zip o .tar.gz) de código
 fuente. Veamos cómo encontrar e instalar bibliotecas para que puedas
 utilizarlas.
 
-### <a name="finding-libraries">Encontrando bibliotecas</a>
+### Encontrando bibliotecas
+{: #finding-libraries}
 
 [**RubyGems**][1] es la herramienta preferida por la comunidad para
 distribuir código. Por lo general, las gemas tienen links hacia la
@@ -36,7 +37,8 @@ de Datos][7] (Database) tiene la mayor cantidad de items, liderando
 sobre [Red][8] (Net) por 1. [HTML][9] y [XML][10] también son populares.
 Incluso hay 4 items sobre [Física][11].
 
-###  <a name="using-rubygems" />Usando RubyGems
+### Usando RubyGems
+{: #using-rubygems}
 
 Mientras que el instalador de Windows incluye RubyGems, muchos sistemas
 operativos no lo hacen. Aprende cómo instalar RubyGems aquí debajo si
@@ -83,7 +85,8 @@ opción—remote.
 documentación oficial][12] que incluye ejemplos de cómo usar gemas en
 tus programas Ruby.
 
-###  <a name="installing-rubygems" />Cómo instalar RubyGems
+### Cómo instalar RubyGems
+{: #installing-rubygems}
 
 Para instalar RubyGems, sigue las instrucciones que se detallan en
 [https://rubygems.org/pages/download][13]

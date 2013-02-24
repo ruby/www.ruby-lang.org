@@ -12,7 +12,8 @@ dalam format `.zip` atau `.tar.gz` berupa *source code*. Di sini akan
 dijelaskan bagaimana mencari dan menginstall library Ruby ke dalam
 sistem Anda.
 
-###  <a name="finding-libraries" />Mencari Library
+### Mencari Library
+{: #finding-libraries}
 
 [**RubyForge**][1] adalah situs populer untuk library Ruby. Bagian yang
 menarik untuk dikunjungi adalah [peta software][2], yang menampilkan
@@ -27,7 +28,8 @@ Kategori-kategori yang cukup populer adalah [Database][5], [Net][6],
 [HTML][7], dan [XML][8]. Bahkan ada juga software untuk kategori
 [Physics][9].
 
-###  <a name="using-rubygems" />Menggunakan RubyGems
+### Menggunakan RubyGems
+{: #using-rubygems}
 
 *One-click installer* Ruby untuk Windows telah menyediakan RubyGems,
 namun ada beberapa sistem operasi lain yang tidak langsung
@@ -97,7 +99,8 @@ Informasi lebih lanjut mengenai RubyGems bisa didapatkan di [**manual
 resmi RubyGems**][10], termasuk contoh penggunaan gem dalam *script*
 Ruby Anda sendiri.
 
-###  <a name="installing-rubygems" />Instalasi RubyGems
+### Instalasi RubyGems
+{: #installing-rubygems}
 
 Untuk menginstall RubyGems, download RubyGems terbaru dari [halaman
 download][11]. Extract file archive tersebut dan jalankan `setup.rb`.

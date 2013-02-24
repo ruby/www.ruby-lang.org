@@ -17,7 +17,8 @@ I temi principali riguardanti lo sviluppo di Ruby sono:
 * [Migliorare Ruby, patch dopo patch](#patching-ruby)
 * [Regole per i Core Developer](#coding-standards)
 
-###  <a name="following-ruby" />Usare Subversion per seguire lo sviluppo di Ruby
+### Usare Subversion per seguire lo sviluppo di Ruby
+{: #following-ruby}
 
 Per fare checkout del più recente codice Ruby, devi semplicemente fare
 il login usando l’account anonimo di Subversion. Dalla linea di comando:
@@ -45,7 +46,8 @@ Per informazioni su Subversion, fai riferimento a [Subversion FAQ][2] e
 a [the Subversion book][3]. Come alternativa, un eccellente testo
 introduttivo è il [Pragmatic Version Control with Subversion][4].
 
-###  <a name="patching-ruby" />Migliorare Ruby, patch dopo patch
+### Migliorare Ruby, patch dopo patch
+{: #patching-ruby}
 
 Rubyforge mantiene un [bug tracker][5] per notificare patch e
 segnalazioni di errori a Matz e al resto del gruppo. Questi rapporti
@@ -96,7 +98,8 @@ differenza di fuso orario. Essi hanno inoltre un insieme di liste di
 sviluppo in giapponese insieme a quelle in Inglese. Sii paziente; se la
 tua richiesta non è risolta prova di nuovo qualche giorno più tardi.
 
-###  <a name="coding-standards" />Regole per i Core Developer
+### Regole per i Core Developer
+{: #coding-standards}
 
 In generale, gli sviluppatori di Ruby devono avere familiarità con il
 codice source e lo stile di sviluppo usato dal team. Per chiarezza, le

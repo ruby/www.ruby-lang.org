@@ -17,7 +17,8 @@ Die hier behandelten Themen zur Entwicklung von Ruby sind Folgende:
 * [Ruby verbessern, Patch für Patch](#patching-ruby)
 * und, [Regeln für Core-Entwickler](#coding-standards)
 
-###  <a name="following-ruby" />Subversion zur Entwicklung von Ruby nutzen
+### Subversion zur Entwicklung von Ruby nutzen
+{: #following-ruby}
 
 Mit dem folgenden Kommandozeilenbefehl kannst du den aktuellsten
 Quelltext von Ruby über Subversion herunterladen (auschecken):
@@ -50,13 +51,15 @@ Für weiterführende Informationen bezüglich Subversion bietet sich das
 englischsprachige [Subversion FAQ][2] und das ebenfalls
 englischsprachige [Subversion Buch][3] an.
 
-###  <a name="git-ruby" />Mit Git arbeiten
+### Mit Git arbeiten
+{: #git-ruby}
 
 Diejenigen die [Git][4] bevorzugen können einen [Mirror auf GitHub][5]
 nutzen. Dieser kann von [offiziellen Committern][6] und [allen
 Anderen][7] benutzt werden.
 
-###  <a name="patching-ruby" />Ruby verbessern, Patch für Patch
+### Ruby verbessern, Patch für Patch
+{: #patching-ruby}
 
 Rubyforge bietet einen [Bug-Tracker][8], für das Melden von Fehlern und
 Übersenden von Patches an Matz und die Anderen. Die Fehlerreports gehen
@@ -99,7 +102,8 @@ sollte nur die Ruhe bewahren, wenn eine Antwort nicht sofort
 zurückkommt. Notfalls kann die gleiche Anfrage ein paar Tage später
 nochmal gestellt werden.
 
-###  <a name="coding-standards" />Regeln für Core-Entwickler
+### Regeln für Core-Entwickler
+{: #coding-standards}
 
 Allgemein sollten Entwickler von Ruby mit den Sourcen und dem
 Entwicklungstil des Teams vertraut sein. Zum besseren Verständnis,

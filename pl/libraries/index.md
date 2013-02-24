@@ -10,7 +10,8 @@ Inne biblioteki są rozprowadzane jako pliki archiwum (.zip lub .tar.gz)
 katalogu z kodem źródłowym. Spójrzmy jak wyszukiwać interesujące nas
 biblioteki i jak należy je instalować.
 
-###  <a name="finding-libraries" />Znajdowanie bibliotek
+### Znajdowanie bibliotek
+{: #finding-libraries}
 
 [**RubyForge**][1] jest jednym z popularnych repozytoriów
 oprogramowania, w którym znajdują się biblioteki dla tego języka. Można
@@ -26,7 +27,8 @@ W chwili obecnej kategoria [bazy danych][5] ma najwięcej projektów, o
 jeden mniej ma [Net.][6] [HTML][7], [XML][8] są również popularne. Nawet
 dla [Fizyki][9] są cztery projekty.
 
-###  <a name="using-rubygems" />Używanie RubyGems
+### Używanie RubyGems
+{: #using-rubygems}
 
 Graficzny instalator Rubiego pod Windows zawiera pakiet RubyGems, lecz
 wiele innych dystrybucji go nie zawiera. W paragrafie [Instalacja
@@ -76,7 +78,8 @@ wydaj polecenie:
 [**oficjalną instrukcję**][10] (w języku angielskim), która zawiera
 wiele przykładów na użycie gemów we własnych skryptach.
 
-###  <a name="installing-rubygems" />Instalacja RubyGems
+### Instalacja RubyGems
+{: #installing-rubygems}
 
 Aby zainstalować RubyGems, ściągnij RubyGems 0.9.0 ze strony [do
 pobrania][11]. Rozpakuj archiwum, a następnie uruchom `setup.rb`. Na

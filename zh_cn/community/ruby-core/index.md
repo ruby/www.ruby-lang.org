@@ -15,7 +15,8 @@ The topics related to Ruby development covered here are:
 * [Improving Ruby, Patch by Patch](#patching-ruby)
 * and, [Rules for Core Developers](#coding-standards)
 
-###  <a name="following-ruby" />Using Subversion to Track Ruby Development
+### Using Subversion to Track Ruby Development
+{: #following-ruby}
 
 Checking out the latest Ruby source code is a matter of logging into the
 Subversion anonymous account. From your commandline:
@@ -43,7 +44,8 @@ For information about Subversion, please see [the Subversion FAQ][2] and
 [the Subversion book][3]. Alternatively, you may find [Pragmatic Version
 Control with Subversion][4] to be a useful introductory book.
 
-###  <a name="patching-ruby" />Improving Ruby, Patch by Patch
+### Improving Ruby, Patch by Patch
+{: #patching-ruby}
 
 The core team maintains [a bug tracker][5] for submitting patches and
 bug reports to Matz and the gang. These reports also get submitted to
@@ -90,7 +92,8 @@ They also have an entire body of Japanese development lists happening
 alongside the English counterparts. Be patient, if your claim isn’t
 resolved, be persistent—give it another shot a few days later.
 
-###  <a name="coding-standards" />Rules for Core Developers
+### Rules for Core Developers
+{: #coding-standards}
 
 Generally, the developers of Ruby should be familiar with the source
 code and the style of development used by the team. To be clear, the

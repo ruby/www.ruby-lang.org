@@ -10,7 +10,8 @@ Bibliotheken werden als gewöhnliches Archiv angeboten (.zip oder
 .tar.gz). Nun musst du nur noch wissen, wie du diese Bibliotheken finden
 und installieren kannst.
 
-###  <a name="finding-libraries" />Bibliotheken finden
+### Bibliotheken finden
+{: #finding-libraries}
 
 [**RubyForge**][1] ist eine beliebte Anlaufstelle für Ruby-Bibliotheken.
 Ein guter Einstiegspunkt ist die [software map][2], in der die
@@ -25,7 +26,8 @@ Momentan enthält die Kategorie [Database][5] die meisten Einträge, dicht
 gefolgt von [Net.][6] [HTML][7] und [XML][8] sind ebenfalls sehr
 beliebt. Es gibt sogar 4 Einträge unter [Physics][9]!
 
-###  <a name="using-rubygems" />RubyGems
+### RubyGems
+{: #using-rubygems}
 
 Der Windows-Installer enthält RubyGems bereits. Für die meisten anderen
 Betriebssysteme muss es nachinstalliert werden. Eine Anleitung dazu
@@ -74,7 +76,8 @@ Parameter weg:
 [**offiziellen Handbuch**][10], welches auch Beispiele enthält, wie du
 Gems in deinen Ruby-Skripten verwenden kannst.
 
-###  <a name="installing-rubygems" />RubyGems installieren
+### RubyGems installieren
+{: #installing-rubygems}
 
 Um RubyGems zu installieren musst du zunächst die “aktuelle Version von
 RubyGems herunterladen”http://rubyforge.org/frs/?group\_id=126. Entpacke

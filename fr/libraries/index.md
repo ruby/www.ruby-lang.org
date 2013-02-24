@@ -9,7 +9,8 @@ distribuées [sous la forme d’une *gem*][1], sinon en tant qu’archive
 contenant le code source. Cette page décrit comment trouver et installer
 ces bibliothèques.
 
-###  <a name="finding-libraries" />Trouver des bibliothèques
+### Trouver des bibliothèques
+{: #finding-libraries}
 
 [**RubyForge**][2] est un des sites principaux—sinon le site principal.
 Vous pouvez commencer par jeter un œil à la [carte des logiciels][3],
@@ -22,7 +23,8 @@ perso et des listes de diffusion.
 programmes Ruby, organisés selon leur fonction opérationnelle. Très
 riche.
 
-###  <a name="using-rubygems" />Utiliser RubyGems
+### Utiliser RubyGems
+{: #using-rubygems}
 
 RubyGems est décrit sur son [site officiel][1] comme le « système de
 paquetage principal pour Ruby. Il offre un format standard de
@@ -89,7 +91,8 @@ Pour plus d’informations sur l’usage de RubyGems, reportez-vous à la
 [**documentation officielle**][7], qui donne notamment des exemples sur
 l’utilisation de RubyGems dans vos programmes.
 
-###  <a name="installing-rubygems" />Installer RubyGems
+### Installer RubyGems
+{: #installing-rubygems}
 
 Pour pouvoir utiliser RubyGems, récupérez la dernière version du
 programme (1.3.7) sur la page [Téléchargement][8] du projet.

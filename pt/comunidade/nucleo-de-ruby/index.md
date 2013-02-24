@@ -22,7 +22,8 @@ Os tópicos relacionados com o desenvolvimento do Ruby cobertos aqui são:
 * e, [Regras de conduta para Programadores do Núcleo](#regras-de-conduta
   "Regras de conduta para Programadores do Núcleo")
 
-###  <a name="seguindo-o-ruby" />Utilizando CVS para Seguir o Desenvolvimento do Ruby
+### Utilizando CVS para Seguir o Desenvolvimento do Ruby
+{: #seguindo-o-ruby}
 
 Para fazer o *check out* da última versão do código fonte basta fazer
 login na conta *anonymous* do repositório CVS. Da sua linha de comandos:
@@ -54,7 +55,8 @@ Para informações acerca do CVS, veja, por favor o [Manual de CVS][2] e o
 [CVS wiki][3]. Em Alternativa, poderá considerar útil o livro
 introdutório [Pragmatic Version Control with CVS][4] .
 
-###  <a name="seguindo-a-yarv" />Seguindo o Ruby 2.0, a Criação da YARV
+### Seguindo o Ruby 2.0, a Criação da YARV
+{: #seguindo-a-yarv}
 
 Um dos ingredientes essenciais do desenvolvimento do Ruby 2.0 é o
 [Projecto YARV][5]. Um trabalho de Sasada Koichi, que adiciona um
@@ -70,7 +72,8 @@ pessoais:
 principal, Koichi Sasada, também oferece listas de correio, *bug
 tracking* e declarações no [sítio da YARV][5].
 
-###  <a name="melhorando-o-ruby" />Melhorando o Ruby, *Patch* a *Patch* 
+### Melhorando o Ruby, *Patch* a *Patch* 
+{: #melhorando-o-ruby}
 
 Rubyforge mantem um [*bug tracker*][6] para submissão de *patches* e
 *bug reports* para o Matz e a malta. Estes relatórios são também
@@ -111,7 +114,8 @@ correio sobre o desenvolvimento para além daquelas existentes em Inglês.
 Seja paciente e se o seu pedido não fôr atendido, seja persistente—tente
 outra vez uns dias mais tarde.
 
-###  <a name="regras-de-conduta" />Regras de conduta para Programadores do Núcleo
+### Regras de conduta para Programadores do Núcleo
+{: #regras-de-conduta}
 
 Em geral, os programadores de Ruby deverão estar familiarizados com o
 código fonte e o estilo de programação utilizado pela equipa. Para ficar

@@ -18,7 +18,8 @@ Cette page couvre les sujets suivants :
 * [Règles et usages à l’attention des développeurs
   principaux](#coding-standards)
 
-###  <a name="following-ruby" />Utiliser Subversion pour suivre le développement de Ruby
+### Utiliser Subversion pour suivre le développement de Ruby
+{: #following-ruby}
 
 Pour récupérer la dernière version du code source Ruby, il faut réaliser
 un *check out* en se connectant au compte anonyme du dépôt Subversion.
@@ -55,14 +56,16 @@ Pour des informations sur le logiciel Subversion en lui-même, voyez la
 [*Subversion FAQ*][2] et le [*Subversion book*][3]. Un excellent livre
 introductif est [Pragmatic Version Control with Subversion][4].
 
-###  <a name="git-ruby" />Utiliser Git
+### Utiliser Git
+{: #git-ruby}
 
 Pour ceux d’entre-vous qui préfèrent [Git][5], il existe [un miroir de
 développement][6] sur GitHub. Des instructions précises et différenciées
 sont disponibles pour les développeurs [possédant le droit de commit][7]
 et [les autres][8].
 
-###  <a name="patching-ruby" />Améliorer Ruby, patch par patch
+### Améliorer Ruby, patch par patch
+{: #patching-ruby}
 
 Rubyforge maintient un [système de suivi des bugs][9] permettant de
 transmettre patchs et rapports de bugs à Matz et l’équipe de
@@ -103,7 +106,8 @@ listes de diffusion entièrement en japonais, similaires à leurs
 équivalent en anglais. Soyez patients, et n’hésitez pas à intervenir de
 nouveau après quelques jours si votre question n’a pas reçu de réponse.
 
-###  <a name="coding-standards" />Règles et usages pour les développeurs principaux
+### Règles et usages pour les développeurs principaux
+{: #coding-standards}
 
  Les développeurs de Ruby devraient évidemment être à l’aise avec le code source et le style utilisé par l’équipe principale. Les principales règles à vérifier avant tout envoi vers le dépôt Subversion sont : * tout *check in* doit être décrit dans le `ChangeLog`, en respectant
   les [conventions GNU][13]. Plusieurs développeurs principaux utilisent

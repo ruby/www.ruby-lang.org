@@ -6,7 +6,8 @@ lang: de
 
 Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 
-###  <a name="released" />Bereits Erschienen
+### Bereits Erschienen
+{: #released}
 
 <table cellpadding="0" cellspacing="0" border="0">
 <tr class="book">
@@ -74,7 +75,8 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 </tr>
 </table>
 
-###  <a name="not-released" />Noch nicht erschienen
+### Noch nicht erschienen
+{: #not-released}
 
 <table cellpadding="0" cellspacing="0" border="0"><tr class="book">
 <td><a href="http://www.springer.com/dal/home/new+&amp;+forthcoming+titles+(default)?SGWID=1-40356-22-14202425-0"><img src="http://ec1.images-amazon.com/images/I/21my8TYo8SL._AA115_.jpg" alt="" /></a></td>
