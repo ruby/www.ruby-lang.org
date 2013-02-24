@@ -91,7 +91,7 @@ diff*][11]. Pour plus d’informations sur les patchs, leur devenir, voyez
 
 Les discussions portant sur le développement de Ruby sont toutes
 regroupées sur la [liste de diffusion
-Ruby-Core](/en/community/mailing-lists/#ruby-core). Donc, si vous êtes
+Ruby-Core](/en/community/mailing-lists/). Donc, si vous êtes
 curieux du devenir de votre patch, ou si vous voulez lancer une
 discussion sur le futur de Ruby, n’hésitez pas à venir y faire un tour.
 Prenez garde à ne pas lancer des hors-sujets, ils ne sont pas tolérés

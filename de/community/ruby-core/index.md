@@ -85,7 +85,7 @@ werden. Wer mehr über das Zusammenführen (Merge) der Patche wissen will,
 sollte sich [die diffutils reference][11] ansehen.
 
 Diskussionen zum Thema Entwicklungszusammenführung finden sich unter
-[Ruby-Core mailing list](/de/community/mailing-lists/#ruby-core). Wer
+[Ruby-Core mailing list](/de/community/mailing-lists/). Wer
 herausfinden will, ob sein Patch sinn macht oder nur eine Diskussion
 über die Zukunft von Ruby anfangen will, sollte nicht zögern an Bord zu
 kommen. Es wird an dieser Stelle davor gewarnt, Off-Topic Diskussionen

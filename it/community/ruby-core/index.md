@@ -52,7 +52,7 @@ introduttivo è il [Pragmatic Version Control with Subversion][4].
 Rubyforge mantiene un [bug tracker][5] per notificare patch e
 segnalazioni di errori a Matz e al resto del gruppo. Questi rapporti
 vengono anche notificati alla Ruby-Core mailing
-list”:/en/community/mailing-lists/#ruby-core per discussione, e quindi
+list”:/en/community/mailing-lists/ per discussione, e quindi
 puoi essere sicuro che la tua richiesta non sarà ignorata. Puoi anche
 inviare le tue patch alla mailing list. In ogni caso, non esitare a
 prendere parte alla discussione che ne seguirà.
@@ -73,7 +73,7 @@ In sintesi, i passi per costruire un patch sono:
      $ svn diff > ruby-changes.patch
     `
 4.  Invia per email la tua patch alla [Ruby-Core mailing
-    list](/en/community/mailing-lists/#ruby-core)” con una entry sul
+    list](/en/community/mailing-lists/)” con una entry sul
     CHANGELOG che descrive la patch.
 5.  Se non ci sono obiezioni alla patch, i committer daranno
     l’approvazione per applicarla.
@@ -83,7 +83,7 @@ notificate come un [unified diff][6]. Per ulteriori informazioni sulla
 procedura di merge dei patch , vedi [the diffutils reference][7].
 
 La discussione sullo sviluppo di Ruby converge sulla [Ruby-Core mailing
-list](/en/community/mailing-lists/#ruby-core). Quindi, se hai curiosità
+list](/en/community/mailing-lists/). Quindi, se hai curiosità
 di sapere se il tuo patch è utile oppure se vuoi innescare una
 discussione sul futuro di Ruby, non esitare ad entrare nella mischia.
 Tuttavia, tieni presente che: discussioni fuori soggetto non sono
