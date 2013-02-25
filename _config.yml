@@ -4,8 +4,11 @@ markdown: kramdown
 permalink: pretty
 pygments: true
 
+kramdown:
+  auto_ids: false
+
 downloads:
-  stable: 
+  stable:
     version: 1.9.3-p385
     url: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.gz
     md5: 3e0d7f8512400c1a6732327728a56f1d
@@ -1084,7 +1087,7 @@ locales:
           text: 成功案例
           url: /zh_cn/documentation/success-stories/
       participate:
-        text: <strong>加入</strong> 友善及日益壮大的社区 
+        text: <strong>加入</strong> 友善及日益壮大的社区
         mailing_lists:
           text: 邮件列表
           url: /zh_cn/community/mailing-lists/
