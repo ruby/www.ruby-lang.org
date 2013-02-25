@@ -48,6 +48,16 @@ def highlight(code, language_class)
   end
 end
 
+def code_to_text(code_node)
+  code_node.children.map { |node|
+    if node.name == 'br'
+      $/
+    else
+      node.inner_text
+    end
+  }.join
+end
+
 def html_to_markdown(content_div)
   # remove all comments
   content_div.traverse do |node|
@@ -74,25 +84,13 @@ def html_to_markdown(content_div)
 
     # map all code elements to their inner_text
     pre.search('code').each do |code|
-      code.replace(highlight(code.children.map { |node|
-        if node.name == 'br'
-          $/
-        else
-          node.inner_text
-        end
-      }.join, lang))
+      code.replace(highlight(code_to_text(code), lang))
     end
   end
 
   # map all code elements to their inner_text
   content_div.search('pre > code').each do |code|
-    code.replace(code.children.map { |node|
-      if node.name == 'br'
-        $/
-      else
-        node.inner_text
-      end
-    }.join)
+    code.replace(code_to_text(code))
   end
 
   # remove the 'class' attribute from all pre tags
