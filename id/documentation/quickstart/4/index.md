@@ -64,9 +64,9 @@ Kebanyakan bahasa-bahasa pemrograman lain menangani list dengan
 menggunakan perulangan `for`, kalau di C seperti ini:
 
 {% highlight ruby %}
-for (i=0; i<number_of_elements; i++)
+for (i=0; i<total_elemen; i++)
 {
-  do_something_with(element[i]);
+  lakukan_sesuatu_dengan(elemen[i]);
 }
 {% endhighlight %}
 

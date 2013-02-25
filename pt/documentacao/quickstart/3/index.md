@@ -8,7 +8,7 @@ Agora vamos criar e usar um objecto Anfitrião:
 
 {% highlight ruby %}
 irb(main):035:0> h = Anfitriao.new("João")
-=> #<Greeter:0x16cac @name="Pat">
+=> #<Anfitriao:0x16cac @nome="João">
 irb(main):036:0> h.dizer_ola
 Ola João
 => nil
@@ -102,7 +102,7 @@ propriedade `@nome`.
 
 {% highlight ruby %}
 irb(main):047:0> h = Anfitriao.new("Pedro")
-=> #<Greeter:0x3c9b0 @name="Andy">
+=> #<Anfitriao:0x3c9b0 @nome="Pedro">
 irb(main):048:0> h.respond_to?("nome")
 => true
 irb(main):049:0> h.respond_to?("nome=")
@@ -113,7 +113,7 @@ Ola Pedro
 irb(main):051:0> h.nome="Matilde"
 => "Matilde"
 irb(main):052:0> h
-=> #<Greeter:0x3c9b0 @name="Betty">
+=> #<Anfitrion:0x3c9b0 @nome="Matilde">
 irb(main):053:0> h.nome
 => "Matilde"
 irb(main):054:0> h.dizer_ola

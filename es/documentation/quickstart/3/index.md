@@ -8,7 +8,7 @@ Ahora vamos a crear y usar un objeto anfitrión:
 
 {% highlight ruby %}
 irb(main):035:0> a = Anfitrion.new("Juan")
-=> #<Greeter:0x16cac @name="Pat">
+=> #<Anfitrion:0x16cac @nombre="Juan">
 irb(main):036:0> a.decir_hola
 Hola Juan
 => nil
@@ -101,7 +101,7 @@ crear. Así que vamos a crear un nuevo objeto y juguemos con su propiedad
 
 {% highlight ruby %}
 irb(main):047:0> a = Anfitrion.new("Pedro")
-=> #<Greeter:0x3c9b0 @name="Andy">
+=> #<Anfitrion:0x3c9b0 @nombre="Pedro">
 irb(main):048:0> a.respond_to?("nombre")
 => true
 irb(main):049:0> a.respond_to?("nombre=")
@@ -112,7 +112,7 @@ Hola Pedro
 irb(main):051:0> a.nombre="Matilde"
 => "Matilde"
 irb(main):052:0> a
-=> #<Greeter:0x3c9b0 @name="Betty">
+=> #<Anfitrion:0x3c9b0 @nombre="Matilde">
 irb(main):053:0> a.nombre
 => "Matilde"
 irb(main):054:0> a.decir_hola

@@ -8,7 +8,7 @@ Erzeugen wir nun ein Greeter-Objekt und benutzen es:
 
 {% highlight ruby %}
 irb(main):035:0> g = Greeter.new("Patrick")
-=> #<Greeter:0x16cac @name="Pat">
+=> #<Greeter:0x16cac @name="Patrick">
 irb(main):036:0> g.sag_hallo
 Hallo, Patrick!
 => nil
@@ -102,7 +102,7 @@ herum.
 
 {% highlight ruby %}
 irb(main):047:0> g = Greeter.new("Andreas")
-=> #<Greeter:0x3c9b0 @name="Andy">
+=> #<Greeter:0x3c9b0 @name="Andreas">
 irb(main):048:0> g.respond_to?("name")
 => true
 irb(main):049:0> g.respond_to?("name=")
@@ -113,7 +113,7 @@ Hallo, Andreas!
 irb(main):051:0> g.name="Bettina"
 => "Bettina"
 irb(main):052:0> g
-=> #<Greeter:0x3c9b0 @name="Betty">
+=> #<Greeter:0x3c9b0 @name="Bettina">
 irb(main):053:0> g.name
 => "Bettina"
 irb(main):054:0> g.sag_hallo

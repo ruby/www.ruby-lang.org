@@ -58,9 +58,9 @@ Molti altri linguaggi di programmazione esaminano una lista utilizzando
 il ciclo `for`, in C si ottiene qualcosa di simile:
 
 {% highlight ruby %}
-for (i=0; i<number_of_elements; i++)
+for (i=0; i<numero_di_elementi; i++)
 {
-  do_something_with(element[i]);
+  fai_qualcosa_con(elemento[i]);
 }
 {% endhighlight %}
 

@@ -63,9 +63,9 @@ Muchos otros lenguajes de programación manejan la iteración de una lista
 usando la clásica sintaxis `for`, que en C se ve así:
 
 {% highlight ruby %}
-for (i=0; i<number_of_elements; i++)
+for (i=0; i<cantidad_de_elementos; i++)
 {
-  do_something_with(element[i]);
+  hacer_algo_con(elementos[i]);
 }
 {% endhighlight %}
 

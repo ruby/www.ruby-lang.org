@@ -8,7 +8,7 @@ Bene, creiamo il nostro oggetto PersonaCordiale e usiamolo:
 
 {% highlight ruby %}
 irb(main):035:0> p = PersonaCordiale.new("Mario")
-=> #<Greeter:0x16cac @name="Pat">
+=> #<PersonaCordiale:0x16cac @nome="Mario">
 irb(main):036:0> p.saluta
 Ciao Mario!
 => nil
@@ -98,7 +98,7 @@ oggetti esistenti della classe. Quindi creiamo un nuovo oggetto e
 
 {% highlight ruby %}
 irb(main):047:0> p = PersonaCordiale.new("Luigi")
-=> #<Greeter:0x3c9b0 @name="Andy">
+=> #<PersonaCordiale:0x3c9b0 @nome="Luigi">
 irb(main):048:0> p.respond_to?("nome")
 => true
 irb(main):049:0> p.respond_to?("nome=")
@@ -109,7 +109,7 @@ Ciao Luigi!
 irb(main):051:0> p.nome="Francesca"
 => "Francesca"
 irb(main):052:0> p
-=> #<Greeter:0x3c9b0 @name="Betty">
+=> #<PersonaCordiale:0x3c9b0 @name="Francesca">
 irb(main):053:0> p.nome
 => "Francesca"
 irb(main):054:0> p.saluta

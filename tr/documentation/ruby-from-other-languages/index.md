@@ -59,7 +59,12 @@ olsa bir değer geri döner. Şu mümkündür:
 {% highlight ruby %}
 x = 10
 y = 11
-z = if x  true
+z = if x < y
+  true
+else
+  false
+end
+z # => true
 {% endhighlight %}
 
 ### Semboller Sıradan Stringler Değildir

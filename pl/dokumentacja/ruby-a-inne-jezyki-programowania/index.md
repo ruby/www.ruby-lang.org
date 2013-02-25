@@ -54,7 +54,12 @@ wartość, nawet jeśli ta wartość jest **nil**.
 {% highlight ruby %}
 x = 10
 y = 11
-z = if x  true
+z = if x < y
+  true
+else
+  false
+end
+z # => true
 {% endhighlight %}
 
 ### Symbole nie są “lekkimi stringami”

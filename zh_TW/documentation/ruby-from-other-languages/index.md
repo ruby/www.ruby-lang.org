@@ -50,7 +50,12 @@ Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
 {% highlight ruby %}
 x = 10
 y = 11
-z = if x  true
+z = if x < y
+  true
+else
+  false
+end
+z # => true
 {% endhighlight %}
 
 ### Symbols 不是輕量化的字串

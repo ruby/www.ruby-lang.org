@@ -63,9 +63,9 @@ A generalidade das outras linguagens tratar de passar por uma lista
 usando o ciclo `for`, que em C se assemelha a algo como:
 
 {% highlight ruby %}
-for (i=0; i<number_of_elements; i++)
+for (i=0; i<numero_de_elementos; i++)
 {
-  do_something_with(element[i]);
+  fazer_algo_com(elemento[i]);
 }
 {% endhighlight %}
 

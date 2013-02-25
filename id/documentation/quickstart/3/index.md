@@ -8,7 +8,7 @@ Mari kita bikin obyek TukangSapa dan kita pakai:
 
 {% highlight ruby %}
 irb(main):013:0> t = TukangSapa.new("Arie")
-=> #<0x6b274>
+=> #<TukangSapa:0x6b274 @name="Arie">
 irb(main):014:0> t.say_hai
 Hai Arie!
 => nil
@@ -109,7 +109,7 @@ property `@name`.
 
 {% highlight ruby %}
 irb(main):027:0> t = TukangSapa.new('Hendy')
-=> #<0x5b040>
+=> #<TukangSapa:0x5b040 @name="Hendy">
 irb(main):028:0> t.respond_to?('name')
 => true
 irb(main):029:0> t.respond_to?('name=')
@@ -120,7 +120,7 @@ Hai Hendy!
 irb(main):031:0> t.name='Yohanes'
 => "Yohanes"
 irb(main):032:0> t
-=> #<0x5b040>
+=> #<TukangSapa:0x5b040 @name="Yohanes">
 irb(main):033:0> t.name
 => "Yohanes"
 irb(main):034:0> t.say_hai

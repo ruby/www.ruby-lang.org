@@ -64,9 +64,9 @@ Die meisten anderen Programmiersprachen behandeln einen Listendurchlauf
 mit einer `for`-Schleife, was in C in etwa so aussieht:
 
 {% highlight ruby %}
-for (i=0; i<number_of_elements; i++)
+for (i=0; i<anzahl_der_elemente; i++)
 {
-  do_something_with(element[i]);
+  mach_etwas_mit(element[i]);
 }
 {% endhighlight %}
 
