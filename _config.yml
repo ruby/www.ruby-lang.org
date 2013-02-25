@@ -9,9 +9,9 @@ kramdown:
 
 downloads:
   stable:
-    version: 1.9.3-p385
-    url: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.gz
-    md5: 3e0d7f8512400c1a6732327728a56f1d
+    version: 1.9.3-p392
+    url: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
+    md5: f689a7b61379f83cbbed3c7077d83859
   stable_snapshot:
     url: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz
   nightly_snapshot:
