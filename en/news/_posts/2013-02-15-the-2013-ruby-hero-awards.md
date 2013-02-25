@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "The 2013 Ruby Hero Awards"
-author: "usa"
+author: "Yusuke Endoh"
 lang: en
 ---
 

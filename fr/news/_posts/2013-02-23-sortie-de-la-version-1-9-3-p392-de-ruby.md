@@ -1,26 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p392 is released"
-author: "Yusuke Endoh"
-lang: en
+title: "Sortie de la version 1.9.3-p392 de Ruby"
+author: "Jean-Denis Vauguet"
+lang: fr
 ---
 
-Now Ruby 1.9.3-p392 is released. I apologize for updating too
-frequently.
+La version 1.9.3-p392 de Ruby est sortie. Nous nous excusons des mises à
+jour trop fréquentes.
 
-This release includes security fixes about bundled JSON and REXML.
+Cette version inclut des correctifs de sécurité pour les bibliothèques
+intégrées JSON et REXML :
 
-* [Denial of Service and Unsafe Object Creation Vulnerability in JSON
+* [Déni de service et vulnérabilité de création d\'objets non-sûrs
   (CVE-2013-0269)][1]
-* [Entity expansion DoS vulnerability in REXML (XML bomb)][2]
+* [Vulnérabilité de type Déni de service par expansion des entités dans
+  REXML (bombe XML)][2]
 
-And some small bugfixes are also included.
+Et d\'autres correctifs de bugs mineurs sont également inclus.
 
-See [tickets][3] and [ChangeLog][4] for details.
+Voyez les [tickets][3] et le [ChangeLog][4] pour plus de détails.
 
-## Download
+## Téléchargement
 
-You can download this release from:
+Vous pouvez télécharger cette nouvelle version depuis :
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2&gt;][5]
   
@@ -40,15 +42,15 @@ You can download this release from:
       MD5:    212fb3bc41257b41d1f8bfe0725916b7
       SHA256: f200ce4a63ce57bea64028a507350717c2a16bdbba6d9538bc69e9e7c2177c8b
 
-## Release Comment
+## Commentaire sur cette version
 
-Many committers, testers and users who gave bug reports helped me to
-make this release. Thanks for their contributions.
+De nombreux commiteurs, testeurs et utilisateurs ayant remonté des bugs
+ont aidé à préparer cette version. Merci pour leurs contributions.
 
 
 
-[1]: http://www.ruby-lang.org/en/news/2013/02/22/json-dos-cve-2013-0269/ 
-[2]: http://www.ruby-lang.org/en/news/2013/02/22/rexml-dos-2013-02-22/ 
+[1]: http://www.ruby-lang.org/fr/news/2013/02/23/dni-de-service-et-vulnrabilit-de-cration-dobjets-non-srs-cve-2013-0269/ 
+[2]: http://www.ruby-lang.org/fr/news/2013/02/23/vulnrabilit-de-type-dni-de-service-par-expansion-des-entits-dans-rexml-bombe-xml/ 
 [3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
 [4]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_392/ChangeLog 
 [5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2 

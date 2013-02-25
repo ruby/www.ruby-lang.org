@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.0.0-rc2 is released"
-author: "usa"
+author: "Yusuke Endoh"
 lang: en
 ---
 

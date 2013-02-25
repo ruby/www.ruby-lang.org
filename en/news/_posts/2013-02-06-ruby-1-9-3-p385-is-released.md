@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3-p385 is released"
-author: "usa"
+author: "Yusuke Endoh"
 lang: en
 ---
 

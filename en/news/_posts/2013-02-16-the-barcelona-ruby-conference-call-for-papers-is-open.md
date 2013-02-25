@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "The Barcelona Ruby Conference Call for Papers is Open"
-author: "usa"
+author: "Yusuke Endoh"
 lang: en
 ---
 
