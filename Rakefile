@@ -84,13 +84,13 @@ def html_to_markdown(content_div)
 
     # map all code elements to their inner_text
     pre.search('code').each do |code|
-      code.replace(highlight(code_to_text(code), lang))
+      code.content = highlight(code_to_text(code), lang)
     end
   end
 
   # map all code elements to their inner_text
   content_div.search('pre > code').each do |code|
-    code.replace(code_to_text(code))
+    code.content = code_to_text(code)
   end
 
   # remove the 'class' attribute from all pre tags
