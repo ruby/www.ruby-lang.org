@@ -24,9 +24,9 @@ adalah dengan menggunakan metode match. Nah sebetulnya ada shortcut yang
 bisa dipakai agar proses hidup lebih sejahtera.
 
 {% highlight ruby %}
-email = "Fred Bloggs "
-email.match(//)[1]     # => “fred@bloggs.com”
-email[//, 1]           # => “fred@bloggs.com”
+email = "Fred Bloggs <fred@bloggs.com>"
+email.match(/<(.*?)>/)[1]     # => “fred@bloggs.com”
+email[/<(.*?)>/, 1]           # => “fred@bloggs.com”
 email.match(/(x)/)[1]         # => NoMethodError [:(]
 email[/(x)/, 1]               # => nil
 email[/([bcd]).*?([fgh])/, 2] # => “g”
@@ -69,7 +69,7 @@ penempatan string tersebut:
 
 {% highlight ruby %}
 x = %w{p ketemulagi p}
-"%s%s>" % x # => “ketemulagi"
+"<%s>%s</%s>" % x # => “<p>ketemulagi</p>"
 {% endhighlight %}
 
 **5 – Menghapus direktori beserta seluruh isinya**
