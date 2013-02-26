@@ -11,9 +11,9 @@ wersja to {{ site.downloads.stable.version }}.
 
 Pliki [źródłowe][1] do kompilacji:
 
-* [Ruby 1.8.7-p371][2]
-* [Ruby 1.9.3-p392][3] zalecana
-* [Ruby 2.0.0-p0][4]
+* [Ruby {{ site.downloads.stable.version }}][2] zalecana
+* [Ruby {{ site.downloads.previous.version }}][3]
+* [Ruby 1.8.7-p371][4]
 
 Zalecana instalacja dla **OS X** oraz **Linuksa** za pomocą [rbenv][5]
 lub [RVM][6].
@@ -58,9 +58,9 @@ potrzebna instalacja frameworka Rails, to jest również dostępny
 
 
 [1]: http://ftp.ruby-lang.org/pub/ruby/ 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.previous.url }}
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.gz 
 [5]: https://github.com/sstephenson/rbenv 
 [6]: https://rvm.io/ 
 [7]: http://rubyinstaller.org/ 
