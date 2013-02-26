@@ -15,8 +15,8 @@ lang: bg
 вашата среда. Това е и добър вариант, ако липсва прекомпилиран пакет за
 вашата платформа.
 
-* [Ruby {{ site.downloads.source.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.source.stable.md5 }})
+* [Ruby {{ site.downloads.stable.version }}][2]
+  (md5:&nbsp;{{ site.downloads.stable.md5 }})
   стабилна версия (*препоръчително*)
 * [Стабилен Snapshot][3]
   Това е архвирано копие на последната стабилна версия в SVN хранилището.
