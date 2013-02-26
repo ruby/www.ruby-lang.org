@@ -36,7 +36,7 @@ pré-compilées ; la seconde est d’utiliser l’installateur
 vraisemblablement le moyen le plus simple (il fournit par ailleurs, en
 plus de Ruby, plusieurs bibliothèques additionnelles très utiles).
 
-* [Ruby 1.9.3-p374 RubyInstaller][5]
+* [Ruby 1.9.3-p392 RubyInstaller][5]
 * [Autres versions du RubyInstaller][6]
 
 ### Ruby sur GNU/Linux
@@ -136,7 +136,7 @@ site [RubyOpenSolaris project @ Rubyforge][22].
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyforge.org/frs/download.php/76706/rubyinstaller-1.9.3-p374.exe 
+[5]: http://rubyforge.org/frs/download.php/76706/rubyinstaller-1.9.3-p392.exe 
 [6]: http://rubyinstaller.org/downloads/ 
 [7]: https://rvm.io/ 
 [8]: http://trac.macosforge.org/projects/ruby/wiki 
