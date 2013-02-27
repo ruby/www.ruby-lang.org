@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div id="content-wrapper">
+  <div id="head-wrapper-1">
+    <div id="head-wrapper-2">
+      <div id="head">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+    {% for post in page.posts %}
+    <div class="post">
+      <h3>{{ post.title }}</h3>
+    
+      {{ post.content | markdownify | strip_html | truncatewords: 25 }}
+    
+      <p><a href="{{ post.url }}">Continue Reading...</a></p>
+    
+      <p class="post-info">Posted by {{ post.author }} on {{ post.date | date_to_string }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div id="sidebar-wrapper">
+  <div id="sidebar">
+    <div class="navigation">
+      <h3>Archive By Month</h3>
+
+      <ul class="menu">
+      {% for month in page.months %}
+      <li><a href="{{ month[0] }}/">{{ month[1] }} {{ page.year }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<hr class="hidden-modern" />
