@@ -16,7 +16,9 @@ layout: default
     <div class="post">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
+      <p>
       {{ post.content | markdownify | strip_html | truncatewords: 25 }}
+      </p>
 
       <p><a href="{{ post.url }}">Continue Reading...</a></p>
 
