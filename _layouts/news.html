@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if site.locales.sidebar[page.lang] %}
+  {% assign syndicate = site.locales.sidebar[page.lang].syndicate %}
+{% else %}
+  {% assign syndicate = site.locales.sidebar['en'].syndicate %}
+{% endif %}
+
 <div id="content-wrapper">
   <div id="head-wrapper-1">
     <div id="head-wrapper-2">
@@ -40,6 +46,9 @@ layout: default
       {% endfor %}
       </ul>
     </div>
+
+    <h3>{{ syndicate.text }}</h3>
+    <p><a href="{{ syndicate.recent_news.url }}">{{ syndicate.recent_news.text }}</a></p>
   </div>
 </div>
 <hr class="hidden-modern" />
