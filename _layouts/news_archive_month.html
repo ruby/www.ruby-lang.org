@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if site.locales.news[page.lang] %}
+  {% assign locales = site.locales.news[page.lang] %}
+{% else %}
+  {% assign locales = site.locales.news['en'] %}
+{% endif %}
+
 <div id="content-wrapper">
   <div id="head-wrapper-1">
     <div id="head-wrapper-2">
@@ -20,7 +26,7 @@ layout: default
       {{ post.content | markdownify | strip_html | truncatewords: 25 }}
       </p>
 
-      <p><a href="{{ post.url }}">Continue Reading...</a></p>
+      <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
 
       {% if post.author and post.author != "" %}
       <p class="post-info">{{ post.author }} &ndash; {{ post.date | date_to_string }}</p>
