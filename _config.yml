@@ -230,6 +230,24 @@ locales:
       - text: 關於 Ruby
         url: /zh_TW/about
 
+  news:
+    de:
+      continue: Weiterlesen...
+      recent_news: Aktuelle Neuigkeiten
+      archive_title:
+        prefix:  Archiv für
+        postfix:
+      yearly_archives: Archiv
+      monthly_archives: Archiv nach Monat
+    en:
+      continue: Continue Reading...
+      recent_news: Recent News
+      archive_title:
+        prefix:
+        postfix: Archives
+      yearly_archives: Archives by Year
+      monthly_archives: Archives by Month
+
   sidebar:
     try_ruby: &try_ruby
       url: http://tryruby.org/
