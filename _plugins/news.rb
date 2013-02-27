@@ -1,3 +1,5 @@
+require 'date'
+
 module Jekyll
   module News
     class ArchivePage < Page
@@ -31,8 +33,10 @@ module Jekyll
 
     class MonthlyArchive < ArchivePage
 
+      LAYOUT = 'news_archive_month.html'
+
       def initialize(site,base,lang,year,month,posts)
-        super(site,base,'news_archive_month.html',lang,posts)
+        super(site,base,LAYOUT,lang,posts)
 
         @year  = year
         @month = month
@@ -46,8 +50,10 @@ module Jekyll
 
     class YearlyArchive < ArchivePage
 
+      LAYOUT = 'news_archive_year.html'
+
       def initialize(site,base,lang,year,posts)
-        super(site,base,'news_archive_year.html',lang,posts)
+        super(site,base,LAYOUT,lang,posts)
 
         @year = year
         @dir  = File.join(@dir,@year.to_s)
@@ -65,21 +71,37 @@ module Jekyll
       end
 
     end
+
+    class Index < ArchivePage
+
+      LAYOUT = 'news.html'
+
+      MAX_POSTS = 5
+
+      def initialize(site,base,lang,posts)
+        super(site,base,LAYOUT,lang,posts)
+
+        data['title'] = 'Recent News'
+        data['years'] = posts.map { |post| post.date.year }.uniq.reverse
+        data['posts'] = posts.last(MAX_POSTS).reverse
+      end
+
+    end
   end
 
   class Post
-
-    def title
-      data['title']
-    end
 
     def lang
       data['lang']
     end
 
+    def title
+      data['title']
+    end
+
   end
 
-  class GenerateNewsArchives < Generator
+  class GenerateNews < Generator
 
     safe true
     priority :low
@@ -98,15 +120,24 @@ module Jekyll
       end
 
       posts.each do |lang,years|
-        years.each do |year,months|
-          posts_for_year = months.values.flatten
+        index = News::Index.new(
+          site,
+          site.source,
+          lang,
+          years.values.map(&:values).flatten
+        )
 
+        index.render(site.layouts,site.site_payload)
+        index.write(site.dest)
+        site.pages << index
+
+        years.each do |year,months|
           yearly_archive = News::YearlyArchive.new(
             site,
             site.source,
             lang,
             year,
-            posts_for_year
+            months.values.flatten
           )
 
           yearly_archive.render(site.layouts,site.site_payload)
