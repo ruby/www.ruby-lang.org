@@ -22,7 +22,11 @@ layout: default
 
       <p><a href="{{ post.url }}">Continue Reading...</a></p>
 
-      <p class="post-info">Posted by {{ post.author }} on {{ post.date | date_to_string }}</p>
+      {% if post.author and post.author != "" %}
+      <p class="post-info">{{ post.author }} &ndash; {{ post.date | date_to_string }}</p>
+      {% else %}
+      <p class="post-info">{{ post.date | date_to_string }}</p>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
