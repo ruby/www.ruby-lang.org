@@ -38,7 +38,7 @@ module Jekyll
         @month = month
         @dir   = File.join(@dir,@year.to_s,"%.2d" % @month)
 
-        data['title'] = "#{MONTHS[@month]} #{@year} Archive"
+        data['title'] = "#{MONTHS[@month]} #{@year} Archives"
         data['year']  = year
       end
 
@@ -52,7 +52,7 @@ module Jekyll
         @year = year
         @dir  = File.join(@dir,@year.to_s)
 
-        data['title'] = "#{@year} Archive"
+        data['title'] = "#{@year} Archives"
 
         months = posts.map { |post| post.date.month }.uniq
 
