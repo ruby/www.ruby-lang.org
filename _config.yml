@@ -234,17 +234,15 @@ locales:
     de:
       continue: Weiterlesen...
       recent_news: Aktuelle Neuigkeiten
-      archive_title:
-        prefix:  Archiv für
-        postfix:
+      yearly_archive_title: "Archiv für %Y"
+      monthly_archive_title: "Archiv für %m/%Y"
       yearly_archives: Archiv
       monthly_archives: Archiv nach Monat
     en:
       continue: Continue Reading...
       recent_news: Recent News
-      archive_title:
-        prefix:
-        postfix: Archives
+      yearly_archive_title: "%Y Archives"
+      monthly_archive_title: "%B %Y Archives"
       yearly_archives: Archives by Year
       monthly_archives: Archives by Month
 

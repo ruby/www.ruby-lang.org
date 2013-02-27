@@ -43,12 +43,14 @@ module Jekyll
         @dir   = File.join(@dir,@year.to_s,"%.2d" % @month)
 
         if site.config['locales']['news'][lang]
-          title = site.config['locales']['news'][lang]['archive_title']
+          title = site.config['locales']['news'][lang]['monthly_archive_title']
         else
-          title = site.config['locales']['news']['en']['archive_title']
+          title = site.config['locales']['news']['en']['monthly_archive_title']
         end
 
-        data['title'] = "#{title['prefix']} #{MONTHS[@month]} #{@year} #{title['postfix']}".strip
+        data['title'] = title.gsub(/%Y|%m|%B/, {
+                          '%Y' => @year.to_s, '%m' => @month, '%B' => MONTHS[@month]
+                        })
         data['year']  = year
       end
 
@@ -65,12 +67,12 @@ module Jekyll
         @dir  = File.join(@dir,@year.to_s)
 
         if site.config['locales']['news'][lang]
-          title = site.config['locales']['news'][lang]['archive_title']
+          title = site.config['locales']['news'][lang]['yearly_archive_title']
         else
-          title = site.config['locales']['news']['en']['archive_title']
+          title = site.config['locales']['news']['en']['yearly_archive_title']
         end
 
-        data['title'] = "#{title['prefix']} #{@year} #{title['postfix']}".strip
+        data['title'] = title.gsub('%Y', @year.to_s)
 
         months = posts.map { |post| post.date.month }.uniq
 
