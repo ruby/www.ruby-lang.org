@@ -2,11 +2,12 @@ var Page = {
   SiteLinks: {
     highlight: function() {
       var current_page = location.pathname;
-      var $sitelink    = $("div.site-links a[href='" + current_page + "']");
 
-      if ($sitelink != null) {
-        $sitelink.css('font-weight', 'bold');
-      }
+      $("div.site-links a").each(function(i) {
+        if (current_page.startsWith($(this).attr('href'))) {
+          $(this).css('font-weight', 'bold');
+        }
+      });
     }
   }
 };
