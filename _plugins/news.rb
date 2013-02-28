@@ -4,7 +4,10 @@ module Jekyll
   module News
     class ArchivePage < Page
 
-      MONTHS = %w[None January February March April May June July August September October November December]
+      MONTHS = {
+        'de' => %W[None Januar Februar M\u00e4rz April Mai Juni Juli August September Oktober November Dezember],
+        'en' => %w[None January February March April May June July August September October November December]
+      }
 
       def initialize(site,base,layout,lang,posts)
         @site = site
@@ -33,6 +36,10 @@ module Jekyll
         @site.config['locales']['news'][@lang] || @site.config['locales']['news']['en']
       end
 
+      def month_names
+        MONTHS[@lang] || MONTHS['en']
+      end
+
     end
 
     class MonthlyArchive < ArchivePage
@@ -51,7 +58,7 @@ module Jekyll
         data['title'] = title.gsub(/%Y|%m|%B/, {
                           '%Y' => @year.to_s,
                           '%m' => "%.2d" % @month,
-                          '%B' => MONTHS[@month]
+                          '%B' => month_names[@month]
                         })
         data['year']  = year
       end
@@ -77,7 +84,7 @@ module Jekyll
         data['year']   = year
         data['months'] = Hash[
           months.map { |month| "%.2d" % month }.zip(
-            months.map { |month| MONTHS[month] }
+            months.map { |month| month_names[month] }
           )
         ]
       end
