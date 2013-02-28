@@ -29,6 +29,10 @@ module Jekyll
         end
       end
 
+      def locales
+        @site.config['locales']['news'][@lang] || @site.config['locales']['news']['en']
+      end
+
     end
 
     class MonthlyArchive < ArchivePage
@@ -42,11 +46,7 @@ module Jekyll
         @month = month
         @dir   = File.join(@dir,@year.to_s,"%.2d" % @month)
 
-        if site.config['locales']['news'][lang]
-          title = site.config['locales']['news'][lang]['monthly_archive_title']
-        else
-          title = site.config['locales']['news']['en']['monthly_archive_title']
-        end
+        title = locales['monthly_archive_title']
 
         data['title'] = title.gsub(/%Y|%m|%B/, {
                           '%Y' => @year.to_s,
@@ -68,11 +68,7 @@ module Jekyll
         @year = year
         @dir  = File.join(@dir,@year.to_s)
 
-        if site.config['locales']['news'][lang]
-          title = site.config['locales']['news'][lang]['yearly_archive_title']
-        else
-          title = site.config['locales']['news']['en']['yearly_archive_title']
-        end
+        title = locales['yearly_archive_title']
 
         data['title'] = title.gsub('%Y', @year.to_s)
 
@@ -97,11 +93,7 @@ module Jekyll
       def initialize(site,base,lang,posts)
         super(site,base,LAYOUT,lang,posts)
 
-        if site.config['locales']['news'][lang]
-          title = site.config['locales']['news'][lang]['recent_news']
-        else
-          title = site.config['locales']['news']['en']['recent_news']
-        end
+        title = locales['recent_news']
 
         data['title'] = title
         data['years'] = posts.map { |post| post.date.year }.uniq.reverse
