@@ -30,8 +30,10 @@ layout: default
     </div>
     {% endfor %}
 
+    {% capture year_string %}{{ page.year }}{% endcapture %}
+
     <p>
-      <a href="../">&lt;&lt; {{ locales.back_to }} {{ page.year }}</a>
+      <a href="../">&lt;&lt; {{ locales.back_to_year | replace:'%Y',year_string }}</a>
     </p>
   </div>
 </div>

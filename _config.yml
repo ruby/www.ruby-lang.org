@@ -233,7 +233,7 @@ locales:
   news:
     de:
       continue: Weiterlesen...
-      back_to: Zurück zu
+      back_to_year: "Zurück zum Archiv für %Y"
       recent_news: Aktuelle Neuigkeiten
       yearly_archive_title: "Archiv für %Y"
       monthly_archive_title: "Archiv für %m/%Y"
@@ -241,7 +241,7 @@ locales:
       monthly_archives: Archiv nach Monat
     en:
       continue: Continue Reading...
-      back_to: Back to
+      back_to_year: "Back to %Y Archives"
       recent_news: Recent News
       yearly_archive_title: "%Y Archives"
       monthly_archive_title: "%B %Y Archives"
