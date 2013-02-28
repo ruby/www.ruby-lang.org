@@ -231,12 +231,20 @@ locales:
         url: /zh_TW/about
 
   news:
+    bg:
+      continue: Още...
+      back_to_year: "Back to %Y Archives"
+      recent_news: Последни новини
+      yearly_archive_title: "%Y Archives"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: Архив по година
+      monthly_archives: Archives by Month
     de:
       continue: Weiterlesen...
       back_to_year: "Zurück zum Archiv für %Y"
       recent_news: Aktuelle Neuigkeiten
       yearly_archive_title: "Archiv für %Y"
-      monthly_archive_title: "Archiv für %m/%Y"
+      monthly_archive_title: "Archiv für %B %Y"
       yearly_archives: Archiv
       monthly_archives: Archiv nach Monat
     en:
@@ -246,6 +254,94 @@ locales:
       yearly_archive_title: "%Y Archives"
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Archives by Year
+      monthly_archives: Archives by Month
+    es:
+      continue: Continuar leyendo...
+      back_to_year: "Volver a las noticias del %Y"
+      recent_news: Noticias recientes
+      yearly_archive_title: "Noticias del %Y"
+      monthly_archive_title: "Noticias de %B %Y"
+      yearly_archives: Noticias por año
+      monthly_archives: Noticias por mes
+    fr:
+      continue: Lire la suite...
+      back_to_year: "Retour aux %Y archives"
+      recent_news: Actualité récente
+      yearly_archive_title: "%Y Archives"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: Archives par années
+      monthly_archives: Archives par mois
+    id:
+      continue: Baca Selengkapnya...
+      back_to_year: "Kembali ke Arsip Tahun %Y"
+      recent_news: Berita
+      yearly_archive_title: "Arsip Tahun %Y"
+      monthly_archive_title: "Arsip %B %Y"
+      yearly_archives: Arsip Tahunan
+      monthly_archives: Arsip Bulanan
+    it:
+      continue: Continua...
+      back_to_year: "Vai all'archivio %Y"
+      recent_news: Notizie Recenti
+      yearly_archive_title: "%Y Archives"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: Archivio dell'anno
+      monthly_archives: Archivio Mensile
+    ja:
+      continue: もっと読む...
+      back_to_year: "%Y年のアーカイブに戻る"
+      recent_news: 最近のニュース
+      yearly_archive_title: "%Y年のアーカイブ"
+      monthly_archive_title: "%Y年%m月のアーカイブ"
+      yearly_archives: 年毎のアーカイブ
+      monthly_archives: 月毎のアーカイブ
+    ko:
+      continue: 자세히 읽기
+      back_to_year: "%Y년 아카이브로 돌아가기"
+      recent_news: 최근 소식
+      yearly_archive_title: "%Y년 아카이브"
+      monthly_archive_title: "%Y년 %m월 아카이브"
+      yearly_archives: 년도별 아카이브
+      monthly_archives: 월별 아카이브
+    pl:
+      continue: Więcej...
+      back_to_year: "Back to %Y Archives"
+      recent_news: Aktualności
+      yearly_archive_title: "%Y Archives"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: Archiwum Wiadomości
+      monthly_archives: Archives by Month
+    pt:
+      continue: Continuar a Leitura...
+      back_to_year: "Back to %Y Archives"
+      recent_news: Notícias Recentes
+      yearly_archive_title: "Arquivos de %Y"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: Arquivos por Ano
+      monthly_archives: Archives by Month
+    tr:
+      continue: Devamını Okuyun...
+      back_to_year: "Back to %Y Archives"
+      recent_news: Son Haberler
+      yearly_archive_title: "%Y Archives"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: Archives by Year
+      monthly_archives: Archives by Month
+    zh_cn:
+      continue: 阅读全文...
+      back_to_year: "Back to %Y Archives"
+      recent_news: 最新消息
+      yearly_archive_title: "%Y 档案"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: 按年存档
+      monthly_archives: Archives by Month
+    zh_TW:
+      continue: 深入閱讀...
+      back_to_year: "Back to %Y Archives"
+      recent_news: 最新消息
+      yearly_archive_title: "%Y 存檔"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: 以年份區分
       monthly_archives: Archives by Month
 
   sidebar:
