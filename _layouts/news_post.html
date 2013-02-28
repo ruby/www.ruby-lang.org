@@ -7,6 +7,12 @@ layout: default
 
   <div id="content">
     {{ content }}
+
+    {% if page.author and page.author != "" %}
+    <p class="post-info">{{ page.author }} &ndash; {{ page.date | date_to_string }}</p>
+    {% else %}
+    <p class="post-info">{{ page.date | date_to_string }}</p>
+    {% endif %}
   </div>
 </div>
 <hr class="hidden-modern" />
