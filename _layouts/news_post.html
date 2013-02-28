@@ -1,15 +1,48 @@
 ---
-layout: news
+layout: default
 ---
 
-<div class="post">
-  <h3>{{ page.title }}</h3>
+<div id="content-wrapper">
+  <div id="head-wrapper-1">
+    <div id="head-wrapper-2">
+      <div id="head">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
 
-  {{ content }}
-
-  {% if page.author and page.author != "" %}
-  <p class="post-info">{{ page.author }} &ndash; {{ page.date | date_to_string }}</p>
-  {% else %}
-  <p class="post-info">{{ page.date | date_to_string }}</p>
-  {% endif %}
+  <div id="content">
+    {{ content }}
+  </div>
+  <hr class="hidden-modern" />
 </div>
+
+<div id="sidebar-wrapper">
+  <div id="sidebar">
+    <div class="navigation">
+      {% if site.locales.news[page.lang] %}
+        {% assign news = site.locales.news[page.lang] %}
+      {% else %}
+        {% assign news = site.locales.news['en'] %}
+      {% endif %}
+
+      <h3><strong>{{ news.recent_news }}</strong></h3>
+
+      <ul class="menu">
+        {% for post in site.categories[page.lang] limit:5 %}
+        <li><a href="{{ post.url }}//">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% if site.locales.sidebar[page.lang] %}
+      {% assign sidebar = site.locales.sidebar[page.lang] %}
+    {% else %}
+      {% assign sidebar = site.locales.sidebar['en'] %}
+    {% endif %}
+
+    <h3>{{ sidebar.syndicate.text }}</h3>
+    <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
+  </div>
+</div>
+<hr class="hidden-modern" />
