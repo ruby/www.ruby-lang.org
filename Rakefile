@@ -211,7 +211,7 @@ namespace :import do
             agent.get_page(archive_url) do |archive|
               if archive.is_ok?
                 if (post_div = archive.at("//div[@class='post']/h3/a[@href=#{page.url.path.dump}]/../.."))
-                  post_info = post_div.at("//p[@class='post-info']").inner_text
+                  post_info = post_div.at("p[@class='post-info']").inner_text
 
                   author = if (match = post_info.match(by_lines[lang]))
                              match[1]
