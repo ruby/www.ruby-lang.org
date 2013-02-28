@@ -15,13 +15,7 @@ layout: default
 {% endif %}
 
 <div id="content-wrapper">
-  <div id="head-wrapper-1">
-    <div id="head-wrapper-2">
-      <div id="head">
-        <h1>{{ page.title }}</h1>
-      </div>
-    </div>
-  </div>
+  {% include title.html %}
 
   <div id="content">
     {% for post in page.posts %}
