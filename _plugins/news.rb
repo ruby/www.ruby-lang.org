@@ -49,7 +49,9 @@ module Jekyll
         end
 
         data['title'] = title.gsub(/%Y|%m|%B/, {
-                          '%Y' => @year.to_s, '%m' => @month, '%B' => MONTHS[@month]
+                          '%Y' => @year.to_s,
+                          '%m' => "%.2d" % @month,
+                          '%B' => MONTHS[@month]
                         })
         data['year']  = year
       end
