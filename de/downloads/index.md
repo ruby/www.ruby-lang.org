@@ -61,12 +61,13 @@ sehr hilfsbereit.
 Für Windows-Nutzer hat sich die Installation mithilfe des
 [RubyInstallers][5] etabliert, der alle notwendigen Tools für die
 Rubyentwicklung unter Windows mitbringt. Momentan stehen folgende
-Installer zur Verfügung:
+Installer zur Verfügung (wenn du dir nicht sicher bist, welche
+Architektur dein System hat, wähle die 32-Bit-Variante):
 
-* [Ruby 1.9.3-p385 RubyInstaller][6]
-  (md5:&nbsp;53f48cef7e124065abf58bbc68b33a97) Stabile Version (*empfohlen*)
-* [Ruby 1.8.7-p371 RubyInstaller][7]
-  (md5:&nbsp;4fe69c7a284e9937d3d1db9b76626beb) Stabile Version
+* [Ruby 2.0.0 RubyInstaller \[32 Bit\]][6]
+  (md5:&nbsp;ccdf7de8b77c29aea4254c409a40fe98) Stabile Version (*empfohlen*)
+* [Ruby 2.0.0 RubyInstaller \[64 Bit\]][7]
+  (md5:&nbsp;5a6a605d3e38e2cb572dd418152a2fed) Stabile Version (*empfohlen*)
 
 Speziell für die Entwicklung mit RubyOnRails unter Windows gibt es den
 [RailsInstaller][8]. Dieser baut auf dem RubyInstaller auf, enthält aber
@@ -211,12 +212,12 @@ Programmiersprache Ruby“.
 
 
 [1]: http://www.ruby-lang.org/de/about/license.txt 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.bz2 
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2 
 [3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.bz2 
 [4]: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2 
 [5]: http://rubyinstaller.org 
-[6]: http://rubyforge.org/frs/download.php/76752/rubyinstaller-1.9.3-p385.exe 
-[7]: http://rubyforge.org/frs/download.php/76524/rubyinstaller-1.8.7-p371.exe 
+[6]: http://rubyforge.org/frs/download.php/76804/rubyinstaller-2.0.0-p0.exe 
+[7]: http://rubyforge.org/frs/download.php/76806/rubyinstaller-2.0.0-p0-x64.exe 
 [8]: http://railsinstaller.org 
 [9]: http://rubyinstaller.org/add-ons/pik/ 
 [10]: https://github.com/vertiginous/pik 
