@@ -40,7 +40,7 @@ layout: default
 
       <ul class="menu">
       {% for year in page.years %}
-      <li><a href="{{ year }}/">{{ year }}</a></li>
+      <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
       {% endfor %}
       </ul>
     </div>

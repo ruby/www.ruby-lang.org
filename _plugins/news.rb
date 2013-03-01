@@ -76,15 +76,22 @@ module Jekyll
         @dir  = File.join(@dir,@year.to_s)
 
         title = locales['yearly_archive_title']
+        month_link_text = locales['monthly_archive_link']
 
         data['title'] = title.gsub('%Y', @year.to_s)
+        data['year']   = @year
 
         months = posts.map { |post| post.date.month }.uniq
 
-        data['year']   = year
+        # hash with url => link_text (including year) elements
         data['months'] = Hash[
           months.map { |month| "%.2d" % month }.zip(
-            months.map { |month| month_names[month] }
+            months.map { |month| month_link_text.gsub(/%Y|%m|%B/, {
+                                   '%Y' => @year.to_s,
+                                   '%m' => "%.2d" % month,
+                                   '%B' => month_names[month]
+                                 })
+            }
           )
         ]
       end
@@ -101,10 +108,19 @@ module Jekyll
         super(site,base,LAYOUT,lang,posts)
 
         title = locales['recent_news']
+        year_link_text = locales['yearly_archive_link']
 
         data['title'] = title
-        data['years'] = posts.map { |post| post.date.year }.uniq.reverse
         data['posts'] = posts.last(MAX_POSTS).reverse
+
+        years = posts.map { |post| post.date.year }.uniq.reverse
+
+        # hash with url => link_text elements
+        data['years'] = Hash[
+          years.map { |year| year.to_s }.zip(
+            years.map { |year| year_link_text.gsub(/%Y/, '%Y' => year.to_s) }
+          )
+        ]
       end
 
     end
