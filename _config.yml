@@ -239,6 +239,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Архив по година
       monthly_archives: Archives by Month
+      yearly_archive_link: "%Y"
+      monthly_archive_link: "%B %Y"
     de:
       continue: Weiterlesen...
       back_to_year: "Zurück zum Archiv für %Y"
@@ -247,6 +249,8 @@ locales:
       monthly_archive_title: "Archiv für %B %Y"
       yearly_archives: Archiv
       monthly_archives: Archiv nach Monat
+      yearly_archive_link: "Archiv für %Y"
+      monthly_archive_link: "%B %Y"
     en:
       continue: Continue Reading...
       back_to_year: "Back to %Y Archives"
@@ -255,6 +259,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Archives by Year
       monthly_archives: Archives by Month
+      yearly_archive_link: "%Y Archives"
+      monthly_archive_link: "%B %Y"
     es:
       continue: Continuar leyendo...
       back_to_year: "Volver a las noticias del %Y"
@@ -263,6 +269,8 @@ locales:
       monthly_archive_title: "Noticias de %B %Y"
       yearly_archives: Noticias por año
       monthly_archives: Noticias por mes
+      yearly_archive_link: "Noticias del %Y"
+      monthly_archive_link: "%B %Y"
     fr:
       continue: Lire la suite...
       back_to_year: "Retour aux %Y archives"
@@ -271,6 +279,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Archives par années
       monthly_archives: Archives par mois
+      yearly_archive_link: "Actualités de %Y"
+      monthly_archive_link: "%m/%Y"
     id:
       continue: Baca Selengkapnya...
       back_to_year: "Kembali ke Arsip Tahun %Y"
@@ -279,6 +289,8 @@ locales:
       monthly_archive_title: "Arsip %B %Y"
       yearly_archives: Arsip Tahunan
       monthly_archives: Arsip Bulanan
+      yearly_archive_link: "Tahun %Y"
+      monthly_archive_link: "%B %Y"
     it:
       continue: Continua...
       back_to_year: "Vai all'archivio %Y"
@@ -287,6 +299,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Archivio dell'anno
       monthly_archives: Archivio Mensile
+      yearly_archive_link: "%Y Archives"
+      monthly_archive_link: "%B %Y"
     ja:
       continue: もっと読む...
       back_to_year: "%Y年のアーカイブに戻る"
@@ -295,6 +309,8 @@ locales:
       monthly_archive_title: "%Y年%m月のアーカイブ"
       yearly_archives: 年毎のアーカイブ
       monthly_archives: 月毎のアーカイブ
+      yearly_archive_link: "%Y年のアーカイブ"
+      monthly_archive_link: "%Y年%m月"
     ko:
       continue: 자세히 읽기
       back_to_year: "%Y년 아카이브로 돌아가기"
@@ -303,6 +319,8 @@ locales:
       monthly_archive_title: "%Y년 %m월 아카이브"
       yearly_archives: 년도별 아카이브
       monthly_archives: 월별 아카이브
+      yearly_archive_link: "%Y년"
+      monthly_archive_link: "%Y년 %m월"
     pl:
       continue: Więcej...
       back_to_year: "Back to %Y Archives"
@@ -311,6 +329,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Archiwum Wiadomości
       monthly_archives: Archives by Month
+      yearly_archive_link: "%Y"
+      monthly_archive_link: "%B %Y"
     pt:
       continue: Continuar a Leitura...
       back_to_year: "Back to %Y Archives"
@@ -319,6 +339,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Arquivos por Ano
       monthly_archives: Archives by Month
+      yearly_archive_link: "Arquivos de %Y"
+      monthly_archive_link: "%B %Y"
     tr:
       continue: Devamını Okuyun...
       back_to_year: "Back to %Y Archives"
@@ -327,6 +349,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: Archives by Year
       monthly_archives: Archives by Month
+      yearly_archive_link: "%Y Archives"
+      monthly_archive_link: "%B %Y"
     zh_cn:
       continue: 阅读全文...
       back_to_year: "Back to %Y Archives"
@@ -335,6 +359,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: 按年存档
       monthly_archives: Archives by Month
+      yearly_archive_link: "%Y 档案"
+      monthly_archive_link: "%B %Y Archives"
     zh_TW:
       continue: 深入閱讀...
       back_to_year: "Back to %Y Archives"
@@ -343,6 +369,8 @@ locales:
       monthly_archive_title: "%B %Y Archives"
       yearly_archives: 以年份區分
       monthly_archives: Archives by Month
+      yearly_archive_link: "%Y 存檔"
+      monthly_archive_link: "%B %Y Archives"
 
   sidebar:
     try_ruby: &try_ruby
