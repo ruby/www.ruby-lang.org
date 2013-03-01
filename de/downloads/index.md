@@ -212,9 +212,9 @@ Programmiersprache Ruby“.
 
 
 [1]: http://www.ruby-lang.org/de/about/license.txt 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2 
-[3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.bz2 
-[4]: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2 
+[2]: {{ site.downloads.stable.url }}
+[3]: {{ site.downloads.stable_snapshot.url }}
+[4]: {{ site.downloads.nightly_snapshot.url }}
 [5]: http://rubyinstaller.org 
 [6]: http://rubyforge.org/frs/download.php/76804/rubyinstaller-2.0.0-p0.exe 
 [7]: http://rubyforge.org/frs/download.php/76806/rubyinstaller-2.0.0-p0-x64.exe 
