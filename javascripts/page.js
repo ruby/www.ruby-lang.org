@@ -4,7 +4,7 @@ var Page = {
       var current_page = location.pathname;
 
       $("div.site-links a").each(function(i) {
-        if (current_page.index_of($(this).attr('href')) == 0) {
+        if (current_page.indexOf($(this).attr('href')) == 0) {
           $(this).css('font-weight', 'bold');
         }
       });
