@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "MountainWest RubyConf 2009 dates and CFP"
-author: "James Edward Gray II"
+author: "james"
 lang: en
 ---
 

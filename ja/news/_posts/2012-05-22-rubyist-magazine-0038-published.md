@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Rubyist Magazine 0038号 発行"
-author: "Shugo Maeda"
+author: "Kazuhiro NISHIYAMA"
 lang: ja
 ---
 

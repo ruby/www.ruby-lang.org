@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3-p327 is released"
-author: "James Edward Gray II"
+author: "usa"
 lang: en
 ---
 

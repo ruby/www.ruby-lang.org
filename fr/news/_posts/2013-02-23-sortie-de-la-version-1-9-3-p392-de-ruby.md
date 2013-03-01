@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Sortie de la version 1.9.3-p392 de Ruby"
-author: "Jean-Denis Vauguet"
+author: "Bruno Michel"
 lang: fr
 ---
 

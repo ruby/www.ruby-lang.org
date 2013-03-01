@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "サイトリニューアル"
-author: "SASADA Koichi"
+author: "Shugo Maeda"
 lang: ja
 ---
 

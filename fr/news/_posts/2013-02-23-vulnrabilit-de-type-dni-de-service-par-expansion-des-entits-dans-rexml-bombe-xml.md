@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Vulnérabilité de type Déni de service par expansion des entités dans REXML (bombe XML)"
-author: "Jean-Denis Vauguet"
+author: "Bruno Michel"
 lang: fr
 ---
 

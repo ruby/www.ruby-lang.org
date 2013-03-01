@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "MountainWest RubyConf 2010"
-author: "Urabe Shyouhei"
+author: "james"
 lang: en
 ---
 

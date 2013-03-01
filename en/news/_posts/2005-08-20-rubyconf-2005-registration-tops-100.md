@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2005 Registration Tops 100"
-author: "james"
+author: "Unknown Author"
 lang: en
 ---
 

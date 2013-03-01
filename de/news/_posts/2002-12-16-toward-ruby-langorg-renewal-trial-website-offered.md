@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Toward ruby-lang.org renewal; trial website offered"
-author: "Matz"
+author: "Unknown Author"
 lang: de
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "A Facebook Group"
-author: "Urabe Shyouhei"
+author: "James Edward Gray II"
 lang: en
 ---
 

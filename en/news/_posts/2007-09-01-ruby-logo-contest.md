@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Logo Contest"
-author: "james"
+author: "Shugo Maeda"
 lang: en
 ---
 

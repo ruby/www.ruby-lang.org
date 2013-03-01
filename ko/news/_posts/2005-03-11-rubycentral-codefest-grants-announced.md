@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "RubyCentral CodeFest Grants Announced"
-author: "Unknown Author"
+author: "chad"
 lang: ko
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Codefest Grant Program announced by Ruby Central, Inc."
-author: "maki"
+author: "David Black"
 lang: ko
 ---
 

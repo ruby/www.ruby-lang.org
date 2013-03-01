@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Server Maintenance"
-author: "Shugo Maeda"
+author: "Unknown Author"
 lang: en
 ---
 

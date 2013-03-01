@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "The Barcelona Ruby Conference Call for Papers is Open"
-author: "Yusuke Endoh"
+author: "James Edward Gray II"
 lang: en
 ---
 

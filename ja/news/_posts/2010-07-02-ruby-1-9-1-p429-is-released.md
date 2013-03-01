@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.1-p429リリース"
-author: "usa"
+author: "Yugui"
 lang: ja
 ---
 

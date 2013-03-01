@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Upcoming Ruby Programming Competitions with Matz - Grand Prize - 1,000,000 JPY!"
-author: "Shota Fukumori"
+author: "James Edward Gray II"
 lang: en
 ---
 

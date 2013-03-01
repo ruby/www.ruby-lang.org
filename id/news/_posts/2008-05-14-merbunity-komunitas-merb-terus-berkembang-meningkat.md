@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Merbunity: Komunitas Merb Terus Berkembang Meningkat"
-author: "Arie Kusuma Atmaja"
+author: "Hendy Irawan"
 lang: id
 ---
 

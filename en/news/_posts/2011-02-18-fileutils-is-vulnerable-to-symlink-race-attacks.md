@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "FileUtils is vulnerable to symlink race attacks"
-author: "Yugui"
+author: "Urabe Shyouhei"
 lang: en
 ---
 

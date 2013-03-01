@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Correction d'une faille de sécurité dans le module OpenSSL : \"0/n splitting\" comme mesure préventive contre l'attaque TLS BEAST."
-author: "Bruno Michel"
+author: "Jean-Denis Vauguet"
 lang: fr
 ---
 

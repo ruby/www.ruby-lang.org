@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Removed language comparison page"
-author: "Matz"
+author: "NaHi"
 lang: en
 ---
 

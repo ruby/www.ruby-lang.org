@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Security Fix for Ruby OpenSSL module: Allow \"0/n splitting\" as a prevention for the TLS BEAST attack."
-author: "NARUSE, Yui"
+author: "Urabe Shyouhei"
 lang: en
 ---
 

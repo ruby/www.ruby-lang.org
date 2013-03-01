@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Farbschema von www.ruby-lang.org"
-author: "Matz"
+author: "NaHi"
 lang: de
 ---
 

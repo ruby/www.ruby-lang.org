@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "lib/soap4r, lib/csv und mod_ruby-old dem CVS hinzugefügt"
-author: "David Black"
+author: "Shugo Maeda"
 lang: de
 ---
 

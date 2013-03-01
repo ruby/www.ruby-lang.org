@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-p302 リリース"
-author: "Yugui"
+author: "maki"
 lang: ja
 ---
 

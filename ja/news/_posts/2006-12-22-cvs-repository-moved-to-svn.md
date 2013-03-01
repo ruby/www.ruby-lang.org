@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "SVNへの移行"
-author: "usa"
+author: "Shugo Maeda"
 lang: ja
 ---
 

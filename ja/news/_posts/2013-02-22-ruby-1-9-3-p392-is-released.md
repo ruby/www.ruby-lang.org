@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3-p392 リリース"
-author: "Yusuke Endoh"
+author: "usa"
 lang: ja
 ---
 

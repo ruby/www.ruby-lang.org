@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Incident Analysis of the intrusion on helium.ruby-lang.org"
-author: "David Black"
+author: "Shugo Maeda"
 lang: ko
 ---
 

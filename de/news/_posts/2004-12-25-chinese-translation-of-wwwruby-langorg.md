@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Chinesische Übersetzung von www.ruby-lang.org"
-author: "maki"
+author: "Shugo Maeda"
 lang: de
 ---
 

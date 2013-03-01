@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "\"Ruby Hacking Guide\" is out though ..."
-author: "Matz"
+author: "NaHi"
 lang: ko
 ---
 

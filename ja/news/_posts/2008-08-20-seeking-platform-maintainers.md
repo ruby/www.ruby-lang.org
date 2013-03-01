@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "プラットフォームメンテナ募集のお知らせ"
-author: "Shugo Maeda"
+author: "maki"
 lang: ja
 ---
 

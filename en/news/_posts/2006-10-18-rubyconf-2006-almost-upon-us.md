@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf 2006 Almost Upon Us!"
-author: "James Edward Gray II"
+author: "John Long"
 lang: en
 ---
 

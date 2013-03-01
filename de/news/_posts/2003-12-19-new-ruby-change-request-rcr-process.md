@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "New Ruby Change Request (RCR) process"
-author: "sughimsi"
+author: "Unknown Author"
 lang: de
 ---
 

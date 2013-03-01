@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Pragmatic Bookshelf planning a series of Ruby books"
-author: "maki"
+author: "David Black"
 lang: ko
 ---
 

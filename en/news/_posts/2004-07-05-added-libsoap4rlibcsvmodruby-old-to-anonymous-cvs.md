@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "added lib/soap4r,lib/csv,mod_ruby-old to Anonymous CVS"
-author: "David Black"
+author: "Shugo Maeda"
 lang: en
 ---
 

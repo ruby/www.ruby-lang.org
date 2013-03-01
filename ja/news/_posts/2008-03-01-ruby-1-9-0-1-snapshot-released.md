@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.0-1 スナップショット公開"
-author: "Shugo Maeda"
+author: "maki"
 lang: ja
 ---
 

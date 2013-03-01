@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "サーバメンテナンスのお知らせ"
-author: "maki"
+author: "Shugo Maeda"
 lang: ja
 ---
 

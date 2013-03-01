@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Membuat Rack di atas JRuby"
-author: "Arie Kusuma Atmaja"
+author: "Hendy Irawan"
 lang: id
 ---
 

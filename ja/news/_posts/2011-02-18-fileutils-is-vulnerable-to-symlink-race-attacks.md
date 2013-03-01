@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "FileUtilsのsymlink race attack脆弱性について"
-author: "Yugui"
+author: "Shugo Maeda"
 lang: ja
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "\"Ruby Hacking Guide\" ist da, obwohl ..."
-author: "Matz"
+author: "NaHi"
 lang: de
 ---
 

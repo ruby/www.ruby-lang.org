@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "RubyFlow: Situs Berita Ruby Baru"
-author: "Hendy Irawan"
+author: "Arie Kusuma Atmaja"
 lang: id
 ---
 

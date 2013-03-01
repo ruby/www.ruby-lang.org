@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Color scheme of www.ruby-lang.org"
-author: "Matz"
+author: "NaHi"
 lang: ko
 ---
 

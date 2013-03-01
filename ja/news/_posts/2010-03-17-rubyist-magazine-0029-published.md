@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Rubyist Magazine 0029号 発行"
-author: "Urabe Shyouhei"
+author: "maki"
 lang: ja
 ---
 

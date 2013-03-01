@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Promise dan Peril Untuk Implementasi Alternatif Ruby"
-author: "Arie Kusuma Atmaja"
+author: "Hendy Irawan"
 lang: id
 ---
 

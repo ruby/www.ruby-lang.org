@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby Conference 2003"
-author: "Unknown Author"
+author: "sughimsi"
 lang: en
 ---
 

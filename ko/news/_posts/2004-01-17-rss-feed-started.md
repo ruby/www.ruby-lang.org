@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "RSS feed started"
-author: "Unknown Author"
+author: "sho"
 lang: ko
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3 rc1 リリース"
-author: "maki"
+author: "Shota Fukumori"
 lang: ja
 ---
 

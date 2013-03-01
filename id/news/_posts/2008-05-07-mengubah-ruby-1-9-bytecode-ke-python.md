@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Mengubah Ruby 1.9 Bytecode ke Python"
-author: "Arie Kusuma Atmaja"
+author: "Hendy Irawan"
 lang: id
 ---
 

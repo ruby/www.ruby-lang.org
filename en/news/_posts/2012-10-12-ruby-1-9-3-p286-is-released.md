@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3-p286 is released"
-author: "hosiawak"
+author: "usa"
 lang: en
 ---
 

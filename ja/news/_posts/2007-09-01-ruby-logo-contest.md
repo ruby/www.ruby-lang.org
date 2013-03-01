@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Rubyロゴコンテスト"
-author: "maki"
+author: "Shugo Maeda"
 lang: ja
 ---
 

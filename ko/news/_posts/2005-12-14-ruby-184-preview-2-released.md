@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.4 preview 2 released"
-author: "maki"
+author: "David Black"
 lang: ko
 ---
 

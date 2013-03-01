@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Exceptionのメソッドの$SAFE機構をバイパス可能な脆弱性について"
-author: "Yugui"
+author: "Shugo Maeda"
 lang: ja
 ---
 

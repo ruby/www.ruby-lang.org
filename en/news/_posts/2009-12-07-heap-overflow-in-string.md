@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Heap overflow in String"
-author: "Urabe Shyouhei"
+author: "Yugui"
 lang: en
 ---
 

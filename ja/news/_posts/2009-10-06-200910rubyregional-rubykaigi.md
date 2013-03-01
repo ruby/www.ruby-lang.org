@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "2009年10月開催の地域Ruby会議(Regional RubyKaigi)のおしらせ"
-author: "Shugo Maeda"
+author: "KAKUTANI Shintaro"
 lang: ja
 ---
 

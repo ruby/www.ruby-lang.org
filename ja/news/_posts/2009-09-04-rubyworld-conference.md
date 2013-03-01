@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "RubyWorld Conference"
-author: "SHIMADA Koji"
+author: "Shugo Maeda"
 lang: ja
 ---
 

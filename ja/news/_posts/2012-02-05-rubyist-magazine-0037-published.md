@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Rubyist Magazine 0037号 発行"
-author: "NARUSE, Yui"
+author: "Kazuhiro NISHIYAMA"
 lang: ja
 ---
 
