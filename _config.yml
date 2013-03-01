@@ -230,6 +230,18 @@ locales:
       - text: 關於 Ruby
         url: /zh_TW/about
 
+  month_names:
+    bg: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
+    de: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
+    en: [January, February, March, April, May, June, July, August, September, October, November, December]
+    es: [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
+    fr: [Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre]
+    id: [Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember]
+    it: [Gennaio, Febbraio, Marzo, Aprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
+    pl: [Styczeń, Luty, Marzec, Kwiecień, Maj, Czerwiec, Lipiec, Sierpień, Wrzesień, Październik, Listopad, Grudzień]
+    pt: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+    tr: [Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık]
+
   news:
     bg:
       continue: Още...
