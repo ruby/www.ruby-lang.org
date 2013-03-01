@@ -38,7 +38,7 @@ Ein paar der Höhepunkte:
   * Asynchrones API zum Behandeln von Exceptions
 
 * *Debugging-Unterstützung*
-  * Unterstützung von *DTrace*, sodass Runtime-Diagnoes in Pruduction
+  * Unterstützung von *DTrace*, sodass Runtime-Diagnosen in Produktion
     möglich werden
   * *TracePoint*, ein verbessertes Tracing-API
 
