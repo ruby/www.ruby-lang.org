@@ -4,11 +4,6 @@ module Jekyll
   module News
     class ArchivePage < Page
 
-      MONTHS = {
-        'de' => %W[None Januar Februar M\u00e4rz April Mai Juni Juli August September Oktober November Dezember],
-        'en' => %w[None January February March April May June July August September October November December]
-      }
-
       def initialize(site,base,layout,lang,posts)
         @site = site
         @base = base
@@ -37,7 +32,10 @@ module Jekyll
       end
 
       def month_names
-        MONTHS[@lang] || MONTHS['en']
+        month_names   = @site.config['locales']['month_names'][@lang]
+        month_names ||= @site.config['locales']['month_names']['en']
+
+        ['None'] + month_names
       end
 
     end
