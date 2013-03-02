@@ -15,6 +15,9 @@ module Jekyll
         @locales = @site.config['locales']['news'][@lang] ||
                    @site.config['locales']['news']['en']
 
+        @month_names = @site.config['locales']['month_names'][@lang] ||
+                       @site.config['locales']['month_names']['en']
+
         process(@name)
         read_yaml(File.join(base, '_layouts'),layout)
 
@@ -28,13 +31,6 @@ module Jekyll
         if @lang == 'pt' then 'noticias'
         else                  'news'
         end
-      end
-
-      def month_names
-        month_names   = @site.config['locales']['month_names'][@lang]
-        month_names ||= @site.config['locales']['month_names']['en']
-
-        ['None'] + month_names
       end
 
     end
@@ -55,7 +51,7 @@ module Jekyll
         data['title'] = title.gsub(/%Y|%m|%B/, {
                           '%Y' => @year.to_s,
                           '%m' => "%.2d" % @month,
-                          '%B' => month_names[@month]
+                          '%B' => @month_names[@month]
                         })
         data['year']  = year
       end
@@ -86,7 +82,7 @@ module Jekyll
             months.map { |month| month_link_text.gsub(/%Y|%m|%B/, {
                                    '%Y' => @year.to_s,
                                    '%m' => "%.2d" % month,
-                                   '%B' => month_names[month]
+                                   '%B' => @month_names[month]
                                  })
             }
           )
