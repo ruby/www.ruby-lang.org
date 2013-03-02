@@ -12,6 +12,9 @@ module Jekyll
         @dir     = File.join(@lang,news_dir)
         @name    = 'index.html'
 
+        @locales = @site.config['locales']['news'][@lang] ||
+                   @site.config['locales']['news']['en']
+
         process(@name)
         read_yaml(File.join(base, '_layouts'),layout)
 
@@ -25,10 +28,6 @@ module Jekyll
         if @lang == 'pt' then 'noticias'
         else                  'news'
         end
-      end
-
-      def locales
-        @site.config['locales']['news'][@lang] || @site.config['locales']['news']['en']
       end
 
       def month_names
@@ -51,7 +50,7 @@ module Jekyll
         @month = month
         @dir   = File.join(@dir,@year.to_s,"%.2d" % @month)
 
-        title = locales['monthly_archive_title']
+        title = @locales['monthly_archive_title']
 
         data['title'] = title.gsub(/%Y|%m|%B/, {
                           '%Y' => @year.to_s,
@@ -73,8 +72,8 @@ module Jekyll
         @year = year
         @dir  = File.join(@dir,@year.to_s)
 
-        title = locales['yearly_archive_title']
-        month_link_text = locales['monthly_archive_link']
+        title = @locales['yearly_archive_title']
+        month_link_text = @locales['monthly_archive_link']
 
         data['title'] = title.gsub('%Y', @year.to_s)
         data['year']   = @year
@@ -105,8 +104,8 @@ module Jekyll
       def initialize(site,base,lang,posts)
         super(site,base,LAYOUT,lang,posts)
 
-        title = locales['recent_news']
-        year_link_text = locales['yearly_archive_link']
+        title = @locales['recent_news']
+        year_link_text = @locales['yearly_archive_link']
 
         data['title'] = title
         data['posts'] = posts.last(MAX_POSTS).reverse
