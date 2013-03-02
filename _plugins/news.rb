@@ -33,6 +33,14 @@ module Jekyll
         end
       end
 
+      def insert_date(string, year, month = 0)
+        string.gsub(/%Y|%m|%B/, {
+          '%Y' => year.to_s,
+          '%m' => "%.2d" % month,
+          '%B' => @month_names[month]
+        })
+      end
+
     end
 
     class MonthlyArchive < ArchivePage
@@ -48,11 +56,7 @@ module Jekyll
 
         title = @locales['monthly_archive_title']
 
-        data['title'] = title.gsub(/%Y|%m|%B/, {
-                          '%Y' => @year.to_s,
-                          '%m' => "%.2d" % @month,
-                          '%B' => @month_names[@month]
-                        })
+        data['title'] = insert_date(title, @year, @month)
         data['year']  = year
       end
 
@@ -71,7 +75,7 @@ module Jekyll
         title = @locales['yearly_archive_title']
         month_link_text = @locales['monthly_archive_link']
 
-        data['title'] = title.gsub('%Y', @year.to_s)
+        data['title'] = insert_date(title, @year)
         data['year']   = @year
 
         months = posts.map { |post| post.date.month }.uniq
@@ -79,12 +83,7 @@ module Jekyll
         # hash with url => link_text (including year) elements
         data['months'] = Hash[
           months.map { |month| "%.2d" % month }.zip(
-            months.map { |month| month_link_text.gsub(/%Y|%m|%B/, {
-                                   '%Y' => @year.to_s,
-                                   '%m' => "%.2d" % month,
-                                   '%B' => @month_names[month]
-                                 })
-            }
+            months.map { |month| insert_date(month_link_text, @year, month) }
           )
         ]
       end
@@ -111,7 +110,7 @@ module Jekyll
         # hash with url => link_text elements
         data['years'] = Hash[
           years.map { |year| year.to_s }.zip(
-            years.map { |year| year_link_text.gsub(/%Y/, '%Y' => year.to_s) }
+            years.map { |year| insert_date(year_link_text, year) }
           )
         ]
       end
