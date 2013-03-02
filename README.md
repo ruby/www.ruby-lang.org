@@ -25,6 +25,5 @@ Note that creating the site may take several minutes.
 1. Compare [ruby-lang.github.com](http://ruby-lang.github.com/) to
    [www.ruby-lang.org](http://www.ruby-lang.org/). Submit Issues for any
    formatting mistakes.
-2. Generate the yearly/monthly News Post index pages.
-3. Auto-generate the Top Projects page using a `rake` task that pulls
+2. Auto-generate the Top Projects page using a `rake` task that pulls
    statistics from [www.rubygems.org](http://www.rubygems.org/).
