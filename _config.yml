@@ -242,6 +242,22 @@ locales:
     pt: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
     tr: [Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık]
 
+  posted_by:
+    bg: "Публикувана от AUTHOR на %Y-%m-%d"
+    de: "Geschrieben von AUTHOR am %-d.%-m.%Y"
+    en: "Posted by AUTHOR on %-d %b %Y"
+    es: "Publicado por AUTHOR el %Y-%m-%d"
+    fr: "Traduit le %d/%m/%Y par AUTHOR"
+    id: "Ditulis oleh AUTHOR tanggal %Y-%m-%d"
+    it: "Inserito da AUTHOR il %Y-%m-%d"
+#   ja:
+    ko: "작성자: AUTHOR (%Y-%m-%d)"
+    pl: "Zamieszczone przez AUTHOR %Y-%m-%d"
+    pt: "Escrito por AUTHOR em %Y-%m-%d"
+    tr: "AUTHOR tarafından %Y-%m-%s tarihinde gönderildi"
+    zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
+#   zh_TW:
+
   news:
     bg:
       continue: Още...
