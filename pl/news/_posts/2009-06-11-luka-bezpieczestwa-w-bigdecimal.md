@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Luka bezpieczeństwa w BigDecimal"
+author: "hosiawak"
 lang: pl
 ---
 

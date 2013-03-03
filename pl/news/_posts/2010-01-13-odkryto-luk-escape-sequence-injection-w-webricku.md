@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Odkryto lukę \"Escape Sequence Injection\" w WEBrick'u"
+author: "hosiawak"
 lang: pl
 ---
 

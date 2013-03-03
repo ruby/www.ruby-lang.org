@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RuPy 2009 - Strongly Dynamic Conference"
+author: "Jaroslaw Zabiello"
 lang: pl
 ---
 

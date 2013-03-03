@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Излезе Ruby 1.9.2"
+author: "Mitko Kostov"
 lang: bg
 ---
 

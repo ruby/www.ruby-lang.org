@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RuPy 2012 muito em breve"
+author: "Filipe Rocha"
 lang: pt
 ---
 

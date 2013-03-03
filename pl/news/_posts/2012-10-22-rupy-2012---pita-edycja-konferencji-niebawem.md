@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "RuPy 2012 - piąta edycja konferencji niebawem"
+author: "hosiawak"
 lang: pl
 ---
 

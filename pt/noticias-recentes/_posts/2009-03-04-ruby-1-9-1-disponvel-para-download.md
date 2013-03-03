@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.1 disponível para download"
+author: "Emanuel Mota"
 lang: pt
 ---
 

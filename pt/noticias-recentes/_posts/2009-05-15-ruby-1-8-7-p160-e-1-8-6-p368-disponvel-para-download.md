@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7-p160 e 1.8.6-p368 disponível para download"
+author: "Filipe Rocha"
 lang: pt
 ---
 
