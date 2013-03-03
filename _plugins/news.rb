@@ -17,6 +17,7 @@ module Jekyll
 
         @month_names = @site.config['locales']['month_names'][@lang] ||
                        @site.config['locales']['month_names']['en']
+        @month_names = ['None'] + @month_names
 
         process(@name)
         read_yaml(File.join(base, '_layouts'),layout)
