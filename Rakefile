@@ -160,7 +160,7 @@ namespace :import do
       'bg' => /Публикувана от (.+) на/,
       'de' => /Geschrieben von (.+) am/,
       'en' => /Posted by (.+) on/,
-      'es' => /Publicado por (.+) Caro el/,
+      'es' => /Publicado por (.+) el/,
       'fr' => /par (.+)/,
       'id' => /Ditulis oleh (.+) tanggal/,
       'it' => /Inserito da (.+) il/,
