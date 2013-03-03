@@ -267,12 +267,35 @@ desc "Imports #{HOST}"
 task :import => ['import:pages', 'import:news']
 
 namespace :check do
+  def author_variable_defined?(filename)
+    match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
+    return false  unless match_data
+    front_matter = match_data[1]
+
+    front_matter =~ /^author:.*$/
+  end
+
   def lang_variable_defined?(filename)
     match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
     return false  unless match_data
     front_matter = match_data[1]
 
     front_matter =~ /^lang: [a-zA-Z_]*$/
+  end
+
+  desc "Checks for missing author variables in news posts"
+  task :author do
+    print "Checking for missing author variables in news posts..."
+
+    md_files = Dir["**/_posts/*.md"]
+
+    author_missing = md_files.select {|fn| !author_variable_defined?(fn) }
+    if author_missing.empty?
+      puts " ok"
+    else
+      puts "\nNo author variable defined in:"
+      puts author_missing.map {|s| "  #{s}\n"}.join
+    end
   end
 
   desc "Checks for missing lang variables in markdown files"
@@ -331,4 +354,4 @@ namespace :check do
 end
 
 desc "Carries out some tests"
-task :check => ['check:lang']
+task :check => ['check:lang', 'check:author']
