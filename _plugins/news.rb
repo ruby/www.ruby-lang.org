@@ -29,7 +29,7 @@ module Jekyll
       end
 
       def news_dir
-        if @lang == 'pt' then 'noticias'
+        if @lang == 'pt' then 'noticias-recentes'
         else                  'news'
         end
       end
