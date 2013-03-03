@@ -22,11 +22,7 @@ layout: default
 
       <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
 
-      {% if post.author and post.author != "" %}
-      <p class="post-info">{{ post.author }} &ndash; {{ post.date | date_to_string }}</p>
-      {% else %}
-      <p class="post-info">{{ post.date | date_to_string }}</p>
-      {% endif %}
+      <p class="post-info">{{ post.date | posted_by:post.author }}</p>
     </div>
     {% endfor %}
   </div>
