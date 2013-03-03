@@ -247,7 +247,7 @@ locales:
     de: "Geschrieben von AUTHOR am %-d.%-m.%Y"
     en: "Posted by AUTHOR on %-d %b %Y"
     es: "Publicado por AUTHOR el %Y-%m-%d"
-    fr: "Traduit le %d/%m/%Y par AUTHOR"
+    fr: "Posté par AUTHOR le %Y-%m-%d"
     id: "Ditulis oleh AUTHOR tanggal %Y-%m-%d"
     it: "Inserito da AUTHOR il %Y-%m-%d"
 #   ja:
@@ -260,7 +260,7 @@ locales:
 
   news:
     bg:
-      continue: Още...
+      continue: Прочетете още...
       back_to_year: "Back to %Y Archives"
       recent_news: Последни новини
       yearly_archive_title: "%Y Archives"
