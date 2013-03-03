@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.0 ya está disponible"
-author: ""
+author: "Luis Lavena"
 lang: es
 ---
 

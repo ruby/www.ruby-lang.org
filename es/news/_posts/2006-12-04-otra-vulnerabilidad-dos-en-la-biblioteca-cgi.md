@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Otra vulnerabilidad DoS en la biblioteca CGI"
-author: ""
+author: "Diego Algorta Casamayou"
 lang: es
 ---
 

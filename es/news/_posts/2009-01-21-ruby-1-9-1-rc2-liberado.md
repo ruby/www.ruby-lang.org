@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.1-rc2 Liberado!"
-author: ""
+author: "Gabriel Máculus"
 lang: es
 ---
 

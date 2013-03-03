@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "MRuby: La nueva implementación ligera de Ruby."
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

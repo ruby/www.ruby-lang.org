@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Vulnerabilidad en el algoritmo Hash de Ruby."
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

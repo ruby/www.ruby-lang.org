@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Premios Fukuoka Ruby 2011"
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

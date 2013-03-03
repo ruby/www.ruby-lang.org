@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Parches de Seguridad para RubyGems."
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

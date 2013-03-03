@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7 está disponible!"
-author: ""
+author: "Gabriel Máculus"
 lang: es
 ---
 

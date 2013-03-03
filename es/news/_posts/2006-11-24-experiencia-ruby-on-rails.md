@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Experiencia Ruby on Rails"
-author: ""
+author: "Pedro Visintin"
 lang: es
 ---
 

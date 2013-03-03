@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "CVS de Ruby ahora en SVN"
-author: ""
+author: "Luis Lavena"
 lang: es
 ---
 

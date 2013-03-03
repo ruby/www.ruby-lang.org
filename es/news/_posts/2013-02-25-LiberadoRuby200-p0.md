@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Liberado Ruby 2.0.0-p0"
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

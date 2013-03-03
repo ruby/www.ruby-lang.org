@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Bootcamp de Ruby on Rails en Alemania"
-author: ""
+author: "Luis Lavena"
 lang: es
 ---
 

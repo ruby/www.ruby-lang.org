@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Cambio dirección IP"
-author: ""
+author: "Luis Lavena"
 lang: es
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Matz gana el Premio al Avance del Software Libre 2011."
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

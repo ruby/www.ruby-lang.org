@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "El logo de Ruby está disponible"
-author: ""
+author: "Diego Algorta Casamayou"
 lang: es
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Nuevo beta Ruby.NET con soporte interop"
-author: ""
+author: "Pedro Visintin"
 lang: es
 ---
 

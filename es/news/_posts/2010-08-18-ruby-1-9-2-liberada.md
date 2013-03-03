@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.2 liberada!"
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

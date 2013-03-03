@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Barcelona Ruby Conference 2013"
-author: "Manuel Ramos"
+author: "Manuel Ramos Caro"
 lang: es
 ---
 

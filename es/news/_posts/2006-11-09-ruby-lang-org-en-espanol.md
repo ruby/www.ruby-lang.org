@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby-Lang.org en español"
-author: ""
+author: "Michel Martens"
 lang: es
 ---
 
