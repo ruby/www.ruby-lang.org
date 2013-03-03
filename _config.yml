@@ -254,7 +254,7 @@ locales:
     ko: "작성자: AUTHOR (%Y-%m-%d)"
     pl: "Zamieszczone przez AUTHOR %Y-%m-%d"
     pt: "Escrito por AUTHOR em %Y-%m-%d"
-    tr: "AUTHOR tarafından %Y-%m-%s tarihinde gönderildi"
+    tr: "AUTHOR tarafından %Y-%m-%d tarihinde gönderildi"
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
 #   zh_TW:
 
