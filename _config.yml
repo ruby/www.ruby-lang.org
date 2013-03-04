@@ -109,6 +109,8 @@ locales:
         url: /id/community
       - text: Berita
         url: /id/news
+#     - text:
+#       url: /id/security
       - text: Tentang Ruby
         url: /id/about
     it:
@@ -169,6 +171,8 @@ locales:
         url: /pl/spolecznosc
       - text: Wiadomości
         url: /pl/news
+#     - text:
+#       url: /pl/security
       - text: O języku Ruby
         url: /pl/about
     pt:
@@ -182,6 +186,8 @@ locales:
         url: /pt/comunidade
       - text: Notícias
         url: /pt/noticias-recentes
+#     - text:
+#       url: /pt/security
       - text: Sobre Ruby
         url: /pt/sobre-o-ruby
     tr:
