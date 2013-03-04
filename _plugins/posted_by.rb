@@ -21,7 +21,7 @@ module Jekyll
       locales = @context.registers[:site].config['locales']['posted_by']
       posted_by = locales[lang] || locales['en']
 
-      if author.nil? || author.empty?
+      if author.nil? || author.empty? || author == 'Unknown Author'
         posted_by = "%Y-%m-%d"
       else
         posted_by = posted_by.gsub('AUTHOR', author)
