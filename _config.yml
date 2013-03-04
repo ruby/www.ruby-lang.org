@@ -765,9 +765,7 @@ locales:
           text: Menguasai Ruby dalam 20 Menit
           url: /id/documentation/quickstart/
         ruby_from_other_languages:
-          text: |
-            Dari Bahasa Pemrograman Lain ke Ruby
-            C/C++ · Java · PHP · Perl · Python
+          text: Dari Bahasa Pemrograman Lain ke Ruby
           url: /id/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Jelajahi</strong> sebuah dunia baru…
