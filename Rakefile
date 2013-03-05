@@ -74,6 +74,17 @@ def html_to_markdown(content_div)
     span.replace(span.inner_text)
   end
 
+  # replace <code><pre> elements with <pre><code>
+  content_div.search('code > pre').each do |pre|
+    code = pre.parent.dup
+    code.children.each {|child| child.unlink }
+    code.content = pre.content
+    pre.children.each {|child| child.unlink }
+    pre << code
+
+    pre.parent.replace(pre)
+  end
+
   # add Jekyll highlight tag to all pre elements
   # with class="code xy-code"
   content_div.search('pre.code').each do |pre|
