@@ -30,36 +30,41 @@ RubyGems，但还是有很多操作系统的没有这样做。如果这些命令
 
 **搜索**命令可以通过确定的名字来搜索 gem。要搜索一个名字里包含了 html 关键词的 gem：
 
- `
- $ gem search html --remote
+    
+     $ gem search html --remote
+    
+     *** REMOTE GEMS ***
+    
+     html-sample (1.0, 1.1)
+        A sample Ruby gem, just to illustrate how RubyGems works.
 
- *** REMOTE GEMS ***
-
- html-sample (1.0, 1.1)
-    A sample Ruby gem, just to illustrate how RubyGems works.
-` (*参数标志`--remote` 表明我们将要搜索的是 Rubyforge 的官方 gem。*)
+(*参数标志`--remote` 表明我们将要搜索的是 Rubyforge 的官方 gem。*)
 
 #### 安装一个 gem
 
 当你知道你想**安装**哪个 gem 的时候:
 
- `
- $ gem install html-sample
-` 你还可以使用 `--version` 参数标志来指定版本的安装资源库。
+    
+     $ gem install html-sample
 
- `
- $ gem install html-sample --version 1.0
-` #### 列出所有的 gem
+你还可以使用 `--version` 参数标志来指定版本的安装资源库。
+
+    
+     $ gem install html-sample --version 1.0
+
+#### 列出所有的 gem
 
 为了得到一个 Rubyforge 的所有 gem 的完整**列表**\:
 
- `
- $ gem list --remote
-` 要想只列出你已经安装的 gem，去掉后边那个标志参数。
+    
+     $ gem list --remote
 
- `
- $ gem list
-` 想要得到更多的关于使用 RubyGems 的信息，请参阅[**官方手册**][10] ，那里包含了一些在 Ruby 脚本中使用 gem 的例子。
+要想只列出你已经安装的 gem，去掉后边那个标志参数。
+
+    
+     $ gem list
+
+想要得到更多的关于使用 RubyGems 的信息，请参阅[**官方手册**][10] ，那里包含了一些在 Ruby 脚本中使用 gem 的例子。
 
 ### 安装 RubyGems
 {: #installing-rubygems}
@@ -69,12 +74,13 @@ RubyGems，但还是有很多操作系统的没有这样做。如果这些命令
 
 例如，在 linux 上:
 
- `
-$ tar xzvf rubygems-0.9.0.tar.gz
-$ cd rubygems-0.9.0
-$ su -
-# ruby setup.rb
-` 如果你需要更进一步的关于如何安装 Ruby 的指导，请翻阅 RubyGems 手册里的[**安装章节(installation
+    
+    $ tar xzvf rubygems-0.9.0.tar.gz
+    $ cd rubygems-0.9.0
+    $ su -
+    # ruby setup.rb
+
+如果你需要更进一步的关于如何安装 Ruby 的指导，请翻阅 RubyGems 手册里的[**安装章节(installation
 chapter)**][12] 。
 
 

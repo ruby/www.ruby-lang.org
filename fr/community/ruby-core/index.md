@@ -25,9 +25,10 @@ Pour récupérer la dernière version du code source Ruby, il faut réaliser
 un *check out* en se connectant au compte anonyme du dépôt Subversion.
 Dans un terminal :
 
- `
- $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
-` Le répertoire `ruby` contient maintenant le code source de Ruby 1.9.x
+    
+     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+
+Le répertoire `ruby` contient maintenant le code source de Ruby 1.9.x
 (tronc) dans sa dernière version. Le tronc a été dupliqué en Janvier
 2009 pour donner naissance à la branche stable 1.9.1. Actuellement, les
 patchs pour le tronc sont ensuite rétroappliqués à la branche `1_9_1`
@@ -37,13 +38,15 @@ Si vous êtes plutôt intéressé par le suivi des patchs appliqués à Ruby
 1.9.1 plutôt qu’à la branche de développement (tronc instable), il vous
 faut récupérer la branche stable par :
 
- `
- $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
-` Si vous êtes intéressés par la branche 1.8.6 ou 1.8.7 :
+    
+     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
 
- `
- $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_*
-` où `*` est `6` ou `7`.
+Si vous êtes intéressés par la branche 1.8.6 ou 1.8.7 :
+
+    
+     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_*
+
+où `*` est `6` ou `7`.
 
 Les développeurs travaillant sur Ruby 1.8 doivent migrer leurs
 modifications sur la branche principale, de sorte qu’en général, les
@@ -75,14 +78,16 @@ diffusion Ruby-Core, ils ne passent donc pas inaperçus.
 Pour résumer, les grandes étapes pour proposer un patch sont :
 
 1.  Récupérer une copie de travail de Ruby 1.8 depuis Subversion, sur la
-    branche `ruby_1_8` branch.`
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
-    `
+    branche `ruby_1_8` branch.
+        
+         $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+
 2.  Ajouter vos améliorations dans le code (dans le répertoire/dossier
     `ruby_1_8` en local).
-3.  Créer un patch.`
-     $ svn diff > ruby-1.8-changes.patch
-    `
+3.  Créer un patch.
+        
+         $ svn diff > ruby-1.8-changes.patch
+
 4.  [Envoyer][10] ce patch.
 
 **Note importante**\: les patchs doivent être au format [*unified

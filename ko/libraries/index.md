@@ -30,36 +30,41 @@ lang: ko
 특정 이름으로 젬을 찾기 위해서는 **search** 명령을 사용합니다. 예를 들어 “html”이란 단어를 포함한 젬을 찾고
 싶다면,
 
- `
- $ gem search html --remote
+    
+     $ gem search html --remote
+    
+     *** REMOTE GEMS ***
+    
+     html-sample (1.0, 1.1)
+        A sample Ruby gem, just to illustrate how RubyGems works.
 
- *** REMOTE GEMS ***
-
- html-sample (1.0, 1.1)
-    A sample Ruby gem, just to illustrate how RubyGems works.
-` (*@—remote@ 플래그는 루비포지의 공식 젬 서버에서 찾겠다는 의미입니다.*)
+(*@—remote@ 플래그는 루비포지의 공식 젬 서버에서 찾겠다는 의미입니다.*)
 
 #### 젬 설치하기
 
 어떤 젬을 설치하기를 원한다면 **install** 명령을 사용합니다.
 
- `
- $ gem install html-sample
-` `--version` 플래그를 이용하면 특정 버전을 지칭해서 설치할 수도 있습니다.
+    
+     $ gem install html-sample
 
- `
- $ gem install html-sample --version 1.0
-` #### 모든 젬의 목록
+`--version` 플래그를 이용하면 특정 버전을 지칭해서 설치할 수도 있습니다.
+
+    
+     $ gem install html-sample --version 1.0
+
+#### 모든 젬의 목록
 
 루비포지에 등록된 모든 젬의 목록을 볼 수도 있습니다.
 
- `
- $ gem list --remote
-` 현재 설치된 젬의 목록을 원한다면 플래그 없이 실행합니다.
+    
+     $ gem list --remote
 
- `
- $ gem list
-` RubyGems에 대한 보다 자세한 설명은 [**공식 매뉴얼**][10]을 참고하기 바랍니다. 여기에는 루비 스크립트에서 젬을
+현재 설치된 젬의 목록을 원한다면 플래그 없이 실행합니다.
+
+    
+     $ gem list
+
+RubyGems에 대한 보다 자세한 설명은 [**공식 매뉴얼**][10]을 참고하기 바랍니다. 여기에는 루비 스크립트에서 젬을
 사용하는 예제도 포함되어 있습니다.
 
 ### RubyGems 설치하기
@@ -70,12 +75,13 @@ RubyGems를 설치하기 위해서는 홈페이지에서 최신 버전을 [내�
 
 예를 들어 리눅스 환경이라면,
 
- `
-$ tar xzvf rubygems-0.9.0.tar.gz
-$ cd rubygems-0.9.0
-$ su -
-# ruby setup.rb
-` 설치 방법에 대한 더 자세한 지침을 보고 싶다면 RubyGems 매뉴얼에서 [**installation**][12] 부분을
+    
+    $ tar xzvf rubygems-0.9.0.tar.gz
+    $ cd rubygems-0.9.0
+    $ su -
+    # ruby setup.rb
+
+설치 방법에 대한 더 자세한 지침을 보고 싶다면 RubyGems 매뉴얼에서 [**installation**][12] 부분을
 참고하기 바랍니다.
 
 

@@ -41,40 +41,45 @@ Komenda **search** jest wykorzystywanwa do przeszukiwania gemów o
 określonej nazwie. Dla przykładu, aby znaleźć słowo “html” w nazwie
 gema, należy wydać polecenie:
 
- `
- $ gem search html --remote
+    
+     $ gem search html --remote
+    
+     *** REMOTE GEMS ***
+    
+     html-sample (1.0, 1.1)
+        A sample Ruby gem, just to illustrate how RubyGems works.
 
- *** REMOTE GEMS ***
-
- html-sample (1.0, 1.1)
-    A sample Ruby gem, just to illustrate how RubyGems works.
-` (*Flaga `--remote` mówi o tym, że będziemy przeszukiwać oficjalne,
+(*Flaga `--remote` mówi o tym, że będziemy przeszukiwać oficjalne,
 zdalne repozytorium RubyGems.*)
 
 #### Instalacja Gema
 
 Jeśli już wiesz, który gem Cię interesuje, wydaj polecenie **install**\:
 
- `
- $ gem install html-sample
-` Jeśli masz taką potrzebę, to przy pomocy flagi `--version` możesz
+    
+     $ gem install html-sample
+
+Jeśli masz taką potrzebę, to przy pomocy flagi `--version` możesz
 zainstalować określoną wersję.
 
- `
- $ gem install html-sample --version 1.0
-` #### Wyświetlanie wszystkich gemów
+    
+     $ gem install html-sample --version 1.0
+
+#### Wyświetlanie wszystkich gemów
 
 Aby zobaczyć kompletną listę wszystkich gemów dostępnych na Rubyforge,
 wydaj polecenie:
 
- `
- $ gem list --remote
-` Jeśli chcesz zobaczyć tylko lokalnie zainstalowane gemy, omiń flagę
+    
+     $ gem list --remote
+
+Jeśli chcesz zobaczyć tylko lokalnie zainstalowane gemy, omiń flagę
 `--remote`.
 
- `
- $ gem list
-` Aby dowiedzieć się więcej o RubyGems i ich zastosowaniu, przejrzyj
+    
+     $ gem list
+
+Aby dowiedzieć się więcej o RubyGems i ich zastosowaniu, przejrzyj
 [**oficjalną instrukcję**][10] (w języku angielskim), która zawiera
 wiele przykładów na użycie gemów we własnych skryptach.
 
@@ -87,12 +92,13 @@ niektórych systemach będziesz musiał zrobić to jako root.
 
 Na przykład, na Linuxie:
 
- `
-$ tar xzvf rubygems-0.9.0.tar.gz
-$ cd rubygems-0.9.0
-$ su -
-# ruby setup.rb
-` Jeśli chcesz dowiedzieć się więcej o instalacji Rubiego, przejrzyj
+    
+    $ tar xzvf rubygems-0.9.0.tar.gz
+    $ cd rubygems-0.9.0
+    $ su -
+    # ruby setup.rb
+
+Jeśli chcesz dowiedzieć się więcej o instalacji Rubiego, przejrzyj
 [**rozdział instalacja**][12] (w języku angielskim).
 
 

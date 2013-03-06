@@ -23,9 +23,10 @@ Die hier behandelten Themen zur Entwicklung von Ruby sind Folgende:
 Mit dem folgenden Kommandozeilenbefehl kannst du den aktuellsten
 Quelltext von Ruby über Subversion herunterladen (auschecken):
 
- `
- $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
-` Das Verzeichnis `ruby` enthält nun den vollständigen Quelltext der
+    
+     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+
+Das Verzeichnis `ruby` enthält nun den vollständigen Quelltext der
 Entwicklerversion Ruby 1.9. Bitte bedenke, dass es sich bei dieser
 Version um die absolut neuste Variante von Ruby handelt. Sie wird
 ständig weiterentwickelt und wird erst am Ende des Jahres 2007 offiziell
@@ -35,9 +36,10 @@ Wenn du Interesse an der Verbesserung von Ruby 1.8 hast, solltest du dir
 den Branch `ruby_1_8` genauer anschauen. Über den folgenden
 Kommandozeilenbefehl kannst du den Quelltext auschecken:
 
- `
- $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
-` Damit hast du die aktuelle Entwicklerversion des offiziellen Ruby 1.8
+    
+     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+
+Damit hast du die aktuelle Entwicklerversion des offiziellen Ruby 1.8
 Zweiges in das Verzeichnis `ruby_1_8` heruntergeladen. Entwickler die
 einen Patch für diese Version entwickeln, werden darum gebeten ebenfalls
 einen Patch für die Entwicklerversion 1.9 zu erstellen. Aufgrund dessen
@@ -70,14 +72,16 @@ Zusammendfassend sind folgende Schritte für das Erstellen eines Patches
 erforderlich:
 
 1.  Eine Kopie von Ruby 1.8 aus dem CVS auschecken. Dabei das Tag
-    `ruby_1_8` verwenden.`
-     $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
-         co -r ruby_1_8 -d ruby-1.8 ruby
-    `
+    `ruby_1_8` verwenden.
+        
+         $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
+             co -r ruby_1_8 -d ruby-1.8 ruby
+
 2.  Hinzufügen der eigenen Verbesserungen (im Verzeichnis `ruby-1.8`.)
-3.  Einen Patch erstellen.`
-     $ cvs diff > ruby-1.8-changes.patch
-    `
+3.  Einen Patch erstellen.
+        
+         $ cvs diff > ruby-1.8-changes.patch
+
 4.  [Abschicken][9] des neuen Patches.
 
 **Bitte beachten:** Patche sollten als [unified diff][10] abgeschickt

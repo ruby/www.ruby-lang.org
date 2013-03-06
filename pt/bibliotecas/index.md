@@ -38,38 +38,43 @@ funcionar consigo, consulte por favor, [Instalando a biblioteca
 O comando de **procura** pode ser usado para encontrar gemas com
 determinado nome. Para procurar a palavra “html” no nome da gema:
 
- `
- $ gem search html --remote
+    
+     $ gem search html --remote
+    
+     *** REMOTE GEMS ***
+    
+     html-sample (1.0, 1.1)
+        A sample Ruby gem, just to illustrate how RubyGems works.
 
- *** REMOTE GEMS ***
-
- html-sample (1.0, 1.1)
-    A sample Ruby gem, just to illustrate how RubyGems works.
-` (*A flag `--remote` indica que estamos a procurar nas gemas oficiais do
+(*A flag `--remote` indica que estamos a procurar nas gemas oficiais do
 RubyForge*)
 
 #### Instalando uma Gema
 
 Uma vez encontrada a gema que se deseja, **instalar**\:
 
- `
- $ gem install html-sample
-` Poderá também instalar uma determinada versão da biblioteca utilizando a
+    
+     $ gem install html-sample
+
+Poderá também instalar uma determinada versão da biblioteca utilizando a
 flag `--version`.
 
- `
- $ gem install html-sample --version 1.0
-` #### Listando Todas as Gemas
+    
+     $ gem install html-sample --version 1.0
+
+#### Listando Todas as Gemas
 
 Para uma **lista** completa de todas as gemas no *Rubyforge*\:
 
- `
- $ gem list --remote
-` Para listar somente as gemas que se instalaram, não use a flag.
+    
+     $ gem list --remote
 
- `
- $ gem list
-` Para mais informações acerca da utilização da biblioteca *RubyGems*,
+Para listar somente as gemas que se instalaram, não use a flag.
+
+    
+     $ gem list
+
+Para mais informações acerca da utilização da biblioteca *RubyGems*,
 veja [**o manual oficial**][10], que inclui exemplos para a gemas nas
 suas scripts.
 
@@ -83,12 +88,13 @@ como administrador.
 
 Em Linux, por exemplo:
 
- `
-$ tar xzvf rubygems-0.9.0.tar.gz
-$ cd rubygems-0.9.0
-$ su -
-# ruby setup.rb
-` Se necessitar mais instruções sobre como o Ruby, veja o [**capítulo de
+    
+    $ tar xzvf rubygems-0.9.0.tar.gz
+    $ cd rubygems-0.9.0
+    $ su -
+    # ruby setup.rb
+
+Se necessitar mais instruções sobre como o Ruby, veja o [**capítulo de
 instalação**][12] no manual da biblioteca *RubyGems*.
 
 

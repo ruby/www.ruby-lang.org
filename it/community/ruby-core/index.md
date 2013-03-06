@@ -23,18 +23,20 @@ I temi principali riguardanti lo sviluppo di Ruby sono:
 Per fare checkout del più recente codice Ruby, devi semplicemente fare
 il login usando l’account anonimo di Subversion. Dalla linea di comando:
 
- `
- $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
-` La directory `ruby` contiene il codice più recente per Ruby 1.9
+    
+     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+
+La directory `ruby` contiene il codice più recente per Ruby 1.9
 (“trunk”), il quale è la versione di sviluppo di Ruby, da essere
 rilasciata come versione 1.9.1 alla fine del 2008.
 
 Se sei interessato a seguire il patching di Ruby 1.8, devi fare checkout
 del branch `ruby_1_8`\:
 
- `
- $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
-` Questo comando effettua il checkout del development tree su una
+    
+     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+
+Questo comando effettua il checkout del development tree su una
 directory `ruby_1_8`. Ai programmatori che lavorano su Ruby 1.8 viene
 richiesto di migrare le loro modifiche sul ramo principale (Ruby trunk),
 con frequenza tale che i due rami restino molti simili, con l’eccezione
@@ -60,18 +62,22 @@ prendere parte alla discussione che ne seguirà.
 In sintesi, i passi per costruire un patch sono:
 
 1.  Se stai correggendo un bug in Ruby 1.8, fai il check out di una
-    copia di Ruby 1.8 da Subversion usando il ramo `ruby_1_8`.`
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
-    `Se desideri aggiungere una feature a Ruby, fai un check out del
-    ramo principale (‘trunk’) del Ruby source. Ricorda che perfino
-    quando vuoi aggiungere una feature a Ruby 1.8, deve prima essere
-    provata nel trunk.`
-     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
-    `
+    copia di Ruby 1.8 da Subversion usando il ramo `ruby_1_8`.
+        
+         $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+    
+    Se desideri aggiungere una feature a Ruby, fai un check out del ramo
+    principale (‘trunk’) del Ruby source. Ricorda che perfino quando
+    vuoi aggiungere una feature a Ruby 1.8, deve prima essere provata
+    nel trunk.
+        
+         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+
 2.  Aggiungi le tue modifiche al codice.
-3.  Crea una patch.`
-     $ svn diff > ruby-changes.patch
-    `
+3.  Crea una patch.
+        
+         $ svn diff > ruby-changes.patch
+
 4.  Invia per email la tua patch alla [Ruby-Core mailing
     list](/en/community/mailing-lists/)” con una entry sul
     CHANGELOG che descrive la patch.
