@@ -41,11 +41,11 @@ Komenda **search** jest wykorzystywanwa do przeszukiwania gemów o
 określonej nazwie. Dla przykładu, aby znaleźć słowo “html” w nazwie
 gema, należy wydać polecenie:
 
-    
+
      $ gem search html --remote
-    
+
      *** REMOTE GEMS ***
-    
+
      html-sample (1.0, 1.1)
         A sample Ruby gem, just to illustrate how RubyGems works.
 
@@ -56,13 +56,13 @@ zdalne repozytorium RubyGems.*)
 
 Jeśli już wiesz, który gem Cię interesuje, wydaj polecenie **install**\:
 
-    
+
      $ gem install html-sample
 
 Jeśli masz taką potrzebę, to przy pomocy flagi `--version` możesz
 zainstalować określoną wersję.
 
-    
+
      $ gem install html-sample --version 1.0
 
 #### Wyświetlanie wszystkich gemów
@@ -70,13 +70,13 @@ zainstalować określoną wersję.
 Aby zobaczyć kompletną listę wszystkich gemów dostępnych na Rubyforge,
 wydaj polecenie:
 
-    
+
      $ gem list --remote
 
 Jeśli chcesz zobaczyć tylko lokalnie zainstalowane gemy, omiń flagę
 `--remote`.
 
-    
+
      $ gem list
 
 Aby dowiedzieć się więcej o RubyGems i ich zastosowaniu, przejrzyj
@@ -92,7 +92,7 @@ niektórych systemach będziesz musiał zrobić to jako root.
 
 Na przykład, na Linuxie:
 
-    
+
     $ tar xzvf rubygems-0.9.0.tar.gz
     $ cd rubygems-0.9.0
     $ su -

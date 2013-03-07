@@ -91,43 +91,43 @@ sein.
 [ruby-1.9.2-p0.tar.bz2][4]
 
 : **MD5-Summe**
-  
+
   d8a02cadf57d2571cd4250e248ea7e4b
-  
+
   **SHA256**
-  
+
   e9710990ed8c2e794123aba509010471915fb13c27dae0118831d2001a9c8d3b
-  
+
   **Größe**
-  
+
   8\.495.472 Byte
 
 [ruby-1.9.2-p0.tar.gz][5]
 
 : **MD5-Summe**
-  
+
   755aba44607c580fddc25e7c89260460
-  
+
   **SHA256**
-  
+
   8c0c4e261a921b5c406bf9e76ac23bf3c915651534e9d1b9e8c5d0bee4a7285c
-  
+
   **Größe**
-  
+
   10\.787.899 Byte
 
 [ruby-1.9.2-p0.zip][6]
 
 : **MD5-Summe**
-  
+
   e57a393ccd62ddece4c63bd549d8cf7f
-  
+
   **SHA256**
-  
+
   e61521af06da71fde9f0c7c08baaf7415614d00c86ec5a7ab08b60a4f3185b2a
-  
+
   **Größe**
-  
+
   12\.159.728 Byte
 
 

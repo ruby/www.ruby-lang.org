@@ -39,11 +39,11 @@ Der Befehl **search** sucht nach Gems eines bestimmten Namens. Um einen
 Gem zu finden, dessen Name das Wort “html” enthält, gibst du
 beispielsweise Folgendes ein:
 
-    
+
      $ gem search html --remote
-    
+
      *** REMOTE GEMS ***
-    
+
      html-sample (1.0, 1.1)
         A sample Ruby gem, just to illustrate how RubyGems works.
 
@@ -54,13 +54,13 @@ durchsucht werden.*)
 
 Sobald du weißt, welchen Gem du installieren willst, gib Folgendes ein:
 
-    
+
      $ gem install html-sample
 
 Du kannst sogar nur eine spezielle Version der Bibliothek installieren,
 indem du den Parameter `--version` übergibst:
 
-    
+
      $ gem install html-sample --version 1.0
 
 #### Alle Gems auflisten
@@ -68,13 +68,13 @@ indem du den Parameter `--version` übergibst:
 Um eine komplette Liste aller Gems auf Ruyforge zu erhalten, verwende
 diesen Befehl:
 
-    
+
      $ gem list --remote
 
 Um lediglich die Gems aufzulisten, die installiert sind, lass den
 Parameter weg:
 
-    
+
      $ gem list
 
 Weiterführende Informationen zur Verwendung von RubyGems findest du im
@@ -92,7 +92,7 @@ musst.
 
 Unter Linux zum Beispiel folgendermaßen:
 
-    
+
     $ tar xzvf rubygems-0.9.0.tar.gz
     $ cd rubygems-0.9.0
     $ su -

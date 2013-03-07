@@ -273,7 +273,7 @@ class Fixnum
   end
   alias hour hours
 end
-  
+
 # 1 Ocak saat 00:00 dan itibaren 14 saat sonra
 # anca uyanmışsınız ;)
 Time.mktime(2011, 01, 01) + 14.hours # => Sat Jan 01 14:00:00

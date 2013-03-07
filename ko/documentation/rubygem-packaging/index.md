@@ -69,11 +69,11 @@ hello\_world.gemspec
           s.date    = '2010-03-01'
           s.summary = 'Hello World.'
           s.description = 'Print out Hellow World.'
-    
+
           s.author   = 'author'
           s.email    = 'mail@test.com'
           s.homepage = 'http://test.com/'
-    
+
           s.files = ["README", "CHANGELOG", "lib/hello_world.rb"]
         end
 
@@ -110,7 +110,7 @@ lib/hello\_world.rb
 
         require 'rubygems' if 1.9 > VERSION.to_f
         require 'hello_world'
-    
+
         HelloWorld.hello #=> "Hello World"
 
 ### 5. 마무리

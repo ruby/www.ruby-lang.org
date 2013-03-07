@@ -24,43 +24,43 @@ Siehe die [Tickets][3] und das [Changelog][4] für weitere Informationen.
 [ruby-1.9.3-p392.tar.bz2][5]
 
 : **MD5-Summe**
-  
+
   a810d64e2255179d2f334eb61fb8519c
-  
+
   **SHA256**
-  
+
   5a7334dfdf62966879bf539b8a9f0b889df6f3b3824fb52a9303c3c3d3a58391
-  
+
   **Größe**
-  
+
   10\.024.221 Byte
 
 [ruby-1.9.3-p392.tar.gz][6]
 
 : **MD5-Summe**
-  
+
   f689a7b61379f83cbbed3c7077d83859
-  
+
   **SHA256**
-  
+
   8861ddadb2cd30fb30e42122741130d12f6543c3d62d05906cd41076db70975f
-  
+
   **Größe**
-  
+
   12\.557.294 Byte
 
 [ruby-1.9.3-p392.zip][7]
 
 : **MD5-Summe**
-  
+
   212fb3bc41257b41d1f8bfe0725916b7
-  
+
   **SHA256**
-  
+
   f200ce4a63ce57bea64028a507350717c2a16bdbba6d9538bc69e9e7c2177c8b
-  
+
   **Größe**
-  
+
   13\.863.402 Byte
 
 ### Danksagung

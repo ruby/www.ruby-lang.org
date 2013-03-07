@@ -30,19 +30,19 @@ Bezugsquellen:
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2][4]
   Größe: 7190271 Bytes
-  
+
   MD5: 0278610ec3f895ece688de703d99143e
 ^
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz][5]
   Größe: 9025004 Bytes
-  
+
   MD5: 50e4f381ce68c6de72bace6d75f0135b
 ^
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip][6]
   Größe: 10273609 Bytes
-  
+
   MD5: 3377d43b041877cda108e243c6b7f436
 
 

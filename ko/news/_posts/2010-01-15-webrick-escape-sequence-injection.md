@@ -43,13 +43,13 @@ xterm의 창 제목을 확인해 보세요.
     * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz&gt;][1]
     * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2&gt;][2]
     * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip&gt;][3]
-  
+
   * 1\.9.1 pl. 378 업데이트 버전은 이 이슈를 수정하기 위해 공개 되었습니다. 1.9.1 사용자들에게 업그레이드를
     권장합니다.
     * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz&gt;][4]
     * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2&gt;][5]
     * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip&gt;][6]
-  
+
   * 1\.8.6 pl. 388 업데이트 버전은 이 이슈를 수정하기 위해 공개 되었습니다. 1.8.6 사용자들에게 업그레이드를
     권장합니다.
     * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz&gt;][7]

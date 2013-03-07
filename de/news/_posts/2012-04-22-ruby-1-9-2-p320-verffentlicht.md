@@ -54,43 +54,43 @@ Für nähere Informationen siehe die [Tickets][2] und das [Changelog][3].
 [ruby-1.9.2-p320.tar.bz2][4]
 
 : **MD5-Summe**
-  
+
   b226dfe95d92750ee7163e899b33af00
-  
+
   **SHA256**
-  
+
   6777f865cfa21ffdc167fcc4a7da05cb13aab1bd9e59bfcda82c4b32f75e6b51
-  
+
   **Größe**
-  
+
   8\.981.382 Byte
 
 [ruby-1.9.2-p320.tar.gz][5]
 
 : **MD5-Summe**
-  
+
   5ef5d9c07af207710bd9c2ad1cef4b42
-  
+
   **SHA256**
-  
+
   39a1f046e8756c1885cde42b234bc608196e50feadf1d0f202f7634f4a4b1245
-  
+
   **Größe**
-  
+
   11\.338.691 Byte
 
 [ruby-1.9.2-p320.zip][6]
 
 : **MD5-Summe**
-  
+
   0bdfd04bfeb0933c0bdcd00e4ea94c49
-  
+
   **SHA256**
-  
+
   83db9c86d5cf20bb91e625c3c9c1da8e61d941e1bc8ff4a1b9ea70c12f2972d3
-  
+
   **Größe**
-  
+
   12\.730.896 Byte
 
 

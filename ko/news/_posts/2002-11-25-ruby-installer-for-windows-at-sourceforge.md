@@ -10,7 +10,7 @@ Now you can get Ruby Installer For Windows from
 
 Excerpted from the site.
 
-    
+
     This is a "one-click", self-contained installer that
     comprises the Ruby language itself, dozens of popular
     extensions and packages, a syntax-highlighting editor

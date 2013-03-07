@@ -35,14 +35,14 @@ Entwicklerversion (1.9 Serien)
 1.8 Serie
 
 : Bitte aktualisieren Sie auf die Version 1.8.6-p111 oder 1.8.5-p114.
-  
+
   * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz&gt;][2]
   * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz&gt;][3]
-  
+
   Weiterhin sollten sie die Methode
   Net::HTTP#enable\_post\_connection\_check= nutzen um den
   post\_connection\_check zu aktivieren.
-  
+
       http = Net::HTTP.new(host, 443)
       http.use_ssl = true
       http.enable_post_connection_check = true
@@ -53,7 +53,7 @@ Entwicklerversion (1.9 Serien)
       http.start {
         response = http.get("/")
       }
-  
+
   Beachten Sie, dass eine fehlerbereinigte Version eventuell bereits
   über Ihren Paketmanager zur Verfügung stehen könnte.
 

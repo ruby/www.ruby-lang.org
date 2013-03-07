@@ -16,7 +16,7 @@ Un atacante puede provocar un ataque de denegación de servicio (DoS, por
 \"denial of service\") al intentar que la librería BigDecimal lea un
 número muy grande y lo transforme en Float. Por ejemplo:
 
-    
+
     BigDecimal("9E69999999").to_s("F")
 
 # Versiones de Ruby vulnerables

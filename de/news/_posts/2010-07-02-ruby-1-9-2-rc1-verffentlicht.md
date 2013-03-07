@@ -41,43 +41,43 @@ RubySpec. Probiert das neue Ruby aus und meldet Probleme mit Ruby 1.9.2
 [ruby-1.9.2-rc1.tar.bz2][5]
 
 : **MD5-Summe**
-  
+
   242dcfaed8359a6918941b55d0806bf0
-  
+
   **SHA256**
-  
+
   c2a680aa5472c8d04a71625afa2b0f75c030d3655a3063fe364cfda8b33c1480
-  
+
   **Größe**
-  
+
   8\.479.087 Byte
 
 [ruby-1.9.2-rc1.tar.gz][6]
 
 : **MD5-Summe**
-  
+
   fdedd5b42ae89a9a46797823ad2d9acf
-  
+
   **SHA256**
-  
+
   3e90036728342ce8463be00d42d4a36de70dabed96216c5f8a26ec9ba4b29537
-  
+
   **Größe**
-  
+
   10\.779.309 Byte
 
 [ruby-1.9.2-rc1.zip][7]
 
 : **MD5-Summe**
-  
+
   3da59c5d3567f6e1f1697abbef71f507
-  
+
   **SHA256**
-  
+
   4f593a3d0873cea8f371a7fc7484cad7bc03acac0ada1970cb9f83a89bc27997
-  
+
   **Größe**
-  
+
   12\.158.992 Byte
 
 

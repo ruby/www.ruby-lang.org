@@ -12,12 +12,12 @@ Following RAA/2.1, RAA XML Interfaces are updated.
 * plain XML URLs are changed.
   * [http://raa.ruby-lang.org/raa-xml.xml][1]
   * [http://raa.ruby-lang.org/raa-xml10.xml][2]
-  
+
   Latter only includes 10 recently updated items.
 * RSS/0.91 URLs are changed.
   * [http://raa.ruby-lang.org/raa-rdf.xml][3]
   * [http://raa.ruby-lang.org/raa-rdf10.xml][4]
-  
+
   Is there anyone who can help us to serve RSS/1.0 file?
 * YAML (not a XML!)
   * [http://raa.ruby-lang.org/raa-yaml.yml][5]

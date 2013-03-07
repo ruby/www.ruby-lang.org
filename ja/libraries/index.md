@@ -50,9 +50,9 @@ RubyGemsはシステムにインストール済みであったり、aptやports�
 次のようにして\"gem search\"コマンドでパターン\"mspec\"に合致するgemを検索できます。
 
     $ gem search mspec --remote
-    
+
      *** REMOTE GEMS ***
-    
+
      mspec (1.5.12)
 
 ### gemのインストール
@@ -70,9 +70,9 @@ RubyGemsはシステムにインストール済みであったり、aptやports�
 システムにインストールされているgemを一覧するには\"gem list\"コマンドを使用します
 
     $ gem list
-    
+
      *** LOCAL GEMS ***
-    
+
      activesupport (2.3.3)
      archive-tar-minitar (0.5.2)
      builder (2.1.2)

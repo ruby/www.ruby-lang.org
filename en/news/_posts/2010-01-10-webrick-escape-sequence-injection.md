@@ -49,13 +49,13 @@ Watch out for the window title of xterm.
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][2]
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][3]
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][4]
-  
+
   * **Update** 1.9.1 pl. 378 was released to fix this issue. 1.9.1 users
     are encouraged to upgrade.
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][5]
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][6]
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip][7]
-  
+
   * **Update** 1.8.6 pl. 388 was released to fix this issue. 1.8.6 users
     are encouraged to upgrade.
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz][8]

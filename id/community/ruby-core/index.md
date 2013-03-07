@@ -25,7 +25,7 @@ Instalasi [Subversion][1] terlebih dahulu.
 Lakukan `svn checkout` *source code* Ruby dengan login sebagai anonim.
 Jadi di *console* Anda ketik:
 
-    
+
      $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 Sekarang direktori `ruby` berisi *source code* Ruby 1.9 yang paling
@@ -35,7 +35,7 @@ dirilis sebagai 1.9.0 di akhir tahun 2007.
 Kalau Anda berminat mempatch Ruby 1.8, gunakan *branch* `ruby_1_8`
 ketika svn checkout:
 
-    
+
      $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
 
 Perintah tadi untuk *checkout* direktori pengembangan Ruby versi 1.8.
@@ -69,18 +69,18 @@ berikut:
 
 1.  Jika Anda memperbaiki bug di Ruby 1.8, check out dulu copy dari Ruby
     1.8 dengan svn pada branch `ruby_1_8`.
-        
+
          $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
-    
+
     Jika Anda ingin menambahkan fitur ke Ruby, lakukan check out dari
     `trunk` Ruby source. Walaupun jika Anda ingin menambahkan fitur ke
     Ruby 1.8, fitur tersebut harus disetujui dulu di trunk.
-        
+
          $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 2.  Tambahkan perbaikan Anda ke *source code* Ruby.
 3.  Buat patch untuk perbaikan Anda.
-        
+
          $ svn diff > ruby-changes.patch
 
 4.  Email patch Anda ke [milis

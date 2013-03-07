@@ -40,7 +40,7 @@ xtermのウィンドウタイトルを見てください。
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][1]
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][2]
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][3]
-  
+
   * **Update** 1.9.1 pl. 378がリリースされました。 1.9.1利用者には更新を推奨します。
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][4]
     * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][5]

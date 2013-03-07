@@ -40,16 +40,16 @@ contournement :
 
     class REXML::Document
       @@entity_expansion_text_limit = 10_240
-    
+
       def self.entity_expansion_text_limit=( val )
         @@entity_expansion_text_limit = val
       end
-    
+
       def self.entity_expansion_text_limit
         @@entity_expansion_text_limit
       end
     end
-    
+
     class REXML::Text
       def self.unnormalize(string, doctype=nil, filter=nil, illegal=nil)
         sum = 0
@@ -63,7 +63,7 @@ contournement :
           s
         }
       end
-    
+
       def self.expand(ref, doctype, filter)
         if ref[1] == ?#
           if ref[2] == ?x

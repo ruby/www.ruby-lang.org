@@ -40,11 +40,11 @@ Il comando **search** può essere usato per cercare delle gemme con un
 creto nome. Per cercare la parola “html” nel nome di una gemma, fai
 così:
 
-    
+
      $ gem search html --remote
-    
+
      *** REMOTE GEMS ***
-    
+
      html-sample (1.0, 1.1)
         A sample Ruby gem, just to illustrate how RubyGems works.
 
@@ -56,13 +56,13 @@ RubyForge.*)
 Una volta che conosci il nome della gemma che ti serve, la puoi
 installare con il comando **install**\:
 
-    
+
      $ gem install html-sample
 
 Puoi anche installare solamente una determinata versione della libreria
 specificando il flag `--version`.
 
-    
+
      $ gem install html-sample --version 1.0
 
 #### Elencare tutte le gemme
@@ -70,13 +70,13 @@ specificando il flag `--version`.
 Per una lista completa di tutte le gemme presenti su RubyForge, usa il
 comando **list**\:
 
-    
+
      $ gem list --remote
 
 Per una lista di tutte le gemme installate localmente, non specificare
 il flag `--remote`.
 
-    
+
      $ gem list
 
 Per maggiori informazioni su RubyGems, vedi [**il manuale
@@ -92,7 +92,7 @@ potrebbe essere necessario eseguirlo come utente root.
 
 Per esempio, su Linux:
 
-    
+
     $ tar xzvf rubygems-0.9.0.tar.gz
     $ cd rubygems-0.9.0
     $ su -

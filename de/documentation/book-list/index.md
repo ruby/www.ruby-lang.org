@@ -20,7 +20,7 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 <div class="by-line">von Daniel Bovensiepen</div>
     <div class="isbn">ISBN-13 978-3826674594</div>
     <div class="release-date">Juni 2007 </div>
-  
+
 </td>
 </tr>
 <tr class="book">
@@ -33,7 +33,7 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 <div class="by-line">von Sascha Kersken</div>
     <div class="isbn">ISBN-13 978-3897214781</div>
     <div class="release-date">Februar 2007 </div>
-  
+
 </td>
 </tr>
 <tr class="book">
@@ -45,7 +45,7 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 <div class="by-line">von Dirk Engel und Klaus Spreckelsen</div>
     <div class="isbn">ISBN-13 978-3826672422</div>
     <div class="release-date">September 2002</div>
-  
+
 </td>
 </tr>
 <tr class="book">
@@ -58,7 +58,7 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 <div class="by-line">von Armin Röhrl, Stefan Schmiedl und Clemens Wyss</div>
     <div class="isbn">ISBN-13 978-3898641517</div>
     <div class="release-date">März 2002</div>
-  
+
 </td>
 </tr>
 <tr class="book">
@@ -70,7 +70,7 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 <div class="by-line">von David Thomas und Andrew Hunt</div>
     <div class="isbn">ISBN-13 978-3827319654</div>
     <div class="release-date">Februar 2002</div>
-  
+
 </td>
 </tr>
 </table>
@@ -88,7 +88,7 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 <div class="by-line">von R. R. Höppel</div>
     <div class="isbn">ISBN-13 978-3540007623</div>
     <div class="release-date">Mai 2008</div>
-  
+
 </td>
 </tr></table>
 

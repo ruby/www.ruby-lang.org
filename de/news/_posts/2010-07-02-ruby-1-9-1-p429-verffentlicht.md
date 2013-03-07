@@ -35,43 +35,43 @@ Die Sicherheitslücke wurde von Masaya TARUI gefunden und gemeldet.
 [ruby-1.9.1-p429.tar.bz2][1]
 
 : **MD5-Summe**
-  
+
   09df32ae51b6337f7a2e3b1909b26213
-  
+
   **SHA256**
-  
+
   e0b9471d77354628a8041068f45734eb2d99f5b5df08fe5a76d785d989a47bfb
-  
+
   **Größe**
-  
+
   7\.300.923 Byte
 
 [ruby-1.9.1-p429.tar.gz][2]
 
 : **MD5-Summe**
-  
+
   0f6d7630f26042e00bc59875755cf879
-  
+
   **SHA256**
-  
+
   fdd97f52873b70f378ac73c76a1b2778e210582ce5fe1e1c241c37bd906b43b2
-  
+
   **Größe**
-  
+
   9\.078.126 Byte
 
 [ruby-1.9.1-p429.zip][3]
 
 : **MD5-Summe**
-  
+
   fcd031414e5e4534f97aa195bb586d6c
-  
+
   **SHA256**
-  
+
   c9fe2364b477ad004030f4feeb89aeaa2a01675ff95db1bed31a932806f85680
-  
+
   **Größe**
-  
+
   10\.347.659 Byte
 
 

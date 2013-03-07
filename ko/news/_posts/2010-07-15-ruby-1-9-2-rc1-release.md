@@ -34,30 +34,30 @@ Ruby 1.9.2은 8월초 릴리즈될 예정입니다. 1.9.2 릴리즈 스케쥴은
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2&gt;][5]
   SIZE
   : 8479087 bytes
-  
+
   MD5
   : 242dcfaed8359a6918941b55d0806bf0
-  
+
   SHA256
   : c2a680aa5472c8d04a71625afa2b0f75c030d3655a3063fe364cfda8b33c1480
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz&gt;][6]
   SIZE
   : 10779309 bytes
-  
+
   MD5
   : fdedd5b42ae89a9a46797823ad2d9acf
-  
+
   SHA256
   : 3e90036728342ce8463be00d42d4a36de70dabed96216c5f8a26ec9ba4b29537
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip&gt;][7]
   SIZE
   : 12158992 bytes
-  
+
   MD5
   : 3da59c5d3567f6e1f1697abbef71f507
-  
+
   SHA256
   : 4f593a3d0873cea8f371a7fc7484cad7bc03acac0ada1970cb9f83a89bc27997
 

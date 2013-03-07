@@ -18,7 +18,7 @@ exclusive à Rails.
 Un attaquant peut provoquer un DOS en forçant BigDecimal à scanner un
 nombre immense, du type :
 
-    
+
     BigDecimal("9E69999999").to_s("F")
 
 # Versions touchées

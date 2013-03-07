@@ -42,43 +42,43 @@ worden. VM-Locking ist geändert worden.
 [ruby-1.9.3-preview1.tar.bz2][5]
 
 : **MD5-Summe**
-  
+
   7d93dc773c5824f05c6e6630d8c4bf9b
-  
+
   **SHA256**
-  
+
   a15d7924d74a45ffe48d5421c5fc4ff83b7009676054fa5952b890711afef6fc
-  
+
   **Größe**
-  
+
   9\.507.455 Byte
 
 [ruby-1.9.3-preview1.tar.gz][6]
 
 : **MD5-Summe**
-  
+
   0f0220be4cc7c51a82c1bd8f6a0969f3
-  
+
   **SHA256**
-  
+
   75c2dd57cabd67d8078a61db4ae86b22dc6f262b84460e5b95a0d8a327b36642
-  
+
   **Größe**
-  
+
   12\.186.410 Byte
 
 [ruby-1.9.3-preview1.zip][7]
 
 : **MD5-Summe**
-  
+
   960e08b2dc866c9987f17d0480de63a1
-  
+
   **SHA256**
-  
+
   249483f88156b4ae65cd45742c6f6316660f793b78739657596c63b86f76aaeb
-  
+
   **Größe**
-  
+
   13\.696.708 Byte
 
 

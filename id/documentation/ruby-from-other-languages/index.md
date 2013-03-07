@@ -318,7 +318,7 @@ class Fixnum
   end
   alias hour hours
 end
-  
+
 # 14 hours from 00:00 January 1st
 # jadi 14 jam dari jam 00:00 pada tanggal 1 Januari
 Time.mktime(2007, 01, 01) + 14.hours # => Sun Jan 01 14:00:00

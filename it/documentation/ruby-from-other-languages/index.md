@@ -290,7 +290,7 @@ class Fixnum
   end
   alias hour hours
 end
-  
+
 # 14 ore dalla mezzanotte del primo gennaio 2006
 Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 {% endhighlight %}

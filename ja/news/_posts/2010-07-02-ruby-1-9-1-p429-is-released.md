@@ -29,30 +29,30 @@ Ruby 1.9を1.9.1-p429または1.9.2-rc1に更新することを推奨します�
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2&gt;][1]
   SIZE
   : 7300923 bytes
-  
+
   MD5
   : 09df32ae51b6337f7a2e3b1909b26213
-  
+
   SHA256
   : e0b9471d77354628a8041068f45734eb2d99f5b5df08fe5a76d785d989a47bfb
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz&gt;][2]
   SIZE
   : 9078126 bytes
-  
+
   MD5
   : 0f6d7630f26042e00bc59875755cf879
-  
+
   SHA256
   : fdd97f52873b70f378ac73c76a1b2778e210582ce5fe1e1c241c37bd906b43b2
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip&gt;][3]
   SIZE
   : 10347659 bytes
-  
+
   MD5
   : fcd031414e5e4534f97aa195bb586d6c
-  
+
   SHA256
   : c9fe2364b477ad004030f4feeb89aeaa2a01675ff95db1bed31a932806f85680
 

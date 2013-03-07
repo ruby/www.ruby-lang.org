@@ -30,11 +30,11 @@ lang: ko
 특정 이름으로 젬을 찾기 위해서는 **search** 명령을 사용합니다. 예를 들어 “html”이란 단어를 포함한 젬을 찾고
 싶다면,
 
-    
+
      $ gem search html --remote
-    
+
      *** REMOTE GEMS ***
-    
+
      html-sample (1.0, 1.1)
         A sample Ruby gem, just to illustrate how RubyGems works.
 
@@ -44,24 +44,24 @@ lang: ko
 
 어떤 젬을 설치하기를 원한다면 **install** 명령을 사용합니다.
 
-    
+
      $ gem install html-sample
 
 `--version` 플래그를 이용하면 특정 버전을 지칭해서 설치할 수도 있습니다.
 
-    
+
      $ gem install html-sample --version 1.0
 
 #### 모든 젬의 목록
 
 루비포지에 등록된 모든 젬의 목록을 볼 수도 있습니다.
 
-    
+
      $ gem list --remote
 
 현재 설치된 젬의 목록을 원한다면 플래그 없이 실행합니다.
 
-    
+
      $ gem list
 
 RubyGems에 대한 보다 자세한 설명은 [**공식 매뉴얼**][10]을 참고하기 바랍니다. 여기에는 루비 스크립트에서 젬을
@@ -75,7 +75,7 @@ RubyGems를 설치하기 위해서는 홈페이지에서 최신 버전을 [내�
 
 예를 들어 리눅스 환경이라면,
 
-    
+
     $ tar xzvf rubygems-0.9.0.tar.gz
     $ cd rubygems-0.9.0
     $ su -

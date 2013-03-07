@@ -23,7 +23,7 @@ Die hier behandelten Themen zur Entwicklung von Ruby sind Folgende:
 Mit dem folgenden Kommandozeilenbefehl kannst du den aktuellsten
 Quelltext von Ruby über Subversion herunterladen (auschecken):
 
-    
+
      $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 Das Verzeichnis `ruby` enthält nun den vollständigen Quelltext der
@@ -36,7 +36,7 @@ Wenn du Interesse an der Verbesserung von Ruby 1.8 hast, solltest du dir
 den Branch `ruby_1_8` genauer anschauen. Über den folgenden
 Kommandozeilenbefehl kannst du den Quelltext auschecken:
 
-    
+
      $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
 
 Damit hast du die aktuelle Entwicklerversion des offiziellen Ruby 1.8
@@ -73,13 +73,13 @@ erforderlich:
 
 1.  Eine Kopie von Ruby 1.8 aus dem CVS auschecken. Dabei das Tag
     `ruby_1_8` verwenden.
-        
+
          $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
              co -r ruby_1_8 -d ruby-1.8 ruby
 
 2.  Hinzufügen der eigenen Verbesserungen (im Verzeichnis `ruby-1.8`.)
 3.  Einen Patch erstellen.
-        
+
          $ cvs diff > ruby-1.8-changes.patch
 
 4.  [Abschicken][9] des neuen Patches.

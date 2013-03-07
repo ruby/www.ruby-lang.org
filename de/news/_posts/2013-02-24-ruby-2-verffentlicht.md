@@ -72,7 +72,7 @@ und Methoden geschrieben; insgesamt ist 2.0.0 zu rund 75% dokumentiert,
 wohingegen 1.9.3 nur zu etwa 60% abgedeckt war. Daneben gibt es nun eine
 Beschreibung von Rubys Syntax, einsehbar mit:
 
-    
+
     ri ruby:syntax
 
 #### Stabilität
@@ -168,43 +168,43 @@ Vielen Dank euch allen!
 [ruby-2.0.0-p0.tar.bz2][12]
 
 : **MD5-Summe**
-  
+
   895c1c581f8d28e8b3bb02472b2ccf6a
-  
+
   **SHA256**
-  
+
   c680d392ccc4901c32067576f5b474ee186def2fcd3fcbfa485739168093295f
-  
+
   **Größe**
-  
+
   10\.814.890 Byte
 
 [ruby-2.0.0-p0.tar.gz][13]
 
 : **MD5-Summe**
-  
+
   50d307c4dc9297ae59952527be4e755d
-  
+
   **SHA256**
-  
+
   aff85ba5ceb70303cb7fb616f5db8b95ec47a8820116198d1c866cc4fff151ed
-  
+
   **Größe**
-  
+
   13\.608.925 Byte
 
 [ruby-2.0.0-p0.zip][14]
 
 : **MD5-Summe**
-  
+
   db5af5d6034646ad194cbdf6e50f49ee
-  
+
   **SHA256**
-  
+
   0d0af6a9c8788537efd8d7d2358ce9468e6e2b7703dacba9ebd064d8b7da5f99
-  
+
   **Größe**
-  
+
   15\.037.340 Byte
 
 

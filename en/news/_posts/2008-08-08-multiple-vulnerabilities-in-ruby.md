@@ -17,9 +17,9 @@ The following vulnerabilities have been discovered.
 Several vulnerabilities in safe level have been discovered.
 
 * untrace\_var is permitted at safe level 4.
-  
+
       trace_var(:$VAR) {|val| puts "$VAR = #{val}" }
-      
+
       Thread.new do
        $SAFE = 4
        eval %q{
@@ -29,16 +29,16 @@ Several vulnerabilities in safe level have been discovered.
       end.join
 
 * $PROGRAM\_NAME may be modified at safe level 4.
-  
+
       Thread.new do
        $SAFE = 4
        eval %q{$PROGRAM_NAME.replace "Hello, World!"}
       end.join
-      
+
       $PROGRAM_NAME #=> "Hello, World!"
 
 * Insecure methods may be called at safe level 1-3.
-  
+
       class Hello
        def world
          Thread.new do
@@ -52,7 +52,7 @@ Several vulnerabilities in safe level have been discovered.
          end.value
        end
       end
-      
+
       $SAFE = 1 # or 2, or 3
       s = Hello.new.world
       if s.kind_of?(String)
@@ -60,11 +60,11 @@ Several vulnerabilities in safe level have been discovered.
       end
 
 * Syslog operations are permitted at safe level 4.
-  
+
       require "syslog"
-      
+
       Syslog.open
-      
+
       Thread.new do
        $SAFE = 4
        eval %q{
@@ -146,7 +146,7 @@ This vulnerability was reported by Tanaka Akira.
 1.9 series
 
 : Please check out the latest version using Subversion.
-  
+
       $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 Please note that a package that corrects this weakness may already be

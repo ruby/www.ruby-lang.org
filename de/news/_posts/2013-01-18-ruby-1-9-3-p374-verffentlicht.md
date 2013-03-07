@@ -25,43 +25,43 @@ empfehlen wir Nutzern früherer Releases (insbesondere p362) ein Update.
 [ruby-1.9.3-p374.tar.bz2][3]
 
 : **MD5-Summe**
-  
+
   944e73eba9ee9e1f2647ff32ec0b14b2
-  
+
   **SHA256**
-  
+
   712944f691b79f22f655547826400c26b13bc8c9e7bdc73a4abea45d5e766d85
-  
+
   **Größe**
-  
+
   10\.017.658 Byte
 
 [ruby-1.9.3-p374.tar.gz][4]
 
 : **MD5-Summe**
-  
+
   90b6c327abcdf30a954c2d6ae44da2a9
-  
+
   **SHA256**
-  
+
   0d0e32a3554867e3eddbb23fbf30a72c4748622e010c23e31302d899fc005574
-  
+
   **Größe**
-  
+
   12\.555.429 Byte
 
 [ruby-1.9.3-p374.zip][5]
 
 : **MD5-Summe**
-  
+
   c0001d5d36ad2e3e6a84810abe585b79
-  
+
   **SHA256**
-  
+
   058af4cf409c93cce1de74a6b3355ddcf740f3efae1ab02d63471fcdbed19088
-  
+
   **Größe**
-  
+
   13\.871.394 Byte
 
 ### Danksagung

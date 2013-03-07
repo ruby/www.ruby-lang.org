@@ -18,7 +18,7 @@ Rails).
 Atak \"odmowy dostępu\" można wywołać wysyłając bardzo dużą liczbę do
 BigDecimal do sparsowania, np:
 
-    
+
     BigDecimal("9E69999999").to_s("F")
 
 # Wersje Ruby dotknięte tym problemem

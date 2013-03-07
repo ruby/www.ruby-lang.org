@@ -14,7 +14,7 @@ ActiveRecord 也用了 BigDecimal 轉換到浮點數，因此大部分的 Rails 
 
 攻擊者因為 BigDecimal 解析一個錯誤的極大的數字而造成中斷服務。 如以下例子:
 
-    
+
     BigDecimal("9E69999999").to_s("F")
 
 # 有問題的版本

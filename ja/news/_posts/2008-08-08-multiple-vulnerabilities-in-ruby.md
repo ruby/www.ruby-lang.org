@@ -16,9 +16,9 @@ Rubyに複数の脆弱性が発見されました。最新バージョンへの�
 セーフレベルにいくつかの脆弱性が発見されました。
 
 * untrace\_varがセーフレベル4で実行可能です。
-  
+
       trace_var(:$VAR) {|val| puts "$VAR = #{val}" }
-      
+
       Thread.new do
        $SAFE = 4
        eval %q{
@@ -28,16 +28,16 @@ Rubyに複数の脆弱性が発見されました。最新バージョンへの�
       end.join
 
 * $PROGRAM\_NAMEがセーフレベル4で変更可能です。
-  
+
       Thread.new do
        $SAFE = 4
        eval %q{$PROGRAM_NAME.replace "Hello, World!"}
       end.join
-      
+
       $PROGRAM_NAME #=> "Hello, World!"
 
 * 安全でないメソッドがセーフレベル1〜3で呼び出される可能性があります。
-  
+
       class Hello
        def world
          Thread.new do
@@ -51,7 +51,7 @@ Rubyに複数の脆弱性が発見されました。最新バージョンへの�
          end.value
        end
       end
-      
+
       $SAFE = 1 # or 2, or 3
       s = Hello.new.world
       if s.kind_of?(String)
@@ -59,11 +59,11 @@ Rubyに複数の脆弱性が発見されました。最新バージョンへの�
       end
 
 * Syslogの操作がセーフレベル4で実行可能です。
-  
+
       require "syslog"
-      
+
       Syslog.open
-      
+
       Thread.new do
        $SAFE = 4
        eval %q{
@@ -146,7 +146,7 @@ resolv.rbには、リモートの攻撃者が偽造したDNS問い合わせの�
 1.9 series
 
 : Subversionで最新版をチェックアウトしてください。
-  
+
       $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 Rubyのパッケージを配布している各ベンダから、この脆弱性を修正した版のパッケージが提供されている場合もあります。詳細については各ベンダにお問い合わせください。

@@ -27,12 +27,12 @@ net/http.rbでは、SSL接続の際に、証明書のCNがリクエスト先のD
 1.8系
 
 : 1\.8.6-p111または1.8.5-p114にアップグレードしてください。
-  
+
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz&gt;][2]
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz&gt;][3]
-  
+
   チェックを有効にするためには、以下のようにNet::HTTP#enable\_post\_connection\_check=を使用する必要があります。
-  
+
       http = Net::HTTP.new(host, 443)
       http.use_ssl = true
       http.enable_post_connection_check = true
@@ -43,7 +43,7 @@ net/http.rbでは、SSL接続の際に、証明書のCNがリクエスト先のD
       http.start {
         response = http.get("/")
       }
-  
+
   また、Rubyのパッケージを配布している各ベンダから、それぞれ、この脆弱性を修正した版のパッケージが提供されている場合もあります。詳細については各ベンダにお問い合わせください。
 
 開発版(1.9系)

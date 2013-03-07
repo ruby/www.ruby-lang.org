@@ -28,7 +28,7 @@ Os tópicos relacionados com o desenvolvimento do Ruby cobertos aqui são:
 Para fazer o *check out* da última versão do código fonte basta fazer
 login na conta *anonymous* do repositório CVS. Da sua linha de comandos:
 
-    
+
      $ cvs -d :pserver:anonymous@cvs.ruby-lang.org:/src login
      (Logging in to anonymous@cvs.ruby-lang.org)
      CVS password: 
@@ -41,7 +41,7 @@ Ruby, a ser distribuída como versão 2.0 mais tarde.
 Se desejar seguir a última versão do Ruby 1.8, deverá utilizar a
 etiqueta `ruby_1_8` quando fizer *check out*\:
 
-    
+
      $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
          co -r ruby_1_8 -d ruby-1.8 ruby
 
@@ -68,7 +68,7 @@ bytecode para compilar *scripts* de Ruby.
 Poderá fazer *check out* da YARV utilizando Subversion para testes
 pessoais:
 
-    
+
      $ svn co http://www.atdot.net/svn/yarv/trunk yarv
 
 Para instruções de instalação ver o ficheiro README. O programador
@@ -87,14 +87,14 @@ Para resumir, os passos para criar um *patch* são:
 
 1.  Fazer *check out* de uma cópia do Ruby 1.8 do repositório CVS,
     utilizando a etiqueta `ruby_1_8`.
-        
+
          $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
              co -r ruby_1_8 -d ruby-1.8 ruby
 
 2.  Adicione os seus melhoramentos ao código (agora na directoria
     `ruby-1.8`.)
 3.  Criar um *patch*.
-        
+
          $ cvs diff > ruby-1.8-changes.patch
 
 4.  [Enviar][7] o seu novo\_patch\_.

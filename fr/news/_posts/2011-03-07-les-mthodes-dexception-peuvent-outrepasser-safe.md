@@ -20,13 +20,13 @@ vérifications, ce qui rend possible la corruption de chaîne de
 caractères pure. Un exemple du mécanisme serait le suivant :
 
     $secret_path = "foo"
-    
+
     proc do
         $SAFE = 4
         Exception.new($secret_path).to_s
         $secret_path.replace "/etc/passwd"
     end.call
-    
+
     open($secret_path) do
       ...
     end

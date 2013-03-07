@@ -12,17 +12,17 @@ Der Quelltext ist in den folgenden drei Formaten verfügbar:
 
 [**ruby-1.8.6.tar.bz2**][2] <small style="font-weight:normal">(3.8 MB)</small>
 : 
-        
+
         md5: e558a0e00ae318d43bf6ff9af452bad2
 
 [**ruby-1.8.6.tar.gz**][3] <small style="font-weight:normal">(4.4 MB)</small>
 : 
-        
+
         md5: 23d2494aa94e7ae1ecbbb8c5e1507683
 
 [**ruby-1.8.6.zip**][4] <small style="font-weight:normal">(5.3 MB)</small>
 : 
-        
+
         md5: 5f4b82cec8f437634e05a3ce9bb3ca67
 
 Eine Auflistung aller Änderungen (seit Version 1.8.5) findet sich in den

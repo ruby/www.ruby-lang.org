@@ -12,19 +12,19 @@ Ruby 2.0.0-rc2 がリリースされました。Ruby 2.0.0 の最後の Release 
 ## 所在
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2&gt;][1]
-  
+
       SIZE:   10822239 bytes
       MD5:    e92420131bd7994513e0bf09a3e2a19b
       SHA256: d55f897bb04283c5fa80223d96d990fe8ecb598508dd59443b356cbba1f66145
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz&gt;][2]
-  
+
       SIZE:   13616756 bytes
       MD5:    9d5e6f26db7c8c3ddefc81fdb19bd41a
       SHA256: 87072ab3e6d393d47f7402682364e4f24efe1c518969795cc01fcdeeb0e646f3
 
 * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip&gt;][3]
-  
+
       SIZE:   15118480 bytes
       MD5:    1a2d33f1c50e32ca1532f8dea4790d53
       SHA256: c28e9baf3aa00b41b8823c16df436ae143e8a63e43e7a53302f23119e13d0ebf

@@ -33,10 +33,10 @@ Versión de desarrollo (series 1.9)
 series 1.8
 
 : Por favor actualízate a la versión 1.8.5-p2.
-  
+
   [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p2.tar.gz&gt;][3]
   (4519151 bytes, md5sum: a3517a224716f79b14196adda3e88057)
-  
+
   Recuerda que puede ya estar disponible un paquete que corrige esta
   debilidad a través de tu software de administración de paquetes.
 

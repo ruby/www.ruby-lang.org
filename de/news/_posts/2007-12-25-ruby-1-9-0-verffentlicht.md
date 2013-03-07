@@ -14,17 +14,17 @@ Der Quelltext ist in den folgenden drei Formaten verfügbar:
 
 [**ruby-1.9.0-0.tar.bz2**][2] <small style="font-weight:normal">(5 MB)</small>
 : 
-        
+
         md5: 407cc7d0032e19eb12216c0ebc7f17b3
 
 [**ruby-1.9.0-0.tar.gz**][3] <small style="font-weight:normal">(6 MB)</small>
 : 
-        
+
         md5: b20cce98b284f7f75939c09d5c8e846d
 
 [**ruby-1.9.0-0.zip**][4] <small style="font-weight:normal">(7 MB)</small>
 : 
-        
+
         md5: 78b2a5f9a81c5f6775002c4fb24d2d75
 
 Einige Änderungen sind in der [Ruby-Mine][5] beschrieben.

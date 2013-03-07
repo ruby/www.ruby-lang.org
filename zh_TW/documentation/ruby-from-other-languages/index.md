@@ -246,7 +246,7 @@ class Fixnum
   end
   alias hour hours
 end
-  
+
 # 從一月一號 00:00 往後數 14 個小時
 # (你終於醒了吧 ;)
 Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00

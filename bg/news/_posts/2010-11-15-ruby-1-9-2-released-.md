@@ -67,30 +67,30 @@ It causes a LoadError
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2&gt;][4]
   РАЗМЕР:
   : 8495472 bytes
-  
+
   MD5:
   : d8a02cadf57d2571cd4250e248ea7e4b
-  
+
   SHA256:
   : e9710990ed8c2e794123aba509010471915fb13c27dae0118831d2001a9c8d3b
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz&gt;][5]
   РАЗМЕР:
   : 10787899 bytes
-  
+
   MD5:
   : 755aba44607c580fddc25e7c89260460
-  
+
   SHA256:
   : 8c0c4e261a921b5c406bf9e76ac23bf3c915651534e9d1b9e8c5d0bee4a7285c
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip&gt;][6]
   РАЗМЕР:
   : 12159728 bytes
-  
+
   MD5:
   : e57a393ccd62ddece4c63bd549d8cf7f
-  
+
   SHA256:
   : e61521af06da71fde9f0c7c08baaf7415614d00c86ec5a7ab08b60a4f3185b2a
 

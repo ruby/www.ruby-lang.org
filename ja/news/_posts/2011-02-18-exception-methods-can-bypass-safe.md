@@ -12,13 +12,13 @@ Rubyの$SAFE機構では、セーフレベル4は信頼されないコードの�
 Exception#to\_sの処理にこの機構に関する問題が発見されました。このメソッドによりセーフレベル機構が回避され、汚染されていない文字列が汚染された状態に破壊的に変更されます。これによって、以下のように、攻撃者は任意の文字列を変更することができます。
 
     $secret_path = "foo"
-    
+
     proc do
         $SAFE = 4
         Exception.new($secret_path).to_s
         $secret_path.replace "/etc/passwd"
     end.call
-    
+
     open($secret_path) do
       ...
     end

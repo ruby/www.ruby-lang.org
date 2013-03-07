@@ -19,7 +19,7 @@ dass dies kein Railsspezifischer Fehler ist.
 Ein Angreifer kann einen Denial of Service Angriff mithilfe von
 BigDecimal initiieren, in dem er extrem große Zahlen parst:
 
-    
+
     BigDecimal("9E69999999").to_s("F")
 
 # Anfällige Versions

@@ -34,7 +34,7 @@ Entwicklerversion (1.9 Reihe)
   gewechselt hast:
   * [CGI DoS Patch][3] (367 bytes; md5sum:
     9d25f59d1c33a0b215f6c25260dcb536)
-  
+
   Bitte bedenke, dass eventuell dein Paketmanager bereits einen
   dementsprechenden Patch eingespielt hat.
 
