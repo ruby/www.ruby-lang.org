@@ -366,7 +366,7 @@ methods, and cannot be redefined:
  In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined. ## Finding Out More
 
 When you are ready for more Ruby knowledge, see our
-[Documentation](/zh_CN/documentation/) section.
+[Documentation](/zh_cn/documentation/) section.
 
 
 

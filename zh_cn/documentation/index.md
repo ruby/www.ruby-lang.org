@@ -15,10 +15,10 @@ lang: zh_cn
 [学习编程][3]
 : 由 Chris Pine 编写的编程入门，如果你还不了解程序，从这里开始吧。
 
-[花20分钟体验](/zh_CN/documentation/quickstart/)
+[花20分钟体验](/zh_cn/documentation/quickstart/)
 : 不错的介绍Ruby的基础知识的教程。从开始到结束不超过20分钟。
 
-[从其它语言到 Ruby](/zh_CN/documentation/ruby-from-other-languages/)
+[从其它语言到 Ruby](/zh_cn/documentation/ruby-from-other-languages/)
 : 已经熟悉其他的编程语言？不管是 C++, Java, Perl, PHP, 还是 Python, 这里都有介绍！
 
 ### 手册

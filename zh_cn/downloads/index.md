@@ -17,7 +17,7 @@ lang: zh_cn
 * [稳定版快照][3] 这里的 tar’ed 和 gzip’ed 文件是最新稳定的 CVS。它应该比上次发布的版本更稳定。
 * [开发版快照][4] 这里的 tar’ed 和 gzip’ed 文件是最新的 CVS。它可能包含一些没有解决的问题。
 
-更多信息见 [Ruby Core](/zh_CN/community/ruby-core/) 页。
+更多信息见 [Ruby Core](/zh_cn/community/ruby-core/) 页。
 
 ### Windows 系统
 

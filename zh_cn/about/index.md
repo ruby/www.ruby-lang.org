@@ -28,7 +28,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
-在 Ruby-Talk，主要的[ 邮件列表](/zh_CN/community/mailing-lists/) 上，讨论 Ruby
+在 Ruby-Talk，主要的[ 邮件列表](/zh_cn/community/mailing-lists/) 上，讨论 Ruby
 语言的文章爬升到每日 200 封。
 
 在 TIOBE， 最流行的开发语言排名调查中， Ruby 排名为全球第 11 位。 根据这样的成长情况，他们预测“在半年之中 Ruby

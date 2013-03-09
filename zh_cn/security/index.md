@@ -14,9 +14,9 @@ lang: zh_cn
 
 这里是最近的一些漏洞。
 
-* [Ruby中的多个安全漏洞](/zh_CN/news/2008/08/08/multiple-vulnerabilities-in-ruby/)
+* [Ruby中的多个安全漏洞](/zh_cn/news/2008/08/08/multiple-vulnerabilities-in-ruby/)
   发布于2008年8月8日
-* [可导致执行任意代码的安全漏洞](/zh_CN/news/2008/07/01/arbitrary-code-execution-vulnerabilities/)
+* [可导致执行任意代码的安全漏洞](/zh_cn/news/2008/07/01/arbitrary-code-execution-vulnerabilities/)
   发布于2008年6月20日
 * [File access vulnerability of
   WEBrick](/en/news/2008/03/03/webrick-file-access-vulnerability/)

@@ -7,7 +7,7 @@ lang: zh_cn
 ## 介绍
 
 这是个不会超过20分钟的 Ruby 简介。阅读前请您先将 Ruby 安装好。（如果您还没有安装Ruby 的话请到
-[下载区](/zh_CN/downloads/) 下载并安装。）
+[下载区](/zh_cn/downloads/) 下载并安装。）
 
 ## Ruby 的互动性
 
