@@ -185,6 +185,8 @@ namespace :import do
     }
 
     Spidr.host(HOST) do |agent|
+      pubdates = {}
+
       LANGUAGES.each do |lang|
         feed, news_dir = case lang
                          when 'pt' then ['noticias', 'noticias-recentes']
@@ -197,11 +199,13 @@ namespace :import do
 
         agent.enqueue("http://#{HOST}/#{lang}/#{news_dir}/")
 
+        pubdates[lang] = {}
         begin
           rss = RSS::Parser.parse(open("http://#{HOST}/#{lang}/feeds/#{feed}.rss"))
           rss.items.each do |item|
             puts "Queuing #{item.link} ..."
             agent.enqueue(item.link)
+            pubdates[lang][item.link] = item.pubDate.utc
           end
         rescue OpenURI::HTTPError
         end
@@ -216,6 +220,7 @@ namespace :import do
           local_path = File.join(OUTPUT_DIR,lang,news_dir,'_posts',"#{year}-#{month}-#{day}-#{slug}.md")
           layout     = 'news_post'
           author     = nil
+          pubdate    = pubdates[lang][page.url.to_s]
 
           archive_url = URI("http://#{HOST}/#{lang}/#{news_dir}/#{year}/#{month}/")
           begin
@@ -256,6 +261,10 @@ namespace :import do
 
             if author
               file.puts "author: #{author.inspect}"
+            end
+
+            if pubdate
+              file.puts "date: #{pubdate.inspect}"
             end
 
             file.puts(
