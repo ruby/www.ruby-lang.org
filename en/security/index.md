@@ -72,7 +72,7 @@ Here are recent issues.
 [2]: http://www.ruby-lang.org/en/news/2013/02/22/json-dos-cve-2013-0269/ 
 [3]: http://www.ruby-lang.org/en/news/2013/02/06/rdoc-xss-cve-2013-0256/ 
 [4]: http://www.ruby-lang.org/en/news/2012/11/09/ruby19-hashdos-cve-2012-5371/ 
-[5]: http://preview.ruby-lang.org/en/news/2012/10/12/poisoned-NUL-byte-vulnerability/ 
+[5]: http://www.ruby-lang.org/en/news/2012/10/12/poisoned-NUL-byte-vulnerability/ 
 [6]: http://www.ruby-lang.org/en/news/2012/10/12/cve-2012-4464-cve-2012-4466/ 
 [7]: http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/ 
 [8]: http://www.ruby-lang.org/en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/ 

@@ -20,4 +20,4 @@ Anda dipersilakan [mengunduh Ruby di sini][3].
 
 [1]: http://www.ruby-lang.org/en/news/2009/12/25/ruby-1-8-7-p248-released/ 
 [2]: http://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/ 
-[3]: http://preview.ruby-lang.org/id/downloads/ 
+[3]: http://www.ruby-lang.org/id/downloads/ 
