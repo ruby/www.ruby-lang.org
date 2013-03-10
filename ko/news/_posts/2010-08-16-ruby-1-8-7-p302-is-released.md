@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 1.8.7-p302 릴리즈"
 author: "Moru"
+date: 2010-08-16 13:45:39 UTC
 lang: ko
 ---
 

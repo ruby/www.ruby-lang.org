@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 2.0.0-preview1 released"
 author: "SJH"
+date: 2012-11-02 02:58:21 UTC
 lang: zh_TW
 ---
 

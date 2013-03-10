@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rilasciato Ruby 1.9.3-p385"
 author: "Fabio Cevasco"
+date: 2013-03-03 13:26:47 UTC
 lang: it
 ---
 

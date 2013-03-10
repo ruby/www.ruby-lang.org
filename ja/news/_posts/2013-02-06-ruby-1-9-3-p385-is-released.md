@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p385 リリース"
 author: "usa"
+date: 2013-02-06 13:36:49 UTC
 lang: ja
 ---
 

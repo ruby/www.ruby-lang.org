@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 1.8.7-p302 is released"
 author: "SJH"
+date: 2010-08-18 16:18:38 UTC
 lang: zh_TW
 ---
 

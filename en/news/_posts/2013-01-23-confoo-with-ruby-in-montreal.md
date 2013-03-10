@@ -2,6 +2,7 @@
 layout: news_post
 title: "ConFoo with Ruby in Montreal"
 author: "James Edward Gray II"
+date: 2013-01-23 19:52:42 UTC
 lang: en
 ---
 

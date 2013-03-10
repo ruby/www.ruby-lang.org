@@ -2,6 +2,7 @@
 layout: news_post
 title: "Vulnérabilité de type Déni de service par expansion des entités dans REXML (bombe XML)"
 author: "Bruno Michel"
+date: 2013-02-23 14:03:15 UTC
 lang: fr
 ---
 

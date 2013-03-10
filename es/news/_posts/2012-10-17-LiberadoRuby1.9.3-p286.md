@@ -2,6 +2,7 @@
 layout: news_post
 title: "Liberado Ruby 1.9.3-p286"
 author: "Manuel Ramos Caro"
+date: 2012-10-17 21:49:03 UTC
 lang: es
 ---
 

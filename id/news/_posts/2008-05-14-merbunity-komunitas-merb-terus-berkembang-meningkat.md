@@ -2,6 +2,7 @@
 layout: news_post
 title: "Merbunity: Komunitas Merb Terus Berkembang Meningkat"
 author: "Hendy Irawan"
+date: 2008-05-14 02:37:44 UTC
 lang: id
 ---
 

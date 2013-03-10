@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.2 RC1 릴리즈"
 author: "Moru"
+date: 2010-07-15 14:14:15 UTC
 lang: ko
 ---
 

@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p374 veröffentlicht"
 author: "Quintus"
+date: 2013-01-18 20:50:15 UTC
 lang: de
 ---
 

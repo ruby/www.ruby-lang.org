@@ -2,6 +2,7 @@
 layout: news_post
 title: "RubyConf Taiwan 2011 Call For Sponsors"
 author: "SJH"
+date: 2011-05-19 02:57:13 UTC
 lang: zh_TW
 ---
 

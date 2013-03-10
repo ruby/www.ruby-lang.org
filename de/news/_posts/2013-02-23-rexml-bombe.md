@@ -2,6 +2,7 @@
 layout: news_post
 title: "Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe)"
 author: "Quintus"
+date: 2013-02-23 09:14:24 UTC
 lang: de
 ---
 
