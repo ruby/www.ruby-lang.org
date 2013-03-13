@@ -6,7 +6,7 @@ require 'rss'
 gem 'spidr', '~> 0.4'
 require 'spidr'
 
-gem 'kramdown', '~> 0.13'
+gem 'kramdown', '~> 0.14'
 require 'kramdown'
 
 HOST = 'www.ruby-lang.org'
