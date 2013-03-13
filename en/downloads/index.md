@@ -42,7 +42,7 @@ party tools in the next section. They may help you.
 * [Ruby {{ site.downloads.previous.version }}][2]
   (md5:&nbsp;{{ site.downloads.previous.md5 }}) Previous
 * [Stable Snapshot][3] This is a tarball of the latest snapshot of the
-  Stable branch.
+  Stable branch (ruby\_2\_0\_0).
 * [Nightly Snapshot][4] This is a tarball of whatever is in svn, made
   nightly. This may contain bugs or other issues, use at your own risk!
 
