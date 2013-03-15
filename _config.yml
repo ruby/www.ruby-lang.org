@@ -4,6 +4,9 @@ markdown: kramdown
 permalink: pretty
 pygments: true
 
+domain: www.ruby-lang.org
+url:    http://www.ruby-lang.org
+
 kramdown:
   auto_ids: false
 
