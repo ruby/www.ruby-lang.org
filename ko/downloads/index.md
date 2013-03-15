@@ -97,7 +97,7 @@ AIX용 바이너리는 Perry Smith씨에 의해 제공되고 있으며, [AIX Con
 
 
 
-[1]: http://www.ruby-lang.org/en/about/license.txt 
+[1]: /en/about/license.txt 
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2 
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz 
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip 
@@ -106,7 +106,7 @@ AIX용 바이너리는 Perry Smith씨에 의해 제공되고 있으며, [AIX Con
 [7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.zip 
 [8]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz 
 [9]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
-[10]: http://www.ruby-lang.org/en/community/ruby-core/ 
+[10]: /en/community/ruby-core/ 
 [11]: http://rubyforge.org/frs/download.php/47082/ruby186-27_rc2.exe 
 [12]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-i386-mswin32.zip 
 [13]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p129-i386-mswin32.zip 

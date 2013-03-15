@@ -79,7 +79,7 @@ lang: ko
 [12]: http://rdoc.sourceforge.net 
 [13]: http://www.ruby-doc.org/stdlib 
 [14]: http://www.ruby-doc.org/doxygen/current/ 
-[15]: http://www.ruby-lang.org/ko/documentation/rubygem-packaging 
+[15]: /ko/documentation/rubygem-packaging 
 [16]: http://ruby-doc.org 
 [17]: http://wiki.rubygarden.org/Ruby 
 [18]: http://forum.rubykr.org 

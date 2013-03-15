@@ -116,5 +116,5 @@ if __FILE__ == $0
 
 
 
-[1]: http://www.ruby-lang.org/en/documentation/quickstart 
+[1]: /en/documentation/quickstart 
 [2]: http://beyond.daesan.com 

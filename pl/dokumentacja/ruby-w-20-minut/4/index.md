@@ -142,4 +142,4 @@ Rubim][1] (po angielsku).
 
 
 
-[1]: http://www.ruby-lang.org/en/documentation/book-list/ 
+[1]: /en/documentation/book-list/ 

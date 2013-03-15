@@ -211,7 +211,7 @@ Programmiersprache Ruby“.
 
 
 
-[1]: http://www.ruby-lang.org/de/about/license.txt 
+[1]: /de/about/license.txt 
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}

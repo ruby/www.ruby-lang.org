@@ -161,7 +161,7 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 
 
 
-[1]: http://www.ruby-lang.org/en/about/license.txt 
+[1]: /en/about/license.txt 
 [2]: http://www.linuxmint.com/ 
 [3]: http://www.ubuntu.com 
 [4]: http://www.debian.org 

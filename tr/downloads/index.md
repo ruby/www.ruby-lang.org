@@ -141,7 +141,7 @@ Rubyforge][29] adresini inceleyin.
 
 
 
-[1]: http://www.ruby-lang.org/en/about/license.txt 
+[1]: /en/about/license.txt 
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
