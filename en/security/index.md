@@ -68,18 +68,18 @@ Here are recent issues.
 
 
 
-[1]: http://www.ruby-lang.org/en/news/2013/02/22/rexml-dos-2013-02-22/ 
-[2]: http://www.ruby-lang.org/en/news/2013/02/22/json-dos-cve-2013-0269/ 
-[3]: http://www.ruby-lang.org/en/news/2013/02/06/rdoc-xss-cve-2013-0256/ 
-[4]: http://www.ruby-lang.org/en/news/2012/11/09/ruby19-hashdos-cve-2012-5371/ 
-[5]: http://www.ruby-lang.org/en/news/2012/10/12/poisoned-NUL-byte-vulnerability/ 
-[6]: http://www.ruby-lang.org/en/news/2012/10/12/cve-2012-4464-cve-2012-4466/ 
-[7]: http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/ 
-[8]: http://www.ruby-lang.org/en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/ 
-[9]: http://www.ruby-lang.org/en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/ 
-[10]: http://www.ruby-lang.org/en/news/2011/02/18/exception-methods-can-bypass-safe/ 
-[11]: http://www.ruby-lang.org/en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/ 
-[12]: http://www.ruby-lang.org/en/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
-[13]: http://www.ruby-lang.org/en/news/2010/07/02/ruby-1-9-1-p429-is-released/ 
-[14]: http://www.ruby-lang.org/en/news/2010/01/10/webrick-escape-sequence-injection// 
-[15]: http://www.ruby-lang.org/en/news/2009/12/07/heap-overflow-in-string/ 
+[1]: /en/news/2013/02/22/rexml-dos-2013-02-22/ 
+[2]: /en/news/2013/02/22/json-dos-cve-2013-0269/ 
+[3]: /en/news/2013/02/06/rdoc-xss-cve-2013-0256/ 
+[4]: /en/news/2012/11/09/ruby19-hashdos-cve-2012-5371/ 
+[5]: /en/news/2012/10/12/poisoned-NUL-byte-vulnerability/ 
+[6]: /en/news/2012/10/12/cve-2012-4464-cve-2012-4466/ 
+[7]: /en/news/2012/04/20/ruby-1-9-3-p194-is-released/ 
+[8]: /en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/ 
+[9]: /en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/ 
+[10]: /en/news/2011/02/18/exception-methods-can-bypass-safe/ 
+[11]: /en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/ 
+[12]: /en/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
+[13]: /en/news/2010/07/02/ruby-1-9-1-p429-is-released/ 
+[14]: /en/news/2010/01/10/webrick-escape-sequence-injection// 
+[15]: /en/news/2009/12/07/heap-overflow-in-string/ 
