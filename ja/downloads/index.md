@@ -107,7 +107,7 @@ Posted by Shugo Maeda on 26 May 2006
 [13]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2 
 [14]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz 
 [15]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.zip 
-[16]: http://www.ruby-lang.org/ja/install.cgi?cmd=view;name=Microsoft+Windows%C8%C7%A4%CE%A5%D3%A5%EB%A5%C8%B4%C4%B6%AD%A4%CB%A4%E8%A4%EB%B0%E3%A4%A4 
+[16]: /ja/install.cgi?cmd=view;name=Microsoft+Windows%C8%C7%A4%CE%A5%D3%A5%EB%A5%C8%B4%C4%B6%AD%A4%CB%A4%E8%A4%EB%B0%E3%A4%A4 
 [17]: http://www.artonx.org/data/asr/ 
 [18]: http://rubyinstaller.org/ 
 [19]: http://www.garbagecollect.jp/ruby/mswin32/ 

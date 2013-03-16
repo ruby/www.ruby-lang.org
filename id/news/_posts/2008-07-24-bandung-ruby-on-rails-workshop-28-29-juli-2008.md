@@ -59,7 +59,7 @@ Publikasi:
 [3]: http://groups.google.com/group/klub-linux-bandung 
 [4]: http://groups.google.com/group/id-ubuntu 
 [5]: http://igoscenter.org/ 
-[6]: http://www.ruby-lang.org/id 
+[6]: /id 
 [7]: http://www.linkedin.com/in/ariekeren 
 [8]: http://flickr.com/photos/ariekusumaatmaja/2768754697/ 
 [9]: http://chickenstrip.wordpress.com/2008/07/24/bandung-ruby-on-rails-workshop/ 

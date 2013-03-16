@@ -20,4 +20,4 @@ Posted by okkez on 29 Jul 2011
 
 
 [1]: http://doc.ruby-lang.org/ja/ 
-[2]: http://www.ruby-lang.org/ja/old-man/?cmd=view;name=Ruby%A5%EA%A5%D5%A5%A1%A5%EC%A5%F3%A5%B9%A5%DE%A5%CB%A5%E5%A5%A2%A5%EB 
+[2]: /ja/old-man/?cmd=view;name=Ruby%A5%EA%A5%D5%A5%A1%A5%EC%A5%F3%A5%B9%A5%DE%A5%CB%A5%E5%A5%A2%A5%EB 

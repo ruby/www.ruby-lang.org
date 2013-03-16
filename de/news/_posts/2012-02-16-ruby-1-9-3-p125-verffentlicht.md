@@ -71,7 +71,7 @@ Für nähere Informationen siehe die [Tickets][4] und das [Changelog][5].
 
 
 
-[1]: http://www.ruby-lang.org/de/news/2012/02/16/sicherheitsfix-fr-rubys-openssl-modul-erlaube-0n-splitting-als-gegenmanahme-fr-den-tls-beast-angriff/ 
+[1]: /de/news/2012/02/16/sicherheitsfix-fr-rubys-openssl-modul-erlaube-0n-splitting-als-gegenmanahme-fr-den-tls-beast-angriff/ 
 [2]: https://bugs.ruby-lang.org/issues/show/5076 
 [3]: https://bugs.ruby-lang.org/issues/show/5851 
 [4]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 

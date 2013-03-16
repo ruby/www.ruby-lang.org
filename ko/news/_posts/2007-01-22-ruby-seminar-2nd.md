@@ -15,4 +15,4 @@ http://wiki.rubykr.org/show/RubySeminar
 
 
 
-[1]: http://www.ruby-lang.org/ko/news/2006/11/10/-2006-11-25/ 
+[1]: /ko/news/2006/11/10/-2006-11-25/ 

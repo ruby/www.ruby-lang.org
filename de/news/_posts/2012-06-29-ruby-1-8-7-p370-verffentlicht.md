@@ -60,7 +60,7 @@ Release stellt daher dessen 4. Geburtstag da. Vielen Dank an alle!
 
 
 
-[1]: http://www.ruby-lang.org/de/news/2011/10/11/plne-fr-1-8-7 
+[1]: /de/news/2011/10/11/plne-fr-1-8-7 
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_370/ChangeLog 
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2 
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz 

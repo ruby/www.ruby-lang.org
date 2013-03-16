@@ -68,7 +68,7 @@ Happy Hacking!
 
 
 
-[1]: http://www.ruby-lang.org/de/news/2013/02/07/xss-exploit-fr-rdoc-dokumentation/ 
+[1]: /de/news/2013/02/07/xss-exploit-fr-rdoc-dokumentation/ 
 [2]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
 [3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_385/ChangeLog 
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.bz2 

@@ -51,7 +51,7 @@ Posted by maki on 16 Aug 2010
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/367769 
-[2]: http://www.ruby-lang.org/ja/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
+[2]: /ja/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2 
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz 
 [5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.zip 

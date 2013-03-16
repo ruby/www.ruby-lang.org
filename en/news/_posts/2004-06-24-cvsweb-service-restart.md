@@ -10,4 +10,4 @@ CVSweb service is restarted.
 
 
 
-[1]: http://www.ruby-lang.org/cgi-bin/cvsweb.cgi/ 
+[1]: /cgi-bin/cvsweb.cgi/ 

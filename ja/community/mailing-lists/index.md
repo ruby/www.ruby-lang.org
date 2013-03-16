@@ -95,4 +95,4 @@ Posted by Shugo Maeda on 27 May 2006
 [6]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml 
 [7]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml 
 [8]: http://www.atdot.net/~ko1/w3ml/w3ml.cgi/ruby-cvs/ 
-[9]: http://www.ruby-lang.org/ja/security/ 
+[9]: /ja/security/ 

@@ -50,8 +50,8 @@ ont aidé à préparer cette version. Merci pour leurs contributions.
 
 
 
-[1]: http://www.ruby-lang.org/fr/news/2013/02/23/dni-de-service-et-vulnrabilit-de-cration-dobjets-non-srs-cve-2013-0269/ 
-[2]: http://www.ruby-lang.org/fr/news/2013/02/23/vulnrabilit-de-type-dni-de-service-par-expansion-des-entits-dans-rexml-bombe-xml/ 
+[1]: /fr/news/2013/02/23/dni-de-service-et-vulnrabilit-de-cration-dobjets-non-srs-cve-2013-0269/ 
+[2]: /fr/news/2013/02/23/vulnrabilit-de-type-dni-de-service-par-expansion-des-entits-dans-rexml-bombe-xml/ 
 [3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
 [4]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_392/ChangeLog 
 [5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2 

@@ -71,8 +71,8 @@ Für Details siehe [die Tickets][3] und [das Changelog][4].
 
 
 
-[1]: http://www.ruby-lang.org/de/news/2012/10/12/durch-ungltiges-nul-zeichen-werden-unabsichtlich-dateien-erzeugt/ 
-[2]: http://www.ruby-lang.org/de/news/2012/10/12/sicherheitsluecke-in-exception-ermoeglicht-umgehung-von-safe-mode/ 
+[1]: /de/news/2012/10/12/durch-ungltiges-nul-zeichen-werden-unabsichtlich-dateien-erzeugt/ 
+[2]: /de/news/2012/10/12/sicherheitsluecke-in-exception-ermoeglicht-umgehung-von-safe-mode/ 
 [3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
 [4]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_286/ChangeLog 
 [5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2 

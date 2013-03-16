@@ -35,5 +35,5 @@ Do zobaczenia na RuPy!
 
 [1]: http://rupy.eu 
 [2]: http://python.org/about 
-[3]: http://www.ruby-lang.org/en/about 
+[3]: /en/about 
 [4]: https://rupy.stagehq.com/events/922/booking/ke875rm3x4nrmycnco6i/step_1 

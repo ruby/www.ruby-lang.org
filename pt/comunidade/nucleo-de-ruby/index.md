@@ -143,7 +143,7 @@ quando submeter código no repositório CVS:
 
 
 
-[1]: http://www.ruby-lang.org/cgi-bin/cvsweb.cgi/ "repositório CVS do Ruby via web"
+[1]: /cgi-bin/cvsweb.cgi/ "repositório CVS do Ruby via web"
 [2]: http://www.nongnu.org/cvs/cvs.html 
 [3]: http://ximbiot.com/cvs/wiki/index.php?title=Main_Page 
 [4]: http://www.pragmaticprogrammer.com/starter_kit/vcc/index.html 

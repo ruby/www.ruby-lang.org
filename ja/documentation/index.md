@@ -48,8 +48,8 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 
-[1]: http://www.ruby-lang.org/ja/old-man/html/Ruby_FAQ.html 
-[2]: http://www.ruby-lang.org/ja/install.cgi?cmd=view;name=top 
+[1]: /ja/old-man/html/Ruby_FAQ.html 
+[2]: /ja/install.cgi?cmd=view;name=top 
 [3]: http://redmine.ruby-lang.org/projects/rurema/wiki 
 [4]: http://doc.ruby-lang.org/ja/ 
 [5]: http://doc.ruby-lang.org/ja/1.8.7/doc/index.html 
@@ -61,8 +61,8 @@ Posted by Shugo Maeda on 26 May 2006
 [11]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.8.7-20120829.chm 
 [12]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-20120829.chm 
 [13]: http://doc.okkez.net/ 
-[14]: http://www.ruby-lang.org/ja/old-man/?cmd=view;name=Ruby%A5%EA%A5%D5%A5%A1%A5%EC%A5%F3%A5%B9%A5%DE%A5%CB%A5%E5%A5%A2%A5%EB 
-[15]: http://www.ruby-lang.org/ja/old-man/man-rd-ja.tar.gz 
+[14]: /ja/old-man/?cmd=view;name=Ruby%A5%EA%A5%D5%A5%A1%A5%EC%A5%F3%A5%B9%A5%DE%A5%CB%A5%E5%A5%A2%A5%EB 
+[15]: /ja/old-man/man-rd-ja.tar.gz 
 [16]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.gz 
 [17]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.bz2 
 [18]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.zip 

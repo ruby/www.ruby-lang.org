@@ -51,5 +51,5 @@ Die Sicherheitslücke wurde von Tyler Hickes gefunden.
 
 
 
-[1]: http://www.ruby-lang.org/de/news/2011/02/18/exception-methoden-knnen-safe-umgehen/ 
-[2]: http://www.ruby-lang.org/en/news/2012/10/12/cve-2012-4464-cve-2012-4466/ 
+[1]: /de/news/2011/02/18/exception-methoden-knnen-safe-umgehen/ 
+[2]: /en/news/2012/10/12/cve-2012-4464-cve-2012-4466/ 

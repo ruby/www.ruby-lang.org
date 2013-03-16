@@ -95,4 +95,4 @@ para a vulnerabilidade
 
 
 
-[1]: http://www.ruby-lang.org/security/20080823rexml/rexml-expansion-fix.rb 
+[1]: /security/20080823rexml/rexml-expansion-fix.rb 
