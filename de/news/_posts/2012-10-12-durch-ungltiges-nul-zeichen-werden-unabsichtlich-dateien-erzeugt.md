@@ -51,4 +51,4 @@ Der Vorfall wurde von Peter Bex gemeldet.
 
 
 [1]: http://www.ruby-doc.org/core-1.9.3/IO.html#method-c-popen 
-[2]: /en/news/2012/10/12/poisoned-NUL-byte-vulnerability/ 
+[2]: {{ site.url }}/en/news/2012/10/12/poisoned-NUL-byte-vulnerability/ 

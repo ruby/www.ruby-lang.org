@@ -10,4 +10,4 @@ CVSweb Service läuft nun wieder unter
 
 
 
-[1]: /cgi-bin/cvsweb.cgi/ 
+[1]: {{ site.url }}/cgi-bin/cvsweb.cgi/ 

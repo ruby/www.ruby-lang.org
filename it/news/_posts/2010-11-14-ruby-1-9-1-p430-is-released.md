@@ -46,7 +46,7 @@ versione di patch p430.
 
 
 
-[1]: /it/news/2010/11/14/xss-in-webrick-cve-2010-0541/ 
+[1]: {{ site.url }}/it/news/2010/11/14/xss-in-webrick-cve-2010-0541/ 
 [2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.bz2 
 [3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.gz 
 [4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.zip 

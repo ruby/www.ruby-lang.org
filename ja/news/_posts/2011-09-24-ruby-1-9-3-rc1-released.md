@@ -62,6 +62,6 @@ Posted by Shota Fukumori on 24 Sep 2011
 [2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz 
 [3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip 
 [4]: http://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29 
-[5]: /en/LICENSE.txt 
+[5]: {{ site.url }}/en/LICENSE.txt 
 [6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_rc1/NEWS 
 [7]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_rc1/ChangeLog 

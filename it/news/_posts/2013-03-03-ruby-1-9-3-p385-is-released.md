@@ -48,7 +48,7 @@ Buon Hacking!
 
 
 
-[1]: /it/news/2013/03/03/xss-exploit-of-rdoc-documentation-generated-by-rdoc-cve-2013-0256/ 
+[1]: {{ site.url }}/it/news/2013/03/03/xss-exploit-of-rdoc-documentation-generated-by-rdoc-cve-2013-0256/ 
 [2]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
 [3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_385/ChangeLog 
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.bz2 

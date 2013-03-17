@@ -65,7 +65,7 @@ Für Details siehe [die Tickets][2] und [das Changelog][3].
 
 
 
-[1]: /de/news/2012/11/09/hash-flooding-dos-sicherheitsleck-in-ruby-1-9-cve-2012-5371/ 
+[1]: {{ site.url }}/de/news/2012/11/09/hash-flooding-dos-sicherheitsleck-in-ruby-1-9-cve-2012-5371/ 
 [2]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
 [3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_327/ChangeLog 
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.bz2 

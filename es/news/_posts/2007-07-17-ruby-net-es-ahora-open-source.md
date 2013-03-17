@@ -14,5 +14,5 @@ en Australia.
 
 
 
-[1]: /es/news/2007/06/05/nuevo-beta-ruby-net-con-soporte-interop/ 
+[1]: {{ site.url }}/es/news/2007/06/05/nuevo-beta-ruby-net-con-soporte-interop/ 
 [2]: http://plas2003.fit.qut.edu.au/Ruby.NET/ 

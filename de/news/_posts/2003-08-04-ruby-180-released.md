@@ -23,5 +23,5 @@ Thank you matz, and all committers, for all your trouble!
 
 
 
-[1]: /download-1.8.0.rbx 
+[1]: {{ site.url }}/download-1.8.0.rbx 
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/changes.1.8.0 

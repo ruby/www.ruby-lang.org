@@ -37,7 +37,7 @@ się na RuPy 2012. Ta konferencja jest tworzona z myślą o takich jak Ty!
 
 [1]: http://rupy.eu/ 
 [2]: http://python.org/ 
-[3]: / 
+[3]: {{ site.url }}/ 
 [4]: http://pl.wikipedia.org/wiki/JavaScript 
 [5]: http://www.fi.muni.cz/index.xhtml.en 
 [6]: http://rupy.com.br/#city-carousel 

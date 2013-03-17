@@ -21,5 +21,5 @@ untuk mendiskusikannya di [milis id-ruby][2].
 
 
 [1]: http://www.flickr.com/photos/ceefour/1200944247/ 
-[2]: /id/community/mailing-lists/ 
+[2]: {{ site.url }}/id/community/mailing-lists/ 
 [3]: http://ariekusumaatmaja.wordpress.com/2007/08/20/gathering-id-ruby-ketiga-19-agustus-2007-1145-1700-wib/ 
