@@ -12,6 +12,7 @@ require 'kramdown'
 HOST = 'www.ruby-lang.org'
 OUTPUT_DIR = '_import'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
+TIMEZONE = 'UTC'
 
 def url_to_path(url)
   local_path = File.join(OUTPUT_DIR,url.path[1..-1])
@@ -285,6 +286,18 @@ end
 
 desc "Imports #{HOST}"
 task :import => ['import:pages', 'import:news']
+
+desc "Generates the Jekyll site"
+task :generate do
+  ENV['TZ'] = TIMEZONE
+  sh 'jekyll --no-auto --no-server'
+end
+
+desc "Generates the Jekyll site and starts local server"
+task :preview do
+  ENV['TZ'] = TIMEZONE
+  sh 'jekyll --server'
+end
 
 namespace :check do
   def author_variable_defined?(filename)
