@@ -300,20 +300,19 @@ task :preview do
 end
 
 namespace :check do
-  def author_variable_defined?(filename)
+  def read_yaml(filename)
     match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
-    return false  unless match_data
-    front_matter = match_data[1]
+    data = YAML.load(match_data[1])  if match_data
 
-    front_matter =~ /^author:.*$/
+    data || {}
+  end
+
+  def author_variable_defined?(filename)
+    read_yaml(filename).has_key?('author')
   end
 
   def lang_variable_defined?(filename)
-    match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
-    return false  unless match_data
-    front_matter = match_data[1]
-
-    front_matter =~ /^lang: [a-zA-Z_]*$/
+    read_yaml(filename).has_key?('lang')
   end
 
   desc "Checks for missing author variables in news posts"
