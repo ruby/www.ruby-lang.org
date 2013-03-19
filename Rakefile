@@ -301,7 +301,7 @@ end
 
 namespace :check do
   def read_yaml(filename)
-    match_data = File.read(filename).match(/\A---\n(.*?\n)---\n/m)
+    match_data = File.read(filename).match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
     data = YAML.load(match_data[1])  if match_data
 
     data || {}
