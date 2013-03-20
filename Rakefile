@@ -315,6 +315,12 @@ namespace :check do
     read_yaml(filename).has_key?('lang')
   end
 
+  def pub_date_utc(filename)
+    date = read_yaml(filename)['date']
+
+    date ? date.getutc.strftime('%Y/%m/%d') : nil
+  end
+
   desc "Checks for missing author variables in news posts"
   task :author do
     print "Checking for missing author variables in news posts..."
@@ -347,6 +353,28 @@ namespace :check do
     else
       puts "\nNo lang variable defined in:"
       puts lang_missing.map {|s| "  #{s}\n"}.join
+    end
+  end
+
+  desc "Checks publication dates (UTC) for consistency with filename"
+  task :pubdates do
+    print "Checking for date mismatch in posts (filename / YAML front matter)..."
+
+    posts = Dir["**/_posts/*.md"]
+
+    date_mismatch = []
+    posts.each do |post|
+      filename_date = File.basename(post).split('-',4)[0..2].join('/')
+      yaml_date = pub_date_utc(post)
+
+      date_mismatch << post  if yaml_date && yaml_date != filename_date
+    end
+
+    if date_mismatch.empty?
+      puts " ok"
+    else
+      puts "\nDate mismatch in:"
+      puts date_mismatch.map {|s| "  #{s}\n"}.join
     end
   end
 
@@ -386,4 +414,4 @@ namespace :check do
 end
 
 desc "Carries out some tests"
-task :check => ['check:lang', 'check:author']
+task :check => ['check:lang', 'check:author', 'check:pubdates']
