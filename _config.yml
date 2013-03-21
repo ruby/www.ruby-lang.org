@@ -20,7 +20,7 @@ downloads:
     url: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
     md5: f689a7b61379f83cbbed3c7077d83859
   stable_snapshot:
-    url: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9-stable.tar.gz
+    url: http://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
   nightly_snapshot:
     url: http://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
 
