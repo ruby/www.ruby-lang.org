@@ -29,8 +29,8 @@ Rubyの不具合や機能追加の要望などは[問題追跡システム][2]�
 また、毎日、日本時間の午前4時頃に、開発版系列(現在はruby 1.9)および安定版系列(現在はruby
 1.8)のソースコードのスナップショットを作成しています。 それぞれ、以下のリンクからダウンロードできます。
 
-* [開発版スナップショット][3] (2013/03/17 04:08:44)
-* [安定版スナップショット][4] (2013/03/17 04:16:28)
+* [開発版スナップショット][3] ({{ site.downloads.nightly_snapshot.timestamp }})
+* [安定版スナップショット][4] ({{ site.downloads.stable_snapshot.timestamp }})
 
 ## 開発への参加
 
@@ -48,5 +48,5 @@ Posted by usa on 13 Aug 2008
 
 [1]: http://redmine.ruby-lang.org/projects/ruby/wiki 
 [2]: http://redmine.ruby-lang.org/projects/show/ruby 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz 
+[3]: {{ site.downloads.nightly_snapshot.url }}
+[4]: {{ site.downloads.stable_snapshot.url }}

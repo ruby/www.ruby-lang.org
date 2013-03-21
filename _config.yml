@@ -21,8 +21,10 @@ downloads:
     md5: f689a7b61379f83cbbed3c7077d83859
   stable_snapshot:
     url: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
+    timestamp: "2013/03/17 04:16:28"
   nightly_snapshot:
     url: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
+    timestamp: "2013/03/17 04:08:44"
 
 locales:
   sitelinks:
