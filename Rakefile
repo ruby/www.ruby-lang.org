@@ -14,6 +14,10 @@ OUTPUT_DIR = '_import'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
 TIMEZONE = 'UTC'
 
+TIMESTAMP_STABLE  = '_includes/timestamp_stable'
+TIMESTAMP_NIGHTLY = '_includes/timestamp_nightly'
+
+
 def url_to_path(url)
   local_path = File.join(OUTPUT_DIR,url.path[1..-1])
 
@@ -286,6 +290,25 @@ end
 
 desc "Imports #{HOST}"
 task :import => ['import:pages', 'import:news']
+
+desc "Update timestamps of nightly and stable snapshots"
+task :update_timestamps do
+  valid = %r{\d{4}/\d{2}/\d{2} \d{2}:\d{2}:\d{2}}
+
+  print 'Enter timestamp for nightly snapshot: '
+  nightly = $stdin.gets.chomp
+  print 'Enter timestamp for stable snapshot:  '
+  stable = $stdin.gets.chomp
+
+  if nightly =~ valid
+    puts 'Writing timestamp for nightly snapshot...'
+    File.open(TIMESTAMP_NIGHTLY, 'w') {|f| f.print nightly }
+  end
+  if stable =~ valid
+    puts 'Writing timestamp for stable snapshot...'
+    File.open(TIMESTAMP_STABLE, 'w')  {|f| f.print stable }
+  end
+end
 
 desc "Generates the Jekyll site"
 task :generate do
