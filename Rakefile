@@ -2,6 +2,7 @@
 require 'fileutils'
 require 'open-uri'
 require 'rss'
+require 'net/ftp'
 
 gem 'spidr', '~> 0.4'
 require 'spidr'
@@ -293,20 +294,36 @@ task :import => ['import:pages', 'import:news']
 
 desc "Update timestamps of nightly and stable snapshots"
 task :update_timestamps do
-  valid = %r{\d{4}/\d{2}/\d{2} \d{2}:\d{2}:\d{2}}
 
-  print 'Enter timestamp for nightly snapshot: '
-  nightly = $stdin.gets.chomp
-  print 'Enter timestamp for stable snapshot:  '
-  stable = $stdin.gets.chomp
+  domain = 'ruby-lang.org'
+  nightly_fn = '/pub/ruby/snapshot.tar.gz'
+  stable_fn  = '/pub/ruby/stable-snapshot.tar.gz'
 
-  if nightly =~ valid
-    puts 'Writing timestamp for nightly snapshot...'
-    File.open(TIMESTAMP_NIGHTLY, 'w') {|f| f.print nightly }
+  nightly_timestamp, stable_timestamp = nil, nil
+  nightly_mtime, stable_mtime = nil, nil
+
+  begin
+    warn "Retrieving timestamps from #{domain}..."
+    Net::FTP.open(domain) do |ftp|
+      ftp.login
+      nightly_mtime = ftp.mtime(nightly_fn)
+      stable_mtime  = ftp.mtime(stable_fn)
+    end
+  rescue
+    warn "Unable to retrieve timestamps"
+  else
+    timezone = 9  # JST
+    nightly_timestamp = (nightly_mtime + timezone * 3600).strftime('%Y/%m/%d %H:%M:%S')
+    stable_timestamp = (stable_mtime + timezone * 3600).strftime('%Y/%m/%d %H:%M:%S')
   end
-  if stable =~ valid
+
+  if nightly_timestamp
+    puts 'Writing timestamp for nightly snapshot...'
+    File.open(TIMESTAMP_NIGHTLY, 'w') {|f| f.print nightly_timestamp }
+  end
+  if stable_timestamp
     puts 'Writing timestamp for stable snapshot...'
-    File.open(TIMESTAMP_STABLE, 'w')  {|f| f.print stable }
+    File.open(TIMESTAMP_STABLE, 'w') {|f| f.print stable_timestamp }
   end
 end
 
