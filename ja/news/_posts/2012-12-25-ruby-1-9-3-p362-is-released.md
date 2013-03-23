@@ -46,9 +46,6 @@ lang: ja
 
 それではみなさん、よいお年を! Happy Hacking!
 
-Posted by usa on 25 Dec 2012
-{: .post-info}
-
 
 
 [1]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 

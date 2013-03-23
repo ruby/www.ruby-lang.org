@@ -46,9 +46,6 @@ lang: ja
 
 Happy Hacking!
 
-Posted by usa on 06 Feb 2013
-{: .post-info}
-
 
 
 [1]: {{ site.url }}/ja/news/2013/02/06/rdoc-xss-cve-2013-0256/ 

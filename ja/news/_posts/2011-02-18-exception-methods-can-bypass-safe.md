@@ -35,6 +35,3 @@ Exception#to\_sの処理にこの機構に関する問題が発見されまし�
 
 新しいバージョンにアップグレードしてください。
 
-Posted by Shugo Maeda on 18 Feb 2011
-{: .post-info}
-

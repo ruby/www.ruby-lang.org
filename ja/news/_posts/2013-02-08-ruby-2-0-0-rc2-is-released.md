@@ -93,9 +93,6 @@ Ruby 2.0.0-rc2 がリリースされました。Ruby 2.0.0 の最後の Release 
 preview と rc1 を試してくれた皆さんに感謝します。 相変わらずたくさんのバグを直してくれているコントリビュータの皆さんに感謝します。
 このリリースを支えてくれた皆さんに本当に感謝します。
 
-Posted by Yusuke Endoh on 08 Feb 2013
-{: .post-info}
-
 
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2 

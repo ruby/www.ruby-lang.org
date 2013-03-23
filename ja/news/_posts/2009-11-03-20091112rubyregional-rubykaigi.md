@@ -16,9 +16,6 @@ RubyKaigi)][1]が下記の場所と日程で開催されます。
 
 2010年以降もいくつかの地域Ruby会議の開催が予定されています。最新情報は[RubyKaigi日記][5]で都度お知らせしています。
 
-Posted by KAKUTANI Shintaro on 03 Nov 2009
-{: .post-info}
-
 
 
 [1]: http://regional.rubykaigi.org/ 

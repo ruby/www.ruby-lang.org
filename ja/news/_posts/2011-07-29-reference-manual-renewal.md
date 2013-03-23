@@ -14,9 +14,6 @@ lang: ja
 
 * [旧リファレンスマニュアル][2]
 
-Posted by okkez on 29 Jul 2011
-{: .post-info}
-
 
 
 [1]: http://doc.ruby-lang.org/ja/ 

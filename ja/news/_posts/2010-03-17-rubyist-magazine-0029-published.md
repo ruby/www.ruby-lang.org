@@ -8,9 +8,6 @@ lang: ja
 [日本Rubyの会][1]有志による、ウェブ雑誌[Rubyist
 Magazine][2]の[0029号][3]がリリースされました([\[ruby-list:46925\]][4])。 お楽しみください。
 
-Posted by maki on 17 Mar 2010
-{: .post-info}
-
 
 
 [1]: http://jp.rubyist.net/ 

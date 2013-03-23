@@ -56,9 +56,6 @@ net/http.rbでは、SSL接続の際に、証明書のCNがリクエスト先のD
 * 2007-10-04 16:30 +09:00
   「各バージョンでの対応方法」にenable\_post\_connection\_checkに関する説明を追記しました。
 
-Posted by Shugo Maeda on 04 Oct 2007
-{: .post-info}
-
 
 
 [1]: http://www.isecpartners.com/advisories/2007-006-rubyssl.txt 

@@ -95,9 +95,6 @@ LoadErrorが発生する
   SHA256:
   : e61521af06da71fde9f0c7c08baaf7415614d00c86ec5a7ab08b60a4f3185b2a
 
-Posted by Yugui on 18 Aug 2010
-{: .post-info}
-
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/NEWS 

@@ -10,9 +10,6 @@ Magazine][2]の[0019号][3]がリリースされました([\[ruby-list:43537\]][
 
 お楽しみください。
 
-Posted by maki on 19 May 2007
-{: .post-info}
-
 
 
 [1]: http://jp.rubyist.net/ 

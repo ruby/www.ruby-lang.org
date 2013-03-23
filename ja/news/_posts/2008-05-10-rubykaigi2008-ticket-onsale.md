@@ -12,9 +12,6 @@ lang: ja
 
 より詳しい情報は[日本Ruby会議2008のサイト][1]をご覧ください。みなさまの参加を心よりお待ちしております。
 
-Posted by maki on 10 May 2008
-{: .post-info}
-
 
 
 [1]: http://jp.rubyist.net/RubyKaigi2008/ 

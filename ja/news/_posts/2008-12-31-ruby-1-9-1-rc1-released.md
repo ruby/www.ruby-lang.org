@@ -54,9 +54,6 @@ RC1ではまだ対応が行われていない課題は、以下のURLです。
 
 みなさまのご協力を心よりお待ちしています。
 
-Posted by maki on 31 Dec 2008
-{: .post-info}
-
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45758 

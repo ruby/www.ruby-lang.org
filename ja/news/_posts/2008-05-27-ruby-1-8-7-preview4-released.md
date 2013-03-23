@@ -44,9 +44,6 @@ lang: ja
 [\[ruby-dev:34848\]][1]によれば、正式リリースは今月中になる予定です。不具合を修正する最後の機会に
 なりますので、ご協力よろしくお願いします。
 
-Posted by maki on 27 May 2008
-{: .post-info}
-
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/34848 

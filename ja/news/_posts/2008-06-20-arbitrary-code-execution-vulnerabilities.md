@@ -59,9 +59,6 @@ Rubyのパッケージを配布している各ベンダから、この脆弱性�
 
 * 2008-06-21 00:32 +09:00 誤ったCVE ID(CVE-2008-2727・CVE-2008-2728)を削除しました。
 
-Posted by Shugo Maeda on 20 Jun 2008
-{: .post-info}
-
 
 
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2662 

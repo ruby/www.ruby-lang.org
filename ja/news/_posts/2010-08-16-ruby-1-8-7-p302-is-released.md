@@ -45,9 +45,6 @@ MD5(ruby-1.8.7-p302.zip):
 SHA256(ruby-1.8.7-p302.zip):
 : f50d6ae1a7247674b6a07e54cbd6704a6951ba20277cd7dc23d1453ffe00fedb
 
-Posted by maki on 16 Aug 2010
-{: .post-info}
-
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/367769 

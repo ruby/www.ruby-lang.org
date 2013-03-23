@@ -53,9 +53,6 @@ ruby-1.9.3-p0 のリリースにむけて修正が続けられています。
 
 詳しくは[NEWS][6]や[ChangeLog][7]をご覧ください。
 
-Posted by Shota Fukumori on 24 Sep 2011
-{: .post-info}
-
 
 
 [1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2 

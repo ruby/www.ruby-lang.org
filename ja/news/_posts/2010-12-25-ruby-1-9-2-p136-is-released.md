@@ -40,9 +40,6 @@ lang: ja
   SHA256:
   : 84ffc047b29032ba848dbbf50d3302de7ac732db1448e57303c27ad4b47c2c5b
 
-Posted by Yugui on 25 Dec 2010
-{: .post-info}
-
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog 

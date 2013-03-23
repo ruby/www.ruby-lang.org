@@ -151,9 +151,6 @@ special thanks のページヘのリンクを貼ることでその代わりと�
 
 * [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][13]
 
-Posted by Yusuke Endoh on 24 Feb 2013
-{: .post-info}
-
 
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2 

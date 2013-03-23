@@ -54,9 +54,6 @@ Ruby 1.9.1は1.8から数多くの改良が加えられています。 1.8.7以�
       MD5:    3377d43b041877cda108e243c6b7f436
       SHA256: 00562fce4108e5c6024c4152f943eaa7dcc8cf97d5c449ac102673a0d5c1943b
 
-Posted by maki on 30 Jan 2009
-{: .post-info}
-
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45836 

@@ -11,9 +11,6 @@ lang: ja
 新しいサイトは、[Radiant CMS][2]によって構築されています。 Radiant CMSは、Ruby on
 Railsによって実装されたオープンソースのCMSです。
 
-Posted by Shugo Maeda on 12 Sep 2006
-{: .post-info}
-
 
 
 [1]: http://www2.ruby-lang.org/ 

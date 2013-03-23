@@ -47,9 +47,6 @@ bitが設定されている場合を除き、親ディレクトリがworld writa
 * 「影響のあるバージョン」の「Ruby 1.9.1 patchlevel 136 以前のバージョン」を「Ruby 1.9.2
   patchlevel 136 以前のバージョン」に修正しました。
 
-Posted by Shugo Maeda on 18 Feb 2011
-{: .post-info}
-
 
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz 

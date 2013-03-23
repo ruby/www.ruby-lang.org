@@ -38,9 +38,6 @@ lang: ja
 
 * [&lt;URL:http://rubyforge.org/tracker/?atid=22040&amp;group\_id=426&amp;func=browse&gt;][7]
 
-Posted by maki on 26 Apr 2008
-{: .post-info}
-
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/34462 

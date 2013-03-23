@@ -10,6 +10,3 @@ CVSの各サービスが一時的に停止します。
 
 ご協力をお願いします。
 
-Posted by Shugo Maeda on 21 Feb 2007
-{: .post-info}
-

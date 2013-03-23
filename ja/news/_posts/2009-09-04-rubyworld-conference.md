@@ -11,9 +11,6 @@ lang: ja
 
 お楽しみに!
 
-Posted by Shugo Maeda on 04 Sep 2009
-{: .post-info}
-
 
 
 [1]: http://www.rubyworld-conf.org/ja/ 

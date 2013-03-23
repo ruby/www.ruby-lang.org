@@ -52,9 +52,6 @@ Ruby 1.9.3 preview1をリリースしました。これはRuby 1.9.3の最初の
 
 詳しくは[NEWS][6]や[ChangeLog][7]をご覧ください。
 
-Posted by Moru on 01 Aug 2011
-{: .post-info}
-
 
 
 [1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2 

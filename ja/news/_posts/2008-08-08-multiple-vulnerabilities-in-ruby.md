@@ -162,9 +162,6 @@ Teamに報告されました。
 * 2007-08-11 11:31 +09:00 ruby 1.8のパッチレベルを修正しました。[Ruby 1.8.7-p72 /
   1.8.6-p287 のリリースアナウンス][4]を参照ください。
 
-Posted by Shugo Maeda on 08 Aug 2008
-{: .post-info}
-
 
 
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1447 

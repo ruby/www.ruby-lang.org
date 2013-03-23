@@ -12,9 +12,6 @@ lang: ja
 
 表彰式は4月6日にホテルオークラ東京にて行われるとのことです。
 
-Posted by usa on 19 Mar 2007
-{: .post-info}
-
 
 
 [1]: http://corporate.nikkeibp.co.jp/information/newsrelease/newsrelease20070316.html 

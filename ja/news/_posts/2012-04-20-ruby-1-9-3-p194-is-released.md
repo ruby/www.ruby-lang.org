@@ -60,9 +60,6 @@ RubyGemsがSSL証明書をどのように使うかは、~/.gemrcファイルや/
   * SHA256:
     77474cfb92385b3a0b4c346553048bc65bfe68d4f220128329671a0234cb124d
 
-Posted by maki on 20 Apr 2012
-{: .post-info}
-
 
 
 [1]: https://github.com/rubygems/rubygems/blob/1.8/History.txt 

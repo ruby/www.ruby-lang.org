@@ -10,9 +10,6 @@ Magazineの特別号が[リリースされました][2]。 各セッションの
 
 なお講演資料は、[日本 Ruby カンファレンス 2006 - プログラム][3]の本文中に掲載されています。
 
-Posted by sughimsi on 28 Jun 2006
-{: .post-info}
-
 
 
 [1]: http://jp.rubyist.net/RubyKaigi2006/ 

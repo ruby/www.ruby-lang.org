@@ -34,9 +34,6 @@ Mentor になりたい、スポンサーになりたい、あるいは応募し�
 
 Update: \[ruby-talk:359795\] によると、目標額は達成したそうです。
 
-Posted by Urabe Shyouhei on 26 Mar 2010
-{: .post-info}
-
 
 
 [1]: http://rubycentral.org/ 

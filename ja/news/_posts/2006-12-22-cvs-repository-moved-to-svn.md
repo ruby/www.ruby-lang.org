@@ -11,9 +11,6 @@ svnコマンドでチェックアウトしたり、 [ViewVC][2] で参照する�
 svn.ruby-lang.org用の新しいマシンは[Sun Microsystems社][3]に 提供していただきました。
 新しいマシンでは、[Solaris 10][4]を使用しています。
 
-Posted by Shugo Maeda on 22 Dec 2006
-{: .post-info}
-
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/ 

@@ -41,9 +41,6 @@ RC2のリリースのアナウンスがありました。
 
 * [&lt;URL:http://redmine.ruby-lang.org/projects/show/ruby-19&gt;][7]
 
-Posted by maki on 21 Jan 2009
-{: .post-info}
-
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45801 

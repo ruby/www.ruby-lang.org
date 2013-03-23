@@ -56,9 +56,6 @@ Ruby 1.9を1.9.1-p429または1.9.2-rc1に更新することを推奨します�
   SHA256
   : c9fe2364b477ad004030f4feeb89aeaa2a01675ff95db1bed31a932806f85680
 
-Posted by Yugui on 02 Jul 2010
-{: .post-info}
-
 
 
 [1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2 

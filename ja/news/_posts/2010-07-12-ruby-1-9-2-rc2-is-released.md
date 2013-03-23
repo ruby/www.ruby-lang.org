@@ -61,9 +61,6 @@ Ruby 1.9.2は8月初旬にリリースされる予定です。1.9.2リリース�
   SHA256
   : 33f7f4cdd8444c2594728f70ac07477575a7cba5e7756bd3645f23e52605618c
 
-Posted by usa on 12 Jul 2010
-{: .post-info}
-
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/NEWS 

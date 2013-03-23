@@ -12,9 +12,6 @@ Softwareは一年に一度、フリーソフトウェアの精神に則った活
 
 [FSFの記事全文][1]
 
-Posted by Shugo Maeda on 29 Mar 2012
-{: .post-info}
-
 
 
 [1]: https://www.fsf.org/news/2011-free-software-awards-announced 

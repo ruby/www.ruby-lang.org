@@ -76,9 +76,6 @@ lang: ja
 
 また、日本語で書かれた紹介資料としては、[&lt;URL:http://www.slideshare.net/mrkn/ruby-193&gt;][8]などもどうぞ。
 
-Posted by Shota Fukumori on 31 Oct 2011
-{: .post-info}
-
 
 
 [1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2 

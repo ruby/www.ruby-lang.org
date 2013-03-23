@@ -53,9 +53,6 @@ xtermのウィンドウタイトルを見てください。
 Giovanni \"evilaliv3\" Pellerano, Alessandro \"jekil\" Tanasi, および
 Francesco \"ascii\" Ongaroがこの脆弱性を発見しました。
 
-Posted by Yugui on 10 Jan 2010
-{: .post-info}
-
 
 
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz 

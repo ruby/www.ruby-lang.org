@@ -8,9 +8,6 @@ lang: ja
 [日本Rubyの会][1]有志による、ウェブ雑誌[Rubyist
 Magazine][2]の[0038号][3]がリリースされました([\[ruby-list:48778\]][4])。 お楽しみください。
 
-Posted by Kazuhiro NISHIYAMA on 22 May 2012
-{: .post-info}
-
 
 
 [1]: https://github.com/ruby-no-kai/official/wiki 

@@ -36,9 +36,6 @@ Ruby 1.9.3-p327 がリリースされました。
   * SHA256:
     51dfb919182f69f02a388a6c4b911cb43a321234a282cbf500f50cee51e2f5fe
 
-Posted by usa on 09 Nov 2012
-{: .post-info}
-
 
 
 [1]: {{ site.url }}/ja/news/2012/11/09/ruby19-hashdos-cve-2012-5371/ 

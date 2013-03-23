@@ -10,9 +10,6 @@ Magazine][2]の[0016号][3]がリリースされました。([\[ruby-list:42813\
 
 いつの間にか二周年です。お楽しみください。
 
-Posted by SASADA Koichi on 21 Sep 2006
-{: .post-info}
-
 
 
 [1]: http://jp.rubyist.net/ 

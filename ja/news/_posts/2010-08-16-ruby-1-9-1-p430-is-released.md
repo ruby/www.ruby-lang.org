@@ -45,9 +45,6 @@ MD5:
 SHA256:
 : 004713d27bfd1ccadf656e88f23d9a78ff5f9265079e8ce947faa6fff0da40d6
 
-Posted by maki on 16 Aug 2010
-{: .post-info}
-
 
 
 [1]: {{ site.url }}/ja/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 

@@ -12,6 +12,3 @@ lang: ja
 
 2009/10/8追記: サービスを再開しました。お待たせました。
 
-Posted by Shugo Maeda on 07 Oct 2009
-{: .post-info}
-

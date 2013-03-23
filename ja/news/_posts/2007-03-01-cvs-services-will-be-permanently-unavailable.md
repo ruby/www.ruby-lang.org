@@ -10,6 +10,3 @@ Rubyの開発はすでに[Subversionに移行](/ja/news/2006/12/22/cvs-repositor
 
 何らかの理由でCVSレポジトリが必要な方は、上記の日付までに CVSupでレポジトリを取得しておいてください。
 
-Posted by Shugo Maeda on 01 Mar 2007
-{: .post-info}
-

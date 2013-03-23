@@ -50,9 +50,6 @@ Rubyコア開発陣はいくつかのプラットフォームにおけるRuby 1.
 * [\[ruby-list:45267\]][1] \[ANN\] Ruby 1.9.0-3リリース
 * [\[ruby-list:45345\]][2] 「サポートレベル」の定義、1.9.1のサポート予定プラットフォーム、メンテナ募集
 
-Posted by maki on 20 Aug 2008
-{: .post-info}
-
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45267 

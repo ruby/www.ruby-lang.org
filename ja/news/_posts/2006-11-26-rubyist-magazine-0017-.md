@@ -10,9 +10,6 @@ Magazine][2]の[0017号][3]がリリースされました([\[ruby-list:43013\]][
 
 お楽しみください。
 
-Posted by SASADA Koichi on 26 Nov 2006
-{: .post-info}
-
 
 
 [1]: http://jp.rubyist.net/ 

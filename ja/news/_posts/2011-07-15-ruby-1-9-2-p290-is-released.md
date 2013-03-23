@@ -43,9 +43,6 @@ Ruby 1.9.2-p290がリリースされました。
   SHA256:
   : bce3d1c8c78fbafb6a0d67df2b8dec5322301f7b4b0f7594656ad689e9cb461d
 
-Posted by maki on 15 Jul 2011
-{: .post-info}
-
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_290/ChangeLog 

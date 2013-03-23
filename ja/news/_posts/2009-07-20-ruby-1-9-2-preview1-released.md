@@ -49,9 +49,6 @@ Ruby 1.9.2 preview1がリリースされました。
   SHA256
   : cb132277476856535ee31e85929a3041877b0912868b7f64d1cf911a79463cdf
 
-Posted by Yugui on 20 Jul 2009
-{: .post-info}
-
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/trunk/NEWS 

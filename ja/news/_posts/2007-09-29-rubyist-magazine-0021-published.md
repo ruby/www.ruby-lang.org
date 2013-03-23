@@ -10,9 +10,6 @@ Magazine][2]の[0021号][3]がリリースされました([\[ruby-list:44063\]][
 
 今号は3周年記念号でもあります。お楽しみください。
 
-Posted by maki on 29 Sep 2007
-{: .post-info}
-
 
 
 [1]: http://jp.rubyist.net/ 
