@@ -228,6 +228,12 @@ namespace :import do
           author     = nil
           pubdate    = pubdates[lang][page.url.to_s]
 
+          if lang == 'ja'
+            # remove post info (else appears twice)
+            post_info_p = page.at("p[@class='post-info']")
+            post_info_p.unlink  if post_info_p
+          end
+
           archive_url = URI("http://#{HOST}/#{lang}/#{news_dir}/#{year}/#{month}/")
           begin
             agent.get_page(archive_url) do |archive|
