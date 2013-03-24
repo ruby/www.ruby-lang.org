@@ -5,6 +5,19 @@ This is the official port of the
 [Jekyll](http://www.jekyllrb.com/). You can view the live site at
 [ruby-lang.github.com](http://ruby-lang.github.com/).
 
+Right now we are in the middle of the transition from the
+current Radiant CMS based site to this Jekyll based site.
+
+## How to Contribute
+
+You can contribute by comparing
+[ruby-lang.github.com](http://ruby-lang.github.com/)
+to [www.ruby-lang.org](http://www.ruby-lang.org/)
+and reporting any inconsistencies between the two sites.
+
+Changes of the content (corrections, improvements, ...)
+will have to wait until after the migration.
+
 ## Get It
 
 You need to have [Jekyll and Pygments installed](https://github.com/mojombo/jekyll/wiki/install)
