@@ -12,7 +12,7 @@ on your system.
 
 Clone the repository, create the site and start a local server:
 
-    $ git clone https://github.com/postmodern/www.ruby-lang.org.git
+    $ git clone https://github.com/ruby/www.ruby-lang.org.git
     $ cd www.ruby-lang.org/
     $ rake preview
 
