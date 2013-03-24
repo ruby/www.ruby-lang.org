@@ -3,7 +3,7 @@
 This is the official port of the
 [www.ruby-lang.org](http://www.ruby-lang.org/) website to
 [Jekyll](http://www.jekyllrb.com/). You can view the live site at
-[ruby-lang.github.com](http://ruby-lang.github.com/)
+[ruby-lang.github.com](http://ruby-lang.github.com/).
 
 ## Get It
 
