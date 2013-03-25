@@ -8,7 +8,7 @@ layout: nil
     <link>{{ site.url }}/id/feeds/news.rss</link>
     <language>id</language>
     <ttl>40</ttl>
-    <description>Berita terhangat dari Ruby-Lang.org.</description>
+    <description>Berita terhangat dari ruby-lang.org.</description>
     {% for post in site.categories.id limit:10 %}
     <item>
       <title>{{ post.title }}</title>

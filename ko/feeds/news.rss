@@ -8,7 +8,7 @@ layout: nil
     <link>{{ site.url }}/ko/feeds/news.rss</link>
     <language>ko-kr</language>
     <ttl>40</ttl>
-    <description>Ruby-Lang의 최근 소식</description>
+    <description>ruby-lang.org의 최근 소식</description>
     {% for post in site.categories.ko limit:10 %}
     <item>
       <title>{{ post.title }}</title>
