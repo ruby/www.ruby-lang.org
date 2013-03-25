@@ -1,15 +1,18 @@
 ---
 layout: nil
+lang: es
 ---
+{% assign locales = site.locales.feed[page.lang] %}
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Noticias de Ruby por RSS</title>
-    <link>{{ site.url }}/es/feeds/news.rss</link>
-    <language>es-es</language>
+    <title>{{ locales.title }}</title>
+    <link>{{ site.url }}/{{ page.lang }}/feeds/news.rss</link>
+    <language>{{ locales.lang_code }}</language>
     <ttl>40</ttl>
-    <description>Las últimas noticias de ruby-lang.org en español.</description>
-    {% for post in site.categories.es limit:10 %}
+    <description>{{ locales.description }}</description>
+    {% for post in site.categories[page.lang] limit:10 %}
     <item>
       <title>{{ post.title }}</title>
       <description>{{ post.content | xml_escape }}</description>
