@@ -102,6 +102,7 @@ WEBrick::HTTPUtils.split\_header\_valueの正規表現のバックトラック�
 この脆弱性はChristian Neukirchenさんによって報告されました。
 
 ### dlの汚染チェックの欠如
+{: #label-3}
 
 dlはオブジェクトの汚染フラグをチェックしないため、攻撃者に危険な関数の実行を許してしまう可能性があります。
 

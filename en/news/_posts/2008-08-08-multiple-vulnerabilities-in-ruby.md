@@ -103,6 +103,7 @@ The request likely won\'t finish in this universe.
 This vulnerability was reported by Christian Neukirchen.
 
 ### Lack of taintness check in dl
+{: #label-3}
 
 dl doesn\'t check taintness, so it could allow attackers to call
 dangerous functions.

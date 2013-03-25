@@ -101,6 +101,7 @@ infinito.
 Questa vulnerabilità è stata notificata da Christian Neukirchen.
 
 ### Mancanza di controlli di \_taintness\_ in dl
+{: #label-3}
 
 dl non controlla la \_taintness\_, e questo potrebbe permettere la
 chiamata di funzioni pericolose.

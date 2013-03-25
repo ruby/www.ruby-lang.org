@@ -103,6 +103,7 @@ regular expression）。
 这个漏洞是由Christian Neukirchen报告的。
 
 ### dl中缺乏完整性检查
+{: #label-3}
 
 dl没有进行完整性检查，因此可能允许攻击者调用危险的函数。
 
