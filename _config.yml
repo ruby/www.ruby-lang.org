@@ -268,6 +268,64 @@ locales:
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
 #   zh_TW:
 
+  feed:
+    bg:
+      title: Ruby новини
+      description: Последните новини от ruby-lang.org.
+      lang_code: bg
+    de:
+      title: Ruby RSS News
+      description: Die letzten Neuigkeiten von ruby-lang.org.
+      lang_code: de-de
+    en:
+      title: Ruby News
+      description: The latest news from ruby-lang.org.
+      lang_code: en-us
+    es:
+      title: Noticias de Ruby por RSS
+      description: Las últimas noticias de ruby-lang.org en español.
+      lang_code: es-es
+    fr:
+      title: Actualités de Ruby-lang
+      description: Les dernières news sur ruby-lang.org.
+      lang_code: fr-FR
+    id:
+      title: Berita Ruby
+      description: Berita terhangat dari ruby-lang.org.
+      lang_code: id
+    it:
+      title: Notizie su Ruby
+      description: Le ultime notizie da ruby-lang.org.
+      lang_code: it-IT
+    ja:
+      title: ruby-langの最新ニュース
+      description: ruby-lang.orgの最新ニュース
+      lang_code: ja
+    ko:
+      title: Ruby-Lang의 최근 소식
+      description: ruby-lang.org의 최근 소식
+      lang_code: ko-kr
+    pl:
+      title: Ruby Lang PL
+      description: Najnowsze wiadomości z ruby-lang.org.
+      lang_code: pl
+    pt:
+      title: Noticias de Ruby por RSS
+      description: As notícias mais recentes do ruby-lang.org em Português.
+      lang_code: pt-pt
+    tr:
+      title: Ruby Son Haberler
+      description: Ruby Son Haberler
+      lang_code: tr
+    zh_cn:
+      title: News RSS Feed
+      description: The latest news from ruby-lang.org.
+      lang_code: zh_cn
+    zh_TW:
+      title: Ruby RSS News
+      description: The latest news from ruby-lang.org.
+      lang_code: zh_TW
+
   news:
     bg:
       other_news: Други новини
