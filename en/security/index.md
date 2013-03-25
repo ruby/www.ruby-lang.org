@@ -81,5 +81,5 @@ Here are recent issues.
 [11]: /en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/ 
 [12]: /en/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
 [13]: /en/news/2010/07/02/ruby-1-9-1-p429-is-released/ 
-[14]: /en/news/2010/01/10/webrick-escape-sequence-injection// 
+[14]: /en/news/2010/01/10/webrick-escape-sequence-injection/ 
 [15]: /en/news/2009/12/07/heap-overflow-in-string/ 

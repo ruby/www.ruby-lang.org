@@ -13,11 +13,11 @@ lang: zh_TW
 : Ruby Taiwan 社群成立於2008年10月，主要是針對 Ruby
   程式語言及軟體開發，進行業界的交流及分享，提昇開發人員的技術深度與廣度。詳見 [關於 Ruby Taiwan][2] 。
 
-[Ruby 使用者群組](/zh_TW//community/user-groups/)
+[Ruby 使用者群組](/zh_TW/community/user-groups/)
 : 本地的 Ruby 使用者群組可以讓你與其他程式設計師進行交流。Ruby
   使用者群組都是自發性的，通常會有每月的聚會、郵件論壇以及一個社群網站。運氣好的話，也許還會有編程節 (codefests)。
 
-[Ruby 郵件論壇和新聞群組](/zh_TW//community/mailing-lists/)
+[Ruby 郵件論壇和新聞群組](/zh_TW/community/mailing-lists/)
 : Ruby 擁有各種不同主題及語言的郵件論壇。如果你有 Ruby 的問題，透過論壇發問是個不錯的方式。台灣的 Ruby 論壇則有
   [RailsFun][3] 以及 [PTT](telnet://ptt.cc) Ruby 版。
 
@@ -28,7 +28,7 @@ lang: zh_TW
 [Ruby 核心](/zh_TW/community/ruby-core)
 : 歡迎加入正在開發中的 Ruby 2.0。如果您有興趣幫忙，可以從這裡開始。
 
-[關於 Ruby 的部落格](/zh_TW//community/weblogs/)
+[關於 Ruby 的部落格](/zh_TW/community/weblogs/)
 : Ruby 社群中有著各式各樣的部落格。這裡是一份推薦清單。
 
 [Ruby 研討會](/zh_TW/community/conferences/)

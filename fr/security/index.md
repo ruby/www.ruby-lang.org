@@ -45,5 +45,5 @@ création d\'un patch résolvant la vulnérabilité.
 
 
 
-[1]: /fr/news/2010/01/10/vulnrabilit-webrick-par-injection-dune-squenescape-sequence-injection-vulnerability// 
+[1]: /fr/news/2010/01/10/vulnrabilit-webrick-par-injection-dune-squenescape-sequence-injection-vulnerability/ 
 [2]: /en/news/2009/12/07/heap-overflow-in-string/ 
