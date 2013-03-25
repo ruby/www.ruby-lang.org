@@ -276,15 +276,15 @@ locales:
     de:
       title: Ruby RSS News
       description: Die letzten Neuigkeiten von ruby-lang.org.
-      lang_code: de-de
+      lang_code: de-DE
     en:
       title: Ruby News
       description: The latest news from ruby-lang.org.
-      lang_code: en-us
+      lang_code: en-US
     es:
       title: Noticias de Ruby por RSS
       description: Las últimas noticias de ruby-lang.org en español.
-      lang_code: es-es
+      lang_code: es-ES
     fr:
       title: Actualités de Ruby-lang
       description: Les dernières news sur ruby-lang.org.
@@ -304,7 +304,7 @@ locales:
     ko:
       title: Ruby-Lang의 최근 소식
       description: ruby-lang.org의 최근 소식
-      lang_code: ko-kr
+      lang_code: ko-KR
     pl:
       title: Ruby Lang PL
       description: Najnowsze wiadomości z ruby-lang.org.
@@ -312,7 +312,7 @@ locales:
     pt:
       title: Noticias de Ruby por RSS
       description: As notícias mais recentes do ruby-lang.org em Português.
-      lang_code: pt-pt
+      lang_code: pt-PT
     tr:
       title: Ruby Son Haberler
       description: Ruby Son Haberler
@@ -320,11 +320,11 @@ locales:
     zh_cn:
       title: News RSS Feed
       description: The latest news from ruby-lang.org.
-      lang_code: zh_cn
+      lang_code: zh-CN
     zh_TW:
       title: Ruby RSS News
       description: The latest news from ruby-lang.org.
-      lang_code: zh_TW
+      lang_code: zh-TW
 
   news:
     bg:
