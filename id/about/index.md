@@ -114,7 +114,7 @@ Blok terinspirasi dari bahasa-bahasa fungsional. Matz berkata, “Saya
 ingin menghormati kultur Lisp di closure Ruby<sup>[4](#fn4)</sup>.”
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

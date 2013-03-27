@@ -44,8 +44,8 @@ informuje nas o wyniku ostatniego wyrażenia jakie wykonał. Jeśli chcemy
 wyświetlić “Hello World” potrzebujemy troszkę więcej:
 
 {% highlight ruby %}
-irb(main):002:0> puts "Hello World" 
-Hello World 
+irb(main):002:0> puts "Hello World"
+Hello World
 => nil
 {% endhighlight %}
 

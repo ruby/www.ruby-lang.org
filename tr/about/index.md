@@ -109,7 +109,7 @@ Bloklar fonksiyonel dillerden esinlenilerek Ruby’ye getirilmiştir. Matz
 istedim<sup>[4](#fn4)</sup>.” demiştir.
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

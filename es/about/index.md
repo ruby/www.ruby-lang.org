@@ -114,7 +114,7 @@ Los bloques están inspirados por los lenguajes funcionales. Matz dijo,
 Lisp<sup>[4](#fn4)</sup>”.
 
 {% highlight ruby %}
-motores_de_busqueda = 
+motores_de_busqueda =
   %w[Google Yahoo MSN].map do |motor|
     "http://www." + motor.downcase + ".com"
   end

@@ -225,13 +225,13 @@ irb(main):002:1>   # default olarak public
 irb(main):003:1*   def func
 irb(main):004:2>     99
 irb(main):005:2>   end
-irb(main):006:1> 
+irb(main):006:1>
 irb(main):007:1*   def ==(diger)
 irb(main):008:2>     func == diger.func
 irb(main):009:2>   end
 irb(main):010:1> end
 => nil
-irb(main):011:0> 
+irb(main):011:0>
 irb(main):012:0* t1 = Test.new
 => #<Test:0x34ab50>
 irb(main):013:0> t2 = Test.new
@@ -325,15 +325,15 @@ istediğiniz şekilde değiştirebilirsiniz ve birçok kütüphane de bunu
 yapar. Bir örnek:
 
 {% highlight ruby %}
-# id çağrılan metodun adı, * deyimiyle tüm argümanlar 
+# id çağrılan metodun adı, * deyimiyle tüm argümanlar
 # bir 'arguments' adlı bir array içinde toplanır
 def method_missing( id, *arguments )
-  puts "Metod #{id} çağrıldı fakat bulunamadı. Argümanları " + 
+  puts "Metod #{id} çağrıldı fakat bulunamadı. Argümanları " +
        "şunlar : #{arguments.join(", ")}"
 end
 
 __ :a, :b, 10
-# => Metod __ çağrıldı fakat bulunamadı. Argümanları 
+# => Metod __ çağrıldı fakat bulunamadı. Argümanları
 # şunlar: a, b, 10
 {% endhighlight %}
 

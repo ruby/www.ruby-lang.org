@@ -107,7 +107,7 @@ Blocks are inspired by functional languages. Matz said, “in Ruby
 closures, I wanted to respect the Lisp culture<sup>[4](#fn4)</sup>.”
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

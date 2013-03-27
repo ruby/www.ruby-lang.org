@@ -45,8 +45,8 @@ evaluada. Si queremos que el programa escriba “Hola Mundo” necesitamos
 un poco más:
 
 {% highlight ruby %}
-irb(main):002:0> puts "Hola Mundo" 
-Hola Mundo 
+irb(main):002:0> puts "Hola Mundo"
+Hola Mundo
 => nil
 {% endhighlight %}
 

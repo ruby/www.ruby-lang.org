@@ -131,7 +131,7 @@ a dit à ce propos : « en créant les *closures* de Ruby, je souhaitais
 respecter la voie tracée par Lisp<sup>[4](#fn4)</sup>. »
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |moteur|
     "http://www." + moteur.downcase + ".com"
   end

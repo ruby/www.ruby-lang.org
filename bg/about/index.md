@@ -93,7 +93,7 @@ y = 5.plus 6
 програмиране.
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

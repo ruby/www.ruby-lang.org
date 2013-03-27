@@ -83,7 +83,7 @@ Ruby 的代码块是非常强大的。程序员可以给任何函数添加一个
 代码块取自函数语言。Matz 说：“我希望在 Ruby 的密封中融入 Lisp 的文化 \[4\]。”
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

@@ -44,7 +44,7 @@ Berikut ini adalah contoh program untuk menjumlahkan dua angka
 {% highlight python %}
 #include <stdio.h>
 
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
     int a, b, c;
 

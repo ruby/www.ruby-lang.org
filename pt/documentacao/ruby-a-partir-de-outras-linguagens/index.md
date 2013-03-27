@@ -253,13 +253,13 @@ irb(main):002:1>   # public por omissao
 irb(main):003:1*   def func
 irb(main):004:2>     99
 irb(main):005:2>   end
-irb(main):006:1> 
+irb(main):006:1>
 irb(main):007:1*   def ==(outro)
 irb(main):008:2>     func == outro.func
 irb(main):009:2>   end
 irb(main):010:1> end
 => nil
-irb(main):011:0> 
+irb(main):011:0>
 irb(main):012:0* t1 = Teste.new
 => #<Test:0x34ab50>
 irb(main):013:0> t2 = Teste.new
@@ -358,7 +358,7 @@ better fit your application, and many libraries do. Here is an example:
 # id is the name of the method called, the * syntax collects
 # all the arguments in an array named 'arguments'
 def method_missing( id, *arguments )
-  puts "Method #{id} was called, but not found. It has " + 
+  puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
 end
 

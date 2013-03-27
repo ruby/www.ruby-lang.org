@@ -113,7 +113,7 @@ Blöcke sind durch funktionale Programmiersprachen inspiriert. Matz sagt:
 bewahren<sup>[4](#fn4)</sup>.”
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

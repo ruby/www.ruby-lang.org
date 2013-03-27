@@ -85,7 +85,7 @@ y = 5.plus 6
 싶었다\[4\]”고 말했다.
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

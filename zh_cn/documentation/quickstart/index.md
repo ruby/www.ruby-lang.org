@@ -37,8 +37,8 @@ irb(main):001:0> "Hello World"
 给我们的上一个命令的返回值。 如果我们要打印 “Hello World” 的话，还需要更多一点代码：
 
 {% highlight ruby %}
-irb(main):002:0> puts "Hello World" 
-Hello World 
+irb(main):002:0> puts "Hello World"
+Hello World
 => nil
 {% endhighlight %}
 

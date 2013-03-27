@@ -45,7 +45,7 @@ Ausdrucks mit. Wenn wir “Hallo, Welt!” auf den Bildschirm ausgeben
 wollen, müssen wir ein bisschen mehr tun:
 
 {% highlight ruby %}
-irb(main):002:0> puts "Hallo, Welt!" 
+irb(main):002:0> puts "Hallo, Welt!"
 Hallo, Welt!
 => nil
 {% endhighlight %}

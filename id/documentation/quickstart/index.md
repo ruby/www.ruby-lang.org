@@ -45,8 +45,8 @@ terakhir yang dievaluasi/dijalankan. Jika kita ingin print “Hello World”
 kita perlu tambahkan sedikit:
 
 {% highlight ruby %}
-irb(main):002:0> puts "Hello World" 
-Hello World 
+irb(main):002:0> puts "Hello World"
+Hello World
 => nil
 {% endhighlight %}
 

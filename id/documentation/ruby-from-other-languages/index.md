@@ -268,20 +268,20 @@ irb(main):002:1>   # metode berikut secara default adalah public
 irb(main):003:1*   def func
 irb(main):004:2>     99
 irb(main):005:2>   end
-irb(main):006:1> 
+irb(main):006:1>
 irb(main):007:1*   def ==(other)
 irb(main):008:2>     func == other.func
 irb(main):009:2>   end
 irb(main):010:1> end
 => nil
-irb(main):011:0> 
+irb(main):011:0>
 irb(main):012:0* t1 = Test.new
 => #<Test:0x34ab50>
 irb(main):013:0> t2 = Test.new
 => #<Test:0x342784>
 irb(main):014:0> t1 == t2
 => true
-irb(main):015:0> # sekarang atur `func` menjadi protected, 
+irb(main):015:0> # sekarang atur `func` menjadi protected,
 irb(main):016:0* # masih jalan karena protected bisa reference ke lain
 irb(main):017:0* class Test
 irb(main):018:1>   protected :func
@@ -376,11 +376,11 @@ daftar parameternya. Secara *default*, `method_missing` membangkitkan
 dan banyak *library* yang melakukan hal yang sama. Contoh:
 
 {% highlight ruby %}
-# id adalah nama metode yang dipanggil, 
+# id adalah nama metode yang dipanggil,
 # sintaks * mengumpulkan semua arguments
 # dalam array yang bernama 'arguments'
 def method_missing( id, *arguments )
-  puts "Metode #{id} telah dipanggil, " + 
+  puts "Metode #{id} telah dipanggil, " +
     "tetapi tidak ditemukan. " +
     "Metode ini punya arguments sebagai berikut: " +
     arguments.join(", ")
@@ -388,8 +388,8 @@ end
 
 __ :a, :b, 10
 
-# => Metode __ telah dipanggil, tetapi metode __ 
-# tidak berhasil ditemukan. Metode tersebut 
+# => Metode __ telah dipanggil, tetapi metode __
+# tidak berhasil ditemukan. Metode tersebut
 # memiliki argument sebagai berikut: a, b, 10
 {% endhighlight %}
 
@@ -448,7 +448,7 @@ kelas Fixnum:
 
 {% highlight ruby %}
 class Fixnum
-  # Sebenarnya Anda bisa melakukan ini, 
+  # Sebenarnya Anda bisa melakukan ini,
   # tetapi tolong jangan lakukan ini
   def +( other )
     self - other

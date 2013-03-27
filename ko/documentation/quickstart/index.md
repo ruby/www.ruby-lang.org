@@ -35,8 +35,8 @@ irb(main):001:0> "Hello World"
 다음과 같이 해야합니다.
 
 {% highlight ruby %}
-irb(main):002:0> puts "Hello World" 
-Hello World 
+irb(main):002:0> puts "Hello World"
+Hello World
 => nil
 {% endhighlight %}
 

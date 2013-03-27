@@ -43,16 +43,16 @@ Jadi metode-metode apa yang sebetulnya ada pada obyek TukangSapa?
 
 {% highlight ruby %}
 irb(main):018:0> TukangSapa.instance_methods
-=> ["inspect", "clone", "method", "public_methods", 
-"instance_variable_defined?", "equal?", "freeze", "methods", 
-"respond_to?", "dup", "instance_variables", "__id__", 
-"object_id", "eql?", "id", "singleton_methods", 
-"send", "taint", "frozen?", "instance_variable_get", 
-"__send__", "instance_of?", "to_a", "say_hai", 
-"type", "protected_methods", "instance_eval", "==", 
-"display", "===", "instance_variable_set", "kind_of?", 
-"extend", "to_s", "say_bye", "hash", "class", 
-"tainted?", "=~", "private_methods", "nil?", 
+=> ["inspect", "clone", "method", "public_methods",
+"instance_variable_defined?", "equal?", "freeze", "methods",
+"respond_to?", "dup", "instance_variables", "__id__",
+"object_id", "eql?", "id", "singleton_methods",
+"send", "taint", "frozen?", "instance_variable_get",
+"__send__", "instance_of?", "to_a", "say_hai",
+"type", "protected_methods", "instance_eval", "==",
+"display", "===", "instance_variable_set", "kind_of?",
+"extend", "to_s", "say_bye", "hash", "class",
+"tainted?", "=~", "private_methods", "nil?",
 "untaint", "is_a?"]
 {% endhighlight %}
 
@@ -114,7 +114,7 @@ irb(main):028:0> t.respond_to?('name')
 => true
 irb(main):029:0> t.respond_to?('name=')
 => true
-irb(main):030:0> t.say_hai             
+irb(main):030:0> t.say_hai
 Hai Hendy!
 => nil
 irb(main):031:0> t.name='Yohanes'
@@ -195,7 +195,7 @@ if __FILE__ == $0
   mg.say_bye
 
   # Ganti name menjadi array name
-  mg.names = ["Steven", "Anton", "Ridho", 
+  mg.names = ["Steven", "Anton", "Ridho",
     "Matz", "Bos"]
   mg.say_hai
   mg.say_bye

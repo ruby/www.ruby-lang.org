@@ -105,7 +105,7 @@ b = %w{c d}
 Contoh dengan Hash:
 
 {% highlight ruby %}
-a = { :name => "ArieKeren", :age => 27 } 
+a = { :name => "ArieKeren", :age => 27 }
 # => {:name=>"ArieKeren", :age=>27}
 
 [a]
@@ -149,7 +149,7 @@ dahsyat):
 
 {% highlight ruby %}
 does = is = { true => 'Yes', false => 'No' }
-does[10 == 50] 
+does[10 == 50]
 # => “No”
 
 is[10 > 5]

@@ -112,7 +112,7 @@ fechos em Ruby, Eu quis respeitar a cultura do
 Lisp<sup>[4](#fn4)</sup>”.
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end

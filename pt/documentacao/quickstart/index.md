@@ -44,8 +44,8 @@ IRB nos dizer qual o resultado da última expressão que avaliou. Se
 desejarmos imprimir «Ola Mundo» necessitamos de um pouco mais:
 
 {% highlight ruby %}
-irb(main):002:0> puts "Ola Mundo" 
-Ola Mundo 
+irb(main):002:0> puts "Ola Mundo"
+Ola Mundo
 => nil
 {% endhighlight %}
 

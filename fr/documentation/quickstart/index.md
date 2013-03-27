@@ -54,8 +54,8 @@ voulons véritablement *écrire* « Hello World », il en faut un tout petit
 peu plus :
 
 {% highlight ruby %}
-irb(main):002:0> puts "Hello World" 
-Hello World 
+irb(main):002:0> puts "Hello World"
+Hello World
 => nil
 {% endhighlight %}
 

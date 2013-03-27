@@ -44,8 +44,8 @@ Se vogliamo stampare a schermo “Ciao Mondo” dobbiamo aggiungere qualcosa
 in più:
 
 {% highlight ruby %}
-irb(main):002:0> puts "Ciao Mondo" 
-Ciao Mondo 
+irb(main):002:0> puts "Ciao Mondo"
+Ciao Mondo
 => nil
 {% endhighlight %}
 

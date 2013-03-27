@@ -256,13 +256,13 @@ irb(main):002:1>   # publique par défaut
 irb(main):003:1*   def func
 irb(main):004:2>     99
 irb(main):005:2>   end
-irb(main):006:1> 
+irb(main):006:1>
 irb(main):007:1*   def ==(other)
 irb(main):008:2>     func == other.func
 irb(main):009:2>   end
 irb(main):010:1> end
 => nil
-irb(main):011:0> 
+irb(main):011:0>
 irb(main):012:0* t1 = Test.new
 => #<Test:0x34ab50>
 irb(main):013:0> t2 = Test.new
@@ -363,7 +363,7 @@ bibliothèques exploitent cette possibilité. Voici un exemple :
 # id est le nom de la méthode appelée, la syntaxe * renvoie
 # tous les paramètres dans un tableau nommé « arguments »
 def method_missing( id, *arguments )
-  puts "La méthode #{id} a été appelée, mais elle n'existe pas. " + 
+  puts "La méthode #{id} a été appelée, mais elle n'existe pas. " +
        "Voici les paramètres de l'appel : #{arguments.join(", ")}"
 end
 

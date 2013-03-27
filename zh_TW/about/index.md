@@ -84,7 +84,7 @@ Block 的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ru
 致敬\[5\].”
 
 {% highlight ruby %}
-search_engines = 
+search_engines =
   %w[Google Yahoo MSN].map do |engine|
     "http://www." + engine.downcase + ".com"
   end
