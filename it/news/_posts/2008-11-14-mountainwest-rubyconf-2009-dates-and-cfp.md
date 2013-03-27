@@ -22,4 +22,4 @@ saranno disponibili.
 
 
 
-[1]: http://mtnwestrubyconf.org 
+[1]: http://mtnwestrubyconf.org

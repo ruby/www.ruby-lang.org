@@ -25,9 +25,9 @@ Following RAA/2.1, RAA XML Interfaces are updated.
 
 
 
-[1]: http://raa.ruby-lang.org/raa-xml.xml 
-[2]: http://raa.ruby-lang.org/raa-xml10.xml 
-[3]: http://raa.ruby-lang.org/raa-rdf.xml 
-[4]: http://raa.ruby-lang.org/raa-rdf10.xml 
-[5]: http://raa.ruby-lang.org/raa-yaml.yml 
-[6]: http://raa.ruby-lang.org/raa-yaml10.yml 
+[1]: http://raa.ruby-lang.org/raa-xml.xml
+[2]: http://raa.ruby-lang.org/raa-xml10.xml
+[3]: http://raa.ruby-lang.org/raa-rdf.xml
+[4]: http://raa.ruby-lang.org/raa-rdf10.xml
+[5]: http://raa.ruby-lang.org/raa-yaml.yml
+[6]: http://raa.ruby-lang.org/raa-yaml10.yml

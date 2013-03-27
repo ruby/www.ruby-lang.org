@@ -122,4 +122,4 @@ if __FILE__ == $0
 
 
 
-[1]: http://www.ruby-doc.org/bookstore 
+[1]: http://www.ruby-doc.org/bookstore

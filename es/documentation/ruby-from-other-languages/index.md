@@ -451,4 +451,4 @@ Cuando estés listo para saber más sobre Ruby, visita nuestra sección de
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html 
+[1]: http://www.rubycentral.com/faq/rubyfaq-7.html

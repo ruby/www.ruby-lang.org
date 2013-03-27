@@ -20,4 +20,4 @@ more details.
 
 
 
-[1]: http://www.f-ruby.com/en/news/information/11 
+[1]: http://www.f-ruby.com/en/news/information/11

@@ -13,4 +13,4 @@ Russell.
 
 
 
-[1]: http://www.linuxjournal.com/modules.php?op=modload&amp;name=NS-lj-issues/issue119&amp;file=index 
+[1]: http://www.linuxjournal.com/modules.php?op=modload&amp;name=NS-lj-issues/issue119&amp;file=index

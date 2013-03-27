@@ -114,12 +114,12 @@ Ruby, voyez le chapitre [Installation][9] du manuel RubyGems.
 
 
 
-[1]: http://docs.rubygems.org 
-[2]: http://rubyforge.org/ 
-[3]: http://rubyforge.org/softwaremap/trove_list.php 
-[4]: http://rubyforge.org/register/ 
-[5]: http://raa.ruby-lang.org/ 
-[6]: http://rubygems.org 
-[7]: http://rubygems.org/read/chapter/1 
-[8]: http://rubyforge.org/frs/?group_id=126 
-[9]: http://rubygems.org/read/chapter/3 
+[1]: http://docs.rubygems.org
+[2]: http://rubyforge.org/
+[3]: http://rubyforge.org/softwaremap/trove_list.php
+[4]: http://rubyforge.org/register/
+[5]: http://raa.ruby-lang.org/
+[6]: http://rubygems.org
+[7]: http://rubygems.org/read/chapter/1
+[8]: http://rubyforge.org/frs/?group_id=126
+[9]: http://rubygems.org/read/chapter/3

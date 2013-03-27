@@ -119,12 +119,12 @@ application’s dependencies and may be used along RubyGems.
 
 
 
-[1]: http://docs.rubygems.org 
-[2]: http://rubygems.org/pages/download 
-[3]: http://rubygems.org 
-[4]: http://rubyforge.org/ 
-[5]: http://github.com 
-[6]: http://raa.ruby-lang.org/ 
-[7]: http://docs.rubygems.org/ 
-[8]: http://guides.rubygems.org 
-[9]: http://gembundler.com 
+[1]: http://docs.rubygems.org
+[2]: http://rubygems.org/pages/download
+[3]: http://rubygems.org
+[4]: http://rubyforge.org/
+[5]: http://github.com
+[6]: http://raa.ruby-lang.org/
+[7]: http://docs.rubygems.org/
+[8]: http://guides.rubygems.org
+[9]: http://gembundler.com

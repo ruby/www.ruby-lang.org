@@ -58,17 +58,17 @@ Thema. Wer interessante Sourcen findet, sollte sich dort melden.
 
 
 
-[1]: http://del.icio.us/tag/ruby 
-[2]: http://del.icio.us/popular/ruby 
-[3]: http://technorati.com/search/ruby 
-[4]: http://rubycorner.com 
-[5]: http://planetruby.0x42.net/ 
-[6]: http://www.planetrubyonrails.org/ 
-[7]: http://www.rubyist.net/~matz/ 
-[8]: http://www.ruby-mine.de/ 
-[9]: http://www.rubyinside.com/ 
-[10]: http://oreillynet.com/ruby/ 
-[11]: http://weblog.rubyonrails.org/ 
-[12]: http://del.icio.us 
-[13]: http://digg.com/programming 
-[14]: http://developers.slashdot.org/ 
+[1]: http://del.icio.us/tag/ruby
+[2]: http://del.icio.us/popular/ruby
+[3]: http://technorati.com/search/ruby
+[4]: http://rubycorner.com
+[5]: http://planetruby.0x42.net/
+[6]: http://www.planetrubyonrails.org/
+[7]: http://www.rubyist.net/~matz/
+[8]: http://www.ruby-mine.de/
+[9]: http://www.rubyinside.com/
+[10]: http://oreillynet.com/ruby/
+[11]: http://weblog.rubyonrails.org/
+[12]: http://del.icio.us
+[13]: http://digg.com/programming
+[14]: http://developers.slashdot.org/

@@ -20,8 +20,8 @@ especial to Bill Venners for starting this whole thing.
 
 
 
-[1]: http://www.artima.com/rubycs/index.html 
-[2]: http://www.artima.com 
-[3]: http://www.artima.com/rubycs/articles/modular_apis_with_ruby.html 
-[4]: http://www.artima.com/rubycs/articles/pdf_writer.html 
-[5]: http://www.artima.com/rubycs/articles/rubyqueue.html 
+[1]: http://www.artima.com/rubycs/index.html
+[2]: http://www.artima.com
+[3]: http://www.artima.com/rubycs/articles/modular_apis_with_ruby.html
+[4]: http://www.artima.com/rubycs/articles/pdf_writer.html
+[5]: http://www.artima.com/rubycs/articles/rubyqueue.html

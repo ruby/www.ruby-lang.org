@@ -32,8 +32,8 @@ Sumber: [Ruby Inside:Rack Makes It Onto JRuby][5]
 
 
 
-[1]: http://rack.rubyforge.org/ 
-[2]: http://blog.nicksieger.com/articles/2008/05/08/introducing-jruby-rack 
-[3]: http://jruby.codehaus.org/ 
-[4]: http://www.jrubyinside.com/ 
-[5]: http://www.rubyinside.com/rack-makes-it-onto-jruby-890.html 
+[1]: http://rack.rubyforge.org/
+[2]: http://blog.nicksieger.com/articles/2008/05/08/introducing-jruby-rack
+[3]: http://jruby.codehaus.org/
+[4]: http://www.jrubyinside.com/
+[5]: http://www.rubyinside.com/rack-makes-it-onto-jruby-890.html

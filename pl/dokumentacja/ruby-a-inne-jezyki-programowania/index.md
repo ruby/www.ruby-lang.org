@@ -420,4 +420,4 @@ Więcej informacji na temat języka Ruby znajdziesz w
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html 
+[1]: http://www.rubycentral.com/faq/rubyfaq-7.html

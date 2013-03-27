@@ -15,5 +15,5 @@ lang: ko
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.5.tar.gz 
-[2]: http://eigenclass.org/hiki.rb?ruby+1.8.5+changelog 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.5.tar.gz
+[2]: http://eigenclass.org/hiki.rb?ruby+1.8.5+changelog

@@ -48,6 +48,6 @@ Für weitere Informationen zur Konferenz:
 
 
 
-[1]: http://blog.nicksieger.com/ 
-[2]: http://blog.tewk.com/ 
-[3]: http://juixe.com/techknow/ 
+[1]: http://blog.nicksieger.com/
+[2]: http://blog.tewk.com/
+[3]: http://juixe.com/techknow/

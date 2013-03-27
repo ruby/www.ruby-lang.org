@@ -10,4 +10,4 @@ KOBAYASHI Toshihito.
 
 
 
-[1]: http://rubycn.ce-lab.net/ 
+[1]: http://rubycn.ce-lab.net/

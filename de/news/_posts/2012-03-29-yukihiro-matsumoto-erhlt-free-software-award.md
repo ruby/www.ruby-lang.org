@@ -15,5 +15,5 @@ Programmiersprache Ruby und an anderen GNU-Projekten.
 
 
 
-[1]: https://www.fsf.org/news/2011-free-software-awards-announced 
-[2]: http://www.heise.de/newsticker/meldung/Free-Software-Awards-fuer-Ruby-und-GNU-Health-1486643.html 
+[1]: https://www.fsf.org/news/2011-free-software-awards-announced
+[2]: http://www.heise.de/newsticker/meldung/Free-Software-Awards-fuer-Ruby-und-GNU-Health-1486643.html

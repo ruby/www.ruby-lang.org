@@ -13,6 +13,6 @@ svn.ruby-lang.org가 설치된 새로운 머신은 [Sun Microsystems][3]에서 �
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/ 
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby 
-[3]: http://www.sun.com/ 
+[1]: http://svn.ruby-lang.org/repos/ruby/
+[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[3]: http://www.sun.com/

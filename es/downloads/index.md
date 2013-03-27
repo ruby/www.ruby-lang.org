@@ -109,11 +109,11 @@ información aquí][12]). Con suerte, cuando Leopard salga las cosas
 [2]: {{ site.downloads.previous.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyinstaller.org 
-[6]: http://git-scm.com/ 
-[7]: https://rvm.beginrescueend.com/rvm/install/ 
-[8]: http://locomotive.raaum.org/ 
-[9]: http://darwinports.opendarwin.org/ 
-[10]: http://fink.sourceforge.net/ 
-[11]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
-[12]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard 
+[5]: http://rubyinstaller.org
+[6]: http://git-scm.com/
+[7]: https://rvm.beginrescueend.com/rvm/install/
+[8]: http://locomotive.raaum.org/
+[9]: http://darwinports.opendarwin.org/
+[10]: http://fink.sourceforge.net/
+[11]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger
+[12]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard

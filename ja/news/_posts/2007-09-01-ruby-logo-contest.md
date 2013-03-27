@@ -9,4 +9,4 @@ Rubyアソシエーション主催で、[Rubyロゴコンテスト][1]が開催�
 
 
 
-[1]: http://www.ruby-assn.org/logo-contest.html.ja 
+[1]: http://www.ruby-assn.org/logo-contest.html.ja

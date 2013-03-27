@@ -25,4 +25,4 @@ Ruby! ...Il whiskey!) a marzo. Venite numerosi.
 
 
 
-[1]: http://scotlandonrails.com 
+[1]: http://scotlandonrails.com

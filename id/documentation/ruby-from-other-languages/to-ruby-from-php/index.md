@@ -97,7 +97,7 @@ Tidak seperti di PHP, di Ruby…
 
 
 
-[1]: http://www.rubyforge.org 
-[2]: http://raa.ruby-lang.org 
-[3]: http://agilewebdevelopment.com/plugins 
-[4]: http://tech.groups.yahoo.com/group/id-ruby/message/2032 
+[1]: http://www.rubyforge.org
+[2]: http://raa.ruby-lang.org
+[3]: http://agilewebdevelopment.com/plugins
+[4]: http://tech.groups.yahoo.com/group/id-ruby/message/2032

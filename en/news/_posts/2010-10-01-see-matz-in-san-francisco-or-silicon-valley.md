@@ -20,4 +20,4 @@ Ruby.
 
 
 
-[1]: http://investfk.com/ 
+[1]: http://investfk.com/

@@ -463,4 +463,4 @@ Wenn du bereit für noch mehr Ruby-Wissen bist, dann schau dir die
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html 
+[1]: http://www.rubycentral.com/faq/rubyfaq-7.html

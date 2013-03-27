@@ -13,6 +13,6 @@ Don’t miss it!
 
 
 
-[1]: http://rupy.eu/ 
-[2]: http://rupy.eu/#city-carousel 
-[3]: http://rupy.com.br/#city-carousel 
+[1]: http://rupy.eu/
+[2]: http://rupy.eu/#city-carousel
+[3]: http://rupy.com.br/#city-carousel

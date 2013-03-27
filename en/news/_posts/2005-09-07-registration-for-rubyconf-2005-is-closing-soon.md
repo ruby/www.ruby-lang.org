@@ -15,4 +15,4 @@ So, all you stragglers, get over to the [RubyConf site][1]
 
 
 
-[1]: http://www.rubycentral.org/conference/register 
+[1]: http://www.rubycentral.org/conference/register

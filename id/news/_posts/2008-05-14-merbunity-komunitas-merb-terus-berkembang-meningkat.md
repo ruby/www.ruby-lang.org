@@ -24,11 +24,11 @@ sumber lain][8].
 
 
 
-[1]: http://merbunity.com/ 
-[2]: http://www.merbivore.com/ 
-[3]: http://www.rubyonrails.com 
-[4]: http://merbunity.com/news/3 
-[5]: http://wiki.merbivore.com/ 
-[6]: http://merb.4ninjas.org/ 
-[7]: http://www.socialface.com/slapp/ 
-[8]: http://www.rubyinside.com/merb-tutorials-and-resources-716.html 
+[1]: http://merbunity.com/
+[2]: http://www.merbivore.com/
+[3]: http://www.rubyonrails.com
+[4]: http://merbunity.com/news/3
+[5]: http://wiki.merbivore.com/
+[6]: http://merb.4ninjas.org/
+[7]: http://www.socialface.com/slapp/
+[8]: http://www.rubyinside.com/merb-tutorials-and-resources-716.html

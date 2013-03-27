@@ -94,4 +94,4 @@ Für englischsprachige Literatur gibt es eine [eigene Seite][1].
 
 
 
-[1]: http://www.ruby-doc.org/bookstore 
+[1]: http://www.ruby-doc.org/bookstore

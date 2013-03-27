@@ -32,5 +32,5 @@ Implementations][2]
 
 
 
-[1]: http://headius.blogspot.com/2008/04/promise-and-peril-for-alternative-ruby.html 
-[2]: http://www.rubyinside.com/the-promise-and-peril-for-alternative-ruby-implementations-874.html 
+[1]: http://headius.blogspot.com/2008/04/promise-and-peril-for-alternative-ruby.html
+[2]: http://www.rubyinside.com/the-promise-and-peril-for-alternative-ruby-implementations-874.html

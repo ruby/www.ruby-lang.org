@@ -47,7 +47,7 @@ SHA256:
 
 
 
-[1]: {{ site.url }}/ja/news/2010/08/16/xss-in-webrick-cve-2010-0541/ 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.bz2 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.zip 
+[1]: {{ site.url }}/ja/news/2010/08/16/xss-in-webrick-cve-2010-0541/
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.bz2
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.gz
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.zip

@@ -44,6 +44,6 @@ $SAFE &gt; 0
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.tar.bz2 
-[2]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.zip 
+[1]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.tar.bz2
+[2]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.tar.gz
+[3]: http://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-p129.zip

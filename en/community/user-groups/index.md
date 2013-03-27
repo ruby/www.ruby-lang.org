@@ -39,5 +39,5 @@ option if there is already one nearby.
 
 
 
-[1]: http://www.rubyusergroups.org/ 
-[2]: http://ruby.meetup.com 
+[1]: http://www.rubyusergroups.org/
+[2]: http://ruby.meetup.com

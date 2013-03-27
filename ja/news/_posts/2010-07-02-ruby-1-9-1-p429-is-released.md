@@ -58,6 +58,6 @@ Ruby 1.9を1.9.1-p429または1.9.2-rc1に更新することを推奨します�
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip 
+[1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip

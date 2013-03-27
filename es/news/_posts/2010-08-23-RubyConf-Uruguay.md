@@ -34,5 +34,5 @@ electrónico](mailto:info@rubyconfuruguay.org).
 
 
 
-[1]: http://rubyconfuruguay.org/ 
-[2]: http://twitter.com/rubyconfuruguay/ 
+[1]: http://rubyconfuruguay.org/
+[2]: http://twitter.com/rubyconfuruguay/

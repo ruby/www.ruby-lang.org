@@ -22,4 +22,4 @@ heros live on stage at Railsconf at the end of April.
 
 
 
-[1]: http://rubyheroes.com 
+[1]: http://rubyheroes.com

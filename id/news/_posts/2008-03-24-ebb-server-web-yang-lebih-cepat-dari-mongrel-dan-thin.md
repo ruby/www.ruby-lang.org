@@ -24,12 +24,12 @@ than Mongrel **and** Thin][9]
 
 
 
-[1]: http://ebb.rubyforge.org/ 
-[2]: http://en.wikipedia.org/wiki/Ruby_on_rails 
-[3]: http://merbivore.com/ 
-[4]: http://rack.rubyforge.org/ 
-[5]: http://www.rubyinside.com/thin-a-ruby-http-daemon-thats-faster-than-mongrel-688.html 
-[6]: http://www.rubyinside.com/no-true-mod_ruby-is-damaging-rubys-viability-on-the-web-693.html 
-[7]: http://switchpipe.org/ 
-[8]: http://swiftiply.swiftcore.org/ 
-[9]: http://www.rubyinside.com/ebb-web-framework-http-server-786.html 
+[1]: http://ebb.rubyforge.org/
+[2]: http://en.wikipedia.org/wiki/Ruby_on_rails
+[3]: http://merbivore.com/
+[4]: http://rack.rubyforge.org/
+[5]: http://www.rubyinside.com/thin-a-ruby-http-daemon-thats-faster-than-mongrel-688.html
+[6]: http://www.rubyinside.com/no-true-mod_ruby-is-damaging-rubys-viability-on-the-web-693.html
+[7]: http://switchpipe.org/
+[8]: http://swiftiply.swiftcore.org/
+[9]: http://www.rubyinside.com/ebb-web-framework-http-server-786.html

@@ -184,23 +184,23 @@ RubyOpenSolaris su Rubyforge][24].
 [2]: {{ site.downloads.previous.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: https://github.com/vertiginous/pik 
-[6]: http://git-scm.com/ 
-[7]: https://rvm.io/rvm/install/ 
-[8]: http://rubyinstaller.org/ 
-[9]: http://rubyinstaller.org/downloads/ 
-[10]: http://railsinstaller.org/ 
-[11]: http://trac.macosforge.org/projects/ruby/wiki 
-[12]: http://locomotive.raaum.org/ 
-[13]: http://rubyosx.rubyforge.org/ 
-[14]: http://www.macports.org/ 
-[15]: http://fink.sourceforge.net/ 
-[16]: http://hivelogic.com/narrative/articles/ruby-rails-mongrel-mysql-osx 
-[17]: http://www.sunfreeware.com 
-[18]: http://www.blastwave.org 
-[19]: http://cooltools.sunsource.net/coolstack 
-[20]: http://www.opensolaris.org 
-[21]: http://opensolaris.org/os/project/pkg/ 
-[22]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/ 
-[23]: http://opensolaris.org/os/downloads 
-[24]: http://rubyforge.org/projects/rubyopensolaris 
+[5]: https://github.com/vertiginous/pik
+[6]: http://git-scm.com/
+[7]: https://rvm.io/rvm/install/
+[8]: http://rubyinstaller.org/
+[9]: http://rubyinstaller.org/downloads/
+[10]: http://railsinstaller.org/
+[11]: http://trac.macosforge.org/projects/ruby/wiki
+[12]: http://locomotive.raaum.org/
+[13]: http://rubyosx.rubyforge.org/
+[14]: http://www.macports.org/
+[15]: http://fink.sourceforge.net/
+[16]: http://hivelogic.com/narrative/articles/ruby-rails-mongrel-mysql-osx
+[17]: http://www.sunfreeware.com
+[18]: http://www.blastwave.org
+[19]: http://cooltools.sunsource.net/coolstack
+[20]: http://www.opensolaris.org
+[21]: http://opensolaris.org/os/project/pkg/
+[22]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
+[23]: http://opensolaris.org/os/downloads
+[24]: http://rubyforge.org/projects/rubyopensolaris

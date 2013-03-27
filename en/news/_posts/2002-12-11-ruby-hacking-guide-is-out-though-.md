@@ -22,4 +22,4 @@ Bear in mind that it’s an unofficial translation.
 
 
 
-[1]: http://direct.ips.co.jp/book/Template/Goods/go_BookstempGR.cfm?GM_ID=1721&amp;SPM_ID=1&amp;CM_ID=004000G20&amp;PM_No=&amp;PM_Class=&amp;HN_NO=00420 
+[1]: http://direct.ips.co.jp/book/Template/Goods/go_BookstempGR.cfm?GM_ID=1721&amp;SPM_ID=1&amp;CM_ID=004000G20&amp;PM_No=&amp;PM_Class=&amp;HN_NO=00420

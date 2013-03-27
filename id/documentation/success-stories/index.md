@@ -90,22 +90,22 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 
 
 
-[1]: http://www.basecamphq.com 
-[2]: http://www.37signals.com 
-[3]: http://www.43things.com 
-[4]: http://www.alistapart.com 
-[5]: http://www.twitter.com 
-[6]: http://www.bookjetty.com/ 
-[7]: http://www.workingwithrails.com/person/5050-herryanto-siatono 
-[8]: http://www.pluitsolutions.com/ 
-[9]: http://www.rubyonrails.org/applications 
-[10]: http://rails100.pbwiki.com/ 
-[11]: http://wiki.rubyonrails.com/rails/pages/RealWorldUsage 
-[12]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/ 
-[13]: http://www.larc.nasa.gov/ 
-[14]: http://www.motorola.com 
-[15]: http://www.torontorehab.on.ca/ 
-[16]: http://www.morpha.de/php_e/ 
-[17]: http://ods.org/ 
-[18]: http://www.lucent.com/ 
-[19]: http://www.level3.com/ 
+[1]: http://www.basecamphq.com
+[2]: http://www.37signals.com
+[3]: http://www.43things.com
+[4]: http://www.alistapart.com
+[5]: http://www.twitter.com
+[6]: http://www.bookjetty.com/
+[7]: http://www.workingwithrails.com/person/5050-herryanto-siatono
+[8]: http://www.pluitsolutions.com/
+[9]: http://www.rubyonrails.org/applications
+[10]: http://rails100.pbwiki.com/
+[11]: http://wiki.rubyonrails.com/rails/pages/RealWorldUsage
+[12]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[13]: http://www.larc.nasa.gov/
+[14]: http://www.motorola.com
+[15]: http://www.torontorehab.on.ca/
+[16]: http://www.morpha.de/php_e/
+[17]: http://ods.org/
+[18]: http://www.lucent.com/
+[19]: http://www.level3.com/

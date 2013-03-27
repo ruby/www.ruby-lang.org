@@ -10,4 +10,4 @@ Menard on July 10, 2001.
 
 
 
-[1]: http://www.io.com/~jimm/downloads/rubytalk/ 
+[1]: http://www.io.com/~jimm/downloads/rubytalk/

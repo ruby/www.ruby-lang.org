@@ -31,4 +31,4 @@ Vorschläge können auf [ConFoo.ca][1] eingereicht werden.
 
 
 
-[1]: http://confoo.ca 
+[1]: http://confoo.ca

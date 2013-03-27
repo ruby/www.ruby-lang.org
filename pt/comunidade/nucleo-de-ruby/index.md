@@ -144,12 +144,12 @@ quando submeter código no repositório CVS:
 
 
 [1]: /cgi-bin/cvsweb.cgi/ "repositório CVS do Ruby via web"
-[2]: http://www.nongnu.org/cvs/cvs.html 
-[3]: http://ximbiot.com/cvs/wiki/index.php?title=Main_Page 
-[4]: http://www.pragmaticprogrammer.com/starter_kit/vcc/index.html 
-[5]: http://atdot.net/yarv/ 
-[6]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698 
+[2]: http://www.nongnu.org/cvs/cvs.html
+[3]: http://ximbiot.com/cvs/wiki/index.php?title=Main_Page
+[4]: http://www.pragmaticprogrammer.com/starter_kit/vcc/index.html
+[5]: http://atdot.net/yarv/
+[6]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698
 [7]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700 "Enviar patch"
 [8]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html "diff no formato unificado"
-[9]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch 
-[10]: http://www.gnu.org/prep/standards/standards.html#Change-Logs 
+[9]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
+[10]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

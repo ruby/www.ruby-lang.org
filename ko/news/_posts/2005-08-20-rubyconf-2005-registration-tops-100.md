@@ -11,4 +11,4 @@ in San Diego. If you haven’t yet registered, now is the time!
 
 
 
-[1]: http://www.rubyconf.org/ 
+[1]: http://www.rubyconf.org/

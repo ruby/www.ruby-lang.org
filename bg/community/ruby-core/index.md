@@ -104,10 +104,10 @@ list](/en/community/mailing-lists/).
 
 
 
-[1]: http://subversion.tigris.org/faq.html 
-[2]: http://svnbook.org 
-[3]: http://www.pragmaticprogrammer.com/titles/svn/ 
-[4]: http://redmine.ruby-lang.org/ 
-[5]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html 
-[6]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch 
-[7]: http://www.gnu.org/prep/standards/standards.html#Change-Logs 
+[1]: http://subversion.tigris.org/faq.html
+[2]: http://svnbook.org
+[3]: http://www.pragmaticprogrammer.com/titles/svn/
+[4]: http://redmine.ruby-lang.org/
+[5]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
+[6]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
+[7]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

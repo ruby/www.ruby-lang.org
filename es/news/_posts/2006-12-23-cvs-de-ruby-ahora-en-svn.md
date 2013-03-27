@@ -16,7 +16,7 @@ funciona bastante bien.
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/ 
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby 
-[3]: http://www.sun.com 
-[4]: http://www.sun.com/software/solaris/ 
+[1]: http://svn.ruby-lang.org/repos/ruby/
+[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[3]: http://www.sun.com
+[4]: http://www.sun.com/software/solaris/

@@ -71,12 +71,12 @@ Für nähere Informationen siehe die [Tickets][4] und das [Changelog][5].
 
 
 
-[1]: {{ site.url }}/de/news/2012/02/16/sicherheitsfix-fr-rubys-openssl-modul-erlaube-0n-splitting-als-gegenmanahme-fr-den-tls-beast-angriff/ 
-[2]: https://bugs.ruby-lang.org/issues/show/5076 
-[3]: https://bugs.ruby-lang.org/issues/show/5851 
-[4]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
-[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_125/ChangeLog 
-[6]: https://bugs.ruby-lang.org/issues/6040 
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2 
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz 
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip 
+[1]: {{ site.url }}/de/news/2012/02/16/sicherheitsfix-fr-rubys-openssl-modul-erlaube-0n-splitting-als-gegenmanahme-fr-den-tls-beast-angriff/
+[2]: https://bugs.ruby-lang.org/issues/show/5076
+[3]: https://bugs.ruby-lang.org/issues/show/5851
+[4]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
+[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_125/ChangeLog
+[6]: https://bugs.ruby-lang.org/issues/6040
+[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2
+[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz
+[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip

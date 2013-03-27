@@ -42,8 +42,8 @@ Algunos grupos que pueden resultar de tu interés:
 
 
 
-[1]: http://rubysur.org/ 
-[2]: http://ruby.com.ar/ 
-[3]: http://ruguy.org/ 
-[4]: http://www.rubyusergroups.org/ 
-[5]: http://ruby.meetup.com 
+[1]: http://rubysur.org/
+[2]: http://ruby.com.ar/
+[3]: http://ruguy.org/
+[4]: http://www.rubyusergroups.org/
+[5]: http://ruby.meetup.com

@@ -35,4 +35,4 @@ Into Ruby Ones][1]
 
 
 
-[1]: http://adam.blog.heroku.com/past/2008/2/19/rush_the_ruby_shell/ 
+[1]: http://adam.blog.heroku.com/past/2008/2/19/rush_the_ruby_shell/

@@ -24,5 +24,5 @@ tegorocznej edycji RuPy 2009!
 
 
 
-[1]: http://rupy.eu 
-[2]: https://spreadsheets.google.com/viewform?formkey=dEFEYndsQWR2TGFzRFpzcU9IbFlCT2c6MA 
+[1]: http://rupy.eu
+[2]: https://spreadsheets.google.com/viewform?formkey=dEFEYndsQWR2TGFzRFpzcU9IbFlCT2c6MA

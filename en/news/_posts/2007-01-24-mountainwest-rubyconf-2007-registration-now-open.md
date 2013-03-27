@@ -15,4 +15,4 @@ trust me, this will be good.
 
 
 
-[1]: http://mtnwestruby.org 
+[1]: http://mtnwestruby.org

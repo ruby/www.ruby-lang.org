@@ -70,8 +70,8 @@ Schöne Ferien und happy hacking!
 
 
 
-[1]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_362/ChangeLog 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.bz2 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.gz 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.zip 
+[1]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_362/ChangeLog
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.bz2
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.gz
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.zip

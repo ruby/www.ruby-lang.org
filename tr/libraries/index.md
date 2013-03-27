@@ -103,16 +103,16 @@ manualindeki [**installation chapter**][13] inceleyin.
 
 
 
-[1]: http://docs.rubygems.org 
-[2]: http://rubyforge.org/ 
-[3]: http://rubyforge.org/softwaremap/trove_list.php 
-[4]: http://rubyforge.org/register/ 
-[5]: http://raa.ruby-lang.org/ 
-[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database 
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net 
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML 
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML 
-[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics 
-[11]: http://rubygems.org/read/chapter/1 
-[12]: http://rubyforge.org/frs/?group_id=126 
-[13]: http://rubygems.org/read/chapter/3 
+[1]: http://docs.rubygems.org
+[2]: http://rubyforge.org/
+[3]: http://rubyforge.org/softwaremap/trove_list.php
+[4]: http://rubyforge.org/register/
+[5]: http://raa.ruby-lang.org/
+[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
+[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
+[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
+[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
+[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
+[11]: http://rubygems.org/read/chapter/1
+[12]: http://rubyforge.org/frs/?group_id=126
+[13]: http://rubygems.org/read/chapter/3

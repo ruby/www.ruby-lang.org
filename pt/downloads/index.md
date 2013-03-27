@@ -116,22 +116,22 @@ necessitam de testar as suas aplicações em ambientes diversos.
 
 
 
-[1]: /en/about/license.txt 
+[1]: /en/about/license.txt
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
-[6]: http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe 
-[7]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe 
-[8]: http://rubyforge.org/frs/download.php/74298/rubyinstaller-1.9.2-p180.exe 
-[9]: http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip 
-[10]: http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip 
-[11]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html 
-[12]: http://rubyinstaller.org/ 
-[13]: http://github.com/vertiginous/pik 
-[14]: http://locomotive.raaum.org/ 
-[15]: http://www.macports.org/ 
-[16]: http://fink.sourceforge.net/ 
-[17]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
-[18]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard 
-[19]: https://rvm.beginrescueend.com/rvm 
+[5]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
+[6]: http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe
+[7]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe
+[8]: http://rubyforge.org/frs/download.php/74298/rubyinstaller-1.9.2-p180.exe
+[9]: http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip
+[10]: http://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip
+[11]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html
+[12]: http://rubyinstaller.org/
+[13]: http://github.com/vertiginous/pik
+[14]: http://locomotive.raaum.org/
+[15]: http://www.macports.org/
+[16]: http://fink.sourceforge.net/
+[17]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger
+[18]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard
+[19]: https://rvm.beginrescueend.com/rvm

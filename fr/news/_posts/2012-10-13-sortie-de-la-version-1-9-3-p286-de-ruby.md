@@ -39,10 +39,10 @@ détails.
 
 
 
-[1]: {{ site.url }}/fr/news/2012/10/13/vulnrabilit-de-contournement-de-safe-via-exceptionto_s-et-nameerrorto_s/ 
-[2]: {{ site.url }}/fr/news/2012/10/13/cration-non-intentionnelle-de-fichiers/ 
-[3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5 
-[4]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_286/ChangeLog 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz 
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip 
+[1]: {{ site.url }}/fr/news/2012/10/13/vulnrabilit-de-contournement-de-safe-via-exceptionto_s-et-nameerrorto_s/
+[2]: {{ site.url }}/fr/news/2012/10/13/cration-non-intentionnelle-de-fichiers/
+[3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
+[4]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_286/ChangeLog
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz
+[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip

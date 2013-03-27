@@ -66,17 +66,17 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 
 
 
-[1]: http://www.larc.nasa.gov/ 
-[2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/ 
-[3]: http://www.motorola.com 
-[4]: http://www.sketchup.com/ 
-[5]: http://www.torontorehab.on.ca/ 
-[6]: http://www.morpha.de/php_e/ 
-[7]: http://ods.org/ 
-[8]: http://www.lucent.com/ 
-[9]: http://www.level3.com/ 
-[10]: http://www.basecamphq.com 
-[11]: http://www.37signals.com 
-[12]: http://www.43things.com 
-[13]: http://www.alistapart.com 
-[14]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/ 
+[1]: http://www.larc.nasa.gov/
+[2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
+[3]: http://www.motorola.com
+[4]: http://www.sketchup.com/
+[5]: http://www.torontorehab.on.ca/
+[6]: http://www.morpha.de/php_e/
+[7]: http://ods.org/
+[8]: http://www.lucent.com/
+[9]: http://www.level3.com/
+[10]: http://www.basecamphq.com
+[11]: http://www.37signals.com
+[12]: http://www.43things.com
+[13]: http://www.alistapart.com
+[14]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/

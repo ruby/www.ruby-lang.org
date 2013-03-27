@@ -412,4 +412,4 @@ When you are ready for more Ruby knowledge, see our
 
 
 
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F 
+[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F

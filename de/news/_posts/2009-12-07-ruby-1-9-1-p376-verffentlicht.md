@@ -48,8 +48,8 @@ Alle Änderungen sind im [ChangeLog][2] aufgelistet.
 
 
 
-[1]: {{ site.url }}/de/news/2009/12/07/heap-overflow-in-string/ 
-[2]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.zip 
+[1]: {{ site.url }}/de/news/2009/12/07/heap-overflow-in-string/
+[2]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.zip

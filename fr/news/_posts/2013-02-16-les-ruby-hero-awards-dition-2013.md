@@ -23,4 +23,4 @@ RailsConf, fin avril.
 
 
 
-[1]: http://rubyheroes.com 
+[1]: http://rubyheroes.com

@@ -31,5 +31,5 @@ Classes][2]
 
 
 
-[1]: http://doodle.rubyforge.org/ 
-[2]: http://www.rubyinside.com/doodle-a-new-way-to-build-and-define-ruby-classes-795.html 
+[1]: http://doodle.rubyforge.org/
+[2]: http://www.rubyinside.com/doodle-a-new-way-to-build-and-define-ruby-classes-795.html

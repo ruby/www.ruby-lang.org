@@ -14,4 +14,4 @@ Ruby.
 
 
 
-[1]: http://www.voicesthatmatter.com/ruby2008/ 
+[1]: http://www.voicesthatmatter.com/ruby2008/

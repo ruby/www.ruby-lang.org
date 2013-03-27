@@ -10,4 +10,4 @@ CVS][1]. The service will be restarted after Debian package update.
 
 
 
-[1]: https://ccvs.cvshome.org/servlets/NewsItemView?newsItemID=141 
+[1]: https://ccvs.cvshome.org/servlets/NewsItemView?newsItemID=141

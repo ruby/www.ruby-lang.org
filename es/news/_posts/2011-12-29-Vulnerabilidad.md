@@ -78,7 +78,7 @@ dirigiéndose a la página de descarga del producto.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.gz 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.bz2 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.zip 
-[4]: http://www.jruby.org/download 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.gz
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.bz2
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.zip
+[4]: http://www.jruby.org/download

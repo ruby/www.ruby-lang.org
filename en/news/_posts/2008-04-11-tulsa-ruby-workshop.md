@@ -29,4 +29,4 @@ Hope to see you there.
 
 
 
-[1]: http://tulsarb.org/wiki/Tulsa_Ruby_Workshop 
+[1]: http://tulsarb.org/wiki/Tulsa_Ruby_Workshop

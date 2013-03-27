@@ -31,8 +31,8 @@ Platform][5]
 
 
 
-[1]: http://insoshi.com/ 
-[2]: http://github.com/insoshi/insoshi/tree/master 
-[3]: http://www.amazon.com/dp/0321480791,sebuah 
-[4]: http://lovdbyless.com/ 
-[5]: http://www.rubyinside.com/insoshi-open-source-rails-based-social-networking-platform-878.html 
+[1]: http://insoshi.com/
+[2]: http://github.com/insoshi/insoshi/tree/master
+[3]: http://www.amazon.com/dp/0321480791,sebuah
+[4]: http://lovdbyless.com/
+[5]: http://www.rubyinside.com/insoshi-open-source-rails-based-social-networking-platform-878.html

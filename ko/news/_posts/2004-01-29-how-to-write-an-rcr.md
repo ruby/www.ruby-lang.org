@@ -11,5 +11,5 @@ authors should consider it required reading.
 
 
 
-[1]: http://rcrchive.net 
-[2]: http://onestepback.org/index.cgi/Tech/Ruby/WritingRcrs.rdoc 
+[1]: http://rcrchive.net
+[2]: http://onestepback.org/index.cgi/Tech/Ruby/WritingRcrs.rdoc

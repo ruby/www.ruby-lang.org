@@ -66,17 +66,17 @@ O’Reilly), and Canada on Rails.
 
 
 
-[1]: http://rubyconf.org/ 
-[2]: http://www.rubycentral.org 
-[3]: http://jp.rubyist.net/RubyKaigi2008/ 
+[1]: http://rubyconf.org/
+[2]: http://www.rubycentral.org
+[3]: http://jp.rubyist.net/RubyKaigi2008/
 [4]: http://euruko.org
-[5]: http://www.osdc.com.au/ 
-[6]: http://www.rubycentral.org/rcg2006.pdf 
-[7]: http://www.sdforum.org 
-[8]: http://rubynation.org/ 
-[9]: http://windycityrails.org 
-[10]: http://conferences.oreillynet.com/os2006/ 
-[11]: http://www.rubyonrails.org 
-[12]: http://www.railsconf.org 
-[13]: http://europe.railsconf.org 
-[14]: http://www.skillsmatter.com 
+[5]: http://www.osdc.com.au/
+[6]: http://www.rubycentral.org/rcg2006.pdf
+[7]: http://www.sdforum.org
+[8]: http://rubynation.org/
+[9]: http://windycityrails.org
+[10]: http://conferences.oreillynet.com/os2006/
+[11]: http://www.rubyonrails.org
+[12]: http://www.railsconf.org
+[13]: http://europe.railsconf.org
+[14]: http://www.skillsmatter.com

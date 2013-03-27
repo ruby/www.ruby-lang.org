@@ -25,9 +25,9 @@ Run Rails][6]
 
 
 
-[1]: http://twitter.com/evanphx 
-[2]: http://rubini.us/ 
-[3]: http://blog.fallingsnow.net/2008/05/17/rails-on-rubinius/ 
-[4]: http://www.chadfowler.com/2008/5/17/ruby-on-rails-on-rubinius 
-[5]: http://www.ironruby.net/ 
-[6]: http://www.rubyinside.com/rubinius-rails-897.html 
+[1]: http://twitter.com/evanphx
+[2]: http://rubini.us/
+[3]: http://blog.fallingsnow.net/2008/05/17/rails-on-rubinius/
+[4]: http://www.chadfowler.com/2008/5/17/ruby-on-rails-on-rubinius
+[5]: http://www.ironruby.net/
+[6]: http://www.rubyinside.com/rubinius-rails-897.html

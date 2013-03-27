@@ -10,4 +10,4 @@ Reference. It will be [full-sized book titled “Ruby in a Nutshell”][1].
 
 
 
-[1]: http://www.ora.com/catalog/ruby 
+[1]: http://www.ora.com/catalog/ruby

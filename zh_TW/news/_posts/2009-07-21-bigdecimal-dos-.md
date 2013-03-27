@@ -43,5 +43,5 @@ ActiveRecord 也用了 BigDecimal 轉換到浮點數，因此大部分的 Rails 
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p369.tar.gz 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p369.tar.gz
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz

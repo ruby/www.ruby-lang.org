@@ -26,7 +26,7 @@ Mas información [aquí][4].
 
 
 
-[1]: http://www.cafeconf.org/modules/edito/content.php?id=1 
-[2]: http://www.rubyonrails.org 
-[3]: http://rspec.rubyforge.org/documentation/index.html 
-[4]: http://www.cafeconf.org/modules/myconference/viewspeech.php?sid=54&amp;cid=1 
+[1]: http://www.cafeconf.org/modules/edito/content.php?id=1
+[2]: http://www.rubyonrails.org
+[3]: http://rspec.rubyforge.org/documentation/index.html
+[4]: http://www.cafeconf.org/modules/myconference/viewspeech.php?sid=54&amp;cid=1

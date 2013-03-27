@@ -56,10 +56,10 @@ Ruby 1.9.1は1.8から数多くの改良が加えられています。 1.8.7以�
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45836 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS 
-[3]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=11 
-[4]: http://redmine.ruby-lang.org 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz 
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45836
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS
+[3]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=11
+[4]: http://redmine.ruby-lang.org
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz
+[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip

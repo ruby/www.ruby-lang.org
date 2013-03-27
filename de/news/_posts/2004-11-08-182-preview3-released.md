@@ -16,4 +16,4 @@ Hier kann man es sich runterladen:
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2-preview3.tar.gz 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2-preview3.tar.gz

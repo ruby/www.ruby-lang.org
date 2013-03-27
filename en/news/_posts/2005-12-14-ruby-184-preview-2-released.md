@@ -10,4 +10,4 @@ Ruby 1.8.4 preview 2 has been released. You can download the source
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.4-preview2.tar.gz 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.4-preview2.tar.gz

@@ -18,8 +18,8 @@ RubyKaigi)][1]が下記の場所と日程で開催されます。
 
 
 
-[1]: http://regional.rubykaigi.org/ 
-[2]: http://regional.rubykaigi.org/kansai02 
-[3]: http://regional.rubykaigi.org/tokyu01 
-[4]: http://regional.rubykaigi.org/sapporo02 
-[5]: http://rubykaigi.tdiary.net/ 
+[1]: http://regional.rubykaigi.org/
+[2]: http://regional.rubykaigi.org/kansai02
+[3]: http://regional.rubykaigi.org/tokyu01
+[4]: http://regional.rubykaigi.org/sapporo02
+[5]: http://rubykaigi.tdiary.net/

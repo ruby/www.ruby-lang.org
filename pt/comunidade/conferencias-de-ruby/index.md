@@ -62,7 +62,7 @@ finalizar a Canada on Rails.
 [5]: http://www.rubycentral.org/rcg2006.pdf "Programa de Apoio a Conferências Regionais"
 [6]: http://www.sdforum.org "SDForum"
 [7]: http://conferences.oreillynet.com/os2006/ "O'Reilly Open Source Conference"
-[8]: http://www.rubyonrails.org 
-[9]: http://www.railsconf.org 
-[10]: http://europe.railsconf.org 
-[11]: http://www.skillsmatter.com 
+[8]: http://www.rubyonrails.org
+[9]: http://www.railsconf.org
+[10]: http://europe.railsconf.org
+[11]: http://www.skillsmatter.com

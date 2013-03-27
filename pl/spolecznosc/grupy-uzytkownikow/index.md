@@ -50,7 +50,7 @@ ludzi, którzy chcą dowiedzieć się co się dzieje w innych grupach.
 
 
 
-[1]: http://wiki.rubygarden.org/Ruby/page/show/RubyUserGroups 
-[2]: http://www.rubyholic.com/ 
-[3]: http://ruby.meetup.com 
-[4]: http://groups.google.com/group/Ruby-Brigades 
+[1]: http://wiki.rubygarden.org/Ruby/page/show/RubyUserGroups
+[2]: http://www.rubyholic.com/
+[3]: http://ruby.meetup.com
+[4]: http://groups.google.com/group/Ruby-Brigades

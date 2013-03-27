@@ -14,5 +14,5 @@ Para más información: [Costa Rica Technology Insight][2]
 
 
 
-[1]: http://blogs.onrails.com.ar/articles/2007/03/21/ruby-on-rails-en-costa-rica-technology-insight-2007 
-[2]: http://www.procomer.com/SoftwareTIC_07/SitioESP/PaginaEsp.html 
+[1]: http://blogs.onrails.com.ar/articles/2007/03/21/ruby-on-rails-en-costa-rica-technology-insight-2007
+[2]: http://www.procomer.com/SoftwareTIC_07/SitioESP/PaginaEsp.html

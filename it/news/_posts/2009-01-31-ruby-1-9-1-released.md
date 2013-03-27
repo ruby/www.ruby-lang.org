@@ -54,9 +54,9 @@ Scaricalo da:
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS 
-[2]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=11 
-[3]: http://redmine.ruby-lang.org 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS
+[2]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=11
+[3]: http://redmine.ruby-lang.org
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip

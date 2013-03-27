@@ -32,5 +32,5 @@ Cheers,
 
 
 
-[1]: http://dev.ruby-lang.org/en/ 
-[2]: http://dev.ruby-lang.org/ja/ 
+[1]: http://dev.ruby-lang.org/en/
+[2]: http://dev.ruby-lang.org/ja/

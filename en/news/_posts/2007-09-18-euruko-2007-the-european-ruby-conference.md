@@ -15,5 +15,5 @@ There is an informal [registration page][2] and a general information
 
 
 
-[1]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko07 
-[2]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Registration2007 
+[1]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Euruko07
+[2]: http://www.approximity.com/cgi-bin/europeRuby/tiki.cgi?c=v&amp;p=Registration2007

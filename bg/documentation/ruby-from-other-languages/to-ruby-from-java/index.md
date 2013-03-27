@@ -40,6 +40,6 @@ lang: bg
 
 
 
-[1]: http://wxruby.rubyforge.org/wiki/wiki.pl 
-[2]: http://www.fxruby.org/ 
-[3]: http://ruby-gnome2.sourceforge.jp/ 
+[1]: http://wxruby.rubyforge.org/wiki/wiki.pl
+[2]: http://www.fxruby.org/
+[3]: http://ruby-gnome2.sourceforge.jp/

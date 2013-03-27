@@ -65,21 +65,21 @@ lang: ko
 
 
 
-[1]: http://tryruby.org/ 
-[2]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2 
-[3]: http://mkseo.pe.kr/ 
-[4]: http://beyond.daesan.com/pages/ruby-faq 
-[5]: http://redmine.ruby-lang.org/projects/ruby/wiki 
-[6]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[7]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[8]: http://qa.poignantguide.net/ 
-[9]: http://whytheluckystiff.net 
-[10]: http://www.rubyist.net/~slagell/ruby/ 
-[11]: http://www.ruby-doc.org/core 
-[12]: http://rdoc.sourceforge.net 
-[13]: http://www.ruby-doc.org/stdlib 
-[14]: http://www.ruby-doc.org/doxygen/current/ 
-[15]: /ko/documentation/rubygem-packaging 
-[16]: http://ruby-doc.org 
-[17]: http://wiki.rubygarden.org/Ruby 
-[18]: http://forum.rubykr.org 
+[1]: http://tryruby.org/
+[2]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
+[3]: http://mkseo.pe.kr/
+[4]: http://beyond.daesan.com/pages/ruby-faq
+[5]: http://redmine.ruby-lang.org/projects/ruby/wiki
+[6]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[7]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[8]: http://qa.poignantguide.net/
+[9]: http://whytheluckystiff.net
+[10]: http://www.rubyist.net/~slagell/ruby/
+[11]: http://www.ruby-doc.org/core
+[12]: http://rdoc.sourceforge.net
+[13]: http://www.ruby-doc.org/stdlib
+[14]: http://www.ruby-doc.org/doxygen/current/
+[15]: /ko/documentation/rubygem-packaging
+[16]: http://ruby-doc.org
+[17]: http://wiki.rubygarden.org/Ruby
+[18]: http://forum.rubykr.org

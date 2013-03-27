@@ -14,4 +14,4 @@ committed enough to subscribe to a 100+ posts/day mailing list.’
 
 
 
-[1]: http://www.ruby-forum.org/bb 
+[1]: http://www.ruby-forum.org/bb

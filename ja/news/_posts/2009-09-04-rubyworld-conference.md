@@ -13,5 +13,5 @@ lang: ja
 
 
 
-[1]: http://www.rubyworld-conf.org/ja/ 
-[2]: http://www.rubyworld-conf.org/ja/program/ 
+[1]: http://www.rubyworld-conf.org/ja/
+[2]: http://www.rubyworld-conf.org/ja/program/

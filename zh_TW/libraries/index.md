@@ -92,18 +92,18 @@ $ su -
 
 
 
-[1]: http://docs.rubygems.org 
-[2]: http://rubygems.org/ 
-[3]: http://rubyforge.org/ 
-[4]: http://rubyforge.org/softwaremap/trove_list.php 
-[5]: http://rubyforge.org/register/ 
-[6]: http://raa.ruby-lang.org/ 
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database 
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net 
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML 
-[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML 
-[11]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics 
-[12]: http://rubygems.org 
-[13]: http://rubygems.org/read/chapter/1 
-[14]: http://rubygems.org/pages/download 
-[15]: http://rubygems.org/read/chapter/3 
+[1]: http://docs.rubygems.org
+[2]: http://rubygems.org/
+[3]: http://rubyforge.org/
+[4]: http://rubyforge.org/softwaremap/trove_list.php
+[5]: http://rubyforge.org/register/
+[6]: http://raa.ruby-lang.org/
+[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
+[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
+[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
+[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
+[11]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
+[12]: http://rubygems.org
+[13]: http://rubygems.org/read/chapter/1
+[14]: http://rubygems.org/pages/download
+[15]: http://rubygems.org/read/chapter/3

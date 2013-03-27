@@ -25,5 +25,5 @@ Hospice Association.
 
 
 
-[1]: http://scotlandonrails.com/register 
-[2]: http://scotlandonrails.com/talks 
+[1]: http://scotlandonrails.com/register
+[2]: http://scotlandonrails.com/talks

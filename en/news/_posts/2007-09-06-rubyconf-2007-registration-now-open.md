@@ -11,5 +11,5 @@ You can see the [conference agenda][2].
 
 
 
-[1]: http://www.regonline.com/rubyconf2007 
-[2]: http://www.rubyconf.org/agenda.html 
+[1]: http://www.regonline.com/rubyconf2007
+[2]: http://www.rubyconf.org/agenda.html

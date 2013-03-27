@@ -35,12 +35,12 @@ Relationship][8] diterjemahkan ke Bahasa Indonesia oleh [ariekeren][9]
 
 
 
-[1]: http://www.rubyinside.com/ruby-and-rails-in-mac-os-x-leopard-633.html 
-[2]: http://www.infoq.com/news/2008/08/apple-ruby-iphoneutil-sproutcore 
-[3]: http://www.apple.com/support/downloads/iphoneconfigurationutility10formacosx.html 
-[4]: http://www.sproutcore.com/ 
-[5]: http://www.apple.com/mobileme/ 
-[6]: http://merbivore.com/ 
-[7]: http://www.macruby.org/trac/wiki/MacRuby 
-[8]: http://feeds.feedburner.com/~r/RubyInside/~3/370503168/apple-and-ruby-the-ongoing-relationship-1016.html 
-[9]: http://ariekeren.blogdetik.com 
+[1]: http://www.rubyinside.com/ruby-and-rails-in-mac-os-x-leopard-633.html
+[2]: http://www.infoq.com/news/2008/08/apple-ruby-iphoneutil-sproutcore
+[3]: http://www.apple.com/support/downloads/iphoneconfigurationutility10formacosx.html
+[4]: http://www.sproutcore.com/
+[5]: http://www.apple.com/mobileme/
+[6]: http://merbivore.com/
+[7]: http://www.macruby.org/trac/wiki/MacRuby
+[8]: http://feeds.feedburner.com/~r/RubyInside/~3/370503168/apple-and-ruby-the-ongoing-relationship-1016.html
+[9]: http://ariekeren.blogdetik.com

@@ -140,4 +140,4 @@ Ya da gerçekten kapsamlı bir kitap bakıyorsanız, [kitap listesinde][1]
 
 
 
-[1]: http://www.ruby-doc.org/bookstore 
+[1]: http://www.ruby-doc.org/bookstore

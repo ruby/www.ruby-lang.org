@@ -123,11 +123,11 @@ Tidak seperti Perl, di Ruby…
 
 
 
-[1]: http://www.99-bottles-of-beer.net/ 
-[2]: http://www.99-bottles-of-beer.net/language-perl-539.html 
-[3]: http://www.io.com/~jimm/ 
-[4]: http://www.99-bottles-of-beer.net/language-ruby-670.html 
-[5]: http://docs.rubygems.org/ 
-[6]: http://www.perlmonks.org/ 
-[7]: http://wiki.rubygarden.org/Ruby 
-[8]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index 
+[1]: http://www.99-bottles-of-beer.net/
+[2]: http://www.99-bottles-of-beer.net/language-perl-539.html
+[3]: http://www.io.com/~jimm/
+[4]: http://www.99-bottles-of-beer.net/language-ruby-670.html
+[5]: http://docs.rubygems.org/
+[6]: http://www.perlmonks.org/
+[7]: http://wiki.rubygarden.org/Ruby
+[8]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index

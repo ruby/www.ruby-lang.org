@@ -16,4 +16,4 @@ détails sur le [site officiel][1].
 
 
 
-[1]: http://www.rubyconf.org 
+[1]: http://www.rubyconf.org

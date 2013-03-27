@@ -45,6 +45,6 @@ Versión de desarrollo (series 1.9)
 
 
 
-[1]: http://jvn.jp/jp/JVN%2384798830/index.html 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-cgi-dos-1.patch 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p2.tar.gz 
+[1]: http://jvn.jp/jp/JVN%2384798830/index.html
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-cgi-dos-1.patch
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p2.tar.gz

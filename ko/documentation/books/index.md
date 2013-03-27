@@ -32,5 +32,5 @@ lang: ko
 
 
 
-[1]: http://www.ruby-doc.org/bookstore 
-[2]: http://ruby.insightbook.co.kr/ 
+[1]: http://www.ruby-doc.org/bookstore
+[2]: http://ruby.insightbook.co.kr/

@@ -22,8 +22,8 @@ Aby dowiedzieć się więcej odwiedź [rubysoc.org][4] oraz obserwuj
 
 
 
-[1]: http://rubycentral.org/ 
-[2]: http://www.engineyard.com/blog/2010/ruby-summer-of-code-is-here/ 
-[3]: http://weblog.rubyonrails.org/2010/3/24/ruby-summer-of-code 
-[4]: http://rubysoc.org/ 
-[5]: http://twitter.com/rubysoc 
+[1]: http://rubycentral.org/
+[2]: http://www.engineyard.com/blog/2010/ruby-summer-of-code-is-here/
+[3]: http://weblog.rubyonrails.org/2010/3/24/ruby-summer-of-code
+[4]: http://rubysoc.org/
+[5]: http://twitter.com/rubysoc

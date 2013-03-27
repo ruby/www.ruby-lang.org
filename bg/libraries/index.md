@@ -89,9 +89,9 @@ RubyGems. За другите операционни системи това м�
 
 
 
-[1]: http://rubyforge.org/ 
-[2]: http://rubyforge.org/softwaremap/trove_list.php 
-[3]: http://raa.ruby-lang.org/ 
-[4]: http://rubygems.org/read/chapter/1 
-[5]: http://rubyforge.org/frs/?group_id=126 
-[6]: http://rubygems.org/read/chapter/3 
+[1]: http://rubyforge.org/
+[2]: http://rubyforge.org/softwaremap/trove_list.php
+[3]: http://raa.ruby-lang.org/
+[4]: http://rubygems.org/read/chapter/1
+[5]: http://rubyforge.org/frs/?group_id=126
+[6]: http://rubygems.org/read/chapter/3

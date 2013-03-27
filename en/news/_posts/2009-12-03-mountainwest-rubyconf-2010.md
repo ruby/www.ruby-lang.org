@@ -19,5 +19,5 @@ But don’t delay! The submission deadline is midnight (MST) on December
 
 
 
-[1]: http://mtnwestrubyconf.org 
-[2]: http://spreadsheets.google.com/viewform?formkey=dERsdEVIc0FTSlBtanVxTWFNamdHcmc6MA 
+[1]: http://mtnwestrubyconf.org
+[2]: http://spreadsheets.google.com/viewform?formkey=dERsdEVIc0FTSlBtanVxTWFNamdHcmc6MA

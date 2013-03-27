@@ -57,8 +57,8 @@ Für nähere Informationen siehe das [Changelog][1] sowie die [NEWS][2].
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/ChangeLog 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/NEWS 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/ChangeLog
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/NEWS
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip

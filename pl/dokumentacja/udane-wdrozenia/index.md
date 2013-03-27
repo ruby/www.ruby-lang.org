@@ -94,18 +94,18 @@ Rubiego w rzeczywistości.
 
 
 
-[1]: http://www.larc.nasa.gov/ 
-[2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/ 
-[3]: http://www.motorola.com 
-[4]: http://www.torontorehab.on.ca/ 
-[5]: http://www.morpha.de/php_e/ 
-[6]: http://ods.org/ 
-[7]: http://www.lucent.com/ 
-[8]: http://www.level3.com/ 
-[9]: http://www.basecamphq.com 
-[10]: http://www.37signals.com 
-[11]: http://www.43things.com 
-[12]: http://www.alistapart.com 
-[13]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/ 
-[14]: http://www.hogo.pl 
-[15]: http://www.infakt.pl 
+[1]: http://www.larc.nasa.gov/
+[2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
+[3]: http://www.motorola.com
+[4]: http://www.torontorehab.on.ca/
+[5]: http://www.morpha.de/php_e/
+[6]: http://ods.org/
+[7]: http://www.lucent.com/
+[8]: http://www.level3.com/
+[9]: http://www.basecamphq.com
+[10]: http://www.37signals.com
+[11]: http://www.43things.com
+[12]: http://www.alistapart.com
+[13]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[14]: http://www.hogo.pl
+[15]: http://www.infakt.pl

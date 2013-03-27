@@ -32,8 +32,8 @@ Framework][5]
 
 
 
-[1]: http://www.mackframework.com/ 
-[2]: http://sinatrarb.com/Welcome 
-[3]: http://rack.rubyforge.org/ 
-[4]: http://api.mackframework.com/ 
-[5]: http://www.rubyinside.com/mack-a-fast-best-of-the-rest-web-app-framework-856.html 
+[1]: http://www.mackframework.com/
+[2]: http://sinatrarb.com/Welcome
+[3]: http://rack.rubyforge.org/
+[4]: http://api.mackframework.com/
+[5]: http://www.rubyinside.com/mack-a-fast-best-of-the-rest-web-app-framework-856.html

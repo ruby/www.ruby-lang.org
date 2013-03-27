@@ -46,10 +46,10 @@ lang: ja
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/34848 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.bz2 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.zip 
-[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_preview4/NEWS 
-[6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_preview4/ChangeLog 
-[7]: http://rubyforge.org/tracker/?atid=22040&amp;group_id=426&amp;func=browse 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/34848
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.bz2
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.gz
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.zip
+[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_preview4/NEWS
+[6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_preview4/ChangeLog
+[7]: http://rubyforge.org/tracker/?atid=22040&amp;group_id=426&amp;func=browse

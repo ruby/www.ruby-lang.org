@@ -83,18 +83,18 @@ na kanał IRC #ruby.pl w sieci FreeNode.
 
 
 
-[1]: http://tryruby.org/ 
-[2]: http://pine.fm/LearnToProgram/ 
-[3]: http://www.apohllo.pl/dydaktyka/ruby/intro/ 
-[4]: http://www.stifflog.com/pl/ruby.html 
-[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[6]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[7]: http://helion.pl/ksiazki/prruby.htm 
-[8]: http://mislav.uniqpath.com/poignant-guide/book/ 
-[9]: http://www.rubyist.net/~slagell/ruby/ 
-[10]: http://www.ruby-doc.org/core 
-[11]: http://rdoc.sourceforge.net 
-[12]: http://www.ruby-doc.org/stdlib 
-[13]: http://www.ruby-doc.org/doxygen/current/ 
-[14]: http://ruby-doc.org 
-[15]: http://groups.google.com/group/pl.comp.lang.ruby?lnk=srg 
+[1]: http://tryruby.org/
+[2]: http://pine.fm/LearnToProgram/
+[3]: http://www.apohllo.pl/dydaktyka/ruby/intro/
+[4]: http://www.stifflog.com/pl/ruby.html
+[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[6]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[7]: http://helion.pl/ksiazki/prruby.htm
+[8]: http://mislav.uniqpath.com/poignant-guide/book/
+[9]: http://www.rubyist.net/~slagell/ruby/
+[10]: http://www.ruby-doc.org/core
+[11]: http://rdoc.sourceforge.net
+[12]: http://www.ruby-doc.org/stdlib
+[13]: http://www.ruby-doc.org/doxygen/current/
+[14]: http://ruby-doc.org
+[15]: http://groups.google.com/group/pl.comp.lang.ruby?lnk=srg

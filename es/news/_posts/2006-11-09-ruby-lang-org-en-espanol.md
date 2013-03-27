@@ -22,5 +22,5 @@ noticias y críticas.
 
 
 
-[1]: http://diego.algorta.net/blog/ 
-[2]: http://blogs.onrails.com.ar/ 
+[1]: http://diego.algorta.net/blog/
+[2]: http://blogs.onrails.com.ar/

@@ -36,6 +36,6 @@ bachi.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.zip 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.zip

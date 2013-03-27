@@ -205,10 +205,10 @@ Ruby posiada bogactwo innych właściwości—niektóre z nich to:
 
 
 
-[1]: http://www.rubyist.net/~matz/ 
-[2]: http://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy 
-[3]: http://en.wikipedia.org/wiki/Functional_programming 
-[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773 
-[5]: http://rubyonrails.org/ 
-[6]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html 
-[7]: http://www.artima.com/intv/closures2.html 
+[1]: http://www.rubyist.net/~matz/
+[2]: http://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy
+[3]: http://en.wikipedia.org/wiki/Functional_programming
+[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[5]: http://rubyonrails.org/
+[6]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[7]: http://www.artima.com/intv/closures2.html

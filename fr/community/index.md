@@ -58,9 +58,9 @@ Informations générales
 
 
 
-[1]: http://rubyfrance.org 
-[2]: http://meme.b9.com/ 
-[3]: http://rubymentor.rubyforge.org/ 
-[4]: http://www.rubycentral.org/ 
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/ 
-[6]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/ 
+[1]: http://rubyfrance.org
+[2]: http://meme.b9.com/
+[3]: http://rubymentor.rubyforge.org/
+[4]: http://www.rubycentral.org/
+[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[6]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

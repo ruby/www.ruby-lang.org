@@ -47,7 +47,7 @@ Allgemeine Information zu Ruby
 
 
 
-[1]: http://meme.b9.com/ 
-[2]: http://www.rubycentral.org/ 
-[3]: http://dmoz.org/Computers/Programming/Languages/Ruby/ 
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/ 
+[1]: http://meme.b9.com/
+[2]: http://www.rubycentral.org/
+[3]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

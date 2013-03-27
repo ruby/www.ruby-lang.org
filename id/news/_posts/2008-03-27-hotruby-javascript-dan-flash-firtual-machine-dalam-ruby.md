@@ -30,9 +30,9 @@ That Runs Ruby][6]
 
 
 
-[1]: http://hotruby.accelart.jp/ 
-[2]: http://hotruby.accelart.jp/test-web/Box2DFlashAS3.html 
-[3]: http://hotruby.accelart.jp/test-web/pinball.html 
-[4]: http://hotruby.accelart.jp/test-web/bm_loop_times.html 
-[5]: http://hotruby.accelart.jp/test-web/diy.html 
-[6]: http://www.rubyinside.com/hotruby-a-javascript-flash-virtual-machine-that-runs-ruby-821.html 
+[1]: http://hotruby.accelart.jp/
+[2]: http://hotruby.accelart.jp/test-web/Box2DFlashAS3.html
+[3]: http://hotruby.accelart.jp/test-web/pinball.html
+[4]: http://hotruby.accelart.jp/test-web/bm_loop_times.html
+[5]: http://hotruby.accelart.jp/test-web/diy.html
+[6]: http://www.rubyinside.com/hotruby-a-javascript-flash-virtual-machine-that-runs-ruby-821.html

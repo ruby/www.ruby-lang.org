@@ -29,8 +29,8 @@ ActiveRecord-JDBC][5]
 
 
 
-[1]: http://java.sun.com/javaee/javaserverfaces/ 
-[2]: http://jruby.codehaus.org/ 
-[3]: http://faces.eti.br/2008/03/16/creating-jsf-applications-with-jruby-and-activerecord-jdbc-part-1/ 
-[4]: http://faces.eti.br/2008/03/16/creating-jsf-applications-with-jruby-and-activerecord-jdbc-part-2/ 
-[5]: http://www.rubyinside.com/building-jsf-applications-with-jruby-and-activerecord-jdbc-817.html 
+[1]: http://java.sun.com/javaee/javaserverfaces/
+[2]: http://jruby.codehaus.org/
+[3]: http://faces.eti.br/2008/03/16/creating-jsf-applications-with-jruby-and-activerecord-jdbc-part-1/
+[4]: http://faces.eti.br/2008/03/16/creating-jsf-applications-with-jruby-and-activerecord-jdbc-part-2/
+[5]: http://www.rubyinside.com/building-jsf-applications-with-jruby-and-activerecord-jdbc-817.html

@@ -48,7 +48,7 @@ Entwicklerversion (1.9 Reihe)
 
 
 
-[1]: http://de.wikipedia.org/wiki/Denial_of_Service 
-[2]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5467 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-cgi-dos-1.patch 
-[4]: http://rubyforge.org/pipermail/mongrel-users/2006-October/001946.html 
+[1]: http://de.wikipedia.org/wiki/Denial_of_Service
+[2]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5467
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-cgi-dos-1.patch
+[4]: http://rubyforge.org/pipermail/mongrel-users/2006-October/001946.html

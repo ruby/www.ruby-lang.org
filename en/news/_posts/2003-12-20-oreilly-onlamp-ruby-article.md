@@ -14,7 +14,7 @@ or Ryan Davis’s [ Archive][4] of the RubyConf presentations.
 
 
 
-[1]: http://www.onlamp.com/pub/a/onlamp/2003/12/18/ruby_con.html 
-[2]: http://www.onlamp.com 
-[3]: http://onestepback.org/index.cgi/Tech/Conferences/RubyConf2003 
-[4]: http://www.zenspider.com/Languages/Ruby/RubyConf2003.html 
+[1]: http://www.onlamp.com/pub/a/onlamp/2003/12/18/ruby_con.html
+[2]: http://www.onlamp.com
+[3]: http://onestepback.org/index.cgi/Tech/Conferences/RubyConf2003
+[4]: http://www.zenspider.com/Languages/Ruby/RubyConf2003.html

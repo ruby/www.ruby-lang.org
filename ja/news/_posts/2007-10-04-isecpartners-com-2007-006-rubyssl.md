@@ -58,6 +58,6 @@ net/http.rbでは、SSL接続の際に、証明書のCNがリクエスト先のD
 
 
 
-[1]: http://www.isecpartners.com/advisories/2007-006-rubyssl.txt 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz 
+[1]: http://www.isecpartners.com/advisories/2007-006-rubyssl.txt
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz

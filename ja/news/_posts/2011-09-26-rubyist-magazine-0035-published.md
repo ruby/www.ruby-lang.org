@@ -10,7 +10,7 @@ Magazine][2]の[0035号][3]がリリースされました([\[ruby-list:48417\]][
 
 
 
-[1]: http://jp.rubyist.net/ 
-[2]: http://jp.rubyist.net/magazine/ 
-[3]: http://jp.rubyist.net/magazine/?0035 
-[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/48417 
+[1]: http://jp.rubyist.net/
+[2]: http://jp.rubyist.net/magazine/
+[3]: http://jp.rubyist.net/magazine/?0035
+[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/48417

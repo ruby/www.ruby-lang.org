@@ -86,21 +86,21 @@ começar.
 
 
 
-[1]: http://tryruby.org/ 
-[2]: http://whytheluckystiff.net 
-[3]: http://pine.fm/LearnToProgram/ 
-[4]: http://sitekreator.com/satishtalim/index.html 
-[5]: http://www.rubygarden.org/faq/ 
-[6]: http://www.rubygarden.org/ruby?ThingsNewcomersShouldKnow 
-[7]: http://wiki.rubygarden.org/Ruby 
-[8]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[9]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[10]: http://qa.poignantguide.net/ 
-[11]: http://www.rubyist.net/~slagell/ruby/ 
-[12]: http://en.wikibooks.org/wiki/Ruby_programming_language 
-[13]: http://www.ruby-doc.org/core 
-[14]: http://rdoc.sourceforge.net 
-[15]: http://www.ruby-doc.org/stdlib 
-[16]: http://www.ruby-doc.org/doxygen/current/ 
-[17]: http://ruby-doc.org 
-[18]: http://www.ruby-doc.org/bookstore 
+[1]: http://tryruby.org/
+[2]: http://whytheluckystiff.net
+[3]: http://pine.fm/LearnToProgram/
+[4]: http://sitekreator.com/satishtalim/index.html
+[5]: http://www.rubygarden.org/faq/
+[6]: http://www.rubygarden.org/ruby?ThingsNewcomersShouldKnow
+[7]: http://wiki.rubygarden.org/Ruby
+[8]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[9]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[10]: http://qa.poignantguide.net/
+[11]: http://www.rubyist.net/~slagell/ruby/
+[12]: http://en.wikibooks.org/wiki/Ruby_programming_language
+[13]: http://www.ruby-doc.org/core
+[14]: http://rdoc.sourceforge.net
+[15]: http://www.ruby-doc.org/stdlib
+[16]: http://www.ruby-doc.org/doxygen/current/
+[17]: http://ruby-doc.org
+[18]: http://www.ruby-doc.org/bookstore

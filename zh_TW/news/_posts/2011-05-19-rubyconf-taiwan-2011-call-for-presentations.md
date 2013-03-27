@@ -31,4 +31,4 @@ want, by sending email to: [2011@rubyconf.tw](mailto:2011@rubyconf.tw)
 
 
 
-[1]: http://rubyconf.tw/ 
+[1]: http://rubyconf.tw/

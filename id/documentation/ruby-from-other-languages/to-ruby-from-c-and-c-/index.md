@@ -209,4 +209,4 @@ Tidak seperti C++, di Ruby,...
 
 
 
-[1]: http://www.ariel.com.au/a/teaching-programming.html 
+[1]: http://www.ariel.com.au/a/teaching-programming.html

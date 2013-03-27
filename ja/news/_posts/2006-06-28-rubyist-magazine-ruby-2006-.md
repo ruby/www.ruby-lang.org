@@ -12,6 +12,6 @@ Magazineの特別号が[リリースされました][2]。 各セッションの
 
 
 
-[1]: http://jp.rubyist.net/RubyKaigi2006/ 
-[2]: http://jp.rubyist.net/magazine/?RubyKaigi2006 
-[3]: http://jp.rubyist.net/RubyKaigi2006/program.html 
+[1]: http://jp.rubyist.net/RubyKaigi2006/
+[2]: http://jp.rubyist.net/magazine/?RubyKaigi2006
+[3]: http://jp.rubyist.net/RubyKaigi2006/program.html

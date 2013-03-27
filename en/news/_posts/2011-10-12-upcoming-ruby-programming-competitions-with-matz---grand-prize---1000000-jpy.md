@@ -48,4 +48,4 @@ Cheers.
 
 
 
-[1]: http://www.myfukuoka.com/events/2012-fukuoka-ruby-award-competition 
+[1]: http://www.myfukuoka.com/events/2012-fukuoka-ruby-award-competition

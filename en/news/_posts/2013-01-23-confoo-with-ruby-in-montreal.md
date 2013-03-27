@@ -26,5 +26,5 @@ March 1st. [Tickets are sold online][2].
 
 
 
-[1]: http://confoo.ca/en/2013/schedule 
-[2]: http://confoo.ca/en/register 
+[1]: http://confoo.ca/en/2013/schedule
+[2]: http://confoo.ca/en/register

@@ -40,10 +40,10 @@ Ruby 1.8.7がリリースされました。 (リリースについてのアナ�
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/44986 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip 
-[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/NEWS 
-[6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/ChangeLog 
-[7]: http://rubyspec.org/ 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/44986
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip
+[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/NEWS
+[6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/ChangeLog
+[7]: http://rubyspec.org/

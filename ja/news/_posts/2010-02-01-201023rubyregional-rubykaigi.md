@@ -18,8 +18,8 @@ RubyKaigiならびに地域Ruby会議についての最新情報は[RubyKaigi日
 
 
 
-[1]: http://regional.rubykaigi.org/ 
-[2]: http://regional.rubykaigi.org/matsue02 
-[3]: http://regional.rubykaigi.org/tokyo03 
-[4]: http://regional.rubykaigi.org/sendai02 
-[5]: http://rubykaigi.tdiary.net/ 
+[1]: http://regional.rubykaigi.org/
+[2]: http://regional.rubykaigi.org/matsue02
+[3]: http://regional.rubykaigi.org/tokyo03
+[4]: http://regional.rubykaigi.org/sendai02
+[5]: http://rubykaigi.tdiary.net/

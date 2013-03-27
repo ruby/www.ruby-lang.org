@@ -24,6 +24,6 @@ Ustedes pueden obtener el código en las siguientes ubicaciones:
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip

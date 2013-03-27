@@ -13,5 +13,5 @@ Congratulations to the recipients!
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/133197 
-[2]: http://www.rubycentral.org/grant/announce.html 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/133197
+[2]: http://www.rubycentral.org/grant/announce.html

@@ -14,4 +14,4 @@ Entwicklung bemerken. Wir bitten um Euer Verständnis.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/59202 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/59202

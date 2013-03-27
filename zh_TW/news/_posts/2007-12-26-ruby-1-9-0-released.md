@@ -23,6 +23,6 @@ Matz 於日前釋出了 Ruby 1.9.0 的開發版本.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip

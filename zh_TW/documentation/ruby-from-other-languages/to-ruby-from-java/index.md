@@ -39,6 +39,6 @@ Java 是個成熟，通過考驗，而且執行速度快(與反對者所指恰�
 
 
 
-[1]: http://wxruby.rubyforge.org/wiki/wiki.pl 
-[2]: http://www.fxruby.org/ 
-[3]: http://ruby-gnome2.sourceforge.jp/ 
+[1]: http://wxruby.rubyforge.org/wiki/wiki.pl
+[2]: http://www.fxruby.org/
+[3]: http://ruby-gnome2.sourceforge.jp/

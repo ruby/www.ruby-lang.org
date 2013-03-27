@@ -41,4 +41,4 @@ interfaces, too. See below;
 
 
 
-[1]: http://raa.ruby-lang.org/ 
+[1]: http://raa.ruby-lang.org/

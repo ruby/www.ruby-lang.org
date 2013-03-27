@@ -53,19 +53,19 @@ some brilliant code out there, be sure to let them know!
 
 
 
-[1]: http://del.icio.us/tag/ruby 
-[2]: http://del.icio.us/popular/ruby 
-[3]: http://technorati.com/search/ruby 
-[4]: http://rubycorner.com 
-[5]: http://planetruby.0x42.net/ 
-[6]: http://www.planetrubyonrails.org/ 
-[7]: http://www.planetrubyonrails.com/ 
-[8]: http://oreillynet.com/ruby/ 
-[9]: http://weblog.rubyonrails.org/ 
-[10]: http://www.rubyinside.com/ 
-[11]: http://www.rubyist.net/~matz/ 
-[12]: http://del.icio.us 
-[13]: http://digg.com/programming 
-[14]: http://developers.slashdot.org/ 
-[15]: http://www.reddit.com/r/ruby 
-[16]: http://news.ycombinator.com/ 
+[1]: http://del.icio.us/tag/ruby
+[2]: http://del.icio.us/popular/ruby
+[3]: http://technorati.com/search/ruby
+[4]: http://rubycorner.com
+[5]: http://planetruby.0x42.net/
+[6]: http://www.planetrubyonrails.org/
+[7]: http://www.planetrubyonrails.com/
+[8]: http://oreillynet.com/ruby/
+[9]: http://weblog.rubyonrails.org/
+[10]: http://www.rubyinside.com/
+[11]: http://www.rubyist.net/~matz/
+[12]: http://del.icio.us
+[13]: http://digg.com/programming
+[14]: http://developers.slashdot.org/
+[15]: http://www.reddit.com/r/ruby
+[16]: http://news.ycombinator.com/

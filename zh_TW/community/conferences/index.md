@@ -51,20 +51,20 @@ Ruby 演講，並逐年增加中。也有許多研討會以 [Ruby on Rails][15] 
 
 
 
-[1]: http://rubyconf.org/ 
-[2]: http://www.rubycentral.org 
-[3]: http://jp.rubyist.net/RubyKaigi2008/ 
-[4]: http://jp.rubyist.net/ 
-[5]: http://euruko2010.org/ 
-[6]: http://rubyconf.tw 
-[7]: http://ruby.tw 
-[8]: http://osdc.tw 
-[9]: http://rubyconfchina.org 
-[10]: http://groups.google.com/group/shanghaionrails 
-[11]: http://www.rubycentral.org/rcg2006.pdf 
-[12]: http://www.sdforum.org 
-[13]: http://rubynation.org/ 
-[14]: http://conferences.oreillynet.com/os2006/ 
-[15]: http://www.rubyonrails.org 
-[16]: http://www.railsconf.org 
-[17]: http://europe.railsconf.org 
+[1]: http://rubyconf.org/
+[2]: http://www.rubycentral.org
+[3]: http://jp.rubyist.net/RubyKaigi2008/
+[4]: http://jp.rubyist.net/
+[5]: http://euruko2010.org/
+[6]: http://rubyconf.tw
+[7]: http://ruby.tw
+[8]: http://osdc.tw
+[9]: http://rubyconfchina.org
+[10]: http://groups.google.com/group/shanghaionrails
+[11]: http://www.rubycentral.org/rcg2006.pdf
+[12]: http://www.sdforum.org
+[13]: http://rubynation.org/
+[14]: http://conferences.oreillynet.com/os2006/
+[15]: http://www.rubyonrails.org
+[16]: http://www.railsconf.org
+[17]: http://europe.railsconf.org

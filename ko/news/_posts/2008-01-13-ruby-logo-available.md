@@ -10,5 +10,5 @@ lang: ko
 
 
 
-[1]: http://www.ruby-assn.org/index.html.en 
-[2]: http://creativecommons.org/licenses/by-sa/2.5/deed.ko 
+[1]: http://www.ruby-assn.org/index.html.en
+[2]: http://creativecommons.org/licenses/by-sa/2.5/deed.ko

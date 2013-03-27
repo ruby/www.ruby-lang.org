@@ -82,17 +82,17 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 
 
 
-[1]: http://tryruby.org 
-[2]: http://hackety-hack.com/ 
-[3]: http://mislav.uniqpath.com/poignant-guide/ 
-[4]: http://www.moccasoft.de/papers/ruby_tutorial 
-[5]: http://pine.fm/LearnToProgram/ 
-[6]: http://home.vrweb.de/~juergen.katins/ruby/buch/index.html 
-[7]: http://www.rubyist.net/~slagell/ruby/ 
-[8]: http://www.approximity.com/rubybuch2/ 
-[9]: http://www.ruby-doc.org/core 
-[10]: http://www.ruby-doc.org/stdlib 
-[11]: http://www.ruby-doc.org/doxygen/current/ 
-[12]: http://www.rubydoc.info/ 
-[13]: http://ruby-doc.org 
-[14]: http://wiki.ruby-portal.de 
+[1]: http://tryruby.org
+[2]: http://hackety-hack.com/
+[3]: http://mislav.uniqpath.com/poignant-guide/
+[4]: http://www.moccasoft.de/papers/ruby_tutorial
+[5]: http://pine.fm/LearnToProgram/
+[6]: http://home.vrweb.de/~juergen.katins/ruby/buch/index.html
+[7]: http://www.rubyist.net/~slagell/ruby/
+[8]: http://www.approximity.com/rubybuch2/
+[9]: http://www.ruby-doc.org/core
+[10]: http://www.ruby-doc.org/stdlib
+[11]: http://www.ruby-doc.org/doxygen/current/
+[12]: http://www.rubydoc.info/
+[13]: http://ruby-doc.org
+[14]: http://wiki.ruby-portal.de

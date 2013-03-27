@@ -87,12 +87,12 @@ Posted by Shugo Maeda on 27 May 2006
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/ruby/ruby-list/index.shtml 
-[2]: http://redmine.ruby-lang.org/ 
-[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-dev/index.shtml 
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-ext/index.shtml 
-[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-math/index.shtml 
-[6]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml 
-[7]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml 
-[8]: http://www.atdot.net/~ko1/w3ml/w3ml.cgi/ruby-cvs/ 
-[9]: /ja/security/ 
+[1]: http://blade.nagaokaut.ac.jp/ruby/ruby-list/index.shtml
+[2]: http://redmine.ruby-lang.org/
+[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-dev/index.shtml
+[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-ext/index.shtml
+[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-math/index.shtml
+[6]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
+[7]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
+[8]: http://www.atdot.net/~ko1/w3ml/w3ml.cgi/ruby-cvs/
+[9]: /ja/security/

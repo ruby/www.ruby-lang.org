@@ -69,17 +69,17 @@ on Rails.
 
 
 
-[1]: http://ariekusumaatmaja.wordpress.com/2007/04/29/foto-gathering-id-ruby-pertama-food-court-mal-ambasador-jakarta/ 
-[2]: http://ariekusumaatmaja.wordpress.com/2007/06/27/catatan-tercecer-bandung-sejuk-bergairah/ 
-[3]: http://ariekusumaatmaja.wordpress.com/2007/08/20/gathering-id-ruby-ketiga-19-agustus-2007-1145-1700-wib/ 
-[4]: http://www.rubycentral.org/conference 
-[5]: http://www.rubycentral.org 
-[6]: http://jp.rubyist.net/RubyKaigi2006/ 
+[1]: http://ariekusumaatmaja.wordpress.com/2007/04/29/foto-gathering-id-ruby-pertama-food-court-mal-ambasador-jakarta/
+[2]: http://ariekusumaatmaja.wordpress.com/2007/06/27/catatan-tercecer-bandung-sejuk-bergairah/
+[3]: http://ariekusumaatmaja.wordpress.com/2007/08/20/gathering-id-ruby-ketiga-19-agustus-2007-1145-1700-wib/
+[4]: http://www.rubycentral.org/conference
+[5]: http://www.rubycentral.org
+[6]: http://jp.rubyist.net/RubyKaigi2006/
 [7]: http://euruko.org
-[8]: http://www.rubycentral.org/rcg2006.pdf 
-[9]: http://www.sdforum.org 
-[10]: http://conferences.oreillynet.com/os2006/ 
-[11]: http://www.rubyonrails.org 
-[12]: http://www.railsconf.org 
-[13]: http://europe.railsconf.org 
-[14]: http://www.skillsmatter.com 
+[8]: http://www.rubycentral.org/rcg2006.pdf
+[9]: http://www.sdforum.org
+[10]: http://conferences.oreillynet.com/os2006/
+[11]: http://www.rubyonrails.org
+[12]: http://www.railsconf.org
+[13]: http://europe.railsconf.org
+[14]: http://www.skillsmatter.com

@@ -12,4 +12,4 @@ Alikeライセンスに従ってご利用ください。
 
 
 
-[1]: http://www.ruby-assn.org/ruby-logo.html.ja 
+[1]: http://www.ruby-assn.org/ruby-logo.html.ja

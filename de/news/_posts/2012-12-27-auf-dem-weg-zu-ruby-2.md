@@ -87,4 +87,4 @@ erarbeitet\]
 
 
 
-[1]: https://bugs.ruby-lang.org/projects/ruby-trunk/issues?set_filter=1&amp;f%5B%5D=status_id&amp;op%5Bstatus_id%5D=o&amp;f%5B%5D=tracker_id&amp;op%5Btracker_id%5D=%3D&amp;v%5Btracker_id%5D%5B%5D=1&amp;f%5B%5D=&amp;c%5B%5D=tracker&amp;c%5B%5D=status&amp;c%5B%5D=priority&amp;c%5B%5D=subject&amp;c%5B%5D=assigned_to&amp;c%5B%5D=updated_on&amp;group_by 
+[1]: https://bugs.ruby-lang.org/projects/ruby-trunk/issues?set_filter=1&amp;f%5B%5D=status_id&amp;op%5Bstatus_id%5D=o&amp;f%5B%5D=tracker_id&amp;op%5Btracker_id%5D=%3D&amp;v%5Btracker_id%5D%5B%5D=1&amp;f%5B%5D=&amp;c%5B%5D=tracker&amp;c%5B%5D=status&amp;c%5B%5D=priority&amp;c%5B%5D=subject&amp;c%5B%5D=assigned_to&amp;c%5B%5D=updated_on&amp;group_by

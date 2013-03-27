@@ -11,5 +11,5 @@ enviar sus diseños. Más información en el [anuncio oficial][2].
 
 
 
-[1]: http://www.ruby-assn.org 
-[2]: http://www.ruby-assn.org/logo-contest.html.en 
+[1]: http://www.ruby-assn.org
+[2]: http://www.ruby-assn.org/logo-contest.html.en

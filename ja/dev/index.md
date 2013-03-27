@@ -46,7 +46,7 @@ Posted by usa on 13 Aug 2008
 
 
 
-[1]: http://redmine.ruby-lang.org/projects/ruby/wiki 
-[2]: http://redmine.ruby-lang.org/projects/show/ruby 
+[1]: http://redmine.ruby-lang.org/projects/ruby/wiki
+[2]: http://redmine.ruby-lang.org/projects/show/ruby
 [3]: {{ site.downloads.nightly_snapshot.url }}
 [4]: {{ site.downloads.stable_snapshot.url }}

@@ -106,9 +106,9 @@ J\'obtiens une erreur de type LoadError
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/NEWS 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/ChangeLog 
-[3]: http://www.rubyspec.org 
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2 
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz 
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/NEWS
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/ChangeLog
+[3]: http://www.rubyspec.org
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2
+[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
+[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip

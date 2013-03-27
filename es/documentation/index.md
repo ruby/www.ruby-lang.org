@@ -69,15 +69,15 @@ correo](/es/community/mailing-lists/) es un buen lugar para comenzar.
 
 
 
-[1]: http://tryruby.org/ 
-[2]: http://pine.fm/LearnToProgram/ 
-[3]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[4]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[5]: http://mislav.uniqpath.com/poignant-guide/ 
-[6]: http://www.rubyist.net/~slagell/ruby/ 
-[7]: http://www.ruby-doc.org/core 
-[8]: http://rdoc.sourceforge.net 
-[9]: http://www.ruby-doc.org/stdlib 
-[10]: http://www.ruby-doc.org/doxygen/current/ 
-[11]: http://ruby-doc.org 
-[12]: http://www.ruby-doc.org/bookstore 
+[1]: http://tryruby.org/
+[2]: http://pine.fm/LearnToProgram/
+[3]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[4]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[5]: http://mislav.uniqpath.com/poignant-guide/
+[6]: http://www.rubyist.net/~slagell/ruby/
+[7]: http://www.ruby-doc.org/core
+[8]: http://rdoc.sourceforge.net
+[9]: http://www.ruby-doc.org/stdlib
+[10]: http://www.ruby-doc.org/doxygen/current/
+[11]: http://ruby-doc.org
+[12]: http://www.ruby-doc.org/bookstore

@@ -12,4 +12,4 @@ being lazy, and considering interfaces.
 
 
 
-[1]: http://www.artima.com/intv/craft.html 
+[1]: http://www.artima.com/intv/craft.html

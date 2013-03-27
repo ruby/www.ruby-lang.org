@@ -58,19 +58,19 @@ Wiki][16] 里有用户维护的内容。如果您有问题，可以参加 Ruby
 
 
 
-[1]: http://tryruby.org/ 
-[2]: http://whytheluckystiff.net 
-[3]: http://pine.fm/LearnToProgram/ 
-[4]: http://rubycn.ce-lab.net/ 
-[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[6]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[7]: http://qa.poignantguide.net/ 
-[8]: http://www.rubyist.net/~slagell/ruby/ 
-[9]: http://en.wikibooks.org/wiki/Ruby_programming_language 
-[10]: http://www.ruby-doc.org/core 
-[11]: http://rdoc.sourceforge.net 
-[12]: http://www.ruby-doc.org/stdlib 
-[13]: http://www.ruby-doc.org/doxygen/current/ 
-[14]: http://ruby-doc.org 
-[15]: http://www.ruby-doc.org/bookstore 
-[16]: http://wiki.rubygarden.org/Ruby 
+[1]: http://tryruby.org/
+[2]: http://whytheluckystiff.net
+[3]: http://pine.fm/LearnToProgram/
+[4]: http://rubycn.ce-lab.net/
+[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[6]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[7]: http://qa.poignantguide.net/
+[8]: http://www.rubyist.net/~slagell/ruby/
+[9]: http://en.wikibooks.org/wiki/Ruby_programming_language
+[10]: http://www.ruby-doc.org/core
+[11]: http://rdoc.sourceforge.net
+[12]: http://www.ruby-doc.org/stdlib
+[13]: http://www.ruby-doc.org/doxygen/current/
+[14]: http://ruby-doc.org
+[15]: http://www.ruby-doc.org/bookstore
+[16]: http://wiki.rubygarden.org/Ruby

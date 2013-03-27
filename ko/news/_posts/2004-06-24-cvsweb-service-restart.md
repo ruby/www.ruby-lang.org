@@ -10,4 +10,4 @@ CVSweb service is restarted.
 
 
 
-[1]: {{ site.url }}/cgi-bin/cvsweb.cgi/ 
+[1]: {{ site.url }}/cgi-bin/cvsweb.cgi/

@@ -14,5 +14,5 @@ beiden Seiten nun unter neuer Domain wieder erreichbar.
 
 
 
-[1]: http://forum.ruby-portal.de 
-[2]: http://wiki.ruby-portal.de 
+[1]: http://forum.ruby-portal.de
+[2]: http://wiki.ruby-portal.de

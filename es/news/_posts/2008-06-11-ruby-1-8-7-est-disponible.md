@@ -42,6 +42,6 @@ Changelog, que están disponibles en las siguientes direcciones:
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip

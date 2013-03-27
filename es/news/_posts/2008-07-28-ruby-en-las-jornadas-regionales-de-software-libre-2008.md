@@ -32,4 +32,4 @@ Por más información visite el [sitio oficial de las jornadas][1].
 
 
 
-[1]: http://www.jornadasregionales.org/ 
+[1]: http://www.jornadasregionales.org/

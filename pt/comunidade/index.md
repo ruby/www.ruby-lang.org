@@ -50,7 +50,7 @@ Informação sobre o Ruby
 
 
 
-[1]: http://meme.b9.com/ 
+[1]: http://meme.b9.com/
 [2]: http://www.rubycentral.org/ "Ruby Central"
 [3]: http://dmoz.org/Computers/Programming/Languages/Ruby/ "Ruby no Open Directory Project"
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/ "Rails no Open Directory Project"

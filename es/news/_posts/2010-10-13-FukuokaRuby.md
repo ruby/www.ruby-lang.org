@@ -25,6 +25,6 @@ tiene la versión [japonesa][3]
 
 
 
-[1]: http://www.f-ruby.com/en/award/new/ 
-[2]: http://www.f-ruby.com/en/award/ 
-[3]: http://www.f-ruby.com/award/past/6 
+[1]: http://www.f-ruby.com/en/award/new/
+[2]: http://www.f-ruby.com/en/award/
+[3]: http://www.f-ruby.com/award/past/6

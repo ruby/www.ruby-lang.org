@@ -61,7 +61,7 @@ Viel Spaß!
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7/ChangeLog 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.bz2 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7/ChangeLog
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.bz2
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.zip

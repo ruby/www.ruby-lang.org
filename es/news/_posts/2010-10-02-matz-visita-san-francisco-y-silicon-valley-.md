@@ -22,5 +22,5 @@ la visita a la web [Fukuoka Ruby Business Hub Promotion Committee.][2]
 
 
 
-[1]: http://investfk.com 
-[2]: http://www.f-ruby.com/en/top 
+[1]: http://investfk.com
+[2]: http://www.f-ruby.com/en/top

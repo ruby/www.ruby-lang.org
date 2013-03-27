@@ -53,6 +53,6 @@ The vulnerability was found and reported by Masaya TARUI.
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip 
+[1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip

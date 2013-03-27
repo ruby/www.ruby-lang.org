@@ -24,11 +24,11 @@ Code의 일부로서 개최가 되었으나 올해는 독립적으로 개최될 
 
 
 
-[1]: http://rubycentral.org/ 
-[2]: http://www.engineyard.com/blog/2010/ruby-summer-of-code-is-here/ 
-[3]: http://weblog.rubyonrails.org/2010/3/24/ruby-summer-of-code 
-[4]: http://rubysoc.org/ 
-[5]: http://twitter.com/rubysoc 
-[6]: http://redmine.ruby-lang.org/wiki/ruby/SummerOfCode2010 
-[7]: http://wiki.jruby.org/RubySummerOfCode2010 
-[8]: http://wiki.rubyonrails.org/rubysoc/2010/ideas 
+[1]: http://rubycentral.org/
+[2]: http://www.engineyard.com/blog/2010/ruby-summer-of-code-is-here/
+[3]: http://weblog.rubyonrails.org/2010/3/24/ruby-summer-of-code
+[4]: http://rubysoc.org/
+[5]: http://twitter.com/rubysoc
+[6]: http://redmine.ruby-lang.org/wiki/ruby/SummerOfCode2010
+[7]: http://wiki.jruby.org/RubySummerOfCode2010
+[8]: http://wiki.rubyonrails.org/rubysoc/2010/ideas

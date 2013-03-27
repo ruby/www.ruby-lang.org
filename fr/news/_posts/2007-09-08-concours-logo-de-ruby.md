@@ -14,4 +14,4 @@ proposé, moyennant quelques modifications. Matz, conseillé par la
 
 
 
-[1]: http://www.ruby-assn.org/logo-contest.html 
+[1]: http://www.ruby-assn.org/logo-contest.html

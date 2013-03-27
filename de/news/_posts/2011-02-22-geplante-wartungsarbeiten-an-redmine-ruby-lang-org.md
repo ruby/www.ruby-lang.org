@@ -17,4 +17,4 @@ warten, bis Yugui-San die Wartungsarbeiten beendet hat.
 
 
 
-[1]: http://redmine.ruby-lang.org/ 
+[1]: http://redmine.ruby-lang.org/

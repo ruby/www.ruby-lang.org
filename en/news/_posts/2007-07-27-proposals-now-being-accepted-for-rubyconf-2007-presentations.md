@@ -16,5 +16,5 @@ The deadline for proposals is August 20, 5:00 PM EDT.
 
 
 
-[1]: http://rubyconf.org/ 
-[2]: http://proposals.rubycentral.org 
+[1]: http://rubyconf.org/
+[2]: http://proposals.rubycentral.org

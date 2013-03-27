@@ -34,7 +34,7 @@ quatrième anniversaire. Merci !
 
 
 
-[1]: {{ site.url }}/fr/news/2011/10/06/les-plans-pour-ruby-1-8-7/ 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.zip 
+[1]: {{ site.url }}/fr/news/2011/10/06/les-plans-pour-ruby-1-8-7/
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.zip

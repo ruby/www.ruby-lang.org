@@ -72,8 +72,8 @@ deutschsprachigen Teilnehmern bestehen, werden wir improvisieren.
 
 
 
-[1]: http://sublab.org/ 
-[2]: http://forum.ruby-portal.de/viewtopic.php?f=6&amp;t=11363 
-[3]: http://wiki.ruby-portal.de/Forumstreffen 
-[4]: http://twitter.com/search?q=%23germanyrb 
-[5]: http://twitter.com/germanyrb 
+[1]: http://sublab.org/
+[2]: http://forum.ruby-portal.de/viewtopic.php?f=6&amp;t=11363
+[3]: http://wiki.ruby-portal.de/Forumstreffen
+[4]: http://twitter.com/search?q=%23germanyrb
+[5]: http://twitter.com/germanyrb

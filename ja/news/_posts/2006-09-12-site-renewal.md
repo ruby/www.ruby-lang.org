@@ -13,5 +13,5 @@ Railsによって実装されたオープンソースのCMSです。
 
 
 
-[1]: http://www2.ruby-lang.org/ 
-[2]: http://radiantcms.org/ 
+[1]: http://www2.ruby-lang.org/
+[2]: http://radiantcms.org/

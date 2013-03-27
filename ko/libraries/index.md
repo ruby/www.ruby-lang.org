@@ -86,15 +86,15 @@ RubyGems를 설치하기 위해서는 홈페이지에서 최신 버전을 [내�
 
 
 
-[1]: http://rubyforge.org/ 
-[2]: http://rubyforge.org/softwaremap/trove_list.php 
-[3]: http://rubyforge.org/register/ 
-[4]: http://raa.ruby-lang.org/ 
-[5]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net 
-[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database 
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML 
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML 
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics 
-[10]: http://rubygems.org/read/chapter/1 
-[11]: http://rubyforge.org/frs/?group_id=126 
-[12]: http://rubygems.org/read/chapter/3 
+[1]: http://rubyforge.org/
+[2]: http://rubyforge.org/softwaremap/trove_list.php
+[3]: http://rubyforge.org/register/
+[4]: http://raa.ruby-lang.org/
+[5]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
+[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
+[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
+[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
+[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
+[10]: http://rubygems.org/read/chapter/1
+[11]: http://rubyforge.org/frs/?group_id=126
+[12]: http://rubygems.org/read/chapter/3

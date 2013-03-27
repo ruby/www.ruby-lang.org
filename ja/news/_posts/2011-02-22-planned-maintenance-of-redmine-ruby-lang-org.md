@@ -11,4 +11,4 @@ lang: ja
 
 
 
-[1]: http://redmine.ruby-lang.org 
+[1]: http://redmine.ruby-lang.org

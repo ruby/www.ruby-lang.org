@@ -52,7 +52,7 @@ pessoas interessadas em descobrir o que outros grupos estão a fazer.
 
 
 
-[1]: http://wiki.rubygarden.org/Ruby/page/show/RubyUserGroups 
-[2]: http://www.rubyholic.com/ 
-[3]: http://ruby.meetup.com 
-[4]: http://groups.google.com/group/Ruby-Brigades 
+[1]: http://wiki.rubygarden.org/Ruby/page/show/RubyUserGroups
+[2]: http://www.rubyholic.com/
+[3]: http://ruby.meetup.com
+[4]: http://groups.google.com/group/Ruby-Brigades

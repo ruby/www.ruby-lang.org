@@ -76,6 +76,6 @@ Die Sicherheitslücke wurde von Masaya TARUI gefunden und gemeldet.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip

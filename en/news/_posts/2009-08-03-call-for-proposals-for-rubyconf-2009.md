@@ -17,4 +17,4 @@ Hotel at the San Francisco Airport, California, USA.
 
 
 
-[1]: http://www.rubyconf.org 
+[1]: http://www.rubyconf.org

@@ -161,27 +161,27 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 
 
 
-[1]: /en/about/license.txt 
-[2]: http://www.linuxmint.com/ 
-[3]: http://www.ubuntu.com 
-[4]: http://www.debian.org 
-[5]: http://fedoraproject.org 
-[6]: http://rubyinstaller.org/ 
-[7]: http://rubyinstaller.org/downloads/ 
-[8]: http://railsinstaller.org/ 
-[9]: http://fedoraproject.org/ 
-[10]: http://www.centos.org/ 
-[11]: http://locomotive.raaum.org/ 
-[12]: http://rubyosx.rubyforge.org/ 
-[13]: http://www.macports.org/ 
-[14]: http://fink.sourceforge.net/ 
-[15]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
-[16]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard 
-[17]: http://www.freebsd.org/ports/ 
-[18]: http://www.freebsd.org/ 
-[19]: http://www.sun.com/software/solaris/ 
-[20]: http://www.gnusolaris.org/ 
+[1]: /en/about/license.txt
+[2]: http://www.linuxmint.com/
+[3]: http://www.ubuntu.com
+[4]: http://www.debian.org
+[5]: http://fedoraproject.org
+[6]: http://rubyinstaller.org/
+[7]: http://rubyinstaller.org/downloads/
+[8]: http://railsinstaller.org/
+[9]: http://fedoraproject.org/
+[10]: http://www.centos.org/
+[11]: http://locomotive.raaum.org/
+[12]: http://rubyosx.rubyforge.org/
+[13]: http://www.macports.org/
+[14]: http://fink.sourceforge.net/
+[15]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger
+[16]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard
+[17]: http://www.freebsd.org/ports/
+[18]: http://www.freebsd.org/
+[19]: http://www.sun.com/software/solaris/
+[20]: http://www.gnusolaris.org/
 [21]: {{ site.downloads.stable.url }}
-[22]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz 
+[22]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz
 [23]: {{ site.downloads.stable_snapshot.url }}
 [24]: {{ site.downloads.nightly_snapshot.url }}

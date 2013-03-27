@@ -12,4 +12,4 @@ For more information you can find the press release at
 
 
 
-[1]: http://bignerdranch.com/news/2006-10-11.shtml 
+[1]: http://bignerdranch.com/news/2006-10-11.shtml

@@ -126,28 +126,28 @@ Ruby идва инсталиран по подразбиране в друга �
 
 
 
-[1]: /en/about/license.txt 
+[1]: /en/about/license.txt
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyinstaller.org/ 
-[6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
-[7]: http://rubyforge.org/frs/download.php/72085/rubyinstaller-1.8.7-p302.exe 
-[8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe 
-[9]: http://rubyforge.org/frs/download.php/72170/rubyinstaller-1.9.2-p0.exe 
-[10]: http://rubyinstaller.org/add-ons/ 
-[11]: http://trac.macosforge.org/projects/ruby/wiki 
-[12]: http://locomotive.raaum.org/ 
-[13]: http://www.macports.org/ 
-[14]: http://fink.sourceforge.net/ 
-[15]: http://github.com/mxcl/homebrew 
-[16]: http://danbenjamin.com/articles/2007/02/ruby-rails-mongrel-mysql-osx 
-[17]: http://danbenjamin.com/articles/2008/02/ruby-rails-leopard 
-[18]: http://www.sunfreeware.com 
-[19]: http://www.blastwave.org 
-[20]: http://cooltools.sunsource.net/coolstack 
-[21]: http://opensolaris.org/os/project/pkg/ 
-[22]: http://www.opensolaris.org 
-[23]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/ 
-[24]: http://opensolaris.org/os/downloads 
-[25]: http://rubyforge.org/projects/rubyopensolaris 
+[5]: http://rubyinstaller.org/
+[6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
+[7]: http://rubyforge.org/frs/download.php/72085/rubyinstaller-1.8.7-p302.exe
+[8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe
+[9]: http://rubyforge.org/frs/download.php/72170/rubyinstaller-1.9.2-p0.exe
+[10]: http://rubyinstaller.org/add-ons/
+[11]: http://trac.macosforge.org/projects/ruby/wiki
+[12]: http://locomotive.raaum.org/
+[13]: http://www.macports.org/
+[14]: http://fink.sourceforge.net/
+[15]: http://github.com/mxcl/homebrew
+[16]: http://danbenjamin.com/articles/2007/02/ruby-rails-mongrel-mysql-osx
+[17]: http://danbenjamin.com/articles/2008/02/ruby-rails-leopard
+[18]: http://www.sunfreeware.com
+[19]: http://www.blastwave.org
+[20]: http://cooltools.sunsource.net/coolstack
+[21]: http://opensolaris.org/os/project/pkg/
+[22]: http://www.opensolaris.org
+[23]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
+[24]: http://opensolaris.org/os/downloads
+[25]: http://rubyforge.org/projects/rubyopensolaris

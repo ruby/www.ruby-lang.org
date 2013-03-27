@@ -43,10 +43,10 @@ RC2のリリースのアナウンスがありました。
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45801 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip 
-[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_rc2/NEWS 
-[6]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=7 
-[7]: http://redmine.ruby-lang.org/projects/show/ruby-19 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45801
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip
+[5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_rc2/NEWS
+[6]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=7
+[7]: http://redmine.ruby-lang.org/projects/show/ruby-19

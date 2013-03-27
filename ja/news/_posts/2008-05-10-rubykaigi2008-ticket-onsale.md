@@ -14,5 +14,5 @@ lang: ja
 
 
 
-[1]: http://jp.rubyist.net/RubyKaigi2008/ 
-[2]: http://jp.rubyist.net/RubyKaigi2008/?BuyTicket 
+[1]: http://jp.rubyist.net/RubyKaigi2008/
+[2]: http://jp.rubyist.net/RubyKaigi2008/?BuyTicket

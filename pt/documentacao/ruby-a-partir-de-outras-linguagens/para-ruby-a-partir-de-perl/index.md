@@ -72,7 +72,7 @@ Ao contrario do Perl, no Ruby…
 
 
 
-[1]: http://docs.rubygems.org/ 
-[2]: http://www.perlmonks.org/ 
-[3]: http://wiki.rubygarden.org/Ruby 
-[4]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index 
+[1]: http://docs.rubygems.org/
+[2]: http://www.perlmonks.org/
+[3]: http://wiki.rubygarden.org/Ruby
+[4]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index

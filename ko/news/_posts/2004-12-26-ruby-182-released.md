@@ -19,4 +19,4 @@ Merry Christmas!
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.2.tar.gz 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.2.tar.gz

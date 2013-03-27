@@ -170,5 +170,5 @@ Bonne continuation !
 
 
 
-[1]: http://www.ruby-doc.org/bookstore 
-[2]: http://rubyfrance.org/liens/livres/ 
+[1]: http://www.ruby-doc.org/bookstore
+[2]: http://rubyfrance.org/liens/livres/

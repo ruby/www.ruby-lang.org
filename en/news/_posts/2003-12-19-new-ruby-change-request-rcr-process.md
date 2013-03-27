@@ -17,8 +17,8 @@ process 3 years ago.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/88503 
-[2]: http://www.rubyconf.org 
-[3]: http://www.rubyist.net/%7Ematz/slides/rc2003 
-[4]: http://rcrchive.net 
-[5]: http://pragprog.com/pragdave 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/88503
+[2]: http://www.rubyconf.org
+[3]: http://www.rubyist.net/%7Ematz/slides/rc2003
+[4]: http://rcrchive.net
+[5]: http://pragprog.com/pragdave

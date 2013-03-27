@@ -148,9 +148,9 @@ Ruby-Referenz-Buch) online auf [Englisch][4] oder [Deutsch][5].
 
 
 
-[1]: http://python.org 
-[2]: http://python.org/dev/peps/pep-0020/ 
-[3]: http://www.ruby-doc.org/stdlib/libdoc/rdoc/rdoc/index.html 
-[4]: http://www.rubycentral.com/book/ 
-[5]: http://home.vr-web.de/juergen.katins/ruby/buch/ 
-[6]: http://www.rubyist.net/~matz/slides/oscon2005/mgp00044.html 
+[1]: http://python.org
+[2]: http://python.org/dev/peps/pep-0020/
+[3]: http://www.ruby-doc.org/stdlib/libdoc/rdoc/rdoc/index.html
+[4]: http://www.rubycentral.com/book/
+[5]: http://home.vr-web.de/juergen.katins/ruby/buch/
+[6]: http://www.rubyist.net/~matz/slides/oscon2005/mgp00044.html

@@ -18,10 +18,10 @@ lang: ko
 
 
 
-[1]: http://forum.rubykr.org 
-[2]: http://bbs.python.or.kr 
-[3]: http://altlang.org/fest/Framework2.1 
-[4]: http://altlang.org/fest/Framework2.1/%ED%9B%84%EA%B8%B0 
-[5]: http://altlang.org/fest/Framework2.1/%ED%9A%8C%EA%B3%A0 
-[6]: http://beyond.daesan.com/files/rails_framework21.pdf 
-[7]: http://video.google.com/videosearch?q=FW21&amp;so=2&amp;num=10 
+[1]: http://forum.rubykr.org
+[2]: http://bbs.python.or.kr
+[3]: http://altlang.org/fest/Framework2.1
+[4]: http://altlang.org/fest/Framework2.1/%ED%9B%84%EA%B8%B0
+[5]: http://altlang.org/fest/Framework2.1/%ED%9A%8C%EA%B3%A0
+[6]: http://beyond.daesan.com/files/rails_framework21.pdf
+[7]: http://video.google.com/videosearch?q=FW21&amp;so=2&amp;num=10

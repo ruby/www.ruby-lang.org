@@ -60,10 +60,10 @@ lista de correio").
 
 
 
-[1]: http://ruby-forum.org 
-[2]: http://www.rubyweeklynews.org/ 
-[3]: http://rubyhacker.com/clrFAQ.html 
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml 
+[1]: http://ruby-forum.org
+[2]: http://www.rubyweeklynews.org/
+[3]: http://rubyhacker.com/clrFAQ.html
+[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml "Aquivos"
 [6]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation "Arquivos em  Gmane"
-[7]: http://groups.google.com/group/ruby-pt 
+[7]: http://groups.google.com/group/ruby-pt

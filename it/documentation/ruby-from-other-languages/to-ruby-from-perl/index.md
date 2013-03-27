@@ -69,5 +69,5 @@ Ruby può essere la risposta che essi cercano.
 
 
 
-[1]: http://docs.rubygems.org/ 
-[2]: http://www.perlmonks.org/ 
+[1]: http://docs.rubygems.org/
+[2]: http://www.perlmonks.org/

@@ -31,4 +31,4 @@ Ruby on Rails).
 
 
 [1]: http://planet.ruby-id.web.id/ "Planet Ruby Indonesia"
-[2]: http://www.flickr.com/photos/ariekusumaatmaja/591875620/ 
+[2]: http://www.flickr.com/photos/ariekusumaatmaja/591875620/

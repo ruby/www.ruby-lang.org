@@ -116,10 +116,10 @@ ini semakin berkembang dari hari ke hari.
 
 
 
-[1]: http://www.ariel.com.au/a/teaching-programming.html 
-[2]: http://wxruby.rubyforge.org/wiki/wiki.pl 
-[3]: http://www.fxruby.org/ 
-[4]: http://ruby-gnome2.sourceforge.jp/ 
-[5]: http://jruby.codehaus.org/ 
-[6]: http://www.thoughtworks.com/ 
-[7]: http://xruby.com/ 
+[1]: http://www.ariel.com.au/a/teaching-programming.html
+[2]: http://wxruby.rubyforge.org/wiki/wiki.pl
+[3]: http://www.fxruby.org/
+[4]: http://ruby-gnome2.sourceforge.jp/
+[5]: http://jruby.codehaus.org/
+[6]: http://www.thoughtworks.com/
+[7]: http://xruby.com/

@@ -57,17 +57,17 @@ potrzebna instalacja frameworka Rails, to jest również dostępny
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/ 
+[1]: http://ftp.ruby-lang.org/pub/ruby/
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.previous.url }}
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.gz 
-[5]: https://github.com/sstephenson/rbenv 
-[6]: https://rvm.io/ 
-[7]: http://rubyinstaller.org/ 
-[8]: http://railsinstaller.org/ 
-[9]: http://www.rubyenterpriseedition.com/ 
-[10]: http://jruby.org 
-[11]: http://rubini.us 
-[12]: http://maglev.github.com/ 
-[13]: http://www.macruby.org/ 
-[14]: http://www.ironruby.net/ 
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.gz
+[5]: https://github.com/sstephenson/rbenv
+[6]: https://rvm.io/
+[7]: http://rubyinstaller.org/
+[8]: http://railsinstaller.org/
+[9]: http://www.rubyenterpriseedition.com/
+[10]: http://jruby.org
+[11]: http://rubini.us
+[12]: http://maglev.github.com/
+[13]: http://www.macruby.org/
+[14]: http://www.ironruby.net/

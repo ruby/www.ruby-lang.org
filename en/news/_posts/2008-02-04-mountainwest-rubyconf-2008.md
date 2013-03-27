@@ -14,6 +14,6 @@ t-shirt, and more.
 
 
 
-[1]: http://mtnwestrubyconf.org 
-[2]: http://mtnwestrubyconf.org/2008/speakers 
-[3]: http://www.acteva.com/go/mtnwestruby 
+[1]: http://mtnwestrubyconf.org
+[2]: http://mtnwestrubyconf.org/2008/speakers
+[3]: http://www.acteva.com/go/mtnwestruby

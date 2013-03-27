@@ -18,6 +18,6 @@ Taiwan 2010 (http://rubyconf.tw)][2]，預計將會有一百位的 IT 技術人�
 
 
 
-[1]: http://ruby.tw 
-[2]: http://rubyconf.tw 
-[3]: http://rubyconf.tw/2010/ 
+[1]: http://ruby.tw
+[2]: http://rubyconf.tw
+[3]: http://rubyconf.tw/2010/

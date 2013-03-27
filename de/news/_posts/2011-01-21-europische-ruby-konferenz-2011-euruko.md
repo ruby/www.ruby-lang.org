@@ -11,4 +11,4 @@ Vom 28. bis 29. Mai findet die EuRuKo 2011 in Berlin statt.
 
 
 
-[1]: http://euruko2011.org/ 
+[1]: http://euruko2011.org/

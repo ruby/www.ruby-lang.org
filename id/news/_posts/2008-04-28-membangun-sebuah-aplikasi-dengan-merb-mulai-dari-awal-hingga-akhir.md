@@ -30,7 +30,7 @@ Finish][4]
 
 
 
-[1]: http://www.socialface.com/slapp/ 
-[2]: http://merbivore.com/ 
-[3]: http://gitorious.org/projects/slapp/repos/mainline 
-[4]: http://www.rubyinside.com/building-a-web-app-with-merb-from-start-to-finish-870.html 
+[1]: http://www.socialface.com/slapp/
+[2]: http://merbivore.com/
+[3]: http://gitorious.org/projects/slapp/repos/mainline
+[4]: http://www.rubyinside.com/building-a-web-app-with-merb-from-start-to-finish-870.html

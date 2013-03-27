@@ -130,15 +130,15 @@ werden:
 
 
 
-[1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/ 
-[2]: http://subversion.tigris.org/faq.html 
-[3]: http://svnbook.org 
-[4]: http://git-scm.com/ 
-[5]: http://github.com/ruby/ruby 
-[6]: http://wiki.github.com/shyouhei/ruby/committerhowto 
-[7]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto 
-[8]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698 
-[9]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700 
-[10]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html 
-[11]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch 
-[12]: http://www.gnu.org/prep/standards/standards.html#Change-Logs 
+[1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: http://subversion.tigris.org/faq.html
+[3]: http://svnbook.org
+[4]: http://git-scm.com/
+[5]: http://github.com/ruby/ruby
+[6]: http://wiki.github.com/shyouhei/ruby/committerhowto
+[7]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
+[8]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698
+[9]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700
+[10]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
+[11]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
+[12]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

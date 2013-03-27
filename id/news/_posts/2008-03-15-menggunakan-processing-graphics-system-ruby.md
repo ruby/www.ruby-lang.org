@@ -27,9 +27,9 @@ Ruby][6]
 
 
 
-[1]: http://processing.org/ 
-[2]: http://en.wikipedia.org/wiki/NodeBox 
-[3]: http://jruby.codehaus.org/ 
-[4]: http://www.the-shoebox.org/apps/44 
-[5]: http://www.rubyinside.com/doodle-a-new-way-to-build-and-define-ruby-classes-795 
-[6]: http://www.rubyinside.com/using-the-processing-graphics-system-from-ruby-780.html 
+[1]: http://processing.org/
+[2]: http://en.wikipedia.org/wiki/NodeBox
+[3]: http://jruby.codehaus.org/
+[4]: http://www.the-shoebox.org/apps/44
+[5]: http://www.rubyinside.com/doodle-a-new-way-to-build-and-define-ruby-classes-795
+[6]: http://www.rubyinside.com/using-the-processing-graphics-system-from-ruby-780.html

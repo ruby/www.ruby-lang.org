@@ -9,4 +9,4 @@ lang: zh_cn
 
 
 
-[1]: http://jaoo.dk/ruby-cph/conference/ 
+[1]: http://jaoo.dk/ruby-cph/conference/

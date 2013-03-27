@@ -360,5 +360,5 @@ Your Own Code][1] dengan penyesuaian seperlunya oleh [ArieKeren][2]
 
 
 
-[1]: http://www.rubyinside.com/21-ruby-tricks-902.html 
-[2]: http://ariekusumaatmaja.wordpress.com 
+[1]: http://www.rubyinside.com/21-ruby-tricks-902.html
+[2]: http://ariekusumaatmaja.wordpress.com

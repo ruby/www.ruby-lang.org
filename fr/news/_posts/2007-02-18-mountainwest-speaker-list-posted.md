@@ -11,5 +11,5 @@ prendre connaissance de tout ce petit monde.
 
 
 
-[1]: http://mtnwestruby.org/speakers 
-[2]: http://mtnwestruby.conferencemeetup.com/people 
+[1]: http://mtnwestruby.org/speakers
+[2]: http://mtnwestruby.conferencemeetup.com/people

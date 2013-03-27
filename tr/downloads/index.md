@@ -141,32 +141,32 @@ Rubyforge][29] adresini inceleyin.
 
 
 
-[1]: /en/about/license.txt 
+[1]: /en/about/license.txt
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyinstaller.org/ 
-[6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe 
-[7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe 
-[8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe 
-[9]: http://rubyforge.org/frs/download.php/73722/rubyinstaller-1.9.2-p136.exe 
-[10]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip 
-[11]: ftp://ftp.ruby-lang.org:21/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip 
-[12]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html 
-[13]: http://github.com/vertiginous/pik 
-[14]: http://rvm.beginrescueend.com 
-[15]: http://trac.macosforge.org/projects/ruby/wiki 
-[16]: http://locomotive.raaum.org/ 
-[17]: http://www.macports.org/ 
-[18]: http://fink.sourceforge.net/ 
-[19]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx 
-[20]: http://hivelogic.com/articles/ruby-rails-leopard 
-[21]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/ 
-[22]: http://www.sunfreeware.com 
-[23]: http://www.blastwave.org 
-[24]: http://cooltools.sunsource.net/coolstack 
-[25]: http://www.opensolaris.org 
-[26]: http://opensolaris.org/os/project/pkg/ 
-[27]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/ 
-[28]: http://opensolaris.org/os/downloads 
-[29]: http://rubyforge.org/projects/rubyopensolaris 
+[5]: http://rubyinstaller.org/
+[6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
+[7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe
+[8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe
+[9]: http://rubyforge.org/frs/download.php/73722/rubyinstaller-1.9.2-p136.exe
+[10]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip
+[11]: ftp://ftp.ruby-lang.org:21/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip
+[12]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html
+[13]: http://github.com/vertiginous/pik
+[14]: http://rvm.beginrescueend.com
+[15]: http://trac.macosforge.org/projects/ruby/wiki
+[16]: http://locomotive.raaum.org/
+[17]: http://www.macports.org/
+[18]: http://fink.sourceforge.net/
+[19]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
+[20]: http://hivelogic.com/articles/ruby-rails-leopard
+[21]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
+[22]: http://www.sunfreeware.com
+[23]: http://www.blastwave.org
+[24]: http://cooltools.sunsource.net/coolstack
+[25]: http://www.opensolaris.org
+[26]: http://opensolaris.org/os/project/pkg/
+[27]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
+[28]: http://opensolaris.org/os/downloads
+[29]: http://rubyforge.org/projects/rubyopensolaris

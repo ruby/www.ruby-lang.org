@@ -50,6 +50,6 @@ Perl е чудесен език, с богата документация и п�
 
 
 
-[1]: http://docs.rubygems.org/ 
-[2]: http://www.perlmonks.org/ 
-[3]: http://www.ruby-forum.com/ 
+[1]: http://docs.rubygems.org/
+[2]: http://www.perlmonks.org/
+[3]: http://www.ruby-forum.com/

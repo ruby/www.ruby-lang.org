@@ -98,10 +98,10 @@ aplicación.
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip 
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2 
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz 
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip 
-[7]: http://rubyinstaller.org/downloads 
+[1]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
+[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
+[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip
+[7]: http://rubyinstaller.org/downloads

@@ -23,8 +23,8 @@ Sumber: [Ruby Inside:Converting Ruby 1.9 Bytecode to Python][5]
 
 
 
-[1]: http://poignantguide.net/ruby/ 
-[2]: http://code.whytheluckystiff.net/shoes/ 
-[3]: http://hackety.org/2008/05/05/sneakingRubyThroughGoogleAppEngine.html(dan 
-[4]: http://github.com/why/unholy/tree/master 
-[5]: http://www.rubyinside.com/converting-ruby-19-bytecode-to-python-884.html 
+[1]: http://poignantguide.net/ruby/
+[2]: http://code.whytheluckystiff.net/shoes/
+[3]: http://hackety.org/2008/05/05/sneakingRubyThroughGoogleAppEngine.html(dan
+[4]: http://github.com/why/unholy/tree/master
+[5]: http://www.rubyinside.com/converting-ruby-19-bytecode-to-python-884.html

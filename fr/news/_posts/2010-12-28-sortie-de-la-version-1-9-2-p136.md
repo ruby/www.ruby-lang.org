@@ -43,7 +43,7 @@ détails.
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip

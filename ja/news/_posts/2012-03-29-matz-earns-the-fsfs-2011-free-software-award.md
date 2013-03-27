@@ -14,4 +14,4 @@ Softwareは一年に一度、フリーソフトウェアの精神に則った活
 
 
 
-[1]: https://www.fsf.org/news/2011-free-software-awards-announced 
+[1]: https://www.fsf.org/news/2011-free-software-awards-announced

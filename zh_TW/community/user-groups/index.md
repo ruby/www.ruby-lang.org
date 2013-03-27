@@ -35,4 +35,4 @@ option if there is already one nearby.
 
 
 
-[1]: http://ruby.meetup.com 
+[1]: http://ruby.meetup.com

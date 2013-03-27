@@ -113,7 +113,7 @@ Causa un LoadError
 
 
 
-[1]: http://www.rubyspec.org 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz 
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip 
+[1]: http://www.rubyspec.org
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip

@@ -14,6 +14,6 @@ to Tim for this valuable resource!
 
 
 
-[1]: http://ruby-talk.org/cgi-bin/scat.rb/ruby/ruby-talk/131807 
-[2]: http://rubygarden.org/ruby/ruby?RubyNews/2005-02-14 
-[3]: http://www.ruby-talk.org 
+[1]: http://ruby-talk.org/cgi-bin/scat.rb/ruby/ruby-talk/131807
+[2]: http://rubygarden.org/ruby/ruby?RubyNews/2005-02-14
+[3]: http://www.ruby-talk.org

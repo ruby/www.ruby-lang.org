@@ -24,5 +24,5 @@ Win32 binaries with dozens of popular extensions.
 
 
 
-[1]: http://rubyinstaller.sourceforge.net/ 
-[2]: http://www.dm4lab.to/&lt;sub&gt;usa/ruby/index_en.html#download%E2%80%9D&gt;usa%E2%80%99s%20binaries&lt;/a&gt;%20and%0A&lt;a%20href= 
+[1]: http://rubyinstaller.sourceforge.net/
+[2]: http://www.dm4lab.to/&lt;sub&gt;usa/ruby/index_en.html#download%E2%80%9D&gt;usa%E2%80%99s%20binaries&lt;/a&gt;%20and%0A&lt;a%20href=

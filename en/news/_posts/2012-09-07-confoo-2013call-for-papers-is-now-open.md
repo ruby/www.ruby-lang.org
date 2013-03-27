@@ -27,8 +27,8 @@ To stay in touch via Twitter, follow [@confooca][3] and use the
 
 
 
-[1]: http://confoo.ca/en/call-for-papers 
-[2]: http://confoo.ca/en/call-for-papers/guidelines 
-[3]: http://twitter.com/confooca 
-[4]: http://twitter.com/#!/search/%23confoo 
-[5]: http://confoo.ca/en/propaganda 
+[1]: http://confoo.ca/en/call-for-papers
+[2]: http://confoo.ca/en/call-for-papers/guidelines
+[3]: http://twitter.com/confooca
+[4]: http://twitter.com/#!/search/%23confoo
+[5]: http://confoo.ca/en/propaganda

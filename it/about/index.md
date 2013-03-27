@@ -219,8 +219,8 @@ Rails][3].
 
 
 
-[1]: http://www.rubyist.net/~matz/ 
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773 
-[3]: http://rubyonrails.org/ 
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html 
-[5]: http://www.artima.com/intv/closures2.html 
+[1]: http://www.rubyist.net/~matz/
+[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[3]: http://rubyonrails.org/
+[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[5]: http://www.artima.com/intv/closures2.html

@@ -18,7 +18,7 @@ can be seen at [http://www.vendian.org/language\_year/][4].
 
 
 
-[1]: http://www.rubygarden.org/ruby?RubyIn2002 
-[2]: http://www.ruby-talk.com/60604 
-[3]: http://www.ruby-talk.com/60731 
-[4]: http://www.vendian.org/language_year/ 
+[1]: http://www.rubygarden.org/ruby?RubyIn2002
+[2]: http://www.ruby-talk.com/60604
+[3]: http://www.ruby-talk.com/60731
+[4]: http://www.vendian.org/language_year/

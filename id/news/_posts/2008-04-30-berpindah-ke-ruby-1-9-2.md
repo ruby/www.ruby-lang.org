@@ -21,7 +21,7 @@ Sumber: [Ruby Inside: Migrating to Ruby 1.9][4]
 
 
 
-[1]: http://codefluency.com/articles/2008/04/13/migrating-to-ruby-1-9/ 
-[2]: http://scotlandonrails.com/ 
-[3]: http://rubylearning.com/blog/2008/04/18/ruby-interview-bruce-williams-of-fiveruns/ 
-[4]: http://www.rubyinside.com/migrating-to-ruby-19-876.html 
+[1]: http://codefluency.com/articles/2008/04/13/migrating-to-ruby-1-9/
+[2]: http://scotlandonrails.com/
+[3]: http://rubylearning.com/blog/2008/04/18/ruby-interview-bruce-williams-of-fiveruns/
+[4]: http://www.rubyinside.com/migrating-to-ruby-19-876.html

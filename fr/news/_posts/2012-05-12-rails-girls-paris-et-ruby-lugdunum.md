@@ -34,8 +34,8 @@ sur [rulu.eu][2] !
 
 
 
-[1]: http://railsgirls.com/paris 
-[2]: http://rulu.eu/ 
-[3]: http://www.lecamping.org/ 
-[4]: http://www.rubymotion.com/ 
-[5]: http://rulu.eu/2012/04/26/xavier-noria-constants-in-ruby.html 
+[1]: http://railsgirls.com/paris
+[2]: http://rulu.eu/
+[3]: http://www.lecamping.org/
+[4]: http://www.rubymotion.com/
+[5]: http://rulu.eu/2012/04/26/xavier-noria-constants-in-ruby.html

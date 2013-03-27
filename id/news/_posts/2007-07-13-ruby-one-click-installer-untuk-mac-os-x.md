@@ -31,5 +31,5 @@ Anda.
 
 
 
-[1]: http://rubyosx.rubyforge.org/ 
-[2]: http://locomotive.raaum.org/ 
+[1]: http://rubyosx.rubyforge.org/
+[2]: http://locomotive.raaum.org/

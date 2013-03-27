@@ -60,5 +60,5 @@ you.
 
 
 
-[1]: http://docs.rubygems.org/ 
-[2]: http://www.perlmonks.org/ 
+[1]: http://docs.rubygems.org/
+[2]: http://www.perlmonks.org/

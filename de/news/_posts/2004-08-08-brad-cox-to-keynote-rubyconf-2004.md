@@ -13,5 +13,5 @@ is still open.
 
 
 
-[1]: http://www.rubycentral.org/conference 
-[2]: http://www.rubycentral.org/conference/register.html 
+[1]: http://www.rubycentral.org/conference
+[2]: http://www.rubycentral.org/conference/register.html

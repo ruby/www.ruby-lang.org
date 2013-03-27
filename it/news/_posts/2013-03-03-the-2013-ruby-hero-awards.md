@@ -23,4 +23,4 @@ saranno presentati agli \"eroi\" sul palco di Railsconf a fine Aprile.
 
 
 
-[1]: http://rubyheroes.com 
+[1]: http://rubyheroes.com

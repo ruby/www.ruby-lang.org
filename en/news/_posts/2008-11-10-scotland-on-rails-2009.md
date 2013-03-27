@@ -26,4 +26,4 @@ ruby! whisky!) in March. We hope to see you there.
 
 
 
-[1]: http://scotlandonrails.com 
+[1]: http://scotlandonrails.com

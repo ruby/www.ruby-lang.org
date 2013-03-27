@@ -29,5 +29,5 @@ lang: bg
 
 
 
-[1]: http://ruby.meetup.com 
-[2]: http://sofiarb.org 
+[1]: http://ruby.meetup.com
+[2]: http://sofiarb.org

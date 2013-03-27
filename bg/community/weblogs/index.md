@@ -47,17 +47,17 @@ mitko.kostov@gmail.com ).
 
 
 
-[1]: http://del.icio.us/tag/ruby 
-[2]: http://technorati.com/search/ruby 
-[3]: http://rubycorner.com 
-[4]: http://planetruby.0x42.net/ 
-[5]: http://www.planetrubyonrails.org/ 
-[6]: http://www.planetrubyonrails.com/ 
-[7]: http://weblog.rubyonrails.org/ 
-[8]: http://www.rubyinside.com/ 
-[9]: http://www.rubyist.net/~matz/ 
-[10]: http://newsforwhatyoudo.com/groups/643ddee01cd911deaef1001aa018681c/news 
-[11]: http://oreillynet.com/ruby/ 
-[12]: http://del.icio.us 
-[13]: http://digg.com/programming 
-[14]: http://developers.slashdot.org/ 
+[1]: http://del.icio.us/tag/ruby
+[2]: http://technorati.com/search/ruby
+[3]: http://rubycorner.com
+[4]: http://planetruby.0x42.net/
+[5]: http://www.planetrubyonrails.org/
+[6]: http://www.planetrubyonrails.com/
+[7]: http://weblog.rubyonrails.org/
+[8]: http://www.rubyinside.com/
+[9]: http://www.rubyist.net/~matz/
+[10]: http://newsforwhatyoudo.com/groups/643ddee01cd911deaef1001aa018681c/news
+[11]: http://oreillynet.com/ruby/
+[12]: http://del.icio.us
+[13]: http://digg.com/programming
+[14]: http://developers.slashdot.org/

@@ -24,5 +24,5 @@ check [this prospectus][2].
 
 
 
-[1]: http://rubyconf.tw/ 
-[2]: http://rubyconf.tw/2011/cfs/rubyconf-cfs-2011.pdf 
+[1]: http://rubyconf.tw/
+[2]: http://rubyconf.tw/2011/cfs/rubyconf-cfs-2011.pdf

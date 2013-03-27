@@ -150,5 +150,5 @@ moutons dans la [seconde partie](2/).
 
 
 
-[1]: http://fr.wikipedia.org/wiki/Franglais 
-[2]: http://fr.wikipedia.org/wiki/William_Shakespeare 
+[1]: http://fr.wikipedia.org/wiki/Franglais
+[2]: http://fr.wikipedia.org/wiki/William_Shakespeare

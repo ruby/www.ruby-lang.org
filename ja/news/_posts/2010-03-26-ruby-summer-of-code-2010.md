@@ -36,9 +36,9 @@ Update: \[ruby-talk:359795\] によると、目標額は達成したそうです
 
 
 
-[1]: http://rubycentral.org/ 
-[2]: http://www.engineyard.com/blog/2010/ruby-summer-of-code-is-here/ 
-[3]: http://weblog.rubyonrails.org/2010/3/24/ruby-summer-of-code 
-[4]: http://rubysoc.org/ 
-[5]: http://wiki.rubyonrails.org/rubysoc/2010/ideas 
-[6]: http://wiki.jruby.org/RubySummerOfCode2010 
+[1]: http://rubycentral.org/
+[2]: http://www.engineyard.com/blog/2010/ruby-summer-of-code-is-here/
+[3]: http://weblog.rubyonrails.org/2010/3/24/ruby-summer-of-code
+[4]: http://rubysoc.org/
+[5]: http://wiki.rubyonrails.org/rubysoc/2010/ideas
+[6]: http://wiki.jruby.org/RubySummerOfCode2010

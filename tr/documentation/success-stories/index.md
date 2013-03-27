@@ -83,19 +83,19 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 
 
 
-[1]: http://www.larc.nasa.gov/ 
-[2]: http://www.sketchup.com/ 
-[3]: http://www.torontorehab.on.ca/ 
-[4]: http://www.morpha.de/php_e/ 
-[5]: http://ods.org/ 
-[6]: http://www.lucent.com/ 
-[7]: http://www.level3.com/ 
-[8]: http://www.basecamphq.com 
-[9]: http://www.37signals.com 
-[10]: http://www.43things.com 
-[11]: http://www.alistapart.com 
-[12]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/ 
-[13]: http://www.metasploit.com 
-[14]: http://www.rapid7.com 
-[15]: http://www.rapid7.com/products/metasploit-express.jsp 
-[16]: http://www.rapid7.com/products/metasploit-pro.jsp 
+[1]: http://www.larc.nasa.gov/
+[2]: http://www.sketchup.com/
+[3]: http://www.torontorehab.on.ca/
+[4]: http://www.morpha.de/php_e/
+[5]: http://ods.org/
+[6]: http://www.lucent.com/
+[7]: http://www.level3.com/
+[8]: http://www.basecamphq.com
+[9]: http://www.37signals.com
+[10]: http://www.43things.com
+[11]: http://www.alistapart.com
+[12]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[13]: http://www.metasploit.com
+[14]: http://www.rapid7.com
+[15]: http://www.rapid7.com/products/metasploit-express.jsp
+[16]: http://www.rapid7.com/products/metasploit-pro.jsp

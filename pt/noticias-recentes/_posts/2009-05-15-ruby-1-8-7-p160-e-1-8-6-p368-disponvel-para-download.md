@@ -54,11 +54,11 @@ Checksums:
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_6_368/ChangeLog 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_160/ChangeLog 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.bz2 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.zip 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz 
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.bz2 
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_6_368/ChangeLog
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_160/ChangeLog
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.bz2
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.zip
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz
+[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.bz2
+[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.zip

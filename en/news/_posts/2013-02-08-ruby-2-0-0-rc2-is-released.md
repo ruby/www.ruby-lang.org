@@ -104,17 +104,17 @@ all the people who helped me do this release.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip 
-[4]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails 
-[5]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/ 
-[6]: http://www.infoq.com/news/2012/11/ruby-20-preview1 
-[7]: http://timelessrepo.com/refinements-in-ruby 
-[8]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html 
-[9]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy 
-[10]: https://bugs.ruby-lang.org/issues/6679 
-[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547 
-[12]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984 
-[13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119 
-[14]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip
+[4]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails
+[5]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
+[6]: http://www.infoq.com/news/2012/11/ruby-20-preview1
+[7]: http://timelessrepo.com/refinements-in-ruby
+[8]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html
+[9]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy
+[10]: https://bugs.ruby-lang.org/issues/6679
+[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
+[12]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
+[13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
+[14]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft

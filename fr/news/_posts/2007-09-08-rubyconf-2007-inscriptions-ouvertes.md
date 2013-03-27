@@ -18,6 +18,6 @@ conférence.
 
 
 
-[1]: http://www.regonline.com/rubyconf2007 
-[2]: http://rubyconf.org/ 
-[3]: http://www.rubyconf.org/agenda.html 
+[1]: http://www.regonline.com/rubyconf2007
+[2]: http://rubyconf.org/
+[3]: http://www.rubyconf.org/agenda.html

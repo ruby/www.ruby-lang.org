@@ -37,8 +37,8 @@ recomiendo la lectura del registro de [cambios.][2]
 
 
 
-[1]: http://unaaldia.hispasec.com/2012/10/vulnerabilidad-en-la-creacion-de.html 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_286/ChangeLog 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip 
+[1]: http://unaaldia.hispasec.com/2012/10/vulnerabilidad-en-la-creacion-de.html
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_286/ChangeLog
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip

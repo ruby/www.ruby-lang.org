@@ -81,20 +81,20 @@ you’ll find a small sample of real world usage of Ruby.
 
 
 
-[1]: http://www.larc.nasa.gov/ 
-[2]: http://www.motorola.com 
-[3]: http://www.sketchup.com/ 
-[4]: http://www.torontorehab.on.ca/ 
-[5]: http://www.morpha.de/php_e/ 
-[6]: http://ods.org/ 
-[7]: http://www.lucent.com/ 
-[8]: http://www.level3.com/ 
-[9]: http://www.basecamphq.com 
-[10]: http://www.37signals.com 
-[11]: http://www.43things.com 
-[12]: http://www.alistapart.com 
-[13]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/ 
-[14]: http://www.metasploit.com 
-[15]: http://www.rapid7.com 
-[16]: http://www.rapid7.com/products/metasploit-express.jsp 
-[17]: http://www.rapid7.com/products/metasploit-pro.jsp 
+[1]: http://www.larc.nasa.gov/
+[2]: http://www.motorola.com
+[3]: http://www.sketchup.com/
+[4]: http://www.torontorehab.on.ca/
+[5]: http://www.morpha.de/php_e/
+[6]: http://ods.org/
+[7]: http://www.lucent.com/
+[8]: http://www.level3.com/
+[9]: http://www.basecamphq.com
+[10]: http://www.37signals.com
+[11]: http://www.43things.com
+[12]: http://www.alistapart.com
+[13]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[14]: http://www.metasploit.com
+[15]: http://www.rapid7.com
+[16]: http://www.rapid7.com/products/metasploit-express.jsp
+[17]: http://www.rapid7.com/products/metasploit-pro.jsp

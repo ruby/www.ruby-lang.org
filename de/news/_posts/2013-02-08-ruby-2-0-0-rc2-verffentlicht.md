@@ -130,21 +130,21 @@ mir bei dieser Veröffentlichung geholfen haben, sehr dankbar.
 
 
 
-[1]: http://www.ruby-doc.org/core-2.0/Enumerable.html#method-i-lazy 
-[2]: http://www.ruby-doc.org/core-2.0/Module.html#method-i-prepend 
-[3]: http://www.ruby-doc.org/core-2.0/Enumerator.html#method-i-size 
-[4]: http://www.ruby-doc.org/core-2.0/Range.html#method-i-size 
-[5]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v2_0_0_rc2/NEWS?view=markup 
-[6]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails 
-[7]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/ 
-[8]: http://www.infoq.com/news/2012/11/ruby-20-preview1 
-[9]: http://timelessrepo.com/refinements-in-ruby 
-[10]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html 
-[11]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy 
-[12]: https://bugs.ruby-lang.org/issues/6679 
-[13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547 
-[14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984 
-[15]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119 
-[16]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft 
-[17]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2 
-[18]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip 
+[1]: http://www.ruby-doc.org/core-2.0/Enumerable.html#method-i-lazy
+[2]: http://www.ruby-doc.org/core-2.0/Module.html#method-i-prepend
+[3]: http://www.ruby-doc.org/core-2.0/Enumerator.html#method-i-size
+[4]: http://www.ruby-doc.org/core-2.0/Range.html#method-i-size
+[5]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v2_0_0_rc2/NEWS?view=markup
+[6]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails
+[7]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
+[8]: http://www.infoq.com/news/2012/11/ruby-20-preview1
+[9]: http://timelessrepo.com/refinements-in-ruby
+[10]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html
+[11]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy
+[12]: https://bugs.ruby-lang.org/issues/6679
+[13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
+[14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
+[15]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
+[16]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
+[17]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
+[18]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip

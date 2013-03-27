@@ -128,11 +128,11 @@ SHA256:
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_194/ChangeLog 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_320/ChangeLog 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2 
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz 
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip 
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2 
-[7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz 
-[8]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_194/ChangeLog
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_320/ChangeLog
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2
+[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
+[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip
+[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2
+[7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz
+[8]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip

@@ -24,10 +24,10 @@ find your stuff on [Technorati][6] and [Flickr][7].
 
 
 
-[1]: http://mokolabs.com/2006/09/08/the-rubyconf-express/ 
-[2]: http://rubyconf.org/ 
-[3]: http://www.rubycentral.org/conference/agenda.html 
-[4]: http://www.rubyconf.org/agenda_detail.html 
-[5]: http://wiki.rubygarden.org/Ruby/page/show/RubyConf2006Facebook/ 
-[6]: http://technorati.com/tags/rubyconf2006/ 
-[7]: http://flickr.com/photos/tags/rubyconf2006/ 
+[1]: http://mokolabs.com/2006/09/08/the-rubyconf-express/
+[2]: http://rubyconf.org/
+[3]: http://www.rubycentral.org/conference/agenda.html
+[4]: http://www.rubyconf.org/agenda_detail.html
+[5]: http://wiki.rubygarden.org/Ruby/page/show/RubyConf2006Facebook/
+[6]: http://technorati.com/tags/rubyconf2006/
+[7]: http://flickr.com/photos/tags/rubyconf2006/

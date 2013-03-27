@@ -12,4 +12,4 @@ in Kloster Eberbach, Germany (near Frankfurt) the week of March
 
 
 
-[1]: http://www.bignerdranch.com/news/2006-12-20.shtml 
+[1]: http://www.bignerdranch.com/news/2006-12-20.shtml

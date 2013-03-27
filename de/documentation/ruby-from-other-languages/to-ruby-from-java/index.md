@@ -56,7 +56,7 @@ Zusammenbasteln von Prototypen weniger Zeit in Anspruch nimmt.
 
 
 
-[1]: http://wxruby.rubyforge.org/wiki/wiki.pl 
-[2]: http://www.fxruby.org/ 
-[3]: http://ruby-gnome2.sourceforge.jp/ 
-[4]: http://yaml.org 
+[1]: http://wxruby.rubyforge.org/wiki/wiki.pl
+[2]: http://www.fxruby.org/
+[3]: http://ruby-gnome2.sourceforge.jp/
+[4]: http://yaml.org

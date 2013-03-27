@@ -43,9 +43,9 @@ Ruby 的一般信息
 
 
 
-[1]: http://www.ruby-lang.org.cn/forums/ 
-[2]: http://meme.b9.com/ 
-[3]: http://rubymentor.rubyforge.org/ 
-[4]: http://www.rubycentral.org/ 
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/ 
-[6]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/ 
+[1]: http://www.ruby-lang.org.cn/forums/
+[2]: http://meme.b9.com/
+[3]: http://rubymentor.rubyforge.org/
+[4]: http://www.rubycentral.org/
+[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[6]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

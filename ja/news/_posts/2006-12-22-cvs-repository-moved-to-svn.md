@@ -13,7 +13,7 @@ svn.ruby-lang.org用の新しいマシンは[Sun Microsystems社][3]に 提供�
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/ 
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby 
-[3]: http://www.sun.com 
-[4]: http://jp.sun.com/products/software/solaris/ 
+[1]: http://svn.ruby-lang.org/repos/ruby/
+[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[3]: http://www.sun.com
+[4]: http://jp.sun.com/products/software/solaris/

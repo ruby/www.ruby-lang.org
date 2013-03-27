@@ -58,11 +58,11 @@ exprimer vos retours sur [le bug tracker][5].
 
 
 
-[1]: http://yehudakatz.com/2010/05/17/encodings-unabridged/ 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS 
-[3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog 
-[4]: http://redmine.ruby-lang.org/issues/show/3462 
-[5]: http://redmine.ruby-lang.org/projects/show/ruby-19/ 
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2 
-[7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz 
-[8]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip 
+[1]: http://yehudakatz.com/2010/05/17/encodings-unabridged/
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS
+[3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog
+[4]: http://redmine.ruby-lang.org/issues/show/3462
+[5]: http://redmine.ruby-lang.org/projects/show/ruby-19/
+[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
+[7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz
+[8]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip

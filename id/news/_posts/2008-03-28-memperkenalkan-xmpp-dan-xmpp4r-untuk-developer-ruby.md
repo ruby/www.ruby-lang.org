@@ -34,10 +34,10 @@ Developers][7]
 
 
 
-[1]: http://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol 
-[2]: http://home.gna.org/xmpp4r/ 
-[3]: http://www.rubyfleebie.com/ 
-[4]: http://www.rubyfleebie.com/im-integration-with-xmpp4r 
-[5]: http://www.rubyfleebie.com/im-integration-with-xmpp4r-part-2/ 
-[6]: http://xmpp4r-simple.rubyforge.org/ 
-[7]: http://www.rubyinside.com/introduction-to-xmpp-and-xmpp4r-for-ruby-developers-709.html 
+[1]: http://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol
+[2]: http://home.gna.org/xmpp4r/
+[3]: http://www.rubyfleebie.com/
+[4]: http://www.rubyfleebie.com/im-integration-with-xmpp4r
+[5]: http://www.rubyfleebie.com/im-integration-with-xmpp4r-part-2/
+[6]: http://xmpp4r-simple.rubyforge.org/
+[7]: http://www.rubyinside.com/introduction-to-xmpp-and-xmpp4r-for-ruby-developers-709.html

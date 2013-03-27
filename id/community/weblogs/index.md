@@ -69,20 +69,20 @@ tersebut!
 
 
 
-[1]: http://del.icio.us/tag/ruby 
-[2]: http://del.icio.us/popular/ruby 
-[3]: http://technorati.com/search/ruby 
-[4]: http://planet.ruby-id.web.id 
-[5]: http://rubycorner.com 
-[6]: http://planetruby.0x42.net/ 
-[7]: http://www.planetrubyonrails.com 
-[8]: http://www.planetrubyonrails.org/ 
-[9]: http://ariekusumaatmaja.wordpress.com/ 
-[10]: http://twitter.com/rubyindonesia 
-[11]: http://oreillynet.com/ruby/ 
-[12]: http://weblog.rubyonrails.org/ 
-[13]: http://www.rubyinside.com/ 
-[14]: http://www.rubyist.net/~matz/ 
-[15]: http://del.icio.us 
-[16]: http://digg.com/programming 
-[17]: http://developers.slashdot.org/ 
+[1]: http://del.icio.us/tag/ruby
+[2]: http://del.icio.us/popular/ruby
+[3]: http://technorati.com/search/ruby
+[4]: http://planet.ruby-id.web.id
+[5]: http://rubycorner.com
+[6]: http://planetruby.0x42.net/
+[7]: http://www.planetrubyonrails.com
+[8]: http://www.planetrubyonrails.org/
+[9]: http://ariekusumaatmaja.wordpress.com/
+[10]: http://twitter.com/rubyindonesia
+[11]: http://oreillynet.com/ruby/
+[12]: http://weblog.rubyonrails.org/
+[13]: http://www.rubyinside.com/
+[14]: http://www.rubyist.net/~matz/
+[15]: http://del.icio.us
+[16]: http://digg.com/programming
+[17]: http://developers.slashdot.org/

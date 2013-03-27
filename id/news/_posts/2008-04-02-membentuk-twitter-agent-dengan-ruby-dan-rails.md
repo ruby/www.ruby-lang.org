@@ -26,5 +26,5 @@ Sumber: [Ruby Inside-Building a Twitter Agent with Ruby and Rails][2]
 
 
 
-[1]: http://dominiek.com/articles/2008/2/15/how-to-build-a-twitter-agent 
-[2]: http://www.rubyinside.com/building-a-twitter-agent-with-ruby-and-rails-760.html 
+[1]: http://dominiek.com/articles/2008/2/15/how-to-build-a-twitter-agent
+[2]: http://www.rubyinside.com/building-a-twitter-agent-with-ruby-and-rails-760.html

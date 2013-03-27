@@ -56,12 +56,12 @@ RC1ではまだ対応が行われていない課題は、以下のURLです。
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45758 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.tar.bz2 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.zip 
-[5]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45759 
-[6]: http://arton.no-ip.info/data/asr/Ruby-1.9.1.msi 
-[7]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=9 
-[8]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=7 
-[9]: http://redmine.ruby-lang.org 
+[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45758
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.tar.bz2
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.tar.gz
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.zip
+[5]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45759
+[6]: http://arton.no-ip.info/data/asr/Ruby-1.9.1.msi
+[7]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=9
+[8]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=7
+[9]: http://redmine.ruby-lang.org

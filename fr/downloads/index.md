@@ -132,25 +132,25 @@ site [RubyOpenSolaris project @ Rubyforge][22].
 
 
 
-[1]: /en/about/license.txt 
+[1]: /en/about/license.txt
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyforge.org/frs/download.php/76706/rubyinstaller-1.9.3-p392.exe 
-[6]: http://rubyinstaller.org/downloads/ 
-[7]: https://rvm.io/ 
-[8]: http://trac.macosforge.org/projects/ruby/wiki 
-[9]: http://locomotive.raaum.org/ 
-[10]: http://www.macports.org/ 
-[11]: http://fink.sourceforge.net/ 
-[12]: http://danbenjamin.com/articles/2007/02/ruby-rails-mongrel-mysql-osx 
-[13]: http://danbenjamin.com/articles/2008/02/ruby-rails-leopard 
-[14]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/ 
-[15]: http://www.sunfreeware.com 
-[16]: http://www.blastwave.org 
-[17]: http://cooltools.sunsource.net/coolstack 
-[18]: http://www.opensolaris.org 
+[5]: http://rubyforge.org/frs/download.php/76706/rubyinstaller-1.9.3-p392.exe
+[6]: http://rubyinstaller.org/downloads/
+[7]: https://rvm.io/
+[8]: http://trac.macosforge.org/projects/ruby/wiki
+[9]: http://locomotive.raaum.org/
+[10]: http://www.macports.org/
+[11]: http://fink.sourceforge.net/
+[12]: http://danbenjamin.com/articles/2007/02/ruby-rails-mongrel-mysql-osx
+[13]: http://danbenjamin.com/articles/2008/02/ruby-rails-leopard
+[14]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
+[15]: http://www.sunfreeware.com
+[16]: http://www.blastwave.org
+[17]: http://cooltools.sunsource.net/coolstack
+[18]: http://www.opensolaris.org
 [19]: http://opensolaris.org/os/project/pkg/ "Image Packaging System"
-[20]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/ 
-[21]: http://opensolaris.org/os/downloads 
-[22]: http://rubyforge.org/projects/rubyopensolaris 
+[20]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
+[21]: http://opensolaris.org/os/downloads
+[22]: http://rubyforge.org/projects/rubyopensolaris

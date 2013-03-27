@@ -11,4 +11,4 @@ bd8c2e593e1fa4b01fd98eaf016329bb, and filesize is 4,312,965 bytes.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.4.tar.gz 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.4.tar.gz

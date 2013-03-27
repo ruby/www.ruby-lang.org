@@ -30,4 +30,4 @@ Visit [ConFoo.ca][1] in order to submit a proposal.
 
 
 
-[1]: http://confoo.ca/ 
+[1]: http://confoo.ca/

@@ -23,5 +23,5 @@ estarán presentes en el evento.
 
 
 
-[1]: http://site.locaweb.com.br/railssummit-en 
-[2]: http://site.locaweb.com.br/railssummit/default.asp?language=7 
+[1]: http://site.locaweb.com.br/railssummit-en
+[2]: http://site.locaweb.com.br/railssummit/default.asp?language=7

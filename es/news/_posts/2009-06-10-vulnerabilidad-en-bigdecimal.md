@@ -41,5 +41,5 @@ Por favor, actualicen a 1.8.6-p369 o ruby-1.8.7-p173.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p369.tar.gz 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p173.tar.gz 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p369.tar.gz
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p173.tar.gz

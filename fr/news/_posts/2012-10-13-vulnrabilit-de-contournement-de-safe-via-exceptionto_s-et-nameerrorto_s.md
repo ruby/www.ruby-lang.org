@@ -47,4 +47,4 @@ La vulnérabilité a été découverte par Tyler Hickes.
 
 
 
-[1]: {{ site.url }}/en/news/2011/02/18/exception-methods-can-bypass-safe/ 
+[1]: {{ site.url }}/en/news/2011/02/18/exception-methods-can-bypass-safe/

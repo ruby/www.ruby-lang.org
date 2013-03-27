@@ -18,7 +18,7 @@ Sumber: [Ruby Inside-Easily Accessible Rails Documentation on OS X][4]
 
 
 
-[1]: http://www.railsjedi.com/posts/21-Fluid-Rails-Docs-on-OSX 
-[2]: http://www.noobkit.com/ 
-[3]: http://www.railsbrain.com/ 
-[4]: http://www.rubyinside.com/easily-accessible-rails-documentation-on-os-x-833.html 
+[1]: http://www.railsjedi.com/posts/21-Fluid-Rails-Docs-on-OSX
+[2]: http://www.noobkit.com/
+[3]: http://www.railsbrain.com/
+[4]: http://www.rubyinside.com/easily-accessible-rails-documentation-on-os-x-833.html

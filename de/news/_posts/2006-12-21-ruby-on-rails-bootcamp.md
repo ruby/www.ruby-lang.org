@@ -12,4 +12,4 @@ der Big Nerd Ranch Europe. Weitere Informationen finden sich auf
 
 
 
-[1]: http://www.bignerdranch.com/news/2006-12-20.shtml 
+[1]: http://www.bignerdranch.com/news/2006-12-20.shtml

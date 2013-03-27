@@ -51,8 +51,8 @@ Ruby 1.9.2 preview1がリリースされました。
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/trunk/NEWS 
-[2]: http://svn.ruby-lang.org/repos/ruby/trunk/ChangeLog 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/trunk/NEWS
+[2]: http://svn.ruby-lang.org/repos/ruby/trunk/ChangeLog
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip

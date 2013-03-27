@@ -59,10 +59,10 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 
-[1]: http://ruby-no-kai.org/ 
-[2]: http://www.ruby.or.jp/ 
-[3]: http://www.rubybizcommons.jp/ 
-[4]: http://www.rubyusergroups.org/ 
-[5]: http://www.rubykaigi.org 
-[6]: http://www.rubycentral.org/conference/ 
+[1]: http://ruby-no-kai.org/
+[2]: http://www.ruby.or.jp/
+[3]: http://www.rubybizcommons.jp/
+[4]: http://www.rubyusergroups.org/
+[5]: http://www.rubykaigi.org
+[6]: http://www.rubycentral.org/conference/
 [7]: http://euruko.org

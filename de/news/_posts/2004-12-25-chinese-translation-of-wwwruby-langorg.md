@@ -10,4 +10,4 @@ verfügbar. Mein Dank geht an KOBAYASHI Toshihito.
 
 
 
-[1]: http://rubycn.ce-lab.net/ 
+[1]: http://rubycn.ce-lab.net/

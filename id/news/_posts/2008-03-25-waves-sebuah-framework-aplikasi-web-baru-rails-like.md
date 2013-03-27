@@ -36,7 +36,7 @@ Framework][4]
 
 
 
-[1]: http://rubywaves.com/ 
-[2]: http://s3.video.blip.tv/1550002305971/Dyoder67-WavesScreencast557.mov 
-[3]: http://rubywaves.com/tutorial 
-[4]: http://www.rubyinside.com/waves-a-new-rails-like-web-applications-framework-782.html 
+[1]: http://rubywaves.com/
+[2]: http://s3.video.blip.tv/1550002305971/Dyoder67-WavesScreencast557.mov
+[3]: http://rubywaves.com/tutorial
+[4]: http://www.rubyinside.com/waves-a-new-rails-like-web-applications-framework-782.html

@@ -78,4 +78,4 @@ se necesite invertir para obtener un resultado concreto.
 
 
 
-[1]: http://www.loudthinking.com/arc/000596.html 
+[1]: http://www.loudthinking.com/arc/000596.html

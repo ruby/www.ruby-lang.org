@@ -442,4 +442,4 @@ sezione [Documentazione](/it/documentation/).
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html 
+[1]: http://www.rubycentral.com/faq/rubyfaq-7.html

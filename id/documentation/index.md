@@ -97,24 +97,24 @@ memulai.
 
 
 
-[1]: http://tryruby.org/ 
-[2]: http://whytheluckystiff.net 
-[3]: http://pine.fm/LearnToProgram/ 
-[4]: http://rubylearning.com/ 
-[5]: http://www.techotopia.com/index.php/Ruby_Essentials 
-[6]: http://www.rubygarden.org/faq/ 
-[7]: http://faq.rubygarden.org/question/ask?controller_prefix=faq%2F 
-[8]: http://www.rubygarden.org/ruby?ThingsNewcomersShouldKnow 
-[9]: http://wiki.rubygarden.org/Ruby 
-[10]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials 
-[11]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[12]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[13]: http://qa.poignantguide.net/ 
-[14]: http://www.rubyist.net/~slagell/ruby/ 
-[15]: http://en.wikibooks.org/wiki/Ruby_programming_language 
-[16]: http://www.ruby-doc.org/core 
-[17]: http://rdoc.sourceforge.net 
-[18]: http://www.ruby-doc.org/stdlib 
-[19]: http://www.ruby-doc.org/doxygen/current/ 
-[20]: http://ruby-doc.org 
-[21]: http://www.ruby-doc.org/bookstore 
+[1]: http://tryruby.org/
+[2]: http://whytheluckystiff.net
+[3]: http://pine.fm/LearnToProgram/
+[4]: http://rubylearning.com/
+[5]: http://www.techotopia.com/index.php/Ruby_Essentials
+[6]: http://www.rubygarden.org/faq/
+[7]: http://faq.rubygarden.org/question/ask?controller_prefix=faq%2F
+[8]: http://www.rubygarden.org/ruby?ThingsNewcomersShouldKnow
+[9]: http://wiki.rubygarden.org/Ruby
+[10]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
+[11]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[12]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[13]: http://qa.poignantguide.net/
+[14]: http://www.rubyist.net/~slagell/ruby/
+[15]: http://en.wikibooks.org/wiki/Ruby_programming_language
+[16]: http://www.ruby-doc.org/core
+[17]: http://rdoc.sourceforge.net
+[18]: http://www.ruby-doc.org/stdlib
+[19]: http://www.ruby-doc.org/doxygen/current/
+[20]: http://ruby-doc.org
+[21]: http://www.ruby-doc.org/bookstore

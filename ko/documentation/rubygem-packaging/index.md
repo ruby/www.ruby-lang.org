@@ -123,4 +123,4 @@ lib이나 README, Rakefile 등을 제외하고는 관습에 얽매이지 않는 
 
 
 
-[1]: http://docs.rubygems.org/read/chapter/20#page85 
+[1]: http://docs.rubygems.org/read/chapter/20#page85

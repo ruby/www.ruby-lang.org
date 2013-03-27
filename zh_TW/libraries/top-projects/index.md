@@ -11,5 +11,5 @@ lang: zh_TW
 
 
 
-[1]: http://rubyforge.org 
-[2]: http://rubyforge.org/top/toplist.php?type=downloads 
+[1]: http://rubyforge.org
+[2]: http://rubyforge.org/top/toplist.php?type=downloads

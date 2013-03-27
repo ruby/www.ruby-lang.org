@@ -58,7 +58,7 @@ Teilnahme ist kostenlos!
 
 
 
-[1]: http://www.digitalfukuoka.jp/events/index_en.html 
-[2]: http://www.digitalfukuoka.jp/img/en/entry.doc 
-[3]: http://www.salesforce.com/dreamforce/DF12/ 
-[4]: http://www.myfukuoka.com/ruby/ 
+[1]: http://www.digitalfukuoka.jp/events/index_en.html
+[2]: http://www.digitalfukuoka.jp/img/en/entry.doc
+[3]: http://www.salesforce.com/dreamforce/DF12/
+[4]: http://www.myfukuoka.com/ruby/

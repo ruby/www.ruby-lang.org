@@ -16,5 +16,5 @@ Stay tuned!
 
 
 
-[1]: http://www.rubyworld-conf.org/en/ 
-[2]: http://www.rubyworld-conf.org/en/program/ 
+[1]: http://www.rubyworld-conf.org/en/
+[2]: http://www.rubyworld-conf.org/en/program/

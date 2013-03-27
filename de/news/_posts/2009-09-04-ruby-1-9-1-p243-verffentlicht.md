@@ -41,7 +41,7 @@ Download:
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.bz2 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.bz2
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.gz
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.zip

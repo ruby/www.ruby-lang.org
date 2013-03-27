@@ -16,6 +16,6 @@ and 14 2009.
 
 
 
-[1]: http://mtnwestrubyconf.org/2009/index 
-[2]: http://mtnwestrubyconf.org/2009/schedule 
-[3]: http://twitter.com/mwrc 
+[1]: http://mtnwestrubyconf.org/2009/index
+[2]: http://mtnwestrubyconf.org/2009/schedule
+[3]: http://twitter.com/mwrc

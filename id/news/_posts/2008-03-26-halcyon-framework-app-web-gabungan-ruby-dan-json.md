@@ -22,8 +22,8 @@ Framework][5]
 
 
 
-[1]: http://halcyon.rubyforge.org/ 
-[2]: http://sinatra.rubyforge.org/ 
-[3]: http://json.org/ 
-[4]: http://halcyon.rubyforge.org/doc/ 
-[5]: http://www.rubyinside.com/halcyon-a-ruby-and-json-powered-web-app-framework-684.html 
+[1]: http://halcyon.rubyforge.org/
+[2]: http://sinatra.rubyforge.org/
+[3]: http://json.org/
+[4]: http://halcyon.rubyforge.org/doc/
+[5]: http://www.rubyinside.com/halcyon-a-ruby-and-json-powered-web-app-framework-684.html

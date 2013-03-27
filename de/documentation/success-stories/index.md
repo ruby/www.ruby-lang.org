@@ -60,13 +60,13 @@ Projekten, die Ruby nutzen.
 
 
 
-[1]: http://www.motorola.com 
-[2]: http://www.torontorehab.on.ca/ 
-[3]: http://www.morpha.de/php_e/ 
-[4]: http://ods.org/ 
-[5]: http://www.lucent.com/ 
-[6]: http://www.level3.com/ 
-[7]: http://www.basecamphq.com 
-[8]: http://www.37signals.com 
-[9]: http://www.43things.com 
-[10]: http://www.alistapart.com 
+[1]: http://www.motorola.com
+[2]: http://www.torontorehab.on.ca/
+[3]: http://www.morpha.de/php_e/
+[4]: http://ods.org/
+[5]: http://www.lucent.com/
+[6]: http://www.level3.com/
+[7]: http://www.basecamphq.com
+[8]: http://www.37signals.com
+[9]: http://www.43things.com
+[10]: http://www.alistapart.com

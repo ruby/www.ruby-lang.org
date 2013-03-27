@@ -72,8 +72,8 @@ Informasi Umum Tentang Ruby
 
 
 
-[1]: http://rubymentor.rubyforge.org/ 
-[2]: http://tech.groups.yahoo.com/group/id-ruby/ 
-[3]: http://www.rubycentral.org/ 
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/ 
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/ 
+[1]: http://rubymentor.rubyforge.org/
+[2]: http://tech.groups.yahoo.com/group/id-ruby/
+[3]: http://www.rubycentral.org/
+[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

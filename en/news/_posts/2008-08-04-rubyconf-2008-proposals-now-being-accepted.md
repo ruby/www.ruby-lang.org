@@ -13,5 +13,5 @@ must be received by August 21.
 
 
 
-[1]: http://www.rubyconf.org 
-[2]: http://www.rubyconf.org/proposals/new 
+[1]: http://www.rubyconf.org
+[2]: http://www.rubyconf.org/proposals/new

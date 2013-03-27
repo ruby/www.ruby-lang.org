@@ -48,9 +48,9 @@ auch [manuell Anmelden](manual-instructions/).
 
 
 
-[1]: http://ruby-forum.org 
-[2]: http://www.rubyweeklynews.org/ 
-[3]: http://rubyhacker.com/clrFAQ.html 
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml 
-[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml 
-[6]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation 
+[1]: http://ruby-forum.org
+[2]: http://www.rubyweeklynews.org/
+[3]: http://rubyhacker.com/clrFAQ.html
+[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
+[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
+[6]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation

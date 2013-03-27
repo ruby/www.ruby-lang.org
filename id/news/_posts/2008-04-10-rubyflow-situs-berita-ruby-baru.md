@@ -45,6 +45,6 @@ Sumber: [RubyFlow: A New Ruby News Site][3]
 
 
 
-[1]: http://www.rubyflow.com 
-[2]: http://www.rubyinside.com 
-[3]: http://www.rubyinside.com/rubyflow-a-new-ruby-news-site-851.html 
+[1]: http://www.rubyflow.com
+[2]: http://www.rubyinside.com
+[3]: http://www.rubyinside.com/rubyflow-a-new-ruby-news-site-851.html

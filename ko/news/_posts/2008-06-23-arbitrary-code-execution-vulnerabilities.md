@@ -59,13 +59,13 @@ lang: ko
 
 
 
-[1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2662 
-[2]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2663 
-[3]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2725 
-[4]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2726 
-[5]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2664 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz 
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz 
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz 
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz 
-[10]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1891 
+[1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2662
+[2]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2663
+[3]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2725
+[4]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2726
+[5]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2664
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz
+[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz
+[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz
+[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz
+[10]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1891

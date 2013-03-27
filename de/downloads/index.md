@@ -211,34 +211,34 @@ Programmiersprache Ruby“.
 
 
 
-[1]: /de/about/license.txt 
+[1]: /de/about/license.txt
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyinstaller.org 
-[6]: http://rubyforge.org/frs/download.php/76804/rubyinstaller-2.0.0-p0.exe 
-[7]: http://rubyforge.org/frs/download.php/76806/rubyinstaller-2.0.0-p0-x64.exe 
-[8]: http://railsinstaller.org 
-[9]: http://rubyinstaller.org/add-ons/pik/ 
-[10]: https://github.com/vertiginous/pik 
-[11]: http://git-scm.com 
-[12]: https://rvm.io/rvm/install/ 
-[13]: http://trac.macosforge.org/projects/ruby/wiki 
-[14]: http://mxcl.github.com/homebrew 
-[15]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx 
-[16]: http://hivelogic.com/articles/ruby-rails-leopard 
-[17]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/ 
-[18]: http://intridea.com/2011/7/26/setting-up-ruby-dev-on-lion?blog=company 
-[19]: http://www.sunfreeware.com 
-[20]: http://www.blastwave.org 
-[21]: http://cooltools.sunsource.net/coolstack 
-[22]: http://openindiana.org 
-[23]: http://opensolaris.org/os/project/pkg 
-[24]: http://jruby.org 
-[25]: http://rubini.us 
-[26]: http://www.macruby.org 
-[27]: https://github.com/parrot/cardinal 
-[28]: http://parrot.org 
-[29]: http://www.ironruby.net 
-[30]: http://ruby.gemstone.com 
-[31]: http://rubyspec.org 
+[5]: http://rubyinstaller.org
+[6]: http://rubyforge.org/frs/download.php/76804/rubyinstaller-2.0.0-p0.exe
+[7]: http://rubyforge.org/frs/download.php/76806/rubyinstaller-2.0.0-p0-x64.exe
+[8]: http://railsinstaller.org
+[9]: http://rubyinstaller.org/add-ons/pik/
+[10]: https://github.com/vertiginous/pik
+[11]: http://git-scm.com
+[12]: https://rvm.io/rvm/install/
+[13]: http://trac.macosforge.org/projects/ruby/wiki
+[14]: http://mxcl.github.com/homebrew
+[15]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
+[16]: http://hivelogic.com/articles/ruby-rails-leopard
+[17]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
+[18]: http://intridea.com/2011/7/26/setting-up-ruby-dev-on-lion?blog=company
+[19]: http://www.sunfreeware.com
+[20]: http://www.blastwave.org
+[21]: http://cooltools.sunsource.net/coolstack
+[22]: http://openindiana.org
+[23]: http://opensolaris.org/os/project/pkg
+[24]: http://jruby.org
+[25]: http://rubini.us
+[26]: http://www.macruby.org
+[27]: https://github.com/parrot/cardinal
+[28]: http://parrot.org
+[29]: http://www.ironruby.net
+[30]: http://ruby.gemstone.com
+[31]: http://rubyspec.org

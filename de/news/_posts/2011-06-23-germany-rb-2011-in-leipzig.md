@@ -70,9 +70,9 @@ deutschsprachigen Teilnehmern bestehen, werden wir improvisieren.
 
 
 
-[1]: http://sublab.org/ 
-[2]: http://wiki.ruby-portal.de/Germany.rb_2011 
-[3]: http://www.ruby-mine.de/2010/9/25/germany-rb-aftermath 
-[4]: http://forum.ruby-portal.de/viewtopic.php?f=7&amp;t=11948 
-[5]: http://twitter.com/search?q=%23germanyrb 
-[6]: http://twitter.com/germanyrb 
+[1]: http://sublab.org/
+[2]: http://wiki.ruby-portal.de/Germany.rb_2011
+[3]: http://www.ruby-mine.de/2010/9/25/germany-rb-aftermath
+[4]: http://forum.ruby-portal.de/viewtopic.php?f=7&amp;t=11948
+[5]: http://twitter.com/search?q=%23germanyrb
+[6]: http://twitter.com/germanyrb

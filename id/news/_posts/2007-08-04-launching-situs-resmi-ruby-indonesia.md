@@ -20,5 +20,5 @@ people.
 
 
 
-[1]: http://www.flickr.com/photos/ariekusumaatmaja/996092833/ 
-[2]: http://ariekusumaatmaja.wordpress.com/2007/08/04/wwwruby-langorgid-rilis/ 
+[1]: http://www.flickr.com/photos/ariekusumaatmaja/996092833/
+[2]: http://ariekusumaatmaja.wordpress.com/2007/08/04/wwwruby-langorgid-rilis/

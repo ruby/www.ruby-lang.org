@@ -29,9 +29,9 @@ Sumber: [Ruby Inside – ActiveMerchant E-Book by Cody Fauser][6]
 
 
 
-[1]: https://peepcode.com/products/activemerchant-pdf 
-[2]: http://peepcode.com/ 
-[3]: http://www.activemerchant.org/ 
-[4]: http://www.rubyinside.com/active-merchant-a-payment-processing-library-for-ruby-rails-144.html 
-[5]: http://www.shopify.com/ 
-[6]: http://www.rubyinside.com/activemerchant-book-by-cody-fauser-714.html 
+[1]: https://peepcode.com/products/activemerchant-pdf
+[2]: http://peepcode.com/
+[3]: http://www.activemerchant.org/
+[4]: http://www.rubyinside.com/active-merchant-a-payment-processing-library-for-ruby-rails-144.html
+[5]: http://www.shopify.com/
+[6]: http://www.rubyinside.com/activemerchant-book-by-cody-fauser-714.html

@@ -105,22 +105,22 @@ détail [comment organiser un apéro Ruby][19].
 
 
 
-[1]: http://www.rubyfrance.org/ 
-[2]: http://ruby.meetup.com 
-[3]: http://www.meetup.com/parisrb/ 
-[4]: http://groups.google.com/group/parisrb 
-[5]: http://lyonrb.fr/ 
-[6]: http://rulu.eu/ 
-[7]: http://toulouserb.org/ 
-[8]: https://www.facebook.com/AperoRubyStrasbourg 
-[9]: https://twitter.com/#!/toutielicious 
-[10]: https://twitter.com/#!/yannski 
-[11]: http://www.rennesonrails.com/ 
-[12]: http://groups.google.com/group/rubyfr-public/ 
-[13]: http://groups.google.com/group/ruby-nord 
-[14]: https://twitter.com/#!/PastisRB 
-[15]: http://rivierarb.fr/ 
-[16]: http://www.facebook.com/AperoRubyMontpellier 
-[17]: http://rubybdx.org/ 
-[18]: http://www.meetup.com/Orleans-rb/ 
-[19]: http://www.camilleroux.com/2011/09/15/comment-organiser-un-apero-ruby/ 
+[1]: http://www.rubyfrance.org/
+[2]: http://ruby.meetup.com
+[3]: http://www.meetup.com/parisrb/
+[4]: http://groups.google.com/group/parisrb
+[5]: http://lyonrb.fr/
+[6]: http://rulu.eu/
+[7]: http://toulouserb.org/
+[8]: https://www.facebook.com/AperoRubyStrasbourg
+[9]: https://twitter.com/#!/toutielicious
+[10]: https://twitter.com/#!/yannski
+[11]: http://www.rennesonrails.com/
+[12]: http://groups.google.com/group/rubyfr-public/
+[13]: http://groups.google.com/group/ruby-nord
+[14]: https://twitter.com/#!/PastisRB
+[15]: http://rivierarb.fr/
+[16]: http://www.facebook.com/AperoRubyMontpellier
+[17]: http://rubybdx.org/
+[18]: http://www.meetup.com/Orleans-rb/
+[19]: http://www.camilleroux.com/2011/09/15/comment-organiser-un-apero-ruby/

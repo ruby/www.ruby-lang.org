@@ -49,10 +49,10 @@ Non vediamo l\'ora di ricevere la tua iscrizione!
 
 
 
-[1]: http://www.salesforce.com/jp/ 
-[2]: http://www.digitalfukuoka.jp/events/index_en.html 
-[3]: http://www.myfukuoka.com/news/2012-fukuoka-ruby-award-winners.html 
-[4]: http://www.myfukuoka.com/news/2011-fukuoka-ruby-award-winners.html 
-[5]: http://www.myfukuoka.com/news/2010-fukuoka-ruby-award-winners.html 
-[6]: http://www.myfukuoka.com/events/2009-fukuoka-ruby-award-winners.html 
-[7]: http://www.myfukuoka.com/events/2012-fukuoka-ruby-forum.html 
+[1]: http://www.salesforce.com/jp/
+[2]: http://www.digitalfukuoka.jp/events/index_en.html
+[3]: http://www.myfukuoka.com/news/2012-fukuoka-ruby-award-winners.html
+[4]: http://www.myfukuoka.com/news/2011-fukuoka-ruby-award-winners.html
+[5]: http://www.myfukuoka.com/news/2010-fukuoka-ruby-award-winners.html
+[6]: http://www.myfukuoka.com/events/2009-fukuoka-ruby-award-winners.html
+[7]: http://www.myfukuoka.com/events/2012-fukuoka-ruby-forum.html

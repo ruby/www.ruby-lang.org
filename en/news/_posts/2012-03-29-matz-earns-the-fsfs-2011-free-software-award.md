@@ -18,4 +18,4 @@ free software for over 20 years…
 
 
 
-[1]: https://www.fsf.org/news/2011-free-software-awards-announced 
+[1]: https://www.fsf.org/news/2011-free-software-awards-announced

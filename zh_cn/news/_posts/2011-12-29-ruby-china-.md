@@ -26,5 +26,5 @@ Github 项目地址：
 
 
 
-[1]: http://www.ruby-china.org 
-[2]: http://github.com/huacnlee/ruby-china 
+[1]: http://www.ruby-china.org
+[2]: http://github.com/huacnlee/ruby-china

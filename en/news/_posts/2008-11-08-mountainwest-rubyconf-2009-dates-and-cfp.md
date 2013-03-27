@@ -21,4 +21,4 @@ available.
 
 
 
-[1]: http://mtnwestrubyconf.org 
+[1]: http://mtnwestrubyconf.org

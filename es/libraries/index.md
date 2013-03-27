@@ -98,16 +98,16 @@ Para instalar RubyGems, sigue las instrucciones que se detallan en
 
 
 
-[1]: https://rubygems.org/ 
-[2]: https://github.com/ 
-[3]: http://rubyforge.org/ 
-[4]: http://rubyforge.org/softwaremap/trove_list.php 
-[5]: http://rubyforge.org/register/ 
-[6]: http://raa.ruby-lang.org/ 
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database 
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net 
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML 
-[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML 
-[11]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics 
-[12]: http://docs.rubygems.org/ 
-[13]: https://rubygems.org/pages/download 
+[1]: https://rubygems.org/
+[2]: https://github.com/
+[3]: http://rubyforge.org/
+[4]: http://rubyforge.org/softwaremap/trove_list.php
+[5]: http://rubyforge.org/register/
+[6]: http://raa.ruby-lang.org/
+[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
+[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
+[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
+[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
+[11]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
+[12]: http://docs.rubygems.org/
+[13]: https://rubygems.org/pages/download

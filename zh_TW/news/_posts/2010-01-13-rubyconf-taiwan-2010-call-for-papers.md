@@ -27,4 +27,4 @@ and author intro, by sending email to:
 
 
 
-[1]: http://rubyconf.tw/2010/ 
+[1]: http://rubyconf.tw/2010/

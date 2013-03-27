@@ -12,4 +12,4 @@ Republic, on March 29th to 30th.][1]
 
 
 
-[1]: http://www.euruko2008.org/ 
+[1]: http://www.euruko2008.org/

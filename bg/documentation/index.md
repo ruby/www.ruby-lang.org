@@ -77,21 +77,21 @@ lang: bg
 
 
 
-[1]: http://pine.fm/LearnToProgram/ 
-[2]: http://rubylearning.com/ 
-[3]: http://www.techotopia.com/index.php/Ruby_Essentials 
-[4]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials 
-[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[6]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[7]: http://www.rubyist.net/~slagell/ruby/ 
-[8]: http://en.wikibooks.org/wiki/Ruby_programming_language 
-[9]: http://mislav.uniqpath.com/poignant-guide/ 
-[10]: http://www.ruby-doc.org/core 
-[11]: http://rdoc.sourceforge.net 
-[12]: http://www.ruby-doc.org/stdlib 
-[13]: http://www.ruby-doc.org/doxygen/current/ 
-[14]: http://rdoc.info/ 
-[15]: http://railsapi.com/ 
-[16]: http://www.rubydox.net/ 
-[17]: http://ruby-doc.org 
-[18]: http://www.ruby-doc.org/bookstore 
+[1]: http://pine.fm/LearnToProgram/
+[2]: http://rubylearning.com/
+[3]: http://www.techotopia.com/index.php/Ruby_Essentials
+[4]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
+[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[6]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[7]: http://www.rubyist.net/~slagell/ruby/
+[8]: http://en.wikibooks.org/wiki/Ruby_programming_language
+[9]: http://mislav.uniqpath.com/poignant-guide/
+[10]: http://www.ruby-doc.org/core
+[11]: http://rdoc.sourceforge.net
+[12]: http://www.ruby-doc.org/stdlib
+[13]: http://www.ruby-doc.org/doxygen/current/
+[14]: http://rdoc.info/
+[15]: http://railsapi.com/
+[16]: http://www.rubydox.net/
+[17]: http://ruby-doc.org
+[18]: http://www.ruby-doc.org/bookstore

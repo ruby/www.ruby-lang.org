@@ -12,4 +12,4 @@ Segera submit logo Anda!
 
 
 
-[1]: http://www.ruby-assn.org/logo-contest.html.en 
+[1]: http://www.ruby-assn.org/logo-contest.html.en

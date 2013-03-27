@@ -9,4 +9,4 @@ Creative Commons 版权的 Ruby 官方标志已经可以[下载][1]了。提供�
 
 
 
-[1]: http://www.ruby-assn.org/index.html.en 
+[1]: http://www.ruby-assn.org/index.html.en

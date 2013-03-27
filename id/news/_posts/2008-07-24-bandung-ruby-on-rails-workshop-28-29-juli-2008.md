@@ -54,17 +54,17 @@ Publikasi:
 
 
 
-[1]: http://www.inti.co.id 
-[2]: http://www.opensuse.or.id/ 
-[3]: http://groups.google.com/group/klub-linux-bandung 
-[4]: http://groups.google.com/group/id-ubuntu 
-[5]: http://igoscenter.org/ 
-[6]: {{ site.url }}/id 
-[7]: http://www.linkedin.com/in/ariekeren 
-[8]: http://flickr.com/photos/ariekusumaatmaja/2768754697/ 
-[9]: http://chickenstrip.wordpress.com/2008/07/24/bandung-ruby-on-rails-workshop/ 
-[10]: http://ariekusumaatmaja.wordpress.com/2008/07/25/bandung-ruby-on-rails-workshop-28-29-juli-2008-review-and-behind-the-screen/ 
-[11]: http://vavai.com/blog/index.php?/archives/789-Workshop-Ruby-on-Rails-di-Bandung.html 
-[12]: http://adityakircon.blogsome.com/2008/07/25/pelatihan-ruby-on-rails-di-bandung/ 
-[13]: http://planet-bekasi.web.id/index.php?/archives/1587-Workshop-Ruby-on-Rails-di-Bandung.html 
-[14]: http://www.kabarindonesia.com/berita.php?pil=11&amp;dn=20080729025651 
+[1]: http://www.inti.co.id
+[2]: http://www.opensuse.or.id/
+[3]: http://groups.google.com/group/klub-linux-bandung
+[4]: http://groups.google.com/group/id-ubuntu
+[5]: http://igoscenter.org/
+[6]: {{ site.url }}/id
+[7]: http://www.linkedin.com/in/ariekeren
+[8]: http://flickr.com/photos/ariekusumaatmaja/2768754697/
+[9]: http://chickenstrip.wordpress.com/2008/07/24/bandung-ruby-on-rails-workshop/
+[10]: http://ariekusumaatmaja.wordpress.com/2008/07/25/bandung-ruby-on-rails-workshop-28-29-juli-2008-review-and-behind-the-screen/
+[11]: http://vavai.com/blog/index.php?/archives/789-Workshop-Ruby-on-Rails-di-Bandung.html
+[12]: http://adityakircon.blogsome.com/2008/07/25/pelatihan-ruby-on-rails-di-bandung/
+[13]: http://planet-bekasi.web.id/index.php?/archives/1587-Workshop-Ruby-on-Rails-di-Bandung.html
+[14]: http://www.kabarindonesia.com/berita.php?pil=11&amp;dn=20080729025651

@@ -17,7 +17,7 @@ RubyKaigi)][1]が下記の場所と日程で開催されます。
 
 
 
-[1]: http://regional.rubykaigi.org/ 
-[2]: http://regional.rubykaigi.org/nagoya01 
-[3]: http://regional.rubykaigi.org/tochigi02 
-[4]: http://rubykaigi.tdiary.net/ 
+[1]: http://regional.rubykaigi.org/
+[2]: http://regional.rubykaigi.org/nagoya01
+[3]: http://regional.rubykaigi.org/tochigi02
+[4]: http://rubykaigi.tdiary.net/

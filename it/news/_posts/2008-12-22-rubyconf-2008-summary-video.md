@@ -12,5 +12,5 @@ quello che ti sei perso alla conferenza.
 
 
 
-[1]: http://rubyconf2008.confreaks.com/ 
-[2]: http://www.railsenvy.com/2008/11/26/rubyconf-videos 
+[1]: http://rubyconf2008.confreaks.com/
+[2]: http://www.railsenvy.com/2008/11/26/rubyconf-videos

@@ -481,5 +481,5 @@ Ketika Anda siap dengan pengetahuan Ruby yang lebih lagi, lihat bagian
 
 
 
-[1]: http://www.jvoegele.com/software/langcomp.html 
-[2]: http://www.rubycentral.com/faq/rubyfaq-7.html 
+[1]: http://www.jvoegele.com/software/langcomp.html
+[2]: http://www.rubycentral.com/faq/rubyfaq-7.html

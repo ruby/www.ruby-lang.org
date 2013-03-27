@@ -50,6 +50,6 @@ Więcej na stronie [scotlandonrails.com][3]{: target="_blank"} .
 
 
 
-[1]: http://scotlandonrails.com/registration 
+[1]: http://scotlandonrails.com/registration
 [2]: http://scotlandonrails.com/schedule "wykładowcy na Szkodacja on Rails"
 [3]: http://scotlandonrails.com/ "szkocja on rails"

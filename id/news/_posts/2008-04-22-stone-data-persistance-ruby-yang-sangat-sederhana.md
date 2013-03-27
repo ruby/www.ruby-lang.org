@@ -27,5 +27,5 @@ Sumber: [Ruby Inside-Stone: Dead-Simple Ruby Data Persistence][2]
 
 
 
-[1]: http://stone.rubyforge.org/ 
-[2]: http://www.rubyinside.com/stone-dead-simple-ruby-data-persistence-866.html 
+[1]: http://stone.rubyforge.org/
+[2]: http://www.rubyinside.com/stone-dead-simple-ruby-data-persistence-866.html

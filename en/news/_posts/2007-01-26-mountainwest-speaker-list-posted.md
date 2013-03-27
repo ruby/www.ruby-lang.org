@@ -12,5 +12,5 @@ There’s also a nice [social site][2] for the conference as well.
 
 
 
-[1]: http://mtnwestruby.org/speakers 
-[2]: http://mtnwestruby.conferencemeetup.com/people 
+[1]: http://mtnwestruby.org/speakers
+[2]: http://mtnwestruby.conferencemeetup.com/people

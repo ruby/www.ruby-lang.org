@@ -107,4 +107,4 @@ Ruby 语言后，希望您愿意进一步接触它。
 
 
 
-[1]: http://www.ruby-doc.org/bookstore 
+[1]: http://www.ruby-doc.org/bookstore

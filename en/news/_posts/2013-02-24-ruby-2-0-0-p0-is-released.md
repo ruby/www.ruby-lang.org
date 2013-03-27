@@ -174,16 +174,16 @@ Thank you all!
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip 
-[4]: http://blog.marc-andre.ca/2013/02/23/ruby-2-by-example 
-[5]: https://speakerdeck.com/shyouhei/whats-new-in-ruby-2-dot-0 
-[6]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html 
-[7]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy 
-[8]: http://rubysource.com/a-look-at-ruby-2-0/ 
-[9]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails 
-[10]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/ 
-[11]: http://www.infoq.com/news/2012/11/ruby-20-preview1 
-[12]: http://jp.rubyist.net/magazine/?0041-200Special 
-[13]: http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks 
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip
+[4]: http://blog.marc-andre.ca/2013/02/23/ruby-2-by-example
+[5]: https://speakerdeck.com/shyouhei/whats-new-in-ruby-2-dot-0
+[6]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html
+[7]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy
+[8]: http://rubysource.com/a-look-at-ruby-2-0/
+[9]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails
+[10]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
+[11]: http://www.infoq.com/news/2012/11/ruby-20-preview1
+[12]: http://jp.rubyist.net/magazine/?0041-200Special
+[13]: http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks

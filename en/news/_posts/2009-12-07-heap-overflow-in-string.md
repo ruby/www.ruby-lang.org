@@ -35,5 +35,5 @@ Ruby Security team.
 
 
 
-[1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4124 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2 
+[1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4124
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2

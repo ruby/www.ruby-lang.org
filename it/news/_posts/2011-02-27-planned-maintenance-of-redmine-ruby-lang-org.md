@@ -14,4 +14,4 @@ manutenzione finisca.
 
 
 
-[1]: http://redmine.ruby-lang.org 
+[1]: http://redmine.ruby-lang.org

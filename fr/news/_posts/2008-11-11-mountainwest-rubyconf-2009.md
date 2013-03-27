@@ -19,6 +19,6 @@ Pour tous les détails supplémentaires, voyez [mtnwestrubyconf.org][1].
 
 
 
-[1]: http://mtnwestrubyconf.org 
-[2]: http://fr.wikipedia.org/wiki/Salt_Lake_City 
-[3]: http://fr.wikipedia.org/wiki/Mountain_Standard_Time 
+[1]: http://mtnwestrubyconf.org
+[2]: http://fr.wikipedia.org/wiki/Salt_Lake_City
+[3]: http://fr.wikipedia.org/wiki/Mountain_Standard_Time

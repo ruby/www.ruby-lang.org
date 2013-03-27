@@ -43,6 +43,6 @@ página en [Github.][3]
 
 
 
-[1]: http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579 
-[2]: https://github.com/mruby/mruby/zipball/master 
-[3]: https://github.com/mruby/mruby 
+[1]: http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579
+[2]: https://github.com/mruby/mruby/zipball/master
+[3]: https://github.com/mruby/mruby

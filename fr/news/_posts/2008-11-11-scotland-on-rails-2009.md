@@ -25,5 +25,5 @@ volcan, ruby… whisky… !
 
 
 
-[1]: http://scotlandonrails.com 
-[2]: http://fr.wikipedia.org/wiki/%C3%89dimbourg 
+[1]: http://scotlandonrails.com
+[2]: http://fr.wikipedia.org/wiki/%C3%89dimbourg

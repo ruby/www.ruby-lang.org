@@ -109,25 +109,25 @@ iniziare.
 
 
 
-[1]: http://tryruby.org/ 
-[2]: http://rubykoans.com/ 
-[3]: http://hackety-hack.com/ 
-[4]: http://mislav.uniqpath.com/poignant-guide/ 
-[5]: http://corsorubyonrails.com/imparare-a-programmare/ 
-[6]: http://pine.fm/LearnToProgram/ 
-[7]: http://rubylearning.com/ 
-[8]: http://www.techotopia.com/index.php/Ruby_Essentials 
-[9]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials 
-[10]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[11]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[12]: http://www.rubyist.net/~slagell/ruby/ 
-[13]: http://en.wikibooks.org/wiki/Ruby_programming_language 
-[14]: http://www.ruby-doc.org/core 
-[15]: http://rdoc.sourceforge.net 
-[16]: http://www.ruby-doc.org/stdlib 
-[17]: http://www.ruby-doc.org/doxygen/current/ 
-[18]: http://www.rubydoc.info/ 
-[19]: http://railsapi.com/ 
-[20]: http://www.rubydox.net/ 
-[21]: http://ruby-doc.org 
-[22]: http://www.ruby-doc.org/bookstore 
+[1]: http://tryruby.org/
+[2]: http://rubykoans.com/
+[3]: http://hackety-hack.com/
+[4]: http://mislav.uniqpath.com/poignant-guide/
+[5]: http://corsorubyonrails.com/imparare-a-programmare/
+[6]: http://pine.fm/LearnToProgram/
+[7]: http://rubylearning.com/
+[8]: http://www.techotopia.com/index.php/Ruby_Essentials
+[9]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
+[10]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[11]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[12]: http://www.rubyist.net/~slagell/ruby/
+[13]: http://en.wikibooks.org/wiki/Ruby_programming_language
+[14]: http://www.ruby-doc.org/core
+[15]: http://rdoc.sourceforge.net
+[16]: http://www.ruby-doc.org/stdlib
+[17]: http://www.ruby-doc.org/doxygen/current/
+[18]: http://www.rubydoc.info/
+[19]: http://railsapi.com/
+[20]: http://www.rubydox.net/
+[21]: http://ruby-doc.org
+[22]: http://www.ruby-doc.org/bookstore

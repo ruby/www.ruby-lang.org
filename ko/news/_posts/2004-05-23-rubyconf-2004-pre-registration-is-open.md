@@ -14,4 +14,4 @@ learn more about Ruby and meet other Ruby programmers and enthusiasts.
 
 
 
-[1]: http://www.rubycentral.org/conference 
+[1]: http://www.rubycentral.org/conference

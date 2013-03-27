@@ -66,6 +66,6 @@ Development version (1.9 series)
 
 
 
-[1]: http://www.isecpartners.com/advisories/2007-006-rubyssl.txt 
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz 
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz 
+[1]: http://www.isecpartners.com/advisories/2007-006-rubyssl.txt
+[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz
+[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz

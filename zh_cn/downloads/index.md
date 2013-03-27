@@ -74,18 +74,18 @@ LightTPD, and MySQL on Tiger*][15] 将快速的教您启动和运行。
 
 
 
-[1]: /en/about/license.txt 
+[1]: /en/about/license.txt
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}
-[5]: http://rubyinstaller.org/ 
-[6]: http://rubyforge.org/frs/download.php/29263/ruby186-26.exe 
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.6-p111-i386-mswin32.zip 
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/unstable/ruby-1.9.0-0-i386-mswin32.zip 
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p0-i386-mswin32.zip 
-[10]: http://trac.macosforge.org/projects/ruby/wiki 
-[11]: http://rubyosx.rubyforge.org/ 
-[12]: http://locomotive.raaum.org/ 
-[13]: http://www.macports.org/ 
-[14]: http://fink.sourceforge.net/ 
-[15]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
+[5]: http://rubyinstaller.org/
+[6]: http://rubyforge.org/frs/download.php/29263/ruby186-26.exe
+[7]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.6-p111-i386-mswin32.zip
+[8]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/unstable/ruby-1.9.0-0-i386-mswin32.zip
+[9]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p0-i386-mswin32.zip
+[10]: http://trac.macosforge.org/projects/ruby/wiki
+[11]: http://rubyosx.rubyforge.org/
+[12]: http://locomotive.raaum.org/
+[13]: http://www.macports.org/
+[14]: http://fink.sourceforge.net/
+[15]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger

@@ -147,4 +147,4 @@ Atau, jika Anda benar-benar ingin buku, silakan ke [daftar buku][1]
 
 
 
-[1]: http://www.ruby-doc.org/bookstore 
+[1]: http://www.ruby-doc.org/bookstore

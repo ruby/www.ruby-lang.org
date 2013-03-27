@@ -14,5 +14,5 @@ lang: ja
 
 
 
-[1]: http://corporate.nikkeibp.co.jp/information/newsrelease/newsrelease20070316.html 
-[2]: http://innovation.nikkeibp.co.jp/nbpta/index.html 
+[1]: http://corporate.nikkeibp.co.jp/information/newsrelease/newsrelease20070316.html
+[2]: http://innovation.nikkeibp.co.jp/nbpta/index.html

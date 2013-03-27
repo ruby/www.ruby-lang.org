@@ -21,6 +21,6 @@ SketchUp 的菜单中的宏，例如自动化组件生成器和其他工具。�
 
 
 
-[1]: http://code.google.com/intl/zh-CN/apis/sketchup/docs/gsrubyapi_examples.html 
-[2]: http://sketchup.google.com 
-[3]: http://www.sketchupbar.com 
+[1]: http://code.google.com/intl/zh-CN/apis/sketchup/docs/gsrubyapi_examples.html
+[2]: http://sketchup.google.com
+[3]: http://www.sketchupbar.com

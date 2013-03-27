@@ -97,28 +97,28 @@ AIX용 바이너리는 Perry Smith씨에 의해 제공되고 있으며, [AIX Con
 
 
 
-[1]: /en/about/license.txt 
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2 
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz 
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip 
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.bz2 
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz 
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.zip 
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz 
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz 
-[10]: /en/community/ruby-core/ 
-[11]: http://rubyforge.org/frs/download.php/47082/ruby186-27_rc2.exe 
-[12]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-i386-mswin32.zip 
-[13]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p129-i386-mswin32.zip 
-[14]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html 
-[15]: http://locomotive.raaum.org/ 
-[16]: http://rubyosx.rubyforge.org/ 
-[17]: http://darwinports.opendarwin.org/ 
-[18]: http://fink.sourceforge.net/ 
-[19]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger 
-[20]: http://www.sunfreeware.com/ 
+[1]: /en/about/license.txt
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.bz2
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz
+[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.zip
+[8]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
+[9]: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
+[10]: /en/community/ruby-core/
+[11]: http://rubyforge.org/frs/download.php/47082/ruby186-27_rc2.exe
+[12]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-i386-mswin32.zip
+[13]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.9.1-p129-i386-mswin32.zip
+[14]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html
+[15]: http://locomotive.raaum.org/
+[16]: http://rubyosx.rubyforge.org/
+[17]: http://darwinports.opendarwin.org/
+[18]: http://fink.sourceforge.net/
+[19]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger
+[20]: http://www.sunfreeware.com/
 [21]: http://www.blastwave.org/jir/blastwave.fam "영문"
-[22]: http://pkg.opensolaris.org/release/en/index.shtml 
-[23]: http://rubyforge.org/projects/rubyopensolaris 
-[24]: http://aix-consulting.net/downloads/14 
-[25]: http://aix-consulting.net/downloads/14/download 
+[22]: http://pkg.opensolaris.org/release/en/index.shtml
+[23]: http://rubyforge.org/projects/rubyopensolaris
+[24]: http://aix-consulting.net/downloads/14
+[25]: http://aix-consulting.net/downloads/14/download

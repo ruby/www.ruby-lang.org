@@ -59,9 +59,9 @@ se trovi qualche problema.
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS 
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog 
-[3]: http://redmine.ruby-lang.org/issues/show/3462 
-[4]: http://redmine.ruby-lang.org/projects/show/ruby-19/ 
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2 
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip 
+[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS
+[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog
+[3]: http://redmine.ruby-lang.org/issues/show/3462
+[4]: http://redmine.ruby-lang.org/projects/show/ruby-19/
+[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
+[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip

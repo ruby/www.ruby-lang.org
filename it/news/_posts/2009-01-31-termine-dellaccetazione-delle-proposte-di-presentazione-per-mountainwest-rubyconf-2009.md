@@ -17,4 +17,4 @@ Vedi [mtnwestrubyconf.org/][1] per maggiori dettagli.
 
 
 
-[1]: http://mtnwestrubyconf.org 
+[1]: http://mtnwestrubyconf.org

@@ -37,7 +37,7 @@ lang: zh_TW
 
 
 
-[1]: http://ruby.tw 
-[2]: http://ruby.tw/about 
-[3]: http://railsfun.tw/index.php 
-[4]: http://rubyconf.tw 
+[1]: http://ruby.tw
+[2]: http://ruby.tw/about
+[3]: http://railsfun.tw/index.php
+[4]: http://rubyconf.tw

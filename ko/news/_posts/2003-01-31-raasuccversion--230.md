@@ -14,6 +14,6 @@ lang: ko
 
 
 
-[1]: http://raa.ruby-lang.org/ 
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/63170 
-[3]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/62840 
+[1]: http://raa.ruby-lang.org/
+[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/63170
+[3]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/62840

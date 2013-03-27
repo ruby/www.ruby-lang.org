@@ -144,17 +144,17 @@ following guidelines should be honored when checking into Subversion:
 
 
 
-[1]: http://subversion.tigris.org/ 
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/ 
-[3]: http://subversion.tigris.org/faq.html 
-[4]: http://svnbook.org 
-[5]: http://www.pragmaticprogrammer.com/titles/svn/ 
-[6]: http://git-scm.com/ 
-[7]: http://github.com/ruby/ruby 
-[8]: http://wiki.github.com/shyouhei/ruby/committerhowto 
-[9]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto 
-[10]: http://redmine.ruby-lang.org/ 
-[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139 
-[12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html 
-[13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch 
-[14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs 
+[1]: http://subversion.tigris.org/
+[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[3]: http://subversion.tigris.org/faq.html
+[4]: http://svnbook.org
+[5]: http://www.pragmaticprogrammer.com/titles/svn/
+[6]: http://git-scm.com/
+[7]: http://github.com/ruby/ruby
+[8]: http://wiki.github.com/shyouhei/ruby/committerhowto
+[9]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
+[10]: http://redmine.ruby-lang.org/
+[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
+[12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
+[13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
+[14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

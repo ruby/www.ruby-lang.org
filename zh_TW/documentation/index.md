@@ -69,23 +69,23 @@ Taiwan 文件][20] 。如果您有 Ruby 相關的問題， [郵件論壇](/en/co
 
 
 
-[1]: http://pine.fm/LearnToProgram/ 
-[2]: http://rubylearning.com/ 
-[3]: http://www.techotopia.com/index.php/Ruby_Essentials 
-[4]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials 
-[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/ 
-[6]: http://pragmaticprogrammer.com/titles/ruby/index.html 
-[7]: http://guides.ruby.tw/ruby/ 
-[8]: http://ruby.tw 
-[9]: http://en.wikibooks.org/wiki/Ruby_programming_language 
-[10]: http://www.ruby-doc.org/core 
-[11]: http://rdoc.sourceforge.net 
-[12]: http://www.ruby-doc.org/stdlib 
-[13]: http://www.ruby-doc.org/doxygen/current/ 
-[14]: http://yardoc.org/docs 
-[15]: http://rdoc.info/ 
-[16]: http://railsapi.com/ 
-[17]: http://www.rubydox.net/ 
-[18]: http://ruby-doc.org 
-[19]: http://www.ruby-doc.org/bookstore 
-[20]: http://guides.ruby.tw 
+[1]: http://pine.fm/LearnToProgram/
+[2]: http://rubylearning.com/
+[3]: http://www.techotopia.com/index.php/Ruby_Essentials
+[4]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
+[5]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[6]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[7]: http://guides.ruby.tw/ruby/
+[8]: http://ruby.tw
+[9]: http://en.wikibooks.org/wiki/Ruby_programming_language
+[10]: http://www.ruby-doc.org/core
+[11]: http://rdoc.sourceforge.net
+[12]: http://www.ruby-doc.org/stdlib
+[13]: http://www.ruby-doc.org/doxygen/current/
+[14]: http://yardoc.org/docs
+[15]: http://rdoc.info/
+[16]: http://railsapi.com/
+[17]: http://www.rubydox.net/
+[18]: http://ruby-doc.org
+[19]: http://www.ruby-doc.org/bookstore
+[20]: http://guides.ruby.tw
