@@ -14,7 +14,8 @@ lang: zh_TW
 * Tutorial: 60或120分鐘，安排在第一天
 * Talk: 30或60分鐘，安排在第二天
 
- 請在截止日前將您的演講題目、摘要、個人簡介及演講時間長度投遞至 [2011@rubyconf.tw](mailto:2011@rubyconf.tw)   
+ 請在截止日前將您的演講題目、摘要、個人簡介及演講時間長度投遞至 [2011@rubyconf.tw](mailto:2011@rubyconf.tw)
+
 [RubyConf Taiwan 2011][1] will be held on August 26-27, 2011 in Academia
 Sinica, Taipei. If you want to give a presentation at RubyConf Taiwan
 2011, please submit your proposal. Any topics related to Ruby are
