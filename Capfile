@@ -8,9 +8,9 @@ set :default_environment, {
 
 set :application, 'neon.ruby-lang.org'
 set :scm, :git
-set :repository, File.expand_path('..', __FILE__)
+set :repository, 'git://github.com/ruby/www.ruby-lang.org.git'
 set :branch, 'master'
-set :deploy_via, :copy
+set :deploy_via, :remote_cache
 
 server 'neon.ruby-lang.org', :app, :web, :db, :primary => true
 
