@@ -4,7 +4,7 @@ markdown: kramdown
 permalink: pretty
 pygments: true
 
-exclude: [README.md, Rakefile]
+exclude: [README.md, Rakefile, Gemfile]
 
 domain: www.ruby-lang.org
 #url:    http://www.ruby-lang.org
