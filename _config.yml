@@ -4,7 +4,12 @@ markdown: kramdown
 permalink: pretty
 pygments: true
 
-exclude: [README.md, Rakefile, Gemfile, Gemfile.lock, Capfile]
+exclude:
+  - Capfile
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
 
 domain: www.ruby-lang.org
 #url:    http://www.ruby-lang.org
