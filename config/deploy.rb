@@ -16,6 +16,7 @@ end
 
 desc "Generate static sites."
 task :generate_static_sites => :environment do
+  queue 'echo $LANG'
   queue 'bundle exec rake generate'
 end
 
