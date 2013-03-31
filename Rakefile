@@ -336,13 +336,7 @@ end
 desc "Generates the Jekyll site"
 task :generate do
   ENV['TZ'] = TIMEZONE
-  cmd = 'jekyll --no-auto --no-server'
-
-  # echo to stdout instead of stderr
-  verbose(false) do
-    puts cmd
-    sh cmd
-  end
+  sh 'jekyll --no-auto --no-server'
 end
 
 desc "Generates the Jekyll site and starts local server"
