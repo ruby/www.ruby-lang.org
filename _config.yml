@@ -5,7 +5,7 @@ permalink: pretty
 pygments: true
 
 exclude:
-  - Capfile
+  - config/deploy.rb
   - Gemfile
   - Gemfile.lock
   - Rakefile
