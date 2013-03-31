@@ -2,9 +2,8 @@
 layout: nil
 lang: tr
 ---
-{% assign locales = site.locales.feed[page.lang] %}
-
 <?xml version="1.0" encoding="UTF-8"?>
+{% assign locales = site.locales.feed[page.lang] %}
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ locales.title }}</title>
