@@ -12,6 +12,7 @@ set :user, 'rubylang'
 task :environment do
   invoke :'rbenv:load'
   queue 'export LANG=ja_JP.UTF-8'
+  queue 'export LC_ALL=ja_JP.UTF-8'
 end
 
 desc "Generate static sites."
