@@ -35,6 +35,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  jekyll (>= 0.12.1)
   mina
   spidr

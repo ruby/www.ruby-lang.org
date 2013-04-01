@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll'
+gem 'jekyll', '>= 0.12.1'
 gem 'spidr'
 
 group :development do
