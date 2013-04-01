@@ -11,13 +11,12 @@ set :user, 'rubylang'
 
 task :environment do
   invoke :'rbenv:load'
-  queue 'export LANG=ja_JP.UTF-8'
-  queue 'export LC_ALL=ja_JP.UTF-8'
 end
 
 desc "Generate static sites."
 task :generate_static_sites => :environment do
-  queue 'bundle exec rake generate'
+  queue 'echo $LANG; echo $LC_ALL; ruby -v'
+  queue 'LANG=ja_JP.UTF-8; LC_ALL=ja_JP.UTF-8; bundle exec rake generate'
 end
 
 desc "Deploys the current version to the server."
