@@ -4,6 +4,9 @@ markdown: kramdown
 permalink: pretty
 pygments: true
 
+kramdown:
+  auto_ids: false
+
 exclude:
   - config
   - Gemfile
@@ -13,9 +16,6 @@ exclude:
 
 #url: http://www.ruby-lang.org
 url: http://neon.ruby-lang.org
-
-kramdown:
-  auto_ids: false
 
 downloads:
   stable:
