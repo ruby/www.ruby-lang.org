@@ -336,7 +336,7 @@ end
 desc "Generates the Jekyll site"
 task :generate do
   require 'jekyll'
-  # workaound for LANG=C environment
+  # workaround for LANG=C environment
   module Jekyll::Convertible
     Encoding.default_external = Encoding::UTF_8
   end
