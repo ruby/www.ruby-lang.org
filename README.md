@@ -20,7 +20,8 @@ will have to wait until after the migration.
 
 ## Get It
 
-You need to have [Jekyll and Pygments installed](https://github.com/mojombo/jekyll/wiki/install)
+In order to preview your changes to the site you need to have
+[Jekyll and Pygments installed](https://github.com/mojombo/jekyll/wiki/install)
 on your system.
 
 Clone the repository, create the site and start a local server:
