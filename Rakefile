@@ -335,8 +335,16 @@ end
 
 desc "Generates the Jekyll site"
 task :generate do
+  require 'jekyll'
+  # workaound for LANG=C environment
+  module Jekyll::Convertible
+    Encoding.default_external = Encoding::UTF_8
+  end
   ENV['TZ'] = TIMEZONE
-  sh 'jekyll --no-auto --no-server'
+
+  options = Jekyll.configuration({'auto' => false, 'server' => false})
+  puts "Building site: #{options['source']} -> #{options['destination']}"
+  Jekyll::Site.new(options).process
 end
 
 desc "Generates the Jekyll site and starts local server"
