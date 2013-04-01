@@ -3,11 +3,10 @@ require 'mina/bundler'
 require 'mina/rbenv'
 
 set :domain, 'neon.ruby-lang.org'
-set :deploy_to, '/home/rubylang/www.ruby-lang.org'
+set :user, 'rubylang'
+set :deploy_to, "/home/#{user}/www.ruby-lang.org"
 set :repository, 'git://github.com/ruby/www.ruby-lang.org.git'
 set :branch, 'master'
-
-set :user, 'rubylang'
 
 task :environment do
   invoke :'rbenv:load'
