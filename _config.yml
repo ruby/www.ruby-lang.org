@@ -11,9 +11,8 @@ exclude:
   - Rakefile
   - README.md
 
-domain: www.ruby-lang.org
-#url:    http://www.ruby-lang.org
-url:    http://neon.ruby-lang.org
+#url: http://www.ruby-lang.org
+url: http://neon.ruby-lang.org
 
 kramdown:
   auto_ids: false
