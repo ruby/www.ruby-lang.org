@@ -129,10 +129,10 @@ namespace :import do
   desc "Spiders #{HOST} and converts HTML to Markdown"
   task :pages do
     Spidr.site("http://#{HOST}/index.html") do |agent|
-      agent.ignore_links_like /\/cgi-bin\//
-      agent.ignore_links_like /\.cgi[\/]?$/
-      agent.ignore_links_like /\/[a-z_]+\/feeds\//
-      agent.ignore_links_like /\/[a-z_]+\/old-man\//
+      agent.ignore_links_like(/\/cgi-bin\//)
+      agent.ignore_links_like(/\.cgi[\/]?$/)
+      agent.ignore_links_like(/\/[a-z_]+\/feeds\//)
+      agent.ignore_links_like(/\/[a-z_]+\/old-man\//)
 
       agent.every_ok_page do |page|
         local_path = url_to_path(page.url)
