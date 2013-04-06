@@ -151,7 +151,7 @@ body {
   padding-top: 24px;
   width: 244px;
 }
-#code div {
+#code code {
   display: block;
   font-family: "Lucida Console", Monaco, monospace;
   padding-left: 24px;
