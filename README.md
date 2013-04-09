@@ -29,7 +29,7 @@ on your local system.
 
 Clone the repository, create the site and start a local server:
 
-```
+``` bash
 git clone https://github.com/ruby/www.ruby-lang.org.git
 cd www.ruby-lang.org/
 bundle install
