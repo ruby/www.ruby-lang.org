@@ -33,7 +33,7 @@ Clone the repository, create the site and start a local server:
 git clone https://github.com/ruby/www.ruby-lang.org.git
 cd www.ruby-lang.org/
 bundle install
-rake preview
+rake preview # you may need to use bundle exec
 ```
 
 Then, open [http://localhost:4000/](http://localhost:4000/) in your browser.
