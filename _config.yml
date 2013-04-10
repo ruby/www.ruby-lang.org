@@ -1271,7 +1271,7 @@ locales:
         text: Takip Edin
         recent_news:
           text: Son Haberler (RSS)
-          url: /en/feeds/news.rss
+          url: /tr/feeds/news.rss
     zh_TW:
       get_started:
         text: <strong>上手入門</strong>, 一點都不難!
