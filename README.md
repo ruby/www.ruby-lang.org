@@ -12,7 +12,7 @@ current RadiantCMS-based website to this Jekyll-based site.
 ## How to Contribute?
 
 You can contribute by comparing
-[ruby-lang.github.com](http://ruby-lang.github.com/)
+[ruby-lang.github.io](http://ruby-lang.github.io/)
 to [www.ruby-lang.org](http://www.ruby-lang.org/)
 and reporting any inconsistencies between the two sites.
 
