@@ -2,6 +2,19 @@
 layout: page
 title: "Menguasai Ruby dalam 20 Menit"
 lang: id
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Bagian 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Bagian 2">2</a>
+    <span class="separator"> | </span>
+    <strong>3</strong>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Bagian 4">4</a>
+  </div>
+  <h1>Menguasai Ruby dalam 20 Menit</h1>
+
 ---
 
 Mari kita bikin obyek TukangSapa dan kita pakai:

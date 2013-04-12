@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby в 20 минути"
 lang: bg
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Част 1">1</a>
+    <span class="separator"> | </span>
+    <strong>2</strong>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Част 3">3</a>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Част 4">4</a>
+  </div>
+  <h1>Ruby в 20 минути</h1>
+
 ---
 
 Как да направим така, че да изписваме “Hello World” когато си поискаме,

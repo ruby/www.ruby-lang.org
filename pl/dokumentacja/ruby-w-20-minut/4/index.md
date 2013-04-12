@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby w 20 Minut"
 lang: pl
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Część 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Część 2">2</a>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Część 3">3</a>
+    <span class="separator"> | </span>
+    <strong>4</strong>
+  </div>
+  <h1>Ruby w 20 Minut</h1>
+
 ---
 
 Patrząc bliżej na nasz program, zauważamy początkowe linie, które

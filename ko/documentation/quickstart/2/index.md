@@ -2,6 +2,19 @@
 layout: page
 title: "루비 20분 가이드"
 lang: ko
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Part 1">1</a>
+    <span class="separator"> | </span>
+    <strong>2</strong>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Part 3">3</a>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Part 4">4</a>
+  </div>
+  <h1>루비 20분 가이드</h1>
+
 ---
 
 손가락에 무리를 주지 않으면서 “Hello”를 여러번 말하고 싶다면 어떻게 해야 할까요? 메서드를 정의해야 한답니다.

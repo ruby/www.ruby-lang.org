@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby w 20 Minut"
 lang: pl
+
+header: |
+  <div class="multi-page">
+    <strong>1</strong>
+    <span class="separator"> | </span>
+    <a href="2/" title="Część 2">2</a>
+    <span class="separator"> | </span>
+    <a href="3/" title="Część 3">3</a>
+    <span class="separator"> | </span>
+    <a href="4/" title="Część 4">4</a>
+  </div>
+  <h1>Ruby w 20 Minut</h1>
+
 ---
 
 ## Wprowadzenie

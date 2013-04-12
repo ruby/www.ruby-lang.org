@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby in 20 Minuten"
 lang: de
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Teil 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Teil 2">2</a>
+    <span class="separator"> | </span>
+    <strong>3</strong>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Teil 4">4</a>
+  </div>
+  <h1>Ruby in 20 Minuten</h1>
+
 ---
 
 Erzeugen wir nun ein Greeter-Objekt und benutzen es:

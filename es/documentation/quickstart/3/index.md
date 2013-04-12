@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby en 20 minutos"
 lang: es
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Parte 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Parte 2">2</a>
+    <span class="separator"> | </span>
+    <strong>3</strong>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Parte 4">4</a>
+  </div>
+  <h1>Ruby en 20 minutos</h1>
+
 ---
 
 Ahora vamos a crear y usar un objeto anfitrión:

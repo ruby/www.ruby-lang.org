@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby en 20 minutos"
 lang: es
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Parte 1">1</a>
+    <span class="separator"> | </span>
+    <strong>2</strong>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Parte 3">3</a>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Parte 4">4</a>
+  </div>
+  <h1>Ruby en 20 minutos</h1>
+
 ---
 
 ¿Qué tal si queremos decir “Hola” muchas veces sin cansar nuestros dedos

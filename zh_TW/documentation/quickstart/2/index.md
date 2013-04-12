@@ -2,6 +2,19 @@
 layout: page
 title: "二十分鐘 Ruby 體驗"
 lang: zh_TW
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Part 1">1</a>
+    <span class="separator"> | </span>
+    <strong>2</strong>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Part 3">3</a>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Part 4">4</a>
+  </div>
+  <h1>二十分鐘 Ruby 體驗</h1>
+
 ---
 
 如果您想說很多次 “Hello”，卻不想敲太多按鍵。是時候定義一個方法了!

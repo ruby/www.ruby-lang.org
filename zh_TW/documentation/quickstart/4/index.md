@@ -2,6 +2,19 @@
 layout: page
 title: "二十分鐘 Ruby 體驗"
 lang: zh_TW
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Part 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Part 2">2</a>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Part 3">3</a>
+    <span class="separator"> | </span>
+    <strong>4</strong>
+  </div>
+  <h1>二十分鐘 Ruby 體驗</h1>
+
 ---
 
 我們來深入看看這個新程式。注意到由井號(#)開頭的第一行，在 Ruby

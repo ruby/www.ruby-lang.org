@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby in Venti Minuti"
 lang: it
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Parte 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Parte 2">2</a>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Parte 3">3</a>
+    <span class="separator"> | </span>
+    <strong>4</strong>
+  </div>
+  <h1>Ruby in Venti Minuti</h1>
+
 ---
 
 Guardiamo con un po’ più di attenzione il nostro nuovo programma. Fate

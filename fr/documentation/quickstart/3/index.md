@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby en vingt minutes"
 lang: fr
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Partie 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Partie 2">2</a>
+    <span class="separator"> | </span>
+    <strong>3</strong>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Partie 4">4</a>
+  </div>
+  <h1>Ruby en vingt minutes</h1>
+
 ---
 
 Maintenant, créons un objet de la classe `Greeter` et animons-le :

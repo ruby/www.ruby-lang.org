@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby en 20 minutos"
 lang: es
+
+header: |
+  <div class="multi-page">
+    <strong>1</strong>
+    <span class="separator"> | </span>
+    <a href="2/" title="Parte 2">2</a>
+    <span class="separator"> | </span>
+    <a href="3/" title="Parte 3">3</a>
+    <span class="separator"> | </span>
+    <a href="4/" title="Parte 4">4</a>
+  </div>
+  <h1>Ruby en 20 minutos</h1>
+
 ---
 
 ## Introducción

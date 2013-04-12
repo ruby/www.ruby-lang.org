@@ -2,6 +2,19 @@
 layout: page
 title: "20分钟体验 Ruby - Ruby 官方网站"
 lang: zh_cn
+
+header: |
+  <div class="multi-page">
+    <strong>1</strong>
+    <span class="separator"> | </span>
+    <a href="2/" title="Part 2">2</a>
+    <span class="separator"> | </span>
+    <a href="3/" title="Part 3">3</a>
+    <span class="separator"> | </span>
+    <a href="4/" title="Part 4">4</a>
+  </div>
+  <h1>20分钟体验 Ruby</h1>
+
 ---
 
 ## 介绍

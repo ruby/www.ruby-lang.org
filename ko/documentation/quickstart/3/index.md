@@ -2,6 +2,19 @@
 layout: page
 title: "루비 20분 가이드"
 lang: ko
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Part 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Part 2">2</a>
+    <span class="separator"> | </span>
+    <strong>3</strong>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Part 4">4</a>
+  </div>
+  <h1>루비 20분 가이드</h1>
+
 ---
 
 “Greeter” 객체를 만들어서 사용해 봅시다.

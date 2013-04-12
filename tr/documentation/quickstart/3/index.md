@@ -2,6 +2,19 @@
 layout: page
 title: "Yirmi Dakikada Ruby"
 lang: tr
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Part 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Part 2">2</a>
+    <span class="separator"> | </span>
+    <strong>3</strong>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Part 4">4</a>
+  </div>
+  <h1>Yirmi Dakikada Ruby</h1>
+
 ---
 
 Şimdi bir selamlayıcı nesnesi üretelim ve kullanalım:

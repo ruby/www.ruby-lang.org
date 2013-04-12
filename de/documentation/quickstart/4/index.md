@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby in 20 Minuten"
 lang: de
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Teil 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Teil 2">2</a>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Teil 3">3</a>
+    <span class="separator"> | </span>
+    <strong>4</strong>
+  </div>
+  <h1>Ruby in 20 Minuten</h1>
+
 ---
 
 Wenn wir unser Programm etwas genauer ansehen, fallen uns die Zeilen

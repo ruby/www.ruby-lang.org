@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby in Venti Minuti"
 lang: it
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Parte 1">1</a>
+    <span class="separator"> | </span>
+    <strong>2</strong>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Parte 3">3</a>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Parte 4">4</a>
+  </div>
+  <h1>Ruby in Venti Minuti</h1>
+
 ---
 
 Se vogliamo dire “Ciao” molte volte senza stancarci troppo le dita?

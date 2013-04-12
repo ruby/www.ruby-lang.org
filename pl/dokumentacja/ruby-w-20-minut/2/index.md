@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby w 20 Minut"
 lang: pl
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Część 1">1</a>
+    <span class="separator"> | </span>
+    <strong>2</strong>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Część 3">3</a>
+    <span class="separator"> | </span>
+    <a href="../4/" title="Część 4">4</a>
+  </div>
+  <h1>Ruby w 20 Minut</h1>
+
 ---
 
 Co jeśli chcielibyśmy mówić “Hello World” tak aby nasze palce się nie

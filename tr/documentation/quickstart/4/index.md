@@ -2,6 +2,19 @@
 layout: page
 title: "Yirmi Dakikada Ruby"
 lang: tr
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Part 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Part 2">2</a>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Part 3">3</a>
+    <span class="separator"> | </span>
+    <strong>4</strong>
+  </div>
+  <h1>Yirmi Dakikada Ruby</h1>
+
 ---
 
 Peki, yeni programımıza daha derin bir inceleme yapalım, (#) ile

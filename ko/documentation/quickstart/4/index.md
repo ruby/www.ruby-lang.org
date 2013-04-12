@@ -2,6 +2,19 @@
 layout: page
 title: "루비 20분 가이드"
 lang: ko
+
+header: |
+  <div class="multi-page">
+    <a href="../" title="Part 1">1</a>
+    <span class="separator"> | </span>
+    <a href="../2/" title="Part 2">2</a>
+    <span class="separator"> | </span>
+    <a href="../3/" title="Part 3">3</a>
+    <span class="separator"> | </span>
+    <strong>4</strong>
+  </div>
+  <h1>루비 20분 가이드</h1>
+
 ---
 
 앞의 루비 코드를 자세히 살펴보면 샵(#)으로 시작하는 줄이 여럿 있음을 알 수 있습니다. 루비에서는 샵으로 시작하는 줄은

@@ -2,6 +2,19 @@
 layout: page
 title: "Ruby в 20 минути"
 lang: bg
+
+header: |
+  <div class="multi-page">
+    <strong>1</strong>
+    <span class="separator"> | </span>
+    <a href="2/" title="Част 2">2</a>
+    <span class="separator"> | </span>
+    <a href="3/" title="Част 3">3</a>
+    <span class="separator"> | </span>
+    <a href="4/" title="Част 4">4</a>
+  </div>
+  <h1>Ruby в 20 минути</h1>
+
 ---
 
 ## Въведение
