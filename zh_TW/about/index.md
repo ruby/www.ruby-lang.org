@@ -23,7 +23,7 @@ Ruby 是一個注重均衡的語言. 它的發明者, [松本行弘 Yukihiro “
 在各大城市都有活躍的使用者社群並舉辦了許許多多場場爆滿的研討會.
 
 ![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity+over+4+Years
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 

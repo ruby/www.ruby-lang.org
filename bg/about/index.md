@@ -23,7 +23,7 @@ Ruby e перфектно балансиран език за програмир�
 програмисти по целия свят. През 2006, Ruby достигна масов прием.
 
 ![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity+over+4+Years
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 

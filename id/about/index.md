@@ -34,7 +34,7 @@ pengguna Ruby yang aktif di banyak kota-kota di seluruh dunia dan
 konferensi-konferensi beserta pertemuan Ruby terkait.
 
 ![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity+over+4+Years
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 

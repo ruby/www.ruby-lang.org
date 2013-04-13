@@ -32,7 +32,7 @@ massiva, com a formação de grupos de utilizadores em todas as principais
 cidades mundiais e com as conferências sobre Ruby com lotação esgotada.
 
 ![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity+over+4+Years
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 

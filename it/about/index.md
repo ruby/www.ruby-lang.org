@@ -33,7 +33,7 @@ discussione formatisi nelle maggiori città del mondo e conferenze a tema
 capaci di fare il tutto esaurito.
 
 ![Grafico per cortesia di
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity+over+4+Years
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity
 "Grafico per cortesia di Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
