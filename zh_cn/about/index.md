@@ -24,7 +24,7 @@ Ruby 就像人的身体一样，表面上看来简单，但是内部却相当的
 被广泛接受。在各大城市都有活跃的使用者并通过社区举办许许多多场场爆满的研讨会。
 
 ![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 

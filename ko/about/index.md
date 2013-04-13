@@ -25,7 +25,7 @@ lang: ko
 전 세계의 왠만한 도시에는 활발한 사용자 그룹이 만들어졌고, 루비와 관랸된 컨퍼런스는 모두 매진되었습니다.
 
 ![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 

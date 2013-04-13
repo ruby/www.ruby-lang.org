@@ -33,7 +33,7 @@ ciudades más importantes del mundo y llenando las capacidades de las
 conferencias relacionadas a Ruby.
 
 ![Gráfica cortesía de
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Actividad+en+Ruby-Talk
+Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Actividad+en+Ruby-Talk
 "Gráfica cortesía de Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
