@@ -22,11 +22,10 @@ Ruby e перфектно балансиран език за програмир�
 От първата си публична поява през 1995 година, Ruby привлече отдадени
 програмисти по целия свят. През 2006, Ruby достигна масов прием.
 
-<div style="float:right">
 ![Graph courtesy of
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=280&amp;height=140&amp;title=Ruby-Talk+Activity+over+4+Years
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
-</div>
+{: style="float:right"}
 
 Ruby-Talk – основният [пощенски списък](/en/community/mailing-lists/) за
 дискусии относно Ruby достигна 200 съобщения на ден.
