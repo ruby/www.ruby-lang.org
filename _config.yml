@@ -250,6 +250,22 @@ locales:
       - text: 關於 Ruby
         url: /zh_TW/about
 
+  slogan:
+    bg: "Ruby - най-добрият приятел на програмиста"
+    de: "Ruby - Der beste Freund eines Programmierers"
+    en: "Ruby - A Programmer's Best Friend"
+    es: "Ruby - El mejor amigo de un desarrollador"
+    fr: "Ruby - A Programmer's Best Friend"
+    id: "Ruby - Sahabat Terbaik Programmer"
+    it: "Ruby - Il migliore amico dei programmatori"
+    ja: "Ruby - A Programmer's Best Friend"
+    ko: "루비 : 프로그래머의 단짝 친구"
+    pl: "Ruby - Najlepszy Przyjaciel Programisty"
+    pt: "Ruby - O melhor amigo do programador"
+    tr: "Ruby - A Programmer's Best Friend"
+    zh_cn: "Ruby - 程序员最要好的朋友"
+    zh_TW: "Ruby - A Programmer's Best Friend"
+
   month_names:
     bg: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
     de: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
