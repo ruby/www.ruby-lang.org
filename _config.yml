@@ -215,8 +215,8 @@ locales:
         url: /tr/community
       - text: Haberler
         url: /tr/news
-      - text: Güvenlik
-        url: /tr/security
+#     - text: Güvenlik
+#       url: /tr/security
       - text: Ruby Hakkında
         url: /tr/about
     zh_cn:
