@@ -47,7 +47,7 @@ dieses Wachstums ist der Beliebtheit von in Ruby geschriebener Software
 zu verdanken, insbesondere dem Web-Framework Ruby on
 Rails<sup>[2](#fn2)</sup>.
 
-Ruby ist außerdem [absolut frei](./license.txt). Nicht nur kostenlos,
+Ruby ist außerdem [absolut frei](/en/about/license.txt). Nicht nur kostenlos,
 sondern auch frei zu benutzen, zu kopieren, zu verändern und zu
 vertreiben.
 

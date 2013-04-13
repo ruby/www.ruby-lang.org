@@ -35,7 +35,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 언어이다. 그리고 2006년 ‘올해의 언어로’ 꼽히기도 하였다. 이런 성장은 루비로 만들어진 대중적인 소프트웨어, 특히나 루비 온
 레일스 웹 프레임워크\[2\]의 공이다.
 
-루비는 [완전히 무료](license.txt)이다. 사용뿐 만 아니라 복사, 수정, 배포까지도 무료이다.
+루비는 [완전히 무료](/en/about/license.txt)이다. 사용뿐 만 아니라 복사, 수정, 배포까지도 무료이다.
 
 ### 모든 것은 객체이다.
 

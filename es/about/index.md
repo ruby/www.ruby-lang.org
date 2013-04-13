@@ -49,7 +49,7 @@ crecimiento se atribuye a la popularidad alcanzada por aplicaciones
 desarrolladas con Ruby, en particular el framework de desarrollo web
 Ruby on Rails<sup>[2](#fn2)</sup>.
 
-Ruby es [totalmente libre](./license.txt). No sólo gratis, sino también
+Ruby es [totalmente libre](/en/about/license.txt). No sólo gratis, sino también
 libre para usarlo, copiarlo, modificarlo y distribuirlo.
 
 ### Viendo todo como un objeto

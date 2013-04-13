@@ -6,7 +6,7 @@ lang: es
 
 Aquí puedes obtener las últimas distribuciones de Ruby en tu sabor
 favorito. La versión estable actual es {{ site.downloads.stable.version }}.
-Por favor asegúrate de leer la [licencia de Ruby](/es/about/license.txt).
+Por favor asegúrate de leer la [licencia de Ruby](/en/about/license.txt).
 
 ### El código fuente de Ruby
 

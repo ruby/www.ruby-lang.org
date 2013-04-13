@@ -57,7 +57,7 @@ de six mois. » La plus grande part de cette accélération semble revenir
 à la popularité de certains logiciels écrits en Ruby, notamment le
 framework web Ruby on Rails<sup>[2](#fn2)</sup>.
 
-Par ailleurs, Ruby est [totalement libre](./license.txt). Il est non
+Par ailleurs, Ruby est [totalement libre](/en/about/license.txt). Il est non
 seulement gratuit, mais son utilisation, sa copie, sa modification et sa
 distribution sont également libres.
 

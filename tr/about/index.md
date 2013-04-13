@@ -44,7 +44,7 @@ göre, Ruby dünya çapında en çok kullanılan 10.cu dil haline gelmiştir.
 Ruby’nin bu hızlı büyümesinde Ruby on Rails
 framework’ünün<sup>[2](#fn2)</sup> hatırı sayılır etkisi bulunmaktadır.
 
-Ruby aynı zamanda [tamamen özgür](./license.txt) bir dildir. Ruby size
+Ruby aynı zamanda [tamamen özgür](/en/about/license.txt) bir dildir. Ruby size
 yalnızca sorumluluk anlamında bir özgürlük değil, aynı zamanda kullanma,
 kopyalama, düzenleme ve dağıtma özgürlüğü de sunar.
 

@@ -35,7 +35,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 将会进入最受欢迎开发语言的前 10 名。”有越来越多受欢迎的软件如 Ruby on Rails web
 framework<sup>[2](#fn2)</sup> 是使用 Ruby 撰写而成，也是造成 Ruby 如此快速成长的原因。
 
-Ruby 是[开源软件](./license.txt)。 不只是免费，而且可以自由的使用、复制、修改与发布。
+Ruby 是[开源软件](/en/about/license.txt)。 不只是免费，而且可以自由的使用、复制、修改与发布。
 
 ### 所见到的都是对象
 
