@@ -97,7 +97,7 @@ AIX용 바이너리는 Perry Smith씨에 의해 제공되고 있으며, [AIX Con
 
 
 
-[1]: /en/about/license.txt
+[1]: {{ site.license.url }}
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip

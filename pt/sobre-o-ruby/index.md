@@ -47,7 +47,7 @@ no Top 10 dentro de meio ano.” Muito deste crescimento é atribuído à
 popularidade do software escrito em Ruby, em particular a framework de
 desenvolvimento web Ruby on Rails<sup>[2](#fn2)</sup>.
 
-O Ruby é também [totalmente livre](/en/about/license.txt). Não somente livre de
+O Ruby é também [totalmente livre]({{ site.license.url }}). Não somente livre de
 custos, mas também livre para utilizar, copiar, modificar e distribuir.
 
 ### Vêr Tudo como um Objecto

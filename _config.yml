@@ -18,6 +18,9 @@ exclude:
 #url: http://www.ruby-lang.org
 url: http://neon.ruby-lang.org
 
+license:
+  url: /en/about/license.txt
+
 downloads:
   stable:
     version: 2.0.0-p0

@@ -47,7 +47,7 @@ esistenti al mondo. Gran parte di questa crescita è da attribuire alla
 popolarità dei programmi scritti in Ruby, in particolare il framework
 Ruby on Rails<sup>[2](#fn2)</sup>.
 
-Ruby è anche un linguaggio [libero e gratuito](/en/about/license.txt). Non solo
+Ruby è anche un linguaggio [libero e gratuito]({{ site.license.url }}). Non solo
 non costa nulla, ma può anche essere usato, copiato, modificato e
 distribuito liberamente.
 

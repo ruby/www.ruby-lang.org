@@ -126,7 +126,7 @@ Ruby идва инсталиран по подразбиране в друга �
 
 
 
-[1]: /en/about/license.txt
+[1]: {{ site.license.url }}
 [2]: {{ site.downloads.stable.url }}
 [3]: {{ site.downloads.stable_snapshot.url }}
 [4]: {{ site.downloads.nightly_snapshot.url }}

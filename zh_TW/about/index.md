@@ -34,7 +34,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 將會進入最受歡迎的第 10 名.” 有越來越多受歡迎的軟體如 Ruby on Rails web
 framework<sup>[2](#fn2)</sup> 是使用 Ruby 撰寫而成，也是造成了 Ruby 如此的成長因素.
 
-同時，Ruby 是個[自由軟體](/en/about/license.txt). 不只是免費，而且可以自由的使用, 修改與散佈.
+同時，Ruby 是個[自由軟體]({{ site.license.url }}). 不只是免費，而且可以自由的使用, 修改與散佈.
 
 ### 所見即物件
 

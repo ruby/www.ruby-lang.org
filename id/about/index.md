@@ -50,7 +50,7 @@ setengah tahun.” Kebanyakan dari perkembangan Ruby beratribut pada
 terkenalnya software yang ditulis dengan Ruby, terutama framework web
 Ruby on Rails<sup>[2](#fn2)</sup>.
 
-Ruby juga [sepenuhnya bebas](/en/about/license.txt). Tidak hanya gratis,
+Ruby juga [sepenuhnya bebas]({{ site.license.url }}). Tidak hanya gratis,
 tetapi juga bebas untuk menggunakan, memodifikasi dan mendistribusikan
 Ruby.
 

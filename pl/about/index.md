@@ -43,7 +43,7 @@ Rubiego na 10 miejscu. Wiele owego wzrostu zawdzięcza Ruby popularności
 software napisanego przy jego użyciu, szczególnie frameworkowi Ruby on
 Rails<sup>[2](#fn2)</sup>.
 
-Ruby jest także [zupełnie darmowy](/en/about/license.txt). Darmowe jest nie
+Ruby jest także [zupełnie darmowy]({{ site.license.url }}). Darmowe jest nie
 tylko korzystanie, ale również kopiowanie, modyfikowanie i
 rozprowadzanie tego języka.
 
