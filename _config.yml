@@ -15,8 +15,7 @@ exclude:
   - README.md
   - vendor
 
-#url: http://www.ruby-lang.org
-url: http://neon.ruby-lang.org
+url: http://www.ruby-lang.org
 
 license:
   url: /en/about/license.txt
