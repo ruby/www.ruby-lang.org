@@ -37,4 +37,5 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 0.12.1)
   mina
+  rake (~> 10.0)
   spidr
