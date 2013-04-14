@@ -2,7 +2,6 @@
 require 'fileutils'
 require 'open-uri'
 require 'rss'
-require 'net/ftp'
 
 gem 'spidr', '~> 0.4'
 require 'spidr'
@@ -14,9 +13,6 @@ HOST = 'www.ruby-lang.org'
 OUTPUT_DIR = '_import'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
 TIMEZONE = 'UTC'
-
-TIMESTAMP_STABLE  = '_includes/timestamp_stable'
-TIMESTAMP_NIGHTLY = '_includes/timestamp_nightly'
 
 
 def url_to_path(url)
@@ -297,41 +293,6 @@ end
 
 desc "Imports #{HOST}"
 task :import => ['import:pages', 'import:news']
-
-desc "Update timestamps of nightly and stable snapshots"
-task :update_timestamps do
-
-  domain = 'ruby-lang.org'
-  nightly_fn = '/pub/ruby/snapshot.tar.gz'
-  stable_fn  = '/pub/ruby/stable-snapshot.tar.gz'
-
-  nightly_timestamp, stable_timestamp = nil, nil
-  nightly_mtime, stable_mtime = nil, nil
-
-  begin
-    warn "Retrieving timestamps from #{domain}..."
-    Net::FTP.open(domain) do |ftp|
-      ftp.login
-      nightly_mtime = ftp.mtime(nightly_fn)
-      stable_mtime  = ftp.mtime(stable_fn)
-    end
-  rescue
-    warn "Unable to retrieve timestamps"
-  else
-    timezone = 9  # JST
-    nightly_timestamp = (nightly_mtime + timezone * 3600).strftime('%Y/%m/%d %H:%M:%S')
-    stable_timestamp = (stable_mtime + timezone * 3600).strftime('%Y/%m/%d %H:%M:%S')
-  end
-
-  if nightly_timestamp
-    puts 'Writing timestamp for nightly snapshot...'
-    File.open(TIMESTAMP_NIGHTLY, 'w') {|f| f.print nightly_timestamp }
-  end
-  if stable_timestamp
-    puts 'Writing timestamp for stable snapshot...'
-    File.open(TIMESTAMP_STABLE, 'w') {|f| f.print stable_timestamp }
-  end
-end
 
 desc "Generates the Jekyll site"
 task :generate do
