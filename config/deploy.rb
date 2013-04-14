@@ -5,7 +5,7 @@ require 'mina/rbenv'
 set :domain, 'neon.ruby-lang.org'
 set :user, 'rubylang'
 set :deploy_to, "/home/#{user}/www.ruby-lang.org"
-set :repository, 'git://github.com/ruby/www.ruby-lang.org.git'
+set :repository, 'https://github.com/ruby/www.ruby-lang.org.git'
 set :branch, 'master'
 
 task :environment do
