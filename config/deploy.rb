@@ -4,9 +4,13 @@ require 'mina/rbenv'
 
 set :domain, 'neon.ruby-lang.org'
 set :user, 'rubylang'
-set :deploy_to, "/home/#{user}/www.ruby-lang.org"
+set :deploy_to, "/home/#{user}/staging.ruby-lang.org"
 set :repository, 'https://github.com/ruby/www.ruby-lang.org.git'
 set :branch, 'master'
+
+task :production do
+  set :deploy_to, "/home/#{user}/www.ruby-lang.org"
+end
 
 task :environment do
   invoke :'rbenv:load'
@@ -24,4 +28,14 @@ task :deploy => :environment do
     invoke :'bundle:install'
     invoke :generate_static_sites
   end
+end
+
+desc "Deploys the current version to the server in production environment."
+task :"deploy:production" => :production do
+  invoke :deploy
+end
+
+desc "Sets up a site in production environment."
+task :"setup:production" => :production do
+  invoke :setup
 end
