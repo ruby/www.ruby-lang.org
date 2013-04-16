@@ -9,7 +9,7 @@ set :repository, 'https://github.com/ruby/www.ruby-lang.org.git'
 set :branch, 'master'
 
 task :production do
-  set :deploy_to, "/home/#{user}/www.ruby-lang.org"
+  set :deploy_to, "/home/#{user}/neon.ruby-lang.org"
 end
 
 task :environment do
