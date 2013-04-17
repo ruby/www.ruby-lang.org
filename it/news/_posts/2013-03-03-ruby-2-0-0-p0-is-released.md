@@ -184,7 +184,7 @@ Anche una lista incompleta con solo alcune parti dei contributi è troppo
 lunga per essere inserita in questo annuncio, quindi, ecco qui un link
 alla pagina che contiene i ringraziamenti speciali:
 
-* [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][13]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][13]
 
 Grazie a tutti!
 
@@ -202,4 +202,4 @@ Grazie a tutti!
 [10]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
 [11]: http://www.infoq.com/news/2012/11/ruby-20-preview1
 [12]: http://jp.rubyist.net/magazine/?0041-200Special
-[13]: http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
+[13]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks

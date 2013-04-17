@@ -100,7 +100,7 @@ type d\'ici la release.
 Bon à savoir : nous avons créé des notes de mise-à-jour, bien qu\'une
 partie d\'entre elles soient déjà dépassées.
 
-* [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
 
 ### À propose des Refinements
 
@@ -132,4 +132,4 @@ chaleureusement.
 [11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
 [12]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
-[14]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
+[14]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft

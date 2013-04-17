@@ -88,7 +88,7 @@ notice.
 
 FYI: We are creating upgrade notes, but some parts are already outdated.
 
-* [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
 
 ### Status of Refinements
 
@@ -117,4 +117,4 @@ all the people who helped me do this release.
 [11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
 [12]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
-[14]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
+[14]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft

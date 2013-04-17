@@ -130,4 +130,4 @@ contiene estos [agradecimientos][4].
 [1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip
-[4]: http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
+[4]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks

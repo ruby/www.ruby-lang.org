@@ -69,7 +69,7 @@ die Ihnen auffallen.
 
 FYI: Wir arbeiten an Upgrade-Hinweisen, aber einige Teile sind bereits
 veraltet:
-[http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft][16]
+[https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft][16]
 
 #### Zum Status von Refinements
 
@@ -145,6 +145,6 @@ mir bei dieser Veröffentlichung geholfen haben, sehr dankbar.
 [13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
 [14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [15]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
-[16]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
+[16]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
 [17]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
 [18]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip
