@@ -31,7 +31,7 @@ Ruby와 관련한 보안이슈에 대해 정보를 공유하는 곳입니다.
 
 
 
-[1]: http://redmine.ruby-lang.org/projects/ruby/wiki
+[1]: https://bugs.ruby-lang.org/projects/ruby/wiki
 [2]: /ko/news/2010/08/16/webrick-xss-cve-2010-0541/ "CVE-2010-0541"
 [3]: /ko/news/2010/01/15/webrick-escape-sequence-injection/
 [4]: /ko/news/2008/06/23/arbitrary-code-execution-vulnerabilities/

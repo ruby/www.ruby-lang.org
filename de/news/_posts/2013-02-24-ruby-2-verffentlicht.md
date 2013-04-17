@@ -160,7 +160,7 @@ komplette Danksagung selbst für wenige Teile der Mitarbeit wäre viel zu
 groß, um sie hier einzufügen. Es tut mir Leid, aber lassen Sie mich
 stattdessen einen Link auf eine *SpecialThanks*-Seite setzen:
 
-[http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks][11]
+[https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks][11]
 
 Vielen Dank euch allen!
 
@@ -220,7 +220,7 @@ Vielen Dank euch allen!
 [8]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
 [9]: http://www.infoq.com/news/2012/11/ruby-20-preview1
 [10]: http://jp.rubyist.net/magazine/?0041-200Special
-[11]: http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
+[11]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
 [12]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
 [13]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
 [14]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip

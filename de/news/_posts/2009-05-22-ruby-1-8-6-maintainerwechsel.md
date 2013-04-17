@@ -17,5 +17,5 @@ betreuen.
 
 
 [1]: {{ site.url }}/de/community/mailing-lists/
-[2]: http://redmine.ruby-lang.org/
+[2]: https://bugs.ruby-lang.org/
 [3]: http://www.ruby-mine.de/2009/5/22/maintainerwechsel-bei-ruby-1-8-6

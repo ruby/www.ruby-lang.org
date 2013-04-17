@@ -153,7 +153,7 @@ following guidelines should be honored when checking into Subversion:
 [7]: http://github.com/ruby/ruby
 [8]: http://wiki.github.com/shyouhei/ruby/committerhowto
 [9]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
-[10]: http://redmine.ruby-lang.org/
+[10]: https://bugs.ruby-lang.org/
 [11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch

@@ -19,10 +19,10 @@ la versión 1.8.7 en:
 Hemos arreglado 29 errores y agregado algunos convertidores de
 codificación de caracteres.
 
-[http://redmine.ruby-lang.org/projects/ruby-19/issues?query\_id=7][2]
+[https://bugs.ruby-lang.org/projects/ruby-19/issues?query\_id=7][2]
 
 Si encuentras un error o problema, por favor repórtalo en el seguidor
-oficial del sistema.([http://redmine.ruby-lang.org][3] ).
+oficial del sistema.([https://bugs.ruby-lang.org][3] ).
 
 Ubicación:
 
@@ -53,8 +53,8 @@ Ubicación:
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_rc2/NEWS
-[2]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=7
-[3]: http://redmine.ruby-lang.org
+[2]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=7
+[3]: https://bugs.ruby-lang.org
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2
 [5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz
 [6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip

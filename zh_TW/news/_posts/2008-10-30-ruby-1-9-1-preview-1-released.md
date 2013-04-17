@@ -10,7 +10,7 @@ Yugui (Yuki Sonoda) 先生於日前公佈發表了 Ruby 1.9.1-preview 1
 > 此版本為 Ruby 1.9.1 的 preview 版本, Ruby 1.9.1 將是 Ruby 1.9 系列的第一個穩定版本.
 > 邀請您馬上進入這個更先進，更快速，語法清晰，支援多國語系以及許多改良的 Ruby 世界.
 > 如果您遇到 bug 或其他問題, 請使用官方提供的 issue tracking system
-> (http://redmine.ruby-lang.org ) 讓我們知道.
+> (https://bugs.ruby-lang.org ) 讓我們知道.
 
 您可以在以下連結下載:
 

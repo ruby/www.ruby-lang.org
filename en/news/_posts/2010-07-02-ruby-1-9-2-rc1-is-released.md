@@ -58,7 +58,7 @@ Ruby and let us know via [our issue tracker][4] if you have any issues.
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog
-[3]: http://redmine.ruby-lang.org/issues/show/3462
-[4]: http://redmine.ruby-lang.org/projects/show/ruby-19/
+[3]: https://bugs.ruby-lang.org/issues/show/3462
+[4]: https://bugs.ruby-lang.org/projects/show/ruby-19/
 [5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
 [6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip

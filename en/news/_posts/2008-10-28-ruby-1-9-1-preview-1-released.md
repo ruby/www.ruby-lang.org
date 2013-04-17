@@ -14,7 +14,7 @@ Yugui (Yuki Sonoda) announced the release of Ruby 1.9.1-preview 1:
 > If you encounter any bugs or problems, please let us know via the
 > official issue tracking system:
 > 
-> [http://redmine.ruby-lang.org][1]
+> [https://bugs.ruby-lang.org][1]
 
 You can download the release from;
 
@@ -34,7 +34,7 @@ You can download the release from;
 
 
 
-[1]: http://redmine.ruby-lang.org
+[1]: https://bugs.ruby-lang.org
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip
