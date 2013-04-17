@@ -1425,9 +1425,10 @@ locales:
       за въпроси или коментари относно сайта.
     de: |
       Diese Webseite wurde mit Ruby unter Verwendung von <a href="http://www.jekyllrb.com/">Jekyll</a> erstellt.
-      Sie wird mit Stolz von <a href="http://rubyidentity.org">Mitgliedern der Ruby-Community</a> gepflegt.
-      Bei Fragen oder Kommentaren, die diese Seite betreffen, kontaktieren Sie bitte
-      unseren <a href="mailto:webmaster@ruby-lang.org">Webmaster</a> (in Englisch).
+      Sie wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
+      Sie können auf <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> an der
+      Verbesserung dieser Seite mitwirken oder sich bei Fragen oder Kommentaren an
+      unseren <a href="mailto:webmaster@ruby-lang.org">Webmaster</a> wenden (in Englisch).
     en: |
       This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>.
       It is proudly maintained by members of the Ruby community.
