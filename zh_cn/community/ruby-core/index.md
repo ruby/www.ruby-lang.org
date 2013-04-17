@@ -123,7 +123,7 @@ following guidelines should be honored when checking into Subversion:
 [2]: http://subversion.tigris.org/faq.html
 [3]: http://svnbook.org
 [4]: http://www.pragmaticprogrammer.com/titles/svn/
-[5]: http://redmine.ruby-lang.org/
+[5]: https://bugs.ruby-lang.org/
 [6]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [7]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
 [8]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

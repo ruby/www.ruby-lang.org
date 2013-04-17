@@ -42,15 +42,15 @@ RC1のリリースのアナウンスがありました。
 
 1\.9.1 RC1までに修正・対応が行われた課題は、以下のURLより確認できます。
 
-* [&lt;URL:http://redmine.ruby-lang.org/projects/ruby-19/issues?query\_id=9&gt;][7]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby-19/issues?query\_id=9&gt;][7]
 
 RC1ではまだ対応が行われていない課題は、以下のURLです。
 
-* [&lt;URL:http://redmine.ruby-lang.org/projects/ruby-19/issues?query\_id=7&gt;][8]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby-19/issues?query\_id=7&gt;][8]
 
 それ以外に、RC1を使ってバグや問題に遭遇した場合は、課題追跡システムを使ってお知らせください。
 
-* [&lt;URL:http://redmine.ruby-lang.org&gt;][9]
+* [&lt;URL:https://bugs.ruby-lang.org&gt;][9]
 
 みなさまのご協力を心よりお待ちしています。
 
@@ -62,6 +62,6 @@ RC1ではまだ対応が行われていない課題は、以下のURLです。
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.zip
 [5]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45759
 [6]: http://arton.no-ip.info/data/asr/Ruby-1.9.1.msi
-[7]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=9
-[8]: http://redmine.ruby-lang.org/projects/ruby-19/issues?query_id=7
-[9]: http://redmine.ruby-lang.org
+[7]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=9
+[8]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=7
+[9]: https://bugs.ruby-lang.org

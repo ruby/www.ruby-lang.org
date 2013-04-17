@@ -13,7 +13,7 @@ Yugui (Yuki Sonoda) a annoncé la sortie de Ruby 1.9.1-preview 1 :
 > syntaxe plus claire, un support multilingue poussé, et bien d’autres
 > améliorations. Si vous tombez nez-à-nez avec un bug ou un problème
 > quelconque, n’hésitez pas à nous en faire part en utilisant le
-> gestionnaire de bug officiel (http://redmine.ruby-lang.org).
+> gestionnaire de bug officiel (https://bugs.ruby-lang.org).
 
 Vous pouvez télécharger cette pré-version dans les formats suivants :
 

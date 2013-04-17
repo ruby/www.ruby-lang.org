@@ -62,7 +62,7 @@ RC et à exprimer vos retours sur [le bug tracker][4].
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/NEWS
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/ChangeLog
 [3]: http://yehudakatz.com/2010/05/17/encodings-unabridged/
-[4]: http://redmine.ruby-lang.org/projects/show/ruby-19/
+[4]: https://bugs.ruby-lang.org/projects/show/ruby-19/
 [5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.bz2
 [6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz
 [7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.zip

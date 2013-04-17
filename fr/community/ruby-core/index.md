@@ -139,7 +139,7 @@ nouveau après quelques jours si votre question n’a pas reçu de réponse.
 [6]: http://github.com/shyouhei/ruby
 [7]: http://wiki.github.com/shyouhei/ruby/committerhowto
 [8]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
-[9]: http://redmine.ruby-lang.org
+[9]: https://bugs.ruby-lang.org
 [10]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700
 [11]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch

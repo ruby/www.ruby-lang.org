@@ -12,7 +12,7 @@ Yugui (Yuki Sonoda) 宣布发布 Ruby 1.9.1-preview 1：
 > 现在就试用，提前体验一个最新、最快、多语言的和大量改进的Ruby以及更清晰的语法。
 > 如果您遇到任何bug或者问题，请通过以下官方问题追踪系统告知我们：
 > 
-> [http://redmine.ruby-lang.org][1]
+> [https://bugs.ruby-lang.org][1]
 
 你可以从下面下载这个版本：
 
@@ -38,7 +38,7 @@ Yugui (Yuki Sonoda) 宣布发布 Ruby 1.9.1-preview 1：
 
 
 
-[1]: http://redmine.ruby-lang.org
+[1]: https://bugs.ruby-lang.org
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip

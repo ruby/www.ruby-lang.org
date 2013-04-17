@@ -69,7 +69,7 @@ lang: ko
 [2]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [3]: http://mkseo.pe.kr/
 [4]: http://beyond.daesan.com/pages/ruby-faq
-[5]: http://redmine.ruby-lang.org/projects/ruby/wiki
+[5]: https://bugs.ruby-lang.org/projects/ruby/wiki
 [6]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [7]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [8]: http://qa.poignantguide.net/
