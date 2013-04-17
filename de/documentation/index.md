@@ -39,8 +39,8 @@ Ruby-Programmieren sicher nützlich sein werden.
 ### Anleitungen
 
 [Programming Ruby][6]
-: Dies ist die erste Auflage des bekannten Pickaxe Buches der Pragmatic
-  Programmers. Es ist im Moment kostenlos im Internet verfügbar.
+: Dies ist die erste Auflage des bekannten Pickaxe-Buches der
+  Pragmatic Programmers. Es ist kostenlos im Internet verfügbar (englisch).
 
 [Ruby User’s Guide][7]
 : Übersetzung der japanischen Version von Yukihiro Matsumoto (der Vater
@@ -87,7 +87,7 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [3]: http://mislav.uniqpath.com/poignant-guide/
 [4]: http://www.moccasoft.de/papers/ruby_tutorial
 [5]: http://pine.fm/LearnToProgram/
-[6]: http://home.vrweb.de/~juergen.katins/ruby/buch/index.html
+[6]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [7]: http://www.rubyist.net/~slagell/ruby/
 [8]: http://www.approximity.com/rubybuch2/
 [9]: http://www.ruby-doc.org/core
