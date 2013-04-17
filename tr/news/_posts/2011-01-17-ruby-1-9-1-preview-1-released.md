@@ -13,7 +13,7 @@ Yugui (Yuki Sonoda) Ruby 1.9.1-preview 1 sürümünü bildirdi:
 > Eğer bir bug yada sorun algılarsanız, lütfen kurumsal sorun takip
 > sistemi üzerinden bildirin:
 > 
-> [http://redmine.ruby-lang.org][1]
+> [https://bugs.ruby-lang.org][1]
 
 Bu sürümü indirebileceğiniz yerler;
 
@@ -33,7 +33,7 @@ Bu sürümü indirebileceğiniz yerler;
 
 
 
-[1]: http://redmine.ruby-lang.org
+[1]: https://bugs.ruby-lang.org
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip

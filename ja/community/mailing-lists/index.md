@@ -88,7 +88,7 @@ Posted by Shugo Maeda on 27 May 2006
 
 
 [1]: http://blade.nagaokaut.ac.jp/ruby/ruby-list/index.shtml
-[2]: http://redmine.ruby-lang.org/
+[2]: https://bugs.ruby-lang.org/
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-dev/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-ext/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-math/index.shtml

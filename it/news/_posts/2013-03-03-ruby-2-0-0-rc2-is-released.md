@@ -93,7 +93,7 @@ incompatibilità, per favore notificacele.
 Stiamo inoltre creando delle note per l\'aggiornamento, ma alcune parti
 non sono più aggiornate.
 
-* [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
 
 ### Stato dei Raffinamenti
 
@@ -126,4 +126,4 @@ l\'autore a preparare questa versione.
 [11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
 [12]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
-[14]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
+[14]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft

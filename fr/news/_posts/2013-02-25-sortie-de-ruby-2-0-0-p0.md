@@ -196,7 +196,7 @@ partielle de remerciements serait trop longue à inclure directement dans
 cette actualité ! Aussi, permettez-moi de vous rediriger vers un lien
 spécial :
 
-* [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][19]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][19]
 
 Merci à tous et à toutes !
 
@@ -220,4 +220,4 @@ Merci à tous et à toutes !
 [16]: https://bugs.ruby-lang.org/issues/6670
 [17]: https://bugs.ruby-lang.org/issues/2152
 [18]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
-[19]: http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
+[19]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks

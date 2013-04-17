@@ -13,7 +13,7 @@ una experiencia moderna, más rápida, con una sintaxis más clara,
 multilingüe y muy mejorado mundo de Ruby.
 
 Si encuentra un error o problema, por favor háganoslo saber a través del
-sistema de seguimiento [http://redmine.ruby-lang.org][1]
+sistema de seguimiento [https://bugs.ruby-lang.org][1]
 
 Usted puede obtener la versión de;
 
@@ -44,7 +44,7 @@ Usted puede obtener la versión de;
 
 
 
-[1]: http://redmine.ruby-lang.org
+[1]: https://bugs.ruby-lang.org
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip

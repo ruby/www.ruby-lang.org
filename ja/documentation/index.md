@@ -51,7 +51,7 @@ Posted by Shugo Maeda on 26 May 2006
 
 [1]: /ja/old-man/html/Ruby_FAQ.html
 [2]: /ja/install.cgi?cmd=view;name=top
-[3]: http://redmine.ruby-lang.org/projects/rurema/wiki
+[3]: https://bugs.ruby-lang.org/projects/rurema/wiki
 [4]: http://doc.ruby-lang.org/ja/
 [5]: http://doc.ruby-lang.org/ja/1.8.7/doc/index.html
 [6]: http://doc.ruby-lang.org/ja/1.9.3/doc/index.html

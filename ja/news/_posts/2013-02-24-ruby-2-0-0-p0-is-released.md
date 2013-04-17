@@ -149,7 +149,7 @@ Ruby のモジュール性に新しい概念を与える Refinement と呼ばれ
 2\.0.0 は非常に多くの人々の貢献によって成り立っています。 貢献のごく一部の不完全な謝辞ですら、ここに掲載するには大きくなりすぎました。
 special thanks のページヘのリンクを貼ることでその代わりとさせてください。
 
-* [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][13]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][13]
 
 
 
@@ -165,4 +165,4 @@ special thanks のページヘのリンクを貼ることでその代わりと�
 [10]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
 [11]: http://www.infoq.com/news/2012/11/ruby-20-preview1
 [12]: http://jp.rubyist.net/magazine/?0041-200Special
-[13]: http://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
+[13]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks

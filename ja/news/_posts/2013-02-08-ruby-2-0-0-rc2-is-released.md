@@ -81,7 +81,7 @@ Ruby 2.0.0-rc2 がリリースされました。Ruby 2.0.0 の最後の Release 
 
 ご参考: 以下にアップグレードガイドを作成中ですが、すでに一部内容が古いです。
 
-* [&lt;URL:http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][15]
+* [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][15]
 
 ### refinements の扱い
 
@@ -109,4 +109,4 @@ preview と rc1 を試してくれた皆さんに感謝します。 相変わら
 [12]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
 [13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
-[15]: http://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
+[15]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
