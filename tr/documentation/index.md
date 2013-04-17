@@ -92,14 +92,17 @@ referanslar ve diğer belgeleri bulacaksınız.
   C kodları yazmak ve Ruby’nin geliştirilmesine katkıda bulunmak
   isterseniz, bu belge size yardımcı olabilir.
 
- [RubyDoc.info][19]
- : Ruby gem’leri için dökümanlar ve GitHub Ruby projeleri için tek kaynak
+[RubyDoc.info][19]
+: Ruby gem’leri için dökümanlar ve GitHub Ruby projeleri için tek kaynak
   site.
- [Rails Searchable API Doc][20]
- : Akıllı arama özellikleri olan Rails ve Ruby dökümantasyonu.
- [RubyDox][21]
- : Ruby, Rails, Gem ve Plugin Belgeleri.
- ### Diğer Belgeler
+
+[Rails Searchable API Doc][20]
+: Akıllı arama özellikleri olan Rails ve Ruby dökümantasyonu.
+
+[RubyDox][21]
+: Ruby, Rails, Gem ve Plugin Belgeleri.
+
+### Diğer Belgeler
 
 [Ruby-Doc.org][22] Ruby hakkındaki İngilizce belgeleri bir araya
 toplamayı amaçlayan bir site. [Ruby hakkında yazılmış kitaplar][23] da

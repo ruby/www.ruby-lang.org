@@ -38,6 +38,7 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
 : Ciekawy i króótki kurs dla kogoś, kto chce zacząć przygodę z Ruby.
   Niestety autor nie ukończył go i dlatego jest to tylko podstawowe
   wprowadzenie do języka.
+
 ### Manuale
 
 [Programming Ruby][5]

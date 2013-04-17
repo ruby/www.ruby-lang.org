@@ -93,14 +93,17 @@ potrà venire bene quando vorrai iniziare a programmare in Ruby.
 : Documentazione per il codice C che costituisce Ruby. Utilissima per
   scrivere estensioni in C o contribuire allo sviluppo di Ruby.
 
- [RubyDoc.info][18]
- : Il solo sito che ti server per documentazione di riferimento su gemme
+[RubyDoc.info][18]
+: Il solo sito che ti server per documentazione di riferimento su gemme
   e progetti Ruby in GitHub.
- [API Doc ricercabile per Rails e Ruby][19]
- : Documentazione ricercabile per Rails and Ruby.
- [RubyDox][20]
- : Documentazione su Ruby, Rails, Gem e Plugins.
- ### Ulteriori Informazioni
+
+[API Doc ricercabile per Rails e Ruby][19]
+: Documentazione ricercabile per Rails and Ruby.
+
+[RubyDox][20]
+: Documentazione su Ruby, Rails, Gem e Plugins.
+
+### Ulteriori Informazioni
 
 [Ruby-Doc.org][21] mantiene un’esauriente lista di documenti in inglese.
 Ci sono anche molti [libri su Ruby][22]. Se hai domande su Ruby la lista

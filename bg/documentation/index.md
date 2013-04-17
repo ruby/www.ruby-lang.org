@@ -47,9 +47,10 @@ lang: bg
 : Безплатно online ръководство със съдържание за начинаещи и средно
   напреднали.
 
- [Why’s (Poignant) Guide to Ruby][9]
- : Книгата, която олицетворява идеята на Ruby.
- ### Документация
+[Why’s (Poignant) Guide to Ruby][9]
+: Книгата, която олицетворява идеята на Ruby.
+
+### Документация
 
 [Ruby Core Reference][10]
 : Официалната документация, извлечена от сорс кода чрез [RDoc][11]. Тук
@@ -64,13 +65,16 @@ lang: bg
 : Документация за C кода в имплементацията на Ruby. Ако искате да пишете
   C разширения, това е мястото, от където да започнете.
 
- [rdoc.info][14]
- : Your source for open source Ruby documentation.
- [Rails Searchable API Doc][15]
- : Rails и Ruby документация с възможност за умно търсене.
- [RubyDox][16]
- : Документация за Ruby, Rails, Gem и различни plugin-и.
- ### Други източници
+[rdoc.info][14]
+: Your source for open source Ruby documentation.
+
+[Rails Searchable API Doc][15]
+: Rails и Ruby документация с възможност за умно търсене.
+
+[RubyDox][16]
+: Документация за Ruby, Rails, Gem и различни plugin-и.
+
+### Други източници
 
 [Ruby-Doc.org][17] поддържа списък с източници на информация на
 английски език. Също така съдържа списък с [книги за Ruby][18].

@@ -30,9 +30,9 @@ serán útiles a la hora de desarrollar con Ruby.
 ### Manuales
 
 [Programming Ruby][3]
-: El libro en inglés de referencia, esta primer edición del [libro de
-  los Pragmatic Programmers][4] está disponible en línea en forma
-  gratuita.
+: El libro en inglés de referencia, esta primer edición del
+  [libro de los Pragmatic Programmers][4] está disponible en línea
+  en forma gratuita.
 
 [La (conmovedora) guía de Why para Ruby][5]
 : Un trabajo realizado por “Why the Lucky Stiff” lleno de zorros
