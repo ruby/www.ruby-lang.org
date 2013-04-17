@@ -131,9 +131,9 @@ Subversion:
 
 
 
-[1]: http://subversion.tigris.org/
+[1]: http://subversion.apache.org/
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[3]: http://subversion.tigris.org/faq.html
+[3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/
 [6]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698

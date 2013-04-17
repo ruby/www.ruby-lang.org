@@ -120,7 +120,7 @@ following guidelines should be honored when checking into Subversion:
 
 
 [1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[2]: http://subversion.tigris.org/faq.html
+[2]: http://subversion.apache.org/faq.html
 [3]: http://svnbook.org
 [4]: http://www.pragmaticprogrammer.com/titles/svn/
 [5]: https://bugs.ruby-lang.org/

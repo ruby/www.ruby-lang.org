@@ -104,7 +104,7 @@ list](/en/community/mailing-lists/).
 
 
 
-[1]: http://subversion.tigris.org/faq.html
+[1]: http://subversion.apache.org/faq.html
 [2]: http://svnbook.org
 [3]: http://www.pragmaticprogrammer.com/titles/svn/
 [4]: https://bugs.ruby-lang.org/
