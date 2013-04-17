@@ -38,13 +38,13 @@ updates.
 ### Spreading the Word
 
 If you’ve got a Ruby blog you’ve started, it’s wise to link the blog on
-[del.icio.us][12] with the *ruby* tag. You might also contact the
+[del.icio.us][10] with the *ruby* tag. You might also contact the
 weblogs above, if you are covering a topic they’d be interested in.
 (Obviously, if it’s not Rails-related, then the *Riding Rails* crew may
 not be as interested—but you never know.)
 
-Ruby is also a common topic on [Digg][13], [Slashdot][14], [reddit][15],
-and [Hacker News][16], in their respective programming news. If you find
+Ruby is also a common topic on [Digg][11], [Slashdot][12], [reddit][13],
+and [Hacker News][14], in their respective programming news. If you find
 some brilliant code out there, be sure to let them know!
 
 
