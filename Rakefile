@@ -1,14 +1,10 @@
-# encoding: utf-8
+# encoding: UTF-8
 require 'yaml'
 
 # gem 'spidr', '~> 0.4'
 # require 'spidr'
 
-# gem 'kramdown', '~> 0.14'
-# require 'kramdown'
-
 # HOST = 'www.ruby-lang.org'
-# OUTPUT_DIR = '_import'
 # LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
 TIMEZONE = 'UTC'
 
