@@ -5,7 +5,9 @@ author: "Fabio Cevasco"
 lang: it
 ---
 
- Ruby 1.9.2 è stato rilasciato. Questa è la versione più nuova di Ruby per la serie 1.9. ### Informazione Ruby 1.9.2
+Ruby 1.9.2 è stato rilasciato. Questa è la versione più nuova di Ruby per la serie 1.9.
+
+### Informazione Ruby 1.9.2
 
 Ruby 1.9.2 sarà prevalentemente compatibile con la versione 1.9.1,
 eccetto per i cambiamenti seguenti:

@@ -5,7 +5,9 @@ author: "Bruno Michel"
 lang: fr
 ---
 
- Une vulnérabilité a été découverte, qui permet la création non-intentionnelle de fichiers en insérant de manière bien choisie des caractères NUL dans le chemin des fichiers. ## Détails
+Une vulnérabilité a été découverte, qui permet la création non-intentionnelle de fichiers en insérant de manière bien choisie des caractères NUL dans le chemin des fichiers.
+
+## Détails
 
 Ruby permet de manipuler des données binaires arbitraires en tant que
 chaînes de caractères, y compris des caractères NUL. Par contre, les

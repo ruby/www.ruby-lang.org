@@ -5,7 +5,9 @@ author: "Bruno Michel"
 lang: fr
 ---
 
- Ruby 1.9.2 vient de sortir. Il s\'agit de la dernière version de la branche Ruby 1.9. ### À propos de Ruby 1.9.2
+Ruby 1.9.2 vient de sortir. Il s\'agit de la dernière version de la branche Ruby 1.9.
+
+### À propos de Ruby 1.9.2
 
 Ruby 1.9.2 est compatible avec Ruby 1.9.1, à l\'exception de changements
 suivants :

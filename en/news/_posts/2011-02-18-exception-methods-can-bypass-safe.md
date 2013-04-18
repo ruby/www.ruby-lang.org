@@ -5,7 +5,9 @@ author: "Urabe Shyouhei"
 lang: en
 ---
 
- Exception#to\_s method can be used to trick $SAFE check, which makes a untrusted codes to modify arbitrary strings. ### Detailed description
+Exception#to\_s method can be used to trick $SAFE check, which makes a untrusted codes to modify arbitrary strings.
+
+### Detailed description
 
 In Ruby\'s $SAFE semantics, safe level of 4 is used to run a untrusted
 code (such as plugin). So in upper safe levels, some sort of operations

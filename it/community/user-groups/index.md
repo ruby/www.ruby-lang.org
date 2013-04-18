@@ -38,7 +38,8 @@ diversi siti Web:
   di Meetup la loro dimora. Meetup fornisce un numero di tool per i
   gruppi di utilizzatori, fra i quali: forum privati, un posot per
   annunci, e un elegante sistema di RSVP (risposte a inviti).
- ### Organizzare il tuo gruppo
+
+### Organizzare il tuo gruppo
 
 Se sei interessato a formare il tuo proprio di utenti Ruby, assicurati
 prima di tutto che non ne esista già uno nelle tue vicinanze. Gli

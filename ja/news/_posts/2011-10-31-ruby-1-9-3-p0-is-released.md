@@ -5,7 +5,9 @@ author: "Shota Fukumori"
 lang: ja
 ---
 
- Ruby 1.9.3 の最初の正式版である ruby-1.9.3-p0 がリリースされました。これはRuby 1.9系統の最新版です。 ## 所在
+Ruby 1.9.3 の最初の正式版である ruby-1.9.3-p0 がリリースされました。これはRuby 1.9系統の最新版です。
+
+## 所在
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&gt;][1]
   * SIZE: 9554576 bytes

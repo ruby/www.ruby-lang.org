@@ -6,7 +6,9 @@ date: 2013-03-03 14:42:03 UTC
 lang: it
 ---
 
- RD syntax error: line 8: ...((&lt;\"Vulnerabilità DoS di espansione di entità in REXML (XML bomb)\"\|http:/ / www.ruby-lang.org/it/news/2013/03/03/rexml-dos-2013-02-22/&gt;)) ... ^ ## Download
+RD syntax error: line 8: ...((&lt;\"Vulnerabilità DoS di espansione di entità in REXML (XML bomb)\"\|http:/ / www.ruby-lang.org/it/news/2013/03/03/rexml-dos-2013-02-22/&gt;)) ... ^
+
+## Download
 
 Puoi scaricare questa versione da:
 

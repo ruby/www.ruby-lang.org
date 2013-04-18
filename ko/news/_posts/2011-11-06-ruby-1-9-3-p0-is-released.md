@@ -6,7 +6,9 @@ date: 2011-11-06 14:01:45 UTC
 lang: ko
 ---
 
- Ruby 1.9버젼의 최신판인 1.9.3 p0이 릴리즈되었습니다. ## 내려받기
+Ruby 1.9버젼의 최신판인 1.9.3 p0이 릴리즈되었습니다.
+
+## 내려받기
 
 * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&gt;][1]
   * SIZE: 9554576 bytes

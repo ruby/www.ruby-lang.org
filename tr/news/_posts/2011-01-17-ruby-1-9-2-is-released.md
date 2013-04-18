@@ -5,7 +5,9 @@ author: "Ümit Kayacık"
 lang: tr
 ---
 
- Ruby 1.9.2 yayınlandı. 1.9 serisinin en son kararlı sürümü. ### Ruby 1.9.2 Hakkında
+Ruby 1.9.2 yayınlandı. 1.9 serisinin en son kararlı sürümü.
+
+### Ruby 1.9.2 Hakkında
 
 Yeni 1.9.2 aşağıdaki durumlar haricinde 1.9.1 ile tam uyumlu:
 

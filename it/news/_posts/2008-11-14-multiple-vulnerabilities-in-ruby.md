@@ -5,7 +5,9 @@ author: "Fabio Cevasco"
 lang: it
 ---
 
- Multiple vulnerabilità sono state scoperte in Ruby. Si raccomanda di eseguire un aggiornamento alle ultime versioni. ## Dettagli
+Multiple vulnerabilità sono state scoperte in Ruby. Si raccomanda di eseguire un aggiornamento alle ultime versioni.
+
+## Dettagli
 
 Le seguenti vulnerabilità sono state scoperte.
 
