@@ -84,7 +84,7 @@ irb(main):002:0> "george".object_id == "george".object_id
 irb(main):003:0>
 {% endhighlight %}
 
- `object_id` metodu bir nesnenin tanımlama kodunu geri döner. Eğer iki nesne birbirine eşitse `object_id` leri de eşit olacaktır. Bunun anlamı ikisi de hafıza da aynı yeri işaret ediyor demektir. Gördüğünüz gibi bir sembol ilk defa kullanıldıktan sonra aynı
+`object_id` metodu bir nesnenin tanımlama kodunu geri döner. Eğer iki nesne birbirine eşitse `object_id` leri de eşit olacaktır. Bunun anlamı ikisi de hafıza da aynı yeri işaret ediyor demektir. Gördüğünüz gibi bir sembol ilk defa kullanıldıktan sonra aynı
 karakterler her zaman hafızada aynı yeri gösterir. Yani `object_id`leri
 aynıdır.
 
@@ -191,7 +191,7 @@ class MyClass
 end
 {% endhighlight %}
 
- `diger_metod` erişiminin genel olacağını düşünebilirsiniz ama öyle değil. “privete” erişim belirleyici sınıf tanımı sonuna kadar veya başka bir erişim belirleyici satıra kadar geçerli olacaktır. Default olarak tüm metodlar “public”(genel erişim)dir:
+`diger_metod` erişiminin genel olacağını düşünebilirsiniz ama öyle değil. “privete” erişim belirleyici sınıf tanımı sonuna kadar veya başka bir erişim belirleyici satıra kadar geçerli olacaktır. Default olarak tüm metodlar “public”(genel erişim)dir:
 
 {% highlight ruby %}
 class MyClass
@@ -205,7 +205,9 @@ class MyClass
 end
 {% endhighlight %}
 
- `public`, `private` ve `protected` aslında metoddur ve bu yüzden parametre alabilirler. Eğer bunlara bir sembol gönderirseniz metodun görünrlüğü değişir. ### Metod Erişimleri
+`public`, `private` ve `protected` aslında metoddur ve bu yüzden parametre alabilirler. Eğer bunlara bir sembol gönderirseniz metodun görünrlüğü değişir.
+
+### Metod Erişimleri
 
 Java’da, `public` metoda herkes erişebilir demektir. `protected` sınıfın
 oluşumlarından, türetilmiş sınıfların oluşumlarından ve aynı paket
@@ -216,7 +218,7 @@ Ruby biraz farklılık gösterir. `public` doğal olarak herkese açık
 demektir. `private` ise metodun belirlenmiş alıcısı varsa
 erişilebileceğini belirtir ve bu alıcı sadece **self** olabilir.
 
- `protected` incelenmesi gereken birşey. Bir protected metod sınıfın yada türetilmiş sınıfın oluşumlarından çağrılabilir, ayrıca diğer oluşum üzerinden çağrılabilir. Örnek, [Ruby FAQ][1] alınmıştır:
+`protected` incelenmesi gereken birşey. Bir protected metod sınıfın yada türetilmiş sınıfın oluşumlarından çağrılabilir, ayrıca diğer oluşum üzerinden çağrılabilir. Örnek, [Ruby FAQ][1] alınmıştır:
 
 {% highlight ruby %}
 $ irb
@@ -407,7 +409,9 @@ değildir ve tekrar tanımlanamazlar:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
- Ek olarak, +=, \*= vb. şunların kısaltmasıdır : `var = var + other_var`, `var = var * other_var`, vb. ve bu yüzden tekrar tanımlanamazlar. ## Daha Fazla Bilgi
+Ek olarak, +=, \*= vb. şunların kısaltmasıdır : `var = var + other_var`, `var = var * other_var`, vb. ve bu yüzden tekrar tanımlanamazlar.
+
+## Daha Fazla Bilgi
 
 Daha fazla bilgiye ihtiyaç duyarsanız [Belgeler](/tr/documentation/)
 bölümüne bakınız.

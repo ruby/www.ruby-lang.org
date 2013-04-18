@@ -213,7 +213,9 @@ class MyClass
 end
 {% endhighlight %}
 
- `public`, `private` and `protected` are really methods, so they can take parameters. If you pass a Symbol to one of them, that method’s visibility is altered. ### Method access
+`public`, `private` and `protected` are really methods, so they can take parameters. If you pass a Symbol to one of them, that method’s visibility is altered.
+
+### Method access
 
 In Java, `public` means a method is accessible by anyone. `protected`
 means the class’s instances, instances of descendant classes, and
@@ -226,7 +228,7 @@ the method(s) are accessible only when they can be called without an
 explicit receiver. Only **self** is allowed to be the receiver of a
 private method call.
 
- `protected` is the one to be on the lookout for. A protected method can be called from a class or descendant class instances, but also with another instance as its receiver. Example, adapted from the [Ruby FAQ][1]\:
+`protected` is the one to be on the lookout for. A protected method can be called from a class or descendant class instances, but also with another instance as its receiver. Example, adapted from the [Ruby FAQ][1]\:
 
 {% highlight ruby %}
 $ irb
@@ -271,7 +273,7 @@ irb(main):026:0>
 
 ### Classes are open
 
- Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:
+Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:
 
 {% highlight ruby %}
 class Fixnum
@@ -288,7 +290,7 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 ### Funny method names
 
- In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. <tt>Array#empty?</tt> returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. All methods that change their arguments don’t end with exclamation
+In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. <tt>Array#empty?</tt> returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. All methods that change their arguments don’t end with exclamation
 marks, though. <tt>Array#replace</tt> replaces the contents of an array
 with the contents of another array. It doesn’t make much sense to have a
 method like that that **doesn’t** modify self.
@@ -398,14 +400,16 @@ end
 
 You don’t need C++’s `operator+`, etc.
 
- You can even have array-style access if you define the `[]` and `[]=` methods. To define the unary + and – (think +1 and -2), you must define the `+@` and `-@` methods, respectively. The operators below are **not** syntactic sugar, though. They are not
+You can even have array-style access if you define the `[]` and `[]=` methods. To define the unary + and – (think +1 and -2), you must define the `+@` and `-@` methods, respectively. The operators below are **not** syntactic sugar, though. They are not
 methods, and cannot be redefined:
 
 {% highlight ruby %}
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
- In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined. ## Finding Out More
+In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined.
+
+## Finding Out More
 
 When you are ready for more Ruby knowledge, see our
 [Documentation](/en/documentation/) section.

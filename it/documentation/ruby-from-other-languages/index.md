@@ -223,7 +223,9 @@ class MyClass
 end
 {% endhighlight %}
 
- `public`, `private` e `protected` sono, di fatto, dei metodi, e come tali accettano anche dei parametri. Per modificare la visibilità di un solo metodo, per esempio, è sufficiente passare un simbolo a tale metodo come parametro di un modificatore di accesso per cambiarne la visibilità. ### Accesso ai metodi
+`public`, `private` e `protected` sono, di fatto, dei metodi, e come tali accettano anche dei parametri. Per modificare la visibilità di un solo metodo, per esempio, è sufficiente passare un simbolo a tale metodo come parametro di un modificatore di accesso per cambiarne la visibilità.
+
+### Accesso ai metodi
 
 In Java, `public` significa che un determinato metodo è accessibile da
 tutti. `protected` vuol dire invece che solamente le istanze della
@@ -236,7 +238,7 @@ Ruby differisce leggermente: `public` vuol dire sempre pubblico, ma
 chiamati con un ricevente esplicito*, solamente **self** può essere
 usato come ricevente per una chiamata ad un metodo pubblico.
 
- `protected` è il più inusuale dei tre. Un metodo protetto può essere chiamato da un’istanza della classe o delle sue derivate, ma anche con un’altra istanza come receiver. Per chiarificare meglio il concetto, consideriamo questo semplice esempio adattato dalle [Ruby FAQ][1]\:
+`protected` è il più inusuale dei tre. Un metodo protetto può essere chiamato da un’istanza della classe o delle sue derivate, ma anche con un’altra istanza come receiver. Per chiarificare meglio il concetto, consideriamo questo semplice esempio adattato dalle [Ruby FAQ][1]\:
 
 {% highlight ruby %}
 $ irb
@@ -281,7 +283,7 @@ irb(main):026:0>
 
 ### Classi aperte
 
- In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli oggetti. Ruby on Rails, per esempio, definishe una serie di metodi per fare operazioni temporali con oggetti `Fixnum`\:
+In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli oggetti. Ruby on Rails, per esempio, definishe una serie di metodi per fare operazioni temporali con oggetti `Fixnum`\:
 
 {% highlight ruby %}
 class Fixnum
@@ -435,7 +437,9 @@ metodi e non possono essere ridefiniti:
 
 Inoltre, +=, \*= ecc. sono solo abbreviazioni di:
 
- `var = var + other_var`, `var = var * other_var`, ecc. e quindi non possono essere ridefiniti ## Per saperne di più
+`var = var + other_var`, `var = var * other_var`, ecc. e quindi non possono essere ridefiniti.
+
+## Per saperne di più
 
 Quando se pronto per imparare di più su Ruby, dai un’occhiata alla
 sezione [Documentazione](/it/documentation/).

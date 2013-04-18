@@ -72,7 +72,7 @@ irb(main):002:0> "george".object_id == "george".object_id
 irb(main):003:0>
 {% endhighlight %}
 
- `object_id` 方法會回傳物件的識別編號。如果有兩個物件有相同的 `object_id` 表示它們其實是同一個(指向同一個記憶體位置)。 如你所見，使用過 Symbols 之後，任何相同名字的 Symbol 都是指記憶體裡的同一個物件。對任何相同名字的 Symbols，它們的
+`object_id` 方法會回傳物件的識別編號。如果有兩個物件有相同的 `object_id` 表示它們其實是同一個(指向同一個記憶體位置)。 如你所見，使用過 Symbols 之後，任何相同名字的 Symbol 都是指記憶體裡的同一個物件。對任何相同名字的 Symbols，它們的
 `object_id` 都一樣。
 
 讓我們來看看字串 “george”，它們的 `object_id`
@@ -183,7 +183,9 @@ class MyClass
 end
 {% endhighlight %}
 
- `public`, `private` 和 `protected` 其實也是一種方法，所以可以接受參數。如果你傳入一個 Symbol，那個該 Symbol 代表的方法就會改變存取權限。 ### 方法存取權限
+`public`, `private` 和 `protected` 其實也是一種方法，所以可以接受參數。如果你傳入一個 Symbol，那個該 Symbol 代表的方法就會改變存取權限。
+
+### 方法存取權限
 
 在 Java 裡，`public` 表示方法可以被任何人呼叫。`protected` 表示只有這個類別的實例、衍生類別的實例，以及相同
 package 類別的實例可以呼叫，而 `private` 表示除了這個類別的實例之外，其他都不行呼叫。
@@ -191,7 +193,7 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
 在 Ruby 中，`public` 還是一樣是公開的意思，其他則有一點差異。`private`
 表示只有不指定接受者(receiver)時才可以呼叫，也就是只有 **self** 可以當成 private 方法的接受者。
 
- `protected` 也有點不同。一個 protected 方法除了可以被一個類別或衍生類別的實例呼叫，也可以讓另一個相同類別的實例來當做接受者。 來看看 [Ruby FAQ][1] 的例子：
+`protected` 也有點不同。一個 protected 方法除了可以被一個類別或衍生類別的實例呼叫，也可以讓另一個相同類別的實例來當做接受者。 來看看 [Ruby FAQ][1] 的例子：
 
 {% highlight ruby %}
 $ irb

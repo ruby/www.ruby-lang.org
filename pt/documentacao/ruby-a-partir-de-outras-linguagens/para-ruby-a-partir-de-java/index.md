@@ -4,9 +4,11 @@ title: "Para Ruby a partir de Java"
 lang: pt
 ---
 
- Java é maduro. Está testado. E é rápido (contrariamente ao que todos os grupos anti-java possam dizer). Também é bastante palavroso. Ao passares de Java para Ruby, o programador poderá esperar que o tamanho do seu código diminua consideravelmente. Também poderá esperar demorar menos tempo a criar um prototipo aplicacional. ### Semelhanças
+Java é maduro. Está testado. E é rápido (contrariamente ao que todos os grupos anti-java possam dizer). Também é bastante palavroso. Ao passares de Java para Ruby, o programador poderá esperar que o tamanho do seu código diminua consideravelmente. Também poderá esperar demorar menos tempo a criar um prototipo aplicacional.
 
- Tal como em Java, em Ruby… * A memoria é gerida automaticamente através de um garbage collector.
+### Semelhanças
+
+Tal como em Java, em Ruby… * A memoria é gerida automaticamente através de um garbage collector.
 * Os Objectos são fortemente tipados.
 * Existem métodos públicos, privados e protegidos.
 * Existem ferramentas de documentação embebidas (a de Ruby chama-se
@@ -15,7 +17,7 @@ lang: pt
 
 ### Diferenças
 
- Ao contrário de Java, em Ruby… * Não precisará de compilar código-fonte, pois este é executado
+Ao contrário de Java, em Ruby… * Não precisará de compilar código-fonte, pois este é executado
   directamente.
 * Existem vários conjuntos de ferramentas de desenvolvimento com
   interface gráfica (GUI). Os utilizadores de Ruby podem experimentar

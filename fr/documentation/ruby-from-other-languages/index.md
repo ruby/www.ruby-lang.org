@@ -154,7 +154,9 @@ def Constante
 end
 {% endhighlight %}
 
- `Constante` vaut 10, mais `Constante()` vaut 11. ### De vrai-faux paramètres mot-clés
+`Constante` vaut 10, mais `Constante()` vaut 11.
+
+### De vrai-faux paramètres mot-clés
 
 Ruby ne possède pas de paramètre mot-clés, comme Python. Cependant, il
 est possible de retrouver cette fonctionnalité avec des symboles et des
@@ -184,8 +186,7 @@ else:
   print "0 est faux/false"
 {% endhighlight %}
 
-Ce qui affichera « 0 est faux/false. » L’équivalent en Ruby, maintenant
-:
+Ce qui affichera « 0 est faux/false. » L’équivalent en Ruby, maintenant :
 
 {% highlight ruby %}
 # en Ruby

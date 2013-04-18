@@ -210,7 +210,9 @@ class MyClass
 end
 {% endhighlight %}
 
- `public`, `private` and `protected` to tak naprawdę metody, mogą więc przyjmowac paramatery. Jeśli tym metodom przekażesz Symbol jako parametr, zmienisz widoczność danej metody. ### Dostęp do metod
+`public`, `private` and `protected` to tak naprawdę metody, mogą więc przyjmowac paramatery. Jeśli tym metodom przekażesz Symbol jako parametr, zmienisz widoczność danej metody.
+
+### Dostęp do metod
 
 W JAvie, `public` oznacza, że dana metoda jest dostępna dla wszystkich.
 `protected` oznacza, że dostęp mają instancje danej klasy i klas
@@ -222,7 +224,7 @@ dostęp publiczny. `private` oznacza, że dana metoda(y) jest dostępna
 tylko wtedy, jeśli można ją wywołać bez wyraźnego określenia odbiorcy.
 Jedynie **self** jest dozwolonym odbiorcą wywołań prywatnych metod.
 
- `protected` jest tym, na co trzeba zwrócić uwagę. Metoda chroniona może być wywołana przez instancje danej klasy lub klas pochodnych, ale również przez inną instancję danej klasy. Poniżej przykład za [Ruby FAQ][1]\:
+`protected` jest tym, na co trzeba zwrócić uwagę. Metoda chroniona może być wywołana przez instancje danej klasy lub klas pochodnych, ale również przez inną instancję danej klasy. Poniżej przykład za [Ruby FAQ][1]\:
 
 {% highlight ruby %}
 $ irb
@@ -413,7 +415,9 @@ metodami dlatego nie można ich przedefiniować.
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
- Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`, `var = var * other_var`, etc. dlatego też nie można ich przedefiniować. ## Więcej
+Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`, `var = var * other_var`, etc. dlatego też nie można ich przedefiniować.
+
+## Więcej
 
 Więcej informacji na temat języka Ruby znajdziesz w
 [dokumentacji](/pl/dokumentacja/)

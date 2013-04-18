@@ -232,7 +232,9 @@ class MiClase
 end
 {% endhighlight %}
 
- `public`, `private` y `protected` en realidad son métodos, así que pueden recibir parámetros. Si pasas un símbolo a uno de ellos, la visibilidad de ese método es alterada. ### Acceso a los métodos
+`public`, `private` y `protected` en realidad son métodos, así que pueden recibir parámetros. Si pasas un símbolo a uno de ellos, la visibilidad de ese método es alterada.
+
+### Acceso a los métodos
 
 En Java, `public` significa que un método puede ser accedido por
 cualquiera. `protected` significa que las instancias de la clase,
@@ -444,7 +446,9 @@ sintácticas. No son métodos, y no pueden ser redefinidos:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
- Además, +=, \*= etc. sólo son abreviaciones para `var = var + otra_var`, `var = var * otra_var`, etc. y por ende no pueden ser redefinidos. ## Para saber más
+Además, +=, \*= etc. sólo son abreviaciones para `var = var + otra_var`, `var = var * otra_var`, etc. y por ende no pueden ser redefinidos.
+
+## Para saber más
 
 Cuando estés listo para saber más sobre Ruby, visita nuestra sección de
 [Documentación](/es/documentation/).

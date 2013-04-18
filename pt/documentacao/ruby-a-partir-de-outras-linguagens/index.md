@@ -231,7 +231,9 @@ class MyClass
 end
 {% endhighlight %}
 
- `public`, `private` e `protected` são, na verdade, métodos, por isso podem levar parâmetros. Se passar um Symbol a um deles, a visibilidade desse método é alterada. ### Acesso a métodos
+`public`, `private` e `protected` são, na verdade, métodos, por isso podem levar parâmetros. Se passar um Symbol a um deles, a visibilidade desse método é alterada.
+
+### Acesso a métodos
 
 Em Java, `public` significa que um método é acessível por todos;
 `protected` significa que instâncias da classe, instâncias de classes
@@ -244,7 +246,7 @@ significa que os métodos são acessíveis somente quando chamados com um
 receptor específico. Só **self** pode ser o receptor dum método privado
 Only **self** is allowed to be the receiver of a private method call.
 
- `protected` é aquele que se deve ter mais cuidado. Um método protegido pode ser chamado de uma class ou classes descendentes, mas também com outra instância como receptor. Exemplo adaptado da [Ruby FAQ][1]\:
+`protected` é aquele que se deve ter mais cuidado. Um método protegido pode ser chamado de uma class ou classes descendentes, mas também com outra instância como receptor. Exemplo adaptado da [Ruby FAQ][1]\:
 
 {% highlight ruby %}
 $ irb
@@ -444,7 +446,9 @@ métodos, e não podem ser redifinidos:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
- Como +=, \*= etc. são somente abreviações para `var = var + outra_var`, `var = var * outra_var`, etc. não podem ser redefinidos. ## Mais informação
+Como +=, \*= etc. são somente abreviações para `var = var + outra_var`, `var = var * outra_var`, etc. não podem ser redefinidos.
+
+## Mais informação
 
 Quando se sentir preparado para saber mais sobre Ruby, veja a nossa
 secção de [Documentação](/pt/documentacao/).

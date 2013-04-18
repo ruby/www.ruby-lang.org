@@ -71,7 +71,7 @@ irb(main):002:0> "george".object_id == "george".object_id
 irb(main):003:0>
 {% endhighlight %}
 
- `object_id` 函数返回的是对象的身份标识。如果两个对象有相同的 `object_id`， 那么他们就是相同的（指向同一个内存地址）。 可以看出，当符号在使用过一次后，任何相同字符的符号都会在内存中指向同一个对象地址。 也就是说任何相同字符的符号的 `object_id`
+`object_id` 函数返回的是对象的身份标识。如果两个对象有相同的 `object_id`， 那么他们就是相同的（指向同一个内存地址）。 可以看出，当符号在使用过一次后，任何相同字符的符号都会在内存中指向同一个对象地址。 也就是说任何相同字符的符号的 `object_id`
 都是相同的。
 
 (“george”)的字符串的 `object_id` 并不相同，这表示他们在内存种指向不同对象地址。 每当您创建一个新的字符串的时候，Ruby
@@ -99,7 +99,7 @@ end
 
 ### 命名约定
 
- Ruby 强制了一些命名约定。大写字母开头的是一个常量；美元符号($)开头的是全局变量； `@` 开头的是实例变量； `@@` 开头的是类变量。 然而函数的名字却可以大写字母开头。这可能会导致一些混淆，比如下面的例子：
+Ruby 强制了一些命名约定。大写字母开头的是一个常量；美元符号($)开头的是全局变量； `@` 开头的是实例变量； `@@` 开头的是类变量。 然而函数的名字却可以大写字母开头。这可能会导致一些混淆，比如下面的例子：
 
 {% highlight ruby %}
 Constant = 10
@@ -176,7 +176,9 @@ class MyClass
 end
 {% endhighlight %}
 
- `public`， `private` 和 `protected` 其实都是函数， 所以他们可以接受参数。如果您给他们传递一个符号的话，那么符号所代表的函数的可见性会被改变。 ### 函数访问
+`public`， `private` 和 `protected` 其实都是函数， 所以他们可以接受参数。如果您给他们传递一个符号的话，那么符号所代表的函数的可见性会被改变。
+
+### 函数访问
 
 在 Java 里，`public` 表示函数可以被任何人访问。`protected` 表示此类实例、此继承类的实例及在
 同一个包内的所有类的实例可以访问，其他人则不能。`private` 表示任何此类实例外的人都不能访问。
@@ -184,7 +186,7 @@ end
 Ruby 有些不同。`public` 还是公开的。`private`
 表示只有不需要给出接受者（receiver）的调用才是允许的。**self** 是隐藏 函数唯一承认的接收者。
 
- `protected` 应该特别注意。保护函数可以被类及继承类的实例调用，当其他实例作为接收者时，也可以被调用。 来自[Ruby FAQ][1] 的例子:
+`protected` 应该特别注意。保护函数可以被类及继承类的实例调用，当其他实例作为接收者时，也可以被调用。 来自[Ruby FAQ][1] 的例子:
 
 {% highlight ruby %}
 $ irb
@@ -229,7 +231,7 @@ irb(main):026:0>
 
 ### Classes are open
 
- Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:
+Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:
 
 {% highlight ruby %}
 class Fixnum
@@ -246,7 +248,7 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 ### Funny method names
 
- In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. <tt>Array#empty?</tt> returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. All methods that change their arguments don’t end with exclamation
+In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. <tt>Array#empty?</tt> returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. All methods that change their arguments don’t end with exclamation
 marks, though. <tt>Array#replace</tt> replaces the contents of an array
 with the contents of another array. It doesn’t make much sense to have a
 method like that that **doesn’t** modify self.
@@ -356,14 +358,16 @@ end
 
 You don’t need C++’s `operator+`, etc.
 
- You can even have array-style access if you define the `[]` and `[]=` methods. To define the unary + and – (think +1 and -2), you must define the `+@` and `-@` methods, respectively. The operators below are **not** syntactic sugar, though. They are not
+You can even have array-style access if you define the `[]` and `[]=` methods. To define the unary + and – (think +1 and -2), you must define the `+@` and `-@` methods, respectively. The operators below are **not** syntactic sugar, though. They are not
 methods, and cannot be redefined:
 
 {% highlight ruby %}
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
- In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined. ## Finding Out More
+In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined.
+
+## Finding Out More
 
 When you are ready for more Ruby knowledge, see our
 [Documentation](/zh_cn/documentation/) section.

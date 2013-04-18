@@ -246,7 +246,9 @@ class KelasSaya
 end
 {% endhighlight %}
 
- `public`, `private` dan `protected` benar-benar merupakan metode, sehingga mereka bisa menerima parameter. Jika Anda melewatkan `Symbol` pada satu dari parameter, maka *visibility* metode diubah. ### Akses Metode
+`public`, `private` dan `protected` benar-benar merupakan metode, sehingga mereka bisa menerima parameter. Jika Anda melewatkan `Symbol` pada satu dari parameter, maka *visibility* metode diubah.
+
+### Akses Metode
 
 Di Java, `public` berarti metode bisa diakses oleh siapa saja.
 `protected` berarti *instance* kelas, *instance* dari kelas-kelas
@@ -259,7 +261,7 @@ metode hanya bisa diakses ketika metode bisa dipanggil tanpa obyek
 penerima yang eksplisit. Hanya **self** yang boleh menjadi receiver
 pemanggilan metode private.
 
- `protected` perlu diperhatikan lebih lanjut. Metode `protected` bisa dipanggil dari kelas ataupun *instance* kelas turunan, tetapi juga dengan *instance* lain sebagai penerima. Contoh, diadaptasi dari [Ruby FAQ][2]\:
+`protected` perlu diperhatikan lebih lanjut. Metode `protected` bisa dipanggil dari kelas ataupun *instance* kelas turunan, tetapi juga dengan *instance* lain sebagai penerima. Contoh, diadaptasi dari [Ruby FAQ][2]\:
 
 {% highlight ruby %}
 $ irb
