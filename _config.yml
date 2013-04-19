@@ -1475,5 +1475,6 @@ locales:
       <a href="http://rubyidentity.org">Ruby topluluğunun üyeleri</a> tarafından gururla sürdürülmektedir.
       Herhangi bir soru ya da öneriniz için lütfen <a href="mailto:webmaster@ruby-lang.org">site yöneticimiz</a> ile irtibata geçin.
     zh_cn: |
-      本网站制作工具使用 Ruby 和 <a href="http://www.jekyllrb.com/">Jekyll</a>，并且有来自 Ruby 社区一些令人骄傲的会员共同维护。
-      如果您有任何疑问或者不明白的注释请联系我们的站点<a href="mailto:webmaster@ruby-lang.org">管理员</a>。
+      本网站使用Ruby工具<a href="http://www.jekyllrb.com/">Jekyll</a>制作，并有幸由来自Ruby社区的会员共同维护。
+      请贡献代码至<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
+      如有任何疑问和意见，请联系我们的站点<a href="mailto:webmaster@ruby-lang.org">管理员</a>。
