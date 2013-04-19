@@ -43,6 +43,9 @@ Here are recent issues.
   at 10 Jan, 2010
 * [Heap overflow in String][15] published at 7 Dec, 2009
 * [DoS vulnerability in
+  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal)
+  published at 9 Jun, 2009
+* [DoS vulnerability in
   REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/) published at
   23 Aug, 2008
 * [Multiple vulnerabilities in
