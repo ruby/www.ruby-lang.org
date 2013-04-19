@@ -17,8 +17,8 @@ Gemeldete Probleme werden veröffentlicht, nachdem sie behoben wurden.
 
 Hier ein Liste kürzlich bekannt gewordener Probleme:
 
-* [Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe)][1]
-  veröffentlicht am 22. Feb. 2013.
+* [Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe,
+  CVE-2013-1821)][1] veröffentlicht am 22. Feb. 2013.
 * [Denial-of-Service- und Objekterstellungs-Sicherheitslücken in JSON
   (CVE-2013-0269)][2] veröffentlicht am 22. Feb. 2013.
 * [XSS-Exploit für RDoc-Dokumentation][3] veröffentlicht am 6. Feb. 2013.
