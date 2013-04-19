@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe)"
+title: "Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe, CVE-2013-1821)"
 author: "Quintus"
 date: 2013-02-23 09:14:24 UTC
 lang: de
 ---
 
 Unkontrollierte Expansion von Entitäten in REXML kann zu einer
-DoS-Verwundbareit führen (die CVE-Nummer wird später noch zugewiesen).
-Wir empfehlen stark, Ruby zu aktualisieren.
+DoS-Verwundbareit führen. Dieser Verwundbarkeit wurde die CVE-Nummer
+CVE-2013-1821 zugewiesen. Wir empfehlen stark, Ruby zu aktualisieren.
 
 ### Details
 
@@ -106,5 +106,6 @@ Vielen Dank an Ben Murphy für das Melden dieses Problems.
 
 ### Verlauf
 
+* CVE-Nummer ergänzt am 2013-03-11 07:45:00 (UTC)
 * Erstmals veröffentlicht am 2013-02-22 12:00:00 (UTC)
 
