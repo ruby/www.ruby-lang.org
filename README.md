@@ -8,8 +8,10 @@ the [www.ruby-lang.org](http://www.ruby-lang.org/) website.
 
 You can contribute by reporting errors or suggesting improvements.
 Just open an issue or pull request.
-Further details about contributing are
-[available in the wiki](https://github.com/ruby/www.ruby-lang.org/wiki).
+
+This is a big project with many translations involved.
+Please help us stay on top of things by following our
+[guidelines for contributors](https://github.com/ruby/www.ruby-lang.org/wiki).
 
 ## Get It!
 
