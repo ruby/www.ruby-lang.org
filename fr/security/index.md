@@ -19,8 +19,8 @@ création d\'un patch résolvant la vulnérabilité.
 * [Vulnérabilité WEBrick par injection d\'une séquence
   d\'échappement][1] publiée le 10 janvier 2010
 * [Heap overflow in String][2] publiée le 7 décembre 2009
-* [DoS vulnerability in
-  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal)
+* [Vulnérabilité de type DoS dans la librairie
+  BigDecimal](/fr/news/2009/06/10/vulnrabilit-de-type-dos-dans-la-librairie-bigdecimal/)
   publiée le 9 juin 2009
 * [DoS vulnerability in
   REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/) publiée le 23

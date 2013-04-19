@@ -19,8 +19,7 @@ key](/security.asc)) ，這是一個保密的郵件論壇。回報的問題會�
 * [WEBrick has an Escape Sequence Injection vulnerability][2] published
   at 10 Jan, 2010
 * [Heap overflow in String][3] published at 7 Dec, 2009
-* [DoS vulnerability in
-  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal)
+* [BigDecimal 中的 DoS 弱點](/zh_TW/news/2009/07/21/bigdecimal-dos-/)
   published at 9 Jun, 2009
 * [DoS vulnerability in
   REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/) published at
