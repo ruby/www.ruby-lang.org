@@ -62,8 +62,8 @@ locales:
         url:  /de/community
       - text: Neuigkeiten
         url:  /de/news
-#     - text: Sicherheit
-#       url:  /de/security
+      - text: Sicherheit
+        url:  /de/security
       - text: Über Ruby
         url:  /de/about
     en:
