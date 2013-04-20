@@ -31,9 +31,11 @@ français. L’usage d’un langage de programmation, quel qu’il soit,
 nécessite hélas (?) encore quelques notions essentielles dans la langue
 de [Shakespeare][2].
 
-## *Interactive Ruby*
+## Interactive Ruby
 
- Une première approche de Ruby, la plus simple, consiste à utiliser IRB (*Interactive Ruby*) dans un terminal : * si vous utilisez **Mac OS X**, ouvrez un `Terminal` et tapez `irb`,
+Une première approche de Ruby, la plus simple, consiste à utiliser IRB (*Interactive Ruby*) dans un terminal :
+
+* si vous utilisez **Mac OS X**, ouvrez un `Terminal` et tapez `irb`,
   puis appuyez sur \[Entrée\] ;
 * si vous êtes sous **Linux**, ouvrez une console et tapez `irb`, puis
   appuyez sur \[Entrée\] ;
@@ -115,7 +117,7 @@ irb(main):006:0> Math.sqrt(9)
 {% endhighlight %}
 
 Un peu moins trivial. Vous avez vraisembablement deviné que cela
-demandait la racine carré (Ndt : ***sq**uare* ***r***oo***t*** en
+demandait la racine carré (Ndt : **sq**uare **r**oo**t** en
 anglais). Mais qu’est-ce que ce `Math` ?
 
 ## Les modules, ou comment regrouper le code par thématiques
