@@ -23,7 +23,9 @@ Technorati.](http://technorati.com/chartimg/%28ruby%29?totalHits=391174&amp;size
 [**Ruby on Technorati**][3]\: Technorati’s search for *“Ruby”* yields
 the most recent posts across the blogs covered in its index.
 
- **Planets**\: some planets (online specialized feeds agregators) have been running for years now. A few of them providing convenient content: * [Ruby Corner][4]
+**Planets**\: some planets (online specialized feeds agregators) have been running for years now. A few of them providing convenient content:
+
+* [Ruby Corner][4]
 * [Planet Ruby][5]
 * [PlanetRubyOnRails.org][6]
 * [PlanetRubyOnRails.com][7]

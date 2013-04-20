@@ -19,7 +19,9 @@ quelques sites agrègent un certain nombre d’entre elles.
 [**Ruby sur Technorati**][3]\: donne accès aux derniers billets publiés
 sur les blogs suivis par le robot Technorati.
 
- **Planètes**\: un certains nombre de planètes (agrégateurs thématiques en ligne) dédiés à Ruby ont vu le jour. Quelques exemples notables : * [Ruby Corner][4]
+**Planètes**\: un certains nombre de planètes (agrégateurs thématiques en ligne) dédiés à Ruby ont vu le jour. Quelques exemples notables :
+
+* [Ruby Corner][4]
 * [Planet Ruby][5]
 * [PlanetRubyonRails.org][6]
 * [PlanetRubyOnRails.com][7]

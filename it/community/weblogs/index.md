@@ -19,7 +19,9 @@ chart][2] per i recenti arrivati nella comunità Ruby.
 Technorati *“Ruby”* elenca i post più recenti fra i blog seguiti dal suo
 indice.
 
- **Planets**\: Alcuni *planet* (aggregatori di feed specializzati) sono oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti: * [Ruby Corner][4]
+**Planets**\: Alcuni *planet* (aggregatori di feed specializzati) sono oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti:
+
+* [Ruby Corner][4]
 * [Planet Ruby][5]
 * [PlanetRubyOnRails.org][6]
 * [PlanetRubyOnRails.com][7]

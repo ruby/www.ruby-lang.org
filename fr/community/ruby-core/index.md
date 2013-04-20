@@ -114,7 +114,9 @@ nouveau après quelques jours si votre question n’a pas reçu de réponse.
 ### Règles et usages pour les développeurs principaux
 {: #coding-standards}
 
- Les développeurs de Ruby devraient évidemment être à l’aise avec le code source et le style utilisé par l’équipe principale. Les principales règles à vérifier avant tout envoi vers le dépôt Subversion sont : * tout *check in* doit être décrit dans le `ChangeLog`, en respectant
+Les développeurs de Ruby devraient évidemment être à l’aise avec le code source et le style utilisé par l’équipe principale. Les principales règles à vérifier avant tout envoi vers le dépôt Subversion sont :
+
+* tout *check in* doit être décrit dans le `ChangeLog`, en respectant
   les [conventions GNU][13]. Plusieurs développeurs principaux utilisent
   le mode `add-log` d’Emacs à cette fin, mode s’activant par la
   combinaison `C-x 4 a` ;
