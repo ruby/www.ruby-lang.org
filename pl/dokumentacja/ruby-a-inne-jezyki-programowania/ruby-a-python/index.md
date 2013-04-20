@@ -10,7 +10,9 @@ nauczenia jest trochę więcej składni niż w Pythonie.
 
 ### Podobieństwa
 
- Podobnie jak w Pythonie, w Rubim,... * Jest interaktywna konsola (nazwya się `irb`).
+Podobnie jak w Pythonie, w Rubim,...
+
+* Jest interaktywna konsola (nazwya się `irb`).
 * Możesz czytać dokumentację z linii poleceń (używając komendy `ri`
   zamiast `pydoc`).
 * Nie ma specjalnych znaków oznaczających koniec linii (poza zwykłym
@@ -30,7 +32,9 @@ nauczenia jest trochę więcej składni niż w Pythonie.
 
 ### Różnice
 
- W odróżnieniu od Pythona, w Rubim,... * Stringi są mutowalne (modyfikowalne).
+W odróżnieniu od Pythona, w Rubim,...
+
+* Stringi są mutowalne (modyfikowalne).
 * Możesz tworzyć stałe.
 * Istnieje kilka narzuconych konwencji (np. nazwy klas zaczynają się z
   dużej litery, nazwy zmiennych zaczynają się z małej litery).

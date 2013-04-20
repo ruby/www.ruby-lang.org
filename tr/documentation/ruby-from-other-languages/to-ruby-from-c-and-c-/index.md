@@ -32,7 +32,9 @@ Ve tabii ki Ruby’nin kendisi de C ile yazılmıştır.
 
 ### C ile Benzerlikler
 
- C gibi Ruby de,... * Prosedürel programlama yapabilirsiniz (fakat arka planda o hala
+C gibi Ruby de,...
+
+* Prosedürel programlama yapabilirsiniz (fakat arka planda o hala
   nesne-yönelimli olacaktır).
 * Operatörlerin birçoğu aynıdır (birleşik eşitlemeler ve ikili
   işlemciler dahil). Ama ruby’de `++` ve `--` yoktur.
@@ -48,7 +50,9 @@ Ve tabii ki Ruby’nin kendisi de C ile yazılmıştır.
 
 ### C++ ile Benzerlikler
 
- C++ gibi Ruby de,... * Çoğunlukla aynı operatörler kullanılır (`::` dahil). `<<` ile genelde
+C++ gibi Ruby de,...
+
+* Çoğunlukla aynı operatörler kullanılır (`::` dahil). `<<` ile genelde
   listelere elemanlar eklenir. Bir fark olarak Ruby’de `->` kullanılmaz
   herzaman `.` kullanılır.
 * `public`, `private`, ve `protected` benzer işlev görür.
@@ -60,7 +64,9 @@ Ve tabii ki Ruby’nin kendisi de C ile yazılmıştır.
 
 ### C’den Farklılıklar
 
- Ruby’de C’den farklı olarak,... * Obje yönetimi çok güçlüdür (mesela değişkenlerin tipi yoktur).
+Ruby’de C’den farklı olarak,...
+
+* Obje yönetimi çok güçlüdür (mesela değişkenlerin tipi yoktur).
 * Makrolar ya da önyükleme komutları yoktur. Cast yoktur. İşaretçiler
   (veya işaretçi aritmetiği) yoktur. Tip ve boyut tanımlaması yoktur.
 * Header dosyalar yoktur. Fonksiyonlarınızı (genelde metod denir) ve
@@ -99,7 +105,9 @@ Ve tabii ki Ruby’nin kendisi de C ile yazılmıştır.
 
 ### C++’tan Farklar
 
- Ruby’de C++’tan farklı,... * Mutlak referanslar yoktur. Şu demek Ruby’de tüm değişkenler bir objeye
+Ruby’de C++’tan farklı,...
+
+* Mutlak referanslar yoktur. Şu demek Ruby’de tüm değişkenler bir objeye
   referans eden isimlerdir.
 * Objeler kararlıdır ama *dinamik* olarak değişebilir. Runtime bir
   metodun çalışabilirliğini *çalışırken* araştırır.

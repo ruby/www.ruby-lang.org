@@ -12,7 +12,9 @@ tiempo el armado de prototipos.
 
 ### Semejanzas
 
- Como en Java, en Ruby… * la memoria es manejada automáticamente mediante un colector de basura
+Como en Java, en Ruby…
+
+* la memoria es manejada automáticamente mediante un colector de basura
   (garbage collector).
 * los objetos son fuertemente tipados.
 * hay métodos públicos, privados y protegidos.
@@ -22,7 +24,9 @@ tiempo el armado de prototipos.
 
 ### Diferencias
 
- A diferencia de Java, en Ruby… * no necesitas compilar tu código fuente. Directamente lo ejecutas.
+A diferencia de Java, en Ruby…
+
+* no necesitas compilar tu código fuente. Directamente lo ejecutas.
 * hay distintos conjuntos de herramientas para interfaz gráfica. Los
   usuarios de Ruby pueden probar con [WxRuby][1], [FXRuby][2],
   [Ruby-GNOME2][3], o el Ruby Tk incluido, por ejemplo.

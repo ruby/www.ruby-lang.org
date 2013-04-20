@@ -12,7 +12,9 @@ di prototipi riutilizzabili risulti più facile e veloce.
 
 ### Somiglianze
 
- Come in Java, in Ruby… * La memoria è gestita automaticamente tramite un garbage collector.
+Come in Java, in Ruby…
+
+* La memoria è gestita automaticamente tramite un garbage collector.
 * Gli oggetti sono fortemente tipizzati.
 * Ci sono metodi pubblici, privati e protetti.
 * Esistono dei tool di documentazione embeddati, come RDoc, che generano
@@ -20,7 +22,9 @@ di prototipi riutilizzabili risulti più facile e veloce.
 
 ### Differenze
 
- A differenza di Java, in Ruby… * Non devi compilare il codice, viene eseguito direttamente.
+A differenza di Java, in Ruby…
+
+* Non devi compilare il codice, viene eseguito direttamente.
 * Ci sono molti toolkit di terze parti per creare interfacce grafiche,
   per esempio [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], o Ruby Tk (già
   integrato).

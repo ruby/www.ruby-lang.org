@@ -38,7 +38,9 @@ Enfin, Ruby est lui-même écrit en C.
 
 ### Similarités avec le C
 
- Tout comme en C, en Ruby… * vous pouvez faire de la programmation impérative (mais il s’agira
+Tout comme en C, en Ruby…
+
+* vous pouvez faire de la programmation impérative (mais il s’agira
   implicitement de programmation orientée objet) ;
 * la plupart des opérateurs sont les mêmes (y compris les raccourcis
   d’opérations et les opérateurs sur les bits). Par contre, Ruby ne
@@ -56,7 +58,9 @@ Enfin, Ruby est lui-même écrit en C.
 
 ### Similarités avec C++
 
- Tout comme en C++, en Ruby… * vous avez à votre disposition les mêmes opérateurs (même `::`). `<<`
+Tout comme en C++, en Ruby…
+
+* vous avez à votre disposition les mêmes opérateurs (même `::`). `<<`
   est souvent utilisé pour ajouter des éléments à la fin d’une liste. À
   noter cependant : en Ruby, vous n’utiliserez jamais `->`, mais
   toujours et uniquement `.` ;
@@ -70,7 +74,9 @@ Enfin, Ruby est lui-même écrit en C.
 
 ### Différences avec le C
 
- Contrairement au C, avec Ruby… * les objets sont fortement typés (et les noms de variables en eux-mêmes
+Contrairement au C, avec Ruby…
+
+* les objets sont fortement typés (et les noms de variables en eux-mêmes
   sont dépourvus de type) ;
 * pas de macros ou *preprocessing*. Pas de *casts*. Pas de pointeurs (ni
   d’arithmétique des pointeurs). Pas de *typedef*, *sizeof*, encore
@@ -120,7 +126,9 @@ Enfin, Ruby est lui-même écrit en C.
 
 ### Différences avec le C++
 
- Contrairement au C++, en Ruby… * il n’y a pas de références explicite. C’est-à-dire qu’en Ruby, toute
+Contrairement au C++, en Ruby…
+
+* il n’y a pas de références explicite. C’est-à-dire qu’en Ruby, toute
   variable est simplement un nom automatiquement déréférencé pour un
   objet quelconque ;
 * les objets sont fortement mais aussi *dynamiquement* typés. Lors de

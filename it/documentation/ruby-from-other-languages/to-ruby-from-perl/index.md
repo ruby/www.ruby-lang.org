@@ -13,7 +13,9 @@ Ruby può essere la risposta che essi cercano.
 
 ### Somiglianze
 
- Come in Perl, in Ruby… * Hai un sistema di amministrazione package, simile a CPAN (che si
+Come in Perl, in Ruby…
+
+* Hai un sistema di amministrazione package, simile a CPAN (che si
   chiama “[RubyGems][1])
 * Le “Regular Expressions” sono construite nel linguaggio (buon
   appetito!).
@@ -33,7 +35,9 @@ Ruby può essere la risposta che essi cercano.
 
 ### Differenze
 
- A differenza di Perl, in Ruby,... * Non hai regole che dipendono dal contesto come in Perl.
+A differenza di Perl, in Ruby,...
+
+* Non hai regole che dipendono dal contesto come in Perl.
 * Una variabile non è la stessa cosa dell’oggetto al quale fa
   riferimento. Invece, è solamente un riferimento a un oggetto.
 * Benchè i simboli `$` and <tt>`</tt> vengano usati (in casi specifici)

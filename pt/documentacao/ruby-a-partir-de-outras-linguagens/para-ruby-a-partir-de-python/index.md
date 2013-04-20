@@ -10,7 +10,9 @@ Python.
 
 ### Similaridades
 
- Assim com em Python, em Ruby… * Há um prompt interactivo (chamado `irb`).
+Assim com em Python, em Ruby…
+
+* Há um prompt interactivo (chamado `irb`).
 * Pode ler documentos na linha de comandos (com o comando `ri` em vez do
   `pydoc`).
 * Não há terminadores de linha especiais (excepto a usual nova linha).
@@ -30,7 +32,9 @@ Python.
 
 ### Diferenças
 
- Em oposição ao Pyhton, no Ruby,... * As strings são mutáveis.
+Em oposição ao Pyhton, no Ruby,...
+
+* As strings são mutáveis.
 * Pode criar constantes (variáveis as quais o valor não pretende mudar).
 * Há algumas “case-conversions” forçadas (ex. nomes de classes começam
   com uma maiúsculas, variáveis começam com uma letra minúscula).

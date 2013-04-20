@@ -12,7 +12,9 @@ tworzenie szybkich prototypów.
 
 ### Podobieństwa
 
- Tak jak w Javie, w Rubim… * Pamięć jest zarządzana przez garbage collector.
+Tak jak w Javie, w Rubim…
+
+* Pamięć jest zarządzana przez garbage collector.
 * Obiekty są silnie typowane.
 * Występują metody publiczne, prywatne i chronione.
 * Istnieją wbudowane narzędzia dokumentujące (te Rubiego nazywane są
@@ -21,7 +23,9 @@ tworzenie szybkich prototypów.
 
 ### Różnice
 
- W przeciwieństwie do Javy, w Rubim… * Nie musisz kompilować twojego kodu. Po prostu go uruchamiasz.
+W przeciwieństwie do Javy, w Rubim…
+
+* Nie musisz kompilować twojego kodu. Po prostu go uruchamiasz.
 * Istnieją inne toolkity GUI. Użytkownicy Rubiego mogą spróbować
   [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], lub dla przykładu
   wbudowanego w Rubiego Tk.

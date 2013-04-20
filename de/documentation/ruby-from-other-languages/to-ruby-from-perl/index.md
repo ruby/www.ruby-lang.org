@@ -12,7 +12,9 @@ you.
 
 ### Similarities
 
- As with Perl, in Ruby,... * you’ve got a package management system, somewhat like CPAN (though
+As with Perl, in Ruby,...
+
+* you’ve got a package management system, somewhat like CPAN (though
   it’s called [RubyGems][1])
 * regexes are built right in. Bon appétit!
 * there’s a fairly large number of commonly-used built-ins.
@@ -30,7 +32,9 @@ you.
 
 ### Differences
 
- Unlike Perl, in Ruby,... * you don’t have the context-dependent rules like with Perl.
+Unlike Perl, in Ruby,...
+
+* you don’t have the context-dependent rules like with Perl.
 * a variable isn’t the same as the object to which it refers. Instead,
   it’s always just a reference to an object.
 * although `$` and <tt>@</tt> are used as the first character in

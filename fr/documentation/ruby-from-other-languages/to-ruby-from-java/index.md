@@ -12,7 +12,9 @@ prototypes.
 
 ### Similarités
 
- Tout comme en Java, en Ruby… * la mémoire est l’affaire d’un *garbage collector* ;
+Tout comme en Java, en Ruby…
+
+* la mémoire est l’affaire d’un *garbage collector* ;
 * les objets sont fortement typés ;
 * il y a des méthodes privées, publiques, protégées ;
 * il y a des outils de documentation fournis par défaut (`ri`, RDoc),
@@ -20,7 +22,9 @@ prototypes.
 
 ### Différences
 
- Contrairement à Java, en Ruby… * il n’ai pas besoin de compiler son code, simplement de l’exécuter
+Contrairement à Java, en Ruby…
+
+* il n’ai pas besoin de compiler son code, simplement de l’exécuter
   directement ;
 * des *toolkits* graphiques différents sont disponibles. Voir par
   exemple [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], ou la bilbiothèque

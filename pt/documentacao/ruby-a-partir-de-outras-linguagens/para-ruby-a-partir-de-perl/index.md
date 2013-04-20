@@ -13,7 +13,9 @@ solução.
 
 ### Semelhanças
 
- Tal como no Perl, em Ruby,... * Existe um sistema de gestão de pacotes, semelhante ao CPAN (chamado
+Tal como no Perl, em Ruby,...
+
+* Existe um sistema de gestão de pacotes, semelhante ao CPAN (chamado
   [RubyGems][1])
 * O Tratamento de Expressões Regulares (Regexes) está embebido na
   linguagem. Bon appétit!

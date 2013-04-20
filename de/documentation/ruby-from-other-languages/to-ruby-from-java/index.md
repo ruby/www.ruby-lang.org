@@ -12,7 +12,9 @@ Zusammenbasteln von Prototypen weniger Zeit in Anspruch nimmt.
 
 ### Ähnlichkeiten
 
- In Java und Ruby… * wird Speicher von einem **Garbage-Collector** verwaltet.
+In Java und Ruby…
+
+* wird Speicher von einem **Garbage-Collector** verwaltet.
 * sind Objekte **stark getypt**.
 * können Methoden `public`, `private` und `protected` sein.
 * sind Werkzeuge zur **Dokumentation** enthalten. In Ruby gibt es RDoc;
@@ -21,7 +23,9 @@ Zusammenbasteln von Prototypen weniger Zeit in Anspruch nimmt.
 
 ### Unterschiede
 
- Anders als in Java… * muss **nicht kompiliert** werden. Der Quellcode wird direkt
+Anders als in Java…
+
+* muss **nicht kompiliert** werden. Der Quellcode wird direkt
   ausgeführt.
 * gibt es verschiedene **GUI-Toolkits**. Ruby-Entwickler können folgende
   Toolkits ausprobieren: [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],

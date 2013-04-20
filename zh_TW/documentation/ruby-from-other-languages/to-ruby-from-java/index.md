@@ -9,14 +9,18 @@ Java 是個成熟，通過考驗，而且執行速度快(與反對者所指恰�
 
 ### 相似點
 
- Ruby與Java一樣的地方，... * 記憶體透過垃圾回收(Garbage Collection)機制管理。
+Ruby與Java一樣的地方，...
+
+* 記憶體透過垃圾回收(Garbage Collection)機制管理。
 * 物件為強型別(Strongly typed)。
 * 有 public, private, 與 protected 方法。
 * 也有將原始碼轉成文件的工具(Ruby的叫做RDoc)，文件以 rdoc 產生的樣子與 javadoc 類似。
 
 ### 相異點
 
- Ruby與Java不同的地方，... * 不用編譯程式，直接跑它就行了。
+Ruby與Java不同的地方，...
+
+* 不用編譯程式，直接跑它就行了。
 * 有不同的圖形介面(GUI)工具組，例如可以試試 [WxRuby][1] ， [FXRuby][2] ， [Ruby-GNOME2][3]
   ，或已經包在Ruby裡的Tk。
 * 以 `end` 這個關鍵字作為定義類別(class)等的結尾，不必用大括號包著程式區塊。

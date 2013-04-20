@@ -10,7 +10,9 @@ généraliste, Ruby vaut certainement le coup d’œil.
 
 ### Similarités
 
- Tout comme en PHP, en Ruby… * le typage est dynamique : pas besoin de déclarer les variables ;
+Tout comme en PHP, en Ruby…
+
+* le typage est dynamique : pas besoin de déclarer les variables ;
 * il y a des classes, dont la gestion est la même qu’en PHP 5 (`public`,
   `protected`, `private`, etc.) ;
 * certaines variables débutant par `$` (mais pas toutes : seulement les
@@ -28,7 +30,9 @@ généraliste, Ruby vaut certainement le coup d’œil.
 
 ### Différences
 
- Contrairement à PHP, avec Ruby… * le typage est fort. Il faut utiliser des méthodes comme `to_s`, `to_i`
+Contrairement à PHP, avec Ruby…
+
+* le typage est fort. Il faut utiliser des méthodes comme `to_s`, `to_i`
   pour faire les conversions de types ;
 * nombres, chaînes de caractères, tableaux, hash, etc. tous sont des
   objets. Par exemple, on écrira `-1.abs` et non pas `abs(-1)` ;

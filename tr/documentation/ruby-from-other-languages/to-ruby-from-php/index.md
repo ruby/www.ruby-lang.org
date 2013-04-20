@@ -10,7 +10,9 @@ istiyorsanız, Ruby’ye bir göz atmaya değer.
 
 ### Benzerlikler
 
- PHP’de olduğu gibi, Rubyde… * Ruby dinamik olarak yazılan bir dildir, PHP’de olduğu gibi, bu yüzden
+PHP’de olduğu gibi, Rubyde…
+
+* Ruby dinamik olarak yazılan bir dildir, PHP’de olduğu gibi, bu yüzden
   değişken tanımlama konusunda endişelenmenize gerek yok
 * Sınıflar vardır, ve bu sınıflara PHP 5’te olduğu gibi erişebilirsiniz.
   (`public`, `protected` ve `private`)
@@ -30,7 +32,9 @@ istiyorsanız, Ruby’ye bir göz atmaya değer.
 
 ### Farklılıklar
 
- PHP’nin aksine, Rubyde… * Güçlü yazım vardır. Karakter dizisi ve sayı tipi gibi veri tipleri
+PHP’nin aksine, Rubyde…
+
+* Güçlü yazım vardır. Karakter dizisi ve sayı tipi gibi veri tipleri
   arasında çeviri yapabilmek için bunu yapması için dile güvenmek yerine
   `to_s`, `to_i` vs. metodları kullanmalısınız.
 * Karakter dizileri, sayılar, dizeler, hash veri tipleri, vs. nesnedir.

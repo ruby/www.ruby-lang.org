@@ -10,7 +10,9 @@ use, Ruby is worth a look.
 
 ### Similarities
 
- As in PHP, in Ruby… * Ruby is dynamically typed, like in PHP, so you don’t need to worry
+As in PHP, in Ruby…
+
+* Ruby is dynamically typed, like in PHP, so you don’t need to worry
   about having to declare variables.
 * There are classes, and you can control access to them like in PHP 5
   (`public`, `protected` and `private`)
@@ -28,7 +30,9 @@ use, Ruby is worth a look.
 
 ### Differences
 
- Unlike in PHP, in Ruby… * There’s strong typing. You’ll need to call `to_s`, `to_i` etc. to
+Unlike in PHP, in Ruby…
+
+* There’s strong typing. You’ll need to call `to_s`, `to_i` etc. to
   convert between strings, integers and so on, instead of relying on the
   language to do it
 * Strings, numbers, arrays, hashes, etc. are objects. Instead of calling

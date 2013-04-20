@@ -12,7 +12,9 @@ olabilir.
 
 ### Benzerlikler
 
- Perl’de olduğu gibi Ruby’de de,... * CPAN benzeri bir paket yönetim sistemi vardır ([RubyGems][1])
+Perl’de olduğu gibi Ruby’de de,...
+
+* CPAN benzeri bir paket yönetim sistemi vardır ([RubyGems][1])
 * Regex’ler içine gömülüdür. Bon appétit!
 * Birçok sık kullanılan özellik içinde gömülüdür.
 * Parantezler çoğunlukla isteğe bağlıdır
@@ -29,7 +31,9 @@ olabilir.
 
 ### Farklar
 
- Ruby’de Perl’den farklı olarak,... * Perl’deki gibi içeriğe bağlı kurallar yoktur.
+Ruby’de Perl’den farklı olarak,...
+
+* Perl’deki gibi içeriğe bağlı kurallar yoktur.
 * Bir değişken gösterdiği nesne ile aynı şey değildir. Sadece nesneye
   referans verir.
 * `$` ve <tt>@</tt> karakterleri bazen değişken isminin ilk harfi olarak

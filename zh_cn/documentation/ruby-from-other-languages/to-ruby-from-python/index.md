@@ -10,7 +10,9 @@ to learn than with Python.
 
 ### Similarities
 
- As with Python, in Ruby,... * There’s an interactive prompt (called `irb`).
+As with Python, in Ruby,...
+
+* There’s an interactive prompt (called `irb`).
 * You can read docs on the command line (with the `ri` command instead
   of `pydoc`).
 * There are no special line terminators (except the usual newline).
@@ -28,7 +30,9 @@ to learn than with Python.
 
 ### Differences
 
- Unlike Python, in Ruby,... * Strings are mutable.
+Unlike Python, in Ruby,...
+
+* Strings are mutable.
 * You can make constants (variables whose value you don’t intend to
   change).
 * There are some enforced case-conventions (ex. class names start with a

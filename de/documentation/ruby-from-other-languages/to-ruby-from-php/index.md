@@ -10,7 +10,9 @@ allgemeinere Fälle ausgelegt ist, ist Ruby sicher einen Blick wert.
 
 ### Gemeinsamkeiten
 
- Genauso wie in PHP ist Ruby… * Ruby ist eine dynamisch typisierte Sprache, so dass man sich keine
+Genauso wie in PHP ist Ruby…
+
+* Ruby ist eine dynamisch typisierte Sprache, so dass man sich keine
   Gedanken um die Deklaration von Variablen machen muss.
 * Ruby kennt Klassen und die gleichen Mechanismen für die
   Zugriffskontrolle wie PHP 5 (`public`, `protected` und `private`)
@@ -31,7 +33,9 @@ allgemeinere Fälle ausgelegt ist, ist Ruby sicher einen Blick wert.
 
 ### Unterschiede
 
- Im Gegensatz zu PHP hat Ruby… * Es gibt auch strenge Typisierung: man muss explizit Funktionen zur
+Im Gegensatz zu PHP hat Ruby…
+
+* Es gibt auch strenge Typisierung: man muss explizit Funktionen zur
   Typkonvertierung aufrufen. Z.B. `to_s` oder `to_i`
 * strings, numbers, arrays, hashes, etc. sind Objekte. Also statt
   abs(-1) schreibt man in Ruby -1.abs

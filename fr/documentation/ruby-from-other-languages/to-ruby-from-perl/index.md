@@ -13,7 +13,9 @@ pourrait bien être intéressant.
 
 ### Similarités
 
- Tout comme en Perl, en Ruby… * vous avez un système de paquets, comme CPAN : [RubyGems][1] ;
+Tout comme en Perl, en Ruby…
+
+* vous avez un système de paquets, comme CPAN : [RubyGems][1] ;
 * les regex (expressions régulières) font partie du pack de base ;
 * il y a pas mal d’outils d’usage courant fournis d’office ;
 * les parenthèses sont souvent optionnelles ;
@@ -30,7 +32,9 @@ pourrait bien être intéressant.
 
 ### Différences
 
- Contrairement à Perl, en Ruby… * pas de règles dépendantes du contexte ;
+Contrairement à Perl, en Ruby…
+
+* pas de règles dépendantes du contexte ;
 * une variable n’est pas la même chose que l’objet auquel elle se réfère
   : c’est toujours en Ruby une référence (et seulement cela) à un objet
   ;

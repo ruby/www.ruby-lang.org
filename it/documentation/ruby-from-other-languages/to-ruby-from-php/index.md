@@ -11,7 +11,9 @@ caso tuo.
 
 ### Somiglianze
 
- Come in PHP, in Ruby… * viene usata una tipizzazione dinamica, come in PHP, quindi non devi
+Come in PHP, in Ruby…
+
+* viene usata una tipizzazione dinamica, come in PHP, quindi non devi
   preoccuparti di dichiariare variabili.
 * Esistono delle classi, delle quali puoi controllare l’accesso come in
   PHP (`public`, `protected` and `private`)
@@ -29,7 +31,9 @@ caso tuo.
 
 ### Differenze
 
- A differenza di PHP, in Ruby… * C’è una forte tipizzazione. Devi chiamare `to_s`, `to_i` ecc. per
+A differenza di PHP, in Ruby…
+
+* C’è una forte tipizzazione. Devi chiamare `to_s`, `to_i` ecc. per
   effettuare delle conversioni tra stringhe, numeri interi, e così via,
   invece di lasciare al linguaggio tale compito
 * Stringhe, numeri, array, hash ecc. sono degli oggetti. Invece di

@@ -11,7 +11,9 @@ Rubiego.
 
 ### Podobieństwa
 
- Tak jak w PHP, w Rubim… * Ruby jest językiem dynamicznie typowanym, tak jak w PHP, stąd też nie
+Tak jak w PHP, w Rubim…
+
+* Ruby jest językiem dynamicznie typowanym, tak jak w PHP, stąd też nie
   musisz się martwić o deklaracje typów zmiennych.
 * Istnieją klasy, oraz możesz kontrolować dostęp do nich jak w PHP5
   (`public`, `protected` i `private`).
@@ -31,7 +33,9 @@ Rubiego.
 
 ### Różnice
 
- W przeciwieństwie do PHP, w Rubim… * Istnieje silna typizacja. Musisz wywołać `to_s`, `to_i` itd., aby
+W przeciwieństwie do PHP, w Rubim…
+
+* Istnieje silna typizacja. Musisz wywołać `to_s`, `to_i` itd., aby
   przeprowadzić konwersje pomiędzy łańcuchami znaków, liczbami
   całkowitymi i podobnymi, zamiast polegać, że język zrobi to za ciebie.
 * Stringi, liczby, tablice, hasze itp. są obiektami. Zamiast wywoływać

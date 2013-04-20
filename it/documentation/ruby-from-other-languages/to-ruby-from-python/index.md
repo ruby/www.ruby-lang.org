@@ -10,7 +10,9 @@ imparare che in Python.
 
 ### Somiglianze
 
- Come in Python, in Ruby,... * C’è un prompt interattivo (chiamato `irb`).
+Come in Python, in Ruby,...
+
+* C’è un prompt interattivo (chiamato `irb`).
 * Puoi consultare la documentazione da riga di comando (con il comando
   `ri` invece di `pydoc`).
 * Non ci sono terminatori di riga speciali (eccetto l’accapo).
@@ -31,7 +33,9 @@ imparare che in Python.
 
 ### Differenze
 
- A differenza di Python, in Ruby… * Le stringhe sono mutabili.
+A differenza di Python, in Ruby…
+
+* Le stringhe sono mutabili.
 * È possibile creare delle costanti (variabili che non vengono
   cambiate).
 * Ci sono delle convenzioni riguardanti i nomi e le maiuscole (per

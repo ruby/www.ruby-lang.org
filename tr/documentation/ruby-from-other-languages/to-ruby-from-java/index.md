@@ -11,7 +11,9 @@ prototiplere daha çabuk ulaşırsınız.
 
 ### Benzerlikler
 
- Java’da olduğu gibi Ruby’de de,... * Hafıza kullanımı sizin tarafınızdan yönetilir.
+Java’da olduğu gibi Ruby’de de,...
+
+* Hafıza kullanımı sizin tarafınızdan yönetilir.
 * Nesneleri işlemekte güçlüdür.
 * Public, private ve protected metodlar vardır.
 * Gömülü dökümanlama araçları vardır (Ruby’ninki RDoc olarak
@@ -20,7 +22,9 @@ prototiplere daha çabuk ulaşırsınız.
 
 ### Farklar
 
- Ruby’de Java’dan farklı olarak,... * Kodunuzu derlemeye gerek yoktur, direk olarak çalıştırırsınız.
+Ruby’de Java’dan farklı olarak,...
+
+* Kodunuzu derlemeye gerek yoktur, direk olarak çalıştırırsınız.
 * Ruby kullanıcıları değişik GUI araşları kullanabilir [WxRuby][1],
   [FXRuby][2], [Ruby-GNOME2][3], ya da Ruby içinde yüklü gelen Tk
   bunların bazıları.

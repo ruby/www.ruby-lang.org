@@ -10,7 +10,9 @@ fazla söz dizimi bulabilirsiniz.
 
 ### Benzerlikler
 
- Pythonda olduğu gibi,rubyde,... * Etkileşimli komut satırı vardır. (`irb` olarak bilinir).
+Pythonda olduğu gibi,rubyde,...
+
+* Etkileşimli komut satırı vardır. (`irb` olarak bilinir).
 * dökümanları komut satırında okuyabilirsiniz. (`pydoc` yerine `ri`
   komutuyla).
 * Özel satır sonlandırıcıları yoktur. (Her zamanki yeni satır hariç).
@@ -29,7 +31,9 @@ fazla söz dizimi bulabilirsiniz.
 
 ### Farklılıklar
 
- Python’ın aksine, Rubyde,... * Karakter dizeleri değişebilir.
+Python’ın aksine, Rubyde,...
+
+* Karakter dizeleri değişebilir.
 * Sabitler oluşturabilirsiniz. (Değerinin değişmesini istemediğiniz
   değişkenler).
 * Bazı zorunlu harf kuralları vardır. (ör. sınıf isimleri büyük harfle

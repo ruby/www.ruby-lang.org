@@ -11,7 +11,9 @@ vista de olhos ao Ruby.
 
 ### Semelhanças
 
- Tal como no PHP, em Ruby … * O Ruby é tipado dinamicamente, tal como o PHP, não é necessário
+Tal como no PHP, em Ruby …
+
+* O Ruby é tipado dinamicamente, tal como o PHP, não é necessário
   declarar variavéis.
 * Existem classes e é possível controlar o acesso a elas tal como em PHP
   5 (`public`, `protected` and `private`)
@@ -30,7 +32,9 @@ vista de olhos ao Ruby.
 
 ### Diferenças
 
- Diferente do PHP, em Ruby … * Existe uma tipagem forte. Deverá utilizar os métodos `to_s`, `to_i`
+Diferente do PHP, em Ruby …
+
+* Existe uma tipagem forte. Deverá utilizar os métodos `to_s`, `to_i`
   etc. para converter entre strings, inteiros e demais tipos, em vez de
   confiar na linguagem para o fazer.
 * Strings, números, arrays, hashes, etc. são objectos. Em vez de

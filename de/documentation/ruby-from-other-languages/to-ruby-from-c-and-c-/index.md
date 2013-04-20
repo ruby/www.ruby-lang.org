@@ -42,7 +42,9 @@ Verwendung von abstrakten Typen und Methoden überflüssig macht.
 
 ### Gemeinsamkeiten und Ähnlichkeiten mit C
 
- Ruby und C haben tatsächlich eine Reihe von Gemeinsamkeiten: * Man kann in Ruby prozedural programmieren. (Man kann in *jeder*
+Ruby und C haben tatsächlich eine Reihe von Gemeinsamkeiten:
+
+* Man kann in Ruby prozedural programmieren. (Man kann in *jeder*
   Programmiersprache FORTRAN programmieren…) Allerdings nicht, ohne
   viele der vorhanden Objekte zu verwenden.
 * Die meisten der Operatoren sind gleich, einschließlich der
@@ -64,7 +66,9 @@ Verwendung von abstrakten Typen und Methoden überflüssig macht.
 
 ### Gemeinsamkeiten und Ähnlichkeiten mit C++
 
- Mit C++ gibt es eine Reihe von formalen und inhaltlichen Übereinstimmungen: * Es gibt weitere gemeinsame Operatoren wie `::`. Der *Shift*-Operator
+Mit C++ gibt es eine Reihe von formalen und inhaltlichen Übereinstimmungen:
+
+* Es gibt weitere gemeinsame Operatoren wie `::`. Der *Shift*-Operator
   `<<` wird z. B. auch verwendet, um Elemente an eine Liste anzuhängen.
   Es gibt allerdings keine *Pointer* und folglich keinen Pfeil-Operator
   `->`, es wird immer der Punkt `.` verwendet.
@@ -80,7 +84,9 @@ Verwendung von abstrakten Typen und Methoden überflüssig macht.
 
 ### Unterschiede zwischen Ruby und C
 
- Es gibt allerdings deutlich mehr Unterschiede als Gemeinsamkeiten zwischen Ruby und C: * Stand Ruby 1.8 wird Ruby-Code interpretiert. Es gibt keinen Compiler,
+Es gibt allerdings deutlich mehr Unterschiede als Gemeinsamkeiten zwischen Ruby und C:
+
+* Stand Ruby 1.8 wird Ruby-Code interpretiert. Es gibt keinen Compiler,
   der Machinen- oder Byte-Code erzeugt.
 * Es gibt keine direkte Möglichkeit, Assembler-Code zu verwenden.
 * Ruby-Code wird so interpretiert, wie er ist. Dementsprechend gibt es

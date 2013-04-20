@@ -11,7 +11,9 @@ n’est pas trop éloigné.
 
 ### Similarités
 
- Tout comme en Python, en Ruby… * il existe un shell interactif (*Interactive Ruby*, avec la commande
+Tout comme en Python, en Ruby…
+
+* il existe un shell interactif (*Interactive Ruby*, avec la commande
   `irb`) ;
 * la documentation est accessible dans le terminal par la commande `ri`,
   à l’instar de `pydoc` ;
@@ -33,7 +35,9 @@ n’est pas trop éloigné.
 
 ### Différences
 
- Contrairement à Python, en Ruby… * les chaînes sont altérables ;
+Contrairement à Python, en Ruby…
+
+* les chaînes sont altérables ;
 * vous pouvez créer des constantes (pour Ruby, des variables dont la
   valeur n’est pas censée changer) ;
 * quelques règles de nommage sont imposées (par exemple, les noms de
