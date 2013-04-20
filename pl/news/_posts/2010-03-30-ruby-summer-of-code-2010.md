@@ -13,7 +13,9 @@ coroczne [Ruby Summer of Code][4].
 Aby dowiedzieć się więcej odwiedź [rubysoc.org][4] oraz obserwuj
 [@rubysoc][5].
 
- Wszystko odbywać się będzie według zasad podobnych do tych z Google Summer of Code czyli: * studenci którzy zgłosili się do udziału w projekcie otrzymają $5000 za
+Wszystko odbywać się będzie według zasad podobnych do tych z Google Summer of Code czyli:
+
+* studenci którzy zgłosili się do udziału w projekcie otrzymają $5000 za
   swoją pracę w ciągu wakacyjnej przerwy
 * nad projektami pieczę sprawować będzie grupa doświadczonych
   programistów Rubiego, będą oni mentorami studentów, oraz sędziami

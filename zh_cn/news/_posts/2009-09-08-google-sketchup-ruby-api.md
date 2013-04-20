@@ -13,11 +13,17 @@ SketchUp 的菜单中的宏，例如自动化组件生成器和其他工具。�
 
 喜欢使用 Ruby 并且对 3D 图形操作有兴趣的，可以关注一下。
 
- Google SketchUp Ruby API: * [http://code.google.com/intl/zh-CN/apis/sketchup/][1]
+Google SketchUp Ruby API:
 
- Google SketchUp 官方 * [http://SketchUp.google.com][2]
+* [http://code.google.com/intl/zh-CN/apis/sketchup/][1]
 
- Google SketchUp 中文门户 * [http://www.SketchUpBAR.com][3]
+Google SketchUp 官方
+
+* [http://SketchUp.google.com][2]
+
+Google SketchUp 中文门户
+
+* [http://www.SketchUpBAR.com][3]
 
 
 

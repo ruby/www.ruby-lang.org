@@ -13,7 +13,9 @@ organisent le premier [Ruby Summer of Code][4].
 Rendez-vous sur [rubysoc.org][4] pour tous les détails, et sur
 [@rubysoc][5] pour l’actualité.
 
- Le Ruby Summer sera très proche dans son organisation de l’évènement organisé par Google : * les étudiants obtiennent une bourse de $5000 pour travailler à temps
+Le Ruby Summer sera très proche dans son organisation de l’évènement organisé par Google :
+
+* les étudiants obtiennent une bourse de $5000 pour travailler à temps
   plein sur leur projet pendant les vacances d’été ;
 * un groupe de gourous de la communauté Ruby se sont portés volontaires
   pour être leurs mentors ;

@@ -13,7 +13,9 @@ Code][4].
 Head over to [rubysoc.org][4] to get started and follow [@rubysoc][5]
 for news.
 
- The summer will follow Google’s example closely: * students are paid a $5000 stipend to work full-time during their
+The summer will follow Google’s example closely:
+
+* students are paid a $5000 stipend to work full-time during their
   summer break
 * a group of Ruby gurus volunteer their time as mentors
 * mentors vote on student proposals based on usefulness, benefit to the

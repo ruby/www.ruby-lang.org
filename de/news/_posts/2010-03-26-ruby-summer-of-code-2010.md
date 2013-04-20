@@ -9,7 +9,9 @@ Googles Vorbild folgend veranstalten [Ruby Central][1], [Engine
 Yard][2], sowie das [Rails core team][3] den ersten [Ruby Summer of
 Code][4].
 
- Die Bedingungen ähneln denen des Google Summer of Code: * Studenten erhalten ein Stipendium von $5000, um während ihrer
+Die Bedingungen ähneln denen des Google Summer of Code:
+
+* Studenten erhalten ein Stipendium von $5000, um während ihrer
   Semesterferien an ihrem Projekt zu arbeiten
 * Die freiwilligen Mentoren entstammen der Ruby-Community
 * Die Mentoren bewerten die Vorschläge der Studenten nach Anwendbarkeit,

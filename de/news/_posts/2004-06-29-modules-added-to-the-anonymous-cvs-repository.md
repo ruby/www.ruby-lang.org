@@ -5,7 +5,9 @@ author: "Shugo Maeda"
 lang: de
 ---
 
- These checked modules are added to the Anonymous CVS repository. * app
+These checked modules are added to the Anonymous CVS repository.
+
+* app
 * lib(except soap4r,csv)
 * eruby
 * oniguruma
