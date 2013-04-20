@@ -45,6 +45,7 @@ allgemeinere Fälle ausgelegt ist, ist Ruby sicher einen Blick wert.
 * Es gibt keine `abstract` Klassen und auch keine @interface@s
 * Hashes und Arrays sind verschiedene Typen in Ruby.
 * nur `false` und `nil` liefern false: `0`, `array()` und `""` ergeben
-  in Bedingungen true. \* fast alles ist Methodenaufruf, sogar `raise`
+  in Bedingungen true.
+* fast alles ist Methodenaufruf, sogar `raise`
   (`throw` in PHP).
 

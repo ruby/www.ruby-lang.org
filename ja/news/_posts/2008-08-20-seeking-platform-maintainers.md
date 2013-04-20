@@ -14,7 +14,7 @@ Rubyコア開発陣はいくつかのプラットフォームにおけるRuby 1.
 * Itanium platforms (Windows, GNU/Linux, ...)
 * PPC platforms
 * x64 GNU/Linux
-* \*BSD
+* BSD
 * BeOS (Haiku)
 * OpenVMS
 * WinCE

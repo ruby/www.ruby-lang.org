@@ -11,7 +11,7 @@ Matz announced that ruby 1.8.2 was released
 
 This is mainly a bug fix release. You can download it at:
 
-\*[ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.2.tar.gz][1]
+* [ftp://ftp.ruby-lang.org/pub/ruby/ruby-1.8.2.tar.gz][1]
 
 md5sum is 8ffc79d96f336b80f2690a17601dea9b
 

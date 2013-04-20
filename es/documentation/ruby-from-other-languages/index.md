@@ -178,8 +178,8 @@ parametros_con_nombre( :param_uno => 10, :param_dos => 42 )
 ### La verdad universal
 
 En Ruby, todo excepto **nil** y **false** es considerado **true**. En C,
-Python y muchos otros lenguajes, **0\* y posiblemente otros valores,
-como listas vacías, son considerados \*false**. Examina el siguiente
+Python y muchos otros lenguajes, **0** y posiblemente otros valores,
+como listas vacías, son considerados **false**. Examina el siguiente
 código Python (el ejemplo aplica también a otros lenguajes):
 
 {% highlight ruby %}

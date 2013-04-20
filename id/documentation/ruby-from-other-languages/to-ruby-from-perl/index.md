@@ -36,7 +36,7 @@ BOTOL
 print "No more beer on the wall :-(\n";
 {% endhighlight %}
 
-Program tersebut dapat ditulis sebagai berikut di Ruby: \*
+Program tersebut dapat ditulis sebagai berikut di Ruby:
 
 {% highlight ruby %}
 puts "\n It's beer song time!\n"
@@ -52,8 +52,8 @@ puts sep
 puts "\n No more beer on the wall :-("
 {% endhighlight %}
 
-* Algoritma yang digunakan kedua program tersebut sedikit berbeda, tapi
-  secara fungsionalitas sama.
+Algoritma yang digunakan kedua program tersebut sedikit berbeda, tapi
+secara fungsionalitas sama.
 
 Sumber: [Perl][2] (ditulis oleh [Jim Menard][3]), [Ruby][4] (ditulis
 oleh *binary42*)

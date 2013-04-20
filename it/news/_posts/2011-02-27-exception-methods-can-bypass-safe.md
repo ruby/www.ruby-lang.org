@@ -5,12 +5,12 @@ author: "Fabio Cevasco"
 lang: it
 ---
 
-Il metodo Exception#to\_s può essere usato per bypassare il controllo $SAFE, e ciò rende possibile la modifica di stringhe arbitrarie tramite codice \*untrusted\*.
+Il metodo Exception#to\_s può essere usato per bypassare il controllo $SAFE, e ciò rende possibile la modifica di stringhe arbitrarie tramite codice **untrusted**.
 
 ### Descrizione dettagliata
 
 Secondo le semantiche della variabile $SAFE, un safe level di 4 è usato
-per eseguire codice *untrusted*(come ad esempio un plugin). In questo
+per eseguire codice *untrusted* (come ad esempio un plugin). In questo
 modo, per i livelli superiori, alcune operazioni sono proibite per
 prevenire codice *untrusted* dall\'attaccare dati *trusted*.
 
@@ -39,7 +39,7 @@ Fortunatamente questo tipo di attacco non ha effetto per le versioni
 
 * Ruby 1.8.6 patchlevel 420 e tutte le versioni precedenti
 * Ruby 1.8.7 patchlevel 330 e tutte le versioni precedenti
-* Ve3rsioni di sviluppo di Ruby 1.8 (1.8.8dev)
+* Versioni di sviluppo di Ruby 1.8 (1.8.8dev)
 
 ### Soluzioni
 
