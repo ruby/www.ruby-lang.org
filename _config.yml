@@ -250,6 +250,8 @@ locales:
         url: /zh_TW/about
 
   search:
+    bg:
+      text: Търси
     de:
       text: Suche
       cx_id: "008918821236166936739:xplclbf3sh0"
@@ -258,6 +260,24 @@ locales:
       cx_id: "013598269713424429640:g5orptiw95w"
     es:
       text: Buscar
+    fr:
+      text: Search
+      cx_id: "016749562256550695330:efcmgh3a1ac"
+    id:
+      text: Cari
+    ja:
+      text: 検索
+      cx_id: "008288045305770251182:fvruzsaknew"
+    ko:
+      text: 찾기
+    pl:
+      text: Szukaj
+    pt:
+      text: Procurar
+    tr:
+      text: Ara
+    zh_cn:
+      text: 搜索
 
   slogan:
     bg: "Ruby - най-добрият приятел на програмиста"
