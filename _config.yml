@@ -249,6 +249,16 @@ locales:
       - text: 關於 Ruby
         url: /zh_TW/about
 
+  search:
+    de:
+      text: Suche
+      cx_id: "008918821236166936739:xplclbf3sh0"
+    en:
+      text: Search
+      cx_id: "013598269713424429640:g5orptiw95w"
+    es:
+      text: Buscar
+
   slogan:
     bg: "Ruby - най-добрият приятел на програмиста"
     de: "Ruby - Der beste Freund eines Programmierers"
