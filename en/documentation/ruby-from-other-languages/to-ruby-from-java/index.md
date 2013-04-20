@@ -11,7 +11,9 @@ also expect it to take less time to knock together quick prototypes.
 
 ### Similarities
 
- As with Java, in Ruby,... * Memory is managed for you via a garbage collector.
+As with Java, in Ruby,...
+
+* Memory is managed for you via a garbage collector.
 * Objects are strongly typed.
 * There are public, private, and protected methods.
 * There are embedded doc tools (Ruby’s is called RDoc). The docs
@@ -19,7 +21,9 @@ also expect it to take less time to knock together quick prototypes.
 
 ### Differences
 
- Unlike Java, in Ruby,... * You don’t need to compile your code. You just run it directly.
+Unlike Java, in Ruby,...
+
+* You don’t need to compile your code. You just run it directly.
 * There are several different popular third-party GUI toolkits. Ruby
   users can try [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], or the
   bundled-in Ruby Tk for example.
