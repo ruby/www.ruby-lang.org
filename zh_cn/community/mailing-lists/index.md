@@ -33,8 +33,9 @@ Ruby-CVS
 | 操作 | <select name="action"><option value="subscribe">Subscribe</option><option value="unsubscribe">Unsubscribe</option></select> |
 {: .fieldset cellspacing="0" cellpadding="0" border="0"}
 
-: \* Subscribe – 订阅，Unsubscribe – 退订
-<div algin="center" class="buttons">
+\* Subscribe – 订阅，Unsubscribe – 退订
+
+<div class="buttons">
 <input class="button" type="submit" value="提交表格" />
 </div>
 </form>
