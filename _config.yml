@@ -261,10 +261,12 @@ locales:
     es:
       text: Buscar
     fr:
-      text: Search
+      text: Recherche
       cx_id: "016749562256550695330:efcmgh3a1ac"
     id:
       text: Cari
+    it:
+      text: Cerca
     ja:
       text: 検索
       cx_id: "008288045305770251182:fvruzsaknew"
@@ -278,6 +280,8 @@ locales:
       text: Ara
     zh_cn:
       text: 搜索
+    zh_TW:
+      text: Search
 
   slogan:
     bg: "Ruby - най-добрият приятел на програмиста"
