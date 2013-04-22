@@ -141,6 +141,7 @@ resolv.rbには、リモートの攻撃者が偽造したDNS問い合わせの�
 
 1.8系
 : 1\.8.6-p287または1.8.7-p72に更新してください。
+
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz&gt;][2]
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz&gt;][3]
 

@@ -39,12 +39,14 @@ Supportato
 : Abbiamo verificato che Ruby 1.9.2 funziona perfettamente su queste
   piattaforme. Per questa ragione continuiamo a mantenere la versione
   1.9.2 per questi sistemi.
+
   * Debian GNU/Linux 5.0 on IA32.
 
 Con i migliori sforzi
 : Abbiamo verificato che Ruby 1.9.2 funziona bene, per la maggior parte,
   su queste piattaforme. Per questa ragione continuiamo a mantenere la
   versione 1.9.2 per questi sistemi.
+
   * mswin32, x64-mswin64, mingw32
   * MacOS X 10.5 (Intel) e 10.6
   * FreeBSD 6 and successivo (amd64, IA32)
@@ -55,6 +57,7 @@ Forse
 : Pensiamo che Ruby 1.9.2 possa funzionare bene su queste piattaforme,
   con qualche piccola modifica. Ciononostante, non è stato verificato e
   patch sono ben accette.
+
   * Altre distribuzioni di Linux
   * Altre versioni di MacOS X.
   * cygwin
@@ -65,6 +68,7 @@ Forse
 Non Supportato
 : Non pensiamo che Ruby 1.9.2 funzioni su queste piattaforme. Porting
   ben accetto.
+
   * Qualsiasi altro sistema
 
 ### Domande Frequenti

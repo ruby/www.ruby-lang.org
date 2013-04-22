@@ -35,11 +35,13 @@ Ruby 1.9 a 4 niveaux de support.
 Supporté
 : Nous avons vérifié que Ruby 1.9.2 fonctionne correctement dessus. Et
   nous continuerons de maintenir Ruby 1.9.2 dessus.
+
   * Debian GNU/Linux 5.0 sur IA32.
 
 Best Effort
 : Nous avons vérifié que Ruby 1.9.2 fonctionne généralement correctement
   dessus. Et nous croyons pouvoir maintenir Ruby 1.9.2 dessus.
+
   * mswin32, x64-mswin64, mingw32
   * MacOS X 10.5 (Intel) et 10.6
   * FreeBSD version 6 et suivantes (amd64, IA32)
@@ -49,6 +51,7 @@ Best Effort
 Peut-être
 : Ruby 1.9.2 fonctionne probablement bien dessus, mais ce n\'est pas
   vérifié. Les patchs sont la bienvenue.
+
   * Les autres distributions Linux
   * Les autres versions de MacOS X.
   * cygwin
@@ -59,6 +62,7 @@ Peut-être
 Pas supporté
 : Ruby 1.9.2 ne fonctionne probablement pas dessus. Un portage est le
   bienvenu.
+
   * N\'importe quel autre système
 
 ### FAQ

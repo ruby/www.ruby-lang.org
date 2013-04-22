@@ -34,6 +34,7 @@ lang: ja
 
 1.8系
 : 1\.8.5-p231または1.8.6-p230・1.8.7-p22に更新してください。
+
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz&gt;][6]
     (md5sum: e900cf225d55414bffe878f00a85807c)
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz&gt;][7]
@@ -43,6 +44,7 @@ lang: ja
 
 1.9系
 : 1\.9.0-2に更新してください。
+
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz&gt;][9]
     (md5sum: 2a848b81ed1d6393b88eec8aa6173b75)
 

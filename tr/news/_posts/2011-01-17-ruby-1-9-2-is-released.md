@@ -33,10 +33,12 @@ Ruby 1.9 dört seviyede destek verir.
 
 Desteklenen
 : Ruby 1.9.2 nin sağlıklı çalıştığı denenmiştir..
+
   * Debian GNU/Linux 5.0 на IA32.
 
 Çalışma yapılmış
 : Ruby 1.9.2 nin birçoğunda sağlıklı çalıştığı denenmiştir.
+
   * mswin32, x64-mswin64, mingw32
   * MacOS X 10.5 (Intel) and 10.6
   * FreeBSD 6 and later (amd64, IA32)
@@ -46,6 +48,7 @@ Desteklenen
 Çalışma yapılmış
 : Ruby 1.9.2 nin birçoğunda birkaç modifikasyonla sağlıklı çalıştığı
   denenmiştir. Yama gerektirir.
+
   * Other Linux distributions
   * Other versions of MacOS X.
   * cygwin

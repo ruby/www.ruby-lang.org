@@ -25,8 +25,8 @@ Ruby-Talk
   [Ruby-Forum.org][8]. ([Rangkuman Mingguan][9], [FAQ][10], [Arsip][11])
 
 Ruby-Core
-: Mendiskusikan implementasi *interpreter* Ruby, terutama penanganan
-  *patch* baru. ([Arsip][12])
+: Mendiskusikan implementasi *interpreter* Ruby, terutama
+  penanganan *patch* baru. ([Arsip][12])
 
 Ruby-Doc
 : Mendiskusikan standar dan *tools* dokumentasi Ruby. ([Arsip di

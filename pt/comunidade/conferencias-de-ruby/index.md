@@ -17,9 +17,9 @@ comunidade Ruby.
   num factor de 10 entre 2001 e 2006. A RubyConf disponibilizou um fórum
   para apresentações sobre tecnologias Ruby pelos seus criadores,
   incluindo opiniões de Nathaniel Talbot sobre *Test Unit*, Jim Weirich
-  sobre o Rake, David Heinemeier Hansson sobre o *Ruby on Rails*, Why
-  the Lucky Stiff sobre a biblioteca *YAML* e Sasada Koichi sobre a
-  *YARV*. O Matz esteve presente e falou em todas as conferências
+  sobre o Rake, David Heinemeier Hansson sobre o *Ruby on Rails*,
+  Why the Lucky Stiff sobre a biblioteca *YAML* e Sasada Koichi sobre
+  a *YARV*. O Matz esteve presente e falou em todas as conferências
   excepto uma.
 
 [RubyKaigi][3]

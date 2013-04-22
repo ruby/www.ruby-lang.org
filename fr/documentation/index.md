@@ -76,8 +76,8 @@ dominante en informatique. Bon courage !
 
 [*Programming Ruby*][12]
 : Le manuel fondateur sur Ruby en langue anglaise : il s’agit ici de la
-  première version du [livre le plus populaire sur Ruby][13], par les
-  *Pragmatic Programmers*.
+  première version du [livre le plus populaire sur Ruby][13],
+  par les *Pragmatic Programmers*.
 
 [*Ruby User’s Guide*][14]
 : Traduit depuis le texte original japonais de Yukihiro Matsumoto (le

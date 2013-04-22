@@ -140,6 +140,7 @@ This vulnerability was reported by Tanaka Akira.
 
 1.8 series
 : Please upgrade to 1.8.6-p287, or 1.8.7-p72.
+
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz&gt;][2]
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz&gt;][3]
 
