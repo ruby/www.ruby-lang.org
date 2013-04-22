@@ -8,7 +8,9 @@ Java é maduro. Está testado. E é rápido (contrariamente ao que todos os grup
 
 ### Semelhanças
 
-Tal como em Java, em Ruby… * A memoria é gerida automaticamente através de um garbage collector.
+Tal como em Java, em Ruby…
+
+* A memoria é gerida automaticamente através de um garbage collector.
 * Os Objectos são fortemente tipados.
 * Existem métodos públicos, privados e protegidos.
 * Existem ferramentas de documentação embebidas (a de Ruby chama-se
@@ -17,7 +19,9 @@ Tal como em Java, em Ruby… * A memoria é gerida automaticamente através de u
 
 ### Diferenças
 
-Ao contrário de Java, em Ruby… * Não precisará de compilar código-fonte, pois este é executado
+Ao contrário de Java, em Ruby…
+
+* Não precisará de compilar código-fonte, pois este é executado
   directamente.
 * Existem vários conjuntos de ferramentas de desenvolvimento com
   interface gráfica (GUI). Os utilizadores de Ruby podem experimentar
