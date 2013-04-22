@@ -84,8 +84,8 @@ Gems in deinen Ruby-Skripten verwenden kannst.
 ### RubyGems installieren
 {: #installing-rubygems}
 
-Um RubyGems zu installieren musst du zunächst die “aktuelle Version von
-RubyGems herunterladen”http://rubyforge.org/frs/?group\_id=126. Entpacke
+Um RubyGems zu installieren musst du zunächst die [aktuelle Version von
+RubyGems herunterladen](http://rubyforge.org/frs/?group_id=126). Entpacke
 das Archiv und führe das enthaltene Skript `setup.rb` aus. Unter manchen
 Betriebssystemen könnte es sein, dass du das mit Root-Privilegien tun
 musst.

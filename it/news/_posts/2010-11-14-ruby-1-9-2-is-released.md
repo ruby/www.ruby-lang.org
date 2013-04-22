@@ -25,8 +25,8 @@ eccetto per i cambiamenti seguenti:
   possibile usare questa libreria invece di \`syck\`
 
 Vedere i file
-\[NEWS\](http://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_2\_rc1/NEWS) e
-\[ChangeLog\](http://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_2\_rc1/ChangeLog)
+[NEWS](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS) e
+[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog)
 per ulteriori dettagli.
 
 Ruby 1.9.2 passa più del 99% della [RubySpec][1].
