@@ -138,8 +138,8 @@ quando submeter código no repositório CVS:
 * Declarações de funções no estilo K&amp;R são utilizadas por todo o
   código fonte Ruby e em todos as suas extensões.
 * Por favor, não use comentários ao estilo do C++ (`//`). Os
-  programadores de Ruby preferem os comentários multi-linha do C (`/* ..
-  */`).
+  programadores de Ruby preferem os comentários multi-linha do C
+  (`/* .. */`).
 
 
 

@@ -32,7 +32,7 @@ Ruby 1.9.2 [RubySpec][3] un %99 unu geçmiştir.
 Ruby 1.9 dört seviyede destek verir.
 
 Desteklenen
-: Ruby 1.9.2 nin sağlıklı çalıştığı denenmiştir..
+: Ruby 1.9.2 nin sağlıklı çalıştığı denenmiştir.
 
   * Debian GNU/Linux 5.0 на IA32.
 

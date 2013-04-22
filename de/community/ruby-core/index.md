@@ -125,8 +125,8 @@ werden:
 * K&amp;R Funktionsdeklarationen werden überall im Ruby-Sourcecode
   verwendet.
 * Bitte keine C++ Kommentare `//` verwenden. Das Ruby-Wartungsteam
-  bevorzugt stattdessen die Mehrzeilenkommentare von Standard-C (`/* ..
-  */`).
+  bevorzugt stattdessen die Mehrzeilenkommentare von Standard-C
+  (`/* .. */`).
 
 
 

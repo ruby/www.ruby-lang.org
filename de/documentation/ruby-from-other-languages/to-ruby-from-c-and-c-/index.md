@@ -59,7 +59,7 @@ Ruby und C haben tatsächlich eine Reihe von Gemeinsamkeiten:
   Bedeutungsunterschiede hat).
 * *Strings* sind veränderlich.
 * Die meiste Dokumentation kann mit dem `ri`-Befehl in einem
-  Terminal-Fenster angezeigt werden, genau wie *man pages* unter Unix..
+  Terminal-Fenster angezeigt werden, genau wie *man pages* unter Unix.
 * Es gibt einen `ruby-mode` für *emacs* und einen
   Kommandozeilen-Debugger. Aber es gibt natürlich auch integrierte
   Entwicklungsumgebungen.

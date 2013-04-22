@@ -94,7 +94,7 @@ tus programas Ruby.
 {: #installing-rubygems}
 
 Para instalar RubyGems, sigue las instrucciones que se detallan en
-[https://rubygems.org/pages/download][13]
+[https://rubygems.org/pages/download][13].
 
 
 
