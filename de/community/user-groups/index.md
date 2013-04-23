@@ -28,6 +28,7 @@ Anlaufstellen:
 [Ruby User Group Liste][2]
 : Eine Wikiseite mit bereits vorhandenen deutschsprachigen Ruby User
   Groups
+
 ### Eine eigene User Group organisieren
 
 Wer seine eigene Gruppe gründen will, sollte zuerst herausfinden, ob

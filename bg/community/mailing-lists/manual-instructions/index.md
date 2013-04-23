@@ -46,6 +46,7 @@ Ruby-CVS
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), адреса на
   администратора е
   [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+
 ### Отписване
 
 За да се отпишете от пощенски списък, изпратете писмо на адреса за

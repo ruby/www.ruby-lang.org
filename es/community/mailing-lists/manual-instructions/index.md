@@ -47,6 +47,7 @@ Ruby-CVS
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), y la
   dirección de la persona que la administra es
   [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+
 ### Desuscripción
 
 Para desuscribirse de una lista, envía un correo cuyo cuerpo sea

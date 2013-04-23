@@ -68,6 +68,7 @@ Ruby-CVS
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), dan alamat
   e-mail administrator di
   [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+
 ### Berhenti Berlangganan
 
 Untuk berhenti berlangganan dari sebuah milis, kirimkan e-mail dengan

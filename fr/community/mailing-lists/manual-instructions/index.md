@@ -46,6 +46,7 @@ Ruby-CVS
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org) et
   l’administrateur humaine est joignable sur
   [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+
 ### Se désinscrire
 
 Il suffit d’envoyer un e-mail au robot concerné avec le terme «

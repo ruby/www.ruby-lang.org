@@ -47,6 +47,7 @@ Ruby-CVS
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), e o endereço
   de administrador “humano” é
   [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+
 ### Cancelar Subscrição
 
 Para cancelar a subscrição de uma lista, envie um email ao endereço de
