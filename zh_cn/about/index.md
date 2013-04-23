@@ -126,8 +126,8 @@ Ruby 还有其他丰富的特性：
 * Ruby 有类似于 Java 和 Python 的异常处理，使处理错误更方便。
 ^
 
-* Ruby 有一个真正的表示-清扫(mark-and-sweep)垃圾手机器来出来所有的 Ruby 对象。不需要在库里维护引用数了。就像
-  Matz 说的：“这对您健康有意。”
+* Ruby 拥有一个针对所有对象的标识-清扫(mark-and-sweep)式垃圾收集器(garbage collector)。使用者无需维护扩展库
+  中的引用计数(reference counts)。正如 Matz 所说：“这对您的健康有益。”
 ^
 
 * 为 Ruby 写 C 的扩展比 Perl 和 Python 更容易。Ruby 有一个非常雅致的 API 从 C 语言调用 Ruby。这包括把
