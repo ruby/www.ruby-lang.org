@@ -9,7 +9,9 @@ ist eine der wichtigsten Stärken. Ruby hat eine lebhafte und wachsende
 Community, die stets freundlich zu allen Leuten unterschiedlichen
 Know-How-Levels ist.
 
- Für den, der Interesse hat sich einzubringen, ist die folgende Liste ein guter Einstiegspunkt: [Ruby User Groups](user-groups/)
+Für den, der Interesse hat sich einzubringen, ist die folgende Liste ein guter Einstiegspunkt:
+
+[Ruby User Groups](user-groups/)
 : Ihre lokale Ruby User Group ist der beste Ort, um sich mit anderen
   Ruby-Programmierern auszutauschen. Ruby-Benutzergruppen organisieren
   sich selbst und veranstalten monatliche Treffen, eine Mailing-liste,
