@@ -1491,7 +1491,7 @@ locales:
     ja: |
       このサイトはRubyと<a href="http://www.jekyllrb.com/">Jekyll</a>によって構築されています。
       また、コンテンツはRubyコミュニティによって管理されています。
-      質問やコメントは <a href="mailto:webmaster@ruby-lang.org">webmaster</a> までお願いします。
+      このサイトに関する質問やコメントは<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>へのissueまたはpull request、もしくは<a href="mailto:webmaster@ruby-lang.org">webmaster</a> までお願いします。
     ko: |
       이 웹사이트는 루비와 <a href="http://www.jekyllrb.com/">Jekyll</a>를 이용해 만들어졌습니다.
       그리고 루비 커뮤니티의 구성원이 직접 운영합니다.
