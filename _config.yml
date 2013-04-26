@@ -1454,7 +1454,7 @@ locales:
   credits:
     bg: |
       Този сайт е разработен на Ruby и използва <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Поддържа се от <a href="http://rubyidentity.org">членове на Ruby обществото</a>.
+      Поддържа се от членове на Ruby обществото.
       Моля, свържете се с нашия <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       за въпроси или коментари относно сайта.
     de: |
@@ -1471,21 +1471,22 @@ locales:
       for questions or comments concerning this website.
     es: |
       Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Es orgullosamente mantenido por <a href="http://rubyidentity.org">miembros de la comunidad Ruby</a>.
+      Es orgullosamente mantenido por miembros de la comunidad Ruby.
       Por favor contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       si tienes preguntas o comentarios al respecto del sitio web.
     fr: |
       Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Il est fièrement maintenu par des <a href="http://rubyidentity.org">membres de la communauté Ruby</a>.
+      Il est fièrement maintenu par des membres de la communauté Ruby.
       Veuillez contacter notre <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       pour toute question ou tout commentaire le concernant.
     id: |
       Situs ini dikembangkan menggunakan bahasa Ruby dan <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Dipersembahkan dengan bangga oleh <a href="http://rubyidentity.org">anggota komunitas Ruby</a>.
-      Silakan hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a> kami bila Anda mempunyai pertanyaan atau komentar sehubungan dengan situs ini.
+      Dipersembahkan dengan bangga oleh anggota komunitas Ruby.
+      Silakan hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      kami bila Anda mempunyai pertanyaan atau komentar sehubungan dengan situs ini.
     it: |
       Questo sito è stato sviluppato con Ruby e <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      È curato con dedizione dai <a href="http://rubyidentity.org">membri della comunità di Ruby</a>.
+      È curato con dedizione dai membri della comunità di Ruby.
       Puoi contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       per domande e commenti riguardanti questo sito.
     ja: |
@@ -1499,15 +1500,18 @@ locales:
     pl: |
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
-      Jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu skontaktuj się <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>.
+      Jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu skontaktuj się
+      <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>.
     pt: |
       Este Site está construído em Ruby e gerido através de <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      É orgulhosamente mantido pelos <a href="http://rubyidentity.org">membros da comunidade Ruby</a>.
-      Por favor contacte o nosso <a href="mailto:webmaster@ruby-lang.org">webmaster</a> para questões ou comentários relativos ao site.
+      É orgulhosamente mantido pelos membros da comunidade Ruby.
+      Por favor contacte o nosso <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      para questões ou comentários relativos ao site.
     tr: |
       Bu site Ruby ile kodlanmış olup, <a href="http://www.jekyllrb.com/">Jekyll</a> ile güçlendirilmiştir.
-      <a href="http://rubyidentity.org">Ruby topluluğunun üyeleri</a> tarafından gururla sürdürülmektedir.
-      Herhangi bir soru ya da öneriniz için lütfen <a href="mailto:webmaster@ruby-lang.org">site yöneticimiz</a> ile irtibata geçin.
+      Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
+      Herhangi bir soru ya da öneriniz için lütfen
+      <a href="mailto:webmaster@ruby-lang.org">site yöneticimiz</a> ile irtibata geçin.
     zh_cn: |
       本网站使用Ruby工具<a href="http://www.jekyllrb.com/">Jekyll</a>制作，并有幸由来自Ruby社区的会员共同维护。
       请贡献代码至<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
