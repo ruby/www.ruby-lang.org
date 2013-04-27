@@ -54,7 +54,7 @@ e in 2007 da Ruby Central e O’Reilly), e infine Canada on Rails.
 
 
 
-[1]: http://www.rubycentral.org/conference
+[1]: http://www.rubyconf.org/
 [2]: http://www.rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org

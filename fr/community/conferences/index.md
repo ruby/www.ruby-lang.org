@@ -58,7 +58,7 @@ O’Reilly) et enfin *Canada on Rails*.
 
 
 
-[1]: http://www.rubycentral.org/conference
+[1]: http://www.rubyconf.org/
 [2]: http://www.rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org

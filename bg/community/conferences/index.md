@@ -57,7 +57,7 @@ Central и [Skills Matter][12], и през 2007 г. с помощта на Ruby
 
 
 
-[1]: http://www.rubycentral.org/conference
+[1]: http://www.rubyconf.org/
 [2]: http://www.rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org

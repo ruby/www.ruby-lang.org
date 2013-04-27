@@ -38,7 +38,7 @@ lang: ko
 
 
 [1]: http://groups.google.com/group/rubykr
-[2]: http://www.rubycentral.org/conference
+[2]: http://www.rubyconf.org/
 [3]: http://www.railsconf.org/
 [4]: http://euruko.org
 [5]: http://rubykaigi.org/
