@@ -1477,8 +1477,9 @@ locales:
     fr: |
       Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Il est fièrement maintenu par des membres de la communauté Ruby.
-      Veuillez contacter notre <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      pour toute question ou tout commentaire le concernant.
+      Contribuez en vous rendant sur <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      ou contactez le <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      pour toute question ou tout commentaire.
     id: |
       Situs ini dikembangkan menggunakan bahasa Ruby dan <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Dipersembahkan dengan bangga oleh anggota komunitas Ruby.
