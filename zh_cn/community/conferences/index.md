@@ -55,7 +55,7 @@ O’Reilly), and Canada on Rails.
 
 [1]: http://www.rubycentral.org/conference
 [2]: http://www.rubycentral.org
-[3]: http://jp.rubyist.net/RubyKaigi2006/
+[3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [5]: http://www.rubycentral.org/rcg2006.pdf
 [6]: http://www.sdforum.org

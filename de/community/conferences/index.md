@@ -25,4 +25,4 @@ lang: de
 [1]: http://euruko.org/
 [2]: http://www.rubycentral.org/conference
 [3]: http://www.rubycentral.org
-[4]: http://rubykaigi.org/2010/
+[4]: http://rubykaigi.org/

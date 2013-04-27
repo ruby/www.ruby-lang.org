@@ -57,7 +57,7 @@ finalizar a Canada on Rails.
 
 [1]: http://www.rubycentral.org/conference "RubyConf"
 [2]: http://www.rubycentral.org "Ruby Central, Inc."
-[3]: http://jp.rubyist.net/RubyKaigi2006/ "RubyKaigi"
+[3]: http://rubykaigi.org/ "RubyKaigi"
 [4]: http://euruko.org
 [5]: http://www.rubycentral.org/rcg2006.pdf "Programa de Apoio a Conferências Regionais"
 [6]: http://www.sdforum.org "SDForum"

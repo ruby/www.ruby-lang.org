@@ -53,7 +53,7 @@ Ruby 演講，並逐年增加中。也有許多研討會以 [Ruby on Rails][15] 
 
 [1]: http://rubyconf.org/
 [2]: http://www.rubycentral.org
-[3]: http://jp.rubyist.net/RubyKaigi2008/
+[3]: http://rubykaigi.org/
 [4]: http://jp.rubyist.net/
 [5]: http://euruko.org/
 [6]: http://rubyconf.tw

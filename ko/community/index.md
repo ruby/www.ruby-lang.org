@@ -41,6 +41,6 @@ lang: ko
 [2]: http://www.rubycentral.org/conference
 [3]: http://www.railsconf.org/
 [4]: http://euruko.org
-[5]: http://jp.rubyist.net/RubyKaigi2006/
+[5]: http://rubykaigi.org/
 [6]: http://ruby-lang.org/en/community/ruby-core
 [7]: http://ruby-lang.org/en/community/mailing-lists

@@ -74,7 +74,7 @@ on Rails.
 [3]: http://ariekusumaatmaja.wordpress.com/2007/08/20/gathering-id-ruby-ketiga-19-agustus-2007-1145-1700-wib/
 [4]: http://www.rubycentral.org/conference
 [5]: http://www.rubycentral.org
-[6]: http://jp.rubyist.net/RubyKaigi2006/
+[6]: http://rubykaigi.org/
 [7]: http://euruko.org
 [8]: http://www.rubycentral.org/rcg2006.pdf
 [9]: http://www.sdforum.org

@@ -63,6 +63,6 @@ Posted by Shugo Maeda on 26 May 2006
 [2]: http://www.ruby.or.jp/
 [3]: http://www.rubybizcommons.jp/
 [4]: http://www.rubyusergroups.org/
-[5]: http://www.rubykaigi.org
+[5]: http://rubykaigi.org
 [6]: http://www.rubycentral.org/conference/
 [7]: http://euruko.org
