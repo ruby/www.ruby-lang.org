@@ -5,4 +5,5 @@ gem 'jekyll', '>= 0.12.1'
 
 group :development do
   gem 'mina'
+  gem 'spidr', '~> 0.4'
 end

@@ -1,11 +1,8 @@
 # encoding: UTF-8
 require 'yaml'
 
-# gem 'spidr', '~> 0.4'
-# require 'spidr'
-
-# HOST = 'www.ruby-lang.org'
-# LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
+HOST = 'www.ruby-lang.org'
+LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
 TIMEZONE = 'UTC'
 
 desc "Generates the Jekyll site"
@@ -108,39 +105,42 @@ namespace :check do
     end
   end
 
-  # desc "Checks for broken links on http://localhost:4000/"
-  # task :links do
-  #   url_map = Hash.new { |hash,key| hash[key] = [] }
-  #
-  #   Spidr.site('http://localhost:4000/') do |agent|
-  #     LANGUAGES.each do |lang|
-  #       agent.enqueue("http://localhost:4000/#{lang}/")
-  #     end
-  #
-  #     agent.every_link do |origin,dest|
-  #       url_map[dest] << origin
-  #     end
-  #
-  #     agent.every_page do |page|
-  #       if page.code == 404
-  #         origin = url_map[page.url].last
-  #         dest   = page.url.request_uri
-  #
-  #         external = URI::HTTP.build(
-  #           :host  => HOST,
-  #           :path  => page.url.path,
-  #           :query => page.url.query
-  #         )
-  #
-  #         if Net::HTTP.get_response(external).code == '404'
-  #           puts "Old Broken Link: #{origin} -> #{dest}"
-  #         else
-  #           puts "New Broken Link: #{origin} -> #{dest}"
-  #         end
-  #       end
-  #     end
-  #   end
-  # end
+  desc "Checks for broken links on http://localhost:4000/"
+  task :links do
+    gem 'spidr', '~> 0.4'
+    require 'spidr'
+
+    url_map = Hash.new { |hash,key| hash[key] = [] }
+
+    Spidr.site('http://localhost:4000/') do |agent|
+      LANGUAGES.each do |lang|
+        agent.enqueue("http://localhost:4000/#{lang}/")
+      end
+
+      agent.every_link do |origin,dest|
+        url_map[dest] << origin
+      end
+
+      agent.every_page do |page|
+        if page.code == 404
+          origin = url_map[page.url].last
+          dest   = page.url.request_uri
+
+          external = URI::HTTP.build(
+            :host  => HOST,
+            :path  => page.url.path,
+            :query => page.url.query
+          )
+
+          if Net::HTTP.get_response(external).code == '404'
+            puts "Old Broken Link: #{origin} -> #{dest}"
+          else
+            puts "New Broken Link: #{origin} -> #{dest}"
+          end
+        end
+      end
+    end
+  end
 end
 
 desc "Carries out some tests"
