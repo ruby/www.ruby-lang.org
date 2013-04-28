@@ -19,6 +19,7 @@ task :generate do
 
   options = Jekyll.configuration({'auto' => false, 'server' => false})
   puts "Building site: #{options['source']} -> #{options['destination']}"
+  $stdout.flush
   Jekyll::Site.new(options).process
 end
 
