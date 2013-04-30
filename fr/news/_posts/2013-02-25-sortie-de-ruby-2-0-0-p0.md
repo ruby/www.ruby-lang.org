@@ -181,7 +181,7 @@ Pour les incompatibilités mineures, voyez [\[ruby-core:49119\]][18].
 ### À propos des Refinements
 
 Nous avons décidé d\'intégrer la nouvelle fonctionnalité appelée
-Refinements dans cette version. Elle étends les possibilité coté
+Refinements dans cette version. Elle étend les possibilités coté
 modularité des scripts Ruby. Il s\'agit toutefois d\'une fonctionnalité
 expérimentale, et sa spécification est susceptible de changer d\'ici la
 prochaine version de Ruby. Néanmoins, nous vous encourageons à la
