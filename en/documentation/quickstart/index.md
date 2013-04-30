@@ -110,7 +110,7 @@ Ok, wait, what was that last one? If you guessed, “it was figuring out
 the square root of nine,” you’re right. But let’s take a closer look at
 things. First of all, what’s `Math`?
 
-## Modules, Group Code by Topic
+## Modules Group Code by Topic
 
 `Math` is a built-in module for mathematics. Modules serve two roles in
 Ruby. This shows one role: grouping similar methods together under a
