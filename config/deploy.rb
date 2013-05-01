@@ -27,6 +27,7 @@ task :deploy => :environment do
     invoke :'git:clone'
     invoke :'bundle:install'
     invoke :generate_static_sites
+    invoke :'deploy:cleanup'
   end
 end
 
