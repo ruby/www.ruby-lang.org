@@ -171,7 +171,7 @@ altri valori sono interpretati come *false*.
 Diamo un’occhiata al seguente codice in Python (questo esempio si
 applica anche ad atri linguaggi):
 
-{% highlight ruby %}
+{% highlight python %}
 # in Python
 if 0:
   print "0 è true"

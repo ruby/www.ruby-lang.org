@@ -178,7 +178,7 @@ vrai (**true**). En C, Python et dans bien d’autres langages, le 0 et
 d’autres valeurs, telles les listes vides, sont considérées fausses.
 Voyez par exemple le bout de code suivant, écrit en Python :
 
-{% highlight ruby %}
+{% highlight python %}
 # en Python
 if 0:
   print "0 est vrai/true"

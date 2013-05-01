@@ -106,7 +106,7 @@ some_keyword_params( :param_one => 10, :param_two => 42 )
 
 В Ruby, всяко нещо, различно от **nil** и **false**, е истина. В C, Python и други езици 0, празен низ и други се считат за лъжа ( false ). Нека разгледаме пример с код на Python code:
 
-{% highlight ruby %}
+{% highlight python %}
 # in Python
 if 0:
   print "0 is true"

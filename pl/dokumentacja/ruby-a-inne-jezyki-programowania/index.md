@@ -159,7 +159,7 @@ W Rubim wszystko, oprócz **nil** oraz **false** jest równoważne
 wartości, takie jak puste listy są uważane za **false**. Spójrz na
 poniższy kod w Pythonie:
 
-{% highlight ruby %}
+{% highlight python %}
 # w Pythonie
 if 0:
   print "0 is true"

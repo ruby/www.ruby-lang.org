@@ -180,7 +180,7 @@ C, Python e em muitas outras linguagens, 0 and possivelmente outros
 valores, tais como listas vazias, são consideradas falsas. Veja o
 seguinte código Python (o exemplo aplica-se a outras linguagens também):
 
-{% highlight ruby %}
+{% highlight python %}
 # em Python
 if 0:
   print "0 e' verdadeiro"

@@ -196,7 +196,7 @@ Python dan banyak bahasa lain, 0 dan mungkin juga nilai-nilai lain,
 seperti list yang kosong, dianggap false. Perhatikan kode Python berikut
 (contoh berikut juga berguna untuk bahasa-bahasa lain):
 
-{% highlight ruby %}
+{% highlight python %}
 # di Python
 if 0:
   print "0 is true"

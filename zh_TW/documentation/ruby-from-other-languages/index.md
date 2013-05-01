@@ -135,7 +135,7 @@ some_keyword_params( :param_one => 10, :param_two => 42 )
 在 Ruby 裡，除了 **nil** 和 **false** 之外的所有東西，都可以當做 true 值。在 C, Python
 和其他語言中，0 和一些其他值，例如空列表，會被當做 false。例如我們看看以下的 Python 程式(其他語言亦同)：
 
-{% highlight ruby %}
+{% highlight python %}
 # in Python
 if 0:
   print "0 is true"

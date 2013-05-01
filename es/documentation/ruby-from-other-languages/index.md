@@ -182,7 +182,7 @@ Python y muchos otros lenguajes, **0** y posiblemente otros valores,
 como listas vacías, son considerados **false**. Examina el siguiente
 código Python (el ejemplo aplica también a otros lenguajes):
 
-{% highlight ruby %}
+{% highlight python %}
 # en Python
 if 0:
   print "0 es verdadero"

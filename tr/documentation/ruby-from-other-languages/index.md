@@ -158,7 +158,7 @@ Python ve diğer birçok dilde 0 ve boş listeler gibi diğer bazı değerler
 yanlış kabul edilir. Aşağıdaki Python koduna bakın (diğer dillere de
 çevrilebilir):
 
-{% highlight ruby %}
+{% highlight python %}
 # Python'da
 if 0:
   print "0 is true"

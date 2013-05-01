@@ -163,7 +163,7 @@ C, Python and many other languages, 0 and possibly other values, such as
 empty lists, are consided false. Take a look at the following Python
 code (the example applies to other languages, too):
 
-{% highlight ruby %}
+{% highlight python %}
 # in Python
 if 0:
   print "0 is true"

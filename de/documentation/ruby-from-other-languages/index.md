@@ -182,7 +182,7 @@ C, Python und vielen anderen Sprachen verhalten sich die Zahl 0, leere
 Listen und andere Werte als Unwahr (false). Sieh dir dazu folgenden
 Python-Code an (das Beispiel funktioniert auch in anderen Sprachen):
 
-{% highlight ruby %}
+{% highlight python %}
 # in Python
 if 0:
   print "0 ist true"

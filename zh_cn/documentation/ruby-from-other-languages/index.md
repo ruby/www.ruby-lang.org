@@ -128,7 +128,7 @@ some_keyword_params( :param_one => 10, :param_two => 42 )
 Ruby 把任何不是 **nil** 和 **false** 的值当作真值。在 C，Python 和其他语言里，0 和一些其他的值，
 比如空的列表，会被当作假值。看一看下面的 Python 代码（这个例子也可以被应用到其他语言）：
 
-{% highlight ruby %}
+{% highlight python %}
 # in Python
 if 0:
   print "0 is true"
