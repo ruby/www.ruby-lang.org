@@ -28,6 +28,7 @@
 .mi { color: #eddd3d } /* Literal.Number.Integer */
 .il { color: #eddd3d } /* Literal.Number.Integer.Long */
 .mo { color: #eddd3d } /* Literal.Number.Oct */
+.n  { color: #fff    } /* Name */
 .na { color: #8aa6c1 } /* Name.Attribute */
 .nb { color: #fff    } /* Name.Builtin */
 .bp { color: #fff    } /* Name.Builtin.Pseudo */
