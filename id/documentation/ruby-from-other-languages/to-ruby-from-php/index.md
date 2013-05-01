@@ -13,7 +13,7 @@ disesuaikan, maka ada baiknya Anda mempertimbangkan menggunakan Ruby.
 Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di PHP:
 
-{% highlight python %}
+{% highlight php %}
 <?php
 $fp = fopen('php://stdin', 'r');
 $a = fgets($fp);

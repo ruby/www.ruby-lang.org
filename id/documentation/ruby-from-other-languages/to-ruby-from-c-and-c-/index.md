@@ -41,7 +41,7 @@ Dan tentu saja Ruby sendiri ditulis dengan C.
 Berikut ini adalah contoh program untuk menjumlahkan dua angka
 (diinputkan dari keyboard) di C:
 
-{% highlight python %}
+{% highlight c %}
 #include <stdio.h>
 
 int main(int argc, char *argv[])
