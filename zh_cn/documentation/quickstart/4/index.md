@@ -62,7 +62,7 @@ end
 
 大多数编程语言都是用 `for` 循环来完成迭代的，比如在 C 里面：
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);

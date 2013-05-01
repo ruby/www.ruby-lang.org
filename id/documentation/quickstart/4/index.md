@@ -76,7 +76,7 @@ dengan name tersebut.
 Kebanyakan bahasa-bahasa pemrograman lain menangani list dengan
 menggunakan perulangan `for`, kalau di C seperti ini:
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<total_elemen; i++)
 {
   lakukan_sesuatu_dengan(elemen[i]);

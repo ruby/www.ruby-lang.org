@@ -70,7 +70,7 @@ Qui, per ogni elemento della lista `nome` viene eseguita l’espressione
 Molti altri linguaggi di programmazione esaminano una lista utilizzando
 il ciclo `for`, in C si ottiene qualcosa di simile:
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<numero_di_elementi; i++)
 {
   fai_qualcosa_con(elemento[i]);

@@ -75,7 +75,7 @@ executada com esse nome.
 A generalidade das outras linguagens tratar de passar por uma lista
 usando o ciclo `for`, que em C se assemelha a algo como:
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<numero_de_elementos; i++)
 {
   fazer_algo_com(elemento[i]);

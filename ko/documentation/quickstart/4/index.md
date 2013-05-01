@@ -64,7 +64,7 @@ end
 
 대부분의 다른 프로그래밍 언어에서는 보통 for 반복문을 사용해서 리스트의 내용물을 처리하게 되지요. C 코드로는 다음과 같겠죠.
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);

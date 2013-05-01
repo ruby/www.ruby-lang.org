@@ -72,7 +72,7 @@ wywoływane jest wyrażenie “Hello #\{name}!”@ które wyświetla powitanie.
 Większość innych języków programowania obsługuje iterację po elementach
 listy za pomocą pętli `for`, w C wygląda to mniej więcej tak:
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);

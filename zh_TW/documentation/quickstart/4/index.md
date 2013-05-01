@@ -61,7 +61,7 @@ end
 
 大多數的程式語言會用 `for` 迴圈來做這件事情，例如在 C 裡面：
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);

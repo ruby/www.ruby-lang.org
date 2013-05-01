@@ -85,7 +85,7 @@ les noms, dans l’ordre de la liste `names`.
 La plupart des autres langages utilisent un itérateur célèbre, la «
 boucle for », ce qui donne par exemple en C :
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);

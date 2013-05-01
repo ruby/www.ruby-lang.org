@@ -67,7 +67,7 @@ end
 В повечето езици за програмиране се ползва цикъл като `for` за обхождане
 на списъка, като това става на C по следния начин:
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);

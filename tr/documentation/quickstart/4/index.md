@@ -74,7 +74,7 @@ elemanlarına bağlanır ve `puts "Hello #{name}!"` satırı bu isimle
 Birçok diğer programlama dilinde bir liste `for` döngüsü ile işlenir,
 C’de şuna benzer bir kod olur:
 
-{% highlight ruby %}
+{% highlight c %}
 for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);
