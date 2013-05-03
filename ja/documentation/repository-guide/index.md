@@ -14,11 +14,15 @@ RubyのソースコードはSVNレポジトリに保存されており、ViewVC�
 
 trunkの場合:
 
-    $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% endhighlight %}
 
 1\.8の場合:
 
-    $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8 ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8 ruby
+{% endhighlight %}
 
 その他のブランチ・タグなどは[&lt;URL:http://svn.ruby-lang.org/repos/ruby/&gt;][2]から確認してください。
 
