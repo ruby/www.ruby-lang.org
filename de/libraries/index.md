@@ -39,13 +39,14 @@ Der Befehl **search** sucht nach Gems eines bestimmten Namens. Um einen
 Gem zu finden, dessen Name das Wort “html” enthält, gibst du
 beispielsweise Folgendes ein:
 
+{% highlight sh %}
+$ gem search html --remote
 
-     $ gem search html --remote
+*** REMOTE GEMS ***
 
-     *** REMOTE GEMS ***
-
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
+html-sample (1.0, 1.1)
+   A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 (*Der Parameter `--remote` bewirkt, dass die offiziellen Rubyforge-Gems
 durchsucht werden.*)
@@ -54,28 +55,32 @@ durchsucht werden.*)
 
 Sobald du weißt, welchen Gem du installieren willst, gib Folgendes ein:
 
-
-     $ gem install html-sample
+{% highlight sh %}
+$ gem install html-sample
+{% endhighlight %}
 
 Du kannst sogar nur eine spezielle Version der Bibliothek installieren,
 indem du den Parameter `--version` übergibst:
 
-
-     $ gem install html-sample --version 1.0
+{% highlight sh %}
+$ gem install html-sample --version 1.0
+{% endhighlight %}
 
 #### Alle Gems auflisten
 
 Um eine komplette Liste aller Gems auf Ruyforge zu erhalten, verwende
 diesen Befehl:
 
-
-     $ gem list --remote
+{% highlight sh %}
+$ gem list --remote
+{% endhighlight %}
 
 Um lediglich die Gems aufzulisten, die installiert sind, lass den
 Parameter weg:
 
-
-     $ gem list
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 Weiterführende Informationen zur Verwendung von RubyGems findest du im
 [**offiziellen Handbuch**][10], welches auch Beispiele enthält, wie du
@@ -92,11 +97,12 @@ musst.
 
 Unter Linux zum Beispiel folgendermaßen:
 
-
-    $ tar xzvf rubygems-0.9.0.tar.gz
-    $ cd rubygems-0.9.0
-    $ su -
-    # ruby setup.rb
+{% highlight sh %}
+$ tar xzvf rubygems-0.9.0.tar.gz
+$ cd rubygems-0.9.0
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 Wenn du weitere Hilfe benötigst, wirf einen Blick auf das [**Kapitel
 über die Installation**][11] im RubyGems-Handbuch.

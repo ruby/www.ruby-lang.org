@@ -40,13 +40,14 @@ Il comando **search** può essere usato per cercare delle gemme con un
 creto nome. Per cercare la parola “html” nel nome di una gemma, fai
 così:
 
+{% highlight sh %}
+$ gem search html --remote
 
-     $ gem search html --remote
+*** REMOTE GEMS ***
 
-     *** REMOTE GEMS ***
-
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
+html-sample (1.0, 1.1)
+   A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 (*Il flag `--remote` flag indica che cerchiamo tra le gemme ufficiali su
 RubyForge.*)
@@ -56,28 +57,32 @@ RubyForge.*)
 Una volta che conosci il nome della gemma che ti serve, la puoi
 installare con il comando **install**\:
 
-
-     $ gem install html-sample
+{% highlight sh %}
+$ gem install html-sample
+{% endhighlight %}
 
 Puoi anche installare solamente una determinata versione della libreria
 specificando il flag `--version`.
 
-
-     $ gem install html-sample --version 1.0
+{% highlight sh %}
+$ gem install html-sample --version 1.0
+{% endhighlight %}
 
 #### Elencare tutte le gemme
 
 Per una lista completa di tutte le gemme presenti su RubyForge, usa il
 comando **list**\:
 
-
-     $ gem list --remote
+{% highlight sh %}
+$ gem list --remote
+{% endhighlight %}
 
 Per una lista di tutte le gemme installate localmente, non specificare
 il flag `--remote`.
 
-
-     $ gem list
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 Per maggiori informazioni su RubyGems, vedi [**il manuale
 ufficiale**][10], che contiene anche esempi su come usare le gemme nei
@@ -92,11 +97,12 @@ potrebbe essere necessario eseguirlo come utente root.
 
 Per esempio, su Linux:
 
-
-    $ tar xzvf rubygems-0.9.0.tar.gz
-    $ cd rubygems-0.9.0
-    $ su -
-    # ruby setup.rb
+{% highlight sh %}
+$ tar xzvf rubygems-0.9.0.tar.gz
+$ cd rubygems-0.9.0
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 Se hai bisogno di ulteriori informazioni su come installare Ruby, dai
 un’occhiata al [**capitolo sul’installazione**][12] nel manuale di

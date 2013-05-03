@@ -41,13 +41,14 @@ Komenda **search** jest wykorzystywanwa do przeszukiwania gemów o
 określonej nazwie. Dla przykładu, aby znaleźć słowo “html” w nazwie
 gema, należy wydać polecenie:
 
+{% highlight sh %}
+$ gem search html --remote
 
-     $ gem search html --remote
+*** REMOTE GEMS ***
 
-     *** REMOTE GEMS ***
-
-     html-sample (1.0, 1.1)
-        A sample Ruby gem, just to illustrate how RubyGems works.
+html-sample (1.0, 1.1)
+   A sample Ruby gem, just to illustrate how RubyGems works.
+{% endhighlight %}
 
 (*Flaga `--remote` mówi o tym, że będziemy przeszukiwać oficjalne,
 zdalne repozytorium RubyGems.*)
@@ -56,28 +57,32 @@ zdalne repozytorium RubyGems.*)
 
 Jeśli już wiesz, który gem Cię interesuje, wydaj polecenie **install**\:
 
-
-     $ gem install html-sample
+{% highlight sh %}
+$ gem install html-sample
+{% endhighlight %}
 
 Jeśli masz taką potrzebę, to przy pomocy flagi `--version` możesz
 zainstalować określoną wersję.
 
-
-     $ gem install html-sample --version 1.0
+{% highlight sh %}
+$ gem install html-sample --version 1.0
+{% endhighlight %}
 
 #### Wyświetlanie wszystkich gemów
 
 Aby zobaczyć kompletną listę wszystkich gemów dostępnych na Rubyforge,
 wydaj polecenie:
 
-
-     $ gem list --remote
+{% highlight sh %}
+$ gem list --remote
+{% endhighlight %}
 
 Jeśli chcesz zobaczyć tylko lokalnie zainstalowane gemy, omiń flagę
 `--remote`.
 
-
-     $ gem list
+{% highlight sh %}
+$ gem list
+{% endhighlight %}
 
 Aby dowiedzieć się więcej o RubyGems i ich zastosowaniu, przejrzyj
 [**oficjalną instrukcję**][10] (w języku angielskim), która zawiera
@@ -92,11 +97,12 @@ niektórych systemach będziesz musiał zrobić to jako root.
 
 Na przykład, na Linuxie:
 
-
-    $ tar xzvf rubygems-0.9.0.tar.gz
-    $ cd rubygems-0.9.0
-    $ su -
-    # ruby setup.rb
+{% highlight sh %}
+$ tar xzvf rubygems-0.9.0.tar.gz
+$ cd rubygems-0.9.0
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 Jeśli chcesz dowiedzieć się więcej o instalacji Rubiego, przejrzyj
 [**rozdział instalacja**][12] (w języku angielskim).

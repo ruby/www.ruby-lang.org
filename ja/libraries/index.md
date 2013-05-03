@@ -39,49 +39,59 @@ Ruby 1.9系統ではRubyGemsが組み込まれていますから、すぐにgem�
 RubyGemsはシステムにインストール済みであったり、aptやportsなどで提供されていることも多いので、まずその可能性を調べてください。
 そうでない場合は[ダウンロードサイト][10]からアーカイブをダウンロードして、その中のREADMEに書かれている手順でインストールできます。例えば次のようにします。
 
-    $ wget http://rubyforge.org/frs/download.php/60718/rubygems-1.3.5.tgz
-    $ tar xzvf rubygems-1.3.5.tar.gz
-    $ cd rubygems-1.3.5
-    $ su -
-    # ruby setup.rb
+{% highlight sh %}
+$ wget http://rubyforge.org/frs/download.php/60718/rubygems-1.3.5.tgz
+$ tar xzvf rubygems-1.3.5.tar.gz
+$ cd rubygems-1.3.5
+$ su -
+# ruby setup.rb
+{% endhighlight %}
 
 ### gemの検索
 
 次のようにして\"gem search\"コマンドでパターン\"mspec\"に合致するgemを検索できます。
 
-    $ gem search mspec --remote
+{% highlight sh %}
+$ gem search mspec --remote
 
-     *** REMOTE GEMS ***
+*** REMOTE GEMS ***
 
-     mspec (1.5.12)
+mspec (1.5.12)
+{% endhighlight %}
 
 ### gemのインストール
 
 例えば次のようにしてmspecというgemをインストールできます。これは[RubySpec][11]プロジェクトで利用されている振る舞い駆動開発支援ライブラリです。
 
-    $ gem install mspec
+{% highlight sh %}
+$ gem install mspec
+{% endhighlight %}
 
 また、多くのgemは最新版だけではなく過去の複数のバージョンも提供されています。特定のバージョンのgemをインストールするには次のように--versionオプションを使用します。
 
-    $ gem install mspec --version 1.5.11
+{% highlight sh %}
+$ gem install mspec --version 1.5.11
+{% endhighlight %}
 
 ### gemの一覧
 
 システムにインストールされているgemを一覧するには\"gem list\"コマンドを使用します
 
-    $ gem list
+{% highlight sh %}
+$ gem list
 
-     *** LOCAL GEMS ***
+*** LOCAL GEMS ***
 
-     activesupport (2.3.3)
-     archive-tar-minitar (0.5.2)
-     builder (2.1.2)
-     columnize (0.3.1)
-     cucumber (0.3.94, 0.3.91)
-     diff-lcs (1.1.2)
-     ffi (0.3.5)
-     genki-ruby-terminfo (0.1.1)
-     .....(略)
+activesupport (2.3.3)
+archive-tar-minitar (0.5.2)
+builder (2.1.2)
+columnize (0.3.1)
+cucumber (0.3.94, 0.3.91)
+diff-lcs (1.1.2)
+ffi (0.3.5)
+genki-ruby-terminfo (0.1.1)
+.....(略)
+{% endhighlight %}
 
 ### 詳細
 
