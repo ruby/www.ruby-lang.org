@@ -23,7 +23,7 @@ Subversionzugang, Webspace sowie Mailinglisten zu bekommen.
 Das [**Ruby Application Archive**][4] (kurz: RAA) ist ein Verzeichnis
 von Ruby-Software aller Art, kategorisiert nach jeweiliger Funktion.
 Momentan enthält die Kategorie [Database][5] die meisten Einträge, dicht
-gefolgt von [Net.][6] [HTML][7] und [XML][8] sind ebenfalls sehr
+gefolgt von [Net][6]. [HTML][7] und [XML][8] sind ebenfalls sehr
 beliebt. Es gibt sogar 4 Einträge unter [Physics][9]!
 
 ### RubyGems
@@ -35,7 +35,7 @@ Betriebssysteme muss es nachinstalliert werden. Eine Anleitung dazu
 
 #### Gems suchen
 
-Der Befehl **search** sucht nach Gems eines bestimmten Namens. Um einen
+Der Befehl **search** sucht nach Gems eines bestimmten Namens. Um ein
 Gem zu finden, dessen Name das Wort “html” enthält, gibst du
 beispielsweise Folgendes ein:
 
@@ -50,9 +50,9 @@ html-sample (1.0, 1.1)
 (*Der Parameter `--remote` / `-r` bewirkt, dass die offiziellen Rubyforge-Gems
 durchsucht werden.*)
 
-#### Einen Gem installieren
+#### Ein Gem installieren
 
-Sobald du weißt, welchen Gem du installieren willst, gib Folgendes ein:
+Sobald du weißt, welches Gem du installieren willst, gib Folgendes ein:
 
 {% highlight sh %}
 $ gem install html-sample
