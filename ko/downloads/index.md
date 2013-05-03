@@ -46,7 +46,7 @@ Ruby-mswin32 프로젝트 페이지([영문][14])을 참조하시기 바랍니�
 예를 들어 데비안이나 우분투 리눅스를 사용중이라면, `apt-get`을 이용해 쉽고 간편하게 설치할 수 있습니다.
 
 {% highlight sh %}
-% sudo apt-get install ruby irb rdoc
+$ sudo apt-get install ruby irb rdoc
 {% endhighlight %}
 
 irb와rdoc을 이용하기 위해서는 universe 저장소를 등록해야 합니다.
@@ -60,7 +60,7 @@ irb와rdoc을 이용하기 위해서는 universe 저장소를 등록해야 합�
 DarwinPorts의 경우 아래와 같은 명령으로 설치할 수 있습니다.
 
 {% highlight sh %}
-% sudo port install ruby
+$ sudo port install ruby
 {% endhighlight %}
 
 Fink는 Fink Commander라고 하는 그래픽 인터페이스를 제공하므로 보다 쉽게 Ruby를 설치할 수 있습니다.

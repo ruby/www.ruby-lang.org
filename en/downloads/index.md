@@ -169,7 +169,7 @@ and Rubygems directly from the OpenSolaris network repository for Ruby
 1.9. It’s easy:
 
 {% highlight sh %}
-% pkg install runtime/ruby-18
+$ pkg install runtime/ruby-18
 {% endhighlight %}
 
 Like before, RVM is a good way to obtain Ruby 1.9.2, the latest version.

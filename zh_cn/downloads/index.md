@@ -41,7 +41,7 @@ Ruby，这里提供几个方式来安装。第一个方式是仅下载源代码�
 例如，在 Debian 或 Ubuntu 使用 `apt-get` 提供了一个简单而优雅的解决方案 ：
 
 {% highlight sh %}
-% sudo apt-get install ruby irb rdoc
+$ sudo apt-get install ruby irb rdoc
 {% endhighlight %}
 
 对于 irb 和 rdoc ，您需要激活 universe repository 。
@@ -62,7 +62,7 @@ Mac OS X Tiger 安装了 1.8.2 版本的 Ruby，如果您没有升级到 Leopard
 使用 MacPorts，您可以这样来安装 Ruby …
 
 {% highlight sh %}
-% port install ruby
+$ port install ruby
 {% endhighlight %}
 
 Fink 为安装 Ruby 提供了图形接口（使用 Fink 命令）。

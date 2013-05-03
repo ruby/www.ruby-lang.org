@@ -71,7 +71,7 @@ Por exemplo, o Debian ou Ubunto `apt-get` providenciam uma solução
 simples e elegante:
 
 {% highlight sh %}
-% sudo apt-get install ruby irb rdoc
+$ sudo apt-get install ruby irb rdoc
 {% endhighlight %}
 
 Para o irb e rdoc vamos necessitar de activar o repositório universal.
@@ -87,7 +87,7 @@ mais experientes.
 No DarwinPorts, pode instalar o Ruby com…
 
 {% highlight sh %}
-% port install ruby
+$ port install ruby
 {% endhighlight %}
 
 O Fink tem uma interface gráfica (utilizando o “Fink Commander”) para

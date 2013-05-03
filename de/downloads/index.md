@@ -114,10 +114,10 @@ beispielsweise stellt `apt-get` eine einfache und elegante Lösung dar:
 {% highlight sh %}
 #Ruby 1.9 (es handelt sich hierbei tatsächlich um Ruby 1.9.2 oder neuer,
 #die "1.9.1" steht für die sog. "library compatibility version").
-% sudo apt-get install ruby1.9.1-full
+$ sudo apt-get install ruby1.9.1-full
 
 #Ruby 1.8
-% sudo apt-get install ruby-full
+$ sudo apt-get install ruby-full
 {% endhighlight %}
 
 Für `irb` und `rdoc` muss das „Universe“-Repository aktiviert werden.
@@ -125,7 +125,7 @@ Für `irb` und `rdoc` muss das „Universe“-Repository aktiviert werden.
 Unter Arch Linux findest du Ruby im „extra“-Repository.
 
 {% highlight sh %}
-% pacman -S ruby
+$ pacman -S ruby
 {% endhighlight %}
 
 #### Ruby unter OS X
@@ -169,7 +169,7 @@ Ruby-Binaries (1.9) und RubyGems direkt aus dem OpenSolaris-Repository
 installiert:
 
 {% highlight sh %}
-% pkg install runtime/ruby-19
+$ pkg install runtime/ruby-19
 {% endhighlight %}
 
 Selbstverständlich kann man auch hier RVM verwenden.

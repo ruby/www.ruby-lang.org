@@ -59,7 +59,7 @@ que hacen la instalación de Ruby extremadamente sencilla.
 Debian/Ubuntu:
 
 {% highlight sh %}
-% sudo apt-get install ruby irb rdoc
+$ sudo apt-get install ruby irb rdoc
 {% endhighlight %}
 
 Archlinux:
@@ -85,7 +85,7 @@ personas con más conocimientos técnicos.
 En DarwinPorts, puedes instalar Ruby con…
 
 {% highlight sh %}
-% port install ruby
+$ port install ruby
 {% endhighlight %}
 
 Fink tiene una interfaz gráfica (usando Fink Commander) para instalar

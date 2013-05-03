@@ -59,13 +59,13 @@ Windows платформата позволява няколко вариант�
 използвайки `apt-get`\:
 
 {% highlight sh %}
-% sudo apt-get install ruby-full
+$ sudo apt-get install ruby-full
 {% endhighlight %}
 
  За версия 1.9.1 :
 
 {% highlight sh %}
-% sudo apt-get install ruby1.9.1-full
+$ sudo apt-get install ruby1.9.1-full
 {% endhighlight %}
 
 ### Ruby на Mac OS X
@@ -85,7 +85,7 @@ Rails среда (включително и Ruby). Използването на
 ^
 
 {% highlight sh %}
-% port install ruby
+$ port install ruby
 {% endhighlight %}
 
 * [Fink][14] притежава графичен интерфейс (използващ Fink Commander) за
@@ -113,7 +113,7 @@ Ruby 1.8.7 е достъпен за Solaris 8 чрез Solaris 10 като
 последната версия Ruby, така и тази на Rubygems:
 
 {% highlight sh %}
-% pfexec pkg install SUNWruby18
+$ pfexec pkg install SUNWruby18
 {% endhighlight %}
 
 Този пакет включва поддръжката на DTrace за оптимизация на

@@ -109,7 +109,7 @@ Per esempio, In Debian e Ubuntu `apt-get` è una delle soluzioni più
 eleganti:
 
 {% highlight sh %}
-% sudo apt-get install ruby irb rdoc
+$ sudo apt-get install ruby irb rdoc
 {% endhighlight %}
 
 Per installare irb e rdoc devi abilitare il repository universale.
@@ -132,7 +132,7 @@ elegante per coloro che hanno padronanza di questi strumenti.
 Tramite MacPorts, è possibile installare Ruby con il comando seguente:
 
 {% highlight sh %}
-% sudo port install ruby
+$ sudo port install ruby
 {% endhighlight %}
 
 Fink invece offre un’interfaccia grafica (utilizzando Fink Commander)
@@ -161,7 +161,7 @@ Ruby e Rubygems direttamente dal repository della rete di OpenSolaris.
 È facile:
 
 {% highlight sh %}
-% pfexec pkg install SUNWruby18
+$ pfexec pkg install SUNWruby18
 {% endhighlight %}
 
 Questo comando installerà Ruby, RubyGems, le estensioni comuni e le

@@ -57,14 +57,14 @@ Sous Debian ou Ubuntu, le programme `aptitude` rend les choses très
 faciles :
 
 {% highlight sh %}
-% sudo aptitude install ruby1.9.1-full
+$ sudo aptitude install ruby1.9.1-full
 {% endhighlight %}
 
 Cette commande installe la dernière version stable de la branche 1.9.1.
 Pour installer plutôt la branche 1.8.\*, faites :
 
 {% highlight sh %}
-% sudo aptitude install ruby-full
+$ sudo aptitude install ruby-full
 {% endhighlight %}
 
 (pour installer également les dépendances `irb` et `rdoc`, les dépôts
@@ -86,7 +86,7 @@ utuliser Rails. Vous pouvez également passer par [MacPorts][10] ou
 Avec MacPorts, vous pouvez installer Ruby avec la commande :
 
 {% highlight sh %}
-% port install ruby
+$ port install ruby
 {% endhighlight %}
 
 Fink est distribué avec une interface graphique (« Fink Commander ») que
@@ -113,7 +113,7 @@ binaires de Ruby et Rubygems directement depuis le dépôt OpenSolaris. La
 mise en œuvre est très simple :
 
 {% highlight sh %}
-% pfexec pkg install SUNWruby18
+$ pfexec pkg install SUNWruby18
 {% endhighlight %}
 
 Ceci provoquera l’installation de Ruby, Rubygems, des extensions

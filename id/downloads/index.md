@@ -58,7 +58,7 @@ turunan Debian yang lain), Anda bisa menggunakan `apt-get` untuk
 melakukan instalasi Ruby dengan mudah:
 
 {% highlight sh %}
-% sudo apt-get install ruby1.9.1-full
+$ sudo apt-get install ruby1.9.1-full
 {% endhighlight %}
 
 Catatan: Banyak package Ruby (termasuk `irb` dan `rdoc`) terdapat dalam
@@ -69,7 +69,7 @@ Perintah di atas akan menginstall Ruby stabil terakhir versi 1.9.1.
 Untuk menginstall versi 1.8.x, gunakan perintah:
 
 {% highlight sh %}
-% sudo apt-get install ruby-full
+$ sudo apt-get install ruby-full
 {% endhighlight %}
 
 ### Fedora dan CentOS
@@ -95,7 +95,7 @@ menggunakan [MacPorts][13] atau [Fink][14].
 Untuk melakukan instalasi Ruby menggunakan MacPorts…
 
 {% highlight sh %}
-% port install ruby
+$ port install ruby
 {% endhighlight %}
 
 Fink mempunyai tampilan grafis (Fink Commander) untuk melakukan
@@ -126,11 +126,11 @@ Untuk melakukan instalasi Ruby di [Solaris][19], download distribusi
 menggunakan console atau xterm:
 
 {% highlight sh %}
-# tar -xzv -f ruby-1.8.6.tar.gz
-# cd ruby-1.8.6
-# ./configure --enable-pthread
-# make
-# make install
+$ tar -xzv -f ruby-1.8.6.tar.gz
+$ cd ruby-1.8.6
+$ ./configure --enable-pthread
+$ make
+$ make install
 {% endhighlight %}
 
 Apabila Anda menggunakan [Nexenta][20], Anda bisa menggunakan Synaptic
