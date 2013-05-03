@@ -44,10 +44,9 @@ $ gem search html --remote
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
-   A sample Ruby gem, just to illustrate how RubyGems works.
 {% endhighlight %}
 
-(*A flag `--remote` indica que estamos a procurar nas gemas oficiais do
+(*A flag `--remote` / `-r` indica que estamos a procurar nas gemas oficiais do
 RubyForge*)
 
 #### Instalando uma Gema

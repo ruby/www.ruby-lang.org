@@ -36,7 +36,6 @@ $ gem search html --remote
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
-   A sample Ruby gem, just to illustrate how RubyGems works.
 {% endhighlight %}
 
 (*@—remote@ 플래그는 루비포지의 공식 젬 서버에서 찾겠다는 의미입니다.*)

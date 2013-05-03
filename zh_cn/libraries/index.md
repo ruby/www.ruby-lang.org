@@ -36,7 +36,6 @@ $ gem search html --remote
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
-   A sample Ruby gem, just to illustrate how RubyGems works.
 {% endhighlight %}
 
 (*参数标志`--remote` 表明我们将要搜索的是 Rubyforge 的官方 gem。*)

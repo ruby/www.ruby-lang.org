@@ -59,10 +59,9 @@ $ gem search html --remote
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
-   A sample Ruby gem, just to illustrate how RubyGems works.
 {% endhighlight %}
 
-(*Flag `--remote` menandakan bahwa kita ingin mencari gem dari
+(*Flag `--remote` / `-r` menandakan bahwa kita ingin mencari gem dari
 repository resmi Rubyforge.*)
 
 #### Instalasi Sebuah Gem

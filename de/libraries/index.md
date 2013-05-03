@@ -45,10 +45,9 @@ $ gem search html --remote
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
-   A sample Ruby gem, just to illustrate how RubyGems works.
 {% endhighlight %}
 
-(*Der Parameter `--remote` bewirkt, dass die offiziellen Rubyforge-Gems
+(*Der Parameter `--remote` / `-r` bewirkt, dass die offiziellen Rubyforge-Gems
 durchsucht werden.*)
 
 #### Einen Gem installieren
