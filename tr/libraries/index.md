@@ -95,7 +95,7 @@ olarak yapmanız gerekir.
 $ tar xzvf rubygems-0.9.0.tar.gz
 $ cd rubygems-0.9.0
 $ su -
-# ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 Eğer daha fazla kurulum bilgisine ihtiyaç duyarsanız RubyGems

@@ -44,7 +44,7 @@ $ wget http://rubyforge.org/frs/download.php/60718/rubygems-1.3.5.tgz
 $ tar xzvf rubygems-1.3.5.tar.gz
 $ cd rubygems-1.3.5
 $ su -
-# ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 ### gemの検索

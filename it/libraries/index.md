@@ -101,7 +101,7 @@ Per esempio, su Linux:
 $ tar xzvf rubygems-0.9.0.tar.gz
 $ cd rubygems-0.9.0
 $ su -
-# ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 Se hai bisogno di ulteriori informazioni su come installare Ruby, dai

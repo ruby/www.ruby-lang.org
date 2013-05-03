@@ -87,7 +87,7 @@ $ gem list
 $ tar xzvf rubygems-0.9.*.tar.gz
 $ cd rubygems-0.9.*
 $ su -
-# sudo ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 Ако имате нужда от информация за инсталирането на Ruby, моля посетете

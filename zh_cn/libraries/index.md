@@ -83,7 +83,7 @@ $ gem list
 $ tar xzvf rubygems-0.9.0.tar.gz
 $ cd rubygems-0.9.0
 $ su -
-# ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 如果你需要更进一步的关于如何安装 Ruby 的指导，请翻阅 RubyGems 手册里的[**安装章节(installation

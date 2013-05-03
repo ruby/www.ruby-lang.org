@@ -84,7 +84,7 @@ RubyGems를 설치하기 위해서는 홈페이지에서 최신 버전을 [내�
 $ tar xzvf rubygems-0.9.0.tar.gz
 $ cd rubygems-0.9.0
 $ su -
-# ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 설치 방법에 대한 더 자세한 지침을 보고 싶다면 RubyGems 매뉴얼에서 [**installation**][12] 부분을

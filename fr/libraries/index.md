@@ -106,7 +106,7 @@ Ainsi, sous GNU/Linux :
 $ tar xzvf rubygems-1.3.7.tar.gz
 $ cd rubygems-1.3.7
 $ su -
-# ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 Si vous avez besoin d’informations complémentaires sur l’installation de

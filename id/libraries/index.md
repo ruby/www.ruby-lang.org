@@ -113,7 +113,7 @@ Sebagai contoh, di Linux:
 $ tar xzvf rubygems-0.9.4.tar.gz
 $ cd rubygems-0.9.4
 $ su -
-# ruby setup.rb
+$ ruby setup.rb
 {% endhighlight %}
 
 Bila Anda membutuhkan panduan lebih lanjut tentang instalasi, Anda dapat
