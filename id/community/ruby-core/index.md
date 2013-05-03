@@ -25,8 +25,9 @@ Instalasi [Subversion][1] terlebih dahulu.
 Lakukan `svn checkout` *source code* Ruby dengan login sebagai anonim.
 Jadi di *console* Anda ketik:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% endhighlight %}
 
 Sekarang direktori `ruby` berisi *source code* Ruby 1.9 yang paling
 terbaru (trunk), yang merupakan versi development Ruby, yang akan
@@ -35,8 +36,9 @@ dirilis sebagai 1.9.0 di akhir tahun 2007.
 Kalau Anda berminat mempatch Ruby 1.8, gunakan *branch* `ruby_1_8`
 ketika svn checkout:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% endhighlight %}
 
 Perintah tadi untuk *checkout* direktori pengembangan Ruby versi 1.8.
 Developer yang bekerja di Ruby 1.8 diharapkan melakukan migrasi

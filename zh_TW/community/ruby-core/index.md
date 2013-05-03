@@ -22,8 +22,9 @@ The topics related to Ruby development covered here are:
 Checking out the latest Ruby source code is a matter of logging into the
 [Subversion][1] anonymous account. From your commandline:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% endhighlight %}
 
 The `ruby` directory will now contain the latest source code for Ruby
 1.9 (trunk), which is the development version of Ruby. The trunk was
@@ -34,15 +35,17 @@ patches applied to the trunk are backported to the stable 1\_9\_1 branch
 If you’d like to follow patching of Ruby 1.9.1, you should use the
 `ruby_1_9_1` branch when checking out:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+{% endhighlight %}
 
 If you’d like to follow patching of Ruby 1.8, you should use the
 `ruby_1_8_6` or `ruby_1_8_7` branch when checking out (depending on the
 version you’re using):
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7
+{% endhighlight %}
 
 This will check out the Ruby 1.8.7 development tree into a `ruby_1_8_7`
 directory. Developers working on Ruby 1.8 are expected to migrate their

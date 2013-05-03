@@ -28,11 +28,12 @@ Os tópicos relacionados com o desenvolvimento do Ruby cobertos aqui são:
 Para fazer o *check out* da última versão do código fonte basta fazer
 login na conta *anonymous* do repositório CVS. Da sua linha de comandos:
 
-
-     $ cvs -d :pserver:anonymous@cvs.ruby-lang.org:/src login
-     (Logging in to anonymous@cvs.ruby-lang.org)
-     CVS password: 
-     $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src co ruby
+{% highlight sh %}
+$ cvs -d :pserver:anonymous@cvs.ruby-lang.org:/src login
+(Logging in to anonymous@cvs.ruby-lang.org)
+CVS password:
+$ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src co ruby
+{% endhighlight %}
 
 Da directoria `ruby` irá agora fazer parte a última versão do código
 fonte para o Ruby 1.9 (Ruby HEAD), que é a versão de desenvolvimento do
@@ -41,9 +42,10 @@ Ruby, a ser distribuída como versão 2.0 mais tarde.
 Se desejar seguir a última versão do Ruby 1.8, deverá utilizar a
 etiqueta `ruby_1_8` quando fizer *check out*\:
 
-
-     $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
-         co -r ruby_1_8 -d ruby-1.8 ruby
+{% highlight sh %}
+$ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
+    co -r ruby_1_8 -d ruby-1.8 ruby
+{% endhighlight %}
 
 Isto irá fazer *check out* da árvore de desenvolvimento do Ruby 1.8 numa
 directoria `ruby-1.8`. É esperado que os programadores a trabalhar no
@@ -68,8 +70,9 @@ bytecode para compilar *scripts* de Ruby.
 Poderá fazer *check out* da YARV utilizando Subversion para testes
 pessoais:
 
-
-     $ svn co http://www.atdot.net/svn/yarv/trunk yarv
+{% highlight sh %}
+$ svn co http://www.atdot.net/svn/yarv/trunk yarv
+{% endhighlight %}
 
 Para instruções de instalação ver o ficheiro README. O programador
 principal, Koichi Sasada, também oferece listas de correio, *bug

@@ -23,8 +23,9 @@ I temi principali riguardanti lo sviluppo di Ruby sono:
 Per fare checkout del più recente codice Ruby, devi semplicemente fare
 il login usando l’account anonimo di Subversion. Dalla linea di comando:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% endhighlight %}
 
 La directory `ruby` contiene il codice più recente per Ruby 1.9
 (“trunk”), il quale è la versione di sviluppo di Ruby, da essere
@@ -33,8 +34,9 @@ rilasciata come versione 1.9.1 alla fine del 2008.
 Se sei interessato a seguire il patching di Ruby 1.8, devi fare checkout
 del branch `ruby_1_8`\:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% endhighlight %}
 
 Questo comando effettua il checkout del development tree su una
 directory `ruby_1_8`. Ai programmatori che lavorano su Ruby 1.8 viene

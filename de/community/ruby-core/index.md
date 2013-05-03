@@ -23,8 +23,9 @@ Die hier behandelten Themen zur Entwicklung von Ruby sind Folgende:
 Mit dem folgenden Kommandozeilenbefehl kannst du den aktuellsten
 Quelltext von Ruby über Subversion herunterladen (auschecken):
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% endhighlight %}
 
 Das Verzeichnis `ruby` enthält nun den vollständigen Quelltext der
 Entwicklerversion Ruby 1.9. Bitte bedenke, dass es sich bei dieser
@@ -36,8 +37,9 @@ Wenn du Interesse an der Verbesserung von Ruby 1.8 hast, solltest du dir
 den Branch `ruby_1_8` genauer anschauen. Über den folgenden
 Kommandozeilenbefehl kannst du den Quelltext auschecken:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% endhighlight %}
 
 Damit hast du die aktuelle Entwicklerversion des offiziellen Ruby 1.8
 Zweiges in das Verzeichnis `ruby_1_8` heruntergeladen. Entwickler die

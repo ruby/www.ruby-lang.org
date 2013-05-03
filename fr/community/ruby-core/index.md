@@ -25,8 +25,9 @@ Pour récupérer la dernière version du code source Ruby, il faut réaliser
 un *check out* en se connectant au compte anonyme du dépôt Subversion.
 Dans un terminal :
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% endhighlight %}
 
 Le répertoire `ruby` contient maintenant le code source de Ruby 1.9.x
 (tronc) dans sa dernière version. Le tronc a été dupliqué en Janvier
@@ -38,13 +39,15 @@ Si vous êtes plutôt intéressé par le suivi des patchs appliqués à Ruby
 1.9.1 plutôt qu’à la branche de développement (tronc instable), il vous
 faut récupérer la branche stable par :
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+{% endhighlight %}
 
 Si vous êtes intéressés par la branche 1.8.6 ou 1.8.7 :
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_*
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_*
+{% endhighlight %}
 
 où `*` est `6` ou `7`.
 

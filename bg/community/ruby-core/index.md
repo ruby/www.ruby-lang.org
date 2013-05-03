@@ -22,8 +22,9 @@ lang: bg
 Изтегляне на последната версия на сорс кода е въпрос на логване в
 Subversion с анонимен акаунт. От командния ред:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+{% endhighlight %}
 
 Директорията `ruby` съдържа последната версия на сорс кода на Ruby 1.9
 (trunk), който е все още в разработка и ще бъде пуснат официално като
@@ -32,8 +33,9 @@ Subversion с анонимен акаунт. От командния ред:
 Ако искате да работите над Ruby 1.8, можете да ползвате `ruby_1_8`
 клона:
 
-
-     $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+{% endhighlight %}
 
 По този начин ще свалите Ruby 1.8 в `ruby_1_8` директорията.
 
