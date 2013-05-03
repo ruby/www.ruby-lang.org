@@ -42,10 +42,10 @@ kısmına bakınız.
 {% highlight sh %}
 $ gem search html --remote
 
- *** REMOTE GEMS ***
+*** REMOTE GEMS ***
 
- html-sample (1.0, 1.1)
-    A sample Ruby gem, just to illustrate how RubyGems works.
+html-sample (1.0, 1.1)
+   A sample Ruby gem, just to illustrate how RubyGems works.
 {% endhighlight %}
 
 (*Burada `--remote` bayrağı ile ana depodaki gemleri sorguluyoruz.*)
