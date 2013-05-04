@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "DoS Sicherheitslücke in CGI Bibliothek"
+title: "DoS Sicherheitslücke in CGI Bibliothek (CVE-2006-5467)"
 author: "Daniel Bovensiepen"
 lang: de
 ---

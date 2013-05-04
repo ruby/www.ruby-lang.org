@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Durch ungültiges NUL-Zeichen werden unabsichtlich Dateien erzeugt"
+title: "Durch ungültiges NUL-Zeichen werden unabsichtlich Dateien erzeugt (CVE-2012-4522)"
 author: "Quintus"
 lang: de
 ---
@@ -8,6 +8,7 @@ lang: de
 Es wurde eine Sicherheitslücke in den Dateierstellungsroutinen gefunden,
 die es erlaubt, unbeabsichtigt Dateien zu erstellen, indem man
 `NUL`-Zeichen in den Dateipfad einfügt.
+Dieser Sicherheitslücke wurde die CVE-Nummer CVE-2012-4522 zugewiesen.
 
 ## Details
 
@@ -45,6 +46,7 @@ Der Vorfall wurde von Peter Bex gemeldet.
 
 ## Updates
 
+* CVE-Nummer ergänzt am 2012-10-16 08:58:51 JST.
 * Erstveröffentlichung des [Orignalbeitrags][2]\: 2012-10-12 19:19:55
   JST.
 

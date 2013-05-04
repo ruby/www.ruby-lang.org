@@ -21,11 +21,12 @@ Hier ein Liste kürzlich bekannt gewordener Probleme:
   CVE-2013-1821)][1] veröffentlicht am 22. Feb. 2013.
 * [Denial-of-Service- und Objekterstellungs-Sicherheitslücken in JSON
   (CVE-2013-0269)][2] veröffentlicht am 22. Feb. 2013.
-* [XSS-Exploit für RDoc-Dokumentation][3] veröffentlicht am 6. Feb. 2013.
+* [XSS-Exploit für RDoc-Dokumentation (CVE-2013-0256)][3]
+  veröffentlicht am 6. Feb. 2013.
 * [Hash-Flooding-DoS-Sicherheitsleck in Ruby 1.9 (CVE-2012-5371)][4]
   veröffentlicht am 10. Nov. 2012.
 * [Durch ungültiges NUL-Zeichen werden unabsichtlich Dateien
-   erzeugt][5] veröffentlicht am 12. Okt. 2012.
+   erzeugt (CVE-2012-4522)][5] veröffentlicht am 12. Okt. 2012.
 * [Sicherheitslücke in Exception#to_s / NameError#to_s (CVE-2012-4464,
   CVE-2012-4466) ermöglicht Umgehung von $SAFE][6]
   veröffentlicht am 12. Okt. 2012.
@@ -45,7 +46,7 @@ Hier ein Liste kürzlich bekannt gewordener Probleme:
   veröffentlicht am 2. Juli 2010.
 * [WEBrick "Escapesequence Injection" Schwachstelle][14]
   veröffentlicht am 10. Jan. 2010
-* [Heap overflow in String][15] veröffentlicht am 7. Dez. 2009
+* [Heap overflow in String (CVE-2009-4124)][15] veröffentlicht am 7. Dez. 2009
 * [DoS Schwachstelle in
   BigDecimal](/de/news/2009/06/13/dos-schwachstelle-in-bigdecimal/)
   veröffentlicht am 9. Juni 2009
@@ -67,7 +68,7 @@ Hier ein Liste kürzlich bekannt gewordener Probleme:
   CGI Bibliothek](/de/news/2006/12/04/another-dos-vulnerability-in-cgi-library/)
   veröffentlicht am 4. Dez. 2006
 * [DoS Sicherheitslücke in
-  CGI Bibliothek](/de/news/2006/11/09/dos-sicherheitslcke-in-cgi-bibliothek/)
+  CGI Bibliothek (CVE-2006-5467)](/de/news/2006/11/09/dos-sicherheitslcke-in-cgi-bibliothek/)
   veröffentlicht am 3. Nov. 2006
 * [Ruby vulnerability in the safe level
   settings](/de/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
