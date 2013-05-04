@@ -162,18 +162,18 @@ five3 = Array(1..5)
 
 ### Ersatz für benannte Parameter
 
-Ruby hat keine Keyword-Argumente wie Python. Man kann sie allerdings
-imitieren, indem man Symbole und Hashes kombiniert. Beispiel:
+Seit Version 2.0 besitzt Ruby wie auch Python Keyword-Argumente. Beispiel:
 
 {% highlight ruby %}
-def some_keyword_params( params )
-  params
+def send(from: 'A', to: nil, via: 'mail')
+  "Sending from #{from} to #{to} via #{via}."
 end
-some_keyword_params( :param_one => 10, :param_two => 42 )
-# => {:param_one=>10, :param_two=>42}
-{% endhighlight %}
 
-Diese Methode wird unter anderem in Ruby on Rails häufig eingesetzt.
+send(to: 'B')
+# => "Sending from A to B via mail."
+send(via: 'Pony Express', from: 'B', to: 'A')
+# => "Sending from B to A via Pony Express."
+{% endhighlight %}
 
 ### Die reine Wahrheit
 
