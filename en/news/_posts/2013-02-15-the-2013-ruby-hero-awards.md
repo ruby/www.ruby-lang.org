@@ -18,7 +18,7 @@ over to [RubyHeroes.com][1], typing in the github username of the person
 you wish to nominate, and giving us a reason why they deserve to win.
 About a month from now all the previous year’s Ruby Heroes will help
 decide who will win this year’s 6 awards which will be presented to the
-heros live on stage at Railsconf at the end of April.
+heroes live on stage at Railsconf at the end of April.
 
 
 

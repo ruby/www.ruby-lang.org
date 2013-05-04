@@ -19,7 +19,7 @@ until 10th of March - don\'t miss the chance to be on that list!
 
 There\'s a total of **4 slots open**, and each one of the **4 selected
 speakers** will get a **free ticket** to the conference as well as
-**paid accomodation**. You can check out the CFP\'s basis and **send
+**paid accommodation**. You can check out the CFP\'s basis and **send
 your proposal [in their website][3].**
 
 
