@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Heap overflow in String"
+title: "Heap overflow in String (CVE-2009-4124)"
 author: "Yugui"
 lang: en
 ---

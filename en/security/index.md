@@ -25,7 +25,7 @@ Here are recent issues.
 * [Hash-flooding DoS vulnerability for ruby 1.9 (CVE-2012-5371)][4]
   published at 10 Nov, 2012.
 * [Unintentional file creation caused by inserting a illegal NUL
-  character][5] published at 12 Oct, 2012.
+  character (CVE-2012-4522)][5] published at 12 Oct, 2012.
 * [$SAFE escaping vulnerability about Exception#to\_s / NameError#to\_s
   (CVE-2012-4464, CVE-2012-4466)][6] published at 12 Oct, 2012.
 * [Security Fix for RubyGems: SSL server verification failure for remote
@@ -41,7 +41,7 @@ Here are recent issues.
 * [Buffer over-run in ARGF.inplace\_mode=][13] published at 2 Jul, 2010.
 * [WEBrick has an Escape Sequence Injection vulnerability][14] published
   at 10 Jan, 2010
-* [Heap overflow in String][15] published at 7 Dec, 2009
+* [Heap overflow in String (CVE-2009-4124)][15] published at 7 Dec, 2009
 * [DoS vulnerability in
   BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/)
   published at 9 Jun, 2009
@@ -63,7 +63,7 @@ Here are recent issues.
 * [Another DoS Vulnerability in CGI
   Library](/en/news/2006/12/04/another-dos-vulnerability-in-cgi-library/)
   published at 4 Dec, 2006
-* [DoS Vulnerability in CGI Library](/en/news/2006/11/03/CVE-2006-5467/)
+* [DoS Vulnerability in CGI Library (CVE-2006-5467)](/en/news/2006/11/03/CVE-2006-5467/)
   published at 3 Nov, 2006
 * [Ruby vulnerability in the safe level
   settings](/en/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
