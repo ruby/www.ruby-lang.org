@@ -80,7 +80,9 @@ Release Candidate 版で動作することが報告されています。
 長年の懸案であったドキュメント不足についても、rdoc が大幅に追加され、 1.9.3 のときはドキュメント率が 60%
 だったのに対し、2.0.0 では 75% と なり、大きく改善しています。また、Ruby の構文の説明も追加されています。
 
-    ri ruby:syntax
+{% highlight sh %}
+ri ruby:syntax
+{% endhighlight %}
 
 で読むことができます。
 

@@ -96,7 +96,9 @@ versione 1.9.3 era documentata circa al 60%. Inoltre, abbiamo anche
 aggiunto una descrizione della sintassi di Ruby, come puoi vedere
 eseguendo:
 
-    ri ruby:syntax
+{% highlight sh %}
+ri ruby:syntax
+{% endhighlight %}
 
 ### Stabilità
 

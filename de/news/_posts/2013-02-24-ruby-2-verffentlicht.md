@@ -73,8 +73,9 @@ und Methoden geschrieben; insgesamt ist 2.0.0 zu rund 75% dokumentiert,
 wohingegen 1.9.3 nur zu etwa 60% abgedeckt war. Daneben gibt es nun eine
 Beschreibung von Rubys Syntax, einsehbar mit:
 
-
-    ri ruby:syntax
+{% highlight sh %}
+ri ruby:syntax
+{% endhighlight %}
 
 #### Stabilität
 

@@ -102,7 +102,9 @@ méthodes a ainsi notablement augmenté : 75% de la 2.0.0 est couvert,
 tandis que la 1.9.3 plafonnait vers les 60%. Par ailleurs, vous pouvez
 retrouver une description de la syntaxe ruby en appelant:
 
-    ri ruby:syntax
+{% highlight sh %}
+ri ruby:syntax
+{% endhighlight %}
 
 ### Stabilité
 

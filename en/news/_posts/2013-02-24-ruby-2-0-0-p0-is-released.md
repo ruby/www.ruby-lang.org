@@ -88,7 +88,9 @@ requested. We have added a huge amount of rdoc for modules and methods.
 2.0.0 will be around 75% documented while 1.9.3 was about 60%. Also, we
 have added a description of Ruby\'s syntax. You can see:
 
-    ri ruby:syntax
+{% highlight sh %}
+ri ruby:syntax
+{% endhighlight %}
 
 ### Stability
 
