@@ -142,18 +142,20 @@ end
 
 Now `Constant` is 10, but `Constant()` is 11.
 
-### Fake keyword parameters
+### Keyword arguments
 
-Ruby doesn’t have keyword parameters, like Python has. However, it can
-be faked by using symbols and hashes. Ruby on Rails, among others, uses
-this heavily. Example:
+Like in Python, since Ruby 2.0 methods can be defined
+using keyword arguments:
 
 {% highlight ruby %}
-def some_keyword_params( params )
-  params
+def deliver(from: 'A', to: nil, via: 'mail')
+  "Sending from #{from} to #{to} via #{via}."
 end
-some_keyword_params( :param_one => 10, :param_two => 42 )
-# => {:param_one=>10, :param_two=>42}
+
+deliver(to: 'B')
+# => "Sending from A to B via mail."
+deliver(via: 'Pony Express', from: 'B', to: 'A')
+# => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
 ### The universal truth
