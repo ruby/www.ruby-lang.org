@@ -160,9 +160,10 @@ five2 = Array.new << 1 << 2 << 3 << 4 << 5
 five3 = Array(1..5)
 {% endhighlight %}
 
-### Ersatz für benannte Parameter
+### Benannte Argumente
 
-Seit Version 2.0 besitzt Ruby wie auch Python Keyword-Argumente. Beispiel:
+Seit Ruby 2.0 können Methoden wie auch in Python mit benannten Argumenten
+(Keyword-Argumenten) aufgerufen werden:
 
 {% highlight ruby %}
 def deliver(from: 'A', to: nil, via: 'mail')
