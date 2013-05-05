@@ -165,13 +165,13 @@ five3 = Array(1..5)
 Seit Version 2.0 besitzt Ruby wie auch Python Keyword-Argumente. Beispiel:
 
 {% highlight ruby %}
-def send(from: 'A', to: nil, via: 'mail')
+def deliver(from: 'A', to: nil, via: 'mail')
   "Sending from #{from} to #{to} via #{via}."
 end
 
-send(to: 'B')
+deliver(to: 'B')
 # => "Sending from A to B via mail."
-send(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: 'Pony Express', from: 'B', to: 'A')
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
