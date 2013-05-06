@@ -1260,7 +1260,7 @@ locales:
         text: Feeds de noticias (RSS)
         recent_news:
           text: Em Português
-          url: /pt/feeds/noticias.rss
+          url: /pt/feeds/news.rss
     tr:
       get_started:
         text: <strong>Başlamak</strong>, çok kolay!

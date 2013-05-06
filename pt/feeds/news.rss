@@ -7,7 +7,7 @@ lang: pt
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ locales.title }}</title>
-    <link>{{ site.url }}/{{ page.lang }}/feeds/noticias.rss/</link>
+    <link>{{ site.url }}/{{ page.lang }}/feeds/news.rss</link>
     <language>{{ locales.lang_code }}</language>
     <ttl>40</ttl>
     <description>{{ locales.description }}</description>
