@@ -9,19 +9,19 @@ entstanden. Wer danach sucht, wird hunderte von Blogs ausgraben, die
 Ruby-Code enthalten, neue Techniken beschreiben oder über die Zukunft
 von Ruby spekulieren.
 
-### Ruby Blogs finden
+### Ruby-Blogs finden
 
-[**Ruby on del.icio.us**][1]\: Ruby und Rails befinden sich unter den
+[**Ruby bei del.icio.us**][1]\: Ruby und Rails befinden sich unter den
 Top 50 Tags auf del.icio.us, einer populären Seite zur Verwaltung von
 Bookmarks. Wer auf der Suche nach neuen, interessanten Links ist, sollte
-sich den [ruby][1] Tag anschauen. Für aktuelle Trends kann die
+sich den [ruby][1]-Tag anschauen. Für aktuelle Trends kann die
 [Popularitätsskala][2] im Allgemeinen von Interesse sein.
 
-[**Ruby on Technorati**][3]\: Die Suchseite von Technorati hält eine
+[**Ruby bei Technorati**][3]\: Die Suchseite von Technorati hält einen
 Index mit Beiträgen zu Ruby in Blogs bereit.
 
 **Aggregatoren**\: [Ruby Corner][4], [Planet Ruby][5], [Planet Ruby on
-Rails][6] und andere Seiten, sammeln Ruby Beiträge aus Blogs und
+Rails][6] und andere Seiten sammeln Ruby-Beiträge aus Blogs und
 bereiten sie zur besseren Lesbarkeit auf.
 
 ### Erwähnenswerte Blogs
@@ -30,14 +30,14 @@ Einige Blogs sind wegen ihres frequenten Outputs und der Aktualität zu
 empfehlen:
 
 * [**Matz’ Blog**][7] ist das japanische Blog des Erfinders von Ruby.
-  Selbst wer nicht alles versteht was dort steht, sollte froh sein, dass
+  Selbst wer nicht alles versteht, was dort steht, sollte froh sein, dass
   dort etwas steht. ;-)
 * [**Ruby-Mine**][8] ist ein Gruppenblog von mehreren Mitgliedern der
-  deutschen Ruby Szene. Es werden Neuigkeiten, Hacks und Projekte aus
-  der Ruby Welt thematisiert.
+  deutschen Ruby-Szene. Es werden Neuigkeiten, Hacks und Projekte aus
+  der Ruby-Welt thematisiert.
 * [**Ruby Inside**][9] berichtet über interessante Applikationen und
   Bibliotheken aus der Welt von Ruby und von Rails.
-* [**O’Reilly Ruby**][10] ist ein Gruppenblog mit entsprechenden
+* [**O’Reilly Ruby**][10] ist ein Gruppenblog mit entsprechendem
   Tutorial zu Ruby und Interviews mit interessanten Leuten aus der
   Community.
 * [**Riding Rails**][11] ist das offizielle Blog der Macher von Ruby on
@@ -51,10 +51,10 @@ Wer ein eigenes Blog zum Thema Ruby hat, sollte es auf [del.icio.us][12]
 mit dem Tag *ruby* versehen. Die oben genannten Blogs sind ebenfalls
 gute Anlaufstellen, um dort eigene Themen anderen bereitzustellen. (Wenn
 es offensichtlich nichts mit Rails zu tun hat, wird das *Riding Rails*
-Team eventuell nicht dran interessiert sein, aber man weiss ja nie).
+Team eventuell nicht daran interessiert sein, aber man weiß ja nie).
 
 Ruby ist außerdem auf [Digg][13] und [Slashdot][14] ein verbreitetes
-Thema. Wer interessante Sourcen findet, sollte sich dort melden.
+Thema. Wer interessanten Code findet, sollte sich dort melden.
 
 
 

@@ -5,41 +5,41 @@ lang: de
 ---
 
 Die Community, die sich im Umfeld einer Programmiersprache entwickelt,
-ist eine der wichtigsten Stärken. Ruby hat eine lebhafte und wachsende
+ist eine ihrer größten Stärken. Ruby hat eine lebhafte und wachsende
 Community, die stets freundlich zu allen Leuten unterschiedlichen
-Know-How-Levels ist.
+Kenntnisstands ist.
 
-Für den, der Interesse hat sich einzubringen, ist die folgende Liste ein guter Einstiegspunkt:
+Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Einstiegspunkt:
 
 [Ruby User Groups](user-groups/)
 : Ihre lokale Ruby User Group ist der beste Ort, um sich mit anderen
-  Ruby-Programmierern auszutauschen. Ruby-Benutzergruppen organisieren
-  sich selbst und veranstalten monatliche Treffen, eine Mailing-liste,
-  eine Website und nach Interessenslage Programmierparties.
+  Ruby-Programmierern auszutauschen. Ruby-Benutzergruppen organisieren sich
+  selbst, und typischerweise gibt es monatliche Treffen, eine Mailingliste,
+  eine Website und eventuell auch häufig stattfindende Programmierparties.
 
-[Ruby Mailing-Listen und Newsgroups](mailing-lists/)
-: Für Ruby gibt es eine Auswahl an Mailing-Listen zu verschiedenen
+[Ruby-Mailinglisten und Newsgroups](mailing-lists/)
+: Für Ruby gibt es eine Auswahl an Mailinglisten zu verschiedenen
   Themen und in unterschiedlichen Sprachen. Wer Fragen zu Ruby hat,
-  sollte diese in einer Mailing-Liste stellen, um eine Antwort zu
+  sollte diese in einer Mailingliste stellen, um eine Antwort zu
   bekommen.
 
 [Ruby im IRC](irc://irc.freenode.net/ruby-lang)
-: Der Ruby Language IRC Channel ist eine hervorragende Möglichkeit mit
-  anderen Rubyisten zu chatten. ([Frühere Chat Aufzeichnungen][1])
+: Der Ruby Language IRC-Channel ist eine hervorragende Möglichkeit mit
+  anderen Rubyisten zu chatten. ([Frühere Chat-Aufzeichnungen][1])
 
 [Ruby Core](ruby-core/)
 : Gerade jetzt, wo Ruby 2.0 in Arbeit ist, ist die beste Gelegenheit,
   die Entwicklungen rund um Ruby näher zu betrachten. Wer daran
-  interessiert ist, zu helfen, startet am Besten hier.
+  interessiert ist zu helfen, startet am Besten hier.
 
 [Weblogs zu Ruby](weblogs/)
 : Nur wenige Dinge passieren in der Ruby-Community, die nicht in Blogs
   festgehalten werden. Hier ist eine passende Liste mit Empfehlungen.
 
-[Ruby Konferenzen](conferences/)
-: Ruby-Programmierer auf der ganzen Welt, werden immer öfter zu
-  Konferenzen eingeladen, um sich zu treffen und zu aktuellen Projekten
-  auszutauschen, die Zukunft von Ruby zu diskutieren und Neueinsteiger
+[Ruby-Konferenzen](conferences/)
+: Ruby-Programmierer auf der ganzen Welt treffen sich immer öfter auf
+  Konferenzen, um sich zu zu aktuellen Projekten auszutauschen,
+  die Zukunft von Ruby zu diskutieren und Neueinsteiger
   in die Ruby-Community zu integrieren.
 
 Allgemeine Information zu Ruby

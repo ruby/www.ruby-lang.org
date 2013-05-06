@@ -4,13 +4,13 @@ title: "Sicherheit"
 lang: de
 ---
 
-Hier finden Sie Informationen über Sicherheitsprobleme in Ruby.
+Hier finden Sie Informationen zu Sicherheitsproblemen in Ruby.
 
 ## Sicherheitslücken melden
 
 Sicherheitslücken sollten per E-Mail an
 security@ruby-lang.org ([öffentlicher PGP-Schlüssel](/security.asc))
-gemeldet werden, einer nicht öffentlichen Mailing-Liste.
+gemeldet werden, einer nicht öffentlichen Mailingliste.
 Gemeldete Probleme werden veröffentlicht, nachdem sie behoben wurden.
 
 ## Bekannte Schwachstellen

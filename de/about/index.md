@@ -9,8 +9,8 @@ gleichzeitig funktional und praktisch. Wie kommt das?
 
 ### Die Ideale des Ruby-Erfinders
 
-Ruby ist eine Sprache der Balance. Ihr Schöpfer [Yukihiro “matz”
-Matsumoto][1] vermischte Teile seiner Lieblingssprachen (Perl,
+Ruby ist eine Sprache der Balance. Ihr Schöpfer [Yukihiro “Matz”
+Matsumoto][1] kombinierte Teile seiner Lieblingssprachen (Perl,
 Smalltalk, Eiffel, Ada und Lisp) und formte daraus eine neue
 Programmiersprache, in der funktionale und imperative Programmierung
 ausbalanciert sind.
@@ -28,7 +28,7 @@ Darauf aufbauend fügt er hinzu:
 
 ### Ruby wächst
 
-Seit ihrer Veröffentlichung im Jahr 1995 hat Ruby Programmierer auf der
+Seit seiner Veröffentlichung im Jahr 1995 hat Ruby Programmierer auf der
 ganzen Welt angezogen und begeistert. Im Jahr 2006 hat Ruby die Massen
 erreicht: Aktive Usergroups entstehen in den großen Weltstädten und
 Konferenzen rund um Ruby sind ausverkauft.
@@ -38,8 +38,11 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
-Ruby-Talk, die wichtigste [Mailing-Liste](/en/community/mailing-lists/)
-zur Sprache Ruby, verzeichnet inzwischen 200 Einträge pro Tag.
+Ruby-Talk, die wichtigste [Mailingliste](/en/community/mailing-lists/)
+für Diskussionen rund um Ruby, erreichte 2006 einen Spitzenwert von etwa
+200 Nachrichten pro Tag. Seither ist die Aktivität wieder zurückgegangen,
+da mit dem starken Anwachsen der Community zahlreiche kleinere Listen
+entstanden sind.
 
 Der [TIOBE-Index][2], der die Verbreitung von Programmiersprachen misst,
 listet Ruby auf Platz 10 der populärsten Sprachen. Ein großer Teil
@@ -54,7 +57,7 @@ vertreiben.
 ### Alles ist ein Objekt
 
 Am Anfang hat Matz andere Sprachen studiert, um die ideale Syntax zu
-finden. An diese Suche erinnert sagt er: “Ich wollte eine Scriptsprache,
+finden. An diese Suche erinnert sagt er: “Ich wollte eine Skriptsprache,
 die mächtiger als Perl und objektorientierter als Python
 ist<sup>[3](#fn3)</sup>.”
 
@@ -62,7 +65,7 @@ In Ruby ist alles ein Objekt. Jedes Stück Information kann eigene
 Eigenschaften und Aktionen besitzen. In der Welt der objektorientierten
 Programmierung nennt man diese Eigenschaften *Instanzvariablen* und die
 Aktionen *Methoden*. Rubys rein objektorientierter Ansatz wird
-üblicherweise mit einem Stück Code demostriert, in dem die Methode einer
+üblicherweise mit einem Stück Code demonstriert, in dem die Methode einer
 Zahl aufgerufen wird:
 
 {% highlight ruby %}
@@ -70,15 +73,15 @@ Zahl aufgerufen wird:
 {% endhighlight %}
 
 In vielen Sprachen sind Zahlen und andere primitive Typen keine Objekte.
-Ruby folgt dem Einfluss von Smalltalk und gibt all ihren Typen Methoden
+Ruby folgt dem Einfluss von Smalltalk und gibt all seinen Typen Methoden
 und Instanzvariablen. Das erleichtert die Verwendung von Ruby, da die
 Regeln für Objekte überall in der Sprache gültig sind.
 
 ### Rubys Flexibilität
 
 Ruby wird als flexible Sprache angesehen, da der Programmierer die
-Bestandteile der Sprache beliebig verändern kann. Grundlegendes kann
-gelöscht oder umdefiniert werden. Vorhandenes kann erweitert werden.
+Bestandteile der Sprache beliebig verändern kann. Zentrale Teile von Ruby
+können gelöscht oder umdefiniert werden. Vorhandenes kann erweitert werden.
 Ruby versucht, den Programmierer nicht zu behindern.
 
 Ein Beispiel: In Ruby wird mit dem Plus-Operator (`+`) addiert. Aber
@@ -122,7 +125,7 @@ search_engines =
 Im obigen Quelltext steht der Block zwischen `do` und `end`. Die Methode
 `map` wendet den Block auf die gegebene Liste von Namen an. Viele andere
 Ruby-Methoden lassen ähnliche Lücken offen, damit der Programmierer
-Details über die Vorgehensweise einfügen kann.
+Details der Vorgehensweise einfügen kann.
 
 ### Ruby und Mixins
 
@@ -148,16 +151,16 @@ die komplex und einschränkend sein kann.
 
 Obwohl Ruby eine eher begrenzte Zeichensetzung zu Gunsten von englischen
 Schlüsselworten verwendet, werden einige Zeichen zum Ausschmücken
-benutzt. Ruby nutzt einfache Namenskonventionen, um den Geltungsbereich
-von Variablen festzulegen:
+benutzt. Ruby verlangt keine Variablendeklarationen. Ruby nutzt einfache
+Namenskonventionen, um den Geltungsbereich von Variablen festzulegen:
 
 * `var` kann eine lokale Variable sein.
 * `@var` ist eine Instanzvariable.
 * `$var` ist eine globale Variable.
 
-Diese Vorzeichen verbessern die Lesbarkeit, indem sie dem Programmierer
+Diese Präfixe verbessern die Lesbarkeit, indem sie dem Programmierer
 erlauben, die Rollen der einzelnen Variablen zu erkennen. Außerdem wird
-dadurch das `self.` / `this.` vor jeder Instanzvariable überflüssig.
+dadurch das `self.` vor jeder Instanzvariablen überflüssig.
 
 ### Jenseits der Grundlagen
 
@@ -175,7 +178,7 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
 
 * C-Erweiterungen für Ruby zu schreiben ist einfacher als in Perl oder
   Python, da es eine sehr elegante API zum Aufrufen von Ruby aus C
-  besitzt. Das schließt auch Aufrufe ein, um Ruby als Scriptsprache in
+  besitzt. Das schließt auch Aufrufe ein, um Ruby als Skriptsprache in
   fremde Software zu integrieren. Ein SWIG-Interface ist ebenfalls
   verfügbar.
 ^
@@ -184,18 +187,18 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
   erlaubt.
 ^
 
-* Ruby hat plattformunabhängige Threads. Damit hat man unter allen
-  Systemen, die Ruby unterstützen, auch Multithreading, sogar unter
+* Ruby hat plattformunabhängige Threads. Damit steht unter allen Systemen,
+  die Ruby unterstützen, auch Multithreading zur Verfügung, sogar unter
   MS-DOS!
 ^
 
 * Ruby ist in hohem Maße portabel: Es wird vorrangig auf GNU/Linux
   entwickelt, arbeitet aber auf vielen UNIX-Varianten wie Mac OS X, auf
-  Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2 usw.
+  Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, usw.
 
 #### Referenzen
 
-<sup>1</sup> Matz auf der Ruby-Talk-Mailingliste am [12. Mai 2000][3].
+<sup>1</sup> Matz in der Ruby-Talk-Mailingliste am [12. Mai 2000][3].
 {: #fn1}
 
 <sup>2</sup> Besuche die Website von [Ruby on Rails][4], um mehr zu
