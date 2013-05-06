@@ -29,9 +29,7 @@ module Jekyll
       end
 
       def news_dir
-        if @lang == 'pt' then 'noticias-recentes'
-        else                  'news'
-        end
+        'news'
       end
 
       def insert_date(string, year, month = 0)
