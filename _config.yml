@@ -198,7 +198,7 @@ locales:
       - text: Comunidade
         url: /pt/comunidade
       - text: Notícias
-        url: /pt/noticias-recentes
+        url: /pt/news
 #     - text:
 #       url: /pt/security
       - text: Sobre Ruby
