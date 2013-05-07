@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Szkocja on Rails 2009"
+author: "Unknown Author"
 date: 2009-02-04 11:27:12 UTC
 lang: pl
 ---

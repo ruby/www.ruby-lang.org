@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "可导致执行任意代码的安全漏洞 - Ruby 官方网站"
+author: "Unknown Author"
 lang: zh_cn
 ---
 

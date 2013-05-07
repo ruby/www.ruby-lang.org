@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Vulnerabilidades de segurança no Ruby"
+author: "Unknown Author"
 lang: pt
 ---
 

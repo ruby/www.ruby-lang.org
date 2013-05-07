@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Vulnerabilidade DoS na biblioteca REXML"
+author: "Unknown Author"
 lang: pt
 ---
 

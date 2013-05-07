@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.8.7 发布 - Ruby 官方网站"
+author: "Unknown Author"
 lang: zh_cn
 ---
 
