@@ -41,7 +41,7 @@ Ruby-Talk, la [lista de correo](/es/community/mailing-lists/) más
 importante sobre el lenguaje Ruby ha crecido hasta lograr un promedio de
 200 mensajes por día.
 
-El índice TIOBE, que mide el crecimiento de los lenguajes de
+El [índice TIOBE][6], que mide el crecimiento de los lenguajes de
 programación, ubica a Ruby en la posición #13 del ranking mundial.
 Refiriéndose a su crecimiento, predicen, “Todo indica que Ruby llegará a
 estar entre los 10 primeros en menos de 6 meses”. Gran parte de su
@@ -223,3 +223,4 @@ del 2003.
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

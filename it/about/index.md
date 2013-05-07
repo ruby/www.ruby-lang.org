@@ -41,7 +41,7 @@ Ruby-Talk, la prima [lista di discussione](/it/community/mailing-lists/)
 per il linguaggio Ruby, ha raggiunto il traguardo di 200 nuovo messaggi
 al giorno.
 
-L’indice TIOBE, che misura la crescita dei linguaggi di programmazione,
+[L’indice TIOBE][6], che misura la crescita dei linguaggi di programmazione,
 mette Ruby al decimo posto tra tutti i linguaggi di programmazione
 esistenti al mondo. Gran parte di questa crescita è da attribuire alla
 popolarità dei programmi scritti in Ruby, in particolare il framework
@@ -224,3 +224,4 @@ Rails][3].
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

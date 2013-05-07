@@ -213,7 +213,7 @@ November 2001.
 
 
 [1]: http://www.rubyist.net/~matz/
-[2]: http://www.tiobe.com/tpci.htm
+[2]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [3]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
 [4]: http://rubyonrails.org/
 [5]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html

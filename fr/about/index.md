@@ -49,7 +49,7 @@ diffusion](/fr/community/mailing-lists/) recevant les discussions à
 propos du langage Ruby, atteint aujourd’hui une moyenne de deux cent
 nouveaux messages par jour.
 
-L’index TIOBE, qui mesure la croissance des langages informatiques,
+[L’index TIOBE][6], qui mesure la croissance des langages informatiques,
 place Ruby à la dixieme place du classement des langages les plus
 utilisés au monde. Concernant cette évolution, leur prédiction est la
 suivante : « il y a des chances que Ruby entre dans le top 10 dans moins
@@ -229,3 +229,4 @@ le 22 décembre 2003.
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

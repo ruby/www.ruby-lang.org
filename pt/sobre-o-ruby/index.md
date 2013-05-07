@@ -40,7 +40,7 @@ A Ruby-Talk, a principal [lista de
 correio](/pt/comunidade/listas-de-correio/) para a discussão sobre a
 linguagem Ruby subiu para uma média de 200 mensagens diárias.
 
-O índice TIOBE, que mede o crescimento das linguagens de programação,
+O [índice TIOBE][6], que mede o crescimento das linguagens de programação,
 posiciona o Ruby em #12 entre as linguagens de programação. Citando o
 seu crescimento, prevêm que “Existem possibilidades de que o Ruby entre
 no Top 10 dentro de meio ano.” Muito deste crescimento é atribuído à
@@ -222,3 +222,4 @@ Nov. 2001.
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

@@ -31,8 +31,8 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 在 Ruby-Talk，主要的[ 邮件列表](/zh_cn/community/mailing-lists/) 上，讨论 Ruby
 语言的文章爬升到每日 200 封。
 
-在 TIOBE， 最流行的开发语言排名调查中， Ruby 排名为全球第 11 位。 根据这样的成长情况，他们预测“在半年之中 Ruby
-将会进入最受欢迎开发语言的前 10 名。”有越来越多受欢迎的软件如 Ruby on Rails web
+在 [TIOBE][6]， 最流行的开发语言排名调查中， Ruby 排名为全球第 11 位。 根据这样的成长情况，他们预测“在半年之中
+Ruby 将会进入最受欢迎开发语言的前 10 名。”有越来越多受欢迎的软件如 Ruby on Rails web
 framework<sup>[2](#fn2)</sup> 是使用 Ruby 撰写而成，也是造成 Ruby 如此快速成长的原因。
 
 Ruby 是[开源软件]({{ site.license.url }})。 不只是免费，而且可以自由的使用、复制、修改与发布。
@@ -164,3 +164,4 @@ Ruby 还有其他丰富的特性：
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

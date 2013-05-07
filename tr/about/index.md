@@ -39,7 +39,7 @@ Ruby-Talk, en çok kullanılan Ruby [e-posta
 listesi](/en/community/mailing-lists/) günde ortalama 200 mesaj
 trafiğine sahiptir.
 
-Programlama dillerinin popülaritesini araştıran TIOBE istatistiklerine
+Programlama dillerinin popülaritesini araştıran [TIOBE][6] istatistiklerine
 göre, Ruby dünya çapında en çok kullanılan 10.cu dil haline gelmiştir.
 Ruby’nin bu hızlı büyümesinde Ruby on Rails
 framework’ünün<sup>[2](#fn2)</sup> hatırı sayılır etkisi bulunmaktadır.
@@ -213,3 +213,4 @@ ziyaret edin.
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

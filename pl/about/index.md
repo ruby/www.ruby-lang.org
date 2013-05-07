@@ -38,7 +38,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 Ruby-Talk, główna [lista mailingowa](/en/community/mailing-lists/) na
 tematy związane z Rubim, osiągnęła średnio ruch 200 wiadomości dziennie.
 
-Wskaźnik TIOBE, który mierzy rozwój języków programowania, umieszcza
+Wskaźnik [TIOBE][8], który mierzy rozwój języków programowania, umieszcza
 Rubiego na 10 miejscu. Wiele owego wzrostu zawdzięcza Ruby popularności
 software napisanego przy jego użyciu, szczególnie frameworkowi Ruby on
 Rails<sup>[2](#fn2)</sup>.
@@ -212,3 +212,4 @@ Ruby posiada bogactwo innych właściwości—niektóre z nich to:
 [5]: http://rubyonrails.org/
 [6]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [7]: http://www.artima.com/intv/closures2.html
+[8]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

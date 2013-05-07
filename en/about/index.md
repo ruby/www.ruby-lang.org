@@ -40,7 +40,7 @@ per day in 2006. It has dropped in recent years as the size of the
 community pushed discussion from one central list into many smaller
 groups.
 
-The TIOBE index, which measures the growth of programming languages,
+The [TIOBE index][6], which measures the growth of programming languages,
 ranks Ruby as #9 among programming languages worldwide. Much of the
 growth is attributed to the popularity of software written in Ruby,
 particularly the Ruby on Rails web framework<sup>[2](#fn2)</sup>.
@@ -208,3 +208,4 @@ Ruby has a wealth of other features, among which are the following:
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

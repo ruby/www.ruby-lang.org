@@ -42,7 +42,7 @@ Ruby-Talk, [milis](/id/community/mailing-lists/) utama untuk diskusi
 Ruby (dalam bahasa Inggris) telah mencapai kisaran 200 email setiap
 hari.
 
-TIOBE index, yang menghitung perkembangan bahasa-bahasa pemrograman,
+[TIOBE index][7], yang menghitung perkembangan bahasa-bahasa pemrograman,
 menempatkan Ruby pada peringkat ke 10 diantara bahasa-bahasa pemrograman
 di seluruh dunia. Melihat pada perkembangan ini, mereka memperkirakan,
 “Kesempatan Ruby memasuki peringkat atas 10 besar adalah dalam waktu
@@ -227,3 +227,4 @@ di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
 [4]: http://rubyonrails.org/
 [5]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [6]: http://www.artima.com/intv/closures2.html
+[7]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
