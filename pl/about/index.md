@@ -11,7 +11,7 @@ praktyczny. O co chodzi ?
 ### Ideały twórcy języka Ruby
 
 Ruby jest językiem starannie dobranej równowagi. Jego twórca, [Yukihiro
-“matz” Matsumoto][1], połączył części jego ulubionych języków (Perla,
+“Matz” Matsumoto][1], połączył części jego ulubionych języków (Perla,
 Smalltalka, Eiffel, Ady i Lispa) by uformować nowy język, który
 zbalansował programowanie funkcjonalne wraz z programowanie
 imperatywnym.

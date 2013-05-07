@@ -11,7 +11,7 @@ funzionale. Come mai?
 ### Gli ideali del creatore di Ruby
 
 Ruby è un linguaggio di equilibrio e armonia. Il suo creatore, [Yukihiro
-“matz” Matsumoto][1], ha fuso insieme parti dei suoi linguaggi di
+“Matz” Matsumoto][1], ha fuso insieme parti dei suoi linguaggi di
 programmazione preferiti (Perl, Smalltalk, Eiffel, Ada e Lisp) per
 creare un nuovo linguaggio in grado di bilanciare programmazione
 funzionale con programmazione imperativa.

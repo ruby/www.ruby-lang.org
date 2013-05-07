@@ -14,7 +14,7 @@ concrètement parlant ?
 
 Le langage ruby, en terme de syntaxe et de fonctionnalité, a été dès le
 départ conçu comme un ensemble homogène. Son créateur est le programmeur
-japonais [Yukihiro « matz » Matsumoto][1]. Ce dernier a rassemblé
+japonais [Yukihiro « Matz » Matsumoto][1]. Ce dernier a rassemblé
 certaines fonctionnalités de ses langages préférés de l’époque
 (principalement Perl, Smalltalk, Eiffel, Ada et Lisp) afin d’imaginer un
 nouveau langage qui mêlerait astucieusement programmations impérative et

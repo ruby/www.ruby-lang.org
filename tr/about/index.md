@@ -10,7 +10,7 @@ olarak tanımlarlar. Peki Ruby size neler vaad ediyor?
 
 ### Ruby’nin Yaratıcısının İdealleri
 
-Ruby dengenin dilidir. Ruby’nin yaratıcısı [Yukihiro “matz”
+Ruby dengenin dilidir. Ruby’nin yaratıcısı [Yukihiro “Matz”
 Matsumoto][1] en sevdiği dillerin (Perl, Smalltalk, Eiffel, Ada, ve
 Lisp) en iyi özelliklerini harmanlayarak fonksiyonel programlama ile
 imperativ programlamaya dayanan yeni bir dil yaratmayı amaçlamıştır.

@@ -10,7 +10,7 @@ ameno. ¿Por qué?
 
 ### Los ideales del creador de Ruby
 
-Ruby es un lenguaje con un balance cuidado. Su creador, [Yukihiro “matz”
+Ruby es un lenguaje con un balance cuidado. Su creador, [Yukihiro “Matz”
 Matsumoto][1], mezcló partes de sus lenguajes favoritos (Perl,
 Smalltalk, Eiffel, Ada, y Lisp) para formar un nuevo lenguaje que
 incorporara tanto la programación funcional como la programación

@@ -77,7 +77,7 @@ also send your patches straight to the mailing list. Either way, you are
 encouraged to take part in the discussion that ensues.
 
 Please look over the [Patch Writer’s Guide][11] for some tips, straight
-from matz, on how to get your patches considered.
+from Matz, on how to get your patches considered.
 
 To summarize, the steps for building a patch are:
 

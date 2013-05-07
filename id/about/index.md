@@ -10,7 +10,7 @@ praktis dan mudah. Apa lagi?
 
 ### Idealisme Pencipta Ruby
 
-Ruby merupakan bahasa yang seimbang. Pencipta Ruby, [Yukihiro “matz”
+Ruby merupakan bahasa yang seimbang. Pencipta Ruby, [Yukihiro “Matz”
 Matsumoto][1], menggabungkan bagian-bagian dari bahasa-bahasa favorit
 beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk bahasa
 baru yang seimbang antara pemrograman fungsional dengan pemrograman

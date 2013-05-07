@@ -8,7 +8,7 @@ lang: zh_cn
 
 ### Ruby 发明者的理想
 
-Ruby 是一个注重均衡的语言，它的发明者[松本行弘 Yukihiro “matz” Matsumoto][1]，混合了他喜欢的语言（Perl、
+Ruby 是一个注重均衡的语言，它的发明者[松本行弘 Yukihiro “Matz” Matsumoto][1]，混合了他喜欢的语言（Perl、
 Smalltalk、 Eiffel、 Ada 和 Lisp ） 产生了一种具有函数式及指令程序设计特性的新语言。
 
 他常说，他是“试着让 Ruby 更自然，而不是简单，就像生活一样”。
