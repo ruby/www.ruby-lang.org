@@ -614,11 +614,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             Докладвайте или помогнете за решаването на проблеми в Ruby.
-      top_ruby_projects:
-        text: Няколко топ Ruby проекта
-        more:
-          text: Още…
-          url: /bg/libraries/top-projects/
       syndicate:
         text: Новини
         recent_news:
@@ -677,11 +672,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             Melde einen Fehler oder hilf mit, offene Fehler zu beseitigen.
-      top_ruby_projects:
-        text: Beliebte Ruby-Projekte
-        more:
-          text: Mehr…
-          url: /de/libraries/top-projects/
       syndicate:
         text: Syndication
         recent_news:
@@ -740,11 +730,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             Report or help solve issues in Ruby.
-      top_ruby_projects:
-        text: Some Top Ruby Projects
-        more:
-          text: More…
-          url: /en/libraries/top-projects/
       syndicate:
         text: Syndicate
         recent_news:
@@ -803,11 +788,6 @@ locales:
 #         url: https://bugs.ruby-lang.org/
 #         description: |
 #           Report or help solve issues in Ruby.
-#     top_ruby_projects:
-#       text: Some Top Ruby Projects
-#       more:
-#         text: More…
-#         url: /en/libraries/top-projects/
       syndicate:
         text: Feeds de noticias (RSS)
         recent_news:
@@ -866,11 +846,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             aidez à corriger et améliorer Ruby.
-      top_ruby_projects:
-        text: Projets populaires
-        more:
-          text: Plus de projets…
-          url: /fr/libraries/top-projects/
       syndicate:
         text: Syndication
         recent_news:
@@ -931,11 +906,6 @@ locales:
 #         url: https://bugs.ruby-lang.org/
 #         description: |
 #           Report or help solve issues in Ruby.
-      top_ruby_projects:
-        text: Proyek Ruby Terpopuler
-        more:
-          text: Lagi…
-          url: /id/libraries/top-projects/
       syndicate:
         text: Berlangganan
         recent_news:
@@ -996,11 +966,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             Segnalaci o aiutaci a risolvere problemi in Ruby
-      top_ruby_projects:
-        text: Progetti Importanti in Ruby
-        more:
-          text: Altro…
-          url: /it/libraries/top-projects/
       syndicate:
         text: Feed RSS
         recent_news:
@@ -1059,11 +1024,6 @@ locales:
 #         url: https://bugs.ruby-lang.org/
 #         description: |
 #           Report or help solve issues in Ruby.
-      top_ruby_projects:
-        text: RubyForge トッププロジェクト
-        more:
-          text: もっと読む…
-          url: /en/libraries/top-projects/
       syndicate:
         text: Syndicate
         recent_news:
@@ -1122,11 +1082,6 @@ locales:
 #         url: https://bugs.ruby-lang.org/
 #         description: |
 #           Report or help solve issues in Ruby.
-      top_ruby_projects:
-        text: 활발한 루비 프로젝트
-        more:
-          text: 더보기
-          url: /en/libraries/top-projects/
       syndicate:
         text: 구독
         recent_news:
@@ -1187,11 +1142,6 @@ locales:
 #         url: https://bugs.ruby-lang.org/
 #         description: |
 #           Report or help solve issues in Ruby.
-      top_ruby_projects:
-        text: Najlepsze Projekty
-        more:
-          text: Więcej…
-          url: /en/libraries/top-projects/
       syndicate:
         text: Syndicate
         recent_news:
@@ -1251,11 +1201,6 @@ locales:
 #         url: https://bugs.ruby-lang.org/
 #         description: |
 #           Report or help solve issues in Ruby.
-      top_ruby_projects:
-        text: Top de projectos de Ruby
-        more:
-          text: Saber mais…
-          url: /pt/bibliotecas/top-de-projectos-ruby/
       syndicate:
         text: Feeds de noticias (RSS)
         recent_news:
@@ -1314,11 +1259,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             Ruby sorunlarını rapor edin ya da çözümüne yardım edin.
-      top_ruby_projects:
-        text: Bazı Popüler Ruby Projeleri
-        more:
-          text: Daha…
-          url: /tr/libraries/top-projects/
       syndicate:
         text: Takip Edin
         recent_news:
@@ -1377,11 +1317,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             回報或解決 Ruby 問題
-      top_ruby_projects:
-        text: 熱門的 Ruby 專案
-        more:
-          text: 更多專案…
-          url: /zh_TW/libraries/top-projects/
       syndicate:
         text: 訂閱
         recent_news:
@@ -1440,11 +1375,6 @@ locales:
           url: https://bugs.ruby-lang.org/
           description: |
             报告或帮助解决 Ruby 的问题
-      top_ruby_projects:
-        text: 优秀的 Ruby 工程
-        more:
-          text: 更多...
-          url: /en/libraries/top-projects/
       syndicate:
         text: 订阅
         recent_news:
