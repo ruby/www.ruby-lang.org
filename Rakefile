@@ -1,3 +1,13 @@
+require 'rubygems'
+
+begin
+  require 'bundler/setup'
+rescue LoadError
+  warn e.message
+  warn "Run `gem install bundler` to install Bundler"
+  exit -1
+end
+
 # encoding: UTF-8
 require 'yaml'
 
