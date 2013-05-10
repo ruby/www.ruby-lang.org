@@ -15,25 +15,45 @@ Please help us stay on top of things by following our
 
 ## Get It!
 
-In order to preview your changes to the website, you need to have
-[Jekyll and Pygments installed](https://github.com/mojombo/jekyll/wiki/install)
-on your local system.
+In order to generate the site locally, you need to have
+[Pygments installed](http://jekyllrb.com/docs/extras/) on your system.
 
-Clone the repository, create the site and start a local server:
+Bundler will take care of the rest of the dependencies, so unless you
+already have done so, you might need to install bundler with:
 
-``` bash
+``` sh
+gem install bundler
+```
+
+Then clone the repository and install the dependencies:
+
+``` sh
 git clone https://github.com/ruby/www.ruby-lang.org.git
 cd www.ruby-lang.org/
 bundle install
-rake preview # you may need to use bundle exec
 ```
 
-Then, open [http://localhost:4000/](http://localhost:4000/) in your browser.
+To generate the site and start a local web server, you can use
 
-Note that creating the website may take several minutes.
-
-To create the website *without starting a local server*, use:
-
+``` sh
+bundle exec rake preview
 ```
-rake generate
+
+Then open [http://localhost:4000/](http://localhost:4000/)
+in your local browser to access the preview.
+
+**Note:** The build of the site will take several minutes, and
+large parts of the site will not be available until the build has
+completely finished. Also, the build may fail silently when
+using the preview mode.
+
+To get feedback on the success of the build you might want
+to create the website *without starting a local server* instead:
+
+``` sh
+bundle exec rake generate
 ```
+
+When you now start a preview with the site already generated
+it will be available instantly.
+
