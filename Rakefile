@@ -36,6 +36,52 @@ task :preview do
   sh 'jekyll --server'
 end
 
+
+namespace :new_post do
+
+  def create_template(lang)
+    url_title = 'post-title'
+    title = 'Post Title'
+
+    creation_time = Time.now.utc
+    filename = creation_time.strftime("%Y-%m-%d-#{url_title}.md")
+    path = File.join(lang, 'news', '_posts', filename)
+
+    content = <<-TEMPLATE.gsub(/^ */, '')
+      ---
+      layout: news_post
+      title: "#{title}"
+      author: "Unknown Author"
+      date: #{creation_time}
+      lang: #{lang}
+      ---
+
+      Content.
+    TEMPLATE
+
+    if File.exist?(path)
+      puts "Could not create template, `#{path}' already exists."
+    else
+      print "Creating template `#{path}'..."
+      File.open(path, 'w') {|f| f.write content }
+      puts ' done.'
+    end
+  end
+
+  desc "Creates a news post template for language `lang'"
+  task :lang do
+    puts 'Please specify one of the valid language codes:'
+    puts LANGUAGES.join(', ') << '.'
+  end
+
+  LANGUAGES.each do |lang|
+    task lang.to_sym do
+      create_template(lang)
+    end
+  end
+end
+
+
 namespace :check do
   def read_yaml(filename)
     match_data = File.read(filename).match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
