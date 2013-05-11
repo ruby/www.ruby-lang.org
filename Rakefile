@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'rubygems'
 
 begin
@@ -8,7 +10,6 @@ rescue LoadError => e
   exit -1
 end
 
-# encoding: UTF-8
 require 'yaml'
 
 HOST = 'www.ruby-lang.org'
