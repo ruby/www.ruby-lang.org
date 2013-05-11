@@ -10,11 +10,9 @@ rescue LoadError => e
   exit -1
 end
 
-require 'yaml'
-
 HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
-TIMEZONE = 'UTC'
+ENV['TZ'] = 'UTC'
 
 desc "Generates the Jekyll site"
 task :generate do
@@ -23,7 +21,6 @@ task :generate do
   module Jekyll::Convertible
     Encoding.default_external = Encoding::UTF_8
   end
-  ENV['TZ'] = TIMEZONE
 
   options = Jekyll.configuration({'auto' => false, 'server' => false})
   puts "Building site: #{options['source']} -> #{options['destination']}"
@@ -33,7 +30,6 @@ end
 
 desc "Generates the Jekyll site and starts local server"
 task :preview do
-  ENV['TZ'] = TIMEZONE
   sh 'jekyll --server'
 end
 
@@ -82,9 +78,10 @@ namespace :new_post do
   end
 end
 
-
 namespace :check do
+
   def read_yaml(filename)
+    require 'yaml'
     match_data = File.read(filename).match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
     data = YAML.load(match_data[1])  if match_data
 
