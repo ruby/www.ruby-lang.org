@@ -30,9 +30,11 @@ end
 
 desc "Generates the Jekyll site and starts local server"
 task :preview do
-  sh 'jekyll --server'
+  unless File.directory?('_site')
+    Rake::Task[:generate].invoke
+  end
+  sh 'jekyll --server --auto'
 end
-
 
 namespace :new_post do
 
