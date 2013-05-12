@@ -58,12 +58,16 @@ namespace :new_post do
       Content.
     TEMPLATE
 
-    if File.exist?(path)
-      puts "Could not create template, `#{path}' already exists."
-    else
-      print "Creating template `#{path}'..."
-      File.open(path, 'w') {|f| f.write content }
-      puts ' done.'
+    $stderr.print "Creating template `#{path}'... "
+    begin
+      if File.exist?(path)
+        warn "Could not create template, `#{path}' already exists."
+      else
+        File.open(path, 'w') {|f| f.write content }
+        warn 'done.'
+      end
+    rescue => e
+      warn e.message
     end
   end
 
