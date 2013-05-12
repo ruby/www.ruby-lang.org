@@ -42,12 +42,13 @@ bundle exec rake preview
 Then open [http://localhost:4000/](http://localhost:4000/)
 in your local browser to access the preview.
 
-**Note:** The build of the site will take several minutes, and
-large parts of the site will not be available until the build has
-completely finished. Also, the build may fail silently when
-using the preview mode.
+**Note:** The build of the site will take several minutes.
+If you created the site previously and the `_site` directory
+already exists, the web server will start instantly but large parts
+of the site will not be updated until the build has completely finished.
+Also, the build may fail silently when using the preview mode.
 
-To get feedback on the success of the build you might want
+To always get feedback on the success of the build you might want
 to create the website *without starting a local server* instead:
 
 ``` sh
@@ -56,4 +57,8 @@ bundle exec rake generate
 
 When you now start a preview with the site already generated
 it will be available instantly.
+
+## More Information
+
+For more information see the [wiki](https://github.com/ruby/www.ruby-lang.org/wiki).
 
