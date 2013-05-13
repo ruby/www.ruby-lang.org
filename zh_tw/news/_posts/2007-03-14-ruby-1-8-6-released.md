@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.8.6 released"
 author: "SJH"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Ruby 1.8.6 has been released. (announced on [\[ruby-list:43267\]][1])

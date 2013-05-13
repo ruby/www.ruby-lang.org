@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.1-preview 1 釋出"
 author: "SJH"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Yugui (Yuki Sonoda) 先生於日前公佈發表了 Ruby 1.9.1-preview 1

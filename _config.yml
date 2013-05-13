@@ -233,21 +233,21 @@ locales:
         url: /zh_cn/security
       - text: 关于 Ruby
         url: /zh_cn/about
-    zh_TW:
+    zh_tw:
       - text: 下載安裝
-        url: /zh_TW/downloads
+        url: /zh_tw/downloads
       - text: 文件
-        url: /zh_TW/documentation
+        url: /zh_tw/documentation
       - text: 函式庫
-        url: /zh_TW/libraries
+        url: /zh_tw/libraries
       - text: 社群
-        url: /zh_TW/community
+        url: /zh_tw/community
       - text: 新聞
-        url: /zh_TW/news
+        url: /zh_tw/news
       - text: 安全
-        url: /zh_TW/security
+        url: /zh_tw/security
       - text: 關於 Ruby
-        url: /zh_TW/about
+        url: /zh_tw/about
 
   search:
     bg:
@@ -280,7 +280,7 @@ locales:
       text: Ara
     zh_cn:
       text: 搜索
-    zh_TW:
+    zh_tw:
       text: Search
 
   slogan:
@@ -297,7 +297,7 @@ locales:
     pt: "Ruby - O melhor amigo do programador"
     tr: "Ruby - A Programmer's Best Friend"
     zh_cn: "Ruby - 程序员最要好的朋友"
-    zh_TW: "Ruby - A Programmer's Best Friend"
+    zh_tw: "Ruby - A Programmer's Best Friend"
 
   month_names:
     bg: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
@@ -325,7 +325,7 @@ locales:
     pt: "Escrito por AUTHOR em %Y-%m-%d"
     tr: "AUTHOR tarafından %Y-%m-%d tarihinde gönderildi"
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
-#   zh_TW:
+#   zh_tw:
 
   feed:
     bg:
@@ -380,7 +380,7 @@ locales:
       title: News RSS Feed
       description: The latest news from ruby-lang.org.
       lang_code: zh-CN
-    zh_TW:
+    zh_tw:
       title: Ruby RSS News
       description: The latest news from ruby-lang.org.
       lang_code: zh-TW
@@ -542,7 +542,7 @@ locales:
       monthly_archives: Archives by Month
       yearly_archive_link: "%Y 档案"
       monthly_archive_link: "%B %Y Archives"
-    zh_TW:
+    zh_tw:
       other_news: 其他新聞
       more_news: 更多新聞...
       continue: 深入閱讀...
@@ -1324,7 +1324,7 @@ locales:
         recent_news:
           text: Son Haberler (RSS)
           url: /en/feeds/news.rss
-    zh_TW:
+    zh_tw:
       get_started:
         text: <strong>上手入門</strong>, 一點都不難!
         try_ruby:
@@ -1332,44 +1332,44 @@ locales:
           <<: *try_ruby
         quickstart:
           text: 20分鐘 Ruby 體驗
-          url: /zh_TW/documentation/quickstart/
+          url: /zh_tw/documentation/quickstart/
         ruby_from_other_languages:
           text: 從其他語言到 Ruby
-          url: /zh_TW/documentation/ruby-from-other-languages/
+          url: /zh_tw/documentation/ruby-from-other-languages/
       explore:
         text: <strong>探索</strong> 新世界…
         documentation:
           text: 文件
-          url: /zh_TW/documentation/
+          url: /zh_tw/documentation/
         books:
           text: 書籍
           <<: *books
         libraries:
           text: 函式庫
-          url: /zh_TW/libraries/
+          url: /zh_tw/libraries/
         success_stories:
           text: 成功案例
-          url: /zh_TW/documentation/success-stories/
+          url: /zh_tw/documentation/success-stories/
       participate:
         text: <strong>加入</strong> 友善且持續成長的社群
         mailing_lists:
           text: 郵件論壇
-          url: /zh_TW/community/mailing-lists/
+          url: /zh_tw/community/mailing-lists/
           description: |
             與世界各地的程式設計師一同聊聊
         user_groups:
           text: 使用者群組
-          url: /zh_TW/community/user-groups/
+          url: /zh_tw/community/user-groups/
           description: |
             與身旁的 Ruby 使用者接觸
         weblogs:
           text: 部落格
-          url: /zh_TW/community/weblogs/
+          url: /zh_tw/community/weblogs/
           description: |
             了解 Ruby 社群中的最新消息
         ruby_core:
           text: Ruby 核心
-          url: /zh_TW/community/ruby-core/
+          url: /zh_tw/community/ruby-core/
           description: |
             幫助開發最新的 Ruby
         issue_tracking:
@@ -1381,12 +1381,12 @@ locales:
         text: 熱門的 Ruby 專案
         more:
           text: 更多專案…
-          url: /zh_TW/libraries/top-projects/
+          url: /zh_tw/libraries/top-projects/
       syndicate:
         text: 訂閱
         recent_news:
           text: 最新消息 (RSS)
-          url: /zh_TW/feeds/news.rss
+          url: /zh_tw/feeds/news.rss
     zh_cn:
       get_started:
         text: <strong>试用</strong>, 其实很简单!

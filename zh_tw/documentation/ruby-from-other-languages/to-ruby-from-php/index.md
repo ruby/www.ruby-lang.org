@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "從 PHP 到 Ruby"
-lang: zh_TW
+lang: zh_tw
 ---
 
 PHP 被廣泛的應用在網頁程式中，如果你想試試看 Ruby on Rails，或是你想要一個更加講究的多功能程式語言，Ruby 值得一看。

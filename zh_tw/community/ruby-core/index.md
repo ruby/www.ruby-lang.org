@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruby 核心"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Now is a fantastic time to follow Ruby’s development, with Ruby 2.0

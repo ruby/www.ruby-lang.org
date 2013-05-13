@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "文件"
-lang: zh_TW
+lang: zh_tw
 ---
 
 這裡是可以派上用場的入門教學、學習手冊和參考文件：
@@ -11,10 +11,10 @@ lang: zh_TW
 [Learn to Program][1]
 : 由 Chris Pine 撰寫的程式語言入門。適合完全沒有程式設計經驗的朋友。
 
-[二十分鐘 Ruby 體驗](/zh_TW/documentation/quickstart/)
+[二十分鐘 Ruby 體驗](/zh_tw/documentation/quickstart/)
 : 一份不錯的 Ruby 入門體驗，從開始到結束應該不花你二十分鐘。
 
-[從其他語言到 Ruby](/zh_TW/documentation/ruby-from-other-languages/)
+[從其他語言到 Ruby](/zh_tw/documentation/ruby-from-other-languages/)
 : 已經熟悉其他程式語言? 不論是 C, C++, Java, Perl, PHP 或 Python 這裡都有介紹。
 
 [Learning Ruby][2]

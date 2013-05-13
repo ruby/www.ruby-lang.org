@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "二十分鐘 Ruby 體驗"
-lang: zh_TW
+lang: zh_tw
 
 header: |
   <div class="multi-page">

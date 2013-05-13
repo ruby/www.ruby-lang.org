@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.9.1-p430 is released"
 author: "SJH"
 date: 2010-08-18 16:19:09 UTC
-lang: zh_TW
+lang: zh_tw
 ---
 
 Ruby 1.9.1-p430 has been released. This is a security fix for

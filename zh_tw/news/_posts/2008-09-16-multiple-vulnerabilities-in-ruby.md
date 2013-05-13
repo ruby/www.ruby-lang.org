@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby中的多個安全漏洞"
 author: "SJH"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Ruby中發現多個安全漏洞。建議更新到最新的版本。
@@ -169,4 +169,4 @@ Akira for disclosing these problems to Ruby Security Team.
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1447
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz
-[4]: {{ site.url }}/zh_TW/news/2008/09/16/ruby-1-8-7-p72-and-1-8-6-p287-released/
+[4]: {{ site.url }}/zh_tw/news/2008/09/16/ruby-1-8-7-p72-and-1-8-6-p287-released/

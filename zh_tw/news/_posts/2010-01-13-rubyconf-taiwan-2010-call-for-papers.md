@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf Taiwan 2010 Call For Papers"
 author: "SJH"
 date: 2010-01-13 16:36:20 UTC
-lang: zh_TW
+lang: zh_tw
 ---
 
 [RubyConf Taiwan

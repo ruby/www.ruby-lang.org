@@ -2,7 +2,7 @@
 layout: news_post
 title: "BigDecimal 中的 DoS 弱點"
 author: "SJH"
-lang: zh_TW
+lang: zh_tw
 ---
 
 日前在 Ruby 的標準函式庫 BigDecimal 中發現了易受 中斷服務攻擊 (DOS) 的弱點。由 BigDecimal

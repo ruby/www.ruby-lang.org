@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "關於 Ruby"
-lang: zh_TW
+lang: zh_tw
 ---
 
 想知道Ruby為何如此受歡迎嗎? 為什麼它的支持者會稱它是個美麗、靈巧而且方便又實用的程式語言?

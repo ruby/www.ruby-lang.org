@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "從其他程式語言到 Ruby"
-lang: zh_TW
+lang: zh_tw
 ---
 
 當你第一眼看見 Ruby 程式碼，你一定會想起你熟悉的程式語言。這正是本文件的目的。Ruby 有許多語法和 Perl、Python 和 Java
@@ -13,15 +13,15 @@ lang: zh_TW
 ## 重點整理: 從 *程式語言 X* 到 Ruby
 
 * [從 C 和 C++ 到
-  Ruby](/zh_TW/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
 * [從 Java 到
-  Ruby](/zh_TW/documentation/ruby-from-other-languages/to-ruby-from-java/)
+  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [從 Perl 到
-  Ruby](/zh_TW/documentation/ruby-from-other-languages/to-ruby-from-perl/)
+  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-perl/)
 * [從 PHP 到
-  Ruby](/zh_TW/documentation/ruby-from-other-languages/to-ruby-from-php/)
+  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-php/)
 * [從 Python 到
-  Ruby](/zh_TW/documentation/ruby-from-other-languages/to-ruby-from-python/)
+  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
 ## 重要的語言特色及一些訣竅
 
@@ -375,7 +375,7 @@ end
 
 ## 更多資料
 
-如果你需要更多 Ruby 知識，請參考 [文件](/zh_TW/documentation/) 。
+如果你需要更多 Ruby 知識，請參考 [文件](/zh_tw/documentation/) 。
 
 
 

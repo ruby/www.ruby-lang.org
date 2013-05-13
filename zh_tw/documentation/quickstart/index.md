@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "二十分鐘 Ruby 體驗"
-lang: zh_TW
+lang: zh_tw
 
 header: |
   <div class="multi-page">
@@ -20,7 +20,7 @@ header: |
 ## 簡介
 
 這是一個簡短的 Ruby 入門體驗，應該可以在二十分鐘內完成。您必須先安裝好 Ruby
-(如果還沒有，請先[下載](/zh_TW/downloads/)安裝)
+(如果還沒有，請先[下載](/zh_tw/downloads/)安裝)
 
 ## 互動式 Ruby
 

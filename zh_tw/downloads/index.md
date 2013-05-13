@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "下載安裝"
-lang: zh_TW
+lang: zh_tw
 ---
 
 你可以在這裡下載適合您的最新 Ruby 發佈版本。目前最新的穩定版本是

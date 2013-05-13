@@ -11,7 +11,7 @@ rescue LoadError => e
 end
 
 HOST = 'www.ruby-lang.org'
-LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_TW zh_cn]
+LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_cn zh_tw]
 ENV['TZ'] = 'UTC'
 
 desc "Generates the Jekyll site"

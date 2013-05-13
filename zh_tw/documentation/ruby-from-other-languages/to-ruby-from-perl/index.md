@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "從 Perl 到 Ruby"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Perl 很贊，Perl 的文件也很贊，Perl

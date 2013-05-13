@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "從 C 和 C++ 到 Ruby"
-lang: zh_TW
+lang: zh_tw
 ---
 
 由於 Ruby 跟 C/C++ 的差異實在太大，很難將兩者間的差異一項一項列出。其中的一個重要理由是：Ruby 和 C

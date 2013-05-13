@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruby 研討會"
-lang: zh_TW
+lang: zh_tw
 ---
 
 全世界有越來越多的研討會讓 Ruby 程式設計師可以參與，分享他們的工作經驗、討論 Ruby 的未來，同時也歡迎新成員的加入。

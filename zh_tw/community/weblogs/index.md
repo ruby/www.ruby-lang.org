@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "部落格"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Ruby blogs have exploded over the past year and, given sufficient

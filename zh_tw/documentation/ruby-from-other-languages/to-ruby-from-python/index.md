@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "從 Python 到 Ruby"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Python 是另一種很棒的多功能用途程式語言。從 Python 轉換到 Ruby，你會發現需要比學 Python 時多記一些語法。

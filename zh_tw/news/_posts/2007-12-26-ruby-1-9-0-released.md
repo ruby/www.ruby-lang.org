@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.0 釋出"
 author: "SJH"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Matz 於日前釋出了 Ruby 1.9.0 的開發版本.

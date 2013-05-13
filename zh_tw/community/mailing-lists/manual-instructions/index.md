@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Manual Mailing List Instructions"
-lang: zh_TW
+lang: zh_tw
 ---
 
 To subscribe to a mailing list, please send a mail with the following

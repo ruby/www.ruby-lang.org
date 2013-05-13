@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "成功案例"
-lang: zh_TW
+lang: zh_tw
 ---
 
 不只是業餘愛好者，有許多人在他們的日常工作中使用了 Ruby。在此你將會看到世上使用 Ruby 的一些真實例子。

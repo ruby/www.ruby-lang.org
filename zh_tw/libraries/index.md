@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "函式庫"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Ruby 有著不計其數有用且有趣的函式庫，其中大部分都是用便捷的 [*gem* 格式][1] 來進行發佈。有些則是將原始碼透過壓縮檔(.zip

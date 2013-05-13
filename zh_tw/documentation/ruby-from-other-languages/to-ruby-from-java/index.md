@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "從 Java 到 Ruby"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Java 是個成熟，通過考驗，而且執行速度快(與反對者所指恰恰相反)的程式語言，它也滿囉嗦的。

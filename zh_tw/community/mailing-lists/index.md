@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "郵件論壇"
-lang: zh_TW
+lang: zh_tw
 ---
 
 Mailing-lists are a great way to keep your finger on the pulse of the
@@ -24,7 +24,7 @@ Ruby-Doc
 Ruby-CVS
 : This list reports all commits to Ruby’s CVS repository.
 
-<form action="/zh_TW/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
+<form action="/zh_tw/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
 ## Subscribe or Unsubscribe
 
 | Mailing List | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |

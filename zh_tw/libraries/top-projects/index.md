@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "熱門專案"
-lang: zh_TW
+lang: zh_tw
 ---
 
 *This is a list of the 30 most downloaded Ruby projects (according to

@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf Taiwan 2011 Call For Sponsors"
 author: "SJH"
 date: 2011-05-19 02:57:13 UTC
-lang: zh_TW
+lang: zh_tw
 ---
 
 [RubyConf Taiwan ][1]將於 2011/8/26 (週五) 和 8/27 (週六)

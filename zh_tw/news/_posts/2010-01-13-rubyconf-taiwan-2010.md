@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf Taiwan 2010"
 author: "SJH"
 date: 2010-01-13 16:31:29 UTC
-lang: zh_TW
+lang: zh_tw
 ---
 
 [Ruby Taiwan (http://ruby.tw)][1] 正在籌辦台灣第一次的 [Ruby 程式語言大會: RubyConf
