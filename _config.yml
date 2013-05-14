@@ -534,14 +534,14 @@ locales:
       other_news: 其它新闻
       more_news: 更多新闻...
       continue: 阅读全文...
-      back_to_year: "返回 %Y 年归档"
+      back_to_year: "返回%Y年归档"
       recent_news: 最新消息
-      yearly_archive_title: "%Y 年归档"
-      monthly_archive_title: "%Y 年 %B 月归档"
+      yearly_archive_title: "%Y年归档"
+      monthly_archive_title: "%Y年%m月归档"
       yearly_archives: 按年存档
       monthly_archives: 按月归档
-      yearly_archive_link: "%Y 年归档"
-      monthly_archive_link: "%Y 年 %B 月归档"
+      yearly_archive_link: "%Y年归档"
+      monthly_archive_link: "%Y年%m月归档"
     zh_tw:
       other_news: 其他新聞
       more_news: 更多新聞...
