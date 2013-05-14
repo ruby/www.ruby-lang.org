@@ -310,6 +310,7 @@ locales:
     pl: [Styczeń, Luty, Marzec, Kwiecień, Maj, Czerwiec, Lipiec, Sierpień, Wrzesień, Październik, Listopad, Grudzień]
     pt: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
     tr: [Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık]
+    zh_ch: [一月， 二月， 三月， 四月， 五月， 六月， 七月， 八月， 九月， 十月， 十一月， 十二月]
 
   posted_by:
     bg: "Публикувана от AUTHOR на %Y-%m-%d"
