@@ -11,9 +11,9 @@ lang: ja
 Rubyの各バージョンのソースコードは、以下から入手できます。
 
 * 最新の安定版であるruby
-  2.0.0-p0\[[tar.bz2][1]\|[tar.gz][2]\|[zip][3]\]が各ミラーサイトから入手できます。
+  2.0.0-p195\[[tar.bz2][1]\|[tar.gz][2]\|[zip][3]\]が各ミラーサイトから入手できます。
 * 前世代の安定版であるruby
-  1.9.3-p392\[[tar.bz2][4]\|[tar.gz][5]\|[zip][6]\]が各ミラーサイトから入手できます。
+  1.9.3-p426\[[tar.bz2][4]\|[tar.gz][5]\|[zip][6]\]が各ミラーサイトから入手できます。
 * 前々世代の安定版であるruby
   1.8.7-p371\[[tar.bz2][7]\|[tar.gz][8]\|[zip][9]\]も各ミラーサイトから入手できます。
 * 現時点での最新版スナップショット\[[tar.bz2][10]\|[tar.gz][11]\|[zip][12]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。スナップショットの取得はある時刻に問答無用で行っているので、何らかの問題が残っている可能性があります。自己責任でどうぞ。
@@ -90,12 +90,12 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.zip
+[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.bz2
+[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.gz
+[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.zip
+[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p426.tar.bz2
+[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p426.tar.gz
+[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p426.zip
 [7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.bz2
 [8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.tar.gz
 [9]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p371.zip

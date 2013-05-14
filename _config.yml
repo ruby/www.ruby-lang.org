@@ -22,13 +22,13 @@ license:
 
 downloads:
   stable:
-    version: 2.0.0-p0
-    url: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
-    md5: 50d307c4dc9297ae59952527be4e755d
+    version: 2.0.0-p195
+    url: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.gz
+    md5: 0672e5af309ae99d1703d0e96eff8ea5
   previous:
-    version: 1.9.3-p392
-    url: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
-    md5: f689a7b61379f83cbbed3c7077d83859
+    version: 1.9.3-p426
+    url: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p426.tar.gz
+    md5: 2defb0d2ff731f5fa36db3a248b7d75e
   stable_snapshot:
     url: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
   nightly_snapshot:
