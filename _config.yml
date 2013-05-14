@@ -1,8 +1,8 @@
-auto: true
-server: true
 markdown: kramdown
 permalink: pretty
 pygments: true
+
+timezone: UTC
 
 kramdown:
   auto_ids: false
