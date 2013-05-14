@@ -8,11 +8,11 @@ lang: en
 
 Ruby 2.0.0-p195 is released. This is the first patchlevel release of 2.0.0.
 
-This release include a security fix of Ruby DL/Fiddle extension.
+This release includes a security fix of Ruby DL / Fiddle extension.
 
 * [Object taint bypassing in DL and Fiddle in Ruby(CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-And there're many bug-fixes and some optimization, and documentation fixes.
+And there are many bug-fixes and some optimization, and documentation fixes.
 
 ## Downloads
 
@@ -36,7 +36,8 @@ And there're many bug-fixes and some optimization, and documentation fixes.
 
 ## Changes
 
-Major fixes are below. See ChangeLog or Tickets for details.
+Major fixes are below. See [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+or Tickets for details.
 
 * https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5
 
@@ -95,11 +96,12 @@ Thank you all committers/contributors.
       #8019 fix a bug of gem list --remote doesn't work.
 
 ### Libraries
+
       #7911 File.fnmatch with US-ASCII pattern and UTF-8 path raise an exception.
       #8240 fix a bug about OpenSSL::SSL::SSLSocket breaks other connections or files on GC.
       #8183 CGI.unescapeHTML can't decode Numeric Character References with uppercase (&#Xnnnn).
 
-### Build/Platform specific.
+### Build/Platform specific
 
       #7830 fix build failure with compiler warning.
       #7950 fix a build failure on mswin/VC with --with-static-linked-ext.

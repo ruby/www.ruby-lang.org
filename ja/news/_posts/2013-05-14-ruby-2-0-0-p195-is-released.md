@@ -36,7 +36,7 @@ Ruby 2.0.0-p195 をリリースします。 これは 2.0.0 の最初のパッ�
 
 ## Changes
 
-主な変更点は以下にあります。より詳細な変更点は ChangeLog ファイルやチケットを参照してください。
+主な変更点は以下にあります。より詳細な変更点は [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog) ファイルやチケットを参照してください。
 
 * https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5
 
@@ -95,11 +95,12 @@ Ruby 2.0.0-p195 をリリースします。 これは 2.0.0 の最初のパッ�
       #8019 fix a bug of gem list --remote doesn't work.
 
 ### Libraries
+
       #7911 File.fnmatch with US-ASCII pattern and UTF-8 path raise an exception.
       #8240 fix a bug about OpenSSL::SSL::SSLSocket breaks other connections or files on GC.
       #8183 CGI.unescapeHTML can't decode Numeric Character References with uppercase (&#Xnnnn).
 
-### Build/Platform specific.
+### Build/Platform specific
 
       #7830 fix build failure with compiler warning.
       #7950 fix a build failure on mswin/VC with --with-static-linked-ext.
