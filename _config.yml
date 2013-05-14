@@ -26,9 +26,9 @@ downloads:
     url: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.gz
     md5: 0672e5af309ae99d1703d0e96eff8ea5
   previous:
-    version: 1.9.3-p426
-    url: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p426.tar.gz
-    md5: 2defb0d2ff731f5fa36db3a248b7d75e
+    version: 1.9.3-p429
+    url: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.gz
+    md5: 993c72f7f805a9eb453f90b0b7fe0d2b
   stable_snapshot:
     url: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
   nightly_snapshot:
