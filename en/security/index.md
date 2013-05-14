@@ -16,6 +16,7 @@ private mailing list. Reported problems will be published after fixes.
 
 Here are recent issues.
 
+* [Object taint bypassing in DL and Fiddle in Ruby (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/) published at 14 May, 2013.
 * [Entity expansion DoS vulnerability in REXML (XML bomb,
   CVE-2013-1821)][1] published at 22 Feb, 2013.
 * [Denial of Service and Unsafe Object Creation Vulnerability in JSON
