@@ -29,7 +29,7 @@ end
 
 desc "Generates the Jekyll site and starts local server"
 task :preview do
-  sh 'jekyll serve --watch'
+  sh 'jekyll server --watch'
 end
 
 namespace :new_post do
