@@ -10,7 +10,8 @@ Ruby 2.0.0-p195 is released. This is the first patchlevel release of 2.0.0.
 
 This release includes a security fix of Ruby DL / Fiddle extension.
 
-* [Object taint bypassing in DL and Fiddle in Ruby(CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
+* [Object taint bypassing in DL and Fiddle in Ruby
+  (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
 And there are many bug-fixes and some optimization, and documentation fixes.
 
