@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.0.0-p0 发布"
 author: "Yusuke Endoh"
-date: 2013-04-19 10:00:0 UTC
+date: 2013-02-24 09:06:22 UTC
 lang: zh_cn
 ---
 
