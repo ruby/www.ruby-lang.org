@@ -937,10 +937,10 @@ locales:
           text: Lagi…
           url: /id/libraries/top-projects/
       syndicate:
-        text: Berlangganan
+        text: Sindikasi Web
         recent_news:
-          text: Berlangganan Ruby Indonesia
-          url: http://feeds.feedburner.com/RubyIndonesia
+          text: Umpan Web (RSS)
+          url: /id/feeds/news.rss
     it:
       get_started:
         text: <strong>Per iniziare</strong>, è facile!
