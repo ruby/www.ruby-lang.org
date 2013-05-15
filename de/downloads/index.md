@@ -38,7 +38,7 @@ Einstellungen für deine Umgebung benötigst. Es ist außerdem eine gute
 Lösung, falls es keine vorgefertigten Pakete für dein System gibt.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) stabile Version (*empfohlen*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) stabile Version (*empfohlen*)
 * [Stable Snapshot][3] Bei diesem Snapshot handelt es sich um die
   absolut letzte stabile SVN-Version. Sie sollte etwas stabiler sein als
   das letzte Release.

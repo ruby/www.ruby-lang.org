@@ -17,7 +17,7 @@ eventualmente também uma boa solução porque pode não haver pacotes
 pré-construídos para a sua plataforma.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stable (*recommended*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable (*recommended*)
 * [Snapshot Estável][3] Ficheiros compactados em tar e gzip do último
   CVS estável. Deverá ser melhor que o última distribuição estável.
 * [Snapshot Nocturno][4] Ficheiros compactados em tar e gzip do último

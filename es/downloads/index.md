@@ -16,9 +16,9 @@ específicas para tu entorno. También es una buena solución en el caso de
 que no existan paquetes disponibles.
 
 * [Ruby {{ site.downloads.stable.version }}][1]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Versión Estable (*recomendada*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Versión Estable (*recomendada*)
 * [Ruby {{ site.downloads.previous.version }}][2]
-  (md5:&nbsp;{{ site.downloads.previous.md5 }}) Versión Estable
+  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Versión Estable
 * [Snapshot estable][3] Ultima versión (*estable*) del repositorio.
 * [Snapshot diario][4] Ultima versión del repositorio.
 

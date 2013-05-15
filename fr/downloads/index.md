@@ -18,7 +18,7 @@ leur environnement. C’est également la solution à adopter par défaut
 lorsqu’aucun paquetage « tout compris » n’existe pour votre plateforme.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Version stable (*recommandée*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Version stable (*recommandée*)
 * [Stable Snapshot][3] Archive de la dernière version stable du SVN. A
   priori plus à jour que la dernière version stable publique.
 * [Nightly Snapshot][4] Archive de la dernière version du SVN.

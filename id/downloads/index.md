@@ -149,7 +149,7 @@ konfigurasi yang spesifik. Apabila tidak ada paket distribusi siap pakai
 untuk sistem operasi Anda, alternatif ini juga solusi yang baik.
 
 * [Ruby {{ site.downloads.stable.version }}][21]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stable (*dianjurkan*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable (*dianjurkan*)
 * [Ruby 1.9.3 preview1][22] (md5:&nbsp;0f0220be4cc7c51a82c1bd8f6a0969f3)
 * [Stable Snapshot][23]
 * [Nightly Snapshot][24] Ini adalah versi paling mutakhir langsung dari

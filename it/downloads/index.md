@@ -40,9 +40,9 @@ siano disponibili pacchetti di installazione precompilati per il tuo
 sistema operativo.
 
 * [Ruby {{ site.downloads.stable.version }}][1]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stabile (*raccomandato*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stabile (*raccomandato*)
 * [Ruby {{ site.downloads.previous.version }}][2]
-  (md5:&nbsp;{{ site.downloads.previous.md5 }}) Precedente
+  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Precedente
 * [Snaphot Stabile][3] Questa è la tarball con l’ultimo snapshot del
   branch stabile.
 * [Snapshot Giornaliero][4] Questa è la tarball di ciò che c’è in svn,

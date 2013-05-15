@@ -12,7 +12,7 @@ lang: zh_tw
 如果您非常熟悉您的作業系統，或是您需要特別設定的環境，那麼直接使用原始碼來安裝是個不錯的方式。如果您的平台沒有編譯好的套件，那麼也必須透過原始碼來安裝。
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) 穩定版本 (*推薦*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) 穩定版本 (*推薦*)
 * [Stable Snapshot][3] 這是 SVN 中最新的穩定版本，它應該比上一個穩定版本更好。
 * [Nightly Snapshot][4] 這是 SVN 中最新的開發版本，它也許包含了一些已知尚未解決的問題。
 

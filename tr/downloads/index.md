@@ -15,7 +15,7 @@ ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }})
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }})
   Kararlı Versiyon (*tavsiye edilir*)
 * [Stable Snapshot][3] Bu son kararlı SVN’nin tar gzip hali. Son kararlı
   sürümden daha iyi olması beklenir.

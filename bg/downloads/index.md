@@ -16,7 +16,7 @@ lang: bg
 вашата платформа.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }})
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }})
   стабилна версия (*препоръчително*)
 * [Стабилен Snapshot][3]
   Това е архвирано копие на последната стабилна версия в SVN хранилището.
