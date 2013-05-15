@@ -27,25 +27,60 @@ The comp.lang.ruby Newsgroup
 : Those who prefer Usenet over mailing lists will want to checkout the
   [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
 
-<form action="/en/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
-## Subscribe or Unsubscribe
+### Subscribing
 
-| Mailing List | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
-| First Name | <input name="first_name" value="" /> |
-| Last Name | <input name="last_name" value="" /> |
-| E-mail Address | <input name="email" value="" /> |
-| Action | <select name="action"><option value="subscribe">Subscribe</option><option value="unsubscribe">Unsubscribe</option></select> |
-{: .fieldset cellspacing="0" cellpadding="0" border="0"}
+To subscribe to a mailing list, please send a mail with the following
+mail body (not the subject) to the automated “controller” address:
 
-<div class="buttons">
-<input class="button" type="submit" value="Submit Form" />
-</div>
-</form>
+    subscribe Your-First-Name Your-Last-Name
+{: .code}
 
+e.g.
 
+    subscribe John Doe
+{: .code}
 
-If you fail to receive a confirmation e-mail using the form, try
-subscribing the [manual way](manual-instructions/).
+Ruby-Talk
+: For the Ruby-Talk list, the controller address is
+  [ruby-talk-ctl@ruby-lang.org](mailto:ruby-talk-ctl@ruby-lang.org), the
+  posting address is
+  [ruby-talk@ruby-lang.org](mailto:ruby-talk@ruby-lang.org), and the
+  human administrator address is
+  [ruby-talk-admin@ruby-lang.org](mailto:ruby-talk-admin@ruby-lang.org).
+
+Ruby-Core
+: For the Ruby-Core list, the controller address is
+  [ruby-core-ctl@ruby-lang.org](mailto:ruby-core-ctl@ruby-lang.org), the
+  posting address is
+  [ruby-core@ruby-lang.org](mailto:ruby-core@ruby-lang.org), and the
+  “human” administrator address is
+  [ruby-core-admin@ruby-lang.org](mailto:ruby-core-admin@ruby-lang.org).
+
+Ruby-Doc
+: For the Ruby-Doc list, the controller address is
+  [ruby-doc-ctl@ruby-lang.org](mailto:ruby-doc-ctl@ruby-lang.org), the
+  posting address is
+  [ruby-doc@ruby-lang.org](mailto:ruby-doc@ruby-lang.org), and the
+  “human” administrator address is
+  [ruby-doc-admin@ruby-lang.org](mailto:ruby-doc-admin@ruby-lang.org).
+
+Ruby-CVS
+: For the Ruby-CVS list, the controller address is
+  [ruby-cvs-ctl@ruby-lang.org](mailto:ruby-cvs-ctl@ruby-lang.org), the
+  posting address is
+  [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), and the
+  “human” administrator address is
+  [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+
+### Unsubscribing
+
+To unsubscribe from a list, send a mail which body is “unsubscribe” to
+the controller address.
+
+### Getting Help
+
+To see the list of commands, send a mail which body is “help” to the
+controller address.
 
 
 
