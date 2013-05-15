@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.0.0-p0 发布"
-author: "Andor Chen & Daniel Bovensiepen"
+author: "Yusuke Endoh"
 date: 2013-04-19 10:00:0 UTC
 lang: zh_cn
 ---

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.0.0-p195 发布"
-author: "Andor Chen"
+author: "nagachika"
 date: 2013-05-14 13:00:00 UTC
 lang: zh_cn
 ---
