@@ -13,7 +13,7 @@ lang: zh_cn
 需要安装到您的平台上，这也是一个好的方法。
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) 稳定版 (*推荐*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) 稳定版 (*推荐*)
 * [稳定版快照][3] 这里的 tar’ed 和 gzip’ed 文件是最新稳定的 CVS。它应该比上次发布的版本更稳定。
 * [开发版快照][4] 这里的 tar’ed 和 gzip’ed 文件是最新的 CVS。它可能包含一些没有解决的问题。
 
@@ -75,9 +75,9 @@ LightTPD, and MySQL on Tiger*][15] 将快速的教您启动和运行。
 
 
 [1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[2]: {{ site.downloads.stable.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org/
 [6]: http://rubyforge.org/frs/download.php/29263/ruby186-26.exe
 [7]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.6-p111-i386-mswin32.zip

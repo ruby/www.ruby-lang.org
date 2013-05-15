@@ -38,7 +38,7 @@ Einstellungen für deine Umgebung benötigst. Es ist außerdem eine gute
 Lösung, falls es keine vorgefertigten Pakete für dein System gibt.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) stabile Version (*empfohlen*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) stabile Version (*empfohlen*)
 * [Stable Snapshot][3] Bei diesem Snapshot handelt es sich um die
   absolut letzte stabile SVN-Version. Sie sollte etwas stabiler sein als
   das letzte Release.
@@ -212,9 +212,9 @@ Programmiersprache Ruby“.
 
 
 [1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[2]: {{ site.downloads.stable.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org
 [6]: http://rubyforge.org/frs/download.php/76804/rubyinstaller-2.0.0-p0.exe
 [7]: http://rubyforge.org/frs/download.php/76806/rubyinstaller-2.0.0-p0-x64.exe
