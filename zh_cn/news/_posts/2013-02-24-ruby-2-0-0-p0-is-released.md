@@ -1,14 +1,16 @@
+---
 layout: news_post
-title: "Ruby 2.0.0-p0发布"
+title: "Ruby 2.0.0-p0 发布"
 author: "Andor Chen & Daniel Bovensiepen"
 date: 2013-04-19 10:00:0 UTC
-lang: en
+lang: zh_cn
+---
 
-在此，我们非常荣幸地发布Ruby 2.0.0-p0版。
+我们非常荣幸地发布 Ruby 2.0.0-p0 版。
 
-Ruby 2.0.0是Ruby 2.0系列中首个稳定的版本。针对对于Ruby不断增加的需求及多样性方面的要求，此版本增加了许多新的特性及做出了相应改善。
+Ruby 2.0.0 是 Ruby 2.0 系列首个稳定版本。对于 Ruby 不断增加的需求及多样性方面的要求，此版本增加了许多新的特性并做出了相应改善。
 
-希望您Ruby 2.0.0编程愉快！
+希望您使用 Ruby 2.0.0 编程愉快！
 
 ## 下载
 
@@ -30,111 +32,112 @@ Ruby 2.0.0是Ruby 2.0系列中首个稳定的版本。针对对于Ruby不断增�
       MD5:    db5af5d6034646ad194cbdf6e50f49ee
       SHA256: 0d0af6a9c8788537efd8d7d2358ce9468e6e2b7703dacba9ebd064d8b7da5f99
 
-## Ruby 2.0.0是什么
+## Ruby 2.0.0 简介
 
 ### 新特性
 
-重要部分提示（重要
+重要部分：
 
 * 语言的核心特性
-  * 键盘参数：满足API设计的灵活性
-  * Module#prepend：提供延伸类的新方式
-  * 文字 %i： 轻松地为符号创建数组
-  * \_\_dir\_\_: 返回执行中的文件目录
-  * UTF-8默认编码： 使很多magic comments成为可删除的
+  * 关键字参数：满足 API 设计的灵活性
+  * Module#prepend：扩展类的新方式
+  * %i 字面量：轻松地使用符号创建数组
+  * \_\_dir\_\_：返回当前执行文件所在的目录名
+  * 默认使用 UTF-8 编码：没必要再使用编码声明注释了
 
 * 内置库
-  * Enumerable#lazy和Enumerator::Lazy，懒惰流（可能是无限的）
-  * Enumerator#size和Range#size：对大小惰性求值
-  * \#to\_h：转换为散列的新约定
-  * Onigmo：新的正则表达式的引擎（Oniguruma的一个叉路）
-  * 异步异常处理API
+  * Enumerable#lazy 和 Enumerator::Lazy，懒惰流（可能是无限的）
+  * Enumerator#size 和 Range#size：对大小惰性求值
+  * \#to\_h：转换成散列类型的新方式
+  * Onigmo：新的正则表达式引擎（Oniguruma 的分支）
+  * 异步异常处理 API
 
 * 调试支持
-  *动态追踪支持：在生成中启动运行时间诊断
-  *跟踪点：改进的跟踪API
+  * 支持 DTrace：可在生产环境中进行诊断
+  * TracePoint：改进的跟踪 API
 
 * 性能改进
-  * 以位图标记GC优化
-  * Kernel#require优化，非常快地启动Rails
-  * 虚拟机优化，如调度方式
-  * 浮动操作优化
+  * 以位图标记优化 GC
+  * 优化了 Kernel#require，启动 Rails 程序更快了
+  * 优化了虚拟机，比如方法调度
+  * 优化了浮点数操作
 
-此外，尽管作为一个实验性的性能，2.0.0包括的精化为Ruby的模块化增加了新的概念。
+此外，我们实验性地在 Ruby 2.0.0 中加入了 Refinements 功能，这是新一代模块化编程理念。
 
-更多的性能，改良及细节请参见NEWS。
+更多的性能，改良及细节请参见 NEWS。
 
 ### 兼容性
 
-我们同时在2.0.0的设计中也兼顾了其与1.9的兼容性。1.9移植至2.0比1.8移植至1.9更加容易。（可察觉的不兼容性将在后面介绍）
+在规划 2.0.0 时，我们兼顾了与 1.9 的兼容性。从 1.9 移植到 2.0 要比从 1.8 移植到 1.9 更容易。（稍后将介绍已知的不兼容部分。）
 
-在此，非常感谢第三方的大力支持，一些著名的应用，如已有报告中Rails和tDiary发表2.0.0的候选版本。
+在此，非常感谢第三方开发者的大力支持，一些著名的应用，例如 Rails 和 tDiary，在发布 2.0.0 候选版本时都给予了很多反馈。
 
 ### 文档
 
-我们据很多Ruby爱好者的要求，也对文档做出了改进。我们针对各种模块和方式也增加了大量的rdoc。2.0.0版的75%将有文档记录，而1.9.3版的记录率仅是60%左右。此外，我们也已经对Ruby语法做出了 描述，请参见：
+据很多 Ruby 爱好者的要求，我们也对文档做了改进，为大量模块和方法添加了 rdoc 文档。如果说 1.9 的文档覆盖率是 60%，那么 2.0.0 就达到了 75%。此外，我们还添加了一些针对 Ruby 语法的说明，可以使用下面的命令查看：
 
-    ri ruby:syntax
+{% highlight sh %}
+ri ruby:syntax
+{% endhighlight %}
 
 ### 稳定性
 
-请注意，尽管2.0.0版的TENNY是0，但是与1.9.0版不同的是,2.0.0版是一个稳定的版本。强烈建议所有库制作者都支持2.0.0版。正如之前所提到的，从1.9版迁移到2.0版更加容易。
+请注意，和 1.9.0 版不同，尽管 2.0.0 版本号的最后一位是 0，却已经是个稳定版了。我们强烈建议所有代码库的开发者都要支持 2.0.0 版。正如前面所说，从 1.9 迁移到 2.0 更加容易。
 
-Ruby 2.0.0版是可以实际运用的，而且决定能够提高您的Ruby生活。
+Ruby 2.0.0 版是可以实际运用的，而且绝对能提高您使用 Ruby 编程的效率。
 
 ## 备注
 
-### 相关文献
+### 特性介绍文章
 
-这是由第三方提供的对于2.0.0版性能的介绍文章：
+下面是一些其他人撰写的文章，介绍了 2.0.0 版的特性：
 
 * [&lt;URL:http://blog.marc-andre.ca/2013/02/23/ruby-2-by-example&gt;][4]
-  (综合性, 推荐)
+  （很全面，推荐）
 * [&lt;URL:https://speakerdeck.com/shyouhei/whats-new-in-ruby-2-dot-0&gt;][5]
-  (综合性, 推荐)
+  （很全面，推荐）
 * [&lt;URL:http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html&gt;][6]
-  (简介, 日语)
+  （简介，日语）
 * [&lt;URL:https://speakerdeck.com/nagachika/rubyist-enumeratorlazy&gt;][7]
-  (仅限枚举::懒惰, 日语)
+  （只介绍了 Enumerator::Lazy，日语）
 
-以下文章也很有帮助，但是关于精化的论述稍显陈旧：
+以下文章也很有帮助，但是关于 refinement 的论述稍显陈旧：
 
 * [&lt;URL:http://rubysource.com/a-look-at-ruby-2-0/&gt;][8]
 * [&lt;URL:https://speakerdeck.com/a\_matsuda/ruby-2-dot-0-on-rails&gt;][9]
 * [&lt;URL:http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/&gt;][10]
 * [&lt;URL:http://www.infoq.com/news/2012/11/ruby-20-preview1&gt;][11]
 
-此外，近期发行的\"Rubyist Magazine\"中有一些由各个功能设计者针对2.0.0版本的功能做出的一些介绍。
+此外，近期发行的《Rubyist Magazine》中有一些文章，由各功能的设计者编写，介绍了 2.0.0 版中的新功能。
 
 * [&lt;URL:http://jp.rubyist.net/magazine/?0041-200Special&gt;][12]
 
-虽然，这些将会以日语介绍，但后续会有英文的翻译。
+虽然，这个杂志中的文章是日语的，但后续会有英文翻译。
 
 ### 不兼容性
 
-据我们所知，有以下五个显著的不兼容：
+据我们所知，Ruby 2.0.0 有以下五个明显的不兼容问题：
 
-* 现在Ruby脚本的默认编码是UTF-8 \[#6679\]。一些用户反馈它会影响已有的程序，比如一些基准程序变得很慢\[ruby-dev:46547\]。
-* Iconv删除了，在M17N引入Ruby1.9时，其已被删除。使用String#encode等代替。
-* 存在应用系统二进制接口破坏:\[ruby-core:48984\]。我们认为普通用户可以/应该只要重装扩展库。请勿直接从1.9复制文件包。
-* 现在\#lines，\#chars，\#codepoints，\#bytes返回一个数组，而不是Enumerator\[#6670\]。这些改变可以让您避免常用的\”lines.to\_a\”。使用#each\_line等，能得到枚举。
-* 对象#检查，并不是一直返回#&lt;ClassName:0x...&gt;而不是转至#to\_s。\[#2152\]
+* 现在 Ruby 脚本的默认编码是UTF-8 \[#6679\]。一些用户反馈，影响现有的程序，比如一些评测程序变得很慢\[ruby-dev:46547\]。
+* 在 Ruby 1.9 引入 M17N 时，就废弃了 Iconv，现在彻底删除了，请使用 String#encode 等代替。
+* 存在 ABI 损坏：\[ruby-core:48984\]。我们认为普通用户可以/应该只要重装扩展库即可。但请勿直接从 1.9 中复制 .so 或 .bundle 文件。
+* 现在\#lines，\#chars，\#codepoints，\#bytes 返回数组，而不是 Enumerator\[#6670\]。这些改变可以让您避免使用 lines.to\_a。使用 #each\_line 等，就能得到 Enumerator。
+* Object#inspect 的返回结果会是 #&lt;ClassName:0x...&gt; 的形式，不再分发给 #to\_s 方法。\[#2152\]
 
-存在一些相对小的不兼容性。
+还有一些相对较小的不兼容性。
 \[ruby-core:49119\]
 
+### Refinements 的状况
 
-### 精化状态
-
-我们新增的精化功能，为Ruby的模块化提供了新的感念。但是，请注意，精化功能如今正在实验阶段，今后有可能会对其做出更改。尽管如此，我们仍是希望您能尝试应用它，并向我们反馈您的意见。您的反馈将对我们优化此项功能提供重大的帮助。
+我们新增的 Refinements 功能，提供了一种实现模块化的新方式。但是，请注意，Refinements 功能还处在实验阶段，今后可能会改动。尽管如此，我们仍希望您能尝试使用，并向我们反馈意见。您的反馈将对我们优化此项功能提供重大帮助。
 
 ## 致谢
 
-很多朋友对2.0.0版做出了许多贡献。受篇幅限制，即便仅仅对其中部分人员的部分贡献做出感谢，也很难在此做出呈现。对此，我感到非常抱歉，请允许我在此附上链接。
+很多朋友对 2.0.0 版做出了贡献。受篇幅限制，即便仅仅对其中部分人员的贡献做出感谢，也很难在此一一呈现。对此，我感到非常抱歉，请允许我在此附上一个链接，指向感谢页面。
 
 * [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][13]
 
-再次感谢大家！
+感谢大家！
 
 
 
@@ -151,4 +154,3 @@ Ruby 2.0.0版是可以实际运用的，而且决定能够提高您的Ruby生活
 [11]: http://www.infoq.com/news/2012/11/ruby-20-preview1
 [12]: http://jp.rubyist.net/magazine/?0041-200Special
 [13]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
-
