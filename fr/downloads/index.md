@@ -133,9 +133,9 @@ site [RubyOpenSolaris project @ Rubyforge][22].
 
 
 [1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[2]: {{ site.downloads.stable.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyforge.org/frs/download.php/76706/rubyinstaller-1.9.3-p392.exe
 [6]: http://rubyinstaller.org/downloads/
 [7]: https://rvm.io/

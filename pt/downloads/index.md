@@ -117,9 +117,9 @@ necessitam de testar as suas aplicações em ambientes diversos.
 
 
 [1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[2]: {{ site.downloads.stable.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
 [6]: http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe
 [7]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe

@@ -34,9 +34,9 @@ downloads:
   previous:
     version: 1.9.3-p429
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.bz2
+      bz2: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.bz2
       gz: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.zip
+      zip: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.zip
     md5:
       bz2: c2b2de5ef15ea9b1aaa3152f9112af1b
       gz: 993c72f7f805a9eb453f90b0b7fe0d2b

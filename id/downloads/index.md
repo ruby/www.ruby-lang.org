@@ -181,7 +181,7 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 [18]: http://www.freebsd.org/
 [19]: http://www.sun.com/software/solaris/
 [20]: http://www.gnusolaris.org/
-[21]: {{ site.downloads.stable.url }}
+[21]: {{ site.downloads.stable.url.gz }}
 [22]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz
-[23]: {{ site.downloads.stable_snapshot.url }}
-[24]: {{ site.downloads.nightly_snapshot.url }}
+[23]: {{ site.downloads.stable_snapshot.url.gz }}
+[24]: {{ site.downloads.nightly_snapshot.url.gz }}

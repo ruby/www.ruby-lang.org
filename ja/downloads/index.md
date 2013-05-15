@@ -100,9 +100,9 @@ Posted by Shugo Maeda on 26 May 2006
 [10]: {{ site.downloads.nightly_snapshot.url.bz2 }}
 [11]: {{ site.downloads.nightly_snapshot.url.gz }}
 [12]: {{ site.downloads.nightly_snapshot.url.zip }}
-[10]: {{ site.downloads.stable_snapshot.url.bz2 }}
-[11]: {{ site.downloads.stable_snapshot.url.gz }}
-[12]: {{ site.downloads.stable_snapshot.url.zip }}
+[13]: {{ site.downloads.stable_snapshot.url.bz2 }}
+[14]: {{ site.downloads.stable_snapshot.url.gz }}
+[15]: {{ site.downloads.stable_snapshot.url.zip }}
 [16]: /ja/install.cgi?cmd=view;name=Microsoft+Windows%C8%C7%A4%CE%A5%D3%A5%EB%A5%C8%B4%C4%B6%AD%A4%CB%A4%E8%A4%EB%B0%E3%A4%A4
 [17]: http://www.artonx.org/data/asr/
 [18]: http://rubyinstaller.org/

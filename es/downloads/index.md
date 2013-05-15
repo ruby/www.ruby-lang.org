@@ -105,10 +105,10 @@ información aquí][12]). Con suerte, cuando Leopard salga las cosas
 
 
 
-[1]: {{ site.downloads.stable.url }}
-[2]: {{ site.downloads.previous.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[1]: {{ site.downloads.stable.url.gz }}
+[2]: {{ site.downloads.previous.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org
 [6]: http://git-scm.com/
 [7]: https://rvm.beginrescueend.com/rvm/install/
