@@ -23,7 +23,7 @@
     {% endif %}
   </head>
 
-  {% capture homepage_url %}/{{ page.lang }}/index.html{% endcapture %}
+  {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
     <div id="page">

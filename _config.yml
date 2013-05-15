@@ -1,8 +1,8 @@
-auto: true
-server: true
 markdown: kramdown
 permalink: pretty
 pygments: true
+
+timezone: UTC
 
 kramdown:
   auto_ids: false
@@ -22,13 +22,13 @@ license:
 
 downloads:
   stable:
-    version: 2.0.0-p0
-    url: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
-    md5: 50d307c4dc9297ae59952527be4e755d
+    version: 2.0.0-p195
+    url: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.gz
+    md5: 0672e5af309ae99d1703d0e96eff8ea5
   previous:
-    version: 1.9.3-p392
-    url: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
-    md5: f689a7b61379f83cbbed3c7077d83859
+    version: 1.9.3-p429
+    url: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.gz
+    md5: 993c72f7f805a9eb453f90b0b7fe0d2b
   stable_snapshot:
     url: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
   nightly_snapshot:
@@ -223,7 +223,7 @@ locales:
         url: /zh_cn/downloads
       - text: 文档
         url: /zh_cn/documentation
-      - text: 资源库
+      - text: 代码库
         url: /zh_cn/libraries
       - text: 社区
         url: /zh_cn/community
@@ -377,8 +377,8 @@ locales:
       description: Ruby Son Haberler
       lang_code: tr
     zh_cn:
-      title: News RSS Feed
-      description: The latest news from ruby-lang.org.
+      title: Ruby 新闻更新
+      description: 来自 ruby-lang.org 的最新文章。
       lang_code: zh-CN
     zh_tw:
       title: Ruby RSS News
@@ -534,14 +534,14 @@ locales:
       other_news: 其它新闻
       more_news: 更多新闻...
       continue: 阅读全文...
-      back_to_year: "Back to %Y Archives"
+      back_to_year: "返回%Y年归档"
       recent_news: 最新消息
-      yearly_archive_title: "%Y 档案"
-      monthly_archive_title: "%B %Y Archives"
+      yearly_archive_title: "%Y年归档"
+      monthly_archive_title: "%Y年%-m月归档"
       yearly_archives: 按年存档
-      monthly_archives: Archives by Month
-      yearly_archive_link: "%Y 档案"
-      monthly_archive_link: "%B %Y Archives"
+      monthly_archives: 按月归档
+      yearly_archive_link: "%Y年归档"
+      monthly_archive_link: "%Y年%-m月归档"
     zh_tw:
       other_news: 其他新聞
       more_news: 更多新聞...
@@ -1408,7 +1408,7 @@ locales:
 #         text: Books
 #         <<: *books
         libraries:
-          text: 资源库
+          text: 代码库
           url: /zh_cn/libraries/
         success_stories:
           text: 成功案例
@@ -1431,12 +1431,12 @@ locales:
           description: |
             阅读 Ruby 相关的博客
         ruby_core:
-          text: Ruby 内核
+          text: Ruby 核心
           url: /zh_cn/community/ruby-core/
           description: |
             帮助开发 Ruby 语言
         issue_tracking:
-          text: Issue Tracking
+          text: 问题跟踪
           url: https://bugs.ruby-lang.org/
           description: |
             报告或帮助解决 Ruby 的问题
@@ -1514,6 +1514,6 @@ locales:
       Herhangi bir soru ya da öneriniz için lütfen
       <a href="mailto:webmaster@ruby-lang.org">site yöneticimiz</a> ile irtibata geçin.
     zh_cn: |
-      本网站使用Ruby工具<a href="http://www.jekyllrb.com/">Jekyll</a>制作，并有幸由来自Ruby社区的会员共同维护。
-      请贡献代码至<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
-      如有任何疑问和意见，请联系我们的站点<a href="mailto:webmaster@ruby-lang.org">管理员</a>。
+      本网站使用 Ruby 工具 <a href="http://www.jekyllrb.com/">Jekyll</a> 制作，并有幸由来自 Ruby 社区的会员共同维护。
+      请贡献代码至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
+      如有任何疑问和意见，请联系我们的<a href="mailto:webmaster@ruby-lang.org">站点管理员</a>。

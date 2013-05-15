@@ -33,10 +33,11 @@ module Jekyll
       end
 
       def insert_date(string, year, month = 0)
-        string.gsub(/%Y|%m|%B/, {
-          '%Y' => year.to_s,
-          '%m' => "%.2d" % month,
-          '%B' => @month_names[month]
+        string.gsub(/%Y|%m|%-m|%B/, {
+          '%Y'  => year.to_s,
+          '%m'  => "%.2d" % month,
+          '%-m' => month.to_s,
+          '%B'  => @month_names[month]
         })
       end
 

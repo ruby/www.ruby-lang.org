@@ -12,7 +12,6 @@ end
 
 HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr zh_cn zh_tw]
-ENV['TZ'] = 'UTC'
 
 desc "Generates the Jekyll site"
 task :generate do
@@ -30,10 +29,7 @@ end
 
 desc "Generates the Jekyll site and starts local server"
 task :preview do
-  unless File.directory?('_site')
-    Rake::Task[:generate].invoke
-  end
-  sh 'jekyll --server --auto'
+  sh 'jekyll serve --watch'
 end
 
 namespace :new_post do
