@@ -15,7 +15,7 @@ ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }})
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }})
   Kararlı Versiyon (*tavsiye edilir*)
 * [Stable Snapshot][3] Bu son kararlı SVN’nin tar gzip hali. Son kararlı
   sürümden daha iyi olması beklenir.
@@ -142,9 +142,9 @@ Rubyforge][29] adresini inceleyin.
 
 
 [1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[2]: {{ site.downloads.stable.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org/
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
 [7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe

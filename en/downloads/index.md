@@ -38,9 +38,9 @@ If you have an issue compiling Ruby, consider using one of the third
 party tools in the next section. They may help you.
 
 * [Ruby {{ site.downloads.stable.version }}][1]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stable
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable
 * [Ruby {{ site.downloads.previous.version }}][2]
-  (md5:&nbsp;{{ site.downloads.previous.md5 }}) Previous
+  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Previous
 * [Stable Snapshot][3] This is a tarball of the latest snapshot of the
   Stable branch (ruby\_2\_0\_0).
 * [Nightly Snapshot][4] This is a tarball of whatever is in svn, made
@@ -206,10 +206,10 @@ programming language”.
 
 
 
-[1]: {{ site.downloads.stable.url }}
-[2]: {{ site.downloads.previous.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[1]: {{ site.downloads.stable.url.gz }}
+[2]: {{ site.downloads.previous.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [6]: http://git-scm.com/
 [7]: https://rvm.io/rvm/install/

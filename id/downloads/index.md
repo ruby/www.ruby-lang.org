@@ -149,7 +149,7 @@ konfigurasi yang spesifik. Apabila tidak ada paket distribusi siap pakai
 untuk sistem operasi Anda, alternatif ini juga solusi yang baik.
 
 * [Ruby {{ site.downloads.stable.version }}][21]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stable (*dianjurkan*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable (*dianjurkan*)
 * [Ruby 1.9.3 preview1][22] (md5:&nbsp;0f0220be4cc7c51a82c1bd8f6a0969f3)
 * [Stable Snapshot][23]
 * [Nightly Snapshot][24] Ini adalah versi paling mutakhir langsung dari
@@ -181,7 +181,7 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 [18]: http://www.freebsd.org/
 [19]: http://www.sun.com/software/solaris/
 [20]: http://www.gnusolaris.org/
-[21]: {{ site.downloads.stable.url }}
+[21]: {{ site.downloads.stable.url.gz }}
 [22]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz
-[23]: {{ site.downloads.stable_snapshot.url }}
-[24]: {{ site.downloads.nightly_snapshot.url }}
+[23]: {{ site.downloads.stable_snapshot.url.gz }}
+[24]: {{ site.downloads.nightly_snapshot.url.gz }}

@@ -48,5 +48,5 @@ Posted by usa on 13 Aug 2008
 
 [1]: https://bugs.ruby-lang.org/projects/ruby/wiki
 [2]: https://bugs.ruby-lang.org/projects/show/ruby
-[3]: {{ site.downloads.nightly_snapshot.url }}
-[4]: {{ site.downloads.stable_snapshot.url }}
+[3]: {{ site.downloads.nightly_snapshot.url.gz }}
+[4]: {{ site.downloads.stable_snapshot.url.gz }}

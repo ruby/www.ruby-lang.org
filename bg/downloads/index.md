@@ -16,7 +16,7 @@ lang: bg
 вашата платформа.
 
 * [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }})
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }})
   стабилна версия (*препоръчително*)
 * [Стабилен Snapshot][3]
   Това е архвирано копие на последната стабилна версия в SVN хранилището.
@@ -129,9 +129,9 @@ Ruby идва инсталиран по подразбиране в друга �
 
 
 [1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[2]: {{ site.downloads.stable.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org/
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
 [7]: http://rubyforge.org/frs/download.php/72085/rubyinstaller-1.8.7-p302.exe

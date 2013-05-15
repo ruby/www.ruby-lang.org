@@ -16,9 +16,9 @@ específicas para tu entorno. También es una buena solución en el caso de
 que no existan paquetes disponibles.
 
 * [Ruby {{ site.downloads.stable.version }}][1]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Versión Estable (*recomendada*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Versión Estable (*recomendada*)
 * [Ruby {{ site.downloads.previous.version }}][2]
-  (md5:&nbsp;{{ site.downloads.previous.md5 }}) Versión Estable
+  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Versión Estable
 * [Snapshot estable][3] Ultima versión (*estable*) del repositorio.
 * [Snapshot diario][4] Ultima versión del repositorio.
 
@@ -105,10 +105,10 @@ información aquí][12]). Con suerte, cuando Leopard salga las cosas
 
 
 
-[1]: {{ site.downloads.stable.url }}
-[2]: {{ site.downloads.previous.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[1]: {{ site.downloads.stable.url.gz }}
+[2]: {{ site.downloads.previous.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org
 [6]: http://git-scm.com/
 [7]: https://rvm.beginrescueend.com/rvm/install/

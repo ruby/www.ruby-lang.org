@@ -40,9 +40,9 @@ siano disponibili pacchetti di installazione precompilati per il tuo
 sistema operativo.
 
 * [Ruby {{ site.downloads.stable.version }}][1]
-  (md5:&nbsp;{{ site.downloads.stable.md5 }}) Stabile (*raccomandato*)
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stabile (*raccomandato*)
 * [Ruby {{ site.downloads.previous.version }}][2]
-  (md5:&nbsp;{{ site.downloads.previous.md5 }}) Precedente
+  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Precedente
 * [Snaphot Stabile][3] Questa è la tarball con l’ultimo snapshot del
   branch stabile.
 * [Snapshot Giornaliero][4] Questa è la tarball di ciò che c’è in svn,
@@ -180,10 +180,10 @@ RubyOpenSolaris su Rubyforge][24].
 
 
 
-[1]: {{ site.downloads.stable.url }}
-[2]: {{ site.downloads.previous.url }}
-[3]: {{ site.downloads.stable_snapshot.url }}
-[4]: {{ site.downloads.nightly_snapshot.url }}
+[1]: {{ site.downloads.stable.url.gz }}
+[2]: {{ site.downloads.previous.url.gz }}
+[3]: {{ site.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [6]: http://git-scm.com/
 [7]: https://rvm.io/rvm/install/
