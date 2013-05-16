@@ -41,9 +41,8 @@ sowie Verbesserungen in der Dokumentation.
 
 Die wichtigsten Änderungen sind unten aufgelistet.
 Siehe das [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
-oder die Tickets für weitere Informationen.
-
-* https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5
+oder die [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
+für weitere Informationen.
 
 Vielen Dank an alle Committer und Mitwirkende.
 
