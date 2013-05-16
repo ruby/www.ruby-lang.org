@@ -717,6 +717,9 @@ locales:
         ruby_from_other_languages:
           text: Ruby from Other Languages
           url: /en/documentation/ruby-from-other-languages/
+        ruby_practice_exercises:
+          text: Ruby Practice Exercises
+          url: http://www.learnstreet.com/cg/simple/projects/ruby
       explore:
         text: <strong>Explore</strong> a new world…
         documentation:
