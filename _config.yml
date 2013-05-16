@@ -719,7 +719,7 @@ locales:
           url: /en/documentation/ruby-from-other-languages/
         ruby_practice_exercises:
           text: Ruby Practice Exercises
-          url: http://www.learnstreet.com/cg/simple/projects/ruby
+          url: http://www.learnstreet.com
       explore:
         text: <strong>Explore</strong> a new world…
         documentation:
