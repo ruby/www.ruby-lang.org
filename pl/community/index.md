@@ -12,7 +12,7 @@ bardziej doświadczonych programistów.
 Jeśli chcesz dzielić się swoimi doświadczeniami z innymi użytkownikami,
 poniżej znajdziesz kilka propozycji:
 
-[Grupy Użytkowników Języka Ruby](grupy-uzytkownikow/)
+[Grupy Użytkowników Języka Ruby](user-groups/)
 : Twoja lokalna grupa użytkowników jest znakomitym miejscem aby poznać
   innych programistów Rubiego. Grupy użytkowników są zupełnie
   autonomiczne, lecz znaczna ich większość organizuje comiesięczne
@@ -20,7 +20,7 @@ poniżej znajdziesz kilka propozycji:
   szczęściarzem, to być może uda ci się załapać na sesję
   pair-programmingu.
 
-[Listy mailingowe](listy-mailingowe/)
+[Listy mailingowe](mailing-lists/)
 : Ruby ma wiele list na różne tematy, w różnych językach. Jeśli masz
   jakieś pytania, to najprędzej otrzymasz na nie odpowiedź na liście
   wysyłkowej
@@ -35,7 +35,7 @@ poniżej znajdziesz kilka propozycji:
 : Jeśli masz ochotę zaangażować się w tworzenie i rozwijanie samego
   języka, to nie ma lepszego miejsca niż grupa ruby-core.
 
-[Blogi na temat Rubiego](blogi/)
+[Blogi na temat Rubiego](weblogs/)
 : Blogi zawierają setki megabajtów cennych informacji o języku Ruby,
   jego zastosowaniach oraz doświadczeniach z projektami w Rubim.
 

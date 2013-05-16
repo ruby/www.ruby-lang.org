@@ -20,7 +20,7 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   dziedzinie programowania. Jeśli nie wiesz jak programować, zacznij od
   niego.
 
-[Ruby w 20 minut](/pl/dokumentacja/ruby-w-20-minut/)
+[Ruby w 20 minut](/pl/documentation/quickstart/)
 : Przyjemny tutorial obejmujący podstawy programowania w Rubim. Od
   początku do końca, zajmuje jakieś dwadzieścia minut.
 
@@ -29,7 +29,7 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   podstawy programowania i mają pojęcie o programowaniu zorientowanym
   obiektowo.
 
-[Ruby a inne języki programowania](/pl/dokumentacja/ruby-a-inne-jezyki-programowania/)
+[Ruby a inne języki programowania](/pl/documentation/ruby-from-other-languages/)
 : Przestawiasz się z innego języka programowania do Rubiego? Niezależnie
   od tego czy jest to C, C++, Java, Perl, PHP lub Python, ten artykuł z
   pewnością Ci pomoże!

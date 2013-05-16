@@ -32,7 +32,7 @@ Ruby-CVS
 Poniżej znajduje się formularz zgłoszeniowy (po angielsku) na powyższe
 listy:
 
-<form action="/pl/spolecznosc/listy-mailingowe/" id="subscriptions-form" method="post" markdown="1">
+<form action="/pl/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
 ## Subscribe or Unsubscribe
 
 | Mailing List | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |

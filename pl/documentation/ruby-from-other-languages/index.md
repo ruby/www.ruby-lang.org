@@ -16,11 +16,11 @@ najważniejszych elementów języka i porównuje je do tego, co już znasz.
 ## Czego oczekiwać: *Język X* a Ruby
 
 * [Ruby a
-  Java](/pl/dokumentacja/ruby-a-inne-jezyki-programowania/ruby-a-java/)
+  Java](/pl/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [Ruby a
-  PHP](/pl/dokumentacja/ruby-a-inne-jezyki-programowania/ruby-a-php/)
+  PHP](/pl/documentation/ruby-from-other-languages/to-ruby-from-php/)
 * [Ruby a
-  Python](/pl/dokumentacja/ruby-a-inne-jezyki-programowania/ruby-a-python/)
+  Python](/pl/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
 ## Ważne elementy języka i niespodzianki
 
@@ -420,7 +420,7 @@ Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`, `va
 ## Więcej
 
 Więcej informacji na temat języka Ruby znajdziesz w
-[dokumentacji](/pl/dokumentacja/)
+[dokumentacji](/pl/documentation/)
 
 
 

@@ -147,7 +147,7 @@ klas i wiele więcej. Mam nadzieję, że to wprowadzenie rozpaliło Twoją
 ciekawość.
 
 Jeśli tak, to zapraszam do przejścia do
-[Dokumentacji](/pl/dokumentacja/) , w której znajdziesz podsumowanie
+[Dokumentacji](/pl/documentation/) , w której znajdziesz podsumowanie
 linków, manuali i tutoriali, wszystkie dostępne za darmo w sieci.
 
 Jeśli chciałbyś obejrzeć jakieś książki, sprawdź [listę książek o

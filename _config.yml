@@ -195,11 +195,11 @@ locales:
       - text: Pobierz
         url: /pl/downloads
       - text: Dokumentacja
-        url: /pl/dokumentacja
+        url: /pl/documentation
       - text: Biblioteki
         url: /pl/libraries
       - text: Społeczność
-        url: /pl/spolecznosc
+        url: /pl/community
       - text: Wiadomości
         url: /pl/news
 #     - text:
@@ -1158,15 +1158,15 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby w 20 Minut
-          url: /pl/dokumentacja/ruby-w-20-minut/
+          url: /pl/documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby a inne języki programowania
-          url: /pl/dokumentacja/ruby-a-inne-jezyki-programowania/
+          url: /pl/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Poznaj</strong> nowy świat…
         documentation:
           text: Dokumentacja
-          url: /pl/dokumentacja/
+          url: /pl/documentation/
         books:
           text: Książki
           url: http://www.ruby-doc.org/bookstore
@@ -1175,24 +1175,24 @@ locales:
           url: /pl/libraries/
         success_stories:
           text: Udane wdrożenia
-          url: /pl/dokumentacja/udane-wdrozenia/
+          url: /pl/documentation/success-stories/
       participate:
         text: |
           <strong>Dołącz</strong> do przyjaznej i rozrastającej się
           społeczności.
         mailing_lists:
           text: Listy dyskusyjne
-          url: /pl/spolecznosc/listy-mailingowe/
+          url: /pl/community/mailing-lists/
           description: |
             Porozmawiaj o Ruby z programistami z całego świata.
         user_groups:
           text: Grupy Użytkowników
-          url: /pl/spolecznosc/grupy-uzytkownikow/
+          url: /pl/community/user-groups/
           description: |
             Bądź w kontakcie z użytkownikami Rubiego z Twojej okolicy.
         weblogs:
           text: Blogi
-          url: /pl/spolecznosc/blogi/
+          url: /pl/community/weblogs/
           description: |
             Czytaj na bieżąco co dzieje się w społeczności języka Ruby.
         ruby_core:
