@@ -1254,16 +1254,16 @@ locales:
           url: /pt/community/user-groups/
           description: |
             Entra em contacto com colegas da tua área.
-        weblogs:
-          text: Núcleo de Ruby
-          url: /pt/community/weblogs/
+#       weblogs:
+#         text: Weblogs
+#         url: /pt/community/weblogs/
+#         description: |
+#           Read about what’s happening right now in the Ruby community.
+        ruby_core:
+          text: Ruby Core
+          url: /pt/community/ruby-core/
           description: |
             Ajuda a limar as arestas da última versão de Ruby.
-#       ruby_core:
-#         text: Ruby Core
-#         url: /pt/community/ruby-core/
-#         description: |
-#           Help polish the rough edges of the latest Ruby.
 #       issue_tracking:
 #         text: Issue Tracking
 #         url: https://bugs.ruby-lang.org/
