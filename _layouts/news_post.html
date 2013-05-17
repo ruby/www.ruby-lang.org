@@ -2,13 +2,20 @@
 layout: default
 ---
 
+{% if site.locales.translated_by[page.lang] %}
+  {% assign translated_by = site.locales.translated_by[page.lang] %}
+{% else %}
+  {% assign translated_by = site.locales.translated_by['en'] %}
+{% endif %}
+
 <div id="content-wrapper">
   {% include title.html %}
 
   <div id="content">
     {{ content }}
 
-    <p class="post-info">{{ page.date | posted_by:page.author }}</p>
+    <p class="post-info">{{ page.date | posted_by:page.author }}{% if page.translator %}<br />
+                         {{ translated_by }} {{ page.translator }}{% endif %}</p>
   </div>
 </div>
 <hr class="hidden-modern" />

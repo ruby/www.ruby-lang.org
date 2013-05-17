@@ -346,6 +346,22 @@ locales:
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
 #   zh_tw:
 
+  translated_by:
+    bg: "Превод от"
+    de: "Übersetzt von"
+    en: "Translated by"
+    es: "Traducción de"
+    fr: "Traduit par"
+    id: "Diterjemahkan oleh"
+    it: "Tradotto da"
+#   ja:
+    ko: "번역자:"
+    pl: "Tłumaczone przez"
+    pt: "Traduzido por"
+    tr: "Çeviri:"
+#   zh_cn:
+#   zh_tw:
+
   feed:
     bg:
       title: Ruby новини

@@ -2,6 +2,7 @@
 layout: news_post
 title: "Sortie de Ruby 1.9.3-p429"
 author: "usa"
+translator: "Jean-Denis Vauguet"
 date: 2013-05-14 17:00:00 UTC
 lang: fr
 ---

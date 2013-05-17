@@ -47,6 +47,7 @@ namespace :new_post do
       layout: news_post
       title: "#{title}"
       author: "Unknown Author"
+      translator:
       date: #{creation_time}
       lang: #{lang}
       ---
