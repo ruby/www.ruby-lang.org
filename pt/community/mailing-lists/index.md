@@ -39,7 +39,7 @@ Ruby &lt;&lt; portuguese.
   </form>
   </table>
 
-<form action="/pt/comunidade/listas-de-correio/" id="subscriptions-form" method="post" markdown="1">
+<form action="/pt/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
 ## Subscrever ou Remover
 
 | Lista de Correio | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
@@ -55,7 +55,7 @@ Ruby &lt;&lt; portuguese.
 </form>
 
 Se falhar a recepção do email utilizando o formulário, tente subscrever
-[manualmente](instrucoes-de-subscricao-manual/ "subscrição manual numa
+[manualmente](manual-instructions/ "subscrição manual numa
 lista de correio").
 
 

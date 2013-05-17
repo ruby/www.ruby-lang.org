@@ -24,7 +24,7 @@ pré-construídos para a sua plataforma.
   CVS. Pode conter problemas por resolver.
 
 Para informações sobre o repositório CVS de Ruby, veja a nossa página
-[Ruby core](/pt/comunidade/nucleo-de-ruby/) .
+[Ruby core](/pt/community/ruby-core/) .
 
 ### Ruby Em Windows
 

@@ -19,11 +19,11 @@ Ruby.
 : Pequeno maravilhoso tutorial por Chris Pine para iniciados em
   programação. Se não sabe programar, comece aqui.
 
-[Ruby em Vinte Minutos](/pt/documentacao/quickstart/)
+[Ruby em Vinte Minutos](/pt/documentation/quickstart/)
 : Um bom tutorial que cobre o básico de Ruby. Desde o início ao fim, não
   deverá levar mais de vinte minutos.
 
-[Ruby a partir de outras linguagens](/pt/documentacao/ruby-a-partir-de-outras-linguagens/)
+[Ruby a partir de outras linguagens](/pt/documentation/ruby-from-other-languages/)
 : Chegou ao Ruby por outra linguagem ? Quer seja C, C++, Java, Perl,
   PHP, ou Python, este artigo é para si!
 
@@ -81,7 +81,7 @@ Ruby.
 em Inglês. Está também carregada de [Livros sobre Ruby][18]. No [Ruby
 Garden Wiki][7] há um sortido de conteúdos contribuídos pelos
 utilizadores. Se tem questões sobre Ruby, a [lista de
-correio](/pt/comunidade/listas-de-correio/) é um óptimo sítio para
+correio](/pt/community/mailing-lists/) é um óptimo sítio para
 começar.
 
 

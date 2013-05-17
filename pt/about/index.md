@@ -37,7 +37,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 {: style="float:right"}
 
 A Ruby-Talk, a principal [lista de
-correio](/pt/comunidade/listas-de-correio/) para a discussão sobre a
+correio](/pt/community/mailing-lists/) para a discussão sobre a
 linguagem Ruby subiu para uma média de 200 mensagens diárias.
 
 O [índice TIOBE][6], que mede o crescimento das linguagens de programação,

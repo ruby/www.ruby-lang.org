@@ -19,23 +19,23 @@ aquilo que já se encontra familiarizado.
 ## O Que Esperar: *Linguagem X* para Ruby
 
 * [Para Ruby a partir de C e
-  C++](/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-c-e-c-mais-mais/)
+  C++](/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
 ^
 
 * [Para Ruby a partir de
-  Java](/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-java/)
+  Java](/pt/documentation/ruby-from-other-languages/to-ruby-from-java/)
 ^
 
 * [Para Ruby a partir de
-  Perl](/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-perl/)
+  Perl](/pt/documentation/ruby-from-other-languages/to-ruby-from-perl/)
 ^
 
 * [Para Ruby a partir de
-  PHP](/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-php/)
+  PHP](/pt/documentation/ruby-from-other-languages/to-ruby-from-php/)
 ^
 
 * [Para Ruby a partir de
-  Python](/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-python/)
+  Python](/pt/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
 ## Características Importantes da Linguagem e Algumas Notas
 
@@ -451,7 +451,7 @@ Como +=, \*= etc. são somente abreviações para `var = var + outra_var`, `var 
 ## Mais informação
 
 Quando se sentir preparado para saber mais sobre Ruby, veja a nossa
-secção de [Documentação](/pt/documentacao/).
+secção de [Documentação](/pt/documentation/).
 
 
 

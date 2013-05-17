@@ -149,7 +149,7 @@ esta pequena amostra da linguagem Ruby tenha deixado o desejo de
 aprender mais.
 
 Se sim, por favor visite a nossa secção de
-[Documentação](/pt/documentacao/) , onde encontraram ligações para
+[Documentação](/pt/documentation/) , onde encontraram ligações para
 manuais e guias, todos disponíveis em formato digital.
 
 Ou, se desejar ler mesmo um livro, veja a nossa [biblioteca de

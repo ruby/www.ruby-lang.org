@@ -210,17 +210,17 @@ locales:
       - text:  Downloads
         url: /pt/downloads
       - text: Documentação
-        url: /pt/documentacao
+        url: /pt/documentation
       - text: Módulos
-        url: /pt/bibliotecas
+        url: /pt/libraries
       - text: Comunidade
-        url: /pt/comunidade
+        url: /pt/community
       - text: Notícias
         url: /pt/news
 #     - text:
 #       url: /pt/security
       - text: Sobre Ruby
-        url: /pt/sobre-o-ruby
+        url: /pt/about
     tr:
       - text: İndirin
         url: /tr/downloads
@@ -1223,45 +1223,45 @@ locales:
           <<: *try_ruby
         quickstart:
           text: Ruby em Vinte Minutos
-          url: /pt/documentacao/quickstart/
+          url: /pt/documentation/quickstart/
         ruby_from_other_languages:
           text: Ruby a partir de outras linguagens
-          url: /pt/documentacao/ruby-a-partir-de-outras-linguagens/
+          url: /pt/documentation/ruby-from-other-languages/
       explore:
         text: <strong>Explora</strong> um novo mundo…
         documentation:
           text: Documentação
-          url: /pt/documentacao/
+          url: /pt/documentation/
         books:
           text: Livros
           url: http://www.ruby-doc.org/bookstore
         libraries:
           text: Bibliotecas
-          url: /pt/bibliotecas/
+          url: /pt/libraries/
         success_stories:
           text: Histórias de sucesso
-          url: /pt/documentacao/historias-de-sucesso/
+          url: /pt/documentation/success-stories/
       participate:
         text: |
           <strong>Participa</strong> numa comunidade simpática e em crescimento.
         mailing_lists:
           text: Listas de Correio
-          url: /pt/comunidade/listas-de-correio/
+          url: /pt/community/mailing-lists/
           description: |
             Fala sobre Ruby com programadores de todo o mundo.
         user_groups:
           text: Grupos de Utilizadores
-          url: /pt/comunidade/grupos-de-utilizadores/
+          url: /pt/community/user-groups/
           description: |
             Entra em contacto com colegas da tua área.
         weblogs:
           text: Núcleo de Ruby
-          url: /pt/comunidade/weblogs/
+          url: /pt/community/weblogs/
           description: |
             Ajuda a limar as arestas da última versão de Ruby.
 #       ruby_core:
 #         text: Ruby Core
-#         url: /en/community/ruby-core/
+#         url: /pt/community/ruby-core/
 #         description: |
 #           Help polish the rough edges of the latest Ruby.
 #       issue_tracking:
@@ -1273,7 +1273,7 @@ locales:
         text: Top de projectos de Ruby
         more:
           text: Saber mais…
-          url: /pt/bibliotecas/top-de-projectos-ruby/
+          url: /pt/libraries/top-projects/
       syndicate:
         text: Feeds de noticias (RSS)
         recent_news:
