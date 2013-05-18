@@ -13,6 +13,7 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - README.md
+  - redirect.conf_
   - vendor
 
 url: http://www.ruby-lang.org
