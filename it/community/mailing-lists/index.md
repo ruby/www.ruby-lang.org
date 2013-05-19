@@ -43,7 +43,7 @@ Ruby-CVS
 
 In caso di mancata ricezione della conferma email usando questo form,
 prova a iscriverti seguendo la [procedura
-manuale](manual-instructions/).
+manuale](/en/community/mailing-lists/manual-instructions/) (in inglese).
 
 
 
