@@ -1324,36 +1324,36 @@ locales:
           url: /tr/documentation/success-stories/
       participate:
         text: <strong>Arkadaşça</strong> ve büyüyen bir topluluğa kaltılın.
-        mailing_lists:
-          text: Mail Listeleri
-          url: /tr/community/mailing-lists/
-          description: |
-            Tüm dünyadan Ruby programcılarıyla görüşün.
-        user_groups:
-          text: Kullanıcı Grupları
-          url: /tr/community/user-groups/
-          description: |
-            Bölgenizdeki Ruby'cilerle temas kurun.
-        weblogs:
-          text: Web günlükleri
-          url: /tr/community/weblogs/
-          description: |
-            Rubyde neler olduğunu takip edin.
-        ruby_core:
-          text: Ruby Core
-          url: /tr/community/ruby-core/
-          description: |
-            En son Rubynin kaba taraflarının parlatılmasına yardımcı olun.
+#       mailing_lists:
+#         text: Mail Listeleri
+#         url: /tr/community/mailing-lists/
+#         description: |
+#           Tüm dünyadan Ruby programcılarıyla görüşün.
+#       user_groups:
+#         text: Kullanıcı Grupları
+#         url: /tr/community/user-groups/
+#         description: |
+#           Bölgenizdeki Ruby'cilerle temas kurun.
+#       weblogs:
+#         text: Web günlükleri
+#         url: /tr/community/weblogs/
+#         description: |
+#           Rubyde neler olduğunu takip edin.
+#       ruby_core:
+#         text: Ruby Core
+#         url: /tr/community/ruby-core/
+#         description: |
+#           En son Rubynin kaba taraflarının parlatılmasına yardımcı olun.
         issue_tracking:
           text: Sorun Takibi
           url: https://bugs.ruby-lang.org/
           description: |
             Ruby sorunlarını rapor edin ya da çözümüne yardım edin.
-      top_ruby_projects:
-        text: Bazı Popüler Ruby Projeleri
-        more:
-          text: Daha…
-          url: /tr/libraries/top-projects/
+#     top_ruby_projects:
+#       text: Bazı Popüler Ruby Projeleri
+#       more:
+#         text: Daha…
+#         url: /tr/libraries/top-projects/
       syndicate:
         text: Takip Edin
         recent_news:
