@@ -19,9 +19,10 @@ Denial-of-Service-Attacke genutzt werden können.
 
 Betroffener Code sieht so aus:
 
-    document = REXML::Document.new some_xml_doc
-    document.root.text
-{: .code}
+{% highlight ruby %}
+document = REXML::Document.new some_xml_doc
+document.root.text
+{% endhighlight %}
 
 Wenn die #text-Methode aufgerufen wird, werden die Entitäten expandiert.
 Ein Angreifer kann so mithilfe eines verhältnismäßig kleinen

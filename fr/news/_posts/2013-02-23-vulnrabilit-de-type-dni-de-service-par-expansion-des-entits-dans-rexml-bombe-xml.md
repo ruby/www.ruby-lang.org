@@ -19,9 +19,10 @@ un déni de service.
 
 Le code concerné ressemble à ceci :
 
-    document = REXML::Document.new some_xml_doc
-    document.root.text
-{: .code}
+{% highlight ruby %}
+document = REXML::Document.new some_xml_doc
+document.root.text
+{% endhighlight %}
 
 Quand la méthode \`text\` est appelée, les entités sont étendues. Un
 attaquant peut envoyer un document XML relativement petit qui, lors de
