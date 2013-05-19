@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "European Ruby Confrence 2008 (EURUKO)"
+title: "European Ruby Conference 2008 (EURUKO)"
 author: "James Edward Gray II"
 lang: en
 ---
