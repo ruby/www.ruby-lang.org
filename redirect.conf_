@@ -1,13 +1,13 @@
 rewrite ^/ja/20030611\.html$ /ja/downloads permanent;
 rewrite ^/(en|ja)/install\.html$ /ja/downloads permanent;
-rewrite ^/ja/install\.cgi$ /ja/downloads permanent;
+rewrite ^/ja/install\.cgi$ /ja/downloads? permanent;
 
 rewrite ^/cgi-bin/cvsweb\.cgi/?$ http://svn.ruby-lang.org/ permanent;
 rewrite ^/admin$ https://github.com/ruby/www.ruby-lang.org permanent;
 
 # contents inconsistently 2013-05-15
 rewrite ^/(en|ja)/(LICENSE|license).txt$ http://www.ruby-lang.org/en/about/license.txt;
-rewrite ^/ja/old-man/.*$ http://doc.ruby-lang.org/ja/ permanent;
+rewrite ^/ja/old-man/.*$ http://doc.ruby-lang.org/ja/? permanent;
 rewrite ^/ja/man/.*$ http://doc.ruby-lang.org/ja/ permanent;
 
 rewrite ^/zh_TW$ /zh_tw permanent;
