@@ -21,7 +21,7 @@ sidebar: |
 <div class="post">
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-  {{ post.content | strip_html | truncatewords: 25 }}
+  {{ post.excerpt | markdownify }}
 
   <p><a href="{{ post.url }}">{{ news.continue }}</a></p>
 
