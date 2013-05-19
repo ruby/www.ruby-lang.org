@@ -23,6 +23,7 @@ rewrite ^/pl/dokumentacja/ruby-a-inne-jezyki-programowania(.*)$ /pl/documentatio
 rewrite ^/pl/dokumentacja/udane-wdrozenia(.*)$ /pl/documentation/success-stories$1 permanent;
 rewrite ^/pl/dokumentacja(.*)$ /pl/documentation$1 permanent;
 
+rewrite ^/pt/noticias-recentes$ /pt/news permanent;
 rewrite ^/pt/noticias-recentes/(.*)$ /pt/news/$1 permanent;
 rewrite ^/pt/feeds/noticias.rss$ /pt/feeds/news.rss permanent;
 rewrite ^/pt/sobre-o-ruby(.*)$ /pt/about$1 permanent;
