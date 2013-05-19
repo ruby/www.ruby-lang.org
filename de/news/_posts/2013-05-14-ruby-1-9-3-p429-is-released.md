@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p429 veröffentlicht"
 author: "usa"
+translator: "Marcus Stollsteimer"
 date: 2013-05-14 17:00:00 UTC
 lang: de
 ---
