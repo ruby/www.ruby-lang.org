@@ -155,4 +155,4 @@ Rubim][1] (po angielsku).
 
 
 
-[1]: /en/documentation/book-list/
+[1]: http://www.ruby-doc.org/bookstore

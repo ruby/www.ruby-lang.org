@@ -9,7 +9,7 @@ lang: it
 10:00+09:00 alle 24:00 per manutenzioni pianificata.
 
 Se hai dei problemi da segnalare, puoi mandare una mail alla mailing
-list [ruby-core](../mailto:ruby-core@ruby-lang.org) o aspettare che la
+list [ruby-core](mailto:ruby-core@ruby-lang.org) o aspettare che la
 manutenzione finisca.
 
 

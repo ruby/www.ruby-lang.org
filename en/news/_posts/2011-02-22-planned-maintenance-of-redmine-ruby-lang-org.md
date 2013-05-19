@@ -9,7 +9,7 @@ lang: en
 24:00 for planned maintenance.
 
 If you have any issue to report, I am afraid but please post a mail to
-[ruby-core](../mailto:ruby-core@ruby-lang.org) mailing list or wait for
+[ruby-core](mailto:ruby-core@ruby-lang.org) mailing list or wait for
 my finishing maintenance.
 
 
