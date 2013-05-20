@@ -9,8 +9,13 @@ Long time no minor version-up…
 
 Here is an initial official release of a stable version **ruby 1.8**.
 
+The _download site_ will lead you to the source code
+ruby-1.8.0.tar.gz. Its MD5SUM is:
+
+<!--
 The [download site][1] will lead you to the source code
 ruby-1.8.0.tar.gz. Its MD5SUM is:
+-->
 
 582a65e52598a4a1e9fce523e16e67d6
 
