@@ -86,7 +86,7 @@ Unlike C, in Ruby,...
   value.
 * It’s `require 'foo'` instead of `#include <foo>` or `#include "foo"`.
 * You cannot drop down to assembly.
-* There’s no semicolon’s ending lines.
+* There’s no semicolons ending lines.
 * You go without parentheses for `if` and `while` condition expressions.
 * Parentheses for method (i.e. function) calls are often optional.
 * You don’t usually use braces—just end multi-line constructs (like
