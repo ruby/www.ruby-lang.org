@@ -82,7 +82,7 @@ Ah, ora va meglio! Vediamo a quali metodi risponde la nostra classe:
 {% highlight ruby %}
 irb(main):041:0> p.respond_to?("name")
 => false
-irb(main):042:0> p.respond_to?("say_hi")
+irb(main):042:0> p.respond_to?("saluta")
 => true
 irb(main):043:0> p.respond_to?("to_s")
 => true
@@ -216,11 +216,11 @@ Verrà mostrato qualcosa di simile:
     Ciao Paolo!
     Arrivederci Paolo. A presto!
     Ciao Fabio!
-    Hello Davide!
-    Hello Raul!
-    Hello Giorgia!
-    Hello Federica!
-    Goodbye Fabio, Davide, Raul, Giorgia, Federica. A presto!
+    Ciao Davide!
+    Ciao Raul!
+    Ciao Giorgia!
+    Ciao Federica!
+    Arrivederci Fabio, Davide, Raul, Giorgia, Federica. A presto!
     ...
     ...
 {: .code}

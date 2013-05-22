@@ -133,6 +133,6 @@ irb(main):009:0> Math.sqrt(a+b)
 {% endhighlight %}
 
 Sebbene tutto questo sia utile ai fini della nostra “calcolatrice”, ci
-stiamo allontanando droppo dal messaggio `Ciao Mondo` usato in tutti i
+stiamo allontanando troppo dal messaggio `Ciao Mondo` usato in tutti i
 tutorial per principianti… [Ritorniamoci su.](2/)
 
