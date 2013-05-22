@@ -4,9 +4,9 @@ title: "Ruby herunterladen"
 lang: de
 ---
 
-Hier kannst du die aktuellen Ruby-Distributionen herunterladen. Die
-stabile Version ist derzeit {{ site.downloads.stable.version }}.
-Bitte nimm auch [Rubys Lizenz][1] zur Kenntnis.
+Hier kannst du die aktuellen Ruby-Distributionen herunterladen.
+Die stabile Version ist derzeit {{ site.downloads.stable.version }}.
+Bitte nimm auch [Rubys Lizenz]({{ site.license.url }}) zur Kenntnis.
 
 ### Drei Möglichkeiten, Ruby zu installieren
 
@@ -37,8 +37,10 @@ du dich gut mit deinem System auskennst und eventuell spezielle
 Einstellungen für deine Umgebung benötigst. Es ist außerdem eine gute
 Lösung, falls es keine vorgefertigten Pakete für dein System gibt.
 
-* [Ruby {{ site.downloads.stable.version }}][2]
-  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) stabile Version (*empfohlen*)
+* [Ruby {{ site.downloads.stable.version }}][1]
+  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) stabile Version
+* [Ruby {{ site.downloads.previous.version }}][2]
+  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) stabile Vorgängerversion
 * [Stable Snapshot][3] Bei diesem Snapshot handelt es sich um die
   absolut letzte stabile SVN-Version. Sie sollte etwas stabiler sein als
   das letzte Release.
@@ -211,8 +213,8 @@ Programmiersprache Ruby“.
 
 
 
-[1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url.gz }}
+[1]: {{ site.downloads.stable.url.gz }}
+[2]: {{ site.downloads.previous.url.gz }}
 [3]: {{ site.downloads.stable_snapshot.url.gz }}
 [4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org
