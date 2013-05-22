@@ -103,7 +103,7 @@ oggetto. Creiamo quindi una classe chiamata “PersonaCordiale”.
 {% highlight ruby %}
 irb(main):024:0> class PersonaCordiale
 irb(main):025:1>   def initialize(nome = "Mondo")
-irb(main):026:2>     @nome = name
+irb(main):026:2>     @nome = nome
 irb(main):027:2>   end
 irb(main):028:1>   def saluta
 irb(main):029:2>     puts "Ciao #{@nome}!"

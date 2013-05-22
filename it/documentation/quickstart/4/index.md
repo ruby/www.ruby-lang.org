@@ -26,20 +26,19 @@ avviare il file. Il resto dei commenti invece serve come spiegazione.
 Il nostro metodo `saluta` è diventato un pochino più complicato.
 
 {% highlight ruby %}
-  # Saluta tutti
-  def saluta
-    if @nomi.nil?
-      puts "..."
-    elsif @nomi.respond_to?("each")
-
-      # @nomi è una lista di qualche tipo, allora iteriamo!
-      @nomi.each do |nome|
-        puts "Ciao #{nome}!"
-      end
-    else
-      puts "Ciao #{@nomi}!"
+# Saluta tutti
+def saluta
+  if @nomi.nil?
+    puts "..."
+  elsif @nomi.respond_to?("each")
+    # @nomi è una lista di qualche tipo, allora iteriamo!
+    @nomi.each do |nome|
+      puts "Ciao #{nome}!"
     end
+  else
+    puts "Ciao #{@nomi}!"
   end
+end
 {% endhighlight %}
 
 Ora controlla la variabile di istanza `@nomi` per prendere una

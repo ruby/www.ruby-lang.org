@@ -160,7 +160,6 @@ class AmicoDiTutti
     if @nomi.nil?
       puts "..."
     elsif @nomi.respond_to?("each")
-
       # @nomi è una lista di qualche tipo, allora iteriamo!
       @nomi.each do |nome|
         puts "Ciao #{nome}!"
@@ -193,7 +192,7 @@ if __FILE__ == $0
   # Cambia @nomi in "Paolo"
   adt.nomi = "Paolo"
   adt.saluta
-  adt.saluta
+  adt.congeda
 
   # Cambia @nomi in una lista di nome
   adt.nomi = ["Fabio", "Davide", "Raul",
@@ -212,7 +211,7 @@ Salva questo file come “ri20min.rb” ed eseguilo così “ruby ri20min.rb”
 Verrà mostrato qualcosa di simile:
 
     Ciao Mondo!
-    Arrivederci. A presto!
+    Arrivederci Mondo. A presto!
     Ciao Paolo!
     Arrivederci Paolo. A presto!
     Ciao Fabio!
