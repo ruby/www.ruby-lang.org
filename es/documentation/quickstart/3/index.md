@@ -166,7 +166,6 @@ class MegaAnfitrion
     if @nombres.nil?
       puts "..."
     elsif @nombres.respond_to?("each")
-
       # @nombres es una lista de algún tipo,
       # ¡así que podemos iterar!
       @nombres.each do |nombre|

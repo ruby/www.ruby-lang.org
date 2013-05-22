@@ -173,7 +173,6 @@ class BosTukangSapa
     if @names.nil?
       puts "..."
     elsif @names.respond_to?("each")
-
       # @names adalah list, iterate!
       @names.each do |name|
         puts "Hello #{name}!"

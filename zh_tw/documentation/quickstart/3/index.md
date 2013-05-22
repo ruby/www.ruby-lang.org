@@ -147,7 +147,6 @@ class MegaGreeter
     if @names.nil?
       puts "..."
     elsif @names.respond_to?("each")
-
       # @names 是可以迭代的陣列容器
       @names.each do |name|
         puts "Hello #{name}!"

@@ -166,7 +166,6 @@ class MegaGreeter
     if @names.nil?
       puts "..."
     elsif @names.respond_to?("each")
-
       # @names ist eine Liste, durchlaufe sie!
       @names.each do |name|
         puts "Hallo, #{name}!"

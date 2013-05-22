@@ -159,7 +159,6 @@ class MegaGreeter
     if @names.nil?
       puts "..."
     elsif @names.respond_to?("each")
-
       # @names içinde bir çeşit liste var, içinde döndür!
       @names.each do |name|
         puts "Hello #{name}!"
