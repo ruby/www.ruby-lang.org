@@ -18,12 +18,12 @@ section below, but here’s an overview:
   largest number of software developers.
 * There are a few **third party tools** to install Ruby. These are often
   simpler for total newbies or the most advanced of users.
-* Finally, A few **package management system**s support Ruby. This will
+* Finally, A few **package management systems** support Ruby. This will
   be most familiar to people who use one operating system for
   everything, and like to stick to those individual standards.
 
 Finally, if you want to run multiple versions of Ruby on the same
-machine, check the **third party tools** section and use rvm. It’s by
+machine, check the **third party tools** section and use RVM. It’s by
 far the best way to accomplish that, unless you know exactly what you’re
 doing.
 
@@ -43,7 +43,7 @@ party tools in the next section. They may help you.
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Previous
 * [Stable Snapshot][3] This is a tarball of the latest snapshot of the
   Stable branch (ruby\_2\_0\_0).
-* [Nightly Snapshot][4] This is a tarball of whatever is in svn, made
+* [Nightly Snapshot][4] This is a tarball of whatever is in SVN, made
   nightly. This may contain bugs or other issues, use at your own risk!
 
 For information about the Ruby Subversion and Git repositories, see our
@@ -73,7 +73,7 @@ install RVM with:
 $ \curl -L https://get.rvm.io | bash -s stable --ruby
 {% endhighlight %}
 
-For the latest instructions on installing rvm, check out [the RVM
+For the latest instructions on installing RVM, check out [the RVM
 installation page][7]. The above command will install both RVM and the
 latest version of Ruby. RVM can also install most of the Ruby
 implementations listed below. To see all supported versions, type `rvm
@@ -132,7 +132,7 @@ search the package repository for your Linux distro’s manager.
 #### Mac OS X
 
 Ruby 1.8.7 is fully supported in Mac OS X Lion as well as many popular
-Ruby gems (packages). For details, see the [Ruby wiki at MacOS
+Ruby gems (packages). For details, see the [Ruby wiki at Mac OS
 Forge][11].
 
 Mac OS X Tiger is packaged with version 1.8.2 of Ruby, and Leopard ships
@@ -158,14 +158,14 @@ article][16] can help you.
 
 #### Ruby On Solaris and OpenIndiana
 
-Ruby 1.8.7 are available for Solaris 8 through Solaris 10 on
+Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
 [Sunfreeware][17] and Ruby 1.8.7 is available at [Blastwave][18]. Ruby
 1.9.2p0 is also available at [Sunfreeware][17], but this is outdated.
 Using RVM can get you the latest version of Ruby 1.9.2.
 
 To install Ruby on [OpenIndiana][19], please use the [Image Packaging
 System, or IPS][20] client. This will install the latest Ruby binaries
-and Rubygems directly from the OpenSolaris network repository for Ruby
+and RubyGems directly from the OpenSolaris network repository for Ruby
 1.9. It’s easy:
 
 {% highlight sh %}
@@ -187,7 +187,7 @@ Here’s a list:
 * [JRuby][21] is Ruby atop the JVM (Java Virtual Machine), utilizing the
   JVM’s optimizing JIT compilers, garbage collectors, concurrent
   threads, tool ecosystem, and vast collection of libraries.
-* [Rubinius][22] is ‘Ruby written in Ruby.’ Built on top of LLVM,
+* [Rubinius][22] is ‘Ruby written in Ruby’. Built on top of LLVM,
   Rubinius sports a nifty virtual machine that other languages are being
   built on top of, too.
 * [MacRuby][23] is a Ruby that’s tightly integrated with Apple’s Cocoa

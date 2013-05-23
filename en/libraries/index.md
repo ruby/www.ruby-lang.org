@@ -27,18 +27,18 @@ The main place where libraries are hosted is [**RubyGems.org**][3],
 providing Ruby libs as gems. You may browse the website directly, or use
 the `gem` command.
 
-Using `gem search -r`, you can inspect RubyGems repository. For
+Using `gem search -r`, you can inspect RubyGems' repository. For
 instance, `gem search -r rails` will return a list of Rails-related
 gems. Without the `remote` (`-r`) option, you would perform a local
-search through you installed gems. To install a gem, use `gem install
+search through your installed gems. To install a gem, use `gem install
 [gem]`. Browsing installed gems is done with `gem list`. For more
 information about the `gem` command, see below or head to [RubyGems’
 docs][1].
 
-There are other source of libraries though. [RubyForge][4] used to be a
+There are other sources of libraries though. [RubyForge][4] used to be a
 popular home for Ruby libraries, but last years saw the rise of
-[**Github**][5] as one of the main ruby-related content repository. Most
-often a gem source code will be hosted on Github while being published
+[**GitHub**][5] as one of the main ruby-related content repository. Most
+often a gem source code will be hosted on GitHub while being published
 as a fully-fledged gem to RubyGems.org.
 
 The [Ruby Application Archive][6] (or RAA) is a directory of all manner
@@ -67,7 +67,7 @@ html-sample (1.0, 1.1)
 
 The `--remote` / `-r` flag indicates that we want to inspect the
 official RubyGems.org repository. Without this flag, you would perform a
-local search (among your installed gems).
+local search among your installed gems.
 
 #### Installing a gem
 
