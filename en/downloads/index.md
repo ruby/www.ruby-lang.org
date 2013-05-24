@@ -6,6 +6,7 @@ lang: en
 
 Here you can get the latest Ruby distributions in your favorite flavor.
 The current stable version is {{ site.downloads.stable.version }}.
+Please be sure to read [Ruby’s License]({{ site.license.url }}).
 
 ### Three Ways of Installing Ruby
 
@@ -66,8 +67,7 @@ RVM is only available for Mac OS X, Linux, or any UNIX-like operating
 system. Windows users should check out [pik][5] for a similar project,
 or consider using RubyInstaller, described in the next section.
 
-As of this writing, as long as you have [git][6] installed, you can
-install RVM with:
+As of this writing, you should be able to install RVM with:
 
 {% highlight sh %}
 $ \curl -L https://get.rvm.io | bash -s stable --ruby
@@ -105,19 +105,20 @@ older versions of Ruby in their repositories. If you’d like to use the
 newest Ruby, make sure you use the correct package name, or use RVM
 instead.
 
-#### Linux
+#### Ruby on Linux
 
-Debian GNU/Linux uses the apt package manager system. (So does Ubuntu.)
+Debian GNU/Linux or Ubuntu use the apt package manager system.
 You can use it like this:
 
 {% highlight sh %}
 $ sudo apt-get install ruby1.9.1
 {% endhighlight %}
 
-Yes, this will install Ruby 1.9.2. It has a ‘library compatibility
-version’ of 1.9.1, hence the name.
+Yes, this will install Ruby 1.9.2 or newer. It has a ‘library
+compatibility version’ of 1.9.1, hence the name.
 
-If you install the ‘ruby’ package, you’ll get the older Ruby 1.8.
+If you install the ‘ruby’ package, you might get the older Ruby 1.8,
+depending on the distro.
 
 Arch Linux uses a package manager named pacman. To get Ruby, just do
 this:
@@ -126,10 +127,10 @@ this:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-On other systems, RVM might be the right choice for you, or you can
-search the package repository for your Linux distro’s manager.
+On other systems you can search the package repository for your
+Linux distro’s manager, or RVM might be the right choice for you.
 
-#### Mac OS X
+#### Ruby on Mac OS X
 
 Ruby 1.8.7 is fully supported in Mac OS X Lion as well as many popular
 Ruby gems (packages). For details, see the [Ruby wiki at Mac OS
@@ -161,7 +162,7 @@ article][16] can help you.
 Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
 [Sunfreeware][17] and Ruby 1.8.7 is available at [Blastwave][18].
 Ruby 1.9.2p0 is also available at [Sunfreeware][17], but this is outdated.
-Using RVM can get you the latest version of Ruby 1.9.2.
+Using RVM can get you the latest version of Ruby.
 
 To install Ruby on [OpenIndiana][19], please use the [Image Packaging
 System, or IPS][20] client. This will install the latest Ruby binaries
@@ -172,13 +173,14 @@ Ruby 1.9. It’s easy:
 $ pkg install runtime/ruby-18
 {% endhighlight %}
 
-Like before, RVM is a good way to obtain Ruby 1.9.2, the latest version.
+Like before, RVM is a good way to obtain the latest version of Ruby.
 
 ### Other Implementations of Ruby
 
 Ruby, as a language, has a few different implementations. This guide has
-been discussing the reference implementation, **MRI**, but there are
-also others. They are often useful in certain situations, provide extra
+been discussing the reference implementation, **MRI** (“Matz's Ruby
+Interpreter”) or **CRuby**, but there are also others.
+They are often useful in certain situations, provide extra
 integration to other languages or environments, or have special features
 that MRI doesn’t.
 

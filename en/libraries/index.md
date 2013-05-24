@@ -11,8 +11,8 @@ Most of them are released in the form of a **gem**. [**RubyGems**][1] is
 a Ruby packaging system designed to facilitate the creation, sharing and
 installation of libraries (in some ways, it is a distribution packaging
 system similar to, say, `apt-get`, but targeted at Ruby software).
-Ruby 1.9 comes with RubyGems by default, while previous Ruby versions
-require to [install it by hand][2].
+Since version 1.9 Ruby comes with RubyGems by default, while previous
+Ruby versions require to [install it by hand][2].
 
 Some other libraries are released as archived (.zip or .tar.gz)
 directories of **source code**. Installation processes may vary,
@@ -29,7 +29,7 @@ the `gem` command.
 
 Using `gem search -r`, you can inspect RubyGems' repository. For
 instance, `gem search -r rails` will return a list of Rails-related
-gems. Without the `remote` (`-r`) option, you would perform a local
+gems. With the `--local` (`-l`) option, you would perform a local
 search through your installed gems. To install a gem, use `gem install
 [gem]`. Browsing installed gems is done with `gem list`. For more
 information about the `gem` command, see below or head to [RubyGems’
@@ -54,7 +54,7 @@ packaging system.
 #### Searching among available gems
 
 The **search** command can be used to look for gems, based on a string.
-Gems which names contain the specified string will be listed in return.
+Gems which names start with the specified string will be listed in return.
 For instance, to search for the “html”-related gems:
 
 {% highlight sh %}
@@ -66,8 +66,9 @@ html-sample (1.0, 1.1)
 {% endhighlight %}
 
 The `--remote` / `-r` flag indicates that we want to inspect the
-official RubyGems.org repository. Without this flag, you would perform a
-local search among your installed gems.
+official RubyGems.org repository (default behaviour).
+With the `--local` / `-l` flag you would perform a local search
+among your installed gems.
 
 #### Installing a gem
 
@@ -87,16 +88,16 @@ $ gem install rails --version 3.0
 
 #### Listing all gems
 
-For a complete **list** of all gems available on RubyGems.org:
-
-{% highlight sh %}
-$ gem list -r
-{% endhighlight %}
-
-To list only local gems:
+For a **list** of all locally installed gems:
 
 {% highlight sh %}
 $ gem list
+{% endhighlight %}
+
+To obtain a (very long) list of all gems available on RubyGems.org:
+
+{% highlight sh %}
+$ gem list -r
 {% endhighlight %}
 
 #### Help!
@@ -112,7 +113,7 @@ all `gem`’s commands.
 
 #### Crafting your own gems
 
-[RubyGems.org][8] has several guides about this topic. You may also want
+RubyGems.org has [several guides][8] about this topic. You may also want
 to investigate on [Bundler][9], a generic tool which helps you manage an
 application’s dependencies and may be used along RubyGems.
 
