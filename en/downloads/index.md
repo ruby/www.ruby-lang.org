@@ -58,7 +58,7 @@ respective communities are very helpful, however.
 #### RVM
 
 The most popular tool to install Ruby is **RVM**, for “Ruby Version
-Manager.” Not only does it make installing Ruby incredibly easy, it also
+Manager”. Not only does it make installing Ruby incredibly easy, it also
 allows you to install and manage multiple copies of Ruby on your system,
 as well as multiple alternate implementations of Ruby.
 
@@ -159,14 +159,14 @@ article][16] can help you.
 #### Ruby On Solaris and OpenIndiana
 
 Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
-[Sunfreeware][17] and Ruby 1.8.7 is available at [Blastwave][18]. Ruby
-1.9.2p0 is also available at [Sunfreeware][17], but this is outdated.
+[Sunfreeware][17] and Ruby 1.8.7 is available at [Blastwave][18].
+Ruby 1.9.2p0 is also available at [Sunfreeware][17], but this is outdated.
 Using RVM can get you the latest version of Ruby 1.9.2.
 
 To install Ruby on [OpenIndiana][19], please use the [Image Packaging
 System, or IPS][20] client. This will install the latest Ruby binaries
-and RubyGems directly from the OpenSolaris network repository for Ruby
-1.9. It’s easy:
+and RubyGems directly from the OpenSolaris network repository for
+Ruby 1.9. It’s easy:
 
 {% highlight sh %}
 $ pkg install runtime/ruby-18

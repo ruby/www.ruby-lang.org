@@ -10,9 +10,9 @@ libraries.
 Most of them are released in the form of a **gem**. [**RubyGems**][1] is
 a Ruby packaging system designed to facilitate the creation, sharing and
 installation of libraries (in some ways, it is a distribution packaging
-system similar to, say, `apt-get`, but targeted at Ruby software). Ruby
-1.9 comes with RubyGems by default, while previous Ruby versions require
-to [install it by hand][2].
+system similar to, say, `apt-get`, but targeted at Ruby software).
+Ruby 1.9 comes with RubyGems by default, while previous Ruby versions
+require to [install it by hand][2].
 
 Some other libraries are released as archived (.zip or .tar.gz)
 directories of **source code**. Installation processes may vary,
