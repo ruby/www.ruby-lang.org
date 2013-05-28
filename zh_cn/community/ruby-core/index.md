@@ -19,7 +19,7 @@ The topics related to Ruby development covered here are:
 {: #following-ruby}
 
 Checking out the latest Ruby source code is a matter of logging into the
-Subversion anonymous account. From your commandline:
+Subversion anonymous account. From your command line:
 
 {% highlight sh %}
 $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
@@ -77,7 +77,7 @@ To summarize, the steps for building a patch are:
          $ svn diff > ruby-changes.patch
 
 4.  Email your patch to the [Ruby-Core mailing
-    list](/en/community/mailing-lists/) with a CHANGELOG entry
+    list](/en/community/mailing-lists/) with a ChangeLog entry
     describing the patch.
 5.  If there are no issues raised about the patch, committers will be
     given the approval to apply it.
@@ -117,7 +117,7 @@ following guidelines should be honored when checking into Subversion:
 * K&amp;R function declarations are used throughout Ruby’s source code
   and its packaged extensions.
 * Please, do not use C++-style comments (`//`), Ruby’s maintainers
-  instead prefer the standard C multiline comment. (`/* .. */`)
+  instead prefer the standard C multi-line comment. (`/* .. */`)
 
 
 

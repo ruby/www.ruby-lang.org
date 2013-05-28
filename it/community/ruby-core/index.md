@@ -82,7 +82,7 @@ In sintesi, i passi per costruire un patch sono:
 
 4.  Invia per email la tua patch alla [Ruby-Core mailing
     list](/en/community/mailing-lists/)” con una entry sul
-    CHANGELOG che descrive la patch.
+    ChangeLog che descrive la patch.
 5.  Se non ci sono obiezioni alla patch, i committer daranno
     l’approvazione per applicarla.
 

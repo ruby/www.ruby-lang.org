@@ -71,7 +71,7 @@ Subversion FAQ][1] и [the Subversion book][2]. Друг вариент е кн�
          $ svn diff > ruby-changes.patch
 
 4.  Пратете елетронно писмо до [Ruby-Core mailing
-    list](/en/community/mailing-lists/) с CHANGELOG, описващ
+    list](/en/community/mailing-lists/) с ChangeLog, описващ
     кръпката.
 5.  Ако няма проблеми с кръпката, тя ще бъде предадена за одобрение.
 

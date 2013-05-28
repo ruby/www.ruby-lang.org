@@ -87,7 +87,7 @@ berikut:
 
 4.  Email patch Anda ke [milis
     Ruby-Core](/id/community/mailing-lists/) dengan entri
-    CHANGELOG yang menjelaskan patch.
+    ChangeLog yang menjelaskan patch.
 5.  Jika tidak ada masalah dengan patch, maka para committer akan
     melakukan patch tersebut.
 
