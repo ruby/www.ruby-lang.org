@@ -27,8 +27,8 @@ to start:
   Rubyists. ([Previous Chat Logs][1])
 
 [Ruby Core](ruby-core/)
-: With Ruby 2.0 underway, now is a fantastic time to be following Ruby’s
-  development. If you are interested in helping with Ruby, start here.
+: Now is a fantastic time to follow Ruby’s development.
+  If you are interested in helping with Ruby, start here.
 
 [Weblogs About Ruby](weblogs/)
 : Very little happens in the Ruby community that is not talked about on

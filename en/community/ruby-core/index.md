@@ -4,10 +4,10 @@ title: "Ruby Core"
 lang: en
 ---
 
-Now is a fantastic time to follow Ruby’s development, with Ruby 2.0
-development underway. With the increased attention Ruby has received in
-the past few years, there’s a growing need for good talent to help
-enhance Ruby and document its parts. So, where do you start?
+Now is a fantastic time to follow Ruby’s development. With the increased
+attention Ruby has received in the past few years, there’s a growing need
+for good talent to help enhance Ruby and document its parts.
+So, where do you start?
 
 The topics related to Ruby development covered here are:
 
@@ -19,41 +19,39 @@ The topics related to Ruby development covered here are:
 ### Using Subversion to Track Ruby Development
 {: #following-ruby}
 
-Checking out the latest Ruby source code is a matter of logging into the
-[Subversion][1] anonymous account. From your command line:
+Getting the latest Ruby source code is a matter of an anonymous checkout
+from the [Subversion][1] repository. From your command line:
 
 {% highlight sh %}
 $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
-The `ruby` directory will now contain the latest source code for Ruby
-1.9 (trunk), which is the development version of Ruby. The trunk was
-used to release a stable 1.9.1 version in January 2009. Currently
-patches applied to the trunk are backported to the stable 1\_9\_1 branch
-(see below).
+The `ruby` directory will now contain the latest source code
+for the development version of Ruby (ruby-trunk).
+Currently patches applied to the trunk are backported to the
+stable 2.0.0 and 1.9.3 branches (see below).
 
-If you’d like to follow patching of Ruby 1.9.1, you should use the
-`ruby_1_9_1` branch when checking out:
-
-{% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
-{% endhighlight %}
-
-If you’d like to follow patching of Ruby 1.8, you should use the
-`ruby_1_8_6` or `ruby_1_8_7` branch when checking out (depending on the
-version you’re using):
+If you’d like to follow patching of Ruby 2.0.0, you should use the
+`ruby_2_0_0` branch when checking out:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
 {% endhighlight %}
 
-This will check out the Ruby 1.8.7 development tree into a `ruby_1_8_7`
-directory. Developers working on Ruby 1.8 are expected to migrate their
-changes to Ruby’s trunk, so often the two branches are very similiar,
+If you’d like to follow patching of Ruby 1.9.3, you should use the
+`ruby_1_9_3` branch when checking out:
+
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+{% endhighlight %}
+
+This will check out the Ruby 1.9.3 development tree into a `ruby_1_9_3`
+directory. Developers working on Ruby 1.9.3 are expected to migrate their
+changes to Ruby’s trunk, so often the two branches are very similar,
 with the exception of improvements made by Matz and Nobu to the language
 itself.
 
-If you prefer, you may browse [Ruby’s repository via the web][2].
+If you prefer, you may browse [Ruby’s Subversion repository via the web][2].
 
 For information about Subversion, please see [the Subversion FAQ][3] and
 [the Subversion book][4]. Alternatively, you may find [Pragmatic Version
@@ -69,7 +67,7 @@ and [everybody else][9].
 ### Improving Ruby, Patch by Patch
 {: #patching-ruby}
 
-The core team maintains [a bug tracker][10] for submitting patches and
+The core team maintains an [issue tracker][10] for submitting patches and
 bug reports to Matz and the gang. These reports also get submitted to
 the [Ruby-Core mailing list](/en/community/mailing-lists/) for
 discussion, so you can be sure your request won’t go unnoticed. You can
@@ -81,16 +79,17 @@ from Matz, on how to get your patches considered.
 
 To summarize, the steps for building a patch are:
 
-1.  If you are fixing a bug in Ruby 1.8, check out a copy of Ruby 1.8
-    from Subversion using the `ruby_1_8` branch.
-
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
-
-    If you wish to add a feature to Ruby, check out the trunk of Ruby’s
-    source. Even if you wish to add a feature to Ruby 1.8, it has to be
-    proven in the trunk first.
+1.  Check out a copy of the Ruby source code from Subversion.
+    Usually patches for bugfixes or new features should be submitted
+    for the trunk of Ruby’s source. Even if you wish to add a feature
+    to Ruby 1.9.3, it has to be proven in the trunk first.
 
         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+
+    If you are fixing a bug that is specific to only one maintenance branch,
+    check out a copy of the respective branch, e.g. `ruby_1_9.3`.
+
+        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 
 2.  Add your improvements to the code.
 
@@ -98,7 +97,8 @@ To summarize, the steps for building a patch are:
 
         $ svn diff > ruby-changes.patch
 
-4.  Email your patch to the [Ruby-Core mailing
+4.  Create a ticket in the [issue tracker][10] or
+    email your patch to the [Ruby-Core mailing
     list](/en/community/mailing-lists/) with a ChangeLog entry
     describing the patch.
 
@@ -141,6 +141,8 @@ following guidelines should be honored when checking into Subversion:
   packaged extensions.
 * Please, do not use C++-style comments (`//`), Ruby’s maintainers
   instead prefer the standard C multi-line comment. (`/* .. */`)
+
+See also the information in [Ruby’s issue tracker][10].
 
 
 
