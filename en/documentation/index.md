@@ -110,6 +110,7 @@ Here is a list of popular tools used by Rubyists:
   * [RubyMine][27]
   * [SciTe][28]
   * [NetBeans][36]
+  * [Sublime Text][37]
 
 * On Windows:
   * [Notepad++][29]
@@ -165,3 +166,4 @@ list](/en/community/mailing-lists/) is a great place to start.
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
+[37]: http://www.sublimetext.com/
