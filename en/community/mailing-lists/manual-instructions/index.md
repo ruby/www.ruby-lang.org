@@ -4,8 +4,9 @@ title: "Manual Mailing List Instructions"
 lang: en
 ---
 
-To subscribe to a mailing list, please send a mail with the following
-mail body (not the subject) to the automated “controller” address:
+To subscribe to a mailing list, please send a plain text mail
+with the following mail body (not the subject) to the automated
+“controller” address:
 
     subscribe Your-First-Name Your-Last-Name
 {: .code}
@@ -50,7 +51,9 @@ Ruby-CVS
 ### Unsubscribing
 
 To unsubscribe from a list, send a mail which body is “unsubscribe” to
-the controller address.
+the **controller address**.
+
+Make sure to send a plain text mail, an HTML mail might not work.
 
 ### Getting Help
 
