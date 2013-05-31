@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "Inyección de objetos corruptos con DL y Fiddle en Ruby"
+title: "Iniezione di ogetti corrotti in DL e Fiddle"
 author: "mx"
-translator: "David Padilla"
+translator: "hagarelvikingo"
 date: 2013-05-14 13:00:00 UTC
-lang: es
+lang: it
 ---
 
 Esiste una vulnerabilità in DL e Fiddle in Ruby, in cui è possibile utilizzare
