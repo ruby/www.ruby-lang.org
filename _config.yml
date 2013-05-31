@@ -1523,7 +1523,8 @@ locales:
     it: |
       Questo sito è stato sviluppato con Ruby e <a href="http://www.jekyllrb.com/">Jekyll</a>.
       È curato con dedizione dai membri della comunità di Ruby.
-      Puoi contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      Puoi contribuire su <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      o contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       per domande e commenti riguardanti questo sito.
     ja: |
       このサイトはRubyと<a href="http://www.jekyllrb.com/">Jekyll</a>によって構築されています。
