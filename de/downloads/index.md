@@ -71,8 +71,8 @@ Betriebssysteme zur Verfügung. Windows-Nutzer sollten sich [pik][5]
 für ein ähnliches Projekt anschauen oder den unten beschriebenen
 RubyInstaller verwenden.
 
-Zum Zeitpunkt des Verfassens dieses Textes kann RVM, soweit [Git][6]
-verfügbar ist, wie folgt installiert werden:
+Zum Zeitpunkt des Verfassens dieses Textes kann RVM wie folgt
+installiert werden:
 
 {% highlight sh %}
 $ \curl -L https://get.rvm.io | bash -s stable --ruby
@@ -223,7 +223,6 @@ Spezifikation für die Programmiersprache Ruby“.
 [3]: {{ site.downloads.stable_snapshot.url.gz }}
 [4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
-[6]: http://git-scm.com
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org
 [9]: http://rubyinstaller.org/downloads

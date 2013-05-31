@@ -12,7 +12,7 @@ Die meisten stehen im praktischen **gem**-Format zur Verfügung.
 Verbreitung und Installation von Bibliotheken ermöglicht.
 (Es handelt sich um eine Art von Paketverwaltungssystem ähnlich
 wie zum Beispiel `apt-get`, aber speziell für Ruby.)
-In Ruby 1.9 ist RubyGems standardmäßig enthalten, bei früheren
+Seit Ruby 1.9 ist RubyGems standardmäßig enthalten, bei früheren
 Versionen von Ruby muss RubyGems [von Hand nachinstalliert][2] werden.
 
 Andere Bibliotheken werden als gewöhnliches **Quelltext**-Archiv
@@ -31,20 +31,20 @@ des `gem`-Kommandos gesucht werden.
 
 Mit `gem search -r` kann das RubyGems-Repository durchsucht werden.
 Zum Beispiel liefert `gem search -r rails` eine Liste aller Gems, die
-mit Rails zu tun haben. Ohne die `remote`-Option (`-r`) würden die lokal
+mit Rails zu tun haben. Mit der `--local`-Option (`-l`) würden die lokal
 installierten Gems durchsucht werden. Ein Gem kann mit `gem install [gem]`
 installiert werden. Die lokal installierten Gems können mit `gem list`
 angezeigt werden. Mehr Informationen über den `gem`-Befehl finden sich
 unten oder in der [RubyGems-Dokumentation][1].
 
-Es gibt jedoch auch andere Quellen für Bibliotheken. [**RubyForge**][4]
+Es gibt jedoch auch andere Quellen für Bibliotheken. [RubyForge][4]
 war eine beliebte Anlaufstelle für Ruby-Bibliotheken, aber in den letzten
 Jahren hat sich vor allem [**GitHub**][5] zu einem der wichtigsten
 Repositories für Ruby-Projekte entwickelt. Sehr häufig findet auf GitHub
 die Entwicklung einer Bibliothek statt, während die Veröffentlichung
 als Gem auf RubyGems.org erfolgt.
 
-Das [**Ruby Application Archive**][6] (kurz: RAA) ist ein Verzeichnis
+Das [Ruby Application Archive][6] (kurz: RAA) ist ein Verzeichnis
 von Ruby-Software aller Art, kategorisiert nach jeweiliger Funktion.
 Es wird jedoch nicht mehr so stark genutzt.
 
@@ -57,7 +57,7 @@ findet sich in RubyGems' [ausführlicher Dokumentation][7].
 #### Gems suchen
 
 Der Befehl **search** sucht nach Gems eines bestimmten Namens.
-Um ein Gem zu finden, dessen Name “html” enthält, gibst Du
+Um ein Gem zu finden, dessen Name mit “html” beginnt, gibst Du
 beispielsweise Folgendes ein:
 
 {% highlight sh %}
@@ -69,13 +69,13 @@ html-sample (1.0, 1.1)
 {% endhighlight %}
 
 Der Parameter `--remote` / `-r` bewirkt, dass das offizielle Repository
-bei RubyGems.org durchsucht wird.
-Ohne diesen Parameter wird eine Suche unter den lokal installierten
+bei RubyGems.org durchsucht wird (Standardverhalten).
+Mit dem Parameter `--local` / `-l` wird eine Suche unter den lokal installierten
 Gems durchgeführt.
 
 #### Ein Gem installieren
 
-Sobald Du weißt, welches Gem Du installieren willst (zum Beispiel
+Sobald Du weißt, welches Gem Du **installieren** willst (zum Beispiel
 das beliebte Rails), gib Folgendes ein:
 
 {% highlight sh %}
@@ -91,18 +91,18 @@ $ gem install rails --version 3.0
 
 #### Alle Gems auflisten
 
-Um eine komplette Liste aller Gems auf RubyGems.org zu erhalten,
+Um eine **Liste** aller lokal installierten Gems zu erhalten,
 verwende diesen Befehl:
 
 {% highlight sh %}
-$ gem list -r
+$ gem list
 {% endhighlight %}
 
-Um lediglich die Gems aufzulisten, die lokal installiert sind,
-lass den Parameter weg:
+Um eine komplette (und sehr lange) Liste aller Gems auf RubyGems.org
+zu erhalten, verwende diesen Befehl:
 
 {% highlight sh %}
-$ gem list
+$ gem list -r
 {% endhighlight %}
 
 #### Hilfe!
@@ -118,7 +118,7 @@ aller Kommandos des `gem`-Befehls ausgibt.
 
 #### Eigene Gems erstellen
 
-Auf [RubyGems.org][8] gibt es verschiedene Anleitungen für das Erstellen
+Auf RubyGems.org gibt es [verschiedene Anleitungen][8] für das Erstellen
 eigener Gems.
 Möglicherweise solltest Du Dir auch [Bundler][9] etwas genauer anschauen,
 ein Werkzeug zur Verwaltung der Gem-Abhängigkeiten einer Ruby-Anwendung.
