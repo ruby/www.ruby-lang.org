@@ -1,0 +1,109 @@
+---
+layout: news_post
+title: "Inyección de objetos corruptos con DL y Fiddle en Ruby"
+author: "mx"
+translator: "David Padilla"
+date: 2013-05-14 13:00:00 UTC
+lang: es
+---
+
+Existe una vulnerabilidad en DL y Fiddle en Ruby donde se puede utilizar
+cadenas corruptas en llamadas a systema sin importar el nivel de $SAFE establecido.
+Se le ha asignado el identificador CVE a esta vulnerabilidad CVE-2013-2065.
+
+## Impacto
+
+Funciones nativas expuestas en Ruby con DL o Fiddle no validan los valores
+de los objetos que se les pasan. Esto puede resultar que se acepten objetos corruptos
+como entrada cuando se debería levantar una excepción de clase SecurityError.
+
+Ejemplo de código vulnerable con DL:
+
+{% highlight ruby %}
+def my_function(user_input)
+  handle    = DL.dlopen(nil)
+  sys_cfunc = DL::CFunc.new(handle['system'], DL::TYPE_INT, 'system')
+  sys       = DL::Function.new(sys_cfunc, [DL::TYPE_VOIDP])
+  sys.call user_input
+end
+
+$SAFE = 1
+my_function "uname -rs".taint
+{% endhighlight %}
+
+Ejemplo de código vulnerable con Fiddle:
+
+{% highlight ruby %}
+def my_function(user_input)
+  handle    = DL.dlopen(nil)
+  sys = Fiddle::Function.new(handle['system'],
+                             [Fiddle::TYPE_VOIDP], Fiddle::TYPE_INT)
+  sys.call user_input
+end
+
+$SAFE = 1
+my_function "uname -rs".taint
+{% endhighlight %}
+
+Todos los usuarios utilizando una versión afectada deberían de actualizar
+a la última versión o utilizar una de las soluciones propuestas inmediatamente.
+
+Nota: nada de esto previene utilizar desplazamientos de memoria numéricos como
+valores de apuntador. Los números no son corrompibles asi que si se pasa un
+desplazamiento de memoria numérico este no puede ser validado. Por ejemplo:
+
+{% highlight ruby %}
+def my_function(input)
+  handle    = DL.dlopen(nil)
+  sys = Fiddle::Function.new(handle['system'],
+                             [Fiddle::TYPE_VOIDP], Fiddle::TYPE_INT)
+  sys.call input
+end
+
+$SAFE = 1
+user_input = "uname -rs".taint
+my_function DL::CPtr[user_input].to_i
+{% endhighlight %}
+
+En este caso, lo que se está pasando es la dirección en memoria del objeto la cual
+no puede ser validada por DL / Fiddle. En este caso, se debe de validar el
+objeto antes de pasar la dirección de memoria:
+
+{% highlight ruby %}
+user_input = "uname -rs".taint
+raise if $SAFE >= 1 && user_input.tainted?
+my_function DL::CPtr[user_input].to_i
+{% endhighlight %}
+
+## Soluciones Alternas
+
+Si por alguna razón no puede actualizar la versión de Ruby, se puede utilizar
+este parche como solución alterna:
+
+{% highlight ruby %}
+class Fiddle::Function
+  alias :old_call :call
+  def call(*args)
+    if $SAFE >= 1 && args.any? { |x| x.tainted? }
+      raise SecurityError, "tainted parameter not allowed"
+    end
+    old_call(*args)
+  end
+end
+{% endhighlight %}
+
+## Versiones afectadas
+
+* Todas las versiones de Ruby 1.9 anteriores a p-426
+* Todas las versiones de Ruby 2.0 anteriores a p-195
+* Antes de la revisión 40728
+
+Las versiones de Ruby 1.8 no son afectadas
+
+## Creditos
+
+Gracias a Vin Ondruch por reportar este problema.
+
+## Historial
+
+* Publicado originalente 2013-05-14 13:00:00 (UTC)
