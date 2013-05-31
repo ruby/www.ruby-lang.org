@@ -14,7 +14,7 @@ compilar en algunas plataformas así que por favor utiliza esta versión p429.
 
 Esta versión incluye una corrección de seguridad de las extensiones Ruby DL / Fiddle.
 
-* [Inyección de objetos corruptos con DL y Fiddle en Ruby (CVE-2013-2065)](/es/news/2013/05/14/inyeccion-de-objetos-corruptos-con-dl-y-fiddle-en-ruby/)
+* [Inyección de objetos corruptos con DL y Fiddle en Ruby (CVE-2013-2065)](/es/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
 Y otras correcciones menores.
 

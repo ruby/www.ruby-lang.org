@@ -14,7 +14,7 @@ p429 invece, per favore.
 
 Questa versione include una correzione di una vulnerabilità en estensioni DL e Fiddle.
 
-* [Iniezione di ogetti corrotti in DL e Fiddle  (CVE-2013-2065)](/es/news/2013/05/14/iniezione-di-ogetti-corrotti-in-dl-e-fiddle-cve-2013-2065/)
+* [Iniezione di ogetti corrotti in DL e Fiddle  (CVE-2013-2065)](/it/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
 Altre correzioni minori inclusi anchi.
 
