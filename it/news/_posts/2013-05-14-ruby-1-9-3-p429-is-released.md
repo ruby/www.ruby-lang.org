@@ -8,21 +8,20 @@ lang: it
 ---
 
 È stata rilasciata la versione 1.9.3-p429 di Ruby.
-Versione p426 è stato rilasciato poche ore fa ma ha lottato per la
-compilazione su alcune piattaforme. Si dovrebbe usare questa versione 
-p429 invece, per favore.
+La versione p426 è stata rilasciata poche ore fa, ma aveva dei problemi
+di compilazione su alcune piattaforme. Vi preghiamo quindi di utilizzare questa versione (p429).
 
-Questa versione include una correzione di una vulnerabilità en estensioni DL e Fiddle.
+Questa versione include la correzione di una vulnerabilità nelle estensioni DL e Fiddle.
 
-* [Iniezione di ogetti corrotti in DL e Fiddle  (CVE-2013-2065)](/it/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
+* [Iniezione di oggetti corrotti in DL e Fiddle  (CVE-2013-2065)](/it/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-Altre correzioni minori inclusi anchi.
+Sono incluse anche alcune correzioni minori.
 
-Si veda i [bigglietti](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) e il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) per maggiori dettagli.
+Si veda i [ticket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) e il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) per maggiori dettagli.
 
-## Scarico
+## Download
 
-È possibile scaricare questa versione:
+Puoi scaricare questa versione da:
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.bz2)
 
@@ -42,7 +41,7 @@ Si veda i [bigglietti](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_f
       MD5:    1986f3934e61b999873d21a79d69d88d
       SHA256: 8bd0ecc2dd8eec471aa44f88abdcd82f4b398e9110ca06f76eff066b653b8b90
 
-## Versione Commenti
+## Commento alla versione
 
-Grazie mille a tutti i Collaboratori, le persone che hanno provato e gli utenti
-che hanno segnalato errori. Il vostro sostegno ci ha aiutato a rilasciare questa versione
+Molti collaboratori, tester e utenti che hanno segnalato anomalie mi sono
+stati d'aiuto per effettuare questo rilascio. Grazie per il vostro contributo.
