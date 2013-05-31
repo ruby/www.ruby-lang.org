@@ -17,7 +17,7 @@ Tout comme en Python, en Ruby…
   `irb`) ;
 * la documentation est accessible dans le terminal par la commande `ri`,
   à l’instar de `pydoc` ;
-* il n’ai pas besoin de signe particulier pour marquer la fin des
+* il n’est pas besoin de signe particulier pour marquer la fin des
   lignes, si ce n’est passer à la ligne suivante ;
 * les chaînes peuvent s’étaler sur plusieurs lignes, comme avec le
   système de *triple-quote* de Python ;
