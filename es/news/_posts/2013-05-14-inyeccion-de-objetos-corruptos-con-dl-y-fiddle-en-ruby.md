@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Inyección de objetos corruptos con DL y Fiddle en Ruby"
-author: "mx"
+author: "usa"
 translator: "David Padilla"
 date: 2013-05-14 13:00:00 UTC
 lang: es

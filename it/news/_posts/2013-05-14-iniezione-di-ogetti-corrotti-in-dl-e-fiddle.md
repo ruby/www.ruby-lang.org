@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Iniezione di ogetti corrotti in DL e Fiddle"
-author: "mx"
+author: "usa"
 translator: "hagarelvikingo"
 date: 2013-05-14 13:00:00 UTC
 lang: it
