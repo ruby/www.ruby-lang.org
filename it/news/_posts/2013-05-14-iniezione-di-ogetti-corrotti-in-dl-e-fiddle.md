@@ -102,7 +102,7 @@ Ruby 1.8 versioni non sono soggette alla vulnerabilità
 
 ## Credits
 
-Grazie a Vin Ondruch por aver segnalato questo problema.
+Grazie a Vit Ondruch por aver segnalato questo problema.
 
 ## Cronologia
 

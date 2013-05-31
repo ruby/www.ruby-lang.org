@@ -102,7 +102,7 @@ Las versiones de Ruby 1.8 no son afectadas
 
 ## Creditos
 
-Gracias a Vin Ondruch por reportar este problema.
+Gracias a Vit Ondruch por reportar este problema.
 
 ## Historial
 
