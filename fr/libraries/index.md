@@ -4,121 +4,131 @@ title: "Bibliothèques"
 lang: fr
 ---
 
-Il existe une très large gamme de bibliothèques, bien souvent
-distribuées [sous la forme d’une *gem*][1], sinon en tant qu’archive
-contenant le code source. Cette page décrit comment trouver et installer
-ces bibliothèques.
+Comme la plupart des langages de programmation actuels, Ruby s'appuie
+sur tout un écosystème de librairies (ou bibiothèques logicielles).
 
-### Trouver des bibliothèques
-{: #finding-libraries}
+Ces librairies sont bien souvent disponibles sous la forme d’une *gem*.
+[RubyGems][1] est le « gestionnaire de paquet de Ruby » permettant
+de télécharger et d'installer ces gems. Il facilite également leur
+création et leur partage. Il s'agit donc d'un équivalent à Apt ou
+Homebrew, mais pour Ruby spécifiquement.
 
-[**RubyForge**][2] est un des sites principaux—sinon le site principal.
-Vous pouvez commencer par jeter un œil à la [carte des logiciels][3],
-qui regroupe les bibliothèques par thématiques. Si vous êtes vous-même
-l’auteur d’une bibliothèque et souhaitez la faire héberger sur
-RubyForge, [inscrivez-vous][4] pour avoir un accès Subversion, un espace
-perso et des listes de diffusion.
+Depuis Ruby 1.9, RubyGems est intégré dans Ruby. Pour les versions
+précédéntes, il faudra l'installer séparement.
 
-[***Ruby Application Archive***][5] (RAA) recense tout type de
+Lorsqu'un gem n'est pas disponible, il est toujours possible d'installer
+une librairie à partir de son code source, ce dernier étant généralement
+mis à disposition sous la forme d'une archive (.zip ou .tar.gz). Chaque
+projet pouvant avoir ses spécificités, on consultera sa documentation (en
+général, un fichier `README` ou `INSTALL` décrit la procédure
+d'installation).
+
+### Trouver des librairies
+
+[**RubyGems.org**][3] est le dépôt principal où vous trouverez des
+librairies pour Ruby. Vous pouvez aussi bien consulter le site dans
+votre navigateur qu'utiliser la commande `gem`.
+
+`gem search -r` permet d'effectuer une recherche sur RubyGems. Par
+exemple, `ruby search -r rails` vous listera toutes les gems liées à
+Rails de part leur nom. L'option `--local` (`-l`) fera de même, mais
+pour votre machine. Pour installer une gem, il suffit de faire
+`gem install [gem]`. On peut lister ses gems avec `gem list`. Pour
+plus d'informations sur la commande `gem`, voyez ci-après et/ou la
+[documentation sur le site officiel][1].
+
+D'autres sources ou dépôts existent aux cotés de RubyGems.org.
+[RubyForge][4] était très populaire aux débuts de Ruby. Il est
+aujourd'hui largement supplanté par [**GitHub**][5]. La plupart du
+temps, le code source d'une gem est hébergé sur GitHub tandis que la
+gem associée est publiée sur RubyGems.org.
+
+[Ruby Application Archive][6] (RAA) recense tout type de
 programmes Ruby, organisés selon leur fonction opérationnelle. Très
-riche.
+riche à une époque, mais plus vraiment d'actualité.
 
-### Utiliser RubyGems
-{: #using-rubygems}
+### Utilisation de RubyGems
 
-RubyGems est décrit sur son [site officiel][1] comme le « système de
-paquetage principal pour Ruby. Il offre un format standard de
-distribution des programmes et librairies ruby, les “gems”, et met à
-disposition un outil en ligne de commande simple à utiliser pour
-installer et gérer les gems. » D’une certaine manière, RubyGems est un
-équivalent à, par exemple, apt-get, mais spécifiquement conçu pour les
-programmes ruby. Le dépôt officiel de gems est [RubyGems.org][6].
+On peut rapidement se familiariser avec la commande `gem` et couvrir
+en quelques lignes l'usage quotidien qu'on peut en faire. Une
+[documentation complète][7] est disponible par ailleurs.
 
-Bien que l’installateur Windows de Ruby propose d’emblée RubyGems, ce
-n’est pas forcément le cas pour tous les systèmes d’exploitation. Voyez
-donc pour commencer la section [Installer
-RubyGems](#installing-rubygems) ci-dessous, dans le cas où vous n’auriez
-pas encore installé RubyGems.
+#### Rechercher une gem
 
-#### Rechercher des gems
-
-La commande **search** permet de retrouver des gems selon leurs noms.
-Ainsi, une recherche sur le mot « audio » :
+La commande **search** permet de faire une recherche lexicale sur les
+gems du dépôt (donc, de chercher sur le *nom* des gems, pas leur
+description). Ainsi, une recherche sur le mot « html » :
 
 {% highlight sh %}
-$ gem search html --remote
+$ gem search -r html
 
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-*Le mot-clé `--remote` / `-r` ordonne d’effectuer la recherche directement dans
-le catalogue officiel des gems hébergées sur Gemcutter.*
+L'option `--remote` / `-r` indique à la commande `gem` que nous souhaitons
+inspecter le dépôt « distant » RubyGems.org (il s'agit du comportement par
+défaut, l'option est… optionnelle). L'option `--local` / `-l` permet de
+faire une recherche locale (sur votre machine, parmi les gems déjà
+installés).
 
 #### Installer une gem
 
-Une fois que vous avez choisi une bibliothèque à installer, utilisez la
-commande `install`\:
+Une fois que vous avez choisi une librairie à installer, utilisez la
+commande `gem install`. Par exemple, pour installer Rails :
 
 {% highlight sh %}
-$ gem install html-sample
+$ gem install rails
 {% endhighlight %}
 
-Vous pouvez par ailleurs ordonner l’installation d’une version précise
-avec l’option `--version`\:
+Vous pouvez par ailleurs demander l’installation d’une version précise,
+avec l’option `--version` :
 
 {% highlight sh %}
-$ gem install html-sample --version 1.0
+$ gem install rails --version 3.0
 {% endhighlight %}
 
 #### Lister toutes les gems
 
-Pour récupérer la liste complète des gems disponibles sur Gemcutter :
+Pour récupérer la (très longue) liste complète des gems disponibles :
 
 {% highlight sh %}
-$ gem list --remote
+$ gem list -r
 {% endhighlight %}
 
-Pour afficher uniquement les gems que vous avez installées :
+Pour afficher uniquement les gems que *vous* avez installées :
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-Pour plus d’informations sur l’usage de RubyGems, reportez-vous à la
-[**documentation officielle**][7], qui donne notamment des exemples sur
-l’utilisation de RubyGems dans vos programmes.
+#### Au secours !
 
-### Installer RubyGems
-{: #installing-rubygems}
-
-Pour pouvoir utiliser RubyGems, récupérez la dernière version du
-programme (1.3.7) sur la page [Téléchargement][8] du projet.
-Décompressez l’archive et lancez `setup.rb`. Sur certains systèmes
-d’exploitation, il vous faudra les droits d’administrateur pour procéder
-à l’installation complète.
-
-Ainsi, sous GNU/Linux :
+Une aide succinte est disponible directement en ligne de commande :
 
 {% highlight sh %}
-$ tar xzvf rubygems-1.3.7.tar.gz
-$ cd rubygems-1.3.7
-$ su -
-$ ruby setup.rb
+$ gem help
 {% endhighlight %}
 
-Si vous avez besoin d’informations complémentaires sur l’installation de
-Ruby, voyez le chapitre [Installation][9] du manuel RubyGems.
+Par exemple, `gem help commands` liste et décrit toutes les sous-commandes
+de la commande `gem`.
+
+#### Fabriquer vos propres gems
+
+RubyGems.org propose [plusieurs guides][8] sur ce sujet. Vous serez sans
+doute également intéressé par [Bundler][9], un outil générique visant à
+simplifier la gestion des dépendances et qui s'intègre totalement à
+RubyGems.
 
 
 
 [1]: http://docs.rubygems.org
-[2]: http://rubyforge.org/
-[3]: http://rubyforge.org/softwaremap/trove_list.php
-[4]: http://rubyforge.org/register/
-[5]: http://raa.ruby-lang.org/
-[6]: http://rubygems.org
-[7]: http://rubygems.org/read/chapter/1
-[8]: http://rubyforge.org/frs/?group_id=126
-[9]: http://rubygems.org/read/chapter/3
+[2]: http://rubygems.org/pages/download
+[3]: http://rubygems.org
+[4]: http://rubyforge.org/
+[5]: http://github.com
+[6]: http://raa.ruby-lang.org/
+[7]: http://docs.rubygems.org/
+[8]: http://guides.rubygems.org
+[9]: http://gembundler.com
