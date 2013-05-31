@@ -7,7 +7,7 @@ date: 2013-05-14 13:00:01 UTC
 lang: it
 ---
 
-È stata rilasciata la versione 1.9.3-p429 di Ruby.
+È stata rilasciata la versione 2.0.0-p195 di Ruby.
 
 Questa versione include un fix di sicurezza di Ruby estensioni DL / Fiddle.
 
