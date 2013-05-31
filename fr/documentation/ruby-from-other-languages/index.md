@@ -156,26 +156,27 @@ end
 
 `Constante` vaut 10, mais `Constante()` vaut 11.
 
-### De vrai-faux paramètres mot-clés
+### Paramètres « mot-clés »
 
-Ruby ne possède pas de paramètre mot-clés, comme Python. Cependant, il
-est possible de retrouver cette fonctionnalité avec des symboles et des
-hashs. Ruby on Rails et d’autres applications usent et abusent de ce
-mécanisme. Exemple :
+Depuis Ruby 2.0, à l'instar de Python, il est possible de définir une
+méthode avec des paramètres « mot-clés » :
 
 {% highlight ruby %}
-def param_motcle( params )
-  params
+def deliver(from: 'A', to: nil, via: 'mail')
+  "Sending from #{from} to #{to} via #{via}."
 end
-param_motcle( :param_un => 10, :param_deux => 42 )
-# => {:param_un=>10, :param_deux=>42}
+
+deliver(to: 'B')
+# => "Sending from A to B via mail."
+deliver(via: 'Pony Express', from: 'B', to: 'A')
+# => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
-### Toujours dire la vérité
+### La vérité, toujours la vérité
 
-En Ruby, tout ce qui n’est pas **nil** ou **false** est considéré être
+En Ruby, tout ce qui n’est pas **nil** ou **false** est considéré comme
 vrai (**true**). En C, Python et dans bien d’autres langages, le 0 et
-d’autres valeurs, telles les listes vides, sont considérées fausses.
+d’autres valeurs (telles les listes vides) sont considérées fausses.
 Voyez par exemple le bout de code suivant, écrit en Python :
 
 {% highlight python %}
