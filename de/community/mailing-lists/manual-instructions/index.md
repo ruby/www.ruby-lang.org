@@ -4,8 +4,8 @@ title: "Mailinglisten-Anleitung"
 lang: de
 ---
 
-Um dich bei einer Liste anzumelden, sende eine E-Mail mit dem folgenden
-Inhalt (nicht Betreff) an die Controller-Adresse:
+Um dich bei einer Liste anzumelden, sende eine E-Mail (als reine Text-Mail)
+mit dem folgenden Inhalt (nicht Betreff) an die Controller-Adresse:
 
     subscribe Vorname Nachname
 {: .code}
@@ -50,7 +50,10 @@ Ruby-CVS
 ### Abmelden
 
 Um dich von einer Liste abzumelden, sende eine E-Mail mit
-dem Inhalt “unsubscribe” an die Controller-Adresse.
+dem Inhalt “unsubscribe” an die **Controller-Adresse**.
+
+Du solltest die E-Mail als reine Text-Mail versenden, eine HTML-Mail
+funktioniert möglicherweise nicht.
 
 ### Hilfe anfordern
 
