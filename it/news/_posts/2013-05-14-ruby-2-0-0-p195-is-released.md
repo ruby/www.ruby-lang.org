@@ -9,14 +9,14 @@ lang: it
 
 È stata rilasciata la versione 2.0.0-p195 di Ruby.
 
-Questa versione include un fix di sicurezza di Ruby estensioni DL / Fiddle.
+Questa versione include la correzione di una vulnerabilità nelle estensioni DL e Fiddle.
 
 * [Iniezione oggetti corrotti con DL e Fiddle in Ruby
   (CVE-2013-2065)](/it/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-E molte altre correzioni, miglioramenti e aggiornamenti della documentazione.
+Sono inoltre inclusi molti bugfix, ottimizzazioni e correzioni alla documentazione.
 
-## Scarico
+## Download
 
 Puoi scaricare questa versione da:
 
@@ -41,8 +41,8 @@ Puoi scaricare questa versione da:
 ## Modifiche
 
 Le principali correzioni sono qui di seguito.
-Vedi [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
-e i [biglietti](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
+Vedi il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+e i [ticket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
 per maggiori dettagli.
 
 Grazie mille a tutti i collaboratori.
@@ -56,7 +56,7 @@ Grazie mille a tutti i collaboratori.
       #8005 methods made private/protected after definition become uncallable on prepended class.
       #8025 Module#included_modules include classes when prepended.
 
-### Core - argomenti di parola chiave
+### Core - keyword arguments
 
       #7922 unnamed keyword rest argument cause SyntaxError.
       #7942 support define method only receive keyword arguments without paren.
@@ -64,7 +64,7 @@ Grazie mille a tutti i collaboratori.
       #8236 fix a treatment of rest arguments and keyword arguments through `super'.
       #8260 non-symbol key should not treated as keyword arguments.
 
-### Core - Raffinamenti
+### Core - refinements
 
       #7925 fix a bug of refinements with a method call super in a block.
 
@@ -81,7 +81,7 @@ Grazie mille a tutti i collaboratori.
       #8023 Regexp lookbehind assertion fails with /m mode enabled
       #8001 Regexp \Z matches where it shouldn't
 
-### Core - altri
+### Core - altro
 
       #8063 fix a potential memory violation and avoid abort on the environment _FORTIFY_SOURCE=2 (ex. Ubuntu).
       #8175 ARGF#skip doesn't work as documented.
