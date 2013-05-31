@@ -96,7 +96,7 @@ For coding in Ruby you can use the default editor of your operating
 system. By the way, to be more effective in coding, it is worth to
 choose a source code editor with basic Ruby support (e.g.
 syntax-highlighting, file browsing) or an integrated development
-environment with advanced features (e.g. code completion,refactoring,
+environment with advanced features (e.g. code completion, refactoring,
 testing support).
 
 Here is a list of popular tools used by Rubyists:
