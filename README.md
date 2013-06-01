@@ -58,6 +58,32 @@ bundle exec rake generate
 When you now start a preview with the site already generated
 it will be available instantly.
 
+## Preview on Heroku
+
+* Signup [Heroku](http://www.heroku.com) if you don't have an account yet.
+* Install [Heroku Toolbelt](https://toolbelt.heroku.com).
+* Clone repository.
+
+```
+git clone https://github.com/ruby/www.ruby-lang.org.git
+cd www.ruby-lang.org
+```
+
+* Add Contents into **/_posts dir, and commit.
+* Create preview app on Heroku using custom buildpack.
+
+```
+heroku login
+heroku create --buildpack http://github.com/ayumin/heroku-buildpack-ruby-jekyll.git
+```
+
+* Push your site
+
+```
+git push heroku master
+heroku open
+```
+
 ## More Information
 
 For more information see the [wiki](https://github.com/ruby/www.ruby-lang.org/wiki).
