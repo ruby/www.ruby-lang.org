@@ -6,7 +6,9 @@ GEM
     colorator (0.1)
     commander (4.1.3)
       highline (~> 1.6.11)
+    daemons (1.1.9)
     directory_watcher (1.4.1)
+    eventmachine (1.0.3)
     fast-stemmer (1.0.2)
     highline (1.6.19)
     jekyll (1.0.2)
@@ -32,11 +34,19 @@ GEM
     pygments.rb (0.5.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rack (1.5.2)
+    rack-jekyll (0.4.1)
+      jekyll (>= 0.12.0, < 2.0)
+      rack (~> 1.5.0)
     rake (10.0.4)
     safe_yaml (0.7.1)
     spidr (0.4.1)
       nokogiri (~> 1.3)
     syntax (1.0.0)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -45,5 +55,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 1.0.2)
   mina
+  rack-jekyll
   rake (~> 10.0)
   spidr (~> 0.4)
+  thin
