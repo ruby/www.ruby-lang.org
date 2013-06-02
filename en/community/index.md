@@ -44,7 +44,7 @@ to start:
 [The Ruby Mentor Project][2]
 : This new resource aims to pair people new to Ruby with more
   experienced guides. The goal is to ease the process of learning Ruby
-  by having someone you can ask questions of. This is intended to be a
+  by having someone you can ask questions from. This is intended to be a
   little less intimidating than a mailing list, though Ruby Talk does
   welcome questions from beginners.
 

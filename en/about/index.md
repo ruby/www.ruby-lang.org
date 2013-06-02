@@ -45,7 +45,7 @@ ranks Ruby as #9 among programming languages worldwide. Much of the
 growth is attributed to the popularity of software written in Ruby,
 particularly the Ruby on Rails web framework<sup>[2](#fn2)</sup>.
 
-Ruby is also [totally free]({{ site.license.url }}). Not only free of charge, but
+Ruby is also [completely free]({{ site.license.url }}). Not only free of charge, but
 also free to use, copy, modify, and distribute.
 
 ### Seeing Everything as an Object

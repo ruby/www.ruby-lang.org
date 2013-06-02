@@ -5,7 +5,7 @@ lang: en
 ---
 
 In the programming community, user groups form support networks for
-people interested in certain topics. They are a great place to increase
+people interested in certain topics. They're a great place to increase
 your skills and network with other programmers. User groups are informal
 and their structure varies from group to group. Anyone can form their
 own group and set their own rules and schedule.
@@ -14,11 +14,10 @@ own group and set their own rules and schedule.
 
 If you want to get together with other Ruby programmers, a local user
 group may be just the thing. Ruby user groups are entirely devoted to
-Ruby. They typically feature monthly meetings, a mailing list, a Web
-site, and if you are lucky, frequent hacking sessions (meetings devoted
+Ruby. They typically feature monthly meetings, a mailing list, a website, and if you're lucky, frequent hacking sessions (meetings devoted
 to giving people a chance to write Ruby code).
 
-Information about Ruby user groups can be found on various Web sites:
+Information about Ruby user groups can be found on various websites:
 
 [rubyusersgroups.org][1]
 : A public listing of Ruby groups throughout the world. Also allows
