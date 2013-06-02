@@ -50,7 +50,10 @@ Ruby-CVS
 ### Unsubscribing
 
 To unsubscribe from a list, send a mail which body is “unsubscribe” to
-the controller address.
+the controller address:
+
+    unsubscribe
+{: .code}
 
 ### Getting Help
 

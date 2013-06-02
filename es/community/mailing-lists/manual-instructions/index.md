@@ -51,7 +51,10 @@ Ruby-CVS
 ### Desuscripción
 
 Para desuscribirse de una lista, envía un correo cuyo cuerpo sea
-“unsubscribe” a la dirección de administración automatizada.
+“unsubscribe” a la dirección de administración automatizada:
+
+    unsubscribe
+{: .code}
 
 ### Obtener ayuda
 

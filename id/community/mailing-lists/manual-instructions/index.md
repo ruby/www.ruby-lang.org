@@ -72,7 +72,10 @@ Ruby-CVS
 ### Berhenti Berlangganan
 
 Untuk berhenti berlangganan dari sebuah milis, kirimkan e-mail dengan
-isi pesan “unsubscribe” ke alamat *controller* milis yang Anda inginkan.
+isi pesan “unsubscribe” ke alamat *controller* milis yang Anda inginkan:
+
+    unsubscribe
+{: .code}
 
 ### Mencari Bantuan
 

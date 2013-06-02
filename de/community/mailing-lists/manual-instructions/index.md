@@ -50,7 +50,10 @@ Ruby-CVS
 ### Abmelden
 
 Um dich von einer Liste abzumelden, sende eine E-Mail mit
-dem Inhalt “unsubscribe” an die **Controller-Adresse**.
+dem Inhalt “unsubscribe” an die **Controller-Adresse**:
+
+    unsubscribe
+{: .code}
 
 Du solltest die E-Mail als reine Text-Mail versenden, eine HTML-Mail
 funktioniert möglicherweise nicht.

@@ -51,7 +51,10 @@ Ruby-CVS
 ### Unsubscribing
 
 To unsubscribe from a list, send a mail which body is “unsubscribe” to
-the **controller address**.
+the **controller address**:
+
+    unsubscribe
+{: .code}
 
 Make sure to send a plain text mail, an HTML mail might not work.
 

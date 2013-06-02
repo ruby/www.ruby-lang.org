@@ -51,7 +51,10 @@ Ruby-CVS
 ### Cancelar Subscrição
 
 Para cancelar a subscrição de uma lista, envie um email ao endereço de
-controlo cujo corpo da mensagem deverá conter somente “unsubscribe”.
+controlo cujo corpo da mensagem deverá conter somente “unsubscribe”:
+
+    unsubscribe
+{: .code}
 
 ### Obter Ajuda
 

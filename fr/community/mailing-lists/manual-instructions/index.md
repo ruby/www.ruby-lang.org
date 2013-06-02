@@ -51,7 +51,10 @@ Ruby-CVS
 ### Se désinscrire
 
 Il suffit d’envoyer un e-mail au robot concerné avec le terme «
-unsubscribe » dans le corps du message.
+unsubscribe » dans le corps du message:
+
+    unsubscribe
+{: .code}
 
 ### Obtenir de l’aide sur la fonctionnement des listes
 
