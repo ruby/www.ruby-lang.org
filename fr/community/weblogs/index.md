@@ -16,9 +16,6 @@ quelques sites agrègent un certain nombre d’entre elles.
 50 des *tags* les plus populaires de del.icio.us. Voyez ainsi le *tag*
 [ruby][1] et le [*popularity chart*][2] associé.
 
-[**Ruby sur Technorati**][3]\: donne accès aux derniers billets publiés
-sur les blogs suivis par le robot Technorati.
-
 **Planètes**\: un certains nombre de planètes (agrégateurs thématiques en ligne) dédiés à Ruby ont vu le jour. Quelques exemples notables :
 
 * [Ruby Corner][4]
