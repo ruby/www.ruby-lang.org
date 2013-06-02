@@ -58,8 +58,8 @@ respective communities are very helpful, however.
 
 #### RVM
 
-The most popular tool to install Ruby is **RVM**(Ruby Version
-Manager). Not only does it make installing Ruby incredibly easy, it also
+The most popular tool to install Ruby is **RVM** (“Ruby Version Manager”).
+Not only does it make installing Ruby incredibly easy, it also
 allows you to install and manage multiple copies of Ruby on your system,
 as well as multiple alternate implementations of Ruby.
 
