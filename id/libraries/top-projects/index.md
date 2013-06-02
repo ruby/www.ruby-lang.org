@@ -4,12 +4,8 @@ title: "Proyek Ruby Terpopuler"
 lang: id
 ---
 
-*Berikut ini adalah daftar 30 proyek Ruby yang paling banyak didownload
-(menurut statistik [RubyForge][1]).*
+_Outdated content removed._
 
-[Lihat daftar lengkap 100 download terpopuler di Rubyforge…][2]
+Please submit your suggestions for this page on [GitHub][1].
 
-
-
-[1]: http://rubyforge.org
-[2]: http://rubyforge.org/top/toplist.php?type=downloads
+[1]: https://github.com/ruby/www.ruby-lang.org/

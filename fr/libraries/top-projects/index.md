@@ -4,11 +4,8 @@ title: "Projets populaires"
 lang: fr
 ---
 
-*Voici les trente projets les plus téléchargés sur [RubyForge][1].*
+_Outdated content removed._
 
-[Voir le TOP 100 complet sur RubyForge…][2]
+Please submit your suggestions for this page on [GitHub][1].
 
-
-
-[1]: http://rubyforge.org
-[2]: http://rubyforge.org/top/toplist.php?type=downloads
+[1]: https://github.com/ruby/www.ruby-lang.org/

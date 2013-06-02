@@ -4,13 +4,8 @@ title: "Progetti Importanti in Ruby"
 lang: it
 ---
 
-*Questa è una lista dei 30 progetti in Ruby più scaricati (secondo
-[RubyForge][1]).*
+_Outdated content removed._
 
-[Visualizza la lista completa dei 100 progetti più scaricati da
-RubyForge…][2]
+Please submit your suggestions for this page on [GitHub][1].
 
-
-
-[1]: http://rubyforge.org
-[2]: http://rubyforge.org/top/toplist.php?type=downloads
+[1]: https://github.com/ruby/www.ruby-lang.org/

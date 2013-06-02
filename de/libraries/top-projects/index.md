@@ -4,11 +4,8 @@ title: "Top Ruby Projekte"
 lang: de
 ---
 
-*Die 30 beliebtesten Ruby Projekte (basierend auf [RubyForge][1]).*
+_Outdated content removed._
 
-[Die beliebtesten 100 Projekte auf RubyForge…][2]
+Please submit your suggestions for this page on [GitHub][1].
 
-
-
-[1]: http://rubyforge.org
-[2]: http://rubyforge.org/top/toplist.php?type=downloads
+[1]: https://github.com/ruby/www.ruby-lang.org/

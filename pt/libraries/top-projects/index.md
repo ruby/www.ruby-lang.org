@@ -4,12 +4,8 @@ title: "Top de Projectos Ruby"
 lang: pt
 ---
 
-*Esta é uma lista dos 30 projectos Ruby mais descarregados (de acordo
-com [RubyForge][1]).*
+_Outdated content removed._
 
-[Ver a lista dos 100 projectos com mais downloads…][2]
+Please submit your suggestions for this page on [GitHub][1].
 
-
-
-[1]: http://rubyforge.org "RubyForge"
-[2]: http://rubyforge.org/top/toplist.php?type=downloads "Ver a lista dos 100 projectos com mais downloads"
+[1]: https://github.com/ruby/www.ruby-lang.org/
