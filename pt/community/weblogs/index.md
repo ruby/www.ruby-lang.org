@@ -17,16 +17,6 @@ ligações. Veja o etiqueta [ruby][1] para descobrir ligações obscuras e o
 seu [gráfico de popularidade][2] para entradas recentes na comunidade
 Ruby.
 
-![gráfico mensal de actividade para 'ruby' entre os blogs no
-Technorati.](http://technorati.com/chartimg/%28ruby%29?totalHits=391174&amp;size=s&amp;days=30
-"gráfico mensal de actividade para 'ruby' entre os blogs no
-Technorati.")
-{: style="float:right"}
-
-[**Ruby no Technorati**][3]\: A procura de *“Ruby”* no Technorati
-disponíbiliza as entradas mais recentes nos blogs cobertos no seu
-índice.
-
 **Agregadores**\: [Ruby Corner][4], [Planet Ruby][5], e [Planet Ruby on
 Rails][6] estão entre os sites que agregam grupos de blogs sobre Ruby
 para leitura cómoda.
