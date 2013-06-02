@@ -15,10 +15,6 @@ prime 50 tag di del.icio.us, un popolare sito di link sharing. Osserva
 la tag [ruby][1] per nuovi link che appaiono e la associata [popularity
 chart][2] per i recenti arrivati nella comunità Ruby.
 
-[**Ruby on Technorati**][3]\: la ricerca di *“Ruby”* sul motore di
-Technorati *“Ruby”* elenca i post più recenti fra i blog seguiti dal suo
-indice.
-
 **Planets**\: Alcuni *planet* (aggregatori di feed specializzati) sono oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti:
 
 * [Ruby Corner][4]

@@ -15,9 +15,6 @@ the top fifty tags on del.icio.us, a popular link sharing site. Watch
 the [ruby][1] tag for incoming obscure links and its [popularity
 chart][2] for recent upcomers in the Ruby community.
 
-[**Ruby on Technorati**][3]\: Technorati’s search for *“Ruby”* yields
-the most recent posts across the blogs covered in its index.
-
 **Planets**\: some planets (online specialized feeds agregators) have been running for years now. A few of them providing convenient content:
 
 * [Ruby Corner][4]

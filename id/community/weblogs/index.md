@@ -17,15 +17,6 @@ sharing* yang cukup terkenal. Perhatikan tag [ruby][1] untuk *link-link*
 baru dan [daftar link Ruby terpopuler][2] untuk link-link Ruby terbaru
 yang sedang ngetop.
 
-![Grafik aktivitas blog 'ruby' di Technorati selama 30 hari
-terakhir.](http://technorati.com/chartimg/%28ruby%29?totalHits=391174&amp;size=s&amp;days=30
-"Grafik aktivitas blog 'ruby' di Technorati selama 30 hari terakhir.")
-{: style="float:right"}
-
-[**Ruby di Technorati**][3]\: Pencarian Technorati tentang *“Ruby”*
-menampilkan blog-blog Ruby terbaru yang di-*index* oleh Technorati,
-sebuah situs komunitas ternama bagi para blogger.
-
 **Aggregator**\: [Planet Ruby Indonesia][4], [Ruby Corner][5], [Planet
 Ruby][6], [PlanetRubyOnRails.com][7], dan [Planet Ruby on Rails.org][8]
 adalah situs-situs yang berisi konten gabungan dari beberapa situs Ruby

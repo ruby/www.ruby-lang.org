@@ -17,16 +17,6 @@ popularnym serwisie dzielenia się linkami. Obserwuj tag [ruby][1] i
 [najpopularniejszą listę][2] aby zauważyć nowości w społeczności Rubiego
 na całym świecie.
 
-![30-dniowy wykres pokazujący aktywność słowa 'ruby' wśród blogów na
-Technorati.](http://technorati.com/chartimg/%28ruby%29?totalHits=391174&amp;size=s&amp;days=30
-"30-dniowy wykres pokazujący aktywność słowa 'ruby' wśród blogów na
-Technorati.")
-{: style="float:right"}
-
-[**Ruby on Technorati**][3]\: Wyniki wyszukiwania słowa *“Ruby”*
-pokazują najnowsze posty z wszystkich blogów znajdujących się w
-indeksie.
-
 **Agregatory**\: [Ruby Corner][4], [Planet Ruby][5], oraz [Planet Ruby
 on Rails][6] to serwisy gromadzące grupy blogów na temat Rubiego w celu
 łatwiejszego czytania.
