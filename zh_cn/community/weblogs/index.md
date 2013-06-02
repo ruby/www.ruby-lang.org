@@ -15,14 +15,6 @@ the top fifty tags on del.icio.us, a popular link sharing site. Watch
 the [ruby][1] tag for incoming obscure links and its [popularity
 chart][2] for recent upcomers in the Ruby community.
 
-![30-day graph of activity for 'ruby' among blogs on
-Technorati.](http://technorati.com/chartimg/%28ruby%29?totalHits=391174&amp;size=s&amp;days=30
-"30-day graph of activity for 'ruby' among blogs on Technorati.")
-{: style="float:right"}
-
-[**Ruby on Technorati**][3]\: Technorati’s search for *“Ruby”* yields
-the most recent posts across the blogs covered in its index.
-
 **Aggregators**\: [Ruby Corner][4], [Planet Ruby][5], and [Planet Ruby
 on Rails][6] are among sites which gather groups of Ruby blogs together
 for convenient reading.
