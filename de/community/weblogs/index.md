@@ -17,9 +17,6 @@ Bookmarks. Wer auf der Suche nach neuen, interessanten Links ist, sollte
 sich den [ruby][1]-Tag anschauen. Für aktuelle Trends kann die
 [Popularitätsskala][2] im Allgemeinen von Interesse sein.
 
-[**Ruby bei Technorati**][3]\: Die Suchseite von Technorati hält einen
-Index mit Beiträgen zu Ruby in Blogs bereit.
-
 **Aggregatoren**\: [Ruby Corner][4], [Planet Ruby][5], [Planet Ruby on
 Rails][6] und andere Seiten sammeln Ruby-Beiträge aus Blogs und
 bereiten sie zur besseren Lesbarkeit auf.
