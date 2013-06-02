@@ -61,7 +61,7 @@ Posted by Shugo Maeda on 26 May 2006
 
 [1]: http://ruby-no-kai.org/
 [2]: http://www.ruby.or.jp/
-[3]: http://www.rubybizcommons.jp/
+[3]: http://facebook.com/rubybizcommons
 [4]: http://www.rubyusergroups.org/
 [5]: http://rubykaigi.org
 [6]: http://www.rubyconf.org/
