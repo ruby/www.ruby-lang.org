@@ -12,14 +12,6 @@ lang: bg
 таговете на del.icio.us, популярен сайт за споделяне на връзки. Следете
 [ruby][1] тага.
 
-![30-дневна графика за активността на 'ruby' в блоговете на
-Technorati.](http://technorati.com/chartimg/%28ruby%29?totalHits=391174&amp;size=s&amp;days=30
-"30-дневна графика за активността на 'ruby' в блоговете на Technorati.")
-{: style="float:right"}
-
-[**Ruby в Technorati**][2]\: Търсенето с ключовеата дума *“ruby”*
-показва последните постове в блоговете в индекса на Technorati.
-
 **Хранилки**\: [Ruby Corner][3], [Planet Ruby][4], [Planet RubyOnRails
 .org][5], и [PlanetRubyOnRails .com][6] са сайтове, които събират на
 едно място статии от различни източници ( като блогове ) за улеснено
