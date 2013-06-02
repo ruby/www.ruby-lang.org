@@ -17,9 +17,9 @@ section below, but here’s an overview:
 * **Compiling from Source** is the standard way that software has been
   delivered for many, many years. This will be most familiar to the
   largest number of software developers.
-* There are a few **third party tools** to install Ruby. These are often
+* There are a few **third-party tools** to install Ruby. These are often
   simpler for total newbies or the most advanced of users.
-* Finally, A few **package management systems** support Ruby. This will
+* Finally, a few **package management systems** support Ruby. This will
   be most familiar to people who use one operating system for
   everything, and like to stick to those individual standards.
 
