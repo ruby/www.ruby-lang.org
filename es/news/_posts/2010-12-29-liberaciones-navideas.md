@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "﻿﻿Liberaciones Navideñas"
+title: "Liberaciones Navideñas"
 author: "Manuel Ramos Caro"
 lang: es
 ---
@@ -12,7 +12,7 @@ parches y nuevas versiones.
 #### Ruby 1.8.7-p330
 
 Para iniciar este presente invernal esta el anuncio del ultimo parche
-para Ruby 1.8.7 el p330 realizado por ﻿Urabe Shyouhei la mañana del día
+para Ruby 1.8.7 el p330 realizado por Urabe Shyouhei la mañana del día
 de navidad.
 
 ### Descargas
@@ -49,7 +49,7 @@ de navidad.
 
 #### Ruby 1.9.2-p136
 
-Para continuar la fiesta, a ultima hora esa misma tarde, ﻿﻿Yuki (Yugui)
+Para continuar la fiesta, a ultima hora esa misma tarde, Yuki (Yugui)
 Sonoda anuncio la nueva versión de Ruby 1.9.2 la p136 que según nos
 indica corrige muchos fallos encontrados en la primera versión.
 
@@ -87,7 +87,7 @@ indica corrige muchos fallos encontrados en la primera versión.
 
 #### RubyInstaller para Windows
 
-Como apoteosis final y contentando a los más comodones ﻿Luis Lavena, un
+Como apoteosis final y contentando a los más comodones Luis Lavena, un
 par de días después, nos trajo las nuevas versiones de la \"Forma más
 fácil de instalar Ruby en Windows\". Con objeto de cubrir las ultimas
 ediciones de Ruby en este instalador.
