@@ -9,8 +9,10 @@ kramdown:
 
 exclude:
   - config
+  - config.ru
   - Gemfile
   - Gemfile.lock
+  - Procfile
   - Rakefile
   - README.md
   - redirect.conf_
