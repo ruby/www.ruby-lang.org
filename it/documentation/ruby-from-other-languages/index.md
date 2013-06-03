@@ -146,20 +146,20 @@ end
 
 In questo modo, `Costante` è 10, ma `Costante()` è 11.
 
-### Finte parole chiave
+### Parametri nominali
 
-Ruby non ha delle parole chiave come parametri come Python, tuttavia,
-questa funzionalità può essere emulata utilizzando simboli e hash. Qesta
-pratica è molto utilizzata in Ruby on Rails.
-
-Esempio:
+Come in Python, dalla versione 2.0 di Ruby è possibile definire metodi con
+paramtri nominali:
 
 {% highlight ruby %}
-def qualche_parola_chiave( parametri )
-  params
+def consegna(da: 'A', a: nil, via: 'mail')
+  "Invio da #{da} a #{a} via #{via}."
 end
-qualche_parola_chiave( :parametro_uno => 10, :parametro_due => 42 )
-# => {:parametro_uno=>10, :parametro_due=>42}
+
+consegna(a: 'B')
+# => "Invio da A a B via mail."
+consegna(via: 'Pony Express', da: 'B', a: 'A')
+# => "Invio da B a A via Pony Express."
 {% endhighlight %}
 
 ### Verità universale
