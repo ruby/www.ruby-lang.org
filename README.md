@@ -60,6 +60,9 @@ it will be available instantly.
 
 ## Preview on Heroku
 
+In case a build is not possible on your local machine
+you can also create a preview on Heroku.
+
 * Signup [Heroku](http://www.heroku.com) if you don't have an account yet.
 * Install [Heroku Toolbelt](https://toolbelt.heroku.com).
 * Clone repository.
@@ -69,7 +72,8 @@ git clone https://github.com/ruby/www.ruby-lang.org.git
 cd www.ruby-lang.org
 ```
 
-* Add Contents into **/_posts dir, and commit.
+* Create a feature branch.
+* Make changes or add content and commit.
 * Create preview app on Heroku using custom buildpack.
 
 ```
@@ -78,6 +82,13 @@ heroku create --buildpack http://github.com/ayumin/heroku-buildpack-ruby-jekyll.
 ```
 
 * Push your site
+
+```
+git push heroku feature_branch:master
+heroku open
+```
+
+To create a preview of the master branch:
 
 ```
 git push heroku master
