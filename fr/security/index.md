@@ -4,7 +4,7 @@ title: "Sécurité"
 lang: fr
 ---
 
-Cette page rescence les informations relatives à la sécurité et aux
+Cette page recence les informations relatives à la sécurité et aux
 alertes de vulnérabilité.
 
 ## Signaler une vulnérabilité
