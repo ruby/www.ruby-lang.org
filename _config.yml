@@ -1489,7 +1489,124 @@ locales:
           url: /zh_cn/feeds/news.rss
 
   subscription_form:
+    bg:
+      list: Mailing List
+      first_name: First Name
+      last_name: Last Name
+      email: Email Address
+      action: Action
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Submit Form
+    de:
+      list: Mailingliste
+      first_name: Vorname
+      last_name: Nachname
+      email: E-Mail
+      action: Vorgang
+      subscribe: Anmelden
+      unsubscribe: Abmelden
+      submit: Absenden
     en:
+      list: Mailing List
+      first_name: First Name
+      last_name: Last Name
+      email: Email Address
+      action: Action
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Submit Form
+    es:
+      list: Lista de correo
+      first_name: Nombre
+      last_name: Apellidos
+      email: Correo electrónico
+      action: Acción
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Enviar
+    fr:
+      list: Liste de diffusion
+      first_name: Prénom
+      last_name: Nom
+      email: e-mail
+      action: Action
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Valider
+    id:
+      list: Nama Milis
+      first_name: Nama Depan
+      last_name: Nama Belakang
+      email: Alamat E-mail
+      action: Tindakan
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Kirim
+    it:
+      list: Lista di discussione
+      first_name: Nome
+      last_name: Cognome
+      email: Indirizzo e-mail
+      action: Azione
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Invia
+#   ja:
+#     list: Mailing List
+#     first_name: First Name
+#     last_name: Last Name
+#     email: Email Address
+#     action: Action
+#     subscribe: Subscribe
+#     unsubscribe: Unsubscribe
+#     submit: Submit Form
+#   ko:
+#     list: Mailing List
+#     first_name: First Name
+#     last_name: Last Name
+#     email: Email Address
+#     action: Action
+#     subscribe: Subscribe
+#     unsubscribe: Unsubscribe
+#     submit: Submit Form
+    pl:
+      list: Mailing List
+      first_name: First Name
+      last_name: Last Name
+      email: Email Address
+      action: Action
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Submit Form
+    pt:
+      list: Lista de Correio
+      first_name: Primeiro Nome
+      last_name: Último Nome
+      email: Endereço Electrónico
+      action: Acção
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Enviar Formulário
+#   tr:
+#     list: Mailing List
+#     first_name: First Name
+#     last_name: Last Name
+#     email: Email Address
+#     action: Action
+#     subscribe: Subscribe
+#     unsubscribe: Unsubscribe
+#     submit: Submit Form
+    zh_cn:
+      list: 邮件列表
+      first_name: 姓
+      last_name: 名
+      email: 电子邮件
+      action: 操作
+      subscribe: 订阅
+      unsubscribe: 退订
+      submit: 提交表格
+    zh_tw:
       list: Mailing List
       first_name: First Name
       last_name: Last Name
