@@ -1488,6 +1488,17 @@ locales:
           text: 最新消息(RSS)
           url: /zh_cn/feeds/news.rss
 
+  subscription_form:
+    en:
+      list: Mailing List
+      first_name: First Name
+      last_name: Last Name
+      email: Email Address
+      action: Action
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Submit Form
+
   credits:
     bg: |
       Този сайт е разработен на Ruby и използва <a href="http://www.jekyllrb.com/">Jekyll</a>.
