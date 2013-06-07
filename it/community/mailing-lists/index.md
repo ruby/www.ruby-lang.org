@@ -26,20 +26,9 @@ Ruby-Doc
 Ruby-CVS
 : Questa lista annuncia tutti i commit al repository CVS di Ruby.
 
-<form action="/it/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
 ## Iscriviti o annulla la tua iscrizione
 
-| Lista di discussione | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
-| Nome | <input name="first_name" value="" /> |
-| Cognome | <input name="last_name" value="" /> |
-| Indirizzo E-mail | <input name="email" value="" /> |
-| Azione | <select name="action"><option value="subscribe">Subscribe</option><option value="unsubscribe">Unsubscribe</option></select> |
-{: .fieldset cellspacing="0" cellpadding="0" border="0"}
-
-<div class="buttons">
-<input class="button" type="submit" value="Invia" />
-</div>
-</form>
+{% include subscription-form.html %}
 
 In caso di mancata ricezione della conferma email usando questo form,
 prova a iscriverti seguendo la [procedura

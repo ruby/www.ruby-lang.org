@@ -29,20 +29,9 @@ Ruby-Doc
 Ruby-CVS
 : Cette liste recense de façon automatique les *commits* du CVS Ruby.
 
-<form action="/fr/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
 ## S’inscrire ou résilier son inscription
 
-| Liste de diffusion | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
-| Prénom | <input name="first_name" value="" /> |
-| Nom | <input name="last_name" value="" /> |
-| e-mail | <input name="email" value="" /> |
-| Action | <select name="action"><option value="subscribe">Subscribe</option><option value="unsubscribe">Unsubscribe</option></select> |
-{: .fieldset cellspacing="0" cellpadding="0" border="0"}
-
-<div class="buttons">
-<input class="button" type="submit" value="Valider" />
-</div>
-</form>
+{% include subscription-form.html %}
 
 Si vous ne recevez pas d’e-mail de confirmation en validant le
 formulaire, essayez la [méthode manuelle](manual-instructions/).

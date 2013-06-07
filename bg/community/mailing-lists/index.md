@@ -4,10 +4,7 @@ title: "Пощенски списъци"
 lang: bg
 ---
 
-<div>
-**undefined tag `subscribe’**
-</div>
+{% include subscription-form.html %}
 
 Ако имате проблем с потвърждаването на заявката, можете да използвате
 [ръчно записване](manual-instructions/).
-

@@ -39,20 +39,9 @@ Ruby &lt;&lt; portuguese.
   </form>
   </table>
 
-<form action="/pt/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
 ## Subscrever ou Remover
 
-| Lista de Correio | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
-| Primeiro Nome | <input name="first_name" value="" /> |
-| Último Nome | <input name="last_name" value="" /> |
-| Endereço Electrónico | <input name="email" value="" /> |
-| Acção | <select name="action"><option value="subscribe">Subscribe</option><option value="unsubscribe">Unsubscribe</option></select> |
-{: .fieldset cellspacing="0" cellpadding="0" border="0"}
-
-<div class="buttons">
-<input class="button" type="submit" value="Enviar Formulário" />
-</div>
-</form>
+{% include subscription-form.html %}
 
 Se falhar a recepção do email utilizando o formulário, tente subscrever
 [manualmente](manual-instructions/ "subscrição manual numa

@@ -36,22 +36,9 @@ Ruby-CVS
 : Milis ini melaporkan setiap *commit* yang terjadi pada *repository*
   Subversion (dulunya CVS) proyek Ruby.
 
-<form action="/id/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
 ## Mulai atau Berhenti Berlangganan
 
-| Nama Milis | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
-| Nama Depan | <input name="first_name" value="" /> |
-| Nama Belakang | <input name="last_name" value="" /> |
-| Alamat E-mail | <input name="email" value="" /> |
-| Tindakan | <select name="action"><option value="subscribe">Subscribe</option><option value="unsubscribe">Unsubscribe</option></select> |
-{: .fieldset cellspacing="0" cellpadding="0" border="0"}
-
-<div class="buttons">
-<input class="button" type="submit" value="Kirim" />
-</div>
-</form>
-
-
+{% include subscription-form.html %}
 
 Apabila Anda tidak menerima e-mail konfirmasi, Anda bisa mencoba
 berlangganan menggunakan [cara

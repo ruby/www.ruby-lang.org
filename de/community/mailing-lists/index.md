@@ -28,20 +28,9 @@ Ruby-CVS
 : Sämtliche Commits in das Ruby-Repository werden an diese Liste
   gesendet.
 
-<form action="/de/community/mailing-lists/" id="subscriptions-form" method="post" markdown="1">
-## Subscribe or Unsubscribe
+## An- oder Abmelden
 
-| Mailingliste | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
-| Vorname | <input name="first_name" value="" /> |
-| Nachname | <input name="last_name" value="" /> |
-| E-Mail | <input name="email" value="" /> |
-| Vorgang | <select name="action"><option value="subscribe">Anmelden</option><option value="unsubscribe">Abmelden</option></select> |
-{: .fieldset cellspacing="0" cellpadding="0" border="0"}
-
-<div class="buttons">
-<input class="button" type="submit" value="Absenden" />
-</div>
-</form>
+{% include subscription-form.html %}
 
 Sofern die Anmeldung über das Webformular nicht klappt, kannst du dich
 auch [manuell anmelden](manual-instructions/).
