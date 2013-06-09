@@ -30,7 +30,8 @@ lang: zh_cn
 : 最有影响的 Ruby 教材，第一版是免费的 [Pragmatic Programmers’ book][6] 。
 
 [Why’s (Poignant) Guide to Ruby][7]
-: [Why the Lucky Stiff][2] 负责更新，内容有烤肉和狐狸，这部书正逐渐成为经典。
+: 这是一本与众不同但有十分有趣的入门教程，用故事、玩笑和卡通带领你入门。
+  该教程是*why_the_luck_stiff*的大作，对ruby初学者来说，该书始终是一个经典。
 
 [Ruby User’s Guide][8]
 : 从 Yukihiro Matsumoto (Ruby 的发明者) 编写的日文版翻译过来，Goto Kentaro 和 Mark
