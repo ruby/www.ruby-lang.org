@@ -4,7 +4,7 @@ title: "Ruby 2.0.0-p195 Diluncurkan"
 author: "nagachika"
 translator: "catcyborg"
 date: 2013-05-14 13:00:01 UTC
-lang: en
+lang: id
 ---
 
 Ruby 2.0.0-p195 diluncurkan. Ini patchlevel pertama dari versi 2.0.0.
@@ -12,7 +12,7 @@ Ruby 2.0.0-p195 diluncurkan. Ini patchlevel pertama dari versi 2.0.0.
 Rilis ini berisi perbaikan pada security dari extension Ruby DL / Fiddle.
 
 * [Taint Object mem-bypass DL dan Fiddle pada Ruby
-  (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
+  (CVE-2013-2065)](/id/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
 Ada juga berbagai bug, optimisasi, dan dokumentasi yang diperbaiki.
 
@@ -39,8 +39,8 @@ Ada juga berbagai bug, optimisasi, dan dokumentasi yang diperbaiki.
 ## Perubahan
 
 Berikut ini beberapa perbaikan besar.
-Lihat [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
-atau [Ticket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
+Lihat [changelog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+atau [tiket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
 untuk lebih detilnya.
 
 Terima kasih banyak kepada semua commiter dan kontributor.
