@@ -8,7 +8,7 @@ lang: id
 ---
 
 Sekarang Ruby 1.9.3-p429 diluncurkan.
-Kami telah merilis p426 beberapa jam sebelumnya, tetap versi itu memiliki
+Kami telah merilis p426 beberapa jam sebelumnya, tetapi versi itu memiliki
 masalah build pada beberapa platform. Harap gunakan p429.
 
 Rilis ini berisi perbaikan pada security dari extension Ruby DL / Fiddle yang dibundel.
