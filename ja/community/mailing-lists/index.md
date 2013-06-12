@@ -10,6 +10,7 @@ lang: ja
 MLに参加する場合はruby-list-ctl@ruby-lang.org)宛に、*本文に*
 
     subscribe YourFirstName YourFamilyName
+{: .code}
 
 と書いて送って下さい。
 YourFirstNameの部分はあなたの名前で、YourFamilyNameの部分はあなたの姓で、それぞれローマ字表記したもの(半角のアルファベット)で置き換えてください。
@@ -19,10 +20,12 @@ Subject(件名)は、空のままでかまいません。
 購読をやめたい場合は、先ほどと同じく(ML名)-ctl@ruby-lang.org宛に、本文に
 
     unsubscribe
+{: .code}
 
 と書いて送ってください。その他のコマンドの使い方を知りたい場合も、同様に、(ML名)-ctl@ruby-lang.org宛に、本文に
 
     help
+{: .code}
 
 と書いて送ってください。
 
