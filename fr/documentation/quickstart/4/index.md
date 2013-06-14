@@ -20,12 +20,12 @@ header: |
 Première nouveauté... la première ligne du bout de code ci-dessous. Elle
 débute par le caractère # (dièse ou *sharp*). En Ruby, toute ligne
 commençant par ce signe est un commentaire, qui sera totalement ignorée
-par l’interprétateur (IRB compris). Cependant, dans votre fichier,
+par l’interpréteur (IRB compris). Cependant, dans votre fichier,
 sachez que la toute première ligne (`#!/usr/bin/env ruby`) est
 l’inévitable exception à la règle que je viens d’énoncer : son rôle à
 elle est d’indiquer, sous un système d’exploitation Unix ou apparenté,
 la bonne façon de traiter le contenu du fichier. En l’occurence, elle
-signale qu’il s’agit d’un programme à manipuler avec l’interprétateur
+signale qu’il s’agit d’un programme à manipuler avec l’interpréteur
 Ruby, dont elle indique la localisation.
 
 La méthode `say_hi` est devenue un tout petit peu plus complexe entre

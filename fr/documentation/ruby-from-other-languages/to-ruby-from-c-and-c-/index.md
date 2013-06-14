@@ -10,7 +10,7 @@ seront grandes. Une des raisons à cela est que Ruby privilégie
 l’exécution avant toute chose. En fait, Ruby est peut-être le langage le
 plus éloigné de la vision « aucun mécanisme caché » qui prévaut en C—le
 but de Ruby est plutôt de faciliter le travail de l’humain en laissant
-le les mécanismes internes de Ruby gérer l’essentiel du travail pendant
+les mécanismes internes de Ruby gérer l’essentiel du travail pendant
 l’exécution. À moins que (ou jusqu’à ce que) vous ne repassiez vraiment
 en revue votre code pour optimisation, vous n’aurez pas vraiment à faire
 attention à la bonne santé du compilateur Ruby.
@@ -26,11 +26,11 @@ l’exécution. Par exemple, il n’est pas besoin de déterminer à l’avance
 quels seront les modules nécessaires (lien, chargement et utilisation),
 ni l’ordre général des méthodes dans le temps, etc.
 
-Il est heureux que le C et Ruby soient très liés. Ruby supporte ce qu’on
+Il est heureux que le C et Ruby soient très liés. Ruby gère ce qu’on
 appelera usuellement des « modules d’extensions », qui sont en fait des
 modules écrits en C et utilisables au sein des programmes Ruby, où ils
 se comporteront vraiment comme n’importe quel bout de code écrit en
-Ruby—y compris pour l’extérieur. Cette option est assez pratique pour
+Ruby… y compris pour l’extérieur. Cette option est assez pratique pour
 mettre l’accent sur quelques parties où les performances seraient
 critiques et où l’accès au bas niveau est requis.
 
@@ -88,11 +88,12 @@ Contrairement au C, avec Ruby…
   ;
 * jusqu’à Ruby 1.8, le code est interprété durant l’exécution, et non
   compilé par une machine virtuelle, ou transformé en bytecode (note :
-  Ruby 2.0 proposera avec un tel mécanisme) ;
+  certaines implémentations de Ruby, dont JRuby et Ruby 2.0, proposent
+  un tel mécanisme) ;
 * toutes les variables vivent leur vie dans le tas. Pas besoin de les
   libérer (*free*) manuellement : le *ramasse-miettes* se charge de tout
   ;
-* les paramètres des méthodes sont passés par références, jamais par
+* les paramètres des méthodes sont passés par référence, jamais par
   valeur ;
 * on écrira `require 'foo'` au lieu de `#include <foo>` ou `#include
   "foo"` ;
@@ -128,7 +129,7 @@ Contrairement au C, avec Ruby…
 
 Contrairement au C++, en Ruby…
 
-* il n’y a pas de références explicite. C’est-à-dire qu’en Ruby, toute
+* il n’y a pas de références explicites. C’est-à-dire qu’en Ruby, toute
   variable est simplement un nom automatiquement déréférencé pour un
   objet quelconque ;
 * les objets sont fortement mais aussi *dynamiquement* typés. Lors de
@@ -137,9 +138,9 @@ Contrairement au C++, en Ruby…
   typage est adapté à la volée ;
 * le constructeur est `initialize` plutôt que le nom de la classe ;
 * toutes les méthodes sont toujours virtuelles ;
-* les variables (statiques) de classes commencent toujours par `@@`
+* les variables (statiques) de classe commencent toujours par `@@`
   (exemple : `@@total_final`) ;
-* vous n’accédez pas directement aux variables de membres—l’accès à ce
+* vous n’accédez pas directement aux variables de membre : l’accès à ce
   que Ruby appelle des attributs se fait toujours par l’intermédiaire
   des méthodes ;
 * `self` plutôt que `this` ;
@@ -147,19 +148,19 @@ Contrairement au C++, en Ruby…
   réellement partie du nom ;
 * pas d’héritage multiple, mais le puissant mécanisme des *mixins*
   (héritage des méthodes d’un module) ;
-* quelques conventions de style/nommage imposées (les noms de classes
-  débutant par une majuscule, de même que les constantes, les variables
+* quelques conventions de style et nommage sont imposées (les noms de classes
+  débutent par une majuscule, de même que les constantes, les variables
   par une minuscule, etc.) ;
 * les parenthèses pour les appels de méthode sont bien souvent
   optionnelles ;
 * possibilité de ré-ouvrir une classe durant l’exécution et d’y faire
   des modifications, ajouter des méthodes, etc. ;
 * pas besoin des *templates* à la C++, puisque vous pouvez assigner tout
-  type d’objet à une variable donné, la gestion des types étant du
+  type d’objet à une variable donnée, la gestion des types étant du
   domaine de l’exécution. Pas de *cast* non plus ;
-* l’itération est réalisé quelque peu différemment : en Ruby, il n’est
+* l’itération est réalisée quelque peu différemment : en Ruby, il n’est
   pas nécessaire d’utiliser un objet séparé comme itérateur (du genre
-  `vector<T>::const_iterator iter`), car les objets peuvent mixer le
+  `vector<T>::const_iterator iter`), car les objets peuvent inclure le
   module `Enumerator` et proposer la méthode `each` ;
 * seulement deux types de conteneur : `Array` et `Hash` ;
 * pas de conversions entre types. En fait, ce n’est pas nécessaire dans
@@ -168,4 +169,3 @@ Contrairement au C++, en Ruby…
   séparation entre *green threads* (implémentés uniquement au sein de
   l’interprétateur) et *native threads* ;
 * une bibliothèque de tests unitaires est fournie.
-

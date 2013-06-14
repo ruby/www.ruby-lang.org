@@ -23,7 +23,7 @@ Tout comme en Perl, en Ruby…
 * la syntaxe pour borner chaînes et regex est similaire (du genre
   `%q{hop (single-quote)}`, ou `%Q{hop (double-quote)}`, et `%w{une
   phrase à part entière}`. Vous `%Q|pouvez|` `%Q(utiliser)`
-  `%Q^d'autres^` sugnes de borne, si vous le voulez) ;
+  `%Q^d'autres^` signes de début et fin, si vous le voulez) ;
 * interpolation de variable dans les chaînes entre guillemets doubles :
   `"comme #{ceci}..."`. `#{}` peut contenir n’importe quel genre et
   longueur de code Ruby ;
@@ -38,14 +38,14 @@ Contrairement à Perl, en Ruby…
 * une variable n’est pas la même chose que l’objet auquel elle se réfère
   : c’est toujours en Ruby une référence (et seulement cela) à un objet
   ;
-* bien que `$` et <tt>`</tt> soient parfois utilisés comme premier
+* bien que `$` et `\`` soient parfois utilisés comme premier
   caractère de variables, ils indiquent non pas son type, mais sa portée
-  (`$` pour les globales, <tt>`</tt> pour les instances d’objet, et
-  <tt>@@</tt> pour les attributs de classes) ;
+  (`$` pour les globales, `\`` pour les instances d’objet, et
+  `@@` pour les attributs de classes) ;
 * les positions de tableaux sont entre crochets, et non entre
   parenthèses ;
 * la création d’une liste à partir de plusieurs ne les regroupe pas en
-  une grosse liste : il vous est retourné un tableau de tableau ;
+  une grosse liste : il vous est retourné un tableau de tableaux ;
 * `def` au lieu `sub` ;
 * pas besoin de point-virgule à la fin de chaque ligne. En règle
   générale, les définitions de méthodes, classes, les blocs sont

@@ -87,7 +87,7 @@ usuels s’appliquent en fait à travers tout Ruby. Par ailleurs, la
 syntaxe est triviale, se rapprochant d’une phrase minimaliste en
 anglais.
 
-### Un soucis de flexibilité
+### Un souci de flexibilité
 
 Ruby a pour réputation d’être un langage très flexible, autorisant
 notamment son utilisateur à en modifier les entrailles durant
