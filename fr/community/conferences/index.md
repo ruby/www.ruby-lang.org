@@ -4,10 +4,10 @@ title: "Conférences"
 lang: fr
 ---
 
-Des programmeurs du monde entier, chaque année plus nombreux, se
+Des développeurs du monde entier, chaque année plus nombreux, se
 rencontrent dans des conférences diverses—l’occasion pour eux de
 partager leurs vues sur le travail en cours et le futur du langage ; un
-bon moment pour accueillir le nouveaux, également.
+bon moment pour accueillir les nouveaux, également.
 
 ### Les principales conférences
 
@@ -35,6 +35,18 @@ bon moment pour accueillir le nouveaux, également.
   Australie, elle a gagné une aura particulière et chaque année, on
   dénombre plusieurs interventions à propos de Ruby.
 
+### Les conférences françaises
+
+[RuLu][13]
+: Ruby Lugdunum, la conférence française à Lyon, en juin.
+
+[La Conf][14]
+: La Conf, conférence haut de gamme à Paris, en mai.
+
+[DotRB][15]
+: DotRB, partie Ruby du cycle de conférences DotJS, DotScale... à Paris en Octobre.
+
+
 ### Les conférences régionales
 
 [Ruby Central][2] maintient un [*Regional Conference Grant Program*][6]
@@ -57,7 +69,6 @@ Central et [Skills Matter][12], organisée en 2007 par Ruby Central et
 O’Reilly) et enfin *Canada on Rails*.
 
 
-
 [1]: http://www.rubyconf.org/
 [2]: http://www.rubycentral.org
 [3]: http://rubykaigi.org/
@@ -70,3 +81,6 @@ O’Reilly) et enfin *Canada on Rails*.
 [10]: http://www.railsconf.org
 [11]: http://europe.railsconf.org
 [12]: http://www.skillsmatter.com
+[13]: http://rulu.eu
+[14]: http:/la-conf.org
+[15]: http://www.dotrb.eu

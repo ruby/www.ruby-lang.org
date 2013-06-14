@@ -5,16 +5,18 @@ lang: fr
 ---
 
 Comme la plupart des langages de programmation actuels, Ruby s'appuie
-sur tout un écosystème de librairies (ou bibiothèques logicielles).
+sur tout un écosystème de bibliothèques logicielles (ou "librairies",
+de l'anglais "library" : bibliothèque).
 
-Ces librairies sont bien souvent disponibles sous la forme d’une *gem*.
-[RubyGems][1] est le « gestionnaire de paquet de Ruby » permettant
+Ces bibliothèques sont bien souvent disponibles sous la forme d’une *gem*.
+[RubyGems][1] est le « gestionnaire de paquets de Ruby » permettant
 de télécharger et d'installer ces gems. Il facilite également leur
 création et leur partage. Il s'agit donc d'un équivalent à Apt ou
-Homebrew, mais pour Ruby spécifiquement.
+Homebrew (gestionnaires de paquets Debian ou Mac respectivement),
+mais pour Ruby spécifiquement.
 
 Depuis Ruby 1.9, RubyGems est intégré dans Ruby. Pour les versions
-précédéntes, il faudra l'installer séparement.
+précédentes, il faudra l'installer séparement.
 
 Lorsqu'un gem n'est pas disponible, il est toujours possible d'installer
 une librairie à partir de son code source, ce dernier étant généralement
@@ -23,19 +25,19 @@ projet pouvant avoir ses spécificités, on consultera sa documentation (en
 général, un fichier `README` ou `INSTALL` décrit la procédure
 d'installation).
 
-### Trouver des librairies
+### Trouver des bibliothèques
 
 [**RubyGems.org**][3] est le dépôt principal où vous trouverez des
-librairies pour Ruby. Vous pouvez aussi bien consulter le site dans
+bibliothèques pour Ruby. Vous pouvez aussi bien consulter le site dans
 votre navigateur qu'utiliser la commande `gem`.
 
 `gem search -r` permet d'effectuer une recherche sur RubyGems. Par
 exemple, `ruby search -r rails` vous listera toutes les gems liées à
-Rails de part leur nom. L'option `--local` (`-l`) fera de même, mais
-pour votre machine. Pour installer une gem, il suffit de faire
-`gem install [gem]`. On peut lister ses gems avec `gem list`. Pour
-plus d'informations sur la commande `gem`, voyez ci-après et/ou la
-[documentation sur le site officiel][1].
+Rails de par leur nom. L'option `--local` (`-l`) fera de même, en ne
+listant que les gems disponibles sur votre machine. Pour installer une
+gem, il suffit de faire `gem install [gem]`. On peut lister ses gems
+avec `gem list`. Pour plus d'informations sur la commande `gem`,
+voyez ci-après et/ou la [documentation sur le site officiel][1].
 
 D'autres sources ou dépôts existent aux cotés de RubyGems.org.
 [RubyForge][4] était très populaire aux débuts de Ruby. Il est
@@ -43,7 +45,7 @@ aujourd'hui largement supplanté par [**GitHub**][5]. La plupart du
 temps, le code source d'une gem est hébergé sur GitHub tandis que la
 gem associée est publiée sur RubyGems.org.
 
-[Ruby Application Archive][6] (RAA) recense tout type de
+[Ruby Application Archive][6] (RAA) recense tous types de
 programmes Ruby, organisés selon leur fonction opérationnelle. Très
 riche à une époque, mais plus vraiment d'actualité.
 
@@ -76,14 +78,14 @@ installés).
 #### Installer une gem
 
 Une fois que vous avez choisi une librairie à installer, utilisez la
-commande `gem install`. Par exemple, pour installer Rails :
+commande `gem install`. Par exemple, pour installer Rails :
 
 {% highlight sh %}
 $ gem install rails
 {% endhighlight %}
 
 Vous pouvez par ailleurs demander l’installation d’une version précise,
-avec l’option `--version` :
+avec l’option `--version` :
 
 {% highlight sh %}
 $ gem install rails --version 3.0
@@ -91,13 +93,13 @@ $ gem install rails --version 3.0
 
 #### Lister toutes les gems
 
-Pour récupérer la (très longue) liste complète des gems disponibles :
+Pour récupérer la (très longue) liste complète des gems disponibles :
 
 {% highlight sh %}
 $ gem list -r
 {% endhighlight %}
 
-Pour afficher uniquement les gems que *vous* avez installées :
+Pour afficher uniquement les gems que *vous* avez installées :
 
 {% highlight sh %}
 $ gem list
@@ -105,7 +107,7 @@ $ gem list
 
 #### Au secours !
 
-Une aide succinte est disponible directement en ligne de commande :
+Une aide succinte est disponible directement en ligne de commande :
 
 {% highlight sh %}
 $ gem help

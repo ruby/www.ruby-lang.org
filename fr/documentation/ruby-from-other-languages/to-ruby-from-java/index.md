@@ -5,10 +5,9 @@ lang: fr
 ---
 
 Java est un langage mature. Testé et éprouvé. Et rapide, avec ça (malgré
-les racontards). D’un autre coté, il est assez verbeux. Passer Java à
+les racontars). D’un autre coté, il est assez verbeux. Passer Java à
 Ruby, c’est vraiment voir *fondre* sa quantité de code. Ruby peut
-également permettre au javaiste la mise en place plus rapide de
-prototypes.
+également permettre au développeur Java une mise en place de prototypes plus rapide.
 
 ### Similarités
 
@@ -24,22 +23,22 @@ Tout comme en Java, en Ruby…
 
 Contrairement à Java, en Ruby…
 
-* il n’ai pas besoin de compiler son code, simplement de l’exécuter
+* il n’y a pas besoin de compiler son code, simplement de l’exécuter
   directement ;
 * des *toolkits* graphiques différents sont disponibles. Voir par
-  exemple [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], ou la bilbiothèque
-  Tk fournit d’office.
+  exemple [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], ou la bibliothèque
+  Tk fournie d’office.
 * utilisation du mot-clé `end` pour clôturer la définition des classes,
   par exemple, en lieu et place des accolades englobantes ;
 * `require` au lieu du mot-clé `import` ;
-* toutes les variables de membres sont privées ; l’accès à ces «
+* toutes les variables de membre sont privées ; l’accès à ces «
   attributs » se fait *via* des méthodes ;
 * les parenthèses dans les appels de méthodes sont bien souvent
   optionnelles ;
-* **tout** est un objet, y compris les nombres comme 2 et 3,14159 ;
+* **tout** est un objet, y compris les nombres comme 2 et 3.14159 ;
 * pas de vérification de typage statique ;
 * les noms de variables ne sont que des étiquettes sans type ;
-* pas de déclarations des types. Il suffit d’assigner un nom à une
+* pas de déclarations de type. Il suffit d’assigner un nom à une
   nouvelle variable lorsque le besoin s’en fait sentir (par exemple, `a
   = [1,2,3]` plutôt que `int[] a = {1,2,3};`) ;
 * pas de *cast*. Appelez simplement les méthodes. Vos tests unitaires

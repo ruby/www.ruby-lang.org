@@ -4,8 +4,8 @@ title: "De PHP à Ruby"
 lang: fr
 ---
 
-PHP est très répandu pour les applications web, mais si vous avez
-découvert Ruby on Rails ou souhaiter aborder un langage plus
+PHP est très répandu pour les applications Web, mais si vous avez
+découvert Ruby on Rails ou souhaitez aborder un langage plus
 généraliste, Ruby vaut certainement le coup d’œil.
 
 ### Similarités
@@ -17,13 +17,13 @@ Tout comme en PHP, en Ruby…
   `protected`, `private`, etc.) ;
 * certaines variables débutant par `$` (mais pas toutes : seulement les
   globales) ;
-* `eval` est toujours de la partie ;
+* `eval` est disponible (il est recommandé d'y apporter la même attention vis-à-vis des performances et de la sécurité) ;
 * interpolation au sein des chaînes de caractères, de la forme ”#\{foo}
   is a #\{bar}” au lieu de ”$foo is a $bar”. Comme en PHP, cela ne
   fonctionne que pour les chaînes entre guillemets doubles ;
-* heredocs existe aussi ;
+* les heredocs (échappement d'un bloc de texte) sont aussi disponibles ;
 * des exceptions pour gérer les erreurs, comme en PHP 5 ;
-* une bibliothèque standard relativement dense ;
+* une bibliothèque standard relativement fournie ;
 * des tableaux et des hashs identiques sur le fond, la forme étant
   respectivement `{...}` au lieu de `array()` ;
 * `true` et `false` identiques, avec simplement `null` écrit `nil` ;
@@ -46,7 +46,7 @@ Contrairement à PHP, avec Ruby…
 * les variables sont des références aux objets (leurs noms), pas des
   objets ;
 * pas de classes abstraites (`abstract`) ni d’interfaces ;
-* les tableaux et les hashs ne sont pas interchangeables ;
+* les tableaux et dictionnaires (hashs) ne sont pas interchangeables ;
 * seuls `false` et `nil` s’évaluent à faux : `0`, `array()`, `"..."`
   valent tous vrai dans les tests conditionnels ;
 * à peu près tout est un appel de méthode, d’une manière ou d’une autre

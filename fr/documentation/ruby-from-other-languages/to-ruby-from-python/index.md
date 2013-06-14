@@ -13,14 +13,13 @@ n’est pas trop éloigné.
 
 Tout comme en Python, en Ruby…
 
-* il existe un shell interactif (*Interactive Ruby*, avec la commande
-  `irb`) ;
+* il existe une console interactive ou 'shell' (commande `irb` pour *Interactive Ruby*) ;
 * la documentation est accessible dans le terminal par la commande `ri`,
   à l’instar de `pydoc` ;
-* il n’est pas besoin de signe particulier pour marquer la fin des
+* il n’y a pas besoin de signe particulier pour marquer la fin des
   lignes, si ce n’est passer à la ligne suivante ;
 * les chaînes peuvent s’étaler sur plusieurs lignes, comme avec le
-  système de *triple-quote* de Python ;
+  système de *triple-quotes* de Python ;
 * on trouve des crochets pour les listes, des accolades pour les
   dictionnaires (que Ruby designe comme des hashs) ;
 * le comportement des tableaux est le même (l’addition donne un nouveau
@@ -52,7 +51,7 @@ Contrairement à Python, en Ruby…
   string"` de Python ;
 * il n’y a aucune distinction entre des classes *old style* et *new
   style*, il n’en existe qu’un seul type ;
-* l’accès aux attributs de classes se réalise toujours par des méthodes,
+* l’accès aux attributs de classe se réalise toujours par des méthodes,
   jamais directement ;
 * les parenthèses dans les appels de méthodes sont bien souvent
   optionnelles ;
