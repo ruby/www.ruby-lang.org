@@ -12,7 +12,7 @@ N’oubliez pas de consulter la [licence Ruby]({{ site.license.url }}).
 
 Vous pouvez installer Ruby de différentes manières. Selon leurs
 préférences personnelles, certaines personnes choisiront une des
-solutions plutôt qu'une autre. Un rapide résume pour y voir clair :
+solutions plutôt qu'une autre. Un rapide résumé pour y voir clair :
 
 * **Compiler Ruby à partir des sources** : sans doute la méthode la
   plus classique, et qui fonctionne toujours aussi bien pour avoir
@@ -143,7 +143,7 @@ Mac OS X Tiger contient la version 1.8.2 de Ruby, tandis que Leopard
 propose la version 1.8.6.
 
 Il existe dans tous les cas plusieurs méthodes pour obtenir la dernière
-version
+version.
 
 Le plus simple est sans doute d'utiliser [Homebrew][12] :
 
@@ -158,7 +158,7 @@ type RVM simplifie considérablement les choses. La commande `rvm notes`
 vous donnera des instructions supplémentaires pour votre plateforme.
 
 Pour un meilleur aperçu sur l’installation de Ruby (et Rails), les
-excellents articles (en anglais) de Dan Benjamin [pour Tiger][13],
+excellents articles (en anglais) de Dan Benjamin pour [Tiger][13],
 [Leopard][14], [Snow Leopard][15] et [Lion][16] peuvent vous être utiles.
 
 ### Ruby sous Solaris et OpenIndiana
