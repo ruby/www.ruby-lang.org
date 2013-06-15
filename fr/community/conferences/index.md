@@ -82,5 +82,5 @@ O’Reilly) et enfin *Canada on Rails*.
 [11]: http://europe.railsconf.org
 [12]: http://www.skillsmatter.com
 [13]: http://rulu.eu
-[14]: http:/la-conf.org
+[14]: http://la-conf.org
 [15]: http://www.dotrb.eu
