@@ -60,11 +60,9 @@ Unlike Perl, in Ruby,...
 * when tested for truth, only `false` and `nil` evaluate to a false
   value. Everything else is true (including `0`, `0.0`, and `"0"`).
 * there’s no [PerlMonks][2]. Though the ruby-talk mailing list is a very
-  helpful place. And we’ve also got a [wiki][3] and a [faq][4].
+  helpful place.
 
 
 
 [1]: http://docs.rubygems.org/
 [2]: http://www.perlmonks.org/
-[3]: http://wiki.rubygarden.org/Ruby
-[4]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index

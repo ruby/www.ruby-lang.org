@@ -119,7 +119,7 @@ Tidak seperti Perl, di Ruby…
   `true` (termasuk `0`, `0.0` dan `"0"`).
 * Jika Anda menyukai [PerlMonks][6], [milis id-ruby dan
   ruby-talk](/id/community/mailing-lists/) adalah tempat yang sangat
-  berguna. Kita juga mempunyai [wiki][7] dan [FAQ][8].
+  berguna.
 
 
 
@@ -129,5 +129,3 @@ Tidak seperti Perl, di Ruby…
 [4]: http://www.99-bottles-of-beer.net/language-ruby-670.html
 [5]: http://docs.rubygems.org/
 [6]: http://www.perlmonks.org/
-[7]: http://wiki.rubygarden.org/Ruby
-[8]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index

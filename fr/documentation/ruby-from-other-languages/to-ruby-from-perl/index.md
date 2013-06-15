@@ -61,11 +61,9 @@ Contrairement à Perl, en Ruby…
 * seuls `false` et `nil` rendent faux dans les tests de vérité ; tout le
   reste est intrinsèquement vrai, y compris `0`, `0.0`, `"0"`, etc ;
 * pas de [PerlMonks][2]... mais la liste de diffusion ruby-talk est très
-  pratique aussi. De même que le [wiki][3] et la [FAQ][4].
+  pratique aussi.
 
 
 
 [1]: http://docs.rubygems.org
 [2]: http://www.perlmonks.org/
-[3]: http://wiki.rubygarden.org/Ruby
-[4]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index

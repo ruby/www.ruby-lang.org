@@ -70,11 +70,9 @@ Ao contrario do Perl, no Ruby…
   valor falso. Tudo o resto é verdadeiro (incluindo `0`, `0.0`, and
   `"0"`).
 * Não há um [PerlMonks][2]. Embora a mailing list do ruby-talk seja um
-  sitio muito amigável. E temos também o [wiki][3] e a [faq][4].
+  sitio muito amigável.
 
 
 
 [1]: http://docs.rubygems.org/
 [2]: http://www.perlmonks.org/
-[3]: http://wiki.rubygarden.org/Ruby
-[4]: http://www.rubygarden.org/faq/dispatch.cgi?controller=main&amp;action=index
