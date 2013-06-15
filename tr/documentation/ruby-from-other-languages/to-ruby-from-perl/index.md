@@ -36,10 +36,10 @@ Ruby’de Perl’den farklı olarak,...
 * Perl’deki gibi içeriğe bağlı kurallar yoktur.
 * Bir değişken gösterdiği nesne ile aynı şey değildir. Sadece nesneye
   referans verir.
-* `$` ve <tt>@</tt> karakterleri bazen değişken isminin ilk harfi olarak
+* `$` ve `@` karakterleri bazen değişken isminin ilk harfi olarak
   kullanılabilir. Ama bunlar tipi değil bakış açısını belirtir. (global
-  değişkenler `$` ile başlar, nesne oluşum değişkenleri <tt>`</tt> ile
-  başlar ve nesne özellikleri <tt>`@</tt> ile başlar).
+  değişkenler `$` ile başlar, nesne oluşum değişkenleri `@` ile
+  başlar ve nesne özellikleri `@@` ile başlar).
 * Array değerleri parantezler yerine köşeli parantezler içinde
   gösterilir.
 * Listelerden oluşan bir liste ürettiğinizde büyük bir liste oluşmaz.

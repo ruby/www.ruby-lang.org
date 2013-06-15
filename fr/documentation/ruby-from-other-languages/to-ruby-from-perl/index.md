@@ -35,12 +35,11 @@ Tout comme en Perl, en Ruby…
 Contrairement à Perl, en Ruby…
 
 * pas de règles dépendantes du contexte ;
-* une variable n’est pas la même chose que l’objet auquel elle se réfère
-  : c’est toujours en Ruby une référence (et seulement cela) à un objet
-  ;
-* bien que `$` et `\`` soient parfois utilisés comme premier
+* une variable n’est pas la même chose que l’objet auquel elle se réfère :
+  c’est toujours en Ruby une référence (et seulement cela) à un objet ;
+* bien que `$` et `@` soient parfois utilisés comme premier
   caractère de variables, ils indiquent non pas son type, mais sa portée
-  (`$` pour les globales, `\`` pour les instances d’objet, et
+  (`$` pour les globales, `@` pour les instances d’objet, et
   `@@` pour les attributs de classes) ;
 * les positions de tableaux sont entre crochets, et non entre
   parenthèses ;
@@ -54,8 +53,8 @@ Contrairement à Perl, en Ruby…
   telles que `foo.to_i`, `foo.to_s` pour réaliser les conversions entre
   types ;
 * pas de `eq`, `ne`, `lt`, `gt`, `ge`, `le` ;
-* pas de *diamond operator*\: on utilisera en général `IO.une_fonction`
-  à la place ;
+* pas de *diamond operator*\: on utilisera en général
+  <tt>IO.*une\_fonction*</tt> à la place ;
 * la virgule n’est utilisée que pour les littéraux de hash ;
 * pas de `undef`. Ruby utilise `nil`, un objet modélisant l’absence de
   valeur et valant faux en terme de booléen ;

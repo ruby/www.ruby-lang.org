@@ -127,7 +127,7 @@ A differenza di C++, in Ruby…
   nome della classe.
 * Tutti i metodi sono sempre virtuali.
 * I nomi delle variabili di classe (statiche) incominciano sempre con
-  <tt>`@</tt>, es. <tt>`@totale\_oggetti</tt>
+  `@`, es. `@totale_oggetti`.
 * Non si accede alle variabili membro, l’accesso ai membri pubblici
   (chiamati attributi in Ruby) è effettuato tramite metodi.
 * Si usa `self` e non `this`

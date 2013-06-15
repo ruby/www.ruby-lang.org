@@ -40,10 +40,10 @@ A differenza di Perl, in Ruby,...
 * Non hai regole che dipendono dal contesto come in Perl.
 * Una variabile non è la stessa cosa dell’oggetto al quale fa
   riferimento. Invece, è solamente un riferimento a un oggetto.
-* Benchè i simboli `$` and <tt>`</tt> vengano usati (in casi specifici)
+* Benchè i simboli `$` and `@` vengano usati (in casi specifici)
   come primo carattere in nomi di variabili, invece di indicarne il
   tipo, ne indicano la portata ("scope") (più precisamente: `$` per le
-  globali, <tt>`</tt> per le instanze di oggetti, e <tt>@@</tt> per le
+  globali, `@` per le instanze di oggetti, e `@@` per le
   variabili di classe).
 * Gli elementi di un Array sono racchiusi da parentesi quadre invece che
   fra parentesi.

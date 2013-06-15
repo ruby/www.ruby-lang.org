@@ -176,8 +176,8 @@ Tidak seperti C++, di Ruby,...
   metode berjalan atau tidak.
 * Konstruktor dinamakan `initialize` ketimbang nama kelas.
 * Semua metode selalu virtual.
-* Nama variabel (static) kelas selalu diawali dengan <tt>`@</tt>
-  (seperti <tt>`@total\_widget</tt>).
+* Nama variabel (static) kelas selalu diawali dengan `@`
+  (seperti `@total_widget`).
 * Anda tidak bisa langsung mengakses variabel member, semua akses ke
   variabel member public (kalau di Ruby dikenal sebagai atribut)
   dipanggil lewat metode.

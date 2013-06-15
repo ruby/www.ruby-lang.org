@@ -88,10 +88,10 @@ Tidak seperti Perl, di Ruby…
 * Anda tidak punya *context-dependent rules* seperti di Perl.
 * Sebuah variabel tidak sama dengan obyek yang dituju, karena variabel
   hanya *reference* dari obyek sebenarnya.
-* Karakter `$` and <tt>@</tt> dapat digunakan untuk prefiks variabel,
+* Karakter `$` and `@` dapat digunakan untuk prefiks variabel,
   tapi penggunaannya berbeda. Karakter tersebut digunakan untuk
-  menyatakan lingkup variabel (`$` untuk variabel global, <tt>`</tt>
-  untuk _instance variable_, dan <tt>`@</tt> untuk atribut kelas).
+  menyatakan lingkup variabel (`$` untuk variabel global, `@`
+  untuk _instance variable_, dan `@@` untuk atribut kelas).
 * Anda membangun Array menggunakan kurung siku (misal: @\[1, 2, 3\]) dan
   bukan tanda kurung.
 * Menyimpan array dalam array lainnya tidak menggabungkan array tersebut

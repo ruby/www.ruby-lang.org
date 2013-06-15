@@ -137,7 +137,7 @@ Ao contrario do C++, no Ruby,...
 * O “construtor” é chamado `initialize` em vez de um nome de uma classe.
 * Todos os métodos são sempre virtuais.
 * Nomes de variáveis de classe (estáticas) começam sempre por
-  <tt>`@</tt> (por exemplo <tt>`@valor\_total</tt>).
+  `@` (por exemplo `@valor_total`).
 * Não se pode aceder directamente a variáveis de membros todo o acesso a
   variáveis públicas de membros (chamadas em Ruby de atributos) é feito
   através de métodos.
