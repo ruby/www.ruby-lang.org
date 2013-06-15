@@ -55,7 +55,7 @@ Contrairement à Perl, en Ruby…
 * pas de `eq`, `ne`, `lt`, `gt`, `ge`, `le` ;
 * pas de *diamond operator*\: on utilisera en général
   <tt>IO.*une\_fonction*</tt> à la place ;
-* la virgule n’est utilisée que pour les littéraux de hash ;
+* le symbole `=>` n’est utilisée que pour les littéraux de hash ;
 * pas de `undef`. Ruby utilise `nil`, un objet modélisant l’absence de
   valeur et valant faux en terme de booléen ;
 * seuls `false` et `nil` rendent faux dans les tests de vérité ; tout le

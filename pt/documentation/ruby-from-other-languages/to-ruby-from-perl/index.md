@@ -60,7 +60,7 @@ Ao contrario do Perl, no Ruby…
 * Não existem `eq`, `ne`, `lt`, `gt`, `ge`, nem `le`.
 * Não existe ‘diamond operator’. Usualmente utiliza-se
   <tt>IO.*alguma\_funçao*</tt>.
-* O Simbolo (=&gt;) é utilizado somente para os elementos de uma tabelas
+* O simbolo `=>` é utilizado somente para os elementos de uma tabelas
   de hash.
 * Não existe `undef`. Em Ruby utiliza-se a expressão `nil`. `nil` é um
   objecto (tal como tudo o resto em Ruby). Não é o mesmo que uma
