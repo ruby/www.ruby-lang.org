@@ -17,7 +17,7 @@ To get the latest source code of ruby, type following commands:
 No password is required.
 
 CVSup is also available. You can get supfiles at
-.
+http://cvs.ruby-lang.org/cvsup/.
 
 The CVS repository is checked by ruby-lang.org administrators' group.
 Details will be reported. Please wait a while.

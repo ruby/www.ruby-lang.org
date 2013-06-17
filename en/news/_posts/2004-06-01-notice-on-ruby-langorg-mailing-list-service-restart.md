@@ -22,13 +22,14 @@ helium.ruby-lang.org, and member lists of the lists.
 Based on the fact, and considering the meaning of the list (as a
 medium for communication), we at first filled users' convenience. If
 you are reading this mail and are not a member of this 'ruby-foo'
-mailing list, feel free to contact its administrator .
+mailing list, feel free to contact its administrator
+ruby-foo-admin@ruby-lang.org.
 
 Other inquiries on the list may well accepted via the above
 address. Inquiries not related to mailing list shall be referred to
-the other address: .
+the other address: admin@ruby-lang.org.
 
-A series of announcements, past and future, will continue on .
-Sorry for some time inconvenient.
+A series of announcements, past and future, will continue on
+http://www.ruby-lang.org. Sorry for some time inconvenient.
 
 ruby-lang.org administrators' group
