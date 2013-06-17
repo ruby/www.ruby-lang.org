@@ -5,7 +5,11 @@ author: "Shugo Maeda"
 lang: en
 ---
 
-We have finished the validation on WWW/FTP contents, so we restarted
-WWW/FTP services. [Read
-more…](/en/news/2004/06/15/wwwftp-service-restart/a/)
+We have finished the validation on WWW/FTP contents, so we
+restarted WWW/FTP services.
 
+Details of the validation will be reported.
+
+For a while, the services are subject to pause for maintenance.
+
+ruby-lang.org administrators' group
