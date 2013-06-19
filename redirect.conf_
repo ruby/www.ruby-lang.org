@@ -42,3 +42,8 @@ rewrite ^/pt/documentacao(.*)$ /pt/documentation$1 permanent;
 rewrite ^/pt/bibliotecas/top-de-projectos-ruby(.*)$ /pt/libraries/top-projects$1 permanent;
 rewrite ^/pt/bibliotecas(.*)$ /pt/libraries$1 permanent;
 
+rewrite ^/ja/man/archive/ruby-refm-1.8.6-chm.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-chm.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.bz2$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.bz2 permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.gz$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.gz permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.zip permanent;
