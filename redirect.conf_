@@ -5,6 +5,12 @@ rewrite ^/ja/install\.cgi$ /ja/downloads? permanent;
 rewrite ^/cgi-bin/cvsweb\.cgi/?$ http://svn.ruby-lang.org/ permanent;
 rewrite ^/admin$ https://github.com/ruby/www.ruby-lang.org permanent;
 
+rewrite ^/ja/man/archive/ruby-refm-1.8.6-chm.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-chm.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.bz2$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.bz2 permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.gz$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.gz permanent;
+rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.zip permanent;
+
 # contents inconsistently 2013-05-15
 rewrite ^/(en|ja)/(LICENSE|license).txt$ http://www.ruby-lang.org/en/about/license.txt;
 rewrite ^/ja/old-man/.*$ http://doc.ruby-lang.org/ja/? permanent;
@@ -41,9 +47,3 @@ rewrite ^/pt/documentacao/historias-de-sucesso(.*)$ /pt/documentation/success-st
 rewrite ^/pt/documentacao(.*)$ /pt/documentation$1 permanent;
 rewrite ^/pt/bibliotecas/top-de-projectos-ruby(.*)$ /pt/libraries/top-projects$1 permanent;
 rewrite ^/pt/bibliotecas(.*)$ /pt/libraries$1 permanent;
-
-rewrite ^/ja/man/archive/ruby-refm-1.8.6-chm.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip permanent;
-rewrite ^/ja/man/archive/ruby-refm-1.9.0-chm.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip permanent;
-rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.bz2$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.bz2 permanent;
-rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.gz$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.gz permanent;
-rewrite ^/ja/man/archive/ruby-refm-1.9.0-dynamic.zip$ ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.zip permanent;
