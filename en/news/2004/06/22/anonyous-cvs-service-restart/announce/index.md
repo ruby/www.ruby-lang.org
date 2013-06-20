@@ -24,12 +24,12 @@ lang: en
     No password is required.
 
     CVSup is also available. You can get supfiles at
-    .
+    <URL:http://cvs.ruby-lang.org/cvsup/>.
 
     The CVS repository is checked by ruby-lang.org administrators' group.
     Details will be reported. Please wait a while.
 
-    Shugo Maeda 
+    Shugo Maeda <shugo@ruby-lang.org>
     ruby-lang.org administrators' group
     -----BEGIN PGP SIGNATURE-----
     Version: GnuPG v1.2.4 (GNU/Linux)
@@ -38,4 +38,3 @@ lang: en
     QJtEX+C4Mhdy4qO/Zu83xSU=
     =QAvL
     -----END PGP SIGNATURE-----
-

@@ -20,7 +20,7 @@ lang: en
 
     == Time-line of the incident
 
-    The time progression about the intrusion is shown below.  Each time is in 
+    The time progression about the intrusion is shown below.  Each time is in
     UTC.
 
     19 May       The public disclosure of a vulnerability of CVS
@@ -51,7 +51,7 @@ lang: en
       * HTTP  (www.ruby-lang.org/raa.ruby-lang.org)
       * FTP   (ftp.ruby-lang.org)
       * RSYNC (for mirror sites)
-      * ML    (@ruby-lang.org)
+      * ML    (<ML name>@ruby-lang.org)
 
     : hydrogen.ruby-lang.org (hereafter called 'hydrogen')
 
@@ -83,7 +83,7 @@ lang: en
     packet filtering feature.
 
     Another note: usually, the pserver process creates a temporary directory
-    (/tmp/cvs-serv) for each session and deletes it at the end
+    (/tmp/cvs-serv<Process ID>) for each session and deletes it at the end
     of the session.  At the time of the intrusion, more than one temporary
     directories were left in the /tmp directory of the chroot environment.
     This suggests that pserver processes were terminated abnormally, perhaps
@@ -172,7 +172,7 @@ lang: en
     == Verification of the contents of each service
 
     We will hereafter explain the results of our efforts to evaluate
-    whether there was any alteration or destruction of services 
+    whether there was any alteration or destruction of services
     by the intruders.
 
     === Precondition
@@ -233,9 +233,9 @@ lang: en
     Our verification was supported by data in the following URL.
 
     * Log of cvsup
-
+      <URL:http://www.ruby-lang.org/check-data/cvs/cvsup-log/>
     * Contents of the commits from 19 May to 28 May
-
+      <URL:http://www.ruby-lang.org/check-data/cvs/cvs-diff/>
 
     Moreover, in addition to the above-mentioned material, we did the
     following supplemental work:
@@ -331,5 +331,106 @@ lang: en
     tDiary CGI program:
 
       * Confirmation of the absence of suspicious code in the CGI programs
-      * Verification of code in 
+      * Verification of code in <script> elements embedded in the contents
+      * Confirmation of the absence of suspicious data in the configuration files
 
+    Moreover, we checked the contents and linked URLs, but no problem is
+    found. If any problems are found, please contact to
+    webmaster@ruby-lang.org.
+
+    === On-line reference manual
+
+    On-line reference manual was on RWiki. We first restored the contents on
+    29 Feb, then applied the patches mailed to external e-mail accounts on
+    29 Feb. Then we compared it with the contents on 'helium'.
+
+    The diff can be obtained from:
+
+      <URL:http://www.ruby-lang.org/check-data/ruby-man/man-rd-ja.diff>
+
+    The difference of Base64.rd comes from new-lines inserted when receiving
+    the mail. trap%3A%3ANilClass.rd.rej was rejected, because the same patch
+    applied twice. The diff script compared files with files from 61 minutes
+    prior, so the same patch sent twice.
+
+    We confirmed none of them were affected by the intrusion.
+
+    === RAA
+
+    We did the following data verification.
+
+    * We made a daily diff of RAA data from 1) the clean RAA data copy
+      backed up on 27 Mar, 2) daily backups from 4 Apr to 28 May, and 3) the
+      latest RAA data of 28 May.
+
+      2) and 3) are located in a chroot protected area on the machine.
+      1) is clean because it is kept in a development environment.
+
+      * RAA data update:
+        http://raa.ruby-lang.org/announce/soapbox-diff-all-passphrasemask.txt
+      * RAA new entry:
+        http://raa.ruby-lang.org/announce/soapbox-new-passphrasemask.txt
+
+    * We confirmed the absence of suspicious data in the above diffs.
+
+    It can be concluded that the RAA data of 28 May (the same data we use
+    for RAA service restart) does not include any suspicious data.
+    We therefore decided to restart the RAA service as it was on 28 May.  We
+    cannot offer assurances that normal-looking changes by the intruder do not
+    exist.  For example, the change of sampleproject on 18 May is as
+    follows;
+
+      == sampleproject
+      - updated: Sun May 09 12:35:19 GMT+9:00 2004
+      + updated: Mon May 17 13:00:38 GMT+9:00 2004
+      - version: 0.0.8
+      + version: 0.1.1
+
+    None of this data is suspect, but it is possible that the changes were
+    made by the intruder.  Therefore, we request that each RAA project owner
+    CHECK THEIR RAA ENTRIES AND UPDATE THEM FOR CONFIRMATION.  To do this,
+    take the following steps:
+
+    (1) Open the project page
+    (2) Check the project information
+    (3) Go to the "update" page
+    (4) Press the "submit" button (do this even if no update is needed --
+        this step is for confirmation)
+
+    Please contact raa-admin@ruby-lang.org if you find any suspicious data
+    in RAA, or you have any question. Thank you for your cooperation.
+
+    === FTP
+
+    We compared md5sum values of files on FTP with the files kept in the
+    exterior, secure server, and there were no differences.
+
+    However, we could not check the following directories.  Consequently,
+    they are not currently provided.
+
+     /pub/ruby/contrib/
+     /pub/ruby/doc/
+     /pub/ruby/snapshots/
+     /pub/ruby/ML/
+     /pub/ruby/shim/
+
+    If you need files in these directories, please contact
+    ftpadmin@ruby-lang.org.
+
+    === Mailing list
+
+    We investigated the configuration files of each mailing list, and found
+    no issues. However, member lists and mail archives have not been
+    thoroughly checked.
+
+    If you have any problems, please contact to <ML name>-admin@ruby-lang.org.
+
+    Shugo Maeda <shugo@ruby-lang.org>
+    ruby-lang.org administrators' group
+    -----BEGIN PGP SIGNATURE-----
+    Version: GnuPG v1.2.4 (GNU/Linux)
+
+    iD8DBQFA/1qTZ3GizHGDKdwRAghyAJ40442KRg+3NZaDEIs1Qz2Tnas8WwCghMVU
+    wxdlUYb7d+tR3c7HjzqCMIE=
+    =Ma6P
+    -----END PGP SIGNATURE-----
