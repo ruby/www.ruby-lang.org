@@ -4,113 +4,89 @@ title: "ライブラリ"
 lang: ja
 ---
 
-Rubyではたくさんの素敵で便利なアプリケーションやライブラリが利用できます。最近では多くのものが\"gem\"という形式で提供されるようになってきました。また、従来通り.zipや.tar.gzといったアーカイブ形式で配布されているものもあります。
+多くのプログラミング言語と同様に、Ruby にも幅広いサードパーティのライブラリが提供されています。
 
-## ライブラリの入手元
+それらのほとんどは "gem" という形式で公開されています。[RubyGems](http://docs.rubygems.org) は (Ruby に特化した `apt-get` と同じようなパッケージングシステムで) ライブラリの作成や公開、インストールを助けるシステムです。Ruby のバージョン 1.9 以降 RubyGems は標準添付となっていますが、それ以前のバージョンの Ruby の場合は[自分でインストール](http://rubygems.org/pages/download)する必要があります。
 
-今日では世界中で数多くのRubyアプリケーションやライブラリが配布されています。以下に代表的な入手もとを紹介します。
+他のライブラリは .zip や .tar.gz のようなアーカイブの形式で公開されています。インストール方法は様々で、一般的には `README` や `INSTALL` ファイルに方法が書かれています。
 
-### Rubyforge
+ではライブラリを探してインストールする方法を見てみましょう。
 
-[RubyForge][1]はオープンソースなRuby関連プロジェクトを支援しているサービスです。ここで多くのライブラリが提供されており、[分野別のライブラリのリスト][2]などから探索できます。また[ユーザー登録][3]すると自分自身のプロジェクトを登録して、Subversionリポジトリやメーリングリストといったサービスを利用できます。
 
-### RAA - Ruby Application Archive
+### ライブラリを探す
 
-[Ruby Application
-Archive][4]はRubyforgeよりも古いライブラリ登録サイトです。最近では他のサービスに取って代わられつつありますが、ここにしか登録されていない貴重なライブラリも数多く存在します。
+Ruby のライブラリは主に [RubyGems.org](http://rubygems.org/) に gem として置かれています。直接ウェブサイトを閲覧したり、`gem` コマンドを使用してそれらを探すことができます。
 
-\"Application Archive\"という名前ですが、アプリケーションだけでなく、ライブラリも登録されています。
+`gem search -r` を使うと RubyGems のリポジトリを調べることが出来ます。例えば、`gem search -r rails` は Rails に関係のある gem を返します。
+`--local` (`-l`) オプションを使うと、インストール済みの gem に対してローカルで検索をすることが出来ます。gem をインストールするには `gem install [gem]` を使います。インストール済みの gem を見るには `gem list` を使います。さらに `gem` コマンドについて知りたい場合は、先に進むか[RubyGems' docs](http://docs.rubygems.org) を参照してください。
 
-RAAでは、ライブラリは機能によって分類されており、簡単に必要なライ ブラリを見つけることができます。 たとえば、 [Database][5]
-カテゴリにはもっとも多くの項目が登録されており、 [Net][6]・[HTML][7]・ [XML][8]
-といったカテゴリにも多くの項目があります。 登録されている項目は4つだけですが、 [Physics][9] というカテゴリまであります。
+他にもライブラリの配布元があります。
+[RubyForge](http://rubyforge.org)はかつて Ruby のライブラリの保管場所として広く使われていたものです。
+しかし近年では [GitHub](http://github.com/) が ruby 関連のリポジトリとして台頭してきました。
+gem としては RubyGems.org に公開されますが、gem のソースコードのほとんどは GitHub 上で見ることが出来ます。
 
-## RubyGems
+[Ruby Application Archive](http://raa.ruby-lang.org/) (または RAA) はあらゆる Ruby のソフトウェアが機能ごとにカテゴリ分けされていた場所です。しかし既に全く使われていません。おそらくもう見る必要はないでしょう。
 
-RubyGemsはRuby 1.9に組み込まれたパッケージ管理システムです。Ruby
-1.8でもデファクトスタンダードな地位を築いています。RubyGemsを使うとパッケージ化されたRubyアプリケーションやライブラリを簡単にインストール/更新したり、削除したりできます。
-なお、RubyGemsではパッケージ単位のことを\"gem\"と呼びます。RubyGemsを操作するためのコマンドも\"gem\"です。
 
-Ruby 1.9系統ではRubyGemsが組み込まれていますから、すぐにgemを利用できます。Ruby
-1.8でもインストーラーがRubyGemsを一緒にインストールすることも多いです。またaptやportsのようなシステムのパッケージ管理システムでrubygemsが提供されていることも多いです。システムでRubyGemsが提供されていない場合は次のようにソースコードからインストールすることもできます。
+### RubyGems についてもう少し
 
-### RubyGemsのインストール
+普段使いのために `gem` コマンドについて軽く見ておきましょう。
+このパッケージ管理システムについて全般的に述べられた[もっと詳しいドキュメント](http://docs.rubygems.org/)もあります。
 
-RubyGemsはシステムにインストール済みであったり、aptやportsなどで提供されていることも多いので、まずその可能性を調べてください。
-そうでない場合は[ダウンロードサイト][10]からアーカイブをダウンロードして、その中のREADMEに書かれている手順でインストールできます。例えば次のようにします。
+#### 入手可能な gem を検索する
+
+この **search** コマンドを使うと文字列で gem を検索することができます。指定された文字列で始まる名前の gem が返ります。例えば "html" 関連の gem を探したければ以下のようにします。
 
 {% highlight sh %}
-$ wget http://rubyforge.org/frs/download.php/60718/rubygems-1.3.5.tgz
-$ tar xzvf rubygems-1.3.5.tar.gz
-$ cd rubygems-1.3.5
-$ su -
-$ ruby setup.rb
-{% endhighlight %}
-
-### gemの検索
-
-次のようにして\"gem search\"コマンドでパターン\"mspec\"に合致するgemを検索できます。
-
-{% highlight sh %}
-$ gem search mspec --remote
+$ gem search -r html
 
 *** REMOTE GEMS ***
 
-mspec (1.5.12)
+html-sample (1.0, 1.1)
 {% endhighlight %}
 
-### gemのインストール
+`--remote` / `-r` フラグは公式の RubyGems.org リポジトリを検索することを表しています。(そしてこれはデフォルトの動作です。)
+`--local` / `-l` フラグをつけるとインストール済みの gem に対して検索をかけることができます。
 
-例えば次のようにしてmspecというgemをインストールできます。これは[RubySpec][11]プロジェクトで利用されている振る舞い駆動開発支援ライブラリです。
+#### gem をインストールする
+
+インストールしたい gem が見つかったなら、**install** コマンドでインストールできます。例えば人気のある Rails でしたら以下のようになります。
 
 {% highlight sh %}
-$ gem install mspec
+$ gem install rails
 {% endhighlight %}
 
-また、多くのgemは最新版だけではなく過去の複数のバージョンも提供されています。特定のバージョンのgemをインストールするには次のように--versionオプションを使用します。
+`--version` / `-v` フラグを使うと、ライブラリの特定のバージョンを指定してインストールすることも出来ます。
 
 {% highlight sh %}
-$ gem install mspec --version 1.5.11
+$ gem install rails --version 3.0
 {% endhighlight %}
 
-### gemの一覧
+#### 全ての gem を一覧にする
 
-システムにインストールされているgemを一覧するには\"gem list\"コマンドを使用します
+ローカルにインストール済みの gem の一覧を見たいときは **list** コマンドを使います。
 
 {% highlight sh %}
 $ gem list
-
-*** LOCAL GEMS ***
-
-activesupport (2.3.3)
-archive-tar-minitar (0.5.2)
-builder (2.1.2)
-columnize (0.3.1)
-cucumber (0.3.94, 0.3.91)
-diff-lcs (1.1.2)
-ffi (0.3.5)
-genki-ruby-terminfo (0.1.1)
-.....(略)
 {% endhighlight %}
 
-### 詳細
+(とても長いですが) RubyGems.org で入手可能な全ての gem の一覧を見るには以下のようにします。
 
-RubyGemsの詳細は[公式マニュアル][12](英語)や\"gem help\"コマンドを参照してください。
+{% highlight sh %}
+$ gem list -r
+{% endhighlight %}
 
-Posted by Shugo Maeda on 26 May 2006
-{: .post-info}
+#### Help!
 
+ドキュメントをターミナルで参照することが出来ます。
 
+{% highlight sh %}
+$ gem help
+{% endhighlight %}
 
-[1]: http://rubyforge.org
-[2]: http://rubyforge.org/softwaremap/trove_list.php
-[3]: http://rubyforge.org/register/
-[4]: http://raa.ruby-lang.org
-[5]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
-[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
-[10]: http://rubyforge.org/frs/?group_id=126
-[11]: http://www.rubyspec.org
-[12]: http://rubygems.org/read/chapter/1
+たとえば、`gem help commands` は `gem` の全てのコマンドを出力するのでとても便利です。
+
+#### 自分で gem を作る
+
+RubyGems.org に [いくつかのガイド](http://guides.rubygems.org) があります。
+[Bundler](http://gembundler.com/) について調べてみるのもいいでしょう。Bundler は RubyGems と一緒に使われる、アプリケーションの依存関係を管理するための一般的なツールです。
