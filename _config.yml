@@ -224,6 +224,21 @@ locales:
 #       url: /pt/security
       - text: Sobre Ruby
         url: /pt/about
+    ru:
+      - text: Скачать
+        url:  /ru/downloads
+      - text: Документация
+        url:  /ru/documentation
+      - text: Библиотеки
+        url:  /ru/libraries
+      - text: Сообщество
+        url:  /ru/community
+      - text: Новости
+        url:  /ru/news
+      - text: безопасность
+        url:  /ru/security
+      - text: О Ruby
+        url:  /ru/about
     tr:
       - text: İndirin
         url: /tr/downloads
@@ -297,6 +312,8 @@ locales:
       text: Szukaj
     pt:
       text: Procurar
+    ru:
+      text: Поиск
     tr:
       text: Ara
     zh_cn:
@@ -316,6 +333,7 @@ locales:
     ko: "루비 : 프로그래머의 단짝 친구"
     pl: "Ruby - Najlepszy Przyjaciel Programisty"
     pt: "Ruby - O melhor amigo do programador"
+    ru: "Ruby - лучший друг программиста"
     tr: "Ruby - A Programmer's Best Friend"
     zh_cn: "Ruby - 程序员最要好的朋友"
     zh_tw: "Ruby - A Programmer's Best Friend"
@@ -330,6 +348,7 @@ locales:
     it: [Gennaio, Febbraio, Marzo, Aprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
     pl: [Styczeń, Luty, Marzec, Kwiecień, Maj, Czerwiec, Lipiec, Sierpień, Wrzesień, Październik, Listopad, Grudzień]
     pt: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+    ru: [Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]
     tr: [Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık]
 
   posted_by:
@@ -344,6 +363,7 @@ locales:
     ko: "작성자: AUTHOR (%Y-%m-%d)"
     pl: "Zamieszczone przez AUTHOR %Y-%m-%d"
     pt: "Escrito por AUTHOR em %Y-%m-%d"
+#   ru:
     tr: "AUTHOR tarafından %Y-%m-%d tarihinde gönderildi"
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
 #   zh_tw:
@@ -360,6 +380,7 @@ locales:
     ko: "번역자:"
     pl: "Tłumaczone przez"
     pt: "Traduzido por"
+#   ru:
     tr: "Çeviri:"
 #   zh_cn:
 #   zh_tw:
@@ -409,6 +430,10 @@ locales:
       title: Noticias de Ruby por RSS
       description: As notícias mais recentes do ruby-lang.org em Português.
       lang_code: pt-PT
+    ru:
+      title: Ruby News
+      description: The latest news from ruby-lang.org.
+      lang_code: ru-RU
     tr:
       title: Ruby Son Haberler
       description: Ruby Son Haberler
@@ -554,6 +579,18 @@ locales:
       yearly_archives: Arquivos por Ano
       monthly_archives: Archives by Month
       yearly_archive_link: "Arquivos de %Y"
+      monthly_archive_link: "%B %Y"
+    ru:
+      other_news: Другие новости
+      more_news: Другие новости...
+      continue: Подробнее...
+      back_to_year: "Back to %Y Archives"
+      recent_news: Recent News
+      yearly_archive_title: "%Y Archives"
+      monthly_archive_title: "%B %Y Archives"
+      yearly_archives: Archives by Year
+      monthly_archives: Archives by Month
+      yearly_archive_link: "%Y Archives"
       monthly_archive_link: "%B %Y"
     tr:
       other_news: Diğer Haberler
@@ -1298,6 +1335,69 @@ locales:
         recent_news:
           text: Em Português
           url: /pt/feeds/news.rss
+    ru:
+      get_started:
+        text: <strong>Начните сейчас</strong>, это легко!
+        try_ruby:
+          text: Попробуйте Ruby! (в Вашем браузере)
+          <<: *try_ruby
+        quickstart:
+          text: Ruby за двадцать минут
+          url: /ru/documentation/quickstart/
+        ruby_from_other_languages:
+          text: Ruby из других языков
+          url: /ru/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Исследуйте</strong> новый мир…
+        documentation:
+          text: Документация
+          url: /ru/documentation/
+        books:
+          text: Книги
+          <<: *books
+        libraries:
+          text: Библиотеки
+          url: /ru/libraries/
+        success_stories:
+          text: Истории успеха
+          url: /ru/documentation/success-stories/
+      participate:
+        text: <strong>Проявите себя</strong> в дружелюбном и развивающемся сообществе.
+        mailing_lists:
+          text: Почтовые рассылки
+          url: /ru/community/mailing-lists/
+          description: |
+            Разговор о Ruby в кругу программистов со всего мира.
+        user_groups:
+          text: Группы пользователей
+          url: /ru/community/user-groups/
+          description: |
+            Встреча с Ruby-программистами рядом с Вами.
+        weblogs:
+          text: Блоги
+          url: /ru/community/weblogs/
+          description: |
+            Read about what’s happening right now in the Ruby community.
+        ruby_core:
+          text: Ядро Ruby
+          url: /ru/community/ruby-core/
+          description: |
+            Помощь в полировке последней версии Ruby.
+        issue_tracking:
+          text: Issue Tracking
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Report or help solve issues in Ruby.
+      top_ruby_projects:
+        text: Лучшие проекты на Ruby
+        more:
+          text: Ещё…
+          url: /ru/libraries/top-projects/
+      syndicate:
+        text: Syndicate
+        recent_news:
+          text: Recent News (RSS)
+          url: /ru/feeds/news.rss
     tr:
       get_started:
         text: <strong>Başlamak</strong>, çok kolay!
@@ -1588,6 +1688,15 @@ locales:
       subscribe: Subscribe
       unsubscribe: Unsubscribe
       submit: Enviar Formulário
+    ru:
+      list: Mailing List
+      first_name: First Name
+      last_name: Last Name
+      email: Email Address
+      action: Action
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+      submit: Submit Form
 #   tr:
 #     list: Mailing List
 #     first_name: First Name
@@ -1674,6 +1783,12 @@ locales:
       É orgulhosamente mantido pelos membros da comunidade Ruby.
       Por favor contacte o nosso <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       para questões ou comentários relativos ao site.
+    ru: |
+      This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      It is proudly maintained by members of the Ruby community.
+      Please contribute on <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      or contact our <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      for questions or comments concerning this website.
     tr: |
       Bu site Ruby ile kodlanmış olup, <a href="http://www.jekyllrb.com/">Jekyll</a> ile güçlendirilmiştir.
       Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
