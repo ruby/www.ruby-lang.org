@@ -46,13 +46,13 @@ Niektóre z najważniejszych::
   * Kluczowe argumenty, które dają swobodę projektowania API
   * `Module#prepend`, które jest nowym sposobem rozszerzania klas
   * Literał `%i`, który ułatwia tworzenie tablicy symboli
-  * `__dir__`, które zwraca nazwę katalogu pliku, który jest aktualnie 
+  * `__dir__`, które zwraca nazwę katalogu pliku, który jest aktualnie
     przetwarzany
   * Domyślne kodowanie `UTF-8`, które sprawia, że wiele komentarzy służących
     do kodowania znaków jest niepotrzebnych
 
 * Wbudowane biblioteki
-  * `Enumerable#lazy` i `Enumerator::Lazy`, dla (możliwie nieskończonych) 
+  * `Enumerable#lazy` i `Enumerator::Lazy`, dla (możliwie nieskończonych)
     leniwych strumieni (*lazy strings*)
   * `Enumerator#size` i `Range#size`, dla leniwego wyliczania rozmiaru
   * `#to_h`, które jest nową konwencją dla konwersji do `Hash`
@@ -60,13 +60,13 @@ Niektóre z najważniejszych::
   * API do asynchronicznego łapania wyjątków
 
 * Wsparcie debugowania
-  * wsparcie dla `DTrace`, które umożliwia diagnostykę podczas wykonywania 
+  * wsparcie dla `DTrace`, które umożliwia diagnostykę podczas wykonywania
     na produkcji
   * `TracePoint`, ulepszone API do śledzenia problemów
 
 * Usprawnienia wydajności
   * Optymalizacja `GC` poprzez oznaczanie bitmapy (*bitmap marking*)
-  * Optymalizacja `Kernel#require`, która czyni proces ładowania Rails 
+  * Optymalizacja `Kernel#require`, która czyni proces ładowania Rails
     bardzo szybkim
   * Optymalizacja VM w postaci przesyłania metod (*method dispatch*)
   * Optymalizacja opracji dla `Float`
@@ -74,7 +74,7 @@ Niektóre z najważniejszych::
 Dodatkowo eksperymentalnie 2.0.0 zawiera `Refinements`,
 które dodają nową koncepcję modułów Rubiego.
 
-Zobacz także wiadomości dotyczące nowych funkcji, ulepszeń i detali. 
+Zobacz także wiadomości dotyczące nowych funkcji, ulepszeń i detali.
 
 ### Zgodność
 
@@ -89,7 +89,7 @@ jak Rails i tDiary działały na wersji 2.0.0.RC.
 Wprowadziliśmy też sporo ulepszeń w dokumentacji, o które zabiegało wielu
 użytkowników Rubiego. Dodaliśmy ogromną ilość rdoc modułów i metod.
 2.0.0 będzie udokumentowane w 75%, podczas gdy 1.9.3 było w około 60%.
-Ponadto dodaliśmy opis składni języka Ruby, co możesz zobaczyć: 
+Ponadto dodaliśmy opis składni języka Ruby, co możesz zobaczyć:
 
 {% highlight sh %}
 ri ruby:syntax
@@ -158,12 +158,12 @@ Istnieją też stosunkowo nieznaczne niezgodności.
 Dodaliśmy `Refinements`, które wprowadzają nową koncepcję modułów w Ruby.
 Jednakże, proszę zwrócić uwagę na to, że `Refinements` są ciągle w fazie eksperymentalnej,
 czyli możemy zmienić ich specyfikację w przyszłości. Pomimo tego,
-chcielibyśmy abyś z nich korzystał i przekazał nam swoje spostrzeżenia i uwagi. 
+chcielibyśmy abyś z nich korzystał i przekazał nam swoje spostrzeżenia i uwagi.
 Twoje opinie pomogą ukształtować tą interesującą funkcjonalność.
 
 ## Podziękowania
 
-Wielu wspaniałych ludzi wzięło udział przy realizacji 2.0.0. 
+Wielu wspaniałych ludzi wzięło udział przy realizacji 2.0.0.
 Nawet niepełne uznanie kilku fragmentów wsparcia stało się zbyt obszerne
 by je tu umieścić. Przykro nam z tego powodu, z racji tego dodaję link
 do specjalnej strony z podziękowaniami.

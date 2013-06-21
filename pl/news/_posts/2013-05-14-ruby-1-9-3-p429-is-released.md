@@ -19,7 +19,8 @@ To wydanie zawiera łatkę bezpieczeństwa dla modułów `DL` / `Fiddle`.
 
 Zawartych zostało też wiele poprawek mniejszych błędów.
 
-Zobacz [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) i [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog).
+Zobacz [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
+i [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog).
 
 ## Pobieranie
 

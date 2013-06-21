@@ -14,7 +14,7 @@ To wydanie zawiera łatkę bezpieczeństwa dla modułów `DL` / `Fiddle`.
 * [Omijanie zaufania obiektu w DL i Fiddle w Ruby
   (CVE-2013-2065)](/pl/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-Zawartych zostało też wiele poprawek błędów, optymalizacji oraz 
+Zawartych zostało też wiele poprawek błędów, optymalizacji oraz
 poprawek w dokumentacji.
 
 ## Pobieranie

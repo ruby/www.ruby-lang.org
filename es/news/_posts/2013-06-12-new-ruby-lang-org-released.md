@@ -20,7 +20,7 @@ hacia un proceso abierto.
 
 ¡Ahora todo el mundo está en condiciones de editar el contenido y corregir
 errores en muy poco tiempo! Hemos puesto en marcha un proceso basado en git
-y ahora Jekyll le da vida al sitio: visita 
+y ahora Jekyll le da vida al sitio: visita
 [https://github.com/ruby/www.ruby-lang.org/wiki][1] para aprender más
 sobre el proyecto y cómo contribuir con él.
 
