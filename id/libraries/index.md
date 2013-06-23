@@ -4,13 +4,17 @@ title: "Library"
 lang: id
 ---
 
-Bermacam-macam *library* yang menarik dan berguna telah tersedia untuk
-Ruby, sebagian besar dirilis dalam format yang mudah dipakai yaitu dalam
-file <abbr title="Library Ruby yang dipaket dalam satu file dan dapat
-diinstall menggunakan RubyGems.">*gem*</abbr>. Sebagian lainnya dirilis
-dalam format `.zip` atau `.tar.gz` berupa *source code*. Di sini akan
-dijelaskan bagaimana mencari dan menginstall library Ruby ke dalam
-sistem Anda.
+Seperti bahasa pemrograman lain, Ruby memanfaatkan serangkaian luas
+library pihak ketiga.
+
+Sebagian besar dari library tersebut dirilis dalam bentuk **gem**.
+[**RubyGems**][1] adalah sistem packaging Ruby dirancang untuk
+memfasilitasi penciptaan, berbagi dan instalasi library (dalam beberapa
+hal, itu adalah sistem distribusi packaging yang mirip dengan, katakanlah,
+`apt-get`, tetapi ditargetkan pada software Ruby). Sejak versi 1.9, Ruby
+dilengkapi dengan RubyGems secara default, sementara pada versi sebelumnya
+kita perlu [menginstalnya sendiri][2].
+
 
 ### Mencari Library
 {: #finding-libraries}
@@ -23,112 +27,118 @@ Rubyforge dan mendapatkan akses gratis untuk Subversion, web hosting,
 dan mailing list.)
 
 [**Ruby Application Archive**][4] (RAA) adalah direktori yang berisi
-berbagai macam software Ruby berdasarkan fungsionalitas.
-Kategori-kategori yang cukup populer adalah [Database][5], [Net][6],
-[HTML][7], dan [XML][8]. Bahkan ada juga software untuk kategori
-[Physics][9].
+berbagai macam software Ruby berdasarkan fungsi. Kategori-kategori
+yang cukup populer adalah [Database][5], [Net][6], [HTML][7], dan
+[XML][8]. Bahkan ada juga software untuk kategori [Physics][9].
 
-### Menggunakan RubyGems
-{: #using-rubygems}
+Beberapa library lain dirilis sebagai arsip (.zip atau .tar.gz)
+direktori dari **kode**. Proses instalasi dapat bervariasi,
+biasanya file `README` atau `INSTALL` menyediakan instruksi.
 
-*One-click installer* Ruby untuk Windows telah menyediakan RubyGems,
-namun ada beberapa sistem operasi lain yang tidak langsung
-menyediakannya. Silakan membaca instruksi [Instalasi
-RubyGems](#installing-rubygems) di bawah ini apabila di sistem Anda
-belum terinstall RubyGems.
+Mari kita lihat cara menemukan library dan menginstalnya
+untuk penggunaan Anda sendiri.
 
-#### Mengecek versi RubyGems
+### Menemukan Library
 
-Gunakan perintah `gem -v` untuk mengecek apakah RubyGems terinstall di
-sistem Anda, dan versi RubyGems yang terinstall.
+[**RubyGems.org**][3] adalah tempat utama dimana library dihost, menyediakan
+library Ruby sebagai gem. Anda dapat browse situs webnya langsung, atau
+menggunakan perintah `gem`.
+
+Dengan menggunakan `gem search -r`, Anda dapat memeriksa repositori RubyGems.
+Misalnya, `gem search -r rails` akan mengembalikan daftar gem yang terkait
+dengan Rails. Dengan pilihan `--local` (`-l`), Anda akan melakukan pencarian lokal
+melalui gem yang Anda instal. Untuk menginstal gem, gunakan `gem install
+[gem]`. Browsing gem yang telah diinstal dilakukan dengan `gem list`. Untuk informasi
+lebih jelas tentang perintah `gem`, lihat di bawah atau kunjungi [dokumentasi RubyGems][1].
+
+Ada sumber lain untuk library juga. [RubyForge][4] dulu populer sebagai
+tempat sumber library Ruby, tapi beberapa tahun terakhir [**GitHub**][5] bangkit
+sebagai salah satu repositori utama untuk konten terkait dengan Ruby. Biasanya,
+kode gem di-host di GitHub, dan dipublikasikan sebagai gem lengkap di RubyGems.org.
+
+[Ruby Application Archive][6] (RAA) adalah direktori segala macam software Ruby
+yang dikategorikan berdasarkan fungsi, tetapi tidak banyak digunakan lagi.
+Anda mungkin tidak perlu pergi ke sana.
+
+### Beberapa Kata tentant RubyGems
+
+Berikut ini tinjauan singkat dari perintah `gem` untuk penggunaan sehari-hari Anda.
+[Dokumentasi lebih rinci][7] tersedia, dan mencakup semua aspek sistem packaging ini.
+
+#### Mencari di antara gem yang tersedia
+
+Perintah **search** digunakan untuk mencari gem berdasarkan sebuah string.
+Gem yang namanya mulai dengan string tertentu akan terdaftar sebagai hasil pencarian.
+Sebagai contoh, untuk mencari gem terkait dengan "html":
 
 {% highlight sh %}
-$ gem -v
-0.9.4
-{% endhighlight %}
-
-#### Mencari Gems
-
-Perintah **search** digunakan untuk mencari gem dengan nama tertentu.
-
-Misalnya, untuk mencari gem dengan nama “html” di dalamnya:
-
-{% highlight sh %}
-$ gem search html --remote
+$ gem search -r html
 
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-(*Flag `--remote` / `-r` menandakan bahwa kita ingin mencari gem dari
-repository resmi Rubyforge.*)
+Flag `--remote` / `-r` menunjukkan bahwa kita ingin memeriksa repositori
+resmi RubyGems.org (default). Dengan flag `--local` / `-l` Anda akan
+melakukan pencarian lokal pada gem yang telah Anda instal.
 
-#### Instalasi Sebuah Gem
+#### Menginstal sebuah gem
 
-Setelah Anda mengetahui gem yang ingin Anda **install**\:
-
-{% highlight sh %}
-$ gem install html-sample
-{% endhighlight %}
-
-Anda juga dapat menginstall versi library tertentu menggunakan flag
-`--version`.
+Setelah Anda tahu gem mana yang ingin Anda **install**, misalnya gem
+Rails yang populer:
 
 {% highlight sh %}
-$ gem install html-sample --version 1.0
+$ gem install rails
 {% endhighlight %}
 
-#### Melihat Daftar Semua Gem
-
-Untuk melihat daftar semua gem di Rubyforge:
+Anda bahkan dapat menginstal library versi tertentu menggunakan flag
+`--version` / `-v`:
 
 {% highlight sh %}
-$ gem list --remote
+$ gem install rails --version 3.0
 {% endhighlight %}
 
-Untuk melihat daftar gem yang sudah diinstall di sistem Anda, gunakan
-perintah tanpa flag `--remote`\:
+#### Daftar semua gem
+
+Untuk **list** semua gem yang telah Anda instal:
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-Informasi lebih lanjut mengenai RubyGems bisa didapatkan di [**manual
-resmi RubyGems**][10], termasuk contoh penggunaan gem dalam *script*
-Ruby Anda sendiri.
-
-### Instalasi RubyGems
-{: #installing-rubygems}
-
-Untuk menginstall RubyGems, download RubyGems terbaru dari [halaman
-download][11]. Extract file archive tersebut dan jalankan `setup.rb`.
-Untuk beberapa sistem operasi Anda harus menjadi `root` untuk melakukan
-hal ini.
-
-Sebagai contoh, di Linux:
+Untuk mendapatkan daftar (sangat panjang) dari semua gem yang
+tersedia di RubyGems.org:
 
 {% highlight sh %}
-$ tar xzvf rubygems-0.9.4.tar.gz
-$ cd rubygems-0.9.4
-$ su -
-$ ruby setup.rb
+$ gem list -r
 {% endhighlight %}
 
-Bila Anda membutuhkan panduan lebih lanjut tentang instalasi, Anda dapat
-membaca [**bab instalasi**][12] di manual RubyGems.
+#### Tolong!
+
+Dokumentasi tersedia pada terminal Anda:
+
+{% highlight sh %}
+$ gem help
+{% endhighlight %}
+
+Contohnya, `gem help commands` sangat berguna karena mengeluarkan
+daftar semua perintah `gem`.
+
+#### Membuat gem Anda sendiri
+
+RubyGems.org memiliki [beberapa panduan][8] tentang topik ini. Anda juga
+mungkin ingin untuk melihat [Bundler][9], alat generik yang membantu
+Anda mengelola dependensi dan aplikasi dapat digunakan bersama RubyGems.
 
 
+[1]: http://docs.rubygems.org
+[2]: http://rubygems.org/pages/download
+[3]: http://rubygems.org
+[4]: http://rubyforge.org/
+[5]: http://github.com
+[6]: http://raa.ruby-lang.org/
+[7]: http://docs.rubygems.org/
+[8]: http://guides.rubygems.org
+[9]: http://gembundler.com
 
-[1]: http://rubyforge.org/
-[2]: http://rubyforge.org/softwaremap/trove_list.php
-[3]: http://rubyforge.org/register/
-[4]: http://raa.ruby-lang.org/
-[5]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
-[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
-[10]: http://rubygems.org/read/chapter/1
-[11]: http://rubyforge.org/frs/?group_id=126
-[12]: http://rubygems.org/read/chapter/3
