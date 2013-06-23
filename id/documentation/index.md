@@ -12,7 +12,7 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 [Try Ruby!][1]
 : Tutorial interaktif yang memungkinkan Anda mencoba Ruby tepat di browser
   Anda. Tutorial 15 menit tersebut ditujukan pada pemula yang ingin
-  mendapatkan merasakan bahasanya.
+  merasakan bahasanya.
 
 [Ruby Koans][2]
 : Ruby Koans memandu Anda sepanjang jalan menuju pencerahan untuk belajar
