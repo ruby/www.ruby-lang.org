@@ -3,7 +3,7 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# The Greeter class
+# Класс Greeter
 class Greeter
   def initialize(name)
     @name = name.capitalize
@@ -14,9 +14,9 @@ class Greeter
   end
 end
 
-# Create a new object
+# Создаем новый объект
 g = Greeter.new("world")
 
-# Output "Hello World!"
+# Результат будет "Hello World!"
 g.salute
 {% endhighlight %}
