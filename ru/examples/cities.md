@@ -3,10 +3,10 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# Ruby knows what you
-# mean, even if you
-# want to do math on
-# an entire Array
+# Ruby понимает,
+# что вы имеете ввиду,
+# даже если вы хотите производить
+# вычисления на целом массиве
 cities  = %w[ London
               Oslo
               Paris

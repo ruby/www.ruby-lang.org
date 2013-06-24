@@ -3,15 +3,15 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# The famous Hello World
-# Program is trivial in
-# Ruby. Superfluous:
+# Знаменитая программа
+# Hello World очень проста с
+# Ruby. Здесь будут лишними:
 #
-# * A "main" method
-# * Newline
-# * Semicolons
+# * Метод "main"
+# * Перенос строки
+# * Точки с запятой
 #
-# Here is the Code:
+# Вот и сам код:
 
 puts "Hello World!"
 {% endhighlight %}
