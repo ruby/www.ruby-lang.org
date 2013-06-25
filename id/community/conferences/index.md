@@ -40,7 +40,7 @@ bergabung dengan milis tersebut untuk mengetahui perkembangan terbaru.
   Odaiba. Rencana mendatang belum diumumkan—tapi ikuti terus
   perkembangannya.
 
-[EuRuKo <small>(Europaeische Ruby Konferenz)</small>][7]
+[EuRuKo <small>(European Ruby Conference)</small>][7]
 : Konferensi Ruby Eropa tahunan (EuRuKo) yang pertama digelar di
   Karlsruhe, Jerman, pada tahun 2003. Diselenggarakan oleh komunitas
   Ruby Jerman termasuk Armin Roehrl dan Michael Neumann, EuRuKo telah

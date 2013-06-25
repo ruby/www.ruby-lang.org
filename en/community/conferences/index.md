@@ -26,7 +26,7 @@ the Ruby community.
   Odaiba. RubyKaigi provides many new and exciting talks by Matz and
   other Rubyists in every year.
 
-[EuRuKo <small>(Europaeische Ruby Konferenz)</small>][4]
+[EuRuKo <small>(European Ruby Conference)</small>][4]
 : The first annual European Ruby Conference (EuRuKo) was held in
   Karlsruhe, Germany, in 2003. Organized by a team of German Rubyists
   including Armin Roehrl and Michael Neumann, EuRuKo emerged as the
