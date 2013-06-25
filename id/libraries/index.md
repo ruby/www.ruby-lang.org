@@ -15,29 +15,6 @@ hal, itu adalah sistem distribusi packaging yang mirip dengan, katakanlah,
 dilengkapi dengan RubyGems secara default, sementara pada versi sebelumnya
 kita perlu [menginstalnya sendiri][2].
 
-
-### Mencari Library
-{: #finding-libraries}
-
-[**RubyForge**][1] adalah situs populer untuk library Ruby. Bagian yang
-menarik untuk dikunjungi adalah [peta software][2], yang menampilkan
-daftar software berdasarkan topik. (Apabila Anda berminat membuat
-library sendiri, Anda dipersilahkan [register][3] proyek Anda di
-Rubyforge dan mendapatkan akses gratis untuk Subversion, web hosting,
-dan mailing list.)
-
-[**Ruby Application Archive**][4] (RAA) adalah direktori yang berisi
-berbagai macam software Ruby berdasarkan fungsi. Kategori-kategori
-yang cukup populer adalah [Database][5], [Net][6], [HTML][7], dan
-[XML][8]. Bahkan ada juga software untuk kategori [Physics][9].
-
-Beberapa library lain dirilis sebagai arsip (.zip atau .tar.gz)
-direktori dari **kode**. Proses instalasi dapat bervariasi,
-biasanya file `README` atau `INSTALL` menyediakan instruksi.
-
-Mari kita lihat cara menemukan library dan menginstalnya
-untuk penggunaan Anda sendiri.
-
 ### Menemukan Library
 
 [**RubyGems.org**][3] adalah tempat utama dimana library dihost, menyediakan
