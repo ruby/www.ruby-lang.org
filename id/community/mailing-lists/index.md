@@ -47,7 +47,7 @@ manual](/id/community/mailing-lists/manual-instructions/).
 
 
 [1]: http://id.wikipedia.org/wiki/Milis "Group diskusi di internet dimana setiap orang bisa berlangganan dan berpartisipasi didalamnya."
-[2]: http://groups.google.com/group/ruby-indonesia
+[2]: http://groups.yahoo.com/group/id-ruby/
 [3]: http://gmane.org/info.php?group=gmane.comp.lang.ruby.region.indonesia
 [4]: http://news.gmane.org/gmane.comp.lang.ruby.region.indonesia
 [5]: http://blog.gmane.org/gmane.comp.lang.ruby.region.indonesia
