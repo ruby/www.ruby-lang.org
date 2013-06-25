@@ -54,7 +54,6 @@ brilhante, tenha a certeza que os informou!
 
 [1]: http://del.icio.us/tag/ruby "Ruby no del.icio.us"
 [2]: http://del.icio.us/popular/ruby "gráfico de popularidade"
-[3]: http://technorati.com/search/ruby "Ruby no Technorati"
 [4]: http://rubycorner.com "Ruby Corner"
 [5]: http://planetruby.0x42.net/ "Planet Ruby"
 [6]: http://www.planetrubyonrails.org/ "Planet Ruby on Rails"
