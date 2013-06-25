@@ -37,7 +37,7 @@ kode gem di-host di GitHub, dan dipublikasikan sebagai gem lengkap di RubyGems.o
 yang dikategorikan berdasarkan fungsi, tetapi tidak banyak digunakan lagi.
 Anda mungkin tidak perlu pergi ke sana.
 
-### Beberapa Kata tentant RubyGems
+### Beberapa Kata tentang RubyGems
 
 Berikut ini tinjauan singkat dari perintah `gem` untuk penggunaan sehari-hari Anda.
 [Dokumentasi lebih rinci][7] tersedia, dan mencakup semua aspek sistem packaging ini.
