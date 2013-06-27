@@ -17,7 +17,7 @@ sidebar: |
   {% assign news = site.locales.news['en'] %}
 {% endif %}
 
-{% for post in site.categories[page.lang] limit:3 %}
+{% for post in site.categories[page.lang] limit:4 %}
 <div class="post">
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
@@ -32,7 +32,7 @@ sidebar: |
 <div id="news">
   <h3><a href="news/">{{ news.other_news }}</a></h3>
   <ul>
-    {% for post in site.categories[page.lang] offset:3 limit:3 %}
+    {% for post in site.categories[page.lang] offset:4 limit:3 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span class="post-info">{{ post.date | posted_by:post.author }}</span>
@@ -41,7 +41,7 @@ sidebar: |
   </ul>
 
   <ul>
-    {% for post in site.categories[page.lang] offset:6 limit:3 %}
+    {% for post in site.categories[page.lang] offset:7 limit:3 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span class="post-info">{{ post.date | posted_by:post.author }}</span>
