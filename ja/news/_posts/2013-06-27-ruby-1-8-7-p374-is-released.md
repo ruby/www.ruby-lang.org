@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7-p374 is released"
+title: "Ruby 1.8.7-p374 リリース"
 author: "hsbt"
 translator:
 date: 2013-06-27 11:00:00 UTC
