@@ -11,8 +11,10 @@ Ruby 1.8.7-p374 がリリースされました。
 
 今回のリリースには、以下の脆弱性に関するセキュリティフィックスが含まれます。
 
- * [OpenSSL クライアントにおけるホスト名検証バイパス脆弱性 (CVE-2013-4073)](/ja/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
- * [REXML におけるエンティティ展開に伴うサービス不能攻撃について (CVE-2013-1821)](/ja/news/2013/02/22/rexml-dos-2013-02-22/)
+ * [OpenSSL クライアントにおけるホスト名検証バイパス脆弱性
+   (CVE-2013-4073)](/ja/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [REXML におけるエンティティ展開に伴うサービス不能攻撃について
+   (CVE-2013-1821)](/ja/news/2013/02/22/rexml-dos-2013-02-22/)
 
 ## ダウンロード
 

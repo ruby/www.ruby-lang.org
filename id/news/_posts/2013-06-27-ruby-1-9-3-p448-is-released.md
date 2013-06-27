@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p448 Dirilis"
 author: "usa"
-translator: catcyborg
+translator: "catcyborg"
 date: 2013-06-27 11:00:02 UTC
 lang: id
 ---
@@ -11,10 +11,12 @@ Sekarang Ruby 1.9.3-p448 dirilis.
 
 Rilis ini mencakup perbaikan keamanan tentang OpenSSL yang dibundel:
 
- * [Kerentanan terlewatinya pemeriksaan hostname pada klien SSL (CVE-2013-4073)](/id/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [Kerentanan terlewatinya pemeriksaan hostname pada klien SSL
+   (CVE-2013-4073)](/id/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 Dan beberapa perbaikan bug lain juga termasuk dalam rilis ini.
-Harap lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) dan [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) untuk rinciannya.
+Harap lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
+dan [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) untuk rinciannya.
 
 ## Unduhan
 

@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.8.7-p374 Dirilis"
 author: "hsbt"
-translator: catcyborg
+translator: "catcyborg"
 date: 2013-06-27 11:00:01 UTC
 lang: id
 ---
@@ -11,8 +11,10 @@ Sekarang Ruby 1.8.7-p374 dirilis.
 
 Rilis ini mencakup perbaikan keamanan berikut:
 
- * [Kerentanan terlewatinya pemeriksaan hostname pada klien SSL (CVE-2013-4073)](/id/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
- * [Kerentanan DoS ekspansi entiti pada REXML (XML bomb, CVE-2013-1821)](/id/news/2013/02/22/rexml-dos-2013-02-22/)
+ * [Kerentanan terlewatinya pemeriksaan hostname pada klien SSL
+   (CVE-2013-4073)](/id/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [Kerentanan DoS ekspansi entiti pada REXML
+   (XML bomb, CVE-2013-1821)](/id/news/2013/02/22/rexml-dos-2013-02-22/)
 
 ## Unduhan
 

@@ -11,8 +11,10 @@ Now Ruby 1.8.7-p374 is released.
 
 This release includes follow security fixes:
 
- * [Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
- * [Entity expansion DoS vulnerability in REXML (XML bomb, CVE-2013-1821)](/en/news/2013/02/22/rexml-dos-2013-02-22/)
+ * [Hostname check bypassing vulnerability in SSL client
+   (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [Entity expansion DoS vulnerability in REXML (XML bomb,
+   CVE-2013-1821)](/en/news/2013/02/22/rexml-dos-2013-02-22/)
 
 ## Download
 

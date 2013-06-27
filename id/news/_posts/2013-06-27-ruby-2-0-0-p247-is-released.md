@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.0.0-p247 Dirilis"
 author: "nagachika"
-translator: catcyborg
+translator: "catcyborg"
 date: 2013-06-27 11:00:03 UTC
 lang: id
 ---
@@ -11,7 +11,8 @@ Sekarang Ruby 2.0.0-p247 dirilis.
 
 Rilis ini mencakup perbaikan keamanan tentang OpenSSL yang dibundel.
 
-* [Kerentanan terlewatinya pemeriksaan hostname pada klien SSL (CVE-2013-4073)](/id/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+* [Kerentanan terlewatinya pemeriksaan hostname pada klien SSL
+  (CVE-2013-4073)](/id/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 Dan beberapa perbaikan bug lain juga termasuk dalam rilis ini.
 
@@ -41,12 +42,13 @@ Anda dapat mengunduh rilis ini dari:
 
 Berikut ini daftar perbaikan besar.
 
-Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) dan [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) untuk rinciannya.
+Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+dan [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) untuk rinciannya.
 
 ### keyword arguments (argumen berkata kunci)
 
 * [#8040](https://bugs.ruby-lang.org/issues/8040) ganti prioritas antara argumen berkata kunci dan argumen wajib.
-* [#8416](https://bugs.ruby-lang.org/issues/8416) super tidak mem-forward ** bernama atau anonim
+* [#8416](https://bugs.ruby-lang.org/issues/8416) super tidak mem-forward `**` bernama atau anonim
 * [#8463](https://bugs.ruby-lang.org/issues/8463) bug pada auto-splat Proc dengan argumen bernama
 
 ### VM/Pemrosesan Bahasa

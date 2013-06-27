@@ -11,7 +11,8 @@ Now Ruby 2.0.0-p247 is released.
 
 This release includes a security fix about bundled OpenSSL.
 
-* [Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+* [Hostname check bypassing vulnerability in SSL client
+  (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 And some bugfixes are also included.
 
@@ -41,12 +42,13 @@ You can download this release from:
 
 Major fixes are listed below.
 
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) for details.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) for details.
 
 ### keyword arguments
 
 * [#8040](https://bugs.ruby-lang.org/issues/8040) change priority between keyword arguments and mandatory arguments.
-* [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous **
+* [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous `**`
 * [#8463](https://bugs.ruby-lang.org/issues/8463) Proc auto-splat bug with named arguments
 
 ### VM/Language Processing
