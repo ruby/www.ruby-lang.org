@@ -1,9 +1,9 @@
 ---
 layout: news_post
 title: "Liberado Ruby 1.8.7-p374"
-author: "nagachika"
+author: "hsbt"
 translator: "David Padilla"
-date: 2013-06-27 11:00:00 UTC
+date: 2013-06-27 11:00:01 UTC
 lang: es
 ---
 
@@ -11,8 +11,10 @@ Ha sido liberada la versión de Ruby 1.8.7-p374
 
 Esta entrega incluye las siguientes correcciones de seguridad:
 
- * [Vulnerabilidad por evasión de validación del nombre de cliente de SSL. (CVE-2013-4073)](/es/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
- * [Vulnerabilidad DoS por expansión de entidades en REXML (bomba XML, CVE-2013-1821)](/es/news/2013/02/22/rexml-dos-2013-02-22/)
+ * [Vulnerabilidad por evasión de validación del nombre de cliente de SSL
+   (CVE-2013-4073)](/es/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [Vulnerabilidad DoS por expansión de entidades en REXML (bomba XML,
+   CVE-2013-1821)](/es/news/2013/02/22/rexml-dos-2013-02-22/)
 
 ## Descargas
 

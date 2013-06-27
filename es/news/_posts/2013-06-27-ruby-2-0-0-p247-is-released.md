@@ -3,7 +3,7 @@ layout: news_post
 title: "Liberado Ruby 2.0.0-p247"
 author: "nagachika"
 translator: "David Padilla"
-date: 2013-06-27 11:00:00 UTC
+date: 2013-06-27 11:00:03 UTC
 lang: es
 ---
 
@@ -11,7 +11,8 @@ Ha sido liberada la versión de Ruby 2.0.0-p247.
 
 Esta entrega incluye una corrección de seguridad con respecto a OpenSSL.
 
-* [Vulnerabilidad por evasión de validación del nombre de cliente de SSL. (CVE-2013-4073)](/es/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+* [Vulnerabilidad por evasión de validación del nombre de cliente de SSL
+  (CVE-2013-4073)](/es/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 También incluye otras correcciones.
 

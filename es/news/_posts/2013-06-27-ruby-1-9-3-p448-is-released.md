@@ -1,9 +1,9 @@
 ---
 layout: news_post
 title: "Liberado Ruby 1.9.3-p448"
-author: "nagachika"
+author: "usa"
 translator: "David Padilla"
-date: 2013-06-27 11:00:00 UTC
+date: 2013-06-27 11:00:02 UTC
 lang: es
 ---
 
@@ -12,7 +12,8 @@ Ha sido liberada la versión de Ruby 1.9.3-p448.
 Esta entrega incluye una corrección de seguridad con respecto a la implementación
 de OpenSSL.
 
- * [Vulnerabilidad por evasión de validación del nombre de cliente de SSL. (CVE-2013-4073)](/es/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [Vulnerabilidad por evasión de validación del nombre de cliente de SSL
+   (CVE-2013-4073)](/es/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 También incluye otras correcciones.
 
@@ -45,4 +46,3 @@ Para mas detalles ver [Tickets](https://bugs.ruby-lang.org/projects/ruby-193/iss
 
 Muchas gracias a todos los committers, personas que probaron y usuarios que reportaron
 bugs. Su apoyo ayudó mucho a liberar esta versión.
-
