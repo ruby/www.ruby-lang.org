@@ -42,7 +42,7 @@ Ruby 2.0.0-p247 をリリースします。
 
 ### キーワード引数
 
-* [#8040](https://bugs.ruby-lang.org/issues/8040) change pirority between keyword arguments and mandatory arguments.
+* [#8040](https://bugs.ruby-lang.org/issues/8040) change priority between keyword arguments and mandatory arguments.
 * [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous **
 * [#8463](https://bugs.ruby-lang.org/issues/8463) Proc auto-splat bug with named arguments
 
