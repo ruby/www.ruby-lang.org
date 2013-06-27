@@ -17,6 +17,7 @@ security@ruby-lang.orgは非公開MLで、報告された問題が確認され�
 
 新しいものから順に並べています。
 
+* [OpenSSL クライアントにおけるホスト名検証バイパス脆弱性 (CVE-2013-4073)](/ja/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 * [DL および Fiddle におけるオブジェクト汚染フラグバイパス
   (CVE-2013-2065)](/ja/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/) 2013年05月14日公開
 * [REXML におけるエンティティ展開に伴うサービス不能攻撃について][1] 2013年02月22日公開
