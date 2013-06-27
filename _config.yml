@@ -113,8 +113,8 @@ locales:
         url:  /es/community
       - text: Noticias
         url:  /es/news
-#     - text: Seguridad
-#       url:  /es/security
+      - text: Seguridad
+        url:  /es/security
       - text: Acerca de Ruby
         url:  /es/about
     fr:
