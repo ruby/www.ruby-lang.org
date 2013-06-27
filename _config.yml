@@ -25,25 +25,25 @@ license:
 
 downloads:
   stable:
-    version: 2.0.0-p195
+    version: 2.0.0-p247
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.zip
+      bz2: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
+      gz: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+      zip: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
     md5:
-      bz2: 2f54faea6ee1ca500632ec3c0cb59cb6
-      gz: 0672e5af309ae99d1703d0e96eff8ea5
-      zip: 924fe4bea72b1b258655211998631791
+      bz2: 60913f3eec0c4071f44df42600be2604
+      gz: c351450a0bed670e0f5ca07da3458a5b
+      zip: 7548f781d868456e84afcd0327c7f894
   previous:
-    version: 1.9.3-p429
+    version: 1.9.3-p448
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.zip
+      bz2: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2
+      gz: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
+      zip: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.zip
     md5:
-      bz2: c2b2de5ef15ea9b1aaa3152f9112af1b
-      gz: 993c72f7f805a9eb453f90b0b7fe0d2b
-      zip: 1986f3934e61b999873d21a79d69d88d
+      bz2: aa710d386e5903f78f0231868255e6af
+      gz: a893cff26bcf351b8975ebf2a63b1023
+      zip: bb3b1108847abaab312c024f3c0bc6c3
   stable_snapshot:
     url:
       bz2: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
