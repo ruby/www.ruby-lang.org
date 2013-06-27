@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.0.0-p247 Dirilis"
 author: "nagachika"
 translator: catcyborg
-date: 2013-06-27 11:00:00 UTC
+date: 2013-06-27 11:00:03 UTC
 lang: id
 ---
 

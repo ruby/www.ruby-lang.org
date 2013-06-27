@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.8.7-p374 Dirilis"
 author: "hsbt"
 translator: catcyborg
-date: 2013-06-27 11:00:00 UTC
+date: 2013-06-27 11:00:01 UTC
 lang: id
 ---
 
