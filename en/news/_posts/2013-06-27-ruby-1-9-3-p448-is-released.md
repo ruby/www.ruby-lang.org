@@ -11,7 +11,7 @@ Now Ruby 1.9.3-p448 is released.
 
 This release includes a security fix about bundled OpenSSL:
 
- * [Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)](/en/news/2013/06/25/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 And some bugfixes are also included.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) for details.

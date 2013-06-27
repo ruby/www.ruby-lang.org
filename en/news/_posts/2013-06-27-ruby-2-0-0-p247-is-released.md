@@ -11,7 +11,7 @@ Now Ruby 2.0.0-p247 is released.
 
 This release includes a security fix about bundled OpenSSL.
 
-* [Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)](/en/news/2013/06/25/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+* [Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 And some bugfixes are also included.
 

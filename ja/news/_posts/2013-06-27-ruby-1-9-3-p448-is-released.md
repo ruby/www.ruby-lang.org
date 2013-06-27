@@ -11,7 +11,7 @@ Ruby 1.9.3-p448 がリリースされました。
 
 今回のリリースには、同梱されている拡張ライブラリ OpenSSL に関するセキュリティフィックスが含まれます。
 
- * [OpenSSL クライアントにおけるホスト名検証バイパス脆弱性 (CVE-2013-4073)](/ja/news/2013/06/25/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [OpenSSL クライアントにおけるホスト名検証バイパス脆弱性 (CVE-2013-4073)](/ja/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 この他にも、幾つかのバグ修正が含まれています。
 詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) を確認して下さい。
