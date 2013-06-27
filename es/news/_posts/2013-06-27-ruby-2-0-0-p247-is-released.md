@@ -41,6 +41,39 @@ También incluye otras correcciones.
 Para mas detalles ver [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) y
 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) correspondientes.
 
+Los cambios principales son:
+
+### Argumentos nombrados
+
+* [#8040](https://bugs.ruby-lang.org/issues/8040) Cambio en la prioridad entre argumentos nombrados y argumentos obligatiorios
+* [#8416](https://bugs.ruby-lang.org/issues/8416) super no reenvía `**` nombrado o anónimo
+* [#8463](https://bugs.ruby-lang.org/issues/8463) Problema con el auto-splat de un Proc cuando se utilizan argumentos nombrados
+
+### VM/Procesamiento del Lenguaje
+
+* [#8424](https://bugs.ruby-lang.org/issues/8424) corregir un ciclo infinito cuando hay un desbordamiento de pila con TH_PUSH_TAG()
+* [#8436](https://bugs.ruby-lang.org/issues/8436) \__dir__ no funciona en eval con binding
+* [#8489](https://bugs.ruby-lang.org/issues/8489) Tracepoint API: B_RETURN_EVENT no está siendo llamado cuando se utiliza "next"
+* [#8341](https://bugs.ruby-lang.org/issues/8341) block_given? (y el bloque actual) persiste entre llamadas a un proc creado desde un método (utilizando method().to_proc()).
+* [#8531](https://bugs.ruby-lang.org/issues/8531) block_given? (y el bloque actual) persiste entre llamadas a un proc creado por Symbol#to_proc.
+
+### RubyGems
+
+La versión incluida de RubyGems ha sido actualizada a 2.0.3
+
+### Codificado
+
+* [#8516](https://bugs.ruby-lang.org/issues/8516) IO#readchar regresa codepoints incorrectos cuando se convierte el codificado.
+
+### Windows
+
+* [#8431](https://bugs.ruby-lang.org/issues/8431) File.read() falla en Win32SP3 32bit
+
+### Bibliotecas
+
+* [#8467](https://bugs.ruby-lang.org/issues/8467) Rebobinar e iterar en un IO comprimido con gzip lleva a una falla de segmento
+* [#8415](https://bugs.ruby-lang.org/issues/8415) Net::IMAP#capability_response produce la excepción "Net::IMAP::ResponseParseError: unexpected token CRLF" para CAPABILITY común
+
 ## Comentarios de la versión
 
 Muchas gracias a todos los committers, personas que probaron y usuarios que reportaron
