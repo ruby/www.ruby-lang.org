@@ -45,7 +45,7 @@ See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&a
 
 ### keyword arguments
 
-* [#8040](https://bugs.ruby-lang.org/issues/8040) change pirority between keyword arguments and mandatory arguments.
+* [#8040](https://bugs.ruby-lang.org/issues/8040) change priority between keyword arguments and mandatory arguments.
 * [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous **
 * [#8463](https://bugs.ruby-lang.org/issues/8463) Proc auto-splat bug with named arguments
 
