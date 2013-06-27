@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.9.3-p447 リリース"
 author: "usa"
 translator:
-date: 2013-06-26 11:00:00 UTC
+date: 2013-06-27 11:00:00 UTC
 lang: ja
 ---
 

@@ -1,21 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-pXXX リリース"
+title: "Ruby 2.0.0-pXXX is released"
 author: "nagachika"
 translator:
-date: 2013-06-25 11:00:00 UTC
-lang: ja
+date: 2013-06-27 11:00:00 UTC
+lang: en
 ---
 
-Ruby 2.0.0-pXXX をリリースします。
+Now Ruby 2.0.0-pXXX is released.
 
-このリリースには拡張ライブラリ OpenSSL のセキュリティフィックスが含まれます。
+This release includes a security fix about bundled OpenSSL.
 
- * [OpenSSL クライアントにおけるホスト名検証バイパス脆弱性 (CVE-2013-4073)](/ja/news/2013/06/25/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+* [Hostname check bypassing vulnerability in SSL client (CVE-2013-4073)](/en/news/2013/06/25/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
-その他にもいくつかのバグフィックスや最適化、ドキュメントの修正が含まれています。主な変更点は以下の「変更点」を参考にしてください。
+And some bugfixes are also included.
 
-## ダウンロード
+## Download
+
+You can download this release from:
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-pXXX.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-pXXX.tar.bz2)
 
@@ -35,18 +37,19 @@ Ruby 2.0.0-pXXX をリリースします。
       MD5:    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
       SHA256: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 
-## 変更点
+## Changes
 
-主な変更点は以下にあります。より詳細な変更点は
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_XXX/ChangeLog) ファイルや[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)を参照してください。
+Major fixes are listed below.
 
-### キーワード引数
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_XXX/ChangeLog) for details.
+
+### keyword arguments
 
 * [#8040](https://bugs.ruby-lang.org/issues/8040) change pirority between keyword arguments and mandatory arguments.
 * [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous **
 * [#8463](https://bugs.ruby-lang.org/issues/8463) Proc auto-splat bug with named arguments
 
-### VM/処理系
+### VM/Language Processing
 
 * [#8424](https://bugs.ruby-lang.org/issues/8424) fix infinite loop when stack overflow with TH_PUSH_TAG()
 * [#8436](https://bugs.ruby-lang.org/issues/8436) \__dir__ not working in eval with binding
@@ -56,7 +59,7 @@ Ruby 2.0.0-pXXX をリリースします。
 
 ### RubyGems
 
-同梱している RubyGems のバージョンを 2.0.3 にアップデートしました。
+Bundled RubyGems version is updated to 2.0.3
 
 ### Encoding
 
@@ -66,11 +69,12 @@ Ruby 2.0.0-pXXX をリリースします。
 
 * [#8431](https://bugs.ruby-lang.org/issues/8431) File.read() crash on Win32SP3 32bit
 
-### ライブラリ
+### Libraries
 
 * [#8467](https://bugs.ruby-lang.org/issues/8467) Rewinding and iterating through gzipped IO leads to segmentation fault
 * [#8415](https://bugs.ruby-lang.org/issues/8415) Net::IMAP#capability_response raises "Net::IMAP::ResponseParseError: unexpected token CRLF" for common CAPABILITY
 
-## リリースコメント
+## Release Comment
 
-リリースにご協力頂いたコミッタ/開発者の皆様に感謝致します。ありがとうございました。
+Many committers, testers and users who gave bug reports helped me to
+make this release. Thanks for their contributions.
