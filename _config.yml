@@ -361,7 +361,7 @@ locales:
     pl: "Tłumaczone przez"
     pt: "Traduzido por"
     tr: "Çeviri:"
-#   zh_cn:
+    zh_cn: "翻译："
 #   zh_tw:
 
   feed:
