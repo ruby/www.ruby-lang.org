@@ -51,7 +51,7 @@ i [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog).
 * [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous `**`
 * [#8463](https://bugs.ruby-lang.org/issues/8463) Proc auto-splat bug with named arguments
 
-### VM/Przetwarznie języka
+### VM/Przetwarzanie języka
 
 * [#8424](https://bugs.ruby-lang.org/issues/8424) fix infinite loop when stack overflow with TH_PUSH_TAG()
 * [#8436](https://bugs.ruby-lang.org/issues/8436) \__dir__ not working in eval with binding
