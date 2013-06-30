@@ -53,9 +53,9 @@ will come in handy when you feel like coding in Ruby.
 [Learn to Program][8]
 : A wonderful little tutorial by Chris Pine for programming newbies. If
   you don’t know how to program, start here.
-  
-[Learn Ruby The Hard Way][38]
-: A very good set of exercises with good explanations that guide you from 
+
+[Learn Ruby the Hard Way][38]
+: A very good set of exercises with explanations that guide you from
   the absolute basics of Ruby all the way to OOP and web development.
 
 ### Manuals
