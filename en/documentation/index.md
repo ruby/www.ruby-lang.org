@@ -53,6 +53,10 @@ will come in handy when you feel like coding in Ruby.
 [Learn to Program][8]
 : A wonderful little tutorial by Chris Pine for programming newbies. If
   you don’t know how to program, start here.
+  
+[Learn Ruby The Hard Way][38]
+: A very good set of exercises with good explanations that guide you from 
+  the absolute basics of Ruby all the way to OOP and web development.
 
 ### Manuals
 
@@ -167,3 +171,4 @@ list](/en/community/mailing-lists/) is a great place to start.
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
+[38]: http://ruby.learncodethehardway.org/
