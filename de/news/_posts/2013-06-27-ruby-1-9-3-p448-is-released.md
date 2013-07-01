@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 1.9.3-p448 veröffentlicht"
-author: "hsbt"
+author: "usa"
 translator: "Marvin Gülker"
 date: 2013-06-27 11:00:02 UTC
 lang: de
@@ -63,7 +63,7 @@ OpenSSL:
 Viele Leute (Commiters, Contributors und Nutzer, die Fehler gemeldet
 haben) halfen mir bei diesem Release. Danke!
 
-[1]: /de/news/2013/06/27/hostname-check-umgehung-in-ssl-client/
+[1]: /de/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.zip
