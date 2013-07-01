@@ -1670,8 +1670,9 @@ locales:
     pl: |
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
-      Jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu skontaktuj się
-      <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>.
+      Proszę udziel nam wsparcia na <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
+      jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
     pt: |
       Este Site está construído em Ruby e gerido através de <a href="http://www.jekyllrb.com/">Jekyll</a>.
       É orgulhosamente mantido pelos membros da comunidade Ruby.
