@@ -1618,10 +1618,12 @@ locales:
 
   credits:
     bg: |
-      Този сайт е разработен на Ruby и използва <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      Този сайт е генериран с Ruby и излползва <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Поддържа се от членове на Ruby обществото.
-      Моля, свържете се с нашия <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      за въпроси или коментари относно сайта.
+      Ако имате желание да допринесете за развитието му, моля посетете
+      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> или се свържете с
+      <a href="mailto:webmaster@ruby-lang.org">webmaster-a</a>
+      за въпроси или коментари.
     de: |
       Diese Webseite wurde mit Ruby unter Verwendung von <a href="http://www.jekyllrb.com/">Jekyll</a> erstellt.
       Sie wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
