@@ -101,7 +101,7 @@ Die mitgelieferte RubyGems-Version wurde auf 2.0.3 aktualisiert.
 Viele Commiter, Tester und Nutzer, die Bugreports machten, halfen mir
 bei dieser Veröffentlichung. Ich danke ihnen für ihre Beiträge.
 
-[1]: /de/news/2013/06/27/hostname-check-umgehung-in-ssl-client/
+[1]: /de/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/
 [2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
 [3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
 [4]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
