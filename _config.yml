@@ -1638,9 +1638,10 @@ locales:
       for questions or comments concerning this website.
     es: |
       Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Es orgullosamente mantenido por miembros de la comunidad Ruby.
-      Por favor contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      si tienes preguntas o comentarios al respecto del sitio web.
+      y es orgullosamente mantenido por miembros de la comunidad.
+      Si quieres contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">Github</a>
+      o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      si tienes preguntas o comentarios.
     fr: |
       Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Il est fièrement maintenu par des membres de la communauté Ruby.
