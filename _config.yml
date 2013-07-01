@@ -532,15 +532,15 @@ locales:
       yearly_archive_link: "%Y년"
       monthly_archive_link: "%Y년 %m월"
     pl:
-      other_news: Więcej aktualności
+      other_news: Pozostałe aktualności
       more_news: Więcej aktualności...
       continue: Więcej...
-      back_to_year: "Back to %Y Archives"
+      back_to_year: "Powrót do Archiwum %Y"
       recent_news: Aktualności
-      yearly_archive_title: "%Y Archives"
-      monthly_archive_title: "%B %Y Archives"
-      yearly_archives: Archiwum Wiadomości
-      monthly_archives: Archives by Month
+      yearly_archive_title: "Archiwum %Y"
+      monthly_archive_title: "Archiwum %B %Y"
+      yearly_archives: Archiwum wiadomości
+      monthly_archives: Archiwum według miesiąca
       yearly_archive_link: "%Y"
       monthly_archive_link: "%B %Y"
     pt:
