@@ -11,7 +11,7 @@ Wydano Ruby 1.9.3-p448.
 
 To wydanie zawiera łatkę bezpieczeństwa dotyczącą dołączonego OpenSSL.
 
- * [Luka pozwalająca na ominięcie sprawdzenia nazwy hosta w kliencie SSL (CVE-2013-4073)
+ * [Luka pozwalająca na ominięcie sprawdzenia nazwy hosta w kliencie SSL
    (CVE-2013-4073)](/pl/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 Zawartych zostało też trochę poprawek błędów.
