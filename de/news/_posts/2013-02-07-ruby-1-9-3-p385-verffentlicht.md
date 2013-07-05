@@ -60,7 +60,7 @@ Siehe die [Tickets][2] und das [Changelog][3] für weitere Informationen.
 
 ### Danksagung
 
-Viele Commiter, Tester und Nutzer, die Fehler gemeldet haben, halfen uns
+Viele Committer, Tester und Nutzer, die Fehler gemeldet haben, halfen uns
 sehr bei der Veröffentlichung dieser Version. Vielen Dank an alle eure
 Mitarbeit.
 

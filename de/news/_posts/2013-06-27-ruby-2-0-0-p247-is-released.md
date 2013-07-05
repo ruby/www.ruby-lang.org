@@ -98,7 +98,7 @@ Die mitgelieferte RubyGems-Version wurde auf 2.0.3 aktualisiert.
 
 ## Danksagung
 
-Viele Commiter, Tester und Nutzer, die Bugreports machten, halfen mir
+Viele Committer, Tester und Nutzer, die Bugreports machten, halfen mir
 bei dieser Veröffentlichung. Ich danke ihnen für ihre Beiträge.
 
 [1]: /de/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/

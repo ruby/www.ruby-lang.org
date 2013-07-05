@@ -43,7 +43,7 @@ Lihat [changelog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
 atau [tiket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
 untuk rinciannya.
 
-Terima kasih banyak kepada semua commiter dan kontributor.
+Terima kasih banyak kepada semua committer dan kontributor.
 
 ### Core - prepend
 

@@ -63,7 +63,7 @@ Siehe die [Tickets][1] und das [Changelog][2] für weitere Informationen.
 
 ### Danksagung
 
-Viele Commiters und Nutzer, die Bugreports geschrieben haben, halfen mir
+Viele Committer und Nutzer, die Bugreports geschrieben haben, halfen mir
 bei der Veröffentlichung dieser Version. Danke euch allen.
 
 Schöne Ferien und happy hacking!

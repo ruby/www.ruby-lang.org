@@ -67,7 +67,7 @@ empfehlen wir Nutzern früherer Releases (insbesondere p362) ein Update.
 
 ### Danksagung
 
-Vielen Dank an die vielen Commiter und Tester sowie an die zahlreichen
+Vielen Dank an die vielen Committer und Tester sowie an die zahlreichen
 Nutzer, die Bugreports geschrieben haben. Vielen Dank euch allen. Ihr
 habt uns bei diesem Release sehr geholfen.
 

@@ -60,7 +60,7 @@ Dieses Release behandelt die folgenden Sicherheitslücken:
 
 ## Danksagung
 
-Viele Leute (Commiters, Contributors und Nutzer, die Fehler gemeldet
+Viele Leute (Committer, Contributor und Nutzer, die Fehler gemeldet
 haben) halfen mir bei diesem Release. Danke!
 
 [1]: /de/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/

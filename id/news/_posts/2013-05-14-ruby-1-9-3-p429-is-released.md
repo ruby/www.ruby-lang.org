@@ -44,5 +44,5 @@ Anda dapat mengunduh rilis ini dari:
 
 ## Komentar Rilis
 
-Banyak commiter, tester, dan pengguna yang menginformasikan bug menolong saya untuk
+Banyak committer, tester, dan pengguna yang menginformasikan bug menolong saya untuk
 membuat rilis ini. Terima kasih untuk kontribusi mereka.
