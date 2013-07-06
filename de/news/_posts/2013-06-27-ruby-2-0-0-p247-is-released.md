@@ -12,7 +12,9 @@ Ruby 2.0.0-p247 ist veröffentlicht worden.
 Dieses Release schließt eine Sicherheitslücke im mitgelieferten
 OpenSSL:
 
-* [Umgehung von Hostname-Check in SSL-Client (CVE-2013-4073)][1]
+* [Umgehung von Hostname-Check im SSL-Client (CVE-2013-4073)][1]
+
+Diese Version enthält auch einige Bugfixes.
 
 ## Download
 
@@ -65,9 +67,9 @@ Größere Fixes sind unten aufgeführt.
 Siehe die [Tickets][5] und das [Changelog][6] für nähere
 Informationen.
 
-### Schlüsselwortargumente
+### Benannte Argumente
 
-* [#8040](https://bugs.ruby-lang.org/issues/8040) Priorität zwischen Schlüsselwortargumenten und erforderlichen Argumenten verändert
+* [#8040](https://bugs.ruby-lang.org/issues/8040) Priorität zwischen benannten Argumenten und erforderlichen Argumenten verändert
 * [#8416](https://bugs.ruby-lang.org/issues/8416) `super` gibt weder benannte noch anonyme Argumente mittels `**` weiter
 * [#8463](https://bugs.ruby-lang.org/issues/8463) Auto-Splat-Bug mit Procs und benannten Argumenten
 
@@ -89,7 +91,7 @@ Die mitgelieferte RubyGems-Version wurde auf 2.0.3 aktualisiert.
 
 ### Windows
 
-* [#8431](https://bugs.ruby-lang.org/issues/8431) `File.read()`-Absturz auf 32-Bit Windows mit SP3
+* [#8431](https://bugs.ruby-lang.org/issues/8431) `File.read()`-Absturz auf 32-Bit-Windows mit SP3
 
 ### Programmbibliotheken
 

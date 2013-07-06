@@ -11,7 +11,7 @@ Ruby 1.8.7-p374 ist veröffentlicht worden.
 
 Dieses Release behandelt die folgenden Sicherheitslücken:
 
-* [Umgehung von Hostname-Check in SSL-Client (CVE-2013-4073)][1]
+* [Umgehung von Hostname-Check im SSL-Client (CVE-2013-4073)][1]
 * [Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe, CVE-2013-1821)][2]
 
 ## Download
