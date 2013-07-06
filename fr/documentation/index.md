@@ -28,6 +28,9 @@ dominante en informatique. Bon courage !
 [Je veux apprendre Ruby][2]
 : Ce site liste les principales ressources pour apprendre Ruby.
 
+[ROR French Casts](http://www.youtube.com/user/Berlimioz)
+: Une série de casts en français sur Ruby et Rails.
+
 #### Ressources en anglais
 
 [Try Ruby!][3]
