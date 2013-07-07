@@ -7,7 +7,7 @@ date: 2013-06-27 11:00:03 UTC
 lang: fr
 ---
 
-Ruby 2.0.0-p247 a été publié.
+La version 2.0.0-p247 de Ruby vient d'être publiée.
 
 Cette version inclut un correctif de sécurité sur la bibliothèque OpenSSL
 embarquée :
@@ -15,7 +15,7 @@ embarquée :
  * [Vulnérabilité dans le client SSL permettant de contourner la vérification du nom de domaine
    (CVE-2013-4073)](/fr/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
-Et elle contient également des correctifs de bugs.
+Elle contient également des correctifs de bugs.
 
 ## Téléchargement
 
