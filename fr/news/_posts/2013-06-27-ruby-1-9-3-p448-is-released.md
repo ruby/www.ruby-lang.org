@@ -7,7 +7,7 @@ date: 2013-06-27 11:00:02 UTC
 lang: fr
 ---
 
-Ruby 1.9.3-p448 a été publié.
+Le version 1.9.3-p448 de Ruby vient d'être publiée.
 
 Cette version inclut un correctif de sécurité sur la bibliothèque OpenSSL
 embarquée :
@@ -15,7 +15,7 @@ embarquée :
  * [Vulnérabilité dans le client SSL permettant de contourner la vérification du nom de domaine
    (CVE-2013-4073)](/fr/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
-Et elle contient également des correctifs de bugs.
+Elle contient également des correctifs de bugs.
 Voyez les [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
 et le [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) pour plus de détails.
 
@@ -42,4 +42,4 @@ et le [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog)
 ## Commentaire
 
 Merci aux nombreuses personnes (committers, contributeurs et rapporteurs de
-bugs) pour leur aide pour sortir cette version.
+bugs) pour l'aide apportée sur cette version.

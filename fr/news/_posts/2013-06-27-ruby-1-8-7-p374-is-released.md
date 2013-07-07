@@ -8,7 +8,7 @@ date: 2013-06-27 11:00:01 UTC
 lang: fr
 ---
 
-Ruby 1.8.7-p374 a été publiée.
+La version 1.8.7-p374 de Ruby vient d'être publiée.
 
 Cette version contient des correctifs de sécurité pour les attaques suivantes :
 
@@ -40,4 +40,4 @@ Cette version contient des correctifs de sécurité pour les attaques suivantes 
 ## Commentaire
 
 Merci aux nombreuses personnes (committers, contributeurs et rapporteurs de
-bugs) pour leur aide pour sortir cette version.
+bugs) pour l'aide apportée sur cette version.
