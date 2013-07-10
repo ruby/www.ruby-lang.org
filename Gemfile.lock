@@ -25,7 +25,7 @@ GEM
     liquid (2.5.0)
     maruku (0.6.1)
       syntax (>= 1.0.0)
-    mina (0.2.1)
+    mina (0.3.0)
       open4
       rake
     mini_portile (0.5.0)
