@@ -35,7 +35,7 @@ end
 namespace :new_post do
 
   def create_template(lang)
-    url_title = 'post-title'
+    url_title = 'short-title'
     title = 'Post Title'
 
     creation_time = Time.now.utc
