@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
-gem 'thin'
 gem 'rake',   '~> 10.0'
 gem 'jekyll', '>= 1.0.2'
+
+# for heroku
+gem 'thin'
 gem 'rack-jekyll'
 
 group :development do
