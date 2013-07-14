@@ -3,15 +3,15 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# Output "I love Ruby"
-say = "I love Ruby"
-puts say
+# In ra "Tôi yêu Ruby"
+nói = "Tôi yêu Ruby"
+puts nói
 
-# Output "I *LOVE* RUBY"
-say['love'] = "*love*"
-puts say.upcase
+# In ra "TÔI *YÊU* RUBY"
+nói['yêu'] = "*yêu*"
+puts nói.upcase
 
-# Output "I *love* Ruby"
-# five times
-5.times { puts say }
+# In ra "Tôi *yêu* Ruby"
+# 5 lần
+5.times { puts nói }
 {% endhighlight %}
