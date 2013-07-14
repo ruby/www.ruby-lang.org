@@ -3,20 +3,20 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# The Greeter class
-class Greeter
-  def initialize(name)
-    @name = name.capitalize
+# class ChàoMừng
+class ChàoMừng
+  def initialize(tên)
+    @tên = tên.capitalize
   end
 
-  def salute
-    puts "Hello #{@name}!"
+  def chào
+    puts "Xin chào #{@tên}!"
   end
 end
 
-# Create a new object
-g = Greeter.new("world")
+# Tạo một đối tượng mới
+g = ChàoMừng.new("Việt Nam")
 
-# Output "Hello World!"
-g.salute
+# In ra "Xin chào Việt Nam!"
+g.chào
 {% endhighlight %}
