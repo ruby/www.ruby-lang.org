@@ -463,13 +463,13 @@ locales:
       other_news: Otras noticias
       more_news: Más noticias...
       continue: Continuar leyendo...
-      back_to_year: "Volver a las noticias del %Y"
+      back_to_year: "Volver a las noticias de %Y"
       recent_news: Noticias recientes
-      yearly_archive_title: "Noticias del %Y"
+      yearly_archive_title: "Noticias de %Y"
       monthly_archive_title: "Noticias de %B %Y"
       yearly_archives: Noticias por año
       monthly_archives: Noticias por mes
-      yearly_archive_link: "Noticias del %Y"
+      yearly_archive_link: "Noticias de %Y"
       monthly_archive_link: "%B %Y"
     fr:
       other_news: Autres actualités
@@ -501,11 +501,11 @@ locales:
       continue: Continua...
       back_to_year: "Vai all'archivio %Y"
       recent_news: Notizie Recenti
-      yearly_archive_title: "%Y Archives"
-      monthly_archive_title: "%B %Y Archives"
+      yearly_archive_title: "Archivio dell'anno %Y"
+      monthly_archive_title: "Archivio mensile %B %Y"
       yearly_archives: Archivio dell'anno
       monthly_archives: Archivio Mensile
-      yearly_archive_link: "%Y Archives"
+      yearly_archive_link: "Archivio dell'anno %Y"
       monthly_archive_link: "%B %Y"
     ja:
       other_news: その他のニュース
@@ -789,7 +789,7 @@ locales:
           url: /en/feeds/news.rss
     es:
       get_started:
-        text: <strong>Iníciate</strong>, ¡es fácil!
+        text: "<strong>Iníciate</strong>, ¡es fácil!"
         try_ruby:
           text: ¡Prueba Ruby! (en tu navegador)
           <<: *try_ruby
@@ -835,15 +835,15 @@ locales:
           url: /en/community/ruby-core/
           description: |
             Ayuda a mejorar el futuro de Ruby.
-#       issue_tracking:
-#         text: Issue Tracking
-#         url: https://bugs.ruby-lang.org/
-#         description: |
-#           Report or help solve issues in Ruby.
+        issue_tracking:
+          text: Reportes de errores
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Reporta o ayuda a resolver problemas en Ruby.
 #     top_ruby_projects:
-#       text: Some Top Ruby Projects
+#       text: Algunos proyectos populares
 #       more:
-#         text: More…
+#         text: Leer más…
 #         url: /en/libraries/top-projects/
       syndicate:
         text: Feeds de noticias (RSS)
