@@ -10,11 +10,6 @@ describing new techniques, or speculating on Ruby’s future.
 
 ### Mining for Ruby Blogs
 
-[**Ruby on del.icio.us**][1]\: Ruby and Rails are consistently one of
-the top fifty tags on del.icio.us, a popular link sharing site. Watch
-the [ruby][1] tag for incoming obscure links and its [popularity
-chart][2] for recent upcomers in the Ruby community.
-
 **Planets**\: some planets (online specialized feeds agregators) have been running for years now. A few of them providing convenient content:
 
 * [Ruby Corner][4]
