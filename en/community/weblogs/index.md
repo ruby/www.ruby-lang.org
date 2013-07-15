@@ -10,7 +10,8 @@ describing new techniques, or speculating on Ruby’s future.
 
 ### Mining for Ruby Blogs
 
-**Planets**\: some planets (online specialized feeds agregators) have been running for years now. A few of them providing convenient content:
+Some **planets** (online specialized feed aggregators) have been running
+for years now. A few of them providing convenient content:
 
 * [Ruby Corner][4]
 * [Planet Ruby][5]
