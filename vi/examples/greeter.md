@@ -15,8 +15,8 @@ class ChàoMừng
 end
 
 # Tạo một đối tượng mới
-g = ChàoMừng.new("Việt Nam")
+g = ChàoMừng.new("thế giới")
 
-# In ra "Xin chào Việt Nam!"
+# In ra "Xin chào thế giới!"
 g.chào
 {% endhighlight %}
