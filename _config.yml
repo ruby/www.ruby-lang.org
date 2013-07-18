@@ -1690,4 +1690,4 @@ locales:
     zh_tw: |
       本網站使用 Ruby 套件 <a href="http://www.jekyllrb.com/">Jekyll</a> 產生，並由引以為傲的 Ruby 社群成員共同維護。
       請至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> 幫忙貢獻。關於本站的問題與意見，
-      請聯絡<a href="mailto:webmaster@ruby-lang.org">網站管理員</a>。  
+      請聯絡<a href="mailto:webmaster@ruby-lang.org">網站管理員</a>。
