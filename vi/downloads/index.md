@@ -45,7 +45,7 @@ cụ bên thứ ba trong phân mục tiếp theo.
   SVN mỗi đêm. Nó có thể có lỗi và một số vấn đề khác, cẩn thận khi sử dụng!
 
 Để biết thêm thông tin về Ruby Subversion và Git repositories, đọc trang
-[Ruby Core](/en/community/ruby-core/).
+[Ruby Core](/vi/community/ruby-core/).
 
 ### Công cụ của bên thứ ba
 

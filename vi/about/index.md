@@ -19,7 +19,7 @@ lập trình hướng chức năng (functional programming) và lập trình hư
 Dựa trên nền tảng này, ông thêm:
 
 > Ruby nhìn phía ngoài thì đơn giản nhưng rất phức tạp bên trong,
-> giống như cơ thể con người vậy [1](#fn1)</sup>.
+> giống như cơ thể con người vậy<sup>[1](#fn1)</sup>.
 
 ### Về sự phát triển của Ruby
 
@@ -33,7 +33,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
-Ruby-Talk là [mailing list](/en/community/mailing-lists/) chính để thảo luận về
+Ruby-Talk là [mailing list](/vi/community/mailing-lists/) chính để thảo luận về
 ngôn ngữ Ruby. Theo thống kê trung bình có trên 200 bài mỗi ngày trong năm 2006.
 Con số này có giảm sút trong những năm gần đây vì xu hướng người dùng gửi bài
 vào những nhóm nhỏ riêng thay vì gửi vào đây.
@@ -84,7 +84,7 @@ class Numeric
   end
 end
 
-y = 5.cộng(6)
+y = 5.cộng 6
 # y sẽ là 11
 {% endhighlight %}
 
