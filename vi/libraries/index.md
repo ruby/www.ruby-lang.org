@@ -25,8 +25,7 @@ Nào bây giờ hãy cùng tìm thư viện và cài đặt chúng theo yêu c�
 hệ thống này cung cấp thư viện Ruby dưới dạng gem. Bạn có thể xem trang web trực
 tiếp hoặc thông qua lệnh `gem`.
 
-
-Sử dụng `gem search -r` để tra cứu repository của RubyGems. Ví dụ, 
+Sử dụng `gem search -r` để tra cứu repository của RubyGems. Ví dụ,
 `gem search -r rails` sẽ trả về một danh sách những gem liên quan đến Rails.
 Nếu khai báo lệnh với lựa chọn `--local` (`-l`) để tìm kiếm trong những gem đã
 được cài đặt trên máy. Để cài một gem, dùng `gem install
@@ -62,7 +61,8 @@ $ gem search -r html
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-Cờ `--remote` / `-r` chỉ định là chúng ta muốn kiểm tra trên repository của RubyGems.org (mặc định). 
+Cờ `--remote` / `-r` chỉ định là chúng ta muốn kiểm tra trên repository
+của RubyGems.org (mặc định).
 Với cờ `--local` / `-l` bạn sẽ tìm gem chỉ được cài trên máyc của bạn.
 
 #### Cài đặt gem
@@ -76,7 +76,7 @@ $ gem install rails
 Bạn có thể cài một phiên bản nhất định của gem, với cờ `--version` / `-v`:
 
 {% highlight sh %}
-$ gem install rails --version 4.0
+$ gem install rails --version 3.0
 {% endhighlight %}
 
 #### Liệt kê tất cả gem
@@ -108,6 +108,7 @@ Ví dụ, `gem help commands` sẽ liệt kê ra các lệnh của `gem`.
 RubyGems.org có một vài [hướng dẫn][8] về chủ đề này. Bạn có thể tra khảo về
 [Bundler][9], một công cụ giúp quản lý các phần mềm yêu cầu và có thể sử dụng
 cùng với RubyGems.
+
 
 
 [1]: http://docs.rubygems.org
