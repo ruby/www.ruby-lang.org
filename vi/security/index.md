@@ -8,7 +8,8 @@ Bạn sẽ tìm thấy thông tin về các vấn đề bảo mật của Ruby t
 
 ## Báo lỗi bảo mật
 
-Báo lỗ hổng bảo mật qua email tới địa chỉ security@ruby-lang.org ([PGP public key](/security.asc)).
+Báo lỗ hổng bảo mật qua email tới địa chỉ security@ruby-lang.org
+([PGP public key](/security.asc)).
 Email này là một mailing list cá nhân. Các vấn đề được báo cáo sẽ được công bô
 sau khi vá xong lỗi.
 
@@ -16,6 +17,9 @@ sau khi vá xong lỗi.
 
 Sau đây là những lỗi mới nhất:
 
+* [Hostname check bypassing vulnerability in SSL client
+  (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+  công bố ngày 27/06/2013.
 * [Object taint bypassing in DL and Fiddle in Ruby
   (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
   công bố ngày 14/05/2013.
