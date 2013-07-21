@@ -302,7 +302,7 @@ locales:
     zh_cn:
       text: 搜索
     zh_tw:
-      text: Search
+      text: 搜尋
 
   slogan:
     bg: "Ruby - най-добрият приятел на програмиста"
@@ -318,7 +318,7 @@ locales:
     pt: "Ruby - O melhor amigo do programador"
     tr: "Ruby - A Programmer's Best Friend"
     zh_cn: "Ruby - 程序员最要好的朋友"
-    zh_tw: "Ruby - A Programmer's Best Friend"
+    zh_tw: "Ruby - 程式設計師的摯友"
 
   month_names:
     bg: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
@@ -346,7 +346,7 @@ locales:
     pt: "Escrito por AUTHOR em %Y-%m-%d"
     tr: "AUTHOR tarafından %Y-%m-%d tarihinde gönderildi"
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
-#   zh_tw:
+    zh_tw: "由 AUTHOR 發表於 %Y-%m-%d""
 
   translated_by:
     bg: "Превод от"
@@ -362,7 +362,7 @@ locales:
     pt: "Traduzido por"
     tr: "Çeviri:"
     zh_cn: "翻译："
-#   zh_tw:
+    zh_tw: "翻譯："
 
   feed:
     bg:
@@ -418,8 +418,8 @@ locales:
       description: 来自 ruby-lang.org 的最新文章。
       lang_code: zh-CN
     zh_tw:
-      title: Ruby RSS News
-      description: The latest news from ruby-lang.org.
+      title: Ruby 新聞
+      description: 來自 ruby-lang.org 的新聞快報。
       lang_code: zh-TW
 
   news:
@@ -583,14 +583,14 @@ locales:
       other_news: 其他新聞
       more_news: 更多新聞...
       continue: 深入閱讀...
-      back_to_year: "Back to %Y Archives"
+      back_to_year: "回到 %Y 年彙整"
       recent_news: 最新消息
-      yearly_archive_title: "%Y 存檔"
-      monthly_archive_title: "%B %Y Archives"
-      yearly_archives: 以年份區分
-      monthly_archives: Archives by Month
-      yearly_archive_link: "%Y 存檔"
-      monthly_archive_link: "%B %Y Archives"
+      yearly_archive_title: "%Y 彙整"
+      monthly_archive_title: "%Y 年 %-m 月彙整"
+      yearly_archives: 按年份彙整
+      monthly_archives: 按月份彙整
+      yearly_archive_link: "%Y 年彙整"
+      monthly_archive_link: "%Y 年 %-m 月彙整"
 
   sidebar:
     try_ruby: &try_ruby
@@ -1599,22 +1599,22 @@ locales:
 #     submit: Submit Form
     zh_cn:
       list: 邮件列表
-      first_name: 姓
-      last_name: 名
+      first_name: 名
+      last_name: 姓
       email: 电子邮件
       action: 操作
       subscribe: 订阅
       unsubscribe: 退订
       submit: 提交表格
     zh_tw:
-      list: Mailing List
-      first_name: First Name
-      last_name: Last Name
-      email: Email Address
+      list: 郵件組
+      first_name: 名
+      last_name: 姓
+      email: 電子郵件
       action: Action
-      subscribe: Subscribe
-      unsubscribe: Unsubscribe
-      submit: Submit Form
+      subscribe: 訂閱
+      unsubscribe: 退訂
+      submit: 送出表格
 
   credits:
     bg: |
