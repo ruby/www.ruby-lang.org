@@ -346,7 +346,7 @@ locales:
     pt: "Escrito por AUTHOR em %Y-%m-%d"
     tr: "AUTHOR tarafından %Y-%m-%d tarihinde gönderildi"
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
-    zh_tw: "由 AUTHOR 發表於 %Y-%m-%d""
+    zh_tw: "由 AUTHOR 發表於 %Y-%m-%d"
 
   translated_by:
     bg: "Превод от"
