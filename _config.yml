@@ -239,6 +239,21 @@ locales:
 #       url: /tr/security
       - text: Ruby Hakkında
         url: /tr/about
+    vi:
+      - text: Downloads
+        url:  /vi/downloads
+      - text: Tài liệu
+        url:  /vi/documentation
+      - text: Thư viện
+        url:  /vi/libraries
+      - text: Cộng đồng
+        url:  /vi/community
+      - text: Tin tức
+        url:  /vi/news
+      - text: Bảo mật
+        url:  /vi/security
+      - text: Về Ruby
+        url:  /vi/about
     zh_cn:
       - text: 下载
         url: /zh_cn/downloads
@@ -299,6 +314,8 @@ locales:
       text: Procurar
     tr:
       text: Ara
+    vi:
+      text: Tìm
     zh_cn:
       text: 搜索
     zh_tw:
@@ -317,6 +334,7 @@ locales:
     pl: "Ruby - Najlepszy Przyjaciel Programisty"
     pt: "Ruby - O melhor amigo do programador"
     tr: "Ruby - A Programmer's Best Friend"
+    vi: "Ruby - Người bạn tri kỉ của lập trình viên"
     zh_cn: "Ruby - 程序员最要好的朋友"
     zh_tw: "Ruby - A Programmer's Best Friend"
 
@@ -331,6 +349,7 @@ locales:
     pl: [Styczeń, Luty, Marzec, Kwiecień, Maj, Czerwiec, Lipiec, Sierpień, Wrzesień, Październik, Listopad, Grudzień]
     pt: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
     tr: [Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık]
+    vi: [Tháng một, Tháng hai, Tháng ba, Tháng tư, Tháng năm, Tháng sáu, Tháng bảy, Tháng tám, Tháng chín, Tháng mười, Tháng mười một, Tháng mười hai]
 
   posted_by:
     bg: "Публикувана от AUTHOR на %Y-%m-%d"
@@ -345,6 +364,7 @@ locales:
     pl: "Zamieszczone przez AUTHOR %Y-%m-%d"
     pt: "Escrito por AUTHOR em %Y-%m-%d"
     tr: "AUTHOR tarafından %Y-%m-%d tarihinde gönderildi"
+    vi: "Đăng bởi AUTHOR vào %-d %b %Y"
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
 #   zh_tw:
 
@@ -362,6 +382,7 @@ locales:
     pt: "Traduzido por"
     tr: "Çeviri:"
     zh_cn: "翻译："
+    vi: "Dịch bởi"
 #   zh_tw:
 
   feed:
@@ -413,6 +434,10 @@ locales:
       title: Ruby Son Haberler
       description: Ruby Son Haberler
       lang_code: tr
+    vi:
+      title: Tin tức Ruby
+      description: Những tin mới nhất từ ruby-lang.org.
+      lang_code: vi
     zh_cn:
       title: Ruby 新闻更新
       description: 来自 ruby-lang.org 的最新文章。
@@ -566,6 +591,18 @@ locales:
       yearly_archives: Archives by Year
       monthly_archives: Archives by Month
       yearly_archive_link: "%Y Archives"
+      monthly_archive_link: "%B %Y"
+    vi:
+      other_news: Tin khác
+      more_news: Thêm Tin...
+      continue: Đọc tiếp...
+      back_to_year: "Trở về %Y Lưu trữ"
+      recent_news: Tin mới nhất
+      yearly_archive_title: "Lưu trữ %Y"
+      monthly_archive_title: "Lưu trữ %B %Y"
+      yearly_archives: Lưu trữ bằng Năm
+      monthly_archives: Lưu trữ bằng Tháng
+      yearly_archive_link: "Lưu trữ %Y"
       monthly_archive_link: "%B %Y"
     zh_cn:
       other_news: 其它新闻
@@ -1361,6 +1398,69 @@ locales:
         recent_news:
           text: Son Haberler (RSS)
           url: /tr/feeds/news.rss
+    vi:
+      get_started:
+        text: <strong>Nhập môn</strong>, quá dễ!
+        try_ruby:
+          text: Thử Ruby! (trong trình duyệt)
+          <<: *try_ruby
+        quickstart:
+          text: Ruby trong 20 phút
+          url: /vi/documentation/quickstart/
+        ruby_from_other_languages:
+          text: Ruby từ những ngôn ngữ khác
+          url: /vi/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Khám phá</strong> một thề giới mới…
+        documentation:
+          text: Tài liệu
+          url: /vi/documentation/
+        books:
+          text: Sách
+          <<: *books
+        libraries:
+          text: Thư viện
+          url: /vi/libraries/
+        success_stories:
+          text: Những câu chuyện thành công
+          url: /vi/documentation/success-stories/
+      participate:
+        text: <strong>Tham gia</strong> vào một cộng đồng lớn mạnh và thân thiện.
+        mailing_lists:
+          text: Mailing Lists
+          url: /vi/community/mailing-lists/
+          description: |
+            Trao đổi về Ruby với các lập trình viên trên thế giới
+        user_groups:
+          text: Nhóm người dùng
+          url: /vi/community/user-groups/
+          description: |
+            Làm quen với những Rubyist trong khu vực của bạn.
+        weblogs:
+          text: Weblogs
+          url: /vi/community/weblogs/
+          description: |
+            Đọc về những gì đang xảy ra với cộng đồng Ruby.
+        ruby_core:
+          text: Lõi Ruby
+          url: /vi/community/ruby-core/
+          description: |
+            Giúp hoàn thiện Ruby.
+        issue_tracking:
+          text: Thông báo lỗi
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Báo hoặc giúp xử lý các lỗi trong Ruby.
+      top_ruby_projects:
+        text: Những dự án Ruby hàng đầu
+        more:
+          text: Nhiều hơn nữa…
+          url: /vi/libraries/top-projects/
+      syndicate:
+        text: Syndicate
+        recent_news:
+          text: Tin mới (RSS)
+          url: /vi/feeds/news.rss
     zh_tw:
       get_started:
         text: <strong>上手入門</strong>, 一點都不難!
@@ -1597,6 +1697,15 @@ locales:
 #     subscribe: Subscribe
 #     unsubscribe: Unsubscribe
 #     submit: Submit Form
+    vi:
+      list: Mailing List
+      first_name: Tên
+      last_name: Họ
+      email: Email
+      action: Hành động
+      subscribe: Đăng kí
+      unsubscribe: Hủy đăng kí
+      submit: Nộp đơn
     zh_cn:
       list: 邮件列表
       first_name: 姓
@@ -1683,6 +1792,12 @@ locales:
       Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
       Herhangi bir soru ya da öneriniz için lütfen
       <a href="mailto:webmaster@ruby-lang.org">site yöneticimiz</a> ile irtibata geçin.
+    vi: |
+      Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      Trang được bảo trì bởi các thành viên của cộng đồng Ruby.
+      Xin đóng góp trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      hay liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng tiếng Anh)
+      nếu có câu hỏi hoặc ý kiến phản hồi về trang này.
     zh_cn: |
       本网站使用 Ruby 工具 <a href="http://www.jekyllrb.com/">Jekyll</a> 制作，并有幸由来自 Ruby 社区的会员共同维护。
       请贡献代码至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
