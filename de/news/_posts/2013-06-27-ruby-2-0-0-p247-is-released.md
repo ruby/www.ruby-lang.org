@@ -12,60 +12,38 @@ Ruby 2.0.0-p247 ist veröffentlicht worden.
 Dieses Release schließt eine Sicherheitslücke im mitgelieferten
 OpenSSL:
 
-* [Umgehung von Hostname-Check im SSL-Client (CVE-2013-4073)][1]
+* [Umgehung von Hostname-Check im SSL-Client
+  (CVE-2013-4073)](/de/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 Diese Version enthält auch einige Bugfixes.
 
 ## Download
 
-[ruby-2.0.0-p247.tar.bz2][2]
+* [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2)
 
-: **MD5-Summe**
+      SIZE:   10804581 bytes
+      MD5:    60913f3eec0c4071f44df42600be2604
+      SHA256: 08e3d4b85b8a1118a8e81261f59dd8b4ddcfd70b6ae554e0ec5ceb99c3185e8a
 
-  60913f3eec0c4071f44df42600be2604
+* [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz)
 
-  **SHA256**
+      SIZE:   13652782 bytes
+      MD5:    c351450a0bed670e0f5ca07da3458a5b
+      SHA256: 3e71042872c77726409460e8647a2f304083a15ae0defe90d8000a69917e20d3
 
-  08e3d4b85b8a1118a8e81261f59dd8b4ddcfd70b6ae554e0ec5ceb99c3185e8a
+* [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip)
 
-  **Größe**
-
-  10804581 Byte
-
-[ruby-2.0.0-p247.tar.gz][3]
-
-: **MD5-Summe**
-
-  c351450a0bed670e0f5ca07da3458a5b
-
-  **SHA256**
-
-  3e71042872c77726409460e8647a2f304083a15ae0defe90d8000a69917e20d3
-
-  **Größe**
-
-  13652782 Byte
-
-[ruby-2.0.0-p247.zip][4]
-
-: **MD5-Summe**
-
-  7548f781d868456e84afcd0327c7f894
-
-  **SHA256**
-
-  40c938238075b1e7e8df5d7ebfd069a45b93066318d91da9024d81b20a1c5a8a
-
-  **Größe**
-
-  15100206 Byte
+      SIZE:   15100206 bytes
+      MD5:    7548f781d868456e84afcd0327c7f894
+      SHA256: 40c938238075b1e7e8df5d7ebfd069a45b93066318d91da9024d81b20a1c5a8a
 
 ## Änderungen
 
 Größere Fixes sind unten aufgeführt.
 
-Siehe die [Tickets][5] und das [Changelog][6] für nähere
-Informationen.
+Siehe die [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+und das [Changelog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog)
+für nähere Informationen.
 
 ### Benannte Argumente
 
@@ -102,10 +80,3 @@ Die mitgelieferte RubyGems-Version wurde auf 2.0.3 aktualisiert.
 
 Viele Committer, Tester und Nutzer, die Bugreports machten, halfen mir
 bei dieser Veröffentlichung. Ich danke ihnen für ihre Beiträge.
-
-[1]: /de/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
-[5]: https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5
-[6]: http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog
