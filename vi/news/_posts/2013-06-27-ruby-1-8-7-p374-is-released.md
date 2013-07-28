@@ -11,8 +11,8 @@ Ruby 1.8.7-p374 mới được phát hành.
 
 Bản này kèm một các vá bảo mật sau:
 
- * [Hostname check bypassing vulnerability in SSL client
-   (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+ * [Lỗi bỏ qua kiểm tra lai lịch hostname trong SSL client
+   (CVE-2013-4073)](/vi/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
  * [Entity expansion DoS vulnerability in REXML (XML bomb,
    CVE-2013-1821)](/en/news/2013/02/22/rexml-dos-2013-02-22/)
 

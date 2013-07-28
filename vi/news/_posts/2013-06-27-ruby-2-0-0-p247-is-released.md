@@ -12,8 +12,8 @@ Ruby 2.0.0-p247 mới được phát hành.
 
 Bản này kèm một vá bảo mật về OpenSSL đi kèm.
 
-* [Hostname check bypassing vulnerability in SSL client
-  (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+* [Lỗi bỏ qua kiểm tra lai lịch hostname trong SSL client
+  (CVE-2013-4073)](/vi/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 Và sửa một số lỗi khác.
 
