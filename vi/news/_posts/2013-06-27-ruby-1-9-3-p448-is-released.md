@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p448 được phát hành."
+title: "Ruby 1.9.3-p448 được phát hành"
 author: "usa"
 translator: "Trung Lê"
 date: 2013-06-27 11:00:02 UTC
@@ -17,7 +17,7 @@ Bản này kèm một vá bảo mật về OpenSSL đi kèm.
 Và sửa một số lỗi khác.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
- [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) for details.
+và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) for details.
 
 ## Download
 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7-p374 được phát hành."
+title: "Ruby 1.8.7-p374 được phát hành"
 author: "hsbt"
 translator: "Trung Lê"
 date: 2013-06-27 11:00:01 UTC
