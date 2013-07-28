@@ -45,7 +45,7 @@ Berikut ini daftar perbaikan besar.
 Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 dan [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) untuk rinciannya.
 
-### keyword arguments (argumen berkata kunci)
+### Keyword Arguments (argumen berkata kunci)
 
 * [#8040](https://bugs.ruby-lang.org/issues/8040) ganti prioritas antara argumen berkata kunci dan argumen wajib.
 * [#8416](https://bugs.ruby-lang.org/issues/8416) super tidak mem-forward `**` bernama atau anonim

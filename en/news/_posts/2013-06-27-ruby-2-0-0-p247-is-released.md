@@ -45,7 +45,7 @@ Major fixes are listed below.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) for details.
 
-### keyword arguments
+### Keyword Arguments
 
 * [#8040](https://bugs.ruby-lang.org/issues/8040) change priority between keyword arguments and mandatory arguments.
 * [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous `**`
