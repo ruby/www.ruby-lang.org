@@ -16,7 +16,7 @@ lang: ru
 ## Чего ожидать после *языка Х* на Ruby
 
 * [Пришедшим из C и
-  C++](/ru/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  C++](/ru/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [В Ruby из
   Java](/ru/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [Знакомым с
