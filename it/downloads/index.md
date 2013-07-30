@@ -122,10 +122,10 @@ on Rails, Mongrel, Capistrano e molte altre gemme.
 Mac OS X Tiger include la versione 1.8.2 di Ruby, tuttavia, per coloro
 che non hanno aggiornato il loro sistema alla versione Leopard, ci sono
 diverse opzioni per installare l’ultima versione di Ruby.
-[Locomotive][11] è una scelta eccellente se cerchi qualcosa di facile e
+[Locomotive][12] è una scelta eccellente se cerchi qualcosa di facile e
 veloce per incominciare a sviluppare con Rails. Alternativamente, c’è
-anche un [Programma di installazione per Mac OS X][12]. Infine,
-l’utilizzo di [MacPorts][13] o [Fink][14] può essere una soluzione più
+anche un [Programma di installazione per Mac OS X][13]. Infine,
+l’utilizzo di [MacPorts][14] o [Fink][15] può essere una soluzione più
 elegante per coloro che hanno padronanza di questi strumenti.
 
 Tramite MacPorts, è possibile installare Ruby con il comando seguente:
@@ -148,13 +148,13 @@ al caso tuo.
 
 ### Ruby per Solaris e OpenSolaris
 
-Ruby 1.8.7 è disponibile per Solaris 8, 9 e 10 tramite [Sunfreeware][16]
-e Ruby 1.8.6 è disponibile tramite [Blastwave][17]. Una versione
+Ruby 1.8.7 è disponibile per Solaris 8, 9 e 10 tramite [Sunfreeware][17]
+e Ruby 1.8.6 è disponibile tramite [Blastwave][18]. Una versione
 ottimizzata di Ruby on Rails per Solaris 10 è disponibile tramite
-[Coolstack][18], parte del progetto Cooltools di Sun.
+[Coolstack][19], parte del progetto Cooltools di Sun.
 
-Per installare Ruby su [OpenSolaris][19], usa l’[Image Packaging System,
-o IPS][20] client. Questo installerà l’ultima versione dei binari di
+Per installare Ruby su [OpenSolaris][20], usa l’[Image Packaging System,
+o IPS][21] client. Questo installerà l’ultima versione dei binari di
 Ruby e Rubygems direttamente dal repository della rete di OpenSolaris.
 
 È facile:
@@ -166,16 +166,16 @@ $ pfexec pkg install SUNWruby18
 Questo comando installerà Ruby, RubyGems, le estensioni comuni e le
 relative librerie. Questo pacchetto contiene anche supporto per DTrace e
 ottimizzazioni di performance. Per saperne di più, puoi leggerti il
-[Ruby OpenSolaris ARC Case][21].
+[Ruby OpenSolaris ARC Case][22].
 
 L’altra distribuzione per OpenSolaris, chiamata [Solaris Express
-Community Edition or SXCE][22] include Ruby preinstallato. Ka versione,
+Community Edition or SXCE][23] include Ruby preinstallato. Ka versione,
 locazione, etc. sono le stessedelle altre distribuzioni tradizionali di
 OpenSolaris, e sono documentate nell’ARC case menzionato
 precedentemente.
 
 Per installare i pacchetti SRV4 manualmente, visita il [progetto
-RubyOpenSolaris su Rubyforge][23].
+RubyOpenSolaris su Rubyforge][24].
 
 
 
@@ -189,16 +189,16 @@ RubyOpenSolaris su Rubyforge][23].
 [8]: http://rubyinstaller.org/
 [9]: http://rubyinstaller.org/downloads/
 [10]: http://railsinstaller.org/
-[11]: http://locomotive.raaum.org/
-[12]: http://rubyosx.rubyforge.org/
-[13]: http://www.macports.org/
-[14]: http://fink.sourceforge.net/
-[15]: http://hivelogic.com/narrative/articles/ruby-rails-mongrel-mysql-osx
-[16]: http://www.sunfreeware.com
-[17]: http://www.blastwave.org
-[18]: http://cooltools.sunsource.net/coolstack
-[19]: http://www.opensolaris.org
-[20]: http://opensolaris.org/os/project/pkg/
-[21]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
-[22]: http://opensolaris.org/os/downloads
-[23]: http://rubyforge.org/projects/rubyopensolaris
+[12]: http://locomotive.raaum.org/
+[13]: http://rubyosx.rubyforge.org/
+[14]: http://www.macports.org/
+[15]: http://fink.sourceforge.net/
+[16]: http://hivelogic.com/narrative/articles/ruby-rails-mongrel-mysql-osx
+[17]: http://www.sunfreeware.com
+[18]: http://www.blastwave.org
+[19]: http://cooltools.sunsource.net/coolstack
+[20]: http://www.opensolaris.org
+[21]: http://opensolaris.org/os/project/pkg/
+[22]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
+[23]: http://opensolaris.org/os/downloads
+[24]: http://rubyforge.org/projects/rubyopensolaris
