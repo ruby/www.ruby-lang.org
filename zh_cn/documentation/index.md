@@ -51,6 +51,33 @@ lang: zh_cn
 [Ruby C API 参考][13]
 : Ruby 下 C 代码的文档。如果您编写 C 的扩展或者参与 Ruby 的开发，这个文档是很有用的。
 
+### 编辑器和IDE 
+
+您可以用您操作系统上默认的编辑器来进行Ruby编程，为了更高效的编程，选择一个基本特性支持 Ruby （比如 代码高亮，文件浏览）的源代码编辑器或者
+对Ruby有着高级特性支持（如 代码补全，重构，测试等） 的集成开发环境（IDE）是非常值得的。
+
+下面是Ruby程序员流行使用的工具列表： 
+
+* Linux 和跨平台工具:
+  * [Aptana Studio][19]
+  * [Emacs][20] with [Ruby mode][21] and [Rsense][22]
+  * [Geany][23]
+  * [gedit][24]
+  * [Vim][25] with [vim-ruby][26] plugin and [Rsense][22]
+  * [RubyMine][27]
+  * [SciTe][28]
+  * [NetBeans][36]
+  * [Sublime Text][37]
+
+* Windows:
+  * [Notepad++][29]
+  * [E-TextEditor][30]
+  * [Ruby In Steel][31]
+
+* Mac OS X:
+  * [TextMate][32]
+  * [TextWrangler][33]
+
 ### 进一步阅读
 
 [Ruby-Doc.org][14] 有完整的 Ruby 英文文档。这里有 [Ruby 的书籍][15] 。[Ruby Garden
@@ -75,3 +102,20 @@ Wiki][16] 里有用户维护的内容。如果您有问题，可以参加 Ruby
 [14]: http://ruby-doc.org
 [15]: http://www.ruby-doc.org/bookstore
 [16]: http://wiki.rubygarden.org/Ruby
+[19]: http://www.aptana.com/
+[20]: http://www.gnu.org/software/emacs/
+[21]: http://www.emacswiki.org/emacs/RubyMode
+[22]: http://cx4a.org/software/rsense/
+[23]: http://www.geany.org/
+[24]: http://projects.gnome.org/gedit/screenshots.html
+[25]: http://www.vim.org/
+[26]: https://github.com/vim-ruby/vim-ruby
+[27]: http://www.jetbrains.com/ruby/
+[28]: http://www.scintilla.org/SciTE.html
+[29]: http://notepad-plus-plus.org/
+[30]: http://www.e-texteditor.com/
+[31]: http://www.sapphiresteel.com/
+[32]: http://macromates.com/
+[33]: http://www.barebones.com/products/textwrangler/
+[36]: https://netbeans.org/
+[37]: http://www.sublimetext.com/
