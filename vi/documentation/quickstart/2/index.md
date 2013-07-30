@@ -116,5 +116,6 @@ ChàoMừng và một vài phương thức thuộc lớp. Thông báo tới `@t�
 đối tượng và nó có thể sử dụng trong tất cả các phương thức của lớp, như trong
 đối tượng được sử dụng với `xin_chào` và `tạm_biệt`.
 
-Vậy, làm thế nào để chúng ta thiết lập lớp ChàoMừng này?[Tạo một đối tượng](../3/)
+Vậy, làm thế nào để chúng ta thiết lập lớp ChàoMừng này?
+[Tạo một đối tượng](../3/)
 

@@ -224,6 +224,6 @@ hiện như này:
     ...
 {: .code}
 
-Có rất nhiều thứ mới trong ví dụ cuối cùng này và chúng ta [có thể có cái nhìn
-sâu hơn tại.](../4/)
+Có rất nhiều thứ mới trong ví dụ cuối cùng này và chúng ta
+[có thể có cái nhìn sâu hơn tại.](../4/)
 
