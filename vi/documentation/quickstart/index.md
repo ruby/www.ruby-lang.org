@@ -128,5 +128,5 @@ irb(main):009:0> Math.sqrt(a+b) => 5.0
 {% endhighlight %}
 
 Tuyệt vời như một chiếc máy tính, chúng ta đang vượt xa thông điệp `Xin chào
-thế giới` truyền thống mà ban đầu bài hướng dẫn giả sử.. [Vậy chúng ta hãy quay
-lại nào](2/)
+thế giới` truyền thống mà ban đầu bài hướng dẫn giả sử...
+[Vậy chúng ta hãy quay lại nào](2/)

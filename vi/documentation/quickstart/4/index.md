@@ -58,7 +58,7 @@ end
 Phần lớn các ngôn ngữ lập trình khác làm việc với một danh sách bằng vòng lặp `for`, ví dụ trong C sẽ như này:
 
 {% highlight c %}
-for (i=0; i < number_of_elements ; i++)
+for (i=0; i<number_of_elements; i++)
 {
   do_something_with(element[i]);
 }
@@ -68,7 +68,7 @@ Nó vẫn hoạt động tuy nhiên không được hay cho lắm. Bạn cần m
 
 ## Khối lệnh, ánh sáng lấp lánh trên các cạnh của Ruby
 
-Sức mạnh thực sự của khối lệnh là khi xử lý các đối tượng phức tạp hơn danh sách. Ngoài việc xử lý các chi tiết nội dung đơn giản trong phương thức, bạn còn có thể xử lý thiết lập, teardown và lỗi - tất cả ẩn đi khỏi sự chú ý của người dùng. \
+Sức mạnh thực sự của khối lệnh là khi xử lý các đối tượng phức tạp hơn danh sách. Ngoài việc xử lý các chi tiết nội dung đơn giản trong phương thức, bạn còn có thể xử lý thiết lập, teardown và lỗi - tất cả ẩn đi khỏi sự chú ý của người dùng.
 
 {% highlight ruby %}
 # Tạm biệt mọi người
@@ -84,7 +84,7 @@ def tam_biet
 end
 {% endhighlight %}
 
-Phương thức `tam_biet` không sử dụng `each`, thay vào đó nó kiểm tra xem nếu `@names` có đáp ứng phương thức `join` không, nếu có thì sử dụng nó. Mặt khác nó chỉ in ra các biến dưới dạng xâu. Phương thức này không quan tâm tới *kiểu* của biến, chỉ dựa vào phương thức mà nó hỗ trợ được gọi là "Duck Typing", giống như "nếu nó đi giống con vịt và quạc quạc giống con vịt...". Lợi ích của điều này là không cần thiết phải hạn chế kiểu biến được hỗ trợ. Nếu ai đó đến với một kiểu danh sách lớp mới, miễn là nó thực thi phương thức `join với cùng một ngữ nghĩa như các danh sách khác, mọi thứ sẽ hoạt động theo đúng kế hoạch.
+Phương thức `tam_biet` không sử dụng `each`, thay vào đó nó kiểm tra xem nếu `@names` có đáp ứng phương thức `join` không, nếu có thì sử dụng nó. Mặt khác nó chỉ in ra các biến dưới dạng xâu. Phương thức này không quan tâm tới *kiểu* của biến, chỉ dựa vào phương thức mà nó hỗ trợ được gọi là "Duck Typing", giống như "nếu nó đi giống con vịt và quạc quạc giống con vịt...". Lợi ích của điều này là không cần thiết phải hạn chế kiểu biến được hỗ trợ. Nếu ai đó đến với một kiểu danh sách lớp mới, miễn là nó thực thi phương thức `join` với cùng một ngữ nghĩa như các danh sách khác, mọi thứ sẽ hoạt động theo đúng kế hoạch.
 
 ## Bắt đầu kịch bản
 

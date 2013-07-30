@@ -66,7 +66,7 @@ irb(main):039:0> ChàoMừng.instance_methods
 {% endhighlight %}
 
 Quá tuyệt! Có rất nhiều method hay phương thức. Chúng ta chỉ định nghĩa 2 phương
-thức, vậy cái gì đây? Đó là **tất cả* các phương thức cho đối tượng Người chào
+thức, vậy cái gì đây? Đó là **tất cả** các phương thức cho đối tượng Người chào
 đón, một danh sách hoàn chỉnh bao gồm cả những phương thức được kế thừa. Nếu
 chúng ta muốn một danh sách chỉ có các phương thức định nghĩa cho ChàoMừng,
 chúng ta có thể loại bỏ các phương thức được kế thừa bằng cách thêm tham số

@@ -91,7 +91,7 @@ dự án Ruby.
 [APIdock][18]
 : Tài liệu Ruby, Rails và RSpec với các ghi chú của người sử dụng.
 
-### Phần mềm chỉnh sửa và các môi trường phát triển tích hợp.
+### Phần mềm chỉnh sửa và các môi trường phát triển tích hợp
 
 Để lập trình trong Ruby bạn có thể sử dụng chương trình chỉnh sửa mặc định của
 hệ điều hành. Nhân tiện, để hiệu quả hơn trong việc lập trình, tốt hơn bạn nên
