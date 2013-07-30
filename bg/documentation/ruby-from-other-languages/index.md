@@ -8,7 +8,7 @@ lang: bg
 
 ## Какво да очакваме
 
-  * [Oт C/C++ към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  * [Oт C/C++ към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
   * [Oт Java към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-java/)
   * [Oт Perl към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-perl/)
   * [Oт PHP към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-php/)

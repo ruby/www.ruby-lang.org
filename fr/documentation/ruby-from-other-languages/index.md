@@ -19,7 +19,7 @@ comparaisons avec d’autres langages.
 ## À quoi s’attendre : passer d’un langage X à Ruby
 
 * [De C/C++ à
-  Ruby](/fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  Ruby](/fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [De Java à
   Ruby](/fr/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [De Perl à
