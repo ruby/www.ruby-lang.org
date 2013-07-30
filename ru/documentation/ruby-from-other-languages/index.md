@@ -15,16 +15,16 @@ lang: ru
 
 ## Чего ожидать после *языка Х* на Ruby
 
-* [Пришедшим из С и С++
-  ](/ru/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
-* [В Ruby из Java
-  ](/ru/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Знакомым с Perl
-  ](/ru/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [Разработчикам на PHP
-  ](/ru/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Пришедшим из Python
-  ](/ru/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Пришедшим из C и
+  C++](/ru/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+* [В Ruby из
+  Java](/ru/documentation/ruby-from-other-languages/to-ruby-from-java/)
+* [Знакомым с
+  Perl](/ru/documentation/ruby-from-other-languages/to-ruby-from-perl/)
+* [Разработчикам на
+  PHP](/ru/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [Пришедшим из
+  Python](/ru/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
 ## Важные замечания по поводу языка и подсказки
 
@@ -35,9 +35,9 @@ lang: ru
 
 Две особенности  Ruby, отличающиеся от всего ранее увиденного, но к которым
 надо привыкнуть - это "блоки" и итераторы. Вместо того, чтобы итерироваться
-по индексу (как в С, С++ и pre-1.5 Java), или по списку (как в Perl <tt>for
-(@a) \{...}</tt>, или в Python <tt>for i in aList: ...</tt>), в Ruby зачастую
-вы увидите
+по индексу (как в С, С++ и pre-1.5 Java), или по списку (как в Perl
+<tt>for (@a) \{...}</tt>, или в Python <tt>for i in aList: ...</tt>),
+в Ruby зачастую вы увидите
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -47,8 +47,8 @@ end
 {% endhighlight %}
 
 За более подробной информацией о `each` (и сопутствующих `collect`, `find`,
-`inject`, `sort`, и т.д.), обращайтесь к `ri Enumerable` (и <tt>ri
-Enumerable#*имя\_функции*</tt>).
+`inject`, `sort`, и т.д.), обращайтесь к `ri Enumerable`
+(и <tt>ri Enumerable#*имя\_функции*</tt>).
 
 ### Все имеет значение
 
@@ -193,7 +193,7 @@ end
 {% endhighlight %}
 
 можно подумать, что `another_method` публичный. Нет, это не так. Модификатор
-доступа 'private' действует до конца контекста, или до другого модификатора
+доступа `private` действует до конца контекста, или до другого модификатора
 доступа. По умолчанию все методы публичны.
 
 {% highlight ruby %}
@@ -261,8 +261,8 @@ irb(main):023:1>   private :func
 irb(main):024:1> end
 => Test
 irb(main):025:0> t1 == t2
-NoMethodError: private method `func` called for #<Test:0x342784>
-        from (irb):8:in '=='
+NoMethodError: private method `func' called for #<Test:0x342784>
+        from (irb):8:in `=='
         from (irb):25
         from :0
 irb(main):026:0>
