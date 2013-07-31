@@ -1651,8 +1651,9 @@ locales:
     id: |
       Situs ini dikembangkan menggunakan bahasa Ruby dan <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Dipersembahkan dengan bangga oleh anggota komunitas Ruby.
-      Silakan hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      kami bila Anda mempunyai pertanyaan atau komentar sehubungan dengan situs ini.
+      Silakan berkontribusi melalui <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      atau hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a> kami
+      untuk pertanyaan atau komentar mengenai situs ini.
     it: |
       Questo sito è stato sviluppato con Ruby e <a href="http://www.jekyllrb.com/">Jekyll</a>.
       È curato con dedizione dai membri della comunità di Ruby.

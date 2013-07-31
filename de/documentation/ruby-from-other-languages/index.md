@@ -19,7 +19,7 @@ anderer Sprachen, die du bereits kennst.
 ## <span style="font-size:0.9em;;">Von *Sprache X* zu Ruby: Was erwartet mich?</span>
 
 * [Von C und C++ zu
-  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [Von Java zu
   Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [Von Perl zu

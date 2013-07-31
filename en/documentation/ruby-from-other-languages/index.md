@@ -19,7 +19,7 @@ with.
 ## What to Expect: *Language X* to Ruby
 
 * [To Ruby From C and
-  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [To Ruby From
   Java](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [To Ruby From

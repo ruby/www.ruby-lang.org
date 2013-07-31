@@ -16,8 +16,18 @@ rewrite ^/(en|ja)/(LICENSE|license).txt$ http://www.ruby-lang.org/en/about/licen
 rewrite ^/ja/old-man/.*$ http://doc.ruby-lang.org/ja/? permanent;
 rewrite ^/ja/man/.*$ http://doc.ruby-lang.org/ja/ permanent;
 
-rewrite ^/zh_TW$ /zh_tw permanent;
-rewrite ^/zh_TW/(.*)$ /zh_tw/$1 permanent;
+rewrite ^/zh_TW(.*)$ /zh_tw$1 permanent;
+
+rewrite ^/bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/de/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /de/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/id/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /id/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/it/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /it/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
+rewrite ^/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$ /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1 permanent;
 
 rewrite ^/pl/spolecznosc/listy-mailingowe(.*)$ /pl/community/mailing-lists$1 permanent;
 rewrite ^/pl/spolecznosc/grupy-uzytkownikow(.*)$ /pl/community/user-groups$1 permanent;
@@ -47,3 +57,4 @@ rewrite ^/pt/documentacao/historias-de-sucesso(.*)$ /pt/documentation/success-st
 rewrite ^/pt/documentacao(.*)$ /pt/documentation$1 permanent;
 rewrite ^/pt/bibliotecas/top-de-projectos-ruby(.*)$ /pt/libraries/top-projects$1 permanent;
 rewrite ^/pt/bibliotecas(.*)$ /pt/libraries$1 permanent;
+

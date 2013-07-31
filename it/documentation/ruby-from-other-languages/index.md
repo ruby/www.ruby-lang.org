@@ -20,7 +20,7 @@ ti è già familiare.
 ## Cosa c’è da aspettarsi: Da *Linguaggio X* a Ruby
 
 * [Da C/C++ a
-  Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [Da Java a
   Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [Da Perl a

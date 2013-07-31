@@ -16,7 +16,7 @@ bildiklerinizle karşılaştırır.
 ## Neler Değişiyor: *X Dilinden* Ruby’ye
 
 * [C ve C++ dan
-  Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [Java’dan
   Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [Perl’den

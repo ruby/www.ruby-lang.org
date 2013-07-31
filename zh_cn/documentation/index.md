@@ -101,10 +101,37 @@ lang: zh_cn
   * [TextMate][32]
   * [TextWrangler][33]
 
+### 编辑器和IDE
+
+您可以用您操作系统上默认的编辑器来进行Ruby编程，为了更高效的编程，选择一个基本特性支持 Ruby （比如 代码高亮，文件浏览）的源代码编辑器或者
+对Ruby有着高级特性支持（如 代码补全，重构，测试等） 的集成开发环境（IDE）是非常值得的。
+
+下面是Ruby程序员流行使用的工具列表：
+
+* Linux 和跨平台工具:
+  * [Aptana Studio][19]
+  * [Emacs][20] with [Ruby mode][21] and [Rsense][22]
+  * [Geany][23]
+  * [gedit][24]
+  * [Vim][25] with [vim-ruby][26] plugin and [Rsense][22]
+  * [RubyMine][27]
+  * [SciTe][28]
+  * [NetBeans][36]
+  * [Sublime Text][37]
+
+* Windows:
+  * [Notepad++][29]
+  * [E-TextEditor][30]
+  * [Ruby In Steel][31]
+
+* Mac OS X:
+  * [TextMate][32]
+  * [TextWrangler][33]
+
 ### 进一步阅读
 
 [Ruby-Doc.org][34] 有完整的 Ruby 英文文档。这里有 [Ruby 的书籍][35] 。[Ruby Garden
-Wiki][16] 里有用户维护的内容。如果您有问题，可以参加 Ruby
+Wiki][102] 里有用户维护的内容。如果您有问题，可以参加 Ruby
 [邮件列表](/en/community/mailing-lists/) 的讨论。
 
 
@@ -148,3 +175,4 @@ Wiki][16] 里有用户维护的内容。如果您有问题，可以参加 Ruby
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [101]:https://en.wikipedia.org/wiki/K%C5%8Dan
+[102]:http://rubygarden.org/Ruby
