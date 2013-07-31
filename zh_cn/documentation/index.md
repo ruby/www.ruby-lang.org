@@ -34,16 +34,17 @@ lang: zh_cn
 : 已经熟悉其他的编程语言？不管是 C++, Java, Perl, PHP, 还是 Python, 这里都有介绍！
 
 [Learning Ruby][6]
-:
+: 这里汇集了了许多 Ruby 学习摘要以及对 Ruby 的概念和结构的全面的介绍。
 
 [Ruby Essentials][7]
-:
+: Ruby Essential是一本免费在线书籍，旨在提供一个简短的 Ruby 学习指南。
 
 [Learn to Program][8]
-:
+: 由 Chris Pine 编写的编程入门，如果你还不了解程序，从这里开始吧。
 
 [Learn Ruby the Hard Way][38]
-:
+: 一系列非常好的带有说明的练习，可以指导你从基板的 Ruby 一路进阶到 OOP 和 WEB 开发。
+
 ### 手册
 
 [Programming Ruby][9]
@@ -65,13 +66,13 @@ lang: zh_cn
 : 同样是从源代码中提取，这个是标准库的参考。
 
 [RubyDoc.info][16]
-:
+:  关于 Ruby gems 和 Github 上托管的 Ruby 项目的参考文档的一站式站点。
 
-[Rails Searchable API Doc][17]
-:
+[带搜索功能的 Rails API 文档][17]
+: 可以智能搜索的 Rails 和 Ruby文档。
 
 [APIdock][18]
-:
+: 带有用户评注的 Ruby， Rails 和 RSpec 文档。
 
 ### 编辑器和IDE
 
