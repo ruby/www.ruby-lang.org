@@ -43,7 +43,7 @@ lang: zh_cn
 : 由 Chris Pine 编写的编程入门，如果你还不了解程序，从这里开始吧。
 
 [Learn Ruby the Hard Way][38]
-: 一系列非常好的带有说明的练习，可以指导你从基板的 Ruby 一路进阶到 OOP 和 WEB 开发。
+: 一系列非常好的带有说明的练习，可以指导你从基本的 Ruby 一路进阶到 OOP 和 WEB 开发。
 
 ### 手册
 
