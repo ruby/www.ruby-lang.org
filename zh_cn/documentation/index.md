@@ -24,7 +24,7 @@ lang: zh_cn
 
 [Why’s (Poignant) Guide to Ruby][5]
 : 一本非同寻常有趣的书，通过故事、幽默和漫画来教你学习Ruby,
-  由*why the luckystiff* 创作, 本书仍然是学习Ruby的经典之作。
+  由 *why the luckystiff* 创作, 本书仍然是学习Ruby的经典之作。
 
 [花20分钟体验](/zh_cn/documentation/quickstart/)
 : 不错的介绍Ruby的基础知识的教程。从开始到结束不超过20分钟。
