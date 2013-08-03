@@ -146,4 +146,4 @@ lang: zh_cn
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
-[101]:https://en.wikipedia.org/wiki/K%C5%8Dan
+[101]: https://zh.wikipedia.org/wiki/%E5%85%AC%E6%A1%88
