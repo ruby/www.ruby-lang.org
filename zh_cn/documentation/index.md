@@ -13,7 +13,7 @@ lang: zh_cn
   Ruby！
 
 [Ruby Koans][2]
-: Ruby Koans （[Koans][101] 指代禅文化中指引人领悟的对话或练习）可以指引你走过学习 Ruby 的启蒙之路。
+: Ruby Koans 可以指引你走过学习 Ruby 的启蒙之路。
   在这里可以学到 Ruby 语言，语法，结构，常用函数和库。当然，还有文化。
 
 [RubyMonk][3] （monk：修行的僧侣）
@@ -146,4 +146,3 @@ lang: zh_cn
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
-[101]: https://zh.wikipedia.org/wiki/%E5%85%AC%E6%A1%88
