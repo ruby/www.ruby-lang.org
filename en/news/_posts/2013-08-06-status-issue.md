@@ -9,6 +9,7 @@ lang:   en
 
 Some services provided by ruby-lang.org are stopped,
 because the servers of ruby-lang.org are currently down.
+
 Impact is as follows:
 
  * All mailing lists provided by ruby-lang.org are down.
