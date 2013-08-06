@@ -2,7 +2,7 @@
 layout: news_post
 title:  "ruby-lang.org のサーバーの障害報告"
 author: "hsbt"
-translator: ""
+translator:
 date:   2013-08-06 04:00:00 UTC
 lang:   ja
 ---
