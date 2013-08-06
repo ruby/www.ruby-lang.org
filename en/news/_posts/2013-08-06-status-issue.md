@@ -7,7 +7,7 @@ date:   2013-08-06 04:00:00 UTC
 lang:   en
 ---
 
-Some service that providing by ruby-lang.org is stopped. because some server of ruby-lang.org is currently down. Impact is as follows. 
+Some services providing by ruby-lang.org is stopped. because the servers of ruby-lang.org are currently down. Impact is as follows.
 
  * All of mailing list provided by ruby-lang.org is down.
  * Ruby's tar package distributed by ftp.ruby-lang.org is unreachable.
