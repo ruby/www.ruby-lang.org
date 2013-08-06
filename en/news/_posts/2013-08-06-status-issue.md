@@ -18,11 +18,13 @@ Impact is as follows:
 
 We are repairing these services now.
 
-## Update(18:33)
+## Update (9:33 UTC)
 
-The reason of today's issue is hardware failure. we repaired follow issues.
+The reason of today's problems is a hardware failure.
+We repaired the following issues:
 
- * All of Mailing List is back. but we still have some problem. we are repairing it.
- * ftp.ruby-lang.org via http and ftp is available.
+ * All mailing lists are back, but we still have some problem. We are repairing it.
+ * ftp.ruby-lang.org is available again via http and ftp.
 
-If you discovered other problem, Please report issue to https://github.com/ruby/www.ruby-lang.org/issues
+If you discover other problems, please report them to
+https://github.com/ruby/www.ruby-lang.org/issues.
