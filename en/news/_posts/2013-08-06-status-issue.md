@@ -28,3 +28,10 @@ We repaired the following issues:
 
 If you discover other problems, please report them to
 https://github.com/ruby/www.ruby-lang.org/issues.
+
+## Update (13:18 UTC)
+
+We stopped ftp.ruby-lang.org via http and ftp, because Some old packages of Ruby is broken. MD5 doesn't match as expected.
+
+We are investigating now. Detail infomation is following issue.
+https://github.com/ruby/www.ruby-lang.org/issues/259

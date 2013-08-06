@@ -23,3 +23,10 @@ ruby-lang.org を稼働させているサーバーに障害が発生したため
  * ftp.ruby-lang.org に存在していたパッケージの http と ftp 経由の配布
 
 もし、何か問題を見つけた場合は https://github.com/ruby/www.ruby-lang.org/issues まで報告して頂けると幸いです。
+
+## 更新情報(22:18 JST)
+
+いくつかの古い Ruby パッケージの MD5 が公表しているものと不一致の状態にあるということがわかったため、 ftp.ruby-lang.org を停止しました。
+
+現在復旧作業中です。詳細情報は以下の issue を参照してください。
+https://github.com/ruby/www.ruby-lang.org/issues/259
