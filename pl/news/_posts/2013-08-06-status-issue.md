@@ -18,7 +18,7 @@ Ma to wpływ na poniższe:
 
 Naprawiamy obecnie te usługi.
 
-## Aktualizacja (9:33 UTC)
+## Aktualizacja (2013-08-06 9:33 UTC)
 
 Powodem dzisiejszych problemów jest awaria sprzętowa.
 Naprawiliśmy następujące błędy:
@@ -29,10 +29,32 @@ Naprawiliśmy następujące błędy:
 Jeśli odkryjesz inne problemy, proszę zgłoś je na
 https://github.com/ruby/www.ruby-lang.org/issues.
 
-## Aktualizacja (13:18 UTC)
+## Aktualizacja (2013-08-06 13:18 UTC)
 
 Zatrzymaliśmy ftp.ruby-lang.org poprzez http i ftp, ponieważ niektóre stare pakiety z Rubim są zepsute.
 MD5 nie jest zgodne z oczekiwaniami.
 
 Badamy to teraz. Dokładniejsze informacje są w następującym błędzie.
 https://github.com/ruby/www.ruby-lang.org/issues/259
+
+## Aktualizacja (2013-08-07 14:08 UTC)
+
+Potwierdziliśmy, że następujące pakiety są zepsute. Mamy niektóre pakiety z
+http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
+<pre>
+ruby-1.9.3-p426.tar.bz2
+ruby-1.9.3-p426.tar.gz
+ruby-1.9.3-p426.zip
+ruby-1.9.3-p429.tar.bz2
+ruby-1.9.3-p429.tar.gz
+ruby-1.9.3-p429.zip
+ruby-2.0.0-p0.tar.bz2
+ruby-2.0.0-p0.tar.gz
+ruby-2.0.0-p0.zip
+ruby-2.0.0-p195.tar.bz2
+ruby-2.0.0-p195.tar.gz
+ruby-2.0.0-p195.zip
+</pre>
+
+Sprawdziliśmy, że sumy MD5 tych plików są identyczne z sumami z naszych ogłaszanych wydań.
+ftp.ruby-lang.org poprzez http i ftp jest teraz dostępny.
