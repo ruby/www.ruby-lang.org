@@ -15,6 +15,9 @@ will come in handy when you feel like coding in Ruby.
   browser. This 15-minute tutorial is aimed at beginners who want to get
   a feeling of the language.
 
+[Official FAQ](/en/documentation/faq/)
+: The offical frequently asked questions.
+
 [Ruby Koans][2]
 : The Koans walk you along the path to enlightenment in order to learn
   Ruby. The goal is to learn the Ruby language, syntax, structure, and
