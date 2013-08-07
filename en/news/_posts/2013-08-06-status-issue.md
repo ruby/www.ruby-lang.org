@@ -39,7 +39,7 @@ https://github.com/ruby/www.ruby-lang.org/issues/259
 ## Update (2013-08-07 14:08 UTC)
 
 We confrimed that follow packages are broken. We got same packages via http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
-```
+<pre>
 ruby-1.9.3-p426.tar.bz2
 ruby-1.9.3-p426.tar.gz
 ruby-1.9.3-p426.zip
@@ -52,6 +52,6 @@ ruby-2.0.0-p0.zip
 ruby-2.0.0-p195.tar.bz2
 ruby-2.0.0-p195.tar.gz
 ruby-2.0.0-p195.zip
-```
+</pre>
 
 We checked that MD5 checksum of these files are same as our release announcements. ftp.ruby-lang.org via http and ftp is available now.
