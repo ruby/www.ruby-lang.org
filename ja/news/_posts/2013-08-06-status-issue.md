@@ -15,7 +15,7 @@ ruby-lang.org を稼働させているサーバーに障害が発生したため
 
 現在、バックアップからファイルを取得し、サービスを復旧しています。
 
-## 更新情報(18:33 JST)
+## 更新情報(2013-08-06 18:33 JST)
 
 今回の障害はハードウェアの障害によるものです。現在、以下のサービスが復旧しています。
 
@@ -24,9 +24,30 @@ ruby-lang.org を稼働させているサーバーに障害が発生したため
 
 もし、何か問題を見つけた場合は https://github.com/ruby/www.ruby-lang.org/issues まで報告して頂けると幸いです。
 
-## 更新情報(22:18 JST)
+## 更新情報(2013-08-06 22:18 JST)
 
 いくつかの古い Ruby パッケージの MD5 が公表しているものと不一致の状態にあるということがわかったため、 ftp.ruby-lang.org を停止しました。
 
 現在復旧作業中です。詳細情報は以下の issue を参照してください。
 https://github.com/ruby/www.ruby-lang.org/issues/259
+
+## 更新情報(2013-08-07 14:08 JST)
+
+バックアップから復旧した以下のファイルが壊れていることを確認したため http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/ より該当ファイルを取得し直しました。
+
+<pre>
+ruby-1.9.3-p426.tar.bz2
+ruby-1.9.3-p426.tar.gz
+ruby-1.9.3-p426.zip
+ruby-1.9.3-p429.tar.bz2
+ruby-1.9.3-p429.tar.gz
+ruby-1.9.3-p429.zip
+ruby-2.0.0-p0.tar.bz2
+ruby-2.0.0-p0.tar.gz
+ruby-2.0.0-p0.zip
+ruby-2.0.0-p195.tar.bz2
+ruby-2.0.0-p195.tar.gz
+ruby-2.0.0-p195.zip
+</pre>
+
+開発チームでこれらのファイルの MD5 が公表されているものと一致していることを確認済みです。現在、ftp.ruby-lang.org の http と ftp のサービスは再開しています。

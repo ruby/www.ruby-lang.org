@@ -18,7 +18,7 @@ Impact is as follows:
 
 We are repairing these services now.
 
-## Update (9:33 UTC)
+## Update (2013-08-06 9:33 UTC)
 
 The reason of today's problems is a hardware failure.
 We repaired the following issues:
@@ -29,9 +29,29 @@ We repaired the following issues:
 If you discover other problems, please report them to
 https://github.com/ruby/www.ruby-lang.org/issues.
 
-## Update (13:18 UTC)
+## Update (2013-08-06 13:18 UTC)
 
-We stopped ftp.ruby-lang.org via http and ftp, because Some old packages of Ruby is broken. MD5 doesn't match as expected.
+We stopped ftp.ruby-lang.org via http and ftp, because some old packages of Ruby is broken. MD5 doesn't match as expected.
 
 We are investigating now. Detail infomation is following issue.
 https://github.com/ruby/www.ruby-lang.org/issues/259
+
+## Update (2013-08-07 14:08 UTC)
+
+We confrimed that follow packages are broken. We got same packages via http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
+```
+ruby-1.9.3-p426.tar.bz2
+ruby-1.9.3-p426.tar.gz
+ruby-1.9.3-p426.zip
+ruby-1.9.3-p429.tar.bz2
+ruby-1.9.3-p429.tar.gz
+ruby-1.9.3-p429.zip
+ruby-2.0.0-p0.tar.bz2
+ruby-2.0.0-p0.tar.gz
+ruby-2.0.0-p0.zip
+ruby-2.0.0-p195.tar.bz2
+ruby-2.0.0-p195.tar.gz
+ruby-2.0.0-p195.zip
+```
+
+We checked that MD5 checksum of these files are same as our release announcements. ftp.ruby-lang.org via http and ftp is available now.
