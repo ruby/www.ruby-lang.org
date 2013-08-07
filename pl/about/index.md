@@ -28,7 +28,7 @@ Bazując na tym dodaje:
 
 Począwszy od publicznego wydania w 1995, Ruby zwrócił na siebie uwagę
 wielu programistów na całym świecie. W 2006 Ruby uzyskał masową
-akceptację, co objawiło sie w postaci dużej ilości aktywnych grup
+akceptację, co objawiło się w postaci dużej ilości aktywnych grup
 użytkowników powstających w największych miastach świata oraz salach
 konferencyjnych wypełnionych po brzegi.
 
@@ -39,7 +39,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 
 Ruby-Talk, główna [lista mailingowa](/en/community/mailing-lists/) na
 tematy związane z Rubim, osiągnęła średnio ruch 200 wiadomości dziennie
-w 2006 roku. Zmalało to w ostatnich latach gdy część spółeczności
+w 2006 roku. Zmalało to w ostatnich latach gdy część społeczności
 przeniosło dyskusje z jednej centralnej listy na wiele mniejszych grup.
 
 Wskaźnik [TIOBE indeks][6], który mierzy rozwój języków programowania, umieszcza
@@ -70,7 +70,7 @@ fragmentu kodu, który wywołuje czynność na liczbie.
 W wielu językach, liczby i inne typy podstawowe nie są obiektami. Ruby
 podąża za Smalltalkiem udostępniając metody i zmienne instancji
 wszystkim swoim typom. To ułatwia korzystanie z języka, ponieważ reguły
-mające zastosowanie do obiektów odnoszą sie również do całego języka.
+mające zastosowanie do obiektów odnoszą się również do całego języka.
 
 ### Elastyczność Rubiego
 
@@ -198,7 +198,7 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
 <sup>1</sup> Matz, wypowiedź na liście ruby-talk, [May 12th, 2000][2].
 {: #fn1}
 
-<sup>2</sup> Zobacz stronę [Ruby on Rails][3] aby dowiedzieć sie więcej.
+<sup>2</sup> Zobacz stronę [Ruby on Rails][3] aby dowiedzieć się więcej.
 {: #fn2}
 
 <sup>3</sup> Matz, w [Wywiad z twórcą języka Ruby][4], Nov. 29th, 2001.

@@ -36,7 +36,7 @@ poniżej znajdziesz kilka propozycji:
   języka, to nie ma lepszego miejsca niż grupa ruby-core.
 
 [Blogi na temat Rubiego](weblogs/)
-: Bardzo mało dzieje się w społeczmności Rubiego bez omawiania tego na
+: Bardzo mało dzieje się w społeczności Rubiego bez omawiania tego na
   blogach. Blogi zawierają setki megabajtów cennych informacji o języku Ruby,
   jego zastosowaniach oraz doświadczeniach z projektami w Rubim.
 
@@ -50,7 +50,7 @@ poniżej znajdziesz kilka propozycji:
   bardziej doświadczonymi. Celem jest uproszczenie procesu nauki Rubiego
   mając kogoś kogo można spytać. W założeniu ma to być mniej krępujące od
   listy mailingowej, mile widziane pytania od początkujących.
-  W Polsce dobrym miejscem do zadawania pytań dla poczatkujących odnośnie
+  W Polsce dobrym miejscem do zadawania pytań dla początkujących odnośnie
   Rubiego jest [forum][6]
 
 Ogólne informacje o Rubim
