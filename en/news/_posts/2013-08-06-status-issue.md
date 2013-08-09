@@ -55,3 +55,14 @@ ruby-2.0.0-p195.zip
 </pre>
 
 We checked that MD5 checksum of these files are same as our release announcements. ftp.ruby-lang.org via http and ftp is available now.
+
+## Update (2013-08-09 9:30 UTC)
+
+Some of our services has been backed now, which had been suspended since Aug. 6 2013 by the server accident we reported before.
+
+  * Mailing list: We replaced a software to provide the service from FML to Mailman.
+    * For details, please check out http://lists.ruby-lang.org
+  * Package distribution: You can now download the packages we're providing from ftp.ruby-lang.org via both http and ftp.
+  * Snapshot packages: We restarted daily snapshot building and packaging
+
+If you find any problems on our services, please notify us at https://github.com/ruby/www.ruby-lang.org/issues
