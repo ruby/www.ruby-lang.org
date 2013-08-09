@@ -58,7 +58,7 @@ We checked that MD5 checksum of these files are same as our release announcement
 
 ## Update (2013-08-09 9:30 UTC)
 
-Some of our services has been backed now, which had been suspended since Aug. 6 2013 by the server accident we reported before.
+Some of our services have been backed now, which had been suspended since Aug. 6 2013 by the server accident we reported before
 
   * Mailing list: We replaced a software to provide the service from FML to Mailman.
     * For details, please check out http://lists.ruby-lang.org
