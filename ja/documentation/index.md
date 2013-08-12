@@ -26,6 +26,20 @@ lang: ja
 
 ドキュメントは全て [&lt;URL:http://doc.okkez.net/&gt;][13] でもミラーされています
 
+### リファレンス
+
+[Ruby コアリファレンス (英語)](http://www.ruby-doc.org/core-2.0/)
+: [RDoc](http://rdoc.sourceforge.net/)を用いてRubyのソースコードから直接生成したものです。
+  String, ArrayやSymbol等のコアクラスやモジュールのリファレンスがあります。
+
+[Ruby 標準ライブラリリファレンス (英語)](http://www.ruby-doc.org/stdlib-2.0/)
+: こちらもRDocを使用してRubyのソースコードから生成しています。
+  こちらはRubyの標準ライブラリのリファレンスになります。
+
+[RubyDoc.info (英語)](http://www.rubydoc.info/)
+: Ruby gemsやGitHubでホスティングされてるRubyプロジェクトのリファレンスが見れる
+  完結型のリファレンスサイト。
+
 ### 旧版
 
 刷新計画以前の古いRubyリファレンスマニュアルの公開は終了しましたが、
