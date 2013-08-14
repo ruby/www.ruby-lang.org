@@ -6,7 +6,7 @@ lang: ja
 
 ここでは、マニュアルなどのドキュメントを紹介します。
 
-## マニュアル
+### マニュアル
 
 各環境にRubyをインストールする方法は、 [インストールガイド][1] で解説しています。
 
@@ -25,6 +25,20 @@ lang: ja
 * [Rubyリファレンスマニュアル刷新計画 chm版 1.8.7用][11] \|[1.9.2用][12]
 
 ドキュメントは全て [&lt;URL:http://doc.okkez.net/&gt;][13] でもミラーされています
+
+### リファレンス
+
+[Ruby コアリファレンス (英語)](http://www.ruby-doc.org/core-2.0/)
+: [RDoc](http://rdoc.sourceforge.net/)を用いてRubyのソースコードから直接生成したものです。
+  String, ArrayやSymbol等のコアクラスやモジュールのリファレンスがあります。
+
+[Ruby 標準ライブラリリファレンス (英語)](http://www.ruby-doc.org/stdlib-2.0/)
+: こちらもRDocを使用してRubyのソースコードから生成しています。
+  こちらはRubyの標準ライブラリのリファレンスになります。
+
+[RubyDoc.info (英語)](http://www.rubydoc.info/)
+: Ruby gemsやGitHubでホスティングされてるRubyプロジェクトのリファレンスが見れる
+  完結型のリファレンスサイト。
 
 ### 旧版
 
