@@ -59,3 +59,23 @@ ruby-2.0.0-p195.zip
 
 Ya confirmamos que la firma MD5 de estos archivos sean los mismos de nuestros anuncios
 de liberación. El sitio ftp.ruby-lang.org ya se encuentra disponible via http y ftp.
+
+## Actualización (2013-08-09 9:30 UTC)
+
+Algunos de los servicios que habían estado deshabilitados desde Agosto 6, 2013 por
+el accidente en los servidores que habíamos reportado ya están de regreso.
+
+Listas de Distribución: Cambiamos el software para proveer el servicio de FML
+a Mailman. Para mas detalles, por favor revisa
+[http://lists.ruby-lang.org](http://lists.ruby-lang.org).
+
+Distribución de Paquetes: Ya puedes descargara los paquetes de
+[ftp.ruby-lang.org](http://ftp.ruby-lang.org)
+via http o ftp.
+
+Imagenes diarias: Volvemos a comenzar con la compilación y empaque de los
+builds diarios.
+
+Si encuentras algún problema con nuestros servicios, por favor avísanos por medio
+de
+[https://github.com/ruby/www.ruby-lang.org/issues](https://github.com/ruby/www.ruby-lang.org/issues)
