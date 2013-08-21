@@ -4,7 +4,7 @@ title: "Đến với Ruby từ Python"
 lang: vi
 ---
 
-Python là một ngôn ngữ lập trình khác khá tốt. Khi chuyển từ Python qua Ruby, 
+Python là một ngôn ngữ lập trình khác khá tốt. Khi chuyển từ Python qua Ruby,
 bạn sẽ học thêm một vài cú pháp.
 
 ### Điểm tương đồng
@@ -19,7 +19,7 @@ Giống như Python, trong Ruby,...
   Python.
 * Ngoặc vuông dùng cho list, và ngoặc nhọn dùng cho dict (trong Ruby
   được gọi là "hash").
-* Các mảng hoạt động như nhau (khi thêm vào sẽ làm tăng phần tử mảng, 
+* Các mảng hoạt động như nhau (khi thêm vào sẽ làm tăng phần tử mảng,
   nhưng khi kết hợp lại như `a3=[ a1, a2 ]` sẽ thành mảng trong mảng).
 * Đối tượng là kiểu dữ liệu chủ đạo.
 * Tất cả mọi thứ đều là đối tượng, và các biến chỉ tham chiếu đến đối tượng.

@@ -5,8 +5,8 @@ lang: vi
 ---
 
 Perl rất tuyệt vời, các tài liệu của Perl cũng vậy. Cộng đồng Perl cũng …
-tuyệt vời. Tuy nhiên, ngôn ngữ này khá rộng lớn và phức tạp. Ruby có lẽ 
-được dành cho các Perler những người đã có một khoảng thời gian dễ dàng, 
+tuyệt vời. Tuy nhiên, ngôn ngữ này khá rộng lớn và phức tạp. Ruby có lẽ
+được dành cho các Perler những người đã có một khoảng thời gian dễ dàng,
 một ngôn ngữ trực quan hơn, và các tính năng OO được xây dựng ngay từ đầu.
 
 ### Điểm tương đồng
@@ -52,7 +52,7 @@ Khác với Perl, trong Ruby,...
   để thay thế.
 * Dấu suy ra `=>` chỉ được dùng cho các chuỗi ký tự hash.
 * Không có `undef`. Trong Ruby bạn có `nil`. `nil` là một đối tượng (như
-  những thứ khác trong Ruby). Không phải là một biến không xác định. 
+  những thứ khác trong Ruby). Không phải là một biến không xác định.
   Nó sẽ là `false` nếu bạn xem nó như kiểu boolean.
 * Khi kiểm tra đúng sai, chỉ có `false` và `nil` là dành cho các giá trị
   sai. Tất cả mọi thứ đều là true (bao gồm `0`,`0.0` và `"0"`).

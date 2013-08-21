@@ -5,7 +5,7 @@ lang: vi
 ---
 
 PHP được sử dụng rộng rãi cho các ứng dụng web, nhưng nếu bạn muốn
-sử dụng Ruby on Rails hoặc chỉ muốn một ngôn ngữ mà có thể phù hợp 
+sử dụng Ruby on Rails hoặc chỉ muốn một ngôn ngữ mà có thể phù hợp
 cho việc sử dụng chung thì Ruby cũng đáng được xem xét.
 
 ### Điểm tương đồng

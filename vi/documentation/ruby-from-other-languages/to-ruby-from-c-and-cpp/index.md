@@ -4,27 +4,27 @@ title: "Đến với Ruby từ C và C++"
 lang: vi
 ---
 
-Khá là khó để viết những điểm chính hình dung sự khác biệt khi chuyển 
-từ C và C++ qua Ruby vì thật sự là có sự khác biệt rất lớn. 
-Ruby runtime đảm nhận nhiều nhiệm vụ là một lý do. Ruby có vẻ 
-xa vời với nguyên tắc "không có cơ chế ẩn" của C- điểm này của Ruby giúp 
-cho công việc của chúng ta trở nên dễ dàng hơn bằng việc đánh đổi thêm một 
-ít thời gian khi thực thi. Trừ khi bạn muốn tối ưu mã của mình, bạn không cần quan 
+Khá là khó để viết những điểm chính hình dung sự khác biệt khi chuyển
+từ C và C++ qua Ruby vì thật sự là có sự khác biệt rất lớn.
+Ruby runtime đảm nhận nhiều nhiệm vụ là một lý do. Ruby có vẻ
+xa vời với nguyên tắc "không có cơ chế ẩn" của C- điểm này của Ruby giúp
+cho công việc của chúng ta trở nên dễ dàng hơn bằng việc đánh đổi thêm một
+ít thời gian khi thực thi. Trừ khi bạn muốn tối ưu mã của mình, bạn không cần quan
 tâm về việc "giữ cho trình biên dịch thực thi dễ dàng" khi sử dụng Ruby.
 
-Việc đó nói lên một điều là thời gian thực thi của Ruby sẽ chậm hơn 
-C và C++. Trong cùng một thời điểm, thì bạn sẽ thấy thời gian viết code 
-và chạy thử với Ruby sẽ nhanh như thế nào khi bạn chỉ cần viết một vài 
+Việc đó nói lên một điều là thời gian thực thi của Ruby sẽ chậm hơn
+C và C++. Trong cùng một thời điểm, thì bạn sẽ thấy thời gian viết code
+và chạy thử với Ruby sẽ nhanh như thế nào khi bạn chỉ cần viết một vài
 dòng code. Ruby đơn giản hơn C++ rất nhiều.
 
-Ruby là ngôn ngữ động, chứ không phải kiểu tĩnh - phải thực hiện rất nhiều 
-việc khi thực thi. Ví dụ, bạn không cần biết Ruby sẽ liên kết đến mô-đun nào 
+Ruby là ngôn ngữ động, chứ không phải kiểu tĩnh - phải thực hiện rất nhiều
+việc khi thực thi. Ví dụ, bạn không cần biết Ruby sẽ liên kết đến mô-đun nào
 (chỉ cần load và dùng) hoặc gọi phương thức nào.
 
 May mắn là Ruby và C có mối quan hệ cộng sinh. Ruby hỗ trợ cái gọi là
-"mô-đun mở rộng". Có những mô-đun mà bạn có thể sử dụng trong Ruby (và 
-những thành phần nào mà từ bên ngoài có thể xem xét và thực thi như 
-các mô-đun khác của Ruby), nhưng nó được viết bằng C. Bằng cách này, bạn có 
+"mô-đun mở rộng". Có những mô-đun mà bạn có thể sử dụng trong Ruby (và
+những thành phần nào mà từ bên ngoài có thể xem xét và thực thi như
+các mô-đun khác của Ruby), nhưng nó được viết bằng C. Bằng cách này, bạn có
 thể chỉa những phần xử lý quan trọng của Ruby xuống để xử lý bằng C.
 
 Và tất nhiên là chính bản thân Ruby cũng được viết từ C.
@@ -64,9 +64,9 @@ Giống như C++, trong Ruby,...
 
 Không giống như C, trong Ruby,...
 
-* Đối tượng là kiểu dữ liệu chủ đạo (và các tên biến không cần khai báo 
+* Đối tượng là kiểu dữ liệu chủ đạo (và các tên biến không cần khai báo
   kiểu dữ liệu)
-* Không có các macro hay preprocessor. Không ép kiểu, không con trỏ 
+* Không có các macro hay preprocessor. Không ép kiểu, không con trỏ
   (hay con trỏ số học). Không có typedefs, sizeof hay enums.
 * Không cần các tập tin header. Bạn chỉ cần định nghĩa chức năng mình
   muốn (thường là các phương thức) và các lớp trong mã nguồn chính của
@@ -75,13 +75,13 @@ Không giống như C, trong Ruby,...
 * Giống như Ruby 1.8, mã được biên dịch khi thực thi mà không cần biên
   dịch qua mã máy (machine-code) hay byte-code.
 * Tất cả các biến đều tồn tại trên heap. Do đó, bạn không cần giải phóng
-  nó - bộ thu gom sẽ làm việc đó. 
+  nó - bộ thu gom sẽ làm việc đó.
 * Tham số của phương thức (ví dụ như các chức năng) đều được truyền bằng
   tham chiếu (reference), không phải tham trị (value).
 * Sử dụng `require 'foo'` thay vì `#include <foo>` hay `#include "foo"`.
 * Bạn không thể drop down để assembly.
 * Không cần chấm phẩy khi hết dòng.
-* Không cần đóng mở ngoặc khi dùng biểu thức điều kiện `if` và `while`. 
+* Không cần đóng mở ngoặc khi dùng biểu thức điều kiện `if` và `while`.
 * Ngoặc đơn khi gọi phương thức (chức năng) thường được tùy chọn.
 * Bạn không cần sử dụng dấu ngoặc nhọn- chỉ cần dùng từ khóa `end` để
   kết thúc (giống như vòng lặp `while`).
@@ -118,11 +118,11 @@ Khác với C++, trong Ruby,...
   đến các biến public (trong Ruby nghĩa là thuộc tính) đều thông qua
   phương thức.
 * Dùng `self` thay cho `this`.
-* Một số phương thức kết thúc bằng ’?’ hay ’!’. Đều là một phần của 
+* Một số phương thức kết thúc bằng ’?’ hay ’!’. Đều là một phần của
   tên phương thức đó.
 * Không có đa kế thừa. Trong Ruby có "mixins" (bạn có thể "kế thừa" toàn
   bộ các phương thức của mô-đun đó).
-* Có một số quy ước bắt buộc (ví dụ tên lớp bắt đầu bằng kí tự Hoa, 
+* Có một số quy ước bắt buộc (ví dụ tên lớp bắt đầu bằng kí tự Hoa,
   các biến bắt đầu với ký tự thường).
 * Ngoặc đơn khi gọi phương thức thường được tùy chọn.
 * Bạn có thể mở lại một lớp bất kỳ lúc nào và thêm vào các phương thức.
@@ -132,7 +132,7 @@ Khác với C++, trong Ruby,...
   cần chuyển thành đối tượng lặp (như `vector<T>::const_iterator iter`)
   nhưng thay vào đó đối tượng của bạn sẽ kế thừa (mixin) mô-đun `Enumerator`
   và chỉ cần gọi `my_obj.each`.
-* Chỉ có hai kiểu chứa dữ liệu là : `Mảng` và `Hash`. 
+* Chỉ có hai kiểu chứa dữ liệu là : `Mảng` và `Hash`.
 * Không cần quy ước kiểu. Đối với Ruby bạn sẽ thây điều đó không cần thiết.
 * Đa luồng đã được xây dựng sẵn, nhưng trong Ruby 1.8 đều là "green thread"
   (được thực thi khi biên dịch) trái ngược với các luồng gốc.

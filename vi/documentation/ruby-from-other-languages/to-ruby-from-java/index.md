@@ -4,9 +4,9 @@ title: "Đến với Ruby từ Java"
 lang: vi
 ---
 
-Java rất phổ biến. Nó đã được chứng minh là nhanh (trái với những 
-gì mà các nhóm anti-Java nêu ra). Nó cũng khá là rườm rà. Chuyển 
-từ Java qua Ruby, đoạn mã của bạn sẽ rút ngắn đáng kề. Ruby cho phép 
+Java rất phổ biến. Nó đã được chứng minh là nhanh (trái với những
+gì mà các nhóm anti-Java nêu ra). Nó cũng khá là rườm rà. Chuyển
+từ Java qua Ruby, đoạn mã của bạn sẽ rút ngắn đáng kề. Ruby cho phép
 thực hiện nguyên mẫu nhanh hơn.
 
 ### Điểm tương đồng
@@ -37,7 +37,7 @@ Khác với Java, trong Ruby,...
 * Không kiểm tra các kiểu static.
 * Tên biến chỉ là các nhãn. Không có loại nào liên quan tới chúng.
 * Không có kiểu khai báo. Bạn chỉ cần gán cho tên biến mới những gì
-  cần thiết và nó sẽ "tự tạo" (ví dụ `a = [1,2,3]` thay vì 
+  cần thiết và nó sẽ "tự tạo" (ví dụ `a = [1,2,3]` thay vì
   `int[] a = {1,2,3};`)
 * Không cần ép kiểu. Chỉ cần gọi các phương thức. Các unit test
   sẽ báo các ngoại lệ cho bạn biết trước khi bạn thực thi lệnh.
