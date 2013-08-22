@@ -13,7 +13,7 @@ Rilis ini mencakup perbaikan sekurity yang bersangkutan dengan JSON dan REXML ya
 
 * [Denial of Service dan Kerentanan Pembuatan Object Unsafe pada JSON
   (CVE-2013-0269)][1]
-* [Kerentanan DoS ekspansi Entity pada REXML (bom XML)][2]
+* [Kerentanan DoS Ekspansi Entity pada REXML (Bom XML, CVE-2013-1821)][2]
 
 Dan beberapa perbaikan kecil juga termasuk dalam rilis ini.
 
