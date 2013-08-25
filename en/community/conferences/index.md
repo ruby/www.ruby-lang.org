@@ -54,6 +54,10 @@ WindyCityRails is an annual gathering for all who are passionate about
 Ruby on Rails. The Chicago-based conference has served the Ruby
 community since 2008. Visit [http://windycityrails.org][9] for details.
 
+[Madison Ruby][15]: Madison, WI
+
+[Steel City Ruby][16]: Pittsburg, PA
+
 ### Ruby At Other Conferences
 
 There has been a Ruby track at the [O’Reilly Open Source Conference][10]
@@ -80,3 +84,6 @@ O’Reilly), and Canada on Rails.
 [12]: http://www.railsconf.org
 [13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com
+[15]: http://madisonruby.org/
+[16]: http://steelcityruby.org/
+
