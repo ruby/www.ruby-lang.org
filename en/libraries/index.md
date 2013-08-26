@@ -43,9 +43,9 @@ as a fully-fledged gem to RubyGems.org.
 
 [**The Ruby Toolbox**][6] is a project that makes it easy to explore open source
 Ruby projects. It has categories for various common development tasks, collects
-a lot of information about the projects like release and commit activity, dependencies
-and rates projects based on their popularity on Rubygems and Github.
-The search makes it easy to find what you're looking for.
+a lot of information about the projects like release and commit activity or dependencies,
+and rates projects based on their popularity on RubyGems.org and GitHub.
+The search makes it easy to find what you are looking for.
 
 ### A few more words about RubyGems
 
@@ -126,7 +126,7 @@ application’s dependencies and may be used along RubyGems.
 [3]: http://rubygems.org
 [4]: http://rubyforge.org/
 [5]: http://github.com
-[6]: https://www.ruby-toolbox.com
+[6]: https://www.ruby-toolbox.com/
 [7]: http://docs.rubygems.org/
 [8]: http://guides.rubygems.org
 [9]: http://gembundler.com
