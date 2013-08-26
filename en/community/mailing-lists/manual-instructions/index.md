@@ -4,6 +4,9 @@ title: "Manual Mailing List Instructions"
 lang: en
 ---
 
+NOTE: If you cannot subscribe, please refer to
+[lists.ruby-lang.org](http://lists.ruby-lang.org).
+
 To subscribe to a mailing list, please send a plain text mail
 with the following mail body (not the subject) to the automated
 “controller” address:
