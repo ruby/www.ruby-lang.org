@@ -14,16 +14,17 @@ một ngôn ngữ trực quan hơn, và các tính năng OO được xây dựng
 Giống như Perl, trong Ruby,...
 
 * Bạn có một gói quản lý hệ thống, như là CPAN (trong Ruby thì được
-  gọi là [RubyGems][1])
+  gọi là [RubyGems][1]).
 * Các regex đã được xây dựng sẵn.
 * Có một số lượng built-ins khá lớn được xây dựng sẵn.
 * Các ngoặc đơn thường tùy chọn.
 * Cách hoạt động của các String cũng tương tự nhau.
 * Có một ký tự phân cách giữa chuỗi và regex khi trích dẫn cú pháp
-  như của Perls (như `%q{ (dẫu nháy đơn) này}`, hoặc `%Q{(nháy kép) này}`,
+  như của Perls (như `%q{(dẫu nháy đơn) này}`, hoặc `%Q{(nháy kép) này}`,
   và %w{trích dẫn danh sách các từ}`.
   Bạn `%Q|có thể|` `%Q(dùng)` ký tự `%Q^khác^` nếu thích.
-  #{như thế} này"` (và bạn có thể đặt bất cứ đoạn mã mình thích vào
+* You’ve got double-quotish variable interpolation, though
+  nó `"trông #{như thế} này"` (và bạn có thể đặt bất cứ đoạn mã mình thích vào
   `#{}`).
 * Mở rộng lệnh shell bằng \`backticks\`.
 * Có tích hợp các công cụ doc (trong Ruby là rdoc).

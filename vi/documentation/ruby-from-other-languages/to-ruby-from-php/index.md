@@ -15,18 +15,18 @@ Giống như PHP, trong Ruby…
 * Ruby cũng như PHP là kiểu động, do đó bạn không cần quan tâm đến
   việc khai báo biến.
 * Có các lớp, và bạn có thể điều khiển truy cập như trong PHP 5
-  (`public`, `protected` và `private`)
-* Một số biến bắt đầu bằng $ như trong PHP (nhưng không phải tất cả)
+  (`public`, `protected` và `private`).
+* Một số biến bắt đầu bằng $ như trong PHP (nhưng không phải tất cả).
 * Cũng có `eval` như trong PHP.
 * Bạn có thể sử dụng chuỗi nội suy. Thay vì viết ”$foo is a $bar”
   bạn có thể viết ”#\{foo} is a #\{bar}” như trong PHP, cách này
   không áp dụng cho các chuỗi sử dụng dấu nháy đơn.
-* Có heredocs
+* Có heredocs.
 * Ruby cũng có các ngoại lệ như PHP 5.
 * Có một thư viện đồ sộ.
 * Các mảng và hashes thực hiện đúng như mong muốn, nếu bạn chuyển đổi
   `array()` for `{` and `}`\: `array('a' => 'b')` thành `{'a' => 'b'}`.
-* `true` và `false` giống như trong PHP, nhưng `null` thì thành `nil`
+* `true` và `false` giống như trong PHP, nhưng `null` thì thành `nil`.
 
 ### Khác biệt
 
@@ -41,9 +41,9 @@ Không giống như PHP, trong Ruby…
 * Thay cho các quy ước đặt tên, như gạch chân, các phần mở rộng của
   thư viện chuẩn được sắp xếp trong các mô-đun và các lớp.
 * Ánh xạ là khả năng vốn có của đối tượng, bạn không cần lớp `Reflection`
-  như trong PHP 5
+  như trong PHP 5.
 * Các biến đều có thể tham chiếu.
-* Không có lớp `abstract` hay `interface`
+* Không có lớp `abstract` hay `interface`.
 * Hash và mảng không thể chuyển đổi qua lại.
 * Chỉ có `false` và `nil` là false: `0`, `array()` và `""` đều là true
   trong các câu điều kiện.

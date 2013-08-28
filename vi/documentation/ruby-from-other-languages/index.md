@@ -15,7 +15,6 @@ bạn mong muốn khi chuyển từ ngôn ngữ *X* sang Ruby. Phần thứ hai 
 luận về các đặc điểm chính của Ruby và so sánh với những ngôn ngữ
 mà bạn đã quen thuộc.
 
-
 ## Mong đợi gì: từ *ngôn ngữ X* đến Ruby
 
 * [Đến với Ruby từ C và
@@ -32,7 +31,7 @@ mà bạn đã quen thuộc.
 ## Một số vấn đề và tính năng quan trọng của ngôn ngữ
 
 Dưới đây là một số ghi chú và gợi ý về tính năng của Ruby mà bạn sẽ thấy
-khi học Ruby
+khi học Ruby.
 
 ### Bước lặp
 
@@ -41,7 +40,6 @@ Hai đặc điểm của Ruby có một chút khác biệt với những gì b�
 Thay vì phải lặp trên một index (như C, C++, hoặc Java 1.5 trở về trước),
 hoặc lặp trên một danh sách (như Perl <tt>for (@a) \{...}</tt>, hay Python
 <tt>for i in aList: ...</tt>, thì với Ruby bạn sẽ thường xuyên thấy
-
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -87,7 +85,7 @@ irb(main):003:0>
 
 `object_id` của phương thức trả về định danh của đối tượng. Nếu hai
 đối tượng có chung một `object_id`, thì như nhau (đều trỏ đến cùng
-một đối tượng trong vùng nhớ)
+một đối tượng trong vùng nhớ).
 
 Như bạn có thể thấy, một khi đã sử dụng Symbol một lần, thì những
 Symbol có cùng ký tự đều tham chiếu đến cùng một đối tượng trong bộ
@@ -200,7 +198,7 @@ class MyClass
 end
 {% endhighlight %}
 
-Bạn muốn `another_method` là public. Nhưng không. Truy cập ‘private’
+Bạn muốn `another_method` là public. Nhưng không. Truy cập `private`
 có phạm vi ảnh hướng đến toàn bộ các phương thức, hoặc cho đến khi
 xuất hiện truy cập khác. Mặc định, các phương thức đều public:
 
@@ -308,7 +306,6 @@ thay đổi các đối số không kết thúc với dấu chấm than. <tt>Arr
 thay đổi nội dung của mảng với nội dụng của mảng khác. Nó không có ý nghĩa nhiều
 để có một phương thức như thế mà **không phải** thay đổi chính nó.
 
-
 ### Các phương thức đơn
 
 Các phương thức đơn là các phương thức cho từng đối tượng. Nó chỉ có trên
@@ -413,11 +410,11 @@ class Fixnum
 end
 {% endhighlight %}
 
-Bạn không cần `toán tử +` của C++
+Bạn không cần `toán tử +` của C++.
 
 Thậm chí bạn cũng có thể truy cập kiểu mảng nếu bạn định nghĩa
 các phương thức `[]` và `[]=`. Để định nghĩa toán tử nguyên phân + và -
-(như +1 và -2), bạn phải định nghĩa phương thức `+@`và `-@` tương ứng.
+(như +1 và -2), bạn phải định nghĩa phương thức `+@` và `-@` tương ứng.
 Các toán tử dưới đây **không** có cú pháp. Nó không phải là các
 phương thức, và không thể tái định nghĩa:
 

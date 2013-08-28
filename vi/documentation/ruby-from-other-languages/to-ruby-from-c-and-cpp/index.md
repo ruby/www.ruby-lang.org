@@ -34,7 +34,7 @@ Và tất nhiên là chính bản thân Ruby cũng được viết từ C.
 Giống như C, trong Ruby,...
 
 * Bạn có thể viết thủ tục nếu thích (nhưng nó vẩn phải đảm bảo tính
-  hướng đối tượng)
+  hướng đối tượng).
 * Đa số các toán tử đều như nhau (bao gồm toán tử kết hợp và cả toán tử bit).
   Do đó trong Ruby không có `++` hay `--`.
 * Bạn cũng có `__FILE__` và `__LINE__`.
@@ -65,7 +65,7 @@ Giống như C++, trong Ruby,...
 Không giống như C, trong Ruby,...
 
 * Đối tượng là kiểu dữ liệu chủ đạo (và các tên biến không cần khai báo
-  kiểu dữ liệu)
+  kiểu dữ liệu).
 * Không có các macro hay preprocessor. Không ép kiểu, không con trỏ
   (hay con trỏ số học). Không có typedefs, sizeof hay enums.
 * Không cần các tập tin header. Bạn chỉ cần định nghĩa chức năng mình

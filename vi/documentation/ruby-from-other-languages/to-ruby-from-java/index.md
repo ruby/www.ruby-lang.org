@@ -38,13 +38,13 @@ Khác với Java, trong Ruby,...
 * Tên biến chỉ là các nhãn. Không có loại nào liên quan tới chúng.
 * Không có kiểu khai báo. Bạn chỉ cần gán cho tên biến mới những gì
   cần thiết và nó sẽ "tự tạo" (ví dụ `a = [1,2,3]` thay vì
-  `int[] a = {1,2,3};`)
+  `int[] a = {1,2,3};`).
 * Không cần ép kiểu. Chỉ cần gọi các phương thức. Các unit test
   sẽ báo các ngoại lệ cho bạn biết trước khi bạn thực thi lệnh.
 * Sử dụng `foo = Foo.new( "hi")` thay vì `Foo foo = new Foo( "hi" )`.
 * Các phương thức khởi tạo luôn được đặt tên là “initialize”
   thay vì là tên của lớp đó.
-* Bạn có “mixin’s” thay cho các interface.
+* Bạn có “mixins” thay cho các interface.
 * YAML thường được sử dụng trên XML.
 * Ruby báo `nil` thay vì `null`.
 * `==` và `equals()` được xử lý khác nhau trong Ruby. Sử dụng `==`

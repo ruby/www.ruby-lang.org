@@ -49,7 +49,7 @@ Khác với Python, trong Ruby,...
 * Dấu ngoặc đơn khi gọi phương thức được tùy chọn.
 * Có các truy cập `public`, `private`, và `protected` thay vì
   gạch dưới `_voluntary_` `__convention__` trong Python.
-* “mixin’s” được sử dụng thay cho đa kế thừa.
+* “mixins” được sử dụng thay cho đa kế thừa.
 * Bạn có thể chỉnh sửa các phương thức trong lớp được xây dựng sẵn. Cả
   hai ngôn ngữ đều là mã nguồn mở và bạn có thể chỉnh sửa các lớp ở bất
   kỳ đâu, nhưng Python ngăn chặn việc thay đổi mã nguồn được xây dựng sẵn
