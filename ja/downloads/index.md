@@ -20,18 +20,15 @@ Rubyの各バージョンのソースコードは、以下から入手できま�
 * 最新のソースをAnonymous
   SVNで入手する方法については、[レポジトリガイド](/ja/documentation/repository-guide)を参照ください。
 
-## 各環境用バイナリ
+## Windows版Rubyバイナリ
 
-各種の環境向けのバイナリが有志により配布されています。
+Windows向けのバイナリが有志により配布されています。
 
-* Windows版Rubyバイナリ
-  * どれをダウンロードすればいいのかは[Microsoft Windows版のビルド環境による違い][16]を参考にしてください。
-  * [ActiveScriptRuby][17]
-    安定版に幾つか便利なライブラリを加え、さらにRubyをCOMサーバとしても利用可能にしたもの。ベースはmswin32版
-  * [One-Click Ruby Installer for Windows][18] (英語)
-    安定版に多数の便利なライブラリを加えたもの。ベースはmingw32版
-  * [Ruby-mswin32][19] mswin32版の安定版・開発版を随時提供
-  * [cygwin,djgpp,mingw,mswin32][20]
+* [ActiveScriptRuby][17]
+  安定版に幾つか便利なライブラリを加え、さらにRubyをCOMサーバとしても利用可能にしたもの。ベースはmswin32版
+* [One-Click Ruby Installer for Windows][18] (英語)
+  安定版に多数の便利なライブラリを加えたもの。ベースはmingw32版
+* [cygwin,djgpp,mingw,mswin32][20]
 
 ## ミラーサイト
 
@@ -98,10 +95,8 @@ Posted by Shugo Maeda on 26 May 2006
 [13]: {{ site.downloads.stable_snapshot.url.bz2 }}
 [14]: {{ site.downloads.stable_snapshot.url.gz }}
 [15]: {{ site.downloads.stable_snapshot.url.zip }}
-[16]: /ja/install.cgi?cmd=view;name=Microsoft+Windows%C8%C7%A4%CE%A5%D3%A5%EB%A5%C8%B4%C4%B6%AD%A4%CB%A4%E8%A4%EB%B0%E3%A4%A4
 [17]: http://www.artonx.org/data/asr/
 [18]: http://rubyinstaller.org/
-[19]: http://www.garbagecollect.jp/ruby/mswin32/
 [20]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/
 [21]: ftp://core.ring.gr.jp/pub/lang/ruby/
 [22]: http://www.t.ring.gr.jp/
