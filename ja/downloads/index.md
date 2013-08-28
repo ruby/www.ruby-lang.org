@@ -98,7 +98,7 @@ Posted by Shugo Maeda on 26 May 2006
 [15]: {{ site.downloads.stable_snapshot.url.zip }}
 [17]: http://www.artonx.org/data/asr/
 [18]: http://rubyinstaller.org/
-[20]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/
+[20]: https://ftp.ruby-lang.org/pub/ruby/binaries/
 [21]: ftp://core.ring.gr.jp/pub/lang/ruby/
 [22]: http://www.t.ring.gr.jp/
 [23]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
