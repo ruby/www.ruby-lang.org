@@ -18,7 +18,7 @@ exclude:
   - redirect.conf_
   - vendor
 
-url: http://www.ruby-lang.org
+url: https://www.ruby-lang.org
 
 license:
   url: /en/about/license.txt
