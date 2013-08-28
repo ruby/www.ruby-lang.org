@@ -39,7 +39,7 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 * [日本 1][21]及び[ミラー][22] (RingServer)
 * [日本 2][23] (IIJ)
 * [日本 3][24] (idaemons.org)
-* [日本 4][25] (マスターサイト) - 低速
+* [日本 4][25] (マスターサイト)
 * [韓国][26] (Korea FreeBSD Users Group)
 * [ドイツ][27] (FU Berlin)
 * [イギリス][28] (The Mirror Service)
@@ -56,8 +56,9 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 
 ### HTTPミラーサイト
 
-* [イギリス][39] (The Mirror Service)
 * [日本][40]及び[ミラー][22] (RingServer)
+* [日本][53] (マスターサイト) - HTTPS
+* [イギリス][39] (The Mirror Service)
 * [ドイツ][41] (AmbiWeb GmbH)
 * [ベルギー][42] (Easynet)
 * [デンマーク][43] (sunsite.dk)
@@ -130,3 +131,4 @@ Posted by Shugo Maeda on 26 May 2006
 [50]: http://gd.tuwien.ac.at/languages/ruby/
 [51]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [52]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
+[53]: https://ftp.ruby-lang.org/pub/ruby/
