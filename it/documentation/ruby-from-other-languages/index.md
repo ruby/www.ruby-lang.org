@@ -205,7 +205,7 @@ end
 {% endhighlight %}
 
 Ci si potrebbe aspettare che `un_altro_metodo` sia pubblico, ma non è
-così: il modificatore di accesso ‘private’ continua fino alla fine dello
+così: il modificatore di accesso `private` continua fino alla fine dello
 scope, o fino a quando un altro modificatore di accesso venga
 specificato.
 

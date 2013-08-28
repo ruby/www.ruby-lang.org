@@ -168,7 +168,7 @@ class MyClass
 end
 {% endhighlight %}
 
-你可能會認為 `another_method` 是 public 的，但不是這樣。這個 ‘private’
+你可能會認為 `another_method` 是 public 的，但不是這樣。這個 `private`
 存取修飾到作用域(scope)結束，或是直到另一個存取修飾詞開始作用。方法預設都是 public 的：
 
 {% highlight ruby %}

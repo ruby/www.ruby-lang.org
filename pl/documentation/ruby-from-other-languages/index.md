@@ -196,7 +196,7 @@ end
 {% endhighlight %}
 
 Być może oczekujesz, że `another_method` jest metodą publiczną? Nie
-jest. Modyfikator dostępu ‘private’ jest zastosowany dla wszystkich
+jest. Modyfikator dostępu `private` jest zastosowany dla wszystkich
 metod następujących po nim, lub do momentu napotkania innego
 modyfikatora zakresu dostępu. Domyślnie, wszystkie metody są publiczne.
 

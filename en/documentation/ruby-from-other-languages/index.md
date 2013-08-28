@@ -198,7 +198,7 @@ class MyClass
 end
 {% endhighlight %}
 
-You might expect `another_method` to be public. Not so. The ‘private’
+You might expect `another_method` to be public. Not so. The `private`
 access modifier continues until the end of the scope, or until another
 access modifier pops up, whichever comes first. By default, methods are
 public:

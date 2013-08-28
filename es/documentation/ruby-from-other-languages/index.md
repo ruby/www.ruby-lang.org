@@ -216,7 +216,7 @@ end
 {% endhighlight %}
 
 Puede ser que esperes que `otro_metodo` sea de alcance público. Esto no
-es así. El modificador de acceso ‘private’ continúa hasta el fin del
+es así. El modificador de acceso `private` continúa hasta el fin del
 alcance, o hasta que aparezca un nuevo modificador de acceso, lo que
 ocurra primero. Por defecto, los métodos son públicos:
 

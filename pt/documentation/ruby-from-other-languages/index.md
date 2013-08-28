@@ -214,7 +214,7 @@ end
 {% endhighlight %}
 
 Poderá pensar que `outro_metodo` seja público. Não é verdade. O
-‘private’ access modifier continua até ao fim do escopo, ou até que
+`private` access modifier continua até ao fim do escopo, ou até que
 outro access modifier apareça, qualquer que apareça primeiro.
 
 Por omissão, os métodos são públicos:
