@@ -25,7 +25,7 @@ Rubyの各バージョンのソースコードは、以下から入手できま�
 Windows向けのバイナリが有志により配布されています。
 
 * [ActiveScriptRuby][17]
-  安定版に幾つか便利なライブラリを加え、さらにRubyをCOMサーバとしても利用可能にしたもの。ベースはmswin32版
+  安定版に幾つかの便利なライブラリを加え、さらにRubyをCOMサーバとしても利用可能にしたもの。ベースはmswin32版
 * [One-Click Ruby Installer for Windows][18] (英語)
   安定版に多数の便利なライブラリを加えたもの。ベースはmingw32版
 * [cygwin,djgpp,mingw,mswin32][20]

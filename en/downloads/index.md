@@ -52,7 +52,7 @@ For information about the Ruby Subversion and Git repositories, see our
 
 ### Mirror site
 
-mirror site to provide ruby source is available in world wide. If you want to get Ruby's source code, Please use mirror site near you.
+Mirror site to provide ruby source is available in world wide. Using the site near you is recommended.
 
 #### Mirror site via HTTP
 
