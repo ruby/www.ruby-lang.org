@@ -118,7 +118,7 @@ Posted by Shugo Maeda on 26 May 2006
 [37]: ftp://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
 [38]: ftp://mirror.cs.mun.ca/pub/mirror/ruby/
 [39]: http://www.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
-[40]: http://core.ring.gr.jp/archives/lang/ruby/
+[40]: http://www.dnsbalance.ring.gr.jp/archives/lang/ruby/
 [41]: http://dl.ambiweb.de/mirrors/ftp.ruby-lang.org/
 [42]: http://ruby.mirror.easynet.be/
 [43]: http://mirrors.sunsite.dk/ruby/
