@@ -46,7 +46,7 @@ Ao contrário de Java, em Ruby…
   excepção antes da execução do código.
 * Escreve-se `foo = Foo.new( "ola")` em vez de `foo = new Foo( "ola" )`.
 * O construtor é sempre chamado “initialize” em vez do nome da classe.
-* Temos “mixin’s” em vez de interfaces.
+* Temos “mixins” em vez de interfaces.
 * O uso de YAML é favorecido em relação ao XML.
 * Utiliza-se `nil` em vez de `null`.
 

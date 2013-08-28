@@ -48,7 +48,7 @@ W przeciwieństwie do Javy, w Rubim…
   zobaczysz wyjątek.
 * Używasz `foo = Foo.new( "hi")` zamiast `foo = new Foo( "hi" )`.
 * Konstruktor zawsze nazywa się “initialize” niezależnie od nazwy klasy.
-* Używasz domieszkowania klas (ang. “mixin’s”) zamiast interfejsów.
+* Używasz domieszkowania klas (ang. “mixins”) zamiast interfejsów.
 * Preferowany jest YAML wobec XMLa.
 * Istnieje `nil` zamiast `null`.
 

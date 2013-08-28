@@ -45,7 +45,7 @@ Unlike Java, in Ruby,...
 * It’s `foo = Foo.new( "hi")` instead of `Foo foo = new Foo( "hi" )`.
 * The constructor is always named “initialize” instead of the name of
   the class.
-* You have “mixin’s” instead of interfaces.
+* You have “mixins” instead of interfaces.
 * YAML tends to be favored over XML.
 * It’s `nil` instead of `null`.
 * `==` and `equals()` are handled differently in Ruby. Use `==` when you
