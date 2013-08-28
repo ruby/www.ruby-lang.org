@@ -34,6 +34,24 @@ Windows向けのバイナリが有志により配布されています。
 
 Rubyのソースコードや、それを含めた当サイトの内容が、有志によりミラーされています。
 
+### HTTPミラーサイト
+
+* [日本][40]及び[ミラー][22] (RingServer)
+* [日本][53] (マスターサイト) - HTTPS
+* [イギリス][39] (The Mirror Service)
+* [ドイツ][41] (AmbiWeb GmbH)
+* [ベルギー][42] (Easynet)
+* [デンマーク][43] (sunsite.dk)
+* [オランダ][44] (XS4ALL) - リリース版のみ
+* [アメリカ 1][45] (ibiblio.org)
+* [アメリカ 2][46] (lcs.mit.edu)
+* [アメリカ 3][47] (binarycode.org)
+* [アメリカ 4][48] (online-mirror.org)
+* [アメリカ 5][49] (trexle.com)
+* [オーストリア][50] (tuwien.ac.at)
+* [台湾 1][51] (cdpa.nsysu.edu.tw)
+* [台湾 2][52] (ftp.cs.pu.edu.tw)
+
 ### FTPミラーサイト
 
 * [日本 1][21]及び[ミラー][22] (RingServer)
@@ -53,24 +71,6 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 * [台湾 1][36] (cdpa.nsysu.edu.tw)
 * [台湾 2][37] (ftp.cs.pu.edu.tw)
 * [カナダ][38] (mirror.cs.mun.ca)
-
-### HTTPミラーサイト
-
-* [日本][40]及び[ミラー][22] (RingServer)
-* [日本][53] (マスターサイト) - HTTPS
-* [イギリス][39] (The Mirror Service)
-* [ドイツ][41] (AmbiWeb GmbH)
-* [ベルギー][42] (Easynet)
-* [デンマーク][43] (sunsite.dk)
-* [オランダ][44] (XS4ALL) - リリース版のみ
-* [アメリカ 1][45] (ibiblio.org)
-* [アメリカ 2][46] (lcs.mit.edu)
-* [アメリカ 3][47] (binarycode.org)
-* [アメリカ 4][48] (online-mirror.org)
-* [アメリカ 5][49] (trexle.com)
-* [オーストリア][50] (tuwien.ac.at)
-* [台湾 1][51] (cdpa.nsysu.edu.tw)
-* [台湾 2][52] (ftp.cs.pu.edu.tw)
 
 ### Rsyncミラーサイト
 
