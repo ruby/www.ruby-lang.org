@@ -57,8 +57,8 @@ Please try to use a mirror that is near you.
 
 #### Mirror sites via HTTP
 
-* [Japan][50] and [mirror][32] (RingServer)
-* [Japan][63] (Master) - HTTPS
+* [Japan 1][50] and [mirror][32] (RingServer)
+* [Japan 2][63] (Master) - HTTPS
 * [Britain][49] (The Mirror Service)
 * [Germany][51] (AmbiWeb GmbH)
 * [Belgium][52] (Easynet)
@@ -77,8 +77,7 @@ Please try to use a mirror that is near you.
 
 * [Japan 1][31] and [mirror][32] (RingServer)
 * [Japan 2][33] (IIJ)
-* [Japan 3][34] (idaemons.org)
-* [Japan 4][35] (Master: ruby-lang.org)
+* [Japan 3][35] (Master: ruby-lang.org)
 * [South Korea][36] (Korea FreeBSD Users Group)
 * [Germany][37] (FU Berlin)
 * [Britain][38] (The Mirror Service)
@@ -95,7 +94,6 @@ Please try to use a mirror that is near you.
 
 #### Mirror sites via rsync
 
-* rsync://rsync.idaemons.org/ftp/mirror/ftp.ruby-lang.org/ruby/ (Japan)
 * rsync://rsync.mirrorservice.org/ftp.ruby-lang.org/pub/ruby/ (Britain)
 * rsync://sunsite.dk/ftp/mirrors/ruby/ (Denmark)
 * rsync://gd.tuwien.ac.at/languages/ruby/ (Austria)
@@ -288,7 +286,6 @@ programming language”.
 [31]: ftp://core.ring.gr.jp/pub/lang/ruby/
 [32]: http://www.t.ring.gr.jp/
 [33]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
-[34]: ftp://ftp.idaemons.org/pub/mirror/ftp.ruby-lang.org/ruby/
 [35]: ftp://ftp.ruby-lang.org/pub/ruby/
 [36]: ftp://ftp.kr.freebsd.org/pub/ruby/
 [37]: ftp://ftp.fu-berlin.de/unix/languages/ruby/

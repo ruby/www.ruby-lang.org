@@ -36,8 +36,8 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 
 ### HTTPミラーサイト
 
-* [日本][40]及び[ミラー][22] (RingServer)
-* [日本][53] (マスターサイト) - HTTPS
+* [日本 1][40]及び[ミラー][22] (RingServer)
+* [日本 2][53] (マスターサイト) - HTTPS
 * [イギリス][39] (The Mirror Service)
 * [ドイツ][41] (AmbiWeb GmbH)
 * [ベルギー][42] (Easynet)
@@ -56,8 +56,7 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 
 * [日本 1][21]及び[ミラー][22] (RingServer)
 * [日本 2][23] (IIJ)
-* [日本 3][24] (idaemons.org)
-* [日本 4][25] (マスターサイト)
+* [日本 3][25] (マスターサイト)
 * [韓国][26] (Korea FreeBSD Users Group)
 * [ドイツ][27] (FU Berlin)
 * [イギリス][28] (The Mirror Service)
@@ -76,7 +75,6 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 
 * rsync://rsync.mirrorservice.org/ftp.ruby-lang.org/pub/ruby/ (イギリス)
 * rsync://sunsite.dk/ftp/mirrors/ruby/ (デンマーク)
-* rsync://rsync.idaemons.org/ftp/mirror/ftp.ruby-lang.org/ruby/ (日本)
 * rsync://gd.tuwien.ac.at/languages/ruby/ (オーストリア)
 * rsync://mirror.cs.mun.ca/ruby/ (カナダ)
 * rsync://ftp.cs.pu.edu.tw/Ruby/ (台湾)
@@ -102,7 +100,6 @@ Posted by Shugo Maeda on 26 May 2006
 [21]: ftp://core.ring.gr.jp/pub/lang/ruby/
 [22]: http://www.t.ring.gr.jp/
 [23]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
-[24]: ftp://ftp.idaemons.org/pub/mirror/ftp.ruby-lang.org/ruby/
 [25]: ftp://ftp.ruby-lang.org/pub/ruby/
 [26]: ftp://ftp.kr.freebsd.org/pub/ruby/
 [27]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
