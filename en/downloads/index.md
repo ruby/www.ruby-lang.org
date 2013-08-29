@@ -50,11 +50,12 @@ party tools in the next section. They may help you.
 For information about the Ruby Subversion and Git repositories, see our
 [Ruby Core](/en/community/ruby-core/) page.
 
-### Mirror site
+### Mirror sites
 
-Mirror site to provide ruby source is available in world wide. Using the site near you is recommended.
+The Ruby source is available from a worldwide set of mirror sites.
+Please try to use a mirror that is near you.
 
-#### Mirror site via HTTP
+#### Mirror sites via HTTP
 
 * [Japan][50] and [mirror][32] (RingServer)
 * [Japan][63] (Master) - HTTPS
@@ -72,7 +73,7 @@ Mirror site to provide ruby source is available in world wide. Using the site ne
 * [Taiwan 1][61] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][62] (ftp.cs.pu.edu.tw)
 
-#### Mirror site via FTP
+#### Mirror sites via FTP
 
 * [Japan 1][31] and [mirror][32] (RingServer)
 * [Japan 2][33] (IIJ)
@@ -92,7 +93,7 @@ Mirror site to provide ruby source is available in world wide. Using the site ne
 * [Taiwan 2][47] (ftp.cs.pu.edu.tw)
 * [Canada][48] (mirror.cs.mun.ca)
 
-#### Mirror site via Rsync
+#### Mirror sites via rsync
 
 * rsync://rsync.idaemons.org/ftp/mirror/ftp.ruby-lang.org/ruby/ (Japan)
 * rsync://rsync.mirrorservice.org/ftp.ruby-lang.org/pub/ruby/ (Britain)
