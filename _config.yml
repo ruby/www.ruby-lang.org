@@ -18,7 +18,7 @@ exclude:
   - redirect.conf_
   - vendor
 
-url: http://www.ruby-lang.org
+url: https://www.ruby-lang.org
 
 license:
   url: /en/about/license.txt
@@ -27,9 +27,9 @@ downloads:
   stable:
     version: 2.0.0-p247
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
+      bz2: https://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
+      gz: https//ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+      zip: https://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
     md5:
       bz2: 60913f3eec0c4071f44df42600be2604
       gz: c351450a0bed670e0f5ca07da3458a5b
@@ -37,23 +37,23 @@ downloads:
   previous:
     version: 1.9.3-p448
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.zip
+      bz2: https://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2
+      gz: https://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
+      zip: https://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.zip
     md5:
       bz2: aa710d386e5903f78f0231868255e6af
       gz: a893cff26bcf351b8975ebf2a63b1023
       zip: bb3b1108847abaab312c024f3c0bc6c3
   stable_snapshot:
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.zip
+      bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
+      gz: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
+      zip: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.zip
   nightly_snapshot:
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.zip
+      bz2: https://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2
+      gz: https://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
+      zip: https://ftp.ruby-lang.org/pub/ruby/snapshot.zip
 
 locales:
   sitelinks:
