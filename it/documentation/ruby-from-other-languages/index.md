@@ -40,7 +40,7 @@ particolari di Ruby.
 Due caratteristiche che si discostano da quello che puoi aver già visto
 in altri linguaggi sono i “blocchi” e gli iteratori. Invece di iterare
 su un indice (come in C, C++, o Java pre-1.5), o su una lista (come il
-<tt>for (@a) \{...}</tt> di Perl o il <tt>for i in aList: ...</tt>), con
+<tt>for (@a) \{...}</tt> di Perl o il <tt>for i in aList: ...</tt> di Python), con
 Ruby vedrai spesso costrutti come:
 
 {% highlight ruby %}
@@ -87,14 +87,14 @@ irb(main):003:0>
 {% endhighlight %}
 
 Il metodo `object_id` ritorna l’identità di un’oggetto. Se due oggetti
-hanno la stessa `object_id` allora sono di fatto la stessacosa (puntano
+hanno la stessa `object_id` allora sono di fatto la stessa cosa (puntano
 entrambi al medesimo oggetto in memoria).
 
 Come puoi vedere, una volta usato un simbolo, qualsiasi altro simbolo
 con lo stesso nome si riferirà allo stesso oggetto in memoria, e ognuno
 di questi simboli ritornerà quindi la medesima `object_id`.
 
-Diamo un’occhiata più da vicino alle stringhe (“pippo”), nella seconda
+Diamo un’occhiata più da vicino alle stringa (“pippo”) nella seconda
 espressione: ognuna delle due stringhe ha una propria `object_id`, cioè
 mappa un oggetto diverso in memoria. Ciò non avviene con simboli con lo
 stesso nome, che puntano sempre al medesimo oggetto. Se sei indeciso se
@@ -104,7 +104,7 @@ o il contenuto (“pippo”, nell’esempio precedente).
 
 ### Ogni cosa è un oggetto
 
-Questa frase non è un’iporbole: anche classi e numeri interi sono
+Questa frase non è un’iperbole: anche classi e numeri interi sono
 oggetti, puoi fare con loro le stesse cose che puoi fare con qualsiasi
 altro oggetto:
 
@@ -122,16 +122,16 @@ end
 
 Le costanti non sono realmente “costanti”. Se modifichi una costante che
 è già stata inizializzata, questo causerà un messaggio di errore, ma non
-interromperà l’esecuzione del programma. Tuttavia, questo **non** vuol
-dire che tu debba *per forza* ridefinire delle costanti però!
+interromperà l’esecuzione del programma. Tuttavia questo **non** vuol
+dire che tu debba *per forza* ridefinire delle costanti!
 
 ### Convenzioni sui nomi
 
 Ruby usa delle specifiche convenzioni sui nomi dei suoi elementi:
 
-* Se un’identificatore inizia con una maiuscola è una costante
-* Se inizia con il simbolo del dollaro ($) è una variabile globale
-* Se inizia con `@` è una variabile di istanza
+* Se un’identificatore inizia con una maiuscola è una costante.
+* Se inizia con il simbolo del dollaro ($) è una variabile globale.
+* Se inizia con `@` è una variabile di istanza.
 * Se inizia con `@@` è una variabile di classe.
 
 Tuttavia i metodi possono avere un’iniziale maiuscola, anche se questo
@@ -149,7 +149,7 @@ In questo modo, `Costante` è 10, ma `Costante()` è 11.
 ### Parametri nominali
 
 Come in Python, dalla versione 2.0 di Ruby è possibile definire metodi con
-paramtri nominali:
+parametri nominali:
 
 {% highlight ruby %}
 def consegna(da: 'A', a: nil, via: 'mail')
@@ -169,7 +169,7 @@ In Ruby ogni cosa eccetto **nil** e **false** è interpretato come
 altri valori sono interpretati come *false*.
 
 Diamo un’occhiata al seguente codice in Python (questo esempio si
-applica anche ad atri linguaggi):
+applica anche ad altri linguaggi):
 
 {% highlight python %}
 # in Python
@@ -179,7 +179,7 @@ else:
   print "0 è false"
 {% endhighlight %}
 
-Questo stamperà “0 is false”, mentre l’equivalente in Ruby:
+Questo stamperà “0 è false”, mentre l’equivalente in Ruby:
 
 {% highlight ruby %}
 # in Ruby
@@ -283,7 +283,7 @@ irb(main):026:0>
 
 ### Classi aperte
 
-In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli oggetti. Ruby on Rails, per esempio, definishe una serie di metodi per fare operazioni temporali con oggetti `Fixnum`\:
+In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli oggetti. Ruby on Rails, per esempio, definisce una serie di metodi per fare operazioni temporali con oggetti `Fixnum`\:
 
 {% highlight ruby %}
 class Fixnum
@@ -316,7 +316,7 @@ che non modifica il ricevente.
 ### Metodi singleton
 
 I metodi singleton sono dei metodi *ad hoc* per singoli oggetti, e sono
-pertanto devinibili sull’oggetto per il quale sono stati definiti.
+pertanto definibili sull’oggetto per il quale sono stati definiti.
 
 {% highlight ruby %}
 class Automobile
@@ -423,7 +423,7 @@ end
 
 Non c’è nemmeno bisogno di usare `operator+`, come in C++.
 
-È è possibile anche definire un modo di accedere a uno specifico
+È possibile anche definire un modo di accedere a uno specifico
 elemento come in un array, definendo i metodi `[]` e `[]=`, mentre per
 definire metodi unari + e – (pensa a +1 e -2, ad esempio), bisogna
 definire, rispettivamente, i metodi `+@` and `-@`.
@@ -441,7 +441,7 @@ Inoltre, +=, \*= ecc. sono solo abbreviazioni di:
 
 ## Per saperne di più
 
-Quando se pronto per imparare di più su Ruby, dai un’occhiata alla
+Quando sei pronto per imparare di più su Ruby, dai un’occhiata alla
 sezione [Documentazione](/it/documentation/).
 
 
