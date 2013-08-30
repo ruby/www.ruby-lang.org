@@ -94,7 +94,7 @@ Come puoi vedere, una volta usato un simbolo, qualsiasi altro simbolo
 con lo stesso nome si riferirà allo stesso oggetto in memoria, e ognuno
 di questi simboli ritornerà quindi la medesima `object_id`.
 
-Diamo un’occhiata più da vicino alle stringa (“pippo”) nella seconda
+Diamo un’occhiata più da vicino alle stringhe (“pippo”) nella seconda
 espressione: ognuna delle due stringhe ha una propria `object_id`, cioè
 mappa un oggetto diverso in memoria. Ciò non avviene con simboli con lo
 stesso nome, che puntano sempre al medesimo oggetto. Se sei indeciso se
