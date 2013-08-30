@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title:  "ConFoo 2014 sucht Ruby-Speakers"
+title:  "ConFoo 2014 sucht Ruby-Speaker"
 author: "afilina"
 translator: "Quintus"
 date:   2013-08-29 16:00:00 UTC
@@ -11,9 +11,9 @@ Wir sind auf der Suche nach professionellen Ruby-Anwendern, die ihre
 Erfahrungen bei der nächsten ConFoo teilen. [Geben Sie Ihren Vorschlag][1]
 bis zum **22. September** ab.
 
-![ConFoo web dev conference. Feb 26 - 28, 2014 &#124; Montreal, Canada][logo]{: style="border:0; float:right; margin-left:20px;" width="180" height="250"}
+![ConFoo-Konferenz. 26.-28. Feb. 2014 &#124; Montreal, Canada][logo]{: style="border:0; float:right; margin-left:20px;" width="180" height="250"}
 
-Die ConFoo ist eine Entwicklerkonferenz, die sich als wichtiges Ziel
+Die ConFoo ist eine Entwicklerkonferenz, die sich als wichtiger Ort
 zur Entdeckung neuer Technologien und zum tieferen Eintauchen in bekannte
 Themen einen Namen gemacht hat. Lernen Sie dort das Beste aus
 Community und Kultur kennen.
