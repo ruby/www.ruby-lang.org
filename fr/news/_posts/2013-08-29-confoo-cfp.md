@@ -9,7 +9,9 @@ lang:   fr
 
 Nous recherchons des professionnels Ruby souhaitant partager leurs connaissances et expériences lors du prochain ConFoo. [Soumettez vos propositions][1] avant le **22 septembre**.
 
-<img src="http://confoo.ca/images/propaganda/2014/fr/t-ruby.gif" alt="ConFoo web dev conference. 26 au 28 février 2014 | Montréal, Canada" style="border:0; float:right; margin-left:20px;" width="180" height="250">
+<span style="border:0; float:right; margin-left:20px;" width="180" height="250">
+![ConFoo web dev conference. 26 au 28 février 2014 | Montréal, Canada](http://confoo.ca/images/propaganda/2014/fr/t-ruby.gif)
+</span>
 
 ConFoo est une conférence de développeurs qui a bâti une réputation en tant que destination de choix pour explorer de nouvelles technologies, plonger davantage dans les sujets familiers et éprouver le meilleur de la communauté et de la culture.
 
