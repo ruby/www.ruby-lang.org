@@ -28,7 +28,7 @@ downloads:
     version: 2.0.0-p247
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
-      gz: https//ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+      gz: https://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
       zip: https://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
     md5:
       bz2: 60913f3eec0c4071f44df42600be2604
