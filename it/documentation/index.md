@@ -4,8 +4,8 @@ title: "Documentazione"
 lang: it
 ---
 
-Ecco qualche riferimento a manuali, tutorial, e altro materiale che ti
-potrà venire bene quando vorrai iniziare a programmare in Ruby.
+Ecco qualche riferimento a manuali, tutorial e altro materiale che ti
+potrà venire comodo quando vorrai iniziare a programmare in Ruby.
 
 ### Per iniziare
 
@@ -17,7 +17,7 @@ potrà venire bene quando vorrai iniziare a programmare in Ruby.
 [Ruby Koans][2]
 : I Koan ti accompagneranno lungo il sentiero illuminato
   dell’apprendimento di Ruby. Lo scopo è imparare il linguaggio Ruby, la
-  sua sintassi, struttura, e qualche funzionalità e libreria comune. E
+  sua sintassi, struttura e qualche funzionalità e libreria comune. E
   anche un po’ di cultura.
 
 [Hackety Hack][3]
@@ -42,7 +42,7 @@ potrà venire bene quando vorrai iniziare a programmare in Ruby.
   impiegare più di venti minuti per completarlo dall’inizio alla fine.
 
 [Ruby per chi conosce altri linguaggi](/it/documentation/ruby-from-other-languages/)
-: Vuoi imparare ruby e conosci già un’altro linguaggio di
+: Vuoi imparare Ruby e conosci già un’altro linguaggio di
   programmazione? Sia che sia C, C++, Java, Perl PHP o Python, questo
   articolo è quello che fa per te.
 
@@ -68,8 +68,7 @@ potrà venire bene quando vorrai iniziare a programmare in Ruby.
 
 [Ruby User’s Guide][12]
 : Tradotto in inglese dalla versione originale Giapponese scritta da
-  Yukihiro Matsumoto (il creatore di Ruby)ranslated from the original
-  Japanese version written by Yukihiro Matsumoto (the creator of Ruby).
+  Yukihiro Matsumoto (il creatore di Ruby).
   Questa traduzione, curata da Goto Kentaro e Mark Slagell, è
   un’eccellente punto di partenza per imparare molti aspetti importanti
   del linguaggio Ruby.
@@ -89,13 +88,9 @@ potrà venire bene quando vorrai iniziare a programmare in Ruby.
 : Anche questo generato automaticamente dal codice utilizzando RDoc,
   questa documentazione descrive la libreria standard di Ruby.
 
-[Ruby C API Reference][17]
-: Documentazione per il codice C che costituisce Ruby. Utilissima per
-  scrivere estensioni in C o contribuire allo sviluppo di Ruby.
-
 [RubyDoc.info][18]
-: Il solo sito che ti server per documentazione di riferimento su gemme
-  e progetti Ruby in GitHub.
+: La prima fermata per documentazione di riferimento su gemme
+  e progetti Ruby su GitHub.
 
 [API Doc ricercabile per Rails e Ruby][19]
 : Documentazione ricercabile per Rails and Ruby.
