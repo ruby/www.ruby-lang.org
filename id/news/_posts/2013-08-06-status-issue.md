@@ -10,11 +10,11 @@ lang:   id
 Beberapa layanan yang disediakan ruby-lang.org berhenti,
 karena server ruby-lang.org down.
 
-Dampaknya adalah sebagai berikut.
+Dampaknya adalah sebagai berikut:
 
  * Semua mailing list yang disediakan ruby-lang.org down.
  * Paket tar Ruby yang didistribusikan ftp.ruby-lang.org tidak dapat diakses.
- * Jika anda mencari pada cache DNS, anda tidak dapat mengakses www.ruby-lang.org.
+ * Jika anda mencari pada cache DNS lama, anda tidak dapat mengakses www.ruby-lang.org.
 
 Kami sedang memperbaiki layanan ini sekarang.
 
