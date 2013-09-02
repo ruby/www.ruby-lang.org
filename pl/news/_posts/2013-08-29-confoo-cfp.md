@@ -15,7 +15,7 @@ do **22 września**.
 
 ConFoo to konferencja dla programistów, którzy zbudowali swoją reputację
 na kanwie odkrywania nowych technologii, zgłębiania poznawanych tematów,
-a także doświadczania najlepszego z kultury i społeczności
+a także doświadczania najlepszego z kultury i społeczności.
 
  * ConFoo 2014 odbędzie się w dniach 26-28 lutego w Montrealu, w hotelu
    Hilton Bonaventure.
@@ -24,7 +24,7 @@ a także doświadczania najlepszego z kultury i społeczności
  * Prezentacje są po 45 minut włączając w to pytania, mogą być wygłaszane po
    angielsku lub francusku.
  * ConFoo jest otwarte i każdy może zgłosić swe propozycje. Poszukujemy
-   po prostu wartościowych prezentacji prowadzonych przez utalentowanych i 
+   po prostu wartościowych prezentacji prowadzonych przez utalentowanych i
    życzliwych ludzi.
 
 Jeśli chcesz tylko uczestniczyć jako słuchacz, mamy dla ciebie
