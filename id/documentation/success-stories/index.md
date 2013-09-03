@@ -105,7 +105,7 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 [13]: http://www.larc.nasa.gov/
 [14]: http://www.motorola.com
 [15]: http://www.torontorehab.on.ca/
-[16]: http://www.morpha.de/php_e/
+[16]: http://www.morpha.de/php_e/index.php3
 [17]: http://ods.org/
 [18]: http://www.lucent.com/
 [19]: http://www.level3.com/

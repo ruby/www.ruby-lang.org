@@ -86,7 +86,7 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.sketchup.com/
 [3]: http://www.torontorehab.on.ca/
-[4]: http://www.morpha.de/php_e/
+[4]: http://www.morpha.de/php_e/index.php3
 [5]: http://ods.org/
 [6]: http://www.lucent.com/
 [7]: http://www.level3.com/

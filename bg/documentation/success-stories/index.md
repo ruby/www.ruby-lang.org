@@ -72,7 +72,7 @@ lang: bg
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: http://www.torontorehab.on.ca/
-[5]: http://www.morpha.de/php_e/
+[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
