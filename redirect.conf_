@@ -1,3 +1,5 @@
+rewrite ^/bugreport\.html$ http://bugs.ruby-lang.org/ permanent;
+
 rewrite ^/ja/20030611\.html$ /ja/downloads permanent;
 rewrite ^/(en|ja)/install\.html$ /ja/downloads permanent;
 rewrite ^/ja/install\.cgi$ /ja/downloads? permanent;
