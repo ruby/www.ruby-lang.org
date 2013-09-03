@@ -5,7 +5,7 @@ lang: it
 ---
 
 Ti stai chiedendo perché Ruby sia così popolare? I suoi fan lo chiamano
-“un linguaggio pulito ed elegante”, e ciononostante è pratico e
+“un linguaggio pulito ed elegante”, e tuttavia dicono che è pratico e
 funzionale. Come mai?
 
 ### Gli ideali del creatore di Ruby
@@ -17,7 +17,7 @@ creare un nuovo linguaggio in grado di bilanciare programmazione
 funzionale con programmazione imperativa.
 
 Lui stesso ha detto più volte che sta continuamente “provando a rendere
-Ruby naturale, non semplice”, in un modo che è simile alla stessa vita.
+Ruby naturale, non semplice”, in un modo che rispecchia la vita.
 
 Chiarificando questo concetto, Matz aggiunge:
 
@@ -26,11 +26,10 @@ Chiarificando questo concetto, Matz aggiunge:
 
 ### Riguardo alla crescita di Ruby
 
-Fin dalla prima release pubblica, nel 1995, Since its public release in
-1995, Ruby ha attirato sviluppatori appassionati da tutto il mondo. Nel
-2006, Ruby è stato universalmente accettato, con attivi gruppi di
-discussione formatisi nelle maggiori città del mondo e conferenze a tema
-capaci di fare il tutto esaurito.
+Fin dalla prima release pubblica, nel 1995, Ruby ha attirato sviluppatori
+appassionati da tutto il mondo. Nel 2006 Ruby è stato universalmente
+accettato, con attivi gruppi di discussione formatisi nelle maggiori città
+del mondo e conferenze a tema capaci di fare il tutto esaurito.
 
 ![Grafico per cortesia di
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
@@ -38,7 +37,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 {: style="float:right"}
 
 Ruby-Talk, la prima [lista di discussione](/it/community/mailing-lists/)
-per il linguaggio Ruby, ha raggiunto il traguardo di 200 nuovo messaggi
+del linguaggio Ruby, ha raggiunto il traguardo di 200 nuovi messaggi
 al giorno.
 
 [L’indice TIOBE][6], che misura la crescita dei linguaggi di programmazione,
@@ -103,14 +102,13 @@ ridefiniti.
 ### I blocchi, una peculiarità veramente interessante
 
 I *blocchi* sono una delle molteplici ragioni della flessibilità di
-questo linguaggio. A programmer can attach a closure to any method,
-describing how that method should act. The closure is called a *block*
-and has become one of the most popular features for newcomers to Ruby
-from other imperative languages like PHP or Visual Basic.
+questo linguaggio. Un programmatore può collegare una *closure* ad ogni metodo,
+descrivendo come quel metodo dovrebbe agire. La *closure* viene chiamata
+*blocco* ed è diventata una delle funzionalità più popolari for i nuovi
+arrivati a Ruby da altri linguaggi imperativi come PHP o Visual Basic.
 
 I blocchi sono stati ispirati dai linguaggi funzionali. Matz ha detto,
-“nelle *closures* in Ruby closures, ho voluto rispettare la cultura di
-Lisp<sup>[4](#fn4)</sup>.”
+“nelle *closures* ho voluto rispettare la cultura di Lisp<sup>[4](#fn4)</sup>.”
 
 {% highlight ruby %}
 motori_di_ricerca =
@@ -119,20 +117,20 @@ motori_di_ricerca =
   end
 {% endhighlight %}
 
-In questo pezzo di codice, il blocco è deimitato dal costrutto `do ...
+In questo pezzo di codice, il blocco è delimitato dal costrutto `do ...
 end`, e il metodo `map` applica il codice del blocco alla lista di
-parole specificata. Molti altri metodo in Ruby danno spazio allo
+parole specificata. Molti altri metodi in Ruby danno spazio allo
 sviluppatore per creare i propri blocchi in modo da definire le
 operazioni che quel metodo deve eseguire.
 
 ### Ruby e “miscugli”
 
-A differenza di molti altri linguaggi ad oggetti, in Ruby si può usare
-solamente l’ereditarietà singola. Tuttavia, Ruby dispone del concetto di
-“modulo” (Categoria nell’Objective-C), ovvero un raggruppamento di
-metodi.
+A differenza di molti altri linguaggi ad oggetti Ruby ha
+solamente l’ereditarietà singola, **volontariamente**. Tuttavia, Ruby
+dispone del concetto di “modulo” (chiamato Categoria nell’Objective-C),
+ovvero un raggruppamento di metodi.
 
-In Ruby, è possibile utilizzare i moduli per creare dei “miscugli”
+In Ruby è possibile utilizzare i moduli per creare dei “miscugli”
 (mixins): le classi possono infatti includere al loro interno un modulo
 ed ereditare tutti i suoi metodi, automaticamente. Per esempio,
 qualsiasi classe che implementa il metodo `each` può includere il modulo
@@ -145,7 +143,7 @@ class IlMioArray
 end
 {% endhighlight %}
 
-Generalmente, gli appassionati di Ruby considerano questa pratica molto
+Generalmente gli appassionati di Ruby vedono questa pratica come molto
 più pulita e gestibile dell’eredità multipla, che è complessa e può
 essere troppo restrittiva.
 
@@ -157,9 +155,9 @@ chiave in lingua inglese, certi segni di interpunzione sono usati per
 variabili, perché usa convenzioni particolari per denotare la visibilità
 delle variabili:
 
-* `var` potrebbe essere una variabile locale
-* `@var` è una variabile di istanza
-* `$var` è una variabile globale
+* `var` potrebbe essere una variabile locale.
+* `@var` è una variabile di istanza.
+* `$var` è una variabile globale.
 
 Questi marcatori rendono il linguaggio più leggibile dando la
 possibilità al programmatore di identificare a colpo d’occhio il ruolo
@@ -174,19 +172,19 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
   la gestione degli errori più semplice.
 ^
 
-* Garbage collection automatica per tutti gli oggetti, come dice Matz:
-  “Molto meglio per la tua salute!”
+* Ruby ha un vero Garbage collecttor mark-and-sweep per tutti gli oggetti.
+  Come dice Matz: “Molto meglio per la tua salute!”
 ^
 
 * Scrivere estensioni in linguaggio C per Ruby è più facile che
   scriverle per Perl o Python, grazie a un’API molto elegante per
-  accedere a Ruby da C. Tale API include chiamate per includere ruby in
+  accedere a Ruby da C. Tale API ha chiamate per includere Ruby in
   programmi, in modo da usarlo come linguaggio di scripting. È
   disponibile anche un’interfaccia SWIG.
 ^
 
-* Ruby è in grado di caricare dinamicamente delle extension library, se
-  il sistema operativo lo permette.
+* Ruby è in grado di caricare dinamicamente delle librerie di estensione,
+  se il sistema operativo lo permette.
 ^
 
 * Ruby offre funzionalità di threading indipendenti dal sistema
@@ -196,10 +194,10 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
 ^
 
 * Ruby è altamente portatile: è sviluppato principalmente su GNU/Linux,
-  ma funzione su molte varianti di UNIX, Mac OS X, Windows
+  ma funziona su molte varianti di UNIX, Mac OS X, Windows
   95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, ecc.
 
-#### References
+#### Riferimenti
 
 <sup>1</sup> Matz, parlando nella lista di discussione “Ruby-Talk”, [May
 12th, 2000][2].
