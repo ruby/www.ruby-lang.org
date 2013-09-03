@@ -15,7 +15,8 @@ prime 50 tag di del.icio.us, un popolare sito di link sharing. Osserva
 la tag [ruby][1] per nuovi link che appaiono e la associata [popularity
 chart][2] per i recenti arrivati nella comunità Ruby.
 
-**Planets**\: Alcuni *planet* (aggregatori di feed specializzati) sono oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti:
+**Planets**\: Alcuni *planet* (aggregatori di feed specializzati) sono
+oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti:
 
 * [Ruby Corner][4]
 * [Planet Ruby][5]

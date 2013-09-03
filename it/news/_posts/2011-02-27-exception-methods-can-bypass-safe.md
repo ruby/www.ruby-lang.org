@@ -5,7 +5,9 @@ author: "Fabio Cevasco"
 lang: it
 ---
 
-Il metodo Exception#to\_s può essere usato per bypassare il controllo $SAFE, e ciò rende possibile la modifica di stringhe arbitrarie tramite codice **untrusted**.
+Il metodo Exception#to\_s può essere usato per bypassare il controllo
+$SAFE, e ciò rende possibile la modifica di stringhe arbitrarie tramite
+codice **untrusted**.
 
 ### Descrizione dettagliata
 
