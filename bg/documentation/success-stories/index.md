@@ -71,7 +71,7 @@ lang: bg
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
-[4]: http://www.torontorehab.on.ca/
+[4]: http://www.torontorehab.com
 [5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
