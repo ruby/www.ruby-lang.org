@@ -104,7 +104,7 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 [12]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
 [13]: http://www.larc.nasa.gov/
 [14]: http://www.motorola.com
-[15]: http://www.torontorehab.on.ca/
+[15]: http://www.torontorehab.com
 [16]: http://www.morpha.de/php_e/index.php3
 [17]: http://ods.org/
 [18]: http://www.lucent.com/
