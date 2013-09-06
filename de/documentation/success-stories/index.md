@@ -61,7 +61,7 @@ Projekten, die Ruby nutzen.
 
 
 [1]: http://www.motorola.com
-[2]: http://www.torontorehab.on.ca/
+[2]: http://www.torontorehab.com
 [3]: http://www.morpha.de/php_d/index.php3
 [4]: http://ods.org/
 [5]: http://www.lucent.com/
