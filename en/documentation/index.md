@@ -67,7 +67,7 @@ will come in handy when you feel like coding in Ruby.
 [Ruby User’s Guide][11]
 : Translated from the original Japanese version written by Yukihiro
   Matsumoto (the creator of Ruby), this version, by Goto Kentaro and
-  Mark Slagell, is nice overview of many aspects of the Ruby language.
+  Mark Slagell, is a nice overview of many aspects of the Ruby language.
 
 [The Ruby Programming Wikibook][12]
 : A free online manual with beginner and intermediate content plus a
