@@ -51,7 +51,7 @@ A diferencia de Java, en Ruby…
 * el constructor siempre se llama “initialize” en vez del nombre de la
   clase.
 * tienes “mixins” en vez de interfaces.
-* se tiende a favorecer el uso de [YAML][4] en vez de XML.
+* se tiende a favorecer el uso de YAML en vez de XML.
 * es `nil` en vez de `null`.
 
 
@@ -59,4 +59,3 @@ A diferencia de Java, en Ruby…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
-[4]: http://www.yaml.org/

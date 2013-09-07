@@ -50,7 +50,7 @@ Anders als in Java…
 * heißt der **Konstruktor** immer `initialize` (und nicht wie der
   Klassenname).
 * gibt es **Mixins** anstelle von Interfaces.
-* wird [**YAML**][4] eher verwendet als XML.
+* wird eher YAML verwendet als XML.
 * heißt es `nil` anstelle von `null` und `self` statt `this`.
 * `==` und `equals()` verhalten sich in Ruby anders. `==` sollte
   verwendet werden, wenn zwei Objekte auf Klassenebene verglichen werden
@@ -63,4 +63,3 @@ Anders als in Java…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
-[4]: http://yaml.org
