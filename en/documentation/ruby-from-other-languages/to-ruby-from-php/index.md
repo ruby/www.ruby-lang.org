@@ -18,8 +18,8 @@ As in PHP, in Ruby…
   (`public`, `protected` and `private`).
 * Some variables start with $, like in PHP (but not all).
 * There’s `eval`, too.
-* You can use string interpolating. Instead of doing ”$foo is a $bar”,
-  you can do ”#\{foo} is a #\{bar}”—like in PHP, this doesn’t apply for
+* You can use string interpolation. Instead of doing `"$foo is a $bar"`,
+  you can do `"#{foo} is a #{bar}"`—like in PHP, this doesn’t apply for
   single-quoted strings.
 * There’s heredocs.
 * Ruby has exceptions, like PHP 5.

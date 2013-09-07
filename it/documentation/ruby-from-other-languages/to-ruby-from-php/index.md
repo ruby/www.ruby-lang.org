@@ -19,8 +19,8 @@ Come in PHP, in Ruby…
   PHP (`public`, `protected` and `private`).
 * Alcune delle variabili incominciano per $, come in PHP (ma non sempre)
 * Esiste il metodo `eval`.
-* Puoi interpolare delle stringhe tra di loro. Invece di scrivere ”$x è
-  un $y” puoi fare ”#\{x} è un #\{y}”—Come in PHP, questo non
+* Puoi interpolare delle stringhe tra di loro. Invece di scrivere
+  `"$x è un $y"` puoi fare `"#{x} è un #{y}"`—Come in PHP, questo non
   vale per le stringhe tra apici singoli.
 * È possibile usare la sintassi heredoc.
 * È possibile gestire le eccezioni, come in PHP5.

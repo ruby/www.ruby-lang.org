@@ -18,8 +18,8 @@ Giống như PHP, trong Ruby…
   (`public`, `protected` và `private`).
 * Một số biến bắt đầu bằng $ như trong PHP (nhưng không phải tất cả).
 * Cũng có `eval` như trong PHP.
-* Bạn có thể sử dụng chuỗi nội suy. Thay vì viết ”$foo is a $bar”
-  bạn có thể viết ”#\{foo} is a #\{bar}” như trong PHP, cách này
+* Bạn có thể sử dụng chuỗi nội suy. Thay vì viết `"$foo is a $bar"`
+  bạn có thể viết `"#{foo} is a #{bar}"` như trong PHP, cách này
   không áp dụng cho các chuỗi sử dụng dấu nháy đơn.
 * Có heredocs.
 * Ruby cũng có các ngoại lệ như PHP 5.

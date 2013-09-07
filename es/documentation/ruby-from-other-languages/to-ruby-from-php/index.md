@@ -18,9 +18,9 @@ Como en PHP, en Ruby…
   (`public`, `protected` y `private`).
 * algunas variables comienzan con $, pero no todas.
 * también está `eval`.
-* puedes usar el interpolado de strings. En vez de hacer `"$foo es un
-  $bar"`, puedes hacer `"#{foo} es un #{bar}"`—al igual que en PHP, esto
-  no aplica para los strings definidos con comillas simples.
+* puedes usar el interpolado de strings. En vez de hacer `"$foo es un $bar"`,
+  puedes hacer `"#{foo} es un #{bar}"`—al igual que en PHP,
+  esto no aplica para los strings definidos con comillas simples.
 * tienes “documentos internos” (“heredocs” en inglés).
 * tienes excepciones, como PHP 5.
 * hay una biblioteca estándar bastante grande.
