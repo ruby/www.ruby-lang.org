@@ -27,8 +27,8 @@ W przeciwieństwie do Javy, w Rubim…
 
 * Nie musisz kompilować twojego kodu. Po prostu go uruchamiasz.
 * Istnieją inne toolkity GUI. Użytkownicy Rubiego mogą spróbować
-  [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], lub dla przykładu
-  wbudowanego w Rubiego Tk.
+  [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], [Qt][4],
+  lub dla przykładu wbudowanego w Rubiego Tk.
 * Używasz słowa kluczowego `end`, które kończy definicję takich rzeczy
   jak klasy, w przeciwieństwie do oznaczania bloku kodu nawiasami
   klamrowymi.
@@ -57,3 +57,4 @@ W przeciwieństwie do Javy, w Rubim…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

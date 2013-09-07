@@ -22,7 +22,7 @@ Ruby與Java不同的地方，...
 
 * 不用編譯程式，直接跑它就行了。
 * 有不同的圖形介面(GUI)工具組，例如可以試試 [WxRuby][1] ， [FXRuby][2] ， [Ruby-GNOME2][3]
-  ，或已經包在Ruby裡的Tk。
+  ， [Qt][4] ， 或已經包在Ruby裡的Tk。
 * 以 `end` 這個關鍵字作為定義類別(class)等的結尾，不必用大括號包著程式區塊。
 * 用 `require` 而不是 `import` 。
 * 物件的所有成員變數皆為 private，外界需透過方法(method)來存取。
@@ -46,3 +46,4 @@ Ruby與Java不同的地方，...
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

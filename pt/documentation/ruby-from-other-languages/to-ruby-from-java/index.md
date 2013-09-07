@@ -25,8 +25,8 @@ Ao contrário de Java, em Ruby…
   directamente.
 * Existem vários conjuntos de ferramentas de desenvolvimento com
   interface gráfica (GUI). Os utilizadores de Ruby podem experimentar
-  [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], ou o biblioteca nativa
-  Ruby Tk, por exemplo.
+  [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], [Qt][4],
+  ou o biblioteca nativa Ruby Tk, por exemplo.
 * Utiliza-se a palavra-chave `end` para terminar a definição de uma
   classe em vez de se colocar parentesis á volta de blocos de código.
 * Utiliza-se o `require` em vez de `import`.
@@ -55,3 +55,4 @@ Ao contrário de Java, em Ruby…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

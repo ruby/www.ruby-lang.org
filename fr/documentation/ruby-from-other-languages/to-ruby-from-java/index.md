@@ -26,8 +26,8 @@ Contrairement à Java, en Ruby…
 * il n’y a pas besoin de compiler son code, simplement de l’exécuter
   directement ;
 * des *toolkits* graphiques différents sont disponibles. Voir par
-  exemple [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], ou la bibliothèque
-  Tk fournie d’office.
+  exemple [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], [Qt][4],
+  ou la bibliothèque Tk fournie d’office.
 * utilisation du mot-clé `end` pour clôturer la définition des classes,
   par exemple, en lieu et place des accolades englobantes ;
 * `require` au lieu du mot-clé `import` ;
@@ -62,3 +62,4 @@ Contrairement à Java, en Ruby…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

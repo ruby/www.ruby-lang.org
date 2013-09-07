@@ -20,7 +20,7 @@ lang: bg
 
 * Не се налага да компилирате кода си.
 * Има различни GUI toolkits. Можете да прегледате [WxRuby][1],
-  [FXRuby][2], [Ruby-GNOME2][3], или вградената поддръжка на Ruby Tk.
+  [FXRuby][2], [Ruby-GNOME2][3], [Qt][4], или вградената поддръжка на Ruby Tk.
 * В Ruby се използва `end` за край на дефиницията на класове, методи и
   условни изрази, вместо къдрави скоби около блока код.
 * Вместо `import` имаме `require`.
@@ -47,3 +47,4 @@ lang: bg
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

@@ -29,7 +29,7 @@ Anders als in Java…
   ausgeführt.
 * gibt es verschiedene **GUI-Toolkits**. Ruby-Entwickler können folgende
   Toolkits ausprobieren: [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],
-  oder das integrierte Ruby Tk.
+  [Qt][4], oder das integrierte Ruby Tk.
 * verwendest du **Schlüsselworte** wie `do` und `end` beim Definieren
   von Klassen, für Verzweigungen usw. (und keine geschweiften Klammern).
 * benutzt man `require` anstatt `import`.
@@ -63,3 +63,4 @@ Anders als in Java…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

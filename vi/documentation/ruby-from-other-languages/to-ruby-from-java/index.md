@@ -26,7 +26,7 @@ Khác với Java, trong Ruby,...
 * Bạn không cần phải biên dịch, chỉ cần chạy trực tiếp.
 * Có một số khác biệt với các công cụ GUI của bên thứ ba. Người
   dùng Ruby có thể dùng [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],
-  hoặc ví dụ như các gói  trong Ruby Tk.
+  [Qt][4], hoặc ví dụ như các gói  trong Ruby Tk.
 * Bạn sử dụng từ khóa `end` sau khi định nghĩa mọi thứ trong các lớp,
   thay vì sử dụng các block.
 * Sử dụng `require` thay vì `import`.
@@ -57,3 +57,4 @@ Khác với Java, trong Ruby,...
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/
