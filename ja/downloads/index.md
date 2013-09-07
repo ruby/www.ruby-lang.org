@@ -36,6 +36,7 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 
 ### HTTPミラーサイト
 
+* [CDN][54] (fastly.com)
 * [日本 1][40]及び[ミラー][22] (RingServer)
 * [日本 2][53] (マスターサイト) - HTTPS
 * [イギリス][39] (The Mirror Service)
@@ -129,3 +130,4 @@ Posted by Shugo Maeda on 26 May 2006
 [51]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [52]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
 [53]: https://ftp.ruby-lang.org/pub/ruby/
+[54]: http://cache.ruby-lang.org/pub/ruby/

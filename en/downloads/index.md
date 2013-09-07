@@ -57,8 +57,9 @@ Please try to use a mirror that is near you.
 
 #### Mirror sites via HTTP
 
-* [Japan 1][50] and [mirror][32] (RingServer)
-* [Japan 2][63] (Master) - HTTPS
+* [CDN][64] (fastly.com)
+* [Japan 1][63] (Master) - HTTPS
+* [Japan 2][50] and [mirror][32] (RingServer)
 * [Britain][49] (The Mirror Service)
 * [Germany][51] (AmbiWeb GmbH)
 * [Belgium][52] (Easynet)
@@ -75,9 +76,9 @@ Please try to use a mirror that is near you.
 
 #### Mirror sites via FTP
 
-* [Japan 1][31] and [mirror][32] (RingServer)
-* [Japan 2][33] (IIJ)
-* [Japan 3][35] (Master: ruby-lang.org)
+* [Japan 1][35] (Master: ruby-lang.org)
+* [Japan 2][31] and [mirror][32] (RingServer)
+* [Japan 3][33] (IIJ)
 * [South Korea][36] (Korea FreeBSD Users Group)
 * [Germany][37] (FU Berlin)
 * [Britain][38] (The Mirror Service)
@@ -315,3 +316,4 @@ programming language”.
 [61]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [62]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
 [63]: https://ftp.ruby-lang.org/pub/ruby/
+[64]: http://cache.ruby-lang.org/pub/ruby/
