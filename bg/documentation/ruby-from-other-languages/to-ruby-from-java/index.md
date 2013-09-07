@@ -33,7 +33,7 @@ lang: bg
   тип.
 * Липсва декларация на типа.
 * Няма кастване. Просто викаме методи.
-* It’s `foo = Foo.new( "hi")` instead of `Foo foo = new Foo( "hi" )`.
+* It’s `foo = Foo.new("hi")` instead of `Foo foo = new Foo("hi")`.
 * Конструктора е метод, наименован “initialize” вместо името на класа.
 * Имаме “mixin”-и вместо интерфейси.
 * YAML се предпочита пред XML.

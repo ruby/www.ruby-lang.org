@@ -87,7 +87,7 @@ Tidak seperti Java, di Ruby,...
 * Tidak ada *casting*. Solusinya, cukup panggil metode yang diinginkan.
   Anda dapat menggunakan *unit test* untuk mengecek kesalahan pada kode
   atau adanya *exception*.
-* Di Ruby, `foo = Foo.new( "hi")`, bukan `foo = new Foo( "hi" )`.
+* Di Ruby, `foo = Foo.new("hi")`, bukan `Foo foo = new Foo("hi")`.
 * Konstruktor selalu dinamakan `initialize`, bukan sama nama kelas
   tersebut seperti di Java.
 * Anda punya “mixin” yang bisa menggantikan `interface`.

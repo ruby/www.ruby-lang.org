@@ -46,7 +46,7 @@ W przeciwieństwie do Javy, w Rubim…
 * Brak konieczności rzutowania. Po prostu wywołaj metody. Twoje testy
   jednostkowe powiedzą tobie nawet przed uruchomieniem kodu, czy
   zobaczysz wyjątek.
-* Używasz `foo = Foo.new( "hi")` zamiast `foo = new Foo( "hi" )`.
+* Używasz `foo = Foo.new("hi")` zamiast `Foo foo = new Foo("hi")`.
 * Konstruktor zawsze nazywa się “initialize” niezależnie od nazwy klasy.
 * Używasz domieszkowania klas (ang. “mixins”) zamiast interfejsów.
 * Preferowany jest YAML wobec XMLa.

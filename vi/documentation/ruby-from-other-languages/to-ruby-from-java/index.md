@@ -41,7 +41,7 @@ Khác với Java, trong Ruby,...
   `int[] a = {1,2,3};`).
 * Không cần ép kiểu. Chỉ cần gọi các phương thức. Các unit test
   sẽ báo các ngoại lệ cho bạn biết trước khi bạn thực thi lệnh.
-* Sử dụng `foo = Foo.new( "hi")` thay vì `Foo foo = new Foo( "hi" )`.
+* Sử dụng `foo = Foo.new("hi")` thay vì `Foo foo = new Foo("hi")`.
 * Các phương thức khởi tạo luôn được đặt tên là “initialize”
   thay vì là tên của lớp đó.
 * Bạn có “mixins” thay cho các interface.

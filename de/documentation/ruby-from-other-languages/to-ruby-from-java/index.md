@@ -46,7 +46,7 @@ Anders als in Java…
 * gibt es **keine Typumwandlungen** (Casting). Ruf’ einfach die Methoden
   auf.
 * ist **Unit-Testing** noch einfacher als in Java.
-* heißt es `foo = Foo.new( "hi")` statt `Foo foo = new Foo( "hi" )`.
+* heißt es `foo = Foo.new("hi")` statt `Foo foo = new Foo("hi")`.
 * heißt der **Konstruktor** immer `initialize` (und nicht wie der
   Klassenname).
 * gibt es **Mixins** anstelle von Interfaces.

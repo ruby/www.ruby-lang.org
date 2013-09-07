@@ -42,7 +42,7 @@ Unlike Java, in Ruby,...
   `int[] a = {1,2,3};`).
 * There’s no casting. Just call the methods. Your unit tests should tell
   you before you even run the code if you’re going to see an exception.
-* It’s `foo = Foo.new( "hi")` instead of `foo = new Foo( "hi" )`.
+* It’s `foo = Foo.new("hi")` instead of `Foo foo = new Foo("hi")`.
 * The constructor is always named “initialize” instead of the name of
   the class.
 * You have “mixins” instead of interfaces.

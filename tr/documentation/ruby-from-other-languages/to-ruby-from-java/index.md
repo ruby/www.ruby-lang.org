@@ -44,7 +44,7 @@ Ruby’de Java’dan farklı olarak,...
   [1,2,3]` yazılır)
 * There’s no casting. Just call the methods. Your unit tests should tell
   you before you even run the code if you’re going to see an exception.
-* `Foo foo = new Foo( "hi" )` yerine `foo = Foo.new( "hi")` yazılır.
+* `Foo foo = new Foo("hi")` yerine `foo = Foo.new("hi")` yazılır.
 * Sınıfın üretici metodu için sınıfın adı yerine bütün sınıflar için
   “initialize” ismi kullanılır.
 * “interface” yerine “mixin” vardır.

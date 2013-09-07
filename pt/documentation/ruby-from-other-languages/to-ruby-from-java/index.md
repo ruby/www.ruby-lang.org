@@ -44,7 +44,7 @@ Ao contrário de Java, em Ruby…
 * Não existe transformação de tipos de dados (casting). Basta chamar os
   métodos. Os seus testes unitários deverão avisa-lo se existe uma
   excepção antes da execução do código.
-* Escreve-se `foo = Foo.new( "ola")` em vez de `foo = new Foo( "ola" )`.
+* Escreve-se `foo = Foo.new("ola")` em vez de `Foo foo = new Foo("ola")`.
 * O construtor é sempre chamado “initialize” em vez do nome da classe.
 * Temos “mixins” em vez de interfaces.
 * O uso de YAML é favorecido em relação ao XML.
