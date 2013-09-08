@@ -1,14 +1,18 @@
 ---
 layout: news_post
-title:  "We started to provide package via Fastly"
+title:  "We started distributing source packages via Fastly"
 author: "hsbt"
-translator:
+translator: "Marcus Stollsteimer (stomar)"
 date:   2013-09-07 11:30:00 UTC
 lang:   en
 ---
 
-ruby-lang.org start to provide http://cache.ruby-lang.org for distribute official packages. cache.ruby-lang.org can fast distribute packages using CDN in all over world.
+ruby-lang.org started to provide http://cache.ruby-lang.org for 
+distributing official Ruby source packages. 
+We can now fastly distribute packages all over the world
+using a content delivery network (CDN).
 
-this CDN is helped opensource plan by Fastly[1]. Thank you for Fastly.
+This CDN is provided by the open source plan of Fastly[1].
+Many thanks to Fastly for their support.
 
 [1]: http://www.fastly.com
