@@ -9,6 +9,6 @@ lang:   ja
 
 ruby-lang.org では、公式パッケージの配布元として http://cache.ruby-lang.org を新たに提供開始します。cache.ruby-lang.org は CDN を利用して、世界中の何処でも高速に Ruby のソースコードを配信することが出来ます。
 
-この CDN は Fastly[1] のオープンソース支援プログラムを利用しています。Fastly の皆さんに本当に感謝します。
+この CDN は [Fastly][1] のオープンソース支援プログラムを利用しています。Fastly の皆さんに本当に感謝します。
 
 [1]: http://www.fastly.com
