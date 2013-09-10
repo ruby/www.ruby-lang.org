@@ -6,23 +6,27 @@ lang: ja
 
 以下のようなメーリングリストで情報交換や議論が行われています。
 
-参加希望の方は『(ML名)-ctl@ruby-lang.org』(例えばruby-list
-MLに参加する場合はruby-list-ctl@ruby-lang.org)宛に、*本文に*
+参加希望の方は、[lists.ruby-lang.org](http://lists.ruby-lang.org)
+より登録を行ってください。
 
-    subscribe YourFirstName YourFamilyName
+また、メールでも登録・解除ができます。
+
+『(ML名)-request@ruby-lang.org』(例えばruby-list
+MLに参加する場合はruby-list-request@ruby-lang.org)宛に、*本文に*
+
+    subscribe
 {: .code}
 
 と書いて送って下さい。
-YourFirstNameの部分はあなたの名前で、YourFamilyNameの部分はあなたの姓で、それぞれローマ字表記したもの(半角のアルファベット)で置き換えてください。
 Subject(件名)は、空のままでかまいません。
 しばらく待つと、確認のためのメールが届きますので、そのメールに書かれた指示に従うとメーリングリストへの参加登録が完了します。
 
-購読をやめたい場合は、先ほどと同じく(ML名)-ctl@ruby-lang.org宛に、本文に
+購読をやめたい場合は、先ほどと同じく(ML名)-request@ruby-lang.org宛に、本文に
 
     unsubscribe
 {: .code}
 
-と書いて送ってください。その他のコマンドの使い方を知りたい場合も、同様に、(ML名)-ctl@ruby-lang.org宛に、本文に
+と書いて送ってください。その他のコマンドの使い方を知りたい場合も、同様に、(ML名)-request@ruby-lang.org宛に、本文に
 
     help
 {: .code}
