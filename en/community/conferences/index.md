@@ -58,6 +58,10 @@ community since 2008. Visit [http://windycityrails.org][9] for details.
 
 [Steel City Ruby][16]: Pittsburg, PA
 
+[Ruby on Ales][17] is an annual two-day conference inspired by Ruby, microbrews,
+and snow. Listen to engaging speakers, enjoy delicious food and enjoy the
+wonderful scenery around Bend Oregon.
+
 ### Ruby At Other Conferences
 
 There has been a Ruby track at the [O’Reilly Open Source Conference][10]
@@ -86,4 +90,5 @@ O’Reilly), and Canada on Rails.
 [14]: http://www.skillsmatter.com
 [15]: http://madisonruby.org/
 [16]: http://steelcityruby.org/
+[17]: http://ruby.onales.com/
 
