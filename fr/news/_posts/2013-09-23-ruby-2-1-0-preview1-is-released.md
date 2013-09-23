@@ -51,9 +51,9 @@ Les modifications les plus notables sont :
 * Socket.getifaddrs
 * new Rubygem
 
-## Commentaire sur cette version
+## Commentaires sur cette version
 
-Les problèmes connues sont listés sur :
+Les problèmes connus sont listés sur :
 
 [http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
