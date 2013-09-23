@@ -7,8 +7,6 @@ date: 2013-09-23 07:00:00 UTC
 lang: zh_tw
 ---
 
-Ruby 2.1.0 preview1 發佈了。
-
 很榮幸告訴大家我們發佈了 Ruby 2.1.0-preview1。
 請在最終發佈版出來之前，試試看 Ruby 2.1 新的特色！
 
@@ -48,7 +46,7 @@ Ruby 2.1.0 preview1 發佈了。
 * GMP
 * String#scrub
 * Socket.getifaddrs
-* new Rubygem
+* new RubyGems
 
 ## 發佈記
 
