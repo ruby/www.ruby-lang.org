@@ -15,10 +15,10 @@ you.
 As with Perl, in Ruby,...
 
 * You’ve got a package management system, somewhat like CPAN (though
-  it’s called [RubyGems][1])
+  it’s called [RubyGems][1]).
 * Regexes are built right in. Bon appétit!
 * There’s a fairly large number of commonly-used built-ins.
-* Parentheses are often optional
+* Parentheses are often optional.
 * Strings work basically the same.
 * There’s a general delimited string and regex quoting syntax similar to
   Perl’s (looks like `%q{this (single-quoted)}`, or `%Q{this
@@ -53,7 +53,7 @@ Unlike Perl, in Ruby,...
 * There’s no `eq`, `ne`, `lt`, `gt`, `ge`, nor `le`.
 * There’s no diamond operator. You usually use <tt>IO.*some\_func*</tt>
   instead.
-* The fat comma is only used for hash literals.
+* The fat comma `=>` is only used for hash literals.
 * There’s no `undef`. In Ruby you have `nil`. `nil` is an object (like
   anything else in Ruby). It’s not the same as an undefined variable. It
   evaluates to `false` if you treat it like a boolean.

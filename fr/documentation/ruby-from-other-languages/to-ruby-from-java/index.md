@@ -26,8 +26,8 @@ Contrairement à Java, en Ruby…
 * il n’y a pas besoin de compiler son code, simplement de l’exécuter
   directement ;
 * des *toolkits* graphiques différents sont disponibles. Voir par
-  exemple [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], ou la bibliothèque
-  Tk fournie d’office.
+  exemple [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], [Qt][4],
+  ou la bibliothèque Tk fournie d’office.
 * utilisation du mot-clé `end` pour clôturer la définition des classes,
   par exemple, en lieu et place des accolades englobantes ;
 * `require` au lieu du mot-clé `import` ;
@@ -44,7 +44,7 @@ Contrairement à Java, en Ruby…
 * pas de *cast*. Appelez simplement les méthodes. Vos tests unitaires
   devraient vous dire très vite, avant d’exécuter le code, si une
   exception devrait survenir suite à une erreur ;
-* `foo = Foo.new("hi")` au lieu de `foo = new Foo("hi)`
+* `foo = Foo.new("hi")` au lieu de `Foo foo = new Foo("hi)`
 * le constructeur s’appelle toujours `initialize`, et non pas le nom de
   la classe concernée ;
 * l’héritage multiple et les interfaces sont géréés par le mécanisme des
@@ -62,3 +62,4 @@ Contrairement à Java, en Ruby…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

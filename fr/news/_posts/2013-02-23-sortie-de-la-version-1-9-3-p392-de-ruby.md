@@ -15,7 +15,7 @@ intégrées JSON et REXML :
 * [Déni de service et vulnérabilité de création d\'objets non-sûrs
   (CVE-2013-0269)][1]
 * [Vulnérabilité de type Déni de service par expansion des entités dans
-  REXML (bombe XML)][2]
+  REXML (bombe XML, CVE-2013-1821)][2]
 
 Et d\'autres correctifs de bugs mineurs sont également inclus.
 

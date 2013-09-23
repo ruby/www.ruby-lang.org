@@ -29,45 +29,40 @@ Untuk berlangganan sebuah milis berbahasa Inggris, silakan kirim e-mail
 ke alamat *controller* milis yang Anda inginkan dengan isi pesan (bukan
 subjek/judul) sebagai berikut:
 
-    subscribe Nama-Depan-Anda Nama-Belakang-Anda
-{: .code}
-
-misalnya:
-
-    subscribe Adinda Putri
+    subscribe
 {: .code}
 
 Ruby-Talk
 : Untuk milis Ruby-Talk, alamat *controller* di
-  [ruby-talk-ctl@ruby-lang.org](mailto:ruby-talk-ctl@ruby-lang.org),
+  [ruby-talk-request@ruby-lang.org](mailto:ruby-talk-request@ruby-lang.org),
   alamat pengiriman di
   [ruby-talk@ruby-lang.org](mailto:ruby-talk@ruby-lang.org), dan alamat
   e-mail administrator di
-  [ruby-talk-admin@ruby-lang.org](mailto:ruby-talk-admin@ruby-lang.org).
+  [ruby-talk-owner@ruby-lang.org](mailto:ruby-talk-owner@ruby-lang.org).
 
 Ruby-Core
 : Untuk milis Ruby-Core, alamat *controller* di
-  [ruby-core-ctl@ruby-lang.org](mailto:ruby-core-ctl@ruby-lang.org),
+  [ruby-core-request@ruby-lang.org](mailto:ruby-core-request@ruby-lang.org),
   alamat pengiriman di
   [ruby-core@ruby-lang.org](mailto:ruby-core@ruby-lang.org), dan alamat
   e-mail administrator di
-  [ruby-core-admin@ruby-lang.org](mailto:ruby-core-admin@ruby-lang.org).
+  [ruby-core-owner@ruby-lang.org](mailto:ruby-core-owner@ruby-lang.org).
 
 Ruby-Doc
 : Untuk milis Ruby-Doc, alamat *controller* di
-  [ruby-doc-ctl@ruby-lang.org](mailto:ruby-doc-ctl@ruby-lang.org),
+  [ruby-doc-request@ruby-lang.org](mailto:ruby-doc-request@ruby-lang.org),
   alamat pengiriman di
   [ruby-doc@ruby-lang.org](mailto:ruby-doc@ruby-lang.org), dan alamat
   e-mail administrator di
-  [ruby-doc-admin@ruby-lang.org](mailto:ruby-doc-admin@ruby-lang.org).
+  [ruby-doc-owner@ruby-lang.org](mailto:ruby-doc-owner@ruby-lang.org).
 
 Ruby-CVS
 : Untuk milis Ruby-CVS, alamat *controller* di
-  [ruby-cvs-ctl@ruby-lang.org](mailto:ruby-cvs-ctl@ruby-lang.org),
+  [ruby-cvs-request@ruby-lang.org](mailto:ruby-cvs-request@ruby-lang.org),
   alamat pengiriman di
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), dan alamat
   e-mail administrator di
-  [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+  [ruby-cvs-owner@ruby-lang.org](mailto:ruby-cvs-owner@ruby-lang.org).
 
 ### Berhenti Berlangganan
 

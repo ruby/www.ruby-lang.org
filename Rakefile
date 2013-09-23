@@ -11,7 +11,7 @@ rescue LoadError => e
 end
 
 HOST = 'www.ruby-lang.org'
-LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr zh_cn zh_tw]
+LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 
 desc "Generates the Jekyll site"
 task :generate do
@@ -35,7 +35,7 @@ end
 namespace :new_post do
 
   def create_template(lang)
-    url_title = 'post-title'
+    url_title = 'short-title'
     title = 'Post Title'
 
     creation_time = Time.now.utc

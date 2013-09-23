@@ -94,7 +94,7 @@ module Jekyll
 
       LAYOUT = 'news.html'
 
-      MAX_POSTS = 5
+      MAX_POSTS = 10
 
       def initialize(site,base,lang,posts)
         super(site,base,LAYOUT,lang,posts)

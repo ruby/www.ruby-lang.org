@@ -54,6 +54,10 @@ will come in handy when you feel like coding in Ruby.
 : A wonderful little tutorial by Chris Pine for programming newbies. If
   you don’t know how to program, start here.
 
+[Learn Ruby the Hard Way][38]
+: A very good set of exercises with explanations that guide you from
+  the absolute basics of Ruby all the way to OOP and web development.
+
 ### Manuals
 
 [Programming Ruby][9]
@@ -63,7 +67,7 @@ will come in handy when you feel like coding in Ruby.
 [Ruby User’s Guide][11]
 : Translated from the original Japanese version written by Yukihiro
   Matsumoto (the creator of Ruby), this version, by Goto Kentaro and
-  Mark Slagell is nice overview of many aspects of the Ruby language.
+  Mark Slagell, is a nice overview of many aspects of the Ruby language.
 
 [The Ruby Programming Wikibook][12]
 : A free online manual with beginner and intermediate content plus a
@@ -167,3 +171,4 @@ list](/en/community/mailing-lists/) is a great place to start.
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
+[38]: http://ruby.learncodethehardway.org/

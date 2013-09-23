@@ -24,8 +24,9 @@ As with Java, in Ruby,...
 Unlike Java, in Ruby,...
 
 * You don’t need to compile your code. You just run it directly.
-* There are different GUI toolkits. Ruby users can try [WxRuby][1],
-  [FXRuby][2], [Ruby-GNOME2][3], or the bundled-in Ruby Tk for example.
+* There are several different popular third-party GUI toolkits. Ruby
+  users can try [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],
+  [Qt][4], or the bundled-in Ruby Tk for example.
 * You use the `end` keyword after defining things like classes, instead
   of having to put braces around blocks of code.
 * You have `require` instead of `import`.
@@ -41,10 +42,10 @@ Unlike Java, in Ruby,...
   `int[] a = {1,2,3};`).
 * There’s no casting. Just call the methods. Your unit tests should tell
   you before you even run the code if you’re going to see an exception.
-* It’s `foo = Foo.new( "hi")` instead of `foo = new Foo( "hi" )`.
+* It’s `foo = Foo.new("hi")` instead of `Foo foo = new Foo("hi")`.
 * The constructor is always named “initialize” instead of the name of
   the class.
-* You have “mixin’s” instead of interfaces.
+* You have “mixins” instead of interfaces.
 * YAML tends to be favored over XML.
 * It’s `nil` instead of `null`.
 * `==` and `equals()` are handled differently in Ruby. Use `==` when you
@@ -56,3 +57,4 @@ Unlike Java, in Ruby,...
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

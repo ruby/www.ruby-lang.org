@@ -43,10 +43,10 @@ Seperti di PHP, kalau di Ruby…
   seperti di PHP (tetapi sebagian besar variabel yang Anda gunakan
   sehari-hari **tidak** diawali dengan tanda $)
 * Ada `eval` juga.
-* Anda bisa menggunakan interpolasi string. Daripada melakukan ”$foo is
-  a $bar”, Anda bisa melakukan ”#\{foo} is a #\{bar}”, sama seperti di
-  PHP, ini tidak berlaku untuk string yang menggunakan petik tunggal
-  (harus petik ganda)
+* Anda bisa menggunakan interpolasi string. Daripada melakukan
+  `"$foo is a $bar"`, Anda bisa melakukan `"#{foo} is a #{bar}"`,
+  sama seperti di PHP, ini tidak berlaku untuk string yang menggunakan
+  petik tunggal (harus petik ganda).
 * Ada heredocs untuk mengisi string lebih dari satu baris dengan mudah.
   Ruby juga mempunyai beberapa cara lain untuk mengisi string misalnya
   dengan sintaks `%q{ string }` dan `%Q{ string #{foo} }`

@@ -14,9 +14,10 @@ Hierbei handelt es sich um die neueste stabile Version der 1.9er-Serie.
 Sie enthält Sicherheitsfixes für die mit Ruby mitgelieferten JSON- und
 REXML-Bibliotheken, nebst einigen kleineren Bugfixes.
 
-* [Entitätsexpansion-DoS-Schwachstelle in REXML][1]
 * [Denial-of-Service- und Objekterstellungs-Sicherheitslücken in
-  JSON][2]
+  JSON][1]
+* [Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe,
+  CVE-2013-1821)][2]
 
 Siehe die [Tickets][3] und das [Changelog][4] für weitere Informationen.
 
@@ -66,14 +67,14 @@ Siehe die [Tickets][3] und das [Changelog][4] für weitere Informationen.
 
 ### Danksagung
 
-Viele Commiter, Tester und Nutzer, die Fehler gemeldet haben, halfen uns
+Viele Committer, Tester und Nutzer, die Fehler gemeldet haben, halfen uns
 sehr bei der Veröffentlichung dieser Version. Vielen Dank an alle eure
 Mitarbeit.
 
 
 
-[1]: {{ site.url }}/de/news/2013/02/23/rexml-bombe/ "XML-Bombe"
-[2]: {{ site.url }}/de/news/2013/02/23/denial-of-service-cve-2013-0269/ "CVE-2013-0269"
+[1]: {{ site.url }}/de/news/2013/02/23/denial-of-service-cve-2013-0269/
+[2]: {{ site.url }}/de/news/2013/02/23/rexml-bombe/
 [3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
 [4]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_392/ChangeLog
 [5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2

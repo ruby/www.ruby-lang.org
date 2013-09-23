@@ -117,8 +117,7 @@ Per installare irb e rdoc devi abilitare il repository universale.
 ### Ruby su Mac OS X
 
 Ruby 1.8.6 è completamente supportato in Mac OS X Leopart, incluso Ruby
-on Rails, Mongrel, Capistrano e molte altre gemme. Per ulteriori
-dettagli, vedere la pagina [la Wiki di Ruby su MacOS Forge][11].
+on Rails, Mongrel, Capistrano e molte altre gemme.
 
 Mac OS X Tiger include la versione 1.8.2 di Ruby, tuttavia, per coloro
 che non hanno aggiornato il loro sistema alla versione Leopard, ci sono
@@ -190,7 +189,6 @@ RubyOpenSolaris su Rubyforge][24].
 [8]: http://rubyinstaller.org/
 [9]: http://rubyinstaller.org/downloads/
 [10]: http://railsinstaller.org/
-[11]: http://trac.macosforge.org/projects/ruby/wiki
 [12]: http://locomotive.raaum.org/
 [13]: http://rubyosx.rubyforge.org/
 [14]: http://www.macports.org/

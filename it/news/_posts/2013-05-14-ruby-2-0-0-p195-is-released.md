@@ -9,12 +9,14 @@ lang: it
 
 È stata rilasciata la versione 2.0.0-p195 di Ruby.
 
-Questa versione include la correzione di una vulnerabilità nelle estensioni DL e Fiddle.
+Questa versione include la correzione di una vulnerabilità nelle estensioni
+DL e Fiddle.
 
 * [Iniezione oggetti corrotti con DL e Fiddle in Ruby
   (CVE-2013-2065)](/it/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-Sono inoltre inclusi molti bugfix, ottimizzazioni e correzioni alla documentazione.
+Sono inoltre inclusi molti bugfix, ottimizzazioni e correzioni alla
+documentazione.
 
 ## Download
 

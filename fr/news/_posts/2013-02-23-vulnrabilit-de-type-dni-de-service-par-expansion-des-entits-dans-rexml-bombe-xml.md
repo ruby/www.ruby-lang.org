@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Vulnérabilité de type Déni de service par expansion des entités dans REXML (bombe XML)"
+title: "Vulnérabilité de type Déni de service par expansion des entités dans REXML (bombe XML, CVE-2013-1821)"
 author: "Bruno Michel"
 date: 2013-02-23 14:03:15 UTC
 lang: fr
 ---
 
 L\'expansion d\'entités XML sans restriction peut conduire à un déni de
-service dans REXML. (L\'identifiant CVE sera assigné plus tard.) Nous
-recommandons fortement de mettre à jour Ruby.
+service dans REXML. Cette vulnérabilité a reçu l\'assignation CVE-2013-1821.
+Nous recommandons fortement de mettre à jour Ruby.
 
 ## Détails
 

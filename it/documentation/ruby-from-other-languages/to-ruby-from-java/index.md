@@ -26,8 +26,8 @@ A differenza di Java, in Ruby…
 
 * Non devi compilare il codice, viene eseguito direttamente.
 * Ci sono molti toolkit di terze parti per creare interfacce grafiche,
-  per esempio [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], o Ruby Tk (già
-  integrato).
+  per esempio [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], [Qt][4],
+  o Ruby Tk (già integrato).
 * Puoi usare la parola chiave `end` dopo aver definito delle classi o
   dei metodi, per esempio, senza dover usare delle parentesi graffe.
 * Si usa `require` invece di `import`.
@@ -62,3 +62,4 @@ A differenza di Java, in Ruby…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

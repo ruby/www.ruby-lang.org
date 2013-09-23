@@ -29,7 +29,7 @@ Anders als in Java…
   ausgeführt.
 * gibt es verschiedene **GUI-Toolkits**. Ruby-Entwickler können folgende
   Toolkits ausprobieren: [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],
-  oder das integrierte Ruby Tk.
+  [Qt][4], oder das integrierte Ruby Tk.
 * verwendest du **Schlüsselworte** wie `do` und `end` beim Definieren
   von Klassen, für Verzweigungen usw. (und keine geschweiften Klammern).
 * benutzt man `require` anstatt `import`.
@@ -46,11 +46,11 @@ Anders als in Java…
 * gibt es **keine Typumwandlungen** (Casting). Ruf’ einfach die Methoden
   auf.
 * ist **Unit-Testing** noch einfacher als in Java.
-* heißt es `foo = Foo.new( "hi")` statt `Foo foo = new Foo( "hi" )`.
+* heißt es `foo = Foo.new("hi")` statt `Foo foo = new Foo("hi")`.
 * heißt der **Konstruktor** immer `initialize` (und nicht wie der
   Klassenname).
 * gibt es **Mixins** anstelle von Interfaces.
-* wird [**YAML**][4] eher verwendet als XML.
+* wird eher YAML verwendet als XML.
 * heißt es `nil` anstelle von `null` und `self` statt `this`.
 * `==` und `equals()` verhalten sich in Ruby anders. `==` sollte
   verwendet werden, wenn zwei Objekte auf Klassenebene verglichen werden
@@ -63,4 +63,4 @@ Anders als in Java…
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
-[4]: http://yaml.org
+[4]: https://github.com/ryanmelt/qtbindings/

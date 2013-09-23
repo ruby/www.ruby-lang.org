@@ -19,7 +19,7 @@ with.
 ## What to Expect: *Language X* to Ruby
 
 * [To Ruby From C and
-  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [To Ruby From
   Java](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [To Ruby From
@@ -198,7 +198,7 @@ class MyClass
 end
 {% endhighlight %}
 
-You might expect `another_method` to be public. Not so. The ‘private’
+You might expect `another_method` to be public. Not so. The `private`
 access modifier continues until the end of the scope, or until another
 access modifier pops up, whichever comes first. By default, methods are
 public:

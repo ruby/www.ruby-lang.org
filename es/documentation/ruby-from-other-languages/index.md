@@ -27,7 +27,7 @@ Estamos en proceso de traducir todos estos artículos, pero mientras lo
 hacemos no queremos privarte de que los leas en inglés:
 
 * [To Ruby From C and
-  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
   (en inglés)
 * [To Ruby From
   Java](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
@@ -216,7 +216,7 @@ end
 {% endhighlight %}
 
 Puede ser que esperes que `otro_metodo` sea de alcance público. Esto no
-es así. El modificador de acceso ‘private’ continúa hasta el fin del
+es así. El modificador de acceso `private` continúa hasta el fin del
 alcance, o hasta que aparezca un nuevo modificador de acceso, lo que
 ocurra primero. Por defecto, los métodos son públicos:
 

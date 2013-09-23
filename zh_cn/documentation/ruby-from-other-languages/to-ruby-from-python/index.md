@@ -49,7 +49,7 @@ Unlike Python, in Ruby,...
 * Parentheses for method calls are usually optional.
 * There’s `public`, `private`, and `protected` to enforce access,
   instead of Python’s `_voluntary_` underscore `__convention__`.
-* “mixin’s” are used instead of multiple inheritance.
+* “mixins” are used instead of multiple inheritance.
 * You can re-open a class anytime and add more methods.
 * You’ve got `true` and `false` instead of `True` and `False` (and `nil`
   instead of `None`).

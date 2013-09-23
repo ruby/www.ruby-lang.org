@@ -17,11 +17,12 @@ layout: nil
         "pl":    "pl",
         "pt":    "pt",
         "tr":    "tr",
+        "vi":    "vi",
         "zh-CN": "zh_cn",
         "zh-TW": "zh_tw"
       };
 
-      var code = window.navigator.language || "en";
+      var code = window.navigator.language || window.navigator.userLanguage || "en";
       if (code.substr(0,2) !== "zh") { code = code.substr(0,2); }
 
       var language = languages[code];

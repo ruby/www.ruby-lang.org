@@ -27,7 +27,7 @@ comunidade Ruby.
   Odaiba. Planos futuros ainda não foram anunciados — mas esteja atento
   para mais eventos Japoneses.
 
-[EuRuKo <small>(Europaeische Ruby Konferenz)</small>][4]
+[EuRuKo <small>(European Ruby Conference)</small>][4]
 : A primeira Conferência Ruby Europeia (EuRuKo) teve lugar em Karlsruhe,
   na Alemanha, em 2003. Organizada por uma equipa Alemã de Programadores
   Ruby incluindo Armin Roehrl e Michael Neumann. A EuRuKo tornou-se no

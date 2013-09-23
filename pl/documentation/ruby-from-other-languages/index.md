@@ -138,18 +138,20 @@ end
 
 Teraz `Constant` ma wartość 10, ale `Constant()` daje wartość 11.
 
-### Udawane argumenty ze słowami kluczowymi
+### Argumenty z kluczem
 
-Ruby nie posiada argumentów w formie słów kluczowych tak jak Python, ale
-można jest bardzo łatwo zastąpić używając słowników i symboli. Ruby on
-Rails używa tego na każdym kroku:
+Tak jak w Pythonie, od wersji Rubiego 2.0 metody można definiować
+przy użyciu argumentów z kluczem:
 
 {% highlight ruby %}
-def some_keyword_params( params )
-  params
+def deliver(from: 'A', to: nil, via: 'mail')
+  "Wyślij od #{from} do #{to} poprzez #{via}."
 end
-some_keyword_params( :param_one => 10, :param_two => 42 )
-# => {:param_one=>10, :param_two=>42}
+
+deliver(to: 'B')
+# => "Wyślij od A do B poprzez mail."
+deliver(via: 'Pony Express', from: 'B', to: 'A')
+# => "Wyślij od B do A poprzez Pony Express."
 {% endhighlight %}
 
 ### Prawda absolutna
@@ -194,7 +196,7 @@ end
 {% endhighlight %}
 
 Być może oczekujesz, że `another_method` jest metodą publiczną? Nie
-jest. Modyfikator dostępu ‘private’ jest zastosowany dla wszystkich
+jest. Modyfikator dostępu `private` jest zastosowany dla wszystkich
 metod następujących po nim, lub do momentu napotkania innego
 modyfikatora zakresu dostępu. Domyślnie, wszystkie metody są publiczne.
 
@@ -210,16 +212,16 @@ class MyClass
 end
 {% endhighlight %}
 
-`public`, `private` and `protected` to tak naprawdę metody, mogą więc przyjmowac paramatery. Jeśli tym metodom przekażesz Symbol jako parametr, zmienisz widoczność danej metody.
+`public`, `private` and `protected` to tak naprawdę metody, mogą więc przyjmować parametry. Jeśli tym metodom przekażesz Symbol jako parametr, zmienisz widoczność danej metody.
 
 ### Dostęp do metod
 
-W JAvie, `public` oznacza, że dana metoda jest dostępna dla wszystkich.
+W Javie, `public` oznacza, że dana metoda jest dostępna dla wszystkich.
 `protected` oznacza, że dostęp mają instancje danej klasy i klas
 pochodnych, natomiast `private` oznacza, że jedynie instancje danej
 klasy mają dostęp do danej metody.
 
-Ruby róznie się odrobinę w tym względzie. `public` oznacza tak samo
+Ruby różni się odrobinę w tym względzie. `public` oznacza tak samo
 dostęp publiczny. `private` oznacza, że dana metoda(y) jest dostępna
 tylko wtedy, jeśli można ją wywołać bez wyraźnego określenia odbiorcy.
 Jedynie **self** jest dozwolonym odbiorcą wywołań prywatnych metod.
@@ -382,7 +384,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-Możesz tworzyć bloki równiez poza wywołaniami metod, wywołując Proc.new
+Możesz tworzyć bloki również poza wywołaniami metod, wywołując Proc.new
 lub metodę `lambda`.
 
 Podobnie, metody to także obiekty:

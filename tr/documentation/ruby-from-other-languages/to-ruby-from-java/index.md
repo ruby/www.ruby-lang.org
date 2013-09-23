@@ -26,7 +26,7 @@ Ruby’de Java’dan farklı olarak,...
 
 * Kodunuzu derlemeye gerek yoktur, direk olarak çalıştırırsınız.
 * Ruby kullanıcıları değişik GUI araşları kullanabilir [WxRuby][1],
-  [FXRuby][2], [Ruby-GNOME2][3], ya da Ruby içinde yüklü gelen Tk
+  [FXRuby][2], [Ruby-GNOME2][3], [Qt][4], ya da Ruby içinde yüklü gelen Tk
   bunların bazıları.
 * Sınıflar, metodlar gibi birşeyleri tanımlarken kod bloğunu süslü
   parantez içine almak yerine sonunda `end` deyimi kullanırsınız
@@ -44,7 +44,7 @@ Ruby’de Java’dan farklı olarak,...
   [1,2,3]` yazılır)
 * There’s no casting. Just call the methods. Your unit tests should tell
   you before you even run the code if you’re going to see an exception.
-* `Foo foo = new Foo( "hi" )` yerine `foo = Foo.new( "hi")` yazılır.
+* `Foo foo = new Foo("hi")` yerine `foo = Foo.new("hi")` yazılır.
 * Sınıfın üretici metodu için sınıfın adı yerine bütün sınıflar için
   “initialize” ismi kullanılır.
 * “interface” yerine “mixin” vardır.
@@ -60,3 +60,4 @@ Ruby’de Java’dan farklı olarak,...
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/
