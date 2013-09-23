@@ -7,14 +7,14 @@ date: 2013-09-23 07:00:00 UTC
 lang: zh_cn
 ---
 
-Ruby 2.1.0 preview1 发布了。
-
 我们很荣幸的告知您，Ruby 2.1.0-preview1 发布了。
 请在 Ruby 2.1 最终版发布前尝试一下新功能！
 
 ## 下载
 
-推荐您通过 Fastly 提供的 [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/) 下载。
+推荐您通过 Fastly 提供的
+[http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/)
+下载。
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
@@ -50,7 +50,7 @@ Ruby 2.1.0 preview1 发布了。
 * GMP
 * String#scrub
 * Socket.getifaddrs
-* new Rubygem
+* new RubyGems
 
 ## 发布后记
 
