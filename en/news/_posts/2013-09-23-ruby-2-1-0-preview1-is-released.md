@@ -14,6 +14,8 @@ Please check out the new features in Ruby 2.1 before final release!
 
 ## Download
 
+We recommend to use [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/) via Fastly.
+
 * [http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
       SIZE:   11475553 bytes
@@ -31,8 +33,6 @@ Please check out the new features in Ruby 2.1 before final release!
       SIZE:   16124069 bytes
       MD5:    f9bc3f9a10174a022381ce2c60a59e64
       SHA256: 28855621f7d364277e7f258d5cc380e005896ef8ebc36e5cbf78d2bf763c291b
-
-We recommend to use [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/) via Fastly.
 
 ## Changes
 
