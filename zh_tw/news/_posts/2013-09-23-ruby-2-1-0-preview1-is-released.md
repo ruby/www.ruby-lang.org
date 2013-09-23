@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0-preview1 is released"
+title: "Ruby 2.1.0-preview1 發佈了"
 author: "nurse"
 translator: "Juanito Fatas"
 date: 2013-09-23 07:00:00 UTC
