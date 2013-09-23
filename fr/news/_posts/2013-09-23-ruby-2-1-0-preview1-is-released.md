@@ -37,7 +37,7 @@ Nous vous conseillons d'utiliser [http://cache.ruby-lang.org/pub/ruby/2.1/](http
 
 Les modifications les plus notables sont :
 
-* VM (method)
+* VM (method cache)
 * RGenGC
 * refinements
 * syntax
