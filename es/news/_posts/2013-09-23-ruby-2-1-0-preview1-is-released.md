@@ -41,7 +41,7 @@ Los cambios que sobresalen en esta versión son:
 * VM (caché de métodos)
 * RGenGC
 * refinements
-* syntaxis
+* sintaxis
 * Literal decimal
 * Literales de cadena congelados
 * el retorno de valor de def
