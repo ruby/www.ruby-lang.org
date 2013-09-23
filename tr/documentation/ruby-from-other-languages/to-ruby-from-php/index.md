@@ -18,8 +18,8 @@ PHP’de olduğu gibi, Rubyde…
   (`public`, `protected` ve `private`)
 * Bazı değişkenler $ sembolü ile başlar, PHP gibi (ama hepsi değil)
 * `eval` burada da vardır.
-* Karakter dizisi katıştırması kullanabilirsiniz. ”$foo is a $bar”
-  şeklinde kullanmak yerine ”#\{foo} is a #\{bar}” şeklinde
+* Karakter dizisi katıştırması kullanabilirsiniz. `"$foo is a $bar"`
+  şeklinde kullanmak yerine `"#{foo} is a #{bar}"` şeklinde
   kullanabilirsiniz—PHP’de olduğu gibi, tek tırnaklı karakter
   dizilerinde kullanamazsınız.
 * Here dökümanları vardır

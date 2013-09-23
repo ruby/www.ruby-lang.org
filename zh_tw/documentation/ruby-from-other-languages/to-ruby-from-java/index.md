@@ -22,7 +22,7 @@ Ruby與Java不同的地方，...
 
 * 不用編譯程式，直接跑它就行了。
 * 有不同的圖形介面(GUI)工具組，例如可以試試 [WxRuby][1] ， [FXRuby][2] ， [Ruby-GNOME2][3]
-  ，或已經包在Ruby裡的Tk。
+  ， [Qt][4] ， 或已經包在Ruby裡的Tk。
 * 以 `end` 這個關鍵字作為定義類別(class)等的結尾，不必用大括號包著程式區塊。
 * 用 `require` 而不是 `import` 。
 * 物件的所有成員變數皆為 private，外界需透過方法(method)來存取。
@@ -33,7 +33,7 @@ Ruby與Java不同的地方，...
 * 不用宣告型別。只要依需要指定給一個新的變數，事情就”發生”了 (所以不用 `int[] a = {1,2,3};` ，僅需 `a =
   [1,2,3]` )。
 * 直接呼叫方法，不用轉型。在執行程式前，你的單元測試應該能告訴你是否會有例外(exception)。
-* 寫 `foo = Foo.new( "hi")` ，而非 `Foo foo = new Foo( "hi" );` 。
+* 寫 `foo = Foo.new("hi")` ，而非 `Foo foo = new Foo("hi");` 。
 * 建構式的名稱固定為”initialize”，而非與類別同名。
 * 運用 “mixin” 而非介面(interface)。
 * 傾向使用<acronym title="YAML Ain’t Markup Language">YAML</acronym>多於XML。
@@ -46,3 +46,4 @@ Ruby與Java不同的地方，...
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/

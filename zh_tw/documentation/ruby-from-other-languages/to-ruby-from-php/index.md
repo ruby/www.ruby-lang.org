@@ -14,8 +14,8 @@ Ruby與PHP一樣的地方...
 * Ruby有類別，也有 `public`, `private`, 與 `protected` 方法，就像PHP 5一樣。
 * 也有變數以$號開頭 (在Ruby中表示這是全域變數)
 * 也有 `eval` 。
-* 有字串「內嵌」。不過不是用 ”$foo is a $bar” ，而是”#\{foo} is a
-  #\{bar}”—跟PHP一樣，用單引號包住的字串就不會作用。
+* 有字串「內嵌」。不過不是用
+  `"$foo is a $bar"` ，而是`"#{foo} is a #{bar}"`—跟PHP一樣，用單引號包住的字串就不會作用。
 * 也有Heredocs。
 * Ruby也有例外處理，就像PHP 5一樣。
 * Ruby也有非常廣泛的標準函式庫。

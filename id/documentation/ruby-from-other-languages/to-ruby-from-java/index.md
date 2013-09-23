@@ -41,7 +41,7 @@ puts c
 {% endhighlight %}
 
 Sumber: [A Very Quick Comparison of Popular Languages for Teaching
-Computer Programming][1], dengan modifikasi dari Yohanes Santoso
+Computer Programming][8], dengan modifikasi dari Yohanes Santoso
 
 ### Kemiripan Ruby dan Java
 
@@ -62,8 +62,8 @@ Tidak seperti Java, di Ruby,...
   langsung melalui *interpreter* Anda.
 * Ada perbedaan toolkit GUI. <abbr title="Matz telah mendeklarasikan
   Pengguna Ruby disebut dengan sebutan Rubyist">Rubyist</abbr> dapat
-  mencoba [WxRuby][2], [FXRuby][3], [Ruby-GNOME2][4], atau yang sudah
-  disertakan dengan Ruby seperti Tk.
+  mencoba [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], [Qt][4],
+  atau yang sudah disertakan dengan Ruby seperti Tk.
 * Anda menggunakan keyword `end` setelah mendefinisikan macam-macam hal
   di Ruby seperti `class`, sebagai pengganti kurawal buka dan kurawal
   tutup di sekitar blok kode.
@@ -87,7 +87,7 @@ Tidak seperti Java, di Ruby,...
 * Tidak ada *casting*. Solusinya, cukup panggil metode yang diinginkan.
   Anda dapat menggunakan *unit test* untuk mengecek kesalahan pada kode
   atau adanya *exception*.
-* Di Ruby, `foo = Foo.new( "hi")`, bukan `foo = new Foo( "hi" )`.
+* Di Ruby, `foo = Foo.new("hi")`, bukan `Foo foo = new Foo("hi")`.
 * Konstruktor selalu dinamakan `initialize`, bukan sama nama kelas
   tersebut seperti di Java.
 * Anda punya “mixin” yang bisa menggantikan `interface`.
@@ -116,10 +116,11 @@ ini semakin berkembang dari hari ke hari.
 
 
 
-[1]: http://www.ariel.com.au/a/teaching-programming.html
-[2]: http://wxruby.rubyforge.org/wiki/wiki.pl
-[3]: http://www.fxruby.org/
-[4]: http://ruby-gnome2.sourceforge.jp/
+[1]: http://wxruby.rubyforge.org/wiki/wiki.pl
+[2]: http://www.fxruby.org/
+[3]: http://ruby-gnome2.sourceforge.jp/
+[4]: https://github.com/ryanmelt/qtbindings/
 [5]: http://jruby.codehaus.org/
 [6]: http://www.thoughtworks.com/
 [7]: http://xruby.com/
+[8]: http://www.ariel.com.au/a/teaching-programming.html

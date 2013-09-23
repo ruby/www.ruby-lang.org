@@ -51,7 +51,7 @@ Em oposição ao Pyhton, no Ruby,...
 * Os parênteses são opcionais para as chamadas a métodos.
 * Há o `public`, `private`, e `protected` para forçar o acesso, ao invés
   do Python `_voluntary_` underscore `__convention__`.
-* “mixin’s” são utilizados ao invés das múltiplas heranças.
+* “mixins” são utilizados ao invés das múltiplas heranças.
 * Pode re-abrir classes em qualquer momento e adicionar mais métodos.
 * Tem o `true` `false` em vez de `True` e `False` (e `nil` em vez de
   `None`).

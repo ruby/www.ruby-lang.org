@@ -8,45 +8,40 @@ Para suscribirse a una lista de correo, por favor envía un correo con el
 siguiente texto en el cuerpo del mensaje (no en el asunto) al
 “administrador” automatizado:
 
-    subscribe Tu-Nombre Tu-Apellido
-{: .code}
-
-e.g.
-
-    subscribe Juan Sosa
+    subscribe
 {: .code}
 
 Ruby-Talk
 : Para la lista Ruby-Talk, la dirección de administración automatizada
-  es [ruby-talk-ctl@ruby-lang.org](mailto:ruby-talk-ctl@ruby-lang.org),
+  es [ruby-talk-request@ruby-lang.org](mailto:ruby-talk-request@ruby-lang.org),
   la dirección para enviar mensajes es
   [ruby-talk@ruby-lang.org](mailto:ruby-talk@ruby-lang.org), y la
   dirección de la persona que la administra es
-  [ruby-talk-admin@ruby-lang.org](mailto:ruby-talk-admin@ruby-lang.org).
+  [ruby-talk-owner@ruby-lang.org](mailto:ruby-talk-owner@ruby-lang.org).
 
 Ruby-Core
 : Para la lista Ruby-Core, la dirección de administración automatizada
-  es [ruby-core-ctl@ruby-lang.org](mailto:ruby-core-ctl@ruby-lang.org),
+  es [ruby-core-request@ruby-lang.org](mailto:ruby-core-request@ruby-lang.org),
   la dirección para enviar mensajes es
   [ruby-core@ruby-lang.org](mailto:ruby-core@ruby-lang.org), y la
   dirección de la persona que la administra es
-  [ruby-core-admin@ruby-lang.org](mailto:ruby-core-admin@ruby-lang.org).
+  [ruby-core-owner@ruby-lang.org](mailto:ruby-core-owner@ruby-lang.org).
 
 Ruby-Doc
 : Para la lista Ruby-Doc, la dirección de administración automatizada es
-  [ruby-doc-ctl@ruby-lang.org](mailto:ruby-doc-ctl@ruby-lang.org), la
+  [ruby-doc-request@ruby-lang.org](mailto:ruby-doc-request@ruby-lang.org), la
   dirección para enviar mensajes es
   [ruby-doc@ruby-lang.org](mailto:ruby-doc@ruby-lang.org), y la
   dirección de la persona que la administra es
-  [ruby-doc-admin@ruby-lang.org](mailto:ruby-doc-admin@ruby-lang.org).
+  [ruby-doc-owner@ruby-lang.org](mailto:ruby-doc-owner@ruby-lang.org).
 
 Ruby-CVS
 : Para la lista Ruby-CVS, la dirección de administración automatizada es
-  [ruby-cvs-ctl@ruby-lang.org](mailto:ruby-cvs-ctl@ruby-lang.org), la
+  [ruby-cvs-request@ruby-lang.org](mailto:ruby-cvs-request@ruby-lang.org), la
   dirección para enviar mensajes es
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), y la
   dirección de la persona que la administra es
-  [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+  [ruby-cvs-owner@ruby-lang.org](mailto:ruby-cvs-owner@ruby-lang.org).
 
 ### Desuscripción
 

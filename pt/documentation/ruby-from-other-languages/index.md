@@ -19,7 +19,7 @@ aquilo que já se encontra familiarizado.
 ## O Que Esperar: *Linguagem X* para Ruby
 
 * [Para Ruby a partir de C e
-  C++](/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  C++](/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 ^
 
 * [Para Ruby a partir de
@@ -214,7 +214,7 @@ end
 {% endhighlight %}
 
 Poderá pensar que `outro_metodo` seja público. Não é verdade. O
-‘private’ access modifier continua até ao fim do escopo, ou até que
+`private` access modifier continua até ao fim do escopo, ou até que
 outro access modifier apareça, qualquer que apareça primeiro.
 
 Por omissão, os métodos são públicos:

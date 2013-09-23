@@ -42,7 +42,6 @@ mitko.kostov@gmail.com ).
 
 
 [1]: http://del.icio.us/tag/ruby
-[2]: http://technorati.com/search/ruby
 [3]: http://rubycorner.com
 [4]: http://planetruby.0x42.net/
 [5]: http://www.planetrubyonrails.org/

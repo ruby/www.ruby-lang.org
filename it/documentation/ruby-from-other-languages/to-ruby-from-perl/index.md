@@ -16,7 +16,7 @@ Ruby può essere la risposta che essi cercano.
 Come in Perl, in Ruby…
 
 * Hai un sistema di amministrazione package, simile a CPAN (che si
-  chiama “[RubyGems][1])
+  chiama “[RubyGems][1]”).
 * Le “Regular Expressions” sono construite nel linguaggio (buon
   appetito!).
 * C’è un buon numero di operazioni comuni fornite dal linguaggio stesso.
@@ -24,7 +24,7 @@ Come in Perl, in Ruby…
 * Le Stringhe funzionano sostanzialmente nello stesso modo.
 * Esiste una sintassi generale per delimitare le stringhe e le regex
   simile a Perl (ossia come `%q{questo (fra apici)}`, o `%Q{questo (fra
-  virgolette)}`, and `%w{questo per una lista di parole fra apici }`. Tu
+  virgolette)}`, and `%w{questo per una lista di parole fra apici}`. Tu
   `%Q|puoi|` `%Q(usare)` `%Q^altri^` delimitatori se preferisci).
 * Si Ritrova l’interpolazione di variabili nelle stringhe fra
   virgolette, anche se `"appare #{così}.."` (bada che puoi inserire

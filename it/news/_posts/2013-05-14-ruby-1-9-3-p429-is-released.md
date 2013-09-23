@@ -9,15 +9,18 @@ lang: it
 
 È stata rilasciata la versione 1.9.3-p429 di Ruby.
 La versione p426 è stata rilasciata poche ore fa, ma aveva dei problemi
-di compilazione su alcune piattaforme. Vi preghiamo quindi di utilizzare questa versione (p429).
+di compilazione su alcune piattaforme. Vi preghiamo quindi di utilizzare questa
+versione (p429).
 
-Questa versione include la correzione di una vulnerabilità nelle estensioni DL e Fiddle.
+Questa versione include la correzione di una vulnerabilità nelle estensioni DL
+e Fiddle.
 
 * [Iniezione di oggetti corrotti in DL e Fiddle  (CVE-2013-2065)](/it/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
 Sono incluse anche alcune correzioni minori.
 
-Si veda i [ticket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) e il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) per maggiori dettagli.
+Si veda i [ticket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
+e il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) per maggiori dettagli.
 
 ## Download
 

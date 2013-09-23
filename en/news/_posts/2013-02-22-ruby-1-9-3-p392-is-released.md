@@ -13,7 +13,8 @@ This release includes security fixes about bundled JSON and REXML.
 
 * [Denial of Service and Unsafe Object Creation Vulnerability in JSON
   (CVE-2013-0269)][1]
-* [Entity expansion DoS vulnerability in REXML (XML bomb)][2]
+* [Entity expansion DoS vulnerability in REXML (XML bomb,
+  CVE-2013-1821)][2]
 
 And some small bugfixes are also included.
 

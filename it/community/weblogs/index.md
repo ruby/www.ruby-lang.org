@@ -15,7 +15,8 @@ prime 50 tag di del.icio.us, un popolare sito di link sharing. Osserva
 la tag [ruby][1] per nuovi link che appaiono e la associata [popularity
 chart][2] per i recenti arrivati nella comunità Ruby.
 
-**Planets**\: Alcuni *planet* (aggregatori di feed specializzati) sono oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti:
+**Planets**\: Alcuni *planet* (aggregatori di feed specializzati) sono
+oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti:
 
 * [Ruby Corner][4]
 * [Planet Ruby][5]
@@ -57,7 +58,6 @@ di codice particolarmente brillanti, assicurati di farglielo sapere!
 
 [1]: http://del.icio.us/tag/ruby
 [2]: http://del.icio.us/popular/ruby
-[3]: http://technorati.com/search/ruby
 [4]: http://rubycorner.com
 [5]: http://planetruby.0x42.net/
 [6]: http://www.planetrubyonrails.org/

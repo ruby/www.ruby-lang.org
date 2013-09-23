@@ -18,9 +18,9 @@ Tout comme en PHP, en Ruby…
 * certaines variables débutant par `$` (mais pas toutes : seulement les
   globales) ;
 * `eval` est disponible (il est recommandé d'y apporter la même attention vis-à-vis des performances et de la sécurité) ;
-* interpolation au sein des chaînes de caractères, de la forme ”#\{foo}
-  is a #\{bar}” au lieu de ”$foo is a $bar”. Comme en PHP, cela ne
-  fonctionne que pour les chaînes entre guillemets doubles ;
+* interpolation au sein des chaînes de caractères, de la forme
+  `"#{foo} is a #{bar}"` au lieu de `"$foo is a $bar"`. Comme en PHP,
+  cela ne fonctionne que pour les chaînes entre guillemets doubles ;
 * les heredocs (échappement d'un bloc de texte) sont aussi disponibles ;
 * des exceptions pour gérer les erreurs, comme en PHP 5 ;
 * une bibliothèque standard relativement fournie ;

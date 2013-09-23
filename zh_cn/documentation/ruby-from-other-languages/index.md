@@ -12,7 +12,7 @@ Perl、Python 和 Java（以及其他语言）的用户所熟悉的。 如果您
 ## 可以期待什么: *从语言 X* 到 Ruby
 
 * [从 C/C++ 到
-  Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [从 Java 到
   Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [从 Perl 到

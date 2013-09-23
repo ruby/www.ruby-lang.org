@@ -20,7 +20,7 @@ Anda lakukan di bahasa lain.
 ## Apa yang Diharapkan: *Bahasa X* ke Ruby
 
 * [Dari C dan C++ ke
-  Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-/)
+  Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [Dari Java ke
   Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [Dari Perl ke

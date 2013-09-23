@@ -8,45 +8,40 @@ Para subscrever uma lista de correio, por favor envie um email para o o
 endereço de “controlo” com o seguinte no corpo da mensagem (não no
 assunto):
 
-    subscribe O-Seu-Primeiro-Nome O-Seu-Último-Nome
-{: .code}
-
-por exemplo:
-
-    subscribe John Doe
+    subscribe
 {: .code}
 
 Ruby-Talk
 : Para a lista Ruby-Talk, o endereço de controlo é
-  [ruby-talk-ctl@ruby-lang.org](mailto:ruby-talk-ctl@ruby-lang.org), o
+  [ruby-talk-request@ruby-lang.org](mailto:ruby-talk-request@ruby-lang.org), o
   endereço para envio de mensagens é
   [ruby-talk@ruby-lang.org](mailto:ruby-talk@ruby-lang.org), e o
   endereço do administrador “humano” é
-  [ruby-talk-admin@ruby-lang.org](mailto:ruby-talk-admin@ruby-lang.org).
+  [ruby-talk-owner@ruby-lang.org](mailto:ruby-talk-owner@ruby-lang.org).
 
 Ruby-Core
 : Para a lista Ruby-Core, o endereço de controlo é
-  [ruby-core-ctl@ruby-lang.org](mailto:ruby-core-ctl@ruby-lang.org), o
+  [ruby-core-request@ruby-lang.org](mailto:ruby-core-request@ruby-lang.org), o
   endereço para envio de mensagens é
   [ruby-core@ruby-lang.org](mailto:ruby-core@ruby-lang.org), e o
   endereço do administrador “humano” é
-  [ruby-core-admin@ruby-lang.org](mailto:ruby-core-admin@ruby-lang.org).
+  [ruby-core-owner@ruby-lang.org](mailto:ruby-core-owner@ruby-lang.org).
 
 Ruby-Doc
 : Para a lista Ruby-Doc, o endereço de controlo é
-  [ruby-doc-ctl@ruby-lang.org](mailto:ruby-doc-ctl@ruby-lang.org), o
+  [ruby-doc-request@ruby-lang.org](mailto:ruby-doc-request@ruby-lang.org), o
   endereço para envio de mensagens é
   [ruby-doc@ruby-lang.org](mailto:ruby-doc@ruby-lang.org), e o endereço
   do administrador “humano” é
-  [ruby-doc-admin@ruby-lang.org](mailto:ruby-doc-admin@ruby-lang.org).
+  [ruby-doc-owner@ruby-lang.org](mailto:ruby-doc-owner@ruby-lang.org).
 
 Ruby-CVS
 : Para a lista Ruby-CVS, o endereço de controlo é
-  [ruby-cvs-ctl@ruby-lang.org](mailto:ruby-cvs-ctl@ruby-lang.org), o
+  [ruby-cvs-request@ruby-lang.org](mailto:ruby-cvs-request@ruby-lang.org), o
   endereço para envio de mensagens é
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), e o endereço
   de administrador “humano” é
-  [ruby-cvs-admin@ruby-lang.org](mailto:ruby-cvs-admin@ruby-lang.org).
+  [ruby-cvs-owner@ruby-lang.org](mailto:ruby-cvs-owner@ruby-lang.org).
 
 ### Cancelar Subscrição
 

@@ -53,7 +53,7 @@ Ruby’de Perl’den farklı olarak,...
 * `eq`, `ne`, `lt`, `gt`, `ge`, veya `le` yoktur.
 * “Diamond” operatörü (&lt;&gt;) yoktur. Genellikle bunun yerine
   <tt>IO.*fonksiyon*</tt> kullanılır .
-* “fat comma” (=&gt;) sadece hash içinde kullanılır.
+* “fat comma” (`=>`) sadece hash içinde kullanılır.
 * `undef` yoktur. Ruby’de `nil` vardır. `nil` de diğer herşey gibi bir
   nesnedir. Tanımsız değişken ile aynı şey değildir. Boolean
   sorgulanırsa `false` olarak değer görür.

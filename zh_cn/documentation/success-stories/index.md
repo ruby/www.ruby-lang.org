@@ -71,8 +71,8 @@ you’ll find a small sample of real world usage of Ruby.
 [1]: http://www.larc.nasa.gov/
 [2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
 [3]: http://www.motorola.com
-[4]: http://www.torontorehab.on.ca/
-[5]: http://www.morpha.de/php_e/
+[4]: http://www.torontorehab.com
+[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

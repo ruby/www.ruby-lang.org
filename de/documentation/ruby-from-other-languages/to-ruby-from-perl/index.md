@@ -53,7 +53,7 @@ Unlike Perl, in Ruby,...
 * there’s no `eq`, `ne`, `lt`, `gt`, `ge`, nor `le`.
 * there’s no diamond operator. You usually use <tt>IO.*some\_func*</tt>
   instead.
-* the fat comma is only used for hash literals.
+* the fat comma `=>` is only used for hash literals.
 * there’s no `undef`. In Ruby you have `nil`. `nil` is an object (like
   anything else in Ruby). It’s not the same as an undefined variable. It
   evaluates to `false` if you treat it like a boolean.

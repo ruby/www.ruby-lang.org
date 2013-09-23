@@ -4,7 +4,7 @@ title: "Ruby-Konferenzen"
 lang: de
 ---
 
-[EuRuKo <small>(Europäische Ruby-Konferenz)</small>][1]
+[EuRuKo <small>(European Ruby Conference)</small>][1]
 : Die jährliche Europäische Ruby-Konferenz (EuRuKo) fand 2003 das erste
   Mal in Karlsruhe statt. Ursprünglich wurde sie von deutschen Rubyisten
   organisiert. Mittlerweile wechselt der Veranstaltungsort und

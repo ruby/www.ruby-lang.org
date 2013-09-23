@@ -36,14 +36,22 @@ poniżej znajdziesz kilka propozycji:
   języka, to nie ma lepszego miejsca niż grupa ruby-core.
 
 [Blogi na temat Rubiego](weblogs/)
-: Blogi zawierają setki megabajtów cennych informacji o języku Ruby,
+: Bardzo mało dzieje się w społeczności Rubiego bez omawiania tego na
+  blogach. Blogi zawierają setki megabajtów cennych informacji o języku Ruby,
   jego zastosowaniach oraz doświadczeniach z projektami w Rubim.
 
 [Konferencje o Rubim](/en/community/conferences/)
 : Konferencje są znakomitym miejscem, aby dowiedzieć się więcej o
   rozwoju języka, nowych ciekawostkach oraz dowiedzieć się o postępach w
-  projekcie. W Polsce od jakiegoś czasu odbywają się [regularne
-  spotkania][2] miłośników Rubiego.
+  projekcie i przywitać nowe osoby w społeczności.
+
+[Projekt Ruby Mentor][2]
+: To nowe źródło ma za zadanie sparować ludzi nowych w świecie Ruby z
+  bardziej doświadczonymi. Celem jest uproszczenie procesu nauki Rubiego
+  mając kogoś kogo można spytać. W założeniu ma to być mniej krępujące od
+  listy mailingowej, mile widziane pytania od początkujących.
+  W Polsce dobrym miejscem do zadawania pytań dla początkujących odnośnie
+  Rubiego jest [forum][6]
 
 Ogólne informacje o Rubim
 : * [Ruby Central][3]
@@ -53,7 +61,8 @@ Ogólne informacje o Rubim
 
 
 [1]: http://meme.b9.com/
-[2]: http://forum.rubyonrails.pl/viewforum.php?id=3
+[2]: http://rubymentor.rubyforge.org/
 [3]: http://www.rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[6]: http://forum.rubyonrails.pl/

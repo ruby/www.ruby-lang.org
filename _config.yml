@@ -18,42 +18,42 @@ exclude:
   - redirect.conf_
   - vendor
 
-url: http://www.ruby-lang.org
+url: https://www.ruby-lang.org
 
 license:
   url: /en/about/license.txt
 
 downloads:
   stable:
-    version: 2.0.0-p195
+    version: 2.0.0-p247
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
     md5:
-      bz2: 2f54faea6ee1ca500632ec3c0cb59cb6
-      gz: 0672e5af309ae99d1703d0e96eff8ea5
-      zip: 924fe4bea72b1b258655211998631791
+      bz2: 60913f3eec0c4071f44df42600be2604
+      gz: c351450a0bed670e0f5ca07da3458a5b
+      zip: 7548f781d868456e84afcd0327c7f894
   previous:
-    version: 1.9.3-p429
+    version: 1.9.3-p448
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.zip
     md5:
-      bz2: c2b2de5ef15ea9b1aaa3152f9112af1b
-      gz: 993c72f7f805a9eb453f90b0b7fe0d2b
-      zip: 1986f3934e61b999873d21a79d69d88d
+      bz2: aa710d386e5903f78f0231868255e6af
+      gz: a893cff26bcf351b8975ebf2a63b1023
+      zip: bb3b1108847abaab312c024f3c0bc6c3
   stable_snapshot:
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.zip
+      bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
+      gz: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
+      zip: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.zip
   nightly_snapshot:
     url:
-      bz2: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2
-      gz: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
-      zip: ftp://ftp.ruby-lang.org/pub/ruby/snapshot.zip
+      bz2: https://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2
+      gz: https://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
+      zip: https://ftp.ruby-lang.org/pub/ruby/snapshot.zip
 
 locales:
   sitelinks:
@@ -113,8 +113,8 @@ locales:
         url:  /es/community
       - text: Noticias
         url:  /es/news
-#     - text: Seguridad
-#       url:  /es/security
+      - text: Seguridad
+        url:  /es/security
       - text: Acerca de Ruby
         url:  /es/about
     fr:
@@ -254,6 +254,21 @@ locales:
 #       url: /tr/security
       - text: Ruby Hakkında
         url: /tr/about
+    vi:
+      - text: Downloads
+        url:  /vi/downloads
+      - text: Tài liệu
+        url:  /vi/documentation
+      - text: Thư viện
+        url:  /vi/libraries
+      - text: Cộng đồng
+        url:  /vi/community
+      - text: Tin tức
+        url:  /vi/news
+      - text: Bảo mật
+        url:  /vi/security
+      - text: Về Ruby
+        url:  /vi/about
     zh_cn:
       - text: 下载
         url: /zh_cn/downloads
@@ -316,10 +331,12 @@ locales:
       text: Поиск
     tr:
       text: Ara
+    vi:
+      text: Tìm
     zh_cn:
       text: 搜索
     zh_tw:
-      text: Search
+      text: 搜尋
 
   slogan:
     bg: "Ruby - най-добрият приятел на програмиста"
@@ -335,8 +352,9 @@ locales:
     pt: "Ruby - O melhor amigo do programador"
     ru: "Ruby - лучший друг программиста"
     tr: "Ruby - A Programmer's Best Friend"
+    vi: "Ruby - Người bạn tri kỉ của lập trình viên"
     zh_cn: "Ruby - 程序员最要好的朋友"
-    zh_tw: "Ruby - A Programmer's Best Friend"
+    zh_tw: "Ruby - 程式設計師的摯友"
 
   month_names:
     bg: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
@@ -350,6 +368,7 @@ locales:
     pt: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
     ru: [Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь]
     tr: [Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık]
+    vi: [Tháng một, Tháng hai, Tháng ba, Tháng tư, Tháng năm, Tháng sáu, Tháng bảy, Tháng tám, Tháng chín, Tháng mười, Tháng mười một, Tháng mười hai]
 
   posted_by:
     bg: "Публикувана от AUTHOR на %Y-%m-%d"
@@ -365,8 +384,9 @@ locales:
     pt: "Escrito por AUTHOR em %Y-%m-%d"
     ru: "Опубликовал AUTHOR %Y-%m-%d"
     tr: "AUTHOR tarafından %Y-%m-%d tarihinde gönderildi"
+    vi: "Đăng bởi AUTHOR vào %-d %b %Y"
     zh_cn: "由 AUTHOR 发表于 %Y-%m-%d"
-#   zh_tw:
+    zh_tw: "由 AUTHOR 發表於 %Y-%m-%d"
 
   translated_by:
     bg: "Превод от"
@@ -382,8 +402,9 @@ locales:
     pt: "Traduzido por"
     ru: "Перевел:"
     tr: "Çeviri:"
-#   zh_cn:
-#   zh_tw:
+    vi: "Dịch bởi"
+    zh_cn: "翻译："
+    zh_tw: "翻譯："
 
   feed:
     bg:
@@ -438,13 +459,17 @@ locales:
       title: Ruby Son Haberler
       description: Ruby Son Haberler
       lang_code: tr
+    vi:
+      title: Tin tức Ruby
+      description: Những tin mới nhất từ ruby-lang.org.
+      lang_code: vi
     zh_cn:
       title: Ruby 新闻更新
       description: 来自 ruby-lang.org 的最新文章。
       lang_code: zh-CN
     zh_tw:
-      title: Ruby RSS News
-      description: The latest news from ruby-lang.org.
+      title: Ruby 新聞
+      description: 來自 ruby-lang.org 的新聞快報。
       lang_code: zh-TW
 
   news:
@@ -488,13 +513,13 @@ locales:
       other_news: Otras noticias
       more_news: Más noticias...
       continue: Continuar leyendo...
-      back_to_year: "Volver a las noticias del %Y"
+      back_to_year: "Volver a las noticias de %Y"
       recent_news: Noticias recientes
-      yearly_archive_title: "Noticias del %Y"
+      yearly_archive_title: "Noticias de %Y"
       monthly_archive_title: "Noticias de %B %Y"
       yearly_archives: Noticias por año
       monthly_archives: Noticias por mes
-      yearly_archive_link: "Noticias del %Y"
+      yearly_archive_link: "Noticias de %Y"
       monthly_archive_link: "%B %Y"
     fr:
       other_news: Autres actualités
@@ -526,11 +551,11 @@ locales:
       continue: Continua...
       back_to_year: "Vai all'archivio %Y"
       recent_news: Notizie Recenti
-      yearly_archive_title: "%Y Archives"
-      monthly_archive_title: "%B %Y Archives"
+      yearly_archive_title: "Archivio dell'anno %Y"
+      monthly_archive_title: "Archivio mensile %B %Y"
       yearly_archives: Archivio dell'anno
       monthly_archives: Archivio Mensile
-      yearly_archive_link: "%Y Archives"
+      yearly_archive_link: "Archivio dell'anno %Y"
       monthly_archive_link: "%B %Y"
     ja:
       other_news: その他のニュース
@@ -557,15 +582,15 @@ locales:
       yearly_archive_link: "%Y년"
       monthly_archive_link: "%Y년 %m월"
     pl:
-      other_news: Więcej aktualności
+      other_news: Pozostałe aktualności
       more_news: Więcej aktualności...
       continue: Więcej...
-      back_to_year: "Back to %Y Archives"
+      back_to_year: "Powrót do Archiwum %Y"
       recent_news: Aktualności
-      yearly_archive_title: "%Y Archives"
-      monthly_archive_title: "%B %Y Archives"
-      yearly_archives: Archiwum Wiadomości
-      monthly_archives: Archives by Month
+      yearly_archive_title: "Archiwum %Y"
+      monthly_archive_title: "Archiwum %B %Y"
+      yearly_archives: Archiwum wiadomości
+      monthly_archives: Archiwum według miesiąca
       yearly_archive_link: "%Y"
       monthly_archive_link: "%B %Y"
     pt:
@@ -604,6 +629,18 @@ locales:
       monthly_archives: Archives by Month
       yearly_archive_link: "%Y Archives"
       monthly_archive_link: "%B %Y"
+    vi:
+      other_news: Tin khác
+      more_news: Thêm Tin...
+      continue: Đọc tiếp...
+      back_to_year: "Trở về %Y Lưu trữ"
+      recent_news: Tin mới nhất
+      yearly_archive_title: "Lưu trữ %Y"
+      monthly_archive_title: "Lưu trữ %B %Y"
+      yearly_archives: Lưu trữ bằng Năm
+      monthly_archives: Lưu trữ bằng Tháng
+      yearly_archive_link: "Lưu trữ %Y"
+      monthly_archive_link: "%B %Y"
     zh_cn:
       other_news: 其它新闻
       more_news: 更多新闻...
@@ -620,14 +657,14 @@ locales:
       other_news: 其他新聞
       more_news: 更多新聞...
       continue: 深入閱讀...
-      back_to_year: "Back to %Y Archives"
+      back_to_year: "回到 %Y 年彙整"
       recent_news: 最新消息
-      yearly_archive_title: "%Y 存檔"
-      monthly_archive_title: "%B %Y Archives"
-      yearly_archives: 以年份區分
-      monthly_archives: Archives by Month
-      yearly_archive_link: "%Y 存檔"
-      monthly_archive_link: "%B %Y Archives"
+      yearly_archive_title: "%Y 彙整"
+      monthly_archive_title: "%Y 年 %-m 月彙整"
+      yearly_archives: 按年份彙整
+      monthly_archives: 按月份彙整
+      yearly_archive_link: "%Y 年彙整"
+      monthly_archive_link: "%Y 年 %-m 月彙整"
 
   sidebar:
     try_ruby: &try_ruby
@@ -826,7 +863,7 @@ locales:
           url: /en/feeds/news.rss
     es:
       get_started:
-        text: <strong>Iníciate</strong>, ¡es fácil!
+        text: "<strong>Iníciate</strong>, ¡es fácil!"
         try_ruby:
           text: ¡Prueba Ruby! (en tu navegador)
           <<: *try_ruby
@@ -872,15 +909,15 @@ locales:
           url: /en/community/ruby-core/
           description: |
             Ayuda a mejorar el futuro de Ruby.
-#       issue_tracking:
-#         text: Issue Tracking
-#         url: https://bugs.ruby-lang.org/
-#         description: |
-#           Report or help solve issues in Ruby.
+        issue_tracking:
+          text: Reportes de errores
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Reporta o ayuda a resolver problemas en Ruby.
 #     top_ruby_projects:
-#       text: Some Top Ruby Projects
+#       text: Algunos proyectos populares
 #       more:
-#         text: More…
+#         text: Leer más…
 #         url: /en/libraries/top-projects/
       syndicate:
         text: Feeds de noticias (RSS)
@@ -1461,6 +1498,69 @@ locales:
         recent_news:
           text: Son Haberler (RSS)
           url: /tr/feeds/news.rss
+    vi:
+      get_started:
+        text: <strong>Nhập môn</strong>, quá dễ!
+        try_ruby:
+          text: Thử Ruby! (trong trình duyệt)
+          <<: *try_ruby
+        quickstart:
+          text: Ruby trong 20 phút
+          url: /vi/documentation/quickstart/
+        ruby_from_other_languages:
+          text: Ruby từ những ngôn ngữ khác
+          url: /vi/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>Khám phá</strong> một thề giới mới…
+        documentation:
+          text: Tài liệu
+          url: /vi/documentation/
+        books:
+          text: Sách
+          <<: *books
+        libraries:
+          text: Thư viện
+          url: /vi/libraries/
+        success_stories:
+          text: Những câu chuyện thành công
+          url: /vi/documentation/success-stories/
+      participate:
+        text: <strong>Tham gia</strong> vào một cộng đồng lớn mạnh và thân thiện.
+        mailing_lists:
+          text: Mailing Lists
+          url: /vi/community/mailing-lists/
+          description: |
+            Trao đổi về Ruby với các lập trình viên trên thế giới
+        user_groups:
+          text: Nhóm người dùng
+          url: /vi/community/user-groups/
+          description: |
+            Làm quen với những Rubyist trong khu vực của bạn.
+        weblogs:
+          text: Weblogs
+          url: /vi/community/weblogs/
+          description: |
+            Đọc về những gì đang xảy ra với cộng đồng Ruby.
+        ruby_core:
+          text: Lõi Ruby
+          url: /vi/community/ruby-core/
+          description: |
+            Giúp hoàn thiện Ruby.
+        issue_tracking:
+          text: Thông báo lỗi
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Báo hoặc giúp xử lý các lỗi trong Ruby.
+      top_ruby_projects:
+        text: Những dự án Ruby hàng đầu
+        more:
+          text: Nhiều hơn nữa…
+          url: /vi/libraries/top-projects/
+      syndicate:
+        text: Syndicate
+        recent_news:
+          text: Tin mới (RSS)
+          url: /vi/feeds/news.rss
     zh_tw:
       get_started:
         text: <strong>上手入門</strong>, 一點都不難!
@@ -1706,31 +1806,42 @@ locales:
 #     subscribe: Subscribe
 #     unsubscribe: Unsubscribe
 #     submit: Submit Form
+    vi:
+      list: Mailing List
+      first_name: Tên
+      last_name: Họ
+      email: Email
+      action: Hành động
+      subscribe: Đăng kí
+      unsubscribe: Hủy đăng kí
+      submit: Nộp đơn
     zh_cn:
       list: 邮件列表
-      first_name: 姓
-      last_name: 名
+      first_name: 名
+      last_name: 姓
       email: 电子邮件
       action: 操作
       subscribe: 订阅
       unsubscribe: 退订
       submit: 提交表格
     zh_tw:
-      list: Mailing List
-      first_name: First Name
-      last_name: Last Name
-      email: Email Address
+      list: 郵件組
+      first_name: 名
+      last_name: 姓
+      email: 電子郵件
       action: Action
-      subscribe: Subscribe
-      unsubscribe: Unsubscribe
-      submit: Submit Form
+      subscribe: 訂閱
+      unsubscribe: 退訂
+      submit: 送出表格
 
   credits:
     bg: |
-      Този сайт е разработен на Ruby и използва <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      Този сайт е генериран с Ruby и излползва <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Поддържа се от членове на Ruby обществото.
-      Моля, свържете се с нашия <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      за въпроси или коментари относно сайта.
+      Ако имате желание да допринесете за развитието му, моля посетете
+      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> или се свържете с
+      <a href="mailto:webmaster@ruby-lang.org">webmaster-a</a>
+      за въпроси или коментари.
     de: |
       Diese Webseite wurde mit Ruby unter Verwendung von <a href="http://www.jekyllrb.com/">Jekyll</a> erstellt.
       Sie wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
@@ -1744,10 +1855,11 @@ locales:
       or contact our <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       for questions or comments concerning this website.
     es: |
-      Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Es orgullosamente mantenido por miembros de la comunidad Ruby.
-      Por favor contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      si tienes preguntas o comentarios al respecto del sitio web.
+      Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
+      y es orgullosamente mantenido por miembros de la comunidad.
+      Si quieres contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">Github</a>
+      o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+      si tienes preguntas o comentarios.
     fr: |
       Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Il est fièrement maintenu par des membres de la communauté Ruby.
@@ -1757,8 +1869,9 @@ locales:
     id: |
       Situs ini dikembangkan menggunakan bahasa Ruby dan <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Dipersembahkan dengan bangga oleh anggota komunitas Ruby.
-      Silakan hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      kami bila Anda mempunyai pertanyaan atau komentar sehubungan dengan situs ini.
+      Silakan berkontribusi melalui <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      atau hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a> kami
+      untuk pertanyaan atau komentar mengenai situs ini.
     it: |
       Questo sito è stato sviluppato con Ruby e <a href="http://www.jekyllrb.com/">Jekyll</a>.
       È curato con dedizione dai membri della comunità di Ruby.
@@ -1776,8 +1889,9 @@ locales:
     pl: |
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
-      Jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu skontaktuj się
-      <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>.
+      Proszę udziel nam wsparcia na <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
+      jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
     pt: |
       Este Site está construído em Ruby e gerido através de <a href="http://www.jekyllrb.com/">Jekyll</a>.
       É orgulhosamente mantido pelos membros da comunidade Ruby.
@@ -1794,7 +1908,17 @@ locales:
       Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
       Herhangi bir soru ya da öneriniz için lütfen
       <a href="mailto:webmaster@ruby-lang.org">site yöneticimiz</a> ile irtibata geçin.
+    vi: |
+      Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      Trang được bảo trì bởi các thành viên của cộng đồng Ruby.
+      Xin đóng góp trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+      hay liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng tiếng Anh)
+      nếu có câu hỏi hoặc ý kiến phản hồi về trang này.
     zh_cn: |
       本网站使用 Ruby 工具 <a href="http://www.jekyllrb.com/">Jekyll</a> 制作，并有幸由来自 Ruby 社区的会员共同维护。
       请贡献代码至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
       如有任何疑问和意见，请联系我们的<a href="mailto:webmaster@ruby-lang.org">站点管理员</a>。
+    zh_tw: |
+      本網站使用 Ruby 套件 <a href="http://www.jekyllrb.com/">Jekyll</a> 產生，並由引以為傲的 Ruby 社群成員共同維護。
+      請至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> 幫忙貢獻。關於本站的問題與意見，
+      請聯絡<a href="mailto:webmaster@ruby-lang.org">網站管理員</a>。

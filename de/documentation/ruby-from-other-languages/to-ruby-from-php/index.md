@@ -19,9 +19,9 @@ Genauso wie in PHP ist Ruby…
 * Einige Variablen beginnen mit $, genau wie in PHP (aber nicht alle).
 * Es gibt auch das Schlüsselwort `eval`
 * Natürlich kennt auch Ruby string interpolation, wenn doppelte
-  Anführungstriche verwendet werden – man kann also ”#\{foo} und
-  #\{bar}” schreiben. Und wie in PHP funktioniert das bei einfachen
-  Anführungstrichen nicht.
+  Anführungstriche verwendet werden – man kann also
+  `"#{foo} und #{bar}"` schreiben. Und wie in PHP funktioniert das bei
+  einfachen Anführungstrichen nicht.
 * Es gibt auch heredocs.
 * Wie in PHP 5 gibt es auch in Ruby Exceptions.
 * Es gibt eine ziemlich umfangreiche Standard-Bibliothek.

@@ -62,7 +62,6 @@ tersebut!
 
 [1]: http://del.icio.us/tag/ruby
 [2]: http://del.icio.us/popular/ruby
-[3]: http://technorati.com/search/ruby
 [4]: http://planet.ruby-id.web.id
 [5]: http://rubycorner.com
 [6]: http://planetruby.0x42.net/

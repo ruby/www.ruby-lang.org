@@ -19,8 +19,8 @@ Tal como no PHP, em Ruby …
   5 (`public`, `protected` and `private`)
 * Algumas variáveis começam com $, tal como o PHP (mas não todas)
 * Também existe `eval`
-* Pode ser utilizada a interpolação de strings. Em vez de ”$foo é um
-  $bar”, podemos escrever ”#\{foo} é um #\{bar}”—tal como em PHP, isto
+* Pode ser utilizada a interpolação de strings. Em vez de `"$foo é um $bar"`,
+  podemos escrever `"#{foo} é um #{bar}"`—tal como em PHP, isto
   não se aplica para strings entre ‘plicas’
 * Existem heredocs
 * Ruby tem excepções, tal como o PHP 5

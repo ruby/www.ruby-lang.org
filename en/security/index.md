@@ -16,6 +16,9 @@ private mailing list. Reported problems will be published after fixes.
 
 Here are recent issues.
 
+* [Hostname check bypassing vulnerability in SSL client
+  (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+  published at 27 Jun, 2013.
 * [Object taint bypassing in DL and Fiddle in Ruby
   (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
   published at 14 May, 2013.

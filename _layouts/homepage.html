@@ -11,13 +11,19 @@ sidebar: |
 
 ---
 
+{% assign number_of_excerpts = 4 %}
+{% assign number_of_other    = 3 %}{% comment %} number of links per column {% endcomment %}
+
+{% assign offset_other_left  = number_of_excerpts %}
+{% assign offset_other_right = number_of_excerpts | plus: number_of_other %}
+
 {% if site.locales.news[page.lang] %}
   {% assign news = site.locales.news[page.lang] %}
 {% else %}
   {% assign news = site.locales.news['en'] %}
 {% endif %}
 
-{% for post in site.categories[page.lang] limit:2 %}
+{% for post in site.categories[page.lang] limit:number_of_excerpts %}
 <div class="post">
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
@@ -32,7 +38,7 @@ sidebar: |
 <div id="news">
   <h3><a href="news/">{{ news.other_news }}</a></h3>
   <ul>
-    {% for post in site.categories[page.lang] offset:2 limit:3 %}
+    {% for post in site.categories[page.lang] offset:offset_other_left limit:number_of_other %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span class="post-info">{{ post.date | posted_by:post.author }}</span>
@@ -41,7 +47,7 @@ sidebar: |
   </ul>
 
   <ul>
-    {% for post in site.categories[page.lang] offset:5 limit:3 %}
+    {% for post in site.categories[page.lang] offset:offset_other_right limit:number_of_other %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span class="post-info">{{ post.date | posted_by:post.author }}</span>

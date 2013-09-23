@@ -26,7 +26,7 @@ the Ruby community.
   Odaiba. RubyKaigi provides many new and exciting talks by Matz and
   other Rubyists in every year.
 
-[EuRuKo <small>(Europaeische Ruby Konferenz)</small>][4]
+[EuRuKo <small>(European Ruby Conference)</small>][4]
 : The first annual European Ruby Conference (EuRuKo) was held in
   Karlsruhe, Germany, in 2003. Organized by a team of German Rubyists
   including Armin Roehrl and Michael Neumann, EuRuKo emerged as the
@@ -54,6 +54,14 @@ WindyCityRails is an annual gathering for all who are passionate about
 Ruby on Rails. The Chicago-based conference has served the Ruby
 community since 2008. Visit [http://windycityrails.org][9] for details.
 
+[Madison Ruby][15]: Madison, WI
+
+[Steel City Ruby][16]: Pittsburg, PA
+
+[Ruby on Ales][17] is an annual two-day conference inspired by Ruby, microbrews,
+and snow. Listen to engaging speakers, enjoy delicious food and enjoy the
+wonderful scenery around Bend Oregon.
+
 ### Ruby At Other Conferences
 
 There has been a Ruby track at the [O’Reilly Open Source Conference][10]
@@ -80,3 +88,7 @@ O’Reilly), and Canada on Rails.
 [12]: http://www.railsconf.org
 [13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com
+[15]: http://madisonruby.org/
+[16]: http://steelcityruby.org/
+[17]: http://ruby.onales.com/
+

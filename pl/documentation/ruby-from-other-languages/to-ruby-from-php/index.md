@@ -19,9 +19,9 @@ Tak jak w PHP, w Rubim…
   (`public`, `protected` i `private`).
 * Część zmiennych, jak w PHP zaczyna się od $ (ale nie wszystkie)
 * Także istnieje `eval`.
-* Możesz podmieniać zmienne na wartości w stringach. Zamiast ”$foo is a
-  $bar”, napiszesz ”#\{foo} is a #\{bar}”—i tak jak w PHP, nie ma to
-  zastosowania do łańcuchów w pojedynczych cudzysłowach.
+* Możesz podmieniać zmienne na wartości w stringach. Zamiast
+  `"$foo is a $bar"`, napiszesz `"#{foo} is a #{bar}"`—i tak jak w PHP,
+  nie ma to zastosowania do łańcuchów w pojedynczych cudzysłowach.
 * Istnieją heredoc’i.
 * Ruby ma wyjątki, tak jak PHP 5.
 * Istnieje dość rozbudowana biblioteka standardowa.

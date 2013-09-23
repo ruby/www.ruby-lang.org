@@ -97,7 +97,7 @@ Attack:
     }
     p res
 
-&amp;Egrave; possibile che questa richiesta abbia bisogno di un tempo
+È possibile che questa richiesta abbia bisogno di un tempo
 infinito.
 
 Questa vulnerabilità è stata notificata da Christian Neukirchen.
