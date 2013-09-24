@@ -8,13 +8,14 @@ lang: es
 ---
 
 Nos complace anunciar que ha sido liberada la versión de Ruby 2.1.0-preview1.
-
 Por favor, ayudanos a revisar las nuevas caracteristicas de Ruby 2.1
 antes de la entrega final.
 
 ## Descargas
 
-Recomendamos usar [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/) via Fastly.
+Recomendamos usar
+[http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/)
+via Fastly.
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
@@ -50,7 +51,7 @@ Los cambios que sobresalen en esta versión son:
 * GMP
 * String#scrub
 * Socket.getifaddrs
-* Nueva Rubygem
+* Nueva RubyGems
 
 ## Comentarios de la versión
 
