@@ -7,14 +7,14 @@ date: 2013-09-23 07:00:00 UTC
 lang: en
 ---
 
-Ruby 2.1.0 preview1 released.
-
 We are pleased to announce the release of Ruby 2.1.0-preview1.
-Please check out the new features in Ruby 2.1 before final release!
+Please check out the new features in Ruby 2.1 before the final release!
 
 ## Download
 
-We recommend to use [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/) via Fastly.
+We recommend to use
+[http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/)
+via Fastly.
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
@@ -50,14 +50,14 @@ The notable changes are:
 * GMP
 * String#scrub
 * Socket.getifaddrs
-* new Rubygem
+* new RubyGems
 
 ## Release Comment
 
-Known issues is:
+Known issues are:
 
 [http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
-See also following ths schedule and other information:
+See also the release schedule and other information:
 
 [http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)

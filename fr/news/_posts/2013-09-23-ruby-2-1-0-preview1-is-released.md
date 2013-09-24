@@ -13,7 +13,9 @@ la version finale !
 
 ## Téléchargement
 
-Nous vous conseillons d'utiliser [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/) via Fastly.
+Nous vous conseillons d'utiliser
+[http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/)
+via Fastly.
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
@@ -49,7 +51,7 @@ Les modifications les plus notables sont :
 * GMP
 * String#scrub
 * Socket.getifaddrs
-* new Rubygem
+* new RubyGems
 
 ## Commentaires sur cette version
 
