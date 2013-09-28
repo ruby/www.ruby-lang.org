@@ -13,6 +13,6 @@ However, the current design is built for the typical size of a desktop or laptop
 We still need more work for the design!
 
 Ruby's 20th anniversary this year seems like an appropriate occasion for a call to submit design ideas for ruby-lang.org.
-Please read the instructions[1] and send your design entry.
+Please read the [instructions][1] and send your design entry.
 
 [1]: http://www.ruby.or.jp/en/news/20130924.html
