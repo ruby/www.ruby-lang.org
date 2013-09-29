@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title:  "Call for design of www.ruby-lang.org"
+title:  "Design Contest for www.ruby-lang.org"
 author: "hsbt"
 translator: 
 date:   2013-09-28 23:30:00 UTC
