@@ -7,6 +7,8 @@ date:   2013-09-28 23:30:00 UTC
 lang:   en
 ---
 
+Ruby Association will be hosting a design contest for the new design of ruby-lang.org.
+
 ruby-lang.org has switched its platform from Radiant CMS to Jekyll in spring 2013.
 Everyone can now edit the content through GitHub. How about that?
 However, the current design is built for the typical size of a desktop or laptop but not for smartphones and tablets.
