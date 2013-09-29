@@ -40,7 +40,7 @@ via Fastly.
 Die wichtigsten Änderungen sind:
 
 * VM (method cache)
-* RGenGC
+* RGenGC (Siehe ko1s [RubyKaigi-](http://rubykaigi.org/2013/talk/S73) und [EuRuKo-Präsentation](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
 * refinements
 * syntax
 * Decimal Literal
@@ -52,6 +52,13 @@ Die wichtigsten Änderungen sind:
 * String#scrub
 * Socket.getifaddrs
 * new RubyGems
+
+Siehe [NEWS im Ruby-Repository (in Arbeit)](https://github.com/ruby/ruby/blob/trunk/NEWS) für weitere Details.
+
+ko1s toruby-Präsentation: [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
+
+Konstantin Haase (@konstantinhaase) hat in seinem Blog eine gute Zusammenfassung veröffentlicht:
+[What’s new in Ruby 2.1](http://rkh.im/ruby-2.1)
 
 ## Weiteres
 
