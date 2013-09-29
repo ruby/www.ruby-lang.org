@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title:  "Design Contest for www.ruby-lang.org"
+title:  "www.ruby-lang.org 設計大賽"
 author: "hsbt"
 translator: "Juanito Fatas"
 date:   2013-09-28 23:30:00 UTC
