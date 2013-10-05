@@ -15,6 +15,11 @@ Please help us stay on top of things by following our
 
 ## Get It!
 
+The site uses Pygments for syntax highlighting. In order to generate the
+site locally, you need to have Python installed on your system
+(refer to the [pygments.rb gem homepage](https://github.com/tmm1/pygments.rb)
+for more detailed information).
+
 Bundler will take care of the rest of the dependencies, so unless you
 already have done so, you might need to install bundler with:
 
