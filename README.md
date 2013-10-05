@@ -15,9 +15,6 @@ Please help us stay on top of things by following our
 
 ## Get It!
 
-In order to generate the site locally, you need to have
-[Pygments installed](http://jekyllrb.com/docs/extras/) on your system.
-
 Bundler will take care of the rest of the dependencies, so unless you
 already have done so, you might need to install bundler with:
 
