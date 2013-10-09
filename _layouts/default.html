@@ -29,13 +29,18 @@
     <div id="page">
 
       <div id="header">
-        <div id="logo">
-          <a href="/{{ page.lang }}/"><img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
-        </div>
+
+        <h1 id="logo">
+          <a href="/{{ page.lang }}/">
+            <img src="/images/logo.gif" width="330" alt="{{ site.locales.slogan[page.lang] }}" title="Ruby">
+          </a>
+        </h1>
+
         <div class="site-links">
           {% include sitelinks.html %}
         </div>
-      </div>
+
+      </div> <!-- /header -->
 
       <div id="main-wrapper">
         <div id="main">
@@ -46,13 +51,16 @@
       <div id="search-box">
         {% include search.html %}
       </div>
+
       <div id="footer">
         <div class="fine-print">
           {% include footer.html %}
         </div>
       </div>
+
     </div>
 
     {% include analytics.html %}
+
   </body>
 </html>
