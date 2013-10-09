@@ -32,6 +32,11 @@ body {
 
 /* General */
 
+.holder {
+  width: 960px;
+  margin: auto;
+}
+
 #page {
 
 }
@@ -145,4 +150,34 @@ body {
 }
 #home-page-layout #head-wrapper-1:first-child {
   margin-bottom: 24px;
+}
+
+
+/*
+Max Width, 960px
+Media Queries for Tablets
+*/
+
+@media (max-width:960px) {
+
+  .holder {
+    width: 960px;
+    margin: auto;
+  }
+
+}
+
+
+/*
+Max Width, 686px
+Media Queries for Smartphones.
+*/
+
+@media only screen and (max-width: 686px) {
+
+  .holder {
+    width: 90%;
+    padding: 0 5% 0 5%;
+  }
+  
 }
