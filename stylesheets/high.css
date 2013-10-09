@@ -3,12 +3,11 @@
 */
 
 body {
-  background-color: #213449;
-  color: white;
+  background: #fff;
+  color: #666;
   margin: 0;
-  padding: 0;
-  text-align: center;
 }
+
 .site-links {
   background-image: url(/images/site-links-background.gif);
   background-position: bottom;
@@ -34,7 +33,6 @@ body {
   display: inline;
 }
 #page {
-  background-image: url(/images/shadow.jpg);
   background-position: center;
   background-repeat: repeat-y;
 }
@@ -56,7 +54,6 @@ body {
   width: 766px;
 }
 #header {
-  background-image: url(/images/header-background.jpg);
   background-position: right;
   background-repeat: repeat-y;
 }
@@ -67,7 +64,6 @@ body {
 #main {
   color: black;
   background-color: white;
-  background-image: url(/images/columns.jpg);
   background-position: right;
   background-repeat: repeat-y;
   float: left;
@@ -87,7 +83,6 @@ body {
 }
 #head-wrapper-1 {
   background-color: #346090;
-  background-image: url(/images/blue-columns.jpg);
   background-repeat: repeat-y;
   background-position: center;
   margin-left: 0px;
@@ -248,7 +243,6 @@ body {
 }
 #content .highlight pre {
   background-color: #213449;
-  background-image: url(/images/code-box-top-left.gif);
   background-position: top left;
   background-repeat: no-repeat;
   color: white;
@@ -256,7 +250,6 @@ body {
   width: 100%;
 }
 #content .highlight pre code {
-  background-image: url(/images/code-box-bottom-right.gif);
   background-position: bottom right;
   background-repeat: no-repeat;
   display: block;
@@ -268,7 +261,6 @@ body {
 }
 #content pre.code {
   background-color: #213449;
-  background-image: url(/images/code-box-top-left.gif);
   background-position: top left;
   background-repeat: no-repeat;
   color: white;
@@ -276,7 +268,6 @@ body {
   width: 100%;
 }
 #content pre.code code {
-  background-image: url(/images/code-box-bottom-right.gif);
   background-position: bottom right;
   background-repeat: no-repeat;
   display: block;
@@ -445,7 +436,6 @@ body {
 }
 #footer .fine-print {
   background-color: #213449;
-  background-image: url(/images/footer-background.jpg);
   background-position: top;
   background-repeat: no-repeat;
   clear: both;
@@ -456,19 +446,8 @@ body {
 /* layouts */
 
 #home-page-layout #head-wrapper-1 {
-  background-image: url(/images/blue-columns-home-page.jpg);
   margin-bottom: -5px;
 }
 #home-page-layout #head-wrapper-1:first-child {
   margin-bottom: 24px;
-}
-#home-page-layout #head-wrapper-2 {
-  background-image: url(/images/blue-columns-top-home-page.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-}
-#home-page-layout #head {
-  background-image: url(/images/blue-columns-bottom-home-page.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
