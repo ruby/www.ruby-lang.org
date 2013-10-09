@@ -8,34 +8,34 @@ body {
   margin: 0;
 }
 
+
+/* Site Links (Nav) */
+
 .site-links {
-  background-image: url(/images/site-links-background.gif);
-  background-position: bottom;
-  background-repeat: repeat-x;
+  height: 46px;
+  background: #bc3f33;
+  border-bottom: 1px solid #e94f40;
+  line-height: 46px;
+  font-size: 15px;
 }
-.site-links a, .site-links a:visited, .site-links strong {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
-  padding-left: 6px;
-  padding-right: 6px;
-  margin-left: 4px;
-  float: left;
+
+.site-links a {
+  margin-left: 20px;
+  color: #ffe5e3;
 }
-.site-links a:hover {
-  color: white;
-  text-decoration: underline;
+
+.site-links a {
+  margin-left: 20px;
+  color: #ffe5e3;
 }
-.site-links strong a, .site-links strong a:visited {
-  padding: 0;
-  margin: 0;
-  display: inline;
-}
+
+
+/* Page */
+
 #page {
-  background-position: center;
-  background-repeat: repeat-y;
+
 }
+
 #logo {
   background-image: url(/images/logo-background.jpg);
   background-position: top left;
@@ -57,24 +57,12 @@ body {
   background-position: right;
   background-repeat: repeat-y;
 }
-#header .site-links {
-  float: left;
-  width: 100%;
-}
 #main {
   color: black;
   background-color: white;
   background-position: right;
   background-repeat: repeat-y;
   float: left;
-}
-#main .site-links {
-  width: 766px;
-  float: left;
-  clear: both;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 #content-wrapper {
   float: left;
