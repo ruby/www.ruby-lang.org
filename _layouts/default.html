@@ -27,6 +27,7 @@
 
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
     <div id="page">
+
       <div id="header">
         <div id="logo">
           <a href="/{{ page.lang }}/"><img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
@@ -35,7 +36,6 @@
           {% include sitelinks.html %}
         </div>
       </div>
-      <hr class="hidden-modern" />
 
       <div id="main-wrapper">
         <div id="main">
