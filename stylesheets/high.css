@@ -183,6 +183,10 @@ body {
 #head .multi-page strong {
   border: 2px solid #b0c5dd;
 }
+
+
+/* Content */
+
 #content {
   margin-right: 239px;
   padding: 32px;
@@ -318,6 +322,10 @@ body {
   float: right;
   width: 237px;
 }
+
+
+/* Sidebar */
+
 #sidebar {
   font-size: 85%;
   margin-top: 26px;
@@ -392,6 +400,10 @@ body {
 #sidebar .navigation .more a:visited:hover {
   text-decoration: underline;
 }
+
+
+/* Search Box */
+
 #search-box {
   clear: both;
   margin-left: auto;
@@ -399,48 +411,27 @@ body {
   text-align: left;
   width: 738px;
 }
+
 #search-form {
   position: absolute;
   top: 57px;
   width: 738px;
 }
+
 #search-box .fieldset {
   float: right;
 }
+
 #search-form .field {
   width: 214px;
   height: 20px;
 }
+
 #search-form .button {
   min-width: 74px;
   height: 24px;
 }
-#footer p {
-  color: #8D959F;
-  font-size: 85%;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: .75em;
-  padding: 14px;
-  padding-top: 0;
-  padding-bottom: 0;
-  text-align: left;
-  width: 738px;
-}
-#footer a, #footer a:visited {
-  color: #B6BCC2;
-}
-#footer a:hover, #footer a:visited:hover {
-  color: white;
-}
-#footer .fine-print {
-  background-color: #213449;
-  background-position: top;
-  background-repeat: no-repeat;
-  clear: both;
-  line-height: 140%;
-  padding-top: 10px;
-}
+
 
 /* layouts */
 
