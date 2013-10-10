@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', sans-serif;
 }
 
-a { color:#b80606; }
+a { color: #008aff; }
 
 a:hover, a:hover img {
   opacity: .8;
@@ -109,11 +109,10 @@ li {
   color: #ffe5e3;
 }
 
-.site-links a {
-  margin-left: 20px;
-  color: #ffe5e3;
+.site-links a:hover {
+  opacity: 1;
+  color: #fff;
 }
-
 
 
 /* Content */
