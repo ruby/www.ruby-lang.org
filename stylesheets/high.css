@@ -106,11 +106,13 @@ li {
 /* Site Links (Nav) */
 
 .site-links {
+  box-shadow: 0 5px 5px #153250;
   height: 46px;
   background: #bc3f33;
   border-bottom: 1px solid #e94f40;
   line-height: 46px;
   font-size: 15px;
+  z-index: 200;
 }
 
 .site-links a {
@@ -123,6 +125,22 @@ li {
   text-decoration: underline;
   color: #fff;
   opacity: 1;
+}
+
+
+/* Intro */
+
+#intro {
+  width: 100%;
+  height: 270px;
+  background: #204c7b;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c66a4), color-stop(100%, #204c7b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #2c66a4 0%, #204c7b 100%); /* W3C */
+  position: relative;
+  z-index: 100;
 }
 
 
