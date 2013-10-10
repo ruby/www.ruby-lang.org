@@ -31,39 +31,36 @@
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
-    <div id="page">
 
-      <div id="header">
-        <div class="holder">
+    <div id="header">
+      <div class="holder">
 
-          <h1 id="logo">
-            <a href="/{{ page.lang }}/">
-              <img src="/images/logo.png" alt="{{ site.locales.slogan[page.lang] }}" title="Ruby">
-            </a>
-          </h1>
+        <h1 id="logo">
+          <a href="/{{ page.lang }}/">
+            <img src="/images/logo.png" alt="{{ site.locales.slogan[page.lang] }}" title="Ruby">
+          </a>
+        </h1>
 
-          <div id="search-box">
-            {% include search.html %}
-          </div>
-        
+        <div id="search-box">
+          {% include search.html %}
         </div>
-      </div> <!-- /header -->
       
-      <div class="site-links">
-        <div class="holder">
-          {% include sitelinks.html %}
-        </div>
       </div>
-
-      {{ content }}
-
-      <div id="footer">
-        <div class="fine-print">
-          {% include footer.html %}
-        </div>
+    </div> <!-- /header -->
+    
+    <nav class="site-links">
+      <div class="holder">
+        {% include sitelinks.html %}
       </div>
+    </nav>
 
-    </div>
+    {{ content }}
+
+    <footer>
+      <div class="fine-print">
+        {% include footer.html %}
+      </div>
+    </footer>
 
     {% include analytics.html %}
 
