@@ -81,7 +81,11 @@ li {
 }
 
 #page {
+  
+}
 
+.separator {
+  display: none;
 }
 
 
