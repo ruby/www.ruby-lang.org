@@ -84,7 +84,7 @@ li {
   
 }
 
-.separator {
+.separator, #news {
   display: none;
 }
 
@@ -151,7 +151,11 @@ li {
 
 /* Sidebar */
 
-
+#sidebar {
+  width: 280px;
+  background: #fafafa;
+  float: right;
+}
 
 
 /* Code */

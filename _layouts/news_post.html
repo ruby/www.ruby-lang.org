@@ -8,44 +8,51 @@ layout: default
   {% assign translated_by = site.locales.translated_by['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
-  {% include title.html %}
+{% include title.html %}
 
-  <div id="content">
-    {{ content }}
+<div id="content">
 
-    <p class="post-info">{{ page.date | posted_by:page.author }}{% if page.translator %}<br />
-                         {{ translated_by }} {{ page.translator }}{% endif %}</p>
-  </div>
-</div>
-<hr class="hidden-modern" />
+  {{ content }}
 
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation">
-      {% if site.locales.news[page.lang] %}
-        {% assign news = site.locales.news[page.lang] %}
-      {% else %}
-        {% assign news = site.locales.news['en'] %}
-      {% endif %}
+  <p class="post-info">
+    {{ page.date | posted_by:page.author }}{% if page.translator %}<br />
+    {{ translated_by }} {{ page.translator }}{% endif %}
+  </p>
 
-      <h3><strong>{{ news.recent_news }}</strong></h3>
+</div> <!-- /content -->
 
-      <ul class="menu">
-        {% for post in site.categories[page.lang] limit:5 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
+<div id="sidebar">
 
-    {% if site.locales.sidebar[page.lang] %}
-      {% assign sidebar = site.locales.sidebar[page.lang] %}
+  <div class="navigation">
+
+    {% if site.locales.news[page.lang] %}
+      {% assign news = site.locales.news[page.lang] %}
     {% else %}
-      {% assign sidebar = site.locales.sidebar['en'] %}
+      {% assign news = site.locales.news['en'] %}
     {% endif %}
 
-    <h3>{{ sidebar.syndicate.text }}</h3>
-    <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
-  </div>
-</div>
-<hr class="hidden-modern" />
+    <h3>{{ news.recent_news }}</h3>
+
+    <ul class="menu">
+      {% for post in site.categories[page.lang] limit:5 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+  </div> <!-- /navigation -->
+
+  {% if site.locales.sidebar[page.lang] %}
+    {% assign sidebar = site.locales.sidebar[page.lang] %}
+  {% else %}
+    {% assign sidebar = site.locales.sidebar['en'] %}
+  {% endif %}
+
+  <h3>{{ sidebar.syndicate.text }}</h3>
+
+  <p>
+    <a href="{{ sidebar.syndicate.recent_news.url }}">
+      {{ sidebar.syndicate.recent_news.text }}
+    </a>
+  </p>
+
+</div> <!-- /sidebar -->

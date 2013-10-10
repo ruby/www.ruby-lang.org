@@ -24,38 +24,43 @@ sidebar: |
 {% endif %}
 
 {% for post in site.categories[page.lang] limit:number_of_excerpts %}
-<div class="post">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-  {{ post.excerpt | markdownify }}
+<div id="content">
 
-  <p><a href="{{ post.url }}">{{ news.continue }}</a></p>
+  <div class="post">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-  <p class="post-info">{{ post.date | posted_by:post.author }}</p>
-</div>
-{% endfor %}
+    {{ post.excerpt | markdownify }}
 
-<div id="news">
-  <h3><a href="news/">{{ news.other_news }}</a></h3>
-  <ul>
-    {% for post in site.categories[page.lang] offset:offset_other_left limit:number_of_other %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="post-info">{{ post.date | posted_by:post.author }}</span>
-    </li>
-    {% endfor %}
-  </ul>
+    <p><a href="{{ post.url }}">{{ news.continue }}</a></p>
 
-  <ul>
-    {% for post in site.categories[page.lang] offset:offset_other_right limit:number_of_other %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="post-info">{{ post.date | posted_by:post.author }}</span>
-    </li>
-    {% endfor %}
-  </ul>
+    <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+  </div>
+  {% endfor %}
 
-  <p class="more">
-    <a href="news/">{{ news.more_news }}</a>
-  </p>
-</div>
+  <div id="news">
+    <h3><a href="news/">{{ news.other_news }}</a></h3>
+    <ul>
+      {% for post in site.categories[page.lang] offset:offset_other_left limit:number_of_other %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="post-info">{{ post.date | posted_by:post.author }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <ul>
+      {% for post in site.categories[page.lang] offset:offset_other_right limit:number_of_other %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="post-info">{{ post.date | posted_by:post.author }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <p class="more">
+      <a href="news/">{{ news.more_news }}</a>
+    </p>
+  </div>
+
+</div> <!-- /content -->
