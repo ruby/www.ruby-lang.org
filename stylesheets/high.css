@@ -105,13 +105,15 @@ li {
 }
 
 .site-links a {
+  text-decoration: none;
   margin-left: 20px;
   color: #ffe5e3;
 }
 
 .site-links a:hover {
-  opacity: 1;
+  text-decoration: underline;
   color: #fff;
+  opacity: 1;
 }
 
 
@@ -224,8 +226,7 @@ Media Queries for Tablets
 @media (max-width:960px) {
 
   .holder {
-    width: 960px;
-    margin: auto;
+    width: 700px;
   }
 
 }
