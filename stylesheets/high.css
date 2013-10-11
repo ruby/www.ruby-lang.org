@@ -229,8 +229,10 @@ li {
 /* Sidebar */
 
 #sidebar {
-  width: 280px;
+  width: 230px;
   background: #fafafa;
+  font-size: 13px;
+  padding: 25px;
   float: right;
 }
 
