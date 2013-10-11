@@ -49,8 +49,8 @@ html, body {
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: #fff;
-  color: rgb(71, 60, 60);
-  font-size: 14px;
+  color: #333;
+  font-size: 15px;
   margin: 0;
 }
 
@@ -77,11 +77,8 @@ li {
 
 .holder {
   width: 960px;
+  position: relative;
   margin: auto;
-}
-
-#page {
-  
 }
 
 .separator, #news {
@@ -111,7 +108,6 @@ li {
   background: #bc3f33;
   border-bottom: 1px solid #e94f40;
   line-height: 46px;
-  font-size: 15px;
   position: relative;
   z-index: 200;
 }
@@ -133,7 +129,7 @@ li {
 
 #intro {
   width: 100%;
-  height: 270px;
+  height: 240px;
   background: #204c7b;
   border-bottom: 10px solid #347bc6;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c66a4), color-stop(100%, #204c7b)); /* Chrome,Safari4+ */
@@ -142,11 +138,13 @@ li {
   background: -ms-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* IE10+ */
   background: linear-gradient(top bottom, #2c66a4 0%, #204c7b 100%); /* W3C */
   position: relative;
+  padding: 30px 0 0 0;
   z-index: 100;
   color: #fff;
 }
 
 #intro h2 {
+  text-shadow: 0 1px 0 #2c66a4;
   font-weight: normal;
   font-family: Georgia, serif;
   font-size: 38px;
@@ -154,8 +152,8 @@ li {
 }
 
 #intro p {
+  text-shadow: 0 1px 0 #2c66a4;
   width: 50%;
-  font-size: 15px;
   line-height: 25px;
   margin: 0;
 }
@@ -181,6 +179,7 @@ li {
   border: 1px solid #4786c9;
   line-height: 50px;
   padding: 0 15px 0 15px;
+  margin: 20px 0 0 0;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
@@ -191,6 +190,40 @@ li {
 
 /* Content */
 
+#content {
+  margin: 40px 320px 0 0;
+  position: relative;
+  line-height: 25px;
+}
+
+
+/* Post */
+
+.post {
+  margin-bottom: 40px;
+}
+
+.post h3 {
+  font-size: 27px;
+  line-height: 32px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  color: #000;
+}
+
+.post h3 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.post-infos {
+  font-weight: 300;
+  font-size: 13px;
+  color: #777;
+}
+
+.post p {
+}
 
 
 /* Sidebar */
@@ -205,19 +238,25 @@ li {
 /* Code */
 
 #code {
+  width: 280px;
   color: white;
-  display: block;
   font-size: 95%;
   line-height: 110%;
-  padding-top: 24px;
-  background: #333;
-  width: 244px;
+  padding-top: 20px;
+  padding-top: 20px;
+  background: #22334b;
+  position: absolute;
+  top: 137px;
+  right: 0;
+  display: block;
+  z-index: 300;
 }
+
 #code code {
   display: block;
   font-family: "Lucida Console", Monaco, monospace;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 #code .keyword {
   color: #f9bb00;
@@ -300,9 +339,8 @@ Media Queries for Tablets
 
 @media (max-width:960px) {
 
-  .holder {
-    width: 700px;
-  }
+  .holder { width: 700px; }
+  #intro p { width: 70%; }
 
 }
 

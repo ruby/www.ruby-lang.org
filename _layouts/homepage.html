@@ -4,11 +4,6 @@ layout: page
 javascript:
  - examples
 
-sidebar: |
-  <a href="downloads/">
-    <img src="/images/download.gif" alt="Download Ruby" title="" />
-  </a>
-
 ---
 
 {% assign number_of_excerpts = 4 %}
@@ -24,16 +19,23 @@ sidebar: |
 {% endif %}
 
 {% for post in site.categories[page.lang] limit:number_of_excerpts %}
+  <div class="post">
+    <h3>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+    <span class="post-infos">
+      {{ post.date | posted_by:post.author }}
+    </span>
 
-<div class="post">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {{ post.excerpt | markdownify }}
 
-  {{ post.excerpt | markdownify }}
+    <a href="{{ post.url }}">
+      {{ news.continue }}
+    </a>
 
-  <p><a href="{{ post.url }}">{{ news.continue }}</a></p>
-
-  <p class="post-info">{{ post.date | posted_by:post.author }}</p>
-</div>
+  </div> <!-- /post -->
 {% endfor %}
 
 <div id="news">

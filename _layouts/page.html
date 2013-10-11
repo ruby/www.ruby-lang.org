@@ -4,10 +4,14 @@ layout: default
 
 {% include title.html %}
 
-<div id="content">
-  {{ content }}
-</div>
+<div class="holder">
 
-<div id="sidebar">
-  {% include sidebar.html %}
-</div>
+  <div id="sidebar">
+    {% include sidebar.html %}
+  </div>
+
+  <div id="content">
+    {{ content }}
+  </div>
+
+</div> <!-- /holder -->
