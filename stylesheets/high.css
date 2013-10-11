@@ -112,6 +112,7 @@ li {
   border-bottom: 1px solid #e94f40;
   line-height: 46px;
   font-size: 15px;
+  position: relative;
   z-index: 200;
 }
 
@@ -134,6 +135,7 @@ li {
   width: 100%;
   height: 270px;
   background: #204c7b;
+  border-bottom: 10px solid #347bc6;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c66a4), color-stop(100%, #204c7b)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Opera 11.10+ */
