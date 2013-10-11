@@ -106,6 +106,7 @@ li {
 /* Site Links (Nav) */
 
 .site-links {
+  box-shadow: 0 5px 5px #2c66a4;
   height: 46px;
   background: #bc3f33;
   border-bottom: 1px solid #e94f40;
@@ -131,7 +132,6 @@ li {
 /* Intro */
 
 #intro {
-  box-shadow: inset 0 5px 5px #2c66a4;
   width: 100%;
   height: 270px;
   background: #204c7b;
@@ -176,19 +176,20 @@ li {
 
 .download-but {
   border-radius: 4px;
-  height: 50px;
+  height: 48px;
+  background: #2c66a4;
+  border: 1px solid #4786c9;
   line-height: 50px;
   padding: 0 15px 0 15px;
   font-size: 16px;
   font-weight: bold;
+  text-decoration: none;
   color: #fff;
+  display: inline-block;
 }
 
 
-
-
 /* Content */
-
 
 
 
