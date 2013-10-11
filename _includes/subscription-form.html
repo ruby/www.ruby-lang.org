@@ -3,10 +3,8 @@
 <form action="http://ruby-lang-mls.herokuapp.com/submit" id="subscriptions-form" method="post" markdown="1">
 
 | {{ locales.list}} | <select name="list"><option value="ruby-talk">Ruby-Talk</option><option value="ruby-core">Ruby-Core</option><option value="ruby-doc">Ruby-Doc</option><option value="ruby-cvs">Ruby-CVS</option></select> |
-| {{ locales.first_name }} | <input name="first_name" value="" /> |
-| {{ locales.last_name }}| <input name="last_name" value="" /> |
-| {{ locales.email }}| <input name="email" value="" /> |
 | {{ locales.action }} | <select name="action"><option value="subscribe">{{ locales.subscribe }}</option><option value="unsubscribe">{{ locales.unsubscribe }}</option></select> |
+| {{ locales.email }}| <input name="email" value="" /> |
 {: .fieldset cellspacing="0" cellpadding="0" border="0"}
 
 <div class="buttons">
