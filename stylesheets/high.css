@@ -106,7 +106,6 @@ li {
 /* Site Links (Nav) */
 
 .site-links {
-  box-shadow: 0 5px 5px #153250;
   height: 46px;
   background: #bc3f33;
   border-bottom: 1px solid #e94f40;
@@ -118,7 +117,7 @@ li {
 
 .site-links a {
   text-decoration: none;
-  margin-left: 20px;
+  margin-right: 20px;
   color: #ffe5e3;
 }
 
@@ -132,6 +131,7 @@ li {
 /* Intro */
 
 #intro {
+  box-shadow: inset 0 5px 5px #2c66a4;
   width: 100%;
   height: 270px;
   background: #204c7b;
@@ -143,7 +143,48 @@ li {
   background: linear-gradient(top bottom, #2c66a4 0%, #204c7b 100%); /* W3C */
   position: relative;
   z-index: 100;
+  color: #fff;
 }
+
+#intro h2 {
+  font-weight: normal;
+  font-family: Georgia, serif;
+  font-size: 38px;
+  margin: 0 0 15px 0;
+}
+
+#intro p {
+  width: 50%;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+}
+
+#intro p a {
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 7px;
+  color: #a6d1ff;
+}
+
+#intro p a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+/*-*/
+
+.download-but {
+  border-radius: 4px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
 
 
 /* Content */
