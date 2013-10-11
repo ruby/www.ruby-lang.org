@@ -64,13 +64,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a { color: #008aff; }
 
-a:hover, a:hover img {
-  opacity: .8;
-}
+a:hover,
+a:hover img { opacity: .8; }
 
-li {
-  list-style-type: circle;
-}
+li { list-style-type: circle; }
 
 
 /* General */
@@ -172,7 +169,7 @@ li {
 
 /*-*/
 
-.download-but {
+.download-but, .download-but:visited {
   border-radius: 4px;
   height: 48px;
   background: #2c66a4;
@@ -183,8 +180,13 @@ li {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #a6d1ff;
   display: inline-block;
+}
+
+.download-but:hover {
+  border-color: #fff;
+  color: #fff !important;
 }
 
 
@@ -200,7 +202,7 @@ li {
 /* Post */
 
 .post {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .post h3 {
