@@ -8,53 +8,56 @@ layout: default
   {% assign translated_by = site.locales.translated_by['en'] %}
 {% endif %}
 
-{% include title.html %}
+<div class="holder">
 
-<div id="content">
+  {% include title.html %}
+  
 
+  <div id="sidebar">
 
-  {{ content }}
+    <div class="navigation">
 
-  <p class="post-info">
-    {{ page.date | posted_by:page.author }}{% if page.translator %}<br />
-    {{ translated_by }} {{ page.translator }}{% endif %}
-  </p>
+      {% if site.locales.news[page.lang] %}
+        {% assign news = site.locales.news[page.lang] %}
+      {% else %}
+        {% assign news = site.locales.news['en'] %}
+      {% endif %}
 
+      <h3>{{ news.recent_news }}</h3>
 
-</div> <!-- /content -->
+      <ul class="menu">
+        {% for post in site.categories[page.lang] limit:5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
 
-<div id="sidebar">
+    </div> <!-- /navigation -->
 
-  <div class="navigation">
-
-    {% if site.locales.news[page.lang] %}
-      {% assign news = site.locales.news[page.lang] %}
+    {% if site.locales.sidebar[page.lang] %}
+      {% assign sidebar = site.locales.sidebar[page.lang] %}
     {% else %}
-      {% assign news = site.locales.news['en'] %}
+      {% assign sidebar = site.locales.sidebar['en'] %}
     {% endif %}
 
-    <h3>{{ news.recent_news }}</h3>
+    <h3>{{ sidebar.syndicate.text }}</h3>
 
-    <ul class="menu">
-      {% for post in site.categories[page.lang] limit:5 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+    <p>
+      <a href="{{ sidebar.syndicate.recent_news.url }}">
+        {{ sidebar.syndicate.recent_news.text }}
+      </a>
+    </p>
 
-  </div> <!-- /navigation -->
+  </div> <!-- /sidebar -->
 
-  {% if site.locales.sidebar[page.lang] %}
-    {% assign sidebar = site.locales.sidebar[page.lang] %}
-  {% else %}
-    {% assign sidebar = site.locales.sidebar['en'] %}
-  {% endif %}
+  <div id="content">
 
-  <h3>{{ sidebar.syndicate.text }}</h3>
+    {{ content }}
 
-  <p>
-    <a href="{{ sidebar.syndicate.recent_news.url }}">
-      {{ sidebar.syndicate.recent_news.text }}
-    </a>
-  </p>
+    <p class="post-info">
+      {{ page.date | posted_by:page.author }}{% if page.translator %}<br />
+      {{ translated_by }} {{ page.translator }}{% endif %}
+    </p>
 
-</div> <!-- /sidebar -->
+  </div> <!-- /content -->
+
+</div> <!-- /holder -->

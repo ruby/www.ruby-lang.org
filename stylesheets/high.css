@@ -218,7 +218,7 @@ li { list-style-type: circle; }
 }
 
 
-/* Post */
+/* Homepage */
 
 .post {
   margin-bottom: 35px;
@@ -243,7 +243,14 @@ li { list-style-type: circle; }
   color: #777;
 }
 
-.post p {
+
+/* Post Page */
+
+.page-title {
+  font-weight: normal;
+  font-family: Georgia, serif;
+  font-size: 38px;
+  margin: 0 0 30px 0;
 }
 
 
