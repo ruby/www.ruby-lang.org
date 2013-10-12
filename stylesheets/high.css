@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 a { color: #008aff; }
 
 a:hover,
-a:hover img { opacity: .8; }
+a:hover img { opacity: .7; }
 
 li { list-style-type: circle; }
 
@@ -80,6 +80,25 @@ li { list-style-type: circle; }
 
 .separator, #news {
   display: none;
+}
+
+.view-more {
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #e7e7e7;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f0f0f0)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fff 0%, #f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fff 0%, #f0f0f0 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fff 0%, #f0f0f0 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #fff 0%, #f0f0f0 100%); /* W3C */
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  font: bold 11px Arial, sans-serif;
+  color: #444;
+  height: 30px;
+  line-height: 30px;
 }
 
 
@@ -105,8 +124,7 @@ li { list-style-type: circle; }
   background: #bc3f33;
   border-bottom: 1px solid #e94f40;
   line-height: 46px;
-  position: relative;
-  z-index: 200;
+  z-index: 500;
 }
 
 .site-links a {
@@ -125,10 +143,11 @@ li { list-style-type: circle; }
 /* Intro */
 
 #intro {
+  text-shadow: 0 1px 0 #204c7b;
   width: 100%;
   height: 240px;
-  background: #204c7b;
   border-bottom: 10px solid #347bc6;
+  background: #204c7b;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c66a4), color-stop(100%, #204c7b)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Opera 11.10+ */
@@ -141,25 +160,26 @@ li { list-style-type: circle; }
 }
 
 #intro h2 {
-  text-shadow: 0 1px 0 #2c66a4;
+  font-weight: 300;
   font-weight: normal;
   font-family: Georgia, serif;
   font-size: 38px;
-  margin: 0 0 15px 0;
+  margin: 0 0 10px 0;
 }
 
 #intro p {
-  text-shadow: 0 1px 0 #2c66a4;
   width: 50%;
   line-height: 25px;
   margin: 0;
 }
 
 #intro p a {
+  text-shadow: none;
+  font-weight: 300;
   font-size: 13px;
   text-decoration: none;
   margin-left: 7px;
-  color: #a6d1ff;
+  color: #fff;
 }
 
 #intro p a:hover {
@@ -174,19 +194,18 @@ li { list-style-type: circle; }
   height: 48px;
   background: #2c66a4;
   border: 1px solid #4786c9;
-  line-height: 50px;
+  line-height: 48px;
   padding: 0 15px 0 15px;
   margin: 20px 0 0 0;
   font-size: 16px;
-  font-weight: bold;
   text-decoration: none;
-  color: #a6d1ff;
+  color: #fff;
   display: inline-block;
 }
 
 .download-but:hover {
   border-color: #fff;
-  color: #fff !important;
+  opacity: 1;
 }
 
 
