@@ -2,16 +2,6 @@
   low.css - styles for legacy browsers
 */
 
-a {
-  color: #3256B6;
-}
-a:visited {
-  color: #7130B8;
-}
-a:hover, a:visited:hover {
-  color: #C61A1A;
-  text-decoration: none;
-}
 a img { border: 0; }
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;

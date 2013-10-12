@@ -191,10 +191,10 @@ li { list-style-type: circle; }
 
 .download-but, .download-but:visited {
   border-radius: 4px;
-  height: 48px;
+  height: 44px;
   background: #2c66a4;
   border: 1px solid #4786c9;
-  line-height: 48px;
+  line-height: 44px;
   padding: 0 15px 0 15px;
   margin: 20px 0 0 0;
   font-size: 16px;
@@ -267,11 +267,8 @@ li { list-style-type: circle; }
   font-size: 95%;
   line-height: 110%;
   padding-top: 20px;
-  padding-top: 20px;
+  padding-bottom: 20px;
   background: #22334b;
-  position: absolute;
-  top: 137px;
-  right: 0;
   display: block;
   z-index: 300;
 }
