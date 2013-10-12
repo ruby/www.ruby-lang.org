@@ -74,7 +74,6 @@ li { list-style-type: circle; }
 
 .holder {
   width: 960px;
-  position: relative;
   margin: auto;
 }
 
@@ -124,7 +123,8 @@ li { list-style-type: circle; }
   background: #bc3f33;
   border-bottom: 1px solid #e94f40;
   line-height: 46px;
-  z-index: 500;
+  position: relative;
+  z-index: 400;
 }
 
 .site-links a {
@@ -145,7 +145,6 @@ li { list-style-type: circle; }
 #intro {
   text-shadow: 0 1px 0 #204c7b;
   width: 100%;
-  height: 240px;
   border-bottom: 10px solid #347bc6;
   background: #204c7b;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c66a4), color-stop(100%, #204c7b)); /* Chrome,Safari4+ */
@@ -154,7 +153,7 @@ li { list-style-type: circle; }
   background: -ms-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* IE10+ */
   background: linear-gradient(top bottom, #2c66a4 0%, #204c7b 100%); /* W3C */
   position: relative;
-  padding: 30px 0 0 0;
+  padding: 30px 0 45px 0;
   z-index: 100;
   color: #fff;
 }
