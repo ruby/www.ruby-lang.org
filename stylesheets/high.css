@@ -247,6 +247,20 @@ li { list-style-type: circle; }
 /* Post Page */
 
 .page-title {
+  text-shadow: 0 1px 0 #204c7b;
+  width: 100%;
+  border-bottom: 10px solid #347bc6;
+  background: #204c7b;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c66a4), color-stop(100%, #204c7b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #2c66a4 0%, #204c7b 100%); /* W3C */
+  position: relative;
+  z-index: 100;
+  color: #fff;
+
+  padding: 25px 0 30px 0;
   font-weight: normal;
   font-family: Georgia, serif;
   font-size: 38px;
