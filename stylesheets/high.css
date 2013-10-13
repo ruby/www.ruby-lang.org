@@ -506,9 +506,7 @@ footer {
   color: #b7b7b7;
 }
 
-#content-available a:hover {
-  color: #888;
-}
+#content-available a:hover { color: #888; }
 
 #credits {
   border-top: 1px solid #fff;
@@ -517,21 +515,11 @@ footer {
   color: #fff;
 }
 
-#credits a {
-  color: #ffd5d1;
-}
+#credits a { color: #ffd5d1; }
+#credits a:hover { color: #fff; }
+#credits p { margin: 0 0 10px 0; }
 
-#credits a:hover {
-  color: #fff;
-}
-
-#credits p {
-  margin: 0 0 10px 0;
-}
-
-.webdesigner {
-  font-size: 12px;
-}
+.webdesigner { font-size: 12px; }
 
 
 /*
@@ -560,28 +548,25 @@ Media Queries for Smartphones.
   }
   
   #header {
+    border-bottom: 5px solid #bc3f33;
     height: auto;
-    padding: 8px 0 8px 0;
+    padding: 0;
   }
 
-  #logo a img {
-    width: 30px;
-  }
+  #logo a img { width: 30px; }
   
   #intro p,
-  #sidebar { width: 100%; }
+  #sidebar { width: 100% !important; }
   
   #side-entry {
     width: 94%;
     padding: 3%;
   }
   
-  #content {
-    width: 100%;
-  }
+  #content { width: 100%; }
   
-  #code, #search-box {
-    display: none;
-  }
+  #code,
+  #search-box,
+  .site-links { display: none !important; }
   
 }
