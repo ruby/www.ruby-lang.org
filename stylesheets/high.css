@@ -218,13 +218,13 @@ li { list-style-type: circle; }
 
 
 #content .highlight {
-  border-top-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-top: 5px solid #eee;
+  border-bottom: 5px solid #eee;
   background: #222;
   line-height: 20px !important;
-  font-size: 17px;
-  padding: 15px;
-  margin-bottom: 25px;
+  font-size: 19px;
+  padding: 15px 25px 15px 25px;
+  margin: 5px 0 25px 0;
   display: block;
   overflow: auto;
 }
@@ -356,10 +356,12 @@ li { list-style-type: circle; }
 #code {
   width: 280px;
   background: #222;
+  border-bottom: 5px solid #eee;
   font-size: 95%;
   line-height: 110%;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 1px;
   display: none;
   color: #fff;
   z-index: 300;
