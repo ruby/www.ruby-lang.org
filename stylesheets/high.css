@@ -157,7 +157,6 @@ li { list-style-type: circle; }
 }
 
 #intro h2 {
-  font-weight: 300;
   font-weight: normal;
   font-family: Georgia, serif;
   font-size: 38px;
@@ -399,8 +398,9 @@ footer {
   width: 100%;
   border-top: 5px solid #84b3e5;
   font-size: 14px;
-  margin-top: 30px 0 0 0;
+  margin-top: 30px;
   color: #666;
+  float: left;
 }
 
 footer a {
