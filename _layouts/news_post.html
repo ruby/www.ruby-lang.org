@@ -8,7 +8,12 @@ layout: default
   {% assign translated_by = site.locales.translated_by['en'] %}
 {% endif %}
 
-{% include title.html %}
+<div id="page-header">
+  <div class="holder">
+    {% include title.html %}
+    <p>{{ page.date | posted_by:page.author }}{% if page.translator %}</p>
+  </div>
+</div>
 
 <div class="holder">
 
@@ -40,11 +45,9 @@ layout: default
 
     <h3>{{ sidebar.syndicate.text }}</h3>
 
-    <p>
-      <a href="{{ sidebar.syndicate.recent_news.url }}">
-        {{ sidebar.syndicate.recent_news.text }}
-      </a>
-    </p>
+    <a href="{{ sidebar.syndicate.recent_news.url }}">
+      {{ sidebar.syndicate.recent_news.text }}
+    </a>
 
   </div> <!-- /sidebar -->
 
@@ -52,8 +55,7 @@ layout: default
 
     {{ content }}
 
-    <p class="post-info">
-      {{ page.date | posted_by:page.author }}{% if page.translator %}<br />
+    <p class="translated-by">
       {{ translated_by }} {{ page.translator }}{% endif %}
     </p>
 
