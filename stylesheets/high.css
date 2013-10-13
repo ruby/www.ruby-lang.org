@@ -395,11 +395,12 @@ li { list-style-type: circle; }
 
 footer {
   width: 100%;
-  border-top: 5px solid #84b3e5;
+  border-top: 1px solid #ececec;
   font-size: 14px;
   margin-top: 30px;
+  line-height: 24px;
   color: #666;
-  float: left;
+  clear: both;
 }
 
 footer a {
@@ -410,13 +411,12 @@ footer a {
 #content-available {
   background: #fcfcfc;
   padding: 30px 0 30px 0;
-  margin: 0;
 }
 
 #credits {
-  padding: 30px 0 10px 0;
-  border-top: 1px solid #ececec;
   background: #f6f6f6;
+  border-top: 1px solid #ececec;
+  padding: 30px 0 15px 0;
 }
 
 
