@@ -224,12 +224,13 @@ li { list-style-type: circle; }
   width: 280px;
   font-size: 14px;
   margin-top: -120px;
+  color: #666;
   float: right;
 }
 
 #side-entry {
   width: 230px;
-  background: #fafafa;
+  background: #f6f6f6;
   padding: 25px;
 }
 
@@ -241,6 +242,20 @@ li { list-style-type: circle; }
   clear: both;
   height: 0;
   min-height: 0;
+}
+
+.syndicate {
+  width: 230px;
+  background: #f8f8f8;
+  padding: 20px 25px 20px 25px;
+  margin: 1px 0 0 0;
+}
+
+.syndicate a {
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  color: #888;
 }
 
 
@@ -327,13 +342,13 @@ li { list-style-type: circle; }
 
 #code {
   width: 280px;
-  color: white;
+  background: #444;
   font-size: 95%;
   line-height: 110%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #22334b;
   display: none;
+  color: #fff;
   z-index: 300;
 }
 
