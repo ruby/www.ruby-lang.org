@@ -460,13 +460,13 @@ a:hover img { opacity: .7; }
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  width: 738px;
+  width: 300px;
 }
 
 #search-form {
   position: absolute;
-  top: 57px;
-  width: 738px;
+  top: 40px;
+  width: 300px;
 }
 
 #search-box .fieldset {
@@ -559,18 +559,28 @@ Media Queries for Smartphones.
     padding: 0 5% 0 5%;
   }
   
-  #intro p { width: 100%; }
+  #header {
+    height: auto;
+    padding: 8px 0 8px 0;
+  }
+
+  #logo a img {
+    width: 30px;
+  }
   
-  #sidebar {
-    width: 100%;
-    padding: 0%;
+  #intro p,
+  #sidebar { width: 100%; }
+  
+  #side-entry {
+    width: 94%;
+    padding: 3%;
   }
   
   #content {
     width: 100%;
   }
   
-  #code {
+  #code, #search-box {
     display: none;
   }
   
