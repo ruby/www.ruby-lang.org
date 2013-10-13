@@ -2,7 +2,7 @@
 layout: news_post
 title:  "Concurso de diseño para www.ruby-lang.org"
 author: "hsbt"
-translator: David Padilla
+translator: "David Padilla"
 date:   2013-09-28 23:30:00 UTC
 lang:   es
 ---

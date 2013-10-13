@@ -2,7 +2,7 @@
 layout: news_post
 title:  "Design Contest for www.ruby-lang.org"
 author: "hsbt"
-translator: 
+translator:
 date:   2013-09-28 23:30:00 UTC
 lang:   en
 ---

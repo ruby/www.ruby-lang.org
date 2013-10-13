@@ -2,7 +2,7 @@
 layout: news_post
 title:  "Concours pour un nouveau design de www.ruby-lang.org"
 author: "hsbt"
-translator: Bruno Michel
+translator: "Bruno Michel"
 date:   2013-09-28 23:30:00 UTC
 lang:   fr
 ---

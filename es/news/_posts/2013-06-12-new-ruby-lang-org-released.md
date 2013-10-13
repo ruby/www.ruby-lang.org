@@ -2,7 +2,7 @@
 layout: news_post
 title: "Se ha lanzado el nuevo sitio ruby-lang.org"
 author: "Jean-Denis Vauguet"
-translator: hagarelvikingo
+translator: "hagarelvikingo"
 date: 2013-06-12 12:00:00 UTC
 lang: es
 ---

@@ -2,7 +2,7 @@
 layout: news_post
 title: "ruby-lang.org Baru Telah Dirilis"
 author: "Jean-Denis Vauguet"
-translator: catcyborg
+translator: "catcyborg"
 date: 2013-06-12 12:00:00 UTC
 lang: id
 ---
