@@ -11,7 +11,7 @@ layout: default
 <div id="page-header">
   <div class="holder">
     {% include title.html %}
-    <p>{{ page.date | posted_by:page.author }}{% if page.translator %}</p>
+    <p>{{ page.date | posted_by:page.author }}</p>
   </div>
 </div>
 
@@ -56,7 +56,7 @@ layout: default
     {{ content }}
 
     <p class="translated-by">
-      {{ translated_by }} {{ page.translator }}{% endif %}
+      {% if page.translator %}{{ translated_by }} {{ page.translator }}{% endif %}
     </p>
 
   </div> <!-- /content -->

@@ -264,13 +264,13 @@ li { list-style-type: circle; }
 }
 
 #page-header p {
-  font-size: 13px;
-  margin-bottom: 0;
+  font-size: 14px;
+  margin: 10px 0 0 0;
   color: #e0efff;
 }
 
 .page-title {
-  width: 50%;
+  width: 65%;
   font-weight: normal;
   font-family: Georgia, serif;
   font-size: 38px;
@@ -286,7 +286,7 @@ li { list-style-type: circle; }
 /* Sidebar */
 
 #sidebar {
-  border-bottom: 5px solid #347bc6;
+  border-top: 5px solid #347bc6;
   width: 230px;
   background: #fafafa;
   font-size: 13px;
