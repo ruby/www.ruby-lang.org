@@ -39,7 +39,7 @@ Fastly による
 注目すべき変更点は以下の通りです。
 
 * VM (メソッドキャッシュ)
-* RGenGC (ささださんの [RubyKaigi での発表](http://rubykaigi.org/2013/talk/S73) や [Euruko での発表](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf) を参照してください)
+* RGenGC (ささださんの [RubyKaigi での発表](http://rubykaigi.org/2013/talk/S73) や [EuRuKo での発表](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf) を参照してください)
 * refinements
 * syntax
 * 小数リテラル
@@ -52,11 +52,11 @@ Fastly による
 * Socket.getifaddrs
 * 新しい RubyGems
 
-詳細な変更点は [ruby レポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/trunk/NEWS) を参照してください。
+詳細な変更点は [Ruby レポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/trunk/NEWS) を参照してください。
 
 ささださんが toruby で発表しました: [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase(@konstantinhaase) さんがブログに良いまとめを書いています: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1) (英語)
+Konstantin Haase (@konstantinhaase) さんがブログに良いまとめを書いています: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1) (英語)
 
 ## リリースコメント
 

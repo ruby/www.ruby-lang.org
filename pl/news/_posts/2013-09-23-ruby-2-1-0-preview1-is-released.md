@@ -39,7 +39,7 @@ poprzez Fastly.
 Znaczące zmiany to:
 
 * VM (cache metod)
-* RGenGC (Zobacz prezentację ko1 z [RubyKaigi](http://rubykaigi.org/2013/talk/S73) i [Euruko](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
+* RGenGC (Zobacz prezentację ko1 z [RubyKaigi](http://rubykaigi.org/2013/talk/S73) i [EuRuKo](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
 * refinements
 * składnia
 * Decimal Literal
@@ -53,12 +53,12 @@ Znaczące zmiany to:
 * nowe RubyGems
 
 Zobacz więcej szczegółów zmian:
-[NEWS w repozytorium Rubiego(WIP)](https://github.com/ruby/ruby/blob/trunk/NEWS).
+[NEWS w repozytorium Rubiego (WIP)](https://github.com/ruby/ruby/blob/trunk/NEWS).
 
 Prezentacja toruby wygłoszona przez ko1:
 [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase(@konstantinhaase) napisał dobre podsumowanie na swoim blogu:
+Konstantin Haase (@konstantinhaase) napisał dobre podsumowanie na swoim blogu:
 [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## Komentarz do wydania

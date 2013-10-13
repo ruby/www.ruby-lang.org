@@ -12,7 +12,9 @@ lang: zh_tw
 
 ## 下載
 
-推薦透過 Fastly [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/) 下載。
+推薦透過 Fastly
+[http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/)
+下載。
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
@@ -37,7 +39,7 @@ lang: zh_tw
 值得一提的變化有：
 
 * VM (method cache)
-* RGenGC (參見 ko1's [RubyKaigi 簡報](http://rubykaigi.org/2013/talk/S73) 及 [Euruko 簡報](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
+* RGenGC (參見 ko1's [RubyKaigi 簡報](http://rubykaigi.org/2013/talk/S73) 及 [EuRuKo 簡報](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
 * refinements
 * syntax
 * Decimal Literal
@@ -50,11 +52,11 @@ lang: zh_tw
 * Socket.getifaddrs
 * new RubyGems
 
-關於 Ruby 2.1 更多的細節：[NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/trunk/NEWS)
+關於 Ruby 2.1 更多的細節：[NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/trunk/NEWS)
 
 ko1 的 toruby 簡報：[Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase(@konstantinhaase) 寫了篇文章總結了 2.1 的變化：[What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
+Konstantin Haase (@konstantinhaase) 寫了篇文章總結了 2.1 的變化：[What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## 發佈記
 
