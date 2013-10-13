@@ -176,7 +176,7 @@ li { list-style-type: circle; }
 #intro p a {
   text-shadow: none;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   margin-left: 10px;
   color: #a6d1ff;
@@ -217,7 +217,44 @@ li { list-style-type: circle; }
 }
 
 
+/* Sidebar */
+
+#sidebar {
+  border-top: 5px solid #347bc6;
+  width: 280px;
+  font-size: 14px;
+  margin-top: -120px;
+  float: right;
+}
+
+#side-entry {
+  width: 230px;
+  background: #fafafa;
+  padding: 25px;
+}
+
+#side-entry:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+
 /* Homepage */
+
+#home-page-layout #code {
+  display: block;
+}
+
+#home-page-layout #sidebar {
+  margin-top: -290px;
+}
+
+/*-*/
 
 .post {
   margin-bottom: 45px;
@@ -286,19 +323,6 @@ li { list-style-type: circle; }
 }
 
 
-/* Sidebar */
-
-#sidebar {
-  border-top: 5px solid #347bc6;
-  width: 230px;
-  background: #fafafa;
-  font-size: 13px;
-  margin-top: -120px;
-  padding: 25px;
-  float: right;
-}
-
-
 /* Code */
 
 #code {
@@ -311,10 +335,6 @@ li { list-style-type: circle; }
   background: #22334b;
   display: none;
   z-index: 300;
-}
-
-#home-page-layout #code {
-  display: block;
 }
 
 #code code {
@@ -384,13 +404,6 @@ li { list-style-type: circle; }
 #search-form .button {
   min-width: 74px;
   height: 24px;
-}
-
-
-/* layouts */
-
-#home-page-layout #head-wrapper-1:first-child {
-  margin-bottom: 24px;
 }
 
 

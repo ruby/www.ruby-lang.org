@@ -18,30 +18,34 @@ layout: default
 <div class="holder">
 
   <div id="sidebar">
+    
+    <div id="side-entry">
 
-    <div class="navigation">
+      <div class="navigation">
 
-      {% if site.locales.news[page.lang] %}
-        {% assign news = site.locales.news[page.lang] %}
+        {% if site.locales.news[page.lang] %}
+          {% assign news = site.locales.news[page.lang] %}
+        {% else %}
+          {% assign news = site.locales.news['en'] %}
+        {% endif %}
+
+        <h3>{{ news.recent_news }}</h3>
+
+        <ul class="menu">
+          {% for post in site.categories[page.lang] limit:5 %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+      </div> <!-- /navigation -->
+
+      {% if site.locales.sidebar[page.lang] %}
+        {% assign sidebar = site.locales.sidebar[page.lang] %}
       {% else %}
-        {% assign news = site.locales.news['en'] %}
+        {% assign sidebar = site.locales.sidebar['en'] %}
       {% endif %}
-
-      <h3>{{ news.recent_news }}</h3>
-
-      <ul class="menu">
-        {% for post in site.categories[page.lang] limit:5 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-
-    </div> <!-- /navigation -->
-
-    {% if site.locales.sidebar[page.lang] %}
-      {% assign sidebar = site.locales.sidebar[page.lang] %}
-    {% else %}
-      {% assign sidebar = site.locales.sidebar['en'] %}
-    {% endif %}
+    
+    </div> <!-- /side-entry -->
 
     <h3>{{ sidebar.syndicate.text }}</h3>
 
