@@ -54,7 +54,7 @@ body {
   margin: 0;
 }
 
-p { margin:0 0 20px 0; }
+p { margin:0 0 15px 0; }
 label { cursor:pointer; }
 img { border:none; }
 
@@ -71,8 +71,6 @@ a { color: #008aff; }
 a:hover { color: #bc3f33; }
 
 a:hover img { opacity: .7; }
-
-li { list-style-type: circle; }
 
 
 /* General */
@@ -239,23 +237,31 @@ li { list-style-type: circle; }
 #sidebar {
   border-top: 5px solid #347bc6;
   width: 280px;
-  font-size: 14px;
   margin-top: -120px;
   color: #666;
   float: right;
 }
 
 #sidebar h3 {
-  font-size: 17px;
-  padding-bottom: 5px;
   border-bottom: 1px solid #ececec;
-  margin: 20px 0 10px 0;
+  margin: 35px 0 10px 0;
+  padding-bottom: 7px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #999;
+}
+
+#sidebar h3 strong {
+  font-weight: normal;
+  font-size: 17px;
+  color: #bc3f33 !important;
 }
 
 #side-entry {
-  width: 230px;
+  width: 250px;
   background: #f9f9f9;
-  padding: 25px;
+  font-size: 14px;
+  padding: 15px;
 }
 
 #side-entry:after {
@@ -268,10 +274,47 @@ li { list-style-type: circle; }
   min-height: 0;
 }
 
+#side-entry ul {
+  padding: 0;
+  margin: 0;
+}
+
+#side-entry li {
+  list-style-type: none;
+  margin: 5px 0 0 0;
+}
+
+#side-entry li:first-child { margin-top: 0; }
+
+#side-entry a { text-decoration: none; }
+
+/*-*/
+
+.community-sec ul {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.community-sec li {
+  border-top: 1px solid #ececec;
+  list-style-type: none;
+  padding: 8px 0 5px 0;
+  margin: 0;
+  display: block;
+}
+
+.community-sec li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/*-*/
+
 .syndicate {
-  width: 230px;
+  width: 250px;
   background: #f6f6f6;
-  padding: 20px 25px 20px 25px;
+  padding: 15px;
   margin: 1px 0 0 0;
 }
 
@@ -285,13 +328,8 @@ li { list-style-type: circle; }
 
 /* Homepage */
 
-#home-page-layout #code {
-  display: block;
-}
-
-#home-page-layout #sidebar {
-  margin-top: -290px;
-}
+#home-page-layout #code { display: block; }
+#home-page-layout #sidebar { margin-top: -290px; }
 
 /*-*/
 
@@ -367,11 +405,10 @@ li { list-style-type: circle; }
 #code {
   width: 280px;
   background: #222;
-  border-bottom: 5px solid #eee;
   font-size: 95%;
   line-height: 110%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: none;
   color: #fff;
   z-index: 300;
