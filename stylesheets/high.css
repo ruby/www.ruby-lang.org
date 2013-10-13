@@ -118,7 +118,6 @@ li { list-style-type: circle; }
 /* Site Links (Nav) */
 
 .site-links {
-  box-shadow: 0 5px 5px #2c66a4;
   height: 46px;
   background: #bc3f33;
   border-bottom: 1px solid #e94f40;
