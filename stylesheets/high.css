@@ -217,6 +217,19 @@ li { list-style-type: circle; }
 }
 
 
+#content .highlight {
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: #222;
+  line-height: 20px !important;
+  font-size: 17px;
+  padding: 15px;
+  margin-bottom: 25px;
+  display: block;
+  overflow: auto;
+}
+
+
 /* Sidebar */
 
 #sidebar {
@@ -342,7 +355,7 @@ li { list-style-type: circle; }
 
 #code {
   width: 280px;
-  background: #444;
+  background: #222;
   font-size: 95%;
   line-height: 110%;
   padding-top: 20px;
