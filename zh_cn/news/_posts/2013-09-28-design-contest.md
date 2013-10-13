@@ -7,7 +7,6 @@ date:   2013-09-28 23:30:00 UTC
 lang:   zh_cn
 ---
 
-
 Ruby Association 将举办一次设计比赛，为 ruby-lang.org 做一个新网站。
 
 ruby-lang.org 于 2013 年春天从 Radiant CMS 切换到了 Jekyll，任何人都可以通过
