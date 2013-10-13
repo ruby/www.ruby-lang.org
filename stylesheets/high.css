@@ -398,6 +398,8 @@ Media Queries for Smartphones.
     padding: 0 5% 0 5%;
   }
   
+  #intro p { width: 100%; }
+  
   #sidebar {
     width: 100%;
     padding: 0%;
