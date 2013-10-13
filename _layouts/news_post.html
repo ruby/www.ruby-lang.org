@@ -55,9 +55,11 @@ layout: default
 
     {{ content }}
 
-    <p class="translated-by">
-      {% if page.translator %}{{ translated_by }} {{ page.translator }}{% endif %}
-    </p>
+    {% if page.translator %}
+      <p class="translated-by">
+        {{ translated_by }} {{ page.translator }}
+      </p>
+    {% endif %}
 
   </div> <!-- /content -->
 
