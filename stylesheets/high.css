@@ -124,6 +124,7 @@ li { list-style-type: circle; }
   border-bottom: 1px solid #e94f40;
   line-height: 46px;
   position: relative;
+  font-size: 14px;
   z-index: 400;
 }
 
@@ -165,7 +166,7 @@ li { list-style-type: circle; }
 
 #intro p {
   width: 50%;
-  line-height: 25px;
+  line-height: 26px;
   color: #e0efff;
   margin: 0;
 }
@@ -173,9 +174,9 @@ li { list-style-type: circle; }
 #intro p a {
   text-shadow: none;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
-  margin-left: 7px;
+  margin-left: 10px;
   color: #a6d1ff;
 }
 
@@ -242,7 +243,7 @@ li { list-style-type: circle; }
 }
 
 .post p {
-  margin: 12px 0 20px 0;
+  margin: 10px 0 20px 0;
   line-height: 25px;
 }
 
