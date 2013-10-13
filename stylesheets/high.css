@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a { color: #008aff; }
+a:hover { color: #bc3f33; }
 
-a:hover,
 a:hover img { opacity: .7; }
 
 li { list-style-type: circle; }
@@ -98,6 +98,11 @@ li { list-style-type: circle; }
   color: #444;
   height: 30px;
   line-height: 30px;
+}
+
+.view-more:hover {
+  color: #444;
+  opacity: .8;
 }
 
 
@@ -135,7 +140,6 @@ li { list-style-type: circle; }
 
 .site-links a:hover {
   color: #fff;
-  opacity: 1;
 }
 
 
@@ -180,7 +184,6 @@ li { list-style-type: circle; }
 
 #intro p a:hover {
   color: #fff;
-  opacity: 1;
 }
 
 /*-*/
@@ -202,7 +205,6 @@ li { list-style-type: circle; }
 .download-but:hover {
   color: #fff;
   border-color: #fff;
-  opacity: 1;
 }
 
 
@@ -397,27 +399,40 @@ li { list-style-type: circle; }
 footer {
   width: 100%;
   font-size: 14px;
-  margin-top: 30px;
+  margin-top: 50px;
   line-height: 24px;
   color: #666;
   clear: both;
 }
 
-footer a {
-  text-decoration: none;
-  color: #b7b7b7 !important;
-}
-
 #content-available {
-  background: #fcfcfc;
+  background: #f6f6f6;
   border-top: 1px solid #ececec;
   padding: 30px 0 30px 0;
 }
 
+#content-available a {
+  text-decoration: none;
+  color: #b7b7b7;
+}
+
+#content-available a:hover {
+  color: #888;
+}
+
 #credits {
-  background: #f6f6f6;
-  border-top: 1px solid #ececec;
+  background: #bc3f33;
+  border-top: 5px solid #e94f40;
   padding: 30px 0 20px 0;
+  color: #fff;
+}
+
+#credits a {
+  color: #ffd5d1;
+}
+
+#credits a:hover {
+  color: #fff;
 }
 
 #credits p {
