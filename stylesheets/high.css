@@ -76,7 +76,7 @@ a:hover img { opacity: .7; }
 /* General */
 
 .holder {
-  padding: 0 100px 0 100px;
+  padding: 0 150px 0 150px;
   margin: auto;
 }
 
@@ -275,7 +275,7 @@ a:hover img { opacity: .7; }
   width: 280px;
   position: absolute;
   top: 171px;
-  right: 100px;
+  right: 150px;
   color: #666;
   float: right;
 }
@@ -568,10 +568,19 @@ footer {
 .webdesigner { font-size: 12px; }
 
 
-/*
-Max Width, 960px
-Media Queries for Tablets
-*/
+/* Media Queries for Tablets */
+
+@media (max-width:1085px) {
+
+  .holder {
+    padding: 0 7% 0 7%;
+  }
+  
+  #sidebar {
+    right: 7%;
+  }
+
+}
 
 @media (max-width:960px) {
 
@@ -581,15 +590,11 @@ Media Queries for Tablets
 }
 
 
-/*
-Max Width, 686px
-Media Queries for Smartphones.
-*/
+/* Media Queries for Smartphones */
 
 @media only screen and (max-width: 686px) {
 
   .holder {
-    width: 90%;
     padding: 0 5% 0 5%;
   }
   

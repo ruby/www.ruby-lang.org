@@ -24,6 +24,14 @@
     <!-- Media -->
     <meta name="viewport" content="initial-scale=1">
 
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/page.js"></script>
+    {% if page.javascript != null %}
+      {% for javascript in page.javascript %}
+        <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
+      {% endfor %}
+    {% endif %}
+
   </head>
 
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
@@ -63,13 +71,5 @@
     {% include analytics.html %}
 
   </body>
-
-  <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
-  <script type="text/javascript" src="/javascripts/page.js"></script>
-  {% if page.javascript != null %}
-    {% for javascript in page.javascript %}
-      <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
-    {% endfor %}
-  {% endif %}
 
 </html>
