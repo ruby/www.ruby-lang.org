@@ -223,9 +223,9 @@ a:hover img { opacity: .7; }
   border-top: 5px solid #eee;
   border-bottom: 5px solid #eee;
   background: #222;
-  line-height: 20px !important;
+  line-height: 22px !important;
   font-size: 19px;
-  padding: 15px 25px 15px 25px;
+  padding: 10px 20px 10px 20px;
   margin: 5px 0 25px 0;
   display: block;
   overflow: auto;
@@ -260,7 +260,6 @@ a:hover img { opacity: .7; }
 #side-entry {
   width: 250px;
   background: #f9f9f9;
-  font-size: 14px;
   padding: 15px;
 }
 
@@ -275,6 +274,7 @@ a:hover img { opacity: .7; }
 }
 
 #side-entry ul {
+  font-size: 12px;
   padding: 0;
   margin: 0;
 }
@@ -291,7 +291,6 @@ a:hover img { opacity: .7; }
 /*-*/
 
 .community-sec ul {
-  font-size: 12px;
   padding: 0;
   margin: 0;
 }
@@ -400,12 +399,13 @@ a:hover img { opacity: .7; }
 }
 
 
-/* Code */
+/* 
+ */
 
 #code {
   width: 280px;
   background: #222;
-  font-size: 95%;
+  font-size: 17px;
   line-height: 110%;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -554,16 +554,18 @@ Media Queries for Smartphones.
   }
 
   #logo a img { width: 30px; }
-  
   #intro p,
-  #sidebar { width: 100% !important; }
+  #sidebar, #content { width: 100% !important; }
+  
+  #sidebar {
+    margin-top: 0 !important;
+    border-top: none;
+  }
   
   #side-entry {
     width: 94%;
     padding: 3%;
   }
-  
-  #content { width: 100%; }
   
   #code,
   #search-box,
