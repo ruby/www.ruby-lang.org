@@ -118,8 +118,38 @@ a:hover img { opacity: .7; }
   background: #fff;
 }
 
-#logo a img {
-  width: 56px;
+#logo { float: left; }
+#logo a img { width: 56px; }
+
+
+/* Search Box */
+
+#search-box {
+  width: 280px;
+  float: right; 
+}
+
+#search-form {
+  width: 280px;
+  position: relative;
+  float: right; 
+}
+
+#search-form .field {
+  border-radius: 4px;
+  width: 278px;
+  height: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+#search-form .button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  right: 0;
 }
 
 
@@ -225,6 +255,7 @@ a:hover img { opacity: .7; }
   background: #222;
   line-height: 22px !important;
   font-size: 19px;
+  font-family: "Lucida Console", Monaco, monospace;
   padding: 10px 20px 10px 20px;
   margin: 5px 0 25px 0;
   display: block;
@@ -286,7 +317,10 @@ a:hover img { opacity: .7; }
 
 #side-entry li:first-child { margin-top: 0; }
 
-#side-entry a { text-decoration: none; }
+#side-entry a {
+  font-size: 14px;
+  text-decoration: none;
+}
 
 /*-*/
 
@@ -306,6 +340,10 @@ a:hover img { opacity: .7; }
 .community-sec li:first-child {
   padding-top: 0;
   border-top: 0;
+}
+
+.community-sec a {
+  display: block;
 }
 
 /*-*/
@@ -399,14 +437,11 @@ a:hover img { opacity: .7; }
 }
 
 
-/* 
- */
+/* Code */
 
 #code {
   width: 280px;
   background: #222;
-  font-size: 17px;
-  line-height: 110%;
   padding-top: 15px;
   padding-bottom: 15px;
   display: none;
@@ -417,71 +452,15 @@ a:hover img { opacity: .7; }
 #code code {
   display: block;
   font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px !important;
   padding-left: 25px;
   padding-right: 25px;
 }
-#code .keyword {
-  color: #f9bb00;
-}
-#code .comment {
-  color: #428bdd;
-}
-#code .string {
-  color: #00cc00;
-}
-#code .blank-line {
-  line-height: 70%;
-}
-#head .multi-page {
-  float: right;
-  font-weight: normal;
-  margin-top: 18px;
-  margin-right: 269px;
-  padding-top: 1em;
-}
-#head .multi-page .separator {
-  display: none;
-}
-#head .multi-page a,
-#head .multi-page strong {
-  padding: 3px;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-#head .multi-page strong {
-  border: 2px solid #b0c5dd;
-}
 
-
-/* Search Box */
-
-#search-box {
-  clear: both;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 300px;
-}
-
-#search-form {
-  position: absolute;
-  top: 40px;
-  width: 300px;
-}
-
-#search-box .fieldset {
-  float: right;
-}
-
-#search-form .field {
-  width: 214px;
-  height: 20px;
-}
-
-#search-form .button {
-  min-width: 74px;
-  height: 24px;
-}
+#code .keyword { color: #f9bb00; }
+#code .comment { color: #428bdd; }
+#code .string {color: #00cc00; }
+#code .blank-line { line-height: 70%; }
 
 
 /* Footer */
@@ -489,7 +468,7 @@ a:hover img { opacity: .7; }
 footer {
   width: 100%;
   font-size: 14px;
-  margin-top: 50px;
+  margin-top: 40px;
   line-height: 24px;
   color: #666;
   clear: both;

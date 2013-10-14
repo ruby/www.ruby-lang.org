@@ -75,19 +75,19 @@
       <h3>{{ sidebar.participate.text }}</h3>
       <ul>
         {% if sidebar.participate.mailing_lists != null %}
-          <li><a href="{{ sidebar.participate.mailing_lists.url }}">{{ sidebar.participate.mailing_lists.text }}</a>: {{ sidebar.participate.mailing_lists.description }}</li>
+          <li><a href="{{ sidebar.participate.mailing_lists.url }}">{{ sidebar.participate.mailing_lists.text }}</a> {{ sidebar.participate.mailing_lists.description }}</li>
         {% endif %}
         {% if sidebar.participate.user_groups != null %}
-          <li><a href="{{ sidebar.participate.user_groups.url }}">{{ sidebar.participate.user_groups.text }}</a>: {{ sidebar.participate.user_groups.description }}</li>
+          <li><a href="{{ sidebar.participate.user_groups.url }}">{{ sidebar.participate.user_groups.text }}</a> {{ sidebar.participate.user_groups.description }}</li>
         {% endif %}
         {% if sidebar.participate.weblogs != null %}
-          <li><a href="{{ sidebar.participate.weblogs.url }}">{{ sidebar.participate.weblogs.text }}</a>: {{ sidebar.participate.weblogs.description }}</li>
+          <li><a href="{{ sidebar.participate.weblogs.url }}">{{ sidebar.participate.weblogs.text }}</a> {{ sidebar.participate.weblogs.description }}</li>
         {% endif %}
         {% if sidebar.participate.ruby_core != null %}
-          <li><a href="{{ sidebar.participate.ruby_core.url }}">{{ sidebar.participate.ruby_core.text }}</a>: {{ sidebar.participate.ruby_core.description }}</li>
+          <li><a href="{{ sidebar.participate.ruby_core.url }}">{{ sidebar.participate.ruby_core.text }}</a> {{ sidebar.participate.ruby_core.description }}</li>
         {% endif %}
         {% if sidebar.participate.issue_tracking != null %}
-          <li><a href="{{ sidebar.participate.issue_tracking.url }}">{{ sidebar.participate.issue_tracking.text }}</a>: {{ sidebar.participate.issue_tracking.description }}</li>
+          <li><a href="{{ sidebar.participate.issue_tracking.url }}">{{ sidebar.participate.issue_tracking.text }}</a> {{ sidebar.participate.issue_tracking.description }}</li>
         {% endif %}
       </ul>
     </div>
