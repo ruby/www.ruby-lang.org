@@ -126,7 +126,7 @@ a:hover img { opacity: .7; }
 
 #search-box {
   width: 280px;
-  margin-top: 7px;
+  margin-top: 10px;
   float: right; 
 }
 
@@ -136,8 +136,17 @@ a:hover img { opacity: .7; }
   float: right; 
 }
 
+#search-form .fieldset,
+#search-form table,
+#search-form tr,
+#search-form td {
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
 #search-form .field {
-  border-radius: 3px;
+  border-radius: 2px;
   width: 260px;
   height: 36px;
   line-height: 36px;
@@ -150,12 +159,14 @@ a:hover img { opacity: .7; }
 }
 
 #search-form .button {
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
+  background: none;
   position: absolute;
   text-indent: -9999px;
-  top: 4px;
-  right: 0;
+  outline: none;
+  top: 7px;
+  right: 1px;
 }
 
 
