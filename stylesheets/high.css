@@ -112,7 +112,9 @@ a:hover img { opacity: .7; }
 /* Classes */
 
 .translated-by,
-.syndicate a {
+.syndicate a,
+.more {
+  height: 30px;
   font-size: 14px;
   color: #9caebd;
 }
@@ -127,10 +129,6 @@ a:hover img { opacity: .7; }
   padding: 15px 20px 15px 20px;
   margin: 1px 0 0 0;
   float: right;
-}
-
-.syndicate a {
-  height: 30px;
 }
 
 
@@ -378,7 +376,6 @@ a:hover img { opacity: .7; }
 .community-sec a { display: block; }
 
 
-
 /* Homepage */
 
 #home-page-layout #code { display: block; }
@@ -391,11 +388,15 @@ a:hover img { opacity: .7; }
 }
 
 .post h3 {
-  font-size: 27px;
   line-height: 32px;
   font-family: Georgia, serif;
   font-weight: normal;
   color: #000;
+  
+  font-size: 27px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
 }
 
 .post h3 a {
