@@ -67,7 +67,7 @@ h3, h4 {
   color: #bc3f33;
 }
 
-a { color: #008aff; }
+a { color: #2c77dc; }
 a:hover { color: #bc3f33; }
 
 a:hover img { opacity: .7; }
@@ -275,7 +275,7 @@ a:hover img { opacity: .7; }
   border-top: 5px solid #347bc6;
   width: 280px;
   background: #fff;
-  margin-top: -120px;
+  margin-top: -190px;
   margin-bottom: 40px;
   color: #666;
   float: right;
