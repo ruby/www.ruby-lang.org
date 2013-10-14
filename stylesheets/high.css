@@ -108,6 +108,26 @@ a:hover img { opacity: .7; }
   opacity: .8;
 }
 
+.translated-by {
+  font-size: 14px;
+  margin: 15px 0 0 0;
+  color: #9caebd;
+}
+
+.syndicate {
+  width: 250px;
+  background: #f6f6f6;
+  padding: 15px;
+  margin: 1px 0 0 0;
+}
+
+.syndicate a {
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  color: #9caebd;
+}
+
 
 /* Header */
 
@@ -126,7 +146,7 @@ a:hover img { opacity: .7; }
 
 #search-box {
   width: 280px;
-  margin-top: 10px;
+  margin-top: 11px;
   float: right; 
 }
 
@@ -146,7 +166,7 @@ a:hover img { opacity: .7; }
 }
 
 #search-form .field {
-  border-radius: 2px;
+  border-radius: 4px;
   width: 260px;
   height: 36px;
   line-height: 36px;
@@ -185,11 +205,11 @@ a:hover img { opacity: .7; }
 .site-links a {
   text-decoration: none;
   margin-right: 20px;
-  color: #ffe5e3;
+  color: #fff;
 }
 
 .site-links a:hover {
-  color: #fff;
+  color: #ffe5e3;
 }
 
 
@@ -286,7 +306,7 @@ a:hover img { opacity: .7; }
   border-top: 5px solid #347bc6;
   width: 280px;
   background: #fff;
-  margin-top: -190px;
+  margin-top: -140px;
   margin-bottom: 40px;
   color: #666;
   float: right;
@@ -393,22 +413,6 @@ a:hover img { opacity: .7; }
 .community-sec a { display: block; }
 
 
-/* Syndicate */
-
-.syndicate {
-  width: 250px;
-  background: #f6f6f6;
-  padding: 15px;
-  margin: 1px 0 0 0;
-}
-
-.syndicate a {
-  width: 20px;
-  height: 20px;
-  font-size: 14px;
-  color: #888;
-}
-
 
 /* Homepage */
 
@@ -433,6 +437,8 @@ a:hover img { opacity: .7; }
   text-decoration: none;
   color: #000;
 }
+
+.post h3 a:hover { color: #bc3f33; }
 
 .post-infos {
   margin: 5px 0 0 0;
@@ -471,16 +477,10 @@ a:hover img { opacity: .7; }
 }
 
 #page-header h2 {
-  width: 65%;
+  margin-right: 320px;
   font-weight: normal;
   font-family: Georgia, serif;
   font-size: 38px;
-}
-
-.translated-by {
-  background: #eee;
-  padding: 10px;
-  margin: 0;
 }
 
 
@@ -557,6 +557,14 @@ Media Queries for Tablets
 
   .holder { width: 700px; }
   #intro p { width: 70%; }
+  
+  #page-header h2 {
+    font-size: 32px;
+  }
+  
+  #sidebar {
+    margin-top: -170px;
+  }
 
 }
 
@@ -578,15 +586,24 @@ Media Queries for Smartphones.
     height: auto;
     padding: 0;
   }
-
-  #logo a img { width: 30px; }
-  #intro p,
-  #sidebar, #content { width: 100% !important; }
+  
+  #page-header h2 {
+    margin-right: 0;
+  }
+  
+  #content {
+    margin-right: 0;
+  }
   
   #sidebar {
     margin-top: 0 !important;
     border-top: none;
   }
+  
+
+  #logo a img { width: 30px; }
+  #intro p,
+  #sidebar, #content { width: 100% !important; }
   
   #side-entry {
     width: 94%;
