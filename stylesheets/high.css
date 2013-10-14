@@ -405,17 +405,30 @@ a:hover img { opacity: .7; }
   margin: 0 0 30px 0;
 }
 
+#page-header h2 {
+  margin-right: 320px;
+  font-weight: normal;
+  font-family: Georgia, serif;
+  font-size: 38px;
+}
+
 #page-header p {
   font-size: 14px;
   margin: 15px 0 0 0;
   color: #e0efff;
 }
 
-#page-header h2 {
-  margin-right: 320px;
-  font-weight: normal;
-  font-family: Georgia, serif;
-  font-size: 38px;
+#page-header p a {
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 10px;
+  color: #a6d1ff;
+}
+
+#page-header p a:hover {
+  color: #fff;
 }
 
 /*-*/
@@ -433,23 +446,11 @@ a:hover img { opacity: .7; }
   margin: 0;
 }
 
-#home-page-layout #page-header p a {
-  text-shadow: none;
-  font-weight: 300;
-  font-size: 12px;
-  text-decoration: none;
-  margin-left: 10px;
-  color: #a6d1ff;
-}
-
-#home-page-layout #page-header p a:hover {
-  color: #fff;
-}
-
 
 /* Download But */
 
-.download-but, .download-but:visited {
+.download-but,
+.download-but:visited {
   border-radius: 4px;
   height: 44px;
   background: #2c66a4;
@@ -459,8 +460,8 @@ a:hover img { opacity: .7; }
   margin: 20px 0 0 0;
   font-size: 16px;
   text-decoration: none;
-  color: #fff;
   display: inline-block;
+  color: #fff;
 }
 
 .download-but:hover {
