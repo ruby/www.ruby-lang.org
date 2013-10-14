@@ -76,7 +76,7 @@ a:hover img { opacity: .7; }
 /* General */
 
 .holder {
-  width: 960px;
+  padding: 0 100px 0 100px;
   margin: auto;
 }
 
@@ -221,6 +221,7 @@ a:hover img { opacity: .7; }
 
 #content {
   margin: 40px 320px 0 0;
+  min-height: 390px;
   position: relative;
   line-height: 26px;
 }
@@ -272,8 +273,9 @@ a:hover img { opacity: .7; }
 #sidebar {
   border-top: 5px solid #347bc6;
   width: 280px;
-  margin-top: -110px;
-  margin-bottom: 40px;
+  position: absolute;
+  top: 171px;
+  right: 100px;
   color: #666;
   float: right;
 }
@@ -380,7 +382,6 @@ a:hover img { opacity: .7; }
 /* Homepage */
 
 #home-page-layout #code { display: block; }
-#home-page-layout #sidebar { margin-top: -260px; }
 
 /*-*/
 
@@ -574,8 +575,6 @@ Media Queries for Tablets
 
 @media (max-width:960px) {
 
-  .holder { width: 700px; }
-
   #page-header h2 { font-size: 32px; }
   #home-page-layout #page-header p { width: auto; }
 
@@ -607,7 +606,6 @@ Media Queries for Smartphones.
   }
 
   #sidebar {
-    margin-top: 0 !important;
     border-top: none;
   }
 
