@@ -399,10 +399,9 @@ a:hover img { opacity: .7; }
   background: -o-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, #2c66a4 0%, #204c7b 100%); /* IE10+ */
   background: linear-gradient(top bottom, #2c66a4 0%, #204c7b 100%); /* W3C */
-  color: #fff;
-  
   padding: 25px 0 30px 0;
   margin: 0 0 30px 0;
+  color: #fff;
 }
 
 #page-header h2 {
@@ -414,7 +413,7 @@ a:hover img { opacity: .7; }
 
 #page-header p {
   font-size: 14px;
-  margin: 15px 0 0 0;
+  margin: 15px 320px 0 0;
   color: #e0efff;
 }
 
@@ -438,12 +437,12 @@ a:hover img { opacity: .7; }
 }
 
 #home-page-layout #page-header h2 {
-  margin: 0 0 10px 0;
+  margin-bottom: 10px;
 }
 
 #home-page-layout #page-header p {
   line-height: 24px;
-  margin: 0;
+  margin-top: 0;
 }
 
 
@@ -542,15 +541,8 @@ Media Queries for Tablets
 @media (max-width:960px) {
 
   .holder { width: 700px; }
-  #intro p { width: 70%; }
-  
-  #page-header h2 {
-    font-size: 32px;
-  }
-  
-  #sidebar {
-    margin-top: -170px;
-  }
+  #page-header h2 { font-size: 32px; }
+  #sidebar { margin-top: -170px; }
 
 }
 
@@ -572,31 +564,28 @@ Media Queries for Smartphones.
     height: auto;
     padding: 0;
   }
-  
-  #page-header h2 {
+
+  #content,
+  #page-header h2,
+  #page-header p {
     margin-right: 0;
   }
-  
-  #content {
-    margin-right: 0;
-  }
-  
+
   #sidebar {
     margin-top: 0 !important;
     border-top: none;
   }
-  
 
   #logo a img { width: 30px; }
 
   #sidebar,
   #content { width: 100% !important; }
-  
+
   #side-entry {
     width: 94%;
     padding: 3%;
   }
-  
+
   #code,
   #search-box,
   .site-links { display: none !important; }
