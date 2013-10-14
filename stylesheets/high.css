@@ -270,8 +270,8 @@ a:hover img { opacity: .7; }
   border-top: 5px solid #eee;
   border-bottom: 5px solid #eee;
   background: #222;
-  line-height: 22px !important;
-  font-size: 19px;
+  line-height: 19px !important;
+  font-size: 18px;
   font-family: "Lucida Console", Monaco, monospace;
   padding: 10px 20px 10px 20px;
   margin: 5px 0 25px 0;
@@ -499,7 +499,7 @@ a:hover img { opacity: .7; }
 #code code {
   display: block;
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 15px !important;
+  font-size: 14px !important;
   padding-left: 25px;
   padding-right: 25px;
 }
