@@ -213,28 +213,6 @@ a:hover img { opacity: .7; }
 }
 
 
-/*-*/
-
-.download-but, .download-but:visited {
-  border-radius: 4px;
-  height: 44px;
-  background: #2c66a4;
-  border: 1px solid #4786c9;
-  line-height: 44px;
-  padding: 0 15px 0 15px;
-  margin: 20px 0 0 0;
-  font-size: 16px;
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-}
-
-.download-but:hover {
-  color: #fff;
-  border-color: #fff;
-}
-
-
 /* Content */
 
 #content {
@@ -409,7 +387,7 @@ a:hover img { opacity: .7; }
 }
 
 
-/* Post Page */
+/* Page Header */
 
 #page-header {
   text-shadow: 0 1px 0 #204c7b;
@@ -466,6 +444,28 @@ a:hover img { opacity: .7; }
 
 #home-page-layout #page-header p a:hover {
   color: #fff;
+}
+
+
+/* Download But */
+
+.download-but, .download-but:visited {
+  border-radius: 4px;
+  height: 44px;
+  background: #2c66a4;
+  border: 1px solid #4786c9;
+  line-height: 44px;
+  padding: 0 15px 0 15px;
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.download-but:hover {
+  color: #fff;
+  border-color: #fff;
 }
 
 
