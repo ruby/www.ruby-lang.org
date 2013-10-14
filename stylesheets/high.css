@@ -113,13 +113,14 @@ a:hover img { opacity: .7; }
 
 .translated-by,
 .syndicate a,
-.more {
+.more a {
   height: 30px;
   font-size: 14px;
   color: #9caebd;
 }
 
-.translated-by {
+.translated-by,
+.mode {
   margin: 15px 0 0 0;
 }
 
@@ -472,7 +473,9 @@ a:hover img { opacity: .7; }
 }
 
 #home-page-layout #page-header p {
-  line-height: 24px;
+  width: 500px;
+  font-size: 16px;
+  line-height: 25px;
   margin-top: 0;
 }
 
@@ -572,7 +575,9 @@ Media Queries for Tablets
 @media (max-width:960px) {
 
   .holder { width: 700px; }
+
   #page-header h2 { font-size: 32px; }
+  #home-page-layout #page-header p { width: auto; }
 
 }
 
