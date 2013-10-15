@@ -64,12 +64,4 @@
 
   </body>
 
-  <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
-  <script type="text/javascript" src="/javascripts/page.js"></script>
-  {% if page.javascript != null %}
-    {% for javascript in page.javascript %}
-      <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
-    {% endfor %}
-  {% endif %}
-
 </html>
