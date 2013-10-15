@@ -1,16 +1,41 @@
-var Page = {
+// Console
 
-  SiteLinks: {
-    highlight: function() {
-      var current_page = location.pathname;
-      $(".site-links a").each(function(i) {
-        if (current_page.indexOf($(this).attr('href')) == 0) {
-          $(this).css('color:', 'green');
-        }
-      });
-    }
+if(typeof(console) == 'undefined') console = { log : function(){} };
+if(typeof(console.log) != 'function') console.log = function(){};
+
+
+// Functions
+
+var App = {
+
+  StartApp: function() {
+      try {
+        this.InterfaceActions();
+      } catch (e) {
+        alert('errors');
+        console.log('Error: ' + e);
+      }
+  },
+
+  InterfaceActions: function() {
+
+    $("a[rel^='external']").each(function() {
+      $(this).attr("target","_blank");
+    });
+
+
+    var current_page = location.pathname;
+
+    $(".site-links a").each(function(i) {
+      if (current_page.indexOf($(this).attr('href')) == 0) {
+        $(this).css('font-weight:', 'bold');
+      }
+    });
+
   }
 
-};
+} // Var Site
 
-$(Page.SiteLinks.highlight);
+jQuery(function(){
+	App.StartApp();
+});
