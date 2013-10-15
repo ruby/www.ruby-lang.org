@@ -345,7 +345,8 @@ a:hover img { opacity: .7; }
 .recent-news li {
   border-top: 1px solid #ececec;
   list-style-type: none;
-  padding: 15px 0 15px 0;
+  padding: 10px 0 10px 0;
+  line-height: 20px;
   margin: 0;
   display: block;
 }
