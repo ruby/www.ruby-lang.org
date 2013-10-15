@@ -80,10 +80,6 @@ a:hover img { opacity: .7; }
   margin: auto;
 }
 
-.separator, #news {
-  display: none;
-}
-
 .view-more {
   border-radius: 4px;
   box-shadow: 1px 1px 1px #e7e7e7;
