@@ -28,13 +28,10 @@ javascript:
     <span class="post-infos">
       {{ post.date | posted_by:post.author }}
     </span>
-
     {{ post.excerpt | markdownify }}
-
     <a class="view-more" href="{{ post.url }}">
       {{ news.continue }}
     </a>
-
   </div> <!-- /post -->
 {% endfor %}
 

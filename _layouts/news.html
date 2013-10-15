@@ -14,43 +14,46 @@ layout: default
   </div>
 </div>
 
-<div id="content">
-  
-  {% for post in page.posts %}
-    <div class="post">
-      <h3>
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h3>
-      <p>{{ post.excerpt | markdownify }}</p>
-      <p>
-        <a href="{{ post.url }}">
+<div class="holder">
+
+  <div id="content">
+    
+    {% for post in page.posts %}
+      <div class="post">
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+        <span class="post-infos">
+          {{ post.date | posted_by:post.author }}
+        </span>
+        {{ post.excerpt | markdownify }}
+        <a class="view-more" href="{{ post.url }}">
           {{ locales.continue }}
         </a>
-      </p>
-      <p class="post-info">
-        {{ post.date | posted_by:post.author }}
-      </p>
-    </div>
-  {% endfor %}
+      </div> <!-- /post -->
+    {% endfor %}
   
-</div> <!-- /content -->
+  </div> <!-- /content -->
 
-<div id="sidebar">
+  <div id="sidebar">
   
-  <div class="navigation">
+    <div id="side-entry">
     
-    <h3>{{ locales.yearly_archives }}</h3>
+      <h3>{{ locales.yearly_archives }}</h3>
 
-    <ul class="menu">
-      {% for year in page.years %}
-      <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
-      {% endfor %}
-    </ul>
+      <ul>
+        {% for year in page.years %}
+        <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
+        {% endfor %}
+      </ul>
     
-  </div> <!-- /navigation -->
+    </div> <!-- /side-entry -->
 
-  {% include syndicate.html %}
+    {% include syndicate.html %}
 
-</div> <!-- /sidebar -->
+  </div> <!-- /sidebar -->
+
+</div> <!-- /holder -->
+  
