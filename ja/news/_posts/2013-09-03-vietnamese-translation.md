@@ -2,7 +2,7 @@
 layout: news_post
 title: "ruby-lang.orgのベトナム語翻訳"
 author: "Marcus Stollsteimer"
-translator: znz
+translator: "znz"
 date: 2013-09-03 12:00:00 UTC
 lang: ja
 ---
