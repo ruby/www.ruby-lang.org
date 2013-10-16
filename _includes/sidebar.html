@@ -29,49 +29,43 @@
   {% endif %}
 
   {% if page.sidebar != null %}
-  <div class="navigation">
     {{ page.sidebar }}
-  </div>
   {% endif %}
 
   {% if sidebar.get_started != null %}
-    <div class="navigation">
-      <h3>{{ sidebar.get_started.text }}</h3>
-      <ul class="menu">
-        <li><a href="{{ sidebar.get_started.try_ruby.url }}">{{ sidebar.get_started.try_ruby.text }}</a></li>
-        {% if sidebar.get_started.quickstart != null %}
-          <li><a href="{{ sidebar.get_started.quickstart.url }}">{{ sidebar.get_started.quickstart.text }}</a></li>
-        {% endif %}
+    <h3>{{ sidebar.get_started.text }}</h3>
+    <ul>
+      <li><a href="{{ sidebar.get_started.try_ruby.url }}">{{ sidebar.get_started.try_ruby.text }}</a></li>
+      {% if sidebar.get_started.quickstart != null %}
+        <li><a href="{{ sidebar.get_started.quickstart.url }}">{{ sidebar.get_started.quickstart.text }}</a></li>
+      {% endif %}
 
-        {% if sidebar.get_started.ruby_from_other_languages != null %}
-          <li><a href="{{ sidebar.get_started.ruby_from_other_languages.url }}">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
-        {% endif %}
-      </ul>
-    </div>
+      {% if sidebar.get_started.ruby_from_other_languages != null %}
+        <li><a href="{{ sidebar.get_started.ruby_from_other_languages.url }}">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
+      {% endif %}
+    </ul>
   {% endif %}
 
   {% if sidebar.explore != null %}
-    <div class="navigation">
-      <h3>{{ sidebar.explore.text }}</h3>
-      <ul class="menu">
-        {% if sidebar.explore.documentation != null %}
-          <li><a href="{{ sidebar.explore.documentation.url }}">{{ sidebar.explore.documentation.text }}</a></li>
-        {% endif %}
-        {% if sidebar.explore.books != null %}
-          <li><a href="{{ sidebar.explore.books.url }}">{{ sidebar.explore.books.text }}</a></li>
-        {% endif %}
-        {% if sidebar.explore.libraries != null %}
-          <li><a href="{{ sidebar.explore.libraries.url }}">{{ sidebar.explore.libraries.text }}</a></li>
-        {% endif %}
-        {% if sidebar.explore.success_stories != null %}
-          <li><a href="{{ sidebar.explore.success_stories.url }}">{{ sidebar.explore.success_stories.text }}</a></li>
-        {% endif %}
-      </ul>
-    </div>
+    <h3>{{ sidebar.explore.text }}</h3>
+    <ul>
+      {% if sidebar.explore.documentation != null %}
+        <li><a href="{{ sidebar.explore.documentation.url }}">{{ sidebar.explore.documentation.text }}</a></li>
+      {% endif %}
+      {% if sidebar.explore.books != null %}
+        <li><a href="{{ sidebar.explore.books.url }}">{{ sidebar.explore.books.text }}</a></li>
+      {% endif %}
+      {% if sidebar.explore.libraries != null %}
+        <li><a href="{{ sidebar.explore.libraries.url }}">{{ sidebar.explore.libraries.text }}</a></li>
+      {% endif %}
+      {% if sidebar.explore.success_stories != null %}
+        <li><a href="{{ sidebar.explore.success_stories.url }}">{{ sidebar.explore.success_stories.text }}</a></li>
+      {% endif %}
+    </ul>
   {% endif %}
 
   {% if sidebar.participate != null %}
-    <div class="navigation community-sec">
+    <div class="community-sec">
       <h3>{{ sidebar.participate.text }}</h3>
       <ul>
         {% if sidebar.participate.mailing_lists != null %}
