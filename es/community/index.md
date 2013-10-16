@@ -26,7 +26,7 @@ donde empezar:
 
 [Ruby en IRC](irc://irc.freenode.net/ruby-lang)
 : El canal IRC The Ruby Language es un buen lugar para chatear con otros
-  compañeros Rubyistas. ([Logs de chateos previos][1])
+  compañeros Rubyistas.
 
 [El Core de Ruby](/en/community/ruby-core/) (en inglés)
 : Con Ruby 2.0 en camino, ahora es un buen momento para seguir cómo va
@@ -44,13 +44,12 @@ donde empezar:
   dar una bienvenida a los recién llegados a la comunidad Ruby.
 
 Información general sobre Ruby
-: * [Ruby Central][2]
-  * [Ruby en el Open Directory Project][3]
-  * [Rails en el Open Directory Project][4]
+: * [Ruby Central][3]
+  * [Ruby en el Open Directory Project][4]
+  * [Rails en el Open Directory Project][5]
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://www.rubycentral.org/
-[3]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[3]: http://www.rubycentral.org/
+[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

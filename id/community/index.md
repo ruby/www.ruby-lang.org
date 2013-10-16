@@ -30,8 +30,7 @@ untuk memulai petualangan Anda:
   di *channel* IRC untuk Ruby. Ada dua channel yang menarik bagi Rubyist
   Indonesia, yaitu [#ruby-lang](irc://irc.freenode.net/ruby-lang) untuk
   diskusi internasional menggunakan bahasa Inggris dan
-  [#ruby-id](irc://irc.freenode.net/ruby-id) untuk diskusi lokal. (Arsip
-  percakapan ada di http://meme.b9.com/)
+  [#ruby-id](irc://irc.freenode.net/ruby-id) untuk diskusi lokal.
 
 [Ruby Core](ruby-core/)
 : Selagi Ruby 2.0 sedang dikembangkan, sekarang adalah waktu yang tepat
@@ -50,13 +49,6 @@ untuk memulai petualangan Anda:
   Pendatang baru di komunitas Ruby janganlah sungkan, Anda dijamin akan
   disambut dengan ramah.
 
-[The Ruby Mentor Project][1]
-: Sarana baru ini memasangkan pendatang baru dengan orang yang lebih
-  berpengalaman. Tujuannya adalah untuk membantu proses belajar Ruby
-  dengan cara menanyakan hal-hal yang butuh dibantu ke pasangannya yang
-  lebih berpengalaman. Sarana ini adalah alternatif dari milis Ruby Talk
-  untuk pendatang baru yang lebih suka dengan bimbingan one-on-one.
-
 [Komunitas Pengguna Ruby Indonesia][2]
 : Komunitas Pengguna Ruby Indonesia (mayoritas diikuti oleh orang
   Indonesia, baik yang bertempat tinggal di seluruh penjuru Indonesia,
@@ -72,7 +64,6 @@ Informasi Umum Tentang Ruby
 
 
 
-[1]: http://rubymentor.rubyforge.org/
 [2]: http://tech.groups.yahoo.com/group/id-ruby/
 [3]: http://www.rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/

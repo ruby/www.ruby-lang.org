@@ -26,7 +26,7 @@ başlangıç önerisi var:
 
 [IRC’de Ruby](irc://irc.freenode.net/ruby-lang)
 : Ruby IRC Kanalı, diğer Ruby’cilerle sohbet etmek için harika bir
-  yoldur. ([Önceki Sohbet Logları][1])
+  yoldur.
 
 [Ruby Çekirdek](/en/community/ruby-core/) (İngilizce)
 : Ruby 2.0’ın yolda olduğu şu günlerde, Ruby’in gelişimini takip etmek
@@ -41,12 +41,6 @@ başlangıç önerisi var:
   Ruby’nin geleceğini tartışıyor, yenilikleri konuşuyor ve yeni
   gelenlerle kaynaşıyorlar.
 
-[Ruby Rehber Projesi][2]
-: Bu yeni kaynak, Ruby’ye yeni olan insanları, daha tecrübeli rehberler
-  ile buluşturma amacıyla ortaya çıkmıştır. Buradaki amaç, Ruby’yi
-  öğrenirken aklınıza gelen soruları sorabileceğiniz birilerinin
-  olmasıdır.
-
 Genel Ruby Kaynakları
 : * [Ruby Central][3]
   * [Açık Dizin Projesinde Ruby][4]
@@ -54,8 +48,6 @@ Genel Ruby Kaynakları
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://rubymentor.rubyforge.org/
 [3]: http://www.rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

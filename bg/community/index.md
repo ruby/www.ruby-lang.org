@@ -24,7 +24,6 @@ lang: bg
 
 [Ruby в IRC мрежата](irc://irc.freenode.net/ruby-lang)
 : IRC каналът на Ruby е прекрасно място за комуникация с други рубисти.
-  ([Чат логове][1])
 
 [Ruby ядро](ruby-core/)
 : С предстоящото излизане на Ruby 2.0, сега е момента да следите
@@ -40,11 +39,6 @@ lang: bg
   обсъждат бъдещето на езика и да посрещнат „новаците“ в Ruby
   обществото.
 
-[Проектът Ruby Mentor][2]
-: Това е нов източник на информация, който има за цел да предоставя
-  по-обширна документация за Ruby. Целта е да се улесни процеса на
-  изучаване на Ruby.
-
 Обща информация за Ruby
 : * [Ruby Central][3]
   * [Ruby в Open Directory Project][4]
@@ -52,8 +46,6 @@ lang: bg
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://rubymentor.rubyforge.org/
 [3]: http://www.rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

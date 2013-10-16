@@ -27,7 +27,7 @@ poniżej znajdziesz kilka propozycji:
 
 [Ruby na IRC](irc://irc.freenode.net/ruby-lang)
 : Jeśli masz ochotę porozmawiać z innymi użytkownikami (nie tylko z
-  Polski), bez wychodzenia z domu, wypróbuj IRC. ([Archiwum IRC][1])
+  Polski), bez wychodzenia z domu, wypróbuj IRC.
   Istnieje też polski kanał IRC na serwerze irc.freenode.net
   ([#ruby.pl](irc://irc.eu.freenode.net/ruby.pl)).
 
@@ -45,14 +45,6 @@ poniżej znajdziesz kilka propozycji:
   rozwoju języka, nowych ciekawostkach oraz dowiedzieć się o postępach w
   projekcie i przywitać nowe osoby w społeczności.
 
-[Projekt Ruby Mentor][2]
-: To nowe źródło ma za zadanie sparować ludzi nowych w świecie Ruby z
-  bardziej doświadczonymi. Celem jest uproszczenie procesu nauki Rubiego
-  mając kogoś kogo można spytać. W założeniu ma to być mniej krępujące od
-  listy mailingowej, mile widziane pytania od początkujących.
-  W Polsce dobrym miejscem do zadawania pytań dla początkujących odnośnie
-  Rubiego jest [forum][6]
-
 Ogólne informacje o Rubim
 : * [Ruby Central][3]
   * [Ruby w Open Directory Project][4]
@@ -60,8 +52,6 @@ Ogólne informacje o Rubim
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://rubymentor.rubyforge.org/
 [3]: http://www.rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

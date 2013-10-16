@@ -25,7 +25,7 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
 
 [Ruby im IRC](irc://irc.freenode.net/ruby-lang)
 : Der Ruby Language IRC-Channel ist eine hervorragende Möglichkeit mit
-  anderen Rubyisten zu chatten. ([Frühere Chat-Aufzeichnungen][1])
+  anderen Rubyisten zu chatten.
 
 [Ruby Core](ruby-core/)
 : Gerade jetzt, wo Ruby 2.0 in Arbeit ist, ist die beste Gelegenheit,
@@ -43,13 +43,12 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   in die Ruby-Community zu integrieren.
 
 Allgemeine Information zu Ruby
-: * [Ruby Central][2]
-  * [Ruby beim Open Directory Project][3]
-  * [Rails beim Open Directory Project][4]
+: * [Ruby Central][3]
+  * [Ruby beim Open Directory Project][4]
+  * [Rails beim Open Directory Project][5]
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://www.rubycentral.org/
-[3]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[3]: http://www.rubycentral.org/
+[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

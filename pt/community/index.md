@@ -27,7 +27,7 @@ começar:
 
 [Ruby no IRC](irc://irc.freenode.net/ruby-lang "Ruby no IRC")
 : O canal de IRC do Ruby é um óptimo meio de comunicar com outros
-  programadores de Ruby. ([*Logs* de conversação anteriores][1])
+  programadores de Ruby.
 
 [Núcleo de Ruby](ruby-core/ "Núcleo de Ruby")
 : Com a versão 2.0 do Ruby a chegar, agora é a hora ideal para seguir o
@@ -44,13 +44,12 @@ começar:
   dar as boas vindas aos novos membros da comunidade.
 
 Informação sobre o Ruby
-: * [Ruby Central][2]
-  * [Ruby no Open Directory Project][3]
-  * [Rails no Open Directory Project][4]
+: * [Ruby Central][3]
+  * [Ruby no Open Directory Project][4]
+  * [Rails no Open Directory Project][5]
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://www.rubycentral.org/ "Ruby Central"
-[3]: http://dmoz.org/Computers/Programming/Languages/Ruby/ "Ruby no Open Directory Project"
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/ "Rails no Open Directory Project"
+[3]: http://www.rubycentral.org/
+[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

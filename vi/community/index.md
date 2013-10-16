@@ -24,7 +24,7 @@ Nếu bạn muốn tham gia thì dưới đây là một vài nơi để bắt �
 
 [Ruby trên IRC](irc://irc.freenode.net/ruby-lang)
 : Kênh ngôn ngữ Ruby IRC là một lựa chọn tuyệt vời để trò chuyện cùng những
-  người dùng Ruby khác.([Nhật ký trò chuyện trước đó][1])
+  người dùng Ruby khác.
 
 [Ruby Core](ruby-core/)
 : Bây giờ là thời điểm tuyệt vời để theo dõi sự phát triển của Ruby. Nếu như
@@ -41,13 +41,6 @@ Nếu bạn muốn tham gia thì dưới đây là một vài nơi để bắt �
   luận về tương lai của Ruby và chào đón những thành viên mới đến với cộng
   đồng Ruby.
 
-[Chương trình hỏi đáp về Ruby][2]
-: Nguồn lực mới này nhằm mục đích kết nối những người bắt đầu học Ruby với
-  những người có nhiều kinh nghiệm. Thông qua đó có thể đơn giản hoá quá trình
-  học Ruby cho những người mới bắt đầu. Việc này được xem là có thể giúp người
-  mới thoải mái hơn khi đặt câu hỏi thay vì gửi mail qua hộp thư chung, mặc dù
-  Ruby Talk cũng rất hoan nghênh những người mới đặt câu hỏi.
-
 Thông tin chung về Ruby
 : * [Ruby Central][3]
   * [Ruby at Open Directory Project][4]
@@ -55,8 +48,6 @@ Thông tin chung về Ruby
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://rubymentor.rubyforge.org/
 [3]: http://www.rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

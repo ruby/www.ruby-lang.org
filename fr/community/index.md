@@ -28,8 +28,7 @@ Quelques liens à visiter:
 
 [IRC](irc://irc.freenode.net/ruby-lang)
 : Le canal IRC anglophone #ruby-lang est un endroit fantastique pour
-  discuter en temps réel avec d’autres rubyistes (voir également
-  [l’historique des discussions][2]).
+  discuter en temps réel avec d’autres rubyistes.
 
 [Ruby Core](ruby-core/)
 : Avec la version 2.0 de Ruby en cours de développement, c’est le moment
@@ -47,20 +46,14 @@ Quelques liens à visiter:
   progrès sur leurs travaux, et bien sur accueillent les nouveaux
   arrivants dans la communauté.
 
-[The Ruby Mentor Project][3]
-: Ce projet vise à rapprocher des débutants aet des programmeurs plus
-  expérimentés en Ruby.
-
 Informations générales
-: * [Ruby Central][4]
-  * [Ruby sur le projet Open Directory][5]
-  * [Rails sur le projet Open Directory][6]
+: * [Ruby Central][3]
+  * [Ruby sur le projet Open Directory][4]
+  * [Rails sur le projet Open Directory][5]
 
 
 
 [1]: http://rubyfrance.org
-[2]: http://meme.b9.com/
-[3]: http://rubymentor.rubyforge.org/
-[4]: http://www.rubycentral.org/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[6]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[3]: http://www.rubycentral.org/
+[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
+[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
