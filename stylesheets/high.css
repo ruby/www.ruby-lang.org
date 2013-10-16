@@ -299,7 +299,8 @@ a:hover img { opacity: .7; }
 
 /* Side Entry */
 
-#side-entry, .recent-news {
+#side-entry,
+.recent-news {
   width: 240px;
   background: #f9f9f9;
   padding: 0 20px 15px 20px;
@@ -628,7 +629,8 @@ footer {
   #sidebar,
   #content { width: 100% !important; }
 
-  #side-entry {
+  #side-entry,
+  .recent-news {
     width: auto;
     padding: 3%;
     float: none;
