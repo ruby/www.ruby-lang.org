@@ -54,7 +54,13 @@ module Jekyll
       end
 
       def row_data(langs)
-        [short_name] + langs.map{|lang| translations.include?(lang) ? OK_CHAR : MISSING_CHAR }
+        [short_name] + langs.map{|lang|
+          if translations.include?(lang)
+            %Q(<a href="/#{lang}/news/#{name}">#{OK_CHAR}</a>)
+          else
+            MISSING_CHAR
+          end
+        }
       end
     end
 
