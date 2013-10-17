@@ -8,52 +8,46 @@ layout: default
   {% assign locales = site.locales.news['en'] %}
 {% endif %}
 
-{% include title.html %}
+<div id="page-header">
+  <div class="holder">
+    {% include title.html %}
+  </div>
+</div>
 
-<div id="content">
+<div class="holder">
+
+  <div id="content">
   
-  {% for post in page.posts %}
-    <div class="post">
-
-      <h3>
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h3>
-
-      <p>{{ post.excerpt | markdownify }}</p>
-
-      <p>
-        <a href="{{ post.url }}">
+    {% for post in page.posts %}
+      <div class="post">
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+        <span class="post-infos">
+          {{ post.date | posted_by:post.author }}
+        </span>
+        {{ post.excerpt | markdownify }}
+        <a class="view-more" href="{{ post.url }}">
           {{ locales.continue }}
         </a>
-      </p>
-
-      <p class="post-info">
-        {{ post.date | posted_by:post.author }}
-      </p>
-
-    </div> <!-- /post -->
-  {% endfor %}
+      </div> <!-- /post -->
+    {% endfor %}
   
-</div> <!-- /content -->
+  </div> <!-- /content -->
 
-<div id="sidebar">
-  
-  <div class="navigation">
+  <div id="sidebar">
 
-    <h3>
-      <strong>
-        {{ locales.monthly_archives }}
-      </strong>
-    </h3>
+    <div id="side-entry">
+      <h3>{{ locales.monthly_archives }}</h3>
+      <ul>
+        {% for month in page.months %}
+          <li><a href="{{ month[0] }}/">{{ month[1] }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
 
-    <ul class="menu">
-      {% for month in page.months %}
-        <li><a href="{{ month[0] }}/">{{ month[1] }}</a></li>
-      {% endfor %}
-    </ul>
+  </div> <!-- /sidebar -->
 
-  </div> <!-- /navigation -->
-
-</div> <!-- /sidebar -->
+</div> <!-- /holder -->
