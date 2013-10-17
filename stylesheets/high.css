@@ -272,6 +272,15 @@ a:hover img { opacity: .7; }
   color: #bc3f33;
 }
 
+#content li {
+  margin-top: 10px;
+}
+
+#content li:first-child,
+#content li li {
+  margin-top: 0;
+}
+
 
 /* Sidebar */
 
