@@ -260,16 +260,23 @@ a:hover img { opacity: .7; }
 
 #content h2,
 #content h3 {
-  font-size: 21px;
+  font-size: 23px;
   border-bottom: 1px solid #ececec;
   margin: 35px 0 10px 0;
   padding-bottom: 7px;
 }
 
 #content h2 {
-  /* For Security Page (h2 on #content) */
   font-weight: normal;
   color: #bc3f33;
+}
+
+#content h4 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 30px 0 10px 0;
+  font-weight: bold;
+  font-size: 17px;
+  color: #000;
 }
 
 #content li {
