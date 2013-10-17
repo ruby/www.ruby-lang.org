@@ -229,7 +229,7 @@ a:hover img { opacity: .7; }
   font-size: 18px;
   font-family: "Lucida Console", Monaco, monospace;
   padding: 10px 20px 10px 20px;
-  margin: 5px 0 25px 0;
+  margin: 5px 0 15px 0;
   display: block;
   overflow: auto;
 }
@@ -273,7 +273,7 @@ a:hover img { opacity: .7; }
 }
 
 #content li {
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 #content li:first-child,
