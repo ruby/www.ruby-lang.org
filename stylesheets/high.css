@@ -471,7 +471,8 @@ a:hover img { opacity: .7; }
   color: #fff;
 }
 
-/*-*/
+
+/* Page Header Home */
 
 #home-page-layout #page-header {
   padding: 35px 0 45px 0;
@@ -486,6 +487,38 @@ a:hover img { opacity: .7; }
   font-size: 16px;
   line-height: 25px;
   margin-top: 0;
+}
+
+
+/* Page Header Nav */
+
+#page-header ul {
+  padding: 8px 0 0 0;
+  margin: 0;
+}
+
+#page-header li {
+  list-style-type: circle;
+  display: inline;
+  margin: 0 15px 0 0;
+}
+
+#page-header li a {
+  border-radius: 2px;
+  border: 1px solid #215e91;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  padding:0 8px 0 8px;
+  text-decoration: none;
+  font-weight: normal;
+  display: inline-block;
+  color: #a6d1ff;
+}
+
+#page-header li a:hover {
+  border-color: #a6d1ff;
+  color: #fff;
 }
 
 

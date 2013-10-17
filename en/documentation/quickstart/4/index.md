@@ -4,17 +4,13 @@ title: "Ruby in Twenty Minutes"
 lang: en
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
-    <span class="separator"> | </span>
-    <strong>4</strong>
-  </div>
-  <h1>Ruby in Twenty Minutes</h1>
-
+  <h2>Ruby in Twenty Minutes</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Part 1">Part 1</a></li>
+    <li><a href="../2/" title="Part 2">Part 2</a></li>
+    <li><a href="../3/" title="Part 3">Part 3</a></li>
+    <li><strong>Part 4</strong></li>
+  </ul>
 ---
 
 So, looking deeper at our new program, notice the initial lines, which
