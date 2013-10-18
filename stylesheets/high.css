@@ -520,7 +520,6 @@ a:hover img { opacity: .7; }
 }
 
 #page-header li a {
-  border-radius: 2px;
   border: 1px solid #215e91;
   font-size: 12px;
   height: 30px;
@@ -534,30 +533,38 @@ a:hover img { opacity: .7; }
 
 #page-header li a:hover {
   border-color: #a6d1ff;
+  background: #2c66a4;
   color: #fff;
 }
 
 
-/* Download But */
+/* Page Header Buts */
 
 .download-but,
-.download-but:visited {
-  border-radius: 4px;
+.download-but:visited,
+.docs-but,
+.docs-but:visited {
   height: 44px;
-  background: #2c66a4;
-  border: 1px solid #4786c9;
+  border: 1px solid #215e91;
   line-height: 44px;
   padding: 0 15px 0 15px;
-  margin: 20px 0 0 0;
-  font-size: 16px;
+  margin: 20px 1px 0 0 !important;
+  font-size: 16px !important;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
 }
 
-.download-but:hover {
+.download-but span,
+.docs-but span {
+  height: 30px;
+  line-height: 30px;
+}
+
+.download-but:hover,
+.docs-but:hover {
+  border-color: #a6d1ff;
+  background: #2c66a4;
   color: #fff;
-  border-color: #fff;
 }
 
 
