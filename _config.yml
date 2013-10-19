@@ -450,7 +450,7 @@ locales:
   news:
     bg:
       other_news: Други новини
-      more_news: Още новини...
+      more_news: Още новини
       continue: Прочетете още...
       back_to_year: "Back to %Y Archives"
       recent_news: Последни новини
@@ -462,7 +462,7 @@ locales:
       monthly_archive_link: "%B %Y"
     de:
       other_news: Weitere Neuigkeiten
-      more_news: Mehr Neuigkeiten...
+      more_news: Mehr Neuigkeiten
       continue: Weiterlesen...
       back_to_year: "Zurück zum Archiv für %Y"
       recent_news: Aktuelle Neuigkeiten
@@ -474,7 +474,7 @@ locales:
       monthly_archive_link: "%B %Y"
     en:
       other_news: Other News
-      more_news: More News...
+      more_news: More News
       continue: Continue Reading...
       back_to_year: "Back to %Y Archives"
       recent_news: Recent News
@@ -486,7 +486,7 @@ locales:
       monthly_archive_link: "%B %Y"
     es:
       other_news: Otras noticias
-      more_news: Más noticias...
+      more_news: Más noticias
       continue: Continuar leyendo...
       back_to_year: "Volver a las noticias de %Y"
       recent_news: Noticias recientes
@@ -498,7 +498,7 @@ locales:
       monthly_archive_link: "%B %Y"
     fr:
       other_news: Autres actualités
-      more_news: Plus d’actualités...
+      more_news: Plus d’actualités
       continue: Lire la suite...
       back_to_year: "Retour aux %Y archives"
       recent_news: Actualité récente
@@ -510,7 +510,7 @@ locales:
       monthly_archive_link: "%m/%Y"
     id:
       other_news: Berita Lain
-      more_news: Arsip Sebelumnya...
+      more_news: Arsip Sebelumnya
       continue: Baca Selengkapnya...
       back_to_year: "Kembali ke Arsip Tahun %Y"
       recent_news: Berita
@@ -522,7 +522,7 @@ locales:
       monthly_archive_link: "%B %Y"
     it:
       other_news: Altre Notizie
-      more_news: Ulteriori Notizie...
+      more_news: Ulteriori Notizie
       continue: Continua...
       back_to_year: "Vai all'archivio %Y"
       recent_news: Notizie Recenti
@@ -534,7 +534,7 @@ locales:
       monthly_archive_link: "%B %Y"
     ja:
       other_news: その他のニュース
-      more_news: もっと読む...
+      more_news: もっと読む
       continue: もっと読む...
       back_to_year: "%Y年のアーカイブに戻る"
       recent_news: 最近のニュース
@@ -546,7 +546,7 @@ locales:
       monthly_archive_link: "%Y年%m月"
     ko:
       other_news: 이전 뉴스
-      more_news: 뉴스 더보기...
+      more_news: 뉴스 더보기
       continue: 자세히 읽기
       back_to_year: "%Y년 아카이브로 돌아가기"
       recent_news: 최근 소식
@@ -558,7 +558,7 @@ locales:
       monthly_archive_link: "%Y년 %m월"
     pl:
       other_news: Pozostałe aktualności
-      more_news: Więcej aktualności...
+      more_news: Więcej aktualności
       continue: Więcej...
       back_to_year: "Powrót do Archiwum %Y"
       recent_news: Aktualności
@@ -570,7 +570,7 @@ locales:
       monthly_archive_link: "%B %Y"
     pt:
       other_news: Outras Notícias
-      more_news: Mais Notícias...
+      more_news: Mais Notícias
       continue: Continuar a Leitura...
       back_to_year: "Back to %Y Archives"
       recent_news: Notícias Recentes
@@ -582,7 +582,7 @@ locales:
       monthly_archive_link: "%B %Y"
     tr:
       other_news: Diğer Haberler
-      more_news: Dahası...
+      more_news: Dahası
       continue: Devamını Okuyun...
       back_to_year: "Back to %Y Archives"
       recent_news: Son Haberler
@@ -594,7 +594,7 @@ locales:
       monthly_archive_link: "%B %Y"
     vi:
       other_news: Tin khác
-      more_news: Thêm Tin...
+      more_news: Thêm Tin
       continue: Đọc tiếp...
       back_to_year: "Trở về %Y Lưu trữ"
       recent_news: Tin mới nhất
@@ -606,7 +606,7 @@ locales:
       monthly_archive_link: "%B %Y"
     zh_cn:
       other_news: 其它新闻
-      more_news: 更多新闻...
+      more_news: 更多新闻
       continue: 阅读全文...
       back_to_year: "返回%Y年归档"
       recent_news: 最新消息
@@ -618,7 +618,7 @@ locales:
       monthly_archive_link: "%Y年%-m月归档"
     zh_tw:
       other_news: 其他新聞
-      more_news: 更多新聞...
+      more_news: 更多新聞
       continue: 深入閱讀...
       back_to_year: "回到 %Y 年彙整"
       recent_news: 最新消息

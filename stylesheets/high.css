@@ -107,17 +107,25 @@ a:hover img { opacity: .7; }
 
 /* Classes */
 
-.translated-by,
-.syndicate a,
-.more a {
-  height: 30px;
-  font-size: 14px;
-  color: #9caebd;
+.download-but,
+.download-but:visited,
+.docs-but,
+.docs-but:visited {
+  height: 44px;
+  border: 1px solid #215e91;
+  line-height: 44px;
+  padding: 0 15px 0 15px;
+  margin: 20px 1px 0 0 !important;
+  font-size: 16px !important;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.translated-by,
-.mode {
-  margin: 15px 0 0 0;
+.download-but:hover,
+.docs-but:hover {
+  border-color: #a6d1ff;
+  background: #2c66a4;
+  color: #fff;
 }
 
 .syndicate {
@@ -127,6 +135,52 @@ a:hover img { opacity: .7; }
   margin: 1px 0 0 0;
   float: right;
 }
+
+/*-*/
+
+.download-but span {
+  color: #fff;
+}
+
+.download-but span,
+.translated-by,
+.syndicate a,
+.more a {
+  height: 25px;
+  background: url('../images/sprites.png') no-repeat;
+  padding: 0 0 0 35px;
+  line-height: 25px;
+  display: inline-block;
+}
+
+.translated-by,
+.syndicate a,
+.more a {
+  font-size: 14px;
+  color: #9caebd;
+}
+
+.syndicate a,
+.more a {
+  text-decoration: none;
+}
+
+.syndicate a:hover,
+.more a:hover {
+  opacity: .7;
+}
+
+/*-*/
+
+.download-but span { background-position: 0 0; }
+
+.translated-by {
+  background-position: 0 -25px;
+  margin: 15px 0 0 0;
+}
+
+.syndicate a { background-position: 0 -50px; }
+.more a { background-position: 0 -75px; }
 
 
 /* Header */
@@ -532,36 +586,6 @@ a:hover img { opacity: .7; }
 }
 
 #page-header li a:hover {
-  border-color: #a6d1ff;
-  background: #2c66a4;
-  color: #fff;
-}
-
-
-/* Page Header Buts */
-
-.download-but,
-.download-but:visited,
-.docs-but,
-.docs-but:visited {
-  height: 44px;
-  border: 1px solid #215e91;
-  line-height: 44px;
-  padding: 0 15px 0 15px;
-  margin: 20px 1px 0 0 !important;
-  font-size: 16px !important;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.download-but span,
-.docs-but span {
-  height: 30px;
-  line-height: 30px;
-}
-
-.download-but:hover,
-.docs-but:hover {
   border-color: #a6d1ff;
   background: #2c66a4;
   color: #fff;
