@@ -153,6 +153,18 @@ a:hover img { opacity: .7; }
   display: inline-block;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) {
+  .download-but span,
+  .translated-by,
+  .syndicate a,
+  .more a {
+    background: url('../images/sprites@2x.png') no-repeat;
+    background-size: 25px 100px;
+  }
+}
+
 .translated-by,
 .syndicate a,
 .more a {
