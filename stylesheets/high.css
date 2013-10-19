@@ -710,6 +710,10 @@ footer {
   #page-header p {
     margin-right: 0;
   }
+  
+  #content {
+    min-height: auto;
+  }
 
   #sidebar {
     top: 0; left: 0;
