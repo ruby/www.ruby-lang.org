@@ -207,54 +207,6 @@ a:hover img { opacity: .7; }
 #logo a img { width: 46px; }
 
 
-/* Search Box */
-
-#search-box {
-  width: 280px;
-  margin-top: 5px;
-  float: right; 
-}
-
-#search-form {
-  width: 280px;
-  position: relative;
-  float: right; 
-}
-
-#search-form .fieldset,
-#search-form table,
-#search-form tr,
-#search-form td {
-  padding: 0;
-  margin: 0;
-  border-collapse: collapse;
-}
-
-#search-form .field {
-  border-radius: 4px;
-  width: 260px;
-  height: 36px;
-  line-height: 36px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  padding: 0 10px 0 10px;
-  border: 1px solid #ccc;
-  color: #666;
-  outline: none;
-}
-
-#search-form .button {
-  width: 30px;
-  height: 30px;
-  background: none;
-  position: absolute;
-  text-indent: -9999px;
-  outline: none;
-  top: 7px;
-  right: 1px;
-}
-
-
 /* Site Links (Nav) */
 
 .site-links {
@@ -630,6 +582,60 @@ a:hover img { opacity: .7; }
 #code .blank-line { line-height: 70%; }
 
 
+/* Forms */
+
+#search-form .field {
+  border-radius: 4px;
+  height: 36px;
+  line-height: 36px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0 10px 0 10px;
+  border: 1px solid #ccc;
+  color: #666;
+  outline: none;
+}
+
+
+/* Search Box */
+
+#search-box {
+  width: 280px;
+  margin-top: 5px;
+  float: right; 
+}
+
+#search-form {
+  width: 280px;
+  position: relative;
+  float: right; 
+}
+
+#search-form .fieldset,
+#search-form table,
+#search-form tr,
+#search-form td {
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+#search-form .field {
+  width: 260px;
+  font-size: 12px;
+}
+
+#search-form .button {
+  width: 30px;
+  height: 30px;
+  background: none;
+  position: absolute;
+  text-indent: -9999px;
+  outline: none;
+  top: 7px;
+  right: 1px;
+}
+
+
 /* Subscription Form */
 
 #subscriptions-form {
@@ -637,17 +643,8 @@ a:hover img { opacity: .7; }
 }
 
 #subscriptions-form table input {
-  border-radius: 4px;
   width: 260px;
-  height: 36px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
-  padding: 0 10px 0 10px;
-  line-height: 36px;
-  border: 1px solid #ccc;
-  display: inline-block;
-  color: #666;
-  outline: none;
 }
 
 #subscriptions-form table input,
