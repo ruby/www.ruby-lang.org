@@ -4,17 +4,13 @@ title: "Ruby в 20 минути"
 lang: bg
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Част 1">1</a>
-    <span class="separator"> | </span>
-    <strong>2</strong>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Част 3">3</a>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Част 4">4</a>
-  </div>
-  <h1>Ruby в 20 минути</h1>
-
+  <h2>Ruby в 20 минути</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Част 1">Част 1</a></li>
+    <li><strong>Част 2</strong></li>
+    <li><a href="../3/" title="Част 3">Част 3</a></li>
+    <li><a href="../4/" title="Част 4">Част 4</a></li>
+  </ul>
 ---
 
 Как да направим така, че да изписваме “Hello World” когато си поискаме,

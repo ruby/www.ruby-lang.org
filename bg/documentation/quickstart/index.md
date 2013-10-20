@@ -4,17 +4,13 @@ title: "Ruby в 20 минути"
 lang: bg
 
 header: |
-  <div class="multi-page">
-    <strong>1</strong>
-    <span class="separator"> | </span>
-    <a href="2/" title="Част 2">2</a>
-    <span class="separator"> | </span>
-    <a href="3/" title="Част 3">3</a>
-    <span class="separator"> | </span>
-    <a href="4/" title="Част 4">4</a>
-  </div>
-  <h1>Ruby в 20 минути</h1>
-
+  <h2>Ruby в 20 минути</h2>
+  <ul class="multi-page">
+    <li><strong>Част 1</strong></li>
+    <li><a href="2/" title="Част 2">Част 2</a></li>
+    <li><a href="3/" title="Част 3">Част 3</a></li>
+    <li><a href="4/" title="Част 4">Част 4</a></li>
+  </ul>
 ---
 
 ## Въведение

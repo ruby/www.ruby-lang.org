@@ -4,17 +4,13 @@ title: "Ruby в 20 минути"
 lang: bg
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Част 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Част 2">2</a>
-    <span class="separator"> | </span>
-    <strong>3</strong>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Част 4">4</a>
-  </div>
-  <h1>Ruby в 20 минути</h1>
-
+  <h2>Ruby в 20 минути</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Част 1">Част 1</a></li>
+    <li><a href="../2/" title="Част 2">Част 2</a></li>
+    <li><strong>Част 3</strong></li>
+    <li><a href="../4/" title="Част 4">Част 4</a></li>
+  </ul>
 ---
 
 Нека създадем и използваме нов обект:
