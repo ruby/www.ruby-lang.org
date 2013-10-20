@@ -584,7 +584,8 @@ a:hover img { opacity: .7; }
 
 /* Forms */
 
-#search-form .field {
+#search-form .field,
+#subscriptions-form table input {
   border-radius: 4px;
   height: 36px;
   line-height: 36px;
