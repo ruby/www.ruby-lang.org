@@ -745,6 +745,21 @@ footer {
 
   #page-header h2 { font-size: 32px; }
   #home-page-layout #page-header p { width: auto; }
+  
+  #subscriptions-form tr,
+  #subscriptions-form td {
+    min-width: auto !important;
+    width: 100%;
+    display: block;
+  }
+
+  #subscriptions-form table input {
+    width: 94% !important;
+    padding: 0 3% 0 3% !important;
+  }
+  
+  #subscriptions-form table input,
+  #subscriptions-form table select { margin-left: 0 !important; }
 
 }
 
