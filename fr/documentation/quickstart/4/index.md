@@ -8,7 +8,7 @@ header: |
   <ul class="multi-page">
     <li><a href="../" title="Partie 1">Partie 1</a></li>
     <li><a href="../2/" title="Partie 2">Partie 2</a></li>
-    <li><a href="../3/" title="Partie 4">Partie 3</a></li>
+    <li><a href="../3/" title="Partie 3">Partie 3</a></li>
     <li><strong>Partie 4</strong></li>
   </ul>
 ---
