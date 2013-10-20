@@ -4,17 +4,13 @@ title: "Ruby in 20 Minuten"
 lang: de
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Teil 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Teil 2">2</a>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Teil 3">3</a>
-    <span class="separator"> | </span>
-    <strong>4</strong>
-  </div>
-  <h1>Ruby in 20 Minuten</h1>
-
+  <h2>Ruby in 20 Minuten</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Teil 1">Teil 1</a></li>
+    <li><a href="../2/" title="Teil 2">Teil 2</a></li>
+    <li><a href="../3/" title="Teil 3">Teil 3</a></li>
+    <li><strong>Teil 4</strong></li>
+  </ul>
 ---
 
 Wenn wir unser Programm etwas genauer ansehen, fallen uns die Zeilen

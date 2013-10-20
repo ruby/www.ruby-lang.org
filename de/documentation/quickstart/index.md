@@ -4,17 +4,13 @@ title: "Ruby in 20 Minuten"
 lang: de
 
 header: |
-  <div class="multi-page">
-    <strong>1</strong>
-    <span class="separator"> | </span>
-    <a href="2/" title="Teil 2">2</a>
-    <span class="separator"> | </span>
-    <a href="3/" title="Teil 3">3</a>
-    <span class="separator"> | </span>
-    <a href="4/" title="Teil 4">4</a>
-  </div>
-  <h1>Ruby in 20 Minuten</h1>
-
+  <h2>Ruby in 20 Minuten</h2>
+  <ul class="multi-page">
+    <li><strong>Teil 1</strong></li>
+    <li><a href="2/" title="Teil 2">Teil 2</a></li>
+    <li><a href="3/" title="Teil 3">Teil 3</a></li>
+    <li><a href="4/" title="Teil 4">Teil 4</a></li>
+  </ul>
 ---
 
 ## Einleitung

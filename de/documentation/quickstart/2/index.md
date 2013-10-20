@@ -4,17 +4,13 @@ title: "Ruby in 20 Minuten"
 lang: de
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Teil 1">1</a>
-    <span class="separator"> | </span>
-    <strong>2</strong>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Teil 3">3</a>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Teil 4">4</a>
-  </div>
-  <h1>Ruby in 20 Minuten</h1>
-
+  <h2>Ruby in 20 Minuten</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Teil 1">Teil 1</a></li>
+    <li><strong>Teil 2</strong></li>
+    <li><a href="../3/" title="Teil 3">Teil 3</a></li>
+    <li><a href="../4/" title="Teil 4">Teil 4</a></li>
+  </ul>
 ---
 
 Was machen wir, wenn wir ganz oft “Hallo” sagen wollen, ohne uns die
