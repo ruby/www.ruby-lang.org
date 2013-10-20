@@ -4,17 +4,13 @@ title: "Ruby en 20 minutos"
 lang: es
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Parte 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Parte 2">2</a>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Parte 3">3</a>
-    <span class="separator"> | </span>
-    <strong>4</strong>
-  </div>
-  <h1>Ruby en 20 minutos</h1>
-
+  <h2>Ruby en 20 minutos</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Parte 1">Parte 1</a></li>
+    <li><a href="../2/" title="Parte 2">Parte 2</a></li>
+    <li><a href="../3/" title="Parte 4">Parte 3</a></li>
+    <li><strong>Parte 4</strong></li>
+  </ul>
 ---
 
 Así que, investigando nuestro programa, notarás que las primeras lineas
