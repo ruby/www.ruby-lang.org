@@ -630,6 +630,67 @@ a:hover img { opacity: .7; }
 #code .blank-line { line-height: 70%; }
 
 
+/* Subscription Form */
+
+#subscriptions-form {
+  margin: 20px 0 30px 0;
+}
+
+#subscriptions-form table input {
+  border-radius: 4px;
+  width: 260px;
+  height: 36px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+  line-height: 36px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  color: #666;
+  outline: none;
+}
+
+#subscriptions-form table input,
+#subscriptions-form table select {
+  margin-left: 15px;
+}
+
+#subscriptions-form td {
+  min-width: 120px;
+}
+
+#subscriptions-form table tr {
+  width: 94%;
+  font-size: 14px;
+  margin-top: 2px;
+  background: #f6f6f6;
+  padding: 5px 3% 5px 3%;
+  color: #666;
+  float: left;
+}
+
+.buttons .button {
+  border-radius: 4px;
+  padding: 0 10px 0 10px;
+  line-height: 36px;
+  border: none;
+  border-bottom: 2px solid #973329;
+  background: #bc3f33;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  display: inline-block;
+  margin: 15px 0 0 0;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: .7;
+}
+
+
 /* Footer */
 
 footer {
