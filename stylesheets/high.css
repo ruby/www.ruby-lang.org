@@ -506,10 +506,51 @@ a:hover img { opacity: .7; }
 }
 
 #page-header h2 {
+  -webkit-animation-duration:.2s;
+  -moz-animation-duration:.2s;
+  -ms-animation-duration:.2s;
+  -o-animation-duration:.2s;
+  animation-duration:.2s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;
+
+  -webkit-animation-timing-function:ease-in;
+  -moz-animation-timing-function:ease-in;
+  -ms-animation-timing-function:ease-in;
+  -o-animation-timing-function:ease-in;
+  
   margin-right: 320px;
   font-weight: normal;
   font-family: Georgia, serif;
   font-size: 38px;
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:-20px;
+    opacity:0;
+  }
+  to {
+    margin-left:0;
+    opacity:10;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:-20px;
+    opacity:0;
+  }
+  to {
+    margin-left:0;
+    opacity:10.0;
+  }
 }
 
 #page-header p {
