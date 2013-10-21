@@ -44,6 +44,20 @@ var App = {
       $(".site-links").toggle();
     });
 
+    
+    /* Mobile Aside Menu */
+
+    $("#aside-trigger").click(function(){
+      $("#sidebar").toggle();
+        $(".holder").css('margin-left:', '-260px');
+    });
+    
+    
+
+    
+    
+    
+
   }
 
 } // Var Site

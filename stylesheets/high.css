@@ -868,13 +868,17 @@ footer {
   #content { min-height: auto; }
 
   #sidebar {
-    top: 0; left: 0;
-    position: inherit;
+    box-shadow: 0 5px 10px #333;
+    width: 260px;
+    top: 51px; right: 0;
     border-top: none;
+    background: #444;
+    padding: 0 0 10px 10px;
     float: none;
+    z-index: 300;
+    display: none;
   }
 
-  #sidebar,
   #content { width: 100% !important; }
 
   #side-entry,
@@ -885,12 +889,7 @@ footer {
   }
   
   .syndicate {
-    width: 100%;
-    background: none;
-    padding: 0;
-    margin: 25px 0 40px 0;
-    display: block;
-    float: left;
+    width: 220px;
   }
 
   #code,
