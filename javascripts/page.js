@@ -18,11 +18,16 @@ var App = {
   },
 
   InterfaceActions: function() {
+    
+    
+    /* For external links */
 
     $("a[rel^='external']").each(function() {
       $(this).attr("target","_blank");
     });
 
+
+    /* Menu */
 
     var current_page = location.pathname;
 
@@ -30,6 +35,13 @@ var App = {
       if (current_page.indexOf($(this).attr('href')) == 0) {
         $(this).css('color:', '#ffe5e3');
       }
+    });
+
+
+    /* Mobile Menu */
+
+    $("#menu-trigger").click(function(){
+      $(".site-links").toggle();
     });
 
   }
