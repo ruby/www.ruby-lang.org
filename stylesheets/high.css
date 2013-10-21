@@ -143,12 +143,20 @@ a:hover img { opacity: .7; }
 .download-but span,
 .translated-by,
 .syndicate a,
-.more a {
+.more a,
+#menu-trigger,
+#aside-trigger {
   height: 25px;
   background: url('../images/sprites.png') no-repeat;
-  padding: 0 0 0 35px;
   line-height: 25px;
   display: inline-block;
+}
+
+.download-but span,
+.translated-by,
+.syndicate a,
+.more a {
+  padding: 0 0 0 35px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -157,24 +165,32 @@ a:hover img { opacity: .7; }
   .download-but span,
   .translated-by,
   .syndicate a,
-  .more a {
+  .more a,
+  #menu-trigger,
+  #aside-trigger {
     background: url('../images/sprites@2x.png') no-repeat;
-    background-size: 25px 100px;
+    background-size: 25px 150px;
   }
 }
 
 .translated-by,
 .syndicate a,
-.more a {
+.more a,
+#menu-trigger,
+#aside-trigger {
   font-size: 14px;
   color: #9caebd;
 }
 
 .syndicate a,
-.more a { text-decoration: none; }
+.more a,
+#menu-trigger a:hover,
+#aside-trigger a:hover { text-decoration: none; }
 
 .syndicate a:hover,
-.more a:hover { opacity: .7; }
+.more a:hover,
+#menu-trigger a:hover,
+#aside-trigger a:hover { opacity: .7; }
 
 /*-*/
 
@@ -187,6 +203,8 @@ a:hover img { opacity: .7; }
 
 .syndicate a { background-position: 0 -50px; }
 .more a { background-position: 0 -75px; }
+#menu-trigger { background-position: 0 -100px; }
+#aside-trigger { background-position: 0 -125px; }
 
 
 /* Header */
@@ -222,27 +240,36 @@ a:hover img { opacity: .7; }
 .site-links a:hover { color: #ffe5e3; }
 
 
-/* Mobile Menu Trigger */
+/* Mobile Menu */
 
-#menu-trigger {
-  border-radius: 4px;
-  height: 30px;
-  line-height: 30px;
-  background: #bc3f33;
-  border: none;
-  position: absolute;
-  padding: 0 10px 0 10px;
-  right: 5%; top: 7px;
-  font-size: 15px;
+#header nav {
   display: none;
-  color: #fff;
+}
+
+#header ul {
+  position: absolute;
+  right: 5%; top: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+#header li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#header a {
+  width: 25px;
+  height: 25px;
+  text-indent: -9999px;
   outline: none;
-  float: right;
   cursor: pointer;
 }
 
-#menu-trigger:hover,
-#menu-trigger:active { opacity: .7; }
+#header a:hover {
+  opacity: .7;
+}
 
 
 /* Content */
@@ -779,11 +806,11 @@ footer {
     background: #832c23;
     color: #fff;
   }
-
-  #menu-trigger {
+  
+  #header nav {
     display: block;
   }
-  
+
   /*-*/
 
   #content,
