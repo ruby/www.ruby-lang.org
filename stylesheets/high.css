@@ -145,7 +145,8 @@ a:hover img { opacity: .7; }
 .syndicate a,
 .more a,
 #menu-trigger,
-#aside-trigger {
+#aside-trigger,
+#search-form .button {
   height: 25px;
   background: url('../images/sprites.png') no-repeat;
   line-height: 25px;
@@ -167,9 +168,10 @@ a:hover img { opacity: .7; }
   .syndicate a,
   .more a,
   #menu-trigger,
-  #aside-trigger {
+  #aside-trigger,
+  #search-form .button {
     background: url('../images/sprites@2x.png') no-repeat;
-    background-size: 25px 150px;
+    background-size: 25px 175px;
   }
 }
 
@@ -190,7 +192,8 @@ a:hover img { opacity: .7; }
 .syndicate a:hover,
 .more a:hover,
 #menu-trigger a:hover,
-#aside-trigger a:hover { opacity: .7; }
+#aside-trigger a:hover,
+#search-form .button:hover { opacity: .7; }
 
 /*-*/
 
@@ -205,6 +208,7 @@ a:hover img { opacity: .7; }
 .more a { background-position: 0 -75px; }
 #menu-trigger { background-position: 0 -100px; }
 #aside-trigger { background-position: 0 -125px; }
+#search-form .button { background-position: 0 -150px; }
 
 
 /* Header */
@@ -669,6 +673,7 @@ a:hover img { opacity: .7; }
   width: 280px;
   position: relative;
   float: right; 
+  z-index: 200;
 }
 
 #search-form .fieldset,
@@ -686,14 +691,14 @@ a:hover img { opacity: .7; }
 }
 
 #search-form .button {
-  width: 30px;
-  height: 30px;
-  background: none;
+  width: 25px;
   position: absolute;
   text-indent: -9999px;
   outline: none;
-  top: 7px;
-  right: 1px;
+  display: inline-block;
+  top: 6px;
+  right: 6px;
+  z-index: 300;
 }
 
 
