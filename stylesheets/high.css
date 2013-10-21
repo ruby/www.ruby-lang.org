@@ -699,6 +699,7 @@ a:hover img { opacity: .7; }
   top: 6px;
   right: 6px;
   z-index: 300;
+  cursor: pointer;
 }
 
 
