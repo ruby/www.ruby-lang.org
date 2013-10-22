@@ -4,17 +4,13 @@ title: "Menguasai Ruby dalam 20 Menit"
 lang: id
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Bagian 1">1</a>
-    <span class="separator"> | </span>
-    <strong>2</strong>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Bagian 3">3</a>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Bagian 4">4</a>
-  </div>
-  <h1>Menguasai Ruby dalam 20 Menit</h1>
-
+  <h2>Menguasai Ruby dalam 20 Menit</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Bagian 1">Bagian 1</a></li>
+    <li><strong>Bagian 2</strong></li>
+    <li><a href="../3/" title="Bagian 3">Bagian 3</a></li>
+    <li><a href="../4/" title="Bagian 4">Bagian 4</a></li>
+  </ul>
 ---
 
 Bagaimana jika kita ingin mengatakan “Hello” sekaligus banyak tanpa

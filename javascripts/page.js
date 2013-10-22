@@ -52,11 +52,6 @@ var App = {
         $(".holder").css('margin-left:', '-260px');
     });
     
-    
-
-    
-    
-    
 
   }
 

@@ -4,17 +4,13 @@ title: "Menguasai Ruby dalam 20 Menit"
 lang: id
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Bagian 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Bagian 2">2</a>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Bagian 3">3</a>
-    <span class="separator"> | </span>
-    <strong>4</strong>
-  </div>
-  <h1>Menguasai Ruby dalam 20 Menit</h1>
-
+  <h2>Menguasai Ruby dalam 20 Menit</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Bagian 1">Bagian 1</a></li>
+    <li><a href="../2/" title="Bagian 2">Bagian 2</a></li>
+    <li><a href="../3/" title="Bagian 3">Bagian 3</a></li>
+    <li><strong>Bagian 4</strong></li>
+  </ul>
 ---
 
 Sekarang kita melihat lebih jelas lagi pada program baru kita,
