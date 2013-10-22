@@ -4,17 +4,13 @@ title: "루비 20분 가이드"
 lang: ko
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
-    <span class="separator"> | </span>
-    <strong>3</strong>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
-  </div>
-  <h1>루비 20분 가이드</h1>
-
+  <h2>루비 20분 가이드</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Part 1">Part 1</a></li>
+    <li><a href="../2/" title="Part 2">Part 2</a></li>
+    <li><strong>Part 3</strong></li>
+    <li><a href="../4/" title="Part 4">Part 4</a></li>
+  </ul>
 ---
 
 “Greeter” 객체를 만들어서 사용해 봅시다.
