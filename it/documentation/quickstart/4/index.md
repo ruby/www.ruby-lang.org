@@ -4,17 +4,13 @@ title: "Ruby in Venti Minuti"
 lang: it
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Parte 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Parte 2">2</a>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Parte 3">3</a>
-    <span class="separator"> | </span>
-    <strong>4</strong>
-  </div>
-  <h1>Ruby in Venti Minuti</h1>
-
+  <h2>Ruby in Venti Minuti</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Parte 1">Parte 1</a></li>
+    <li><a href="../2/" title="Parte 2">Parte 2</a></li>
+    <li><a href="../3/" title="Parte 3">Parte 3</a></li>
+    <li><strong>Parte 4</strong></li>
+  </ul>
 ---
 
 Guardiamo con un po’ più di attenzione il nostro nuovo programma. Fate

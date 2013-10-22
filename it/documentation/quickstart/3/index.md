@@ -4,17 +4,13 @@ title: "Ruby in Venti Minuti"
 lang: it
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Parte 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Parte 2">2</a>
-    <span class="separator"> | </span>
-    <strong>3</strong>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Parte 4">4</a>
-  </div>
-  <h1>Ruby in Venti Minuti</h1>
-
+  <h2>Ruby in Venti Minuti</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Parte 1">Parte 1</a></li>
+    <li><a href="../2/" title="Parte 2">Parte 2</a></li>
+    <li><strong>Parte 3</strong></li>
+    <li><a href="../4/" title="Parte 4">Parte 4</a></li>
+  </ul>
 ---
 
 Bene, creiamo il nostro oggetto PersonaCordiale e usiamolo:
