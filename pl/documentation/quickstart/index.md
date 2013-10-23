@@ -7,7 +7,7 @@ header: |
   <h2>Ruby w 20 Minut</h2>
   <ul class="multi-page">
     <li><strong>Część 1</strong></li>
-    <li><a href="2/" title="Część 1">Część 2</a></li>
+    <li><a href="2/" title="Część 2">Część 2</a></li>
     <li><a href="3/" title="Część 3">Część 3</a></li>
     <li><a href="4/" title="Część 4">Część 4</a></li>
   </ul>
