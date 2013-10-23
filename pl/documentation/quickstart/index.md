@@ -4,17 +4,13 @@ title: "Ruby w 20 Minut"
 lang: pl
 
 header: |
-  <div class="multi-page">
-    <strong>1</strong>
-    <span class="separator"> | </span>
-    <a href="2/" title="Część 2">2</a>
-    <span class="separator"> | </span>
-    <a href="3/" title="Część 3">3</a>
-    <span class="separator"> | </span>
-    <a href="4/" title="Część 4">4</a>
-  </div>
-  <h1>Ruby w 20 Minut</h1>
-
+  <h2>Ruby w 20 Minut</h2>
+  <ul class="multi-page">
+    <li><strong>Część 1</strong></li>
+    <li><a href="2/" title="Część 1">Część 2</a></li>
+    <li><a href="3/" title="Część 3">Część 3</a></li>
+    <li><a href="4/" title="Część 4">Część 4</a></li>
+  </ul>
 ---
 
 ## Wprowadzenie

@@ -4,17 +4,13 @@ title: "Ruby w 20 Minut"
 lang: pl
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Część 1">1</a>
-    <span class="separator"> | </span>
-    <strong>2</strong>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Część 3">3</a>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Część 4">4</a>
-  </div>
-  <h1>Ruby w 20 Minut</h1>
-
+  <h2>Ruby w 20 Minut</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Część 1">Część 1</a></li>
+    <li><strong>Część 2</strong></li>
+    <li><a href="../2/" title="Część 2">Część 2</a></li>
+    <li><a href="../3/" title="Część 3">Część 3</a></li>
+  </ul>
 ---
 
 Co jeśli chcielibyśmy mówić “Hello World” tak aby nasze palce się nie
