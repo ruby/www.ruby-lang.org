@@ -4,17 +4,13 @@ title: "Tìm hiểu Ruby trong 25 phút"
 lang: vi
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Phần 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Phần 2">2</a>
-    <span class="separator"> | </span>
-    <strong>3</strong>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Phần 4">4</a>
-  </div>
-  <h1>Tìm hiểu Ruby trong 25 phút</h1>
-
+  <h2>Tìm hiểu Ruby trong 25 phút</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Phần 1">Phần 1</a></li>
+    <li><a href="../2/" title="Phần 2">Phần 2</a></li>
+    <li><strong>Phần 3</strong></li>
+    <li><a href="../4/" title="Phần 4">Phần 4</a></li>
+  </ul>
 ---
 
 Bây giờ, chúng ta hãy tạo một đối tượng ChàoMừng và sử dụng nó:

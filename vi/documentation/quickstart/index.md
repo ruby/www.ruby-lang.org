@@ -4,17 +4,13 @@ title: "Tìm hiểu Ruby trong 25 phút"
 lang: vi
 
 header: |
-  <div class="multi-page">
-    <strong>1</strong>
-    <span class="separator"> | </span>
-    <a href="2/" title="Phần 2">2</a>
-    <span class="separator"> | </span>
-    <a href="3/" title="Phần 3">3</a>
-    <span class="separator"> | </span>
-    <a href="4/" title="Phần 4">4</a>
-  </div>
-  <h1>Tìm hiểu Ruby trong 25 phút</h1>
-
+  <h2>Tìm hiểu Ruby trong 25 phút</h2>
+  <ul class="multi-page">
+    <li><strong>Phần 1</strong></li>
+    <li><a href="2/" title="Phần 2">Phần 2</a></li>
+    <li><a href="3/" title="Phần 3">Phần 3</a></li>
+    <li><a href="4/" title="Phần 4">Phần 4</a></li>
+  </ul>
 ---
 
 ## Giới thiệu
