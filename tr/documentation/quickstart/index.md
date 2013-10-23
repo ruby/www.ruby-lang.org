@@ -4,17 +4,13 @@ title: "Yirmi Dakikada Ruby"
 lang: tr
 
 header: |
-  <div class="multi-page">
-    <strong>1</strong>
-    <span class="separator"> | </span>
-    <a href="2/" title="Part 2">2</a>
-    <span class="separator"> | </span>
-    <a href="3/" title="Part 3">3</a>
-    <span class="separator"> | </span>
-    <a href="4/" title="Part 4">4</a>
-  </div>
-  <h1>Yirmi Dakikada Ruby</h1>
-
+  <h2>Yirmi Dakikada Ruby</h2>
+  <ul class="multi-page">
+    <li><strong>Part 1</strong></li>
+    <li><a href="2/" title="Part 2">Part 2</a></li>
+    <li><a href="3/" title="Part 3">Part 3</a></li>
+    <li><a href="4/" title="Part 4">Part 4</a></li>
+  </ul>
 ---
 
 ## Giriş

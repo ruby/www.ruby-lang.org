@@ -4,17 +4,13 @@ title: "Yirmi Dakikada Ruby"
 lang: tr
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
-    <span class="separator"> | </span>
-    <strong>4</strong>
-  </div>
-  <h1>Yirmi Dakikada Ruby</h1>
-
+  <h2>Yirmi Dakikada Ruby</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Part 1">Part 1</a></li>
+    <li><a href="../2/" title="Part 2">Part 2</a></li>
+    <li><a href="../3/" title="Part 4">Part 3</a></li>
+    <li><strong>Part 4</strong></li>
+  </ul>
 ---
 
 Peki, yeni programımıza daha derin bir inceleme yapalım, (#) ile
