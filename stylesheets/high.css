@@ -596,6 +596,7 @@ a:hover img { opacity: .7; }
 }
 
 #page-header li {
+  font-weight: normal;
   list-style-type: circle;
   display: inline;
   margin: 0 15px 0 0;
@@ -608,7 +609,6 @@ a:hover img { opacity: .7; }
   line-height: 30px;
   padding:0 8px 0 8px;
   text-decoration: none;
-  font-weight: normal;
   display: inline-block;
   color: #a6d1ff;
 }
