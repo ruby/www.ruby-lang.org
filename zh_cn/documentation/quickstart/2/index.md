@@ -4,17 +4,13 @@ title: "20分钟体验 Ruby，第2页 - Ruby 官方网站"
 lang: zh_cn
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
-    <span class="separator"> | </span>
-    <strong>2</strong>
-    <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
-  </div>
-  <h1>20分钟体验 Ruby</h1>
-
+  <h2>20分钟体验 Ruby</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Part 1">Part 1</a></li>
+    <li><strong>Part 2</strong></li>
+    <li><a href="../3/" title="Part 3">Part 3</a></li>
+    <li><a href="../4/" title="Part 4">Part 4</a></li>
+  </ul>
 ---
 
 如果您想说很多次”Hello”，却不想把手指累酸的话，是定义一个函数的时候啦！
