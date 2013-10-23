@@ -4,17 +4,13 @@ title: "二十分鐘 Ruby 體驗"
 lang: zh_tw
 
 header: |
-  <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
-    <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
-    <span class="separator"> | </span>
-    <strong>3</strong>
-    <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
-  </div>
-  <h1>二十分鐘 Ruby 體驗</h1>
-
+  <h2>二十分鐘 Ruby 體驗</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Part 1">Part 1</a></li>
+    <li><a href="../2/" title="Part 2">Part 2</a></li>
+    <li><strong>Part 3</strong></li>
+    <li><a href="../4/" title="Part 4">Part 4</a></li>
+  </ul>
 ---
 
 讓我們建立一個 greeter 物件來使用：

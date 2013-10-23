@@ -4,6 +4,16 @@ title: "二十分鐘 Ruby 體驗"
 lang: zh_tw
 
 header: |
+  <h2>二十分鐘 Ruby 體驗</h2>
+  <ul class="multi-page">
+    <li><a href="../" title="Part 1">Part 1</a></li>
+    <li><a href="../2/" title="Part 2">Part 2</a></li>
+    <li><a href="../3/" title="Part 3">Part 3</a></li>
+    <li><strong>Part 4</strong></li>
+  </ul>
+---
+
+header: |
   <div class="multi-page">
     <a href="../" title="Part 1">1</a>
     <span class="separator"> | </span>
