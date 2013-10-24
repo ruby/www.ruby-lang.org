@@ -896,3 +896,9 @@ footer {
   #search-box { display: none !important; }
   
 }
+
+@media only screen and (min-width: 686px) {
+  .site-links {
+    display: block !important;
+  }
+}
