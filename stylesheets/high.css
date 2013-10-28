@@ -817,19 +817,8 @@ footer {
 }
 
 
-/* Media Queries for Smartphones */
-
-@media only screen and (max-width: 686px) {
-
-  .holder { padding: 0 5% 0 5%; }
+@media (max-width:700px) {
   
-  #header {
-    border-bottom: 5px solid #bc3f33;
-    padding: 7px 0 2px 0;
-  }
-
-  #logo a img { width: 30px; }
-
   .site-links {
     height: auto;
     padding: 5px 0 10px 0;
@@ -848,16 +837,32 @@ footer {
     display: block !important;
     float: none;
   }
-  
+
   .site-links a:hover,
   .site-links a:active {
     background: #832c23;
     color: #fff;
   }
-  
+
   #header nav {
     display: block;
   }
+
+}
+
+
+/* Media Queries for Smartphones */
+
+@media only screen and (max-width: 686px) {
+
+  .holder { padding: 0 5% 0 5%; }
+  
+  #header {
+    border-bottom: 5px solid #bc3f33;
+    padding: 7px 0 2px 0;
+  }
+
+  #logo a img { width: 30px; }
 
   /*-*/
 
@@ -897,7 +902,7 @@ footer {
   
 }
 
-@media only screen and (min-width: 686px) {
+@media only screen and (min-width: 700px) {
   .site-links {
     display: block !important;
   }
