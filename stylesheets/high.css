@@ -903,7 +903,8 @@ footer {
 }
 
 @media only screen and (min-width: 700px) {
-  .site-links {
-    display: block !important;
-  }
+
+  .site-links,
+  #sidebar { display: block !important; }
+
 }
