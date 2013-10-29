@@ -1,9 +1,3 @@
-{% if site.locales.news[page.lang] %}
-  {% assign news = site.locales.news[page.lang] %}
-{% else %}
-  {% assign news = site.locales.news['en'] %}
-{% endif %}
-
 <div class="recent-news">
 
   {% if site.locales.news[page.lang] %}

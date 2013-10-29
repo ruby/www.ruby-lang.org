@@ -45,11 +45,12 @@ var App = {
     });
 
     
-    /* Mobile Aside Menu */
+    /* Mobile Aside */
 
-    $("#aside-trigger").click(function(){
-      $("#sidebar").toggle();
-        $(".holder").css('margin-left:', '-260px');
+    $('#aside-trigger').sidr({
+      name: 'mobile-aside',
+      source: '#mobile-aside',
+      side: 'right'
     });
     
 

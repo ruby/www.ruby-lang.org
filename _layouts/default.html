@@ -18,6 +18,7 @@
     
     <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/jquery.sidr.dark.css" media="screen">
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     
@@ -46,7 +47,7 @@
         <nav>
           <ul>
             <li><a id="menu-trigger">Menu</a></li>
-            <li><a id="aside-trigger">Sidebar</a></li>
+            <li><a id="aside-trigger" href="#sidebar">Sidebar</a></li>
           </ul>
         </nav>
 
@@ -70,6 +71,7 @@
     {% include analytics.html %}
 
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.sidr.min.js"></script>
     <script type="text/javascript" src="/javascripts/page.js"></script>
     {% if page.javascript != null %}
       {% for javascript in page.javascript %}
