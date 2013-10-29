@@ -1,0 +1,8 @@
+<div id="side-entry">
+  <h3>{{ locales.monthly_archives }}</h3>
+  <ul>
+    {% for month in page.months %}
+      <li><a href="{{ month[0] }}/">{{ month[1] }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
