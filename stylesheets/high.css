@@ -112,7 +112,7 @@ a:hover img { opacity: .7; }
 .docs-but,
 .docs-but:visited {
   height: 44px;
-  border: 1px solid #215e91;
+  border: 1px solid #23649b;
   line-height: 44px;
   padding: 0 15px 0 15px;
   margin: 20px 1px 0 0 !important;
@@ -632,7 +632,7 @@ a:hover img { opacity: .7; }
 }
 
 #page-header li a {
-  border: 1px solid #2568a0;
+  border: 1px solid #23649b;
   font-size: 12px;
   height: 30px;
   line-height: 30px;
