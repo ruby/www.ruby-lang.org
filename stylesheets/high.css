@@ -245,12 +245,18 @@ a:hover img { opacity: .7; }
 }
 
 .site-links a {
+  height: 43px;
+  border-bottom: 3px solid #bc3f33;
+  line-height: 46px;
   text-decoration: none;
   margin-right: 20px;
   color: #fff;
+  display: inline-block;
 }
 
-.site-links a:hover { color: #ffe5e3; }
+.site-links a:hover {
+  border-color: #e94f40;
+}
 
 
 /* Mobile Menu */
@@ -874,7 +880,7 @@ footer {
 }
 
 
-@media (max-width:700px) {
+@media (max-width:701px) {
   
   .holder { padding: 0 5% 0 5%; }
   
@@ -916,6 +922,7 @@ footer {
     line-height: 36px;
     padding: 0 4% 0 4%;
     background: #973329;
+    border-bottom: none;
     margin: 1px 0 0 0;
     display: block !important;
     float: none;
@@ -934,7 +941,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 701px) {
 
   .site-links,
   #sidebar { display: block !important; }
