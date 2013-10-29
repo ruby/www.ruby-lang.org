@@ -16,8 +16,16 @@ layout: default
 
 <div class="holder">
 
+  <div id="sidebar">
+    {% include archives-aside.html %}
+  </div>
+
+  <div id="mobile-aside">
+    {% include archives-aside.html %}
+  </div>
+
   <div id="content">
-  
+
     {% for post in page.posts %}
       <div class="post">
         <h3>
@@ -34,15 +42,7 @@ layout: default
         </a>
       </div> <!-- /post -->
     {% endfor %}
-  
-  </div> <!-- /content -->
 
-  <div id="sidebar">
-    {% include archives-aside.html %}
-  </div>
-  
-  <div id="mobile-aside">
-    {% include archives-aside.html %}
-  </div>
+  </div> <!-- /content -->
 
 </div> <!-- /holder -->
