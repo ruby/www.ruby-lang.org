@@ -1773,26 +1773,12 @@ locales:
       このサイトはRubyと<a href="http://www.jekyllrb.com/">Jekyll</a>によって構築されています。
       また、コンテンツはRubyコミュニティによって管理されています。
       このサイトに関する質問やコメントは<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>へのissueまたはpull request、もしくは<a href="mailto:webmaster@ruby-lang.org">webmaster</a> までお願いします。
-    ko: |
-      이 웹사이트는 루비와 <a href="http://www.jekyllrb.com/">Jekyll</a>를 이용해 만들어졌습니다.
-      그리고 루비 커뮤니티의 구성원이 직접 운영합니다.
-      궁금증이나 의견은 <a href="mailto:webmaster@ruby-lang.org">웹마스터</a>에게 문의하시기 바랍니다.
     pl: |
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
       Proszę udziel nam wsparcia na <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
       jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
-    pt: |
-      Este Site está construído em Ruby e gerido através de <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      É orgulhosamente mantido pelos membros da comunidade Ruby.
-      Por favor contacte o nosso <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      para questões ou comentários relativos ao site.
-    tr: |
-      Bu site Ruby ile kodlanmış olup, <a href="http://www.jekyllrb.com/">Jekyll</a> ile güçlendirilmiştir.
-      Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
-      Herhangi bir soru ya da öneriniz için lütfen
-      <a href="mailto:webmaster@ruby-lang.org">site yöneticimiz</a> ile irtibata geçin.
     vi: |
       Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Trang được bảo trì bởi các thành viên của cộng đồng Ruby.
