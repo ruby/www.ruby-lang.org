@@ -50,17 +50,6 @@ body {
   color: #b0af99;
   font-size: 80%;
 }
-#search-form .field {
-  border: 1px solid #d3d3cf;
-}
-#search-form .button {
-  border: 1px solid #d3d3cf;
-  background-color: #e6e6d7;
-  color: #7b7b75;
-  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
-  font-size: 14px;
-  font-weight: bold;
-}
 #footer {
   clear: both;
 }

@@ -401,29 +401,6 @@ body {
 #sidebar .navigation .more a:visited:hover {
   text-decoration: underline;
 }
-#search-box {
-  clear: both;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 738px;
-}
-#search-form {
-  position: absolute;
-  top: 57px;
-  width: 738px;
-}
-#search-box .fieldset {
-  float: right;
-}
-#search-form .field {
-  width: 214px;
-  height: 20px;
-}
-#search-form .button {
-  min-width: 74px;
-  height: 24px;
-}
 #foot { clear: both; }
 #footer p {
   color: #8D959F;

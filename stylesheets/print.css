@@ -4,8 +4,7 @@
 
 @import url(/stylesheets/shared.css);
 
-.site-links, #sidebar-wrapper,
-#search-form {
+.site-links, #sidebar-wrapper {
   display: none;
 }
 #header {
