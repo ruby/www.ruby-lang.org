@@ -64,6 +64,10 @@ body {
 #footer {
   clear: both;
 }
+.warning {
+  color: #c61a1a;
+  font-size: 125%;
+}
 
 
 /* layouts */
