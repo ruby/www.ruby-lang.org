@@ -958,7 +958,7 @@ footer {
   #sidebar { display: block !important; }
   
   #mobile-aside {
-    display: none;
+    display: none !important;
   }
 
 }
