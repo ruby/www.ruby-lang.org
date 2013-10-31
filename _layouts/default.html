@@ -1,6 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+
+<html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     {% if page.title != null %}
@@ -26,27 +26,24 @@
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
-    <div id="page">
-      <div id="header">
-        <div id="logo">
-          <a href="/{{ page.lang }}/"><img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
-        </div>
-        <div class="site-links">
-          {% include sitelinks.html %}
-        </div>
+    <header>
+      <div id="logo">
+        <a href="/{{ page.lang }}/">
+          <img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title="">
+        </a>
       </div>
-      <hr class="hidden-modern" />
-
-      <div id="main-wrapper">
-        <div id="main">
-          {{ content }}
-        </div>
+      <div class="site-links">
+        {% include sitelinks.html %}
       </div>
+    </header>
 
-      <footer>
-        {% include footer.html %}
-      </footer>
+    <div id="main-wrapper">
+      {{ content }}
     </div>
+
+    <footer>
+      {% include footer.html %}
+    </footer>
 
     {% include analytics.html %}
   </body>

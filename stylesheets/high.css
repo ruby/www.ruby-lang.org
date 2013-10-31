@@ -2,64 +2,25 @@
   high.css - styles for modern browsers
 */
 
-body {
-  background-color: #213449;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
-.site-links {
-  background-image: url(/images/site-links-background.gif);
-  background-position: bottom;
-  background-repeat: repeat-x;
-}
 .site-links a, .site-links a:visited, .site-links strong {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
   padding-left: 6px;
   padding-right: 6px;
-  margin-left: 4px;
-  float: left;
-}
-.site-links a:hover {
-  color: white;
-  text-decoration: underline;
 }
 .site-links strong a, .site-links strong a:visited {
   padding: 0;
   margin: 0;
   display: inline;
 }
-#page {
-  background-image: url(/images/shadow.jpg);
-  background-position: center;
-  background-repeat: repeat-y;
-}
-#logo {
-  background-image: url(/images/logo-background.jpg);
-  background-position: top left;
-  background-repeat: no-repeat;
-  padding-top: 14px;
-}
-#logo img {
-  position: relative;
-  z-index: 1;
-}
-#header, #main-wrapper {
+header, #main-wrapper {
   background: white;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   width: 766px;
+  overflow: auto;
+  color: black;
 }
-#header {
-  background-image: url(/images/header-background.jpg);
-  background-position: right;
-  background-repeat: repeat-y;
-}
-#header .site-links {
+header .site-links {
   float: left;
   width: 100%;
 }
@@ -70,6 +31,7 @@ body {
   background-position: right;
   background-repeat: repeat-y;
   float: left;
+  width: 100%;
 }
 #main .site-links {
   width: 766px;
