@@ -515,7 +515,7 @@ header {
   float: left;
   height: 30px;
   width: 45px;
-  background-image: url(/logo.svg);
+  background-image: url(/images/logo.svg);
   content: "";
 }
 @media (min-width: 980px) {

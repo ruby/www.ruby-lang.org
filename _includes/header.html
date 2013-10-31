@@ -1,0 +1,25 @@
+<div class='header-wrap l-wrap'>
+  <a class='logo' href='/{{ page.lang }}/' alt="{{ site.locales.slogan[page.lang] }}">Ruby</a>
+  <nav class='header__nav'>
+    {% if site.locales.sitelinks[page.lang] %}
+      {% assign sitelinks = site.locales.sitelinks[page.lang] %}
+    {% else %}
+      {% assign sitelinks = site.locales.sitelinks['en'] %}
+    {% endif %}
+
+    {% for link in sitelinks %}
+      <a class='header__nav__link' href="{{ link.url }}/">{{ link.text }}</a>
+    {% endfor %}
+  </nav>
+
+  <!--<nav class='header__nav'>-->
+    <!--<a class='header__nav__link' href='/about'>About</a>-->
+    <!--<a class='header__nav__link' href='#'>Reference</a>-->
+    <!--<a class='header__nav__link' href='#'>Tutorial</a>-->
+    <!--<a class='header__nav__link' href='#'>Community</a>-->
+    <!--<a class='header__nav__link icon' data-icon='★' href='https://github.com/ruby/www.ruby-lang.org'>-->
+      <!--<span class='is-hidden'>GitHub</span>-->
+    <!--</a>-->
+    <!--<a class='header__nav__link--download' href='#'>Download</a>-->
+  <!--</nav>-->
+</div>
