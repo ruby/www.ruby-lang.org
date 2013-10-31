@@ -15,6 +15,14 @@ layout: default
 </div>
 
 <div class="holder">
+  
+  <div id="sidebar">
+    {% include archives-aside.html %}
+  </div>
+  
+  <div id="mobile-aside">
+    {% include archives-aside.html %}
+  </div>
 
   <div id="content">
     
@@ -36,24 +44,6 @@ layout: default
     {% endfor %}
   
   </div> <!-- /content -->
-
-  <div id="sidebar">
-  
-    <div id="side-entry">
-    
-      <h3>{{ locales.yearly_archives }}</h3>
-
-      <ul>
-        {% for year in page.years %}
-        <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
-        {% endfor %}
-      </ul>
-    
-    </div> <!-- /side-entry -->
-
-    {% include syndicate.html %}
-
-  </div> <!-- /sidebar -->
 
 </div> <!-- /holder -->
   

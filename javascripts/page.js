@@ -33,7 +33,7 @@ var App = {
 
     $(".site-links a").each(function(i) {
       if (current_page.indexOf($(this).attr('href')) == 0) {
-        $(this).css('color:', '#ffe5e3');
+        $(this).css('color', '#ffe5e3');
       }
     });
 
