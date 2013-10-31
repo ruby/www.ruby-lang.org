@@ -8,10 +8,10 @@
     {% else %}
     <title>Ruby Programming Language</title>
     {% endif %}
-    <link rel="stylesheet" type="text/css" href="/stylesheets/low.css" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
     <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/application.css" />
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
@@ -49,11 +49,9 @@
         </div>
       </div>
 
-      <div id="footer">
-        <div class="fine-print">
-          {% include footer.html %}
-        </div>
-      </div>
+      <footer>
+        {% include footer.html %}
+      </footer>
     </div>
 
     {% include analytics.html %}

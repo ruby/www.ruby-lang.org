@@ -16,13 +16,6 @@
   padding-bottom: 2em;
   width: 100%;
 }
-#footer {
-  border: 0px solid black;
-  border-top-width: 1pt;
-}
-#footer p {
-  margin-top: .5em;
-}
 #code {
   border: 1px solid gray;
   padding: 20px;

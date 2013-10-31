@@ -5,15 +5,15 @@
 body {
   font-size: 80%;
 }
-.hidden-modern {
-  position: absolute;
-  left: -20000px;
-  top: -20000px;
-}
-.site-links .separator { display: none; }
-.site-links {
-  background-color: #7d0000;
-}
+/*.hidden-modern {*/
+  /*position: absolute;*/
+  /*left: -20000px;*/
+  /*top: -20000px;*/
+/*}*/
+/*.site-links .separator { display: none; }*/
+/*.site-links {*/
+  /*background-color: #7d0000;*/
+/*}*/
 #content h2 {
   font-size: 170%;
   margin-top: 1.5em;
@@ -49,9 +49,6 @@ body {
 #content .post-info {
   color: #b0af99;
   font-size: 80%;
-}
-#footer {
-  clear: both;
 }
 .warning {
   color: #c61a1a;

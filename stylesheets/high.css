@@ -7,7 +7,6 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 .site-links {
   background-image: url(/images/site-links-background.gif);
@@ -400,34 +399,6 @@ body {
 #sidebar .navigation .more a:hover,
 #sidebar .navigation .more a:visited:hover {
   text-decoration: underline;
-}
-#foot { clear: both; }
-#footer p {
-  color: #8D959F;
-  font-size: 85%;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: .75em;
-  padding: 14px;
-  padding-top: 0;
-  padding-bottom: 0;
-  text-align: left;
-  width: 738px;
-}
-#footer a, #footer a:visited {
-  color: #B6BCC2;
-}
-#footer a:hover, #footer a:visited:hover {
-  color: white;
-}
-#footer .fine-print {
-  background-color: #213449;
-  background-image: url(/images/footer-background.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  clear: both;
-  line-height: 140%;
-  padding-top: 10px;
 }
 
 /* layouts */
