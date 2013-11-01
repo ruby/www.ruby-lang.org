@@ -18,14 +18,6 @@ body {
   font-size: 170%;
   margin-top: 1.5em;
 }
-#content h3 {
-  color: #c61a1a;
-  font-weight: normal;
-  font-size: 170%;
-  line-height: 110%;
-  /*margin-top: 1.5em;*/
-  margin-bottom: .75em;
-}
 #content .post {
   margin-bottom: 2em;
 }

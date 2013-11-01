@@ -12,13 +12,7 @@
   display: inline;
 }
 header, #main-wrapper {
-  background: white;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  width: 766px;
   overflow: auto;
-  color: black;
 }
 header .site-links {
   float: left;
@@ -46,33 +40,8 @@ header .site-links {
   width: 766px;
   margin-right: -400px;
 }
-#head-wrapper-1 {
-  background-color: #346090;
-  background-image: url(/images/blue-columns.jpg);
-  background-repeat: repeat-y;
-  background-position: center;
-  margin-left: 0px;
-  margin-bottom: 24px;
-  color: white;
-  float: left;
-  width: 100%;
-}
-#head-wrapper-2 {
-  float: left;
-  width: 100%;
-}
-#head {
-  float: left;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  width: 100%;
-}
 #head h1 {
   font-size: 240%;
-  padding-left: 32px;
-  margin: 0;
-  margin-top: 18px;
-  margin-right: 269px;
 }
 #head a { color: white; }
 #intro, #code {
@@ -80,55 +49,7 @@ header .site-links {
   float: left;
 }
 #intro {
-  color: #d3dce6;
-  font-size: 95%;
-  padding-left: 32px;
-  padding-right: 23px;
-  padding-bottom: 10px;
   width: 202px;
-}
-#intro h1 {
-  background-image: url(/images/dotted-underline.gif);
-  background-position: bottom;
-  background-repeat: repeat-x;
-  color: white;
-  font-size: 240%;
-  margin: 0;
-  margin-bottom: .5em;
-  padding: 0;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-#intro p {
-  line-height: 150%;
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-#code {
-  color: white;
-  display: block;
-  font-size: 95%;
-  line-height: 110%;
-  padding-top: 24px;
-  width: 244px;
-}
-#code code {
-  display: block;
-  font-family: "Lucida Console", Monaco, monospace;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-#code .keyword {
-  color: #f9bb00;
-}
-#code .comment {
-  color: #428bdd;
-}
-#code .string {
-  color: #00cc00;
-}
-#code .blank-line {
-  line-height: 70%;
 }
 #head .multi-page {
   float: right;
@@ -150,23 +71,7 @@ header .site-links {
   border: 2px solid #b0c5dd;
 }
 #content {
-  margin-right: 239px;
-  padding: 32px;
-  padding-top: 1px;
-  line-height: 160%;
-}
-#content h3 {
-  background-image: url(/images/dotted-underline.gif);
-  background-position: bottom;
-  background-repeat: repeat-x;
-  padding-bottom: 8px;
-}
-#content h3 a {
-  color: #c61a1a;
-  text-decoration: none;
-}
-#content h3 a:hover, #content h3 a:visited:hover {
-  color: #e85353;
+  width: 600px;
 }
 #content #news ul {
   float: left;
@@ -203,52 +108,6 @@ header .site-links {
 #content #news .more {
   clear: both;
   margin-top: 1em;
-}
-#content pre {
-  overflow: auto;
-}
-#content .highlight pre {
-  background-color: #213449;
-  background-image: url(/images/code-box-top-left.gif);
-  background-position: top left;
-  background-repeat: no-repeat;
-  color: white;
-  display: block;
-  width: 100%;
-}
-#content .highlight pre code {
-  background-image: url(/images/code-box-bottom-right.gif);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  display: block;
-  overflow: auto;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 115%;
-  line-height: 135%;
-  padding: 15px;
-}
-#content pre.code {
-  background-color: #213449;
-  background-image: url(/images/code-box-top-left.gif);
-  background-position: top left;
-  background-repeat: no-repeat;
-  color: white;
-  display: block;
-  width: 100%;
-}
-#content pre.code code {
-  background-image: url(/images/code-box-bottom-right.gif);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  display: block;
-  overflow: auto;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 115%;
-  line-height: 135%;
-  padding: 15px;
-}
-#content pre.code.xml-code .string {
-  color: #fff;
 }
 #content dl dt {
   font-family: Georgia, Palatino, "Times New Roman", Times, serif;
@@ -351,34 +210,4 @@ header .site-links {
 }
 #sidebar .navigation .more {
   padding-bottom: 8px;
-}
-#sidebar .navigation .menu a,
-#sidebar .navigation .more a {
-  text-decoration: none;
-}
-#sidebar .navigation .menu a:hover,
-#sidebar .navigation .menu a:visited:hover,
-#sidebar .navigation .more a:hover,
-#sidebar .navigation .more a:visited:hover {
-  text-decoration: underline;
-}
-
-/* layouts */
-
-#home-page-layout #head-wrapper-1 {
-  background-image: url(/images/blue-columns-home-page.jpg);
-  margin-bottom: -5px;
-}
-#home-page-layout #head-wrapper-1:first-child {
-  margin-bottom: 24px;
-}
-#home-page-layout #head-wrapper-2 {
-  background-image: url(/images/blue-columns-top-home-page.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-}
-#home-page-layout #head {
-  background-image: url(/images/blue-columns-bottom-home-page.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
