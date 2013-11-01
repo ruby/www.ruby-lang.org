@@ -8,15 +8,9 @@ layout: default
   {% assign translated_by = site.locales.translated_by['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
+<div class="internal__sections">
   {% include title.html %}
-
-  <div id="content">
-    {{ content }}
-
-    <p class="post-info">{{ page.date | posted_by:page.author }}{% if page.translator %}<br />
-                         {{ translated_by }} {{ page.translator }}{% endif %}</p>
-  </div>
+  {{ content }}
 </div>
 
 <div id="sidebar-wrapper">

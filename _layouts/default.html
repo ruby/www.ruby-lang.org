@@ -4,34 +4,33 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     {% if page.title != null %}
-    <title>{{ page.title }}</title>
+      <title>{{ page.title }}</title>
     {% else %}
-    <title>Ruby Programming Language</title>
+      <title>Ruby Programming Language</title>
     {% endif %}
     <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
     <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/application.css" />
-
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/highlight.pack.js"></script>
     <script type="text/javascript" src="/javascripts/page.js"></script>
     {% if page.javascript != null %}
     {% for javascript in page.javascript %}
-    <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
+      <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
     {% endfor %}
     {% endif %}
   </head>
 
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
-  <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
+  <body{% if page.url == homepage_url %} class='home'{% else %} class='internal' {% endif %}>
     <header>
       {% include header.html %}
     </header>
 
-    <div class='l-wrap'>
+    <div class='main'>
       {{ content }}
     </div>
 

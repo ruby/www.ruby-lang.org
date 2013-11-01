@@ -8,17 +8,14 @@ layout: default
   {% assign locales = site.locales.news['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
+<div class='internal__sections'>
   {% include title.html %}
 
-  <div id="content">
     {% for post in page.posts %}
     <div class="post">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-      <p>
-      {{ post.excerpt | markdownify }}
-      </p>
+      <p>{{ post.excerpt | markdownify }}</p>
 
       <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
 
@@ -31,7 +28,6 @@ layout: default
     <p>
       <a href="../">&lt;&lt; {{ locales.back_to_year | replace:'%Y',year_string }}</a>
     </p>
-  </div>
 </div>
 
 <div id="sidebar-wrapper">

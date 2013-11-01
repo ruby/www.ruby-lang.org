@@ -41,6 +41,7 @@ header .site-links {
 #head a { color: white; }
 #intro, #code {
   display: inline;
+  display: none;
   float: left;
 }
 #intro {
@@ -58,12 +59,6 @@ header .site-links {
   padding: 3px;
   padding-left: 6px;
   padding-right: 6px;
-}
-#head .multi-page strong {
-  border: 2px solid #b0c5dd;
-}
-#content {
-  width: 600px;
 }
 #content #news ul {
   float: left;
@@ -126,10 +121,6 @@ header .site-links {
 }
 #sidebar .navigation {
   margin-bottom: 22px;
-}
-#sidebar .navigation h3 strong {
-  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
-  font-size: 130%;
 }
 #sidebar .navigation ul,
 #sidebar .navigation ul li {

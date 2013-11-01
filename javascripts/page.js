@@ -3,9 +3,9 @@ var Page = {
     highlight: function() {
       var current_page = location.pathname;
 
-      $("div.site-links a").each(function(i) {
+      $('.header__nav__link').each(function(i) {
         if (current_page.indexOf($(this).attr('href')) == 0) {
-          $(this).css('font-weight', 'bold');
+          $(this).css('color', '#19ada1');
         }
       });
     }

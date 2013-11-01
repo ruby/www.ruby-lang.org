@@ -8,24 +8,22 @@ layout: default
   {% assign locales = site.locales.news['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
+<div class='internal__sections'>
   {% include title.html %}
 
-  <div id="content">
-    {% for post in page.posts %}
-    <div class="post">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  {% for post in page.posts %}
+  <div class="post">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-      <p>
-      {{ post.excerpt | markdownify }}
-      </p>
+    <p>
+    {{ post.excerpt | markdownify }}
+    </p>
 
-      <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
+    <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
 
-      <p class="post-info">{{ post.date | posted_by:post.author }}</p>
-    </div>
-    {% endfor %}
+    <p class="post-info">{{ post.date | posted_by:post.author }}</p>
   </div>
+  {% endfor %}
 </div>
 
 <div id="sidebar-wrapper">
