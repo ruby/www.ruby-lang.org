@@ -35,11 +35,6 @@ header .site-links {
   margin-right: auto;
   text-align: center;
 }
-#content-wrapper {
-  float: left;
-  width: 766px;
-  margin-right: -400px;
-}
 #head h1 {
   font-size: 240%;
 }
@@ -57,9 +52,6 @@ header .site-links {
   margin-top: 18px;
   margin-right: 269px;
   padding-top: 1em;
-}
-#head .multi-page .separator {
-  display: none;
 }
 #head .multi-page a,
 #head .multi-page strong {
@@ -82,41 +74,9 @@ header .site-links {
   padding: 0;
   width: 220px;
 }
-#content #news ul li {
-  background-image: url(/images/bullet.gif);
-  background-position: left top;
-  background-repeat: no-repeat;
-  display: block;
-  list-style: none;
-  margin: 0;
-  margin-top: .25em;
-  margin-bottom: .75em;
-  padding: 0;
-  padding-left: 12px;
-}
-#content #news ul a {
-  display: block;
-  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
-  font-size: 125%;
-  line-height: 110%;
-  text-decoration: none;
-}
-#content #news ul a:hover,
-#content #news ul a:visited:hover {
-  text-decoration: underline;
-}
 #content #news .more {
   clear: both;
   margin-top: 1em;
-}
-#content dl dt {
-  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 120%;
-  margin-top: 1em;
-}
-#content dl dd {
-  margin-left: 1.5em;
 }
 #content .error {
   color: red;
@@ -144,8 +104,10 @@ header .site-links {
   font-size: 130%;
 }
 #sidebar-wrapper {
-  float: right;
   width: 237px;
+  position: absolute;
+  top: 5em;
+  right: 5em;
 }
 #sidebar {
   font-size: 85%;
@@ -153,16 +115,6 @@ header .site-links {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-}
-#sidebar h3 {
-  background-image: url(/images/dotted-underline.gif);
-  background-position: bottom;
-  background-repeat: repeat-x;
-  color: #333333;
-  font-size: 130%;
-  margin-top: 2.5em;
-  margin-bottom: .5em;
-  padding-bottom: 4px;
 }
 #sidebar ul, #sidebar ul li {
   margin-left: .75em;
@@ -175,23 +127,6 @@ header .site-links {
 #sidebar .navigation {
   margin-bottom: 22px;
 }
-#sidebar .navigation h3,
-#sidebar .navigation ul li,
-#sidebar .navigation .more {
-  margin: 0;
-  padding: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-#sidebar .navigation h3 {
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  font-weight: normal;
-  background: #1a4676;
-  color: white;
-  margin: 0;
-  padding-bottom: 5px;
-}
 #sidebar .navigation h3 strong {
   font-family: Georgia, Palatino, "Times New Roman", Times, serif;
   font-size: 130%;
@@ -200,13 +135,6 @@ header .site-links {
 #sidebar .navigation ul li {
   list-style: none;
   margin: 0;
-}
-#sidebar .navigation ul li {
-  background-color: #cbdff6;
-  background-image: url(/images/dark-dotted-underline.gif);
-  background-position: bottom;
-  background-repeat: repeat-x;
-  padding-bottom: 8px;
 }
 #sidebar .navigation .more {
   padding-bottom: 8px;

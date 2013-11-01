@@ -171,6 +171,21 @@ a {
 a:hover {
   color: #fcb113;
 }
+
+/* line 55, /Users/acheung/work/ruby-lang/assets/stylesheets/base.sass */
+li {
+  margin-bottom: 28px;
+  margin-left: 1em;
+  padding-left: 0.5em;
+  list-style-type: circle;
+}
+
+/* line 62, /Users/acheung/work/ruby-lang/assets/stylesheets/base.sass */
+pre code {
+  margin-bottom: 28px;
+  font-size: 15px;
+  overflow: auto;
+}
 /* line 10, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
 .nav {
   max-width: 200px;
@@ -221,17 +236,16 @@ a:hover {
   margin-left: auto;
   width: 90%;
   max-width: 960px;
-  overflow: auto;
 }
 
-/* line 18, /Users/acheung/work/ruby-lang/assets/stylesheets/layout.sass */
+/* line 17, /Users/acheung/work/ruby-lang/assets/stylesheets/layout.sass */
 .l-wrap--half {
   margin-right: auto;
   margin-left: auto;
   width: 90%;
 }
 @media (min-width: 550px) {
-  /* line 18, /Users/acheung/work/ruby-lang/assets/stylesheets/layout.sass */
+  /* line 17, /Users/acheung/work/ruby-lang/assets/stylesheets/layout.sass */
   .l-wrap--half {
     max-width: 450px;
   }
@@ -951,21 +965,6 @@ header {
 }
 
 /* line 58, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
-.internal__code {
-  margin-bottom: 28px;
-  font-size: 15px;
-  overflow: auto;
-}
-
-/* line 63, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
-.internal__list__item {
-  margin-bottom: 28px;
-  margin-left: 1em;
-  padding-left: 0.5em;
-  list-style-type: circle;
-}
-
-/* line 70, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
 .internal__image {
   width: 100%;
   margin-bottom: 28px;
