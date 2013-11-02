@@ -67,7 +67,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 1.0.2)
   kramdown
-  liquid (>= 2.5.3)
   mina
   rack-jekyll
   rake (~> 10.0)
