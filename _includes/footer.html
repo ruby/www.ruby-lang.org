@@ -1,21 +1,19 @@
-<p>
-Content available in
-<a href="/bg/">Bulgarian</a>,
-<a href="/de/">German</a>,
-<a href="/en/">English</a>,
-<a href="/es/">Spanish</a>,
-<a href="/fr/">French</a>,
-<a href="/id/">Bahasa Indonesia</a>,
-<a href="/it/">Italian</a>,
-<a href="/ja/">Japanese</a>,
-<a href="/ko/">Korean</a>,
-<a href="/pl/">Polish</a>,
-<a href="/pt/">Portuguese</a>,
-<a href="/tr/">Turkish</a>,
-<a href="/vi/">Vietnamese</a>,
-<a href="/zh_cn/">Simplified Chinese</a>,
-and <a href="/zh_tw/">Traditional Chinese</a>.
-</p>
+{%  if site.locales.localelinks %}
+  {% assign locale_intro = site.locales.localelinks[page.lang].intro %}
+  {% assign locale_conjunction = site.locales.localelinks[page.lang].conjunction %}
+  {% assign locale_separator = site.locales.localelinks[page.lang].separator %}
+  {% assign locale_full_stop = site.locales.localelinks[page.lang].full_stop %}
+  
+  <p>{{locale_intro}}
+  {% for item in site.locales.localelinks %}
+    {% if forloop.last %}
+      {{locale_conjunction}}<a href="{{ item[1]['url'] }}">{{ item[1]['text'] }}</a>{{locale_full_stop}}
+    {% else %}
+      <a href="{{ item[1]['url'] }}">{{ item[1]['text'] }}</a>{{locale_separator}}
+    {% endif %}
+  {% endfor %}
+  </p>
+{% endif %}
 
 {% if site.locales.credits[page.lang] %}
   <p>{{ site.locales.credits[page.lang] }}</p>

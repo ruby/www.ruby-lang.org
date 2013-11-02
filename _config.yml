@@ -56,6 +56,112 @@ downloads:
       zip: https://ftp.ruby-lang.org/pub/ruby/snapshot.zip
 
 locales:
+  localelinks:
+    bg:
+        intro: "Съдържание на разположение в "
+        separator: ", "
+        conjunction: " и "
+        full_stop: "."
+        text: български
+        url: /bg/
+    de:
+        intro: "Inhalt ist verfügbar in "
+        separator: ", "
+        conjunction: " und "
+        full_stop: "."
+        text: Deutsch
+        url: /de/
+    en:
+        intro: "Content available in "
+        separator: ", "
+        conjunction: " and "
+        full_stop: "."
+        text: English
+        url: /en/
+    es:
+        intro: "Contenido disponible en "
+        separator: ", "
+        conjunction: " y "
+        full_stop: "."
+        text:  Español
+        url: /es/
+    fr:
+        intro: "Contenu disponible en "
+        separator: ", "
+        conjunction: " et "
+        full_stop: "."
+        text: Français
+        url: /fr/
+    id:
+        intro: "Konten yang tersedia di "
+        separator: ", "
+        conjunction: " and "
+        full_stop: "."
+        text: Bahasa Indonesia
+        url: /id/
+    it:
+        intro: "Contenuto disponibile in "
+        separator: ", "
+        conjunction: " e "
+        full_stop: "."
+        text: Italiano
+        url: /it/
+    ja:
+        intro: "で利用可能なコンテンツ "
+        separator: ", "
+        conjunction: " と "
+        full_stop: "."
+        text: 日本人
+        url: /ja/
+    ko:
+        intro: "에서 사용할 수있는 콘텐츠 "
+        separator: ", "
+        conjunction: " 과 "
+        full_stop: "."
+        text: 한국의
+        url: /ko/
+    pl:
+        intro: "Zawartość dostępna w "
+        separator: ", "
+        conjunction: " i "
+        full_stop: "."
+        text: Polski
+        url: /pl/
+    pt:
+        intro: "Conteúdo disponível em "
+        separator: ", "
+        conjunction: " e "
+        full_stop: "."
+        text: Português
+        url: /pt/
+    tr:
+        intro: "Mevcut İçerik "
+        separator: ", "
+        conjunction: " ve "
+        full_stop: "."
+        text: Türk
+        url: /tr/
+    vi:
+        intro: "Nội dung có sẵn trong "
+        separator: ", "
+        conjunction: " và "
+        full_stop: "."
+        text: Việt
+        url: /vi/
+    zh_cn:
+        intro: "内容提供 "
+        separator: ", "
+        conjunction: " 和 "
+        full_stop: "."
+        text: 中国的
+        url: /zh_cn/
+    zh_tw:
+        intro: "內容提供 "
+        separator: ", "
+        conjunction: " 和 "
+        full_stop: "."
+        text: 中國的
+        url: /zh_tw/
   sitelinks:
     bg:
       - text: За сваляне
