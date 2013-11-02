@@ -22,7 +22,7 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.7.0)
     kramdown (1.2.0)
-    liquid (2.5.2)
+    liquid (2.5.3)
     maruku (0.6.1)
       syntax (>= 1.0.0)
     mina (0.3.0)
@@ -58,6 +58,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (>= 1.0.2)
   kramdown
+  liquid (>= 2.5.3)
   mina
   rack-jekyll
   rake (~> 10.0)
