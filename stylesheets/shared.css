@@ -2,7 +2,7 @@
   shared.css - styles shared between print and high
 */
 
-.internal .main {
+.internal {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 2.75em;

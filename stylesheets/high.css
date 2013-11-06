@@ -35,10 +35,6 @@ header .site-links {
   margin-right: auto;
   text-align: center;
 }
-#head h1 {
-  font-size: 240%;
-}
-#head a { color: white; }
 #intro, #code {
   display: inline;
   display: none;
