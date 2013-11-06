@@ -25,12 +25,12 @@
 
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
-  <body{% if page.url == homepage_url %} class='home'{% else %} class='internal' {% endif %}>
+  <body>
     <header>
       {% include header.html %}
     </header>
 
-    <div class='main'>
+    <div{% if page.url == homepage_url %} class='home'{% else %} class='internal' {% endif %}>
       {{ content }}
     </div>
 
