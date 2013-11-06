@@ -7,6 +7,7 @@ gem 'kramdown'
 # for heroku
 gem 'thin'
 gem 'rack-jekyll'
+gem 'rack-rewrite'
 
 group :development do
   gem 'mina'
