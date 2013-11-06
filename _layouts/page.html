@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<div class='main internal__sections'>
+{% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
+
+<div{% if page.url == homepage_url %} class='main'{% else %} class='main internal__sections' {% endif %}>
   {% include title.html %}
   {{ content }}
 </div>

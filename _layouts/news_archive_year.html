@@ -28,16 +28,9 @@ layout: default
   </div>
 </div>
 
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation">
-      <h3><strong>{{ locales.monthly_archives }}</strong></h3>
-
-      <ul class="menu">
-      {% for month in page.months %}
-      <li><a href="{{ month[0] }}/">{{ month[1] }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
+<div class='sidebar__nav'>
+  <h2 class='sidebar__nav__header'>{{ locales.monthly_archives }}</h2>
+  {% for month in page.months %}
+  <a href="{{ month[0] }}/" class='sidebar__nav__link'>{{ month[1] }}</a>
+  {% endfor %}
 </div>

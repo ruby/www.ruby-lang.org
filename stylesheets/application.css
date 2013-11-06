@@ -961,8 +961,12 @@ header {
   color: #29272b;
 }
 
+/* line 25, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+.internal {
+  overflow: auto;
+}
 @media (min-width: 1000px) {
-  /* line 25, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+  /* line 27, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
   .internal .main {
     padding-left: 140px;
     max-width: 600px;
@@ -970,19 +974,14 @@ header {
 }
 
 @media (min-width: 1000px) {
-  /* line 31, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+  /* line 33, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
   .internal__sections {
     padding-left: 140px;
+    float: left;
     max-width: 560px;
   }
 }
-
-/* line 50, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
-.internal__section {
-  margin-bottom: 2.75em;
-}
-
-/* line 54, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+/* line 38, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
 .internal__sections h1, .internal__sections h2, .internal__sections h3, .internal__sections h4, .internal__sections h5, .internal__sections h6 {
   padding-top: 0.75em;
   padding-bottom: 0.75em;
@@ -990,53 +989,58 @@ header {
   line-height: 1.25;
 }
 @media (max-width: 800px) {
-  /* line 61, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+  /* line 45, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
   .internal__sections h1 {
     font-size: 32px;
   }
 }
 @media (min-width: 800px) {
-  /* line 61, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+  /* line 45, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
   .internal__sections h1 {
     font-size: 48px;
   }
 }
 @media (max-width: 800px) {
-  /* line 67, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+  /* line 51, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
   .internal__sections h2, .internal__sections h3, .internal__sections h4, .internal__sections h5, .internal__sections h6 {
     font-size: 24px;
   }
 }
 @media (min-width: 800px) {
-  /* line 67, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+  /* line 51, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
   .internal__sections h2, .internal__sections h3, .internal__sections h4, .internal__sections h5, .internal__sections h6 {
     font-size: 32px;
   }
 }
-/* line 73, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+/* line 57, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
 .internal__sections ul ul, .internal__sections dd {
   margin-bottom: 28px;
 }
-/* line 76, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+/* line 60, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
 .internal__sections li {
   margin-top: 28px;
   margin-left: 1em;
   padding-left: 0.5em;
   list-style-type: circle;
 }
-/* line 82, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+/* line 66, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
 .internal__sections li:last-child {
   margin-bottom: 28px;
 }
-/* line 85, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+/* line 69, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
 .internal__sections img {
   width: 100%;
 }
-/* line 88, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+/* line 72, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
 .internal__sections sup {
   position: relative;
   top: 0.25em;
   font-size: 0.75em;
+}
+
+/* line 77, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/internal.sass */
+.internal__section {
+  margin-bottom: 2.75em;
 }
 /* line 10, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
 .nav {

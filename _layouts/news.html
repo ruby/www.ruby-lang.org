@@ -26,18 +26,9 @@ layout: default
   {% endfor %}
 </div>
 
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation">
-      <h3><strong>{{ locales.yearly_archives }}</strong></h3>
-
-      <ul class="menu">
-      {% for year in page.years %}
-      <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-
-    {% include syndicate.html %}
-  </div>
+<div class='sidebar__nav'>
+  <h2 class='sidebar__nav__header'>{{ locales.yearly_archives }}</h2>
+  {% for year in page.years %}
+  <a href="{{ year[0] }}/" class='sidebar__nav__link'>{{ year[1] }}</a>
+  {% endfor %}
 </div>
