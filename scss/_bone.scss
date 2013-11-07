@@ -1,0 +1,61 @@
+@mixin bone($main-width, $head-code-width, $sidebar-width) {
+    // Header
+    #header {
+        min-width: $main-width;
+
+        & > .inner {
+            width: $main-width;
+        }
+    }
+
+    // Site links
+    .site-links {
+        min-width: $main-width;
+
+        & > .inner {
+            left: 50%;
+            margin: 0 0 0 (-$main-width / 2);
+            position: absolute;
+        }
+    }
+
+    // Head
+    #head {
+        min-width: $main-width;
+
+        & > .inner {
+            width: $main-width;
+        }
+    }
+    #intro {
+        width: $main-width - $head-code-width;
+    }
+    #code {
+        width: $head-code-width;
+    }
+
+    // Main
+    #main {
+        width: $main-width;
+    }
+
+    // Content
+    $content-width: $main-width - $sidebar-width;
+    #content {
+        width: $content-width;
+    }
+
+    // Sidebar
+    #sidebar {
+        width: $sidebar-width;
+    }
+
+    // Footer
+    #footer {
+        min-width: $main-width;
+
+        & > .inner {
+            width: $main-width;
+        }
+    }
+}

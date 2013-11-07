@@ -1,0 +1,438 @@
+@import 'base';
+@import 'bone';
+@import 'pygments';
+@import 'util';
+
+
+@include bone(
+    $main-default-width,
+    $head-code-default-width,
+    $sidebar-default-width
+);
+
+
+// Header
+#header {
+    background-color: $header-background-color;
+
+    & > .inner {
+        margin: 0 auto;
+        padding: $header-padding;
+        position: relative;
+    }
+}
+#logo {
+    font-family: $logo-font-family;
+    height: $logo-height;
+    width: $logo-width;
+
+    a {
+        @include hires-image(
+            $logo-image,
+            $logo-image-extname,
+            $logo-image-width,
+            $logo-image-height
+        );
+
+        background-position: left center;
+        background-repeat: no-repeat;
+        color: $color;
+        display: block;
+        height: $logo-height;
+        margin: 0 auto;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .title {
+        font-size: $logo-title-font-size;
+        font-weight: bold;
+        left: $logo-image-width + $logo-image-spacing;
+        position: absolute;
+        top: $logo-title-offset;
+        white-space: nowrap;
+    }
+    .subtitle {
+        bottom: $logo-subtitle-offset;
+        font-size: $logo-subtitle-font-size;
+        left: $logo-image-width + $logo-image-spacing;
+        position: absolute;
+        white-space: nowrap;
+    }
+}
+#mobile-site-links {
+    display: none;
+}
+#search-box {
+    $search-box-inner-height: $search-box-height
+        - top($search-box-border-width)
+        - bottom($search-box-border-width);
+
+    height: $search-box-height;
+    margin-top: -$search-box-height / 2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: $search-box-width;
+
+    form {
+        background-color: $search-box-background-color;
+        border: $search-box-border-color solid $search-box-border-width;
+        border-radius: $search-box-border-radius;
+        padding: 0;
+        position: relative;
+    }
+
+    input {
+        -webkit-appearance: none;
+    }
+
+    input[type="text"] {
+        background-color: transparent !important;
+        background-position: left center;
+        background-repeat: no-repeat;
+        border-width: 0;
+        height: $search-box-inner-height;
+        margin: 0;
+        width: 100%;
+    }
+    input[type="submit"] {
+        $search-box-button-inner-height: $search-box-height
+            - top($search-box-border-width)
+            - bottom($search-box-border-width);
+
+        background-color: $search-box-button-background-color;
+        border: $search-box-button-border-color solid $search-box-border-width;
+        border-radius: 0 $search-box-border-radius $search-box-border-radius 0;
+        height: $search-box-height;
+        line-height: $search-box-button-inner-height;
+        margin: {
+            top: - top($search-box-border-width);
+            right: - right($search-box-border-width);
+            bottom: - bottom($search-box-border-width);
+            left: 0;
+        }
+        padding: $search-box-button-padding;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+// Site links
+.site-links {
+    background-color: $site-links-background-color;
+    clear: both;
+    color: $site-links-color;
+    height: $site-links-height;
+    line-height: $site-links-height;
+    overflow: hidden;
+    position: relative;
+
+    & > .inner {
+        height: 100%;
+
+        // Prevent wrapping items
+        min-width: $site-links-inner-min-width;
+    }
+
+    a {
+        border-color: $site-links-a-border-color;
+        border-style: solid;
+        border-width: 0 $site-links-separator-width 0 0;
+        display: block;
+        color: $site-links-color;
+        float: left;
+        overflow: hidden;
+        padding: $site-links-item-padding;
+        text-align: center;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    a.selected {
+        background-color: $site-links-a-selected-background-color;
+    }
+    a:first-child {
+        border-left-width: $site-links-separator-width;
+    }
+    a:hover {
+        background-color: $site-links-a-hover-background-color;
+    }
+}
+
+
+// Head
+#head {
+    @include hires-image(
+        $head-image,
+        $head-image-extname,
+        $head-image-width,
+        $head-image-height
+    );
+    background-color: $head-background-color;
+    background-position: center center;
+    background-repeat: repeat;
+    color: $head-color;
+    overflow: hidden;
+    position: relative;
+
+    & > .inner {
+        margin: 0 auto;
+        position: relative;
+    }
+
+    h1 {
+        color: $head-heading-color;
+    }
+    a {
+        color: $head-a-color;
+    }
+    a:hover {
+        background-color: $head-a-hover-background-color;
+    }
+}
+#home-page-layout #head {
+    h1 {
+        margin-top: 0;
+    }
+}
+#intro {
+    float: left;
+    padding: $head-intro-padding;
+
+    p {
+        font-size: $head-intro-p-font-size;
+    }
+}
+#code {
+    float: right;
+    font-size: $head-code-font-size;
+    overflow: hidden;
+    padding: 0;
+
+    pre {
+        border-radius: 0;
+        margin: 0;
+        padding: $head-code-padding;
+    }
+}
+
+
+// Main
+#main {
+    margin: 0 auto;
+    position: relative;
+}
+
+
+// Content
+#content {
+    float: left;
+    padding: $content-padding;
+    word-break: break-word;
+
+    h1, h2, h3, h4, h5, h6 {
+        border-bottom: $content-heading-border-color solid $content-heading-border-width;
+        color: $content-heading-color;
+
+        a {
+            color: $content-heading-a-color;
+        }
+        a:hover {
+            color: $content-heading-a-hover-color;
+        }
+    }
+    img {
+        max-width: 100%;
+    }
+    *:first-child {
+        margin-top: 0;
+    }
+
+    .post {
+        padding: $post-padding;
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+        }
+    }
+
+    .post-info {
+        color: $post-info-color;
+        font-size: $post-info-font-size;
+        text-align: right;
+    }
+}
+#news {
+    ul {
+        display: block;
+        float: left;
+        list-style-type: none;
+        margin-top: 0;
+        margin-right: $news-item-h-spacing / 2;
+        margin-left: 0;
+        padding-left: 0;
+        width: 50% - $news-item-h-spacing / 2;
+    }
+    ul + ul {
+        margin-right: 0;
+        margin-left: $news-item-h-spacing / 2;
+    }
+    li {
+        a {
+            display: block;
+        }
+    }
+    li + li {
+        margin-top: $news-item-v-spacing;
+    }
+
+    .more {
+        clear: both;
+    }
+}
+
+
+// Sidebar
+#sidebar {
+    background-color: $sidebar-background-color;
+    border: $sidebar-border-color solid $sidebar-border-width;
+    color: $sidebar-color;
+    float: right;
+    margin: $sidebar-margin;
+    padding: $sidebar-padding;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $sidebar-heading-color;
+        font-size: $sidebar-h3-font-size;
+    }
+
+    .item {
+        border-color: $sidebar-item-separator-color;
+        border-style: solid;
+        border-width: 0 0 $sidebar-item-separator-width;
+        padding: $sidebar-item-padding;
+
+        &:first-child {
+            padding-top: 0;
+        }
+        &:last-child {
+            border-width: 0;
+            padding-bottom: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
+        ul {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+// Footer
+#footer {
+    @include hires-image(
+        $footer-image,
+        $footer-image-extname,
+        $footer-image-width,
+        $footer-image-height
+    );
+
+    background-color: $footer-background-color;
+    background-position: center center;
+    background-repeat: repeat;
+    color: $footer-color;
+    font-size: $footer-font-size;
+    position: relative;
+
+    a {
+        color: $footer-a-color;
+    }
+    a:hover {
+        background-color: $footer-a-hover-background-color;
+    }
+
+    & > .inner {
+        margin: 0 auto;
+        padding: $footer-padding;
+    }
+}
+
+
+// For text-based browsers
+.text-separator {
+    display: none;
+}
+
+
+// Misc
+hr.shadow {
+    background: url($shadow-image) repeat left top;
+    border: none;
+    clear: both;
+    height: $shadow-thin-width;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+
+    &.top {
+        position: absolute;
+        height: $shadow-thick-width;
+        top: 0;
+    }
+}
+a.button {
+    background-color: $a-button-background-color;
+    border-radius: $a-button-border-radius;
+    color: $a-button-color;
+    display: block;
+    height: $a-button-height;
+    line-height: $a-button-height;
+    margin: $a-button-margin;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover, &:active {
+        background-color: $a-button-hi-background-color;
+    }
+
+    span {
+        background-position: left center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: $a-button-height;
+        line-height: $a-button-height;
+        position: relative;
+    }
+    span.icon {
+        padding-left: $a-button-icon-size + $a-button-icon-spacing;
+    }
+
+    span.icon.download {
+        @include hires-image(
+            $a-button-icon-download,
+            $a-button-icon-extname,
+            $a-button-icon-size,
+            $a-button-icon-size
+        );
+
+        left: $a-button-icon-intutive-adjustment;
+    }
+}
+
+
+@media screen and (max-width: $main-default-width) {
+    @import 'mobile';
+}
+
+
+@media screen and (min-width: $main-wide-width) {
+    @include bone(
+        $main-wide-width,
+        $head-code-default-width,
+        $sidebar-wide-width
+    );
+}

@@ -2,18 +2,17 @@
 layout: default
 ---
 
-<div id="content-wrapper">
-  {% include title.html %}
+{% include title.html %}
 
-  <div id="content">
-    {{ content }}
+<div id="main">
+  <div class="inner">
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="sidebar">
+      <div class="inner">
+        {% include sidebar.html %}
+      </div>
+    </div>
   </div>
 </div>
-<hr class="hidden-modern" />
-
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    {% include sidebar.html %}
-  </div>
-</div>
-<hr class="hidden-modern" />

@@ -1,0 +1,33 @@
+body {
+  color: black;
+  font-size: 1em;
+}
+
+#head {
+  color: white;
+}
+#head h1 {
+  color: white;
+}
+#head a {
+  color: white;
+}
+
+#content .post-info {
+  color: black;
+}
+
+#sidebar {
+  color: black;
+}
+
+#footer {
+  color: black;
+}
+#footer a {
+  color: black;
+}
+
+.highlight pre code span {
+  color: white;
+}

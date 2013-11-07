@@ -1,0 +1,179 @@
+@import 'base';
+
+
+// Color
+$color: #000;
+$a-color: #00f;
+$border-color: #888;
+$info-clor: #888;
+
+// Geometry
+$border-width: 1px;
+$header-padding: 1.0em;
+$head-padding: 1.0em;
+$head-code-padding: 0.5em;
+$content-padding: 1.0em;
+$footer-padding: 1.0em;
+$hi-padding: 0.5em;
+
+
+// Base
+body {
+    background-color: transparent;
+    color: $color;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: $color;
+
+    a {
+        color: $color;
+        text-decoration: none;
+    }
+}
+pre {
+    background-color: transparent;
+    border: $border-color solid $border-width;
+    color: $color;
+}
+a {
+    color: $a-color;
+}
+
+
+// Header
+#header {
+    padding: $header-padding;
+
+    .inner {
+        width: 100%;
+    }
+}
+#logo {
+    font-family: $logo-font-family;
+    height: $logo-height;
+    width: $logo-width;
+
+    & > a {
+        color: $color;
+        display: block;
+        height: $logo-height;
+        margin: 0 auto;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .title {
+        font-size: $logo-title-font-size;
+        font-weight: bold;
+        left: 0;
+        position: absolute;
+        top: $logo-title-offset;
+        white-space: nowrap;
+    }
+    .subtitle {
+        bottom: $logo-subtitle-offset;
+        font-size: $logo-subtitle-font-size;
+        left: 0;
+        position: absolute;
+        white-space: nowrap;
+    }
+}
+#search-box {
+    display: none;
+}
+#mobile-site-links {
+    display: none;
+}
+
+
+// Site links
+.site-links {
+    display: none;
+}
+
+
+// Head
+#head {
+    .inner {
+        padding: $head-padding;
+        width: 100%;
+    }
+
+    h1 {
+        margin: 0;
+    }
+}
+#home-page-layout #head {
+    .inner {
+        padding: 0;
+    }
+}
+#intro {
+    float: left;
+    padding: $head-padding;
+    width: 50%;
+}
+#code {
+    float: right;
+    padding: $head-padding;
+    width: 50%;
+
+    pre {
+        margin: 0;
+        overflow: hidden;
+        padding: $head-code-padding;
+    }
+}
+
+
+// Main
+#main {
+    width: 100%;
+}
+
+
+// Content
+#content {
+    padding: $content-padding;
+    width: 100%;
+
+    .post:first-child h3 {
+        margin-top: 0;
+    }
+
+    .post-info {
+        color: $info-clor;
+    }
+}
+
+
+// Sidebar
+#sidebar {
+    display: none;
+}
+
+
+// Footer
+#footer {
+    & > .inner {
+        padding: $footer-padding;
+    }
+
+    a {
+        color: $color;
+    }
+}
+
+
+// Misc
+hr.shadow {
+    border-color: $border-color;
+    border-style: solid;
+    border-width: $shadow-thin-width 0 0;
+    clear: both;
+    margin: 0;
+}
+.highlight pre {
+    border: $border-color solid $border-width;
+    padding: $hi-padding;
+}

@@ -5,16 +5,16 @@
 {% endif %}
 
 {% if page.sidebar != null %}
-<div class="navigation">
+<div class="item">
   {{ page.sidebar }}
 </div>
 {% endif %}
 
 {% if sidebar.get_started != null %}
-<div class="navigation">
+<div class="item">
   <h3>{{ sidebar.get_started.text }}</h3>
 
-  <ul class="menu">
+  <ul>
     <li><a href="{{ sidebar.get_started.try_ruby.url }}">{{ sidebar.get_started.try_ruby.text }}</a></li>
 
     {% if sidebar.get_started.quickstart != null %}
@@ -29,9 +29,9 @@
 {% endif %}
 
 {% if sidebar.explore != null %}
-<div class="navigation">
+<div class="item">
   <h3>{{ sidebar.explore.text }}</h3>
-  <ul class="menu">
+  <ul>
     {% if sidebar.explore.documentation != null %}
     <li><a href="{{ sidebar.explore.documentation.url }}">{{ sidebar.explore.documentation.text }}</a></li>
     {% endif %}
@@ -52,7 +52,7 @@
 {% endif %}
 
 {% if sidebar.participate != null %}
-<div class="navigation">
+<div class="item">
   <h3>{{ sidebar.participate.text }}</h3>
   <ul>
     {% if sidebar.participate.mailing_lists != null %}

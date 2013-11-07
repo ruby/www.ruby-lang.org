@@ -1,45 +1,239 @@
-/*
-  print.css - styles for print
-*/
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 
-@import url(/stylesheets/shared.css);
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
 
-.site-links, #sidebar-wrapper,
-#search-form {
-  display: none;
+body {
+  background-color: whitesmoke;
+  color: #222222;
+  font-family: Verdana, Geneba, Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
 }
-#header {
-  border: 0px solid black;
-  border-bottom-width: 1pt;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 2em 0 0.5em;
+  padding: 0;
 }
-#content-wrapper {
-  float: left;
-  padding-bottom: 2em;
-  width: 100%;
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
 }
-#footer {
-  border: 0px solid black;
-  border-top-width: 1pt;
+
+h1 {
+  font-size: 150%;
 }
-#footer p {
-  margin-top: .5em;
+
+h2 {
+  font-size: 150%;
 }
-#code {
-  border: 1px solid gray;
-  padding: 20px;
+
+h3 {
+  font-size: 130%;
 }
-#code code {
-  display: block;
-  color: gray;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 90%;
+
+ul {
+  padding-left: 1.5em;
 }
-#code .comment {
-  color: green;
+
+dt {
+  margin-top: 1em;
 }
-#code .keyword {
+dt:first-child {
+  margin-top: 0;
+}
+
+dd {
+  margin-left: 1.5em;
+}
+
+pre {
+  background-color: #2e3238;
+  border-radius: 3px;
+  color: #f1f2f4;
+  font-family: "Lucida Console", Monaco, Courier, monospace;
+  line-height: 120%;
+  overflow: auto;
+  overflow-y: hidden;
+  padding: 8px;
+}
+
+blockquote {
+  border-left: #888888 solid 3px;
+  color: #6f6f6f;
+  margin: 1em 0;
+  padding: 8px 0 8px 1em;
+}
+blockquote > p:last-child {
+  margin: 0;
+}
+
+p {
+  line-height: 160%;
+  margin: 1em 0;
+}
+
+a {
+  color: #2e609e;
+}
+
+a:hover {
+  color: #c71a1a;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7a2fb6;
+}
+
+code {
+  font-family: "Lucida Console", Monaco, Courier, monospace;
+}
+
+body {
+  background-color: transparent;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: black;
+  text-decoration: none;
+}
+
+pre {
+  background-color: transparent;
+  border: #888888 solid 1px;
+  color: black;
+}
+
+a {
   color: blue;
 }
-#head .multi-page {
+
+#header {
+  padding: 1em;
+}
+#header .inner {
+  width: 100%;
+}
+
+#logo {
+  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+  height: 70px;
+  width: 280px;
+}
+#logo > a {
+  color: black;
+  display: block;
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+}
+#logo .title {
+  font-size: 35px;
+  font-weight: bold;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}
+#logo .subtitle {
+  bottom: 8px;
+  font-size: 14px;
+  left: 0;
+  position: absolute;
+  white-space: nowrap;
+}
+
+#search-box {
   display: none;
+}
+
+#mobile-site-links {
+  display: none;
+}
+
+.site-links {
+  display: none;
+}
+
+#head .inner {
+  padding: 1em;
+  width: 100%;
+}
+#head h1 {
+  margin: 0;
+}
+
+#home-page-layout #head .inner {
+  padding: 0;
+}
+
+#intro {
+  float: left;
+  padding: 1em;
+  width: 50%;
+}
+
+#code {
+  float: right;
+  padding: 1em;
+  width: 50%;
+}
+#code pre {
+  margin: 0;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+#main {
+  width: 100%;
+}
+
+#content {
+  padding: 1em;
+  width: 100%;
+}
+#content .post:first-child h3 {
+  margin-top: 0;
+}
+#content .post-info {
+  color: #888888;
+}
+
+#sidebar {
+  display: none;
+}
+
+#footer > .inner {
+  padding: 1em;
+}
+#footer a {
+  color: black;
+}
+
+hr.shadow {
+  border-color: #888888;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 0;
+}
+
+.highlight pre {
+  border: #888888 solid 1px;
+  padding: 0.5em;
 }

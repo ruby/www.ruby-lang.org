@@ -1,0 +1,87 @@
+$background-color: hsl(0, 0, 96%) !default;
+$color: #222 !default;
+$image-dir: '/images' !default;
+
+// Font
+$font-family-monospace: 'Lucida Console', Monaco, Courier, monospace !default;
+$font-family-sans-serif: Verdana, Geneba, Helvetica, Arial, sans-serif !default;
+$font-family-serif: Georgia, Palatino, "Times New Roman", Times, serif !default;
+$font-family: $font-family-sans-serif !default;
+
+$logo-font-family: $font-family-serif !default;
+
+// Base
+$a-color: hsl(213deg, 55%, 40%) !default;
+$a-hover-color: hsl(0, 77%, 44%) !default;
+$a-visited-color: hsl(273deg, 59%, 45%) !default;
+$a-button-background-color: $a-color !default;
+$a-button-border-color: darken($a-color, 5%) !default;
+$a-button-color: white !default;
+$a-button-hi-background-color: adjust-color($a-button-background-color, $saturation: +5%, $lightness: +10%) !default;
+$a-button-icon-extname: '.png' !default;
+$a-button-icon-download: $image-dir + '/download' !default;
+$blockquote-border-color: lighten($color, 40%) !default;
+$blockquote-color: lighten($color, 30%) !default;
+$pre-background-color: hsl(213deg, 10%, 20%) !default;
+$pre-color: lighten($pre-background-color, 75%) !default;
+
+// Header
+$header-background-color: hsl(0, 0, 93%) !default;
+$search-box-background-color: white !default;
+$search-box-border-color: darken($background-color, 20%) !default;
+$search-box-button-background-color: #ddd !default;
+$search-box-button-border-color: darken($search-box-button-background-color, 20%) !default;
+$logo-image: $image-dir + '/logo' !default;
+$logo-image-extname: '.png' !default;
+
+// Site links
+$site-links-base-hue: 0 !default;
+$site-links-background-color: hsl($site-links-base-hue, 70%, 30%) !default;
+$site-links-color: hsl($site-links-base-hue, 15%, 90%) !default;
+$site-links-a-hover-background-color: adjust-color($site-links-background-color, $saturation: 5%, $lightness: 20%) !default;
+$site-links-a-border-color: lighten($site-links-background-color, 10%) !default;
+$site-links-a-selected-background-color: adjust-color($site-links-background-color, $saturation: 5%, $lightness: 10%) !default;
+
+// Head
+$head-image: $image-dir + '/head' !default;
+$head-image-extname: '.png' !default;
+$head-image-height: 60px !default;
+$head-image-width: 35px !default;
+$head-background-color: hsl(213deg, 10%, 30%) !default;
+$head-color: lighten($head-background-color, 50%) !default;
+$head-a-color: lighten($head-background-color, 80%) !default;
+$head-a-hover-background-color: lighten($head-background-color, 20%) !default;
+$head-heading-color: lighten($head-background-color, 80%) !default;
+
+// Pygments
+$pyg-normal: $pre-color !default;
+$pyg-dark: darken($pyg-normal, 30%) !default;
+$pyg-hi-1: hsl(306deg, 25%, 70%) !default;
+$pyg-hi-2: hsl(214deg, 30%, 70%) !default;
+
+// Content
+$content-heading-border-color: darken($background-color, 10%) !default;
+$content-heading-color: hsl(0, 80%, 25%) !default;
+$content-heading-a-color: $content-heading-color !default;
+$content-heading-a-hover-color: adjust-color($content-heading-a-color, $saturation: +5%, $lightness: +15%) !default;
+
+// Sidebar
+$sidebar-background-color: darken($background-color, 3%) !default;
+$sidebar-border-color: darken($sidebar-background-color, 7%) !default;
+$sidebar-color: darken($sidebar-background-color, 45%) !default;
+$sidebar-heading-color: darken($sidebar-background-color, 70%) !default;
+$sidebar-item-separator-color: $sidebar-border-color !default;
+
+// Footer
+$footer-image: $image-dir + '/footer' !default;
+$footer-image-extname: '.png' !default;
+$footer-image-height: 60px !default;
+$footer-image-width: 35px !default;
+$footer-background-color: hsl(0, 0%, 75%) !default;
+$footer-color: darken($footer-background-color, 50%) !default;
+$footer-a-color: #333 !default;
+$footer-a-hover-background-color: lighten($footer-background-color, 10%) !default;
+
+// Misc
+$post-info-color: lighten($color, 50%) !default;
+$shadow-image: $image-dir + '/shadow.png' !default;
