@@ -306,11 +306,12 @@ header a:hover {
   border-top: 5px solid #eee;
   border-bottom: 5px solid #eee;
   background: #222;
-  line-height: 19px !important;
   font-size: 18px;
+  line-height: 22px !important;
   font-family: "Lucida Console", Monaco, monospace;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 12px 20px;
   margin: 5px 0 15px 0;
+  color: #fff;
   display: block;
   overflow: auto;
 }
