@@ -2,47 +2,56 @@
   print.css - styles for print
 */
 
-@import url(/stylesheets/shared.css);
-
 .site-links,
-#sidebar,
 #search-form,
 .site-links,
-footer {
-  display: none;
-}
-
-#content a[href^=http]:after {
-  content:" <" attr(href) "> ";
+#menu-trigger,
+#aside-trigger,
+footer,
+#head .multi-page,
+#sidebar,
+#side-entry,
+#sidr-id-side-entry,
+.recent-news,
+.sidr-class-recent-news {
+  display: none !important;
 }
 
 header {
   border-bottom: 1pt solid black;
 }
 
-.holder {
-  width: 100%;
+.holder, #content {
+  width: 90%;
   margin: 0;
-  padding: 0;
+  padding: 0 5% 0 5%;
   float: left;
+}
+
+#content {
+  min-height: auto;
 }
 
 #code {
   border: 1px solid gray;
   padding: 20px;
 }
+
 #code code {
   display: block;
   color: gray;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 90%;
 }
+
 #code .comment {
   color: green;
 }
+
 #code .keyword {
   color: blue;
 }
-#head .multi-page {
-  display: none;
+
+a[href^=http]:after {
+  content:" <" attr(href) "> ";
 }
