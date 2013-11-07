@@ -7,6 +7,7 @@
 .site-links,
 #sidebar,
 #search-form,
+.site-links,
 footer {
   display: none;
 }
