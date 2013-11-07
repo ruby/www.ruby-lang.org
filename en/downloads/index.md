@@ -55,7 +55,7 @@ For information about the Ruby Subversion and Git repositories, see our
 The Ruby source is available from a worldwide set of mirror sites.
 Please try to use a mirror that is near you.
 
-#### Mirror sites via HTTP
+Mirror sites via HTTP
 
 * [CDN][64] (fastly.com)
 * [Japan 1][63] (Master) - HTTPS
@@ -74,7 +74,7 @@ Please try to use a mirror that is near you.
 * [Taiwan 1][61] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][62] (ftp.cs.pu.edu.tw)
 
-#### Mirror sites via FTP
+Mirror sites via FTP
 
 * [Japan 1][35] (Master: ruby-lang.org)
 * [Japan 2][31] and [mirror][32] (RingServer)
@@ -93,7 +93,7 @@ Please try to use a mirror that is near you.
 * [Taiwan 2][47] (ftp.cs.pu.edu.tw)
 * [Canada][48] (mirror.cs.mun.ca)
 
-#### Mirror sites via rsync
+Mirror sites via rsync
 
 * rsync://rsync.mirrorservice.org/ftp.ruby-lang.org/pub/ruby/ (Britain)
 * rsync://sunsite.dk/ftp/mirrors/ruby/ (Denmark)

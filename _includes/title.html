@@ -1,11 +1,7 @@
-  <div id="head-wrapper-1">
-    <div id="head-wrapper-2">
-      <div id="head">
-        {% if page.header != null %}
-        {{ page.header | markdownify }}
-        {% else %}
-        <h1>{{ page.title }}</h1>
-        {% endif %}
-      </div>
-    </div>
-  </div>
+<div id="head">
+  {% if page.header != null %}
+  {{ page.header | markdownify }}
+  {% else %}
+    <h1 class='internal__section__header'>{{ page.title }}</h1>
+  {% endif %}
+</div>

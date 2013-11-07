@@ -1,24 +1,65 @@
-<p>
-Content available in
-<a href="/bg/">Bulgarian</a>,
-<a href="/de/">German</a>,
-<a href="/en/">English</a>,
-<a href="/es/">Spanish</a>,
-<a href="/fr/">French</a>,
-<a href="/id/">Bahasa Indonesia</a>,
-<a href="/it/">Italian</a>,
-<a href="/ja/">Japanese</a>,
-<a href="/ko/">Korean</a>,
-<a href="/pl/">Polish</a>,
-<a href="/pt/">Portuguese</a>,
-<a href="/tr/">Turkish</a>,
-<a href="/vi/">Vietnamese</a>,
-<a href="/zh_cn/">Simplified Chinese</a>,
-and <a href="/zh_tw/">Traditional Chinese</a>.
-</p>
+<div class='footer__navs l-wrap'>
+  <nav class='footer__nav'>
+    <h2 class='footer__nav__header'>Community</h2>
+    <a class='footer__nav__link' href='/{{ page.lang }}/libraries'>Libraries</a>
+    <a class='footer__nav__link' href='/{{ page.lang }}/community/user-groups'>Ruby User Groups</a>
+    <a class='footer__nav__link' href='/{{ page.lang }}/community/mailing-lists'>Ruby Mailing Lists &amp; Newsgroups</a>
+    <a class='footer__nav__link' href='irc://irc.freenode.net/ruby-lang'>Ruby on IRC</a>
+    <a class='footer__nav__link' href='/{{ page.lang }}/community/ruby-core'>Ruby Core</a>
+    <a class='footer__nav__link' href='/{{ page.lang }}/community/weblogs'>Ruby Blogs</a>
+    <a class='footer__nav__link' href='/{{ page.lang }}/community/conferences'>Ruby Conferences</a>
+  </nav>
+  <nav class='footer__nav'>
+    <h2 class='footer__nav__header'>News</h2>
+    {% for post in site.categories[page.lang] limit:6 %}
+      <a class='footer__nav__link' href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+  </nav>
+  <nav class='footer__nav'>
+    <h2 class='footer__nav__header'>Security</h2>
+    <a class='footer__nav__link' href='mailto:security@ruby-lang.org'>Report a Vulnerability</a>
+    <a class='footer__nav__link' href='/{{ page.lang }}/security'>Known Issues</a>
+  </nav>
+  <nav class='footer__nav'>
+    <h2 class='footer__nav__header'>Contact Us</h2>
+    <a class='footer__nav__link' href='mailto:webmaster@ruby-lang.org'>webmaster@ruby-lang.org</a>
+    <a class='footer__nav__link made-by-dockyard' href='http://www.dockyard.com/'>Designed by DockYard, Inc.</a>
+    <a class='footer__nav__link--social icon--github' data-icon='★' href='https://github.com/ruby/www.ruby-lang.org'>
+      <span class='is-hidden'>GitHub</span>
+    </a>
+    {% if site.locales.sidebar[page.lang] %}
+      {% assign syndicate = site.locales.sidebar[page.lang].syndicate %}
+    {% else %}
+      {% assign syndicate = site.locales.sidebar['en'].syndicate %}
+    {% endif %}
+    <a class='footer__nav__link--social icon' data-icon='✎' href='{{ syndicate.recent_news.url }}'>
+      <span class='is-hidden'>RSS</span>
+    </a>
+  </nav>
+  <nav class='footer__nav--wide'>
+    <h2 class='footer__nav__header'>Available Languages</h2>
+    <div class='footer__nav__links--inline'>
+      <a class='footer__nav__link--inline' href='/bg/'>Bulgarian</a>,
+      <a class='footer__nav__link--inline' href='/de/'>German</a>,
+      <a class='footer__nav__link--inline' href='/en/'>English</a>,
+      <a class='footer__nav__link--inline' href='/es/'>Spanish</a>,
+      <a class='footer__nav__link--inline' href='/fr/'>French</a>,
+      <a class='footer__nav__link--inline' href='/id/'>Bahasa Indonesia</a>,
+      <a class='footer__nav__link--inline' href='/it/'>Italian</a>,
+      <a class='footer__nav__link--inline' href='/ja/'>Japanese</a>,
+      <a class='footer__nav__link--inline' href='/ko/'>Korean</a>,
+      <a class='footer__nav__link--inline' href='/pl/'>Polish</a>,
+      <a class='footer__nav__link--inline' href='/pt/'>Portuguese</a>,
+      <a class='footer__nav__link--inline' href='/tr/'>Turkish</a>,
+      <a class='footer__nav__link--inline' href='/vi/'>Vietnamese</a>,
+      <a class='footer__nav__link--inline' href='/zh_cn/'>Simplified Chinese</a>,
+      and <a class='footer__nav__link--inline' href='/zh_tw/'>Traditional Chinese</a>.
+    </div>
+  </nav>
+</div>
 
-{% if site.locales.credits[page.lang] %}
-  <p>{{ site.locales.credits[page.lang] }}</p>
-{% else %}
-  <p>{{ site.locales.credits['en'] }}</p>
-{% endif %}
+<!--{% if site.locales.credits[page.lang] %}-->
+  <!--<p>{{ site.locales.credits[page.lang] }}</p>-->
+<!--{% else %}-->
+  <!--<p>{{ site.locales.credits['en'] }}</p>-->
+<!--{% endif %}-->

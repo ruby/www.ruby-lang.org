@@ -2,18 +2,9 @@
 layout: default
 ---
 
-<div id="content-wrapper">
+{% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
+
+<div{% if page.url == homepage_url %} class='main'{% else %} class='main internal__sections' {% endif %}>
   {% include title.html %}
-
-  <div id="content">
-    {{ content }}
-  </div>
+  {{ content }}
 </div>
-<hr class="hidden-modern" />
-
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    {% include sidebar.html %}
-  </div>
-</div>
-<hr class="hidden-modern" />

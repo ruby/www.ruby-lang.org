@@ -5,19 +5,13 @@ javascript:
  - examples
 
 sidebar: |
-  <a href="downloads/">
-    <img src="/images/download.gif" alt="Download Ruby" title="" />
-  </a>
+  <a href="downloads/">Download</a>
 
 ---
 
 {{ content }}
 
-{% assign number_of_excerpts = 4 %}
-{% assign number_of_other    = 3 %}{% comment %} number of links per column {% endcomment %}
-
-{% assign offset_other_left  = number_of_excerpts %}
-{% assign offset_other_right = number_of_excerpts | plus: number_of_other %}
+{% assign number_of_excerpts = 6 %}
 
 {% if site.locales.news[page.lang] %}
   {% assign news = site.locales.news[page.lang] %}
@@ -25,39 +19,32 @@ sidebar: |
   {% assign news = site.locales.news['en'] %}
 {% endif %}
 
-{% for post in site.categories[page.lang] limit:number_of_excerpts %}
-<div class="post">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-  {{ post.excerpt | markdownify }}
-
-  <p><a href="{{ post.url }}">{{ news.continue }}</a></p>
-
-  <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+<div class='home__intro-wrap'>
+  <div class='home__intro l-wrap--wide'>
+    <div class='home__intro__callout'>
+      <h1 class='home__intro__callout--title'>Natural to read &amp; easy to write &ndash;</h1>
+      <h5 class='home__intro__callout--desc'>dynamic, simple, productive.</h5>
+    </div>
+    <div class='home__intro__about'>
+      <pre><code class='home__intro__code ruby'>3.times do<br>&nbsp;&nbsp;puts 'Hello Ruby'<br>end<br><br>&#035;=&gt; Hello Ruby<br>&#035;=&gt; Hello Ruby<br>&#035;=&gt; Hello Ruby</code></pre>
+      <div class='home__intro__cta'>
+        <a class='home__intro__cta--about' href='/en/about'>Learn More</a>
+        <a class='home__intro__cta--try' href='http://tryruby.org/'>Try It Out</a>
+      </div>
+    </div>
+  </div>
 </div>
-{% endfor %}
 
-<div id="news">
-  <h3><a href="news/">{{ news.other_news }}</a></h3>
-  <ul>
-    {% for post in site.categories[page.lang] offset:offset_other_left limit:number_of_other %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="post-info">{{ post.date | posted_by:post.author }}</span>
-    </li>
+<section class='home__section'>
+  <div class='posts--home l-wrap'>
+    <h2 class='home__section__header'>News</h2>
+    {% for post in site.categories[page.lang] limit:number_of_excerpts %}
+      <div class='post--home'>
+        <p class='post__date'>{{ post.date | date: "%b. %e, %Y"}}</p>
+        <a class='post__title' href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt | markdownify }}
+        <p class='post__author'>by {{ post.author }}</p>
+      </div>
     {% endfor %}
-  </ul>
-
-  <ul>
-    {% for post in site.categories[page.lang] offset:offset_other_right limit:number_of_other %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="post-info">{{ post.date | posted_by:post.author }}</span>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <p class="more">
-    <a href="news/">{{ news.more_news }}</a>
-  </p>
-</div>
+  </div>
+</section>

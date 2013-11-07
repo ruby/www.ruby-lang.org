@@ -8,38 +8,23 @@ layout: default
   {% assign locales = site.locales.news['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
+<div class='internal__sections'>
   {% include title.html %}
 
-  <div id="content">
-    {% for post in page.posts %}
-    <div class="post">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-      <p>
-      {{ post.excerpt | markdownify }}
-      </p>
-
-      <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
-
-      <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+  {% for post in page.posts %}
+    <div class='post'>
+      <p class='post__date'>{{ post.date | date: "%b. %e, %Y"}}</p>
+      <a class='post__title' href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt | markdownify}}
+      <a class='post__continue' href="{{ post.url }}">{{ locales.continue }}</a>
+      <p class='post__author'>by {{ post.author }}</p>
     </div>
-    {% endfor %}
-  </div>
+  {% endfor %}
 </div>
-<hr class="hidden-modern" />
 
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation">
-      <h3><strong>{{ locales.monthly_archives }}</strong></h3>
-
-      <ul class="menu">
-      {% for month in page.months %}
-      <li><a href="{{ month[0] }}/">{{ month[1] }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
+<div class='sidebar__nav'>
+  <h2 class='sidebar__nav__header'>{{ locales.monthly_archives }}</h2>
+  {% for month in page.months %}
+    <a href="{{ month[0] }}/" class='sidebar__nav__link'>{{ month[1] }}</a>
+  {% endfor %}
 </div>
-<hr class="hidden-modern" />
