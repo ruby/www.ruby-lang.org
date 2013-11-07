@@ -2,14 +2,23 @@ var Page = {
   SiteLinks: {
     highlight: function() {
       var current_page = location.pathname;
-
-      $("div.site-links a").each(function(i) {
+      $("#header div.site-links a:not(.home)").each(function(i) {
         if (current_page.indexOf($(this).attr('href')) == 0) {
-          $(this).css('font-weight', 'bold');
+          $(this).addClass('selected');
         }
+      });
+
+      $("#home-page-layout #header div.site-links a.home").addClass('selected');
+    },
+
+    menu: function() {
+      $("#header div.site-links a.selected").click(function(event) {
+        $(this).closest("div.site-links").toggleClass("open");
+        event.preventDefault();
       });
     }
   }
 };
 
 $(Page.SiteLinks.highlight);
+$(Page.SiteLinks.menu);
