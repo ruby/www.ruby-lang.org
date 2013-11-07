@@ -16,6 +16,7 @@
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/highlight.pack.js"></script>
     <script type="text/javascript" src="/javascripts/page.js"></script>
+    <script type="text/javascript" src="/javascripts/application.js"></script>
     {% if page.javascript != null %}
     {% for javascript in page.javascript %}
       <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
@@ -26,17 +27,21 @@
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
   <body>
-    <header>
+    <div class='wrap'>
       {% include header.html %}
-    </header>
 
-    <div{% if page.url == homepage_url %} class='home'{% else %} class='internal' {% endif %}>
-      {{ content }}
+      <div{% if page.url == homepage_url %} class='home'{% else %} class='internal' {% endif %}>
+        {{ content }}
+      </div>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
     </div>
 
-    <footer>
-      {% include footer.html %}
-    </footer>
+    <header>
+      {% include mobile-header.html %}
+    </header>
 
     {% include analytics.html %}
   </body>

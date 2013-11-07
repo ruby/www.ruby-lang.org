@@ -105,8 +105,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: "icon";
   font-weight: normal;
   font-style: normal;
-  src: url("/fonts/icon.eot");
-  src: url("/fonts/icon.eot?#iefix") format("eot"), url("/fonts/icon.woff") format("woff"), url("/fonts/icon.ttf") format("truetype");
+  src: url("/fonts/icomoon.eot");
+  src: url("/fonts/icomoon.eot?#iefix") format("eot"), url("/fonts/icomoon.woff") format("woff"), url("/fonts/icomoon.ttf") format("truetype");
 }
 
 /* line 13, /Users/acheung/work/ruby-lang/assets/stylesheets/base.sass */
@@ -408,22 +408,124 @@ footer {
 }
 
 /* line 3, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-header {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  overflow: auto;
+html {
+  background-color: #343237;
 }
 
-/* line 9, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+@media (max-width: 900px) {
+  /* line 6, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  header {
+    position: relative;
+  }
+}
+
+/* line 10, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.main {
+  padding-bottom: 3em;
+}
+
+@media (min-width: 900px) {
+  /* line 13, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .header--full {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    max-width: 960px;
+  }
+}
+
+/* line 21, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.club-sandwich {
+  cursor: pointer;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+/* line 25, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.club-sandwich:hover {
+  color: #fcb113;
+}
+@media (max-width: 900px) {
+  /* line 28, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .club-sandwich:before {
+    position: absolute;
+    top: 8px;
+    right: 5%;
+    font-size: 2em;
+    font-family: "icon";
+    content: "≡";
+  }
+}
+
+/* line 37, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.wrap {
+  background-color: white;
+}
+@media (max-width: 900px) {
+  /* line 37, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .wrap {
+    margin-left: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: margin-left;
+    -moz-transition-property: margin-left;
+    -o-transition-property: margin-left;
+    transition-property: margin-left;
+  }
+}
+
+@media (max-width: 900px) {
+  /* line 49, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .header__nav__link--close:before {
+    font-size: 2em;
+    font-family: "icon";
+    content: "X";
+  }
+}
+
+@media (max-width: 900px) {
+  /* line 55, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .mobile-nav-showing {
+    margin-left: -200px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* line 59, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .mobile-nav-wrap {
+    min-height: 100%;
+    overflow: hidden;
+  }
+}
+@media (min-width: 900px) {
+  /* line 59, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .mobile-nav-wrap {
+    display: none;
+  }
+}
+
+/* line 66, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
 .logo {
-  padding-top: 8px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 4px;
   display: inline-block;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
   color: #e62c2d;
   letter-spacing: 3px;
 }
-/* line 17, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+/* line 77, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
 .logo:before {
   margin-right: 10px;
   display: block;
@@ -433,26 +535,36 @@ header {
   background-image: url(/images/logo.svg);
   content: "";
 }
-@media (min-width: 980px) {
-  /* line 9, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+@media (max-width: 900px) {
+  /* line 66, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .logo {
+    margin-left: 5%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 66, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
   .logo {
     float: left;
   }
 }
 
-@media (max-width: 980px) {
-  /* line 28, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+@media (max-width: 900px) {
+  /* line 90, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
   .header__nav {
     display: none;
   }
 }
 
-/* line 32, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-.header__nav__link {
+/* line 94, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.l-header__nav__link {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 99, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.header__nav__link, .header__nav__link--close {
   padding-top: 12px;
-  padding-bottom: 5px;
-  display: inline-block;
-  float: left;
+  padding-bottom: 10px;
   font-size: 15px;
   font-weight: 300;
   font-family: "Source Sans Pro", sans-serif;
@@ -468,72 +580,48 @@ header {
   -o-transition-property: color;
   transition-property: color;
 }
-/* line 47, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-.header__nav__link:hover {
+/* line 112, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.header__nav__link:hover, .header__nav__link--close:hover {
   color: #fcb113;
 }
-@media (max-width: 980px) {
-  /* line 32, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-  .header__nav__link {
+@media (max-width: 900px) {
+  /* line 99, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .header__nav__link, .header__nav__link--close {
+    margin-left: 44px;
     display: block;
   }
 }
-@media (min-width: 980px) {
-  /* line 32, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-  .header__nav__link {
+@media (min-width: 900px) {
+  /* line 99, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+  .header__nav__link, .header__nav__link--close {
     margin-left: 35px;
+    float: left;
+    display: inline-block;
   }
 }
 
-/* line 54, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-.header__nav__link--download {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 180px;
-  border: 1px solid #e62c2d;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  text-align: center;
-  font-weight: 300;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #e62c2d;
+/* line 122, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.mobile-nav .header__nav__link, .mobile-nav .header__nav__link--close {
+  color: white;
   -webkit-transition-duration: 0.25s;
   -moz-transition-duration: 0.25s;
   -o-transition-duration: 0.25s;
   transition-duration: 0.25s;
-  -webkit-transition-property: background-color, color;
-  -moz-transition-property: background-color, color;
-  -o-transition-property: background-color, color;
-  transition-property: background-color, color;
-  display: inline-block;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
 }
-/* line 56, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
-.header__nav__link--download:after {
-  margin-left: 0.75em;
-  position: relative;
-  top: 2px;
-  font-family: "icon";
-  content: "▶";
+/* line 126, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.mobile-nav .header__nav__link:hover, .mobile-nav .header__nav__link--close:hover {
+  color: #fcb113;
 }
-/* line 62, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
-.header__nav__link--download:hover {
-  background-color: #e62c2d;
-  color: white;
-}
-@media (max-width: 980px) {
-  /* line 54, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-  .header__nav__link--download {
-    margin-top: 1em;
-  }
-}
-@media (min-width: 980px) {
-  /* line 54, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
-  .header__nav__link--download {
-    float: right;
-  }
+
+/* line 129, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/header.sass */
+.header__nav__link--close {
+  margin-left: 35px;
+  padding-top: 6px;
+  font-size: 20px;
 }
 
 /* line 10, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
@@ -586,39 +674,45 @@ header {
 
 /* line 11, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro-wrap {
+  clear: both;
   background-color: #29272b;
 }
 
-/* line 14, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 15, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-/* line 19, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 20, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro__callout {
   text-align: center;
 }
 @media (max-width: 800px) {
-  /* line 19, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 20, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__intro__callout {
     font-size: 32px;
   }
 }
 @media (min-width: 800px) {
-  /* line 19, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 20, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__intro__callout {
     font-size: 60px;
   }
 }
 
-/* line 26, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 27, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+.home__intro__callout--title {
+  font-weight: 900;
+}
+
+/* line 30, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro__callout--desc {
   font-weight: 300;
   font-style: italic;
 }
 
-/* line 31, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 35, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro__about {
   margin-top: 32px;
   margin-right: auto;
@@ -627,10 +721,10 @@ header {
   overflow: auto;
 }
 
-/* line 39, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 43, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro__code {
   margin-bottom: 40px;
-  padding: 1em;
+  padding: 2em;
   max-width: 500px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -644,7 +738,7 @@ header {
   margin-left: auto;
 }
 @media (min-width: 980px) {
-  /* line 39, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 43, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__intro__code {
     float: left;
     width: 70%;
@@ -652,7 +746,7 @@ header {
 }
 
 @media (min-width: 980px) {
-  /* line 53, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 57, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__intro__cta {
     margin-top: 2.5em;
     float: right;
@@ -660,14 +754,14 @@ header {
   }
 }
 
-/* line 59, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 63, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro__cta--about, .home__intro__cta--try {
   margin-right: auto;
   margin-left: auto;
   display: block;
 }
 
-/* line 65, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 69, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro__cta--about {
   margin-bottom: 1.5em;
   padding-top: 10px;
@@ -706,7 +800,7 @@ header {
   color: white;
 }
 
-/* line 69, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 73, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__intro__cta--try {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -744,7 +838,7 @@ header {
   color: white;
 }
 
-/* line 72, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 76, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__section__header {
   font-size: 30px;
   font-weight: 300;
@@ -752,61 +846,31 @@ header {
   letter-spacing: 3px;
 }
 
-/* line 79, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-.home__section__date {
-  margin-bottom: 1em;
-  font-size: 13px;
-  font-weight: 300;
-  font-style: italic;
-}
-
-/* line 86, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-.home__section__author {
-  font-size: 13px;
-  font-weight: 600;
-}
-
-/* line 91, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-.home__section__title--post {
-  margin-bottom: 1em;
-  display: block;
-  text-transform: uppercase;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 900;
-  color: #29272b;
-}
-
-/* line 100, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 83, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__communities {
   overflow: auto;
 }
 
 @media (max-width: 800px) {
-  /* line 103, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 86, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__section__title--community {
     font-size: 32px;
   }
 }
 @media (min-width: 800px) {
-  /* line 103, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 86, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__section__title--community {
     font-size: 48px;
   }
 }
 
-/* line 109, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-.home__section__desc {
-  margin-bottom: 1em;
-  font-size: 13px;
-}
-
 @media (min-width: 550px) {
-  /* line 113, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 92, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__community-wrap {
     width: 50%;
   }
 }
-/* line 116, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 95, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__community-wrap:first-child {
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #4d2337), color-stop(100%, #b62b2c));
   background-image: -webkit-linear-gradient(left top, #4d2337, #b62b2c);
@@ -815,17 +879,17 @@ header {
   background-image: linear-gradient(left top, #4d2337, #b62b2c);
 }
 @media (min-width: 550px) {
-  /* line 116, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 95, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__community-wrap:first-child {
     float: left;
   }
-  /* line 120, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 99, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__community-wrap:first-child section {
     margin-right: 10%;
     float: right;
   }
 }
-/* line 123, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+/* line 102, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
 .home__community-wrap:last-child {
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #744f5f), color-stop(100%, #c25556));
   background-image: -webkit-linear-gradient(left top, #744f5f, #c25556);
@@ -834,65 +898,13 @@ header {
   background-image: linear-gradient(left top, #744f5f, #c25556);
 }
 @media (min-width: 550px) {
-  /* line 123, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 102, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__community-wrap:last-child {
     float: right;
   }
-  /* line 127, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
+  /* line 106, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
   .home__community-wrap:last-child section {
     margin-left: 10%;
-  }
-}
-
-/* line 130, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-.home__posts {
-  overflow: auto;
-}
-
-/* line 133, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-.home__post {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
-@media (max-width: 550px) {
-  /* line 138, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post:not(:last-child) {
-    border-bottom: 1px solid #ebebeb;
-  }
-}
-@media (min-width: 550px) and (max-width: 800px) {
-  /* line 133, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post {
-    float: left;
-    width: 47.5%;
-  }
-  /* line 143, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post:nth-child(even) {
-    margin-right: 5%;
-    clear: both;
-  }
-  /* line 146, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post:nth-child(n+4) {
-    border-top: 1px solid #ebebeb;
-  }
-}
-@media (min-width: 800px) {
-  /* line 133, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post {
-    float: left;
-    width: 30%;
-  }
-  /* line 151, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post:not(:nth-child(3n+1)) {
-    margin-right: 5%;
-  }
-  /* line 153, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post:nth-child(n+5) {
-    border-top: 1px solid #ebebeb;
-  }
-  /* line 155, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/home.sass */
-  .home__post:nth-child(5) {
-    clear: both;
   }
 }
 /* line 10, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
@@ -1079,6 +1091,131 @@ header {
   color: #fcb113;
 }
 
+/* line 3, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.post__date, .post__title, .post__author {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* line 6, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.post__date {
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* line 11, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.post__title {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px;
+  color: #29272b;
+}
+
+/* line 19, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.post__author {
+  font-weight: 600;
+}
+
+/* line 22, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.posts--home {
+  overflow: auto;
+}
+
+/* line 25, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.post__title, .post p, .post--home p, .post__continue {
+  margin-bottom: 13px;
+}
+
+/* line 28, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.post__continue {
+  display: block;
+}
+
+/* line 31, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+.post, .post--home {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-size: 13px;
+}
+
+@media (max-width: 550px) {
+  /* line 40, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home:not(:last-child) {
+    border-bottom: 1px solid #ebebeb;
+  }
+}
+@media (min-width: 550px) and (max-width: 800px) {
+  /* line 37, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home {
+    float: left;
+    width: 47.5%;
+  }
+  /* line 45, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home:nth-child(even) {
+    margin-right: 5%;
+    clear: both;
+  }
+  /* line 48, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home:nth-child(n+4) {
+    border-top: 1px solid #ebebeb;
+  }
+}
+@media (min-width: 800px) {
+  /* line 37, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home {
+    float: left;
+    width: 30%;
+  }
+  /* line 53, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home:not(:nth-child(3n+1)) {
+    margin-right: 5%;
+  }
+  /* line 55, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home:nth-child(n+5) {
+    border-top: 1px solid #ebebeb;
+  }
+  /* line 57, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/post.sass */
+  .post--home:nth-child(5) {
+    clear: both;
+  }
+}
+/* line 10, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
+.nav {
+  max-width: 200px;
+}
+
+/* line 13, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
+.nav__header {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-width: 1px;
+  border-bottom-style: solid;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+/* line 23, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
+.nav__link {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: block;
+  font-size: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+}
+/* line 33, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
+.nav__link:hover {
+  color: #fcb113;
+}
+
 /* line 3, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/shared.sass */
 .is-hidden {
   display: block;
@@ -1106,11 +1243,6 @@ header {
 /* line 17, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/shared.sass */
 .icon--github {
   font-size: 15px;
-}
-
-/* line 21, /Users/acheung/work/ruby-lang/assets/stylesheets/modules/shared.sass */
-.main {
-  padding-bottom: 3em;
 }
 /* line 10, /Users/acheung/work/ruby-lang/assets/stylesheets/load.sass */
 .nav {

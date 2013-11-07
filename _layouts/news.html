@@ -12,23 +12,19 @@ layout: default
   {% include title.html %}
 
   {% for post in page.posts %}
-  <div class="post">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-    <p>
-    {{ post.excerpt | markdownify }}
-    </p>
-
-    <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
-
-    <p class="post-info">{{ post.date | posted_by:post.author }}</p>
-  </div>
+    <div class='post'>
+      <p class='post__date'>{{ post.date | date: "%b. %e, %Y"}}</p>
+      <a class='post__title' href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt | markdownify}}
+      <a class='post__continue' href="{{ post.url }}">{{ locales.continue }}</a>
+      <p class='post__author'>by {{ post.author }}</p>
+    </div>
   {% endfor %}
 </div>
 
 <div class='sidebar__nav'>
   <h2 class='sidebar__nav__header'>{{ locales.yearly_archives }}</h2>
   {% for year in page.years %}
-  <a href="{{ year[0] }}/" class='sidebar__nav__link'>{{ year[1] }}</a>
+    <a href="{{ year[0] }}/" class='sidebar__nav__link'>{{ year[1] }}</a>
   {% endfor %}
 </div>
