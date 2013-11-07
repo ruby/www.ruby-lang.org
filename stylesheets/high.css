@@ -79,11 +79,13 @@ header .site-links {
   width: 100%;
 }
 #subscriptions-form .fieldset td {
-  background-image: url(/images/dark-dotted-underline.gif);
-  background-position: bottom;
-  background-repeat: repeat-x;
-  padding: 5px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-bottom: 18px;
+}
+#subscriptions-form .fieldset input {
+  padding: 9px;
+  width: 200px;
+  border: 1px solid lightgray;
 }
 #content .fieldset td.label {
   text-align: right;

@@ -1,28 +1,30 @@
-<div class='header--full'>
-  <a class='logo' href='/{{ page.lang }}/' alt="{{ site.locales.slogan[page.lang] }}">Ruby</a>
-  <div class='club-sandwich'></div>
-  <!--<nav class='header__nav'>-->
-    <!--{% if site.locales.sitelinks[page.lang] %}-->
-      <!--{% assign sitelinks = site.locales.sitelinks[page.lang] %}-->
-    <!--{% else %}-->
-      <!--{% assign sitelinks = site.locales.sitelinks['en'] %}-->
-    <!--{% endif %}-->
+<div class='header--full-wrap'>
+  <div class='header--full'>
+    <a class='logo' href='/{{ page.lang }}/' alt="{{ site.locales.slogan[page.lang] }}">Ruby</a>
+    <div class='club-sandwich'></div>
+    <!--<nav class='header__nav'>-->
+      <!--{% if site.locales.sitelinks[page.lang] %}-->
+        <!--{% assign sitelinks = site.locales.sitelinks[page.lang] %}-->
+      <!--{% else %}-->
+        <!--{% assign sitelinks = site.locales.sitelinks['en'] %}-->
+      <!--{% endif %}-->
 
-    <!--{% for link in sitelinks %}-->
-      <!--<a class='header__nav__link' href="{{ link.url }}/">{{ link.text }}</a>-->
-    <!--{% endfor %}-->
-  <!--</nav>-->
+      <!--{% for link in sitelinks %}-->
+        <!--<a class='header__nav__link' href="{{ link.url }}/">{{ link.text }}</a>-->
+      <!--{% endfor %}-->
+    <!--</nav>-->
 
-  <header>
-    <nav class='header__nav'>
-      <a class='header__nav__link l-header__nav__link' href='/en/about'>About</a>
-      <a class='header__nav__link l-header__nav__link' href='/en/documentation'>Documentation</a>
-      <a class='header__nav__link l-header__nav__link' href='/en/community'>Community</a>
-      <a class='header__nav__link l-header__nav__link' href='/en/news'>News</a>
-      <a class='header__nav__link l-header__nav__link' href='/en/downloads'>Downloads</a>
-      <a class='header__nav__link l-header__nav__link icon' data-icon='★' href='https://github.com/ruby/www.ruby-lang.org'>
-        <span class='is-hidden'>GitHub</span>
-      </a>
-    </nav>
-  </header>
+    <header>
+      <nav class='header__nav'>
+        <a class='header__nav__link l-header__nav__link' href='/en/about'>About</a>
+        <a class='header__nav__link l-header__nav__link' href='/en/documentation'>Documentation</a>
+        <a class='header__nav__link l-header__nav__link' href='/en/community'>Community</a>
+        <a class='header__nav__link l-header__nav__link' href='/en/news'>News</a>
+        <a class='header__nav__link l-header__nav__link' href='/en/downloads'>Downloads</a>
+        <a class='header__nav__link l-header__nav__link icon' data-icon='★' href='https://github.com/ruby/www.ruby-lang.org'>
+          <span class='is-hidden'>GitHub</span>
+        </a>
+      </nav>
+    </header>
+  </div>
 </div>

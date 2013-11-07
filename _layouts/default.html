@@ -28,9 +28,9 @@
 
   <body>
     <div class='wrap'>
-      {% include header.html %}
 
       <div{% if page.url == homepage_url %} class='home'{% else %} class='internal' {% endif %}>
+        {% include header.html %}
         {{ content }}
       </div>
 
@@ -44,5 +44,9 @@
     </header>
 
     {% include analytics.html %}
+
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </body>
 </html>
