@@ -1,0 +1,43 @@
+// Color
+$lv-color: black;
+$lv-pre-color: white;
+$lv-head-color: white;
+$lv-footer-color: black;
+
+// Geometry
+$lv-font-size: 1.0em;
+
+
+body {
+    color: $lv-color;
+    font-size: $lv-font-size;
+}
+
+#head {
+    color: $lv-head-color;
+
+    h1 {
+        color: $lv-head-color;
+    }
+    a {
+        color: $lv-head-color;
+    }
+}
+#content {
+    .post-info {
+        color: $lv-color;
+    }
+}
+#sidebar {
+    color: $lv-color;
+}
+#footer {
+    color: $lv-footer-color;
+
+     a {
+         color: $lv-footer-color;
+     }
+}
+.highlight pre code span {
+    color: $lv-pre-color;
+}

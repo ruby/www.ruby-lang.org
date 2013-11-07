@@ -1,0 +1,101 @@
+@import 'decoration';
+@import 'geometry';
+@import 'util';
+
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    background-color: $background-color;
+    color: $color;
+    font-family: $font-family;
+    font-size: $font-size;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-serif;
+    font-size: $heading-default-font-size;
+    font-weight: bold;
+    margin: $heading-margin;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+    }
+}
+h1 {
+    font-size: $h1-font-size;
+}
+h2 {
+    font-size: $h2-font-size;
+}
+h3 {
+    font-size: $h3-font-size;
+}
+
+ul {
+    padding-left: $list-indent;
+}
+dt {
+    margin-top: $dl-spacing;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+dd {
+    margin-left: $list-indent;
+}
+
+pre {
+    background-color: $pre-background-color;
+    border-radius: $pre-border-radius;
+    color: $pre-color;
+    font-family: $font-family-monospace;
+    line-height: $pre-line-height;
+    overflow: auto;
+    overflow-y: hidden;
+    padding: $pre-padding;
+}
+
+blockquote {
+    border-left: $blockquote-border-color solid $blockquote-border-width;
+    color: $blockquote-color;
+    margin: $blockquote-margin;
+    padding: $blockquote-padding;
+
+    & > p:last-child {
+        margin: 0;
+    }
+}
+
+p {
+    line-height: $p-line-height;
+    margin: $p-margin;
+}
+
+a {
+    color: $a-color;
+}
+a:hover {
+    color: $a-hover-color;
+    text-decoration: none;
+}
+a:visited {
+    color: $a-visited-color;
+}
+
+code {
+    font-family: $font-family-monospace;
+}

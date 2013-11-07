@@ -1,17 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0">
     {% if page.title != null %}
     <title>{{ page.title }}</title>
     {% else %}
     <title>Ruby Programming Language</title>
     {% endif %}
-    <link rel="stylesheet" type="text/css" href="/stylesheets/low.css" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
-    <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="/stylesheets/screen_low_vision.css" media="screen" title="Low vision" />
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
@@ -28,34 +27,42 @@
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
     <div id="page">
       <div id="header">
-        <div id="logo">
-          <a href="/{{ page.lang }}/"><img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
-        </div>
-        <div class="site-links">
-          {% include sitelinks.html %}
-        </div>
-      </div>
-      <hr class="hidden-modern" />
-
-      <div id="main-wrapper">
-        <div id="main">
-          {{ content }}
-
-          <div class="foot">
-            <div class="site-links">
-              {% include sitelinks.html %}
-            </div>
+        <div class="inner">
+          <div id="logo">
+            <a href="/{{ page.lang }}/">
+              <div class="title">Ruby</div>
+              <div class="subtitle">A Programmer's Best Friend</div>
+            </a>
+          </div>
+          <select id="mobile-site-links">
+            <option value="">Navigate...</option>
+          </select>
+          <div id="search-box">
+            {% include search.html %}
           </div>
         </div>
       </div>
+      <div class="site-links top">
+        <div class="inner">
+          {% include sitelinks.html %}
+        </div>
+      </div>
 
-      <div id="search-box">
-        {% include search.html %}
+      {{ content }}
+
+      <div class="site-links bottom">
+        <div class="inner">
+          {% include sitelinks.html %}
+        </div>
       </div>
       <div id="footer">
-        <div class="fine-print">
-          {% include footer.html %}
+        <hr class="shadow top" />
+        <div class="inner">
+          <div class="fine-print">
+            {% include footer.html %}
+          </div>
         </div>
+        <hr class="shadow bottom" />
       </div>
     </div>
 

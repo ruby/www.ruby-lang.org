@@ -16,7 +16,9 @@ exclude:
   - Rakefile
   - README.md
   - redirect.conf_
+  - scss
   - vendor
+  - .sass-cache
 
 url: https://www.ruby-lang.org
 
