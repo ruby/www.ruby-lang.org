@@ -4,26 +4,24 @@
 
 @import url(/stylesheets/shared.css);
 
-.site-links, #sidebar-wrapper,
-#search-form {
+.site-links,
+#sidebar,
+#search-form,
+footer {
   display: none;
 }
+
 #header {
-  border: 0px solid black;
-  border-bottom-width: 1pt;
+  border-bottom: 1pt solid black;
 }
-#content-wrapper {
-  float: left;
-  padding-bottom: 2em;
+
+.holder {
   width: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
 }
-#footer {
-  border: 0px solid black;
-  border-top-width: 1pt;
-}
-#footer p {
-  margin-top: .5em;
-}
+
 #code {
   border: 1px solid gray;
   padding: 20px;
