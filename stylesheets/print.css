@@ -12,6 +12,10 @@ footer {
   display: none;
 }
 
+#content a[href^=http]:after {
+  content:" <" attr(href) "> ";
+}
+
 header {
   border-bottom: 1pt solid black;
 }
