@@ -1,19 +1,6 @@
-{%  if site.locales.localelinks %}
-  {% assign locale_intro = site.locales.localelinks[page.lang].intro %}
-  {% assign locale_conjunction = site.locales.localelinks[page.lang].conjunction %}
-  {% assign locale_separator = site.locales.localelinks[page.lang].separator %}
-  {% assign locale_full_stop = site.locales.localelinks[page.lang].full_stop %}
-  
-  <p>{{locale_intro}}
-  {% for item in site.locales.localelinks %}
-    {% if forloop.last %}
-      {{locale_conjunction}}<a href="{{ item[1]['url'] }}">{{ item[1]['text'] }}</a>{{locale_full_stop}}
-    {% else %}
-      <a href="{{ item[1]['url'] }}">{{ item[1]['text'] }}</a>{{locale_separator}}
-    {% endif %}
-  {% endfor %}
-  </p>
-{% endif %}
+<p>Available translations:
+<span class="langs">{% include languages.html %}</span>
+</p>
 
 {% if site.locales.credits[page.lang] %}
   <p>{{ site.locales.credits[page.lang] }}</p>
