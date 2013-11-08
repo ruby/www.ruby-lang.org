@@ -5,7 +5,8 @@
 @import url(/stylesheets/high.css);
 
 #content #news ul a {
-  color: #1111ee;
+/*  color: #1111ee; */
+  color: #7f7fff;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 #content dl dt {
@@ -38,3 +39,4 @@
   width: 148px;
   height: 48px;
 }
+

@@ -3,14 +3,13 @@
 */
 
 a {
-  color: #3256B6;
+  color: #d3dce6;
+/*  color: #3256B6; */
 }
 a:visited {
-  color: #7130B8;
-}
-a:hover, a:visited:hover {
-  color: #C61A1A;
-  text-decoration: none;
+/*  color: #7130B8; */
+/*	color: #213449; */
+	color: #b0af99;
 }
 a img { border: 0; }
 body {
@@ -25,4 +24,8 @@ h1 {
 }
 .hidden {
   display: none;
+}
+
+em {
+  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
 }

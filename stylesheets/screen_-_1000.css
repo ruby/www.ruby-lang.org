@@ -1,0 +1,48 @@
+/*
+	- 1200------
+*/
+
+#page {
+	max-width: 95%;
+	max-width: auto;
+}
+
+
+
+
+#intro {
+/*	max-width: 80%;
+	max-width: auto; */
+}
+#intro p {
+/*	max-width: 80%;
+	max-width: auto; */
+}
+
+#code {
+  font-size: 100%;
+  line-height: 100%;
+
+/*  padding-top: 24px; */
+/*  width: 244px; */
+}
+
+#content {
+        column-count: 3;
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        -o-column-count: 3;
+        -ms-column-count: 3;
+
+	max-width: 95%;
+	max-width: auto;
+	min-width: 32%;
+	min-width: auto;
+
+}
+
+#sidebar-wrapper {
+  max-width: 40%;
+  max-width: auto;
+}
+
