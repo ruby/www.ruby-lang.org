@@ -8,7 +8,7 @@ Aqui irá encontrar vários endereços para manuais, tutoriais e
 referências que serão úteis quando sentir que gosta de programar em
 Ruby.
 
-### Primeiros Passos
+## Primeiros Passos
 
 [Try Ruby!][1]
 : Um tutorial interactivo web-based para iniciados por [Why the Lucky
@@ -40,7 +40,7 @@ Ruby.
 : Página da [Ruby Garden Wiki][7] explicando algumas coisas que qualquer
   principiante deve saber.
 
-### Manuais
+## Manuais
 
 [Programming Ruby][8]
 : Trabalho seminal de Ruby em Inglês, a primeira edição do [Pragmatic
@@ -60,7 +60,7 @@ Ruby.
 : Manual online gratuito, com conteúdo para iniciados e intermediários,
   é mais uma referência bastante completa para a linguagem.
 
-### Referências para a Documentação
+## Referências para a Documentação
 
 [Ruby Core Reference][13]
 : Vindo directamente do código-fonte através de [RDoc][14], esta
@@ -75,7 +75,7 @@ Ruby.
 : Documentação para Ruby referente a código C. Interessante se pretende
   escrever extensões em C ou contribuir para o desenvolvimento do Ruby.
 
-### Leituras Seguintes
+## Leituras Seguintes
 
 [Ruby-Doc.org][17] mantém uma lista completa de fontes de documentação
 em Inglês. Está também carregada de [Livros sobre Ruby][18]. No [Ruby

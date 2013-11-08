@@ -12,9 +12,9 @@ existe également plusieurs livres en français. Toutefois, la pratique de
 l’anglais est recommandée car il s’agit *de facto* de la langue
 dominante en informatique. Bon courage !
 
-### Débuter avec Ruby
+## Débuter avec Ruby
 
-#### Ressources en français
+### Ressources en français
 
 [Ruby en vingt minutes](/fr/documentation/quickstart/)
 : Ce tutorial simple d’accès, **en français**, couvre les fondamentaux
@@ -31,7 +31,7 @@ dominante en informatique. Bon courage !
 [ROR French Casts](http://www.youtube.com/user/Berlimioz)
 : Une série de casts en français sur Ruby et Rails.
 
-#### Ressources en anglais
+### Ressources en anglais
 
 [Try Ruby!][3]
 : Un tutoriel interactif qui vous permet d’essayer Ruby dans votre
@@ -75,7 +75,7 @@ dominante en informatique. Bon courage !
 : Site web proposant une quantité certaines de tutoriaux tant sur Ruby
   que sur Rails.
 
-### Manuels
+## Manuels
 
 [*Programming Ruby*][12]
 : Le manuel fondateur sur Ruby en langue anglaise : il s’agit ici de la
@@ -91,7 +91,7 @@ dominante en informatique. Bon courage !
 : Un manuel gratuit destiné aux débutants et aux programmeurs de niveaux
   intermédiaire. Propose également une référence du langage.
 
-### Documentation de référence
+## Documentation de référence
 
 [*Ruby Core Reference*][16]
 : Extraite directement des sources grâce à [RDoc][17], cette référence
@@ -117,7 +117,7 @@ dominante en informatique. Bon courage !
 [RubyDox][22]
 : Documentation pour Ruby, Rails, gems et plugin Rails.
 
-### Lectures additionnelles
+## Lectures additionnelles
 
 [Ruby-Doc.org][23] maintient à jour une liste presque exhaustive de la
 documentation disponible en anglais. Il existe également de nombreux

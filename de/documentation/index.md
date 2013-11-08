@@ -7,7 +7,7 @@ lang: de
 Hier findest du Links zu Handbüchern, Tutorials und Referenzen, die beim
 Ruby-Programmieren sicher nützlich sein werden.
 
-### Erste Schritte
+## Erste Schritte
 
 [Try Ruby!][1]
 : Ein interaktives Tutorial für Anfänger, ursprünglich von Why the Lucky
@@ -36,7 +36,7 @@ Ruby-Programmieren sicher nützlich sein werden.
   als erster Sprache. Wenn Du Anfänger bist, dann starte hier. Deutsche
   Übersetzung der populären englischen Einführung [Learn To Program][5].
 
-### Anleitungen
+## Anleitungen
 
 [Programming Ruby][6]
 : Dies ist die erste Auflage des bekannten Pickaxe-Buches der
@@ -52,7 +52,7 @@ Ruby-Programmieren sicher nützlich sein werden.
   Schmiedl und Clemens Wyss. Es steht vollständig kostenlos im Internet
   zur Verfügung.
 
-### Referenzdokumentation
+## Referenzdokumentation
 
 [Referenz zu Rubys Standardklassen][9]
 : Dies ist die Referenz-Dokumentation des Rubykerns. Es handelt sich
@@ -73,7 +73,7 @@ Ruby-Programmieren sicher nützlich sein werden.
 : Die Referenzdokumentation für Ruby, Gems und auf GitHub gehostete
   Ruby-Projekte.
 
-### Weitere Informationen
+## Weitere Informationen
 
 [Ruby-Doc.org][13] ist eine große Quelle von englischsprachigen
 Dokumenten zum Thema Ruby. Das [Rubywiki][14] ist ein Wiki mit vielen

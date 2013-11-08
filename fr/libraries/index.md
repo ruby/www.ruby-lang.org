@@ -25,7 +25,7 @@ projet pouvant avoir ses spécificités, on consultera sa documentation (en
 général, un fichier `README` ou `INSTALL` décrit la procédure
 d'installation).
 
-### Trouver des bibliothèques
+## Trouver des bibliothèques
 
 [**RubyGems.org**][3] est le dépôt principal où vous trouverez des
 bibliothèques pour Ruby. Vous pouvez aussi bien consulter le site dans
@@ -49,13 +49,13 @@ gem associée est publiée sur RubyGems.org.
 programmes Ruby, organisés selon leur fonction opérationnelle. Très
 riche à une époque, mais plus vraiment d'actualité.
 
-### Utilisation de RubyGems
+## Utilisation de RubyGems
 
 On peut rapidement se familiariser avec la commande `gem` et couvrir
 en quelques lignes l'usage quotidien qu'on peut en faire. Une
 [documentation complète][7] est disponible par ailleurs.
 
-#### Rechercher une gem
+### Rechercher une gem
 
 La commande **search** permet de faire une recherche lexicale sur les
 gems du dépôt (donc, de chercher sur le *nom* des gems, pas leur
@@ -75,7 +75,7 @@ défaut, l'option est… optionnelle). L'option `--local` / `-l` permet de
 faire une recherche locale (sur votre machine, parmi les gems déjà
 installés).
 
-#### Installer une gem
+### Installer une gem
 
 Une fois que vous avez choisi une librairie à installer, utilisez la
 commande `gem install`. Par exemple, pour installer Rails :
@@ -91,7 +91,7 @@ avec l’option `--version` :
 $ gem install rails --version 3.0
 {% endhighlight %}
 
-#### Lister toutes les gems
+### Lister toutes les gems
 
 Pour récupérer la (très longue) liste complète des gems disponibles :
 
@@ -105,7 +105,7 @@ Pour afficher uniquement les gems que *vous* avez installées :
 $ gem list
 {% endhighlight %}
 
-#### Au secours !
+### Au secours !
 
 Une aide succinte est disponible directement en ligne de commande :
 
@@ -116,7 +116,7 @@ $ gem help
 Par exemple, `gem help commands` liste et décrit toutes les sous-commandes
 de la commande `gem`.
 
-#### Fabriquer vos propres gems
+### Fabriquer vos propres gems
 
 RubyGems.org propose [plusieurs guides][8] sur ce sujet. Vous serez sans
 doute également intéressé par [Bundler][9], un outil générique visant à

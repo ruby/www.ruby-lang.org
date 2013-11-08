@@ -19,7 +19,7 @@ của **mã nguồn**. Phương thức cài đặt có thể khác nhưng hầu 
 
 Nào bây giờ hãy cùng tìm thư viện và cài đặt chúng theo yêu cầu sử dụng của bạn.
 
-### Tìm thư viện
+## Tìm thư viện
 
 Địa điểm chính nơi thư viện được phát hành là [**RubyGems.org**][3],
 hệ thống này cung cấp thư viện Ruby dưới dạng gem. Bạn có thể xem trang web trực
@@ -42,12 +42,12 @@ RubyGems.org.
 Ruby, sắp xếp theo chức năng. Tuy nhưng trang này không còn được sử dụng nữa. Có
 lẽ bạn không bỏ qua trang này.
 
-### Một vài lời về RubyGems
+## Một vài lời về RubyGems
 
 Sau đây là một bài hướng dẫn nhanh về lệnh `gem` trong sử dụng hàng ngày.
 [Nhiều tài liệu chi tiết hơn][7] chỉ ra những khía cạnh sâu của hệ thống gói này.
 
-#### Tìm kiếm gem
+### Tìm kiếm gem
 
 Lệnh **search** được dùng để tìm gem, theo một từ khoá.
 Gems mà tên bắt đầu với từ chỉ định sẽ được trả về.
@@ -65,7 +65,7 @@ Cờ `--remote` / `-r` chỉ định là chúng ta muốn kiểm tra trên repos
 của RubyGems.org (mặc định).
 Với cờ `--local` / `-l` bạn sẽ tìm gem chỉ được cài trên máyc của bạn.
 
-#### Cài đặt gem
+### Cài đặt gem
 
 Khi bạn biết gem nào cần **cài đặt**, ví dụ gem Rails:
 
@@ -79,7 +79,7 @@ Bạn có thể cài một phiên bản nhất định của gem, với cờ `--
 $ gem install rails --version 3.0
 {% endhighlight %}
 
-#### Liệt kê tất cả gem
+### Liệt kê tất cả gem
 
 Muốn có một **danh sách** gem đã cài trên máy:
 
@@ -93,7 +93,7 @@ $ gem list
 $ gem list -r
 {% endhighlight %}
 
-#### Giúp!
+### Giúp!
 
 Tài liệu có thể được truy cập trong terminal với:
 
@@ -103,7 +103,7 @@ $ gem help
 
 Ví dụ, `gem help commands` sẽ liệt kê ra các lệnh của `gem`.
 
-#### Tạo ra gem riêng của bạn
+### Tạo ra gem riêng của bạn
 
 RubyGems.org có một vài [hướng dẫn][8] về chủ đề này. Bạn có thể tra khảo về
 [Bundler][9], một công cụ giúp quản lý các phần mềm yêu cầu và có thể sử dụng

@@ -7,7 +7,7 @@ lang: vi
 Bạn sẽ tìm được các nguồn tài liệu hướng dẫn và tham khảo liên quan đến Ruby
 tại đây.
 
-### Khởi đầu
+## Khởi đầu
 
 [Thử Ruby!][1]
 : Một bài hướng dẫn tương tác cho phép bạn dùng thử Ruby thực sự trên trình
@@ -56,7 +56,7 @@ tại đây.
 : Một bộ bài tập rất hay với những giải thích có thể hướng dẫn bạn từ những
   điều cơ bản nhất của Ruby cho tới lập trình hướng đối tượng và lập trình web.
 
-### Hướng dẫn sử dụng
+## Hướng dẫn sử dụng
 
 [Lập trình Ruby][9]
 : Hội thảo làm viện trên Ruby bằng Tiếng Anh, phiên bản đầu tiên
@@ -71,7 +71,7 @@ tại đây.
 : Một hướng dẫn trực tuyến miễn phí với người mới bắt đầu và nội dung trung
   cấp cộng với một tài liệu tham khảo ngôn ngữ chi tiết.
 
-### Tài liệu tham khảo
+## Tài liệu tham khảo
 
 [Tài liệu tham khảo lõi Ruby][13]
 : Tải thẳng từ mã nguồn sử dụng [RDoc][14], thư viện này bao gồm các bài viết
@@ -90,7 +90,7 @@ tại đây.
 [APIdock][18]
 : Tài liệu Ruby, Rails và RSpec với các ghi chú của người sử dụng.
 
-### Phần mềm chỉnh sửa và các môi trường phát triển tích hợp
+## Phần mềm chỉnh sửa và các môi trường phát triển tích hợp
 
 Để lập trình trong Ruby bạn có thể sử dụng chương trình chỉnh sửa mặc định của
 hệ điều hành. Nhân tiện, để hiệu quả hơn trong việc lập trình, tốt hơn bạn nên
@@ -120,7 +120,7 @@ tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, h
   * [TextMate][32]
   * [TextWrangler][33]
 
-### Đọc thêm
+## Đọc thêm
 
 [Ruby-Doc.org][34] duy trì một danh sách đầy đủ của nguồn tài liệu tiếng anh.
 Ngoài ra còn có rất nhiều [sách về Ruby][35].

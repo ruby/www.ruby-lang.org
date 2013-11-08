@@ -7,7 +7,7 @@ lang: it
 Ecco qualche riferimento a manuali, tutorial e altro materiale che ti
 potrà venire comodo quando vorrai iniziare a programmare in Ruby.
 
-### Per iniziare
+## Per iniziare
 
 [Try Ruby!][1]
 : Un tutorial interattivo che ti dà la possibilità di provare Ruby
@@ -59,7 +59,7 @@ potrà venire comodo quando vorrai iniziare a programmare in Ruby.
 : Un sito il cui scopo è fornire tutorial ben organizzati e di buona
   qualità riguardanti sia Ruby che Ruby on Rails
 
-### Manuali
+## Manuali
 
 [Programming Ruby][10]
 : Una pietra miliare tra i libri disponibili su Ruby in inglese. La
@@ -77,7 +77,7 @@ potrà venire comodo quando vorrai iniziare a programmare in Ruby.
 : Un manuale online gratuito per persone con conoscenze di livello base
   o intermedio, contenente anche delle parti di riferimento complete.
 
-### Ducumenentazione di riferimento
+## Ducumenentazione di riferimento
 
 [Ruby Core Reference][14]
 : Preso direttamente dal codice sorgente usando [RDoc][15], questa
@@ -98,7 +98,7 @@ potrà venire comodo quando vorrai iniziare a programmare in Ruby.
 [RubyDox][20]
 : Documentazione su Ruby, Rails, Gem e Plugins.
 
-### Ulteriori Informazioni
+## Ulteriori Informazioni
 
 [Ruby-Doc.org][21] mantiene un’esauriente lista di documenti in inglese.
 Ci sono anche molti [libri su Ruby][22]. Se hai domande su Ruby la lista

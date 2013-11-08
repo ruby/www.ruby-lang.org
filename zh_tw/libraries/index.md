@@ -7,7 +7,7 @@ lang: zh_tw
 Ruby 有著不計其數有用且有趣的函式庫，其中大部分都是用便捷的 [*gem* 格式][1] 來進行發佈。有些則是將原始碼透過壓縮檔(.zip
 或 .tar.gz) 來發佈。來讓我們看看怎麼尋找和安裝你所需要的函式庫。
 
-### 尋找函式庫
+## 尋找函式庫
 
 [**RubyGems**][2] 是 Ruby 社群全新的 RubyGems 官方網站，它也是你的 RubyGems
 套件管理工具預設的搜尋站點。
@@ -20,7 +20,7 @@ Subversion、網頁空間及郵件論壇。)
 分類擁有最多項目，緊接在後的是 [Net.][8] 。 [HTML][9] 和 [XML][10] 也十分熱門。甚至還有四個 [物理學][11]
 項目。
 
-### 使用 RubyGems
+## 使用 RubyGems
 
 [RubyGems][1] 是 Ruby 的套件管理工具。它提供了一個標準格式來發佈 Ruby
 程式和函式庫，以及提供方便的工具來安裝這些套件。某種程度上，這種套件管理工具就像 apt-get，只是專門給 Ruby 軟體使用。官方的 Gem
@@ -29,7 +29,7 @@ Subversion、網頁空間及郵件論壇。)
 雖然 Windows 安裝包有包括 RubyGems 套件管理工具，但是有些作業系統沒有。如果以下的指令沒有作用，請參考最底下的 [安裝
 RubyGems](#installing-rubygems) 。
 
-#### 搜尋 Gems
+### 搜尋 Gems
 
 **search** 命令可以搜尋特定名字的 gems。例如，要搜尋有 “html” 字眼的 gem:
 
@@ -43,7 +43,7 @@ html-sample (1.0, 1.1)
 
 (*加上 `--remote` 旗標(flag)表示我們要搜尋的是遠端 Gemcutter 上的官方 gem。*)
 
-#### 安裝 Gem
+### 安裝 Gem
 
 當確定要裝某一個 gem 時，請使用 **install** 指令:
 
@@ -57,7 +57,7 @@ $ gem install html-sample
 $ gem install html-sample --version 1.0
 {% endhighlight %}
 
-#### 列出所有的 Gems
+### 列出所有的 Gems
 
 要列出 Gemcutter 上的完整 gems 清單：
 
@@ -73,7 +73,7 @@ $ gem list
 
 關於 RubyGems 的更多資料，請參考 [**官方手冊**][13] ，手冊中也介紹了如何在你的 Ruby 程式中使用 gems 的例子。
 
-### 安裝 RubyGems
+## 安裝 RubyGems
 
 欲安裝 RubyGems，請從 [下載頁面][14] 下載 RubyGems，解壓縮之後執行
 `setup.rb`。在某些作業系統上，你可能需要用 root 身分來執行。

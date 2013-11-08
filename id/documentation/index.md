@@ -7,7 +7,7 @@ lang: id
 Di sini Anda akan menemukan petunjuk untuk manual, tutorial dan referensi yang
 akan berguna ketika Anda merasa seperti coding di Ruby.
 
-### Langkah Pertama
+## Langkah Pertama
 
 [Try Ruby!][1]
 : Tutorial interaktif yang memungkinkan Anda mencoba Ruby tepat di browser
@@ -62,7 +62,7 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
   Isinya mencakup fitur-fitur Ruby yang biasa dipakai, RubyGems dan cara
   instalasi Ruby. Terdapat juga contoh-contoh kode Ruby dapat dicoba langsung online.
 
-### Manual
+## Manual
 
 [Programming Ruby][9]
 : Ini salah satu karya penting untuk pemrograman Ruby dalam Bahasa Inggris.
@@ -77,7 +77,7 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 : Manual online gratis dengan konten untuk pemula dan menengah ditambah
   referensi bahasa Ruby secara menyeluruh.
 
-### Referensi
+## Referensi
 
 [Ruby Core Reference][13]
 : Diambil langsung dari source code Ruby menggunakan [RDoc][14],
@@ -98,7 +98,7 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 [APIdock][18]
 : Dokumentasi Ruby, Rails dan RSpec dengan catatan para pengguna.
 
-### Editor dan IDE
+## Editor dan IDE
 
 Untuk koding Ruby, Anda dapat menggunakan editor default dari sistem operasi.
 Supaya lebih efektif koding, alangkah sangat berguna untuk memilih editor
@@ -128,7 +128,7 @@ Berikut adalah daftar alat populer yang digunakan oleh para pengguna Ruby.
   * [TextMate][32]
   * [TextWrangler][33]
 
-### Bacaan selanjutnya
+## Bacaan selanjutnya
 
 [Ruby-Doc.org][34] me-maintain daftar lengkap dokumentasi bahasa Inggris.
 Ada juga banyak [buku tentang Ruby] [35]. Jika Anda memiliki pertanyaan

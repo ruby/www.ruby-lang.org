@@ -8,7 +8,7 @@ lang: zh_cn
 文件格式发布的，其它的则是通过将源代码目录打包成归档文件（例如 .zip 或
 .tar.gz）进行发布。现在让我们一起瞧一瞧怎么寻找并安装资源库，来让它们为你所用。
 
-### 寻找资源库
+## 寻找资源库
 {: #finding-libraries}
 
 [**RubyForge**][1] 是一个收集广泛的 Ruby 资源库站点，这个站点最值得看看的是它的[软件地图][2]
@@ -19,14 +19,14 @@ lang: zh_cn
 Ruby 软件的索引簿,并且它是按功能来进行分类的。现在，[数据库][5] 类别包含最多的条目，紧随其后的是 [Net][6] 。
 [HTML][7] 以及 [XML][8] 也是非常流行的类别。在那里甚至还有四个[物理学][9] 分类的条目.
 
-### 使用 RubyGems
+## 使用 RubyGems
 {: #using-rubygems}
 
 虽然 Windows 版的安装程序包含了
 RubyGems，但还是有很多操作系统的没有这样做。如果这些命令在你那里没有什么效果，那么请参考一下本页最下边的[安装RubyGems](#installing-rubygems)
 。
 
-#### 搜索 gem
+### 搜索 gem
 
 **搜索**命令可以通过确定的名字来搜索 gem。要搜索一个名字里包含了 html 关键词的 gem：
 
@@ -40,7 +40,7 @@ html-sample (1.0, 1.1)
 
 (*参数标志`--remote` 表明我们将要搜索的是 Rubyforge 的官方 gem。*)
 
-#### 安装一个 gem
+### 安装一个 gem
 
 当你知道你想**安装**哪个 gem 的时候:
 
@@ -54,7 +54,7 @@ $ gem install html-sample
 $ gem install html-sample --version 1.0
 {% endhighlight %}
 
-#### 列出所有的 gem
+### 列出所有的 gem
 
 为了得到一个 Rubyforge 的所有 gem 的完整**列表**\:
 
@@ -70,7 +70,7 @@ $ gem list
 
 想要得到更多的关于使用 RubyGems 的信息，请参阅[**官方手册**][10] ，那里包含了一些在 Ruby 脚本中使用 gem 的例子。
 
-### 安装 RubyGems
+## 安装 RubyGems
 {: #installing-rubygems}
 
 要安装 RubyGems，首先从[下载页][11] 里下载 RubyGems 0.9.0。解开归档文件，然后运行

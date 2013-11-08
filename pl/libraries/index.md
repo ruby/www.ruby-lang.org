@@ -10,7 +10,7 @@ Inne biblioteki są rozprowadzane jako pliki archiwum (.zip lub .tar.gz)
 katalogu z kodem źródłowym. Spójrzmy jak wyszukiwać interesujące nas
 biblioteki i jak należy je instalować.
 
-### Znajdowanie bibliotek
+## Znajdowanie bibliotek
 {: #finding-libraries}
 
 [**RubyForge**][1] jest jednym z popularnych repozytoriów
@@ -27,7 +27,7 @@ W chwili obecnej kategoria [bazy danych][5] ma najwięcej projektów, o
 jeden mniej ma [Net.][6] [HTML][7], [XML][8] są również popularne. Nawet
 dla [Fizyki][9] są cztery projekty.
 
-### Używanie RubyGems
+## Używanie RubyGems
 {: #using-rubygems}
 
 Graficzny instalator Rubiego pod Windows zawiera pakiet RubyGems, lecz
@@ -35,7 +35,7 @@ wiele innych dystrybucji go nie zawiera. W paragrafie [Instalacja
 RubyGems](#installing-rubydems) poniżej znajdziesz odpowiednie
 instrukcje dla swojej platformy.
 
-#### Przeszukiwanie Gemów
+### Przeszukiwanie Gemów
 
 Komenda **search** jest wykorzystywanwa do przeszukiwania gemów o
 określonej nazwie. Dla przykładu, aby znaleźć słowo “html” w nazwie
@@ -52,7 +52,7 @@ html-sample (1.0, 1.1)
 (*Flaga `--remote` / `-r` mówi o tym, że będziemy przeszukiwać oficjalne,
 zdalne repozytorium RubyGems.*)
 
-#### Instalacja Gema
+### Instalacja Gema
 
 Jeśli już wiesz, który gem Cię interesuje, wydaj polecenie **install**\:
 
@@ -67,7 +67,7 @@ zainstalować określoną wersję.
 $ gem install html-sample --version 1.0
 {% endhighlight %}
 
-#### Wyświetlanie wszystkich gemów
+### Wyświetlanie wszystkich gemów
 
 Aby zobaczyć kompletną listę wszystkich gemów dostępnych na Rubyforge,
 wydaj polecenie:
@@ -87,7 +87,7 @@ Aby dowiedzieć się więcej o RubyGems i ich zastosowaniu, przejrzyj
 [**oficjalną instrukcję**][10] (w języku angielskim), która zawiera
 wiele przykładów na użycie gemów we własnych skryptach.
 
-### Instalacja RubyGems
+## Instalacja RubyGems
 {: #installing-rubygems}
 
 Aby zainstalować RubyGems, ściągnij RubyGems 0.9.0 ze strony [do

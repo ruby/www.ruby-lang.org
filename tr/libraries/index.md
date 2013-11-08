@@ -9,7 +9,7 @@ Ruby çok sayıda büyüleyici ve kullanışlı kütüphanelere sahiptir, bir
 kaynak kodunun .zip ya da .tar.gz arşivlenmişi olarak yayınlanır. Haydi
 kütüphaneleri nasıl bulacağımızı kuracağımızı inceleyelim.
 
-### Kütüphaneleri Bulmak
+## Kütüphaneleri Bulmak
 
 [**RubyForge**][2] , Ruby kütüphanelerinin popüler evidir. İyi bir yol
 onun kütüphanelerinin başlıklar altında incelendiği [software map][3]
@@ -22,7 +22,7 @@ uygulamalarının toplandığı bir klasör. Şu anda [Database][6] kategorisi
 en çok girdiye sahip, [Net.][7] [HTML][8] ve [XML][9] onu takip
 ediyorlar. [Physics][10] için bile girdi var.
 
-### RubyGemlerin Kullanımı
+## RubyGemlerin Kullanımı
 
 [RubyGems web sitesinde][1] yer aldığı gibi “RubyGemleri esas Ruby
 paketleme sistemidir. Ruby program ve kütüphanelerinin dağıtımı için
@@ -34,7 +34,7 @@ ayrıca kurulması gerekir. Bu konuda eğer sıradaki gem komutu sizde
 çalışmazsa aşağıdaki [RubyGemlerin Kurulması](#installing-rubygems)
 kısmına bakınız.
 
-#### Gemleri Araştırmak
+### Gemleri Araştırmak
 
 **search** komutu adı belirli bir gem’i bulmak için kullanılır. Adında
 “html” olan bir Gem bulmak için:
@@ -49,7 +49,7 @@ html-sample (1.0, 1.1)
 
 (*Burada `--remote` / `-r` bayrağı ile ana depodaki gemleri sorguluyoruz.*)
 
-#### Bir Gem Kurulması
+### Bir Gem Kurulması
 
 Hangi gem’i **kuracağınıza** karar verdiğinizde:
 
@@ -64,7 +64,7 @@ yükleyebilirsiniz.
 $ gem install html-sample --version 1.0
 {% endhighlight %}
 
-#### Tüm Gemlerin Listelenmesi
+### Tüm Gemlerin Listelenmesi
 
 Ana depodaki tüm gemlerin bir **listesi** için:
 
@@ -82,7 +82,7 @@ RubyGems kullanımı hakkında daha fazla bilgi için [**the official
 manual**][11] e bakınız, burada Ruby betiklerinizde gemlerin nasıl
 kullanılacağına dair örnekler vardır.
 
-### RubyGems Kurulumu
+## RubyGems Kurulumu
 
 RubyGems kurmak için, önce [download sayfasından][12] indirin. Arşivi
 açın ve `setup.rb` çalıştırın. Bazı işletim sistemlerinde bunu root

@@ -9,7 +9,7 @@ delas disponíveis através dos cómodos ficheiros *gem*. Outras são
 disponibilizadas como arquivos (.zip or .tar.gz) de código fonte.
 Vejamos como encontrar e instalar bibliotecas para uso próprio.
 
-### Encontrar Bibliotecas
+## Encontrar Bibliotecas
 {: #encontrar-bibliotecas}
 
 O [**RubyForge(RubyForge)**][1] é o famoso *lar* das bibliotecas de
@@ -25,7 +25,7 @@ função. Actualmente a categoria [*Database*][5] é que tem mais entradas
 vencendo por 1 sobre [*Net*][6]. [HTML][7] e [XML][8] são também
 populares. Existem até quatro entradas em [Physics][9].
 
-### Utilizando a biblioteca *RubyGems* 
+## Utilizando a biblioteca *RubyGems* 
 {: #utilizando-rubygems}
 
 Apesar do programa de instalação em Windows incluir *RubyGems*, muitos
@@ -33,7 +33,7 @@ sistemas operativos não as incluem. Se estes comandos não estiverem a
 funcionar consigo, consulte por favor, [Instalando a biblioteca
 *RubyGems*](#instalando-rubygems).
 
-#### Procurar por Gemas
+### Procurar por Gemas
 
 O comando de **procura** pode ser usado para encontrar gemas com
 determinado nome. Para procurar a palavra “html” no nome da gema:
@@ -49,7 +49,7 @@ html-sample (1.0, 1.1)
 (*A flag `--remote` / `-r` indica que estamos a procurar nas gemas oficiais do
 RubyForge*)
 
-#### Instalando uma Gema
+### Instalando uma Gema
 
 Uma vez encontrada a gema que se deseja, **instalar**\:
 
@@ -64,7 +64,7 @@ flag `--version`.
 $ gem install html-sample --version 1.0
 {% endhighlight %}
 
-#### Listando Todas as Gemas
+### Listando Todas as Gemas
 
 Para uma **lista** completa de todas as gemas no *Rubyforge*\:
 
@@ -82,7 +82,7 @@ Para mais informações acerca da utilização da biblioteca *RubyGems*,
 veja [**o manual oficial**][10], que inclui exemplos para a gemas nas
 suas scripts.
 
-### Instalando a biblioteca *RubyGems* 
+## Instalando a biblioteca *RubyGems* 
 {: #instalando-rubygems}
 
 Para instalar a biblioteca *RubyGems*, descarregue a sua versão 0.9.0 da

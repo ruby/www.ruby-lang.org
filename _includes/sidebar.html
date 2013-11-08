@@ -4,12 +4,6 @@
   {% assign sidebar = site.locales.sidebar['en'] %}
 {% endif %}
 
-{% if page.sidebar != null %}
-<div class="navigation">
-  {{ page.sidebar }}
-</div>
-{% endif %}
-
 {% if sidebar.get_started != null %}
 <div class="navigation">
   <h3>{{ sidebar.get_started.text }}</h3>
@@ -78,10 +72,13 @@
 </div>
 {% endif %}
 
-{% if sidebar.top_ruby_projects != null %}
-<h3>{{ sidebar.top_ruby_projects.text }}</h3>
+<div class="side-bottom-link">
+  {% if sidebar.top_ruby_projects != null %}
+  <h3>{{ sidebar.top_ruby_projects.text }}</h3>
+  <p class="more"><a href="{{ sidebar.top_ruby_projects.more.url }}">{{ sidebar.top_ruby_projects.more.text }}</a></p>
+  {% endif %}
+</div>
 
-<p class="more"><a href="{{ sidebar.top_ruby_projects.more.url }}">{{ sidebar.top_ruby_projects.more.text }}</a></p>
-{% endif %}
-
-{% include syndicate.html %}
+<div class="side-bottom-link">
+  {% include syndicate.html %}
+</div>

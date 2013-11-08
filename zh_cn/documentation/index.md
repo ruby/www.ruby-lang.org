@@ -6,7 +6,7 @@ lang: zh_cn
 
 在这里您可以找到手册、教程和参考资料的链接，在你喜欢上 Ruby 编程的时候，他们将帮上大忙。
 
-### 入门
+## 入门
 
 [尝试 Ruby！][1]
 : 为初学者提供的交互式网上教程。不必安装 Ruby ，此教程让您完全可以在您的浏览器中体验
@@ -45,7 +45,7 @@ lang: zh_cn
 [Learn Ruby the Hard Way][38]
 : 一系列非常好的带有说明的练习，可以指导你从基本的 Ruby 一路进阶到 OOP 和 WEB 开发。
 
-### 手册
+## 手册
 
 [Programming Ruby][9]
 : 最有影响的 Ruby 教材，第一版是免费的 [Pragmatic Programmers’ book][10] 。
@@ -57,7 +57,7 @@ lang: zh_cn
 [The Ruby Programming Wikibook][12]
 : 免费的在线语言参考资料，内容从 Ruby 初级到中级。
 
-### 参考文献
+## 参考文献
 
 [Ruby 内核参考][13]
 : 直接从源代码中的 [RDoc][14] 提取，这个文档包含了所有的核心类和模块（比如 String, Array, Symbol 等）。
@@ -74,7 +74,7 @@ lang: zh_cn
 [APIdock][18]
 : 带有用户评注的 Ruby， Rails 和 RSpec 文档。
 
-### 编辑器和IDE
+## 编辑器和IDE
 
 您可以用您操作系统上默认的编辑器来进行Ruby编程，为了更高效的编程，选择一个基本特性支持 Ruby （比如 代码高亮，文件浏览）的源代码编辑器或者
 对Ruby有着高级特性支持（如 代码补全，重构，测试等） 的集成开发环境（IDE）是非常值得的。
@@ -101,7 +101,7 @@ lang: zh_cn
   * [TextMate][32]
   * [TextWrangler][33]
 
-### 进一步阅读
+## 进一步阅读
 
 [Ruby-Doc.org][34] 有完整的 Ruby 英文文档。这里有 [Ruby 的书籍][35] 。如果您有问题，可以参加 Ruby
 [邮件列表](/zh_cn/community/mailing-lists/) 的讨论。
