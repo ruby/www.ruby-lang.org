@@ -8,20 +8,15 @@ layout: default
   {% assign translated_by = site.locales.translated_by['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
-  {% include title.html %}
+{% include title.html %}
 
-  <div id="content">
+<div class="content standard-layout">
+  <div class="main-area">
     {{ content }}
-
     <p class="post-info">{{ page.date | posted_by:page.author }}{% if page.translator %}<br />
                          {{ translated_by }} {{ page.translator }}{% endif %}</p>
   </div>
-</div>
-<hr class="hidden-modern" />
-
-<div id="sidebar-wrapper">
-  <div id="sidebar">
+  <div class="sidebar">
     <div class="navigation">
       {% if site.locales.news[page.lang] %}
         {% assign news = site.locales.news[page.lang] %}
@@ -29,7 +24,7 @@ layout: default
         {% assign news = site.locales.news['en'] %}
       {% endif %}
 
-      <h3><strong>{{ news.recent_news }}</strong></h3>
+      <h4><strong>{{ news.recent_news }}</strong></h4>
 
       <ul class="menu">
         {% for post in site.categories[page.lang] limit:5 %}
@@ -44,8 +39,7 @@ layout: default
       {% assign sidebar = site.locales.sidebar['en'] %}
     {% endif %}
 
-    <h3>{{ sidebar.syndicate.text }}</h3>
+    <h4>{{ sidebar.syndicate.text }}</h4>
     <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
   </div>
 </div>
-<hr class="hidden-modern" />

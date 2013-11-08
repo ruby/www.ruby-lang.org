@@ -1,15 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    chunky_png (1.2.9)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
     colorator (0.1)
     commander (4.1.5)
       highline (~> 1.6.11)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
     daemons (1.1.9)
     directory_watcher (1.4.1)
     eventmachine (1.0.3)
     fast-stemmer (1.0.2)
+    fssm (0.2.10)
     highline (1.6.20)
     jekyll (1.2.1)
       classifier (~> 1.3)
@@ -42,8 +48,12 @@ GEM
     rake (10.1.0)
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
+    sass (3.2.12)
     spidr (0.4.1)
       nokogiri (~> 1.3)
+    susy (1.0.9)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
     thin (1.6.0)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
@@ -54,10 +64,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
   jekyll (>= 1.0.2)
   kramdown
   mina
   rack-jekyll
   rake (~> 10.0)
+  sass (~> 3.2.12)
   spidr (~> 0.4)
+  susy
   thin

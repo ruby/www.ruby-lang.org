@@ -1,0 +1,22 @@
+
+<div class="bg dark-color{% if page.homepage == true %} image-bg{%endif%}">
+  <nav>
+    <a class="tablet-logo" href="/{{page.lang}}/">
+      Ruby
+    </a>
+    <a class="mobile-nav-button" href="#" onClick="$(Page.SiteLinks.toggleMobile);">
+      Navigation
+      <img src="/images/menu_button.png" alt="" height="32">
+    </a>
+    <ul class="navbar">
+      <li class="logo">
+        <a href="/{{ page.lang }}/"><span>Ruby</span></a>
+      </li>
+      {% include sitelinks.html %}
+    </ul>
+  </nav>
+
+  {% if page.homepage == true %}
+    {% include hero.html %}
+  {% endif %}
+</div>

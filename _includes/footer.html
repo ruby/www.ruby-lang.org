@@ -1,24 +1,36 @@
-<p>
-Content available in
-<a href="/bg/">Bulgarian</a>,
-<a href="/de/">German</a>,
-<a href="/en/">English</a>,
-<a href="/es/">Spanish</a>,
-<a href="/fr/">French</a>,
-<a href="/id/">Bahasa Indonesia</a>,
-<a href="/it/">Italian</a>,
-<a href="/ja/">Japanese</a>,
-<a href="/ko/">Korean</a>,
-<a href="/pl/">Polish</a>,
-<a href="/pt/">Portuguese</a>,
-<a href="/tr/">Turkish</a>,
-<a href="/vi/">Vietnamese</a>,
-<a href="/zh_cn/">Simplified Chinese</a>,
-and <a href="/zh_tw/">Traditional Chinese</a>.
-</p>
-
-{% if site.locales.credits[page.lang] %}
-  <p>{{ site.locales.credits[page.lang] }}</p>
-{% else %}
-  <p>{{ site.locales.credits['en'] }}</p>
-{% endif %}
+<div class="bg dark-color">
+  <footer class="cell-layout">
+    <div class="cell">
+      <p>
+        Content available in
+        <a href="/bg/">Bulgarian</a>,
+        <a href="/de/">German</a>,
+        <a href="/en/">English</a>,
+        <a href="/es/">Spanish</a>,
+        <a href="/fr/">French</a>,
+        <a href="/id/">Bahasa Indonesia</a>,
+        <a href="/it/">Italian</a>,
+        <a href="/ja/">Japanese</a>,
+        <a href="/ko/">Korean</a>,
+        <a href="/pl/">Polish</a>,
+        <a href="/pt/">Portuguese</a>,
+        <a href="/tr/">Turkish</a>,
+        <a href="/vi/">Vietnamese</a>,
+        <a href="/zh_cn/">Simplified Chinese</a>,
+        and <a href="/zh_tw/">Traditional Chinese</a>.
+      </p>
+    </div>
+    <div class="cell">
+      {% if site.locales.credits[page.lang] %}
+        <p>{{ site.locales.credits[page.lang] }}</p>
+      {% else %}
+        <p>{{ site.locales.credits['en'] }}</p>
+      {% endif %}
+    </div>
+    <div class="cell">
+      <ul>
+        {% include sitelinks.html %}
+      </ul>
+    </div>
+  </footer>
+</div>
