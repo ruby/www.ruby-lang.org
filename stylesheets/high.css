@@ -453,6 +453,10 @@ body {
   padding-top: 10px;
 }
 
+#footer .langs a {
+	padding-left: 10px; 
+}
+
 /* layouts */
 
 #home-page-layout #head-wrapper-1 {
