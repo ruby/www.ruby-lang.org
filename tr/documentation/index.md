@@ -7,7 +7,7 @@ lang: tr
 Bu bölümde Ruby öğrenmenizi kolaylaştıracak el kitapları, kılavuzlar,
 referanslar ve diğer belgeleri bulacaksınız.
 
-### Başlangıç
+## Başlangıç
 
 [Try Ruby!][1]
 : Ruby’yi tarayıcınızda deneyebileceğiniz interaktif bir tutorial. Bu 15
@@ -60,7 +60,7 @@ referanslar ve diğer belgeleri bulacaksınız.
 : Hem Ruby hem Rails için zengin içerikli kılavuzlar sunan, iyi organize
   edilmiş bir site.
 
-### El Kitapları
+## El Kitapları
 
 [Ruby Programlama][11]
 : [Pratik Programcılar’ın Kitabı][12] ‘nın ilk baskısı. İngilizce Ruby
@@ -77,7 +77,7 @@ referanslar ve diğer belgeleri bulacaksınız.
 : Başlangıç ve ileri düzeyde içeriğe sahip olan çevrimiçi, kapsamlı bir
   kılavuz.
 
-### Referans Belgeleri
+## Referans Belgeleri
 
 [Ruby Çekirdek Referansı][15]
 : [RDoc][16] ile kaynak kodundan üretilmiş bir belge. Bu belge tüm
@@ -102,7 +102,7 @@ referanslar ve diğer belgeleri bulacaksınız.
 [RubyDox][21]
 : Ruby, Rails, Gem ve Plugin Belgeleri.
 
-### Diğer Belgeler
+## Diğer Belgeler
 
 [Ruby-Doc.org][22] Ruby hakkındaki İngilizce belgeleri bir araya
 toplamayı amaçlayan bir site. [Ruby hakkında yazılmış kitaplar][23] da

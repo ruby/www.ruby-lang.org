@@ -6,7 +6,7 @@ lang: zh_tw
 
 這裡是可以派上用場的入門教學、學習手冊和參考文件：
 
-### 入門
+## 入門
 
 [Learn to Program][1]
 : 由 Chris Pine 撰寫的程式語言入門。適合完全沒有程式設計經驗的朋友。
@@ -26,7 +26,7 @@ lang: zh_tw
 [Ruby &amp; Ruby on Rails programming tutorials][4]
 : 提供豐富內容的 Ruby 和 Rails 教學網站。
 
-### 學習手冊
+## 學習手冊
 
 [Programming Ruby][5]
 : 這是 Ruby 的第一本英文書，第一版開放線上免費閱讀 [Pragmatic Programmers’ book][6] 。
@@ -38,7 +38,7 @@ lang: zh_tw
 [The Ruby Programming Wikibook][9]
 : 給初學者到中階程度的線上手冊以及語言參考。
 
-### 參考文件
+## 參考文件
 
 [Ruby Core Reference][10]
 : 這是原始碼中的 [RDoc][11] 文件，包括所有的核心類別和模組(例如 String, Array, Symbol, 等...).
@@ -61,7 +61,7 @@ lang: zh_tw
 [RubyDox][17]
 : Ruby、Rails、Gem 和 Plugin 的文件。
 
-### 進階閱讀
+## 進階閱讀
 
 [Ruby-Doc.org][18] 整理了一份廣泛的英文文件列表，也有許多 [Ruby 書籍][19] 。中文文件列表請參考 [Ruby
 Taiwan 文件][20] 。如果您有 Ruby 相關的問題， [郵件論壇](/en/community/mailing-lists/)

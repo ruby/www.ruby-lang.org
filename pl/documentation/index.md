@@ -7,7 +7,7 @@ lang: pl
 Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
 źródłowych, które okażą się pomocne kiedy będziesz chciał pisać w Ruby.
 
-### Na początek
+## Na początek
 
 [Wypróbuj Ruby!][1]
 : Interaktywny internetowy tutorial dla początkujących napisany przez
@@ -39,7 +39,7 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   Niestety autor nie ukończył go i dlatego jest to tylko podstawowe
   wprowadzenie do języka.
 
-### Manuale
+## Manuale
 
 [Programming Ruby][5]
 : Pionierska książka o Rubim w języku angielskim, jej pierwsze wydanie
@@ -56,7 +56,7 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   Rubiego). Napisany przez Goto Kentaro i Marka Slagella oferuje
   przegląd wielu aspektów języka Ruby.
 
-### Dokumentacja Referencyjna
+## Dokumentacja Referencyjna
 
 [Ruby Core Reference][10]
 : Dokumentacja wygenerowana przy pomocy [RDoc][11] prosto z kodu
@@ -71,7 +71,7 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   Przydatna, gdy chcesz pisać rozszerzenia do języka Ruby w C, lub sam
   pomagać w rozwoju języka
 
-### Inne źródła
+## Inne źródła
 
 [Ruby-Doc.org][14] zawiera kompletną listę dokumentacji języka Ruby w
 języku angielskim. Jeśli nadal masz jakieś pytania, możesz je zadać na

@@ -9,7 +9,6 @@ layout: default
 {% endif %}
 
 <div id="content-wrapper">
-  {% include title.html %}
 
   <div id="content">
     {{ content }}
@@ -44,8 +43,10 @@ layout: default
       {% assign sidebar = site.locales.sidebar['en'] %}
     {% endif %}
 
-    <h3>{{ sidebar.syndicate.text }}</h3>
-    <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
+    <div class="side-bottom-link">
+      <h3>{{ sidebar.syndicate.text }}</h3>
+      <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
+    </div>
   </div>
 </div>
 <hr class="hidden-modern" />

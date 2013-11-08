@@ -13,7 +13,7 @@ lang: ja
 ではライブラリを探してインストールする方法を見てみましょう。
 
 
-### ライブラリを探す
+## ライブラリを探す
 
 Ruby のライブラリは主に [RubyGems.org](http://rubygems.org/) に gem として置かれています。直接ウェブサイトを閲覧したり、`gem` コマンドを使用してそれらを探すことができます。
 
@@ -28,12 +28,12 @@ gem としては RubyGems.org に公開されますが、gem のソースコー�
 [Ruby Application Archive](http://raa.ruby-lang.org/) (または RAA) はあらゆる Ruby のソフトウェアが機能ごとにカテゴリ分けされていた場所です。しかし既に全く使われていません。おそらくもう見る必要はないでしょう。
 
 
-### RubyGems についてもう少し
+## RubyGems についてもう少し
 
 普段使いのために `gem` コマンドについて軽く見ておきましょう。
 このパッケージ管理システムについて全般的に述べられた[もっと詳しいドキュメント](http://docs.rubygems.org/)もあります。
 
-#### 入手可能な gem を検索する
+### 入手可能な gem を検索する
 
 この **search** コマンドを使うと文字列で gem を検索することができます。指定された文字列で始まる名前の gem が返ります。例えば "html" 関連の gem を探したければ以下のようにします。
 
@@ -48,7 +48,7 @@ html-sample (1.0, 1.1)
 `--remote` / `-r` フラグは公式の RubyGems.org リポジトリを検索することを表しています。(そしてこれはデフォルトの動作です。)
 `--local` / `-l` フラグをつけるとインストール済みの gem に対して検索をかけることができます。
 
-#### gem をインストールする
+### gem をインストールする
 
 インストールしたい gem が見つかったなら、**install** コマンドでインストールできます。例えば人気のある Rails でしたら以下のようになります。
 
@@ -62,7 +62,7 @@ $ gem install rails
 $ gem install rails --version 3.0
 {% endhighlight %}
 
-#### 全ての gem を一覧にする
+### 全ての gem を一覧にする
 
 ローカルにインストール済みの gem の一覧を見たいときは **list** コマンドを使います。
 
@@ -76,7 +76,7 @@ $ gem list
 $ gem list -r
 {% endhighlight %}
 
-#### Help!
+### Help!
 
 ドキュメントをターミナルで参照することが出来ます。
 
@@ -86,7 +86,7 @@ $ gem help
 
 たとえば、`gem help commands` は `gem` の全てのコマンドを出力するのでとても便利です。
 
-#### 自分で gem を作る
+### 自分で gem を作る
 
 RubyGems.org に [いくつかのガイド](http://guides.rubygems.org) があります。
 [Bundler](http://gembundler.com/) について調べてみるのもいいでしょう。Bundler は RubyGems と一緒に使われる、アプリケーションの依存関係を管理するための一般的なツールです。

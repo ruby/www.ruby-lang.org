@@ -23,7 +23,7 @@ mit Hinweisen.
 Nun musst Du nur noch wissen, wie Du diese Bibliotheken finden
 und installieren kannst.
 
-### Bibliotheken finden
+## Bibliotheken finden
 
 Die meisten Bibliotheken werden als Gems auf [**RubyGems.org**][3]
 gehostet. Nach Bibliotheken kann direkt auf der Webseite oder mithilfe
@@ -48,13 +48,13 @@ Das [Ruby Application Archive][6] (kurz: RAA) ist ein Verzeichnis
 von Ruby-Software aller Art, kategorisiert nach jeweiliger Funktion.
 Es wird jedoch nicht mehr so stark genutzt.
 
-### Eine kleine Einführung in RubyGems
+## Eine kleine Einführung in RubyGems
 
 Hier folgt ein kurzer Überblick über den `gem`-Befehl für den täglichen
 Gebrauch. Eine genaue Beschreibung aller Funktionen dieses Paketsystems
 findet sich in RubyGems' [ausführlicher Dokumentation][7].
 
-#### Gems suchen
+### Gems suchen
 
 Der Befehl **search** sucht nach Gems eines bestimmten Namens.
 Um ein Gem zu finden, dessen Name mit “html” beginnt, gibst Du
@@ -73,7 +73,7 @@ bei RubyGems.org durchsucht wird (Standardverhalten).
 Mit dem Parameter `--local` / `-l` wird eine Suche unter den lokal installierten
 Gems durchgeführt.
 
-#### Ein Gem installieren
+### Ein Gem installieren
 
 Sobald Du weißt, welches Gem Du **installieren** willst (zum Beispiel
 das beliebte Rails), gib Folgendes ein:
@@ -89,7 +89,7 @@ indem Du den Parameter `--version` / `-v` übergibst:
 $ gem install rails --version 3.0
 {% endhighlight %}
 
-#### Alle Gems auflisten
+### Alle Gems auflisten
 
 Um eine **Liste** aller lokal installierten Gems zu erhalten,
 verwende diesen Befehl:
@@ -105,7 +105,7 @@ zu erhalten, verwende diesen Befehl:
 $ gem list -r
 {% endhighlight %}
 
-#### Hilfe!
+### Hilfe!
 
 Hilfe ist verfügbar in Deinem Terminal:
 
@@ -116,7 +116,7 @@ $ gem help
 Beispielsweise ist `gem help commands` sehr nützlich, das eine Liste
 aller Kommandos des `gem`-Befehls ausgibt.
 
-#### Eigene Gems erstellen
+### Eigene Gems erstellen
 
 Auf RubyGems.org gibt es [verschiedene Anleitungen][8] für das Erstellen
 eigener Gems.

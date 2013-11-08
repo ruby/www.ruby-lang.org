@@ -22,7 +22,7 @@ biasanya file `README` atau `INSTALL` menyediakan instruksi.
 Mari kita lihat cara menemukan library dan menginstalnya
 untuk penggunaan Anda sendiri.
 
-### Menemukan Library
+## Menemukan Library
 
 [**RubyGems.org**][3] adalah tempat utama dimana library dihost, menyediakan
 library Ruby sebagai gem. Anda dapat browse situs webnya langsung, atau
@@ -44,12 +44,12 @@ kode gem di-host di GitHub, dan dipublikasikan sebagai gem lengkap di RubyGems.o
 yang dikategorikan berdasarkan fungsi, tetapi tidak banyak digunakan lagi.
 Anda mungkin tidak perlu pergi ke sana.
 
-### Beberapa Kata tentang RubyGems
+## Beberapa Kata tentang RubyGems
 
 Berikut ini tinjauan singkat dari perintah `gem` untuk penggunaan sehari-hari Anda.
 [Dokumentasi lebih rinci][7] tersedia, dan mencakup semua aspek sistem packaging ini.
 
-#### Mencari di antara gem yang tersedia
+### Mencari di antara gem yang tersedia
 
 Perintah **search** digunakan untuk mencari gem berdasarkan sebuah string.
 Gem yang namanya mulai dengan string tertentu akan terdaftar sebagai hasil pencarian.
@@ -67,7 +67,7 @@ Flag `--remote` / `-r` menunjukkan bahwa kita ingin memeriksa repositori
 resmi RubyGems.org (default). Dengan flag `--local` / `-l` Anda akan
 melakukan pencarian lokal pada gem yang telah Anda instal.
 
-#### Menginstal sebuah gem
+### Menginstal sebuah gem
 
 Setelah Anda tahu gem mana yang ingin Anda **install**, misalnya gem
 Rails yang populer:
@@ -83,7 +83,7 @@ Anda bahkan dapat menginstal library versi tertentu menggunakan flag
 $ gem install rails --version 3.0
 {% endhighlight %}
 
-#### Daftar semua gem
+### Daftar semua gem
 
 Untuk **list** semua gem yang telah Anda instal:
 
@@ -98,7 +98,7 @@ tersedia di RubyGems.org:
 $ gem list -r
 {% endhighlight %}
 
-#### Tolong!
+### Tolong!
 
 Dokumentasi tersedia pada terminal Anda:
 
@@ -109,7 +109,7 @@ $ gem help
 Contohnya, `gem help commands` sangat berguna karena mengeluarkan
 daftar semua perintah `gem`.
 
-#### Membuat gem Anda sendiri
+### Membuat gem Anda sendiri
 
 RubyGems.org memiliki [beberapa panduan][8] tentang topik ini. Anda juga
 mungkin ingin untuk melihat [Bundler][9], alat generik yang membantu

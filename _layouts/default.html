@@ -1,17 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     {% if page.title != null %}
     <title>{{ page.title }}</title>
     {% else %}
     <title>Ruby Programming Language</title>
     {% endif %}
-    <link rel="stylesheet" type="text/css" href="/stylesheets/low.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
-    <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/pygments.css">
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
@@ -29,7 +29,7 @@
     <div id="page">
       <div id="header">
         <div id="logo">
-          <a href="/{{ page.lang }}/"><img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
+          <a href="/{{ page.lang }}/"><img src="/images/logo.png" width="255" height="50" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
         </div>
         <div class="site-links">
           {% include sitelinks.html %}
@@ -38,14 +38,17 @@
       <hr class="hidden-modern" />
 
       <div id="main-wrapper">
+        {% if page.url != homepage_url %}
+          {% include title.html %}
+        {% else %}
+          <div id="main-visual">
+            <img src="/images/main-visual-logo.png" width="260" height="250" alt="main visual">
+          </div>
+        {% endif %}
         <div id="main">
+
           {{ content }}
 
-          <div class="foot">
-            <div class="site-links">
-              {% include sitelinks.html %}
-            </div>
-          </div>
         </div>
       </div>
 

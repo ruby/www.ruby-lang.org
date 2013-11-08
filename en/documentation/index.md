@@ -7,7 +7,7 @@ lang: en
 Here you will find pointers to manuals, tutorials and references that
 will come in handy when you feel like coding in Ruby.
 
-### Getting Started
+## Getting Started
 
 [Try Ruby!][1]
 : An interactive tutorial that lets you try out Ruby right in your
@@ -58,7 +58,7 @@ will come in handy when you feel like coding in Ruby.
 : A very good set of exercises with explanations that guide you from
   the absolute basics of Ruby all the way to OOP and web development.
 
-### Manuals
+## Manuals
 
 [Programming Ruby][9]
 : The seminal work on Ruby in English, this first edition of the
@@ -73,7 +73,7 @@ will come in handy when you feel like coding in Ruby.
 : A free online manual with beginner and intermediate content plus a
   thorough language reference.
 
-### Reference Documentation
+## Reference Documentation
 
 [Ruby Core Reference][13]
 : Pulled straight from the source code using [RDoc][14], this reference
@@ -94,7 +94,7 @@ will come in handy when you feel like coding in Ruby.
 [APIdock][18]
 : Ruby, Rails and RSpec documentation with users’ notes.
 
-### Editors and IDEs
+## Editors and IDEs
 
 For coding in Ruby you can use the default editor of your operating
 system. By the way, to be more effective in coding, it is worth to
@@ -125,7 +125,7 @@ Here is a list of popular tools used by Rubyists:
   * [TextMate][32]
   * [TextWrangler][33]
 
-### Further Reading
+## Further Reading
 
 [Ruby-Doc.org][34] maintains a comprehensive list of English
 documentation sources. There are also plenty of [books about Ruby][35].

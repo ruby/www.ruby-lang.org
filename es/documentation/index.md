@@ -7,7 +7,7 @@ lang: es
 Aquí encontrarás vínculos a manuales, tutoriales y referencias que te
 serán útiles a la hora de desarrollar con Ruby.
 
-### Para iniciarse
+## Para iniciarse
 
 [¡Prueba Ruby!][1]
 : Un tutoríal interactivo para principiantes en la web. No es necesario
@@ -27,7 +27,7 @@ serán útiles a la hora de desarrollar con Ruby.
 : ¿Ya sabes programar en otro lenguaje? Ya sea C, C++, Java, Perl, PHP,
   o Python, ¡este artículo es para tí!
 
-### Manuales
+## Manuales
 
 [Programming Ruby][3]
 : El libro en inglés de referencia, esta primer edición del
@@ -45,7 +45,7 @@ serán útiles a la hora de desarrollar con Ruby.
   y Mark Slagell es un buen resumen de varios aspectos del lenguaje
   Ruby.
 
-### Documentación de referencia
+## Documentación de referencia
 
 [Referencia del núcleo de Ruby][7]
 : Extraída directamente del código fuente mediante [RDoc][8], esta
@@ -60,7 +60,7 @@ serán útiles a la hora de desarrollar con Ruby.
 : Documentación del código C subyacente en Ruby. Perfecta si quieres
   escribir extensiones en C para contribuír al desarrollo de Ruby.
 
-### Otras lecturas
+## Otras lecturas
 
 [Ruby-Doc.org][11] mantiene una extensa lista de fuentes de
 documentación en inglés. También existen varios [libros sobre Ruby][12].

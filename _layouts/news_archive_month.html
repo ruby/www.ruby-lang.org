@@ -9,20 +9,20 @@ layout: default
 {% endif %}
 
 <div id="content-wrapper">
-  {% include title.html %}
 
   <div id="content">
     {% for post in page.posts %}
     <div class="post">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
       <p>
       {{ post.excerpt | markdownify }}
       </p>
 
-      <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
-
-      <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+      <p>
+        <a href="{{ post.url }}" class="continue-reading">{{ locales.continue }}</a>
+        <span class="post-info">{{ post.date | posted_by:post.author }}</span>
+      </p>
     </div>
     {% endfor %}
 
@@ -38,6 +38,30 @@ layout: default
 <div id="sidebar-wrapper">
   <div id="sidebar">
     <div class="navigation">
+      {% if site.locales.news[page.lang] %}
+        {% assign news = site.locales.news[page.lang] %}
+      {% else %}
+        {% assign news = site.locales.news['en'] %}
+      {% endif %}
+
+      <h3><strong>{{ news.recent_news }}</strong></h3>
+
+      <ul class="menu">
+        {% for post in site.categories[page.lang] limit:5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% if site.locales.sidebar[page.lang] %}
+      {% assign sidebar = site.locales.sidebar[page.lang] %}
+    {% else %}
+      {% assign sidebar = site.locales.sidebar['en'] %}
+    {% endif %}
+
+    <div class="side-bottom-link">
+      <h3>{{ sidebar.syndicate.text }}</h3>
+      <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
     </div>
   </div>
 </div>

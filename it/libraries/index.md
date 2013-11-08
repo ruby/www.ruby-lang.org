@@ -10,7 +10,7 @@ fuori, molte delle quali disponibili per la tua convenienza tramite file
 compresse (.zip o .tar.gz). Diamo un’occhiata a come fare per trovare
 queste librerie e installarle per il tuo uso e consumo.
 
-### Trovare le librerie
+## Trovare le librerie
 {: #finding-libraries}
 
 [**RubyForge**][1] è il posto più comune dove trovare delle librerie per
@@ -26,7 +26,7 @@ categoria [Database][5] ha il maggior numero di elementi, uno in più di
 [Net.][6]. [HTML][7] e [XML][8] sono tra le altre categorie più
 popolari. Ci sono anche 4 elementi nella categoria [Fisica][9] entries.
 
-### Usare RubyGems
+## Usare RubyGems
 {: #using-rubygems}
 
 Sebbene il programma di installazione di Ruby per Windows includa
@@ -34,7 +34,7 @@ RubyGems, molti sistemi operativi no. Dai un’occhiata a [Installare
 RubyGems](#installing-rubygems) di seguito, se i comandi descritti in
 questa sezione non funzionano sul tuo computer.
 
-#### Cercare le gemme
+### Cercare le gemme
 
 Il comando **search** può essere usato per cercare delle gemme con un
 creto nome. Per cercare la parola “html” nel nome di una gemma, fai
@@ -51,7 +51,7 @@ html-sample (1.0, 1.1)
 (*Il flag `--remote` / `-r` indica che cerchiamo tra le gemme ufficiali su
 RubyForge.*)
 
-#### Installare una gemma
+### Installare una gemma
 
 Una volta che conosci il nome della gemma che ti serve, la puoi
 installare con il comando **install**\:
@@ -67,7 +67,7 @@ specificando il flag `--version`.
 $ gem install html-sample --version 1.0
 {% endhighlight %}
 
-#### Elencare tutte le gemme
+### Elencare tutte le gemme
 
 Per una lista completa di tutte le gemme presenti su RubyForge, usa il
 comando **list**\:
@@ -87,7 +87,7 @@ Per maggiori informazioni su RubyGems, vedi [**il manuale
 ufficiale**][10], che contiene anche esempi su come usare le gemme nei
 tuoi programmi in Ruby.
 
-### Installare RubyGems
+## Installare RubyGems
 {: #installing-rubygems}
 
 Per installare RubyGems, scarica RubyGems 0.9.0 da [questa pagina][11].
