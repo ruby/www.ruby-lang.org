@@ -1,0 +1,39 @@
+// $bg-color: #213449;
+$bg-light-color: #bec9d6;
+$bg-dark-color: #23354f;
+$navbar-bg-color: #252525;
+$text-light-color: #eee;
+$text-dark-color: #2c2c2c;
+$text-darker-color: #1c1c1c;
+$ruby-red: rgb(198, 26, 26);
+$navbar-font-size: 16px;
+$navbar-logo-font-size: 21px;
+$navbar-top-padding: 17px;
+$navbar-bottom-padding: 19px;
+$mobile-side-padding: 2em;
+
+$border-radius: 5px;
+
+$standard-box-shadow: 0 2px 0 rgba(#000,0.3);
+
+// TODO NEAT SETTINGS HEADER
+
+// Change the grid settings
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 3.3em;            // each column is 4em wide
+$gutter-width   : 1.8em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+
+$tablet: 42em 9 62em;
+$mobile: 6 42em;
+
+
+@mixin responsive_container {
+  @include container;
+  @include at-breakpoint($tablet) {
+    @include container;
+  }
+  @include at-breakpoint($mobile) {
+    @include container;
+  }
+}

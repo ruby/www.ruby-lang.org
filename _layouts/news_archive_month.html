@@ -8,10 +8,10 @@ layout: default
   {% assign locales = site.locales.news['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
-  {% include title.html %}
+{% include title.html %}
 
-  <div id="content">
+<div class="content standard-layout">
+  <div class="main-area">
     {% for post in page.posts %}
     <div class="post">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -32,13 +32,6 @@ layout: default
       <a href="../">&lt;&lt; {{ locales.back_to_year | replace:'%Y',year_string }}</a>
     </p>
   </div>
-</div>
-<hr class="hidden-modern" />
-
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation">
-    </div>
+  <div class="sidebar">
   </div>
 </div>
-<hr class="hidden-modern" />

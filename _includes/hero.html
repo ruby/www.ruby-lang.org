@@ -1,0 +1,28 @@
+<div class="hero">
+  <div class="hero-description">
+    {% if page.hero_title %}
+      <h1>{{ page.hero_title }}</h1>
+    {% endif %}
+    {% if page.hero_download %}
+      <a href="downloads/" class="primary-button">{{ page.hero_download }}</a>
+    {% endif %}
+    {% if page.hero_more %}
+      <a href="about/" class="secondary-button">{{ page.hero_more }}</a>
+    {% endif %}
+  </div>
+  <div class="hero-example dark-highlight" id="code">
+    <noscript><div class="highlight"><pre><code class="ruby">
+      <span class="c1"># The famous Hello World</span>
+      <span class="c1"># Program is trivial in</span>
+      <span class="c1"># Ruby. Superfluous:</span>
+      <span class="c1">#</span>
+      <span class="c1"># * A &quot;main&quot; method</span>
+      <span class="c1"># * Newline</span>
+      <span class="c1"># * Semicolons</span>
+      <span class="c1">#</span>
+      <span class="c1"># Here is the Code:</span>
+
+      <span class="nb">puts</span> <span class="s2">&quot;Hello World!&quot;</span>
+    </code></pre></div></noscript>
+  </div>
+</div>

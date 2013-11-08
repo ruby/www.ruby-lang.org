@@ -13,8 +13,14 @@ end
 HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt tr vi zh_cn zh_tw]
 
+desc "Compiles the SASS assets to CSS"
+task :sass do
+  puts "Compiling Sass..."
+  sh 'compass compile _sass'
+end
+
 desc "Generates the Jekyll site"
-task :generate do
+task :generate => [:sass] do
   require 'jekyll'
   # workaround for LANG=C environment
   module Jekyll::Convertible
@@ -29,7 +35,19 @@ end
 
 desc "Generates the Jekyll site and starts local server"
 task :preview do
-  sh 'jekyll serve --watch'
+  pids = [
+    spawn("jekyll serve --watch"), # put `auto: true` in your _config.yml
+    spawn("compass watch _sass"),
+  ]
+ 
+  trap "INT" do
+    Process.kill "INT", *pids
+    exit 1
+  end
+ 
+  loop do
+    sleep 1
+  end
 end
 
 namespace :new_post do

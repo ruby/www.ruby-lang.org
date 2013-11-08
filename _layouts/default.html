@@ -1,64 +1,34 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
     {% if page.title != null %}
-    <title>{{ page.title }}</title>
+      <title>{{ page.title }}</title>
     {% else %}
-    <title>Ruby Programming Language</title>
+      <title>Ruby Programming Language</title>
     {% endif %}
-    <link rel="stylesheet" type="text/css" href="/stylesheets/low.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
     <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
-
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/page.js"></script>
     {% if page.javascript != null %}
-    {% for javascript in page.javascript %}
-    <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
-    {% endfor %}
+      {% for javascript in page.javascript %}
+        <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
+      {% endfor %}
     {% endif %}
   </head>
 
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
-  <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
-    <div id="page">
-      <div id="header">
-        <div id="logo">
-          <a href="/{{ page.lang }}/"><img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
-        </div>
-        <div class="site-links">
-          {% include sitelinks.html %}
-        </div>
-      </div>
-      <hr class="hidden-modern" />
-
-      <div id="main-wrapper">
-        <div id="main">
-          {{ content }}
-
-          <div class="foot">
-            <div class="site-links">
-              {% include sitelinks.html %}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="search-box">
-        {% include search.html %}
-      </div>
-      <div id="footer">
-        <div class="fine-print">
-          {% include footer.html %}
-        </div>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
+<body>
+  {% include navbar.html %}
+  {{ content }}
+  {% include footer.html %}
+  
+  {% include analytics.html %}
+</body>
 </html>

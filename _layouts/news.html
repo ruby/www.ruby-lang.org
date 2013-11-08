@@ -8,40 +8,33 @@ layout: default
   {% assign locales = site.locales.news['en'] %}
 {% endif %}
 
-<div id="content-wrapper">
-  {% include title.html %}
+{% include title.html %}
 
-  <div id="content">
+<div class="content standard-layout">
+  <div class="main-area">
     {% for post in page.posts %}
     <div class="post">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-      <p>
-      {{ post.excerpt | markdownify }}
-      </p>
+    <p>
+    {{ post.excerpt | markdownify }}
+    </p>
 
-      <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
+    <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
 
-      <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+    <p class="post-info">{{ post.date | posted_by:post.author }}</p>
     </div>
     {% endfor %}
   </div>
-</div>
-<hr class="hidden-modern" />
+  <div class="sidebar">
+    <h4><strong>{{ locales.yearly_archives }}</strong></h4>
 
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation">
-      <h3><strong>{{ locales.yearly_archives }}</strong></h3>
-
-      <ul class="menu">
-      {% for year in page.years %}
-      <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
+    <ul class="menu">
+    {% for year in page.years %}
+    <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
+    {% endfor %}
+    </ul>
 
     {% include syndicate.html %}
   </div>
 </div>
-<hr class="hidden-modern" />

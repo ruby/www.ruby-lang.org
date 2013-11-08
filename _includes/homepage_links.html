@@ -4,13 +4,8 @@
   {% assign sidebar = site.locales.sidebar['en'] %}
 {% endif %}
 
-{% if page.sidebar != null %}
-<div class="navigation">
-  {{ page.sidebar }}
-</div>
-{% endif %}
-
 {% if sidebar.get_started != null %}
+<div class="cell">
   <h4>{{ sidebar.get_started.text }}</h4>
 
   <ul class="link-list">
@@ -24,9 +19,11 @@
     <li><a href="{{ sidebar.get_started.ruby_from_other_languages.url }}">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
     {% endif %}
   </ul>
+</div>
 {% endif %}
 
 {% if sidebar.explore != null %}
+<div class="cell">
   <h4>{{ sidebar.explore.text }}</h4>
   <ul class="link-list">
     {% if sidebar.explore.documentation != null %}
@@ -45,37 +42,32 @@
     <li><a href="{{ sidebar.explore.success_stories.url }}">{{ sidebar.explore.success_stories.text }}</a></li>
     {% endif %}
   </ul>
+</div>
 {% endif %}
 
 {% if sidebar.participate != null %}
+<div class="cell">
   <h4>{{ sidebar.participate.text }}</h4>
   <ul class="link-list">
     {% if sidebar.participate.mailing_lists != null %}
-    <li><a href="{{ sidebar.participate.mailing_lists.url }}">{{ sidebar.participate.mailing_lists.text }}<span>{{ sidebar.participate.mailing_lists.description }}</span></a></li>
+    <li><a href="{{ sidebar.participate.mailing_lists.url }}">{{ sidebar.participate.mailing_lists.text }}</a></li>
     {% endif %}
 
     {% if sidebar.participate.user_groups != null %}
-    <li><a href="{{ sidebar.participate.user_groups.url }}">{{ sidebar.participate.user_groups.text }}<span>{{ sidebar.participate.user_groups.description }}</span></a></li>
+    <li><a href="{{ sidebar.participate.user_groups.url }}">{{ sidebar.participate.user_groups.text }}</a></li>
     {% endif %}
 
     {% if sidebar.participate.weblogs != null %}
-    <li><a href="{{ sidebar.participate.weblogs.url }}">{{ sidebar.participate.weblogs.text }}<span>{{ sidebar.participate.weblogs.description }}</span></a></li>
+    <li><a href="{{ sidebar.participate.weblogs.url }}">{{ sidebar.participate.weblogs.text }}</a></li>
     {% endif %}
 
     {% if sidebar.participate.ruby_core != null %}
-    <li><a href="{{ sidebar.participate.ruby_core.url }}">{{ sidebar.participate.ruby_core.text }}<span>{{ sidebar.participate.ruby_core.description }}</span></a></li>
+    <li><a href="{{ sidebar.participate.ruby_core.url }}">{{ sidebar.participate.ruby_core.text }}</a></li>
     {% endif %}
 
     {% if sidebar.participate.issue_tracking != null %}
-    <li><a href="{{ sidebar.participate.issue_tracking.url }}">{{ sidebar.participate.issue_tracking.text }}<span>{{ sidebar.participate.issue_tracking.description }}</span></a></li>
+    <li><a href="{{ sidebar.participate.issue_tracking.url }}">{{ sidebar.participate.issue_tracking.text }}</a></li>
     {% endif %}
   </ul>
+</div>
 {% endif %}
-
-{% if sidebar.top_ruby_projects != null %}
-<h4>{{ sidebar.top_ruby_projects.text }}</h4>
-
-<p class="more"><a href="{{ sidebar.top_ruby_projects.more.url }}">{{ sidebar.top_ruby_projects.more.text }}</a></p>
-{% endif %}
-
-{% include syndicate.html %}

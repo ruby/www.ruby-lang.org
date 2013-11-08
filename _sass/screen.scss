@@ -1,0 +1,596 @@
+@charset "utf-8";
+@import "variables";
+@import "normalize";
+@import "compass";
+@import "susy";
+@import "pygments";
+
+body {
+  background-color: $bg-light-color;
+  font-family: 'Source Sans Pro', Helvetica, Verdana, Geneva, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+%unimportant-candy {
+  border-top: 1px solid lighten($navbar-bg-color, 6%);
+  background-color: $navbar-bg-color;
+  color: $text-light-color;
+  @include transition(border-top-color 90ms linear, background-color 90ms linear);
+
+  &:hover {
+    background-color: lighten($navbar-bg-color,2%);
+    border-top-color: lighten($navbar-bg-color, 8%);
+  }
+}
+
+%important-candy {
+  border-top: 1px solid lighten($ruby-red, 15%);
+  background-color: $ruby-red;
+  color: $text-light-color;
+  @include transition(border-top-color 90ms linear, background-color 90ms linear);
+
+  &:hover {
+    background-color: lighten($ruby-red, 5%);
+    border-top-color: lighten($ruby-red, 20%);
+  }
+}
+
+%small-text {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.button {
+  display: inline-block;
+  border:none;
+  padding: 0.8em 1.5em 0.9em 1.5em;
+  border-radius: $border-radius;
+  box-shadow: 0 0 0 1px darken($navbar-bg-color, 5%), 0 3px 0 rgba(#000,0.3);
+  text-decoration: none;
+  text-align: center;
+  @extend %unimportant-candy;
+
+  &:active {
+    position: relative;
+    top: 2px;
+    box-shadow: 0 0 0 1px darken($navbar-bg-color, 5%);
+  }
+}
+
+.important-button {
+  @extend %important-candy;
+  @extend .button;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 0;
+}
+
+header {
+  @include responsive-container;
+  color: $text-light-color;
+  display: block;
+
+  .multi-page {
+    float: right;
+    a,strong {
+      font-size: 1.3em;
+      color: $text-light-color;
+      padding: 0 0.3em 0.1em;
+      border-radius: $border-radius;
+    }
+    strong {
+      background-color:$ruby-red;
+    }
+  }
+}
+
+nav {
+  @include responsive-container;
+  padding: 2.2em 0 2em 0;
+
+  .tablet-logo {
+    display: none;
+    @include at-breakpoint($tablet) {
+      display: block;
+      background-image: url(/images/logo.png);
+      background-size: 2em;
+      background-repeat: no-repeat;
+      background-position: left center;
+      color: $text-light-color;
+      font-size: 1.7em;
+      font-weight: 600;
+      padding: 0.5em 0 0.5em 2.8em;
+      text-decoration: none;
+    }
+  }
+
+  .mobile-nav-button {
+    display: none;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: right;
+    color: $text-light-color;
+    text-decoration: none;
+    font-weight: 600;
+    img {
+      vertical-align: middle;
+    }
+    @include at-breakpoint($mobile) {
+      display: block;
+    }
+  }
+}
+
+.navbar {
+  @include span-columns(12,12);
+  list-style: none;
+  padding: 0;
+  background-color: $navbar-bg-color;
+  border-radius: $border-radius;
+  overflow: hidden; // to make the border radius always show
+  border: 1px solid darken($navbar-bg-color, 4%);
+  border-top-color:darken($navbar-bg-color, 1%);
+  font-weight: 400;
+  box-shadow: $standard-box-shadow;
+  display: table;
+
+  li {
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 1px solid darken($navbar-bg-color, 0.6%);
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  li.logo {
+    // width: 10em;
+    width: 160px;
+    @include at-breakpoint($tablet) {
+      display: none;
+    }
+
+    a {
+      padding: $navbar-top-padding - ($navbar-logo-font-size - $navbar-font-size)/2
+               0.5em
+               $navbar-bottom-padding - ($navbar-logo-font-size - $navbar-font-size)/2
+               4.6em;
+      background-image: url(/images/logo.png);
+      background-size: 5em;
+      background-repeat: no-repeat;
+      background-position: -0.5em -0.3em;
+
+      span {
+        font-size: $navbar-logo-font-size;
+        font-weight: 600;
+      }
+    }
+
+  }
+
+  a, a:visited {
+    @extend %unimportant-candy;
+    display: block;
+    padding: $navbar-top-padding 0.5em $navbar-bottom-padding 0.5em;
+    font-size: $navbar-font-size;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+
+    @include at-breakpoint($tablet) {
+      font-size: $navbar-font-size - 1px;
+    }
+
+    &.active {
+      @extend %important-candy;
+    }
+  }
+
+  form {
+    margin: 0 0.5em;
+    background-color: darken($navbar-bg-color, 2%);
+    border: 1px solid  darken($navbar-bg-color, 4%);
+    float: right;
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    background-color: darken($navbar-bg-color, 2%);
+    padding: 0.4em 0.4em 0.5em 0.4em;
+    font-size: 0.9em;
+    color: $text-light-color;
+    margin: 0;
+    max-width: 9em;
+
+    &:focus {
+      background-color: darken($navbar-bg-color, 1%);
+    }
+  }
+
+  input[type=submit] {
+    border-top: 1px solid lighten($navbar-bg-color, 6%);
+    border-left: 1px solid darken($navbar-bg-color, 6%);
+    background-color: lighten($navbar-bg-color, 2%);
+    padding-left: 1em;
+    padding-right: 1em;
+
+    &:active {
+      border-top-color: darken($navbar-bg-color, 2%);
+      background-color: darken($navbar-bg-color, 2%);
+    }
+  }
+}
+
+@include at-breakpoint($mobile) {
+  .navbar {
+    display: block;
+    li {
+      display: block;
+      border-right: none;
+    }
+    li.logo {
+      width: auto;
+    }
+    li.logo a {
+      padding-left: 0.5em;
+    }
+    a {
+      // display: none;
+      display: block;
+      max-height: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-top-width: 0;
+      @include transition(max-height 200ms ease-in-out, padding 200ms ease-in-out, border-top-width 200ms ease-in-out);
+    }
+    a.active, li.logo a {
+      // display: block;
+      border-top-width: 1px;
+      padding: $navbar-top-padding 0.5em $navbar-bottom-padding 0.5em;
+      max-height: 3em;
+    }
+  }
+
+  .navbar.open {
+    a {
+      // display: block;
+      border-top-width: 1px;
+      padding: $navbar-top-padding 0.5em $navbar-bottom-padding 0.5em;
+      max-height: 3em;
+    }
+  }
+}
+
+.hero {
+  @include responsive-container;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+.hero-description {
+  @include span-columns(8,12);
+  color: $text-light-color;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 2em;
+
+    strong {
+      font-weight: 600;
+      color: $ruby-red;
+    }
+  }
+
+  .primary-button {
+    @extend .important-button;
+  }
+
+  .secondary-button {
+    margin-left: 1em;
+    @extend .button;
+  }
+}
+
+.hero-example {
+  @include span-columns(4 omega,12);
+  color: $text-light-color;
+  pre {
+    background-color: rgba(#000, 0.2);
+    border-radius: $border-radius;
+    padding: 1em;
+    font-size: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@include at-breakpoint($mobile) {
+  .hero {
+    padding-top: 1em;
+    padding-bottom: 3em;
+  }
+  .hero-description,.hero-example {
+    @include span-columns(6 omega,6);
+    h1 {
+      margin-bottom: 0.7em;
+    }
+  }
+
+  .hero-description {
+    .primary-button, .secondary-button {
+      margin: 1em 0;
+      display: block;
+    }
+  }
+}
+
+.bg {
+  &.alt-color {
+    background-color: darken($bg-light-color, 7%);
+  }
+
+  &.dark-color {
+    background-color: $bg-dark-color;
+  }
+  &.image-bg {
+    background-image: url(/images/bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include at-breakpoint($mobile) {
+      background-image: none;
+    }
+  }
+}
+
+
+// LAYOUTS
+
+.standard-layout {
+  @include responsive-container;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  .main-area {
+    @include span-columns(8,12);
+
+    h1:first-child, h2:first-child, h3:first-child, h4:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .sidebar {
+    @include span-columns(4 omega,12);
+  }
+  @include at-breakpoint($tablet) {
+    .main-area {
+      @include span-columns(6,9);
+    }
+
+    .sidebar {
+      @include span-columns(3 omega, 9);
+    }
+  }
+
+  @include at-breakpoint($mobile) {
+    .main-area {
+      @include span-columns(6 omega,6);
+    }
+
+    .sidebar {
+      @include span-columns(6 omega,6);
+    }
+  }
+}
+
+.full-layout {
+  @include responsive-container;
+}
+
+.cell-layout {
+  @include responsive-container;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  .cell {
+    @include span-columns(4,12);
+    @include nth-omega(3n);
+    @include isolate-grid(4,12);
+
+    @include at-breakpoint($tablet) {
+      @include span-columns(3,9);
+    @include isolate-grid(3,9);
+    }
+
+    @include at-breakpoint($mobile) {
+      @include span-columns(6,6);
+      @include omega;
+    }
+  }
+}
+
+.content {
+  color: $text-dark-color;
+  p, li, dd, dt {
+    line-height: 1.7;
+  }
+  p {
+    margin: 0;
+    margin-bottom: 0.8em;
+  }
+  dd {
+    margin-bottom: 0.5em;
+    margin-left: 1.5em;
+  }
+
+  a {
+    color: $ruby-red;
+    border-bottom: 2px solid rgba($ruby-red, 0.3);
+    text-decoration: none;
+
+    &:hover {
+      border-bottom-color: $ruby-red;
+    }
+  }
+
+  h1,h2,h3 {
+    color: $text-darker-color;
+  }
+
+  h2,h3,h4,h5,h6 {
+    margin: 0.8em 0 0.5em 0;
+  }
+
+  h4 {
+    @extend %small-text;
+    margin: 2em 0 0.5em 0;
+
+    &:first-child {
+      margin-top: 0.3em;
+    }
+
+    a {
+      color: $text-dark-color;
+      border: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  pre, code {
+    background-color: darken($bg-light-color,7%);
+    border-radius: $border-radius;
+    font-size: 0.94em;
+  }
+
+  pre {
+    padding: 1em;
+    background-color: $bg-dark-color;
+    code {
+      background-color: transparent;
+    }
+  }
+
+  code {
+    padding: 0.15em 0.2em;
+  }
+
+  .post-info {
+    margin: 0;
+    @extend %small-text;
+    color: lighten($text-dark-color, 25%);
+  }
+
+  .post {
+    margin-bottom: 2em;
+  }
+
+  blockquote {
+    border-left: 5px solid $ruby-red;
+    padding-left: 1em;
+    margin-left: 0;
+  }
+
+  strong {
+    weight: 600;
+  }
+
+  .textbox {
+    background-color: $bg-dark-color;
+    border: none;
+    border-radius: $border-radius;
+    color: $text-light-color;
+    padding: 0.6em;
+    font-size: 0.8em;
+    margin: 0.3em;
+    box-shadow: $standard-box-shadow;
+  }
+
+  .fieldset td {
+    padding: 0.5em;
+  }
+}
+
+.content-dark {
+  @extend .content;
+
+  color: $text-light-color;
+
+  h1,h2,h3 {
+    color: $text-light-color;
+  }
+
+  a {
+    color: $text-light-color;
+    border-bottom-color: rgba($text-light-color,0.3);
+
+    &:hover {
+      border-bottom-color: $text-light-color;
+    }
+  }
+}
+
+.link-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid darken($bg-light-color,35%);
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: $standard-box-shadow;
+  text-shadow: 0px 1px 0px lighten($bg-light-color,7%);
+
+  a {
+    display: block;
+    padding: 0.6em 1em;
+    border-top: 1px solid darken($bg-light-color,0%);
+    border-bottom: 1px solid darken($bg-light-color,19%);
+    background-color: darken($bg-light-color,5%);
+    color: $text-dark-color;
+    text-decoration: none;
+    line-height: 1.5;
+    @include transition(border-color 90ms linear, background-color 90ms linear);
+
+    &:visited {
+      color: $text-dark-color;
+    }
+
+    &:hover {
+      background-color: darken($bg-light-color,8%);
+      border-top-color: darken($bg-light-color,3%);
+      border-bottom-color: darken($bg-light-color,22%);
+    }
+  }
+
+  span {
+    display: block;
+    margin-top: 0.3em;
+    font-size: 0.8em;
+    color: lighten($text-dark-color, 10%);
+  }
+}
+
+
+
+footer {
+  @include responsive-container;
+  @extend .content-dark;
+  padding: 2em 0;
+  ul.first-child {
+    margin-top: 0;
+  }
+}
