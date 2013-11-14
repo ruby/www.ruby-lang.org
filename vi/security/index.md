@@ -10,7 +10,7 @@ Bạn sẽ tìm thấy thông tin về các vấn đề bảo mật của Ruby t
 
 Báo lỗ hổng bảo mật qua email tới địa chỉ security@ruby-lang.org
 ([PGP public key](/security.asc)).
-Email này là một mailing list cá nhân. Các vấn đề được báo cáo sẽ được công bô
+Email này là một mailing list cá nhân. Các vấn đề được báo cáo sẽ được công bố
 sau khi vá xong lỗi.
 
 ## Những lỗi được biết
