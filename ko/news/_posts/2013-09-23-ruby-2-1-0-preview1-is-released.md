@@ -37,7 +37,6 @@ Fastly를 이용한 [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby
 주목할만한 변경점들은 아래와 같습니다:
 
 * VM (메서드 캐시)
-* RGenGC (See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [EuRuKo presentation](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
 * RGenGC (ko1의 [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73)와 [EuRuKo presentation](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf)를 참조하십시오)
 * refinements
 * syntax
