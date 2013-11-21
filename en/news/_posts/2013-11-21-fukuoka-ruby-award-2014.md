@@ -21,6 +21,8 @@ Entry Deadline: November 29, 2013
 Matz and a group of panelists will select the winners of the Fukuoka Competition. 
 The grand prize for the Fukuoka Competition is 1 million yen. Past grand prize winners include Rhomobile (USA) and APEC Climate Center (Korea).
 
+See the winners from last year:
+
 http://www.myfukuoka.com/category/ruby-award-winners
 
 Programs entered in the competition do not have to be written entirely in Ruby
@@ -44,12 +46,12 @@ The winner of the Engine Yard Prize will receive:
 - Engine Yard novelty goods set
 
 The winner of Heroku Prize will receive:
-- 100,000yen
+- 100,000 yen
 -  A pair of tickets to RubyKaigi (incl. 50,000 yen per person for transport expenses)
 - Heroku novelty goods set
 
 The winner of the paperboy&co. Prize will receive:
-- Free pair tickets to Shimane (Ruby City Matsue) for 3days
+- Free pair tickets to Shimane (Ruby City Matsue) for 3 days
   (transportation expenses up to 50,000 yen per person)
 - Free gTLD (com, net, org, info, biz) for 10 years
 
