@@ -15,7 +15,6 @@ l'interpréteur Ruby :
  * [Dépassement du tas pour l'interprétation des nombres à virgule flottante (CVE-2013-4164)](/fr/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 Cette version comprend également d'autres corrections de bugs.
-And some bugfixes are also included.
 Veuillez consulter [les tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 et [le ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) pour plus de détails.
 
