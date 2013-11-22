@@ -153,7 +153,7 @@
 
   #header div.site-links a + a { border-top-color: #7c7874; }
   #header div.site-links.open a.menu { background-color: #433f3c; }
-  
+
   #subscriptions-form tr,
   #subscriptions-form td {
     min-width: auto !important;
@@ -163,9 +163,9 @@
 
   #subscriptions-form table input {
     width: 94% !important;
-    padding: 0 3% 0 3% !important;
+    padding: 6px 3% !important;
   }
-  
+
   #subscriptions-form table input,
   #subscriptions-form table select { margin-left: 0 !important; }
 
@@ -209,4 +209,9 @@
 
   #header div.site-links a.menu { width: 44px; }
   #header div.site-links a { padding-left: 60px; }
+
+  .buttons .button {
+    display: block;
+    width: 100%;
+  }
 }
