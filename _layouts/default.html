@@ -1,19 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     {% if page.title != null %}
     <title>{{ page.title }}</title>
     {% else %}
     <title>Ruby Programming Language</title>
     {% endif %}
-    <link rel="stylesheet" type="text/css" href="/stylesheets/low.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
-    <link title="Low vision" rel="alternate stylesheet" type="text/css" href="/stylesheets/low_vision_screen.css" media="screen" />
 
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/mobile.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,cyrillic,greek,vietnamese' rel='stylesheet' type='text/css'>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/page.js"></script>
     {% if page.javascript != null %}
@@ -26,36 +32,42 @@
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
-    <div id="page">
-      <div id="header">
-        <div id="logo">
-          <a href="/{{ page.lang }}/"><img src="/images/logo.gif" width="331" height="119" alt="{{ site.locales.slogan[page.lang] }}" title=""></a>
+    <div id="header">
+      <div id="header_content" class="container">
+        <a href="/{{ page.lang }}/">
+          <h1>{{ site.locales.ruby[page.lang] }}</h1>
+          <h2>{{ site.locales.slogan[page.lang] }}</h2>
+        </a>
+
+        <div class="site-links">
+          <a href="/{{ page.lang }}/" class="home">Home</a>
+          {% include sitelinks.html %}
+          <a href="#" class="menu selected">Menu</a>
         </div>
+
+        <div id="search-box">
+          {% include search.html %}
+        </div>
+      </div>
+    </div>
+
+    <div id="page">
+      {% include intro.html %}
+
+      <div id="main-wrapper" class="container">
+        <div id="main">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="footer">
         <div class="site-links">
           {% include sitelinks.html %}
         </div>
-      </div>
-      <hr class="hidden-modern" />
 
-      <div id="main-wrapper">
-        <div id="main">
-          {{ content }}
-
-          <div class="foot">
-            <div class="site-links">
-              {% include sitelinks.html %}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="search-box">
-        {% include search.html %}
-      </div>
-      <div id="footer">
-        <div class="fine-print">
-          {% include footer.html %}
-        </div>
+        {% include footer.html %}
       </div>
     </div>
 

@@ -25,25 +25,25 @@ license:
 
 downloads:
   stable:
-    version: 2.0.0-p247
+    version: 2.0.0-p353
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.zip
     md5:
-      bz2: 60913f3eec0c4071f44df42600be2604
-      gz: c351450a0bed670e0f5ca07da3458a5b
-      zip: 7548f781d868456e84afcd0327c7f894
+      bz2: 20eb8f067d20f6b76b7e16cce2a85a55
+      gz: 78282433fb697dd3613613ff55d734c1
+      zip: 0f8aeb1f1b1cd606ab9790badabd0fb4
   previous:
-    version: 1.9.3-p448
+    version: 1.9.3-p484
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.zip
     md5:
-      bz2: aa710d386e5903f78f0231868255e6af
-      gz: a893cff26bcf351b8975ebf2a63b1023
-      zip: bb3b1108847abaab312c024f3c0bc6c3
+      bz2: 03f5b08804927ceabe5122cb90f5d0a9
+      gz: 8ac0dee72fe12d75c8b2d0ef5d0c2968
+      zip: 1b74a8a3b1e8f13bb306dd59cc1e12d1
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
@@ -322,21 +322,38 @@ locales:
       text: 搜尋
 
   slogan:
-    bg: "Ruby - най-добрият приятел на програмиста"
-    de: "Ruby - Der beste Freund eines Programmierers"
-    en: "Ruby - A Programmer's Best Friend"
-    es: "Ruby - El mejor amigo de un desarrollador"
-    fr: "Ruby - A Programmer's Best Friend"
-    id: "Ruby - Sahabat Terbaik Programmer"
-    it: "Ruby - Il migliore amico dei programmatori"
-    ja: "Ruby - A Programmer's Best Friend"
-    ko: "루비 : 프로그래머의 단짝 친구"
-    pl: "Ruby - Najlepszy Przyjaciel Programisty"
-    pt: "Ruby - O melhor amigo do programador"
-    tr: "Ruby - A Programmer's Best Friend"
-    vi: "Ruby - Người bạn tri kỉ của lập trình viên"
-    zh_cn: "Ruby - 程序员最要好的朋友"
-    zh_tw: "Ruby - 程式設計師的摯友"
+    bg: "най-добрият приятел на програмиста"
+    de: "Der beste Freund eines Programmierers"
+    en: "A Programmer's Best Friend"
+    es: "El mejor amigo de un desarrollador"
+    fr: "A Programmer's Best Friend"
+    id: "Sahabat Terbaik Programmer"
+    it: "Il migliore amico dei programmatori"
+    ja: "A Programmer's Best Friend"
+    ko: "프로그래머의 단짝 친구"
+    pl: "Najlepszy Przyjaciel Programisty"
+    pt: "O melhor amigo do programador"
+    tr: "A Programmer's Best Friend"
+    vi: "Người bạn tri kỉ của lập trình viên"
+    zh_cn: "程序员最要好的朋友"
+    zh_tw: "程式設計師的摯友"
+
+  ruby:
+    bg: "Ruby"
+    de: "Ruby"
+    en: "Ruby"
+    es: "Ruby"
+    fr: "Ruby"
+    id: "Ruby"
+    it: "Ruby"
+    ja: "Ruby"
+    ko: "루비"
+    pl: "Ruby"
+    pt: "Ruby"
+    tr: "Ruby"
+    vi: "Ruby"
+    zh_cn: "Ruby"
+    zh_tw: "Ruby"
 
   month_names:
     bg: [януари, февруари, март, април, май, юни, юли, август, септември, октомври, ноември, декември]
@@ -1740,7 +1757,8 @@ locales:
       Verbesserung dieser Seite mitwirken oder sich bei Fragen oder Kommentaren an
       unseren <a href="mailto:webmaster@ruby-lang.org">Webmaster</a> wenden (in Englisch).
     en: |
-      This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>.
+      This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>
+      and designed by <a href="http://twitter.com/jz">Jason Zimdars</a>.
       It is proudly maintained by members of the Ruby community.
       Please contribute on <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       or contact our <a href="mailto:webmaster@ruby-lang.org">webmaster</a>

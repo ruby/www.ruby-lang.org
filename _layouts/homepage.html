@@ -4,11 +4,6 @@ layout: page
 javascript:
  - examples
 
-sidebar: |
-  <a href="downloads/">
-    <img src="/images/download.gif" alt="Download Ruby" title="" />
-  </a>
-
 ---
 
 {{ content }}
@@ -31,14 +26,14 @@ sidebar: |
 
   {{ post.excerpt | markdownify }}
 
-  <p><a href="{{ post.url }}">{{ news.continue }}</a></p>
+  <p class="post-link"><a href="{{ post.url }}">{{ news.continue }}</a></p>
 
   <p class="post-info">{{ post.date | posted_by:post.author }}</p>
 </div>
 {% endfor %}
 
 <div id="news">
-  <h3><a href="news/">{{ news.other_news }}</a></h3>
+  <h3>{{ news.other_news }}</h3>
   <ul>
     {% for post in site.categories[page.lang] offset:offset_other_left limit:number_of_other %}
     <li>
