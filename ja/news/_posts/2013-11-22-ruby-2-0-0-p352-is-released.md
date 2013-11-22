@@ -19,19 +19,19 @@ Ruby 2.0.0-p352 がリリースされました。
 
 ## ダウンロード
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.bz2)
+* [http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.bz2)
 
       SIZE:   XXXXXXXX bytes
       MD5:    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
       SHA256: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.gz](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.gz)
+* [http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.gz](http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.tar.gz)
 
       SIZE:   XXXXXXXX bytes
       MD5:    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
       SHA256: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.zip](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.zip)
+* [http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.zip](http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p352.zip)
 
       SIZE:   XXXXXXXX bytes
       MD5:    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM

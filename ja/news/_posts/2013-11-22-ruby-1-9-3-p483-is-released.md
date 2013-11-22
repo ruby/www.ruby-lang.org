@@ -18,19 +18,19 @@ Ruby 1.9.3-p483 がリリースされました。
 
 ## ダウンロード
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.bz2)
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.bz2](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.bz2)
 
       SIZE:   XXX bytes
       MD5:    XXX
       SHA256: XXX
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.gz](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.gz)
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.gz](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.gz)
 
       SIZE:   XXX bytes
       MD5:    XXX
       SHA256: XXX
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.zip](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.zip)
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.zip](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.zip)
 
       SIZE:   XXX bytes
       MD5:    XXX
