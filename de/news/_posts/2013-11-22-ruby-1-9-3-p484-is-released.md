@@ -11,7 +11,7 @@ Ruby 1.9.3-p484 ist veröffentlicht worden.
 
 Dieses Release enthält einen Sicherheitsfix des Ruby-Interpreter-Kerns:
 
- * [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](/de/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+ * [Heap-Überlauf beim Parsen von Floating-Point (CVE-2013-4164)](/de/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 Zusätzlich wurden einige Fehler behoben. Siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
