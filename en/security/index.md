@@ -16,6 +16,8 @@ private mailing list. Reported problems will be published after fixes.
 
 Here are recent issues.
 
+* [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+  published at 22 Nov, 2013.
 * [Hostname check bypassing vulnerability in SSL client
   (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
   published at 27 Jun, 2013.
