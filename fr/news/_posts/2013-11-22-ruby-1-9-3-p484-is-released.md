@@ -20,6 +20,8 @@ et [le ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog)
 
 ## Téléchargement
 
+Vous pouvez télécharger cette nouvelle version depuis :
+
 * [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2)
 
       SIZE:   10041514 bytes
