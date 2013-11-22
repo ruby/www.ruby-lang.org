@@ -1,36 +1,36 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p483 リリース"
+title: "Ruby 1.9.3-p484 リリース"
 author: "usa"
 translator:
 date: 2013-11-22 04:00:00 UTC
 lang: ja
 ---
 
-Ruby 1.9.3-p483 がリリースされました。
+Ruby 1.9.3-p484 がリリースされました。
 
 今回のリリースには、Ruby インタプリタ自体に関するセキュリティフィックスが含まれます。
 
  * [浮動小数点数パースにおけるヒープオーバーフロー (CVE-2013-4164)](/ja/news/2013/11/22/XXXXXXXXXXXXXXXXX/)
 
 この他にも、幾つかのバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_483/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) を確認して下さい。
 
 ## ダウンロード
 
-* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.bz2](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.bz2)
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2)
 
       SIZE:   XXX bytes
       MD5:    XXX
       SHA256: XXX
 
-* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.gz](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.tar.gz)
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.gz](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.gz)
 
       SIZE:   XXX bytes
       MD5:    XXX
       SHA256: XXX
 
-* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.zip](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p483.zip)
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.zip](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.zip)
 
       SIZE:   XXX bytes
       MD5:    XXX
