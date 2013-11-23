@@ -1,0 +1,8 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: peOlfs7Xmsu5iCQv41f8qnm8rYx28XWp03Pa1tDtv8gTWcZwzhDvr3bkU06u8EhlxUrncH3LlKDM5TSFJL0C6TEut1BA0ukNV032JKlVwja4ISHLgA07sPr+U5avMd+6oKJ9UsG6SVN4hYhYXHp2s5BejBjeGAwKbVJ/cSGhei8=
+  app: www-ruby-lang
+  on:
+    repo: ruby/www.ruby-lang.org
+    branch: heroku
