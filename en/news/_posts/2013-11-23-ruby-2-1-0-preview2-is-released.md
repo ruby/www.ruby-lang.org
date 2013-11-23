@@ -12,7 +12,7 @@ Please test the new features in Ruby 2.1 before the final release!
 
 ## Notable changes from preview 1
 
-* fix [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](http://staging.ruby-lang.org/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+* fix [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](https://www.ruby-lang.org/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze is now optimized [#9042](https://bugs.ruby-lang.org/issues/9042)
 * f suffix of String Literal is removed [#9042](https://bugs.ruby-lang.org/issues/9042)
 * fix memory consuming issue on RGenGC ([r43532](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) and [r43755](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
