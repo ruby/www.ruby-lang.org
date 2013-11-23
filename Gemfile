@@ -10,5 +10,6 @@ gem 'rack-jekyll'
 gem 'rack-rewrite'
 
 group :development do
+  gem 'mina'
   gem 'spidr', '~> 0.4'
 end
