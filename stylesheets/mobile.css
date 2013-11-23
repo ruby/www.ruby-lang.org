@@ -154,6 +154,21 @@
   #header div.site-links a + a { border-top-color: #7c7874; }
   #header div.site-links.open a.menu { background-color: #433f3c; }
 
+  #subscriptions-form tr,
+  #subscriptions-form td {
+    min-width: auto !important;
+    width: 100%;
+    display: block;
+  }
+
+  #subscriptions-form table input {
+    width: 94% !important;
+    padding: 6px 3% !important;
+  }
+
+  #subscriptions-form table input,
+  #subscriptions-form table select { margin-left: 0 !important; }
+
   #sidebar {
     border: none;
     border-top: 1px solid #ccc;
@@ -164,6 +179,11 @@
        -moz-border-radius: 0;
             border-radius: 0;
     margin: 24px 0 0;
+  }
+
+  div.multi-page a,
+  div.multi-page strong {
+    padding: 10px 17px;
   }
 
   #footer { background: #fff; }
@@ -189,4 +209,9 @@
 
   #header div.site-links a.menu { width: 44px; }
   #header div.site-links a { padding-left: 60px; }
+
+  .buttons .button {
+    display: block;
+    width: 100%;
+  }
 }

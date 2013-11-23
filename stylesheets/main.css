@@ -312,7 +312,6 @@ p.post-info {
   font-size: 36px;
   margin: 0;
   color: black;
-  text-transform: uppercase;
 }
 
 #header h2 {
@@ -365,6 +364,26 @@ p.post-info {
   color: white;
   font-weight: bold;
 }
+
+div.multi-page { margin: 20px 0 0; }
+div.multi-page span.separator { display: none; }
+
+div.multi-page a,
+div.multi-page strong {
+  padding: 5px 12px;
+  display: inline-block;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid #ebebe4;
+}
+
+div.multi-page strong {
+  background: #ebebe4;
+  color: #555;
+  border-color: #ddd;
+}
+
+div.multi-page + h1 { margin-top: 20px; }
 
 #footer {
   background: #F6F6F3;
@@ -450,6 +469,73 @@ hr.hidden-modern { display: none; }
      -moz-box-shadow: 0 2px 0 #c2c2b8;
           box-shadow: 0 2px 0 #c2c2b8;
 }
+
+/* Subscription Form */
+
+#subscriptions-form table input {
+  -webkit-appearance: none;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 6px 6px;
+  border: 1px solid #b0b0a4;
+  background-position: 6px center !important;
+  outline: none;
+  -webkit-box-shadow: 0 1px 2px #ddd inset;
+     -moz-box-shadow: 0 1px 2px #ddd inset;
+          box-shadow: 0 1px 2px #ddd inset;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+#subscriptions-form { margin: 20px 0 30px 0; }
+
+#subscriptions-form table input {
+  width: 260px;
+  font-size: 14px;
+}
+
+#subscriptions-form table input,
+#subscriptions-form table select {
+  margin-left: 15px;
+  min-width: 260px;
+}
+
+#subscriptions-form td { min-width: 120px; }
+
+#subscriptions-form table tr {
+  font-size: 14px;
+  margin-top: 2px;
+  background: #f6f6f6;
+  padding: 10px 2%;
+  color: #666;
+  float: left;
+}
+
+.buttons .button {
+  -webkit-appearance: none;
+  display: inline-block;
+  background: #bc3f33;
+  color: #fff;
+  padding: 7px 12px;
+  font-size: 13px;
+  line-height: 13px;
+  text-decoration: none;
+  margin: 15px 0 0 0;
+  border: 1px solid #973329;
+  font-weight: normal;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 2px 0 #973329;
+     -moz-box-shadow: 0 2px 0 #973329;
+          box-shadow: 0 2px 0 #973329;
+}
+
+.button:hover { opacity: .7; }
 
 @media (min--moz-device-pixel-ratio: 1.3),
        (-o-min-device-pixel-ratio: 2.6/2),
