@@ -7,18 +7,18 @@ date: 2013-11-22 22:00:00 UTC
 lang: fr
 ---
 
-Nous sommes contents de vous annoncer la sortie de Ruby 2.1.0-preview2.
-Vous êtes encouragés à tester les nouvelles fonctionnalités de Ruby 2.1 avant
-la version finale !
+Nous sommes heureux de vous annoncer la sortie de Ruby 2.1.0-preview2.
+Vous êtes invités à tester les nouvelles fonctionnalités de cette seconde
+preview, dans la perspective d'une version 2.1 finale !
 
 ## Changements notables depuis la preview 1
 
-* corrige [un dépassement du tas pour l'interprétation des nombres à virgule flottante (CVE-2013-4164)](https://www.ruby-lang.org/fr/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
-* "literal".freeze est maintenant opimisé [#9042](https://bugs.ruby-lang.org/issues/9042)
-* le suffixe f pour les littéraux chaînes de caractères est retiré [#9042](https://bugs.ruby-lang.org/issues/9042)
-* corrige le problème de consommation mémoire avec RGenGC ([r43532](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) and [r43755](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
-* ajoute Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
-* met à jour les bibliothèques comme json, nkf, rake, RubyGems, and RDoc.
+* correction d'[un dépassement du tas pour l'interprétation des nombres à virgule flottante (CVE-2013-4164)](https://www.ruby-lang.org/fr/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+* optimisation de "literal".freeze [#9042](https://bugs.ruby-lang.org/issues/9042)
+* retrait du suffixe f pour les littéraux chaînes de caractères [#9042](https://bugs.ruby-lang.org/issues/9042)
+* correction du problème de consommation mémoire avec RGenGC ([r43532](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) and [r43755](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* ajout de Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
+* mise à jour de diverses bibliothèques, telles que json, nkf, rake, RubyGems ou encore RDoc.
 
 ## Téléchargement
 
@@ -45,8 +45,8 @@ la version finale !
 Les modifications les plus notables sont :
 
 * VM (method cache)
-* RGenGC (Regardez [la présentation de ko1 à RubyKaigi](http://rubykaigi.org/2013/talk/S73) et [sa présentation à RubyConf2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
-* refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
+* RGenGC (regardez [la présentation de ko1 à RubyKaigi](http://rubykaigi.org/2013/talk/S73) et [sa présentation à RubyConf2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
+* Refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * changements de syntaxe
  * littéraux pour Decimal/Complex [#8430](https://bugs.ruby-lang.org/issues/8430)
  * la valeur de retour pour def [#3753](https://bugs.ruby-lang.org/issues/3753)
@@ -62,7 +62,7 @@ Pour plus de détails sur les changements :
 
 ko1 a parlé des nouveautés de Ruby 2.1 à toruby : [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase (@konstantinhaase) a écrit un bon résumé sur ce billet de blog : [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
+Konstantin Haase (@konstantinhaase) a produit un bon résumé dans ce billet de blog : [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## Commentaire sur cette version
 
