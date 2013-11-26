@@ -23,13 +23,16 @@ Fukuoka. El premio mayor de este concurso es de 1 millón de Yenes. Entre los
 ganadores de ediciones pasadas se encuentran Rhomobile (Estados Unidos) y
 APEC Climate Center (Corea).
 
+See the winners from last year:
+
 http://www.myfukuoka.com/category/ruby-award-winners
 
 Los programas que concursan no tienen que estar totalmente escritos en Ruby
 pero deben tomar ventaja de las características que lo hacen único.
 
 Solo serán elegibles proyectos que hayan sido desarrollados o terminados
-en los últimos 12 meses.
+en los últimos 12 meses. Please visit the following Fukuoka website for additional details or
+to enter:
 
 http://www.digitalfukuoka.jp/events/22?locale=en
 o
