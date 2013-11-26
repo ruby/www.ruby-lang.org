@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.1.0-preview2 is released"
-author: "nursh"
+author: "nurse"
 translator:
 date: 2013-11-22 22:00:00 UTC
 lang: en
