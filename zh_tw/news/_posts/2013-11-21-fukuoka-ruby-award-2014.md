@@ -12,9 +12,7 @@ lang: zh_tw
 日本福岡市政府與 Matz 誠摯邀您一起來參加 Ruby 大賽。有開發出什麼有趣的 Ruby 應用嗎？
 歡迎您參賽。
 
-## 2014 福岡 Ruby 大賽
-
-**最大獎──壹百萬日圓！**
+2014 福岡 Ruby 大賽──最大獎──壹百萬日圓！
 
 截止日期：2013 年 11 月 29 日。
 
@@ -29,7 +27,7 @@ Rhomobile 公司，韓國釜山的亞太經貿氣候中心等。
 
 作品必須是過去一年內所開發的，請造訪福岡市政府網站，了解更多參賽資訊：
 
-[http://www.digitalfukuoka.jp/events/22?locale=ja])(http://www.digitalfukuoka.jp/events/22?locale=ja)
+[http://www.digitalfukuoka.jp/events/22?locale=ja](http://www.digitalfukuoka.jp/events/22?locale=ja)
 
 [http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html](http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html)
 
@@ -56,6 +54,6 @@ Rhomobile 公司，韓國釜山的亞太經貿氣候中心等。
 * 島根（Ruby 主題城市──松江市）雙人三日遊（每人補助交通費 5 萬日圓）
 * 十年免費的頂級域名（com、net、org、info、biz）
 
-“Mayz 會仔細審閱、並測試你的作品，這真是意義非凡啊！任何人皆可參賽！”
+“Matz 會仔細審閱、並測試你的作品，這真是意義非凡啊！任何人皆可參賽！”
 
 一起同樂吧！

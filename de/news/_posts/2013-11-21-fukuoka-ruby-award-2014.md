@@ -37,9 +37,7 @@ abgeschlossen worden sein. Auf der folgenden Website finden Sie
 weitere Informationen:
 
 [http://www.digitalfukuoka.jp/events/22?locale=ja][2]
-
 oder
-
 [http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html][3]
 
 [http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
@@ -50,23 +48,23 @@ Dieses Jahr schreiben wir die folgenden Sonderpreise aus:
 
 Der Gewinner des Engine Yard Prize erhält:
 
-- 5.000 Stunden für die Engine Yard Cloud
-- Zwei RubyKaigi-Tickets (inkl. 50.000¥ pro Person für
+* 5.000 Stunden für die Engine Yard Cloud
+* Zwei RubyKaigi-Tickets (inkl. 50.000¥ pro Person für
   Transportausgaben (ca. 365€))
-- Engine Yard Novelty Goods Set
+* Engine Yard Novelty Goods Set
 
 Der Gewinner des Heroku Prize erhält:
 
-- 100.000¥ (ca. 730€)
-- Zwei RubyKaigi-Tickets (inkl. 50.000¥ pro Person für
+* 100.000¥ (ca. 730€)
+* Zwei RubyKaigi-Tickets (inkl. 50.000¥ pro Person für
   Transportausgaben (ca. 365€))
-- Heroku Novelty Goods Set
+* Heroku Novelty Goods Set
 
 Der Gewinner des paperboy&co. Prize erhält:
 
-- Zwei 3-Tages-Tickets für Shimane (Ruby City Matsue) (deckt bis zu
+* Zwei 3-Tages-Tickets für Shimane (Ruby City Matsue) (deckt bis zu
   50.000¥ Transportkosten (ca. 365€) pro Person)
-- Eine freie gTLD (com, net, org, info, biz) für 10 Jahre
+* Eine freie gTLD (com, net, org, info, biz) für 10 Jahre
 
 Matz wird Ihren Code intensiv testen und durchsehen, daher ist die
 Teilnahme sehr sinnvoll! Der Wettbewerb selbst ist kostenfrei.
