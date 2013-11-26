@@ -21,19 +21,19 @@ Rhomobile 公司，韓國釜山的亞太經貿氣候中心等。
 
 參考去年的優勝者：
 
-[http://www.myfukuoka.com/category/ruby-award-winners](http://www.myfukuoka.com/category/ruby-award-winners)
+[http://www.myfukuoka.com/category/ruby-award-winners][1]
 
 參賽的作品不用全是 Ruby 寫的，但需要用到 Ruby 獨一無二的特色。
 
 作品必須是過去一年內所開發的，請造訪福岡市政府網站，了解更多參賽資訊：
 
-[http://www.digitalfukuoka.jp/events/22?locale=ja](http://www.digitalfukuoka.jp/events/22?locale=ja)
+[http://www.digitalfukuoka.jp/events/22?locale=ja][2]
 
-[http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html](http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html)
+[http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html][3]
 
-[http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc](http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc)
+[http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
 
-請將作品 Email 至 _award@f-ruby.com_
+請將作品 Email 至 [award@f-ruby.com][5]
 
 今年我們準備了特別獎：
 
@@ -57,3 +57,9 @@ Rhomobile 公司，韓國釜山的亞太經貿氣候中心等。
 “Matz 會仔細審閱、並測試你的作品，這真是意義非凡啊！任何人皆可參賽！”
 
 一起同樂吧！
+
+[1]: http://www.myfukuoka.com/category/ruby-award-winners
+[2]: http://www.digitalfukuoka.jp/events/22?locale=ja
+[3]: http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
+[4]: http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
+[5]: mailto:award@f-ruby.com

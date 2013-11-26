@@ -23,7 +23,7 @@ prize winners include Rhomobile (USA) and APEC Climate Center (Korea).
 
 See the winners from last year:
 
-http://www.myfukuoka.com/category/ruby-award-winners
+[http://www.myfukuoka.com/category/ruby-award-winners][1]
 
 Programs entered in the competition do not have to be written entirely in Ruby
 but should take advantage of the unique characteristics of Ruby.
@@ -32,13 +32,13 @@ Projects must have been developed or completed within the past 12 months to be
 eligible. Please visit the following Fukuoka website for additional details or
 to enter:
 
-http://www.digitalfukuoka.jp/events/22?locale=ja
+[http://www.digitalfukuoka.jp/events/22?locale=ja][2]
 or
-http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
+[http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html][3]
 
-http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
+[http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
 
-Please email the application form to award@f-ruby.com
+Please email the application form to [award@f-ruby.com][5].
 
 This year, we have the following special prizes:
 The winner of the Engine Yard Prize will receive:
@@ -63,3 +63,9 @@ The winner of the paperboy&co. Prize will receive:
 meaningful to apply! The competition is free to enter."
 
 Cheers!
+
+[1]: http://www.myfukuoka.com/category/ruby-award-winners
+[2]: http://www.digitalfukuoka.jp/events/22?locale=ja
+[3]: http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
+[4]: http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
+[5]: mailto:award@f-ruby.com

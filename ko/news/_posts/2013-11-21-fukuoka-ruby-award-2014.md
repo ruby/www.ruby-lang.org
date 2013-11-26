@@ -21,19 +21,19 @@ lang: ko
 
 지난해 우승자들은 아래 내용을 참고하십시오:
 
-http://www.myfukuoka.com/category/ruby-award-winners
+[http://www.myfukuoka.com/category/ruby-award-winners][1]
 
 경진대회에 참여할 프로그램은 전체를 루비로 작성할 필요는 없지만 루비의 고유한 특성의 이점을 잘 활용해야 합니다.
 
 프로젝트는 반드시 과거 12개월 이내에 개발되었거나 완료된 것이어야 참가 자격을 얻을 수 있습니다. 더 많은 상세정보를 원하시거나 참가를 원하시면 아래 후쿠오카 웹사이트를 방문해 주십시오:
 
-http://www.digitalfukuoka.jp/events/22?locale=ja
+[http://www.digitalfukuoka.jp/events/22?locale=ja][2]
 혹은
-http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
+[http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html][3]
 
-http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
+[http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
 
-참가 양식을 award@f-ruby.com로 보내 주십시오.
+참가 양식을 [award@f-ruby.com][5]로 보내 주십시오.
 
 올해는 아래와 같은 특별한 상을 준비했습니다:
 엔진 분야 상(Engine Yard Prize) 수상자는 다음과 같은 것을 받게 됩니다:
@@ -56,3 +56,9 @@ http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
 "Matz가 당신의 소스 코드를 속속들이 테스트하고 리뷰할 것입니다. 그러므로 참여하는 것은 매우 의미있는 일입니다! 경진대회 참여는 무료입니다."
 
 힘내십시오,
+
+[1]: http://www.myfukuoka.com/category/ruby-award-winners
+[2]: http://www.digitalfukuoka.jp/events/22?locale=ja
+[3]: http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
+[4]: http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
+[5]: mailto:award@f-ruby.com

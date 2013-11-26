@@ -25,7 +25,7 @@ APEC Climate Center (Corea).
 
 See the winners from last year:
 
-http://www.myfukuoka.com/category/ruby-award-winners
+[http://www.myfukuoka.com/category/ruby-award-winners][1]
 
 Los programas que concursan no tienen que estar totalmente escritos en Ruby
 pero deben tomar ventaja de las características que lo hacen único.
@@ -34,13 +34,13 @@ Solo serán elegibles proyectos que hayan sido desarrollados o terminados
 en los últimos 12 meses. Please visit the following Fukuoka website for additional details or
 to enter:
 
-http://www.digitalfukuoka.jp/events/22?locale=en
+[http://www.digitalfukuoka.jp/events/22?locale=ja][2]
 o
-http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
+[http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html][3]
 
-http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
+[http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
 
-Por favor envía tu propuesta a award@f-ruby.com
+Por favor envía tu propuesta a [award@f-ruby.com][5]
 
 Este año tendremos algunos premios especiales.
 
@@ -66,3 +66,9 @@ El ganador del premio paperboy&co. recibirá:
 es todo un honor aplicar. El concurso es totalmente gratuito."
 
 ¡Salúdos!
+
+[1]: http://www.myfukuoka.com/category/ruby-award-winners
+[2]: http://www.digitalfukuoka.jp/events/22?locale=ja
+[3]: http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
+[4]: http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
+[5]: mailto:award@f-ruby.com
