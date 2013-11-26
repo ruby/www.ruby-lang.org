@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Liberado Ruby 2.1.0-preview2"
-author: "nursh"
+author: "nurse"
 translator: David Padilla
 date: 2013-11-22 22:00:00 UTC
 lang: es

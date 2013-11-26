@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "루비 2.1.0-preview2 릴리즈되었습니다"
-author: "nursh"
+author: "nurse"
 translator: "SeungKyun Nam"
 date: 2013-11-22 22:00:00 UTC
 lang: ko
