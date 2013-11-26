@@ -45,19 +45,19 @@ lang: ko
 주목할만한 변화는 아래와 같습니다:
 
 * VM (메서드 캐시)
-* RGenGC(ko1의 [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73)와 [RubyConf2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)를 참조하십시오)
+* RGenGC (ko1의 [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73)와 [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)를 참조하십시오)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 문법 변화
- * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
- * def의 return value [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * def의 return value [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * 128비트 정수 사용 [#8509](https://bugs.ruby-lang.org/issues/8509)
- * GMP 사용 [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * 128비트 정수 사용 [#8509](https://bugs.ruby-lang.org/issues/8509)
+  * GMP 사용 [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2 와 RubyGems 2.2.0.preview.2
 
-보다 상세한 변경점들은 다음 링크를 참조하십시오: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
+보다 상세한 변경점들은 다음 링크를 참조하십시오: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
 
 ko1이 toruby에서 루비 2.1의 새로운 기능들에 대해 언급했습니다: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 

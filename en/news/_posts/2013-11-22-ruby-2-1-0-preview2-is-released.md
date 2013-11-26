@@ -44,23 +44,23 @@ Please test the new features in Ruby 2.1 before the final release!
 The notable changes are:
 
 * VM (method cache)
-* RGenGC(See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
+* RGenGC (See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * syntax changes
- * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
- * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * use 128bit integers [#8509](https://bugs.ruby-lang.org/issues/8509)
- * use GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * use 128bit integers [#8509](https://bugs.ruby-lang.org/issues/8509)
+  * use GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2 and RubyGems 2.2.0.preview.2
 
-See more details of changes: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
+See more details of changes: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
 
 ko1 talked about the new features of Ruby 2.1 at toruby: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase (@konstantinhaase) wrote good summary in his blog post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
+Konstantin Haase (@konstantinhaase) wrote a good summary in his blog post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## Release Comment
 

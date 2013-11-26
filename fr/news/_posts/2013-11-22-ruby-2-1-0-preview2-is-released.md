@@ -45,14 +45,14 @@ preview, dans la perspective d'une version 2.1 finale !
 Les modifications les plus notables sont :
 
 * VM (method cache)
-* RGenGC (regardez [la présentation de ko1 à RubyKaigi](http://rubykaigi.org/2013/talk/S73) et [sa présentation à RubyConf2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
+* RGenGC (regardez [la présentation de ko1 à RubyKaigi](http://rubykaigi.org/2013/talk/S73) et [sa présentation à RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * Refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * changements de syntaxe
- * littéraux pour Decimal/Complex [#8430](https://bugs.ruby-lang.org/issues/8430)
- * la valeur de retour pour def [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * littéraux pour Decimal/Complex [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * la valeur de retour pour def [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * utilisation d'entiers sur 128 bits [#8509](https://bugs.ruby-lang.org/issues/8509)
- * utilisation de GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * utilisation d'entiers sur 128 bits [#8509](https://bugs.ruby-lang.org/issues/8509)
+  * utilisation de GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2 et RubyGems 2.2.0.preview.2

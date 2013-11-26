@@ -13,7 +13,7 @@ la entrega final.
 
 ## Cambios notables desde preview 1
 
-* Corrección [Desborbamiento de pila en el interprete de flotantes (CVE-2013-4164)](/es/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+* Corrección [Desborbamiento de pila en el interprete de flotantes (CVE-2013-4164)](https://www.ruby-lang.org/es/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze ha sido optimizado [#9042](https://bugs.ruby-lang.org/issues/9042)
 * Remover el sufijo f de el literal de cadena [#9042](https://bugs.ruby-lang.org/issues/9042)
 * Corregir un problema de consumo de memoria en RGenGC ([r43532](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) y [r43755](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
@@ -45,14 +45,14 @@ la entrega final.
 Los cambios mas notables son:
 
 * VM (cache de métodos)
-* RGenGC(Ver la [presentación en RubyKaigi](http://rubykaigi.org/2013/talk/S73) y [RubyConf2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf) de ko1)
+* RGenGC (Ver la [presentación en RubyKaigi](http://rubykaigi.org/2013/talk/S73) y [RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf) de ko1)
 * Refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * Cambios en la sintáxis
- * Literales de Decimal/Complex [#8430](https://bugs.ruby-lang.org/issues/8430)
- * el valor de retorno de def [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * Literales de Decimal/Complex [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * el valor de retorno de def [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * Uso de enteros de 128bit [#8509](https://bugs.ruby-lang.org/issues/8509)
- * Uso de GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * Uso de enteros de 128bit [#8509](https://bugs.ruby-lang.org/issues/8509)
+  * Uso de GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2 y RubyGems 2.2.0.preview.2

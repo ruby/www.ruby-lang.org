@@ -44,19 +44,19 @@ lang: zh_tw
 值得一提的變動有：
 
 * VM (方法快取)
-* RGenGC (參見 ko1's [RubyKaigi 簡報](http://rubykaigi.org/2013/talk/S73) 與 [RubyConf2013 簡報](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
+* RGenGC (參見 ko1's [RubyKaigi 簡報](http://rubykaigi.org/2013/talk/S73) 與 [RubyConf 2013 簡報](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * 改進 [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 語法變化
- * 實數與虛數的常量寫法 [#8430](https://bugs.ruby-lang.org/issues/8430)
- * def 的返回值 [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * 實數與虛數的常量寫法 [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * def 的返回值 [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * 整數使用 128 位元 [#8509](https://bugs.ruby-lang.org/issues/8509)
- * 採用 GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * 整數使用 128 位元 [#8509](https://bugs.ruby-lang.org/issues/8509)
+  * 採用 GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * `String#scrub` [#8414](https://bugs.ruby-lang.org/issues/8414)
 * `Socket.getifaddrs` [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2 與 RubyGems 2.2.0.preview.2
 
-了解更多細節 [NEWS in Ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
+了解更多細節 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
 
 ko1 在 toruby 談到了 Ruby 2.1 的新特性： [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 

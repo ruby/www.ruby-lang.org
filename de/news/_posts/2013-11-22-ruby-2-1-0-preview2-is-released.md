@@ -13,7 +13,7 @@ vor dem finalen Release!
 
 ## Wesentliche Änderungen seit preview1
 
-* Korrigiere [Heap-Überlauf beim Parsen von Floating-Point(CVE-2013-4164)](/de/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+* Korrigiere [Heap-Überlauf beim Parsen von Floating-Point (CVE-2013-4164)](https://www.ruby-lang.org/de/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * `"literal".freeze` wurde optimiert [#9042](https://bugs.ruby-lang.org/issues/9042)
 * `f`-Suffix von String-Literalen entfernt [#9024](https://bugs.ruby-lang.org/issues/9042)
 * Korrigiere Speicherproblem im RGenGC ([r43532](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) und [r43755](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
@@ -47,7 +47,7 @@ Die auffälligsten Änderungen sind:
 * VM (Methodencache)
 * RGenGC (Siehe ko1s
   [RubyKaigi-Präsentation](http://rubykaigi.org/2013/talk/S73) und
-  [RubyConf2013-Präsentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)
+  [RubyConf-2013-Präsentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)
 * Refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * Syntaxänderungen
   * Decimal/Complex-Literal
