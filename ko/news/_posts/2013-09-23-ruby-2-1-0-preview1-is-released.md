@@ -56,7 +56,7 @@ ko1(Koichi Sasada)이 toruby에서 발표한 내용입니다: [Summary of Ruby 2
 
 Konstantin Haase (@konstantinhaase)가 멋진 요약을 자신의 블로그 포스트로 작성하였습니다: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
-## 릴리즈 코멘
+## 릴리즈 코멘트
 
 알려진 이슈들:
 
