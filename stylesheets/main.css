@@ -74,7 +74,7 @@ h4 + dl {
   margin-top: 5px;
 }
 
-h1 + #content > p:first-child {
+#content p.summary {
   margin-top: 8px;
   font-size: 20px;
   line-height: 26px;
