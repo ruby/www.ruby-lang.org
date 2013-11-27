@@ -7,6 +7,7 @@ lang: en
 Ruby blogs have exploded over the past year and given sufficient
 hunting, you can unearth hundreds of blogs sharing bits of Ruby code,
 describing new techniques, or speculating on Ruby’s future.
+{: .summary}
 
 ### Mining for Ruby Blogs
 

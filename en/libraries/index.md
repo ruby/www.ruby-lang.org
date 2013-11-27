@@ -6,6 +6,7 @@ lang: en
 
 As most programming languages, Ruby leverages a wide set of third-party
 libraries.
+{: .summary}
 
 Most of them are released in the form of a **gem**. [**RubyGems**][1] is
 a Ruby packaging system designed to facilitate the creation, sharing and

@@ -9,6 +9,7 @@ other programming languages you’ve used. This is on purpose. Much of the
 syntax is familiar to users of Perl, Python, and Java (among other
 languages), so if you’ve used those, learning Ruby will be a piece of
 cake.
+{: .summary}
 
 This document contains two major sections. The first attempts to be a
 rapid-fire summary of what you can expect to see when going from

@@ -6,6 +6,7 @@ lang: en
 
 Many people use Ruby in their daily jobs. Others just as a hobby. Here
 you’ll find a small sample of real world usage of Ruby.
+{: .summary}
 
 #### Simulations
 
