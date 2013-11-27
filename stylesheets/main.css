@@ -472,6 +472,15 @@ hr.hidden-modern { display: none; }
 
 /* Subscription Form */
 
+#subscriptions-form table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#subscriptions-form table th, td {
+	padding: 0;
+}
+
 #subscriptions-form table input {
   -webkit-appearance: none;
   font-size: 13px;
