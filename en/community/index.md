@@ -7,6 +7,7 @@ lang: en
 The community that grows up around a programming language is one of its
 most important strengths. Ruby has a vibrant and growing community that
 is friendly towards people of all skill levels.
+{: .summary}
 
 If you are interested in getting involved, here are a couple of places
 to start:

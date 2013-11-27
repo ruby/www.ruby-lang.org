@@ -7,6 +7,7 @@ lang: en
 Here you can get the latest Ruby distributions in your favorite flavor.
 The current stable version is {{ site.downloads.stable.version }}.
 Please be sure to read [Ruby’s License]({{ site.license.url }}).
+{: .summary}
 
 ### Three Ways of Installing Ruby
 

@@ -6,6 +6,7 @@ lang: en
 
 Here you will find pointers to manuals, tutorials and references that
 will come in handy when you feel like coding in Ruby.
+{: .summary}
 
 ### Getting Started
 
