@@ -9,7 +9,7 @@ lang: en
 
 Now Ruby 1.9.3-p484 is released.
 
-This release includes a security fix about ruby interpreter core:
+This release includes a security fix about Ruby interpreter core:
 
  * [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
