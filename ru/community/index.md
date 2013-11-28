@@ -24,7 +24,7 @@ lang: ru
 
 [Ruby в IRC](irc://irc.freenode.net/ruby-lang)
 : Канал IRC о языке Ruby – это замечательный способ поговорить с
-  приятелями рубистами. ([Previous Chat Logs][1])
+  приятелями рубистами.
 
 [Ядро Ruby](ruby-core/)
 : Отличное время следовать разработке языка Ruby.
@@ -40,14 +40,6 @@ lang: ru
   конференций, где они делятся друг с другом о текущей работе, обсуждают
   будущее Ruby и приветствуют новичков в сообществе Ruby.
 
-[Проект "Наставник в Ruby"][2]
-: Этот новый ресурс нацелен на парное программирование людей новых в
-  Ruby с более искусными разработчиками. Цель заключается в упрощении
-  процесса изучения Ruby посредством наличия человека, которому можно
-  задать вопросы. Ресурс выступает в роли менее устрашающего средства, чем
-  почтовые рассылки, несмотря на то, что Ruby Talk приветствует вопросы от
-  новичков.
-
 Основная информация о Ruby
 : * [Ruby Central][3]
   * [Ruby на Open Directory Project][4]
@@ -55,8 +47,6 @@ lang: ru
 
 
 
-[1]: http://meme.b9.com/
-[2]: http://rubymentor.rubyforge.org/
 [3]: http://www.rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
