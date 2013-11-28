@@ -12,7 +12,7 @@ var Page = {
     },
 
     menu: function() {
-      $("#header div.site-links a.selected").on('click touchstart', function(event) {
+      $("#header div.site-links a.menu").on('click touchstart', function(event) {
         $(this).closest("div.site-links").toggleClass("open");
         event.preventDefault();
       });
