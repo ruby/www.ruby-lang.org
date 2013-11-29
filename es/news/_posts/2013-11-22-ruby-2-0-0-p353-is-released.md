@@ -2,7 +2,7 @@
 layout: news_post
 title: "Liberado Ruby 2.0.0-p353"
 author: "nagachika"
-translator: David Padilla
+translator: "David Padilla"
 date: 2013-11-22 03:00:00 UTC
 lang: es
 ---
