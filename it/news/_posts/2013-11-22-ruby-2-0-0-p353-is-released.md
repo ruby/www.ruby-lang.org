@@ -13,7 +13,7 @@ Questa release include un security fix relativo al parsing dei numeri in virgola
 mobile.
 
 * [Heap Overflow nel Parsing di numeri in Virgola Mobile
-  (CVE-2013-4164)](/it/news/2013/11/22/heap-overflow-nel-parsing-di-numeri-in-virgola-mobile-cve-2013-4164/)
+  (CVE-2013-4164)](/it/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 Sono inoltre inclusi alcuni bugfixes.
 Per maggiori dettagli vedere [i ticket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
