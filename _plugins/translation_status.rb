@@ -8,7 +8,7 @@ module Jekyll
   # Outputs HTML.
   module TranslationStatus
 
-    LANGS =  %w{en de es fr id it ja pl vi zh_cn zh_tw}
+    LANGS =  %w{en de es fr id it ja pl ru vi zh_cn zh_tw}
     START_DATE = '2013-04-01'
 
     OK_CHAR      = '✓'
