@@ -4,105 +4,102 @@ title: "函式庫"
 lang: zh_tw
 ---
 
-Ruby 有著不計其數有用且有趣的函式庫，其中大部分都是用便捷的 [*gem* 格式][1] 來進行發佈。有些則是將原始碼透過壓縮檔(.zip
-或 .tar.gz) 來發佈。來讓我們看看怎麼尋找和安裝你所需要的函式庫。
+多數程式語言有著許多廣泛的第三方函式庫，Ruby 也受益於許多第三方函式庫。
+{: .summary}
 
-### 尋找函式庫
+多數函式庫以 **Gem** 格式發佈。 [**RubyGems**][1] 是 Ruby 函式庫打包系統，特別針對新建、分享、
+安裝函式庫而設計（某種程度上與套件管理系統 `apt-get` 很相似，但針對的是 Ruby 軟體的發佈）。從 Ruby 1.9 起，Ruby 內建 RubyGems，1.9 以前的 Ruby 得[手動安裝][2]。
 
-[**RubyGems**][2] 是 Ruby 社群全新的 RubyGems 官方網站，它也是你的 RubyGems
-套件管理工具預設的搜尋站點。
+有些其他的函式庫透過把**原始碼**壓縮成 .zip 或 .tar.gz 的形式發佈。通常可以透過
+閱讀 `README` 或 `INSTALL` 檔案，根據步驟來安裝。
 
-[**RubyForge**][3] 是個老牌的 Ruby 函式庫網站。你可以參考看看根據分類的 [軟體列表][4]
-(如果你建立了自己的函式庫，你也可以在 Rubyforge 上 [註冊][5] 發佈你的專案，它提供了
-Subversion、網頁空間及郵件論壇。)
+讓我們看看怎麼尋找和安裝你需要的函式庫。
 
-[**Ruby Application Archive**][6] (簡稱 RAA) 是個分類的 Ruby 函式庫目錄。其中 [資料庫][7]
-分類擁有最多項目，緊接在後的是 [Net.][8] 。 [HTML][9] 和 [XML][10] 也十分熱門。甚至還有四個 [物理學][11]
-項目。
+## 尋找函式庫
 
-### 使用 RubyGems
+函式庫（Gem）主要放在 [**RubyGems.org**][3] 網站上。可直接前往網站查找，或透過 `gem` 命令查找。
 
-[RubyGems][1] 是 Ruby 的套件管理工具。它提供了一個標準格式來發佈 Ruby
-程式和函式庫，以及提供方便的工具來安裝這些套件。某種程度上，這種套件管理工具就像 apt-get，只是專門給 Ruby 軟體使用。官方的 Gem
-儲存庫是 [RubyGems.org][12]. (又叫做 Gemcutter)
+使用 `gem search -r`，可以對 RubyGems 的 Repository 做查詢。比如要找 rails，輸入 `gem search -r rails` 會返回與 Rails 相關的 Gem。`--local` (`-l`) 選項可搜索本機與 Rails 有關，已安裝的 Gem。要安裝一個 Gem，使用 `gem install [gem]`。瀏覽已安裝的 Gem 可輸入 `gem list`。更多關於 `gem` 命令的說明，請參考下文，或直接查 [RubyGems 的文件][4]。
 
-雖然 Windows 安裝包有包括 RubyGems 套件管理工具，但是有些作業系統沒有。如果以下的指令沒有作用，請參考最底下的 [安裝
-RubyGems](#installing-rubygems) 。
+除了 RubyGems.org 之外，也有其它的站點可查找函式庫。[RubyForge][5] 曾經是 Ruby 函式庫的家，但近年來 [**GitHub**][6] 的興起，GitHub 成為了 Ruby 相關資源的主要 Repository。現在，通常 Gem 的原始碼會放在 GitHub，而 Gem 會發佈到 RubyGems.org。
 
-#### 搜尋 Gems
+[**The Ruby Toolbox**][7] 使得尋找開源 Ruby 專案非常簡單。按照許多常見的開發任務分類，蒐集專案許多的相關資訊，像是版本發佈歷史、提交活躍度、函式庫相依的軟體、與其它類似專案的流行程度比較（在 GitHub 與 RubyGems.org 上的流行程度），讓你輕鬆找到想找到的函式庫。
 
-**search** 命令可以搜尋特定名字的 gems。例如，要搜尋有 “html” 字眼的 gem:
+## 更多關於 RubyGems 的說明
+
+以下是 `gem` 命令的快速回顧。關於 `gem` 命令的所有使用方式，請查閱[更詳細的文件][8]。
+
+### 搜索可用的 Gem
+
+`search` 命令可用來搜尋 Gem，根據傳入的關鍵字。比如輸入 `html` 會返回與 `html` 相關的 Gem（按字母排序）：
 
 {% highlight sh %}
-$ gem search html --remote
+$ gem search -r html
 
 *** REMOTE GEMS ***
 
-html-sample (1.0, 1.1)
+angular-html2js (0.0.4)
+ansi2html (5.3.4)
+...
+xmltv2html (0.8.0)
+ydim_html (1.0.0)
 {% endhighlight %}
 
-(*加上 `--remote` 旗標(flag)表示我們要搜尋的是遠端 Gemcutter 上的官方 gem。*)
+* `--remote`（縮寫 `-r`）選項，查詢 RubyGems.org 上的 Gem。
+* `--local` （縮寫 `-l`）選項，查詢本機安裝的 Gem。
 
-#### 安裝 Gem
+### 安裝 Gem
 
-當確定要裝某一個 gem 時，請使用 **install** 指令:
+找到 Gem，就可以安裝。安裝最流行的 Rails 看看：
 
 {% highlight sh %}
-$ gem install html-sample
+$ gem install rails
 {% endhighlight %}
 
-你可以透過 `--version` 旗標來安裝特定的版本。
+可以傳入 `--version`（縮寫 `-v`）來指定版本：
 
 {% highlight sh %}
-$ gem install html-sample --version 1.0
+$ gem install rails --version 3.2.15
 {% endhighlight %}
 
-#### 列出所有的 Gems
+RubyGems 提倡語義化版本，請參考 [Semantic Versioning 2.0.0][9]。
 
-要列出 Gemcutter 上的完整 gems 清單：
+### 列出所有的 Gem
 
-{% highlight sh %}
-$ gem list --remote
-{% endhighlight %}
-
-如果只需要列出你安裝的 gems，拿掉旗標即可。
+列出本機安裝的所有 Gem：
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-關於 RubyGems 的更多資料，請參考 [**官方手冊**][13] ，手冊中也介紹了如何在你的 Ruby 程式中使用 gems 的例子。
-
-### 安裝 RubyGems
-
-欲安裝 RubyGems，請從 [下載頁面][14] 下載 RubyGems，解壓縮之後執行
-`setup.rb`。在某些作業系統上，你可能需要用 root 身分來執行。
-
-例如，在 Linux 上：
+列出 RubyGems.org 上所有可用的 Gem：
 
 {% highlight sh %}
-$ tar xzvf rubygems-0.9.0.tar.gz
-$ cd rubygems-0.9.0
-$ su -
-$ ruby setup.rb
+$ gem list -r
 {% endhighlight %}
 
-如果你需要更完整地知道如何安裝，請參考 RubyGems 手冊的 [**安裝 RubyGems**][15] 一章。
+### 尋求幫助
 
+輸入 `gem help` 可查看 `gem` 命令的說明文件terminal:
 
+{% highlight sh %}
+$ gem help
+{% endhighlight %}
 
-[1]: http://docs.rubygems.org
-[2]: http://rubygems.org/
-[3]: http://rubyforge.org/
-[4]: http://rubyforge.org/softwaremap/trove_list.php
-[5]: http://rubyforge.org/register/
-[6]: http://raa.ruby-lang.org/
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
-[10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
-[11]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
-[12]: http://rubygems.org
-[13]: http://rubygems.org/read/chapter/1
-[14]: http://rubygems.org/pages/download
-[15]: http://rubygems.org/read/chapter/3
+`gem help commands` 可查看特定子命令的說明，如 `gem help install`。
+
+### 打造自己的 Gem
+
+RubyGems.org 上有關於[多篇教學文件][10]，推薦使用 [Bundler][11] 來將函式庫打包成 Gem。Bundler 是管理 application 軟體相依的工具，同時可搭配 RubyGems 一起使用。
+
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: https://rubygems.org/
+[4]: http://guides.rubygems.org/command-reference/
+[5]: http://rubyforge.org/
+[6]: https://github.com/
+[7]: https://www.ruby-toolbox.com/
+[8]: http://guides.rubygems.org/command-reference/
+[9]: http://semver.org/
+[10]: http://guides.rubygems.org/
+[11]: http://gembundler.com/
