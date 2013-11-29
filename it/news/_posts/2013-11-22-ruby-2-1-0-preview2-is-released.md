@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "È stato rilasciato Ruby 2.1.0-preview2"
-author: "nursh"
+author: "nurse"
 translator: "alepore"
 date: 2013-11-22 22:00:00 UTC
 lang: it
@@ -44,19 +44,19 @@ Per favore provate le nuove feature di Ruby 2.1 prima del rilascio finale!
 Le modifiche rilevanti sono:
 
 * VM (method cache)
-* RGenGC (Vedi [la presentazione al RubyKaigi](http://rubykaigi.org/2013/talk/S73) e [la presentazione alla RubyConf2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf) di ko1)
+* RGenGC (Vedi [la presentazione al RubyKaigi](http://rubykaigi.org/2013/talk/S73) e [la presentazione alla RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf) di ko1)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * modifiche di sintassi
- * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
- * valore di ritorno dei def [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * valore di ritorno dei def [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * usa 128bit integers [#8509](https://bugs.ruby-lang.org/issues/8509)
- * usa GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * usa 128bit integers [#8509](https://bugs.ruby-lang.org/issues/8509)
+  * usa GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2 e RubyGems 2.2.0.preview.2
 
-Guarda più dettagli sulle modifiche: [NEWS su ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
+Guarda più dettagli sulle modifiche: [NEWS su Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
 
 ko1 ha parlato a proposito delle nuove features di Ruby 2.1 al toruby:
 [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
