@@ -11,7 +11,7 @@ lang: ko
 
 본 릴리즈는 루비 인터프리터 코어의 보안 수정을 포함합니다.
 
- * [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+ * [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](/ko/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 또한 몇몇 버그 수정도 포함되었습니다.
 세부사항은 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)와 [변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog)를 보십시오.
