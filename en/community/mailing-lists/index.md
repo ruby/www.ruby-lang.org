@@ -5,8 +5,10 @@ lang: en
 ---
 
 Mailing-lists are a great way to keep your finger on the pulse of the
-Ruby community. Ruby has four primary English speaking mailing lists:
+Ruby community.
 {: .summary}
+
+Ruby has four primary English speaking mailing lists:
 
 Ruby-Talk
 : This is the most popular mailing-list and deals with general topics
