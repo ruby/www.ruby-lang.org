@@ -4,120 +4,142 @@ title: "Librerie"
 lang: it
 ---
 
-Una miriade di fantastiche e utili librerie per Ruby ti aspettano là
-fuori, molte delle quali disponibili per la tua convenienza tramite file
-*gem*. Altre librerie sono rilasciate come directory di codice sorgente
-compresse (.zip o .tar.gz). Diamo un’occhiata a come fare per trovare
-queste librerie e installarle per il tuo uso e consumo.
+Come la maggior parte dei linguaggi, Ruby sfrutta una miriade di librerie
+di terze parti.
+{: .summary}
+
+La maggior parte di queste sono rilasciate sotto forma di **gem**.
+[**RubyGems**][1] è un sistema di pacchettizazione Ruby progettato per
+facilitare la creazione, la condivisione e l'installazione di librerie
+(in un certo senso è un sistema di pacchettizzazione delle distribuzioni
+simile ad `apt-get`, ma specifico per il software Ruby).
+Dalla versione 1.9 Ruby è distribuito di default con RubyGems; nelle
+precedenti versioni Ruby necessitando di [installarlo manualmente][2].
+
+Alcune librerie sono rilasciate tramite un archivio (.zip o .tar.gz)
+contenente il **codice sorgente**. Il processo di installazione
+potrebbe in questo caso cambiare, solitamente un file `README` o
+`INSTALL` è presente con le istruzioni.
+
+Diamo un'occhiata a come trovare le librerie ed installarle per farne
+uso.
 
 ### Trovare le librerie
-{: #finding-libraries}
 
-[**RubyForge**][1] è il posto più comune dove trovare delle librerie per
-Ruby. Un buon punto di partenza per iniziare la ricerca è la [software
-map][2], che elenca tutte le librerie per argomento (se ti ritroverai a
-creare le tue librerie, puoi [registrare][3] il tuo progetto su
-RubyForge per ricevere accesso ai repository Subversion, spazio web e
-liste di discussione).
+Tipicamente il posto più comune dove vengono mantenute le librerie è
+[**RubyGems.org**][3], dove è possibile ottenere librerie Ruby sotto
+forma di gem. È possibile esplorare il sito direttamente o usare il
+comando `gem`.
 
-Il [**Ruby Application Archive**][4] (o RAA) è una directory di tutto
-ciò che riguarda Ruby, categorizzata per funzionalità- Attualmente, la
-categoria [Database][5] ha il maggior numero di elementi, uno in più di
-[Net.][6]. [HTML][7] e [XML][8] sono tra le altre categorie più
-popolari. Ci sono anche 4 elementi nella categoria [Fisica][9] entries.
 
-### Usare RubyGems
-{: #using-rubygems}
+Usando `gem search -r`, puoi ispezionare il repository RubyGems.
+Ad esempio, `gem search -r rails` ritornerà una lista di gem correlate
+a Rails. Con l'opzione `--local` (`-l`), è possibile effettuare una
+ricerca locale tra le gem installate. Per installare una gem, puoi
+usare `gem install [gem]`. Per vedere tutte le gem installate puoi
+usare `gem list`. Per maggiori informazioni sul comando `gem`, guarda
+a fondo pagina o visita la [documentazione RubyGems][1].
 
-Sebbene il programma di installazione di Ruby per Windows includa
-RubyGems, molti sistemi operativi no. Dai un’occhiata a [Installare
-RubyGems](#installing-rubygems) di seguito, se i comandi descritti in
-questa sezione non funzionano sul tuo computer.
+Ci sono anche altre fonti per ottenere delle librerie. [RubyForge][4]
+è stato in passato un sistema molto popolare per trovare delle librerie
+Ruby; negli ultimi anni è stato sostituito in popolarità da
+[**GitHub**][5] come fonte per repository contenenti codice Ruby. Molto
+spesso il codice sorgente di una gem è mantenuto su GitHub mentre su
+RubyGems.org viene mantenuta la versione del codice sotto forma di gem.
 
-#### Cercare le gemme
+[**The Ruby Toolbox**][6] è un progetto che permette di esplorare facilmente
+i progetti Ruby open source. Mette a disposizione categorie relative ad
+i più comuni task e problematiche di programmazione; colleziona molte
+informazioni relative ai progetti come le release, l'attività sul codice
+sorgente o le dipendenze ed assegna una valutazione ad i progetti
+basandosi sulla popolarità su RubyGems.org e GitHub.
+La ricerca permette spesso di trovare quello che cerchi facilmente.
 
-Il comando **search** può essere usato per cercare delle gemme con un
-creto nome. Per cercare la parola “html” nel nome di una gemma, fai
-così:
+### Una rapida introduzione a RubyGems
+
+Di seguito viene presentato il comando `gem` come viene più frequentemente
+utilizzato. È anche disponibile [la documentazione più dettagliata][7],
+che spiega tutti gli aspetti di questo sistema di pacchettizzazione.
+
+#### Cercare tra le gem disponibili
+
+Il comando **search** può essere usato per cercare delle gem con un
+certo nome. Per esempio, per cercare la parola “html” nel nome di una gem:
 
 {% highlight sh %}
-$ gem search html --remote
+$ gem search -r html
 
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-(*Il flag `--remote` / `-r` indica che cerchiamo tra le gemme ufficiali su
-RubyForge.*)
+L'opzione `--remote` / `-r` indica che vogliamo effettuare una
+ricerca sul repository ufficiale RubyGems.org (comportamento
+di default).
+Con l'opzione `--local` / `-l` è invece possibile effettuare
+una ricerca tra le gem installate localmente sul sistema.
 
-#### Installare una gemma
+#### Installare una gem
 
-Una volta che conosci il nome della gemma che ti serve, la puoi
-installare con il comando **install**\:
+Una volta che conosci il nome della gem che ti serve, ad esempio
+la molto conosciuta Rails:
 
 {% highlight sh %}
-$ gem install html-sample
+$ gem install rails
 {% endhighlight %}
 
 Puoi anche installare solamente una determinata versione della libreria
-specificando il flag `--version`.
+specificando l'opzione `--version` / `-v`.
 
 {% highlight sh %}
-$ gem install html-sample --version 1.0
+$ gem install rails --version 3.0
 {% endhighlight %}
 
-#### Elencare tutte le gemme
+#### Elencare tutte le gem
 
-Per una lista completa di tutte le gemme presenti su RubyForge, usa il
+Per una lista completa di tutte le gem presenti localmente, usa il
 comando **list**\:
-
-{% highlight sh %}
-$ gem list --remote
-{% endhighlight %}
-
-Per una lista di tutte le gemme installate localmente, non specificare
-il flag `--remote`.
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-Per maggiori informazioni su RubyGems, vedi [**il manuale
-ufficiale**][10], che contiene anche esempi su come usare le gemme nei
-tuoi programmi in Ruby.
-
-### Installare RubyGems
-{: #installing-rubygems}
-
-Per installare RubyGems, scarica RubyGems 0.9.0 da [questa pagina][11].
-Estrai l’archivio ed esegui `setup.rb`. Su alcuni sistemi operativi,
-potrebbe essere necessario eseguirlo come utente root.
-
-Per esempio, su Linux:
+Per ottenere una lista (molto lunga) di tutte le gem disponibili
+su RubyGems.org:
 
 {% highlight sh %}
-$ tar xzvf rubygems-0.9.0.tar.gz
-$ cd rubygems-0.9.0
-$ su -
-$ ruby setup.rb
+$ gem list -r
 {% endhighlight %}
 
-Se hai bisogno di ulteriori informazioni su come installare Ruby, dai
-un’occhiata al [**capitolo sul’installazione**][12] nel manuale di
-RubyGems.
+
+#### Aiuto!
+
+Documentation is available inside your terminal:
+La documentazione è a tua disposizione direttamente dal terminale:
+
+{% highlight sh %}
+$ gem help
+{% endhighlight %}
+
+Per esempio, `gem help commands` è molto utile per avere una lista
+di tutti i comandi di `gem`.
+
+#### Creare le tue gem
+
+RubyGems.org ha [diverse guide][8] sull'argomento. Probabilmente potresti
+essere interessato anche a [Bundler][9], un tool progettato per facilitare
+la gestione delle dipendeze di un'applicazione che può essere usato insieme
+a RubyGems.
 
 
 
-[1]: http://rubyforge.org/
-[2]: http://rubyforge.org/softwaremap/trove_list.php
-[3]: http://rubyforge.org/register
-[4]: http://raa.ruby-lang.org/
-[5]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
-[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
-[10]: http://rubygems.org/read/chapter/1
-[11]: http://rubyforge.org/frs/?group_id=126
-[12]: http://rubygems.org/read/chapter/3
+[1]: http://docs.rubygems.org
+[2]: http://rubygems.org/pages/download
+[3]: http://rubygems.org
+[4]: http://rubyforge.org/
+[5]: http://github.com
+[6]: https://www.ruby-toolbox.com/
+[7]: http://docs.rubygems.org/
+[8]: http://guides.rubygems.org
+[9]: http://gembundler.com
