@@ -67,8 +67,8 @@ Hello World
 {% endhighlight %}
 
 `puts` Ruby’de çıktı almak için en basit bir komut. Fakat bu `=> nil` ne
-oluyor ki? Bu işlevin sonucudur. `puts` herzaman Ruby’de hiçbirşeyi
-ifade eden nil döner.
+oluyor ki? Bu işlevin sonucudur. `puts` her zaman Ruby’de hiçbir şeyi
+ifade eden nil değerini döndürür.
 
 ## Bedava Hesap Makinası Burada
 
@@ -107,20 +107,20 @@ irb(main):006:0> Math.sqrt(9)
 Tamam, bu ne demek sizce? Tahmin ederseniz dokuzun karekökü alınmış.
 Haklısınız fakat daha yakından inceleyelim, en başta bu `Math` ne ?
 
-## Modüller, Kodları başlıklar altında toplamak
+## Modüller, Kodları Başlıklar Altında Toplar
 
 `Math` matematik için bir dahili modüldür. Modüller Ruby’de iki hizmet
-sunarlar. Bir rolü şu: benzer görevler yapan metodları bir grup başlığı
+sunarlar. Bir rolü şu: benzer görevler yapan metotları bir grup başlığı
 altında toplamak. `Math` içinde ayrıca `sin()` ve `tan()` gibi işlevler
 de vardır.
 
 Sonraki bir nokta işareti, nokta ne yapıyor? Nokta size mesajın
-alıcısını gösteriyor. Burada mesaj `sqrt(9)` metod çağrısı, parametresi
+alıcısını gösteriyor. Burada mesaj `sqrt(9)` metot çağrısı, parametresi
 9 olan “karekök” alma komutu.
 
 Bu metodun cevabı `3.0` dır. Dikkat ettiyseniz sadece `3` değil. Çünkü
 birçok karekök işleminin sonucu tamsayı değildir. Bu yüzden işlev kayan
-noktalı bir sayı geri döner.
+noktalı bir sayı geri döndürür.
 
 Peki bazı matematik işlemlerimizin sonucunu hatırlamak istersek? Cevabı
 bir değişkene atama yaparız.
@@ -133,6 +133,6 @@ irb(main):008:0> b = 4 ** 2
 irb(main):009:0> Math.sqrt(a+b) => 5.0
 {% endhighlight %}
 
-Bir hsap makinası için oldukça yeterli. Klasik `Hello World` mesajından
+Bir hesap makinası için oldukça yeterli. Klasik `Hello World` mesajından
 uzaklaşmaya başladık, [geri dönelim.](2/)
 

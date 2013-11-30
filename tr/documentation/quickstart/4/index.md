@@ -84,20 +84,17 @@ for (i=0; i<number_of_elements; i++)
 Bu kod çalışıyor ama şık bir görüntüsü yok. `i` gibi bir değişken
 üretmek zorundasınız, listenin uzunluğunu bulmak zorundasınız ve liste
 elemanlarının nasıl işleneceğini anlatmak zorundasınız. Ruby yolu çok
-daha yakışıklı, tüm ayrıntılar bir `each` kelimesinin içinde saklı ve
+daha zarif, tüm ayrıntılar bir `each` kelimesinin içinde saklı ve
 sadece her elemanı ne yapacağınızı anlatmak zorundasınız. Ayrıca daha
-okunaklı oluyor, Ruby yolu böyle olmalı. İçerde `each` metodu sırayla
+okunaklı oluyor, Ruby yolu böyle olmalı. İçeride `each` metodu sırayla
 `yield "Albert"` sonra `yield "Brenda"` sonra `yield "Charles"` şeklinde
 çalışmaktadır.
 
-## Bloklar, Ruby’nin en Işıldayan Özelliği
+## Bloklar, Ruby’nin En Işıldayan Özelliği
 
-Blokların birşeyleri işlemekteki gücü listelerden daha fazla
-karmaşıkdır. metodun içerisindekileri toparlamanın ötesinde The real
-power of blocks is when dealing with things that are more complicated
-than lists. Beyond handling simple housekeeping details within the
-method, you can also handle setup, teardown, and errors—all hidden away
-from the cares of the user.
+Blokların bir şeyleri işlemekteki gücü listelerden daha karmaşıktır.
+Metodun içerisindekileri toparlamanın ötesinde, ayrıca kullanıcı farkında
+olmadan ayarlarlar, parçalama ve hatalarla ilgilenebilirsiniz.
 
 {% highlight ruby %}
 # Herkese hoşçakal de
@@ -113,9 +110,9 @@ def say_bye
 end
 {% endhighlight %}
 
-`say_bye` metodu `each` kullanmaz onun yerine `@names` değişeninin
+`say_bye` metodu `each` kullanmaz onun yerine `@names` değişkeninin
 `join` metoduna cevap vermesini sınar ve kullanır. Diğer durumda liste
-değil de string olarak işlenir. Bu metod değişkenin orjinal *tipi* ile
+değil de string olarak işlenir. Bu metot, değişkenin orjinal *tipi* ile
 ilgilenmez `join` metoduna cevap veriyorsa `join` ile değişkeni işler,
 liste değil başka bir tipte değişken de `join` metoduna cevap verse onu
 da aynı şekilde işler. Buna “Duck Typing” denir, “eğer ördek gibi
@@ -140,8 +137,8 @@ içindeki blok çalışmayacaktır. Ancak ve ancak bu dosya tek başına
 
 ## Artık Kendinizi Tanışmış Kabul Edin
 
-Ruby’ye hızlı bakış bu kadar. Daha incelenebilecek Ruby’nin sunduğu
-değişik birçok kontrol yapıları var; blokların ve @yield@in kullanımı,
+Ruby’ye hızlı bakış bu kadar. Daha Ruby’nin sunduğu incelenebilecek
+birçok değişik kontrol yapıları var; blokların ve `yield`in kullanımı,
 modüller ve dahası. Umarız bu anlattıklarımız sizde Ruby hakkında daha
 fazla şeyler öğrenmek için bir arzu yaratmıştır.
 
@@ -149,7 +146,7 @@ Eğer öyleyse lütfen [Belgeler](/tr/documentation/) bölgesindeki ücretsiz
 el kitapları ve öğreticileri inceleyin.
 
 Ya da gerçekten kapsamlı bir kitap bakıyorsanız, [kitap listesinde][1]
-(off-site link) yararlı kitaplar bulabilirsiniz.
+(site-dışı link) yararlı kitaplar bulabilirsiniz.
 
 
 
