@@ -9,6 +9,7 @@ denn Ruby 2.0 ist in Arbeit. Durch das erhöhte Interesse an Ruby,
 das sich in den letzten Jahren entwickelt hat, besteht ein
 steigender Bedarf an Talenten, die bei der Verbesserung von Ruby und der
 Dokumentation seiner Teile mitwirken. Also, womit willst Du anfangen?
+{: .summary}
 
 Die hier behandelten Themen zur Entwicklung von Ruby sind Folgende:
 

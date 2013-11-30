@@ -8,6 +8,7 @@ Ruby koduna ilk baktığınızda daha önce kullandığınız başka programlama
 dillerine benzetebilirsiniz. Bu bilerek yapılmıştır. Java, Perl veya
 Python kullanıcılarına deyimler tanıdık gelecektir. Eğer bunlardan
 birini kullanmışsanız işiniz çok kolay.
+{: .summary}
 
 Bu belgede iki ana bölüm var. İlki *X* dilinden Ruby’ye geçerken ne
 görmeyi beklediğiniz, ikincisi dlin ana özelliklerini ele alıp önceden

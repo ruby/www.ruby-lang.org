@@ -8,6 +8,7 @@ A comunidade que cresce à volta de uma linguagem de programação é uma
 das suas maiores forças. O Ruby tem comunidade crescente e entusiasta
 que se mostra sempre amigável com pessoas pertencentes a todos os níveis
 de conhecimento.
+{: .summary}
 
 Se está interessado em colaborar, aqui ficam uns poucos de lugares para
 começar:

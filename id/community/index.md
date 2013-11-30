@@ -9,6 +9,7 @@ adalah bantuan dari komunitas di sekitar bahasa itu dalam perkembangan
 para anggotanya. Ruby mempunyai komunitas yang aktif, ramah dan
 berkembang untuk semua orang dari segala tingkatan, dari pemula sampai
 pakar.
+{: .summary}
 
 Jika Anda tertarik untuk berpartisipasi, berikut adalah beberapa tempat
 untuk memulai petualangan Anda:

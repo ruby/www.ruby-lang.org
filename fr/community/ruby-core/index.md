@@ -8,6 +8,7 @@ Avec l’arrivée de Ruby 2.0, participer au développement du langage est
 certainement plus attrayant que jamais. Les nouveaux talents et les
 bonnes volontés sont les bienvenus, que ce soit pour participer au cœur
 du code ou à la documentation. Mais par où commencer ?
+{: .summary}
 
 Cette page couvre les sujets suivants :
 

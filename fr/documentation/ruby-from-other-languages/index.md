@@ -9,6 +9,7 @@ langages que vous avez déjà pu utiliser. Rien de plus normal : une bonne
 partie de la syntaxe se rapproche de Perl, de Python et de Java (entre
 autres), de sorte que si vous venez d’un de ces langages, apprendre Ruby
 devrait être plutôt facile.
+{: .summary}
 
 Le présent document se partage en deux grandes sections. En premier
 lieu, une revue rapide de ce à quoi vous pouvez vous attendre en passant

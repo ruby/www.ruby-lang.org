@@ -6,6 +6,7 @@ lang: de
 
 Hier findest du Links zu Handbüchern, Tutorials und Referenzen, die beim
 Ruby-Programmieren sicher nützlich sein werden.
+{: .summary}
 
 ### Erste Schritte
 

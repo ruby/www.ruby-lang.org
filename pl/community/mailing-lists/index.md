@@ -5,8 +5,10 @@ lang: pl
 ---
 
 Listy mailingowe są wspaniałym sposobem na trzymanie ręki na pulsie
-społeczności Rubiego. Ruby posiada cztery angielskojęzyczne listy
-mailingowe i jedną polskojęzyczną:
+społeczności Rubiego.
+{: .summary}
+
+Ruby posiada cztery angielskojęzyczne listy mailingowe i jedną polskojęzyczną:
 
 Ruby-Talk
 : Najpopularniejsza lista mailingowa, która zajmuje się ogólnymi

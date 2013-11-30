@@ -8,6 +8,7 @@ La comunidad que crece al rededor de un lenguaje de programación es una
 de sus mayores fortalezas. Ruby tiene una vibrante y creciente comunidad
 amigable a todas las personas sin discriminarlas por su nivel de
 habilidades.
+{: .summary}
 
 Si estás interesado en involucrarte, aquí tienes algunos lugares por
 donde empezar:

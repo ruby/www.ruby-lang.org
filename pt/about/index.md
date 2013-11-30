@@ -7,6 +7,7 @@ lang: pt
 Já pensou porque é que o Ruby é tão popular? Os fãs dizem que é uma
 linguagem elegante, repleta de arte. E no entanto, dizem que é prática e
 conveniente. Afinal qual é o resultado?
+{: .summary}
 
 ### Os Ideais do Criador do Ruby
 

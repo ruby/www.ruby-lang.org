@@ -11,6 +11,7 @@ berkolaborasi dengan programmer lain. Kelompok pengguna mempunyai
 struktur informal yang berbeda-beda dari satu kelompok ke kelompok yang
 lain. Siapa pun dapat membentuk kelompok pengguna dan menetapkan
 peraturan dan jadwal pertemuan.
+{: .summary}
 
 ### Kelompok Pengguna Ruby
 

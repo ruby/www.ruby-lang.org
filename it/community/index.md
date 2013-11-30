@@ -8,6 +8,7 @@ La comunità che si sviluppa attorno ad un linguaggio di programmazione
 constituisce uno dei suoi punti di forza più importanti. Ruby possiede
 una vibrante e crescente comunità, che accoglie amichevolmente i
 visitatori, qualsiasi sia il livello tecnico di ciascuno.
+{: .summary}
 
 Se sei interessato a partecipare, ecco alcuni posti dove puoi
 cominciare:

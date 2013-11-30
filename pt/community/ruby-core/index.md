@@ -9,6 +9,7 @@ desenvolvimento do Ruby 2.0 está a decorrer. Com a atenção acrescida que
 o Ruby tem recebido nos últimos anos, existe uma necessidade crescente
 de bom talento para ajudar a melhorar o Ruby e documentá-lo. Então, por
 onde começar?
+{: .summary}
 
 Os tópicos relacionados com o desenvolvimento do Ruby cobertos aqui são:
 

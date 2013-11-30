@@ -9,6 +9,7 @@ Indéniablement, Ruby devient de plus en plus populaire. Les « rubyistes
 artistiques ; ils soulignent dans le même temps qu’il est pratique à
 utiliser et facile d’accès. Mais tout ça est très éthéré, qu’en est-il
 concrètement parlant ?
+{: .summary}
 
 ### Ruby, une conceptualisation personnelle
 

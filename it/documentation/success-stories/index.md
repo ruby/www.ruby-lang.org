@@ -6,6 +6,7 @@ lang: it
 
 Molte persone usano Ruby in ambienti di produzione. Qui puoi trovare
 alcuni esempi reali di come viene utilizzato Ruby nel mondo.
+{: .summary}
 
 #### Simulazione
 

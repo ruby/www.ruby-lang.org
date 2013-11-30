@@ -10,6 +10,7 @@ das eigene Wissen zu vergrößern und sich mit anderen Entwicklern
 auszutauschen. User Groups sind zwanglos gehalten und unterscheiden sich
 von Gruppe zu Gruppe in der Struktur. Jeder kann seine eigene User Group
 mit seinen eigenen Regeln und Zeitplänen gründen.
+{: .summary}
 
 ### Ruby User Groups
 

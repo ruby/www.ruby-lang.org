@@ -8,6 +8,7 @@ W ciągu ostatniego roku, ilość blogów poświęconych Rubiemu dosłownie
 eksplodowała. Jeśli poszukasz, odnajdziesz setki blogów opisujących
 fragmenty kodu Rubiego, nowe techniki lub spekulujących o przyszłości
 tego języka.
+{: .summary}
 
 ### Szukanie Blogów
 

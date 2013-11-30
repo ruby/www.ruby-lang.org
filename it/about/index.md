@@ -7,6 +7,7 @@ lang: it
 Ti stai chiedendo perché Ruby sia così popolare? I suoi fan lo chiamano
 “un linguaggio pulito ed elegante”, e tuttavia dicono che è pratico e
 funzionale. Come mai?
+{: .summary}
 
 ### Gli ideali del creatore di Ruby
 

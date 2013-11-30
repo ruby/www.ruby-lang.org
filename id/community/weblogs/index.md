@@ -8,6 +8,7 @@ Situs-situs blog Ruby telah berkembang pesat akhir-akhir ini, dan dengan
 sedikit rajin mencari, Anda dapat menemukan ratusan blog yang berisi
 banyak hal mulai dari berbagi pengalaman, *source code*, teknik-teknik
 baru yang menarik, dan membahas masa depan Ruby.
+{: .summary}
 
 ### Berburu Blog Ruby
 

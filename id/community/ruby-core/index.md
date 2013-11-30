@@ -9,6 +9,7 @@ Ruby terbaru versi 2.0. Dengan semakin banyaknya perhatian masyarakat
 informatika terhadap bahasa pemrograman Ruby, semakin dibutuhkan pula
 bakat-bakat dari komunitas untuk membantu pengembangan Ruby dan
 dokumentasinya. Silakan bergabung!
+{: .summary}
 
 Topik seputar pengembangan Ruby yang dibahas disini adalah:
 

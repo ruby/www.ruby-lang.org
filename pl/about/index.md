@@ -7,6 +7,7 @@ lang: pl
 Zastanawiasz się dlaczego Ruby jest tak popularny? Jego fani nazywają go
 pięknym, pełnym sztuki językiem. Mimo to, twierdzą, że jest poręczny i
 praktyczny. O co chodzi ?
+{: .summary}
 
 ### Ideały twórcy języka Ruby
 

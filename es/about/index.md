@@ -7,6 +7,7 @@ lang: es
 ¿Te preguntas por qué Ruby es tan popular? Sus fanáticos lo tienen como
 un lenguaje hermoso y artístico. Y todavía así, dicen que es práctico y
 ameno. ¿Por qué?
+{: .summary}
 
 ### Los ideales del creador de Ruby
 

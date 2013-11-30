@@ -8,6 +8,7 @@ Existe uma miríade útil e fascinante de bibliotecas para Ruby e muitas
 delas disponíveis através dos cómodos ficheiros *gem*. Outras são
 disponibilizadas como arquivos (.zip or .tar.gz) de código fonte.
 Vejamos como encontrar e instalar bibliotecas para uso próprio.
+{: .summary}
 
 ### Encontrar Bibliotecas
 {: #encontrar-bibliotecas}

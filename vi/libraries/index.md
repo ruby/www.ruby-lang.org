@@ -6,6 +6,7 @@ lang: vi
 
 Như những ngôn ngữ lập trình khác, Ruby có một lượng lớn thư viện không thuộc
 thư viện lõi.
+{: .summary}
 
 Hầu hết được phát hành dưới dạng **gem**. [**RubyGems**][1] là hệ thống đóng gói
 Ruby giúp tạo, chia sẻ và cài đặt thư viện (ở dưới một góc độ nào đó thì nó là

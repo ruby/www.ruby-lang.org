@@ -5,6 +5,7 @@ lang: vi
 ---
 
 Bạn sẽ tìm thấy thông tin về các vấn đề bảo mật của Ruby tại đây.
+{: .summary}
 
 ## Báo lỗi bảo mật
 

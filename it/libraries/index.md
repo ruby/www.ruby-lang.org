@@ -9,6 +9,7 @@ fuori, molte delle quali disponibili per la tua convenienza tramite file
 *gem*. Altre librerie sono rilasciate come directory di codice sorgente
 compresse (.zip o .tar.gz). Diamo un’occhiata a come fare per trovare
 queste librerie e installarle per il tuo uso e consumo.
+{: .summary}
 
 ### Trovare le librerie
 {: #finding-libraries}

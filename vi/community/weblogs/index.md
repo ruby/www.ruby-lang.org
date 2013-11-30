@@ -7,6 +7,7 @@ lang: vi
 Các blog về Ruby đã phát triển qua nhiều năm và
 bạn có thể tìm đươc hàng trăm blog chia sẻ code Ruby,
 giới thiệu về các kỹ thuật mới, hoặc dự đoán về tương lai của Ruby.
+{: .summary}
 
 ### Khai thác các blog về Ruby
 

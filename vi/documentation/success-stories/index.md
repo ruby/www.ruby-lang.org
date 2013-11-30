@@ -7,6 +7,7 @@ lang: vi
 Nhiều người sử dụng vào những công việc chính hàng ngày. Một số chỉ coi
 nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những ví dụ về
 ứng dụng Ruby trên thế giới.
+{: .summary}
 
 #### Giả lập
 

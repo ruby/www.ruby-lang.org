@@ -6,6 +6,7 @@ lang: de
 
 Warum ist Ruby so populär? Fans nennen es schön und künstlerisch, aber
 gleichzeitig funktional und praktisch. Wie kommt das?
+{: .summary}
 
 ### Die Ideale des Ruby-Erfinders
 

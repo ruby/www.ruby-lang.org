@@ -10,6 +10,7 @@ buen lugar para mejorar tus habilidades y establecer contacto con otros
 desarrolladores. Los grupos de usuarios son informales y su estructura
 varía entre ellos. Cualquiera puede armar su propio grupo y establecer
 sus reglas.
+{: .summary}
 
 ### Grupos de usuarios Ruby
 

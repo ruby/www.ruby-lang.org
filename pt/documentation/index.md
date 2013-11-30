@@ -7,6 +7,7 @@ lang: pt
 Aqui irá encontrar vários endereços para manuais, tutoriais e
 referências que serão úteis quando sentir que gosta de programar em
 Ruby.
+{: .summary}
 
 ### Primeiros Passos
 

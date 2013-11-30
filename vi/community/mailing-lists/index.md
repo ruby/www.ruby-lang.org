@@ -5,6 +5,8 @@ lang: vi
 ---
 
 Hộp thư chung luôn là nơi tốt nhất để giúp bạn hòa nhịp với cộng đồng Ruby.
+{: .summary}
+
 Ruby có 4 hộp thư sử dụng tiếng Anh là ngôn ngữ chính sau :
 
 Ruby-Talk

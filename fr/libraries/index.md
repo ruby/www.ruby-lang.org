@@ -7,6 +7,7 @@ lang: fr
 Comme la plupart des langages de programmation actuels, Ruby s'appuie
 sur tout un écosystème de bibliothèques logicielles (ou "librairies",
 de l'anglais "library" : bibliothèque).
+{: .summary}
 
 Ces bibliothèques sont bien souvent disponibles sous la forme d’une *gem*.
 [RubyGems][1] est le « gestionnaire de paquets de Ruby » permettant

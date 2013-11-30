@@ -10,6 +10,7 @@ năng cũng như kết nối với các lập trình viên khác.  Các nhóm ng
 nhóm này hay nhóm khác đều không theo một quy định hay cấu trúc nào cả.  Bất
 kỳ ai cũng có thể tạo thành nhóm riêng và thiết lập các quy định chung cũng
 như kế hoạch làm việc của nhóm mình.
+{: .summary}
 
 ### Nhóm người dùng Ruby
 

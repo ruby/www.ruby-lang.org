@@ -10,6 +10,7 @@ per migliorare le proprie capacità e per interagire con altri
 programmatori. I gruppi di utilizzatori sono informali e la loro
 struttura varia da gruppo a gruppo. Chiunque può formare un gruppo,
 stabilendo le sue regole e scadenze.
+{: .summary}
 
 ### Gruppi di Utenti di Ruby
 

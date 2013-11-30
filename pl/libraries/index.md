@@ -9,6 +9,7 @@ dla języka Ruby, z których wiele zostało opublikowanych jako plik *gem*.
 Inne biblioteki są rozprowadzane jako pliki archiwum (.zip lub .tar.gz)
 katalogu z kodem źródłowym. Spójrzmy jak wyszukiwać interesujące nas
 biblioteki i jak należy je instalować.
+{: .summary}
 
 ### Znajdowanie bibliotek
 {: #finding-libraries}

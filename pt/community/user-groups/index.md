@@ -10,6 +10,7 @@ lugar excelente para para aumentar os seus conhecimentos e criar uma
 rede com outros programadores. Os Grupos de Utilizadores são informais e
 a sua estrutura varia de grupo para grupo. Qualquer pessoa poderá formar
 o seu próprio grupo e fazer as suas próprias regras e agenda.
+{: .summary}
 
 ### Grupos de Utilizadores de Ruby
 

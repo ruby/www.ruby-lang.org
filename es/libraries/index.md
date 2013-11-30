@@ -9,6 +9,7 @@ disponibles como un conveniente archivo *gem*. Otras bibliotecas son
 liberadas como directorios comprimidos (.zip o .tar.gz) de código
 fuente. Veamos cómo encontrar e instalar bibliotecas para que puedas
 utilizarlas.
+{: .summary}
 
 ### Encontrando bibliotecas
 {: #finding-libraries}

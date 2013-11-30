@@ -5,8 +5,10 @@ lang: it
 ---
 
 Le liste di discussione sono un ottimo modo di sentire il cuore pulsante
-della comunità Ruby. Ruby ha quattro liste di discussione principali in
-Inglese:
+della comunità Ruby.
+{: .summary}
+
+Ruby ha quattro liste di discussione principali in Inglese:
 
 Ruby-Talk
 : Questa è la lista di discussione più popolare e tratta di argomenti

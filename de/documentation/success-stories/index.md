@@ -7,6 +7,7 @@ lang: de
 Viele Leute nutzen Ruby bei ihrer täglichen Arbeit. Andere haben es zum
 Hobby gemacht. Hier findest Du eine kleine Auswahl von “Real World”
 Projekten, die Ruby nutzen.
+{: .summary}
 
 #### Simulationen
 

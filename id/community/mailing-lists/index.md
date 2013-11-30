@@ -6,6 +6,7 @@ lang: id
 
 [Milis][1] adalah cara terbaik untuk mengikuti perkembangan terbaru dari
 komunitas Ruby.
+{: .summary}
 
 ### Milis Berbahasa Indonesia
 

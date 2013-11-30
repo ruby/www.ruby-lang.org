@@ -8,6 +8,7 @@ Społeczność, która tworzy się wokół języka programowania jest
 niewątpliwie czynnikiem, który przyczynia się do jego popularności. Ruby
 posiada rosnącą rzeszę użytkowników i nadaje się zarówno dla mniej jak i
 bardziej doświadczonych programistów.
+{: .summary}
 
 Jeśli chcesz dzielić się swoimi doświadczeniami z innymi użytkownikami,
 poniżej znajdziesz kilka propozycji:

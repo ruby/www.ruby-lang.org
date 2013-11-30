@@ -7,6 +7,7 @@ lang: fr
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
 version stable actuelle est la {{ site.downloads.stable.version }}.
 N’oubliez pas de consulter la [licence Ruby]({{ site.license.url }}).
+{: .summary}
 
 ### 3 façons d'installer Ruby
 

@@ -9,6 +9,7 @@ andere Programmiersprachen erinnern, die du benutzt hast. Das ist
 Absicht. Der größte Teil der Syntax ist (unter anderem) Perl-, Python-
 und Java-Programmierern vertraut. Wenn du diese Sprachen also schon mal
 benutzt hast, wird das Lernen von Ruby ein Kinderspiel.
+{: .summary}
 
 Dieses Dokument besteht aus zwei Teilen: Der erste versucht, eine
 Dauerfeuer-Zusammenfassung darüber zu geben, was dich erwartet, wenn du

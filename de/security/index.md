@@ -5,6 +5,7 @@ lang: de
 ---
 
 Hier finden Sie Informationen zu Sicherheitsproblemen in Ruby.
+{: .summary}
 
 ## Sicherheitslücken melden
 

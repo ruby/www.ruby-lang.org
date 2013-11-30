@@ -9,6 +9,7 @@ dernières années. Sur des centaines de blogs, des programmeurs partagent
 bouts de codes, astuces, réflexion sur l’état et le futur de Ruby. Il
 est impossible de dresser une liste de toutes ces ressources, mais
 quelques sites agrègent un certain nombre d’entre elles.
+{: .summary}
 
 ### Listes de blogs
 

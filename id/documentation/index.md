@@ -6,6 +6,7 @@ lang: id
 
 Di sini Anda akan menemukan petunjuk untuk manual, tutorial dan referensi yang
 akan berguna ketika Anda merasa seperti coding di Ruby.
+{: .summary}
 
 ### Langkah Pertama
 

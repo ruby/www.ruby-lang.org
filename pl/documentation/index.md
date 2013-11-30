@@ -6,6 +6,7 @@ lang: pl
 
 Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
 źródłowych, które okażą się pomocne kiedy będziesz chciał pisać w Ruby.
+{: .summary}
 
 ### Na początek
 

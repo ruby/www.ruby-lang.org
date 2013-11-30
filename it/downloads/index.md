@@ -7,6 +7,7 @@ lang: it
 Qui è possibile scaricare le distribuzioni di Ruby più recenti nel tuo
 formato preferito. La versione stabile corrente è la
 {{ site.downloads.stable.version }}.
+{: .summary}
 
 ### Tre modi di installare Ruby
 

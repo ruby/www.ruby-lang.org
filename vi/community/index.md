@@ -7,6 +7,7 @@ lang: vi
 Cộng đồng phát triển xung quanh một ngôn ngữ lập trình là một trong những điểm
 lợi thế nhất của ngôn ngữ đó.  Ruby có một cộng đồng phát triển sôi động, thân
 thiện với mọi người ở mọi cấp độ.
+{: .summary}
 
 Nếu bạn muốn tham gia thì dưới đây là một vài nơi để bắt đầu:
 

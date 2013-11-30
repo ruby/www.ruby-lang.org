@@ -10,6 +10,7 @@ sengaja. Banyak sintaks Ruby yang sudah biasa digunakan oleh pengguna
 Perl, Python dan Java (juga termasuk bahasa-bahasa lain), jadi Jika Anda
 telah menggunakan bahasa-bahasa tersebut, belajar Ruby menjadi sangat
 mudah!
+{: .summary}
 
 Dokumen ini terdiri dari dua bagian utama. Bagian pertama dimaksudkan
 sebagai ringkasan dari apa yang bisa Anda harapkan ketika melihat dari

@@ -6,6 +6,7 @@ lang: id
 
 Seperti bahasa pemrograman lain, Ruby memanfaatkan serangkaian luas
 library pihak ketiga.
+{: .summary}
 
 Sebagian besar dari library tersebut dirilis dalam bentuk **gem**.
 [**RubyGems**][1] adalah sistem packaging Ruby dirancang untuk

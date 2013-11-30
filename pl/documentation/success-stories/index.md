@@ -7,6 +7,7 @@ lang: pl
 Wielu ludzi używa Rubiego na co dzień w swojej pracy. Inni traktują go
 bardziej jako hobby. Poniżej znajdziecie kilka przykładów zastosowania
 Rubiego w rzeczywistości.
+{: .summary}
 
 #### Symulacje
 

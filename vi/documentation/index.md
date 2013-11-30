@@ -6,6 +6,7 @@ lang: vi
 
 Bạn sẽ tìm được các nguồn tài liệu hướng dẫn và tham khảo liên quan đến Ruby
 tại đây.
+{: .summary}
 
 ### Khởi đầu
 

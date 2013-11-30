@@ -9,6 +9,7 @@ lembrar-se-á, muito provavelmente, de outras linguagens de programação
 que já utilizou. Isto é de propósito. Muita da sintaxe é familiar a
 utilizadores de Perl, Python e Java (entre outras linguagens). Assim
 sendo, se já usou alguma delas, aprender Ruby será muito fácil.
+{: .summary}
 
 Este documento contém duas secções principais. A primeira, tenta ser um
 sumário introdutório daquilo que poderá esperar enquanto muda de uma

@@ -10,6 +10,7 @@ miejscem, w którym możesz zwiększyć swoje umiejętności współpracując z
 innymi programistami. Grupy użytkowników są nieformalne a ich struktura
 jest inna w każdej grupie. Każdy może założyć swoją własną grupę i
 ustanowić swoje zasady i program.
+{: .summary}
 
 ### Grupy Użytkowników Rubiego
 

@@ -8,6 +8,7 @@ Gdy po raz pierwszy zobaczysz kawałek kodu w Rubim, prawdopodobnie
 będzie on zbliżony do innych języków, z którymi miałeś do czynienia. Tak
 ma być. Większość składni nawiązuje do Perla, Pythona i Javy, więc jeśli
 te języki są znajome, to nauka Rubiego będzie jak bułka z masłem.
+{: .summary}
 
 Ten dokument zawiera dwie sekcje. Pierwsza, opisuje najważniejsze
 różnice pomiędzy językiem *X* a Rubim. Druga zawiera obraz

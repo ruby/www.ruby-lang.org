@@ -5,8 +5,10 @@ lang: es
 ---
 
 La suscripción a las listas de correo es una buena manera de llevarle el
-pulso a la comunidad Ruby. Ruby tiene cuatro listas de correo
-principales en inglés:
+pulso a la comunidad Ruby.
+{: .summary}
+
+Ruby tiene cuatro listas de correo principales en inglés:
 
 Ruby-Talk
 : Esta es la lista más popular y trata temas en general sobre Ruby. Se

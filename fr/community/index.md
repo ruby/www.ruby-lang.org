@@ -11,6 +11,7 @@ niveau technique de ses visiteurs. Attention toutefois, la plupart des
 communautés utilisateurs utilisent l’anglais comme base de travail. Si
 vous recherchez spécifiquement des programmeurs francophones,
 [RubyFrance][1] est certainement ce qu’il vous faut !
+{: .summary}
 
 Quelques liens à visiter:
 

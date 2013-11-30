@@ -8,6 +8,7 @@ Ruby çok sayıda büyüleyici ve kullanışlı kütüphanelere sahiptir, bir
 çoğu [klasik *gem* dosyası][1] olarak yayınlanmıştır. Diğer kütüphaneler
 kaynak kodunun .zip ya da .tar.gz arşivlenmişi olarak yayınlanır. Haydi
 kütüphaneleri nasıl bulacağımızı kuracağımızı inceleyelim.
+{: .summary}
 
 ### Kütüphaneleri Bulmak
 

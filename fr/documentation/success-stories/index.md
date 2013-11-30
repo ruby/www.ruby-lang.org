@@ -7,6 +7,7 @@ lang: fr
 Ruby est massivement utilisé par des programmeurs professionnels.
 D’autres en font usage à titre de hobby. Vous trouverez ici quelques
 témoignages du « monde réel. »
+{: .summary}
 
 #### Simulations
 

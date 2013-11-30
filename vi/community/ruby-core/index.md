@@ -9,6 +9,7 @@ hiện của Ruby 2.0.  Với việc số người quan tâm đến Ruby ngày m
 những năm qua, cộng đồng Ruby đang rất cần những tài năng tham gia để nâng cao
 chất lượng tài liệu hướng dẫn cũng như cải thiện ngôn ngữ Ruby.  Vậy, bạn nên
 bắt đầu ở đâu?
+{: .summary}
 
 Các chủ đề liên quan đến sự phát triển Ruby được đề cập ở đây là:
 

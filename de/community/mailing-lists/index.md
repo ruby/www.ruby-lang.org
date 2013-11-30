@@ -5,8 +5,10 @@ lang: de
 ---
 
 Mailinglisten sind eine prima Möglichkeit, um die Hand am Puls der
-Ruby-Community zu halten. Ruby hat vier vorrangige englischsprachige
-Mailinglisten:
+Ruby-Community zu halten.
+{: .summary}
+
+Ruby hat vier vorrangige englischsprachige Mailinglisten:
 
 Ruby-Talk
 : Dies ist die höchstfrequentierte Liste. Sie behandelt alle allgemeinen

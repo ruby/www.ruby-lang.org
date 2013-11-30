@@ -6,6 +6,7 @@ lang: tr
 
 Bu bölümde Ruby öğrenmenizi kolaylaştıracak el kitapları, kılavuzlar,
 referanslar ve diğer belgeleri bulacaksınız.
+{: .summary}
 
 ### Başlangıç
 

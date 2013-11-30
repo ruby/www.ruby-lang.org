@@ -6,6 +6,7 @@ lang: es
 
 Aquí encontrarás vínculos a manuales, tutoriales y referencias que te
 serán útiles a la hora de desarrollar con Ruby.
+{: .summary}
 
 ### Para iniciarse
 

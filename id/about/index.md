@@ -7,6 +7,7 @@ lang: id
 Anda heran mengapa Ruby sangat populer? Penggemar Ruby menyebut Ruby
 sebagai bahasa yang cantik dan artistik. Mereka juga menyebut Ruby
 praktis dan mudah. Apa lagi?
+{: .summary}
 
 ### Idealisme Pencipta Ruby
 

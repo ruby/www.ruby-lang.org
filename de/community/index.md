@@ -8,6 +8,7 @@ Die Community, die sich im Umfeld einer Programmiersprache entwickelt,
 ist eine ihrer größten Stärken. Ruby hat eine lebhafte und wachsende
 Community, die stets freundlich zu allen Leuten unterschiedlichen
 Kenntnisstands ist.
+{: .summary}
 
 Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Einstiegspunkt:
 

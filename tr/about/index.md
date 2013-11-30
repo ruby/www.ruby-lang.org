@@ -7,6 +7,7 @@ lang: tr
 Ruby’nin niçin bu kadar popüler olduğunu mu merak ediyorsunuz?
 Rubyseverler, Ruby’yi güzel, sanatsal, becerikli ve pratik bir dil
 olarak tanımlarlar. Peki Ruby size neler vaad ediyor?
+{: .summary}
 
 ### Ruby’nin Yaratıcısının İdealleri
 

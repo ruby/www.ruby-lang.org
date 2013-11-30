@@ -5,8 +5,10 @@ lang: pt
 ---
 
 As listas de correio são uma óptima forma de manter o dedo na pulsação
-da comunidade Ruby. O Ruby tem quatro listas de distribuição principais
-em Inglês:
+da comunidade Ruby.
+{: .summary}
+
+O Ruby tem quatro listas de distribuição principais em Inglês:
 
 Ruby-Talk
 : Esta é a lista de correio mais popular e trata de tópicos gerais sobre

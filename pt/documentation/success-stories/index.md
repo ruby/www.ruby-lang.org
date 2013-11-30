@@ -7,6 +7,7 @@ lang: pt
 Ruby é utilizado por muitas pessoas de forma profissional ou como hobby.
 Aqui poderá encontrar uma amostra da utilização da linguagem Ruby em
 diversos projectos.
+{: .summary}
 
 #### Simulações
 

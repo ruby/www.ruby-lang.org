@@ -7,6 +7,7 @@ lang: pt
 Aqui pode receber as últimas distribuições de Ruby nos seus sabores
 preferidos. A versão actual e estável é a {{ site.downloads.stable.version }}.
 Por favor certifique-se que leu a [Licença Ruby][1].
+{: .summary}
 
 ### Código-Fonte do Ruby
 

@@ -6,6 +6,7 @@ lang: de
 
 Wie bei vielen anderen Programmiersprachen gibt es auch für Ruby
 unzählige faszinierende und nützliche Bibliotheken.
+{: .summary}
 
 Die meisten stehen im praktischen **gem**-Format zur Verfügung.
 [**RubyGems**][1] ist ein Paketsystem für Ruby, das die Erstellung,

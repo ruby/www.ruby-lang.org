@@ -6,6 +6,7 @@ lang: fr
 
 Cette page recense les informations relatives à la sécurité et aux
 alertes de vulnérabilité.
+{: .summary}
 
 ## Signaler une vulnérabilité
 

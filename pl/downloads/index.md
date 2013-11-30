@@ -7,6 +7,7 @@ lang: pl
 Tutaj znajdziesz najnowsze dystrybucje języka Ruby. Aktualna stabilna
 wersja to {{ site.downloads.stable.version }}. Pamiętaj aby przeczytać
 [licencję Rubiego]({{ site.license.url }}).
+{: .summary}
 
 ### Trzy sposoby instalacji Rubiego
 

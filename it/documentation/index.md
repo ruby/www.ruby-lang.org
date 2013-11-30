@@ -6,6 +6,7 @@ lang: it
 
 Ecco qualche riferimento a manuali, tutorial e altro materiale che ti
 potrà venire comodo quando vorrai iniziare a programmare in Ruby.
+{: .summary}
 
 ### Per iniziare
 

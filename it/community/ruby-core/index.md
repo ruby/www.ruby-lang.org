@@ -10,6 +10,7 @@ crescente attenzione che Ruby ha ricevuto nel corso degli ultimi anni, è
 aumentato il bisogno di persone con talento per aiutare a migliorare
 Ruby e a documentare le parti che lo compongono. Allora, da dove puoi
 cominciare?
+{: .summary}
 
 I temi principali riguardanti lo sviluppo di Ruby sono:
 

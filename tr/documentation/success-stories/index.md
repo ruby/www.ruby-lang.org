@@ -6,6 +6,7 @@ lang: tr
 
 Bir çok insan Ruby’yi günlük işlerinde kullanır. Diğerleri sadece hobi
 olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
+{: .summary}
 
 #### Simülasyonlar
 

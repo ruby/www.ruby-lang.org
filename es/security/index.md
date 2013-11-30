@@ -5,6 +5,7 @@ lang: es
 ---
 
 Aquí podrás encontrar información relacionada a problemas de seguridad de Ruby.
+{: .summary}
 
 ## Reportar vulnerabilidades de seguridad
 

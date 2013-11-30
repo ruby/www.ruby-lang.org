@@ -6,8 +6,10 @@ lang: fr
 
 Les listes de diffusion (*mailing lists* en anglais, souvent abrégé ml)
 sont peut-être le meilleur moyen de suivre l’actualité et le
-développement de la communauté active autour de Ruby. Quatre listes
-principales existent :
+développement de la communauté active autour de Ruby.
+{: .summary}
+
+Quatre listes principales existent :
 
 Ruby-Talk
 : C’est la plus populaire, elle accueille les discussions généralistes

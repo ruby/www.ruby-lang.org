@@ -11,6 +11,7 @@ Ruby, [Ruby France][1], qui propose des tutoriels en français ; il
 existe également plusieurs livres en français. Toutefois, la pratique de
 l’anglais est recommandée car il s’agit *de facto* de la langue
 dominante en informatique. Bon courage !
+{: .summary}
 
 ### Débuter avec Ruby
 

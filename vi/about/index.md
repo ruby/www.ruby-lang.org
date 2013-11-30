@@ -6,6 +6,7 @@ lang: vi
 
 Bạn tự hỏi tại sao Ruby quá phổ dụng? Các fan gọi nó một ngôn ngữ tao nhã và tinh tế
 nhưng lại rất lợi hại và thực dụng. Điều gì khiến họ nghĩ vậy?
+{: .summary}
 
 ### Lý tưởng của cha đẻ của Ruby
 

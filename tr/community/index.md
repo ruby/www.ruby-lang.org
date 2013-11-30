@@ -8,6 +8,7 @@ Giderek gelişen ve büyüyen bir topluluk, bir programlama dilinin en
 önemli güçlerinden biridir. Ruby, hangi bilgi kademesine sahip olursa
 olsun, her insanı sevgiyle kucaklayan, arkadaş canlısı bir topluluğa
 sahiptir.
+{: .summary}
 
 Eğer Ruby topluluğu ile içiçe olmak istiyorsanız, aşağıda bir kaç
 başlangıç önerisi var:

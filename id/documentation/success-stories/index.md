@@ -7,6 +7,7 @@ lang: id
 Banyak yang telah menggunakan Ruby dalam pekerjaan sehari-hari. Ada juga
 yang menggunakannya sebagai hobi. Di sini Anda akan menemukan sebagian
 kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
+{: .summary}
 
 #### Aplikasi Web
 

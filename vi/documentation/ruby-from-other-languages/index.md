@@ -9,6 +9,7 @@ ngôn ngữ khác mà bạn đã sử dụng qua. Đây chính là chủ đích.
 cú pháp đều quen thuộc với những ngưởi sử dụng Perl, Python, và Java,
 vì vậy nếu bạn đã từng sử dụng qua thì việc làm quen với Ruby sẽ không
 mấy khó khăn.
+{: .summary}
 
 Tài liệu này có 2 phần chính. Phần đầu tiên là tóm tắt những gì
 bạn mong muốn khi chuyển từ ngôn ngữ *X* sang Ruby. Phần thứ hai thảo

@@ -15,6 +15,7 @@ conférences. N’importe qui peut former son propre groupe, y établir ses
 propres règles, mais généralement, il sera plus intéressant pour vous de
 rejoindre un groupe déjà existant que de lancer une initiative
 redondante.
+{: .summary}
 
 ### Groupes
 

@@ -7,6 +7,7 @@ lang: vi
 Bạn có thể lấy phân phối Ruby mới nhất ở đây.
 Bản ổn định hiện thời là {{ site.downloads.stable.version }}.
 Xin hãy nhớ đọc [Giấy phép Ruby]({{ site.license.url }}).
+{: .summary}
 
 ### Ba cách để cài Ruby
 

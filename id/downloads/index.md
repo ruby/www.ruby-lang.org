@@ -8,6 +8,7 @@ Di sini Anda bisa mendapatkan distribusi Ruby terbaru. Versi stabil saat
 ini adalah {{ site.downloads.stable.version }}. Ruby disediakan secara gratis,
 namun pastikan Anda membaca [Lisensi Ruby][1] terlebih dahulu sebelum
 menggunakannya.
+{: .summary}
 
 ### Tiga Cara Menginstall Ruby
 

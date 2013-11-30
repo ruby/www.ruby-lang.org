@@ -7,6 +7,7 @@ lang: it
 I blog su Ruby sono esplosi nel corso dell’ultimo anno, e tu puoi, con
 una ricerca paziente, scovare centinaia di blog che presentano brani di
 codice Ruby, descrivono nuove tecniche, o speculano sul futuro di Ruby.
+{: .summary}
 
 ### Alla ricerca di Blog su Ruby
 

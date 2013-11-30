@@ -7,6 +7,7 @@ lang: tr
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
 En son kararlı sürüm {{ site.downloads.stable.version }},
 lütfen önce [Ruby lisansını][1] okuyun.
+{: .summary}
 
 ### Ruby Kaynak Kodu
 
