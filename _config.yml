@@ -688,7 +688,7 @@ locales:
     try_ruby: &try_ruby
       url: http://tryruby.org/
     books: &books
-      url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&rs=1000&keywords=Ruby&rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
+      url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&amp;rs=1000&amp;keywords=Ruby&amp;rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
 
     bg:
       get_started:
