@@ -9,12 +9,12 @@ di terze parti.
 {: .summary}
 
 La maggior parte di queste sono rilasciate sotto forma di **gem**.
-[**RubyGems**][1] è un sistema di pacchettizazione Ruby progettato per
+[**RubyGems**][1] è un sistema di pacchettizzazione Ruby progettato per
 facilitare la creazione, la condivisione e l'installazione di librerie
 (in un certo senso è un sistema di pacchettizzazione delle distribuzioni
 simile ad `apt-get`, ma specifico per il software Ruby).
 Dalla versione 1.9 Ruby è distribuito di default con RubyGems; nelle
-precedenti versioni Ruby necessitando di [installarlo manualmente][2].
+precedenti versioni di Ruby è necessario [installarlo manualmente][2].
 
 Alcune librerie sono rilasciate tramite un archivio (.zip o .tar.gz)
 contenente il **codice sorgente**. Il processo di installazione
@@ -32,7 +32,7 @@ forma di gem. È possibile esplorare il sito direttamente o usare il
 comando `gem`.
 
 
-Usando `gem search -r`, puoi ispezionare il repository RubyGems.
+Usando `gem search -r` puoi ispezionare il repository RubyGems.
 Ad esempio, `gem search -r rails` ritornerà una lista di gem correlate
 a Rails. Con l'opzione `--local` (`-l`), è possibile effettuare una
 ricerca locale tra le gem installate. Per installare una gem, puoi
@@ -51,7 +51,7 @@ RubyGems.org viene mantenuta la versione del codice sotto forma di gem.
 i progetti Ruby open source. Mette a disposizione categorie relative ad
 i più comuni task e problematiche di programmazione; colleziona molte
 informazioni relative ai progetti come le release, l'attività sul codice
-sorgente o le dipendenze ed assegna una valutazione ad i progetti
+sorgente o le dipendenze ed assegna una valutazione ai progetti
 basandosi sulla popolarità su RubyGems.org e GitHub.
 La ricerca permette spesso di trovare quello che cerchi facilmente.
 
@@ -115,7 +115,6 @@ $ gem list -r
 
 #### Aiuto!
 
-Documentation is available inside your terminal:
 La documentazione è a tua disposizione direttamente dal terminale:
 
 {% highlight sh %}
