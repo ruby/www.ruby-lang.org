@@ -1,0 +1,5 @@
+{% if site.locales.credits[page.lang] %}
+  <p>{{ site.locales.credits[page.lang] }}</p>
+{% else %}
+  <p>{{ site.locales.credits['en'] }}</p>
+{% endif %}
