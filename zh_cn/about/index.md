@@ -140,7 +140,7 @@ Ruby 还有其他丰富的特性：
 * Ruby 提供不依赖操作系统的线程。所以在所有 Ruby 支持的操作系统里都可以使用多线程处理，不管操作系统支不支持，比如 MS-DOS!
 ^
 
-* Ruby 极为轻便：它只要是在 GNU/Linux 上开发的，但也在很多类型的 UNIX 上运行，也支持 Mac OS X, Windows
+* Ruby 极为轻便：它主要是在 GNU/Linux 上开发的，但也支持很多类型的 UNIX，以及 Mac OS X, Windows
   95/98/Me/NT/2000/XP，DOS，BeOS，OS/2 等。
 
 #### 参考资料
