@@ -10,7 +10,7 @@ thư viện lõi.
 
 Hầu hết được phát hành dưới dạng **gem**. [**RubyGems**][1] là hệ thống đóng gói
 Ruby giúp tạo, chia sẻ và cài đặt thư viện (ở dưới một góc độ nào đó thì nó là
-hệ thống phân phối gó, giống như `apt-get`, nhưng tập trung chỉ vào phần mềm Ruby).
+hệ thống phân phối gói, giống như `apt-get`, nhưng tập trung chỉ vào phần mềm Ruby).
 Từ phiên bản 1.9, Ruby có kèm RubyGems vào cùng, trong khi đó những phiên bản thì
 phải [cài đặt riêng][2].
 
