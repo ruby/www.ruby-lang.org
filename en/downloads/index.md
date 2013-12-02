@@ -183,14 +183,7 @@ On other systems you can search the package repository for your
 Linux distro’s manager, or RVM might be the right choice for you.
 
 #### Ruby on Mac OS X
-
-Ruby 1.8.7 is fully supported in Mac OS X Lion as well as many popular
-Ruby gems (packages). For details, see the [Ruby wiki at Mac OS
-Forge][11].
-
-Mac OS X Tiger is packaged with version 1.8.2 of Ruby, and Leopard ships
-with 1.8.6, but, for those who haven’t upgraded to Leopard, there are a
-number of options for installing the latest version of Ruby.
+Ruby 2.0.0 is pre-installed on Mac OS X Mavericks.
 
 Many people on Mac OS X use [Homebrew][12] as a package manager. It’s
 really easy to get Ruby:
@@ -204,10 +197,8 @@ source is just as easy and effective as the other solutions. To help you
 with installation of new Ruby versions on OS X, it’s probably a good
 idea to use RVM. Type `rvm notes` for system-specific information.
 
-For a detailed look at installing Ruby (and Rails), Dan Benjamin’s
-excellent articles [for Tiger][13], [for Leopard][14], and [for Snow
-Leopard][15] will get you up and running very quickly. On Lion, [this
-article][16] can help you.
+For a detailed look at installing Ruby (and Rails) on Mavericks you can read [this
+article][13].
 
 #### Ruby On Solaris and OpenIndiana
 
@@ -268,11 +259,8 @@ programming language”.
 [9]: http://rubyinstaller.org/downloads/
 [10]: http://railsinstaller.org/
 [11]: http://trac.macosforge.org/projects/ruby/wiki
-[12]: http://mxcl.github.com/homebrew/
-[13]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
-[14]: http://hivelogic.com/articles/ruby-rails-leopard
-[15]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
-[16]: http://intridea.com/2011/7/26/setting-up-ruby-dev-on-lion?blog=company
+[12]: http://brew.sh/
+[13]: http://railsapps.github.io/installrubyonrails-mac.html
 [17]: http://www.sunfreeware.com
 [18]: http://www.blastwave.org
 [19]: http://openindiana.org/
