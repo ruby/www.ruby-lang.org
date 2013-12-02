@@ -96,7 +96,7 @@ y = 5.plus 6
 Ruby’s operators are syntactic sugar for methods. You can redefine them
 as well.
 
-### Blocks, a Truly Expressive Feature
+### Blocks: a Truly Expressive Feature
 
 Ruby’s block are also seen as a source of great flexibility. A
 programmer can attach a closure to any method, describing how that
