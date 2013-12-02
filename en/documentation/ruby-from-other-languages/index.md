@@ -50,7 +50,7 @@ some_list.each do |this_item|
 end
 {% endhighlight %}
 
-For more info on `each` (and it’s friends `collect`, `find`, `inject`,
+For more info on `each` (and its friends `collect`, `find`, `inject`,
 `sort`, etc.), see `ri Enumerable` (and then <tt>ri
 Enumerable#*func\_name*</tt>).
 
