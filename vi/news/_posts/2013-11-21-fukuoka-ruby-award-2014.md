@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Cuộc thi giải Fukuoka Ruby 2014 - Giám khảo bao gồm Matz "
+title: "Cuộc thi giải Fukuoka Ruby 2014 - Giám khảo bao gồm Matz"
 author: "Fukuoka Ruby"
 translator: "Trung Lê"
 date: 2013-11-21 08:17:06 UTC
@@ -9,7 +9,7 @@ lang: vi
 
 Gửi các bạn đam mê Ruby,
 
-Chính phủ của Fukuokua, Nhật cùng với "Matz" Matsumoto thân mời
+Chính phủ của Fukuoka, Nhật cùng với "Matz" Matsumoto thân mời
 mọi người tham gia giải. Nếu bạn đã phái triển một chương trình
 hay với Ruby, xin nộp đơn dự thi.
 
