@@ -30,7 +30,7 @@ Bye Pat, come back soon.
 => nil
 {% endhighlight %}
 
-Birkez `g` nesnesi üretildimi, ismin Pat olduğunu hep hatırlayacaktır.
+Birkez `g` nesnesi üretildi mi, ismin Pat olduğunu hep hatırlayacaktır.
 Hımm, peki ismi direk olarak almak istersek nolcak?
 
 {% highlight ruby %}
@@ -44,12 +44,12 @@ Yok, yapamadık.
 
 ## Nesnenin Derisinin Altında
 
-Oluşum değişkenleri nesnenin içinde gizli kalırlar. Mutlak olarak gizli
-değillerdir, onlara erişmenin diğer başka yolları vardır, fakat Ruby
+Örnek değişkenleri nesnenin içinde gizli kalırlar. Mutlak olarak gizli
+değillerdir, onlara erişmenin başka yolları vardır, fakat Ruby
 verileri dışardan erişime gizleyecek çeşitli nesne yönelimli teknikler
 kullanır.
 
-Pekala Greeter nesnesinin ne metodları mevcut?
+Pekala Greeter nesnesinin ne metotları mevcut?
 
 {% highlight ruby %}
 irb(main):039:0> Greeter.instance_methods
@@ -65,19 +65,19 @@ irb(main):039:0> Greeter.instance_methods
     "instance_variables", "instance_of?"]
 {% endhighlight %}
 
-Waw, bir sürü metod varmış. Biz sadece iki metod tanımladık. Burda neler
-oluyor? Pekala bunlar Greeter nesnesinin tüm metodları, kalıtımdan
-gelenler dahil. Eğer kalıtımdan gelen atalarının metodlarını görmek
-itemezsek az evvelki çağrıyı `false` prametresiyle yapmalıyız. Bunun
-anlamı kalıtımsal metodları istemediğimizdir.
+Vay, bir sürü metot varmış. Biz sadece iki metot tanımladık. Burada neler
+oluyor? Pekala bunlar Greeter nesnesinin tüm metotları, kalıtımdan
+gelenler dahil. Eğer kalıtımdan gelen atalarının metotlarını görmek
+istemezsek az evvelki çağrıyı `false` prametresiyle yapmalıyız. Bunun
+anlamı kalıtımsal metotları istemediğimizdir.
 
 {% highlight ruby %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
 
-Ah, şimdi daha iyi. Haydi şimdide selamlayıcı nesnemizin hangi metodlara
-cevap veriyor bulalım:
+Ah, şimdi daha iyi. Haydi şimdide selamlayıcı nesnemiz hangi metotlara
+cevap veriyor, bulalım:
 
 {% highlight ruby %}
 irb(main):041:0> g.respond_to?("name")
@@ -88,12 +88,12 @@ irb(main):043:0> g.respond_to?("to_s")
 => true
 {% endhighlight %}
 
-Gördüğünüz gibi `say_hi` ve `to_s` (birşeyi stringe çevirme emridir)
+Gördüğünüz gibi `say_hi` ve `to_s` (bir şeyi stringe çevirme emridir)
 kelimelerinin anlamını biliyor, fakat `name` anlamını bilmiyor.
 
 ## Sınıfları Değiştirmek—Asla Çok Geç Değildir
 
-Fakat eğer isimi görmek ve değiştirmek isterseniz ne olacak? Ruby
+Fakat eğer ismi görmek ve değiştirmek isterseniz ne olacak? Ruby
 nesnenin değişkenlerine erişmek için kolay bir yol sunar.
 
 {% highlight ruby %}
@@ -103,7 +103,7 @@ irb(main):046:1> end
 => nil
 {% endhighlight %}
 
-Ruby’de, sınıfı tekrar açıp değiştirebilirsiniz. Yapılan değişiklikler
+Ruby’de bir sınıfı tekrar açıp değiştirebilirsiniz. Yapılan değişiklikler
 yeni üretilecek nesnelerde etkili olacağı gibi üretilmiş nesnelerde de
 etkilidir. Öyleyse yeni bir nesne üretelim ve onun `@name` özelliği ile
 biraz oynayalım.
@@ -129,8 +129,8 @@ Hi Betty!
 => nil
 {% endhighlight %}
 
-`attr_accessor` kullanarak iki yeni metod tanımlanmış olur, değeri
-okumak için `name` ve değeri değiştirmek için `name=` metodları.
+`attr_accessor` kullanarak iki yeni metot tanımlanmış olur, değeri
+okumak için `name` ve değeri değiştirmek için `name=` metotları.
 
 ## Herşeyi ve Hiçbirşeyi Selamlamak, MegaGreeter Hiçbirini Atlamaz!
 
@@ -141,7 +141,7 @@ selamlayacak bir MegaGreeter istersek nasıl olacak?
 Bu seferki kodumuzu direk IRB’de yazmak yerine bir dosyaya yazarak
 saklayalım.
 
-IRB’den çıkmak için “quit”, “exit” yazın ya da sadece Control-D basın.
+IRB’den çıkmak için “quit” veya “exit” yazın ya da sadece Control-D basın.
 
 {% highlight ruby %}
 #!/usr/bin/env ruby
@@ -188,12 +188,12 @@ if __FILE__ == $0
   mg.say_hi
   mg.say_bye
 
-  # İsimi "Zeke" olarak değiştir
+  # İsmi "Zeke" olarak değiştir
   mg.names = "Zeke"
   mg.say_hi
   mg.say_bye
 
-  # İsimi bir isimler dizisine çevir
+  # İsmi bir isimler dizisine çevir
   mg.names = ["Albert", "Brenda", "Charles",
     "Dave", "Engelbert"]
   mg.say_hi
@@ -224,6 +224,5 @@ komutuyla çalıştırın. Çıktısı şöyle olmalı:
     ...
 {: .code}
 
-Bu son örnekle birçok yeni şey ortaya çıktı, [daha bir derin
+Bu son örnekle birçok yeni şey ortaya çıktı, [daha derinden
 inceleyelim.](../4/)
-
