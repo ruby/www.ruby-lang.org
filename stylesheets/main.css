@@ -124,8 +124,9 @@ dl dt {
   text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4, p, li, dt, dd, a {
+h1, h2, h3, h4, p, li, dt, dd, a, code, pre {
   word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 code {
@@ -177,7 +178,9 @@ pre code {
 
 #main {
   display: table;
+  table-layout: fixed;
   border-collapse: collapse;
+  width: 100%;
 }
 
 #content-wrapper {
@@ -211,6 +214,7 @@ p.post-info {
 #sidebar-wrapper {
   display: table-cell;
   vertical-align: top;
+  width: 30%;
 }
 
 #sidebar {

@@ -32,10 +32,7 @@
   #home-page-layout #code pre { margin-right: 24px; }
   #sidebar { margin-right: 24px; }
 
-  #content-wrapper {
-    width: 65%;
-    padding: 0 24px;
-  }
+  #content-wrapper { padding: 0 24px; }
 
   #main img { max-width: 100%; }
 
