@@ -99,7 +99,7 @@ $ sudo apt-get install ruby irb rdoc
 
 ### OS X 系统
 
-Ruby 1.8.7 已经完全支持 Mac OS X Lion 以及许多流行的 Ruby gems (packages)。细节参考 [Ruby
+Mac OS X Lion 完全支持 Ruby 1.8.7 以及许多常见的 Ruby gems (packages)。细节参考 [Ruby
 wiki at MacOS Forge][10] 。
 
 Mac OS X Leopard 完全支持 Ruby 1.8.6 以及 Ruby on Rails, Mongrel, Capistrano
