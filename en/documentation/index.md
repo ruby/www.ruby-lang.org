@@ -21,8 +21,7 @@ will come in handy when you feel like coding in Ruby.
   some common functions and libraries. We also teach you culture.
 
 [RubyMonk][3]
-: Discover Ruby idioms, learn lessons and solve problems, all in your
-  browser!
+: Impara il lessico Ruby risolvendo problemi nel tuo browser!
 
 [Hackety Hack][4]
 : <q cite="http://hackety-hack.com/">The little coder’s starter kit</q>.
