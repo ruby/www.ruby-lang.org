@@ -73,6 +73,7 @@ Please try to use a mirror that is near you.
 * [Austria][60] (tuwien.ac.at)
 * [Taiwan 1][61] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][62] (ftp.cs.pu.edu.tw)
+* [China 1][65] (ruby.taobao.org)
 
 #### Mirror sites via FTP
 
@@ -317,3 +318,4 @@ programming language”.
 [62]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
 [63]: https://ftp.ruby-lang.org/pub/ruby/
 [64]: http://cache.ruby-lang.org/pub/ruby/
+[65]: http://ruby.taobao.org/mirrors/ruby/
