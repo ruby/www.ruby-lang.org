@@ -56,8 +56,8 @@ potrà venire comodo quando vorrai programmare in Ruby.
 [Learn to Program][39]
 : Un meraviglioso mini-tutorial scritto da Chris Pine e tradotto in
   italiano da Duccio Armenise. Adatto a neofiti del mondo della
-  programmazione. Se non sai come programmare, inizia qui. La versione
-  originale inglese è disponibile [qui][8].
+  programmazione. Se non sai come programmare, inizia qui. È disponibile
+  anche [la versione originale inglese][8].
 
 [Learn Ruby the Hard Way][38]
 : Una serie di esercizi e spiegazioni che partono dalle basi di Ruby
