@@ -1,6 +1,6 @@
 deploy:
   provider: heroku
-  buildpack: https://github.com/ruby/heroku-buildpack-ruby-jekyll
+  buildpack: https://github.com/ruby/heroku-buildpack-ruby-jekyll.git
   api_key:
     secure: gomai7JUOZCojr+yddMe8jQMQISUIg21VXVqEEqAJyOIsz+3kH6lR2lb1iYFKC88skeakKspJjYgQ+tSP/md0P+2JJzqbBCn1C/xuAuIrGGRVboOCAC9qsBg0kdNxGoKnJBtnJzAjdoADHu/kJvV1G0mIwzReCAehi+s9dogwj8=
   app: staging-ruby-lang
