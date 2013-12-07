@@ -194,7 +194,7 @@ if __FILE__ == $0
 end
 {% endhighlight %}
 
-把這個檔案存成 “ri20min.rb”，然後輸入 “ruby ri20min.rb” 來執行它。您應該可以看到輸出是：
+把這個檔案存成 “ri20min.rb”，然後在命令提示符號輸入 “ruby ri20min.rb” 來執行它。您應該可以看到輸出是：
 
     Hello World!
     Goodbye World.  Come back soon!
