@@ -4,23 +4,23 @@ title: "Sicurezza"
 lang: it
 ---
 
-In questa pagina trovi informazioni su problemi di sicurezza di Ruby.
+Qui trovi informazioni sui problemi di sicurezza di Ruby.
 {: .summary}
 
 ## Notifica delle vulnerabilità
 
-Le vulnerabilità di sicurezza devono essere notificate via mail a
-security@ruby-lang.org, una lista di discussione privata. I problemi
-notificati verranno pubblicati solo dopo essere stati risolti.
+Le vulnerabilità di sicurezza devono essere notificate via email a
+security@ruby-lang.org ([chiave pubblica PGP](/security.asc)), che è una lista
+di discussione privata. I problemi notificati verranno pubblicati solo dopo
+essere stati risolti.
 
 ## Problemi conosciuti
 
-Ecco i problemi conosciuti più recenti.
+Ecco i problemi più recenti.
 
-* [Vulnerabilità DoS in
-  REXML](/it/news/2008/11/14/dos-vulnerability-in-rexml/) pubblicato il
-  23 agosto 2008
-* [Multiple vulnerabilità in
-  Ruby](/it/news/2008/11/14/multiple-vulnerabilities-in-ruby/)
-  pubblicato l\'8 agosto 2008
+* [Heap Overflow nel Parsing di numeri in Virgola Mobile
+  (CVE-2013-4164)](/it/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+  pubblicato il 22 Novembre 2013.
+
+Per i problemi precedenti vedere [la pagina inglese](/en/security).
 
