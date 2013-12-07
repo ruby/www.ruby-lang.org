@@ -65,13 +65,13 @@ giro per il mondo. Per favore utilizza il sito mirror più vicino a te.
 #### Siti mirror via HTTP
 
 * [CDN][64] (fastly.com)
-* [Japan 1][63] (Master) - HTTPS
-* [Japan 2][50] and [mirror][32] (RingServer)
-* [Britain][49] (The Mirror Service)
-* [Germany][51] (AmbiWeb GmbH)
-* [Belgium][52] (Easynet)
-* [Denmark][53] (sunsite.dk)
-* [Holland][54] (XS4ALL) - solo release
+* [Giappone 1][63] (Master) - HTTPS
+* [Giappone 2][50] and [mirror][32] (RingServer)
+* [Gran Bretagna][49] (The Mirror Service)
+* [Germania][51] (AmbiWeb GmbH)
+* [Belgio][52] (Easynet)
+* [Danimarca][53] (sunsite.dk)
+* [Olanda][54] (XS4ALL) - solo release
 * [USA 1][55] (ibiblio.org)
 * [USA 2][56] (lcs.mit.edu)
 * [USA 3][57] (binarycode.org)
@@ -84,16 +84,16 @@ giro per il mondo. Per favore utilizza il sito mirror più vicino a te.
 
 #### Siti mirror via FTP
 
-* [Japan 1][35] (Master: ruby-lang.org)
-* [Japan 2][31] and [mirror][32] (RingServer)
-* [Japan 3][33] (IIJ)
-* [South Korea][36] (Korea FreeBSD Users Group)
-* [Germany][37] (FU Berlin)
-* [Britain][38] (The Mirror Service)
-* [Belgium][39] (Easynet)
+* [Giappone 1][35] (Master: ruby-lang.org)
+* [Giappone 2][31] e [mirror][32] (RingServer)
+* [Giappone 3][33] (IIJ)
+* [Corea del Sud][36] (Korea FreeBSD Users Group)
+* [Germania][37] (FU Berlin)
+* [Gran Bretagna][38] (The Mirror Service)
+* [Belgio][39] (Easynet)
 * [Russia][40] (ChgNet)
-* [Greece][41] (ntua.gr)
-* [Denmark][42] (sunsite.dk)
+* [Grecia][41] (ntua.gr)
+* [Danimarca][42] (sunsite.dk)
 * [USA 1][43] (ibiblio.org)
 * [USA 2][44] (lcs.mit.edu)
 * [Austria][45] (tuwien.ac.at)
@@ -104,7 +104,7 @@ giro per il mondo. Per favore utilizza il sito mirror più vicino a te.
 #### Siti mirror via rsync
 
 * rsync://rsync.mirrorservice.org/ftp.ruby-lang.org/pub/ruby/ (Gran Bretagna)
-* rsync://sunsite.dk/ftp/mirrors/ruby/ (Danimarka)
+* rsync://sunsite.dk/ftp/mirrors/ruby/ (Danimarca)
 * rsync://gd.tuwien.ac.at/languages/ruby/ (Austria)
 * rsync://mirror.cs.mun.ca/ruby/ (Canada)
 * rsync://ftp.cs.pu.edu.tw/Ruby/ (Taiwan)
