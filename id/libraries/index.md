@@ -25,7 +25,7 @@ untuk penggunaan Anda sendiri.
 
 ### Menemukan Library
 
-[**RubyGems.org**][3] adalah tempat utama dimana library dihost, menyediakan
+[**RubyGems.org**][1] adalah tempat utama dimana library dihost, menyediakan
 library Ruby sebagai gem. Anda dapat browse situs webnya langsung, atau
 menggunakan perintah `gem`.
 
@@ -34,7 +34,7 @@ Misalnya, `gem search -r rails` akan mengembalikan daftar gem yang terkait
 dengan Rails. Dengan pilihan `--local` (`-l`), Anda akan melakukan pencarian lokal
 melalui gem yang Anda instal. Untuk menginstal gem, gunakan `gem install
 [gem]`. Browsing gem yang telah diinstal dilakukan dengan `gem list`. Untuk informasi
-lebih jelas tentang perintah `gem`, lihat di bawah atau kunjungi [dokumentasi RubyGems][1].
+lebih jelas tentang perintah `gem`, lihat di bawah atau kunjungi [dokumentasi RubyGems][3].
 
 Ada sumber lain untuk library juga. [RubyForge][4] dulu populer sebagai
 tempat sumber library Ruby, tapi beberapa tahun terakhir [**GitHub**][5] bangkit
@@ -112,17 +112,17 @@ daftar semua perintah `gem`.
 
 #### Membuat gem Anda sendiri
 
-RubyGems.org memiliki [beberapa panduan][8] tentang topik ini. Anda juga
+RubyGems.org memiliki [beberapa panduan][3] tentang topik ini. Anda juga
 mungkin ingin untuk melihat [Bundler][9], alat generik yang membantu
 Anda mengelola dependensi dan aplikasi dapat digunakan bersama RubyGems.
 
 
-[1]: http://docs.rubygems.org
-[2]: http://rubygems.org/pages/download
-[3]: http://rubygems.org
+
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
-[5]: http://github.com
+[5]: https://github.com/
 [6]: http://raa.ruby-lang.org/
-[7]: http://docs.rubygems.org/
-[8]: http://guides.rubygems.org
-[9]: http://gembundler.com
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/

@@ -22,7 +22,7 @@ Nào bây giờ hãy cùng tìm thư viện và cài đặt chúng theo yêu c�
 
 ### Tìm thư viện
 
-Địa điểm chính nơi thư viện được phát hành là [**RubyGems.org**][3],
+Địa điểm chính nơi thư viện được phát hành là [**RubyGems.org**][1],
 hệ thống này cung cấp thư viện Ruby dưới dạng gem. Bạn có thể xem trang web trực
 tiếp hoặc thông qua lệnh `gem`.
 
@@ -31,7 +31,7 @@ Sử dụng `gem search -r` để tra cứu repository của RubyGems. Ví dụ,
 Nếu khai báo lệnh với lựa chọn `--local` (`-l`) để tìm kiếm trong những gem đã
 được cài đặt trên máy. Để cài một gem, dùng `gem install
 [gem]`. Xem những gem đã cài trên máy với lệnh `gem list`. Để biết thêm chi tiết
-về lệnh `gem`, xin hãy tham khảo ở dưới hoặc xem [Tài liệu RubyGems][1].
+về lệnh `gem`, xin hãy tham khảo ở dưới hoặc xem [Tài liệu RubyGems][3].
 
 Có nhiều nguồn thư viện. [RubyForge][4] từng là nhà của rất nhiều thư viện phổ
 dụng, nhưng nhũng năm gần đây chứng kiến [**GitHub**][5] lên ngôi như là một
@@ -106,18 +106,17 @@ Ví dụ, `gem help commands` sẽ liệt kê ra các lệnh của `gem`.
 
 #### Tạo ra gem riêng của bạn
 
-RubyGems.org có một vài [hướng dẫn][8] về chủ đề này. Bạn có thể tra khảo về
+RubyGems.org có một vài [hướng dẫn][3] về chủ đề này. Bạn có thể tra khảo về
 [Bundler][9], một công cụ giúp quản lý các phần mềm yêu cầu và có thể sử dụng
 cùng với RubyGems.
 
 
 
-[1]: http://docs.rubygems.org
-[2]: http://rubygems.org/pages/download
-[3]: http://rubygems.org
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
-[5]: http://github.com
+[5]: https://github.com/
 [6]: http://raa.ruby-lang.org/
-[7]: http://docs.rubygems.org/
-[8]: http://guides.rubygems.org
-[9]: http://gembundler.com
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/

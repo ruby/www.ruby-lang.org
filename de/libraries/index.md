@@ -26,7 +26,7 @@ und installieren kannst.
 
 ### Bibliotheken finden
 
-Die meisten Bibliotheken werden als Gems auf [**RubyGems.org**][3]
+Die meisten Bibliotheken werden als Gems auf [**RubyGems.org**][1]
 gehostet. Nach Bibliotheken kann direkt auf der Webseite oder mithilfe
 des `gem`-Kommandos gesucht werden.
 
@@ -36,7 +36,7 @@ mit Rails zu tun haben. Mit der `--local`-Option (`-l`) würden die lokal
 installierten Gems durchsucht werden. Ein Gem kann mit `gem install [gem]`
 installiert werden. Die lokal installierten Gems können mit `gem list`
 angezeigt werden. Mehr Informationen über den `gem`-Befehl finden sich
-unten oder in der [RubyGems-Dokumentation][1].
+unten oder in der [RubyGems-Dokumentation][3].
 
 Es gibt jedoch auch andere Quellen für Bibliotheken. [RubyForge][4]
 war eine beliebte Anlaufstelle für Ruby-Bibliotheken, aber in den letzten
@@ -119,19 +119,18 @@ aller Kommandos des `gem`-Befehls ausgibt.
 
 #### Eigene Gems erstellen
 
-Auf RubyGems.org gibt es [verschiedene Anleitungen][8] für das Erstellen
+Auf RubyGems.org gibt es [verschiedene Anleitungen][3] für das Erstellen
 eigener Gems.
 Möglicherweise solltest Du Dir auch [Bundler][9] etwas genauer anschauen,
 ein Werkzeug zur Verwaltung der Gem-Abhängigkeiten einer Ruby-Anwendung.
 
 
 
-[1]: http://docs.rubygems.org
-[2]: http://rubygems.org/pages/download
-[3]: http://rubygems.org
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
-[5]: http://github.com
+[5]: https://github.com/
 [6]: http://raa.ruby-lang.org/
-[7]: http://docs.rubygems.org/
-[8]: http://guides.rubygems.org
-[9]: http://gembundler.com
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/

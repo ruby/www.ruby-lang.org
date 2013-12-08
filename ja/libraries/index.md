@@ -14,10 +14,10 @@ lang: ja
 
 ### ライブラリを探す
 
-Ruby のライブラリは主に [RubyGems.org][3] に gem として置かれています。直接ウェブサイトを閲覧したり、`gem` コマンドを使用してそれらを探すことができます。
+Ruby のライブラリは主に [RubyGems.org][1] に gem として置かれています。直接ウェブサイトを閲覧したり、`gem` コマンドを使用してそれらを探すことができます。
 
 `gem search -r` を使うと RubyGems のリポジトリを調べることが出来ます。例えば、`gem search -r rails` は Rails に関係のある gem を返します。
-`--local` (`-l`) オプションを使うと、インストール済みの gem に対してローカルで検索をすることが出来ます。gem をインストールするには `gem install [gem]` を使います。インストール済みの gem を見るには `gem list` を使います。さらに `gem` コマンドについて知りたい場合は、先に進むか[RubyGems' docs][1] を参照してください。
+`--local` (`-l`) オプションを使うと、インストール済みの gem に対してローカルで検索をすることが出来ます。gem をインストールするには `gem install [gem]` を使います。インストール済みの gem を見るには `gem list` を使います。さらに `gem` コマンドについて知りたい場合は、先に進むか[RubyGems' docs][3] を参照してください。
 
 他にもライブラリの配布元があります。
 [RubyForge][4]はかつて Ruby のライブラリの保管場所として広く使われていたものです。
@@ -86,16 +86,16 @@ $ gem help
 
 #### 自分で gem を作る
 
-RubyGems.org に [いくつかのガイド][8] があります。
+RubyGems.org に [いくつかのガイド][3] があります。
 [Bundler][9] について調べてみるのもいいでしょう。Bundler は RubyGems と一緒に使われる、アプリケーションの依存関係を管理するための一般的なツールです。
 
 
-[1]: http://docs.rubygems.org
-[2]: http://rubygems.org/pages/download
-[3]: http://rubygems.org
+
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
-[5]: http://github.com
+[5]: https://github.com/
 [6]: http://raa.ruby-lang.org/
-[7]: http://docs.rubygems.org/
-[8]: http://guides.rubygems.org
-[9]: http://gembundler.com
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/

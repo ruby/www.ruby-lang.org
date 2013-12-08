@@ -27,7 +27,7 @@ uso.
 ### Trovare le librerie
 
 Tipicamente il posto più comune dove vengono mantenute le librerie è
-[**RubyGems.org**][3], dove è possibile ottenere librerie Ruby sotto
+[**RubyGems.org**][1], dove è possibile ottenere librerie Ruby sotto
 forma di gem. È possibile esplorare il sito direttamente o usare il
 comando `gem`.
 
@@ -37,7 +37,7 @@ a Rails. Con l'opzione `--local` (`-l`), è possibile effettuare una
 ricerca locale tra le gem installate. Per installare una gem, puoi
 usare `gem install [gem]`. Per vedere tutte le gem installate puoi
 usare `gem list`. Per maggiori informazioni sul comando `gem`, guarda
-a fondo pagina o visita la [documentazione RubyGems][1].
+a fondo pagina o visita la [documentazione RubyGems][3].
 
 Ci sono anche altre fonti per ottenere delle librerie. [RubyForge][4]
 è stato in passato un sistema molto popolare per trovare delle librerie
@@ -124,19 +124,18 @@ di tutti i comandi di `gem`.
 
 #### Creare le tue gem
 
-RubyGems.org ha [diverse guide][8] sull'argomento. Probabilmente potresti
+RubyGems.org ha [diverse guide][3] sull'argomento. Probabilmente potresti
 essere interessato anche a [Bundler][9], un tool progettato per facilitare
 la gestione delle dipendeze di un'applicazione che può essere usato insieme
 a RubyGems.
 
 
 
-[1]: http://docs.rubygems.org
-[2]: http://rubygems.org/pages/download
-[3]: http://rubygems.org
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
-[5]: http://github.com
+[5]: https://github.com/
 [6]: https://www.ruby-toolbox.com/
-[7]: http://docs.rubygems.org/
-[8]: http://guides.rubygems.org
-[9]: http://gembundler.com
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/
