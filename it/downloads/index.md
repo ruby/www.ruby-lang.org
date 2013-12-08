@@ -40,7 +40,7 @@ alcune opzioni avanzate. È anche una buona soluzione nel caso in cui non
 siano disponibili pacchetti di installazione precompilati per il tuo
 sistema operativo.
 
-Sei hai problemi con la compilazione di Ruby considera l'utilizzo di uno
+Se hai problemi con la compilazione di Ruby considera l'utilizzo di uno
 degli strumenti di terze parti presenti nella sezione successiva. Potrebbero
 esserti di aiuto.
 
@@ -55,7 +55,7 @@ esserti di aiuto.
   problemi, usalo a tuo rischio e pericolo!
 
 Puoi trovare maggiori informazioni sui repository Subversion e Git di Ruby
-nella pagina [Ruby Core](/en/community/ruby-core/).
+nella pagina [Ruby Core](/it/community/ruby-core/).
 
 ### Siti mirror
 
@@ -66,7 +66,7 @@ giro per il mondo. Per favore utilizza il sito mirror più vicino a te.
 
 * [CDN][64] (fastly.com)
 * [Giappone 1][63] (Master) - HTTPS
-* [Giappone 2][50] and [mirror][32] (RingServer)
+* [Giappone 2][50] e [mirror][32] (RingServer)
 * [Gran Bretagna][49] (The Mirror Service)
 * [Germania][51] (AmbiWeb GmbH)
 * [Belgio][52] (Easynet)
@@ -178,8 +178,8 @@ $ sudo apt-get install ruby1.9.1
 {% endhighlight %}
 
 Questo comando installerà Ruby 1.9.2 o successive. Il nome del pacchetto
-deriva dal fatto che contiene una libreria compatibile con la versione
-1.9.1.
+deriva dal fatto che contiene una libreria compatibile con
+la versione 1.9.1.
 
 Se installi il pacchetto ‘ruby’ potresti avere la vecchia versione 1.8,
 in base alla distribuzione usata.
@@ -255,7 +255,7 @@ Eccone una lista:
 * [JRuby][21] è Ruby sulla JVM (Java Virtual Machine) ottimizzata per
   utilizzare il compilatore JIT, i garbage collectors, i thread concorrenti,
   un ecosistema di strumenti e un vasto numero di librerie.
-  [Rubinius][22] è ‘Ruby scritto in Ruby’. Costruito su LLVM, Rubinius
+* [Rubinius][22] è ‘Ruby scritto in Ruby’. Costruito su LLVM, Rubinius
   mette in mostra un'elegante virtual machine sulla quale sono stati
   costrutiti anche altri linguaggi.
 * [MacRuby][23] è un'implementazione di Ruby strettamente integrata con le
