@@ -38,11 +38,7 @@ $ gem search -r html
 
 *** REMOTE GEMS ***
 
-angular-html2js (0.0.4)
-ansi2html (5.3.4)
-...
-xmltv2html (0.8.0)
-ydim_html (1.0.0)
+html-sample (1.0, 1.1)
 {% endhighlight %}
 
 * `--remote`（縮寫 `-r`）選項，查詢 RubyGems.org 上的 Gem。
@@ -59,7 +55,7 @@ $ gem install rails
 可以傳入 `--version`（縮寫 `-v`）來指定版本：
 
 {% highlight sh %}
-$ gem install rails --version 3.2.15
+$ gem install rails --version 3.0
 {% endhighlight %}
 
 RubyGems 提倡語義化版本，請參考 [Semantic Versioning 2.0.0][9]。
