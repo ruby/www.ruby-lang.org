@@ -191,7 +191,7 @@ bahsedilmiştir:
   olsa dahi, UNIX’in bir çok çeşidi, Mac OS X, Windows
   95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, vb. üzerinde çalışmaktadır.
 
-#### Referanslar
+### Referanslar
 
 <sup>1</sup> Matz, Ruby-Talk e-posta listesi, [12 Mayıs, 2000][2].
 {: #fn1}

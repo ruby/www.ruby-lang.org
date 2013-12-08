@@ -143,7 +143,7 @@ Ruby 还有其他丰富的特性：
 * Ruby 极为轻便：它主要是在 GNU/Linux 上开发的，但也支持很多类型的 UNIX，以及 Mac OS X, Windows
   95/98/Me/NT/2000/XP，DOS，BeOS，OS/2 等。
 
-#### 参考资料
+### 参考资料
 
 <sup>1</sup> Matz, 在 Ruby-Talk 邮件列表, [5月12日, 2000][2].
 {: #fn1}

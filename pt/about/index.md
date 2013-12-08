@@ -199,7 +199,7 @@ seguintes:
   GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, Mac OS X,
   Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, etc.
 
-#### Referências
+### Referências
 
 <sup>1</sup> Matz, falando na lista de correio Ruby-Talk, [12 Mai.
 2000][2].

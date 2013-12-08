@@ -198,7 +198,7 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
   ma funziona su molte varianti di UNIX, Mac OS X, Windows
   95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, ecc.
 
-#### Riferimenti
+### Riferimenti
 
 <sup>1</sup> Matz, parlando nella lista di discussione “Ruby-Talk”, [May
 12th, 2000][2].

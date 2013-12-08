@@ -200,7 +200,7 @@ encuentran las siguientes:
   GNU/Linux, pero corre en varios tipos de UNIX, Mac OS X, Windows
   95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, etc.
 
-#### Referencias
+### Referencias
 
 <sup>1</sup> Matz, hablando en la lista de correo Ruby-Talk, [12 de mayo
 del 2000][2].

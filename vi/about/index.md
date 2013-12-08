@@ -179,7 +179,7 @@ cả MSDOS còn hỗ trợ!
 * Ruby rất dễ port: nó được phát triển chủ yếu cho GNU/Linux, nhưng có làm việc
 với các hệ UNIX khác, như Mac OS X, Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, vân vân.
 
-#### Tham khảo
+### Tham khảo
 
 <sup>1</sup> Matz, nói về Ruby-Talk mailing list, [12/05/2000][2].
 {: #fn1}

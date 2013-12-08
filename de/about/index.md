@@ -197,7 +197,7 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
   entwickelt, arbeitet aber auf vielen UNIX-Varianten wie Mac OS X, auf
   Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, usw.
 
-#### Referenzen
+### Referenzen
 
 <sup>1</sup> Matz in der Ruby-Talk-Mailingliste am [12. Mai 2000][3].
 {: #fn1}

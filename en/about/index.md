@@ -185,7 +185,7 @@ Ruby has a wealth of other features, among which are the following:
   works on many types of UNIX, Mac OS X, Windows 95/98/Me/NT/2000/XP,
   DOS, BeOS, OS/2, etc.
 
-#### References
+### References
 
 <sup>1</sup> Matz, speaking on the Ruby-Talk mailing list, [May 12th,
 2000][2].

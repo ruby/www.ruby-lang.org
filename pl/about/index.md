@@ -194,7 +194,7 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
   ale może być używany na wielu typach UNIXów, Mac OS X, Windows
   95/98/Me/NT/2000/XP/Vista/7/8, DOS, BeOS, OS/2, itd.
 
-#### Odnośniki
+### Odnośniki
 
 <sup>1</sup> Matz, wypowiedź na liście ruby-talk, [May 12th, 2000][2].
 {: #fn1}

@@ -205,7 +205,7 @@ parmi lesquelles on peut citer…
   GNU/Linux, Ruby fonctionne aussi sur une grande part des UNIX, Mac OS
   X, Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, etc.
 
-#### Références
+### Références
 
 <sup>1</sup> Matz, [discutant][2] sur la liste de diffusion anglophone
 Ruby-Talk, le 12 mai 2000.

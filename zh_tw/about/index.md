@@ -119,7 +119,7 @@ Ruby 還具有以下的特點：
 
 * Ruby 具有高度的移植性：它大部份是在 GNU/Linux 上發展出來，但是可以執行於多種的作業系統如： UNIX、Mac OS X、Windows、DOS、BeOS、OS/2 等。
 
-#### 參考資料
+### 參考資料
 
 <sup>1</sup> Matz 於 [2000 年 5 月 12 日][2] Ruby-Talk 郵件論壇上的發言。
 {: #fn1}

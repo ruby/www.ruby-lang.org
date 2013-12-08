@@ -203,7 +203,7 @@ Ruby kaya fitur, antara lain sebagai berikut:
   tetapi juga berjalan di banyak tipe UNIX, Mac OS X, Windows
   95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, dan lain-lain.
 
-#### Referensi
+### Referensi
 
 <sup>1</sup> Matz, berbicara di milis Ruby-Talk, [12 Mei 2000][3].
 {: #fn1}
