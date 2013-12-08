@@ -1867,9 +1867,9 @@ locales:
       Verbesserung dieser Seite mitwirken oder sich bei Fragen oder Kommentaren an
       unseren <a href="mailto:webmaster@ruby-lang.org">Webmaster</a> wenden (in Englisch).
     en: |
-      This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>
-      and designed by <a href="http://twitter.com/jz">Jason Zimdars</a>.
+      This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>.
       It is proudly maintained by members of the Ruby community.
+      Design by <a href="http://twitter.com/jz">Jason Zimdars</a>.
       Please contribute on <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       or contact our <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       for questions or comments concerning this website.
