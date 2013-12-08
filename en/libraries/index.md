@@ -24,7 +24,7 @@ use.
 
 ### Finding libraries
 
-The main place where libraries are hosted is [**RubyGems.org**][3],
+The main place where libraries are hosted is [**RubyGems.org**][1],
 providing Ruby libs as gems. You may browse the website directly, or use
 the `gem` command.
 
@@ -34,7 +34,7 @@ gems. With the `--local` (`-l`) option, you would perform a local
 search through your installed gems. To install a gem, use `gem install
 [gem]`. Browsing installed gems is done with `gem list`. For more
 information about the `gem` command, see below or head to [RubyGems’
-docs][1].
+docs][3].
 
 There are other sources of libraries though. [RubyForge][4] used to be a
 popular home for Ruby libraries, but last years saw the rise of
@@ -116,18 +116,17 @@ all `gem`’s commands.
 
 #### Crafting your own gems
 
-RubyGems.org has [several guides][8] about this topic. You may also want
+RubyGems.org has [several guides][3] about this topic. You may also want
 to investigate on [Bundler][9], a generic tool which helps you manage an
 application’s dependencies and may be used along RubyGems.
 
 
 
-[1]: http://docs.rubygems.org
-[2]: http://rubygems.org/pages/download
-[3]: http://rubygems.org
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
-[5]: http://github.com
+[5]: https://github.com/
 [6]: https://www.ruby-toolbox.com/
-[7]: http://docs.rubygems.org/
-[8]: http://guides.rubygems.org
-[9]: http://gembundler.com
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/
