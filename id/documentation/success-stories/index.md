@@ -14,36 +14,28 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 * [Basecamp][1], aplikasi manajemen proyek berbasis web yang
   dikembangkan oleh [37signals][2], menggunakan Ruby on Rails. 37signals
   merupakan pembuat framework Rails yang menggunakan bahasa Ruby.
-^
 
 * [43 Things][3] menyimpan daftar tujuan hidup Anda dan membaginya
   dengan teman-teman Anda. Ditulis menggunakan Ruby on Rails.
-^
 
 * [A List Apart][4], majalah digital bagi para webmaster yang telah
   berdiri sejak tahun 1997, telah direnovasi dan menggunakan aplikasi
   khusus yang dikembangkan menggunakan Ruby on Rails.
-^
 
 * [Twitter][5], situs komunitas yang sangat ramai menggunakan Ruby on
   Rails sebagai *framework*.
-^
 
 * [BookJetty][6] merupakan situs bagi pecinta buku, dikembangkan oleh
   [Herryanto Siatono][7] ([Pluit Solutions][8]).
-^
 
 * [Ruby on Rails Applications][9] berisi sebagian kecil daftar aplikasi
   yang dikembangkan menggunakan Ruby on Rails.
-^
 
 * [Rails 100][10] berisi daftar 100 aplikasi Rails terpopuler
   berdasarkan statistik dari Alexa.
-^
 
 * [Real World Usage di Rails Wiki][11] berisi daftar aplikasi berbasis
   Ruby on Rails.
-^
 
 * [Blue Sequence][12], aplikasi canggih yang merupakan bagian dari
   proses produksi *sequence-in-time* di Toyota Motor Manufacturing,
@@ -54,7 +46,6 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 
 * [NASA Langley Research Center][13] menggunakan Ruby untuk melakukan
   simulasi.
-^
 
 * Kelompok riset di [Motorola][14] menggunakan Ruby untuk melakukan
   simulasi, baik untuk meng-*generate* skenario maupun memproses data

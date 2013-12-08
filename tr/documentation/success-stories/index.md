@@ -12,7 +12,6 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 
 * [NASA Langley Araştırma Merkezi][1] simülasyonları yönetmek için Ruby
   kullanıyor.
-^
 
 * “Motorola” da bir araştırma grubu:http://www.motorola.com Ruby’yi
   simülatör geliştirirken, hem senaryo üretmek için hemde işlem sonrası
@@ -56,16 +55,13 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 
 * [Basecamp][8], [37signals][9] tarafından geliştirilen web tabanlı
   proje yönetim uygulamasıdır, tamamen Ruby ile yazılmıştır.
-^
 
 * [43 Things][10] hedeflerinin bir listesini tutmanı ve dünya ile
   paylaşmanı sağlar. Tamamen Ruby ile geliştirilmiştir.
-^
 
 * [A List Apart][11], yaklaşık 1997 yılından bu yana web-sitelerini
   yapan insanlar için bir dergi. Son zamanlarda yeniden canlandı ve Ruby
   On Rails ile oluşturulan özel bir uygulama kullanır.
-^
 
 * [Blue Sequence][12], Toyota Motor İmalatı’nın kendi “sequence-in-time”
   üretim sürecinin bir parçası olan gelişmiş,kritik bir uygulama, son

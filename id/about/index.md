@@ -176,28 +176,23 @@ Ruby kaya fitur, antara lain sebagai berikut:
 
 * Ruby memiliki fitur-fitur yang menangani exception, seperti Java atau
   Python, untuk mempermudah menangani error.
-^
 
 * Ruby menyediakan mark-and-sweep garbage collector untuk semua obyek
   Ruby. Tidak perlu me-maintain reference count pada library extension.
   Seperti yang Matz katakan, “Ini lebih baik untuk kesehatan Anda.”
-^
 
 * Menulis extension C di Ruby lebih mudah daripada di Perl ataupun di
   Python, dengan API yang elegan untuk memanggil Ruby dari C. Ini
   termasuk memanggil Ruby embedded di software, untuk digunakan sebagai
   bahasa scripting. Interface SWIG juga tersedia.
-^
 
 * Ruby bisa load library extension secara dinamis jika Sistem Operasi
   mengijinkan.
-^
 
 * Ruby menyediakan fitur OS threading yang independent. Maka, untuk
   semua platform dimana Ruby berjalan, Anda juga punya multithreading,
   terlepas dari apakah Sistem Operasi mendukung multithreading atau
   tidak, bahkan pada MS-DOS sekalipun!
-^
 
 * Ruby sangat portable: Ruby kebanyakan dikembangkan di GNU/Linux,
   tetapi juga berjalan di banyak tipe UNIX, Mac OS X, Windows

@@ -170,30 +170,25 @@ seguintes:
 
 * Capacidade de tratamento de excepções, tal como o Java ou Python, por
   forma a facilitar o tratamento de erros.
-^
 
 * Um verdadeiro mark-and-sweep garbage collector para todos os objectos
   Ruby. Não é necessário manter contadores de referência em bibliotecas
   de extensão (extension libraries). Tal como Matz diz, “Isto é melhor
   para a sua saúde.”
-^
 
 * Escrever extensões C em Ruby é mais fácil do que em Perl ou Python,
   com uma API refinada para chamar Ruby desde o código C. Isto inclui
   chamadas para embeber Ruby em software externo por forma a ser
   utilizado como uma linguagem interpretada dentro do software. Uma
   interface SWIG também se encontra disponível.
-^
 
 * O Ruby pode carregar bibliotecas de extensão (extension libraries)
   dinamicamente se um Sistema Operativo o permitir.
-^
 
 * O Ruby tem um sistema de threading independente do Sistema Operativo.
   Portanto, para todas as plataformas nas quais o Ruby corre, temos
   multithreading, independentemente de o Sistema Operativo o suportar ou
   não, até em MS-DOS temos multithreading!
-^
 
 * O Ruby é altamente portável: é desenvolvido principalmente em ambiente
   GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, Mac OS X,

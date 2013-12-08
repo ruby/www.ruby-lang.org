@@ -13,7 +13,6 @@ témoignages du « monde réel. »
 
 * Le [*NASA Langley Research Center*][1] utilise Ruby pour conduire des
   simulations. [Détails…][2]
-^
 
 * Un groupe de recherche de [Motorola][3] utilise Ruby pour écrire un
   simulateur, à la fois pour générer des scénarios et gérer les données
@@ -56,15 +55,12 @@ témoignages du « monde réel. »
 
 * [Basecamp][10], un projet de gestion d’application écrit par
   [37signals][11], est entièrement programmé en Ruby.
-^
 
 * [43 Things][12] vous permet de gérer et partager des *todo lists* en
   ligne, le tout étant écrit en Ruby.
-^
 
 * [A List Apart][13], un magazine en ligne destiné aux développeurs web
   depuis 1997, a réalisé une refonte totale en utilisant Ruby on Rails.
-^
 
 * [Blue Sequence][14] est un des composants du système d’applications
   critiques *sequence-in-time* du constructeur automobile Toyota. Il a

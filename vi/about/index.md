@@ -155,26 +155,21 @@ Ruby có rất nhiều chức năng khác, trong số đó bao gồm:
 
 * Ruby có chức năng xử lý biệt lệ (exception) giống như Java hay Python, giúp
 dễ dàng đối phó với lỗi.
-^
 
 * Ruby có một bộ thu gom rác kiểu đánh dấu-và-dọn dẹp (mark-and-sweep garbage collector)
 cho toàn bộ đối tượng Ruby. Không cần phải bảo trì các biến đếm liên quan (reference count)
 ở trong các thư viện mở rộng. Như Matz nói, "Cái này tốt cho sức khoẻ của bạn hơn"
-^
 
 * Viết mở rộng kiểu C (C extension) với Ruby dễ hơn Perl hay Python. Ruby có một
 thư viện API để gọi Ruby từ C. Cái này bao gồm các hàm gọi tích hợp Ruby vào
 phần mềm để sử dụng như là một ngôn ngữ scripting. Một giao diện SWIG cũng sẵn có
 để sử dụng.
-^
 
 * Ruby có thể đọc các thư viện mở rộng (extension library) kiểu động nếu OS cho phép.
-^
 
 * Ruby có threading độc lập với cả hệ điều hành. Thế nên, tất cả nền tảng khác
 mà Ruby chạy trên sẽ có multithreading bất kể hệ đấy có hỗ trợ hay không. Ngay
 cả MSDOS còn hỗ trợ!
-^
 
 * Ruby rất dễ port: nó được phát triển chủ yếu cho GNU/Linux, nhưng có làm việc
 với các hệ UNIX khác, như Mac OS X, Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, vân vân.

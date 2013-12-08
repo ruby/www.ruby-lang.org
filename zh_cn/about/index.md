@@ -124,21 +124,16 @@ end
 Ruby 还有其他丰富的特性：
 
 * Ruby 有类似于 Java 和 Python 的异常处理，使处理错误更方便。
-^
 
 * Ruby 拥有一个针对所有对象的标识-清扫(mark-and-sweep)式垃圾收集器(garbage collector)。使用者无需维护扩展库中的引用计数(reference counts)。正如
   Matz 所说：“这对您的健康有益。”
-^
 
 * 为 Ruby 写 C 的扩展比 Perl 和 Python 更容易。Ruby 有一个非常雅致的 API 从 C 语言调用 Ruby。这包括把
   Ruby 作为嵌入式脚本语言时，从其他软件里调用 Ruby。SWIG 界面也是可选的。
-^
 
 * Ruby 可以在操作系统允许的情况下动态调用库。
-^
 
 * Ruby 提供不依赖操作系统的线程。所以在所有 Ruby 支持的操作系统里都可以使用多线程处理，不管操作系统支不支持，比如 MS-DOS!
-^
 
 * Ruby 极为轻便：它主要是在 GNU/Linux 上开发的，但也支持很多类型的 UNIX，以及 Mac OS X, Windows
   95/98/Me/NT/2000/XP，DOS，BeOS，OS/2 等。

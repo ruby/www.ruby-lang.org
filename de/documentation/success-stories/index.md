@@ -48,12 +48,10 @@ Projekten, die Ruby nutzen.
 
 * [Basecamp][7] ist eine webbasierte Projektmanagement Software von
   [37signals][8] und wurde komplett in Ruby geschrieben.
-^
 
 * [43 Things][9] erlaubt Dir das Verwalten einer Liste mit Zielen, die
   Du mit der ganzen Welt teilen kannst. Das System wurde komplett mit
   Ruby entwickelt.
-^
 
 * [A List Apart][10] ist seit 1997 ein Magazin für Leute, die Websites
   erstellen. Die vor kurzem aktualisierte Site nutzt eine

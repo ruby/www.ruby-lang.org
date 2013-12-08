@@ -165,27 +165,22 @@ bahsedilmiştir:
 
 * Ruby Java ya da Python gibi istisna yakalama mekanizmalarına sahiptir,
   hatalarla başetmek kolaylaşır.
-^
 
 * Ruby tüm nesneleri için gerçek bir mark &amp; sweep çöp toplayıcısı
   sunar. Eklenti kütüphanelerinde referans sayaçlarına gerek yok,
   Matz’ın dediği gibi: “Bu sizin sağlığınız için iyidir”.
-^
 
 * C’den Ruby çağıran şık API’si sayesinde Ruby’de C eklentileri yazmak
   Perl ya da Python’dan daha kolaydır. Bu API aynı zamanda yazılımlara
   betik dili olarak Ruby’yi gömmek için gereken çağrıları da içerir.
   Ayrıca SWIG arayüzü de alternatif olarak sunulmaktadır.
-^
 
 * İşletim sistemi izin verdiği sürece harici dinamik kütüphaneler
   yükleyebilirsiniz.
-^
 
 * Ruby işletim sisteminden bağımsız iş parçacığı özelliği sunar.Yani
   işletim sisteminin desteklemesine bakmaksızın, MS-DOS üzerinde olsanız
   bile çoklu iş parçacıkları kullanabilirsiniz!
-^
 
 * Ruby yüksek taşınabilirliğe sahiptir. GNU/Linux üzerinde geliştirilmiş
   olsa dahi, UNIX’in bir çok çeşidi, Mac OS X, Windows

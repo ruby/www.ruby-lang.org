@@ -9,7 +9,6 @@ lang: zh_tw
 #### 模擬
 
 * [NASA Langley 研究中心][1] 使用 Ruby 來操作模擬。
-^
 
 * [Motorola][2] 的研究團隊使用 Ruby 來操作模擬器，用來產生情境(scenarios)與後續處理資料。
 
@@ -43,14 +42,11 @@ lang: zh_tw
 #### 網頁應用程式
 
 * [Basecamp][9] ，由 [37signals][10] 公司完全以 Ruby 所撰寫的網頁專案管理系統。
-^
 
 * [43 Things][11] 可讓你保存43個想要達成的目標清單並與世界分享。他也是完全以 Ruby 所撰寫而成。
-^
 
 * [A List Apart][12], 從 1997 年就開始發行的一個針對網站製作者的雜誌，最近改版使用 Ruby on Rails
   所客製化而成的程式。
-^
 
 * [Blue Sequence][13] ，Toyota 汽車 “sequence-in-time” 生產流程中的一個先進的關鍵性任務應用
   (mission-critical application)，最近被選入 BCS 資訊管理獎的決選名單。

@@ -11,7 +11,6 @@ you’ll find a small sample of real world usage of Ruby.
 #### Simulations
 
 * [NASA Langley Research Center][1] uses Ruby to conduct simulations.
-^
 
 * A research group in [Motorola][2] uses Ruby to script a simulator,
   both to generate scenarios and to post process the data.
@@ -54,16 +53,13 @@ you’ll find a small sample of real world usage of Ruby.
 
 * [Basecamp][9], a web-based project management application developed by
   [37signals][10], is programmed entirely in Ruby.
-^
 
 * [43 Things][11] allows you to keep a list of goals and share it with
   the world. It was developed entirely in Ruby.
-^
 
 * [A List Apart][12], a magazine for people who make websites that has
   been around since 1997, has recently been revamped and uses a custom
   application built with Ruby on Rails.
-^
 
 * [Blue Sequence][13], a sophisticated mission-critical application
   which forms part of Toyota Motor Manufacturing’s own

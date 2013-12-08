@@ -167,28 +167,23 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
 * Ruby obsługuje błędy poprzez wyjątki, zupełnie jak Java lub Python.
   Pozwala to na wykorzystanie dobrze znanego mechanizmu przez
   programistów tych języków.
-^
 
 * Ruby posiada prawdziwy garbage collector typu mark-and-sweep dla
   wszystkich obiektów żyjących w pamięci obiektowej. Nie ma potrzeby
   przetrzymywania informacji na temat liczby odniesień do obiektu. Jak
   mówi Matz, “Wpływa to korzystnie na twoje zdrowie.”
-^
 
 * Pisanie rozszerzeń do Rubiego jest prostsze niż w Perlu lub Pythonie i
   ma bardzo eleganckie API dostępne w języku C. Pozwala ono na
   wbudowanie interpretera Rubiego do aplikacji jako język skryptowy.
   Dostępny jest również interfejs SWIG.
-^
 
 * Jeśli system operacyjny na to pozwala, Ruby pozwala na dynamiczne
   ładowanie bibliotek.
-^
 
 * Ruby posiada wątki, które są niezależne od systemu operacyjnego. To
   znaczy, że są one dostępne na każdej platformie, niezależnie od tego,
   czy sama platforma wspiera wątki, można ich używać nawet w MS-DOS!
-^
 
 * Ruby jest bardzo przenośny: rozwijany głównie na platformie GNU/Linux,
   ale może być używany na wielu typach UNIXów, Mac OS X, Windows

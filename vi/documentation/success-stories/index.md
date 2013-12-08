@@ -12,7 +12,6 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 #### Giả lập
 
 * [NASA Langley Research Center][1] sử dụng Ruby để giả lập các nghiên cứu.
-^
 
 * Một nhóm nghiên cứu trong [Motorola][2] sử dụng Ruby để script một trình giả
   lập để tạo ra những giả lập và để xử lý thông tin sau đấy.
@@ -52,15 +51,12 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 
 * [Basecamp][9], là trình quản lý dự án trên nền web được phát triển bởi
   [37signals][10], hoàn toàn với ngôn ngữ Ruby.
-^
 
 * [43 Things][11] cho phép bạn lưu giữ một danh sách các mục tiêu và chia sẻ
   nó với cả thế giới. Nó được phát triển hoàn toàn với Ruby.
-^
 
 * [A List Apart][12], tạp chí cho ai thích tạo website, ra đời năm 1997, mới
   cải tiến site của họ bằng một ứng dụng riêng xây dựng với Ruby on Rails.
-^
 
 * [Blue Sequence][13], Một ứng dụng mission-critical rất tinh vi, và là
   một phần của công đoạn sản xuất “sequence-in-time” của Toyota Motor Manufacturing,

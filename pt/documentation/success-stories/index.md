@@ -13,7 +13,6 @@ diversos projectos.
 
 * [NASA Langley Research Center][1] utiliza Ruby para realizar
   simulações. [Saber mais…][2]
-^
 
 * Um grupo de pesquisa na [Motorola][3] usou Ruby escrever um simulador,
   tanto para gerar casos de cenário como para processar esses mesmos
@@ -55,17 +54,14 @@ diversos projectos.
 * [Basecamp][9], uma aplicação de gestão de projectos online
   desenvolvida pela [37signals][10] está programada inteiramente em
   Ruby.
-^
 
 * [43 Things][11] permite a qualquer pessoa criar e manter uma lista de
   objectivos e partilha-la com o mundo. Foi desenvolvido inteiramente em
   Ruby.
-^
 
 * [A List Apart][12], uma revista para pessoas interessadas na criação
   de websites que existe desde 1997, foi recentemente renovada e usa uma
   aplicação própria criada em Ruby on Rails.
-^
 
 * [Blue Sequence][13], uma sofisticada aplicação de importância crítica
   que faz parte do processo de producção “sequence-in-time” da Toyota

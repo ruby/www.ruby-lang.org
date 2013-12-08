@@ -169,29 +169,24 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
 
 * Ruby kennt Exceptions wie Java oder Python, um Fehlerbehandlung zu
   vereinfachen.
-^
 
 * Ruby hat einen echten Mark-and-Sweep-Garbage-Collector für alle
   Ruby-Objekte. Es ist nicht nötig, Referenzen in
   Erweiterungsbibliotheken zu zählen. Wie Matz sagt: “Das ist besser für
   die Gesundheit.”
-^
 
 * C-Erweiterungen für Ruby zu schreiben ist einfacher als in Perl oder
   Python, da es eine sehr elegante API zum Aufrufen von Ruby aus C
   besitzt. Das schließt auch Aufrufe ein, um Ruby als Skriptsprache in
   fremde Software zu integrieren. Ein SWIG-Interface ist ebenfalls
   verfügbar.
-^
 
 * Ruby kann Erweiterungen dynamisch laden, wenn es das Betriebssystem
   erlaubt.
-^
 
 * Ruby hat plattformunabhängige Threads. Damit steht unter allen Systemen,
   die Ruby unterstützen, auch Multithreading zur Verfügung, sogar unter
   MS-DOS!
-^
 
 * Ruby ist in hohem Maße portabel: Es wird vorrangig auf GNU/Linux
   entwickelt, arbeitet aber auf vielen UNIX-Varianten wie Mac OS X, auf

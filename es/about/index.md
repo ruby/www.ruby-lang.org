@@ -172,29 +172,24 @@ encuentran las siguientes:
 
 * manejo de excepciones, como Java y Python, para facilitar el manejo de
   errores.
-^
 
 * un verdadero mark-and-sweep garbage collector para todos los objetos
   de Ruby. No es necesario mantener contadores de referencias en
   bibliotecas externas. Como dice Matz, “Esto es mejor para tu salud”.
-^
 
 * escribir extenciones en C para Ruby es más fácil que hacer lo mismo
   para Perl o Python, con una API muy elegante para utilizar Ruby desde
   C. Esto incluye llamadas para embeber Ruby en otros programas, y así
   usarlo como lenguaje de scripting. También está disponible una
   interfaz SWIG.
-^
 
 * puede cargar bibliotecas de extensión dinámicamente si lo permite el
   sistema operativo.
-^
 
 * tiene manejo de hilos (threading) independiente del sistema operativo.
   De esta forma, tienes soporte multi-hilo en todas las plataformas en
   las que corre Ruby, sin importar si el sistema operativo lo soporta o
   no, ¡incluso en MS-DOS!
-^
 
 * Ruby es fácilmente portable: se desarrolla mayoritariamente en
   GNU/Linux, pero corre en varios tipos de UNIX, Mac OS X, Windows

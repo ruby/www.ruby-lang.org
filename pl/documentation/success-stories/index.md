@@ -13,7 +13,6 @@ Rubiego w rzeczywistości.
 
 * [Centrum Badań NASA][1] używa Rubiego do przeprowadzania symulacji.
   [Więcej…][2]
-^
 
 * Grupa badawcza w [Motoroli][3] używa Rubiego do budowy symulatora,
   zarówno do wygenerowania scenariuszy jak i do przetwarzania danych.
@@ -52,24 +51,20 @@ Rubiego w rzeczywistości.
 * [Basecamp][9], aplikacja wspomagająca zarządzanie projektem wydana
   przez [37signals][10], została zaprogramowana w całości w Rubim (Ruby
   on Rails)
-^
 
 * [43 Things][11] umożliwia przechowywanie listy celów, które
   chcielibyśmy osiągnąć i dzielenie się nimi ze światem. Aplikacja
   napisana w całości w Rubim.
-^
 
 * [A List Apart][12], magazyn dla projektantów stron internetowych,
   istniejący juz od 1997, ostatnio został odświeżony i oparty o
   aplikację napisaną w Ruby on Rails.
-^
 
 * [Blue Sequence][13], wyrafinowana aplikacja do misji krytycznych,
   która stanowi część procesu produkcyjnego silników Toyoty (Toyota
   Motor Manufacturing), została niedawno uznana za finalistę w kategorii
   najlepszych brytyjskich informacyjnych systemów zarządzania (British
   Computer (BCS) Information Management Awards).
-^
 
 * [Wyszukiwarka mieszkaniowa Hogo.pl][14] – wyszukiwarka kontekstowa
   ogłoszeń mieszkaniowych. Umożliwia przeszukiwanie wszystkich większych
@@ -80,7 +75,6 @@ Rubiego w rzeczywistości.
   całości w Ruby on Rails natomiast część odpowiedzialna za gromadzenie
   i klasyfikację danych napisana w całości w Rubim z wykorzystaniem
   popularnych bibliotek open-source.
-^
 
 * [Aplikacja do fakturowania Infakt.pl][15] umożliwia wystawianie faktur
   (drukowanie, wysyłanie), tworzenie bazy klientów, wysyłanie upomnień o
