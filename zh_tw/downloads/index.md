@@ -94,7 +94,7 @@ Ruby 原始碼可從世界各地的鏡像站獲得。請嘗試離您最近的鏡
 
 安裝 Ruby 最流行方便的工具是 **RVM** （“Ruby Version Manager” ）。安裝 Ruby 不僅變得非常簡單，同時讓你可以在系統上安裝多個版本的 Ruby、亦可安裝不同的 Ruby 實作（Ruby Implementation）。
 
-RVM 只可在 Mac OSX、Linux、或任何類 UNIX 的系統上使用。Windows 使用者請參考 [pik][5]，或考慮使用 RubyInstaller。
+RVM 只可在 Mac OS X、Linux、或任何類 UNIX 的系統上使用。Windows 使用者請參考 [pik][5]，或考慮使用 RubyInstaller。
 
 安裝 RVM：
 
@@ -144,13 +144,13 @@ $ sudo pacman -S ruby
 
 #### Ruby on Mac OS X
 
-Mac OSX Mavericks 系統內建 Ruby 2.0.0。OSX 的使用者可以使用 [Homebrew][12] （套件管理工具）來獲得更新版本的 Ruby：
+Mac OS X Mavericks 系統內建 Ruby 2.0.0。OS X 的使用者可以使用 [Homebrew][12] （套件管理工具）來獲得更新版本的 Ruby：
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-OSX 基於 Unix，手動編譯 Ruby 也非常簡單。但要安裝更新版本的 Ruby，可能使用 RVM 比較好。
+OS X 基於 Unix，手動編譯 Ruby 也非常簡單。但要安裝更新版本的 Ruby，可能使用 RVM 比較好。
 
 #### Ruby On Solaris and OpenIndiana
 
