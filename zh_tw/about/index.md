@@ -6,7 +6,7 @@ lang: zh_tw
 
 想知道 Ruby 為何如此受歡迎嗎？為什麼 Ruby 的支持者會說 Ruby 是個美麗的程式語言，既靈巧方便又實用呢？
 
-## Ruby 發明者的理想
+### Ruby 發明者的理想
 
 Ruby 是一個注重均衡的語言。Ruby 語言的發明者，[松本行弘 Yukihiro “Matz” Matsumoto][1]，混合了他喜歡的語言（如 Perl、Smalltalk、Eiffel、Ada、以及 Lisp）產生了一種嶄新的語言，同時具有函數式與指令式程式設計語言特性。
 
@@ -16,7 +16,7 @@ Matz 常說： “不斷嘗試讓 Ruby 更為自然，而不是簡單”，就�
 
 > Ruby 像人體一樣，外表看似簡單，卻有著複雜的內裡<sup>[1](#fn1)</sup>。
 
-## Ruby 的成長
+### Ruby 的成長
 
 自從在 1995 年公開發表以來，Ruby 在全球吸引了許多忠誠的支持者。2006 年，Ruby 被廣泛的接受。各大城市都有活躍的使用者社群，並舉辦了許許多多場場爆滿的研討會。
 
@@ -31,7 +31,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 
 同時，Ruby 是個[自由軟體]({{ site.license.url }})。不僅免費，同時可自由的使用、修改與散佈。
 
-## 萬物即物件
+### 萬物即物件
 
 最初，Matz 從其他語言中尋找理想的語法。他回憶起曾做過的研究，說：“我想要一個比 Perl 更強大、比 Python 更物件導向的的腳本語言<sup>[3](#fn3)</sup>”。
 
@@ -43,7 +43,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 
 許多的語言裡，數字與其他的原生資料型態（primitive types）都不是物件。 而 Ruby 受到了 Smalltalk 語言讓所有的資料型態都可賦予方法與產生實體變數的影響。更進而讓這規則適用於 Ruby 中所有物件。
 
-## Ruby 的靈活性
+### Ruby 的靈活性
 
 Ruby 是個相當靈活的語言，可以讓使用者自由的去改變語言的各個部分。 Ruby
 的本質部份也可以隨意地被移除或重新定義。現有的部份也可以繼續添加內容。Ruby 試著不去限制程式設計人員。
@@ -64,7 +64,7 @@ y = 5.plus 6
 
 Ruby 的運算元其實就是個方法（method）。你也可以重新定義運算元。
 
-## 區塊（Blocks）非常驚艷的功能
+### 區塊（Blocks）非常驚艷的功能
 
 Ruby 的區塊可說是強大靈活性的來源。 程式設計師可以為任何的方法加上閉包（closure），來描述這個方法該做什麼。此處的閉包稱為 *block* 同時這也是從指令式程式設計語言如 PHP 或 Visual Basic 轉換到 Ruby 的新手最喜歡的功能。
 
@@ -79,7 +79,7 @@ search_engines =
 
 在上面的程式碼裡，區塊是在 `do ... end` 之間。其中 `map` 方法給區塊提供一個字串陣列。Ruby 中還有許多其他的方法，提供了類似的方式，讓程式設計師可以撰寫自己的區塊來完成此方法該做的事。
 
-## Ruby 與 Mixin
+### Ruby 與 Mixin
 
 和其他許多的物件導向語言不同，Ruby 故意的只提供單繼承（single inheritance）。但 Ruby 提供模組(module) 的觀念(在 Objective-C 中稱為 Categories)。 Module 是許多方法的集合。
 
@@ -93,7 +93,7 @@ end
 
 一般來說，Ruby 使用者使用這種方式，會比使用複雜且有很多限制的多重繼承來得清楚。
 
-## Ruby 的外觀
+### Ruby 的外觀
 
 Ruby 常使用某些符號與英文關鍵字來輔助撰寫程式。Ruby 不需要事先宣告變數。使用簡單的命名規則來說明變數的生命範圍。
 
@@ -103,7 +103,7 @@ Ruby 常使用某些符號與英文關鍵字來輔助撰寫程式。Ruby 不需�
 
 這些符號讓程式設計師可以輕易的定義每個變數的角色，進而增加了程式的可讀性。另外 Ruby 也省略了累贅的 `self.` ，方便直接來存取每個實體成員。
 
-## 更上一層樓
+### 更上一層樓
 
 Ruby 還具有以下的特點：
 
@@ -119,7 +119,7 @@ Ruby 還具有以下的特點：
 
 * Ruby 具有高度的移植性：它大部份是在 GNU/Linux 上發展出來，但是可以執行於多種的作業系統如： UNIX、Mac OS X、Windows、DOS、BeOS、OS/2 等。
 
-### 參考資料
+#### 參考資料
 
 <sup>1</sup> Matz 於 [2000 年 5 月 12 日][2] Ruby-Talk 郵件論壇上的發言。
 {: #fn1}
@@ -132,6 +132,8 @@ Ruby 還具有以下的特點：
 
 <sup>4</sup> Matz 談 [Blocks and Closures in Ruby][5] （2003 年 12 月 22 日）。
 {: #fn4}
+
+
 
 [1]: http://www.rubyist.net/~matz/
 [2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773

@@ -15,7 +15,7 @@ lang: zh_tw
 
 讓我們看看怎麼尋找和安裝你需要的函式庫。
 
-## 尋找函式庫
+### 尋找函式庫
 
 函式庫（Gem）主要放在 [**RubyGems.org**][3] 網站上。可直接前往網站查找，或透過 `gem` 命令查找。
 
@@ -25,11 +25,11 @@ lang: zh_tw
 
 [**The Ruby Toolbox**][7] 使得尋找開源 Ruby 專案非常簡單。按照許多常見的開發任務分類，蒐集專案許多的相關資訊，像是版本發佈歷史、提交活躍度、函式庫相依的軟體、與其它類似專案的流行程度比較（在 GitHub 與 RubyGems.org 上的流行程度），讓你輕鬆找到想找到的函式庫。
 
-## 更多關於 RubyGems 的說明
+### 更多關於 RubyGems 的說明
 
 以下是 `gem` 命令的快速回顧。關於 `gem` 命令的所有使用方式，請查閱[更詳細的文件][8]。
 
-### 搜索可用的 Gem
+#### 搜索可用的 Gem
 
 `search` 命令可用來搜尋 Gem，根據傳入的關鍵字。比如輸入 `html` 會返回與 `html` 相關的 Gem（按字母排序）：
 
@@ -48,7 +48,7 @@ ydim_html (1.0.0)
 * `--remote`（縮寫 `-r`）選項，查詢 RubyGems.org 上的 Gem。
 * `--local` （縮寫 `-l`）選項，查詢本機安裝的 Gem。
 
-### 安裝 Gem
+#### 安裝 Gem
 
 找到 Gem，就可以安裝。安裝最流行的 Rails 看看：
 
@@ -64,7 +64,7 @@ $ gem install rails --version 3.2.15
 
 RubyGems 提倡語義化版本，請參考 [Semantic Versioning 2.0.0][9]。
 
-### 列出所有的 Gem
+#### 列出所有的 Gem
 
 列出本機安裝的所有 Gem：
 
@@ -78,7 +78,7 @@ $ gem list
 $ gem list -r
 {% endhighlight %}
 
-### 尋求幫助
+#### 尋求幫助
 
 輸入 `gem help` 可查看 `gem` 命令的說明文件terminal:
 
@@ -88,9 +88,11 @@ $ gem help
 
 `gem help commands` 可查看特定子命令的說明，如 `gem help install`。
 
-### 打造自己的 Gem
+#### 打造自己的 Gem
 
 RubyGems.org 上有關於[多篇教學文件][10]，推薦使用 [Bundler][11] 來將函式庫打包成 Gem。Bundler 是管理 application 軟體相依的工具，同時可搭配 RubyGems 一起使用。
+
+
 
 [1]: https://rubygems.org/
 [2]: https://rubygems.org/pages/download/

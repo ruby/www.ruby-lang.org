@@ -8,7 +8,7 @@ lang: zh_tw
 {{ site.downloads.stable.version }}。另外，請先閱讀 [Ruby 版權說明]({{ site.license.url }})。
 {: .summary}
 
-## 三種方式可安裝 Ruby
+### 三種方式可安裝 Ruby
 
 多種方式可獲得 Ruby，每個人基於不同的理由，偏好不同的方式。下面會詳細說明每種方式，以下是各種方式的綜覽：
 
