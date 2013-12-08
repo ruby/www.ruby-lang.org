@@ -191,7 +191,7 @@ MRI 與某些實作遵循 [RubySpec][28]，Ruby 程式語言的完整規格文�
 [9]: http://rubyinstaller.org/downloads/
 [10]: http://railsinstaller.org/
 [11]: http://trac.macosforge.org/projects/ruby/wiki
-[12]: http://brew.sh/index_zh-tw.html
+[12]: http://brew.sh/
 [13]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
 [14]: http://hivelogic.com/articles/ruby-rails-leopard
 [15]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
@@ -243,5 +243,5 @@ MRI 與某些實作遵循 [RubySpec][28]，Ruby 程式語言的完整規格文�
 [64]: http://cache.ruby-lang.org/pub/ruby/
 
 [rbenv]: https://github.com/sstephenson/rbenv
-[ruby-install]:https://github.com/postmodern/ruby-install
-[chruby]:https://github.com/postmodern/chruby
+[ruby-install]: https://github.com/postmodern/ruby-install
+[chruby]: https://github.com/postmodern/chruby

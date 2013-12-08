@@ -229,7 +229,7 @@ Spezifikation für die Programmiersprache Ruby“.
 [9]: http://rubyinstaller.org/downloads
 [10]: http://railsinstaller.org
 [11]: http://trac.macosforge.org/projects/ruby/wiki
-[12]: http://mxcl.github.com/homebrew
+[12]: http://brew.sh/
 [13]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
 [14]: http://hivelogic.com/articles/ruby-rails-leopard
 [15]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
