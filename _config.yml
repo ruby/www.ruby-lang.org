@@ -1852,6 +1852,9 @@ locales:
       unsubscribe: 退訂
       submit: 送出表格
 
+  languages_heading:
+    en: "Content available in:"
+
   credits:
     bg: |
       Този сайт е генериран с Ruby и излползва <a href="http://www.jekyllrb.com/">Jekyll</a>.

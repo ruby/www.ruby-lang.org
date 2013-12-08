@@ -1,5 +1,9 @@
 <p>
-Content available in
+{% if site.locales.languages_heading[page.lang] %}
+  {{ site.locales.languages_heading[page.lang] }}
+{% else %}
+  {{ site.locales.languages_heading['en'] }}
+{% endif %}
 <a href="/bg/">Bulgarian</a>,
 <a href="/de/">German</a>,
 <a href="/en/">English</a>,
@@ -15,5 +19,5 @@ Content available in
 <a href="/tr/">Turkish</a>,
 <a href="/vi/">Vietnamese</a>,
 <a href="/zh_cn/">Simplified Chinese</a>,
-and <a href="/zh_tw/">Traditional Chinese</a>.
+<a href="/zh_tw/">Traditional Chinese</a>.
 </p>
