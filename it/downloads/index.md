@@ -4,7 +4,7 @@ title: "Scarica Ruby"
 lang: it
 ---
 
-Tramite questa pagine è possibile scaricare le distribuzioni di Ruby più
+Tramite questa pagina è possibile scaricare le distribuzioni di Ruby più
 recenti nel tuo formato preferito. La versione stabile corrente è la
 {{ site.downloads.stable.version }}. Assicurati di aver letto
 la [Licenza di Ruby]({{ site.license.url }}).
@@ -14,22 +14,22 @@ la [Licenza di Ruby]({{ site.license.url }}).
 
 Puoi ottenere una copia di Ruby in svariati modi, e persone diverse ne
 preferiscono uno piuttosto che un altro per diverse ragioni.
-Ognuno di questi modi è descritto in una delle sezioni sottostanti,
-comunque ecco un breve riassunto:
+Ognuno di questi modi è descritto nelle sezioni sottostanti.
+Eccone un breve riassunto:
 
 * La **compilazione dei sorgenti** è lo standard attraverso cui il software è
   stato reso disponibile per molti, molti anni. Questo è il metodo più
   familiare alla maggior parte degli sviluppatori.
 * Ci sono alcuni **strumenti di terze parti** per installare Ruby. Questi
-  strumenti sono spesso i più semplici sia per i neofiti sia per gli utenti
+  strumenti sono spesso i più usati sia dai neofiti sia dagli utenti più
   esperti.
-* Infine Ruby è installabile attraverso alcuni **sistemi di gestione dei
-  pacchetti**, metodo familiare a chi utilizza un sistema operativo per tutto e
-  desidera rispettarne gli standard.
+* Infine, se preferisci usare gli standard del tuo sistema operativo,
+  Ruby è installabile tramite i più comuni **sistemi di gestione dei
+  pacchetti**.
 
-Inoltre, se vuoi utilizzare molteplici versioni di Ruby sulla stessa
-macchina, dai un’occhiata alla sezione **strumenti di terze parti** e
-usa RVM. È di gran lunga il modo migliore per farlo, a meno che tu non
+Inoltre, se vuoi utilizzare più versioni di Ruby sulla stessa macchina,
+puoi provare RVM. Lo trovi nella sezione **strumenti di terze parti**.
+Usare RVM è di gran lunga il modo migliore per farlo, a meno che tu non
 sappia esattamente cosa stai facendo.
 
 ### Compilare Ruby dal Codice Sorgente
@@ -59,8 +59,8 @@ nella pagina [Ruby Core](/it/community/ruby-core/).
 
 ### Siti mirror
 
-Il codice sorgente di Ruby è disponibile da un elenco di siti mirror in
-giro per il mondo. Per favore utilizza il sito mirror più vicino a te.
+Il codice sorgente di Ruby è disponibile tramite alcuni siti mirror in
+giro per il mondo. Cerca di utilizzare il sito mirror più vicino a te.
 
 #### Siti mirror via HTTP
 
@@ -112,7 +112,7 @@ giro per il mondo. Per favore utilizza il sito mirror più vicino a te.
 ### Strumenti di Terze Parti
 
 Molti rubisti utilizzano strumenti di terze parti per installare
-Ruby. Tali strumenti hanno diversi vantaggi ma non sono ufficialmente
+Ruby. Questi strumenti hanno diversi vantaggi ma non sono ufficialmente
 supportati. Tuttavia, le rispettive comunità sono molto disponibili.
 
 #### RVM
@@ -171,7 +171,7 @@ utilizzare il nome del pacchetto giusto oppure utilizza RVM.
 ### Ruby su Linux
 
 Debian GNU/Linux e Ubuntu usano il sistema di gestione dei pacchetti apt.
-Puoi usarlo in questo modo
+Puoi usarlo in questo modo:
 
 {% highlight sh %}
 $ sudo apt-get install ruby1.9.1
@@ -181,8 +181,8 @@ Questo comando installerà Ruby 1.9.2 o successive. Il nome del pacchetto
 deriva dal fatto che contiene una libreria compatibile con
 la versione 1.9.1.
 
-Se installi il pacchetto ‘ruby’ potresti avere la vecchia versione 1.8,
-in base alla distribuzione usata.
+Su alcune distribuzioni, se installi semplicemente il pacchetto ‘ruby’,
+potresti avere la vecchia versione 1.8.
 
 Arch Linux usa un sistema di gestione dei pacchetti chiamato pacman. Per
 installare Ruby, devi solamente lanciare questo comando:
