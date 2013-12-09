@@ -14,10 +14,10 @@ Molte grazie al team di traduttori:
  * Alexey Gaziev (gazay)
  * Vlad Bokov (razum2um)
 
-Siamo molto felici di poter già annunciare la seconda traduzione dal nostro 
-cambiamento al workflow basato su Github che ha avuto inizio quest'anno.
+Siamo molto felici di poter già annunciare la seconda traduzione dal nostro
+cambiamento al workflow basato su GitHub che ha avuto inizio quest'anno.
 
-Se vuoi contribuire alla comunità Ruby puoi farlo 
+Se vuoi contribuire alla comunità Ruby puoi farlo
 aiutandoci a mantenere il sito aggiornato.
 Visita [ruby-lang.org on GitHub][2] e inizia subito
 ad aprire issues o inviare pull requests!
