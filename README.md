@@ -80,7 +80,7 @@ cd www.ruby-lang.org
 
 ```
 heroku login
-heroku create --buildpack http://github.com/ayumin/heroku-buildpack-ruby-jekyll.git
+heroku create --buildpack http://github.com/ruby/heroku-buildpack-ruby-jekyll.git
 ```
 
 * Push your site
