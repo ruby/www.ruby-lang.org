@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "The RubyConf Taiwan 2014 Call For Proposals is Now Open"
+title: "RubyConf Taiwan 2014 の発表者募集が始まりました"
 author: "Juanito Fatas"
 translator: "hsbt"
 date: 2013-12-09 13:40:00 UTC
