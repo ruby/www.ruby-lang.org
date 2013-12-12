@@ -19,7 +19,7 @@ cambiamento al workflow basato su GitHub che ha avuto inizio quest'anno.
 
 Se vuoi contribuire alla comunità Ruby puoi farlo
 aiutandoci a mantenere il sito aggiornato.
-Visita [ruby-lang.org on GitHub][2] e inizia subito
+Visita [ruby-lang.org su GitHub][2] e inizia subito
 ad aprire issues o inviare pull requests!
 
 
