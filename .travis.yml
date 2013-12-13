@@ -1,3 +1,4 @@
+language: ruby
 rvm: 2.0.0
 cache: bundler
 deploy:
@@ -9,3 +10,4 @@ deploy:
   on:
     rvm: 2.0.0
     repo: ruby/www.ruby-lang.org
+    branch: master
