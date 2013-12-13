@@ -14,12 +14,12 @@ Season's greetings everyone!
 
 You can watch the recording from Thursday's meeting on
 [ustream](http://www.ustream.tv/recorded/41393753), thanks to
-[@mrkn](http://twitter.com/mrkn) for the recording!
+[@mrkn](https://twitter.com/mrkn) for the recording!
 
 Although we didn't have a video recording from the meeting on Friday, we
 recorded our skype conference and is available on
 [soundcloud](https://soundcloud.com/zzak-2/ruby-core-developer-meeting). Thanks
-to [@sora_h](http://twitter.com/sora_h) for the recording and moderating skype!
+to [@sora_h](https://twitter.com/sora_h) for the recording and moderating skype!
 
 Below I have summarized the meetings for each day and organized them into
 agenda items. Each agenda item should have an associated ticket on our [bug
@@ -37,14 +37,14 @@ future of Ruby. Here's the summary by topic:
   * We will see RC1 this week (2013-12-8 - 2013-12-14)
   * RC2 is only necessary should a major issue be found on RC1
   * A new branch will be created, and code freeze will be activated
-  * All bug fixes must be approved by the release manager ([@nalsh](http://twitter.com/nalsh))
+  * All bug fixes must be approved by the release manager ([@nalsh](https://twitter.com/nalsh))
   * 2.1.0 will be released on christmas 2013 (2013-12-25)
 
 ### 2.1.0 Maintainer
 [misc. #9215](http://bugs.ruby-lang.org/issues/9215)
 
   * Undecided
-  * [@nalsh](http://twitter.com/nalsh) will maintain 2.1.0 for 2 months after release
+  * [@nalsh](https://twitter.com/nalsh) will maintain 2.1.0 for 2 months after release
 
 ### Semantic Versioning
 [misc. #8835](http://bugs.ruby-lang.org/issues/8835)
@@ -56,7 +56,7 @@ Translations of this discussion are available here:
 
 To summarize:
 
-  * We accept proposal of [@hsbt](http://twitter.com/hsbt)
+  * We accept proposal of [@hsbt](https://twitter.com/hsbt)
   * The following proposal will begin with 2.1.0
 
 #### Version Schema `ruby-{MAJOR}.{MINOR}.{TEENY}`
@@ -108,7 +108,7 @@ use `{MAJOR}.{MINOR}.{TEENY}`.
 
 1.8.7 and 1.9.2 will be supported for security fixes until June 2014.
 
-  * [@hone02](http://twitter.com/hone02) and [@_zzak](http://twitter.com/_zzak) will assume maintainership
+  * [@hone02](https://twitter.com/hone02) and [@_zzak](https://twitter.com/_zzak) will assume maintainership
   * After the 6 month maintenance period, we can add more committers to extend another 6 months.
 
 In the past we have supported vendors who wish to maintain legacy versions. In
@@ -129,7 +129,7 @@ for that day in the next major section.
 
   * 1.9.3 maintenance is commissioned by the Ruby Association
   * It will receive security fixes until March 2014
-  * Additional 3 month security maintenance period may be supported by [@unak](http://twitter.com/unak)
+  * Additional 3 month security maintenance period may be supported by [@unak](https://twitter.com/unak)
 
 ### Maintenance Policy for Future Versions of Ruby
 [misc. #9215](http://bugs.ruby-lang.org/issues/9215)
@@ -148,7 +148,7 @@ version, although an absolute schedule and maintenance plan is difficult.
 
 The [following pdf](/images/2013-12-05-ruby_maintenance_scheme.pdf) describes
 the current maintenance plan for all versions. Thank you
-[@mrkn](http://twitter.com/mrkn) for creating this document!
+[@mrkn](https://twitter.com/mrkn) for creating this document!
 
 We will offer a conclusive policy document for all versions during the announce
 of the 2.1.0 release.
@@ -174,7 +174,7 @@ replace Matz.. (we should fire Matz!)
 
 Asking to declare an expected maintenace period during appointment was rejected, see below:
 
-[@nagachika](http://twitter.com/nagachika), current maintainer of `2.0.0` made
+[@nagachika](https://twitter.com/nagachika), current maintainer of `2.0.0` made
 the following comment:
 
   > I never publish maintenance period for 2.0.0. I thought I can maintain it
@@ -183,7 +183,7 @@ the following comment:
     Now I feel a little hard to keep current pace of activity for maintenance
     for 2.0.0.
 
-It was suggested that [@unak](http://twitter.com/unak) may begin maintenance of
+It was suggested that [@unak](https://twitter.com/unak) may begin maintenance of
 2.0.0 in March 2014.
 
 ### GC Merits and Documentation
@@ -222,10 +222,10 @@ After watching the video I wrote a [rough
 summary](https://gist.github.com/zzak/7821769), since most of the discussion
 was in English. The following other events took place during the meeting:
 
-  * [@a_matsuda](http://twitter.com/a_matsuda) commits typo patches, he is the typo monster!
+  * [@a_matsuda](https://twitter.com/a_matsuda) commits typo patches, he is the typo monster!
   * [Martin Duerst commits too!](https://github.com/ruby/ruby/commit/737c7d8)
-  * [@hone02](http://twitter.com/hone02) joined the skype call to discuss his feedback on maintainer appointment and discharge
-  * [@a_matsuda](http://twitter.com/a_matsuda) will propose gemifying the stdlib at the next meeting
+  * [@hone02](https://twitter.com/hone02) joined the skype call to discuss his feedback on maintainer appointment and discharge
+  * [@a_matsuda](https://twitter.com/a_matsuda) will propose gemifying the stdlib at the next meeting
 
 ## 2013-12-06
 
@@ -272,7 +272,7 @@ backport branches. Any change in this policy should be documented.
 As discussed, we will commit security patches for 1.8.7 and 1.9.2 until June
 2014, however one major decision change was made to this policy:
 
-  * [@hsbt](http://twitter.com/hsbt) and [@shyouhei](http://twitter.com/shyouhei) have rejected backport releases
+  * [@hsbt](https://twitter.com/hsbt) and [@shyouhei](https://twitter.com/shyouhei) have rejected backport releases
 
 Reason being, we don't want any new tickets, as an official release will result
 in continue responsibility of ruby-core to follow up on maintenance. Our team
@@ -324,7 +324,7 @@ Our goal is to avoid a sudden death.
 
 #### On commercial support
 
-[@ayumin](http://twitter.com/ayumin) offered the following statement:
+[@ayumin](https://twitter.com/ayumin) offered the following statement:
 
   > Ruby-core doesnt need to maintain old branches, the important point is
     announcing when we decide to give up on branches.
@@ -348,9 +348,9 @@ That about wraps up the summary of both meetings, thank you to everyone who coul
 Thanks for everyone who helped make this meeting possible, especially:
 
   * Cookpad for hosting both meetings on short notice
-  * [@sora_h](http://twitter.com/sora_h) for moderating irc, skype, and creating the audio recordings
-  * [@mrkn](http://twitter.com/mrkn) for the video recording on Thursday
-  * [@lchin](http://twitter.com/lchin) for translation support on Friday
+  * [@sora_h](https://twitter.com/sora_h) for moderating irc, skype, and creating the audio recordings
+  * [@mrkn](https://twitter.com/mrkn) for the video recording on Thursday
+  * [@lchin](https://twitter.com/lchin) for translation support on Friday
   * Everyone who attended and helped discuss the future of Ruby
 
 ありがとうございます！！
