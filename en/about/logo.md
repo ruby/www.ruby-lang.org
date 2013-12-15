@@ -12,7 +12,9 @@ It is licensed under the terms of the [Creative Commons Attribution-ShareAlike 2
 
 ## Download
 
-Ruby Logo Kit is available here: <http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
+Ruby Logo Kit is available here:
+
+<http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
 
 It contains the Ruby Logo in several formats (PNG, PDF, SVG, AI, etc.)
 
