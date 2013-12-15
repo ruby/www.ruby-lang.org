@@ -4,7 +4,7 @@ title: "Ruby Logo"
 lang: en
 ---
 
-![The Ruby Logo](/images/header-ruby-logo@2x.png)
+![The Ruby Logo](/images/header-ruby-logo.png)
 
 The Ruby Logo is Copyright &copy; 2006, Yukihiro Matsumoto.
 
