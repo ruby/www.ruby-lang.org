@@ -16,6 +16,6 @@ Ruby Logo Kit is available here:
 
 <http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
 
-It contains the Ruby Logo in several formats (PNG, PDF, SVG, AI, etc.)
+It contains the Ruby Logo in several formats (PNG, JPG, PDF, AI, SWF, XAR.)
 
 [1]: http://creativecommons.org/licenses/by-sa/2.5/
