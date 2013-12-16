@@ -9,7 +9,6 @@ use Rack::Rewrite do
   r302 %r{^/ja/install\.cgi$}, "/ja/downloads"
 
   r302 %r{^/cgi-bin/cvsweb\.cgi/?$}, "http://svn.ruby-lang.org/"
-  r302 %r{^/admin$}, "https://github.com/ruby/www.ruby-lang.org"
 
   r302 %r{^/ja/man/archive/ruby-refm-1.8.6-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip"
   r302 %r{^/ja/man/archive/ruby-refm-1.9.0-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip"
