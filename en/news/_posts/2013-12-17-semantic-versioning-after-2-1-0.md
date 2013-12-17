@@ -59,7 +59,7 @@ To read up more on this proposal please see the following links:
 * [Accepted proposal in English](https://gist.github.com/sorah/7803201)
 * [Accepted proposal in Japanese](https://gist.github.com/hsbt/7719305)
 
-### Thank you!
+## Thank you!
 
 I'd like to personally thank everyone who contributed to this discussion. Each
 step we take is closer to a more stable and effective Ruby.
