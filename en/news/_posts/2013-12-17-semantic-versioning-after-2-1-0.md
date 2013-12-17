@@ -25,7 +25,7 @@ Hiroshi Shibata ([@hsbt](https://twitter.com/hsbt)).
 * `MINOR`: increased every christmas, may be API incompatible
 * `TEENY`: security or bug fix which maintains API compatibility
   * May be increased more than 10 (such as `2.1.11`), and will be released every 2-3 months.
-* `PATCH`: commits since last minor release, will remain at p0
+* `PATCH`: number of commits since last `MINOR` release (will be reset at 0 when releasing `MINOR`)
 
 ### Branching Schema
 
