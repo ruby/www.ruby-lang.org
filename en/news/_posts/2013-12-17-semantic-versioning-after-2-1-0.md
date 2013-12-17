@@ -51,7 +51,7 @@ ABI will comply with the following scheme: `{MAJOR}.{MINOR}.0`
 We will give our best effort to keep ABI compatibility within the same `MINOR`
 level releases, so `TINY` will be fixed at 0.
 
-### References
+## References
 
 To read up more on this proposal please see the following links:
 
