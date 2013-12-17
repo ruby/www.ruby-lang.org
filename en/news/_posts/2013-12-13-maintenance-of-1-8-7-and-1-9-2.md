@@ -13,7 +13,7 @@ until June 2014.
 * [@hone02](https://twitter.com/hone02) and [@_zzak](https://twitter.com/_zzak) will assume maintainership
 * After the 6 month maintenance period, we can add more committers to extend another 6 months.
 
-This maintainance extension is made possible by [Heroku](http://heroku.com/),
+This maintenance extension is made possible by [Heroku](http://heroku.com/),
 see their blog post [A Patch in Time: Securing
 Ruby](https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby)
 for more information.
@@ -41,13 +41,13 @@ We will not be releasing a patched version of 1.8.7 or 1.9.2 to ruby-lang.org.
 However, you are free to repackage binaries from source.
 
 Reason being, we don't want any new tickets, as an official release will result
-in continue responsibility of ruby-core to follow up on maintenance. Our team
+in continued responsibility of ruby-core to follow up on maintenance. Our team
 resources are already low, and we want to encourage upgrades, not support
 outdated versions.
 
 ### Why resurrect 1.8.7?
 
-You may remember an annoucement approx. 6 months ago that [sunset
+You may remember an annoucement approximately 6 months ago that [sunset
 1.8.7](https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/).
 
 While ruby-core will no longer resume maintenance of 1.8.7 or 1.9.2, Terence
@@ -60,7 +60,7 @@ released `1.8.6-p369`.
 
 ### Words of encouragement
 
-We would like to take this chance to strongly encourage you upgrade to a
+We would like to take this chance to strongly encourage you to upgrade to a
 supported version of Ruby as soon as possible. Many ruby-core members have put
 countless hours into improving the performance and features of Ruby in 2.0+ and
 we wish you would take advantage of it.
