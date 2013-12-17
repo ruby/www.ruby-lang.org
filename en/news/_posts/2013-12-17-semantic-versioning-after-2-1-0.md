@@ -33,8 +33,9 @@ We will maintain the following branches:
 
 * trunk
 * `ruby_{MAJOR}_{MINOR}`
-* `ruby_{MAJOR}_{MINOR}` across `TEENY` releases
-* tags will be used for each release
+
+The `ruby_{MAJOR}_{MINOR}` branch will be maintained across `TEENY` releases.
+We will use tags for each release.
 
 ### API Compatibility
 
