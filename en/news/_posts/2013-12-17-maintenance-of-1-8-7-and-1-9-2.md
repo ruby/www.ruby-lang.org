@@ -13,24 +13,20 @@ until June 2014.
 * Terence Lee([@hone02](https://twitter.com/hone02)) and Zachary Scott([@_zzak](https://twitter.com/_zzak)) will assume maintainership.
 * After the 6 month maintenance period, we can add more committers to extend another 6 months.
 
-This maintenance extension is made possible by [Heroku](http://heroku.com/),
-see their blog post [A Patch in Time: Securing
-Ruby](https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby)
+This maintenance extension is made possible by [Heroku][heroku],
+see their blog post [A Patch in Time: Securing Ruby][securing-ruby]
 for more information.
 
 ### Reporting issues
 
 During this extended maintenance period we will _only_ apply security patches
-to the source code repository for
-[1.8.7](http://bugs.ruby-lang.org/projects/ruby-187/repository) and
-[1.9.2](http://bugs.ruby-lang.org/projects/ruby-192/repository).
+to the source code repository for [1.8.7][source-187] and [1.9.2][source-192].
 
 We take security very seriously, if you find a vulnerability please report it
 to security@ruby-lang.org immediately. This mailing list is private and
 reported problems will be published after a fix is released.
 
-Please see [ruby-lang.org/en/security](https://www.ruby-lang.org/en/security/)
-for more information.
+Please see [ruby-lang.org/en/security][security] for more information.
 
 ### On Release Management
 
@@ -47,8 +43,8 @@ outdated versions.
 
 ### Why resurrect 1.8.7?
 
-You may remember an announcement approximately 6 months ago that [sunset
-1.8.7](https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/).
+You may remember an announcement approximately 6 months ago that
+[sunset 1.8.7][sunset-187].
 
 While ruby-core will no longer resume maintenance of 1.8.7 or 1.9.2, Terence
 and Zachary will support these versions for security maintenance as part of a
@@ -66,3 +62,11 @@ countless hours into improving the performance and features of Ruby in 2.0+ and
 we wish you would take advantage of it.
 
 Thank you for your continued support and lets keep making Ruby better!
+
+
+[heroku]:        http://heroku.com/
+[securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
+[source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
+[source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
+[security]:      https://www.ruby-lang.org/en/security/
+[sunset-187]:    https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/
