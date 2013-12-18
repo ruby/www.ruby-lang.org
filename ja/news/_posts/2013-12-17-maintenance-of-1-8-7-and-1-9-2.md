@@ -9,25 +9,24 @@ lang: ja
 
 2014年6月まで 1.8.7 と 1.9.2 に対するセキュリティパッチのサポートが行なわれることになりました。
 
-* Terence Lee ([@hone02](https://twitter.com/hone02)) と Zachary Scott ([@_zzak](https://twitter.com/_zzak)) メンテナとなります。
+* Terence Lee ([@hone02](https://twitter.com/hone02)) と Zachary Scott ([@_zzak](https://twitter.com/_zzak)) がメンテナとなります。
 * 6ヶ月のメンテナンス期間のあと、さらに6ヶ月の延長のためにコミッタを割り当てる可能性があります。
 
-このメンテナンスの延長が実現したのは [Heroku](http://heroku.com/) によるものです。
+このメンテナンスの延長が実現したのは [Heroku][heroku] によるものです。
 詳細については次のブログ記事を参照ください。
-[A Patch in Time: Securing Ruby](https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby) (英語)
+[A Patch in Time: Securing Ruby][securing-ruby] (英語)
 
 
 ### 問題報告の方法
 
-延長されたメンテナンス期間は、[1.8.7](http://bugs.ruby-lang.org/projects/ruby-187/repository) と
-[1.9.2](http://bugs.ruby-lang.org/projects/ruby-192/repository) のソースコードレポジトリに対し、
+延長されたメンテナンス期間は、[1.8.7][source-187] と [1.9.2][source-192] のソースコードレポジトリに対し、
 我々はセキュリティパッチ _のみ_ を適用します。
 
 我々はセキュリティについて非常に重要な問題であると考えています。
 もしあなたが脆弱性を発見したら、ただちに security@ruby-lang.org に報告してください。
 このメーリングリストは非公開であり、報告された問題は修正がリリースされた後に公開されます。
 
-詳細については [ruby-lang.org/ja/security](https://www.ruby-lang.org/ja/security/) をご覧ください。
+詳細については [ruby-lang.org/ja/security][security] をご覧ください。
 
 ### リリースマネージメントについて
 
@@ -44,10 +43,10 @@ lang: ja
 
 ### 何故 1.8.7 を復活させたのか？
 
-6ヶ月ほど前の [1.8.7 のサポート終了](https://www.ruby-lang.org/ja/news/2013/06/30/we-retire-1-8-7/)についてのお知らせを覚えている方もいるでしょう。
+6ヶ月ほど前の [1.8.7 のサポート終了][sunset-187] についてのお知らせを覚えている方もいるでしょう。
 
 ruby-core チームによる 1.8.7 と 1.9.2 のメンテナンスをこれ以上は停止します。
-しかし、企業による支援により、Terence と私 (zakk) はそれらのバージョンのセキュリティマネージメントをサポートすることにしました。
+しかし、企業による支援により、Terence と Zachary はそれらのバージョンのセキュリティマネージメントをサポートすることにしました。
 
 過去にも、レガシーなバージョンのメンテナンスを自ら行ないたいと望むベンダーのサポートをわれわれは行なっていました。
 2009年に Ruby 1.8.6 のメンテナンスが Engine Yard に移管され、1.8.6-p369 が彼らによってリリースされました。
@@ -61,3 +60,11 @@ ruby-core チームによる 1.8.7 と 1.9.2 のメンテナンスをこれ以�
 
 みなさんの絶え間ない支援に感謝します。
 これからも Ruby をより良いものにしていきましょう！
+
+
+[heroku]:        http://heroku.com/
+[securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
+[source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
+[source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
+[security]:      https://www.ruby-lang.org/ja/security/
+[sunset-187]:    https://www.ruby-lang.org/ja/news/2013/06/30/we-retire-1-8-7/
