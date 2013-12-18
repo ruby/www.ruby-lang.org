@@ -10,7 +10,7 @@ lang: en
 Effective immediately, 1.8.7 and 1.9.2 will be supported for security patches
 until June 2014.
 
-* [@hone02](https://twitter.com/hone02) and [@_zzak](https://twitter.com/_zzak) will assume maintainership
+* [@hone02](https://twitter.com/hone02) and [@_zzak](https://twitter.com/_zzak) will assume maintainership.
 * After the 6 month maintenance period, we can add more committers to extend another 6 months.
 
 This maintenance extension is made possible by [Heroku](http://heroku.com/),
