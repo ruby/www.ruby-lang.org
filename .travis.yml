@@ -1,5 +1,6 @@
-install: true
-script: true
+language: ruby
+rvm: 2.0.0
+cache: bundler
 deploy:
   provider: heroku
   buildpack: https://github.com/ruby/heroku-buildpack-ruby-jekyll.git
