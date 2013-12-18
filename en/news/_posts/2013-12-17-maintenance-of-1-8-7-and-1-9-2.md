@@ -47,7 +47,7 @@ outdated versions.
 
 ### Why resurrect 1.8.7?
 
-You may remember an annoucement approximately 6 months ago that [sunset
+You may remember an announcement approximately 6 months ago that [sunset
 1.8.7](https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/).
 
 While ruby-core will no longer resume maintenance of 1.8.7 or 1.9.2, Terence
