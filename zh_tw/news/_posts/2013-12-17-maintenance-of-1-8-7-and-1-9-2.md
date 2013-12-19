@@ -20,7 +20,7 @@ Ruby 1.8.7 與 1.9.2 將會持續提供安全性補丁直至 2014 年六月，�
 
 我們非常重視安全性問題，如果您找到安全風險，請即刻至 security@ruby-lang.org 回報。這是非公開的郵件列表，您回報的問題會在問題修正後公布。
 
-請參考 [ruby-lang.org/en/security][security-en] 了解更多相關資訊。
+請參考 [ruby-lang.org/zh_tw/security][security-zhtw] 了解更多相關資訊。
 
 ### 關於發佈管理
 
@@ -32,7 +32,7 @@ Ruby 1.8.7 與 1.9.2 將會持續提供安全性補丁直至 2014 年六月，�
 
 ### 為何復辟 1.8.7？
 
-您可能依稀記得約六個月前，[1.8.7 已日薄西山][sunset-187-en]的消息。
+您可能依稀記得約六個月前，[1.8.7 已日薄西山][sunset-187-zhtw]的消息。
 
 由於 Ruby 核心成員不再維護 1.8.7 與 1.9.2 了，Terence 與 Zachary 會持續提供這倆版本的安全性更新，作為企業贊助 Ruby 的一部分。
 
@@ -48,5 +48,5 @@ Ruby 1.8.7 與 1.9.2 將會持續提供安全性補丁直至 2014 年六月，�
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
 [source-187]:    https://bugs.ruby-lang.org/projects/ruby-187/repository
 [source-192]:    https://bugs.ruby-lang.org/projects/ruby-192/repository
-[security-en]:   https://www.ruby-lang.org/en/security/
-[sunset-187-en]: https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/
+[security-zhtw]: https://www.ruby-lang.org/zh_tw/security/
+[sunset-187-zhtw]: https://www.ruby-lang.org/zh_tw/news/2013/06/30/we-retire-1-8-7/
