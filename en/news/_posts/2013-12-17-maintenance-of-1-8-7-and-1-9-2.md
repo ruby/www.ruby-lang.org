@@ -29,7 +29,7 @@ We take security very seriously, if you find a vulnerability please report it
 to security@ruby-lang.org immediately. This mailing list is private and
 reported problems will be published after a fix is released.
 
-Please see [ruby-lang.org/en/security][security] for more information.
+Please see [ruby-lang.org/en/security][security-en] for more information.
 
 ### On Release Management
 
@@ -47,7 +47,7 @@ outdated versions.
 ### Why resurrect 1.8.7?
 
 You may remember an announcement approximately 6 months ago that
-[sunset 1.8.7][sunset-187].
+[sunset 1.8.7][sunset-187-en].
 
 While ruby-core will no longer resume maintenance of 1.8.7 or 1.9.2, Terence
 and Zachary will support these versions for security maintenance as part of a
@@ -71,5 +71,5 @@ Thank you for your continued support and lets keep making Ruby better!
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
 [source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
 [source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
-[security]:      https://www.ruby-lang.org/en/security/
-[sunset-187]:    https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/
+[security-en]:   https://www.ruby-lang.org/en/security/
+[sunset-187-en]: https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/

@@ -31,7 +31,7 @@ segnalatela immediatamente a security@ruby-lang.org. Questa mailing list è
 privata e i problemi segnalati verranno pubblicati solo dopo che un fix sarà
 stato rilasciato.
 
-Si veda [ruby-lang.org/en/security][security] per maggiori informazioni.
+Si veda [ruby-lang.org/it/security][security-it] per maggiori informazioni.
 
 ### Sul Release Management
 
@@ -49,7 +49,7 @@ versioni obsolete.
 ### Perché resuscitare 1.8.7?
 
 Potreste ricordare un annuncio di circa 6 mesi fa che
-[ritirava 1.8.7][sunset-187].
+[ritirava 1.8.7][sunset-187-en].
 
 Mentre ruby-core non riprenderà la manutenzione di 1.8.7 o 1.9.2, Terence e
 Zachary supporteranno queste versioni per manutenzioni di sicurezza come parte
@@ -73,5 +73,5 @@ Grazie per il vostro continuo supporto e continuiamo a rendere Ruby migliore!
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
 [source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
 [source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
-[security]:      https://www.ruby-lang.org/en/security/
-[sunset-187]:    https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/
+[security-it]:   https://www.ruby-lang.org/it/security/
+[sunset-187-en]: https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/

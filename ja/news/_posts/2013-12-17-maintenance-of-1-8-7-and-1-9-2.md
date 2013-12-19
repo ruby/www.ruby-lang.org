@@ -26,7 +26,7 @@ lang: ja
 もしあなたが脆弱性を発見したら、ただちに security@ruby-lang.org に報告してください。
 このメーリングリストは非公開であり、報告された問題は修正がリリースされた後に公開されます。
 
-詳細については [ruby-lang.org/ja/security][security] をご覧ください。
+詳細については [ruby-lang.org/ja/security][security-ja] をご覧ください。
 
 ### リリースマネージメントについて
 
@@ -43,7 +43,7 @@ lang: ja
 
 ### 何故 1.8.7 を復活させたのか？
 
-6ヶ月ほど前の [1.8.7 のサポート終了][sunset-187] についてのお知らせを覚えている方もいるでしょう。
+6ヶ月ほど前の [1.8.7 のサポート終了][sunset-187-ja] についてのお知らせを覚えている方もいるでしょう。
 
 ruby-core チームによる 1.8.7 と 1.9.2 のメンテナンスをこれ以上は停止します。
 しかし、企業による支援により、Terence と Zachary はそれらのバージョンのセキュリティマネージメントをサポートすることにしました。
@@ -66,5 +66,5 @@ ruby-core チームによる 1.8.7 と 1.9.2 のメンテナンスをこれ以�
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
 [source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
 [source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
-[security]:      https://www.ruby-lang.org/ja/security/
-[sunset-187]:    https://www.ruby-lang.org/ja/news/2013/06/30/we-retire-1-8-7/
+[security-ja]:   https://www.ruby-lang.org/ja/security/
+[sunset-187-ja]: https://www.ruby-lang.org/ja/news/2013/06/30/we-retire-1-8-7/
