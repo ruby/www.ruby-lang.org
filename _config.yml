@@ -1213,7 +1213,7 @@ locales:
         text: <strong>탐험하기</strong>
         documentation:
           text: 문서
-          url: /ja/documentation/
+          url: /ko/documentation/
         books:
           text: 책
           url: /ko/documentation/books/
