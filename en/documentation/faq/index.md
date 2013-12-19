@@ -31,9 +31,7 @@ header: |
 
 ---
 
-# General questions
-
-## What is Ruby?
+### What is Ruby?
 
 Ruby is a simple and powerful object-oriented programming language, created by Yukihiro Matsumoto (who goes by the handle "matz" in this document and on the mailing lists).
 
@@ -53,7 +51,7 @@ Ruby features:
 * Dynamic loading (depending on the architecture),
 * High transportability (runs on various Unices, Windows, DOS, OSX, OS/2, Amiga, and so on)
 
-## Show me some Ruby code.
+### Show me some Ruby code.
 
 Let's define a class called Person, with a name and an age. We'll test our code by creating a few people and examining them.
 
@@ -106,7 +104,7 @@ Another way would be to change the comparison method for class Person:
     end
     people.sort      # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
 
-## Why the name 'Ruby'?
+### Why the name 'Ruby'?
 
 Influenced by Perl, Matz wanted to use a jewel name for his new language, so he named Ruby after a colleague's birthstone.
 
@@ -114,7 +112,7 @@ Later, he realized that Ruby comes right after Perl in several situations. In bi
 
 (Based on an explanation from matz in [ruby-talk:00394] on June 11, 1999.)
 
-## What is the history of Ruby?
+### What is the history of Ruby?
 
 The following a summary of a posting made by Matz in [ruby-talk:00382] on June 4, 1999. (The birthday of Ruby is corrected in [ruby-list:15977]).
 
@@ -128,17 +126,17 @@ The following a summary of a posting made by Matz in [ruby-talk:00382] on June 4
 
 > Since then, highly active mailing lists have been established and web pages formed.
 
-## Where is the Ruby Home Page?
+### Where is the Ruby Home Page?
 
 The official Ruby Home Page is http://www.ruby-lang.org (in English) and http://www.ruby-lang.org/ja/ (in Japanese).
 
 You can also find Ruby information at http://www.rubycentral.com. In particular, there is a complete online reference to Ruby's built-in classes and methods.
 
-## Is there a Ruby newsgroup?
+### Is there a Ruby newsgroup?
 
 comp.lang.ruby was established in May, 2000 (thanks to the efforts of Conrad Schneiker).
 
-## Is there a Ruby mailing list?
+### Is there a Ruby mailing list?
 
 There are five mailing lists now talking about Ruby. The first is in English, the last four in Japanese:
 
@@ -161,7 +159,7 @@ In mutt, you can get threading to work using the following variable setting.
     # reply regexp, to support MLs like ruby-talk.
     set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]]*"
 
-## Which is correct, Ruby or ruby?
+### Which is correct, Ruby or ruby?
 
 Officially, the language is called ``Ruby''. On most systems, it is invoked using the command ``ruby''. It's OK to use ruby instead of Ruby.
 
@@ -169,7 +167,7 @@ Please don't use RUBY as the language name.
 
 Originally, or historically, it was called ``ruby''.
 
-## Are there any Ruby books?
+### Are there any Ruby books?
 
 Programming Ruby: The Pragmatic Programmer's Guide, (the Pickaxe Book) by David Thomas and Andrew Hunt: ISBN 0-20171-089-7, Addison-Wesley, October 2000.
 
@@ -179,7 +177,7 @@ A Japanese language ``Ruby Pocket Reference'' is published by O'Reilly Japan (IS
 
 In addition, `` Mastering Regular Expressions,'' by Jeffrey Friedl, (the Hip Owl Book): ISBN 1-56592-257-3 from O'Reilly & Associates, is a reference work that covers the art and implementation of regular expressions in various programming languages. Most of it is highly relevant to Ruby regular expressions.
 
-## Which editors provide support for Ruby.
+### Which editors provide support for Ruby.
 
 * Emacs or XEmacs: ruby-mode.el is supplied in the Ruby distribution. With some versions of XEmacs, you may need to add (load "font-lock") to your .emacs file to allow ruby-mode.el to detect the syntax highlighting package you're using.
 * Vim: Vim 5.7 and later have Ruby syntax files as standard in the runtime package. For prior versions, a syntax file for Ruby is available at http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim.
@@ -188,7 +186,7 @@ In addition, `` Mastering Regular Expressions,'' by Jeffrey Friedl, (the Hip Owl
 * Nedit ( http://www.nedit.org): Eric Santonacci has written Ruby support for Nedit, available from ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz.
 * Barry Shultz has written a Ruby definition file for TextPad, available at http://www.textpad.com/add-ons/ntsyn.html.
 
-## How can I annotate Ruby code with its results?
+### How can I annotate Ruby code with its results?
 
 People commonly annotate Ruby code by showing the results of executing each statement as a comment attached to that statement. For example, in the following code, we show that the assignment generates the string "Billy Bob", and then result of extracting some substrings.
 
@@ -214,7 +212,7 @@ Vim users can use the mapping (thanks to hipster):
 
 In both cases, highlight a region of code and hit Meta-F10 to annotate it.
 
-## I can't understand Ruby even after reading the manual!
+### I can't understand Ruby even after reading the manual!
 
 The syntax of Ruby has been fairly stable since Ruby 1.0, but new features are added every now and then. So, the books and the online documentation can get behind.
 
