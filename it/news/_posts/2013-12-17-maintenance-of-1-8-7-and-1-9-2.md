@@ -10,11 +10,11 @@ lang: it
 Con effetto immediato le versioni 1.8.7 e 1.9.2 riceveranno supporto per patch
 di sicurezza fino a Giugno 2014.
 
-* Terence Lee([@hone02](https://twitter.com/hone02)) e
-Zachary Scott([@_zzak](https://twitter.com/_zzak)) si prenderanno carico della
-cosa.
-* Dopo un periodo di manutenzione di 6 mesi potremmo aggiungere altri committers
-per estendere di altri 6 mesi.
+* Terence Lee ([@hone02](https://twitter.com/hone02))
+  e Zachary Scott ([@_zzak](https://twitter.com/_zzak))
+  si prenderanno carico della cosa.
+* Dopo un periodo di manutenzione di 6 mesi potremmo aggiungere
+  altri committers per estendere di altri 6 mesi.
 
 Questa estensione di manutenzione è resa possibile da [Heroku](http://heroku.com/),
 vedere il loro blog post [A Patch in Time: Securing
@@ -59,8 +59,8 @@ Zachary supporteranno queste versioni per manutenzioni di sicurezza come parte
 di una sponsorizzazione aziendale.
 
 In passato abbiamo supportato vendors che volevano mantenere versioni legacy.
-Nel 2009 la manutenzione di Ruby `1.8.6` era stata trasferita a Engine Yard
-quando rilasciarono la `1.8.6-p369`.
+Nel 2009 la manutenzione di Ruby 1.8.6 era stata trasferita a Engine Yard
+quando rilasciarono la 1.8.6-p369.
 
 ### Parole di incoraggiamento
 
