@@ -12,7 +12,7 @@ lang: zh_tw
 
 ## 與 preview 2 相比的重要更動
 
-* 移除了擴充庫 curses [#8584](http://bugs.ruby-lang.org/issues/8584)。
+* 移除了擴充庫 curses [#8584](https://bugs.ruby-lang.org/issues/8584)。
 
 其它更動請參考 [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)。
 
@@ -49,6 +49,7 @@ lang: zh_tw
 * 優化了 "literal".freeze [#9042](https://bugs.ruby-lang.org/issues/9042)
 * 新增 Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * 更新函式庫：BigDecimal、JSON、NKF、Rake、RubyGems 以及 RDoc 等
+* 移除了擴充庫 curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 更多更動細節詳見： [NEWS in ruby repository（施工中）](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)。
 
@@ -60,8 +61,8 @@ Konstantin Haase ([@konstantinhaase](https://twitter.com/konstantinhaase)) 寫�
 
 已知問題：
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
+<https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102>
 
 請參考其它相關資訊與發佈時程：
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
+<https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>
