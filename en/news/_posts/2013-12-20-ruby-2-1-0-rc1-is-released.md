@@ -31,7 +31,7 @@ for other changes, see [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)
   * MD5:    b6cdc0e63185b4aeb268bdf6ebd4de9f
   * SHA256: 4d6a256b73b79f5b64182e1f55db3e61042bbe0166a45917e69c1b4e47247276
 
-## Changes from 2.0
+## Changes since 2.0
 
 The notable changes are:
 
