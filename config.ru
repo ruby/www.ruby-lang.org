@@ -6,7 +6,7 @@ use Rack::Rewrite do
 
   r302 %r{^/ja/20030611\.html$}, "/ja/downloads"
   r302 %r{^/(en|ja)/install\.html$}, "/$1/downloads"
-  r302 %r{^/ja/install\.cgi$}, "/ja/downloads"
+  r302 %r{^/ja/install\.cgi(\?.+)$}, "/ja/downloads"
 
   r302 %r{^/cgi-bin/cvsweb\.cgi/?$}, "http://svn.ruby-lang.org/"
 
