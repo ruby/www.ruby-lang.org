@@ -39,10 +39,10 @@ The notable changes are:
 * RGenGC(See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * syntax changes
- * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
- * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * use GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * use GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0 and RubyGems 2.2.0
