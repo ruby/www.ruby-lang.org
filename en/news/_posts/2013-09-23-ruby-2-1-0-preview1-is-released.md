@@ -42,12 +42,12 @@ The notable changes are:
 * RGenGC (See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [EuRuKo presentation](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
 * refinements
 * syntax
-* Decimal Literal
-* Frozen String Literal
+  * Decimal Literal
+  * Frozen String Literal
 * def's return value
 * Bignum
-* 128bit
-* GMP
+  * 128bit
+  * GMP
 * String#scrub
 * Socket.getifaddrs
 * new RubyGems
@@ -56,7 +56,7 @@ See more details of changes: [NEWS in Ruby repository (WIP)](https://github.com/
 
 ko1 exhibited toruby presentation: [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase (@konstantinhaase) wrote a good summary in his blog posts: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
+Konstantin Haase (@konstantinhaase) wrote a good summary in his blog post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## Release Comment
 
