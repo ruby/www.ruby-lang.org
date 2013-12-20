@@ -49,7 +49,7 @@ Ruby 2.0.0 からの注目すべき変更点は以下の通りです:
 * "literal".freeze の最適化 [#9042](https://bugs.ruby-lang.org/issues/9042)
 * Exception#cause の追加 [#8257](https://bugs.ruby-lang.org/issues/8257)
 * ライブラリの更新: BigDecimal, JSON, NKF, Rake, RubyGems, RDoc
-
+* 拡張ライブラリ curses が削除されました。 [#8584](http://bugs.ruby-lang.org/issues/8584)
 
 詳細な変更点は [Ruby レポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS) を参照してください。
 

@@ -39,17 +39,17 @@ The notable changes are:
 * RGenGC(See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * syntax changes
- * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
- * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
- * use GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * use GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0 and RubyGems 2.2.0
 * "literal".freeze is now optimized [#9042](https://bugs.ruby-lang.org/issues/9042)
 * add Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * update libraries like BigDecimal, JSON, NKF, Rake, RubyGems, and RDoc.
-
+* remove curses. [#8584](http://bugs.ruby-lang.org/issues/8584)
 
 See more details of changes: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
