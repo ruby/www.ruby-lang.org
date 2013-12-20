@@ -49,7 +49,7 @@ The notable changes are:
 * "literal".freeze is now optimized [#9042](https://bugs.ruby-lang.org/issues/9042)
 * add Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * update libraries like BigDecimal, JSON, NKF, Rake, RubyGems, and RDoc.
-
+* remove curses. [#8584](http://bugs.ruby-lang.org/issues/8584)
 
 See more details of changes: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
