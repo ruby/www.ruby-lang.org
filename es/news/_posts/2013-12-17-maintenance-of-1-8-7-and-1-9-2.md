@@ -37,24 +37,22 @@ Por favor dirígete a [ruby-lang.org/en/security][security] para mayor informaci
 Como mencionamos antes, sólo aplicaremos parches de seguridad e
 incrementaremos el nivel del parche.
 
-No liberaremos una versión parchade de las versiones 1.8.7. o 1.9.2. a
+No liberaremos una versión parchada de las versiones 1.8.7. o 1.9.2. a
 ruby-lang.org. Sin embargo, siéntete libre de empaquetar binarios a
 partir del código fuente.
 
-Debido a esto, no requerimos tickets nuevos, ya que una liberación
-oficial resultará en responsabilidad continua del core de ruby para
-darle seguimiento al mantenimiento. Los recursos del equipos son siempre
-escasos, y queremos alentar actualizaciones, y no dar soporte a
-versiones desactualizadas.
+Debido a esto no requerimos abrir tickets nuevos, ya que una entrega
+oficial resultaría en la responsabilidad de seguir dando mantenimiento a
+esa versión para el equipo de Ruby. Los recursos y el tiempo del equiposon escasos y sólo queremos alentar actualizaciones, no dar soporte a versiones viejas.
 
 ### ¿Por qué revivir la versión 1.8.7?
 
-Quizá recuerdes un anuncio hecho hace aproximadamente 6 meses al
+Quizá recuerdes un anuncio que hicimos hace aproximadamente 6 meses al
 respecto [sunset 1.8.7][sunset-187].
 
-Aunque el core el Ruby no continuará el soporte de las versiones 1.8.7 o
+Aunque el core de Ruby no continuará el soporte de las versiones 1.8.7 o
 1.9.2, Terence y Zachary darán soporte a estas versiones por razones de
-seguridad como parte de patrocinio corporativo.
+seguridad como parte de un patrocinio corporativo.
 
 En el pasado hemos brindado apoyo a proveedores que desean mantener
 versiones descontinuadas. En 2009 el mantenimiento de Ruby 1.8.6 fue
@@ -64,9 +62,9 @@ transferido a Engine Yard cuando se liberó 1.8.6-p369.
 
 Nos gustaría tomar esta oportunidad para alentarte fuertemente a
 actualizar a una versión de Ruby con soporte tan pronto como sea
-posible. Algunos miembros del core de Ruby han pdedicado incontables horas en mejorar el rendimiento y características de Ruby 2.0+ y desearíamos que tomaras ventaja de ello.
+posible. Algunos miembros del core de Ruby han dedicado horas incontables para mejorar el rendimiento y las características de Ruby 2.0+ y desearíamos que tomaras ventaja de ello.
 
-¡Gracias por tu continuo apoyo y sigamos haciendo de Ruby algo mejor!
+¡Gracias por tu apoyo continuo y sigamos haciendo de Ruby algo mejor!
 
 
 [heroku]:        http://heroku.com/
