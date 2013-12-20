@@ -36,7 +36,7 @@ for other changes, see [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)
 The notable changes are:
 
 * VM (method cache)
-* RGenGC(See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
+* RGenGC (See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * syntax changes
   * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
@@ -51,11 +51,11 @@ The notable changes are:
 * update libraries like BigDecimal, JSON, NKF, Rake, RubyGems, and RDoc
 * remove curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-See more details of changes: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
+See more details of changes: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
 ko1 talked about the new features of Ruby 2.1 at toruby: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase (@konstantinhaase) wrote good summary in his blog post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
+Konstantin Haase (@konstantinhaase) wrote a good summary in his blog post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## Release Comment
 

@@ -51,7 +51,7 @@ lang: zh_tw
 * 更新函式庫：BigDecimal、JSON、NKF、Rake、RubyGems 以及 RDoc 等
 * 移除了擴充庫 curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-更多更動細節詳見： [NEWS in ruby repository（施工中）](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)。
+更多更動細節詳見： [NEWS in Ruby repository（施工中）](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)。
 
 ko1 在 toruby 談到了 Ruby 2.1 的新功能： [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)。
 
