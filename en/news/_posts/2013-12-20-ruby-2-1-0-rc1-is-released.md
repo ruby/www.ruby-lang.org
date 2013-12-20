@@ -10,7 +10,7 @@ lang: en
 We are pleased to announce the release of Ruby 2.1.0-rc1.
 Please test the new features in Ruby 2.1 before the final release scheduled on 2013-12-25!
 
-## Notable changes from preview 2
+## Notable changes since preview 2
 
 * remove curses. [#8584](http://bugs.ruby-lang.org/issues/8584)
 
