@@ -14,7 +14,7 @@ Please test the new features in Ruby 2.1 before the final release scheduled on 2
 
 * remove curses. [#8584](http://bugs.ruby-lang.org/issues/8584)
 
-for other changes, see NEWS
+for other changes, see [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
 ## Download
 
@@ -51,7 +51,7 @@ The notable changes are:
 * update libraries like BigDecimal, JSON, NKF, Rake, RubyGems, and RDoc.
 
 
-See more details of changes: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
+See more details of changes: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
 ko1 talked about the new features of Ruby 2.1 at toruby: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
