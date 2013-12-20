@@ -48,7 +48,7 @@ The notable changes are:
 * RDoc 4.1.0 and RubyGems 2.2.0
 * "literal".freeze is now optimized [#9042](https://bugs.ruby-lang.org/issues/9042)
 * add Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
-* update libraries like json, nkf, rake, RubyGems, and RDoc.
+* update libraries like BigDecimal, json, nkf, rake, RubyGems, and RDoc.
 
 
 See more details of changes: [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
