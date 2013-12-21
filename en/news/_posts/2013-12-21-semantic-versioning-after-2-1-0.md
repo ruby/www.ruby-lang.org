@@ -3,7 +3,7 @@ layout: news_post
 title: "Semantic Versioning after Ruby 2.1.0"
 author: "zzak"
 translator:
-date: 2013-12-17 17:51:01 UTC
+date: 2013-12-21 2:00:00 UTC
 lang: en
 ---
 
