@@ -4,7 +4,7 @@ title: "Ruby 1.8.7과 1.9.2의 보안 메인터넌스 연장"
 author: "zzak"
 translator: "SeungKyun Nam"
 date: 2013-12-17 20:49:03 UTC
-lang: en
+lang: ko
 ---
 
 즉시 적용되는 사항으로, 2014년 6월까지 1.8.7과 1.9.2에 보안 패치가 지원될 것입니다.
@@ -24,7 +24,7 @@ lang: en
 우리는 보안을 매우 진지하게 다루고 있습니다. 만약 취약점을 찾으셨다면 즉시 security@ruby-lang.org로 보고해 주십시오.
 이 메일링 리스트는 사적인 것이며 보고된 문제는 수정본이 릴리즈된 이후 퍼블리시될 것입니다.
 
-더 많은 정보는 [ruby-lang.org/en/security][security-en]에서 읽어보십시오.
+더 많은 정보는 [ruby-lang.org/ko/security][security-ko]에서 읽어보십시오.
 
 ### 릴리즈 관리에 관하여
 
@@ -58,6 +58,5 @@ Terence와 Zachary가 기업 후원의 일환으로 이 버전들의 보안 메�
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
 [source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
 [source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
-[security-en]:   https://www.ruby-lang.org/en/security/
-[sunset-187-en]: https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/
+[security-ko]:   https://www.ruby-lang.org/ko/security/
 [sunset-187-ko]: https://www.ruby-lang.org/ko/news/2013/06/30/we-retire-1-8-7/
