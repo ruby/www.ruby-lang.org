@@ -50,7 +50,7 @@ increase in the `MINOR` version:
 ABI will comply with the following scheme: `{MAJOR}.{MINOR}.0`
 
 We will give our best effort to keep ABI compatibility within the same `MINOR`
-level releases, so `TINY` will be fixed at 0.
+level releases, so `TEENY` will be fixed at 0.
 
 ## References
 
