@@ -10,15 +10,13 @@ lang: ja
 
 Rubyの各バージョンのソースコードは、以下から入手できます。
 
-* 最新の安定版であるruby
-  {{ site.downloads.stable.version }}\[[tar.bz2][1]\|[tar.gz][2]\|[zip][3]\]が各ミラーサイトから入手できます。
-* 前世代の安定版であるruby
-  {{ site.downloads.previous.version }}\[[tar.bz2][4]\|[tar.gz][5]\|[zip][6]\]が各ミラーサイトから入手できます。
-* 現時点での最新版スナップショット\[[tar.bz2][10]\|[tar.gz][11]\|[zip][12]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。スナップショットの取得はある時刻に問答無用で行っているので、何らかの問題が残っている可能性があります。自己責任でどうぞ。
-* 現時点での安定版スナップショット\[[tar.bz2][13]\|[tar.gz][14]\|[zip][15]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのruby
-  2.0系のブランチ(ruby\_2\_0\_0ブランチ)の先端から自動的にスナップショットを取ったものです。
-* 最新のソースをAnonymous
-  SVNで入手する方法については、[レポジトリガイド](/ja/documentation/repository-guide)を参照ください。
+* 最新の安定版であるruby {{ site.downloads.stable.version }}\[[tar.bz2][1]\|[tar.gz][2]\|[zip][3]\]が各ミラーサイトから入手できます。
+* 前世代の安定版であるruby {{ site.downloads.previous.version }}\[[tar.bz2][4]\|[tar.gz][5]\|[zip][6]\]が各ミラーサイトから入手できます。
+* 前々世代の安定版であるruby {{ site.downloads.previous19.version }}\[[tar.bz2][7]\|[tar.gz][8]\|[zip][9]\]が各ミラーサイトから入手できます。
+* 現時点での安定版スナップショット\[[tar.bz2][13]\|[tar.gz][14]\|[zip][15]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのruby 2.1系のブランチ(ruby\_2\_1ブランチ)の先端から自動的にスナップショットを取ったものです。
+* 現時点での最新版スナップショット\[[tar.bz2][10]\|[tar.gz][11]\|[zip][12]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。最新版スナップショットには、何らかの問題や不具合が残っている可能性があります。自己責任でご利用下さい。
+
+最新のソースを Subversion と Git のリポジトリから入手する方法については、[レポジトリガイド](/ja/documentation/repository-guide)を参照ください。
 
 ## Windows版Rubyバイナリ
 
@@ -89,6 +87,9 @@ Posted by Shugo Maeda on 26 May 2006
 [4]: {{ site.downloads.previous.url.bz2 }}
 [5]: {{ site.downloads.previous.url.gz }}
 [6]: {{ site.downloads.previous.url.zip }}
+[7]: {{ site.downloads.previous19.url.bz2 }}
+[8]: {{ site.downloads.previous19.url.gz }}
+[9]: {{ site.downloads.previous19.url.zip }}
 [10]: {{ site.downloads.nightly_snapshot.url.bz2 }}
 [11]: {{ site.downloads.nightly_snapshot.url.gz }}
 [12]: {{ site.downloads.nightly_snapshot.url.zip }}
