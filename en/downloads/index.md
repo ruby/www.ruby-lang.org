@@ -39,10 +39,12 @@ are no other premade packages for your platform.
 If you have an issue compiling Ruby, consider using one of the third
 party tools in the next section. They may help you.
 
-* [Ruby {{ site.downloads.stable.version }}][1]
+* [Ruby {{ site.downloads.stable.version }}][ruby21]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable
-* [Ruby {{ site.downloads.previous.version }}][2]
+* [Ruby {{ site.downloads.previous.version }}][ruby20]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Previous
+* [Ruby {{ site.downloads.previous19.version }}][ruby19]
+  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Previous 1.9
 * [Stable Snapshot][3] This is a tarball of the latest snapshot of the
   Stable branch (ruby\_2\_0\_0).
 * [Nightly Snapshot][4] This is a tarball of whatever is in SVN, made
@@ -259,8 +261,9 @@ Some of those implementations, including MRI, follow the guidelines of
 [RubySpec][28], a “complete executable specification for the Ruby
 programming language”.
 
-[1]: {{ site.downloads.stable.url.gz }}
-[2]: {{ site.downloads.previous.url.gz }}
+[ruby21]: {{ site.downloads.stable.url.gz }}
+[ruby20]: {{ site.downloads.previous.url.gz }}
+[ruby19]: {{ site.downloads.previous19.url.gz }}
 [3]: {{ site.downloads.stable_snapshot.url.gz }}
 [4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
