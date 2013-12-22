@@ -26,9 +26,10 @@ Windows向けのバイナリが有志により配布されています。
 
 * [ActiveScriptRuby][17]
   安定版に幾つかの便利なライブラリを加え、さらにRubyをCOMサーバとしても利用可能にしたもの。ベースはmswin32版
-* [One-Click Ruby Installer for Windows][18] (英語)
+* [RubyInstaller][rubyinstaller] (英語)
   安定版に多数の便利なライブラリを加えたもの。ベースはmingw32版
-* [cygwin,djgpp,mingw,mswin32][20]
+* [RailsInstaller][railsinstaller] (英語)
+  RubyInstaller に Rails の開発に必要なものを加えたもの。
 
 ## ミラーサイト
 
@@ -96,8 +97,8 @@ Posted by Shugo Maeda on 26 May 2006
 [14]: {{ site.downloads.stable_snapshot.url.gz }}
 [15]: {{ site.downloads.stable_snapshot.url.zip }}
 [17]: http://www.artonx.org/data/asr/
-[18]: http://rubyinstaller.org/
-[20]: https://ftp.ruby-lang.org/pub/ruby/binaries/
+[rubyinstaller]: http://rubyinstaller.org/
+[railsinstaller]: http://railsinstaller.org/
 [21]: ftp://core.ring.gr.jp/pub/lang/ruby/
 [22]: http://www.t.ring.gr.jp/
 [23]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
