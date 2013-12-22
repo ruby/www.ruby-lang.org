@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Russian translation of ruby-lang.org"
+title: "Traduzione in Russo di ruby-lang.org"
 author: "Marcus Stollsteimer"
 translator: "Alessio Rocco"
 date: 2013-11-30 12:00:00 UTC
