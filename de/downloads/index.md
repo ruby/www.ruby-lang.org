@@ -206,12 +206,12 @@ Hier ist eine Liste:
 * [MacRuby][23] ist stark integriert in Apples Cocoa-Framework für Mac
   OS X, was ein leichtes Erstellen von Desktopanwendungen für Mac OS X
   ermöglicht.
-* [Cardinal][24] ist ein „Ruby-Compiler für die [Parrot Virtual
-  Machine][25]“ (Perl 6).
 * [IronRuby][26] integriert sich gut in die .NET-Plattform.
 * [MagLev][27] definiert sich selbst als „eine schnelle, stabile
   Ruby-Implementierung mit integrierter Objektpersistenz und verteiltem
   Shared Cache“.
+* [Cardinal][24] ist ein „Ruby-Compiler für die
+  [Parrot Virtual Machine][25]“ (Perl 6).
 
 Einige der genannten Implementierungen, MRI eingeschlossen, folgen den
 Richtlinien von [RubySpec][28], einer „kompletten ausführbaren

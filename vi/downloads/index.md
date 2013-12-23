@@ -175,17 +175,18 @@ vài công năng đặc biệt mà MRI không có.
 Sau đây là danh sách:
 
 * [JRuby][21] là Ruby trên nền JVM (Java Virtual Machine), sử dụng trình biên
-  dịch JIT, garbage collectors, concurrent threads, các công cụ và thư viện của JVM.
+  dịch JIT, garbage collectors, concurrent threads, các công cụ và thư viện
+  của JVM.
 * [Rubinius][22] là ‘Ruby viết trong Ruby’. Xây dựng trên nền LLVM,
-  Rubinius cung cấp virtual machine rất tiện dụng để các ngôn ngữ có thể dùng làm
-  nền tảng.
-* [MacRuby][23] là phiên bản Ruby kết nối chặt với thư viện Cocoa cho OS X của Apple.
-  Nó giúp người dùng viết ứng dụng desktop dễ dàng.
-* [Cardinal][24] là một “trình biên dịch Ruby compiler cho [Parrot][25] Virtual Machine”
-  (Perl 6).
+  Rubinius cung cấp virtual machine rất tiện dụng để các ngôn ngữ có thể
+  dùng làm nền tảng.
+* [MacRuby][23] là phiên bản Ruby kết nối chặt với thư viện Cocoa cho OS X
+  của Apple. Nó giúp người dùng viết ứng dụng desktop dễ dàng.
 * [IronRuby][26] là một triển khai “chặt chẽ trên nền .NET Framework”.
 * [MagLev][27] là “một triển khai nhanh và ổn định với integrated
   object persistence và distributed shared cache”.
+* [Cardinal][24] là một “trình biên dịch Ruby compiler cho [Parrot][25]
+  Virtual Machine” (Perl 6).
 
 Một trong những triển khái đấy, bao gồm cả MRI, đều phải đạt đủ điều kiện của chuẩn [RubySpec][28].
 Đấy là một “chuẩn thực thi đầy đủ về ngôn ngữ Ruby”.

@@ -200,10 +200,10 @@ Voici une liste de ces implémentatitons :
 * [MacRuby][23] est une version de Ruby intégrant les librairies Cocoa d'Apple,
   sous Mac OS X. Il facilite l'écriture d'application native pour cette
   plateforme.
-* [Cardinal][24] est un compilateur Ruby pour [Parrot][25] (Perl 6).
 * [IronRuby][26] intègre la plateforme .NET.
 * [MagLev][27] est une implémentation qui se veut « rapide, stable, avec
   de la persistence d'objet et un système de cache distribué et partagé. »
+* [Cardinal][24] est un compilateur Ruby pour [Parrot][25] (Perl 6).
 
 Certaines de ces implémentations, dont la MRI, se basent sur [RubySpec][28],
 une spécification complète de Ruby en tant que langage de programmation.
