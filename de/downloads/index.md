@@ -206,12 +206,16 @@ Hier ist eine Liste:
 * [MacRuby][23] ist stark integriert in Apples Cocoa-Framework für Mac
   OS X, was ein leichtes Erstellen von Desktopanwendungen für Mac OS X
   ermöglicht.
-* [Cardinal][24] ist ein „Ruby-Compiler für die [Parrot Virtual
-  Machine][25]“ (Perl 6).
+* [mruby][mruby] ist eine schlanke Ruby-Implementierung, die
+  gelinkt und in Anwendungen eingebunden werden kann.
+  Die Entwicklung von mruby wird von Yukihiro “Matz” Matsumoto geleitet,
+  dem Schöpfer von Ruby.
 * [IronRuby][26] integriert sich gut in die .NET-Plattform.
 * [MagLev][27] definiert sich selbst als „eine schnelle, stabile
   Ruby-Implementierung mit integrierter Objektpersistenz und verteiltem
   Shared Cache“.
+* [Cardinal][24] ist ein „Ruby-Compiler für die
+  [Parrot Virtual Machine][25]“ (Perl 6).
 
 Einige der genannten Implementierungen, MRI eingeschlossen, folgen den
 Richtlinien von [RubySpec][28], einer „kompletten ausführbaren
@@ -225,9 +229,9 @@ Spezifikation für die Programmiersprache Ruby“.
 [4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
-[8]: http://rubyinstaller.org
-[9]: http://rubyinstaller.org/downloads
-[10]: http://railsinstaller.org
+[8]: http://rubyinstaller.org/
+[9]: http://rubyinstaller.org/downloads/
+[10]: http://railsinstaller.org/
 [11]: http://trac.macosforge.org/projects/ruby/wiki
 [12]: http://brew.sh/
 [13]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
@@ -242,6 +246,7 @@ Spezifikation für die Programmiersprache Ruby“.
 [21]: http://jruby.org
 [22]: http://rubini.us
 [23]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
 [24]: https://github.com/parrot/cardinal
 [25]: http://parrot.org
 [26]: http://www.ironruby.net

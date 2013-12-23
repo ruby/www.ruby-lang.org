@@ -248,12 +248,15 @@ Here’s a list:
 * [MacRuby][23] is a Ruby that’s tightly integrated with Apple’s Cocoa
   libraries for Mac OS X, allowing you to write desktop applications
   with ease.
-* [Cardinal][24] is a “Ruby compiler for [Parrot][25] Virtual Machine”
-  (Perl 6).
+* [mruby][mruby] is a lightweight implementation of the Ruby language
+  that can be linked and embedded within an application.
+  Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
 * [IronRuby][26] is an implementation “tightly integrated with the .NET
   Framework”.
 * [MagLev][27] is “a fast, stable, Ruby implementation with integrated
   object persistence and distributed shared cache”.
+* [Cardinal][24] is a “Ruby compiler for [Parrot][25] Virtual Machine”
+  (Perl 6).
 
 Some of those implementations, including MRI, follow the guidelines of
 [RubySpec][28], a “complete executable specification for the Ruby
@@ -281,6 +284,7 @@ programming language”.
 [21]: http://jruby.org
 [22]: http://rubini.us
 [23]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
 [24]: https://github.com/parrot/cardinal
 [25]: http://parrot.org
 [26]: http://www.ironruby.net

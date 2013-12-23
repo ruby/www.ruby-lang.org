@@ -247,11 +247,11 @@ Tu jest lista:
   języki.
 * [MacRuby][23] jest Rubim ściśle zintegrowanym z bibliotekami Cocoa Apple
   dla Mac OS X, umożliwiając łatwe pisanie desktopowych aplikacji.
-* [Cardinal][24] jest “kompilatorem Rubiego dla [Parrot][25] Virtual Machine”
-  (Perl 6).
 * [IronRuby][26] jest implementacją “ściśle zintegrowaną z frameworkiem .NET”.
 * [MagLev][27] jest “szybką, stabilną, implementacją Rubiego ze zintegrowaną
   trwałością obiektów i rozproszonym wpsółdzielonym cachem”.
+* [Cardinal][24] jest “kompilatorem Rubiego dla [Parrot][25] Virtual Machine”
+  (Perl 6).
 
 Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
 [RubySpec][28], “pełna wykonywalna specyfikacja dla języka programowania Ruby”.

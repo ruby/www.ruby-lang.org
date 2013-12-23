@@ -261,12 +261,12 @@ Eccone una lista:
 * [MacRuby][23] è un'implementazione di Ruby strettamente integrata con le
   librerie Cocoa di Apple per Mac OS X, permettendoti di scrivere facilmente
   applicazioni desktop.
-* [Cardinal][24] è un “compilatore Ruby per la Virtual Machine [Parrot][25]”
-  (Perl 6).
 * [IronRuby][26] è un'implementazione “strettamente integrata con il
   framework .NET”.
 * [MagLev][27] è “un'implementazione di Ruby veloce, stabile con
   persistenza degli oggetti integrata e cache condivisa distribuita”.
+* [Cardinal][24] è un “compilatore Ruby per la Virtual Machine [Parrot][25]”
+  (Perl 6).
 
 Alcune di queste implementazioni, inclusa MRI, seguono le linee guida di
 [RubySpec][28], una “specifica esecutiva completa per il linguaggio

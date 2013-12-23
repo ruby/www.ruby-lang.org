@@ -175,9 +175,9 @@ Ruby 語言有許多不同的實作。官方使用 C 語言實作的 Ruby 叫做
 * [JRuby][21] 是構建於 JVM（Java Virtual Machine）之上的 Ruby，利用了 JVM 優化的 JIT 編譯器、垃圾蒐集器、並行執行緒、工具生態圈、其許多 Java 的函式庫。
 * [Rubinius][22] 是用 Ruby 寫的 Ruby，構建於 LLVM。
 * [MacRuby][23] 是與 Apple 的 Cocoa 函式庫高度整合的 Ruby 實作，允許你輕鬆寫出桌上型應用。
-* [Cardinal][24] 是給 [Parrot][25] 虛擬機用的 Ruby 編譯器。
 * [IronRuby][26] 是與 .NET 框架高度整合的 Ruby 實現。
 * [MagLev][27] 具有物件持久性、分布共享快取的特性，是個高速、穩定的 Ruby 實作。
+* [Cardinal][24] 是給 [Parrot][25] 虛擬機用的 Ruby 編譯器。
 
 MRI 與某些實作遵循 [RubySpec][28]，Ruby 程式語言的完整規格文件。
 
