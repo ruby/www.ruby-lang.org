@@ -229,9 +229,9 @@ Spezifikation für die Programmiersprache Ruby“.
 [4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
-[8]: http://rubyinstaller.org
-[9]: http://rubyinstaller.org/downloads
-[10]: http://railsinstaller.org
+[8]: http://rubyinstaller.org/
+[9]: http://rubyinstaller.org/downloads/
+[10]: http://railsinstaller.org/
 [11]: http://trac.macosforge.org/projects/ruby/wiki
 [12]: http://brew.sh/
 [13]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
