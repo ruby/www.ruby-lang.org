@@ -6,6 +6,7 @@ lang: ko
 
 루비가 왜 인기 있을까요? 루비의 팬들은 아릅답고 기교가 뛰어난 언어이기 때문이라고 말합니다. 하지만 이 말로는 부족하지요. 어떤
 점이 루비를 이처럼 매력적인 언어로 만드는 것일까요?
+{: .summary}
 
 ### 루비를 만든 마츠의 목표
 
@@ -17,30 +18,32 @@ lang: ko
 
 이렇게 말한 적도 있습니다.
 
-> 루비는 언뜻보기에는 간단해보입니다. 하지만 그 내부는 무척이나 복잡하지요. 마치 사람의 몸처럼요\[1\].
+> 루비는 언뜻보기에는 간단해보입니다. 하지만 그 내부는 무척이나 복잡하지요. 마치 사람의 몸처럼요<sup>[1](#fn1)</sup>.
 
 ### 루비의 성장세
 
 1995년에 처음 공개된 이후로 전세계에 많은 루비 개발자가 생겨났습니다. 특히 2006년에는 수많은 사람들이 루비를 배웠습니다.
-전 세계의 왠만한 도시에는 활발한 사용자 그룹이 만들어졌고, 루비와 관랸된 컨퍼런스는 모두 매진되었습니다.
+전 세계의 왠만한 도시에는 활발한 사용자 그룹이 만들어졌고, 루비와 관련된 컨퍼런스는 모두 매진되었습니다.
 
 ![Graph courtesy of
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
-루비의 주된 커뮤니케이션 채널인 루비 토크는 하루에 평균 200개의 글이 올라올 정도로 성장하였습니다.
+루비의 주된 [mailing list](/en/community/mailing-lists/)인 루비 토크는 2006년까지 하루에 평균 200개의 글이 올라올 정도로
+성장하였습니다. 최근 몇년동안 커뮤니티의 경향이 하나의 집중된 메일링 리스트보다 작은 그룹에서의 토론을 선호하게 바뀌어
+토론의 숫자는 감소 중 입니다.
 
-프로그래밍 언어 인기 순위를 제공하는 [TIOBE 인덱스][2]에 따르면 루비는 세계에서 10번째로 많이 쓰이는 프로그래밍
+프로그래밍 언어 인기 순위를 제공하는 [TIOBE 인덱스][6]에 따르면 루비는 세계에서 9번째로 많이 쓰이는 프로그래밍
 언어이다. 그리고 2006년 ‘올해의 언어로’ 꼽히기도 하였다. 이런 성장은 루비로 만들어진 대중적인 소프트웨어, 특히나 루비 온
-레일스 웹 프레임워크\[2\]의 공이다.
+레일스 웹 프레임워크<sup>[2](#fn2)</sup>의 공이다.
 
 루비는 [완전히 무료]({{ site.license.url }})이다. 사용뿐 만 아니라 복사, 수정, 배포까지도 무료이다.
 
 ### 모든 것은 객체이다.
 
 처음에 마츠는 이상적인 문법을 가진 언어를 찾고 있었다. 그 때를 회고하며 그는 “나는 펄보다 강력하고 파이썬보다는 객체지향적인
-스크립트 언어가 필요했다\[3\]”라고 말해다.
+스크립트 언어가 필요했다<sup>[3](#fn3)</sup>.”라고 말해다.
 
 루비에서는 모든 것이 객체이다. 따라서 루비에서 모든 것은 자신만의 속성과 액션을 갖는다. 객체지향 프로그래밍에서 이런 속성을
 *인스턴스 변수*라고 하고, 액션을 *메서드*라고 한다. 루비의 순수 객체지향 접근법은 아래의 예제처럼 숫자에 액션을 취하는
@@ -60,7 +63,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 않는다.
 
 예를 들어 아래는 `+` 연산자 대신 plus 라고 쓰는 것이 더 읽기 편하다고 결정했다면 루비의 빌트인 클래스인
-`Numeric`에 메서드드를 추가하면 된다.
+`Numeric`에 메서드를 추가하면 된다.
 
 {% highlight ruby %}
 class Numeric
@@ -82,7 +85,7 @@ y = 5.plus 6
 개발자에게 가장 매력적인 기능으로 꼽힌다.
 
 블럭은 함수형 언어에서 아이디어를 따왔다. 마츠는 “루비 클러저를 만들면서 나는 리스프의 클로저 기능을 존중하고
-싶었다\[4\]”고 말했다.
+싶었다<sup>[4](#fn4)</sup>.”고 말했다.
 
 {% highlight ruby %}
 search_engines =
@@ -112,6 +115,7 @@ end
 
 ### 루비 코드의 외향
 
+루비는 종종 매우 제한된 문장 부호를 사용하고 일반적으로 영어 키워드를 선호하지만, 일부 문장 부호는 루비를 장식하는 데 사용됩니다.
 루비에는 변수 선언이 없다. 단지 변수의 범위를 나타내기 위해 몇가지 간단한 이름 관례를 사용하고 있다.
 
 * `var` 지역변수.
@@ -143,24 +147,27 @@ end
 
 ### 참조
 
-<sup>1</sup> 마츠, 루비토크 메일링리스트에서, [May 12th, 2000][3].
+<sup>1</sup> 마츠, 루비토크 메일링리스트에서, [May 12th,
+2000][2].
 {: #fn1}
 
-<sup>2</sup> 자세한 내용은 [루비 온 레일스][4] 홈페이지를 참조.
+<sup>2</sup> 자세한 내용은 [루비 온 레일스][3] 홈페이지를 참조.
 {: #fn2}
 
-<sup>3</sup> 마츠, [An Interview with the Creator of Ruby][5], Nov. 29th,
-2001.
+<sup>3</sup> 마츠, [An Interview with the Creator of Ruby][4], Nov.
+29th, 2001.
 {: #fn3}
 
-<sup>4</sup> 마츠, [Blocks and Closures in Ruby][6], December 22nd, 2003.
+<sup>4</sup> 마츠, [Blocks and Closures in Ruby][5], December 22nd,
+2003.
 {: #fn4}
 
 
 
 [1]: http://www.rubyist.net/~matz/
-[2]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
-[3]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[4]: http://rubyonrails.org/
-[5]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[6]: http://www.artima.com/intv/closures2.html
+[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[3]: http://rubyonrails.org/
+[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[5]: http://www.artima.com/intv/closures2.html
+[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+
