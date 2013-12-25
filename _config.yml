@@ -31,9 +31,9 @@ downloads:
       gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.gz
       zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.zip
     md5:
-      bz2: XXX
-      gz: XXX
-      zip: XXX
+      bz2: 1546eeb763ac7754365664be763a1e8f
+      gz: 9e6386d53f5200a3e7069107405b93f7
+      zip: 2fc3a80b56da81b906a9bb6fc7ca8399
   previous:
     version: 2.0.0-p353
     url:

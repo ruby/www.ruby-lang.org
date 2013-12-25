@@ -12,17 +12,17 @@ We are pleased to announce the release of Ruby 2.1.0.
 ## Download
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.bz2)
-  * SIZE:   XXX bytes
-  * MD5:    XXX
-  * SHA256: XXX
+  * SIZE:   12007442 bytes
+  * MD5:    1546eeb763ac7754365664be763a1e8f
+  * SHA256: 1d3f4ad5f619ec15229206b6667586dcec7cc986672c8fbb8558161ecf07e277
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.gz](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.gz)
-  * SIZE:   XXX bytes
-  * MD5:    XXX
-  * SHA256: XXX
+  * SIZE:   15076389 bytes
+  * MD5:    9e6386d53f5200a3e7069107405b93f7
+  * SHA256: 3538ec1f6af96ed9deb04e0965274528162726cc9ba3625dcf23648df872d09d
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.zip](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.zip)
-  * SIZE:   XXX bytes
-  * MD5:    XXX
-  * SHA256: XXX
+  * SIZE:   16603067 bytes
+  * MD5:    2fc3a80b56da81b906a9bb6fc7ca8399
+  * SHA256: d40d7bfb39ca2e462dea61dcbbcf33426b60e6e553335c3afb39b4d827a6891c
 
 ## Changes since 2.0
 
@@ -45,7 +45,3 @@ The notable changes are:
 * remove curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 See more details of changes: [NEWS in Ruby repository](https://github.com/ruby/ruby/blob/v2_1_0/NEWS).
-
-## Release Comment
-
-(TBD)
