@@ -11,7 +11,7 @@ Ruby 2.1.0이 릴리즈 되었습니다.
 
 Ruby 2.1는 심각한 비호환없이 속도향상을 포함한 많은 개선이 있었습니다.
 
-써 보세요.
+한번 시험해 보세요.
 
 ## 다운로드
 
@@ -48,4 +48,4 @@ Ruby 2.1는 심각한 비호환없이 속도향상을 포함한 많은 개선이
 * BigDecimal, JSON, NKF, Rake, RubyGems, RDoc등의 라이브러리 업데이트
 * curses의 제거 [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-보다 자세한 내용은 [Ruby 레파지토리의 NEWS](https://github.com/ruby/ruby/blob/v2_1_0/NEWS)을 참조하여 주십시오.
+보다 자세한 내용은 [Ruby 레파지토리의 NEWS](https://github.com/ruby/ruby/blob/v2_1_0/NEWS)를 참조하여 주십시오.
