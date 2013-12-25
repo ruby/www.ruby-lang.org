@@ -8,7 +8,7 @@ lang: en
 ---
 
 We've decided to move to a [Semantic Versioning](http://semver.org/)-type
-policy after the release of Ruby 2.1.0.
+policy starting with the release of Ruby 2.1.0.
 
 In order to provide a more well defined and properly utilized versioning scheme
 for Ruby, we've decided to gradually switch to the following policy.
