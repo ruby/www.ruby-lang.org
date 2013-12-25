@@ -7,7 +7,7 @@ date: 2013-12-21 2:00:00 UTC
 lang: ko
 ---
 
-Ruby 2.1.0의릴리즈 이후에 [Semantic Versioning](http://semver.org/)을 쓰기로
+Ruby 2.1.0의릴리즈 이후에 [Semantic Versioning](http://semver.org/)([번역](http://surpreem.com/archives/380))을 쓰기로
 결정했습니다.
 
 Ruby에 보다 명확하고 적절한 버저닝 스키마를 제공하기위해,
