@@ -247,6 +247,9 @@ Tu jest lista:
   języki.
 * [MacRuby][23] jest Rubim ściśle zintegrowanym z bibliotekami Cocoa Apple
   dla Mac OS X, umożliwiając łatwe pisanie desktopowych aplikacji.
+* [mruby][mruby] jest lekką implementacją języka Ruby, która może być połączona
+  i osadzona w aplikacji.
++  Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
 * [IronRuby][26] jest implementacją “ściśle zintegrowaną z frameworkiem .NET”.
 * [MagLev][27] jest “szybką, stabilną, implementacją Rubiego ze zintegrowaną
   trwałością obiektów i rozproszonym wpsółdzielonym cachem”.
@@ -278,6 +281,7 @@ Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
 [21]: http://jruby.org
 [22]: http://rubini.us
 [23]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
 [24]: https://github.com/parrot/cardinal
 [25]: http://parrot.org
 [26]: http://www.ironruby.net
