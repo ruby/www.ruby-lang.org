@@ -41,12 +41,14 @@ Lösung, falls es keine vorgefertigten Pakete für Dein System gibt.
 Falls es Schwierigkeiten beim Kompilieren geben sollte, solltest Du
 vielleicht zu einem Drittanbieter-Werkzeug greifen, siehe nächster Abschnitt.
 
-* [Ruby {{ site.downloads.stable.version }}][1]
+* [Ruby {{ site.downloads.stable.version }}][ruby21]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) stabile Version
-* [Ruby {{ site.downloads.previous.version }}][2]
+* [Ruby {{ site.downloads.previous.version }}][ruby20]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) stabile Vorgängerversion
+* [Ruby {{ site.downloads.previous19.version }}][ruby19]
+  (md5:&nbsp;{{ site.downloads.previous19.md5.gz }}) stabile Vorgängerversion (1.9)
 * [Stable Snapshot][3] Hierbei handelt es sich um den neuesten Snapshot
-  des stabilen Zweiges (ruby\_2\_0\_0).
+  des stabilen Zweiges (ruby\_2\_1).
 * [Nightly Snapshot][4] Hierbei handelt es sich um eine Kopie der SVN-Version
   von letzter Nacht. Es besteht durchaus die Gefahr, dass in dieser Version
   noch nicht korrigierte Fehler enthalten sind.
@@ -223,8 +225,9 @@ Spezifikation für die Programmiersprache Ruby“.
 
 
 
-[1]: {{ site.downloads.stable.url.gz }}
-[2]: {{ site.downloads.previous.url.gz }}
+[ruby21]: {{ site.downloads.stable.url.gz }}
+[ruby20]: {{ site.downloads.previous.url.gz }}
+[ruby19]: {{ site.downloads.previous19.url.gz }}
 [3]: {{ site.downloads.stable_snapshot.url.gz }}
 [4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
