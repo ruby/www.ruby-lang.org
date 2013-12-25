@@ -9,7 +9,9 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.1.0.
 
-Ruby 2.1 has many improvements speed up without seviour incompatibilities. Try it!
+Ruby 2.1 has many improvements speed up without severe incompatibilities.
+
+Try it!
 
 ## Download
 
