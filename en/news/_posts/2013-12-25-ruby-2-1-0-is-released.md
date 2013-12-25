@@ -9,6 +9,8 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.1.0.
 
+Ruby 2.1 has many improvements speed up without seviour imcompatibilities. Try it!
+
 ## Download
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.bz2)
