@@ -44,7 +44,7 @@ Proszę sprawdźcie nowe funkcjonalności w Rubim 2.1 przed finalnym wydaniem!
 Znaczące zmiany to:
 
 * VM (cache metod)
-* RGenGC (Zobacz prezentację ko1 z [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) i [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
+* RGenGC (Zobacz prezentację ko1 z [RubyKaigi](http://rubykaigi.org/2013/talk/S73) i [RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * składnia
   * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
@@ -54,7 +54,7 @@ Znaczące zmiany to:
   * użycie GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
-* RDoc 4.1.0.preview.2 and RubyGems 2.2.0.preview.2
+* RDoc 4.1.0.preview.2 i RubyGems 2.2.0.preview.2
 
 Zobacz więcej szczegółów zmian: [NEWS w repozytorium Rubiego (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
 
