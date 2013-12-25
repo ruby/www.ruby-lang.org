@@ -256,6 +256,9 @@ Ruby как язык имеет несколько разных имплемен
 * [MacRuby][23] это Ruby, который тесно интегрирован с библиотеками
   Cocoa от Apple для Mac OS X. Позволяет вам проще писать приложения для Mac
   OS X.
+* [mruby][mruby] это легковесная реализация Ruby, которая может быть
+  слинкована и встроена в приложение. Возглавляет разработку mruby создатель
+  языка Ruby, Yukihiro “Matz” Matsumoto.
 * [IronRuby][26] это имплементация "тесно интегрированная с .NET
   Framework".
 * [MagLev][27] это "быстрая, стабильная имплементация Ruby с
@@ -292,6 +295,7 @@ Ruby как язык имеет несколько разных имплемен
 [21]: http://jruby.org
 [22]: http://rubini.us
 [23]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
 [24]: https://github.com/parrot/cardinal
 [25]: http://parrot.org
 [26]: http://www.ironruby.net
