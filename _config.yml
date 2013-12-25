@@ -205,8 +205,8 @@ locales:
         url: /pl/community
       - text: Wiadomości
         url: /pl/news
-#     - text:
-#       url: /pl/security
+      - text: Bezpieczeństwo
+        url: /pl/security
       - text: O języku Ruby
         url: /pl/about
     pt:
