@@ -40,12 +40,14 @@ innych przygotowanych pakietów.
 Jeśli masz problem z kompilacją Rubiego rozważ skorzystanie z narzędzi osób
 trzecich z następnej sekcji. Mogą ci pomóc.
 
-* [Ruby {{ site.downloads.stable.version }}][1]
+* [Ruby {{ site.downloads.stable.version }}][ruby21]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stabilny
-* [Ruby {{ site.downloads.previous.version }}][2]
+* [Ruby {{ site.downloads.previous.version }}][ruby20]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Poprzedni
+* [Ruby {{ site.downloads.previous19.version }}][ruby19]
+  (md5:&nbsp;{{ site.downloads.previous19.md5.gz }}) Poprzedni 1.9
 * [Stabilny Snapshot][3] To jest tarball ostatniego snapshotu stabilnego
-  brancha (ruby\_2\_0\_0).
+  brancha (ruby\_2\_1).
 * [Nocny Snapshot][4] To jest tarball tego co jest w SVN, przygotowany
   w nocy. Może zawierać błędy lub inne problemy, używaj na własne ryzyko!
 
@@ -259,8 +261,9 @@ Tu jest lista:
 Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
 [RubySpec][28], “pełna wykonywalna specyfikacja dla języka programowania Ruby”.
 
-[1]: {{ site.downloads.stable.url.gz }}
-[2]: {{ site.downloads.previous.url.gz }}
+[ruby21]: {{ site.downloads.stable.url.gz }}
+[ruby20]: {{ site.downloads.previous.url.gz }}
+[ruby19]: {{ site.downloads.previous19.url.gz }}
 [3]: {{ site.downloads.stable_snapshot.url.gz }}
 [4]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
