@@ -261,6 +261,9 @@ Eccone una lista:
 * [MacRuby][23] è un'implementazione di Ruby strettamente integrata con le
   librerie Cocoa di Apple per Mac OS X, permettendoti di scrivere facilmente
   applicazioni desktop.
+* [mruby][mruby] è un'implementazione molto leggera di Ruby che può essere
+  collegata e incorporata all'interno di un'applicazione.
+  Il suo sviluppo è guidato da Yukihiro “Matz” Matsumoto, creatore di Ruby.
 * [IronRuby][26] è un'implementazione “strettamente integrata con il
   framework .NET”.
 * [MagLev][27] è “un'implementazione di Ruby veloce, stabile con
@@ -294,6 +297,7 @@ di programmazione Ruby”.
 [21]: http://jruby.org
 [22]: http://rubini.us
 [23]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
 [24]: https://github.com/parrot/cardinal
 [25]: http://parrot.org
 [26]: http://www.ironruby.net
