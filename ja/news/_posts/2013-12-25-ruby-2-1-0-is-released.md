@@ -13,7 +13,7 @@ Ruby 2.1 では深刻な非互換もなく、速度の向上を含めた多く�
 
 どうぞご利用ください。
 
-## Download
+## ダウンロード
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.bz2)
   * SIZE:   12007442 bytes
