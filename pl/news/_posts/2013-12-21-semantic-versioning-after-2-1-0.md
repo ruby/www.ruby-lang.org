@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Semantyczne wersjonowanie po Rubim 2.1.0"
+title: "Semantyczne wersjonowanie poczynając od Rubiego 2.1.0"
 author: "zzak"
 translator: "crabonature"
 date: 2013-12-21 2:00:00 UTC
@@ -8,7 +8,7 @@ lang: pl
 ---
 
 Zdecydowaliśmy zastosować politykę
-[Semantycznego Wersjonowania](http://semver.org/) po wydaniu Rubiego 2.1.0.
+[Semantycznego Wersjonowania](http://semver.org/) poczynając od wydania Rubiego 2.1.0.
 
 W celu zapewnienia lepiej zdefiniowanego i właściwie używanego systemu
 wersjonowania Rubiego postanowiliśmy stopniowo przejść do następującej polityki.
