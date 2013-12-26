@@ -41,10 +41,11 @@ per day in 2006. It has dropped in recent years as the size of the
 community pushed discussion from one central list into many smaller
 groups.
 
-The [TIOBE index][6], which measures the growth of programming languages,
-ranks Ruby as #9 among programming languages worldwide. Much of the
-growth is attributed to the popularity of software written in Ruby,
-particularly the Ruby on Rails web framework<sup>[2](#fn2)</sup>.
+Ruby is ranked among the top 10 on most of the indexes that measure
+the growth and popularity of programming languages worldwide
+(such as the [TIOBE index][6]). Much of the growth is attributed to the
+popularity of software written in Ruby, particularly the Ruby on Rails
+web framework<sup>[2](#fn2)</sup>.
 
 Ruby is also [completely free]({{ site.license.url }}). Not only free of charge, but
 also free to use, copy, modify, and distribute.
