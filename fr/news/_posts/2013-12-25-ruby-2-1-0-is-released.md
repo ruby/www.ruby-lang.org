@@ -37,7 +37,7 @@ Les changements notables sont :
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * changements de syntaxe
   * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
-  * valeur de retour du def [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * valeur de retour de def [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * utilisation de GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
