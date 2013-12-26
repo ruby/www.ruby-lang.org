@@ -36,7 +36,7 @@ Ruby 2.1는 심각한 비호환없이 속도향상을 포함한 많은 개선이
 * RGenGC (ko1의 [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73)와 [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)를 참조하십시오)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 문법 변화
-  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
   * def의 return value [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * GMP 사용 [#8796](https://bugs.ruby-lang.org/issues/8796)
