@@ -11,7 +11,7 @@ Ruby 2.0.0-p353 mới được phát hành.
 
 Bao gồm một vá bảo mật liên quan đến truyền số thực dấu phẩy động (floating point parsing).
 
-* [Tràn vùng Heap trong Truyền số thực dấu phẩy động (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+* [Tràn vùng Heap trong Truyền số thực dấu phẩy động (CVE-2013-4164)](/vi/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 Và một vài vá lỗi khác.
 
