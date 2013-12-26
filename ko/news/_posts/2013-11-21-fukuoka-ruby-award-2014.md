@@ -36,7 +36,7 @@ lang: ko
 참가 양식을 [award@f-ruby.com][5]로 보내 주십시오.
 
 올해는 아래와 같은 특별한 상을 준비했습니다:
-엔진 분야 상(Engine Yard Prize) 수상자는 다음과 같은 것을 받게 됩니다:
+엔진 야드 상(Engine Yard Prize) 수상자는 다음과 같은 것을 받게 됩니다:
 
 * Engine Yard Cloud 5,000시간 분량의 크레딧
 * 두 장의 루비카이기(RubyKaigi) 티켓 (1인당 50,000엔의 교통운임 포함)
