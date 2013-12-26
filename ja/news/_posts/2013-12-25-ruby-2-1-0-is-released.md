@@ -36,7 +36,7 @@ Ruby 2.1 では深刻な非互換もなく、速度の向上を含めた多く�
 * RGenGC (ささださんの[RubyKaigiのプレゼン資料](http://rubykaigi.org/2013/talk/S73) と [RubyConf 2013のプレゼン資料](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)をご覧ください)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 文法の変更
-  * Decimal/Complex リテラル [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Rational/Complex リテラル [#8430](https://bugs.ruby-lang.org/issues/8430)
   * defの戻り値 [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * GMP の利用 [#8796](https://bugs.ruby-lang.org/issues/8796)
