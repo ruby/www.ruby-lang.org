@@ -36,7 +36,7 @@ As mudanças mais importantes são:
 * RGenGC (Veja as apresentações de ko1 em [RubyKaigi](http://rubykaigi.org/2013/talk/S73) e [RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinamentos [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * mudanças de sintaxe
-  * Decimal/Literal Complexo [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Literal Racional/Complexo [#8430](https://bugs.ruby-lang.org/issues/8430)
   * Valor de retorno de def [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * uso de GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
