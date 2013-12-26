@@ -125,6 +125,7 @@ Here is a list of popular tools used by Rubyists:
 * On Mac OS X:
   * [TextMate][32]
   * [TextWrangler][33]
+  * [Dash][39] (documentation browser)
 
 ### Further Reading
 
@@ -173,3 +174,4 @@ list](/en/community/mailing-lists/) is a great place to start.
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
+[39]: http://kapeli.com/dash
