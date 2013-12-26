@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Versioning semantico dopo Ruby 2.1.0"
+title: "Versioning semantico a partire da Ruby 2.1.0"
 author: "zzak"
 translator: "Alessandro Lepore"
 date: 2013-12-21 2:00:00 UTC
@@ -8,7 +8,7 @@ lang: it
 ---
 
 Abbiamo deciso di passare ad una policy di [Versioning Semantico](http://semver.org/)
-dopo il rilascio di Ruby 2.1.0.
+a partire dal rilascio di Ruby 2.1.0.
 
 Per fornire uno schema di versioning meglio definito e utilizzato per Ruby
 abbiamo deciso di cambiare gradualmente verso la policy seguente.
