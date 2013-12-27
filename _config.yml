@@ -1320,11 +1320,11 @@ locales:
           url: /en/community/ruby-core/
           description: |
             Pomóż dopracować najnowszą wersję Rubiego.
-#       issue_tracking:
-#         text: Issue Tracking
-#         url: https://bugs.ruby-lang.org/
-#         description: |
-#           Report or help solve issues in Ruby.
+        issue_tracking:
+          text: Śledzenie problemów
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Zgłoś lub pomóż rozwiązać problemy w Rubim.
       top_ruby_projects:
         text: Najlepsze Projekty
         more:
