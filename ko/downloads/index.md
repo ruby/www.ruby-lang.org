@@ -214,6 +214,8 @@ $ pkg install runtime/ruby-18
 * [Rubinius][22]는 ‘루비로 씌어진 루비’ 입니다. LLVM 위에 구축되어,
   Rubinius는 다른 언어 역시 구축된 멋진 가상 머신 위에서 활동합니다.
 * [MacRuby][23]는 Mac OS X를 위한 애플의 Cocoa 라이브러리에 강력하게 통합된 루비로, 손쉽게 데스크톱 응용프로그램을 작성할 수 있도록 해줍니다.
+* [mruby][mruby] 는 루비의 경량 구현체로 어플리케이션 안에 링크되거나 포함시킬 수 있습니다.
+  루비의 창시자인 유키히로 “Matz” 마츠모토가 개발을 이끌고 있습니다.
 * [IronRuby][26]는 “.NET Framework과 강력하게 통합된” 구현체입니다.
 * [MagLev][27]는 “통합된 개체 지속성과 분산 공유 캐시를 가진 빠르고, 안정적인 루비 구현체” 입니다.
 * [Cardinal][24]는 “[Parrot][25] 가상머신을 위한 루비 컴파일러”(Perl 6)입니다.
@@ -242,6 +244,7 @@ MRI를 포함, 일부 구현체들은 “complete executable specification for t
 [21]: http://jruby.org
 [22]: http://rubini.us
 [23]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
 [24]: https://github.com/parrot/cardinal
 [25]: http://parrot.org
 [26]: http://www.ironruby.net
