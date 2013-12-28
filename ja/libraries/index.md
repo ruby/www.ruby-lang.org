@@ -24,7 +24,11 @@ Ruby のライブラリは主に [RubyGems.org][rubygems] に gem として置�
 しかし近年では [GitHub][github] が ruby 関連のリポジトリとして台頭してきました。
 gem としては RubyGems.org に公開されますが、gem のソースコードのほとんどは GitHub 上で見ることが出来ます。
 
-[Ruby Application Archive][raa] (または RAA) はあらゆる Ruby のソフトウェアが機能ごとにカテゴリ分けされていた場所です。しかし既に全く使われていません。おそらくもう見る必要はないでしょう。
+[The Ruby Toolbox][ruby-toolbox] は、オープンソースの Ruby プロジェクトを探索しやすくするプロジェクトです。
+様々な種類の一般的な開発タスクについてのカテゴリを持ち、
+リリースやコミットの活発さ、ライブラリの依存関係といった、各プロジェクトについての様々な情報を集約しています。
+また、RubyGems.org や GitHub での人気にもとづくプロジェクトのレーティングも行なっています。
+検索機能を使えば、あなたが探しているものを簡単に見つけられるでしょう。
 
 ### RubyGems についてもう少し
 
@@ -99,3 +103,4 @@ RubyGems.org に [いくつかのガイド][rubygems-guides] があります。
 [raa]: http://raa.ruby-lang.org/
 [rubygems-command-ref]: http://guides.rubygems.org/command-reference/
 [bundler]: http://bundler.io/
+[ruby-toolbox]: https://www.ruby-toolbox.com/
