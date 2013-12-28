@@ -100,7 +100,6 @@ RubyGems.org に [いくつかのガイド][rubygems-guides] があります。
 [rubygems-guides]: http://guides.rubygems.org/
 [rubyforge]: http://rubyforge.org/
 [github]: https://github.com/
-[raa]: http://raa.ruby-lang.org/
 [rubygems-command-ref]: http://guides.rubygems.org/command-reference/
 [bundler]: http://bundler.io/
 [ruby-toolbox]: https://www.ruby-toolbox.com/
