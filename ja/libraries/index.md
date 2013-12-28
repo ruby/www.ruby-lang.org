@@ -6,7 +6,7 @@ lang: ja
 
 多くのプログラミング言語と同様に、Ruby にも幅広いサードパーティのライブラリが提供されています。
 
-それらのほとんどは "gem" という形式で公開されています。[RubyGems][1] は (Ruby に特化した `apt-get` と同じようなパッケージングシステムで) ライブラリの作成や公開、インストールを助けるシステムです。Ruby のバージョン 1.9 以降 RubyGems は標準添付となっていますが、それ以前のバージョンの Ruby の場合は[自分でインストール][2]する必要があります。
+それらのほとんどは "gem" という形式で公開されています。[RubyGems][rubygems] は (Ruby に特化した `apt-get` と同じようなパッケージングシステムで) ライブラリの作成や公開、インストールを助けるシステムです。Ruby のバージョン 1.9 以降 RubyGems は標準添付となっていますが、それ以前のバージョンの Ruby の場合は[自分でインストール][rubygems-download]する必要があります。
 
 他のライブラリは .zip や .tar.gz のようなアーカイブの形式で公開されています。インストール方法は様々で、一般的には `README` や `INSTALL` ファイルに方法が書かれています。
 
@@ -14,22 +14,26 @@ lang: ja
 
 ### ライブラリを探す
 
-Ruby のライブラリは主に [RubyGems.org][1] に gem として置かれています。直接ウェブサイトを閲覧したり、`gem` コマンドを使用してそれらを探すことができます。
+Ruby のライブラリは主に [RubyGems.org][rubygems] に gem として置かれています。直接ウェブサイトを閲覧したり、`gem` コマンドを使用してそれらを探すことができます。
 
 `gem search -r` を使うと RubyGems のリポジトリを調べることが出来ます。例えば、`gem search -r rails` は Rails に関係のある gem を返します。
-`--local` (`-l`) オプションを使うと、インストール済みの gem に対してローカルで検索をすることが出来ます。gem をインストールするには `gem install [gem]` を使います。インストール済みの gem を見るには `gem list` を使います。さらに `gem` コマンドについて知りたい場合は、先に進むか[RubyGems' docs][3] を参照してください。
+`--local` (`-l`) オプションを使うと、インストール済みの gem に対してローカルで検索をすることが出来ます。gem をインストールするには `gem install [gem]` を使います。インストール済みの gem を見るには `gem list` を使います。さらに `gem` コマンドについて知りたい場合は、先に進むか[RubyGems' docs][rubygems-guides] を参照してください。
 
 他にもライブラリの配布元があります。
-[RubyForge][4]はかつて Ruby のライブラリの保管場所として広く使われていたものです。
-しかし近年では [GitHub][5] が ruby 関連のリポジトリとして台頭してきました。
+[RubyForge][rubyforge]はかつて Ruby のライブラリの保管場所として広く使われていたものです。
+しかし近年では [GitHub][github] が ruby 関連のリポジトリとして台頭してきました。
 gem としては RubyGems.org に公開されますが、gem のソースコードのほとんどは GitHub 上で見ることが出来ます。
 
-[Ruby Application Archive][6] (または RAA) はあらゆる Ruby のソフトウェアが機能ごとにカテゴリ分けされていた場所です。しかし既に全く使われていません。おそらくもう見る必要はないでしょう。
+[The Ruby Toolbox][ruby-toolbox] は、オープンソースの Ruby プロジェクトを探索しやすくするプロジェクトです。
+様々な種類の一般的な開発タスクについてのカテゴリを持ち、
+リリースやコミットの活発さ、ライブラリの依存関係といった、各プロジェクトについての様々な情報を集約しています。
+また、RubyGems.org や GitHub での人気にもとづくプロジェクトのレーティングも行なっています。
+検索機能を使えば、あなたが探しているものを簡単に見つけられるでしょう。
 
 ### RubyGems についてもう少し
 
 普段使いのために `gem` コマンドについて軽く見ておきましょう。
-このパッケージ管理システムについて全般的に述べられた[もっと詳しいドキュメント][7]もあります。
+このパッケージ管理システムについて全般的に述べられた[もっと詳しいドキュメント][rubygems-command-ref]もあります。
 
 #### 入手可能な gem を検索する
 
@@ -86,16 +90,16 @@ $ gem help
 
 #### 自分で gem を作る
 
-RubyGems.org に [いくつかのガイド][3] があります。
-[Bundler][9] について調べてみるのもいいでしょう。Bundler は RubyGems と一緒に使われる、アプリケーションの依存関係を管理するための一般的なツールです。
+RubyGems.org に [いくつかのガイド][rubygems-guides] があります。
+[Bundler][bundler] について調べてみるのもいいでしょう。Bundler は RubyGems と一緒に使われる、アプリケーションの依存関係を管理するための一般的なツールです。
 
 
 
-[1]: https://rubygems.org/
-[2]: https://rubygems.org/pages/download/
-[3]: http://guides.rubygems.org/
-[4]: http://rubyforge.org/
-[5]: https://github.com/
-[6]: http://raa.ruby-lang.org/
-[7]: http://guides.rubygems.org/command-reference/
-[9]: http://bundler.io/
+[rubygems]: https://rubygems.org/
+[rubygems-download]: https://rubygems.org/pages/download/
+[rubygems-guides]: http://guides.rubygems.org/
+[rubyforge]: http://rubyforge.org/
+[github]: https://github.com/
+[rubygems-command-ref]: http://guides.rubygems.org/command-reference/
+[bundler]: http://bundler.io/
+[ruby-toolbox]: https://www.ruby-toolbox.com/
