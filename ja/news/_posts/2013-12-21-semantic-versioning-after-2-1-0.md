@@ -6,7 +6,7 @@ translator: "makimoto"
 date: 2013-12-21 2:00:00 UTC
 lang: ja
 ---
-Ruby 2.1.0 のリリース後、[Semantic Versioning](http://semver.org/) ([日本語訳](http://shijimiii.info/technical-memo/semver/))
+Ruby 2.1.0 以降、[Semantic Versioning](http://semver.org/) ([日本語訳](http://shijimiii.info/technical-memo/semver/))
 に沿ったバージョニングに移行することを決定しました。
 
 Ruby に、より明確で適切なバージョニングスキーマを提供するため、われわれは以下のポリシーに段階的に移行します。
