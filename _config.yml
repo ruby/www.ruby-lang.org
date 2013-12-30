@@ -153,8 +153,8 @@ locales:
         url: /id/community
       - text: Berita
         url: /id/news
-#     - text:
-#       url: /id/security
+      - text: Keamanan
+        url: /id/security
       - text: Tentang Ruby
         url: /id/about
     it:
