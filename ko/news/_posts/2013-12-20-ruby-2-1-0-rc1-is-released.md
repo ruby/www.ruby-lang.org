@@ -45,7 +45,7 @@ Ruby 2.0.0 이후의 주목할반한 변경은 다음과 같습니다.
   * GMP 의 사용 [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
-* RDoc 4.1.0 と RubyGems 2.2.0
+* RDoc 4.1.0 과 RubyGems 2.2.0
 * "literal".freeze 의 최적화 [#9042](https://bugs.ruby-lang.org/issues/9042)
 * Exception#cause 의 추가 [#8257](https://bugs.ruby-lang.org/issues/8257)
 * 라이브러리 업데이트: BigDecimal, JSON, NKF, Rake, RubyGems, RDoc
@@ -63,7 +63,7 @@ Konstantin Haase (@konstantinhaase) 님이 블로그에 잘 정리해 주셨습�
 
 <https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102>
 
-릴리즈 스케쥴과 그 밖의 정보들은 밑의 글을 잠고해주십시오.
+릴리즈 스케쥴과 그 밖의 정보들은 밑의 글을 참고해주십시오.
 
 <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>
 
