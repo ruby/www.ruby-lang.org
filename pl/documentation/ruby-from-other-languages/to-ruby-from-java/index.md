@@ -51,6 +51,9 @@ W przeciwieństwie do Javy, w Rubim…
 * Używasz domieszkowania klas (ang. “mixins”) zamiast interfejsów.
 * Preferowany jest YAML wobec XMLa.
 * Istnieje `nil` zamiast `null`.
+* `==` i `equals()` są obsługiwane inaczej w Rubim. Używaj `==` kiedy chcesz
+  sprawdzić równość w Rubim (`equals()` w Java). Używaj `equal?()`
+  kiedy chcesz wiedzieć czy dwa obiekty są takie same (`==` w Java).
 
 
 
