@@ -87,13 +87,14 @@ Jeśli dwa obiekty mają ten sam `object_id`, to są tym samym obiektem
 Jeśli zatem użyjesz raz jakiegoś symbolu, to kolejne odwołania do niego,
 zawsze będą odnosić się do tego samego obiektu. Każde dwa symbole
 reprezentujące ten sam ciąg znaków wskazują na ten sam obiekt w pamięci.
+Ich `object_id` pasują do siebie.
 
 Spójrzmy na String (“george”). Wartości `object_id` nie są te same.
 Znaczy to tyle, że odnosimy się do dwóch osobnych obiektów w pamięci.
 Kiedykolwiek używasz Stringów, Ruby dla każdego z nich alokuje pamięć.
 
 Jeśli nie jesteś pewien w jakim scenariuszu użyć Symbolu a w jakim
-Stringu, zastanów się co w danym przypadku jest istotne—tożsamość
+Stringa, zastanów się co w danym przypadku jest istotne — tożsamość
 obiektu (na przykład w słowniku), czy jego wartość (“george”).
 
 ### Wszystko jest obiektem.
@@ -127,7 +128,7 @@ dolara ($), jest zmienną globalną. Jeśli zaczyna się od `@`, jest
 zmienną należącą do egzemplarza obiektu. Jeśli zaczyna się od `@@`, jest
 zmienną należącą do klasy.
 
-Nazwy metod mogą zaczyna się od wielkiej litery. Może być to źródłem
+Nazwy metod mogą zaczynać się od wielkiej litery. Może być to źródłem
 pewnego zamieszania, jak widać poniżej:
 
 {% highlight ruby %}
@@ -411,19 +412,23 @@ end
 
 Nie potrzebujesz operatora z C++’s `operator+`, etc.
 
-Poniższe operatory jednak **nie są cukrem syntaktycznym**. Nie są
-metodami dlatego nie można ich przedefiniować.
+Możesz nawet mieć operator tablicowy, o ile zdefiniujesz metody `[]` and `[]=`.
+By zdefiniować jednoskładnikowy + i – (tak jak +1 i -2), musisz zdefiniować
+odpowiednio metody `+@` i `-@`. Poniższe operatory jednak
+**nie są cukrem syntaktycznym**. Nie są metodami dlatego nie można ich
+przedefiniować.
 
 {% highlight ruby %}
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`, `var = var * other_var`, etc. dlatego też nie można ich przedefiniować.
+Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`,
+`var = var * other_var`, etc. dlatego też nie można ich przedefiniować.
 
 ## Więcej
 
 Więcej informacji na temat języka Ruby znajdziesz w
-[dokumentacji](/pl/documentation/)
+[dokumentacji](/pl/documentation/).
 
 
 
