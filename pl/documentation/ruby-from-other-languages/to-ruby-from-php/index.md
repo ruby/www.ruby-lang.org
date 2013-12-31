@@ -42,8 +42,6 @@ W przeciwieństwie do PHP, w Rubim…
   abs(-1) piszesz -1.abs.
 * Nawiasy są opcjonalne w wywołaniach metod, chyba że musisz wyjaśnić w
   ten sposób, które parametry odnoszą się do odpowiednich wywołań metod.
-* Nawiasy są opcjonalne w wywołaniach metod, poza przypadkiem kiedy
-  musisz wskazać które parametry należą do którego wywołania metody.
 * Zamiast konwencji nazw (np. podkreśleń), biblioteka standardowa
   Rubiego (i nie tylko) jest podzielona na moduły i klasy
 * Mechanizm refleksji jest odziedziczoną właściwością obiektów, nie
