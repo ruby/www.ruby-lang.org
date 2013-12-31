@@ -12,11 +12,31 @@ Kenntnisstands ist.
 
 Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Einstiegspunkt:
 
+## Deutschsprachige Seiten
+
+[Ruby-Forum](https://forum.ruby-portal.de)
+: Das deutschsprachige Ruby-Forum ist der Haupttreffpunkt für die
+  Ruby-Community in und aus Deutschland. Hilfestellungen für Neulinge
+  werden ebenso gern gegeben wie ausschweifende Diskussionen über
+  Ruby-Interna geführt.
+
+[Ruby im IRC](irc://irc.freenode.net/ruby-de)
+: Der deutschsprachige IRC-Channel zu Ruby ist zwar lange nicht so
+  aktiv wie der englische (siehe unten), aber deswegen noch nicht uninteressant.
+
 [Ruby User Groups](user-groups/)
 : Ihre lokale Ruby User Group ist der beste Ort, um sich mit anderen
   Ruby-Programmierern auszutauschen. Ruby-Benutzergruppen organisieren sich
   selbst, und typischerweise gibt es monatliche Treffen, eine Mailingliste,
-  eine Website und eventuell auch häufig stattfindende Programmierparties.
+  eine Website und eventuell auch häufig stattfindende
+  Programmierparties.
+
+[RubyWiki](http://wiki.ruby-portal.de)
+: Das einzige deutschsprachige Ruby-Wiki ist eine gute Anlaufstelle
+  für häufige Fragen und Sammelstelle für unterschiedlichstes Wissen
+  aus dem Bereich um die Programmiersprache Ruby.
+
+## Internationale Seiten
 
 [Ruby-Mailinglisten und Newsgroups](mailing-lists/)
 : Für Ruby gibt es eine Auswahl an Mailinglisten zu verschiedenen
