@@ -24,7 +24,7 @@ sección a continuación, pero aquí hay un resumen:
   la forma más familiar para personas que usan un sistema operativo para todo y 
   prefieren acogerse a esos stándares individuales.
 
-Finlemente, si quieres usar diferentes versiones de Ruby en la misma máquina, revisa
+Finalmente, si quieres usar diferentes versiones de Ruby en la misma máquina, revisa
 la sección de **herramientas de terceros** y usa RVM. Es de lejos la mejor forma de
 lograr esto, a menos que conozcas exactamente lo que haces.
 
@@ -194,7 +194,7 @@ Mac OS X Tiger incluye la version 1.8.2 de Ruby, y Leopard contiene 1.8.6, pero
 para aquellos que no han actualizado a Leopard, hay varias opciones para instalar la
 última versión de Ruby.
 
-Muchus usuarios de Mac OS X usan [Homebrew][12] como gestor de paquetes. Es fácil
+Muchos usuarios de Mac OS X usan [Homebrew][12] como gestor de paquetes. Es fácil
 instalar Ruby:
 
 {% highlight sh %}
