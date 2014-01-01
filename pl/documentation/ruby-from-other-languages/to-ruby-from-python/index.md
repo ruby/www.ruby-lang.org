@@ -35,7 +35,7 @@ Podobnie jak w Pythonie, w Rubim,...
 W odróżnieniu od Pythona, w Rubim,...
 
 * Stringi są mutowalne (modyfikowalne).
-* Możesz tworzyć stałe.
+* Możesz tworzyć stałe (zmienne, których wartości nie zamierzasz zmieniać).
 * Istnieje kilka narzuconych konwencji (np. nazwy klas zaczynają się z
   dużej litery, nazwy zmiennych zaczynają się z małej litery).
 * Istnieje tylko jeden rodzaj kontenera list, jest nim tablica (Array),
@@ -44,41 +44,37 @@ W odróżnieniu od Pythona, w Rubim,...
   parsującą wyrażenia Rubiego, których wynik jest włączany do reszty
   zawartości stringa i łączenia z oddzielnych fragmentów ( `"add " +
   "strings " + "together"`) Odpowiednikiem pojedynczych cudzysłowów są
-  pythonowe `r'raw strings'`
-^
-
+  pythonowe `r'raw strings'`.
 * Nie ma klas w “starym” i “nowym” stylu, jest tylko jeden rodzaj klas.
+  (Python 3+ nie ma tego problemu, ale nie jest w pełni kompatybilny z
+  Pythonem 2).
 * Nigdy bezpośrednio nie masz dostępu do atrybutów. W Rubim wszystko to
   wywołania metod.
 * Nawiasy w wywołaniach metod są zazwyczaj opcjonalne.
+* There’s `public`, `private`, and `protected` to enforce access,
+  instead of Python’s `_voluntary_` underscore `__convention__`.
 * Istnieją słowa kluczowe `public`, `private`, `protected` aby określić
-  zakres dostępu do metod. W Pythonie stosuje się do tego celu umowną
-  konwencję oraz mieszanie nazw. Pythonowym “odpowiednikiem” zakresu
-  protected są metody, których nazwy zaczynają się od znaku
-  podkreślenia. Zaś “odpowiednikiem” zakresu private są metody, których
-  nazwy zaczynają się od dwóch znaków podkreślenia.
+  zakres dostępu do metod, w odróżnieniu od Pythonowych konwencji z
+  podkreśleniami `_voluntary_`, `__convention__`.
 * Zamiast dziedziczenia wielobazowego stosuje się domieszkowanie klas
   (mixin).
+* Możesz dodawać lub modyfikować metody wbudowanych klas. Oba języki pozwalają
+  ci otwierać i modyfikować klasy w dowolnym momencie, ale Python nie pozwala na
+  modyfikowanie klas wbudowanych, a Ruby nie zabrania.
 * Jest `true` oraz `false` zamiast `True` oraz `False` (oraz `nil`
   zamiast `None`).
 * Kiedy testujesz prawdziwość wyrażenia, tylko `false` i `nil` oznaczają
-  nieprawdę. Wszystko inne oznacza prawdę (włączając `0`, `0.0` oraz
-  `"0"`).
+  nieprawdę. Wszystko inne oznacza prawdę (włączając `0`, `0.0`, `""`
+  oraz `[]`).
 * Jest `elsif` zamiast `elif`.
-* Jest `require` zamiast `import`. Pythonowe import działa inaczej, bo
-  dotyczy modułów a nie tylko samych plików. Rubinowe “require” działa
-  podobnie jak “require\_once” z PHP, po prostu załącza plik i nic
-  więcej. Natomiast Pythonowe “import” nie tylko włącza plik ale również
-  a) kompiluje go automatycznie do bytecodu (\*.pyc), za drugim razem
-  czytany jest ten skompilowany plik, b) wszystkie klasy w tym pliku są
-  umieszczane w przestrzeni nazw, określonej nazwą tego pliku. Np.
-  import alamakota daje dostęp do wszystkich obiektów poprzez prefiks
-  alamakota.
-* Komentarze umieszcza się nad a nie pod odnoszącym się fragmentem kodu
-  (Pythonowe docstringi umieszcza się *pod* nazwą metody, poza tym
-  docstringi są integralną częścią każdej klasy czy metody i są dostępne
-  przez metodę `__doc__`
+* Jest `require` zamiast `import`. Użycie jest to samo.
+* Komentarze umieszczone *nad* fragmentem kodu
+  (Pythonowe docstringi umieszcza się *pod* nazwą metody) są używane do
+  generowania dokumentacji.
 * Istnieje wiele skrótów, które pomimo tego że wymagają się nauczenia i
   zapamiętania, sprawiają, że praca z Rubim jest przyjemna i
   produktywna.
-
+* Nie ma możliwości do wycofania ustawionej raz zmiennej (jak Pythonowe
+  wyrażenie `del`). Możesz zresetować zmienną na `nil`, umożliwiając odzyskanie
+  pamięci po starej wartości, ale zmienna pozostanie w tabeli symboli tak długo
+  jak jest w zasięgu.
