@@ -1590,12 +1590,12 @@ locales:
           url: /vi/feeds/news.rss
     zh_tw:
       get_started:
-        text: <strong>上手入門</strong>, 一點都不難!
+        text: <strong>上手入門</strong>，一點都不難!
         try_ruby:
           text: 在瀏覽器中試用 Ruby!
           <<: *try_ruby
         quickstart:
-          text: 20分鐘 Ruby 體驗
+          text: 20 分鐘 Ruby 體驗
           url: /zh_tw/documentation/quickstart/
         ruby_from_other_languages:
           text: 從其他語言到 Ruby
@@ -1644,12 +1644,12 @@ locales:
       top_ruby_projects:
         text: 熱門的 Ruby 專案
         more:
-          text: 更多專案…
+          text: 更多專案...
           url: /zh_tw/libraries/top-projects/
       syndicate:
         text: 訂閱
         recent_news:
-          text: 最新消息 (RSS)
+          text: 最新消息（RSS）
           url: /zh_tw/feeds/news.rss
     zh_cn:
       get_started:
@@ -1852,7 +1852,7 @@ locales:
       unsubscribe: 退订
       submit: 提交表格
     zh_tw:
-      list: 郵件組
+      list: 郵件論壇
       first_name: 名
       last_name: 姓
       email: 電子郵件
