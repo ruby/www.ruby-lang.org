@@ -247,6 +247,7 @@ MRI 與某些實作遵循 [RubySpec][28]，Ruby 程式語言的完整規格文�
 [62]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
 [63]: https://ftp.ruby-lang.org/pub/ruby/
 [64]: http://cache.ruby-lang.org/pub/ruby/
+[65]: http://ruby.taobao.org/mirrors/ruby/
 
 [rbenv]: https://github.com/sstephenson/rbenv
 [ruby-install]: https://github.com/postmodern/ruby-install
