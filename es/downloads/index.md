@@ -184,14 +184,6 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-##### Gentoo/Sabayon/Funtoo Linux
-
-Para sistemas Linux que utilizan el gestor de paquetes Portage, puedes utilizar algo como:
-
-{% highlight sh %}
-# emerge ruby
-{% endhighlight %}
-
 ##### Fedora
 
 Fedora utiliza el gestor de paquetes YUM. Puedes usar algo como esto:
@@ -204,6 +196,10 @@ La versión instalada sera normalmente la última versión de Ruby disponible
 cuando la versión especifica de Fedora fue lanzada (ej. Ruby 2.0.0
 está disponible en Fedora 20 mientras que Fedora 21 probablemente provee
 Ruby 2.1.0).
+
+##### Otras Distribuciones
+
+En otros sistemas puedes buscar utilizando gestor de paquetes de tu distribución de Linux, o quizá RVM podría ser la mejor opción para ti.
 
 
 ### Ruby en OS X
