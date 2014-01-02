@@ -47,7 +47,7 @@ Ruby 2.1.0-preview2 をリリースしました。
 * RGenGC (ささださんの [RubyKaigi での発表](http://rubykaigi.org/2013/talk/S73) や [RubyConf 2013 での発表](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf) を参照してください)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 文法の変更
-  * 小数リテラルと複素数リテラル [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * 有理数リテラルと複素数リテラル [#8430](https://bugs.ruby-lang.org/issues/8430)
   * def の返り値 [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * 128ビット整数の使用 [#8509](https://bugs.ruby-lang.org/issues/8509)
