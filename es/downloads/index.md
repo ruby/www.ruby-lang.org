@@ -242,7 +242,7 @@ Esta es la lista:
   compiladores optimizados JIT, recolectores de basura, hilos concurrentes,
   ecosistema de herramientas y una gran colección de librerías.
 * [Rubinius][22] es ‘Ruby escrito en Ruby’. Construido sobre LLVM,
-  Rubinius usa una ingeniosa máquina virtual que otros lenguages están siendo
+  Rubinius usa una ingeniosa máquina virtual sobre la que otros lenguages están siendo
   construidos también.
 * [MacRuby][23] es Ruby que está integrado con la librería Cocoa de Apple, 
   permitiendo escribir aplicaciones de escritorio con facilidad.
