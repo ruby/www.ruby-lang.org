@@ -159,6 +159,8 @@ el nombre correcto del paquete o usar RVM en su caso.
 
 #### Ruby en Linux
 
+##### Debian o Ubuntu
+
 Debian GNU/Linux o Ubuntu usa el sistema de gestión de paquetes apt. Puedes usar
 algo como esto:
 
@@ -172,6 +174,8 @@ compatibilidad’ de 1.9.1, de ahí el nombre.
 Si instalas el paquete ‘ruby’, podrías estar obteneiendo la antigua versión 1.8, dependiendo
 de la distribución.
 
+##### Arch Linux
+
 Arch Linux usa el gestor de paquetes llamado pacman. Para obtener Ruby, haz lo
 siguiente:
 
@@ -179,11 +183,28 @@ siguiente:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-Gentoo/Sabayon/Funtoo Linux:
+
+##### Gentoo/Sabayon/Funtoo Linux
+
+Para sistemas Linux que utilizan el gestor de paquetes Portage, puedes utilizar algo como:
 
 {% highlight sh %}
 # emerge ruby
 {% endhighlight %}
+
+##### Fedora
+
+Fedora utiliza el gestor de paquetes YUM. Puedes usar algo como esto:
+
+{% highlight sh %}
+$ su -c "yum install ruby"
+{% endhighlight %}
+
+La versión instalada sera normalmente la última versión de Ruby disponible
+cuando la versión especifica de Fedora fue lanzada (ej. Ruby 2.0.0
+está disponible en Fedora 20 mientras que Fedora 21 probablemente provee
+Ruby 2.1.0).
+
 
 ### Ruby en OS X
 
