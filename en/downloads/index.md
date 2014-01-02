@@ -162,6 +162,8 @@ instead.
 
 #### Ruby on Linux
 
+##### Debian or Ubuntu
+
 Debian GNU/Linux or Ubuntu use the apt package manager system.
 You can use it like this:
 
@@ -175,12 +177,29 @@ compatibility version’ of 1.9.1, hence the name.
 If you install the ‘ruby’ package, you might get the older Ruby 1.8,
 depending on the distro.
 
+##### Arch Linux
+
 Arch Linux uses a package manager named pacman. To get Ruby, just do
 this:
 
 {% highlight sh %}
 $ sudo pacman -S ruby
 {% endhighlight %}
+
+##### Fedora
+
+Fedora use YUM package manager system. You can use it like this:
+
+{% highlight sh %}
+$ su -c "yum install ruby"
+{% endhighlight %}
+
+The installed version is typically the latest version of Ruby available
+when specific version of Fedora was released (e.g. Ruby 2.0.0 is
+available in Fedora 20 while Fedora 21 will most likely provide
+Ruby 2.1.0).
+
+##### Other Distributions
 
 On other systems you can search the package repository for your
 Linux distro’s manager, or RVM might be the right choice for you.
