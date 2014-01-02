@@ -42,8 +42,8 @@ Fastly による
 * RGenGC (ささださんの [RubyKaigi での発表](http://rubykaigi.org/2013/talk/S73) や [EuRuKo での発表](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf) を参照してください)
 * refinements
 * syntax
-* 小数リテラル
-* freeze された文字列リテラル
+  * 有理数リテラル
+  * freeze された文字列リテラル
 * def の返り値
 * Bignum
 * 128ビット
