@@ -15,7 +15,7 @@ Puedes obtener una copia de Ruby de distintas formas y personas distintas pueden
 preferir uno de los tres métodos por diferentes razones. Cada forma tendrá una
 sección a continuación, pero aquí hay un resumen:
 
-* **Compilar desde las fuentes** es la forma estándar con el que el software ha
+* **Compilar desde las fuentes** es la forma estándar con la que el software ha
   sido distribuido desde hace muchos, muchos años. Esta será la forma más común
   para un mayor número de desarrolladores de software.
 * Hay algunas **herramientas de terceros** para instalar Ruby. Estas son a menudo
@@ -106,7 +106,7 @@ del mundo. Intenta usar el mirror site más cerca de ti.
 ### Herramientas de terceros
 
 Muchos usuarios de Ruby usan herramientas de terceros para ayudarles a instalar Ruby. 
-Tienen varias ventajas pero no son oficialmente soportados. Sin embargo, sus respectivas 
+Tienen varias ventajas pero no son oficialmente soportadas. Sin embargo, sus respectivas 
 comunidades son de gran ayuda.
 
 #### RVM
@@ -166,10 +166,10 @@ algo como esto:
 $ sudo apt-get install ruby1.9.1
 {% endhighlight %}
 
-Si, esto instalará Ruby 1.9.2 o más reciente. Tiene una ‘versión de librería de
+Sí, esto instalará Ruby 1.9.2 o más reciente. Tiene una ‘versión de librería de
 compatibilidad’ de 1.9.1, de ahí el nombre.
 
-Si instalar el paquete ‘ruby’, tu podrías obtener la antigua versión 1.8, dependiendo
+Si instalas el paquete ‘ruby’, podrías estar obteneiendo la antigua versión 1.8, dependiendo
 de la distribución.
 
 Arch Linux usa el gestor de paquetes llamado pacman. Para obtener Ruby, haz lo
@@ -226,11 +226,11 @@ desde el repositorio de OpenSolaris para Ruby 1.9. Es fácil:
 $ pkg install runtime/ruby-18
 {% endhighlight %}
 
-Como antes, RVM is la mejor forma de obtener la última versión de Ruby.
+Como antes, RVM es la mejor forma de obtener la última versión de Ruby.
 
 ### Otras implementaciones de Ruby
 
-Ruby, como lenguage, tienes diferentes implementaciones. En esta guía se ha
+Ruby, como lenguaje, tienes diferentes implementaciones. En esta guía se ha
 discutido la implementación de referencia, **MRI** ("Matz's Ruby Interpreter")
 o **Cruby**, pero hay también otras.
 Pueden ser útiles en ciertas situaciones, o características especiales que MRI
@@ -242,7 +242,7 @@ Esta es la lista:
   compiladores optimizados JIT, recolectores de basura, hilos concurrentes,
   ecosistema de herramientas y una gran colección de librerías.
 * [Rubinius][22] es ‘Ruby escrito en Ruby’. Construido sobre LLVM,
-  Rubinius usa una ingeniosa máquina virtual sobre la que otros lenguages están siendo
+  Rubinius usa una ingeniosa máquina virtual sobre la que otros lenguajes están siendo
   construidos también.
 * [MacRuby][23] es Ruby que está integrado con la librería Cocoa de Apple, 
   permitiendo escribir aplicaciones de escritorio con facilidad.
@@ -255,7 +255,7 @@ Esta es la lista:
   (Perl 6).
 
 Algunas de estas implementaciones, incluyendo MRI, siguen las pautas de [RubySpec][28],
-una "completa especificación ejecutable para el lenguage de programación Ruby".
+una "completa especificación ejecutable para el lenguaje de programación Ruby".
 
 [ruby21]: {{ site.downloads.stable.url.gz }}
 [ruby20]: {{ site.downloads.previous.url.gz }}
