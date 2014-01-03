@@ -10,11 +10,11 @@ lang: ja
 
 Rubyの各バージョンのソースコードは、以下から入手できます。
 
-* 最新の安定版であるruby {{ site.downloads.stable.version }}\[[tar.bz2][1]\|[tar.gz][2]\|[zip][3]\]が各ミラーサイトから入手できます。
-* 前世代の安定版であるruby {{ site.downloads.previous.version }}\[[tar.bz2][4]\|[tar.gz][5]\|[zip][6]\]が各ミラーサイトから入手できます。
-* 前々世代の安定版であるruby {{ site.downloads.previous19.version }}\[[tar.bz2][7]\|[tar.gz][8]\|[zip][9]\]が各ミラーサイトから入手できます。
-* 現時点での安定版スナップショット\[[tar.bz2][13]\|[tar.gz][14]\|[zip][15]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのruby 2.1系のブランチ(ruby\_2\_1ブランチ)の先端から自動的にスナップショットを取ったものです。
-* 現時点での最新版スナップショット\[[tar.bz2][10]\|[tar.gz][11]\|[zip][12]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。最新版スナップショットには、何らかの問題や不具合が残っている可能性があります。自己責任でご利用下さい。
+* 最新の安定版であるruby {{ site.downloads.stable.version }}\[[tar.bz2][stable-bz2]\|[tar.gz][stable-gz]\|[zip][stable-zip]\]が各ミラーサイトから入手できます。
+* 前世代の安定版であるruby {{ site.downloads.previous.version }}\[[tar.bz2][previous-bz2]\|[tar.gz][previous-gz]\|[zip][previous-zip]\]が各ミラーサイトから入手できます。
+* 前々世代の安定版であるruby {{ site.downloads.previous19.version }}\[[tar.bz2][previous-but-one-bz2]\|[tar.gz][previous-but-one-gz]\|[zip][previous-but-one-zip]\]が各ミラーサイトから入手できます。
+* 現時点での安定版スナップショット\[[tar.bz2][stable-snapshot-bz2]\|[tar.gz][stable-snapshot-gz]\|[zip][stable-snapshot-zip]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのruby 2.1系のブランチ(ruby\_2\_1ブランチ)の先端から自動的にスナップショットを取ったものです。
+* 現時点での最新版スナップショット\[[tar.bz2][nightly-bz2]\|[tar.gz][nightly-gz]\|[zip][nightly-zip]\]が各ミラーサイトから入手できます。これはSubversionレポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。最新版スナップショットには、何らかの問題や不具合が残っている可能性があります。自己責任でご利用下さい。
 
 最新のソースを Subversion と Git のリポジトリから入手する方法については、[レポジトリガイド](/ja/documentation/repository-guide)を参照してください。
 
@@ -22,7 +22,7 @@ Rubyの各バージョンのソースコードは、以下から入手できま�
 
 Windows向けのバイナリが有志により配布されています。
 
-* [ActiveScriptRuby][17]
+* [ActiveScriptRuby][active-script-ruby]
   安定版に幾つかの便利なライブラリを加え、さらにRubyをCOMサーバとしても利用可能にしたもの。ベースはmswin32版
 * [RubyInstaller][rubyinstaller] (英語)
   安定版に多数の便利なライブラリを加えたもの。ベースはmingw32版
@@ -35,41 +35,41 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 
 ### HTTPミラーサイト
 
-* [CDN][54] (fastly.com)
-* [日本 1][40]及び[ミラー][22] (RingServer)
-* [日本 2][53] (マスターサイト) - HTTPS
-* [イギリス][39] (The Mirror Service)
-* [ドイツ][41] (AmbiWeb GmbH)
-* [ベルギー][42] (Easynet)
-* [デンマーク][43] (sunsite.dk)
-* [オランダ][44] (XS4ALL) - リリース版のみ
-* [アメリカ 1][45] (ibiblio.org)
-* [アメリカ 2][46] (lcs.mit.edu)
-* [アメリカ 3][47] (binarycode.org)
-* [アメリカ 4][48] (online-mirror.org)
-* [アメリカ 5][49] (trexle.com)
-* [オーストリア][50] (tuwien.ac.at)
-* [台湾 1][51] (cdpa.nsysu.edu.tw)
-* [台湾 2][52] (ftp.cs.pu.edu.tw)
+* [CDN][mirror-http-cdn] (fastly.com)
+* [日本 1][mirror-http-jp1]及び[ミラー][mirror-http-jp1-mirror] (RingServer)
+* [日本 2][mirror-https-jp2] (マスターサイト) - HTTPS
+* [イギリス][mirror-http-uk] (The Mirror Service)
+* [ドイツ][mirror-http-de] (AmbiWeb GmbH)
+* [ベルギー][mirror-http-be] (Easynet)
+* [デンマーク][mirror-http-dk] (sunsite.dk)
+* [オランダ][mirror-http-nl] (XS4ALL) - リリース版のみ
+* [アメリカ 1][mirror-http-us1] (ibiblio.org)
+* [アメリカ 2][mirror-http-us2] (lcs.mit.edu)
+* [アメリカ 3][mirror-http-us3] (binarycode.org)
+* [アメリカ 4][mirror-http-us4] (online-mirror.org)
+* [アメリカ 5][mirror-http-us5] (trexle.com)
+* [オーストリア][mirror-http-at] (tuwien.ac.at)
+* [台湾 1][mirror-http-tw1] (cdpa.nsysu.edu.tw)
+* [台湾 2][mirror-http-tw2] (ftp.cs.pu.edu.tw)
 
 ### FTPミラーサイト
 
-* [日本 1][21]及び[ミラー][22] (RingServer)
-* [日本 2][23] (IIJ)
-* [日本 3][25] (マスターサイト)
-* [韓国][26] (Korea FreeBSD Users Group)
-* [ドイツ][27] (FU Berlin)
-* [イギリス][28] (The Mirror Service)
-* [ベルギー][29] (Easynet)
-* [ロシア][30] (ChgNet)
-* [ギリシャ][31] (アテネ工科大)
-* [デンマーク][32] (sunsite.dk)
-* [アメリカ 1][33] (ibiblio.org)
-* [アメリカ 2][34] (lcs.mit.edu)
-* [オーストリア][35] (tuwien.ac.at)
-* [台湾 1][36] (cdpa.nsysu.edu.tw)
-* [台湾 2][37] (ftp.cs.pu.edu.tw)
-* [カナダ][38] (mirror.cs.mun.ca)
+* [日本 1][mirror-ftp-jp1]及び[ミラー][mirror-http-jp1-mirror] (RingServer)
+* [日本 2][mirror-ftp-jp2] (IIJ)
+* [日本 3][mirror-ftp-jp3] (マスターサイト)
+* [韓国][mirror-ftp-kr] (Korea FreeBSD Users Group)
+* [ドイツ][mirror-ftp-de] (FU Berlin)
+* [イギリス][mirror-ftp-uk] (The Mirror Service)
+* [ベルギー][mirror-ftp-be] (Easynet)
+* [ロシア][mirror-ftp-ru] (ChgNet)
+* [ギリシャ][mirror-ftp-gr] (アテネ工科大)
+* [デンマーク][mirror-ftp-dk] (sunsite.dk)
+* [アメリカ 1][mirror-ftp-us1] (ibiblio.org)
+* [アメリカ 2][mirror-ftp-us2] (lcs.mit.edu)
+* [オーストリア][mirror-ftp-at] (tuwien.ac.at)
+* [台湾 1][mirror-ftp-tw1] (cdpa.nsysu.edu.tw)
+* [台湾 2][mirror-ftp-tw2] (ftp.cs.pu.edu.tw)
+* [カナダ][mirror-ftp-ca] (mirror.cs.mun.ca)
 
 ### Rsyncミラーサイト
 
@@ -82,54 +82,54 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 Posted by Shugo Maeda on 26 May 2006
 {: .post-info}
 
-[1]: {{ site.downloads.stable.url.bz2 }}
-[2]: {{ site.downloads.stable.url.gz }}
-[3]: {{ site.downloads.stable.url.zip }}
-[4]: {{ site.downloads.previous.url.bz2 }}
-[5]: {{ site.downloads.previous.url.gz }}
-[6]: {{ site.downloads.previous.url.zip }}
-[7]: {{ site.downloads.previous19.url.bz2 }}
-[8]: {{ site.downloads.previous19.url.gz }}
-[9]: {{ site.downloads.previous19.url.zip }}
-[10]: {{ site.downloads.nightly_snapshot.url.bz2 }}
-[11]: {{ site.downloads.nightly_snapshot.url.gz }}
-[12]: {{ site.downloads.nightly_snapshot.url.zip }}
-[13]: {{ site.downloads.stable_snapshot.url.bz2 }}
-[14]: {{ site.downloads.stable_snapshot.url.gz }}
-[15]: {{ site.downloads.stable_snapshot.url.zip }}
-[17]: http://www.artonx.org/data/asr/
+[stable-bz2]: {{ site.downloads.stable.url.bz2 }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
+[stable-zip]: {{ site.downloads.stable.url.zip }}
+[previous-bz2]: {{ site.downloads.previous.url.bz2 }}
+[previous-gz]: {{ site.downloads.previous.url.gz }}
+[previous-zip]: {{ site.downloads.previous.url.zip }}
+[previous-but-one-bz2]: {{ site.downloads.previous19.url.bz2 }}
+[previous-but-one-gz]: {{ site.downloads.previous19.url.gz }}
+[previous-but-one-zip]: {{ site.downloads.previous19.url.zip }}
+[nightly-bz2]: {{ site.downloads.nightly_snapshot.url.bz2 }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[nightly-zip]: {{ site.downloads.nightly_snapshot.url.zip }}
+[stable-snapshot-bz2]: {{ site.downloads.stable_snapshot.url.bz2 }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[stable-snapshot-zip]: {{ site.downloads.stable_snapshot.url.zip }}
+[active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
-[21]: ftp://core.ring.gr.jp/pub/lang/ruby/
-[22]: http://www.t.ring.gr.jp/
-[23]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
-[25]: ftp://ftp.ruby-lang.org/pub/ruby/
-[26]: ftp://ftp.kr.freebsd.org/pub/ruby/
-[27]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
-[28]: ftp://ftp.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
-[29]: ftp://ftp.easynet.be/ruby/ruby/
-[30]: ftp://ftp.chg.ru/pub/lang/ruby/
-[31]: ftp://ftp.ntua.gr/pub/lang/ruby/
-[32]: ftp://sunsite.dk/mirrors/ruby/
-[33]: ftp://www.ibiblio.org/pub/languages/ruby/
-[34]: ftp://xyz.lcs.mit.edu/pub/ruby/
-[35]: ftp://gd.tuwien.ac.at/languages/ruby/
-[36]: ftp://ruby.cdpa.nsysu.edu.tw/ruby/
-[37]: ftp://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
-[38]: ftp://mirror.cs.mun.ca/pub/mirror/ruby/
-[39]: http://www.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
-[40]: http://www.dnsbalance.ring.gr.jp/archives/lang/ruby/
-[41]: http://dl.ambiweb.de/mirrors/ftp.ruby-lang.org/
-[42]: http://ruby.mirror.easynet.be/
-[43]: http://mirrors.sunsite.dk/ruby/
-[44]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
-[45]: http://www.ibiblio.org/pub/languages/ruby/
-[46]: http://xyz.lcs.mit.edu/ruby/
-[47]: http://www.binarycode.org/ruby/
-[48]: http://www.online-mirror.org/ruby/
-[49]: http://ruby.trexle.com/
-[50]: http://gd.tuwien.ac.at/languages/ruby/
-[51]: http://pluto.cdpa.nsysu.edu.tw/ruby/
-[52]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
-[53]: https://ftp.ruby-lang.org/pub/ruby/
-[54]: http://cache.ruby-lang.org/pub/ruby/
+[mirror-http-cdn]: http://cache.ruby-lang.org/pub/ruby/
+[mirror-http-jp1]: http://www.dnsbalance.ring.gr.jp/archives/lang/ruby/
+[mirror-http-jp1-mirror]: http://www.t.ring.gr.jp/
+[mirror-https-jp2]: https://ftp.ruby-lang.org/pub/ruby/
+[mirror-http-uk]: http://www.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
+[mirror-http-de]: http://dl.ambiweb.de/mirrors/ftp.ruby-lang.org/
+[mirror-http-be]: http://ruby.mirror.easynet.be/
+[mirror-http-dk]: http://mirrors.sunsite.dk/ruby/
+[mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
+[mirror-http-us1]: http://www.ibiblio.org/pub/languages/ruby/
+[mirror-http-us2]: http://xyz.lcs.mit.edu/ruby/
+[mirror-http-us3]: http://www.binarycode.org/ruby/
+[mirror-http-us4]: http://www.online-mirror.org/ruby/
+[mirror-http-us5]: http://ruby.trexle.com/
+[mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
+[mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
+[mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
+[mirror-ftp-jp1]: ftp://core.ring.gr.jp/pub/lang/ruby/
+[mirror-ftp-jp2]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
+[mirror-ftp-jp3]: ftp://ftp.ruby-lang.org/pub/ruby/
+[mirror-ftp-kr]: ftp://ftp.kr.freebsd.org/pub/ruby/
+[mirror-ftp-de]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
+[mirror-ftp-uk]: ftp://ftp.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
+[mirror-ftp-be]: ftp://ftp.easynet.be/ruby/ruby/
+[mirror-ftp-ru]: ftp://ftp.chg.ru/pub/lang/ruby/
+[mirror-ftp-gr]: ftp://ftp.ntua.gr/pub/lang/ruby/
+[mirror-ftp-dk]: ftp://sunsite.dk/mirrors/ruby/
+[mirror-ftp-us1]: ftp://www.ibiblio.org/pub/languages/ruby/
+[mirror-ftp-us2]: ftp://xyz.lcs.mit.edu/pub/ruby/
+[mirror-ftp-at]: ftp://gd.tuwien.ac.at/languages/ruby/
+[mirror-ftp-tw1]: ftp://ruby.cdpa.nsysu.edu.tw/ruby/
+[mirror-ftp-tw2]: ftp://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
+[mirror-ftp-ca]: ftp://mirror.cs.mun.ca/pub/mirror/ruby/
