@@ -36,14 +36,14 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 ### HTTPミラーサイト
 
 * [CDN][mirror-http-cdn] (fastly.com)
-* 日本 1 (Ring Server)
+* [日本 1][mirror-https-jp] (マスターサイト) - HTTPS
+* 日本 2 (RingServer)
   * [shibaura-it.ac.jp][mirror-http-jp-ring-shibaura-it]
   * [tohoku.ac.jp][mirror-http-jp-ring-tohoku]
   * [u-toyama.ac.jp][mirror-http-jp-ring-u-toyama]
   * [yamanashi.ac.jp][mirror-http-jp-ring-yamanashi]
   * [airnet.ne.jp][mirror-http-jp-ring-airnet]
   * [maffin.ad.jp][mirror-http-jp-ring-maffin]
-* [日本 2][mirror-https-jp] (マスターサイト) - HTTPS
 * [イギリス][mirror-http-uk] (The Mirror Service)
 * [ドイツ][mirror-http-de] (AmbiWeb GmbH)
 * [ベルギー][mirror-http-be] (Easynet)
@@ -60,15 +60,15 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 
 ### FTPミラーサイト
 
-* 日本 1 (Ring Server)
+* [日本 1][mirror-ftp-jp3] (マスターサイト)
+* 日本 2 (RingServer)
   * [shibaura-it.ac.jp][mirror-ftp-jp-ring-shibaura-it]
   * [tohoku.ac.jp][mirror-ftp-jp-ring-tohoku]
   * [u-toyama.ac.jp][mirror-ftp-jp-ring-u-toyama]
   * [yamanashi.ac.jp][mirror-ftp-jp-ring-yamanashi]
   * [airnet.ne.jp][mirror-ftp-jp-ring-airnet]
   * [maffin.ad.jp][mirror-ftp-jp-ring-maffin]
-* [日本 2][mirror-ftp-jp2] (IIJ)
-* [日本 3][mirror-ftp-jp3] (マスターサイト)
+* [日本 3][mirror-ftp-jp3] (IIJ)
 * [韓国][mirror-ftp-kr] (Korea FreeBSD Users Group)
 * [ドイツ][mirror-ftp-de] (FU Berlin)
 * [イギリス][mirror-ftp-uk] (The Mirror Service)
@@ -133,13 +133,13 @@ Posted by Shugo Maeda on 26 May 2006
 [mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
 [mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
+[mirror-ftp-jp1]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-tohoku]: ftp://ring.tains.tohoku.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-u-toyama]: ftp://ring.u-toyama.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-yamanashi]: ftp://ring.yamanashi.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-airnet]: ftp://ring.airnet.ne.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-maffin]: ftp://ring.maffin.ad.jp/pub/lang/ruby/
-[mirror-ftp-jp2]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
 [mirror-ftp-jp3]: ftp://ftp.ruby-lang.org/pub/ruby/
 [mirror-ftp-kr]: ftp://ftp.kr.freebsd.org/pub/ruby/
 [mirror-ftp-de]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
