@@ -57,10 +57,11 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 * [オーストリア][mirror-http-at] (tuwien.ac.at)
 * [台湾 1][mirror-http-tw1] (cdpa.nsysu.edu.tw)
 * [台湾 2][mirror-http-tw2] (ftp.cs.pu.edu.tw)
+* [中国][mirror-http-cn] (ftp.cs.pu.edu.tw)
 
 ### FTPミラーサイト
 
-* [日本 1][mirror-ftp-jp3] (マスターサイト)
+* [日本 1][mirror-ftp-jp1] (マスターサイト)
 * 日本 2 (RingServer)
   * [shibaura-it.ac.jp][mirror-ftp-jp-ring-shibaura-it]
   * [tohoku.ac.jp][mirror-ftp-jp-ring-tohoku]
@@ -133,6 +134,7 @@ Posted by Shugo Maeda on 26 May 2006
 [mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
 [mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
+[mirror-http-cn]: http://ruby.taobao.org/mirrors/ruby/
 [mirror-ftp-jp1]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-tohoku]: ftp://ring.tains.tohoku.ac.jp/pub/lang/ruby/
