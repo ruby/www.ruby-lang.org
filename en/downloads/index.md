@@ -39,15 +39,15 @@ are no other premade packages for your platform.
 If you have an issue compiling Ruby, consider using one of the third
 party tools in the next section. They may help you.
 
-* [Ruby {{ site.downloads.stable.version }}][ruby21]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable
-* [Ruby {{ site.downloads.previous.version }}][ruby20]
+* [Ruby {{ site.downloads.previous.version }}][previous-gz]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Previous
-* [Ruby {{ site.downloads.previous19.version }}][ruby19]
+* [Ruby {{ site.downloads.previous19.version }}][previous-but-one-gz]
   (md5:&nbsp;{{ site.downloads.previous19.md5.gz }}) Previous 1.9
-* [Stable Snapshot][3] This is a tarball of the latest snapshot of the
+* [Stable Snapshot][stable-snapshot-gz] This is a tarball of the latest snapshot of the
   Stable branch (ruby\_2\_1).
-* [Nightly Snapshot][4] This is a tarball of whatever is in SVN, made
+* [Nightly Snapshot][nightly-gz] This is a tarball of whatever is in SVN, made
   nightly. This may contain bugs or other issues, use at your own risk!
 
 For information about the Ruby Subversion and Git repositories, see our
@@ -131,7 +131,7 @@ allows you to install and manage multiple copies of Ruby on your system,
 as well as multiple alternate implementations of Ruby.
 
 RVM is only available for Mac OS X, Linux, or any UNIX-like operating
-system. Windows users should check out [pik][5] for a similar project,
+system. Windows users should check out [pik][pik] for a similar project,
 or consider using RubyInstaller, described in the next section.
 
 As of this writing, you should be able to install RVM with:
@@ -141,7 +141,7 @@ $ \curl -L https://get.rvm.io | bash -s stable --ruby
 {% endhighlight %}
 
 For the latest instructions on installing RVM, check out [the RVM
-installation page][7]. The above command will install both RVM and the
+installation page][rvm]. The above command will install both RVM and the
 latest version of Ruby. RVM can also install most of the Ruby
 implementations listed below. To see all supported versions, type `rvm
 list known`.
@@ -149,14 +149,14 @@ list known`.
 #### RubyInstaller
 
 If you’re on Windows, there’s a great project to help you install Ruby:
-[RubyInstaller][8]. It gives you everything you need to set up a full
+[RubyInstaller][rubyinstaller]. It gives you everything you need to set up a full
 Ruby development environment on Windows.
 
 To use RubyInstaller, download it from the [RubyInstaller download
-page][9]. Then just use the installer, and you’re done!
+page][rubyinstall-downloads]. Then just use the installer, and you’re done!
 
 If you are installing Ruby in order to use Rails, you should use
-[RailsInstaller][10] which uses RubyInstaller but gives you extra tools
+[RailsInstaller][railsinstaller] which uses RubyInstaller but gives you extra tools
 that help with Rails development.
 
 ### Package Management Systems
@@ -220,13 +220,13 @@ Linux distro’s manager, or RVM might be the right choice for you.
 
 Ruby 1.8.7 is fully supported in Mac OS X Lion as well as many popular
 Ruby gems (packages). For details, see the [Ruby wiki at Mac OS
-Forge][11].
+Forge][macosforge-ruby].
 
 Mac OS X Tiger is packaged with version 1.8.2 of Ruby, and Leopard ships
 with 1.8.6, but, for those who haven’t upgraded to Leopard, there are a
 number of options for installing the latest version of Ruby.
 
-Many people on Mac OS X use [Homebrew][12] as a package manager. It’s
+Many people on Mac OS X use [Homebrew][brew] as a package manager. It’s
 really easy to get Ruby:
 
 {% highlight sh %}
@@ -239,19 +239,19 @@ with installation of new Ruby versions on OS X, it’s probably a good
 idea to use RVM. Type `rvm notes` for system-specific information.
 
 For a detailed look at installing Ruby (and Rails), Dan Benjamin’s
-excellent articles [for Tiger][13], [for Leopard][14], and [for Snow
-Leopard][15] will get you up and running very quickly. On Lion, [this
-article][16] can help you.
+excellent articles [for Tiger][hivelogic-tiger], [for Leopard][hivelogic-leopard], and [for Snow
+Leopard][hivelogic-snowleopard] will get you up and running very quickly. On Lion, [this
+article][intridea-lion] can help you.
 
 #### Ruby On Solaris and OpenIndiana
 
 Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
-[Sunfreeware][17] and Ruby 1.8.7 is available at [Blastwave][18].
-Ruby 1.9.2p0 is also available at [Sunfreeware][17], but this is outdated.
+[Sunfreeware][sunfreeware] and Ruby 1.8.7 is available at [Blastwave][blastwave].
+Ruby 1.9.2p0 is also available at [Sunfreeware][sunfreeware], but this is outdated.
 Using RVM can get you the latest version of Ruby.
 
-To install Ruby on [OpenIndiana][19], please use the [Image Packaging
-System, or IPS][20] client. This will install the latest Ruby binaries
+To install Ruby on [OpenIndiana][openindiana], please use the [Image Packaging
+System, or IPS][opensolaris-pkg] client. This will install the latest Ruby binaries
 and RubyGems directly from the OpenSolaris network repository for
 Ruby 1.9. It’s easy:
 
@@ -272,58 +272,58 @@ that MRI doesn’t.
 
 Here’s a list:
 
-* [JRuby][21] is Ruby atop the JVM (Java Virtual Machine), utilizing the
+* [JRuby][jruby] is Ruby atop the JVM (Java Virtual Machine), utilizing the
   JVM’s optimizing JIT compilers, garbage collectors, concurrent
   threads, tool ecosystem, and vast collection of libraries.
-* [Rubinius][22] is ‘Ruby written in Ruby’. Built on top of LLVM,
+* [Rubinius][rubinius] is ‘Ruby written in Ruby’. Built on top of LLVM,
   Rubinius sports a nifty virtual machine that other languages are being
   built on top of, too.
-* [MacRuby][23] is a Ruby that’s tightly integrated with Apple’s Cocoa
+* [MacRuby][macruby] is a Ruby that’s tightly integrated with Apple’s Cocoa
   libraries for Mac OS X, allowing you to write desktop applications
   with ease.
 * [mruby][mruby] is a lightweight implementation of the Ruby language
   that can be linked and embedded within an application.
   Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
-* [IronRuby][26] is an implementation “tightly integrated with the .NET
+* [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
   Framework”.
-* [MagLev][27] is “a fast, stable, Ruby implementation with integrated
+* [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
   object persistence and distributed shared cache”.
-* [Cardinal][24] is a “Ruby compiler for [Parrot][25] Virtual Machine”
+* [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
   (Perl 6).
 
 Some of those implementations, including MRI, follow the guidelines of
 [RubySpec][28], a “complete executable specification for the Ruby
 programming language”.
 
-[ruby21]: {{ site.downloads.stable.url.gz }}
-[ruby20]: {{ site.downloads.previous.url.gz }}
-[ruby19]: {{ site.downloads.previous19.url.gz }}
-[3]: {{ site.downloads.stable_snapshot.url.gz }}
-[4]: {{ site.downloads.nightly_snapshot.url.gz }}
-[5]: https://github.com/vertiginous/pik
-[7]: https://rvm.io/rvm/install/
-[8]: http://rubyinstaller.org/
-[9]: http://rubyinstaller.org/downloads/
-[10]: http://railsinstaller.org/
-[11]: http://trac.macosforge.org/projects/ruby/wiki
-[12]: http://brew.sh/
-[13]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
-[14]: http://hivelogic.com/articles/ruby-rails-leopard
-[15]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
-[16]: http://intridea.com/2011/7/26/setting-up-ruby-dev-on-lion?blog=company
-[17]: http://www.sunfreeware.com
-[18]: http://www.blastwave.org
-[19]: http://openindiana.org/
-[20]: http://opensolaris.org/os/project/pkg/
-[21]: http://jruby.org
-[22]: http://rubini.us
-[23]: http://www.macruby.org
+[stable-gz]: {{ site.downloads.stable.url.gz }}
+[previous-gz]: {{ site.downloads.previous.url.gz }}
+[previous-but-one-gz]: {{ site.downloads.previous19.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[pik]: https://github.com/vertiginous/pik
+[rvm]: https://rvm.io/rvm/install/
+[rubyinstaller]: http://rubyinstaller.org/
+[rubyinstaller-downloads]: http://rubyinstaller.org/downloads/
+[railsinstaller]: http://railsinstaller.org/
+[macosforge-ruby]: http://trac.macosforge.org/projects/ruby/wiki
+[brew]: http://brew.sh/
+[hivelogic-tiger]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
+[hivelogic-leopard]: http://hivelogic.com/articles/ruby-rails-leopard
+[hivelogic-snowleopard]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
+[intridea-lion]: http://intridea.com/2011/7/26/setting-up-ruby-dev-on-lion?blog=company
+[sunfreeware]: http://www.sunfreeware.com
+[blastwave]: http://www.blastwave.org
+[openindiana]: http://openindiana.org/
+[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
+[jruby]: http://jruby.org
+[rubinius]: http://rubini.us
+[macruby]: http://www.macruby.org
 [mruby]: https://github.com/mruby/mruby
-[24]: https://github.com/parrot/cardinal
-[25]: http://parrot.org
-[26]: http://www.ironruby.net
-[27]: http://ruby.gemstone.com
-[28]: http://rubyspec.org
+[ironruby]: http://www.ironruby.net
+[maglev]: http://ruby.gemstone.com
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
+[rubyspec]: http://rubyspec.org
 [mirror-http-cdn]: http://cache.ruby-lang.org/pub/ruby/
 [mirror-http-jp-ring-shibaura-it]: http://ring.shibaura-it.ac.jp/archives/lang/ruby/
 [mirror-http-jp-ring-tohoku]: http://ring.tains.tohoku.ac.jp/archives/lang/ruby/
