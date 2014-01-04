@@ -57,7 +57,7 @@ Rubyのソースコードや、それを含めた当サイトの内容が、有�
 * [オーストリア][mirror-http-at] (tuwien.ac.at)
 * [台湾 1][mirror-http-tw1] (cdpa.nsysu.edu.tw)
 * [台湾 2][mirror-http-tw2] (ftp.cs.pu.edu.tw)
-* [中国][mirror-http-cn] (ftp.cs.pu.edu.tw)
+* [中国][mirror-http-cn] (ruby.taobao.org)
 
 ### FTPミラーサイト
 
