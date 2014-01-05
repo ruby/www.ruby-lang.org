@@ -21,11 +21,11 @@ Hiroshi Shibata ([@hsbt](https://twitter.com/hsbt)).
 
 ### Schéma de versionnage
 
-* `MAJEUR`: incrémentée lorsque des changements incompatibles ne peuvent être sortis en version `MINEURE`
+* `MAJEUR`: incrémenté lorsque des changements incompatibles ne peuvent être sortis en version `MINEURE`
   * Réservée pour des occasions spéciales
-* `MINEUR`: incrémentée à chaque Noël, peut inclure des changements d'API incompatibles
+* `MINEUR`: incrémenté à chaque Noël, peut inclure des changements d'API incompatibles
 * `MICRO`: correction de bugs ou de failles de sécurité en conservant la compatibilité avec l'API
-  * Peut être incrémentée plus de 10 fois (comme `2.1.11`) et sortira tous les 2 ou 3 mois
+  * Peut être incrémenté plus de 10 fois (comme `2.1.11`) et sortira tous les 2 ou 3 mois
 * `PATCH`: nombre de commits depuis la dernière version `MINEURE` (sera remise à 0 à chaque sortie d'une version `MINEURE`)
 
 ### Schéma de gestion des branches
