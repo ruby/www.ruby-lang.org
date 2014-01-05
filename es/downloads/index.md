@@ -140,9 +140,13 @@ de desarrollo de Ruby en Windows.
 Para usar RubyInstaller, descargalo desde la [página de descarga de RubyInstaller][9].
 Después es sólo un instalador, y ya está listo.
 
-Si estás instalando Ruby para usar Rails, puedes usar [RailsInstaller][10] el cual
-usa RubyInstaller pero incluye herramientas extra para ayudarte al desarrollo de
-Rails.
+Si estás instalando Ruby para usar Rails, puedes usar los siguientes instaladores:
+
+* [Bitnami Ruby Stack][rubystack] el cual provee un entorno de desarrollo 
+  completo para Ruby On Rails. Soporta Windows, OS X, Linux, máquinas virtuales 
+  e imágenes en la nube.
+* [RailsInstaller][10] el cual usa RubyInstaller pero incluye herramientas 
+  extra para ayudarte al desarrollo de Rails.
 
 ### Sistemas de gestión de paquetes
 
@@ -283,6 +287,7 @@ una "completa especificación ejecutable para el lenguaje de programación Ruby"
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/
 [9]: http://rubyinstaller.org/downloads/
+[rubystack]: http://bitnami.com/stack/ruby/installer
 [10]: http://railsinstaller.org/
 [11]: http://trac.macosforge.org/projects/ruby/wiki
 [12]: http://brew.sh/
