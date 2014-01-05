@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Versionnage semantic à partir de Ruby 2.1.0"
+title: "Versionnage sémantique à partir de Ruby 2.1.0"
 author: "zzak"
 translator: "Geoffrey Roguelon"
 date: 2013-12-21 2:00:00 UTC
@@ -21,9 +21,9 @@ Hiroshi Shibata ([@hsbt](https://twitter.com/hsbt)).
 
 ### Schéma de versionnage
 
-* `MAJEURE`: incrémentée lorsque des changements incompatibles ne peuvent être sortis en MINEURE
+* `MAJEUR`: incrémentée lorsque des changements incompatibles ne peuvent être sortis en version `MINEURE`
   * Réservée pour des occasions spéciales
-* `MINEURE`: incrémentée à chaque Noël, peut inclure des changements d'API incompatibles
+* `MINEUR`: incrémentée à chaque Noël, peut inclure des changements d'API incompatibles
 * `MICRO`: correction de bugs ou de failles de sécurité en conservant la compatibilité avec l'API
   * Peut être incrémentée plus de 10 fois (comme `2.1.11`) et sortira tous les 2 ou 3 mois
 * `PATCH`: nombre de commits depuis la dernière version `MINEURE` (sera remise à 0 à chaque sortie d'une version `MINEURE`)
@@ -33,9 +33,9 @@ Hiroshi Shibata ([@hsbt](https://twitter.com/hsbt)).
 Nous maintiendrons les branches suivantes :
 
 * trunk
-* `ruby_{MAJEURE}_{MINEURE}`
+* `ruby_{MAJEUR}_{MINEUR}`
 
-La branche `ruby_{MAJEURE}_{MINEURE}` sera maintenue tant que des versions `MICRO`
+La branche `ruby_{MAJEUR}_{MINEUR}` sera maintenue tant que des versions `MICRO`
 sortiront.
 Nous utiliserons des tags pour chaque version.
 
@@ -49,9 +49,9 @@ nécessitant la sortie d'une version `MINEURE`:
 
 ### Compatibilité de l'ABI
 
-L'ABI respectera le schéma suivant : `{MAJEURE}.{MINEURE}.0`
+L'ABI respectera le schéma suivant : `{MAJEUR}.{MINEUR}.0`
 
-Nous fournirons le maximum d'effort pour consever la compatibilité de l'ABI avec
+Nous fournirons le maximum d'effort pour conserver la compatibilité de l'ABI avec
 la version `MINEURE`, par conséquent le numéro de version `MICRO` sera fixé à 0.
 
 ## Références
@@ -66,5 +66,5 @@ suivants :
 ## Merci !
 
 Je souhaiterais remercier personnellement tous ceux qui ont contribué à ce débat.
-Chaque décision permette d'avoir un Ruby plus stable et plus efficace.
+Chaque décision permet d'avoir un Ruby plus stable et plus efficace.
 
