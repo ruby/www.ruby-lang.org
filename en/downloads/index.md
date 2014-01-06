@@ -153,7 +153,7 @@ If you’re on Windows, there’s a great project to help you install Ruby:
 Ruby development environment on Windows.
 
 To use RubyInstaller, download it from the [RubyInstaller download
-page][rubyinstall-downloads]. Then just use the installer, and you’re done!
+page][rubyinstaller-downloads]. Then just use the installer, and you’re done!
 
 If you are installing Ruby in order to use Rails, you should use
 [RailsInstaller][railsinstaller] which uses RubyInstaller but gives you extra tools
