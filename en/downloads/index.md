@@ -290,7 +290,7 @@ Here’s a list:
   (Perl 6).
 
 Some of those implementations, including MRI, follow the guidelines of
-[RubySpec][28], a “complete executable specification for the Ruby
+[RubySpec][rubyspec], a “complete executable specification for the Ruby
 programming language”.
 
 [stable-gz]: {{ site.downloads.stable.url.gz }}
