@@ -32,7 +32,7 @@ Ruby User Groups:
 
 [onruby.de][3]
 : Ein Planungsportal für Ruby-Usergruppen in Deutschland.
-Kontaktinfos auf den jeweiligen Usergroup-Seiten.
+  Kontaktinfos auf den jeweiligen Usergroup-Seiten.
 
 ### Eine eigene User Group organisieren
 
