@@ -184,16 +184,14 @@ $ sudo pacman -S ruby
 
 ##### Fedora
 
-Fedora utiliza el gestor de paquetes YUM. Puedes usar algo como esto:
+Fedora utiliza el gestor de paquetes yum. Puedes usar algo como esto:
 
 {% highlight sh %}
 $ su -c "yum install ruby"
 {% endhighlight %}
 
 La versión instalada sera normalmente la última versión de Ruby disponible
-cuando la versión especifica de Fedora fue lanzada (ej. Ruby 2.0.0
-está disponible en Fedora 20 mientras que Fedora 21 probablemente provee
-Ruby 2.1.0).
+cuando la versión especifica de Fedora fue lanzada.
 
 ##### Otras Distribuciones
 
