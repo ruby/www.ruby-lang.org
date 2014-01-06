@@ -39,7 +39,7 @@ Die aufälligsten Änderungen sind:
   [RubyConf-2013-Präsentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)
 * Refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * Syntaxänderungen
-  * Decimal/Complex-Literal
+  * Rational/Complex-Literal
     [#8430](https://bugs.ruby-lang.org/issues/8430)
   * Rückgabewert von `def` [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
