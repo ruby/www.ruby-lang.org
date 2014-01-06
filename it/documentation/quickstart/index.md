@@ -111,7 +111,7 @@ un dupice scopo in Ruby, e uno di questi è raggruppare metodi simili
 insieme utilizzando un particolare nome adatto allo scopo. `Math`
 contiene molti altri metodi come per esempio `sin()` e `tan()`.
 
-Dopo `Match` c’è un punto, ma per quale ragione? Il punto è il modo per
+Dopo `Math` c’è un punto, ma per quale ragione? Il punto è il modo per
 identificare il ricevente di un dato messaggio, in questo caso
 `sqrt(9)`, che indica una chiamata al metodo `sqrt` con un parametro
 pari a `9`. `sqrt` viene dall’inglese “square root”, radice quadrata.
