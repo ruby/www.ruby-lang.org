@@ -100,7 +100,7 @@ In sintesi, i passi per costruire un patch sono:
 
          $ svn diff > ruby-changes.patch
 
-4.  Crea un biglietto nel [issue tracker][10] o
+4.  Crea un ticket nel [issue tracker][10] o
     manda via mail la tua patch [Ruby-Core mailing
     list](/it/community/mailing-lists/) con una entry sul
     ChangeLog che descrive la patch.
@@ -124,8 +124,9 @@ di Ruby, non stona esprimere una certa riverenza :-).
 Tieni presente che gli sviluppatori di Ruby Core vivono in Giappone e
 che, anche se molti parlano un ottimo inglese, c’è una notevole
 differenza di fuso orario. Essi hanno inoltre un insieme di liste di
-sviluppo in giapponese insieme a quelle in inglese. Sii paziente; se la
-tua richiesta non è assolta prova di nuovo qualche giorno più tardi.
+sviluppo in giapponese insieme a quelle in inglese. Sii paziente; 
+se la tua richiesta non è stata presa in gestione prova di nuovo qualche 
+giorno più tardi.
 
 ### Regole per i Core Developer
 {: #coding-standards}
