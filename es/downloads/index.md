@@ -156,7 +156,6 @@ básica es que la mayoría de gestores de paquetes tienen versiones antiguas de 
 en sus repositorios. Si prefieres usar la última versión de Ruby, asegúrate de usar
 el nombre correcto del paquete o usar RVM en su caso.
 
-
 #### Ruby en Linux
 
 ##### Debian o Ubuntu
@@ -183,7 +182,6 @@ siguiente:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-
 ##### Fedora
 
 Fedora utiliza el gestor de paquetes YUM. Puedes usar algo como esto:
@@ -201,8 +199,7 @@ Ruby 2.1.0).
 
 En otros sistemas puedes buscar utilizando gestor de paquetes de tu distribución de Linux, o quizá RVM podría ser la mejor opción para ti.
 
-
-### Ruby en OS X
+#### Ruby en Mac OS X
 
 Ruby 1.8.7 está soportado en Mac OS X Lion así como muchas gemas de Ruby populares.
 Para más detalles, consulta la [Wiki de Ruby en Mac OS Forge][11].
