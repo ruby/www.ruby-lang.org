@@ -132,6 +132,7 @@ Questa è una lista dei tool più comunemente usati dagli sviluppatori Ruby:
 * Per Mac OS X:
   * [TextMate][32]
   * [TextWrangler][33]
+  * [Dash][40] (Documentation Browser)
 
 ### Ulteriori Informazioni
 
@@ -181,3 +182,4 @@ iniziare.
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://corsorubyonrails.com/imparare-a-programmare/
+[40]: http://kapeli.com/dash
