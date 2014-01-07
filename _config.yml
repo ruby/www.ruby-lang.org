@@ -1867,6 +1867,7 @@ locales:
     fr: "Autres langues disponibles :"
     it: "Questo sito in altre lingue:"
     pl: "Ta strona w innych językach:"
+    ru: "Этот сайт на других языках:"
 
   credits:
     bg: |
@@ -1951,3 +1952,6 @@ locales:
       <a href="/en/about/logo/">The Ruby Logo</a> is Copyright &copy; 2006, Yukihiro Matsumoto; licensed under the terms of the <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
     pl: |
       <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006, Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
+    ru: |
+      Права на <a href="/ru/about/logo/">логотип Ruby</a> принадлежат Yukihiro Matsumoto (&copy; 2006) на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
+
