@@ -146,11 +146,11 @@ page][9]. Then just use the installer, and you’re done!
 If you are installing Ruby in order to use Rails, you can use the following
 installers:
 
+* [RailsInstaller][10] which uses RubyInstaller but gives you extra tools
+  that help with Rails development.
 * [Bitnami Ruby Stack][rubystack] wich provides a complete development
   environment for Ruby on Rails. It supports Windows, OS X, Linux, virtual
   machines and cloud images.
-* [RailsInstaller][10] which uses RubyInstaller but gives you extra tools
-  that help with Rails development.
 
 ### Package Management Systems
 
