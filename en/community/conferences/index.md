@@ -62,6 +62,8 @@ community since 2008. Visit [http://windycityrails.org][9] for details.
 and snow. Listen to engaging speakers, enjoy delicious food and enjoy the
 wonderful scenery around Bend Oregon.
 
+[Burlington Ruby Conference][18]: Summertime in beautiful Burlington, VT
+
 ### Ruby At Other Conferences
 
 There has been a Ruby track at the [O’Reilly Open Source Conference][10]
@@ -91,4 +93,5 @@ O’Reilly), and Canada on Rails.
 [15]: http://madisonruby.org/
 [16]: http://steelcityruby.org/
 [17]: http://ruby.onales.com/
+[18]: http://burlingtonrubyconference.com
 
