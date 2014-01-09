@@ -337,14 +337,14 @@ di programmazione Ruby”.
 [mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
 [mirror-http-cn]: http://ruby.taobao.org/mirrors/ruby/
-[mirror-ftp-jp1]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
+[mirror-ftp-jp1]: ftp://ftp.ruby-lang.org/pub/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-tohoku]: ftp://ring.tains.tohoku.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-u-toyama]: ftp://ring.u-toyama.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-yamanashi]: ftp://ring.yamanashi.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-airnet]: ftp://ring.airnet.ne.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-maffin]: ftp://ring.maffin.ad.jp/pub/lang/ruby/
-[mirror-ftp-jp3]: ftp://ftp.ruby-lang.org/pub/ruby/
+[mirror-ftp-jp3]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
 [mirror-ftp-kr]: ftp://ftp.kr.freebsd.org/pub/ruby/
 [mirror-ftp-de]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
 [mirror-ftp-uk]: ftp://ftp.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
