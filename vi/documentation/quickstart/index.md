@@ -124,7 +124,8 @@ irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2
 => 16
-irb(main):009:0> Math.sqrt(a+b) => 5.0
+irb(main):009:0> Math.sqrt(a+b)
+=> 5.0
 {% endhighlight %}
 
 Tuyệt vời như một chiếc máy tính, chúng ta đang vượt xa thông điệp `Xin chào
