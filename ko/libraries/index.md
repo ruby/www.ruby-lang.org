@@ -4,26 +4,47 @@ title: "라이브러리"
 lang: ko
 ---
 
-루비에서 사용할 수 있는 아주 매력적이고 재미있는 라이브러리들이 매우 많이 있습니다. 그 중 다수가 편리한 *젬* 방식으로
-배포되고 있습니다. 그 외의 라이브러리는 소스 코드 디렉터리를 압축(.zip, .tar.gz)한 형태로 배포됩니다. 루비
+대부분의 프로그레밍 언어와 마찬가지로 루비에서도 폭넓은 서드파티 라이브러리가
+제공되고 있습니다.
+{: .summary}
+
+대부분의 서드파티 라이브러리들은 **젬**방식으로 배포되고 있습니다. [**RubyGems**][1]는
+루비에 특화된 `apt-get`비슷한 분산 패키지 시스템으로 라이브러리의 작성이나 공개,
+인스톨을 도와주는 시스템입니다. 루비 1.9 이후 버전부터 RubyGems는 루비에 표준첨부
+되었습니다. 이전 버전의 루비에서는 [직접 인스톨][2] 할 필요가 있습니다.
+
+그 외의 라이브러리는 **소스 코드** 디렉터리를 압축(.zip, .tar.gz)한 형태로 배포됩니다.
+인스톨 방법은 다양하지만 보통 `README` 이나 `INSTALL`에 방법이 적혀있습니다.
+
 라이브러리를 찾는 방법과 이를 설치하여 사용하는 것에 대해 알아봅니다.
 
 ### 라이브러리 찾기
-{: #finding-libraries}
 
-[**루비포지**][1]는 가장 유명한 루비 라이브러리 홈페이지입니다. 이 사이트를 살펴보는 유용한 방법중 하나가 바로
-[소프트웨어 맵][2]인데 여기서 주제에 대한 라이브러리 목록을 볼 수 있습니다. (혹시 자신만의 라이브러리를 만들었다면, 이를
-루비포지에 프로젝트로 [등록][3]해서 서브버전 접근, 웹 공간, 메일링 리스트 등의 지원을 무료로 받을 수 있습니다.)
+루비의 라이브러리는 보동 [**RubyGems.org**][1]에서 젬으로 제공됩니다. 직접
+웹사이트에서 둘러보거나 `gem`명령어로 이용할 수 있습니다.
 
-[**루비 애플리케이션 아카이브**][4] (줄여서 RAA)는 모든 종류의 루비 소프트웨어가 기능별로 분류되어 있는 디렉터리
-입니다. 현재는 [Net][5] 분류에 가장 많은 항목이 있고, 뒤를 이어 [Database][6] 분류가 있습니다.
-[HTML][7]과 [XML][8] 도 인기있는 분류입니다. [물리][9] 항목에도 4개의 애플리케이션이 등록되어 있네요.
+`gem search -r`명령어를 사용해 RubyGems의 저장소를 조사할 수 있습니다. 예를 들어
+`gem search -r rails`는 레일즈와 관련된 젬들의 목록을 돌려줍니다.
+`--local` (`-l`) 옵션을 사용하면 인스톨된 들에대해 로컬 검색할 수 있습니다. 젬을
+인스톨 하려면 `gem install [gem]`을 사용합니다. 인스톨된 젬을 보려면 `gem
+list`를 사용합니다. 좀 더 정보가 필요하시면 아래 내용을 좀 더 읽으시거나 [RubyGems의
+문서][3]를 참조하세요.
 
-### RubyGems 사용하기
-{: #using-rubygems}
+다른 라이브러리의 배포처도 있습니다. [RubyForge][4]는 예전엔 루비 라이브러리의
+배포처로 널리 사용되었던 적이 있습니다. 하지만 최근 몇년간 [**GitHub**][5]가
+루비 관련 라이브러리의 배포처로 대두되었습니다. 젬으로 RubyGems.org에
+공개되어 있지만, 대부분의 젬의 소스코드는 GitHub에서 볼 수 있습니다.
 
-윈도우 설치 프로그램에는 RubyGems가 포함되어 있지만, 대부분의 운영체제에서는 직접 설치를 해야 합니다. 만일 아래의
-명령어가 동작하지 않는다면, 아래의 [RubyGems 설치하기](#installing-rubygems) 항목을 참조하기 바랍니다.
+[**The Ruby Toolbox**][6]는 오픈소스이며 루비 프로젝트를 검색하기 쉽게 하기 위한
+프로젝트 입니다. 다양한 종류의 일반적인 개발 태스크를 카테고리로 릴리즈나 커밋의
+활발함 라이브러리의 의존관계 등 각 프로젝트의 다양한 정보를 모았습니다. 또 RubyGems.org와
+GitHub의 인기를 바탕으로 프로젝트의 순위를 매깁니다. 검색을 하면 원하는 것을 쉽게 찾으실
+수 있을 것입니다.
+
+### RubyGems에 대한 보충 설명
+
+많이 쓰이는 `gem` 커맨드를 가볍게 보시려면, 이 패키지 관리시스템의 전반에
+대한 [좀 더 자세한 문서][7]도 있습니다.
 
 #### 젬 찾기
 
@@ -31,75 +52,72 @@ lang: ko
 싶다면,
 
 {% highlight sh %}
-$ gem search html --remote
+$ gem search -r html
 
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-(*@—remote@ 플래그는 루비포지의 공식 젬 서버에서 찾겠다는 의미입니다.*)
+`--remote` / `-r` 플래그는 공식 RubyGems.org 저장소에서 검색하려 한다는
+의미입니다. (기본 동작) `--local` / `-l` 플래그로는 인스톨된 젬에 대해
+검색하게 됩니다.
 
 #### 젬 설치하기
 
-어떤 젬을 설치하기를 원한다면 **install** 명령을 사용합니다.
+어떤 젬을 설치하기를 원한다면 **install** 명령을 사용합니다. 예를 들어 레일즈를
+인스톨 하려면 이렇게 하면됩니다.
 
 {% highlight sh %}
-$ gem install html-sample
+$ gem install rails
 {% endhighlight %}
 
-`--version` 플래그를 이용하면 특정 버전을 지칭해서 설치할 수도 있습니다.
+`--version` / `-v` 플래그를 이용하면 특정 버전을 지칭해서 설치할 수도 있습니다.
 
 {% highlight sh %}
-$ gem install html-sample --version 1.0
+$ gem install rails --version 3.0
 {% endhighlight %}
 
 #### 모든 젬의 목록
 
-루비포지에 등록된 모든 젬의 목록을 볼 수도 있습니다.
-
-{% highlight sh %}
-$ gem list --remote
-{% endhighlight %}
-
-현재 설치된 젬의 목록을 원한다면 플래그 없이 실행합니다.
+현재 설치된 젬의 **목록**을 얻으려면 이렇게 하면 됩니다.
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-RubyGems에 대한 보다 자세한 설명은 [**공식 매뉴얼**][10]을 참고하기 바랍니다. 여기에는 루비 스크립트에서 젬을
-사용하는 예제도 포함되어 있습니다.
 
-### RubyGems 설치하기
-{: #installing-rubygems}
-
-RubyGems를 설치하기 위해서는 홈페이지에서 최신 버전을 [내려받아야][11] 합치니다. 압축을 풀고 `setup.rb`를
-실행합니다. 일부 운영체제에서는 root 권한이 필요할 수도 있습니다.
-
-예를 들어 리눅스 환경이라면,
+매우 길긴 하지만 RubyGems.org에 등록된 모든 젬의 **목록**을 볼 수도 있습니다.
 
 {% highlight sh %}
-$ tar xzvf rubygems-0.9.0.tar.gz
-$ cd rubygems-0.9.0
-$ su -
-$ ruby setup.rb
+$ gem list -r
 {% endhighlight %}
 
-설치 방법에 대한 더 자세한 지침을 보고 싶다면 RubyGems 매뉴얼에서 [**installation**][12] 부분을
-참고하기 바랍니다.
+
+#### Help!
+
+터미널에서 문서를 열어볼 수 있습니다.
+
+{% highlight sh %}
+$ gem help
+{% endhighlight %}
+
+예를 들어 `gem help commands`는 모든 `gem`들의 커맨드를 볼 수 있어 매우 유용합니다.
+
+#### Crafting your own gems
+
+RubyGems.org에는 위의 주제들에 대한 [몇가지 가이드][3]가 있습니다. 덤으로
+[Bundler][9]에 대해서 조사해보는 것도 도움이 되실 것 같습니다. Bundler는
+RubyGems과 같이 일반적으로 사용되는 어플리케이션의 의존성 관리 툴입니다.
 
 
 
-[1]: http://rubyforge.org/
-[2]: http://rubyforge.org/softwaremap/trove_list.php
-[3]: http://rubyforge.org/register/
-[4]: http://raa.ruby-lang.org/
-[5]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Net
-[6]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Database
-[7]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
-[8]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
-[9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
-[10]: http://rubygems.org/read/chapter/1
-[11]: http://rubyforge.org/frs/?group_id=126
-[12]: http://rubygems.org/read/chapter/3
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
+[4]: http://rubyforge.org/
+[5]: https://github.com/
+[6]: https://www.ruby-toolbox.com/
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/
+
