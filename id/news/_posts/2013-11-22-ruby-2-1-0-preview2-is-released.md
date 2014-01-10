@@ -47,7 +47,7 @@ Perubahan penting adalah:
 * RGenGC (Lihat [presentasi ko1's di RubyKaigi](http://rubykaigi.org/2013/talk/S73) dan [presentasi RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * perbaikan [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * perubahan syntax
-  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
   * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * menggunakan 128bit integers [#8509](https://bugs.ruby-lang.org/issues/8509)

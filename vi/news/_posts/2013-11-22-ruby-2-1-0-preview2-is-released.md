@@ -48,7 +48,7 @@ Các thay đổi đáng lưu ý:
 * RGenGC (Xem ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * thay đổi cú pháp
-  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
   * giá trị trả về của hàm def [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * sử dụng 128bit integers [#8509](https://bugs.ruby-lang.org/issues/8509)

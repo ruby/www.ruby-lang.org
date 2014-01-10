@@ -40,7 +40,7 @@ Các thay đổi lớn:
 * RGenGC (Xem [bài thuyết trình của ko1 tại RubyKaigi](http://rubykaigi.org/2013/talk/S73) và [tại RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * cú pháp thay đổi
-  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
   * giá trị trả về của hàm def [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * dùng GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
