@@ -52,7 +52,7 @@ Fastly による
 * Socket.getifaddrs
 * 新しい RubyGems
 
-詳細な変更点は [Ruby レポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/trunk/NEWS) を参照してください。
+詳細な変更点は [Ruby リポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/trunk/NEWS) を参照してください。
 
 ささださんが toruby で発表しました: [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 

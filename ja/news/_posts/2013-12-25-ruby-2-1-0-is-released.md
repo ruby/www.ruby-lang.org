@@ -48,4 +48,4 @@ Ruby 2.1 では深刻な非互換もなく、速度の向上を含めた多く�
 * BigDecimal, JSON, NKF, Rake, RubyGems, RDoc などのライブラリの更新
 * curses の削除 [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-詳しい変更点については [RubyレポジトリのNEWSファイル](https://github.com/ruby/ruby/blob/v2_1_0/NEWS)を参照ください。
+詳しい変更点については [RubyリポジトリのNEWSファイル](https://github.com/ruby/ruby/blob/v2_1_0/NEWS)を参照ください。

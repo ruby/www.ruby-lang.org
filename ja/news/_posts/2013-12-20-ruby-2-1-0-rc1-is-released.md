@@ -51,7 +51,7 @@ Ruby 2.0.0 からの注目すべき変更点は以下の通りです:
 * ライブラリの更新: BigDecimal, JSON, NKF, Rake, RubyGems, RDoc
 * 拡張ライブラリ curses が削除されました。 [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-詳細な変更点は [Ruby レポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS) を参照してください。
+詳細な変更点は [Ruby リポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS) を参照してください。
 
 ささださんが toruby で Ruby 2.1 の新機能について話しました: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
