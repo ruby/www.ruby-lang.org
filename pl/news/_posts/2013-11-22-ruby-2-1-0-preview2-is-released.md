@@ -47,7 +47,7 @@ Znaczące zmiany to:
 * RGenGC (Zobacz prezentację ko1 z [RubyKaigi](http://rubykaigi.org/2013/talk/S73) i [RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * składnia
-  * Decimal/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
   * def zwraca wartość [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * użycie 128 bitowych liczb całkowitych [#8509](https://bugs.ruby-lang.org/issues/8509)

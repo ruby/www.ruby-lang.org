@@ -39,7 +39,7 @@ Ruby 2.0.0 이후의 주목할반한 변경은 다음과 같습니다.
 * RGenGC (ko1님의 [RubyKaigi 프리젠테이션](http://rubykaigi.org/2013/talk/S73) 과 [RubyConf 2013 프리젠테이션](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 확인하세요)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 문법의 변경
-  * Decimal/Complex리터럴 [#8430](https://bugs.ruby-lang.org/issues/8430)
+  * Rational/Complex 리터럴 [#8430](https://bugs.ruby-lang.org/issues/8430)
   * def 의 리턴 치 [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * GMP 의 사용 [#8796](https://bugs.ruby-lang.org/issues/8796)
