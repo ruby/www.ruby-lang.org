@@ -56,7 +56,7 @@ Ruby 2.1.0-preview2 をリリースしました。
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2 と RubyGems 2.2.0.preview.2
 
-詳細な変更点は [Ruby レポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS) を参照してください。
+詳細な変更点は [Ruby リポジトリの NEWS (作業中)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS) を参照してください。
 
 ささださんが toruby で Ruby 2.1 の新機能について話しました: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 

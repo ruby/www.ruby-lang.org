@@ -5,7 +5,7 @@ author: "Shugo Maeda"
 lang: ja
 ---
 
-Rubyのソースコードレポジトリは[http://svn.ruby-lang.org/repos/ruby/][1] に移動しました。
+Rubyのソースコードリポジトリは[http://svn.ruby-lang.org/repos/ruby/][1] に移動しました。
 svnコマンドでチェックアウトしたり、 [ViewVC][2] で参照することができます。
 
 svn.ruby-lang.org用の新しいマシンは[Sun Microsystems社][3]に 提供していただきました。

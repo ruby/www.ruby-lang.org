@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "レポジトリガイド"
+title: "リポジトリガイド"
 lang: ja
 ---
 
-## SVNレポジトリ
+## SVNリポジトリ
 
-RubyのソースコードはSVNレポジトリに保存されており、ViewVC経由で参照できます:
+RubyのソースコードはSVNリポジトリに保存されており、ViewVC経由で参照できます:
 
 * [&lt;URL:http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][1]
 
@@ -26,9 +26,9 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8 ruby
 
 その他のブランチ・タグなどは[&lt;URL:http://svn.ruby-lang.org/repos/ruby/&gt;][2]から確認してください。
 
-## Gitレポジトリ
+## Gitリポジトリ
 
-Gitをお使いの方は、[githubにあるRubyのレポジトリ][3]も利用可能です。
+Gitをお使いの方は、[githubにあるRubyのリポジトリ][3]も利用可能です。
 
 また、これを使ってRubyの開発に参加したい方は、以下のHowto(英語)を読まれるとよいでしょう。
 
