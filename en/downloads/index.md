@@ -39,16 +39,22 @@ are no other premade packages for your platform.
 If you have an issue compiling Ruby, consider using one of the third
 party tools in the next section. They may help you.
 
-* [Ruby {{ site.downloads.stable.version }}][stable-gz]
-  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable
-* [Ruby {{ site.downloads.previous.version }}][previous-gz]
-  (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Previous
-* [Ruby {{ site.downloads.previous19.version }}][previous-but-one-gz]
-  (md5:&nbsp;{{ site.downloads.previous19.md5.gz }}) Previous 1.9
-* [Stable Snapshot][stable-snapshot-gz] This is a tarball of the latest snapshot of the
-  Stable branch (ruby\_2\_1).
-* [Nightly Snapshot][nightly-gz] This is a tarball of whatever is in SVN, made
-  nightly. This may contain bugs or other issues, use at your own risk!
+* **Current stable:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
+  md5: {{ site.downloads.stable.md5.gz }}
+
+* **Previous stable:** [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
+  md5: {{ site.downloads.previous.md5.gz }}
+
+* **Old stable:** [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+  md5: {{ site.downloads.previous19.md5.gz }}
+
+* **Snapshots:**
+
+  * [Stable Snapshot][stable-snapshot-gz]:
+    This is a tarball of the latest snapshot of the current stable branch.
+  * [Nightly Snapshot][nightly-gz]:
+    This is a tarball of whatever is in SVN, made nightly.
+    This may contain bugs or other issues, use at your own risk!
 
 For information about the Ruby Subversion and Git repositories, see our
 [Ruby Core](/en/community/ruby-core/) page.
@@ -295,7 +301,7 @@ programming language”.
 
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous-but-one-gz]: {{ site.downloads.previous19.url.gz }}
+[old-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [pik]: https://github.com/vertiginous/pik
