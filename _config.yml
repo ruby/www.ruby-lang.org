@@ -468,7 +468,7 @@ locales:
       description: ruby-lang.orgの最新ニュース
       lang_code: ja
     ko:
-      title: Ruby-Lang의 최근 소식
+      title: 루비 뉴스
       description: ruby-lang.org의 최근 소식
       lang_code: ko-KR
     pl:
@@ -1230,9 +1230,9 @@ locales:
         libraries:
           text: 라이브러리
           url: /ko/libraries/
-#       success_stories:
-#         text: Success Stories
-#         url: /en/documentation/success-stories/
+        success_stories:
+          text: 사용 사례
+          url: /ko/documentation/success-stories/
       participate:
         text: <strong>커뮤니티에 참여하기</strong>
         mailing_lists:
@@ -1240,31 +1240,31 @@ locales:
           url: http://groups.google.com/group/rubykr
           description: |
             한국의 루비스트를 만나세요
-#       user_groups:
-#         text: User Groups
-#         url: /en/community/user-groups/
-#         description: |
-#           Get in contact with Rubyists in your area.
-#       weblogs:
-#         text: Weblogs
-#         url: /en/community/weblogs/
-#         description: |
-#           Read about what’s happening right now in the Ruby community.
-#       ruby_core:
-#         text: Ruby Core
-#         url: /en/community/ruby-core/
-#         description: |
-#           Help polish the rough edges of the latest Ruby.
-#       issue_tracking:
-#         text: Issue Tracking
-#         url: https://bugs.ruby-lang.org/
-#         description: |
-#           Report or help solve issues in Ruby.
+        user_groups:
+          text: 유저 그룹
+          url: /ko/community/user-groups/
+          description: |
+            근처의 루비스트와 연락하기
+        weblogs:
+          text: 웹로그
+          url: /ko/community/weblogs/
+          description: |
+            루비 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
+        ruby_core:
+          text: 루비 코어
+          url: /ko/community/ruby-core/
+          description: |
+            최신판 루비의 연마를 돕기
+        issue_tracking:
+          text: 이슈 관리
+          url: https://bugs.ruby-lang.org/
+          description: |
+            루비에 관한 이슈를 제보하거나 해결을 돕기
       top_ruby_projects:
         text: 활발한 루비 프로젝트
         more:
           text: 더보기
-          url: /en/libraries/top-projects/
+          url: /ko/libraries/top-projects/
       syndicate:
         text: 구독
         recent_news:
@@ -1788,15 +1788,15 @@ locales:
 #     subscribe: Subscribe
 #     unsubscribe: Unsubscribe
 #     submit: Submit Form
-#   ko:
-#     list: Mailing List
-#     first_name: First Name
-#     last_name: Last Name
-#     email: Email Address
-#     action: Action
-#     subscribe: Subscribe
-#     unsubscribe: Unsubscribe
-#     submit: Submit Form
+    ko:
+      list: 메일링 리스트
+      first_name: 이름
+      last_name: 성
+      email: 이메일 주소
+      action: 할일
+      subscribe: 구독하기
+      unsubscribe: 구독 해지
+      submit: 제출하기
     pl:
       list: Mailing List
       first_name: First Name
@@ -1919,6 +1919,13 @@ locales:
       このサイトはRubyと<a href="http://www.jekyllrb.com/">Jekyll</a>によって構築されています。
       また、コンテンツはRubyコミュニティによって管理されています。
       このサイトに関する質問やコメントは<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>へのissueまたはpull request、もしくは<a href="mailto:webmaster@ruby-lang.org">webmaster</a> までお願いします。
+    ko: |
+      이 사이트는 루비와 <a href="http://www.jekyllrb.com/">Jekyll</a>로 구축되어 있고,
+      루비 커뮤니티의 구성원들이 직접 관리합니다.
+      이 사이트는 <a href="http://twitter.com/jz">Jason Zimdars</a>님이 디자인했습니다.
+      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>에서 기여하실 수 있으며
+      이 사이트에 관한 질문이나 연락은 <a href="mailto:webmaster@ruby-lang.org">웹마스터</a>에게
+      하실 수 있습니다.
     pl: |
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
