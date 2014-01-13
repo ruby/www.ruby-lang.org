@@ -24,7 +24,7 @@ tired? We need to define a method!
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
-=> :b
+=> :h
 {% endhighlight %}
 
 The code `def h` starts the definition of the method. It tells Ruby that
