@@ -24,15 +24,16 @@ tired? We need to define a method!
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
-=> nil
+=> :b
 {% endhighlight %}
 
 The code `def h` starts the definition of the method. It tells Ruby that
 we’re defining a method, that its name is `h`. The next line is the body
 of the method, the same line we saw earlier: `puts "Hello World"`.
 Finally, the last line `end` tells Ruby we’re done defining the method.
-Ruby’s response `=> nil` tells us that it knows we’re done defining the
-method.
+Ruby’s response `=> :b` tells us that it knows we’re done defining the
+method. This response could be `=> nil` at ruby 2.0 and earlier version.
+But, it's not important here, so let's go on.
 
 ## The Brief, Repetitive Lives of a Method
 
@@ -59,7 +60,7 @@ Just redefine `h` to take a name as a parameter.
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
-=> nil
+=> :h
 irb(main):018:0> h("Matz")
 Hello Matz!
 => nil
@@ -79,7 +80,7 @@ properly capitalized:
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
-=> nil
+=> :h
 irb(main):022:0> h "chris"
 Hello Chris!
 => nil
