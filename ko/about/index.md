@@ -145,6 +145,29 @@ end
 * 루비는 이식성이 매우 높습니다. 대부분 GNU 리눅스에서 개발되었지만 대부분의 유닉스. 맥 OS X, 윈도우
   95/98/Me/NT/2000/XP, 도스, BeOS, OS/2 등에서 동작합니다.
 
+### 루비의 다른 구현체들
+
+언어로서 루비는 몇몇 다른 구현체들이 있습니다. 본 가이드에서는 **MRI** (“Matz의 루비 인터프리터”) 혹은 **CRuby**를 참조 구현한 것들에 대해 이야기하고 있습니다만,
+다른 것들도 있습니다.
+이들은 특정 상황에서 유용할 때가 있는데, 다른 언어 혹은 환경과의 추가 통합을 지원한다거나 MRI가 지원하지 않는 특별한 기능을 가진 것들입니다.
+
+여기 목록이 있습니다:
+
+* [JRuby][jruby]는 JVM(자바 가상 머신) 위에서 구동되는 루비입니다. JVM의 최적화 JIT 컴파일러, 가비지 컬렉터, 컨커런트 쓰레드, 툴 에코시스템,
+  그리고 다양한 라이브러리 집합을 활용합니다.
+* [Rubinius][rubinius]는 ‘루비로 씌어진 루비’ 입니다. LLVM 위에 구축되어,
+  Rubinius는 다른 언어 역시 구축된 멋진 가상 머신 위에서 활동합니다.
+* [MacRuby][macruby]는 Mac OS X를 위한 애플의 Cocoa 라이브러리에 강력하게 통합된 루비로, 손쉽게 데스크톱 응용프로그램을 작성할 수 있도록 해줍니다.
+* [mruby][mruby] 는 루비의 경량 구현체로 어플리케이션 안에 링크되거나 포함시킬 수 있습니다.
+  루비의 창시자인 유키히로 “Matz” 마츠모토가 개발을 이끌고 있습니다.
+* [IronRuby][ironruby]는 “.NET Framework과 강력하게 통합된” 구현체입니다.
+* [MagLev][maglev]는 “통합된 개체 지속성과 분산 공유 캐시를 가진 빠르고, 안정적인 루비 구현체” 입니다.
+* [Cardinal][cardinal]는 “[Parrot][parrot] 가상머신을 위한 루비 컴파일러”(Perl 6)입니다.
+
+MRI를 포함, 일부 구현체들은 “complete executable specification for the Ruby programming language”인 [RubySpec][rubyspec]의 가이드라인을 준수합니다.
+
+
+
 ### 참조
 
 <sup>1</sup> 마츠, 루비토크 메일링리스트에서, [May 12th,
@@ -170,4 +193,13 @@ end
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
 [6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[jruby]: http://jruby.org
+[rubinius]: http://rubini.us
+[macruby]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
+[ironruby]: http://www.ironruby.net
+[maglev]: http://ruby.gemstone.com
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
+[rubyspec]: http://rubyspec.org
 
