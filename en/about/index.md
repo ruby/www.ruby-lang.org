@@ -180,6 +180,42 @@ Ruby has a wealth of other features, among which are the following:
   works on many types of UNIX, Mac OS X, Windows 95/98/Me/NT/2000/XP,
   DOS, BeOS, OS/2, etc.
 
+### Other Implementations of Ruby
+
+Ruby, as a language, has a few different implementations. This guide has
+been discussing the reference implementation, **MRI** (“Matz's Ruby
+Interpreter”) or **CRuby**, but there are also others.
+They are often useful in certain situations, provide extra
+integration to other languages or environments, or have special features
+that MRI doesn’t.
+
+Here’s a list:
+
+* [JRuby][jruby] is Ruby atop the JVM (Java Virtual Machine), utilizing the
+  JVM’s optimizing JIT compilers, garbage collectors, concurrent
+  threads, tool ecosystem, and vast collection of libraries.
+* [Rubinius][rubinius] is ‘Ruby written in Ruby’. Built on top of LLVM,
+  Rubinius sports a nifty virtual machine that other languages are being
+  built on top of, too.
+* [MacRuby][macruby] is a Ruby that’s tightly integrated with Apple’s Cocoa
+  libraries for Mac OS X, allowing you to write desktop applications
+  with ease.
+* [mruby][mruby] is a lightweight implementation of the Ruby language
+  that can be linked and embedded within an application.
+  Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
+* [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
+  Framework”.
+* [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
+  object persistence and distributed shared cache”.
+* [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
+  (Perl 6).
+
+Some of those implementations, including MRI, follow the guidelines of
+[RubySpec][rubyspec], a “complete executable specification for the Ruby
+programming language”.
+
+
+
 ### References
 
 <sup>1</sup> Matz, speaking on the Ruby-Talk mailing list, [May 12th,
@@ -205,3 +241,12 @@ Ruby has a wealth of other features, among which are the following:
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
 [6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[jruby]: http://jruby.org
+[rubinius]: http://rubini.us
+[macruby]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
+[ironruby]: http://www.ironruby.net
+[maglev]: http://ruby.gemstone.com
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
+[rubyspec]: http://rubyspec.org
