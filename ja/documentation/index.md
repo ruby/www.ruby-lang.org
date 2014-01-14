@@ -8,7 +8,7 @@ lang: ja
 
 ### マニュアル
 
-各環境にRubyをインストールする方法は、 [インストールガイド][1] で解説しています。
+各環境にRubyをインストールする方法は、 [ダウンロード](/ja/downloads) 及び [インストール方法](/ja/installation) で解説しています。
 
 また、現在有志の手により[リファレンスマニュアルの整備][2]が進行中です。
 作業途中の成果物を[&lt;URL:http://doc.ruby-lang.org/ja/&gt;][3]から閲覧できます。
@@ -57,7 +57,6 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 
-[1]: /ja/install.cgi?cmd=view;name=top
 [2]: https://bugs.ruby-lang.org/projects/rurema/wiki
 [3]: http://doc.ruby-lang.org/ja/
 [4]: http://doc.ruby-lang.org/ja/1.8.7/doc/index.html
