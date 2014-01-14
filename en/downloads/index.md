@@ -59,12 +59,3 @@ Please try to use a mirror that is near you.
 [old-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
-[jruby]: http://jruby.org
-[rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
-[mruby]: https://github.com/mruby/mruby
-[ironruby]: http://www.ironruby.net
-[maglev]: http://ruby.gemstone.com
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org
-[rubyspec]: http://rubyspec.org
