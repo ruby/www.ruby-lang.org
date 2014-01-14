@@ -16,6 +16,7 @@ lang: ja
 * [Rubyリファレンスマニュアル Ruby 1.8.7版][4]
 * [Rubyリファレンスマニュアル Ruby 1.9.3版][5]
 * [Rubyリファレンスマニュアル Ruby 2.0.0版][6]
+* [Rubyリファレンスマニュアル Ruby 2.1.0版][23]
 * [るりまサーチ][7]
 
 またこのリファレンスマニュアルをまとめてダウンロードすることもできます。
@@ -78,3 +79,4 @@ Posted by Shugo Maeda on 26 May 2006
 [20]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-1.6.6-20011225-rd.tar.gz
 [21]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
 [22]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
+[23]: http://doc.ruby-lang.org/ja/2.1.0/doc/index.html
