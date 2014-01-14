@@ -51,69 +51,11 @@ lang: ru
 За информацией о Ruby Subversion и Git репозиториях пожалуйста,
 посмотрите страницу о [ядре Ruby](/ru/community/ruby-core/).
 
-### Зеркала
-
 Исходный код Ruby доступен по всему миру на нескольких зеркальных
 сайтах. Пожалуйста, попробуйте использовать зеркало, которое находится
 недалеко от вас.
 
-#### Зеркальные сайты по HTTP протоколу
-
-* [CDN][mirror-http-cdn] (fastly.com)
-* [Япония 1][mirror-https-jp] (главный) - HTTPS
-* Япония 2 (RingServer)
-  * [shibaura-it.ac.jp][mirror-http-jp-ring-shibaura-it]
-  * [tohoku.ac.jp][mirror-http-jp-ring-tohoku]
-  * [u-toyama.ac.jp][mirror-http-jp-ring-u-toyama]
-  * [yamanashi.ac.jp][mirror-http-jp-ring-yamanashi]
-  * [airnet.ne.jp][mirror-http-jp-ring-airnet]
-  * [maffin.ad.jp][mirror-http-jp-ring-maffin]
-* [Англия][mirror-http-uk] (The Mirror Service)
-* [Германия][mirror-http-de] (AmbiWeb GmbH)
-* [Бельгия][mirror-http-be] (Easynet)
-* [Дания][mirror-http-dk] (sunsite.dk)
-* [Нидерланды][mirror-http-nl] (XS4ALL) - только пакеты релизов
-* [США 1][mirror-http-us1] (ibiblio.org)
-* [США 2][mirror-http-us2] (lcs.mit.edu)
-* [США 3][mirror-http-us3] (binarycode.org)
-* [США 4][mirror-http-us4] (online-mirror.org)
-* [США 5][mirror-http-us5] (trexle.com)
-* [Австралия][mirror-http-at] (tuwien.ac.at)
-* [Тайвань 1][mirror-http-tw1] (cdpa.nsysu.edu.tw)
-* [Тайвань 2][mirror-http-tw2] (ftp.cs.pu.edu.tw)
-
-#### Зеркальные сайты по FTP протоколу
-
-* [Япония 1][mirror-ftp-jp1] (главный: ruby-lang.org)
-* Япония 2 (RingServer)
-  * [shibaura-it.ac.jp][mirror-ftp-jp-ring-shibaura-it]
-  * [tohoku.ac.jp][mirror-ftp-jp-ring-tohoku]
-  * [u-toyama.ac.jp][mirror-ftp-jp-ring-u-toyama]
-  * [yamanashi.ac.jp][mirror-ftp-jp-ring-yamanashi]
-  * [airnet.ne.jp][mirror-ftp-jp-ring-airnet]
-  * [maffin.ad.jp][mirror-ftp-jp-ring-maffin]
-* [Япония 3][mirror-ftp-jp3] (IIJ)
-* [Южная корея][mirror-ftp-kr] (Korea FreeBSD Users Group)
-* [Германия][mirror-ftp-de] (FU Berlin)
-* [Англия][mirror-ftp-uk] (The Mirror Service)
-* [Бельгия][mirror-ftp-be] (Easynet)
-* [Россия][mirror-ftp-ru] (ChgNet)
-* [Греция][mirror-ftp-gr] (ntua.gr)
-* [Дания][mirror-ftp-dk] (sunsite.dk)
-* [США 1][mirror-ftp-us1] (ibiblio.org)
-* [США 2][mirror-ftp-us2] (lcs.mit.edu)
-* [Австралия][mirror-ftp-at] (tuwien.ac.at)
-* [Тайвань 1][mirror-ftp-tw1] (cdpa.nsysu.edu.tw)
-* [Тайвань 2][mirror-ftp-tw2] (ftp.cs.pu.edu.tw)
-* [Канада][mirror-ftp-ca] (mirror.cs.mun.ca)
-
-#### Зеркальные сайты по rsync
-
-* rsync://rsync.mirrorservice.org/ftp.ruby-lang.org/pub/ruby/ (Англия)
-* rsync://sunsite.dk/ftp/mirrors/ruby/ (Дания)
-* rsync://gd.tuwien.ac.at/languages/ruby/ (Австрия)
-* rsync://mirror.cs.mun.ca/ruby/ (Канада)
-* rsync://ftp.cs.pu.edu.tw/Ruby/ (Тайвань)
+[Зеркала](/en/downloads/mirrors/)
 
 ### Сторонние инструменты
 
