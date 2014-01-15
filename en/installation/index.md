@@ -10,7 +10,7 @@ This page describes about using major package management systems and third-party
 ## Choose installation method for your system
 
 The following list is available installation methods.
-Choose your confortable way.
+Choose your comfortable way.
 
 - OS X
 
@@ -53,7 +53,7 @@ Both tools are available for OS X, Linux, or UNIX-like operating systems.
 For the latest instructions on installing rbenv, check out [rbenv page][rbenv].
 
 There is similar tool named RVM, described in the next section.
-Check it out too, and choose your confortable one.
+Check it out too, and choose your comfortable one.
 
 <a name="rvm">
 
