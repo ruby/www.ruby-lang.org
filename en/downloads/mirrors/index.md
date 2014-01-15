@@ -56,7 +56,7 @@ Please try to use a mirror that is near you.
 * [USA 1][mirror-ftp-us1] (ibiblio.org)
 * [USA 2][mirror-ftp-us2] (lcs.mit.edu)
 * [Austria][mirror-ftp-at] (tuwien.ac.at)
-* [Taiwan 1][mirro-ftp-tw1] (cdpa.nsysu.edu.tw)
+* [Taiwan 1][mirror-ftp-tw1] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][mirror-ftp-tw2] (ftp.cs.pu.edu.tw)
 * [Canada][mirror-ftp-ca] (mirror.cs.mun.ca)
 
