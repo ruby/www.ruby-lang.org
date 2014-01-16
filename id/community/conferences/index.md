@@ -73,10 +73,10 @@ on Rails.
 [2]: http://ariekusumaatmaja.wordpress.com/2007/06/27/catatan-tercecer-bandung-sejuk-bergairah/
 [3]: http://ariekusumaatmaja.wordpress.com/2007/08/20/gathering-id-ruby-ketiga-19-agustus-2007-1145-1700-wib/
 [4]: http://www.rubyconf.org/
-[5]: http://www.rubycentral.org
+[5]: http://rubycentral.org
 [6]: http://rubykaigi.org/
 [7]: http://euruko.org
-[8]: http://www.rubycentral.org/rcg2006.pdf
+[8]: http://rubycentral.org/community/grant
 [9]: http://www.sdforum.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

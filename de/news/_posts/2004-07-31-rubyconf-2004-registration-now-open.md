@@ -15,4 +15,4 @@ Inc.][3]
 
 [1]: http://www.rubycentral.org/conference
 [2]: http://www.rubycentral.org/conference/register.html
-[3]: http://www.rubycentral.org
+[3]: http://rubycentral.org

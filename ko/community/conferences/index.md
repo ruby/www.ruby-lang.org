@@ -52,7 +52,7 @@ Canada on Rails 등등의 많은 컨퍼런스들은 [Ruby on Rails][11]의 헌�
 
 
 [1]: http://rubyconf.org/
-[2]: http://www.rubycentral.org
+[2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/

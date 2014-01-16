@@ -13,5 +13,5 @@ Central.
 
 
 [1]: http://code.google.com/soc/
-[2]: http://www.rubycentral.org
+[2]: http://rubycentral.org
 [3]: http://www.rubycentral.org/soc2006

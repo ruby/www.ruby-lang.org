@@ -25,7 +25,7 @@ and/or registering to attend.
 [1]: http://www.canadaonrails.org
 [2]: http://www.sdforum.org/rubyconference
 [3]: http:/www.sdforum.org
-[4]: http://www.rubycentral.org
+[4]: http://rubycentral.org
 [5]: http://www.railsconf.org
 [6]: http://conferences.oreillynet.com/cs/os2006/create/e_sess/
 [7]: http://conferences.oreillynet.com/os2006/

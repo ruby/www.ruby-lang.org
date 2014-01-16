@@ -13,6 +13,6 @@ of your group.
 
 
 
-[1]: http://www.rubycentral.org
+[1]: http://rubycentral.org
 [2]: http://www.rubycentral.org/grant/announce.html
 [3]: http://www.rubycentral.org/grant/application.html
