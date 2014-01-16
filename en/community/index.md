@@ -49,6 +49,6 @@ General Ruby Information
 
 
 
-[3]: http://www.rubycentral.org/
+[3]: http://rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

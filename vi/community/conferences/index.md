@@ -60,11 +60,11 @@ Ruby Central và O’Reilly năm 2007), và Canada on Rails.
 
 
 [1]: http://rubyconf.org/
-[2]: http://www.rubycentral.org
+[2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
-[6]: http://www.rubycentral.org/rcg2006.pdf
+[6]: http://rubycentral.org/community/grant
 [7]: http://www.sdforum.org
 [8]: http://rubynation.org/
 [9]: http://windycityrails.org

@@ -58,11 +58,11 @@ Central и [Skills Matter][12], и през 2007 г. с помощта на Ruby
 
 
 [1]: http://www.rubyconf.org/
-[2]: http://www.rubycentral.org
+[2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
-[6]: http://www.rubycentral.org/rcg2006.pdf
+[6]: http://rubycentral.org/community/grant
 [7]: http://www.sdforum.org
 [8]: http://rubynation.org/
 [9]: http://conferences.oreillynet.com/os2006/

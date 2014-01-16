@@ -18,5 +18,5 @@ Weitere Informationen in der Mailingliste: [\[ruby-talk:65632\]][2].
 
 
 
-[1]: http://www.rubycentral.org
+[1]: http://rubycentral.org
 [2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/65632

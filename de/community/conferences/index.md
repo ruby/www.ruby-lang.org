@@ -23,5 +23,5 @@ lang: de
 
 [1]: http://euruko.org/
 [2]: http://www.rubyconf.org/
-[3]: http://www.rubycentral.org
+[3]: http://rubycentral.org
 [4]: http://rubykaigi.org/
