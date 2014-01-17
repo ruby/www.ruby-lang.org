@@ -132,7 +132,7 @@ at the release time of the specific distro version.
 
 ### portage (Gentoo)
 
-Gentoo uses the portage portage manager.
+Gentoo uses the portage package manager.
 
 {% highlight sh %}
 $ sudo emerge dev-lang/ruby
