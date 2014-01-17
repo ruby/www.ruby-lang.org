@@ -9,6 +9,11 @@ conferences, where they get together to share reports on
 work-in-progress, discuss the future of Ruby, and welcome newcomers to
 the Ruby community.
 
+[RubyConferences.org][rc] is a simple list of Ruby-specific conferences,
+published collaboratively with the Ruby community. There you'll find event
+dates, location, CFP and Registration information.
+
+
 ### Major Ruby Conferences
 
 [RubyConf][1]
@@ -79,6 +84,7 @@ O’Reilly), and Canada on Rails.
 
 
 
+[rc]: http://rubyconferences.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
