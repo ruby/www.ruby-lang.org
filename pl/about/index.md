@@ -18,7 +18,7 @@ zbalansował programowanie funkcjonalne wraz z programowanie
 imperatywnym.
 
 Matz często mówi, że chce uczynić ten język naturalnym – nie
-prostym – w sposób odzwierciedlający życie. 
+prostym – w sposób odzwierciedlający życie.
 
 Bazując na tym dodaje:
 
@@ -44,7 +44,7 @@ w 2006 roku. Zmalało to w ostatnich latach gdy część społeczności
 przeniosło dyskusje z jednej centralnej listy na wiele mniejszych grup.
 
 Wskaźnik [TIOBE indeks][6], który mierzy rozwój języków programowania, umieszcza
-Rubiego na 10 miejscu wśród światowych języków programowania. Wiele owego
+Rubiego na 9 miejscu wśród światowych języków programowania. Wiele owego
 wzrostu zawdzięcza Ruby popularności software napisanego przy jego użyciu,
 szczególnie frameworkowi Ruby on Rails<sup>[2](#fn2)</sup>.
 
@@ -189,6 +189,36 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
   ale może być używany na wielu typach UNIXów, Mac OS X, Windows
   95/98/Me/NT/2000/XP/Vista/7/8, DOS, BeOS, OS/2, itd.
 
+### Inne implementacje Rubiego
+
+Ruby jako język ma kilka różnych implementacji. Ten poradnik omawia
+bazową implementację, **MRI** (“Matz's Ruby
+Interpreter”) lub **CRuby**, ale są inne.
+Często są użyteczne w niektórych sytuacjach, integrują się z innymi językami
+lub środowiskami lub mają specjalne cechy, których MRI nie ma.
+
+Tu jest lista:
+
+* [JRuby][jruby] jest Rubim na JVM (Java Virtual Machine), wykorzystując
+  optymalizację kompilatorów JIT JVM, odśmiecanie pamięci, współbieżne wątki,
+  narzędzia i kolekcję bibliotek.
+* [Rubinius][rubinius] jest ‘Rubim napisanym w Rubim’. Zbudowanym na szczycie LLVM,
+  Rubinius ukazuje sprytną maszynę wirtualną na bazie której budowane są inne
+  języki.
+* [MacRuby][macruby] jest Rubim ściśle zintegrowanym z bibliotekami Cocoa Apple
+  dla Mac OS X, umożliwiając łatwe pisanie desktopowych aplikacji.
+* [mruby][mruby] jest lekką implementacją języka Ruby, która może być połączona
+  i osadzona w aplikacji.
++  Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
+* [IronRuby][ironruby] jest implementacją “ściśle zintegrowaną z frameworkiem .NET”.
+* [MagLev][maglev] jest “szybką, stabilną, implementacją Rubiego ze zintegrowaną
+  trwałością obiektów i rozproszonym wpsółdzielonym cachem”.
+* [Cardinal][cardinal] jest “kompilatorem Rubiego dla [Parrot][parrot] Virtual Machine”
+  (Perl 6).
+
+Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
+[RubySpec][rubyspec], “pełna wykonywalna specyfikacja dla języka programowania Ruby”.
+
 ### Odnośniki
 
 <sup>1</sup> Matz, wypowiedź na liście ruby-talk, [May 12th, 2000][2].
@@ -205,10 +235,18 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
 {: #fn4}
 
 
-
 [1]: http://www.rubyist.net/~matz/
 [2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
 [3]: http://rubyonrails.org/
 [4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [5]: http://www.artima.com/intv/closures2.html
 [6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[jruby]: http://jruby.org
+[rubinius]: http://rubini.us
+[macruby]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
+[ironruby]: http://www.ironruby.net
+[maglev]: http://ruby.gemstone.com
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
+[rubyspec]: http://rubyspec.org
