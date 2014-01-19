@@ -6,19 +6,51 @@ lang: ja
 
 ここでは、Rubyインタプリタの代表的な入手方法を説明します。
 
-## Rubyのソースコード
+現在の安定版は {{ site.downloads.stable.version }}です。
+[Ruby’sライセンス]({{ site.license.url }})を必ずお読み下さい。
 
-Rubyの各バージョンのソースコードは、以下から入手できます。
+### Rubyのインストール方法
 
-* 最新の安定版であるruby {{ site.downloads.stable.version }}\[[tar.bz2][stable-bz2]\|[tar.gz][stable-gz]\|[zip][stable-zip]\]が各ミラーサイトから入手できます。
-* 前世代の安定版であるruby {{ site.downloads.previous.version }}\[[tar.bz2][previous-bz2]\|[tar.gz][previous-gz]\|[zip][previous-zip]\]が各ミラーサイトから入手できます。
-* 前々世代の安定版であるruby {{ site.downloads.previous19.version }}\[[tar.bz2][previous-but-one-bz2]\|[tar.gz][previous-but-one-gz]\|[zip][previous-but-one-zip]\]が各ミラーサイトから入手できます。
-* 現時点での安定版スナップショット\[[tar.bz2][stable-snapshot-bz2]\|[tar.gz][stable-snapshot-gz]\|[zip][stable-snapshot-zip]\]が各ミラーサイトから入手できます。これはSubversionリポジトリのruby 2.1系のブランチ(ruby\_2\_1ブランチ)の先端から自動的にスナップショットを取ったものです。
-* 現時点での最新版スナップショット\[[tar.bz2][nightly-bz2]\|[tar.gz][nightly-gz]\|[zip][nightly-zip]\]が各ミラーサイトから入手できます。これはSubversionリポジトリのtrunkの先端(HEAD)から自動的にスナップショットを取ったものです。最新版スナップショットには、何らかの問題や不具合が残っている可能性があります。自己責任でご利用下さい。
+メジャーなプラットフォームでは Ruby をインストールする方法はいくつかあります。
 
-最新のソースを Subversion と Git のリポジトリから入手する方法については、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。
+- Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、rbenv、RVMなどのサードパーティツールが使えます。
+- OS Xマシンでは、rbenv、RVMなどのサードパーティのパッケージ管理ツールが使えます。
+- Windowsマシンでは、RubyInstallerやpikといったツールが使えます。
 
-## Windows版Rubyバイナリ
+各パッケージマネージャ及びサードパーティーツールの詳細は、[インストールガイド](/ja/installation) ページを参照して下さい。
+
+もちろん、メジャーなプラットフォームでソースからRubyをインストールすることも可能です。
+
+### ソースコードからRubyをコンパイルする
+
+ソースコードからのインストールは、利用したいプラットフォームや環境に合った設定を使うことができる、いい方法です。
+また、利用したいプラットフォーム向けのパッケージが存在しない場合にも使えるいい方法でもあります。
+
+もしコンパイルで問題がある場合、[インストールガイド](/ja/installation) ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
+
+* **最新の安定版:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
+  md5: {{ site.downloads.stable.md5.gz }}
+
+* **前世代の安定版:** [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
+  md5: {{ site.downloads.previous.md5.gz }}
+
+* **古い安定版:** [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+  md5: {{ site.downloads.previous19.md5.gz }}
+
+* **スナップショット:**
+
+  * [安定版のスナップショット][stable-snapshot-gz]:
+    最も新しい現在の安定版ブランチのスナップショットのtarballです。
+  * [ナイトリースナップショット][nightly-gz]:
+    毎晩SVNに入っているものから作成しているtarballです。
+    バグやその他の問題があるかもしれません。利用する場合は自己責任でお願いします！
+
+RubyのSubversionやGitリポジトリについての情報は、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。
+
+Rubyのソースコードは、世界各国の[ミラーサイト](/en/downloads/mirrors/)からダウンロードできます。
+お近くのミラーサイトをお使いください。
+
+### Windows版Rubyバイナリ
 
 Windows向けのバイナリが有志により配布されています。
 
@@ -29,27 +61,11 @@ Windows向けのバイナリが有志により配布されています。
 * [RailsInstaller][railsinstaller] (英語)
   RubyInstaller に Rails の開発に必要なものを加えたもの。
 
-Rubyのソースコードや、それを含めた当サイトの内容が、有志によりミラーされています。
-[ミラーサイト一覧](/en/downloads/mirrors/)を参照してください。
-
-Posted by Shugo Maeda on 26 May 2006
-{: .post-info}
-
-[stable-bz2]: {{ site.downloads.stable.url.bz2 }}
 [stable-gz]: {{ site.downloads.stable.url.gz }}
-[stable-zip]: {{ site.downloads.stable.url.zip }}
-[previous-bz2]: {{ site.downloads.previous.url.bz2 }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous-zip]: {{ site.downloads.previous.url.zip }}
-[previous-but-one-bz2]: {{ site.downloads.previous19.url.bz2 }}
-[previous-but-one-gz]: {{ site.downloads.previous19.url.gz }}
-[previous-but-one-zip]: {{ site.downloads.previous19.url.zip }}
-[nightly-bz2]: {{ site.downloads.nightly_snapshot.url.bz2 }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
-[nightly-zip]: {{ site.downloads.nightly_snapshot.url.zip }}
-[stable-snapshot-bz2]: {{ site.downloads.stable_snapshot.url.bz2 }}
+[old-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[stable-snapshot-zip]: {{ site.downloads.stable_snapshot.url.zip }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
