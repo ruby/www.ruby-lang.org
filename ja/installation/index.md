@@ -7,6 +7,7 @@ lang: ja
 いくつかのツールを使ってRubyをインストールできます。
 このページでは、Rubyの管理とインストールのための、メジャーなパッケージ管理ツールとサードパーティツールについて解説します。
 
+
 ## システムごとのインストール方法
 
 利用可能なインストール方法を解説します。
@@ -31,18 +32,18 @@ lang: ja
   - [RubyInstaller](#rubyinstaller)
   - [pik][pik]
 
-<a name="third-party-tools">
 
 ## サードパーティツール
+{: #third-party-tools}
 
 多くのRubyistたちは様々な特徴を持つサードパーティツールを使ってRubyをインストールしています。
 
 各ツールには様々な利点がありますが、オフィシャルにサポートしている方法ではありません。
 しかし、それぞれのコミュニティが心強い助けになるでしょう。
 
-<a name="rbenv">
 
 ### rbenv
+{: #rbenv}
 
 rbenv では複数の Ruby を管理することができます。
 
@@ -56,18 +57,18 @@ rbenv をインストールする方法は [rbenvのページ][rbenv] に記述�
 rbenv と似たツールとして、次に説明する RVM があります。
 そちらも確認して、良い方を選んでください。
 
-<a name="rvm">
 
 ### RVM ("Ruby Version Manager")
+{: #rvm}
 
 RVM は複数の Ruby のインストールと管理を行うことができます。
 このツールは OS X、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
 
-<a name="rubyinstaller">
 
 ### RubyInstaller
+{: #rubyinstaller}
 
 もしあなたが Windows を使っているなら [RubyInstaller][rubyinstaller] を使って Ruby をインストールすることができます。
 これは、完全な Ruby 開発環境を Windows 上にセットアップしてくれます。
@@ -75,9 +76,9 @@ RVM をインストールする方法は [rvm.io][rvm] に記述されていま�
 RubyInstaller を使うには、[RubyInstaller のページ][rubyinstaller] からダウンロードしてください。
 そしてこのインストーラを実行するだけです！
 
-<a name="package-management-systems">
 
 ## パッケージ管理システム
+{: #package-management-systems}
 
 もしあなたが Ruby をコンパイルできず、サードパーティ製のツールを使いたくないのであれば、
 あなたのシステムのパッケージマネージャを使って Ruby をインストールすることができます。
@@ -97,9 +98,9 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 - [pacman (Arch Linux)](#pacman)
 - [Solaris, OpenIndiana](#solaris)
 
-<a name="apt">
 
 ### apt (Debian or Ubuntu)
+{: #apt}
 
 Debian GNU/Linux および Ubuntu は apt というパッケージマネージャを使っています。
 これはこのように実行することができます:
@@ -110,9 +111,9 @@ $ sudo apt-get install ruby
 
 これを書いている時点では、 Debian と Ubuntu の `ruby` パッケージは古い Ruby 1.9.3 を提供しています。
 
-<a name="yum">
 
 ### yum (CentOS, Fedora, or RHEL)
+{: #yum}
 
 CentOS、Fedora、および RHEL は yum というパッケージマネージャを使っています。
 これはこのように実行することができます:
@@ -123,9 +124,9 @@ $ sudo yum install ruby
 
 インストールされるバージョンは、一般に、特定のディストリビューションのバージョンがリリースされた時点での、Ruby の最新バージョンです。
 
-<a name="portage">
 
 ### portage (Gentoo)
+{: #portage}
 
 Gentoo は portage というパッケージマネージャを使っています。
 
@@ -137,9 +138,9 @@ $ sudo emerge dev-lang/ruby
 特定のバージョンをインストールするには、 `RUBY_TARGETS` を `make.conf` に設定してください。
 詳しくは、[Gentoo Ruby Project][gentoo-ruby] を参照してください。
 
-<a name="pacman">
 
 ### pacman (Arch Linux)
+{: #pacman}
 
 Arch Linux は pacman というパッケージマネージャを使っています。
 Ruby を手に入れるには、次のようにしてください:
@@ -148,9 +149,9 @@ Ruby を手に入れるには、次のようにしてください:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-<a name="homebrew">
 
 ### Homebrew (Mac OS X)
+{: #homebrew}
 
 Ruby 2.0.0 は Mac OS X Mavericks に含まれています。
 また、OS X Mountain Lion、 Lion および Leopard には 1.8.7 が含まれています。
@@ -173,9 +174,9 @@ $ brew install ruby
 OS X 上で新しい Ruby のバージョンをインストールする手助けのために、
 サードパーティ製ツールを使うことも良い方法だと考えられます。
 
-<a name="solaris">
 
 ### Solaris と OpenIndiana での Ruby
+{: #solaris}
 
 [Sunfreeware][sunfreeware] で Solaris 8 から 10 用の Ruby 1.8.7 が使用できます。
 [Blastwave][blastwave] で Ruby 1.8.7 が使用できます。
@@ -192,17 +193,17 @@ $ pkg install runtime/ruby-18
 
 前述の通り、サードパーティ製のツールを使うことが最新バージョンの Ruby を手に入れるための良い方法です。
 
-<a name="other">
 
 ### 他のディストリビューション
+{: #other}
 
 他のシステム上でも、あなたの Linux ディストリビューションのパッケージマネージャ用のパッケージリポジトリから
 Ruby を探すことができる可能性があります。
 また、サードパーティ製ツールを使うことがおそらくは正しい選択です。
 
-<a name="building-from-source">
 
 ## ソースからのビルド
+{: #building-from-source}
 
 もちろん、Ruby をソースからインストールすることができます。
 ダウンロードして tarball を展開し、次のようにしてください:
@@ -218,6 +219,7 @@ $ sudo make install
 
 しかしながら、サードパーティ製ツールかパッケージマネージャを使う方が良い考えです。
 何故なら、ソースからインストールされた Ruby はどのツールからも管理されないからです。
+
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
