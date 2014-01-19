@@ -20,6 +20,7 @@ Choose your comfortable way.
   - [RVM](#rvm)
   - [homebrew](#homebrew)
   - [Building from source](#building-from-source)
+  - [Ruby Stack](#railsinstaller-and-ruby-stack)
 
 - Linux/UNIX
 
@@ -27,11 +28,14 @@ Choose your comfortable way.
   - [RVM](#rvm)
   - [Package management systems](#package-management-systems)
   - [Building from source](#building-from-source)
+  - [Ruby Stack](#railsinstaller-and-ruby-stack)
 
 - Windows
 
   - [RubyInstaller](#rubyinstaller)
   - [pik][pik]
+  - [RailsInstaller](#railsinstaller-and-ruby-stack)
+  - [Ruby Stack](#railsinstaller-and-ruby-stack)
 
 
 ## Third Party Tools
@@ -81,6 +85,7 @@ Then just use the installer, and you're done!
 
 
 ### RailsInstaller and Ruby Stack
+{: #railsinstaller-and-ruby-stack}
 
 If you are installing Ruby in order to use Rails, you can use the following
 installers:
