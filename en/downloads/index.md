@@ -17,7 +17,7 @@ We have some tools on each major platform to install Ruby:
 - On OS X machines, you can use third-party tools (rbenv and RVM).
 - On Windows machines, you can use RubyInstaller or pik.
 
-See [Installation](/en/installation) page for detail of package management systems and third-party tools.
+See [Installation](/en/installation/) page for detail of package management systems and third-party tools.
 
 Of course, you can install Ruby from source on the major platforms.
 
@@ -29,7 +29,7 @@ for your environment. It’s also a good solution in the event that there
 are no other premade packages for your platform.
 
 If you have an issue compiling Ruby, consider using one of the third
-party tools in [Installation](/en/installation) page. They may help you.
+party tools in [Installation](/en/installation/) page. They may help you.
 
 * **Current stable:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
   md5: {{ site.downloads.stable.md5.gz }}

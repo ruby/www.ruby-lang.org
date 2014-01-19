@@ -18,7 +18,7 @@ Mamy dostępne narzędzia dla każdej znaczącej platformy by zainstalować Rubi
 - dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich (rbenv lub RVM),
 - dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller lub pik.
 
-Zobacz stronę [instalacja](/pl/installation) po więcej szczegółów dotyczących
+Zobacz stronę [instalacja](/pl/installation/) po więcej szczegółów dotyczących
 systemów zarządzania pakietami lub narzędzi osób trzecich.
 
 Oczywiście możesz zainstalować Rubiego z kodu źródłowego na większości platform.
@@ -31,7 +31,7 @@ znasz swój system i gdy potrzebujesz specyficznych ustawień dla swojego
 innych przygotowanych pakietów.
 
 Jeśli masz problem z kompilacją Rubiego rozważ skorzystanie z narzędzi osób
-trzecich ze strony [instalacja](/pl/installation). Mogą ci pomóc.
+trzecich ze strony [instalacja](/pl/installation/). Mogą ci pomóc.
 
 * **Obecny stabilny:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
   md5: {{ site.downloads.stable.md5.gz }}
