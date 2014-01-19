@@ -13,7 +13,7 @@ Please be sure to read [Ruby’s License]({{ site.license.url }}).
 
 We have some tools on each major platform to install Ruby:
 
-- On Linux/UNIX machines, you can use package management system in your system or third-party tools (rbenv and RVM).
+- On Linux/UNIX, you can use package management system in your system or third-party tools (rbenv and RVM).
 - On OS X machines, you can use third-party tools (rbenv and RVM).
 - On Windows machines, you can use RubyInstaller or pik.
 

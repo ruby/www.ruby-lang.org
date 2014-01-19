@@ -19,7 +19,7 @@ Choose your comfortable way.
   - [homebrew](#homebrew)
   - [Building from source](#building-from-source)
 
-- Linux, UNIX
+- Linux/UNIX
 
   - [rbenv](#rbenv)
   - [RVM](#rvm)
