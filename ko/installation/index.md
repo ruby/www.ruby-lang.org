@@ -66,7 +66,7 @@ RVM을 설치하는 가장 최신의 방법은, [rvm.io][rvm]에서 확인하십
 
 <a name="rubyinstaller">
 
-#### RubyInstaller
+### RubyInstaller
 
 Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로젝트 [RubyInstaller][rubyinstaller]가 있습니다.
 RubyInstaller는 Windows 환경에서 전체 루비 개발 환경을 설정하는데 필요한 모든 것을 제공합니다.
@@ -169,7 +169,7 @@ OS X에서 새로운 루비 버전을 설치하는 것을 돕기 위해, 서드�
 
 <a name="solaris">
 
-#### Solaris와 OpenIndiana 에서의 루비
+### Solaris와 OpenIndiana 에서의 루비
 
 Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
 [Blastwave][blastwave]에서 루비 1.8.7을 사용 가능합니다.
