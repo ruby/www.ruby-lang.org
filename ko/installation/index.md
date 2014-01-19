@@ -115,7 +115,7 @@ CentOS, Fedora, RHEL은 yum 패키지 관리 시스템을 사용합니다.
 다음과 같이 사용할 수 있습니다:
 
 {% highlight sh %}
-$ su -c "yum install ruby"
+$ sudo yum install ruby
 {% endhighlight %}
 
 설치된 버전은 보통 그 Fedora의 릴리즈 시기의 최신 버전의 루비입니다.
