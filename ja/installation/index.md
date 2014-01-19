@@ -19,7 +19,7 @@ lang: ja
   - [homebrew](#homebrew)
   - [ソースからのビルド](#building-from-source)
 
-- Linux, UNIX
+- Linux/UNIX
 
   - [rbenv](#rbenv)
   - [RVM](#rvm)
