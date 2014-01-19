@@ -77,6 +77,17 @@ environment on Windows.
 To use RubyInstaller, download it from the [RubyInstaller page][rubyinstaller].
 Then just use the installer, and you're done!
 
+### RailsInstaller and Ruby Stack
+
+If you are installing Ruby in order to use Rails, you can use the following
+installers:
+
+* [RailsInstaller][railsinstaller] which uses RubyInstaller but gives you extra tools
+  that help with Rails development.
+* [Bitnami Ruby Stack][rubystack] wich provides a complete development
+  environment for Ruby on Rails. It supports Windows, OS X, Linux, virtual
+  machines and cloud images.
+
 <a name="package-management-systems">
 
 ## Package Management Systems
@@ -228,6 +239,8 @@ because installed Ruby won't be managed by any tools.
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
 [rubyinstaller]: http://rubyinstaller.org/
+[railsinstaller]: http://railsinstaller.org/
+[rubystack]: http://bitnami.com/stack/ruby/installer
 [pik]: https://github.com/vertiginous/pik
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
