@@ -48,7 +48,7 @@ rbenv allows you to manage multiple Installation of Ruby.
 It doesn't support installing Ruby, but there's a popular plugin named
 ruby-build to install Ruby.
 
-Both tools are available for OS X, Linux, or UNIX-like operating systems.
+Both tools are available for OS X, Linux, or other UNIX-like operating systems.
 
 For the latest instructions on installing rbenv, check out [rbenv page][rbenv].
 
@@ -60,7 +60,7 @@ Check it out too, and choose your comfortable one.
 ### RVM ("Ruby Version Manager")
 
 RVM allows you to install and manage multiple installation of Ruby on your
-system.  It is only available for Mac OS X, Linux, or any UNIX-like
+system.  It is only available for Mac OS X, Linux, or other UNIX-like
 operating system.
 
 For the latest instructions on installing RVM, check out [rvm.io][rvm].
