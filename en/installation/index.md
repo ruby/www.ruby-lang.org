@@ -5,7 +5,9 @@ lang: en
 ---
 
 You can use some tools to install Ruby.
-This page describes about using major package management systems and third-party tools for managing and installing Ruby.
+This page describes about using major package management systems
+and third-party tools for managing and installing Ruby.
+
 
 ## Choose installation method for your system
 
@@ -31,17 +33,17 @@ Choose your comfortable way.
   - [RubyInstaller](#rubyinstaller)
   - [pik][pik]
 
-<a name="third-party-tools">
 
 ## Third Party Tools
+{: #third-party-tools}
 
 Many Rubyists use third-party tools to install Ruby.
 They confer various advantages, but are not officially supported. Their
 respective communities are very helpful, however.
 
-<a name="rbenv">
 
 ### rbenv
+{: #rbenv}
 
 rbenv allows you to manage multiple Installation of Ruby.
 
@@ -55,9 +57,9 @@ For the latest instructions on installing rbenv, check out [rbenv page][rbenv].
 There is similar tool named RVM, described in the next section.
 Check it out too, and choose your comfortable one.
 
-<a name="rvm">
 
 ### RVM ("Ruby Version Manager")
+{: #rvm}
 
 RVM allows you to install and manage multiple installation of Ruby on your
 system.  It is only available for Mac OS X, Linux, or other UNIX-like
@@ -65,9 +67,9 @@ operating system.
 
 For the latest instructions on installing RVM, check out [rvm.io][rvm].
 
-<a name="rubyinstaller">
 
 ### RubyInstaller
+{: #rubyinstaller}
 
 If you're on Windows, there's a great project to help you install Ruby:
 [RubyInstaller][rubyinstaller].
@@ -77,20 +79,21 @@ environment on Windows.
 To use RubyInstaller, download it from the [RubyInstaller page][rubyinstaller].
 Then just use the installer, and you're done!
 
+
 ### RailsInstaller and Ruby Stack
 
 If you are installing Ruby in order to use Rails, you can use the following
 installers:
 
-* [RailsInstaller][railsinstaller] which uses RubyInstaller but gives you extra tools
-  that help with Rails development.
+* [RailsInstaller][railsinstaller] which uses RubyInstaller but gives you
+  extra tools that help with Rails development.
 * [Bitnami Ruby Stack][rubystack] wich provides a complete development
   environment for Ruby on Rails. It supports Windows, OS X, Linux, virtual
   machines and cloud images.
 
-<a name="package-management-systems">
 
 ## Package Management Systems
+{: #package-management-systems}
 
 If you can't compile your own Ruby, and you don't want to use a third
 party tool, you can use your system's package manager to install Ruby.
@@ -111,9 +114,9 @@ In this page the following package managers are described:
 - [pacman (Arch Linux)](#pacman)
 - [Solaris, OpenIndiana](#solaris)
 
-<a name="apt">
 
 ### apt (Debian or Ubuntu)
+{: #apt}
 
 Debian GNU/Linux or Ubuntu use the apt package manager.
 You can use it like this:
@@ -125,9 +128,9 @@ $ sudo apt-get install ruby
 As of writing, the `ruby` package provides older Ruby 1.9.3
 on Debian and Ubuntu.
 
-<a name="yum">
 
 ### yum (CentOS, Fedora, or RHEL)
+{: #yum}
 
 CentOS, Fedora, and RHEL use the yum package manager.
 You can use it like this:
@@ -139,9 +142,9 @@ $ sudo yum install ruby
 The installed version is typically the latest version of Ruby available
 at the release time of the specific distro version.
 
-<a name="portage">
 
 ### portage (Gentoo)
+{: #portage}
 
 Gentoo uses the portage package manager.
 
@@ -153,9 +156,9 @@ In default, this will try to install all available versions (1.8, 1.9, and 2.0).
 To install the specific version, set `RUBY_TARGETS` in your `make.conf`.
 See [Gentoo Ruby Project page][gentoo-ruby] for details.
 
-<a name="pacman">
 
 ### pacman (Arch Linux)
+{: #pacman}
 
 Arch Linux uses a package manager named pacman. To get Ruby, just do
 this:
@@ -164,9 +167,9 @@ this:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-<a name="homebrew">
 
 ### Homebrew (Mac OS X)
+{: #homebrew}
 
 Ruby 2.0.0 is included in Mac OS X Mavericks.
 And OS X Mountain Lion, Lion, and Leopard ships with 1.8.7.
@@ -189,36 +192,40 @@ source is just as easy and effective as the other solutions.
 To help you with installation of new Ruby versions on OS X, it's
 probably a good idea to use the third party tools.
 
-<a name="solaris">
 
 ### Ruby On Solaris and OpenIndiana
+{: #solaris}
 
 Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
-[Sunfreeware][sunfreeware] and Ruby 1.8.7 is available at [Blastwave][blastwave].
-Ruby 1.9.2p0 is also available at [Sunfreeware][sunfreeware], but this is outdated.
+[Sunfreeware][sunfreeware] and Ruby 1.8.7 is available at
+[Blastwave][blastwave].
+Ruby 1.9.2p0 is also available at [Sunfreeware][sunfreeware],
+but this is outdated.
 Using the third party tools can get you the latest version of Ruby.
 
-To install Ruby on [OpenIndiana][openindiana], please use the [Image Packaging
-System, or IPS][opensolaris-pkg] client. This will install the latest Ruby binaries
-and RubyGems directly from the OpenSolaris network repository for
-Ruby 1.9. It’s easy:
+To install Ruby on [OpenIndiana][openindiana], please use the
+[Image Packaging System, or IPS][opensolaris-pkg] client.
+This will install the latest Ruby binaries and RubyGems directly
+from the OpenSolaris network repository for Ruby 1.9. It’s easy:
 
 {% highlight sh %}
 $ pkg install runtime/ruby-18
 {% endhighlight %}
 
-Like before, the third party tools is a good way to obtain the latest version of Ruby.
+Like before, the third party tools is a good way to obtain the
+latest version of Ruby.
 
-<a name="other">
 
 ### Other Distributions
+{: #other}
 
 On other systems you can search the package repository for your
-Linux distro's manager, or the third party tools might be the right choice for you.
+Linux distro's manager, or the third party tools might be the
+right choice for you.
 
-<a name="building-from-source">
 
 ## Building from source
+{: #building-from-source}
 
 Of course, you can install Ruby from source.
 Download and unpack a tarball, then just do this:
