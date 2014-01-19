@@ -32,17 +32,17 @@ Wybierz najbardziej odpowiednią.
   - [RubyInstaller](#rubyinstaller)
   - [pik][pik]
 
-<a name="third-party-tools">
 
 ## Narzędzia osób trzecich
+{: #third-party-tools}
 
 Wielu użytkowników Rubiego używa narzędzi osób trzecich by wspomóc
 instalację Rubiego. Posiadają one wiele zalet, ale nie są oficjalnie
 wspierane. Jednak ich społeczności są bardzo pomocne.
 
-<a name="rbenv">
 
 ### rbenv
+{: #rbenv}
 
 Narzędzie rbenv umożliwia zarządzanie wieloma instalacjami Rubiego.
 
@@ -56,9 +56,9 @@ Po najaktualniejszą instrukcję instalacji rbenv zajrzyj na [stronę rbenv][rbe
 Istnieje też podobne narzędzie zwane RVM, opisane w następnej sekcji.
 Sprawdź je też i wybierz odpowiednie dla ciebie.
 
-<a name="rvm">
 
 ### RVM ("Ruby Version Manager")
+{: #rvm}
 
 Narzędzie RVM umożliwia instalację i zarządzanie wieloma instalacjami Rubiego w
 systemie. Jest dostępny wyłącznie na system Mac OS X, Linux, lub dowolny system
@@ -66,9 +66,9 @@ bazujący na systemie UNIX.
 
 Po najaktualniejszą instrukcję instalacji RVM zajrzyj na [rvm.io][rvm].
 
-<a name="rubyinstaller">
 
 ### RubyInstaller
+{: #rubyinstaller}
 
 Jeśli używasz Windowsa dobrym projektem by pomóc ci zainstalować Rubiego
 jest: [RubyInstaller][rubyinstaller]. Dostarcza wszystkiego czego potrzebujesz do
@@ -77,9 +77,9 @@ zestawienia pełnego środowiska deweloperskiego na systemie Windows.
 By użyć RubyInstallera, ściągnij go ze
 [strony pobierania RubyInstallera][rubyinstaller]. Następnie po prostu go użyj!
 
-<a name="package-management-systems">
 
 ## Systemy zarządzania pakietami
+{: #package-management-systems}
 
 Jeśli nie możesz skompilować swojego Rubiego i nie chcesz używać narzędzi
 osób trzecich, możesz skorzystać z menedżera pakietów twojego systemu do
@@ -101,9 +101,9 @@ Na tej stronie następujące menedżery pakietów są opisane:
 - [pacman (Arch Linux)](#pacman)
 - [Solaris, OpenIndiana](#solaris)
 
-<a name="apt">
 
 ### apt (Debian lub Ubuntu)
+{: #apt}
 
 Debian GNU/Linux lub Ubuntu używa menedżera pakietów apt.
 Możesz go użyć tak:
@@ -115,9 +115,9 @@ $ sudo apt-get install ruby
 Na czas pisania pakiet `ruby` dostarcza starszego Rubiego 1.9.3 dla Debiana i
 Ubuntu.
 
-<a name="yum">
 
 ### yum (CentOS, Fedora lub RHEL)
+{: #yum}
 
 CentOS, Fedora lub RHEL używają menedżera pakietów yum.
 Możesz go użyć tak:
@@ -129,9 +129,9 @@ $ sudo yum install ruby
 Zainstalowana wersja jest typowo najnowszą wersją Rubiego dostępną na dzień
 wydania wersji dystrybucji systemu.
 
-<a name="portage">
 
 ### portage (Gentoo)
+{: #portage}
 
 Gentoo używa menedżera pakietów portage.
 
@@ -143,9 +143,9 @@ Domyślnie spróbuje to zainstalować wszystkie dostępne wersje (1.8, 1.9 i 2.0
 By zainstalować konkretną wersję ustaw `RUBY_TARGETS` w twoim `make.conf`.
 Zobacz [stronę Gentoo Ruby Project][gentoo-ruby] dla szczegółów.
 
-<a name="pacman">
 
 ### pacman (Arch Linux)
+{: #pacman}
 
 Arch Linux używa menedżera pakietów zwanego pacman. By zainstalować Rubiego:
 
@@ -153,9 +153,9 @@ Arch Linux używa menedżera pakietów zwanego pacman. By zainstalować Rubiego:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-<a name="homebrew">
 
 ### Homebrew (Mac OS X)
+{: #homebrew}
 
 Ruby 2.0.0 jest zawarty w Mac OS X Mavericks.
 A OS X Mountain Lion, Lion i Leopard jest dostarczany z 1.8.7.
@@ -178,9 +178,9 @@ A ponadto z racji, że OS X bazuje na Unixie, pobieranie i instalowanie ze
 źródeł jest proste i efektywne jak inne rozwiązania. By ułatwić ci instalację
 nowej wersji Rubiego w OS X dobrym pomysłem jest użycie narzędzi osób trzecich.
 
-<a name="solaris">
 
 ### Ruby On Solaris and OpenIndiana
+{: #solaris}
 
 Ruby 1.8.7 jest dostępny dla Solarisa 8 do Solarisa 10 na
 [Sunfreeware][sunfreeware] i Ruby 1.8.7 jest dostępny na [Blastwave][blastwave].
@@ -199,16 +199,16 @@ $ pkg install runtime/ruby-18
 Jak poprzednio narzędzia osób trzecich są dobrym sposobem na uzyskanie najnowszej
 wersji Rubiego.
 
-<a name="other">
 
 ### Inne dystrybucje
+{: #other}
 
 Na innych systemach możesz przeszukać repozytorium menedżera pakietów lub
 narzędzia osób trzecich mogą być dobrym wyborem dla ciebie.
 
-<a name="building-from-source">
 
 ## Budowanie ze źródeł
+{: #building-from-source}
 
 Oczywiście możesz zainstalować Rubiego ze źródeł.
 Pobierz i rozpakuj tarballa, a potem zrób to:
