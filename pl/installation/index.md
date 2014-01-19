@@ -7,6 +7,7 @@ lang: pl
 Możesz użyć pewnych narzędzi do instalacji Rubiego.
 Ta strona opisuje użyteczne systemy zarządzania pakietami i narzędzia osób
 trzecich do zarządzania i instalacji Rubiego.
+{: .summary}
 
 
 ## Wybierz metodę instalacji dla swojego systemu

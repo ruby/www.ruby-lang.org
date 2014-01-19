@@ -7,6 +7,7 @@ lang: en
 You can use some tools to install Ruby.
 This page describes about using major package management systems
 and third-party tools for managing and installing Ruby.
+{: .summary}
 
 
 ## Choose installation method for your system
