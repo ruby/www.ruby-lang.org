@@ -75,6 +75,14 @@ RubyInstaller는 Windows 환경에서 전체 루비 개발 환경을 설정하�
 RubyInstaller를 사용하려면, [RubyInstaller 다운로드 페이지][rubyinstaller-downloads]에서 다운로드 받으십시오.
 그런 다음 인스톨러를 실행하기만 하면, 모든 작업은 완료됩니다!
 
+### RailsInstaller 와 Ruby Stack
+
+레일즈를 사용하기 위해 루비를 설치한다면, 다음 인스톨러를 사용할 수 있습니다.
+
+* [RailsInstaller][railsinstaller]는 RubyInstaller를 사용하지만, 레일즈 개발을
+  도와줄 추가 도구들을 제공합니다.
+* [Bitnami Ruby Stack][rubystack]는 루비온레일즈를 위한 완전한 개발환경을 제공합니다.
+  Windows, 맥 OS X, Linux, 가상머신, 클라우드 이미지를 지원합니다.
 
 ## 패키지 관리 시스템(Package Management Systems)
 {: #package-management-systems}
@@ -216,6 +224,8 @@ $ sudo make install
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
 [rubyinstaller]: http://rubyinstaller.org/
+[railsinstaller]: http://railsinstaller.org/
+[rubystack]: http://bitnami.com/stack/ruby/installer
 [pik]: https://github.com/vertiginous/pik
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
