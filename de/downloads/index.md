@@ -56,6 +56,9 @@ vielleicht zu einem Drittanbieter-Werkzeug greifen, siehe nächster Abschnitt.
 Weitergehende Informationen zum Subversion- und Git-Repository von Ruby
 sind unter [Ruby Core](/en/community/ruby-core/) zu finden.
 
+Der Ruby-Quellcode ist auch auf verschiedenen [Mirror-Seiten](/en/downloads/mirrors/) zu finden.
+Bitte nutze einen Mirror in deiner Nähe.
+
 ### Drittanbieter-Werkzeuge
 
 Viele Rubyisten benutzen Drittanbieter-Werkzeuge, um Ruby zu installieren.
