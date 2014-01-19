@@ -6,7 +6,6 @@ lang: en
 
 The Ruby source is available from a worldwide set of mirror sites.
 Please try to use a mirror that is near you.
-
 {: .summary}
 
 ### Mirror sites via HTTP
