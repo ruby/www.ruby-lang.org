@@ -36,7 +36,6 @@ Choose your comfortable way.
 
 
 ## Third Party Tools
-{: #third-party-tools}
 
 Many Rubyists use third-party tools to install Ruby.
 They confer various advantages, but are not officially supported. Their
@@ -218,7 +217,6 @@ latest version of Ruby.
 
 
 ### Other Distributions
-{: #other}
 
 On other systems you can search the package repository for your
 Linux distro's manager, or the third party tools might be the

@@ -36,7 +36,6 @@ Wybierz najbardziej odpowiednią.
 
 
 ## Narzędzia osób trzecich
-{: #third-party-tools}
 
 Wielu użytkowników Rubiego używa narzędzi osób trzecich by wspomóc
 instalację Rubiego. Posiadają one wiele zalet, ale nie są oficjalnie
@@ -203,7 +202,6 @@ wersji Rubiego.
 
 
 ### Inne dystrybucje
-{: #other}
 
 Na innych systemach możesz przeszukać repozytorium menedżera pakietów lub
 narzędzia osób trzecich mogą być dobrym wyborem dla ciebie.
