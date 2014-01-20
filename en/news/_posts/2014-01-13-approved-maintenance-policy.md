@@ -26,5 +26,13 @@ Our main goal to avoid sudden death.
 
 Please understand that we want to focus on improving Ruby for future releases and encourage the use of the latest stable release. The longer a version lives the harder it becomes to maintain it. With the limited resources of ruby-core, it makes it hard for us to maintain more than 2 stable versions at a time.
 
+Any decision made on Ruby development is based on the consensus of ruby-core as a team. The decision must be implicitly or explicitly approved by members of the maintenance policy team:
+
+* [naruse](https://twitter.com/nalsh)
+* [usa](https://twitter.com/unak)
+* [nagachika](https://twitter.com/nagachika)
+
+This request should be made explicitly on the [ruby-core mailing list](mailto:ruby-core@ruby-lang.org).
+
 Thank you for your support as we continue to provide a stable and healthy Ruby.
 
