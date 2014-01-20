@@ -13,8 +13,8 @@ Luki w bezpieczeństwie powinny być zgłaszane poprzez email na
 security@ruby-lang.org ([klucz publiczny PGP](/security.asc)), który jest
 prywatną listą mailingową. Zgłoszone problemy będą publikowane po naprawieniu.
 
-Członkami listy mailingowej są ludzie, którzy dostarczają rubiego
-(twórcy CRuby, autorzy implementacji rubiego, dystrzybutorzy, dostawcy PaaS).
+Członkami listy mailingowej są ludzie, którzy dostarczają Rubiego
+(twórcy MRI, autorzy implementacji Rubiego, dystrzybutorzy, dostawcy PaaS).
 
 ## Znane problemy
 
