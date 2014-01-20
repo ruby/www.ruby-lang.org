@@ -32,7 +32,7 @@ we’re defining a method, that its name is `h`. The next line is the body
 of the method, the same line we saw earlier: `puts "Hello World"`.
 Finally, the last line `end` tells Ruby we’re done defining the method.
 Ruby’s response `=> :h` tells us that it knows we’re done defining the
-method. This response could be `=> nil` at ruby 2.0 and earlier version.
+method. This response could be `=> nil` for Ruby 2.0 and earlier versions.
 But, it's not important here, so let's go on.
 
 ## The Brief, Repetitive Lives of a Method
