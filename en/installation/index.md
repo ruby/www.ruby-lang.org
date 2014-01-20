@@ -63,7 +63,7 @@ Check it out too, and choose your comfortable one.
 {: #rvm}
 
 RVM allows you to install and manage multiple installation of Ruby on your
-system.  It is only available for Mac OS X, Linux, or other UNIX-like
+system.  It is only available for OS X, Linux, or other UNIX-like
 operating system.
 
 For the latest instructions on installing RVM, check out [rvm.io][rvm].
@@ -169,10 +169,10 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (Mac OS X)
+### Homebrew (OS X)
 {: #homebrew}
 
-Ruby 2.0.0 is included in Mac OS X Mavericks.
+Ruby 2.0.0 is included in OS X Mavericks.
 And OS X Mountain Lion, Lion, and Leopard ships with 1.8.7.
 
 2.0 and 1.8 is older version, so there are a number of options
@@ -181,7 +181,7 @@ for installing the latest version of Ruby.
 Most OS X users in the Ruby community use the third party tools to install
 Ruby. But there are some package managers supporting Ruby.
 
-Many people on Mac OS X use [homebrew][homebrew] as a package manager.
+Many people on OS X use [homebrew][homebrew] as a package manager.
 It's really easy to get Ruby:
 
 {% highlight sh %}

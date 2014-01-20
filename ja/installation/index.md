@@ -150,10 +150,10 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (Mac OS X)
+### Homebrew (OS X)
 {: #homebrew}
 
-Ruby 2.0.0 は Mac OS X Mavericks に含まれています。
+Ruby 2.0.0 は OS X Mavericks に含まれています。
 また、OS X Mountain Lion、 Lion および Leopard には 1.8.7 が含まれています。
 
 すでに 2.0 も 1.8 も古いバージョンです。

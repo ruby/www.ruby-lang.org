@@ -21,7 +21,7 @@ lang: ko
   - [homebrew](#homebrew)
   - [소스에서 빌드하기](#building-from-source)
 
-- Linux, UNIX
+- Linux/UNIX
 
   - [rbenv](#rbenv)
   - [RVM](#rvm)
@@ -146,7 +146,7 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (Mac OS X)
+### Homebrew (OS X)
 {: #homebrew}
 
 메버릭에서는 루비 2.0.0이 마운틴라이언, 라이언, 레오파드에서는 1.8.7을 탑재하여 출시되었습니다.
@@ -159,7 +159,7 @@ $ sudo pacman -S ruby
 Mac OS X Tiger는 루비 1.8.2를 탑재하여 패키징되었고 Leopard는 1.8.6를 탑재하여 출시되었습니다.
 하지만, Leopard로 업그레이드 하지 않은 사용자들을 위해, 최신 버전의 루비를 설치할 수 있는 몇 가지 옵션이 있습니다.
 
-많은 Mac OS X 사용자들은 패키지 매니저로 [Homebrew][homebrew]를 사용합니다.
+많은 OS X 사용자들은 패키지 매니저로 [Homebrew][homebrew]를 사용합니다.
 루비를 얻는 방법은 정말로 쉽습니다.
 
 {% highlight sh %}

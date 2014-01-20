@@ -22,7 +22,7 @@ Wybierz najbardziej odpowiednią.
   - [homebrew](#homebrew)
   - [Budowanie ze źródeł](#building-from-source)
 
-- Linux, UNIX
+- Linux/UNIX
 
   - [rbenv](#rbenv)
   - [RVM](#rvm)
@@ -63,7 +63,7 @@ Sprawdź je też i wybierz odpowiednie dla ciebie.
 {: #rvm}
 
 Narzędzie RVM umożliwia instalację i zarządzanie wieloma instalacjami Rubiego w
-systemie. Jest dostępny wyłącznie na system Mac OS X, Linux, lub dowolny system
+systemie. Jest dostępny wyłącznie na system OS X, Linux, lub dowolny system
 bazujący na systemie UNIX.
 
 Po najaktualniejszą instrukcję instalacji RVM zajrzyj na [rvm.io][rvm].
@@ -156,10 +156,10 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (Mac OS X)
+### Homebrew (OS X)
 {: #homebrew}
 
-Ruby 2.0.0 jest zawarty w Mac OS X Mavericks.
+Ruby 2.0.0 jest zawarty w OS X Mavericks.
 A OS X Mountain Lion, Lion i Leopard jest dostarczany z 1.8.7.
 
 2.0 oraz 1.8 są starszymi wersjami, więc jest sporo możliwości by zainstalować
@@ -169,7 +169,7 @@ Większość użytkowników systemu OS X ze społeczności Rubiego używa narzę
 trzecich by zainstalować Rubiego. Ale są też menedżery pakietów wspierające
 Rubiego.
 
-Wiele osób w Mac OS X używa [homebrew][homebrew] jako menedżera pakietów.
+Wiele osób w OS X używa [homebrew][homebrew] jako menedżera pakietów.
 Bardzo łatwo jest zainstalować Rubiego:
 
 {% highlight sh %}
