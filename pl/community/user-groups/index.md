@@ -35,7 +35,7 @@ poniższych stronach:
   informacje znajdujące się na niej.
 
 [Ruby Meetup Groups][3]
-: Spora liczba grup użytkowników rubiego zdecydowała sie wykorzystać
+: Spora liczba grup użytkowników Rubiego zdecydowała sie wykorzystać
   serwis meetup.com jako swoje miejsce w sieci. Meetup zapewnia zestaw
   narzędzi dla grup użytkowników m.in.: prywatne fora dyskusyjne,
   miejsce na ogłoszenia, automatyczne powiadamianie o spotkaniach
