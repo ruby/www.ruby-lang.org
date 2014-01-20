@@ -15,24 +15,24 @@ and third-party tools for managing and installing Ruby.
 The following list is available installation methods.
 Choose your comfortable way.
 
-- OS X
+* OS X
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [homebrew](#homebrew)
-  - [Building from source](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [homebrew](#homebrew)
+  * [Building from source](#building-from-source)
 
-- Linux/UNIX
+* Linux/UNIX
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [Package management systems](#package-management-systems)
-  - [Building from source](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [Package management systems](#package-management-systems)
+  * [Building from source](#building-from-source)
 
-- Windows
+* Windows
 
-  - [RubyInstaller](#rubyinstaller)
-  - [pik][pik]
+  * [RubyInstaller](#rubyinstaller)
+  * [pik][pik]
 
 
 ## Third Party Tools
@@ -109,11 +109,11 @@ or use the tools described above instead.
 
 In this page the following package managers are described:
 
-- [apt (Debian or Ubuntu)](#apt)
-- [yum (CentOS, Fedora, or RHEL)](#yum)
-- [portage (Gentoo)](#gentoo)
-- [pacman (Arch Linux)](#pacman)
-- [Solaris, OpenIndiana](#solaris)
+* [apt (Debian or Ubuntu)](#apt)
+* [yum (CentOS, Fedora, or RHEL)](#yum)
+* [portage (Gentoo)](#gentoo)
+* [pacman (Arch Linux)](#pacman)
+* [Solaris, OpenIndiana](#solaris)
 
 
 ### apt (Debian or Ubuntu)

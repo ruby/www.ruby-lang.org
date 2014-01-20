@@ -14,24 +14,24 @@ lang: ko
 이 목록은 가능한 설치방법입니다.
 편한 방법을 고르세요.
 
-- OS X
+* OS X
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [homebrew](#homebrew)
-  - [소스에서 빌드하기](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [homebrew](#homebrew)
+  * [소스에서 빌드하기](#building-from-source)
 
-- Linux/UNIX
+* Linux/UNIX
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [패키지 관리 시스템](#package-management-systems)
-  - [소스에서 빌드하기](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [패키지 관리 시스템](#package-management-systems)
+  * [소스에서 빌드하기](#building-from-source)
 
-- Windows
+* Windows
 
-  - [RubyInstaller](#rubyinstaller)
-  - [pik][pik]
+  * [RubyInstaller](#rubyinstaller)
+  * [pik][pik]
 
 
 ## 서드파티 도구
@@ -89,11 +89,11 @@ RubyInstaller를 사용하려면, [RubyInstaller 다운로드 페이지][rubyins
 
 여기에서는 다음 패키지 관리자에 대해 기술합니다.
 
-- [apt (Debian or Ubuntu)](#apt)
-- [yum (CentOS, Fedora, or RHEL)](#yum)
-- [portage (Gentoo)](#gentoo)
-- [pacman (Arch Linux)](#pacman)
-- [Solaris, OpenIndiana](#solaris)
+* [apt (Debian or Ubuntu)](#apt)
+* [yum (CentOS, Fedora, or RHEL)](#yum)
+* [portage (Gentoo)](#gentoo)
+* [pacman (Arch Linux)](#pacman)
+* [Solaris, OpenIndiana](#solaris)
 
 
 ### apt (Debian 이나 Ubuntu)

@@ -15,24 +15,24 @@ trzecich do zarządzania i instalacji Rubiego.
 Poniższa lista przedstawia dostępne metody instalacji.
 Wybierz najbardziej odpowiednią.
 
-- OS X
+* OS X
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [homebrew](#homebrew)
-  - [Budowanie ze źródeł](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [homebrew](#homebrew)
+  * [Budowanie ze źródeł](#building-from-source)
 
-- Linux/UNIX
+* Linux/UNIX
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [Systemy zarządzania pakietami](#package-management-systems)
-  - [Budowanie ze źródeł](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [Systemy zarządzania pakietami](#package-management-systems)
+  * [Budowanie ze źródeł](#building-from-source)
 
-- Windows
+* Windows
 
-  - [RubyInstaller](#rubyinstaller)
-  - [pik][pik]
+  * [RubyInstaller](#rubyinstaller)
+  * [pik][pik]
 
 
 ## Narzędzia osób trzecich
@@ -97,11 +97,11 @@ skorzystaj z narzędzi opisanych powyżej.
 
 Na tej stronie następujące menedżery pakietów są opisane:
 
-- [apt (Debian lub Ubuntu)](#apt)
-- [yum (CentOS, Fedora lub RHEL)](#yum)
-- [portage (Gentoo)](#gentoo)
-- [pacman (Arch Linux)](#pacman)
-- [Solaris, OpenIndiana](#solaris)
+* [apt (Debian lub Ubuntu)](#apt)
+* [yum (CentOS, Fedora lub RHEL)](#yum)
+* [portage (Gentoo)](#gentoo)
+* [pacman (Arch Linux)](#pacman)
+* [Solaris, OpenIndiana](#solaris)
 
 
 ### apt (Debian lub Ubuntu)

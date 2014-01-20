@@ -13,24 +13,24 @@ lang: ja
 利用可能なインストール方法を解説します。
 お好みの使いやすい方法を選んでください。
 
-- OS X
+* OS X
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [homebrew](#homebrew)
-  - [ソースからのビルド](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [homebrew](#homebrew)
+  * [ソースからのビルド](#building-from-source)
 
-- Linux/UNIX
+* Linux/UNIX
 
-  - [rbenv](#rbenv)
-  - [RVM](#rvm)
-  - [パッケージ管理システム](#package-management-systems)
-  - [ソースからのビルド](#building-from-source)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [パッケージ管理システム](#package-management-systems)
+  * [ソースからのビルド](#building-from-source)
 
-- Windows
+* Windows
 
-  - [RubyInstaller](#rubyinstaller)
-  - [pik][pik]
+  * [RubyInstaller](#rubyinstaller)
+  * [pik][pik]
 
 
 ## サードパーティツール
@@ -92,11 +92,11 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 
 このページには以下のパッケージマネージャが記述されています。
 
-- [apt (Debian or Ubuntu)](#apt)
-- [yum (CentOS, Fedora, or RHEL)](#yum)
-- [portage (Gentoo)](#gentoo)
-- [pacman (Arch Linux)](#pacman)
-- [Solaris, OpenIndiana](#solaris)
+* [apt (Debian or Ubuntu)](#apt)
+* [yum (CentOS, Fedora, or RHEL)](#yum)
+* [portage (Gentoo)](#gentoo)
+* [pacman (Arch Linux)](#pacman)
+* [Solaris, OpenIndiana](#solaris)
 
 
 ### apt (Debian or Ubuntu)
