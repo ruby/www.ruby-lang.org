@@ -13,9 +13,9 @@ lang: ja
 
 メジャーなプラットフォームでは Ruby をインストールする方法はいくつかあります。
 
-- Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、rbenv、RVMなどのサードパーティツールが使えます。
-- OS Xマシンでは、rbenv、RVMなどのサードパーティのパッケージ管理ツールが使えます。
-- Windowsマシンでは、RubyInstallerやpikといったツールが使えます。
+* Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、rbenv、RVMなどのサードパーティツールが使えます。
+* OS Xマシンでは、rbenv、RVMなどのサードパーティのパッケージ管理ツールが使えます。
+* Windowsマシンでは、RubyInstallerやpikといったツールが使えます。
 
 各パッケージマネージャ及びサードパーティーツールの詳細は、[インストールガイド](/ja/installation/) ページを参照して下さい。
 
@@ -38,7 +38,6 @@ lang: ja
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **スナップショット:**
-
   * [安定版のスナップショット][stable-snapshot-gz]:
     最も新しい現在の安定版ブランチのスナップショットのtarballです。
   * [ナイトリースナップショット][nightly-gz]:
@@ -60,6 +59,7 @@ Windows向けのバイナリが有志により配布されています。
   安定版に多数の便利なライブラリを加えたもの。ベースはmingw32版
 * [RailsInstaller][railsinstaller] (英語)
   RubyInstaller に Rails の開発に必要なものを加えたもの。
+
 
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}

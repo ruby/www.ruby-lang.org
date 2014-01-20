@@ -13,10 +13,10 @@ wersja to {{ site.downloads.stable.version }}. Pamiętaj aby przeczytać
 
 Mamy dostępne narzędzia dla każdej znaczącej platformy by zainstalować Rubiego:
 
-- dla maszyn z systemem Linux/UNIX możesz użyć systemowego menedżera pakietów
+* dla maszyn z systemem Linux/UNIX możesz użyć systemowego menedżera pakietów
   lub narzędzi osób trzecich (rbenv lub RVM),
-- dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich (rbenv lub RVM),
-- dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller lub pik.
+* dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich (rbenv lub RVM),
+* dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller lub pik.
 
 Zobacz stronę [instalacja](/pl/installation/) po więcej szczegółów dotyczących
 systemów zarządzania pakietami lub narzędzi osób trzecich.
@@ -43,7 +43,6 @@ trzecich ze strony [instalacja](/pl/installation/). Mogą ci pomóc.
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **Migawki:**
-
   * [Stabilna migawka][stable-snapshot-gz]:
     To jest tarball ostatniej migawki stabilnej obecnego stabilnego brancha.
   * [Nocny migawka][nightly-gz]:
@@ -55,6 +54,7 @@ zobacz stronę [Ruby Core](/en/community/ruby-core/).
 
 Źródła Rubiego są dostępne na światowych [stronach lustrzanych](/en/downloads/mirrors/). Spróbuj
 użyć jakiegoś blisko ciebie.
+
 
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}

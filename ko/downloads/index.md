@@ -13,10 +13,9 @@ lang: ko
 
 각 주요 플랫폼에서 루비를 설치할 수 있는 몇 가지 도구들이 있습니다.
 
-
-- Linux/UNIX에서는 시스템에 포함된 패키지 관리 시스템이나 서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
-- OS X에서는 서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
-- Windows에서는 RubyInstaller나 pik를 사용할 수 있습니다.
+* Linux/UNIX에서는 시스템에 포함된 패키지 관리 시스템이나 서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
+* OS X에서는 서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
+* Windows에서는 RubyInstaller나 pik를 사용할 수 있습니다.
 
 페키지 관리 시스템이나 서드파티 도구에 대한 좀 더 자세한 설명은 [설치](/ko/installation/) 페이지를 보세요.
 
@@ -40,7 +39,6 @@ lang: ko
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **스냅샷:**
-
   * [Stable Snapshot][stable-snapshot-gz]:
     안정 브랜치의 최신 스냅샷을 타르볼로 압축한 것.
   * [Nightly Snapshot][nightly-gz]:
@@ -51,7 +49,6 @@ lang: ko
 
 루비 소스는 전세계의 [미러 사이트](/en/downloads/mirrors/)에서 사용하실 수 있습니다.
 자신과 가까운 곳의 미러를 이용해 주십시오.
-
 
 
 [stable-gz]: {{ site.downloads.stable.url.gz }}
