@@ -4,16 +4,18 @@ title: "Installing Ruby"
 lang: en
 ---
 
-You can use some tools to install Ruby.
-This page describes about using major package management systems
-and third-party tools for managing and installing Ruby.
+You can use several tools to install Ruby.
+This page describes how to use major package management systems
+and third-party tools for managing and installing Ruby
+and how to build Ruby from source.
 {: .summary}
 
 
-## Choose installation method for your system
+## Choose Your Installation Method
 
-The following list is available installation methods.
-Choose your comfortable way.
+The following overview lists available installation methods
+for each of the major platforms.
+Choose the way that is the most comfortable for you.
 
 * OS X
 
@@ -38,46 +40,46 @@ Choose your comfortable way.
 ## Third Party Tools
 
 Many Rubyists use third-party tools to install Ruby.
-They confer various advantages, but are not officially supported. Their
-respective communities are very helpful, however.
+They confer various advantages, but are not officially supported.
+Their respective communities are very helpful, however.
 
 
 ### rbenv
 {: #rbenv}
 
-rbenv allows you to manage multiple Installation of Ruby.
-
-It doesn't support installing Ruby, but there's a popular plugin named
-ruby-build to install Ruby.
-
+rbenv allows you to manage multiple installations of Ruby.
+It does not support installing Ruby, but there is a popular plugin
+named ruby-build to install Ruby.
 Both tools are available for OS X, Linux, or other UNIX-like operating systems.
 
-For the latest instructions on installing rbenv, check out [rbenv page][rbenv].
+For the latest instructions on installing rbenv, check out the
+[rbenv website][rbenv].
 
 There is similar tool named RVM, described in the next section.
-Check it out too, and choose your comfortable one.
+Check it out, too, and choose the one most comfortable for you.
 
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
-RVM allows you to install and manage multiple installation of Ruby on your
-system.  It is only available for OS X, Linux, or other UNIX-like
-operating system.
+RVM allows you to install and manage multiple installations of Ruby
+on your system. It is only available for OS X, Linux, or other UNIX-like
+operating systems.
 
-For the latest instructions on installing RVM, check out [rvm.io][rvm].
+For the latest instructions on installing RVM, check out the
+[RVM website][rvm].
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
-If you're on Windows, there's a great project to help you install Ruby:
-[RubyInstaller][rubyinstaller].
-It gives you everything you need to set up a full Ruby development
-environment on Windows.
+If you are on Windows, there is a great project to help you install Ruby:
+RubyInstaller. It gives you everything you need to set up a full
+Ruby development environment on Windows.
 
-To use RubyInstaller, download it from the [RubyInstaller page][rubyinstaller].
-Then just use the installer, and you're done!
+To use RubyInstaller, download it from the
+[RubyInstaller website][rubyinstaller].
+Then just use the installer, and you are done!
 
 
 ### RailsInstaller and Ruby Stack
@@ -95,18 +97,18 @@ installers:
 ## Package Management Systems
 {: #package-management-systems}
 
-If you can't compile your own Ruby, and you don't want to use a third
+If you cannot compile your own Ruby, and you do not want to use a third
 party tool, you can use your system's package manager to install Ruby.
 
 Certain members in the Ruby community feel very strongly that you should
 never use a package manager to install Ruby, and that you should use tools
 instead. While the full list of pros and cons are outside of the scope
 of this page, the most basic reason is that most package managers have
-older versions of Ruby in their official repositories. If you'd like to
+older versions of Ruby in their official repositories. If you would like to
 use the newest Ruby, make sure you use the correct package name,
 or use the tools described above instead.
 
-In this page the following package managers are described:
+The following package managers are described below:
 
 * [apt (Debian or Ubuntu)](#apt)
 * [yum (CentOS, Fedora, or RHEL)](#yum)
@@ -118,14 +120,14 @@ In this page the following package managers are described:
 ### apt (Debian or Ubuntu)
 {: #apt}
 
-Debian GNU/Linux or Ubuntu use the apt package manager.
+Debian GNU/Linux and Ubuntu use the apt package manager.
 You can use it like this:
 
 {% highlight sh %}
 $ sudo apt-get install ruby
 {% endhighlight %}
 
-As of writing, the `ruby` package provides older Ruby 1.9.3
+As of writing, the `ruby` package provides the older Ruby 1.9.3
 on Debian and Ubuntu.
 
 
@@ -140,7 +142,7 @@ $ sudo yum install ruby
 {% endhighlight %}
 
 The installed version is typically the latest version of Ruby available
-at the release time of the specific distro version.
+at the release time of the specific distribution version.
 
 
 ### portage (Gentoo)
@@ -152,16 +154,16 @@ Gentoo uses the portage package manager.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-In default, this will try to install all available versions (1.8, 1.9, and 2.0).
-To install the specific version, set `RUBY_TARGETS` in your `make.conf`.
-See [Gentoo Ruby Project page][gentoo-ruby] for details.
+By default, this will try to install all available versions (1.8, 1.9, and 2.0).
+To install a specific version, set `RUBY_TARGETS` in your `make.conf`.
+See the [Gentoo Ruby Project website][gentoo-ruby] for details.
 
 
 ### pacman (Arch Linux)
 {: #pacman}
 
-Arch Linux uses a package manager named pacman. To get Ruby, just do
-this:
+Arch Linux uses a package manager named pacman.
+To get Ruby, just do this:
 
 {% highlight sh %}
 $ sudo pacman -S ruby
@@ -171,17 +173,16 @@ $ sudo pacman -S ruby
 ### Homebrew (OS X)
 {: #homebrew}
 
-Ruby 2.0.0 is included in OS X Mavericks.
-And OS X Mountain Lion, Lion, and Leopard ships with 1.8.7.
-
-2.0 and 1.8 is older version, so there are a number of options
+On OS X Mavericks Ruby 2.0 is included.
+OS X Mountain Lion, Lion, and Leopard ship with 1.8.7.
+Ruby 2.0 and 1.8 are older versions, so there are a number of options
 for installing the latest version of Ruby.
 
 Most OS X users in the Ruby community use the third party tools to install
 Ruby. But there are some package managers supporting Ruby.
 
 Many people on OS X use [homebrew][homebrew] as a package manager.
-It's really easy to get Ruby:
+It is really easy to get Ruby:
 
 {% highlight sh %}
 $ brew install ruby
@@ -189,7 +190,7 @@ $ brew install ruby
 
 Also, since OS X is based on Unix, downloading and installing from the
 source is just as easy and effective as the other solutions.
-To help you with installation of new Ruby versions on OS X, it's
+To help you with installation of new Ruby versions on OS X, it is
 probably a good idea to use the third party tools.
 
 
@@ -204,7 +205,7 @@ but this is outdated.
 Using the third party tools can get you the latest version of Ruby.
 
 To install Ruby on [OpenIndiana][openindiana], please use the
-[Image Packaging System, or IPS][opensolaris-pkg] client.
+[Image Packaging System (IPS)][opensolaris-pkg] client.
 This will install the latest Ruby binaries and RubyGems directly
 from the OpenSolaris network repository for Ruby 1.9. It’s easy:
 
@@ -212,18 +213,18 @@ from the OpenSolaris network repository for Ruby 1.9. It’s easy:
 $ pkg install runtime/ruby-18
 {% endhighlight %}
 
-Like before, the third party tools is a good way to obtain the
+Like before, the third party tools are a good way to obtain the
 latest version of Ruby.
 
 
 ### Other Distributions
 
 On other systems you can search the package repository for your
-Linux distro's manager, or the third party tools might be the
+Linux distribution's manager, or the third party tools might be the
 right choice for you.
 
 
-## Building from source
+## Building from Source
 {: #building-from-source}
 
 Of course, you can install Ruby from source.
@@ -235,11 +236,11 @@ $ make
 $ sudo make install
 {% endhighlight %}
 
-In default, this will install Ruby into `/usr/local`. To change, pass
-`--prefix=DIR` option to `./configure` script.
+By default, this will install Ruby into `/usr/local`. To change, pass
+the `--prefix=DIR` option to the `./configure` script.
 
-Although using the third party tools or package managers is better idea,
-because installed Ruby won't be managed by any tools.
+Using the third party tools or package managers might be a better idea,
+though, because the installed Ruby won't be managed by any tools.
 
 
 [rvm]: http://rvm.io/
