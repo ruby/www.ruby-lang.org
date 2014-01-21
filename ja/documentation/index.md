@@ -52,6 +52,40 @@ lang: ja
 * [Ruby 1.4.6 リファレンスマニュアル(日本語版)][21]
 * [Ruby 1.4.6 リファレンスマニュアル(英語版)][22]
 
+### エディタと統合開発環境
+
+Rubyプログラミングには、OS標準のテキストエディタを使うことができます。
+しかし、適切なツールを使用すると、より効率よくプログラミングできるようになります。
+シンタクスハイライトやファイルブラウジングのような基本的なRubyプログラミング支援機能を提供するソースコードエディタや、
+コード補完やリファクタリング機能、テスト支援といった、より高度な機能を提供する統合開発環境があります。
+
+Rubyistに人気のあるソフトウェアには次のようなものがあります。
+
+* Linux/クロスプラットフォーム
+  * [Aptana Studio][t1]
+  * [Emacs][t2]
+    * [Ruby mode][t3]
+    * [Rsense][t4]
+  * [Geany][t5]
+  * [gedit][t6]
+  * [Vim][t7]
+    * [vim-ruby][t8]
+    * [Rsense][t4]
+  * [RubyMine][t9]
+  * [SciTe][t10]
+  * [NetBeans][t18]
+  * [Sublime Text][t17]
+
+* Windows
+  * [Notead++][t11]
+  * [E-TextEditor][t12]
+  * [Ruby In Steel][t13]
+
+* OS X
+  * [TextMate][t14]
+  * [TextWrangler][t15]
+  * [Dash （ドキュメント表示ツール）][t16]
+
 Posted by Shugo Maeda on 26 May 2006
 {: .post-info}
 
@@ -79,3 +113,21 @@ Posted by Shugo Maeda on 26 May 2006
 [21]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
 [22]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
 [23]: http://doc.ruby-lang.org/ja/2.1.0/doc/index.html
+[t1]: http://www.aptana.com/
+[t2]: http://www.gnu.org/software/emacs/
+[t3]: http://www.emacswiki.org/emacs/RubyMode
+[t4]: http://cx4a.org/software/rsense/
+[t5]: http://www.geany.org/
+[t6]: http://projects.gnome.org/gedit/screenshots.html
+[t7]: http://www.vim.org/
+[t8]: https://github.com/vim-ruby/vim-ruby
+[t9]: http://www.jetbrains.com/ruby/
+[t10]: http://www.scintilla.org/SciTE.html
+[t11]: http://notepad-plus-plus.org/
+[t12]: http://www.e-texteditor.com/
+[t13]: http://www.sapphiresteel.com/
+[t14]: http://macromates.com/
+[t15]: http://www.barebones.com/products/textwrangler/
+[t16]: http://kapeli.com/dash
+[t17]: http://www.sublimetext.com/
+[t18]: https://netbeans.org/
