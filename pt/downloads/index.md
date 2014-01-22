@@ -6,7 +6,7 @@ lang: pt
 
 Aqui pode receber as últimas distribuições de Ruby nos seus sabores
 preferidos. A versão actual e estável é a {{ site.downloads.stable.version }}.
-Por favor certifique-se que leu a [Licença Ruby][1].
+Por favor certifique-se que leu a [Licença Ruby][license].
 {: .summary}
 
 ### Código-Fonte do Ruby
@@ -17,11 +17,11 @@ necessite de configurações específicas para o seu ambiente. É
 eventualmente também uma boa solução porque pode não haver pacotes
 pré-construídos para a sua plataforma.
 
-* [Ruby {{ site.downloads.stable.version }}][2]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable (*recommended*)
-* [Snapshot Estável][3] Ficheiros compactados em tar e gzip do último
+* [Snapshot Estável][stable-snapshot-gz] Ficheiros compactados em tar e gzip do último
   CVS estável. Deverá ser melhor que o última distribuição estável.
-* [Snapshot Nocturno][4] Ficheiros compactados em tar e gzip do último
+* [Snapshot Nocturno][nightly-gz] Ficheiros compactados em tar e gzip do último
   CVS. Pode conter problemas por resolver.
 
 Para informações sobre o repositório CVS de Ruby, veja a nossa página
@@ -117,10 +117,10 @@ necessitam de testar as suas aplicações em ambientes diversos.
 
 
 
-[1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url.gz }}
-[3]: {{ site.downloads.stable_snapshot.url.gz }}
-[4]: {{ site.downloads.nightly_snapshot.url.gz }}
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
 [6]: http://rubyforge.org/frs/download.php/74293/rubyinstaller-1.8.7-p334.exe
 [7]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe

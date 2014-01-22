@@ -6,7 +6,7 @@ lang: ko
 
 자신이 선호하는 방식으로 최신 루비 배포판을 설치할 수 있습니다.
 현재 안정 버전은 {{ site.downloads.stable.version }} 입니다.
-[Ruby 라이센스]({{ site.license.url }})를 읽어 보십시오.
+[Ruby 라이센스][license]를 읽어 보십시오.
 {: .summary}
 
 ### 루비를 설치하는 방법
@@ -51,8 +51,10 @@ lang: ko
 자신과 가까운 곳의 미러를 이용해 주십시오.
 
 
-[stable-gz]: {{ site.downloads.stable.url.gz }}
+
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.previous19.url.gz }}
+[old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}

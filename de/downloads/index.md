@@ -6,7 +6,7 @@ lang: de
 
 Hier kannst Du die aktuellen Ruby-Distributionen herunterladen.
 Die stabile Version ist derzeit {{ site.downloads.stable.version }}.
-Bitte nimm auch [Rubys Lizenz]({{ site.license.url }}) zur Kenntnis.
+Bitte nimm auch [Rubys Lizenz][license] zur Kenntnis.
 {: .summary}
 
 ### Drei Möglichkeiten, Ruby zu installieren
@@ -41,15 +41,15 @@ Lösung, falls es keine vorgefertigten Pakete für Dein System gibt.
 Falls es Schwierigkeiten beim Kompilieren geben sollte, solltest Du
 vielleicht zu einem Drittanbieter-Werkzeug greifen, siehe nächster Abschnitt.
 
-* [Ruby {{ site.downloads.stable.version }}][ruby21]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) stabile Version
-* [Ruby {{ site.downloads.previous.version }}][ruby20]
+* [Ruby {{ site.downloads.previous.version }}][previous-gz]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) stabile Vorgängerversion
-* [Ruby {{ site.downloads.previous19.version }}][ruby19]
+* [Ruby {{ site.downloads.previous19.version }}][old-gz]
   (md5:&nbsp;{{ site.downloads.previous19.md5.gz }}) stabile Vorgängerversion (1.9)
-* [Stable Snapshot][3] Hierbei handelt es sich um den neuesten Snapshot
+* [Stable Snapshot][stable-snapshot-gz] Hierbei handelt es sich um den neuesten Snapshot
   des stabilen Zweiges (ruby\_2\_1).
-* [Nightly Snapshot][4] Hierbei handelt es sich um eine Kopie der SVN-Version
+* [Nightly Snapshot][nightly-gz] Hierbei handelt es sich um eine Kopie der SVN-Version
   von letzter Nacht. Es besteht durchaus die Gefahr, dass in dieser Version
   noch nicht korrigierte Fehler enthalten sind.
 
@@ -228,11 +228,12 @@ Spezifikation für die Programmiersprache Ruby“.
 
 
 
-[ruby21]: {{ site.downloads.stable.url.gz }}
-[ruby20]: {{ site.downloads.previous.url.gz }}
-[ruby19]: {{ site.downloads.previous19.url.gz }}
-[3]: {{ site.downloads.stable_snapshot.url.gz }}
-[4]: {{ site.downloads.nightly_snapshot.url.gz }}
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[previous-gz]: {{ site.downloads.previous.url.gz }}
+[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

@@ -7,7 +7,7 @@ lang: ja
 ここでは、Rubyインタプリタの代表的な入手方法を説明します。
 
 現在の安定版は {{ site.downloads.stable.version }}です。
-[Ruby’sライセンス]({{ site.license.url }})を必ずお読み下さい。
+[Ruby’sライセンス][license]を必ずお読み下さい。
 
 ### Rubyのインストール方法
 
@@ -61,9 +61,11 @@ Windows向けのバイナリが有志により配布されています。
   RubyInstaller に Rails の開発に必要なものを加えたもの。
 
 
-[stable-gz]: {{ site.downloads.stable.url.gz }}
+
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.previous19.url.gz }}
+[old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [active-script-ruby]: http://www.artonx.org/data/asr/

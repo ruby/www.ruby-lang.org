@@ -5,7 +5,7 @@ lang: zh_tw
 ---
 
 您可以在這裡下載適合最新的 Ruby 發行版。目前最新的穩定版本是
-{{ site.downloads.stable.version }}。另外，請先閱讀 [Ruby 版權說明]({{ site.license.url }})。
+{{ site.downloads.stable.version }}。另外，請先閱讀 [Ruby 版權說明][license]。
 {: .summary}
 
 ### 三種方式可安裝 Ruby
@@ -26,14 +26,14 @@ lang: zh_tw
 
 若編譯 Ruby 時遇到任何問題，考慮看看使用下節羅列的第三方工具。
 
-* [Ruby {{ site.downloads.stable.version }}][ruby21]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) 穩定版
-* [Ruby {{ site.downloads.previous.version }}][ruby20]
+* [Ruby {{ site.downloads.previous.version }}][previous-gz]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) 穩定前一版
-* [Ruby {{ site.downloads.previous19.version }}][ruby19]
+* [Ruby {{ site.downloads.previous19.version }}][old-gz]
   (md5:&nbsp;{{ site.downloads.previous19.md5.gz }}) 1.9 上一版
-* [Stable Snapshot][3] 穩定版（ruby\_2\_1 分支）的最新快照。
-* [Nightly Snapshot][4] 這是 SVN 上的 tarball，每晚更新，可能有問題或 bug，小心使用。
+* [Stable Snapshot][stable-snapshot-gz] 穩定版（ruby\_2\_1 分支）的最新快照。
+* [Nightly Snapshot][nightly-gz] 這是 SVN 上的 tarball，每晚更新，可能有問題或 bug，小心使用。
 
 關於 Ruby Subversion 與 Git Repositories 的資訊，參見 [Ruby Core](/en/community/ruby-core/) 頁面。
 
@@ -136,11 +136,14 @@ Ruby 語言有許多不同的實作。官方使用 C 語言實作的 Ruby 叫做
 
 MRI 與某些實作遵循 [RubySpec][28]，Ruby 程式語言的完整規格文件。
 
-[ruby21]: {{ site.downloads.stable.url.gz }}
-[ruby20]: {{ site.downloads.previous.url.gz }}
-[ruby19]: {{ site.downloads.previous19.url.gz }}
-[3]: {{ site.downloads.stable_snapshot.url.gz }}
-[4]: {{ site.downloads.nightly_snapshot.url.gz }}
+
+
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[previous-gz]: {{ site.downloads.previous.url.gz }}
+[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

@@ -6,7 +6,7 @@ lang: ru
 
 Здесь вы найдете последние дистрибутивы Ruby на любой вкус. Текущая
 стабильная версия {{ site.downloads.stable.version }}. Пожалуйста ознакомьтесь
-с [лицензией Ruby]({{ site.license.url }}).
+с [лицензией Ruby][license].
 {: .summary}
 
 ### Три способа установки Ruby
@@ -40,12 +40,12 @@ lang: ru
 Если у вас возникла сложность с компиляцией Ruby, попробуйте один из
 сторонних инструментов из следующей секции. Они могут помочь вам.
 
-* [Ruby {{ site.downloads.stable.version }}][1]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Стабильная
-* [Ruby {{ site.downloads.previous.version }}][2]
+* [Ruby {{ site.downloads.previous.version }}][previous-gz]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Предыдущая
-* [Stable snapshot][3] Это архив свежайшей стабильной стабильной версии (ruby\_2\_0\_0).
-* [Nightly Snapshot][4] Это архив того что в SVN на данный момент. Он
+* [Stable snapshot][stable-snapshot-gz] Это архив свежайшей стабильной стабильной версии (ruby\_2\_0\_0).
+* [Nightly Snapshot][nightly-gz] Это архив того что в SVN на данный момент. Он
   может содержать баги и другие проблемы. Используйте на собственный риск.
 
 За информацией о Ruby Subversion и Git репозиториях пожалуйста,
@@ -226,10 +226,11 @@ Ruby как язык имеет несколько разных имплемен
 
 
 
-[1]: {{ site.downloads.stable.url.gz }}
-[2]: {{ site.downloads.previous.url.gz }}
-[3]: {{ site.downloads.stable_snapshot.url.gz }}
-[4]: {{ site.downloads.nightly_snapshot.url.gz }}
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[previous-gz]: {{ site.downloads.previous.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

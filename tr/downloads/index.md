@@ -6,7 +6,7 @@ lang: tr
 
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
 En son kararlı sürüm {{ site.downloads.stable.version }},
-lütfen önce [Ruby lisansını][1] okuyun.
+lütfen önce [Ruby lisansını][license] okuyun.
 {: .summary}
 
 ### Ruby Kaynak Kodu
@@ -15,12 +15,12 @@ Kaynak kodundan kurmak, platformunuza yeterince hakimseniz ve
 ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
-* [Ruby {{ site.downloads.stable.version }}][2]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }})
   Kararlı Versiyon (*tavsiye edilir*)
-* [Stable Snapshot][3] Bu son kararlı SVN’nin tar gzip hali. Son kararlı
+* [Stable Snapshot][stable-snapshot-gz] Bu son kararlı SVN’nin tar gzip hali. Son kararlı
   sürümden daha iyi olması beklenir.
-* [Nightly Snapshot][4] Bu son SVN’nin tar gzip hali. Çözülmemiş
+* [Nightly Snapshot][nightly-gz] Bu son SVN’nin tar gzip hali. Çözülmemiş
   problemleri olabilir.
 
 Ruby Subversion ve Git depoları hakkında bilgi için [Ruby
@@ -142,10 +142,10 @@ Rubyforge][29] adresini inceleyin.
 
 
 
-[1]: {{ site.license.url }}
-[2]: {{ site.downloads.stable.url.gz }}
-[3]: {{ site.downloads.stable_snapshot.url.gz }}
-[4]: {{ site.downloads.nightly_snapshot.url.gz }}
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: http://rubyinstaller.org/
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
 [7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe

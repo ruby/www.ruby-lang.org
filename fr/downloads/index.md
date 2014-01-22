@@ -6,7 +6,7 @@ lang: fr
 
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
 version stable actuelle est la {{ site.downloads.stable.version }}.
-N’oubliez pas de consulter la [licence Ruby]({{ site.license.url }}).
+N’oubliez pas de consulter la [licence Ruby][license].
 {: .summary}
 
 ### 3 façons d'installer Ruby
@@ -42,14 +42,14 @@ autres), et qui souhaitent obtenir une configuration spécifique pour
 leur environnement. C’est également la solution à adopter par défaut
 lorsqu’aucun paquetage « tout compris » n’existe pour votre plateforme.
 
-* [Ruby {{ site.downloads.stable.version }}][1]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Version stable (*recommandée*)
-* [Ruby {{ site.downloads.previous.version }}][2]
+* [Ruby {{ site.downloads.previous.version }}][previous-gz]
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Version précédente
-* [Stable Snapshot][3] Archive de la dernière version stable du SVN
+* [Stable Snapshot][stable-snapshot-gz] Archive de la dernière version stable du SVN
   (ruby\_2\_0\_0). A priori plus à jour que la dernière version stable
   publique.
-* [Nightly Snapshot][4] Archive de la dernière version du SVN.
+* [Nightly Snapshot][nightly-gz] Archive de la dernière version du SVN.
   Comporte probablement des bugs !
 
 Pour plus d’information sur le dépôt Subversion de Ruby, voyez la page
@@ -210,10 +210,11 @@ une spécification complète de Ruby en tant que langage de programmation.
 
 
 
-[1]: {{ site.downloads.stable.url.gz }}
-[2]: {{ site.downloads.previous.url.gz }}
-[3]: {{ site.downloads.stable_snapshot.url.gz }}
-[4]: {{ site.downloads.nightly_snapshot.url.gz }}
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[previous-gz]: {{ site.downloads.previous.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

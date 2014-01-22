@@ -6,7 +6,7 @@ lang: id
 
 Di sini Anda bisa mendapatkan distribusi Ruby terbaru. Versi stabil saat
 ini adalah {{ site.downloads.stable.version }}. Ruby disediakan secara gratis,
-namun pastikan Anda membaca [Lisensi Ruby][1] terlebih dahulu sebelum
+namun pastikan Anda membaca [Lisensi Ruby][license] terlebih dahulu sebelum
 menggunakannya.
 {: .summary}
 
@@ -149,11 +149,11 @@ Anda berpengalaman dengan sistem operasi Anda atau membutuhkan
 konfigurasi yang spesifik. Apabila tidak ada paket distribusi siap pakai
 untuk sistem operasi Anda, alternatif ini juga solusi yang baik.
 
-* [Ruby {{ site.downloads.stable.version }}][21]
+* [Ruby {{ site.downloads.stable.version }}][stable-gz]
   (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) Stable (*dianjurkan*)
 * [Ruby 1.9.3 preview1][22] (md5:&nbsp;0f0220be4cc7c51a82c1bd8f6a0969f3)
-* [Stable Snapshot][23]
-* [Nightly Snapshot][24] Ini adalah versi paling mutakhir langsung dari
+* [Stable Snapshot][stable-snapshot-gz]
+* [Nightly Snapshot][nightly-gz] Ini adalah versi paling mutakhir langsung dari
   Subversion *repository* dalam format tar+gzip. Versi ini mungkin
   memiliki bug yang belum diperbaiki.
 
@@ -162,7 +162,10 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 
 
 
-[1]: {{ site.license.url }}
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
+[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [2]: http://www.linuxmint.com/
 [3]: http://www.ubuntu.com
 [4]: http://www.debian.org
@@ -182,7 +185,4 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 [18]: http://www.freebsd.org/
 [19]: http://www.sun.com/software/solaris/
 [20]: http://www.gnusolaris.org/
-[21]: {{ site.downloads.stable.url.gz }}
 [22]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz
-[23]: {{ site.downloads.stable_snapshot.url.gz }}
-[24]: {{ site.downloads.nightly_snapshot.url.gz }}

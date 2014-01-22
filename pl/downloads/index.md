@@ -6,7 +6,7 @@ lang: pl
 
 Tutaj znajdziesz najnowsze dystrybucje języka Ruby. Aktualna stabilna
 wersja to {{ site.downloads.stable.version }}. Pamiętaj aby przeczytać
-[licencję Rubiego]({{ site.license.url }}).
+[licencję Rubiego][license].
 {: .summary}
 
 ### Sposoby instalacji Rubiego
@@ -56,8 +56,10 @@ zobacz stronę [Ruby Core](/en/community/ruby-core/).
 użyć jakiegoś blisko ciebie.
 
 
-[stable-gz]: {{ site.downloads.stable.url.gz }}
+
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.previous19.url.gz }}
+[old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}

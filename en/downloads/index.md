@@ -6,7 +6,7 @@ lang: en
 
 Here you can get the latest Ruby distributions in your favorite flavor.
 The current stable version is {{ site.downloads.stable.version }}.
-Please be sure to read [Ruby’s License]({{ site.license.url }}).
+Please be sure to read [Ruby’s License][license].
 {: .summary}
 
 ### Ways of installing Ruby
@@ -57,8 +57,10 @@ The Ruby source is available from a worldwide set of [Mirror Sites](/en/download
 Please try to use a mirror that is near you.
 
 
-[stable-gz]: {{ site.downloads.stable.url.gz }}
+
+[license]: {{ site.license.url }}
+[stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.previous19.url.gz }}
+[old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
