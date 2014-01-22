@@ -4,6 +4,10 @@ title: "Mirror Sites"
 lang: en
 ---
 
+{% comment %}
+Not to be translated. Link to this page (/en/downloads/mirrors/) instead.
+{% endcomment %}
+
 The Ruby source is available from a worldwide set of mirror sites.
 Please try to use a mirror that is near you.
 {: .summary}
