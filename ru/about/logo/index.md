@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Логотип Ruby"
-translator: "Andrei Beliankou"
 lang: ru
 ---
 
