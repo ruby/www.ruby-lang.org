@@ -51,11 +51,10 @@ lang: ru
 За информацией о Ruby Subversion и Git репозиториях пожалуйста,
 посмотрите страницу о [ядре Ruby](/ru/community/ruby-core/).
 
-Исходный код Ruby доступен по всему миру на нескольких зеркальных
-сайтах. Пожалуйста, попробуйте использовать зеркало, которое находится
+Исходный код Ruby доступен по всему миру на нескольких
+[зеркальных сайтах](/en/downloads/mirrors/).
+Пожалуйста, попробуйте использовать зеркало, которое находится
 недалеко от вас.
-
-[Зеркала](/en/downloads/mirrors/)
 
 ### Сторонние инструменты
 
@@ -255,46 +254,3 @@ Ruby как язык имеет несколько разных имплемен
 [26]: http://www.ironruby.net
 [27]: http://ruby.gemstone.com
 [28]: http://rubyspec.org
-[mirror-http-cdn]: http://cache.ruby-lang.org/pub/ruby/
-[mirror-http-jp-ring-shibaura-it]: http://ring.shibaura-it.ac.jp/archives/lang/ruby/
-[mirror-http-jp-ring-tohoku]: http://ring.tains.tohoku.ac.jp/archives/lang/ruby/
-[mirror-http-jp-ring-u-toyama]: http://ring.u-toyama.ac.jp/archives/lang/ruby/
-[mirror-http-jp-ring-yamanashi]: http://ring.yamanashi.ac.jp/archives/lang/ruby/
-[mirror-http-jp-ring-airnet]: http://ring.airnet.ne.jp/archives/lang/ruby/
-[mirror-http-jp-ring-maffin]: http://ring.maffin.ad.jp/archives/lang/ruby/
-[mirror-https-jp]: https://ftp.ruby-lang.org/pub/ruby/
-[mirror-http-uk]: http://www.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
-[mirror-http-de]: http://dl.ambiweb.de/mirrors/ftp.ruby-lang.org/
-[mirror-http-be]: http://ruby.mirror.easynet.be/
-[mirror-http-dk]: http://mirrors.sunsite.dk/ruby/
-[mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
-[mirror-http-us1]: http://www.ibiblio.org/pub/languages/ruby/
-[mirror-http-us2]: http://xyz.lcs.mit.edu/ruby/
-[mirror-http-us3]: http://www.binarycode.org/ruby/
-[mirror-http-us4]: http://www.online-mirror.org/ruby/
-[mirror-http-us5]: http://ruby.trexle.com/
-[mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
-[mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
-[mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
-[mirror-http-cn]: http://ruby.taobao.org/mirrors/ruby/
-[mirror-ftp-jp1]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-tohoku]: ftp://ring.tains.tohoku.ac.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-u-toyama]: ftp://ring.u-toyama.ac.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-yamanashi]: ftp://ring.yamanashi.ac.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-airnet]: ftp://ring.airnet.ne.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-maffin]: ftp://ring.maffin.ad.jp/pub/lang/ruby/
-[mirror-ftp-jp3]: ftp://ftp.ruby-lang.org/pub/ruby/
-[mirror-ftp-kr]: ftp://ftp.kr.freebsd.org/pub/ruby/
-[mirror-ftp-de]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
-[mirror-ftp-uk]: ftp://ftp.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
-[mirror-ftp-be]: ftp://ftp.easynet.be/ruby/ruby/
-[mirror-ftp-ru]: ftp://ftp.chg.ru/pub/lang/ruby/
-[mirror-ftp-gr]: ftp://ftp.ntua.gr/pub/lang/ruby/
-[mirror-ftp-dk]: ftp://sunsite.dk/mirrors/ruby/
-[mirror-ftp-us1]: ftp://www.ibiblio.org/pub/languages/ruby/
-[mirror-ftp-us2]: ftp://xyz.lcs.mit.edu/pub/ruby/
-[mirror-ftp-at]: ftp://gd.tuwien.ac.at/languages/ruby/
-[mirror-ftp-tw1]: ftp://ruby.cdpa.nsysu.edu.tw/ruby/
-[mirror-ftp-tw2]: ftp://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
-[mirror-ftp-ca]: ftp://mirror.cs.mun.ca/pub/mirror/ruby/
