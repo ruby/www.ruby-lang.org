@@ -108,7 +108,7 @@ lang: ko
 
 루비스트들이 주로 사용하는 도구들의 리스트입니다.
 
-* 리눅스, 크로스 플렛폼
+* Linux, 크로스 플렛폼
   * [Aptana Studio][19]
   * [Emacs][20], [Ruby mode][21], [Rsense][22]
   * [Geany][23]
