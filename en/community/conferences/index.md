@@ -62,7 +62,10 @@ community since 2008. Visit [http://windycityrails.org][9] for details.
 and snow. Listen to engaging speakers, enjoy delicious food and enjoy the
 wonderful scenery around Bend Oregon.
 
-[Burlington Ruby Conference][18]: Summertime in beautiful Burlington, VT
+[Burlington Ruby Conference][18]: A summertime Ruby conference that happens
+annually in Burlington, VT. The conference is two days long and follows a
+single track. The focus of the conference is on creating an environment to
+learn, have fun and meet fellow Rubyists.
 
 ### Ruby At Other Conferences
 
