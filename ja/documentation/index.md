@@ -10,22 +10,22 @@ lang: ja
 
 各環境にRubyをインストールする方法は、 [ダウンロード](/ja/downloads) 及び [インストールガイド](/ja/installation) で解説しています。
 
-また、現在有志の手により[リファレンスマニュアルの整備][2]が進行中です。
-作業途中の成果物を[&lt;URL:http://doc.ruby-lang.org/ja/&gt;][3]から閲覧できます。
+また、現在有志の手により[リファレンスマニュアルの整備][rurema-wiki]が進行中です。
+作業途中の成果物を[&lt;URL:http://doc.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
 
-* [Rubyリファレンスマニュアル Ruby 1.8.7版][4]
-* [Rubyリファレンスマニュアル Ruby 1.9.3版][5]
-* [Rubyリファレンスマニュアル Ruby 2.0.0版][6]
-* [Rubyリファレンスマニュアル Ruby 2.1.0版][44]
-* [るりまサーチ][7]
+* [Rubyリファレンスマニュアル Ruby 1.8.7版][man-187]
+* [Rubyリファレンスマニュアル Ruby 1.9.3版][man-193]
+* [Rubyリファレンスマニュアル Ruby 2.0.0版][man-200]
+* [Rubyリファレンスマニュアル Ruby 2.1.0版][man-210]
+* [るりまサーチ][man-search]
 
 またこのリファレンスマニュアルをまとめてダウンロードすることもできます。
 
-* [Rubyリファレンスマニュアル刷新計画 パッケージ版 1.8.7/1.9.3用 (tar.xz形式)][8]
-  \|[(tar.gz形式)][9] \|[(zip形式)][10]
-* [Rubyリファレンスマニュアル刷新計画 chm版 1.8.7用][11] \|[1.9.2用][12]
+* [Rubyリファレンスマニュアル刷新計画 パッケージ版 1.8.7/1.9.3用 (tar.xz形式)][man-xz]
+  \|[(tar.gz形式)][man-gz] \|[(zip形式)][man-zip]
+* [Rubyリファレンスマニュアル刷新計画 chm版 1.8.7用][man-187-chm] \|[1.9.3用][man-193-chm]
 
-ドキュメントは全て [&lt;URL:http://doc.okkez.net/&gt;][13] でもミラーされています
+ドキュメントは全て [&lt;URL:http://doc.okkez.net/&gt;][man-mirror] でもミラーされています
 
 ### リファレンス
 
@@ -47,10 +47,10 @@ lang: ja
 古いバージョンを含め、ダウンロードは可能です。
 
 * [旧リファレンスマニュアル
-  20051029版(HTML/tar.gz形式)][14]\|[(HTML/tar.bz2形式)][15]\|[(HTML/zip形式)][16]\|[(RD/tar.gz形式)][17]\|[(RD/tar.bz2形式)][18]\|[(RD/zip形式)][40]
-* [Ruby 1.6.6 リファレンスマニュアル(日本語版)][41]
-* [Ruby 1.4.6 リファレンスマニュアル(日本語版)][42]
-* [Ruby 1.4.6 リファレンスマニュアル(英語版)][43]
+  20051029版(HTML/tar.gz形式)][old-man-html-gz]\|[(HTML/tar.bz2形式)][old-man-html-bz2]\|[(HTML/zip形式)][old-man-html-zip]\|[(RD/tar.gz形式)][old-man-rd-gz]\|[(RD/tar.bz2形式)][old-man-rd-bz2]\|[(RD/zip形式)][old-man-rd-zip]
+* [Ruby 1.6.6 リファレンスマニュアル(日本語版)][man-166-ja]
+* [Ruby 1.4.6 リファレンスマニュアル(日本語版)][man-146-ja]
+* [Ruby 1.4.6 リファレンスマニュアル(英語版)][man-146-en]
 
 ### エディタと統合開発環境
 
@@ -91,23 +91,29 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 
-[2]: https://bugs.ruby-lang.org/projects/rurema/wiki
-[3]: http://doc.ruby-lang.org/ja/
-[4]: http://doc.ruby-lang.org/ja/1.8.7/doc/index.html
-[5]: http://doc.ruby-lang.org/ja/1.9.3/doc/index.html
-[6]: http://doc.ruby-lang.org/ja/2.0.0/doc/index.html
-[7]: http://doc.ruby-lang.org/ja/search/
-[8]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.tar.xz
-[9]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.tar.gz
-[10]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.zip
-[11]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.8.7-20120829.chm
-[12]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-20120829.chm
-[13]: http://doc.okkez.net/
-[14]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.gz
-[15]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.bz2
-[16]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.zip
-[17]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.gz
-[18]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.bz2
+[rurema-wiki]: https://bugs.ruby-lang.org/projects/rurema/wiki
+[doc-r-l-o]: http://doc.ruby-lang.org/ja/
+[man-187]: http://doc.ruby-lang.org/ja/1.8.7/doc/index.html
+[man-193]: http://doc.ruby-lang.org/ja/1.9.3/doc/index.html
+[man-200]: http://doc.ruby-lang.org/ja/2.0.0/doc/index.html
+[man-210]: http://doc.ruby-lang.org/ja/2.1.0/doc/index.html
+[man-search]: http://doc.ruby-lang.org/ja/search/
+[man-xz]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.tar.xz
+[man-gz]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.tar.gz
+[man-zip]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.zip
+[man-187-chm]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.8.7-20120829.chm
+[man-193-chm]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-20120829.chm
+[man-mirror]: http://doc.okkez.net/
+[old-man-html-gz]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.gz
+[old-man-html-bz2]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.bz2
+[old-man-html-zip]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.zip
+[old-man-rd-gz]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.gz
+[old-man-rd-bz2]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.bz2
+[old-man-rd-zip]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.zip
+[man-166-ja]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-1.6.6-20011225-rd.tar.gz
+[man-146-ja]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
+[man-146-en]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
+
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -126,8 +132,3 @@ Posted by Shugo Maeda on 26 May 2006
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [39]: http://kapeli.com/dash
-[40]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.zip
-[41]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-1.6.6-20011225-rd.tar.gz
-[42]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
-[43]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
-[44]: http://doc.ruby-lang.org/ja/2.1.0/doc/index.html
