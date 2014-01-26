@@ -40,7 +40,7 @@ Choose the way that is the most comfortable for you.
 ## Third Party Tools
 
 Many Rubyists use third-party tools to install Ruby.
-They confer various advantages, but are not officially supported.
+They confer various advantages but are not officially supported.
 Their respective communities are very helpful, however.
 
 
@@ -55,7 +55,7 @@ Both tools are available for OS X, Linux, or other UNIX-like operating systems.
 For the latest instructions on installing rbenv, check out the
 [rbenv website][rbenv].
 
-There is similar tool named RVM, described in the next section.
+There is a similar tool named RVM, described in the next section.
 Check it out, too, and choose the one most comfortable for you.
 
 
@@ -89,7 +89,7 @@ installers:
 
 * [RailsInstaller][railsinstaller] which uses RubyInstaller but gives you
   extra tools that help with Rails development.
-* [Bitnami Ruby Stack][rubystack] wich provides a complete development
+* [Bitnami Ruby Stack][rubystack] which provides a complete development
   environment for Ruby on Rails. It supports Windows, OS X, Linux, virtual
   machines and cloud images.
 
@@ -101,7 +101,7 @@ If you cannot compile your own Ruby, and you do not want to use a third
 party tool, you can use your system's package manager to install Ruby.
 
 Certain members in the Ruby community feel very strongly that you should
-never use a package manager to install Ruby, and that you should use tools
+never use a package manager to install Ruby and that you should use tools
 instead. While the full list of pros and cons are outside of the scope
 of this page, the most basic reason is that most package managers have
 older versions of Ruby in their official repositories. If you would like to
@@ -127,8 +127,8 @@ You can use it like this:
 $ sudo apt-get install ruby
 {% endhighlight %}
 
-As of writing, the `ruby` package provides the older Ruby 1.9.3
-on Debian and Ubuntu.
+As of writing, the `ruby` package provides Ruby 1.9.3, which is an old stable
+release, on Debian and Ubuntu.
 
 
 ### yum (CentOS, Fedora, or RHEL)
@@ -173,13 +173,13 @@ $ sudo pacman -S ruby
 ### Homebrew (OS X)
 {: #homebrew}
 
-On OS X Mavericks Ruby 2.0 is included.
+On OS X Mavericks, Ruby 2.0 is included.
 OS X Mountain Lion, Lion, and Leopard ship with 1.8.7.
 Ruby 2.0 and 1.8 are older versions, so there are a number of options
 for installing the latest version of Ruby.
 
 Most OS X users in the Ruby community use the third party tools to install
-Ruby. But there are some package managers supporting Ruby.
+Ruby, but there are some package managers supporting Ruby.
 
 Many people on OS X use [homebrew][homebrew] as a package manager.
 It is really easy to get Ruby:
@@ -219,8 +219,8 @@ latest version of Ruby.
 
 ### Other Distributions
 
-On other systems you can search the package repository for your
-Linux distribution's manager, or the third party tools might be the
+On the other systems, you can search the package repository of your
+Linux distribution's manager for Ruby, or the third party tools might be the
 right choice for you.
 
 
