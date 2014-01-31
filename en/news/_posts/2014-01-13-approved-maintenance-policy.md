@@ -7,7 +7,7 @@ date: 2014-01-13 03:28:19 UTC
 lang: en
 ---
 
-We'd like to take a minute and discuss our plans for ruby-core supported maintenance periods of Ruby.
+We've decided our plans for ruby-core supported maintenance periods of Ruby.
 
 For context, you should read our recent policy changes for [semantic versioning](/en/news/2013/12/21/semantic-versioning-after-2-1-0).
 
