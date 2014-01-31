@@ -32,11 +32,11 @@ Once a version is End-of-Life, it's your responsibility to deal with bugs and se
 
 It's important to recognize the maintainer for each version may decide they can no longer support a version, in which case ruby-core would work to responsibly discontinue the version.
 
-* [naruse](https://twitter.com/nalsh)
-* [usa](https://twitter.com/unak)
-* [nagachika](https://twitter.com/nagachika)
+## Your encouragement is appreciated
 
-This request should be made explicitly on the [ruby-core mailing list](mailto:ruby-core@ruby-lang.org).
+Please understand that we want to focus on improving Ruby for future releases and encourage the use of the latest stable release. The longer a version lives the harder it becomes to maintain it. With the limited resources of ruby-core, it makes it hard for us to maintain more than 2 stable versions at a time.
+
+We're going to give our best effort to support this policy in order to provide a sustainable upgrade path to modern versions of Ruby.
 
 Thank you for your support as we continue to provide a stable and healthy Ruby.
 
