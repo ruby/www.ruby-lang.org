@@ -3,7 +3,7 @@ require 'rack/rewrite'
 
 use Rack::Rewrite do
   if ENV["RACK_ENV"] == "production"
-    r301 %r{.*}, "https://www.ruby-lang.org$&", scheme: "http", host: "wwww.ruby-lang.org"
+    r301 %r{.*}, "https://www.ruby-lang.org$&", scheme: "http", host: "www.ruby-lang.org"
     r301 %r{.*}, "https://staging.ruby-lang.org$&", scheme: "http", host: "staging.ruby-lang.org"
   end
 
