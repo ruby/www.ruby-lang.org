@@ -11,7 +11,7 @@ We've decided our plans for ruby-core supported maintenance periods of Ruby.
 
 For context, you should read our recent policy changes for [semantic versioning](/en/news/2013/12/21/semantic-versioning-after-2-1-0).
 
-Given the previously mentioned versioning scheme, ruby-core aims to support the following policy:
+Given the current supported version scheme, the ruby-core policy is as follows:
 
   * `MINOR`: With "best effort" goal with at least 6 months and at best 3 years or after two newer `MINOR` releases.
   * `TEENY`: Will be released approximately every 2-4 months, backports will be made to the `ruby_MAJOR_MINOR` branch
