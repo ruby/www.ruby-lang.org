@@ -66,4 +66,3 @@ Konstantin Haase (@konstantinhaase) 님이 블로그에 잘 정리해 주셨습�
 릴리즈 스케쥴과 그 밖의 정보들은 밑의 글을 참고해주십시오.
 
 <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>
-

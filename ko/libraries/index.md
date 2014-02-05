@@ -93,7 +93,6 @@ $ gem list
 $ gem list -r
 {% endhighlight %}
 
-
 #### Help!
 
 터미널에서 문서를 열어볼 수 있습니다.
@@ -120,4 +119,3 @@ RubyGems과 같이 일반적으로 사용되는 어플리케이션의 의존성 
 [6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/
 [9]: http://bundler.io/
-

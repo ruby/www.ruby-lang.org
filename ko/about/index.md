@@ -201,4 +201,3 @@ MRI를 포함, 일부 구현체들은 “complete executable specification for t
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
 [rubyspec]: http://rubyspec.org
-

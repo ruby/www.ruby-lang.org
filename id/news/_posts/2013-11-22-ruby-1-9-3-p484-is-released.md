@@ -42,4 +42,3 @@ dan [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) u
 Banyak orang (committer, kontributor and reporter) yang membantu saya untuk
 membuat rilis ini.
 Terima kasih!
-

@@ -72,4 +72,3 @@ Isu - isu yang diketahui:
 Lihat juga jadwal rilis dan informasi lainya:
 
 [http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
-

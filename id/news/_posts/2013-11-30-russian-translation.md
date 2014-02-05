@@ -26,4 +26,3 @@ membuka issue atau kirim pull request hari ini!
 
 [1]: {{ site.url }}/ru/
 [2]: https://github.com/ruby/www.ruby-lang.org/
-

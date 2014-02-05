@@ -59,4 +59,3 @@ Untuk isu - isu sebelumnya lihat [halaman bahasa Inggris][12]
 [10]: /id/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/
 [11]: /id/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/
 [12]: /en/security/
-

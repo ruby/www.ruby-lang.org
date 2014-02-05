@@ -29,4 +29,3 @@ contact@rubyconf.tw
 
 [rubyconf-tw-2014-lanyrd]: http://lanyrd.com/2014/rubyconftw/
 [submit-proposal]: https://kktix.com/events/rubyconftw2014-cfp?locale=en
-

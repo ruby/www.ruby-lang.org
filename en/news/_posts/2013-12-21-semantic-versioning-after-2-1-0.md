@@ -64,4 +64,3 @@ To read up more on this proposal please see the following links:
 
 I'd like to personally thank everyone who contributed to this discussion. Each
 step we take is closer to a more stable and effective Ruby.
-

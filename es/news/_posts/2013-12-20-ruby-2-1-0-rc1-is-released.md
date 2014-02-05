@@ -2,7 +2,7 @@
 layout: news_post
 title: "Liberado Ruby 2.1.0-rc1"
 author: "zzak"
-translator: David Padilla
+translator: "David Padilla"
 date: 2013-12-20 16:53:05 UTC
 lang: es
 ---
@@ -69,4 +69,3 @@ Problemas conocidos:
 Ver también la agenda de entregas y otra información:
 
 [http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
-

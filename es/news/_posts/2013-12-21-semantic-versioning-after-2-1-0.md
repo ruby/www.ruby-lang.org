@@ -2,7 +2,7 @@
 layout: news_post
 title: "Esquema de Semantic Versioning comenzando con Ruby 2.1.0"
 author: "zzak"
-translator: David Padilla
+translator: "David Padilla"
 date: 2013-12-21 2:00:00 UTC
 lang: es
 ---
@@ -64,4 +64,3 @@ Para leer más acerca de esta propuesta por favor ve a las siguientes ligas:
 
 Me gustaría agradecer personalmente a todas las personas que participaron en
 esta discusión. Cada paso que tomamos nos acerca a un Ruby más estable y efectivo.
-

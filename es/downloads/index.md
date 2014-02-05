@@ -18,11 +18,12 @@ sección a continuación, pero aquí hay un resumen:
 * **Compilar desde las fuentes** es la forma estándar con la que el software ha
   sido distribuido desde hace muchos, muchos años. Esta será la forma más común
   para un mayor número de desarrolladores de software.
-* Hay algunas **herramientas de terceros** para instalar Ruby. Estas son a menudo
-  más simples para novatos o hasta los usuarios más avanzados.
-* Finalmente, algunos **sistemas de gestión de paquetes** soportan Ruby. Esta será
-  la forma más familiar para personas que usan un sistema operativo para todo y 
-  prefieren acogerse a esos stándares individuales.
+* Hay algunas **herramientas de terceros** para instalar Ruby.
+  Estas son a menudo más simples para novatos o hasta los usuarios
+  más avanzados.
+* Finalmente, algunos **sistemas de gestión de paquetes** soportan Ruby.
+  Esta será la forma más familiar para personas que usan un sistema operativo
+  para todo y prefieren acogerse a esos stándares individuales.
 
 Finalmente, si quieres usar diferentes versiones de Ruby en la misma máquina, revisa
 la sección de **herramientas de terceros** y usa RVM. Es de lejos la mejor forma de
@@ -44,21 +45,24 @@ de terceros en la sección siguiente. Pueden servirte de ayuda.
   (md5:&nbsp;{{ site.downloads.previous.md5.gz }}) Versión Previa
 * [Ruby {{ site.downloads.previous19.version }}][old-gz]
   (md5:&nbsp;{{ site.downloads.previous19.md5.gz }}) Versión Previa 1.9
-* [Snapshot estable][stable-snapshot-gz] Ultima versión (*estable*) del repositorio (ruby\_2\_1).
-* [Snapshot diario][nightly-gz] Ultima versión de lo que exista en SVN, hecho diariamente.
+* [Snapshot estable][stable-snapshot-gz] Ultima versión (*estable*)
+  del repositorio (ruby\_2\_1).
+* [Snapshot diario][nightly-gz] Ultima versión de lo que exista en SVN,
+  hecho diariamente.
   Puede contener errores, ¡úsalo bajo tu responsabilidad!
 
-Para información sobre los repositorios de Subversion y Git, consulta nuestra página
-[Ruby core](/es/community/ruby-core/).
+Para información sobre los repositorios de Subversion y Git, consulta
+nuestra página [Ruby core](/es/community/ruby-core/).
 
-El código fuente de Ruby está disponible desde un conjunto de [mirror sites](/en/downloads/mirrors/) a lo largo
-del mundo. Intenta usar el mirror site más cerca de ti.
+El código fuente de Ruby está disponible desde un conjunto
+de [mirror sites](/en/downloads/mirrors/) a lo largo del mundo.
+Intenta usar el mirror site más cerca de ti.
 
 ### Herramientas de terceros
 
-Muchos usuarios de Ruby usan herramientas de terceros para ayudarles a instalar Ruby. 
-Tienen varias ventajas pero no son oficialmente soportadas. Sin embargo, sus respectivas 
-comunidades son de gran ayuda.
+Muchos usuarios de Ruby usan herramientas de terceros para ayudarles
+a instalar Ruby. Tienen varias ventajas pero no son oficialmente soportadas.
+Sin embargo, sus respectivas comunidades son de gran ayuda.
 
 #### RVM
 
@@ -93,10 +97,10 @@ Después es sólo un instalador, y ya está listo.
 
 Si estás instalando Ruby para usar Rails, puedes usar los siguientes instaladores:
 
-* [RailsInstaller][10] el cual usa RubyInstaller pero incluye herramientas 
+* [RailsInstaller][10] el cual usa RubyInstaller pero incluye herramientas
   extra para ayudarte al desarrollo de Rails.
-* [Bitnami Ruby Stack][rubystack] el cual provee un entorno de desarrollo 
-  completo para Ruby On Rails. Soporta Windows, OS X, Linux, máquinas virtuales 
+* [Bitnami Ruby Stack][rubystack] el cual provee un entorno de desarrollo
+  completo para Ruby On Rails. Soporta Windows, OS X, Linux, máquinas virtuales
   e imágenes en la nube.
 
 ### Sistemas de gestión de paquetes
@@ -157,7 +161,7 @@ En otros sistemas puedes buscar utilizando gestor de paquetes de tu distribució
 Ruby 1.8.7 está soportado en Mac OS X Lion así como muchas gemas de Ruby populares.
 Para más detalles, consulta la [Wiki de Ruby en Mac OS Forge][11].
 
-Mac OS X Tiger incluye la version 1.8.2 de Ruby, y Leopard contiene 1.8.6, pero 
+Mac OS X Tiger incluye la version 1.8.2 de Ruby, y Leopard contiene 1.8.6, pero
 para aquellos que no han actualizado a Leopard, hay varias opciones para instalar la
 última versión de Ruby.
 
@@ -205,20 +209,20 @@ no tiene.
 
 Esta es la lista:
 
-* [JRuby][21] es Ruby sobre JVM (Java Virtual Machine), utilizando 
+* [JRuby][21] es Ruby sobre JVM (Java Virtual Machine), utilizando
   compiladores optimizados JIT, recolectores de basura, hilos concurrentes,
   ecosistema de herramientas y una gran colección de librerías.
 * [Rubinius][22] es ‘Ruby escrito en Ruby’. Construido sobre LLVM,
   Rubinius usa una ingeniosa máquina virtual sobre la que otros lenguajes están siendo
   construidos también.
-* [MacRuby][23] es Ruby que está integrado con la librería Cocoa de Apple, 
+* [MacRuby][23] es Ruby que está integrado con la librería Cocoa de Apple,
   permitiendo escribir aplicaciones de escritorio con facilidad.
 * [mruby][mruby] es una implementación ligera de Ruby que puede ser embebido con
   una aplicación. Está liderado por el creador de Ruby Yukihiro "Matz" Matsumoto.
 * [IronRuby][26] es una implementación "integrada con la plataforma .NET".
 * [MagLev][27] es una implementación "rápida, estable, integrada con persistencia
-  de objetos y una caché compartida distribuida" 
-* [Cardinal][24] es un "compilador de Ruby para la máquina virtual [Parrot][25]" 
+  de objetos y una caché compartida distribuida"
+* [Cardinal][24] es un "compilador de Ruby para la máquina virtual [Parrot][25]"
   (Perl 6).
 
 Algunas de estas implementaciones, incluyendo MRI, siguen las pautas de [RubySpec][28],

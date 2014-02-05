@@ -43,4 +43,3 @@ Anda dapat mendownload rilis ini dari:
 
 Banyak committer, tester dan pengguna yang memberikan bug report membantu saya untuk
 membuat rilis ini. Terima kasih untuk kontribusi mereka.
-

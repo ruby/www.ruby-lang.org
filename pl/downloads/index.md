@@ -52,8 +52,8 @@ trzecich ze strony [instalacja](/pl/installation/). Mogą ci pomóc.
 Aby uzyskać informacje na temat repozytorium Rubiego w Subversion i Git,
 zobacz stronę [Ruby Core](/en/community/ruby-core/).
 
-Źródła Rubiego są dostępne na światowych [stronach lustrzanych](/en/downloads/mirrors/). Spróbuj
-użyć jakiegoś blisko ciebie.
+Źródła Rubiego są dostępne na światowych [stronach lustrzanych](/en/downloads/mirrors/).
+Spróbuj użyć jakiegoś blisko ciebie.
 
 
 
