@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.1.0-rc1 is released"
-author: "zzak"
+author: "nurse"
 translator:
 date: 2013-12-20 16:53:05 UTC
 lang: en

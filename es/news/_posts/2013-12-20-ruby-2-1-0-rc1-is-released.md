@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Liberado Ruby 2.1.0-rc1"
-author: "zzak"
+author: "nurse"
 translator: "David Padilla"
 date: 2013-12-20 16:53:05 UTC
 lang: es

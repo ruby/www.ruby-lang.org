@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "È stato rilasciato Ruby 2.1.0-rc1"
-author: "zzak"
+author: "nurse"
 translator: "Alessandro Lepore"
 date: 2013-12-20 16:53:05 UTC
 lang: it
