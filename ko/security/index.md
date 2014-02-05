@@ -7,7 +7,7 @@ lang: ko
 Ruby와 관련한 보안이슈에 대해 정보를 공유하는 곳입니다.
 {: .summary}
 
-### 보안 취약점 알리기
+## 보안 취약점 알리기
 
 보안상 취약한 부분이나 심각한 문제를 야기할 수 있는 부분에 대해서는
 security@ruby-lang.org ([the PGP public key](/security.asc))로 메일을 보내주십시오. 이는
@@ -16,7 +16,7 @@ security@ruby-lang.org ([the PGP public key](/security.asc))로 메일을 보내
 이 메일링 리스트의 맴버는 루비를 제공하는 사람들(CRuby 커미터, 루비 구현 부의
 저자, 배포 담당자, PaaS 플랫폼 관리자)입니다.
 
-### 알려진 취약점
+## 알려진 취약점
 
 다음과 같은 보안 취약점이 보고된 바 있습니다.
 
@@ -109,4 +109,3 @@ security@ruby-lang.org ([the PGP public key](/security.asc))로 메일을 보내
 [13]: /en/news/2010/07/02/ruby-1-9-1-p429-is-released/
 [14]: /ko/news/2010/01/15/webrick-escape-sequence-injection/
 [15]: /en/news/2009/12/07/heap-overflow-in-string/
-
