@@ -22,7 +22,7 @@ buổi thảo luận này dành cho mọi người cơ hội để viết code R
 
 Thông tin về các nhóm người dùng Ruby có thể tìm thấy trên những website khác nhau như:
 
-[rubyusersgroups.org][1]
+[rubyusergroups.org][1]
 : Danh sách các nhóm Ruby trên toàn thế giới.
   Đồng thời cho phép các lập trình viên thêm nhóm mình vào cộng đồng Ruby thế giới.
 

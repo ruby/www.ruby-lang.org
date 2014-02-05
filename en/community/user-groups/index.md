@@ -21,7 +21,7 @@ to giving people a chance to write Ruby code).
 
 Information about Ruby user groups can be found on various websites:
 
-[rubyusersgroups.org][1]
+[rubyusergroups.org][1]
 : A public listing of Ruby groups throughout the world. Also allows
   Rubyists to place themselves on a map of the world.
 
