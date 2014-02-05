@@ -141,7 +141,7 @@ following guidelines should be honored when checking into Subversion:
 * Function prototypes are used throughout Ruby’s source code and its
   packaged extensions.
 * Please, do not use C++-style comments (`//`), Ruby’s maintainers
-  instead prefer the standard C multi-line comment. (`/* .. */`)
+  instead prefer the standard C multi-line comment (`/* .. */`).
 
 See also the information in [Ruby’s issue tracker][10].
 

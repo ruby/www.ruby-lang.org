@@ -117,7 +117,7 @@ following guidelines should be honored when checking into Subversion:
 * K&amp;R function declarations are used throughout Ruby’s source code
   and its packaged extensions.
 * Please, do not use C++-style comments (`//`), Ruby’s maintainers
-  instead prefer the standard C multi-line comment. (`/* .. */`)
+  instead prefer the standard C multi-line comment (`/* .. */`).
 
 
 

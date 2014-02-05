@@ -130,7 +130,7 @@ Subversion:
 * Deklarasi function K&amp;R digunakan di seluruh *source code* Ruby dan
   *packaged extension*.
 * Tolong jangan gunakan comment style C++ (`//`), maintainer Ruby
-  cenderung memakai komentar multibaris standar C (`/* .. */`)
+  cenderung memakai komentar multibaris standar C (`/* .. */`).
 
 
 
