@@ -5,8 +5,8 @@ lang: it
 ---
 
 Questo è un momento fantastico per partecipare a quello che avviene nel
-mondo Ruby. Data la crescente attenzione che Ruby ha ricevuto nel corso 
-degli ultimi anni, è aumentato il bisogno di persone con talento per 
+mondo Ruby. Data la crescente attenzione che Ruby ha ricevuto nel corso
+degli ultimi anni, è aumentato il bisogno di persone con talento per
 aiutare a migliorare Ruby e a documentare le parti che lo compongono.
 Allora, da dove vuoi cominciare?
 {: .summary}
@@ -22,14 +22,14 @@ I temi principali riguardanti lo sviluppo di Ruby sono:
 {: #following-ruby}
 
 Per fare checkout del più recente codice Ruby, devi semplicemente fare
-il login usando l’account anonimo di Subversion. Dalla linea di comando:
+il login usando l’account anonimo di [Subversion][1]. Dalla linea di comando:
 
 {% highlight sh %}
 $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
-La directory `ruby` contiene ora il codice sorgente più recente per la 
-versione di sviluppo di Ruby (ruby-trunk). Attualmente le patch 
+La directory `ruby` contiene ora il codice sorgente più recente per la
+versione di sviluppo di Ruby (ruby-trunk). Attualmente le patch
 applicate al trunk verranno effettivamente applicate ai branch
 stabili 2.0.0 e 1.9.3 (vedi sotto).
 
@@ -62,7 +62,7 @@ introduttivo è il [Pragmatic Version Control with Subversion][5].
 ### Come usare Git con il principale Ruby Repository
 {: #git-ruby}
 
-Coloro che preferissero usare [Git][6] al posto di Subversion possono 
+Coloro che preferissero usare [Git][6] al posto di Subversion possono
 trovare istruzioni con [il mirror su GitHub][7], sia per quelli con
 [il commit access][8] sia per [tutti gli altri][9].
 
@@ -73,7 +73,7 @@ Rubyforge mantiene un [issue tracker][10] per notificare patch e
 segnalazioni di errori a Matz e al resto del gruppo. Questi rapporti
 vengono anche notificati alla [Ruby-Core mailing list](/it/community/mailing-lists/)
 per discussione, e quindi puoi essere sicuro che la tua richiesta non sarà ignorata.
-Puoi anche inviare le tue patch alla mailing list. In ogni caso, non 
+Puoi anche inviare le tue patch alla mailing list. In ogni caso, non
 esitare a prendere parte alla discussione che ne seguirà.
 
 Per favore dai un occhiata alla [Patch Writer’s Guide][11] per ricevere qualche consiglio,
@@ -84,26 +84,28 @@ In sintesi, i passi per costruire un patch sono:
 1.  Fai il check out di una copia del sorgente di Ruby da Subversion.
     Di solito le patch per correggere i bug o introdurre nuove feature
     devono essere sottoposte al ramo principale (‘trunk’) del Ruby source.
-    Persino se vuoi aggiungere una feature a Ruby 1.9.3, deve essere 
+    Persino se vuoi aggiungere una feature a Ruby 1.9.3, deve essere
     provata prima nel trunk.
 
-         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
-         
-    Se stai correngendo un bug che è specifico di un solo branch 
+        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+
+    Se stai correngendo un bug che è specifico di un solo branch
     di manuntenzione, fai il check out di una copia del rispettivo
     branch, ad esempio `ruby_1_9.3`.
-    
+
         $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 
 2.  Aggiungi le tue modifiche al codice.
+
 3.  Crea una patch.
 
-         $ svn diff > ruby-changes.patch
+        $ svn diff > ruby-changes.patch
 
 4.  Crea un ticket nel [issue tracker][10] o
     manda via mail la tua patch [Ruby-Core mailing
     list](/it/community/mailing-lists/) con una entry sul
     ChangeLog che descrive la patch.
+
 5.  Se non ci sono obiezioni alla patch, i committer daranno
     l’approvazione per applicarla.
 
@@ -119,13 +121,13 @@ Tuttavia, tieni presente che: discussioni fuori soggetto non sono
 tollerate in questa lista; il livello di distrazione (‘noise’) deve
 essere al minimo; e ogni soggetto presentato deve essere identificato e
 descritto con estrema chiarezza. Siccome ti stai rivolgendo al Creatore
-di Ruby, non stona esprimere una certa riverenza :-).
+di Ruby, non stona esprimere una certa riverenza.
 
 Tieni presente che gli sviluppatori di Ruby Core vivono in Giappone e
 che, anche se molti parlano un ottimo inglese, c’è una notevole
 differenza di fuso orario. Essi hanno inoltre un insieme di liste di
-sviluppo in giapponese insieme a quelle in inglese. Sii paziente; 
-se la tua richiesta non è stata presa in gestione prova di nuovo qualche 
+sviluppo in giapponese insieme a quelle in inglese. Sii paziente;
+se la tua richiesta non è stata presa in gestione prova di nuovo qualche
 giorno più tardi.
 
 ### Regole per i Core Developer
@@ -139,7 +141,6 @@ Subversion:
 * Ogni checkin deve essere descritto nel `ChangeLog`, seguendo le [GNU
   conventions][14]. (Molti core developers di Ruby usano Emacs `add-log`
   mode, che può essere attivato col comando `C-x 4 a`.)
-
 * Le date di checkin devono essere espresse nello Standard Time del
   Giappone (UTC+9).
 * I “bulleted points” del tuo ChangeLog devono essere anche copiati nel
@@ -148,8 +149,8 @@ Subversion:
 * lo stile K&amp;R per le dichiarazioni di funzioni è usato nel codice
   source di Ruby e nei suoi package di estensione.
 * Per favore, non usare lo stile di commento per C++ (`//`); coloro che
-  mantengono Ruby preferiscono invece lo stile di commento multilinea di
-  C. (`/* .. */`)
+  mantengono Ruby preferiscono invece lo stile di commento multilinea
+  di C (`/* .. */`).
 
 Guarda anche le informazioni su [Ruby’s issue tracker][10].
 
