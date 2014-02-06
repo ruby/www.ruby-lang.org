@@ -13,6 +13,7 @@ specifiche su Ruby, pubblicata grazie alla collaborazione della comunità
 Ruby. Qui potrai trovare informazioni relative a date, luoghi, CFP (Call
 For Proposals) e registrazioni.
 
+
 ### Principali conferenze su Ruby
 
 [RubyConf][1]
@@ -23,17 +24,17 @@ For Proposals) e registrazioni.
   includendo le discussioni con Nathaniel Talbot su Test Unit, Jim
   Weirich su Rake, David Heinemeier Hansson su Ruby on Rails, Why the
   Lucky Stiff sulla libreria YAML, e Sasada Koichi su YARV. Matz ha
-  partecipato, e parlato a tutte le RubyConf salvo una.:
+  partecipato, e parlato a tutte le RubyConf salvo una.
 
 [RubyKaigi][3]
-: La prima conferenze giapponese su Ruby, RubyKaigi 2006, ha avuto luogo
+: La prima conferenza giapponese su Ruby, RubyKaigi 2006, ha avuto luogo
   in Odaiba. Piani per il futuro non sono stati annunciati; ma rimani
   allerta per altri eventi in Giappone.
 
 [EuRuKo <small>(European Ruby Conference)</small>][4]
-: La prima Conferenze Ruby Europea (EuruKo), è stata tenuta in
-  Karlsruhe, Germany, in 2003. Organizzata da un team di appossionati
-  tedeschi di Ruby, fra cui Armin Roehrl ae Michael Neumann, EuRuKo è
+: La prima Conferenza Ruby Europea (EuRuKo), è stata tenuta in
+  Karlsruhe, Germania, in 2003. Organizzata da un team di appassionati
+  tedeschi di Ruby, fra cui Armin Roehrl e Michael Neumann, EuRuKo è
   emerso come il secondo importante evento annuale su Ruby, cominciando
   due anni dopo RubyConf.
 
