@@ -72,7 +72,7 @@ on Rails.
 [1]: http://ariekusumaatmaja.wordpress.com/2007/04/29/foto-gathering-id-ruby-pertama-food-court-mal-ambasador-jakarta/
 [2]: http://ariekusumaatmaja.wordpress.com/2007/06/27/catatan-tercecer-bandung-sejuk-bergairah/
 [3]: http://ariekusumaatmaja.wordpress.com/2007/08/20/gathering-id-ruby-ketiga-19-agustus-2007-1145-1700-wib/
-[4]: http://www.rubyconf.org/
+[4]: http://rubyconf.org/
 [5]: http://rubycentral.org
 [6]: http://rubykaigi.org/
 [7]: http://euruko.org

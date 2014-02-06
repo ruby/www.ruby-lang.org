@@ -53,7 +53,7 @@ O’Reilly), and Canada on Rails.
 
 
 
-[1]: http://www.rubyconf.org/
+[1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
