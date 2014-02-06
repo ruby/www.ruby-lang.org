@@ -8,6 +8,11 @@ Dovunque nel mondo i programmatori Ruby organizzano sempre più spesso
 conferenze, dove si riuniscono per presentare sviluppi in corso,
 discutere il futuro di Ruby, e dare il benvenuto ai nuovi arrivati.
 
+[RubyConferences.org][rc] è una semplice lista di tutte le conferenze
+specifiche su Ruby, pubblicata grazie alla collaborazione della comunità
+Ruby. Qui potrai trovare informazioni relative a date, luoghi, CFP (Call
+For Proposals) e registrazioni.
+
 ### Principali conferenze su Ruby
 
 [RubyConf][1]
@@ -32,36 +37,71 @@ discutere il futuro di Ruby, e dare il benvenuto ai nuovi arrivati.
   emerso come il secondo importante evento annuale su Ruby, cominciando
   due anni dopo RubyConf.
 
+[Open Source Developer Conference][5]
+: Questa è una conferenza annuale sullo sviluppo open source tenuta
+  in Australia. Nonstante non sia una conferenza specifica su Ruby,
+  ogni anno viene presentato un certo numero di proposte su Ruby e gli
+  organizzatori sono sempre interessati nel presentare altri contenuti
+  che riguardano Ruby.
+
 ### Conferenze regionali su Ruby
 
-[Ruby Central][2] amministra una [Regional Conference Grant Program][5],
+[Ruby Central][2] amministra una [Regional Conference Grant Program][6],
 per contribuire alle spese di gruppi locali e regionali intenzionati a
 organizzare eventi.
 
-Ruby Central si è anche collegata con [SDForum][6] per produrre la
+Ruby Central si è anche collegata con [SDForum][7] per produrre la
 Conferenza Ruby di Silicon Valley, che ha avuto il suo secondo incontro
 annuale nel 2007.
+
+[RubyNation][8] è una conferenza annnuale su Ruby tenuta nell'area della
+Virginia, West Virginia, Maryland, e Washington, DC.
+
+WindCityRails è un incontro annuale per tutti gli appassionati di Ruby on
+Rails. Questa conferenza di Chicago viene organizzata per la comunità
+Ruby dal 2008. Visita [http://windycityrails.org][9] per maggiori dettagli.
+
+[Madison Ruby][15]: Madison, WI
+
+[Steel City Ruby][16]: Pittsburg, PA
+
+[Ruby on Ales][17] è una conferenza annuale che dura due giorni ed ispirata
+a Ruby, birre artigianali e neve. Ascolta entusiasmanti speaker, gusta cibo
+delizioso e il magnifico scenario di Bend, Oregon.
+
+[Burlington Ruby Conference][18]: Una conferenza estiva su Ruby che viene
+tenuta annualmente in Burlington, VT. La conferenza dura due giorni e segue
+un unico tracciato. Si focalizza sulla creazione di un ambiente dove imparare,
+divertirsi e incontrare altri Rubyisti.
 
 ### Ruby ad altre conferenze
 
 Una sezione su Ruby è esistita dal 2004 alla [O’Reilly Open Source
-Conference][7] (OSCON); inoltre, si è constatata una crescente presenza
+Conference][10] (OSCON); inoltre, si è constatata una crescente presenza
 di appassionati Ruby ad altre conferenze non specifiche su Ruby. Un
 certo numero di conferenze sono state anche dedicate a [Ruby on
-Rails][8], includendo la [RailsConf][9] di Ruby Central, la [RailsConf
-Europe][10] (co-prodotta in 2006 da Ruby Central e [Skills Matter][11],
+Rails][11], includendo la [RailsConf][12] di Ruby Central, la [RailsConf
+Europe][13] (co-prodotta in 2006 da Ruby Central e [Skills Matter][14],
 e in 2007 da Ruby Central e O’Reilly), e infine Canada on Rails.
 
 
 
+[rc]: http://rubyconferences.org/
 [1]: http://www.rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
-[5]: http://rubycentral.org/community/grant
-[6]: http://www.sdforum.org
-[7]: http://conferences.oreillynet.com/os2006/
-[8]: http://www.rubyonrails.org
-[9]: http://www.railsconf.org
-[10]: http://europe.railsconf.org
-[11]: http://www.skillsmatter.com
+[5]: http://www.osdc.com.au/
+[6]: http://rubycentral.org/community/grant
+[7]: http://www.sdforum.org
+[8]: http://rubynation.org/
+[9]: http://windycityrails.org
+[10]: http://conferences.oreillynet.com/os2006/
+[11]: http://www.rubyonrails.org
+[12]: http://www.railsconf.org
+[13]: http://europe.railsconf.org
+[14]: http://www.skillsmatter.com
+[15]: http://madisonruby.org/
+[16]: http://steelcityruby.org/
+[17]: http://ruby.onales.com/
+[18]: http://burlingtonrubyconference.com
