@@ -1,6 +1,8 @@
 require 'rack/jekyll'
 require 'rack/rewrite'
 
+use Rack::CommonLogger
+
 use Rack::Rewrite do
   if ENV["RACK_ENV"] == "production"
     r301 %r{.*}, "https://www.ruby-lang.org$&", scheme: "http", host: "www.ruby-lang.org"
