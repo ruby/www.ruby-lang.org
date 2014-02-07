@@ -5,7 +5,7 @@ gem 'rake',   '~> 10.0'
 gem 'jekyll', '>= 1.0.2'
 gem 'kramdown'
 
-gem 'thin'
+gem 'passenger'
 gem 'rack-jekyll'
 gem 'rack-rewrite'
 
