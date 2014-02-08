@@ -8,7 +8,7 @@ lang: zh_tw
 
 ### Ruby 發明者的理想
 
-Ruby 是一個注重均衡的語言。Ruby 語言的發明者，[松本行弘 Yukihiro “Matz” Matsumoto][1]，混合了他喜歡的語言（如 Perl、Smalltalk、Eiffel、Ada、以及 Lisp）產生了一種嶄新的語言，同時具有函數式與指令式程式設計語言特性。
+Ruby 是一個注重均衡的語言。Ruby 語言的發明者，[松本行弘 Yukihiro “Matz” Matsumoto][matz]，混合了他喜歡的語言（如 Perl、Smalltalk、Eiffel、Ada、以及 Lisp）產生了一種嶄新的語言，同時具有函數式與指令式程式設計語言特性。
 
 Matz 常說： “不斷嘗試讓 Ruby 更為自然，而不是簡單”，就像生活一樣。
 
@@ -27,7 +27,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 
 2006 年，Ruby 主要的[郵件列表：Ruby-Talk](/en/community/mailing-lists/) 上，討論 Ruby 語言的文章爬升到每日 200 封。近幾年郵件列表討論下降了，因為各個社群有著自己的討論小組。
 
-[TIOBE 的最流行開發語言排名調查][6]中，Ruby 排名為全球第 13。根據這樣的成長情況，他們預測 “在半年之中 Ruby 將會進入最受歡迎的第 10 名.” 有越來越多受歡迎的軟體，如 Ruby on Rails 網路框架<sup>[2](#fn2)</sup> 是使用 Ruby 撰寫而成，也是為什麼 Ruby 會成長的如此快。
+[TIOBE 的最流行開發語言排名調查][tiobe]中，Ruby 排名為全球第 13。根據這樣的成長情況，他們預測 “在半年之中 Ruby 將會進入最受歡迎的第 10 名.” 有越來越多受歡迎的軟體，如 Ruby on Rails 網路框架<sup>[2](#fn2)</sup> 是使用 Ruby 撰寫而成，也是為什麼 Ruby 會成長的如此快。
 
 同時，Ruby 是個[自由軟體]({{ site.license.url }})。不僅免費，同時可自由的使用、修改與散佈。
 
@@ -121,23 +121,23 @@ Ruby 還具有以下的特點：
 
 ### 參考資料
 
-<sup>1</sup> Matz 於 [2000 年 5 月 12 日][2] Ruby-Talk 郵件論壇上的發言。
+<sup>1</sup> Matz 於 [2000 年 5 月 12 日][blade] Ruby-Talk 郵件論壇上的發言。
 {: #fn1}
 
-<sup>2</sup> 請參考 [Ruby on Rails][3] 官方首頁有更多資料。
+<sup>2</sup> 請參考 [Ruby on Rails][ror] 官方首頁有更多資料。
 {: #fn2}
 
-<sup>3</sup> [專訪 Ruby 語言發明者][4]（2001 年 11 月 29 日）
+<sup>3</sup> [專訪 Ruby 語言發明者][linuxdevcenter]（2001 年 11 月 29 日）
 {: #fn3}
 
-<sup>4</sup> Matz 談 [Blocks and Closures in Ruby][5] （2003 年 12 月 22 日）。
+<sup>4</sup> Matz 談 [Blocks and Closures in Ruby][artima] （2003 年 12 月 22 日）。
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

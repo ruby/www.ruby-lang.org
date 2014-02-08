@@ -12,7 +12,7 @@ funzionale. Come mai?
 ### Gli ideali del creatore di Ruby
 
 Ruby è un linguaggio di equilibrio e armonia. Il suo creatore, [Yukihiro
-“Matz” Matsumoto][1], ha fuso insieme parti dei suoi linguaggi di
+“Matz” Matsumoto][matz], ha fuso insieme parti dei suoi linguaggi di
 programmazione preferiti (Perl, Smalltalk, Eiffel, Ada e Lisp) per
 creare un nuovo linguaggio in grado di bilanciare programmazione
 funzionale con programmazione imperativa.
@@ -41,7 +41,7 @@ Ruby-Talk, la prima [lista di discussione](/it/community/mailing-lists/)
 del linguaggio Ruby, ha raggiunto il traguardo di 200 nuovi messaggi
 al giorno.
 
-[L’indice TIOBE][6], che misura la crescita dei linguaggi di programmazione,
+[L’indice TIOBE][tiobe], che misura la crescita dei linguaggi di programmazione,
 mette Ruby al decimo posto tra tutti i linguaggi di programmazione
 esistenti al mondo. Gran parte di questa crescita è da attribuire alla
 popolarità dei programmi scritti in Ruby, in particolare il framework
@@ -196,26 +196,26 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
 ### Riferimenti
 
 <sup>1</sup> Matz, parlando nella lista di discussione “Ruby-Talk”, [May
-12th, 2000][2].
+12th, 2000][blade].
 {: #fn1}
 
 <sup>2</sup> Per ulteriori informazioni, visita la home page di [Ruby on
-Rails][3].
+Rails][ror].
 {: #fn2}
 
-<sup>3</sup> Matz, in [Un’intervista con il creatore di Ruby][4], Nov.
+<sup>3</sup> Matz, in [Un’intervista con il creatore di Ruby][linuxdevcenter], Nov.
 29th, 2001.
 {: #fn3}
 
-<sup>4</sup> Matz, in [Blocchi e *closure* in Ruby][5], December 22nd,
+<sup>4</sup> Matz, in [Blocchi e *closure* in Ruby][artima], December 22nd,
 2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

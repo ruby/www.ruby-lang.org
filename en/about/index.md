@@ -11,7 +11,7 @@ language. And yet, they say it’s handy and practical. What gives?
 ### The Ideals of Ruby’s Creator
 
 Ruby is a language of careful balance. Its creator, [Yukihiro “Matz”
-Matsumoto][1], blended parts of his favorite languages (Perl, Smalltalk,
+Matsumoto][matz], blended parts of his favorite languages (Perl, Smalltalk,
 Eiffel, Ada, and Lisp) to form a new language that balanced functional
 programming with imperative programming.
 
@@ -43,7 +43,7 @@ groups.
 
 Ruby is ranked among the top 10 on most of the indices that measure
 the growth and popularity of programming languages worldwide
-(such as the [TIOBE index][6]). Much of the growth is attributed to the
+(such as the [TIOBE index][tiobe]). Much of the growth is attributed to the
 popularity of software written in Ruby, particularly the Ruby on Rails
 web framework<sup>[2](#fn2)</sup>.
 
@@ -220,28 +220,28 @@ programming language”.
 ### References
 
 <sup>1</sup> Matz, speaking on the Ruby-Talk mailing list, [May 12th,
-2000][2].
+2000][blade].
 {: #fn1}
 
-<sup>2</sup> See the [Ruby on Rails][3] home page for more.
+<sup>2</sup> See the [Ruby on Rails][ror] home page for more.
 {: #fn2}
 
-<sup>3</sup> Matz, in [An Interview with the Creator of Ruby][4], Nov.
+<sup>3</sup> Matz, in [An Interview with the Creator of Ruby][linuxdevcenter], Nov.
 29th, 2001.
 {: #fn3}
 
-<sup>4</sup> Matz, in [Blocks and Closures in Ruby][5], December 22nd,
+<sup>4</sup> Matz, in [Blocks and Closures in Ruby][artima], December 22nd,
 2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [macruby]: http://www.macruby.org

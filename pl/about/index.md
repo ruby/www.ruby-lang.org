@@ -12,7 +12,7 @@ praktyczny. O co chodzi ?
 ### Ideały twórcy języka Ruby
 
 Ruby jest językiem starannie dobranej równowagi. Jego twórca, [Yukihiro
-“Matz” Matsumoto][1], połączył części jego ulubionych języków (Perla,
+“Matz” Matsumoto][matz], połączył części jego ulubionych języków (Perla,
 Smalltalka, Eiffel, Ady i Lispa) by uformować nowy język, który
 zbalansował programowanie funkcjonalne wraz z programowanie
 imperatywnym.
@@ -43,7 +43,7 @@ tematy związane z Rubim, osiągnęła średnio ruch 200 wiadomości dziennie
 w 2006 roku. Zmalało to w ostatnich latach gdy część społeczności
 przeniosło dyskusje z jednej centralnej listy na wiele mniejszych grup.
 
-Wskaźnik [TIOBE indeks][6], który mierzy rozwój języków programowania, umieszcza
+Wskaźnik [TIOBE indeks][tiobe], który mierzy rozwój języków programowania, umieszcza
 Rubiego na 9 miejscu wśród światowych języków programowania. Wiele owego
 wzrostu zawdzięcza Ruby popularności software napisanego przy jego użyciu,
 szczególnie frameworkowi Ruby on Rails<sup>[2](#fn2)</sup>.
@@ -221,26 +221,27 @@ Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
 
 ### Odnośniki
 
-<sup>1</sup> Matz, wypowiedź na liście ruby-talk, [May 12th, 2000][2].
+<sup>1</sup> Matz, wypowiedź na liście ruby-talk, [May 12th, 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Zobacz stronę [Ruby on Rails][3] aby dowiedzieć się więcej.
+<sup>2</sup> Zobacz stronę [Ruby on Rails][ror] aby dowiedzieć się więcej.
 {: #fn2}
 
-<sup>3</sup> Matz, w [Wywiad z twórcą języka Ruby][4], Nov. 29th, 2001.
+<sup>3</sup> Matz, w [Wywiad z twórcą języka Ruby][linuxdevcenter], Nov. 29th, 2001.
 {: #fn3}
 
-<sup>4</sup> Matz, w [Bloki i domknięcia w Rubym][5], December 22nd,
+<sup>4</sup> Matz, w [Bloki i domknięcia w Rubym][artima], December 22nd,
 2003.
 {: #fn4}
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [macruby]: http://www.macruby.org

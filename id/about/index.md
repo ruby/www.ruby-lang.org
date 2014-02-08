@@ -12,7 +12,7 @@ praktis dan mudah. Apa lagi?
 ### Idealisme Pencipta Ruby
 
 Ruby merupakan bahasa yang seimbang. Pencipta Ruby, [Yukihiro “Matz”
-Matsumoto][1], menggabungkan bagian-bagian dari bahasa-bahasa favorit
+Matsumoto][matz], menggabungkan bagian-bagian dari bahasa-bahasa favorit
 beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk bahasa
 baru yang seimbang antara pemrograman fungsional dengan pemrograman
 imperatif.
@@ -43,7 +43,7 @@ Ruby-Talk, [milis](/id/community/mailing-lists/) utama untuk diskusi
 Ruby (dalam bahasa Inggris) telah mencapai kisaran 200 email setiap
 hari.
 
-[TIOBE index][7], yang menghitung perkembangan bahasa-bahasa pemrograman,
+[TIOBE index][tiobe], yang menghitung perkembangan bahasa-bahasa pemrograman,
 menempatkan Ruby pada peringkat ke 10 diantara bahasa-bahasa pemrograman
 di seluruh dunia. Melihat pada perkembangan ini, mereka memperkirakan,
 “Kesempatan Ruby memasuki peringkat atas 10 besar adalah dalam waktu
@@ -165,7 +165,7 @@ yang mudah untuk menyatakan scope suatu variabel.
 * `@var` adalah variabel instan.
 * `$var` adalah variabel global.
 
-[Sigil-sigil][2] tersebut bertujuan untuk memudahkan dan memperjelas
+[Sigil-sigil][sigil] tersebut bertujuan untuk memudahkan dan memperjelas
 ketika dibaca bagi programmer untuk mengidentifikasi fungsi dari setiap
 variabel. Sigil juga bisa menjadi hal yang tidak perlu bila harus
 digunakan pada setiap member instan `self.`
@@ -200,27 +200,27 @@ Ruby kaya fitur, antara lain sebagai berikut:
 
 ### Referensi
 
-<sup>1</sup> Matz, berbicara di milis Ruby-Talk, [12 Mei 2000][3].
+<sup>1</sup> Matz, berbicara di milis Ruby-Talk, [12 Mei 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Lihat situs [Ruby on Rails][4] untuk info lebih lengkap.
+<sup>2</sup> Lihat situs [Ruby on Rails][ror] untuk info lebih lengkap.
 {: #fn2}
 
-<sup>3</sup> Matz, [An Interview with the Creator of Ruby][5],
+<sup>3</sup> Matz, [An Interview with the Creator of Ruby][linuxdevcenter],
 (Wawancara dengan Pencipta Ruby, dalam Bahasa Inggris), 29 November
 2001.
 {: #fn3}
 
-<sup>4</sup> Matz, [Blocks and Closures in Ruby][6], (Blok dan Closure
+<sup>4</sup> Matz, [Blocks and Closures in Ruby][artima], (Blok dan Closure
 di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://en.wikipedia.org/wiki/Sigil_%28computer_programming%29
-[3]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[4]: http://rubyonrails.org/
-[5]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[6]: http://www.artima.com/intv/closures2.html
-[7]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[sigil]: http://en.wikipedia.org/wiki/Sigil_%28computer_programming%29

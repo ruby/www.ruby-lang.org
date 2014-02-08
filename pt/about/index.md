@@ -12,7 +12,7 @@ conveniente. Afinal qual é o resultado?
 ### Os Ideais do Criador do Ruby
 
 O Ruby é uma linguagem com um equilíbrio cuidado. O seu criador,
-[Yukihiro “Matz” Matsumoto][1], uniu partes das suas linguagens
+[Yukihiro “Matz” Matsumoto][matz], uniu partes das suas linguagens
 favoritas (Perl, Smalltalk, Eiffel, Ada, e Lisp) para formar uma nova
 linguagem que equilibra a programação funcional com a programação
 imperativa.
@@ -41,7 +41,7 @@ A Ruby-Talk, a principal [lista de
 correio](/pt/community/mailing-lists/) para a discussão sobre a
 linguagem Ruby subiu para uma média de 200 mensagens diárias.
 
-O [índice TIOBE][6], que mede o crescimento das linguagens de programação,
+O [índice TIOBE][tiobe], que mede o crescimento das linguagens de programação,
 posiciona o Ruby em #12 entre as linguagens de programação. Citando o
 seu crescimento, prevêm que “Existem possibilidades de que o Ruby entre
 no Top 10 dentro de meio ano.” Muito deste crescimento é atribuído à
@@ -197,25 +197,25 @@ seguintes:
 ### Referências
 
 <sup>1</sup> Matz, falando na lista de correio Ruby-Talk, [12 Mai.
-2000][2].
+2000][blade].
 {: #fn1}
 
-<sup>2</sup> Vêr página [Ruby on Rails][3] para mais informações.
+<sup>2</sup> Vêr página [Ruby on Rails][ror] para mais informações.
 {: #fn2}
 
-<sup>3</sup> Matz, em [An Interview with the Creator of Ruby][4], 29
+<sup>3</sup> Matz, em [An Interview with the Creator of Ruby][linuxdevcenter], 29
 Nov. 2001.
 {: #fn3}
 
-<sup>4</sup> Matz, em [Blocks and Closures in Ruby][5], 22 December
+<sup>4</sup> Matz, em [Blocks and Closures in Ruby][artima], 22 December
 2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

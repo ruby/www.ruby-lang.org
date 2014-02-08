@@ -8,7 +8,7 @@ lang: zh_cn
 
 ### Ruby 发明者的理想
 
-Ruby 是一个注重均衡的语言，它的发明者[松本行弘 Yukihiro “Matz” Matsumoto][1]，混合了他喜欢的语言（Perl、
+Ruby 是一个注重均衡的语言，它的发明者[松本行弘 Yukihiro “Matz” Matsumoto][matz]，混合了他喜欢的语言（Perl、
 Smalltalk、 Eiffel、 Ada 和 Lisp ） 产生了一种具有函数式及指令程序设计特性的新语言。
 
 他常说，他是“试着让 Ruby 更自然，而不是简单，就像生活一样”。
@@ -31,7 +31,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 在 Ruby-Talk，主要的[ 邮件列表](/zh_cn/community/mailing-lists/) 上，讨论 Ruby
 语言的文章爬升到每日 200 封。
 
-在 [TIOBE][6]， 最流行的开发语言排名调查中， Ruby 排名为全球第 11 位。 根据这样的成长情况，他们预测“在半年之中
+在 [TIOBE][tiobe]， 最流行的开发语言排名调查中， Ruby 排名为全球第 11 位。 根据这样的成长情况，他们预测“在半年之中
 Ruby 将会进入最受欢迎开发语言的前 10 名。”有越来越多受欢迎的软件如 Ruby on Rails web
 framework<sup>[2](#fn2)</sup> 是使用 Ruby 撰写而成，也是造成 Ruby 如此快速成长的原因。
 
@@ -140,23 +140,23 @@ Ruby 还有其他丰富的特性：
 
 ### 参考资料
 
-<sup>1</sup> Matz, 在 Ruby-Talk 邮件列表, [5月12日, 2000][2].
+<sup>1</sup> Matz, 在 Ruby-Talk 邮件列表, [5月12日, 2000][blade].
 {: #fn1}
 
-<sup>2</sup> 查看更多信息在 [Ruby on Rails][3] 主页.
+<sup>2</sup> 查看更多信息在 [Ruby on Rails][ror] 主页.
 {: #fn2}
 
-<sup>3</sup> Matz, 在 [Ruby 创造者的采访][4], 11月29日, 2001.
+<sup>3</sup> Matz, 在 [Ruby 创造者的采访][linuxdevcenter], 11月29日, 2001.
 {: #fn3}
 
-<sup>4</sup> Matz, 在 [Ruby 的代码块和闭合][5], 12月22日, 2003.
+<sup>4</sup> Matz, 在 [Ruby 的代码块和闭合][artima], 12月22日, 2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

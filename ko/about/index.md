@@ -10,7 +10,7 @@ lang: ko
 
 ### 루비를 만든 마츠의 목표
 
-루비는 균형잡힌 언어입니다. 루비를 만든 [유키히로 마츠모토][1](일명 마츠)는 그가 좋아하는 언어인 펄, 스몰토크, 아이펠,
+루비는 균형잡힌 언어입니다. 루비를 만든 [유키히로 마츠모토][matz](일명 마츠)는 그가 좋아하는 언어인 펄, 스몰토크, 아이펠,
 에이다, 리스프를 섞어서 명령형 프로그래밍언어이자 함수형 언어인 새로운 언어를 만들었습니다.
 
 그는 “루비를 단순하게 만드는 것이 아니라 자연스럽게 만들려고 노력한다”라고 말하곤 합니다. 우리의 삶을 반영하고자 한다는
@@ -34,7 +34,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 성장하였습니다. 최근 몇년동안 커뮤니티의 경향이 하나의 집중된 메일링 리스트보다 작은 그룹에서의 토론을 선호하게 바뀌어
 토론의 숫자는 감소 중 입니다.
 
-루비는 성장세와 인기 면에서 [TIOBE 인덱스][6]같은 세계적인 랭킹의 10위권 안에 드는 프로그래밍 언어입니다.
+루비는 성장세와 인기 면에서 [TIOBE 인덱스][tiobe]같은 세계적인 랭킹의 10위권 안에 드는 프로그래밍 언어입니다.
 이런 성장은 루비로 만들어진 대중적인 소프트웨어, 특히 루비 온 레일스 웹 프레임워크<sup>[2](#fn2)</sup>의 공입니다.
 
 루비는 [완전히 무료]({{ site.license.url }})입니다. 사용뿐 만 아니라 복사, 수정, 배포까지도 무료입니다.
@@ -170,28 +170,28 @@ MRI를 포함, 일부 구현체들은 “complete executable specification for t
 ### 참조
 
 <sup>1</sup> 마츠, 루비토크 메일링리스트에서, [May 12th,
-2000][2].
+2000][blade].
 {: #fn1}
 
-<sup>2</sup> 자세한 내용은 [루비 온 레일스][3] 홈페이지를 참조.
+<sup>2</sup> 자세한 내용은 [루비 온 레일스][ror] 홈페이지를 참조.
 {: #fn2}
 
-<sup>3</sup> 마츠, [An Interview with the Creator of Ruby][4], Nov.
+<sup>3</sup> 마츠, [An Interview with the Creator of Ruby][linuxdevcenter], Nov.
 29th, 2001.
 {: #fn3}
 
-<sup>4</sup> 마츠, [Blocks and Closures in Ruby][5], December 22nd,
+<sup>4</sup> 마츠, [Blocks and Closures in Ruby][artima], December 22nd,
 2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [macruby]: http://www.macruby.org

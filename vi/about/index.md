@@ -11,7 +11,7 @@ nhưng lại rất lợi hại và thực dụng. Điều gì khiến họ nghĩ
 ### Lý tưởng của cha đẻ của Ruby
 
 Ruby là một ngôn ngữ của sự cân đối. Nhà phát minh của nó [Yukihiro “Matz”
-Matsumoto][1] kết hợp các đặc điểm hay từ các ngôn ngữ khác (Perl, Smalltalk,
+Matsumoto][matz] kết hợp các đặc điểm hay từ các ngôn ngữ khác (Perl, Smalltalk,
 Eiffel, Ada, và Lisp) để tạo ra một ngôn ngữ cân bằng giữa
 lập trình hướng chức năng (functional programming) và lập trình hướng thủ tục (imperative programming).
 
@@ -39,7 +39,7 @@ ngôn ngữ Ruby. Theo thống kê trung bình có trên 200 bài mỗi ngày tr
 Con số này có giảm sút trong những năm gần đây vì xu hướng người dùng gửi bài
 vào những nhóm nhỏ riêng thay vì gửi vào đây.
 
-Chỉ số [TIOBE index][6], đo đạt sự phát triển của các ngôn ngữ lập trình, xếp
+Chỉ số [TIOBE index][tiobe], đo đạt sự phát triển của các ngôn ngữ lập trình, xếp
 Ruby hạng 9 nhờ vào số lượng lớn các phần mềm áp dụng ngôn ngữ này, tiêu biểu
 là framework viết web tên Ruby on Rails <sup>[2](#fn2)</sup>.
 
@@ -176,23 +176,23 @@ với các hệ UNIX khác, như Mac OS X, Windows 95/98/Me/NT/2000/XP, DOS, BeO
 
 ### Tham khảo
 
-<sup>1</sup> Matz, nói về Ruby-Talk mailing list, [12/05/2000][2].
+<sup>1</sup> Matz, nói về Ruby-Talk mailing list, [12/05/2000][blade].
 {: #fn1}
 
-<sup>2</sup> Xem trang chủ [Ruby on Rails][3] để biết thêm
+<sup>2</sup> Xem trang chủ [Ruby on Rails][ror] để biết thêm
 {: #fn2}
 
-<sup>3</sup> Matz, trong [Phỏng vấn cha đẻ của Ruby][4], 29/11/2001.
+<sup>3</sup> Matz, trong [Phỏng vấn cha đẻ của Ruby][linuxdevcenter], 29/11/2001.
 {: #fn3}
 
-<sup>4</sup> Matz, trong [Blocks và Closures trong Ruby][5], 12/12/2003.
+<sup>4</sup> Matz, trong [Blocks và Closures trong Ruby][artima], 12/12/2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

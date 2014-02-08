@@ -15,7 +15,7 @@ concrètement parlant ?
 
 Le langage ruby, en terme de syntaxe et de fonctionnalité, a été dès le
 départ conçu comme un ensemble homogène. Son créateur est le programmeur
-japonais [Yukihiro « Matz » Matsumoto][1]. Ce dernier a rassemblé
+japonais [Yukihiro « Matz » Matsumoto][matz]. Ce dernier a rassemblé
 certaines fonctionnalités de ses langages préférés de l’époque
 (principalement Perl, Smalltalk, Eiffel, Ada et Lisp) afin d’imaginer un
 nouveau langage qui mêlerait astucieusement programmations impérative et
@@ -50,7 +50,7 @@ diffusion](/fr/community/mailing-lists/) recevant les discussions à
 propos du langage Ruby, atteint aujourd’hui une moyenne de deux cent
 nouveaux messages par jour.
 
-[L’index TIOBE][6], qui mesure la croissance des langages informatiques,
+[L’index TIOBE][tiobe], qui mesure la croissance des langages informatiques,
 place Ruby à la dixieme place du classement des langages les plus
 utilisés au monde. Concernant cette évolution, leur prédiction est la
 suivante : « il y a des chances que Ruby entre dans le top 10 dans moins
@@ -207,27 +207,27 @@ parmi lesquelles on peut citer…
 
 ### Références
 
-<sup>1</sup> Matz, [discutant][2] sur la liste de diffusion anglophone
+<sup>1</sup> Matz, [discutant][blade] sur la liste de diffusion anglophone
 Ruby-Talk, le 12 mai 2000.
 {: #fn1}
 
-<sup>2</sup> Consultez le site Internet du projet [Ruby on Rails][3] (en
+<sup>2</sup> Consultez le site Internet du projet [Ruby on Rails][ror] (en
 anglais) pour plus de détails.
 {: #fn2}
 
-<sup>3</sup> Matz, dans *[An Interview with the Creator of Ruby][4]* (en
+<sup>3</sup> Matz, dans *[An Interview with the Creator of Ruby][linuxdevcenter]* (en
 anglais), le 29 novembre 2001.
 {: #fn3}
 
-<sup>4</sup> Matz, dans *[Blocks and Closures in Ruby][5]* (en anglais),
+<sup>4</sup> Matz, dans *[Blocks and Closures in Ruby][artima]* (en anglais),
 le 22 décembre 2003.
 {: #fn4}
 
 
 
-[1]: http://www.rubyist.net/~matz/
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
-[3]: http://rubyonrails.org/
-[4]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
-[5]: http://www.artima.com/intv/closures2.html
-[6]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[matz]: http://www.rubyist.net/~matz/
+[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[ror]: http://rubyonrails.org/
+[linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
+[artima]: http://www.artima.com/intv/closures2.html
+[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
