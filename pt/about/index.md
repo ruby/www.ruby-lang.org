@@ -46,7 +46,7 @@ posiciona o Ruby em #12 entre as linguagens de programação. Citando o
 seu crescimento, prevêm que “Existem possibilidades de que o Ruby entre
 no Top 10 dentro de meio ano.” Muito deste crescimento é atribuído à
 popularidade do software escrito em Ruby, em particular a framework de
-desenvolvimento web Ruby on Rails<sup>[2](#fn2)</sup>.
+desenvolvimento web [Ruby on Rails][ror].
 
 O Ruby é também [totalmente livre]({{ site.license.url }}). Não somente livre de
 custos, mas também livre para utilizar, copiar, modificar e distribuir.
@@ -56,7 +56,7 @@ custos, mas também livre para utilizar, copiar, modificar e distribuir.
 Inicialmente, Matz estudou outras linguagens em busca de encontrar uma
 sintaxe ideal. Recordando a sua busca, disse, “Eu queria uma linguagem
 interpretada que fosse mais poderosa que o Perl e mais orientada aos
-objectos do que o Python<sup>[3](#fn3)</sup>.”
+objectos do que o Python<sup>[2](#fn2)</sup>.”
 
 Em Ruby, tudo é um objecto. Cada parcela de informação e código podem
 receber as suas próprias propriedades e acções. A Programação orientada
@@ -110,7 +110,7 @@ de outras linguagens imperativas como o PHP ou o Visual Basic.
 
 Os Blocos são inspirados nas linguagens funcionais. O Matz disse, “nos
 fechos em Ruby, Eu quis respeitar a cultura do
-Lisp<sup>[4](#fn4)</sup>”.
+Lisp<sup>[3](#fn3)</sup>”.
 
 {% highlight ruby %}
 search_engines =
@@ -200,16 +200,13 @@ seguintes:
 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Vêr página [Ruby on Rails][ror] para mais informações.
+<sup>2</sup> Matz, em [An Interview with the Creator of Ruby][linuxdevcenter], 29
+Nov. 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, em [An Interview with the Creator of Ruby][linuxdevcenter], 29
-Nov. 2001.
-{: #fn3}
-
-<sup>4</sup> Matz, em [Blocks and Closures in Ruby][artima], 22 December
+<sup>3</sup> Matz, em [Blocks and Closures in Ruby][artima], 22 December
 2003.
-{: #fn4}
+{: #fn3}
 
 
 

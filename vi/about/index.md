@@ -41,7 +41,7 @@ vào những nhóm nhỏ riêng thay vì gửi vào đây.
 
 Chỉ số [TIOBE index][tiobe], đo đạt sự phát triển của các ngôn ngữ lập trình, xếp
 Ruby hạng 9 nhờ vào số lượng lớn các phần mềm áp dụng ngôn ngữ này, tiêu biểu
-là framework viết web tên Ruby on Rails <sup>[2](#fn2)</sup>.
+là framework viết web tên [Ruby on Rails][ror].
 
 Ruby hoàn toàn [miễn phí]({{ site.license.url }}). Không đòi hỏi phí bản
 quyển, và không cấm đoán chuyện sử dụng, sao chép, sửa đổi và phân phối.
@@ -50,7 +50,7 @@ quyển, và không cấm đoán chuyện sử dụng, sao chép, sửa đổi v
 
 Khi bắt đầu viết Matz tham khảo những ngôn ngữ khác để tìm những cú pháp lý
 tưởng cho ngôn ngữ mới của ông. Ông nói "Tôi muốn tìm một ngôn ngữ scripting lợi hại
-hơn Perl, và hướng đối tượng hơn Python<sup>[3](#fn3)</sup>.”
+hơn Perl, và hướng đối tượng hơn Python<sup>[2](#fn2)</sup>.”
 
 Trong Ruby, mọi thứ đều là đối tượng (object). Tất cả thông tin và mã đều có thể gán
 thuộc tính (properties) và hành động (actions). Lập trình hướng đối tượng (Object-Oriented Programming)
@@ -100,7 +100,7 @@ mới nhập môn từ các ngôn ngữ hướng thủ tục khác (imperative p
 khác như PHP hay Visual Basic.
 
 Block được tạo ra với cảm hứng từ các ngôn ngữ lập trình hướng chức năng (functional programming).
-Matz nói, trong Ruby, tôi muốn tạo ra loại closures theo phong cách Lisp<sup>[4](#fn4)</sup>.”
+Matz nói, trong Ruby, tôi muốn tạo ra loại closures theo phong cách Lisp<sup>[3](#fn3)</sup>.”
 
 {% highlight ruby %}
 search_engines =
@@ -179,14 +179,11 @@ với các hệ UNIX khác, như Mac OS X, Windows 95/98/Me/NT/2000/XP, DOS, BeO
 <sup>1</sup> Matz, nói về Ruby-Talk mailing list, [12/05/2000][blade].
 {: #fn1}
 
-<sup>2</sup> Xem trang chủ [Ruby on Rails][ror] để biết thêm
+<sup>2</sup> Matz, trong [Phỏng vấn cha đẻ của Ruby][linuxdevcenter], 29/11/2001.
 {: #fn2}
 
-<sup>3</sup> Matz, trong [Phỏng vấn cha đẻ của Ruby][linuxdevcenter], 29/11/2001.
+<sup>3</sup> Matz, trong [Blocks và Closures trong Ruby][artima], 12/12/2003.
 {: #fn3}
-
-<sup>4</sup> Matz, trong [Blocks và Closures trong Ruby][artima], 12/12/2003.
-{: #fn4}
 
 
 

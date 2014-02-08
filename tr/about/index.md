@@ -42,8 +42,8 @@ trafiğine sahiptir.
 
 Programlama dillerinin popülaritesini araştıran [TIOBE][tiobe] istatistiklerine
 göre, Ruby dünya çapında en çok kullanılan 10.cu dil haline gelmiştir.
-Ruby’nin bu hızlı büyümesinde Ruby on Rails
-framework’ünün<sup>[2](#fn2)</sup> hatırı sayılır etkisi bulunmaktadır.
+Ruby’nin bu hızlı büyümesinde [Ruby on Rails][ror] framework’ünün
+hatırı sayılır etkisi bulunmaktadır.
 
 Ruby aynı zamanda [tamamen özgür]({{ site.license.url }}) bir dildir. Ruby size
 yalnızca sorumluluk anlamında bir özgürlük değil, aynı zamanda kullanma,
@@ -54,7 +54,7 @@ kopyalama, düzenleme ve dağıtma özgürlüğü de sunar.
 Matz yeni bir dil yaratmadan önce ideal sözdizimini bulmak için diğer
 programlama dillerini incelemiş ve araştırmasının sonunda “Perl’den daha
 güçlü ama Pyton’dan daha nesneye yönelik bir betik
-dili<sup>[3](#fn3)</sup>” istediğini söylemiştir.
+dili<sup>[2](#fn2)</sup>” istediğini söylemiştir.
 
 Ruby’de herşey bir nesnedir. Gördüğünüz en ufak bilgi parçası ve kod
 kendi özelliklerine ve olaylarına sahiptir. Özellikleri isimle çağırma
@@ -107,7 +107,7 @@ dönüşmüştür.
 
 Bloklar fonksiyonel dillerden esinlenilerek Ruby’ye getirilmiştir. Matz
 “Ruby kapamalarında, Lisp kültürüne saygı göstermek
-istedim<sup>[4](#fn4)</sup>.” demiştir.
+istedim<sup>[3](#fn3)</sup>.” demiştir.
 
 {% highlight ruby %}
 search_engines =
@@ -191,16 +191,12 @@ bahsedilmiştir:
 <sup>1</sup> Matz, Ruby-Talk e-posta listesi, [12 Mayıs, 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Daha fazla bilgi için [Ruby on Rails][ror] ana sayfasını
-ziyaret edin.
+<sup>2</sup> Matz, [Ruby’nin Yaratıcısı İle Bir Söyleşi][linuxdevcenter], Kasım.
+29th, 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, [Ruby’nin Yaratıcısı İle Bir Söyleşi][linuxdevcenter], Kasım.
-29th, 2001.
+<sup>3</sup> Matz, [Ruby’de Bloklar ve Kapamalar][artima], 22 Aralık, 2003.
 {: #fn3}
-
-<sup>4</sup> Matz, [Ruby’de Bloklar ve Kapamalar][artima], 22 Aralık, 2003.
-{: #fn4}
 
 
 

@@ -56,7 +56,7 @@ utilisés au monde. Concernant cette évolution, leur prédiction est la
 suivante : « il y a des chances que Ruby entre dans le top 10 dans moins
 de six mois. » La plus grande part de cette accélération semble revenir
 à la popularité de certains logiciels écrits en Ruby, notamment le
-framework web Ruby on Rails<sup>[2](#fn2)</sup>.
+framework web [Ruby on Rails][ror].
 
 Par ailleurs, Ruby est [totalement libre]({{ site.license.url }}). Il est non
 seulement gratuit, mais son utilisation, sa copie, sa modification et sa
@@ -67,7 +67,7 @@ distribution sont également libres.
 Initialement, Matz a étudié les autres langages afin de définir une
 syntaxe qui lui serait idéale. Se remémorant cet épisode, il nous
 rapportait : « je voulais un langage de script plus puissant que Perl,
-et plus orienté objet que Python<sup>[3](#fn3)</sup>.”
+et plus orienté objet que Python<sup>[2](#fn2)</sup>.”
 
 Dans Ruby, le paradigme de base est que tout y est un objet. Chaque
 entité d’information et de code peut recevoir ses propres propriétés et
@@ -129,7 +129,7 @@ habitués à des langages impératifs comme PHP ou Visual Basic.
 
 Les blocs trouvent leur inspiration dans les langages fonctionnels. Matz
 a dit à ce propos : « en créant les *closures* de Ruby, je souhaitais
-respecter la voie tracée par Lisp<sup>[4](#fn4)</sup>. »
+respecter la voie tracée par Lisp<sup>[3](#fn3)</sup>. »
 
 {% highlight ruby %}
 search_engines =
@@ -211,17 +211,13 @@ parmi lesquelles on peut citer…
 Ruby-Talk, le 12 mai 2000.
 {: #fn1}
 
-<sup>2</sup> Consultez le site Internet du projet [Ruby on Rails][ror] (en
-anglais) pour plus de détails.
+<sup>2</sup> Matz, dans *[An Interview with the Creator of Ruby][linuxdevcenter]* (en
+anglais), le 29 novembre 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, dans *[An Interview with the Creator of Ruby][linuxdevcenter]* (en
-anglais), le 29 novembre 2001.
-{: #fn3}
-
-<sup>4</sup> Matz, dans *[Blocks and Closures in Ruby][artima]* (en anglais),
+<sup>3</sup> Matz, dans *[Blocks and Closures in Ruby][artima]* (en anglais),
 le 22 décembre 2003.
-{: #fn4}
+{: #fn3}
 
 
 

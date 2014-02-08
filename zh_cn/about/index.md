@@ -15,7 +15,7 @@ Smalltalk、 Eiffel、 Ada 和 Lisp ） 产生了一种具有函数式及指令�
 
 除此之外，他还提到：
 
-Ruby 就像人的身体一样，表面上看来简单，但是内部却相当的复杂\[1\]。
+Ruby 就像人的身体一样，表面上看来简单，但是内部却相当的复杂[\[1\]](#fn1)。
 
 ### Ruby 的成长
 
@@ -32,8 +32,8 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 语言的文章爬升到每日 200 封。
 
 在 [TIOBE][tiobe]， 最流行的开发语言排名调查中， Ruby 排名为全球第 11 位。 根据这样的成长情况，他们预测“在半年之中
-Ruby 将会进入最受欢迎开发语言的前 10 名。”有越来越多受欢迎的软件如 Ruby on Rails web
-framework<sup>[2](#fn2)</sup> 是使用 Ruby 撰写而成，也是造成 Ruby 如此快速成长的原因。
+Ruby 将会进入最受欢迎开发语言的前 10 名。”有越来越多受欢迎的软件如 [Ruby on Rails][ror]
+web framework 是使用 Ruby 撰写而成，也是造成 Ruby 如此快速成长的原因。
 
 Ruby 是[开源软件]({{ site.license.url }})。 不只是免费，而且可以自由的使用、复制、修改与发布。
 
@@ -41,7 +41,7 @@ Ruby 是[开源软件]({{ site.license.url }})。 不只是免费，而且可以
 
 最初，Matz
 从其它语言中找寻理想的语法，在网络上他做了一段时间的调查，找到候选如“Perl“和“Python“。但都不是他想要的，他需要一个比 Perl
-更强大、比 Python 更面向对象的语言\[3\]。
+更强大、比 Python 更面向对象的语言[\[2\]](#fn2)。
 
 在 Ruby 中，所有的东西都是对象，所有的信息和代码都可以给它们所拥有的属性和行为。面向对象程序设计中称属性为实例变量（*instance
 variables*），称命令为方法 （*methods*）。 从下列程序代码中看到 Ruby 能够给数字赋于行为，从这点可以证明 Ruby
@@ -80,7 +80,7 @@ Ruby 的代码块是非常强大的。程序员可以给任何函数添加一个
 来表述这个函数该如何工作。密封也被叫做代码块，是用过其他比如 PHP, Visual Basic 等规则语言的 Ruby
 的初学者最喜欢使用的一个功能。
 
-代码块取自函数语言。Matz 说：“我希望在 Ruby 的密封中融入 Lisp 的文化 \[4\]。”
+代码块取自函数语言。Matz 说：“我希望在 Ruby 的密封中融入 Lisp 的文化 [\[3\]](#fn3)。”
 
 {% highlight ruby %}
 search_engines =
@@ -143,14 +143,11 @@ Ruby 还有其他丰富的特性：
 <sup>1</sup> Matz, 在 Ruby-Talk 邮件列表, [5月12日, 2000][blade].
 {: #fn1}
 
-<sup>2</sup> 查看更多信息在 [Ruby on Rails][ror] 主页.
+<sup>2</sup> Matz, 在 [Ruby 创造者的采访][linuxdevcenter], 11月29日, 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, 在 [Ruby 创造者的采访][linuxdevcenter], 11月29日, 2001.
+<sup>3</sup> Matz, 在 [Ruby 的代码块和闭合][artima], 12月22日, 2003.
 {: #fn3}
-
-<sup>4</sup> Matz, 在 [Ruby 的代码块和闭合][artima], 12月22日, 2003.
-{: #fn4}
 
 
 

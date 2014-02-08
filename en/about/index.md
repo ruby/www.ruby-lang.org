@@ -44,8 +44,8 @@ groups.
 Ruby is ranked among the top 10 on most of the indices that measure
 the growth and popularity of programming languages worldwide
 (such as the [TIOBE index][tiobe]). Much of the growth is attributed to the
-popularity of software written in Ruby, particularly the Ruby on Rails
-web framework<sup>[2](#fn2)</sup>.
+popularity of software written in Ruby, particularly the
+[Ruby on Rails][ror] web framework.
 
 Ruby is also [completely free]({{ site.license.url }}). Not only free of charge, but
 also free to use, copy, modify, and distribute.
@@ -55,7 +55,7 @@ also free to use, copy, modify, and distribute.
 Initially, Matz looked at other languages to find an ideal syntax.
 Recalling his search, he said, “I wanted a scripting language that was
 more powerful than Perl, and more object-oriented than
-Python<sup>[3](#fn3)</sup>.”
+Python<sup>[2](#fn2)</sup>.”
 
 In Ruby, everything is an object. Every bit of information and code can
 be given their own properties and actions. Object-oriented programming
@@ -106,7 +106,7 @@ the most popular features for newcomers to Ruby from other imperative
 languages like PHP or Visual Basic.
 
 Blocks are inspired by functional languages. Matz said, “in Ruby
-closures, I wanted to respect the Lisp culture<sup>[4](#fn4)</sup>.”
+closures, I wanted to respect the Lisp culture<sup>[3](#fn3)</sup>.”
 
 {% highlight ruby %}
 search_engines =
@@ -215,24 +215,19 @@ Some of those implementations, including MRI, follow the guidelines of
 [RubySpec][rubyspec], a “complete executable specification for the Ruby
 programming language”.
 
-
-
 ### References
 
 <sup>1</sup> Matz, speaking on the Ruby-Talk mailing list, [May 12th,
 2000][blade].
 {: #fn1}
 
-<sup>2</sup> See the [Ruby on Rails][ror] home page for more.
+<sup>2</sup> Matz, in [An Interview with the Creator of Ruby][linuxdevcenter], Nov.
+29th, 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, in [An Interview with the Creator of Ruby][linuxdevcenter], Nov.
-29th, 2001.
-{: #fn3}
-
-<sup>4</sup> Matz, in [Blocks and Closures in Ruby][artima], December 22nd,
+<sup>3</sup> Matz, in [Blocks and Closures in Ruby][artima], December 22nd,
 2003.
-{: #fn4}
+{: #fn3}
 
 
 

@@ -27,13 +27,13 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 
 2006 年，Ruby 主要的[郵件列表：Ruby-Talk](/en/community/mailing-lists/) 上，討論 Ruby 語言的文章爬升到每日 200 封。近幾年郵件列表討論下降了，因為各個社群有著自己的討論小組。
 
-[TIOBE 的最流行開發語言排名調查][tiobe]中，Ruby 排名為全球第 13。根據這樣的成長情況，他們預測 “在半年之中 Ruby 將會進入最受歡迎的第 10 名.” 有越來越多受歡迎的軟體，如 Ruby on Rails 網路框架<sup>[2](#fn2)</sup> 是使用 Ruby 撰寫而成，也是為什麼 Ruby 會成長的如此快。
+[TIOBE 的最流行開發語言排名調查][tiobe]中，Ruby 排名為全球第 13。根據這樣的成長情況，他們預測 “在半年之中 Ruby 將會進入最受歡迎的第 10 名.” 有越來越多受歡迎的軟體，如 [Ruby on Rails][ror] 網路框架 是使用 Ruby 撰寫而成，也是為什麼 Ruby 會成長的如此快。
 
 同時，Ruby 是個[自由軟體]({{ site.license.url }})。不僅免費，同時可自由的使用、修改與散佈。
 
 ### 萬物即物件
 
-最初，Matz 從其他語言中尋找理想的語法。他回憶起曾做過的研究，說：“我想要一個比 Perl 更強大、比 Python 更物件導向的的腳本語言<sup>[3](#fn3)</sup>”。
+最初，Matz 從其他語言中尋找理想的語法。他回憶起曾做過的研究，說：“我想要一個比 Perl 更強大、比 Python 更物件導向的的腳本語言<sup>[2](#fn2)</sup>”。
 
 在 Ruby 裡，萬物皆物件。所有的資訊與程式碼，都給傳遞給物件擁有的屬性（properties）與行為（actions）。物件導向程式設計中稱屬性為**實體變數**（ *instance variables* ）而行為稱為**方法**（ *methods* ）。從下列程式碼中看到 Ruby 能夠給 “數字（number）” 賦予 “行為（actions）” 這特點來看，足以證明 Ruby 是個純物件導向的語言。
 
@@ -68,7 +68,7 @@ Ruby 的運算元其實就是個方法（method）。你也可以重新定義運
 
 Ruby 的區塊可說是強大靈活性的來源。 程式設計師可以為任何的方法加上閉包（closure），來描述這個方法該做什麼。此處的閉包稱為 *block* 同時這也是從指令式程式設計語言如 PHP 或 Visual Basic 轉換到 Ruby 的新手最喜歡的功能。
 
-區塊的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ruby 的閉包之中，我要向 Lisp 文化致敬<sup>[4](#fn4)</sup>”。
+區塊的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ruby 的閉包之中，我要向 Lisp 文化致敬<sup>[3](#fn3)</sup>”。
 
 {% highlight ruby %}
 search_engines =
@@ -124,14 +124,11 @@ Ruby 還具有以下的特點：
 <sup>1</sup> Matz 於 [2000 年 5 月 12 日][blade] Ruby-Talk 郵件論壇上的發言。
 {: #fn1}
 
-<sup>2</sup> 請參考 [Ruby on Rails][ror] 官方首頁有更多資料。
+<sup>2</sup> [專訪 Ruby 語言發明者][linuxdevcenter]（2001 年 11 月 29 日）
 {: #fn2}
 
-<sup>3</sup> [專訪 Ruby 語言發明者][linuxdevcenter]（2001 年 11 月 29 日）
+<sup>3</sup> Matz 談 [Blocks and Closures in Ruby][artima] （2003 年 12 月 22 日）。
 {: #fn3}
-
-<sup>4</sup> Matz 談 [Blocks and Closures in Ruby][artima] （2003 年 12 月 22 日）。
-{: #fn4}
 
 
 

@@ -46,7 +46,7 @@ przeniosło dyskusje z jednej centralnej listy na wiele mniejszych grup.
 Wskaźnik [TIOBE indeks][tiobe], który mierzy rozwój języków programowania, umieszcza
 Rubiego na 9 miejscu wśród światowych języków programowania. Wiele owego
 wzrostu zawdzięcza Ruby popularności software napisanego przy jego użyciu,
-szczególnie frameworkowi Ruby on Rails<sup>[2](#fn2)</sup>.
+szczególnie frameworkowi [Ruby on Rails][ror].
 
 Ruby jest także [zupełnie darmowy]({{ site.license.url }}). Darmowe jest nie
 tylko korzystanie, ale również kopiowanie, modyfikowanie i
@@ -56,7 +56,7 @@ rozprowadzanie tego języka.
 
 Początkowo, Matz szukał w innych językach idealnej składni. Wspominając
 swoje poszukiwania, Matz mówi: “Szukałem języka potężniejszego od Perla
-i bardziej obiektowego od Pythona<sup>[3](#fn3)</sup>.”
+i bardziej obiektowego od Pythona<sup>[2](#fn2)</sup>.”
 
 W Rubim, wszystko jest obiektem. Każdy fragment informacji i kodu może
 uzyskać swoje właściwości i czynności. Programowanie obiektowe nazywa
@@ -109,7 +109,7 @@ programistów pochodzących ze środowisk PHP i Visual Basic’a.
 
 Bloki zainspirowane zostały językami funkcjonalnymi. Matz mówił, “w
 blokach Rubiego chciałem oddać szacunek środowisku
-Lispa<sup>[4](#fn4)</sup>.”
+Lispa<sup>[3](#fn3)</sup>.”
 
 {% highlight ruby %}
 search_engines =
@@ -224,15 +224,12 @@ Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
 <sup>1</sup> Matz, wypowiedź na liście ruby-talk, [May 12th, 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Zobacz stronę [Ruby on Rails][ror] aby dowiedzieć się więcej.
+<sup>2</sup> Matz, w [Wywiad z twórcą języka Ruby][linuxdevcenter], Nov. 29th, 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, w [Wywiad z twórcą języka Ruby][linuxdevcenter], Nov. 29th, 2001.
-{: #fn3}
-
-<sup>4</sup> Matz, w [Bloki i domknięcia w Rubym][artima], December 22nd,
+<sup>3</sup> Matz, w [Bloki i domknięcia w Rubym][artima], December 22nd,
 2003.
-{: #fn4}
+{: #fn3}
 
 
 

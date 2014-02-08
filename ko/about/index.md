@@ -35,14 +35,14 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 토론의 숫자는 감소 중 입니다.
 
 루비는 성장세와 인기 면에서 [TIOBE 인덱스][tiobe]같은 세계적인 랭킹의 10위권 안에 드는 프로그래밍 언어입니다.
-이런 성장은 루비로 만들어진 대중적인 소프트웨어, 특히 루비 온 레일스 웹 프레임워크<sup>[2](#fn2)</sup>의 공입니다.
+이런 성장은 루비로 만들어진 대중적인 소프트웨어, 특히 [루비 온 레일스][ror] 웹 프레임워크의 공입니다.
 
 루비는 [완전히 무료]({{ site.license.url }})입니다. 사용뿐 만 아니라 복사, 수정, 배포까지도 무료입니다.
 
 ### 모든 것은 객체
 
 처음에 마츠는 이상적인 문법을 가진 언어를 찾고 있었습니다. 그 때를 회고하며 그는 “나는 펄보다 강력하고 파이썬보다는 객체지향적인
-스크립트 언어가 필요했다<sup>[3](#fn3)</sup>.”라고 했습니다.
+스크립트 언어가 필요했다<sup>[2](#fn2)</sup>.”라고 했습니다.
 
 루비에서는 모든 것이 객체입니다. 따라서 루비에서 모든 것은 자신만의 속성과 액션을 갖습니다. 객체지향 프로그래밍에서 이런 속성을
 *인스턴스 변수*라고 하고, 액션을 *메서드*라고 합니다. 루비의 순수 객체지향 접근법은 아래의 예제처럼 숫자에 액션을 취하는
@@ -84,7 +84,7 @@ y = 5.plus 6
 개발자에게 가장 매력적인 기능으로 꼽힙니다.
 
 블럭은 함수형 언어에서 아이디어를 따왔습니다. 마츠는 “루비 클러저를 만들면서 나는 리스프의 클로저 기능을 존중하고
-싶었다<sup>[4](#fn4)</sup>.”고 말했습니다.
+싶었다<sup>[3](#fn3)</sup>.”고 말했습니다.
 
 {% highlight ruby %}
 search_engines =
@@ -165,24 +165,19 @@ end
 
 MRI를 포함, 일부 구현체들은 “complete executable specification for the Ruby programming language”인 [RubySpec][rubyspec]의 가이드라인을 준수합니다.
 
-
-
 ### 참조
 
 <sup>1</sup> 마츠, 루비토크 메일링리스트에서, [May 12th,
 2000][blade].
 {: #fn1}
 
-<sup>2</sup> 자세한 내용은 [루비 온 레일스][ror] 홈페이지를 참조.
+<sup>2</sup> 마츠, [An Interview with the Creator of Ruby][linuxdevcenter], Nov.
+29th, 2001.
 {: #fn2}
 
-<sup>3</sup> 마츠, [An Interview with the Creator of Ruby][linuxdevcenter], Nov.
-29th, 2001.
-{: #fn3}
-
-<sup>4</sup> 마츠, [Blocks and Closures in Ruby][artima], December 22nd,
+<sup>3</sup> 마츠, [Blocks and Closures in Ruby][artima], December 22nd,
 2003.
-{: #fn4}
+{: #fn3}
 
 
 

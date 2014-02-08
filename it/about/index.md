@@ -45,7 +45,7 @@ al giorno.
 mette Ruby al decimo posto tra tutti i linguaggi di programmazione
 esistenti al mondo. Gran parte di questa crescita è da attribuire alla
 popolarità dei programmi scritti in Ruby, in particolare il framework
-Ruby on Rails<sup>[2](#fn2)</sup>.
+[Ruby on Rails][ror].
 
 Ruby è anche un linguaggio [libero e gratuito]({{ site.license.url }}). Non
 solo non costa nulla, ma può anche essere usato, copiato, modificato e
@@ -56,7 +56,7 @@ distribuito liberamente.
 Inizialmente, Matz guardò ad altri linguaggi per trovare una sintassi
 ideale. Pensando a questa sua ricerca, ha detto lui stesso: “Volevo un
 linguaggio di scripting che fosse più potente di Perl, e allo stesso
-tempo più orientato agli oggetti di Python<sup>[3](#fn3)</sup>.”
+tempo più orientato agli oggetti di Python<sup>[2](#fn2)</sup>.”
 
 In Ruby, ogni cosa è un oggetto: ogni parte di informazione e codice ha
 delle sue proprietà e azioni. La programmazione ad oggetti chiama le
@@ -109,7 +109,7 @@ descrivendo come quel metodo dovrebbe agire. La *closure* viene chiamata
 arrivati a Ruby da altri linguaggi imperativi come PHP o Visual Basic.
 
 I blocchi sono stati ispirati dai linguaggi funzionali. Matz ha detto,
-“nelle *closures* ho voluto rispettare la cultura di Lisp<sup>[4](#fn4)</sup>.”
+“nelle *closures* ho voluto rispettare la cultura di Lisp<sup>[3](#fn3)</sup>.”
 
 {% highlight ruby %}
 motori_di_ricerca =
@@ -199,17 +199,13 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
 12th, 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Per ulteriori informazioni, visita la home page di [Ruby on
-Rails][ror].
+<sup>2</sup> Matz, in [Un’intervista con il creatore di Ruby][linuxdevcenter], Nov.
+29th, 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, in [Un’intervista con il creatore di Ruby][linuxdevcenter], Nov.
-29th, 2001.
-{: #fn3}
-
-<sup>4</sup> Matz, in [Blocchi e *closure* in Ruby][artima], December 22nd,
+<sup>3</sup> Matz, in [Blocchi e *closure* in Ruby][artima], December 22nd,
 2003.
-{: #fn4}
+{: #fn3}
 
 
 

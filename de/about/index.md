@@ -48,8 +48,7 @@ entstanden sind.
 Der [TIOBE-Index][tiobe], der die Verbreitung von Programmiersprachen misst,
 listet Ruby auf Platz 10 der populärsten Sprachen. Ein großer Teil
 dieses Wachstums ist der Beliebtheit von in Ruby geschriebener Software
-zu verdanken, insbesondere dem Web-Framework Ruby on
-Rails<sup>[2](#fn2)</sup>.
+zu verdanken, insbesondere dem Web-Framework [Ruby on Rails][ror].
 
 Ruby ist außerdem [absolut frei]({{ site.license.url }}). Nicht nur kostenlos,
 sondern auch frei zu benutzen, zu kopieren, zu verändern und zu
@@ -60,7 +59,7 @@ vertreiben.
 Am Anfang hat Matz andere Sprachen studiert, um die ideale Syntax zu
 finden. An diese Suche erinnert sagt er: “Ich wollte eine Skriptsprache,
 die mächtiger als Perl und objektorientierter als Python
-ist<sup>[3](#fn3)</sup>.”
+ist<sup>[2](#fn2)</sup>.”
 
 In Ruby ist alles ein Objekt. Jedes Stück Information kann eigene
 Eigenschaften und Aktionen besitzen. In der Welt der objektorientierten
@@ -114,7 +113,7 @@ Basic gearbeitet haben.
 
 Blöcke sind durch funktionale Programmiersprachen inspiriert. Matz sagt:
 “Mit Ruby-Closures wollte ich die Kultur von LISP
-bewahren<sup>[4](#fn4)</sup>.”
+bewahren<sup>[3](#fn3)</sup>.”
 
 {% highlight ruby %}
 search_engines =
@@ -197,17 +196,13 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
 <sup>1</sup> Matz in der Ruby-Talk-Mailingliste am [12. Mai 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Besuche die Website von [Ruby on Rails][ror], um mehr zu
-erfahren.
+<sup>2</sup> Matz in [An Interview with the Creator of Ruby][linuxdevcenter], 29.
+November 2001.
 {: #fn2}
 
-<sup>3</sup> Matz in [An Interview with the Creator of Ruby][linuxdevcenter], 29.
-November 2001.
-{: #fn3}
-
-<sup>4</sup> Matz in [Blocks and Closures in Ruby][artima], 22. Dezember
+<sup>3</sup> Matz in [Blocks and Closures in Ruby][artima], 22. Dezember
 2003.
-{: #fn4}
+{: #fn3}
 
 
 

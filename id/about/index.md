@@ -49,7 +49,7 @@ di seluruh dunia. Melihat pada perkembangan ini, mereka memperkirakan,
 “Kesempatan Ruby memasuki peringkat atas 10 besar adalah dalam waktu
 setengah tahun.” Kebanyakan dari perkembangan Ruby beratribut pada
 terkenalnya software yang ditulis dengan Ruby, terutama framework web
-Ruby on Rails<sup>[2](#fn2)</sup>.
+[Ruby on Rails][ror].
 
 Ruby juga [sepenuhnya bebas]({{ site.license.url }}). Tidak hanya gratis,
 tetapi juga bebas untuk menggunakan, memodifikasi dan mendistribusikan
@@ -60,7 +60,7 @@ Ruby.
 Pertama kali, Matz melihat bahasa-bahasa lain untuk mencari sintaks yang
 ideal. Terkenang pencariannya, Matz berkata, “Saya mau bahasa scripting
 yang lebih hebat daripada Perl dan lebih berorientasi obyek daripada
-Python<sup>[3](#fn3)</sup>.”
+Python<sup>[2](#fn2)</sup>.”
 
 Di Ruby, semua adalah obyek. Setiap informasi dan kode bisa diberi
 property dan action. Pemrograman berorientasi obyek memanggil property
@@ -112,7 +112,7 @@ fitur-fitur Ruby yang paling populer pada banyak pendatang baru Ruby
 dari bahasa-bahasa imperatif lain seperti PHP atau Visual Basic.
 
 Blok terinspirasi dari bahasa-bahasa fungsional. Matz berkata, “Saya
-ingin menghormati kultur Lisp di closure Ruby<sup>[4](#fn4)</sup>.”
+ingin menghormati kultur Lisp di closure Ruby<sup>[3](#fn3)</sup>.”
 
 {% highlight ruby %}
 search_engines =
@@ -203,17 +203,14 @@ Ruby kaya fitur, antara lain sebagai berikut:
 <sup>1</sup> Matz, berbicara di milis Ruby-Talk, [12 Mei 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Lihat situs [Ruby on Rails][ror] untuk info lebih lengkap.
-{: #fn2}
-
-<sup>3</sup> Matz, [An Interview with the Creator of Ruby][linuxdevcenter],
+<sup>2</sup> Matz, [An Interview with the Creator of Ruby][linuxdevcenter],
 (Wawancara dengan Pencipta Ruby, dalam Bahasa Inggris), 29 November
 2001.
-{: #fn3}
+{: #fn2}
 
-<sup>4</sup> Matz, [Blocks and Closures in Ruby][artima], (Blok dan Closure
+<sup>3</sup> Matz, [Blocks and Closures in Ruby][artima], (Blok dan Closure
 di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
-{: #fn4}
+{: #fn3}
 
 
 
