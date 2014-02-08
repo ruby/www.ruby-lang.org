@@ -9,6 +9,10 @@ use Rack::Rewrite do
     r301 %r{.*}, "https://staging.ruby-lang.org$&", scheme: "http", host: "staging.ruby-lang.org"
   end
 
+  r302 %r{.*}, "$&/", if: ->(rack_env) {
+    rack_env["PATH_INFO"].match(%r{/$}).nil? && File.exist?("_site#{rack_env["PATH_INFO"]}/index.html")
+  }
+
   r302 %r{^/bugreport\.html$}, "http://bugs.ruby-lang.org/"
 
   r302 %r{^/ja/20030611\.html$}, "/ja/downloads"
