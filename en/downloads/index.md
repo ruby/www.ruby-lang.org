@@ -34,13 +34,16 @@ If you have an issue compiling Ruby, consider using one of the third
 party tools described on the [Installation](/en/installation/) page.
 They may help you.
 
-* **Current stable:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
+* **Current stable:**
+  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
   md5: {{ site.downloads.stable.md5.gz }}
 
-* **Previous stable:** [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
+* **Previous stable:**
+  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **Old stable:** [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **Old stable:**
+  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **Snapshots:**
@@ -53,7 +56,8 @@ They may help you.
 For information about the Ruby Subversion and Git repositories, see our
 [Ruby Core](/en/community/ruby-core/) page.
 
-The Ruby source is available from a worldwide set of [Mirror Sites](/en/downloads/mirrors/).
+The Ruby source is available from a worldwide set of
+[Mirror Sites](/en/downloads/mirrors/).
 Please try to use a mirror that is near you.
 
 

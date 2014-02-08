@@ -33,13 +33,16 @@ innych przygotowanych pakietów.
 Jeśli masz problem z kompilacją Rubiego rozważ skorzystanie z narzędzi osób
 trzecich ze strony [instalacja](/pl/installation/). Mogą ci pomóc.
 
-* **Obecny stabilny:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
+* **Obecny stabilny:**
+  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
   md5: {{ site.downloads.stable.md5.gz }}
 
-* **Poprzedni stabilny:** [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
+* **Poprzedni stabilny:**
+  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **Stary stabilny:** [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **Stary stabilny:**
+  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **Migawki:**
@@ -52,7 +55,8 @@ trzecich ze strony [instalacja](/pl/installation/). Mogą ci pomóc.
 Aby uzyskać informacje na temat repozytorium Rubiego w Subversion i Git,
 zobacz stronę [Ruby Core](/en/community/ruby-core/).
 
-Źródła Rubiego są dostępne na światowych [stronach lustrzanych](/en/downloads/mirrors/).
+Źródła Rubiego są dostępne na światowych
+[stronach lustrzanych](/en/downloads/mirrors/).
 Spróbuj użyć jakiegoś blisko ciebie.
 
 

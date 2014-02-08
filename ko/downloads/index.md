@@ -29,13 +29,16 @@ lang: ko
 만약 루비를 컴파일할 때 문제가 있다면, [설치](/ko/installation/) 페이지에서 소개하는
 서드파티 도구 중 하나를 이용해볼 것을 고려해 보십시오. 도움이 될 것입니다.
 
-* **안정버전:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
+* **안정버전:**
+  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
   md5: {{ site.downloads.stable.md5.gz }}
 
-* **이전버전:** [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
+* **이전버전:**
+  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **낡은버전:** [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **낡은버전:**
+  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **스냅샷:**

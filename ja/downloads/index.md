@@ -28,13 +28,16 @@ lang: ja
 
 もしコンパイルで問題がある場合、[インストールガイド](/ja/installation/) ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
 
-* **最新の安定版:** [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
+* **最新の安定版:**
+  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
   md5: {{ site.downloads.stable.md5.gz }}
 
-* **前世代の安定版:** [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
+* **前世代の安定版:**
+  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **古い安定版:** [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **古い安定版:**
+  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **スナップショット:**
