@@ -39,7 +39,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
-Ruby-Talk, die wichtigste [Mailingliste](/en/community/mailing-lists/)
+Ruby-Talk, die wichtigste [Mailingliste](/de/community/mailing-lists/)
 für Diskussionen rund um Ruby, erreichte 2006 einen Spitzenwert von etwa
 200 Nachrichten pro Tag. Seither ist die Aktivität wieder zurückgegangen,
 da mit dem starken Anwachsen der Community zahlreiche kleinere Listen
