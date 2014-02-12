@@ -6,7 +6,7 @@ layout: nil
 # Ruby sa quello che vuoi
 # dire, anche se vuoi
 # fare delle operazioni
-# con un'intero Array
+# con un intero Array
 luoghi   = %w[ Londra
                Oslo
                Parigi
