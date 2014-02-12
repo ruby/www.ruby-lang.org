@@ -7,7 +7,7 @@ date: 2014-02-12 14:02:03 UTC
 lang: en
 ---
 
-Has anyone helped you greatly in the Ruby community this year? Maybe they
+Has anyone helped you greatly in the Ruby community this past year? Maybe they
 taught you something, wrote a gem, or gave you some tech support? If anyone
 comes to mind, then please take the time to
 [nominate them](http://rubyheroes.com/) for a Ruby Hero Award.  
