@@ -4,7 +4,7 @@ title: "Nominación para el premio Ruby Hero Award 2014"
 author: "Gregg Pollack"
 translator: "David Padilla"
 date: 2014-02-12 14:02:03 UTC
-lang: en
+lang: es
 ---
 
 ¿Identificas a alguien te ayudó de manera extraordinaria en la comunidad de
