@@ -195,7 +195,7 @@ To help you with installation of new Ruby versions on OS X, it is
 probably a good idea to use the third party tools.
 
 
-### Ruby On Solaris and OpenIndiana
+### Ruby on Solaris and OpenIndiana
 {: #solaris}
 
 Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
@@ -229,7 +229,7 @@ right choice for you.
 {: #building-from-source}
 
 Of course, you can install Ruby from source.
-Download and unpack a tarball, then just do this:
+[Download](/en/downloads/) and unpack a tarball, then just do this:
 
 {% highlight sh %}
 $ ./configure

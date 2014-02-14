@@ -30,9 +30,9 @@ comfortable enough with your platform and perhaps need specific settings
 for your environment. It’s also a good solution in the event that there
 are no other premade packages for your platform.
 
-If you have an issue compiling Ruby, consider using one of the third
-party tools described on the [Installation](/en/installation/) page.
-They may help you.
+See the [Installation](/en/installation/) page for details on building
+Ruby from source. If you have an issue compiling Ruby, consider using
+one of the third party tools mentioned above. They may help you.
 
 * **Current stable:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
