@@ -45,10 +45,12 @@ für Diskussionen rund um Ruby, erreichte 2006 einen Spitzenwert von etwa
 da mit dem starken Anwachsen der Community zahlreiche kleinere Listen
 entstanden sind.
 
-Der [TIOBE-Index][tiobe], der die Verbreitung von Programmiersprachen misst,
-listet Ruby auf Platz 10 der populärsten Sprachen. Ein großer Teil
-dieses Wachstums ist der Beliebtheit von in Ruby geschriebener Software
-zu verdanken, insbesondere dem Web-Framework [Ruby on Rails][ror].
+Die meisten Indizes, die das Wachstum und die Beliebtheit von
+Programmiersprachen weltweit messen, listen Ruby unter den beliebtesten
+zehn Sprachen (wie zum Beispiel der [TIOBE-Index][tiobe]).
+Ein großer Teil dieses Wachstums ist der Beliebtheit von in Ruby
+geschriebener Software zu verdanken, insbesondere dem Web-Framework
+[Ruby on Rails][ror].
 
 Ruby ist außerdem [absolut frei]({{ site.license.url }}). Nicht nur kostenlos,
 sondern auch frei zu benutzen, zu kopieren, zu verändern und zu
