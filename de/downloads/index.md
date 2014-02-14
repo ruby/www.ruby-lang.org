@@ -188,44 +188,6 @@ $ pkg install runtime/ruby-18
 
 Selbstverständlich kann man auch hier RVM verwenden.
 
-### Alternative Ruby-Implementierungen
-
-Ruby als Sprache hat einige verschiedene Implementierungen. Diese
-Anleitung diskutiert die Referenzimplementierung **MRI** („Matz’
-Ruby-Interpreter“) oder **CRuby**, es gibt aber noch einige weitere.
-Oftmals sind diese in bestimmten Situationen nützlich, stellen spezielle
-Sprach- oder Umgebungsintergration zur Verfügung oder haben einfach
-spezielle Features, die MRI nicht hat.
-
-Hier ist eine Liste:
-
-* [JRuby][21] ist ein Ruby auf der JVM (Java Virtual Machine), das von
-  den optimierenden JIT-Compilern der JVM, ihrem Garbage Collector,
-  nebenläufigen Threads, diversen Tools und einer immensen Menge an
-  Programmbibliotheken profitiert.
-* [Rubinius][22] ist ein „Ruby geschrieben in Ruby“. Aufgebaut auf der
-  LLVM stellt Rubinius eine gute virtuelle Maschine zur Verfügung, auf
-  der sogar andere Sprachen aufbauen. Ebenso wie JRuby besitzt es echt
-  nebenläufige Threads, ist jedoch im Gegensatz zu diesem kompatibel zur
-  C-API des MRI.
-* [MacRuby][23] ist stark integriert in Apples Cocoa-Framework für Mac
-  OS X, was ein leichtes Erstellen von Desktopanwendungen für Mac OS X
-  ermöglicht.
-* [mruby][mruby] ist eine schlanke Ruby-Implementierung, die
-  gelinkt und in Anwendungen eingebunden werden kann.
-  Die Entwicklung von mruby wird von Yukihiro “Matz” Matsumoto geleitet,
-  dem Schöpfer von Ruby.
-* [IronRuby][26] integriert sich gut in die .NET-Plattform.
-* [MagLev][27] definiert sich selbst als „eine schnelle, stabile
-  Ruby-Implementierung mit integrierter Objektpersistenz und verteiltem
-  Shared Cache“.
-* [Cardinal][24] ist ein „Ruby-Compiler für die
-  [Parrot Virtual Machine][25]“ (Perl 6).
-
-Einige der genannten Implementierungen, MRI eingeschlossen, folgen den
-Richtlinien von [RubySpec][28], einer „kompletten ausführbaren
-Spezifikation für die Programmiersprache Ruby“.
-
 
 
 [license]: {{ site.license.url }}
@@ -250,12 +212,3 @@ Spezifikation für die Programmiersprache Ruby“.
 [21alt]: http://cooltools.sunsource.net/coolstack
 [19]: http://openindiana.org
 [20]: http://opensolaris.org/os/project/pkg
-[21]: http://jruby.org
-[22]: http://rubini.us
-[23]: http://www.macruby.org
-[mruby]: https://github.com/mruby/mruby
-[24]: https://github.com/parrot/cardinal
-[25]: http://parrot.org
-[26]: http://www.ironruby.net
-[27]: http://ruby.gemstone.com
-[28]: http://rubyspec.org
