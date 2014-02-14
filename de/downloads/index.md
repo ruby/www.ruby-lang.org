@@ -146,13 +146,15 @@ das Mittel der Wahl sein.
 
 #### Ruby unter OS X
 
-Ruby 1.8.7 wird von Macintosh OS X Lion genauso vollständig unterstützt
-wie viele bekannte RubyGems (Pakete). Genauere Informationen gibt es im
-[RubyWiki bei Mac OS Forge][11].
+Ruby 2.0.0 wird von Macintosh OS X 10.9 (Mavericks) genauso vollständig
+unterstützt wie viele bekannte RubyGems (Pakete). Ruby 2.0 unterstützt
+das von OS X mitgelieferte [DTRACE][29] standardmässig.
 
-Max OS X Tiger kommt mit der Ruby-Version 1.8.2 und Leopard mit 1.8.6,
-aber für die, die noch nicht auf Leopard aktualisiert haben, gibt es
-mehrere Möglichkeiten, die neueste Ruby-Version zu installieren.
+Max OS X 10.4 (Tiger) kommt mit der Ruby-Version 1.8.2 und 10.5 (Leopard)
+mit 1.8.6. In 10.7 (Lion) und 10.8 (Mountain Lion) wird Ruby 1.8.7
+mit inoffiziellen Patches für [DTRACE][29]-Support mitgeliefert.
+Für die, die noch nicht auf die neuste Version von OS X aktualisiert haben,
+gibt es mehrere Möglichkeiten, die neueste Ruby-Version zu installieren.
 
 Viele Anwender benutzen unter Mac OS X [Homebrew][12] als Paketmanager:
 
@@ -259,3 +261,4 @@ Spezifikation für die Programmiersprache Ruby“.
 [26]: http://www.ironruby.net
 [27]: http://ruby.gemstone.com
 [28]: http://rubyspec.org
+[29]: http://de.wikipedia.org/wiki/DTrace
