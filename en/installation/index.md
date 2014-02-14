@@ -63,7 +63,7 @@ Check it out, too, and choose the one most comfortable for you.
 {: #rvm}
 
 RVM allows you to install and manage multiple installations of Ruby
-on your system. It is only available for OS X, Linux, or other UNIX-like
+on your system. It is available for OS X, Linux, or other UNIX-like
 operating systems.
 
 For the latest instructions on installing RVM, check out the
@@ -84,15 +84,16 @@ Then just use the installer, and you are done!
 
 ### RailsInstaller and Ruby Stack
 
-If you are installing Ruby in order to use Rails, you can use the following
-installers:
+If you are installing Ruby in order to use Ruby on Rails,
+you can use the following installers:
 
 * [RailsInstaller][railsinstaller]
   which uses RubyInstaller but gives you
   extra tools that help with Rails development.
+  It supports OS X and Windows.
 * [Bitnami Ruby Stack][rubystack]
-  which provides a complete development environment for Ruby on Rails.
-  It supports Windows, OS X, Linux, virtual machines and cloud images.
+  which provides a complete development environment for Rails.
+  It supports OS X, Linux, Windows, virtual machines and cloud images.
 
 
 ## Package Management Systems
@@ -175,14 +176,13 @@ $ sudo pacman -S ruby
 {: #homebrew}
 
 On OS X Mavericks, Ruby 2.0 is included.
-OS X Mountain Lion, Lion, and Leopard ship with 1.8.7.
-Ruby 2.0 and 1.8 are older versions, so there are a number of options
-for installing the latest version of Ruby.
+OS X Mountain Lion, Lion, and Leopard ship with Ruby 1.8.7.
 
+There are a number of options for installing newer versions of Ruby.
 Most OS X users in the Ruby community use the third party tools to install
 Ruby, but there are some package managers supporting Ruby.
 
-Many people on OS X use [homebrew][homebrew] as a package manager.
+Many people on OS X use [Homebrew][homebrew] as a package manager.
 It is really easy to get Ruby:
 
 {% highlight sh %}
@@ -191,8 +191,8 @@ $ brew install ruby
 
 Also, since OS X is based on Unix, downloading and installing from the
 source is just as easy and effective as the other solutions.
-To help you with installation of new Ruby versions on OS X, it is
-probably a good idea to use the third party tools.
+To help you with the installation of new Ruby versions on OS X,
+it is probably a good idea to use the third party tools.
 
 
 ### Ruby on Solaris and OpenIndiana
