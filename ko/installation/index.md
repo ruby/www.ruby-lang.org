@@ -19,7 +19,7 @@ lang: ko
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [homebrew](#homebrew)
+  * [Homebrew](#homebrew)
   * [소스에서 빌드하기](#building-from-source)
 
 * Linux/UNIX
@@ -100,6 +100,7 @@ RubyInstaller를 사용하려면, [RubyInstaller 웹사이트][rubyinstaller]에
 * [yum (CentOS, Fedora, or RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
+* [Homebrew (OS X)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 

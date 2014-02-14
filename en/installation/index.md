@@ -21,7 +21,7 @@ Choose the way that is the most comfortable for you.
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [homebrew](#homebrew)
+  * [Homebrew](#homebrew)
   * [Building from source](#building-from-source)
 
 * Linux/UNIX
@@ -116,6 +116,7 @@ The following package managers are described below:
 * [yum (CentOS, Fedora, or RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
+* [Homebrew (OS X)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 

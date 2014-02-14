@@ -17,7 +17,7 @@ lang: ja
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [homebrew](#homebrew)
+  * [Homebrew](#homebrew)
   * [ソースからのビルド](#building-from-source)
 
 * Linux/UNIX
@@ -95,6 +95,7 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 * [yum (CentOS, Fedora, or RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
+* [Homebrew (OS X)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 
@@ -161,7 +162,7 @@ Ruby 2.0.0 は OS X Mavericks に含まれています。
 Ruby コミュニティにいる大半の OS X ユーザは Ruby をインストールするためにサードパーティ製のツールを使用しています。
 しかし、いくつかのパッケージマネージャが Ruby をサポートしています。
 
-多くの OS X ユーザはパッケージマネージャとして [homebrew][homebrew] を使っています。
+多くの OS X ユーザはパッケージマネージャとして [Homebrew][homebrew] を使っています。
 これを使うと本当に簡単に Ruby を手に入れることができます:
 
 {% highlight sh %}

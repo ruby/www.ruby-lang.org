@@ -19,7 +19,7 @@ Wybierz najbardziej odpowiednią.
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [homebrew](#homebrew)
+  * [Homebrew](#homebrew)
   * [Budowanie ze źródeł](#building-from-source)
 
 * Linux/UNIX
@@ -100,6 +100,7 @@ Na tej stronie następujące menedżery pakietów są opisane:
 * [yum (CentOS, Fedora lub RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
+* [Homebrew (OS X)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 
@@ -168,7 +169,7 @@ Większość użytkowników systemu OS X ze społeczności Rubiego używa narzę
 trzecich by zainstalować Rubiego. Ale są też menedżery pakietów wspierające
 Rubiego.
 
-Wiele osób w OS X używa [homebrew][homebrew] jako menedżera pakietów.
+Wiele osób w OS X używa [Homebrew][homebrew] jako menedżera pakietów.
 Bardzo łatwo jest zainstalować Rubiego:
 
 {% highlight sh %}
