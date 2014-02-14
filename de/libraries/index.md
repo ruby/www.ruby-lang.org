@@ -45,9 +45,13 @@ Repositories für Ruby-Projekte entwickelt. Sehr häufig findet auf GitHub
 die Entwicklung einer Bibliothek statt, während die Veröffentlichung
 als Gem auf RubyGems.org erfolgt.
 
-Das [Ruby Application Archive][6] (kurz: RAA) ist ein Verzeichnis
-von Ruby-Software aller Art, kategorisiert nach jeweiliger Funktion.
-Es wird jedoch nicht mehr so stark genutzt.
+[**The Ruby Toolbox**][6] (“Die Ruby-Werkzeugkiste”) ist ein Verzeichnis,
+das die Suche nach freien Ruby-Projekten erleichtert.
+Es verfügt über Kategorien für häufige Entwicklungsaufgaben und
+sammelt zahlreiche Informationen über die Projekte, wie Release- und
+Commit-Häufigkeit oder Abhängigkeiten. Die Projekte werden nach ihrer
+Beliebtheit bei RubyGems.org und GitHub bewertet.
+Die Suchfunktion erleichtert das Auffinden von geeigneten Projekten.
 
 ### Eine kleine Einführung in RubyGems
 
@@ -131,6 +135,6 @@ ein Werkzeug zur Verwaltung der Gem-Abhängigkeiten einer Ruby-Anwendung.
 [3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
 [5]: https://github.com/
-[6]: http://raa.ruby-lang.org/
+[6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/
 [9]: http://bundler.io/

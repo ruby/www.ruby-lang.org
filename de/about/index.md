@@ -45,10 +45,12 @@ für Diskussionen rund um Ruby, erreichte 2006 einen Spitzenwert von etwa
 da mit dem starken Anwachsen der Community zahlreiche kleinere Listen
 entstanden sind.
 
-Der [TIOBE-Index][tiobe], der die Verbreitung von Programmiersprachen misst,
-listet Ruby auf Platz 10 der populärsten Sprachen. Ein großer Teil
-dieses Wachstums ist der Beliebtheit von in Ruby geschriebener Software
-zu verdanken, insbesondere dem Web-Framework [Ruby on Rails][ror].
+Die meisten Indizes, die das Wachstum und die Beliebtheit von
+Programmiersprachen weltweit messen, listen Ruby unter den beliebtesten
+zehn Sprachen (wie zum Beispiel der [TIOBE-Index][tiobe]).
+Ein großer Teil dieses Wachstums ist der Beliebtheit von in Ruby
+geschriebener Software zu verdanken, insbesondere dem Web-Framework
+[Ruby on Rails][ror].
 
 Ruby ist außerdem [absolut frei]({{ site.license.url }}). Nicht nur kostenlos,
 sondern auch frei zu benutzen, zu kopieren, zu verändern und zu
@@ -191,6 +193,44 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
   entwickelt, arbeitet aber auf vielen UNIX-Varianten wie Mac OS X, auf
   Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, usw.
 
+### Alternative Ruby-Implementierungen
+
+Ruby als Sprache hat einige verschiedene Implementierungen.
+Diese Seite diskutiert die Referenzimplementierung **MRI** („Matz’
+Ruby-Interpreter“) oder **CRuby**, es gibt aber noch einige weitere.
+Oftmals sind diese in bestimmten Situationen nützlich, stellen spezielle
+Sprach- oder Umgebungsintergration zur Verfügung oder haben einfach
+spezielle Features, die MRI nicht hat.
+
+Hier ist eine Liste:
+
+* [JRuby][jruby] ist ein Ruby auf der JVM (Java Virtual Machine), das von
+  den optimierenden JIT-Compilern der JVM, ihrem Garbage Collector,
+  nebenläufigen Threads, diversen Tools und einer immensen Menge an
+  Programmbibliotheken profitiert.
+* [Rubinius][rubinius] ist ein „Ruby geschrieben in Ruby“. Aufgebaut auf der
+  LLVM stellt Rubinius eine gute virtuelle Maschine zur Verfügung, auf
+  der sogar andere Sprachen aufbauen. Ebenso wie JRuby besitzt es echt
+  nebenläufige Threads, ist jedoch im Gegensatz zu diesem kompatibel zur
+  C-API des MRI.
+* [MacRuby][macruby] ist stark integriert in Apples Cocoa-Framework für Mac
+  OS X, was ein leichtes Erstellen von Desktopanwendungen für Mac OS X
+  ermöglicht.
+* [mruby][mruby] ist eine schlanke Ruby-Implementierung, die
+  gelinkt und in Anwendungen eingebunden werden kann.
+  Die Entwicklung von mruby wird von Yukihiro “Matz” Matsumoto geleitet,
+  dem Schöpfer von Ruby.
+* [IronRuby][ironruby] integriert sich gut in die .NET-Plattform.
+* [MagLev][maglev] definiert sich selbst als „eine schnelle, stabile
+  Ruby-Implementierung mit integrierter Objektpersistenz und verteiltem
+  Shared Cache“.
+* [Cardinal][cardinal] ist ein „Ruby-Compiler für die
+  [Parrot][parrot] Virtual Machine“ (Perl 6).
+
+Einige der genannten Implementierungen, MRI eingeschlossen, folgen den
+Richtlinien von [RubySpec][rubyspec], einer „kompletten ausführbaren
+Spezifikation für die Programmiersprache Ruby“.
+
 ### Referenzen
 
 <sup>1</sup> Matz in der Ruby-Talk-Mailingliste am [12. Mai 2000][blade].
@@ -212,3 +252,12 @@ November 2001.
 [linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[jruby]: http://jruby.org
+[rubinius]: http://rubini.us
+[macruby]: http://www.macruby.org
+[mruby]: https://github.com/mruby/mruby
+[ironruby]: http://www.ironruby.net
+[maglev]: http://ruby.gemstone.com
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
+[rubyspec]: http://rubyspec.org
