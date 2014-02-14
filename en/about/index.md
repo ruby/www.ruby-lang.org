@@ -183,7 +183,7 @@ Ruby has a wealth of other features, among which are the following:
 
 ### Other Implementations of Ruby
 
-Ruby, as a language, has a few different implementations. This guide has
+Ruby, as a language, has a few different implementations. This page has
 been discussing the reference implementation, **MRI** (“Matz's Ruby
 Interpreter”) or **CRuby**, but there are also others.
 They are often useful in certain situations, provide extra
