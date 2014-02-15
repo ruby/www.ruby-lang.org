@@ -17,4 +17,4 @@ którzy nieznani zasługują na uznanie. W ciągu trzech tygodni, Ruby Heroes z
 poprzednich lat przejrzą nominacje i zdecydują kto powinien otrzymać
 nagrody (w ten sposób nie jest to konkurs popularności). Jednak twoje nominacje
 mają znaczenie, więc poświęć chwilę i rozpowszechnij wdzięczność.
-[Zagłosuj już dziś!](Http://rubyheroes.com/)
+[Zagłosuj już dziś!](http://rubyheroes.com/)
