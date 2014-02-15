@@ -15,4 +15,4 @@ Ruby Hero Awardでは過去6年間、コミュニティの中でその功績が�
 3週間で過去のすべての Ruby Hero たちが候補者を見て、誰がこの賞を受けるべきかを決定します。
 (人気投票で決めるわけではありません)
 あなたの指名は重要です。ぜひあなたの感謝の気持ちを広げましょう。
-[Vote today!](http://rubyheros.com/)
+[Vote today!](http://rubyheroes.com/)
