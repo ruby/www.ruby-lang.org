@@ -47,39 +47,28 @@ Their respective communities are very helpful, however.
 ### rbenv
 {: #rbenv}
 
-rbenv allows you to manage multiple installations of Ruby.
+[rbenv][rbenv] allows you to manage multiple installations of Ruby.
 It does not support installing Ruby, but there is a popular plugin
 named ruby-build to install Ruby.
 Both tools are available for OS X, Linux, or other UNIX-like operating systems.
-
-For the latest instructions on installing rbenv, check out the
-[rbenv website][rbenv].
-
-There is a similar tool named RVM, described in the next section.
-Check it out, too, and choose the one most comfortable for you.
 
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
-RVM allows you to install and manage multiple installations of Ruby
-on your system. It is available for OS X, Linux, or other UNIX-like
-operating systems.
-
-For the latest instructions on installing RVM, check out the
-[RVM website][rvm].
+[RVM][rvm] allows you to install and manage multiple installations of Ruby
+on your system. It can also manage different gemsets.
+It is available for OS X, Linux, or other UNIX-like operating systems.
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
 If you are on Windows, there is a great project to help you install Ruby:
-RubyInstaller. It gives you everything you need to set up a full
-Ruby development environment on Windows.
+[RubyInstaller][rubyinstaller]. It gives you everything you need to set up
+a full Ruby development environment on Windows.
 
-To use RubyInstaller, download it from the
-[RubyInstaller website][rubyinstaller].
-Then just use the installer, and you are done!
+Just download it, run it, and you are done!
 
 
 ### RailsInstaller and Ruby Stack
