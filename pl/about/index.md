@@ -43,10 +43,11 @@ tematy związane z Rubim, osiągnęła średnio ruch 200 wiadomości dziennie
 w 2006 roku. Zmalało to w ostatnich latach gdy część społeczności
 przeniosło dyskusje z jednej centralnej listy na wiele mniejszych grup.
 
-Wskaźnik [TIOBE indeks][tiobe], który mierzy rozwój języków programowania, umieszcza
-Rubiego na 9 miejscu wśród światowych języków programowania. Wiele owego
-wzrostu zawdzięcza Ruby popularności software napisanego przy jego użyciu,
-szczególnie frameworkowi [Ruby on Rails][ror].
+Ruby jest uplasowany wśród pierwszej dziesiątki na większości indeksów
+mierzących wzrost i popularność języków programowania na świecie (takich jak
+[indeks TIOBE][tiobe]). Wiele owego wzrostu zawdzięcza Ruby popularności
+oprogramowania napisanego przy jego użyciu, szczególnie frameworkowi
+[Ruby on Rails][ror].
 
 Ruby jest także [zupełnie darmowy]({{ site.license.url }}). Darmowe jest nie
 tylko korzystanie, ale również kopiowanie, modyfikowanie i
@@ -191,7 +192,7 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
 
 ### Inne implementacje Rubiego
 
-Ruby jako język ma kilka różnych implementacji. Ten poradnik omawia
+Ruby jako język ma kilka różnych implementacji. Ta strona omawia
 bazową implementację, **MRI** (“Matz's Ruby
 Interpreter”) lub **CRuby**, ale są inne.
 Często są użyteczne w niektórych sytuacjach, integrują się z innymi językami
