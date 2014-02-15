@@ -49,7 +49,7 @@ lang: ja
 
 RubyのSubversionやGitリポジトリについての情報は、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。
 
-Rubyのソースコードは、世界各国の[ミラーサイト](/en/downloads/mirrors/)からダウンロードできます。
+Rubyのソースコードは、世界各国の[ミラーサイト][mirrors]からダウンロードできます。
 お近くのミラーサイトをお使いください。
 
 ### Windows版Rubyバイナリ
@@ -71,6 +71,7 @@ Windows向けのバイナリが有志により配布されています。
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/
 [active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/

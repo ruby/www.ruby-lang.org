@@ -57,7 +57,7 @@ For information about the Ruby Subversion and Git repositories, see our
 [Ruby Core](/en/community/ruby-core/) page.
 
 The Ruby source is available from a worldwide set of
-[Mirror Sites](/en/downloads/mirrors/).
+[Mirror Sites][mirrors].
 Please try to use a mirror that is near you.
 
 
@@ -68,3 +68,4 @@ Please try to use a mirror that is near you.
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/

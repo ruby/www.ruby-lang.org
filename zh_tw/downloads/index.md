@@ -37,7 +37,7 @@ lang: zh_tw
 
 關於 Ruby Subversion 與 Git Repositories 的資訊，參見 [Ruby Core](/en/community/ruby-core/) 頁面。
 
-Ruby 原始碼可從世界各地的[鏡像站](/en/downloads/mirrors/)獲得。請嘗試離您最近的鏡像站。
+Ruby 原始碼可從世界各地的[鏡像站][mirrors]獲得。請嘗試離您最近的鏡像站。
 
 ### 第三方工具
 {: #third-party-tools}
@@ -144,6 +144,7 @@ MRI 與某些實作遵循 [RubySpec][28]，Ruby 程式語言的完整規格文�
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

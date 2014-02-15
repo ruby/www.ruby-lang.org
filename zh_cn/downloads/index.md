@@ -21,7 +21,7 @@ lang: zh_cn
 
 ### 镜像站
 
-在世界各地的[镜像站](/en/downloads/mirrors/)上面已经有 Ruby 的源代码了，你可以选择就近的地方下载。
+在世界各地的[镜像站][mirrors]上面已经有 Ruby 的源代码了，你可以选择就近的地方下载。
 
 ### Windows 系统
 
@@ -82,6 +82,7 @@ LightTPD, and MySQL on Tiger*][15] 将快速的教您启动和运行。
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/
 [5]: http://rubyinstaller.org/
 [6]: http://rubyforge.org/frs/download.php/29263/ruby186-26.exe
 [7]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.6-p111-i386-mswin32.zip

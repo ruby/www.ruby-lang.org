@@ -57,7 +57,7 @@ esserti di aiuto.
 Puoi trovare maggiori informazioni sui repository Subversion e Git di Ruby
 nella pagina [Ruby Core](/it/community/ruby-core/).
 
-Il codice sorgente di Ruby è disponibile tramite alcuni [siti mirror](/en/downloads/mirrors/) in
+Il codice sorgente di Ruby è disponibile tramite alcuni [siti mirror][mirrors] in
 giro per il mondo. Cerca di utilizzare il sito mirror più vicino a te.
 
 ### Strumenti di Terze Parti
@@ -233,6 +233,7 @@ di programmazione Ruby”.
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

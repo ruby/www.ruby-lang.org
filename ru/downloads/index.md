@@ -52,7 +52,7 @@ lang: ru
 посмотрите страницу о [ядре Ruby](/ru/community/ruby-core/).
 
 Исходный код Ruby доступен по всему миру на нескольких
-[зеркальных сайтах](/en/downloads/mirrors/).
+[зеркальных сайтах][mirrors].
 Пожалуйста, попробуйте использовать зеркало, которое находится
 недалеко от вас.
 
@@ -231,6 +231,7 @@ Ruby как язык имеет несколько разных имплемен
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

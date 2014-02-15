@@ -59,7 +59,7 @@ Aby uzyskać informacje na temat repozytorium Rubiego w Subversion i Git,
 zobacz stronę [Ruby Core](/en/community/ruby-core/).
 
 Źródła Rubiego są dostępne na światowych
-[stronach lustrzanych](/en/downloads/mirrors/).
+[stronach lustrzanych][mirrors].
 Spróbuj użyć jakiegoś blisko ciebie.
 
 
@@ -70,3 +70,4 @@ Spróbuj użyć jakiegoś blisko ciebie.
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/

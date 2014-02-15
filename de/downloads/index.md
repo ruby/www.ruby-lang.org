@@ -60,7 +60,7 @@ Weitergehende Informationen zum Subversion- und Git-Repository von Ruby
 sind unter [Ruby Core](/de/community/ruby-core/) zu finden.
 
 Der Ruby-Quellcode ist auch auf verschiedenen
-[Mirror-Seiten](/en/downloads/mirrors/) zu finden.
+[Mirror-Seiten][mirrors] zu finden.
 Bitte nutze einen Mirror in deiner Nähe.
 
 
@@ -71,3 +71,4 @@ Bitte nutze einen Mirror in deiner Nähe.
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/

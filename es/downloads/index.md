@@ -55,7 +55,7 @@ Para información sobre los repositorios de Subversion y Git, consulta
 nuestra página [Ruby core](/es/community/ruby-core/).
 
 El código fuente de Ruby está disponible desde un conjunto
-de [mirror sites](/en/downloads/mirrors/) a lo largo del mundo.
+de [mirror sites][mirrors] a lo largo del mundo.
 Intenta usar el mirror site más cerca de ti.
 
 ### Herramientas de terceros
@@ -236,6 +236,7 @@ una "completa especificación ejecutable para el lenguaje de programación Ruby"
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/
 [8]: http://rubyinstaller.org/

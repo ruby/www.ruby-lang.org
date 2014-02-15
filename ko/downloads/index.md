@@ -50,7 +50,7 @@ lang: ko
 
 루비 서브버전과 Git 저장소에 대한 정보는, [루비 코어](/ko/community/ruby-core/) 페이지를 읽어 보십시오.
 
-루비 소스는 전세계의 [미러 사이트](/en/downloads/mirrors/)에서 사용하실 수 있습니다.
+루비 소스는 전세계의 [미러 사이트][mirrors]에서 사용하실 수 있습니다.
 자신과 가까운 곳의 미러를 이용해 주십시오.
 
 
@@ -61,3 +61,4 @@ lang: ko
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
+[mirrors]: /en/downloads/mirrors/
