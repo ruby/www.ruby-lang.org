@@ -14,7 +14,7 @@ Sicherheitspatches versorgt.
   Zachary Scott ([@_zzak](https://twitter.com/_zzak))
   übernehmen die Wartung.
 * Nach Ablauf der 6-monatigen Maintenance-Periode können wir
-  weitere Commiters hinzufügen, um eine neuerliche Verängerung um 6
+  weitere Committer hinzufügen, um eine neuerliche Verängerung um 6
   Monate zu ermöglichen.
 
 Diese Verlängerung der Maintenance wird durch [Heroku][heroku]

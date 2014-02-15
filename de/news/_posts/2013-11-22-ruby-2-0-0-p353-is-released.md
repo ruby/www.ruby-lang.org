@@ -43,6 +43,6 @@ Sie können das Release wie folgt herunterladen:
 
 ## Veröffentlichungskommentar
 
-Viele Commiters, Tester und Nutzer, die Fehler gemeldet haben, halfen
+Viele Committer, Tester und Nutzer, die Fehler gemeldet haben, halfen
 mir bei der Veröffentlichung dieser Version. Vielen Dank für ihre
 Mitarbeit.

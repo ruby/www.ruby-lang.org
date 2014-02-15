@@ -41,5 +41,5 @@ für Details.
 
 ## Veröffentlichungskommentar
 
-Viele Leute (Commiters, Helfer und Fehlermelder) halfen mir bei der
+Viele Leute (Committer, Helfer und Fehlermelder) halfen mir bei der
 Veröffentlichung dieser Version. Vielen Dank!
