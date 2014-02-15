@@ -11,17 +11,19 @@ wersja to {{ site.downloads.stable.version }}. Pamiętaj aby przeczytać
 
 ### Sposoby instalacji Rubiego
 
-Mamy dostępne narzędzia dla każdej znaczącej platformy by zainstalować Rubiego:
+Mamy dostępnych wiele narzędzi dla każdej znaczącej platformy by zainstalować
+Rubiego:
 
 * dla maszyn z systemem Linux/UNIX możesz użyć systemowego menedżera pakietów
   lub narzędzi osób trzecich (rbenv lub RVM),
 * dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich (rbenv lub RVM),
 * dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller lub pik.
 
-Zobacz stronę [instalacja](/pl/installation/) po więcej szczegółów dotyczących
+Zobacz stronę [Instalacja](/pl/installation/) po więcej szczegółów dotyczących
 systemów zarządzania pakietami lub narzędzi osób trzecich.
 
-Oczywiście możesz zainstalować Rubiego z kodu źródłowego na większości platform.
+Oczywiście możesz zainstalować Rubiego z kodu źródłowego na wszystkich
+znaczących platformach.
 
 ### Kompilacja Rubiego — Kod źródłowy
 
@@ -30,8 +32,9 @@ znasz swój system i gdy potrzebujesz specyficznych ustawień dla swojego
 środowiska. Jest to także dobra opcja gdy nie ma dla twojej platformy
 innych przygotowanych pakietów.
 
-Jeśli masz problem z kompilacją Rubiego rozważ skorzystanie z narzędzi osób
-trzecich ze strony [instalacja](/pl/installation/). Mogą ci pomóc.
+Zobacz stronę [Instalacja](/pl/installation/) po więcej szczegółów dotyczących
+budowania Rubiego ze źródeł. Jeśli masz problem z kompilacją Rubiego rozważ
+skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
 
 * **Obecny stabilny:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
