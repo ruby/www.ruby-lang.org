@@ -40,8 +40,10 @@ namespace :new_post do
     url_title = 'short-title'
     title = 'Post Title'
 
-    creation_time = Time.now.utc
-    filename = creation_time.strftime("%Y-%m-%d-#{url_title}.md")
+    now = Time.now.utc
+    datetime = now.strftime("%Y-%m-%d %H:%M:%S %z")
+    date = now.strftime("%Y-%m-%d")
+    filename = "#{date}-#{url_title}.md"
     path = File.join(lang, 'news', '_posts', filename)
 
     content = <<-TEMPLATE.gsub(/^ */, '')
@@ -50,7 +52,7 @@ namespace :new_post do
       title: "#{title}"
       author: "Unknown Author"
       translator:
-      date: #{creation_time}
+      date: #{datetime}
       lang: #{lang}
       ---
 
