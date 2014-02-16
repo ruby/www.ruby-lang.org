@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.1.0-preview2 發佈了"
 author: "nurse"
 translator: "Juanito Fatas"
-date: 2013-11-22 22:00:00 UTC
+date: 2013-11-22 22:00:00 +0000
 lang: zh_tw
 ---
 

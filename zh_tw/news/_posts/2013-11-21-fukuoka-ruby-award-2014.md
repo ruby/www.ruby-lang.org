@@ -3,7 +3,7 @@ layout: news_post
 title: "2014 福岡 Ruby 大賽 ─ Matz 親自審視參賽作品！"
 author: "Fukuoka Ruby"
 translator: "Juanito Fatas"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: zh_tw
 ---
 

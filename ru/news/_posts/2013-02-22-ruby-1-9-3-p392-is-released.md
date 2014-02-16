@@ -3,7 +3,7 @@ layout: news_post
 title: "Вышел Ruby 1.9.3-p392"
 author: "usa"
 translator: "gazay"
-date: 2013-02-22 13:09:05 UTC
+date: 2013-02-22 13:09:05 +0000
 lang: ru
 ---
 

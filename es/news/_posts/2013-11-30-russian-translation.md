@@ -3,7 +3,7 @@ layout: news_post
 title: "Traducción de ruby-lang.org al Ruso"
 author: "Marcus Stollsteimer"
 translator: "Juan Pablo Guzmán & Fernando Perales"
-date: 2013-11-30 12:00:00 UTC
+date: 2013-11-30 12:00:00 +0000
 lang: es
 ---
 

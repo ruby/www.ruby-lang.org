@@ -3,7 +3,7 @@ layout: news_post
 title:  "开始使用 Fastly 分发源码"
 author: "hsbt"
 translator: "Andor Chen"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   zh_cn
 ---
 

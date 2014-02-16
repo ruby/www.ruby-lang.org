@@ -3,7 +3,7 @@ layout: news_post
 title: "Công bố trang chủ mới của ruby-lang.org"
 author: "Jean-Denis Vauguet"
 translator: "Trung Lê"
-date: 2013-06-12 12:00:00 UTC
+date: 2013-06-12 12:00:00 +0000
 lang: vi
 ---
 

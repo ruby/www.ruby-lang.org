@@ -2,7 +2,7 @@
 layout: news_post
 title: "RubyConf Taiwan 2010"
 author: "SJH"
-date: 2010-01-13 16:31:29 UTC
+date: 2010-01-13 16:31:29 +0000
 lang: zh_tw
 ---
 

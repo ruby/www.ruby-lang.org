@@ -3,7 +3,7 @@ layout: news_post
 title:  "www.ruby-lang.org 网站设计比赛"
 author: "hsbt"
 translator: "Andor Chen"
-date:   2013-09-28 23:30:00 UTC
+date:   2013-09-28 23:30:00 +0000
 lang:   zh_cn
 ---
 

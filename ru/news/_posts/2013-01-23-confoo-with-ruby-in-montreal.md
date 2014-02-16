@@ -3,7 +3,7 @@ layout: news_post
 title: "ConFoo с Ruby в Монреале"
 author: "James Edward Gray II"
 translator: "gazay"
-date: 2013-01-23 19:52:42 UTC
+date: 2013-01-23 19:52:42 +0000
 lang: ru
 ---
 

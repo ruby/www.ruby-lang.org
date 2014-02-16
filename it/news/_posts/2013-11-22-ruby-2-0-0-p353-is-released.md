@@ -3,7 +3,7 @@ layout: news_post
 title: "È stato rilasciato Ruby 2.0.0-p353"
 author: "nagachika"
 translator: "alepore"
-date: 2013-11-22 03:00:00 UTC
+date: 2013-11-22 03:00:00 +0000
 lang: it
 ---
 

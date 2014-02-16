@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p392 is released"
 author: "usa"
-date: 2013-02-22 13:09:05 UTC
+date: 2013-02-22 13:09:05 +0000
 lang: en
 ---
 

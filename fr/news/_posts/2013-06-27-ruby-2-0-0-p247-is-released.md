@@ -3,7 +3,7 @@ layout: news_post
 title: "Sortie de la version 2.0.0-p247 de Ruby"
 author: "nagachika"
 translator: "Bruno Michel"
-date: 2013-06-27 11:00:03 UTC
+date: 2013-06-27 11:00:03 +0000
 lang: fr
 ---
 

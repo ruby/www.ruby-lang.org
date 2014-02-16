@@ -3,7 +3,7 @@ layout: news_post
 title: "Gia hạn bảo trì vá bảo mật cho Ruby 1.8.7 và 1.9.2"
 author: "zzak"
 translator: "Trung Lê"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: vi
 ---
 

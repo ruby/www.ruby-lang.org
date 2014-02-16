@@ -3,7 +3,7 @@ layout: news_post
 title: "루비 2.0.0-p353이 릴리즈되었습니다"
 author: "nagachika"
 translator: "SeungKyun Nam"
-date: 2013-11-22 03:00:00 UTC
+date: 2013-11-22 03:00:00 +0000
 lang: ko
 ---
 

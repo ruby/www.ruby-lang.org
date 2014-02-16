@@ -3,7 +3,7 @@ layout: news_post
 title:  "We started distributing source packages via Fastly"
 author: "hsbt"
 translator: "Marcus Stollsteimer"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   en
 ---
 

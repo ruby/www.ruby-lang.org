@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf Taiwan 2014 の発表者募集が始まりました"
 author: "Juanito Fatas"
 translator: "hsbt"
-date: 2013-12-09 13:40:00 UTC
+date: 2013-12-09 13:40:00 +0000
 lang: ja
 ---
 

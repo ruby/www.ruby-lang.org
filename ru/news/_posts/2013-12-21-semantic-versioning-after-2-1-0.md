@@ -3,7 +3,7 @@ layout: news_post
 title: "Семантическое версионирование Ruby после 2.1.0"
 author: "zzak"
 translator: "Vlad Bokov"
-date: 2013-12-21 2:00:00 UTC
+date: 2013-12-21 2:00:00 +0000
 lang: ru
 ---
 

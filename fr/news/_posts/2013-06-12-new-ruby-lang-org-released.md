@@ -3,7 +3,7 @@ layout: news_post
 title: "Un tout nouveau site web pour Ruby !"
 author: "Jean-Denis Vauguet"
 translator:
-date: 2013-06-12 12:00:00 UTC
+date: 2013-06-12 12:00:00 +0000
 lang: fr
 ---
 

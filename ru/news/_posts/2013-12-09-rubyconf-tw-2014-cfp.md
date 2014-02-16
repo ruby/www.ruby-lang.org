@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf Тайвань 2014 открыта к подаче заявок"
 author: "Juanito Fatas"
 translator: "gazay"
-date: 2013-12-09 13:40:00 UTC
+date: 2013-12-09 13:40:00 +0000
 lang: ru
 ---
 

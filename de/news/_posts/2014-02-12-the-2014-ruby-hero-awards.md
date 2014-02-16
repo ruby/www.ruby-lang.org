@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby Hero Award 2014: Nominierungen beginnen"
 author: "Gregg Pollack"
 translator: "Florian Gilcher"
-date: 2014-02-12 14:02:03 UTC
+date: 2014-02-12 14:02:03 +0000
 lang: de
 ---
 

@@ -2,7 +2,7 @@
 layout: news_post
 title: "\"Call for Papers\" aperto per la Barcelona Ruby Conference"
 author: "Fabio Cevasco"
-date: 2013-03-03 14:00:51 UTC
+date: 2013-03-03 14:00:51 +0000
 lang: it
 ---
 

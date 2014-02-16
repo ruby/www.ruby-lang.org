@@ -3,7 +3,7 @@ layout: news_post
 title: "Новый сайт ruby-lang.org запущен"
 author: "Jean-Denis Vauguet"
 translator: "gazay"
-date: 2013-06-12 12:00:00 UTC
+date: 2013-06-12 12:00:00 +0000
 lang: ru
 ---
 

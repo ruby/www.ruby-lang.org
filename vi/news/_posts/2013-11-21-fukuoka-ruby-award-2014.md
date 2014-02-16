@@ -3,7 +3,7 @@ layout: news_post
 title: "Cuộc thi giải Fukuoka Ruby 2014 - Giám khảo bao gồm Matz"
 author: "Fukuoka Ruby"
 translator: "Trung Lê"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: vi
 ---
 

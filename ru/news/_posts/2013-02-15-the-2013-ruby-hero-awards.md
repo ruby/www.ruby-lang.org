@@ -3,7 +3,7 @@ layout: news_post
 title: "Награда Ruby-героев 2013"
 author: "James Edward Gray II"
 translator: "gazay"
-date: 2013-02-15 21:34:51 UTC
+date: 2013-02-15 21:34:51 +0000
 lang: ru
 ---
 

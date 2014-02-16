@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.9.3-p448 发布"
 author: "usa"
 translator: "Andor Chen"
-date: 2013-06-27 11:00:02 UTC
+date: 2013-06-27 11:00:02 +0000
 lang: zh_cn
 ---
 

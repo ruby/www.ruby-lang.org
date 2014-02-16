@@ -2,7 +2,7 @@
 layout: news_post
 title: "RuPy 2012 - piąta edycja konferencji niebawem"
 author: "hosiawak"
-date: 2012-10-22 11:10:37 UTC
+date: 2012-10-22 11:10:37 +0000
 lang: pl
 ---
 

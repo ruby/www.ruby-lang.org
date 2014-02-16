@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.0.0-rc2 veröffentlicht"
 author: "Quintus"
-date: 2013-02-08 20:27:03 UTC
+date: 2013-02-08 20:27:03 +0000
 lang: de
 ---
 

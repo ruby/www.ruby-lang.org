@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf India 2014의 제안 요청 및 티켓판매가 시작되었습니다!"
 author: "Manu S Ajith"
 translator: "SeungKyun Nam"
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: ko
 ---
 

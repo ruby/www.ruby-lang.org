@@ -3,7 +3,7 @@ layout: news_post
 title: "Перевод ruby-lang.org на вьетнамский язык"
 author: "Marcus Stollsteimer"
 translator: "Vlad Bokov"
-date: 2013-09-03 12:00:00 UTC
+date: 2013-09-03 12:00:00 +0000
 lang: ru
 ---
 

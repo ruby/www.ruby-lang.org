@@ -3,7 +3,7 @@ layout: news_post
 title:  "ConFoo 2014 está buscando conferencistas de Ruby"
 author: "afilina"
 translator: "David Padilla"
-date:   2013-08-29 16:00:00 UTC
+date:   2013-08-29 16:00:00 +0000
 lang:   es
 ---
 

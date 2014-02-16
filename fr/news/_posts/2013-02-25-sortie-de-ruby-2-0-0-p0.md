@@ -2,7 +2,7 @@
 layout: news_post
 title: "Sortie de Ruby 2.0.0-p0"
 author: "Jean-Denis Vauguet"
-date: 2013-02-25 13:47:57 UTC
+date: 2013-02-25 13:47:57 +0000
 lang: fr
 ---
 

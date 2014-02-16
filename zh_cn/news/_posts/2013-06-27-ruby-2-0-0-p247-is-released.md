@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.0.0-p247 发布"
 author: "nagachika"
 translator: "Andor Chen"
-date: 2013-06-27 11:00:03 UTC
+date: 2013-06-27 11:00:03 +0000
 lang: zh_cn
 ---
 

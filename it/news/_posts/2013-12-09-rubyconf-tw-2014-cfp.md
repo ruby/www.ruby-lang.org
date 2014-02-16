@@ -3,7 +3,7 @@ layout: news_post
 title: "L'invito a presentare proposte per RubyConf Taiwan 2014 è ora aperto"
 author: "Juanito Fatas"
 translator: "alepore"
-date: 2013-12-09 13:40:00 UTC
+date: 2013-12-09 13:40:00 +0000
 lang: it
 ---
 

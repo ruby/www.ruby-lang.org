@@ -3,7 +3,7 @@ layout: news_post
 title: "The RubyConf Taiwan 2014 Call For Proposals telah dibuka"
 author: "Juanito Fatas"
 translator: "gozali"
-date: 2013-12-09 13:40:00 UTC
+date: 2013-12-09 13:40:00 +0000
 lang: id
 ---
 

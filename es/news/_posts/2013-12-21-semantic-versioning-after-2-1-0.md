@@ -3,7 +3,7 @@ layout: news_post
 title: "Esquema de Semantic Versioning comenzando con Ruby 2.1.0"
 author: "zzak"
 translator: "David Padilla"
-date: 2013-12-21 2:00:00 UTC
+date: 2013-12-21 2:00:00 +0000
 lang: es
 ---
 

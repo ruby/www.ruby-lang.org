@@ -3,7 +3,7 @@ layout: news_post
 title: "Wydano Ruby 1.9.3-p448"
 author: "usa"
 translator: "crabonature"
-date: 2013-06-27 11:00:02 UTC
+date: 2013-06-27 11:00:02 +0000
 lang: pl
 ---
 

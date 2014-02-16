@@ -3,7 +3,7 @@ layout: news_post
 title:  "Konkurs na zaprojektowanie www.ruby-lang.org"
 author: "hsbt"
 translator: "crabonature"
-date:   2013-09-28 23:30:00 UTC
+date:   2013-09-28 23:30:00 +0000
 lang:   pl
 ---
 

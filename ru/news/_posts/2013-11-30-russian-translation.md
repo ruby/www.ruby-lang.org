@@ -3,7 +3,7 @@ layout: news_post
 title: "Перевод ruby-lang.org на русский"
 author: "Marcus Stollsteimer"
 translator: "gazay"
-date: 2013-11-30 12:00:00 UTC
+date: 2013-11-30 12:00:00 +0000
 lang: ru
 ---
 

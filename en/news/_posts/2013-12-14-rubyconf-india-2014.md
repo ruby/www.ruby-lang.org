@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf India 2014 Call For Proposals and Tickets Now Open!"
 author: "Manu S Ajith"
 translator:
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: en
 ---
 

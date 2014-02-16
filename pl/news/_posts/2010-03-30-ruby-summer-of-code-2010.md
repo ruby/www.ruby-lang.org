@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby Summer of Code 2010"
 author: "hosiawak"
-date: 2010-03-30 21:53:11 UTC
+date: 2010-03-30 21:53:11 +0000
 lang: pl
 ---
 

@@ -2,7 +2,7 @@
 layout: news_post
 title: "Inshoshi: Open-Source Rails, Social Networking Platform"
 author: "Hendy Irawan"
-date: 2008-05-08 04:32:50 UTC
+date: 2008-05-08 04:32:50 +0000
 lang: id
 ---
 

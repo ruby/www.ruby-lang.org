@@ -3,7 +3,7 @@ layout: news_post
 title: "루비 1.9.3-p484가 릴리즈되었습니다"
 author: "usa"
 translator: "SeungKyun Nam"
-date: 2013-11-22 04:00:00 UTC
+date: 2013-11-22 04:00:00 +0000
 lang: ko
 ---
 

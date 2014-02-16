@@ -2,7 +2,7 @@
 layout: news_post
 title: "ConFoo con Ruby a Montreal"
 author: "Fabio Cevasco"
-date: 2013-01-27 19:23:21 UTC
+date: 2013-01-27 19:23:21 +0000
 lang: it
 ---
 

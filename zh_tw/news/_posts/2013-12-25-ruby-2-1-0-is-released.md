@@ -3,7 +3,7 @@ layout: news_post
 title: "發佈 Ruby 2.1.0"
 author: "nurse"
 translator: "Juanito Fatas"
-date: 2013-12-25 16:00:00 UTC
+date: 2013-12-25 16:00:00 +0000
 lang: zh_tw
 ---
 

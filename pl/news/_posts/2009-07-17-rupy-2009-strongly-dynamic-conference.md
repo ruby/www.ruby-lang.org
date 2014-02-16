@@ -2,7 +2,7 @@
 layout: news_post
 title: "RuPy 2009 - Strongly Dynamic Conference"
 author: "Jaroslaw Zabiello"
-date: 2009-07-17 23:23:20 UTC
+date: 2009-07-17 23:23:20 +0000
 lang: pl
 ---
 

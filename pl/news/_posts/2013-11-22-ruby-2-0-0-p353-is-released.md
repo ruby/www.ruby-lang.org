@@ -3,7 +3,7 @@ layout: news_post
 title: "Wydano Ruby 2.0.0-p353"
 author: "nagachika"
 translator: "crabonature"
-date: 2013-11-22 03:00:00 UTC
+date: 2013-11-22 03:00:00 +0000
 lang: pl
 ---
 

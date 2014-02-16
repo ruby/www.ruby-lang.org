@@ -3,7 +3,7 @@ layout: news_post
 title: "Rozszerzenie utrzymania bezpieczeństwa Rubiego 1.8.7 i 1.9.2"
 author: "zzak"
 translator: "crabonature"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: pl
 ---
 

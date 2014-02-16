@@ -3,7 +3,7 @@ layout: news_post
 title: "The RubyConf Taiwan 2014 otwarte składanie propozycji oraz bilety"
 author: "Juanito Fatas"
 translator: "crabonature"
-date: 2013-12-09 13:40:00 UTC
+date: 2013-12-09 13:40:00 +0000
 lang: pl
 ---
 

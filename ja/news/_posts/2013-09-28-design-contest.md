@@ -3,7 +3,7 @@ layout: news_post
 title:  "www.ruby-lang.org のサイトデザイン募集"
 author: "hsbt"
 translator: "znz"
-date:   2013-09-28 23:30:00 UTC
+date:   2013-09-28 23:30:00 +0000
 lang:   ja
 ---
 

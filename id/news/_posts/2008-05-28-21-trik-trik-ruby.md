@@ -2,7 +2,7 @@
 layout: news_post
 title: "21 Trik-Trik Ruby"
 author: "Arie Kusuma Atmaja"
-date: 2008-05-28 16:05:39 UTC
+date: 2008-05-28 16:05:39 +0000
 lang: id
 ---
 

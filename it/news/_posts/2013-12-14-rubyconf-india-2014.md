@@ -3,7 +3,7 @@ layout: news_post
 title: "Invito a presentare proposte e biglietti per RubyConf India 2014!"
 author: "Manu S Ajith"
 translator: "Alessandro Lepore"
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: it
 ---
 

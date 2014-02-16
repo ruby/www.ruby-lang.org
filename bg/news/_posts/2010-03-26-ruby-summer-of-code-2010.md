@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby Summer of Code 2010"
 author: "Mitko Kostov"
-date: 2010-03-26 07:46:24 UTC
+date: 2010-03-26 07:46:24 +0000
 lang: bg
 ---
 

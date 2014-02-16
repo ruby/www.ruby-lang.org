@@ -2,7 +2,7 @@
 layout: news_post
 title: "MountainWest RubyConf 2009"
 author: "Unknown Author"
-date: 2009-02-04 11:55:44 UTC
+date: 2009-02-04 11:55:44 +0000
 lang: pl
 ---
 

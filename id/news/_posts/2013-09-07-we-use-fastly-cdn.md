@@ -3,7 +3,7 @@ layout: news_post
 title:  "Kami mulai mendistribusikan paket melalui Fastly"
 author: "hsbt"
 translator: "gozali"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   id
 ---
 

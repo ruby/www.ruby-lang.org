@@ -2,7 +2,7 @@
 layout: news_post
 title: "Call for Papers für die Barcelona Ruby Conference eröffnet"
 author: "Quintus"
-date: 2013-02-17 20:30:30 UTC
+date: 2013-02-17 20:30:30 +0000
 lang: de
 ---
 

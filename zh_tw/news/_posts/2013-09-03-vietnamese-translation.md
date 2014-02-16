@@ -3,7 +3,7 @@ layout: news_post
 title: "ruby-lang.org 越南文版本的官網"
 author: "Marcus Stollsteimer"
 translator: "Juanito Fatas"
-date: 2013-09-03 12:00:00 UTC
+date: 2013-09-03 12:00:00 +0000
 lang: zh_tw
 ---
 

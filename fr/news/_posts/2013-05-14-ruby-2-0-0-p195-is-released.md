@@ -3,7 +3,7 @@ layout: news_post
 title: "Sortie de Ruby 2.0.0-p195"
 author: "nagachika"
 translator: "Jean-Denis Vauguet"
-date: 2013-05-14 13:00:01 UTC
+date: 2013-05-14 13:00:01 +0000
 lang: fr
 ---
 

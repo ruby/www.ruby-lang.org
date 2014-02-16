@@ -2,7 +2,7 @@
 layout: news_post
 title: "Barcelona Ruby Conference 2013"
 author: "Manuel Ramos Caro"
-date: 2013-02-23 00:07:38 UTC
+date: 2013-02-23 00:07:38 +0000
 lang: es
 ---
 

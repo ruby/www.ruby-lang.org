@@ -2,7 +2,7 @@
 layout: news_post
 title: "Liberado Ruby 2.0.0-p0"
 author: "Manuel Ramos Caro"
-date: 2013-02-25 23:25:50 UTC
+date: 2013-02-25 23:25:50 +0000
 lang: es
 ---
 

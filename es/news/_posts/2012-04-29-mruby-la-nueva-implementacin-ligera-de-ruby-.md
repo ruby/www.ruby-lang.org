@@ -2,7 +2,7 @@
 layout: news_post
 title: "MRuby: La nueva implementación ligera de Ruby."
 author: "Manuel Ramos Caro"
-date: 2012-04-29 01:04:54 UTC
+date: 2012-04-29 01:04:54 +0000
 lang: es
 ---
 

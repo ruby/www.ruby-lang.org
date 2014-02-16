@@ -3,7 +3,7 @@ layout: news_post
 title: "Tłumaczenie ruby-lang.org na język wietnamski"
 author: "Marcus Stollsteimer"
 translator: "crabonature"
-date: 2013-09-03 12:00:00 UTC
+date: 2013-09-03 12:00:00 +0000
 lang: pl
 ---
 

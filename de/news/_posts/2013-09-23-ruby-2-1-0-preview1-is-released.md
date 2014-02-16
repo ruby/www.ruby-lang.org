@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.1.0-preview1 veröffentlicht"
 author: "nurse"
 translator: "Marcus Stollsteimer"
-date: 2013-09-23 07:00:00 UTC
+date: 2013-09-23 07:00:00 +0000
 lang: de
 ---
 

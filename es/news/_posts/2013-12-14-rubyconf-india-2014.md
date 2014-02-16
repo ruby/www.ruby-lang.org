@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf India 2014: Convocatoria de propuestas y boletos ¡ya abiertas!"
 author: "Manu S Ajith"
 translator: "Juan Pablo Guzmán & Fernando Perales"
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: es
 ---
 

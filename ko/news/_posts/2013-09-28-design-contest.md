@@ -4,7 +4,7 @@ title:  "Design Contest for www.ruby-lang.org"
 title:  "www.ruby-lang.org를 위한 디자인 공모전"
 author: "hsbt"
 translator: "SeungKyun Nam"
-date:   2013-09-28 23:30:00 UTC
+date:   2013-09-28 23:30:00 +0000
 lang:   ko 
 ---
 

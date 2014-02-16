@@ -3,7 +3,7 @@ layout: news_post
 title: "Call for Papers untuk Konferensi Ruby Barcelona Dibuka"
 author: "James Edward Gray II"
 translator: "catcyborg"
-date: 2013-02-16 14:47:15 UTC
+date: 2013-02-16 14:47:15 +0000
 lang: id
 ---
 

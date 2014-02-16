@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.8.7-p374 发布"
 author: "hsbt"
 translator: "Andor Chen"
-date: 2013-06-27 11:00:01 UTC
+date: 2013-06-27 11:00:01 +0000
 lang: zh_cn
 ---
 

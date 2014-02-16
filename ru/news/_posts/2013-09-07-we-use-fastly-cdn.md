@@ -3,7 +3,7 @@ layout: news_post
 title:  "Теперь исходный код распространяется через Fastly"
 author: "hsbt"
 translator: "Vlad Bokov"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   ru
 ---
 

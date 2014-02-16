@@ -3,7 +3,7 @@ layout: news_post
 title:  "ConFoo 2014 sucht Ruby-Speaker"
 author: "afilina"
 translator: "Quintus"
-date:   2013-08-29 16:00:00 UTC
+date:   2013-08-29 16:00:00 +0000
 lang:   de
 ---
 

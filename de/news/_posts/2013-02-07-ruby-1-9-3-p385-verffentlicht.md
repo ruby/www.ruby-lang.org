@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p385 veröffentlicht"
 author: "Quintus"
-date: 2013-02-07 20:00:11 UTC
+date: 2013-02-07 20:00:11 +0000
 lang: de
 ---
 

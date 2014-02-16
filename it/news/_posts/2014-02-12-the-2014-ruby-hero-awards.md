@@ -3,7 +3,7 @@ layout: news_post
 title: "Nominations per Ruby Hero Award 2014"
 author: "Gregg Pollack"
 translator: "alepore"
-date: 2014-02-12 14:02:03 UTC
+date: 2014-02-12 14:02:03 +0000
 lang: it
 ---
 

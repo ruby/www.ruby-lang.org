@@ -3,7 +3,7 @@ layout: news_post
 title:  "www.ruby-lang.org 設計大賽"
 author: "hsbt"
 translator: "Juanito Fatas"
-date:   2013-09-28 23:30:00 UTC
+date:   2013-09-28 23:30:00 +0000
 lang:   zh_tw
 ---
 

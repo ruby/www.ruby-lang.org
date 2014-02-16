@@ -2,7 +2,7 @@
 layout: news_post
 title: "Sortie de la version 1.9.3-p374 de Ruby"
 author: "Bruno Michel"
-date: 2013-01-19 14:17:55 UTC
+date: 2013-01-19 14:17:55 +0000
 lang: fr
 ---
 

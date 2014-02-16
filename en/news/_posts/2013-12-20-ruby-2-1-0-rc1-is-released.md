@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.1.0-rc1 is released"
 author: "nurse"
 translator:
-date: 2013-12-20 16:53:05 UTC
+date: 2013-12-20 16:53:05 +0000
 lang: en
 ---
 

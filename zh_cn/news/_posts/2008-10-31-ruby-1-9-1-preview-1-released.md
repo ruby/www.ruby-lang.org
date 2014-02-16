@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.1-preview 1 发布 - Ruby 官方网站"
 author: "Xpol Wan"
-date: 2008-10-31 02:20:21 UTC
+date: 2008-10-31 02:20:21 +0000
 lang: zh_cn
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title:  "ConFoo 2014 poszukuje prelengentów Rubiego"
 author: "afilina"
 translator: "crabonature"
-date:   2013-08-29 16:00:00 UTC
+date:   2013-08-29 16:00:00 +0000
 lang:   pl
 ---
 

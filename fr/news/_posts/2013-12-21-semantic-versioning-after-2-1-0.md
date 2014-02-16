@@ -3,7 +3,7 @@ layout: news_post
 title: "Versionnage sémantique à partir de Ruby 2.1.0"
 author: "zzak"
 translator: "Geoffrey Roguelon"
-date: 2013-12-21 2:00:00 UTC
+date: 2013-12-21 2:00:00 +0000
 lang: fr
 ---
 

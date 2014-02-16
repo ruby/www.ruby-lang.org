@@ -3,7 +3,7 @@ layout: news_post
 title:  "開始採用 Fastly 來發佈原始碼"
 author: "hsbt"
 translator: "Juanito Fatas"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   zh_tw
 ---
 

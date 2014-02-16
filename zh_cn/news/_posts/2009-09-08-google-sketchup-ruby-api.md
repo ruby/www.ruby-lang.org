@@ -2,7 +2,7 @@
 layout: news_post
 title: "Google SketchUp Ruby API - Ruby 官方网站"
 author: "XiaoBo Liu"
-date: 2009-09-08 14:54:49 UTC
+date: 2009-09-08 14:54:49 +0000
 lang: zh_cn
 ---
 

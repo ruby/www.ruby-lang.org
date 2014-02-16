@@ -3,7 +3,7 @@ layout: news_post
 title:  "Zaczęliśmy dystrybuować pakiety źródłowe poprzez Fastly"
 author: "hsbt"
 translator: "crabonature"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   pl
 ---
 

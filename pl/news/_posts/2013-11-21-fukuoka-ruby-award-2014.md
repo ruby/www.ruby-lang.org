@@ -3,7 +3,7 @@ layout: news_post
 title: "2014 Fukuoka Ruby Award Competition - Zgłoszenia oceniane przez Matza"
 author: "Fukuoka Ruby"
 translator: "crabonature"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: pl
 ---
 

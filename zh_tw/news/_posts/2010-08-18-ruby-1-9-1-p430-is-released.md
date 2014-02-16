@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.1-p430 is released"
 author: "SJH"
-date: 2010-08-18 16:19:09 UTC
+date: 2010-08-18 16:19:09 +0000
 lang: zh_tw
 ---
 

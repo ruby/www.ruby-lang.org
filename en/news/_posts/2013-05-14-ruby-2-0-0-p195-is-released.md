@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.0.0-p195 is released"
 author: "nagachika"
 translator:
-date: 2013-05-14 13:00:01 UTC
+date: 2013-05-14 13:00:01 +0000
 lang: en
 ---
 

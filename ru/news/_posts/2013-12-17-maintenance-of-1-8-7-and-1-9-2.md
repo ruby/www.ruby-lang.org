@@ -3,7 +3,7 @@ layout: news_post
 title: "Расширенная поддержка безопасности для Ruby 1.8.7 и 1.9.2"
 author: "zzak"
 translator: "Vlad Bokov"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: ru
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf India 2014 開放投稿，現正售票中！"
 author: "Manu S Ajith"
 translator: "Juanito Fatas"
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: zh_tw
 ---
 

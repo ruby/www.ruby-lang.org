@@ -3,7 +3,7 @@ layout: news_post
 title:  "Service issue of ruby-lang.org"
 author: "hsbt"
 translator: "antipop"
-date:   2013-08-06 04:00:00 UTC
+date:   2013-08-06 04:00:00 +0000
 lang:   en
 ---
 

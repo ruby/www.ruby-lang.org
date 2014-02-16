@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.0.0-p0 发布"
 author: "Yusuke Endoh"
 translator: "Andor Chen / Daniel Bovensiepen"
-date: 2013-02-24 09:06:22 UTC
+date: 2013-02-24 09:06:22 +0000
 lang: zh_cn
 ---
 

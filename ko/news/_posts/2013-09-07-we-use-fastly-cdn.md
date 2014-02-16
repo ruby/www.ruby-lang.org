@@ -3,7 +3,7 @@ layout: news_post
 title:  "Fastly를 통한 소스 패키지 배포를 시작했습니다"
 author: "hsbt"
 translator: "SeungKyun Nam"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   ko
 ---
 

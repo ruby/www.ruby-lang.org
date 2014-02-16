@@ -2,7 +2,7 @@
 layout: news_post
 title: "RuPy 2011 już za dwa miesiące!"
 author: "hosiawak"
-date: 2011-08-17 08:04:22 UTC
+date: 2011-08-17 08:04:22 +0000
 lang: pl
 ---
 

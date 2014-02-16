@@ -3,7 +3,7 @@ layout: news_post
 title:  "Chúng tôi bắt đầu phân phối gói thông qua Fastly"
 author: "hsbt"
 translator: "Trung Lê"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   vi
 ---
 

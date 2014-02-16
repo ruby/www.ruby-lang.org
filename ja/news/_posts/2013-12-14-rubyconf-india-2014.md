@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf India 2014 の発表募集とチケット発売の開始!"
 author: "Manu S Ajith"
 translator: "hsbt"
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: ja
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title: "Sortie de la version 2.1.0 de Ruby"
 author: "nurse"
 translator: "Geoffrey Roguelon"
-date: 2013-12-25 16:00:00 UTC
+date: 2013-12-25 16:00:00 +0000
 lang: fr
 ---
 

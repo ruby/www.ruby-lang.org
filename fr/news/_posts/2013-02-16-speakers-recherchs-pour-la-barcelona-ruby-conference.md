@@ -2,7 +2,7 @@
 layout: news_post
 title: "Speakers recherchés pour la Barcelona Ruby Conference"
 author: "Jean-Denis Vauguet"
-date: 2013-02-16 16:45:43 UTC
+date: 2013-02-16 16:45:43 +0000
 lang: fr
 ---
 

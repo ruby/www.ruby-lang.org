@@ -2,7 +2,7 @@
 layout: news_post
 title: "Membuat Rack di atas JRuby"
 author: "Hendy Irawan"
-date: 2008-05-12 03:52:50 UTC
+date: 2008-05-12 03:52:50 +0000
 lang: id
 ---
 

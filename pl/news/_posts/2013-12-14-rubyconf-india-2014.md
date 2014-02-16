@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf India 2014 otwarte składanie propozycji oraz bilety!"
 author: "Manu S Ajith"
 translator: "crabonature"
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: pl
 ---
 

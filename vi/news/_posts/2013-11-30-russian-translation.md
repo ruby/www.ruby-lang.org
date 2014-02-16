@@ -3,7 +3,7 @@ layout: news_post
 title: "Bản địa hoá tiếng Nga của ruby-lang.org"
 author: "Marcus Stollsteimer"
 translator: "Trung Lê"
-date: 2013-11-30 12:00:00 UTC
+date: 2013-11-30 12:00:00 +0000
 lang: vi
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.1.0 以降のセマンティックバージョニングについて"
 author: "zzak"
 translator: "makimoto"
-date: 2013-12-21 2:00:00 UTC
+date: 2013-12-21 2:00:00 +0000
 lang: ja
 ---
 Ruby 2.1.0 以降、[Semantic Versioning](http://semver.org/) ([日本語訳](http://shijimiii.info/technical-memo/semver/))

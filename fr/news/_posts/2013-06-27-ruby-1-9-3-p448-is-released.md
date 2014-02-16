@@ -3,7 +3,7 @@ layout: news_post
 title: "Sortie de la version 1.9.3-p448 de Ruby"
 author: "usa"
 translator: "Bruno Michel"
-date: 2013-06-27 11:00:02 UTC
+date: 2013-06-27 11:00:02 +0000
 lang: fr
 ---
 

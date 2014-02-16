@@ -2,7 +2,7 @@
 layout: news_post
 title: "The 2013 Ruby Hero Awards"
 author: "James Edward Gray II"
-date: 2013-02-15 21:34:51 UTC
+date: 2013-02-15 21:34:51 +0000
 lang: en
 ---
 

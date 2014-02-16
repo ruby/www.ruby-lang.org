@@ -3,7 +3,7 @@ layout: news_post
 title: "Liberado Ruby 1.8.7-p374"
 author: "hsbt"
 translator: "David Padilla"
-date: 2013-06-27 11:00:01 UTC
+date: 2013-06-27 11:00:01 +0000
 lang: es
 ---
 

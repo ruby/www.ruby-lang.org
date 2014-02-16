@@ -3,7 +3,7 @@ layout: news_post
 title: "Liberado Ruby 2.1.0-rc1"
 author: "nurse"
 translator: "David Padilla"
-date: 2013-12-20 16:53:05 UTC
+date: 2013-12-20 16:53:05 +0000
 lang: es
 ---
 

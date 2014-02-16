@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0045号 発行"
 author: "hokkai7go"
-date: 2013-12-21 12:00:00 UTC
+date: 2013-12-21 12:00:00 +0000
 lang: ja
 ---
 

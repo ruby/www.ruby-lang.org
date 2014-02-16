@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.8.7 與 1.9.2 延長安全性維護時間"
 author: "zzak"
 translator: "Juanito Fatas"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: zh_tw
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title:  "Конкурс на лучший дизайн для www.ruby-lang.org"
 author: "hsbt"
 translator: "Vlad Bokov"
-date:   2013-09-28 23:30:00 UTC
+date:   2013-09-28 23:30:00 +0000
 lang:   ru
 ---
 

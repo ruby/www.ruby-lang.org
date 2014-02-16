@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.8.7과 1.9.2의 보안 메인터넌스 연장"
 author: "zzak"
 translator: "SeungKyun Nam"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: ko
 ---
 

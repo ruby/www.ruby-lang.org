@@ -3,7 +3,7 @@ layout: news_post
 title: "Concurso por el reconocimiento de Ruby Fukuoka 2014 - La mejor propuesta será elegida por Matz"
 author: "Fukuoka Ruby"
 translator: "David Padilla"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: es
 ---
 

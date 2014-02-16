@@ -3,7 +3,7 @@ layout: news_post
 title: "Wydano Ruby 2.1.0-rc1"
 author: "nurse"
 translator: "crabonature"
-date: 2013-12-20 16:53:05 UTC
+date: 2013-12-20 16:53:05 +0000
 lang: pl
 ---
 

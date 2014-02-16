@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby Hero Awards 2013"
 author: "Fabio Cevasco"
-date: 2013-03-03 13:52:20 UTC
+date: 2013-03-03 13:52:20 +0000
 lang: it
 ---
 

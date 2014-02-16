@@ -3,7 +3,7 @@ layout: news_post
 title: "Wydano Ruby 2.0.0-p0"
 author: "Yusuke Endoh"
 translator: "crabonature"
-date: 2013-02-24 09:06:22 UTC
+date: 2013-02-24 09:06:22 +0000
 lang: pl
 ---
 

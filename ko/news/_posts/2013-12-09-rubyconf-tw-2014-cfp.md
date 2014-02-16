@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyConf Taiwan 2014 제안 요청이 시작되었습니다"
 author: "Juanito Fatas"
 translator: "SeungKyun Nam"
-date: 2013-12-09 13:40:00 UTC
+date: 2013-12-09 13:40:00 +0000
 lang: ko
 ---
 

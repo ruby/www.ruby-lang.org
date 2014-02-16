@@ -3,7 +3,7 @@ layout: news_post
 title: "Fukuoka Ruby Award Competition 2014 — Vorschläge werden von Matz bewertet"
 author: "Fukuoka Ruby"
 translator: "Quintus"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: de
 ---
 

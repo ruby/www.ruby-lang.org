@@ -3,7 +3,7 @@ layout: news_post
 title: "Security Maintenance Extension of Ruby 1.8.7 and 1.9.2"
 author: "zzak"
 translator:
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: en
 ---
 

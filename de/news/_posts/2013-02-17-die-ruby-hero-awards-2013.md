@@ -2,7 +2,7 @@
 layout: news_post
 title: "Die Ruby-Hero-Awards 2013"
 author: "Quintus"
-date: 2013-02-17 19:44:25 UTC
+date: 2013-02-17 19:44:25 +0000
 lang: de
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title: "Kompetisi Penghargaan Fukuoka Ruby 2014 - Entri akan dinilai oleh Matz"
 author: "Fukuoka Ruby"
 translator: "gozali"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: id
 ---
 

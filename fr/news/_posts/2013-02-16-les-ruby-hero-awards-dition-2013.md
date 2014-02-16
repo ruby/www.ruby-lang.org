@@ -2,7 +2,7 @@
 layout: news_post
 title: "Les Ruby Hero Awards, édition 2013"
 author: "Jean-Denis Vauguet"
-date: 2013-02-16 11:58:45 UTC
+date: 2013-02-16 11:58:45 +0000
 lang: fr
 ---
 

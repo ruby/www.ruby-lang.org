@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.1-p430 릴리즈"
 author: "Moru"
-date: 2010-08-16 13:35:01 UTC
+date: 2010-08-16 13:35:01 +0000
 lang: ko
 ---
 

@@ -2,7 +2,7 @@
 layout: news_post
 title: "Sortie de la version 1.9.3-p362 de Ruby"
 author: "Bruno Michel"
-date: 2012-12-27 22:13:34 UTC
+date: 2012-12-27 22:13:34 +0000
 lang: fr
 ---
 

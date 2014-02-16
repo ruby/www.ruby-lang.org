@@ -3,7 +3,7 @@ layout: news_post
 title: "Вышел Ruby 2.0.0-p247"
 author: "nagachika"
 translator: "gazay"
-date: 2013-06-27 11:00:03 UTC
+date: 2013-06-27 11:00:03 +0000
 lang: ru
 ---
 

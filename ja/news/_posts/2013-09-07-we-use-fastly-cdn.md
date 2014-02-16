@@ -3,7 +3,7 @@ layout: news_post
 title:  "Fastly によるパッケージ配布を開始しました"
 author: "hsbt"
 translator:
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   ja
 ---
 

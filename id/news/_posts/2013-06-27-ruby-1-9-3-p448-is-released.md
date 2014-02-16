@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.9.3-p448 Dirilis"
 author: "usa"
 translator: "catcyborg"
-date: 2013-06-27 11:00:02 UTC
+date: 2013-06-27 11:00:02 +0000
 lang: id
 ---
 

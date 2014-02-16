@@ -3,7 +3,7 @@ layout: news_post
 title:  "Конференции ConFoo 2014 нужны Ruby спикеры"
 author: "afilina"
 translator: "gazay"
-date:   2013-08-29 16:00:00 UTC
+date:   2013-08-29 16:00:00 +0000
 lang:   ru
 ---
 

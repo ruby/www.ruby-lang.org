@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.9.3-p385 Diluncurkan"
 author: "usa"
 translator: "catcyborg"
-date: 2013-02-06 13:35:58 UTC
+date: 2013-02-06 13:35:58 +0000
 lang: id
 ---
 

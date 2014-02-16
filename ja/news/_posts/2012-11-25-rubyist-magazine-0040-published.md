@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0040号 発行"
 author: "maki"
-date: 2012-11-25 15:22:29 UTC
+date: 2012-11-25 15:22:29 +0000
 lang: ja
 ---
 

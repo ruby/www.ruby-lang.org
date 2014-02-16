@@ -3,7 +3,7 @@ layout: news_post
 title: "第6回フクオカRuby大賞(2014) 応募のお知らせ"
 author: "Fukuoka Ruby"
 translator: "Go Takahashi"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: ja
 ---
 

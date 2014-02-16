@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby中的多个安全漏洞 - Ruby 官方网站"
 author: "Xpol Wan"
-date: 2008-08-08 04:40:03 UTC
+date: 2008-08-08 04:40:03 +0000
 lang: zh_cn
 ---
 

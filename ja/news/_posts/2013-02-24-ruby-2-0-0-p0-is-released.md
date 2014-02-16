@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.0.0-p0 リリース"
 author: "Yusuke Endoh"
-date: 2013-02-24 09:06:12 UTC
+date: 2013-02-24 09:06:12 +0000
 lang: ja
 ---
 

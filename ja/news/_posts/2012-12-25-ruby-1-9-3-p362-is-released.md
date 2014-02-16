@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p362 リリース"
 author: "usa"
-date: 2012-12-25 16:03:40 UTC
+date: 2012-12-25 16:03:40 +0000
 lang: ja
 ---
 

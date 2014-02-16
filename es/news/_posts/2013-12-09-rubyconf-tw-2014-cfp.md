@@ -3,7 +3,7 @@ layout: news_post
 title: "La convocatoria de propuestas para RubyConf Taiwan 2014 ya está abierta"
 author: "Juanito Fatas"
 translator: "Juan Pablo Guzmán & Fernando Perales"
-date: 2013-12-09 13:40:00 UTC
+date: 2013-12-09 13:40:00 +0000
 lang: es
 ---
 

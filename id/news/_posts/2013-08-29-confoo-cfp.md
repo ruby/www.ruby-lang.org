@@ -3,7 +3,7 @@ layout: news_post
 title:  "ConFoo 2014 mencari pembicara Ruby"
 author: "afilina"
 translator: "gozali"
-date:   2013-08-29 16:00:00 UTC
+date:   2013-08-29 16:00:00 +0000
 lang:   id
 ---
 

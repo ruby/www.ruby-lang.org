@@ -3,7 +3,7 @@ layout: news_post
 title: "Việt hoá trang ruby-lang.org"
 author: "Marcus Stollsteimer"
 translator: "Trung Lê"
-date: 2013-09-03 12:00:00 UTC
+date: 2013-09-03 12:00:00 +0000
 lang: vi
 ---
 

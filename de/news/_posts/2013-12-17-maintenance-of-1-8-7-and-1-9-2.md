@@ -3,7 +3,7 @@ layout: news_post
 title: "Verlängerung der Sicherheits-Maintenance von Ruby 1.8.7 und 1.9.2"
 author: "zzak"
 translator: "Quintus"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: de
 ---
 

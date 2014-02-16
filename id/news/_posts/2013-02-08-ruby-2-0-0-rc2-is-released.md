@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.0.0-rc2 Diluncurkan"
 author: "Yusuke Endoh"
 translator: "catcyborg"
-date: 2013-02-08 14:34:17 UTC
+date: 2013-02-08 14:34:17 +0000
 lang: id
 ---
 

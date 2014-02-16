@@ -3,7 +3,7 @@ layout: news_post
 title: "Terjemahan Vietnam dari ruby-lang.org"
 author: "Marcus Stollsteimer"
 translator: "gozali"
-date: 2013-09-03 12:00:00 UTC
+date: 2013-09-03 12:00:00 +0000
 lang: id
 ---
 

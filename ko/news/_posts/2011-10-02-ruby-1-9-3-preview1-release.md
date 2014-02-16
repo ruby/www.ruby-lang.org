@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3 preview1 릴리즈"
 author: "Moru"
-date: 2011-10-02 04:28:42 UTC
+date: 2011-10-02 04:28:42 +0000
 lang: ko
 ---
 

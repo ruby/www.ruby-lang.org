@@ -3,7 +3,7 @@ layout: news_post
 title: "全新的 ruby-lang.org 网站发布了"
 author: "Jean-Denis Vauguet"
 translator: "Andor Chen"
-date: 2013-06-12 12:00:00 UTC
+date: 2013-06-12 12:00:00 +0000
 lang: zh_cn
 ---
 

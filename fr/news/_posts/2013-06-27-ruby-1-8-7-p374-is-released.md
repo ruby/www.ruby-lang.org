@@ -4,7 +4,7 @@ title: "Ruby 1.8.7-p374 is released"
 title: "Sortie de la version 1.8.7-p374 de Ruby"
 author: "hsbt"
 translator: "Bruno Michel"
-date: 2013-06-27 11:00:01 UTC
+date: 2013-06-27 11:00:01 +0000
 lang: fr
 ---
 

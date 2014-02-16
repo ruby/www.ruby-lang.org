@@ -4,7 +4,7 @@ title: "2014 Fukuoka Ruby Award Competition -Entries to be judged by Matz"
 title: "2014 후쿠오카 루비 어워드 경진대회 -참가작은 Matz가 심사"
 author: "Fukuoka Ruby"
 translator: "SeungKyun Nam"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: ko
 ---
 

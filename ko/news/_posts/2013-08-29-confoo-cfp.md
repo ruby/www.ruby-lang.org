@@ -3,7 +3,7 @@ layout: news_post
 title:  "ConFoo 2014 루비 스피커를 찾고 있습니다"
 author: "afilina"
 translator: "SeungKyun Nam"
-date:   2013-08-29 16:00:00 UTC
+date:   2013-08-29 16:00:00 +0000
 lang:   ko
 ---
 

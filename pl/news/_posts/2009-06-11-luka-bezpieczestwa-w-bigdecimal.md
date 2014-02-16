@@ -2,7 +2,7 @@
 layout: news_post
 title: "Luka bezpieczeństwa w BigDecimal"
 author: "hosiawak"
-date: 2009-06-11 21:09:09 UTC
+date: 2009-06-11 21:09:09 +0000
 lang: pl
 ---
 

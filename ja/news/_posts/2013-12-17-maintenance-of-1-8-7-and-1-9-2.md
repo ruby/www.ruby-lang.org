@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 1.8.7 と 1.9.2 のセキュリティメンテナンスが延長されます"
 author: "zzak"
 translator: "makimoto"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: ja
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.1.0 이후의 시맨틱 버저닝에 관하여"
 author: "zzak"
 translator: "marocchino"
-date: 2013-12-21 2:00:00 UTC
+date: 2013-12-21 2:00:00 +0000
 lang: ko
 ---
 

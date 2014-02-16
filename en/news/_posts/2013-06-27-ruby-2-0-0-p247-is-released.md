@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.0.0-p247 is released"
 author: "nagachika"
 translator:
-date: 2013-06-27 11:00:03 UTC
+date: 2013-06-27 11:00:03 +0000
 lang: en
 ---
 

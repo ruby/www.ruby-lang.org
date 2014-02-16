@@ -2,7 +2,7 @@
 layout: news_post
 title: "RubyConf Taiwan 2011 Call For Presentations"
 author: "SJH"
-date: 2011-05-19 02:49:53 UTC
+date: 2011-05-19 02:49:53 +0000
 lang: zh_tw
 ---
 

@@ -3,7 +3,7 @@ layout: news_post
 title: "Estensione della manutenzione di sicurezza per Ruby 1.8.7 e 1.9.2"
 author: "zzak"
 translator: "Alessandro Lepore"
-date: 2013-12-17 20:49:03 UTC
+date: 2013-12-17 20:49:03 +0000
 lang: it
 ---
 

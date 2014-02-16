@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p374 リリース"
 author: "usa"
-date: 2013-01-17 08:39:33 UTC
+date: 2013-01-17 08:39:33 +0000
 lang: ja
 ---
 

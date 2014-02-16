@@ -3,7 +3,7 @@ layout: news_post
 title: "Rosyjskie tłumaczenie ruby-lang.org"
 author: "Marcus Stollsteimer"
 translator: "crabonature"
-date: 2013-11-30 12:00:00 UTC
+date: 2013-11-30 12:00:00 +0000
 lang: pl
 ---
 

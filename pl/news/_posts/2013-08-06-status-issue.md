@@ -3,7 +3,7 @@ layout: news_post
 title:  "Problemy usług ruby-lang.org"
 author: "hsbt"
 translator: "crabonature"
-date:   2013-08-06 04:00:00 UTC
+date:   2013-08-06 04:00:00 +0000
 lang:   pl
 ---
 

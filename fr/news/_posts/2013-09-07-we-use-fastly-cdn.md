@@ -3,7 +3,7 @@ layout: news_post
 title:  "Nous commençons à distribuer les paquets source via Fastly"
 author: "hsbt"
 translator: "Bruno Michel"
-date:   2013-09-07 11:30:00 UTC
+date:   2013-09-07 11:30:00 +0000
 lang:   fr
 ---
 

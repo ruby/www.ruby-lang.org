@@ -3,7 +3,7 @@ layout: news_post
 title: "Соревнования 2014 Fukuoka Ruby Award Competition - Судить участников будет Matz"
 author: "Fukuoka Ruby"
 translator: "gazay"
-date: 2013-11-21 08:17:06 UTC
+date: 2013-11-21 08:17:06 +0000
 lang: ru
 ---
 

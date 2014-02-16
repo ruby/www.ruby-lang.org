@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby конференция в Барселоне открыта к подаче заявок"
 author: "James Edward Gray II"
 translator: "gazay"
-date: 2013-02-16 14:47:15 UTC
+date: 2013-02-16 14:47:15 +0000
 lang: ru
 ---
 

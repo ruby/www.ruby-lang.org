@@ -3,7 +3,7 @@ layout: news_post
 title: "2014年 Ruby Hero Award 候補者募集"
 author: "Gregg Pollack"
 translator: "makimoto"
-date: 2014-02-12 14:02:03 UTC
+date: 2014-02-12 14:02:03 +0000
 lang: ja
 ---
 

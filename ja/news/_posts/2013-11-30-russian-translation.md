@@ -3,7 +3,7 @@ layout: news_post
 title: "ruby-lang.org のロシア語バージョン"
 author: "Marcus Stollsteimer"
 translator: "hsbt"
-date: 2013-11-30 12:00:00 UTC
+date: 2013-11-30 12:00:00 +0000
 lang: ja
 ---
 

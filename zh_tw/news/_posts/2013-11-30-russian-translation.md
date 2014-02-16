@@ -3,7 +3,7 @@ layout: news_post
 title: "發佈 ruby-lang.org 俄羅斯語版本"
 author: "Marcus Stollsteimer"
 translator: "Juanito Fatas"
-date: 2013-11-30 12:00:00 UTC
+date: 2013-11-30 12:00:00 +0000
 lang: zh_tw
 ---
 

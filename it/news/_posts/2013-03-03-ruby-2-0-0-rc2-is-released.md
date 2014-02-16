@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rilasciato Ruby 2.0.0-rc2"
 author: "Fabio Cevasco"
-date: 2013-03-03 13:45:00 UTC
+date: 2013-03-03 13:45:00 +0000
 lang: it
 ---
 

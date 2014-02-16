@@ -3,7 +3,7 @@ layout: news_post
 title: "Открыта регистрация на RubyConf-2014 в Индии"
 author: "Manu S Ajith"
 translator: "Vlad Bokov"
-date: 2013-12-14 18:53:33 UTC
+date: 2013-12-14 18:53:33 +0000
 lang: ru
 ---
 

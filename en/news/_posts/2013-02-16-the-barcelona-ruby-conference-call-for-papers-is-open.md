@@ -2,7 +2,7 @@
 layout: news_post
 title: "The Barcelona Ruby Conference Call for Papers is Open"
 author: "James Edward Gray II"
-date: 2013-02-16 14:47:15 UTC
+date: 2013-02-16 14:47:15 +0000
 lang: en
 ---
 

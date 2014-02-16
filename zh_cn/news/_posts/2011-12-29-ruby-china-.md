@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby China 社区 - Ruby 官方网站"
 author: "XiaoBo Liu"
-date: 2011-12-29 10:45:28 UTC
+date: 2011-12-29 10:45:28 +0000
 lang: zh_cn
 ---
 
