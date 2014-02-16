@@ -29,6 +29,12 @@ lang: ja
 
 ドキュメントは全て [&lt;URL:http://doc.okkez.net/&gt;][man-mirror] でもミラーされています
 
+### 入門
+
+[20分ではじめるRuby](/ja/documentation/quickstart/)
+: Rubyの基本をカバーしている便利なチュートリアルです。始めから終わりまで読んでも20分かからないでしょう。
+
+
 ### リファレンス
 
 [Ruby コアリファレンス (英語)](http://www.ruby-doc.org/core/)
