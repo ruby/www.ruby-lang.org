@@ -14,6 +14,10 @@ security@ruby-lang.org ([öffentlicher PGP-Schlüssel](/security.asc))
 gemeldet werden, einer nicht öffentlichen Mailingliste.
 Gemeldete Probleme werden veröffentlicht, nachdem sie behoben wurden.
 
+Mitglieder der Mailingliste sind Personen, die Ruby zur Verfügung
+stellen (Ruby-Committer und Entwickler anderer Ruby-Implementierungen,
+Distributoren, PaaS-Plattformen).
+
 ## Bekannte Schwachstellen
 
 Hier ein Liste kürzlich bekannt gewordener Probleme:

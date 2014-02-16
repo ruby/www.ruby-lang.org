@@ -196,8 +196,9 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
 ### Alternative Ruby-Implementierungen
 
 Ruby als Sprache hat einige verschiedene Implementierungen.
-Diese Seite diskutiert die Referenzimplementierung **MRI** („Matz’
-Ruby-Interpreter“) oder **CRuby**, es gibt aber noch einige weitere.
+Diese Seite diskutiert die Referenzimplementierung, in der
+Community auch bekannt als **MRI** („Matz’ Ruby-Interpreter“) oder
+**CRuby** (da sie in C geschrieben ist), es gibt aber noch einige weitere.
 Oftmals sind diese in bestimmten Situationen nützlich, stellen spezielle
 Sprach- oder Umgebungsintergration zur Verfügung oder haben einfach
 spezielle Features, die MRI nicht hat.
