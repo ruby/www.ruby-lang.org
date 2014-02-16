@@ -2,7 +2,7 @@
 layout: news_post
 title: "Номинации на награду Ruby Hero 2014"
 author: "Gregg Pollack"
-translator: gazay
+translator: "gazay"
 date: 2014-02-12 14:02:03 +0000
 lang: ru
 ---
@@ -20,4 +20,3 @@ Hero.
 смотря на это, ваши номинации важны, так что, пожалуйста, найдите время
 и сделайте доброе дело!
 [Голосуй сегодня!](http://rubyheroes.com/)
-

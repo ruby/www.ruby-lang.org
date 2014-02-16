@@ -19,4 +19,3 @@ ricevere il premio (in questo modo non c'è una gara di popolarità). Comunque
 le vostre nominations contano quindi per favore spendete un attimo e diffondete
 la gratitudine.
 [Vota oggi!](http://rubyheroes.com/)
-
