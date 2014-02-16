@@ -14,7 +14,7 @@ security@ruby-lang.org ([the PGP public key](/security.asc)), which is a
 private mailing list. Reported problems will be published after fixes.
 
 The members of the mailing list are people who provide Ruby
-(MRI committers, authors of other Ruby implementations,
+(Ruby committers and authors of other Ruby implementations,
 distributors, PaaS platformers).
 
 ## Known issues
