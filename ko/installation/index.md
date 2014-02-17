@@ -45,44 +45,37 @@ lang: ko
 ### rbenv
 {: #rbenv}
 
-rbenv는 여러 종류의 루비를 설치할 수 있게 합니다.
+[rbenv][rbenv]는 여러 종류의 루비를 설치할 수 있게 합니다.
 rbenv 자체는 루비 설치를 지원하지 않습니다만, ruby-build라는
 유명한 플러그인에서 루비를 설치할 수 있습니다.
 
 rbenv, ruby-build 모두 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서 사용가능합니다.
 
-rbenv를 설치하는 가장 최신의 방법은, [rbenv 웹사이트][rbenv]에서 확인하십시오.
-
-다음 단락에서 RVM이라는 비슷한 툴을 설명하겠습니다.
-이쪽도 살펴보시고 가장 편한쪽을 고르세요.
-
-
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
-RVM은 시스템에 여러 종류의 루비를 설치하고 관리할 수 있게 해줍니다.
+[RVM][rvm]은 시스템에 여러 종류의 루비를 설치하고 관리할 수 있게 해줍니다.
 RVM은 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
-
-RVM을 설치하는 가장 최신의 방법은, [RVM 웹사이트][rvm]에서 확인하십시오.
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
-Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로젝트 RubyInstaller가 있습니다.
-RubyInstaller는 Windows 환경에서 전체 루비 개발 환경을 설정하는데 필요한 모든 것을 제공합니다.
+Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로젝트 [RubyInstaller][rubyinstaller]
+가 있습니다. RubyInstaller는 Windows 환경에서 전체 루비 개발 환경을 설정하는데 필요한 모든
+것을 제공합니다.
 
-RubyInstaller를 사용하려면, [RubyInstaller 웹사이트][rubyinstaller]에서 다운로드 받으십시오.
-그런 다음 인스톨러를 실행하기만 하면, 모든 작업은 완료됩니다!
+다운로드 받으시고 인스톨러를 실행하기만 하면, 모든 작업은 완료됩니다!
 
 ### RailsInstaller와 Ruby Stack
 
-레일즈를 사용하기 위해 루비를 설치한다면, 다음 인스톨러를 사용할 수 있습니다.
+루비온레일즈를 사용하기 위해 루비를 설치하신다면 다음 인스톨러를 사용할 수 있습니다.
 
 * [RailsInstaller][railsinstaller]는 RubyInstaller를 사용하지만, 레일즈 개발을
   도와줄 추가 도구들을 제공합니다.
+  OS X, Windows를 지원합니다.
 * [Bitnami Ruby Stack][rubystack]는 루비온레일즈를 위한 완전한 개발환경을 제공합니다.
-  Windows, 맥 OS X, Linux, 가상머신, 클라우드 이미지를 지원합니다.
+  OS X, Linux, Windows, 가상머신, 클라우드 이미지를 지원합니다.
 
 ## 패키지 관리 시스템(Package Management Systems)
 {: #package-management-systems}
@@ -158,12 +151,12 @@ $ sudo pacman -S ruby
 ### Homebrew (OS X)
 {: #homebrew}
 
-맥 OS X 매버릭스에는 루비 2.0.0이 포함되어 있습니다.
-맥 OS X 마운틴 라이언, 라이언, 레오파드는 1.8.7을
+OS X 매버릭스에는 루비 2.0.0이 포함되어 있습니다.
+OS X 마운틴 라이언, 라이언, 레오파드는 루비 1.8.7을
 탑재하여 출시되었습니다.
 
-2.0과 1.8은 예전 버전이지만, 여기에 최신 버전의 루비를
-설치할 수 있는 몇 가지 옵션이 있습니다.
+여기에 최신 버전의 루비를 설치할 수 있는 몇 가지
+옵션이 있습니다.
 
 대부분의 루비 커뮤니티의 OS X 유저는 서드파티 도구를
 사용합니다. 하지만 몇 가지의 루비를 지원하는 패키지
@@ -217,7 +210,7 @@ $ pkg install runtime/ruby-18
 {: #building-from-source}
 
 물론, 소스로부터 루비를 설치할 수도 있습니다.
-타르볼을 다운로드, 압축해제하고 이 명령어를 입력하세요.
+타르볼을 [다운로드](/ko/downloads/), 압축해제하고 이 명령어를 입력하세요.
 
 {% highlight sh %}
 $ ./configure
