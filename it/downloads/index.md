@@ -15,7 +15,7 @@ la [Licenza di Ruby][license].
 Per installare Ruby sulla maggiori piattaforme abbiamo a disposizione
 diversi tool:
 
-* Su Linux/UNIX, puoi usare il gestore di pacchetti della tua 
+* Su Linux/UNIX, puoi usare il gestore di pacchetti della tua
   distribuzione o i tool di terze parti (rbenv e RVM).
 * Su OS X, puoi usare i tool di terze parti (rbenv e RVM).
 * Su Windows, puoi usare RubyInstaller o pik.
@@ -56,15 +56,15 @@ esserti di aiuto.
   * [Stable Snapshot][stable-snapshot-gz]:
     Questo è il tarball dell'ultimo snapshot del branch stabile corrente.
   * [Nightly Snapshot][nightly-gz]:
-    Questo è il tarball di ciò che c’è in svn, generato giornalmente. 
-    Potrebbe contenere bug o avere altri problemi, 
+    Questo è il tarball di ciò che c’è in svn, generato giornalmente.
+    Potrebbe contenere bug o avere altri problemi,
     usalo a tuo rischio e pericolo!
 
 Puoi trovare maggiori informazioni sui repository Subversion e Git di Ruby
 nella pagina [Ruby Core](/it/community/ruby-core/).
 
-Il codice sorgente di Ruby è disponibile tramite alcuni 
-[siti mirror][mirrors] in giro per il mondo. 
+Il codice sorgente di Ruby è disponibile tramite alcuni
+[siti mirror][mirrors] in giro per il mondo.
 Cerca di utilizzare il sito mirror più vicino a te.
 
 
