@@ -5,7 +5,7 @@ GEM
     classifier (1.3.4)
       fast-stemmer (>= 1.0.0)
     colorator (0.1)
-    commander (4.1.5)
+    commander (4.1.6)
       highline (~> 1.6.11)
     daemon_controller (1.1.8)
     fast-stemmer (1.0.2)
@@ -22,7 +22,7 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.9.7)
       toml (~> 0.1.0)
-    kramdown (1.3.1)
+    kramdown (1.3.2)
     liquid (2.5.5)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
@@ -46,6 +46,8 @@ GEM
     rack-jekyll (0.4.1)
       jekyll (>= 0.12.0, < 2.0)
       rack (~> 1.5.0)
+    rack-protection (1.5.2)
+      rack
     rack-rewrite (1.5.0)
     rake (10.1.1)
     rb-fsevent (0.9.4)
@@ -57,7 +59,7 @@ GEM
     safe_yaml (0.9.7)
     spidr (0.4.1)
       nokogiri (~> 1.3)
-    toml (0.1.0)
+    toml (0.1.1)
       parslet (~> 1.5.0)
     yajl-ruby (1.1.0)
 
@@ -69,6 +71,7 @@ DEPENDENCIES
   kramdown
   passenger
   rack-jekyll
+  rack-protection
   rack-rewrite
   rake (~> 10.0)
   spidr (~> 0.4)

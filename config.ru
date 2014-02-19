@@ -1,5 +1,6 @@
 require 'rack/jekyll'
 require 'rack/rewrite'
+require 'rack/protection'
 
 use Rack::CommonLogger
 
@@ -74,5 +75,8 @@ use Rack::Rewrite do
   r302 %r{^/pt/bibliotecas/top-de-projectos-ruby(.*)$}, "/pt/libraries/top-projects$1"
   r302 %r{^/pt/bibliotecas(.*)$}, "/pt/libraries$1"
 end
+
+use Rack::Protection::HttpOrigin
+use Rack::Protection::FrameOptions
 
 run Rack::Jekyll.new
