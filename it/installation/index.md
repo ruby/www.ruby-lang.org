@@ -4,9 +4,9 @@ title: "Installare Ruby"
 lang: it
 ---
 
-Puoi usare diversi tools per installare Ruby.
+Puoi usare diversi tool per installare Ruby.
 Questa pagina descrive come usare i maggiori gestori di pacchetti
-e i tools di terze parti per gestire ed installare Ruby
+e i tool di terze parti per gestire ed installare Ruby
 e come compilare Ruby dai sorgenti.
 {: .summary}
 
@@ -37,10 +37,10 @@ Scegli il modo più comodo per te.
   * [pik][pik]
 
 
-## Tools di terze parti
+## Tool di terze parti
 
-Molti Rubysti usano tools di terze parti per installare Ruby.
-Questi tools conferiscono molti vantaggi ma non sono supportati ufficialmente.
+Molti Rubysti usano tool di terze parti per installare Ruby.
+Questi tool conferiscono molti vantaggi ma non sono supportati ufficialmente.
 Tuttavia la loro rispettabile comunità è molto disponibile.
 
 
@@ -50,7 +50,7 @@ Tuttavia la loro rispettabile comunità è molto disponibile.
 [rbenv][rbenv] ti permette di gestire multiple installazioni di Ruby.
 Non supporta l'installazione di Ruby, ma esiste un plugin molto popolare
 chiamato ruby-build che permette di installare Ruby.
-Entrambi i tools sono disponibili per OS X, Linux o altri sistemi operativi
+Entrambi i tool sono disponibili per OS X, Linux o altri sistemi operativi
 UNIX-like.
 
 
@@ -88,16 +88,16 @@ Se stai installando Ruby per usare Rails, puoi utilizzare questi installer:
 ## Sistemi di gestione dei pacchetti
 {: #package-management-systems}
 
-Se non puoi compilare il tuo Ruby, e non vuoi usare i tools di terze parti,
+Se non puoi compilare il tuo Ruby, e non vuoi usare i tool di terze parti,
 puoi utilizzare i gestori di pacchetti per installare Ruby.
 
 Alcuni membri nella comunità Ruby sono fermamente convinti che non dovresti
 mai usare un gestore di pacchetti per istallare Ruby e che dovresti usare i
-tools. Anche se la lista dei pro e contro è fuori dallo scopo di questa pagina,
+tool. Anche se la lista dei pro e contro è fuori dallo scopo di questa pagina,
 la ragione principale per non usare i gestori di pacchetti è che hanno
 vecchie versioni di Ruby nei loro repository ufficiali. Se vuoi utilizzare le
 nuove versioni di Ruby, fai attenzione ad utilizzare il pacchetto con il nome
-corretto o i tools descritti precedentemente.
+corretto o i tool descritti precedentemente.
 
 Di seguito sono descritti e seguenti gestori di pacchetti:
 
@@ -169,7 +169,7 @@ Su OS X Mavericks, Ruby 2.0. è incluso.
 OS X Mountain Lion, Lion, e Leopard hanno la versione 1.8.7.
 
 Ci sono diverse opzioni per installare le nuove versioni di Ruby.
-Molti utenti OS X nella comunità Ruby usano i tools di terze parti per installare
+Molti utenti OS X nella comunità Ruby usano i tool di terze parti per installare
 Ruby, ma ci sono alcuni gestori di pacchetti che supportano Ruby.
 
 Molti utenti su OS X usano [Homebrew][homebrew] come gestore di pacchetti.
@@ -182,7 +182,7 @@ $ brew install ruby
 In alternativa, dato che OS X è basato su Unix, si possonono scaricare ed
 installare i sorgenti, è altrettanto facile ed efficace.
 Per aiutarti nell'installazione delle nuove versioni Ruby su OS X, è
-probabilmente una buona ida utilizzare i tools di terze parti.
+probabilmente una buona ida utilizzare i tool di terze parti.
 
 ### Ruby su Solaris e OpenIndiana
 {: #solaris}
@@ -190,7 +190,7 @@ probabilmente una buona ida utilizzare i tools di terze parti.
 Ruby 1.8.7 è disponibile per Solaris 8 fino a Solaris 10 su
 [Sunfreeware][sunfreeware] e Ruby 1.8.7 è disponibile su [Blastwave][blastwave].
 Ruby 1.9.2p0 è disponibile su [Sunfreeware][sunfreeware], ma è outdate.
-Si possono avere le ultime versioni di Ruby utilizzando i tools di terze parti.
+Si possono avere le ultime versioni di Ruby utilizzando i tool di terze parti.
 
 Per installare Ruby su [OpenIndiana][openindiana], si consiglia di utilizzare il
 client [Image Packaging System (IPS)][opensolaris-pkg].
@@ -201,14 +201,14 @@ dal repository di OpenSolaris per la versione Ruby 1.9. Ed è facile:
 $ pkg install runtime/ruby-18
 {% endhighlight %}
 
-Come detto prima, l'utilizzo di tools di terze parti è un buon modo per ottenere
+Come detto prima, l'utilizzo di tool di terze parti è un buon modo per ottenere
 l'ultima versione di Ruby.
 
 
 ### Altre Distribuzioni
 
 Su altri sistemi operativi, puoi cercare i gestori di pacchetti per la tua
-distribuzione Linux, o la scelta giusta potrebbe essere utilizzare i tools di
+distribuzione Linux, o la scelta giusta potrebbe essere utilizzare i tool di
 terze parti.
 
 
@@ -227,7 +227,7 @@ $ sudo make install
 Di default Ruby verrà installato in `/usr/local`. Per cambiare modifica
 l'opzione `--prefix=DIR` nello script `./configure`.
 
-Utilizzare i tools di terze parti potrebbe essere l'idea migliore,
+Utilizzare i tool di terze parti potrebbe essere l'idea migliore,
 perchè la versione installata non verrebbe gestita da nessun tool.
 
 
