@@ -73,7 +73,7 @@ delizioso e il magnifico scenario di Bend, Oregon.
 [Burlington Ruby Conference][18]: Una conferenza estiva su Ruby che viene
 tenuta annualmente in Burlington, VT. La conferenza dura due giorni e segue
 un unico tracciato. Si focalizza sulla creazione di un ambiente dove imparare,
-divertirsi e incontrare altri Rubyisti.
+divertirsi e incontrare altri Rubysti.
 
 ### Ruby ad altre conferenze
 
