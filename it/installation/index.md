@@ -166,7 +166,7 @@ $ sudo pacman -S ruby
 {: #homebrew}
 
 Su OS X Mavericks, Ruby 2.0. è incluso.
-OS X Mountain Lion, Lion, e Leopard hanno la versione 1.8.7.
+OS X Mountain Lion, Lion, e Snow Leopard hanno la versione 1.8.7.
 
 Ci sono diverse opzioni per installare le nuove versioni di Ruby.
 Molti utenti OS X nella comunità Ruby usano i tool di terze parti per installare
