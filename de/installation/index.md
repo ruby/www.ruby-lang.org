@@ -176,7 +176,7 @@ $ sudo pacman -S ruby
 {: #homebrew}
 
 Bei OS X Mavericks ist Ruby 2.0 vorinstalliert.
-OS X Mountain Lion, Lion und Leopard werden mit Ruby 1.8.7 ausgeliefert.
+OS X Mountain Lion, Lion und Snow Leopard werden mit Ruby 1.8.7 ausgeliefert.
 
 Es gibt verschiedene Optionen um die neueste Ruby-Version zu installieren.
 Die meisten OS-X-Anwender in der Ruby-Community benutzen

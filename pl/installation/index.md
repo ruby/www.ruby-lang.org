@@ -160,7 +160,7 @@ $ sudo pacman -S ruby
 {: #homebrew}
 
 Ruby 2.0.0 jest zawarty w OS X Mavericks.
-A OS X Mountain Lion, Lion i Leopard jest dostarczany z 1.8.7.
+A OS X Mountain Lion, Lion i Snow Leopard jest dostarczany z 1.8.7.
 
 2.0 oraz 1.8 są starszymi wersjami, więc jest sporo możliwości by zainstalować
 najnowszą wersję Rubiego.
