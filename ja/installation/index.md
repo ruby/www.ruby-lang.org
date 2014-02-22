@@ -228,6 +228,5 @@ $ sudo make install
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
-[macosforge-ruby]: http://trac.macosforge.org/projects/ruby/wiki
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
