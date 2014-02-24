@@ -8,12 +8,12 @@ lang: en
 ---
 
 Happy birthday, Ruby!
-Today Feb. 24th is the 21th anniversary of Ruby.
+Today, Feb. 24th, is the 21st anniversary of Ruby.
 In commemoration of it, Ruby 1.9.3-p545 is released.
 
 This is the last ordinal release of Ruby 1.9.3.
-It means that Ruby 1.9.3 goes into the state of the security maintenance phase, and will never be released unless any critical regression or security issue will be found.
-This phase is planed to be maintained for 1 year.
+It means that Ruby 1.9.3 goes into the state of the security maintenance phase, and will never be released unless any critical regressions or security issues are found.
+This phase is planned to be maintained for 1 year.
 Then, maintenance of Ruby 1.9.3 will be ended at Feb. 24th, 2015.
 
 This release includes many bugfixes.
@@ -42,7 +42,7 @@ and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) f
 
 ## Release Comment
 
-I'm grateful to everybody who support Ruby.
+I'm grateful to everybody who supports Ruby.
 Thank you.
 
 This release is dedicated to the memory of our best comrade, Jim Weirich.
