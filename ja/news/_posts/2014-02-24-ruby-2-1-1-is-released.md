@@ -4,15 +4,13 @@ title: "Ruby 2.1.1 リリース"
 author: "naruse"
 translator:
 date: 2014-02-24 05:00:00 +0000
-lang: en
+lang: ja
 ---
 
 今日は Ruby の 21 回目の誕生日ですので、Ruby 2.1 の新しいパッチリリース、Ruby 2.1.1 をリリースします。
 以前お伝えしましたとおり、Ruby 2.1 では[新しいバージョン表記](https://www.ruby-lang.org/ja/news/2013/12/21/semantic-versioning-after-2-1-0/)を採用していますので、単純に「Ruby 2.1.1」というのがこのリリースの名称になります。
 
-本バージョンで行われている数々のバグ修正については以下を参照下さい。
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) for details.
+本バージョンで行われている数々のバグ修正の詳細については [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5) や [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) をご覧下さい。
 
 ## Download
 
