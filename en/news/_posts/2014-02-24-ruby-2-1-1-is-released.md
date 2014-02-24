@@ -16,6 +16,7 @@ See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&am
 and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) for details.
 
 As the previous announcement which changes [versioning policy on Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/), this is simply called as "2.1.1".
+
 ## Download
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>
