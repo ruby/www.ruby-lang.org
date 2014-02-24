@@ -25,15 +25,15 @@ license:
 
 downloads:
   stable:
-    version: 2.1.0
+    version: 2.1.1
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.zip
     md5:
-      bz2: 1546eeb763ac7754365664be763a1e8f
-      gz: 9e6386d53f5200a3e7069107405b93f7
-      zip: 2fc3a80b56da81b906a9bb6fc7ca8399
+      bz2: 53edc33b2f590ecdd9f6a344b9d92d0d
+      gz: e57fdbb8ed56e70c43f39c79da1654b2
+      zip: 02c1dbff9c550d2d808444c8fef483bc
   previous:
     version: 2.0.0-p353
     url:
