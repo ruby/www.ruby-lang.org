@@ -10,7 +10,7 @@ lang: ko
 오늘(2월 24일)은 루비의 21번째 생일입니다.
 그래서 기쁘게 루비 2.0.0-p451를 릴리즈를 발표합니다.
 
-이 릴리즈는 많은 버그 수정를 포함합니다.
+이 릴리즈는 많은 버그 수정을 포함합니다.
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog) 를 보세요.
 

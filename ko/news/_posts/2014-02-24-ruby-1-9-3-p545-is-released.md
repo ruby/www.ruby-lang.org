@@ -18,7 +18,7 @@ lang: ko
 이 단계는 1년간 예정되어 있으며 2015년 2월 24일에 유지보수를
 종료합니다.
 
-이 릴리즈는 많은 버그 수정를 포함합니다.
+이 릴리즈는 많은 버그 수정을 포함합니다.
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
 과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) 를 보세요.
 
