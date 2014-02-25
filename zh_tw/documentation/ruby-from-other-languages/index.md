@@ -117,17 +117,19 @@ end
 
 這裡的 `Constant` 是 10，但是 `Constant()` 卻是 11。
 
-### 虛擬關鍵字參數
+### 關鍵字參數
 
-Ruby 不像 Python 有關鍵字參數(keyword parameters)功能，但是可以用 symbols 和雜湊(hash)
-來替代。Ruby on Rails 和非常多的函式庫都使用了這個方法，例如：
+Ruby 自 2.0 起，方法可以使用關鍵字參數，用法與 Python 類似：
 
 {% highlight ruby %}
-def some_keyword_params( params )
-  params
+def deliver(from: 'A', to: nil, via: 'mail')
+  "Sending from #{from} to #{to} via #{via}."
 end
-some_keyword_params( :param_one => 10, :param_two => 42 )
-# => {:param_one=>10, :param_two=>42}
+
+deliver(to: 'B')
+# => "Sending from A to B via mail."
+deliver(via: 'Pony Express', from: 'B', to: 'A')
+# => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
 ### 一切為 true
