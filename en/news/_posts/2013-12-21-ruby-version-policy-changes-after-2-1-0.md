@@ -29,13 +29,10 @@ Hiroshi Shibata ([@hsbt](https://twitter.com/hsbt)).
 
 ### Branching Schema
 
-We will maintain the following branches:
+We will continue to maintain the following branches:
 
 * trunk
-* `ruby_{MAJOR}_{MINOR}`
-
-The `ruby_{MAJOR}_{MINOR}` branch will be maintained across `TEENY` releases.
-We will use tags for each release.
+* `ruby_{MAJOR}_{MINOR}_{TEENY}`
 
 ### API Compatibility
 
