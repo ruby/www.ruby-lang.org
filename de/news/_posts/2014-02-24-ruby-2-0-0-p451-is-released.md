@@ -38,6 +38,6 @@ für weitere Informationen.
 
 ## Release Comment
 
-Viele Commiters, Entwickler und Nutzer, die Fehler gemeldet haben,
+Viele Committer, Entwickler und Nutzer, die Fehler gemeldet haben,
 halfen mir bei dieser Veröffentlichung. Ich danke ihnen für ihre
 Mitarbeit.

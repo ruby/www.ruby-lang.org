@@ -7,21 +7,20 @@ date: 2014-02-24 05:00:00 +0000
 lang: de
 ---
 
-Happy Birthday, Ruby!  Heute, am 24. Februar, ist Rubys 21. Geburtstag
-und anlässlich dessen wurde Ruby 1.9.3-p545 veröffentlicht.
+Happy Birthday, Ruby! Heute, am 24. Februar, ist Rubys 21. Geburtstag
+und aus diesem Anlass wurde Ruby 1.9.3-p545 veröffentlicht.
 
-Hierbei handelt es sich um die letzte ordentliche Veröffentlichung von
+Hierbei handelt es sich um die letzte planmäßige Veröffentlichung von
 Ruby 1.9.3, d.h. Ruby 1.9.3 geht nun in die
-Phase der Sicherheits-Maintenenance über und es wird keine weiteren
-Veröffentlichungen geben, sofern nicht kritische Regressions oder
+Phase der Sicherheits-Maintenance über und es wird keine weiteren
+Veröffentlichungen geben, sofern nicht kritische Regressionen oder
 Sicherheitsprobleme gefunden werden. Danach wird die Unterstützung von
 Ruby 1.9.3 am 24. Februar 2015 vollständig eingestellt.
 
-Diese Veröffentlichung enthält zahlreiche Fehlerkorrekturen. Siehe für
-weitere Informationen die
-[Tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-und das
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog).
+Diese Veröffentlichung enthält zahlreiche Fehlerkorrekturen.
+Siehe die [Tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
+und das [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog)
+für weitere Informationen.
 
 ## Download
 
