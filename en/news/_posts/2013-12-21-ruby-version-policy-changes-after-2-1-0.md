@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Semantic Versioning starting with Ruby 2.1.0"
+title: "Ruby version policy changes starting with Ruby 2.1.0"
 author: "zzak"
 translator:
 date: 2013-12-21 2:00:00 +0000
