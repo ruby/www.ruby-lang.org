@@ -12,7 +12,9 @@ Today, Feb. 24th, is the 21st anniversary of Ruby.
 In commemoration of it, Ruby 1.9.3-p545 is released.
 
 This is the last ordinal release of Ruby 1.9.3.
-It means that Ruby 1.9.3 goes into the state of the security maintenance phase, and will never be released unless any critical regressions or security issues are found.
+It means that Ruby 1.9.3 goes into the state of the security maintenance
+phase, and will never be released unless any critical regressions
+or security issues are found.
 This phase is planned to be maintained for 1 year.
 Then, maintenance of Ruby 1.9.3 will be ended at Feb. 24th, 2015.
 

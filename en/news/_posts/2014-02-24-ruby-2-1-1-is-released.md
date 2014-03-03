@@ -7,7 +7,8 @@ date: 2014-02-24 05:00:00 +0000
 lang: en
 ---
 
-Today, Feb. 24th, is the 21st anniversary of Ruby, so we happily announce a new patch release of Ruby 2.1, Ruby 2.1.1.
+Today, Feb. 24th, is the 21st anniversary of Ruby,
+so we happily announce a new patch release of Ruby 2.1, Ruby 2.1.1.
 
 Ruby 2.1 has many improvements including speedup without
 severe incompatibilities. You can use this on Rails and other applications,
@@ -17,7 +18,8 @@ This release includes many bugfixes.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) for details.
 
-Following the previously announced [changed versioning policy of Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/), this version is simply called "2.1.1".
+Following the previously announced [changed versioning policy of Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/),
+this version is simply called "2.1.1".
 
 ## Download
 
