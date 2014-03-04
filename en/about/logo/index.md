@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Ruby Logo"
+title: "The Ruby Logo"
 lang: en
 ---
 
 ![The Ruby Logo][logo]
 
-The Ruby Logo is Copyright &copy; 2006, Yukihiro Matsumoto.
+The Ruby logo is Copyright &copy; 2006, Yukihiro Matsumoto.
 
 It is licensed under the terms of the
 [Creative Commons Attribution-ShareAlike 2.5 License][cc-by-sa] agreement.
@@ -14,13 +14,10 @@ It is licensed under the terms of the
 
 ## Download
 
-The Ruby Logo Kit is available here:
-
-<http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
-
-It contains the Ruby Logo in several formats
+The [Ruby Logo Kit][logo-kit] contains the Ruby logo in several formats
 (PNG, JPG, PDF, AI, SWF, XAR).
 
 
 [logo]: /images/header-ruby-logo.png
+[logo-kit]: http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/2.5/
