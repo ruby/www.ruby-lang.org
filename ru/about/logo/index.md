@@ -4,11 +4,13 @@ title: "Логотип Ruby"
 lang: ru
 ---
 
-![Логотип Ruby](/images/header-ruby-logo.png)
+![Логотип Ruby][logo]
 
 Все права на логотип Ruby принадлежат Yukihiro Matsumoto, &copy; 2006.
 
-Права на логотип закреплены на условиях лицензии [Creative Commons Attribution-ShareAlike 2.5 License][1].
+Права на логотип закреплены на условиях лицензии
+[Creative Commons Attribution-ShareAlike 2.5 License][cc-by-sa].
+
 
 ## Загрузить
 
@@ -16,6 +18,9 @@ lang: ru
 
 <http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
 
-Этот набор состоит из логотипов Ruby в различных форматах (PNG, JPG, PDF, AI, SWF, XAR).
+Этот набор состоит из логотипов Ruby в различных форматах
+(PNG, JPG, PDF, AI, SWF, XAR).
 
-[1]: http://creativecommons.org/licenses/by-sa/2.5/
+
+[logo]: /images/header-ruby-logo.png
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/2.5/
