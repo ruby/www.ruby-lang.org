@@ -21,7 +21,7 @@ La manutenzione di Ruby 1.9.3 terminerà quindi il 24 Febbraio 2015.
 Questa release include molti bugfixes.
 Vedere i [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
 e il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog)
-per maggiori dettagli
+per maggiori dettagli.
 
 ## Download
 
@@ -48,6 +48,6 @@ per maggiori dettagli
 Sono grato a tutti quelli che supportano Ruby.
 Grazie.
 
-Questa release è dedicata alla memoria di uno dei nostri migliori compagni, Jim
-Weirich.
+Questa release è dedicata alla memoria di uno dei nostri migliori compagni,
+Jim Weirich.
 Grazie, Jim.  Riposa in Pace.
