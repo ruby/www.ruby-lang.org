@@ -39,8 +39,8 @@ khi học Ruby.
 Hai đặc điểm của Ruby có một chút khác biệt với những gì bạn biết trước
 đây, trong số đó có một số thường hay được sử dụng, là "blocks" và vòng lặp.
 Thay vì phải lặp trên một index (như C, C++, hoặc Java 1.5 trở về trước),
-hoặc lặp trên một danh sách (như Perl <tt>for (@a) \{...}</tt>, hay Python
-<tt>for i in aList: ...</tt>, thì với Ruby bạn sẽ thường xuyên thấy
+hoặc lặp trên một danh sách (như Perl `for (@a) {...}`, hay Python
+`for i in aList: ...`, thì với Ruby bạn sẽ thường xuyên thấy
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -299,11 +299,11 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 ### Các tên phương thức hài hước
 
 Trong Ruby, các phương thức có thể được kết thúc với dấu hỏi hoặc chấm than.
-theo quy ước, các phương thức mà trả lời các câu hỏi (ví dụ <tt>Array#empty?</tt>
+theo quy ước, các phương thức mà trả lời các câu hỏi (ví dụ `Array#empty?`
 trả về **true** nếu mảng đó rỗng) kết thúc với dấu hỏi. Các phương thức có khả
 năng “nguy hiểm” (ví dụ các phương thức thay đổi **self** hay các đối số,
 `exit!` v.v) theo quy ước kết thúc với dấu chấm than. Tất cả các phương thức
-thay đổi các đối số không kết thúc với dấu chấm than. <tt>Array#replace</tt>
+thay đổi các đối số không kết thúc với dấu chấm than. `Array#replace`
 thay đổi nội dung của mảng với nội dụng của mảng khác. Nó không có ý nghĩa nhiều
 để có một phương thức như thế mà **không phải** thay đổi chính nó.
 
@@ -423,7 +423,7 @@ phương thức, và không thể tái định nghĩa:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Thêm vào đó, +=, \*= v.v. chỉ là cách viết tắt cho `var = var + other_var`,
+Thêm vào đó, `+=`, `*=` v.v. chỉ là cách viết tắt cho `var = var + other_var`,
 `var = var * other_var` v.v và cũng không thể tái định nghĩa.
 
 ## Tham khảo thêm

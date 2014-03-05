@@ -30,8 +30,8 @@ lang: zh_tw
 ### 迭代 (Iteration)
 
 Ruby 有兩個常用的特色你可能沒見過，那就是 “程式區塊(blocks)” 和迭代子(iterators)”。不像使用索引的迴圈(例如 C,
-C++ 和 pre-1.5 Java)，或是迴圈控制結構(例如 Perl 的 <tt>for (@a) \{...}</tt>，或是
-Python 的 <tt>for i in aList: ...</tt>)。在 Ruby 裡你會常常看到：
+C++ 和 pre-1.5 Java)，或是迴圈控制結構(例如 Perl 的 `for (@a) {...}`，或是
+Python 的 `for i in aList: ...`)。在 Ruby 裡你會常常看到：
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -103,7 +103,7 @@ end
 
 ### 命名慣例
 
-Ruby 規定了一些命名慣例。變數的識別名稱，大寫字母開頭的是常數、錢號($)開頭的是全域變數、`@` 開頭是實例變數(instance
+Ruby 規定了一些命名慣例。變數的識別名稱，大寫字母開頭的是常數、錢號(`$`)開頭的是全域變數、`@` 開頭是實例變數(instance
 variable)、`@@` 開頭則是類別變數。
 
 方法名稱可以允許大寫字母開頭，雖然可能造成一些混淆，例如：
@@ -258,11 +258,11 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 ### 有趣的方法名稱
 
-在 Ruby 裡，方法名稱允許用問號或驚嘆號結尾。慣例上，用來回答是非題的方法會用問號結尾 (例如 <tt>Array#empty?</tt>
+在 Ruby 裡，方法名稱允許用問號或驚嘆號結尾。慣例上，用來回答是非題的方法會用問號結尾 (例如 `Array#empty?`
 會回傳 **true** 如果方法接收者是空的)。有潛在 “危險” (表示有某種副作用，會修改 **self** 或參數值。例如 `exit!`
 等) 的方法會用驚嘆號結尾。
 
-但是這不表示所有會修改參數的方法一定有驚嘆號結尾，例如 <tt>Array#replace</tt> 就會替換內容成別的陣列，畢竟
+但是這不表示所有會修改參數的方法一定有驚嘆號結尾，例如 `Array#replace` 就會替換內容成別的陣列，畢竟
 replace 的意思就是要修改替換自己。
 
 ### 單件方法
@@ -372,7 +372,7 @@ end
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-此外 +=, \*= 等只是 `var = var + other_var` 跟 `var = var * other_var`
+此外 `+=`, `*=` 等只是 `var = var + other_var` 跟 `var = var * other_var`
 等的縮寫，因此也不能被覆寫定義。
 
 ## 更多資料

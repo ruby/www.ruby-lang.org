@@ -40,8 +40,8 @@ learning Ruby.
 Two Ruby features that are a bit unlike what you may have seen before,
 and which take some getting used to, are “blocks” and iterators. Instead
 of looping over an index (like with C, C++, or pre-1.5 Java), or looping
-over a list (like Perl’s <tt>for (@a) \{...}</tt>, or Python’s <tt>for i
-in aList: ...</tt>), with Ruby you’ll very often instead see
+over a list (like Perl’s `for (@a) {...}`, or Python’s
+`for i in aList: ...`), with Ruby you’ll very often instead see
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -127,7 +127,7 @@ isn’t to say you **should** redefine constants, though.
 ### Naming conventions
 
 Ruby enforces some naming conventions. If an identifier starts with a
-capital letter, it is a constant. If it starts with a dollar sign ($),
+capital letter, it is a constant. If it starts with a dollar sign (`$`),
 it is a global variable. If it starts with `@`, it is an instance
 variable. If it starts with `@@`, it is a class variable.
 
@@ -293,8 +293,8 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 ### Funny method names
 
-In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. <tt>Array#empty?</tt> returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. Not all methods that change their arguments end with exclamation
-marks, though. <tt>Array#replace</tt> replaces the contents of an array
+In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. `Array#empty?` returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. Not all methods that change their arguments end with exclamation
+marks, though. `Array#replace` replaces the contents of an array
 with the contents of another array. It doesn’t make much sense to have a
 method like that that **doesn’t** modify self.
 
@@ -410,7 +410,8 @@ methods, and cannot be redefined:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined.
+In addition, `+=`, `*=` etc. are just abbrevations for `var = var + other_var`,
+`var = var * other_var`, etc. and therefore cannot be redefined.
 
 ## Finding Out More
 

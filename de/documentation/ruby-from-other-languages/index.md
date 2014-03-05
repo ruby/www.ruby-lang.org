@@ -40,8 +40,8 @@ Lernen begegnen wirst.
 Zwei Dinge, denen du in dieser Form vermutlich noch nicht begegnet bist,
 und an die man sich ein wenig gewöhnen muss, sind Blöcke und Iteratoren.
 In Ruby iteriert man weder über einen Index (wie in C), noch über eine
-Liste (wie in Perls <tt>for (@a) \{...}</tt> oder Pythons `for item in
-aList:`), sondern in den meisten Fällen so:
+Liste (wie in Perls `for (@a) {...}` oder Pythons `for item in aList:`),
+sondern in den meisten Fällen so:
 
 {% highlight ruby %}
 some_list.each do |item|
@@ -94,13 +94,11 @@ dasselbe Objekt im Speicher.)
 
 Wie du siehst, zeigt jedes gleichnamige Symbol auf dasselbe Objekt im
 Speicher, und zwar von dem Moment an, in dem du das Symbol zum ersten
-mal benutzt. Für zwei Symbole mit denselben Zeichen sind die
-<tt>object\_id</tt>s gleich.
+mal benutzt. Zwei Symbole mit denselben Zeichen haben die selbe `object_id`.
 
-Bei den Strings hingegen (`"george"`) sind die <tt>object\_id</tt>s
-nicht gleich. Das bedeutet, dass sie auf zwei verschiedene Objekte im
-Speicher zeigen. Immer wenn du einen neuen String benutzt, reserviert
-Ruby dafür Speicher.
+Die Strings hingegen (`"george"`) haben eine unterschiedliche `object_id`.
+Das bedeutet, dass sie auf zwei verschiedene Objekte im Speicher zeigen.
+Immer wenn du einen neuen String benutzt, reserviert Ruby dafür Speicher.
 
 Wenn du nicht genau weißt, ob du ein Symbol oder einen String brauchst,
 überlege dir, was wichtiger ist: die Identität des Objektes (z. B. ein
@@ -454,8 +452,8 @@ keine Methoden, und können nicht umdefiniert werden:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Zudem sind `+=`, `*=` usw. nur Abkürzungen für `foo = foo + bar` usw.
-und können deshalb auch nicht überschrieben werden.
+Zudem sind `+=`, `*=`, usw. nur Abkürzungen für `foo = foo + bar`,
+`foo = foo * bar` usw. und können deshalb auch nicht überschrieben werden.
 
 ## Weiterlesen
 

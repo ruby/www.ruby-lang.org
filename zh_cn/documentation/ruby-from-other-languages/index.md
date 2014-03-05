@@ -29,8 +29,8 @@ Perl、Python 和 Java（以及其他语言）的用户所熟悉的。 如果您
 ### 迭代器
 
 代码块和迭代是 Ruby 语言和其他语言不太一样的地方。我们可以以索引做循环（比如 C, C++, 或者 1.5 版本以前的
-Java），或者以列表做循环（比如 Perl 的 <tt>for (@a) \{...}</tt>， 还有 Python 的 <tt>for i
-in aList: ...</tt>），但是在 Ruby 中，我们常会看到
+Java），或者以列表做循环（比如 Perl 的 `for (@a) {...}`， 还有 Python 的
+`for i in aList: ...`），但是在 Ruby 中，我们常会看到
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -99,7 +99,7 @@ end
 
 ### 命名约定
 
-Ruby 强制了一些命名约定。大写字母开头的是一个常量；美元符号($)开头的是全局变量； `@` 开头的是实例变量； `@@` 开头的是类变量。 然而函数的名字却可以大写字母开头。这可能会导致一些混淆，比如下面的例子：
+Ruby 强制了一些命名约定。大写字母开头的是一个常量；美元符号(`$`)开头的是全局变量； `@` 开头的是实例变量； `@@` 开头的是类变量。 然而函数的名字却可以大写字母开头。这可能会导致一些混淆，比如下面的例子：
 
 {% highlight ruby %}
 Constant = 10
@@ -248,8 +248,8 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 ### Funny method names
 
-In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. <tt>Array#empty?</tt> returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. All methods that change their arguments don’t end with exclamation
-marks, though. <tt>Array#replace</tt> replaces the contents of an array
+In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. `Array#empty?` returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. All methods that change their arguments don’t end with exclamation
+marks, though. `Array#replace` replaces the contents of an array
 with the contents of another array. It doesn’t make much sense to have a
 method like that that **doesn’t** modify self.
 
@@ -365,7 +365,8 @@ methods, and cannot be redefined:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined.
+In addition, `+=`, `*=` etc. are just abbrevations for `var = var + other_var`,
+`var = var * other_var`, etc. and therefore cannot be redefined.
 
 ## Finding Out More
 

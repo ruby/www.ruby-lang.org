@@ -33,8 +33,8 @@ Rubiego.
 Są dwa elementy, które są nieco różne od tego co możesz już znać. Jednym
 z nich są “bloki” oraz iteratory. Zamiast iterować po indeksach w
 tablicy (jak w C, C++ lub Javie &lt; 1.5), lub przechodzić po pętli po
-liście (jak w Perlowym <tt>for (@a) \{...}</tt>, lub Pythonowym <tt>for
-i in lista: ...</tt>), w Rubim zobaczysz:
+liście (jak w Perlowym `for (@a) {...}`, lub Pythonowym
+`for i in lista: ...`), w Rubim zobaczysz:
 
 {% highlight ruby %}
 lista.each do |element|
@@ -124,7 +124,7 @@ modyfikować wartość stałych.
 
 Ruby wymusza pewną konwencję jeśli chodzi o nazewnictwo. Jeśli nazwa
 zaczyna się od wielkiej litery, jest stałą. Jeśli zaczyna się od znaku
-dolara ($), jest zmienną globalną. Jeśli zaczyna się od `@`, jest
+dolara (`$`), jest zmienną globalną. Jeśli zaczyna się od `@`, jest
 zmienną należącą do egzemplarza obiektu. Jeśli zaczyna się od `@@`, jest
 zmienną należącą do klasy.
 
@@ -171,7 +171,7 @@ else:
   print "0 is false"
 {% endhighlight %}
 
-Ten kawałek kodu wypisze <tt>0 is false</tt> To samo w Rubim wygląda
+Ten kawałek kodu wypisze `0 is false` To samo w Rubim wygląda
 tak:
 
 {% highlight ruby %}
@@ -296,13 +296,13 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 W Rubim, nazwy metod mogą kończyć się pytajnikiem lub wykrzyknikiem.
 Według przyjętej konwencji, metody które odpowiadają na jakieś pytanie
-(n.p. <tt>Array#empty?</tt> zwraca **true** jeśli odbiorca jest pusty)
+(n.p. `Array#empty?` zwraca **true** jeśli odbiorca jest pusty)
 kończą się pytajnikiem. Potencjalnie “groźne” metody (np. metody, które
 modyfikują **self** – dany obiekt lub swoje argumenty `exit!` etc.)
 kończą się wykrzyknikiem.
 
 Wszystkie metody, których celem jest zmiana swoich argumentów, nie
-kończą się wykrzyknikiem. <tt>Array#replace</tt> zamienia zawartość
+kończą się wykrzyknikiem. `Array#replace` zamienia zawartość
 danej tablicy zawartością innej tablicy. Istnienie tej metody w celu
 innym niż modyfikacja danego obiektu **self** nie ma zbyt dużego sensu.
 
@@ -422,7 +422,7 @@ przedefiniować.
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`,
+Dodatkowo, `+=`, `*=` etc. są po prostu skrótami dla `var = var + other_var`,
 `var = var * other_var`, etc. dlatego też nie można ich przedefiniować.
 
 ## Więcej

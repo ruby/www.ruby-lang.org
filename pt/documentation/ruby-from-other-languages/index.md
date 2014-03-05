@@ -48,9 +48,8 @@ que irá encontrar enquanto vai aprendendo Ruby.
 Duas características do Ruby são um pouco diferentes daquilo que já
 alguma vez viu, e é necessário algum tempo para se habituar a elas:
 “blocos” e iteradores. Em vez de fazer um ciclo sobre um índice (como no
-C, C++, ou Java pre-1.5), ou sobre uma lista (como o <tt>for (@a)
-\{...}</tt> do Perl ou <tt>for i in Lista: ...</tt> do Python, em Ruby
-irá frequentemente ver
+C, C++, ou Java pre-1.5), ou sobre uma lista (como o `for (@a) {...}`
+do Perl ou `for i in Lista: ...` do Python, em Ruby irá frequentemente ver
 
 {% highlight ruby %}
 alguma_lista.each do |este_item|
@@ -314,13 +313,13 @@ Time.mktime(2006, 01, 01) + 14.horas # => Sun Jan 01 14:00:00
 
 Em Ruby, os métodos podem terminar com pontos de interrogação e de
 exclamação. Por convenção, métodos que respondem a questões (p.e.
-<tt>Array#empty?</tt> devolve **true** se o receptor é vazio) terminam
+`Array#empty?` devolve **true** se o receptor é vazio) terminam
 em ponto de interrogação. Métodos potencialmente “perigosos” (ie métodos
 que modificam **self** ou os argumentos, `exit!`, etc.) por convenção
 terminam em ponto de exclamação.
 
 No entanto, todos os métodos que alteram os seus argumentos não terminam
-com pontos de exclamação. <tt>Array#replace</tt> substitui os conteúdos
+com pontos de exclamação. `Array#replace` substitui os conteúdos
 de um array com os de um outro array. Não faz muito sentido ter um
 método como este que **não** modifique self.
 
@@ -447,7 +446,8 @@ métodos, e não podem ser redifinidos:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Como +=, \*= etc. são somente abreviações para `var = var + outra_var`, `var = var * outra_var`, etc. não podem ser redefinidos.
+Como `+=`, `*=` etc. são somente abreviações para `var = var + outra_var`,
+`var = var * outra_var`, etc. não podem ser redefinidos.
 
 ## Mais informação
 

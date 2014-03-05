@@ -54,8 +54,8 @@ Ruby yang akan Anda lihat ketika sedang mempelajari Ruby.
 Dua fitur Ruby yang mungkin belum biasa Anda lihat sebelumnya adalah
 “blok” dan iterator. Daripada melakukan perulangan dengan indeks
 (seperti C, C++ ataupun Java sebelum versi 1.5), atau melakukan
-perulangan lewat *list* (seperti <tt>for (@a) \{...}</tt> di Perl
-ataupun <tt>for i in aList: ...</tt> di Python). Anda akan **sangat
+perulangan lewat *list* (seperti `for (@a) {...}` di Perl
+ataupun `for i in aList: ...` di Python). Anda akan **sangat
 sering** melihat kode yang mirip seperti ini di Ruby:
 
 {% highlight ruby %}
@@ -151,7 +151,7 @@ mendefinisikan ulang konstanta.
 
 Ruby memiliki pengaturan penamaan. Jika sebuah *identifier* diawali
 dengan huruf kapital, maka *identifier* tersebut merupakan konstanta.
-Jika *identifier* diawali dengan tanda dolar ($), maka *identifier*
+Jika *identifier* diawali dengan tanda dolar (`$`), maka *identifier*
 tersebut adalah variabel global. Jika identifier diawali dengan tanda
 `@`, maka identifier tersebut adalah *instance variable*. Jika
 identifier diawali dengan `@@`, maka identifier tersebut adalah variabel
@@ -331,14 +331,14 @@ Time.mktime(2007, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 Di Ruby, metode boleh diakhiri dengan tanda tanya ataupun tanda seru.
 Pengaturan nama adalah, metode-metode yang menjawab pertanyaan (seperti
-<tt>Array#empty?</tt> mengembalikan nilai **true** jika obyek penerima
+`Array#empty?` mengembalikan nilai **true** jika obyek penerima
 yaitu Array ternyata kosong) diakhiri dengan tanda tanya. Kemudian,
 metode-metode yang berpotensi untuk “membahayakan” (seperti metode yang
 mengganti **self** atau argumen, `exit!` dan lain sebagainya) maka
 pengaturannya diakhiri dengan tanda seru.
 
 Tetapi, semua metode yang mengganti argument tidak diakhiri dengan tanda
-seru. <tt>Array#replace</tt> mengganti isi array dengan isi array lain.
+seru. `Array#replace` mengganti isi array dengan isi array lain.
 Karena tidak masuk akal kalau ada metode sedemikian rupa **tidak**
 mengganti self.
 
@@ -473,8 +473,8 @@ ulang:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Tambahan, +=, \*= dan lain sebagainya hanyalah singkatan untuk `var =
-var + var_lain`, `var = var * var_lain`, dan seterusnya tidak dapat
+Tambahan, `+=`, `*=` dan lain sebagainya hanyalah singkatan untuk
+`var = var + var_lain`, `var = var * var_lain`, dan seterusnya tidak dapat
 didefinisikan ulang.
 
 ## Ingin mengetahui Ruby lebih lanjut?

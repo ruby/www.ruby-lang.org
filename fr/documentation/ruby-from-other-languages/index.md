@@ -40,9 +40,9 @@ de Ruby que vous allez rencontrer au cours de votre apprentissage.
 Représentant en général une nouveauté technique pour celui qui découvre
 Ruby, les blocs et les itérateurs demandent en général un petit temps
 d’adaptation. Au lieu de construire une boucle sur un index (comme en C,
-C++ ou java &lt; 1.5) ou sur une liste (comme en Perl, avec <tt>for (@a)
-\{...}</tt>, ou en Python, avec <tt>for i in Liste: ...</tt>), vous
-écrirez souvent en Ruby quelque chose comme :
+C++ ou java &lt; 1.5) ou sur une liste (comme en Perl, avec
+`for (@a) {...}`, ou en Python, avec `for i in Liste: ...`),
+vous écrirez souvent en Ruby quelque chose comme :
 
 {% highlight ruby %}
 une_liste.each do |item_courant|
@@ -141,7 +141,7 @@ pas un encouragement en soi à redéfinir les constantes, cela dit.
 
 Ruby intègre (et impose) des conventions de nommage sémantiques. Si un
 identifiant commence par une majuscule, il s’agit d’une constante. S’il
-débute par un signe dollar ($), c’est une variable globale. S’il débute
+débute par un signe dollar (`$`), c’est une variable globale. S’il débute
 par un `@`, il s’agit d’une variable d’instance. S’il commence par `@@`,
 c’est une variable de classe.
 
@@ -448,9 +448,9 @@ Les opérateurs ci-dessous ne sont pas des méthodes, et ne peuvent pas
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Par ailleurs, `+=`, `*=`, etc. ne sont que des raccourcis pour `var =
-var + autre_var`, `var = var * autre_var`, etc. et ne peuvent être
-redéfinis.
+Par ailleurs, `+=`, `*=`, etc. ne sont que des raccourcis pour
+`var = var + autre_var`, `var = var * autre_var`, etc. et ne peuvent
+être redéfinis.
 
 ## En savoir (encore) plus
 

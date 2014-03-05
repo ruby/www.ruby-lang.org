@@ -37,8 +37,8 @@ görüyorsunuz.
 İki Ruby özelliğini daha önce görmüşsünüzdür ama Ruby’de farklı bir
 davranış gösterirler, bloklar ve yineleyiciler. Bir index üzerinden
 döngü yapmak (C, C++ ve 1.5 öncesi Java daki gibi) veya bir liste
-üzerinde döngü yapmak (Perl’ün <tt>for (@a) \{...}</tt> veya Python’un
-<tt>for i in aList: ...</tt>) yerine Ruby ile genellikle şöyle birşey
+üzerinde döngü yapmak (Perl’ün `for (@a) {...}` veya Python’un
+`for i in aList: ...`) yerine Ruby ile genellikle şöyle birşey
 görürsünüz:
 
 {% highlight ruby %}
@@ -122,7 +122,7 @@ durdurmaz.
 ### İsimlendirme Gelenekleri
 
 Ruby bazı isimlendirme geleneklerine zorlar. Eğer bir isim büyük harfle
-başlıyorsa, o bir sabittir. Eğer bir dolar işaretiyle başlıyorsa ($), bu
+başlıyorsa, o bir sabittir. Eğer bir dolar işaretiyle başlıyorsa (`$`), bu
 bir global değişkendir. Eğer `@` işaretiyle başlıyorsa bu bir oluşum
 değişkenidir. Eğer `@@` ile başlıyorsa bu bir sınıf değişkenidir.
 
@@ -286,12 +286,12 @@ Time.mktime(2011, 01, 01) + 14.hours # => Sat Jan 01 14:00:00
 
 Ruby’de metodların soru veya ünlem işareti ile bitmesine izin verilir.
 Gelenek olarak sorulara cevap veren metodlar (örnek,
-<tt>Array#empty?</tt> eğer alıcısı boşsa **true** döner) soru işareti
+`Array#empty?` eğer alıcısı boşsa **true** döner) soru işareti
 ile biter. Tehlikeli sonuçları olabilecek metodlar (örneğin “kendi”ni
 değiştiren metodlar, `exit!` gibi) ünlem işareti ile bitirilirler.
 
 Argümanlarını değiştiren tüm metodlar ünlem işareti ile bitmayabilir.
-<tt>Array#replace</tt> bir array’in içeriğini diğer biriyle değiştirir
+`Array#replace` bir array’in içeriğini diğer biriyle değiştirir
 ama ünlemle bitmez.
 
 ### Özel Metodlar
@@ -410,7 +410,8 @@ değildir ve tekrar tanımlanamazlar:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Ek olarak, +=, \*= vb. şunların kısaltmasıdır : `var = var + other_var`, `var = var * other_var`, vb. ve bu yüzden tekrar tanımlanamazlar.
+Ek olarak, `+=`, `*=` vb. şunların kısaltmasıdır : `var = var + other_var`,
+`var = var * other_var`, vb. ve bu yüzden tekrar tanımlanamazlar.
 
 ## Daha Fazla Bilgi
 
