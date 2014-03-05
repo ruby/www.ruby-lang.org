@@ -73,5 +73,5 @@ A differenza di Perl, in Ruby,...
 
 
 
-[1]: http://docs.rubygems.org/
+[1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

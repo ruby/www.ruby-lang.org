@@ -56,5 +56,5 @@ Perl прекрасен. Документация Perl'а прекрасна. К
 
 
 
-[1]: http://docs.rubygems.org/
+[1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

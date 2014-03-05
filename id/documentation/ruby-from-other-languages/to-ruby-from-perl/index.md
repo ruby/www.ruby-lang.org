@@ -127,5 +127,5 @@ Tidak seperti Perl, di Ruby…
 [2]: http://www.99-bottles-of-beer.net/language-perl-539.html
 [3]: http://www.io.com/~jimm/
 [4]: http://www.99-bottles-of-beer.net/language-ruby-670.html
-[5]: http://docs.rubygems.org/
+[5]: http://guides.rubygems.org
 [6]: http://www.perlmonks.org/
