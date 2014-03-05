@@ -39,7 +39,7 @@ Em oposição ao Pyhton, no Ruby,...
 * Há algumas “case-conversions” forçadas (ex. nomes de classes começam
   com uma maiúsculas, variáveis começam com uma letra minúscula).
 * Há apenas um tipo de “list container” (um Array), e é mutável.
-* Texto em aspas permitem sequências de escape (tipo \\t) e sintaxe
+* Texto em aspas permitem sequências de escape (tipo `\t`) e sintaxe
   especial “expressões de substituição” (as quais permitem inserir o
   resultado das expressões em Ruby directamente numa outra string sem
   ter de adicionar `"add " + "strings " + "together"`). Texto em pelicas

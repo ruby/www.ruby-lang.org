@@ -77,7 +77,7 @@ Unlike C, in Ruby,...
   arithmetic). No typedefs, sizeof, nor enums.
 * There are no header files. You just define your functions (usually
   referred to as “methods”) and classes in the main source code files.
-* There’s no <tt>#define</tt>. Just use constants instead.
+* There’s no `#define`. Just use constants instead.
 * As of Ruby 1.8, code is interpreted at run-time rather than compiled
   to any sort of machine- or byte-code.
 * All variables live on the heap. Further, you don’t need to free them
@@ -120,8 +120,8 @@ Unlike C++, in Ruby,...
   *at runtime* if that method call actually works.
 * The “constructor” is called `initialize` instead of the class name.
 * All methods are always virtual.
-* “Class” (static) variable names always begin with <tt>@@</tt> (as in
-  <tt>@@total\_widgets</tt>).
+* “Class” (static) variable names always begin with `@@` (as in
+  `@@total_widgets`).
 * You don’t directly access member variables—all access to public member
   variables (known in Ruby as attributes) is via methods.
 * It’s `self` instead of `this`.

@@ -29,7 +29,7 @@ Come in Perl, in Ruby…
 * Si Ritrova l’interpolazione di variabili nelle stringhe fra
   virgolette, anche se `"appare #{così}.."` (bada che puoi inserire
   qualsiasi codice Ruby all’interno di `#{}`, non solo variabili).
-* I comandi Shell vengono racchiusi \`da apici sghembi\` (“backticks” in
+* I comandi Shell vengono racchiusi `` `da apici sghembi` `` (“backticks” in
   Inglese).
 * Hai tool di documentazione embedded (quello di Ruby si chiama rdoc).
 

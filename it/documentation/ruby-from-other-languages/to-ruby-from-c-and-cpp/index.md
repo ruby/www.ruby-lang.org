@@ -78,7 +78,7 @@ A differenza di C, in Ruby…
   puntatori, typedef, sizeof o enum,
 * Non ci sono file header. Bisogna definire le funzioni (normalmente
   chiamate “metodi”) e classi nei file sorgenti
-* Non esiste il <tt>#define</tt>, ma vengono usate delle costanti
+* Non esiste il `#define`, ma vengono usate delle costanti
 * Da Ruby 1.8 in poi, il codice è interpretato a runtime invece di
   essere compilato in qualsiasi tipo di codice macchina o simili.
 * Tutte le variabili sono allocate nella heap. Inoltre, non è necessario

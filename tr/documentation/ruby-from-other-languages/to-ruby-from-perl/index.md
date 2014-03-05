@@ -25,8 +25,8 @@ Perl’de olduğu gibi Ruby’de de,...
   bir^` sınırlayıcıyı da kullanabilirsiniz).
 * Çift tırnak içinde değişken değerlerine `"bu #{şekilde}"`
   erişebilirsiniz. (Ayrıca bu `#{}` içine Ruby kodu da koyabilirsiniz.
-* Shell komutu program içinden \`backtick’ler\` (ters tek tırnaklar) ile
-  çağrılır (tarih = \`date\` gibi).
+* Shell komutu program içinden `` `backtick’ler` `` (ters tek tırnaklar) ile
+  çağrılır (``tarih = `date` `` gibi).
 * Gömülü döküman aracı vardır (Ruby’ninki RDoc olarak adlandırılmıştır).
 
 ### Farklar
@@ -51,7 +51,7 @@ Ruby’de Perl’den farklı olarak,...
 * Nesne tipleri kararlıdır. Nesnelerin tipini dönüştürmek için
   `foo.to_i`, `foo.to_s` gibi elle yapmalısınız.
 * `eq`, `ne`, `lt`, `gt`, `ge`, veya `le` yoktur.
-* “Diamond” operatörü (&lt;&gt;) yoktur. Genellikle bunun yerine
+* “Diamond” operatörü (`<>`) yoktur. Genellikle bunun yerine
   <tt>IO.*fonksiyon*</tt> kullanılır .
 * “fat comma” (`=>`) sadece hash içinde kullanılır.
 * `undef` yoktur. Ruby’de `nil` vardır. `nil` de diğer herşey gibi bir

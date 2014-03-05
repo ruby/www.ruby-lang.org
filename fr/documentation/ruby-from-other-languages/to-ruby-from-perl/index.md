@@ -27,7 +27,7 @@ Tout comme en Perl, en Ruby…
 * interpolation de variable dans les chaînes entre guillemets doubles :
   `"comme #{ceci}..."`. `#{}` peut contenir n’importe quel genre et
   longueur de code Ruby ;
-* les commandes shell sont de \`cette forme\` ;
+* les commandes shell sont de `` `cette forme` `` ;
 * un outil embarqué de documentation, `rdoc`, est à votre disposition.
 
 ### Différences

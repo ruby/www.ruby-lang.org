@@ -26,7 +26,7 @@ Giống như Perl, trong Ruby,...
 * You’ve got double-quotish variable interpolation, though
   nó `"trông #{như thế} này"` (và bạn có thể đặt bất cứ đoạn mã mình thích vào
   `#{}`).
-* Mở rộng lệnh shell bằng \`backticks\`.
+* Mở rộng lệnh shell bằng `` `backticks` ``.
 * Có tích hợp các công cụ doc (trong Ruby là rdoc).
 
 ### Khác biệt
@@ -36,10 +36,10 @@ Khác với Perl, trong Ruby,...
 * Bạn không cần các quy tắc về ngữ cảnh như Perl.
 * Một biến không giống như đối tượng mà nó có thể tham chiếu.
   Thay vào đó nó luôn được tham chiếu đến đối tượng.
-* Mặc dù `$` và <tt>@</tt> đôi khi được sử dụng khi khai báo
+* Mặc dù `$` và `@` đôi khi được sử dụng khi khai báo
   tên biến, chứ không chỉ loại của nó, nó chỉ ra phạm vi (`$`
-  cho toàn cục, <tt>@</tt> cho thể hiện của đối tượng, và
-  <tt>@@</tt> cho thuộc tính của lớp).
+  cho toàn cục, `@` cho thể hiện của đối tượng, và
+  `@@` cho thuộc tính của lớp).
 * Các phần tử của mảng đặt trong ngoặc vuông thay vì ngoặc đơn.
 * Kết hợp list từ các list khác không làm cho chúng trở nên lớn hơn.
   Thay vào đó bạn sẽ nhận được một mảng của mảng.

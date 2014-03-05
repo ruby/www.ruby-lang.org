@@ -43,7 +43,7 @@ A differenza di Python, in Ruby…
   con una minuscola).
 * C’è un solo tipo di contenitore per le liste (un Array) ed è mutabile.
 * Le stringhe tra virgolette supportano diverse sequenze di escape (come
-  \\t) e una speciale “sostituzione di espressioni” direttamente in
+  `\t`) e una speciale “sostituzione di espressioni” direttamente in
   altre stringhe senza dover `"concatenare" + "più stringhe" +
   "insieme"`. Le stringhe tra apici sono le `r"raw string"` di Python.
 * Non vi sono classi di nuovo o vecchio stile, ma di un solo tipo

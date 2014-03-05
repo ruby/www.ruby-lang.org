@@ -91,7 +91,7 @@ Es gibt allerdings deutlich mehr Unterschiede als Gemeinsamkeiten zwischen Ruby 
 * Es gibt keine direkte Möglichkeit, Assembler-Code zu verwenden.
 * Ruby-Code wird so interpretiert, wie er ist. Dementsprechend gibt es
   keinen Präprozessor und keine Makros. Anstelle von mit
-  <tt>#define</tt> festgelegten Namen für Literale werden Konstanten
+  `#define` festgelegten Namen für Literale werden Konstanten
   verwendet.
 * Es werden keine *header-Dateien* benötigt. Alle Funktionen (die unter
   Ruby *Methoden* genannt werden) und Strukturen werden in Modulen oder

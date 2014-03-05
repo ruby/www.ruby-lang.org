@@ -39,7 +39,7 @@ Python’ın aksine, Rubyde,...
 * Bazı zorunlu harf kuralları vardır. (ör. sınıf isimleri büyük harfle
   başlar, değişkenler küçük harfle başlar).
 * Tek çeşit liste konteyneri vardır (bir dizi(Array)), ve değişkendir.
-* Çift tırnaklı karakter dizeleri kaçış karakterlerine (\\t gibi) ve
+* Çift tırnaklı karakter dizeleri kaçış karakterlerine (`\t` gibi) ve
   özel “ifade ikame” söz dizilerine (Ruby ifadelerinin sonuçlarını diğer
   karakter dizelerine `"add " + "strings " + "together"` şeklinde
   uğraşmadan direkt olarak eklemenizi sağlar) izin verir. Tek tırnaklı

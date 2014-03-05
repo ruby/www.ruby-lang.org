@@ -78,7 +78,7 @@ Sama seperti Perl, di Ruby…
   #{seperti} ini"` (contoh sebelumnya menghasilkan isi variabel
   `seperti`, tapi Anda bisa menaruh kode Ruby apa pun di dalam sintaks
   `#{}`).
-* Shell command juga menggunakan \`backtick\` (tanda petik balik).
+* Shell command juga menggunakan `` `backtick` `` (tanda petik balik).
 * Mempunyai fitur dokumentasi dalam kode, yang di Ruby disebut `rdoc`.
 
 ### Perbedaan Perl dan Ruby

@@ -27,7 +27,7 @@ As with Perl, in Ruby,...
 * you’ve got double-quotish variable interpolation, though it `"looks
   #{like} this"` (and you can put any Ruby code you like inside that
   `#{}`).
-* shell command expansion uses \`backticks\`.
+* shell command expansion uses `` `backticks` ``.
 * you’ve got embedded doc tools (Ruby’s is called rdoc).
 
 ### Differences
@@ -37,10 +37,10 @@ Unlike Perl, in Ruby,...
 * you don’t have the context-dependent rules like with Perl.
 * a variable isn’t the same as the object to which it refers. Instead,
   it’s always just a reference to an object.
-* although `$` and <tt>@</tt> are used as the first character in
+* although `$` and `@` are used as the first character in
   variable names sometimes, rather than indicating type, they indicate
-  scope (`$` for globals, <tt>@</tt> for object instance, and
-  <tt>@@</tt> for class attributes).
+  scope (`$` for globals, `@` for object instance, and
+  `@@` for class attributes).
 * array literals go in brackets instead of parentheses.
 * composing lists of other lists does not flatten them into one big
   list. Instead you get an array of arrays.

@@ -71,7 +71,7 @@ Ruby’de C’den farklı olarak,...
   (veya işaretçi aritmetiği) yoktur. Tip ve boyut tanımlaması yoktur.
 * Header dosyalar yoktur. Fonksiyonlarınızı (genelde metod denir) ve
   sınıflarınızı kaynak dosyalarınıza yazarsınız.
-* <tt>#define</tt> yoktur, sabitler direk kullanılır, tanımlanmaz.
+* `#define` yoktur, sabitler direk kullanılır, tanımlanmaz.
 * Ruby 1.8 itibarıyla kod makina ya da byte koduna dönüştürüleceğine
   direk runtime içinde işlenmektedir.
 * Tüm değişkenler yığında canlı durur. Dahası hafızadan kendiniz
@@ -114,8 +114,8 @@ Ruby’de C++’tan farklı,...
 * Sınıf inşaa edici metod sınıfın adı yerine `initialize` olarak
   adlandırılır.
 * Herzaman tüm metodlar gerçeldir.
-* “Class” (static) değişken isimleri herzaman <tt>@@</tt> ile başlar
-  (<tt>@@total\_widgets</tt> daki gibi).
+* “Class” (static) değişken isimleri herzaman `@@` ile başlar
+  (`@@total_widgets` daki gibi).
 * Üye değişkenlere direk erişemezsiniz—Tüm public üye değişkenlere
   ulaşmak için (Ruby’de attribute denir) metodlar kullanılır.
 * `this` yerine `self` kullanılır.

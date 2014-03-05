@@ -121,9 +121,9 @@ Tidak seperti C, di Ruby,...
 * Tidak ada file-file *header*. Anda cukup definisikan *function* Anda
   (biasanya disebut *method* di Ruby) dan kelas pada file *source code*
   utama.
-* Tidak ada <tt>#define</tt>. Cukup gunakan konstanta.
+* Tidak ada `#define`. Cukup gunakan konstanta.
 * Di Ruby 1.8, kode diinterpretasi pada saat *run-time* daripada
-  di\_compile\_ ke *machine-code* ataupun ke *byte-code*.
+  di *compile* ke *machine-code* ataupun ke *byte-code*.
 * Semua variabel ada di heap. Lebih jauh, Anda tidak perlu membebaskan
   variabel, sudah ada garbage collector untuk itu.
 * Argument-argument di metode (atau function) di pass by reference,

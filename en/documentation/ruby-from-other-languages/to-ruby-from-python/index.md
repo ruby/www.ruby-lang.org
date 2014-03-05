@@ -38,7 +38,7 @@ Unlike Python, in Ruby,...
 * There are some enforced case-conventions (ex. class names start with a
   capital letter, variables start with a lowercase letter).
 * There’s only one kind of list container (an Array), and it’s mutable.
-* Double-quoted strings allow escape sequences (like \\t) and a special
+* Double-quoted strings allow escape sequences (like `\t`) and a special
   “expression substitution” syntax (which allows you to insert the
   results of Ruby expressions directly into other strings without having
   to `"add " + "strings " + "together"`). Single-quoted strings are like

@@ -31,7 +31,7 @@ Tal como no Perl, em Ruby,...
 * Em Ruby existe interpolação de váriaveis entre aspas, `"aplica-se
   #{desta} forma"` (o código ruby é colocado entre `#{}`).
 * A execução de comandos de sistema através da Shell faz-se com
-  \`backticks\`.
+  `` `backticks` ``.
 * O Ruby possui ferramentas de documentação embebidas (No Ruby’s é
   chamdo Rdoc).
 
@@ -42,10 +42,10 @@ Ao contrario do Perl, no Ruby…
 * Não existem as regras dependentes do contexto como no Perl.
 * Uma variável não é o mesmo que o objecto ao qual se refere. Em vez
   disso é sempre um referencia para um objecto.
-* Apesar de `$` e <tt>@</tt> serem utilizados por vezes como os
+* Apesar de `$` e `@` serem utilizados por vezes como os
   primeiros caracteres nos nomes das variaveis, em vez de indicar o
-  tipo, indicam o ambito `$` para variáveis globais, <tt>@</tt> para
-  instancias de objectos, e <tt>@@</tt> para atributos de classe).
+  tipo, indicam o ambito `$` para variáveis globais, `@` para
+  instancias de objectos, e `@@` para atributos de classe).
 * Os elementos de um Array são colocados entre parênteses rectos em vez
   de parênteses curvos.
 * Criar listas de listas não as reduz a uma grande lista, em vez disso

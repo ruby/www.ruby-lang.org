@@ -36,7 +36,7 @@ Khác với Python, trong Ruby,...
 * Viết theo quy ước trong một số trường hợp (ví dụ tên lớp phải bắt đầu
   bằng ký tự in hoa, các biến bắt đầu với ký tự thường).
 * Chỉ có một loại danh sách chứa (một mảng), và có thể thay đổi.
-* Các chuỗi trong dấu nháy kép cho phép chuyển đổi tuần tự (như \\t)
+* Các chuỗi trong dấu nháy kép cho phép chuyển đổi tuần tự (như `\t`)
   và cú pháp "thay đổi biểu thức" đặc biệt (cho phép bạn có thể chèn
   trực tiếp vào kết quả của biểu thức đó mà không cần phải `"gắn " +
   "các chuỗi " + "vào nhau"`). Các chuỗi nằm trong dấu nháy đơn tương

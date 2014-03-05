@@ -10,7 +10,7 @@ tremenda. Uma das razões, é que o Ruby runtime faz muito do trabalho
 pelo programador.
 
 O Ruby parece estar tão longe quanto possível do principio de “sem
-mecanismos escondidos” do C <del>—</del> o objectivo principal do Ruby é
+mecanismos escondidos” do C — o objectivo principal do Ruby é
 tornar o trabalho humano mais fácil ás custas de entregar ao runtime um
 maior volume de trabalho. A menos que, ou até que, se dedique a
 optimizar o seu código, não terá de se preocupar minimamente em “manter
@@ -87,7 +87,7 @@ Ao contrario do C, em Ruby…
   ou enums.
 * Não existem ficheiros header. Basta definir funções (normalmente
   chamados de “métodos”) e classes nos ficheiros de código fonte.
-* Não se usa <tt>#define</tt>. Ao invés usam-se constantes.
+* Não se usa `#define`. Ao invés usam-se constantes.
 * A partir da versão 1.8 de Ruby, o código é interpretado em tempo de
   execução em vês de ser compilado para qualquer tipo de código maquina
   ou binário.
