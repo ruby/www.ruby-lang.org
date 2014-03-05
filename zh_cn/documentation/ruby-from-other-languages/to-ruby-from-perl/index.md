@@ -21,9 +21,9 @@ As with Perl, in Ruby,...
 * Parentheses are often optional
 * Strings work basically the same.
 * There’s a general delimited string and regex quoting syntax similar to
-  Perl’s (looks like `%q{this (single-quoted)}`, or `%Q{this
-  (double-quotish)}`, and `%w{this for a single-quoted list of words}`.
-  You `%Q|can|` `%Q(use)` `%Q^other^` delimiters if you like).
+  Perl’s. It looks like `%q{this}` (single-quoted), or `%Q{this}`
+  (double-quoted), and `%w{this for a single-quoted list of words}`.
+  You `%Q|can|` `%Q(use)` `%Q^other^` delimiters if you like.
 * You’ve got double-quotish variable interpolation, though it `"looks
   #{like} this"` (and you can put any Ruby code you like inside that
   `#{}`).

@@ -23,8 +23,8 @@ Genau wie Perl hat Ruby…
 * Zeichenketten (Strings) funktionieren im Prinzip genau gleich.
 * Es gibt eine verallgemeinerte Syntax für Begrenzer von Zeichenketten
   und regulären Ausdrücken, ähnlich wie bei Perl.
-  Das sieht `%q{so (einfache Anführungszeichen)}`
-  oder `%Q{so (doppelte Anführungszeichen)}` aus,
+  Das sieht `%q{so}` (einfache Anführungszeichen)
+  oder `%Q{so}` (doppelte Anführungszeichen) aus,
   und `%w{so für eine Liste von Wörtern}` (einfache Anführungszeichen).
   Man `%Q|kann|` `%Q(auch)` `%Q^andere^` Begrenzer verwenden.
 * Es gibt Interpolation in Zeichenketten mit doppelten Anführungszeichen,

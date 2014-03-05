@@ -70,8 +70,8 @@ Sama seperti Perl, di Ruby…
   tidak)
 * Cara penggunaan `String` secara umum mirip dengan Perl.
 * Sintaks *delimited string* dan *regexp* mirip dengan Perl (seperti
-  `%q{ini string (string-quoted)}`, atau `%Q{ini juga string
-  (double-quoted)}`, dan `%w{ini untuk list kata-kata yang
+  `%q{ini string}` (single-quoted), atau `%Q{ini juga string}`
+  (double-quoted), dan `%w{ini untuk list kata-kata yang
   single-quoted}`. Anda `%Q|bisa|` `%Q~saja~` `%Q(menggunakan)`
   delimiter `%Q^yang lain^` kalau Anda suka).
 * Menyediakan interpolasi string dalam petik ganda, `"bentuknya

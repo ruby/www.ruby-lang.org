@@ -21,8 +21,8 @@ Tout comme en Perl, en Ruby…
 * les parenthèses sont souvent optionnelles ;
 * les chaînes de caractères sont globalement gérées de la même manière ;
 * la syntaxe pour borner chaînes et regex est similaire (du genre
-  `%q{hop (single-quote)}`, ou `%Q{hop (double-quote)}`, et `%w{une
-  phrase à part entière}`. Vous `%Q|pouvez|` `%Q(utiliser)`
+  `%q{hop}` (single-quote), ou `%Q{hop}` (double-quote), et
+  `%w{une phrase à part entière}`. Vous `%Q|pouvez|` `%Q(utiliser)`
   `%Q^d'autres^` signes de début et fin, si vous le voulez) ;
 * interpolation de variable dans les chaînes entre guillemets doubles :
   `"comme #{ceci}..."`. `#{}` peut contenir n’importe quel genre et

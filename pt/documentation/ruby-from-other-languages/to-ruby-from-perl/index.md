@@ -24,8 +24,8 @@ Tal como no Perl, em Ruby,...
 * Os Parênteses são frequentemente opcionais.
 * As Strings funcionam essencialmente da mesma forma.
 * Existe uma sitaxe de delimitação de strings e expressões regulares
-  geralmente utilizada semelhante a do Perl (com o formato `%q{este
-  (pelicas)}`, ou `%Q{este (aspas)}`, e `%w{este para uma lista de
+  geralmente utilizada semelhante a do Perl (com o formato `%q{este}`
+  (pelicas), ou `%Q{este}` (aspas), e `%w{este para uma lista de
   palavras com pelicas}`. Podem `%Q|ser |` `%Q(utilizados)` `%Q^outros^`
   delimitadores).
 * Em Ruby existe interpolação de váriaveis entre aspas, `"aplica-se

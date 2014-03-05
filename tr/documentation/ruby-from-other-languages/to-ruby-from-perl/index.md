@@ -19,8 +19,8 @@ Perl’de olduğu gibi Ruby’de de,...
 * Birçok sık kullanılan özellik içinde gömülüdür.
 * Parantezler çoğunlukla isteğe bağlıdır
 * String’ler aynı şekilde çalışır.
-* Perl gibi string ve regex belirleme yapıları vardır. (`%q{bu
-  (tek-tırnak)}`, veya `%Q{bu (çift-tırnaklı)}`, ve `%w{bu tek-tırnaklı
+* Perl gibi string ve regex belirleme yapıları vardır. (`%q{bu}`
+  (tek-tırnak), veya `%Q{bu}` (çift-tırnaklı), ve `%w{bu tek-tırnaklı
   kelime listesi}` gibi. İsterseniz `%Q|bunu|` `%Q(veya)` `%Q^diğer
   bir^` sınırlayıcıyı da kullanabilirsiniz).
 * Çift tırnak içinde değişken değerlerine `"bu #{şekilde}"`
