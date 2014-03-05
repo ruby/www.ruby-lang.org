@@ -50,7 +50,7 @@ end
 {% endhighlight %}
 
 Để hiểu thêm về `each` (và cũng như `collect`, `find`, `inject`,
-`sort`, v.v..), xem `ri Enumerable` (và <tt>ri Enumerable#*func\_name*</tt>).
+`sort`, v.v..), xem `ri Enumerable` (và `ri Enumerable#some_method`).
 
 ### Tất cả mọi thứ đều có giá trị
 

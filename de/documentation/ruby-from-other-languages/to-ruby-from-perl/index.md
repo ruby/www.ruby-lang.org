@@ -56,7 +56,7 @@ Anders als in Perl…
   vorgenommen werden, zum Beispiel mit `foo.to_i`, `foo.to_s`, usw.
 * Es gibt kein `eq`, `ne`, `lt`, `gt`, `ge` oder `le`.
 * Es gibt keinen Diamantoperator (`<>`),
-  üblicherweise wird stattdessen <tt>IO.*some\_func*</tt> geschrieben.
+  üblicherweise wird stattdessen `IO.some_method` geschrieben.
 * `=>` wird nur für Hash-Literale verwendet.
 * Es gibt kein `undef`. In Ruby gibt es `nil`.
   `nil` ist ein Objekt (wie alles andere in Ruby auch) und

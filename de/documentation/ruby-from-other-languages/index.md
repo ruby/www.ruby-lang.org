@@ -51,8 +51,8 @@ end
 {% endhighlight %}
 
 Mehr zu `each` (und seine Artgenossen `collect`/`map`, `find`, `inject`,
-`sort` etc.) erfährst du über `ri Enumerable` (bzw. <tt>ri
-Enumerable#*methodenname*</tt>).
+`sort` etc.) erfährst du über `ri Enumerable`
+(bzw. `ri Enumerable#methodenname`).
 
 ### Alles hat einen Wert
 

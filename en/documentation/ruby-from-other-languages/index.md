@@ -51,8 +51,7 @@ end
 {% endhighlight %}
 
 For more info on `each` (and its friends `collect`, `find`, `inject`,
-`sort`, etc.), see `ri Enumerable` (and then <tt>ri
-Enumerable#*func\_name*</tt>).
+`sort`, etc.), see `ri Enumerable` (and then `ri Enumerable#some_method`).
 
 ### Everything has a value
 
@@ -328,7 +327,7 @@ other_car.inspect # => Cheap car
 Ruby doesn’t give up if it can’t find a method that responds to a
 particular message. It calls the `method_missing` method with the name
 of the method it couldn’t find and the arguments. By default,
-method\_missing raises a NameError exception, but you can redefine it to
+`method_missing` raises a NameError exception, but you can redefine it to
 better fit your application, and many libraries do. Here is an example:
 
 {% highlight ruby %}

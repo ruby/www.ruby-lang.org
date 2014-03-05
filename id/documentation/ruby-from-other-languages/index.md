@@ -68,8 +68,8 @@ end
 {% endhighlight %}
 
 Untuk info lebih lanjut tentang `each` (dan teman-temannya seperti
-`collect`, `find`, `inject`, `sort`, dan lain-lain.), lihat `ri
-Enumerable` (kemudian <tt>ri Enumerable#*func\_name*</tt>).
+`collect`, `find`, `inject`, `sort`, dan lain-lain.), lihat
+`ri Enumerable` (kemudian `ri Enumerable#some_method`).
 
 ### Semua Mempunyai Nilai
 
@@ -368,7 +368,7 @@ mobil_lain = Mobil.new
 mobil_lain.inspect # => Mobil murah
 {% endhighlight %}
 
-### Metode method\_missing
+### Metode `method_missing`
 
 Ruby tidak menyerah kalau Ruby tidak mendapatkan metode yang bisa
 menanggapi *message* tertentu. Ruby akan memanggil metode

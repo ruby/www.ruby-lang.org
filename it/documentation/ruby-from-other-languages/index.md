@@ -52,8 +52,8 @@ end
 {% endhighlight %}
 
 Per maggiori informazioni su `each` e simili (`collect`, `find`,
-`inject`, `sort`, ecc.) vedi `ri Enumerable` (e poi <tt>ri
-Enumerable#*nome\_funzione*</tt>).
+`inject`, `sort`, ecc.) vedi `ri Enumerable`
+(e poi `ri Enumerable#nome_funzione`).
 
 ### Ogni cosa ha un valore
 
@@ -354,7 +354,7 @@ altra_auto.ispeziona # => Macchina a buon mercato
 Ruby non si arrende se non riesce a trovare un metodo che risponde ad un
 particolare messaggio, e chiama il metodo `method_missing` con il nome
 del metodo non trovato e i relativi argomenti. Di default,
-method\_missing causa un’eccezione NameError, ma è possibile ridefinirlo
+`method_missing` causa un’eccezione NameError, ma è possibile ridefinirlo
 a seconda delle esigenze di una particolare applicazione, e così fanno
 molte librerie. Ecco un esempio:
 

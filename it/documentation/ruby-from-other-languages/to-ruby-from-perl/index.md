@@ -58,7 +58,7 @@ A differenza di Perl, in Ruby,...
   linguaggio non lo farà per te).
 * Non ci sono `eq`, `ne`, `lt`, `gt`, `ge`, `le`.
 * Non c’è l’operatore diamante (`<>`) per l’entrata-uscita dati; invece di
-  solito si usa <tt>IO.*qualche\_funzione*</tt>.
+  solito si usa `IO.qualche_funzione`.
 * Il simbolo `=>` (“fat comma”) viene usato solamente per segnalare la
   corrispondenza chiave-valore nei hash.
 * Non esiste `undef`; in Ruby esiste solo `nil`, il quale è un oggetto

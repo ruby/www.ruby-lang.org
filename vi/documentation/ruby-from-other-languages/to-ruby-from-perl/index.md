@@ -49,7 +49,7 @@ Khác với Perl, trong Ruby,...
 * Đối tượng là kiểu dữ liệu chủ đạo. Bạn có thể gọi `foo.to_i`,
   `foo.to_s`, v.v., nếu bạn muốn chuyển đổi kiểu dữ liệu.
 * Không có `eq`, `ne`, `lt`, `gt`, `ge`, nor `le`.
-* Không có toán tử diamond (`<>`). Bạn có thể sử dụng <tt>IO.*some\_func*</tt>
+* Không có toán tử diamond (`<>`). Bạn có thể sử dụng `IO.some_method`
   để thay thế.
 * Dấu suy ra `=>` chỉ được dùng cho các chuỗi ký tự hash.
 * Không có `undef`. Trong Ruby bạn có `nil`. `nil` là một đối tượng (như

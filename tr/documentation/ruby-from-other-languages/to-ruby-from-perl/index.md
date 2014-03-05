@@ -52,7 +52,7 @@ Ruby’de Perl’den farklı olarak,...
   `foo.to_i`, `foo.to_s` gibi elle yapmalısınız.
 * `eq`, `ne`, `lt`, `gt`, `ge`, veya `le` yoktur.
 * “Diamond” operatörü (`<>`) yoktur. Genellikle bunun yerine
-  <tt>IO.*fonksiyon*</tt> kullanılır .
+  `IO.fonksiyon` kullanılır.
 * “fat comma” (`=>`) sadece hash içinde kullanılır.
 * `undef` yoktur. Ruby’de `nil` vardır. `nil` de diğer herşey gibi bir
   nesnedir. Tanımsız değişken ile aynı şey değildir. Boolean

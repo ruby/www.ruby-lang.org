@@ -39,8 +39,8 @@ some_list.each do |this_item|
 end
 {% endhighlight %}
 
-关于更多 `each` 的信息（还有 `collect`, `find`, `inject`, `sort`, etc.），请参考 `ri
-Enumerable` （和 <tt>ri Enumerable#*func\_name*</tt>）。
+关于更多 `each` 的信息（还有 `collect`, `find`, `inject`, `sort`, etc.），请参考
+`ri Enumerable` （和 `ri Enumerable#some_method`）。
 
 ### 一切表达方法皆有值
 
@@ -283,7 +283,7 @@ other_car.inspect # => Cheap car
 Ruby doesn’t give up if it can’t find a method that responds to a
 particular message. It calls the `method_missing` method with the name
 of the method it couldn’t find and the arguments. By default,
-method\_missing raises a NameError exception, but you can redefine it to
+`method_missing` raises a NameError exception, but you can redefine it to
 better fit your application, and many libraries do. Here is an example:
 
 {% highlight ruby %}

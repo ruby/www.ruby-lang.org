@@ -49,8 +49,8 @@ end
 {% endhighlight %}
 
 `each` (ve arkadaşları `collect`, `find`, `inject`, `sort`, vs.)
-hakkında daha fazla bilgi için komut satırında `ri Enumerable` (ve
-sonrasında <tt>ri Enumerable#*func\_name*</tt>) yazabilirsiniz.
+hakkında daha fazla bilgi için komut satırında `ri Enumerable`
+(ve sonrasında `ri Enumerable#some_method`) yazabilirsiniz.
 
 ### Herşeyin Bir Değeri Vardır
 
@@ -323,7 +323,7 @@ other_car.inspect # => Ucuz araba
 
 Ruby bir metodu listesinde bulamayınca vazgeçmez, `method_missing`
 metodunu bulamadığı metod ismi ve argümanları ile çağırır. Normalde
-method\_missing bir NameError hatası verir, fakat isterseniz bunu
+`method_missing` bir NameError hatası verir, fakat isterseniz bunu
 istediğiniz şekilde değiştirebilirsiniz ve birçok kütüphane de bunu
 yapar. Bir örnek:
 

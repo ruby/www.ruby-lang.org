@@ -40,8 +40,8 @@ some_list.each do |this_item|
 end
 {% endhighlight %}
 
-關於更多 `each` 的資訊 (以及 `collect`, `find`, `inject`, `sort` 等等)，請參考 `ri
-Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
+關於更多 `each` 的資訊 (以及 `collect`, `find`, `inject`, `sort` 等等)，請參考
+`ri Enumerable` (和 `ri Enumerable#some_method`).
 
 ### 一切東西都有值
 
@@ -292,7 +292,7 @@ other_car.inspect # => Cheap car
 ### Missing 方法
 
 當你呼叫一個不存在的方法，Ruby 仍然有辦法處理。它會改呼叫 `method_missing`
-這個方法，並把這個不存在的方法名稱傳進去當做參數。method\_missing 預設會丟出一個 NameError
+這個方法，並把這個不存在的方法名稱傳進去當做參數。`method_missing` 預設會丟出一個 NameError
 例外，但是你可以根據你的需求重新定義過，也有許多函式庫這麼做。這是一個例子：
 
 {% highlight ruby %}

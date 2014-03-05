@@ -66,7 +66,7 @@ end
 
 Para obtener más información sobre `each` (y sus amigos `collect`,
 `find`, `inject`, `sort`, etc.), ejecuta `ri Enumerable` (y después
-<tt>ri Enumerable#*nombre\_del\_metodo*</tt>).
+`ri Enumerable#nombre_del_metodo`).
 
 ### Todo tiene un valor
 
@@ -359,7 +359,7 @@ otro_auto.inspect # => Auto barato
 Ruby no se rinde si no puede encontrar un método que responda a un
 mensaje en particular. Llama al método `method_missing` con el nómbre
 del método que no pudo encontrar y sus argumentos. Por defecto,
-method\_missing lanza una excepción NameError, pero puedes redefinirlo
+`method_missing` lanza una excepción NameError, pero puedes redefinirlo
 para que se ajuste mejor a tu aplicación, y muchas bibliotecas lo hacen.
 Aquí tienes un ejemplo:
 

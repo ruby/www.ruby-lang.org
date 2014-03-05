@@ -44,8 +44,8 @@ end
 {% endhighlight %}
 
 Aby dowiedzieć się więcej o `each` (oraz pokrewnych: `collect`, `find`,
-`inject`, `sort`, itd), rzuć okiem na `ri Enumerable` (a potem <tt>ri
-Enumerable#*func\_name*</tt>).
+`inject`, `sort`, itd), rzuć okiem na `ri Enumerable`
+(a potem `ri Enumerable#func_name`).
 
 ### Wszystko ma wartość
 
@@ -335,7 +335,7 @@ other_car.inspect # => Tani samochód
 
 Ruby nie poddaje się jeśli nie może odnaleźć danej metody. Wywołuje w
 takim przypadku metodę `method_missing` przekazując nazwę metody, której
-nie mógł znaleźć jako argument. Domyślnie, method\_missing zgłasza
+nie mógł znaleźć jako argument. Domyślnie, `method_missing` zgłasza
 wyjątek NameError, lecz można ją przedefiniować aby lepiej pasowała do
 Twojej aplikacji, wiele bibliotek tak robi. Poniżej jeden z przykładów:
 

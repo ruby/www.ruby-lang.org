@@ -53,8 +53,7 @@ end
 
 Pour plus d’informations sur `each` et ses méthodes apparentées
 (`collect`, `find@n @inject`, `sort`, etc.), voyez `ri Enumerable` dans
-un terminal, par exemple (affinez ensuite avec <tt>@ri
-Enumerable#*méthode*</tt>).
+un terminal, par exemple (affinez ensuite avec `ri Enumerable#méthode`).
 
 ### Des valeurs, partout
 

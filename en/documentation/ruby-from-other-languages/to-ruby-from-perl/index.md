@@ -52,7 +52,7 @@ Unlike Perl, in Ruby,...
   `foo.to_s`, etc., if you need to convert between types.
 * There’s no `eq`, `ne`, `lt`, `gt`, `ge`, nor `le`.
 * There’s no diamond operator (`<>`).
-  You usually use <tt>IO.*some\_func*</tt> instead.
+  You usually use `IO.some_method` instead.
 * The fat comma `=>` is only used for hash literals.
 * There’s no `undef`. In Ruby you have `nil`. `nil` is an object (like
   anything else in Ruby). It’s not the same as an undefined variable. It
