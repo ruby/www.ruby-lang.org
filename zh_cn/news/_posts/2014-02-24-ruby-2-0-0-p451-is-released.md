@@ -8,7 +8,7 @@ lang: zh_cn
 ---
 
 今天，2月24日，是Ruby的21周岁生日，
-因此，我们很高兴地宣布发布一个新的补丁版本和Ruby2.1.1，Ruby 2.0.0-p451。
+因此，我们很高兴地宣布发布一个新的补丁版本和Ruby 2.0.0，Ruby 2.0.0-p451。
 
 这次发布包含了许多缺陷修复。
 见 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
