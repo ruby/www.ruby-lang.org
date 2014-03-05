@@ -57,7 +57,7 @@ A differenza di Perl, in Ruby,...
   `foo.to_i`, `foo.to_s`, etc., se devi fare conversioni di tipo (il
   linguaggio non lo farà per te).
 * Non ci sono `eq`, `ne`, `lt`, `gt`, `ge`, `le`.
-* Non c’è l’operatore diamante per l’entrata-uscita dati; invece di
+* Non c’è l’operatore diamante (`<>`) per l’entrata-uscita dati; invece di
   solito si usa <tt>IO.*qualche\_funzione*</tt>.
 * Il simbolo `=>` (“fat comma”) viene usato solamente per segnalare la
   corrispondenza chiave-valore nei hash.

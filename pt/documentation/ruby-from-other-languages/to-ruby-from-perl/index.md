@@ -58,7 +58,7 @@ Ao contrario do Perl, no Ruby…
   métodos `foo.to_i`, `foo.to_s`, etc., se for necessário converter
   entre tipos.
 * Não existem `eq`, `ne`, `lt`, `gt`, `ge`, nem `le`.
-* Não existe ‘diamond operator’. Usualmente utiliza-se
+* Não existe ‘diamond operator’ (`<>`). Usualmente utiliza-se
   <tt>IO.*alguma\_funçao*</tt>.
 * O simbolo `=>` é utilizado somente para os elementos de uma tabelas
   de hash.

@@ -106,7 +106,7 @@ Tidak seperti Perl, di Ruby…
   `foo.to_s`, dan seterusnya.
 * Tidak ada `eq`, `ne`, `lt`, `gt`, `ge` ataupun `le`. Gunakan operator
   yang sudah baku, misalnya `<`, `>=`, dan sebagainya.
-* Tidak ada *diamond operator*. Anda biasanya dapat
+* Tidak ada *diamond operator* (`<>`). Anda biasanya dapat
   <tt>IO.*some\_func*</tt> sebagai gantinya.
 * *Fat comma* (`=>`) hanya digunakan untuk membuat hash.
 * Tidak ada `undef`. Di Ruby Anda dapat menggunakan `nil`. `nil`

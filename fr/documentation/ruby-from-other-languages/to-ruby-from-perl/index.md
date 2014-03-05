@@ -53,7 +53,7 @@ Contrairement à Perl, en Ruby…
   telles que `foo.to_i`, `foo.to_s` pour réaliser les conversions entre
   types ;
 * pas de `eq`, `ne`, `lt`, `gt`, `ge`, `le` ;
-* pas de *diamond operator*\: on utilisera en général
+* pas de *diamond operator* (`<>`)\: on utilisera en général
   <tt>IO.*une\_fonction*</tt> à la place ;
 * le symbole `=>` n’est utilisée que pour les littéraux de hash ;
 * pas de `undef`. Ruby utilise `nil`, un objet modélisant l’absence de
