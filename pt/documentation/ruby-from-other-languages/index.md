@@ -400,7 +400,7 @@ appending a special argument to the argument list, like so:
 {% highlight ruby %}
 def block( &o_bloco )
   # Aqui dentro, o_bloco é o bloco passado ao método o_bloco
-  # devolve o_bloco
+  o_bloco # devolve o bloco
 end
 somador = block { |a, b| a + b }
 # somador e' agora um objecto Proc
