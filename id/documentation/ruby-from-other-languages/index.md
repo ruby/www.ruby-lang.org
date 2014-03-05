@@ -81,10 +81,10 @@ juga tetap punya *value*). Ini karena:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -382,7 +382,7 @@ dan banyak *library* yang melakukan hal yang sama. Contoh:
 # id adalah nama metode yang dipanggil,
 # sintaks * mengumpulkan semua arguments
 # dalam array yang bernama 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Metode #{id} telah dipanggil, " +
     "tetapi tidak ditemukan. " +
     "Metode ini punya arguments sebagai berikut: " +
@@ -421,7 +421,7 @@ memanggil blok, Anda bisa menggunakan `yield`, atau membuat sebuah obyek
 contoh berikut:
 
 {% highlight ruby %}
-def blok( &the_block )
+def blok(&the_block)
   # Di dalam sini, the_block adalah blok yang dilewatkan ke metode blok
   the_block # return the block
 end
@@ -453,7 +453,7 @@ kelas Fixnum:
 class Fixnum
   # Sebenarnya Anda bisa melakukan ini,
   # tetapi tolong jangan lakukan ini
-  def +( other )
+  def +(other)
     self - other
   end
 end

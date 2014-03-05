@@ -50,10 +50,10 @@ Enumerable` （和 <tt>ri Enumerable#*func\_name*</tt>）。
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -289,7 +289,7 @@ better fit your application, and many libraries do. Here is an example:
 {% highlight ruby %}
 # id is the name of the method called, the * syntax collects
 # all the arguments in an array named 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
 end
@@ -322,7 +322,7 @@ call a block, you can either use `yield`, or make it a `Proc` by
 appending a special argument to the argument list, like so:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Inside here, the_block is the block passed to the method
   the_block # return the block
 end
@@ -350,7 +350,7 @@ method:
 {% highlight ruby %}
 class Fixnum
   # You can, but please don't do this
-  def +( other )
+  def +(other)
     self - other
   end
 end

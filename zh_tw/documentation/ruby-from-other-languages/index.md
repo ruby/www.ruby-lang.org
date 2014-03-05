@@ -51,10 +51,10 @@ Enumerable` (和 <tt>ri Enumerable#*func\_name*</tt>).
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -298,7 +298,7 @@ other_car.inspect # => Cheap car
 {% highlight ruby %}
 # id 是被呼叫方法的名字，而 * 符號會收集
 # 所有傳進來的參數變成一個叫做 'arguments' 的陣列
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
 end
@@ -329,7 +329,7 @@ __ :a, :b, 10
 ，或是透過一個特別的參數讓它變成 `Proc`，例如：
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # 在這裡面，the_block 是被傳進來的程式區塊
   the_block # return the block
 end
@@ -355,7 +355,7 @@ sugar)，加上一些優先權規則。你要的話，舉例來說，我們可�
 {% highlight ruby %}
 class Fixnum
   # 可以這麼做，但請不要這麼改
-  def +( other )
+  def +(other)
     self - other
   end
 end

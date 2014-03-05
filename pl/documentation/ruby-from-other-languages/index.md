@@ -56,10 +56,10 @@ wartość, nawet jeśli ta wartość jest **nil**.
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -342,7 +342,7 @@ Twojej aplikacji, wiele bibliotek tak robi. Poniżej jeden z przykładów:
 {% highlight ruby %}
 # id jest nazwą wywołanej metody, składnia * łączy wszystkie pozostałe argumenty
 # w tablicę nazwaną 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Wywołano niezdefiniowaną metodę #{id}. Przekazano " +
        "poniższe argumenty: #{arguments.join(", ")}"
 end
@@ -377,7 +377,7 @@ utworzyć specjalny obiekt typu `Proc` przekazując specjalny argument,
 tak jak w poniższym przykładzie:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Tutaj, the_block jest blokiem przekazanym do tej metody
   the_block # zwróć blok
 end
@@ -404,7 +404,7 @@ wywołań metod. Możesz, na przykład, nadpisać metodę + klasy Fixnum:
 {% highlight ruby %}
 class Fixnum
   # Możesz, ale proszę nie rób tego !
-  def +( other )
+  def +(other)
     self - other
   end
 end

@@ -64,10 +64,10 @@ valore, anche se tale valore è nullo (nil):
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -362,7 +362,7 @@ molte librerie. Ecco un esempio:
 # id è il nome del metodo chiamato, l'asterisco
 # fa si che tutti gli argomenti del metodo siano
 # immagazzinati in un array chiamato 'argomenti'
-def method_missing( id, *argomenti )
+def method_missing(id, *argomenti)
   puts "Il metodo #{id} è inesistente - è stato chiamato con " +
        "i seguenti argomenti: #{argomenti.join(", ")}"
 end
@@ -397,7 +397,7 @@ oppure rendere il blocco un oggetto `Proc` aggiungendo un argomento
 speciale, così:
 
 {% highlight ruby %}
-def blocco( &il_blocco )
+def blocco(&il_blocco)
   # Qui dentro, il_blocco è il blocco passato al metodo:
   il_blocco # ritorna il blocco
 end
@@ -426,7 +426,7 @@ possibile, per esempio, ridefinire il metodo ”+” della classe Fixnum:
 {% highlight ruby %}
 class Fixnum
   # Puoi farlo, ma è meglio di no!
-  def +( other )
+  def +(other)
     self - other
   end
 end

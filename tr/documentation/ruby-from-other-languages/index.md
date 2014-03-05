@@ -61,10 +61,10 @@ olsa bir değer geri döner. Şu mümkündür:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -330,7 +330,7 @@ yapar. Bir örnek:
 {% highlight ruby %}
 # id çağrılan metodun adı, * deyimiyle tüm argümanlar
 # bir 'arguments' adlı bir array içinde toplanır
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Metod #{id} çağrıldı fakat bulunamadı. Argümanları " +
        "şunlar : #{arguments.join(", ")}"
 end
@@ -364,7 +364,7 @@ argüman listesinde özel bir argüman ekleyerek `Proc` da yapabilirsiniz.
 Şöyleki:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Burada the_block metoda gönderilen bloktur
   the_block # bloğu geri döndür
 end
@@ -391,7 +391,7 @@ Bu yüzden isterseniz Fixnum’un + metodunu değiştirebilirsiniz:
 {% highlight ruby %}
 class Fixnum
   # Yapabilirsiniz ama lütfen bunu yapmayın
-  def +( other )
+  def +(other)
     self - other
   end
 end

@@ -60,10 +60,10 @@ end
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -336,7 +336,7 @@ Ruby не сдается, если не находит вызванный мет
 {% highlight ruby %}
 # id - имя вызванного метода, *arguments - такой синтаксис
 # передает все агрументы в функцию как массив 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Метод #{id} был вызван, но не найден." +
        "Его аргументы: #{arguments.join(", ")}"
 end
@@ -369,7 +369,7 @@ __ :a, :b, 10
 класса `Proc`, прибавив специальный агрумент к списку аргументов, например так:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Тут the_block это блок, переданный методу
   the_block # вернет блок (как объект)
 end
@@ -397,7 +397,7 @@ method(:puts).call "puts is an object!"
 {% highlight ruby %}
 class Fixnum
   # Так можно, но не значит, что нужно ;)
-  def +( other )
+  def +(other)
     self - other
   end
 end

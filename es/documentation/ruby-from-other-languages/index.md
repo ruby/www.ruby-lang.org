@@ -77,10 +77,10 @@ incluso si ese valor es **nil**. Esto es posible:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -169,10 +169,10 @@ pueden ser emulados mediante el uso de symbols y hashes. Ruby on Rails,
 entre otros, usa esto a discreción. Por ejemplo:
 
 {% highlight ruby %}
-def parametros_con_nombre( params )
+def parametros_con_nombre(params)
   params
 end
-parametros_con_nombre( :param_uno => 10, :param_dos => 42 )
+parametros_con_nombre(:param_uno => 10, :param_dos => 42)
 # => {:param_uno=>10, :param_dos=>42}
 {% endhighlight %}
 
@@ -366,7 +366,7 @@ Aquí tienes un ejemplo:
 {% highlight ruby %}
 # id es el nombre del método invocado, la sintaxis * recolecta
 # todos los argumentos en un array llamado 'argumentos'
-def method_missing( id, *argumentos )
+def method_missing(id, *argumentos)
   puts "El método #{id} fue invocado, pero no existe. Tiene " +
        "estos argumentos: #{argumentos.join(", ")}"
 end
@@ -400,7 +400,7 @@ en un `Proc` al anexarle un parámetro especial a la lista de argumentos,
 así:
 
 {% highlight ruby %}
-def block( &el_bloque )
+def block(&el_bloque)
   # Aquí dentro, el_bloque es el bloque pasado al método
   el_bloque # retornar el bloque
 end
@@ -428,7 +428,7 @@ métodos. Puedes, por ejemplo, redefinir el método <tt>Fixnum#+</tt>\:
 {% highlight ruby %}
 class Fixnum
   # Puedes, pero por favor no lo hagas
-  def +( otro )
+  def +(otro)
     self - otro
   end
 end

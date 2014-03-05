@@ -61,10 +61,10 @@ thậm chí giá trị đó là **nil**. Đều có thể:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -343,7 +343,7 @@ nghĩa để phù hợp với ứng dụng cũng như thư viện của mình. �
 {% highlight ruby %}
 # id là tên của phương thức được gọi, cú pháp * là tập hợp
 # tất cả các tham số của mảng có tên 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Phương thức #{id} được gọi, nhưng không tìm thấy. Nó có " +
        "các tham số: #{arguments.join(", ")}"
 end
@@ -378,7 +378,7 @@ nó thành một `Proc` bằng các thêm các đối số đặc biệt vào da
 sách đối số, như thế này:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Bên trong này, the_block là block được truyền vào phương thức
   the_block # đồng thời trả về chính nó
 end
@@ -405,7 +405,7 @@ Hầu hết các toán tử trong Ruby chỉ là cú pháp (với một số quy
 {% highlight ruby %}
 class Fixnum
   # Bạn có thể, nhưng tốt nhất là đừng sửa
-  def +( other )
+  def +(other)
     self - other
   end
 end

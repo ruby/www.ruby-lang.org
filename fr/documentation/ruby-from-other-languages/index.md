@@ -67,10 +67,10 @@ qui suit est possible :
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -365,7 +365,7 @@ bibliothèques exploitent cette possibilité. Voici un exemple :
 {% highlight ruby %}
 # id est le nom de la méthode appelée, la syntaxe * renvoie
 # tous les paramètres dans un tableau nommé « arguments »
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "La méthode #{id} a été appelée, mais elle n'existe pas. " +
        "Voici les paramètres de l'appel : #{arguments.join(", ")}"
 end
@@ -400,7 +400,7 @@ transformer en `Proc` en rajoutant un paramètre spécial à la liste
 d’arguments, comme ceci :
 
 {% highlight ruby %}
-def bloc( &le_bloc )
+def bloc(&le_bloc)
   # Ici, dedans, le_bloc est le bloc passé à la méthode
   le_bloc # retourne le bloc
 end
@@ -429,7 +429,7 @@ pouvez, par exemple, redéfinir la méthode `+` de la classe `Fixnum`\:
 {% highlight ruby %}
 class Fixnum
   # Possible, mais pas recommandé...
-  def +( other )
+  def +(other)
     self - other
   end
 end

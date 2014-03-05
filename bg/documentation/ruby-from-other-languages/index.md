@@ -44,10 +44,10 @@ end
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -101,10 +101,10 @@ end
 В Ruby липсват ключови параметри както в Python, но това може да бъде симулирано с употребата на символи и хешове:
 
 {% highlight ruby %}
-def some_keyword_params( params )
+def some_keyword_params(params)
   params
 end
-some_keyword_params( :param_one => 10, :param_two => 42 )
+some_keyword_params(:param_one => 10, :param_two => 42)
 # => {:param_one=>10, :param_two=>42}
 {% endhighlight %}
 
@@ -130,7 +130,6 @@ else
   puts "0 is false"
 end
 {% endhighlight %}
-
 
 Принтира се \"0 is true\".
 
@@ -257,7 +256,7 @@ Ruby не се отказва, ако не може да намери метод
 {% highlight ruby %}
 # id is the name of the method called, the * syntax collects
 # all the arguments in an array named 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
 end
@@ -287,7 +286,7 @@ __ :a, :b, 10
 Блоковете (closures) се използват интензивно в стандартната библиотека. При извикването на блок можем да ползваме `yield`, или да го направим `Proc` чрез добавянето на специален аргумент:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Inside here, the_block is the block passed to the method
   the_block # return the block
 end
@@ -310,7 +309,7 @@ method(:puts).call "puts is an object!"
 {% highlight ruby %}
 class Fixnum
   # You can, but please don't do this
-  def +( other )
+  def +(other)
     self - other
   end
 end

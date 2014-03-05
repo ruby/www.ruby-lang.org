@@ -44,7 +44,7 @@ Liste (wie in Perls <tt>for (@a) \{...}</tt> oder Pythons `for item in
 aList:`), sondern in den meisten Fällen so:
 
 {% highlight ruby %}
-a_list.each do |item|
+some_list.each do |item|
   # Wir sind im Innern des Blocks
   # und arbeiten mit item.
 end
@@ -64,10 +64,10 @@ Damit ist so etwas möglich:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -372,15 +372,14 @@ Bibliotheken auch tun.) Hier ist ein Beispiel:
 {% highlight ruby %}
 # 'id' ist der Name der aufgerufenen Methode, ein * sammelt
 # alle argumente in einem Array namens 'arguments'.
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Die Methode #{id} wurde nicht gefunden."
-  puts "Folgende Argumente wurden übergeben: " +
-    arguments.join(", ") + "."
+  puts "Folgende Argumente wurden übergeben: " + arguments.join(", ")
 end
 
 __ :a, :b, 10
 #-> Die Methode __ wurde nicht gefunden.
-#-> Folgende Argumente wurden übergeben: a, b, 10.
+#-> Folgende Argumente wurden übergeben: a, b, 10
 {% endhighlight %}
 
 Der obige Code gibt nur die Details des Aufrufs aus, aber du kannst die
@@ -407,7 +406,7 @@ aufzurufen, kannst du `yield` benutzen, oder du machst eine
 hinzufügst:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # der Block, der an die Methode übergeben wurde
   the_block  # Gib den Block zurück.
 end
@@ -435,7 +434,7 @@ die Methode `+` für `Fixnum` überschreiben:
 {% highlight ruby %}
 class Fixnum
   # Du kannst, aber bitte tu es nicht.
-  def +( other )
+  def +(other)
     self - other
   end
 end

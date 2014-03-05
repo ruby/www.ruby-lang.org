@@ -72,10 +72,10 @@ valor, mesmo que seja **nil**. Isto é possível:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -360,7 +360,7 @@ better fit your application, and many libraries do. Here is an example:
 {% highlight ruby %}
 # id is the name of the method called, the * syntax collects
 # all the arguments in an array named 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
 end
@@ -398,7 +398,7 @@ call a block, you can either use `yield`, or make it a `Proc` by
 appending a special argument to the argument list, like so:
 
 {% highlight ruby %}
-def block( &o_bloco )
+def block(&o_bloco)
   # Aqui dentro, o_bloco é o bloco passado ao método o_bloco
   o_bloco # devolve o bloco
 end
@@ -428,7 +428,7 @@ exemplo, redifinir o método + da classe Fixnum:
 {% highlight ruby %}
 class Fixnum
   # Pode fazer, mas por favor não faça isto
-  def +( outro )
+  def +(outro)
     self - outro
   end
 end
