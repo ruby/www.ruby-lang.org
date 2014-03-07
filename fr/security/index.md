@@ -17,37 +17,6 @@ création d\'un patch résolvant la vulnérabilité.
 
 ## Alertes passées
 
-* [Vulnérabilité WEBrick par injection d\'une séquence
-  d\'échappement][1] publiée le 10 janvier 2010
-* [Heap overflow in String][2] publiée le 7 décembre 2009
-* [Vulnérabilité de type DoS dans la librairie
-  BigDecimal](/fr/news/2009/06/10/vulnrabilit-de-type-dos-dans-la-librairie-bigdecimal/)
-  publiée le 9 juin 2009
-* [DoS vulnerability in
-  REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/) publiée le 23
-  août 2008
-* [Multiple vulnerabilities in
-  Ruby](/en/news/2008/08/08/multiple-vulnerabilities-in-ruby/) publiée
-  le 8 août 2008
-* [Arbitrary code execution
-  vulnerabilities](/en/news/2008/06/20/arbitrary-code-execution-vulnerabilities/)
-  publiée le 20 juin 2008
-* [File access vulnerability of
-  WEBrick](/en/news/2008/03/03/webrick-file-access-vulnerability/)
-  publiée le 3 mars 2008
-* [Net::HTTPS
-  Vulnerability](/en/news/2007/10/04/net-https-vulnerability/) publiée
-  le 4 octobre 2007
-* [Another DoS Vulnerability in CGI
-  Library](/en/news/2006/12/04/another-dos-vulnerability-in-cgi-library/)
-  publiée le 4 décembre 2006
-* [DoS Vulnerability in CGI Library](/en/news/2006/11/03/CVE-2006-5467/)
-  publiée le 3 novembre 2006
-* [Ruby vulnerability in the safe level
-  settings](/en/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
-  publiée le 2 Octobre 2005
+{% include security_posts.html %}
 
-
-
-[1]: /fr/news/2010/01/10/vulnrabilit-webrick-par-injection-dune-squenescape-sequence-injection-vulnerability/
-[2]: /en/news/2009/12/07/heap-overflow-in-string/
+See [the English page](/en/security/) for prior security related posts.
