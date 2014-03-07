@@ -19,13 +19,8 @@ security@ruby-lang.orgは非公開MLで、報告された問題が確認され�
 
 新しいものから順に並べています。
 
-* [浮動小数点数パースにおけるヒープオーバーフロー (CVE-2013-4164)](/ja/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
-  2013年11月22日公開
-* [OpenSSL クライアントにおけるホスト名検証バイパス脆弱性
-  (CVE-2013-4073)](/ja/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
-  2013年06月27日公開
-* [DL および Fiddle におけるオブジェクト汚染フラグバイパス
-  (CVE-2013-2065)](/ja/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/) 2013年05月14日公開
+{% include security_posts.html %}
+
 * [REXML におけるエンティティ展開に伴うサービス不能攻撃について][1] 2013年02月22日公開
 * [JSON におけるサービス不能攻撃および安全でないオブジェクトの生成について (CVE-2013-0269)][2]
   2013年02月22日公開
