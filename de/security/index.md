@@ -22,15 +22,10 @@ Distributoren, PaaS-Plattformen).
 
 Hier ein Liste kürzlich bekannt gewordener Probleme:
 
-* [Heap-Überlauf beim Parsen von Floating-Point
-  (CVE-2013-4164)](/de/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
-  veröffentlicht am 22. Nov. 2013.
-* [Umgehung von Hostname-Check im SSL-Client
-  (CVE-2013-4073)](/de/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
-  veröffentlicht am 27. Juni 2013.
-* [Umgehung von Object#taint in DL und Fiddle in Ruby
-  (CVE-2013-2065)](/de/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
-  veröffentlicht am 14. Mai 2013.
+{% include security_posts.html %}
+
+Weitere bekannte Probleme:
+
 * [Entitätsexpansion-DoS-Schwachstelle in REXML (XML-Bombe,
   CVE-2013-1821)][1]
   veröffentlicht am 22. Feb. 2013.

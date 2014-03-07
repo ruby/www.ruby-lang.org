@@ -18,9 +18,6 @@ essere stati risolti.
 
 Ecco i problemi più recenti.
 
-* [Heap Overflow nel Parsing di numeri in Virgola Mobile
-  (CVE-2013-4164)](/it/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
-  pubblicato il 22 Novembre 2013.
+{% include security_posts.html %}
 
-Per i problemi precedenti vedere [la pagina inglese](/en/security).
-
+Per i problemi precedenti vedere [la pagina inglese](/en/security/).
