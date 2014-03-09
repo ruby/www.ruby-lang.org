@@ -13,7 +13,7 @@ En commémoration de cela, Ruby 1.9.3-p545 est disponible.
 
 Ceci est la dernière version de Ruby 1.9.3.
 Cela veut dire que Ruby 1.9.3 rentre dans une phase de maintenance de sécurité,
-et qu'aucune nouvelle version sera publibé à moins qu'une régression critique ou
+et qu'aucune nouvelle version sera publiée à moins qu'une régression critique ou
 des problèmes de sécurité ne soient découverts.
 Cette phase doit durer 1 an.
 Donc la maintenance de Ruby 1.9.3 s'achèvera le 24 février 2015.
