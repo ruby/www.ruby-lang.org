@@ -11,9 +11,9 @@ Aujourd'hui, le 24 février 2014 est le 21ème anniversaire de Ruby, par conséq
 nous sommes heureux de vous annoncer la sortie d'une nouveau patch de la branche
 2.1, Ruby 2.1.1.
 
-Ruby 2.1 propose de nombreuses améliorations y compris de vitesse sans trop
-d'incompatibilités. Vous pouvez l'utiliser avec vos applications Rails ou autres
-pour disposer d'une meilleure expérience Ruby.
+Ruby 2.1 propose de nombreuses améliorations y compris de vitesse sans
+incompatibilités majeures. Vous pouvez l'utiliser avec vos applications Rails ou
+autres pour disposer d'une meilleure expérience Ruby.
 
 Cette version inclut quelques corrections de bugs.
 Voir les [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
