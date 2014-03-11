@@ -23,6 +23,10 @@ Wie schon [früher angekündigt](https://www.ruby-lang.org/de/news/2013/12/21/se
 heißt diese Version gemäß des neuen Versionierungsschemas für Ruby 2.1
 nur noch „2.1.1“.
 
+**Update:** Wir haben eine Regression in `Hash#reject` festgestellt. Siehe
+[Regression in Hash#reject in Ruby 2.1.1](https://www.ruby-lang.org/de/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)
+für nähere Informationen.
+
 ## Download
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>
