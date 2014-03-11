@@ -26,11 +26,7 @@ Ruby User Groups:
 [deutschsprachige Ruby User Group Weltkarte][1]
 : Eine Weltkarte mit Stecknadeln für vorhandene User Groups.
 
-[Ruby User Group Liste][2]
-: Eine Wikiseite mit bereits vorhandenen deutschsprachigen Ruby User
-  Groups.
-
-[onruby.de][3]
+[onruby.de][2]
 : Ein Planungsportal für Ruby-Usergruppen in Deutschland.
   Kontaktinfos auf den jeweiligen Usergroup-Seiten.
 
@@ -47,5 +43,4 @@ Interessierte deine Gruppe finden.
 
 
 [1]: http://maps.google.de/maps/ms?ie=UTF8&amp;t=h&amp;hl=de&amp;msa=0&amp;msid=111007145847842353754.00046e5ff7baba4a38734&amp;ll=50.847573,11.513672&amp;spn=7.534777,18.303223&amp;z=6
-[2]: http://wiki.ruby-portal.de/Usergroups
-[3]: http://www.onruby.de/
+[2]: http://www.onruby.de/
