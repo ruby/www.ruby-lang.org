@@ -24,11 +24,11 @@ p SubHash.new.reject { }.class
 
 Ruby 2.1.1 shouldn't include such behavior changes, because with the release of Ruby 2.1.0 we've [changed our versioning policy](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/), so Ruby 2.1.1 is a patch level release and it shouldn't break backwards compatibility.
 
-This regression could potentially affect many libraries, one such case is Rails' `HashWithIndifferentAccess` and `OrderedHash`. They are broken: https://github.com/rails/rails/issues/14188
+This regression could potentially affect many libraries, one such case is Rails' `HashWithIndifferentAccess` and `OrderedHash`. They are broken: [Rails' issue #14188](https://github.com/rails/rails/issues/14188)
 
 This behavior will be reverted to the 2.1.0 behavior in Ruby 2.1.2, but is expected to be the default behavior for Ruby 2.2.0: [Feature #9223](https://bugs.ruby-lang.org/issues/9223).
 So we recommend to fix your code to in order to expect this behavior change.
 
-This accident is caused by one missing backport commit. For more detail, see http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211
+This accident is caused by one missing backport commit. For more detail, see [http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211](http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211)
 
 Sorry for any inconvenience, and thank you for your support.
