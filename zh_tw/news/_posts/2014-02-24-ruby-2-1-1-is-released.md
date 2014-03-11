@@ -16,6 +16,8 @@ Ruby 2.1 不僅向下兼容，速度也改良許多。在 Rails 與某些應用�
 
 如先前公告的 [Ruby 2.1 版本方針的變動](https://www.ruby-lang.org/zh_tw/news/2013/12/21/semantic-versioning-after-2-1-0/)，這個版本簡稱為 “2.1.1”。
 
+**更新：** 我們發現 `Hash#reject` 行為被錯誤變更了。關於更多細節，請參見：[Ruby 2.1.1 誤變更了 Hash#reject 的行為](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)。
+
 ## 下載
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>
