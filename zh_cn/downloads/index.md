@@ -93,7 +93,7 @@ LightTPD, and MySQL on Tiger*][15] 将快速的教您启动和运行。
 [12]: http://locomotive.raaum.org/
 [13]: http://www.macports.org/
 [14]: http://fink.sourceforge.net/
-[15]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger
+[15]: http://hivelogic.com/articles/ruby_rails_lighttpd_mysql_tiger
 [16]: http://intridea.com/2011/7/26/setting-up-ruby-dev-on-lion?blog=company
 [17]: http://www.sunfreeware.com
 [18]: http://www.blastwave.org

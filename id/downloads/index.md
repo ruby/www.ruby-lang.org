@@ -179,7 +179,7 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 [12]: http://rubyosx.rubyforge.org/
 [13]: http://www.macports.org/
 [14]: http://fink.sourceforge.net/
-[15]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger
+[15]: http://hivelogic.com/articles/ruby_rails_lighttpd_mysql_tiger
 [16]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard
 [17]: http://www.freebsd.org/ports/
 [18]: http://www.freebsd.org/
