@@ -21,6 +21,8 @@ and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) for d
 Following the previously announced [changed versioning policy of Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/),
 this version is simply called "2.1.1".
 
+__Update:__ We've noticed one regression in `Hash#reject`. For more details, see: [Regression of Hash#reject in Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1)
+
 ## Download
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>
