@@ -300,10 +300,10 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 ### Funny method names
 
 In Ruby, methods are allowed to end with question marks or exclamation marks.
-By convention, methods that answer questions (i.e. `Array#empty?` returns
-**true** if the receiver is empty) end in question marks.
-Potentially “dangerous” methods (ie methods that modify **self** or
-the arguments, `exit!` etc.) by convention end with exclamation marks.
+By convention, methods that answer questions end in question marks
+(e.g. `Array#empty?`, which returns **true** if the receiver is empty).
+Potentially “dangerous” methods by convention end with exclamation marks
+(e.g. methods that modify **self** or the arguments, `exit!`, etc.).
 Not all methods that change their arguments end with exclamation marks, though.
 `Array#replace` replaces the contents of an array with the contents
 of another array. It doesn’t make much sense to have a method like that
