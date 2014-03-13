@@ -1,4 +1,4 @@
-  ---
+---
 layout: news_post
 title: "Régression de la méthode Hash#reject dans Ruby 2.1.1"
 author: "sorah"
