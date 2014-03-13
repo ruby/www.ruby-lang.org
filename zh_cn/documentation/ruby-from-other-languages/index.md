@@ -4,6 +4,9 @@ title: "从其它语言到 Ruby - Ruby 官方网站"
 lang: zh_cn
 ---
 
+{% include out-of-date.html %}
+
+
 当您初次看到 Ruby 语言代码的时候，它很可能让您想起您使用过的其他编程语言。这是当然的， 因为 Ruby 的大部分语法是
 Perl、Python 和 Java（以及其他语言）的用户所熟悉的。 如果您曾经使用过这这些语言，学习 Ruby 就是小菜一碟。
 
