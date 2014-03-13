@@ -1,4 +1,4 @@
----
+   ---
 layout: news_post
 title: "Stable snapshot is available"
 author: "Matz"
