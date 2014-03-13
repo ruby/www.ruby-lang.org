@@ -19,6 +19,10 @@ lang: ko
 
 전에 [루비 2.1의 버저닝 정책](https://www.ruby-lang.org/ko/news/2013/12/21/semantic-versioning-after-2-1-0/)에서 안내해드린 대로 간단히 "2.1.1"로 바뀌었습니다.
 
+**추가:** `Hash#reject`의 회귀(regression)를 발견했습니다. 좀 더 자세한 내용은
+[루비 2.1.1의 Hash#reject의 회귀](https://www.ruby-lang.org/ko/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)를
+보세요.
+
 ## 다운로드
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>
