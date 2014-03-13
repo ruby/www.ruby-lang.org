@@ -410,7 +410,7 @@ sumador.class # => Proc
 {% endhighlight %}
 
 También puedes crear bloques fuera de las invocaciones a métodos,
-utilizando Proc.new con un bloque o llamando al método `lambda`.
+utilizando `Proc.new` con un bloque o llamando al método `lambda`.
 
 Similarmente, los métodos también pueden ser objetos:
 

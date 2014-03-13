@@ -162,13 +162,13 @@ Depuis Ruby 2.0, à l'instar de Python, il est possible de définir une
 méthode avec des paramètres « mot-clés » :
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -410,7 +410,7 @@ addition.class # => Proc
 
 Cela signifie que vous pouvez créer des blocs en-dehors du contexte des
 appels de méthode, en utilisant `Proc.new` avec un bloc ou en appelant
-une méthode lambda.
+une méthode `lambda`.
 
 De la même façon, les méthodes sont également des objets bien réels :
 

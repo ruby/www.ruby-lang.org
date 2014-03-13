@@ -407,7 +407,7 @@ sommatore.class # => Proc
 {% endhighlight %}
 
 È possibile anche creare dei blocchi fuori da chiamate a metodi,
-semplicemente chiamando Proc.new con un blocco o chiamando il metodo
+semplicemente chiamando `Proc.new` con un blocco o chiamando il metodo
 `lambda`.
 
 Allo stesso modo, anche i metodi sono pur sempre oggetti:

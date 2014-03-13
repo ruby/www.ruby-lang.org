@@ -143,13 +143,13 @@ end
 Как и в Python, начиная с версии 2.0 Ruby методы принимают именованые параметры.
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -378,7 +378,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-Вы можете создавать блоки-объекты также через Proc.new с блоком или вызывая
+Вы можете создавать блоки-объекты также через `Proc.new` с блоком или вызывая
 `lambda` метод.
 
 В принципе, методы - это тоже объекты:

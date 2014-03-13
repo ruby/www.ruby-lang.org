@@ -122,13 +122,13 @@ end
 Ruby 自 2.0 起，方法可以使用關鍵字參數，用法與 Python 類似：
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -338,7 +338,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-你也可以透過 Proc.new 或 lambda 在方法外建立程式區塊。
+你也可以透過 `Proc.new` 或 `lambda` 在方法外建立程式區塊。
 
 同樣的，方法也可以當做物件：
 

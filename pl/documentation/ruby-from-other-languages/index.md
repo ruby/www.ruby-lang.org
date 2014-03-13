@@ -146,13 +146,13 @@ Tak jak w Pythonie, od wersji Rubiego 2.0 metody można definiować
 przy użyciu argumentów z kluczem:
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Wyślij od #{from} do #{to} poprzez #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Wyślij od A do B poprzez mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Wyślij od B do A poprzez Pony Express."
 {% endhighlight %}
 
@@ -386,7 +386,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-Możesz tworzyć bloki również poza wywołaniami metod, wywołując Proc.new
+Możesz tworzyć bloki również poza wywołaniami metod, wywołując `Proc.new`
 lub metodę `lambda`.
 
 Podobnie, metody to także obiekty:

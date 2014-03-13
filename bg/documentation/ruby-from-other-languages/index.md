@@ -295,7 +295,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-Можем да създаваме блокове извън извиквания към методи чрез Proc.new или чрез метода `lambda`. Впрочем, методите са обекти:
+Можем да създаваме блокове извън извиквания към методи чрез `Proc.new` или чрез метода `lambda`. Впрочем, методите са обекти:
 
 {% highlight ruby %}
 method(:puts).call "puts is an object!"

@@ -440,7 +440,7 @@ method(:puts).call "puts adalah obyek!"
 # => puts adalah obyek!
 {% endhighlight %}
 
-### Operator adalah *Syntactic Sugar* 
+### Operator adalah *Syntactic Sugar*
 
 Kebanyakan operator di Ruby hanyalah *syntactic sugar*. Maksudnya
 *syntactic sugar* adalah penyingkatan penulisan kode. Dalam hal

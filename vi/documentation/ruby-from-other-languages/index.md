@@ -149,13 +149,13 @@ Giống như Python, khi các phương thức của Ruby 2.0 có
 thể được định nghĩa qua việc sử dụng các tư khóa đối số:
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Gửi từ #{from} đến #{to} qua #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Gửi từ A đến B qua mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Gửi từ B đến A qua Pony Express."
 {% endhighlight %}
 
@@ -388,7 +388,7 @@ adder.class # => Proc
 {% endhighlight %}
 
 Bạn cũng có thể tạo các block bên ngoài phương thức được gọi,
-bằng cách gọi Proc.new với một block hoặc gọi phương thức `lambda`.
+bằng cách gọi `Proc.new` với một block hoặc gọi phương thức `lambda`.
 
 Tương tự như vậy, các phương thức cũng được tạo như đối tượng:
 

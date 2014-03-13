@@ -373,7 +373,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-Blokları metod çağrıları dışında da Proc.new ile veya `lambda` metodu
+Blokları metod çağrıları dışında da `Proc.new` ile veya `lambda` metodu
 ile üretebilirsiniz
 
 Benzer olarak metodlar da birer nesnedir:

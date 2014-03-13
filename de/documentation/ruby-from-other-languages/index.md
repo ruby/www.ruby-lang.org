@@ -165,13 +165,13 @@ Seit Ruby 2.0 können Methoden wie auch in Python mit benannten Argumenten
 (Keyword-Argumenten) aufgerufen werden:
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -312,6 +312,7 @@ class Fixnum
   def hours
     self * 3600  # Anzahl der Sekunden in einer Stunde
   end
+  alias hour hours
 end
 
 # 14 Stunden nach 00:00 am 1. Januar
@@ -351,6 +352,7 @@ porsche.inspect  #-> billig
 def porsche.inspect
   "teuer"
 end
+
 porsche.inspect  #-> teuer
 
 # Andere Objekte werden nicht beeinflusst:

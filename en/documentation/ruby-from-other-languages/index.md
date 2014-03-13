@@ -148,13 +148,13 @@ Like in Python, since Ruby 2.0 methods can be defined
 using keyword arguments:
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -387,7 +387,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-You can create blocks outside of method calls, too, by calling Proc.new
+You can create blocks outside of method calls, too, by calling `Proc.new`
 with a block or calling the `lambda` method.
 
 Similarly, methods are also Objects in the making:

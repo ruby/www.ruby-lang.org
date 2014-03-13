@@ -407,7 +407,7 @@ adder.class # => Proc
 {% endhighlight %}
 
 Também, poderá criar blocos fora de chamadas a métodos: chamando
-Proc.new com um bloco; ou chamando o método `lambda`.
+`Proc.new` com um bloco; ou chamando o método `lambda`.
 
 Da mesma forma, métodos são também Objectos:
 

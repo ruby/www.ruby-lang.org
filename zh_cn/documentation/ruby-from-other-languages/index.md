@@ -331,7 +331,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-You can create blocks outside of method calls, too, by calling Proc.new
+You can create blocks outside of method calls, too, by calling `Proc.new`
 with a block or calling the `lambda` method.
 
 Similarly, methods are also Objects in the making:
