@@ -4,35 +4,4 @@ title: "使用者群組"
 lang: zh_tw
 ---
 
-In the programming community, user groups form support networks for
-people interested in certain topics. They are a great place to increase
-your skills and network with other programmers. User groups are informal
-and their structure varies from group to group. Anyone can form their
-own group and set their own rules and schedule.
-
-### Ruby User Groups
-
-If you want to get together with other Ruby programmers, a local user
-group may be just the thing. Ruby user groups are entirely devoted to
-Ruby. They typically feature monthly meetings, a mailing list, a Web
-site, and if you are lucky, frequent hacking sessions (meetings devoted
-to giving people a chance to write Ruby code).
-
-Information about Ruby user groups can be found on various Web sites:
-
-[Ruby Meetup Groups][1]
-: A substantial number of Ruby User Groups have chosen to make Meetup
-  their home. Meetup provides a number of tools for user groups,
-  including: private forums, a place for announcements, automated
-  meeting reminders, and a nice RSVP system.
-
-### Organizing Your Own Group
-
-If you are interested in forming your own group, be sure to find out if
-there is already a Ruby user group in your area. Larger meetings are
-usually much more fun, so starting your own group may not be the best
-option if there is already one nearby.
-
-
-
-[1]: http://ruby.meetup.com
+{% include out-of-date.html %}
