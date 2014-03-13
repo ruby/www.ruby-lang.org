@@ -22,6 +22,9 @@ et le [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) pou
 Par rapport à la précédente annonce sur le [passage au versionnage sémantique de Ruby 2.1](https://www.ruby-lang.org/fr/news/2013/12/21/semantic-versioning-after-2-1-0/),
 cette version s'appelle simplement "2.1.1".
 
+**Mise à jour :** Nous avons détecté une régression de la méthode `Hash#reject`.
+Pour plus d'informations, consultez : [Régression de la méthode Hash#reject dans Ruby 2.1.1](https://www.ruby-lang.org/fr/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/).
+
 ## Téléchargement
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>

@@ -8,7 +8,7 @@ lang: fr
 ---
 
 Dans les versions de Ruby 2.1.0 et inférieures, la méthode `reject` des classes
-héritantées de `Hash` retourne un objet de cette sous-classe. Mais en Ruby 2.1.1,
+héritées de `Hash` retourne un objet de cette sous-classe. Mais en Ruby 2.1.1,
 ce comportement a accidentellement changé pour retourner constamment un objet de
 la classe `Hash`.
 
@@ -25,13 +25,13 @@ p SubHash.new.reject { }.class
 (Pour être exact, les autres états comme les variables d'instance et autres ne
 sont pas copiés non plus.)
 
-Ruby 2.1.1 n'aurait pas du inclure ce changement de comportement car depuis la
+Ruby 2.1.1 n'aurait pas dû inclure ce changement de comportement car depuis la
 sortie de Ruby 2.1.0, nous avons changé la
 [politique de versionnage](https://www.ruby-lang.org/fr/news/2013/12/21/semantic-versioning-after-2-1-0/),
 par conséquent, Ruby 2.1.1 est une version patch et ne doit contenir ce type
 de changement de comportement.
 
-Cette régression peut affecter potentiellement plusieurs librairies, parmi
+Cette régression peut affecter potentiellement plusieurs bibliothèques, parmi
 lesquels `HashWithIndifferentAccess` ou encore `OrderedHash` de Rails.
 Exemple de
 [ticket Rails](https://github.com/rails/rails/issues/14188).
