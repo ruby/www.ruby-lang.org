@@ -1798,12 +1798,8 @@ locales:
       <a href="mailto:webmaster@ruby-lang.org">webmaster-a</a>
       за въпроси или коментари.
     de: |
-      Diese Webseite wurde mit Ruby unter Verwendung von <a href="http://www.jekyllrb.com/">Jekyll</a> erstellt.
-      Sie wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
-      Webdesign von <a href="http://twitter.com/jz">Jason Zimdars</a>.
-      Sie können auf <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> an der
-      Verbesserung dieser Seite mitwirken oder sich bei Fragen oder Kommentaren an
-      unseren <a href="mailto:webmaster@ruby-lang.org">Webmaster</a> wenden (in Englisch).
+      <a href="/de/about/website/">Diese Website</a>
+      wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
     en: |
       <a href="/en/about/website/">This website</a> is proudly maintained
       by members of the Ruby community.
