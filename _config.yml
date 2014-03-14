@@ -1832,9 +1832,7 @@ locales:
       o contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       per domande e commenti riguardanti questo sito.
     ja: |
-      このサイトはRubyと<a href="http://www.jekyllrb.com/">Jekyll</a>によって構築されています。
-      また、コンテンツはRubyコミュニティによって管理されています。
-      このサイトに関する質問やコメントは<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>へのissueまたはpull request、もしくは<a href="mailto:webmaster@ruby-lang.org">webmaster</a> までお願いします。
+      <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
     ko: |
       이 사이트는 루비와 <a href="http://www.jekyllrb.com/">Jekyll</a>로 구축되어 있고,
       루비 커뮤니티의 구성원들이 직접 관리합니다.
