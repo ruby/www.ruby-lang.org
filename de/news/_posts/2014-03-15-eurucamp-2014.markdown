@@ -1,0 +1,42 @@
+---
+layout: news_post
+title: "eurucamp 2014 Termine und CFP"
+author: "Florian Gilcher"
+translator:
+date: 2014-03-15 14:00:00 +0000
+lang: de
+---
+
+[eurucamp 2014][1] wird am 1. bis 3. August um Berlin herum stattfinden.
+eurucamp ist aus der EuRuKo 2011 hervorgegangen und findet seither jährlich
+statt.
+
+Der [Call for Proposals][2] läuft bis zum 1. Mai 2014. Der CFP ist anonym und
+fair, alle Vortragsslots sind frei verfügbar und werden über den CFP ausgewählt.
+Dazu bietet eurucamp ein [Mentorenprogramm für alle][3].
+
+Wir suchen sowohl nach Vorträgen als auch nach Workshops, die sich mit Ruby und
+seiner Community beschäftigen. Details finden sich in unserem [CFP guide][4].
+
+Das eurucamp ist eine Sommerkonferenz mit reichlich Zeit für Gespräche und vielen
+Gelegenheiten, eigene Ideen einzubringen. Unser [Video über eurucamp 2012][5] und
+unsere [Vimeo-Seite][6] sollten einen guten Eindruck vermitteln. Unsere
+["eurucamp activites"-App][7] bietet einen guten Überblick darüber, was auf und
+um der Konferenz geschieht.
+
+eurucamp nimmt seinen [Code of Conduct][8] ernst. Wir sind familienfreundlich
+und bieten Kinderpflege an. Darüber hinaus unterstützen wir Menschen mit
+Einschränkungen beim Besuch der Konferenz.
+
+Das eurucamp ist eine international Konferenz mit Besuchern aus der ganzen Welt.
+
+Der Ticketverkauf startet bald.
+
+[1]: http://2014.eurucamp.org
+[2]: http://cfp.eurucamp.org
+[3]: http://cfp.eurucamp.org/mentorship
+[4]: http://cfp.eurucamp.org/guide
+[5]: https://vimeo.com/51200145
+[6]: https://vimeo.com/eurucamp
+[7]: http://activities.eurucamp.org
+[8]: http://cfp.eurucamp.org/coc
