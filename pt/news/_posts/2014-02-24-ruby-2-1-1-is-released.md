@@ -23,6 +23,9 @@ Como no anúncio anterior que altera a
 [política de versionamento no Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/),
 esta versão é chamada simplesmente de "2.1.1".
 
+**Atualização:** Nós percebemos uma regressão em `Hash#reject`. Para mais detalhes, veja:
+[Regressão em Hash#reject no Ruby 2.1.1](https://www.ruby-lang.org/pt/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/).
+
 ## Download
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>
