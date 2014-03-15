@@ -1801,8 +1801,8 @@ locales:
       <a href="/de/about/website/">Diese Website</a>
       wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
     en: |
-      <a href="/en/about/website/">This website</a> is proudly maintained
-      by members of the Ruby community.
+      <a href="/en/about/website/">This website</a>
+      is proudly maintained by members of the Ruby community.
     es: |
       Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
       y es orgullosamente mantenido por miembros de la comunidad.
@@ -1837,6 +1837,7 @@ locales:
       이 사이트에 관한 질문이나 연락은 <a href="mailto:webmaster@ruby-lang.org">웹마스터</a>에게
       하실 수 있습니다.
     pl: |
+      <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006, Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.<br><br>
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
       Projekt strony <a href="http://twitter.com/jz">Jason Zimdars</a>.
@@ -1844,6 +1845,7 @@ locales:
       lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
       jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
     ru: |
+      Права на <a href="/ru/about/logo/">логотип Ruby</a> принадлежат Yukihiro Matsumoto (&copy; 2006) на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.<br><br>
       Данный сайт сгенерирован на Ruby с использованием <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Он с гордостью поддерживается членами сообщества Ruby. Пожалуйста, участвуйте в разработке на
       <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> или свяжитесь с нашим
@@ -1863,9 +1865,3 @@ locales:
       本網站使用 Ruby 套件 <a href="http://www.jekyllrb.com/">Jekyll</a> 產生，並有幸由 Ruby 社群成員共同維護。
       請至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> 幫忙貢獻。關於本站的問題與意見，
       請聯絡<a href="mailto:webmaster@ruby-lang.org">網站管理員</a>。
-
-  logo_credit:
-    pl: |
-      <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006, Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
-    ru: |
-      Права на <a href="/ru/about/logo/">логотип Ruby</a> принадлежат Yukihiro Matsumoto (&copy; 2006) на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
