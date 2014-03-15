@@ -8,7 +8,7 @@ lang: pt
 ---
 
 Hoje, 24 de Fevereiro, é o 21º aniversário do Ruby,
-e com felicidade anunciamos uma nova versão patch do Ruby 2.1, Ruby Ruby 2.1.1.
+e com felicidade anunciamos uma nova versão patch do Ruby 2.1, Ruby 2.1.1.
 
 Ruby 2.1 tem muitas melhorias, incluindo mais rapidez sem incompatibilidades
 severas. Você pode usá-lo com Rails e algumas outras aplicações, e ter uma
