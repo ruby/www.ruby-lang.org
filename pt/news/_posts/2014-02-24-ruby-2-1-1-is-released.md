@@ -7,15 +7,21 @@ date: 2014-02-24 05:00:00 +0000
 lang: pt
 ---
 
-Hoje, 24 de Fevereiro, é o 21º aniversário do Ruby, e com felicidade anunciamos uma nova versão patch do Ruby 2.1, Ruby Ruby 2.1.1.
+Hoje, 24 de Fevereiro, é o 21º aniversário do Ruby,
+e com felicidade anunciamos uma nova versão patch do Ruby 2.1, Ruby Ruby 2.1.1.
 
-Ruby 2.1 tem muitas melhorias, incluindo mais rapidez sem incompatibilidades severas. Você pode usá-lo com Rails e algumas outras aplicações, e ter uma experiência mais confortável.
+Ruby 2.1 tem muitas melhorias, incluindo mais rapidez sem incompatibilidades
+severas. Você pode usá-lo com Rails e algumas outras aplicações, e ter uma
+experiência mais confortável.
 
 Esta versão inclui muitas correções de bugs.
 Veja [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-e [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) para detalhes.
+e [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog)
+para detalhes.
 
-Como no anúncio anterior que altera a [política de versionamento no Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/), esta versão é chamada simplesmente de "2.1.1".
+Como no anúncio anterior que altera a
+[política de versionamento no Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/),
+esta versão é chamada simplesmente de "2.1.1".
 
 ## Download
 

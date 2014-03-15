@@ -7,9 +7,11 @@ date: 2014-02-24 12:00:00 +0000
 lang: pt
 ---
 
-Hoje, 24 de Fevereiro, é o 21º aniversário do Ruby, e com felicidade anunciamos uma nova versão patch, Ruby 2.0.0-p451.
+Hoje, 24 de Fevereiro, é o 21º aniversário do Ruby,
+e com felicidade anunciamos uma nova versão patch, Ruby 2.0.0-p451.
 
-Esta versão inclui muitas correções de bugs. Veja [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+Esta versão inclui muitas correções de bugs.
+Veja [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 e [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog)
 para detalhes.
 
@@ -35,5 +37,6 @@ para detalhes.
 
 ## Comentários do Lançamento
 
-Muitos commiters, desenvolvedores e usuários que enviaram relatórios de bug me ajudaram a fazer este lançamento.
+Muitos commiters, desenvolvedores e usuários que enviaram relatórios
+de bug me ajudaram a fazer este lançamento.
 Agradeço por suas contribuições.

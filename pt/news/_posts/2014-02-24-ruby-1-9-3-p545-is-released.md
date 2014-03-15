@@ -11,14 +11,17 @@ Feliz aniversário, Ruby!
 Hoje, 24 de Fevereiro, é o 21º aniversário do Ruby.
 Em comemoração a isso o Ruby 1.9.3-p545 é lançado.
 
-Este é a última versão ordinal do Ruby 1.9.3.
-Isso quer dizer que o Ruby 1.9.3 entra em um estado de fase de manutenção de segurança, e não será mais atualizado a não ser que uma regressão crítica ou problema de segurança seja encontrado.
+Este é a última versão ordinal do Ruby 1.9.3. Isso quer dizer que o
+Ruby 1.9.3 entra em um estado de fase de manutenção de segurança, e não será
+mais atualizado a não ser que uma regressão crítica ou problema de segurança
+seja encontrado.
 Esta fase está planejada para ser mantida durante 1 ano.
 Então, a manutenção do Ruby 1.9.3 será encerrada em 24 de Fevereiro de 2015.
 
 Esta versão inclui muitas correções de bugs.
 Veja [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-e [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) para detalhes.
+e [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog)
+para detalhes.
 
 ## Download
 
