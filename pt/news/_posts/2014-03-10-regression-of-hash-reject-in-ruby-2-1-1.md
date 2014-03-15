@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Regression of Hash#reject in Ruby 2.1.1"
+title: "Regressão em Hash#reject no Ruby 2.1.1"
 author: "sorah"
 translator: "diogoandre"
 date: 2014-03-10 14:00:00 +0000
