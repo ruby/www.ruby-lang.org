@@ -26,8 +26,8 @@ use Rack::Rewrite do
   r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
 
   # removed resources (some are still linked to from old news posts)
-  r302 %r{^/ja/install\.cgi(\?.+)$}, "/ja/downloads"
-  r302 %r{^/ja/20030611\.html$},     "/ja/downloads"
+  r302 %r{^/ja/install\.cgi(\?.+)?$}, "/ja/downloads"
+  r302 %r{^/ja/20030611\.html$},      "/ja/downloads"
 
   r302 %r{^/cgi-bin/cvsweb\.cgi(/.*)?$}, "http://svn.ruby-lang.org/"
 
