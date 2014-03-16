@@ -19,7 +19,7 @@ use Rack::Rewrite do
   r302 %r{^/bugreport\.html$}, "http://bugs.ruby-lang.org/"
 
   # various redirects
-  r302 %r{^/(en|ja)/(LICENSE|license).txt$}, "http://www.ruby-lang.org/en/about/license.txt"
+  r302 %r{^/(en|ja)/(LICENSE|license).txt$}, "/en/about/license.txt"
   r302 %r{^/(en|ja)/install\.html$}, "/$1/downloads"
 
   # URL changes
@@ -29,10 +29,9 @@ use Rack::Rewrite do
   r302 %r{^/ja/install\.cgi(\?.+)$}, "/ja/downloads"
   r302 %r{^/ja/20030611\.html$},     "/ja/downloads"
 
-  r302 %r{^/cgi-bin/cvsweb\.cgi/?$}, "http://svn.ruby-lang.org/"
+  r302 %r{^/cgi-bin/cvsweb\.cgi(/.*)?$}, "http://svn.ruby-lang.org/"
 
-  r302 %r{^/ja/man/.*$}, "http://doc.ruby-lang.org/ja/"
-  r302 %r{^/ja/old-man/.*$}, "http://doc.ruby-lang.org/ja/"
+  r302 %r{^/ja/(man|old-man)/.*$}, "http://doc.ruby-lang.org/ja/"
 
   r302 %r{^/ja/man/archive/ruby-refm-1.8.6-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip"
   r302 %r{^/ja/man/archive/ruby-refm-1.9.0-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip"
