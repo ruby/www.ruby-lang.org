@@ -35,16 +35,7 @@ use Rack::Rewrite do
 
   r302 %r{^/zh_TW(.*)$}, "/zh_tw$1"
 
-  r302 %r{^/bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/de/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/de/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/id/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/id/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/it/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/it/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
-  r302 %r{^/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
+  r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
 
   r302 %r{^/pl/spolecznosc/listy-mailingowe(.*)$}, "/pl/community/mailing-lists$1"
   r302 %r{^/pl/spolecznosc/grupy-uzytkownikow(.*)$}, "/pl/community/user-groups$1"
