@@ -10,17 +10,29 @@ use Rack::Rewrite do
     r301 %r{.*}, "https://staging.ruby-lang.org$&", scheme: "http", host: "staging.ruby-lang.org"
   end
 
+  # enforce trailing slash (/foo -> /foo/) when index.html exists
   r302 %r{.*}, "$&/", if: ->(rack_env) {
     rack_env["PATH_INFO"].match(%r{/$}).nil? && File.exist?("_site#{rack_env["PATH_INFO"]}/index.html")
   }
 
+  # bugreport.html (linked to from Ruby source code)
   r302 %r{^/bugreport\.html$}, "http://bugs.ruby-lang.org/"
 
-  r302 %r{^/ja/20030611\.html$}, "/ja/downloads"
+  # various redirects
+  r302 %r{^/(en|ja)/(LICENSE|license).txt$}, "http://www.ruby-lang.org/en/about/license.txt"
   r302 %r{^/(en|ja)/install\.html$}, "/$1/downloads"
+
+  # URL changes
+  r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
+
+  # removed resources (some are still linked to from old news posts)
   r302 %r{^/ja/install\.cgi(\?.+)$}, "/ja/downloads"
+  r302 %r{^/ja/20030611\.html$},     "/ja/downloads"
 
   r302 %r{^/cgi-bin/cvsweb\.cgi/?$}, "http://svn.ruby-lang.org/"
+
+  r302 %r{^/ja/man/.*$}, "http://doc.ruby-lang.org/ja/"
+  r302 %r{^/ja/old-man/.*$}, "http://doc.ruby-lang.org/ja/"
 
   r302 %r{^/ja/man/archive/ruby-refm-1.8.6-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip"
   r302 %r{^/ja/man/archive/ruby-refm-1.9.0-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip"
@@ -28,14 +40,8 @@ use Rack::Rewrite do
   r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.gz$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.gz"
   r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.zip"
 
-  # contents inconsistently 2013-05-15
-  r302 %r{^/(en|ja)/(LICENSE|license).txt$}, "http://www.ruby-lang.org/en/about/license.txt"
-  r302 %r{^/ja/old-man/.*$}, "http://doc.ruby-lang.org/ja/"
-  r302 %r{^/ja/man/.*$}, "http://doc.ruby-lang.org/ja/"
-
+  # legacy URLs of translated sites
   r302 %r{^/zh_TW(.*)$}, "/zh_tw$1"
-
-  r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
 
   r302 %r{^/pl/spolecznosc/listy-mailingowe(.*)$}, "/pl/community/mailing-lists$1"
   r302 %r{^/pl/spolecznosc/grupy-uzytkownikow(.*)$}, "/pl/community/user-groups$1"
@@ -58,7 +64,7 @@ use Rack::Rewrite do
   r302 %r{^/pt/comunidade/grupos-de-utilizadores(.*)$}, "/pt/community/user-groups$1"
   r302 %r{^/pt/comunidade/weblogs(.*)$}, "/pt/community/weblogs$1"
   r302 %r{^/pt/comunidade(.*)$}, "/pt/community$1"
-  r302 %r{^/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-c-e-c-mais-mais(.*)$}, "/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-$1"
+  r302 %r{^/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-c-e-c-mais-mais(.*)$}, "/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$1"
   r302 %r{^/pt/documentacao/ruby-a-partir-de-outras-linguagens/para-ruby-a-partir-de-(.*)$}, "/pt/documentation/ruby-from-other-languages/to-ruby-from-$1"
   r302 %r{^/pt/documentacao/ruby-a-partir-de-outras-linguagens(.*)$}, "/pt/documentation/ruby-from-other-languages$1"
   r302 %r{^/pt/documentacao/historias-de-sucesso(.*)$}, "/pt/documentation/success-stories$1"
