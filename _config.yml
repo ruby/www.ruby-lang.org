@@ -1830,12 +1830,8 @@ locales:
     ja: |
       <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
     ko: |
-      이 사이트는 루비와 <a href="http://www.jekyllrb.com/">Jekyll</a>로 구축되어 있고,
-      루비 커뮤니티의 구성원들이 직접 관리합니다.
-      이 사이트는 <a href="http://twitter.com/jz">Jason Zimdars</a>님이 디자인했습니다.
-      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>에서 기여하실 수 있으며
-      이 사이트에 관한 질문이나 연락은 <a href="mailto:webmaster@ruby-lang.org">웹마스터</a>에게
-      하실 수 있습니다.
+      <a href="/ko/about/website/">이 사이트</a>는 루비 커뮤니티의
+      구성원들이 직접 관리합니다.
     pl: |
       <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006, Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.<br><br>
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
