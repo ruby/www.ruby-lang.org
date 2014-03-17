@@ -1858,6 +1858,4 @@ locales:
       请贡献代码至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
       如有任何疑问和意见，请联系我们的<a href="mailto:webmaster@ruby-lang.org">站点管理员</a>。
     zh_tw: |
-      本網站使用 Ruby 套件 <a href="http://www.jekyllrb.com/">Jekyll</a> 產生，並有幸由 Ruby 社群成員共同維護。
-      請至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> 幫忙貢獻。關於本站的問題與意見，
-      請聯絡<a href="mailto:webmaster@ruby-lang.org">網站管理員</a>。
+      <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。
