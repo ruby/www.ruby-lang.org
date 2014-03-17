@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "RubyConf Taiwan 2014 Registration Now Open"
+title: "Inscrições para a RubyConf Taiwan 2014 Abertas"
 author: "Juanito Fatas"
 translator: "diogoandre"
 date: 2014-03-14 05:58:31 +0000
