@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "RubyConf Taiwan 2014 Registration Now Open"
+title: "RubyConf Taiwan 2014 の参加登録が開始されました"
 author: "Juanito Fatas"
 translator: "makimoto"
 date: 2014-03-14 05:58:31 +0000
