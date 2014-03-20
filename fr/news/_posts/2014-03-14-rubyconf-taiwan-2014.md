@@ -13,4 +13,4 @@ Pour plus d'informations sur les intervenants et le programme, veuillez consulte
 
 Les places sont disponibles jusqu'au 31 mars 2014.
 
-[Réservez votre place !](http://rubytaiwan.kktix.cc/events/rubyconftw2014?locale=fr)
+[Réservez votre place !](http://rubytaiwan.kktix.cc/events/rubyconftw2014?locale=en)
