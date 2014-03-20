@@ -114,7 +114,7 @@ di programmazione Ruby”.
 [21]: http://jruby.org
 [22]: http://rubini.us
 [23]: http://www.macruby.org
-[mruby]: https://github.com/mruby/mruby
+[mruby]: http://www.mruby.org/
 [24]: https://github.com/parrot/cardinal
 [25]: http://parrot.org
 [26]: http://www.ironruby.net

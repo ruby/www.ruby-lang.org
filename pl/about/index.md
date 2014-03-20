@@ -243,7 +243,7 @@ Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [macruby]: http://www.macruby.org
-[mruby]: https://github.com/mruby/mruby
+[mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://ruby.gemstone.com
 [cardinal]: https://github.com/parrot/cardinal
