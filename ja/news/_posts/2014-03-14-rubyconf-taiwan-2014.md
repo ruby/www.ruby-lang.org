@@ -12,7 +12,6 @@ RubyConf Taiwan 2014 が台湾の台北で2014年4月25日・26日に開催さ�
 講演者とスケジュールについての詳しい情報は[カンファレンスのサイト](http://rubyconf.tw/2014/)と
 [RubyConf Taiwan のプレスリリース](http://rubytaiwan.tumblr.com/post/79134654151/rubyconftaiwan2014-press-release-en)を参照してください。
 
-
 チケットは2014年3月31日まで販売されます。
 
 [チケットを手に入れましょう！](http://rubytaiwan.kktix.cc/events/rubyconftw2014?locale=en)
