@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Chính thức mở cửa đăng ký tham gia hội thảo RubyConf 2014 tại Đài Loan"
-author: "Vinh Nguyễn"
+author: "Juanito Fatas"
 translator: "Vinh Nguyễn"
 date: 2014-03-14 00:00:00 +0000
 lang: vi
