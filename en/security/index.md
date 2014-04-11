@@ -13,9 +13,10 @@ Security vulnerabilities should be reported via an email to
 security@ruby-lang.org ([the PGP public key](/security.asc)), which is a
 private mailing list. Reported problems will be published after fixes.
 
-The members of the mailing list are people (human, not ML) who provide Ruby
+The members of the mailing list are people who provide Ruby
 (Ruby committers and authors of other Ruby implementations,
 distributors, PaaS platformers).
+The members must be individual people, mailing lists are not permitted.
 
 ## Known issues
 
