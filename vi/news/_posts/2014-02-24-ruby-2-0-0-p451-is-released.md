@@ -7,9 +7,12 @@ date: 2014-02-24 12:00:00 +0000
 lang: vi
 ---
 
-Ngày hôm nay, 24/2/2014 là ngày kỷ niêm lần thứ 21 của Ruby, vì vậy chúng tôi rất vui khi thông báo về việc phát hành một bản vá mới, Ruby 2.0.0-p451.
+Ngày hôm nay, 24/2/2014 là ngày kỷ niêm lần thứ 21 của Ruby, vì vậy chúng
+tôi rất vui khi thông báo về việc phát hành một bản vá mới, Ruby 2.0.0-p451.
 
-Lần phát hành này đã sửa chữa nhiều lỗi. Xem [danh sách các vấn đề](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) và [bản ghi thay đổi](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog).
+Lần phát hành này đã sửa chữa nhiều lỗi.
+Xem [danh sách các vấn đề](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [bản ghi thay đổi](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog).
 
 ## Tải về
 
@@ -33,4 +36,5 @@ Lần phát hành này đã sửa chữa nhiều lỗi. Xem [danh sách các v�
 
 ## Ghi chú
 
-Rất nhiều committer, các lập trình viên và người sử dụng đã thông báo các lỗi cho tôi để tạo nên lần phát hành này. Cảm ơn mọi người vì những đóng góp đó.
+Rất nhiều committer, các lập trình viên và người sử dụng đã thông báo các lỗi
+cho tôi để tạo nên lần phát hành này. Cảm ơn mọi người vì những đóng góp đó.
