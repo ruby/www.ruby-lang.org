@@ -1822,11 +1822,8 @@ locales:
       atau hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a> kami
       untuk pertanyaan atau komentar mengenai situs ini.
     it: |
-      Questo sito è stato sviluppato con Ruby e <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      È curato con dedizione dai membri della comunità di Ruby.
-      Puoi contribuire su <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
-      o contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      per domande e commenti riguardanti questo sito.
+      <a href="/it/about/website/">Questo sito web</a>
+      è mantenuto con orgoglio dai membri della comunità Ruby.
     ja: |
       <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
     ko: |
