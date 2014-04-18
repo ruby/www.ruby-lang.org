@@ -93,7 +93,7 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 [9]: http://www.rubyonrails.org/applications
 [10]: http://rails100.pbwiki.com/
 [11]: http://wiki.rubyonrails.com/rails/pages/RealWorldUsage
-[12]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[12]: http://www.bluefountain.com/supply-chain-management/
 [13]: http://www.larc.nasa.gov/
 [14]: http://www.motorola.com
 [15]: http://www.torontorehab.com
