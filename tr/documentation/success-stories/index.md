@@ -91,7 +91,7 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 [9]: http://www.37signals.com
 [10]: http://www.43things.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[12]: http://www.bluefountain.com/supply-chain-management/
 [13]: http://www.metasploit.com
 [14]: http://www.rapid7.com
 [15]: http://www.rapid7.com/products/metasploit-express.jsp

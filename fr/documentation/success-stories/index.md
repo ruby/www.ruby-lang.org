@@ -82,4 +82,4 @@ témoignages du « monde réel. »
 [11]: http://www.37signals.com
 [12]: http://www.43things.com
 [13]: http://www.alistapart.com
-[14]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[14]: http://www.bluefountain.com/supply-chain-management/
