@@ -18,7 +18,7 @@ quelques sites agrègent un certain nombre d’entre elles.
 [ruby][1] et le [*popularity chart*][2] associé.
 
 **Planètes**\: un certains nombre de planètes (agrégateurs thématiques en ligne) dédiés à Ruby ont vu le jour. Quelques exemples notables :
-
+* [Human Coders News - Ruby][16] (français)
 * [Ruby Corner][4]
 * [Planet Ruby][5]
 * [PlanetRubyonRails.org][6]
@@ -63,3 +63,4 @@ Ruby est également un sujet récurrent sur [Digg][14] et [Slashdot][15].
 [13]: http://del.icio.us
 [14]: http://digg.com/programming
 [15]: http://developers.slashdot.org/
+[16]: http://news.humancoders.com/t/ruby
