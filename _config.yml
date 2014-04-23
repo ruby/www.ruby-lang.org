@@ -1838,12 +1838,7 @@ locales:
       lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
       jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
     ru: |
-      Права на <a href="/ru/about/logo/">логотип Ruby</a> принадлежат Yukihiro Matsumoto (&copy; 2006) на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.<br><br>
-      Данный сайт сгенерирован на Ruby с использованием <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Он с гордостью поддерживается членами сообщества Ruby. Пожалуйста, участвуйте в разработке на
-      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> или свяжитесь с нашим
-      <a href="mailto:webmaster@ruby-lang.org">администратором</a>, если у вас есть вопросы или комментарии по
-      данному веб-сайту.
+      <a href="/ru/about/website/">Этот сайт</a> с гордостью поддерживается членами сообщества Ruby.
     vi: |
       Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Trang được bảo trì bởi các thành viên của cộng đồng Ruby.
