@@ -34,11 +34,11 @@ lang: ru
   историй, шуток и комиксов. Созданое программистом *why the lucky stiff*,
   данное руководство является классикой для изучения Ruby.
 
-[Ruby in Twenty Minutes](/en/documentation/quickstart/)
+[Ruby за двадцать минут](/ru/documentation/quickstart/)
 : Неплохое введение, покрывающие основы Ruby. Прохождение его от начала
   до конца не должно занять у вас более двадцати минут.
 
-[Ruby from Other Languages](/en/documentation/ruby-from-other-languages/)
+[В Ruby из других языков](/ru/documentation/ruby-from-other-languages/)
 : Пришли в мир Ruby из другого языка? Будь это C, C++, Java, Perl, PHP
   или Python – этот раздел вам поможет!
 
