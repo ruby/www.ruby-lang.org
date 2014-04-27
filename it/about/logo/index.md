@@ -20,4 +20,3 @@ formati (PNG, JPG, PDF, AI, SWF, XAR).
 [logo]: /images/header-ruby-logo.png
 [logo-kit]: http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/2.5/
-
