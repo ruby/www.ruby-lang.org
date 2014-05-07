@@ -69,7 +69,7 @@ lang: bg
 [rdoc.info][14]
 : Your source for open source Ruby documentation.
 
-[Rails Searchable API Doc][15]
+[Ruby & Rails Searchable API Docs][15]
 : Rails и Ruby документация с възможност за умно търсене.
 
 [RubyDox][16]
@@ -96,7 +96,7 @@ lang: bg
 [12]: http://www.ruby-doc.org/stdlib
 [13]: http://www.ruby-doc.org/doxygen/current/
 [14]: http://rdoc.info/
-[15]: http://railsapi.com/
+[15]: http://rubydocs.org/
 [16]: http://www.rubydox.net/
 [17]: http://ruby-doc.org
 [18]: http://www.ruby-doc.org/bookstore

@@ -68,7 +68,7 @@ lang: zh_tw
 [RubyDoc.info][16]
 : 一站式站點，擁有 RubyGems 與 GitHub 上托管的 Ruby 專案的文件。
 
-[Rails Searchable API Doc][17]
+[Ruby & Rails Searchable API Docs][17]
 : 可以聰明搜索 Ruby 與 Rails 的文件。
 
 [APIdock][18]
@@ -123,7 +123,7 @@ lang: zh_tw
 [14]: http://rdoc.sourceforge.net
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://railsapi.com/
+[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

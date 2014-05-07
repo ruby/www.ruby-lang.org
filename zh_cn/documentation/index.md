@@ -124,7 +124,7 @@ lang: zh_cn
 [14]: http://rdoc.sourceforge.net
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://railsapi.com/
+[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

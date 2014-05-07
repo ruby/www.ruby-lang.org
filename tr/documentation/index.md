@@ -97,7 +97,7 @@ referanslar ve diğer belgeleri bulacaksınız.
 : Ruby gem’leri için dökümanlar ve GitHub Ruby projeleri için tek kaynak
   site.
 
-[Rails Searchable API Doc][20]
+[Ruby & Rails Searchable API Docs][20]
 : Akıllı arama özellikleri olan Rails ve Ruby dökümantasyonu.
 
 [RubyDox][21]
@@ -133,7 +133,7 @@ listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
 [17]: http://www.ruby-doc.org/stdlib
 [18]: http://www.ruby-doc.org/doxygen/current/
 [19]: http://www.rubydoc.info/
-[20]: http://railsapi.com/
+[20]: http://rubydocs.org/
 [21]: http://www.rubydox.net/
 [22]: http://ruby-doc.org
 [23]: http://www.ruby-doc.org/bookstore

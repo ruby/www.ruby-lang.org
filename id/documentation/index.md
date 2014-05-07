@@ -93,7 +93,7 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 : Situs web lengkap untuk dokumentasi referensi tentang gem Ruby dan
   proyek Ruby yang di-host di GitHub.
 
-[Rails Searchable API Doc][17]
+[Ruby & Rails Searchable API Docs][17]
 : Dokumentasi Rails dan Ruby yang dilengkapi dengan pencarian cerdas.
 
 [APIdock][18]
@@ -154,7 +154,7 @@ adalah tempat yang baik untuk memulai.
 [14]: http://rdoc.sourceforge.net
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://railsapi.com/
+[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
