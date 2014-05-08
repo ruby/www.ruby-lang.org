@@ -7,6 +7,8 @@ date: 2014-05-09 12:00:00 +0000
 lang: en
 ---
 
+We are pleased to announce the release of Ruby 2.1.2.
+
 This release contains a fix for [a regression of 2.1.1 about Hash#reject](/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/), support for build with Readline-6.3 (see [Bug #9578](https://bugs.ruby-lang.org/issues/9578)), an updated bundled version of libyaml with psych and some bug fixes.
 
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
