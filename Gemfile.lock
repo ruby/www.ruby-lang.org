@@ -34,7 +34,7 @@ GEM
       mini_portile (~> 0.5.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
-    passenger (4.0.40)
+    passenger (4.0.42)
       daemon_controller (>= 1.2.0)
       rack
       rake (>= 0.8.1)
@@ -46,17 +46,17 @@ GEM
     rack-jekyll (0.4.1)
       jekyll (>= 0.12.0, < 2.0)
       rack (~> 1.5.0)
-    rack-protection (1.5.2)
+    rack-protection (1.5.3)
       rack
     rack-rewrite (1.5.0)
-    rake (10.2.2)
+    rake (10.3.1)
     rb-fsevent (0.9.4)
-    rb-inotify (0.9.3)
+    rb-inotify (0.9.4)
       ffi (>= 0.5.0)
     rb-kqueue (0.2.2)
       ffi (>= 0.5.0)
     redcarpet (2.3.0)
-    safe_yaml (1.0.1)
+    safe_yaml (1.0.3)
     spidr (0.4.1)
       nokogiri (~> 1.3)
     toml (0.1.1)
@@ -67,7 +67,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (>= 1.0.2)
+  jekyll (~> 1.0)
   kramdown
   passenger
   rack-jekyll
