@@ -87,7 +87,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 2.0)
   kramdown
   passenger
   rack-jekyll!
