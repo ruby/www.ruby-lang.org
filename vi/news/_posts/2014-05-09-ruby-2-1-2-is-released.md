@@ -9,7 +9,11 @@ lang: vi
 
 Chúng tôi hân hạnh công bố ấn bản 2.1.2 của Ruby.
 
-Ấn bản này có một vá cho lỗi [regression của bản 2.1.1 với Hash#reject](/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/), và hỗ trợ xây dựng với Readline-6.3 (see [Bug #9578](https://bugs.ruby-lang.org/issues/9578)), và nâng cấp cho libyaml với psych và một số vá khác.
+Ấn bản này có một vá cho lỗi
+[regression của bản 2.1.1 với Hash#reject](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
+và hỗ trợ xây dựng với Readline-6.3
+(see [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
+và nâng cấp cho libyaml với psych và một số vá khác.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
