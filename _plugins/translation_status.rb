@@ -24,10 +24,20 @@ module Jekyll
       </p>
 
       <table>
+      <colgroup>
+        <col>
+      <% LANGS.each do |lang| -%>
+        <col class="<%= lang %>">
+      <% end -%>
+      </colgroup>
+      <thead>
       <%= table_header %>
+      </thead>
+      <tbody>
       <% posts.each do |post| -%>
       <%=  table_row(post) %>
       <% end -%>
+      </tbody>
       </table>
     EOF
 
