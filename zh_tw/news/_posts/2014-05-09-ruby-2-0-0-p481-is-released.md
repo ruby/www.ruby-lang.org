@@ -13,7 +13,7 @@ lang: zh_tw
 
 * 支援使用 Readline-6.3 來編譯
 * 修正舊版 OpenSSL（p451 的降級）
-* 更新綁定的 libyaml 版本（參見 [YAML 解析 URI 存在 Heap 溢出風險（CVE-2014-2525）](/zh_tw/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)）
+* 更新綁定的 libyaml 版本（參見 [YAML 解析 URI 存在 Heap 溢出風險（CVE-2014-2525）](https://www.ruby-lang.org/zh_tw/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)）
 
 參見 [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 與 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) 來了解更多細節。
