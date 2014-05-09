@@ -35,15 +35,15 @@ downloads:
       gz: a5b5c83565f8bd954ee522bd287d2ca1
       zip: 7c303050d1e28e18398aed0fd59d334c
   previous:
-    version: 2.0.0-p451
+    version: 2.0.0-p481
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.zip
     md5:
-      bz2: 908e4d1dbfe7362b15892f16af05adf8
-      gz: 9227787a9636551f1749ee8394b5ffe5
-      zip: e90cb32e9cf534d180754d7492988748
+      bz2: ea406a8d415a1a5d8365596d4288f3da
+      gz: 3913e0ad6cc572b7358e4c6a8c4b2551
+      zip: 1cdf06d1a58f3103e9ed7e072d680b19
   previous19:
     version: 1.9.3-p545
     url:
