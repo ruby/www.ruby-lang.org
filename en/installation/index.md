@@ -160,6 +160,11 @@ right choice for you.
 ## Installers
 {: #installers}
 
+If the version of Ruby provided by your system or package manager is out of 
+date, a newer one can be installed using a third-party installer.
+On UNIX systems one can use [ruby-build] or [ruby-install] to install a
+specific version of Ruby into `/usr/local`.
+
 
 ### RubyInstaller
 {: #rubyinstaller}
