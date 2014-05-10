@@ -24,10 +24,12 @@ Choose the way that is the most comfortable for you.
   * [Arch Linux](#pacman)
   * [Solaris, OpenIndiana](#solaris)
   * [OS X](#homebrew)
-* Third party tools:
+* [Installers](#installers):
+  * [RubyInstaller](#rubyinstaller) (Windows)
+  * [RailsInstaller and Ruby Stack](#railsinstaller)
+* [Managers](#managers):
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [RubyInstaller](#rubyinstaller) (Windows)
   * [pik][pik] (Windows)
 * [Building from source](#building-from-source)
 
@@ -152,9 +154,10 @@ Linux distribution's manager for Ruby, or the third party tools might be the
 right choice for you.
 
 
-## Third Party Tools
+## Managers
+{: #managers}
 
-Many Rubyists use third-party tools to install Ruby.
+Many Rubyists use Ruby managers to manage multiple Rubies.
 They confer various advantages but are not officially supported.
 Their respective communities are very helpful, however.
 
@@ -175,6 +178,9 @@ Both tools are available for OS X, Linux, or other UNIX-like operating systems.
 on your system. It can also manage different gemsets.
 It is available for OS X, Linux, or other UNIX-like operating systems.
 
+## Installers
+{: #installers}
+
 
 ### RubyInstaller
 {: #rubyinstaller}
@@ -187,6 +193,7 @@ Just download it, run it, and you are done!
 
 
 ### RailsInstaller and Ruby Stack
+{: #railsinstaller}
 
 If you are installing Ruby in order to use Ruby on Rails,
 you can use the following installers:
