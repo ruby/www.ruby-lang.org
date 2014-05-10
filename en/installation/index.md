@@ -19,70 +19,22 @@ Choose the way that is the most comfortable for you.
 
 * OS X
 
+  * [Homebrew](#homebrew)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [Homebrew](#homebrew)
   * [Building from source](#building-from-source)
 
 * Linux/UNIX
 
+  * [Package management systems](#package-management-systems)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [Package management systems](#package-management-systems)
   * [Building from source](#building-from-source)
 
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
   * [pik][pik]
-
-
-## Third Party Tools
-
-Many Rubyists use third-party tools to install Ruby.
-They confer various advantages but are not officially supported.
-Their respective communities are very helpful, however.
-
-
-### rbenv
-{: #rbenv}
-
-[rbenv][rbenv] allows you to manage multiple installations of Ruby.
-It does not support installing Ruby, but there is a popular plugin
-named ruby-build to install Ruby.
-Both tools are available for OS X, Linux, or other UNIX-like operating systems.
-
-
-### RVM ("Ruby Version Manager")
-{: #rvm}
-
-[RVM][rvm] allows you to install and manage multiple installations of Ruby
-on your system. It can also manage different gemsets.
-It is available for OS X, Linux, or other UNIX-like operating systems.
-
-
-### RubyInstaller
-{: #rubyinstaller}
-
-If you are on Windows, there is a great project to help you install Ruby:
-[RubyInstaller][rubyinstaller]. It gives you everything you need to set up
-a full Ruby development environment on Windows.
-
-Just download it, run it, and you are done!
-
-
-### RailsInstaller and Ruby Stack
-
-If you are installing Ruby in order to use Ruby on Rails,
-you can use the following installers:
-
-* [RailsInstaller][railsinstaller]
-  which uses RubyInstaller but gives you
-  extra tools that help with Rails development.
-  It supports OS X and Windows.
-* [Bitnami Ruby Stack][rubystack]
-  which provides a complete development environment for Rails.
-  It supports OS X, Linux, Windows, virtual machines and cloud images.
 
 
 ## Package Management Systems
@@ -213,6 +165,54 @@ latest version of Ruby.
 On the other systems, you can search the package repository of your
 Linux distribution's manager for Ruby, or the third party tools might be the
 right choice for you.
+
+
+## Third Party Tools
+
+Many Rubyists use third-party tools to install Ruby.
+They confer various advantages but are not officially supported.
+Their respective communities are very helpful, however.
+
+
+### rbenv
+{: #rbenv}
+
+[rbenv][rbenv] allows you to manage multiple installations of Ruby.
+It does not support installing Ruby, but there is a popular plugin
+named ruby-build to install Ruby.
+Both tools are available for OS X, Linux, or other UNIX-like operating systems.
+
+
+### RVM ("Ruby Version Manager")
+{: #rvm}
+
+[RVM][rvm] allows you to install and manage multiple installations of Ruby
+on your system. It can also manage different gemsets.
+It is available for OS X, Linux, or other UNIX-like operating systems.
+
+
+### RubyInstaller
+{: #rubyinstaller}
+
+If you are on Windows, there is a great project to help you install Ruby:
+[RubyInstaller][rubyinstaller]. It gives you everything you need to set up
+a full Ruby development environment on Windows.
+
+Just download it, run it, and you are done!
+
+
+### RailsInstaller and Ruby Stack
+
+If you are installing Ruby in order to use Ruby on Rails,
+you can use the following installers:
+
+* [RailsInstaller][railsinstaller]
+  which uses RubyInstaller but gives you
+  extra tools that help with Rails development.
+  It supports OS X and Windows.
+* [Bitnami Ruby Stack][rubystack]
+  which provides a complete development environment for Rails.
+  It supports OS X, Linux, Windows, virtual machines and cloud images.
 
 
 ## Building from Source
