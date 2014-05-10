@@ -17,24 +17,19 @@ The following overview lists available installation methods
 for each of the major platforms.
 Choose the way that is the most comfortable for you.
 
-* OS X
-
-  * [Homebrew](#homebrew)
+* [Package Managment Systems](#package-management-systems)
+  * [Debian, Ubuntu](#apt)
+  * [CentOS, Fedora, RHEL](#yum)
+  * [Gentoo](#portage)
+  * [Arch Linux](#pacman)
+  * [Solaris, OpenIndiana](#solaris)
+  * [OS X](#homebrew)
+* Third party tools:
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [Building from source](#building-from-source)
-
-* Linux/UNIX
-
-  * [Package management systems](#package-management-systems)
-  * [rbenv](#rbenv)
-  * [RVM](#rvm)
-  * [Building from source](#building-from-source)
-
-* Windows
-
-  * [RubyInstaller](#rubyinstaller)
-  * [pik][pik]
+  * [RubyInstaller](#rubyinstaller) (Windows)
+  * [pik][pik] (Windows)
+* [Building from source](#building-from-source)
 
 
 ## Package Management Systems
@@ -50,16 +45,6 @@ of this page, the most basic reason is that most package managers have
 older versions of Ruby in their official repositories. If you would like to
 use the newest Ruby, make sure you use the correct package name,
 or use the tools described above instead.
-
-The following package managers are described below:
-
-* [apt (Debian or Ubuntu)](#apt)
-* [yum (CentOS, Fedora, or RHEL)](#yum)
-* [portage (Gentoo)](#gentoo)
-* [pacman (Arch Linux)](#pacman)
-* [Homebrew (OS X)](#homebrew)
-* [Solaris, OpenIndiana](#solaris)
-
 
 ### apt (Debian or Ubuntu)
 {: #apt}
