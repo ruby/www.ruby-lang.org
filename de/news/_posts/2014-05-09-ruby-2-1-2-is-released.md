@@ -11,7 +11,7 @@ Wir freuen uns die Veröffentlichung von Ruby 2.1.2 bekannt geben zu können.
 
 Diese Veröffentlichung enthält die Korrektur einer
 [Regression in Hash#reject in Ruby 2.1.1](https://www.ruby-lang.org/de/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
-Unterstützung für Readline-6.3
+Unterstützung für Build mit Readline-6.3
 (siehe [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
 eine Aktualisierung der von psych mitgelieferten Version von libyaml
 und weitere Fehlerkorrekturen.
