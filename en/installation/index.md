@@ -116,11 +116,11 @@ Debian GNU/Linux and Ubuntu use the apt package manager.
 You can use it like this:
 
 {% highlight sh %}
-$ sudo apt-get install ruby
+$ sudo apt-get install ruby-full
 {% endhighlight %}
 
-As of writing, the `ruby` package provides Ruby 1.9.3, which is an old stable
-release, on Debian and Ubuntu.
+As of writing, the `ruby-full` package provides Ruby 1.9.3, which is an old
+stable release, on Debian and Ubuntu.
 
 
 ### yum (CentOS, Fedora, or RHEL)
