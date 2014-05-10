@@ -157,6 +157,34 @@ Linux distribution's manager for Ruby, or the third party tools might be the
 right choice for you.
 
 
+## Installers
+{: #installers}
+
+
+### RubyInstaller
+{: #rubyinstaller}
+
+If you are on Windows, there is a great project to help you install Ruby:
+[RubyInstaller][rubyinstaller]. It gives you everything you need to set up
+a full Ruby development environment on Windows.
+
+Just download it, run it, and you are done!
+
+
+### RailsInstaller and Ruby Stack
+{: #railsinstaller}
+
+If you are installing Ruby in order to use Ruby on Rails,
+you can use the following installers:
+
+* [RailsInstaller][railsinstaller]
+  which uses RubyInstaller but gives you
+  extra tools that help with Rails development.
+  It supports OS X and Windows.
+* [Bitnami Ruby Stack][rubystack]
+  which provides a complete development environment for Rails.
+  It supports OS X, Linux, Windows, virtual machines and cloud images.
+
 ## Managers
 {: #managers}
 
@@ -186,34 +214,6 @@ Both tools are available for OS X, Linux, or other UNIX-like operating systems.
 [RVM][rvm] allows you to install and manage multiple installations of Ruby
 on your system. It can also manage different gemsets.
 It is available for OS X, Linux, or other UNIX-like operating systems.
-
-## Installers
-{: #installers}
-
-
-### RubyInstaller
-{: #rubyinstaller}
-
-If you are on Windows, there is a great project to help you install Ruby:
-[RubyInstaller][rubyinstaller]. It gives you everything you need to set up
-a full Ruby development environment on Windows.
-
-Just download it, run it, and you are done!
-
-
-### RailsInstaller and Ruby Stack
-{: #railsinstaller}
-
-If you are installing Ruby in order to use Ruby on Rails,
-you can use the following installers:
-
-* [RailsInstaller][railsinstaller]
-  which uses RubyInstaller but gives you
-  extra tools that help with Rails development.
-  It supports OS X and Windows.
-* [Bitnami Ruby Stack][rubystack]
-  which provides a complete development environment for Rails.
-  It supports OS X, Linux, Windows, virtual machines and cloud images.
 
 
 ## Building from Source
