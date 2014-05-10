@@ -25,6 +25,8 @@ Choose the way that is the most comfortable for you.
   * [Solaris, OpenIndiana](#solaris)
   * [OS X](#homebrew)
 * [Installers](#installers):
+  * [ruby-build]
+  * [ruby-install]
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
 * [Managers](#managers):
@@ -228,6 +230,8 @@ though, because the installed Ruby won't be managed by any tools.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
+[ruby-build]: https://github.com/sstephenson/ruby-build#readme
+[ruby-install]: https://github.com/postmodern/ruby-install#readme
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
