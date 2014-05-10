@@ -12,7 +12,7 @@ Ruby 2.0.0-p481 がリリースされました。
 今回のリリースには、多数のバグ修正が含まれています。例としては、
 
 * Readline-6.3 サポート
-* 古い OpenSSL での問題の修正 (p451 でのデグレーション)
+* 古い OpenSSL での問題の修正 (p451 でのリグレッション)
 * 同梱されている libyaml の更新 (詳細は[YAML の URI エスケープ処理におけるヒープオーバーフローについて (CVE-2014-2525)](https://www.ruby-lang.org/ja/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)を参照)
 
 などがあります。
