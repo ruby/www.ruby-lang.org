@@ -30,6 +30,7 @@ Choose the way that is the most comfortable for you.
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
 * [Managers](#managers):
+  * [chruby]
   * [rbenv](#rbenv)
   * [RVM](#rvm)
   * [pik][pik] (Windows)
@@ -163,6 +164,12 @@ Many Rubyists use Ruby managers to manage multiple Rubies.
 They confer various advantages but are not officially supported.
 Their respective communities are very helpful, however.
 
+### chruby
+{: #chruby}
+
+[chruby] allows you to switch between multiples rubies. chruby can manage
+rubies installed by [ruby-install] or even built from source.
+
 
 ### rbenv
 {: #rbenv}
@@ -232,6 +239,7 @@ though, because the installed Ruby won't be managed by any tools.
 [rbenv]: https://github.com/sstephenson/rbenv
 [ruby-build]: https://github.com/sstephenson/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
+[chruby]: https://github.com/postmodern/chruby#readme
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
