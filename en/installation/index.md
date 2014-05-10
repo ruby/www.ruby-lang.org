@@ -30,7 +30,7 @@ Choose the way that is the most comfortable for you.
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
 * [Managers](#managers):
-  * [chruby]
+  * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
   * [pik][pik] (Windows)
