@@ -11,16 +11,16 @@ Wir freuen uns, die Veröffentlichung von Ruby 2.0.0-p481 ankündigen zu können
 
 Dieses Release enthält zahlreiche Fehlerkorrekturen, unter anderem:
 
-* Build-Unterstützung für Readle 6.3
+* Build-Unterstützung für Readline-6.3
 * Fix für ein altes OpenSSL (Regression in p451)
-* Eine aktualisierte Version des mitgelieferten libyaml (siehe
-  [Heap-Überlauf beim Parsen von URI-Escape-Sequenzen in YAML (CVE-2014-2525)](https://www.ruby-lang.org/de/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
+* Eine aktualisierte Version des mitgelieferten libyaml
+  (siehe [Heap-Überlauf beim Parsen von URI-Escape-Sequenzen in YAML (CVE-2014-2525)](https://www.ruby-lang.org/de/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
 Siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 und das
 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog)
-for details. für weitere Informationen.
+für weitere Informationen.
 
 ## Download
 
