@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+pygments: true
 
 timezone: UTC
 
