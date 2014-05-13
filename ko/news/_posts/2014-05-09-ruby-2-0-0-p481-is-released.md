@@ -9,12 +9,11 @@ lang: ko
 
 기쁘게 루비 2.0.0-p481 릴리즈를 발표합니다.
 
-
 이 릴리즈는 많은 버그 수정을 포함합니다.
 
 * Readline-6.3 빌드 지원
 * 이전 OpenSSL 대응 (p451의 회귀)
-* 동봉되어있는 libyaml의 업데이트 ([YAML URI 이스케이프 파싱의 힙 오버플로 (CVE-2014-2525)](/ko/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)참조)
+* 동봉되어있는 libyaml의 업데이트 ([YAML URI 이스케이프 파싱의 힙 오버플로 (CVE-2014-2525)](https://www.ruby-lang.org/ko/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)참조)
 
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog)
