@@ -1,0 +1,48 @@
+---
+layout: news_post
+title: "Ruby 1.9.3-p547 リリース"
+author: "usa"
+translator:
+date: 2014-05-16 23:59:59 +0900
+lang: ja
+---
+
+Ruby 1.9.3-p547 がリリースされました。
+
+Ruby 1.9.3 は現在セキュリティメンテナンスフェーズにあります。
+つまり、何らかのセキュリティ上の問題が発見された場合のみ、リリースが行われる状態にあるということです。
+ですが、以前アナウンスしたように、致命的なリグレッションが発見された場合だけは、この原則に反してリリースを行うこととなっています。
+
+今回、何人かのユーザーから、古い OpenSSL を使用する環境 (例えば Ubuntu 10.04 LTS など) において問題が発生しているという報告を頂きました。
+これは Ruby 1.9.3-p545 で導入されてしまったリグレッションです(同じ問題が Ruby 2.1.1 と Ruby 2.0.0-p451 にもありましたが、これに対する修正を含む Ruby 2.1.2 および Ruby 2.0.0-p481 が既にリリース済みです)。
+これに対応するため、今回のリリースを行うことになりました。
+この問題に遭遇している方にのみ更新をお勧めします。
+
+このリリースには以下の2つの修正のみが含まれます。
+
+* 古い OpenSSL での問題の修正 (上記で説明したもの)
+* リリースマネジメント上の必要による common.mk の微細な変更 (ユーザーには影響を与えません)
+
+## Download
+
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.bz2](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.bz2)
+
+      SIZE:   10036828 bytes
+      MD5:    5363d399be7f827c77bf8ae5d1a69b38
+      SHA256: ef588ed3ff53009b4c1833c83187ae252dd6c20db45e21a326cd4a16a102ef4c
+
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.gz](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.gz)
+
+      SIZE:   12582375 bytes
+      MD5:    7531f9b1b35b16f3eb3d7bea786babfd
+      SHA256: 9ba118e4aba04c430bc4d5efb09b31a0277e101c9fd2ef3b80b9c684d7ae57a1
+
+* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.zip](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.zip)
+
+      SIZE:   13970935 bytes
+      MD5:    40ce2040860b18a330efe70b5ef072ba
+      SHA256: 89c7639c75dd58af7ac77d01a6d035992f8c39de90fc5cbfcf6e8b54a6305900
+
+## リリースコメント
+
+問題報告を下さった皆さんに感謝します。
