@@ -45,15 +45,15 @@ downloads:
       gz: 3913e0ad6cc572b7358e4c6a8c4b2551
       zip: 1cdf06d1a58f3103e9ed7e072d680b19
   previous19:
-    version: 1.9.3-p545
+    version: 1.9.3-p547
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.zip
     md5:
-      bz2: 4743c1dc48491070bae8fc8b423bc1a7
-      gz: 8e8f6e4d7d0bb54e0edf8d9c4120f40c
-      zip: d056aefa64237737fedb127257b502d2
+      bz2: 5363d399be7f827c77bf8ae5d1a69b38
+      gz: 7531f9b1b35b16f3eb3d7bea786babfd
+      zip: 40ce2040860b18a330efe70b5ef072ba
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
