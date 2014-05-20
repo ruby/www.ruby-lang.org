@@ -21,13 +21,13 @@ Tout comme en Perl, en Ruby…
 * les parenthèses sont souvent optionnelles ;
 * les chaînes de caractères sont globalement gérées de la même manière ;
 * la syntaxe pour borner chaînes et regex est similaire (du genre
-  `%q{hop (single-quote)}`, ou `%Q{hop (double-quote)}`, et `%w{une
-  phrase à part entière}`. Vous `%Q|pouvez|` `%Q(utiliser)`
+  `%q{hop}` (single-quote), ou `%Q{hop}` (double-quote), et
+  `%w{une phrase à part entière}`. Vous `%Q|pouvez|` `%Q(utiliser)`
   `%Q^d'autres^` signes de début et fin, si vous le voulez) ;
 * interpolation de variable dans les chaînes entre guillemets doubles :
   `"comme #{ceci}..."`. `#{}` peut contenir n’importe quel genre et
   longueur de code Ruby ;
-* les commandes shell sont de \`cette forme\` ;
+* les commandes shell sont de `` `cette forme` `` ;
 * un outil embarqué de documentation, `rdoc`, est à votre disposition.
 
 ### Différences
@@ -53,8 +53,8 @@ Contrairement à Perl, en Ruby…
   telles que `foo.to_i`, `foo.to_s` pour réaliser les conversions entre
   types ;
 * pas de `eq`, `ne`, `lt`, `gt`, `ge`, `le` ;
-* pas de *diamond operator*\: on utilisera en général
-  <tt>IO.*une\_fonction*</tt> à la place ;
+* pas de *diamond operator* (`<>`)\: on utilisera en général
+  `IO.une_fonction` à la place ;
 * le symbole `=>` n’est utilisée que pour les littéraux de hash ;
 * pas de `undef`. Ruby utilise `nil`, un objet modélisant l’absence de
   valeur et valant faux en terme de booléen ;
@@ -65,5 +65,5 @@ Contrairement à Perl, en Ruby…
 
 
 
-[1]: http://docs.rubygems.org
+[1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

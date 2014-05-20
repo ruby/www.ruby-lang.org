@@ -133,6 +133,6 @@ necessitam de testar as suas aplicações em ambientes diversos.
 [14]: http://locomotive.raaum.org/
 [15]: http://www.macports.org/
 [16]: http://fink.sourceforge.net/
-[17]: http://hivelogic.com/articles/2005/12/01/ruby_rails_lighttpd_mysql_tiger
+[17]: http://hivelogic.com/articles/ruby_rails_lighttpd_mysql_tiger
 [18]: http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard
 [19]: https://rvm.beginrescueend.com/rvm

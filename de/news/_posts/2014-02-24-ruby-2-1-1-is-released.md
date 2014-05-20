@@ -10,19 +10,22 @@ lang: de
 Heute, am 24. Februar, ist Rubys 21. Geburtstag und so freuen wir uns,
 ein neues Patch-Release von Ruby 2.1 ankündigen zu können: Ruby 2.1.1.
 
-Ruby 2.1 bringt zahlreiche Verbesserungen u.a. der Geschwindigkeit
-ohne größere Inkompatibilitäten. Sie können es mit Rails und einigen
-anderen Anwendungen verwenden, um diese zu verbessern.
+Ruby 2.1 bringt zahlreiche Verbesserungen ohne größere Inkompatibilitäten mit,
+darunter Geschwindigkeitssteigerungen. Sie können dies bei Rails
+und anderen Anwendungen vorteilhaft ausnutzen.
 
-Diese Veröffentlichung enthält viele Fehlerkorrekturen. Für nähere
-Informationen, siehe die
+Diese Veröffentlichung enthält viele Fehlerkorrekturen.
+Für nähere Informationen siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 und das [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog).
 
-Wie schon [früher
-angekündigt](https://www.ruby-lang.org/de/news/2013/12/21/semantic-versioning-after-2-1-0/),
+Wie schon [früher angekündigt](https://www.ruby-lang.org/de/news/2013/12/21/semantic-versioning-after-2-1-0/)
 heißt diese Version gemäß des neuen Versionierungsschemas für Ruby 2.1
 nur noch „2.1.1“.
+
+**Update:** Wir haben eine Regression in `Hash#reject` festgestellt. Siehe
+[Regression in Hash#reject in Ruby 2.1.1](https://www.ruby-lang.org/de/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)
+für nähere Informationen.
 
 ## Download
 

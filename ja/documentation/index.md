@@ -91,18 +91,18 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 
-[rurema-wiki]: https://bugs.ruby-lang.org/projects/rurema/wiki
-[doc-r-l-o]: http://doc.ruby-lang.org/ja/
-[man-187]: http://doc.ruby-lang.org/ja/1.8.7/doc/index.html
-[man-193]: http://doc.ruby-lang.org/ja/1.9.3/doc/index.html
-[man-200]: http://doc.ruby-lang.org/ja/2.0.0/doc/index.html
-[man-210]: http://doc.ruby-lang.org/ja/2.1.0/doc/index.html
-[man-search]: http://doc.ruby-lang.org/ja/search/
-[man-xz]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.tar.xz
-[man-gz]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.tar.gz
-[man-zip]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-dynamic-20120829.zip
-[man-187-chm]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.8.7-20120829.chm
-[man-193-chm]: http://doc.ruby-lang.org/archives/201208/ruby-refm-1.9.3-20120829.chm
+[rurema-wiki]: https://github.com/rurema/doctree/wiki
+[doc-r-l-o]: http://docs.ruby-lang.org/ja/
+[man-187]: http://docs.ruby-lang.org/ja/1.8.7/doc/index.html
+[man-193]: http://docs.ruby-lang.org/ja/1.9.3/doc/index.html
+[man-200]: http://docs.ruby-lang.org/ja/2.0.0/doc/index.html
+[man-210]: http://docs.ruby-lang.org/ja/2.1.0/doc/index.html
+[man-search]: http://docs.ruby-lang.org/ja/search/
+[man-xz]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.xz
+[man-gz]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.gz
+[man-zip]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.zip
+[man-187-chm]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.7-20120829.chm
+[man-193-chm]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-20120829.chm
 [man-mirror]: http://doc.okkez.net/
 [old-man-html-gz]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.gz
 [old-man-html-bz2]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.bz2

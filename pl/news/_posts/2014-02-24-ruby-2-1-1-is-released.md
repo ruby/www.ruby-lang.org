@@ -22,6 +22,10 @@ Jako że poprzednie ogłoszenie zmieniające
 [politykę wersjonowania dla Rubiego 2.1](https://www.ruby-lang.org/pl/news/2013/12/21/semantic-versioning-after-2-1-0/)
 to wydanie jest nazwane "2.1.1".
 
+**Aktualizacja:** Stwierdziliśmy regresję w `Hash#reject`. Po więcej szczegółów
+zobacz:
+[Regresja Hash#reject w Rubim 2.1.1](https://www.ruby-lang.org/pl/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/).
+
 ## Pobieranie
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>

@@ -4,65 +4,70 @@ title: "Von Perl zu Ruby"
 lang: de
 ---
 
-Perl is awesome. Perl’s docs are awesome. The Perl community is …
-awesome. However, the language is fairly large and arguably complex. For
-those Perlers who long for a simpler time, a more orthogonal language,
-and elegant OO features built-in from the beginning, Ruby may be for
-you.
+Perl ist toll. Perls Dokumentation ist toll. Die Perl-Community ist …
+toll. Allerdings ist die Sprache ziemlich umfangreich und unbestritten
+komplex. Für Perl-Programmierer, die sich eine einfachere und
+eindeutigere Sprache mit von Grund auf integrierter Objektorientierung
+wünschen, könnte Ruby genau das Richtige sein.
 
-### Similarities
+### Gemeinsamkeiten
 
-As with Perl, in Ruby,...
+Genau wie Perl hat Ruby…
 
-* you’ve got a package management system, somewhat like CPAN (though
-  it’s called [RubyGems][1])
-* regexes are built right in. Bon appétit!
-* there’s a fairly large number of commonly-used built-ins.
-* parentheses are often optional
-* strings work basically the same.
-* there’s a general delimited string and regex quoting syntax similar to
-  Perl’s (looks like `%q{this (single-quoted)}`, or `%Q{this
-  (double-quotish)}`, and `%w{this for a single-quoted list of words}`.
-  You `%Q|can|` `%Q(use)` `%Q^other^` delimiters if you like).
-* you’ve got double-quotish variable interpolation, though it `"looks
-  #{like} this"` (and you can put any Ruby code you like inside that
-  `#{}`).
-* shell command expansion uses \`backticks\`.
-* you’ve got embedded doc tools (Ruby’s is called rdoc).
+* Ein Paketverwaltungssystem, ähnlich wie CPAN
+  (allerdings heißt es [RubyGems][1]).
+* Reguläre Ausdrücke (Regexes) sind in die Sprache integriert. Bon appétit!
+* Die enthaltene Standardbibliothek stellt bereits viele der häufig
+  benötigten Funktionen zur Verfügung.
+* Klammern sind oft optional.
+* Zeichenketten (Strings) funktionieren im Prinzip genau gleich.
+* Es gibt eine verallgemeinerte Syntax für Begrenzer von Zeichenketten
+  und regulären Ausdrücken, ähnlich wie bei Perl.
+  Das sieht `%q{so}` (einfache Anführungszeichen)
+  oder `%Q{so}` (doppelte Anführungszeichen) aus,
+  und `%w{so für eine Liste von Wörtern}` (einfache Anführungszeichen).
+  Man `%Q|kann|` `%Q(auch)` `%Q^andere^` Begrenzer verwenden.
+* Es gibt Interpolation in Zeichenketten mit doppelten Anführungszeichen,
+  das `"sieht #{so} aus"` (dabei kann innerhalb von `#{}` beliebiger
+  Ruby-Code stehen).
+* Für Shell-Kommandosubstitution werden `` `Backticks` `` verwendet.
+* Es gibt eingebaute Dokumentationswerkzeuge (in Ruby "rdoc" genannt).
 
-### Differences
+### Unterschiede
 
-Unlike Perl, in Ruby,...
+Anders als in Perl…
 
-* you don’t have the context-dependent rules like with Perl.
-* a variable isn’t the same as the object to which it refers. Instead,
-  it’s always just a reference to an object.
-* although `$` and <tt>@</tt> are used as the first character in
-  variable names sometimes, rather than indicating type, they indicate
-  scope (`$` for globals, <tt>@</tt> for object instance, and
-  <tt>@@</tt> for class attributes).
-* array literals go in brackets instead of parentheses.
-* composing lists of other lists does not flatten them into one big
-  list. Instead you get an array of arrays.
-* it’s `def` instead of `sub`.
-* there’s no semicolons needed at the end of each line. Incidentally,
-  you end things like function definitions, class definitions, and case
-  statements with the `end` keyword.
-* objects are strongly typed. You’ll be manually calling `foo.to_i`,
-  `foo.to_s`, etc., if you need to convert between types.
-* there’s no `eq`, `ne`, `lt`, `gt`, `ge`, nor `le`.
-* there’s no diamond operator. You usually use <tt>IO.*some\_func*</tt>
-  instead.
-* the fat comma `=>` is only used for hash literals.
-* there’s no `undef`. In Ruby you have `nil`. `nil` is an object (like
-  anything else in Ruby). It’s not the same as an undefined variable. It
-  evaluates to `false` if you treat it like a boolean.
-* when tested for truth, only `false` and `nil` evaluate to a false
-  value. Everything else is true (including `0`, `0.0`, and `"0"`).
-* there’s no [PerlMonks][2]. Though the ruby-talk mailing list is a very
-  helpful place.
+* Gibt es keine kontextabhängigen Syntaxregeln wie in Perl.
+* Variablen sind nicht dasselbe wie die durch sie referenzierten Objekte.
+  Stattdessen sind sie immer nur Referenzen auf ein Objekt.
+* Variablennamen beginnen zwar manchmal mit `$` oder `@`, dadurch wird
+  aber nicht der Typ gekennzeichnet, sondern ihr Sichtbarkeitsbereich
+  (`$` für globale Variablen, `@` für Instanzvariablen und
+  `@@` für Klassenvariablen).
+* Array-Literale verwenden eckige Klammern, nicht runde.
+* Listen, die aus anderen Listen zusammengesetzt werden, ergeben keine
+  große Liste aller Elemente.
+  Stattdessen erhält man eine mehrdimensionale Liste.
+* Es wird `def` anstelle von `sub` geschrieben.
+* Semikolons am Zeilenende sind überflüssig.
+  Methodendefinitionen, Klassendefinitionen, Case-Anweisungen
+  und ähnliches werden mit dem Schlüsselwort `end` abgeschlossen.
+* Objekte sind stark typisiert. Typumwandlungen müssen von Hand
+  vorgenommen werden, zum Beispiel mit `foo.to_i`, `foo.to_s`, usw.
+* Es gibt kein `eq`, `ne`, `lt`, `gt`, `ge` oder `le`.
+* Es gibt keinen Diamantoperator (`<>`),
+  üblicherweise wird stattdessen `IO.some_method` geschrieben.
+* `=>` wird nur für Hash-Literale verwendet.
+* Es gibt kein `undef`. In Ruby gibt es `nil`.
+  `nil` ist ein Objekt (wie alles andere in Ruby auch) und
+  ist nicht dasselbe wie eine nicht definierte Variable.
+  In booleschen Ausdrücken wird es als `false` interpretiert.
+* In booleschen Ausdrücken werden nur `false` und `nil` als falsch
+  interpretiert. Alles andere ist wahr (einschließlich `0`, `0.0` und `"0"`).
+* Es gibt kein [PerlMonks][2].
+  Hilfe kann man dafür aber in der Ruby-Talk-Mailingliste finden.
 
 
 
-[1]: http://docs.rubygems.org/
+[1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

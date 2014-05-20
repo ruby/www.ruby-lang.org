@@ -53,9 +53,9 @@ que verás mientras lo aprendes.
 Dos funcionalidades de Ruby que se diferencian de lo que puedes haber
 visto previamente, y que toma cierto tiempo acostumbrarse a ellas, son
 los “bloques” e iteradores. En vez de recorrer un índice (como con C,
-C++, o Java anterior al 1.5), o recorrer una lista (como el <tt>for (@a)
-\{...}</tt> de Perl, o <tt>for i in aList: ...</tt> en Python, con Ruby
-verás muy frecuentemente código de este estilo:
+C++, o Java anterior al 1.5), o recorrer una lista (como el
+`for (@a) {...}` de Perl, o `for i in aList: ...` en Python,
+con Ruby verás muy frecuentemente código de este estilo:
 
 {% highlight ruby %}
 una_lista.each do |este_item|
@@ -66,7 +66,7 @@ end
 
 Para obtener más información sobre `each` (y sus amigos `collect`,
 `find`, `inject`, `sort`, etc.), ejecuta `ri Enumerable` (y después
-<tt>ri Enumerable#*nombre\_del\_metodo*</tt>).
+`ri Enumerable#nombre_del_metodo`).
 
 ### Todo tiene un valor
 
@@ -77,10 +77,10 @@ incluso si ese valor es **nil**. Esto es posible:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -145,7 +145,7 @@ detendrá tu programa. De todas formas, eso no quiere decir que
 
 Ruby impone algunas convenciones de sintaxis. Si un identificador
 comienza con una letra mayúscula, es una constante. Si comienza con un
-símbolo de moneda ($), es una variable global. Si comienza con `@`, es
+símbolo de moneda (`$`), es una variable global. Si comienza con `@`, es
 una variable de instancia. Si comienza con `@@`, es una variable de
 clase.
 
@@ -169,10 +169,10 @@ pueden ser emulados mediante el uso de symbols y hashes. Ruby on Rails,
 entre otros, usa esto a discreción. Por ejemplo:
 
 {% highlight ruby %}
-def parametros_con_nombre( params )
+def parametros_con_nombre(params)
   params
 end
-parametros_con_nombre( :param_uno => 10, :param_dos => 42 )
+parametros_con_nombre(:param_uno => 10, :param_dos => 42)
 # => {:param_uno=>10, :param_dos=>42}
 {% endhighlight %}
 
@@ -319,13 +319,13 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 En Ruby, los métodos tienen permitido terminar en signos de exclamación
 o interrogación. Por convención, los métodos que responden preguntas
-(i.e. <tt>Array#empty?</tt> retorna **true** si el receptor está vacío)
+(i.e. `Array#empty?` retorna **true** si el receptor está vacío)
 terminan con un signo de interrogación. Métodos potencialmente
 “peligrosos” (i.e. métodos que modifican **self** o sus argumentos,
 `exit!` etc.) por convención terminan en un signo de exclamación.
 
 De todas formas, no todos los métodos que modifican sus argumentos
-terminan en signos de exclamación. <tt>Array#replace</tt> reemplaza el
+terminan en signos de exclamación. `Array#replace` reemplaza el
 contenido de un array co nel contenido de otro array. No tiene mucho
 sentido tener un método como ese que **no** modifique **self**.
 
@@ -359,14 +359,14 @@ otro_auto.inspect # => Auto barato
 Ruby no se rinde si no puede encontrar un método que responda a un
 mensaje en particular. Llama al método `method_missing` con el nómbre
 del método que no pudo encontrar y sus argumentos. Por defecto,
-method\_missing lanza una excepción NameError, pero puedes redefinirlo
+`method_missing` lanza una excepción NameError, pero puedes redefinirlo
 para que se ajuste mejor a tu aplicación, y muchas bibliotecas lo hacen.
 Aquí tienes un ejemplo:
 
 {% highlight ruby %}
 # id es el nombre del método invocado, la sintaxis * recolecta
 # todos los argumentos en un array llamado 'argumentos'
-def method_missing( id, *argumentos )
+def method_missing(id, *argumentos)
   puts "El método #{id} fue invocado, pero no existe. Tiene " +
        "estos argumentos: #{argumentos.join(", ")}"
 end
@@ -400,7 +400,7 @@ en un `Proc` al anexarle un parámetro especial a la lista de argumentos,
 así:
 
 {% highlight ruby %}
-def block( &el_bloque )
+def block(&el_bloque)
   # Aquí dentro, el_bloque es el bloque pasado al método
   el_bloque # retornar el bloque
 end
@@ -410,7 +410,7 @@ sumador.class # => Proc
 {% endhighlight %}
 
 También puedes crear bloques fuera de las invocaciones a métodos,
-utilizando Proc.new con un bloque o llamando al método `lambda`.
+utilizando `Proc.new` con un bloque o llamando al método `lambda`.
 
 Similarmente, los métodos también pueden ser objetos:
 
@@ -423,12 +423,12 @@ method(:puts).call "¡puts es un objeto!"
 
 La mayoría de los operadores en Ruby son simples simplificaciones
 sintácticas (con algunas reglas de precedencia) para llamar a ciertos
-métodos. Puedes, por ejemplo, redefinir el método <tt>Fixnum#+</tt>\:
+métodos. Puedes, por ejemplo, redefinir el método `Fixnum#+`\:
 
 {% highlight ruby %}
 class Fixnum
   # Puedes, pero por favor no lo hagas
-  def +( otro )
+  def +(otro)
     self - otro
   end
 end
@@ -447,7 +447,8 @@ sintácticas. No son métodos, y no pueden ser redefinidos:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Además, +=, \*= etc. sólo son abreviaciones para `var = var + otra_var`, `var = var * otra_var`, etc. y por ende no pueden ser redefinidos.
+Además, `+=`, `*=` etc. sólo son abreviaciones para `var = var + otra_var`,
+`var = var * otra_var`, etc. y por ende no pueden ser redefinidos.
 
 ## Para saber más
 

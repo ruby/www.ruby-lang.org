@@ -7,9 +7,11 @@ date: 2014-02-24 12:00:00 +0000
 lang: en
 ---
 
-Today, Feb. 24th is the 21th anniversary of Ruby, so we happily announce a new patch release Ruby 2.0.0-p451.
+Today, Feb. 24th, is the 21st anniversary of Ruby,
+so we happily announce a new patch release, Ruby 2.0.0-p451.
 
-This release includes many bugfixes. See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+This release includes many bugfixes.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog)
 for details.
 

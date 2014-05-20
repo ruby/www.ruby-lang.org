@@ -18,9 +18,6 @@ se liberen las correcciones correspondientes.
 
 A continuación una lista de los problemas conocidos mas recientes:
 
- * [Vulnerabilidad por evasión de validación del nombre de cliente de SSL
-   (CVE-2013-4073)](/es/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
-   publicado el 2013-06-27.
- * [Vulnerabilidad DoS por expansión de entidades en REXML (bomba XML,
-   CVE-2013-1821)](/es/news/2013/02/22/rexml-dos-2013-02-22/)
-   publicado 2013-02-22.
+{% include security_posts.html %}
+
+See [the English page](/en/security/) for prior security related posts.

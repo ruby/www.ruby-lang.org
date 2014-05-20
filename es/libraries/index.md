@@ -114,5 +114,5 @@ Para instalar RubyGems, sigue las instrucciones que se detallan en
 [9]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=HTML
 [10]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=XML
 [11]: http://raa.ruby-lang.org/cat.rhtml?category_major=Library;category_minor=Physics
-[12]: http://docs.rubygems.org/
+[12]: http://guides.rubygems.org
 [13]: https://rubygems.org/pages/download

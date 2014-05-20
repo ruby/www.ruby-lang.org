@@ -24,14 +24,14 @@ Tal como no Perl, em Ruby,...
 * Os Parênteses são frequentemente opcionais.
 * As Strings funcionam essencialmente da mesma forma.
 * Existe uma sitaxe de delimitação de strings e expressões regulares
-  geralmente utilizada semelhante a do Perl (com o formato `%q{este
-  (pelicas)}`, ou `%Q{este (aspas)}`, e `%w{este para uma lista de
+  geralmente utilizada semelhante a do Perl (com o formato `%q{este}`
+  (pelicas), ou `%Q{este}` (aspas), e `%w{este para uma lista de
   palavras com pelicas}`. Podem `%Q|ser |` `%Q(utilizados)` `%Q^outros^`
   delimitadores).
 * Em Ruby existe interpolação de váriaveis entre aspas, `"aplica-se
   #{desta} forma"` (o código ruby é colocado entre `#{}`).
 * A execução de comandos de sistema através da Shell faz-se com
-  \`backticks\`.
+  `` `backticks` ``.
 * O Ruby possui ferramentas de documentação embebidas (No Ruby’s é
   chamdo Rdoc).
 
@@ -42,10 +42,10 @@ Ao contrario do Perl, no Ruby…
 * Não existem as regras dependentes do contexto como no Perl.
 * Uma variável não é o mesmo que o objecto ao qual se refere. Em vez
   disso é sempre um referencia para um objecto.
-* Apesar de `$` e <tt>@</tt> serem utilizados por vezes como os
+* Apesar de `$` e `@` serem utilizados por vezes como os
   primeiros caracteres nos nomes das variaveis, em vez de indicar o
-  tipo, indicam o ambito `$` para variáveis globais, <tt>@</tt> para
-  instancias de objectos, e <tt>@@</tt> para atributos de classe).
+  tipo, indicam o ambito `$` para variáveis globais, `@` para
+  instancias de objectos, e `@@` para atributos de classe).
 * Os elementos de um Array são colocados entre parênteses rectos em vez
   de parênteses curvos.
 * Criar listas de listas não as reduz a uma grande lista, em vez disso
@@ -58,8 +58,8 @@ Ao contrario do Perl, no Ruby…
   métodos `foo.to_i`, `foo.to_s`, etc., se for necessário converter
   entre tipos.
 * Não existem `eq`, `ne`, `lt`, `gt`, `ge`, nem `le`.
-* Não existe ‘diamond operator’. Usualmente utiliza-se
-  <tt>IO.*alguma\_funçao*</tt>.
+* Não existe ‘diamond operator’ (`<>`). Usualmente utiliza-se
+  `IO.alguma_funçao`.
 * O simbolo `=>` é utilizado somente para os elementos de uma tabelas
   de hash.
 * Não existe `undef`. Em Ruby utiliza-se a expressão `nil`. `nil` é um
@@ -74,5 +74,5 @@ Ao contrario do Perl, no Ruby…
 
 
 
-[1]: http://docs.rubygems.org/
+[1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

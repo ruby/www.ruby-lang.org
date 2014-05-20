@@ -54,8 +54,8 @@ Ruby yang akan Anda lihat ketika sedang mempelajari Ruby.
 Dua fitur Ruby yang mungkin belum biasa Anda lihat sebelumnya adalah
 “blok” dan iterator. Daripada melakukan perulangan dengan indeks
 (seperti C, C++ ataupun Java sebelum versi 1.5), atau melakukan
-perulangan lewat *list* (seperti <tt>for (@a) \{...}</tt> di Perl
-ataupun <tt>for i in aList: ...</tt> di Python). Anda akan **sangat
+perulangan lewat *list* (seperti `for (@a) {...}` di Perl
+ataupun `for i in aList: ...` di Python). Anda akan **sangat
 sering** melihat kode yang mirip seperti ini di Ruby:
 
 {% highlight ruby %}
@@ -68,8 +68,8 @@ end
 {% endhighlight %}
 
 Untuk info lebih lanjut tentang `each` (dan teman-temannya seperti
-`collect`, `find`, `inject`, `sort`, dan lain-lain.), lihat `ri
-Enumerable` (kemudian <tt>ri Enumerable#*func\_name*</tt>).
+`collect`, `find`, `inject`, `sort`, dan lain-lain.), lihat
+`ri Enumerable` (kemudian `ri Enumerable#some_method`).
 
 ### Semua Mempunyai Nilai
 
@@ -81,10 +81,10 @@ juga tetap punya *value*). Ini karena:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -151,7 +151,7 @@ mendefinisikan ulang konstanta.
 
 Ruby memiliki pengaturan penamaan. Jika sebuah *identifier* diawali
 dengan huruf kapital, maka *identifier* tersebut merupakan konstanta.
-Jika *identifier* diawali dengan tanda dolar ($), maka *identifier*
+Jika *identifier* diawali dengan tanda dolar (`$`), maka *identifier*
 tersebut adalah variabel global. Jika identifier diawali dengan tanda
 `@`, maka identifier tersebut adalah *instance variable*. Jika
 identifier diawali dengan `@@`, maka identifier tersebut adalah variabel
@@ -331,14 +331,14 @@ Time.mktime(2007, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 Di Ruby, metode boleh diakhiri dengan tanda tanya ataupun tanda seru.
 Pengaturan nama adalah, metode-metode yang menjawab pertanyaan (seperti
-<tt>Array#empty?</tt> mengembalikan nilai **true** jika obyek penerima
+`Array#empty?` mengembalikan nilai **true** jika obyek penerima
 yaitu Array ternyata kosong) diakhiri dengan tanda tanya. Kemudian,
 metode-metode yang berpotensi untuk “membahayakan” (seperti metode yang
 mengganti **self** atau argumen, `exit!` dan lain sebagainya) maka
 pengaturannya diakhiri dengan tanda seru.
 
 Tetapi, semua metode yang mengganti argument tidak diakhiri dengan tanda
-seru. <tt>Array#replace</tt> mengganti isi array dengan isi array lain.
+seru. `Array#replace` mengganti isi array dengan isi array lain.
 Karena tidak masuk akal kalau ada metode sedemikian rupa **tidak**
 mengganti self.
 
@@ -368,7 +368,7 @@ mobil_lain = Mobil.new
 mobil_lain.inspect # => Mobil murah
 {% endhighlight %}
 
-### Metode method\_missing
+### Metode `method_missing`
 
 Ruby tidak menyerah kalau Ruby tidak mendapatkan metode yang bisa
 menanggapi *message* tertentu. Ruby akan memanggil metode
@@ -382,7 +382,7 @@ dan banyak *library* yang melakukan hal yang sama. Contoh:
 # id adalah nama metode yang dipanggil,
 # sintaks * mengumpulkan semua arguments
 # dalam array yang bernama 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Metode #{id} telah dipanggil, " +
     "tetapi tidak ditemukan. " +
     "Metode ini punya arguments sebagai berikut: " +
@@ -421,7 +421,7 @@ memanggil blok, Anda bisa menggunakan `yield`, atau membuat sebuah obyek
 contoh berikut:
 
 {% highlight ruby %}
-def blok( &the_block )
+def blok(&the_block)
   # Di dalam sini, the_block adalah blok yang dilewatkan ke metode blok
   the_block # return the block
 end
@@ -440,7 +440,7 @@ method(:puts).call "puts adalah obyek!"
 # => puts adalah obyek!
 {% endhighlight %}
 
-### Operator adalah *Syntactic Sugar* 
+### Operator adalah *Syntactic Sugar*
 
 Kebanyakan operator di Ruby hanyalah *syntactic sugar*. Maksudnya
 *syntactic sugar* adalah penyingkatan penulisan kode. Dalam hal
@@ -453,7 +453,7 @@ kelas Fixnum:
 class Fixnum
   # Sebenarnya Anda bisa melakukan ini,
   # tetapi tolong jangan lakukan ini
-  def +( other )
+  def +(other)
     self - other
   end
 end
@@ -473,8 +473,8 @@ ulang:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Tambahan, +=, \*= dan lain sebagainya hanyalah singkatan untuk `var =
-var + var_lain`, `var = var * var_lain`, dan seterusnya tidak dapat
+Tambahan, `+=`, `*=` dan lain sebagainya hanyalah singkatan untuk
+`var = var + var_lain`, `var = var * var_lain`, dan seterusnya tidak dapat
 didefinisikan ulang.
 
 ## Ingin mengetahui Ruby lebih lanjut?

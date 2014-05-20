@@ -16,20 +16,16 @@ private mailing list. Reported problems will be published after fixes.
 The members of the mailing list are people who provide Ruby
 (Ruby committers and authors of other Ruby implementations,
 distributors, PaaS platformers).
+The members must be individual people, mailing lists are not permitted.
 
 ## Known issues
 
-Here are recent issues.
+Here are recent issues:
 
-* [Heap Overflow in Floating Point Parsing
-  (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
-  published at 22 Nov, 2013.
-* [Hostname check bypassing vulnerability in SSL client
-  (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
-  published at 27 Jun, 2013.
-* [Object taint bypassing in DL and Fiddle in Ruby
-  (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
-  published at 14 May, 2013.
+{% include security_posts.html %}
+
+More known issues:
+
 * [Entity expansion DoS vulnerability in REXML (XML bomb,
   CVE-2013-1821)][1]
   published at 22 Feb, 2013.

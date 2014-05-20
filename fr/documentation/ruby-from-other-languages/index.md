@@ -40,9 +40,9 @@ de Ruby que vous allez rencontrer au cours de votre apprentissage.
 Représentant en général une nouveauté technique pour celui qui découvre
 Ruby, les blocs et les itérateurs demandent en général un petit temps
 d’adaptation. Au lieu de construire une boucle sur un index (comme en C,
-C++ ou java &lt; 1.5) ou sur une liste (comme en Perl, avec <tt>for (@a)
-\{...}</tt>, ou en Python, avec <tt>for i in Liste: ...</tt>), vous
-écrirez souvent en Ruby quelque chose comme :
+C++ ou java &lt; 1.5) ou sur une liste (comme en Perl, avec
+`for (@a) {...}`, ou en Python, avec `for i in Liste: ...`),
+vous écrirez souvent en Ruby quelque chose comme :
 
 {% highlight ruby %}
 une_liste.each do |item_courant|
@@ -53,8 +53,7 @@ end
 
 Pour plus d’informations sur `each` et ses méthodes apparentées
 (`collect`, `find@n @inject`, `sort`, etc.), voyez `ri Enumerable` dans
-un terminal, par exemple (affinez ensuite avec <tt>@ri
-Enumerable#*méthode*</tt>).
+un terminal, par exemple (affinez ensuite avec `ri Enumerable#méthode`).
 
 ### Des valeurs, partout
 
@@ -67,10 +66,10 @@ qui suit est possible :
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -141,7 +140,7 @@ pas un encouragement en soi à redéfinir les constantes, cela dit.
 
 Ruby intègre (et impose) des conventions de nommage sémantiques. Si un
 identifiant commence par une majuscule, il s’agit d’une constante. S’il
-débute par un signe dollar ($), c’est une variable globale. S’il débute
+débute par un signe dollar (`$`), c’est une variable globale. S’il débute
 par un `@`, il s’agit d’une variable d’instance. S’il commence par `@@`,
 c’est une variable de classe.
 
@@ -163,13 +162,13 @@ Depuis Ruby 2.0, à l'instar de Python, il est possible de définir une
 méthode avec des paramètres « mot-clés » :
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -365,7 +364,7 @@ bibliothèques exploitent cette possibilité. Voici un exemple :
 {% highlight ruby %}
 # id est le nom de la méthode appelée, la syntaxe * renvoie
 # tous les paramètres dans un tableau nommé « arguments »
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "La méthode #{id} a été appelée, mais elle n'existe pas. " +
        "Voici les paramètres de l'appel : #{arguments.join(", ")}"
 end
@@ -400,7 +399,7 @@ transformer en `Proc` en rajoutant un paramètre spécial à la liste
 d’arguments, comme ceci :
 
 {% highlight ruby %}
-def bloc( &le_bloc )
+def bloc(&le_bloc)
   # Ici, dedans, le_bloc est le bloc passé à la méthode
   le_bloc # retourne le bloc
 end
@@ -411,7 +410,7 @@ addition.class # => Proc
 
 Cela signifie que vous pouvez créer des blocs en-dehors du contexte des
 appels de méthode, en utilisant `Proc.new` avec un bloc ou en appelant
-une méthode lambda.
+une méthode `lambda`.
 
 De la même façon, les méthodes sont également des objets bien réels :
 
@@ -429,7 +428,7 @@ pouvez, par exemple, redéfinir la méthode `+` de la classe `Fixnum`\:
 {% highlight ruby %}
 class Fixnum
   # Possible, mais pas recommandé...
-  def +( other )
+  def +(other)
     self - other
   end
 end
@@ -448,9 +447,9 @@ Les opérateurs ci-dessous ne sont pas des méthodes, et ne peuvent pas
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Par ailleurs, `+=`, `*=`, etc. ne sont que des raccourcis pour `var =
-var + autre_var`, `var = var * autre_var`, etc. et ne peuvent être
-redéfinis.
+Par ailleurs, `+=`, `*=`, etc. ne sont que des raccourcis pour
+`var = var + autre_var`, `var = var * autre_var`, etc. et ne peuvent
+être redéfinis.
 
 ## En savoir (encore) plus
 

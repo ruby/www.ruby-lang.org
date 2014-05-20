@@ -71,7 +71,7 @@ Không giống như C, trong Ruby,...
 * Không cần các tập tin header. Bạn chỉ cần định nghĩa chức năng mình
   muốn (thường là các phương thức) và các lớp trong mã nguồn chính của
   mình.
-* Không cần <tt>#define</tt>. Thay vào đó chỉ cần dùng hằng số.
+* Không cần `#define`. Thay vào đó chỉ cần dùng hằng số.
 * Giống như Ruby 1.8, mã được biên dịch khi thực thi mà không cần biên
   dịch qua mã máy (machine-code) hay byte-code.
 * Tất cả các biến đều tồn tại trên heap. Do đó, bạn không cần giải phóng
@@ -112,8 +112,8 @@ Khác với C++, trong Ruby,...
   *khi thực thi* nếu phương thức đó thực sự hoạt động.
 * Phương thức khởi tạo được gọi `initialize` thay vì tên của lớp đó.
 * Tất cả các phương thức luôn là virtual.
-* Tên biến của "Lớp" (static) luôn được bắt đầu với <tt>@@</tt> (giống
-  như <tt>@@total\_widgets</tt>).
+* Tên biến của "Lớp" (static) luôn được bắt đầu với `@@` (giống
+  như `@@total_widgets`).
 * Bạn không thể truy cập trực tiếp vào các biến - tất cả các truy cập
   đến các biến public (trong Ruby nghĩa là thuộc tính) đều thông qua
   phương thức.

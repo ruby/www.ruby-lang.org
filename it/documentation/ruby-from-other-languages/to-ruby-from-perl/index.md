@@ -23,13 +23,13 @@ Come in Perl, in Ruby…
 * Le Parentesi sono spesso opzionali.
 * Le Stringhe funzionano sostanzialmente nello stesso modo.
 * Esiste una sintassi generale per delimitare le stringhe e le regex
-  simile a Perl (ossia come `%q{questo (fra apici)}`, o `%Q{questo (fra
-  virgolette)}`, and `%w{questo per una lista di parole fra apici}`. Tu
+  simile a Perl (ossia come `%q{questo}` (fra apici), o `%Q{questo}`
+  (fra virgolette), and `%w{questo per una lista di parole fra apici}`. Tu
   `%Q|puoi|` `%Q(usare)` `%Q^altri^` delimitatori se preferisci).
 * Si Ritrova l’interpolazione di variabili nelle stringhe fra
   virgolette, anche se `"appare #{così}.."` (bada che puoi inserire
   qualsiasi codice Ruby all’interno di `#{}`, non solo variabili).
-* I comandi Shell vengono racchiusi \`da apici sghembi\` (“backticks” in
+* I comandi Shell vengono racchiusi `` `da apici sghembi` `` (“backticks” in
   Inglese).
 * Hai tool di documentazione embedded (quello di Ruby si chiama rdoc).
 
@@ -57,8 +57,8 @@ A differenza di Perl, in Ruby,...
   `foo.to_i`, `foo.to_s`, etc., se devi fare conversioni di tipo (il
   linguaggio non lo farà per te).
 * Non ci sono `eq`, `ne`, `lt`, `gt`, `ge`, `le`.
-* Non c’è l’operatore diamante per l’entrata-uscita dati; invece di
-  solito si usa <tt>IO.*qualche\_funzione*</tt>.
+* Non c’è l’operatore diamante (`<>`) per l’entrata-uscita dati; invece di
+  solito si usa `IO.qualche_funzione`.
 * Il simbolo `=>` (“fat comma”) viene usato solamente per segnalare la
   corrispondenza chiave-valore nei hash.
 * Non esiste `undef`; in Ruby esiste solo `nil`, il quale è un oggetto
@@ -73,5 +73,5 @@ A differenza di Perl, in Ruby,...
 
 
 
-[1]: http://docs.rubygems.org/
+[1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

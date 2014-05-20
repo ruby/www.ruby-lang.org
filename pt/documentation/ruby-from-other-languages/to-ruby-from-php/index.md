@@ -41,7 +41,7 @@ Diferente do PHP, em Ruby …
   invocarmos abs(-1) é -1.abs
 * Os parêntesis são opcionais nas invocações dos métodos, excepto para
   clarificar que parâmetros são passados para que método.
-* Em vez de convenções de nomes, tal como o uso de underscore (\_), a
+* Em vez de convenções de nomes, tal como o uso de underscore (`_`), a
   biblioteca standard e as extensões estão organizadas em módulos e
   classes.
 * A Reflexão é uma capacidade inerente dos objectos, não é necessário

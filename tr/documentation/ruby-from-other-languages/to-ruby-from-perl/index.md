@@ -19,14 +19,14 @@ Perl’de olduğu gibi Ruby’de de,...
 * Birçok sık kullanılan özellik içinde gömülüdür.
 * Parantezler çoğunlukla isteğe bağlıdır
 * String’ler aynı şekilde çalışır.
-* Perl gibi string ve regex belirleme yapıları vardır. (`%q{bu
-  (tek-tırnak)}`, veya `%Q{bu (çift-tırnaklı)}`, ve `%w{bu tek-tırnaklı
+* Perl gibi string ve regex belirleme yapıları vardır. (`%q{bu}`
+  (tek-tırnak), veya `%Q{bu}` (çift-tırnaklı), ve `%w{bu tek-tırnaklı
   kelime listesi}` gibi. İsterseniz `%Q|bunu|` `%Q(veya)` `%Q^diğer
   bir^` sınırlayıcıyı da kullanabilirsiniz).
 * Çift tırnak içinde değişken değerlerine `"bu #{şekilde}"`
   erişebilirsiniz. (Ayrıca bu `#{}` içine Ruby kodu da koyabilirsiniz.
-* Shell komutu program içinden \`backtick’ler\` (ters tek tırnaklar) ile
-  çağrılır (tarih = \`date\` gibi).
+* Shell komutu program içinden `` `backtick’ler` `` (ters tek tırnaklar) ile
+  çağrılır (``tarih = `date` `` gibi).
 * Gömülü döküman aracı vardır (Ruby’ninki RDoc olarak adlandırılmıştır).
 
 ### Farklar
@@ -51,8 +51,8 @@ Ruby’de Perl’den farklı olarak,...
 * Nesne tipleri kararlıdır. Nesnelerin tipini dönüştürmek için
   `foo.to_i`, `foo.to_s` gibi elle yapmalısınız.
 * `eq`, `ne`, `lt`, `gt`, `ge`, veya `le` yoktur.
-* “Diamond” operatörü (&lt;&gt;) yoktur. Genellikle bunun yerine
-  <tt>IO.*fonksiyon*</tt> kullanılır .
+* “Diamond” operatörü (`<>`) yoktur. Genellikle bunun yerine
+  `IO.fonksiyon` kullanılır.
 * “fat comma” (`=>`) sadece hash içinde kullanılır.
 * `undef` yoktur. Ruby’de `nil` vardır. `nil` de diğer herşey gibi bir
   nesnedir. Tanımsız değişken ile aynı şey değildir. Boolean
@@ -65,5 +65,5 @@ Ruby’de Perl’den farklı olarak,...
 
 
 
-[1]: http://docs.rubygems.org/
+[1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

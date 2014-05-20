@@ -33,8 +33,8 @@ Rubiego.
 Są dwa elementy, które są nieco różne od tego co możesz już znać. Jednym
 z nich są “bloki” oraz iteratory. Zamiast iterować po indeksach w
 tablicy (jak w C, C++ lub Javie &lt; 1.5), lub przechodzić po pętli po
-liście (jak w Perlowym <tt>for (@a) \{...}</tt>, lub Pythonowym <tt>for
-i in lista: ...</tt>), w Rubim zobaczysz:
+liście (jak w Perlowym `for (@a) {...}`, lub Pythonowym
+`for i in lista: ...`), w Rubim zobaczysz:
 
 {% highlight ruby %}
 lista.each do |element|
@@ -44,8 +44,8 @@ end
 {% endhighlight %}
 
 Aby dowiedzieć się więcej o `each` (oraz pokrewnych: `collect`, `find`,
-`inject`, `sort`, itd), rzuć okiem na `ri Enumerable` (a potem <tt>ri
-Enumerable#*func\_name*</tt>).
+`inject`, `sort`, itd), rzuć okiem na `ri Enumerable`
+(a potem `ri Enumerable#func_name`).
 
 ### Wszystko ma wartość
 
@@ -56,10 +56,10 @@ wartość, nawet jeśli ta wartość jest **nil**.
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -124,7 +124,7 @@ modyfikować wartość stałych.
 
 Ruby wymusza pewną konwencję jeśli chodzi o nazewnictwo. Jeśli nazwa
 zaczyna się od wielkiej litery, jest stałą. Jeśli zaczyna się od znaku
-dolara ($), jest zmienną globalną. Jeśli zaczyna się od `@`, jest
+dolara (`$`), jest zmienną globalną. Jeśli zaczyna się od `@`, jest
 zmienną należącą do egzemplarza obiektu. Jeśli zaczyna się od `@@`, jest
 zmienną należącą do klasy.
 
@@ -146,13 +146,13 @@ Tak jak w Pythonie, od wersji Rubiego 2.0 metody można definiować
 przy użyciu argumentów z kluczem:
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Wyślij od #{from} do #{to} poprzez #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Wyślij od A do B poprzez mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Wyślij od B do A poprzez Pony Express."
 {% endhighlight %}
 
@@ -171,7 +171,7 @@ else:
   print "0 is false"
 {% endhighlight %}
 
-Ten kawałek kodu wypisze <tt>0 is false</tt> To samo w Rubim wygląda
+Ten kawałek kodu wypisze `0 is false` To samo w Rubim wygląda
 tak:
 
 {% highlight ruby %}
@@ -296,13 +296,13 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 W Rubim, nazwy metod mogą kończyć się pytajnikiem lub wykrzyknikiem.
 Według przyjętej konwencji, metody które odpowiadają na jakieś pytanie
-(n.p. <tt>Array#empty?</tt> zwraca **true** jeśli odbiorca jest pusty)
+(n.p. `Array#empty?` zwraca **true** jeśli odbiorca jest pusty)
 kończą się pytajnikiem. Potencjalnie “groźne” metody (np. metody, które
 modyfikują **self** – dany obiekt lub swoje argumenty `exit!` etc.)
 kończą się wykrzyknikiem.
 
 Wszystkie metody, których celem jest zmiana swoich argumentów, nie
-kończą się wykrzyknikiem. <tt>Array#replace</tt> zamienia zawartość
+kończą się wykrzyknikiem. `Array#replace` zamienia zawartość
 danej tablicy zawartością innej tablicy. Istnienie tej metody w celu
 innym niż modyfikacja danego obiektu **self** nie ma zbyt dużego sensu.
 
@@ -335,14 +335,14 @@ other_car.inspect # => Tani samochód
 
 Ruby nie poddaje się jeśli nie może odnaleźć danej metody. Wywołuje w
 takim przypadku metodę `method_missing` przekazując nazwę metody, której
-nie mógł znaleźć jako argument. Domyślnie, method\_missing zgłasza
+nie mógł znaleźć jako argument. Domyślnie, `method_missing` zgłasza
 wyjątek NameError, lecz można ją przedefiniować aby lepiej pasowała do
 Twojej aplikacji, wiele bibliotek tak robi. Poniżej jeden z przykładów:
 
 {% highlight ruby %}
 # id jest nazwą wywołanej metody, składnia * łączy wszystkie pozostałe argumenty
 # w tablicę nazwaną 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Wywołano niezdefiniowaną metodę #{id}. Przekazano " +
        "poniższe argumenty: #{arguments.join(", ")}"
 end
@@ -377,7 +377,7 @@ utworzyć specjalny obiekt typu `Proc` przekazując specjalny argument,
 tak jak w poniższym przykładzie:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Tutaj, the_block jest blokiem przekazanym do tej metody
   the_block # zwróć blok
 end
@@ -386,7 +386,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-Możesz tworzyć bloki również poza wywołaniami metod, wywołując Proc.new
+Możesz tworzyć bloki również poza wywołaniami metod, wywołując `Proc.new`
 lub metodę `lambda`.
 
 Podobnie, metody to także obiekty:
@@ -404,7 +404,7 @@ wywołań metod. Możesz, na przykład, nadpisać metodę + klasy Fixnum:
 {% highlight ruby %}
 class Fixnum
   # Możesz, ale proszę nie rób tego !
-  def +( other )
+  def +(other)
     self - other
   end
 end
@@ -422,7 +422,7 @@ przedefiniować.
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Dodatkowo, +=, \*= etc. są po prostu skrótami dla `var = var + other_var`,
+Dodatkowo, `+=`, `*=` etc. są po prostu skrótami dla `var = var + other_var`,
 `var = var * other_var`, etc. dlatego też nie można ich przedefiniować.
 
 ## Więcej

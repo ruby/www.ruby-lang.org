@@ -18,13 +18,8 @@ perbaikan.
 
 Berikut adalah isu - isu terkini.
 
-* [Heap Overflow in Floating Point Parsing
-  (CVE-2013-4164)](/id/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
-  dipublikasikan pada 22 Nov, 2013.
-* [Kerentanan Cek Hostname Terlewati pada Klien SSL (CVE-2013-4073)][1]
-  dipublikasikan pada 27 Jun, 2013.
-* [Taint Object mem-bypass DL dan Fiddle pada Ruby (CVE-2013-2065)][2]
-  dipublikasikan pada 14 Mei, 2013.
+{% include security_posts.html %}
+
 * [Kerentanan DoS Ekspansi Entity pada REXML (Bom XML, CVE-2013-1821)][3]
   dipublikasikan pada 22 Feb, 2013.
 * [Denial of Service dan Kerentanan Penciptaan Unsafe Object pada JSON
@@ -44,11 +39,9 @@ Berikut adalah isu - isu terkini.
 * [Serangan Denial of Service Ditemukan pada Algoritma Hash Ruby
   (CVE-2011-4815)][11] dipublikasikan pada 28 Dec, 2011.
 
-Untuk isu - isu sebelumnya lihat [halaman bahasa Inggris][12]
+Untuk isu - isu sebelumnya lihat [halaman bahasa Inggris][12].
 
 
-[1]: /id/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/
-[2]: /id/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/
 [3]: /id/news/2013/02/22/rexml-dos-2013-02-22/
 [4]: /id/news/2013/02/22/json-dos-cve-2013-0269/
 [5]: /id/news/2013/02/06/rdoc-xss-cve-2013-0256/

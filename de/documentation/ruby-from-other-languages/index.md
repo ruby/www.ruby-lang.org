@@ -40,19 +40,19 @@ Lernen begegnen wirst.
 Zwei Dinge, denen du in dieser Form vermutlich noch nicht begegnet bist,
 und an die man sich ein wenig gewöhnen muss, sind Blöcke und Iteratoren.
 In Ruby iteriert man weder über einen Index (wie in C), noch über eine
-Liste (wie in Perls <tt>for (@a) \{...}</tt> oder Pythons `for item in
-aList:`), sondern in den meisten Fällen so:
+Liste (wie in Perls `for (@a) {...}` oder Pythons `for item in aList:`),
+sondern in den meisten Fällen so:
 
 {% highlight ruby %}
-a_list.each do |item|
+some_list.each do |item|
   # Wir sind im Innern des Blocks
   # und arbeiten mit item.
 end
 {% endhighlight %}
 
 Mehr zu `each` (und seine Artgenossen `collect`/`map`, `find`, `inject`,
-`sort` etc.) erfährst du über `ri Enumerable` (bzw. <tt>ri
-Enumerable#*methodenname*</tt>).
+`sort` etc.) erfährst du über `ri Enumerable`
+(bzw. `ri Enumerable#methodenname`).
 
 ### Alles hat einen Wert
 
@@ -64,10 +64,10 @@ Damit ist so etwas möglich:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -94,13 +94,11 @@ dasselbe Objekt im Speicher.)
 
 Wie du siehst, zeigt jedes gleichnamige Symbol auf dasselbe Objekt im
 Speicher, und zwar von dem Moment an, in dem du das Symbol zum ersten
-mal benutzt. Für zwei Symbole mit denselben Zeichen sind die
-<tt>object\_id</tt>s gleich.
+mal benutzt. Zwei Symbole mit denselben Zeichen haben die selbe `object_id`.
 
-Bei den Strings hingegen (`"george"`) sind die <tt>object\_id</tt>s
-nicht gleich. Das bedeutet, dass sie auf zwei verschiedene Objekte im
-Speicher zeigen. Immer wenn du einen neuen String benutzt, reserviert
-Ruby dafür Speicher.
+Die Strings hingegen (`"george"`) haben eine unterschiedliche `object_id`.
+Das bedeutet, dass sie auf zwei verschiedene Objekte im Speicher zeigen.
+Immer wenn du einen neuen String benutzt, reserviert Ruby dafür Speicher.
 
 Wenn du nicht genau weißt, ob du ein Symbol oder einen String brauchst,
 überlege dir, was wichtiger ist: die Identität des Objektes (z. B. ein
@@ -167,13 +165,13 @@ Seit Ruby 2.0 können Methoden wie auch in Python mit benannten Argumenten
 (Keyword-Argumenten) aufgerufen werden:
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -314,6 +312,7 @@ class Fixnum
   def hours
     self * 3600  # Anzahl der Sekunden in einer Stunde
   end
+  alias hour hours
 end
 
 # 14 Stunden nach 00:00 am 1. Januar
@@ -353,6 +352,7 @@ porsche.inspect  #-> billig
 def porsche.inspect
   "teuer"
 end
+
 porsche.inspect  #-> teuer
 
 # Andere Objekte werden nicht beeinflusst:
@@ -372,15 +372,14 @@ Bibliotheken auch tun.) Hier ist ein Beispiel:
 {% highlight ruby %}
 # 'id' ist der Name der aufgerufenen Methode, ein * sammelt
 # alle argumente in einem Array namens 'arguments'.
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Die Methode #{id} wurde nicht gefunden."
-  puts "Folgende Argumente wurden übergeben: " +
-    arguments.join(", ") + "."
+  puts "Folgende Argumente wurden übergeben: " + arguments.join(", ")
 end
 
 __ :a, :b, 10
 #-> Die Methode __ wurde nicht gefunden.
-#-> Folgende Argumente wurden übergeben: a, b, 10.
+#-> Folgende Argumente wurden übergeben: a, b, 10
 {% endhighlight %}
 
 Der obige Code gibt nur die Details des Aufrufs aus, aber du kannst die
@@ -407,7 +406,7 @@ aufzurufen, kannst du `yield` benutzen, oder du machst eine
 hinzufügst:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # der Block, der an die Methode übergeben wurde
   the_block  # Gib den Block zurück.
 end
@@ -435,7 +434,7 @@ die Methode `+` für `Fixnum` überschreiben:
 {% highlight ruby %}
 class Fixnum
   # Du kannst, aber bitte tu es nicht.
-  def +( other )
+  def +(other)
     self - other
   end
 end
@@ -455,8 +454,8 @@ keine Methoden, und können nicht umdefiniert werden:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Zudem sind `+=`, `*=` usw. nur Abkürzungen für `foo = foo + bar` usw.
-und können deshalb auch nicht überschrieben werden.
+Zudem sind `+=`, `*=`, usw. nur Abkürzungen für `foo = foo + bar`,
+`foo = foo * bar` usw. und können deshalb auch nicht überschrieben werden.
 
 ## Weiterlesen
 

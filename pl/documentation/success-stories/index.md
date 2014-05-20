@@ -101,6 +101,6 @@ Rubiego w rzeczywistości.
 [10]: http://www.37signals.com
 [11]: http://www.43things.com
 [12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/casestudies/bfs-deliver-a-2nd-sequence-production-system-for-toyota/
+[13]: http://www.bluefountain.com/supply-chain-management/
 [14]: http://www.hogo.pl
 [15]: http://www.infakt.pl

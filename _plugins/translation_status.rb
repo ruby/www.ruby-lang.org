@@ -36,10 +36,11 @@ module Jekyll
     class Post
 
       attr_reader :name
-      attr_accessor :translations
+      attr_accessor :translations, :security
 
       def initialize(name)
         @name = name
+        @security = false
         @translations = Set.new
       end
 
@@ -55,8 +56,14 @@ module Jekyll
         end
       end
 
+      def short_name_in_red
+        %Q{<span style="color:red">#{short_name}</span>}
+      end
+
       def row_data(langs)
-        [short_name] + langs.map do |lang|
+        display_name = (security ? short_name_in_red : short_name)
+
+        [display_name] + langs.map do |lang|
           if translations.include?(lang)
             %Q(<a href="/#{lang}/news/#{name}">#{OK_CHAR}</a>)
           else
@@ -100,6 +107,7 @@ module Jekyll
 
             name = post.url.gsub(%r(\A/#{lang}/news/), '')
             @posts[name].translations << lang
+            @posts[name].security = true  if post.tags.include?('security')
           end
         end
 

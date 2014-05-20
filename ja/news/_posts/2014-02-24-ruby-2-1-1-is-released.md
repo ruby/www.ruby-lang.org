@@ -16,6 +16,8 @@ lang: ja
 
 なお以前お伝えしましたとおり、Ruby 2.1 では[新しいバージョン表記](https://www.ruby-lang.org/ja/news/2013/12/21/semantic-versioning-after-2-1-0/)を採用していますので、単純に「Ruby 2.1.1」というのがこのリリースの名称になります。
 
+**追記:** Ruby 2.1.1 において、`Hash#reject` の不具合が発見されました。詳細はこちらをご覧ください: [Ruby 2.1.1 に含まれる Hash#reject の不具合について](https://www.ruby-lang.org/ja/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)
+
 ## Download
 
 * <http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>

@@ -25,35 +25,35 @@ license:
 
 downloads:
   stable:
-    version: 2.1.1
+    version: 2.1.2
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.zip
     md5:
-      bz2: 53edc33b2f590ecdd9f6a344b9d92d0d
-      gz: e57fdbb8ed56e70c43f39c79da1654b2
-      zip: 02c1dbff9c550d2d808444c8fef483bc
+      bz2: ed9b8565bdeccb401d628ec8d54a0774
+      gz: a5b5c83565f8bd954ee522bd287d2ca1
+      zip: 7c303050d1e28e18398aed0fd59d334c
   previous:
-    version: 2.0.0-p451
+    version: 2.0.0-p481
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.zip
     md5:
-      bz2: 908e4d1dbfe7362b15892f16af05adf8
-      gz: 9227787a9636551f1749ee8394b5ffe5
-      zip: e90cb32e9cf534d180754d7492988748
+      bz2: ea406a8d415a1a5d8365596d4288f3da
+      gz: 3913e0ad6cc572b7358e4c6a8c4b2551
+      zip: 1cdf06d1a58f3103e9ed7e072d680b19
   previous19:
-    version: 1.9.3-p545
+    version: 1.9.3-p547
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.zip
     md5:
-      bz2: 4743c1dc48491070bae8fc8b423bc1a7
-      gz: 8e8f6e4d7d0bb54e0edf8d9c4120f40c
-      zip: d056aefa64237737fedb127257b502d2
+      bz2: 5363d399be7f827c77bf8ae5d1a69b38
+      gz: 7531f9b1b35b16f3eb3d7bea786babfd
+      zip: 40ce2040860b18a330efe70b5ef072ba
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
@@ -1798,19 +1798,11 @@ locales:
       <a href="mailto:webmaster@ruby-lang.org">webmaster-a</a>
       за въпроси или коментари.
     de: |
-      Diese Webseite wurde mit Ruby unter Verwendung von <a href="http://www.jekyllrb.com/">Jekyll</a> erstellt.
-      Sie wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
-      Webdesign von <a href="http://twitter.com/jz">Jason Zimdars</a>.
-      Sie können auf <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> an der
-      Verbesserung dieser Seite mitwirken oder sich bei Fragen oder Kommentaren an
-      unseren <a href="mailto:webmaster@ruby-lang.org">Webmaster</a> wenden (in Englisch).
+      <a href="/de/about/website/">Diese Website</a>
+      wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
     en: |
-      This website was generated with Ruby using <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      It is proudly maintained by members of the Ruby community.
-      Design by <a href="http://twitter.com/jz">Jason Zimdars</a>.
-      Please contribute on <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
-      or contact our <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      for questions or comments concerning this website.
+      <a href="/en/about/website/">This website</a>
+      is proudly maintained by members of the Ruby community.
     es: |
       Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
       y es orgullosamente mantenido por miembros de la comunidad.
@@ -1830,23 +1822,15 @@ locales:
       atau hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a> kami
       untuk pertanyaan atau komentar mengenai situs ini.
     it: |
-      Questo sito è stato sviluppato con Ruby e <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      È curato con dedizione dai membri della comunità di Ruby.
-      Puoi contribuire su <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
-      o contattare il nostro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-      per domande e commenti riguardanti questo sito.
+      <a href="/it/about/website/">Questo sito web</a>
+      è mantenuto con orgoglio dai membri della comunità Ruby.
     ja: |
-      このサイトはRubyと<a href="http://www.jekyllrb.com/">Jekyll</a>によって構築されています。
-      また、コンテンツはRubyコミュニティによって管理されています。
-      このサイトに関する質問やコメントは<a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>へのissueまたはpull request、もしくは<a href="mailto:webmaster@ruby-lang.org">webmaster</a> までお願いします。
+      <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
     ko: |
-      이 사이트는 루비와 <a href="http://www.jekyllrb.com/">Jekyll</a>로 구축되어 있고,
-      루비 커뮤니티의 구성원들이 직접 관리합니다.
-      이 사이트는 <a href="http://twitter.com/jz">Jason Zimdars</a>님이 디자인했습니다.
-      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>에서 기여하실 수 있으며
-      이 사이트에 관한 질문이나 연락은 <a href="mailto:webmaster@ruby-lang.org">웹마스터</a>에게
-      하실 수 있습니다.
+      <a href="/ko/about/website/">이 사이트</a>는 루비 커뮤니티의
+      구성원들이 직접 관리합니다.
     pl: |
+      <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006, Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.<br><br>
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
       Projekt strony <a href="http://twitter.com/jz">Jason Zimdars</a>.
@@ -1854,11 +1838,7 @@ locales:
       lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
       jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
     ru: |
-      Данный сайт сгенерирован на Ruby с использованием <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Он с гордостью поддерживается членами сообщества Ruby. Пожалуйста, участвуйте в разработке на
-      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> или свяжитесь с нашим
-      <a href="mailto:webmaster@ruby-lang.org">администратором</a>, если у вас есть вопросы или комментарии по
-      данному веб-сайту.
+      <a href="/ru/about/website/">Этот сайт</a> с гордостью поддерживается членами сообщества Ruby.
     vi: |
       Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Trang được bảo trì bởi các thành viên của cộng đồng Ruby.
@@ -1870,14 +1850,4 @@ locales:
       请贡献代码至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
       如有任何疑问和意见，请联系我们的<a href="mailto:webmaster@ruby-lang.org">站点管理员</a>。
     zh_tw: |
-      本網站使用 Ruby 套件 <a href="http://www.jekyllrb.com/">Jekyll</a> 產生，並有幸由 Ruby 社群成員共同維護。
-      請至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> 幫忙貢獻。關於本站的問題與意見，
-      請聯絡<a href="mailto:webmaster@ruby-lang.org">網站管理員</a>。
-
-  logo_credit:
-    en: |
-      <a href="/en/about/logo/">The Ruby Logo</a> is Copyright &copy; 2006, Yukihiro Matsumoto; licensed under the terms of the <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
-    pl: |
-      <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006, Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
-    ru: |
-      Права на <a href="/ru/about/logo/">логотип Ruby</a> принадлежат Yukihiro Matsumoto (&copy; 2006) на условиях лицензии <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.
+      <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。

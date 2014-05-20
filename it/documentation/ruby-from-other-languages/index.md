@@ -41,7 +41,7 @@ particolari di Ruby.
 Due caratteristiche che si discostano da quello che puoi aver già visto
 in altri linguaggi sono i “blocchi” e gli iteratori. Invece di iterare
 su un indice (come in C, C++, o Java pre-1.5), o su una lista (come il
-<tt>for (@a) \{...}</tt> di Perl o il <tt>for i in aList: ...</tt> di Python),
+`for (@a) {...}` di Perl o il `for i in aList: ...` di Python),
 con Ruby vedrai spesso costrutti come:
 
 {% highlight ruby %}
@@ -52,8 +52,8 @@ end
 {% endhighlight %}
 
 Per maggiori informazioni su `each` e simili (`collect`, `find`,
-`inject`, `sort`, ecc.) vedi `ri Enumerable` (e poi <tt>ri
-Enumerable#*nome\_funzione*</tt>).
+`inject`, `sort`, ecc.) vedi `ri Enumerable`
+(e poi `ri Enumerable#nome_funzione`).
 
 ### Ogni cosa ha un valore
 
@@ -64,10 +64,10 @@ valore, anche se tale valore è nullo (nil):
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -131,7 +131,7 @@ dire che tu debba *per forza* ridefinire delle costanti!
 Ruby usa delle specifiche convenzioni sui nomi dei suoi elementi:
 
 * Se un’identificatore inizia con una maiuscola è una costante.
-* Se inizia con il simbolo del dollaro ($) è una variabile globale.
+* Se inizia con il simbolo del dollaro (`$`) è una variabile globale.
 * Se inizia con `@` è una variabile di istanza.
 * Se inizia con `@@` è una variabile di classe.
 
@@ -312,14 +312,14 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 In Ruby, i nomi dei metodi possono terminare con punti esclamativi o
 interrogativi. Per convenzione, metodi che rappresentano delle risposte
-a delle domande (es. <tt>Array#empty?</tt> ritorna **true** se il
+a delle domande (es. `Array#empty?` ritorna **true** se il
 ricevente è vuoto) finiscono con un punto interrogativo, mentre metodi
 potenzialmente “pericolosi” (modificano il ricevente o i gli argomenti,
 `exit!` ecc.) finiscono, sempre per convenzione, con un punto
 esclamativo.
 
 Non tutti i metodi che cambiano i propri argomenti finiscono con un
-punto esclamativo, però. Questo è il caso di <tt>Array#replace</tt> che
+punto esclamativo, però. Questo è il caso di `Array#replace` che
 sostituisce il contenuto di un array con il contenuto di un altro array,
 semplicemente perchè non avrebbe molto senso avere un metodo come questo
 che non modifica il ricevente.
@@ -354,7 +354,7 @@ altra_auto.ispeziona # => Macchina a buon mercato
 Ruby non si arrende se non riesce a trovare un metodo che risponde ad un
 particolare messaggio, e chiama il metodo `method_missing` con il nome
 del metodo non trovato e i relativi argomenti. Di default,
-method\_missing causa un’eccezione NameError, ma è possibile ridefinirlo
+`method_missing` causa un’eccezione NameError, ma è possibile ridefinirlo
 a seconda delle esigenze di una particolare applicazione, e così fanno
 molte librerie. Ecco un esempio:
 
@@ -362,7 +362,7 @@ molte librerie. Ecco un esempio:
 # id è il nome del metodo chiamato, l'asterisco
 # fa si che tutti gli argomenti del metodo siano
 # immagazzinati in un array chiamato 'argomenti'
-def method_missing( id, *argomenti )
+def method_missing(id, *argomenti)
   puts "Il metodo #{id} è inesistente - è stato chiamato con " +
        "i seguenti argomenti: #{argomenti.join(", ")}"
 end
@@ -397,7 +397,7 @@ oppure rendere il blocco un oggetto `Proc` aggiungendo un argomento
 speciale, così:
 
 {% highlight ruby %}
-def blocco( &il_blocco )
+def blocco(&il_blocco)
   # Qui dentro, il_blocco è il blocco passato al metodo:
   il_blocco # ritorna il blocco
 end
@@ -407,7 +407,7 @@ sommatore.class # => Proc
 {% endhighlight %}
 
 È possibile anche creare dei blocchi fuori da chiamate a metodi,
-semplicemente chiamando Proc.new con un blocco o chiamando il metodo
+semplicemente chiamando `Proc.new` con un blocco o chiamando il metodo
 `lambda`.
 
 Allo stesso modo, anche i metodi sono pur sempre oggetti:
@@ -426,7 +426,7 @@ possibile, per esempio, ridefinire il metodo ”+” della classe Fixnum:
 {% highlight ruby %}
 class Fixnum
   # Puoi farlo, ma è meglio di no!
-  def +( other )
+  def +(other)
     self - other
   end
 end
@@ -446,10 +446,9 @@ metodi e non possono essere ridefiniti:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Inoltre, +=, \*= ecc. sono solo abbreviazioni di:
-
-`var = var + other_var`, `var = var * other_var`, ecc. e quindi non possono
-essere ridefiniti.
+Inoltre, `+=`, `*=` ecc. sono solo abbreviazioni di
+`var = var + other_var`, `var = var * other_var`, ecc. e quindi
+non possono essere ridefiniti.
 
 ## Per saperne di più
 

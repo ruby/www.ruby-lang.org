@@ -37,8 +37,8 @@ görüyorsunuz.
 İki Ruby özelliğini daha önce görmüşsünüzdür ama Ruby’de farklı bir
 davranış gösterirler, bloklar ve yineleyiciler. Bir index üzerinden
 döngü yapmak (C, C++ ve 1.5 öncesi Java daki gibi) veya bir liste
-üzerinde döngü yapmak (Perl’ün <tt>for (@a) \{...}</tt> veya Python’un
-<tt>for i in aList: ...</tt>) yerine Ruby ile genellikle şöyle birşey
+üzerinde döngü yapmak (Perl’ün `for (@a) {...}` veya Python’un
+`for i in aList: ...`) yerine Ruby ile genellikle şöyle birşey
 görürsünüz:
 
 {% highlight ruby %}
@@ -49,8 +49,8 @@ end
 {% endhighlight %}
 
 `each` (ve arkadaşları `collect`, `find`, `inject`, `sort`, vs.)
-hakkında daha fazla bilgi için komut satırında `ri Enumerable` (ve
-sonrasında <tt>ri Enumerable#*func\_name*</tt>) yazabilirsiniz.
+hakkında daha fazla bilgi için komut satırında `ri Enumerable`
+(ve sonrasında `ri Enumerable#some_method`) yazabilirsiniz.
 
 ### Herşeyin Bir Değeri Vardır
 
@@ -61,10 +61,10 @@ olsa bir değer geri döner. Şu mümkündür:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -122,7 +122,7 @@ durdurmaz.
 ### İsimlendirme Gelenekleri
 
 Ruby bazı isimlendirme geleneklerine zorlar. Eğer bir isim büyük harfle
-başlıyorsa, o bir sabittir. Eğer bir dolar işaretiyle başlıyorsa ($), bu
+başlıyorsa, o bir sabittir. Eğer bir dolar işaretiyle başlıyorsa (`$`), bu
 bir global değişkendir. Eğer `@` işaretiyle başlıyorsa bu bir oluşum
 değişkenidir. Eğer `@@` ile başlıyorsa bu bir sınıf değişkenidir.
 
@@ -286,12 +286,12 @@ Time.mktime(2011, 01, 01) + 14.hours # => Sat Jan 01 14:00:00
 
 Ruby’de metodların soru veya ünlem işareti ile bitmesine izin verilir.
 Gelenek olarak sorulara cevap veren metodlar (örnek,
-<tt>Array#empty?</tt> eğer alıcısı boşsa **true** döner) soru işareti
+`Array#empty?` eğer alıcısı boşsa **true** döner) soru işareti
 ile biter. Tehlikeli sonuçları olabilecek metodlar (örneğin “kendi”ni
 değiştiren metodlar, `exit!` gibi) ünlem işareti ile bitirilirler.
 
 Argümanlarını değiştiren tüm metodlar ünlem işareti ile bitmayabilir.
-<tt>Array#replace</tt> bir array’in içeriğini diğer biriyle değiştirir
+`Array#replace` bir array’in içeriğini diğer biriyle değiştirir
 ama ünlemle bitmez.
 
 ### Özel Metodlar
@@ -323,14 +323,14 @@ other_car.inspect # => Ucuz araba
 
 Ruby bir metodu listesinde bulamayınca vazgeçmez, `method_missing`
 metodunu bulamadığı metod ismi ve argümanları ile çağırır. Normalde
-method\_missing bir NameError hatası verir, fakat isterseniz bunu
+`method_missing` bir NameError hatası verir, fakat isterseniz bunu
 istediğiniz şekilde değiştirebilirsiniz ve birçok kütüphane de bunu
 yapar. Bir örnek:
 
 {% highlight ruby %}
 # id çağrılan metodun adı, * deyimiyle tüm argümanlar
 # bir 'arguments' adlı bir array içinde toplanır
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Metod #{id} çağrıldı fakat bulunamadı. Argümanları " +
        "şunlar : #{arguments.join(", ")}"
 end
@@ -364,7 +364,7 @@ argüman listesinde özel bir argüman ekleyerek `Proc` da yapabilirsiniz.
 Şöyleki:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Burada the_block metoda gönderilen bloktur
   the_block # bloğu geri döndür
 end
@@ -373,7 +373,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-Blokları metod çağrıları dışında da Proc.new ile veya `lambda` metodu
+Blokları metod çağrıları dışında da `Proc.new` ile veya `lambda` metodu
 ile üretebilirsiniz
 
 Benzer olarak metodlar da birer nesnedir:
@@ -391,7 +391,7 @@ Bu yüzden isterseniz Fixnum’un + metodunu değiştirebilirsiniz:
 {% highlight ruby %}
 class Fixnum
   # Yapabilirsiniz ama lütfen bunu yapmayın
-  def +( other )
+  def +(other)
     self - other
   end
 end
@@ -410,7 +410,8 @@ değildir ve tekrar tanımlanamazlar:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Ek olarak, +=, \*= vb. şunların kısaltmasıdır : `var = var + other_var`, `var = var * other_var`, vb. ve bu yüzden tekrar tanımlanamazlar.
+Ek olarak, `+=`, `*=` vb. şunların kısaltmasıdır : `var = var + other_var`,
+`var = var * other_var`, vb. ve bu yüzden tekrar tanımlanamazlar.
 
 ## Daha Fazla Bilgi
 

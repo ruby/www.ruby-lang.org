@@ -192,7 +192,7 @@ MRI를 포함, 일부 구현체들은 “complete executable specification for t
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [macruby]: http://www.macruby.org
-[mruby]: https://github.com/mruby/mruby
+[mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://ruby.gemstone.com
 [cardinal]: https://github.com/parrot/cardinal

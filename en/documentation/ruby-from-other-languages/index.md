@@ -40,8 +40,8 @@ learning Ruby.
 Two Ruby features that are a bit unlike what you may have seen before,
 and which take some getting used to, are “blocks” and iterators. Instead
 of looping over an index (like with C, C++, or pre-1.5 Java), or looping
-over a list (like Perl’s <tt>for (@a) \{...}</tt>, or Python’s <tt>for i
-in aList: ...</tt>), with Ruby you’ll very often instead see
+over a list (like Perl’s `for (@a) {...}`, or Python’s
+`for i in aList: ...`), with Ruby you’ll very often instead see
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -51,8 +51,7 @@ end
 {% endhighlight %}
 
 For more info on `each` (and its friends `collect`, `find`, `inject`,
-`sort`, etc.), see `ri Enumerable` (and then <tt>ri
-Enumerable#*func\_name*</tt>).
+`sort`, etc.), see `ri Enumerable` (and then `ri Enumerable#some_method`).
 
 ### Everything has a value
 
@@ -63,10 +62,10 @@ has a value, even if that value is **nil**. This is possible:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -127,7 +126,7 @@ isn’t to say you **should** redefine constants, though.
 ### Naming conventions
 
 Ruby enforces some naming conventions. If an identifier starts with a
-capital letter, it is a constant. If it starts with a dollar sign ($),
+capital letter, it is a constant. If it starts with a dollar sign (`$`),
 it is a global variable. If it starts with `@`, it is an instance
 variable. If it starts with `@@`, it is a class variable.
 
@@ -149,13 +148,13 @@ Like in Python, since Ruby 2.0 methods can be defined
 using keyword arguments:
 
 {% highlight ruby %}
-def deliver(from: 'A', to: nil, via: 'mail')
+def deliver(from: "A", to: nil, via: "mail")
   "Sending from #{from} to #{to} via #{via}."
 end
 
-deliver(to: 'B')
+deliver(to: "B")
 # => "Sending from A to B via mail."
-deliver(via: 'Pony Express', from: 'B', to: 'A')
+deliver(via: "Pony Express", from: "B", to: "A")
 # => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
@@ -216,7 +215,9 @@ class MyClass
 end
 {% endhighlight %}
 
-`public`, `private` and `protected` are really methods, so they can take parameters. If you pass a Symbol to one of them, that method’s visibility is altered.
+`public`, `private` and `protected` are really methods, so they can take
+parameters. If you pass a Symbol to one of them, that method’s visibility is
+altered.
 
 ### Method access
 
@@ -231,7 +232,9 @@ the method(s) are accessible only when they can be called without an
 explicit receiver. Only **self** is allowed to be the receiver of a
 private method call.
 
-`protected` is the one to be on the lookout for. A protected method can be called from a class or descendant class instances, but also with another instance as its receiver. Example, adapted from the [Ruby FAQ][1]\:
+`protected` is the one to be on the lookout for. A protected method can be
+called from a class or descendant class instances, but also with another
+instance as its receiver. Example, adapted from the [Ruby FAQ][1]\:
 
 {% highlight ruby %}
 $ irb
@@ -276,7 +279,10 @@ irb(main):026:0>
 
 ### Classes are open
 
-Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:
+Ruby classes are open. You can open them up, add to them, and change them at
+any time. Even core classes, like `Fixnum` or even `Object`, the parent of all
+objects. Ruby on Rails defines a bunch of methods for dealing with time on
+`Fixnum`. Watch:
 
 {% highlight ruby %}
 class Fixnum
@@ -293,10 +299,15 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 ### Funny method names
 
-In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. <tt>Array#empty?</tt> returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. Not all methods that change their arguments end with exclamation
-marks, though. <tt>Array#replace</tt> replaces the contents of an array
-with the contents of another array. It doesn’t make much sense to have a
-method like that that **doesn’t** modify self.
+In Ruby, methods are allowed to end with question marks or exclamation marks.
+By convention, methods that answer questions end in question marks
+(e.g. `Array#empty?`, which returns **true** if the receiver is empty).
+Potentially “dangerous” methods by convention end with exclamation marks
+(e.g. methods that modify **self** or the arguments, `exit!`, etc.).
+Not all methods that change their arguments end with exclamation marks, though.
+`Array#replace` replaces the contents of an array with the contents
+of another array. It doesn’t make much sense to have a method like that
+that **doesn’t** modify self.
 
 ### Singleton methods
 
@@ -328,13 +339,13 @@ other_car.inspect # => Cheap car
 Ruby doesn’t give up if it can’t find a method that responds to a
 particular message. It calls the `method_missing` method with the name
 of the method it couldn’t find and the arguments. By default,
-method\_missing raises a NameError exception, but you can redefine it to
+`method_missing` raises a NameError exception, but you can redefine it to
 better fit your application, and many libraries do. Here is an example:
 
 {% highlight ruby %}
 # id is the name of the method called, the * syntax collects
 # all the arguments in an array named 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
 end
@@ -367,7 +378,7 @@ call a block, you can either use `yield`, or make it a `Proc` by
 appending a special argument to the argument list, like so:
 
 {% highlight ruby %}
-def block( &the_block )
+def block(&the_block)
   # Inside here, the_block is the block passed to the method
   the_block # return the block
 end
@@ -376,7 +387,7 @@ adder = block { |a, b| a + b }
 adder.class # => Proc
 {% endhighlight %}
 
-You can create blocks outside of method calls, too, by calling Proc.new
+You can create blocks outside of method calls, too, by calling `Proc.new`
 with a block or calling the `lambda` method.
 
 Similarly, methods are also Objects in the making:
@@ -395,7 +406,7 @@ method:
 {% highlight ruby %}
 class Fixnum
   # You can, but please don't do this
-  def +( other )
+  def +(other)
     self - other
   end
 end
@@ -403,14 +414,17 @@ end
 
 You don’t need C++’s `operator+`, etc.
 
-You can even have array-style access if you define the `[]` and `[]=` methods. To define the unary + and – (think +1 and -2), you must define the `+@` and `-@` methods, respectively. The operators below are **not** syntactic sugar, though. They are not
-methods, and cannot be redefined:
+You can even have array-style access if you define the `[]` and `[]=` methods.
+To define the unary + and - (think +1 and -2), you must define the `+@` and
+`-@` methods, respectively. The operators below are **not** syntactic sugar,
+though. They are not methods, and cannot be redefined:
 
 {% highlight ruby %}
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-In addition, +=, \*= etc. are just abbrevations for `var = var + other_var`, `var = var * other_var`, etc. and therefore cannot be redefined.
+In addition, `+=`, `*=` etc. are just abbrevations for `var = var + other_var`,
+`var = var * other_var`, etc. and therefore cannot be redefined.
 
 ## Finding Out More
 

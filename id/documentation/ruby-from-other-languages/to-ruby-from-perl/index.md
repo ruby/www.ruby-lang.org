@@ -70,15 +70,15 @@ Sama seperti Perl, di Ruby…
   tidak)
 * Cara penggunaan `String` secara umum mirip dengan Perl.
 * Sintaks *delimited string* dan *regexp* mirip dengan Perl (seperti
-  `%q{ini string (string-quoted)}`, atau `%Q{ini juga string
-  (double-quoted)}`, dan `%w{ini untuk list kata-kata yang
+  `%q{ini string}` (single-quoted), atau `%Q{ini juga string}`
+  (double-quoted), dan `%w{ini untuk list kata-kata yang
   single-quoted}`. Anda `%Q|bisa|` `%Q~saja~` `%Q(menggunakan)`
   delimiter `%Q^yang lain^` kalau Anda suka).
 * Menyediakan interpolasi string dalam petik ganda, `"bentuknya
   #{seperti} ini"` (contoh sebelumnya menghasilkan isi variabel
   `seperti`, tapi Anda bisa menaruh kode Ruby apa pun di dalam sintaks
   `#{}`).
-* Shell command juga menggunakan \`backtick\` (tanda petik balik).
+* Shell command juga menggunakan `` `backtick` `` (tanda petik balik).
 * Mempunyai fitur dokumentasi dalam kode, yang di Ruby disebut `rdoc`.
 
 ### Perbedaan Perl dan Ruby
@@ -106,8 +106,8 @@ Tidak seperti Perl, di Ruby…
   `foo.to_s`, dan seterusnya.
 * Tidak ada `eq`, `ne`, `lt`, `gt`, `ge` ataupun `le`. Gunakan operator
   yang sudah baku, misalnya `<`, `>=`, dan sebagainya.
-* Tidak ada *diamond operator*. Anda biasanya dapat
-  <tt>IO.*some\_func*</tt> sebagai gantinya.
+* Tidak ada *diamond operator* (`<>`). Anda biasanya dapat
+  `IO.some_method` sebagai gantinya.
 * *Fat comma* (`=>`) hanya digunakan untuk membuat hash.
 * Tidak ada `undef`. Di Ruby Anda dapat menggunakan `nil`. `nil`
   merupakan obyek (seperti obyek yang lain juga di Ruby). Meski `nil`
@@ -127,5 +127,5 @@ Tidak seperti Perl, di Ruby…
 [2]: http://www.99-bottles-of-beer.net/language-perl-539.html
 [3]: http://www.io.com/~jimm/
 [4]: http://www.99-bottles-of-beer.net/language-ruby-670.html
-[5]: http://docs.rubygems.org/
+[5]: http://guides.rubygems.org
 [6]: http://www.perlmonks.org/

@@ -48,9 +48,8 @@ que irá encontrar enquanto vai aprendendo Ruby.
 Duas características do Ruby são um pouco diferentes daquilo que já
 alguma vez viu, e é necessário algum tempo para se habituar a elas:
 “blocos” e iteradores. Em vez de fazer um ciclo sobre um índice (como no
-C, C++, ou Java pre-1.5), ou sobre uma lista (como o <tt>for (@a)
-\{...}</tt> do Perl ou <tt>for i in Lista: ...</tt> do Python, em Ruby
-irá frequentemente ver
+C, C++, ou Java pre-1.5), ou sobre uma lista (como o `for (@a) {...}`
+do Perl ou `for i in Lista: ...` do Python, em Ruby irá frequentemente ver
 
 {% highlight ruby %}
 alguma_lista.each do |este_item|
@@ -60,8 +59,8 @@ end
 {% endhighlight %}
 
 Para mais informação sobre o mé `each` (e `collect`, `find`, `inject`,
-`sort`, etc.), Ver `ri Enumerable` (e depois <tt>ri
-Enumerable#*nome\_da\_função*</tt>).
+`sort`, etc.), Ver `ri Enumerable`
+(e depois `ri Enumerable#nome_da_função`).
 
 ### Tudo tem um valor
 
@@ -72,10 +71,10 @@ valor, mesmo que seja **nil**. Isto é possível:
 x = 10
 y = 11
 z = if x < y
-  true
-else
-  false
-end
+      true
+    else
+      false
+    end
 z # => true
 {% endhighlight %}
 
@@ -314,13 +313,13 @@ Time.mktime(2006, 01, 01) + 14.horas # => Sun Jan 01 14:00:00
 
 Em Ruby, os métodos podem terminar com pontos de interrogação e de
 exclamação. Por convenção, métodos que respondem a questões (p.e.
-<tt>Array#empty?</tt> devolve **true** se o receptor é vazio) terminam
+`Array#empty?` devolve **true** se o receptor é vazio) terminam
 em ponto de interrogação. Métodos potencialmente “perigosos” (ie métodos
 que modificam **self** ou os argumentos, `exit!`, etc.) por convenção
 terminam em ponto de exclamação.
 
 No entanto, todos os métodos que alteram os seus argumentos não terminam
-com pontos de exclamação. <tt>Array#replace</tt> substitui os conteúdos
+com pontos de exclamação. `Array#replace` substitui os conteúdos
 de um array com os de um outro array. Não faz muito sentido ter um
 método como este que **não** modifique self.
 
@@ -354,13 +353,13 @@ other_car.inspect # => Carro barato
 Ruby doesn’t give up if it can’t find a method that responds to a
 particular message. It calls the `method_missing` method with the name
 of the method it couldn’t find and the arguments. By default,
-method\_missing raises a NameError exception, but you can redefine it to
+`method_missing` raises a NameError exception, but you can redefine it to
 better fit your application, and many libraries do. Here is an example:
 
 {% highlight ruby %}
 # id is the name of the method called, the * syntax collects
 # all the arguments in an array named 'arguments'
-def method_missing( id, *arguments )
+def method_missing(id, *arguments)
   puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
 end
@@ -398,9 +397,9 @@ call a block, you can either use `yield`, or make it a `Proc` by
 appending a special argument to the argument list, like so:
 
 {% highlight ruby %}
-def block( &o_bloco )
+def block(&o_bloco)
   # Aqui dentro, o_bloco é o bloco passado ao método o_bloco
-  # devolve o_bloco
+  o_bloco # devolve o bloco
 end
 somador = block { |a, b| a + b }
 # somador e' agora um objecto Proc
@@ -408,7 +407,7 @@ adder.class # => Proc
 {% endhighlight %}
 
 Também, poderá criar blocos fora de chamadas a métodos: chamando
-Proc.new com um bloco; ou chamando o método `lambda`.
+`Proc.new` com um bloco; ou chamando o método `lambda`.
 
 Da mesma forma, métodos são também Objectos:
 
@@ -428,7 +427,7 @@ exemplo, redifinir o método + da classe Fixnum:
 {% highlight ruby %}
 class Fixnum
   # Pode fazer, mas por favor não faça isto
-  def +( outro )
+  def +(outro)
     self - outro
   end
 end
@@ -447,7 +446,8 @@ métodos, e não podem ser redifinidos:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-Como +=, \*= etc. são somente abreviações para `var = var + outra_var`, `var = var * outra_var`, etc. não podem ser redefinidos.
+Como `+=`, `*=` etc. são somente abreviações para `var = var + outra_var`,
+`var = var * outra_var`, etc. não podem ser redefinidos.
 
 ## Mais informação
 
