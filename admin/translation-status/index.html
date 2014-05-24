@@ -36,5 +36,11 @@ Some posts that are listed here might not need to be translated.</p>
 
 {% translation_status %}
 
+    <script type="text/javascript">
+      var code = window.navigator.language || window.navigator.userLanguage || "en";
+      if (code.substr(0,2) !== "zh") { code = code.substr(0,2); }
+      var language = code.replace(/-/g,'_').toLowerCase();
+      document.write('<style type="text/css">.'+language+'{background-color:lightgray}</style>');
+    </script>
 </body>
 </html>
