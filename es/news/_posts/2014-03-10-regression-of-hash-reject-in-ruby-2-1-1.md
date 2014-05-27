@@ -37,9 +37,9 @@ el [issue de Rails #14188](https://github.com/rails/rails/issues/14188).
 Este comportamiento será revertido a el de 2.1.0 en Ruby 2.1.2,
 pero se espera que sea el comportamiento por defecto en Ruby 2.2.0:
 [Feature #9223](https://bugs.ruby-lang.org/issues/9223).
-Así que recomendamos que corrijas tu código para esperar este cambio.
+Así que te recomendamos que corrijas tu código para manejar este cambio.
 
-Para ver mas detalles sobre este problema, ver
+Si quieres ver más detalles sobre este problema ve a
 [http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211](http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211).
 
-Sentimos mucho cualquier inconveniencia y agradecemos su apoyo.
+Sentimos mucho cualquier inconveniencia y agradecemos tu apoyo.
