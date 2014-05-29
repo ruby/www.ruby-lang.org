@@ -22,12 +22,14 @@ Choose the way that is the most comfortable for you.
   * [rbenv](#rbenv)
   * [RVM](#rvm)
   * [Homebrew](#homebrew)
+  * [ruby-install](#ruby-install)
   * [Building from source](#building-from-source)
 
 * Linux/UNIX
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
+  * [ruby-install](#ruby-install)
   * [Package management systems](#package-management-systems)
   * [Building from source](#building-from-source)
 
@@ -59,6 +61,14 @@ Both tools are available for OS X, Linux, or other UNIX-like operating systems.
 [RVM][rvm] allows you to install and manage multiple installations of Ruby
 on your system. It can also manage different gemsets.
 It is available for OS X, Linux, or other UNIX-like operating systems.
+
+
+### Ruby Install
+{: #ruby-install}
+
+[ruby-install][ruby-install] allows you to install multiple versions of Ruby.
+There is also a sibling, *chruby*, which handles switching between Ruby versions.
+It is available for OS X, Linux, and other UNIX-like operating systems.
 
 
 ### RubyInstaller
@@ -236,6 +246,7 @@ though, because the installed Ruby won't be managed by any tools.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
+[ruby-install]: https://github.com/postmodern/ruby-install
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
