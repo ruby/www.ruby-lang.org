@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Stopped Mailing list temporarily"
+title: "Stopped mailing lists temporarily"
 author: "hsbt"
 translator:
 date: 2014-05-31 12:30:00 +0000
