@@ -89,7 +89,7 @@ will come in handy when you feel like coding in Ruby.
 : The one-stop web site for reference documentation about Ruby gems and
   GitHub-hosted Ruby projects.
 
-[Rails Searchable API Doc][17]
+[Ruby & Rails Searchable API Docs][17]
 : Rails and Ruby documentation with smart searching.
 
 [APIdock][18]
@@ -152,7 +152,7 @@ list](/en/community/mailing-lists/) is a great place to start.
 [14]: http://rdoc.sourceforge.net
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://railsapi.com/
+[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

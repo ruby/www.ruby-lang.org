@@ -111,7 +111,7 @@ dominante en informatique. Bon courage !
 [rubydoc.info][20]
 : Documentation auto-générée pour un grand nombre de bibliothèques Ruby.
 
-[Rails Searchable API Doc][21]
+[Ruby & Rails Searchable API Docs][21]
 : Documentation sur les API Ruby et Ruby On Rails, proposant un système
   de recherche poussé.
 
@@ -150,7 +150,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [18]: http://www.ruby-doc.org/stdlib
 [19]: http://www.ruby-doc.org/doxygen/current/
 [20]: http://rubydoc.info/
-[21]: http://railsapi.com/
+[21]: http://rubydocs.org/
 [22]: http://www.rubydox.net/
 [23]: http://ruby-doc.org
 [24]: http://www.ruby-doc.org/bookstore

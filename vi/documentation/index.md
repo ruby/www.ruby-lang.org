@@ -85,7 +85,7 @@ tại đây.
 : Các trang web một cửa cho tài liệu tham khảo về Ruby gems và GitHub chứa các
   dự án Ruby.
 
-[Rails Searchable API Doc][17]
+[Ruby & Rails Searchable API Docs][17]
 : Tài liệu Rails và Ruby với tìm kiếm thông minh.
 
 [APIdock][18]
@@ -146,7 +146,7 @@ là một nơi tuyệt vời.
 [14]: http://rdoc.sourceforge.net
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://railsapi.com/
+[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

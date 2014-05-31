@@ -93,7 +93,7 @@ lang: ko
 : 루비 젬과 GitHub에서 호스팅 되는 루비 프로젝트의 레퍼런스 문서들을
   모아놓은 사이트입니다.
 
-[Rails Searchable API Doc][17] (영문)
+[Ruby & Rails Searchable API Docs][17] (영문)
 : 스마트 검색이 가능한 루비, 레일즈 문서입니다.
 
 [APIdock][18] (영문)
@@ -153,7 +153,7 @@ lang: ko
 [14]: http://rdoc.sourceforge.net
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://railsapi.com/
+[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
