@@ -3,7 +3,7 @@ layout: news_post
 title: "Stopped Mailing list temporarily"
 author: "hsbt"
 translator:
-date: 2014-06-01 00:00:00 +0000
+date: 2014-05-31 12:30:00 +0000
 lang: en
 ---
 
