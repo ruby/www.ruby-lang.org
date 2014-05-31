@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Stopped Mailing list temporary"
+title: "Stopped Mailing list temporarily"
 author: "hsbt"
 translator:
 date: 2014-06-01 00:00:00 +0000
 lang: en
 ---
 
-We stopped Mailing list on ruby-lang.org temporary.
+We stopped the mailing lists on ruby-lang.org temporarily.
 
-Our mailing lists were atacked by spam bomb. We stopped following lists:
+Our mailing lists were attacked by spam bomb. We stopped following lists:
 
  * ruby-core
  * ruby-talk
@@ -21,6 +21,4 @@ Our mailing lists were atacked by spam bomb. We stopped following lists:
  * ruby-fr
  * ruby-math
 
-We work to resume these lists as soon as we can.
-
-I'm sorry for your inconvenient experience.
+We are sorry if the outage affects you and are working on resuming the lists as soon as we can.
