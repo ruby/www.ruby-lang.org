@@ -25,6 +25,9 @@ Ruby-Doc
 Ruby-CVS
 : Esta lista relata todas as submissões no repositório CVS do Ruby.
 
+O comp.lang.ruby Newsgroup
+: Aqueles que preferem Usenet ao invés de listas de correio terão interesse em dar uma olhada em [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
+
 Ruby &lt;&lt; portuguese.
 : Esta é a lista de discussão oficial de ruby em Portugal. ([Arquivos no
   Google Groups][7])
