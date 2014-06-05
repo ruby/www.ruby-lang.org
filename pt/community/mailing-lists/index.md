@@ -15,8 +15,8 @@ Ruby-Talk
   o Ruby. A Ruby-Talk tem um *mirror* em [Ruby-Forum.com][1]. [FAQ][2] e [Arquivos][3])
 
 Ruby-Core
-: Esta lsta trata do núcleo e tópicos da implementação do Ruby.
-  Normalmente é usada para enviar *patches* para revisão. ([Aquivos][5])
+: Esta lista trata do núcleo e tópicos da implementação do Ruby.
+  Normalmente é usada para enviar *patches* para revisão. ([Aquivos][4])
 
 Ruby-Doc
 : Esta lista é para discussão sobre normas de documentação e ferramentas
@@ -52,6 +52,6 @@ lista de correio").
 [1]: http://ruby-forum.com
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml "Aquivos"
+[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [6]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation "Arquivos em  Gmane"
 [7]: http://groups.google.com/group/ruby-pt
