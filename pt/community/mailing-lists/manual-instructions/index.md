@@ -53,6 +53,8 @@ controlo** cujo corpo da mensagem deverá conter somente “unsubscribe”:
     unsubscribe
 {: .code}
 
+Se assegure de enviar um e-mail em texto puro (plain text), pois um e-mail HTML pode não funcionar.
+
 ### Obter Ajuda
 
 Para visualizar a lista de comandos, envie um email ao endereço de
