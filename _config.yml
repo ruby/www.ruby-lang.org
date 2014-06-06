@@ -476,7 +476,7 @@ locales:
       description: Najnowsze wiadomości z ruby-lang.org.
       lang_code: pl
     pt:
-      title: Noticias de Ruby por RSS
+      title: Notícias de Ruby por RSS
       description: As notícias mais recentes do ruby-lang.org em Português.
       lang_code: pt-PT
     ru:
