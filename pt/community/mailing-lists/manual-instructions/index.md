@@ -4,6 +4,8 @@ title: "Instruções de Subscrição Manual"
 lang: pt
 ---
 
+NOTA: Se você não conseguir se inscrever, favor acessar [lists.ruby-lang.org](http://lists.ruby-lang.org).
+
 Para subscrever uma lista de correio, por favor envie um email para o o
 endereço de “controlo” com o seguinte no corpo da mensagem (não no
 assunto):
