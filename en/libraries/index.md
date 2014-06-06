@@ -117,7 +117,7 @@ all `gem`’s commands.
 #### Crafting your own gems
 
 RubyGems.org has [several guides][3] about this topic. You may also want
-to investigate on [Bundler][9], a generic tool which helps you manage an
+to investigate [Bundler][9], a generic tool which helps you manage an
 application’s dependencies and may be used along RubyGems.
 
 
