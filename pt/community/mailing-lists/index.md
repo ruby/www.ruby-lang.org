@@ -29,8 +29,8 @@ O comp.lang.ruby Newsgroup
 : Aqueles que preferem Usenet ao invés de listas de correio terão interesse em dar uma olhada em [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
 
 Ruby &lt;&lt; portuguese.
-: Esta é a lista de discussão oficial de ruby em Portugal. ([Arquivos no
-  Google Groups][7])
+: Esta é a lista de discussão oficial de ruby em Portugal. ([Arquivos no Google Groups][6])
+
   <table border="0" style="background-color: #fff; padding: 5px;" cellspacing="0">
   <tr><td style="padding-left: 5px">
       <b>Subscreva o ruby &lt;&lt; portuguese</b>
@@ -47,8 +47,7 @@ Ruby &lt;&lt; portuguese.
 {% include subscription-form.html %}
 
 Se falhar a recepção do email utilizando o formulário, tente subscrever
-[manualmente](manual-instructions/ "subscrição manual numa
-lista de correio").
+[manualmente](manual-instructions/).
 
 
 
@@ -57,4 +56,4 @@ lista de correio").
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
-[7]: http://groups.google.com/group/ruby-pt
+[6]: http://groups.google.com/group/ruby-pt
