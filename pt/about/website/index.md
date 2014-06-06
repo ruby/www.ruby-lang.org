@@ -42,7 +42,7 @@ Também agradecemos a todas as organizações que nos dão suporte:
  * [Fastly][fastly] (CDN).
 
 
-[logo]: /en/about/logo/
+[logo]: /pt/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [jzimdars]: http://twitter.com/jz
