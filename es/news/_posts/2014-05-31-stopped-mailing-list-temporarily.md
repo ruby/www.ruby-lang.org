@@ -2,7 +2,7 @@
 layout: news_post
 title: "Listas de distribución deshabilitadas temporalmente"
 author: "hsbt"
-translator: David Padilla
+translator: "David Padilla"
 date: 2014-05-31 12:30:00 +0000
 lang: es
 ---
@@ -24,4 +24,3 @@ son las listas que de momento han sido deshabilitadas:
 
 Lamentamos mucho si esto te afecta de alguna manera. Estamos trabajando para
 reestablecer la funcionalidad de las listas lo antes posible.
-

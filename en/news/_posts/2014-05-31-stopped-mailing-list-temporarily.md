@@ -9,7 +9,8 @@ lang: en
 
 We stopped the mailing lists on ruby-lang.org temporarily.
 
-Our mailing lists were attacked by spam bomb. We stopped following lists:
+Our mailing lists were attacked by a spam bomb.
+We stopped the following lists:
 
  * ruby-core
  * ruby-talk
@@ -21,4 +22,5 @@ Our mailing lists were attacked by spam bomb. We stopped following lists:
  * ruby-fr
  * ruby-math
 
-We are sorry if the outage affects you and are working on resuming the lists as soon as we can.
+We are sorry if the outage affects you and are working on
+resuming the lists as soon as we can.
