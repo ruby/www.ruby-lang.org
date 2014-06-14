@@ -2,7 +2,7 @@
 layout: news_post
 title: "Liberado Ruby 1.9.3-p545"
 author: "usa"
-translator: David Padilla
+translator: "David Padilla"
 date: 2014-02-24 05:00:00 +0000
 lang: es
 ---

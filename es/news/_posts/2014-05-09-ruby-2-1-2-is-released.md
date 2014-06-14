@@ -2,7 +2,7 @@
 layout: news_post
 title: "Liberada la versión de Ruby 2.1.2"
 author: "nagachika"
-translator: David Padilla
+translator: "David Padilla"
 date: 2014-05-09 12:00:00 +0000
 lang: es
 ---

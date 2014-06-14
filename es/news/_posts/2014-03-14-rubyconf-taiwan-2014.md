@@ -2,7 +2,7 @@
 layout: news_post
 title: "El registro para RubyConf Taiwan 2014 ha comenzado"
 author: "Juanito Fatas"
-translator: David Padilla
+translator: "David Padilla"
 date: 2014-03-14 05:58:31 +0000
 lang: es
 ---
