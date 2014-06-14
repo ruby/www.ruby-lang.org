@@ -22,7 +22,7 @@ p SubHash.new.reject { }.class
 
 (正确的说，实例变量等其他的属性也都没有被复制过来)
 
-因为从 Ruby 2.1.0 开始实施的[版本变动方针](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/)，Ruby 2.1.1 是属于补丁级别的发布。而补丁级别的发布应该是保持向下兼容，因此在 Ruby 2.1.1 中不应该加入这个变动。
+因为从 Ruby 2.1.0 开始实施的[版本变动方针](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)，Ruby 2.1.1 是属于补丁级别的发布。而补丁级别的发布应该是保持向下兼容，因此在 Ruby 2.1.1 中不应该加入这个变动。
 
 这个错误的变动可能对某些库造成了影响。其中一个被发现的事例是
 Rails 中的 `HashWithIndifferentAccess` 与 `OrderedHash`：[Rails issue #14188](https://github.com/rails/rails/issues/14188)

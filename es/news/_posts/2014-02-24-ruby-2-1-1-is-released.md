@@ -19,7 +19,7 @@ Ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=
 y el [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog)
 para conocer los detalles.
 
-Después de anunciar el [cambio en la política de versiones de Ruby 2.1](https://www.ruby-lang.org/es/news/2013/12/21/semantic-versioning-after-2-1-0/),
+Después de anunciar el [cambio en la política de versiones de Ruby 2.1](https://www.ruby-lang.org/es/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 esta versión será simplemente llamada "2.1.1"esta versión será simplemente llamada "2.1.1".
 
 **Actualización:** Encontramos una regresión en `Hash#reject`. Para mas detalles, ver:

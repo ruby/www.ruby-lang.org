@@ -25,7 +25,7 @@ p SubHash.new.reject { }.class
 (정확히 말하면, 인스턴스 변수 같은 다른 속성도 복사하지 않게 되었습니다.)
 
 루비 2.1.0 부터 [버저닝 정책이 바뀌었기
-때문에](https://www.ruby-lang.org/ko/news/2013/12/21/semantic-versioning-after-2-1-0/),
+때문에](https://www.ruby-lang.org/ko/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 루비 2.1.1은 패치 레벨 릴리즈에 해당합니다. 패치 레벨 릴리즈는 하위호환성이 있어야
 하므로, 앞으로 루비 2.1.1에 이런 행동의 변화는 있어서는 안 됩니다.
 

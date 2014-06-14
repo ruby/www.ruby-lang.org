@@ -22,7 +22,7 @@ p SubHash.new.reject { }.class
 
 (正確にはインスタンス変数など他の属性もコピーされなくなっています。)
 
-Ruby 2.1.0 から[バージョニングポリシーを変更している](https://www.ruby-lang.org/ja/news/2013/12/21/semantic-versioning-after-2-1-0/)ため、Ruby 2.1.1 はパッチレベルリリースにあたります。パッチレベルリリースは後方互換性を維持すべきなため、本来 Ruby 2.1.1 にこのような挙動の変更が入るべきではありません。
+Ruby 2.1.0 から[バージョニングポリシーを変更している](https://www.ruby-lang.org/ja/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)ため、Ruby 2.1.1 はパッチレベルリリースにあたります。パッチレベルリリースは後方互換性を維持すべきなため、本来 Ruby 2.1.1 にこのような挙動の変更が入るべきではありません。
 
 この意図しない挙動変更はいくつかのライブラリに影響を与えてしまう可能性があります。一つ観測されている事例は
 Rails の `HashWithIndifferentAccess` と `OrderedHash` です: [Rails issue #14188](https://github.com/rails/rails/issues/14188)

@@ -26,7 +26,7 @@ p SubHash.new.reject { }.class
 di istanza ecc.)
 
 Ruby 2.1.1 non dovrebbe includere questo cambio di comportamento perché con il
-rilascio di Ruby 2.1.0 abbiamo [cambiato la nostra policy di versioning](https://www.ruby-lang.org/it/news/2013/12/21/semantic-versioning-after-2-1-0/),
+rilascio di Ruby 2.1.0 abbiamo [cambiato la nostra policy di versioning](https://www.ruby-lang.org/it/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 quindi Ruby 2.1.1 è una patch level release e non dovrebbe rompere la
 retrocompatibilità.
 

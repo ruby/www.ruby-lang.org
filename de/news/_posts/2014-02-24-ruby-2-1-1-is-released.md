@@ -19,7 +19,7 @@ Für nähere Informationen siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 und das [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog).
 
-Wie schon [früher angekündigt](https://www.ruby-lang.org/de/news/2013/12/21/semantic-versioning-after-2-1-0/)
+Wie schon [früher angekündigt](https://www.ruby-lang.org/de/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)
 heißt diese Version gemäß des neuen Versionierungsschemas für Ruby 2.1
 nur noch „2.1.1“.
 

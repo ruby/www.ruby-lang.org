@@ -20,7 +20,7 @@ e [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog)
 para detalhes.
 
 Como no anúncio anterior que altera a
-[política de versionamento no Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/),
+[política de versionamento no Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 esta versão é chamada simplesmente de "2.1.1".
 
 **Atualização:** Nós percebemos uma regressão em `Hash#reject`. Para mais detalhes, veja:

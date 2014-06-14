@@ -21,7 +21,7 @@ p SubHash.new.reject { }.class
 
 （精準的說，沒有複製到像是實體變數等額外的狀態。）
 
-根據先前修正的 Ruby 2.1.0 的[版本發佈方針](https://www.ruby-lang.org/zh_tw/news/2013/12/21/semantic-versioning-after-2-1-0/)，Ruby 2.1.1 不應該改變 `Hash#reject` 的行為。Ruby 2.1.1 是補丁等級的發佈，應該要保持向下相容性。
+根據先前修正的 Ruby 2.1.0 的[版本發佈方針](https://www.ruby-lang.org/zh_tw/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)，Ruby 2.1.1 不應該改變 `Hash#reject` 的行為。Ruby 2.1.1 是補丁等級的發佈，應該要保持向下相容性。
 
 這次錯誤的行為變更可能會有許多函式庫受影響，一個例子是 Rails 的 `HashWithIndifferentAccess` 與 `OrderedHash` 壞掉了，見：[Rails' issue #14188](https://github.com/rails/rails/issues/14188)。
 

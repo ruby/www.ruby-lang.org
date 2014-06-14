@@ -26,7 +26,7 @@ p SubHash.new.reject { }.class
 copied either.)
 
 Ruby 2.1.1 shouldn't include such behavior changes, because with the release
-of Ruby 2.1.0 we've [changed our versioning policy](https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/),
+of Ruby 2.1.0 we've [changed our versioning policy](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 so Ruby 2.1.1 is a patch level release and it shouldn't break backwards
 compatibility.
 

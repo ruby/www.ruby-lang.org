@@ -26,7 +26,7 @@ p SubHash.new.reject { }.class
 kopiowane).
 
 Ruby 2.1.1 nie powinien zawierać takich zmian zachowania, ponieważ od wydania
-Rubiego 2.1.0 [zmieniliśmy polisę wersjonowania](https://www.ruby-lang.org/pl/news/2013/12/21/semantic-versioning-after-2-1-0/),
+Rubiego 2.1.0 [zmieniliśmy polisę wersjonowania](https://www.ruby-lang.org/pl/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 Ruby 2.1.1 jest wydaniem typu patch i nie powinien łamać kompatybilności wstecz.
 
 Ta regresja może potencjalnie wpływać na wiele bibliotek, na przykład Railsowe

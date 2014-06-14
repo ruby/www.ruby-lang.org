@@ -27,7 +27,7 @@ sont pas copiés non plus.)
 
 Ruby 2.1.1 n'aurait pas dû inclure ce changement de comportement car depuis la
 sortie de Ruby 2.1.0, nous avons changé la
-[politique de versionnage](https://www.ruby-lang.org/fr/news/2013/12/21/semantic-versioning-after-2-1-0/),
+[politique de versionnage](https://www.ruby-lang.org/fr/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 par conséquent, Ruby 2.1.1 est une version patch et ne doit contenir ce type
 de changement de comportement.
 

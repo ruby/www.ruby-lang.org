@@ -28,7 +28,7 @@ Instanzvariablen werden ebenfalls nicht übernommen.)
 
 Ruby 2.1.1 sollte derartige Verhaltensänderungen nicht enthalten, weil
 wir mit der Veröffentlichung von Ruby 2.1.0
-[unsere Versionierungs-Richtlinien](https://www.ruby-lang.org/de/news/2013/12/21/semantic-versioning-after-2-1-0/)
+[unsere Versionierungs-Richtlinien](https://www.ruby-lang.org/de/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)
 geändert haben und Ruby 2.1.1 somit ein Patchlevel-Release ist, das
 die Rückwärtskompatibilität beibeihalten sollte.
 

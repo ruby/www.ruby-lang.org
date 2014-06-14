@@ -14,7 +14,7 @@ lang: ja
 パッチリリースである Ruby 2.1.1 ではリリース後に見つかった様々なバグを修正しています。
 バグ修正の詳細については[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5) や [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) をご覧下さい。
 
-なお以前お伝えしましたとおり、Ruby 2.1 では[新しいバージョン表記](https://www.ruby-lang.org/ja/news/2013/12/21/semantic-versioning-after-2-1-0/)を採用していますので、単純に「Ruby 2.1.1」というのがこのリリースの名称になります。
+なお以前お伝えしましたとおり、Ruby 2.1 では[新しいバージョン表記](https://www.ruby-lang.org/ja/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)を採用していますので、単純に「Ruby 2.1.1」というのがこのリリースの名称になります。
 
 **追記:** Ruby 2.1.1 において、`Hash#reject` の不具合が発見されました。詳細はこちらをご覧ください: [Ruby 2.1.1 に含まれる Hash#reject の不具合について](https://www.ruby-lang.org/ja/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)
 
