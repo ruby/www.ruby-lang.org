@@ -7,8 +7,9 @@ date: 2013-12-21 2:00:00 +0000
 lang: en
 ---
 
-We've decided to change the Ruby versioning policy to a more [Semantic
-Versioning](http://semver.org/) type starting with the release of Ruby 2.1.0.
+We've decided to change the Ruby versioning policy to a more
+[Semantic Versioning](http://semver.org/) type starting with
+the release of Ruby 2.1.0.
 
 In order to provide a more well defined and properly utilized versioning scheme
 for Ruby, we've decided to gradually switch to the following policy.
@@ -59,5 +60,5 @@ To read up more on this proposal please see the following links:
 
 ## Thank you!
 
-I'd like to personally thank everyone who contributed to this discussion. Each
-step we take is closer to a more stable and effective Ruby.
+I'd like to personally thank everyone who contributed to this discussion.
+Each step we take is closer to a more stable and effective Ruby.
