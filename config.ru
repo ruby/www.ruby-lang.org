@@ -23,6 +23,7 @@ use Rack::Rewrite do
   r302 %r{^/(en|ja)/install\.html$}, "/$1/downloads"
 
   # URL changes
+  r302 %r{^/([a-z_]+)/news/2013/12/21/semantic-versioning-after-2-1-0(.*)$}, "/$1/news/2013/12/21/ruby-version-policy-changes-with-2-1-0$2"
   r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
 
   # removed resources (some are still linked to from old news posts)
