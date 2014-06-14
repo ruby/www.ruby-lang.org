@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Semantic Versioning starting with Ruby 2.1.0"
+title: "Ruby version policy changes starting with Ruby 2.1.0"
 author: "zzak"
 translator:
 date: 2013-12-21 2:00:00 +0000
 lang: en
 ---
 
-We've decided to move to a [Semantic Versioning](http://semver.org/)-type
-policy starting with the release of Ruby 2.1.0.
+We've decided to change the Ruby versioning policy to a more [Semantic
+Versioning](http://semver.org/) type starting with the release of Ruby 2.1.0.
 
 In order to provide a more well defined and properly utilized versioning scheme
 for Ruby, we've decided to gradually switch to the following policy.
@@ -29,13 +29,10 @@ Hiroshi Shibata ([@hsbt](https://twitter.com/hsbt)).
 
 ### Branching Schema
 
-We will maintain the following branches:
+We will continue to maintain the following branches:
 
 * trunk
-* `ruby_{MAJOR}_{MINOR}`
-
-The `ruby_{MAJOR}_{MINOR}` branch will be maintained across `TEENY` releases.
-We will use tags for each release.
+* `ruby_{MAJOR}_{MINOR}_{TEENY}`
 
 ### API Compatibility
 
