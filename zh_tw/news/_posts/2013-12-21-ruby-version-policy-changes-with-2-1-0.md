@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0 起採用語意化版本"
+title: "Ruby 2.1.0 起版號方針變更"
 author: "zzak"
 translator: "Juanito Fatas"
 date: 2013-12-21 2:00:00 +0000
 lang: zh_tw
 ---
 
-在 Ruby 2.1.0 發佈之後，我們決定採用[語意化版本](http://semver.org/lang/zh-TW/)。
+從 Ruby 2.1.0 發佈起，我們決定版號方針開始採用[語意化版本](http://semver.org/lang/zh-TW/)。
 
-為了更好的善用語意化版本，會漸漸的朝如下維護方針靠攏。
+為了更好的善用 Ruby 的版本號，會漸漸的朝如下維護方針靠攏。
 
 ## 方針變更
 
@@ -26,12 +26,10 @@ lang: zh_tw
 
 ### 分支架構
 
-未來會維護下列分支：
+未來會持續維護下列分支：
 
 * trunk
-* `ruby_{MAJOR}_{MINOR}`
-
-`ruby_{MAJOR}_{MINOR}` 分支會維護不同的 `TEENY` 發行版。每個發行版會打上標籤。
+* `ruby_{MAJOR}_{MINOR}_{TEENY}`
 
 ### API 相容性
 
