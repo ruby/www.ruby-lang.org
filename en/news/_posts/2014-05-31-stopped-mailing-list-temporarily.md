@@ -24,3 +24,7 @@ We stopped the following lists:
 
 We are sorry if the outage affects you and are working on
 resuming the lists as soon as we can.
+
+### Status update 2014-06-16 9:00 +0000
+
+We resumed the mailing lists on ruby-lang.org.
