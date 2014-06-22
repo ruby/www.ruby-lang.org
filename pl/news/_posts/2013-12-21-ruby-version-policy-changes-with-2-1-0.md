@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Semantyczne wersjonowanie poczynając od Rubiego 2.1.0"
+title: "Zmiana polityki wersjonowania poczynając od Rubiego 2.1.0"
 author: "zzak"
 translator: "crabonature"
 date: 2013-12-21 2:00:00 +0000
 lang: pl
 ---
 
-Zdecydowaliśmy zastosować politykę
+Zdecydowaliśmy się zmienić politykę wersjonowania Rubiego na politykę bardziej
 [Semantycznego Wersjonowania](http://semver.org/) poczynając od wydania Rubiego 2.1.0.
 
 W celu zapewnienia lepiej zdefiniowanego i właściwie używanego systemu
@@ -29,13 +29,10 @@ Hiroshi Shibaty ([@hsbt](https://twitter.com/hsbt)).
 
 ### Schemat branchy
 
-Będziemy utrzymywali następujące branche:
+Będziemy nadal utrzymywali następujące branche:
 
 * trunk
-* `ruby_{MAJOR}_{MINOR}`
-
-Branch `ruby_{MAJOR}_{MINOR}` będzie utrzymywany przez wydania `TEENY`.
-Używamy tagów na każde wydanie.
+* `ruby_{MAJOR}_{MINOR}_{TEENY}`
 
 ### Kompatybilność API
 
