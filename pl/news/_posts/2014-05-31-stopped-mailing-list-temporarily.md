@@ -23,3 +23,7 @@ Nasze listy zostały zaatakowane przez bombę spamową. Zatrzymaliśmy nstępuj�
 
 Przykro nam, jeżeli awaria dotyczy ciebie, pracujemy nad wznowieniem list
 tak szybko, jak to możliwe.
+
+### Aktualizacja statusu 2014-06-16 9:00 +0000
+
+Wznowiliśmy listy mailingowe na ruby-lang.org.
