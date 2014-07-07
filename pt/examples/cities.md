@@ -10,7 +10,7 @@ layout: nil
 cidades   = %w[ Londres
                 Oslo
                 Paris
-                Amsterdão
+                Amsterdã
                 Berlim ]
 visitadas = %w[Berlim Oslo]
 
