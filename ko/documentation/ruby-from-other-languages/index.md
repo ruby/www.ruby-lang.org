@@ -25,7 +25,7 @@ lang: ko
 * [PHP에서
   루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
 * [파이썬에서
-  루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
+  루비로](/ko/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
 ## 중요한 언어 기능과 알아둘 점
 
