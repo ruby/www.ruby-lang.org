@@ -3,10 +3,10 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# Ruby knows what you
-# mean, even if you
-# want to do math on
-# an entire Array
+# 루비는 당신의 말을
+# 이해합니다. 전체
+# 배열의 계산을 하려고
+# 할 때에도 말이죠.
 cities  = %w[ London
               Oslo
               Paris
