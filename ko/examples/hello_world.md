@@ -3,15 +3,15 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# The famous Hello World
-# Program is trivial in
-# Ruby. Superfluous:
+# Hello World 프로그램은
+# 루비로 짜면 간단합니다
+# 불 필요한 것들:
 #
-# * A "main" method
-# * Newline
-# * Semicolons
+# * "main" 메서드
+# * 줄 바꿈
+# * 세미콜론
 #
-# Here is the Code:
+# 코드는 이렇습니다
 
 puts "Hello World!"
 {% endhighlight %}

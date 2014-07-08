@@ -3,15 +3,15 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# Output "I love Ruby"
+# "I love Ruby" 출력
 say = "I love Ruby"
 puts say
 
-# Output "I *LOVE* RUBY"
+# "I *LOVE* RUBY" 출력
 say['love'] = "*love*"
 puts say.upcase
 
-# Output "I *love* Ruby"
-# five times
+# 다섯번
+# "I *love* Ruby" 출력
 5.times { puts say }
 {% endhighlight %}

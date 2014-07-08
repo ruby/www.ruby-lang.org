@@ -3,7 +3,7 @@ layout: nil
 ---
 
 {% highlight ruby %}
-# The Greeter class
+# Greeter 클래스
 class Greeter
   def initialize(name)
     @name = name.capitalize
@@ -14,9 +14,9 @@ class Greeter
   end
 end
 
-# Create a new object
+# 새 오브젝트 생성
 g = Greeter.new("world")
 
-# Output "Hello World!"
+# "Hello World!" 출력
 g.salute
 {% endhighlight %}
