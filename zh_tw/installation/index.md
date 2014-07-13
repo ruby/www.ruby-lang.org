@@ -75,7 +75,9 @@ Windows 使用者，可以使用這個很棒的專案來安裝 Ruby：
 ## 套件管理系統
 {: #package-management-systems}
 
-若無法自行編譯 Ruby，也不想使用第三方工具，可以使用系統的套件管理工具來安裝 Ruby。Ruby 社群成員強烈建議永遠不要使用套件管理工具來安裝 Ruby，應該使用第三方工具。但第三方工具的好壞超出本文的範疇。最主要的理由是多數的套件管理工具的 Ruby 版本老舊。若想使用最新版的 Ruby，請確定安裝了正確的套件，或使用上面介紹的第三方工具。
+若無法自行編譯 Ruby，也不想使用第三方工具，可以使用系統的套件管理工具來安裝 Ruby。
+
+Ruby 社群成員強烈建議永遠不要使用套件管理工具來安裝 Ruby，應該使用第三方工具。但第三方工具的好壞超出本文的範疇。最主要的理由是多數的套件管理工具的 Ruby 版本老舊。若想使用最新版的 Ruby，請確定安裝了正確的套件，或使用上面介紹的第三方工具。
 
 以下各自介紹如何使用各平台的套件管理工具來安裝 Ruby：
 
@@ -158,9 +160,7 @@ $ brew install ruby
 ### Solaris 和 OpenIndiana 平台
 {: #solaris}
 
-[Sunfreeware][sunfreeware] 上的 Solaris 8 到 10 版有 Ruby 1.8.7 可用，同時 [Blastwave][blastwave] 上也有 Ruby 1.8.7。
-
-Ruby 1.9.2p0 在 [Sunfreeware][sunfreeware] 也有，但是過時版本。
+[Sunfreeware][sunfreeware] 上的 Solaris 8 到 10 版有 Ruby 1.8.7 可用，同時 [Blastwave][blastwave] 上也有 Ruby 1.8.7。Ruby 1.9.2p0 在 [Sunfreeware][sunfreeware] 也有，但是過時版本。
 使用第三方工具來獲取最新版本的 Ruby。
 
 要在 [OpenIndiana][openindiana] 安裝 Ruby，請使用：
@@ -183,7 +183,7 @@ $ pkg install runtime/ruby-18
 {: #building-from-source}
 
 當然從原始碼編譯 Ruby 也可以。
-[下載 Ruby](/en/downloads/)並解壓縮，接著執行：
+[下載 Ruby](/zh_tw/downloads/)並解壓縮，接著執行：
 
 {% highlight sh %}
 $ ./configure
