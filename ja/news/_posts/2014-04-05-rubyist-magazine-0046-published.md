@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0046号 発行"
 author: "sunaot"
-date: 2014-04-04 19:50:00 UTC
+date: 2014-04-04 19:50:00 +0000
 lang: ja
 ---
 
