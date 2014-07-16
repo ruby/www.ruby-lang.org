@@ -1176,9 +1176,9 @@ locales:
         quickstart:
           text: 20분 가이드
           url: /ko/documentation/quickstart/
-#       ruby_from_other_languages:
-#         text: Ruby from Other Languages
-#         url: /en/documentation/ruby-from-other-languages/
+        ruby_from_other_languages:
+          text: 다른 언어에서 루비로
+          url: /ko/documentation/ruby-from-other-languages/
       explore:
         text: <strong>탐험하기</strong>
         documentation:
