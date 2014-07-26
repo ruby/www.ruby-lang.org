@@ -1,13 +1,14 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0 이후의 시맨틱 버저닝에 관하여"
+title: "루비 2.1.0부터의 버전 정책 변경에 관하여"
 author: "zzak"
 translator: "marocchino"
 date: 2013-12-21 2:00:00 +0000
 lang: ko
 ---
 
-Ruby 2.1.0의 릴리즈 이후에 [Semantic Versioning](http://semver.org/)([번역](http://surpreem.com/archives/380))을 쓰기로
+Ruby 2.1.0의 릴리즈와 함께 루비의 버저닝 정책을 좀 더
+[Semantic Versioning](http://semver.org/)([번역](http://surpreem.com/archives/380))에 가깝게 하기로
 결정했습니다.
 
 Ruby에 보다 명확하고 적절한 버저닝 스키마를 제공하기위해,
@@ -29,13 +30,10 @@ Ruby에 보다 명확하고 적절한 버저닝 스키마를 제공하기위해,
 
 ### 브랜칭 스키마
 
-이하의 브랜치를 관리하도록 하겠습니다.
+이하의 브랜치를 계속 관리하도록 하겠습니다.
 
 * trunk
-* `ruby_{MAJOR}_{MINOR}`
-
-`ruby_{MAJOR}_{MINOR}` 브랜치는 `TEENY` 릴리즈간에 공유되는 브랜치입니다.
-각각의 브랜치는 테그를 사용합니다.
+* `ruby_{MAJOR}_{MINOR}_{TEENY}`
 
 ### API 호환성
 
