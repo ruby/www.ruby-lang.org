@@ -7,7 +7,7 @@ date: 2014-07-26 16:02:34 +0000
 lang: en
 ---
 
-RubyKaigi 2014 registration page is now online.
+[RubyKaigi 2014](http://rubykaigi.org/2014) registration page is now online.
 
 * What: RubyKaigi 2014 is a 3 day, double-track conference for Rubyists
 * Where: Tokyo, Japan
@@ -24,11 +24,10 @@ RubyKaigi 2014 registration page is now online.
 
 EarlyBird Ticket is open now and limited. Be quick!
 
-http://rubykaigi.doorkeeper.jp/events/12215
+[http://rubykaigi.doorkeeper.jp/events/12215](http://rubykaigi.doorkeeper.jp/events/12215)
 
 Ruby core committers can get discounts on the EarlyBird price (JPY 18,000),
-depending on  your commit counts to Ruby repo from 2.0.0-p0 to 2.1.0-p0
-(https://gist.github.com/snoozer05/ca9860c57683e4221d10):
+depending on [your commit counts to Ruby repo from 2.0.0-p0 to 2.1.0-p0](https://gist.github.com/snoozer05/ca9860c57683e4221d10):
 
 * 100% off if you made 100+ commits (Free)
 * 50% for 20+ commits (JPY 9,000)
@@ -52,10 +51,10 @@ Rubyists from around the world.
 
 ## More Info:
 
-* http://rubykaigi.org/2014
-* http://blog.rubykaigi.org
-* @rubykaigi
-* http://lanyrd.com/2014/rubykaigi/
+* [http://rubykaigi.org/2014](http://rubykaigi.org/2014)
+* [http://blog.rubykaigi.org](http://blog.rubykaigi.org)
+* [@rubykaigi](https://twitter.com/rubykaigi)
+* [http://lanyrd.com/2014/rubykaigi/](http://lanyrd.com/2014/rubykaigi)
 
 ## Contact:
 
