@@ -27,7 +27,7 @@ EarlyBird Ticket is open now and limited. Be quick!
 [http://rubykaigi.doorkeeper.jp/events/12215](http://rubykaigi.doorkeeper.jp/events/12215)
 
 Ruby core committers can get discounts on the EarlyBird price (JPY 18,000),
-depending on  [your commit counts to Ruby repo from 2.0.0-p0 to 2.1.0-p0](https://gist.github.com/snoozer05/ca9860c57683e4221d10):
+depending on [your commit counts to Ruby repo from 2.0.0-p0 to 2.1.0-p0](https://gist.github.com/snoozer05/ca9860c57683e4221d10):
 
 * 100% off if you made 100+ commits (Free)
 * 50% for 20+ commits (JPY 9,000)
