@@ -4,9 +4,9 @@ title: "다른 언어에서 루비로"
 lang: ko
 ---
 
-처음 루비 코드를 볼 때, 그것은 가능성이 당신이 사용했던 다른 프로그래밍
-언어를 연상하게 합니다. 이것은 의도적입니다. 대부분의 문법은 펄, 파이썬,
-자바(나 다른 언어들)과 유사합니다. 다른 언어를 사용한 적이 있다면 루비를
+처음 루비 코드를 볼 때, 그것은 당신이 사용했던 다른 프로그래밍 언어를
+연상하게 할 수 있습니다. 이것은 의도적입니다. 대부분의 문법은 펄, 파이썬,
+자바나 다른 언어들과 유사합니다. 다른 언어를 사용한 적이 있다면 루비를
 배우기는 아주 쉬울 것입니다.
 {: .summary}
 
@@ -19,7 +19,7 @@ lang: ko
 * [C 나 C++에서
   루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
 * [자바에서
-  루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
+  루비로](/ko/documentation/ruby-from-other-languages/to-ruby-from-java/)
 * [펄에서
   루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
 * [PHP에서
@@ -27,16 +27,16 @@ lang: ko
 * [파이썬에서
   루비로](/ko/documentation/ruby-from-other-languages/to-ruby-from-python/)
 
-## 중요한 언어 기능과 알아둘 점
+## 언어의 중요한 기능과 알아둘 점
 
 루비를 배우는 동안 보게될 루비의 주요 기능들의 요점과 힌트들을 알아봅시다.
 
 ### 이터레이션
 
-익숙해져야하지만 전에본것과는 다를 수 있는 루비의 두가지 기능은 "블록"과
+익숙해져야 하지만 전에 본것과는 다를 수 있는 루비의 두가지 기능은 "블록"과
 이터레이터입니다. (C, C++, or pre-1.5 자바처럼) 인덱스로 반복하거나 (펄의
 `for (@a) {...}`나 파이썬의 `for i in aList: ...`처럼) 리스트로 반복하는
-대신, 루비에서는 매우 자주 다음과 같은 구문을 보게될 것 입니다.
+대신, 루비에서는 매우 자주 다음과 같은 구문을 사용하는 것을 보게 됩니다.
 
 {% highlight ruby %}
 some_list.each do |this_item|
@@ -83,8 +83,8 @@ irb(main):003:0>
 `object_id`메서드는 객체의 아이덴티티를 반환합니다. 만약 두 객체가 같은
 `object_id`를 가진다면 두 객체는 같습니다(메모리안의 같은 객체를 가리킵니다).
 
-보시다시피, 심볼을 한번 사용하면, 같은 문자들을 가지는 어떤 심볼도
-메모리안의 같은 객체를 참조합니다. 어떤 두 심볼이 같은 문자들을 가지고 있다면,
+보시다시피, 심볼을 한번 사용하면, 같은 문자열을 사용하는 모든 심볼은
+메모리 안의 같은 객체를 참조합니다. 어떤 두 심볼이 같은 문자들을 가지고 있다면,
 `object_id`는 일치하게 됩니다.
 
 이제 문자열 (“george”)를 살펴봅시다. `object_id`가 일치하지 않습니다.
@@ -92,7 +92,7 @@ irb(main):003:0>
 사용할 때마다, 루비는 매번 메모리에 할당 합니다.
 
 심볼을 사용해야 할 지 문자열을 사용해야 할 지 결정해야 한다면, 무엇이 더
-중요한지 생각해보세요. 객체의 아이덴티티가 중요한 경우(예를 들어 해쉬키로
+중요한지 생각해보세요. 객체의 아이덴티티가 중요한 경우(예를 들어 해쉬 키로
 사용할 때)나 내용이 중요할 때(위에 있는 예제처럼 “george”)로 나눌 수
 있습니다.
 
@@ -114,8 +114,8 @@ end
 ### 변경가능한 상수
 
 상수는 실제로 상수는 아닙니다. 이미 초기화된 상수를 수정한다면, 경고를
-발생하긴 하지만, 프로그램을 종료시키진 않습니다. 이 말은 상수의 재정의를
-**권장** 한다는 이야기는 아닙니다.
+발생하긴 하지만, 프로그램을 종료시키진 않습니다. 이 이야기는 상수의
+재 정의를 **권장** 한다는 이야기는 아닙니다.
 
 ### 이름 규칙
 
@@ -196,12 +196,12 @@ end
 
 {% highlight ruby %}
 class MyClass
-  # Now a_method is public
+  # 이제 a_method는 public입니다.
   def a_method; true; end
 
   private
 
-  # another_method is private
+  # another_method는 private입니다.
   def another_method; false; end
 end
 {% endhighlight %}
@@ -227,7 +227,7 @@ end
 {% highlight ruby %}
 $ irb
 irb(main):001:0> class Test
-irb(main):002:1>   # public by default
+irb(main):002:1>   # 기본값은 public입니다.
 irb(main):003:1*   def func
 irb(main):004:2>     99
 irb(main):005:2>   end
@@ -244,15 +244,15 @@ irb(main):013:0> t2 = Test.new
 => #<Test:0x342784>
 irb(main):014:0> t1 == t2
 => true
-irb(main):015:0> # now make `func` protected, still works
-irb(main):016:0* # because protected allows the other reference
+irb(main):015:0> # 이제 `func`를 protected로 만들지만 protected가 다른
+irb(main):016:0* # 객체에서의 참조를 허용하기 때문에 여전히 동작합니다.
 irb(main):017:0* class Test
 irb(main):018:1>   protected :func
 irb(main):019:1> end
 => Test
 irb(main):020:0> t1 == t2
 => true
-irb(main):021:0> # now make `func` private
+irb(main):021:0> # 이제 `func`을 private으로 만듭니다.
 irb(main):022:0* class Test
 irb(main):023:1>   private :func
 irb(main):024:1> end
@@ -268,19 +268,19 @@ irb(main):026:0>
 ### 열린 클래스
 
 루비의 클래스는 열려있습니다. 언제든 클래스를 열어서, 추가하고, 변경할 수
-있습니다. `Fixnum` 나 모든 객체의 부모인 `Object`같은 코어 클래스도
+있습니다. `Fixnum`이나 심지어 모든 객체의 부모인 `Object`같은 코어 클래스도
 예외는 아닙니다. 루비 온 레일즈에서는 시간을 제어하기 위해 `Fixnum`에 많은
 메서드를 추가해서 사용합니다. 밑을 보세요.
 
 {% highlight ruby %}
 class Fixnum
   def hours
-    self * 3600 # number of seconds in an hour
+    self * 3600 # 한 시간을 초로 환산한 수
   end
   alias hour hours
 end
 
-# 14 hours from 00:00 January 1st
+# 1월 1일 00:00부터 14시간 후
 # (aka when you finally wake up ;)
 Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 {% endhighlight %}
@@ -292,7 +292,7 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 (예를들어 리시버가 비었을때 **true**를 반환하는 `Array#empty?`)
 컨밴션에서 "위험할" 수 있는 메서드는 느낌표로 끝납니다.
 (예를들어 `exit!`같은 **self** 나 인자를 변경하는 메서드)
-인자를 변경하는 모든 함수가 느낌표로 끝나지는 않습니다.
+인자를 변경하는 모든 메서드가 느낌표로 끝나지는 않습니다.
 `Array#replace`는 다른 배열의 내용으로 배열의 내용을 치환합니다.
 느낌표를 self를 수정하지 **않는** 메서드에 사용하는 것은 말이
 되지 않습니다.
@@ -300,7 +300,7 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 ### 싱글턴 메서드
 
 싱글턴 메서드는 객체 별 메서드입니다. 싱글턴 메서드는 정의된 객체에서만
-사용가능합니다.
+사용 가능합니다.
 
 {% highlight ruby %}
 class Car
@@ -317,7 +317,7 @@ end
 
 porsche.inspect # => Expensive car
 
-# Other objects are not affected
+# 다른 객체는 영향 없음
 other_car = Car.new
 other_car.inspect # => Cheap car
 {% endhighlight %}
@@ -327,12 +327,12 @@ other_car.inspect # => Cheap car
 루비는 특정 메세지에 응답할 메서드를 찾을 수 없을 때에도 포기하지
 않습니다. 찾을 수 없었던 메서드의 이름과 인자를 가지고
 `method_missing` 메서드를 호출합니다. 기본적으로 `method_missing`는
-NameError 예외를 일으키지만, 어플리케이션에 맞게 재정의 할 수
-있고 많은 라이브러리들이 그렇게 사용합니다. 여기 예제가 있습니다.
+NameError 예외를 일으키지만, 어플리케이션에 맞게 재정의 할 수 있고
+많은 라이브러리들이 그렇게 사용합니다. 예제를 보세요.
 
 {% highlight ruby %}
-# id is the name of the method called, the * syntax collects
-# all the arguments in an array named 'arguments'
+# id는 메서드 호출의 이름이고 , * 문법은 모든 인자를
+# 'arguments' 라는 이름의 배열에 넣어줍니다.
 def method_missing(id, *arguments)
   puts "Method #{id} was called, but not found. It has " +
        "these arguments: #{arguments.join(", ")}"
@@ -351,11 +351,11 @@ __ :a, :b, 10
 메서드 호출은 사실 다른 객체로 던지는 **메세지**입니다.
 
 {% highlight ruby %}
-# This
+# 이 구문들은
 1 + 2
-# Is the same as this ...
+# 전부
 1.+(2)
-# Which is the same as this:
+# 같습니다.
 1.send "+", 2
 {% endhighlight %}
 
@@ -371,7 +371,7 @@ def block(&the_block)
   the_block # return the block
 end
 adder = block { |a, b| a + b }
-# adder is now a Proc object
+# adder 는 이제 Proc 객체입니다.
 adder.class # => Proc
 {% endhighlight %}
 
@@ -393,7 +393,7 @@ method(:puts).call "puts is an object!"
 
 {% highlight ruby %}
 class Fixnum
-  # You can, but please don't do this
+  # 할 수는 있지만, 하지 마세요.
   def +(other)
     self - other
   end
