@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Semantische Versionierung nach Ruby 2.1.0"
+title: "Änderungen an der Ruby-Versionierung ab 2.1.0"
 author: "zzak"
 translator: "Quintus"
 date: 2013-12-21 2:00:00 +0000
 lang: de
 ---
 
-Wir haben uns entschieden, ab Ruby 2.1.0 zu einer [semantischen
+Wir haben uns entschieden, ab Ruby 2.1.0 zu einer eher [semantischen
 Versionierung](http://semver.org/) zu wechseln.
 
 Um ein besser organisiertes und ordentlich nutzbares
@@ -34,13 +34,10 @@ ruby-lang.org, Hiroshi Shibata ([@hsbt](https://twitter.com/hsbt)).
 
 ### Branching-Schema
 
-Wir werden die folgenden Zweige unterstützen:
+Wir werden weiterhin die folgenden Zweige unterstützen:
 
 * trunk
-* `ruby_{MAJOR}_{MINOR}`
-
-Der Zweig `ruby_{MAJOR}_{MINOR}` wird für `TEENY`-Veröffentlichungen
-laufend aktualisiert. Wir werden jedes Release mit Tags versehen.
+* `ruby_{MAJOR}_{MINOR}_{TEENY}`
 
 ### API-Kompatibilität
 
