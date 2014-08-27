@@ -105,7 +105,7 @@ irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
 
-Co przedsatwia powyższa linia ? Tak, zgadza się, obliczamy tutaj
+Co przedstawia powyższa linia ? Tak, zgadza się, obliczamy tutaj
 pierwiastek kwadratowy liczby 9. Przypatrzmy się temu bliżej. Po
 pierwsze co oznacza `Math` ?
 
