@@ -13,11 +13,18 @@ sahiptir.
 Eğer Ruby topluluğu ile içiçe olmak istiyorsanız, aşağıda bir kaç
 başlangıç önerisi var:
 
+[Ruby Türkiye](http://www.rubyturkiye.org/)(Türkçe)
+: Türkiye'deki Ruby programcıları ve Ruby severler topluluğudur. 
+Ruby ile program yazan ve ilgilenen herkese açıktır.
+
 [Ruby Kullanıcı Grupları](/en/community/user-groups/) (İngilizce)
 : Yerel Ruby kullanıcı grubunuz olması, diğer Ruby programcıları ile
   iletişim kurmanız için ideal bir fırsattır. Ruby Kullanıcı Grupları
   aylık toplantılar, e-posta listeleri, bir web sitesi ve eğer
   şanslıysanız kodlama festivalleri gibi harika aktiviteler içerir.
+  
+[Ruby Türkiye E-Posta Listesi](http://www.rubyturkiye.org/group) (Türkçe)
+: Ruby Türkiye Topluluğu E-Posta Listesi
 
 [Ruby E-Posta Listeleri ve Haber Grupları](/en/community/mailing-lists/) (İngilizce)
 : Ruby değişik dillerde ve çeşitli konularda kullanılan e-posta
