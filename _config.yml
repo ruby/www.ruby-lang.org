@@ -476,7 +476,7 @@ locales:
       description: Najnowsze wiadomości z ruby-lang.org.
       lang_code: pl
     pt:
-      title: Noticias de Ruby por RSS
+      title: Notícias de Ruby por RSS
       description: As notícias mais recentes do ruby-lang.org em Português.
       lang_code: pt-PT
     ru:
@@ -1787,6 +1787,7 @@ locales:
     fr: "Autres langues disponibles :"
     it: "Questo sito in altre lingue:"
     pl: "Ta strona w innych językach:"
+    pt: "Este site em outras línguas:"
     ru: "Этот сайт на других языках:"
 
   credits:
@@ -1837,6 +1838,9 @@ locales:
       Proszę udziel nam wsparcia na <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
       jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
+    pt: |
+      <a href="/pt/about/website/">Este website</a>
+      é orgulhosamente mantido por membros da comunidade Ruby.
     ru: |
       <a href="/ru/about/website/">Этот сайт</a> с гордостью поддерживается членами сообщества Ruby.
     vi: |
