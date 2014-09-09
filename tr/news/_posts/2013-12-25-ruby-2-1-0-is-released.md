@@ -12,7 +12,7 @@ Ruby 2.1.0 yayınlandı!
 Ruby 2.1 geri uyumluluğu bozmadan bir çok iyileştirme ve hızlandırma ile beraber
 gelmektedir.
 
-Deneyin!
+Şimdi Deneyin!
 
 ## İndir
 
@@ -38,7 +38,7 @@ Deneyin!
 * Refinementlar [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * Syntax değişiklikleri
   * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
-  * def's return değeri [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * def'in return değeri [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
   * GMP kullan [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
