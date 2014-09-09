@@ -12,24 +12,25 @@ O Ruby tem quatro listas de distribuição principais em Inglês:
 
 Ruby-Talk
 : Esta é a lista de correio mais popular e trata de tópicos gerais sobre
-  o Ruby. A Ruby-Talk tem um *mirror* em
-  [comp.lang.ruby](news:comp.lang.ruby) e [Ruby-Forum.org][1].
-  ([Sumários Semanais][2], [FAQ][3], [Arquivos][4])
+  o Ruby. A Ruby-Talk tem um *mirror* em [Ruby-Forum.com][1]. [FAQ][2] e [Arquivos][3])
 
 Ruby-Core
-: Esta lsta trata do núcleo e tópicos da implementação do Ruby.
-  Normalmente é usada para enviar *patches* para revisão. ([Aquivos][5])
+: Esta lista trata do núcleo e tópicos da implementação do Ruby.
+  Normalmente é usada para enviar *patches* para revisão. ([Aquivos][4])
 
 Ruby-Doc
 : Esta lista é para discussão sobre normas de documentação e ferramentas
-  para Ruby. ([Arquivos em Gmane][6])
+  para Ruby. ([Arquivos em Gmane][5])
 
 Ruby-CVS
 : Esta lista relata todas as submissões no repositório CVS do Ruby.
 
+O comp.lang.ruby Newsgroup
+: Aqueles que preferem Usenet ao invés de listas de correio terão interesse em dar uma olhada em [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
+
 Ruby &lt;&lt; portuguese.
-: Esta é a lista de discussão oficial de ruby em Portugal. ([Arquivos no
-  Google Groups][7])
+: Esta é a lista de discussão oficial de ruby em Portugal. ([Arquivos no Google Groups][6])
+
   <table border="0" style="background-color: #fff; padding: 5px;" cellspacing="0">
   <tr><td style="padding-left: 5px">
       <b>Subscreva o ruby &lt;&lt; portuguese</b>
@@ -46,15 +47,13 @@ Ruby &lt;&lt; portuguese.
 {% include subscription-form.html %}
 
 Se falhar a recepção do email utilizando o formulário, tente subscrever
-[manualmente](manual-instructions/ "subscrição manual numa
-lista de correio").
+[manualmente](manual-instructions/).
 
 
 
-[1]: http://ruby-forum.org
-[2]: http://www.rubyweeklynews.org/
-[3]: http://rubyhacker.com/clrFAQ.html
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml "Aquivos"
-[6]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation "Arquivos em  Gmane"
-[7]: http://groups.google.com/group/ruby-pt
+[1]: http://ruby-forum.com
+[2]: http://rubyhacker.com/clrFAQ.html
+[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
+[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
+[5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[6]: http://groups.google.com/group/ruby-pt

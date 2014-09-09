@@ -4,6 +4,8 @@ title: "Instruções de Subscrição Manual"
 lang: pt
 ---
 
+NOTA: Se você não conseguir se inscrever, favor acessar [lists.ruby-lang.org](http://lists.ruby-lang.org).
+
 Para subscrever uma lista de correio, por favor envie um email para o o
 endereço de “controlo” com o seguinte no corpo da mensagem (não no
 assunto):
@@ -45,11 +47,13 @@ Ruby-CVS
 
 ### Cancelar Subscrição
 
-Para cancelar a subscrição de uma lista, envie um email ao endereço de
-controlo cujo corpo da mensagem deverá conter somente “unsubscribe”:
+Para cancelar a subscrição de uma lista, envie um email ao **endereço de
+controlo** cujo corpo da mensagem deverá conter somente “unsubscribe”:
 
     unsubscribe
 {: .code}
+
+Se assegure de enviar um e-mail em texto puro (plain text), pois um e-mail HTML pode não funcionar.
 
 ### Obter Ajuda
 
