@@ -12,7 +12,9 @@ the next ConFoo. [Submit your proposals][1] until **September 22nd**.
 
 ![ConFoo web dev conference. Feb 18 - 20, 2015 &#124; Montreal, Canada][logo]{: style="border:0; float:right; margin-left:20px;" width="180" height="130"}
 
-ConFoo is looking for Ruby experts to share their skills and experience at the next ConFoo. [Submit your proposals][1] until **September 22nd**.
+ConFoo is a conference for developers that has built a reputation as a prime
+destination for exploring new technologies, diving deeper into familiar
+topics, and experiencing the best of community and culture.
 
  * ConFoo 2015 will be hosted on February 18th-20th in Montreal, at the Hilton Bonaventure Hotel.
  * We take good care of our speakers by covering most expenses including travel, accommodation, lunch, full conference ticket, etc.
