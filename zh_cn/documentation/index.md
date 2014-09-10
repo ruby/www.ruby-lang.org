@@ -51,8 +51,7 @@ lang: zh_cn
 : 最有影响的 Ruby 教材，第一版是免费的 [Pragmatic Programmers’ book][10] 。
 
 [Ruby User’s Guide][11]
-: 从 Yukihiro Matsumoto (Ruby 的发明者) 编写的日文版翻译过来，Goto Kentaro 和 Mark
-  Slagell 在这部教材里介绍了 Ruby 的各个方面的功能。
+: 译自松本行弘(Ruby 的发明者)日文版原作，Goto Kentaro 和 Mark Slagell 在这部教材里介绍了 Ruby 的各个方面的功能。
 
 [The Ruby Programming Wikibook][12]
 : 免费的在线语言参考资料，内容从 Ruby 初级到中级。
