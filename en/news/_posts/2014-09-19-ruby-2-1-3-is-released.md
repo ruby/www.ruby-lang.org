@@ -48,5 +48,5 @@ for details.
 
 ## Release Comment
 
-Many committers, developers, and users who provided bug reports helped me to make this release.
+Many committers, developers, and users who provided bug reports helped us to make this release.
 Thanks for their contributions.
