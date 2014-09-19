@@ -7,7 +7,7 @@ date: 2014-09-19 12:00:00 +0000
 lang: en
 ---
 
-We are pleased to announce the release of Ruby 2.1.3. This is a patchlevel release of stable 2.1 seriese.
+We are pleased to announce the release of Ruby 2.1.3. This is a patchlevel release of stable 2.1 series.
 
 This release contains a change of full GC timing to reduce memory consumption (see [Bug #9607](https://bugs.ruby-lang.org/issues/9607)), and many bugfixes.
 
