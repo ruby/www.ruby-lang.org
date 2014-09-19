@@ -100,4 +100,3 @@ heroku open
 ## More Information
 
 For more information see the [wiki](https://github.com/ruby/www.ruby-lang.org/wiki).
-
