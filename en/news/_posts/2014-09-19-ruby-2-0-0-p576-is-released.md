@@ -7,7 +7,7 @@ date: 2014-09-19 12:00:00 +0000
 lang: en
 ---
 
-We are pleased to announce the release of Ruby 2.0.0-p576, to celebrate the holding of RubyKaigi2014 in Japan now.
+We are pleased to announce the release of Ruby 2.0.0-p576, to celebrate the holding of [RubyKaigi2014](http://rubykaigi.org/2014) in Japan now.
 
 This release includes many bugfixes, such as:
 
