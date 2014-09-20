@@ -207,7 +207,7 @@ namespace :check do
   task :markup => :generate do
     options = Jekyll.configuration({'auto' => false, 'server' => false})
     Dir.chdir('_site') do
-      system("validate-website-static --site '#{options['url']}/'")
+      system("validate-website-static --site '#{options['url']}/' --quiet")
       exit($?.exitstatus)
     end
   end
