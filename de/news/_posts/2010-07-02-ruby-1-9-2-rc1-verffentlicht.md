@@ -12,14 +12,14 @@ Ruby 1.9.2 wird größtenteils mit 1.9.1 kompatibel sein, abgesehen von
 den folgenden Änderungen:
 
 * Diverse neue Methoden
-* Neues <tt>Socket</tt>-API (IPv6-fähig)
+* Neues <kbd>Socket</kbd>-API (IPv6-fähig)
 * Neue Zeichenkodierungen
-* Eine <tt>Random</tt>-Klasse, die viele verschiedene
+* Eine <kbd>Random</kbd>-Klasse, die viele verschiedene
   Zufallszahlengeneratoren unterstützt
-* <tt>Time</tt> wurde neu implementiert. Es gibt kein Jahr-2038-Problem
+* <kbd>Time</kbd> wurde neu implementiert. Es gibt kein Jahr-2038-Problem
   mehr.
 * Einige Verbesserungen bei Regulären Ausdrücken
-* <tt>$:</tt> enthält das aktuelle Verzeichnis (\".\") nicht mehr
+* <kbd>$:</kbd> enthält das aktuelle Verzeichnis (\".\") nicht mehr
 * dl ist neu implementiert worden; es setzt nun auf libffi auf.
 * Eine neue Library namens \"psych\" wrappt libyaml. Du kannst diese
   Library anstatt von syck verwenden.

@@ -73,7 +73,7 @@ jedoch gern gesehen.
 
 ### FAQ
 
-#### Die Standard Library ist nach <tt>/usr/local/lib/ruby/1.9.**1**</tt> installiert?
+#### Die Standard Library ist nach <kbd>/usr/local/lib/ruby/1.9.**1**</kbd> installiert?
 
 Diese Versionsnummer bezeichnet die “Library-Kompatibilitäts-Version”.
 Ruby 1.9.2 ist größtenteils mit 1.9.1 kompatibel, daher befindet sich
