@@ -28,7 +28,7 @@ Cheers,
 
 —ruby-lang.org webmaster team  
 [webmaster@ruby-lang.org](mailto:webmaster@ruby-lang.org)
-{: align="right"}
+{: style="text-align: right"}
 
 
 
