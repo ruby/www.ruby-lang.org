@@ -627,7 +627,7 @@ table#filter-reference-table h4 {
   margin: 0;
   margin-bottom: .5em;
 }
-table#filter-reference-table acronym {
+table#filter-reference-table abbr {
   border-bottom: 1px dotted silver;
 }
 table#filter-reference-table blockquote {
