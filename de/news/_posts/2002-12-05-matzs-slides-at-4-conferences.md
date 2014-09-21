@@ -12,8 +12,7 @@ kansai(Japanese) are available.
 : Slides: [OOPSLA 2002][2]{: http:=""} : Slides: [LL2][3]{: http:=""} :
   Slides: [KANSAI OPENSOURCE+FREEWARE
     2002][4]{: http:=""} : Slides:
-      [LL2 slides in English to learn Japanese. :) ][5]{:
-        caps=""}
+      [LL2 slides in English to learn Japanese. :) ][5]
 
 
 
