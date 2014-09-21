@@ -5,8 +5,7 @@ author: "Hendy Irawan"
 lang: id
 ---
 
-[![](http://farm2.static.flickr.com/1228/591875620_22ec77b45d_m.jpg){:
-border="1"}][1]
+[![](http://farm2.static.flickr.com/1228/591875620_22ec77b45d_m.jpg)][1]
 
 Komunitas Ruby di Indonesia mempunyai satu lagi situs yang didedikasikan
 untuk Ruby yaitu [Planet Ruby Indonesia][1]. Situs ini adalah situs
