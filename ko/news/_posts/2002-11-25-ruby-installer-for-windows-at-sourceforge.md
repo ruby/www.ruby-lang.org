@@ -19,10 +19,10 @@ Excerpted from the site.
     The Pragmatic Programmer's Guide". 
 
 It’s a must item for Ruby users on Win32 box. Check also
-[eban/ruby/binaries/”&gt;eban’s win32 binaries][2]{: http:=""} to get
+[eban/ruby/binaries/eban’s win32 binaries][2] to get
 Win32 binaries with dozens of popular extensions.
 
 
 
 [1]: http://rubyinstaller.sourceforge.net/
-[2]: http://www.dm4lab.to/&lt;sub&gt;usa/ruby/index_en.html#download%E2%80%9D&gt;usa%E2%80%99s%20binaries&lt;/a&gt;%20and%0A&lt;a%20href=
+[2]: http://www.dm4lab.to/~usa/ruby/index_en.html#download

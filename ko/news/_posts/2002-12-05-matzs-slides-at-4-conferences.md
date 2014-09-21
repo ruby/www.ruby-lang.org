@@ -17,7 +17,7 @@ kansai(Japanese) are available.
 
 
 [1]: http://www.rubyconf.org/index.php
-[2]: http://www.rubyist.net/&lt;sub&gt;matz/slides/rc2002/%E2%80%9D&gt;http://www.rubyist.net/&lt;/sub&gt;matz/slides/rc2002/&lt;/a&gt;&lt;/dd&gt;%0A&lt;dt&gt;&lt;a%20href=
-[3]: http://www.rubyist.net/&lt;sub&gt;matz/slides/oopsla2002/%E2%80%9D&gt;http://www.rubyist.net/&lt;/sub&gt;matz/slides/oopsla2002/&lt;/a&gt;&lt;/dd&gt;%0A&lt;dt&gt;&lt;a%20href=
-[4]: http://www.rubyist.net/&lt;sub&gt;matz/slides/ll2/%E2%80%9D&gt;http://www.rubyist.net/&lt;/sub&gt;matz/slides/ll2/&lt;/a&gt;&lt;/dd&gt;%0A&lt;dt&gt;&lt;a%20href=
-[5]: http://www.rubyist.net/&lt;sub&gt;matz/slides/of-kansai2002/%E2%80%9D&gt;http://www.rubyist.net/&lt;/sub&gt;matz/slides/of-kansai2002/&lt;/a&gt;&lt;/dd&gt;%0A&lt;/dl&gt;%0A&lt;p&gt;Last%20item%20is%20in%20Japanese.%20%20Compare%20it%20with%20&lt;span%20class=
+[2]: http://www.rubyist.net/~matz/slides/rc2002/
+[3]: http://www.rubyist.net/~matz/slides/oopsla2002/
+[4]: http://www.rubyist.net/~matz/slides/ll2/
+[5]: http://www.rubyist.net/~matz/slides/of-kansai2002/
