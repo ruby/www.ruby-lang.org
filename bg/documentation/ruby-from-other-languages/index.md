@@ -161,7 +161,7 @@ end
 
 ### Достъп до метод
 
-В Ruby `private` се изпозлзва за модификатор за достъп, който прави методите достъпни, когато се викат без explicit receiver. В този случай Само **self** е receiver на извикването на private метод. Към `protected` трябва да се подхожда с внимание. protected метод може да бъде извикан от клас или инстанция на наследен клас, но също така и с друга инстанции като receiver. Пример, взет от [Ruby FAQ](http://faq.rubygarden.org/entry/show/57?controller\_prefix=faq%2F):
+В Ruby `private` се изпозлзва за модификатор за достъп, който прави методите достъпни, когато се викат без explicit receiver. В този случай Само **self** е receiver на извикването на private метод. Към `protected` трябва да се подхожда с внимание. protected метод може да бъде извикан от клас или инстанция на наследен клас, но също така и с друга инстанции като receiver. Пример, взет от [Ruby FAQ](http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F):
 
 {% highlight ruby %}
 $ irb
