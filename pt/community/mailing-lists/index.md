@@ -31,16 +31,15 @@ O comp.lang.ruby Newsgroup
 Ruby &lt;&lt; portuguese.
 : Esta é a lista de discussão oficial de ruby em Portugal. ([Arquivos no Google Groups][6])
 
-  <table border="0" style="background-color: #fff; padding: 5px;" cellspacing="0">
-  <tr><td style="padding-left: 5px">
-      <b>Subscreva o ruby &lt;&lt; portuguese</b>
-    </td></tr>
-  <form action="http://groups-beta.google.com/group/ruby-pt/boxsubscribe">
-    <tr><td style="padding-left: 5px;">
-      Email: <input type="text" name="email" /><input type="submit" name="sub" value="Subscrever" />
-  </td></tr>
-  </form>
-  </table>
+**Subscreva o ruby &lt;&lt; portuguese**
+
+<form action="http://groups-beta.google.com/group/ruby-pt/boxsubscribe" markdown="1">
+Email: <input type="text" name="email" required="required" />
+
+<div class="buttons">
+<input class="button" type="submit" name="sub" value="Subscrever" />
+</div>
+</form>
 
 ## Subscrever ou Remover
 
