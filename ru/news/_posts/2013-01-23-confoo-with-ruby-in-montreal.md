@@ -19,7 +19,7 @@ e-Commerce, Security, Mobile, UX и другие топики. [Расписан
 
 Также там будут тренинги и хакатон за два дня перед главным событием.
 
-<iframe width="420" height="236" src="http://www.youtube.com/embed/86VcHcaurRQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="420" height="236" src="//www.youtube.com/embed/86VcHcaurRQ" allowfullscreen></iframe>
 
 Событие пройдет в отеле Hilton Bonaventure Montreal, с 27-го февраля по
 1-е марта. [Билеты продаются онлайн][2].

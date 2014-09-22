@@ -18,7 +18,7 @@ mengesankan.
 
 Mereka juga mengadakan pelatihan dan hackathon dua hari sebelum acara utamanya.
 
-<iframe width="420" height="236" src="http://www.youtube.com/embed/86VcHcaurRQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="420" height="236" src="//www.youtube.com/embed/86VcHcaurRQ" allowfullscreen></iframe>
 
 Acaranya diselenggarakan di Hilton Bonaventure Montreal, 27 Februari -
 1 Maret. [Tiket dijual online][2].

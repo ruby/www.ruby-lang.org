@@ -12,7 +12,7 @@ machine yang dapat dijalankan dengan menggunakan kode Ruby untuk di
 compile ke opcode oleh YARV (Yet Another Ruby VM).
 
 Anda dapat menulis script Ruby dalam sebuah halaman web diantara <script
-type="”text/ruby”"> .. </script>
+type="text/ruby"> .. </script>
 
  tag, kemudian HotRuby akan mengekstraknya, lakukan perintah kirim agar
 bisa dicompile oleh remote script, kemudian return ke gabungan

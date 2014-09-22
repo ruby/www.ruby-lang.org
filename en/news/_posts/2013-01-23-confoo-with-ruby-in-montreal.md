@@ -19,7 +19,7 @@ quite impressive.
 They also have hands-on training and a hackaton in the two days before
 the main event.
 
-<iframe width="420" height="236" src="http://www.youtube.com/embed/86VcHcaurRQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="420" height="236" src="//www.youtube.com/embed/86VcHcaurRQ" allowfullscreen></iframe>
 
 The event is at the Hilton Bonaventure Montreal, from February 27th to
 March 1st. [Tickets are sold online][2].

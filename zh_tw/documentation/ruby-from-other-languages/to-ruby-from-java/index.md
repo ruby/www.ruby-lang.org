@@ -36,7 +36,7 @@ Ruby與Java不同的地方，...
 * 寫 `foo = Foo.new("hi")` ，而非 `Foo foo = new Foo("hi");` 。
 * 建構式的名稱固定為”initialize”，而非與類別同名。
 * 運用 “mixin” 而非介面(interface)。
-* 傾向使用<acronym title="YAML Ain’t Markup Language">YAML</acronym>多於XML。
+* 傾向使用<abbr title="YAML Ain’t Markup Language">YAML</abbr>多於XML。
 * 是 `nil` ，不是 `null` 。
 * Ruby處理 `==` 及 `equals()` 的方式迥異。要看是否等值，使用 `==` (Java用 `equals()`
   )。要知道是否為同一物件，則使用 `equal?()` (Java用 `==` )。

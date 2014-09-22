@@ -19,7 +19,7 @@ argomenti. Il [programma][1] è impressionante.
 Ci saranno anche corsi interattivi e una hackaton nei due giorni prima
 dell\'evento.
 
-<iframe width="420" height="236" src="http://www.youtube.com/embed/86VcHcaurRQ" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="420" height="236" src="//www.youtube.com/embed/86VcHcaurRQ" allowfullscreen></iframe>
 
 Questo evento è all\'Hilton Bonaventure Montreal, dal 27 febbraio al 1
 marzo. [I biglietti sono disponibili online][2].

@@ -16,9 +16,7 @@ layout: default
     <div class="post">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-      <p>
       {{ post.excerpt | markdownify }}
-      </p>
 
       <p class="post-link"><a href="{{ post.url }}">{{ locales.continue }}</a></p>
 

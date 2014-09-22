@@ -166,6 +166,10 @@ pre code {
           border-radius: 0;
 }
 
+iframe {
+  border: none;
+}
+
 /* Layout  */
 
 .container {

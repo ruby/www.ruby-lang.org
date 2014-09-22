@@ -44,8 +44,7 @@ Entwicklerversion (1.9 Reihe)
 
 ### Referenzen
 
-* [ \[SEC\] Mongrel Temporary Fix For cgi.rb 99% CPU DoS Attack][4]{:
-  lang="Mongrel"}
+* [ \[SEC\] Mongrel Temporary Fix For cgi.rb 99% CPU DoS Attack][4]
 
 
 
