@@ -97,6 +97,15 @@ git push heroku master
 heroku open
 ```
 
+## Check
+
+You can check 404 and markup with this tasks:
+
+```
+bundle exec rake check:links # check 404
+bundle exec rake check:markup # check markup for all generated pages
+```
+
 ## More Information
 
 For more information see the [wiki](https://github.com/ruby/www.ruby-lang.org/wiki).
