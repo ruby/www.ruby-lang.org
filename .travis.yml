@@ -1,6 +1,7 @@
 language: ruby
 rvm: 2.1
 cache: bundler
+script: bundle exec rake check:markup
 deploy:
   provider: heroku
   buildpack: https://github.com/ruby/heroku-buildpack-www-ruby-lang.git
