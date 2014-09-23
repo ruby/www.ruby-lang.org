@@ -1,13 +1,11 @@
 # encoding: utf-8
 
-require 'rubygems'
-
 begin
   require 'bundler/setup'
 rescue LoadError => e
   warn e.message
   warn "Run `gem install bundler` to install Bundler"
-  exit -1
+  exit(-1)
 end
 
 HOST = 'www.ruby-lang.org'
