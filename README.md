@@ -1,6 +1,8 @@
 www.ruby-lang.org
 =================
 
+[![Build Status](https://travis-ci.org/ruby/www.ruby-lang.org.svg?branch=master)](https://travis-ci.org/ruby/www.ruby-lang.org)
+
 This is the [Jekyll](http://www.jekyllrb.com/) source of
 the [www.ruby-lang.org](http://www.ruby-lang.org/) website.
 
