@@ -9,9 +9,9 @@ lang: zh_tw
 
 很高興宣佈我們發佈了 Ruby 2.1.3。這是 2.1 穩定版的一次補丁發佈。
 
-本次發佈包含了完整的 GC 時間更改，用來減少記憶體的使用量（參見 [Bug #9607](https://bugs.ruby-lang.org/issues/9607)），並修復了許多錯誤。
+本次發佈對進行完整 GC 的時間點做了修正，以減少記憶體的使用量（參見 [Bug #9607](https://bugs.ruby-lang.org/issues/9607)，並修復了許多錯誤。
 
-參考 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+參考 [Tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 以及 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog) 來了解更多細節。
 
 ## 下載

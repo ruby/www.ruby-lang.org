@@ -7,15 +7,15 @@ date: 2014-09-19 12:00:00 +0000
 lang: zh_tw
 ---
 
-很高興宣佈我們發佈了 Ruby 2.0.0-p576，以此慶祝正在日本舉辦的 [RubyKaigi2014](http://rubykaigi.org/2014)。
+很高興宣佈我們發佈了 Ruby 2.0.0-p576，以此慶祝正在日本舉行的 [RubyKaigi2014](http://rubykaigi.org/2014) 大會。
 
 本次發佈包含了許多錯誤修正，像是：
 
-* 修復了許多記憶體洩漏與過量使用的問題
+* 修復了許多記憶體洩漏與過量使用的問題；
 * 修正許多與平台相關的問題；
-* 訂正了許多文件錯誤
+* 訂正了許多文件錯誤。
 
-參考 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+參考 [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 以及 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) 來了解更多細節。
 
 ## 下載
