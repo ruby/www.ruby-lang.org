@@ -63,7 +63,7 @@ GEM
       nokogiri (~> 1.3)
     toml (0.1.1)
       parslet (~> 1.5.0)
-    validate-website (0.9.0)
+    validate-website (0.9.5)
       multipart_body (~> 0.2)
       paint (~> 0.8)
       spidr (~> 0.4)
