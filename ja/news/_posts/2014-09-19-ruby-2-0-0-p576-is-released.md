@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.0.0-p576 リリース"
 author: "usa"
-translator:
+translator: "usa"
 date: 2014-09-19 12:00:00 +0000
 lang: ja
 ---
