@@ -209,6 +209,15 @@ namespace :check do
       exit($?.exitstatus)
     end
   end
+
+  desc 'validate current news markup with validate-website'
+  task :markup_current_news => :generate do
+    options = Jekyll.configuration({'auto' => false, 'server' => false})
+    Dir.chdir('_site') do
+      system("validate-website-static --site '#{options['url']}/' --quiet -p '*/news/#{Time.now.year}/**/*.html'")
+      exit($?.exitstatus)
+    end
+  end
 end
 
 desc "Carries out some tests"
