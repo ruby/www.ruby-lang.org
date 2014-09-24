@@ -4,7 +4,7 @@ title: "Phát hành Ruby 2.0.0-p576"
 author: "usa"
 translator: "Vinh Nguyễn"
 date: 2014-09-19 12:00:00 +0000
-lang: en
+lang: vi
 ---
 
 Chúng tôi hân hạnh thông báo phát hành Ruby 2.0.0-p576 để chào mừng việc tổ chức [RubyKaigi2014](http://rubykaigi.org/2014) tại Nhật Bản.
