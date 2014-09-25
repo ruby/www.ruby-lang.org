@@ -9,9 +9,9 @@ Matz’s Slides at Ruby Conference 2002, OOPSLA2002, LL2 and O+F
 kansai(Japanese) are available.
 
 [Ruby Conference 2002][1]
-: Slides: [OOPSLA 2002][2]{: http:=""} : Slides: [LL2][3]{: http:=""} :
+: Slides: [OOPSLA 2002][2] : Slides: [LL2][3] :
   Slides: [KANSAI OPENSOURCE+FREEWARE
-    2002][4]{: http:=""} : Slides:
+    2002][4] : Slides:
       [LL2 slides in English to learn Japanese. :) ][5]
 
 
