@@ -23,6 +23,8 @@ use Rack::Rewrite do
   r302 %r{^/(en|ja)/install\.html$}, "/$1/downloads"
 
   # URL changes
+  r302 %r{^/([a-z_]+)/news/2014/09/18/ruby-2\.2\.0-preview1-released(.*)$}, "/$1/news/2014/09/18/ruby-2-2-0-preview1-released$2"
+  r302 %r{^/([a-z_]+)/news/2014/08/19/ruby-1\.9\.2-p330-released(.*)$}, "/$1/news/2014/08/19/ruby-1-9-2-p330-released$2"
   r302 %r{^/([a-z_]+)/news/2013/12/21/semantic-versioning-after-2-1-0(.*)$}, "/$1/news/2013/12/21/ruby-version-policy-changes-with-2-1-0$2"
   r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
 
