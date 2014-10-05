@@ -6,6 +6,7 @@ translator: "İ. Emre Kutlu"
 date: 2014-09-19 12:00:00 +0000
 lang: tr
 ---
+
 Şu an Japonya'da düzenlenmekte olan [RubyKaigi2014](http://rubykaigi.org/2014)'ü kutlamak için Ruby 2.0.0-p576 sürümünü duyurmaktan memnuniyet duyuyoruz.
 
 Bu sürümde birçok hata giderildi, aşağıdakiler bunlardan birkaçı:

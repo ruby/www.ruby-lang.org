@@ -3,7 +3,7 @@ layout: news_post
 title: "RubyKaigi 2014 Kayıt Sistemi Online"
 author: "snoozer05"
 translator: "bariscimen"
-date: 2014-09-15 20:56:00 +0000
+date: 2014-07-26 16:02:34 +0000
 lang: tr
 ---
 
@@ -26,9 +26,9 @@ EarlyBird biletler şuan açık ve sınırlı.Çabuk ol!
 
 [http://rubykaigi.doorkeeper.jp/events/12215](http://rubykaigi.doorkeeper.jp/events/12215)
 
-Ruby çekirdek destekleyicileri EarlyBird biletleri indirimli alabilirler (JPY 18,000||TL 372.11).Bu sizin
- [Ruby repolarından 2.0.0-p0 ile 2.1.0-p0 arası yaptığınız commit sayısına](https://gist.github.com/snoozer05/ca9860c57683e4221d10)
-  bağlı olarak değişmekte:
+Ruby çekirdek destekleyicileri EarlyBird biletleri indirimli alabilirler (JPY 18,000||TL 372.11). Bu sizin
+[Ruby repolarından 2.0.0-p0 ile 2.1.0-p0 arası yaptığınız commit sayısına](https://gist.github.com/snoozer05/ca9860c57683e4221d10)
+bağlı olarak değişmekte:
 
 * 100+ commit için bedava
 * 20+ commit için 50% indirim (JPY 9,000/TL 186.05)
@@ -43,11 +43,9 @@ RubyKaigi 2014'de, bunlara sahip olacaksınız:
 
 * Ruby çekirdek destekleyicilerine selam vermek ve teşekkür etmek için büyük bir fırsat!!
 (RubyKaigi dünya çapında en fazla Ruby çekirdek destekliyicisinin katılacağı konferans olacak)
-
 * Japon Rubyistlerin sunumlarında ne söylediklerini anlamak için bir fırsat!
- Bu defa Japonca-İngilizce çevirmenler konferans süresince olacak.Dünya'nın her yerinden
- gelen Rubyistler için mükemmel bir ortam sağlayacağız.
- 
+Bu defa Japonca-İngilizce çevirmenler konferans süresince olacak.Dünya'nın her yerinden
+gelen Rubyistler için mükemmel bir ortam sağlayacağız.
 
 ## Daha fazla bilgi için:
 
