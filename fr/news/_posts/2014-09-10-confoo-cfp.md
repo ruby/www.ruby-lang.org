@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title:  "Appel à conférenciers pour ConFoo 2015"
+title: "Appel à conférenciers pour ConFoo 2015"
 author: "ylarrivee"
 translator: "Jean-Denis Vauguet"
-date:   2014-09-10 06:00:00 +0000
-lang:   fr
+date: 2014-09-10 06:00:00 +0000
+lang: fr
 ---
 
 ConFoo est à la recherche de professionnels désireux de partager leur

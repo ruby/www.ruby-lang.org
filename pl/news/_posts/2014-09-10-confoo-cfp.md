@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title:  "ConFoo 2015 poszukuje mówców Rubiego"
+title: "ConFoo 2015 poszukuje mówców Rubiego"
 author: "ylarrivee"
 translator: "crabonature"
-date:   2014-09-10 06:00:00 +0000
-lang:   pl
+date: 2014-09-10 06:00:00 +0000
+lang: pl
 ---
 
 Poszukujemy profesjonalistów Rubiego by podzielili się umiejętnościami i doświadczeniem

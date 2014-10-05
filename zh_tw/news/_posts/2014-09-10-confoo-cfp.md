@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title:  "ConFoo 2015 正尋找 Ruby 講者"
+title: "ConFoo 2015 正尋找 Ruby 講者"
 author: "ylarrivee"
 translator: "Juanito Fatas"
-date:   2014-09-10 06:00:00 +0000
-lang:   zh_tw
+date: 2014-09-10 06:00:00 +0000
+lang: zh_tw
 ---
 
 我們正在尋找 Ruby 的專業人士來 ConFoo 2015 分享經驗與技術。[議程投稿][1]將於 **9 月 22 日**前截止。

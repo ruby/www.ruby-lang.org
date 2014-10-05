@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title:  "ConFoo 2015 Ruby konuşmacıları arıyor"
+title: "ConFoo 2015 Ruby konuşmacıları arıyor"
 author: "ylarrivee"
 translator: "İ. Emre Kutlu"
-date:   2014-09-10 06:00:00 +0000
-lang:   tr
+date: 2014-09-10 06:00:00 +0000
+lang: tr
 ---
 
 Bir sonraki ConFoo'da yeteneklerini ve tecrübelerini paylaşmak üzere Ruby profesyonelleri arıyoruz. **22 Eylül**'e kadar [konuşma önerinizi yollayın][1].
