@@ -104,8 +104,12 @@ heroku open
 You can check 404 and markup with this tasks:
 
 ```
-bundle exec rake check:links # check 404
-bundle exec rake check:markup # check markup for all generated pages
+# check not found and broken link
+bundle exec rake check:links
+# check markup for all generated pages
+bundle exec rake check:markup
+# check markup for this year news pages (faster)
+bundle exec rake check:markup_current_news
 ```
 
 ## More Information

@@ -1,13 +1,11 @@
 # encoding: utf-8
 
-require 'rubygems'
-
 begin
   require 'bundler/setup'
 rescue LoadError => e
   warn e.message
   warn "Run `gem install bundler` to install Bundler"
-  exit -1
+  exit(-1)
 end
 
 HOST = 'www.ruby-lang.org'
@@ -208,6 +206,15 @@ namespace :check do
     options = Jekyll.configuration({'auto' => false, 'server' => false})
     Dir.chdir('_site') do
       system("validate-website-static --site '#{options['url']}/' --quiet")
+      exit($?.exitstatus)
+    end
+  end
+
+  desc 'validate current news markup with validate-website'
+  task :markup_current_news => :generate do
+    options = Jekyll.configuration({'auto' => false, 'server' => false})
+    Dir.chdir('_site') do
+      system("validate-website-static --site '#{options['url']}/' --quiet -p '*/news/#{Time.now.year}/**/*.html'")
       exit($?.exitstatus)
     end
   end
