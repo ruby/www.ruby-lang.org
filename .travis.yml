@@ -12,4 +12,3 @@ deploy:
     rvm: 2.1
     repo: ruby/www.ruby-lang.org
     branch: master
-env: DEV=1
