@@ -28,11 +28,7 @@ Please try to use a mirror that is near you.
 * [Belgium][mirror-http-be] (Easynet)
 * [Denmark][mirror-http-dk] (sunsite.dk)
 * [Holland][mirror-http-nl] (XS4ALL) - only release packages
-* [USA 1][mirror-http-us1] (ibiblio.org)
-* [USA 2][mirror-http-us2] (lcs.mit.edu)
-* [USA 3][mirror-http-us3] (binarycode.org)
-* [USA 4][mirror-http-us4] (online-mirror.org)
-* [USA 5][mirror-http-us5] (trexle.com)
+* [USA][mirror-http-us2] (lcs.mit.edu)
 * [Austria][mirror-http-at] (tuwien.ac.at)
 * [Taiwan 1][mirror-http-tw1] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][mirror-http-tw2] (ftp.cs.pu.edu.tw)
@@ -56,8 +52,7 @@ Please try to use a mirror that is near you.
 * [Russia][mirror-ftp-ru] (ChgNet)
 * [Greece][mirror-ftp-gr] (ntua.gr)
 * [Denmark][mirror-ftp-dk] (sunsite.dk)
-* [USA 1][mirror-ftp-us1] (ibiblio.org)
-* [USA 2][mirror-ftp-us2] (lcs.mit.edu)
+* [USA][mirror-ftp-us2] (lcs.mit.edu)
 * [Austria][mirror-ftp-at] (tuwien.ac.at)
 * [Taiwan 1][mirror-ftp-tw1] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][mirror-ftp-tw2] (ftp.cs.pu.edu.tw)
@@ -84,11 +79,7 @@ Please try to use a mirror that is near you.
 [mirror-http-be]: http://ruby.mirror.easynet.be/
 [mirror-http-dk]: http://mirrors.sunsite.dk/ruby/
 [mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
-[mirror-http-us1]: http://www.ibiblio.org/pub/languages/ruby/
-[mirror-http-us2]: http://xyz.lcs.mit.edu/ruby/
-[mirror-http-us3]: http://www.binarycode.org/ruby/
-[mirror-http-us4]: http://www.online-mirror.org/ruby/
-[mirror-http-us5]: http://ruby.trexle.com/
+[mirror-http-us]: http://xyz.lcs.mit.edu/ruby/
 [mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
 [mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
@@ -108,8 +99,7 @@ Please try to use a mirror that is near you.
 [mirror-ftp-ru]: ftp://ftp.chg.ru/pub/lang/ruby/
 [mirror-ftp-gr]: ftp://ftp.ntua.gr/pub/lang/ruby/
 [mirror-ftp-dk]: ftp://sunsite.dk/mirrors/ruby/
-[mirror-ftp-us1]: ftp://www.ibiblio.org/pub/languages/ruby/
-[mirror-ftp-us2]: ftp://xyz.lcs.mit.edu/pub/ruby/
+[mirror-ftp-us]: ftp://xyz.lcs.mit.edu/pub/ruby/
 [mirror-ftp-at]: ftp://gd.tuwien.ac.at/languages/ruby/
 [mirror-ftp-tw1]: ftp://ruby.cdpa.nsysu.edu.tw/ruby/
 [mirror-ftp-tw2]: ftp://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
