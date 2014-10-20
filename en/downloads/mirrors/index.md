@@ -52,7 +52,7 @@ Please try to use a mirror that is near you.
 * [Russia][mirror-ftp-ru] (ChgNet)
 * [Greece][mirror-ftp-gr] (ntua.gr)
 * [Denmark][mirror-ftp-dk] (sunsite.dk)
-* [USA][mirror-ftp-us2] (lcs.mit.edu)
+* [USA][mirror-ftp-us] (lcs.mit.edu)
 * [Austria][mirror-ftp-at] (tuwien.ac.at)
 * [Taiwan 1][mirror-ftp-tw1] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][mirror-ftp-tw2] (ftp.cs.pu.edu.tw)
