@@ -9,14 +9,14 @@ lang: it
 
 Siamo lieti di annunciare il rilascio di Ruby 2.2.0-preview1.
 
-Ruby 2.2.0-preview1 è la prima preview di Ruby 2.2.
+Ruby 2.2.0-preview1 è la prima preview di Ruby 2.2.0.
 Sono incluse numerose nuove feature e miglioramenti per le sempre più varie
 esigenze di Ruby.
 
 Per esempio il GC dei simboli libera la memoria dei simboli così da diminuire
 l'utilizzo di memoria di questi.
 Questa funzionalità non era presente prima di Ruby 2.2.
-Rails 5.0 richiederà il GC dei simboli e quindi Ruby 2.2
+Rails 5.0 richiederà il GC dei simboli e quindi Ruby 2.2.
 (Vedere [il blog post di Rails](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) per dettagli.)
 
 Inoltre il nuovo GC incrementale diminuisce i tempi di pausa delle garbage
@@ -31,7 +31,7 @@ Divertitevi a programmare con Ruby 2.2.0-preview1!
 * [GC dei simboli](https://bugs.ruby-lang.org/issues/9634)
 * librerie core:
   * supporto di Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * Nuovi metodi:
+  * nuovi metodi:
     * Enumerable#slice_after
     * Float#next_float, Float#prev_float
     * File.birthtime, File#birthtime
@@ -40,13 +40,13 @@ Divertitevi a programmare con Ruby 2.2.0-preview1!
   * aggiornamento Rake 10.3.2+ (e47d0239)
   * aggiornamento RDoc 4.2.0.alpha (21b241a)
   * aggiornamento RubyGems 2.4.1+ (713ab65)
-  * aggiornamento test-unit 3.0.1 (rimosso dal repository CRuby ma fornito in tarball)
-  * aggiornamento minitest 5.4.1 (rimosso dal repository CRuby ma fornito in tarball)
+  * aggiornamento test-unit 3.0.1 (rimosso dal repository ma fornito in tarball)
+  * aggiornamento minitest 5.4.1 (rimosso dal repository ma fornito in tarball)
   * mathn deprecata
 * C API
   * rimosse API deprecate
 
-Si veda [NEWS nel repository ruby (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) per maggiori dettagli.
+Si veda [NEWS nel repository Ruby (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) per maggiori dettagli.
 
 Totale delle modifiche: 1239 file modificati, 98343 aggiunte(+), 61858 rimozioni(-).
 

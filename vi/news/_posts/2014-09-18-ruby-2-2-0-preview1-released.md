@@ -16,7 +16,8 @@ cũng cải tiến tốc độ và các chức năng hiện thời.
 Một ví dụ là với Symbol GC, cải tiến này giúp gom rác Symbol giúp giảm
 bộ nhớ khi sử dụng Symbol; bởi vì GC không thu rác Symbol trước Ruby 2.2.
 Do đó Rails 5 sẽ sử dụng Symbol GC sau khi yêu cầu thấp nhất của phiên
-bản Ruby được đẩy lên Ruby 2.2 hoặc mới hơn. (Xem [bài viết trên Rails blog](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) để biết thêm chi tiết).
+bản Ruby được đẩy lên Ruby 2.2 hoặc mới hơn.
+(Xem [bài viết trên Rails blog](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) để biết thêm chi tiết).
 
 Đồng thời, chức năng GC Tăng dần (Incremental GC) giúp giảm thời gian
 chờ, khá là hiệu quả để chạy cái ứng dụng Rails.
@@ -38,14 +39,13 @@ Hi vọng các bạn sẽ thích bản Ruby 2.2.0-preview1!
   * Nâng cấp Rake 10.3.2+ (e47d0239)
   * Nâng cấp RDoc 4.2.0.alpha (21b241a)
   * Nâng cấp RubyGems 2.4.1+ (713ab65)
-  * Nâng cấp test-unit 3.0.1 (removed from repository but bundled
-in tarball)
+  * Nâng cấp test-unit 3.0.1 (removed from repository but bundled in tarball)
   * Nâng cấp minitest 5.4.1 (removed from repository but bundled in tarball)
   * Deprecate mathn
 * C API
   * Xoá các API bị deprecated
 
-Xem [NEWS trong ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) for detail.
+Xem [NEWS trong Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) for details.
 
 Thông kê thay đổi, 1239 files thay đổi, 98343 thêm vào(+), 61858 xoá đi(-).
 

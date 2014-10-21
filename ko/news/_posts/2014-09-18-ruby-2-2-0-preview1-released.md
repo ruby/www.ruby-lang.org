@@ -39,13 +39,12 @@ lang: ko
   * Update RDoc 4.2.0.alpha (21b241a)
   * Update RubyGems 2.4.1+ (713ab65)
   * Update test-unit 3.0.1 (저장소에서는 지워지지만 tarball에는 포함됩니다)
-in tarball)
   * Update minitest 5.4.1 (저장소에서는 지워지지만 tarball에는 포함됩니다)
   * mathn을 비추천(Deprecate)으로 변경
 * C API
   * 비추천 상태인 API들을 삭제함
 
-자세한 정보는 [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)를 확인해 주세요.
+자세한 정보는 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)를 확인해 주세요.
 
 이 변경으로 1239 파일이 변경되었으며, 98343 줄이 추가(+)되고, 61858이 삭제(-)되었습니다.
 

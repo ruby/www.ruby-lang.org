@@ -45,7 +45,7 @@ Miłego programowania z Rubim 2.2.0-preview1!
 * C API
   * Usunięcie przestarzałych API
 
-Zobacz [Wiadomości w repozytorium Rubiego(WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) po szczegóły.
+Zobacz [Wiadomości w repozytorium Rubiego (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) po szczegóły.
 
 Z tymi zmianami, 1239 zmienionych plików, 98343 wstawień(+), 61858 usunięć(-).
 
