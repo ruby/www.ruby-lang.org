@@ -12,8 +12,8 @@ Siamo lieti di annunciare il rilascio di Ruby 2.0.0-p576 che celebra il
 
 Questa release include molti bugfix come:
 
-* numerosi fix di memory leak e uso eccessivo di memoria.
-* numerosi fix di problemi platform-specific (specialmente nel processo di build).
+* numerosi fix di memory leak e uso eccessivo di memoria,
+* numerosi fix di problemi platform-specific (specialmente nel processo di build),
 * numerosi fix alla documentazione.
 
 Vedere [i ticket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)

@@ -7,7 +7,8 @@ date: 2014-09-19 12:00:00 +0000
 lang: zh_tw
 ---
 
-很高興宣佈我們發佈了 Ruby 2.0.0-p576，以此慶祝正在日本舉行的 [RubyKaigi2014](http://rubykaigi.org/2014) 大會。
+很高興宣佈我們發佈了 Ruby 2.0.0-p576，以此慶祝正在日本舉行的
+[RubyKaigi2014](http://rubykaigi.org/2014) 大會。
 
 本次發佈包含了許多錯誤修正，像是：
 
