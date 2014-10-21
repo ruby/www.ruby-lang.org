@@ -8,7 +8,7 @@ lang: it
 ---
 
 Siamo lieti di annunciare il rilascio di Ruby 2.0.0-p576 che celebra il
-[RubyKaigi2014](http://rubykaigi.org/2014 che si sta tenendo ora in Giappone.
+[RubyKaigi2014](http://rubykaigi.org/2014) che si sta tenendo ora in Giappone.
 
 Questa release include molti bugfix come:
 
