@@ -53,4 +53,3 @@ para más detalles.
 Varios contribuidores, desarrolladores y usuarios, con sus reportes de errores,
 ayudaron a hacer posible esta entrgea.
 Muchas gracias por sus aportaciones.
-

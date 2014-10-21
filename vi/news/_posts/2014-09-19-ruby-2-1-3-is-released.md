@@ -7,9 +7,12 @@ date: 2014-09-19 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh thông báo về việc phiên bản 2.1.3 chính thức được ra mắt. Đây là một phiên bản vá nằm trong chuỗi các phiên bản ổn định của Ruby 2.1.
+Chúng tôi hân hạnh thông báo về việc phiên bản 2.1.3 chính thức được ra mắt.
+Đây là một phiên bản vá nằm trong chuỗi các phiên bản ổn định của Ruby 2.1.
 
-Phiên bản lần này bao gồm thay đổi ở full GC timing nhằm giảm thiểu việc tiêu tốn bộ nhớ (xem thêm ở [Bug #9607](https://bugs.ruby-lang.org/issues/9607)), và nhiều lỗi được sửa khác.
+Phiên bản lần này bao gồm thay đổi ở full GC timing nhằm giảm thiểu việc tiêu
+tốn bộ nhớ (xem thêm ở [Bug #9607](https://bugs.ruby-lang.org/issues/9607)),
+và nhiều lỗi được sửa khác.
 
 Vui lòng xem thêm tại [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
@@ -48,5 +51,6 @@ và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
 
 ## Chú thích
 
-Nhiều lập trình viên, người dùng cung cấp các báo cáo về lỗi đã giúp chúng tôi ra mắt phiên bản này.
+Nhiều lập trình viên, người dùng cung cấp các báo cáo về lỗi đã giúp chúng tôi
+ra mắt phiên bản này.
 Xin cảm ơn tất cả về những đóng góp đáng quý đó.
