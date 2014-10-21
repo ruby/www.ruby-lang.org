@@ -7,7 +7,7 @@ date: 2014-09-19 12:00:00 +0000
 lang: es
 ---
 
-Estamos complacidos en anunciar la liberación de Ruby 2.1.3
+Estamos complacidos en anunciar la liberación de Ruby 2.1.3.
 Este es un parche de la versión estable 2.1.
 
 Esta liberación contiene un cambio en la sincronización del GC que reduce el consumo de memoria
@@ -50,6 +50,7 @@ para más detalles.
 
 ## Comentarios de la entrega
 
-Varios contribuidores, desarrolladores y usuarios, con sus reportes de errores, ayudaron a hacer posible esta entrgea.
+Varios contribuidores, desarrolladores y usuarios, con sus reportes de errores,
+ayudaron a hacer posible esta entrgea.
 Muchas gracias por sus aportaciones.
 
