@@ -26,7 +26,7 @@ EarlyBird biletler şuan açık ve sınırlı.Çabuk ol!
 
 [http://rubykaigi.doorkeeper.jp/events/12215](http://rubykaigi.doorkeeper.jp/events/12215)
 
-Ruby çekirdek destekleyicileri EarlyBird biletleri indirimli alabilirler (JPY 18,000||TL 372.11). Bu sizin
+Ruby çekirdek destekleyicileri EarlyBird biletleri indirimli alabilirler (JPY 18,000/TL 372.11). Bu sizin
 [Ruby repolarından 2.0.0-p0 ile 2.1.0-p0 arası yaptığınız commit sayısına](https://gist.github.com/snoozer05/ca9860c57683e4221d10)
 bağlı olarak değişmekte:
 
