@@ -7,13 +7,14 @@ date: 2014-09-19 12:00:00 +0000
 lang: en
 ---
 
-We are pleased to announce the release of Ruby 2.0.0-p576, to celebrate the holding of [RubyKaigi2014](http://rubykaigi.org/2014) in Japan now.
+We are pleased to announce the release of Ruby 2.0.0-p576, to celebrate the
+holding of [RubyKaigi2014](http://rubykaigi.org/2014) in Japan now.
 
 This release includes many bugfixes, such as:
 
-* many fixes of memory leaks and using extra memory.
-* many fixes of platform-specific issues (especially in build process).
-* many document fixes.
+* many fixes of memory leaks and using extra memory,
+* many fixes of platform-specific issues (especially in build process),
+* many documentation fixes.
 
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) for details.
