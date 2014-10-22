@@ -18,9 +18,9 @@ Bookmarks. Wer auf der Suche nach neuen, interessanten Links ist, sollte
 sich den [ruby][1]-Tag anschauen. Für aktuelle Trends kann die
 [Popularitätsskala][2] im Allgemeinen von Interesse sein.
 
-**Aggregatoren**\: [Ruby Corner][4], [Planet Ruby][5], [Planet Ruby on
-Rails][6] und andere Seiten sammeln Ruby-Beiträge aus Blogs und
-bereiten sie zur besseren Lesbarkeit auf.
+**Aggregatoren**\: [Ruby Corner][4], [Planet Ruby][5],
+[PlanetRubyOnRails.com][6] und andere Seiten sammeln Ruby-Beiträge aus
+Blogs und bereiten sie zur besseren Lesbarkeit auf.
 
 ### Erwähnenswerte Blogs
 
@@ -60,7 +60,7 @@ Thema. Wer interessanten Code findet, sollte sich dort melden.
 [2]: http://del.icio.us/popular/ruby
 [4]: http://rubycorner.com
 [5]: http://planetruby.0x42.net/
-[6]: http://www.planetrubyonrails.org/
+[6]: http://www.planetrubyonrails.com/
 [7]: http://www.rubyist.net/~matz/
 [8]: http://www.ruby-mine.de/
 [9]: http://www.rubyinside.com/

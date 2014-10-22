@@ -18,9 +18,9 @@ ligações. Veja o etiqueta [ruby][1] para descobrir ligações obscuras e o
 seu [gráfico de popularidade][2] para entradas recentes na comunidade
 Ruby.
 
-**Agregadores**\: [Ruby Corner][4], [Planet Ruby][5], e [Planet Ruby on
-Rails][6] estão entre os sites que agregam grupos de blogs sobre Ruby
-para leitura cómoda.
+**Agregadores**\: [Ruby Corner][4], [Planet Ruby][5],
+e [PlanetRubyOnRails.com][6] estão entre os sites que agregam grupos de
+blogs sobre Ruby para leitura cómoda.
 
 ### Blogs Notáveis
 
@@ -57,7 +57,7 @@ brilhante, tenha a certeza que os informou!
 [2]: http://del.icio.us/popular/ruby "gráfico de popularidade"
 [4]: http://rubycorner.com "Ruby Corner"
 [5]: http://planetruby.0x42.net/ "Planet Ruby"
-[6]: http://www.planetrubyonrails.org/ "Planet Ruby on Rails"
+[6]: http://www.planetrubyonrails.com/ "Planet Ruby on Rails"
 [7]: http://oreillynet.com/ruby/ "O'Reilly Ruby"
 [8]: http://weblog.rubyonrails.org/ "Riding Rails"
 [9]: http://www.rubyinside.com/ "Ruby Inside"

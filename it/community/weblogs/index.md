@@ -15,7 +15,6 @@ oramai attivi da anni. Eccone alcuni che contengono contenuti rilevanti:
 
 * [Ruby Corner][4]
 * [Planet Ruby][5]
-* [PlanetRubyOnRails.org][6]
 * [PlanetRubyOnRails.com][7]
 
 ### Blog degni di nota
@@ -52,7 +51,6 @@ di codice particolarmente brillanti, assicurati di farglielo sapere!
 
 [4]: http://rubycorner.com
 [5]: http://planetruby.0x42.net/
-[6]: http://www.planetrubyonrails.org/
 [7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/

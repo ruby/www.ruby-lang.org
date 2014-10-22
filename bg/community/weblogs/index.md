@@ -13,8 +13,8 @@ lang: bg
 таговете на del.icio.us, популярен сайт за споделяне на връзки. Следете
 [ruby][1] тага.
 
-**Хранилки**\: [Ruby Corner][3], [Planet Ruby][4], [Planet RubyOnRails
-.org][5], и [PlanetRubyOnRails .com][6] са сайтове, които събират на
+**Хранилки**\: [Ruby Corner][3], [Planet Ruby][4],
+и [PlanetRubyOnRails.com][6] са сайтове, които събират на
 едно място статии от различни източници ( като блогове ) за улеснено
 четене.
 
@@ -45,7 +45,6 @@ mitko.kostov@gmail.com ).
 [1]: http://del.icio.us/tag/ruby
 [3]: http://rubycorner.com
 [4]: http://planetruby.0x42.net/
-[5]: http://www.planetrubyonrails.org/
 [6]: http://www.planetrubyonrails.com/
 [7]: http://weblog.rubyonrails.org/
 [8]: http://www.rubyinside.com/

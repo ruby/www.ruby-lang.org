@@ -17,7 +17,6 @@ lang: ko
 
 * [Ruby Corner][4](영문)
 * [Planet Ruby][5](영문)
-* [PlanetRubyOnRails.org][6](영문)
 * [PlanetRubyOnRails.com][7](영문)
 
 ### 주목할만한 블로그들
@@ -48,7 +47,6 @@ lang: ko
 
 [4]: http://rubycorner.com
 [5]: http://planetruby.0x42.net/
-[6]: http://www.planetrubyonrails.org/
 [7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/

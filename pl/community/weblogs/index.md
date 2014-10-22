@@ -18,9 +18,9 @@ popularnym serwisie dzielenia się linkami. Obserwuj tag [ruby][1] i
 [najpopularniejszą listę][2] aby zauważyć nowości w społeczności Rubiego
 na całym świecie.
 
-**Agregatory**\: [Ruby Corner][4], [Planet Ruby][5], oraz [Planet Ruby
-on Rails][6] to serwisy gromadzące grupy blogów na temat Rubiego w celu
-łatwiejszego czytania.
+**Agregatory**\: [Ruby Corner][4], [Planet Ruby][5],
+oraz [PlanetRubyOnRails.com][6] to serwisy gromadzące grupy blogów na
+temat Rubiego w celu łatwiejszego czytania.
 
 ### Blogi Godne Polecenia
 
@@ -48,7 +48,7 @@ kodu, pamiętaj aby ich o tym poinformować ! :)
 [2]: http://del.icio.us/popular/ruby
 [4]: http://rubycorner.com
 [5]: http://planetruby.0x42.net/
-[6]: http://www.planetrubyonrails.org/
+[6]: http://www.planetrubyonrails.com/
 [7]: http://oreillynet.com/ruby/
 [8]: http://weblog.rubyonrails.org/
 [9]: http://www.rubyinside.com/
