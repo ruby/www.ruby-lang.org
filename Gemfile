@@ -5,7 +5,7 @@ gem 'rake',   '~> 10.0'
 gem 'jekyll', '~> 1.0'
 gem 'kramdown'
 
-gem 'passenger'
+gem 'unicorn'
 gem 'rack-jekyll'
 gem 'rack-rewrite'
 gem 'rack-protection'
