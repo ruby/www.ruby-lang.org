@@ -39,7 +39,7 @@ Also many thanks to the organizations that support us:
  * [IIJ][iij] (hosting),
  * [GlobalSign][globalsign] (SSL certification),
  * [Fastly][fastly] (CDN).
- * [Hatena][hatena] ([mackerel](mackerel), Server monitoring)
+ * [Hatena][hatena] ([mackerel][mackerel], Server monitoring)
 
 
 [logo]: /en/about/logo/

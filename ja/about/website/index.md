@@ -38,7 +38,7 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
  * [IIJ][iij] (ホスティング)
  * [GlobalSign][globalsign] (SSL 証明書)
  * [Fastly][fastly] (CDN)
- * [Hatena][hatena] ([mackerel](mackerel), サーバー監視)
+ * [Hatena][hatena] ([mackerel][mackerel], サーバー監視)
 
 
 [logo]: /ja/about/logo/
