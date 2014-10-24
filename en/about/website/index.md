@@ -39,6 +39,7 @@ Also many thanks to the organizations that support us:
  * [IIJ][iij] (hosting),
  * [GlobalSign][globalsign] (SSL certification),
  * [Fastly][fastly] (CDN).
+ * [Hatena][hatena] ([mackerel](mackerel), Server monitoring)
 
 
 [logo]: /en/about/logo/
@@ -53,3 +54,5 @@ Also many thanks to the organizations that support us:
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[hatena]: http://hatenacorp.jp/
+[mackerel]: https://mackerel.io/
