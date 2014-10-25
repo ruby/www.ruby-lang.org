@@ -18,7 +18,8 @@ So ist der neue Symbol-GC etwa in der Lage, auch Symbole einzusammeln,
 wodurch der Speicherverbrauch von Symbolen reduziert wird, da der GC
 dazu bisher nicht in der Lage war. Rails 5.0 wird den Symbol-GC sogar
 erfordern, demzufolge lediglich Ruby 2.2 oder neuer unterstützen
-(siehe für mehr Informationen den entsprechenden [Rails-Blogpost](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)).
+(siehe für mehr Informationen den entsprechenden
+[Rails-Blogpost](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)).
 
 Darüberhinaus verringert ein neuer inkrementeller GC die zur Garbage
 Collection erforderliche Pause. Auch dies ist beim Betrieb von
@@ -47,9 +48,8 @@ Viel Spaß bei der Programmierung mit Ruby 2.2.0-preview1!
 * C-API
   * Veraltete APIs entfernt
 
-Siehe die [NEWS im Ruby-Repository (in
-Arbeit)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) für
-weitere Informationen.
+Siehe die [NEWS im Ruby-Repository (in Arbeit)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)
+für weitere Informationen.
 
 Diese Änderungen schlagen sich nieder in 1239 geänderten Dateien,
 98343 Einfügungen(+), 61858 Löschungen(-).
@@ -81,6 +81,6 @@ Diese Änderungen schlagen sich nieder in 1239 geänderten Dateien,
 
 * [2.2.0 bekannte Probleme](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
-Siehe also den Veröffentlichungsplan und andere Informationen:
+Siehe auch den Veröffentlichungsplan und andere Informationen:
 
 [ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

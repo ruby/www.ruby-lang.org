@@ -13,12 +13,10 @@ Veröffentlichung von Ruby 2.0.0-p576 ankündigen zu können.
 
 Diese Veröffentlichung enthält viele Fehlerkorrekturen, etwa:
 
-* Viele Korrekturen von Speicherlöchern und zu viel genutztem Speicher
-* Viele Korrekturen von plattformspezifischen Problemen (insbesondere
-  im Bauvorgang)
-* Viele Dokumentationsberichtigungen
-
-
+* viele Korrekturen von Speicherlöchern und zu viel genutztem Speicher,
+* viele Korrekturen von plattformspezifischen Problemen
+  (insbesondere im Bauvorgang),
+* viele Dokumentationsberichtigungen.
 
 Siehe [die Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 und [das ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog)
