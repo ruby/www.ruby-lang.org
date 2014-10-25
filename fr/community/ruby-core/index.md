@@ -98,10 +98,9 @@ Pour résumer, les grandes étapes pour proposer un patch sont :
 diff*][11]. Pour plus d’informations sur les patchs, leur devenir, voyez
 [*the diffutils reference*][12].
 
-Les discussions portant sur le développement de Ruby sont toutes
-regroupées sur la [liste de diffusion
-Ruby-Core](/en/community/mailing-lists/). Donc, si vous êtes
-curieux du devenir de votre patch, ou si vous voulez lancer une
+Les discussions portant sur le développement de Ruby sont toutes regroupées
+sur la [liste de diffusion Ruby-Core][mailing-lists]. Donc, si vous
+êtes curieux du devenir de votre patch, ou si vous voulez lancer une
 discussion sur le futur de Ruby, n’hésitez pas à venir y faire un tour.
 Prenez garde à ne pas lancer des hors-sujets, ils ne sont pas tolérés
 sur cette liste dont le niveau de bruit doit rester très bas. Les sujets
@@ -137,6 +136,7 @@ Les développeurs de Ruby devraient évidemment être à l’aise avec le code s
 
 
 
+[mailing-lists]: /fr/community/mailing-lists/
 [1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [2]: http://subversion.apache.org/faq.html
 [3]: http://svnbook.org

@@ -92,7 +92,7 @@ werden. Wer mehr über das Zusammenführen (Merge) der Patches wissen will,
 sollte sich die [diffutils-Referenz][11] ansehen.
 
 Diskussionen zum Thema Ruby-Entwicklung werden in der
-[Ruby-Core-Mailingliste](/de/community/mailing-lists/) gebündelt.
+[Ruby-Core-Mailingliste][mailing-lists] gebündelt.
 Wer herausfinden will, ob sein Patch Sinn macht oder nur eine Diskussion
 über die Zukunft von Ruby anfangen will, sollte nicht zögern an Bord zu
 kommen. Es wird an dieser Stelle davor gewarnt, Off-Topic Diskussionen
@@ -133,6 +133,7 @@ werden:
 
 
 
+[mailing-lists]: /de/community/mailing-lists/
 [1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [2]: http://subversion.apache.org/faq.html
 [3]: http://svnbook.org

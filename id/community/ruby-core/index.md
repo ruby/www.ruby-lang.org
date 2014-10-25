@@ -60,8 +60,8 @@ Subversion][5] sebagai buku yang berguna untuk pengenalan svn.
 
 Rubyforge mempunyai [bug tracker][6] dengan submit patch dan bug report
 (laporan adanya bug) ke Matz dan rekan-rekan lainnya (Developer Ruby
-Core). Laporan-laporan ini juga di submit ke [milis
-Ruby-Core](/id/community/mailing-lists/) untuk didiskusikan,
+Core). Laporan-laporan ini juga di submit ke
+[milis Ruby-Core][mailing-lists] untuk didiskusikan,
 jadi Anda bisa mengkonfirmasi terlebih dahulu apakah permintaan Anda
 akan diperhatikan atau tidak. Anda juga bisa mengirim patch langsung ke
 milis. Anda diharapkan untuk berpartisipasi aktif dalam diskusi
@@ -86,8 +86,7 @@ berikut:
 
          $ svn diff > ruby-changes.patch
 
-4.  Email patch Anda ke [milis
-    Ruby-Core](/id/community/mailing-lists/) dengan entri
+4.  Email patch Anda ke [milis Ruby-Core][mailing-lists] dengan entri
     ChangeLog yang menjelaskan patch.
 5.  Jika tidak ada masalah dengan patch, maka para committer akan
     melakukan patch tersebut.
@@ -96,9 +95,9 @@ berikut:
 Untuk mengetahui lebih lanjut tentang bagaimana patch digabungkan
 (*merge*), lihat [the diffutils reference][8].
 
-Diskusi tentang pengembangan Ruby dibicarakan di [milis
-Ruby-Core](/id/community/mailing-lists/). Jadi kalau Anda
-penasaran apakah patch Anda berguna atau tidak atau bila Anda ingin
+Diskusi tentang pengembangan Ruby dibicarakan di
+[milis Ruby-Core][mailing-lists]. Jadi kalau Anda penasaran
+apakah patch Anda berguna atau tidak atau bila Anda ingin
 memulai diskusi tentang masa depan Ruby, jangan sungkan untuk datang
 kemari. Jangan mempost hal-hal di luar topik (OOT) karena milis ini
 adalah milis serius. Mari kita menjaga sopan santun karena kita
@@ -134,6 +133,7 @@ Subversion:
 
 
 
+[mailing-lists]: /id/community/mailing-lists/
 [1]: http://subversion.apache.org/
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html

@@ -107,8 +107,8 @@ Para resumir, os passos para criar um *patch* são:
 Para saber mais sobre como os patches são fundidos ver o [manual do
 diffutils][9].
 
-A discussão do desenvolvimento do Ruby converge na [lista de correio
-Ruby-Core](/pt/community/mailing-lists/). Por isso, se está curioso
+A discussão do desenvolvimento do Ruby converge na
+[lista de correio Ruby-Core][mailing-lists]. Por isso, se está curioso
 se o seu *patch* vale a pena ou deseja animar uma discussão sobre o
 futuro do Ruby, não se faça de hesite e entre a bordo. Avisa-se desde já
 que que conversas fora do contexto não são toleradas nesta lista. Os
@@ -147,6 +147,7 @@ quando submeter código no repositório CVS:
 
 
 
+[mailing-lists]: /pt/community/mailing-lists/
 [1]: /cgi-bin/cvsweb.cgi/ "repositório CVS do Ruby via web"
 [2]: http://www.nongnu.org/cvs/cvs.html
 [3]: http://ximbiot.com/cvs/wiki/index.php?title=Main_Page

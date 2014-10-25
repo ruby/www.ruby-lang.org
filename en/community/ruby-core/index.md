@@ -70,8 +70,8 @@ and [everybody else][9].
 
 The core team maintains an [issue tracker][10] for submitting patches and
 bug reports to Matz and the gang. These reports also get submitted to
-the [Ruby-Core mailing list](/en/community/mailing-lists/) for
-discussion, so you can be sure your request won’t go unnoticed. You can
+the [Ruby-Core mailing list][mailing-lists] for discussion,
+so you can be sure your request won’t go unnoticed. You can
 also send your patches straight to the mailing list. Either way, you are
 encouraged to take part in the discussion that ensues.
 
@@ -98,9 +98,8 @@ To summarize, the steps for building a patch are:
 
         $ svn diff > ruby-changes.patch
 
-4.  Create a ticket in the [issue tracker][10] or
-    email your patch to the [Ruby-Core mailing
-    list](/en/community/mailing-lists/) with a ChangeLog entry
+4.  Create a ticket in the [issue tracker][10] or email your patch to
+    the [Ruby-Core mailing list][mailing-lists] with a ChangeLog entry
     describing the patch.
 
 5.  If there are no issues raised about the patch, committers will be
@@ -109,8 +108,8 @@ To summarize, the steps for building a patch are:
 **Please note:** patches should be submitted as a [unified diff][12].
 For more on how patches are merged, see [the diffutils reference][13].
 
-Discussion of Ruby’s development converges on the [Ruby-Core mailing
-list](/en/community/mailing-lists/). So, if you are curious
+Discussion of Ruby’s development converges on the
+[Ruby-Core mailing list][mailing-lists]. So, if you are curious
 about whether your patch is worthwhile or you want to spark a discussion
 about Ruby’s future, don’t hesitate to come aboard. Be warned that
 off-topic discussions are not tolerated on this list, the noise level
@@ -147,6 +146,7 @@ See also the information in [Ruby’s issue tracker][10].
 
 
 
+[mailing-lists]: /en/community/mailing-lists/
 [1]: http://subversion.apache.org/
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html

@@ -67,8 +67,8 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 {: #patching-ruby}
 
 코어 팀은 패치나 버그 리포트를 [이슈 트랙커][10]에서
-관리하고 있습니다. 이 리포트들은 토론을 위해 [Ruby-Core 메일링
-리스트](/ko/community/mailing-lists/)에도 등록됩니다. 그러므로 당신의 리퀘스트가
+관리하고 있습니다. 이 리포트들은 토론을 위해
+[Ruby-Core 메일링 리스트][mailing-lists]에도 등록됩니다. 그러므로 당신의 리퀘스트가
 공지되지 않을 염려는 없습니다. 또한, 메일링 리스트에 직접 패치를 보낼 수도
 있습니다. 어떤 방식을 사용하셔도, 계속 토론에 참여하시는 것이 좋습니다.
 
@@ -95,17 +95,17 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 
         $ svn diff > ruby-changes.patch
 
-4.  [이슈 트랙커][10]에 티켓을 만들거나 [Ruby-Core 메일링
-    리스트](/ko/community/mailing-lists/)에 패치와 패치를 설명한 ChangeLog를 함께
-    메일로 보냅니다.
+4.  [이슈 트랙커][10]에 티켓을 만들거나
+    [Ruby-Core 메일링 리스트][mailing-lists]에 패치와 패치를 설명한
+    ChangeLog를 함께 메일로 보냅니다.
 
 5.  패치에 대한 이의가 없으면 커미터들이 적용을 승인해 줄 것입니다.
 
 **주의사항:** 패치는 [unified diff][12]로 등록되어야 합니다. 패치의 머지에 관한
 더 자세한 정보는 [the diffutils reference][13]를 확인해 주세요.
 
-루비 개발에 관한 토론들은 [Ruby-Core 메일링
-리스트](/ko/community/mailing-lists/)에 모여집니다. 그러므로 당신의 패치가 가치
+루비 개발에 관한 토론들은 [Ruby-Core 메일링 리스트][mailing-lists]에
+모여집니다. 그러므로 당신의 패치가 가치
 있는지 알고 싶거나, 루비의 미래에 관한 토론을 하고 싶으시면 망설이지 말고
 참여하세요. 주제와 관련 없거나 논란을 일으킬만한 토론은 허용되지 않습니다.
 주제는 명확해야 하고 잘 생각해서 잘 쓰여야 합니다. 우리는 루비의 창조자에게 말을
@@ -137,6 +137,7 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 
 
 
+[mailing-lists]: /ko/community/mailing-lists/
 [1]: http://subversion.apache.org/
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html

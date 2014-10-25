@@ -70,8 +70,8 @@ và [tất cả những người khác][9].
 
 Nhóm phát triển Ruby Core luôn theo dõi [các vấn đề phát sinh (issue
 tracker)][10] để gửi các bản vá lỗi và các báo cáo bug cho Matz và các cộng sự
-của ông. Các bản báo cáo này cũng được gửi vào [Hộp thư chung của
-Ruby-Core](/en/community/mailing-lists/) để thảo luận, do đó đừng lo về việc
+của ông. Các bản báo cáo này cũng được gửi vào
+[Hộp thư chung của Ruby-Core][mailing-lists] để thảo luận, do đó đừng lo về việc
 yêu cầu của bạn sẽ không được chú ý.  Bạn cũng có thề gửi các bản vá lỗi vào
 thẳng hộp thư chung.  Bằng cách này hay cách khác thì bạn cũng được khuyến
 khích tham gia vào các cuộc thảo luận.
@@ -100,7 +100,7 @@ Dưới đây là một số bước để tạo được một bản vá lỗi:
         $ svn diff > ruby-changes.patch
 
 4.  Tạo một ticket trong [issue tracker][10] hoặc gửi bản vá của bạn đến
-    [hộp thư chung của Ruby-Core](/en/community/mailing-lists/) với ChangeLog
+    [hộp thư chung của Ruby-Core][mailing-lists] với ChangeLog
     mô tả nội dung về bản vá đó.
 
 5.  Nếu bản vá không phát sinh thêm lỗi nào thì những người được phép commit
@@ -110,7 +110,7 @@ Dưới đây là một số bước để tạo được một bản vá lỗi:
 Để biết các bản vá được merged như thế nào, xem thêm [the diffutils reference][13].
 
 Các cuộc thảo luận về phát triển Ruby tập trung ở
-[hộp thư chung của Ruby-Core](/en/community/mailing-lists/).
+[hộp thư chung của Ruby-Core][mailing-lists].
 Do đó, nếu bạn muốn biết bản vá của mình có đáng giá hay không hoặc bạn chỉ
 muốn thảo luận về tương lai của Ruby, đừng ngại cùng thảo luận.  Tất cả các
 cuộc thảo luận không liên quan đến Ruby đều không được chấp nhận, các cuộc
@@ -144,6 +144,7 @@ Xem thêm thông tin về [Ruby’s issue tracker][10].
 
 
 
+[mailing-lists]: /vi/community/mailing-lists/
 [1]: http://subversion.apache.org/
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
