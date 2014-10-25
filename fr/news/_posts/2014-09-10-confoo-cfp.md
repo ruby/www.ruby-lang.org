@@ -23,7 +23,7 @@ d'une grande communauté de développeurs.
   *Hilton Bonaventure*.
 * Nous prenons en charge la plupart des frais pour les conférenciers :
   transport, séjour, repas, entrée de pleins droits à la conférence, etc.
-* Les présentations se font sur un format de 35 mn + 10 mn de questions, et
+* Les présentations se font sur un format de 35 min + 10 min de questions, et
   peuvent avoir lieu aussi bien en anglais qu'en français.
 * ConFoo se veut la plus accueillante possible. Si vous avez des choses à
   raconter, n'hésitez pas !

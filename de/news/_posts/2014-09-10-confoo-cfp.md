@@ -20,7 +20,7 @@ Seiten von Gemeinschaft und Kultur erarbeitet hat.
 
  * Die ConFoo 2015 wird vom 18. bis zum 20. Februar im Hilton Bonaventure Hotel in Montreal stattfinden.
  * Wir kümmern und sorgfältig um unsere Referenten, indem wir die meisten Kosten wie etwa Anreise, Unterkunft, Verpflegung, Gesamtkonferenzticket, etc. übernehmen.
- * Die Vorträge dauern jeweils 35min + 10min für Fragen und können in Englisch oder Französisch gehalten werden.
+ * Die Vorträge dauern jeweils 35 min + 10 min für Fragen und können in Englisch oder Französisch gehalten werden.
  * Die ConFoo ist eine offene Umgebung, in der jeder eingeladen ist,
    Vorschläge einzureichen. Sie sind fähig und freundlich? Kommen Sie zu uns.
 

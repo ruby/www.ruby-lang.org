@@ -18,7 +18,7 @@ topics, and experiencing the best of community and culture.
 
  * ConFoo 2015 will be hosted on February 18th-20th in Montreal, at the Hilton Bonaventure Hotel.
  * We take good care of our speakers by covering most expenses including travel, accommodation, lunch, full conference ticket, etc.
- * Presentations are 35min + 10min for questions, and may be delivered in English or French.
+ * Presentations are 35 min + 10 min for questions, and may be delivered in English or French.
  * ConFoo is an open environment where everyone is welcome to submit. Are you skilled and friendly? Come join us.
 
 If you would simply prefer to attend the conference, we have a
