@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-preview1 veröffentlicht"
+title: "Ruby 2.2.0-preview1 veröffentlicht"
 author: "naruse"
 translator: "Quintus"
 date: 2014-09-18 09:00:00 +0000
 lang: de
 ---
 
-Wir sind erfreut, die Veröffentlichung von Ruby 2.0.0-preview1
+Wir sind erfreut, die Veröffentlichung von Ruby 2.2.0-preview1
 ankündigen zu können.
 
 Ruby 2.2.0-preview1 ist die erste Vorschau auf Ruby 2.2.0. Sie enthält
