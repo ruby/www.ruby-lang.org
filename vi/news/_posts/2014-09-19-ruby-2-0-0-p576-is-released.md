@@ -7,12 +7,14 @@ date: 2014-09-19 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh thông báo phát hành Ruby 2.0.0-p576 để chào mừng việc tổ chức [RubyKaigi2014](http://rubykaigi.org/2014) tại Nhật Bản.
+Chúng tôi hân hạnh thông báo phát hành Ruby 2.0.0-p576 để chào mừng
+việc tổ chức [RubyKaigi2014](http://rubykaigi.org/2014) tại Nhật Bản.
 
 Lần phát hành này bao gồm nhiều bản sửa lỗi, chẳng hạn như:
 
-* các bản sửa lỗi về rò rỉ bộ nhớ (memory leaks) và sử dụng nhiều bộ nhớ (extra memory).
-* các bản sửa lỗi đi sâu vào nền tảng (platform-specific issue) - đặc biệt là trong quá trình xây dựng (build process).
+* các bản sửa lỗi về rò rỉ bộ nhớ (memory leaks) và sử dụng nhiều bộ nhớ (extra memory),
+* các bản sửa lỗi đi sâu vào nền tảng (platform-specific issue) - đặc biệt
+  là trong quá trình xây dựng (build process),
 * sửa các lỗi về tài liệu.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
