@@ -5,60 +5,47 @@ lang: en
 ---
 
 Here follow some tips, straight from Matz, on how to get
-your patches considered. They were originally
-[posted on the Ruby-Core mailing list][ruby-core-post].
+your patches considered.
 {: .summary}
 
-~~~
-Subject: [ruby-core:25139] Patch writer's guide to submit
-From: Yukihiro Matsumoto <matz ruby-lang.org>
-Date: Wed, 26 Aug 2009 22:06:22 +0900
-~~~
+These guidelines were adopted from a [post by Matz][ruby-core-post]
+on the Ruby-Core mailing list:
 
-Hi,
-
-Sometimes we laze core developers have procrastinated to review
-submitted patches, been late to merge patchs, and frustrated
-submitters. That's unfortunate for both side.
-Here's the guideline to avoid such miscommunication.
-
-* one modification per a patch
+* Implement one modification per patch
 
   This is the biggest issue for most deferred patches. When you
-  submit a patch that fix multiple bugs (and add features) at once,
-  we have to separate them before applying it. It is kinda hard task
-  for us, busy developers, so this kind of patches tend to be deferred.
+  submit a patch that fixes multiple bugs (and adds features) at once,
+  we have to separate them before applying it. It is a rather hard task
+  for us busy developers, so this kind of patches tends to be deferred.
   No big patches please.
 
-* more description
+* Provide descriptions
 
-  Sometimes mere patches do not describe problems that fix.
-  Better description (a problem that fix, precondition, platform, etc.)
+  Sometimes a mere patch does not sufficiently describe the problem it fixes.
+  A better description (the problem it fixes, preconditions, platform, etc.)
   would help a patch to be merged earlier.
 
-* diff to the latest
+* Diff to the latest revision
 
-  Your problem might have been fixed in the latest. Or the code
-  might be totally different. Before submitting a patch, try fetch
-  the latest (`trunk` for 1.9, `ruby_1_8` for 1.8) from Subversion,
-  please.
+  Your problem might have been fixed in the latest revision. Or the code
+  might be totally different by now. Before submitting a patch, try to fetch
+  the latest version (the `trunk` branch for 2.1, `ruby_2_0_0` for 2.0.0)
+  from the Subversion repository, please.
 
-* `diff -u`
+* Use `diff -u`
 
-  We perefer `diff -u` style unified diff patches to `diff -c` or
-  any other style of patches. They are far easier to review.
-  Do not send modifed files, we don't want to make diff by ourselves.
+  We prefer `diff -u` style unified diff patches to `diff -c`
+  or any other style of patches. They are far easier to review.
+  Do not send modified files, we do not want to make a diff by ourselves.
 
-* (optional) test cases
+* Provide test cases (optional)
 
-  a patch to test cases (preferably in a patch to `test/*/test_*.rb`)
+  A patch providing test cases (preferably a patch to `test/*/test_*.rb`)
   would help us understand the patch and your intention.
 
-We might move to git style push/pull in the future. But until then,
-the above guideline would help you to avoid your frustration.
+We might move to a Git style push/pull workflow in the future.
+But until then, following the above guidelines would help you to avoid
+frustration.
 
-Thank you.
-
-matz.
 
 [ruby-core-post]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
