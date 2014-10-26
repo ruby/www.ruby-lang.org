@@ -145,7 +145,7 @@ Subversion:
 * I “bulleted points” del tuo ChangeLog devono essere anche copiati nel
   messaggio di commit di Subversion commit message. Questo messaggio
   sarà automaticamente inviato alla lista Ruby-CVS dopo il commit.
-* lo stile K&amp;R per le dichiarazioni di funzioni è usato nel codice
+* lo stile ANSI per le dichiarazioni di funzioni è usato nel codice
   source di Ruby e nei suoi package di estensione.
 * Per favore, non usare lo stile di commento per C++ (`//`); coloro che
   mantengono Ruby preferiscono invece lo stile di commento multilinea

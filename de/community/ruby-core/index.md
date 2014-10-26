@@ -125,8 +125,7 @@ werden:
 * Die Punkte im ChangeLog sollten als Kommentar beim Einchecken
   verwendet werden. Dieser Kommentar wird automatisch nach einem Commit
   an die Ruby-CVS-Liste gemailt.
-* K&amp;R-Funktionsdeklarationen werden überall im Ruby-Quelltext
-  verwendet.
+* Funktionsprototypen werden überall im Ruby-Quelltext verwendet.
 * Bitte keine C++-Kommentare (`//`) verwenden. Das Ruby-Wartungsteam
   bevorzugt stattdessen die Mehrzeilenkommentare von Standard-C
   (`/* .. */`).

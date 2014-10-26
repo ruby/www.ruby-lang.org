@@ -139,7 +139,7 @@ quando submeter código no repositório CVS:
 * Os pontos listados do seu ChangeLog também deverão ser colocados na
   mensagem de submissão do CVS. Esta mensagem ser automaticamente
   enviada para a lista Ruby-CVS depois da sua submissão.
-* Declarações de funções no estilo K&amp;R são utilizadas por todo o
+* Declarações de funções no estilo ANSI são utilizadas por todo o
   código fonte Ruby e em todos as suas extensões.
 * Por favor, não use comentários ao estilo do C++ (`//`). Os
   programadores de Ruby preferem os comentários multi-linha do C

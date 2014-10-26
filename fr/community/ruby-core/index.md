@@ -129,7 +129,7 @@ Les développeurs de Ruby devraient évidemment être à l’aise avec le code s
   mentionnés dans le résumé Subversion, car ce message est
   automatiquement transmis à la liste de diffusion Ruby-CVS après le
   *commit* ;
-* les déclarations de fonctions K&amp;R sont utilisées dans l’ensemble
+* les prototypes de fonctions sont utilisés dans l’ensemble
   du code source de Ruby et des extensions liées ;
 * pas de commentaire en style C++ (`//`), seul le commentaire multiligne
   est utilisé (`/* .. */`).

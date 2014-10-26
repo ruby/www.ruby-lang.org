@@ -126,7 +126,7 @@ Subversion:
 * Poin-poin ChangeLog Anda harus ditaruh juga di pesan commit
   Subversion. Pesan ini secara otomatis di email ke milis Ruby-CVS
   setelah Anda commit.
-* Deklarasi function K&amp;R digunakan di seluruh *source code* Ruby dan
+* Deklarasi function ANSI digunakan di seluruh *source code* Ruby dan
   *packaged extension*.
 * Tolong jangan gunakan comment style C++ (`//`), maintainer Ruby
   cenderung memakai komentar multibaris standar C (`/* .. */`).
