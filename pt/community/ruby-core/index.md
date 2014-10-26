@@ -13,18 +13,13 @@ onde começar?
 
 Os tópicos relacionados com o desenvolvimento do Ruby cobertos aqui são:
 
-* [Utilizando CVS para Seguir o Desenvolvimento do
-  Ruby](#seguindo-o-ruby "Utilizando CVS para Seguir o Desenvolvimento
-  do Ruby")
-* [Seguindo o Ruby 2.0, a criação da YARV](#seguindo-a-yarv "Seguindo o
-  Ruby 2.0, a criação da YARV")
-* [Melhorando o Ruby, *Patch* a *Patch*](#melhorando-o-ruby "Melhorando
-  o Ruby, Patch a Patch")
-* e, [Regras de conduta para Programadores do Núcleo](#regras-de-conduta
-  "Regras de conduta para Programadores do Núcleo")
+* [Utilizando CVS para Seguir o Desenvolvimento do Ruby](#following-ruby)
+* [Seguindo o Ruby 2.0, a criação da YARV](#following-yarv)
+* [Melhorando o Ruby, *Patch* a *Patch*](#patching-ruby)
+* [Regras de conduta para Programadores do Núcleo](#coding-standards)
 
 ### Utilizando CVS para Seguir o Desenvolvimento do Ruby
-{: #seguindo-o-ruby}
+{: #following-ruby}
 
 Para fazer o *check out* da última versão do código fonte basta fazer
 login na conta *anonymous* do repositório CVS. Da sua linha de comandos:
@@ -61,7 +56,7 @@ Para informações acerca do CVS, veja, por favor o [Manual de CVS][2] e o
 introdutório [Pragmatic Version Control with CVS][4] .
 
 ### Seguindo o Ruby 2.0, a Criação da YARV
-{: #seguindo-a-yarv}
+{: #following-yarv}
 
 Um dos ingredientes essenciais do desenvolvimento do Ruby 2.0 é o
 [Projecto YARV][5]. Um trabalho de Sasada Koichi, que adiciona um
@@ -80,7 +75,7 @@ principal, Koichi Sasada, também oferece listas de correio, *bug
 tracking* e declarações no [sítio da YARV][5].
 
 ### Melhorando o Ruby, *Patch* a *Patch* 
-{: #melhorando-o-ruby}
+{: #patching-ruby}
 
 Rubyforge mantem um [*bug tracker*][6] para submissão de *patches* e
 *bug reports* para o Matz e a malta. Estes relatórios são também
@@ -124,7 +119,7 @@ Seja paciente e se o seu pedido não fôr atendido, seja persistente—tente
 outra vez uns dias mais tarde.
 
 ### Regras de conduta para Programadores do Núcleo
-{: #regras-de-conduta}
+{: #coding-standards}
 
 Em geral, os programadores de Ruby deverão estar familiarizados com o
 código fonte e o estilo de programação utilizado pela equipa. Para ficar

@@ -12,12 +12,10 @@ du code ou à la documentation. Mais par où commencer ?
 
 Cette page couvre les sujets suivants :
 
-* [Utiliser Subversion pour suivre le développement de
-  Ruby](#following-ruby)
+* [Utiliser Subversion pour suivre le développement de Ruby](#following-ruby)
 * [How to Use Git With the Main Ruby Repository](#git-ruby)
 * [Améliorer Ruby, patch par patch](#patching-ruby)
-* [Règles et usages à l’attention des développeurs
-  principaux](#coding-standards)
+* [Règles et usages à l’attention des développeurs principaux](#coding-standards)
 
 ### Utiliser Subversion pour suivre le développement de Ruby
 {: #following-ruby}

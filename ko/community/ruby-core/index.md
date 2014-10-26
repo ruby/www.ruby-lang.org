@@ -9,7 +9,6 @@ lang: ko
 어디서부터 시작해야 할까요?
 {: .summary}
 
-
 루비 개발에 관련된 주제들입니다.
 
 * [Subversion을 사용하여 루비 개발을 트레킹하기](#following-ruby)

@@ -13,10 +13,9 @@ dokumentasinya. Silakan bergabung!
 
 Topik seputar pengembangan Ruby yang dibahas disini adalah:
 
-* [Menggunakan Subversion untuk Memonitor Pengembangan
-  Ruby](#following-ruby)
+* [Menggunakan Subversion untuk Memonitor Pengembangan Ruby](#following-ruby)
 * [Menyempurnakan Ruby, dengan patch](#patching-ruby)
-* dan, [Peraturan untuk Developer Inti](#coding-standards)
+* [Peraturan untuk Developer Inti](#coding-standards)
 
 ### Menggunakan Subversion untuk Memonitor Pengembangan Ruby
 {: #following-ruby}
@@ -52,8 +51,8 @@ web][2].
 
 Untuk informasi lebih lanjut tentang Subversion, silakan lihat [the
 Subversion FAQ][3] dan [the Subversion book][4]. Sebagai alternatif,
-Anda bisa juga dapatkan buku [Pragmatic Version Control with
-Subversion][5] sebagai buku yang berguna untuk pengenalan svn.
+Anda bisa juga dapatkan buku [Pragmatic Version Control with Subversion][5]
+sebagai buku yang berguna untuk pengenalan svn.
 
 ### Menyempurnakan Ruby, dengan Patch
 {: #patching-ruby}

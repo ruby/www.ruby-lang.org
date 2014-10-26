@@ -15,7 +15,7 @@ The topics related to Ruby development covered here are:
 * [Using Subversion to Track Ruby Development](#following-ruby)
 * [How to Use Git With the Main Ruby Repository](#git-ruby)
 * [Improving Ruby, Patch by Patch](#patching-ruby)
-* and, [Rules for Core Developers](#coding-standards)
+* [Rules for Core Developers](#coding-standards)
 
 ### Using Subversion to Track Ruby Development
 {: #following-ruby}
@@ -54,15 +54,15 @@ itself.
 
 If you prefer, you may browse [Ruby’s Subversion repository via the web][2].
 
-For information about Subversion, please see [the Subversion FAQ][3] and
-[the Subversion book][4]. Alternatively, you may find [Pragmatic Version
-Control with Subversion][5] to be a useful introductory book.
+For information about Subversion, please see the [Subversion FAQ][3]
+and the [Subversion book][4]. Alternatively, you may find
+[Pragmatic Version Control with Subversion][5] to be a useful introductory book.
 
 ### How to Use Git With the Main Ruby Repository
 {: #git-ruby}
 
 Those who prefer to use [Git][6] over Subversion can find instructions
-with [the mirror on GitHub][7], both for [those with commit access][8]
+with the [mirror on GitHub][7], both for [those with commit access][8]
 and [everybody else][9].
 
 ### Improving Ruby, Patch by Patch

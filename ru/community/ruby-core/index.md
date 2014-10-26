@@ -15,7 +15,7 @@ lang: ru
 * [Использование Subversion для прослеживания процесса разработки Ruby](#following-ruby)
 * [Как использовать Git для работы с главным репозиторием Ruby](#git-ruby)
 * [Улучшаем Ruby, патч за патчем](#patching-ruby)
-* and, [Правила для разработчиков ядра](#coding-standards)
+* [Правила для разработчиков ядра](#coding-standards)
 
 ### Использование Subversion для прослеживания разработки Ruby
 {: #following-ruby}
@@ -54,9 +54,9 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 Если вы предпочитаете, вы можете открыть [Subversion репозиторий Ruby в
 браузере][2].
 
-Для информации по поводу Subversion, пожалуйста смотрите [the Subversion
-FAQ][3] и книгу [the Subversion book][4]. Еще вы можете найти полезной
-для начала изучения Subversion книгу [Pragmatic Version Control with Subversion][5].
+Для информации по поводу Subversion, пожалуйста смотрите [the Subversion FAQ][3]
+и книгу [the Subversion book][4]. Еще вы можете найти полезной для начала
+изучения Subversion книгу [Pragmatic Version Control with Subversion][5].
 
 ### Как использовать Git для работы с главным репозиторием Ruby
 {: #git-ruby}

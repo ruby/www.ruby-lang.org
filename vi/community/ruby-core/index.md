@@ -16,7 +16,7 @@ Các chủ đề liên quan đến sự phát triển Ruby được đề cập 
 * [Dùng Subversion để theo dõi sự phát triển của Ruby](#following-ruby)
 * [Làm việc với Git](#git-ruby)
 * [Cải tiến Ruby theo từng bản vá lỗi](#patching-ruby)
-* và [Quy tắc cho các nhà phát triển Ruby-core](#coding-standards)
+* [Quy tắc cho các nhà phát triển Ruby-core](#coding-standards)
 
 ### Dùng Subversion để theo dõi sự phát triển của Ruby
 {: #following-ruby}
@@ -54,9 +54,10 @@ gốc, Thường thì 2 phiên bản có nhiều điểm giống nhau, ngoại t
 Nếu thích, bạn có thể duyệt qua [kho lưu trữ của Ruby trên Subversion thông
 qua web][2].
 
-Để biết thêm thông tin về Subversion, vui lòng xem [những câu hỏi thường gặp
-của Subversion][3] và [sách về Subversion][4]. Ngoài ra, bạn có thể tìm quyển
-[quản lý phiên bản với Subversion][5] là một quyển sách rất hữu ích.
+Để biết thêm thông tin về Subversion, vui lòng xem
+[những câu hỏi thường gặp của Subversion][3] và [sách về Subversion][4].
+Ngoài ra, bạn có thể tìm quyển [quản lý phiên bản với Subversion][5]
+là một quyển sách rất hữu ích.
 
 ### Làm việc với Git
 {: #git-ruby}

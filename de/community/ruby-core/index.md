@@ -16,7 +16,7 @@ Die hier behandelten Themen zur Entwicklung von Ruby sind Folgende:
 * [Subversion zur Entwicklung von Ruby nutzen](#following-ruby)
 * [Mit Git arbeiten](#git-ruby)
 * [Ruby verbessern, Patch für Patch](#patching-ruby)
-* und [Regeln für Core-Entwickler](#coding-standards)
+* [Regeln für Core-Entwickler](#coding-standards)
 
 ### Subversion zur Entwicklung von Ruby nutzen
 {: #following-ruby}
