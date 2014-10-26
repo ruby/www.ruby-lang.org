@@ -30,23 +30,23 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 The `ruby` directory will now contain the latest source code
 for the development version of Ruby (ruby-trunk).
 Currently patches applied to the trunk are backported to the
-stable 2.0.0 and 1.9.3 branches (see below).
+stable 2.1 and 2.0.0 branches (see below).
 
-If you’d like to follow patching of Ruby 2.0.0, you should use the
-`ruby_2_0_0` branch when checking out:
+If you’d like to follow patching of Ruby 2.1, you should use the
+`ruby_2_1` branch when checking out:
+
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_1
+{% endhighlight %}
+
+Similarly for Ruby 2.0.0:
 
 {% highlight sh %}
 $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
 {% endhighlight %}
 
-Similarly for Ruby 1.9.3:
-
-{% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
-{% endhighlight %}
-
-This will check out the respective development tree into a `ruby_2_0_0`
-or `ruby_1_9_3` directory.
+This will check out the respective development tree into a `ruby_2_1`
+or `ruby_2_0_0` directory.
 Developers working on the maintenance branches are expected to migrate
 their changes to Ruby’s trunk, so often the branches are very similar,
 with the exception of improvements made by Matz and Nobu to the language
@@ -83,14 +83,14 @@ To summarize, the steps for building a patch are:
 1.  Check out a copy of the Ruby source code from Subversion.
     Usually patches for bugfixes or new features should be submitted
     for the trunk of Ruby’s source. Even if you wish to add a feature
-    to Ruby 1.9.3, it has to be proven in the trunk first.
+    to Ruby 2.0.0, it has to be proven in the trunk first.
 
         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     If you are fixing a bug that is specific to only one maintenance branch,
-    check out a copy of the respective branch, e.g. `ruby_1_9.3`.
+    check out a copy of the respective branch, e.g. `ruby_2_0_0`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
 
 2.  Add your improvements to the code.
 
