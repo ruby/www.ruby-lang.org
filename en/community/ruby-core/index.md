@@ -39,16 +39,16 @@ If you’d like to follow patching of Ruby 2.0.0, you should use the
 $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
 {% endhighlight %}
 
-If you’d like to follow patching of Ruby 1.9.3, you should use the
-`ruby_1_9_3` branch when checking out:
+Similarly for Ruby 1.9.3:
 
 {% highlight sh %}
 $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 {% endhighlight %}
 
-This will check out the Ruby 1.9.3 development tree into a `ruby_1_9_3`
-directory. Developers working on Ruby 1.9.3 are expected to migrate their
-changes to Ruby’s trunk, so often the two branches are very similar,
+This will check out the respective development tree into a `ruby_2_0_0`
+or `ruby_1_9_3` directory.
+Developers working on the maintenance branches are expected to migrate
+their changes to Ruby’s trunk, so often the branches are very similar,
 with the exception of improvements made by Matz and Nobu to the language
 itself.
 
