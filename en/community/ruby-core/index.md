@@ -29,24 +29,25 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 The `ruby` directory will now contain the latest source code
 for the development version of Ruby (ruby-trunk).
-Currently patches applied to the trunk are backported to the
-stable 2.1 and 2.0.0 branches (see below).
+Currently patches applied to the trunk are backported to the stable
+{{ site.svn.stable.version }} and {{ site.svn.previous.version }}
+branches (see below).
 
-If you’d like to follow patching of Ruby 2.1, you should use the
-`ruby_2_1` branch when checking out:
-
-{% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_1
-{% endhighlight %}
-
-Similarly for Ruby 2.0.0:
+If you’d like to follow patching of Ruby {{ site.svn.stable.version }},
+you should use the `{{ site.svn.stable.branch }}` branch when checking out:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
-This will check out the respective development tree into a `ruby_2_1`
-or `ruby_2_0_0` directory.
+Similarly for Ruby {{ site.svn.previous.version }}:
+
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+{% endhighlight %}
+
+This will check out the respective development tree into a
+`{{ site.svn.stable.branch }}` or `{{ site.svn.previous.branch }}` directory.
 Developers working on the maintenance branches are expected to migrate
 their changes to Ruby’s trunk, so often the branches are very similar,
 with the exception of improvements made by Matz and Nobu to the language
@@ -83,14 +84,16 @@ To summarize, the steps for building a patch are:
 1.  Check out a copy of the Ruby source code from Subversion.
     Usually patches for bugfixes or new features should be submitted
     for the trunk of Ruby’s source. Even if you wish to add a feature
-    to Ruby 2.0.0, it has to be proven in the trunk first.
+    to Ruby {{ site.svn.previous.version }}, it has to be proven in
+    the trunk first.
 
         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     If you are fixing a bug that is specific to only one maintenance branch,
-    check out a copy of the respective branch, e.g. `ruby_2_0_0`.
+    check out a copy of the respective branch,
+    e.g. `{{ site.svn.previous.branch }}`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
+        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Add your improvements to the code.
 
