@@ -11,12 +11,12 @@ We are pleased to announce the release of Ruby 1.9.3-p550.
 
 This release includes a security fix for DoS vulnerability of REXML.
 
-* [CVE-2014-8080: Denial of Service XML Expansion](/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
 This release also includes the change of default settings of ext/openssl.
 Insecure SSL/TLS options are now turned off by default.
 
-* [Changed default settings of ext/openssl](/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [Changed default settings of ext/openssl](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 And, in addition, bundled jQuery for darkfish template of RDoc is also updated.
 

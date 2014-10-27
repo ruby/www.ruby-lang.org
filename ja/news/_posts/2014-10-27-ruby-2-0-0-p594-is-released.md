@@ -11,12 +11,12 @@ Ruby 2.0.0-p594がリリースされました。
 
 今回のリリースには、REXML における DoS 攻撃可能な脆弱性の修正が含まれています。
 
-* [CVE-2014-8080: REXML におけるXML展開に伴うサービス不能攻撃について](/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: REXML におけるXML展開に伴うサービス不能攻撃について](https://www.ruby-lang.org/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
 また、ext/openssl のデフォルト設定の変更も含まれています。
 安全でない SSL/TLS オプションがデフォルトで無効化されるようになります。
 
-* [ext/openssl のデフォルト設定の変更について](/ja/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [ext/openssl のデフォルト設定の変更について](https://www.ruby-lang.org/ja/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 他にも、幾つかのバグ修正が含まれています。
 詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) を確認して下さい。

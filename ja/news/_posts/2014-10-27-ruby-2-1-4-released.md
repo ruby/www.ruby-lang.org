@@ -11,8 +11,8 @@ Ruby 2.1.4 がリリースされました。これは安定版 2.1 系のパッ�
 
 今回のリリースには、標準添付ライブラリREXMLのDoS攻撃可能な脆弱性の修正と、OpenSSLのSSL/TLSのデフォルト設定の変更が含まれています。詳細は下記の記事を参照してください。
 
-* [CVE-2014-8080: REXML におけるXML展開に伴うサービス不能攻撃について](/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)
-* [ext/openssl のデフォルト設定の変更について](/ja/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [CVE-2014-8080: REXML におけるXML展開に伴うサービス不能攻撃について](https://www.ruby-lang.org/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [ext/openssl のデフォルト設定の変更について](https://www.ruby-lang.org/ja/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 その他にもいくつかの不具合修正が行われました。
 
