@@ -46,7 +46,7 @@ gelmektedir.
 * RDoc 4.1.0 ve RubyGems 2.2.0
 * "literal".freeze artık optimize edilmiş halde[#9042](https://bugs.ruby-lang.org/issues/9042)
 * eklendi Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
-* BigDecimal, JSON, NKF, Rake, RubyGems, ve RDoc gibi kütüphaneler güncellendi.
+* BigDecimal, JSON, NKF, Rake, RubyGems, ve RDoc gibi kütüphaneler güncellendi
 * kaldırıldı curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 Değişiklikleri daha detaylı gör: [Ruby Repository'inde Haberler](https://github.com/ruby/ruby/blob/v2_1_0/NEWS).
