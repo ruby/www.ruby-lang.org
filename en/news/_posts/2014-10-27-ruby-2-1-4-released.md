@@ -11,7 +11,7 @@ Ruby 2.1.4 has been released.
 
 This release includes security fixes for the following vulnerabilities:
 
-* [CVE-2014-8080: Denial Of Service XML Expansion](/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service XML Expansion](/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
 * [Changed default settings of ext/openssl related to CVE-2014-3566](/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 And there are some bug-fixes.

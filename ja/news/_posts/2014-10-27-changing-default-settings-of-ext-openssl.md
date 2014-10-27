@@ -112,9 +112,9 @@ end
 
 ## 今回の変更の影響を受けるバージョン
 
-* ruby 1.9.3 patchlevel 550 以降の ruby 1.9.3
-* ruby 2.0.0 patchlevel 594 以降の ruby 2.0.0
-* ruby 2.1.4 以降の ruby 2.1
+* Ruby 1.9.3 patchlevel 550 以降の Ruby 1.9.3
+* Ruby 2.0.0 patchlevel 594 以降の Ruby 2.0.0
+* Ruby 2.1.4 以降の Ruby 2.1
 * revision 48097 以降の開発版 (trunk)
 
 ## 更新履歴

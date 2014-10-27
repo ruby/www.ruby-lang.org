@@ -13,7 +13,7 @@ However, by this change, there is a possibility of some problems in the SSL conn
 
 ## Details
 
-OpenSSL still implements protocols and ciphers those are considered insecure today by historical circumstances.
+OpenSSL still implements protocols and ciphers that are considered insecure today by historical circumstances.
 Like POODLE vulnerability ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)), if you continue to use OpenSSL with such insecure features, you may not be able to keep the safety of network communication.
 So, based on the discussion in [Bug #9424](https://bugs.ruby-lang.org/issues/9424), we have decided to disable such insecure SSL/TLS options by default.
 If you need to cancel this change (shown below), apply the reverse patch to revoke it.
@@ -30,14 +30,14 @@ If you need to cancel this change (shown below), apply the reverse patch to revo
 However, if you cancel this change, there is a risk that you can not guarantee the safety of network communication.
 You should understand the implications of this change before removing it.
 
-### Bundled libiraries of Ruby
+### Bundled libraries of Ruby
 
 This change is reflected in net/http, net/imap and net/pop.
 Since DRb and WEBrick receive the setting separately, this change does not effect them.
 
 ### Scripts that use ext/openssl directly
 
-This change is reflected when an `OpenSSL::SSL::SSLContext` object is instantiated and the instance method `set_params` is called
+This change is reflected when an `OpenSSL::SSL::SSLContext` object is instantiated and the instance method `set_params` is called.
 
 In particular, code such as:
 
@@ -48,7 +48,7 @@ ssl = OpenSSL::SSL::SSLSocket.new(socket, ctx)
 {% endhighlight %}
 
 When using ext/openssl as a client side, we assume that there may be no problem with this change.
-However, if you are using ext/openssl as a server side and reflect this change, some old clients (Internet Explorer 6 on Windows XP, browsers in old celler phones and etc.) may not be able to connect to the server.
+However, if you are using ext/openssl as a server side and reflect this change, some old clients (Internet Explorer 6 on Windows XP, browsers in old cellular phones, etc.) may not be able to connect to the server.
 
 It is your decision whether to enable this change or not, consider the trade-offs.
 
@@ -115,9 +115,9 @@ end
 
 ## Affected versions of this change
 
-* ruby 1.9.3 patchlevel 550 and later
-* ruby 2.0.0 patchlevel 594 and later
-* ruby 2.1.4 and later
+* Ruby 1.9.3 patchlevel 550 and later
+* Ruby 2.0.0 patchlevel 594 and later
+* Ruby 2.1.4 and later
 * revision 48097 and later of trunk
 
 ## History
