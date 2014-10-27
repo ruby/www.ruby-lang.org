@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.4 is released"
+title: "Ruby 2.1.4 Released"
 author: "nagachika"
 translator:
 date: 2014-10-27 12:00:00 +0000
