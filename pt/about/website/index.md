@@ -32,7 +32,6 @@ e já comece a abrir *issues* ou *pull requests*!
 Agradecemos a todos os committers, autores, tradutores
 e outros colaboradores desse website.
 
-
 Também agradecemos a todas as organizações que nos dão suporte:
 
  * [NaCl][nacl] (hospedagem),

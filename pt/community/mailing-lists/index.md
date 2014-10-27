@@ -12,7 +12,8 @@ O Ruby tem quatro listas de distribuição principais em Inglês:
 
 Ruby-Talk
 : Esta é a lista de correio mais popular e trata de tópicos gerais sobre
-  o Ruby. A Ruby-Talk tem um *mirror* em [Ruby-Forum.com][1]. [FAQ][2] e [Arquivos][3])
+  o Ruby. A Ruby-Talk tem um *mirror* em [Ruby-Forum.com][1].
+  ([FAQ][2] e [Arquivos][3])
 
 Ruby-Core
 : Esta lista trata do núcleo e tópicos da implementação do Ruby.
@@ -26,10 +27,12 @@ Ruby-CVS
 : Esta lista relata todas as submissões no repositório CVS do Ruby.
 
 O comp.lang.ruby Newsgroup
-: Aqueles que preferem Usenet ao invés de listas de correio terão interesse em dar uma olhada em [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
+: Aqueles que preferem Usenet ao invés de listas de correio terão interesse
+  em dar uma olhada em [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
 
-Ruby &lt;&lt; portuguese.
-: Esta é a lista de discussão oficial de ruby em Portugal. ([Arquivos no Google Groups][6])
+Ruby &lt;&lt; portuguese
+: Esta é a lista de discussão oficial de ruby em Portugal.
+  ([Arquivos no Google Groups][6])
 
 **Subscreva o ruby &lt;&lt; portuguese**
 
@@ -40,6 +43,7 @@ Email: <input type="text" name="email" required="required" />
 <input class="button" type="submit" name="sub" value="Subscrever" />
 </div>
 </form>
+
 
 ## Subscrever ou Remover
 
