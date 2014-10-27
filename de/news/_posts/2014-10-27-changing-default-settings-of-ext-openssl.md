@@ -9,7 +9,7 @@ lang: de
 ---
 
 Wir haben die Standardeinstellungen von ext/openssl in Ruby 2.1.4,
-Ruby 2.0.0-p595 und Ruby 1.9.3-p550 so verändert, dass unsichere
+Ruby 2.0.0-p594 und Ruby 1.9.3-p550 so verändert, dass unsichere
 SSL/TLS-Optionen nun standardmäßig deaktiviert sind. Jedoch kann es
 aufgrund dieser Änderung zu Problemen in der SSL-Verbindung kommen.
 
@@ -18,8 +18,8 @@ aufgrund dieser Änderung zu Problemen in der SSL-Verbindung kommen.
 OpenSSL implementiert aus historischen Gründen noch immer einige
 Protokolle und Chiffren, die aus heutiger Sicht unsicher sind,
 darunter etwa die Sicherheitslücke POODLE
-([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)). Wenn
-Sie weiterhin diese unsicheren Features von OpenSSL nutzen, riskieren
+([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)).
+Wenn Sie weiterhin diese unsicheren Features von OpenSSL nutzen, riskieren
 Sie die Sicherheit der Netzwerkverbindungen. Daher haben wir aufgrund
 der Diskussion in [Bug #9424](https://bugs.ruby-lang.org/issues/9424)
 entschieden, solch unsichere SSL/TLS-Optionen standardmäßig zu
@@ -138,7 +138,6 @@ end
 * Ruby 2.0.0 patchlevel 594 und später
 * Ruby 2.1.4 und später
 * Revision 48097 und später auf dem Trunk
-
 
 ## Geschichte
 

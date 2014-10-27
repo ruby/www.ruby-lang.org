@@ -55,6 +55,6 @@ für weitere Informationen.
 
 ## Veröffentlichungskommentar
 
-Zahlreiche Commiter, Entwickler und Nutzer, die uns Fehlerberichte
+Zahlreiche Committer, Entwickler und Nutzer, die uns Fehlerberichte
 zukommen ließen, machten uns diese Veröffentlichung möglich.
-Wir danken Ihnen für Ihre Beiträge.
+Wir danken ihnen für ihre Beiträge.

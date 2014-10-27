@@ -20,8 +20,9 @@ deaktiviert.
 
 * [Standardeinstellungen von ext/openssl verändert](https://www.ruby-lang.org/de/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-Außerdem wurde das für das für RDocs Darkfish-Thema enthaltene
+Außerdem wurde das für das Darkfish-Thema von RDoc enthaltene
 jQuery aktualisiert.
+
 
 ## Hinweis
 
