@@ -2,8 +2,9 @@
 layout: news_post
 title: "Changed default settings of ext/openssl"
 author: "usa"
-tags: security
+translator:
 date: 2014-10-27 12:00:00 +0000
+tags: security
 lang: en
 ---
 

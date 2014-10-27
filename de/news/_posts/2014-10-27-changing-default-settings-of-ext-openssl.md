@@ -3,8 +3,8 @@ layout: news_post
 title: "Standardeinstellungen von ext/openssl verändert"
 author: "usa"
 translator: "Quintus"
-tags: security
 date: 2014-10-27 12:00:00 +0000
+tags: security
 lang: de
 ---
 

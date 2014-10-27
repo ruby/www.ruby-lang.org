@@ -3,8 +3,8 @@ layout: news_post
 title: "修改 ext/openssl 的預設選項"
 author: "usa"
 translator: "Juanito Fatas"
-tags: security
 date: 2014-10-27 12:00:00 +0000
+tags: security
 lang: zh_tw
 ---
 
