@@ -20,6 +20,15 @@ See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&am
 and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
 for details.
 
+**Update:** There was a regression introduced in 2.1.3 that is now fixed:
+
+{% highlight ruby %}
+>> { key: if true then 0 else 1 end }
+SyntaxError: (irb):1: syntax error, unexpected modifier_if
+{ key: if true then 0 else 1 end }
+         ^
+{% endhighlight %}
+
 ## Download
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2)
@@ -55,3 +64,8 @@ for details.
 
 Many committers, developers, and users who provided bug reports helped us to make this release.
 Thanks for their contributions.
+
+## History
+
+* Update published at 2014-10-27 21:00:00 (UTC)
+* Originally published at 2014-10-27 12:00:00 (UTC)
