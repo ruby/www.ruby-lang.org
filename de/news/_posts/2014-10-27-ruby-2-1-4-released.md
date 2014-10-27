@@ -22,6 +22,15 @@ und das
 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
 für weitere Informationen.
 
+**Update:** In Ruby 2.1.3 trat ein Regressionsfehler auf, der nun behoben ist:
+
+{% highlight ruby %}
+>> { key: if true then 0 else 1 end }
+SyntaxError: (irb):1: syntax error, unexpected modifier_if
+{ key: if true then 0 else 1 end }
+         ^
+{% endhighlight %}
+
 ## Download
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2)
@@ -58,3 +67,8 @@ für weitere Informationen.
 Zahlreiche Committer, Entwickler und Nutzer, die uns Fehlerberichte
 zukommen ließen, machten uns diese Veröffentlichung möglich.
 Wir danken ihnen für ihre Beiträge.
+
+## Verlauf
+
+* Aktualisiert: 2014-10-27 21:00:00 (UTC)
+* Erstveröffentlichung: 2014-10-27 12:00:00 (UTC)
