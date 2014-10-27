@@ -39,7 +39,7 @@ Nós usaremos tags para cada lançamento.
 
 ### Compatibilidade de API
 
-As seguintes peculiaridades podem ser marcadas como uma mudança incompatível, requerendo um 
+As seguintes peculiaridades podem ser marcadas como uma mudança incompatível, requerendo um
 acréscimo na versão `MINOR`:
 
 * Remoção de recursos da api no nível C

@@ -26,7 +26,7 @@ função. Actualmente a categoria [*Database*][5] é que tem mais entradas
 vencendo por 1 sobre [*Net*][6]. [HTML][7] e [XML][8] são também
 populares. Existem até quatro entradas em [Physics][9].
 
-### Utilizando a biblioteca *RubyGems* 
+### Utilizando a biblioteca *RubyGems*
 {: #utilizando-rubygems}
 
 Apesar do programa de instalação em Windows incluir *RubyGems*, muitos
@@ -83,7 +83,7 @@ Para mais informações acerca da utilização da biblioteca *RubyGems*,
 veja [**o manual oficial**][10], que inclui exemplos para a gemas nas
 suas scripts.
 
-### Instalando a biblioteca *RubyGems* 
+### Instalando a biblioteca *RubyGems*
 {: #instalando-rubygems}
 
 Para instalar a biblioteca *RubyGems*, descarregue a sua versão 0.9.0 da

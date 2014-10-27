@@ -74,7 +74,7 @@ Para instruções de instalação ver o ficheiro README. O programador
 principal, Koichi Sasada, também oferece listas de correio, *bug
 tracking* e declarações no [sítio da YARV][5].
 
-### Melhorando o Ruby, *Patch* a *Patch* 
+### Melhorando o Ruby, *Patch* a *Patch*
 {: #patching-ruby}
 
 Rubyforge mantem um [*bug tracker*][6] para submissão de *patches* e

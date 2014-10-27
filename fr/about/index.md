@@ -144,7 +144,7 @@ premier lieu par un simple tableau. Bien d’autres méthodes en Ruby
 laissent au programmeur l’opportunité d’écrire leurs propres blocs, afin
 de d’adapter le fonctionnement d’une méthode au contexte du script.
 
-### Le mécanisme de *mixin* 
+### Le mécanisme de *mixin*
 
 À la différence de bien d’autres langages orientés objet, Ruby ne donne
 accès qu’à l’héritage unique, et ce, **volontairement**. En effet, Ruby

@@ -69,7 +69,7 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 
 * Il [Metasploit Framework][14], un progetto community open source
   gestito da [Rapid7][15], è una piattaforma gratuita di penetration testing
-  che aiuta i professionisti IT a valutare la sicurezza dei loro network 
+  che aiuta i professionisti IT a valutare la sicurezza dei loro network
   e applicazioni.
   Il progetto Metasploit consiste in più di 700,000 linee di codice ed ha
   raggiunto più di un milione di download nel 2010. Le edizioni commerciali

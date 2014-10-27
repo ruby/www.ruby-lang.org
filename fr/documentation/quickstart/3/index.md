@@ -101,7 +101,7 @@ Une instance de `Greeter` connaît donc `say_hi` et `to_s` (une méthode
 qui transforme « quelque chose » en une chaîne de caractère et qui est
 disponible pour tout objet). Par contre, la méthode `name` est inconnue.
 
-## Modifier les classes *a posteriori* 
+## Modifier les classes *a posteriori*
 
 Mais nous n’en démordrons pas : il nous *faut* un moyen de récupérer le
 nom lié à un objet. Comment faire ? Ruby propose un moyen très simple
