@@ -17,7 +17,7 @@ lang: ru
 * фиксы документации.
 
 См. [тикеты](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-и [лог изменений](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) for details.
+и [лог изменений](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) за подробностями.
 
 ## Скачать
 
