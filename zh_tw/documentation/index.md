@@ -50,9 +50,8 @@ lang: zh_tw
 [Programming Ruby][9]
 : 這是 Ruby 的第一本英文書，第一版開放線上免費閱讀 [Pragmatic Programmers' book][10] 。
 
-[Ruby 使用手冊-中文版][11]
-: 原日文版出自 Yukihiro Matsumoto (Ruby 發明人)，英文版為 Goto Kentaro 和 Mark Slagell
-  翻譯，[繁體中文版][ruby-user-guide-zh_tw]由 [Ruby Taiwan][rubytw] 翻譯。這是一個不錯的 Ruby 導覽。
+[Ruby 使用手冊][11]
+: 原日文版出自 Yukihiro Matsumoto (Ruby 發明人)，英文版為 Goto Kentaro 和 Mark Slagell 翻譯，[繁體中文版][ruby-user-guide-zh_tw]由 [Ruby Taiwan][rubytw] 翻譯。這是一個不錯的 Ruby 導覽。
 
 [The Ruby Programming Wikibook][12]
 : 給初學者到中等程度的線上手冊以及語言參考。
