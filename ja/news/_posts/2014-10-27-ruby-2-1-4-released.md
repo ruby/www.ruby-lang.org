@@ -61,3 +61,8 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
 ## Release Comment
 
 リリースにご協力頂いたコミッタ/開発者の皆様に感謝致します。ありがとうございました。
+
+## 更新履歴
+
+* 2014-10-28 06:00:00 (JST) 2版
+* 2014-10-27 21:00:00 (JST) 初版
