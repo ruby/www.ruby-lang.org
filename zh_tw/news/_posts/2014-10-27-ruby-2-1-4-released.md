@@ -19,6 +19,15 @@ Ruby 2.1.4 已經發佈了。
 參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 以及 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog) 來了解更多細節。
 
+**更新：** 2.1.3 引入的功能退化（regression），在 2.1.4 已經修正了：
+
+{% highlight ruby %}
+>> { key: if true then 0 else 1 end }
+SyntaxError: (irb):1: syntax error, unexpected modifier_if
+{ key: if true then 0 else 1 end }
+         ^
+{% endhighlight %}
+
 ## 下載
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2)
@@ -53,3 +62,8 @@ Ruby 2.1.4 已經發佈了。
 ## 發佈記
 
 這次的發行版要感謝許多提交者、測試者以及熱心回報錯誤的使用者的幫助，感謝他們的貢獻。
+
+## 編輯記錄
+
+* 2014-10-27 21:00:00 (UTC) 第一次修訂
+* 2014-10-27 12:00:00 (UTC) 初版
