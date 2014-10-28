@@ -26,7 +26,7 @@ Ruby-Doc
 
 Ruby-CVS
 : En esta lista se anuncian todos los commits al código en el
-  repositorio CVS de Ruby.
+  repositorio Subversion de Ruby.
 
 ## Suscribirse o desuscribirse
 

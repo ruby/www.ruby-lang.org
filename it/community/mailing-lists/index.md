@@ -26,7 +26,7 @@ Ruby-Doc
   documentazione e tool per Ruby. ([Archivi a Gmane][6])
 
 Ruby-CVS
-: Questa lista annuncia tutti i commit al repository CVS di Ruby.
+: Questa lista annuncia tutti i commit al repository Subversion di Ruby.
 
 ## Iscriviti o annulla la tua iscrizione
 

@@ -21,7 +21,7 @@ Ruby-Doc
   Ruby. ([Archives at Gmane][6])
 
 Ruby-CVS
-: This list reports all commits to Ruby’s CVS repository.
+: This list reports all commits to Ruby’s Subversion repository.
 
 ## 订阅 或者 退订
 

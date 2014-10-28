@@ -29,7 +29,7 @@ Ruby-Doc
   les [archives sur Gmane][6].
 
 Ruby-CVS
-: Cette liste recense de façon automatique les *commits* du CVS Ruby.
+: Cette liste recense de façon automatique les *commits* du Subversion Ruby.
 
 ## S’inscrire ou résilier son inscription
 

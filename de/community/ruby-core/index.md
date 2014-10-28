@@ -114,8 +114,8 @@ nochmal gestellt werden.
 
 Allgemein sollten Entwickler von Ruby mit den Quelltexten und dem
 Entwicklungstil des Teams vertraut sein. Zum besseren Verständnis
-sollten die folgenden Richtlinien beim Einchecken ins CVS beachtet
-werden:
+sollten die folgenden Richtlinien beim Einchecken ins
+Subversion-Repository beachtet werden:
 
 * Alle Änderungen sollten im `ChangeLog` gemäß den
   [GNU-Konventionen][12] erfasst werden. (Viele Core-Entwickler von Ruby

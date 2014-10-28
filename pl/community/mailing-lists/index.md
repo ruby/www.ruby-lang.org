@@ -26,7 +26,7 @@ Ruby-Doc
   Rubiego. ([Archiwa na Gmane][6])
 
 Ruby-CVS
-: Lista zgłaszająca wszystkie commit’y do repozytorium CVS Rubiego.
+: Lista zgłaszająca wszystkie commit’y do repozytorium Subversion Rubiego.
 
 [pl.comp.lang.ruby](news:pl.comp.lang.ruby)
 : Polska lista dyskusyjna na temat Rubiego.

@@ -24,7 +24,7 @@ Ruby-Doc
   para Ruby. ([Arquivos em Gmane][5])
 
 Ruby-CVS
-: Esta lista relata todas as submissões no repositório CVS do Ruby.
+: Esta lista relata todas as submissões no repositório Subversion do Ruby.
 
 O comp.lang.ruby Newsgroup
 : Aqueles que preferem Usenet ao invés de listas de correio terão interesse

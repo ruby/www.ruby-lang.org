@@ -12,8 +12,8 @@ Ruby has four primary English speaking mailing lists:
 
 Ruby-Talk
 : This is the most popular mailing-list and deals with general topics
-  about Ruby. Ruby-Talk is mirrored by [Ruby-Forum.com][1]. ([FAQ][2]
-  and [Archives][3])
+  about Ruby. Ruby-Talk is mirrored by [Ruby-Forum.com][1].
+  ([FAQ][2] and [Archives][3])
 
 Ruby-Core
 : This list deals with core and implementation topics about Ruby, often
@@ -24,7 +24,7 @@ Ruby-Doc
   Ruby. ([Archives at Gmane][5])
 
 Ruby-CVS
-: This list reports all commits to Ruby’s CVS repository.
+: This list reports all commits to Ruby’s Subversion repository.
 
 The comp.lang.ruby Newsgroup
 : Those who prefer Usenet over mailing lists will want to checkout the
