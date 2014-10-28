@@ -4,6 +4,8 @@ title: "邮件列表 - Ruby 官方网站"
 lang: zh_cn
 ---
 
+{% include out-of-date.html %}
+
 邮件列表，是让您的脉搏随时与 Ruby 社区保持一致的伟大方式。Ruby 最主要的四个使用英文语言交流的邮件列表：
 
 Ruby-Talk

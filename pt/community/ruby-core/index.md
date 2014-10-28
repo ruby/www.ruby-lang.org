@@ -4,6 +4,8 @@ title: "Núcleo de Ruby"
 lang: pt
 ---
 
+{% include out-of-date.html %}
+
 Agora é o momento mais fantástico para seguir o Ruby, porque o
 desenvolvimento do Ruby 2.0 está a decorrer. Com a atenção acrescida que
 o Ruby tem recebido nos últimos anos, existe uma necessidade crescente
