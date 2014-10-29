@@ -2,7 +2,7 @@
 layout: news_post
 title: "Cambio en las configuraciones por defecto de ext/openssl"
 author: "usa"
-translator: David Padilla
+translator: "David Padilla"
 date: 2014-10-27 12:00:00 +0000
 tags: security
 lang: es
