@@ -31,9 +31,9 @@ downloads:
       gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz
       zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.zip
     md5:
-      bz2: c2169c8b14ccefd036081aba5ffa96da
-      gz: e05135be8f109b2845229c4f47f980fd
-      zip: 4946e5f3d083894372a7a46342e885f7
+      bz2: f4136e781d261e3cc20748005e1740b7
+      gz: 89b2f4a197621346f6724a3c35535b19
+      zip: 71c7afca08734f0105a06d2feea11422
   previous:
     version: 2.0.0-p594
     url:
@@ -51,9 +51,9 @@ downloads:
       gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.gz
       zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.zip
     md5:
-      bz2: f4136e781d261e3cc20748005e1740b7
-      gz: 89b2f4a197621346f6724a3c35535b19
-      zip: 71c7afca08734f0105a06d2feea11422
+      bz2: c2169c8b14ccefd036081aba5ffa96da
+      gz: e05135be8f109b2845229c4f47f980fd
+      zip: 4946e5f3d083894372a7a46342e885f7
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
