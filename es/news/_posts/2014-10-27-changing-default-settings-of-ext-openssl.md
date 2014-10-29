@@ -42,7 +42,8 @@ de la comunicación en tu red.
 ### Librerías empaquetadas de Ruby
 
 Este cambio se refleja en net/http, net/imap y net/pop.
-Como DRb y WEBrick reciben la configración por separado este cambio no los afecta.
+Debido a que DRb y WEBrick reciben la configuración por separado, este cambio no
+los afecta.
 
 ### Rutinas que usan ext/openssl directamente
 
