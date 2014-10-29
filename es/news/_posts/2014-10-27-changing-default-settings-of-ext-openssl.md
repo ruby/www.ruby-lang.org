@@ -21,7 +21,6 @@ de hoy por circunstancias históricas. Un ejemplo es la vulnerabilidad POODLE
 ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)),
 utilizar OpenSSL con este tipo de vulnerabilidades no garantiza la seguridad
 de la comunicación en tu red.
-
 Basados en la discusión del [Bug #9424](https://bugs.ruby-lang.org/issues/9424),
 hemos decidido deshabilitar esas opciones inseguras de SSL/TLS por defecto.
 Si necesitas cancelar este cambio (mostrado abajo) aplica el parche
@@ -138,4 +137,3 @@ end
 ## Historia
 
 * Publicado originalmente 2014-10-27 12:00:00 (UTC)
-
