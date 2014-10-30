@@ -80,7 +80,7 @@ Symbole sind am einfachsten als Identitäten (IDs) zu verstehen. Bei
 einem Symbol ist wichtig, *wer* es ist, nicht *was* es ist. Starte `irb`
 und du siehst den Unterschied:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -259,7 +259,7 @@ Klasse als Empfänger.
 
 Ein Beispiel aus den [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # normalerweise "public"

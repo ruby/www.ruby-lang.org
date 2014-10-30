@@ -76,7 +76,7 @@ cho việc gì.
 Symbol có thể được mô tả như là định danh. Symbol là thông tin về **ai**
 đó, chứ không phải về **cái gì** đó. Xem `irb` để thấy sự khác biệt:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -235,7 +235,7 @@ tiếp nhận khi gọi phương thức private.
 được gọi từ một lớp con của lớp thể hiện (lớp cha), nhưng cũng có thề được gọi
 bởi lớp thể hiện khác như là một lớp tiếp nhận của nó. Ví dụ, từ [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # mặc định là public

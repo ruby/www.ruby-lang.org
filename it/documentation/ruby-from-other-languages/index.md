@@ -79,7 +79,7 @@ fatto, come degli identificatori usati per riferirsi ad altri oggetti.
 Per capire la differenza, prova a scrivere le espressioni seguenti in
 `irb`\:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :pippo.object_id == :pippo.object_id
 => true
 irb(main):002:0> "pippo".object_id == "pippo".object_id
@@ -247,7 +247,7 @@ da un’istanza della classe o delle sue derivate, ma anche con un’altra istan
 come receiver. Per chiarificare meglio il concetto, consideriamo questo
 semplice esempio adattato dalle [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # public per default

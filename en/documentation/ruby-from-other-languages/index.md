@@ -77,7 +77,7 @@ they can be used for.
 Symbols can best be described as identities. A symbol is all about
 **who** it is, not **what** it is. Fire up `irb` and see the difference:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -236,7 +236,7 @@ private method call.
 called from a class or descendant class instances, but also with another
 instance as its receiver. Example, adapted from the [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # public by default

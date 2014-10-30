@@ -64,7 +64,7 @@ z # => true
 
 Symbols 就如同一個識別符號。一個 symbol 就代表它是”誰”了，而不是代表它是”什麼”。打開 `irb` 來看一看它們的區別：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -197,7 +197,7 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
 
 `protected` 也有點不同。一個 protected 方法除了可以被一個類別或衍生類別的實例呼叫，也可以讓另一個相同類別的實例來當做接受者。 來看看 [Ruby FAQ][1] 的例子：
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # 預設是 public 的

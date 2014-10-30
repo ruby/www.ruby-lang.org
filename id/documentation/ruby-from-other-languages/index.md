@@ -97,7 +97,7 @@ Symbol dapat dijelaskan sebagai identitas. Symbol merupakan sebuah hal
 tentang **siapa** ini, bukan **apa** ini. Buka `irb` dan perhatikan
 perbedaan berikut ini:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :joko.object_id == :joko.object_id
 => true
 irb(main):002:0> "joko".object_id == "joko".object_id
@@ -264,7 +264,7 @@ pemanggilan metode private.
 
 `protected` perlu diperhatikan lebih lanjut. Metode `protected` bisa dipanggil dari kelas ataupun *instance* kelas turunan, tetapi juga dengan *instance* lain sebagai penerima. Contoh, diadaptasi dari [Ruby FAQ][2]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # metode berikut secara default adalah public

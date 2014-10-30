@@ -77,7 +77,7 @@ Semboller en iyi kimlikler olarak açıklanabilir. Bir sembolle ilgili
 sorulacak olan **ne** olduğu değil **kim** olduğudur. Konsalda `irb`
 girin ve farkı görelim:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -221,7 +221,7 @@ erişilebileceğini belirtir ve bu alıcı sadece **self** olabilir.
 
 `protected` incelenmesi gereken birşey. Bir protected metod sınıfın yada türetilmiş sınıfın oluşumlarından çağrılabilir, ayrıca diğer oluşum üzerinden çağrılabilir. Örnek, [Ruby FAQ][1] alınmıştır:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # default olarak public

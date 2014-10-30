@@ -72,7 +72,7 @@ Symbole są podobną klasą obiektów, co liczby. Każde wystąpienie tej
 samej liczby w wyrażeniu zawsze odnosi się do tego samego obiektu.
 Spójrz na ten przykład:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -230,7 +230,7 @@ Jedynie **self** jest dozwolonym odbiorcą wywołań prywatnych metod.
 
 `protected` jest tym, na co trzeba zwrócić uwagę. Metoda chroniona może być wywołana przez instancje danej klasy lub klas pochodnych, ale również przez inną instancję danej klasy. Poniżej przykład za [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # domyślnie metoda publiczna

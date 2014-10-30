@@ -72,7 +72,7 @@ z # => true
 심볼은 최선의 아이덴티티라고 할 수 있습니다. 심볼은 **무엇**인지에 대한
 것이 아니라 **누구**인지에 대한 것입니다. `irb`에서 차이점을 확인해 보세요.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -224,7 +224,7 @@ end
 클래스나 하위 클래스 인스턴스에서 호출할 수 있고, 다른 인스턴스를 리시버로
 사용할 수 있습니다. [루비 FAQ][1]에서 가져온 예제입니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # 기본값은 public입니다.

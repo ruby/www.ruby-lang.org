@@ -84,7 +84,7 @@ sur le *ce que*—il ne s’agit pas de déterminer la nature de ce qui est,
 mais bien de savoir ce qui est. Le test suivant dans IRB illustre la
 notion :
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -251,7 +251,7 @@ avec une autre instance comme destinataire.
 
 Un exemple, repris de la [FAQ Ruby][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # publique par défaut

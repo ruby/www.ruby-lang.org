@@ -66,7 +66,7 @@ z # => true
 
 符号最好的描述是身份证。一个符号代表了它是“谁”，而不是代表了它是“什么”。 打开 `irb` 来看一看他们的区别：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -191,7 +191,7 @@ Ruby 有些不同。`public` 还是公开的。`private`
 
 `protected` 应该特别注意。保护函数可以被类及继承类的实例调用，当其他实例作为接收者时，也可以被调用。 来自[Ruby FAQ][1] 的例子:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # public by default

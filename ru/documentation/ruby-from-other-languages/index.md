@@ -75,7 +75,7 @@ z # => true
 Символы лучше всего сравнить с уникальными идентификаторами. Символ это скорее сам
 знак, а не то, что он означает. Запустите `irb`, чтобы почувствовать разницу:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
 => true
 irb(main):002:0> "george".object_id == "george".object_id
@@ -228,7 +228,7 @@ end
 инстнансом текущего или дочернего класса, однако может иметь вызывающей стороной
 другой инстанс. Пример, позаимствованный из [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # публичный метод по умолчанию

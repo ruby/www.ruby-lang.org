@@ -86,7 +86,7 @@ para quê que podem ser utilizados.
 Símbolos podem ser descritos como identidades. Um símbolo é tudo sobre
 **quem** é, não sobre **o que** é. Arranque o `irb` e veja a diferença:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :jorge.object_id == :jorge.object_id
 => true
 irb(main):002:0> "jorge".object_id == "jorge".object_id
@@ -248,7 +248,7 @@ Only **self** is allowed to be the receiver of a private method call.
 
 `protected` é aquele que se deve ter mais cuidado. Um método protegido pode ser chamado de uma class ou classes descendentes, mas também com outra instância como receptor. Exemplo adaptado da [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Teste
 irb(main):002:1>   # public por omissao

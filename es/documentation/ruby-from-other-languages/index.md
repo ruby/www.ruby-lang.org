@@ -93,7 +93,7 @@ Los symbols pueden ser descritos como identidades. Lo importante de un
 Symbol es **quién** es, no **qué** es. Arranca `irb` y experimenta la
 diferencia:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> :jorge.object_id == :jorge.object_id
 => true
 irb(main):002:0> "jorge".object_id == "jorge".object_id
@@ -254,7 +254,7 @@ ancestros, pero también con otra instancia como su receptor.
 
 Ejemplo, adaptado del [Ruby FAQ][1]\:
 
-{% highlight ruby %}
+{% highlight irb %}
 $ irb
 irb(main):001:0> class Test
 irb(main):002:1>   # public por defecto
