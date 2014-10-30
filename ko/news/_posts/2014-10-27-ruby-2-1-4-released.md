@@ -22,7 +22,7 @@ lang: ko
 
 **갱신:** 2.1.3에 있었던 회귀는 이제 수정되었습니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 >> { key: if true then 0 else 1 end }
 SyntaxError: (irb):1: syntax error, unexpected modifier_if
 { key: if true then 0 else 1 end }

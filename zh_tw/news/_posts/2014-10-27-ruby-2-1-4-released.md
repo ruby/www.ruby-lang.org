@@ -21,7 +21,7 @@ Ruby 2.1.4 已經發佈了。
 
 **更新：** 2.1.3 引入的功能退化（regression），在 2.1.4 已經修正了：
 
-{% highlight ruby %}
+{% highlight irb %}
 >> { key: if true then 0 else 1 end }
 SyntaxError: (irb):1: syntax error, unexpected modifier_if
 { key: if true then 0 else 1 end }

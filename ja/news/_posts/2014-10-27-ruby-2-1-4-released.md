@@ -20,7 +20,7 @@ Ruby 2.1.4 がリリースされました。これは安定版 2.1 系のパッ�
 
 __追記:__ 2.1.3 において下記 regression が発生していましたが、本バージョンにて修正されています。
 
-{% highlight ruby %}
+{% highlight irb %}
 >> { key: if true then 0 else 1 end }
 SyntaxError: (irb):1: syntax error, unexpected modifier_if
 { key: if true then 0 else 1 end }

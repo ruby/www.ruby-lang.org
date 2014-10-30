@@ -24,7 +24,7 @@ für weitere Informationen.
 
 **Update:** In Ruby 2.1.3 trat ein Regressionsfehler auf, der nun behoben ist:
 
-{% highlight ruby %}
+{% highlight irb %}
 >> { key: if true then 0 else 1 end }
 SyntaxError: (irb):1: syntax error, unexpected modifier_if
 { key: if true then 0 else 1 end }
