@@ -40,7 +40,7 @@ Ruby устанавливается вместе с программой, кот
   меню Пуск.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -48,7 +48,7 @@ irb(main):001:0>
 
 Наберите это: `"Hello World"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -61,7 +61,7 @@ irb(main):001:0> "Hello World"
 Если мы хотим напечатать "Hello World", мы должны написать немного
 больше:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -77,7 +77,7 @@ Hello World
 Теперь мы знаем достаточно, чтобы использовать IRB как простейший
 калькулятор:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -89,14 +89,14 @@ irb(main):003:0> 3+2
 так - вы можете использовать стрелку влево, чтобы переместить курсор
 прямо за `+`, нажать backspace и поменять его на `*`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 Теперь давайте попробуем возвести три в квадрат:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -104,7 +104,7 @@ irb(main):005:0> 3**2
 В руби `**` – способ возвести число в степень. Но что если вы хотите
 пойти в обратном направлении и узнать квадратный корень от чего-либо?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -133,7 +133,7 @@ irb(main):006:0> Math.sqrt(9)
 Что если мы хотим запомнить результат какой-либо математической
 операции? Присвойте это значение переменной.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

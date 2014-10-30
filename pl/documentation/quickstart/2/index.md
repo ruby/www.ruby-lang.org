@@ -20,7 +20,7 @@ header: |
 Co jeśli chcielibyśmy mówić “Hello World” tak aby nasze palce się nie
 zmęczyły ? Musimy zdefiniować metodę!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -38,7 +38,7 @@ definiować metodę. Odpowiedź Rubiego `=> nil` mówi nam, że zrozumiał to,
 
 Teraz wypróbujmy uruchomić tę metodę kilka razy:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -56,7 +56,7 @@ Co jeśli chcielibyśmy mówić “hello” do konkretnej osoby a nie do całego
 świata ? Musimy po prostu przedefiniować `h` aby przyjmowała imię jako
 parametr.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -76,7 +76,7 @@ jużnim nie jest) i umieszczana wewnątrz otaczającego ją stringa. Możesz
 użyć tego sposobu na przykład aby upewnić się, że czyjeś imię jest
 drukowane z dużej litery:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -101,7 +101,7 @@ Co jeśli chcielibyśmy mieć prawdziwą klasę witającą, taką, która
 zapamiętuje twoje imię, wita Cię i traktuje zawsze z szacunkiem. Do tego
 celu użyjemy obiektu. Stwórzmy klasę “Greeter”.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

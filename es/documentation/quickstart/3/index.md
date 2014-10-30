@@ -19,7 +19,7 @@ header: |
 
 Ahora vamos a crear y usar un objeto anfitrión:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> a = Anfitrion.new("Juan")
 => #<Anfitrion:0x16cac @nombre="Juan">
 irb(main):036:0> a.decir_hola
@@ -33,7 +33,7 @@ Adiós Juan, vuelve pronto.
 Una vez que el objeto `a` es creado, nos recuerda que el nombre es Juan.
 Mmm, ¿y si queremos acceder al nombre directamente?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> a.@nombre
 SyntaxError: compile error
 (irb):52: syntax error
@@ -52,7 +52,7 @@ privados posible.
 
 Entonces, ¿qué métodos están disponibles para los objetos Anfitrion?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Anfitrion.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -74,7 +74,7 @@ los métodos definidos para la clase Anfitrion podemos pedirle que no
 incluya sus ancestros pasándole el parámetro `false`, que significa que
 no queremos los métodos definidos por sus ancestros.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Anfitrion.instance_methods(false)
 => ["decir_adios", "decir_hola"]
 {% endhighlight %}
@@ -82,7 +82,7 @@ irb(main):040:0> Anfitrion.instance_methods(false)
 Ah, hay más cosas como esa. Veamos a qué métodos puede responder nuestro
 objeto anfitrión:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> a.respond_to?("nombre")
 => false
 irb(main):042:0> a.respond_to?("decir_hola")
@@ -100,7 +100,7 @@ objetos), pero no reconoce `nombre` como un método.
 ¿Pero qué pasa si quieres poder ver o modificar el nombre? Ruby provee
 una forma fácil para permitir acceder a las variables de un objeto.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Anfitrion
 irb(main):045:1>   attr_accessor :nombre
 irb(main):046:1> end
@@ -112,7 +112,7 @@ objetos que ya existan, pero afecta a los nuevos objetos que puedas
 crear. Así que vamos a crear un nuevo objeto y juguemos con su propiedad
 `@nombre`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> a = Anfitrion.new("Pedro")
 => #<Anfitrion:0x3c9b0 @nombre="Pedro">
 irb(main):048:0> a.respond_to?("nombre")

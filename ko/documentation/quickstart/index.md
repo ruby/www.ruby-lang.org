@@ -37,13 +37,13 @@ irb(Interactive Ruby의 약자)를 시작하십시오.
 * **Windows**를 사용한다면, 시작 메뉴의 루비 섹션에서 `fxri`를 시작합니다.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
 이제 irb 프롬프트에 `“Hello World”`라고 입력해 봅니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -55,7 +55,7 @@ irb(main):001:0> "Hello World"
 보여준 것뿐입니다. 만약 “Hello World”를 출력하고 싶다면, 다음과
 같이 해야 합니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -70,7 +70,7 @@ Hello World
 
 irb는 계산기로 쓰기에도 무척 유용합니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -80,21 +80,21 @@ irb(main):003:0> 3+2
 아마도 `3+2`가 나올 겁니다. 화살표 키로 커서를 움직여서 `+`를 `*`로
 바꾸어 보세요.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 이번에는 3의 제곱을 계산해보죠.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
 
 루비에서 `**`는 "거듭제곱"을 뜻합니다. 제곱근은 어떻게 구할까요?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -121,7 +121,7 @@ irb(main):006:0> Math.sqrt(9)
 계산의 결과 값을 저장해두고 싶다면 어떻게 해야 할까요? 변수에 할당해두면
 됩니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

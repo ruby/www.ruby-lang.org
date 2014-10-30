@@ -36,7 +36,7 @@ Zuerst starten wir die interaktive Ruby-Konsole: IRB.
   Start-Menüs heraus.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -44,7 +44,7 @@ So, IRB ist nun gestartet. Wie geht es weiter?
 
 Gib folgendes ein: `"Hallo, Welt!"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hallo, Welt!"
 => "Hallo, Welt!"
 {% endhighlight %}
@@ -57,7 +57,7 @@ Zeile teilt uns IRB lediglich das Ergebnis des letzten ausgewerteten
 Ausdrucks mit. Wenn wir “Hallo, Welt!” auf den Bildschirm ausgeben
 wollen, müssen wir ein bisschen mehr tun:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hallo, Welt!"
 Hallo, Welt!
 => nil
@@ -73,7 +73,7 @@ nichts”).
 Wir haben schon genügend Informationen, um IRB als einfachen
 Taschenrechner zu benutzen:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -87,14 +87,14 @@ Pfeil-nach-links-Taste den Cursor direkt hinter das `+`-Zeichen setzen,
 dort einfach Backspace drücken und es so zu einem `*`-Zeichen (dem
 Multiplikations-Operator) umändern.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 Probieren wir als nächstes Drei zum Quadrat aus:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -102,7 +102,7 @@ irb(main):005:0> 3**2
 In Ruby sagt man `**`, wenn man “hoch” sagen will. Aber was, wenn man
 den umgekehrten Weg gehen und die Quadratwurzel von etwas finden will?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -132,7 +132,7 @@ liefert die Methode immer eine Fließkomma-Zahl.
 Was, wenn wir nun das Ergebnis eine dieser Rechnungen behalten wollen?
 Dann weisen wir das Ergebnis einfach einer Variablen zu.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

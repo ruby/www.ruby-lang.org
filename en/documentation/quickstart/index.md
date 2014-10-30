@@ -40,7 +40,7 @@ Open up IRB (which stands for Interactive Ruby).
   Start Menu.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -48,7 +48,7 @@ Ok, so it’s open. Now what?
 
 Type this: `"Hello World"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -60,7 +60,7 @@ program? Not exactly. The second line is just IRB’s way of telling us
 the result of the last expression it evaluated. If we want to print out
 “Hello World” we need a bit more:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -74,7 +74,7 @@ always returns nil, which is Ruby’s absolutely-positively-nothing value.
 
 Already, we have enough to use IRB as a basic calculator:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -86,14 +86,14 @@ keyboard and see if it brings up the line with `3+2` on it. If it does,
 you can use the left arrow key to move just after the `+` sign and then
 use backspace to change it to a `*` sign.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 Next, let’s try three squared:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -101,7 +101,7 @@ irb(main):005:0> 3**2
 In Ruby `**` is the way you say “to the power of”. But what if you want
 to go the other way and find the square root of something?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -129,7 +129,7 @@ floating-point number.
 What if we want to remember the result of some of this math? Assign the
 result to a variable.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

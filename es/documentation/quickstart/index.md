@@ -36,7 +36,7 @@ Arranca el IRB.
   Menú de Inicio.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -44,7 +44,7 @@ Bien, ahora está abierto. ¿Y ahora qué?
 
 Escribe esto: `"Hola Mundo"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hola Mundo"
 => "Hola Mundo"
 {% endhighlight %}
@@ -57,7 +57,7 @@ forma que tiene IRB para decirnos el resultado de la última expresión
 evaluada. Si queremos que el programa escriba “Hola Mundo” necesitamos
 un poco más:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hola Mundo"
 Hola Mundo
 => nil
@@ -72,7 +72,7 @@ nada” en Ruby.
 
 Pronto, tenemos suficiente para usar IRB como una calculadora básica:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -84,14 +84,14 @@ arriba** en tu teclado y verifica si aparece la linea con `3+2` escrito.
 Si es así, puedes usar la **flecha hacia la izquierda** para
 posicionarte junto al signo `+` y cambiarlo por un `*`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 Ahora intentemos tres al cuadrado:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -99,7 +99,7 @@ irb(main):005:0> 3**2
 En Ruby `**` es la forma que tienes para decir “elevado al”. ¿Y qué tal
 si quieres hacer lo inverso y encontrar la raíz cuadrada de algo?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -129,7 +129,7 @@ siempre retorna un número flotante.
 ¿Y qué pasa si queremos recordar el resultado de algunas de estas
 operaciones? Asigna el resultado a una variable.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

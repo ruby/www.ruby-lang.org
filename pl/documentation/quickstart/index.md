@@ -36,7 +36,7 @@ Otwórz IRB’a.
   Start.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -44,7 +44,7 @@ Ok, udało się otworzyć IRB’a. Co teraz?
 
 Wpisz: `"Hello World"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -56,7 +56,7 @@ Co się stało? Czy właśnie napisaliśmy najkrótszy na świecie program
 informuje nas o wyniku ostatniego wyrażenia jakie wykonał. Jeśli chcemy
 wyświetlić “Hello World” potrzebujemy troszkę więcej:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -72,7 +72,7 @@ jakiejkolwiek wartości.
 Mamy już wystarczająco informacji, aby użyć IRB’a jako prostego
 kalkulatora:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -85,14 +85,14 @@ z tekstem `3+2` . Jeśli pojawi się, wtedy możesz użyć strzałki w lewo
 aby ustawić kursor zaraz za znakiem plus `+` nacisnąć klawisz backspace
 i zamienić plus na `*`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 Następnie, wypróbujmy potęgowania:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -100,7 +100,7 @@ irb(main):005:0> 3**2
 W Rubim `**` jest sposobem zapisu potęgowania. Co jeśli chciałbyś pójść
 odwrotną drogą i obliczyć pierwiastek kwadratowy danej liczby ?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -129,7 +129,7 @@ ta metoda zawsze zwraca liczbę zmiennoprzecinkową.
 Co jeśli chcialibyśmy zapamiętać wynik naszych obliczeń ? Przypiszmy
 wynik do zmiennej.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

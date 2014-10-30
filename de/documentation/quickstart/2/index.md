@@ -20,7 +20,7 @@ header: |
 Was machen wir, wenn wir ganz oft “Hallo” sagen wollen, ohne uns die
 Finger wund zu tippen? Wir definieren eine Methode!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1>   puts "Hallo, Welt!"
 irb(main):012:1> end
@@ -39,7 +39,7 @@ das nun weiß.
 
 Rufen wir nun die Methode ein paar Mal auf:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hallo, Welt!
 => nil
@@ -58,7 +58,7 @@ Was, wenn wir nun Hallo zu einer ganz bestimmten Person statt zur ganzen
 Welt sagen möchten? Dann definieren wir `h` einfach neu, so dass ein
 Name als Parameter akzeptiert wird:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1>   puts "Hallo, #{name}!"
 irb(main):017:1> end
@@ -80,7 +80,7 @@ der entsprechenden Stelle innerhalb der Zeichenkette eingefügt. Das kann
 man auch dazu benutzen, um sicherzugehen, dass der Name einer Person mit
 einem Großbuchstaben anfängt:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "Welt")
 irb(main):020:1>   puts "Hallo, #{name.capitalize}!"
 irb(main):021:1> end
@@ -107,7 +107,7 @@ erinnert, Dich willkommenheißt und Dich immer mit Respekt behandelt?
 Dafür erzeugen wir am besten ein Objekt. Lass uns also eine Klasse
 “Greeter” (“Begrüßer”) schreiben!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "Welt")
 irb(main):026:2>     @name = name

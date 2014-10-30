@@ -20,7 +20,7 @@ header: |
 Eğer parmaklarımızı çok yormadan defalarca “Hello” demek istersek ? Bir
 metot tanımlamamız gerekiyor!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -38,7 +38,7 @@ belirtir.
 
 Şimdi bu metodu birkaç defa çalıştıralım:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -55,7 +55,7 @@ bir metot çağırdığınızı belirtebilirsiniz, ama gereği yok.
 Eğer dünyaya değil de bir kişiye merhaba demek istersek ne olacak? Hemen
 `h` metodunu bu sefer parametre alacak şekilde tekrar tanımlayalım.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -74,7 +74,7 @@ yoludur. Süslü parantez içindeki kısım stringe çevrilir ve ana string
 içine bu noktada eklenir. Bunu verilen ismin ilk harfinin büyük
 olduğundan emin olmak için kullanabilirsiniz:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -99,7 +99,7 @@ Eğer bir selamlayıcı yapmak istersek, adınızı hatırlayacak ve sizi
 karşılayacak, sonra uğurlayacak. Bunu yapmak için bir nesne kullanmak
 isteyebilirsiniz. Bir “Greeter” sınıfı oluşturalım.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

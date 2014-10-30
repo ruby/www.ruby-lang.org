@@ -19,7 +19,7 @@ header: |
 
 如果您想说很多次”Hello”，却不想把手指累酸的话，是定义一个函数的时候啦！
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -33,7 +33,7 @@ irb(main):012:1> end
 
 我们来试着把这个函数调用几次：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -47,7 +47,7 @@ Hello World!
 
 如果您想对一个人而不是全世界说您好呢？只要让 `h` 函数接受一个参数就可以了。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -64,7 +64,7 @@ Hello Matz!
 啥是 `#{name}` 啊？这是 Ruby 用来往字符串中插入信息的方法。大括号里面的代码会被替换为评估后的字符串
 （如果他们还不是字符串的话）然后插入到包含大括号的原始字符串中去。 您可以用这个方法将人名大写：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -85,7 +85,7 @@ Hello World!
 让我们更有礼貌一些，不光记住您的名字，还在您到来的时候欢迎您，并且始终彬彬有礼。 您可以开始使用对象了。我们先建立 ”Greeter”
 (有礼貌的人) 类。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

@@ -19,7 +19,7 @@ header: |
 
 손가락에 무리를 주지 않으면서 “Hello”를 여러번 말하고 싶다면 어떻게 해야 할까요? 메서드를 정의해야 한답니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -36,7 +36,7 @@ irb(main):012:1> end
 
 이제 정의한 메서드를 몇번 호출해 보겠습니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -51,7 +51,7 @@ Hello World!
 온세상에 “Hello”라고 외치는 대신에 특정 사람에게 인사를 건네고 싶다면 어떻게 해야
 할까요? 사람 이름을 파라메터로 받도록 `h`를 다시 정의하면 됩니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -69,7 +69,7 @@ Hello Matz!
 중괄호 사이의 부분이 문자열로 변환되어 (이미 문자열이 아니라면) 전체 문자열의 그
 지점에 삽입되는 것이지요. 사람 이름의 첫글자를 대문자로 만들어주는 것도 가능합니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -92,7 +92,7 @@ Hello World!
 손님의 이름을 기억하고 항상 정중하게 마중과 배웅을 하는 하인을 두는 것은 어떨까요? 객체를 사용하는 것이 좋을 것 같습니다.
 “Greeter” 클래스를 만들도록 하지요.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

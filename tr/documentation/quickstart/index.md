@@ -40,7 +40,7 @@ IRB’i açın (Interactive Ruby anlamına gelir).
   çalıştırın.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -48,7 +48,7 @@ Tamam açıldı şimdi ne yapacağız?
 
 Şunu yazın : `"Hello World"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -60,7 +60,7 @@ Tam olarak değil. İkinci satır sadece IRB’in yaptığı işlemin sonucunu
 bildirme tekniği. Eğer ekrana “Hello World” yazdırmak istiyorsak daha
 fazla birşeyler yapmalıyız:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -74,7 +74,7 @@ ifade eden nil değerini döndürür.
 
 IRB basit bir hesap makinası olarak kullanılabilir:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -84,14 +84,14 @@ gibi bir önce girdiğiniz satırı yukarı tuşuna basarak tekrar
 çağırabilirsiniz. Yukarı tuşuna basıp bunu test edin `+` işaretinin
 üstüne gidip silin ve `*` ile değiştirin.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 Sonra üçün karesini bulalım:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -99,7 +99,7 @@ irb(main):005:0> 3**2
 Ruby’de `**` “üssü” demenin yoludur. Fakat bir sayının karekökü için ne
 yapmalı?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -125,7 +125,7 @@ noktalı bir sayı geri döndürür.
 Peki bazı matematik işlemlerimizin sonucunu hatırlamak istersek? Cevabı
 bir değişkene atama yaparız.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

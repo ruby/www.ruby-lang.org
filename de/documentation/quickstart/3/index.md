@@ -19,7 +19,7 @@ header: |
 
 Erzeugen wir nun ein Greeter-Objekt und benutzen es:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Patrick")
 => #<Greeter:0x16cac @name="Patrick">
 irb(main):036:0> g.sag_hallo
@@ -33,7 +33,7 @@ Tschuess, Patrick, bis bald!
 Wenn `g` einmal erzeugt wurde, merkt es sich, dass der Name Patrick ist.
 Hmm, und wenn wir direkt auf den Namen im Objekt zugreifen wollen?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -51,7 +51,7 @@ benutzt den guten objektorientieren Ansatz der Datenkapselung.
 
 Welche Methoden existieren nun für Greeter-Objekte?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -73,7 +73,7 @@ Methoden auflisten wollen, die für Greeter definiert wurden, können wir
 aber festlegen, dass die Eltern-Klassen nicht berücksichtigt werden
 sollen, indem wir `false` als Parameter angeben.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["sag_hallo", "sag_tschuess"]
 {% endhighlight %}
@@ -81,7 +81,7 @@ irb(main):040:0> Greeter.instance_methods(false)
 Aha, das sieht schon besser aus! Nun schauen wir mal, auf welche
 Methoden unser Greeter-Objekt reagiert:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("sag_hallo")
@@ -100,7 +100,7 @@ Aber was, wenn wir es ermöglichen wollen, dass man den Namen ansehen
 oder ändern kann? Ruby liefert eine einfache Möglichkeit, Zugriff auf
 die Variablen eines Objekts zu gewähren.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -113,7 +113,7 @@ sogar von bereits existenten Objekten übernommen. Erzeugen wir also ein
 neues Objekt und spielen ein bisschen mit dessen `@name`-Eigenschaft
 herum.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andreas")
 => #<Greeter:0x3c9b0 @name="Andreas">
 irb(main):048:0> g.respond_to?("name")

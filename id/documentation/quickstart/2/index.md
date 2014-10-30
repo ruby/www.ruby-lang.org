@@ -21,7 +21,7 @@ Bagaimana jika kita ingin mengatakan “Hello” sekaligus banyak tanpa
 membuat jari dan tangan kita semua kelelahan? Kita perlu mendefinisikan
 metode!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1>   puts "Hello World!"
 irb(main):012:1> end
@@ -40,7 +40,7 @@ kalau kita sudah selesai mendefinisikan metode `h` tersebut.
 
 Sekarang mari kita coba menjalankan metode tersebut berulang kali:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -59,7 +59,7 @@ Bagaimana kalau kita ingin bilang hello ke orang, dan bukan bilang hello
 ke seluruh dunia? Caranya, Anda tinggal mendefinisikan ulang metode `h`
 agar menerima `name` sebagai parameter.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1>   puts "Hello #{name}!"
 irb(main):017:1> end
@@ -81,7 +81,7 @@ juga bisa menggunakan tanda pagar dan kurung kurawal ini untuk
 memastikan nama seseorang tersebut telah diubah menjadi kapital huruf
 depannya (singkatnya, dikapitalkan, bahasa Inggrisnya, di-capitalize):
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1>   puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -108,7 +108,7 @@ nama Anda dan menyambut Anda dengan ucapan selamat datang dan juga yang
 selalu memperlakukan Anda dengan hormat. Anda akan membutuhkan obyek
 untuk keperluan itu. Maka, mari kita buat kelas “TukangSapa”.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class TukangSapa
 irb(main):025:1>   def initialize(name = "Dunia")
 irb(main):026:2>     @name = name

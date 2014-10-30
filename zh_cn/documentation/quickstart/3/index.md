@@ -19,7 +19,7 @@ header: |
 
 我们来建立一个 greeter 对象然后使用它：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -32,7 +32,7 @@ Bye Pat, come back soon.
 
 当 `g` 对象被建立后，它就记住了名字属性的值 Pat。Hmm… 如果我们想直接读取名字的值呢？
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -48,7 +48,7 @@ SyntaxError: compile error
 
 到底 Greeter 有哪些函数呢？
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -66,14 +66,14 @@ irb(main):039:0> Greeter.instance_methods
 的函数，当然也就包括了它所继承的类的函数了。如果我们只希望列出 Greeter 自己的函数，可以提供一个 `false` 参数给
 `instance_methods`，表示我们不希望列出祖先类的函数。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
 
 看起来好多了。我们来看看 greeter 会对哪些函数作出回应：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -88,7 +88,7 @@ irb(main):043:0> g.respond_to?("to_s")
 
 假如您想获取甚至改变名字属性呢？Ruby 提供了一个简单的方法来访问属性。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -98,7 +98,7 @@ irb(main):046:1> end
 在 Ruby 里，您可以把一个类打开然后改变它。这些改变会对以后生成的甚至是已经生成的对象产生即时效果。 下面我们来建一个新的 Greeter
 对象，然后看一看它的 `@name` 属性。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")

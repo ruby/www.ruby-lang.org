@@ -20,7 +20,7 @@ header: |
 Se vogliamo dire “Ciao” molte volte senza stancarci troppo le dita?
 Dobbiamo definire un metodo!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def c
 irb(main):011:1> puts "Ciao Mondo!"
 irb(main):012:1> end
@@ -38,7 +38,7 @@ che ha capito che abbiamo finito la creazione del metodo.
 
 Ora proviamo questo metodo più volte:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> c
 Ciao  Mondo!
 => nil
@@ -55,7 +55,7 @@ delle parentesi vuote, ma non sono necessarie.
 E se vogliamo dire “ciao” ad una sola persona e non a tutto il mondo?
 Basta ridefinire `c` in modo che accetti “nome” come parametro.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def c(nome)
 irb(main):016:1> puts "Ciao #{nome}!"
 irb(main):017:1> end
@@ -75,7 +75,7 @@ stringa (se non lo è già) e sostituito col valore a cui fa riferimento.
 Puoi anche utilizzare questa strada per essere sicuro che un nome abbia
 le iniziali maiuscole:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def c(nome = "Mondo")
 irb(main):020:1> puts "Ciao #{nome.capitalize}!"
 irb(main):021:1> end
@@ -100,7 +100,7 @@ Se vogliamo veramente una “persona” cordiale, che ricorda il tuo nome,
 che ti saluta e che ti tratta sempre con rispetto dobbiamo creare un
 oggetto. Creiamo quindi una classe chiamata “PersonaCordiale”.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class PersonaCordiale
 irb(main):025:1>   def initialize(nome = "Mondo")
 irb(main):026:2>     @nome = nome

@@ -19,7 +19,7 @@ header: |
 
 Agora vamos criar e usar um objecto Anfitrião:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> h = Anfitriao.new("João")
 => #<Anfitriao:0x16cac @nome="João">
 irb(main):036:0> h.dizer_ola
@@ -33,7 +33,7 @@ Adeus João, volta em breve.
 Uma vez criado o objecto `h`, lembra-nos que o nome é João. Mmm, e se
 quisermos aceder directamente ao nome?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> h.@nome
 SyntaxError: compile error
 (irb):52: syntax error
@@ -52,7 +52,7 @@ possíveis.
 
 Então, que métodos estão disponíveis para os objectos Anfitrião?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Anfitriao.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -74,7 +74,7 @@ definidos para a classe Anfitrião, podemos pedir-lhe que não inclua os
 métodos dos seus ancestrais passando-lhe o parâmetro `false`, que
 significa que não queremos os métodos definidos pelos seus ancestrais.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Anfitriao.instance_methods(false)
 => ["dizer_adeus", "dizer_ola""]
 {% endhighlight %}
@@ -82,7 +82,7 @@ irb(main):040:0> Anfitriao.instance_methods(false)
 Há mais coisas a explorar. Vejamos a que métodos pode responder o nosso
 objecto Anfitrião:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> h.respond_to?("nome")
 => false
 irb(main):042:0> h.respond_to?("dirzer_ola")
@@ -101,7 +101,7 @@ método.
 E se quiser alterar o nome? Ruby oferece uma forma fácil de lhe permitir
 o acesso às variáveis de um objecto.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Anfitriao
 irb(main):045:1>   attr_accessor :nome
 irb(main):046:1> end
@@ -113,7 +113,7 @@ objectos já existentes, mas afecta os novos objectos que se possam
 criar. Assim vamos criar um novo objecto e vamos brincar com a sua
 propriedade `@nome`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> h = Anfitriao.new("Pedro")
 => #<Anfitriao:0x3c9b0 @nome="Pedro">
 irb(main):048:0> h.respond_to?("nome")

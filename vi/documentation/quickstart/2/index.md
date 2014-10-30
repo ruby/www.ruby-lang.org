@@ -20,7 +20,7 @@ header: |
 Nếu muốn nói "Xin chào" rất nhiều mà không muốn mỏi tay, ta cần định nghĩa một
 phương thức!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Xin chào Thế giới!"
 irb(main):012:1> end
@@ -37,7 +37,7 @@ xong phương thức. Ruby trả lại `=> nil` để xác nhận.
 
 Bây giờ ta sẽ chạy phương thức vừa rồi vài lần:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Xin chào Thế giới!
 => nil
@@ -53,7 +53,7 @@ trống nếu thích vì chúng cũng không cần thiết.
 Nếu bạn muốn nói xin chào tới một người mà không phải là cả thế giới, hãy định
 nghĩa lại `h` để thêm tên là tham số truyền vào.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(tên)
 irb(main):016:1>   puts "Xin chào #{tên}!"
 irb(main):017:1> end
@@ -72,7 +72,7 @@ Nó đã hoạt động... nhưng hãy dành vài giây để xem có gì ở đ
 chèn vào xâu bên ngoài tại chỗ mà đoạn đó được viết. Bạn có thể sử dụng cái này
 để chắc chắn rằng tên của ai đó đã được viết hoa:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(tên = "Thế giới")
 irb(main):020:1> puts "Xin chào #{tên.capitalize}!"
 irb(main):021:1> end
@@ -96,7 +96,7 @@ Phải làm gì nếu chúng ta muốn có những ChàoMừng thực sự ở x
 bạn, chào đón bạn và luôn kính trọng bạn. Bạn sẽ phải dùng đối tượng! Chúng ta
 sẽ tạo một lớp ChàoMừng.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class ChàoMừng
 irb(main):025:1>   def initialize(tên = "Thế giới")
 irb(main):026:2>     @tên = tên

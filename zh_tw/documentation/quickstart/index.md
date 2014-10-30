@@ -33,7 +33,7 @@ Ruby 附帶了一支程式可以讓你即時看到執行 Ruby 敘述的結果。
 * 如果你使用 **Windows**，請從開始選單中打開 Ruby 的 `fxri` 。
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -41,7 +41,7 @@ Ok，打開了，現在怎麼辦？
 
 請輸入：`"Hello World"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -51,7 +51,7 @@ irb(main):001:0> "Hello World"
 發生什麼事了? 你是不是剛剛寫下了全世界最短的 “Hello World” 程式？也不盡然。第二行只是 IRB
 告訴我們最後的敘述執行結果。如果我們需要輸出 “Hello World” 還需要多一行：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -64,7 +64,7 @@ nil，nil 在 Ruby 中表示一個絕對的空值。
 
 其實，我們已經可以用 IRB 來當做一個簡單的計算機了。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -72,21 +72,21 @@ irb(main):003:0> 3+2
 三加二，夠簡單了。那怎麼三乘二呢? 你可以試試，一點都不難，你也能夠隨意輸入數字試試。試著按按看 **上** 它會顯示上一行的
 `3+2`，然後你可以往左移動到 `+` 更改成 `*` 乘號。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 接下來，讓我們試試看三的平方：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
 
 在 Ruby 中 `**` 是 “次方” 的意思。但是如果你想開根號呢?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -106,7 +106,7 @@ irb(main):006:0> Math.sqrt(9)
 
 如果我們想記住運算的結果呢? 指定到一個變數即可。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

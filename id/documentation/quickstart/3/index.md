@@ -19,7 +19,7 @@ header: |
 
 Mari kita bikin obyek TukangSapa dan kita pakai:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> t = TukangSapa.new("Arie")
 => #<TukangSapa:0x6b274 @name="Arie">
 irb(main):014:0> t.say_hai
@@ -33,7 +33,7 @@ Bye Arie, datang lagi ya.
 Sekali obyek `t` dibuat, maka obyek `t` mengingat name adalah Arie. Hmm,
 bagaimana jika kita ingin mendapatkan nama saja langsung?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):017:0> t.@name
 SyntaxError: compile error
 (irb):17: syntax error, unexpected tIVAR
@@ -54,7 +54,7 @@ tersembunyi.
 
 Jadi metode-metode apa yang sebetulnya ada pada obyek TukangSapa?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):018:0> TukangSapa.instance_methods
 => ["inspect", "clone", "method", "public_methods",
 "instance_variable_defined?", "equal?", "freeze", "methods",
@@ -78,7 +78,7 @@ beritahu agar tidak memasukkan induk (ancestor) dengan melewatkan
 parameter `false`, artinya kita tidak menginginkan metode-metode yang
 didefinisikan kelas induk (ancestor).
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> TukangSapa.instance_methods(false)
 => ["say_bye", "say_hai"]
 {% endhighlight %}
@@ -86,7 +86,7 @@ irb(main):019:0> TukangSapa.instance_methods(false)
 Nah, begitu. Sekarang coba kita lihat metode yang mana dari obyek
 TukangSapa kita yang merespon siapa saja:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):020:0> t.respond_to?('name')
 => false
 irb(main):021:0> t.respond_to?('say_hai')
@@ -107,7 +107,7 @@ default untuk semua obyek), tetapi obyek tidak mengetahui tentang
 Tetapi bagaimana jika Anda ingin bisa melihat atau mengganti name? Ruby
 menyediakan cara yang mudah untuk mengakses variabel obyek.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class TukangSapa
 irb(main):025:1>   attr_accessor :name
 irb(main):026:1> end
@@ -120,7 +120,7 @@ dan bahkan tersedia/hadir juga pada obyek yang sudah ada dari kelas yang
 bersangkutan. Jadi, coba kita buat satu obyek baru dan bermain dengan
 property `@name`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):027:0> t = TukangSapa.new('Hendy')
 => #<TukangSapa:0x5b040 @name="Hendy">
 irb(main):028:0> t.respond_to?('name')

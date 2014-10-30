@@ -20,7 +20,7 @@ header: |
 What if we want to say “Hello” a lot without getting our fingers all
 tired? We need to define a method!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -39,7 +39,7 @@ But, it's not important here, so let's go on.
 
 Now let’s try running that method a few times:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -56,7 +56,7 @@ they’re not needed.
 What if we want to say hello to one person, and not the whole world?
 Just redefine `h` to take a name as a parameter.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -76,7 +76,7 @@ isn’t one already) and then substituted into the outer string at that
 point. You can also use this to make sure that someone’s name is
 properly capitalized:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -101,7 +101,7 @@ What if we want a real greeter around, one that remembers your name and
 welcomes you and treats you always with respect. You might want to use
 an object for that. Let’s create a “Greeter” class.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

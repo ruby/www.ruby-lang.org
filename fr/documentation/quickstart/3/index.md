@@ -19,7 +19,7 @@ header: |
 
 Maintenant, créons un objet de la classe `Greeter` et animons-le :
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -34,7 +34,7 @@ Une fois l’objet `g` créé, il se souvient que le nom qui lui est lié est
 Pat, comme indiqué à sa création. Il serait d’ailleurs intéressant de
 pouvoir récupérer directement ce nom. Essayons :
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -58,7 +58,7 @@ données et variables qui les renferment.
 Quelles sont les méthodes disponibles pour nos instances de la classe
 `Greeter` ?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -79,7 +79,7 @@ liste exhaustive des méthodes appliquables aux objets de la classe
 `Greeter`. Si nous voulons obtenir la listes des méthodes définies
 uniquement pour `Greeter`, il suffit de passer le paramètre `false`\:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
@@ -88,7 +88,7 @@ Ok, c’est déjà plus confortable. Et conforme. Vérifions que c’est vrai,
 en testant quelles méthodes reconnaissent effectivement les instances de
 `Greeter`\:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -107,7 +107,7 @@ Mais nous n’en démordrons pas : il nous *faut* un moyen de récupérer le
 nom lié à un objet. Comment faire ? Ruby propose un moyen très simple
 pour accéder aux variables d’instances :
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -120,7 +120,7 @@ Il semblerait que nous ayons défini une seconde fois la classe
 disponibles dans tout objet nouvellement créé, ainsi que dans ceux déjà
 existants ! Créons un nouvel objet et testons l’artifice :
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")

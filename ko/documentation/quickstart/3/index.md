@@ -19,7 +19,7 @@ header: |
 
 “greeter” 객체를 만들어서 사용해 봅시다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -32,7 +32,7 @@ Bye Pat, come back soon.
 
 `g` 객체가 만들어진 이후에는 “Pat”이란 이름을 기억합니다. 직접 이름을 접근할 수 있냐구요?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -46,7 +46,7 @@ SyntaxError: compile error
 객체 변수는 객체 안에 숨겨져 있습니다. 사실 객체 변수가 그렇게 꽁꽁 숨겨져 있는 것은 아니지만, 루비는 기본적으로 데이터를
 숨겨두는 객체지향 방식을 따르고 있습니다. “Greeter”의 객체들에는 어떤 메서드가 들어있을까요?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
   "__send__", "equal?", "taint", "frozen?",
@@ -65,14 +65,14 @@ irb(main):039:0> Greeter.instance_methods
 상속된 메서드도 포함하고 있기 때문입니다. `false`를 인자로 넘기면 부모 클래스에
 정의된 메서드를 제외한 리스트를 볼 수 있습니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
 
 우리의 “greeter” 객체가 어떤 메서드에 응답하는지를 개별적으로 확인하는 것도 가능합니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -90,7 +90,7 @@ irb(main):043:0> g.respond_to?("to_s")
 만약 "name"의 내용을 확인하고 또 변경하고 싶다면 어떻게 해야 할까요?
 루비는 객체 변수를 접근하게 해주는 편리한 방법을 제공하고 있습니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -101,7 +101,7 @@ irb(main):046:1> end
 이 변경사항은 이미 존재하고 있는 객체에도 영향을 줄수 있습니다.
 새로운 객체를 만들어서 `@name`에 접근해봅시다.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")
@@ -199,7 +199,7 @@ end
 위의 파일을 “ri20min.rb”로 저장을 하고, “ruby ri20min.rb”라고 입력해서 실행을 시키면,
 다음과 같은 결과가 나올것입니다.
 
-{% highlight ruby %}
+{% highlight irb %}
 Hello World!
 Goodbye World.  Come back soon!
 Hello Zeke!

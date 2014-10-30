@@ -36,7 +36,7 @@ Abrir o IRB.
   no seu menu Iniciar.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -44,7 +44,7 @@ Ok, abriu. E agora?
 
 Escreva isto: `"Ola Mundo"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Ola Mundo"
 => "Ola Mundo"
 {% endhighlight %}
@@ -56,7 +56,7 @@ programa «Olá mundo»? Não exactamente, a segunda linha é a forma de o
 IRB nos dizer qual o resultado da última expressão que avaliou. Se
 desejarmos imprimir «Ola Mundo» necessitamos de um pouco mais:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Ola Mundo"
 Ola Mundo
 => nil
@@ -71,7 +71,7 @@ o que em Ruby é o valor que representa o nada absoluto.
 Já temos neste momento conhecimento suficiente para utilizar o IRB como
 uma calculadora básica:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -84,14 +84,14 @@ tecla da seta para a esquerda para mover o cursor para a frente do sinal
 de mais `+` e depois use a tecla de backspace para mudar o sinal para
 `*`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 De seguida vamos tentar três ao quadrado:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -99,7 +99,7 @@ irb(main):005:0> 3**2
 Em Ruby `**` é a forma de dizer potência de. Mas o que acontece quando
 queremos saber o inverso disto ou seja a raiz quadrada de algo?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -128,7 +128,7 @@ método retorna sempre um número de vírgula flutuante.
 E se nos quisermos lembrar do resultado desta matemática toda? Podemos
 atribuir o resultado a uma variável.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

@@ -20,7 +20,7 @@ header: |
 Как да направим така, че да изписваме “Hello World” когато си поискаме,
 без да пишем низа всеки път ? Трябва да дефинираме метод !
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -36,7 +36,7 @@ irb(main):012:1> end
 
 Нека извикаме метода няколко пъти:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -51,7 +51,7 @@ Hello World!
 Изниква въпросът: как да кажем ‘Hello” на определен човек, а не на целия
 свят ? Просто трябва да дефинираме метода да приема параметър:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -68,7 +68,7 @@ Hello Matz!
 Изразът #\{name}@ представлява начин за вмъкване на променлива/метод в
 низ. Можем също така да приложим методът към нашата променлива `name`\:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -91,7 +91,7 @@ Hello World!
 поздравяваме и отнасяме с уважение към него, може да използваме обект.
 Нека напишем клас “Greeter”.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

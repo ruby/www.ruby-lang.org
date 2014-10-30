@@ -19,7 +19,7 @@ header: |
 
 Bene, creiamo il nostro oggetto PersonaCordiale e usiamolo:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> p = PersonaCordiale.new("Mario")
 => #<PersonaCordiale:0x16cac @nome="Mario">
 irb(main):036:0> p.saluta
@@ -33,7 +33,7 @@ Arrivederci Mario, a presto.
 Una volta che l’oggetto `p` è stato creato, ricorda che il nome è Mario.
 Ma cosa succede se vogliamo accedere direttamente al nome?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> p.@nome
 SyntaxError: compile error
 (irb):52: syntax error
@@ -51,7 +51,7 @@ agli oggetti per accedere ai dati nascosti.
 
 Quindi quanti metodi esistono per il l’oggetto PersonaCordiale?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> PersonaCordiale.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -72,14 +72,14 @@ superclasse. Ma se volessimo vedere solo quelli che abbiamo creato noi?
 Dobbiamo dirgli di non elencare il metodi della sua classe genitore
 (super classe) passandogli come parametro `false`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> PersonaCordiale.instance_methods(false)
 => ["saluta", "congeda"]
 {% endhighlight %}
 
 Ah, ora va meglio! Vediamo a quali metodi risponde la nostra classe:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> p.respond_to?("name")
 => false
 irb(main):042:0> p.respond_to?("saluta")
@@ -97,7 +97,7 @@ ogni oggetto), ma non conosce `name`.
 E se volessimo vedere o cambiare il nome? Ruby fornisce un modo semplice
 per permetterci di accedere alle variabili di un oggetto.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class PersonaCordiale
 irb(main):045:1>   attr_accessor :nome
 irb(main):046:1> end
@@ -109,7 +109,7 @@ aggiunti a tutti gli oggetti che crei e sempre disponibili per gli
 oggetti esistenti della classe. Quindi creiamo un nuovo oggetto e
 “giochiamo” con la sua proprietà `nome`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> p = PersonaCordiale.new("Luigi")
 => #<PersonaCordiale:0x3c9b0 @nome="Luigi">
 irb(main):048:0> p.respond_to?("nome")

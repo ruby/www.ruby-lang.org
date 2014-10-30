@@ -19,7 +19,7 @@ header: |
 
 Şimdi bir selamlayıcı nesnesi üretelim ve kullanalım:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -33,7 +33,7 @@ Bye Pat, come back soon.
 Birkez `g` nesnesi üretildi mi, ismin Pat olduğunu hep hatırlayacaktır.
 Hımm, peki ismi direk olarak almak istersek nolcak?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -51,7 +51,7 @@ kullanır.
 
 Pekala Greeter nesnesinin ne metotları mevcut?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -71,7 +71,7 @@ gelenler dahil. Eğer kalıtımdan gelen atalarının metotlarını görmek
 istemezsek az evvelki çağrıyı `false` prametresiyle yapmalıyız. Bunun
 anlamı kalıtımsal metotları istemediğimizdir.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
@@ -79,7 +79,7 @@ irb(main):040:0> Greeter.instance_methods(false)
 Ah, şimdi daha iyi. Haydi şimdide selamlayıcı nesnemiz hangi metotlara
 cevap veriyor, bulalım:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -96,7 +96,7 @@ kelimelerinin anlamını biliyor, fakat `name` anlamını bilmiyor.
 Fakat eğer ismi görmek ve değiştirmek isterseniz ne olacak? Ruby
 nesnenin değişkenlerine erişmek için kolay bir yol sunar.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -108,7 +108,7 @@ yeni üretilecek nesnelerde etkili olacağı gibi üretilmiş nesnelerde de
 etkilidir. Öyleyse yeni bir nesne üretelim ve onun `@name` özelliği ile
 biraz oynayalım.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")

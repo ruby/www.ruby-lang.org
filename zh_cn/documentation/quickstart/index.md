@@ -31,7 +31,7 @@ header: |
 * 如果您使用 **Windows**，打开 开始菜单 -&gt; Ruby -&gt; `fxri`
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
@@ -39,7 +39,7 @@ irb(main):001:0>
 
 输入：`"Hello World"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -49,7 +49,7 @@ irb(main):001:0> "Hello World"
 刚才是怎么回事啊？难道我们刚写了世界上最短的 “Hello World” 程序吗？ 不是的。第二行显示的只是 IRB
 给我们的上一个命令的返回值。 如果我们要打印 “Hello World” 的话，还需要更多一点代码：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -62,7 +62,7 @@ nil，nil 也是 Ruby 的空值。
 
 我们已经可以使用 IRB 提供的免费计算器啦！
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
@@ -70,21 +70,21 @@ irb(main):003:0> 3+2
 三加二很简单。三减二呢？您可以试试啊。虽然输入的命令很短，不过您可以在原来命令的基础上进行修改。 试着按一下 **上方键**
 看看是不是打出了原来输入的 `3+2`。 如果能正常显示出的话，您可以用**左方键**来移动光标直到 `+`，然后按退格删除它 并输入 `*`。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
 下面我们来试试次方：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
 
 在 Ruby 里 `**` 是”次方”的意思。但如果您想开根号呢？
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -104,7 +104,7 @@ irb(main):006:0> Math.sqrt(9)
 
 如果我们想记住运算结果呢？存到变量里吧。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

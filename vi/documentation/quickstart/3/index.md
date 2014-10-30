@@ -19,7 +19,7 @@ header: |
 
 Bây giờ, chúng ta hãy tạo một đối tượng ChàoMừng và sử dụng nó:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = ChàoMừng.new("Pat")
 => #<ChàoMừng:0x16cac @tên="Pat">
 irb(main):036:0> g.xin_chào
@@ -33,7 +33,7 @@ Tạm biệt Pat, hẹn gặp lại.
 Khi đối tượng `g` được tạo, nó nhớ rằng cái tên là Pat. Vậy nếu chúng ta muốn
 lấy một cái tên trực tiếp thì sao?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@tên
 SyntaxError: compile error
 (irb):52: syntax error
@@ -51,7 +51,7 @@ liệu ẩn đi phần nào.
 
 Vậy những phương thức nào tồn tại cho đối tượng ChàoMừng?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> ChàoMừng.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -72,7 +72,7 @@ chúng ta muốn một danh sách chỉ có các phương thức định nghĩa 
 chúng ta có thể loại bỏ các phương thức được kế thừa bằng cách thêm tham số
 `false`, nghĩa là chúng ta không muốn bất kỳ phương thức được kế thừa nào.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> ChàoMừng.instance_methods(false)
 => ["xin_chào", "tạm_biệt"]
 {% endhighlight %}
@@ -80,7 +80,7 @@ irb(main):040:0> ChàoMừng.instance_methods(false)
 A, được hơn rồi đó. Bây giờ chúng ta hãy xem phương thức nào được đối tượng
 ChàoMừng phản hồi:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("tên")
 => false
 irb(main):042:0> g.respond_to?("xin_chào")
@@ -97,7 +97,7 @@ phương thức mặc định cho mọi đối tượng), nhưng không biết `
 Nếu bạn muốn có thể xem hoặc thay đổi tên? Ruby cung cấp một cách dễ dàng để
 truy xuất dữ liệu tới các biến của một đối tượng.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class ChàoMừng
 irb(main):045:1>   attr_accessor :tên
 irb(main):046:1> end
@@ -109,7 +109,7 @@ hiện trong các đối tượng mới mà bạn tạo và cả những đối 
 lớp này. Vậy thì chúng ta hãy tạo một đối tượng mới và thử với thuộc tính
 `@tên` của nó.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = ChàoMừng.new("Andy")
 => #<ChàoMừng:0x3c9b0 @tên="Andy">
 irb(main):048:0> g.respond_to?("tên")

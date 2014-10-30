@@ -21,7 +21,7 @@ Admettons, pour la bonne continuité de ce tutoriel, que nous voulons
 tout à coup répéter et répéter encore « Hello World » ... mais sans trop
 nous fatiguer. Il va falloir définir une méthode.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -43,7 +43,7 @@ lui de dire qu’il a bien compris et enregistré notre nouvelle méthode.
 Bien, essayons de faire fonctionner cette méthode deux ou trois fois,
 pour voir :
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -63,7 +63,7 @@ et pas au monde entier ? Et bien, il suffit justement de demander à ce
 que le nom de la personne concernée soit mentionné en tant que paramètre
 de la méthode `h`\:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -87,7 +87,7 @@ une variable (`name`), vous pouvez lui passer des messages avec des
 méthodes… Par exemple, lui demander de toujours débuter par une
 majuscule avec `capitalize`\:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -115,7 +115,7 @@ serait pas de trop d’avoir une formule plus respectueuse à l’encontre de
 l’usager. Pour ce faire, nous utiliserons un objet. Et nous allons même
 dans la foulée créer une classe, “Greeter”.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

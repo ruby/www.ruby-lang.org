@@ -20,7 +20,7 @@ header: |
 E se quisermos dizer “Olá” varias vezes sem cansar os dedos? Temos que
 definir um método!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Olá Mundo!"
 irb(main):012:1> end
@@ -38,7 +38,7 @@ método.
 
 Agora tentemos correr o método algumas vezes:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Olá Mundo!
 => nil
@@ -55,7 +55,7 @@ porem estes não são necessários.
 E se o que queremos é dizer ola a uma pessoa só, e não ao mundo inteiro?
 Para isso basta redifinir `h` para que aceite um nome como parâmetro.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(nome)
 irb(main):016:1> puts "Olá #{nome}!"
 irb(main):017:1> end
@@ -76,7 +76,7 @@ string (se já não o for) e é substituído naquele ponto da string.
 Podemos também usar isto para ter a certeza de que o nome de alguém se
 apresenta em letra maiúscula:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(nome = "Mundo")
 irb(main):020:1> puts "Olá #{nome.capitalize}!"
 irb(main):021:1> end
@@ -103,7 +103,7 @@ nosso nome, nos dê as boas vindas e nos trate com o respeio devido?
 Podemos usar um objecto para esse efeito. Vamos então criar, a classe
 “Anfitrião”.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Anfitriao
 irb(main):025:1>   def initialize(nome = "Mundo")
 irb(main):026:2>     @nome = nome

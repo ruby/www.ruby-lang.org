@@ -19,7 +19,7 @@ header: |
 
 Нека създадем и използваме нов обект:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -33,7 +33,7 @@ Bye Pat, come back soon.
 След като веднъж сме създали обектът `g`, той запаметява името Pat.
 Какво би се случило, ако искаме да променим името директно ?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -50,7 +50,7 @@ SyntaxError: compile error
 
 Може да разгледаме достъпните методи за обектите от тип Greeter лесно:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -70,7 +70,7 @@ irb(main):039:0> Greeter.instance_methods
 класове. За да скрием от показване наследените методи ще използваме
 флага `false` при извикването на **instance\_methods**\:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
@@ -78,7 +78,7 @@ irb(main):040:0> Greeter.instance_methods(false)
 Съществува метод, който ни дава представа какви методи може да извикаме
 върху обекта:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -93,7 +93,7 @@ irb(main):043:0> g.respond_to?("to_s")
 името, зададено в клас ? Ruby предлага лесен начин за достъп до
 променливите на обекта.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -103,7 +103,7 @@ irb(main):046:1> end
 В Ruby лесно може да отворим класа отново за модификация. Промените ще
 се отразят на наличните и новите обекти. Нека създадем нов обект.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")

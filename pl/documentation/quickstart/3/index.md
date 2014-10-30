@@ -19,7 +19,7 @@ header: |
 
 Utwórzmy teraz obiekt klasy Greeter:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -33,7 +33,7 @@ Bye Pat, come back soon.
 Gdy obiekt `g` jest utworzony, zapamiętuje on imię jako Pat. Hmm, co
 jeśli chcielibyśmy dostać się bezpośrednio do imienia ?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -51,7 +51,7 @@ podejścia “trzymania danych w pewien sposób ukrytych”.
 
 Więc jakie to metody istnieją dla obiektów klasy Greeter?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -72,14 +72,14 @@ chcemy wyświetlić tylko metody zdefiniowane w klasie Greeter, możemy
 wskazać, że nie chcemy wyświetlać metod zdefiniowanych w klasach
 nadrzędnych poprzez przekazanie parametru `false`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
 
 Zobaczmy więc, na jakie metody nasz obiekt odpowiada (responds\_to):
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -97,7 +97,7 @@ ale nie wie nic o metodzie `name`.
 Co jeśli chielibyśmy wyświetlić albo zmienić imię (name)? Ruby zapewnia
 nam łatwy dostępn do zmiennych obiektu.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -109,7 +109,7 @@ W Rubim możesz ponownie otworzyć klasę i zmodyfikować ją. To nie zmienia
 powstaną. Utwórzmy więc nowy obiekt i pobawmy się jego właściwością
 `@name`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")

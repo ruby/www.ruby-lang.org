@@ -19,7 +19,7 @@ header: |
 
 讓我們建立一個 greeter 物件來使用：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -32,7 +32,7 @@ Bye Pat, come back soon.
 
 一旦建立了 `g` 物件，它就會記得它的名字是 Pat。嗯，但是我們如何拿到這個名字的值呢?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -48,7 +48,7 @@ SyntaxError: compile error
 
 到底 Greeter 物件有哪些方法呢?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -66,14 +66,14 @@ irb(main):039:0> Greeter.instance_methods
 物件的方法，因此也包括了它所繼承的類別的方法。如果我們只需要 Greeter 自己的方法，可以傳入一個 **false**
 參數，表示我們不希望包括父類別的方法。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
 
 看起來好多了。讓我們看看 greeter 物件對哪些方法有反應?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -88,7 +88,7 @@ irb(main):043:0> g.respond_to?("to_s")
 
 那麼要怎麼能夠讀取或修改名字呢? Ruby 提供了一個簡單的方式來讓你存取物件的變數：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -99,7 +99,7 @@ irb(main):046:1> end
 裡你可以再度打開一個類別然後修改它。這個改變會對之後產生的物件，甚至是已經產生的物件產生即時效果。所以，我們來建立一個新的物件試試看
 `@name` 屬性。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")

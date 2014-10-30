@@ -38,13 +38,13 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
   Menu.
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
 Напишете : `"Hello World"`
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):001:0> "Hello World"
 => "Hello World"
 {% endhighlight %}
@@ -56,7 +56,7 @@ irb(main):001:0> "Hello World"
 резултата от последната “команда”, въведена в IRB. Ако искаме наистина
 да отпечатаме “Hello Wolrd”, това може да стане така:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):002:0> puts "Hello World"
 Hello World
 => nil
@@ -70,20 +70,20 @@ Hello World
 
 Лесно е да превърнем IRB в прост калкулатор:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
 
 Дотук добре, нека пробваме умножение и вдигане на квадрат:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 ^
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
@@ -91,7 +91,7 @@ irb(main):005:0> 3**2
 В Ruby метода `**` е начин да повдигаме на степен. Следва пример с
 намиране на корен:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
@@ -118,7 +118,7 @@ irb(main):006:0> Math.sqrt(9)
 Изниква въпроса “как да процедираме за да запазим резултатът от
 операциите ?” . Отговора се крие в присвояването му в променлива.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2

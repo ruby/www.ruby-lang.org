@@ -20,7 +20,7 @@ header: |
 ¿Qué tal si queremos decir “Hola” muchas veces sin cansar nuestros dedos
 con el teclado? ¡Necesitamos definir un método!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hola Mundo"
 irb(main):012:1> end
@@ -38,7 +38,7 @@ comunica que él sabe que terminamos de definir el método.
 
 Ahora intentemos ejecutar ese método algunas veces:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hola Mundo
 => nil
@@ -55,7 +55,7 @@ vacíos, pero no son necesarios.
 ¿Y qué tal si queremos saludar sólo a una persona y no a todo el mundo?
 Simplemente redefine `h` para que tome un nombre como parámetro.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(nombre)
 irb(main):016:1> puts "Hola #{nombre}"
 irb(main):017:1> end
@@ -76,7 +76,7 @@ transformada en un String (si todavía no lo es) y posteriormente
 sustituida en ese punto del String que la contiene. También puedes usar
 esto para asegurarte que el nombre comience con mayúscula:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(nombre = "Mundo")
 irb(main):020:1> puts "Hola #{nombre.capitalize}"
 irb(main):021:1> end
@@ -101,7 +101,7 @@ por defecto `"Mundo"`”.
 recuerde tu nombre, te dé la bienvenida y te trate con respeto. Puedes
 querer utilizar un objeto para eso. Vamos a crear la clase “Anfitrion”.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Anfitrion
 irb(main):025:1>   def initialize(nombre = "Mundo")
 irb(main):026:2>     @nombre = nombre

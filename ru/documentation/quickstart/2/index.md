@@ -20,7 +20,7 @@ header: |
 Что если мы хотим сказать "Hello" без утомления наших пальцев? Мы должны
 создать метод!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -38,7 +38,7 @@ irb(main):012:1> end
 
 Теперь давайте попробуем вызвать метод несколько раз:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -55,7 +55,7 @@ Hello World!
 Что если мы хотим сказать hello одному человеку, а не всему миру?
 Просто переопределим метод `h`, чтобы он принимал имя как параметр.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -76,7 +76,7 @@ Hello Matz!
 Вы также можете использовать это, чтобы убедиться, что имя будет с
 большой буквы:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -102,7 +102,7 @@ Hello World!
 уважением? Вы можете использовать для этого объект. Давайте создадим
 класс "Greeter".
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

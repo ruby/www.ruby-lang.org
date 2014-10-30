@@ -19,7 +19,7 @@ header: |
 
 如果您想說很多次 “Hello”，卻不想敲太多按鍵。是時候定義一個方法了!
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
@@ -33,7 +33,7 @@ World"`。接著最後一行 `end` 表示方法定義結束。 Ruby 回應 `=> n
 
 現在來試試看執行這個方法數次：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):013:0> h
 Hello World!
 => nil
@@ -46,7 +46,7 @@ Hello World!
 
 如果你只想對某個人打招呼呢? 只要重新定義 `h` 方法接受一個參數即可。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):015:0> def h(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
@@ -63,7 +63,7 @@ Hello Matz!
 什麼是 `#{name}` 啊? 這是 Ruby
 用來在字串中插入資料的方式。大括號裡面的程式會被執行後變成一個字串，然後將整個大括號符號替換掉。例如，我們來把人名變成大寫：
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):019:0> def h(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
@@ -84,7 +84,7 @@ Hello World!
 如果我們需要一個接待員，可以記住你的名字，並且禮貌地歡迎你。你會開始需要使用物件(object)了。讓我們來建立 “Greeter”
 類別(class)。
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):024:0> class Greeter
 irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name

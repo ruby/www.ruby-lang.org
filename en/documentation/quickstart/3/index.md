@@ -19,7 +19,7 @@ header: |
 
 Now let’s create a greeter object and use it:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):035:0> g = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
 irb(main):036:0> g.say_hi
@@ -33,7 +33,7 @@ Bye Pat, come back soon.
 Once the `g` object is created, it remembers that the name is Pat. Hmm,
 what if we want to get at the name directly?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@name
 SyntaxError: compile error
 (irb):52: syntax error
@@ -51,7 +51,7 @@ approach of keeping data sort-of hidden away.
 
 So what methods do exist for Greeter objects?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
 => ["method", "send", "object_id", "singleton_methods",
     "__send__", "equal?", "taint", "frozen?",
@@ -72,7 +72,7 @@ just list methods defined for Greeter we can tell it to not include
 ancestors by passing it the parameter `false`, meaning we don’t want
 methods defined by ancestors.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
@@ -80,7 +80,7 @@ irb(main):040:0> Greeter.instance_methods(false)
 Ah, that’s more like it. So let’s see which methods our greeter object
 responds to:
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):041:0> g.respond_to?("name")
 => false
 irb(main):042:0> g.respond_to?("say_hi")
@@ -98,7 +98,7 @@ doesn’t know `name`.
 But what if you want to be able to view or change the name? Ruby
 provides an easy way of providing access to an object’s variables.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
@@ -110,7 +110,7 @@ be present in any new objects you create and even available in existing
 objects of that class. So, let’s create a new object and play with its
 `@name` property.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
 irb(main):048:0> g.respond_to?("name")
