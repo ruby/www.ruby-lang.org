@@ -17,7 +17,7 @@ Esta versión incluye correcciones de seguridad de las siguientes vulnerabilidad
 También incluye algunas otras correcciones de errores.
 
 Para más detalles puedes ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+y el [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog).
 
 **Actualización:** Fue corregida una regresión incluida en 2.1.3:
 
@@ -69,4 +69,3 @@ Gracias por sus contribuciones.
 
 * Actualización 2014-10-27 21:00:00 (UTC)
 * Publicado Originalmente 2014-10-27 12:00:00 (UTC)
-
