@@ -9,15 +9,15 @@ lang: vi
 
 Chúng tôi xin thông báo phiên bản của Ruby 2.0.0-p594
 
-Phiên bản này bao gồm một sữa lỗi bảo mật cho lỗ hổng DoS của REXML.
+Phiên bản này bao gồm một sửa lỗi bảo mật cho lỗ hổng DoS của REXML.
 
-* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
 Phiên bản này cũng bao gồm thay đổi thiết lập mặc định của ext/openssl.
 
-Các tùy chọn SSl/TLS bây giờ đang được tắt bởi mặc định.
+Các tùy chọn SSl/TLS bây giờ đang được vô hiệu hóa bởi mặc định.
 
-* [Changed default settings of ext/openssl](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [Changed default settings of ext/openssl](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 Và cũng bao gồm nhiều lỗi đã được chỉnh sửa. 
 
@@ -25,7 +25,7 @@ Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&a
 
 và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) để xem thêm chi tiết.
 
-## Download
+## Tải về
 
 * [http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.bz2)
 
