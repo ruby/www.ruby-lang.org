@@ -2,9 +2,9 @@
 layout: news_post
 title: "Ra mắt phiên bản Ruby 2.1.4"
 author: "nagachika"
-translator:
+translator: "longkt90"
 date: 2014-10-27 12:00:00 +0000
-lang: en
+lang: vi
 ---
 
 Ra mắt Ruby 2.1.4.
@@ -62,7 +62,7 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
 
 ## Ghi chú cho phiên bản
 
-Nhiều tình nguyện viên, lập trình viên và người sử dụng đã báo lỗi để giúp chúng tôi có được phiên bản này.
+Nhiều tình nguyện viên, lập trình viên và người dùng đã báo lỗi để giúp chúng tôi có được phiên bản này.
 Cảm ơn vì sự đóng góp của họ.
 
 ## Lịch sử đăng
