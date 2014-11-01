@@ -8,7 +8,7 @@ tags: security
 lang: vi
 ---
 
-Chúng tôi đã thay đổi thiết lập mặc định của exp/openssl trên các phiên bản Ruby 2.1.4, 2.0.0-p594 và 1.9.3-p550. Với thay đổi này, các tuỳ chọn SSL/TLS không bảo mật bị mặc định vô hiệu hoá. Tuy nhiên, thay đổi này có khả năng gây ra một số vấn đề với kết nối SSL.
+Chúng tôi đã thay đổi thiết lập mặc định của ext/openssl trên các phiên bản Ruby 2.1.4, 2.0.0-p594 và 1.9.3-p550. Với thay đổi này, các tuỳ chọn SSL/TLS không bảo mật bị mặc định vô hiệu hoá. Tuy nhiên, thay đổi này có khả năng gây ra một số vấn đề với kết nối SSL.
 
 
 ## Chi tiết
@@ -37,7 +37,7 @@ Tuy nhiên WEBrick và Drb lại không bởi vì chúng nhận các thiết l�
 
 ### Các kịch bản sử dụng ext/openssl trực tiếp
 
-Thay đổi này được phản chiếu khi một đối tượng `OpenSSL::SSL::SSLContext` được khởi tạo và phương thức `set_params` được gọi
+Thay đổi này ảnh hưởng khi một đối tượng `OpenSSL::SSL::SSLContext` được khởi tạo và phương thức `set_params` được gọi.
 Cụ thể, đoạn code như sau:
 
 {% highlight ruby %}
@@ -113,10 +113,10 @@ end
 
 ## Các phiên bản bị ảnh hưởng của thay đổi này
 
-* Ruby 1.9.3 patchlevel 550 và về sau
-* Ruby 2.0.0 patchlevel 594 và về sau
-* Ruby 2.1.4 và về sau
-* revision 48097 and later of trunk
+* Ruby 1.9.3 patchlevel 550 và sau đó
+* Ruby 2.0.0 patchlevel 594 và sau đó
+* Ruby 2.1.4 và sau đó
+* Trunk: revision 48097 và sau đó
 
 ## Lịch sử
 
