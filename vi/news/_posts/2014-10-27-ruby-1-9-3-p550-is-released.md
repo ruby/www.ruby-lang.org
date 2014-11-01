@@ -24,8 +24,11 @@ Và thêm nữa là bundled JQuery cho darkfish template của RDOC cũng đã �
 ## Notice
 
 Ruby 1.9.3 hiện đang trong quá trình bảo trì bảo mật.
+
 Điều này có nghĩa là chúng ta không bao giờ sữa lỗi nữa ngoại trừ những vấn đề bảo mật.
+
 Và, tại thời điểm này, kết thúc của quá trình bảo trì 1.9.3 đang được lên kế hoạch cho tháng hai năm sau.
+
 Chúng tôi giới thiệu với người dùng Ruby 1.9.3 sẽ chuyển qua sử dụng một phiên bản mới càng sớm càng tốt.
 
 ## Download
