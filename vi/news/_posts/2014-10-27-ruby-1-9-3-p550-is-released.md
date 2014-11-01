@@ -64,4 +64,5 @@ Chúng tôi giới thiệu với người dùng Ruby 1.9.3 sẽ chuyển qua s�
 ## Release Comment
 
 Tôi chân thành cảm ơn những người hỗ trợ Ruby.
+
 Cảm ơn.
