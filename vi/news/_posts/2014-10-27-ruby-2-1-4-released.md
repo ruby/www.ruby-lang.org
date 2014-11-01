@@ -11,7 +11,7 @@ Ra mắt Ruby 2.1.4.
 
 Phiên bản này gồm các bản vá bảo mật cho các lỗ hổng bảo mật sau:
 
-* [CVE-2014-8080: Tấn công từ chối dịch vụ bằng cách mở rộng XML](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Tấn công từ chối dịch vụ bằng XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
 * [Thay đổi thiết lập mặc định của ext/openssl liên quan đến CVE-2014-3566](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 Và và một số lỗi khác.
