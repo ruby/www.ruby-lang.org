@@ -10,13 +10,12 @@ lang: vi
 
 Chúng tôi đã thay đổi thiết lập mặc định của ext/openssl trên các phiên bản Ruby 2.1.4, 2.0.0-p594 và 1.9.3-p550. Với thay đổi này, các tuỳ chọn SSL/TLS không bảo mật bị mặc định vô hiệu hoá. Tuy nhiên, thay đổi này có khả năng gây ra một số vấn đề với kết nối SSL.
 
-
 ## Chi tiết
 
 OpenSSL vẫn thực thi các giao thức và mật mã được xem là không bảo mật vào ngày nay bởi các hoàn cảnh lịch sử.
 Giống như là lỗ hổng bảo mật POODLE ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)), nếu bạn tiếp tục sử dụng OpenSSL với các tính năng không bảo mật đó, bạn có thể không thể đảm bảo sự an toàn của giao tiếp mạng.
-Vì vậy, dựa trên cuộc thảo luận ở [Bug #9424](https://bugs.ruby-lang.org/issues/9424), chúng tôi quyết định vô hiệu hoá các tuỳ chọn không bảo mật của SSL/TLS ở mặc định
-Nếu bạn cần phải bỏ qua thay đổi này (xem ở dưới), hãy áp dụng bản vá ngược để thu hồi  
+Vì vậy, dựa trên cuộc thảo luận ở [Bug #9424](https://bugs.ruby-lang.org/issues/9424), chúng tôi quyết định vô hiệu hoá các tuỳ chọn không bảo mật của SSL/TLS ở mặc định.
+Nếu bạn cần phải bỏ qua thay đổi này (xem ở dưới), hãy áp dụng bản vá ngược để thu hồi.
 
 2.1.4
 : [r48098](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
@@ -32,8 +31,8 @@ Bạn nên hiểu trước khi làm điều đó.
 
 ### Các gói thư viện của Ruby
 
-Thay đổi này ảnh hưởng đến net/http, net/imap và net/pop. 
-Tuy nhiên WEBrick và Drb lại không bởi vì chúng nhận các thiết lập một cách độc lập
+Thay đổi này ảnh hưởng đến net/http, net/imap và net/pop.
+Tuy nhiên WEBrick và Drb lại không bởi vì chúng nhận các thiết lập một cách độc lập.
 
 ### Các kịch bản sử dụng ext/openssl trực tiếp
 
@@ -48,11 +47,11 @@ ssl = OpenSSL::SSL::SSLSocket.new(socket, ctx)
 
 Khi sử dụng ext/openssl ở phía client, chúng tôi cho rằng có thể không có vấn đề gì với thay đổi này. Tuy nhiên, nếu bạn đang sử dụng ext/openssl ở phía server và áp dụng thay đổi này, một vài client cũ (IE6, trình duyệt trên các máy điện thoại đời cũ, vv...) có thể không thể kết nối đến server.
 
-Bạn sẽ là người quyết định có cho phép thay đổi này hay không, hãy cân nhắc lựa chọn
+Bạn sẽ là người quyết định có cho phép thay đổi này hay không, hãy cân nhắc lựa chọn.
 
 ## Giải pháp khác
 
-Néu bạn không thể nâng cấp Ruby nhưng bạn phải đương đầu các tuỳ chọn SSL/TSL không bảo mật, hãy áp dụng bản vá tạm sau
+Néu bạn không thể nâng cấp Ruby nhưng bạn phải đương đầu các tuỳ chọn SSL/TSL không bảo mật, hãy áp dụng bản vá tạm sau:
 
 {% highlight ruby %}
 module OpenSSL
