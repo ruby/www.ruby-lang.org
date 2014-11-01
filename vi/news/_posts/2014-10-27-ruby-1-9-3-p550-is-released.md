@@ -2,8 +2,8 @@
 layout: news_post
 title: "Ruby 1.9.3-p550 Released"
 author: "usa"
-translator: hoasung01
-date: 2014-11-01 12:00:00 +0000
+translator: "hoasung01"
+date: 2014-10-27 12:00:00 +0000
 lang: vi
 ---
 
@@ -13,23 +13,21 @@ Phiên bản này gồm bản vá cho lỗ hổng bảo mật DoS của REXML.
 
 * [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
-Bản release này gồm sự thay đổi về những thiết lập mặc định của ext/openssl. 
-
+Bản release này gồm sự thay đổi về những thiết lập mặc định của ext/openssl.
 Các tùy chọn SSL/TLS không bảo mật đã được mặc định vô hiệu hoá.
 
 * [Changed default settings of ext/openssl](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 Và bundled jQuery cho darkfish template của RDOC cũng đã được cập nhật.
 
+
 ## Chú ý
 
 Ruby 1.9.3 hiện đang trong quá trình bảo trì tính bảo mật.
-
 Điều này có nghĩa là chúng tôi chỉ sữa những lỗi liên quan đến vấn đề bảo mật.
-
 Và tháng 2 năm sau, chúng tôi sẽ ngừng bảo trì Ruby 1.9.3.
-
 Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
+
 
 ## Tải về
 
@@ -61,8 +59,7 @@ Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụn
       SHA256: 6e7eceddca615c19f81c125f9864de3570b9687df858cfb27298d867521d5beb
       SHA512: 0daa8fafa950f1e6ddf79815a615c7d730d234042718bd70e8211e4c23d7cc93126c924ad42673844c3a8cb908bf02a8d03ae2857658a027935f46c13bb17a13
 
-## Chú thích 
+## Chú thích
 
 Tôi chân thành cảm ơn những người hỗ trợ Ruby.
-
 Cảm ơn.

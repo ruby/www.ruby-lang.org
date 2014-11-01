@@ -22,12 +22,12 @@ và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
 
 **Cập nhật:** Có một regression xảy ra ở bản 2.1.3 giờ đã được sửa:
 
-```ruby
+{% highlight irb %}
 >> { key: if true then 0 else 1 end }
 SyntaxError: (irb):1: syntax error, unexpected modifier_if
 { key: if true then 0 else 1 end }
          ^
-```
+{% endhighlight %}
 
 ## Tải về
 

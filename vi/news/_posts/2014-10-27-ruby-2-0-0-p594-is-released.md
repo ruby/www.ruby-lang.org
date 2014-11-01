@@ -2,27 +2,24 @@
 layout: news_post
 title: "Ruby 2.0.0-p594 Released"
 author: "usa"
-translator: JosNguyen
+translator: "JosNguyen"
 date: 2014-10-27 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi xin thông báo phiên bản Ruby 2.0.0-p594
+Chúng tôi xin thông báo phiên bản Ruby 2.0.0-p594.
 
-Phiên bản này bao gồm bản sửa lỗi bảo mật cho lỗ hỗng DoS của REXML
+Phiên bản này bao gồm bản sửa lỗi bảo mật cho lỗ hỗng DoS của REXML.
 
 * [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
 Phiên bản này cũng bao gồm thay đổi thiết lập mặc định của ext/openssl.
-
-Các tùy chọn SSl/TLS bây giờ được vô hiệu hóa mặc định.
+Các tùy chọn SSL/TLS bây giờ được vô hiệu hóa mặc định.
 
 * [Changed default settings of ext/openssl](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-Và cũng bao gồm nhiều lỗi đã được chỉnh sửa. 
-
+Và cũng bao gồm nhiều lỗi đã được chỉnh sửa.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-
 và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) để xem thêm chi tiết.
 
 ## Tải về
@@ -57,5 +54,5 @@ và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) �
 
 ## Ghi chú phiên bản
 
-Tôi cám ơn tất cả mọi người đã hỗ trợ Ruby. 
+Tôi cám ơn tất cả mọi người đã hỗ trợ Ruby.
 Cám ơn.
