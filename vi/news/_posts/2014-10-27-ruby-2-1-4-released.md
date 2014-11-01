@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.4 Released"
+title: "Ra mắt phiên bản Ruby 2.1.4"
 author: "nagachika"
 translator:
 date: 2014-10-27 12:00:00 +0000
@@ -20,7 +20,7 @@ Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&am
 và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
 để biết thêm chi tiết.
 
-**Update:** Có một lỗi regression xảy ra ở bản 2.1.3 giờ đã được sửa:
+**Cập nhật:** Có một lỗi regression xảy ra ở bản 2.1.3 giờ đã được sửa:
 
 {% highlight irb %}
 >> { key: if true then 0 else 1 end }
@@ -29,7 +29,7 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
          ^
 {% endhighlight %}
 
-## Download
+## Tải về
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2)
 
@@ -60,12 +60,12 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
       SHA512: 7fd8d13810a4336dc498a6eb05e140825d52eca0317d0848152688060b95ce4c79ab6a10cf14ab2499ae559fb4676d86538eacd94fb262c16795067fb4f47614
 
 
-## Release Comment
+## Ghi chú cho phiên bản
 
 Nhiều tình nguyện viên, lập trình viên và người sử dụng đã báo lỗi để giúp chúng tôi có được phiên bản này.
 Cảm ơn vì sự đóng góp của họ.
 
-## History
+## Lịch sử đăng
 
 * Được sửa lại 2014-10-27 21:00:00 (UTC)
 * Đăng lên lần đầu 2014-10-27 12:00:00 (UTC)
