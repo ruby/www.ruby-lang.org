@@ -4,18 +4,18 @@ title: "Ruby 1.9.3-p550 Released"
 author: "usa"
 translator: hoasung01
 date: 2014-11-01 12:00:00 +0000
-lang: vn
+lang: vi
 ---
 
-Chúng tôi xin vui mừng thông báo phát hành phiên bản Ruby 1.9.3-p550.
+Chúng tôi hân hạnh thông báo phát hành ấn bản Ruby 1.9.3-p550.
 
 Phiên bản này gồm một sửa lỗi bảo mật cho lỗ hổng DoS của REXML.
 
-* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
 Bản release này gồm sự thay đổi về những thiết lập mặc định của ext/openssl. 
 
-Các tùy chọn SSL/TLS không an toàn giờ mặc định đã được tắt đi.
+Các tùy chọn SSL/TLS không bảo mật đã được mặc định vô hiệu hoá.
 
 * [Changed default settings of ext/openssl](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
@@ -27,11 +27,11 @@ Ruby 1.9.3 hiện đang trong quá trình bảo trì bảo mật.
 
 Điều này có nghĩa là chúng ta không bao giờ sữa lỗi nữa ngoại trừ những vấn đề bảo mật.
 
-Và, tại thời điểm này, kết thúc của quá trình bảo trì 1.9.3 đang được lên kế hoạch cho tháng hai năm sau.
+Và tháng 2 năm sau, chúng tôi sẽ ngừng bảo trì Ruby 1.9.3.
 
-Chúng tôi giới thiệu với người dùng Ruby 1.9.3 sẽ chuyển qua sử dụng một phiên bản mới càng sớm càng tốt.
+Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
 
-## Download
+## Tải về
 
 * [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.bz2](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.bz2)
 
