@@ -13,14 +13,12 @@ una playa paradisiaca sobre la costa noreste de Brazil.
 
 Las conferencias magistrales confirmadas hasta el momento serán impartidas por
 [Avdi Grimm](https://twitter.com/avdi) y
-[Nick Sutterer](http://twitter.com/apotonick) pero la
+[Nick Sutterer](https://twitter.com/apotonick) pero la
 [Convocatoria de Propuestas](http://cfp.tropicalrb.com/events/tropicalrb-2015)
 sigue abierta.
-
 Si quieres hablar o impartir un taller, envía tu propuesta antes de Diciembre 7.
 
 Disfruta de increíbles conversaciones, paisajes maravillosos y la naturaleza en
 todo su esplendor.
 Te invitamos a hablar con algunos de los mejores Rubyistas en esta conferencia
 tropical.
-
