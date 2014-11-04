@@ -12,7 +12,7 @@ will take place during March 5–8th at Porto de Galinhas,
 a paradisiac beach located in the Brazilian northeast coast.
 
 [Avdi Grimm](https://twitter.com/avdi) and
-[Nick Sutterer](http://twitter.com/apotonick) are confirmed keynotes but the
+[Nick Sutterer](https://twitter.com/apotonick) are confirmed keynotes but the
 [CFP is still open](http://cfp.tropicalrb.com/events/tropicalrb-2015).
 If you want to give a talk or workshop, submit your proposal until December 7th.
 
