@@ -26,11 +26,14 @@ nous avons décidé de désactiver les options non-sécurisées de SSL/TLS par d
 Si vous avez besoin d'annuler ce changement (inclus ci-dessous), appliquez le
 patch inverse pour revenir en arrière.
 
-2.1.4 : [r48098](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+2.1.4
+: [r48098](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
 
-2.0.0-p594 : [r48110](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+2.0.0-p594
+: [r48110](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
 
-1.9.3-p550 : [r48121](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+1.9.3-p550
+: [r48121](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
 
 Néanmoins, si vous annulez ce changement, vous risquez de ne plus pouvoir
 garantir la sécurité de vos communications réseaux.
@@ -51,8 +54,7 @@ Plus particulièrement les codes du type :
 
 {% highlight ruby %}
 ctx = OpenSSL::SSL::SSLContext.new
-ctx.set_params  # si vous voulez changez certaines options, telle que le mode de
-vérification et autre, vous pouvez les passer dans une Hash
+ctx.set_params  # si vous voulez changez certaines options, telle que le mode de vérification et autre, vous pouvez les passer dans une Hash
 ssl = OpenSSL::SSL::SSLSocket.new(socket, ctx)
 {% endhighlight %}
 
@@ -133,7 +135,7 @@ end
 * Ruby 1.9.3 patchlevel 550 et plus récent
 * Ruby 2.0.0 patchlevel 594 et plus récent
 * Ruby 2.1.4 et plus récent
-* revision 48097 et trunk plus récent
+* révision 48097 du trunk et plus récente
 
 ## Historique
 
