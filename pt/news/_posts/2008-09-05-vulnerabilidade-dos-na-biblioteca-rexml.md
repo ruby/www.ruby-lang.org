@@ -59,12 +59,12 @@ rexml-expansion-fix.rb antes de utilizar REXML.
 
 {% highlight ruby %}
 require "rexml-expansion-fix"
- ...
- doc = REXML::Document.new(str)
- ...
+...
+doc = REXML::Document.new(str)
+...
 {% endhighlight %}
 
- para aplicações em Rails, copie o ficheiro rexml-expansion-fix.rb para a directoria RAILS\_ROOT/lib/, por exemplo, e adicione a linha seguinte no ficheiro config/environment.rb.
+para aplicações em Rails, copie o ficheiro rexml-expansion-fix.rb para a directoria RAILS\_ROOT/lib/, por exemplo, e adicione a linha seguinte no ficheiro config/environment.rb.
 
 {% highlight ruby %}
 require "rexml-expansion-fix"
