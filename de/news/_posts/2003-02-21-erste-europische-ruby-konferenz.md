@@ -11,7 +11,7 @@ seiner EMail.)
 
 > The first European Ruby Conference will be held from Saturday 21th to
 > Sunday 22th June at the University of Karslruhe in Germany.
-> 
+>
 > Everyone instested in Ruby is welcome!
 
 (Details über die Preise, die Sprecher und weiteres gibt es unter

@@ -16,7 +16,7 @@ Excerpted from the site.
     extensions and packages, a syntax-highlighting editor
     and execution environment, and a Windows help file that
     contains the full text of the book, "Programming Ruby:
-    The Pragmatic Programmer's Guide". 
+    The Pragmatic Programmer's Guide".
 
 It’s a must item for Ruby users on Win32 box. Check also
 [eban/ruby/binaries/eban’s win32 binaries][2] to get

@@ -38,7 +38,7 @@ p SubHash.new.reject { }.class
 [Feature #9223](https://bugs.ruby-lang.org/issues/9223)
 그래서 이 사양 변화에 따라 코드를 수정할 것을 권장합니다.
 
-이 사고는 한 커밋의 백 포트를 빼먹어서 생겼습니다. 좀 더 자세한 내용은 
+이 사고는 한 커밋의 백 포트를 빼먹어서 생겼습니다. 좀 더 자세한 내용은
 [http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211](http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211)
 를 확인해 주세요.
 

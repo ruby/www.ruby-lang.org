@@ -13,7 +13,7 @@ Yugui (Yuki Sonoda) announced the release of Ruby 1.9.1-preview 1:
 > with clearer syntax.
 > If you encounter any bugs or problems, please let us know via the
 > official issue tracking system:
-> 
+>
 > [https://bugs.ruby-lang.org][1]
 
 You can download the release from;

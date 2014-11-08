@@ -7,7 +7,7 @@ date: 2013-11-22 22:00:00 +0000
 lang: id
 ---
 
-Kami sangat senang untuk mengumumkan rilis dari Ruby 2.1.0-preview2. 
+Kami sangat senang untuk mengumumkan rilis dari Ruby 2.1.0-preview2.
 Silakan uji fitur baru di Ruby 2.1 sebelum rilis akhir!
 
 ## Perubahan penting dari preview 1
@@ -60,7 +60,7 @@ Lihat rincian perubahan: [NEWS di repository Ruby (WIP)](https://github.com/ruby
 
 Presentasi ko1 di toruby: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase (@konstantinhaase) menulis sebuah ringkasan yang bagus dalam 
+Konstantin Haase (@konstantinhaase) menulis sebuah ringkasan yang bagus dalam
 artikel di blognya: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## Komentar Rilis

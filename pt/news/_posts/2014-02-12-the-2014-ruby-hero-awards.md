@@ -7,7 +7,7 @@ date: 2014-02-12 14:02:03 +0000
 lang: pt
 ---
 
-Alguém da comunidade Ruby o ajudou neste último ano? Talvez ensinando algo, 
+Alguém da comunidade Ruby o ajudou neste último ano? Talvez ensinando algo,
 escrevendo uma gem ou lhe oferecendo suporte técnico? Se você lembrou de
 alguém, por favor a [indique](http://rubyheroes.com/) para um Ruby Hero Award.
 

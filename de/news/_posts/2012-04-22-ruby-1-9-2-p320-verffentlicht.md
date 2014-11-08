@@ -36,7 +36,7 @@ RubyGems 1.8.23][1].
 > **~/.gemrc** und **/etc/gemrc** festgelegt werden. Es wird empfohlen,
 > `:ssl_ca_cert` auf das Ihr CA-Zertifikat oder das Zertifikatsbundle
 > mit Ihrer CA-Zertifizierung zu setzen.
-> 
+>
 > Ein Wert von 0 für `:ssl_verify_mode` veranlasst RubyGems, überhaupt
 > keine SSL-Zertifikatsprüfungen durchzuführen, was jedoch nicht
 > empfohlen wird.

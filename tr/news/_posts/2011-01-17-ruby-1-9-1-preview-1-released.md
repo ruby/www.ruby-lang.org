@@ -12,7 +12,7 @@ Yugui (Yuki Sonoda) Ruby 1.9.1-preview 1 sürümünü bildirdi:
 > bir Ruby’nin tadını alın.
 > Eğer bir bug yada sorun algılarsanız, lütfen kurumsal sorun takip
 > sistemi üzerinden bildirin:
-> 
+>
 > [https://bugs.ruby-lang.org][1]
 
 Bu sürümü indirebileceğiniz yerler;

@@ -16,7 +16,7 @@ lang: ko
 ## 상세 정보
 
 OpenSSL은 여전히 프로토콜과 암호를 구현중이고, 역사적 상황에 의해 지금도 안전하지 않은 것으로 간주됩니다.
-POODLE 취약점([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566))같은, 
+POODLE 취약점([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566))같은,
 OpenSSL의 안전하지 않은 기능을 계속 사용할 경우,
 네트워크 통신의 안전을 유지하지 못할 수도 있습니다.
 그래서, [Bug #9424](https://bugs.ruby-lang.org/issues/9424)에서 한 토론을 바탕으로,

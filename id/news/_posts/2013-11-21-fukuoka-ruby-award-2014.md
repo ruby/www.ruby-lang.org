@@ -51,13 +51,13 @@ Pemanang Engine Yard Prize akan menerima:
 Pemenang Heroku Prize akan menerima:
 
 * 100,000 yen
-* Dua tiket gratis ke RubyKaigi (termasuk 50,000 yen per orang untuk biaya 
+* Dua tiket gratis ke RubyKaigi (termasuk 50,000 yen per orang untuk biaya
   transport)
 * Satu set bingkisan dari Heroku
 
 Pemenang paperboy&co. Prize akan menerima:
 
-* Dua tiket gratis ke Shimane (Ruby City Matsue) untuk 3 hari 
+* Dua tiket gratis ke Shimane (Ruby City Matsue) untuk 3 hari
   (biaya transportasi sampai dengan 50,000 yen per orang)
 * gTLD gratis (com, net, org, info, biz) untuk 10 tahun
 
