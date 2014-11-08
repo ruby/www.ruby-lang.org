@@ -11,10 +11,9 @@ lang: id
 machine yang dapat dijalankan dengan menggunakan kode Ruby untuk di
 compile ke opcode oleh YARV (Yet Another Ruby VM).
 
-Anda dapat menulis script Ruby dalam sebuah halaman web diantara <script
-type="text/ruby"> .. </script>
-
- tag, kemudian HotRuby akan mengekstraknya, lakukan perintah kirim agar
+Anda dapat menulis script Ruby dalam sebuah halaman web diantara
+`<script type="text/ruby"> .. </script>` tag,
+kemudian HotRuby akan mengekstraknya, lakukan perintah kirim agar
 bisa dicompile oleh remote script, kemudian return ke gabungan
 JavaScript dan Flash virtual machine untuk melihat tampilan pada
 halaman. Terdapat banyak penjelasan, termasuk [physics Flash
