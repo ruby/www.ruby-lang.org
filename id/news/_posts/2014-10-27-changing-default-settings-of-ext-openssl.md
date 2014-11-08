@@ -8,15 +8,14 @@ tags: security
 lang: id
 ---
 
-Kami telah mengubah pengaturan default dari ext/openssl di Ruby 2.1.4, Ruby 2.0.0-p594, dan Ruby 1.9.3-p550. 
-dengan perubahan ini, opsi SSL/TLS yang tidak aman saat ini dinonaktifkan secara default.
+Kami telah mengubah pengaturan default dari ext/openssl di Ruby 2.1.4, Ruby 2.0.0-p594, dan Ruby 1.9.3-p550.
+Dengan perubahan ini, opsi SSL/TLS yang tidak aman saat ini dinonaktifkan secara default.
 Namun, dengan adanya perubahan ini, terdapat sebuah kemungkinan adanya masalah dalam koneksi SSL.
 
 ## Detil
 
 OpenSSL masih menerapkan protokol dan cipher yang dianggap tidak aman saat ini dari keadaan historisnya.
 Seperti celah keamanan POODLE ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)), jika Anda tetap menggunakan OpenSSL dengan fitur yang tidak aman tersebut, Anda mungkin tidak dapat menjaga keamanan jaringan komunikasi.
-
 Jadi, berdasarkan diskusi di [Bug #9424](https://bugs.ruby-lang.org/issues/9424), kami harus memutuskan untuk menonaktifkan opsi tidak aman SSL/TLS tersebut secara default.
 Jika anda perlu membatalkan perubahan ini (tersedia dibawah), terapkan patch reverse untuk mencabutnya.
 
@@ -29,7 +28,8 @@ Jika anda perlu membatalkan perubahan ini (tersedia dibawah), terapkan patch rev
 1.9.3-p550
 : [r48121](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
 
-Meski begitu, jika Anda membatalkan perubahan ini, terdapat risiko dimana Anda tidak dapat menjamin keamanan jaringan komunikasi. Anda harus memahami implikasi dari perubahan ini sebelum menghilangkannya.
+Meski begitu, jika Anda membatalkan perubahan ini, terdapat risiko dimana Anda tidak dapat menjamin keamanan jaringan komunikasi.
+Anda harus memahami implikasi dari perubahan ini sebelum menghilangkannya.
 
 ### Kumpulan library - library dari Ruby
 
