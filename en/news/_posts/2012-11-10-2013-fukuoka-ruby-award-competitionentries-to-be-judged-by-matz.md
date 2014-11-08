@@ -20,23 +20,24 @@ Entry Deadline: November 30, 2012 at 5 PM Japan Time (GMT+9)
 
 Grand Prize: 1 Million Yen!
 
-Engine Yard Award:  
- Engine Yard Cloud (first 5,000 hours free), invitation to Ruby Kaigi
+Engine Yard Award:<br>
+Engine Yard Cloud (first 5,000 hours free), invitation to Ruby Kaigi
 (includes afterparty and 50,000JPY toward transportation costs for 2
 people), and an Apple iPad Mini 32GB WiFi Black &amp; Slate (engraved
 with a special message).
 
-Salesforce.com Award:  
- 500,000 JPY, introduction on the [http://www.salesforce.com/jp/][1]
+Salesforce.com Award:<br>
+500,000 JPY, introduction on the [http://www.salesforce.com/jp/][1]
 website, Dreamforce tickets for 3 people.
 
 Please visit [this website][2] for additional details or to enter.
 
-Past winners from US include Rhomobile, Banjo, and VMware.  
- Past winners:  
-[2012][3]  
-[2011][4]  
-[2010][5]  
+Past winners from US include Rhomobile, Banjo, and VMware.
+
+Past winners:<br>
+[2012][3]<br>
+[2011][4]<br>
+[2010][5]<br>
 [2009][6]
 
 Engine Yard CEO and VMware CTO of Cloud Applications also joined us at

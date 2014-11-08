@@ -18,84 +18,84 @@ this out if you haven\'t seen it yet:
 
 ## Keynotes
 
-**Living here in hell—Ruby and the search for perfection**  
- Dave Thomas, The Pragmatic Programmers
+**Living here in hell—Ruby and the search for perfection**<br>
+Dave Thomas, The Pragmatic Programmers
 
-**(Parenthetically Speaking)**  
- Jim Weirich, EdgeCase
+**(Parenthetically Speaking)**<br>
+Jim Weirich, EdgeCase
 
 ## Ruby
 
-**Ruby and the Unix Philosophy**  
- Matt Yoho, Hashrocket
+**Ruby and the Unix Philosophy**<br>
+Matt Yoho, Hashrocket
 
-**Sinatra: Microapps Running on Rack**  
- Tim Gourley, Engine Yard
+**Sinatra: Microapps Running on Rack**<br>
+Tim Gourley, Engine Yard
 
 **Javascript and Friends: Scripting Ruby with JavaScript for Fun and
-Profit**  
- Charles Lowell, The Frontside Software, Inc
+Profit**<br>
+Charles Lowell, The Frontside Software, Inc
 
-**Design and Modularity in Ruby**  
- Glenn Vanderburg, Relevance, Inc.
+**Design and Modularity in Ruby**<br>
+Glenn Vanderburg, Relevance, Inc.
 
 ## Rails 3
 
 **Rails in the Large: How We\'re Building One of the Largest Rails Apps
-for an Enterprise**  
- Neal Ford, ThoughtWorks
+for an Enterprise**<br>
+Neal Ford, ThoughtWorks
 
-**Bundler: Painless Dependency Management**  
- André Arko, Engine Yard
+**Bundler: Painless Dependency Management**<br>
+André Arko, Engine Yard
 
-**Active Record Makeover: Rekindle the relationship**  
- Marty Haught, Haught Codeworks
+**Active Record Makeover: Rekindle the relationship**<br>
+Marty Haught, Haught Codeworks
 
-**With a Mighty Hammer**  
- Ben Scofield, Viget Labs
+**With a Mighty Hammer**<br>
+Ben Scofield, Viget Labs
 
 ## NoSQL
 
-**Scaling with Cassandra**  
- Ryan King, Twitter
+**Scaling with Cassandra**<br>
+Ryan King, Twitter
 
-**Data Driven Applications with Ruby and MongoDB**  
- Kyle Banker and John Taber, 10gen and Tiger Nassau, Inc
+**Data Driven Applications with Ruby and MongoDB**<br>
+Kyle Banker and John Taber, 10gen and Tiger Nassau, Inc
 
-**CouchDB, Ruby, and You**  
- Will Leinweber, merge.fm
+**CouchDB, Ruby, and You**<br>
+Will Leinweber, merge.fm
 
-**Plain Old Tokyo Storage**  
- Jeremy Hinegardner, Collective Intellect
+**Plain Old Tokyo Storage**<br>
+Jeremy Hinegardner, Collective Intellect
 
 ## Servers/Hosting
 
-**Rails and Sinatra on Google AppEngine**  
- John Woodell, Google
+**Rails and Sinatra on Google AppEngine**<br>
+John Woodell, Google
 
-**Rumble in the Jungle...**  
- Fernand Galiana, liquidrail llc
+**Rumble in the Jungle...**<br>
+Fernand Galiana, liquidrail llc
 
-**Redis To The Resque**  
- Jade Meskill, Integrum Technologies
+**Redis To The Resque**<br>
+Jade Meskill, Integrum Technologies
 
-**The Rise of DevOps**  
- Corey Donohoe, Teamsters
+**The Rise of DevOps**<br>
+Corey Donohoe, Teamsters
 
 ## Trainings
 
-**The Ruby Your Mother Warned You About**  
- James Edward Gray II and Glenn Vanderburg, Gray Productions Software
-Inc. and Relevance, Inc.
+**The Ruby Your Mother Warned You About**<br>
+James Edward Gray II and Glenn Vanderburg,
+Gray Productions Software Inc. and Relevance, Inc.
 
-**The Rails 3 Ropes Course**  
- Gregg Pollack, Envy Labs
+**The Rails 3 Ropes Course**<br>
+Gregg Pollack, Envy Labs
 
-**Introduction to Riak**  
- Sean Cribbs, Basho
+**Introduction to Riak**<br>
+Sean Cribbs, Basho
 
-**Living Among the Clouds**  
- Jim Mulholland and Jason Derrett, Squeejee
+**Living Among the Clouds**<br>
+Jim Mulholland and Jason Derrett, Squeejee
 
 ## Other Highlights
 

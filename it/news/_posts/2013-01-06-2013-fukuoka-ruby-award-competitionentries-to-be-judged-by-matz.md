@@ -21,14 +21,14 @@ giapponese (GMT+9)
 
 Gran Premio: 1 Milione di Yen!
 
-Premio di Engine Yard:  
- Engine Yard Cloud (prime 5,000 hours gratis), invitato a partecipare a
+Premio di Engine Yard:<br>
+Engine Yard Cloud (prime 5,000 hours gratis), invitato a partecipare a
 Ruby Kaigi (include l\'afterparty e 50,000JPY per coprire i costi del
 trasporto per due persone), e un Apple iPad Mini 32GB WiFi Black &amp;
 Slate (inciso con un messaggio speciale).
 
-Premio Salesforce.com:  
- 500,000 JPY, introduzione al sito [http://www.salesforce.com/jp/][1],
+Premio Salesforce.com:<br>
+500,000 JPY, introduzione al sito [http://www.salesforce.com/jp/][1],
 biglietti Dreamforce per 3 persone.
 
 Visita [questo sito][2] per maggiori dettagli.
@@ -36,10 +36,10 @@ Visita [questo sito][2] per maggiori dettagli.
 I vincitori delle precedenti competizioni includono Rhomobile, Banjo, e
 VMware.
 
-Precedenti vincitori:  
-[2012][3]  
-[2011][4]  
-[2010][5]  
+Precedenti vincitori:<br>
+[2012][3]<br>
+[2011][4]<br>
+[2010][5]<br>
 [2009][6]
 
 Il CEO di Engine Yard e il CTO delle Cloud Applications di VMware CTO

@@ -22,16 +22,16 @@ bieten, Wissen zu teilen und neues Wissen zu erhalten.
 
 ### Termin
 
-Erster Tag am **20.08.2011** ab **12:00** Uhr (Einlass ab 10 Uhr)  
- Zweiter Tag am **21.08.2011** ab **10:00** Uhr (Einlass ab 9 Uhr)
+Erster Tag am **20.08.2011** ab **12:00** Uhr (Einlass ab 10 Uhr)<br>
+Zweiter Tag am **21.08.2011** ab **10:00** Uhr (Einlass ab 9 Uhr)
 
 ### Veranstaltungsort
 
 Unser Treffen findet in Leipzig im sublab statt:
 
-**sublab e.V.  
- Karl-Heine-Straße 93  
- 04229 Leipzig**
+**sublab e.V.**<br>
+**Karl-Heine-Straße 93**<br>
+**04229 Leipzig**
 
 #### Selbstdarstellung sublab.org
 

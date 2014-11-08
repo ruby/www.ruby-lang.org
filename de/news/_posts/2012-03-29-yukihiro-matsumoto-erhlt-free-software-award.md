@@ -10,7 +10,7 @@ Software mit dem Free Software Award der Free Software Foundation
 ausgezeichnet worden. Geehrt wurde er vor allem für seine Arbeit an der
 Programmiersprache Ruby und an anderen GNU-Projekten.
 
-[Meldung der Free Software Foundation][1]  
+[Meldung der Free Software Foundation][1]<br>
 [Meldung auf heise.de][2]
 
 

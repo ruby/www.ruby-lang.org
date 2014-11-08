@@ -30,16 +30,16 @@ Antwort!
 
 ### Termin
 
-Erster Tag am **18.09.2010** ab **12:00** Uhr (Einlass ab 10 Uhr)  
- Zweiter Tag am **19.09.2010** ab **10:00** Uhr (Einlass ab 9 Uhr)
+Erster Tag am **18.09.2010** ab **12:00** Uhr (Einlass ab 10 Uhr)<br>
+Zweiter Tag am **19.09.2010** ab **10:00** Uhr (Einlass ab 9 Uhr)
 
 ### Veranstaltungsort
 
 Unser Treffen findet in Leipzig im sublab statt:
 
-**sublab e.V.  
- Karl-Heine-Straße 93  
- 04229 Leipzig**
+**sublab e.V.**<br>
+**Karl-Heine-Straße 93**<br>
+**04229 Leipzig**
 
 #### Selbstdarstellung sublab.org
 
