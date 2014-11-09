@@ -50,7 +50,7 @@ Con i migliori sforzi
 
   * mswin32, x64-mswin64, mingw32
   * MacOS X 10.5 (Intel) e 10.6
-  * FreeBSD 6 and successivo (amd64, IA32)
+  * FreeBSD 6 e successivo (amd64, IA32)
   * Solaris 10
   * Symbian OS
 

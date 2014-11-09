@@ -18,7 +18,7 @@ Come in Python, in Ruby,...
 * Non ci sono terminatori di riga speciali (eccetto l’accapo).
 * Alcune stringhe possono occupare più di una riga, come le stringhe tra
   triple virgolette in Python.
-* Le parentesi quadre sono per le liste, mentre Brackets are for lists,
+* Le parentesi quadre sono per le liste, mentre Brackets sono per lists,
   mentre le graffe sono per i dict (che in Ruby sono chiamati “hash”).
 * Gli array si usano allo stesso modo (Si possono aggiungere elementi ad
   un array e comporli tra loro per ottenere delle matrici o array di

@@ -101,8 +101,8 @@ corretto o i tool descritti precedentemente.
 
 Di seguito sono descritti e seguenti gestori di pacchetti:
 
-* [apt (Debian or Ubuntu)](#apt)
-* [yum (CentOS, Fedora, or RHEL)](#yum)
+* [apt (Debian o Ubuntu)](#apt)
+* [yum (CentOS, Fedora, o RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
 * [Homebrew (OS X)](#homebrew)

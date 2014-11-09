@@ -165,7 +165,7 @@ Security Team.
 
 * 2008-08-08 12:21 +09:00 Corretto il numero di revisione di Ruby 1.9.
 * 2008-08-11 11:23 +09:00 Corretto il patchlevel di Ruby 1.8. vedi
-  [L\'annuncio del rilascio di Ruby 1.8.7-p72 and 1.8.6-p287][4]
+  [L\'annuncio del rilascio di Ruby 1.8.7-p72 e 1.8.6-p287][4]
 
 
 

@@ -16,7 +16,7 @@ Come in PHP, in Ruby…
 * viene usata una tipizzazione dinamica, come in PHP, quindi non devi
   preoccuparti di dichiarare variabili.
 * Esistono delle classi, delle quali puoi controllare l’accesso come in
-  PHP (`public`, `protected` and `private`).
+  PHP (`public`, `protected` e `private`).
 * Alcune delle variabili incominciano per $, come in PHP (ma non sempre)
 * Esiste il metodo `eval`.
 * Puoi interpolare delle stringhe tra di loro. Invece di scrivere
@@ -25,8 +25,8 @@ Come in PHP, in Ruby…
 * È possibile usare la sintassi heredoc.
 * È possibile gestire le eccezioni, come in PHP5.
 * Esiste una libreria standard molto completa.
-* Array e hash si comportano come previsto, se cambi `array()` con `{`
-  and `}`\: `array('a' => 'b')` diventa `{'a' => 'b'}`.
+* Array e hash si comportano come previsto, se cambi `array()`
+  con `{` e `}`\: `array('a' => 'b')` diventa `{'a' => 'b'}`.
 * `true` e `false` si comportano come in PHP, ma `null` è chiamato `nil`.
 
 ### Differenze

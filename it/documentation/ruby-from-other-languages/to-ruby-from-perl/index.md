@@ -24,7 +24,7 @@ Come in Perl, in Ruby…
 * Le Stringhe funzionano sostanzialmente nello stesso modo.
 * Esiste una sintassi generale per delimitare le stringhe e le regex
   simile a Perl (ossia come `%q{questo}` (fra apici), o `%Q{questo}`
-  (fra virgolette), and `%w{questo per una lista di parole fra apici}`. Tu
+  (fra virgolette), e `%w{questo per una lista di parole fra apici}`. Tu
   `%Q|puoi|` `%Q(usare)` `%Q^altri^` delimitatori se preferisci).
 * Si Ritrova l’interpolazione di variabili nelle stringhe fra
   virgolette, anche se `"appare #{così}.."` (bada che puoi inserire
@@ -40,7 +40,7 @@ A differenza di Perl, in Ruby,...
 * Non hai regole che dipendono dal contesto come in Perl.
 * Una variabile non è la stessa cosa dell’oggetto al quale fa
   riferimento. Invece, è solamente un riferimento a un oggetto.
-* Benchè i simboli `$` and `@` vengano usati (in casi specifici)
+* Benchè i simboli `$` e `@` vengano usati (in casi specifici)
   come primo carattere in nomi di variabili, invece di indicarne il
   tipo, ne indicano la portata ("scope") (più precisamente: `$` per le
   globali, `@` per le instanze di oggetti, e `@@` per le
@@ -67,7 +67,7 @@ A differenza di Perl, in Ruby,...
   valore `false` quando lo valuti come boolean.
 * Quando testi se un’espressione è ‘vera’, solamente `false` e `nil`
   rendono un valore falso. Tutto il resto è vero (includendo `0`, `0.0`,
-  and `"0"`).
+  e `"0"`).
 * Non ci sono [PerlMonks][2]. Tuttavia la mailing list ruby-talk è di
   grande aiuto.
 
