@@ -4,6 +4,8 @@ title: "Bibliotecas"
 lang: es
 ---
 
+{% include out-of-date.html %}
+
 Existen fascinantes, útiles y variadas bibliotecas para Ruby, muchas
 disponibles como un conveniente archivo *gem*. Otras bibliotecas son
 liberadas como directorios comprimidos (.zip o .tar.gz) de código
