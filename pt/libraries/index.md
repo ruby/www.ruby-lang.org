@@ -32,7 +32,7 @@ populares. Existem até quatro entradas em [Physics][9].
 Apesar do programa de instalação em Windows incluir *RubyGems*, muitos
 sistemas operativos não as incluem. Se estes comandos não estiverem a
 funcionar consigo, consulte por favor, [Instalando a biblioteca
-*RubyGems*](#instalando-rubygems).
+*RubyGems*](#installing-rubygems).
 
 #### Procurar por Gemas
 
@@ -84,7 +84,7 @@ veja [**o manual oficial**][10], que inclui exemplos para a gemas nas
 suas scripts.
 
 ### Instalando a biblioteca *RubyGems*
-{: #instalando-rubygems}
+{: #installing-rubygems}
 
 Para instalar a biblioteca *RubyGems*, descarregue a sua versão 0.9.0 da
 [página de downloads][11]. Descompacte o arquivo e execute `setup.rb`.
