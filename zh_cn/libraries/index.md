@@ -9,7 +9,6 @@ lang: zh_cn
 .tar.gz）进行发布。现在让我们一起瞧一瞧怎么寻找并安装代码库，来让它们为你所用。
 
 ### 寻找代码库
-{: #finding-libraries}
 
 主要的三方库都是以 Gem 的形式存放在 [RubyGems.org](http://rubygems.org)，你可以直接打开网页或者用 `gem` 命令。
 

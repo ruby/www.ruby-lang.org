@@ -12,7 +12,6 @@ utilizarlas.
 {: .summary}
 
 ### Encontrando bibliotecas
-{: #finding-libraries}
 
 [**RubyGems**][1] es la herramienta preferida por la comunidad para
 distribuir código. Por lo general, las gemas tienen links hacia la
@@ -39,7 +38,6 @@ sobre [Red][8] (Net) por 1. [HTML][9] y [XML][10] también son populares.
 Incluso hay 4 items sobre [Física][11].
 
 ### Usando RubyGems
-{: #using-rubygems}
 
 Mientras que el instalador de Windows incluye RubyGems, muchos sistemas
 operativos no lo hacen. Aprende cómo instalar RubyGems aquí debajo si
@@ -96,7 +94,6 @@ documentación oficial][12] que incluye ejemplos de cómo usar gemas en
 tus programas Ruby.
 
 ### Cómo instalar RubyGems
-{: #installing-rubygems}
 
 Para instalar RubyGems, sigue las instrucciones que se detallan en
 [https://rubygems.org/pages/download][13].

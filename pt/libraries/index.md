@@ -11,7 +11,6 @@ Vejamos como encontrar e instalar bibliotecas para uso próprio.
 {: .summary}
 
 ### Encontrar Bibliotecas
-{: #encontrar-bibliotecas}
 
 O [**RubyForge(RubyForge)**][1] é o famoso *lar* das bibliotecas de
 Ruby. Um bom local para explorar é o seu [mapa de software][2], que
@@ -27,7 +26,6 @@ vencendo por 1 sobre [*Net*][6]. [HTML][7] e [XML][8] são também
 populares. Existem até quatro entradas em [Physics][9].
 
 ### Utilizando a biblioteca *RubyGems*
-{: #utilizando-rubygems}
 
 Apesar do programa de instalação em Windows incluir *RubyGems*, muitos
 sistemas operativos não as incluem. Se estes comandos não estiverem a
