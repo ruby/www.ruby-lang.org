@@ -25,7 +25,7 @@ Choose the way that is the most comfortable for you.
   * [Solaris, OpenIndiana](#solaris)
   * [OS X](#homebrew)
 * [Installers](#installers)
-  * [ruby-build][]
+  * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
@@ -163,8 +163,18 @@ right choice for you.
 
 If the version of Ruby provided by your system or package manager is out of
 date, a newer one can be installed using a third-party installer.
-On UNIX systems one can use [ruby-build][] or [ruby-install](#ruby-install)
-to install a specific version of Ruby into `/usr/local`.
+On UNIX systems one can use [ruby-build](#ruby-build) or
+[ruby-install](#ruby-install) to install a specific version of Ruby
+into `/usr/local`.
+
+
+### ruby-build
+{: #ruby-build}
+
+[ruby-build][ruby-build] is a plugin for [rbenv](#rbenv) that
+allows you to compile and install different versions of Ruby.
+ruby-build can also be used as a standalone program without rbenv.
+It is available for OS X, Linux, and other UNIX-like operating systems.
 
 
 ### Ruby Install
@@ -221,7 +231,7 @@ Rubies installed by [ruby-install](#ruby-install) or even built from source.
 
 [rbenv][rbenv] allows you to manage multiple installations of Ruby.
 It does not support installing Ruby, but there is a popular plugin
-named [ruby-build][] to install Ruby.
+named [ruby-build](#ruby-build) to install Ruby.
 Both tools are available for OS X, Linux, or other UNIX-like operating systems.
 
 
