@@ -17,82 +17,24 @@ The following overview lists available installation methods
 for each of the major platforms.
 Choose the way that is the most comfortable for you.
 
-* OS X
-
+* [Package Managment Systems](#package-management-systems)
+  * [Debian, Ubuntu](#apt)
+  * [CentOS, Fedora, RHEL](#yum)
+  * [Gentoo](#portage)
+  * [Arch Linux](#pacman)
+  * [Solaris, OpenIndiana](#solaris)
+  * [OS X](#homebrew)
+* [Installers](#installers):
+  * [ruby-build]
+  * [ruby-install](#ruby-install)
+  * [RubyInstaller](#rubyinstaller) (Windows)
+  * [RailsInstaller and Ruby Stack](#railsinstaller)
+* [Managers](#managers):
+  * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [Homebrew](#homebrew)
-  * [ruby-install](#ruby-install)
-  * [Building from source](#building-from-source)
-
-* Linux/UNIX
-
-  * [rbenv](#rbenv)
-  * [RVM](#rvm)
-  * [ruby-install](#ruby-install)
-  * [Package management systems](#package-management-systems)
-  * [Building from source](#building-from-source)
-
-* Windows
-
-  * [RubyInstaller](#rubyinstaller)
-  * [pik][pik]
-
-
-## Third Party Tools
-
-Many Rubyists use third-party tools to install Ruby.
-They confer various advantages but are not officially supported.
-Their respective communities are very helpful, however.
-
-
-### rbenv
-{: #rbenv}
-
-[rbenv][rbenv] allows you to manage multiple installations of Ruby.
-It does not support installing Ruby, but there is a popular plugin
-named ruby-build to install Ruby.
-Both tools are available for OS X, Linux, or other UNIX-like operating systems.
-
-
-### RVM ("Ruby Version Manager")
-{: #rvm}
-
-[RVM][rvm] allows you to install and manage multiple installations of Ruby
-on your system. It can also manage different gemsets.
-It is available for OS X, Linux, or other UNIX-like operating systems.
-
-
-### Ruby Install
-{: #ruby-install}
-
-[ruby-install][ruby-install] allows you to install multiple versions of Ruby.
-There is also a sibling, *chruby*, which handles switching between Ruby versions.
-It is available for OS X, Linux, and other UNIX-like operating systems.
-
-
-### RubyInstaller
-{: #rubyinstaller}
-
-If you are on Windows, there is a great project to help you install Ruby:
-[RubyInstaller][rubyinstaller]. It gives you everything you need to set up
-a full Ruby development environment on Windows.
-
-Just download it, run it, and you are done!
-
-
-### RailsInstaller and Ruby Stack
-
-If you are installing Ruby in order to use Ruby on Rails,
-you can use the following installers:
-
-* [RailsInstaller][railsinstaller]
-  which uses RubyInstaller but gives you
-  extra tools that help with Rails development.
-  It supports OS X and Windows.
-* [Bitnami Ruby Stack][rubystack]
-  which provides a complete development environment for Rails.
-  It supports OS X, Linux, Windows, virtual machines and cloud images.
+  * [pik][pik] (Windows)
+* [Building from source](#building-from-source)
 
 
 ## Package Management Systems
@@ -109,16 +51,6 @@ older versions of Ruby in their official repositories. If you would like to
 use the newest Ruby, make sure you use the correct package name,
 or use the tools described above instead.
 
-The following package managers are described below:
-
-* [apt (Debian or Ubuntu)](#apt)
-* [yum (CentOS, Fedora, or RHEL)](#yum)
-* [portage (Gentoo)](#gentoo)
-* [pacman (Arch Linux)](#pacman)
-* [Homebrew (OS X)](#homebrew)
-* [Solaris, OpenIndiana](#solaris)
-
-
 ### apt (Debian or Ubuntu)
 {: #apt}
 
@@ -126,11 +58,11 @@ Debian GNU/Linux and Ubuntu use the apt package manager.
 You can use it like this:
 
 {% highlight sh %}
-$ sudo apt-get install ruby
+$ sudo apt-get install ruby-full
 {% endhighlight %}
 
-As of writing, the `ruby` package provides Ruby 1.9.3, which is an old stable
-release, on Debian and Ubuntu.
+As of writing, the `ruby-full` package provides Ruby 1.9.3, which is an old
+stable release, on Debian and Ubuntu.
 
 
 ### yum (CentOS, Fedora, or RHEL)
@@ -225,6 +157,78 @@ Linux distribution's manager for Ruby, or the third party tools might be the
 right choice for you.
 
 
+## Installers
+{: #installers}
+
+If the version of Ruby provided by your system or package manager is out of 
+date, a newer one can be installed using a third-party installer.
+On UNIX systems one can use [ruby-build] or [ruby-install] to install a
+specific version of Ruby into `/usr/local`.
+
+
+### Ruby Install
+{: #ruby-install}
+
+[ruby-install][ruby-install] allows you to install multiple versions of Ruby.
+There is also a sibling, *chruby*, which handles switching between Ruby versions.
+It is available for OS X, Linux, and other UNIX-like operating systems.
+
+
+### RubyInstaller
+{: #rubyinstaller}
+
+If you are on Windows, there is a great project to help you install Ruby:
+[RubyInstaller][rubyinstaller]. It gives you everything you need to set up
+a full Ruby development environment on Windows.
+
+Just download it, run it, and you are done!
+
+
+### RailsInstaller and Ruby Stack
+{: #railsinstaller}
+
+If you are installing Ruby in order to use Ruby on Rails,
+you can use the following installers:
+
+* [RailsInstaller][railsinstaller]
+  which uses RubyInstaller but gives you
+  extra tools that help with Rails development.
+  It supports OS X and Windows.
+* [Bitnami Ruby Stack][rubystack]
+  which provides a complete development environment for Rails.
+  It supports OS X, Linux, Windows, virtual machines and cloud images.
+
+## Managers
+{: #managers}
+
+Many Rubyists use Ruby managers to manage multiple Rubies.
+They confer various advantages but are not officially supported.
+Their respective communities are very helpful, however.
+
+### chruby
+{: #chruby}
+
+[chruby] allows you to switch between multiples rubies. chruby can manage
+rubies installed by [ruby-install] or even built from source.
+
+
+### rbenv
+{: #rbenv}
+
+[rbenv][rbenv] allows you to manage multiple installations of Ruby.
+It does not support installing Ruby, but there is a popular plugin
+named ruby-build to install Ruby.
+Both tools are available for OS X, Linux, or other UNIX-like operating systems.
+
+
+### RVM ("Ruby Version Manager")
+{: #rvm}
+
+[RVM][rvm] allows you to install and manage multiple installations of Ruby
+on your system. It can also manage different gemsets.
+It is available for OS X, Linux, or other UNIX-like operating systems.
+
+
 ## Building from Source
 {: #building-from-source}
 
@@ -246,7 +250,9 @@ though, because the installed Ruby won't be managed by any tools.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
-[ruby-install]: https://github.com/postmodern/ruby-install
+[ruby-build]: https://github.com/sstephenson/ruby-build#readme
+[ruby-install]: https://github.com/postmodern/ruby-install#readme
+[chruby]: https://github.com/postmodern/chruby#readme
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
