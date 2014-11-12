@@ -17,19 +17,19 @@ The following overview lists available installation methods
 for each of the major platforms.
 Choose the way that is the most comfortable for you.
 
-* [Package Managment Systems](#package-management-systems)
+* [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [Solaris, OpenIndiana](#solaris)
   * [OS X](#homebrew)
-* [Installers](#installers):
+* [Installers](#installers)
   * [ruby-build]
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
-* [Managers](#managers):
+* [Managers](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -49,7 +49,8 @@ instead. While the full list of pros and cons are outside of the scope
 of this page, the most basic reason is that most package managers have
 older versions of Ruby in their official repositories. If you would like to
 use the newest Ruby, make sure you use the correct package name,
-or use the tools described above instead.
+or use the tools described further below instead.
+
 
 ### apt (Debian or Ubuntu)
 {: #apt}
@@ -160,7 +161,7 @@ right choice for you.
 ## Installers
 {: #installers}
 
-If the version of Ruby provided by your system or package manager is out of 
+If the version of Ruby provided by your system or package manager is out of
 date, a newer one can be installed using a third-party installer.
 On UNIX systems one can use [ruby-build] or [ruby-install] to install a
 specific version of Ruby into `/usr/local`.
@@ -198,6 +199,7 @@ you can use the following installers:
   which provides a complete development environment for Rails.
   It supports OS X, Linux, Windows, virtual machines and cloud images.
 
+
 ## Managers
 {: #managers}
 
@@ -205,11 +207,12 @@ Many Rubyists use Ruby managers to manage multiple Rubies.
 They confer various advantages but are not officially supported.
 Their respective communities are very helpful, however.
 
+
 ### chruby
 {: #chruby}
 
-[chruby] allows you to switch between multiples rubies. chruby can manage
-rubies installed by [ruby-install] or even built from source.
+[chruby] allows you to switch between multiple Rubies. chruby can manage
+Rubies installed by [ruby-install] or even built from source.
 
 
 ### rbenv
