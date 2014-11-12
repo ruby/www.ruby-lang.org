@@ -25,7 +25,7 @@ Choose the way that is the most comfortable for you.
   * [Solaris, OpenIndiana](#solaris)
   * [OS X](#homebrew)
 * [Installers](#installers)
-  * [ruby-build]
+  * [ruby-build][]
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
@@ -163,7 +163,7 @@ right choice for you.
 
 If the version of Ruby provided by your system or package manager is out of
 date, a newer one can be installed using a third-party installer.
-On UNIX systems one can use [ruby-build] or [ruby-install](#ruby-install)
+On UNIX systems one can use [ruby-build][] or [ruby-install](#ruby-install)
 to install a specific version of Ruby into `/usr/local`.
 
 
@@ -212,7 +212,7 @@ Their respective communities are very helpful, however.
 ### chruby
 {: #chruby}
 
-[chruby] allows you to switch between multiple Rubies. chruby can manage
+[chruby][] allows you to switch between multiple Rubies. chruby can manage
 Rubies installed by [ruby-install](#ruby-install) or even built from source.
 
 
