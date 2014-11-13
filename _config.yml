@@ -25,35 +25,35 @@ license:
 
 downloads:
   stable:
-    version: 2.1.4
+    version: 2.1.5
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.zip
     md5:
-      bz2: f4136e781d261e3cc20748005e1740b7
-      gz: 89b2f4a197621346f6724a3c35535b19
-      zip: 71c7afca08734f0105a06d2feea11422
+      bz2: a7c3e5fec47eff23091b566e9e1dac1b
+      gz: df4c1b23f624a50513c7a78cb51a13dc
+      zip: 810cd05eb03c00f89b0b03b10e9a3606
   previous:
-    version: 2.0.0-p594
+    version: 2.0.0-p598
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.zip
     md5:
-      bz2: 58469c0daf5f3a892a70cc674ea59c7f
-      gz: a9caa406da5d72f190e28344e747ee74
-      zip: d5801bbe794a07236c3bcf4a28ad3509
+      bz2: a3f3908103a7d209d1d1cf4712e3953c
+      gz: e043a21ce0d138fd408518a80aa31bba
+      zip: aa6ac22747947e6562d5b0dc9767ecda
   previous19:
-    version: 1.9.3-p550
+    version: 1.9.3-p551
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.zip
     md5:
-      bz2: c2169c8b14ccefd036081aba5ffa96da
-      gz: e05135be8f109b2845229c4f47f980fd
-      zip: 4946e5f3d083894372a7a46342e885f7
+      bz2: 0d8b272b05c3449dc848bb7570f65bfe
+      gz: 0d8212f7bc89bab8ef521b04cd9df278
+      zip: 14a394b1d7b7031b34d4d1af64ee657e
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
