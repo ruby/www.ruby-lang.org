@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.5 is Released"
+title: "Ruby 2.1.5 Released"
 author: "nagachika"
 translator:
 date: 2014-11-13 12:00:00 +0000
@@ -9,15 +9,18 @@ lang: en
 
 Ruby 2.1.5 has been released.
 
-This release includes a security fix for DoS vulnerability of REXML.
-It is similar to [the fixed
-vulnerability](/en/news/2014/10/27/rexml-dos-cve-2014-8080/) in [the previous release](/en/news/2014/10/27/ruby-2-1-4-released/), but new and different from it.
+This release includes a security fix for a DoS vulnerability of REXML.
+It is similar to the
+[fixed vulnerability](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+in the [previous release](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/),
+but new and different from it.
 
-* [CVE-2014-8090: Another Denial Of Service XML Expansion](/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 And, some bug fixes are also included.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog) for details.
+and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+for details.
 
 ## Download
 
@@ -51,5 +54,5 @@ and [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog) for d
 
 ## Release Comment
 
-Sorry for the inconvenience of frequently releases.
+Sorry for the inconvenience of frequent releases.
 Thanks to everyone who gave the cooperation to release.
