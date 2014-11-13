@@ -10,9 +10,9 @@ lang: zh_tw
 Ruby 2.1.5 發佈了。
 
 本次發佈包含了 REXML DoS 風險的安全性修正。
-和[上一版](/zh_tw/news/2014/10/27/ruby-1-9-3-p550-is-released/)[已經修正的風險類似](/zh_tw/news/2014/10/27/rexml-dos-cve-2014-8080/)，但本次處理了實體擴張另外的情況。請參考下面的文章來了解更多細節。
+和[上一版](https://www.ruby-lang.org/zh_tw/news/2014/10/27/ruby-1-9-3-p550-is-released/)[已經修正的風險類似](https://www.ruby-lang.org/zh_tw/news/2014/10/27/rexml-dos-cve-2014-8080/)，但本次處理了實體擴張另外的情況。請參考下面的文章來了解更多細節。
 
-* [CVE-2014-8090：另一個 XML 擴張導致的阻斷攻擊](/zh_tw/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090：另一個 XML 擴張導致的阻斷攻擊](https://www.ruby-lang.org/zh_tw/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 同時包含了一些錯誤修正。
 

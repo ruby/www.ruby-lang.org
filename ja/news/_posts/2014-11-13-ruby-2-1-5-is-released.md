@@ -9,9 +9,9 @@ lang: ja
 Ruby 2.1.5 がリリースされました。これは安定版 2.1 系のパッチレベルリリースです。
 
 今回のリリースには、REXML における DoS 攻撃可能な脆弱性の修正が含まれています。
-これは、[前回のリリース](/ja/news/2014/10/27/ruby-2-1-4-released/)で[修正された脆弱性](/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)に類似していますが、それとは別の新たなものです。
+これは、[前回のリリース](https://www.ruby-lang.org/ja/news/2014/10/27/ruby-2-1-4-released/)で[修正された脆弱性](https://www.ruby-lang.org/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)に類似していますが、それとは別の新たなものです。
 
-* [CVE-2014-8090: REXML における XML 展開に伴う新たなサービス不能攻撃について](/ja/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: REXML における XML 展開に伴う新たなサービス不能攻撃について](https://www.ruby-lang.org/ja/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 他にも、幾つかのバグ修正が含まれています。
 詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5) および [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog) を確認して下さい。

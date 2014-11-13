@@ -9,10 +9,10 @@ lang: ja
 Ruby 1.9.3-p551がリリースされました。
 
 今回のリリースには、REXML における DoS 攻撃可能な脆弱性の修正が含まれています。
-これは、[前回のリリース](/ja/news/2014/10/27/ruby-1-9-3-p550-is-released/)で[修正された脆弱性](/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)に類似していますが、それとは異なるケースに対応したものです。
+これは、[前回のリリース](https://www.ruby-lang.org/ja/news/2014/10/27/ruby-1-9-3-p550-is-released/)で[修正された脆弱性](https://www.ruby-lang.org/ja/news/2014/10/27/rexml-dos-cve-2014-8080/)に類似していますが、それとは異なるケースに対応したものです。
 詳細は以下のトピックを参照してください。
 
-* [CVE-2014-8090: REXML における XML 展開に伴う新たなサービス不能攻撃について](/ja/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: REXML における XML 展開に伴う新たなサービス不能攻撃について](https://www.ruby-lang.org/ja/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 
 ## 注意
