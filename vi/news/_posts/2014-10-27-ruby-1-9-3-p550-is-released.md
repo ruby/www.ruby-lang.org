@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p550 Released"
+title: "Ra mắt phiên bản Ruby 1.9.3-p550"
 author: "usa"
 translator: "hoasung01"
 date: 2014-10-27 12:00:00 +0000
