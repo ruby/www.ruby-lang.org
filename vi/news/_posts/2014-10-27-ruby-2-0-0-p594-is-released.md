@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p594 Released"
+title: "Ra mắt phiên bản Ruby 2.0.0-p594"
 author: "usa"
 translator: "JosNguyen"
 date: 2014-10-27 12:00:00 +0000
