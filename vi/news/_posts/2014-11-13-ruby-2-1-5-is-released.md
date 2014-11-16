@@ -9,11 +9,13 @@ lang: vi
 
 Ruby 2.1.5 vừa được ra mắt.
 
-Phiên bản này bao gồm bản vá cho lỗ hổng bảo mật DoS của REXML. Nó tương tự với [bản vá lỗ hổng bảo mật](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/) trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-1-4-released/), nhưng theo cách mới và khác.
+Phiên bản này bao gồm bản vá cho lỗ hổng bảo mật DoS của REXML.
+Nó tương tự với
+[bản vá lỗ hổng bảo mật](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-1-4-released/),
+nhưng theo cách mới và khác.
 
-
-* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
-
+* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 Ngoài ra, phiên bản này cũng bao gồm một số vá lỗi khác.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
@@ -51,5 +53,6 @@ và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
       SHA512: a55cf5970203904e7bc8cef2b6fbf7b8d5067a160289a1a49d13c4dfef8c95002bcdf697f5d04d420ef663efad5ee80d5a9e4e7445c4db9a02f9cbc9e4b8444e
 
 ## Ý kiến cho phiên bản này
+
 Xin lỗi nếu sự ra mắt các phiên bản một cách thường xuyên gây ra bất tiện cho các bạn.
-Cảm ơn tất cả mọi người đã đóng góp công sức để ra được phiên bản này.  
+Cảm ơn tất cả mọi người đã đóng góp công sức để ra được phiên bản này.
