@@ -68,7 +68,7 @@ Ruby 2.0.0-p195 をリリースします。 これは 2.0.0 の最初のパッ�
 
       #8092 improve accuracy of GC.stat[:heap_live_num]
       #8146 avoid unnecessary heap growth.
-      #8145  fix unlimited memory growth with large values of RUBY_FREE_MIN.
+      #8145 fix unlimited memory growth with large values of RUBY_FREE_MIN.
 
 ### Core - Regexp
 
