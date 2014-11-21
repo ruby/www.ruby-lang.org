@@ -206,7 +206,7 @@ div.post h3 a {
 
 div.post h3 a:hover { text-decoration: underline; }
 
-p.post-info {
+.post-info {
   color: grey;
   font-size: 13px;
   line-height: 16px;
