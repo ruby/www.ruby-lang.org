@@ -11,13 +11,14 @@ Hemos liberado la versión de Ruby 1.9.3-p551.
 
 Esta entrega contiene una corrección de seguridad de una vulnerabilidad
 por negación de servicio en REXML.
-
-Es muy similar a la [vulnerabilidad corregida](https://www.ruby-lang.org/es/news/2014/10/27/rexml-dos-cve-2014-8080/)
+Es muy similar a la
+[vulnerabilidad corregida](https://www.ruby-lang.org/es/news/2014/10/27/rexml-dos-cve-2014-8080/)
 en [la entrega anterior](https://www.ruby-lang.org/es/news/2014/10/27/ruby-1-9-3-p550-is-released/),
 pero en este caso manejamos un caso distinto de la expansión de entidades.
 Por favor continua leyendo para obtener más detalles.
 
 * [CVE-2014-8090: Otro ataque por negación de servicio en la expansión de XML](https://www.ruby-lang.org/es/news/2014/11/13/rexml-dos-cve-2014-8090/)
+
 
 ## Aviso
 
@@ -27,6 +28,7 @@ vulnerabilidades de seguridad. Hasta el momento el fin de esta etapa de
 mantenimiento de 1.9.3 está planeado para Febrero del año entrante.
 Recomendamos a todos los usuarios de Ruby 1.9.3 que actualicen a una versión
 más nueva lo antes posible.
+
 
 ## Descargas
 

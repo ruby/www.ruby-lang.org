@@ -11,8 +11,8 @@ Hemos liberado la versión de Ruby 2.0.0-p598.
 
 Esta entrega contiene una corrección de seguridad de una vulnerabilidad
 por negación de servicio en REXML.
-
-Es muy similar a la [vulnerabilidad corregida](https://www.ruby-lang.org/es/news/2014/10/27/rexml-dos-cve-2014-8080/)
+Es muy similar a la
+[vulnerabilidad corregida](https://www.ruby-lang.org/es/news/2014/10/27/rexml-dos-cve-2014-8080/)
 en [la entrega anterior](https://www.ruby-lang.org/es/news/2014/10/27/ruby-2-0-0-p594-is-released/)
 pero en este caso manejamos un caso distinto de la expansión de entidades.
 Por favor continua leyendo para obtener más detalles.
@@ -59,4 +59,3 @@ para tener una lista completa de los cambios incluidos en la versión.
 Nos disculpamos por la inconveniencia que pueda causar liberar versiones tan
 frecuentemente.
 Agradecemos a todos los que ayudaron con esta entrega.
-

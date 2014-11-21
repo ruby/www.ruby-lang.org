@@ -11,14 +11,13 @@ Hemos liberado la versión de Ruby 2.1.5.
 
 Esta entrega contiene una corrección de seguridad de una vulnerabilidad
 por negación de servicio en REXML.
-
-Es muy similar a la [vulnerabilidad corregida](https://www.ruby-lang.org/es/news/2014/10/27/rexml-dos-cve-2014-8080/)
+Es muy similar a la
+[vulnerabilidad corregida](https://www.ruby-lang.org/es/news/2014/10/27/rexml-dos-cve-2014-8080/)
 en [la entrega anterior](https://www.ruby-lang.org/es/news/2014/10/27/ruby-2-1-4-released/)
 pero en este caso manejamos un caso distinto de la expansión de entidades.
 Por favor continua leyendo para obtener más detalles.
 
 * [CVE-2014-8090: Otro ataque por negación de servicio en la expansión de XML](https://www.ruby-lang.org/es/news/2014/11/13/rexml-dos-cve-2014-8090/)
-
 
 También se incluyen otras correcciones.
 Puedes ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
@@ -60,4 +59,3 @@ para obtener una lista completa de los cambios incluidos en la versión.
 Nos disculpamos por la inconveniencia que pueda causar liberar versiones tan
 frecuentemente.
 Agradecemos a todos los que ayudaron con esta entrega.
-
