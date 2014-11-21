@@ -9,10 +9,7 @@ javascript:
 {{ content }}
 
 {% assign number_of_excerpts = 4 %}
-{% assign number_of_other    = 3 %}{% comment %} number of links per column {% endcomment %}
-
-{% assign offset_other_left  = number_of_excerpts %}
-{% assign offset_other_right = number_of_excerpts | plus: number_of_other %}
+{% assign number_of_other    = 6 %}
 
 {% if site.locales.news[page.lang] %}
   {% assign news = site.locales.news[page.lang] %}
@@ -35,16 +32,7 @@ javascript:
 <div id="news">
   <h3>{{ news.other_news }}</h3>
   <ul>
-    {% for post in site.categories[page.lang] offset:offset_other_left limit:number_of_other %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br>
-      <span class="post-info">{{ post.date | posted_by:post.author }}</span>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <ul>
-    {% for post in site.categories[page.lang] offset:offset_other_right limit:number_of_other %}
+    {% for post in site.categories[page.lang] offset:number_of_excerpts limit:number_of_other %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a><br>
       <span class="post-info">{{ post.date | posted_by:post.author }}</span>
