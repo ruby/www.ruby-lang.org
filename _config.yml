@@ -1194,7 +1194,7 @@ locales:
           url: /ko/documentation/
         books:
           text: 책
-          url: /ko/documentation/books/
+          url: http://www.ruby-doc.org/bookstore
         libraries:
           text: 라이브러리
           url: /ko/libraries/

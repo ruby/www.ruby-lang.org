@@ -130,7 +130,7 @@ if __FILE__ == $0
 만약 그랬다면, 매뉴얼과 튜토리얼 등이 소개되어 있는 [문서 섹션](/ko/documentation)으로 가 보세요. 모두
 온라인에 무료로 제공되고 있으니까요.
 
-다른 책들을 책을 파고싶으시다면, [국내서][4]나 [원서들][1](외부 링크)를 확인해보세요.
+다른 책들을 책을 파고싶으시다면, [원서들][1](외부 링크)를 확인해보세요.
 서점에서 판매중인 책들을 온라인에서 구매 하실 수 있습니다.
 
 * 원문: [Ruby in Twenty Minutes][2]
@@ -142,4 +142,3 @@ if __FILE__ == $0
 [1]: http://www.ruby-doc.org/bookstore
 [2]: /en/documentation/quickstart
 [3]: http://beyond.daesan.com
-[4]: /ko/documentation/books
