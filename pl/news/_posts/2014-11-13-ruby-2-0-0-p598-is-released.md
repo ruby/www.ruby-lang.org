@@ -12,7 +12,7 @@ Jest nam miło ogłosić wydanie Rubiego 2.0.0-p598.
 To wydanie zawiera poprawkę bezpieczeństwa dla podatności DoS w REXML.
 Jest to podobne do
 [poprawionej podatności](https://www.ruby-lang.org/pl/news/2014/10/27/rexml-dos-cve-2014-8080/)
-w [poprzednim wydaniu](https://www.ruby-lang.org/pl/news/2014/10/27/ruby-1-9-3-p550-is-released/),
+w [poprzednim wydaniu](https://www.ruby-lang.org/pl/news/2014/10/27/ruby-2-0-0-p594-is-released/),
 ale dotyczy innego przypadku rozrostu encji.
 Proszę zobaczyć poniższy artykuł po więcej szczegółów.
 

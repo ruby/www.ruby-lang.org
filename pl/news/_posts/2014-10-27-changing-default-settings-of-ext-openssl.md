@@ -52,8 +52,7 @@ Zwłaszcza w kodzie jak:
 
 {% highlight ruby %}
 ctx = OpenSSL::SSL::SSLContext.new
-ctx.set_params  # jeśli chcesz zmienić pewne opcje, takie jak magazyn certyfikatów,
-tryb sprawdzania i inne, możesz przekazać takie parametry w hashu
+ctx.set_params  # jeśli chcesz zmienić pewne opcje, takie jak magazyn certyfikatów, tryb sprawdzania i inne, możesz przekazać takie parametry w hashu
 ssl = OpenSSL::SSL::SSLSocket.new(socket, ctx)
 {% endhighlight %}
 
