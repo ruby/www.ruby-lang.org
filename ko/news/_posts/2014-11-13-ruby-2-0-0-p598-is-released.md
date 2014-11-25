@@ -17,7 +17,7 @@ lang: ko
 * [CVE-2014-8090: XML 확장의 또다른 서비스 거부 공격(DoS)](https://www.ruby-lang.org/ko/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 그리고, 버그 수정도 포함되어 있습니다.
-자세한 내용은 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5))
+자세한 내용은 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
 를 참고하세요.
 
