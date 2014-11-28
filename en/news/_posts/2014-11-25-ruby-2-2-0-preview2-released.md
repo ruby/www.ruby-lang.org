@@ -15,22 +15,21 @@ diverse and expanding demands for Ruby.
 
 For example, Symbol GC makes Symbols garbage collectable.
 This reduces memory usage of Symbols; because GC couldn't collect Symbols before
-Ruby 2.2. So Rails 5.0 will require Symbol GC. It will support only Ruby 2.2
+Ruby 2.2. Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2
 or later. (See [Rails' blog post](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) for details.)
 
-Also, new Incremental GC decreases pause time of garbage collection.
-It is helpful for running Rails applications.
+Also, new Incremental GC decreases pause time of garbage collection, which is also helpful for running Rails applications.
 
-Another feature about memory management is adding a option to use jemalloc for configure.in.
-[Feature #9113](https://bugs.ruby-lang.org/issues/9113)
-This is experimental feature, and is disabled by default.
-We need to gather use case and performance data.
-After gathering them and we convince the benefit, it will be enabled by default.
+Another feature related to memory management is adding an option for configure.in to use jemalloc
+[Feature #9113](https://bugs.ruby-lang.org/issues/9113).
+This is an experimental feature, and is disabled by default.
+We need to gather use cases and performance data.
+When we get convinced of the benefits, the feature will be enabled by default.
 
 One more topic is [using vfork(2) in system() and spawn() (Japanese)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
-It is expected that it brings huge speed up when large process executes external commands many times.
-But vfork(2) is risky system call.
-We want to know how large benefit it brings through gathering use cases and performance data.
+It is expected that it brings a huge speed-up when a large process executes external commands many times.
+But vfork(2) is a risky system call.
+We want to know how much benefit it brings through gathering use cases and performance data.
 
 Try and enjoy programming with Ruby 2.2.0-preview2, and report us your knowledge!
 
@@ -48,17 +47,18 @@ Try and enjoy programming with Ruby 2.2.0-preview2, and report us your knowledge
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)
 * bundled libraries:
   * Update Psych 2.0.6
-  * Update Rake 10.3.2+ (e47d0239)
+  * Update Rake 10.4.0
   * Update RDoc 4.2.0.alpha (21b241a)
-  * Update RubyGems 2.4.3+ (7b1f684)
-  * Update test-unit 3.0.1 (removed from repository but bundled
+  * Update RubyGems 2.4.4+ (2f6e42e)
+  * rubygems 2.4.4+ (2f6e42e)
+  * Update test-unit 3.0.7 (removed from repository but bundled
 in tarball)
-  * Update minitest 5.4.1 (removed from repository but bundled in tarball)
+  * Update minitest 5.4.3 (removed from repository but bundled in tarball)
   * Deprecate mathn
 * C API
   * Remove deprecated APIs
 
-See [NEWS in ruby repository(WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS) for detail.
+See [NEWS in ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS) for details.
 
 With those changes, 1239 files changed, 98343 insertions(+), 61858 deletions(-).
 
