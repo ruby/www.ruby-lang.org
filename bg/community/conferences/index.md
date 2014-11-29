@@ -8,6 +8,10 @@ Ruby програмистите по света все по-често орга�
 се събират за да споделят интересни идеи, информация, обсъждат бъдещето
 на езика и за да посрещнат „новаците“ в Ruby обществото.
 
+[RubyConferences.org][rc] е списък с Ruby конференции, поддържан от Ruby
+общността. Там ще намерите дати, места и информация за регистриране за
+множество събития.
+
 ### Основни Ruby конференции
 
 [RubyConf][1]
@@ -49,14 +53,15 @@ Virginia, West Virginia, Maryland, и Washington, DC.
 
 ### Присъствие на Ruby в други конференции
 
-Ruby присъства на [O’Reilly Open Source Conference][9] (OSCON) от 2004
-г. Някои от конференциите, свързани с Ruby on Rails, са: Ruby Central’s
-[RailsConf][10], [RailsConf Europe][11] (през 2006 г. с помощта на Ruby
-Central и [Skills Matter][12], и през 2007 г. с помощта на Ruby Central
+Ruby присъства на [O’Reilly Open Source Conference][10] (OSCON) от 2004
+г. Някои от конференциите, свързани с [Ruby on Rails][11], са: Ruby Central’s
+[RailsConf][12], [RailsConf Europe][13] (през 2006 г. с помощта на Ruby
+Central и [Skills Matter][14], и през 2007 г. с помощта на Ruby Central
 и O’Reilly), както и Canada on Rails и Scotland on Rails.
 
 
 
+[rc]: http://rubyconferences.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
@@ -65,7 +70,8 @@ Central и [Skills Matter][12], и през 2007 г. с помощта на Ruby
 [6]: http://rubycentral.org/community/grant
 [7]: http://www.sdforum.org
 [8]: http://rubynation.org/
-[9]: http://conferences.oreillynet.com/os2006/
-[10]: http://www.railsconf.org
-[11]: http://europe.railsconf.org
-[12]: http://www.skillsmatter.com
+[10]: http://conferences.oreillynet.com/os2006/
+[11]: http://www.rubyonrails.org
+[12]: http://www.railsconf.org
+[13]: http://europe.railsconf.org
+[14]: http://www.skillsmatter.com
