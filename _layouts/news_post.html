@@ -12,10 +12,9 @@ layout: default
   {% include title.html %}
 
   <div id="content">
-    {{ content }}
-
     <p class="post-info">{{ page.date | posted_by:page.author }}{% if page.translator %}<br />
                          {{ translated_by }} {{ page.translator }}{% endif %}</p>
+    {{ content }}
   </div>
 </div>
 <hr class="hidden-modern" />
