@@ -35,7 +35,7 @@ Ruby 2.2.0-preview2 是 Ruby 2.2.0 第二個預覽版。針對使用者對 Ruby 
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)。
 * 系統內建函式庫：
   * 更新 Psych 至 2.0.6；
-  * 更新 Rake 至 10.4.0+（e47d0239）；
+  * 更新 Rake 至 10.4.0（e47d0239）；
   * 更新 RDoc 至 4.2.0.alpha（21b241a）；
   * 更新 RubyGems 2.4.4+（2f6e42e）；
   * rubygems 2.4.4+ (2f6e42e)；
