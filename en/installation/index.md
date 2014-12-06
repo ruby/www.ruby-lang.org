@@ -13,6 +13,17 @@ and how to build Ruby from source.
 
 ## Choose Your Installation Method
 
+There are several ways to install Ruby:
+
+* When you are on a UNIX-like operating system, using your system's
+  **package manager** is the easiest way of getting started.
+  However, the packaged Ruby version usually is not the newest one.
+* **Installers** can be used to install a specific or multiple
+  Ruby versions. There is also an installer for Windows.
+* **Managers** help you to switch between multiple Ruby installations
+  on your system.
+* And finally, you can also **build Ruby from source**.
+
 The following overview lists available installation methods
 for different needs and platforms.
 
