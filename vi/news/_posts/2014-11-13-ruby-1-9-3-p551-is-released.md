@@ -7,9 +7,9 @@ date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi xin thông baó phiên bản Ruby 1.9.3-p551.
+Chúng tôi xin thông báo phiên bản Ruby 1.9.3-p551.
 
-Phiên bản này bao gồm bẩn sửa lỗi cho lỗ hổng Dos của REXML.
+Phiên bản này bao gồm bản sửa lỗi cho lỗ hổng Dos của REXML.
 Tưong tụ như 
 [lỗ hổng đã sửa](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
 trong [phiên bản trưóc](https://www.ruby-lang.org/en/news/2014/10/27/ruby-1-9-3-p550-is-released/),
