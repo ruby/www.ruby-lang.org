@@ -24,7 +24,7 @@ Xin xem chủ đề bên dưới để biết thêm chi tiết.
 Ruby 1.9.3 hiện đang trong quá trình bảo trì tính bảo mật.
 Đìêu này có nghĩa là chúng tôi chỉ sửa những lỗi liên quan đến bảo mật.
 Và, tháng 2 năm sau, chúng tôi sẽ ngừng bảo trì Ruby 1.9.3.
-Chúng tôi khuyển cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
+Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
 
 
 ## Tải về
