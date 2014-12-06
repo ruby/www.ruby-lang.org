@@ -11,8 +11,8 @@ Chúng tôi xin thông báo phiên bản Ruby 1.9.3-p551.
 
 Phiên bản này bao gồm bản sửa lỗi cho lỗ hổng Dos của REXML.
 Tương tự như 
-[lỗ hổng đã sửa](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [phiên bản trưóc](https://www.ruby-lang.org/en/news/2014/10/27/ruby-1-9-3-p550-is-released/),
+[lỗ hổng đã sửa](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [phiên bản trưóc](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-1-9-3-p550-is-released/),
 nhưng những xử lý này cho các trưòng hợp mở rộng khác.
 Xin xem chủ đề bên dưới để biết thêm chi tiết.
 
@@ -21,8 +21,8 @@ Xin xem chủ đề bên dưới để biết thêm chi tiết.
 
 ## Chú ý
 
-Ruby 1.9.3 hiện đang trong qúa trình bảo trì tính bảo mật.
-Đìêu này có nghiã là chúng tôi chỉ sửa những lỗi liên quan đến bảo mật.
+Ruby 1.9.3 hiện đang trong quá trình bảo trì tính bảo mật.
+Đìêu này có nghĩa là chúng tôi chỉ sửa những lỗi liên quan đến bảo mật.
 Và, tháng 2 năm sau, chúng tôi sẽ ngừng bảo trì Ruby 1.9.3.
 Chúng tôi khuyển cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
 
