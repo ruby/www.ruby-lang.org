@@ -15,7 +15,7 @@ Nó tương tự với
 trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-1-4-released/),
 nhưng theo cách mới và khác.
 
-* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 Ngoài ra, phiên bản này cũng bao gồm một số vá lỗi khác.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)

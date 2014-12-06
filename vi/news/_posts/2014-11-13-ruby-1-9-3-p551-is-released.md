@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p551 Released"
+title: "Ra mắt phiên bản Ruby 1.9.3-p551"
 author: "usa"
 translator: "hoasung01"
 date: 2014-11-13 12:00:00 +0000
@@ -16,7 +16,7 @@ trong [phiên bản trưóc](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-1
 nhưng những xử lý này cho các trường hợp mở rộng khác.
 Xin xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2014-8090: Sự từ chối dịch vụ khác của XML mở rộng](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 
 ## Chú ý

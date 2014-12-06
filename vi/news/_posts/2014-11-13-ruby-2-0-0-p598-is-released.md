@@ -16,7 +16,7 @@ trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-
 nhưng phiên bản này giải quyết vấn đề thực thể giãn nở.
 Các bạn có thể xem thêm chi tiết ở chủ đề bên dưới.
 
-* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 Một số lỗi khác cũng đã được sửa.
 Xem thêm chi tiết trong [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
