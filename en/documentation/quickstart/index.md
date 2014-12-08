@@ -20,9 +20,9 @@ header: |
 ## Introduction
 
 This is a small Ruby tutorial that should take no more than 20 minutes
-to complete. It makes the assumption that you already have Ruby
-installed. (If you don’t have Ruby on your computer
-[download](/en/downloads/) and install it before you get started.)
+to complete. It makes the assumption that you already have Ruby installed.
+(If you do not have Ruby on your computer [install][installation] it
+before you get started.)
 
 ## Interactive Ruby
 
@@ -142,3 +142,4 @@ As great as this is for a calculator, we’re getting away from the
 traditional `Hello World` message that beginning tutorials are supposed
 to focus on… [so let’s go back to that.](2/)
 
+[installation]: /en/documentation/installation/
