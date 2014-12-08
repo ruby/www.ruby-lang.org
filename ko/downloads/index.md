@@ -19,7 +19,7 @@ lang: ko
 * Windows에서는 RubyInstaller나 pik를 사용할 수 있습니다.
 
 패키지 관리 시스템이나 서드파티 도구에 대한 좀 더 자세한
-설명은 [설치](/ko/installation/) 페이지를 보세요.
+설명은 [설치][installation] 페이지를 보세요.
 
 물론, 주요 플랫폼에서 소스코드로부터 설치할 수도 있습니다.
 
@@ -30,7 +30,7 @@ lang: ko
 또한 이 방법은 자신의 플랫폼을 위해 미리 만들어진 패키지가
 없을 때에도 좋은 솔루션입니다.
 
-루비를 소스에서 빌드하는 하시려면 [설치](/ko/installation/) 페이지에서
+루비를 소스에서 빌드하는 하시려면 [설치][installation] 페이지에서
 자세한 내용을 보실 수 있습니다. 루비를 컴파일하는데 문제가 있다면,
 밑에서 소개하는 서드파티 도구 중 하나를 이용해볼 것을 고려해 보십시오.
 도움이 될 것입니다.
@@ -62,6 +62,7 @@ lang: ko
 
 
 [license]: {{ site.license.url }}
+[installation]: /ko/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [old-gz]:      {{ site.downloads.previous19.url.gz }}

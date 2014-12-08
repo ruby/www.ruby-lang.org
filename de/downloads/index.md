@@ -19,7 +19,7 @@ Ruby zu installieren:
 * Auf OS X kann man Drittanbieter-Werkzeuge verwenden (rbenv und RVM).
 * Auf Windows kann man RubyInstaller oder pik verwenden.
 
-Siehe die [Installationsanleitung](/de/installation/) für Details zu
+Siehe die [Installationsanleitung][installation] für Details zu
 den verschiedenen Paketverwaltungssystemen und Drittanbieter-Werkzeugen.
 
 Natürlich kann Ruby auf allen wichtigen Plattformen auch aus dem
@@ -32,7 +32,7 @@ wenn Du Dich gut mit Deinem System auskennst und eventuell spezielle
 Einstellungen für Deine Umgebung benötigst. Es ist außerdem eine gute
 Lösung, falls es keine vorgefertigten Pakete für Dein System gibt.
 
-Siehe die [Installationsanleitung](/de/installation/) für Details.
+Siehe die [Installationsanleitung][installation] für Details.
 Falls es Schwierigkeiten beim Kompilieren geben sollte, solltest Du
 vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
 
@@ -66,6 +66,7 @@ Bitte nutze einen Mirror in deiner Nähe.
 
 
 [license]: {{ site.license.url }}
+[installation]: /de/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [old-gz]:      {{ site.downloads.previous19.url.gz }}
