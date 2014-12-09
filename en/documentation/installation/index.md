@@ -168,16 +168,18 @@ right choice for you.
 
 If the version of Ruby provided by your system or package manager is out of
 date, a newer one can be installed using a third-party installer.
-On UNIX-like systems one can use [ruby-build](#ruby-build) or
-[ruby-install](#ruby-install) to install a specific version of Ruby
-into `/usr/local` or other directories.
+Some of them also allow you to install multiple versions on the same system;
+associated managers can help to switch between the different Rubies.
+If you are planning to use [RVM](#rvm) as a version manager you do not need
+a separate installer, it comes with its own.
 
 
 ### ruby-build
 {: #ruby-build}
 
 [ruby-build][ruby-build] is a plugin for [rbenv](#rbenv) that
-allows you to compile and install different versions of Ruby.
+allows you to compile and install different versions of Ruby
+into arbitrary directories.
 ruby-build can also be used as a standalone program without rbenv.
 It is available for OS X, Linux, and other UNIX-like operating systems.
 
@@ -185,7 +187,8 @@ It is available for OS X, Linux, and other UNIX-like operating systems.
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] allows you to install multiple versions of Ruby.
+[ruby-install][ruby-install] allows you to compile and install different
+versions of Ruby into arbitrary directories.
 There is also a sibling, [chruby](#chruby), which handles switching between
 Ruby versions.
 It is available for OS X, Linux, and other UNIX-like operating systems.
