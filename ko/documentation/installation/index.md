@@ -162,15 +162,17 @@ $ pkg install runtime/ruby-18
 
 시스템이나 패키지 관리자에서 제공하는 루비가 구 버전이라면, 서드 파티 인스톨러를
 사용해 새로운 버전의 루비를 설치할 수 있습니다.
-UNIX-계열 운영체제에서는 [ruby-build](#ruby-build)나 [ruby-install](#ruby-install)
-를 사용해 `/usr/local`나 다른 디렉토리에 특정 버전의 루비를 설치할 수 있습니다.
+어떤 인스톨러는 여러 버전의 루비를 같은 시스템에 설치하게 합니다.
+관련된 관리자는 다른 루비간의 전환을 도와줍니다.
+[RVM](#rvm)을 버전 관리자로 사용할 계획이라면 포함되어 있으므로 별도의 인스톨러는
+필요 없습니다.
 
 
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build]는 다른 버전의 루비를 컴파일하고 설치할 수
-있게 하는 [rbenv](#rbenv)의 플러그인입니다.
+[ruby-build][ruby-build]는 다른 버전의 루비를 임의의 디렉토리에
+컴파일하고 설치할 수 있게 하는 [rbenv](#rbenv)의 플러그인입니다.
 ruby-build는 rbenv없이 독자적으로 사용 할 수도 있습니다.
 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
@@ -178,7 +180,8 @@ ruby-build는 rbenv없이 독자적으로 사용 할 수도 있습니다.
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] 은 여러 버전의 루비를 설치할 수 있게 합니다.
+[ruby-install][ruby-install]은 다른 버전의 루비를 임의의 디렉토리에
+컴파일하고 설치할 수 있게 합니다.
 루비 버전을 전환하는 [chruby](#chruby)와 형제 관계입니다.
 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
