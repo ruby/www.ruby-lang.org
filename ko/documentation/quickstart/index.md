@@ -21,8 +21,11 @@ header: |
 
 이 문서는 20분 정도면 따라 해볼 수 있는 간단한 루비 튜토리얼입니다.
 이 튜토리얼을 따라 하기 위해서는 컴퓨터에 루비가 설치되어 있어야
-합니다. (아직 루비가 설치되어 있지 않다면, [이곳](/ko/downloads/)에서
-다운로드 받아 설치하시기 바랍니다.)
+합니다. (아직 루비가 설치되어 있지 않다면, 시작하기 전에
+[설치][installation]하시기 바랍니다.)
+to complete. It makes the assumption that you already have Ruby installed.
++(If you do not have Ruby on your computer [install][installation] it
++before you get started.)
 
 ## 대화형 루비 셸(irb)
 
@@ -133,3 +136,4 @@ irb(main):009:0> Math.sqrt(a+b)
 물론 계산기만으로도 유용하겠지만, 이제 다시 전통적인 `Hello World` 프로그램을
 만드는 초심자 튜토리얼으로 [돌아가 보겠습니다.](2/)
 
+[installation]: /en/documentation/installation/
