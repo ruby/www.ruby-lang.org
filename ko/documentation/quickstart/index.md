@@ -23,9 +23,6 @@ header: |
 이 튜토리얼을 따라 하기 위해서는 컴퓨터에 루비가 설치되어 있어야
 합니다. (아직 루비가 설치되어 있지 않다면, 시작하기 전에
 [설치][installation]하시기 바랍니다.)
-to complete. It makes the assumption that you already have Ruby installed.
-+(If you do not have Ruby on your computer [install][installation] it
-+before you get started.)
 
 ## 대화형 루비 셸(irb)
 
