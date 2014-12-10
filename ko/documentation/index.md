@@ -149,12 +149,12 @@ ruby -v
 [Ruby-Doc.org][34]은 루비에 관한 문서를 관리하는 사이트입니다. 주로 영문이기는
 하지만 잘 정리된 참조 매뉴얼은 도움이 됩니다.
 
-루비에 대한 [책들][ko-5]도 출판되어 있습니다. 원서들은[여기][35]에서 확인하세요.
+루비에 대한 [책들][ko-5]도 출판되어 있습니다. 원서들은 [여기][35]에서 확인하세요.
 루비에 관한 질문이 있다면, [유저 그룹][ko-3]이나 [페이스북 그룹][ko-4]에서 하실 수 있고
 영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하셔도
 됩니다.
 
-[installation]: /en/documentation/installation/
+[installation]: /ko/documentation/installation/
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/

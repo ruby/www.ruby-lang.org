@@ -133,4 +133,4 @@ irb(main):009:0> Math.sqrt(a+b)
 물론 계산기만으로도 유용하겠지만, 이제 다시 전통적인 `Hello World` 프로그램을
 만드는 초심자 튜토리얼으로 [돌아가 보겠습니다.](2/)
 
-[installation]: /en/documentation/installation/
+[installation]: /ko/documentation/installation/
