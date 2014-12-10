@@ -7,17 +7,35 @@ date: 2014-11-28 09:00:00 +0000
 lang: vi
 ---
 
-Rất vui khi được thông báo ấn bản Ruby 2.2.0-preview2
+Rất vui khi được thông báo ấn bản Ruby 2.2.0-preview2.
 
-Ruby 2.2.0-preview2 là bản thử nghiệm thứ 2 của Ruby 2.2.0. Với nhu cầu ngày càng nhiều và mở rộng của Ruby thì ở bản thử nghiệm thứ 2 này Ruby cung cấp cho bạn nhiều tính năng và cải tiến.
+Ruby 2.2.0-preview2 là bản thử nghiệm thứ 2 của Ruby 2.2.0.
+Với nhu cầu ngày càng nhiều và mở rộng của Ruby thì ở bản thử nghiệm thứ 2 này
+Ruby cung cấp cho bạn nhiều tính năng và cải tiến.
 
-Ví dụ: Symbol GC giúp tự động thu hồi bộ nhớ cho Symbols. Nó giúp cho giảm tải đáng kể dung lượng Symbols tạo ra, bởi vì trước bản Ruby 2.2 thì GC không thể thu hồi bộ nhớ sử dụng của Symbols. Vì Rails 5.0 bắt buộc yêu cầu chức năng Symbols GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2. (Xem [bài post trên Rails' blog](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) để thêm chi tiết)
+Ví dụ: Symbol GC giúp tự động thu hồi bộ nhớ cho Symbols. Nó giúp cho giảm tải
+đáng kể dung lượng Symbols tạo ra, bởi vì trước bản Ruby 2.2 thì GC không thể
+thu hồi bộ nhớ sử dụng của Symbols. Vì Rails 5.0 bắt buộc yêu cầu chức năng
+Symbols GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2.
+(Xem [bài post trên Rails' blog](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)
+để thêm chi tiết.)
 
-Ngoài ra Incremental GC mới cũng giúp giảm thời tạm dừng của việc thu hồi bộ nhớ, thực sự hữu dụng khi chạy các ứng dụng Rails.
+Ngoài ra Incremental GC mới cũng giúp giảm thời tạm dừng của việc thu hồi bộ
+nhớ, thực sự hữu dụng khi chạy các ứng dụng Rails.
 
-Các tính năng khác liên quan đến việc quản lý bộ nhớ là một lựa chọn cho configure.in để sử dụng jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113). Đây là là một tính năng thử nghiệm với mặc định không được bật lên. Vì vậy chúng tôi cần thu thập thêm use case và peformance data. Nếu tất cả đều ở trạng thái hoạt động tốt và ổn định thì tính năng này sẽ tự động được mặc định bật lên.
+Các tính năng khác liên quan đến việc quản lý bộ nhớ là một lựa chọn cho
+configure.in để sử dụng jemalloc
+[Feature #9113](https://bugs.ruby-lang.org/issues/9113).
+Đây là là một tính năng thử nghiệm với mặc định không được bật lên. Vì vậy
+chúng tôi cần thu thập thêm use case và peformance data. Nếu tất cả đều ở
+trạng thái hoạt động tốt và ổn định thì tính năng này sẽ tự động được mặc định
+bật lên.
 
-Ngoài ra còn có 1 chủ đề về [sử dụng vfork(2) trong system() và spawn() (Tiếng Nhật)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06). Nó được kỳ vọng sẽ đạt được 1 tốc độ cao từ các cuộc truy xuất lớn bên ngoài 1 cách nhiều lần. Nhưng vfork(2) là một system call nguy hiểm nên chúng tôi muốn biết các lợi ích nó mang lại qua việc thu thập thông tin về use case và peformance data.
+Ngoài ra còn có 1 chủ đề về [sử dụng vfork(2) trong system() và spawn() (Tiếng Nhật)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
+Nó được kỳ vọng sẽ đạt được 1 tốc độ cao từ các cuộc truy xuất lớn bên ngoài 1
+cách nhiều lần. Nhưng vfork(2) là một system call nguy hiểm nên chúng tôi
+muốn biết các lợi ích nó mang lại qua việc thu thập thông tin về use case và
+peformance data.
 
 Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.0-preview từ các bạn.
 
@@ -45,7 +63,8 @@ Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.
 * C API
   * Xoá deprecated APIs
 
-Xem thêm chi tiết tại [NEWS trong ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS).
+Xem thêm chi tiết tại
+[NEWS trong ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS).
 
 Với những thay đổi, 1239 file đã được thay đổi, 98343 insertions(+), 61858 deletions(-).
 
