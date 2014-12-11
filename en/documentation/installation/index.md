@@ -44,6 +44,7 @@ for different needs and platforms.
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
+  * [uru](#uru)
 * [Building from source](#building-from-source)
 
 
@@ -251,6 +252,13 @@ on your system. It can also manage different gemsets.
 It is available for OS X, Linux, or other UNIX-like operating systems.
 
 
+## uru
+{: #uru}
+
+[Uru][uru] is a lightweight, multi-platform command line tool that helps you
+to use multiple Rubies on OS X, Linux, or Windows systems.
+
+
 ## Building from Source
 {: #building-from-source}
 
@@ -275,6 +283,7 @@ though, because the installed Ruby won't be managed by any tools.
 [ruby-build]: https://github.com/sstephenson/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
+[uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
