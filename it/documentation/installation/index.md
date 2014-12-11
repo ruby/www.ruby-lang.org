@@ -34,7 +34,6 @@ Scegli il modo più comodo per te.
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
-  * [pik][pik]
 
 
 ## Tool di terze parti
@@ -236,7 +235,6 @@ perchè la versione installata non verrebbe gestita da nessun tool.
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[pik]: https://github.com/vertiginous/pik
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/

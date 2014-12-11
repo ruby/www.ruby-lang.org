@@ -43,7 +43,6 @@ lang: ko
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [pik][pik] (Windows)
 * [소스에서 빌드하기](#building-from-source)
 
 
@@ -267,7 +266,6 @@ $ sudo make install
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[pik]: https://github.com/vertiginous/pik#readme
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/

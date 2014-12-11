@@ -44,7 +44,6 @@ for different needs and platforms.
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
-  * [pik][pik] (Windows)
 * [Building from source](#building-from-source)
 
 
@@ -279,7 +278,6 @@ though, because the installed Ruby won't be managed by any tools.
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[pik]: https://github.com/vertiginous/pik#readme
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/

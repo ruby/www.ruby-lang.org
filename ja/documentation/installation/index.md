@@ -30,7 +30,6 @@ lang: ja
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
-  * [pik][pik]
 
 
 ## サードパーティツール
@@ -223,7 +222,6 @@ $ sudo make install
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
 [rubyinstaller]: http://rubyinstaller.org/
-[pik]: https://github.com/vertiginous/pik
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/

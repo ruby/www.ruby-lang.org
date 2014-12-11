@@ -29,7 +29,6 @@ lang: zh_tw
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
-  * [pik][pik]
 
 
 ## 第三方工具
@@ -201,7 +200,6 @@ $ sudo make install
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[pik]: https://github.com/vertiginous/pik
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/

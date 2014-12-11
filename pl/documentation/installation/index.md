@@ -32,7 +32,6 @@ Wybierz najbardziej odpowiednią.
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
-  * [pik][pik]
 
 
 ## Narzędzia osób trzecich
@@ -230,7 +229,6 @@ pomysłem, ponieważ zainstalowany Ruby nie będzie zarządzany przez żadne z n
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
 [rubyinstaller]: http://rubyinstaller.org/
-[pik]: https://github.com/vertiginous/pik
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
