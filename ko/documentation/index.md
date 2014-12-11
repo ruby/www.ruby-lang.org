@@ -11,6 +11,21 @@ lang: ko
 도움이 됩니다. 여기 언급되지 않은 좋은 문서가 있다면 알려주시기 바랍니다.
 {: .summary}
 
+### 루비 설치하기
+
+브라우저에서만 루비를 시험해 보려는게 아니라면 (밑의 링크 참조)
+컴퓨터에 루비를 설치할 필요가 있습니다.
+루비가 이미 설치되어있는지 확인하려면 터미널을 열고 다음 명령어를
+입력하세요.
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+이 명령은 설치된 루비에 대한 정보를 알려줄 것 입니다.
+설치되어 있지 않다면, [설치 페이지][installation]에 있는 많은 옵션을
+참조하세요.
+
 ### 초보자용 문서
 
 [Try Ruby!][1] (영문)
@@ -55,13 +70,13 @@ lang: ko
 : 아주 기초적인 내용부터 OOP에서 웹 개발까지 다루는 매우 좋은 설명이
   달린 예제들입니다.
 
-[Ruby For Impatient Nuby][40]
-: [서민구][41] 님이 작성하신 루비 초보자를 위한 튜토리얼입니다.
+[Ruby For Impatient Nuby][ko-1]
+: 서민구 님이 작성하신 루비 초보자를 위한 튜토리얼입니다.
 
-[루비 FAQ][42]
+[루비 FAQ][ko-2]
 : 황대산 님이 정리하신 FAQ입니다.
 
-[다른 언어로 부터의 루비](/en/documentation/ruby-from-other-languages/) (영문)
+[다른 언어로 부터의 루비](/ko/documentation/ruby-from-other-languages/)
 : 다른 언어를 하시다 루비로 오셨나요? C, C++, Java, Perl, PHP, Python에
   상관없이 이 글이면 충분합니다.
 
@@ -133,10 +148,13 @@ lang: ko
 
 [Ruby-Doc.org][34]은 루비에 관한 문서를 관리하는 사이트입니다. 주로 영문이기는
 하지만 잘 정리된 참조 매뉴얼은 도움이 됩니다.
-루비에 대한 [책](books)도 출판되어 있습니다. 원서들은[여기][35]에서 확인하세요.
 
+루비에 대한 [책들][ko-5]도 출판되어 있습니다. 원서들은 [여기][35]에서 확인하세요.
+루비에 관한 질문이 있다면, [유저 그룹][ko-3]이나 [페이스북 그룹][ko-4]에서 하실 수 있고
+영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하셔도
+됩니다.
 
-
+[installation]: /ko/documentation/installation/
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
@@ -176,6 +194,8 @@ lang: ko
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
-[41]: http://mkseo.pe.kr/
-[42]: http://beyond.daesan.com/pages/ruby-faq
+[ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
+[ko-2]: http://beyond.daesan.com/pages/ruby-faq
+[ko-3]: https://groups.google.com/forum/#!forum/rubykr
+[ko-4]: https://www.facebook.com/groups/rubykr/
+[ko-5]: http://ruby-korea.github.io/#book
