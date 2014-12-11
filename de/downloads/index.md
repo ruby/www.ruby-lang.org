@@ -17,7 +17,7 @@ Ruby zu installieren:
 * Auf Linux/UNIX kann man das Paketverwaltungssystem der jeweiligen
   Distribution oder Drittanbieter-Werkzeuge (rbenv und RVM) verwenden.
 * Auf OS X kann man Drittanbieter-Werkzeuge verwenden (rbenv und RVM).
-* Auf Windows kann man RubyInstaller oder pik verwenden.
+* Auf Windows kann man RubyInstaller verwenden.
 
 Siehe die [Installationsanleitung][installation] für Details zu
 den verschiedenen Paketverwaltungssystemen und Drittanbieter-Werkzeugen.

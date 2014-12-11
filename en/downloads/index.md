@@ -16,7 +16,7 @@ We have several tools on each major platform to install Ruby:
 * On Linux/UNIX, you can use the package management system of your
   distribution or third-party tools (rbenv and RVM).
 * On OS X machines, you can use third-party tools (rbenv and RVM).
-* On Windows machines, you can use RubyInstaller or pik.
+* On Windows machines, you can use RubyInstaller.
 
 See the [Installation][installation] page for details on using
 package management systems or third-party tools.

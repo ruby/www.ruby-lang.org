@@ -16,7 +16,7 @@ lang: ko
 * Linux/UNIX에서는 시스템에 포함된 패키지 관리 시스템이나
   서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
 * OS X에서는 서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
-* Windows에서는 RubyInstaller나 pik를 사용할 수 있습니다.
+* Windows에서는 RubyInstaller를 사용할 수 있습니다.
 
 패키지 관리 시스템이나 서드파티 도구에 대한 좀 더 자세한
 설명은 [설치][installation] 페이지를 보세요.

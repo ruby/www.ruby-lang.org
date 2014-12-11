@@ -15,7 +15,7 @@ lang: ja
 
 * Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、rbenv、RVMなどのサードパーティツールが使えます。
 * OS Xマシンでは、rbenv、RVMなどのサードパーティのパッケージ管理ツールが使えます。
-* Windowsマシンでは、RubyInstallerやpikといったツールが使えます。
+* Windowsマシンでは、RubyInstallerといったツールが使えます。
 
 各パッケージマネージャ及びサードパーティーツールの詳細は、[インストールガイド][installation] ページを参照して下さい。
 

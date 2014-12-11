@@ -17,7 +17,7 @@ Rubiego:
 * dla maszyn z systemem Linux/UNIX możesz użyć systemowego menedżera pakietów
   lub narzędzi osób trzecich (rbenv lub RVM),
 * dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich (rbenv lub RVM),
-* dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller lub pik.
+* dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller.
 
 Zobacz stronę [Instalacja][installation] po więcej szczegółów dotyczących
 systemów zarządzania pakietami lub narzędzi osób trzecich.
