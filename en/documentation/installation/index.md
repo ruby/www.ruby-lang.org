@@ -116,6 +116,8 @@ To get Ruby, just do this:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
+This should install the latest stable Ruby version.
+
 
 ### Homebrew (OS X)
 {: #homebrew}
