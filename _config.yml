@@ -8,14 +8,12 @@ kramdown:
   auto_ids: false
 
 exclude:
-  - config
   - config.ru
   - Gemfile
   - Gemfile.lock
   - Procfile
   - Rakefile
   - README.md
-  - redirect.conf_
   - vendor
 
 url: https://www.ruby-lang.org
