@@ -9,24 +9,20 @@ lang: bg
 
 ### Търсене на Ruby блогове
 
-[**Ruby в del.icio.us**][1]\: Ruby и Rails присъстват постоянно в топ 5
-таговете на del.icio.us, популярен сайт за споделяне на връзки. Следете
-[ruby][1] тага.
+Някои **хранилки** същестуват от много години. Някои от тях:
 
-**Хранилки**\: [Ruby Corner][3], [Planet Ruby][4],
-и [PlanetRubyOnRails.com][6] са сайтове, които събират на
-едно място статии от различни източници ( като блогове ) за улеснено
-четене.
+* [Ruby Corner][4]
+* [Planet Ruby][5]
+* [PlanetRubyOnRails.com][7]
 
 ### Интересни блогове
 
-* [**Riding Rails**][7] е официалният блог на Ruby on Rails.
-* [**Ruby Inside**][8] е блог за информация и новини относно интересни
-  апликации и библиотеки.
-* [**Matz’ Blog**][9] е японски блог от създателя на Ruby.
-* [**Ruby Web Developer news group**][10] e новинарски блог/хранилка.
-* [**O’Reilly Ruby**][11] е групов блог, където можете да намерите
+* [**O’Reilly Ruby**][8] е групов блог, където можете да намерите
   статии и ръководства за Ruby.
+* [**Riding Rails**][9] е официалният блог на Ruby on Rails.
+* [**Ruby Inside**][10] е блог за информация и новини относно интересни
+  апликации и библиотеки.
+* [**Matz’ Blog**][11] е японски блог от създателя на Ruby.
 
 ### Популявизиране на Ruby
 
@@ -34,23 +30,20 @@ lang: bg
 [del.icio.us][12] с *ruby* таг. Също така можете да се свържете с
 гореспоменатите блогове ако имате интересни статии върху общи теми.
 
-Ruby е популярна тема в [Digg][13] и [Slashdot][14].
-
-Ако разполагате с допълнителна информация за интересни сайтове и
-блогове, можете да се свържете с мен за публикуването им тук (
-mitko.kostov@gmail.com ).
+Ruby е популярна тема в [Digg][13], [Slashdot][14], [reddit][15],
+и [Hacker News][16].
 
 
 
-[1]: http://del.icio.us/tag/ruby
-[3]: http://rubycorner.com
-[4]: http://planetruby.0x42.net/
-[6]: http://www.planetrubyonrails.com/
-[7]: http://weblog.rubyonrails.org/
-[8]: http://www.rubyinside.com/
-[9]: http://www.rubyist.net/~matz/
-[10]: http://newsforwhatyoudo.com/groups/643ddee01cd911deaef1001aa018681c/news
-[11]: http://oreillynet.com/ruby/
+[4]: http://rubycorner.com
+[5]: http://planetruby.0x42.net/
+[7]: http://www.planetrubyonrails.com/
+[8]: http://oreillynet.com/ruby/
+[9]: http://weblog.rubyonrails.org/
+[10]: http://www.rubyinside.com/
+[11]: http://www.rubyist.net/~matz/
 [12]: http://del.icio.us
 [13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
+[15]: http://www.reddit.com/r/ruby
+[16]: http://news.ycombinator.com/
