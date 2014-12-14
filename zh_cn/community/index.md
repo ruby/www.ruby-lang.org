@@ -19,7 +19,7 @@ lang: zh_cn
 [Ruby 邮件列表和新闻组](mailing-lists/)
 : Ruby 拥有一个由不同话题不同语言组成的列表目录。如果你有关于 Ruby 的问题，在邮件列表上进行提问是一个获得答案的好方法。
 
-[Ruby 在 IRC 上](irc://irc.freenode.net/ruby-lang)
+[Ruby 在 IRC 上(#ruby-lang)](irc://irc.freenode.net/ruby-lang)
 : 在 Ruby 语言 IRC 频道上，你可以与其他 Ruby 同道者进行畅谈。
 
 [Ruby 核心](ruby-core/)

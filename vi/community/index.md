@@ -23,7 +23,7 @@ Nếu bạn muốn tham gia thì dưới đây là một vài nơi để bắt �
   có vấn đề gì về Ruby, gửi mail vào hộp thư chung là cách tốt nhất để tìm được
   câu trả lời.
 
-[Ruby trên IRC](irc://irc.freenode.net/ruby-lang)
+[Ruby trên IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang)
 : Kênh ngôn ngữ Ruby IRC là một lựa chọn tuyệt vời để trò chuyện cùng những
   người dùng Ruby khác.
 

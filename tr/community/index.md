@@ -35,7 +35,7 @@ başlangıç önerisi var:
 [Ruby Türkiye IRC Kanalı](irc://irc.freenode.net/ruby-tr) (Türkçe)
 : Ruby Türkiye IRC Kanalı.
 
-[IRC’de Ruby](irc://irc.freenode.net/ruby-lang) (İngilizce)
+[IRC’de Ruby (#ruby-lang)](irc://irc.freenode.net/ruby-lang) (İngilizce)
 : Ruby IRC Kanalı, diğer Ruby’cilerle sohbet etmek için harika bir
   yoldur.
 

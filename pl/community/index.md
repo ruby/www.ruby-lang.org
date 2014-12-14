@@ -26,7 +26,7 @@ poniżej znajdziesz kilka propozycji:
   jakieś pytania, to najprędzej otrzymasz na nie odpowiedź na liście
   wysyłkowej
 
-[Ruby na IRC](irc://irc.freenode.net/ruby-lang)
+[Ruby na IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang)
 : Jeśli masz ochotę porozmawiać z innymi użytkownikami (nie tylko z
   Polski), bez wychodzenia z domu, wypróbuj IRC.
   Istnieje też polski kanał IRC na serwerze irc.freenode.net
