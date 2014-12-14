@@ -45,9 +45,9 @@ hội thảo về Ruby trong khu vực lần thứ 2 trong năm 2007.
 [RubyNation][8] là cuộc hội thảo Ruby thường niên dành cho các khu vực Virginia,
 Tây Virginia, Maryland, và Washington, DC.
 
-WindyCityRails là nơi tập trung hàng năm dành cho những người đam mê Ruby on Rails.
-Trụ sở hội thảo tại Chicago đã phục vụ cộng đồng Ruby từ năm 2008.
-Xem chi tiết tại [http://windycityrails.org][9].
+[WindyCityRails][9] là nơi tập trung hàng năm dành cho những người đam mê
+Ruby on Rails. Trụ sở hội thảo tại Chicago đã phục vụ cộng đồng Ruby từ
+năm 2008.
 
 ### Ruby tại những hội thảo khác
 
