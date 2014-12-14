@@ -39,8 +39,8 @@ Une première approche de Ruby, la plus simple, consiste à utiliser IRB (*Inter
   puis appuyez sur \[Entrée\] ;
 * si vous êtes sous **Linux**, ouvrez une console et tapez `irb`, puis
   appuyez sur \[Entrée\] ;
-* si enfin, vous utilisez **Windows**, lancez `fxri` qui se trouve dans
-  la section Ruby du menu Démarrer &gt; Applications.
+* si enfin, vous utilisez **Windows**, lancez `Interactive Ruby` qui
+  se trouve dans la section Ruby du menu Démarrer &gt; Applications.
 
 IRB permet d’écrire et d’interpréter du Ruby *à la volée*, sans avoir à
 enregistrer un fichier et l’exécuter ensuite.

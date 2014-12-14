@@ -34,9 +34,8 @@ Ruby пристига с програмка, наречена IRB ( Interactive 
 
 * Ако ползвате **Mac OS X**, отворете `Terminal` и напишете `irb`.
 * Ако ползвате **Linux**, отворете shell и напишете `irb`.
-* Ако ползвате **Windows**, отвoрете `fxri` от секцията Ruby в Start
-  Menu.
-^
+* Ако ползвате **Windows**, отвoрете `Interactive Ruby` от секцията
+  Ruby в Start Menu.
 
 {% highlight irb %}
 irb(main):001:0>
