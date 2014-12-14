@@ -23,7 +23,7 @@ Ruby-Talk
   [ruby-talk-owner@ruby-lang.org](mailto:ruby-talk-owner@ruby-lang.org).
 
 Ruby-Core
-: For the Ruby-Core list, контролният адрес е
+: За Ruby-Core, контролният адрес е
   [ruby-core-request@ruby-lang.org](mailto:ruby-core-request@ruby-lang.org),
   адресът за публикуване е
   [ruby-core@ruby-lang.org](mailto:ruby-core@ruby-lang.org), адресът на
@@ -31,7 +31,7 @@ Ruby-Core
   [ruby-core-owner@ruby-lang.org](mailto:ruby-core-owner@ruby-lang.org).
 
 Ruby-Doc
-: For the Ruby-Doc list, контролният адрес е
+: За Ruby-Doc, контролният адрес е
   [ruby-doc-request@ruby-lang.org](mailto:ruby-doc-request@ruby-lang.org),
   адресът за публикуване е
   [ruby-doc@ruby-lang.org](mailto:ruby-doc@ruby-lang.org), адресът на
@@ -39,7 +39,7 @@ Ruby-Doc
   [ruby-doc-owner@ruby-lang.org](mailto:ruby-doc-owner@ruby-lang.org).
 
 Ruby-CVS
-: For the Ruby-CVS list, контролният адрес е
+: За Ruby-CVS, контролният адрес е
   [ruby-cvs-request@ruby-lang.org](mailto:ruby-cvs-request@ruby-lang.org),
   адресът за публикуване е
   [ruby-cvs@ruby-lang.org](mailto:ruby-cvs@ruby-lang.org), адресът на
@@ -48,8 +48,8 @@ Ruby-CVS
 
 ### Отписване
 
-За да се отпишете от пощенски списък, изпратете писмо на **контролният
-адрес** със съдържание “unsubscribe”:
+За да се отпишете от пощенски списък, изпратете писмо на
+**контролният адрес** със съдържание “unsubscribe”:
 
     unsubscribe
 {: .code}

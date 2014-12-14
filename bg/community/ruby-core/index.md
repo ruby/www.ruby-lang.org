@@ -44,7 +44,6 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch 
 $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
-
 Това ще свали желанaта версия в директорията `{{ site.svn.stable.branch }}` или
 `{{ site.svn.previous.branch }}`. Често branch-овете са много близки с
 изключението на подобренията, направени от Matz и Nobu към самият език.
@@ -53,7 +52,7 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
 
 За повече информация относно Subversion, можете да посетите [Често задавани
 въпроси за Subversion][3] и [книгата за Subversion][4]. Друг вариaнт
-е книгата [Pragmatic Version Control with Subversion][5]
+е книгата [Pragmatic Version Control with Subversion][5].
 
 ### Използване на git с основното хранилище
 {: #git-ruby}
@@ -87,17 +86,19 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
         $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Добавете подобренията на кода.
+
 3.  Създайте кръпка.
 
-         $ svn diff > ruby-changes.patch
+        $ svn diff > ruby-changes.patch
 
 4.  Създайте ticket в [issue tracker-а][10] или изпратете email с кръпката
     на [Ruby-Core пощенският списък][mailing-lists] със списък и описание
     на промените.
+
 5.  Ако няма проблеми с кръпката, тя ще бъде предадена за одобрение.
 
-**Забележка:** кръпките трябва да бъдат изпратени като [unified
-diff][12]. За повече информация вижте [the diffutils reference][13].
+**Забележка:** кръпките трябва да бъдат изпратени като [unified diff][12].
+За повече информация вижте [the diffutils reference][13].
 
 Дискусията ще бъде пренесена на пощенския списък
 [Ruby-Core mailing list][mailing-lists].
@@ -114,9 +115,9 @@ diff][12]. За повече информация вижте [the diffutils refe
 и стила на писане, използван от основния екип разработчици. За по-голяма
 яснота, моля спазвайте следните правила:
 
-* Всички промени трябва да са описани в `ChangeLog`, спазващи [GNU
-  конвенциите][14]. (Много рубисти ползват Emacs `add-log` mode, който е
-  достъпен с командата `C-x 4 a`.)
+* Всички промени трябва да са описани в `ChangeLog`, спазващи
+  [GNU конвенциите][14]. (Много рубисти ползват Emacs `add-log` mode,
+  който е достъпен с командата `C-x 4 a`.)
 * Промените трябва да са в японско стандартно време (UTC+9).
 * Означените точки във вашия ChangeLog трябва да присъстват в Subversion
   commit съобщение, което ще бъде пратено автоматично като електронна
@@ -126,6 +127,7 @@ diff][12]. За повече информация вижте [the diffutils refe
 * Моля, не ползвайте C++ стил на коментарите (`//`), а. (`/* .. */`).
 
 Повече информация може да намерите в [Ruby’s issue tracker][10].
+
 
 
 [mailing-lists]: /bg/community/mailing-lists/

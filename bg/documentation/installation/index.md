@@ -115,6 +115,7 @@ $ sudo pacman -S ruby
 
 Това ще инсталира последната стабилна версия на Ruby.
 
+
 ### Homebrew (OS X)
 {: #homebrew}
 
