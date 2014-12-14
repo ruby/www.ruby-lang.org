@@ -43,6 +43,7 @@ lang: ko
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
+  * [uru](#uru)
 * [소스에서 빌드하기](#building-from-source)
 
 
@@ -239,6 +240,12 @@ RVM은 다른 gemsets도 관리 해 줍니다.
 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
+## uru
+{: #uru}
+
+[Uru][uru]는 OS X, Linux, Windows에서 여러 루비를 사용하게 하는 가벼운 멀티 플랫폼 커맨드 라인 툴입니다.
+
+
 ## 소스에서 빌드하기
 {: #building-from-source}
 
@@ -263,6 +270,7 @@ $ sudo make install
 [ruby-build]: https://github.com/sstephenson/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
+[uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
