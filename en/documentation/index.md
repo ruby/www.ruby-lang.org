@@ -20,7 +20,7 @@ ruby -v
 {% endhighlight %}
 
 This should output some information on the installed Ruby version.
-If not, see the [installation page][installation] for various options
+If not, see the [installation page](installation/) for various options
 of getting Ruby.
 
 ### Getting Started
@@ -151,7 +151,6 @@ list](/en/community/mailing-lists/) is a great place to start.
 
 
 
-[installation]: /en/documentation/installation/
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/

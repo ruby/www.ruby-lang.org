@@ -23,7 +23,7 @@ ruby -v
 {% endhighlight %}
 
 이 명령은 설치된 루비에 대한 정보를 알려줄 것 입니다.
-설치되어 있지 않다면, [설치 페이지][installation]에 있는 많은 옵션을
+설치되어 있지 않다면, [설치 페이지](installation/)에 있는 많은 옵션을
 참조하세요.
 
 ### 초보자용 문서
@@ -154,7 +154,6 @@ ruby -v
 영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하셔도
 됩니다.
 
-[installation]: /ko/documentation/installation/
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/

@@ -20,7 +20,7 @@ ruby -v
 {% endhighlight %}
 
 Ако е инсталиран ще бъде изведена информация за инсталираната версия.
-В противен случай вижте [страницата за инсталиране][installation]
+В противен случай вижте [страницата за инсталиране](installation/)
 за подробни инструкции за инсталиране.
 
 ### Като за начало
@@ -142,7 +142,6 @@ ruby -v
 Ако имате въпроси относно Ruby, [пощенският списък](/bg/community/mailing-lists/)
 е чудесно място да ги зададете.
 
-[installation]: /bg/documentation/installation/
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
