@@ -7,7 +7,7 @@ lang: pt
 NOTA: Se você não conseguir se inscrever, favor acessar
 [lists.ruby-lang.org](http://lists.ruby-lang.org).
 
-Para subscrever uma lista de correio, por favor envie um email para o
+Para subscrever uma lista de correio, por favor envie um e-mail para o
 endereço de “controlo” com o seguinte no corpo da mensagem (não no
 assunto):
 
@@ -48,7 +48,7 @@ Ruby-CVS
 
 ### Cancelar Subscrição
 
-Para cancelar a subscrição de uma lista, envie um email ao
+Para cancelar a subscrição de uma lista, envie um e-mail ao
 **endereço de controlo** cujo corpo da mensagem deverá conter
 somente “unsubscribe”:
 
@@ -60,6 +60,6 @@ pois um e-mail HTML pode não funcionar.
 
 ### Obter Ajuda
 
-Para visualizar a lista de comandos, envie um email ao endereço de
+Para visualizar a lista de comandos, envie um e-mail ao endereço de
 controlo com “help” no corpo da mensagem.
 
