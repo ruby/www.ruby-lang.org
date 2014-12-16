@@ -16,7 +16,7 @@ zróżnicowanych i poszerzonych wymagań dla Rubiego.
 Dla przykładu, Symbol GC sprawia, że symbole podlegają odśmiecaniu.
 Redukuje to zużycie pamięci dla symboli; przed Rubim 2.2 mechanizm odśmiecania
 pamięci nie zwracał uwagi na symbole. Zatem Rails 5.0 będzie wymagało Symbol GC.
-Będzie wspierało tlyko Rubiego 2.2 lub późniejsze.
+Będzie wspierało tylko Rubiego 2.2 lub późniejsze.
 (Zobacz [wpis na blogu Rails](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) po szczegóły.)
 
 Także nowy Incremental GC zmiejszy czas wstrzymania odśmiecania pamięci.
