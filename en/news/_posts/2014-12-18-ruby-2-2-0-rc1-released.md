@@ -9,30 +9,27 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.2.0-rc1.
 From this RC1, we don't change nothing but bug fixes.
-The final release of Ruby 2.2.0 is scheduled on 2014-12-25.
+The final release of Ruby 2.2.0 is scheduled on December 25, 2014.
 
-Ruby 2.2 has many new features and improvements are included for the increasingly
+Ruby 2.2 includes many new features and improvements for the increasingly
 diverse and expanding demands for Ruby.
 
-For example, Symbol GC makes Symbols garbage collectable.
-This reduces memory usage of Symbols; because GC couldn't collect Symbols before
-Ruby 2.2. Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2
+For example, Ruby's Garbage Collector is now able to collect Symbol type objects.
+This reduces memory usage of Symbols; because GC was previously unable to collect them before 2.2.
+Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2
 or later. (See [Rails' blog post](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) for details.)
 
-Also, new Incremental GC decreases pause time of garbage collection, which is also helpful for running Rails applications.
+Also, a reduced pause time thanks to the new Incremental Garbage Collector will be helpful for running Rails applications. Recent developments mentioned on the [Rails' blog post](weblog.rubyonrails.org) suggest that Rails 5.0 will take advantage of Incremental GC as well as Symbol GC.
 
-Another feature related to memory management is adding an option for configure.in to use jemalloc
+Another feature related to memory management is an additional option for `configure.in` to use jemalloc
 [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
-This is an experimental feature, and is disabled by default.
-We need to gather use cases and performance data.
-When we get convinced of the benefits, the feature will be enabled by default.
+This feature is still experimental and currently disabled by default until we gather performance data and more use cases. When we are convinced of the benefits, this feature will be enabled by default.
 
-One more topic is [using vfork(2) in system() and spawn() (Japanese)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
-It is expected that it brings a huge speed-up when a large process executes external commands many times.
-But vfork(2) is a risky system call.
-We want to know how much benefit it brings through gathering use cases and performance data.
+Experimental support for using vfork(2) with system() and spawn() have also been added. You can read more detail on [tanaka-san's blog in japanese.](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
+This could potentially bring huge speed-up when a large process executes external commands many times.
+However vfork(2) is still not well understood and a potentially harmful system call. We would like to experiment to find out how much benefit can be gained by gathering performance data and use cases.
 
-Try and enjoy programming with Ruby 2.2.0-preview2, and report us your knowledge!
+Try and enjoy programming with Ruby 2.2.0-preview2, and report us your findings!
 
 ## Notable Changes since 2.1
 
@@ -47,12 +44,11 @@ Try and enjoy programming with Ruby 2.2.0-preview2, and report us your knowledge
     * File.birthtime, File#birthtime [#9647](https://bugs.ruby-lang.org/issues/9647)
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)
 * bundled libraries:
-  * Update Psych 2.0.6
+  * Update Psych 2.0.8
   * Update Rake 10.4.0
   * Update RDoc 4.2.0.alpha (21b241a)
-  * Update RubyGems 2.4.4+ (2f6e42e)
-  * rubygems 2.4.4+ (2f6e42e)
-  * Update test-unit 3.0.7 (removed from repository but bundled
+  * Update RubyGems 2.4.5
+  * Update test-unit 3.0.8 (removed from repository but bundled
 in tarball)
   * Update minitest 5.4.3 (removed from repository but bundled in tarball)
   * Deprecate mathn
