@@ -29,7 +29,7 @@ Experimental support for using vfork(2) with system() and spawn() have also been
 This could potentially bring huge speed-up when a large process executes external commands many times.
 However vfork(2) is still not well understood and a potentially harmful system call. We would like to experiment to find out how much benefit can be gained by gathering performance data and use cases.
 
-Try and enjoy programming with Ruby 2.2.0-preview2, and report us your findings!
+Try and enjoy programming with Ruby 2.2.0-rc1, and report us your findings!
 
 ## Notable Changes since 2.1
 
