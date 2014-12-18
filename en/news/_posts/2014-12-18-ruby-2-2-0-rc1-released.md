@@ -8,7 +8,7 @@ lang: en
 ---
 
 We are pleased to announce the release of Ruby 2.2.0-rc1.
-From this RC1, we don't change nothing but bug fixes.
+After RC1, all changes will be limited to bug fix only.
 The final release of Ruby 2.2.0 is scheduled on December 25, 2014.
 
 Ruby 2.2 includes many new features and improvements for the increasingly
@@ -57,7 +57,7 @@ in tarball)
 
 See [NEWS in ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS) for details.
 
-With those changes, 1239 files changed, 98343 insertions(+), 61858 deletions(-).
+With those changes, 1548 files changed, 123658 insertions(+), 74306 deletions(-) fron v2.1.0!
 
 ## Download
 
