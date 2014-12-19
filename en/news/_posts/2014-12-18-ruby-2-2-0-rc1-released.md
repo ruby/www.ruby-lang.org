@@ -57,7 +57,7 @@ in tarball)
 
 See [NEWS in ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS) for details.
 
-With those changes, 1548 files changed, 123658 insertions(+), 74306 deletions(-) fron v2.1.0!
+With those changes, 1548 files changed, 123658 insertions(+), 74306 deletions(-) from v2.1.0!
 
 ## Download
 
