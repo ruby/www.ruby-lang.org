@@ -16,10 +16,10 @@ diverse and expanding demands for Ruby.
 
 For example, Ruby's Garbage Collector is now able to collect Symbol type objects.
 This reduces memory usage of Symbols; because GC was previously unable to collect them before 2.2.
-Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2
-or later. (See [Rails' blog post](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) for details.)
+Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2 or later.
+(See [Rails 4.2 release post](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) for details.)
 
-Also, a reduced pause time thanks to the new Incremental Garbage Collector will be helpful for running Rails applications. Recent developments mentioned on the [Rails 4.2 release post](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) suggest that Rails 5.0 will take advantage of Incremental GC as well as Symbol GC.
+Also, a reduced pause time thanks to the new Incremental Garbage Collector will be helpful for running Rails applications. Recent developments mentioned on the [Rails blog](http://weblog.rubyonrails.org/) suggest that Rails 5.0 will take advantage of Incremental GC as well as Symbol GC.
 
 Another feature related to memory management is an additional option for `configure.in` to use jemalloc
 [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
