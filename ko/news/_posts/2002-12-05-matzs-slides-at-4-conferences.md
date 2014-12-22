@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Matz's Slides at 4 conferences"
+title: "4 컨퍼런스에서 발표된 마츠의 슬라이드"
 author: "NaHi"
 lang: ko
 ---
 
-Matz’s Slides at Ruby Conference 2002, OOPSLA2002, LL2 and
-O+F Kansai (Japanese) are available.
+루비 컨퍼런스 2002, OOPSLA2002, LL2, O+F 관서(일어)에서 발표된 마츠의 슬라이드
+입니다.
 
 [Ruby Conference 2002][1]
-: Slides: [http://www.rubyist.net/~matz/slides/rc2002/](http://www.rubyist.net/~matz/slides/rc2002/)
+: 슬라이드: [http://www.rubyist.net/~matz/slides/rc2002/](http://www.rubyist.net/~matz/slides/rc2002/)
 
 [OOPSLA 2002][2]
-: Slides: [http://www.rubyist.net/~matz/slides/oopsla2002/](http://www.rubyist.net/~matz/slides/oopsla2002/)
+: 슬라이드: [http://www.rubyist.net/~matz/slides/oopsla2002/](http://www.rubyist.net/~matz/slides/oopsla2002/)
 
 [LL2][3]
-: Slides: [http://www.rubyist.net/~matz/slides/ll2/](http://www.rubyist.net/~matz/slides/ll2/)
+: 슬라이드: [http://www.rubyist.net/~matz/slides/ll2/](http://www.rubyist.net/~matz/slides/ll2/)
 
 [KANSAI OPENSOURCE+FREEWARE 2002][4]
-: Slides: [http://www.rubyist.net/~matz/slides/of-kansai2002/](http://www.rubyist.net/~matz/slides/of-kansai2002/)
+: 슬라이드: [http://www.rubyist.net/~matz/slides/of-kansai2002/](http://www.rubyist.net/~matz/slides/of-kansai2002/)
 
-Last item is in Japanese.
-Compare it with LL2 slides in English to learn Japanese. :)
+마지막 슬라이드는 일어입니다.
+영어로 된 LL2 슬라이드와 비교해가며 일어공부 하세요. :)
 
 
 [1]: http://www.rubyconf.org/index.php
