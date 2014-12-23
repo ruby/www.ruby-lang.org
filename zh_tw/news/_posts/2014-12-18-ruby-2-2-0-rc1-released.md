@@ -13,9 +13,9 @@ Ruby 2.2.0 最終發佈日預定為 2014 年 12 月 25 日。
 
 Ruby 2.2 針對使用者對 Ruby 各式各樣的需求，做了許多修正、加了許多新功能與改良。
 
-譬如，垃圾回收器現在可以回收符號物件了。這降低了符號的記憶體使用量，因為在 2.2 版本之前，符號是不可以被 GC 回收的。Rails 5.0 將採用符號 GC 技術，也就是要求使用 Ruby 2.2 以上的版本（進一步了解請參考 [Rails 官方文章](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)）。
+譬如，垃圾回收器現在可以回收符號物件了。這降低了符號的記憶體使用量，因為在 2.2 版本之前，符號是不可以被 GC 回收的。Rails 5.0 將採用符號 GC 技術，也就是要求使用 Ruby 2.2 以上的版本（進一步了解請參考 [Rails 官方 4.2 發佈一文](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)）。
 
-同時也減少了新搭載的增量垃圾回收器的停滯時間，對於執行 Rails 應用程式來說很有用。[Rails 官方 4.2 發佈一文](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)表示 Rails 5.0 的開發將會完善利用增量 GC 和符號 GC。
+同時也減少了新搭載的增量垃圾回收器的停滯時間，對於執行 Rails 應用程式來說很有用。[Rails blog](http://weblog.rubyonrails.org/)表示 Rails 5.0 的開發將會完善利用增量 GC 和符號 GC。
 
 另一個與記憶體管理有關的新功能是給 configure.in 新增了一個設定，可以啟用 jemalloc，請參考 [Feature #9113](https://bugs.ruby-lang.org/issues/9113)。這是一個實驗性的功能，預設沒有開啟。我們需要蒐集使用場景與效能資料來確定有良好的效果，確定之後這個功能會預設開啟。
 
