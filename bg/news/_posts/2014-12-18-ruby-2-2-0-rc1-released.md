@@ -14,7 +14,6 @@ lang: bg
 Ruby 2.2 включва много нови функционалности и подобрения.
 
 Например, подобреният Garbage Collector прави символите garbage collectable.
-
 Това намалява използваната памет за символи, защото преди 2.2 те не се събираха от GC.
 Rails 5.0 ще се възползва от Symbol GC и затова ще изисква минимална версия на
 Ruby 2.2.
@@ -27,15 +26,15 @@ Ruby 2.2.
 Symbol GC.
 
 Новост, вързана с управлението на паметта, е добавянето на опция за
-configure.in да използва
-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
+`configure.in` да използва jemalloc
+[Feature #9113](https://bugs.ruby-lang.org/issues/9113).
 Опцията е изключена по подразбиране поради експерименталната си природа.
 Когато се убедим от ползите й, тя ще бъде включена по подразбиране.
 
 Друга тема е [използването на vfork(2) в system() и spawn() (Японски)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
 Очаква се това да доведе до значителни забързвания в случаите, когато голям
 процес многократно извиква външни команди.
-Използването на vfrok(2) обаче може да е потенциално опасно. Желаем да
+Използването на vfork(2) обаче може да е потенциално опасно. Желаем да
 експериментираме, за да разберем какви може да са ползите от използването му.
 
 Приятно ползване на Ruby 2.2.0-rc1!
@@ -43,7 +42,7 @@ jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
 ## Значителни промени от 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([презентация от йRubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([презентация от й RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * основни библиотеки:
   * Поддръжка на Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
@@ -54,11 +53,11 @@ jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)
 * включени библиотеки:
   * Актуализация на Psych 2.0.8
-  * Актуализация на RDoc 4.2.0.alpha (21b241a)
   * Актуализация на Rake 10.4.0
+  * Актуализация на RDoc 4.2.0.alpha (21b241a)
   * Актуализация на RubyGems 2.4.5
   * Актуализация на test-unit 3.0.8 (премахнато от хранилището, но включено
-    в in tarball)
+    в in tarball-a)
   * Актуализация нa minitest 5.4.3 (премахнато от хранилището, но включено в
     tarball-а)
   * Маркиране на mathn за премахване в бъдеще
