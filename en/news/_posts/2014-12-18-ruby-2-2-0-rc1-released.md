@@ -25,7 +25,7 @@ Another feature related to memory management is an additional option for `config
 [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
 This feature is still experimental and currently disabled by default until we gather performance data and more use cases. When we are convinced of the benefits, this feature will be enabled by default.
 
-Experimental support for using vfork(2) with system() and spawn() have also been added. You can read more detail on [tanaka-san's blog in japanese.](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
+Experimental support for using vfork(2) with system() and spawn() have also been added. You can read more detail on [tanaka-san's blog in japanese](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
 This could potentially bring huge speed-up when a large process executes external commands many times.
 However vfork(2) is still not well understood and a potentially harmful system call. We would like to experiment to find out how much benefit can be gained by gathering performance data and use cases.
 
