@@ -82,6 +82,9 @@ svn:
   previous:
     version: 2.1
     branch:  ruby_2_1
+  old:
+    version: 2.0.0
+    branch:  ruby_2_0_0
 
 locales:
   sitelinks:

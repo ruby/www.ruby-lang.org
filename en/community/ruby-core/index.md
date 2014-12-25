@@ -30,8 +30,8 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 The `ruby` directory will now contain the latest source code
 for the development version of Ruby (ruby-trunk).
 Currently patches applied to the trunk are backported to the stable
-{{ site.svn.stable.version }} and {{ site.svn.previous.version }}
-branches (see below).
+{{ site.svn.stable.version }}, {{ site.svn.previous.version }},
+and {{ site.svn.old.version }} branches (see below).
 
 If you’d like to follow patching of Ruby {{ site.svn.stable.version }},
 you should use the `{{ site.svn.stable.branch }}` branch when checking out:
