@@ -43,8 +43,12 @@ lang: ko
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **낡은버전:**
-  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **낡은버전 (2.0.0 시리즈):**
+  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  md5: {{ site.downloads.previous20.md5.gz }}
+
+* **낡은버전 (1.9.3 시리즈):**
+  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **스냅샷:**
@@ -65,7 +69,8 @@ lang: ko
 [installation]: /ko/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
+[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

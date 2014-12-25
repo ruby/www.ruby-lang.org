@@ -1,15 +1,13 @@
 ---
 layout: news_post
-title: "루비 2.2.0-rc1 릴리즈"
+title: "루비 2.2.0 릴리즈"
 author: "naruse"
 translator: "marocchino"
-date: 2014-12-18 09:00:00 +0000
+date: 2014-12-25 09:00:00 +0000
 lang: ko
 ---
 
-루비 2.2.0-rc1가 릴리즈 되었습니다.
-RC1이후의 모든 수정은 버그 픽스로 한정됩니다.
-루비 2.2.0 최종 릴리즈는 2014년 12월 25일로 예정되어있습니다.
+루비 2.2.0가 릴리즈 되었습니다.
 
 루비 2.2에는 점점 더 커지는 다양한 요구들 충족하기 위한 많은
 새로운 기능과 개선들이 포함됩니다.
@@ -23,7 +21,7 @@ RC1이후의 모든 수정은 버그 픽스로 한정됩니다.
 
 또한, 새로운 증가형(Incremental) GC는 가비지 콜랙션의 중지
 시간을 줄여줍니다. 이 또한 레일즈 엡의 운용에 도움이 됩니다.
-[레일즈 블로그](http://weblog.rubyonrails.org/)에 언급된
+[레일즈 블로그](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)에 언급된
 최신 개발방법은 레일즈 5.0에서 증가형 GC뿐만 아니라 심볼 GC의
 이점을 살리자고 제안하고 있습니다.
 
@@ -42,7 +40,7 @@ vfork(2)는 아직 잘 알려지지 않은 위험할 수도 있는 시스템 콜
 사용사례와 성능 데이터의 수집으로 이 변경이 가져올 이점이 어느
 정도인지 알고 싶습니다.
 
-루비 2.2.0-rc1를 시험해보고 즐겨주세요. 그리고 당신의 경험을 알려주세요!
+루비 2.2.0를 시험해보고 즐겨주세요. 그리고 당신의 경험을 알려주세요!
 
 ## 2.1이후의 주목할 만한 변경점
 
@@ -58,47 +56,41 @@ vfork(2)는 아직 잘 알려지지 않은 위험할 수도 있는 시스템 콜
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)
 * 포함된 라이브러리:
   * 업데이트 Psych 2.0.8
-  * 업데이트 Rake 10.4.0
-  * 업데이트 RDoc 4.2.0.alpha (21b241a)
+  * 업데이트 Rake 10.4.2
+  * 업데이트 RDoc 4.2.0
   * 업데이트 RubyGems 2.4.5
   * 업데이트 test-unit 3.0.8 (저장소에서는 제거했지만 tarball에는 포함)
-  * 업데이트 minitest 5.4.3 (저장소에서는 제거했지만 tarball에는 포함)
+in tarball)
+  * Update minitest 5.4.3 (저장소에서는 제거했지만 tarball에는 포함)
   * mathn을 비추천(Deprecate)으로 변경
 * C API
   * 비추천 상태의 API들을 제거
 
-자세한 내용은 [루비 저장소의 NEWS (작성중)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS)를 보세요.
+자세한 내용은 [루비 저장소의 NEWS](https://github.com/ruby/ruby/blob/v2_2_0/NEWS)를 보세요.
 
-이러한 변경으로 2.1.0과 비교하여 1548 파일이 변경되고 123658 줄이 증가(+), 74306 줄이
+이러한 변경으로 2.1.0과 비교하여 1557 파일이 변경되고 125039 줄이 증가(+), 74376 줄이
 감소(-)하였습니다.
 
 ## 다운로드
 
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-rc1.tar.bz2>
-  * SIZE:   12475612 bytes
-  * MD5:    7144732d30dd4547c0a59862b3345d54
-  * SHA256: e6a1f8d45ea749bdc92eb1269b77ec475bc600b66039ff90d77db8f50820a896
-  * SHA512: 181201168360bee37dceeef3481a69e8a333a5d329680031fd9d371d30ac64460bbdf4db07546133024f541774e51301f1630cfd988c5e5bf2464834f3abe6bf
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-rc1.tar.gz>
-  * SIZE:   15531233 bytes
-  * MD5:    51f218fabc3ceb7bf3fe5f4f87ddebd3
-  * SHA256: a59c8db71b967015ad7c259ba8ef638c7943ec78580412bb86e97791a9322b6b
-  * SHA512: 4a35e78c4c0747f9c79e506e98acc117efb0be72fc103d6f9c13d5eb5efa5c6d6748f491526fc7ebb24397f25238f06d552f841e9e898be30aa7cd6c2df38494
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-rc1.tar.xz>
-  * SIZE:   9675108 bytes
-  * MD5:    3f482b88eda45c1bc6bab1921763ce52
-  * SHA256: dcfad9bb6e0b513b03f08f86b195da6a6a7045559b558d3493decac0e0abb86c
-  * SHA512: 3ec8955d8a269a1e5f28c3e0e6023bd613f244c83914a4a8c96d2761b11914c21ce67cfadb2bcebc480d9c0b9c7b54da6dfa67cdf4b4350db2a85d379265ffed
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-rc1.zip>
-  * SIZE:   17219660 bytes
-  * MD5:    49f5aae44c00f4d57be47576c29a53bd
-  * SHA256: 1bd3e83d44b4e5879b4ecdc496d19905bc03637a8c88027c2dc98a369f1ebb83
-  * SHA512: bf0e39e5add532ca338095ad6eaaafbe4f84cc9df1e8d4bad986c44e17614623430c2670d9751865e8d645cb483007d5473be82536b985ccab40a7dde72c4161
+* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.bz2>
+  * SIZE:   13304042 bytes
+  * MD5:    d03cd4690fec1fff81d096d1c1255fde
+  * SHA256: 1c031137999f832f86be366a71155113675b72420830ce432b777a0ff4942955
+  * SHA512: 04edc53e8cd1732c3ca61ebeb1d6133614beb10f77f9abb80d8d36352fe8aa205112068e460bf600b2c7e81e0ddcc3b311e7e027c320366f1bd992b3e378a6ad
+* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz>
+  * SIZE:   16494584 bytes
+  * MD5:    cd03b28fd0b555970f5c4fd481700852
+  * SHA256: 7671e394abfb5d262fbcd3b27a71bf78737c7e9347fa21c39e58b0bb9c4840fc
+  * SHA512: 1ba0c68e1c8d2b60bbd1e218cf36463edbe34cf9418d7593702b631e68d02297465f752e71395f6cfa4104f4cd70a1eb44381ffb74bc7801758b830931fdcfc6
+* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.xz>
+  * SIZE:   10304244 bytes
+  * MD5:    54b43c6c6c9dd4c4b08ceb03ad0ded7a
+  * SHA256: 848714e280fc5fb44dbac3b060b206e56c1947006324ee68a174d68b483ef8ca
+  * SHA512: cd7e52faa464df8aca7ccfa23a5f06248e1ad82bc8c9f1829aa1b51ff37b15973b8caaa68e914d837325b8d59427fda4f3cad82c50925e1c84e688324a2a155d
+* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.zip>
+  * SIZE:   18441027 bytes
+  * MD5:    f8e1d0cee4f2d9535a9529ed23ae3700
+  * SHA256: e06c1e2b1248cf881749833084b2bec93f7612676009190ff9bc89b8fd07c29f
+  * SHA512: 364dd927b496520d95a1b06c68e1a265015f4cab08bdf3efaa323d385e7bf075eae47f2e1db78a629db0f3c0c1ed24e086603ba21e2da02ac06dd3c8b716766e
 
-## 릴리즈 코맨트
-
-* [2.2.0 알려진 이슈](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
-
-릴리즈 스케쥴과 다른 정보는 밑의 링크를 참조하세요.
-
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
