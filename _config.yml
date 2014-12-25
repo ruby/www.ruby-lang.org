@@ -44,7 +44,7 @@ downloads:
       bz2: a7c3e5fec47eff23091b566e9e1dac1b
       gz: df4c1b23f624a50513c7a78cb51a13dc
       zip: 810cd05eb03c00f89b0b03b10e9a3606
-  previous200:
+  previous20:
     version: 2.0.0-p598
     url:
       bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2
