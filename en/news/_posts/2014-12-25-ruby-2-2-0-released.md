@@ -53,7 +53,7 @@ in tarball)
 * C API
   * Remove deprecated APIs
 
-See [NEWS in ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0/NEWS) for details.
+See [NEWS in Ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS) for details.
 
 With those changes, 1557 files changed, 125039 insertions(+), 74376 deletions(-) from v2.1.0!
 
