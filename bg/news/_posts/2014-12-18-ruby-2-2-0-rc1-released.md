@@ -42,7 +42,7 @@ Symbol GC.
 ## Значителни промени от 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([презентация от й RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([презентация от RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * основни библиотеки:
   * Поддръжка на Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
@@ -57,7 +57,7 @@ Symbol GC.
   * Актуализация на RDoc 4.2.0.alpha (21b241a)
   * Актуализация на RubyGems 2.4.5
   * Актуализация на test-unit 3.0.8 (премахнато от хранилището, но включено
-    в in tarball-a)
+    в tarball-a)
   * Актуализация нa minitest 5.4.3 (премахнато от хранилището, но включено в
     tarball-а)
   * Маркиране на mathn за премахване в бъдеще
