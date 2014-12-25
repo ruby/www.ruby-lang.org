@@ -27,6 +27,7 @@ downloads:
     url:
       bz2: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.bz2
       gz: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz
+      xz: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.xz
       zip: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.zip
     md5:
       bz2: d03cd4690fec1fff81d096d1c1255fde
