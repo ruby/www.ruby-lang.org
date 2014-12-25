@@ -29,7 +29,8 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 Директорията `ruby` съдържа актуалният изходен код на Ruby (ruby-trunk).
 Пачовете, които се прилагат върху trunk се backport-ват към стабилните
-{{ site.svn.stable.version }} и {{ site.svn.previous.version }} branch-ове.
+{{ site.svn.stable.version }}, {{ site.svn.previous.version }}
+и {{ site.svn.old.version }} branch-ове (виж по-долу).
 
 Ако желаете да следите пачването на Ruby {{ site.svn.stable.version }},
 трябва да използвате `{{ site.svn.stable.branch }}` branch-a:
