@@ -77,11 +77,11 @@ downloads:
 
 svn:
   stable:
+    version: 2.2
+    branch:  ruby_2_2
+  previous:
     version: 2.1
     branch:  ruby_2_1
-  previous:
-    version: 2.0.0
-    branch:  ruby_2_0_0
 
 locales:
   sitelinks:
