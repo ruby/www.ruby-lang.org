@@ -45,7 +45,7 @@ vfork(2)는 아직 잘 알려지지 않은 위험할 수도 있는 시스템 콜
 ## 2.1이후의 주목할 만한 변경점
 
 * [증가형 GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [심볼 GC](https://bugs.ruby-lang.org/issues/9634) ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* [심볼 GC](https://bugs.ruby-lang.org/issues/9634) ([RubyKaigi 2014의 프리젠테이션](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [기능 #9113](https://bugs.ruby-lang.org/issues/9113)
 * 코어 라이브러리:
   * 유니코드 7.0 지원 [#9092](https://bugs.ruby-lang.org/issues/9092)
