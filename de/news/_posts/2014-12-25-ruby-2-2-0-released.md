@@ -52,14 +52,14 @@ probiert es aus und berichtet uns von Euren Erfahrungen!
 ## Wesentliche Änderungen seit Ruby 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
-  ([YARV Maniacs No. 12](http://magazine.rubyist.net/?0048-YARVManiacs))
+  ([Präsentation bei der RubyConf 2014: "Incremental GC for Ruby interpreter"](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
-  ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+  ([Präsentation bei der RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc
   [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
-* core libraries:
-  * Support Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * New methods:
+* Kernbibliotheken:
+  * Unterstützung von Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
+  * Neue Methoden:
     * Enumerable#slice_after [#9071](https://bugs.ruby-lang.org/issues/9071),
       Enumerable#slice_when [#9826](https://bugs.ruby-lang.org/issues/9826)
     * Float#next_float, Float#prev_float
@@ -67,21 +67,21 @@ probiert es aus und berichtet uns von Euren Erfahrungen!
     * File.birthtime, File#birthtime
       [#9647](https://bugs.ruby-lang.org/issues/9647)
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)
-* bundled libraries:
-  * Update Psych 2.0.8
-  * Update Rake 10.4.2
-  * Update RDoc 4.2.0
-  * Update RubyGems 2.4.5
-  * Update test-unit 3.0.8 (removed from repository but bundled in tarball)
-  * Update minitest 5.4.3 (removed from repository but bundled in tarball)
-  * Deprecate mathn
-* C API
-  * Remove deprecated APIs
+* Mitgelieferte Bibliotheken:
+  * Aktualisiert: Psych 2.0.8
+  * Aktualisiert: Rake 10.4.2
+  * Aktualisiert: RDoc 4.2.0
+  * Aktualisiert: RubyGems 2.4.5
+  * Aktualisiert: test-unit 3.0.8 (aus dem Repository entfernt, aber im Tarball enthalten)
+  * Aktualisiert: minitest 5.4.3 (aus dem Repository entfernt, aber im Tarball enthalten)
+  * Als veraltet markiert: mathn
+* C-API
+  * Veraltete APIs entfernt
 
 Siehe die [NEWS im Ruby-Repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS)
 für Details.
 
-Seit Version 2.1.0: 1557 geänderte Dateien, 125039 Einfügungen(+), 74376 Löschungen(-)!
+Damit folgen seit Version 2.1.0: 1557 geänderte Dateien, 125039 Einfügungen(+), 74376 Löschungen(-)!
 
 ## Download
 
