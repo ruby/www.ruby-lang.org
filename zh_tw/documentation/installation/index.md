@@ -210,7 +210,7 @@ Windows 使用者，可以使用這個很棒的專案來幫助您安裝 Ruby：
 {: #building-from-source}
 
 當然從原始碼編譯 Ruby 也可以。
-[下載 Ruby](/zh_tw/downloads/)並解壓縮 tarball，接著執行：
+[下載 Ruby](/zh_tw/downloads/) 並解壓縮 tarball，接著執行：
 
 {% highlight sh %}
 $ ./configure
