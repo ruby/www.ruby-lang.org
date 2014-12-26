@@ -41,6 +41,7 @@ Also many thanks to the organizations that support us:
  * [Fastly][fastly] (CDN).
  * [Hatena][hatena] ([mackerel][mackerel], Server monitoring)
  * [CloudCore][cloudcore] (build server)
+ * [Ruby no Kai][rubynokai] (build server)
 
 [logo]: /en/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
@@ -57,3 +58,4 @@ Also many thanks to the organizations that support us:
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
 [cloudcore]: http://www.cloudcore.jp/
+[rubynokai]: http://ruby-no-kai.org/
