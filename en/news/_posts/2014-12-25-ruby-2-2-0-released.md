@@ -45,7 +45,7 @@ Try and enjoy programming with Ruby 2.2.0, and report us your findings!
 ## Notable Changes since 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
-  ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
+  ([presentation at RubyConf 2014: "Incremental GC for Ruby interpreter](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
   ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc
