@@ -54,7 +54,7 @@ dụng một trong những công cụ của bên thứ ba đã được đề c�
   * [Stable Snapshot][stable-snapshot-gz]:
     Đây là một tarball của snapshot mới nhất của nhánh ổn định hiện hành.
   * [Nightly Snapshot][nightly-gz]:
-    Đây là một tarball của mã mới nhất hiện hữu trong SVN. Gói này được tạo 
+    Đây là một tarball của mã mới nhất hiện hữu trong SVN. Gói này được tạo
     ra mỗi đêm. Xin lưu ý gói có thể kèm theo lỗi và một số vấn đề khác.
 
 Để biết thêm chi tiết về Ruby Subversion và Git repositories, xem trang
