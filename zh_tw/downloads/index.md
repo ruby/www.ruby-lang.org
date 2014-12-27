@@ -57,10 +57,10 @@ Ruby 原始碼可從世界各地的[鏡像站][mirrors]獲得。請嘗試離您�
 
 [license]: {{ site.license.url }}
 [installation]: /zh_tw/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
-[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

@@ -71,10 +71,10 @@ Ruby може да бъде инсталиран и от изходен код �
 
 [license]: {{ site.license.url }}
 [installation]: /bg/documentation/installation
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
-[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

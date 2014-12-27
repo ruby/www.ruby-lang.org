@@ -37,11 +37,11 @@ lang: ja
   md5: {{ site.downloads.previous.md5.gz }}
 
 * **古い安定版 (2.0 系):**
-  [Ruby {{ site.downloads.previous20.version }}][old20-gz]<br>
+  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   md5: {{ site.downloads.previous20.md5.gz }}
 
 * **古い安定版 (1.9 系):**
-  [Ruby {{ site.downloads.previous19.version }}][old19-gz]<br>
+  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **スナップショット:**
@@ -71,10 +71,10 @@ Windows向けのバイナリが有志により配布されています。
 
 [license]: {{ site.license.url }}
 [installation]: /ja/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old19-gz]:      {{ site.downloads.previous19.url.gz }}
-[old20-gz]:      {{ site.downloads.previous20.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/
