@@ -29,24 +29,26 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
 Папка `ruby` теперь будет содержать последние исходники
 development-версии Ruby (ruby-trunk). Патчи, применяемые к ruby-trunk
-так же портируются в стабильные ветки 2.0.0 и 1.9.3 (см. ниже).
+так же портируются в стабильные
+{{ site.svn.stable.version }}, {{ site.svn.previous.version }},
+и {{ site.svn.old.version }} ветки (смотри ниже).
 
-Если вы хотите следить за патчингом Ruby 2.0.0, вы можете переключится
-на `ruby_2_0_0` ветку:
-
-{% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
-{% endhighlight %}
-
-Если вы хотите следить за патчингом Ruby 1.9.3, вы можете переключится
-на `ruby_1_9_3` ветку:
+Если вы хотите следить за патчингом Ruby {{ site.svn.stable.version }}, вы можете переключится
+на `{{ site.svn.stable.branch }}` ветку:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
-Данные команды скачают ветки Ruby 2.0.0 и 1.9.3 в папки `ruby_2_0_0` и
-`ruby_1_9_3` соответственно. Разработчики, работающие над 2.0.0 веткой,
+То же самое для Ruby {{ site.svn.previous.version }}:
+
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+{% endhighlight %}
+
+Эти команды скачают соответствующее дерево разработки в папку
+`{{ site.svn.stable.branch }}` или `{{ site.svn.previous.branch }}`.
+Разработчики, работающие над поддерживаемыми ветками,
 ожидают применения их изменений в ruby-trunk, так что зачастую обе ветки
 очень похожи, за исключением изменений, сделанных Matz'ем и Nobu в языке
 в целом.
@@ -86,15 +88,15 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 1.  Скачайте копию исходного кода Ruby из Subversion. Обычно, патчи
     которые исправляют баги или добавляют новые конструкции, должны быть
     применены к trunk ветке исходного кода Ruby. Даже если вы хотите
-    добавить конструкцию к Ruby 1.9.3, это должно быть сначала проверено в
+    добавить конструкцию к {{ site.svn.previous.version }}, это должно быть сначала проверено в
     trunk.
 
         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     Если вы исправляете баг, который специфичен для одной из
-    поддерживаемых веток, выберите эту ветку, например, `ruby_1_9_3`.
+    поддерживаемых веток, выберите эту ветку, например, `{{ site.svn.previous.version }}`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Добавьте ваши улучшения в код.
 
