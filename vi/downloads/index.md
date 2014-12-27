@@ -73,4 +73,4 @@ Xin hãy sử dụng mirror gần bạn nhất.
 [previous19-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
-[mirrors]: /vi/downloads/mirrors/
+[mirrors]: /en/downloads/mirrors/
