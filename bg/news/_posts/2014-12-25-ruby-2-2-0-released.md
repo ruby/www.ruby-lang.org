@@ -37,7 +37,8 @@ Rails 5.0 ще се възползва от Symbol GC и затова ще из�
 
 ## Значителни промени от 2.1
 
-* [Incremental GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
+* [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
+  ([презентация от RubyConf 2014: "Incremental GC for Ruby interpreter"](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([презентация от RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * основни библиотеки:
