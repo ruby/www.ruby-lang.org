@@ -4,82 +4,107 @@ title: "Ruby ядро"
 lang: bg
 ---
 
-С предстоящото излизане на Ruby 2.0 , сега е момента да следите
-развитието на неговото разработване. Нарастващото внимание към увеличи
-нуждата от талантливи програмисти, които да помогната с разработването и
-подобряването на Ruby. От къде да започнем ?
+Сега е моментът да започнете да следите развитието на Ruby. С огромното
+внимание, което езикът получава през последните години, се увеличава и
+търсенето на талантливи разработчици, които да подпомагат развитието на езика и
+документацията. От къде да започнем?
 {: .summary}
 
-Темите, свързани с разработването на Ruby описани тук са:
+Темите, свързани с разработването на Ruby, описани тук са:
 
 * [Използване на Subversion за следене на процеса на разработка](#following-ruby)
+* [Използването на git с основното хранилище](#git-ruby)
 * [Усъвършенстване на Ruby, кръпка по кръпка](#patching-ruby)
 * [Правила за Core разработчиците](#coding-standards)
 
 ### Използване на Subversion за следене на процеса на разработка
 {: #following-ruby}
 
-Изтегляне на последната версия на сорс кода е въпрос на логване в
-Subversion с анонимен акаунт. От командния ред:
+Изтегляне на последната версия на изходният код е въпрос на влизане в
+[Subversion][1] с анонимен акаунт. От командния ред:
 
 {% highlight sh %}
 $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
-Директорията `ruby` съдържа последната версия на сорс кода на Ruby 1.9
-(trunk), който е все още в разработка и ще бъде пуснат официално като
-версия 1.9.1 в края на 2008.
+Директорията `ruby` съдържа актуалният изходен код на Ruby (ruby-trunk).
+Пачовете, които се прилагат върху trunk се backport-ват към стабилните
+{{ site.svn.stable.version }}, {{ site.svn.previous.version }}
+и {{ site.svn.old.version }} branch-ове (виж по-долу).
 
-Ако искате да работите над Ruby 1.8, можете да ползвате `ruby_1_8`
-клона:
+Ако желаете да следите пачването на Ruby {{ site.svn.stable.version }},
+трябва да използвате `{{ site.svn.stable.branch }}` branch-a:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
-По този начин ще свалите Ruby 1.8 в `ruby_1_8` директорията.
+Подобно за {{ site.svn.previous.version }}:
 
-Ако искате, можете да прегледате хранилището на този адрес.
+{% highlight sh %}
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+{% endhighlight %}
 
-За повече информация относно Subversion, можете да посетите [the
-Subversion FAQ][1] и [the Subversion book][2]. Друг вариент е книгата
-[Pragmatic Version Control with Subversion][3]
+Това ще свали желанaта версия в директорията `{{ site.svn.stable.branch }}` или
+`{{ site.svn.previous.branch }}`. Често branch-овете са много близки с
+изключението на подобренията, направени от Matz и Nobu към самият език.
+
+Ако желаeте, може да прегледате [Subversion хранилището на Ruby][2].
+
+За повече информация относно Subversion, можете да посетите [Често задавани
+въпроси за Subversion][3] и [книгата за Subversion][4]. Друг вариaнт
+е книгата [Pragmatic Version Control with Subversion][5].
+
+### Използване на git с основното хранилище
+{: #git-ruby}
+
+Ако предпочитате [Git][6] пред Subversion, можете да откриете инструкции
+на [GitHub хранилището][7], както за [хора с commit достъп][8], така и за
+[всички останали][9].
 
 ### Усъвършенстване, кръпка по кръпка
 {: #patching-ruby}
 
-Основния екип поддържа [a bug tracker][4] за приемането на кръпки и
+Основния екип поддържа [issue tracker][10] за приемането на кръпки и
 репорти за бъгове. Тези репорти се публикуват също така и в пощенския
 списък [Ruby-Core mailing list][mailing-lists] за дискусия.
 
+Моля прегледайте [Инструкции за писане на кръпки][11] за съвети от Matz
+как кръпката ви да бъде разгледана.
+
 На кратко стъпките за изготвянето на кръпка:
 
-1.  Ако пишете кръпка за Ruby 1.8, изтеглете копие от Subversion, като
-    използвате клона `ruby_1_8`.
+1.  Издърпайте копие на изходният код на Ruby от Subversion. Обикновено
+    кръпките и фиксовете на бъгове трябва да бъдат качени в trunk. Дори
+    ако желаете да добавите нещо към Ruby {{ site.svn.previous.version }},
+    трябва първо то да мине през trunk.
 
-         $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
-    Ако искате да добавите функционалност в Ruby, първо качете кръпката
-    в trunk-а на Ruby сорс кода.
+    Ако желаете да оправите проблем по специфична версия, дръпнете само нея,
+    например `{{ site.svn.previous.branch }}`.
 
-         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Добавете подобренията на кода.
+
 3.  Създайте кръпка.
 
-         $ svn diff > ruby-changes.patch
+        $ svn diff > ruby-changes.patch
 
-4.  Пратете електронно писмо до [Ruby-Core mailing list][mailing-lists]
-    с ChangeLog, описващ кръпката.
+4.  Създайте ticket в [issue tracker-а][10] или изпратете email с кръпката
+    на [Ruby-Core пощенският списък][mailing-lists] със списък и описание
+    на промените.
+
 5.  Ако няма проблеми с кръпката, тя ще бъде предадена за одобрение.
 
-**Забележка:** кръпките трябва да бъдат изпратени като [unified
-diff][5]. За повече информация вижте [the diffutils reference][6].
+**Забележка:** кръпките трябва да бъдат изпратени като [unified diff][12].
+За повече информация вижте [the diffutils reference][13].
 
 Дискусията ще бъде пренесена на пощенския списък
 [Ruby-Core mailing list][mailing-lists].
 
-Помнете, че екипа, който разработва Ruby живее в Япония и въпреки, че
+Помнете, че екипа, който разработва Ruby, живее в Япония и въпреки, че
 повечето владеят английски, има съществена часова разлика. Бъдете
 търпеливи и ако имате проблем – бъдете настойчиви, опитайте пак след
 няколко дни.
@@ -87,28 +112,37 @@ diff][5]. За повече информация вижте [the diffutils refer
 ### Правила за Core разработчиците
 {: #coding-standards}
 
-Разработчиците на Ruby трябва да са запознати в общи линии със сорс кода
+Разработчиците на Ruby трябва да са запознати в общи линии с изходния код
 и стила на писане, използван от основния екип разработчици. За по-голяма
 яснота, моля спазвайте следните правила:
 
-* Всички промени трябва да са описани в `ChangeLog`, спазващи [GNU
-  конвенциите][7]. (много рубисти ползват Emacs `add-log` mode, който е
-  достъпен с командата `C-x 4 a`.)
+* Всички промени трябва да са описани в `ChangeLog`, спазващи
+  [GNU конвенциите][14]. (Много рубисти ползват Emacs `add-log` mode,
+  който е достъпен с командата `C-x 4 a`.)
 * Промените трябва да са в японско стандартно време (UTC+9).
 * Означените точки във вашия ChangeLog трябва да присъстват в Subversion
   commit съобщение, което ще бъде пратено автоматично като електронна
   поща до Ruby-CVS списъка.
-* Стила на писане използва ANSI декларации на функциите в сорс кода
+* Стила на писане използва ANSI декларации на функциите в изходния код
   на Ruby и неговите разширения.
-* Моля, не ползвайте C++- стил на коментарите (`//`), а. (`/* .. */`)
+* Моля, не ползвайте C++ стил на коментарите (`//`), а. (`/* .. */`).
+
+Повече информация може да намерите в [Ruby’s issue tracker][10].
 
 
 
-[mailing-lists]: /en/community/mailing-lists/
-[1]: http://subversion.apache.org/faq.html
-[2]: http://svnbook.org
-[3]: http://www.pragmaticprogrammer.com/titles/svn/
-[4]: https://bugs.ruby-lang.org/
-[5]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
-[6]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
-[7]: http://www.gnu.org/prep/standards/standards.html#Change-Logs
+[mailing-lists]: /bg/community/mailing-lists/
+[1]: http://subversion.apache.org/
+[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[3]: http://subversion.apache.org/faq.html
+[4]: http://svnbook.org
+[5]: http://www.pragmaticprogrammer.com/titles/svn/
+[6]: http://git-scm.com/
+[7]: http://github.com/ruby/ruby
+[8]: http://wiki.github.com/shyouhei/ruby/committerhowto
+[9]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
+[10]: https://bugs.ruby-lang.org/
+[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
+[12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
+[13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
+[14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

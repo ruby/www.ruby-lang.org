@@ -31,9 +31,8 @@ Apri la shell interattiva di Ruby (IRB).
 * Se stai usando **Mac OS X** apri il `Terminal`, scrivi `irb` e premi
   invio.
 * Se stai usando **Linux**, apri una shell, scrivi `irb` e premi invio.
-* Se stai usando **Windows**, seleziona `fxri` dalla sezione Ruby del
-  menu di avvio.
-^
+* Se stai usando **Windows**, seleziona `Interactive Ruby` dalla
+  sezione Ruby del menu di avvio.
 
 {% highlight irb %}
 irb(main):001:0>

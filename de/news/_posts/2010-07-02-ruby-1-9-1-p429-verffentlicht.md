@@ -13,7 +13,7 @@ beliebigen Code auszuführen, geschlossen wurden.
 #### Sicherheitslücke
 
 Es gab eine Sicherheitslücke, die zu einem Buffer-Overflow führte, wenn
-man <kbd>ARGF.inplace\_mode</kbd> auf Windows gefährliche Werte zuwies.
+man `ARGF.inplace_mode` auf Windows gefährliche Werte zuwies.
 Sie erlaubte einem Angreifer, beliebigen Code auszuführen. Die
 betroffenen Versionen sind:
 

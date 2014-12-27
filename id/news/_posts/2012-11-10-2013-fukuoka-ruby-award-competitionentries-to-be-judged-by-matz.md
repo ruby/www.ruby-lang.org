@@ -20,14 +20,14 @@ Batas akhir Entri: 30 November 30 2012 pukul 5 sore waktu Jepang (GMT+9)
 
 Grand Prize: 1 Juta Yen!
 
-Penghargaan Engine Yard:
- Engine Yard Cloud (gratis 5,000 jam pertama), undangan ke Ruby Kaigi
+Penghargaan Engine Yard:<br>
+Engine Yard Cloud (gratis 5,000 jam pertama), undangan ke Ruby Kaigi
 (termasuk afterparty dan 50,000JPY untuk biaya transportasi untuk 2 orang),
 dan sebuah Apple iPad Mini 32GB WiFi Black &amp; Slate (diukir dengan
 pesan spesial).
 
-Penghargaan Salesforce.com:
- 500,000 JPY, pengenalan situs web [http://www.salesforce.com/jp/][1],
+Penghargaan Salesforce.com:<br>
+500,000 JPY, pengenalan situs web [http://www.salesforce.com/jp/][1],
 tiket-tiket Dreamforce untuk 3 orang.
 
 Silakan kunjungi [situs web ini][2] untuk rincian lebih lanjut atau
@@ -35,10 +35,11 @@ untuk mendaftar.
 
 Para pemenang yang lalu dari Amerika Serikat termasuk Rhomobile, Banjo,
 and VMware.
- Para pemenang yang lalu:  
-[2012][3]  
-[2011][4]  
-[2010][5]  
+
+Para pemenang yang lalu:<br>
+[2012][3]<br>
+[2011][4]<br>
+[2010][5]<br>
 [2009][6]
 
 CEO Engine Yard dan CTO VMware untuk Cloud Applications juga bergabung

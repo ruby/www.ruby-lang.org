@@ -17,7 +17,7 @@ Ruby-Talk
 
 Ruby-Core
 : Esta lista trata do núcleo e tópicos da implementação do Ruby.
-  Normalmente é usada para enviar *patches* para revisão. ([Aquivos][4])
+  Normalmente é usada para enviar *patches* para revisão. ([Arquivos][4])
 
 Ruby-Doc
 : Esta lista é para discussão sobre normas de documentação e ferramentas
@@ -49,7 +49,7 @@ Email: <input type="text" name="email" required="required" />
 
 {% include subscription-form.html %}
 
-Se falhar a recepção do email utilizando o formulário, tente subscrever
+Se falhar a recepção do e-mail utilizando o formulário, tente subscrever
 [manualmente](manual-instructions/).
 
 

@@ -26,7 +26,7 @@ to the address below.
 
 Cheers,
 
-—ruby-lang.org webmaster team  
+—ruby-lang.org webmaster team<br>
 [webmaster@ruby-lang.org](mailto:webmaster@ruby-lang.org)
 {: style="text-align: right"}
 

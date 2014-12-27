@@ -292,7 +292,7 @@ irb(main):026:0>
 
 In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere
 metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per
-classi interne, come `Fixnum` or anche `Object`, il “genitore” di tutti gli
+classi interne, come `Fixnum` o anche `Object`, il “genitore” di tutti gli
 oggetti. Ruby on Rails, per esempio, definisce una serie di metodi per fare
 operazioni temporali con oggetti `Fixnum`\:
 
@@ -437,7 +437,7 @@ Non c’è nemmeno bisogno di usare `operator+`, come in C++.
 È possibile anche definire un modo di accedere a uno specifico
 elemento come in un array, definendo i metodi `[]` e `[]=`, mentre per
 definire metodi unari + e – (pensa a +1 e -2, ad esempio), bisogna
-definire, rispettivamente, i metodi `+@` and `-@`.
+definire, rispettivamente, i metodi `+@` e `-@`.
 
 I seguenti operatori però **non** sono zucchero sintattico: non sono
 metodi e non possono essere ridefiniti:

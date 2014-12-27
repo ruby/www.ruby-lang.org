@@ -30,8 +30,7 @@ Ruby 附帶了一支程式可以讓你即時看到執行 Ruby 敘述的結果。
 
 * 如果你使用 **Mac OS X** 請打開 `Terminal` 然後輸入 `irb` 和 enter。
 * 如果你使用 **Linux**，請打開一個 shell 然後輸入 `irb` 和 enter。
-* 如果你使用 **Windows**，請從開始選單中打開 Ruby 的 `fxri` 。
-^
+* 如果你使用 **Windows**，請從開始選單中打開 Ruby 的 `Interactive Ruby` 。
 
 {% highlight irb %}
 irb(main):001:0>

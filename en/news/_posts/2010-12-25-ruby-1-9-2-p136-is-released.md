@@ -5,7 +5,7 @@ author: "Yugui"
 lang: en
 ---
 
- Ruby 1.9.2-p136 has been released. This is the second release of Ruby 1.9.2. It fixes many bugs found in
+Ruby 1.9.2-p136 has been released. This is the second release of Ruby 1.9.2. It fixes many bugs found in
 1.9.2-p0. See [ChangeLog][1] for more detail.
 
 ### Download

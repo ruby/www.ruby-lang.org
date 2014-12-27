@@ -98,7 +98,7 @@ Không giống như C, trong Ruby,...
 * Các phần tử của mảng nằm trong ngoặc vuông thay vì ngoặc nhọn.
 * Kích thước của mảng sẽ tăng lên khi bạn thêm các phần tử vào đó.
 * Nếu bạn thêm vào 2 mảng, bạn sẽ nhận được một mảng mới có kích thước
- lớn hơn (mảng chồng mảng) thay vì thực hiện con trỏ.
+  lớn hơn (mảng chồng mảng) thay vì thực hiện con trỏ.
 * Tất cả mọi thứ đều là một biểu thức (nghĩa là, những biểu thức như
   `while` biểu thị cho 1 rvalue).
 

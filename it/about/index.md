@@ -105,7 +105,7 @@ ridefiniti.
 I *blocchi* sono una delle molteplici ragioni della flessibilità di
 questo linguaggio. Un programmatore può collegare una *closure* ad ogni metodo,
 descrivendo come quel metodo dovrebbe agire. La *closure* viene chiamata
-*blocco* ed è diventata una delle funzionalità più popolari for i nuovi
+*blocco* ed è diventata una delle funzionalità più popolari per i nuovi
 arrivati a Ruby da altri linguaggi imperativi come PHP o Visual Basic.
 
 I blocchi sono stati ispirati dai linguaggi funzionali. Matz ha detto,

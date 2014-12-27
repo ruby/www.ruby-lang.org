@@ -1,28 +1,27 @@
 ---
 layout: news_post
-title: "Ruby Installer For Windows at sourceforge"
+title: "sourceforge에 올라온 Windows용 루비 인스톨러"
 author: "NaHi"
 lang: ko
 ---
 
-Now you can get Ruby Installer For Windows from
-[http://rubyinstaller.sourceforge.net/][1].
+이제 Windows용 루비 인스톨러를
+[http://rubyinstaller.sourceforge.net/][1] 에서 구할 수 있습니다.
 
-Excerpted from the site.
+사이트에서 발췌했습니다.
 
+    이것은 루비 프로그램 자체와 수십가지의 인기있는 확장기능,
+    패키지, 구문강조 에디터, 실행 환경, "Programming Ruby:
+    The Pragmatic Programmer's Guide"책 전부의 Windows 도움말
+    파일을 포함하는 "원 클릭" 자체 설치 프로그램입니다.
 
-    This is a "one-click", self-contained installer that
-    comprises the Ruby language itself, dozens of popular
-    extensions and packages, a syntax-highlighting editor
-    and execution environment, and a Windows help file that
-    contains the full text of the book, "Programming Ruby:
-    The Pragmatic Programmer's Guide". 
-
-It’s a must item for Ruby users on Win32 box. Check also
-[eban/ruby/binaries/eban’s win32 binaries][2] to get
-Win32 binaries with dozens of popular extensions.
+이것은 Win32 박스에서 루비를 사용하는 분께는 머스트 해브
+아이템입니다.
+Win32 바이너리와 수십여개의 인기있는 익스텐션을 보시려면
+[usa의 바이너리][2] 와 [eban의 win32 바이너리][3]도 체크하세요.
 
 
 
 [1]: http://rubyinstaller.sourceforge.net/
 [2]: http://www.dm4lab.to/~usa/ruby/index_en.html#download
+[3]: http://www.ruby-lang.org/~eban/ruby/binaries/

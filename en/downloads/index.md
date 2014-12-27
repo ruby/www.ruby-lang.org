@@ -16,9 +16,9 @@ We have several tools on each major platform to install Ruby:
 * On Linux/UNIX, you can use the package management system of your
   distribution or third-party tools (rbenv and RVM).
 * On OS X machines, you can use third-party tools (rbenv and RVM).
-* On Windows machines, you can use RubyInstaller or pik.
+* On Windows machines, you can use RubyInstaller.
 
-See the [Installation](/en/installation/) page for details on using
+See the [Installation][installation] page for details on using
 package management systems or third-party tools.
 
 Of course, you can also install Ruby from source on all major platforms.
@@ -30,7 +30,7 @@ comfortable enough with your platform and perhaps need specific settings
 for your environment. It’s also a good solution in the event that there
 are no other premade packages for your platform.
 
-See the [Installation](/en/installation/) page for details on building
+See the [Installation][installation] page for details on building
 Ruby from source. If you have an issue compiling Ruby, consider using
 one of the third party tools mentioned above. They may help you.
 
@@ -42,8 +42,12 @@ one of the third party tools mentioned above. They may help you.
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **Old stable:**
-  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **Old stable (2.0.0 series):**
+  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  md5: {{ site.downloads.previous20.md5.gz }}
+
+* **Old stable (1.9.3 series):**
+  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **Snapshots:**
@@ -63,9 +67,11 @@ Please try to use a mirror that is near you.
 
 
 [license]: {{ site.license.url }}
+[installation]: /en/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
+[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

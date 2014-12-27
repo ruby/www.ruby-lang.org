@@ -5,4 +5,4 @@ author: "Shugo Maeda"
 lang: en
 ---
 
- Services of ruby-lang.org including www, mailing lists, and Subversion will be down for a server maintenance from Wed Jun 06 15:00:00 UTC 2012 until Wed Jun 06 20:00:00 UTC 2012. Sorry for inconvenience. 
+Services of ruby-lang.org including www, mailing lists, and Subversion will be down for a server maintenance from Wed Jun 06 15:00:00 UTC 2012 until Wed Jun 06 20:00:00 UTC 2012. Sorry for inconvenience.

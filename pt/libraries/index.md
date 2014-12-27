@@ -4,6 +4,8 @@ title: "Bibliotecas"
 lang: pt
 ---
 
+{% include out-of-date.html %}
+
 Existe uma miríade útil e fascinante de bibliotecas para Ruby e muitas
 delas disponíveis através dos cómodos ficheiros *gem*. Outras são
 disponibilizadas como arquivos (.zip or .tar.gz) de código fonte.
@@ -11,7 +13,6 @@ Vejamos como encontrar e instalar bibliotecas para uso próprio.
 {: .summary}
 
 ### Encontrar Bibliotecas
-{: #encontrar-bibliotecas}
 
 O [**RubyForge(RubyForge)**][1] é o famoso *lar* das bibliotecas de
 Ruby. Um bom local para explorar é o seu [mapa de software][2], que
@@ -27,12 +28,11 @@ vencendo por 1 sobre [*Net*][6]. [HTML][7] e [XML][8] são também
 populares. Existem até quatro entradas em [Physics][9].
 
 ### Utilizando a biblioteca *RubyGems*
-{: #utilizando-rubygems}
 
 Apesar do programa de instalação em Windows incluir *RubyGems*, muitos
 sistemas operativos não as incluem. Se estes comandos não estiverem a
 funcionar consigo, consulte por favor, [Instalando a biblioteca
-*RubyGems*](#instalando-rubygems).
+*RubyGems*](#installing-rubygems).
 
 #### Procurar por Gemas
 
@@ -84,7 +84,7 @@ veja [**o manual oficial**][10], que inclui exemplos para a gemas nas
 suas scripts.
 
 ### Instalando a biblioteca *RubyGems*
-{: #instalando-rubygems}
+{: #installing-rubygems}
 
 Para instalar a biblioteca *RubyGems*, descarregue a sua versão 0.9.0 da
 [página de downloads][11]. Descompacte o arquivo e execute `setup.rb`.

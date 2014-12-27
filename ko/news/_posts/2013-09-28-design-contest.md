@@ -5,12 +5,12 @@ title:  "www.ruby-lang.org를 위한 디자인 공모전"
 author: "hsbt"
 translator: "SeungKyun Nam"
 date:   2013-09-28 23:30:00 +0000
-lang:   ko 
+lang:   ko
 ---
 
 루비 어소시에이션은 ruby-lang.org의 새로운 디자인을 위한 디자인 공모전을 개최할 예정입니다.
 
-ruby-lang.org은 2013년 봄, 플랫폼을 Radiant CMS에서 Jekyll로 전환하였습니다. 
+ruby-lang.org은 2013년 봄, 플랫폼을 Radiant CMS에서 Jekyll로 전환하였습니다.
 이제 모든 사람들이 GitHub를 통해 콘텐트를 수정할 수 있습니다.
 How about that?
 하지만, 현재 디자인은 전형적 크기의 데스크톱 혹은 랩탑을 위해 만들어져 스마트폰과 태블릿을 위해서는 적합하지 않습니다.

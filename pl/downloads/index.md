@@ -17,9 +17,9 @@ Rubiego:
 * dla maszyn z systemem Linux/UNIX możesz użyć systemowego menedżera pakietów
   lub narzędzi osób trzecich (rbenv lub RVM),
 * dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich (rbenv lub RVM),
-* dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller lub pik.
+* dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller.
 
-Zobacz stronę [Instalacja](/pl/installation/) po więcej szczegółów dotyczących
+Zobacz stronę [Instalacja][installation] po więcej szczegółów dotyczących
 systemów zarządzania pakietami lub narzędzi osób trzecich.
 
 Oczywiście możesz zainstalować Rubiego z kodu źródłowego na wszystkich
@@ -32,7 +32,7 @@ znasz swój system i gdy potrzebujesz specyficznych ustawień dla swojego
 środowiska. Jest to także dobra opcja gdy nie ma dla twojej platformy
 innych przygotowanych pakietów.
 
-Zobacz stronę [Instalacja](/pl/installation/) po więcej szczegółów dotyczących
+Zobacz stronę [Instalacja][installation] po więcej szczegółów dotyczących
 budowania Rubiego ze źródeł. Jeśli masz problem z kompilacją Rubiego rozważ
 skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
 
@@ -65,6 +65,7 @@ Spróbuj użyć jakiegoś blisko ciebie.
 
 
 [license]: {{ site.license.url }}
+[installation]: /pl/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [old-gz]:      {{ site.downloads.previous19.url.gz }}

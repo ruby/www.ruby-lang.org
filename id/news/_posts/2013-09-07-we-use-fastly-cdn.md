@@ -16,4 +16,3 @@ CDN ini tersedia dengan menggunakan paket open source dari [Fastly][1].
 Terima kasih banyak untuk Fastly atas dukungan mereka.
 
 [1]: http://www.fastly.com
- 

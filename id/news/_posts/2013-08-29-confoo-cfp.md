@@ -7,19 +7,19 @@ date:   2013-08-29 16:00:00 +0000
 lang:   id
 ---
 
-Kami mencari para profesional Ruby untuk berbagi ketrampilan dan pengalaman 
+Kami mencari para profesional Ruby untuk berbagi ketrampilan dan pengalaman
 mereka pada ConFoo berikutnya. [Kirim proposal Anda][1] sampai **22 September**.
 
 
 ![ConFoo web dev conference. Feb 26 - 28, 2014 &#124; Montreal, Canada][logo]{: style="border:0; float:right; margin-left:20px;" width="180" height="250"}
 
 ConFoo adalah konferensi untuk developer yang telah membangun reputasi
-sebagai tujuan utama untuk mengeksplorasi teknologi baru, menyelam lebih dalam 
+sebagai tujuan utama untuk mengeksplorasi teknologi baru, menyelam lebih dalam
 pada topik-topik akrab, dan merasakan yang terbaik dari komunitas dan budaya.
 
  * ConFoo 2013 akan diadakan pada 26-28 Februari di Montreal, di the Hilton
    Bonaventure Hotel.
- * Kami akan merawat pembicara kami dengan menutup semua biaya termasuk 
+ * Kami akan merawat pembicara kami dengan menutup semua biaya termasuk
    perjalanan, akomodasi, makan siang, tiket konferensi penuh, dsb.
  * Presentasi adalah 45 menit termasuk pertanyaan, dan dapat disampaikan dalam
    bahasa Inggris atau Perancis.

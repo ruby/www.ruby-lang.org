@@ -5,7 +5,7 @@ author: "Ümit Kayacık"
 lang: tr
 ---
 
- Ruby 1.9.2-p136 sürümü yayınlandı. Bu Ruby 1.9.2 nin ikinci yayını. 1.9.2-p0 da bulunan birçok bug
+Ruby 1.9.2-p136 sürümü yayınlandı. Bu Ruby 1.9.2 nin ikinci yayını. 1.9.2-p0 da bulunan birçok bug
 düzenlendi. Ayrıntı için [ChangeLog][1] adresine bakınız.
 
 ### İndirin

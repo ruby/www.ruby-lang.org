@@ -17,9 +17,9 @@ Ruby zu installieren:
 * Auf Linux/UNIX kann man das Paketverwaltungssystem der jeweiligen
   Distribution oder Drittanbieter-Werkzeuge (rbenv und RVM) verwenden.
 * Auf OS X kann man Drittanbieter-Werkzeuge verwenden (rbenv und RVM).
-* Auf Windows kann man RubyInstaller oder pik verwenden.
+* Auf Windows kann man RubyInstaller verwenden.
 
-Siehe die [Installationsanleitung](/de/installation/) für Details zu
+Siehe die [Installationsanleitung][installation] für Details zu
 den verschiedenen Paketverwaltungssystemen und Drittanbieter-Werkzeugen.
 
 Natürlich kann Ruby auf allen wichtigen Plattformen auch aus dem
@@ -32,7 +32,7 @@ wenn Du Dich gut mit Deinem System auskennst und eventuell spezielle
 Einstellungen für Deine Umgebung benötigst. Es ist außerdem eine gute
 Lösung, falls es keine vorgefertigten Pakete für Dein System gibt.
 
-Siehe die [Installationsanleitung](/de/installation/) für Details.
+Siehe die [Installationsanleitung][installation] für Details.
 Falls es Schwierigkeiten beim Kompilieren geben sollte, solltest Du
 vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
 
@@ -44,8 +44,12 @@ vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **Stabile Vorgängerversion (1.9):**
-  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **Stabile Vorgängerversion (2.0.0):**
+  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  md5: {{ site.downloads.previous20.md5.gz }}
+
+* **Stabile Vorgängerversion (1.9.3):**
+  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **Snapshots:**
@@ -66,9 +70,11 @@ Bitte nutze einen Mirror in deiner Nähe.
 
 
 [license]: {{ site.license.url }}
+[installation]: /de/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
+[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

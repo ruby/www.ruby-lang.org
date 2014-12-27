@@ -32,9 +32,8 @@ Buka IRB.
   kemudian tekan enter.
 * Jika Anda menggunakan **Linux**, buka shell dan ketik `irb`, kemudian
   tekan enter.
-* Jika Anda menggunakan **Windows**, buka `fxri` dari bagian Ruby di
-  Menu Start Anda.
-^
+* Jika Anda menggunakan **Windows**, buka `Interactive Ruby` dari
+  bagian Ruby di Menu Start Anda.
 
 {% highlight irb %}
 irb(main):001:0>

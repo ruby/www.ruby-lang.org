@@ -15,9 +15,9 @@ lang: ja
 
 * Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、rbenv、RVMなどのサードパーティツールが使えます。
 * OS Xマシンでは、rbenv、RVMなどのサードパーティのパッケージ管理ツールが使えます。
-* Windowsマシンでは、RubyInstallerやpikといったツールが使えます。
+* Windowsマシンでは、RubyInstallerといったツールが使えます。
 
-各パッケージマネージャ及びサードパーティーツールの詳細は、[インストールガイド](/ja/installation/) ページを参照して下さい。
+各パッケージマネージャ及びサードパーティーツールの詳細は、[インストールガイド][installation] ページを参照して下さい。
 
 もちろん、メジャーなプラットフォームでソースからRubyをインストールすることも可能です。
 
@@ -26,7 +26,7 @@ lang: ja
 ソースコードからのインストールは、利用したいプラットフォームや環境に合った設定を使うことができる、いい方法です。
 また、利用したいプラットフォーム向けのパッケージが存在しない場合にも使えるいい方法でもあります。
 
-もしコンパイルで問題がある場合、[インストールガイド](/ja/installation/) ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
+もしコンパイルで問題がある場合、[インストールガイド][installation] ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
 
 * **最新の安定版:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
@@ -66,6 +66,7 @@ Windows向けのバイナリが有志により配布されています。
 
 
 [license]: {{ site.license.url }}
+[installation]: /ja/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [old-gz]:      {{ site.downloads.previous19.url.gz }}

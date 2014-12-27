@@ -22,8 +22,8 @@ eccetto per i cambiamenti seguenti:
 * alcuni miglioramenti riguardanti le espressioni regolari
 * \`$:\` non include più la cartella corrente
 * \`dl\` è stata reimplementata sulla base di \`libffi\`
-* una nuova libreria \`psych\` che wrappa \`libyaml\`. &amp;egrave;
-  possibile usare questa libreria invece di \`syck\`
+* una nuova libreria \`psych\` che wrappa \`libyaml\`.
+  È possibile usare questa libreria invece di \`syck\`.
 
 Vedere i file
 [NEWS](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS) e
@@ -50,7 +50,7 @@ Con i migliori sforzi
 
   * mswin32, x64-mswin64, mingw32
   * MacOS X 10.5 (Intel) e 10.6
-  * FreeBSD 6 and successivo (amd64, IA32)
+  * FreeBSD 6 e successivo (amd64, IA32)
   * Solaris 10
   * Symbian OS
 

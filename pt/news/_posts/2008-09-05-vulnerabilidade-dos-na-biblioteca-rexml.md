@@ -19,9 +19,8 @@ Um ataque deste tipo pode ser repetido pedindo uma análise de um
 documento XML contendo entidades aninhadas recursivas pela biblioteca
 REXML. Veja-se o exemplo:
 
-{% highlight ruby %}
+{% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE member [
   <!ENTITY a "&b;&b;&b;&b;&b;&b;&b;&b;&b;&b;">
   <!ENTITY b "&c;&c;&c;&c;&c;&c;&c;&c;&c;&c;">
@@ -31,7 +30,6 @@ REXML. Veja-se o exemplo:
   <!ENTITY f "&g;&g;&g;&g;&g;&g;&g;&g;&g;&g;">
   <!ENTITY g "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
 ]>
-
 <member>
 &a;
 </member>
@@ -59,12 +57,12 @@ rexml-expansion-fix.rb antes de utilizar REXML.
 
 {% highlight ruby %}
 require "rexml-expansion-fix"
- ...
- doc = REXML::Document.new(str)
- ...
+...
+doc = REXML::Document.new(str)
+...
 {% endhighlight %}
 
- para aplicações em Rails, copie o ficheiro rexml-expansion-fix.rb para a directoria RAILS\_ROOT/lib/, por exemplo, e adicione a linha seguinte no ficheiro config/environment.rb.
+para aplicações em Rails, copie o ficheiro rexml-expansion-fix.rb para a directoria RAILS\_ROOT/lib/, por exemplo, e adicione a linha seguinte no ficheiro config/environment.rb.
 
 {% highlight ruby %}
 require "rexml-expansion-fix"

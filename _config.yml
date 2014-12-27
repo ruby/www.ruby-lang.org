@@ -8,14 +8,12 @@ kramdown:
   auto_ids: false
 
 exclude:
-  - config
   - config.ru
   - Gemfile
   - Gemfile.lock
   - Procfile
   - Rakefile
   - README.md
-  - redirect.conf_
   - vendor
 
 url: https://www.ruby-lang.org
@@ -25,35 +23,47 @@ license:
 
 downloads:
   stable:
-    version: 2.1.4
+    version: 2.2.0
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz
+      xz: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.xz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.zip
     md5:
-      bz2: f4136e781d261e3cc20748005e1740b7
-      gz: 89b2f4a197621346f6724a3c35535b19
-      zip: 71c7afca08734f0105a06d2feea11422
+      bz2: d03cd4690fec1fff81d096d1c1255fde
+      gz: cd03b28fd0b555970f5c4fd481700852
+      xz: 54b43c6c6c9dd4c4b08ceb03ad0ded7a
+      zip: f8e1d0cee4f2d9535a9529ed23ae3700
   previous:
-    version: 2.0.0-p594
+    version: 2.1.5
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.zip
     md5:
-      bz2: 58469c0daf5f3a892a70cc674ea59c7f
-      gz: a9caa406da5d72f190e28344e747ee74
-      zip: d5801bbe794a07236c3bcf4a28ad3509
+      bz2: a7c3e5fec47eff23091b566e9e1dac1b
+      gz: df4c1b23f624a50513c7a78cb51a13dc
+      zip: 810cd05eb03c00f89b0b03b10e9a3606
+  previous20:
+    version: 2.0.0-p598
+    url:
+      bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.zip
+    md5:
+      bz2: a3f3908103a7d209d1d1cf4712e3953c
+      gz: e043a21ce0d138fd408518a80aa31bba
+      zip: aa6ac22747947e6562d5b0dc9767ecda
   previous19:
-    version: 1.9.3-p550
+    version: 1.9.3-p551
     url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.zip
+      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.bz2
+      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.gz
+      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.zip
     md5:
-      bz2: c2169c8b14ccefd036081aba5ffa96da
-      gz: e05135be8f109b2845229c4f47f980fd
-      zip: 4946e5f3d083894372a7a46342e885f7
+      bz2: 0d8b272b05c3449dc848bb7570f65bfe
+      gz: 0d8212f7bc89bab8ef521b04cd9df278
+      zip: 14a394b1d7b7031b34d4d1af64ee657e
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
@@ -67,9 +77,12 @@ downloads:
 
 svn:
   stable:
+    version: 2.2
+    branch:  ruby_2_2
+  previous:
     version: 2.1
     branch:  ruby_2_1
-  previous:
+  old:
     version: 2.0.0
     branch:  ruby_2_0_0
 
@@ -82,7 +95,7 @@ locales:
         url: /bg/documentation
       - text: Библиотеки
         url: /bg/libraries
-      - text: Общество
+      - text: Общност
         url: /bg/community
       - text: Новини
         url: /bg/news
@@ -1194,7 +1207,7 @@ locales:
           url: /ko/documentation/
         books:
           text: 책
-          url: /ko/documentation/books/
+          url: http://www.ruby-doc.org/bookstore
         libraries:
           text: 라이브러리
           url: /ko/libraries/

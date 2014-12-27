@@ -55,9 +55,9 @@ Valley Ruby Conference, entering its second year in 2007.
 [RubyNation][8] is an annual Ruby conference serving the Virginia, West
 Virginia, Maryland, and Washington, DC areas.
 
-WindyCityRails is an annual gathering for all who are passionate about
+[WindyCityRails][9] is an annual gathering for all who are passionate about
 Ruby on Rails. The Chicago-based conference has served the Ruby
-community since 2008. Visit [http://windycityrails.org][9] for details.
+community since 2008.
 
 [Madison Ruby][15]: Madison, WI
 

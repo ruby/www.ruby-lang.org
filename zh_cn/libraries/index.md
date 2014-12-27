@@ -4,12 +4,13 @@ title: "代码库 - Ruby 官方网站"
 lang: zh_cn
 ---
 
+{% include out-of-date.html %}
+
 在别的地方还有不计其数的有趣并且有用的 Ruby 代码库，在它们中很多是以便捷的 *gem*
 文件格式发布的，其它的则是通过将源代码目录打包成归档文件（例如 .zip 或
 .tar.gz）进行发布。现在让我们一起瞧一瞧怎么寻找并安装代码库，来让它们为你所用。
 
 ### 寻找代码库
-{: #finding-libraries}
 
 主要的三方库都是以 Gem 的形式存放在 [RubyGems.org](http://rubygems.org)，你可以直接打开网页或者用 `gem` 命令。
 

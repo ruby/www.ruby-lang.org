@@ -20,9 +20,9 @@ header: |
 ## Introduction
 
 This is a small Ruby tutorial that should take no more than 20 minutes
-to complete. It makes the assumption that you already have Ruby
-installed. (If you don’t have Ruby on your computer
-[download](/en/downloads/) and install it before you get started.)
+to complete. It makes the assumption that you already have Ruby installed.
+(If you do not have Ruby on your computer [install][installation] it
+before you get started.)
 
 ## Interactive Ruby
 
@@ -36,9 +36,8 @@ Open up IRB (which stands for Interactive Ruby).
   hit enter.
 * If you’re using **Linux**, open up a shell and type `irb` and hit
   enter.
-* If you’re using **Windows**, open `fxri` from the Ruby section of your
-  Start Menu.
-^
+* If you’re using **Windows**, open `Interactive Ruby` from the
+  Ruby section of your Start Menu.
 
 {% highlight irb %}
 irb(main):001:0>
@@ -142,3 +141,4 @@ As great as this is for a calculator, we’re getting away from the
 traditional `Hello World` message that beginning tutorials are supposed
 to focus on… [so let’s go back to that.](2/)
 
+[installation]: /en/documentation/installation/

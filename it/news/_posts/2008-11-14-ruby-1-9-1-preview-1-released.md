@@ -13,7 +13,7 @@ Yugui (Yuki Sonoda) ha annunciato il rilascio di Ruby 1.9.1-preview 1:
 > sintassi più chiara.
 > In caso di bachi o problemi, puoi contattarci attraverso il sistema di
 > tracciamento ufficiale:
-> 
+>
 > [https://bugs.ruby-lang.org][1]
 
 Puoi scaricare questa nuova versione da:

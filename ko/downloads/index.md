@@ -16,10 +16,10 @@ lang: ko
 * Linux/UNIX에서는 시스템에 포함된 패키지 관리 시스템이나
   서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
 * OS X에서는 서드파티 도구(rbenv나 RVM)를 사용할 수 있습니다.
-* Windows에서는 RubyInstaller나 pik를 사용할 수 있습니다.
+* Windows에서는 RubyInstaller를 사용할 수 있습니다.
 
 패키지 관리 시스템이나 서드파티 도구에 대한 좀 더 자세한
-설명은 [설치](/ko/installation/) 페이지를 보세요.
+설명은 [설치][installation] 페이지를 보세요.
 
 물론, 주요 플랫폼에서 소스코드로부터 설치할 수도 있습니다.
 
@@ -30,7 +30,7 @@ lang: ko
 또한 이 방법은 자신의 플랫폼을 위해 미리 만들어진 패키지가
 없을 때에도 좋은 솔루션입니다.
 
-루비를 소스에서 빌드하는 하시려면 [설치](/ko/installation/) 페이지에서
+루비를 소스에서 빌드하는 하시려면 [설치][installation] 페이지에서
 자세한 내용을 보실 수 있습니다. 루비를 컴파일하는데 문제가 있다면,
 밑에서 소개하는 서드파티 도구 중 하나를 이용해볼 것을 고려해 보십시오.
 도움이 될 것입니다.
@@ -43,8 +43,12 @@ lang: ko
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **낡은버전:**
-  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **낡은버전 (2.0.0 시리즈):**
+  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  md5: {{ site.downloads.previous20.md5.gz }}
+
+* **낡은버전 (1.9.3 시리즈):**
+  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **스냅샷:**
@@ -62,9 +66,11 @@ lang: ko
 
 
 [license]: {{ site.license.url }}
+[installation]: /ko/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
+[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

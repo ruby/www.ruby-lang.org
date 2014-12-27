@@ -42,7 +42,8 @@ buat string ketimbang memakai Array#join!
 
 {% highlight ruby %}
 %w{ariekeren lagi ngetes} * ", "          # => "ariekeren, lagi, ngetes"
-h = { :name => "ArieKeren“, :age => 27 }h.map { |i| i * "=" } * "\n"              # => “age=27\nname=ArieKeren”
+h = { :name => "ArieKeren", :age => 27 }
+h.map { |i| i * "=" } * "\n"              # => “age=27\nname=ArieKeren”
 {% endhighlight %}
 
 **3 – Cara Cepat Memformat Angka Desimal**
@@ -320,6 +321,9 @@ def x
     # …
   end
 end
+{% endhighlight %}
+
+{% highlight ruby %}
 def x
   # …
 rescue
@@ -334,7 +338,12 @@ dengan pagar ataupun menggunakan blok begin dan end:
 
 {% highlight ruby %}
 puts "x"
-=begin  ini adalah blok komentar  Anda dapat menaruh apa saja yang Anda suka disini!  puts “y”=end
+=begin
+  ini adalah blok komentar
+  Anda dapat menaruh apa saja yang Anda suka disini!
+
+  puts "y"
+=end
 puts "z"
 {% endhighlight %}
 

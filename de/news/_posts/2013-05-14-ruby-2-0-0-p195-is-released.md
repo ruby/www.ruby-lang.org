@@ -72,7 +72,7 @@ Vielen Dank an alle Committer und Mitwirkende.
 
       #8092 improve accuracy of GC.stat[:heap_live_num]
       #8146 avoid unnecessary heap growth.
-      #8145  fix unlimited memory growth with large values of RUBY_FREE_MIN.
+      #8145 fix unlimited memory growth with large values of RUBY_FREE_MIN.
 
 ### Core - Regexp
 

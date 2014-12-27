@@ -20,7 +20,7 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   werden ebenso gern gegeben wie ausschweifende Diskussionen über
   Ruby-Interna geführt.
 
-[Ruby im IRC](irc://irc.freenode.net/ruby-de)
+[Ruby im IRC (#ruby-de)](irc://irc.freenode.net/ruby-de)
 : Der deutschsprachige IRC-Channel zu Ruby ist zwar lange nicht so
   aktiv wie der englische (siehe unten), aber deswegen noch nicht uninteressant.
 
@@ -44,7 +44,7 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   sollte diese in einer Mailingliste stellen, um eine Antwort zu
   bekommen.
 
-[Ruby im IRC](irc://irc.freenode.net/ruby-lang)
+[Ruby im IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang)
 : Der Ruby Language IRC-Channel ist eine hervorragende Möglichkeit mit
   anderen Rubyisten zu chatten.
 

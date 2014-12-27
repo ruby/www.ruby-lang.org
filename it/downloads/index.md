@@ -18,9 +18,9 @@ diversi tool:
 * Su Linux/UNIX, puoi usare il gestore di pacchetti della tua
   distribuzione o i tool di terze parti (rbenv e RVM).
 * Su OS X, puoi usare i tool di terze parti (rbenv e RVM).
-* Su Windows, puoi usare RubyInstaller o pik.
+* Su Windows, puoi usare RubyInstaller.
 
-Guarda la pagina [Installation](/it/installation/) per i dettagli su
+Guarda la pagina [Installation][installation] per i dettagli su
 come utilizzare i gestori di pacchetti o i tool di terze parti.
 
 Ovviamente sulle maggiori piattaforme puoi installa Ruby direttamente
@@ -35,7 +35,7 @@ siano disponibili pacchetti di installazione precompilati per il tuo
 sistema operativo.
 
 Per i dettagli su come installare Ruby da sorgenti guarda la pagina
-[Installation](/it/installation/).
+[Installation][installation].
 Se hai problemi con la compilazione di Ruby considera l'utilizzo di uno
 degli strumenti di terze parti presenti nella sezione successiva. Potrebbero
 esserti di aiuto.
@@ -105,6 +105,7 @@ di programmazione Ruby”.
 
 
 [license]: {{ site.license.url }}
+[installation]: /it/documentation/installation/
 [stable-gz]:   {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [old-gz]:      {{ site.downloads.previous19.url.gz }}

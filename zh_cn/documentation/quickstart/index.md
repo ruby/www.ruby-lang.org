@@ -28,8 +28,7 @@ header: |
 
 * 如果您使用 **Mac OS X** 打开 `Terminal` 然后输入 `irb`，回车
 * 如果您使用 **Linux**，打开一个 Shell，然后输入 `irb`，回车
-* 如果您使用 **Windows**，打开 开始菜单 -&gt; Ruby -&gt; `fxri`
-^
+* 如果您使用 **Windows**，打开 开始菜单 -&gt; Ruby -&gt; `Interactive Ruby`
 
 {% highlight irb %}
 irb(main):001:0>

@@ -5,7 +5,7 @@ author: "Bruno Michel"
 lang: fr
 ---
 
- La version 1.9.2-p136 de Ruby est sortie. Voici la seconde release de Ruby 1.9.2. Elle corrige de nombreux bugs
+La version 1.9.2-p136 de Ruby est sortie. Voici la seconde release de Ruby 1.9.2. Elle corrige de nombreux bugs
 trouvés dans la version 1.9.2-p0. [Le ChangeLog][1] donne plus de
 détails.
 

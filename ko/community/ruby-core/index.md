@@ -27,34 +27,27 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 이제 `ruby` 디렉토리에는 루비의 최신 개발 버전(ruby-trunk)이 들어 있을 것입니다.
-현재 트렁크에 적용되는 패치는 안정 브랜치들(2.1.0, 2.0.0, 1.9.3)에 백포트되고
+현재 트렁크에 적용되는 패치는 안정 브랜치들({{ site.svn.stable.version }},
+{{ site.svn.previous.version }}, {{ site.svn.old.version }})에 백포트되고
 있습니다.(밑을 참고하세요.)
 
-루비 2.1.0의 패치들을 보고 싶다면, 체크아웃 하실 때 `ruby_2_1` 브랜치를
-사용하십시오.
+루비 {{ site.svn.stable.version }}의 패치들을 보고 싶다면, 체크아웃 하실 때
+`{{ site.svn.stable.branch }}` 브랜치를 사용하십시오.
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_1
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
-루비 2.0.0의 패치들을 보고 싶다면, 체크아웃 하실 때 `ruby_2_0_0` 브랜치를
-사용하십시오.
+비슷하게 루비 {{ site.svn.previous.version }}에서는..
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
+$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
-루비 1.9.3의 패치들을 보고 싶다면, 체크아웃 하실 때 `ruby_1_9_3` 브랜치를
-사용하십시오.
-
-{% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
-{% endhighlight %}
-
-이 명령은 `ruby_1_9_3` 디랙토리에 루비 1.9.3 개발 트리를 체크아웃합니다. 루비
-1.9.3에서 개발하는 개발자들은 1.9.3 에서의 변경사항을 루비 트렁크에도
-마이그레이트할 것입니다. 그래서 마츠나 노부가 언어레벨의 수정을 한 경우를
-제외하면 두 브랜치는 매우 비슷합니다.
+이 명령은 `{{ site.svn.stable.branch }}` 나 `{{ site.svn.previous.branch }}` 디랙토리에
+각각의 루비 개발 트리를 체크아웃합니다. 메인터넌스 브랜치에서 개발하는 개발자들은
+메인터넌스에서의 변경사항을 루비 트렁크에도 마이그레이트할 것입니다. 그래서 마츠나
+노부가 언어레벨의 수정을 한 경우를 제외하면 두 브랜치는 매우 비슷합니다.
 
 더 자세한 내용은 [루비의 Subversion 저장소][2]의 웹사이트를 참조하세요.
 
@@ -78,15 +71,15 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 
 1.  서브버전에서 루비 소스코드를 체크아웃합니다.
     일반적으로 버그 수정을 위한 패치나 새로운 기능이 이미 루비 소스의 트렁크에
-    등록되어 있습니다. 1.9.3에 추가하고 싶다고 하더라도 트렁크에서 먼저
-    입증되어야 합니다.
+    등록되어 있습니다. {{ site.svn.previous.branch }}에 추가하고 싶다고 하더라도
+    트렁크에서 먼저 입증되어야 합니다.
 
         $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     한 관리 브랜치에서만 일어나는 버그를 수정하려고 한다면, 해당 브랜치를
-    체크아웃합니다. 예를 들어 `ruby_1_9.3`의 경우
+    체크아웃합니다. 예를 들어 `{{ site.svn.previous.branch }}`의 경우
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  개선된 코드를 추가합니다.
 

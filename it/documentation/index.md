@@ -115,10 +115,10 @@ Questa è una lista dei tool più comunemente usati dagli sviluppatori Ruby:
 
 * Tool con supporto Linux e multipiattaforma:
   * [Aptana Studio][19]
-  * [Emacs][20] with [Ruby mode][21] and [Rsense][22]
+  * [Emacs][20] con [Ruby mode][21] e [Rsense][22]
   * [Geany][23]
   * [gedit][24]
-  * [Vim][25] with [vim-ruby][26] plugin and [Rsense][22]
+  * [Vim][25] con [vim-ruby][26] plugin e [Rsense][22]
   * [RubyMine][27]
   * [SciTe][28]
   * [NetBeans][36]

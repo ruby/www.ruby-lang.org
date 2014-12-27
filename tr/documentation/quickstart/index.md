@@ -36,9 +36,8 @@ IRB’i açın (Interactive Ruby anlamına gelir).
   sonra enter basın.
 * Eğer **Linux** kullanıyorsanız konsol açın ve yazın : `irb`, sonra
   enter basın.
-* Eğer **Windows** kullanıyorsanız başlat menüsü Ruby bölümünden `fxri`
-  çalıştırın.
-^
+* Eğer **Windows** kullanıyorsanız başlat menüsü Ruby bölümünden
+  `Interactive Ruby` çalıştırın.
 
 {% highlight irb %}
 irb(main):001:0>

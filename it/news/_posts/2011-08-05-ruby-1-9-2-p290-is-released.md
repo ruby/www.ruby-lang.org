@@ -5,7 +5,7 @@ author: "Fabio Cevasco"
 lang: it
 ---
 
- Ruby 1.9.2-p290 è stato rilasciato. Questa versione non include nessuna
+Ruby 1.9.2-p290 è stato rilasciato. Questa versione non include nessuna
 correzione di sicurezza, tuttavia molti bachi sono stati corretti.
 Vedi [ChangeLog][1] per i dettagli.
 

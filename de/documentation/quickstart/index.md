@@ -32,9 +32,8 @@ Zuerst starten wir die interaktive Ruby-Konsole: IRB.
   drücke Enter.
 * Wenn Du **Linux** benutzt, öffne eine Shell, gib `irb` ein und drücke
   Enter.
-* Wenn Du **Windows** benutzt, öffne `fxri` aus dem Ruby-Ordner des
-  Start-Menüs heraus.
-^
+* Wenn Du **Windows** benutzt, öffne `Interactive Ruby` aus dem
+  Ruby-Ordner des Start-Menüs heraus.
 
 {% highlight irb %}
 irb(main):001:0>

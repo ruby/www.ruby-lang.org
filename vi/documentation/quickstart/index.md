@@ -33,8 +33,8 @@ Mở IRB (hiểu là Tương tác với Ruby).
 
 * Nếu bạn sử dụng **Mac OS X**, mở `Terminal` và gõ `irb` rồi enter.
 * Nếu bạn sử dụng **Linux**, mở một shell và gõ `irb` rồi enter.
-* Nếu bạn sử dụng **Windows**, mở `fxri` từ phần Ruby trên Start Menu.
-^
+* Nếu bạn sử dụng **Windows**, mở `Interactive Ruby` từ phần Ruby trên
+  Start Menu.
 
 {% highlight irb %}
 irb(main):001:0>
