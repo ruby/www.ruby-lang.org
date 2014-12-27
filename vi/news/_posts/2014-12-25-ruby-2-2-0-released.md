@@ -14,7 +14,7 @@ Ruby 2.2 cung cấp nhiều tính năng và cải tiến mới nhằm phục v�
 Ví dụ: Symbol GC giúp tự động thu hồi bộ nhớ cho Symbols. Nó giúp cho giảm tải
 đáng kể dung lượng Symbols tạo ra, bởi vì trước bản Ruby 2.2 thì GC không thể
 thu hồi bộ nhớ sử dụng của Symbols. Vì Rails 5.0 bắt buộc yêu cầu chức năng
-Symbols GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2.
+Symbol GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2.
 (Xem [bài post trên Rails' blog](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)
 để thêm chi tiết.)
 
@@ -33,8 +33,10 @@ Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.
 
 ## Các thay đổi đáng chú ý so với bản 2.1
 
-* [Incremental GC](https://bugs.ruby-lang.org/issues/10137) ([bài diễn thuyết tại RubyConf 2014: “Incremental GC for Ruby interpreter”](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([bài diễn thuyết tại RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
+  ([bài diễn thuyết tại RubyConf 2014: “Incremental GC for Ruby interpreter”](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
+* [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
+  ([bài diễn thuyết tại RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * core libraries:
   * Hỗ trợ Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
@@ -55,7 +57,7 @@ Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.
   * Xoá deprecated APIs
 
 Xem thêm chi tiết tại
-[NEWS trong ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS).
+[NEWS trong Ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS).
 
 Với những thay đổi, 1557 file đã được thay đổi, 125039 insertions(+), 74376 deletions(-).
 
