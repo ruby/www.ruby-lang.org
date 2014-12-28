@@ -12,8 +12,8 @@ Jest nam miło ogłosić wydanie Rubiego 2.2.0-rc1.
 Po RC1, wszystkie zmiany zostaną ograniczone tylko do poprawiania błędów.
 Finalne wydanie Rubiego 2.2.0 jest zaplanowane na 25 grudnia 2014.
 
-Ruby 2.2 zawiera wiele nowych funkcjonalności i udoskonaleń zostało włączonych do coraz bardziej
-zróżnicowanych i poszerzonych wymagań dla Rubiego.
+Ruby 2.2 zawiera wiele nowych funkcjonalności i udoskonaleń dla coraz bardziej
+zróżnicowanych i poszerzonych wymagań.
 
 Dla przykładu, odśmiecacz pamięci w Rubim jest w stanie obsługiwać obiekty typu Symbol.
 Redukuje to zużycie pamięci dla symboli; przed Rubim 2.2 mechanizm odśmiecania pamięci nie
@@ -23,7 +23,7 @@ wspierało tylko Rubiego 2.2 lub późniejsze.
 po szczegóły.)
 
 Także zredukowany czas wstrzymania dzięki nowemu Incremental Garbage Collector
-będzie przydatny uruchomionych aplikacji Railsowych. Bieżące osiągnięcia wspomniane we [wpisie o wydaniu Rails 4.2](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) sugerują, że Rails 5.0 będą wykorzystywać Incremental GC jak również Symbol GC.
+będzie przydatny dla uruchomionych aplikacji Railsowych. Bieżące osiągnięcia wspomniane we [wpisie o wydaniu Rails 4.2](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) sugerują, że Rails 5.0 będą wykorzystywać Incremental GC jak również Symbol GC.
 
 Kolejna funkcjonalność związana z zarządzaniem pamięcią to dodana opcja w `configure.in`
 by używać jemalloc [Funkcjonalność #9113](https://bugs.ruby-lang.org/issues/9113).
