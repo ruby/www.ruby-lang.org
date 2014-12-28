@@ -44,8 +44,12 @@ skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   md5: {{ site.downloads.previous.md5.gz }}
 
-* **Stary stabilny:**
-  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
+* **Stary stabilny (seria 2.0.0):**
+  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  md5: {{ site.downloads.previous20.md5.gz }}
+
+* **Stary stabilny (seria 1.9.3):**
+  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
   md5: {{ site.downloads.previous19.md5.gz }}
 
 * **Migawki:**
@@ -66,9 +70,10 @@ Spróbuj użyć jakiegoś blisko ciebie.
 
 [license]: {{ site.license.url }}
 [installation]: /pl/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/
