@@ -8,7 +8,6 @@ lang: pl
 ---
 
 Jest nam miło ogłosić wydanie Rubiego 2.2.0-rc1.
-
 Po RC1, wszystkie zmiany zostaną ograniczone tylko do poprawiania błędów.
 Finalne wydanie Rubiego 2.2.0 jest zaplanowane na 25 grudnia 2014.
 
@@ -19,11 +18,11 @@ Dla przykładu, odśmiecacz pamięci w Rubim jest w stanie obsługiwać obiekty 
 Redukuje to zużycie pamięci dla symboli; przed Rubim 2.2 mechanizm odśmiecania pamięci nie
 był w stanie ich obsługiwać. Rails 5.0 będzie wymagało Symbol GC, będzie
 wspierało tylko Rubiego 2.2 lub późniejsze.
-(Zobacz [wpis na blogu Rails](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)
+(Zobacz [wpis na blogu Rails](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)
 po szczegóły.)
 
 Także zredukowany czas wstrzymania dzięki nowemu Incremental Garbage Collector
-będzie przydatny dla uruchomionych aplikacji Railsowych. Bieżące osiągnięcia wspomniane we [wpisie o wydaniu Rails 4.2](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) sugerują, że Rails 5.0 będą wykorzystywać Incremental GC jak również Symbol GC.
+będzie przydatny dla uruchomionych aplikacji Railsowych. Bieżące osiągnięcia wspomniane we [blogu Rails](http://weblog.rubyonrails.org/) sugerują, że Rails 5.0 będą wykorzystywać Incremental GC jak również Symbol GC.
 
 Kolejna funkcjonalność związana z zarządzaniem pamięcią to dodana opcja w `configure.in`
 by używać jemalloc [Funkcjonalność #9113](https://bugs.ruby-lang.org/issues/9113).
@@ -32,7 +31,7 @@ Potrzebujemy zebrać przypadki użycia i dane odnośnie wydajności.
 Gdy będziemy przekonani o korzyściach, funkcjonalność będzie domyślnie włączona.
 
 Eksperymentalne wsparcie dla używania vfork(2) z system() i spawn() także zostało dodane.
-Więcej szczegółów możesz przeczytać na [blogu tanaka-sana po japońsku.](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
+Więcej szczegółów możesz przeczytać na [blogu tanaka-sana po japońsku](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
 Potencjalnie spowoduje to ogromne przyspieszenie gdy duży proces wykonuje
 zewnętrze komendy wiele razy.
 Ale vfork(2) jest nadal niezbyt zrozumiałym i potencjalnie ryzykownym wywołaniem systemowym.

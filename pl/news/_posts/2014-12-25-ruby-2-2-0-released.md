@@ -16,7 +16,8 @@ Dla przykładu, odśmiecacz pamięci w Rubim jest w stanie obsługiwać obiekty 
 Redukuje to zużycie pamięci dla symboli; przed Rubim 2.2 mechanizm odśmiecania pamięci nie
 był w stanie ich obsługiwać.
 Rails 5.0 będzie wymagało Symbol GC, będzie wspierało tylko Rubiego 2.2 lub
-późniejsze. (Zobacz [wpis na blogu Rails](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) po szczegóły.)
+późniejsze. (Zobacz [wpis na blogu Rails](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)
+po szczegóły.)
 
 Także zredukowany czas wstrzymania dzięki nowemu Incremental Garbage Collector
 będzie przydatny dla uruchomionych aplikacji Railsowych. Bieżące osiągnięcia wspomniane we [blogu Rails](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) sugerują, że Rails 5.0 będą wykorzystywać Incremental GC jak również Symbol GC.
@@ -29,7 +30,7 @@ Gdy będziemy przekonani o korzyściach, funkcjonalność będzie domyślnie wł
 
 Eksperymentalne wsparcie dla używania vfork(2) z system() i spawn() także zostało dodane.
 Więcej szczegółów możesz przeczytać na
-[blogu tanaka-sana po japońsku.](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
+[blogu tanaka-sana po japońsku](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
 Potencjalnie spowoduje to ogromne przyspieszenie gdy duży proces wykonuje
 zewnętrze komendy wiele razy.
 Ale vfork(2) jest nadal niezbyt zrozumiałym i potencjalnie ryzykownym wywołaniem systemowym.
