@@ -41,6 +41,9 @@ lang: ko
  * [IIJ][iij] (호스팅)
  * [GlobalSign][globalsign] (SSL 인증서)
  * [Fastly][fastly] (CDN)
+ * [Hatena][hatena] ([mackerel][mackerel], 서버 모니터링)
+ * [CloudCore][cloudcore] (빌드 서버)
+ * [Ruby no Kai][rubynokai] (빌드 서버)
 
 
 [logo]: /ko/about/logo/
@@ -55,3 +58,7 @@ lang: ko
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[hatena]: http://hatenacorp.jp/
+[mackerel]: https://mackerel.io/
+[cloudcore]: http://www.cloudcore.jp/
+[rubynokai]: http://ruby-no-kai.org/
