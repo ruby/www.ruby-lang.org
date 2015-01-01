@@ -4,7 +4,7 @@ title: "루비 설치하기"
 lang: ko
 ---
 
-루비를 설치할때 몇가지 도구를 사용할 수 있습니다.
+루비를 설치할 때 몇 가지 도구를 사용할 수 있습니다.
 이 페이지에서는 루비를 설치하고 관리하는 주요 패키지
 관리 시스템들과 서드파티 도구들의 사용법과
 소스에서 루비를 빌드하는 법을 설명합니다.
@@ -24,7 +24,7 @@ lang: ko
   전환을 도와줍니다.
 * 마지막으로 **소스에서 빌드** 하실 수도 있습니다.
 
-이 목록은 각 다른 요구사항과 플렛폼을 위한 주요 설치방법입니다.
+이 목록은 각 다른 요구사항과 플랫폼을 위한 주요 설치방법입니다.
 
 * [패키지 관리 시스템](#package-management-systems)
   * [Debian, Ubuntu](#apt)
@@ -71,7 +71,7 @@ Debian GNU/Linux와 Ubuntu는 apt 패키지 관리 시스템을 사용합니다.
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-글을 쓰는 시점에서, `ruby-full` 패키지는 루비 1.9.3를 설치합니다.
+글을 쓰는 시점에서, `ruby-full` 패키지는 루비 1.9.3을 설치합니다.
 이 버전은 Debian이나 Ubuntu의 오래된 안정 버전입니다.
 
 
@@ -100,7 +100,7 @@ $ sudo emerge dev-lang/ruby
 기본적으로, 이 명령어는 1.9와 2.0 버전을 설치하려 하지만, 더 많은 버전도
 사용할 수 있습니다.
 특정 버전을 설치하려면, `make.conf`에 `RUBY_TARGETS`를 설정하세요.
-더 자세한 정보는 [Gentoo 루비 프로젝트 웹사이트][gentoo-ruby]를 확인하세요.
+더 자세한 정보는 [Gentoo 루비 프로젝트 웹 사이트][gentoo-ruby]를 확인하세요.
 
 
 ### pacman (Arch Linux)
@@ -136,7 +136,7 @@ $ brew install ruby
 
 Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
 [Blastwave][blastwave]에서 루비 1.8.7을 사용 가능합니다.
-[Sunfreeware][sunfreeware]에서 루비 1.9.2p0를 사용 가능하지만, 이는 구 버전입니다.
+[Sunfreeware][sunfreeware]에서 루비 1.9.2p0을 사용 가능하지만, 이는 구 버전입니다.
 서드파티 도구를 사용하면 최신 버전의 루비를 얻을 수 있습니다.
 
 [OpenIndiana][openindiana]에서 루비를 설치하려면,
@@ -163,7 +163,7 @@ $ pkg install runtime/ruby-18
 시스템이나 패키지 관리자에서 제공하는 루비가 구 버전이라면, 서드 파티 인스톨러를
 사용해 새로운 버전의 루비를 설치할 수 있습니다.
 어떤 인스톨러는 여러 버전의 루비를 같은 시스템에 설치하게 합니다.
-관련된 관리자는 다른 루비간의 전환을 도와줍니다.
+관련된 관리자는 다른 루비 간의 전환을 도와줍니다.
 [RVM](#rvm)을 버전 관리자로 사용할 계획이라면 포함되어 있으므로 별도의 인스톨러는
 필요 없습니다.
 
@@ -171,7 +171,7 @@ $ pkg install runtime/ruby-18
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build]는 다른 버전의 루비를 임의의 디렉토리에
+[ruby-build][ruby-build]는 다른 버전의 루비를 임의의 디렉터리에
 컴파일하고 설치할 수 있게 하는 [rbenv](#rbenv)의 플러그인입니다.
 ruby-build는 rbenv없이 독자적으로 사용 할 수도 있습니다.
 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.

@@ -26,7 +26,7 @@ lang: ko
 $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
-이제 `ruby` 디렉토리에는 루비의 최신 개발 버전(ruby-trunk)이 들어 있을 것입니다.
+이제 `ruby` 디렉터리에는 루비의 최신 개발 버전(ruby-trunk)이 들어 있을 것입니다.
 현재 트렁크에 적용되는 패치는 안정 브랜치들({{ site.svn.stable.version }},
 {{ site.svn.previous.version }}, {{ site.svn.old.version }})에 백포트되고
 있습니다.(밑을 참고하세요.)
@@ -44,7 +44,7 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch 
 $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
-이 명령은 `{{ site.svn.stable.branch }}` 나 `{{ site.svn.previous.branch }}` 디랙토리에
+이 명령은 `{{ site.svn.stable.branch }}` 나 `{{ site.svn.previous.branch }}` 디렉터리에
 각각의 루비 개발 트리를 체크아웃합니다. 메인터넌스 브랜치에서 개발하는 개발자들은
 메인터넌스에서의 변경사항을 루비 트렁크에도 마이그레이트할 것입니다. 그래서 마츠나
 노부가 언어레벨의 수정을 한 경우를 제외하면 두 브랜치는 매우 비슷합니다.
