@@ -15,7 +15,6 @@ de Ruby.
 Por ejemplo, el Recolector de Basura ahora puede deshacerse de objetos de clase Symbol.
 Esto reduce el uso de memoria de los objectos de esta clase; versiones anteriores a 2.2 no
 eliminaban de memoria este tipo de objetos.
-
 Uno de los requerimientos de Rails 5.0 es precisamente que este tipo de objetos
 sean recolectados, por lo tanto solo podrá ser soportado en la versión Ruby 2.2
 o superiores.
@@ -29,7 +28,6 @@ como de la eliminación de objetos Symbol.
 
 Otra característica nueva relacionada al manejo de memoria es una opción adicional
 en `configure.in` para utilizar jemalloc [Característica #9113](https://bugs.ruby-lang.org/issues/9113).
-
 Esta funcionalidad es experimental y se encuentra actualmente deshabilitada por defecto hasta
 que podamos recolectar más datos del desempeño y casos de uso. Cuando estemos
 convencidos de que es un beneficio, habilitaremos la opción por defecto.
@@ -38,7 +36,6 @@ También ha sido incorporado soporte experimental para utilizar vfork(2) con
 system() y spawn(). Puedes leer más detalles en el [blog en japonés de tanaka-san](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
 Esta característica podría potencialmente traer beneficios enormes de velocidad
 cuando se ejecuten procesos muy grandes varias veces.
-
 Aún así, vfork(2) no ha sido debidamente estudiado y podría generar llamadas
 al sistema dañinas. Queremos experimentar más para saber que tanto beneficio
 se puede obtener recolectando información de desempeño y otros casos de uso.
@@ -96,4 +93,3 @@ desde v2.1.0!
   * MD5:    f8e1d0cee4f2d9535a9529ed23ae3700
   * SHA256: e06c1e2b1248cf881749833084b2bec93f7612676009190ff9bc89b8fd07c29f
   * SHA512: 364dd927b496520d95a1b06c68e1a265015f4cab08bdf3efaa323d385e7bf075eae47f2e1db78a629db0f3c0c1ed24e086603ba21e2da02ac06dd3c8b716766e
-

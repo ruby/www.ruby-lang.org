@@ -106,4 +106,3 @@ Con estos cambios, 1548 archivos cambiaron, 123658 inserciones(+), 74306 borrado
 Para más información de la agenda de entregas:
 
 [ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
-
