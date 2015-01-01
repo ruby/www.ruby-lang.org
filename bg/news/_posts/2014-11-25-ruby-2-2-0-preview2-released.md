@@ -57,7 +57,7 @@ configure.in да използва jemalloc [Feature #9113](https://bugs.ruby-la
 * C API
   * Премахнати остарели API-та
 
-Виж [NEWS в ruby хранилището](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS) за повече информация.
+Виж [NEWS в Ruby хранилището](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS) за повече информация.
 
 С тези промени, 1239 променени файла, 98343 добавени реда(+), 61858 премахнати
 реда(-).

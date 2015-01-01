@@ -68,7 +68,7 @@ slideshare.net/authorNari/symbol-gc))
 * API C
   * suppression des APIs dépréciées
 
-Consultez le fichier [NEWS dans le répertoire ruby](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS) pour plus de détails.
+Consultez le fichier [NEWS dans le répertoire Ruby](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS) pour plus de détails.
 
 Avec ces changements, 1 548 fichiers changés, 123 658 ajouts(+), 74 306 suppréssions(-).
 

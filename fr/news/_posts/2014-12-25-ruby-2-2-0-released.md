@@ -74,7 +74,7 @@ Essayez et profiter de Ruby 2.2.0 et rapportez nous le moindre problème !
 * API C
   * suppression des APIs dépréciées
 
-Consultez le fichier [NEWS dans le répertoire ruby](https://github.com/ruby/ruby/blob/v2_2_0/NEWS) pour plus de détails.
+Consultez le fichier [NEWS dans le répertoire Ruby](https://github.com/ruby/ruby/blob/v2_2_0/NEWS) pour plus de détails.
 
 Avec ces changements, 1 557 fichiers changés, 125 039 ajouts(+), 74 376 suppréssions(-).
 

@@ -64,7 +64,7 @@ Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.
   * Xoá deprecated APIs
 
 Xem thêm chi tiết tại
-[NEWS trong ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS).
+[NEWS trong Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS).
 
 Với những thay đổi, 1239 file đã được thay đổi, 98343 insertions(+), 61858 deletions(-).
 
