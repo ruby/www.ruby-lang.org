@@ -21,7 +21,7 @@ lang: ko
 
 또한, 새로운 증가형(Incremental) GC는 가비지 콜랙션의 중지
 시간을 줄여줍니다. 이 또한 레일즈 엡의 운용에 도움이 됩니다.
-[레일즈 블로그](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)에 언급된
+[레일즈 블로그](http://weblog.rubyonrails.org/)에 언급된
 최신 개발방법은 레일즈 5.0에서 증가형 GC뿐만 아니라 심볼 GC의
 이점을 살리자고 제안하고 있습니다.
 

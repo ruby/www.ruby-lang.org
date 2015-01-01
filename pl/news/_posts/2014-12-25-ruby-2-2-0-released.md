@@ -20,7 +20,7 @@ późniejsze. (Zobacz [wpis na blogu Rails](http://weblog.rubyonrails.org/2014/1
 po szczegóły.)
 
 Także zredukowany czas wstrzymania dzięki nowemu Incremental Garbage Collector
-będzie przydatny dla uruchomionych aplikacji Railsowych. Bieżące osiągnięcia wspomniane we [blogu Rails](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) sugerują, że Rails 5.0 będą wykorzystywać Incremental GC jak również Symbol GC.
+będzie przydatny dla uruchomionych aplikacji Railsowych. Bieżące osiągnięcia wspomniane we [blogu Rails](http://weblog.rubyonrails.org/) sugerują, że Rails 5.0 będą wykorzystywać Incremental GC jak również Symbol GC.
 
 Kolejna funkcjonalność związana z zarządzaniem pamięcią to dodana opcja w `configure.in`
 by używać jemalloc [Funkcjonalność #9113](https://bugs.ruby-lang.org/issues/9113).

@@ -19,7 +19,7 @@ Symbol GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2.
 để thêm chi tiết.)
 
 Ngoài ra Incremental GC mới cũng giúp giảm thời tạm dừng của việc thu hồi bộ
-nhớ, thực sự hữu dụng khi chạy các ứng dụng Rails. Gần đây các lập trình viên đã đề cập trên [Rails blog](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) cho rằng Rails 5.0 sẽ tận dụng lợi thế của Incremental GC cũng như Symbol GC.
+nhớ, thực sự hữu dụng khi chạy các ứng dụng Rails. Gần đây các lập trình viên đã đề cập trên [Rails blog](http://weblog.rubyonrails.org/) cho rằng Rails 5.0 sẽ tận dụng lợi thế của Incremental GC cũng như Symbol GC.
 
 Một tính năng khác liên quan đến việc quản lý bộ nhớ là một lựa chọn cho
 configure.in để sử dụng jemalloc
