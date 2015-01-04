@@ -13,12 +13,10 @@ Ruby 2.2 contient beaucoup de nouvelles fonctionnalités et d'améliorations pou
 répondre aux diverses demandes qui sont toujours de plus en plus nombreuses.
 
 Par exemple, le ramasse miettes de Ruby peut désormais désallouer les objets Symbol.
-Ceci permet de diminuer l'usage méoire des symboles. Avant Ruby 2.2, les symboles
+Ceci permet de diminuer l'usage mémoire des symboles. Avant Ruby 2.2, les symboles
 n'étaient jamais désallouer.
-De plus Rails 5.0 nécessitera le ramasse mièttes des symboles et n
-la mémoire (les symboles ne libèrent pas la mémoire actuellement).
 
-De plus Rails 5.0 utilisera le ramasse miettes des symboles, c'est pour cela que cela nécessitera Ruby 2.2 ou plus récent.
+De plus Rails 5.0 utilisera le ramasse miettes des symboles, c'est pour cela qu'il sera nécessaire d'utiliser Ruby 2.2 ou plus récent.
 (Consultez [Rails 4.2](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) pour plus de
 détails.)
 
@@ -48,7 +46,7 @@ Essayez et profiter de Ruby 2.2.0 et rapportez nous le moindre problème !
 ## Changements importants depuis Ruby 2.1
 
 * [Ramasse miettes incrémental](https://bugs.ruby-lang.org/issues/10137)
-  ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
+  ([présentation à la RubyConf 2014 : "Incremental GC for Ruby interpreter"](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [Ramasse miettes des symboles](https://bugs.ruby-lang.org/issues/9634)
   ([présentaté à la RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc
