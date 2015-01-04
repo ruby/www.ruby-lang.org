@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.0 Released"
+title: "Ruby 2.2.0 est disponible"
 author: "naruse"
 translator: "Geoffrey Roguelon"
 date: 2014-12-25 09:00:00 +0000

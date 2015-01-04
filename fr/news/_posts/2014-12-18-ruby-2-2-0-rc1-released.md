@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.0-rc1 Released"
+title: "Ruby 2.2.0-rc1 est disponible"
 author: "naruse"
 translator: "Geoffrey Roguelon"
 date: 2014-12-18 09:00:00 +0000
