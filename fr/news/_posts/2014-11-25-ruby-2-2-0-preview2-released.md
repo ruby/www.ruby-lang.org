@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.0-preview2 Released"
+title: "Ruby 2.2.0-preview2 est disponible"
 author: "naruse"
 translator: "Geoffrey Roguelon"
 date: 2014-11-28 09:00:00 +0000

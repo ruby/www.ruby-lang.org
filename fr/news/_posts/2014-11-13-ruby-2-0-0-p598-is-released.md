@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p598 Released"
+title: "Ruby 2.0.0-p598 est disponible"
 author: "usa"
 translator: "Geoffrey Roguelon"
 date: 2014-11-13 12:00:00 +0000
