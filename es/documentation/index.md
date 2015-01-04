@@ -11,7 +11,7 @@ serán útiles a la hora de desarrollar con Ruby.
 ### Para iniciarse
 
 [¡Prueba Ruby!][1]
-: Un tutoríal interactivo para principiantes en la web. No es necesario
+: Un tutorial interactivo para principiantes en la web. No es necesario
   instalar Ruby para su utilización por lo que podrá iniciarse
   rápidamente en este lenguaje. Esta basado en el trabajo del
   desaparecido “Why the Lucky Stiff”.
