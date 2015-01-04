@@ -20,7 +20,7 @@ lang: ko
 {: #following-ruby}
 
 루비 코드를 받으려면 [Subversion][1] 저장소에서 익명으로 체크하웃하면 됩니다
-커맨드라인에서 다음을 입력하세요.
+커맨드 라인에서 다음을 입력하세요.
 
 {% highlight sh %}
 $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
