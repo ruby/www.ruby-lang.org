@@ -15,7 +15,6 @@ répondre aux diverses demandes qui sont toujours de plus en plus nombreuses.
 Par exemple, le ramasse miettes de Ruby peut désormais désallouer les objets Symbol.
 Ceci permet de diminuer l'usage mémoire des symboles. Avant Ruby 2.2, les symboles
 n'étaient jamais désallouer.
-
 De plus Rails 5.0 utilisera le ramasse miettes des symboles, c'est pour cela qu'il sera nécessaire d'utiliser Ruby 2.2 ou plus récent.
 (Consultez [Rails 4.2](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) pour plus de
 détails.)
