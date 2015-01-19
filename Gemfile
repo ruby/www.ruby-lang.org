@@ -8,6 +8,7 @@ gem 'kramdown'
 gem 'unicorn'
 gem 'rack-jekyll'
 gem 'rack-rewrite'
+gem 'rack-ssl'
 gem 'rack-protection'
 
 group :development do
