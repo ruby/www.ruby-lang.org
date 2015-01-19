@@ -47,6 +47,8 @@ GEM
     rack-protection (1.5.3)
       rack
     rack-rewrite (1.5.0)
+    rack-ssl (1.4.1)
+      rack
     raindrops (0.13.0)
     rake (10.4.2)
     rb-fsevent (0.9.4)
@@ -79,6 +81,7 @@ DEPENDENCIES
   rack-jekyll
   rack-protection
   rack-rewrite
+  rack-ssl
   rake (~> 10.0)
   spidr (~> 0.4)
   unicorn

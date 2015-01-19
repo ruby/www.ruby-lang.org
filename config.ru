@@ -1,5 +1,6 @@
 require 'rack/jekyll'
 require 'rack/rewrite'
+require 'rack/ssl'
 require 'rack/protection'
 
 use Rack::CommonLogger
@@ -76,6 +77,7 @@ use Rack::Rewrite do
   r302 %r{^/pt/bibliotecas(.*)$}, "/pt/libraries$1"
 end
 
+use Rack::SSL
 use Rack::Protection::HttpOrigin
 use Rack::Protection::FrameOptions
 
