@@ -38,19 +38,19 @@ skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
 
 * **Obecny stabilny:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  sha2: {{ site.downloads.stable.sha2.gz }}
 
 * **Poprzedni stabilny:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  sha2: {{ site.downloads.previous.sha2.gz }}
 
 * **Stary stabilny (seria 2.0.0):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  md5: {{ site.downloads.previous20.md5.gz }}
+  sha2: {{ site.downloads.previous20.sha2.gz }}
 
 * **Stary stabilny (seria 1.9.3):**
   [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
+  sha2: {{ site.downloads.previous19.sha2.gz }}
 
 * **Migawki:**
   * [Stabilna migawka][stable-snapshot-gz]:

@@ -29,7 +29,7 @@ downloads:
       gz: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz
       xz: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.xz
       zip: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.zip
-    md5:
+    sha2:
       bz2: d03cd4690fec1fff81d096d1c1255fde
       gz: cd03b28fd0b555970f5c4fd481700852
       xz: 54b43c6c6c9dd4c4b08ceb03ad0ded7a
@@ -40,7 +40,7 @@ downloads:
       bz2: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2
       gz: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.gz
       zip: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.zip
-    md5:
+    sha2:
       bz2: a7c3e5fec47eff23091b566e9e1dac1b
       gz: df4c1b23f624a50513c7a78cb51a13dc
       zip: 810cd05eb03c00f89b0b03b10e9a3606
@@ -50,7 +50,7 @@ downloads:
       bz2: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2
       gz: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.gz
       zip: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.zip
-    md5:
+    sha2:
       bz2: a3f3908103a7d209d1d1cf4712e3953c
       gz: e043a21ce0d138fd408518a80aa31bba
       zip: aa6ac22747947e6562d5b0dc9767ecda
@@ -60,7 +60,7 @@ downloads:
       bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.bz2
       gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.gz
       zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.zip
-    md5:
+    sha2:
       bz2: 0d8b272b05c3449dc848bb7570f65bfe
       gz: 0d8212f7bc89bab8ef521b04cd9df278
       zip: 14a394b1d7b7031b34d4d1af64ee657e

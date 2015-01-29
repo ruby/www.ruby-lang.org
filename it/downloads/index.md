@@ -42,15 +42,15 @@ esserti di aiuto.
 
 * **Stabile:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  sha2: {{ site.downloads.stable.sha2.gz }}
 
 * **Stabile Precedente:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  sha2: {{ site.downloads.previous.sha2.gz }}
 
 * **Vecchia Stabile:**
   [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
+  sha2: {{ site.downloads.previous19.sha2.gz }}
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:

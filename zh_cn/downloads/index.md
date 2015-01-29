@@ -13,7 +13,7 @@ lang: zh_cn
 需要安装到您的平台上，这也是一个好的方法。
 
 * [Ruby {{ site.downloads.stable.version }}][stable-gz]
-  (md5:&nbsp;{{ site.downloads.stable.md5.gz }}) 稳定版 (*推荐*)
+  (sha2:&nbsp;{{ site.downloads.stable.sha2.gz }}) 稳定版 (*推荐*)
 * [稳定版快照][stable-snapshot-gz] 这里的 tar’ed 和 gzip’ed 文件是最新稳定的 CVS。它应该比上次发布的版本更稳定。
 * [开发版快照][nightly-gz] 这里的 tar’ed 和 gzip’ed 文件是最新的 CVS。它可能包含一些没有解决的问题。
 
