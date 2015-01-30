@@ -43,9 +43,9 @@ leur environnement. C’est également la solution à adopter par défaut
 lorsqu’aucun paquetage « tout compris » n’existe pour votre plateforme.
 
 * [Ruby {{ site.downloads.stable.version }}][stable-gz]
-  (sha2:&nbsp;{{ site.downloads.stable.sha2.gz }}) Version stable (*recommandée*)
+  (sha256:&nbsp;{{ site.downloads.stable.sha256.gz }}) Version stable (*recommandée*)
 * [Ruby {{ site.downloads.previous.version }}][previous-gz]
-  (sha2:&nbsp;{{ site.downloads.previous.sha2.gz }}) Version précédente
+  (sha256:&nbsp;{{ site.downloads.previous.sha256.gz }}) Version précédente
 * [Stable Snapshot][stable-snapshot-gz] Archive de la dernière version stable du SVN
   (ruby\_2\_0\_0). A priori plus à jour que la dernière version stable
   publique.

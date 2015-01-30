@@ -38,19 +38,19 @@ vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
 
 * **Stabile Version:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha2: {{ site.downloads.stable.sha2.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **Stabile Vorgängerversion:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha2: {{ site.downloads.previous.sha2.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **Stabile Vorgängerversion (2.0.0):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha2: {{ site.downloads.previous20.sha2.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **Stabile Vorgängerversion (1.9.3):**
   [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha2: {{ site.downloads.previous19.sha2.gz }}
+  sha256: {{ site.downloads.previous19.sha256.gz }}
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:

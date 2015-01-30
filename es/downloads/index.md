@@ -40,11 +40,11 @@ Si tienes algún problema compilando Ruby, considera usar una de las herramienta
 de terceros en la sección siguiente. Pueden servirte de ayuda.
 
 * [Ruby {{ site.downloads.stable.version }}][stable-gz]
-  (sha2:&nbsp;{{ site.downloads.stable.sha2.gz }}) Versión Estable (*recomendada*)
+  (sha256:&nbsp;{{ site.downloads.stable.sha256.gz }}) Versión Estable (*recomendada*)
 * [Ruby {{ site.downloads.previous.version }}][previous-gz]
-  (sha2:&nbsp;{{ site.downloads.previous.sha2.gz }}) Versión Previa
+  (sha256:&nbsp;{{ site.downloads.previous.sha256.gz }}) Versión Previa
 * [Ruby {{ site.downloads.previous19.version }}][old-gz]
-  (sha2:&nbsp;{{ site.downloads.previous19.sha2.gz }}) Versión Previa 1.9
+  (sha256:&nbsp;{{ site.downloads.previous19.sha256.gz }}) Versión Previa 1.9
 * [Snapshot estable][stable-snapshot-gz] Ultima versión (*estable*)
   del repositorio (ruby\_2\_1).
 * [Snapshot diario][nightly-gz] Ultima versión de lo que exista en SVN,

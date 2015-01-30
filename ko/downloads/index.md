@@ -37,19 +37,19 @@ lang: ko
 
 * **안정버전:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha2: {{ site.downloads.stable.sha2.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **이전버전:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha2: {{ site.downloads.previous.sha2.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **낡은버전 (2.0.0 시리즈):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha2: {{ site.downloads.previous20.sha2.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **낡은버전 (1.9.3 시리즈):**
   [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha2: {{ site.downloads.previous19.sha2.gz }}
+  sha256: {{ site.downloads.previous19.sha256.gz }}
 
 * **스냅샷:**
   * [Stable Snapshot][stable-snapshot-gz]:

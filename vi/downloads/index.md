@@ -36,19 +36,19 @@ dụng một trong những công cụ của bên thứ ba đã được đề c�
 
 * **Bản ổn định hiện hành:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha2: {{ site.downloads.stable.sha2.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **Bản ổn định trước đó:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha2: {{ site.downloads.previous.sha2.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **Bản ổn định cũ (chuỗi 2.0.0):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha2: {{ site.downloads.previous20.sha2.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **Bản ổn định cũ (chuỗi 1.9.3):**
   [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha2: {{ site.downloads.previous19.sha2.gz }}
+  sha256: {{ site.downloads.previous19.sha256.gz }}
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:

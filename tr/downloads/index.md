@@ -16,7 +16,7 @@ ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
 * [Ruby {{ site.downloads.stable.version }}][stable-gz]
-  (sha2:&nbsp;{{ site.downloads.stable.sha2.gz }})
+  (sha256:&nbsp;{{ site.downloads.stable.sha256.gz }})
   Kararlı Versiyon (*tavsiye edilir*)
 * [Stable Snapshot][stable-snapshot-gz] Bu son kararlı SVN’nin tar gzip hali. Son kararlı
   sürümden daha iyi olması beklenir.

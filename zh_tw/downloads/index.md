@@ -28,19 +28,19 @@ lang: zh_tw
 
 * **當前穩定版：**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha2: {{ site.downloads.stable.sha2.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **穩定上一版：**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha2: {{ site.downloads.previous.sha2.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **舊穩定版（2.0.0 系列）：**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha2: {{ site.downloads.previous20.sha2.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **舊穩定版（1.9.3 系列）：**
   [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha2: {{ site.downloads.previous19.sha2.gz }}
+  sha256: {{ site.downloads.previous19.sha256.gz }}
 
 * **快照：**
   * [Stable Snapshot][stable-snapshot-gz]:
