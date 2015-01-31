@@ -39,19 +39,19 @@ Ruby може да бъде инсталиран и от изходен код �
 
 * **Текуща стабилна версия:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **Предишна стабилна версия:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **Стара стабилна версия (серия 2.0.0):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  md5: {{ site.downloads.previous20.md5.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **Стара стабилна версия (серия 1.9.3):**
   [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
+  sha256: {{ site.downloads.previous19.sha256.gz }}
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
