@@ -40,6 +40,7 @@ for different needs and platforms.
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
+  * [ActiveScriptRuby](#activescriptruby) (Windows)
 * [Managers](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
@@ -220,6 +221,12 @@ you can use the following installers:
   which provides a complete development environment for Rails.
   It supports OS X, Linux, Windows, virtual machines, and cloud images.
 
+### ActiveScriptRuby
+{: #activescriptruby}
+
+If you are on Windows, you can use [ActiveScriptRuby][active-script-ruby]. It's based on mswin32 and enclosed some useful libraries within the installer.
+
+* [ActiveScriptRuby][active-script-ruby] (Japanese)
 
 ## Managers
 {: #managers}
@@ -288,6 +295,7 @@ though, because the installed Ruby won't be managed by any tools.
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
+[active-script-ruby]: http://www.artonx.org/data/asr/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
