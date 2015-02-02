@@ -18,7 +18,7 @@ lang: ko
 
 * [ext/openssl의 기본 설정 변경](https://www.ruby-lang.org/ko/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-그리고 추가로, RDoc의 darkfish 템플릿에 포함된 jQuery의 버전도 갱신되었습니다.
+그리고 추가로, RDoc의 darkfish 템플릿에 포함된 jQuery의 버전도 업데이트되었습니다.
 
 
 ## 공지사항
