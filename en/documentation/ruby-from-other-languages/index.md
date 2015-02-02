@@ -224,7 +224,7 @@ altered.
 In Java, `public` means a method is accessible by anyone. `protected`
 means the class’s instances, instances of descendant classes, and
 instances of classes in the same package can access it, but not anyone
-else, and `private` means nobody besides the classes instances can
+else, and `private` means nobody besides the class's instances can
 access the method.
 
 Ruby differs slightly. `public` is, naturally, public. `private` means
