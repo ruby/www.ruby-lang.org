@@ -20,7 +20,7 @@ lang: ko
 과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
 를 참고하세요.
 
-**갱신:** 2.1.3에 있었던 회귀는 이제 수정되었습니다.
+**업데이트:** 2.1.3에 있었던 회귀는 이제 수정되었습니다.
 
 {% highlight irb %}
 >> { key: if true then 0 else 1 end }
@@ -67,5 +67,5 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
 
 ## 수정 이력
 
-* 2014-10-27 21:00:00 (UTC) 갱신
+* 2014-10-27 21:00:00 (UTC) 업데이트
 * 2014-10-27 12:00:00 (UTC) 최초 공개
