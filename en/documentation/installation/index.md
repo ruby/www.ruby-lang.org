@@ -47,7 +47,8 @@ for different needs and platforms.
   * [RVM](#rvm)
   * [uru](#uru)
 * [Building from source](#building-from-source)
-
+* [Coding on web service](#coding-on-web-service)
+  * [Nitrous.IO](#nitrousio)
 
 ## Package Management Systems
 {: #package-management-systems}
@@ -286,6 +287,15 @@ To change, pass the `--prefix=DIR` option to the `./configure` script.
 Using the third-party tools or package managers might be a better idea,
 though, because the installed Ruby won't be managed by any tools.
 
+## Coding on web service
+{: #coding-on-web-service }
+
+You can write and run Ruby code on your browser.
+
+### Nitrous.IO
+{: #nitrousio}
+
+[Nitrous.IO][nitrousio] allows you to write Ruby code on your browser via Web IDE. You can develop web applications using Ruby on Rails.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv#readme
@@ -303,3 +313,4 @@ though, because the installed Ruby won't be managed by any tools.
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
+[nitrousio]: https://www.nitrous.io/
