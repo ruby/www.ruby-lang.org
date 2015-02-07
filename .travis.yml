@@ -1,14 +1,3 @@
 language: ruby
 rvm: 2.2.0
 cache: bundler
-deploy:
-  provider: heroku
-  buildpack: https://github.com/ruby/heroku-buildpack-www-ruby-lang.git
-  strategy: api
-  api_key:
-    secure: h0Z7JDyY3iqOhCgbamAif+D0P7QrznxMut6riZrpsWjJoBX46Z1GEOlZYrlxTnSufI8BisPY4/KoG/7hzrBD4gDnl3vxRBQ2YK9Iql04JMoCs1vhoZ1LWNAYB9L38K6OjkB/Fq7Xqjy54zgnU+an1jlK+a3i/mlVbJ7gNQRoepY=
-  app: staging-ruby-lang
-  on:
-    rvm: 2.2.0
-    repo: ruby/www.ruby-lang.org
-    branch: master
