@@ -7,6 +7,7 @@ lang: ja
 いくつかのツールを使ってRubyをインストールできます。
 このページでは、Rubyの管理とインストールのための、メジャーなパッケージ管理ツールとサードパーティツールについて解説します。
 
+また、Webサービスを利用して開発する方法もあります。 [ブラウザから利用できる開発環境](/ja/documentation/developing-on-browser) のページを参照してください。
 
 ## システムごとのインストール方法
 
@@ -32,10 +33,6 @@ lang: ja
   * [ActiveScriptRuby](#activescriptruby)
   * [RubyInstaller](#rubyinstaller)
   * [RailsInstaller](#railsinstaller)
-
-* Web 上で開発する
-
-  * [Nitrous.IO](#nitrousio)
 
 
 ## サードパーティツール
@@ -232,14 +229,6 @@ $ sudo make install
 しかしながら、サードパーティ製ツールかパッケージマネージャを使う方が良い考えです。
 何故なら、ソースからインストールされた Ruby はどのツールからも管理されないからです。
 
-## Web 上で開発する
-
-Web 上に用意される Ruby の開発環境を利用して、ブラウザを使って Ruby のコードを書くことができます。
-
-### Nitrous.IO
-{: #nitrousio}
-
-[Nitrous.IO][nitrousio] はブラウザ上の IDE を利用して Ruby のコードを書き、実行することができます。 Rails を使って Web アプリケーションを開発することもできます。
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
@@ -252,4 +241,3 @@ Web 上に用意される Ruby の開発環境を利用して、ブラウザを�
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
-[nitrousio]: https://www.nitrous.io/
