@@ -66,7 +66,7 @@ dernière version de Ruby, assurez-vous d'installer le bon paquet, ou d'utiliser
 à la place un outil tiers tel que décrit plus bas.
 
 
-### apt (Debian or Ubuntu)
+### apt (Debian ou Ubuntu)
 {: #apt}
 
 Debian GNU/Linux et Ubuntu utilisent le gestionnaire de paquets apt.
@@ -80,7 +80,7 @@ Au moment d'écrire ces lignes, le paquet `ruby-full` fourni Ruby 1.9.3, qui
 est une ancienne version stable, sur Debian et Ubuntu.
 
 
-### yum (CentOS, Fedora, or RHEL)
+### yum (CentOS, Fedora, ou RHEL)
 {: #yum}
 
 CentOS, Fedora, et RHEL utilisent le gestionnaire de paquets yum.
@@ -231,10 +231,11 @@ utiliser les installateurs suivants :
   images pour le cloud.
 
 
+## Managers
 {: #managers}
 
-Beaucoup de _rubyistes_ utilisent des managers Ruby pour gérer différentes «
-installations » de Ruby. Une installation de Ruby correspond à un ensemble de
+Beaucoup de _rubyistes_ utilisent des managers Ruby pour gérer différentes
+« installations » de Ruby. Une installation de Ruby correspond à un ensemble de
 programmes (gems et utilitaires liés à Ruby) associés à une version spécifique
 de Ruby. Par exemple, si vous utilisez un manager pour alterner entre les
 versions 1.9.2 et 2.2.0 de Ruby, vous serez en mesure d'installer des gems
@@ -299,7 +300,6 @@ Pour changer, passez l'option `--prefix=DIR` au script `./configure`.
 Si on pourra préférer utiliser des outils tiers ou de gestionnaires de paquets 
 pour installer Ruby, il faut garder à l'esprit que de telles installations de
 Ruby ne pourront pas être gérées par un gestionnaire de versions.
-
 
 
 [rvm]: http://rvm.io/
