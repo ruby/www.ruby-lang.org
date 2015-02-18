@@ -57,9 +57,9 @@ peut-être vous aider.
 * **Snapshots :**
   * [Stable Snapshot][stable-snapshot-gz]:
     Archive de la dernière version publiée à partir de la branche stable courante.
-* [Nightly Snapshot][nightly-gz] Archive construite chaque nuit à partir du code le plus 
-  récent présent sur SVN.
-  Comporte probablement des bugs ou d'autres problèmes, utilisez-la en connaissance de cause !
+  * [Nightly Snapshot][nightly-gz] Archive construite chaque nuit à partir du code le plus 
+    récent présent sur SVN.
+    Comporte probablement des bugs ou d'autres problèmes, utilisez-la en connaissance de cause !
 
 Pour plus d’information sur le dépôt Subversion de Ruby, voyez la page
 [Ruby Core](/fr/community/ruby-core/).
