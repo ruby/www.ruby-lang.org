@@ -15,9 +15,9 @@ dominante en informatique. Bon courage !
 
 ### Installer Ruby
 
-À moins que vous ne vouliez essayer Ruby dans un navigateur (voir les liens 
+À moins que vous ne vouliez essayer Ruby dans un navigateur (voir les liens
 plus bas) vous avez besoin d'avoir Ruby installé sur votre ordinateur.
-Vous pouvez vérifier si Ruby est déjà disponible en ouvrant une invite de 
+Vous pouvez vérifier si Ruby est déjà disponible en ouvrant une invite de
 commande et en tapant
 
 {% highlight sh %}
@@ -25,7 +25,7 @@ ruby -v
 {% endhighlight %}
 
 Ceci devrait afficher des informations sur la version de ruby qui est installée.
-Dans le cas contraire, référez-vous à la [page d’installation](installation/) 
+Dans le cas contraire, référez-vous à la [page d’installation](installation/)
 pour les nombreuses façons d'obtenir Ruby.
 
 ### Débuter avec Ruby

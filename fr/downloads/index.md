@@ -14,28 +14,28 @@ N’oubliez pas de consulter la [licence Ruby][license].
 Pour installer Ruby, les principales plateformes proposent un ensemble
 d'outils spécifiques :
 
-* Sur Linux/UNIX, vous pouvez utiliser le système de gestion des 
+* Sur Linux/UNIX, vous pouvez utiliser le système de gestion des
   paquets de votre distribution ou des outils tiers (rbenv et RVM).
 * Sur les machines OS X, vous pouvez utiliser des outils tiers (rbenv et RVM).
 * Sur les machines Windows, vous pouvez utiliser RubyInstaller.
 
-Voir la page d'[Installation][installation] pour les détails sur l'usage des 
+Voir la page d'[Installation][installation] pour les détails sur l'usage des
 systèmes de gestion de paquets ou outils tiers.
 
-Bien sûr, vous pouvez aussi installer Ruby à partir des sources pour toutes 
+Bien sûr, vous pouvez aussi installer Ruby à partir des sources pour toutes
 les plateformes majeures.
 
 ### Compiler Ruby — Code source
 
-Installer Ruby à partir des sources est une bonne solution pour celles et ceux 
-qui sont suffisamment à l’aise avec leur plateforme et qui souhaitent peut-être 
+Installer Ruby à partir des sources est une bonne solution pour celles et ceux
+qui sont suffisamment à l’aise avec leur plateforme et qui souhaitent peut-être
 une configuration spécifique pour leur environnement. C’est également une bonne
-solution dans le cas où aucun autre paquet « tout compris » n’existe pour 
+solution dans le cas où aucun autre paquet « tout compris » n’existe pour
 votre plateforme.
 
-Voir la page d'[Installation][installation] pour les détails de compilation de 
-Ruby à partir des sources. Si vous rencontrez des difficultés en compilant Ruby, 
-envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront 
+Voir la page d'[Installation][installation] pour les détails de compilation de
+Ruby à partir des sources. Si vous rencontrez des difficultés en compilant Ruby,
+envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
 * **Dernière version stable :**
@@ -57,7 +57,7 @@ peut-être vous aider.
 * **Snapshots :**
   * [Stable Snapshot][stable-snapshot-gz]:
     Archive de la dernière version publiée à partir de la branche stable courante.
-  * [Nightly Snapshot][nightly-gz] Archive construite chaque nuit à partir du code le plus 
+  * [Nightly Snapshot][nightly-gz] Archive construite chaque nuit à partir du code le plus
     récent présent sur SVN.
     Comporte probablement des bugs ou d'autres problèmes, utilisez-la en connaissance de cause !
 
