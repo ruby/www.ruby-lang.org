@@ -8,7 +8,7 @@ lang: ko
 ---
 
 Ruby 2.1.0의 릴리즈와 함께 루비의 버저닝 정책을 좀 더
-[Semantic Versioning](http://semver.org/)([번역](http://surpreem.com/archives/380))에 가깝게 하기로
+[Semantic Versioning](http://semver.org/)([번역](http://semver.org/lang/ko/))에 가깝게 하기로
 결정했습니다.
 
 Ruby에 보다 명확하고 적절한 버저닝 스키마를 제공하기위해,
