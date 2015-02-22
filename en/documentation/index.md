@@ -110,8 +110,8 @@ of getting Ruby.
 [APIdock][18]
 : Ruby, Rails and RSpec documentation with users’ notes.
 
-[Annotated Ruby, Rails and Gem Documentation][40]
-: Documentation for every version of Ruby, and every version of every 
+[Omniref: Annotated Ruby, Rails, and Gem Documentation][40]
+: Documentation for every version of Ruby, and every version of every
   RubyGem. A comprehensive reference manual for Ruby, with code search,
   source annotations, and Q&A features.
 
@@ -149,10 +149,10 @@ Here is a list of popular tools used by Rubyists:
 
 ### Further Reading
 
-[Ruby-Doc.org][34] and [Omniref.com][40] both maintain a comprehensive 
-list of English documentation sources. There are also plenty of 
-[books about Ruby][35]. If you have questions about Ruby the [mailing
-list](/en/community/mailing-lists/) is a great place to start.
+[Ruby-doc.org][34] and [omniref.com][40] both maintain a comprehensive
+list of English documentation sources. There are also plenty of
+[books about Ruby][35]. If you have questions about Ruby the
+[mailing list](/en/community/mailing-lists/) is a great place to start.
 
 
 
