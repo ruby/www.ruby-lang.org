@@ -149,9 +149,9 @@ Here is a list of popular tools used by Rubyists:
 
 ### Further Reading
 
-[Ruby-doc.org][34] and [omniref.com][40] both maintain a comprehensive
-list of English documentation sources. There are also plenty of
-[books about Ruby][35]. If you have questions about Ruby the
+[Ruby-doc.org][34] maintains a comprehensive list of English
+documentation sources. There are also plenty of [books about Ruby][35].
+If you have questions about Ruby the
 [mailing list](/en/community/mailing-lists/) is a great place to start.
 
 
