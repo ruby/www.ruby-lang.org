@@ -12,4 +12,4 @@ from more recent Ruby versions will no longer be backported to 1.9.3.
 
 This end of life was [announced over a year ago](https://www.ruby-lang.org/en/news/2014/01/10/ruby-1-9-3-will-end-on-2015/).
 
-We highly recommend that you upgrade to Ruby 2.2 or 2.1 as soon as possible.
+We highly recommend that you upgrade to Ruby 2.0 or above as soon as possible.
