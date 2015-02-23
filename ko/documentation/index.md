@@ -114,6 +114,10 @@ ruby -v
 [APIdock][18] (영문)
 : 유저의 댓글이 달린 루비, 레일즈, RSpec의 문서입니다.
 
+[주석달린 Ruby, Rails, Gem 문서][40] (영문)
+: 모든 루비 버전과 모든 RubyGem의 모든 버전의 문서. 포괄적인 루비 레퍼런스
+  메뉴얼, 코드 검색, 소스 주석과 Q&A를 제공합니다.
+
 ### 편집기와 IDE
 
 루비를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습니다. 하지만,
@@ -146,13 +150,11 @@ ruby -v
 
 ### 더 읽을거리
 
-[Ruby-Doc.org][34]은 루비에 관한 문서를 관리하는 사이트입니다. 주로 영문이기는
-하지만 잘 정리된 참조 매뉴얼은 도움이 됩니다.
-
-루비에 대한 [책들][ko-5]도 출판되어 있습니다. 원서들은 [여기][35]에서 확인하세요.
-루비에 관한 질문이 있다면, [유저 그룹][ko-3]이나 [페이스북 그룹][ko-4]에서 하실 수 있고
-영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하셔도
-됩니다.
+[Ruby-Doc.org][34]는 루비 영문 문서를 포괄적으로 관리하는 사이트입니다. 루비
+[책들][ko-5]도 출판되어 있습니다. 원서들은 [여기][35]에서 확인하세요. 루비에
+관한 질문이 있다면, [유저 그룹][ko-3]이나 [페이스북 그룹][ko-4]에서 하실 수 있고
+영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하실 수도
+있습니다.
 
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
@@ -193,6 +195,7 @@ ruby -v
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[40]: https://www.omniref.com
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [ko-2]: http://beyond.daesan.com/pages/ruby-faq
 [ko-3]: https://groups.google.com/forum/#!forum/rubykr
