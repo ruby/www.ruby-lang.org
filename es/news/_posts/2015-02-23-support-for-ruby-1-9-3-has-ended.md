@@ -8,7 +8,7 @@ lang: es
 ---
 
 A partir de hoy, todo el soporte para Ruby 1.9.3 ha terminado. Las correcciones
-de seguridad y funcionalidad aplicados en versiones más nuevas de Ruby ya no serán
+de seguridad y funcionalidad aplicadas en versiones más nuevas de Ruby ya no serán
 aplicadas en 1.9.3.
 
 El fin de este ciclo fue anunciado [hace casi un año](https://www.ruby-lang.org/es/news/2014/01/10/ruby-1-9-3-will-end-on-2015/).
