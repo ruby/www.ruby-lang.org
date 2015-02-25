@@ -15,5 +15,5 @@ El fin de este ciclo fue anunciado [hace casi un año](https://www.ruby-lang.org
 
 Recomendamos que actualices a una versión de Ruby 2.0.0 o posterior lo antes
 posible. Por favor contáctanos si quieres seguir manteniendo la versión 1.9.3
-o si por algunarazón no puedes actualizar tu versión de Ruby.
+o si por alguna razón no puedes actualizar tu versión de Ruby.
 
