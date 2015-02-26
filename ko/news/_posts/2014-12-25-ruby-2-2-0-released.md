@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "루비 2.2.0 릴리즈"
+title: "루비 2.2.0 릴리스"
 author: "naruse"
 translator: "marocchino"
 date: 2014-12-25 09:00:00 +0000
 lang: ko
 ---
 
-루비 2.2.0가 릴리즈 되었습니다.
+루비 2.2.0가 릴리스 되었습니다.
 
 루비 2.2에는 점점 더 커지는 다양한 요구들 충족하기 위한 많은
 새로운 기능과 개선들이 포함됩니다.
 
-예를 들어, 심볼 GC는 심볼을 가비지 콜랙션할 수 있게 합니다.
+예를 들어, 심볼 GC는 심볼을 가비지 컬렉션할 수 있게 합니다.
 루비 2.2 이전에는 GC가 심볼을 수집하지 않았기에 이 변경은
 심볼의 메모리 사용 량을 줄이게 됩니다. 레일즈 5.0 부터는
 심볼 GC가 필요하게 되고, 이는 오직 루비 2.2 이후에서만 지원하게
-됩니다. (자세한 내용은 [레일즈 4.2 릴리즈 포스트](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)에서
+됩니다. (자세한 내용은 [레일즈 4.2 릴리스 포스트](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)에서
 확인하세요.)
 
-또한, 새로운 증가형(Incremental) GC는 가비지 콜랙션의 중지
-시간을 줄여줍니다. 이 또한 레일즈 엡의 운용에 도움이 됩니다.
+또한, 새로운 증가형(Incremental) GC는 가비지 컬렉션의 중지
+시간을 줄여줍니다. 이 또한 레일즈 앱의 운용에 도움이 됩니다.
 [레일즈 블로그](http://weblog.rubyonrails.org/)에 언급된
 최신 개발방법은 레일즈 5.0에서 증가형 GC뿐만 아니라 심볼 GC의
 이점을 살리자고 제안하고 있습니다.
@@ -45,7 +45,7 @@ vfork(2)는 아직 잘 알려지지 않은 위험할 수도 있는 시스템 콜
 ## 2.1이후의 주목할 만한 변경점
 
 * [증가형 GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [심볼 GC](https://bugs.ruby-lang.org/issues/9634) ([RubyKaigi 2014의 프리젠테이션](http://www.slideshare.net/authorNari/symbol-gc))
+* [심볼 GC](https://bugs.ruby-lang.org/issues/9634) ([RubyKaigi 2014의 프레젠테이션](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [기능 #9113](https://bugs.ruby-lang.org/issues/9113)
 * 코어 라이브러리:
   * 유니코드 7.0 지원 [#9092](https://bugs.ruby-lang.org/issues/9092)

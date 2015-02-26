@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "루비 2.1.2 릴리즈"
+title: "루비 2.1.2 릴리스"
 author: "nagachika"
 translator: "marocchino"
 date: 2014-05-09 12:00:00 +0000
 lang: ko
 ---
 
-기쁘게 루비 2.1.2 릴리즈를 발표합니다.
+기쁘게 루비 2.1.2 릴리스를 발표합니다.
 
-이 릴리즈는 [2.1.1의 Hash#reject의 회귀](https://www.ruby-lang.org/ko/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)의
+이 릴리스는 [2.1.1의 Hash#reject의 회귀](https://www.ruby-lang.org/ko/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)의
 수정, Readline-6.3과의 빌드 지원([Bug #9578](https://bugs.ruby-lang.org/issues/9578)를
 확인하세요), libyaml과 psych의 버전업, 자잘한 버그 수정을 포함합니다.
 
@@ -37,8 +37,8 @@ lang: ko
       MD5:    7c303050d1e28e18398aed0fd59d334c
       SHA256: b62a0ded5cfce7d08e539bf5875d543e24208096a37f85bee3304c1284337fa2
 
-## Release Comment
+## 릴리스 코멘트
 
-많은 커미터, 개발자, 버그를 리포트해 준 유저의 도움으로 이 릴리즈를 할 수
+많은 커미터, 개발자, 버그를 리포트해 준 유저의 도움으로 이 릴리스를 할 수
 있었습니다.
 기여에 감사드립니다.

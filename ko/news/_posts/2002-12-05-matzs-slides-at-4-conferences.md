@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "4 컨퍼런스에서 발표된 마츠의 슬라이드"
+title: "4 콘퍼런스에서 발표된 마츠의 슬라이드"
 author: "NaHi"
 lang: ko
 ---
 
-루비 컨퍼런스 2002, OOPSLA2002, LL2, O+F 관서(일어)에서 발표된 마츠의 슬라이드
+루비 콘퍼런스 2002, OOPSLA2002, LL2, O+F 관서(일어)에서 발표된 마츠의 슬라이드
 입니다.
 
 [Ruby Conference 2002][1]

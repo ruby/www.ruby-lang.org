@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3 preview1 릴리즈"
+title: "Ruby 1.9.3 preview1 릴리스"
 author: "Moru"
 date: 2011-10-02 04:28:42 +0000
 lang: ko
 ---
 
-Ruby 1.9.3 preview1이 릴리즈되었습니다.
+Ruby 1.9.3 preview1이 릴리스되었습니다.
 
-이는 1.9.3으로서는 첫 preview이며 아직까지 자잘한 문제점을 가지고 있습니다. 이러한 문제점은 정식 릴리즈인 p0부터는
+이는 1.9.3으로서는 첫 preview이며 아직까지 자잘한 문제점을 가지고 있습니다. 이러한 문제점은 정식 릴리스인 p0부터는
 모두 수정될 예정입니다.
 
 ## 내려받기

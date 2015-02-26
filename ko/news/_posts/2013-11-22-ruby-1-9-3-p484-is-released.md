@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "루비 1.9.3-p484가 릴리즈되었습니다"
+title: "루비 1.9.3-p484 릴리스"
 author: "usa"
 translator: "SeungKyun Nam"
 date: 2013-11-22 04:00:00 +0000
 lang: ko
 ---
 
-루비 1.9.3-p484가 릴리즈되었습니다.
+루비 1.9.3-p484가 릴리스되었습니다.
 
-본 릴리즈는 루비 인터프리터 코어의 보안 수정을 포함합니다.
+본 릴리스는 루비 인터프리터 코어의 보안 수정을 포함합니다.
 
  * [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](/ko/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
@@ -36,7 +36,7 @@ lang: ko
       MD5:    1b74a8a3b1e8f13bb306dd59cc1e12d1
       SHA256: 7496c972c716f0bc9f9c718155ef36281e9f22375867e95abc2ba64c1fb09d2e
 
-## 릴리즈 코멘트
+## 릴리스 코멘트
 
-많은 분들 (커미터, 기여자 그리고 보고자들)이 본 릴리즈를 만드는데 도움을 주셨습니다.
+많은 분들 (커미터, 기여자 그리고 보고자들)이 본 릴리스를 만드는데 도움을 주셨습니다.
 감사합니다!

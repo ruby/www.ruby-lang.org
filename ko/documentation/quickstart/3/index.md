@@ -61,9 +61,9 @@ irb(main):039:0> Greeter.instance_methods
 {% endhighlight %}
 
 메서드가 상당히 많은 것을 알 수 있습니다. 우리가 정의한 메서드는 2개에 불과한데
-어떻게 된 것일까요? 위의 리스트는 “Greeter” 객체들의 메서드 뿐만 아니라 **모든**
+어떻게 된 것일까요? 위의 목록은 “Greeter” 객체들의 메서드 뿐만 아니라 **모든**
 상속된 메서드도 포함하고 있기 때문입니다. `false`를 인자로 넘기면 부모 클래스에
-정의된 메서드를 제외한 리스트를 볼 수 있습니다.
+정의된 메서드를 제외한 목록을 볼 수 있습니다.
 
 {% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
@@ -123,7 +123,7 @@ Hi Betty!
 {% endhighlight %}
 
 `attr_accessor`은 두개의 메서드를 새로 정의해줍니다. `name`은 인스턴스 변수의
-값에 접근하기 위한 것이고 `name=`은 객체변수의 값을 변경하기 위한 것 입니다.
+값에 접근하기 위한 것이고 `name=`은 객체변수의 값을 변경하기 위한 것입니다.
 
 ## Mega Greeter
 
