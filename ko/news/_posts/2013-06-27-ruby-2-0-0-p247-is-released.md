@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "루비 2.0.0-p247이 릴리즈 되었습니다"
+title: "루비 2.0.0-p247이 릴리스 되었습니다"
 author: "nagachika"
 translator: "SeungKyun Nam"
 date: 2013-06-27 11:00:03 +0000
 lang: ko
 ---
 
-루비 2.0.0-p247이 릴리즈 되었습니다.
+루비 2.0.0-p247이 릴리스 되었습니다.
 
-이번 릴리즈는 번들된 OpenSSL의 보안 수정을 포함합니다.
+이번 릴리스는 번들된 OpenSSL의 보안 수정을 포함합니다.
 
 * [SSL 클라이언트에서 호스트명 점검을 우회하는 취약점(CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
@@ -17,7 +17,7 @@ lang: ko
 
 ## 다운로드
 
-이번 릴리즈는 아래 위치로부터 다운로드 받을 수 있습니다.
+이번 릴리스는 아래 위치로부터 다운로드 받을 수 있습니다.
 
 * [ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2)
 
@@ -49,7 +49,7 @@ lang: ko
 * [#8416](https://bugs.ruby-lang.org/issues/8416) super does not forward either named or anonymous `**`
 * [#8463](https://bugs.ruby-lang.org/issues/8463) Proc auto-splat bug with named arguments
 
-### 가상머신/언어 처리(VM/Language Processing)
+### 가상 기기/언어 처리(VM/Language Processing)
 
 * [#8424](https://bugs.ruby-lang.org/issues/8424) fix infinite loop when stack overflow with TH_PUSH_TAG()
 * [#8436](https://bugs.ruby-lang.org/issues/8436) \__dir__ not working in eval with binding
@@ -74,7 +74,7 @@ lang: ko
 * [#8467](https://bugs.ruby-lang.org/issues/8467) Rewinding and iterating through gzipped IO leads to segmentation fault
 * [#8415](https://bugs.ruby-lang.org/issues/8415) Net::IMAP#capability_response raises "Net::IMAP::ResponseParseError: unexpected token CRLF" for common CAPABILITY
 
-## 릴리즈 코멘트
+## 릴리스 코멘트
 
-많은 커미터, 테스터 그리고 사용자들이 버그 리포트를 제출하여 본 릴리즈를 만드는 데 도움을 주었습니다.
+많은 커미터, 테스터 그리고 사용자들이 버그 리포트를 제출하여 본 릴리스를 만드는 데 도움을 주었습니다.
 그들의 기여에 감사합니다.

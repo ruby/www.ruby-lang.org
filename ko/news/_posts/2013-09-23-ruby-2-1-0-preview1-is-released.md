@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0-preview1 이 릴리즈 되었습니다"
+title: "Ruby 2.1.0-preview1 이 릴리스 되었습니다"
 author: "nurse"
 translator: "SeungKyun Nam"
 date: 2013-09-23 07:00:00 +0000
 lang: ko
 ---
 
-루비 2.1.0-preview1 릴리즈를 알리게 되어 기쁩니다.
-최종 릴리즈 이전에 루비 2.1의 새로운 기능들을 확인하시기 바랍니다.
+루비 2.1.0-preview1 릴리스를 알리게 되어 기쁩니다.
+최종 릴리스 이전에 루비 2.1의 새로운 기능들을 확인하시기 바랍니다.
 
 ## 다운로드
 
@@ -56,12 +56,12 @@ ko1(Koichi Sasada)이 toruby에서 발표한 내용입니다: [Summary of Ruby 2
 
 Konstantin Haase (@konstantinhaase)가 멋진 요약을 자신의 블로그 포스트로 작성하였습니다: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
-## 릴리즈 코멘트
+## 릴리스 코멘트
 
 알려진 이슈들:
 
 [http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
-릴리즈 일정과 기타 정보들은 다음 링크를 참조해 주십시오:
+릴리스 일정과 기타 정보들은 다음 링크를 참조해 주십시오:
 
 [http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)

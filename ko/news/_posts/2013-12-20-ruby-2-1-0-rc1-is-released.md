@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0-rc1 릴리즈"
+title: "Ruby 2.1.0-rc1 릴리스"
 author: "nurse"
 translator: "marocchino"
 date: 2013-12-20 16:53:05 +0000
 lang: ko
 ---
 
-Ruby 2.1.0-rc1 를 릴리즈 했습니다.
-2013/12/25 로 예정되어있는 최종 릴리즈 전에 신기능을 시험해보세요.
+Ruby 2.1.0-rc1 를 릴리스 했습니다.
+2013/12/25 로 예정되어있는 최종 릴리스 전에 신기능을 시험해보세요.
 
 ## preview2 이후의 주목할만한 변경점
 
@@ -36,7 +36,7 @@ Ruby 2.1.0-rc1 를 릴리즈 했습니다.
 Ruby 2.0.0 이후의 주목할반한 변경은 다음과 같습니다.
 
 * VM (메서드 캐시)
-* RGenGC (ko1님의 [RubyKaigi 프리젠테이션](http://rubykaigi.org/2013/talk/S73) 과 [RubyConf 2013 프리젠테이션](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 확인하세요)
+* RGenGC (ko1님의 [RubyKaigi 프레젠테이션](http://rubykaigi.org/2013/talk/S73) 과 [RubyConf 2013 프레젠테이션](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 확인하세요)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 문법의 변경
   * Rational/Complex 리터럴 [#8430](https://bugs.ruby-lang.org/issues/8430)
@@ -57,12 +57,12 @@ ko1님이 toruby에서 Ruby 2.1 의 신기능에 관해 발표했습니다. [All
 
 Konstantin Haase (@konstantinhaase) 님이 블로그에 잘 정리해 주셨습니다. [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1) (영어)
 
-## 릴리즈 코맨트
+## 릴리스 코멘트
 
 알려진 이슈:
 
 <https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102>
 
-릴리즈 스케쥴과 그 밖의 정보들은 밑의 글을 참고해주십시오.
+릴리스 일정과 그 밖의 정보들은 밑의 글을 참고해주십시오.
 
 <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>

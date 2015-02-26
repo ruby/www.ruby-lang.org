@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "루비 2.0.0-p598 릴리즈"
+title: "루비 2.0.0-p598 릴리스"
 author: "usa"
 translator: "marocchino"
 date: 2014-11-13 12:00:00 +0000
 lang: ko
 ---
 
-루비 2.0.0-p598가 릴리즈 되었습니다.
+루비 2.0.0-p598가 릴리스 되었습니다.
 
-이 릴리즈에는 REXML의 서비스거부공격(DoS) 취약점을 위한 보안 수정이 포함됩니다.
-이는 [이전 릴리즈](https://www.ruby-lang.org/ko/news/2014/10/27/ruby-2-0-0-p594-is-released/)에서,
+이 릴리스에는 REXML의 서비스거부공격(DoS) 취약점을 위한 보안 수정이 포함됩니다.
+이는 [이전 릴리스](https://www.ruby-lang.org/ko/news/2014/10/27/ruby-2-0-0-p594-is-released/)에서,
 [수정된 취약점](https://www.ruby-lang.org/ko/news/2014/10/27/rexml-dos-cve-2014-8080/)
 과 비슷합니다만, 전혀 다른 새로운 취약점입니다.
 
@@ -51,7 +51,7 @@ lang: ko
       SHA256: d5bdafd7b0fbd4254902ba10385c6e5812beac4ad221805aa4d92a37eff47f97
       SHA512: 6cdaf7f2d27a5f0ead9b94325b9c9fe90cf04c64dedaea8e1d45a8855a73ad61c5c72f1fda835eab73693c25c15a74c7e4e639ed5c18a9433dd79e398600b3ea
 
-## 릴리즈 코맨트
+## 릴리스 코멘트
 
-잦은 릴리즈에 불편을 드려 죄송합니다.
-릴리즈에 협력 해주신 모든 분들게 감사드립니다.
+잦은 릴리스에 불편을 드려 죄송합니다.
+릴리스에 협력 해주신 모든 분들게 감사드립니다.

@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "루비 2.0.0-p576 릴리즈"
+title: "루비 2.0.0-p576 릴리스"
 author: "usa"
 translator: "marocchino"
 date: 2014-09-19 12:00:00 +0000
 lang: ko
 ---
 
-지금 일본에서 개최중인 [RubyKaigi2014](http://rubykaigi.org/2014)를 기념해 루비 2.0.0-p576를 릴리즈 합니다.
+지금 일본에서 개최중인 [RubyKaigi2014](http://rubykaigi.org/2014)를 기념해 루비 2.0.0-p576를 릴리스 합니다.
 
-이 릴리즈에는 많은 버그를 고쳤습니다. 예를들어
+이 릴리스에는 많은 버그를 고쳤습니다. 예를들어
 
 * 메모리 릭, 추가 메모리 사용
 * 플랫폼 의존적인 문제
@@ -48,6 +48,6 @@ lang: ko
       SHA256: cb0166d9afb0126612dff10d15848483984df4900c1b34cd053b1be6893ea38b
       SHA512: adce5f044283e97fccbc80c770f999d20e366f7ee8e13782ca71490b5a16198ae0cdbc6df7419f085e2f7adea30552704141d37496cefcb9b147802b55d3ff82
 
-## 릴리즈 코맨트
+## 릴리스 코멘트
 
 루비를 지원해주시는 모든 분들에게 감사드립니다.

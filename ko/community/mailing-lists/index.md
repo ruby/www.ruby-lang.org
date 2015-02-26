@@ -22,7 +22,7 @@ Ruby-Doc
 : 이 곳에서는 문서화 표준과 도구에 관한 토론을 합니다. ([Archives at Gmane][5])
 
 Ruby-CVS
-: 이 곳에서는 루비의 Subversion 리포지터리의 커밋들이 보고됩니다.
+: 이 곳에서는 루비의 Subversion 저장소의 커밋들이 보고됩니다.
 
 comp.lang.ruby 뉴스그룹
 : 유즈넷을 통해 메일링 리스트를 구독하는 것을 선호하시는 분들은

@@ -5,7 +5,7 @@ lang: ko
 ---
 
 자신이 선호하는 방식으로 최신 루비 배포판을 설치할 수 있습니다.
-현재 안정 버전은 {{ site.downloads.stable.version }} 입니다.
+현재 안정 버전은 {{ site.downloads.stable.version }}입니다.
 [Ruby 라이센스][license]를 읽어 보십시오.
 {: .summary}
 

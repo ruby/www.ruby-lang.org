@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3 p0 릴리즈"
+title: "Ruby 1.9.3 p0 릴리스"
 author: "Moru"
 date: 2011-11-06 14:01:45 +0000
 lang: ko
 ---
 
-Ruby 1.9버젼의 최신판인 1.9.3 p0이 릴리즈되었습니다.
+Ruby 1.9버젼의 최신판인 1.9.3 p0이 릴리스되었습니다.
 
 ## 내려받기
 
