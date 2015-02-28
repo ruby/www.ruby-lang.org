@@ -7,7 +7,7 @@ lang: es
 Cuando te enfrentas por primera vez a código escrito en Ruby,
 probablemente te recuerde otros lenguajes que hayas usado. Esto es a
 propósito. La mayor parte de la sintaxis es familiar para los usuarios
-de Perl, Python, y Java (entre otros lenguajes), así que si has usado
+de Perl, Python y Java (entre otros lenguajes), así que si has usado
 alguno de estos, aprender Ruby será muy fácil.
 {: .summary}
 
@@ -297,10 +297,10 @@ irb(main):026:0>
 
 ### Las clases están abiertas
 
-Las clases de Ruby están abiertas.Puedes abrirlas, agregarles
-funcionalidad, y modificarlas en cualquier momento. Incluso las clases
+Las clases de Ruby están abiertas. Puedes abrirlas, agregarles
+funcionalidad y modificarlas en cualquier momento. Incluso las clases
 principales, como `Fixnum` o incluso `Object`, el padre de todos los
-objetos. Ruby on Rails define un montón de métodos para menejar el
+objetos. Ruby on Rails define un montón de métodos para manejar el
 tiempo y los horarios en `Fixnum`. Mira:
 
 {% highlight ruby %}
@@ -326,7 +326,7 @@ terminan con un signo de interrogación. Métodos potencialmente
 
 De todas formas, no todos los métodos que modifican sus argumentos
 terminan en signos de exclamación. `Array#replace` reemplaza el
-contenido de un array co nel contenido de otro array. No tiene mucho
+contenido de un array con el contenido de otro array. No tiene mucho
 sentido tener un método como ese que **no** modifique **self**.
 
 ### Los métodos Singleton
@@ -357,7 +357,7 @@ otro_auto.inspect # => Auto barato
 ### Métodos faltantes
 
 Ruby no se rinde si no puede encontrar un método que responda a un
-mensaje en particular. Llama al método `method_missing` con el nómbre
+mensaje en particular. Llama al método `method_missing` con el nombre
 del método que no pudo encontrar y sus argumentos. Por defecto,
 `method_missing` lanza una excepción NameError, pero puedes redefinirlo
 para que se ajuste mejor a tu aplicación, y muchas bibliotecas lo hacen.
@@ -381,7 +381,7 @@ de manejar el mensaje como te parezca más apropiado.
 
 ### Pasaje de mensajes, no llamadas a funciones
 
-Una invocación a un método en realidad es un **mensaje** a otro objeto:
+Una invocación a un método, en realidad es un **mensaje** a otro objeto:
 
 {% highlight ruby %}
 # Esto
@@ -395,7 +395,7 @@ Una invocación a un método en realidad es un **mensaje** a otro objeto:
 ### Los bloques son objetos, sólo que todavía no lo saben
 
 Los bloques (cierres en realidad) son muy utilizados por la biblioteca
-estandar. Para llamar a un bloque, puedes usar `yield`, o transformarlo
+estándar. Para llamar a un bloque, puedes usar `yield`, o transformarlo
 en un `Proc` al anexarle un parámetro especial a la lista de argumentos,
 así:
 
@@ -437,7 +437,7 @@ end
 No necesitas el`operator+` de C++, etc.
 
 Incluso puedes tener acceso estilo array si defines los métodos `[]` y
-`[]=`. Para definir los métodos unarios + y – (piensa en +1 y -2), debes
+`[]=`. Para definir los métodos unitarios + y – (piensa en +1 y -2), debes
 definir los métodos `+@` and `-@` respectivamente.
 
 Sin embargo, los siguientes operadores **no** son simplificaciones
