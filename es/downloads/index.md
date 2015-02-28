@@ -66,7 +66,7 @@ Intenta usar el mirror site más cerca de ti.
 
 
 [license]: {{ site.license.url }}
-[installation]: /en/documentation/installation/
+[installation]: /es/documentation/installation/
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
