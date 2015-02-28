@@ -11,26 +11,26 @@ Por favor asegúrate de leer la [licencia de Ruby][license].
 
 ### Formas de instalar Ruby
 
-Tenemos herrammientas para instalar Ruby para las plataformas más importantes.
+Tenemos herramientas para instalar Ruby para las plataformas más importantes.
 
 * En Linux/Unix, puedes utilizar el sistema de gestión de paquetes de tu
   distribución o herramientas de terceros (rbenv y RVM).
-* En maquinas OS X, puedes utilizar herramientas de terceros (rbenv y RVM).
-* En maquinas Windows, puedes utilizar RubyInstaller.
+* En computadoras con sistema operativo OS X, puedes utilizar herramientas de terceros (rbenv y RVM).
+* En computadoras con sistema operativo Windows, puedes utilizar RubyInstaller.
 
-Ve la página de [Instalación][installation] para obtener detalles de como usar
+Chequea la página de [Instalación][installation] para obtener detalles de como usar
 sistemas de gestión de paquetes de tu distribución o herramientas de terceros.
 
 ### Compilando Ruby — Código fuente
 
-Instalar desde los fuentes es una buena solución para cuando te sientes
-confiado con tu plataforma y puedas necesitar configuraciones
+Instalar desde el código fuente es una buena solución para cuando te sientes
+confiado con tu plataforma y hasta puedas necesitar configuraciones
 específicas para tu entorno. También es una buena solución en el caso de
 que no existan paquetes disponibles.
 
-Ve la página de [Instalación][installation] para obtener detalles de como compilar
+Chequea la página de [Instalación][installation] para obtener detalles de cómo compilar
 Ruby desde el código fuente. Si tienes algún problema compilando Ruby, considera
-usar una de las herramientas de terceros en la sección siguiente. Pueden servirte
+usar una de las herramientas de terceros en la siguiente sección. Pueden servirte
 de ayuda.
 
 * **Estable actual:**
@@ -47,7 +47,7 @@ de ayuda.
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
-    Este es el tarball del último snapshot del branch del estable actual.
+    Este es el tarball del último snapshot del branch de la actual versión estable.
   * [Nightly Snapshot][nightly-gz]:
     Este es el tarball de lo que exista en SVN, hecho diariamente.
     Puede contener errores, ¡úsalo bajo tu responsabilidad!
@@ -57,7 +57,7 @@ nuestra página [Ruby core](/es/community/ruby-core/).
 
 El código fuente de Ruby está disponible desde un conjunto
 de [mirror sites][mirrors] a lo largo del mundo.
-Intenta usar el mirror site más cerca de ti.
+Intenta usar el mirror site más cerca tuyo.
 
 
 
