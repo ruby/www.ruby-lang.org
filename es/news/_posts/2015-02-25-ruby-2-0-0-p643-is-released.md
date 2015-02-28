@@ -16,10 +16,10 @@ más entregas, a menos de que se trate de alguna regresion crítica o por correc
 de seguridad.
 
 Se planea mantener esta fase por al menos 1 año. Es por esto que el mantenimiento
-de Ruby 2.0.0 llegará a su fin en Febrero 24 del 2016.
+de Ruby 2.0.0 llegará a su fin el 24 de febrero de 2016.
 
 Te recomendamos comenzar a planear una migración a versiones más modernas de Ruby como
-2.1 o 2.2 lo antes posible.
+2.1 ó 2.2 lo antes posible.
 
 Esta entrega contiene muchas correcciones.
 Puedes ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
