@@ -12,8 +12,8 @@ serán útiles a la hora de desarrollar con Ruby.
 
 [¡Prueba Ruby!][1]
 : Un tutorial interactivo para principiantes en la web. No es necesario
-  instalar Ruby para su utilización por lo que podrá iniciarse
-  rápidamente en este lenguaje. Esta basado en el trabajo del
+  instalar Ruby para su utilización por lo que podrás iniciarte
+  rápidamente en este lenguaje. Está basado en el trabajo del
   desaparecido “Why the Lucky Stiff”.
 
 [Aprende a programar][2]
@@ -58,8 +58,8 @@ serán útiles a la hora de desarrollar con Ruby.
   documenta la biblioteca estándar.
 
 [Referencia de la API C de Ruby][10]
-: Documentación del código C subyacente en Ruby. Perfecta si quieres
-  escribir extensiones en C para contribuír al desarrollo de Ruby.
+: Documentación del código C subyacente en Ruby. Perfecto si quieres
+  escribir extensiones en C para contribuir al desarrollo de Ruby.
 
 ### Otras lecturas
 
