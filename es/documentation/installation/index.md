@@ -18,7 +18,7 @@ Hay varias maneras de instalar Ruby:
 es usando el **sistema de gestión de paquetes** de la distribución.
 * Se pueden usar los **instaladores** para instalar una o varias versiones de Ruby.
 Incluso existe un instalador para Windows.
-* Los **Manejadores** te ayudan a cambiar entre varias versiones de Ruby en tu
+* Los **manejadores** te ayudan a cambiar entre varias versiones de Ruby en tu
 sistema.
 * Y finalmente, puedes compilar Ruby del **código fuente**.
 
