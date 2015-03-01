@@ -3,7 +3,7 @@ layout: news_post
 title: "Fin du support pour Ruby 1.9.3"
 author: "Olivier Lacan"
 translator: "Jean-Denis Vauguet"
-date: 2015-02-27 00:00:00 +0000
+date: 2015-02-23 00:00:00 +0000
 lang: fr
 ---
 
