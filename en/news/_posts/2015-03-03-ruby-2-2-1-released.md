@@ -8,7 +8,7 @@ lang: en
 ---
 
 We are pleased to announce the release of Ruby 2.2.1.
-This is the first tiny version release of the stable 2.2 series.
+This is the first TEENY version release of the stable 2.2 series.
 
 This release includes the fix for ffi build failure and memory leak issue on Symbol GC (See [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
