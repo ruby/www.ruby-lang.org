@@ -10,7 +10,7 @@ lang: en
 We are pleased to announce the release of Ruby 2.2.1.
 This is the first patchlevel release of the stable 2.2 series.
 
-This release include the fix of ffi build failure and memory leak issue on Symbol GC [Bug #10686].
+This release include the fix of ffi build failure and memory leak issue on Symbol GC (See [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
 See [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
 for details.
