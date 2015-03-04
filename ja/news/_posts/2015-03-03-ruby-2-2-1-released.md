@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.1 Released"
+title: "Ruby 2.2.1 リリース"
 author: "hsbt"
 translator: "sorah"
 date: 2015-03-03 03:00:00 +0000
