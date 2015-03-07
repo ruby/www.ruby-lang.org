@@ -25,7 +25,7 @@ organizations in this year's program. If you have an idea that would fit better 
 [jruby-ideas]: https://github.com/jruby/jruby/wiki/Google-Summer-of-Code-2015
 [celluloid]: https://github.com/rubygsoc/rubygsoc/wiki/Ideas-List#celluloid
 [ideas]: https://github.com/rubygsoc/rubygsoc/wiki/Ideas-List
-[ml]: https://groups.google.com/forum/?hl=en#!topic/rubygsoc/
+[ml]: https://groups.google.com/forum/?hl=en#!forum/rubygsoc
 [ror-announcement]: http://weblog.rubyonrails.org/2015/3/4/google-summer-of-code-2015/
 [sciruby-ideas]: https://github.com/SciRuby/sciruby/wiki/Google-Summer-of-Code-2015-Ideas
 [ruby-ideas]: https://github.com/rubygsoc/rubygsoc/wiki/Ideas-List#mri-matz-ruby-interpreter
