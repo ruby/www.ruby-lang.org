@@ -13,7 +13,7 @@ umbrella for Ruby-related projects including [Ruby][ruby-ideas], [JRuby][jruby-i
 (here's the [timeline][timeline]).
 
 If you are interested in participating as a student or as a mentor please join our
-[mailing list][ml]. You can find a list of ideas for projects in in the [RubyGSoC wiki][ideas].
+[mailing list][ml]. You can find a list of ideas for projects in the [RubyGSoC wiki][ideas].
 
 [Ruby on Rails][ror] and [SciRuby][sciruby] will also be joining us as top-level
 organizations in this year's program. If you have an idea that would fit better in these projects, please read their
