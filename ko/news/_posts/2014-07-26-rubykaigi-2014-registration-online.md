@@ -26,7 +26,7 @@ lang: ko
 
 [http://rubykaigi.doorkeeper.jp/events/12215](http://rubykaigi.doorkeeper.jp/events/12215)
 
-루비 코어 커미터는 [루비 2.0.0-p0 에서 2.1.0-p0에 한 커밋의
+루비 코어 커미터는 [루비 2.0.0-p0에서 2.1.0-p0에 한 커밋의
 수](https://gist.github.com/snoozer05/ca9860c57683e4221d10)에 따라
 얼리버드 가격(18,000 엔)에서 할인 받을 수 있습니다.
 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0-preview1 이 릴리스 되었습니다"
+title: "Ruby 2.1.0-preview1이 릴리스 되었습니다"
 author: "nurse"
 translator: "SeungKyun Nam"
 date: 2013-09-23 07:00:00 +0000
@@ -12,7 +12,7 @@ lang: ko
 
 ## 다운로드
 
-Fastly를 이용한 [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/)를 사용하시길 권장합니다.
+Fastly를 이용한 [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby-lang.org/pub/ruby/2.1/)을 사용하시길 권장합니다.
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
@@ -34,10 +34,10 @@ Fastly를 이용한 [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby
 
 ## 변경점
 
-주목할만한 변경점들은 아래와 같습니다:
+주목할 만한 변경점들은 아래와 같습니다:
 
 * VM (메서드 캐시)
-* RGenGC (ko1의 [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73)와 [EuRuKo presentation](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf)를 참조하십시오)
+* RGenGC (ko1의 [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73)과 [EuRuKo presentation](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf)을 참조하십시오)
 * refinements
 * syntax
 * Decimal Literal
@@ -54,7 +54,7 @@ Fastly를 이용한 [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby
 
 ko1(Koichi Sasada)이 toruby에서 발표한 내용입니다: [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase (@konstantinhaase)가 멋진 요약을 자신의 블로그 포스트로 작성하였습니다: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
+Konstantin Haase(@konstantinhaase)가 멋진 요약을 자신의 블로그 포스트로 작성하였습니다: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 ## 릴리스 코멘트
 

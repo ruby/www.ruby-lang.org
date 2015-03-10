@@ -10,12 +10,12 @@ lang: ko
 오늘(2월 24일)은 루비의 21번째 생일입니다.
 그래서 기쁘게 루비 2.1의 새로운 패치인 2.1.1 릴리스를 발표합니다.
 
-루비 2.1에서 심각한 호환성 문제없는 속도향상을 포함해 많은 개선이 있었습니다.
+루비 2.1에서 심각한 호환성 문제 없는 속도향상을 포함해 많은 개선이 있었습니다.
 레일즈나 다른 애플리케이션에서 사용하시고 더 쾌적한 경험을 해보세요.
 
 이 릴리스는 많은 버그 수정을 포함합니다.
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) 를 보세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog)를 보세요.
 
 전에 [루비 2.1의 버전 정책](https://www.ruby-lang.org/ko/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)에서 안내해드린 대로 간단히 "2.1.1"로 바뀌었습니다.
 

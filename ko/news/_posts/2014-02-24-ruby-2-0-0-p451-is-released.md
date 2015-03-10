@@ -11,8 +11,8 @@ lang: ko
 그래서 기쁘게 루비 2.0.0-p451를 릴리스를 발표합니다.
 
 이 릴리스는 많은 버그 수정을 포함합니다.
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog) 를 보세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog)를 보세요.
 
 ## 다운로드
 

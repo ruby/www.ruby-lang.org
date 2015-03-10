@@ -10,12 +10,11 @@ lang: ko
 기쁘게 루비 2.1.2 릴리스를 발표합니다.
 
 이 릴리스는 [2.1.1의 Hash#reject의 회귀](https://www.ruby-lang.org/ko/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)의
-수정, Readline-6.3과의 빌드 지원([Bug #9578](https://bugs.ruby-lang.org/issues/9578)를
+수정, Readline-6.3과의 빌드 지원([Bug #9578](https://bugs.ruby-lang.org/issues/9578)을
 확인하세요), libyaml과 psych의 버전업, 자잘한 버그 수정을 포함합니다.
 
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
-를 보세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)를 보세요.
 
 ## 다운로드
 

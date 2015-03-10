@@ -21,7 +21,7 @@ lang: ko
 패키지 관리 시스템이나 서드파티 도구에 대한 좀 더 자세한
 설명은 [설치][installation] 페이지를 보세요.
 
-물론, 주요 플랫폼에서 소스코드로부터 설치할 수도 있습니다.
+물론, 주요 플랫폼에서 소스 코드로부터 설치할 수도 있습니다.
 
 ### 루비 컴파일하기 - 소스 코드
 
@@ -43,11 +43,11 @@ lang: ko
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **낡은버전 (2.0.0 시리즈):**
+* **낡은 버전 (2.0.0 시리즈):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
-* **낡은버전 (1.9.3 시리즈):**
+* **낡은 버전 (1.9.3 시리즈):**
   [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
   sha256: {{ site.downloads.previous19.sha256.gz }}
 

@@ -7,14 +7,14 @@ date: 2013-12-20 16:53:05 +0000
 lang: ko
 ---
 
-Ruby 2.1.0-rc1 를 릴리스 했습니다.
-2013/12/25 로 예정되어있는 최종 릴리스 전에 신기능을 시험해보세요.
+Ruby 2.1.0-rc1을 릴리스 했습니다.
+2013/12/25로 예정되어 있는 최종 릴리스 전에 신기능을 시험해보세요.
 
-## preview2 이후의 주목할만한 변경점
+## preview2 이후의 주목할 만한 변경점
 
-* 확장 라이브러리 curses 의 삭제 [#8584](https://bugs.ruby-lang.org/issues/8584)
+* 확장 라이브러리 curses의 삭제 [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-그밖의 변경은 [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS) 를 참고해 주세요.
+그 밖의 변경은 [뉴스](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)를 참고해 주세요.
 
 ## 다운로드
 
@@ -33,27 +33,27 @@ Ruby 2.1.0-rc1 를 릴리스 했습니다.
 
 ## 2.0 이후의 변경점
 
-Ruby 2.0.0 이후의 주목할반한 변경은 다음과 같습니다.
+Ruby 2.0.0 이후의 주목할 만한 변경은 다음과 같습니다.
 
 * VM (메서드 캐시)
-* RGenGC (ko1님의 [RubyKaigi 프레젠테이션](http://rubykaigi.org/2013/talk/S73) 과 [RubyConf 2013 프레젠테이션](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 확인하세요)
+* RGenGC (ko1 님의 [RubyKaigi 프레젠테이션](http://rubykaigi.org/2013/talk/S73)과 [RubyConf 2013 프레젠테이션](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 확인하세요)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 문법의 변경
   * Rational/Complex 리터럴 [#8430](https://bugs.ruby-lang.org/issues/8430)
-  * def 의 반환 값 [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * def의 반환 값 [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
-  * GMP 의 사용 [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * GMP의 사용 [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
-* RDoc 4.1.0 과 RubyGems 2.2.0
-* "literal".freeze 의 최적화 [#9042](https://bugs.ruby-lang.org/issues/9042)
-* Exception#cause 의 추가 [#8257](https://bugs.ruby-lang.org/issues/8257)
+* RDoc 4.1.0과 RubyGems 2.2.0
+* "literal".freeze의 최적화 [#9042](https://bugs.ruby-lang.org/issues/9042)
+* Exception#cause의 추가 [#8257](https://bugs.ruby-lang.org/issues/8257)
 * 라이브러리 업데이트: BigDecimal, JSON, NKF, Rake, RubyGems, RDoc
-* 확장라이브러리 curses 의 삭제 [#8584](https://bugs.ruby-lang.org/issues/8584)
+* 확장라이브러리 curses의 삭제 [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-더 자세한 변경점은 [Ruby 레포지터리의 NEWS (작업중)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS) 에서 확인 하실 수 있습니다.
+더 자세한 변경점은 [Ruby 레포지터리의 NEWS (작업중)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)에서 확인 하실 수 있습니다.
 
-ko1님이 toruby에서 Ruby 2.1 의 신기능에 관해 발표했습니다. [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
+ko1 님이 toruby에서 Ruby 2.1의 신기능에 관해 발표했습니다. [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
 Konstantin Haase (@konstantinhaase) 님이 블로그에 잘 정리해 주셨습니다. [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1) (영어)
 

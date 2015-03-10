@@ -19,7 +19,7 @@ lang: ko
 ### Subversion을 사용하여 루비 개발을 트래킹하기
 {: #following-ruby}
 
-루비 코드를 받으려면 [Subversion][1] 저장소에서 익명으로 체크하웃하면 됩니다
+루비 코드를 받으려면 [Subversion][1] 저장소에서 익명으로 체크하웃하면 됩니다.
 커맨드 라인에서 다음을 입력하세요.
 
 {% highlight sh %}
@@ -44,14 +44,14 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch 
 $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
-이 명령은 `{{ site.svn.stable.branch }}` 나 `{{ site.svn.previous.branch }}` 디렉터리에
+이 명령은 `{{ site.svn.stable.branch }}`나 `{{ site.svn.previous.branch }}` 디렉터리에
 각각의 루비 개발 트리를 체크아웃합니다. 유지보수 브랜치에서 개발하는 개발자들은
 유지보수에서의 변경사항을 루비 트렁크에도 이관할 것입니다. 그래서 마츠나
 노부가 언어레벨의 수정을 한 경우를 제외하면 두 브랜치는 매우 비슷합니다.
 
-더 자세한 내용은 [루비의 Subversion 저장소][2]의 웹사이트를 참조하세요.
+더 자세한 내용은 [루비의 Subversion 저장소][2]의 웹 사이트를 참조하세요.
 
-Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]를
+Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]을
 보십시오. 혹은 [Pragmatic Version Control with Subversion][5]도 매우 유용한
 입문서입니다.
 
@@ -97,9 +97,9 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 더 자세한 정보는 [the diffutils reference][13]를 확인해 주세요.
 
 루비 개발에 관한 토론들은 [Ruby-Core 메일링 리스트][mailing-lists]에
-모여집니다. 그러므로 당신의 패치가 가치
+모입니다. 그러므로 당신의 패치가 가치
 있는지 알고 싶거나, 루비의 미래에 관한 토론을 하고 싶으시면 망설이지 말고
-참여하세요. 주제와 관련 없거나 논란을 일으킬만한 토론은 허용되지 않습니다.
+참여하세요. 주제와 관련 없거나 논란이 될 만한 토론은 허용되지 않습니다.
 주제는 명확해야 하고 잘 생각해서 잘 쓰여야 합니다. 우리는 루비의 창조자에게 말을
 걸고 있으니 예의를 갖춥시다.
 
@@ -114,16 +114,16 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 친숙해야 합니다. 다시 말하자면, Subversion에 체크인할 때 다음 가이드
 라인들은 지켜져야 합니다.
 
-* 모든 체크인은 [GNU conventions][14]에따라 `ChangeLog`에 기술되어야
+* 모든 체크인은 [GNU conventions][14]에 따라 `ChangeLog`에 기술되어야
   합니다. (많은 루비 코어 개발자들은 이맥스의 `add-log`모드를 사용합니다.
-  `add-log`모드는 단축키 `C-x 4 a`로 열 수 있습니다.)
+  `add-log` 모드는 단축키 `C-x 4 a`로 열 수 있습니다.)
 * 체크인 날짜는 일본 표준시(UTC+9)여야 합니다.
-* ChangeLog에 추가할때에는 Subversion 커밋 메시지도 같은 내용을 넣어야
+* ChangeLog에 추가할 때에는 Subversion 커밋 메시지도 같은 내용을 넣어야
   합니다. 이 메시지는 커밋과 동시에 Ruby-CVS 메일링 리스트에 자동으로
   공지됩니다.
 * 함수 프로토타입은 루비의 코드와 코드의 확장기능 전체에서 사용됩니다.
-* C++스타일의 주석(`//`)를 쓰지 마세요.  루비의 메인테이너는 표준 C의
-  여러 줄 주석(`/* .. */`)를 사용하길 권장합니다.
+* C++ 스타일의 주석(`//`)을 쓰지 마세요. 루비의 메인테이너는 표준 C의
+  여러 줄 주석(`/* .. */`)을 사용하길 권장합니다.
 
 더 자세한 정보는 [루비의 이슈 트랙커][10]를 참조하세요.
 
