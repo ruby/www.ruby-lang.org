@@ -29,7 +29,7 @@ lang: ko
 * [심볼 GC](https://bugs.ruby-lang.org/issues/9634)
 * 코어 라이브러리:
   * Unicode 7.0 지원 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * 새로운 메서드:
+  * 새로운 메소드:
     * Enumerable#slice_after
     * Float#next_float, Float#prev_float
     * File.birthtime, File#birthtime

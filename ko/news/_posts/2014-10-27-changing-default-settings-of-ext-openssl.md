@@ -42,7 +42,7 @@ DRb와 WEBrick은 별도의 설정을 사용하기 떄문에, 영향받지 않�
 
 ### ext/openssl을 직접 사용하는 스크립트
 
-이 변경은 `OpenSSL::SSL::SSLContext` 객체가 객체화될 때와 인스턴트 메서드 `set_params`가 불려질 때 반영됩니다.
+이 변경은 `OpenSSL::SSL::SSLContext` 객체가 객체화될 때와 인스턴스 메소드 `set_params`가 불릴 때 반영됩니다.
 
 예를 들면, 이런 코드입니다.
 
