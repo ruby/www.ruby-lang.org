@@ -35,7 +35,7 @@ Ruby 2.1.0-rc1을 릴리스 했습니다.
 
 Ruby 2.0.0 이후의 주목할 만한 변경은 다음과 같습니다.
 
-* VM (메서드 캐시)
+* VM (메소드 캐시)
 * RGenGC (ko1 님의 [RubyKaigi 프레젠테이션](http://rubykaigi.org/2013/talk/S73)과 [RubyConf 2013 프레젠테이션](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 확인하세요)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 문법의 변경

@@ -49,7 +49,7 @@ vfork(2)는 아직 잘 알려지지 않은 위험할 수도 있는 시스템 콜
 * configure --with-jemalloc [기능 #9113](https://bugs.ruby-lang.org/issues/9113)
 * 코어 라이브러리:
   * 유니코드 7.0 지원 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * 새로운 메서드:
+  * 새로운 메소드:
     * Enumerable#slice_after [#9071](https://bugs.ruby-lang.org/issues/9071), Enumerable#slice_when [#9826](https://bugs.ruby-lang.org/issues/9826)
     * Float#next_float, Float#prev_float [#9834](https://bugs.ruby-lang.org/issues/9834)
     * File.birthtime, File#birthtime [#9647](https://bugs.ruby-lang.org/issues/9647)

@@ -32,7 +32,7 @@ Ruby 2.1는 심각한 비호환없이 속도향상을 포함한 많은 개선이
 
 주목할 만한 변화는 아래와 같습니다.
 
-* VM (메서드 캐시)
+* VM (메소드 캐시)
 * RGenGC (ko1의 [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73)과 [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 참조하십시오)
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
 * 문법 변화
