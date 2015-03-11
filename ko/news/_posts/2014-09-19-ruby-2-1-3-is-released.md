@@ -7,14 +7,14 @@ date: 2014-09-19 12:00:00 +0000
 lang: ko
 ---
 
-루비 2.1.3가 릴리스됐습니다. 이 릴리스는 안정버전인 2.1계열의 패치레벨
+루비 2.1.3이 릴리스됐습니다. 이 릴리스는 안정버전인 2.1 계열의 패치레벨
 릴리스입니다.
 
-이 릴리스에서는 full GC 타이밍 변경에 의한 메모리 사용량 감소([Bug #9607](https://bugs.ruby-lang.org/issues/9607))
-를 포함한 많은 버그를 수정했습니다.
+이 릴리스에서는 full GC 타이밍 변경에 의한 메모리 사용량 감소([Bug #9607](https://bugs.ruby-lang.org/issues/9607))를
+포함한 많은 버그를 수정했습니다.
 
-더 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)를 보세요.
+더 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)를 보세요.
 
 ## 다운로드
 

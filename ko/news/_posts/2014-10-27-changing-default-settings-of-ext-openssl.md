@@ -15,8 +15,8 @@ lang: ko
 
 ## 상세 정보
 
-OpenSSL은 여전히 프로토콜과 암호를 구현중이고, 역사적 상황에 의해 지금도 안전하지 않은 것으로 간주됩니다.
-POODLE 취약점([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566))같은,
+OpenSSL은 여전히 프로토콜과 암호를 구현 중이고, 역사적 상황에 의해 지금도 안전하지 않은 것으로 간주됩니다.
+POODLE 취약점([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)) 같은,
 OpenSSL의 안전하지 않은 기능을 계속 사용할 경우,
 네트워크 통신의 안전을 유지하지 못할 수도 있습니다.
 그래서, [Bug #9424](https://bugs.ruby-lang.org/issues/9424)에서 한 토론을 바탕으로,
@@ -40,7 +40,7 @@ OpenSSL의 안전하지 않은 기능을 계속 사용할 경우,
 이 변경은 net/http, net/imap, net/pop에 반영됩니다.
 DRb와 WEBrick은 별도의 설정을 사용하기 떄문에, 영향받지 않습니다.
 
-### ext/openssl를 직접 사용하는 스크립트
+### ext/openssl을 직접 사용하는 스크립트
 
 이 변경은 `OpenSSL::SSL::SSLContext` 객체가 객체화될 때와 인스턴트 메서드 `set_params`가 불려질 때 반영됩니다.
 
@@ -48,14 +48,14 @@ DRb와 WEBrick은 별도의 설정을 사용하기 떄문에, 영향받지 않�
 
 {% highlight ruby %}
 ctx = OpenSSL::SSL::SSLContext.new
-ctx.set_params  # 인증서 저장소나 확인 모드같은 몇몇 옵션을 변경하려면, 매개 변수를 해시로 넘길 수 있습니다.
+ctx.set_params  # 인증서 저장소나 확인 모드 같은 몇몇 옵션을 변경하려면, 매개 변수를 해시로 넘길 수 있습니다.
 ssl = OpenSSL::SSL::SSLSocket.new(socket, ctx)
 {% endhighlight %}
 
-ext/openssl를 클라이언트 측에서 사용하는 경우, 이변화가 아무런 문제가 없을 수도
+ext/openssl을 클라이언트 측에서 사용하는 경우, 이 변화가 아무런 문제가 없을 수도
 있다고 생각합니다.
-하지만, ext/openssl를 서버측에서 사용하고 이 수정이 반영된다면, 일부 오래된
-클라이언트 (윈도우즈 XP의 인터넷 익스플로어 6, 오래된 휴대폰의 브라우저 등등)는
+하지만, ext/openssl을 서버 측에서 사용하고 이 수정이 반영된다면, 일부 오래된
+클라이언트(윈도우 XP의 인터넷 익스플로러 6, 오래된 휴대폰의 브라우저 등)는
 서버에 접속할 수 없을 수도 있습니다.
 
 이 설정을 켤지 끌지는 당신의 선택입니다. 트레이드 오프를 생각해 보세요.

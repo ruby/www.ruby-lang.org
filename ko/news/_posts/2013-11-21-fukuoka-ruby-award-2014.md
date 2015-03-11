@@ -33,7 +33,7 @@ lang: ko
 
 [http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
 
-참가 양식을 [award@f-ruby.com][5]로 보내 주십시오.
+참가 양식을 [award@f-ruby.com][5]으로 보내 주십시오.
 
 올해는 아래와 같은 특별한 상을 준비했습니다:
 엔진 야드 상(Engine Yard Prize) 수상자는 다음과 같은 것을 받게 됩니다:

@@ -41,7 +41,7 @@ lang: ko
 
 주요 수정사항은 아래에 나열되어 있습니다.
 
-세부 사항은 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)와 [변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog)를 보십시오.
+세부 사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과 [변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog)를 보십시오.
 
 ### 키워드 인수(Keyword Arguments)
 
@@ -76,5 +76,5 @@ lang: ko
 
 ## 릴리스 코멘트
 
-많은 커미터, 테스터 그리고 사용자들이 버그 리포트를 제출하여 본 릴리스를 만드는 데 도움을 주었습니다.
+많은 커미터, 테스터 그리고 사용자들이 버그 리포트를 제출하여 이 릴리스를 만드는 데 도움을 주었습니다.
 그들의 기여에 감사합니다.

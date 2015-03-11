@@ -19,8 +19,8 @@ lang: ko
 종료합니다.
 
 이 릴리스는 많은 버그 수정을 포함합니다.
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) 를 보세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog)를 보세요.
 
 ## 다운로드
 

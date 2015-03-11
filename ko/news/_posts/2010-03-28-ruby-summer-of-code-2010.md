@@ -5,7 +5,7 @@ author: "Moru"
 lang: ko
 ---
 
-\'Ruby Summer of Code 2010\'(이하 RubySOC)가 개최됩니다. 기존까지 Google Summer of
+\'Ruby Summer of Code 2010\'(이하 RubySOC)이 개최됩니다. 기존까지 Google Summer of
 Code의 일부로서 개최가 되었으나 올해는 독립적으로 개최될 예정입니다. RubySOC는 [Ruby Central][1],
 [Engine Yard][2], [the Rails team][3]이 공동으로 기획에 참여하였으며, RubySOC에 관련한 자세한
 사항은 [rubysoc.org][4]와 [twitter@rubysoc][5]에서 확인할 수 있습니다.
@@ -14,7 +14,7 @@ Code의 일부로서 개최가 되었으나 올해는 독립적으로 개최될 
 
 * 채택작에 개발지원금 $5,000를 지원
 * Ruby guru의 멘토 제도
-* 평가기준: 실용성, Ruby커뮤니티에 대한 수혜, 오픈소스에 대한 공헌 내력
+* 평가기준: 실용성, Ruby 커뮤니티에 대한 수혜, 오픈소스에 대한 공헌 내력
 
 와 같은 내용을 주요 골격으로 삼고 있습니다.
 

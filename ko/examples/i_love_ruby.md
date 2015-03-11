@@ -11,7 +11,7 @@ puts say
 say['love'] = "*love*"
 puts say.upcase
 
-# 다섯번
+# 다섯 번
 # "I *love* Ruby" 출력
 5.times { puts say }
 {% endhighlight %}

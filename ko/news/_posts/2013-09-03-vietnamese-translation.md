@@ -18,7 +18,7 @@ lang: ko
 
 루비 커뮤니티에 기여하고 싶으시다면,
 본 사이트를 최신상태로 유지하도록 도와주심으로써 기여하실 수 있습니다.
-단지 [GitHub의 ruby-lang.org][2]에 방문하신 후, 이슈와 풀 리퀘스트를 전송해 주십시오!
+단지 [GitHub의 ruby-lang.org][2]에 방문하신 후, 이슈와 풀 리퀘스트를 보내 주십시오!
 
 [1]: {{ site.url }}/vi/
 [2]: https://github.com/ruby/www.ruby-lang.org/

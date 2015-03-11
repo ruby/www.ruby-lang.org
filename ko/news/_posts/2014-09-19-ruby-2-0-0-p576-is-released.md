@@ -7,16 +7,16 @@ date: 2014-09-19 12:00:00 +0000
 lang: ko
 ---
 
-지금 일본에서 개최중인 [RubyKaigi2014](http://rubykaigi.org/2014)를 기념해 루비 2.0.0-p576를 릴리스 합니다.
+지금 일본에서 개최 중인 [RubyKaigi2014](http://rubykaigi.org/2014)를 기념해 루비 2.0.0-p576을 릴리스 합니다.
 
-이 릴리스에는 많은 버그를 고쳤습니다. 예를들어
+이 릴리스에는 많은 버그를 고쳤습니다. 예를 들어
 
 * 메모리 릭, 추가 메모리 사용
 * 플랫폼 의존적인 문제
 * 문서 수정
 
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog)를 보세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog)를 보세요.
 
 ## 다운로드
 

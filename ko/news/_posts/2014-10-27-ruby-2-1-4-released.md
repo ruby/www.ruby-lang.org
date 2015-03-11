@@ -12,13 +12,12 @@ lang: ko
 이 릴리스에는 이하의 취약점들을 위한 보안패치가 포함되어 있습니다.
 
 * [CVE-2014-8080: XML 확장의 서비스 거부공격(DoS)](https://www.ruby-lang.org/ko/news/2014/10/27/rexml-dos-cve-2014-8080/)
-* [CVE-2014-3566 에 관련된 ext/openssl의 기본 설정 변경](https://www.ruby-lang.org/ko/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [CVE-2014-3566에 관련된 ext/openssl의 기본 설정 변경](https://www.ruby-lang.org/ko/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 그리고 버그 수정도 있습니다.
 
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
-를 참고하세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)를 참고하세요.
 
 **업데이트:** 2.1.3에 있었던 회귀는 이제 수정되었습니다.
 

@@ -7,7 +7,7 @@ lang: ko
 NOTE: 구독할 수 없는 경우 [lists.ruby-lang.org](http://lists.ruby-lang.org)를
 참고하세요.
 
-메일링 리스트를 구독하려면 다음 내용의 평문 이메일을 제목없이
+메일링 리스트를 구독하려면 다음 내용의 평문 이메일을 제목 없이
 자동화된 “controller” 메일 주소로 보내면 됩니다.
 
     subscribe

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "2014 Ruby Hero Award 후보모집"
+title: "2014 Ruby Hero Award 후보 모집"
 author: "Gregg Pollack"
 translator: "marocchino"
 date: 2014-02-12 14:02:03 +0000

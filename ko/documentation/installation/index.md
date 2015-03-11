@@ -18,9 +18,9 @@ lang: ko
 * UNIX-계열의 운영체제를 사용하신다면, 운영체제의
   **패키지 관리자**를 사용하는 게 가장 쉽습니다.
   하지만, 패키지의 루비는 보통 최신 버전이 아닙니다.
-* **인스톨러** 는 특정 버전이나 여러 버전을 설치하는데
+* **인스톨러**는 특정 버전이나 여러 버전을 설치하는데
   사용할 수 있습니다. Windows용 인스톨러도 있습니다.
-* **관리자** 는 시스템에 설치된 여러 루비 버전 간의
+* **관리자**는 시스템에 설치된 여러 루비 버전 간의
   전환을 도와줍니다.
 * 마지막으로 **소스에서 빌드** 하실 수도 있습니다.
 
@@ -62,7 +62,7 @@ lang: ko
 밑에 설명할 도구를 사용하십시오.
 
 
-### apt (Debian 이나 Ubuntu)
+### apt (Debian이나 Ubuntu)
 {: #apt}
 
 Debian GNU/Linux와 Ubuntu는 apt 패키지 관리 시스템을 사용합니다.
@@ -132,7 +132,7 @@ $ brew install ruby
 이 명령어는 최신 루비 버전을 설치할 것입니다.
 
 
-### Solaris와 OpenIndiana 에서의 루비
+### Solaris와 OpenIndiana에서의 루비
 {: #solaris}
 
 Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
@@ -141,9 +141,9 @@ Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7�
 서드파티 도구를 사용하면 최신 버전의 루비를 얻을 수 있습니다.
 
 [OpenIndiana][openindiana]에서 루비를 설치하려면,
-[Image Packaging System (IPS)][opensolaris-pkg]클라이언트를 사용해 주십시오.
+[Image Packaging System (IPS)][opensolaris-pkg] 클라이언트를 사용해 주십시오.
 이것은 루비 1.9를 위한 OpenSolaris 네트워크 저장소로부터 최신
-루비 바이너리와 루비젬을 직접 받아 설치합니다. 아주 쉽습니다.
+루비 바이너리와 RubyGems를 직접 받아 설치합니다. 아주 쉽습니다.
 
 {% highlight sh %}
 $ pkg install runtime/ruby-18
@@ -174,7 +174,7 @@ $ pkg install runtime/ruby-18
 
 [ruby-build][ruby-build]는 다른 버전의 루비를 임의의 디렉터리에
 컴파일하고 설치할 수 있게 하는 [rbenv](#rbenv)의 플러그인입니다.
-ruby-build는 rbenv없이 독자적으로 사용 할 수도 있습니다.
+ruby-build는 rbenv 없이 독자적으로 사용 할 수도 있습니다.
 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
@@ -190,8 +190,8 @@ ruby-build는 rbenv없이 독자적으로 사용 할 수도 있습니다.
 ### RubyInstaller
 {: #rubyinstaller}
 
-Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로젝트 [RubyInstaller][rubyinstaller]
-가 있습니다. RubyInstaller는 Windows 환경에서 전체 루비 개발 환경을 설정하는데 필요한 모든
+Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로젝트 [RubyInstaller][rubyinstaller]가
+있습니다. RubyInstaller는 Windows 환경에서 전체 루비 개발 환경을 설정하는데 필요한 모든
 것을 제공합니다.
 
 다운로드 받으시고 인스톨러를 실행하기만 하면 끝입니다!
@@ -200,12 +200,12 @@ Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로�
 ### RailsInstaller와 Ruby Stack
 {: #railsinstaller}
 
-루비온레일즈를 사용하기 위해 루비를 설치하신다면 다음 인스톨러를 사용할 수 있습니다.
+루비 온 레일즈를 사용하기 위해 루비를 설치하신다면 다음 인스톨러를 사용할 수 있습니다.
 
 * [RailsInstaller][railsinstaller]는 RubyInstaller를 사용하지만, 레일즈 개발을
   도와줄 추가 도구들을 제공합니다.
   OS X, Windows를 지원합니다.
-* [Bitnami Ruby Stack][rubystack]는 루비온레일즈를 위한 완전한 개발환경을 제공합니다.
+* [Bitnami Ruby Stack][rubystack]는 루비 온 레일즈를 위한 완전한 개발환경을 제공합니다.
   OS X, Linux, Windows, 가상 기기, 클라우드 이미지를 지원합니다.
 
 
@@ -219,8 +219,8 @@ Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로�
 ### chruby
 {: #chruby}
 
-[chruby][chruby] 는 여러 루비들 간의 전환을 하게 합니다.
-chruby는 [ruby-install](#ruby-install)로 설치된 루비 뿐만
+[chruby][chruby]는 여러 루비들 간의 전환을 하게 합니다.
+chruby는 [ruby-install](#ruby-install)로 설치된 루비뿐만
 아니라 소스에서 빌드 된 루비도 관리할 수 있습니다.
 
 
@@ -237,7 +237,7 @@ rbenv, ruby-build 모두 맥 OS X, Linux나 다른 UNIX-계열 운영체제에�
 {: #rvm}
 
 [RVM][rvm]은 시스템에 여러 종류의 루비를 설치하고 관리할 수 있게 해줍니다.
-RVM은 다른 gemsets도 관리 해 줍니다.
+RVM은 다른 gemsets도 관리해 줍니다.
 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
