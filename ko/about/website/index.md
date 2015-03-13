@@ -5,7 +5,7 @@ lang: ko
 ---
 
 이 웹 사이트는 루비와 [Jekyll][jekyll]로 생성되었습니다,<br>
-소스코드는 [GitHub][github-repo]에서 호스팅 됩니다.
+소스코드는 [GitHub][github-repo]에서 호스트 됩니다.
 
 이 사이트는 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.
@@ -36,9 +36,9 @@ lang: ko
 
 지원해주신 단체들에게도 감사드립니다.
 
- * [NaCl][nacl] (호스팅)
- * [Heroku][heroku] (호스팅)
- * [IIJ][iij] (호스팅)
+ * [NaCl][nacl] (호스트)
+ * [Heroku][heroku] (호스트)
+ * [IIJ][iij] (호스트)
  * [GlobalSign][globalsign] (SSL 인증서)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], 서버 모니터링)

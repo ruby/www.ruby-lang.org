@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Ruby 다운로드"
+title: "루비 다운로드"
 lang: ko
 ---
 
 자신이 선호하는 방식으로 최신 루비 배포판을 설치할 수 있습니다.
 현재 안정 버전은 {{ site.downloads.stable.version }}입니다.
-[Ruby 라이센스][license]를 읽어 보십시오.
+[루비 라이센스][license]를 읽어 보십시오.
 {: .summary}
 
 ### 루비를 설치하는 방법
@@ -36,27 +36,27 @@ lang: ko
 도움이 될 것입니다.
 
 * **안정버전:**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
+  [루비 {{ site.downloads.stable.version }}][stable-gz]<br>
   sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **이전버전:**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
+  [루비 {{ site.downloads.previous.version }}][previous-gz]<br>
   sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **낡은 버전 (2.0.0 시리즈):**
-  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  [루비 {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **낡은 버전 (1.9.3 시리즈):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
+  [루비 {{ site.downloads.previous19.version }}][previous19-gz]<br>
   sha256: {{ site.downloads.previous19.sha256.gz }}
 
-* **스냅샷:**
+* **스냅숏:**
   * [Stable Snapshot][stable-snapshot-gz]:
-    안정 브랜치의 최신 스냅샷을 타르볼로 압축한 것.
+    안정 브랜치의 최신 스냅숏을 tarball로 압축한 것.
   * [Nightly Snapshot][nightly-gz]:
-    나이틀리로 제작된 SVN 상의 모든 것을 타르볼로 압축한 것.
-    본 스냅샷은 버그 혹은 기타 이슈를 포함하고 있을 수 있으니 주의하여 사용하십시오!
+    나이틀리로 제작된 SVN 상의 모든 것을 tarball로 압축한 것.
+    본 스냅숏은 버그 혹은 기타 이슈를 포함하고 있을 수 있으니 주의하여 사용하십시오!
 
 루비 서브버전과 Git 저장소에 대한 정보는, [루비 코어](/ko/community/ruby-core/) 페이지를 읽어 보십시오.
 

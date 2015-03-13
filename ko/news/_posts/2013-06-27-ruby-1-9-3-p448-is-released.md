@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p448이 릴리스 되었습니다"
+title: "루비 1.9.3-p448이 릴리스 되었습니다"
 author: "usa"
 translator: "SeungKyun Nam"
 date: 2013-06-27 11:00:02 +0000

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7과 1.9.2의 보안 유지보수 연장"
+title: "루비 1.8.7과 1.9.2의 보안 유지보수 연장"
 author: "zzak"
 translator: "SeungKyun Nam"
 date: 2013-12-17 20:49:03 +0000

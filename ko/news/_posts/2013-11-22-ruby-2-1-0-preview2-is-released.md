@@ -56,7 +56,7 @@ lang: ko
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
 * RDoc 4.1.0.preview.2와 RubyGems 2.2.0.preview.2
 
-보다 상세한 변경점들은 다음 링크를 참조하십시오: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
+보다 상세한 변경점들은 [루비 저장소의 뉴스(작업 중)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS)를 참조하십시오.
 
 ko1이 toruby에서 루비 2.1의 새로운 기능들에 대해 언급했습니다: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 

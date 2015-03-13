@@ -158,7 +158,7 @@ C나 파이썬이나 많은 다른 언어들에서 0과 빈 리스트같은 값�
 간주됩니다. 다음 파이썬 코드를 보시죠. (이 예제는 다른 언어에도 적용됩니다)
 
 {% highlight python %}
-# in Python
+# 파이썬
 if 0:
   print "0 is true"
 else:
@@ -168,7 +168,7 @@ else:
 이 구문은 “0 is false”를 출력합니다. 같은 구문은 루비에서:
 
 {% highlight ruby %}
-# in Ruby
+# 루비
 if 0
   puts "0 is true"
 else

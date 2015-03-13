@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "임의의 코드를 실행할 수 있는 보안 취약성"
+title: "임의의 코드를 실행할 수 있는 보안 취약점"
 author: "Bryan Kang"
 lang: ko
 ---
@@ -46,7 +46,7 @@ lang: ko
   * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz&gt;][9]
     (md5sum: 2a848b81ed1d6393b88eec8aa6173b75)
 
-이 버전에서는 WEBrick의 보안 취약성도 해결되었습니다([CVE-2008-1891][10]).
+이 버전에서는 WEBrick의 보안 취약점도 해결되었습니다([CVE-2008-1891][10]).
 
 현재 사용 중인 패키지 관리 소프트웨어에서 취약점을 이미 해결된 버전을 찾을 수 있는지 먼저 확인하시기 바랍니다.
 

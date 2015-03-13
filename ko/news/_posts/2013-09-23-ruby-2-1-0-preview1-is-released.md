@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0-preview1이 릴리스 되었습니다"
+title: "루비 2.1.0-preview1이 릴리스 되었습니다"
 author: "nurse"
 translator: "SeungKyun Nam"
 date: 2013-09-23 07:00:00 +0000
@@ -50,7 +50,7 @@ Fastly를 이용한 [http://cache.ruby-lang.org/pub/ruby/2.1/](http://cache.ruby
 * Socket.getifaddrs
 * 새로운 RubyGems
 
-보다 상세한 변경점들은 다음 링크를 참조하십시오: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/trunk/NEWS).
+보다 상세한 변경점들은 [루비 저장소의 뉴스(작업 중)](https://github.com/ruby/ruby/blob/trunk/NEWS)를 참조하십시오.
 
 ko1(Koichi Sasada)이 toruby에서 발표한 내용입니다: [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
