@@ -47,7 +47,7 @@ Essayez et profiter de Ruby 2.2.0-rc1 et rapportez nous le moindre problème !
 ## Changements importants depuis Ruby 2.1
 
 * [Ramasse miettes incrémental](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [Ramasse miettes des symboles](https://bugs.ruby-lang.org/issues/9634) ([présentaté à la RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* [Ramasse miettes des symboles](https://bugs.ruby-lang.org/issues/9634) ([présenté à la RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [Fonctionnalité #9113](https://bugs.ruby-lang.org/issues/9113)
 * bibliothèque Ruby :
   * support d'Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)

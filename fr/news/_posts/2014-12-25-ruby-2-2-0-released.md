@@ -47,7 +47,7 @@ Essayez et profiter de Ruby 2.2.0 et rapportez nous le moindre problème !
 * [Ramasse miettes incrémental](https://bugs.ruby-lang.org/issues/10137)
   ([présentation à la RubyConf 2014 : "Incremental GC for Ruby interpreter"](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [Ramasse miettes des symboles](https://bugs.ruby-lang.org/issues/9634)
-  ([présentaté à la RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+  ([présenté à la RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc
   [Fonctionnalité #9113](https://bugs.ruby-lang.org/issues/9113)
 * bibliothèque Ruby :
