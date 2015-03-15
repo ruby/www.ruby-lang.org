@@ -8,7 +8,7 @@ GEM
     commander (4.1.6)
       highline (~> 1.6.11)
     fast-stemmer (1.0.2)
-    ffi (1.9.6)
+    ffi (1.9.7)
     highline (1.6.21)
     jekyll (1.5.1)
       classifier (~> 1.3)
