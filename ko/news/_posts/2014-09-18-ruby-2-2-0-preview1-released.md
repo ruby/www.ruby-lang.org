@@ -44,7 +44,7 @@ lang: ko
 * C API
   * 비추천 상태인 API들을 삭제함
 
-자세한 정보는 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)를 확인해 주세요.
+자세한 정보는 [루비 저장소의 NEWS(작업 중)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)를 확인해 주세요.
 
 이 변경으로 1239 파일이 변경되었으며, 98343 줄이 추가(+)되고, 61858이 삭제(-)되었습니다.
 

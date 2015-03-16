@@ -60,7 +60,6 @@ vfork(2)는 아직 잘 알려지지 않은 위험할 수도 있는 시스템 콜
   * 업데이트 RDoc 4.2.0
   * 업데이트 RubyGems 2.4.5
   * 업데이트 test-unit 3.0.8 (저장소에서는 제거했지만 tarball에는 포함)
-in tarball)
   * Update minitest 5.4.3 (저장소에서는 제거했지만 tarball에는 포함)
   * mathn을 비추천(Deprecate)으로 변경
 * C API
@@ -93,4 +92,3 @@ in tarball)
   * MD5:    f8e1d0cee4f2d9535a9529ed23ae3700
   * SHA256: e06c1e2b1248cf881749833084b2bec93f7612676009190ff9bc89b8fd07c29f
   * SHA512: 364dd927b496520d95a1b06c68e1a265015f4cab08bdf3efaa323d385e7bf075eae47f2e1db78a629db0f3c0c1ed24e086603ba21e2da02ac06dd3c8b716766e
-

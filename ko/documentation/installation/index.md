@@ -252,7 +252,7 @@ RVM은 다른 gemsets도 관리해 줍니다.
 {: #building-from-source}
 
 물론, 소스로부터 루비를 설치할 수도 있습니다.
-타르볼을 [다운로드](/ko/downloads/), 압축을 풀고 이 명령어를 입력하세요.
+tarball을 [다운로드](/ko/downloads/), 압축을 풀고 이 명령어를 입력하세요.
 
 {% highlight sh %}
 $ ./configure

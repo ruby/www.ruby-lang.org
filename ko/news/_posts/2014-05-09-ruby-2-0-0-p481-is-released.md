@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p481 is released"
+title: "루비 2.0.0-p481 릴리스"
 author: "usa"
 translator: "marocchino"
 date: 2014-05-09 03:00:00 +0000

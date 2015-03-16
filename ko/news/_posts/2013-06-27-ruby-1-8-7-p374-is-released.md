@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7-p374가 릴리스 되었습니다"
+title: "루비 1.8.7-p374가 릴리스 되었습니다"
 author: "hsbt"
 translator: "SeungKyun Nam"
 date: 2013-06-27 11:00:01 +0000

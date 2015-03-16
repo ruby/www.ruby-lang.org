@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0-rc1 릴리스"
+title: "루비 2.1.0-rc1 릴리스"
 author: "nurse"
 translator: "marocchino"
 date: 2013-12-20 16:53:05 +0000
 lang: ko
 ---
 
-Ruby 2.1.0-rc1을 릴리스 했습니다.
+루비 2.1.0-rc1을 릴리스 했습니다.
 2013/12/25로 예정되어 있는 최종 릴리스 전에 신기능을 시험해보세요.
 
 ## preview2 이후의 주목할 만한 변경점
@@ -33,7 +33,7 @@ Ruby 2.1.0-rc1을 릴리스 했습니다.
 
 ## 2.0 이후의 변경점
 
-Ruby 2.0.0 이후의 주목할 만한 변경은 다음과 같습니다.
+루비 2.0.0 이후의 주목할 만한 변경은 다음과 같습니다.
 
 * VM (메소드 캐시)
 * RGenGC (ko1 님의 [RubyKaigi 프레젠테이션](http://rubykaigi.org/2013/talk/S73)과 [RubyConf 2013 프레젠테이션](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf)을 확인하세요)
@@ -51,9 +51,9 @@ Ruby 2.0.0 이후의 주목할 만한 변경은 다음과 같습니다.
 * 라이브러리 업데이트: BigDecimal, JSON, NKF, Rake, RubyGems, RDoc
 * 확장라이브러리 curses의 삭제 [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-더 자세한 변경점은 [Ruby 레포지터리의 NEWS (작업중)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)에서 확인 하실 수 있습니다.
+더 자세한 변경점은 [루비 저장소의 NEWS(작업 중)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS)에서 확인 하실 수 있습니다.
 
-ko1 님이 toruby에서 Ruby 2.1의 신기능에 관해 발표했습니다. [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
+ko1 님이 toruby에서 루비 2.1의 신기능에 관해 발표했습니다. [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
 Konstantin Haase (@konstantinhaase) 님이 블로그에 잘 정리해 주셨습니다. [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1) (영어)
 

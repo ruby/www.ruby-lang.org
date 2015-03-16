@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0 릴리스"
+title: "루비 2.1.0 릴리스"
 author: "nurse"
 translator: "marocchino"
 date: 2013-12-25 16:00:00 +0000
 lang: ko
 ---
 
-Ruby 2.1.0이 릴리스 되었습니다.
+루비 2.1.0이 릴리스 되었습니다.
 
-Ruby 2.1는 심각한 비호환없이 속도향상을 포함한 많은 개선이 있었습니다.
+루비 2.1은 심각한 비호환없이 속도향상을 포함한 많은 개선이 있었습니다.
 
 한번 시험해 보세요.
 
@@ -48,4 +48,4 @@ Ruby 2.1는 심각한 비호환없이 속도향상을 포함한 많은 개선이
 * BigDecimal, JSON, NKF, Rake, RubyGems, RDoc 등의 라이브러리 업데이트
 * curses의 제거 [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-보다 자세한 내용은 [Ruby 저장소의 NEWS](https://github.com/ruby/ruby/blob/v2_1_0/NEWS)를 참조하여 주십시오.
+보다 자세한 내용은 [루비 저장소의 NEWS](https://github.com/ruby/ruby/blob/v2_1_0/NEWS)를 참조하여 주십시오.
