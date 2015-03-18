@@ -49,10 +49,6 @@ Ruby може да бъде инсталиран и от изходен код �
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
-* **Стара стабилна версия (серия 1.9.3):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha256: {{ site.downloads.previous19.sha256.gz }}
-
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
     Това е архвирано копие на последната стабилна версия в SVN хранилището.
@@ -74,7 +70,6 @@ Ruby може да бъде инсталиран и от изходен код �
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
-[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

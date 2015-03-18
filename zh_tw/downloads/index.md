@@ -38,10 +38,6 @@ lang: zh_tw
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
-* **舊穩定版（1.9.3 系列）：**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha256: {{ site.downloads.previous19.sha256.gz }}
-
 * **快照：**
   * [Stable Snapshot][stable-snapshot-gz]:
     當前穩定版 tarball 的最新快照
@@ -60,7 +56,6 @@ Ruby 原始碼可從世界各地的[鏡像站][mirrors]獲得。請嘗試離您�
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
-[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

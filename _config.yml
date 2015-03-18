@@ -54,16 +54,6 @@ downloads:
       bz2: 1f626f20647693a215a8db3ea0d6ab5ab9cee7c1945cc441b9f8f7b9612b91a0
       gz: 4bd267a4187e4bc25c1db08f9f9bdc0ce595a705569cac460d98c4f5b02e614e
       zip: 73f6d939beda8865e12069689ddabd2658b3f637a9adebeee5e374388715c432
-  previous19:
-    version: 1.9.3-p551
-    url:
-      bz2: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.bz2
-      gz: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.gz
-      zip: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.zip
-    sha256:
-      bz2: b0c5e37e3431d58613a160504b39542ec687d473de1d4da983dabcf3c5de771e
-      gz: bb5be55cd1f49c95bb05b6f587701376b53d310eb1bb7c76fbd445a1c75b51e8
-      zip: 44228297861f4dfdf23a47372a3e3c4c5116fbf5b0e10883417f2379874b55c6
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
