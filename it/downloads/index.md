@@ -52,10 +52,6 @@ esserti di aiuto.
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
-* **Stabile Vecchia (serie 1.9.3):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha256: {{ site.downloads.previous19.sha256.gz }}
-
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
     Questo è il tarball dell'ultimo snapshot del branch stabile corrente.
@@ -78,7 +74,6 @@ Cerca di utilizzare il sito mirror più vicino a te.
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
-[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

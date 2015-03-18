@@ -46,10 +46,6 @@ dụng một trong những công cụ của bên thứ ba đã được đề c�
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
-* **Bản ổn định cũ (chuỗi 1.9.3):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha256: {{ site.downloads.previous19.sha256.gz }}
-
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
     Đây là một tarball của snapshot mới nhất của nhánh ổn định hiện hành.
@@ -70,7 +66,6 @@ Xin hãy sử dụng mirror gần bạn nhất.
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
-[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

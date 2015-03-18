@@ -48,10 +48,6 @@ vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
-* **Stabile Vorgängerversion (1.9.3):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  sha256: {{ site.downloads.previous19.sha256.gz }}
-
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
     Hierbei handelt es sich um den neuesten Snapshot des stabilen Zweiges.
@@ -74,7 +70,6 @@ Bitte nutze einen Mirror in deiner Nähe.
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
-[previous19-gz]: {{ site.downloads.previous19.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/
