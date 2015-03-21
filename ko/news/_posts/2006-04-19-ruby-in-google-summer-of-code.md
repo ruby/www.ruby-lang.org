@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Ruby in Google Summer of Code"
+title: "Google Summer of Code에 루비가 참가합니다"
 author: "David Black"
+translator: "yous"
 lang: ko
 ---
 
-Student Rubyists will be able to participate in the [Google Summer of
-Code][1] this summer, with [Ruby Central, Inc.][2] Ruby Central, Inc. as
-mentoring organization. See the [Summer of Code page][3] at Ruby
-Central.
+학생 루비스트는 이번 여름 [Google Summer of Code][1]에 참가할 수 있습니다.
+[Ruby Central, Inc.][2]가 멘토 단체로 참가할 것입니다. Ruby Central의
+[Summer of Code 페이지][3]를 참고하세요.
 
 
 
