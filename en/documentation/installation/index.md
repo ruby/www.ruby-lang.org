@@ -8,6 +8,9 @@ You can use several tools to install Ruby.
 This page describes how to use major package management systems
 and third-party tools for managing and installing Ruby
 and how to build Ruby from source.
+
+If you would like to use Ruby on browser, you can get informations in [Developing on browser](/en/documentation/developing-on-browser) page.
+
 {: .summary}
 
 
@@ -40,13 +43,13 @@ for different needs and platforms.
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller and Ruby Stack](#railsinstaller)
+  * [ActiveScriptRuby](#activescriptruby) (Windows)
 * [Managers](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
   * [uru](#uru)
 * [Building from source](#building-from-source)
-
 
 ## Package Management Systems
 {: #package-management-systems}
@@ -220,6 +223,12 @@ you can use the following installers:
   which provides a complete development environment for Rails.
   It supports OS X, Linux, Windows, virtual machines, and cloud images.
 
+### ActiveScriptRuby
+{: #activescriptruby}
+
+If you are on Windows, you can use [ActiveScriptRuby][active-script-ruby]. It's based on mswin32 and enclosed some useful libraries within the installer.
+
+* [ActiveScriptRuby][active-script-ruby] (Japanese)
 
 ## Managers
 {: #managers}
@@ -279,6 +288,10 @@ To change, pass the `--prefix=DIR` option to the `./configure` script.
 Using the third-party tools or package managers might be a better idea,
 though, because the installed Ruby won't be managed by any tools.
 
+## Coding on web service
+{: #coding-on-web-service }
+
+You can write and run Ruby code on your browser.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv#readme
@@ -288,6 +301,7 @@ though, because the installed Ruby won't be managed by any tools.
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
+[active-script-ruby]: http://www.artonx.org/data/asr/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
@@ -295,3 +309,4 @@ though, because the installed Ruby won't be managed by any tools.
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
+[nitrousio]: https://www.nitrous.io/

@@ -8,7 +8,7 @@ lang: ja
 
 ### マニュアル
 
-各環境にRubyをインストールする方法は、 [ダウンロード](/ja/downloads) 及び [インストールガイド](/ja/installation) で解説しています。
+各環境にRubyをインストールする方法は、 [ダウンロード](/ja/downloads) 及び [インストールガイド](/ja/installation) で解説しています。また、 [ブラウザから利用できる開発環境](/ja/developing-on-browser) を使って開発することもできます。
 
 また、現在有志の手により[リファレンスマニュアルの整備][rurema-wiki]が進行中です。
 作業途中の成果物を[&lt;URL:http://doc.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。

@@ -20,7 +20,7 @@ ruby -v
 {% endhighlight %}
 
 This should output some information on the installed Ruby version.
-If not, see the [installation page](installation/) for various options
+If not, see the [installation page](installation/) and [developing on browser page](developing-on-browser/) for various options
 of getting Ruby.
 
 ### Getting Started
