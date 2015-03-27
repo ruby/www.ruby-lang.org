@@ -23,7 +23,7 @@ to start:
   languages. If you have questions about Ruby, asking them on a mailing
   list is a great way to get answers.
 
-[Ruby on IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang)
+[Ruby on IRC (#ruby)](irc://irc.freenode.net/ruby)
 : The Ruby Language IRC Channel is a wonderful way to chat with fellow
   Rubyists.
 
