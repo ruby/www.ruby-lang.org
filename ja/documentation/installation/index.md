@@ -30,7 +30,7 @@ lang: ja
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
-
+  * [RailsInstaller](#railsinstaller)
 
 ## サードパーティツール
 
@@ -74,6 +74,10 @@ RVM をインストールする方法は [rvm.io][rvm] に記述されていま�
 RubyInstaller を使うには、[RubyInstaller のページ][rubyinstaller] からダウンロードしてください。
 そしてこのインストーラを実行するだけです！
 
+### RailsInstaller
+{: #railsinstaller}
+
+[RailsInstaller][railsinstaller] を利用すると、インストーラを実行するだけでWindows上に Rails 開発環境を構築できます。
 
 ## パッケージ管理システム
 {: #package-management-systems}
@@ -222,6 +226,7 @@ $ sudo make install
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
 [rubyinstaller]: http://rubyinstaller.org/
+[railsinstaller]: http://railsinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
