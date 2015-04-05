@@ -65,10 +65,10 @@ RVM は複数の Ruby のインストールと管理を行うことができま�
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
 
-### Active Script Ruby
+### ActiveScriptRuby
 {: #activescriptruby }
 
-[Active Script Ruby][active-script-ruby] はインストーラを実行するだけで Windows 上に Ruby 開発環境を構築します。安定版 Ruby に幾つかの便利なライブラリを加え、さらに Ruby を COM サーバとしても利用可能にしたものです。
+[ActiveScriptRuby][active-script-ruby] はインストーラを実行するだけで Windows 上に Ruby 開発環境を構築します。安定版 Ruby に幾つかの便利なライブラリを加え、さらに Ruby を COM サーバとしても利用可能にしたものです。
 
 ### RubyInstaller
 {: #rubyinstaller}
