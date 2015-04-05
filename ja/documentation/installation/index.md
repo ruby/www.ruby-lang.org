@@ -29,6 +29,7 @@ lang: ja
 
 * Windows
 
+  * [ActiveScriptRuby](#activescriptruby)
   * [RubyInstaller](#rubyinstaller)
 
 
@@ -64,6 +65,10 @@ RVM は複数の Ruby のインストールと管理を行うことができま�
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
 
+### Active Script Ruby
+{: #activescriptruby }
+
+[Active Script Ruby][active-script-ruby] はインストーラを実行するだけで Windows 上に Ruby 開発環境を構築します。安定版 Ruby に幾つかの便利なライブラリを加え、さらに Ruby を COM サーバとしても利用可能にしたものです。
 
 ### RubyInstaller
 {: #rubyinstaller}
@@ -221,6 +226,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv
+[active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: http://rubyinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
