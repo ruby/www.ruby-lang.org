@@ -77,7 +77,7 @@ RubyInstaller を使うには、[RubyInstaller のページ][rubyinstaller] か�
 ### RailsInstaller
 {: #railsinstaller}
 
-[RailsInstaller][railsinstaller] を利用すると、インストーラを実行するだけでWindows上に Rails 開発環境を構築できます。
+[RailsInstaller][railsinstaller] を利用すると、インストーラを実行するだけで Windows 上に Rails 開発環境を構築できます。
 
 ## パッケージ管理システム
 {: #package-management-systems}
