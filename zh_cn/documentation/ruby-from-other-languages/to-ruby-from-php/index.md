@@ -33,5 +33,5 @@ Ruby 与 PHP 不同的地方...
 * 变量都是被引用的。
 * 沒有抽象类 `abstract` 或接口 `interface`。
 * 散列和数组不能互换使用。
-* 只有 `false` 和 `nil` 是 false：`0`、`array()` 和 `""` 在条件判断时均为真。
-* 几乎所有东西都是调用方法，甚至是 `raise` (PHP的 `throw`)。
+* 只有 `false` 和 `nil` 是假：`0`、`array()` 和 `""` 在条件判断时均为真。
+* 几乎所有东西都是调用方法，甚至是 `raise` (PHP 的 `throw`)。
