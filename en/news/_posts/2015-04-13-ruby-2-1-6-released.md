@@ -53,4 +53,4 @@ for details.
 
 Thanks to everyone who helped with this release, especially, nagachika.
 
-The maintenace of Ruby 2.1, include this release, is based on the "Agreement for the Ruby stable version" of [the Ruby Association](http://www.ruby.or.jp/).
+The maintenance of Ruby 2.1, include this release, is based on the "Agreement for the Ruby stable version" of [the Ruby Association](http://www.ruby.or.jp/).
