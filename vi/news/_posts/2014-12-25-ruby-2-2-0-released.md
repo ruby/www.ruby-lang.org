@@ -14,19 +14,18 @@ Ruby 2.2 cung cấp nhiều tính năng và cải tiến mới nhằm phục v�
 Ví dụ: Symbol GC giúp tự động thu hồi bộ nhớ cho Symbols. Nó giúp cho giảm tải
 đáng kể dung lượng Symbols tạo ra, bởi vì trước bản Ruby 2.2 thì GC không thể
 thu hồi bộ nhớ sử dụng của Symbols. Vì Rails 5.0 bắt buộc yêu cầu chức năng
-Symbols GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2.
-(Xem [bài post trên Rails' blog](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)
+Symbol GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2.
+(Xem [bài post trên Rails' blog](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)
 để thêm chi tiết.)
 
 Ngoài ra Incremental GC mới cũng giúp giảm thời tạm dừng của việc thu hồi bộ
-nhớ, thực sự hữu dụng khi chạy các ứng dụng Rails. Gần đây các lập trình viên đã đề cập trên Rails blog cho rằng Rails 5.0 sẽ tận dụng lợi thế của Incremental GC cũng như Symbol GC.
+nhớ, thực sự hữu dụng khi chạy các ứng dụng Rails. Gần đây các lập trình viên đã đề cập trên [Rails blog](http://weblog.rubyonrails.org/) cho rằng Rails 5.0 sẽ tận dụng lợi thế của Incremental GC cũng như Symbol GC.
 
-Các tính năng khác liên quan đến việc quản lý bộ nhớ là một lựa chọn cho
+Một tính năng khác liên quan đến việc quản lý bộ nhớ là một lựa chọn cho
 configure.in để sử dụng jemalloc
 [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
 Đây là là một tính năng thử nghiệm với mặc định không được bật lên cho đến khi chúng tôi thu thập được nhiều hơn use case và peformance data. Nếu tất cả đều ở
-trạng thái hoạt động tốt và ổn định thì tính năng này sẽ tự động được mặc định
-bật lên.
+trạng thái hoạt động tốt và ổn định thì tính năng này sẽ mặc định được bật lên.
 
 Hỗ trợ thực nghiệm cho việc sử dụng vfork(2) trong system() và spawn() cũng đã được thêm vào. Bạn có thể xem chi tiết hơn trên [tanaka-san’s blog bằng Tiếng Nhật](http://www.a-k-r.org/d/2014-09.html#a2014_09_06). Điều này giúp tăng tốc rất nhiều khi một tiến trình lớn thực hiện những lệnh bên ngoài nhiều lần. Tuy nhiên vfork(2) vẫn chưa được hiểu rõ và là một system call nguy hiểm tiềm ẩn. Chúng tôi muốn thực nghiệm để có thể biết được các lợi ích nó mang lại qua việc thu thập thông tin về peformance data và use cases.
 
@@ -34,8 +33,10 @@ Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.
 
 ## Các thay đổi đáng chú ý so với bản 2.1
 
-* [Incremental GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
+  ([bài diễn thuyết tại RubyConf 2014: “Incremental GC for Ruby interpreter”](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
+* [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
+  ([bài diễn thuyết tại RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * core libraries:
   * Hỗ trợ Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
@@ -56,7 +57,7 @@ Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.
   * Xoá deprecated APIs
 
 Xem thêm chi tiết tại
-[NEWS trong ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS).
+[NEWS trong Ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS).
 
 Với những thay đổi, 1557 file đã được thay đổi, 125039 insertions(+), 74376 deletions(-).
 

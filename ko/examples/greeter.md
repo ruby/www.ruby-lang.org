@@ -14,7 +14,7 @@ class Greeter
   end
 end
 
-# 새 오브젝트 생성
+# 새 객체 생성
 g = Greeter.new("world")
 
 # "Hello World!" 출력

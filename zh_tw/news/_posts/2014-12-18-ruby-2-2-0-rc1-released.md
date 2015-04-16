@@ -47,7 +47,7 @@ Ruby 2.2 針對使用者對 Ruby 各式各樣的需求，做了許多修正、�
 * C API：
   * 移除棄用的 API。
 
-參見 [NEWS in ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS) 來了解更多細節。
+參見 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS) 來了解更多細節。
 
 自 Ruby v2.1.0 以來，計有 1548 變更的檔案，程式碼新增 123658 行，移除 74306 行。
 

@@ -20,7 +20,7 @@ Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2 or later.
 
 Also, a reduced pause time thanks to the new Incremental Garbage Collector will
 be helpful for running Rails applications. Recent developments mentioned on the
-[Rails blog](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)
+[Rails blog](http://weblog.rubyonrails.org/)
 suggest that Rails 5.0 will take advantage of Incremental GC as well as
 Symbol GC.
 

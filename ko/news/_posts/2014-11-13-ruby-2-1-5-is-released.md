@@ -1,25 +1,24 @@
 ---
 layout: news_post
-title: "루비 2.1.5 릴리즈"
+title: "루비 2.1.5 릴리스"
 author: "nagachika"
 translator: "marocchino"
 date: 2014-11-13 12:00:00 +0000
 lang: ko
 ---
 
-루비 2.1.5가 릴리즈 되었습니다.
+루비 2.1.5가 릴리스 되었습니다.
 
-이 릴리즈에는 REXML의 서비스거부공격(DoS) 취약점을 위한 보안 수정이 포함됩니다.
-이는 [이전 릴리즈](https://www.ruby-lang.org/ko/news/2014/10/27/ruby-2-1-4-released/)에서,
-[수정된 취약점](https://www.ruby-lang.org/ko/news/2014/10/27/rexml-dos-cve-2014-8080/)
-과 비슷합니다만, 전혀 다른 새로운 취약점입니다.
+이 릴리스에는 REXML의 서비스거부공격(DoS) 취약점을 위한 보안 수정이 포함됩니다.
+이는 [이전 릴리스](https://www.ruby-lang.org/ko/news/2014/10/27/ruby-2-1-4-released/)에서,
+[수정된 취약점](https://www.ruby-lang.org/ko/news/2014/10/27/rexml-dos-cve-2014-8080/)과
+비슷합니다만, 전혀 다른 새로운 취약점입니다.
 
 * [CVE-2014-8090: XML 확장의 또다른 서비스 거부 공격(DoS)](https://www.ruby-lang.org/ko/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 그리고, 버그 수정도 포함되어 있습니다.
-자세한 내용은 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
-를 참고하세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)를 참고하세요.
 
 ## 다운로드
 
@@ -51,7 +50,7 @@ lang: ko
       SHA256: 69c517a6d3ea65264455a9316719ffdec49cf6a613a24fd89b3f6da7146a8aa7
       SHA512: a55cf5970203904e7bc8cef2b6fbf7b8d5067a160289a1a49d13c4dfef8c95002bcdf697f5d04d420ef663efad5ee80d5a9e4e7445c4db9a02f9cbc9e4b8444e
 
-## 릴리즈 코맨트
+## 릴리스 코멘트
 
-잦은 릴리즈에 불편을 드려 죄송합니다.
-릴리즈에 협력 해주신 모든 분들게 감사드립니다.
+잦은 릴리스에 불편을 드려 죄송합니다.
+릴리스에 협력 해주신 모든 분들께 감사드립니다.

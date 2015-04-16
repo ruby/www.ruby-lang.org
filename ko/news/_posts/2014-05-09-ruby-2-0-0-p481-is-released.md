@@ -1,23 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p481 is released"
+title: "루비 2.0.0-p481 릴리스"
 author: "usa"
 translator: "marocchino"
 date: 2014-05-09 03:00:00 +0000
 lang: ko
 ---
 
-기쁘게 루비 2.0.0-p481 릴리즈를 발표합니다.
+기쁘게 루비 2.0.0-p481 릴리스를 발표합니다.
 
-이 릴리즈는 많은 버그 수정을 포함합니다.
+이 릴리스는 많은 버그 수정을 포함합니다.
 
 * Readline-6.3 빌드 지원
 * 이전 OpenSSL 대응 (p451의 회귀)
-* 동봉되어있는 libyaml의 업데이트 ([YAML URI 이스케이프 파싱의 힙 오버플로 (CVE-2014-2525)](https://www.ruby-lang.org/ko/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)참조)
+* 동봉되어있는 libyaml의 업데이트 ([YAML URI 이스케이프 파싱의 힙 오버플로 (CVE-2014-2525)](https://www.ruby-lang.org/ko/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/) 참조)
 
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog)
-를 보세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog)를 보세요.
 
 ## 다운로드
 
@@ -39,7 +38,7 @@ lang: ko
       MD5:    1cdf06d1a58f3103e9ed7e072d680b19
       SHA256: 7457cdfac36cefcb0721b0520371939926fa755759631c90dd91e64e986eb23d
 
-## Release Comment
+## 릴리스 코멘트
 
 루비를 지원해 주시는 모든 분들에게 감사드립니다.
 감사합니다.

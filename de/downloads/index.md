@@ -38,19 +38,15 @@ vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
 
 * **Stabile Version:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **Stabile Vorgängerversion:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **Stabile Vorgängerversion (2.0.0):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  md5: {{ site.downloads.previous20.md5.gz }}
-
-* **Stabile Vorgängerversion (1.9.3):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
@@ -71,10 +67,9 @@ Bitte nutze einen Mirror in deiner Nähe.
 
 [license]: {{ site.license.url }}
 [installation]: /de/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
-[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

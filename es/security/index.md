@@ -16,7 +16,7 @@ se liberen las correcciones correspondientes.
 
 ## Problemas conocidos
 
-A continuación una lista de los problemas conocidos mas recientes:
+A continuación una lista de los problemas conocidos más recientes:
 
 {% include security_posts.html %}
 

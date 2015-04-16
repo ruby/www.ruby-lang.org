@@ -4,7 +4,7 @@ title: "Comunidad"
 lang: es
 ---
 
-La comunidad que crece al rededor de un lenguaje de programación es una
+La comunidad que crece alrededor de un lenguaje de programación es una
 de sus mayores fortalezas. Ruby tiene una vibrante y creciente comunidad
 amigable a todas las personas sin discriminarlas por su nivel de
 habilidades.
@@ -17,7 +17,7 @@ donde empezar:
 : El grupo de usuarios de tu localidad es un buen lugar donde establecer
   contacto con otros desarrolladores Ruby. Estos grupos se están
   autogestionando y típicamente realizan reuniones mensuales, y/o tienen
-  listas de correo, un sitio web, y si tienes suerte, fiestas de
+  listas de correo, un sitio web y si tienes suerte, fiestas de
   codificación frecuentes.
 
 [Listas de correo y grupos de noticias](/es/community/mailing-lists/)

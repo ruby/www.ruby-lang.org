@@ -30,15 +30,15 @@ lang: ja
 
 * **最新の安定版:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **前世代の安定版:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **古い安定版:**
-  [Ruby {{ site.downloads.previous19.version }}][old-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
+* **古い安定版 (2.0 系):**
+  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **スナップショット:**
   * [安定版のスナップショット][stable-snapshot-gz]:
@@ -67,9 +67,9 @@ Windows向けのバイナリが有志により配布されています。
 
 [license]: {{ site.license.url }}
 [installation]: /ja/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

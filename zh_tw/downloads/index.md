@@ -28,19 +28,15 @@ lang: zh_tw
 
 * **當前穩定版：**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **穩定上一版：**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **舊穩定版（2.0.0 系列）：**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  md5: {{ site.downloads.previous20.md5.gz }}
-
-* **舊穩定版（1.9.3 系列）：**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **快照：**
   * [Stable Snapshot][stable-snapshot-gz]:
@@ -57,10 +53,9 @@ Ruby 原始碼可從世界各地的[鏡像站][mirrors]獲得。請嘗試離您�
 
 [license]: {{ site.license.url }}
 [installation]: /zh_tw/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
-[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

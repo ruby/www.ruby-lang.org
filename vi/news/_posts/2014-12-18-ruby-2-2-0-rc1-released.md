@@ -55,7 +55,7 @@ Hãy trải nghiệm Ruby 2.2.0-rc1 và chúng tôi mong nhận được nhiều
   * Xoá deprecated APIs
 
 Xem thêm chi tiết tại
-[NEWS trong ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS).
+[NEWS trong Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS).
 
 Với những thay đổi như sau: 1548 file đã được thay đổi, 123658 insertions(+), 74306 deletions(-) so với bản 2.1.0!
 

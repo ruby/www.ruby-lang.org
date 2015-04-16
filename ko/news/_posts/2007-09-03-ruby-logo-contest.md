@@ -5,7 +5,7 @@ author: "Bryan Kang"
 lang: ko
 ---
 
-Ruby Association애소 [루비 로고 공모전][1] 을 개최합니다. 많은 참여 부탁드립니다.
+Ruby Association에서 [루비 로고 공모전][1]을 개최합니다. 많은 참여 부탁드립니다.
 
 
 

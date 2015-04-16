@@ -1,12 +1,12 @@
 source "https://rubygems.org"
-ruby '2.1.5'
 
 gem 'rake',   '~> 10.0'
 gem 'jekyll', '~> 2.0'
 
 gem 'unicorn'
-gem 'rack-jekyll', github: 'ruby/rack-jekyll'
+gem 'rack-jekyll'
 gem 'rack-rewrite'
+gem 'rack-ssl'
 gem 'rack-protection'
 
 group :development do

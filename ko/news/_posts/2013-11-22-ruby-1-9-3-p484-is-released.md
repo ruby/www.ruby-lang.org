@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "루비 1.9.3-p484가 릴리즈되었습니다"
+title: "루비 1.9.3-p484 릴리스"
 author: "usa"
 translator: "SeungKyun Nam"
 date: 2013-11-22 04:00:00 +0000
 lang: ko
 ---
 
-루비 1.9.3-p484가 릴리즈되었습니다.
+루비 1.9.3-p484가 릴리스되었습니다.
 
-본 릴리즈는 루비 인터프리터 코어의 보안 수정을 포함합니다.
+이 릴리스는 루비 인터프리터 코어의 보안 수정을 포함합니다.
 
  * [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](/ko/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 또한 몇몇 버그 수정도 포함되었습니다.
-세부사항은 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)와 [변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog)를 보십시오.
+세부사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)과 [변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog)를 보십시오.
 
 ## 다운로드
 
@@ -36,7 +36,7 @@ lang: ko
       MD5:    1b74a8a3b1e8f13bb306dd59cc1e12d1
       SHA256: 7496c972c716f0bc9f9c718155ef36281e9f22375867e95abc2ba64c1fb09d2e
 
-## 릴리즈 코멘트
+## 릴리스 코멘트
 
-많은 분들 (커미터, 기여자 그리고 보고자들)이 본 릴리즈를 만드는데 도움을 주셨습니다.
+많은 분들(커미터, 기여자 그리고 보고자들)이 이 릴리스를 만드는데 도움을 주셨습니다.
 감사합니다!

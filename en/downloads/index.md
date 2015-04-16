@@ -36,19 +36,15 @@ one of the third party tools mentioned above. They may help you.
 
 * **Current stable:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **Previous stable:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
 * **Old stable (2.0.0 series):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  md5: {{ site.downloads.previous20.md5.gz }}
-
-* **Old stable (1.9.3 series):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
@@ -68,10 +64,9 @@ Please try to use a mirror that is near you.
 
 [license]: {{ site.license.url }}
 [installation]: /en/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
-[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

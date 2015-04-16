@@ -1,35 +1,35 @@
 ---
 layout: news_post
-title: "루비 2.2.0-preview1 릴리즈"
+title: "루비 2.2.0-preview1 릴리스"
 author: "naruse"
 translator: "marocchino"
 date: 2014-09-18 09:00:00 +0000
 lang: ko
 ---
 
-루비 2.2.0-preview1을 릴리즈 했습니다.
+루비 2.2.0-preview1을 릴리스 했습니다.
 
-루비 2.2.0-preview1는 루비 2.2.0의 첫번째 프리뷰 릴리즈입니다.
+루비 2.2.0-preview1은 루비 2.2.0의 첫번째 프리뷰 릴리스입니다.
 점점 더 커지는 다양한 요구들 충족하기 위한 많은 새로운 기능과
 개선들이 포함됩니다.
 
-예를들어 심볼 GC는 심볼을 가비지 컬랙션 할 수 있게 했습니다.
+예를 들어 심볼 GC는 심볼을 가비지 컬렉션 할 수 있게 했습니다.
 2.2 이전에는 심볼은 GC의 대상이 아니었기 때문에 이 수정은 심볼의 메모리 사용량을 경감시킵니다.
-레일즈 5.0에서는 심볼 GC가 요구될 것입니다. 이 기능은 루비 2.2이나
+레일즈 5.0에서는 심볼 GC가 요구될 것입니다. 이 기능은 루비 2.2나
 이상의 버전에서만 지원됩니다. (자세한내용은 [레일즈 블로그의 포스트](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)를 참조하세요)
 
-또 새 증가형(Incremental) GC 가 가비지 컬랙션의 대기 시간을 감소시킵니다.
-이는 레일즈 어플의 실행에 도움이 될 것 입니다.
+또 새 증가형(Incremental) GC가 가비지 컬렉션의 대기 시간을 감소시킵니다.
+이는 레일즈 앱 실행에 도움이 될 것입니다.
 
 루비 2.2.0-preview1과 프로그래밍을 즐기세요!
 
-## 2.1이후의 주목할만한 변경
+## 2.1 이후의 주목할 만한 변경
 
 * [증가형 GC](https://bugs.ruby-lang.org/issues/10137)
 * [심볼 GC](https://bugs.ruby-lang.org/issues/9634)
 * 코어 라이브러리:
   * Unicode 7.0 지원 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * 새로운 메서드:
+  * 새로운 메소드:
     * Enumerable#slice_after
     * Float#next_float, Float#prev_float
     * File.birthtime, File#birthtime
@@ -44,7 +44,7 @@ lang: ko
 * C API
   * 비추천 상태인 API들을 삭제함
 
-자세한 정보는 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)를 확인해 주세요.
+자세한 정보는 [루비 저장소의 NEWS(작업 중)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)를 확인해 주세요.
 
 이 변경으로 1239 파일이 변경되었으며, 98343 줄이 추가(+)되고, 61858이 삭제(-)되었습니다.
 
@@ -71,10 +71,10 @@ lang: ko
   * SHA256: 2fa6c0cbddd1566a8658e16a34b6ae2f9eda2a8eeee4113561b3948d066f44a0
   * SHA512: 615b35c0a0bc408b28af9d9220ccd1658c718c7657ae7ad3f8318d38850bec760b1738c43454986b105857a7ffc2fea95294b964e5ea26a915d6fd9d510351b7
 
-## 릴리즈 코맨트
+## 릴리스 코멘트
 
 * [2.2.0 알려진 이슈](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
-릴리즈 스케쥴과 다른 정보는 밑의 링크에서도 보실 수 있습니다.
+릴리스 일정과 다른 정보는 밑의 링크에서도 보실 수 있습니다.
 
 [ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Ruby 다운로드"
+title: "루비 다운로드"
 lang: ko
 ---
 
 자신이 선호하는 방식으로 최신 루비 배포판을 설치할 수 있습니다.
-현재 안정 버전은 {{ site.downloads.stable.version }} 입니다.
-[Ruby 라이센스][license]를 읽어 보십시오.
+현재 안정 버전은 {{ site.downloads.stable.version }}입니다.
+[루비 라이센스][license]를 읽어 보십시오.
 {: .summary}
 
 ### 루비를 설치하는 방법
@@ -21,7 +21,7 @@ lang: ko
 패키지 관리 시스템이나 서드파티 도구에 대한 좀 더 자세한
 설명은 [설치][installation] 페이지를 보세요.
 
-물론, 주요 플랫폼에서 소스코드로부터 설치할 수도 있습니다.
+물론, 주요 플랫폼에서 소스 코드로부터 설치할 수도 있습니다.
 
 ### 루비 컴파일하기 - 소스 코드
 
@@ -36,27 +36,23 @@ lang: ko
 도움이 될 것입니다.
 
 * **안정버전:**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  md5: {{ site.downloads.stable.md5.gz }}
+  [루비 {{ site.downloads.stable.version }}][stable-gz]<br>
+  sha256: {{ site.downloads.stable.sha256.gz }}
 
 * **이전버전:**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  md5: {{ site.downloads.previous.md5.gz }}
+  [루비 {{ site.downloads.previous.version }}][previous-gz]<br>
+  sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **낡은버전 (2.0.0 시리즈):**
-  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  md5: {{ site.downloads.previous20.md5.gz }}
+* **낡은 버전 (2.0.0 시리즈):**
+  [루비 {{ site.downloads.previous20.version }}][previous20-gz]<br>
+  sha256: {{ site.downloads.previous20.sha256.gz }}
 
-* **낡은버전 (1.9.3 시리즈):**
-  [Ruby {{ site.downloads.previous19.version }}][previous19-gz]<br>
-  md5: {{ site.downloads.previous19.md5.gz }}
-
-* **스냅샷:**
+* **스냅숏:**
   * [Stable Snapshot][stable-snapshot-gz]:
-    안정 브랜치의 최신 스냅샷을 타르볼로 압축한 것.
+    안정 브랜치의 최신 스냅숏을 tarball로 압축한 것.
   * [Nightly Snapshot][nightly-gz]:
-    나이틀리로 제작된 SVN 상의 모든 것을 타르볼로 압축한 것.
-    본 스냅샷은 버그 혹은 기타 이슈를 포함하고 있을 수 있으니 주의하여 사용하십시오!
+    나이틀리로 제작된 SVN 상의 모든 것을 tarball로 압축한 것.
+    본 스냅숏은 버그 혹은 기타 이슈를 포함하고 있을 수 있으니 주의하여 사용하십시오!
 
 루비 서브버전과 Git 저장소에 대한 정보는, [루비 코어](/ko/community/ruby-core/) 페이지를 읽어 보십시오.
 
@@ -67,10 +63,9 @@ lang: ko
 
 [license]: {{ site.license.url }}
 [installation]: /ko/documentation/installation/
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
+[stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]:      {{ site.downloads.previous20.url.gz }}
-[previous19-gz]:      {{ site.downloads.previous19.url.gz }}
+[previous20-gz]: {{ site.downloads.previous20.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

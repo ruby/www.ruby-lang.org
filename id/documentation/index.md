@@ -38,7 +38,7 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 : Ini tutorial yang mencakup dasar-dasar Ruby. Dari awal sampai akhir, tutorial
   tersebut tidak akan membawa Anda lebih dari 20 menit.
 
-[Ruby from dari Bahasa Pemrograman Lain](/id/documentation/ruby-from-other-languages/)
+[Ruby dari Bahasa Pemrograman Lain](/id/documentation/ruby-from-other-languages/)
 : Datang ke Ruby dari bahasa lain? Entah itu C, C + +, Java, Perl,
   PHP, atau Python, artikel ini dapat menolong Anda!
 

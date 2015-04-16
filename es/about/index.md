@@ -13,9 +13,8 @@ ameno. ¿Por qué?
 
 Ruby es un lenguaje con un balance cuidado. Su creador, [Yukihiro “Matz”
 Matsumoto][matz], mezcló partes de sus lenguajes favoritos (Perl,
-Smalltalk, Eiffel, Ada, y Lisp) para formar un nuevo lenguaje que
-incorporara tanto la programación funcional como la programación
-imperativa.
+Smalltalk, Eiffel, Ada y Lisp) para formar un nuevo lenguaje que
+incorporara tanto la programación funcional como la imperativa.
 
 A menudo ha manifestado que está “tratando de hacer que Ruby sea
 natural, no simple”, de una forma que se asemeje a la vida real.

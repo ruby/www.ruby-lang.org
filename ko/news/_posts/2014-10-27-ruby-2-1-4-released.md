@@ -1,26 +1,25 @@
 ---
 layout: news_post
-title: "루비 2.1.4 릴리즈"
+title: "루비 2.1.4 릴리스"
 author: "nagachika"
 translator: "marocchino"
 date: 2014-10-27 12:00:00 +0000
 lang: ko
 ---
 
-루비 2.1.4가 릴리즈 되었습니다.
+루비 2.1.4가 릴리스 되었습니다.
 
-이 릴리즈에는 이하의 취약점들을 위한 보안패치가 포함되어 있습니다.
+이 릴리스에는 이하의 취약점들을 위한 보안패치가 포함되어 있습니다.
 
 * [CVE-2014-8080: XML 확장의 서비스 거부공격(DoS)](https://www.ruby-lang.org/ko/news/2014/10/27/rexml-dos-cve-2014-8080/)
-* [CVE-2014-3566 에 관련된 ext/openssl의 기본 설정 변경](https://www.ruby-lang.org/ko/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [CVE-2014-3566에 관련된 ext/openssl의 기본 설정 변경](https://www.ruby-lang.org/ko/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 그리고 버그 수정도 있습니다.
 
-자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
-를 참고하세요.
+자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)를 참고하세요.
 
-**갱신:** 2.1.3에 있었던 회귀는 이제 수정되었습니다.
+**업데이트:** 2.1.3에 있었던 회귀는 이제 수정되었습니다.
 
 {% highlight irb %}
 >> { key: if true then 0 else 1 end }
@@ -60,12 +59,12 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
       SHA512: 7fd8d13810a4336dc498a6eb05e140825d52eca0317d0848152688060b95ce4c79ab6a10cf14ab2499ae559fb4676d86538eacd94fb262c16795067fb4f47614
 
 
-## 릴리즈 코맨트
+## 릴리스 코멘트
 
-많은 커미터, 개발자, 버그 리포트를 해주신 유저분들이 릴리즈를 도와주셨습니다.
+많은 커미터, 개발자, 버그 리포트를 해주신 유저분들이 릴리스를 도와주셨습니다.
 기여자 분들께 감사드립니다.
 
 ## 수정 이력
 
-* 2014-10-27 21:00:00 (UTC) 갱신
+* 2014-10-27 21:00:00 (UTC) 업데이트
 * 2014-10-27 12:00:00 (UTC) 최초 공개

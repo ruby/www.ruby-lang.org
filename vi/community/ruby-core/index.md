@@ -29,8 +29,9 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 Thư mục `ruby` sẽ chứa toàn bộ mã nguồn của phiên bản mới nhất (theo dạng
-cây).  Các bản vá lỗi áp dụng cho từng phần được backported ổn định cho 2
-nhánh 2.0.0 và 1.9.3 (xem bên dưới).
+cây).  Các bản vá lỗi áp dụng cho từng phần được backported ổn định cho
+nhánh {{ site.svn.stable.version }}, {{ site.svn.previous.version }},
+{{ site.svn.old.version }} (xem bên dưới).
 
 Nếu bạn muốn theo dõi các bản vá lỗi cho Ruby 2.0.0, bạn cần nhập
 `ruby_2_0_0` khi checkout:

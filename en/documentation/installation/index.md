@@ -122,7 +122,7 @@ This should install the latest stable Ruby version.
 ### Homebrew (OS X)
 {: #homebrew}
 
-On OS X Mavericks, Ruby 2.0 is included.
+On OS X Yosemite and Mavericks, Ruby 2.0 is included.
 OS X Mountain Lion, Lion, and Snow Leopard ship with Ruby 1.8.7.
 
 Many people on OS X use [Homebrew][homebrew] as a package manager.

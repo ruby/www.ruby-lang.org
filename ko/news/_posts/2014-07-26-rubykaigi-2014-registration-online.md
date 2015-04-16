@@ -9,7 +9,7 @@ lang: ko
 
 [RubyKaigi 2014](http://rubykaigi.org/2014)의 참가 등록이 시작되었습니다.
 
-* 무엇을: 루비스트를 위한 3일간의 더블 트랙 컨퍼런스 RubyKaigi 2014
+* 무엇을: 루비스트를 위한 3일간의 더블 트랙 콘퍼런스 RubyKaigi 2014
 * 어디서: 일본, 도쿄
 * 언제: 9월 18일 9월 20일(목 - 토)
 * 얼마나: 550+ 루비스트
@@ -26,7 +26,7 @@ lang: ko
 
 [http://rubykaigi.doorkeeper.jp/events/12215](http://rubykaigi.doorkeeper.jp/events/12215)
 
-루비 코어 커미터는 [루비 2.0.0-p0 에서 2.1.0-p0에 한 커밋의
+루비 코어 커미터는 [루비 2.0.0-p0에서 2.1.0-p0에 한 커밋의
 수](https://gist.github.com/snoozer05/ca9860c57683e4221d10)에 따라
 얼리버드 가격(18,000 엔)에서 할인 받을 수 있습니다.
 

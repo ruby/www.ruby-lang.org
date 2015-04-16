@@ -67,7 +67,7 @@ it will be available instantly.
 In case a build is not possible on your local machine
 you can also create a preview on Heroku.
 
-* Signup [Heroku](http://www.heroku.com) if you don't have an account yet.
+* Sign up for [Heroku](http://www.heroku.com) if you don't have an account yet.
 * Install [Heroku Toolbelt](https://toolbelt.heroku.com).
 * Clone repository.
 

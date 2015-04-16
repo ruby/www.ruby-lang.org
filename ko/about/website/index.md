@@ -5,10 +5,10 @@ lang: ko
 ---
 
 이 웹 사이트는 루비와 [Jekyll][jekyll]로 생성되었습니다,<br>
-소스코드는 [GitHub][github-repo]에서 호스팅 됩니다.
+소스코드는 [GitHub][github-repo]에서 호스트 됩니다.
 
 이 사이트는 Ruby Visual Identity 팀의 이전 디자인을 기초로
-[Jason Zimdars][jzimdars]님이 디자인했습니다.
+[Jason Zimdars][jzimdars] 님이 디자인했습니다.
 
 [루비 로고][logo]의 저작권은 &copy; 2006, 마츠모토
 유키히로에게 있습니다.
@@ -25,8 +25,8 @@ lang: ko
 
 이 사이트는 루비 커뮤니티의 구성원들이 직접 관리합니다.
 
-기여하시길 원하시면 먼저 [contribution instructions][github-wiki]
-를 읽으시고 이슈를 만들거나 풀 리퀘스트를 보내주시면 됩니다.
+기여하시길 원하시면 먼저 [contribution instructions][github-wiki]를
+읽으시고 이슈를 만들거나 풀 리퀘스트를 보내주시면 됩니다.
 
 
 ## 감사의 말 ##
@@ -36,11 +36,14 @@ lang: ko
 
 지원해주신 단체들에게도 감사드립니다.
 
- * [NaCl][nacl] (호스팅)
- * [Heroku][heroku] (호스팅)
- * [IIJ][iij] (호스팅)
+ * [NaCl][nacl] (호스트)
+ * [Heroku][heroku] (호스트)
+ * [IIJ][iij] (호스트)
  * [GlobalSign][globalsign] (SSL 인증서)
  * [Fastly][fastly] (CDN)
+ * [Hatena][hatena] ([mackerel][mackerel], 서버 모니터링)
+ * [CloudCore][cloudcore] (빌드 서버)
+ * [Ruby no Kai][rubynokai] (빌드 서버)
 
 
 [logo]: /ko/about/logo/
@@ -55,3 +58,7 @@ lang: ko
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[hatena]: http://hatenacorp.jp/
+[mackerel]: https://mackerel.io/
+[cloudcore]: http://www.cloudcore.jp/
+[rubynokai]: http://ruby-no-kai.org/

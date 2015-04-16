@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7-p374이 릴리즈 되었습니다"
+title: "루비 1.8.7-p374가 릴리스 되었습니다"
 author: "hsbt"
 translator: "SeungKyun Nam"
 date: 2013-06-27 11:00:01 +0000
 lang: ko
 ---
 
-루비 1.8.7-p374이 릴리즈 되었습니다.
+루비 1.8.7-p374가 릴리스 되었습니다.
 
-본 릴리즈는 아래 보안 수정사항을 포함합니다:
+이 릴리스는 아래 보안 수정사항을 포함합니다:
 
  * [SSL 클라이언트에서 호스트명 점검을 우회하는 취약점
    (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
@@ -36,7 +36,7 @@ lang: ko
       MD5:    07b1b9032b616faeafb5ac1063494925
       SHA256: ed1fcc402d77814b277e2ef552c5f1e4ce3b6d1affacf5d6ba845ec0d4df67d0
 
-## 릴리즈 코멘트
+## 릴리스 코멘트
 
-많은 사람들 (커미터, 기여자 그리고 보고자들)이 본 릴리즈를 만드는 데 도움을 주셨습니다.
+많은 사람들(커미터, 기여자 그리고 보고자들)이 이 릴리스를 만드는 데 도움을 주셨습니다.
 감사합니다!

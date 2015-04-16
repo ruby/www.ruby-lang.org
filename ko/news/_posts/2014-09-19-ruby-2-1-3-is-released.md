@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "루비 2.1.3 릴리즈"
+title: "루비 2.1.3 릴리스"
 author: "nagachika"
 translator: "marocchino"
 date: 2014-09-19 12:00:00 +0000
 lang: ko
 ---
 
-루비 2.1.3가 릴리즈됐습니다. 이 릴리즈는 안정버전인 2.1계열의 패치레벨
-릴리즈입니다.
+루비 2.1.3이 릴리스됐습니다. 이 릴리스는 안정버전인 2.1 계열의 패치레벨
+릴리스입니다.
 
-이 릴리즈에서는 full GC 타이밍 변경에 의한 메모리 사용량 감소([Bug #9607](https://bugs.ruby-lang.org/issues/9607))
-를 포함한 많은 버그를 수정했습니다.
+이 릴리스에서는 full GC 타이밍 변경에 의한 메모리 사용량 감소([Bug #9607](https://bugs.ruby-lang.org/issues/9607))를
+포함한 많은 버그를 수정했습니다.
 
-더 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-과 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)를 보세요.
+더 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
+[변경로그](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)를 보세요.
 
 ## 다운로드
 
@@ -47,7 +47,7 @@ lang: ko
       SHA512: d6b06edcab5f6b70810f838ba942ec5072f7018c0b21709884126d997bbd06028ef74f4b2f7bf439255e165599ee6a94e097bcfc52b72d5cfbf16b2e4476316f
 
 
-## 릴리즈 코맨트
+## 릴리스 코멘트
 
-많은 커미터, 개발자, 버그 리포트를 해주신 유저분들이 릴리즈를 도와주셨습니다.
+많은 커미터, 개발자, 버그 리포트를 해주신 유저분들이 릴리스를 도와주셨습니다.
 기여자 분들께 감사드립니다.

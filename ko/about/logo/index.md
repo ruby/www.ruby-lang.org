@@ -8,8 +8,8 @@ lang: ko
 
 루비 로고의 저작권은 &copy; 2006, 마츠모토 유키히로에게 있습니다.
 
-이 로고는 [Creative Commons Attribution-ShareAlike 2.5 License][cc-by-sa]
-의 조건하에 사용하실 수 있습니다.
+이 로고는 [Creative Commons Attribution-ShareAlike 2.5 License][cc-by-sa]의
+조건 하에 사용하실 수 있습니다.
 
 
 ## 다운로드

@@ -20,8 +20,8 @@ header: |
 ## Giới thiệu
 
 Đây là một bài hướng dẫn nhỏ, chỉ cần không quá 20 phút để hoàn thành. Giả thiết
-là bạn đã cài sẵn Ruby. (Nếu bạn chưa cài đặt, [tải về](/vi/downloads/) và cài
-đặt nhé)
+là bạn đã cài sẵn Ruby. (Nếu bạn chưa có Ruby, hãy [cài đặt][installation]
+trước khi bắt đầu nhé.)
 
 ## Tương tác với Ruby
 
@@ -131,3 +131,5 @@ irb(main):009:0> Math.sqrt(a+b)
 Tuyệt vời như một chiếc máy tính, chúng ta đang vượt xa thông điệp `Xin chào
 thế giới` truyền thống mà ban đầu bài hướng dẫn giả sử...
 [Vậy chúng ta hãy quay lại nào](2/)
+
+[installation]: /vi/documentation/installation/

@@ -7,7 +7,7 @@ lang: ko
 NOTE: 구독할 수 없는 경우 [lists.ruby-lang.org](http://lists.ruby-lang.org)를
 참고하세요.
 
-메일링 리스트를 구독하려면 다음 내용의 plain 텍스트 이메일을 제목없이
+메일링 리스트를 구독하려면 다음 내용의 평문 이메일을 제목 없이
 자동화된 “controller” 메일 주소로 보내면 됩니다.
 
     subscribe
@@ -53,9 +53,9 @@ Ruby-CVS
     unsubscribe
 {: .code}
 
-plain 텍스트 메일인지 확인하세요. HTML은 동작하지 않습니다.
+평문 메일인지 확인하세요. HTML은 동작하지 않습니다.
 
 ### help 명령어
 
-명렁어 리스트를 보시려면 controller 메일 주소로 본문이 “help”인 메일을 보내세요.
+명렁어 목록을 보시려면 controller 메일 주소로 본문이 “help”인 메일을 보내세요.
 

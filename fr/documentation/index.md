@@ -4,7 +4,7 @@ title: "Documentation"
 lang: fr
 ---
 
-Vous trouverez ici des manuels, tutoriaux et références pour apprendre
+Vous trouverez ici des manuels, tutoriels et références pour apprendre
 Ruby. Une bonne partie de ces ressources est en langue anglaise. Sachez
 qu’il existe une association française pour la promotion du langage
 Ruby, [Ruby France][1], qui propose des tutoriels en français ; il
@@ -13,12 +13,27 @@ l’anglais est recommandée car il s’agit *de facto* de la langue
 dominante en informatique. Bon courage !
 {: .summary}
 
+### Installer Ruby
+
+À moins que vous ne vouliez essayer Ruby dans un navigateur (voir les liens
+plus bas) vous avez besoin d'avoir Ruby installé sur votre ordinateur.
+Vous pouvez vérifier si Ruby est déjà disponible en ouvrant une invite de
+commande et en tapant
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+Ceci devrait afficher des informations sur la version de ruby qui est installée.
+Dans le cas contraire, référez-vous à la [page d’installation](installation/)
+pour les nombreuses façons d'obtenir Ruby.
+
 ### Débuter avec Ruby
 
 #### Ressources en français
 
 [Ruby en vingt minutes](/fr/documentation/quickstart/)
-: Ce tutorial simple d’accès, **en français**, couvre les fondamentaux
+: Ce tutoriel simple d’accès, **en français**, couvre les fondamentaux
   de Ruby. Ne devrait pas prendre plus de vingt minutes de votre temps !
 
 [Passer d’un autre langage à Ruby](/fr/documentation/ruby-from-other-languages/)
