@@ -2,8 +2,7 @@ source "https://rubygems.org"
 ruby '2.2.2'
 
 gem 'rake',   '~> 10.0'
-gem 'jekyll', '~> 1.0'
-gem 'kramdown'
+gem 'jekyll', '~> 2.0'
 
 gem 'unicorn'
 gem 'rack-jekyll'
