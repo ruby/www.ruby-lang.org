@@ -4,7 +4,7 @@ title: "루비 2.2.2 릴리스"
 author: "nagachika"
 translator: "marocchino"
 date: 2015-04-13 12:00:00 +0000
-lang: en
+lang: ko
 ---
 
 루비 2.2.2가 릴리스되었습니다.
