@@ -2,6 +2,7 @@ require 'rack/jekyll'
 require 'rack/rewrite'
 require 'rack/ssl'
 require 'rack/protection'
+require 'yaml'
 
 use Rack::CommonLogger
 
