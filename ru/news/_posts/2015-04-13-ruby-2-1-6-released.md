@@ -12,7 +12,7 @@ lang: ru
 Этот релиз содержит исправление уязвимости безопасности расширения OpenSSL.
 Детали уязвимости ниже.
 
-* [CVE-2015-1855: Ruby OpenSSL верификация имени хоста](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
+* [CVE-2015-1855: Ruby OpenSSL верификация имени хоста](https://www.ruby-lang.org/ru/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 А также включены многие другие исправления.
 Подробнее можно узнать из [тикетов](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)

@@ -12,7 +12,7 @@ lang: ru
 
 Этот релиз содержит исправление уязвимости безопасности расширения OpenSSL.
 
-* [CVE-2015-1855: Ruby OpenSSL верификация имени хоста](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
+* [CVE-2015-1855: Ruby OpenSSL верификация имени хоста](https://www.ruby-lang.org/ru/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 В релиз включены также несколько других исправлений.
 Смотри [лог изменений](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
