@@ -368,7 +368,7 @@ methods, and cannot be redefined:
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-In addition, `+=`, `*=` etc. are just abbrevations for `var = var + other_var`,
+In addition, `+=`, `*=` etc. are just abbreviations for `var = var + other_var`,
 `var = var * other_var`, etc. and therefore cannot be redefined.
 
 ## Finding Out More
