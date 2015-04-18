@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "Ruby 2.1.6 Released"
+title: "Phát hành Ruby 2.1.6"
 author: "usa"
 translator: "My Mai"
 date: 2015-04-13 12:00:00 +0000
-lang: vn
+lang: vi
 ---
 
 Phiên bản Ruby 2.1.6 đã được phát hành.
@@ -49,8 +49,8 @@ và [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
       SHA256: ecbc4b97cc78e96e01375b961936133279db806044fd4d23771136dae4c1056d
       SHA512: d1450bd013dbaabf10d7097e9dcd8c3f027110c08693ee7c94c002ea96b7e6e171c951b8b1ca3971b7f89e05b15df00ec56a006f9393889ae7f8045e9b328fad
 
-## Lời nhắn
+## Lời nhắn của lần phát hành này
 
-Cảm ơn tất cả những người đã giúp đỡ cho phiên bản này, đặc biệt là Nagachika.
+Cảm ơn tất cả những người đã giúp đỡ cho phiên bản này, đặc biệt là nagachika.
 
 Tiếp tục duy trì Ruby 2.1, bao gồm cả phiên bản phát hành lần này được dựa trên “Sự đồng ý đối với các phiên bản Ruby ổn định” của [hiệp hội Ruby](http://www.ruby.or.jp/).
