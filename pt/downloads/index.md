@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Download Ruby"
+title: "Baixe o Ruby"
 lang: pt
 ---
 
@@ -18,14 +18,14 @@ eventualmente também uma boa solução porque pode não haver pacotes
 pré-construídos para a sua plataforma.
 
 * [Ruby {{ site.downloads.stable.version }}][stable-gz]
-  (sha256:&nbsp;{{ site.downloads.stable.sha256.gz }}) Stable (*recommended*)
+  (sha256:&nbsp;{{ site.downloads.stable.sha256.gz }}) Estável (recomendado)
 * [Snapshot Estável][stable-snapshot-gz] Ficheiros compactados em tar e gzip do último
   CVS estável. Deverá ser melhor que o última distribuição estável.
 * [Snapshot Nocturno][nightly-gz] Ficheiros compactados em tar e gzip do último
   CVS. Pode conter problemas por resolver.
 
 Para informações sobre o repositório CVS de Ruby, veja a nossa página
-[Ruby core](/pt/community/ruby-core/) .
+[núcleo do Ruby](/pt/community/ruby-core/) .
 
 ### Ruby Em Windows
 
@@ -44,9 +44,9 @@ com um conjunto adicional de bibliotecas agregadas.)
   (md5:&nbsp;86ac589a955898c3163b161d81750a05) Versão Estável
 * [Ruby 1.9.2-p180 RubyInstaller][8]
   (md5:&nbsp;2c94aef50987416d64c85a4ea0fa428b) Versão Estável (*recomendada*)
-* [Ruby 1.8.7-p249 Binary][9]
+* [Ruby 1.8.7-p249 Binário][9]
   (md5:&nbsp;4fd37b0b4b21a042cae7f5f0a8daad16) Versão Estável
-* [Ruby 1.9.1-p378 Binary][10]
+* [Ruby 1.9.1-p378 Binário][10]
   (md5:&nbsp;7d14a918cc8d243d3e2c409aff41f454) Versão Estável
 
 Note que ao utilizar os binários acima indicados será necessário
