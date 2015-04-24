@@ -9,7 +9,7 @@ lang: vi
 
 Phiên bản Ruby 2.1.6 đã được phát hành.
 
-Phiên bản phát hành lần này bao gồm việc sửa chữa bảo mật cho OpenSSL extension.
+Phiên bản phát hành lần này bao gồm việc sửa chữa bảo mật cho tiện ích OpenSSL.
 Xem các chủ đề bên dưới để biết thêm chi tiết.
 
 * [CVE-2015-1855: Xác nhận Hostname Ruby OpenSSL](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
