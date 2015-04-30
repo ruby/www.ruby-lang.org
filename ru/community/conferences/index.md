@@ -23,7 +23,7 @@ lang: ru
 [RubyKaigi][3]
 : Первая японская Ruby конференция, RubyKaigi 2006, была проведена в
   Odaiba. RubyKaigi предоставляет много новых захватывающих докладов от
-  Matz'а и других рубистов каджый год.
+  Matz'а и других рубистов каждый год.
 
 [EuRuKo <small>(European Ruby Conference)</small>][4]
 : Первая ежегодная европейская Ruby конференция (EuRuKo) была в Karlsruhe,
