@@ -72,6 +72,8 @@ annually in Burlington, VT. The conference is two days long and follows a
 single track. The focus of the conference is on creating an environment to
 learn, have fun and meet fellow Rubyists.
 
+[GoRuCo][19]: New York City's annual Ruby conference. A one-day single-track conference.
+
 ### Ruby At Other Conferences
 
 There has been a Ruby track at the [O’Reilly Open Source Conference][10]
@@ -103,3 +105,4 @@ O’Reilly), and Canada on Rails.
 [16]: http://steelcityruby.org/
 [17]: http://ruby.onales.com/
 [18]: http://burlingtonrubyconference.com
+[19]: http://goruco.com/
