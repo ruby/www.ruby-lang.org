@@ -39,7 +39,7 @@ GEM
     jekyll-watch (1.2.1)
       listen (~> 2.7)
     kgio (2.9.3)
-    kramdown (1.6.0)
+    kramdown (1.7.0)
     liquid (2.6.2)
     listen (2.10.0)
       celluloid (~> 0.16.0)
@@ -80,7 +80,7 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    unicorn (4.8.3)
+    unicorn (4.9.0)
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
