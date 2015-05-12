@@ -74,6 +74,9 @@ learn, have fun and meet fellow Rubyists.
 
 [GoRuCo][19]: New York City's annual Ruby conference. A one-day single-track conference.
 
+[DeccanRubyConf][20]: Pune (India), City's annual Ruby conference, themed around fun activities filled around the day. 
+It is a single-day single-track conference.
+
 ### Ruby At Other Conferences
 
 There has been a Ruby track at the [O’Reilly Open Source Conference][10]
@@ -106,3 +109,4 @@ O’Reilly), and Canada on Rails.
 [17]: http://ruby.onales.com/
 [18]: http://burlingtonrubyconference.com
 [19]: http://goruco.com/
+[20]: http://www.deccanrubyconf.org/
