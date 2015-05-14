@@ -16,7 +16,7 @@ Ruby.
   Stiff][2]. Não necessita de instalar o Ruby, este tutorial permite-lhe
   escrever código Ruby no seu browser web!
 
-[Learn to Program][3]
+[Aprenda a Programar][3]
 : Pequeno maravilhoso tutorial por Chris Pine para iniciados em
   programação. Se não sabe programar, comece aqui.
 
@@ -28,7 +28,7 @@ Ruby.
 : Chegou ao Ruby por outra linguagem ? Quer seja C, C++, Java, Perl,
   PHP, ou Python, este artigo é para si!
 
-[Learning Ruby][4]
+[Aprende a Programar con Ruby][4]
 : Uma colecção completa de estudos e notas sobre Ruby, para os
   principiantes na linguagem e à procura de uma introdução sólida aos
   conceitos e construtores de Ruby.
@@ -37,7 +37,7 @@ Ruby.
 : Colecção de perguntas frequentes sobre Ruby. Pode até propor uma nova
   questão para ser adicionada à FAQ.
 
-[Things Any Newcomer Should Know][6]
+[Coisas Qualquer Iniciante Deve Saber][6]
 : Página da [Ruby Garden Wiki][7] explicando algumas coisas que qualquer
   principiante deve saber.
 
@@ -52,7 +52,7 @@ Ruby.
   raposas que falam e “*chunky bacon*”, este pequeno livro está bem no
   caminho para ser um clássico de Ruby.
 
-[Ruby User’s Guide][11]
+[Guia do Usuário do Ruby][11]
 : O Jornal traduzido por Goto Kentaro e Mark Slagell do original Japonês
   de Yukihiro Matsumoto – criador do Ruby – é uma boa visão sobre muitos
   aspectos desta linguagem.
