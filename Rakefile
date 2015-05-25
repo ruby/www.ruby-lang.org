@@ -85,6 +85,9 @@ namespace :new_post do
   end
 end
 
+desc "Alias for `check'"
+task :test => [:check]
+
 namespace :check do
 
   def read_yaml(filename)
