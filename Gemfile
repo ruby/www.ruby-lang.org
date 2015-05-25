@@ -5,7 +5,7 @@ gem 'rake',   '~> 10.0'
 gem 'jekyll', '~> 2.0'
 
 gem 'unicorn'
-gem 'rack-jekyll', '>= 0.4.0', github: 'adaoraul/rack-jekyll'
+gem 'rack-jekyll'
 gem 'rack-rewrite'
 gem 'rack-ssl'
 gem 'rack-protection'
