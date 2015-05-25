@@ -22,7 +22,7 @@ Agora vamos criar e usar um objecto Anfitrião:
 {% highlight irb %}
 irb(main):035:0> h = Anfitriao.new("João")
 => #<Anfitriao:0x16cac @nome="João">
-irb(main):036:0> h.dizer_ola
+irb(main):036:0> h.diz_ola
 Ola João
 => nil
 irb(main):037:0> h.dizer_adeus
@@ -76,7 +76,7 @@ significa que não queremos os métodos definidos pelos seus ancestrais.
 
 {% highlight irb %}
 irb(main):040:0> Anfitriao.instance_methods(false)
-=> ["dizer_adeus", "dizer_ola""]
+=> ["dizer_adeus", "diz_ola""]
 {% endhighlight %}
 
 Há mais coisas a explorar. Vejamos a que métodos pode responder o nosso
@@ -91,7 +91,7 @@ irb(main):043:0> h.respond_to?("to_s")
 => true
 {% endhighlight %}
 
-Assim ficamos a saber que responde a `dizer_ola`, e `to_s` (que
+Assim ficamos a saber que responde a `diz_ola`, e `to_s` (que
 significa “converter algo numa string”, um método que está definido por
 omissão para todos os objectos), mas que não reconhece `nome` como
 método.
@@ -120,7 +120,7 @@ irb(main):048:0> h.respond_to?("nome")
 => true
 irb(main):049:0> h.respond_to?("nome=")
 => true
-irb(main):050:0> h.dizer_ola
+irb(main):050:0> h.diz_ola
 Ola Pedro
 => nil
 irb(main):051:0> h.nome="Matilde"
@@ -129,7 +129,7 @@ irb(main):052:0> h
 => #<Anfitrion:0x3c9b0 @nome="Matilde">
 irb(main):053:0> h.nome
 => "Matilde"
-irb(main):054:0> h.dizer_ola
+irb(main):054:0> h.diz_ola
 Ola Matilde
 => nil
 {% endhighlight %}
@@ -162,7 +162,7 @@ class MegaAnfitriao
   end
 
   # Dizer ola a todos
-  def dizer_ola
+  def diz_ola
     if @nomes.nil?
       puts "..."
     elsif @nomes.respond_to?("each")
@@ -194,23 +194,23 @@ end
 
 if __FILE__ == $0
   mh = MegaAnfitriao.new
-  mh.dizer_ola
+  mh.diz_ola
   mh.dizer_adeus
 
   # Alterar o nome para "Diogo"
   mh.nomes = "Diogo"
-  mh.dizer_ola
-  mh.dizer_ola
+  mh.diz_ola
+  mh.diz_ola
 
   # Alterar o nome para um vector de nomes
   mh.nomes = ["Alberto", "Beatriz", "Carlos",
     "David", "Ernesto"]
-  mh.dizer_ola
+  mh.diz_ola
   mh.dizer_adeus
 
   # Alterar para nil
   mh.nomes = nil
-  mh.dizer_ola
+  mh.diz_ola
   mh.dizer_adeus
 end
 {% endhighlight %}

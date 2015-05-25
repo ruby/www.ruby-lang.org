@@ -25,11 +25,11 @@ um sistema operativo do tipo Unix, isto indica á shell como executar o
 ficheiro. Os restantes comentários só se encontram ali para
 clarificação.
 
-O nosso método `dizer_ola` tornou-se um pouco mais complexo:
+O nosso método `diz_ola` tornou-se um pouco mais complexo:
 
 {% highlight ruby %}
 # Dizer ola a todos
-def dizer_ola
+def diz_ola
   if @nomes.nil?
     puts "..."
   elsif @nomes.respond_to?("each")
