@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0050号 発行"
 author: "gunjisatoshi"
-date: 2015-05-10 13:30:00 UTC
+date: 2015-05-10 13:30:00 +0000
 lang: ja
 ---
 
