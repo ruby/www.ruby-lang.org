@@ -111,7 +111,7 @@ irb(main):027:2>   end
 irb(main):028:1>   def diz_ola
 irb(main):029:2>     puts "Olá #{@nome}!"
 irb(main):030:2>   end
-irb(main):031:1>   def dizer_adeus
+irb(main):031:1>   def diz_adeus
 irb(main):032:2>     puts "Adeus #{@nome}, volte sempre."
 irb(main):033:2>   end
 irb(main):034:1> end

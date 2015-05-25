@@ -100,7 +100,7 @@ de forma escondida das preocupações do utilizador.
 
 {% highlight ruby %}
 # Dizer adeus a toda a gente
-def dizer_adeus
+def diz_adeus
   if @nomes.nil?
     puts "..."
   elsif @nomes.respond_to?("join")
@@ -112,7 +112,7 @@ def dizer_adeus
 end
 {% endhighlight %}
 
-O método `dizer_adeus` não usa o método `each`, em vez disso verifica se
+O método `diz_adeus` não usa o método `each`, em vez disso verifica se
 `@nomes` responde ao método `join` e se sim, usa-o. Caso contrário
 limita-se a imprimir a variável como string. Este método não se preocupa
 com o verdadeiro tipo da variável, está só a limitar-se a tirar partido

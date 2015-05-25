@@ -25,7 +25,7 @@ irb(main):035:0> h = Anfitriao.new("João")
 irb(main):036:0> h.diz_ola
 Ola João
 => nil
-irb(main):037:0> h.dizer_adeus
+irb(main):037:0> h.diz_adeus
 Adeus João, volta em breve.
 => nil
 {% endhighlight %}
@@ -76,7 +76,7 @@ significa que não queremos os métodos definidos pelos seus ancestrais.
 
 {% highlight irb %}
 irb(main):040:0> Anfitriao.instance_methods(false)
-=> ["dizer_adeus", "diz_ola""]
+=> ["diz_adeus", "diz_ola""]
 {% endhighlight %}
 
 Há mais coisas a explorar. Vejamos a que métodos pode responder o nosso
@@ -177,7 +177,7 @@ class MegaAnfitriao
   end
 
   # Dizer adeus a todos
-  def dizer_adeus
+  def diz_adeus
     if @nomes.nil?
       puts "..."
     elsif @nomes.respond_to?("join")
@@ -195,7 +195,7 @@ end
 if __FILE__ == $0
   mh = MegaAnfitriao.new
   mh.diz_ola
-  mh.dizer_adeus
+  mh.diz_adeus
 
   # Alterar o nome para "Diogo"
   mh.nomes = "Diogo"
@@ -206,12 +206,12 @@ if __FILE__ == $0
   mh.nomes = ["Alberto", "Beatriz", "Carlos",
     "David", "Ernesto"]
   mh.diz_ola
-  mh.dizer_adeus
+  mh.diz_adeus
 
   # Alterar para nil
   mh.nomes = nil
   mh.diz_ola
-  mh.dizer_adeus
+  mh.diz_adeus
 end
 {% endhighlight %}
 
