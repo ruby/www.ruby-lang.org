@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "从 PHP 到 Ruby - Ruby 官方网站"
+title: "从 PHP 到 Ruby"
 lang: zh_cn
 ---
 
