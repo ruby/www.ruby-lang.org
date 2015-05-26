@@ -1,16 +1,13 @@
 ---
 layout: page
-title: "从其它语言到 Ruby - Ruby 官方网站"
+title: "从其它语言到 Ruby"
 lang: zh_cn
 ---
-
-{% include out-of-date.html %}
-
 
 当您初次看到 Ruby 语言代码的时候，它很可能让您想起您使用过的其他编程语言。这是当然的， 因为 Ruby 的大部分语法是
 Perl、Python 和 Java（以及其他语言）的用户所熟悉的。 如果您曾经使用过这这些语言，学习 Ruby 就是小菜一碟。
 
-本文包含了两部分。第一部分说的是从其他语言到 Ruby 时的一些小窍门； 第二部分介绍了 Ruby 语言和其他语言相比较时的一些特性。
+本文包含了两部分。第一部分简明扼要地概述了当你从 *X* 到 Ruby 语言的一些所见所闻； 第二部分介绍了 Ruby 语言主要特性以及与你所熟悉的语言之间的差异。
 
 ## 可以期待什么: *从语言 X* 到 Ruby
 
@@ -27,7 +24,7 @@ Perl、Python 和 Java（以及其他语言）的用户所熟悉的。 如果您
 
 ## 重要的语言特性和一些小技巧
 
-这里介绍了学习 Ruby 语言时应该注意的 Ruby 语言的特性
+这里介绍了学习 Ruby 语言时应该注意的 Ruby 语言的特性。
 
 ### 迭代器
 
@@ -37,12 +34,12 @@ Java），或者以列表做循环（比如 Perl 的 `for (@a) {...}`， 还有 
 
 {% highlight ruby %}
 some_list.each do |this_item|
-  # We're inside the block.
-  # deal with this_item.
+  # 我们在代码块内内部。
+  # 使用 this_item。
 end
 {% endhighlight %}
 
-关于更多 `each` 的信息（还有 `collect`, `find`, `inject`, `sort`, etc.），请参考
+关于更多 `each`（还有 `collect`、`find`、`inject`、`sort` 等）的信息，请参考
 `ri Enumerable` （和 `ri Enumerable#some_method`）。
 
 ### 一切表达方法皆有值
@@ -87,7 +84,7 @@ irb(main):003:0>
 “一切皆是对象”并不是夸张。即使是类和整型变量也都是对象，您可以想使用其他对象一样使用他们：
 
 {% highlight ruby %}
-# This is the same as
+# 等同于
 # class MyClass
 #   attr_accessor :instance_var
 # end
@@ -98,7 +95,7 @@ end
 
 ### 可以改变的常量
 
-常量并不是真正恒定的。如果您改变了一个常量，会有警告，但程序不会中止。 当然这也不是说您“**应该**”改变常量。
+常量并不是真正恒定的。如果您修改了一个已初始化的常量，会触发警告，但程序不会中止。 当然这也不是说您“**应该**”改变常量。
 
 ### 命名约定
 
@@ -113,46 +110,48 @@ end
 
 这里 `Constant` 是 10，而 `Constant()` 是 11。
 
-### 虚拟命名参数
+### 关键字参数
 
-Ruby 并不像 Python 一样支持命名参数，但可以用符和字典来替代。 Ruby on Rails 和其他的一些 Ruby
-程序都使用了这种方法。例如：
+类似 Python, 从 Ruby 2.0 开始，可以使用关键字参数定义方法
 
 {% highlight ruby %}
-def some_keyword_params( params )
-  params
+def deliver(from: "A", to: nil, via: "mail")
+  "Sending from #{from} to #{to} via #{via}."
 end
-some_keyword_params( :param_one => 10, :param_two => 42 )
-# => {:param_one=>10, :param_two=>42}
+
+deliver(to: "B")
+# => "Sending from A to B via mail."
+deliver(via: "Pony Express", from: "B", to: "A")
+# => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
-### 全是真值
+### 通用真值
 
 Ruby 把任何不是 **nil** 和 **false** 的值当作真值。在 C，Python 和其他语言里，0 和一些其他的值，
 比如空的列表，会被当作假值。看一看下面的 Python 代码（这个例子也可以被应用到其他语言）：
 
 {% highlight python %}
-# in Python
+# Python 中
 if 0:
-  print "0 is true"
+  print "0 为真"
 else:
-  print "0 is false"
+  print "0 为假"
 {% endhighlight %}
 
-这会打印出 “0 is false”，而在 Ruby 中：
+这会打印出 “0 为假”，而在 Ruby 中：
 
 {% highlight ruby %}
-# in Ruby
+# Ruby 中
 if 0
-  puts "0 is true"
+  puts "0 为真"
 else
-  puts "0 is false"
+  puts "0 为假"
 end
 {% endhighlight %}
 
-会打印出 “0 is true”。
+会打印出 “0 为真”。
 
-### 权限声明应用到范围的底线
+### 权限声明应用至作用域底部
 
 下面的 Ruby 代码中，
 
@@ -164,37 +163,35 @@ class MyClass
 end
 {% endhighlight %}
 
-您可能认为 `another_method` 是公开的。并不是这样的，”private” 权限声明会一直应用到类声明底线，
+您可能认为 `another_method` 是公有的。并不是这样的，”private” 权限声明会一直应用到类声明底部，
 或者直到另外一个权限声明开始起作用。函数默认是公开的：
 
 {% highlight ruby %}
 class MyClass
-  # Now a_method is public
+  # a_method 为公有
   def a_method; true; end
 
   private
 
-  # another_method is private
+  # another_method 为私有
   def another_method; false; end
 end
 {% endhighlight %}
 
-`public`， `private` 和 `protected` 其实都是函数， 所以他们可以接受参数。如果您给他们传递一个符号的话，那么符号所代表的函数的可见性会被改变。
+`public`、`private` 和 `protected` 其实都是方法， 所以他们可以接受参数。如果您给他们传递一个符号的话，那么符号所代表的函数的可见性会被改变。
 
 ### 函数访问
 
-在 Java 里，`public` 表示函数可以被任何人访问。`protected` 表示此类实例、此继承类的实例及在
-同一个包内的所有类的实例可以访问，其他人则不能。`private` 表示任何此类实例外的人都不能访问。
+在 Java 里，`public` 表示方法可以被任何人访问。`protected` 表示此类实例、继承此类的实例及在同一个包内的所有类的实例可以访问，其他人则不能。`private` 表示任何此类实例外的人都不能访问。
 
-Ruby 有些不同。`public` 还是公开的。`private`
-表示只有不需要给出接受者（receiver）的调用才是允许的。**self** 是隐藏 函数唯一承认的接收者。
+Ruby 有些不同。`public` 还是公开的。`private` 表示只有非明确指定接收者（receiver）才允许调用。私有方法调用只允许 **self** 为接收者。
 
-`protected` 应该特别注意。保护函数可以被类及继承类的实例调用，当其他实例作为接收者时，也可以被调用。 来自[Ruby FAQ][1] 的例子:
+`protected` 应该特别注意。受保护的方法可以被类及继承类的实例调用，同一个类的其他实例也可以调用。 来自[Ruby FAQ][1] 的例子:
 
 {% highlight irb %}
 $ irb
 irb(main):001:0> class Test
-irb(main):002:1>   # public by default
+irb(main):002:1>   # 默认公开
 irb(main):003:1*   def func
 irb(main):004:2>     99
 irb(main):005:2>   end
@@ -211,15 +208,15 @@ irb(main):013:0> t2 = Test.new
 => #<Test:0x342784>
 irb(main):014:0> t1 == t2
 => true
-irb(main):015:0> # now make `func` protected, still works
-irb(main):016:0* # because protected allows the other reference
+irb(main):015:0> # 修改 `func` 为受保护方法，仍然可用
+irb(main):016:0* # 因为受保护方法允许其他引用
 irb(main):017:0* class Test
 irb(main):018:1>   protected :func
 irb(main):019:1> end
 => Test
 irb(main):020:0> t1 == t2
 => true
-irb(main):021:0> # now make `func` private
+irb(main):021:0> # 修改 `func` 为私有方法
 irb(main):022:0* class Test
 irb(main):023:1>   private :func
 irb(main):024:1> end
@@ -232,34 +229,30 @@ NoMethodError: private method `func' called for #<Test:0x342784>
 irb(main):026:0>
 {% endhighlight %}
 
-### Classes are open
+### 类是开放的
 
-Ruby classes are open. You can open them up, add to them, and change them at any time. Even core classes, like `Fixnum` or even `Object`, the parent of all objects. Ruby on Rails defines a bunch of methods for dealing with time on `Fixnum`. Watch:
+Ruby 的类是开放的。任何时候你都可以打开它进行增加和修改。即使像 `Fixnum` 这样的核心类，甚至是所有对象的父类 `Object` 类都可以打开。Ruby on Rails 在 `Fixnum` 类里定义了一大堆方法来处理时间问题。请看：
 
 {% highlight ruby %}
 class Fixnum
   def hours
-    self * 3600 # number of seconds in an hour
+    self * 3600 # 一小时有多少秒
   end
   alias hour hours
 end
 
-# 14 hours from 00:00 January 1st
-# (aka when you finally wake up ;)
+# 一月一号之后的 14 个小时
+# （也就是你醒来的时间）
 Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 {% endhighlight %}
 
-### Funny method names
+### 有趣的方法名
 
-In Ruby, methods are allowed to end with question marks or exclamation marks. By convention, methods that answer questions (i.e. `Array#empty?` returns **true** if the receiver is empty) end in question marks. Potentially “dangerous” methods (ie methods that modify **self** or the arguments, `exit!` etc.) by convention end with exclamation marks. All methods that change their arguments don’t end with exclamation
-marks, though. `Array#replace` replaces the contents of an array
-with the contents of another array. It doesn’t make much sense to have a
-method like that that **doesn’t** modify self.
+Ruby 的方法名允许以问号或感叹号结尾。习惯上，以问号结尾的方法返回布尔值（如：如果接收者为空的话 `Array#empty?` 返回 **true** ）。潜在“危险”方法（如修改 **self** 或参数的方法，`exit!` 等）以感叹号结尾。也不是所有修改参数的方法以感叹号结尾。 比如 `Array#replace` 方法将当前列表替换成另一个列表。毕竟这些方法就是为此而生的，**不修改**自身就没什么意义了。
 
-### Singleton methods
+### 单例方法（Singleton methods）
 
-Singleton methods are per-object methods. They are only available on the
-Object you defined it on.
+单例方法是单一对象方法。只在定义过的对象上可用。
 
 {% highlight ruby %}
 class Car
@@ -276,106 +269,88 @@ end
 
 porsche.inspect # => Expensive car
 
-# Other objects are not affected
+# 其他对象不受影响
 other_car = Car.new
 other_car.inspect # => Cheap car
 {% endhighlight %}
 
-### Missing methods
+### Missing 方法
 
-Ruby doesn’t give up if it can’t find a method that responds to a
-particular message. It calls the `method_missing` method with the name
-of the method it couldn’t find and the arguments. By default,
-`method_missing` raises a NameError exception, but you can redefine it to
-better fit your application, and many libraries do. Here is an example:
+针对不存在的方法，Ruby 同样会进行处理。它会将这个不存在的方法名作为参数传递给 `method_missing`。`method_missing` 默认会抛出一个 NameError 异常，可以根据你的应用场景重新定义这个方法，许多库都是这么做的。看下面这个例子：
 
 {% highlight ruby %}
-# id is the name of the method called, the * syntax collects
-# all the arguments in an array named 'arguments'
+# id 是被调用的方法，* 号语法将所有参数收集到 "arguments" 数组内
 def method_missing(id, *arguments)
-  puts "Method #{id} was called, but not found. It has " +
-       "these arguments: #{arguments.join(", ")}"
+  puts "调用了不存在的方法：#{id}。它的参数：#{arguments.join(", ")}"
 end
 
 __ :a, :b, 10
-# => Method __ was called, but not found. It has these
-# arguments: a, b, 10
+# => 调用了不存在的方法：__。它的参数：a, b, 10}
 {% endhighlight %}
 
-The code above just prints the details of the call, but you are free to
-handle the message in any way that is appropriate.
+上面的代码会打印出调用细节，你也可以选择任何适当的方式处理这个消息。
 
-### Message passing, not function calls
+### 消息传递，非函数调用
 
-A method call is really a **message** to another object:
+方法调用实际将一条 **消息** 传递给另一个对象：
 
 {% highlight ruby %}
-# This
+# 这个
 1 + 2
-# Is the same as this ...
+# 跟下面这一样
 1.+(2)
-# Which is the same as this:
+# 跟下面这个也一样
 1.send "+", 2
 {% endhighlight %}
 
-### Blocks are Objects, they just don’t know it yet
+### 代码块也是对象，只是它们自己还不知道
 
-Blocks (closures, really) are heavily used by the standard library. To
-call a block, you can either use `yield`, or make it a `Proc` by
-appending a special argument to the argument list, like so:
+代码块（实际是闭包）广泛应用于标准库。可以使用 `yield` 调用一个代码块，或者像下面这样，通过一个特殊的参数将它变为一个 `Proc`：
 
 {% highlight ruby %}
 def block(&the_block)
-  # Inside here, the_block is the block passed to the method
-  the_block # return the block
+  # 这里，the_block 是被传递进来的代码块
+  the_block # 返回这个代码块
 end
 adder = block { |a, b| a + b }
-# adder is now a Proc object
+# adder 现在是一个 Proc 对象
 adder.class # => Proc
 {% endhighlight %}
 
-You can create blocks outside of method calls, too, by calling `Proc.new`
-with a block or calling the `lambda` method.
+调用 `lambda` 或 `Proc.new` 均可在方法外部创建代码块。
 
-Similarly, methods are also Objects in the making:
+方法同样也是对象。
 
 {% highlight ruby %}
-method(:puts).call "puts is an object!"
-# => puts is an object!
+method(:puts).call "puts 是一个对象!"
+# => puts 是一个对象!
 {% endhighlight %}
 
-### Operators are syntactic sugar
+### 操作符是语法糖
 
-Most operators in Ruby are just syntactic sugar (with some precedence
-rules) for method calls. You can, for example, override Fixnums +
-method:
+Ruby 中的大部分操作符仅仅是方法调用（根据一些优先级）的语法糖。例如，你可以覆盖 Fixnum 的 + 方法：
 
 {% highlight ruby %}
 class Fixnum
-  # You can, but please don't do this
+  # 请不要这么做，虽然你可以
   def +(other)
     self - other
   end
 end
 {% endhighlight %}
 
-You don’t need C++’s `operator+`, etc.
+你不需要 C++ 的 `operator+` 等。
 
-You can even have array-style access if you define the `[]` and `[]=` methods. To define the unary + and – (think +1 and -2), you must define the `+@` and `-@` methods, respectively. The operators below are **not** syntactic sugar, though. They are not
-methods, and cannot be redefined:
+定义了 `[]` 和 `[]=` 方法后，你甚至拥有了数组风格的访问方法。要想定义一元操作符 + 和 -,你也必须定义相应的 `+@` 和 `-@` 方法。下面的操作符 **不是** 语法糖，它们不是方法，无法重新被定义：
 
 {% highlight ruby %}
 =, .., ..., !, not, &&, and, ||, or, !=, !~, ::
 {% endhighlight %}
 
-In addition, `+=`, `*=` etc. are just abbreviations for `var = var + other_var`,
-`var = var * other_var`, etc. and therefore cannot be redefined.
+此外，`+=`、`*=` 等类似操作符只是 `var = var + other_var`、 `var = var * other_var`等的简写。因此也无法重新被定义。
 
-## Finding Out More
+## 查找更多资料
 
-When you are ready for more Ruby knowledge, see our
-[Documentation](/zh_cn/documentation/) section.
+当你准备学习更多 Ruby 知识的时候，请查看[文档](/zh/documentation)部分。
 
-
-
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html
+[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F

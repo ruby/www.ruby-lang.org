@@ -6,11 +6,20 @@ lang: zh_cn
 
 在这里您可以找到手册、教程和参考资料的链接，在你喜欢上 Ruby 编程的时候，他们将帮上大忙。
 
+### 安装Ruby
+
+除非只想在浏览器里尝试 Ruby（查看下面的链接），否则你的计算机需要安装 Ruby。打开终端，输入以下命令检查 Ruby 是否可用。
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+这个命令输出已安装 Ruby 的版本信息。如无显示，请查看[安装页面](installation/)获取 Ruby 的各种方法。
+
 ### 入门
 
 [尝试 Ruby！][1]
-: 为初学者提供的交互式网上教程。不必安装 Ruby ，此教程让您完全可以在您的浏览器中体验
-  Ruby！
+: 可以在浏览器内体验 Ruby 的交互式教程。此 15 分钟教程主要面向想尝试这门语言的初学者。
 
 [Ruby Koans][2]
 : Ruby Koans 可以指引你走过学习 Ruby 的启蒙之路。
@@ -26,34 +35,34 @@ lang: zh_cn
 : 一本不同寻常但是非常有趣的书，通过故事、幽默和漫画来教你学习 Ruby,
   由 *why the luckystiff* 创作, 本书仍然是学习 Ruby 的经典之作。
 
-[花20分钟体验](/zh_cn/documentation/quickstart/)
+[Ruby 20 分钟入门](/zh_cn/documentation/quickstart/)
 : 不错的介绍 Ruby 基础知识的教程。从开始到结束不超过20分钟。
 
 
 [从其它语言到 Ruby](/zh_cn/documentation/ruby-from-other-languages/)
 : 已经熟悉其他的编程语言？不管是 C++, Java, Perl, PHP, 还是 Python, 这里都有介绍！
 
-[Learning Ruby][6]
+[学习 Ruby][6]
 : 这里汇集了了许多 Ruby 学习摘要以及对 Ruby 概念和结构的全面介绍。
 
-[Ruby Essentials][7]
-: Ruby Essential是一本免费在线书籍，旨在提供一个简短的 Ruby 学习指南。
+[Ruby 概要][7]
+: Ruby Essential是一本免费在线书籍，旨在提供一个简洁、易懂的 Ruby 学习指南。
 
-[Learn to Program][8]
-: 由 Chris Pine 编写的编程入门，如果你还不了解程序，从这里开始吧。
+[学习编程][8]
+: 由 Chris Pine 为编程入门者编写的非常棒的小教程。如果你不知道如何编程，从这里开始。
 
-[Learn Ruby the Hard Way][38]
-: 一系列非常好的带有说明的练习，可以指导你从基本的 Ruby 一路进阶到 OOP 和 WEB 开发。
+[笨方法学 Ruby][38]
+: 一系列非常好的带有说明的练习，可以指导你从基本的 Ruby 一路进阶到面向对象编程和网页开发。
 
 ### 手册
 
-[Programming Ruby][9]
-: 最有影响的 Ruby 教材，第一版是免费的 [Pragmatic Programmers’ book][10] 。
+[Ruby 编程][9]
+: 最有影响的 Ruby 教材，[Pragmatic Programmers’ book][10] 第一版可以在网上免费获得 。
 
-[Ruby User’s Guide][11]
+[Ruby 用户指南][11]
 : 译自松本行弘（Ruby 的发明者）日文版原作，Goto Kentaro 和 Mark Slagell 在这部教材里介绍了 Ruby 的各个方面的功能。
 
-[The Ruby Programming Wikibook][12]
+[Ruby 编程百科全书][12]
 : 免费的在线语言参考资料，内容从 Ruby 初级到中级。
 
 ### 参考文献
@@ -67,18 +76,17 @@ lang: zh_cn
 [RubyDoc.info][16]
 :  关于 Ruby gems 和 Github 上托管的 Ruby 项目的参考文档的一站式站点。
 
-[带搜索功能的 Rails API 文档][17]
+[Ruby 和 Rails 可检索 API 文档][17]
 : 可以智能搜索的 Rails 和 Ruby 文档。
 
 [APIdock][18]
-: 带有用户评注的 Ruby， Rails 和 RSpec 文档。
+: 带有用户评注的 Ruby、Rails 和 RSpec 文档。
 
-### 编辑器和IDE
+### 编辑器和集成开发环境
 
-您可以用您操作系统上默认的编辑器来进行Ruby编程，为了更高效的编程，选择一个基本特性支持 Ruby （比如 代码高亮，文件浏览）的源代码编辑器或者
-对Ruby有着高级特性支持（如 代码补全，重构，测试等） 的集成开发环境（IDE）是非常值得的。
+您可以用您操作系统上默认的编辑器来进行 Ruby 编程。此外，为了更高效的编程，选择一个支持基本特性支持 Ruby（比如 代码高亮，文件浏览）的代码编辑器或者对 Ruby 有着高级特性支持（比如 代码补全，重构，测试支持等）的集成开发环境是非常值得的。
 
-下面是Ruby程序员流行使用的工具列表：
+下面是 Ruby 程序员使用的流行工具列表：
 
 * Linux 和跨平台工具:
   * [Aptana Studio][19]
@@ -99,6 +107,7 @@ lang: zh_cn
 * Mac OS X:
   * [TextMate][32]
   * [TextWrangler][33]
+  * [Dash][39](文档浏览)
 
 ### 进一步阅读
 
@@ -145,3 +154,4 @@ lang: zh_cn
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
+[39]: http://kapeli.com/dash
