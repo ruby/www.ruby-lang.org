@@ -1,0 +1,40 @@
+Ruby 是受版权保护的自由软件，著作权人为 Yukihiro Matsumoto <matz@netlab.jp>.
+根据2-clause BSDL协议 (请参阅 BSDL 文件)和下述条款，你将被授权对它进行重新分发和（或）修改:
+
+  1. 你可以制作和（或）分发源代码格式的完整副本而不受限制，但必须包含原有的一切版权声明及免责声明。
+
+  2. 在满足下述条文中至少一项的前提下，你可以以任何方式修改你的副本:
+
+       a) 将您的修改部分发布于公共领域（或以其他形式确保公众能够免费得到修改后的副本），
+       包括（但不限于）在新闻组（或其他类似媒介）中张贴修改部分，或授权Ruby作者引用修改部分。
+
+       b) 只在你的公司或组织内部使用修改后的副本。
+
+       c) 对于以二进制形式分发的（已修改过的）拷贝使用单独的产品名称，同时提供可以从何处获取原始（未修改过的）拷贝的说明。
+
+       d) 联系作者以取得其他形式的授权。
+
+  3. 在满足下述条文中至少一项的前提下，你可以以任何方式分发软件的源码或其二进制形式:
+
+       a) 在分发库文件或二进制文件时，提供关于可以从何处获取原始拷贝的说明。
+
+       b) 在分发中提供（机器可读的）源代码。
+
+       c) 当使用使用单独的产品名称以二进制形式分发的（已修改过的）拷贝时，同时提供可以从何处获取原始（未修改过的）拷贝的说明。
+
+       d) 联系作者以取得其他形式的授权。
+
+  4. 你可以修改或将其作为其他软件（可以是商业的）的一部分。但对于并非由著作权人撰写的部分，不适用于本条款。
+
+     关于拷贝具体文件所需要的先决条件说明，请参阅 LEGAL 文件
+
+  5. The scripts and library files supplied as input to or produced as 
+     output from the software do not automatically fall under the
+     copyright of the software, but belong to whomever generated them, 
+     and may be sold commercially, and may be aggregated with this
+     software.
+
+  6. THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+     IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+     WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+     PURPOSE.
