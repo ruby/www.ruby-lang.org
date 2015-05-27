@@ -52,7 +52,7 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 
 
 [license]: {{ site.license.url }}
-[installation]: /zh_tw/documentation/installation/
+[installation]: /en/documentation/installation/
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
