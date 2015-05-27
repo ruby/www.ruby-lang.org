@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 2.1.6 Released"
+title: "Ruby 2.1.6 发布"
 author: "usa"
-translator:
+translator: "killernova"
 date: 2015-04-13 12:00:00 +0000
-lang: en
+lang: zh_cn
 ---
 
-Ruby 2.1.6 已经发布.
+Ruby 2.1.6 已经发布。
 
-该发布包含了修复一个OpenSSL扩展的安全漏洞。
+该发布包含了修复一个 OpenSSL 扩展的安全漏洞。
 详细内容如下。
 
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
@@ -50,6 +50,6 @@ Ruby 2.1.6 已经发布.
 
 ## 发布评论
 
-感谢所有为本次发布提供帮助的人，特别感谢 nagachika.
+感谢所有为本次发布提供帮助的人，特别感谢 nagachika。
 
-Ruby 2.1 包括本次发布的版本的维护是基于［Ruby 协会］(http://www.ruby.or.jp/)的“Ruby稳定版本协议”。
+Ruby 2.1 包括本次发布的版本的维护是基于［Ruby 协会］（http://www.ruby.or.jp/）的“Ruby稳定版本协议”。
