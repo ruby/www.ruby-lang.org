@@ -14,7 +14,7 @@ lang: zh_cn
 
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-以及大量的 Bug 修正。
+以及一些 Bug 的修正。
 详见 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
 
 ## 下载
