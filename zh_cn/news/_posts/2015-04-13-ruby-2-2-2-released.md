@@ -8,13 +8,13 @@ lang: zh_cn
 ---
 
 我们很高兴地宣布发布 Ruby 2.2.2。
-这是 Ruby 2.2 的一个补丁版本
+这是 Ruby 2.2 的一个补丁版本。
 
-这次发布包含了修复 OpenSSL 扩展的主机名验证漏洞
+这次发布包含了修复 OpenSSL 扩展的主机名验证漏洞。
 
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-以及大量的 Bug 修正
+以及大量的 Bug 修正。
 详见 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
 
 ## 下载
