@@ -1,62 +1,99 @@
 ---
 layout: page
-title: "代码库 - Ruby 官方网站"
+title: "代码库"
 lang: zh_cn
 ---
 
-{% include out-of-date.html %}
+与大多数的编程语言一样，Ruby 也受益于海量的第三方代码库。
+{: .summary}
 
-在别的地方还有不计其数的有趣并且有用的 Ruby 代码库，在它们中很多是以便捷的 *gem*
-文件格式发布的，其它的则是通过将源代码目录打包成归档文件（例如 .zip 或
-.tar.gz）进行发布。现在让我们一起瞧一瞧怎么寻找并安装代码库，来让它们为你所用。
+这些代码库大部分都以 **Gem** 形式发布。 [**RubyGems**][1] 是设计用来帮助创建，分享和安装
+这些代码库的（从某种意义上来讲，RubyGems 是一个类似于 apt-get 的分布式包管理系统，只不过专注于 Ruby 软件）。从 Ruby 1.9 起，Ruby 默认自带 RubyGems，而之前的版本 Ruby 版本需要先[手动安装][2]。
 
-### 寻找代码库
+还有些其他的代码库以将 **源代码** 压缩成归档文件如 .zip 或 .tar.gz 的形式发布。安装方式多有不同，通常附带有
+ `README` 或 `INSTALL` 文档来指导安装。
 
-主要的三方库都是以 Gem 的形式存放在 [RubyGems.org](http://rubygems.org)，你可以直接打开网页或者用 `gem` 命令。
+ 让我们看下如何查找安装你所需的代码库。
 
+### 查找代码库
 
-#### 搜索 Gem
+[**RubyGems.org**][1] 站点是代码库的主要集散地，它提供 Gem 形式的代码库。你可以直接访问其网站或者使用 `gem` 命令。
 
-**搜索**命令可以通过确定的名字来搜索 gem。要搜索一个名字里包含了 html 关键词的 gem：
+使用 `gem search -r`，能查看 RubyGems 的 Repository 。比如要找 rails，輸入 `gem search -r rails` 会返回与 Rails 相关的 Gem。使用 `--local` (`-l`) 选项就会在本地你已安装的 Gem 中搜索与 Rails 相关的 Gem。使用 `gem install [gem]` 来安装 Gem。可通过 `gem list` 来浏览已安装的 Gem。更多关于 `gem` 命令的说明，请继续阅读，或前往 [RubyGems 的文件][3]。
+
+除了 RubyGems.org 之外，也有其它的站点可供查找代码库。[RubyForge][4] 曾是 Ruby 代码库之家，但近年來 [**GitHub**][5] 作为主要的Ruby相关资源的 Repository 而崛起。現在，通常 Gem 的源代码会被放在 GitHub，而 Gem 会被发布到 RubyGems.org。
+
+[**The Ruby Toolbox**][6] 是一个旨在使搜索开源 Ruby 项目更容易的项目。它按照各种常见的开发任务做了分类，并收集了许多与项目相关的信息，诸如版本发布历史、提交活跃度、代码库相依关系、根据它们在 GitHub 和 RubyGems.org 上的流行程度做评估，让你更易找到所需的代码库。
+
+### 更多关于 RubyGems 的說明
+
+这里是对 `gem` 命令的快速回顾。关于 `gem` 命令更详细的说明，请查阅[更详细的文件][7]。
+
+#### 搜索可用的 Gem
+
+`search` 命令可根据输入的关键字用來查找 Gem。比如輸入 `html` 会返回与 `html` 相关的 Gem：
 
 {% highlight sh %}
-$ gem search html --remote
+$ gem search -r html
 
 *** REMOTE GEMS ***
 
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-(*参数标志`--remote` / `-r` 表明我们将要搜索的是 RubyGems.org 的官方 Gem。*)
+`--remote` 或 `-r` 标识表示我们想要查看 RubyGems.org 的官方仓库（默认设置）。使用 `--local` 或 `-l` 标识表示你想要搜索本地你已安装的 Gem 包。
 
-#### 安装一个 Gem
+#### 安裝 Gem
 
-当你知道你想**安装**哪个 Gem 的时候:
-
-{% highlight sh %}
-$ gem install html-sample
-{% endhighlight %}
-
-你还可以使用 `--version` 参数标志来指定版本的安装代码库。
+一旦你知道你所需要安装的 Gem 包，比如说颇受欢迎的 rails:
 
 {% highlight sh %}
-$ gem install html-sample --version 1.0
+$ gem install rails
 {% endhighlight %}
+
+你甚至可以通过 `--version` 或 `-v` 标识来安装特定版本的代码库:
+
+{% highlight sh %}
+$ gem install rails --version 3.0
+{% endhighlight %}
+
 
 #### 列出所有的 Gem
 
-为了得到一个 RubGems 的所有 Gem 的完整**列表**\:
-
-{% highlight sh %}
-$ gem list --remote
-{% endhighlight %}
-
-要想只列出你已经安装的 gem，去掉后边那个标志参数。
+列出本地安裝的所有 Gem：
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-想要得到更多的关于使用 RubyGems 的信息，请参阅[**官方手册**][10] ，那里包含了一些在 Ruby 脚本中使用 Gem 的例子。
+列出 RubyGems.org 上所有可用的 Gem：
 
-[10]: http://rubygems.org/read/chapter/1
+{% highlight sh %}
+$ gem list -r
+{% endhighlight %}
+
+#### 帮助！
+
+可在终端中直接查看文档:
+
+{% highlight sh %}
+$ gem help
+{% endhighlight %}
+
+`gem help commands` 可查看特定子命令的说明，如 `gem help install`。
+
+#### 打造自己的 Gem
+
+RubyGems.org 上有[系列教程][3]，你可能也想研究 [Bundler][9]，一个用于管理应用依赖关系的通用工具，它可以跟 RubyGems 搭配使用。
+
+
+
+[1]: https://rubygems.org/
+[2]: https://rubygems.org/pages/download/
+[3]: http://guides.rubygems.org/
+[4]: http://rubyforge.org/
+[5]: https://github.com/
+[6]: https://www.ruby-toolbox.com/
+[7]: http://guides.rubygems.org/command-reference/
+[9]: http://bundler.io/
+
