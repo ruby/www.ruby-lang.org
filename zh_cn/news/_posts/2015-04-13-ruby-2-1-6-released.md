@@ -14,9 +14,9 @@ Ruby 2.1.6 已经发布。
 
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-同时修复了许多bug。
+同时修复了许多 bug。
 详细内容请参考 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
+以及 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)。
 
 ## 下载
 
@@ -52,4 +52,4 @@ Ruby 2.1.6 已经发布。
 
 感谢所有为本次发布提供帮助的人，特别感谢 nagachika。
 
-Ruby 2.1 包括本次发布的版本的维护是基于［Ruby 协会］（http://www.ruby.or.jp/）的“Ruby稳定版本协议”。
+Ruby 2.1 包括本次发布的版本的维护是基于[Ruby 协会](http://www.ruby.or.jp/)的“Ruby稳定版本协议”。
