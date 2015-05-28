@@ -2,7 +2,7 @@
 layout: news_post
 title: "临时暂停邮件列表服务"
 author: "hsbt"
-translator:
+translator: "D瓜哥 李君"
 date: 2014-05-31 12:30:00 +0000
 lang: zh_cn
 ---
