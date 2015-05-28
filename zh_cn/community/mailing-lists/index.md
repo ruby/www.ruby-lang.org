@@ -1,29 +1,26 @@
 ---
 layout: page
-title: "邮件列表 - Ruby 官方网站"
+title: "邮件列表"
 lang: zh_cn
 ---
 
-{% include out-of-date.html %}
+邮件列表，是让您的脉搏随时与 Ruby 社区保持一致的伟大方式。
+{: .summary}
 
-邮件列表，是让您的脉搏随时与 Ruby 社区保持一致的伟大方式。Ruby 最主要的四个使用英文语言交流的邮件列表：
+Ruby 最主要的四个使用英文语言交流的邮件列表：
 
 Ruby-Talk
-: This is the most popular mailing-list and deals with general topics
-  about Ruby. Ruby-Talk is mirrored by the
-  [comp.lang.ruby](news:comp.lang.ruby) newsgroup and
-  [Ruby-Forum.org][1]. ([Weekly Summaries][2], [FAQ][3], [Archives][4])
+: 这是处理一般 Ruby 话题最流行的邮件列表。Ruby-Talk 被 [comp.lang.ruby](news:comp.lang.ruby)
+新闻组和 [Ruby-Forum.org][1] 所效仿。([Weekly Summaries][2], [FAQ][3], [Archives][4])
 
 Ruby-Core
-: This list deals with core and implementation topics about Ruby, often
-  used to run patches for review. ([Archives][5])
+: 该列表处理和 Ruby 相关的核心和重点专题，经常被用于补丁审核。([Archives][5])
 
 Ruby-Doc
-: This list is for discussing documentation standards and tools for
-  Ruby. ([Archives at Gmane][6])
+: 该列表用于讨论 Ruby 的标准文档和工具。([Archives at Gmane][6])
 
 Ruby-CVS
-: This list reports all commits to Ruby’s Subversion repository.
+: 该列表报道所有针对 Ruby 的 Subversion 仓库的提交。
 
 ## 订阅 或者 退订
 
