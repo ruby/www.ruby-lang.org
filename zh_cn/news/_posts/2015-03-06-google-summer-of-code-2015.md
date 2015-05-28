@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Google Summer of Code 2015"
+title: "谷歌编程之夏 2015"
 author: "Federico Builes"
 translator: "Kevin Cheng"
 date: 2015-03-06 10:48:37 +0000
