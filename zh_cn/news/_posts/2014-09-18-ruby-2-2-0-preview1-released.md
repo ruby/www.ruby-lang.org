@@ -12,9 +12,9 @@ lang: zh_cn
 Ruby 2.2.0-preview1 是 Ruby 2.2.0 的首个预览版。
 为了满足对 Ruby 日益多样和扩大的需求，这次发布包括了许多新的功能和改进。
 
-例如， Symbol GC 使得 Symbol 可以被回收。
-因为在 Ruby 2.2 发布以前， GC 无法回收 Symbol， 所以这减少了 Symbol 的内存占用。
-Rails 5.0 将会依赖 Symbol GC， 它将只支持 Ruby 2.2 及之后的版本。（更多细节请参考 [Rails' blog post](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)。）
+例如，Symbol GC 使得 Symbol 可以被回收。
+因为在 Ruby 2.2 发布以前，GC 无法回收 Symbol，所以这减少了 Symbol 的内存占用。
+Rails 5.0 将会依赖 Symbol GC，它将只支持 Ruby 2.2 及之后的版本。（更多细节请参考 [Rails' blog post](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/)。）
 
 同时，新的增量 GC 减少了垃圾回收的暂停时间。
 这对于运行 Rails 应用很有帮助。
@@ -42,9 +42,9 @@ Rails 5.0 将会依赖 Symbol GC， 它将只支持 Ruby 2.2 及之后的版本�
 * C API
   * 移除了弃用 API
 
-更多细节请参考 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) 。
+更多细节请参考 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS)。
 
-所有更新中， 有 1239 个文件被更新， 98343 处插入（+）， 61858 处删除（-）
+所有更新中，有 1239 个文件被更新，98343 处插入（+），61858 处删除（-）
 
 ## 下载
 
