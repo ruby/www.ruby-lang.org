@@ -11,22 +11,22 @@ lang: zh_cn
 
 Ruby 2.2.0 版本针对日益增多的各类需求，进行了许多更新和修正，增加了许多新的功能。
 
-例如，Ruby 的垃圾回收器现在可以回收符号对象了。这会减少符号对象的内存占用，在 2.2.0 版本之前，GC都是不能回收符号对象的。Rails 5.0 将开始使用符号GC技术，将只支持 Ruby 2.2 或之后的版本（参考[Rails 4.2 官方发布](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)来获取更多内容）。
+例如，Ruby 的垃圾回收器现在可以回收符号对象了。这会减少符号对象的内存占用，在 2.2.0 版本之前，GC都是不能回收符号对象的。Rails 5.0 将开始使用符号GC技术，将只支持 Ruby 2.2 或之后的版本（参考 [Rails 4.2 官方发布](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)来获取更多内容）。
 
-同时，新使用的增量垃圾回收器减少了停滞时间，对运行 Rails 应用非常有利。根据[Rails log](http://weblog.rubyonrails.org/)指出 Rails 5.0 的开发，将更多的利用增量GC和符号GC。
+同时，新使用的增量垃圾回收器减少了停滞时间，对运行 Rails 应用非常有利。根据 [Rails log](http://weblog.rubyonrails.org/)指出 Rails 5.0 的开发，将更多的利用增量GC和符号GC。
 
-另一个与内存管理相关的功能是给`configure.in`增加了新的选项，可以启用 jemalloc，请参考[Feature #9113](https://bugs.ruby-lang.org/issues/9113)。这个功能还在实验阶段，目前默认没有开启，我们需要收集实际使用和性能的数据来确认有良好的效果。确认之后这个功能会默认开启。
+另一个与内存管理相关的功能是给`configure.in`增加了新的选项，可以启用 jemalloc，请参考 [Feature #9113](https://bugs.ruby-lang.org/issues/9113)。这个功能还在实验阶段，目前默认没有开启，我们需要收集实际使用和性能的数据来确认有良好的效果。确认之后这个功能会默认开启。
 
-另外一个实验性的支持是用 vfork(2) 配合 system() 和 spawn() 使用。你可以阅读[tanaka-san 的博客（日文）](http://www.a-k-r.org/d/2014-09.html#a2014_09_06)来了解个更多信息。这个更改预计会大幅提升 process 执行外部命令的速度。但 vfork(2) 仍被完全理解，可能是一个危险的系统调用。我们会继续实验，直到通过收集性能数据和使用情况实例了解到究竟能提升多少效能。
+另外一个实验性的支持是用 vfork(2) 配合 system() 和 spawn() 使用。你可以阅读 [tanaka-san 的博客（日文）](http://www.a-k-r.org/d/2014-09.html#a2014_09_06)来了解个更多信息。这个更改预计会大幅提升 process 执行外部命令的速度。但 vfork(2) 仍被完全理解，可能是一个危险的系统调用。我们会继续实验，直到通过收集性能数据和使用情况实例了解到究竟能提升多少效能。
 
 请尝试并享受 Ruby 2.2.0，并告诉我们你的发现。
 
 ##Ruby 2.1 以后的重要变更
 
 * [增量GC](https://bugs.ruby-lang.org/issues/10137)
-  ([在 RubyConf2014 上的演讲：“Ruby 解释器的增量GC”](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
+  ([ 在 RubyConf2014 上的演讲：“Ruby 解释器的增量GC”](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [符号GC](https://bugs.ruby-lang.org/issues/9634)
-  ([RubyKaigi2014 演讲](http://www.slideshare.net/authorNari/symbol-gc))
+  ([ RubyKaigi2014 演讲](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc
   [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * 核心函数库：
@@ -50,7 +50,7 @@ Ruby 2.2.0 版本针对日益增多的各类需求，进行了许多更新和修
   * C API；
   * 删除已弃用的API。
 
-参考[NEWS in Ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS)了解更多。
+参考 [NEWS in Ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS)了解更多。
 
 自 Ruby 2.1 以来，已修改1557个文件, 新增代码125039行, 移除代码74376行！
 
