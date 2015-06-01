@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.2.0-preview2发布"
+title: "Ruby 2.2.0-preview2发布了"
 author: "naruse"
 translator: "Will"
 date: 2014-11-28 09:00:00 +0000
 lang: zh_cn
 ---
 
-我们很高兴地宣布，Ruby 2.2.0-preview2发布了。
+我们很高兴地宣布，Ruby 2.2.0-preview2 发布了。
 
 Ruby 2.2.0-preview2 是 Ruby 2.2.0 的第二个预览版，针对使用者日益增多的各类需求，进行了许多更新和修正，增加了许多新的功能。
 
@@ -42,7 +42,7 @@ Ruby 2.2.0-preview2 是 Ruby 2.2.0 的第二个预览版，针对使用者日益
   * 升级 test-unit 至 3.0.7（从代码目录删除，现绑定在 tarball 中）；
   * 升级 minitest 至 5.4.3（从代码目录删除，现绑定在 tarball 中）；
   * 弃用 mathn；
-  * C API；
+* C API；
   * 删除已弃用的 API；
 
 参考 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS) 获取更多信息。
