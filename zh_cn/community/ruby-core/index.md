@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ruby 内核"
+title: "Ruby 核心"
 lang: zh_cn
 ---
 
@@ -54,7 +54,7 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
 ### 改进 Ruby，Patch by Patch
 {: #patching-ruby}
 
-核心团队维护着 [问题跟踪器][10]，它用于提交补丁和报告缺陷到 Matz 和他的团队，这些报告还会提交给 [Ruby内核邮件列表][mailing-lists] 用于讨论，所以你要确定你的请求不会被忽视，你也可以直接发送补丁到邮件列表。总之，我们鼓励你参与接下来的讨论。
+核心团队维护着 [问题跟踪器][10]，它用于提交补丁和报告缺陷到 Matz 和他的团队，这些报告还会提交给 [Ruby 核心邮件列表][mailing-lists] 用于讨论，所以你要确定你的请求不会被忽视，你也可以直接发送补丁到邮件列表。总之，我们鼓励你参与接下来的讨论。
 
 请查看 Matz 撰写的 [补丁作家指南][11] 中的一些技巧，他会教你如何让你的补丁被考虑。
 
@@ -74,13 +74,13 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
 
         $ svn diff > ruby-changes.patch
 
-4.  在 [问题跟踪器][10] 创建一个 ticket，或者用描述该补丁的更新日志条目将补丁发送到 [Ruby 内核邮件列表][mailing-lists]。
+4.  在 [问题跟踪器][10] 创建一个 ticket，或者用描述该补丁的更新日志条目将补丁发送到 [Ruby 核心邮件列表][mailing-lists]。
 
 5.  如果补丁没有问题，提交者们将会被批准使用。
 
 **请注意：** 补丁应该被作为一个 [unified diff][12] 被提交。对于补丁如何被合并的更多信息，请查看 [the diffutils reference][13]。
 
-Ruby 开发的讨论集中在 [Ruby 内核邮件列表][mailing-lists]。如果你好奇你的补丁是否有价值，或者你想讨论 Ruby 的未来，请毫无犹豫的加入吧。脱离主题的讨论是不会被容忍的，良好的主题应该是主旨明确，构思严谨且精心编写的。既然我们追随 Ruby 的创始者，请怀有敬畏之心。
+Ruby 开发的讨论集中在 [Ruby 核心邮件列表][mailing-lists]。如果你好奇你的补丁是否有价值，或者你想讨论 Ruby 的未来，请毫无犹豫的加入吧。脱离主题的讨论是不会被容忍的，良好的主题应该是主旨明确，构思严谨且精心编写的。既然我们追随 Ruby 的创始者，请怀有敬畏之心。
 
 请记住，Ruby 的核心开发者都生活在日本，虽然其中许多人的英语很好，但时差明显。他们也有对应英文版的日语开发目录。耐心一点，如果你的请求没有被解决，请坚持在几天之后再提一次。
 
@@ -89,7 +89,7 @@ Ruby 开发的讨论集中在 [Ruby 内核邮件列表][mailing-lists]。如果�
 
 通常，Ruby 开发者应该熟悉 Ruby 源码和 Ruby 团队的开发风格。为了更加清楚起见，向 Subversion 检入代码的时候，应该尊重以下几点准则：
 
-* 遵循 [GNU 约定][14]，所有的检入应该描述在 `ChangeLog` 中。（许多 Ruby 内核
+* 遵循 [GNU 约定][14]，所有的检入应该描述在 `ChangeLog` 中。（许多 Ruby 核心
 开发者使用 Emacs 的 `add-log` 模式，该模式可以通过命令 `C-x 4 a` 实现。）
 * 检入的日期应该是日本标准时间（UTC+9）。
 * 变更日志中的项目符号点也应该被放到 Subversion 的提交信息当中。在你提交之后，提交信息会通过邮件自动的发送到 Ruby-CVS 列表。
