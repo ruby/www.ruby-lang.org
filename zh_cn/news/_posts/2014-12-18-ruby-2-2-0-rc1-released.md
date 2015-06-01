@@ -15,13 +15,13 @@ Ruby 2.2.0 的最终发布日期定为 2014 年 12 月 25 日。
 
 Ruby 2.2.0 针对使用者日益增多的各类需求，进行了许多更新和修正，增加了许多新的功能。
 
-例如，Ruby的垃圾回收器现在可以回收符号类型对象。这会减少符号的内存占用，因为在 2.2 版本之前，GC 都是不能回收符号对象的。因为 Rails 5.0 版本将支持符号 GC，所以只支持 Ruby 2.2 或之后的版本（参考 [Rails 4.2 release post](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)获取更多信息）。
+例如，Ruby的垃圾回收器现在可以回收符号类型对象。这会减少符号的内存占用，因为在 2.2 版本之前，GC 都是不能回收符号对象的。因为 Rails 5.0 版本将支持符号 GC，所以只支持 Ruby 2.2 或之后的版本（参考 [Rails 4.2 release post](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) 获取更多信息）。
 
-同时，新使用的增量垃圾回收器减少了停滞时间，对运行 Rails 应用非常有利。根据 [Rails log](http://weblog.rubyonrails.org/)指出 Rails 5.0 的开发，将更多的利用增量GC和符号GC。
+同时，新使用的增量垃圾回收器减少了停滞时间，对运行 Rails 应用非常有利。根据 [Rails log](http://weblog.rubyonrails.org/) 指出 Rails 5.0 的开发，将更多的利用增量GC和符号GC。
 
-另一个与内存管理相关的功能是给`configure.in`增加了新的选项，可以启用 jemalloc，请参考 [Feature #9113](https://bugs.ruby-lang.org/issues/9113)。这个功能还在实验阶段，目前默认没有开启，我们需要收集实际使用和性能的数据来确认有良好的效果。确认之后这个功能会默认开启。
+另一个与内存管理相关的功能是给 `configure.in` 增加了新的选项，可以启用 jemalloc，请参考 [Feature #9113](https://bugs.ruby-lang.org/issues/9113)。这个功能还在实验阶段，目前默认没有开启，我们需要收集实际使用和性能的数据来确认有良好的效果。确认之后这个功能会默认开启。
 
-新增了 [在 system() 和 spawn() 中使用 vfork(2) (日文)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06)实验性质的支持。这有机会大幅提升 Process 执行外部命令的速度。但 vfork(2) 仍未被完全理解，调用 vfork(2) 仍是一个有风险的系统调用。 我们希望通过收集使用情况和性能数据来确认是否有比较大的回报。
+新增了 [在 system() 和 spawn() 中使用 vfork(2) (日文)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06) 实验性质的支持。这有机会大幅提升 Process 执行外部命令的速度。但 vfork(2) 仍未被完全理解，调用 vfork(2) 仍是一个有风险的系统调用。 我们希望通过收集使用情况和性能数据来确认是否有比较大的回报。
 
 请尝试并享受用 Ruby 2.2.0-RC1 编程，并告诉我们你的发现。
 
@@ -46,7 +46,7 @@ Ruby 2.2.0 针对使用者日益增多的各类需求，进行了许多更新和
   * 升级 test-unit 至 3.0.8（从代码目录删除，现绑定在 tarball 中）；
   * 升级 minitest 至 5.4.3（从代码目录删除，现绑定在 tarball 中）；
   * 弃用 mathn；
-  * C API；
+* C API；
   * 删除已弃用的 API；
 
 参考 [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_rc1/NEWS) 获取更多信息。
