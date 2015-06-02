@@ -52,23 +52,20 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 * [Basecamp][9], là trình quản lý dự án trên nền web được phát triển bởi
   [37signals][10], hoàn toàn với ngôn ngữ Ruby.
 
-* [43 Things][11] cho phép bạn lưu giữ một danh sách các mục tiêu và chia sẻ
-  nó với cả thế giới. Nó được phát triển hoàn toàn với Ruby.
-
-* [A List Apart][12], tạp chí cho ai thích tạo website, ra đời năm 1997, mới
+* [A List Apart][11], tạp chí cho ai thích tạo website, ra đời năm 1997, mới
   cải tiến site của họ bằng một ứng dụng riêng xây dựng với Ruby on Rails.
 
-* [Blue Sequence][13], Một ứng dụng mission-critical rất tinh vi, và là
+* [Blue Sequence][12], Một ứng dụng mission-critical rất tinh vi, và là
   một phần của công đoạn sản xuất “sequence-in-time” của Toyota Motor Manufacturing,
   vừa được bình chọn vào chung kết giải British Computer (BCS) Information Management Awards.
 
 #### Bảo mật
 
-* [Metasploit Framework][14], một dự án mã nguồn mỡ quản lý bởi
-  [Rapid7][15], là một nền tảng thử nghiệm các tấn công bảo mật
+* [Metasploit Framework][13], một dự án mã nguồn mỡ quản lý bởi
+  [Rapid7][14], là một nền tảng thử nghiệm các tấn công bảo mật
   giúp các chuyên gia kiểm định bảo mật của mạng hay ứng dụng.
   Dự án Metasploit bao gồm trên 700,000 dòng mã và được download
-  trên một triệu lần trong năm 2010. Phiên bản thương mại [Metasploit Express][16] và [Metasploit Pro][17]
+  trên một triệu lần trong năm 2010. Phiên bản thương mại [Metasploit Express][15] và [Metasploit Pro][16]
   do Rapid7 phát triển cũng dựa trên Ruby.
 
 
@@ -83,10 +80,9 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
-[11]: http://www.43things.com
-[12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/
-[14]: http://www.metasploit.com
-[15]: http://www.rapid7.com
-[16]: http://www.rapid7.com/products/metasploit-express.jsp
-[17]: http://www.rapid7.com/products/metasploit-pro.jsp
+[11]: http://www.alistapart.com
+[12]: http://www.bluefountain.com/supply-chain-management/
+[13]: http://www.metasploit.com
+[14]: http://www.rapid7.com
+[15]: http://www.rapid7.com/products/metasploit-express.jsp
+[16]: http://www.rapid7.com/products/metasploit-pro.jsp

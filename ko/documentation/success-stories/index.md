@@ -52,25 +52,22 @@ lang: ko
 * [Basecamp][9]는 [37signals][10]에서 개발한 웹기반 프로젝트 관리 툴입니다.
   코드는 전부 루비로 되어있습니다.
 
-* [43 Things][11]는 목표의 목록을 관리하고 공유할 수 있게 합니다.
-  코드는 전부 루비로 개발 되었습니다.
-
-* [A List Apart][12]는 1997년부터 발행된 웹 사이트를 만드는 사람들을 위한
+* [A List Apart][11]는 1997년부터 발행된 웹 사이트를 만드는 사람들을 위한
   메거진입니다. 최근에 루비 온 레일즈로 만들어진 독자적인 애플리케이션으로
   리뉴얼하였습니다.
 
-* [Blue Sequence][13]는 도요타 자동차 제조에서 사용하는 “sequence-in-time”
+* [Blue Sequence][12]는 도요타 자동차 제조에서 사용하는 “sequence-in-time”
   생산 공정의 일부를 담당하는 복잡한 mission-critical 애플리케이션입니다.
   Blue Sequence는 최근 영국 컴퓨터(BCS) 정보 경영 대상으로 선정되었습니다.
 
 #### 보안
 
-* [Metasploit Framework][14]는 [Rapid7][15]에서 관리하는 커뮤니티형
+* [Metasploit Framework][13]는 [Rapid7][14]에서 관리하는 커뮤니티형
   오픈 소스 프로젝트입니다. Metasploit 프레임워크는 IT 전문가가 자신의
   네트워크 및 응용 프로그램의 보안을 평가하는 데 사용되는 무료 침투
   테스트 플랫폼입니다. Metasploit 프로젝트의 코드 700,000 라인으로
   구성되어 있으며 2010년에만 백만 회 이상 다운로드 되었습니다.
-  상용 버전인 [Metasploit Express][16]와 [Metasploit Pro][17]도
+  상용 버전인 [Metasploit Express][15]와 [Metasploit Pro][16]도
   Rapid7에서 개발하였으며 루비를 사용합니다.
 
 
@@ -85,10 +82,9 @@ lang: ko
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
-[11]: http://www.43things.com
-[12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/
-[14]: http://www.metasploit.com
-[15]: http://www.rapid7.com
-[16]: http://www.rapid7.com/products/metasploit-express.jsp
-[17]: http://www.rapid7.com/products/metasploit-pro.jsp
+[11]: http://www.alistapart.com
+[12]: http://www.bluefountain.com/supply-chain-management/
+[13]: http://www.metasploit.com
+[14]: http://www.rapid7.com
+[15]: http://www.rapid7.com/products/metasploit-express.jsp
+[16]: http://www.rapid7.com/products/metasploit-pro.jsp

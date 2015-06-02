@@ -43,12 +43,10 @@ lang: zh_tw
 
 * [Basecamp][9] ，由 [37signals][10] 公司完全以 Ruby 所撰寫的網頁專案管理系統。
 
-* [43 Things][11] 可讓你保存43個想要達成的目標清單並與世界分享。他也是完全以 Ruby 所撰寫而成。
-
-* [A List Apart][12], 從 1997 年就開始發行的一個針對網站製作者的雜誌，最近改版使用 Ruby on Rails
+* [A List Apart][11], 從 1997 年就開始發行的一個針對網站製作者的雜誌，最近改版使用 Ruby on Rails
   所客製化而成的程式。
 
-* [Blue Sequence][13] ，Toyota 汽車 “sequence-in-time” 生產流程中的一個先進的關鍵性任務應用
+* [Blue Sequence][12] ，Toyota 汽車 “sequence-in-time” 生產流程中的一個先進的關鍵性任務應用
   (mission-critical application)，最近被選入 BCS 資訊管理獎的決選名單。
 
 
@@ -63,6 +61,5 @@ lang: zh_tw
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
-[11]: http://www.43things.com
-[12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/
+[11]: http://www.alistapart.com
+[12]: http://www.bluefountain.com/supply-chain-management/

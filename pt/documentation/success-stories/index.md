@@ -55,15 +55,11 @@ diversos projectos.
   desenvolvida pela [37signals][10] está programada inteiramente em
   Ruby.
 
-* [43 Things][11] permite a qualquer pessoa criar e manter uma lista de
-  objectivos e partilha-la com o mundo. Foi desenvolvido inteiramente em
-  Ruby.
-
-* [A List Apart][12], uma revista para pessoas interessadas na criação
+* [A List Apart][11], uma revista para pessoas interessadas na criação
   de websites que existe desde 1997, foi recentemente renovada e usa uma
   aplicação própria criada em Ruby on Rails.
 
-* [Blue Sequence][13], uma sofisticada aplicação de importância crítica
+* [Blue Sequence][12], uma sofisticada aplicação de importância crítica
   que faz parte do processo de producção “sequence-in-time” da Toyota
   Motors, foi recentemente selecionada como finalista para o concurso da
   British Computer (BCS) Information Management Awards.
@@ -80,6 +76,5 @@ diversos projectos.
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
-[11]: http://www.43things.com
-[12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/
+[11]: http://www.alistapart.com
+[12]: http://www.bluefountain.com/supply-chain-management/
