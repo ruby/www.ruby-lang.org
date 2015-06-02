@@ -13,7 +13,7 @@ lang: zh_cn
 
 * [CVE-2014-8080：XML 扩张的阻断攻击](https://www.ruby-lang.org/zh_cn/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
-本次发布也修改了 ext/openssl 的预设设定。危险的 SSL/TLS 选项预设被关闭了。
+本次发布也修改了 ext/openssl 的默认选项。危险的 SSL/TLS 默认选项被关闭了。
 
 * [Changed default settings of ext/openssl](https://www.ruby-lang.org/zh_cn/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
