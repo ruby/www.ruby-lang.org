@@ -2,7 +2,7 @@
 layout: news_post
 title: "ConFoo 2015 is looking for Ruby speakers"
 author: "ylarrivee"
-translator: Zane5
+translator: "Zane5"
 date: 2014-09-10 06:00:00 +0000
 lang: zh_cn
 ---
