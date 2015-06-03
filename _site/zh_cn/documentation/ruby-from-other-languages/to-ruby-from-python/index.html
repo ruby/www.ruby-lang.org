@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>从 Python 到 Ruby - Ruby 官方网站</title>
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/mobile.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&amp;subset=latin,cyrillic,greek,vietnamese' rel='stylesheet' type='text/css'>
+    <link rel="canonical" href="https://www.ruby-lang.org/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-python/">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    
+  
+
+    <link href="/zh_cn/feeds/news.rss" rel="alternate" title="最新消息(RSS)" type="application/rss+xml">
+
+
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/page.js"></script>
+    
+  </head>
+
+  
+
+  <body>
+    <div id="header">
+      <div id="header_content" class="container">
+        <a href="/zh_cn/">
+          <h1>Ruby</h1>
+          <h2>程序员最要好的朋友</h2>
+        </a>
+
+        <div class="site-links">
+          <a href="/zh_cn/" class="home">Home</a>
+          
+  
+
+
+  <a href="/zh_cn/downloads/">下载</a>
+
+  <a href="/zh_cn/documentation/">文档</a>
+
+  <a href="/zh_cn/libraries/">代码库</a>
+
+  <a href="/zh_cn/community/">社区</a>
+
+  <a href="/zh_cn/news/">新闻</a>
+
+  <a href="/zh_cn/security/">安全</a>
+
+  <a href="/zh_cn/about/">关于 Ruby</a>
+
+
+          <a href="#" class="menu selected">Menu</a>
+        </div>
+
+        <div id="search-box">
+          
+  
+  
+
+<form id="search-form" action="https://www.google.com/cse">
+  <table class="fieldset">
+    <tr>
+      <td>
+        <input class="field" type="text" name="q" size="31" style="background: white url(//www.google.com/coop/intl/zh_cn/images/google_custom_search_watermark.gif) left no-repeat" onfocus="this.style.background='white'" onblur="if (/^\s*$/.test(this.value)) this.style.background='white url(//www.google.com/coop/intl/zh_cn/images/google_custom_search_watermark.gif) left no-repeat'"/>
+      </td>
+      <td>
+        
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input class="button" type="submit" name="sa" value="搜索" />
+      </td>
+    </tr>
+  </table>
+</form>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="page">
+      
+
+
+      <div id="main-wrapper" class="container">
+        <div id="main">
+          <div id="content-wrapper">
+  
+<h1>从 Python 到 Ruby - Ruby 官方网站</h1>
+
+
+
+  <div id="content">
+    <p>Python是另一种很棒的多功能用途编程语言。从 Python 转换到 Ruby，你会发现需要比学 Python 时多记一些语法。</p>
+
+<h3>相似点</h3>
+
+<p>Ruby 与 Python 类似的地方...</p>
+
+<ul>
+  <li>同样有互动的提示操作环境（叫做 <code>irb</code>）。</li>
+  <li>你同样可以使用指令来读取文件（Python 使用 <code>pydoc</code> 指令，而 Ruby 使用 <code>ri</code>指令）。</li>
+  <li>每行程序同样不需要特别的结尾符号（除了一般的换行）。</li>
+  <li>字符串可以像 Python 的三引号字符串一样的跨越多行。</li>
+  <li>中括号用来表示串列，大括号用来表示字典结构（在 Ruby 称为 “hashes”）。</li>
+  <li>阵列操作起来差不多（阵列相加会产生一个更长的阵列，但像 <code>a3 = [ a1, a2 ]</code> 这样的操作会回调一个二维阵列）。</li>
+  <li>对象是健壮类型而且也都是动态类型。</li>
+  <li>所有东西都是对象，变量只是指向某个对象的参考指标。</li>
+  <li>有些关键字虽然看起来不太一样，但在异常处理方面的操作是差不多的。</li>
+  <li>同样也有嵌入式的文档工具（在 Ruby 中叫做 rdoc）。</li>
+</ul>
+
+<h3>相异点</h3>
+
+<p>Ruby 与 Python 不同的地方...</p>
+
+<ul>
+  <li>字符串是可变动的。</li>
+  <li>你可以建立常量（不想要再改变值的变量）。</li>
+  <li>有些大小写的使用惯例（例如类别名称是以大写字母开头，一般变量则是使用小写字母开头）。</li>
+  <li>只有一种串列容器（阵列），而且它是可变动的。</li>
+  <li>Ruby 的双引号字符串允许使用换码序列 （例如 <code>\t</code>） 以及特别的“表达式置换” （expression substitution）语法（可以让你直接在字符串里直接插入 Ruby 预算后的结果，而不用像 <code>"add " + "strings " + "together"</code> 的字符串组合）。单引号字符串跟 Python 的 <code>r"raw strings"</code>是一样的。</li>
+  <li>没有什么“新式”或”旧式“的类别写法， Ruby 的类别就只有一种写法。</li>
+  <li>你不能直接存取对象的属性。在 Ruby 里指能通过方法调用。</li>
+  <li>方法调用时的小括号通常是可以省略。</li>
+  <li>有 <code>public</code>、 <code>private</code>、以及 <code>protected</code> 。三种方式来设定存取层级，不像 Python 里是用变量名称前后加底线的方式表示。例如 <code>_voluntary_</code> underscore <code>__convention__</code>。</li>
+  <li>”混入（mixins）“功能用来取代多重继承。</li>
+  <li>你可以新增或修改内建的类别。两种程序语言都可以让你在任何时机做这样的修改，但是 Python 会阻止你修改内建的类别 — Ruby 则没有这个限制。</li>
+  <li>使用 <code>true</code> 以及 <code>false</code> 而不是 <code>True</code> 跟 <code>False</code> （Python 里的 <code>None</code>
+在 Ruby 则是 <code>nil</code>）。</li>
+  <li>在测试布林值的真假时，只有 <code>false</code> 跟 <code>nil</code> 会得到假的值，所有其他的值都为真。（包括 <code>0</code>、 <code>0.0</code>、 <code>""</code> 以及 <code>[]</code>）。</li>
+  <li>Ruby 使用 <code>elsif</code> 而不是 <code>elif</code>。</li>
+  <li>Ruby 使用 <code>require</code> 而不是 <code>import</code>，但使用上跟 Python 是一样的。</li>
+  <li>用来产生文档的注释通常写在内容的 <strong>上面</strong> （而不像 docstrings 是写在下面）。</li>
+  <li>Ruby 有许多的捷径可以使用，虽然有比较多要记，但你可以很快学会。这些捷径会让 Ruby 变得更有趣而且更有生产力。</li>
+  <li>Ruby 一旦设置变量没法复位（在 Python 中可以使用 <code>del</code>
+声明）。你可以重置一个变量到 <code>nil</code> 通过垃圾回收机制回收旧的常量，但只要变量还在作用范围内，就会一直存在于符号表中。</li>
+</ul>
+
+
+  </div>
+</div>
+<hr class="hidden-modern" />
+
+<div id="sidebar-wrapper">
+  <div id="sidebar">
+    
+  
+
+
+
+
+
+<div class="navigation">
+  <h3><strong>试用</strong>, 其实很简单!</h3>
+
+  <ul class="menu">
+    <li><a href="http://tryruby.org/">在浏览器上试用 Ruby (英文)</a></li>
+
+    
+    <li><a href="/zh_cn/documentation/quickstart/">20分钟体验 Ruby</a></li>
+    
+
+    
+    <li><a href="/zh_cn/documentation/ruby-from-other-languages/">从其它语言到 Ruby</a></li>
+    
+  </ul>
+</div>
+
+
+
+<div class="navigation">
+  <h3><strong>探索</strong> 新的世界</h3>
+  <ul class="menu">
+    
+    <li><a href="/zh_cn/documentation/">文档</a></li>
+    
+
+    
+
+    
+    <li><a href="/zh_cn/libraries/">代码库</a></li>
+    
+
+    
+    <li><a href="/zh_cn/documentation/success-stories/">成功案例</a></li>
+    
+  </ul>
+</div>
+
+
+
+<div class="navigation">
+  <h3><strong>加入</strong> 友善及日益壮大的社区</h3>
+  <ul>
+    
+    <li><a href="/zh_cn/community/mailing-lists/">邮件列表</a>: 联系喜爱 Ruby 的朋友
+</li>
+    
+
+    
+    <li><a href="/zh_cn/community/user-groups/">用户组</a>: 参与 Ruby 爱好者活动
+</li>
+    
+
+    
+    <li><a href="/zh_cn/community/weblogs/">博客</a>: 阅读 Ruby 相关的博客
+</li>
+    
+
+    
+    <li><a href="/zh_cn/community/ruby-core/">Ruby 核心</a>: 帮助开发 Ruby 语言
+</li>
+    
+
+    
+    <li><a href="https://bugs.ruby-lang.org/">问题跟踪</a>: 报告或帮助解决 Ruby 的问题
+</li>
+    
+  </ul>
+</div>
+
+
+
+
+
+  
+
+
+    <h3>订阅</h3>
+    <p><a href="/zh_cn/feeds/news.rss">最新消息(RSS)</a></p>
+
+
+  </div>
+</div>
+<hr class="hidden-modern" />
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="footer">
+        <div class="site-links">
+          
+  
+
+
+  <a href="/zh_cn/downloads/">下载</a>
+
+  <a href="/zh_cn/documentation/">文档</a>
+
+  <a href="/zh_cn/libraries/">代码库</a>
+
+  <a href="/zh_cn/community/">社区</a>
+
+  <a href="/zh_cn/news/">新闻</a>
+
+  <a href="/zh_cn/security/">安全</a>
+
+  <a href="/zh_cn/about/">关于 Ruby</a>
+
+
+        </div>
+
+        <p>
+
+  This site in other languages:
+
+<a href="/bg/">Български</a>,
+<a href="/de/">Deutsch</a>,
+<a href="/en/">English</a>,
+<a href="/es/">Español</a>,
+<a href="/fr/">Français</a>,
+<a href="/id/">Bahasa Indonesia</a>,
+<a href="/it/">Italiano</a>,
+<a href="/ja/">日本語</a>,
+<a href="/ko/">한국어</a>,
+<a href="/pl/">polski</a>,
+<a href="/pt/">Português</a>,
+<a href="/ru/">Русский</a>,
+<a href="/tr/">Türkçe</a>,
+<a href="/vi/">Tiếng Việt</a>,
+<a href="/zh_cn/">简体中文</a>,
+<a href="/zh_tw/">繁體中文</a>.
+</p>
+
+        
+  <p>本网站使用 Ruby 工具 <a href="http://www.jekyllrb.com/">Jekyll</a> 制作，并有幸由来自 Ruby 社区的会员共同维护。
+请贡献代码至 <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>。
+如有任何疑问和意见，请联系我们的<a href="mailto:webmaster@ruby-lang.org">站点管理员</a>。
+</p>
+
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-620926-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>
