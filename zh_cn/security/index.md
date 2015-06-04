@@ -19,6 +19,8 @@ lang: zh_cn
 
 {% include security_posts.html %}
 
+-查看 [英文](/en/security/) 最近与安全相关的文章。
+
 更多已知漏洞：
 
 
