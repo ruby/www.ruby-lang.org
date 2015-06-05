@@ -40,6 +40,10 @@
     <li><a href="{{ sidebar.explore.books.url }}">{{ sidebar.explore.books.text }}</a></li>
     {% endif %}
 
+    {% if sidebar.explore.rubybib != null %}
+    <li><a href="{{ sidebar.explore.rubybib.url }}">{{ sidebar.explore.rubybib.text }}</a></li>
+    {% endif %}
+
     {% if sidebar.explore.libraries != null %}
     <li><a href="{{ sidebar.explore.libraries.url }}">{{ sidebar.explore.libraries.text }}</a></li>
     {% endif %}
