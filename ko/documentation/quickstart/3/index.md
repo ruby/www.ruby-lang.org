@@ -155,7 +155,7 @@ class MegaGreeter
         puts "Hello #{name}!"
       end
     else
-    puts "Hello #{@names}!"
+      puts "Hello #{@names}!"
     end
   end
 
