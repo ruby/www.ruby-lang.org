@@ -52,21 +52,17 @@ Rubiego w rzeczywistości.
   przez [37signals][10], została zaprogramowana w całości w Rubim (Ruby
   on Rails)
 
-* [43 Things][11] umożliwia przechowywanie listy celów, które
-  chcielibyśmy osiągnąć i dzielenie się nimi ze światem. Aplikacja
-  napisana w całości w Rubim.
-
-* [A List Apart][12], magazyn dla projektantów stron internetowych,
+* [A List Apart][11], magazyn dla projektantów stron internetowych,
   istniejący juz od 1997, ostatnio został odświeżony i oparty o
   aplikację napisaną w Ruby on Rails.
 
-* [Blue Sequence][13], wyrafinowana aplikacja do misji krytycznych,
+* [Blue Sequence][12], wyrafinowana aplikacja do misji krytycznych,
   która stanowi część procesu produkcyjnego silników Toyoty (Toyota
   Motor Manufacturing), została niedawno uznana za finalistę w kategorii
   najlepszych brytyjskich informacyjnych systemów zarządzania (British
   Computer (BCS) Information Management Awards).
 
-* [Wyszukiwarka mieszkaniowa Hogo.pl][14] – wyszukiwarka kontekstowa
+* [Wyszukiwarka mieszkaniowa Hogo.pl][13] – wyszukiwarka kontekstowa
   ogłoszeń mieszkaniowych. Umożliwia przeszukiwanie wszystkich większych
   serwisów z ogłoszeniami nieruchomości z poziomu jednego serwisu.
   Dynamika i rozszerzalność Rubiego umożliwiła stworzenie systemu, który
@@ -76,7 +72,7 @@ Rubiego w rzeczywistości.
   i klasyfikację danych napisana w całości w Rubim z wykorzystaniem
   popularnych bibliotek open-source.
 
-* [Aplikacja do fakturowania Infakt.pl][15] umożliwia wystawianie faktur
+* [Aplikacja do fakturowania Infakt.pl][14] umożliwia wystawianie faktur
   (drukowanie, wysyłanie), tworzenie bazy klientów, wysyłanie upomnień o
   zaległych płatnościach faktur, jak również podziękowania za ich
   opłacenie. Infakt.pl przede wszystkim oszczędza czas użytkowników
@@ -99,8 +95,7 @@ Rubiego w rzeczywistości.
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
-[11]: http://www.43things.com
-[12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/
-[14]: http://www.hogo.pl
-[15]: http://www.infakt.pl
+[11]: http://www.alistapart.com
+[12]: http://www.bluefountain.com/supply-chain-management/
+[13]: http://www.hogo.pl
+[14]: http://www.infakt.pl

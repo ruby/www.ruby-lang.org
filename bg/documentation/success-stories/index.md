@@ -53,13 +53,10 @@ lang: bg
 * [Basecamp][9] е уеб базирана система за управлението на проекти,
   разработена от [37signals][10]
 
-* [43 Things][11] Ви позволява да направите, запазите и споделите списък
-  от цели.
-
-* [A List Apart][12] е списание за програмисти и дизайнери, като сайта
+* [A List Apart][11] е списание за програмисти и дизайнери, като сайта
   съществува от 1997 и е пренаписан на Ruby.
 
-* [Blue Sequence][13] е сложна апликация, част от процеса за
+* [Blue Sequence][12] е сложна апликация, част от процеса за
   производство на Toyota Motor, която наскоро беше избрана за финалист
   на тазгодишните награди на British Computer Information Management.
 
@@ -75,6 +72,5 @@ lang: bg
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
-[11]: http://www.43things.com
-[12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/
+[11]: http://www.alistapart.com
+[12]: http://www.bluefountain.com/supply-chain-management/

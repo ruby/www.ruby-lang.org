@@ -56,13 +56,10 @@ témoignages du « monde réel. »
 * [Basecamp][10], un projet de gestion d’application écrit par
   [37signals][11], est entièrement programmé en Ruby.
 
-* [43 Things][12] vous permet de gérer et partager des *todo lists* en
-  ligne, le tout étant écrit en Ruby.
-
-* [A List Apart][13], un magazine en ligne destiné aux développeurs web
+* [A List Apart][12], un magazine en ligne destiné aux développeurs web
   depuis 1997, a réalisé une refonte totale en utilisant Ruby on Rails.
 
-* [Blue Sequence][14] est un des composants du système d’applications
+* [Blue Sequence][13] est un des composants du système d’applications
   critiques *sequence-in-time* du constructeur automobile Toyota. Il a
   été sélectionné parmi les finalistes des *British Computer Information
   Awards*.
@@ -80,6 +77,5 @@ témoignages du « monde réel. »
 [9]: http://www.level3.com/
 [10]: http://www.basecamphq.com
 [11]: http://www.37signals.com
-[12]: http://www.43things.com
-[13]: http://www.alistapart.com
-[14]: http://www.bluefountain.com/supply-chain-management/
+[12]: http://www.alistapart.com
+[13]: http://www.bluefountain.com/supply-chain-management/
