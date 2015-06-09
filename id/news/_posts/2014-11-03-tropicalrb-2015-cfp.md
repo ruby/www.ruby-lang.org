@@ -4,7 +4,7 @@ title: "Tropical Ruby 2015 CFP Dibuka"
 author: "Guilherme Cavalcanti"
 translator: "meisyal"
 date: 2014-11-03 15:20:57 +0000
-lang: en
+lang: id
 ---
 
 [Tropical Ruby 2015](http://tropicalrb.com), *the beach Ruby conference*,
