@@ -77,9 +77,9 @@ divertirsi e incontrare altri Rubysti.
 
 [RubyDay <small>(Italian Ruby Conference)</small>][19]
 : La conferenza Ruby italiana per eccellenza. Partita nel 2011, negli anni ha
-cercato di accentrare gli sviluppatori Ruby italiani (e non solo) per
-aumentare la cultura del linguaggio giapponese tra gli appassionati ed i
-professionisti.
+  cercato di accentrare gli sviluppatori Ruby italiani (e non solo) per
+  aumentare la cultura del linguaggio giapponese tra gli appassionati ed i
+  professionisti.
 
 ### Ruby ad altre conferenze
 
