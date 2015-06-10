@@ -75,6 +75,12 @@ tenuta annualmente in Burlington, VT. La conferenza dura due giorni e segue
 un unico tracciato. Si focalizza sulla creazione di un ambiente dove imparare,
 divertirsi e incontrare altri Rubysti.
 
+[RubyDay <small>(Italian Ruby Conference)</small>][19]
+: La conferenza Ruby italiana per eccellenza. Partita nel 2011, negli anni ha
+cercato di accentrare gli sviluppatori Ruby italiani (e non solo) per
+aumentare la cultura del linguaggio giapponese tra gli appassionati ed i
+professionisti.
+
 ### Ruby ad altre conferenze
 
 Una sezione su Ruby è esistita dal 2004 alla [O’Reilly Open Source
@@ -106,3 +112,4 @@ e in 2007 da Ruby Central e O’Reilly), e infine Canada on Rails.
 [16]: http://steelcityruby.org/
 [17]: http://ruby.onales.com/
 [18]: http://burlingtonrubyconference.com
+[19]: http://rubyday.it
