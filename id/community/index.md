@@ -29,7 +29,7 @@ untuk memulai petualangan Anda:
 **Ruby di IRC**
 : Anda bisa berbincang-bincang (*chatting*) dengan pengguna Ruby lainnya
   di *channel* IRC untuk Ruby. Ada dua channel yang menarik bagi Rubyist
-  Indonesia, yaitu [#ruby-lang](irc://irc.freenode.net/ruby-lang) untuk
+  Indonesia, yaitu [#ruby](irc://irc.freenode.net/ruby) untuk
   diskusi internasional menggunakan bahasa Inggris dan
   [#ruby-id](irc://irc.freenode.net/ruby-id) untuk diskusi lokal.
 

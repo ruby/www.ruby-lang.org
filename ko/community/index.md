@@ -27,7 +27,7 @@ lang: ko
 : 루비는 여러 언어에 걸쳐 다른 주제를 다루는 다양한 메일링 리스트를 가지고 있습니다.
   루비에 관해 질문이 있다면, 메일링 리스트에 질문하시면 됩니다.
 
-[IRC에서의 루비(#ruby-lang)](irc://irc.freenode.net/ruby-lang)
+[IRC에서의 루비(#ruby)](irc://irc.freenode.net/ruby)
 : 루비 언어 IRC 채널에서 동료 루비스트와 채팅할 수 있습니다.
 
 [루비 코어](ruby-core/)
