@@ -60,12 +60,12 @@ Python’ın aksine, Rubyde,...
   döner. Diğer her şey true döner (`0`, `0.0`, `""`, ve `[]` dahil).
 * `elif` yerine `elsif` kullanılır.
 * `import` yerine `require` kullanılır. Fakat kullanımları aynıdır.
-* The usual-style comments on the line(s) *above* things (instead of
-  docstrings below them) are used for generating docs.
+* Satır(lar)daki bir şeylerin (altındaki belgelendirme karakter
+  dizileri değil de) *üstündeki* alışıldık biçimdeki yorumlar belgeleri
+  oluşturmak için kullanılır.
 * Birçok kısayol vardır , buna rağmen kolay hatırlar, hızlıca
   öğrenirsiniz. Bunlar rubyyi eğlenceli ve çok üretken yapmak içindir.
 * Daha önceden belirlenmiş bir değişkeni silme yolu yoktur (Python’ın
   `del` ifadesi gibi). Değişkeni `nil` olarak ayarlayabilirsiniz, bu
   eski değişkenin eski değerini çöp toplayıcıya gönderir, ama değişken
   kapsamı içinde sembol tablosunda kalmaya devam eder.
-
