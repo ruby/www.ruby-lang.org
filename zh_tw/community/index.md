@@ -20,7 +20,7 @@ lang: zh_tw
 : Ruby 擁有各種不同主題及語言的郵件論壇。如果你有 Ruby 的問題，透過論壇發問是個不錯的方式。台灣的 Ruby 論壇則有
   [RailsFun][railsfun] 以及 [PTT](telnet://ptt.cc) Ruby 版。
 
-[Ruby 的 IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang)
+[Ruby 的 IRC (#ruby)](irc://irc.freenode.net/ruby)
 : 您可以在 Ruby 的 IRC 頻道上與其他 Ruby 愛好者聊天。Ruby Taiwan 的 IRC 頻道則為
   [irc://irc.freenode.net/ruby-tw](irc://irc.freenode.net/ruby-tw)。
 

@@ -26,7 +26,7 @@ começar:
   dúvidas sobre o Ruby, tirá-las numa lista de correio é uma óptima
   forma de o fazer.
 
-[Ruby no IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang "Ruby no IRC")
+[Ruby no IRC (#ruby)](irc://irc.freenode.net/ruby "Ruby no IRC")
 : O canal de IRC do Ruby é um óptimo meio de comunicar com outros
   programadores de Ruby.
 

@@ -33,8 +33,7 @@ lang: ja
   * Rubyの開発用兼、簡単な質疑応答用のチャンネルです。
   * 最近は上述の#ruby-jaがよく利用されています。
 
-* freenodeの[#ruby](irc://freenode/%23ruby?charset=utf-8),
-  [#ruby-lang](irc://freenode/%23ruby-lang?charset=utf-8)
+* freenodeの[#ruby](irc://freenode/%23ruby?charset=utf-8)
   * Rubyの利用者の交流、質問のためのチャンネルです。(英語)
 
 * freenodeの[#ruby-core](irc://freenode/%23ruby-core?charset=utf-8)

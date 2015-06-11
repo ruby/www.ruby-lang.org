@@ -44,7 +44,7 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   sollte diese in einer Mailingliste stellen, um eine Antwort zu
   bekommen.
 
-[Ruby im IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang)
+[Ruby im IRC (#ruby)](irc://irc.freenode.net/ruby)
 : Der Ruby Language IRC-Channel ist eine hervorragende Möglichkeit mit
   anderen Rubyisten zu chatten.
 

@@ -25,7 +25,7 @@ cominciare:
   lingue. Se hai domande su Ruby, un modo efficace di ottenere risposte
   è di inoltrarle in una mailing list.
 
-[Ruby in IRC (#ruby-lang)](irc://irc.freenode.net/ruby-lang)
+[Ruby in IRC (#ruby)](irc://irc.freenode.net/ruby)
 : Il canale IRC (in inglese) Ruby Language è un ottimo modo per
   chiaccherare con altri appassionati di Ruby.
 
