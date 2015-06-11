@@ -51,17 +51,19 @@ Python’ın aksine, Rubyde,...
 * Erişim izinleri için Python’ın `_voluntary_` underscore@*convention*@
   ifadeleri yerine `public`, `private` ve `protected` ifadeleri vardır.
 * Çoklu miras yerine mixinler kullanılır.
-* You can add or modify the methods of built-in classes. Both languages
-  let you open up and modify classes at any point, but Python prevents
-  modification of built-ins — Ruby does not.
+* Gömülü sınıflara metod ekleyebilir ya da bu sınıfların metodlarını
+  değiştirebilirsiniz. İki dil de sınıfları her zaman açıp değiştirmenize
+  izin verir, fakat Python gömülü olanların değiştirilmesini engeller,
+  Ruby ise engellemez.
 * `True` ve `False` yerine `true` ve `false` vardır (ve `None` yerine
   `nil`).
 * Doğruluk test edildiğinde, sadece `false` ve `nil` false bir değer
   döner. Diğer her şey true döner (`0`, `0.0`, `""`, ve `[]` dahil).
 * `elif` yerine `elsif` kullanılır.
 * `import` yerine `require` kullanılır. Fakat kullanımları aynıdır.
-* The usual-style comments on the line(s) *above* things (instead of
-  docstrings below them) are used for generating docs.
+* Satır(lar)daki bir şeylerin (altındaki belgelendirme karakter
+  dizileri değil de) *üstündeki* alışıldık biçimdeki yorumlar belgeleri
+  oluşturmak için kullanılır.
 * Birçok kısayol vardır , buna rağmen kolay hatırlar, hızlıca
   öğrenirsiniz. Bunlar rubyyi eğlenceli ve çok üretken yapmak içindir.
 * Daha önceden belirlenmiş bir değişkeni silme yolu yoktur (Python’ın
