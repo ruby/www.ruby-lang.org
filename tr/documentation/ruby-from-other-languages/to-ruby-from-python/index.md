@@ -51,9 +51,10 @@ Python’ın aksine, Rubyde,...
 * Erişim izinleri için Python’ın `_voluntary_` underscore@*convention*@
   ifadeleri yerine `public`, `private` ve `protected` ifadeleri vardır.
 * Çoklu miras yerine mixinler kullanılır.
-* You can add or modify the methods of built-in classes. Both languages
-  let you open up and modify classes at any point, but Python prevents
-  modification of built-ins — Ruby does not.
+* Gömülü sınıflara metod ekleyebilir ya da bu sınıfların metodlarını
+  değiştirebilirsiniz. İki dil de sınıfları her zaman açıp değiştirmenize
+  izin verir, fakat Python gömülü olanların değiştirilmesini engeller,
+  Ruby ise engellemez.
 * `True` ve `False` yerine `true` ve `false` vardır (ve `None` yerine
   `nil`).
 * Doğruluk test edildiğinde, sadece `false` ve `nil` false bir değer
