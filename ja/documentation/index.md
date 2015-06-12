@@ -31,7 +31,7 @@ lang: ja
 ### リファレンス
 
 [Ruby コアリファレンス (英語)](http://www.ruby-doc.org/core/)
-: [RDoc](http://rdoc.sourceforge.net/)を用いてRubyのソースコードから直接生成したものです。
+: [RDoc](http://docs.seattlerb.org/rdoc/)を用いてRubyのソースコードから直接生成したものです。
   String, ArrayやSymbol等のコアクラスやモジュールのリファレンスがあります。
 
 [Ruby 標準ライブラリリファレンス (英語)](http://www.ruby-doc.org/stdlib/)
