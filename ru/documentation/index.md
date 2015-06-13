@@ -148,7 +148,7 @@ lang: ru
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://rdoc.sourceforge.net
+[14]: http://docs.seattlerb.org/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
