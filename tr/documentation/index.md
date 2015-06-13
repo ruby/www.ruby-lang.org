@@ -129,7 +129,7 @@ listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
 [13]: http://www.belgeler.org/uygulamalar/ruby/ruby-ug.html
 [14]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [15]: http://www.ruby-doc.org/core
-[16]: http://rdoc.sourceforge.net
+[16]: http://docs.seattlerb.org/rdoc/
 [17]: http://www.ruby-doc.org/stdlib
 [18]: http://www.ruby-doc.org/doxygen/current/
 [19]: http://www.rubydoc.info/

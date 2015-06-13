@@ -77,7 +77,7 @@ correo](/es/community/mailing-lists/) es un buen lugar para comenzar.
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://www.rubyist.net/~slagell/ruby/
 [7]: http://www.ruby-doc.org/core
-[8]: http://rdoc.sourceforge.net
+[8]: http://docs.seattlerb.org/rdoc/
 [9]: http://www.ruby-doc.org/stdlib
 [10]: http://www.ruby-doc.org/doxygen/current/
 [11]: http://ruby-doc.org
