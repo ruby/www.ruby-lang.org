@@ -21,7 +21,7 @@ Ruby 2.2.0 版本针对日益增多的各类需求，进行了许多更新和修
 
 请尝试并享受 Ruby 2.2.0，并告诉我们你的发现。
 
-##Ruby 2.1 以后的重要变更
+## Ruby 2.1 以后的重要变更
 
 * [增量 GC](https://bugs.ruby-lang.org/issues/10137)
   ([在 RubyConf2014 上的演讲：“Ruby 解释器的增量 GC”](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))

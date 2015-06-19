@@ -57,7 +57,6 @@ $ gem install rails
 $ gem install rails --version 3.0
 {% endhighlight %}
 
-
 #### 列出所有的 Gem
 
 列出本地安裝的所有 Gem：
@@ -96,4 +95,3 @@ RubyGems.org 上有[系列教程][3]，你可能也想研究 [Bundler][9]，一�
 [6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/
 [9]: http://bundler.io/
-

@@ -12,7 +12,7 @@ lang: zh_cn
 
 ![ConFoo web dev conference. Feb 18 - 20, 2015 &#124; Montreal, Canada][logo]{: style="border:0; float:right; margin-left:20px;" width="180" height="130"}
 
-ConFoo 以探索新技术，深入浅出而闻名的开发者大会，在这里可以体验到最棒的社区和文化氛围。 
+ConFoo 以探索新技术，深入浅出而闻名的开发者大会，在这里可以体验到最棒的社区和文化氛围。
 
  * ConFoo 2015 将于二月 18 日至 20 日在蒙特利尔的希尔顿 Bonaventure 酒店召开。
 
@@ -23,7 +23,7 @@ ConFoo 以探索新技术，深入浅出而闻名的开发者大会，在这里�
  * ConFoo 是开放的环境，欢迎大家提交注册。如果您熟悉技术而且想交朋友，请来加入我们。
 
 如果您计划仅参加会议，我们在十月 13 日之前准备了
-[$290 折扣][2]。 
+[$290 折扣][2]。
 
 [logo]: http://confoo.ca/images/propaganda/2015/en/like.gif
 [1]: http://confoo.ca/en/call-for-papers

@@ -25,7 +25,7 @@ Ruby 2.2.0 针对使用者日益增多的各类需求，进行了许多更新和
 
 请尝试并享受用 Ruby 2.2.0-rc1 编程，并告诉我们你的发现。
 
-##Ruby 2.1 以后的重要变更
+## Ruby 2.1 以后的重要变更
 
 * [增量 GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
 * [符号 GC](https://bugs.ruby-lang.org/issues/9634) ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
