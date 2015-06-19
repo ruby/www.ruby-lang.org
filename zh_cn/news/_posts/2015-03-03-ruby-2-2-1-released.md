@@ -8,14 +8,14 @@ lang: zh_cn
 ---
 
 我们很高兴地宣布 Ruby 2.2.1 正式发布了！
-该版本是 Ruby 2.2 系列的第一个 TENNY 补丁版本。
+该版本是 Ruby 2.2 系列的第一个 TEENY 补丁版本。
 
 这个版本发布包含了对 ffi 编译失败与 Symbol GC 中内存泄漏问题的修复（详见 [Bug #10686](https://bugs.ruby-lang.org/issues/10686)）。
 
 请见 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
 以了解更多细节。
 
-##
+## 下载
 
 * [http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.1.tar.bz2)
 

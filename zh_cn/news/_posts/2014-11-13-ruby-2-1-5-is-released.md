@@ -18,7 +18,7 @@ Ruby 2.1.5 发布了。
 参考[tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 和[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)来了解更多细节。
 
-##下载
+## 下载
 
 * [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2)
 
