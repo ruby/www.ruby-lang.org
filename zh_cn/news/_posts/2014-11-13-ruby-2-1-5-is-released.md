@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.1.5 发布了"
 author: "nagachika"
 translator: "Will"
-date: 2015-05-28 12:00:00 +0000
+date: 2014-11-13 12:00:00 +0000
 lang: zh_cn
 ---
 
