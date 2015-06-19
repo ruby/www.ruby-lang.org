@@ -49,7 +49,7 @@ Unlike Java, in Ruby,...
 * YAML tends to be favored over XML.
 * It’s `nil` instead of `null`.
 * `==` and `equals()` are handled differently in Ruby. Use `==` when you
-  want to test equivalence in Ruby (`equals()` is Java). Use `equal?()`
+  want to test equivalence in Ruby (`equals()` in Java). Use `equal?()`
   when you want to know if two objects are the same (`==` in Java).
 
 
