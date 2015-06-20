@@ -7,8 +7,8 @@ lang: es
 Se pueden utilizar varias herramientas para instalar Ruby.
 Esta página describe como usar los sistemas de gestión de paquetes y herramientas
 de terceros para instara Ruby y como compilarlo del código fuente.
-
 {: .summary}
+
 
 ## Escoge el método de instalación
 
@@ -61,6 +61,7 @@ gestores de paquetes tienen versiones viejas de Ruby en sus repositorios oficial
 Si quieres usar la versión más nueva de Ruby asegúrate de que usas el nombre
 de paquete correcto o que usas las herramientas descritas mas abajo.
 
+
 ### apt (Debian o Ubuntu)
 {: #apt}
 
@@ -74,6 +75,7 @@ $ sudo apt-get install ruby-full
 Al momento de escribir este documento, el paquete `ruby-full` instala la versión
 de Ruby 1.9.3, la cual es una entrega vieja pero estable en Debian y Ubuntu.
 
+
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
 
@@ -86,6 +88,7 @@ $ sudo yum install ruby
 
 La versión instalada es típicamente la versión de Ruby disponible en el momento
 de liberación de la versión específica de cada distribución.
+
 
 ### portage (Gentoo)
 {: #portage}
@@ -102,6 +105,7 @@ Para instalar una versión específica, establece `RUBY_TARGETS` en el archivo
 `make.conf`.
 Para obtener más detalles puedes leer el [sitio de el Gento Ruby Project][gentoo-ruby].
 
+
 ### pacman (Arch Linux)
 {: #pacman}
 
@@ -113,6 +117,7 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 Esto debería instalar la última versión estable de Ruby.
+
 
 ### Homebrew (OS X)
 {: #homebrew}
@@ -128,6 +133,7 @@ $ brew install ruby
 {% endhighlight %}
 
 Este comando debería instalar la versión más actual de Ruby.
+
 
 ### Ruby en Solaris y OpenIndiana
 {: #solaris}
@@ -150,12 +156,14 @@ $ pkg install runtime/ruby-18
 Sin embargo, las herramientas de terceros pueden ser una mejor manera de
 obtener la versión más actual de Ruby.
 
+
 ### Otras Distribuciones
 {: #other-systems}
 
 En otros sistemas puedes buscar Ruby en  el repositorio de paquetes para el gestor de tu
 distribución de Linux, aunque las herramientas de terceros puede que sean tu
 mejor opción.
+
 
 ## Instaladores
 {: #installers}
@@ -168,6 +176,7 @@ sistema; los manejadores asociados pueden ayudarte a cambiarte entre las version
 de Ruby. Si planeas usar [RVM](#rvm) como manejador de versiones no necesitas
 usar un instalador aparte, ya viene con uno incluido.
 
+
 ### ruby-build
 {: #ruby-build}
 
@@ -176,14 +185,15 @@ te permite compilar e instalar diferentes versiones de Ruby en directorios
 arbitrarios. ruby-build también puede ser usado como un programa independiente
 sin rbenv. Está disponible para OS X, Linux y otros sistemas operativos UNIX.
 
+
 ### ruby-install
 {: #ruby-install}
 
 [ruby-install][ruby-install] te permite compilar e instalar diferentes versiones
 de ruby en directorios arbitrarios. Tambien tiene un hijo, [chruby](#chruby), el
 cual te ayuda a cambiarte entre diferentes versiones de Ruby.
-
 Está disponible para OS X, Linux y otros sistemas operativos UNIX.
+
 
 ### RubyInstaller
 {: #rubyinstaller}
@@ -193,6 +203,7 @@ Si usas Windows existe un excelente proyecto que te ayuda a instalar Ruby:
 ambiente completo de Ruby en Windows.
 
 Simplemente descárgalo, ejecútalo y ¡Listo!
+
 
 ### RailsInstaller y Ruby Stack
 {: #railsinstaller}
@@ -207,6 +218,7 @@ instaladores:
   te provee de un ambiente completo de desarrollo para Rails. Soporta OS X,
   Linux, Windows, maquinas virtuales e imágenes cloud.
 
+
 ## Manejadores
 {: #managers}
 
@@ -214,12 +226,14 @@ Muchos Rubistas usan manejadores para poder usar varias versiones de Ruby.
 Tienen muchas ventajas pero no son soportados oficialmente. Sin embargo, cada
 uno tiene su respectiva comunidad, las cuales son de mucha ayuda.
 
+
 ### chruby
 {: #chruby}
 
 [chruby][chruby] te permite cambiar entre varias versiones de Ruby.
 chruby puede manejar las versiones instaladas por [ruby-install](#ruby-install)
 e incluso las que se han compilado del código fuente.
+
 
 ### rbenv
 {: #rbenv}
@@ -230,6 +244,7 @@ No soporta instalar Ruby, pero tiene un plugin popular llamado
 Ambas herramientas están disponibles para OS X, Linux y otros sistemas
 operativos UNIX.
 
+
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
@@ -237,11 +252,13 @@ operativos UNIX.
 También puede manejar varios gemsets. Está disponible para OS X, Linux y otros
 sistemas operativos UNIX.
 
+
 ## uru
 {: #uru}
 
 [Uru][uru] es una herramienta de la línea de comandos multi-plataforma muy ligera
 que te ayuda a usar varias versiones de Ruby en OS X, Linux o sistemas Windows.
+
 
 ## Compilar del código fuente
 {: #building-from-source}
@@ -261,6 +278,7 @@ usa la opción `--prefix=DIR` con el script `./configure`.
 Usar manejadores de terceros puede ser una mejor idea, ya que las
 versiones instaladas de esta manera no serán manejadas por ninguna otra
 herramienta.
+
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv#readme
