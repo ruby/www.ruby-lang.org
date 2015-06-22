@@ -1,36 +1,36 @@
 ---
 layout: page
-title: "Sobre o Ruby Website"
+title: "Sobre o Website do Ruby"
 lang: pt
 ---
 
-Esse website foi gerado com Ruby utilizando [Jekyll][jekyll],<br>
-seu código fonte é hospedado em [GitHub][github-repo].
+Este website foi gerado com Ruby utilizando [Jekyll][jekyll],<br>
+seu código fonte está hospedado no [GitHub][github-repo].
 
-Design visual por [Jason Zimdars][jzimdars].<br>
+Design visual de [Jason Zimdars][jzimdars].<br>
 Baseado em um design prévio do Ruby Visual Identity Team.
 
-[O logo Ruby][logo] é Copyright &copy; 2006, Yukihiro Matsumoto.
+O [logotipo do Ruby][logo] está sob Copyright &copy; 2006 de Yukihiro Matsumoto.
 
 
 ## Relatando Problemas ##
 
-Para relatar um problema use o [issue tracker][github-issues]
-ou entre em contato com nosso [webmaster][webmaster] (em Inglês).
+Para reportar um problema, use o [issue tracker][github-issues]
+ou entre em contato com nosso [webmaster][webmaster] (em inglês).
 
 
-## Como colaborar ##
+## Como Colaborar ##
 
-Esse website é orgulhosamente mantido por membros da comunidade Ruby.
+Este website é mantido com orgulho por membros da comunidade Ruby.
 
 Se você deseja colaborar, leia as [instruções para colaboração][github-wiki]
 e já comece a abrir *issues* ou *pull requests*!
 
 
-## Reconhecimento ##
+## Agradecimentos ##
 
 Agradecemos a todos os committers, autores, tradutores
-e outros colaboradores desse website.
+e outros colaboradores deste website.
 
 Também agradecemos a todas as organizações que nos dão suporte:
 
