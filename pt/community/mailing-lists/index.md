@@ -1,23 +1,23 @@
 ---
 layout: page
-title: "Listas de Correio"
+title: "Listas de E-mail"
 lang: pt
 ---
 
-As listas de correio são uma óptima forma de manter o dedo na pulsação
-da comunidade Ruby.
+As listas de e-mail são uma ótima forma de manter-se atualizado com
+a comunidade Ruby.
 {: .summary}
 
-O Ruby tem quatro listas de distribuição principais em Inglês:
+O Ruby tem quatro listas de e-mail principais em inglês:
 
 Ruby-Talk
-: Esta é a lista de correio mais popular e trata de tópicos gerais sobre
+: Esta é a lista de e-mails mais popular e trata de tópicos gerais sobre
   o Ruby. A Ruby-Talk tem um *mirror* em [Ruby-Forum.com][1].
   ([FAQ][2] e [Arquivos][3])
 
 Ruby-Core
-: Esta lista trata do núcleo e tópicos da implementação do Ruby.
-  Normalmente é usada para enviar *patches* para revisão. ([Arquivos][4])
+: Esta lsta trata do núcleo e tópicos da implementação do Ruby.
+  Normalmente é usada para enviar *patches* para revisão. ([Aquivos][4])
 
 Ruby-Doc
 : Esta lista é para discussão sobre normas de documentação e ferramentas
@@ -26,9 +26,9 @@ Ruby-Doc
 Ruby-CVS
 : Esta lista relata todas as submissões no repositório Subversion do Ruby.
 
-O comp.lang.ruby Newsgroup
-: Aqueles que preferem Usenet ao invés de listas de correio terão interesse
-  em dar uma olhada em [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
+The comp.lang.ruby Newsgroup
+: Aqueles que preferem Usenet ao invés de listas de e-mail, podem conferir
+  o grupo de notícias [comp.lang.ruby](news:comp.lang.ruby).
 
 Ruby &lt;&lt; portuguese
 : Esta é a lista de discussão oficial de ruby em Portugal.
@@ -44,13 +44,12 @@ Email: <input type="text" name="email" required="required" />
 </div>
 </form>
 
-
-## Subscrever ou Remover
+## Inscrever ou Desinscrever
 
 {% include subscription-form.html %}
 
-Se falhar a recepção do e-mail utilizando o formulário, tente subscrever
-[manualmente](manual-instructions/).
+Se você não receber um e-mail de confirmação após utilizar o formulário,
+tente se inscrever [manualmente](manual-instructions/).
 
 
 
