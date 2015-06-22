@@ -1,20 +1,19 @@
 ---
 layout: page
-title: "O Logo Ruby"
+title: "O Logotipo do Ruby"
 lang: pt
 ---
 
-![O Logo Ruby][logo]
+![O Logotipo do Ruby][logo]
 
-O Logo Ruby é Copyright &copy; 2006, Yukihiro Matsumoto.
+O logotipo do Ruby está sob Copyright &copy; 2006 de Yukihiro Matsumoto.
 
-Está licenciado sob os termos da
-[Creative Commons Attribution-ShareAlike 2.5 License][cc-by-sa].
-
+Está licenciada sob os termos do acordo da
+[Licença Creative Commons Attribution-ShareAlike 2.5][cc-by-sa].
 
 ## Download
 
-O [Kit Logo Ruby][logo-kit] contém o Logo Ruby em diversos formatos
+O [Ruby Logo Kit][logo-kit] contém o logotipo do Ruby em diversos formatos
 (PNG, JPG, PDF, AI, SWF, XAR).
 
 
