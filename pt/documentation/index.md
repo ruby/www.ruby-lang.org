@@ -4,104 +4,176 @@ title: "Documentação"
 lang: pt
 ---
 
-Aqui irá encontrar vários endereços para manuais, tutoriais e
-referências que serão úteis quando sentir que gosta de programar em
-Ruby.
+Aqui você encontrará vários endereços para manuais, tutoriais e
+referências que serão úteis quando você sentir que gosta de programar
+em Ruby.
 {: .summary}
 
 ### Primeiros Passos
 
 [Try Ruby!][1]
-: Um tutorial interactivo web-based para iniciados por [Why the Lucky
-  Stiff][2]. Não necessita de instalar o Ruby, este tutorial permite-lhe
-  escrever código Ruby no seu browser web!
+: Um tutorial interativo que permite que você teste o Ruby diretamente no
+  seu browser. Este tutorial de 15 minutos é destinado para iniciantes que
+  queiram ter uma ideia de como é a linguagem.
 
-[Aprenda a Programar][3]
-: Pequeno maravilhoso tutorial por Chris Pine para iniciados em
-  programação. Se não sabe programar, comece aqui.
+[Ruby Koans][2]
+: Os Koans te conduzem pelo caminho da iluminação de modo a aprender Ruby.
+  O objetivo é aprender a linguagem, sintaxe, estrutura algumas funções e
+  bibliotecas comuns do Ruby. Também ensinamos cultura.
+
+[RubyMonk][3]
+: Descubra idiomas Ruby, aprenda lissões e resolva problemas, tudo
+  no seu browser!
+
+[Hackety Hack][4]
+: <q cite="http://hackety-hack.com/">O kit de iniciante do programadorzinho</q>.
+  Um jeito fácil e divertido de aprender sobre programação (com Ruby)
+  usando o Shoes GUI Toolkit.
+
+[O Guia (Comovente) de Ruby do Why][5]
+: UM livro inconveniente, porém interessante, que te ensinará Ruby através
+  de histórias, humor e quadrinhos. Originalmente criado por *why the lucky
+  stiff*, esse guia permanece um clássico para os aprendizes de Ruby.
 
 [Ruby em Vinte Minutos](/pt/documentation/quickstart/)
 : Um bom tutorial que cobre o básico de Ruby. Desde o início ao fim, não
   deverá levar mais de vinte minutos.
 
-[Ruby a partir de outras linguagens](/pt/documentation/ruby-from-other-languages/)
-: Chegou ao Ruby por outra linguagem ? Quer seja C, C++, Java, Perl,
-  PHP, ou Python, este artigo é para si!
+[Ruby a Partir de Outras Linguagens](/pt/documentation/ruby-from-other-languages/)
+: Chegou ao Ruby por outra linguagem? Quer seja C, C++, Java, Perl,
+  PHP ou Python, este artigo é para você!
 
-[Aprende a Programar con Ruby][4]
-: Uma colecção completa de estudos e notas sobre Ruby, para os
+[Learning Ruby][6]
+: Uma coleção completa de estudos e notas sobre Ruby, para os
   principiantes na linguagem e à procura de uma introdução sólida aos
   conceitos e construtores de Ruby.
 
-[The Ruby Garden Ruby FAQ][5]
-: Colecção de perguntas frequentes sobre Ruby. Pode até propor uma nova
-  questão para ser adicionada à FAQ.
+[Ruby Essentials][7]
+: Ruby Essentials é um livro digital gratuito projetado para prover um
+  guia conciso e fácil de seguir para o aprendiz de Ruby.
 
-[Coisas Qualquer Iniciante Deve Saber][6]
-: Página da [Ruby Garden Wiki][7] explicando algumas coisas que qualquer
-  principiante deve saber.
+[Aprenda a Programar][8]
+: Pequeno e maravilhoso tutorial por Chris Pine para novatos em
+  programação. Se não sabe programar, comece aqui.
+
+[Learn Ruby the Hard Way][38]
+: Um ótimo conjunto de exercícios com explicações que o conduzem do básico
+  do Ruby por todo o caminho até a OOP e o desenvolvimento para a web.
 
 ### Manuais
 
-[Programming Ruby][8]
-: Trabalho seminal de Ruby em Inglês, a primeira edição do [Pragmatic
-  Programmers’ book][9] está disponível gratuitamente online.
+[Programming Ruby][9]
+: Trabalho seminal de Ruby em inglês, a primeira edição do [Pragmatic
+  Programmers’ book][10] está disponível gratuitamente online.
 
-[Why’s (Poignant) Guide to Ruby][10]
-: Trabalho em desenvolvimento por [Why the Lucky Stiff][2], repleto de
-  raposas que falam e “*chunky bacon*”, este pequeno livro está bem no
-  caminho para ser um clássico de Ruby.
-
-[Guia do Usuário do Ruby][11]
-: O Jornal traduzido por Goto Kentaro e Mark Slagell do original Japonês
-  de Yukihiro Matsumoto – criador do Ruby – é uma boa visão sobre muitos
-  aspectos desta linguagem.
+[Ruby User’s Guide][11]
+: Traduzido do original em japonês escrito por Yukihiro Matsumoto (o
+  criador do Ruby), esta versão, por Goto Kentaro e Mark Slagell,
+  é uma boa visão sobre muitos aspectos da linguagem Ruby.
 
 [The Ruby Programming Wikibook][12]
-: Manual online gratuito, com conteúdo para iniciados e intermediários,
-  é mais uma referência bastante completa para a linguagem.
+: Manual online gratuito, com conteúdo para iniciantes e intermediário,
+  além de uma referência completa para a linguagem.
 
-### Referências para a Documentação
+### Documentação de Referência
 
 [Ruby Core Reference][13]
-: Vindo directamente do código-fonte através de [RDoc][14], esta
-  referência trabalha todos os documentos das classes do núcleo  e
-  módulos (como String, Array, Sumbol, etc…).
+: Vindo diretamente do código-fonte através de [RDoc][14], esta
+  referência documenta todas as classes e módulos do _core_ (como String,
+  Array, Sumbol, etc…).
 
 [Ruby Standard Library Reference][15]
-: Também vindo do código-fonte através de RDoc, esta referência explora
+: Também vindo do código-fonte através do RDoc, esta referência explora
   documentos da biblioteca padrão.
 
-[Ruby C API Reference][16]
-: Documentação para Ruby referente a código C. Interessante se pretende
-  escrever extensões em C ou contribuir para o desenvolvimento do Ruby.
+[RubyDoc.info][16]
+: O website essencial para documentação de referência sobre as Gems do Ruby e
+  projetos Ruby hospedados no GitHub.
 
-### Leituras Seguintes
+[Ruby & Rails Searchable API Docs][17]
+: Documentação do Ruby e do Rails com busca inteligente.
 
-[Ruby-Doc.org][17] mantém uma lista completa de fontes de documentação
-em Inglês. Está também carregada de [Livros sobre Ruby][18]. No [Ruby
-Garden Wiki][7] há um sortido de conteúdos contribuídos pelos
-utilizadores. Se tem questões sobre Ruby, a [lista de
-correio](/pt/community/mailing-lists/) é um óptimo sítio para
-começar.
+[APIdock][18]
+: Documentação do Ruby, Rails e RSpec com notas de usuários.
+
+### Editores e IDEs
+
+Para programar em Ruby, você pode usar o editor padrão do seu sistema
+operacional. A propósito, para programar mais eficazmente, pode valer
+a pena escolher um editor de código fonte com suporte básico a Ruby
+(por exemplo, que colore a sintaxe, lista os arquivos, etc.) ou um
+ambiente integrado de desenvolvimento com funcionalidades avançadas
+(como completar o código, refatorar, suporte a testes, etc.).
+
+Segue aqui uma lista das ferramentas populares utilizadas por
+programadores Ruby:
+
+* Ferramentas para Linux e outras plataformas:
+  * [Aptana Studio][19]
+  * [Emacs][20] com [Ruby mode][21] e [Rsense][22]
+  * [Geany][23]
+  * [gedit][24]
+  * [Vim][25] com o plugin [vim-ruby][26] e [Rsense][22]
+  * [RubyMine][27]
+  * [SciTe][28]
+  * [NetBeans][36]
+  * [Sublime Text][37]
+
+* No Windows:
+  * [Notepad++][29]
+  * [E-TextEditor][30]
+  * [Ruby In Steel][31]
+
+* No Mac OS X:
+  * [TextMate][32]
+  * [TextWrangler][33]
+  * [Dash][39] (navegador de documentação)
+
+### Leitura Complementar
+
+[Ruby-Doc.org][34] mantém uma lista completa de fontes de documentação
+em inglês. Também existem vários [livros sobre Ruby][35]. Se você tiver
+perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
+é um ótimo lugar para começar.
 
 
 
 [1]: http://tryruby.org/
-[2]: http://whytheluckystiff.net
-[3]: http://pine.fm/LearnToProgram/
-[4]: http://sitekreator.com/satishtalim/index.html
-[5]: http://www.rubygarden.org/faq/
-[6]: http://www.rubygarden.org/ruby?ThingsNewcomersShouldKnow
-[7]: http://wiki.rubygarden.org/Ruby
-[8]: http://www.ruby-doc.org/docs/ProgrammingRuby/
-[9]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[10]: http://qa.poignantguide.net/
+[2]: http://rubykoans.com/
+[3]: http://rubymonk.com/
+[4]: http://hackety-hack.com/
+[5]: http://why.carlosbrando.com/
+[6]: http://rubylearning.com/
+[7]: http://www.techotopia.com/index.php/Ruby_Essentials
+[8]: http://aprendaaprogramar.rubyonrails.com.br/
+[9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[10]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: http://docs.seattlerb.org/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[16]: http://www.ruby-doc.org/doxygen/current/
-[17]: http://ruby-doc.org
-[18]: http://www.ruby-doc.org/bookstore
+[16]: http://www.rubydoc.info/
+[17]: http://rubydocs.org/
+[18]: http://apidock.com/
+[19]: http://www.aptana.com/
+[20]: http://www.gnu.org/software/emacs/
+[21]: http://www.emacswiki.org/emacs/RubyMode
+[22]: http://cx4a.org/software/rsense/
+[23]: http://www.geany.org/
+[24]: http://projects.gnome.org/gedit/screenshots.html
+[25]: http://www.vim.org/
+[26]: https://github.com/vim-ruby/vim-ruby
+[27]: http://www.jetbrains.com/ruby/
+[28]: http://www.scintilla.org/SciTE.html
+[29]: http://notepad-plus-plus.org/
+[30]: http://www.e-texteditor.com/
+[31]: http://www.sapphiresteel.com/
+[32]: http://macromates.com/
+[33]: http://www.barebones.com/products/textwrangler/
+[34]: http://ruby-doc.org
+[35]: http://www.ruby-doc.org/bookstore
+[36]: https://netbeans.org/
+[37]: http://www.sublimetext.com/
+[38]: http://ruby.learncodethehardway.org/
+[39]: http://kapeli.com/dash
