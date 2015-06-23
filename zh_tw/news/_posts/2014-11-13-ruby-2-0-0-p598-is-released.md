@@ -7,7 +7,7 @@ date: 2014-11-13 12:00:00 +0000
 lang: zh_tw
 ---
 
-很高興告訴大家 Ruby 2.0.0-p594 發佈了。
+很高興告訴大家 Ruby 2.0.0-p598 發佈了。
 
 本次發佈包含了 REXML DoS 風險的安全性修正。
 和[上一版](https://www.ruby-lang.org/zh_tw/news/2014/10/27/ruby-1-9-3-p550-is-released/)[已經修正的風險類似](https://www.ruby-lang.org/zh_tw/news/2014/10/27/rexml-dos-cve-2014-8080/)，但本次處理了實體擴張另外的情況。請參考下面的文章來了解更多細節。
