@@ -11,7 +11,7 @@ lang: zh_cn
 
 本次发布包括了一个针对 REXML 拒绝服务攻击（DoS）漏洞的安全修复。
 下述日志中包含相似内容：
-[预发布](https://www.ruby-lang.org/en/news/2014/10/27/ruby-1-9-3-p550-is-released/)中的[漏洞修复](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/),
+[预发布](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/)中的[漏洞修复](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/),
 但这次的发布中解决了 XML Entity Expansion的问题。
 请看下述文章以了解详情。
 
