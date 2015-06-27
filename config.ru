@@ -78,7 +78,10 @@ use Rack::Rewrite do
   r302 %r{^/pt/bibliotecas(.*)$}, "/pt/libraries$1"
 end
 
-use Rack::SSL
+if ENV["RACK_ENV"] == "production"
+  use Rack::SSL
+end
+
 use Rack::Protection::HttpOrigin
 use Rack::Protection::FrameOptions
 
