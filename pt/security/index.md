@@ -21,8 +21,12 @@ pessoas individuais, outras listas de e-mail não são permitidas.
 
 ## Problemas conhecidos
 
+Estes são os problemas recentes:
+
+{% include security_posts.html %}
+
 Consulte a [página em inglês](/en/security/) para os posts relacionados
-à segurança anteriores.
+à segurança mais antigos.
 
 Outros problemas conhecidos:
 
