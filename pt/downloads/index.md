@@ -71,4 +71,4 @@ usar um _mirror_ que está próximo de você.
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
-[mirrors]: /pt/downloads/mirrors/
+[mirrors]: /en/downloads/mirrors/
