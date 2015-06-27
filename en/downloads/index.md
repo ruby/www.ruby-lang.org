@@ -9,7 +9,7 @@ The current stable version is {{ site.downloads.stable.version }}.
 Please be sure to read [Ruby’s License][license].
 {: .summary}
 
-### Ways of installing Ruby
+### Ways of Installing Ruby
 
 We have several tools on each major platform to install Ruby:
 
@@ -23,7 +23,7 @@ package management systems or third-party tools.
 
 Of course, you can also install Ruby from source on all major platforms.
 
-### Compiling Ruby — Source code
+### Compiling Ruby — Source Code
 
 Installing from the source code is a great solution for when you are
 comfortable enough with your platform and perhaps need specific settings
