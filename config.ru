@@ -7,11 +7,6 @@ require 'yaml'
 use Rack::CommonLogger
 
 use Rack::Rewrite do
-  if ENV["RACK_ENV"] == "production"
-    r301 %r{.*}, "https://www.ruby-lang.org$&", scheme: "http", host: "www.ruby-lang.org"
-    r301 %r{.*}, "https://staging.ruby-lang.org$&", scheme: "http", host: "staging.ruby-lang.org"
-  end
-
   # enforce trailing slash (/foo -> /foo/) when index.html exists
   r302 %r{.*}, "$&/", if: ->(rack_env) {
     rack_env["PATH_INFO"].match(%r{/$}).nil? && File.exist?("_site#{rack_env["PATH_INFO"]}/index.html")
