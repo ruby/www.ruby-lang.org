@@ -29,10 +29,12 @@ task :generate do
   Jekyll::Site.new(options).process
 end
 
-desc "Generates the Jekyll site and starts local server"
-task :preview do
-  sh 'jekyll serve --watch'
+desc "Serves the Jekyll site locally"
+task :serve do
+  sh "rackup config.ru"
 end
+
+task :preview => [:serve]
 
 namespace :new_post do
 
