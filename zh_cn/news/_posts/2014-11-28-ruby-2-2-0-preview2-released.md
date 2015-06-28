@@ -21,7 +21,7 @@ Ruby 2.2.0-preview2 是 Ruby 2.2.0 的第二个预览版，针对使用者日益
 
 请尝试并享受用 Ruby 2.2.0-preview2 编程，并告诉我们你的发现。
 
-##Ruby 2.1 以后的重要变更
+## Ruby 2.1 以后的重要变更
 
 * [增量 GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
 * [符号 GC](https://bugs.ruby-lang.org/issues/9634) ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
