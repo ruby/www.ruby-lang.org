@@ -171,16 +171,18 @@ namespace :check do
     end
   end
 
-  desc "Checks for broken links on http://localhost:4000/"
+  localport = 9292
+
+  desc "Checks for broken links on http://localhost:#{localport}/"
   task :links do
     gem 'spidr', '~> 0.4'
     require 'spidr'
 
     url_map = Hash.new { |hash,key| hash[key] = [] }
 
-    Spidr.site('http://localhost:4000/') do |agent|
+    Spidr.site("http://localhost:#{localport}/") do |agent|
       LANGUAGES.each do |lang|
-        agent.enqueue("http://localhost:4000/#{lang}/")
+        agent.enqueue("http://localhost:#{localport}/#{lang}/")
       end
 
       agent.every_link do |origin,dest|
