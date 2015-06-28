@@ -139,7 +139,7 @@ cần khám phá, các cấu trúc điều khiển khác nhau mà Ruby cung cấ
 của các khối lệnh và `yield`; các module như mixins; và còn nhiều hơn nữa. Tôi
 hy vọng những thú vị ban đầu này của Ruby sẽ khiến bạn muốn học thêm nữa.
 
-Nếu vậy, hãy đi đến khu vực [Tài liệu](vi/documentation/) của chúng tôi, nơi
+Nếu vậy, hãy đi đến khu vực [Tài liệu](/vi/documentation/) của chúng tôi, nơi
 có vô vàn đường dẫn tới các bài chỉ dẫn và hướng dẫn sử dụng, tất cả đều miễn
 phi trực tuyến.
 

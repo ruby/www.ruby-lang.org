@@ -351,6 +351,6 @@ end
 
 ## 查找更多资料
 
-当你准备学习更多 Ruby 知识的时候，请查看[文档](/zh/documentation)部分。
+当你准备学习更多 Ruby 知识的时候，请查看[文档](/zh_cn/documentation/)部分。
 
 [1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
