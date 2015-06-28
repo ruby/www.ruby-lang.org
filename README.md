@@ -40,27 +40,26 @@ bundle install
 To generate the site and start a local web server, you can use
 
 ``` sh
-bundle exec rake preview
+bundle exec rake serve
 ```
 
-Then open [http://localhost:4000/](http://localhost:4000/)
+Then open [http://localhost:9292/](http://localhost:9292/)
 in your local browser to access the preview.
 
 **Note:** The build of the site will take several minutes.
-If you created the site previously and the `_site` directory
-already exists, the web server will start instantly but large parts
-of the site will not be updated until the build has completely finished.
-Also, the build may fail silently when using the preview mode.
 
-To always get feedback on the success of the build you might want
+If you created the site previously and the `_site` directory
+already exists, the web server will start instantly.
+It will serve the content as it was at the time of the last
+site generation, though.
+
+To force regeneration of the site or
+to only get feedback on the success of the build you might want
 to create the website *without starting a local server* instead:
 
 ``` sh
 bundle exec rake generate
 ```
-
-When you now start a preview with the site already generated
-it will be available instantly.
 
 ## Preview on Heroku
 
@@ -85,7 +84,7 @@ heroku login
 heroku create --buildpack http://github.com/ruby/heroku-buildpack-ruby-jekyll.git
 ```
 
-* Push your site
+* Push your site.
 
 ```
 git push heroku feature_branch:master
@@ -99,13 +98,15 @@ git push heroku master
 heroku open
 ```
 
-## Check
+## Testing
 
-You can check 404 and markup with this tasks:
+Besides generating and previewing the site
+you can perform additional tests with these tasks:
 
 ```
-bundle exec rake check:links # check 404
-bundle exec rake check:markup # check markup for all generated pages
+bundle exec rake check         # perform various tests on the source files
+bundle exec rake check:markup  # check markup for all generated pages
+bundle exec rake check:links   # check for 404's (needs a running local server)
 ```
 
 ## More Information
