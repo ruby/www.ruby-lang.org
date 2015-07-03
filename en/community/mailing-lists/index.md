@@ -17,7 +17,7 @@ Ruby-Talk
 
 Ruby-Core
 : This list deals with core and implementation topics about Ruby, often
-  used to run patches for review. ([Archives][4])
+  used to run patches for review. ([Subscribe][6] and [Archives][4])
 
 Ruby-Doc
 : This list is for discussing documentation standards and tools for
@@ -45,3 +45,4 @@ subscribing the [manual way](manual-instructions/).
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[6]: http://lists.ruby-lang.org/cgi-bin/mailman/listinfo/ruby-core
