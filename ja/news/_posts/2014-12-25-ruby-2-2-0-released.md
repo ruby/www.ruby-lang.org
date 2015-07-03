@@ -60,22 +60,22 @@ Ruby 2.2.0 でのプログラミングをお楽しみください。また、ぜ
 
 ## ダウンロード
 
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.bz2>
+* <https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.bz2>
   * SIZE:   13304042 bytes
   * MD5:    d03cd4690fec1fff81d096d1c1255fde
   * SHA256: 1c031137999f832f86be366a71155113675b72420830ce432b777a0ff4942955
   * SHA512: 04edc53e8cd1732c3ca61ebeb1d6133614beb10f77f9abb80d8d36352fe8aa205112068e460bf600b2c7e81e0ddcc3b311e7e027c320366f1bd992b3e378a6ad
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz>
   * SIZE:   16494584 bytes
   * MD5:    cd03b28fd0b555970f5c4fd481700852
   * SHA256: 7671e394abfb5d262fbcd3b27a71bf78737c7e9347fa21c39e58b0bb9c4840fc
   * SHA512: 1ba0c68e1c8d2b60bbd1e218cf36463edbe34cf9418d7593702b631e68d02297465f752e71395f6cfa4104f4cd70a1eb44381ffb74bc7801758b830931fdcfc6
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.xz>
+* <https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.xz>
   * SIZE:   10304244 bytes
   * MD5:    54b43c6c6c9dd4c4b08ceb03ad0ded7a
   * SHA256: 848714e280fc5fb44dbac3b060b206e56c1947006324ee68a174d68b483ef8ca
   * SHA512: cd7e52faa464df8aca7ccfa23a5f06248e1ad82bc8c9f1829aa1b51ff37b15973b8caaa68e914d837325b8d59427fda4f3cad82c50925e1c84e688324a2a155d
-* <http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.zip>
+* <https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.zip>
   * SIZE:   18441027 bytes
   * MD5:    f8e1d0cee4f2d9535a9529ed23ae3700
   * SHA256: e06c1e2b1248cf881749833084b2bec93f7612676009190ff9bc89b8fd07c29f

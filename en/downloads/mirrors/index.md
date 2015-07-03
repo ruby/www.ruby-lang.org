@@ -71,7 +71,7 @@ Please try to use a mirror that is near you.
 * rsync://mirror.cs.mun.ca/ruby/ (Canada)
 * rsync://ftp.cs.pu.edu.tw/Ruby/ (Taiwan)
 
-[mirror-http-cdn]: http://cache.ruby-lang.org/pub/ruby/
+[mirror-http-cdn]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-http-jp-ring-shibaura-it]: http://ring.shibaura-it.ac.jp/archives/lang/ruby/
 [mirror-http-jp-ring-tohoku]: http://ring.tains.tohoku.ac.jp/archives/lang/ruby/
 [mirror-http-jp-ring-u-toyama]: http://ring.u-toyama.ac.jp/archives/lang/ruby/

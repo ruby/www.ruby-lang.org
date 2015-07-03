@@ -7,7 +7,7 @@ date:   2013-09-07 11:30:00 +0000
 lang:   pl
 ---
 
-ruby-lang.org uruchomiło http://cache.ruby-lang.org dla
+ruby-lang.org uruchomiło https://cache.ruby-lang.org dla
 dystrybucji oficjalnych pakietów źródłowych Rubiego.
 Obecnie możemy szybko dystrybuować pakiety na całym świecie
 przy użyciu usługi Content Delivery Network (CDN).

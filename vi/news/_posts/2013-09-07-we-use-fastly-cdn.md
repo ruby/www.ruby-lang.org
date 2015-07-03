@@ -7,7 +7,7 @@ date:   2013-09-07 11:30:00 +0000
 lang:   vi
 ---
 
-ruby-lang.org sẽ bắt đầu dùng http://cache.ruby-lang.org cho
+ruby-lang.org sẽ bắt đầu dùng https://cache.ruby-lang.org cho
 việc phân phối các gói nguồn Ruby. Nhờ vào một mạng chung
 chuyển nội dung (CDN), chúng tôi có thể phân phối gói
 tới mọi nơi trên thế giới nhanh nhất.

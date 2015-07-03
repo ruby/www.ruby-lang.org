@@ -18,15 +18,15 @@ lang: ko
 
 ## 다운로드
 
-* [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.bz2)
+* [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.bz2)
   * SIZE:   11394226 bytes
   * MD5:    cae095b90349b5b0f7026060cc3dd2c5
   * SHA256: af828bc0fe6aee5ffad0f8f10b48ee25964f54d5118570937ac7cf1c1df0edd3
-* [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.gz](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.gz)
+* [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.gz](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.gz)
   * SIZE:   14450990 bytes
   * MD5:    a16561f64d78a902fab08693a300df98
   * SHA256: 1b467f13be6d3b3648a4de76b34b748781fe4f504a19c08ffa348c75dd62635e
-* [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.zip](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.zip)
+* [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.zip](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.zip)
   * SIZE:   16107702 bytes
   * MD5:    b6cdc0e63185b4aeb268bdf6ebd4de9f
   * SHA256: 4d6a256b73b79f5b64182e1f55db3e61042bbe0166a45917e69c1b4e47247276

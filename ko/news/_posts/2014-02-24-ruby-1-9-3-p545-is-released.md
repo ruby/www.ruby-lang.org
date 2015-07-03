@@ -24,19 +24,19 @@ lang: ko
 
 ## 다운로드
 
-* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2)
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2)
 
       SIZE:   10038164 bytes
       MD5:    4743c1dc48491070bae8fc8b423bc1a7
       SHA256: 2533de9f56d62f11c06a02dd32b5ab6d22a8f268c94b8e1e1ade6536adfd1aab
 
-* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz)
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz)
 
       SIZE:   12582277 bytes
       MD5:    8e8f6e4d7d0bb54e0edf8d9c4120f40c
       SHA256: 05fb00ebd374ef800475eb40b71ebc42cc18c1f61f4885c11737f310d3d23111
 
-* [http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.zip](http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.zip)
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.zip](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.zip)
 
       SIZE:   13970747 bytes
       MD5:    d056aefa64237737fedb127257b502d2
