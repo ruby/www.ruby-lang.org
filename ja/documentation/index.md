@@ -100,11 +100,11 @@ Posted by Shugo Maeda on 26 May 2006
 [man-210]: http://docs.ruby-lang.org/ja/2.1.0/doc/index.html
 [man-220]: http://docs.ruby-lang.org/ja/2.2.0/doc/index.html
 [man-search]: http://docs.ruby-lang.org/ja/search/
-[man-xz]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.xz
-[man-gz]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.gz
-[man-zip]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.zip
-[man-187-chm]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.7-20120829.chm
-[man-193-chm]: http://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-20120829.chm
+[man-xz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.xz
+[man-gz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.gz
+[man-zip]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.zip
+[man-187-chm]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.7-20120829.chm
+[man-193-chm]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-20120829.chm
 [man-mirror]: http://doc.okkez.net/
 [old-man-html-gz]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.gz
 [old-man-html-bz2]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.bz2

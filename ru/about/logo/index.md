@@ -16,7 +16,7 @@ lang: ru
 
 Набор вариантов логотипа Ruby доступен здесь:
 
-<http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
+<https://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
 
 Этот набор состоит из логотипов Ruby в различных форматах
 (PNG, JPG, PDF, AI, SWF, XAR).

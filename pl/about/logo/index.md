@@ -16,7 +16,7 @@ Jest licencjonowane na warunkach
 
 Logo Rubiego jest dostępne tutaj:
 
-<http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
+<https://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip>
 
 Zawiera Logo Rubiego w wielu formatach
 (PNG, JPG, PDF, AI, SWF, XAR).

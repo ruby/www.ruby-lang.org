@@ -7,7 +7,7 @@ date:   2013-09-07 11:30:00 +0000
 lang:   fr
 ---
 
-ruby-lang.org a commencé à fournir http://cache.ruby-lang.org pour
+ruby-lang.org a commencé à fournir https://cache.ruby-lang.org pour
 distribuer les paquets source officiels de Ruby.
 Nous pouvons maintenant distribuer rapidement les paquets tout autour
 du monde en utilisant un réseau de distribution de contenus (CDN).

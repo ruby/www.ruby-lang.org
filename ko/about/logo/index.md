@@ -19,5 +19,5 @@ lang: ko
 
 
 [logo]: /images/header-ruby-logo.png
-[logo-kit]: http://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip
+[logo-kit]: https://cache.ruby-lang.org/pub/misc/logo/ruby-logo-kit.zip
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/2.5/

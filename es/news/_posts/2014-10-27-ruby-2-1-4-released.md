@@ -30,28 +30,28 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
 
 ## Descarga
 
-* [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2)
+* [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2)
 
       SIZE:   11992171 bytes
       MD5:    f4136e781d261e3cc20748005e1740b7
       SHA256: f37f11a8c75ab9215bb9f61246ef98e0e57e1409f0872e5cf59033edcf5b8d2a
       SHA512: 68db1567751166c5e7d24b6e5015124b8a15568c50556e1f429486395352fa56c4a195a74820ab135697924149d014b445b345a1b9755678aaf824fba79c606b
 
-* [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz)
+* [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz)
 
       SIZE:   15127418 bytes
       MD5:    89b2f4a197621346f6724a3c35535b19
       SHA256: bf9952cdeb3a0c6a5a27745c9b4c0e5e264e92b669b2b08efb363f5156549204
       SHA512: 7a6c70ec60db9866d5988e53c75e5c7e7288d68d87ba74ad317a0f74be79b387d05f665d9273d24dc64edc011d396b6396d2c7b1de6fd6a03569103e5acdcc36
 
-* [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.xz](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.xz)
+* [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.xz](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.xz)
 
       SIZE:   9392500 bytes
       MD5:    99aa2b01240d91edaecc2fc9d8254e44
       SHA256: e1cc5cbbcaa8644e282f04763d96057ddd6f443338a5019200e8726273e84fcf
       SHA512: b0fbecca0ffec8f6a3c5d27f62087628b8a79874b7bdbfd8ce39cfc5b6f5cb4da2f8a3e6031abae9c59273cf629f41cf5987e2a5f4c083b0f3a3b02eeb5d7dca
 
-* [http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.zip](http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.zip)
+* [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.zip](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.zip)
 
       SIZE:   16656312 bytes
       MD5:    71c7afca08734f0105a06d2feea11422
