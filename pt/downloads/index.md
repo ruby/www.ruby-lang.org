@@ -1,73 +1,71 @@
 ---
 layout: page
-title: "Baixar Ruby"
+title: "Baixar o Ruby"
 lang: pt
 ---
 
-Aqui você pode obter as últimas distribuições de Ruby em seu sabor favorito.
-A versão estável atual é {{ site.downloads.stable.version }}.
-Por favor certifique-se que leu a [Licença de Ruby][license].
+Aqui você poderá obter as distribuições mais recentes de Ruby em seus sabores
+preferidos. A versão estável atual é a {{ site.downloads.stable.version }}.
+Por favor certifique-se de ter lido a [Licença do Ruby][license].
 {: .summary}
 
-### Maneiras de instalar o Ruby
+### Formas de instalar o Ruby
 
-Temos várias ferramentas em cada plataforma principal para instalar Ruby:
+Existem diversas ferramentas para instalar o Ruby em cada grande plataforma:
 
-* No Linux / UNIX, você pode usar o sistema de gerenciamento de pacotes seu
-  de distribuição ou de terceiros ferramentas (rbenv e RVM).
-* Em máquinas OS X, você pode usar ferramentas de terceiros (rbenv e RVM).
-* Em máquinas Windows, você pode usar RubyInstaller.
+* No Linux/UNIX, você pode usar o sistema de gerenciamento de pacotes da sua
+  distribuição ou ferramentas de terceiros (rbenv e RVM).
+* Em máquinas com OS X, você pode usar ferramentas de terceiros (rbenv e RVM).
+* Em máquinas com Windows, você pode usar o RubyInstaller ou o pik.
 
-Veja a página de [instalação (em Inglês)][installation] para detalhes sobre
-como usar sistemas de gestão de pacotes ou ferramentas de terceiros.
+Consulte a página [Instalação][installation] para mais detalhes sobre
+como usar sistemas de gerenciamento de pacotes ou ferramentas de terceiros.
 
-É claro, você também pode instalar o Ruby partir do código fonte em todas
+É claro, você também pode instalar Ruby a partir do código fonte em todas
 as principais plataformas.
 
-### Compilando Ruby - De Código-Fonte do Ruby
+### Compilando Ruby — Código Fonte
 
-Instalando a partir do código-fonte é uma ótima solução para quando você
-estiver suficientemente confortável com a sua plataforma e talvez precisar
-de configurações específicas para o seu ambiente. É também uma boa solução
-para o caso de não há outros pacotes pré-construídos para a sua plataforma.
+Instalar a partir do código-fonte é uma grande solução para quando você
+estiver confortável o suficiente com a sua plataforma e talvez precise
+de configurações específicas para o seu ambiente. Também é uma boa solução
+quando não houver outros pacotes pré-criados para a sua plataforma.
 
-Veja a página de [Instalação][installation] para obter detalhes sobre a
-construção Ruby a partir de fonte. Se você tiver um problema compilando
-Ruby, considere o uso de uma das ferramentas de terceiros mencionados acima.
-Eles podem ajudá-lo.
+Consulte a página [Instalação][installation] para detalhes sobre
+como compilar Ruby a partir dos fontes. Se você tiver algum problema
+compilando Ruby, considere utilizar uma das ferramentas de terceiros
+mencionadas acima. Elas podem te ajudar.
 
-### Source Code Downloads
-
-* **Estável atual:**
+* **Versão estável atual:**
   [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
   sha256: {{ site.downloads.stable.sha256.gz }}
 
-* **Estável Anterior:**
+* **Versão estável anterior:**
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **Estável Velho (2.0.0 série):**
+* **Versão estável antiga (série 2.0.0):**
   [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
   sha256: {{ site.downloads.previous20.sha256.gz }}
 
 * **Snapshots:**
-  * [Snapshot Stable][stable-snapshot-gz]:
-    Este é um pacote com o último snapshot do ramo estável atual.
-  * [Nocturno Snapshot][nightly-gz]:
-    Este é um pacote com tudo o que está no SVN, feita todas as noites.
-    Isto pode conter bugs ou outros problemas, use a seu próprio risco!
+  * [Snapshot Estável][stable-snapshot-gz]:
+    Este é um arquivo compactado com o snapshot mais recente do branch estável.
+  * [Nightly Snapshot][nightly-gz]:
+    Este é um arquivo compactado do que está no SVN, criado todas as noites.
+    Ele pode conter bugs ou outros problemas, use por sua própria conta e risco!
 
-Para obter informações sobre os repositórios Ruby Subversion e Git, ver o nosso
-página [Núcleo de Ruby](/pt/community/ruby-core/).
+Para mais informações sobre os repositórios Subversion e Git do Ruby, consulte
+a nossa página [Núcleo do Ruby](/pt/community/ruby-core/).
 
-A fonte do Ruby está disponível a partir de um conjunto mundial de
-[Espelho Sites][mirrors].
-Por favor, tente usar um espelho que está perto de você.
+O código fonte do Ruby está disponível a partir de um conjunto de
+[Sites de _Mirror_][mirrors] pelo mundo afora. Por favor tente
+usar um _mirror_ que está próximo de você.
 
 
 
 [license]: {{ site.license.url }}
-[installation]: /en/documentation/installation/
+[installation]: /pt/documentation/installation/
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}

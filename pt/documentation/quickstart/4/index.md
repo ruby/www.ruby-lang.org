@@ -17,13 +17,12 @@ header: |
 
 ---
 
-Vejamos então o nosso novo programa de modo mais aprofundado, de notar
-que as linhas iniciais começam com um sinal de cardinal(#). Em Ruby,
-algo após um sinal de cardinal é considerado um comentário e ignorado
-pelo interpretador. A primeira linha do ficheiro é um caso especial, sob
-um sistema operativo do tipo Unix, isto indica á shell como executar o
-ficheiro. Os restantes comentários só se encontram ali para
-clarificação.
+Vejamos então mais a fundo o nosso novo programa, perceba
+que as linhas iniciais começam com um sinal de cerquilha (#). Em Ruby,
+qualquer coisa após um sinal de cerquilha é considerado um comentário e
+é ignorado pelo interpretador. A primeira linha do arquivo é um caso especial,
+em um sistema operacional do tipo Unix, isto diz para o shell como executar
+o arquivo. O restante dos comentários só se encontra ali para clarificação.
 
 O nosso método `diz_ola` tornou-se um pouco mais complexo:
 
@@ -43,16 +42,17 @@ def diz_ola
 end
 {% endhighlight %}
 
-Agora toma o parâmetro `@nomes` e toma decisões. Se for nil, só imprime
-três pontinhos. Não há razão para cumprimentar ninguém, certo?
+Agora ele verifica a variável de instância `@nomes` para tomar decisões.
+Se for nil, só imprime três pontos. Não há razão para cumprimentar ninguém,
+certo?
 
-## Ciclos e Voltas—ou seja Iterações
+## Ciclos e Loops – as Iterações
 
-Se o objecto `@nomes` responde a `each`, isto significa que é algo sobre
+Se o objeto `@nomes` responde a `each`, isto significa que é algo sobre
 o qual se pode iterar, assim, fazemos iterações sobre o mesmo e saudamos
 cada pessoa à sua vez. Finalmente, se `@nomes` é outra coisa qualquer,
 deixamos que se transforme numa string automaticamente e fazemos a
-saudação por omissão.
+saudação padrão.
 
 Vejamos o iterador com mais profundidade:
 
@@ -63,17 +63,17 @@ end
 {% endhighlight %}
 
 `each` é um método que aceita um bloco de código e que depois o executa
-para cada elemento numa lista, e a parte entre `do` e `end` é
-exactamente um bloco desses. Um bloco é como uma função anónima ou
+para cada elemento numa lista, e o trecho entre `do` e `end` é
+exatamente um desses blocos. Um bloco é como uma função anônima ou
 `lambda`. A variável entre barras verticais é o parâmetro para este
 bloco.
 
-O que sucede aqui é que para cada entrada na lista se associa `nome` a
+O que acontece aqui é que para cada entrada na lista, `nome` recebe
 esse elemento da lista e depois a expressão `puts "Ola #{nome}!"` é
 executada com esse nome.
 
-A generalidade das outras linguagens tratar de passar por uma lista
-usando o ciclo `for`, que em C se assemelha a algo como:
+A maioria das outras linguagens varrem uma lista usando o loop `for`,
+que em C se assemelha a algo como:
 
 {% highlight c %}
 for (i=0; i<numero_de_elementos; i++)
@@ -82,25 +82,25 @@ for (i=0; i<numero_de_elementos; i++)
 }
 {% endhighlight %}
 
-Isto funciona mas não é muito elegante. Necessitamos de uma variável
+Isso funciona, mas não é muito elegante. Precisamos de uma variável
 descartável semelhante a `i`, temos que determinar previamente qual o
 tamanho da lista e temos que explicar como percorrer a lista. O modo de
-operar em Ruby é muito mais elegante, os trabalhos domésticos são
-escondidos dentro do método `each`, tudo o que necessitamos de lhe dizer
-é o que fazer com cada elemento. Internamente, o método `each` irá
+operar em Ruby é muito mais elegante, os pormenores ficam
+escondidos dentro do método `each`, tudo o que precisamos fazer é dizer-lhe
+o que fazer com cada elemento. Internamente, o método `each` irá
 essencialmente chamar `yield "Albert"`, depois `yield "Brenda"` e depois
 `yield "Charles"`, e assim sucessivamente.
 
-## Blocos, Uma das funcionalidades mais poderosas da Ruby
+## Blocos, o Grande Brilho das Faces do Ruby
 
-O poder real dos blocos é quando tratam de algo mais complexo que
-listas. Para além de tratar dos detalhes simples de trabalhos domésticos
-dentro do método, também pode tratar da instalação, limpeza e erros—tudo
-de forma escondida das preocupações do utilizador.
+O verdadeiro poder dos blocos é quando tratam de algo mais complexo do que
+listas. Além de tratar dos detalhes simples dos pormenores dentro do método,
+também pode tratar da instalação, da limpeza e dos erros – tudo
+de maneira escondida das preocupações do usuário.
 
 {% highlight ruby %}
-# Dizer adeus a toda a gente
-def diz_adeus
+# Diz adeus a todo mundo
+def dizer_adeus
   if @nomes.nil?
     puts "..."
   elsif @nomes.respond_to?("join")
@@ -115,46 +115,45 @@ end
 O método `diz_adeus` não usa o método `each`, em vez disso verifica se
 `@nomes` responde ao método `join` e se sim, usa-o. Caso contrário
 limita-se a imprimir a variável como string. Este método não se preocupa
-com o verdadeiro tipo da variável, está só a limitar-se a tirar partido
-de algo conhecido por “Duck Typing”, no sentido de que “se anda como um
-pato, e faz quá quá como um pato então…”. A vantagem disto é não
-restringir desnecessariamente os tipos de variáveis suportados. Se
-alguém aparecer com um novo género de classe de lista, desde que essa
-lista tenha implementado método `join` com a mesma semântica que as
-outras listas, então tudo irá funcionar como planeado.
+com o tipo da variável, só confiar em quais métodos suporta é conhecido como
+“Duck Typing”, no sentido de que “se anda como um pato, e faz quá quá como
+um pato então…”. A vantagem disto é não restringir desnecessariamente
+os tipos de variáveis suportados. Se alguém aparecer com um novo tipo
+de classe de lista, desde que essa lista implemente o método `join`
+com a mesma semântica que as outras listas, então tudo funcionará
+conforme o planejado.
 
-## Executar o Script
+## Executando o Script
 
-Está pois apresentada a classe MegaAnfitrião, o resto do ficheiro só
-chama os métodos nessa classe. Existe um último truque a tomar nota, é a
-linha:
+Então, essa é a classe MegaAnfitrião, o resto do arwuivo só
+chama os métodos nessa classe. Existe um último truque para
+verificarmos, que é a linha:
 
 {% highlight ruby %}
 if __FILE__ == $0
 {% endhighlight %}
 
-`__FILE__` é uma variável mágica que contém o nome do ficheiro actual.
-`$0` é o nome do ficheiro usado para iniciar o programa. Esta
-verificação diz: “Se este é o ficheiro principal a ser usado então…”,
-isto permite que um ficheiro seja usado como biblioteca e nesse contexto
-não executar código mas caso o ficheiro seja usado como executável então
+`__FILE__` é uma variável mágica que contém o nome do arquivo atual.
+`$0` é o nome do arquivo usado para iniciar o programa. Esta
+verificação diz: “Se este é o arquivo principal a ser usado, então…”,
+isto permite que um arquivo seja usado como biblioteca e nesse contexto
+não executar código, mas caso o arquivo seja usado como executável então
 executa esse código.
 
-## Foi um prazer
+## Considere-se Apresentado ao Ruby
 
-Pronto, isto foi uma visita rápida ao mundo do Ruby. Existe muito para
-explorar, as diferentes estruturas de controlo que Ruby oferece, o uso
-de blocos e de `yield`, módulos como mixins e muito mais. Espero que
+Pronto, essa foi uma visita rápida ao mundo do Ruby. Existe muito mais para
+explorar, as diferentes estruturas de controlo que  oRuby oferece; o uso
+de blocos e de `yield`; módulos como _mixins_; e muito mais. Espero que
 esta pequena amostra da linguagem Ruby tenha deixado o desejo de
 aprender mais.
 
-Se sim, por favor visite a nossa secção de
-[Documentação](/pt/documentation/) , onde encontraram ligações para
-manuais e guias, todos disponíveis em formato digital.
+Se este for o caso, por favor visite a nossa seção de
+[Documentação](/pt/documentation/) , que reune links para manuais e tutoriais,
+todos disponíveis livremente online.
 
-Ou, se desejar ler mesmo um livro, veja a nossa [biblioteca de
-livros][1] (ligação ao exterior) para títulos disponíveis à venda online
-ou numa livraria aí perto.
+Ou, se desejar ler um livro mesmo, consulte a nossa [lista de livros][1]
+para títulos disponíveis à venda online ou na sua livraria de preferência.
 
 
 
