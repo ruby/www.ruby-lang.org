@@ -42,21 +42,21 @@ xterm의 창 제목을 확인해 보세요.
 * 1\.8.6, 1.8.7, 1.9.1의 경우
   * 1\.8.7 pl.249 업데이트 버전은 이 이슈를 수정하기 위해 공개 되었습니다. 1.8.7 사용자들에게 업그레이드를
     권장합니다.
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz&gt;][1]
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2&gt;][2]
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip&gt;][3]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz&gt;][1]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2&gt;][2]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip&gt;][3]
 
   * 1\.9.1 pl. 378 업데이트 버전은 이 이슈를 수정하기 위해 공개 되었습니다. 1.9.1 사용자들에게 업그레이드를
     권장합니다.
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz&gt;][4]
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2&gt;][5]
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip&gt;][6]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz&gt;][4]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2&gt;][5]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip&gt;][6]
 
   * 1\.8.6 pl. 388 업데이트 버전은 이 이슈를 수정하기 위해 공개 되었습니다. 1.8.6 사용자들에게 업그레이드를
     권장합니다.
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz&gt;][7]
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2&gt;][8]
-    * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip&gt;][9]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz&gt;][7]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2&gt;][8]
+    * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip&gt;][9]
 
 * 개발 버전의 경우 각 개발 브랜치에 릴리스된 최신 리비전으로 업데이트 하세요.
 
@@ -67,12 +67,12 @@ Giovanni \"evilaliv3\" Pellerano, Alessandro \"jekil\" Tanasi, Francesco
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip
+[7]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz
+[8]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2
+[9]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip

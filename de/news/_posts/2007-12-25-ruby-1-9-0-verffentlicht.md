@@ -29,7 +29,7 @@ Einige Änderungen sind in der [Ruby-Mine][5] beschrieben.
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/44387
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip
 [5]: http://www.ruby-mine.de/2007/12/25/warum-ruby-1-9-0

@@ -142,8 +142,8 @@ resolv.rbには、リモートの攻撃者が偽造したDNS問い合わせの�
 1.8系
 : 1\.8.6-p287または1.8.7-p72に更新してください。
 
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz&gt;][2]
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz&gt;][3]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz&gt;][2]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz&gt;][3]
 
 1.9 series
 
@@ -167,6 +167,6 @@ Teamに報告されました。
 
 
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1447
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz
 [4]: {{ site.url }}/ja/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/

@@ -14,9 +14,9 @@ Optimierungen bezüglich der Geschwindigkeit und Stabilität.
 
 Der Quelltext steht in drei Formaten zur Verfügung:
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2][1]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz][2]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip][3]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2][1]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz][2]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip][3]
 
 Checksumme:
 
@@ -45,6 +45,6 @@ Dokumente:
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip

@@ -93,7 +93,7 @@ Please try to use a mirror that is near you.
 [mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
 [mirror-http-cn]: http://ruby.taobao.org/mirrors/ruby/
-[mirror-ftp-jp1]: ftp://ftp.ruby-lang.org/pub/ruby/
+[mirror-ftp-jp1]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-tohoku]: ftp://ring.tains.tohoku.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-u-toyama]: ftp://ring.u-toyama.ac.jp/pub/lang/ruby/

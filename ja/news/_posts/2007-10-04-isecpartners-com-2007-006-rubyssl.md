@@ -28,8 +28,8 @@ net/http.rbでは、SSL接続の際に、証明書のCNがリクエスト先のD
 
 : 1\.8.6-p111または1.8.5-p114にアップグレードしてください。
 
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz&gt;][2]
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz&gt;][3]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz&gt;][2]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz&gt;][3]
 
   チェックを有効にするためには、以下のようにNet::HTTP#enable\_post\_connection\_check=を使用する必要があります。
 
@@ -59,5 +59,5 @@ net/http.rbでは、SSL接続の際に、証明書のCNがリクエスト先のD
 
 
 [1]: http://www.isecpartners.com/advisories/2007-006-rubyssl.txt
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz

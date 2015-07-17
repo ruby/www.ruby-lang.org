@@ -13,7 +13,7 @@ weitere Informationen.
 
 Download:
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.bz2][2]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.bz2][2]
   Größe: 7.191.348 Bytes
 
   MD5: 66d4f8403d13623051091347764881a0
@@ -22,7 +22,7 @@ Download:
   39c9850841c0dd5d368f96b854f97c19b21eb28a02200f8b4e151f608092e687
 ^
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.gz][3]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.gz][3]
   Größe: 9.043.825 Bytes
 
   MD5: 515bfd965814e718c0943abf3dde5494
@@ -31,7 +31,7 @@ Download:
   31598e37b3962643bec722921644957be6f8fb9a26f6c91fa627bd668ea68be4
 ^
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.zip][4]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.zip][4]
   Größe: 10.307.868 Bytes
 
   MD5: 7086675f78185d72719132231b810e4d
@@ -42,6 +42,6 @@ Download:
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.zip

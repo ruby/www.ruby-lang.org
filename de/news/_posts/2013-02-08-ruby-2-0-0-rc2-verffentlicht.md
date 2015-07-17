@@ -146,6 +146,6 @@ mir bei dieser Veröffentlichung geholfen haben, sehr dankbar.
 [14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [15]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
 [16]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
-[17]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
-[18]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz
-[19]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip
+[17]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
+[18]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz
+[19]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip

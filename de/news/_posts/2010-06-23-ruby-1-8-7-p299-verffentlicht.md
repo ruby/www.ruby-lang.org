@@ -15,7 +15,7 @@ Fehler findet ihr im [ChangeLog][1].
 
 #### Download
 
-[ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.gz][2]
+[https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.gz][2]
 
 : **MD5-Summe**
 
@@ -29,7 +29,7 @@ Fehler findet ihr im [ChangeLog][1].
 
   4\.867.600 Byte
 
-[ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.bz2][3]
+[https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.bz2][3]
 
 : **MD5-Summe**
 
@@ -43,7 +43,7 @@ Fehler findet ihr im [ChangeLog][1].
 
   4\.183.359 Byte
 
-[ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.zip][4]
+[https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.zip][4]
 
 : **MD5-Summe**
 
@@ -62,6 +62,6 @@ Viel Spaß!
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_7/ChangeLog
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.bz2
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.zip

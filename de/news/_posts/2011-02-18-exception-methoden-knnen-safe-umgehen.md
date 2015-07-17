@@ -53,12 +53,12 @@ Aktualisiere auf eine neuere Version.
 Ruby 1.8.7-p334 wurde zur Behandlung des Problems veröffentlicht.
 Nutzern von 1.8.7 wird empfohlen, zu aktualisieren.
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2][1]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz][2]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip][3]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2][1]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz][2]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip][3]
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip

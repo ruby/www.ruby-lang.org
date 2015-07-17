@@ -49,15 +49,15 @@ Bitte den Fenstertitel von xterm beachten.
 
 * 1\.8.7 pl. 249 beseitigt diesen Fehler. Benutzer von 1.8.7 sollten auf
   folgende Version aktualisieren.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][2]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][3]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][4]
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][2]
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][3]
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][4]
 
 * 1\.9.1 pl. 378 beseitigt diesen Fehler. Benutzer von 1.9.1 sollten auf
   folgende Version aktualisieren.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][5]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][6]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip][7]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][5]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][6]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip][7]
 
 * Für Entwicklerversionen bitte auf die Letzte Revision im Trunk
   aktualisieren.
@@ -70,9 +70,9 @@ und Francesco \"ascii\" Ongaro, welche diese Fehler entdeckt haben.
 
 
 [1]: http://marc.info/?l=bugtraq&amp;m=104612710031920&amp;w=2 "Terminal Emulator Security Issues"
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
+[7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip

@@ -10,4 +10,4 @@ the latest stable CVS. It should be better than the last release.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
+[1]: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz

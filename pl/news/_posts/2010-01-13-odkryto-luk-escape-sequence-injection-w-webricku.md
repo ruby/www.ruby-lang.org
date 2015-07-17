@@ -48,21 +48,21 @@ Obserwuj tytuł okienka xterm.
 * Poprawki dla 1.8.6, 1.8.7, oraz 1.9.1 znajdują się poniżej.
   * 1\.8.7 patch-level 249 naprawia ten problem. Użytkowników 1.8.7
     zachęca się do aktualizacji.
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][2]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][3]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][4]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][2]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][3]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][4]
 
   * 1\.9.1 patch-level 378 naprawia ten problem. Użytkowników 1.9.1
     zachęca się do aktualizacji.
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][5]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][6]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip][7]
+    * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][5]
+    * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][6]
+    * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip][7]
 
   * 1\.8.6 patch-level 388 naprawia ten problem. Użytkowników 1.8.6
     zachęca się do aktualizacji.
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz][8]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2][9]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip][10]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz][8]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2][9]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip][10]
 
 * Wersje deweloperskie prosimy zaktualizować do najnowszej wersji.
 
@@ -74,12 +74,12 @@ Podziekowania należą się Giovanni \"evilaliv3\" Pellerano, Alessandro
 
 
 [1]: http://marc.info/?l=bugtraq&amp;m=104612710031920&amp;w=2 "Terminal Emulator Security Issues"
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p388.tar.gz
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p388.tar.bz2
-[10]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p388.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
+[7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip
+[8]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p388.tar.gz
+[9]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p388.tar.bz2
+[10]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p388.zip

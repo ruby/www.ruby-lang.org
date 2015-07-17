@@ -11,9 +11,9 @@ liberado una nueva versión para corregir pequeños errores. Para tener
 información detallada de los casos tratados se recomienda la lectura de
 los ficheros Changelog incluidos en las descargas disponibles.
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz][1]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.bz2][1]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.zip][1]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz][1]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.bz2][1]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.zip][1]
 
 ### Checksums:
 
@@ -34,4 +34,4 @@ años.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz

@@ -37,14 +37,14 @@ xtermのウィンドウタイトルを見てください。
 
 * 1\.8.6, 1.8.7, および1.9.1のリリースは続報をお待ちください。
   * **更新** 1.8.7 pl. 249がリリースされました。 1.8.7利用者には更新を推奨します。
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][1]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][2]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][3]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz][1]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2][2]
+    * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip][3]
 
   * **Update** 1.9.1 pl. 378がリリースされました。 1.9.1利用者には更新を推奨します。
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][4]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][5]
-    * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip][6]
+    * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz][4]
+    * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2][5]
+    * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip][6]
 
 * 開発版については、各ブランチの最新リビジョンに更新してください。
 
@@ -55,9 +55,9 @@ Francesco \"ascii\" Ongaroがこの脆弱性を発見しました。
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p249.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.tar.bz2
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p378.zip
