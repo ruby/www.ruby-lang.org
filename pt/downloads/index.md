@@ -6,16 +6,16 @@ lang: pt
 
 Aqui você pode obter as últimas distribuições de Ruby em seu sabor favorito.
 A versão estável atual é {{ site.downloads.stable.version }}.
-Por favor certifique-se que leu a [Licença de Ruby][license].
+Por favor certifique-se que leu a [Licença do Ruby][license].
 {: .summary}
 
 ### Maneiras de instalar o Ruby
 
 Temos várias ferramentas em cada plataforma principal para instalar Ruby:
 
-* No Linux / UNIX, você pode usar o sistema de gerenciamento de pacotes seu
-  de distribuição ou de terceiros ferramentas (rbenv e RVM).
-* Em máquinas OS X, você pode usar ferramentas de terceiros (rbenv e RVM).
+* No Linux / UNIX, você pode usar o sistema de gerenciamento de pacotes de
+  sua distribuição ou ferramentas de terceiros (rbenv e RVM).
+* No OS X, você pode usar ferramentas de terceiros (rbenv e RVM).
 * Em máquinas Windows, você pode usar RubyInstaller.
 
 Veja a página de [instalação (em Inglês)][installation] para detalhes sobre
