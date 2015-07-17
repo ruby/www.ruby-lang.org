@@ -15,9 +15,9 @@ lang: en
 [Sarah Allen](https://twitter.com/ultrasaurus),
 and [Ruddy Lee](https://ruddyblog.wordpress.com) are confirmed keynote speakers.
 [CFP is open](http://rubytaiwan.kktix.cc/events/rubyconftw2015-cfp)
-untill July 20th (GMT +8) and
+until July 20th (GMT +8) and
 [Lightening talk CFP](http://rubytaiwan.kktix.cc/events/rubyconftw2015-ltcfp)
-is open untill August 10th (GMT +8).
+is open until August 10th (GMT +8).
 
 If you want to give a talk, please submit your proposal. Any topics related to
 Ruby are welcome. We look forward to seeing you in Taiwan.
