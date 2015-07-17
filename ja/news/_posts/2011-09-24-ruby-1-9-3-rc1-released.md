@@ -14,17 +14,17 @@ ruby-1.9.3-p0 のリリースにむけて修正が続けられています。
 
 ## 所在
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2&gt;][1]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2&gt;][1]
   SIZE: 9552727 bytes
   MD5: 26f0dc51ad981e12c58b48380112fa4d
   SHA256: 951a8810086abca0e200f81767a518ee2730d6dc9b0cc2c7e3587dcfc3bf5fc8
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz&gt;][2]
   SIZE: 12224459 bytes
   MD5: 46a2a481536ca0ca0b80ad2b091df68e
   SHA256: bb1ae474d30e8681df89599520e766270c8e16450efdc01e099810f5e401eb94
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip&gt;][3]
   SIZE: 13696517 bytes
   MD5: 9c787f5e4963e54d1a11985a73467342
   SHA256: 8e9219b7e6f78a9e171740cbbb3787047383c281c290504dd0e4d8318607a74b
@@ -55,9 +55,9 @@ ruby-1.9.3-p0 のリリースにむけて修正が続けられています。
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip
 [4]: http://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29
 [5]: {{ site.url }}{{ site.license.url }}
 [6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_rc1/NEWS

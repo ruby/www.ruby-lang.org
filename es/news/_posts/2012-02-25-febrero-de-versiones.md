@@ -79,8 +79,8 @@ que tanto nos a facilitado la vida a muchos.
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_125/ChangeLog
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip
 [5]: http://jruby.org/2012/02/22/jruby-1-6-7
 [6]: http://rubyinstaller.org/downloads/

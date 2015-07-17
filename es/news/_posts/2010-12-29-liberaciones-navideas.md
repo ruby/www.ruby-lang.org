@@ -17,7 +17,7 @@ de navidad.
 
 ### Descargas
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz&gt;][1]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz&gt;][1]
   SIZE:
   : 4873383 bytes
 
@@ -27,7 +27,7 @@ de navidad.
   SHA256:
   : 6c261a463b5ffce1dc0920c980218379479dbdf94866d5ed53f1c71f1407c561
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2&gt;][2]
   SIZE:
   : 4191156 bytes
 
@@ -37,7 +37,7 @@ de navidad.
   SHA256:
   : 486c73b023b564c07e062e2e61114e81de970913b04fac6798d0fbe8b7723790
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip&gt;][3]
   SIZE:
   : 5972777 bytes
 
@@ -55,7 +55,7 @@ indica corrige muchos fallos encontrados en la primera versión.
 
 ### Descargas
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2&gt;][4]
   SIZE:
   : 8819324 bytes
 
@@ -65,7 +65,7 @@ indica corrige muchos fallos encontrados en la primera versión.
   SHA256:
   : 33092509aad118f07f0483a3db1d4c5adaccf4bb0324cd43f44e3bd3dd1858cb
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz&gt;][5]
   SIZE:
   : 11155066 bytes
 
@@ -75,7 +75,7 @@ indica corrige muchos fallos encontrados en la primera versión.
   SHA256:
   : c4314df44f3ab81230685fb51c296ce21034f4c719e2fcc0baba221d19f28746
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip&gt;][6]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip&gt;][6]
   SIZE:
   : 12566581 bytes
 
@@ -98,10 +98,10 @@ aplicación.
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip
 [7]: http://rubyinstaller.org/downloads

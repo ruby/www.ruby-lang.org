@@ -34,7 +34,7 @@ series 1.8
 
 : Por favor actualízate a la versión 1.8.5-p2.
 
-  [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p2.tar.gz&gt;][3]
+  [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p2.tar.gz&gt;][3]
   (4519151 bytes, md5sum: a3517a224716f79b14196adda3e88057)
 
   Recuerda que puede ya estar disponible un paquete que corrige esta
@@ -46,5 +46,5 @@ Versión de desarrollo (series 1.9)
 
 
 [1]: http://jvn.jp/jp/JVN%2384798830/index.html
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-cgi-dos-1.patch
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p2.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-cgi-dos-1.patch
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p2.tar.gz

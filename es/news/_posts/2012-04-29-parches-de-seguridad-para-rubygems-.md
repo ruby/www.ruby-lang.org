@@ -40,7 +40,7 @@ estas versiones se aconseja verificar los cambios realizados:
 
 ## Descargas 1.9.2-p320.
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2&gt;][3]
 
 SIZE:
 
@@ -54,7 +54,7 @@ SHA256:
 
 6777f865cfa21ffdc167fcc4a7da05cb13aab1bd9e59bfcda82c4b32f75e6b51
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz&gt;][4]
 
 SIZE:
 
@@ -68,7 +68,7 @@ SHA256:
 
 39a1f046e8756c1885cde42b234bc608196e50feadf1d0f202f7634f4a4b1245
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip&gt;][5]
 
 SIZE:
 
@@ -84,7 +84,7 @@ SHA256:
 
 ## Descargas 1.9.3-p194.
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&gt;][6]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&gt;][6]
 
 SIZE:
 
@@ -98,7 +98,7 @@ SHA256:
 
 a9d1ea9eaea075c60048369a63b35b3b5a06a30aa214a3d990e0bb71212db8fa
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz&gt;][7]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz&gt;][7]
 
 SIZE:
 
@@ -112,7 +112,7 @@ SHA256:
 
 46e2fa80be7efed51bd9cdc529d1fe22ebc7567ee0f91db4ab855438cf4bd8bb
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip&gt;][8]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip&gt;][8]
 
 SIZE:
 
@@ -130,9 +130,9 @@ SHA256:
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_194/ChangeLog
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_320/ChangeLog
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2
-[7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz
-[8]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2
+[7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz
+[8]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip
