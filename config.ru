@@ -34,11 +34,11 @@ use Rack::Rewrite do
 
   r302 %r{^/ja/(man|old-man)/.*$}, "http://doc.ruby-lang.org/ja/"
 
-  r302 %r{^/ja/man/archive/ruby-refm-1.8.6-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip"
-  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip"
-  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.bz2$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.bz2"
-  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.gz$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.gz"
-  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.zip"
+  r302 %r{^/ja/man/archive/ruby-refm-1.8.6-chm.zip$}, "https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip"
+  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-chm.zip$}, "https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip"
+  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.bz2$}, "https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.bz2"
+  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.tar.gz$}, "https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.tar.gz"
+  r302 %r{^/ja/man/archive/ruby-refm-1.9.0-dynamic.zip$}, "https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-dynamic.zip"
 
   # legacy URLs of translated sites
   r302 %r{^/zh_TW(.*)$}, "/zh_tw$1"
