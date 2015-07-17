@@ -56,14 +56,14 @@ downloads:
       zip: 2ad4eaabfd92d627baffc6c971e4b8987b38c06baf42dc2fc2e05131095499e7
   stable_snapshot:
     url:
-      bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
-      gz: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
-      zip: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.zip
+      bz2: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
+      gz: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
+      zip: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.zip
   nightly_snapshot:
     url:
-      bz2: https://ftp.ruby-lang.org/pub/ruby/snapshot.tar.bz2
-      gz: https://ftp.ruby-lang.org/pub/ruby/snapshot.tar.gz
-      zip: https://ftp.ruby-lang.org/pub/ruby/snapshot.zip
+      bz2: https://cache.ruby-lang.org/pub/ruby/snapshot.tar.bz2
+      gz: https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz
+      zip: https://cache.ruby-lang.org/pub/ruby/snapshot.zip
 
 svn:
   stable:
