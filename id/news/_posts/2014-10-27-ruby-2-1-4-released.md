@@ -11,10 +11,10 @@ Ruby 2.1.4 telah dirilis.
 
 Rilis ini mencakup perbaikan celah keamanan diantaranya sebagai berikut:
 
-* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service pada Ekspansi XML](https://www.ruby-lang.org/id/news/2014/10/27/rexml-dos-cve-2014-8080/)
 * [Perubahan pengaturan *default* dari ext/openssl yang berkaitan dengan CVE-2014-3566](https://www.ruby-lang.org/id/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-dan beberapa perbaikan *bugs*.
+dan beberapa perbaikan *bugs* lainnya.
 
 Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 dan [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)

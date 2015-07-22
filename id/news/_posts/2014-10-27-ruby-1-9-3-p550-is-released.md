@@ -11,7 +11,7 @@ Kami dengan senang hati mengumumkan Ruby 1.9.3-p550 telah dirilis.
 
 Rilis ini mencakup perbaikan celah keamanan *DoS* pada REXML.
 
-* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service pada Ekspansi XML](https://www.ruby-lang.org/id/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
 Rilis ini juga mencakup perubahan pengaturan *default* dari ext/openssl.
 Opsi SSL/TLS yang tidak aman dimatikan secara *default*.
