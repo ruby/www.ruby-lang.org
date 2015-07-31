@@ -204,7 +204,7 @@ Here’s a list:
   with ease.
 * [mruby][mruby] is a lightweight implementation of the Ruby language
   that can be linked and embedded within an application.
-  Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
+  Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.
 * [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
   Framework”.
 * [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
