@@ -516,12 +516,12 @@ locales:
       other_news: Други новини
       more_news: Още новини...
       continue: Прочетете още...
-      back_to_year: "Back to %Y Archives"
+      back_to_year: "Обратно към архив %Y"
       recent_news: Последни новини
-      yearly_archive_title: "%Y Archives"
-      monthly_archive_title: "%B %Y Archives"
+      yearly_archive_title: "Архив %Y"
+      monthly_archive_title: "Архив %B %Y"
       yearly_archives: Архив по година
-      monthly_archives: Archives by Month
+      monthly_archives: Архив по месец
       yearly_archive_link: "%Y"
       monthly_archive_link: "%B %Y"
     de:
@@ -1653,14 +1653,14 @@ locales:
 
   subscription_form:
     bg:
-      list: Mailing List
-      first_name: First Name
-      last_name: Last Name
-      email: Email Address
-      action: Action
-      subscribe: Subscribe
-      unsubscribe: Unsubscribe
-      submit: Submit Form
+      list: Пощенски списък
+      first_name: Име
+      last_name: Фамилия
+      email: Email адрес
+      action: Действие
+      subscribe: Записване
+      unsubscribe: Отписване
+      submit: Изпрати
     de:
       list: Mailingliste
       first_name: Vorname
@@ -1798,6 +1798,7 @@ locales:
       submit: 送出表格
 
   languages_heading:
+    bg: "Този сайт на други езици:"
     de: "Diese Website in anderen Sprachen:"
     en: "This site in other languages:"
     fr: "Autres langues disponibles :"
@@ -1809,12 +1810,8 @@ locales:
 
   credits:
     bg: |
-      Този сайт е генериран с Ruby и излползва <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Поддържа се от членове на Ruby обществото.
-      Ако имате желание да допринесете за развитието му, моля посетете
-      <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> или се свържете с
-      <a href="mailto:webmaster@ruby-lang.org">webmaster-a</a>
-      за въпроси или коментари.
+      <a href="/bg/about/website/">Този сайт</a>
+      се поддържа от членове на Ruby обществото.
     de: |
       <a href="/de/about/website/">Diese Website</a>
       wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
