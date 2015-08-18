@@ -42,10 +42,10 @@ downloads:
       xz: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.xz
       zip: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.zip
     sha256:
-      bz2: f59c1596ac39cc7e60126e7d3698c19f482f04060674fdfe0124e1752ba6dd81
-      gz: b02c1a5ecd718e3f6b316384d4ed6572f862a46063f5ae23d0340b0a245859b6
-      xz: caa60d82ef958232ecbd0ac7cb95ba9f13b15c268ef4ebeef7083d21b8c9d0e9
-      zip: 225c067d9820fe52fcffbfb91d5b5243708a0b666b9929bea466e9379eb40ad7
+      bz2: b02c1a5ecd718e3f6b316384d4ed6572f862a46063f5ae23d0340b0a245859b6
+      gz: f59c1596ac39cc7e60126e7d3698c19f482f04060674fdfe0124e1752ba6dd81
+      xz: 225c067d9820fe52fcffbfb91d5b5243708a0b666b9929bea466e9379eb40ad7
+      zip: caa60d82ef958232ecbd0ac7cb95ba9f13b15c268ef4ebeef7083d21b8c9d0e9
   previous20:
     version: 2.0.0-p647
     url:
