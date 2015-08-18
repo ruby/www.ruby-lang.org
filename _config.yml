@@ -23,17 +23,17 @@ license:
 
 downloads:
   stable:
-    version: 2.2.2
+    version: 2.2.3
     url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.2.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.2.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.2.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.2.zip
+      bz2: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.bz2
+      gz: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.zip
     sha256:
-      bz2: f3b8ffa6089820ee5bdc289567d365e5748d4170e8aa246d2ea6576f24796535
-      gz: 5ffc0f317e429e6b29d4a98ac521c3ce65481bfd22a8cf845fa02a7b113d9b44
-      xz: f033b5d08ab57083e48c1d81bcd7399967578c370b664da90e12a32891424462
-      zip: dd96db09348034b21889df1b561c7482ee553558486707503c83908eddb3c768
+      bz2: c745cb98b29127d7f19f1bf9e0a63c384736f4d303b83c4f4bda3c2ee3c5e41f
+      gz: df795f2f99860745a416092a4004b016ccf77e8b82dec956b120f18bdc71edce
+      xz: c6ec90e9ed018e6d9a578fc93755d8565839908d5796809e1aecd1798c7ea8a7
+      zip: 0af3035be23120e5a617fcae0d34bc6cd5ee313ed7a6e1b68591268b415c95e4
   previous:
     version: 2.1.6
     url:
