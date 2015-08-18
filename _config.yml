@@ -35,25 +35,29 @@ downloads:
       xz: c6ec90e9ed018e6d9a578fc93755d8565839908d5796809e1aecd1798c7ea8a7
       zip: 0af3035be23120e5a617fcae0d34bc6cd5ee313ed7a6e1b68591268b415c95e4
   previous:
-    version: 2.1.6
+    version: 2.1.7
     url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.6.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.6.tar.gz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.6.zip
+      bz2: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.bz2
+      gz: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.zip
     sha256:
-      bz2: 7b5233be35a4a7fbd64923e42efb70b7bebd455d9d6f9d4001b3b3a6e0aa6ce9
-      gz: 1e1362ae7427c91fa53dc9c05aee4ee200e2d7d8970a891c5bd76bee28d28be4
-      zip: ecbc4b97cc78e96e01375b961936133279db806044fd4d23771136dae4c1056d
+      bz2: f59c1596ac39cc7e60126e7d3698c19f482f04060674fdfe0124e1752ba6dd81
+      gz: b02c1a5ecd718e3f6b316384d4ed6572f862a46063f5ae23d0340b0a245859b6
+      xz: caa60d82ef958232ecbd0ac7cb95ba9f13b15c268ef4ebeef7083d21b8c9d0e9
+      zip: 225c067d9820fe52fcffbfb91d5b5243708a0b666b9929bea466e9379eb40ad7
   previous20:
-    version: 2.0.0-p645
+    version: 2.0.0-p647
     url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p645.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p645.tar.gz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p645.zip
+      bz2: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p647.tar.bz2
+      gz: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p647.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p647.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p647.zip
     sha256:
-      bz2: 2dcdcf9900cb923a16d3662d067bc8c801997ac3e4a774775e387e883b3683e9
-      gz: 5e9f8effffe97cba5ef0015feec6e1e5f3bacf6ace78cd1cdf72708cd71cf4ab
-      zip: 2ad4eaabfd92d627baffc6c971e4b8987b38c06baf42dc2fc2e05131095499e7
+      bz2: 3c3782e313d1ec3ed06c104eafd133cc54ff5183b991786ece9e957fd6cf1cb9
+      gz: c88aaf5b4ec72e2cb7d290ff854f04d135939f6134f517002a9d65d5fc5e5bec
+      xz: 9f793880df1209ea4e5c10ee9d8ef79caa0e73ee769f745f1c191505255e2847
+      zip: 788c34fa034088bc49b9a0c622a0d81e0b0c6dd0f993c2cacf3b839fce8d4780
   stable_snapshot:
     url:
       bz2: https://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.bz2
