@@ -4,21 +4,22 @@ title: "Liberada la versión 2.1.7 de Ruby"
 author: "usa"
 translator: "gfvcastro"
 date: 2015-08-18 16:00:00 +0000
-lang: en
+lang: es
 ---
 
 Ruby 2.1.7 ha sido liberado.
 
-Esta entrega contiene una corrección de seguridad para una vulnerabilidad de verificación de nombre de dominio RubyGems.
+Esta entrega contiene una corrección de seguridad para una vulnerabilidad de
+verificación de nombre de dominio RubyGems.
 
-Puedes tener más detalles en esta publicación:
+Puedes leer más detalles en esta publicación:
 
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 También se incluyen muchas correcciones de errores.
 
-Ver [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-y [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog)
+Puedes ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+y el [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog)
 para más detalles.
 
 ## Descargas
@@ -55,4 +56,5 @@ para más detalles.
 
 Muchas gracias a todos los que nos ayudaron con esta entrega, en especial a nagachika.
 
-El mantenimiento de Ruby 2.1 contiene esta entrega, se basa en el "Acuerdo para la versión estable de Ruby" de [the Ruby Association](http://www.ruby.or.jp/).
+El mantenimiento de Ruby 2.1 que contiene esta entrega, se basa en el
+"Acuerdo para la versión estable de Ruby" de [the Ruby Association](http://www.ruby.or.jp/).
