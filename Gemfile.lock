@@ -82,7 +82,7 @@ GEM
     sass (3.4.16)
     spidr (0.4.1)
       nokogiri (~> 1.3)
-    timers (4.0.2)
+    timers (4.0.1)
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
