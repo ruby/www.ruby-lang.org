@@ -4,7 +4,7 @@ title: "루비에 대해서"
 lang: ko
 ---
 
-루비가 왜 인기 있을까요? 루비의 팬들은 아릅답고 기교가 뛰어난 언어이기 때문이라고 말합니다. 하지만 이 말로는 부족하지요. 어떤
+루비가 왜 인기 있을까요? 루비의 팬들은 아름답고 기교가 뛰어난 언어이기 때문이라고 말합니다. 하지만 이 말로는 부족하지요. 어떤
 점이 루비를 이처럼 매력적인 언어로 만드는 것일까요?
 {: .summary}
 
@@ -62,7 +62,7 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 않습니다.
 
 예를 들어 아래는 `+` 연산자 대신 plus 라고 쓰는 것이 더 읽기 편하다고 결정했다면 루비의 빌트인 클래스인
-`Numeric`에 메소드를 추가하면 뇝니다.
+`Numeric`에 메소드를 추가하면 됩니다.
 
 {% highlight ruby %}
 class Numeric
