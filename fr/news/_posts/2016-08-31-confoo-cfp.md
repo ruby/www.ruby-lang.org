@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title:  "ConFoo 2014 cherche des conférenciers Ruby"
+title:  "ConFoo 2016 cherche des conférenciers Ruby"
 author: "afilina"
 translator:
 date:   2016-08-31 16:00:00 UTC
