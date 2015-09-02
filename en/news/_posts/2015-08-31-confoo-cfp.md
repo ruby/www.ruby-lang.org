@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title:  "ConFoo 2016 is looking for Ruby speakers"
+title: "ConFoo 2016 is looking for Ruby speakers"
 author: "afilina"
 translator:
-date:   2016-08-31 16:00:00 UTC
-lang:   en
+date: 2015-08-31 16:00:00 UTC
+lang: en
 ---
 
 ![ConFoo - Conference for Web Developers](https://confoo.ca/images/content/confoo-master.jpg){: style="border:0; float:right; margin-left:20px;" width="350" height="157"}ConFoo is once more seeking passionate speakers for the upcoming conference.
