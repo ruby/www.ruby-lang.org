@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "ConFoo 2016 is looking for Ruby speakers"
+title: "ConFoo 2016 正在尋找 Ruby 講者"
 author: "afilina"
 translator: "JuanitoFatas"
 date: 2015-08-31 16:00:00 UTC
