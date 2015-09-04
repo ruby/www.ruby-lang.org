@@ -9,19 +9,19 @@ Ruby 1.8.7がリリースされました。 (リリースについてのアナ�
 
 ソースコードは以下のURLから入手できます。 3種類のフォーマットから選んでください。
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2&gt;][2]
   * md5: f17f14c8d55e731b3ce1bc35c42f0a6c
   * sha256:
     65f2a862ba5e88bac7a78cff15bcb88d7534e741b51a1ffb79a0136c7041359a
   * size: 4100024
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz&gt;][3]
   * md5: de906850f9a012c12ffc6e9f56fb1b66
   * sha256:
     600dccf13bca3e4179fa6ff554220ce4ba67ffc72bce1ac3bf74c2599c03a0ca
   * size: 4799732
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip&gt;][4]
   * md5: 14d3eb37b32e4a26966bdd80f361ccd2
   * sha256:
     805987ad167d8f9cac90e4b9342686e96a7708664111be27a3c6d680ce21d6c1
@@ -41,9 +41,9 @@ Ruby 1.8.7がリリースされました。 (リリースについてのアナ�
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/44986
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip
 [5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/NEWS
 [6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/ChangeLog
 [7]: http://rubyspec.org/

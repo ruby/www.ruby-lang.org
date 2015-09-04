@@ -26,7 +26,7 @@ oficial del sistema.([https://bugs.ruby-lang.org][3] ).
 
 Ubicación:
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2][4]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2][4]
 ^
 
 
@@ -34,7 +34,7 @@ Ubicación:
      MD5:    f113cec7a1a447243575d39ed611ddda
      SHA256: acb5061123fa7170597e713ef773e21ddd9dd167f27aaae2c5440b5ec12df2ec
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz][5]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz][5]
 ^
 
 
@@ -42,7 +42,7 @@ Ubicación:
      MD5:    7a2e4e16361ebf33b2032f366ceef785
      SHA256: 195228054af5f557e407e88a8be1e35e6ea997132cd9e4e7d6ccacfc37fb04d7
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip][6]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip][6]
 ^
 
 
@@ -55,6 +55,6 @@ Ubicación:
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_rc2/NEWS
 [2]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=7
 [3]: https://bugs.ruby-lang.org
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip

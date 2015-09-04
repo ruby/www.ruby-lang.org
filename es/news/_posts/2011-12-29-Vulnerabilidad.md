@@ -25,7 +25,7 @@ pequeños errores y vulnerabilidades.
 
 ## Descargas
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.gz&gt;][1]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.gz&gt;][1]
 
 SIZE:
 
@@ -39,7 +39,7 @@ SHA256:
 
 2fdcac4eb37b2eba1a4eef392a2922e07a9222fc86d781d92154d716434b962c
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.bz2&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.bz2&gt;][2]
 
 SIZE:
 
@@ -53,7 +53,7 @@ SHA256:
 
 5c64b63a597b4cb545887364e1fd1e0601a7aeb545e576e74a6d8e88a2765a37
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.zip&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.zip&gt;][3]
 
 SIZE:
 
@@ -78,7 +78,7 @@ dirigiéndose a la página de descarga del producto.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.gz
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p357.zip
 [4]: http://www.jruby.org/download

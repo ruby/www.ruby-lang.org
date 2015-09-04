@@ -58,6 +58,6 @@ Ich empfehle allen Ruby-1.9.1-Nutzern auf p430 zu updaten.
 
 
 [1]: {{ site.url }}/de/news/2010/08/24/xss-in-webrick-cve-2010-0541/
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.zip

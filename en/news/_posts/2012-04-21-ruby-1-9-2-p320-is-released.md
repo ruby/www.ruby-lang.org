@@ -51,19 +51,19 @@ See [tickets][2] and [ChangeLog][3] for details.
 
 ## Downloads
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2&gt;][4]
   * SIZE: 8981382 bytes
   * MD5: b226dfe95d92750ee7163e899b33af00
   * SHA256:
     6777f865cfa21ffdc167fcc4a7da05cb13aab1bd9e59bfcda82c4b32f75e6b51
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz&gt;][5]
   * SIZE: 11338691 bytes
   * MD5: 5ef5d9c07af207710bd9c2ad1cef4b42
   * SHA256:
     39a1f046e8756c1885cde42b234bc608196e50feadf1d0f202f7634f4a4b1245
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip&gt;][6]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip&gt;][6]
   * SIZE: 12730896 bytes
   * MD5: 0bdfd04bfeb0933c0bdcd00e4ea94c49
   * SHA256:
@@ -74,6 +74,6 @@ See [tickets][2] and [ChangeLog][3] for details.
 [1]: https://github.com/rubygems/rubygems/blob/1.8/History.txt
 [2]: https://bugs.ruby-lang.org/projects/ruby-192/issues?set_filter=1&amp;status_id=5
 [3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_320/ChangeLog
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip

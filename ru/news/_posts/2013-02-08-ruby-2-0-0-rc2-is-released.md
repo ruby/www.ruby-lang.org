@@ -14,19 +14,19 @@ Ruby 2.0.0.
 
 ## Скачать
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2&gt;][1]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2&gt;][1]
 
       SIZE:   10822239 bytes
       MD5:    e92420131bd7994513e0bf09a3e2a19b
       SHA256: d55f897bb04283c5fa80223d96d990fe8ecb598508dd59443b356cbba1f66145
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz&gt;][2]
 
       SIZE:   13616756 bytes
       MD5:    9d5e6f26db7c8c3ddefc81fdb19bd41a
       SHA256: 87072ab3e6d393d47f7402682364e4f24efe1c518969795cc01fcdeeb0e646f3
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip&gt;][3]
 
       SIZE:   15118480 bytes
       MD5:    1a2d33f1c50e32ca1532f8dea4790d53
@@ -107,9 +107,9 @@ FYI: Мы добавляем записи с обновлениями, но ча
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
+[2]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip
 [4]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails
 [5]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
 [6]: http://www.infoq.com/news/2012/11/ruby-20-preview1

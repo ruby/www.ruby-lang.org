@@ -63,6 +63,6 @@ exprimer vos retours sur [le bug tracker][5].
 [3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog
 [4]: https://bugs.ruby-lang.org/issues/show/3462
 [5]: https://bugs.ruby-lang.org/projects/show/ruby-19/
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
-[7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz
-[8]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
+[7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz
+[8]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip

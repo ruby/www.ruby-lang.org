@@ -51,19 +51,19 @@ Lihat [tiket][2] dan [ChangeLog][3] untuk rinciannya.
 
 ## Unduhan
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&gt;][4]
   * SIZE: 9841223 bytes
   * MD5: 2278eff4cfed3cbc0653bc73085caa34
   * SHA256:
     a9d1ea9eaea075c60048369a63b35b3b5a06a30aa214a3d990e0bb71212db8fa
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz&gt;][5]
   * SIZE: 12432239 bytes
   * MD5: bc0c715c69da4d1d8bd57069c19f6c0e
   * SHA256:
     46e2fa80be7efed51bd9cdc529d1fe22ebc7567ee0f91db4ab855438cf4bd8bb
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip&gt;][6]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip&gt;][6]
   * SIZE: 13898712 bytes
   * MD5: 77e67b15234e442d4a3dcc450bc70fea
   * SHA256:
@@ -74,6 +74,6 @@ Lihat [tiket][2] dan [ChangeLog][3] untuk rinciannya.
 [1]: https://github.com/rubygems/rubygems/blob/1.8/History.txt
 [2]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
 [3]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_194/ChangeLog
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.zip

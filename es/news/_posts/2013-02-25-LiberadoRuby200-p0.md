@@ -93,7 +93,7 @@ en cuenta si se va a usar esta versión.
 Se puede obtener una copia de esta nueva versión desde las siguientes
 fuentes de descarga.
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2&gt;][1]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2&gt;][1]
 
       SIZE:
       10814890 bytes
@@ -102,7 +102,7 @@ fuentes de descarga.
       SHA256:
       c680d392ccc4901c32067576f5b474ee186def2fcd3fcbfa485739168093295f
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz&gt;][2]
 
       SIZE:
       13608925 bytes
@@ -111,7 +111,7 @@ fuentes de descarga.
       SHA256:
       aff85ba5ceb70303cb7fb616f5db8b95ec47a8820116198d1c866cc4fff151ed
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip&gt;][3]
 
       SIZE:
       15037340 bytes
@@ -127,7 +127,7 @@ contiene estos [agradecimientos][4].
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
+[2]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip
 [4]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks

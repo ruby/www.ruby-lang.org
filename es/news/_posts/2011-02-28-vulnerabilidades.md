@@ -13,14 +13,14 @@ Como solución a estos problemas se recomienda la instalación de las
 siguientes nuevas versiones de las diferentes ramas.
 
 * Ruby 1.8.7-p334:
-  [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz&gt;][1]
+  [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz&gt;][1]
 * Ruby 1.9.1-p431:
-  [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz&gt;][2]
+  [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz&gt;][2]
 * Ruby 1.9.2-p180:
-  [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz&gt;][3]
+  [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz&gt;][3]
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz

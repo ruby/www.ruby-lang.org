@@ -87,6 +87,6 @@ worden. VM-Locking ist geändert worden.
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/NEWS
 [3]: http://www.rubyinside.com/ruby-1-9-3-preview-1-released-5229.html
 [4]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.zip
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz
+[7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.zip

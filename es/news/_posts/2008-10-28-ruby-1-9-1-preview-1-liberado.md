@@ -17,7 +17,7 @@ sistema de seguimiento [https://bugs.ruby-lang.org][1]
 
 Usted puede obtener la versión de;
 
-* \"[ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2][2]\"
+* \"[https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2][2]\"
 ^
 
 
@@ -26,7 +26,7 @@ Usted puede obtener la versión de;
          MD5: 0d51dc949bb6b438ad4ebfabbb5f6754
          SHA256: dc39000537d7c7528ef26af8e1c3a6215b30b6c579c615eaec7013513410456a
 
-* \"[ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz][3]\"
+* \"[https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz][3]\"
 ^
 
 
@@ -34,7 +34,7 @@ Usted puede obtener la versión de;
          MD5: 738f701532452fd5d36f5c155f3ba692
          SHA256: 99443bdae9f94ba7b08de187881f8cbee172379edf9c5fa85fc04c869150ff6d
 
-* \"[ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip][4]\"
+* \"[https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip][4]\"
 ^
 
 
@@ -45,6 +45,6 @@ Usted puede obtener la versión de;
 
 
 [1]: https://bugs.ruby-lang.org
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip

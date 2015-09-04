@@ -21,7 +21,7 @@ Como resumen de las novedades contenidas en esta versión cabe destacar:
 
 ## Descargas
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&gt;][3]
 
 SIZE:
 
@@ -35,7 +35,7 @@ SHA256:
 
 ca8ba4e564fc5f98b210a5784e43dfffef9471222849e46f8e848b37e9f38acf
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz&gt;][4]
 
 SIZE:
 
@@ -49,7 +49,7 @@ SHA256:
 
 3b910042e3561f4296fd95d96bf30322e53eecf083992e5042a7680698cfa34e
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip&gt;][5]
 
 SIZE:
 
@@ -67,6 +67,6 @@ SHA256:
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/ChangeLog
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/NEWS
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip

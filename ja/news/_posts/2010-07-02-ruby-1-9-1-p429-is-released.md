@@ -28,7 +28,7 @@ Ruby 1.9を1.9.1-p429または1.9.2-rc1に更新することを推奨します�
 
 ### 所在
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2&gt;][1]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2&gt;][1]
   SIZE
   : 7300923 bytes
 
@@ -38,7 +38,7 @@ Ruby 1.9を1.9.1-p429または1.9.2-rc1に更新することを推奨します�
   SHA256
   : e0b9471d77354628a8041068f45734eb2d99f5b5df08fe5a76d785d989a47bfb
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz&gt;][2]
   SIZE
   : 9078126 bytes
 
@@ -48,7 +48,7 @@ Ruby 1.9を1.9.1-p429または1.9.2-rc1に更新することを推奨します�
   SHA256
   : fdd97f52873b70f378ac73c76a1b2778e210582ce5fe1e1c241c37bd906b43b2
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip&gt;][3]
   SIZE
   : 10347659 bytes
 
@@ -60,6 +60,6 @@ Ruby 1.9を1.9.1-p429または1.9.2-rc1に更新することを推奨します�
 
 
 
-[1]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip

@@ -35,17 +35,17 @@ lang: ja
 1.8系
 : 1\.8.5-p231または1.8.6-p230・1.8.7-p22に更新してください。
 
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz&gt;][6]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz&gt;][6]
     (md5sum: e900cf225d55414bffe878f00a85807c)
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz&gt;][7]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz&gt;][7]
     (md5sum: 5e8247e39be2dc3c1a755579c340857f)
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz&gt;][8]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz&gt;][8]
     (md5sum: fc3ede83a98f48d8cb6de2145f680ef2)
 
 1.9系
 : 1\.9.0-2に更新してください。
 
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz&gt;][9]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz&gt;][9]
     (md5sum: 2a848b81ed1d6393b88eec8aa6173b75)
 
 これらのバージョンでは、[CVE-2008-1891][10]のWEBrickの脆弱性も同時に修正しています。
@@ -68,8 +68,8 @@ Rubyのパッケージを配布している各ベンダから、この脆弱性�
 [3]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2725
 [4]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2726
 [5]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-2664
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz
+[7]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p230.tar.gz
+[8]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz
+[9]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz
 [10]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1891

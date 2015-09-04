@@ -21,7 +21,7 @@ see the [NEWS][1] and the [ChangeLog][2] for more detail.
 
 #### Location
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2&gt;][3]
   SIZE
   : 7487008 bytes
 
@@ -31,7 +31,7 @@ see the [NEWS][1] and the [ChangeLog][2] for more detail.
   SHA256
   : 0681204e52207153250da80b3cc46812f94107807458a7d64b17554b6df71120
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz&gt;][4]
   SIZE
   : 9422226 bytes
 
@@ -41,7 +41,7 @@ see the [NEWS][1] and the [ChangeLog][2] for more detail.
   SHA256
   : 7f29ab3b1d5f0074bb82a6bf398f1cacd42fe508a17fc14844560c4d906786b6
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip&gt;][5]
   SIZE
   : 10741739 bytes
 
@@ -55,6 +55,6 @@ see the [NEWS][1] and the [ChangeLog][2] for more detail.
 
 [1]: http://svn.ruby-lang.org/repos/ruby/trunk/NEWS%0A
 [2]: http://svn.ruby-lang.org/repos/ruby/trunk/ChangeLog%0A
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip

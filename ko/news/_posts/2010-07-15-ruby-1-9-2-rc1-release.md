@@ -32,7 +32,7 @@ lang: ko
 
 ### 다운로드
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2&gt;][5]
   SIZE
   : 8479087 bytes
 
@@ -42,7 +42,7 @@ lang: ko
   SHA256
   : c2a680aa5472c8d04a71625afa2b0f75c030d3655a3063fe364cfda8b33c1480
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz&gt;][6]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz&gt;][6]
   SIZE
   : 10779309 bytes
 
@@ -52,7 +52,7 @@ lang: ko
   SHA256
   : 3e90036728342ce8463be00d42d4a36de70dabed96216c5f8a26ec9ba4b29537
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip&gt;][7]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip&gt;][7]
   SIZE
   : 12158992 bytes
 
@@ -68,6 +68,6 @@ lang: ko
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog
 [3]: https://bugs.ruby-lang.org/issues/show/3462
 [4]: https://bugs.ruby-lang.org/projects/show/ruby-19/
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz
-[7]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz
+[7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip

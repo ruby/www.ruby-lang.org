@@ -15,12 +15,12 @@ Liste aller Änderungen, steht die Datei \"ChangeLog\" zur Verfügung.
 
 Die neuen Versionen sind verfügbar unter:
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz][1]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.bz2][2]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.zip][3]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz][4]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.bz2][5]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.zip][6]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz][1]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.bz2][2]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.zip][3]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz][4]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.bz2][5]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.zip][6]
 
 Checksums:
 
@@ -57,11 +57,11 @@ weiterhin unter den folgenden Links verfügbar:
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.zip
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.bz2
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.bz2
+[6]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.zip
 [7]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_6_368/ChangeLog
 [8]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_160/ChangeLog

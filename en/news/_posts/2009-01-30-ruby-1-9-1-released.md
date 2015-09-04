@@ -28,7 +28,7 @@ official issue [tracking system][3].
 
 Download from
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2][4]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2][4]
   SIZE: 7190271 bytes
 
   MD5: 0278610ec3f895ece688de703d99143e
@@ -37,7 +37,7 @@ Download from
   de7d33aeabdba123404c21230142299ac1de88c944c9f3215b816e824dd33321
 ^
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz][5]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz][5]
   SIZE: 9025004 bytes
 
   MD5: 50e4f381ce68c6de72bace6d75f0135b
@@ -46,7 +46,7 @@ Download from
   a5485951823c8c22ddf6100fc9e10c7bfc85fb5a4483844033cee0fad9e292cc
 ^
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip][6]
+* [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip][6]
   SIZE: 10273609 bytes
 
   MD5: 3377d43b041877cda108e243c6b7f436
@@ -59,6 +59,6 @@ Download from
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS
 [2]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=11
 [3]: https://bugs.ruby-lang.org
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip

@@ -14,7 +14,7 @@ I recommend all Ruby 1.8.7 users to upgrade the 1.8.7 to p302.
 
 ## Downloads
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2&gt;][3]
 
 SIZE(ruby-1.8.7-p302.tar.bz2):
 : 4184764 bytes
@@ -25,7 +25,7 @@ MD5(ruby-1.8.7-p302.tar.bz2):
 SHA256(ruby-1.8.7-p302.tar.bz2):
 : 3537cc81cc2378a2bc319cd16c4237ddee14a2839cfd1515b27dce108d061a68
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz&gt;][4]
 
 SIZE(ruby-1.8.7-p302.tar.gz):
 : 4866763 bytes
@@ -36,7 +36,7 @@ MD5(ruby-1.8.7-p302.tar.gz):
 SHA256(ruby-1.8.7-p302.tar.gz):
 : 5883df5204de70762602ce885b18c8bf6c856d33298c35df9151031b2ce044a1
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.zip&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.zip&gt;][5]
 
 SIZE(ruby-1.8.7-p302.zip):
 : 5965421 bytes
@@ -51,6 +51,6 @@ SHA256(ruby-1.8.7-p302.zip):
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/367769
 [2]: {{ site.url }}/en/news/2010/08/16/xss-in-webrick-cve-2010-0541/
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.zip
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.zip
