@@ -10,7 +10,7 @@ lang: de
 ![ConFoo - Konferenz für Webentwickler](https://confoo.ca/images/content/confoo-master.jpg){: style="border:0; float:right; margin-left:20px;" width="350" height="157"}Die ConFoo sucht einmal mehr nach Referenten mit mitreißenden Vorträgen für die anstehende Konferenz.
 
 Die Veranstaltung findet vom 24. bis zum 26. Februar 2016 in Montreal
-(Kanada) statt. Es handelt sich um an Webentwickler gerichtete
+(Kanada) statt. Es handelt sich um eine an Webentwickler gerichtete
 Konferenz mit Referenten aus der ganzen Welt, die zahlreiche
 Programmiersprachen für das Web genauso wie weitere, die
 Webentwicklung betreffende Themen unter einem Dach zusammenbringt. Der
