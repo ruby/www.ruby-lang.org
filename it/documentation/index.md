@@ -53,7 +53,7 @@ potrà venire comodo quando vorrai programmare in Ruby.
 : Ruby Essentials è un libro gratuito online, pensato per essere una
   concisa guida facile da seguire per imparare Ruby. \[in inglese\]
 
-[Learn to Program][39]
+[Imparare a Programmare][39]
 : Un meraviglioso mini-tutorial scritto da Chris Pine e tradotto in
   italiano da Duccio Armenise. Adatto a neofiti del mondo della
   programmazione. Se non sai come programmare, inizia qui. È disponibile
@@ -181,5 +181,5 @@ iniziare.
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
-[39]: http://corsorubyonrails.com/imparare-a-programmare/
+[39]: http://nemboweb.com/corsi/imparare-a-programmare/
 [40]: http://kapeli.com/dash
