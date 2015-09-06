@@ -10,7 +10,7 @@ lang: es
 Nos complace anunciar la entrega de Ruby 2.2.3.
 Esta es una publicación TEENY de la serie estable 2.2.
 
-Esta publicación incluye una solución a una vulnerabilidad de seguridad en la verificacioń del nombre del dominio RubyGems.
+Esta publicación incluye una solución a una vulnerabilidad de seguridad en la verificación del nombre del dominio RubyGems.
 
 
 * [CVE-2015-3900 Vulnerabilidad, secuestro de peticiones en RubyGems 2.4.6 y anteriores](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
