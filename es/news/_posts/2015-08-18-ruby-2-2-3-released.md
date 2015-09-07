@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.3 Released"
+title: "Liberada la versión 2.2.3 de Ruby"
 author: "nagachika"
 translator: "vtamara"
 date: 2015-08-18 16:00:00 +0000
