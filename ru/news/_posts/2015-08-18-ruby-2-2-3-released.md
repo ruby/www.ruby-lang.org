@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "Ruby 2.2.3 Released"
+title: "Вышел Ruby 2.2.3"
 author: "nagachika"
-translator:
+translator: "gazay"
 date: 2015-08-18 16:00:00 +0000
-lang: en
+lang: ru
 ---
 
 Мы рады сообщить о релизе Ruby 2.2.3.

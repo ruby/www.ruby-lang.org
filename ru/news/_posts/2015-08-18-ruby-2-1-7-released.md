@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.7 Released"
+title: "Вышел Ruby 2.1.7"
 author: "usa"
 translator: "gazay"
 date: 2015-08-18 16:00:00 +0000
