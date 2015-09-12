@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "RubyConf Taiwan 2015 참가 등록 시작"
-author: "Mu-Fan Teng（@ryudoawaru）"
+author: "Mu-Fan Teng (@ryudoawaru)"
 translator: "yous"
 date: 2015-08-04 15:30:22 +0000
 lang: ko

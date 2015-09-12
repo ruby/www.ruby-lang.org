@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Registrierung für RubyConf Taiwan 2015 online"
-author: "Mu-Fan Teng（@ryudoawaru）"
+author: "Mu-Fan Teng (@ryudoawaru)"
 translator: "Marvin Gülker"
 date: 2015-08-04 15:30:22 +0000
 lang: de

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Онлайн регистрация на RubyConf Тайвань 2015"
-author: "Mu-Fan Teng（@ryudoawaru）"
+author: "Mu-Fan Teng (@ryudoawaru)"
 translator: "gazay"
 date: 2015-08-04 15:30:22 +0000
 lang: ru
