@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "松江Ruby会議07の参加登録が開始されました"
-author: "Sho Hashimoto（@sho_hashimoto）"
+author: "Sho Hashimoto (@sho_hashimoto)"
 translator:
 date: 2015-09-03 14:50:12 +0000
 lang: ja
