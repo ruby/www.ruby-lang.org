@@ -1,6 +1,8 @@
 www.ruby-lang.org
 =================
 
+[![Join the chat at https://gitter.im/ruby/www.ruby-lang.org](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ruby/www.ruby-lang.org?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/ruby/www.ruby-lang.org.svg?branch=master)](https://travis-ci.org/ruby/www.ruby-lang.org)
 
 This is the [Jekyll](http://www.jekyllrb.com/) source of
