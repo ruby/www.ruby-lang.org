@@ -12,7 +12,7 @@ Dear Ruby Enthusiasts,
 
 The Government of Fukuoka, Japan together with "Matz" Matsumoto would
 like to invite you to enter the following Ruby competition. If you have developed an interesting Ruby program, please be encouraged to apply.
-+
+
 2016 Fukuoka Ruby Award Competition
  - Grand Prize - 1 Million Yen!
 
