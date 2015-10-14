@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "2016 Fukuoka Ruby Award Competition -Entries to be judged by Matz"
+title: "2016 Fukuoka Ruby Award Competition - Entries to be judged by Matz"
 author: "Fukuoka Ruby"
 translator:
 date: 2015-10-13 17:00:00 +0900
