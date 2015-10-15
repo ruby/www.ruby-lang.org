@@ -39,12 +39,6 @@ http://www.digitalfukuoka.jp/uploads/event_detail/file/210/RubyAward_Application
 
 올해엔 다음과 같은 특별한 상을 준비했습니다.
 
-Engine Yard 상:
-
-* Engine Yard Cloud 5,000시간 상당의 크레딧
-* RubyKaigi 입장권 두 장(1인당 50,000엔 상당의 교통비 포함)
-* Engine Yard novelty 상품 세트
-
 AWS 상:
 
 * 킨들 파이어 HDX(변경될 수 있습니다.)
