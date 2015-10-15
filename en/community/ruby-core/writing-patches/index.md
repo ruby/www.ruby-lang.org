@@ -29,7 +29,8 @@ on the Ruby-Core mailing list:
 
   Your problem might have been fixed in the latest revision. Or the code
   might be totally different by now. Before submitting a patch, try to fetch
-  the latest version (the `trunk` branch for 2.1, `ruby_2_0_0` for 2.0.0)
+  the latest version (the `trunk` branch for the latest development version,
+  `{{ site.svn.stable.branch }}` for {{ site.svn.stable.version }})
   from the Subversion repository, please.
 
 * Use `diff -u`
