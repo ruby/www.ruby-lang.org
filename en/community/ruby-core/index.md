@@ -76,8 +76,8 @@ so you can be sure your request won’t go unnoticed. You can
 also send your patches straight to the mailing list. Either way, you are
 encouraged to take part in the discussion that ensues.
 
-Please look over the [Patch Writer’s Guide][11] for some tips, straight
-from Matz, on how to get your patches considered.
+Please look over the [Patch Writer’s Guide][writing-patches] for some tips,
+straight from Matz, on how to get your patches considered.
 
 To summarize, the steps for building a patch are:
 
@@ -150,6 +150,7 @@ See also the information in [Ruby’s issue tracker][10].
 
 
 [mailing-lists]: /en/community/mailing-lists/
+[writing-patches]: /en/community/ruby-core/writing-patches/
 [1]: http://subversion.apache.org/
 [2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
@@ -160,7 +161,6 @@ See also the information in [Ruby’s issue tracker][10].
 [8]: http://wiki.github.com/shyouhei/ruby/committerhowto
 [9]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/
-[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
 [14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs
