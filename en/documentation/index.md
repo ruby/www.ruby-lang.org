@@ -136,19 +136,19 @@ Here is a list of popular tools used by Rubyists:
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][41]
+  * [Atom][atom]
 
 * On Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][41]
+  * [Atom][atom]
 
 * On Mac OS X:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (documentation browser)
-  * [Atom][41]
+  * [Atom][atom]
 
 ### Further Reading
 
@@ -199,4 +199,4 @@ If you have questions about Ruby the
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [40]: https://www.omniref.com
-[41]: https://atom.io/
+[atom]: https://atom.io/
