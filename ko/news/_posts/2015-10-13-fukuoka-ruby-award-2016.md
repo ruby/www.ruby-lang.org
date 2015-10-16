@@ -21,7 +21,7 @@ lang: ko
 경진대회의 대상 상금은 1백만 엔입니다. Rhomobile(미국)과 APEC 기후
 센터(대한민국)는 대상을 수상한 바 있습니다.
 
-http://myfukuoka.com/category/news/ruby-news/
+[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 경진대회에 등록할 프로그램을 루비로만 작성할 필요는 없지만, 루비만의 독특한
 특징을 잘 활용해야 합니다.
@@ -29,11 +29,11 @@ http://myfukuoka.com/category/news/ruby-news/
 프로젝트는 지난 12개월 이내에 개발되거나 완성된 것이어야만 참가할 수 있습니다.
 더 많은 정보를 보거나 등록하려면 아래 후쿠오카 웹 사이트를 방문해 주세요.
 
-http://www.digitalfukuoka.jp/events/84
+[http://www.digitalfukuoka.jp/events/84](http://www.digitalfukuoka.jp/events/84)
 또는
-http://myfukuoka.com/events/2016-fukuoka-ruby-award-guidelines-for-applicants/
+[http://myfukuoka.com/events/2016-fukuoka-ruby-award-guidelines-for-applicants/](http://myfukuoka.com/events/2016-fukuoka-ruby-award-guidelines-for-applicants/)
 
-http://www.digitalfukuoka.jp/uploads/event_detail/file/210/RubyAward_ApplicationForm_2016.doc
+[http://www.digitalfukuoka.jp/uploads/event_detail/file/210/RubyAward_ApplicationForm_2016.doc](http://www.digitalfukuoka.jp/uploads/event_detail/file/210/RubyAward_ApplicationForm_2016.doc)
 
 <award@f-ruby.com>으로 신청서를 제출해주세요.
 
