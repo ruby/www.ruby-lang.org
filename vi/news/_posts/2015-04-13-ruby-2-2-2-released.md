@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.2 Released"
+title: "Phát hành Ruby 2.2.2"
 author: "nagachika"
 translator: "Dôn Đinh"
 date: 2015-04-13 12:00:00 +0000
