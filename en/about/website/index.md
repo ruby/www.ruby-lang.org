@@ -34,14 +34,15 @@ to this website.
 
 Also many thanks to the organizations that support us:
 
- * [NaCl][nacl] (hosting),
- * [Heroku][heroku] (hosting),
- * [IIJ][iij] (hosting),
- * [GlobalSign][globalsign] (SSL certification),
- * [Fastly][fastly] (CDN).
- * [Hatena][hatena] ([mackerel][mackerel], Server monitoring)
+ * [NaCl][nacl] (hosting)
+ * [Heroku][heroku] (hosting)
+ * [IIJ][iij] (hosting)
+ * [GlobalSign][globalsign] (SSL certification)
+ * [Fastly][fastly] (CDN)
+ * [Hatena][hatena] ([mackerel][mackerel], server monitoring)
  * [CloudCore][cloudcore] (build server)
  * [Ruby no Kai][rubynokai] (build server)
+
 
 [logo]: /en/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
