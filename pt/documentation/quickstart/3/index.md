@@ -33,7 +33,7 @@ Adeus João, volte em breve.
 Uma vez criado o objeto `g`, ele se lembra de que o nome é João. Mmm, e se
 quisermos acessar diretamente o nome?
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):038:0> g.@nome
 SyntaxError: compile error
 (irb):52: syntax error
@@ -60,9 +60,9 @@ irb(main):039:0> Anfitriao.instance_methods
     "instance_eval", "type", "protected_methods", "extend",
     "eql?", "display", "instance_variable_set", "hash",
     "is_a?", "to_s", "class", "tainted?", "private_methods",
-    "untaint", "decir_hola", "id", "inspect", "==", "===",
+    "untaint", "diz_ola", "id", "inspect", "==", "===",
     "clone", "public_methods", "respond_to?", "freeze",
-    "decir_adios", "__id__", "=~", "methods", "nil?", "dup",
+    "diz_adeus", "__id__", "=~", "methods", "nil?", "dup",
     "instance_variables", "instance_of?"]
 {% endhighlight %}
 
@@ -83,11 +83,11 @@ Há mais coisas a explorar. Vejamos a que métodos pode responder o nosso
 objeto Anfitrião:
 
 {% highlight irb %}
-irb(main):041:0> h.respond_to?("nome")
+irb(main):041:0> g.respond_to?("nome")
 => false
-irb(main):042:0> h.respond_to?("diz_ola")
+irb(main):042:0> g.respond_to?("diz_ola")
 => true
-irb(main):043:0> h.respond_to?("to_s")
+irb(main):043:0> g.respond_to?("to_s")
 => true
 {% endhighlight %}
 
@@ -113,7 +113,7 @@ presentes em quaisquer objetos criados e até mesmo nos objetos existentes
 dessa classe. Então vamos criar um novo objeto e vamos brincar com a sua
 propriedade `@nome`.
 
-{% highlight ruby %}
+{% highlight irb %}
 irb(main):047:0> g = Anfitriao.new("Pedro")
 => #<Anfitriao:0x3c9b0 @nome="Pedro">
 irb(main):048:0> g.respond_to?("nome")
@@ -191,30 +191,30 @@ end
 
 
 if __FILE__ == $0
-  mh = MegaAnfitriao.new
-  mh.diz_ola
-  mh.diz_adeus
+  mg = MegaAnfitriao.new
+  mg.diz_ola
+  mg.diz_adeus
 
   # Alterar o nome para "Diogo"
-  mh.nomes = "Diogo"
-  mh.diz_ola
-  mh.diz_ola
+  mg.nomes = "Diogo"
+  mg.diz_ola
+  mg.diz_adeus
 
   # Alterar o nome para um vector de nomes
-  mh.nomes = ["Alberto", "Beatriz", "Carlos",
+  mg.nomes = ["Alberto", "Beatriz", "Carlos",
     "David", "Ernesto"]
-  mh.diz_ola
-  mh.diz_adeus
+  mg.diz_ola
+  mg.diz_adeus
 
   # Alterar para nil
-  mh.nomes = nil
-  mh.diz_ola
-  mh.diz_adeus
+  mg.nomes = nil
+  mg.diz_ola
+  mg.diz_adeus
 end
 {% endhighlight %}
 
-Salve este arquivo como “ri20min.rb”, e execute-o com o comando “ruby
-ri20min.rb”. O resultado deverá ser:
+Salve este arquivo como “ri20min.rb”, e execute-o com o comando
+“ruby ri20min.rb”. O resultado deverá ser:
 
     Ola Mundo
     Adeus Mundo. Volta em breve.

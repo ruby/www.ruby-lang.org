@@ -37,8 +37,8 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
-A Ruby-Talk, a principal [lista de
-e-mails](/pt/community/mailing-lists/) para a discussão sobre a
+A Ruby-Talk, a principal [lista de e-mails](/pt/community/mailing-lists/)
+para a discussão sobre a
 linguagem Ruby atingiu uma média de 200 mensagens diárias em 2006.
 Recentemente a média caiu, já que o tamanho da comunidade distribuiu
 as discussões de uma lista central em muitos grupos menores.
@@ -49,7 +49,7 @@ crescimento da popularidade de linguagens de programação pelo mundo todo
 popularidade de softwares escritos em Ruby, em particular o framework de
 desenvolvimento web [Ruby on Rails][ror].
 
-O Ruby também é  [totalmente livre]({{ site.license.url }}). Não somente livre de
+O Ruby também é [totalmente livre]({{ site.license.url }}). Não somente livre de
 custos, mas também livre para utilizar, copiar, modificar e distribuir.
 
 ### Ver Tudo como um Objeto

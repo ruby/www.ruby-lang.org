@@ -14,6 +14,7 @@ sobre Ruby, publicada em colaboração com a comunidade Ruby. Nela você encontr
 datas de eventos, localizações, CFP (_Call For Proposals_) e informações sobre
 inscrições.
 
+
 ### Principais Conferências Ruby
 
 [RubyConf][1]

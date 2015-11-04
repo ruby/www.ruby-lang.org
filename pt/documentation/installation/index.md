@@ -4,6 +4,8 @@ title: "Instalando o Ruby"
 lang: pt
 ---
 
+{% include out-of-date.html %}
+
 Você pode usar diversas ferramentas para instalar o Ruby.
 Esta página descreve como usar os principais sistemas de
 gerenciamento de pacotes ou ferramentas de terceiros para

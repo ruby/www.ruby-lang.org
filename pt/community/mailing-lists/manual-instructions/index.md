@@ -7,10 +7,6 @@ lang: pt
 NOTA: Se você não conseguir se inscrever, favor acessar
 [lists.ruby-lang.org](http://lists.ruby-lang.org).
 
-Para se insrever em uma lista de e-mails, por favor envie um e-mail para o
-endereço de “controlo” com o seguinte no corpo da mensagem (não no
-assunto):
-
 Para se insrever em uma lista de e-mails, por favor envie um e-mail de
 texto puro com a seguinte mensagem no coropo (não no assunto) para o endereço
 do “controlador” automatizado:

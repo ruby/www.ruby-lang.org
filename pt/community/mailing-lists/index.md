@@ -32,7 +32,7 @@ The comp.lang.ruby Newsgroup
 
 Ruby &lt;&lt; portuguese
 : Esta é a lista de discussão oficial de ruby em Portugal.
-  ([Arquivos no Google Groups][6])
+  ([Arquivos no Google Groups][ruby-pt])
 
 **Subscreva o ruby &lt;&lt; portuguese**
 
@@ -58,4 +58,4 @@ tente se inscrever [manualmente](manual-instructions/).
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
-[6]: http://groups.google.com/group/ruby-pt
+[ruby-pt]: http://groups.google.com/group/ruby-pt

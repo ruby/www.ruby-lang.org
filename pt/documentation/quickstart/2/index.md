@@ -24,7 +24,7 @@ definir um método!
 irb(main):010:0> def h
 irb(main):011:1> puts "Olá Mundo!"
 irb(main):012:1> end
-=> nil
+=> :h
 {% endhighlight %}
 
 O código `def h` começa a definição do método. Diz ao Ruby que estamos
