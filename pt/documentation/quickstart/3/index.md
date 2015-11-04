@@ -17,40 +17,40 @@ header: |
 
 ---
 
-Agora vamos criar e usar um objecto Anfitrião:
+Agora vamos criar e usar um objeto Anfitrião:
 
 {% highlight irb %}
-irb(main):035:0> h = Anfitriao.new("João")
+irb(main):035:0> g = Anfitriao.new("João")
 => #<Anfitriao:0x16cac @nome="João">
-irb(main):036:0> h.diz_ola
+irb(main):036:0> g.diz_ola
 Ola João
 => nil
-irb(main):037:0> h.diz_adeus
-Adeus João, volta em breve.
+irb(main):037:0> g.diz_adeus
+Adeus João, volte em breve.
 => nil
 {% endhighlight %}
 
-Uma vez criado o objecto `h`, lembra-nos que o nome é João. Mmm, e se
-quisermos aceder directamente ao nome?
+Uma vez criado o objeto `g`, ele se lembra de que o nome é João. Mmm, e se
+quisermos acessar diretamente o nome?
 
 {% highlight irb %}
-irb(main):038:0> h.@nome
+irb(main):038:0> g.@nome
 SyntaxError: compile error
 (irb):52: syntax error
         from (irb):52
 {% endhighlight %}
 
-Não o podemos fazer.
+Nope, não conseguimos.
 
-## Por baixo da pele do objecto
+## Objeto por Baixo da Pele
 
-As variáveis de instância escondem-se dentro do objecto. Não estão assim
-tão bem escondidas, podem ser vistas quando se inspecciona o objecto e
-há outras formas de lhes aceder, mas Ruby é fiel aos bons costumes da
-programação orientada a objectos mantendo os dados o mais privados
+As variáveis de instância escondem-se dentro do objeto. Não estão assim
+tão bem escondidas, podem ser vistas quando se inspeciona o objeto e
+há outras formas de lhes acessar, mas o Ruby é fiel aos bons costumes da
+programação orientada a objetos mantendo os dados o mais privados
 possíveis.
 
-Então, que métodos estão disponíveis para os objectos Anfitrião?
+Então, que métodos estão disponíveis para os objetos Anfitrião?
 
 {% highlight irb %}
 irb(main):039:0> Anfitriao.instance_methods
@@ -60,16 +60,16 @@ irb(main):039:0> Anfitriao.instance_methods
     "instance_eval", "type", "protected_methods", "extend",
     "eql?", "display", "instance_variable_set", "hash",
     "is_a?", "to_s", "class", "tainted?", "private_methods",
-    "untaint", "decir_hola", "id", "inspect", "==", "===",
+    "untaint", "diz_ola", "id", "inspect", "==", "===",
     "clone", "public_methods", "respond_to?", "freeze",
-    "decir_adios", "__id__", "=~", "methods", "nil?", "dup",
+    "diz_adeus", "__id__", "=~", "methods", "nil?", "dup",
     "instance_variables", "instance_of?"]
 {% endhighlight %}
 
-Bem. São muitos métodos. Nós só definimos dois métodos. O que é que
-aconteceu? Bem estes são **todos** os métodos para os objectos
+Uau. São muitos métodos. Nós só definimos dois métodos. O que é que
+aconteceu? Bem, estes são **todos** os métodos para os objetos
 Anfitrião, uma lista completa, incluindo os que estão definidos nas
-super-classes de Anfitrião. Se só quisermos listar unicamente os métodos
+super-classes de Anfitrião. Se só quisermos listar os métodos
 definidos para a classe Anfitrião, podemos pedir-lhe que não inclua os
 métodos dos seus ancestrais passando-lhe o parâmetro `false`, que
 significa que não queremos os métodos definidos pelos seus ancestrais.
@@ -80,26 +80,26 @@ irb(main):040:0> Anfitriao.instance_methods(false)
 {% endhighlight %}
 
 Há mais coisas a explorar. Vejamos a que métodos pode responder o nosso
-objecto Anfitrião:
+objeto Anfitrião:
 
 {% highlight irb %}
-irb(main):041:0> h.respond_to?("nome")
+irb(main):041:0> g.respond_to?("nome")
 => false
-irb(main):042:0> h.respond_to?("dirzer_ola")
+irb(main):042:0> g.respond_to?("diz_ola")
 => true
-irb(main):043:0> h.respond_to?("to_s")
+irb(main):043:0> g.respond_to?("to_s")
 => true
 {% endhighlight %}
 
-Assim ficamos a saber que responde a `diz_ola`, e `to_s` (que
-significa “converter algo numa string”, um método que está definido por
-omissão para todos os objectos), mas que não reconhece `nome` como
+Assim sabemos que responde a `diz_ola`, e `to_s` (que
+significa “converter algo em uma string”, um método que está definido por
+padrão para todos os objetos), mas que não reconhece `nome` como
 método.
 
-## Modificar classes—Nunca é demasiado tarde
+## Modificando Classes – Nunca é Tarde Demais
 
-E se quiser alterar o nome? Ruby oferece uma forma fácil de lhe permitir
-o acesso às variáveis de um objecto.
+E se quisermos ver ou alterar o nome? Ruby oferece uma forma fácil
+de fornecer acesso às variáveis de um objeto.
 
 {% highlight irb %}
 irb(main):044:0> class Anfitriao
@@ -108,47 +108,45 @@ irb(main):046:1> end
 => nil
 {% endhighlight %}
 
-Em Ruby, podemos voltar a abrir e alterar uma classe. Isso não altera os
-objectos já existentes, mas afecta os novos objectos que se possam
-criar. Assim vamos criar um novo objecto e vamos brincar com a sua
+Em Ruby, podemos abrir uma classe novamente e alterá-la. As mudanças estarão
+presentes em quaisquer objetos criados e até mesmo nos objetos existentes
+dessa classe. Então vamos criar um novo objeto e vamos brincar com a sua
 propriedade `@nome`.
 
 {% highlight irb %}
-irb(main):047:0> h = Anfitriao.new("Pedro")
+irb(main):047:0> g = Anfitriao.new("Pedro")
 => #<Anfitriao:0x3c9b0 @nome="Pedro">
-irb(main):048:0> h.respond_to?("nome")
+irb(main):048:0> g.respond_to?("nome")
 => true
-irb(main):049:0> h.respond_to?("nome=")
+irb(main):049:0> g.respond_to?("nome=")
 => true
-irb(main):050:0> h.diz_ola
+irb(main):050:0> g.diz_ola
 Ola Pedro
 => nil
-irb(main):051:0> h.nome="Matilde"
+irb(main):051:0> g.nome="Matilde"
 => "Matilde"
-irb(main):052:0> h
+irb(main):052:0> g
 => #<Anfitrion:0x3c9b0 @nome="Matilde">
-irb(main):053:0> h.nome
+irb(main):053:0> g.nome
 => "Matilde"
-irb(main):054:0> h.diz_ola
+irb(main):054:0> g.diz_ola
 Ola Matilde
 => nil
 {% endhighlight %}
 
-O uso de `attr_accessor` determina que se tenha definido dois novos
-métodos: `nome` para obter o valor, e `nome=` para o alterar.
+O uso de `attr_accessor` definiu dois novos métodos para nós:
+`nome` para obter o valor e `nome=` para alterá-lo.
 
-## Saudar todos, MegaAnfitriao não nega a saudação a ninguém!
+## Saudando a Tudo e a Todos, MegaAnfitriao não Esquece Ninguém!
 
-De qualquer modo este Anfitrião não é assim tão interessante, só pode
-trabalhar para uma pessoa de cada vez. O que se passaria se tivéssemos
-uma classe MegaAnfitriao que pudesse saudar o mundo inteiro, uma pessoa
-ou uma lista completa de pessoas?
+De qualquer modo este Anfitrião não é assim tão interessante, ele só consegue
+trabalhar com uma pessoa de cada vez. E se tivéssemos uma classe MegaAnfitriao
+que pudesse saudar o mundo inteiro, uma pessoa ou uma lista inteira de pessoas?
 
-Vamos escrever isto num ficheiro em vez de usar directamente o
-interpretador interactivo do Ruby (IRB).
+Vamos escrever isto num arquivo em vez de usar diretamente o interpretador
+interativo do Ruby (IRB).
 
-Para sair do IRB, escrevemos “quit”, “exit” ou simplesmente carregamos
-nas teclas “Control” e “D”.
+Para sair do IRB, digite “quit”, “exit” ou simplesmente pressione “Control+D”.
 
 {% highlight ruby %}
 #!/usr/bin/env ruby
@@ -193,30 +191,30 @@ end
 
 
 if __FILE__ == $0
-  mh = MegaAnfitriao.new
-  mh.diz_ola
-  mh.diz_adeus
+  mg = MegaAnfitriao.new
+  mg.diz_ola
+  mg.diz_adeus
 
   # Alterar o nome para "Diogo"
-  mh.nomes = "Diogo"
-  mh.diz_ola
-  mh.diz_ola
+  mg.nomes = "Diogo"
+  mg.diz_ola
+  mg.diz_adeus
 
   # Alterar o nome para um vector de nomes
-  mh.nomes = ["Alberto", "Beatriz", "Carlos",
+  mg.nomes = ["Alberto", "Beatriz", "Carlos",
     "David", "Ernesto"]
-  mh.diz_ola
-  mh.diz_adeus
+  mg.diz_ola
+  mg.diz_adeus
 
   # Alterar para nil
-  mh.nomes = nil
-  mh.diz_ola
-  mh.diz_adeus
+  mg.nomes = nil
+  mg.diz_ola
+  mg.diz_adeus
 end
 {% endhighlight %}
 
-Guardar este ficheiro como “ri20min.rb”, e executar com o comando “ruby
-ri20min.rb”. O resultado deverá ser:
+Salve este arquivo como “ri20min.rb”, e execute-o com o comando
+“ruby ri20min.rb”. O resultado deverá ser:
 
     Ola Mundo
     Adeus Mundo. Volta em breve.
@@ -233,6 +231,6 @@ ri20min.rb”. O resultado deverá ser:
     ...
 {: .code}
 
-Há uma série de coisas novas neste novo exemplo às quais podemos [dar
-uma observação mais profunda](../4/)
+Há uma série de coisas novas neste exemplo às quais podemos
+[observar mais profundamente](../4/)
 

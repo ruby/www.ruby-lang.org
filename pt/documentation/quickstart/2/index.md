@@ -17,26 +17,27 @@ header: |
 
 ---
 
-E se quisermos dizer “Olá” varias vezes sem cansar os dedos? Temos que
+E se quisermos dizer “Olá” várias vezes sem cansar os dedos? Temos que
 definir um método!
 
 {% highlight irb %}
 irb(main):010:0> def h
 irb(main):011:1> puts "Olá Mundo!"
 irb(main):012:1> end
-=> nil
+=> :h
 {% endhighlight %}
 
-O código `def h` começa a definição do método. Diz ao Ruby que estamos a
-definir um método, cujo nome é `h`. A linha seguinte é o corpo do
-método, a mesma frase que vimos antes: `puts "Olá Mundo"`. Finalmente, a
-última linha `end` diz ao Ruby que terminámos a definição do método. A
-resposta do Ruby `=> nil` diz-nos que sabe que terminamos a definição do
-método.
+O código `def h` começa a definição do método. Diz ao Ruby que estamos
+definindo um método, cujo nome é `h`. A linha seguinte é o corpo do
+método, a mesma linha que vimos antes: `puts "Olá Mundo"`. Finalmente, a
+última linha `end` diz ao Ruby que terminámos a definição do método.
+A reposta do Ruby `=> :h` nos diz que ele sabe que estamos definindo um
+método. Essa resposta poderia ser `=> nil` no Ruby 2.0 e versões anteriores.
+Mas isso não é importante agora, vamos seguir em frente.
 
 ## As Breves e Repetitivas Vidas de um Método
 
-Agora tentemos correr o método algumas vezes:
+Agora vamos tentar rodar o método algumas vezes:
 
 {% highlight irb %}
 irb(main):013:0> h
@@ -47,31 +48,31 @@ Olá Mundo!
 => nil
 {% endhighlight %}
 
-Bem, esta foi fácil. Chamar um método em Ruby é tão fácil como mencionar
-o seu nome ao Ruby. Se o método não tiver parâmetros é tudo o que
-precisamos. Podemos também colocar os parênteses vazios se desejar-mos,
-porem estes não são necessários.
+Bem, isso foi fácil. Chamar um método em Ruby é tão fácil como mencionar
+o seu nome ao Ruby. Se o método não tiver parâmetros isso é tudo de que
+precisamos. Podemos também colocar os parênteses vazios se desejarmos,
+porém eles não são necessários.
 
-E se o que queremos é dizer ola a uma pessoa só, e não ao mundo inteiro?
+E se o que queremos é dizer olá a uma pessoa só, e não ao mundo inteiro?
 Para isso basta redifinir `h` para que aceite um nome como parâmetro.
 
 {% highlight irb %}
 irb(main):015:0> def h(nome)
 irb(main):016:1> puts "Olá #{nome}!"
 irb(main):017:1> end
-=> nil
+=> :h
 irb(main):018:0> h("Matz")
-Olá Matz!
+Ola Matz!
 => nil
 {% endhighlight %}
 
-Parece funcionar… mas vamos pausar um minuto para ver o que se passa
+Parece funcionar… mas vamos parar um minuto para ver o que se passa
 aqui.
 
-## Reservando espaços numa String
+## Reservando Espaços numa String
 
-O que significa a expressão @#\{nome}? É a forma de inserir alguma coisa
-numa string. Aquilo que se encontra entre chavetas transforma-se numa
+O que significa a expressão `#{name}`? É a forma de inserir alguma coisa
+numa string. Aquilo que se encontra entre chaves transforma-se numa
 string (se já não o for) e é substituído naquele ponto da string.
 Podemos também usar isto para ter a certeza de que o nome de alguém se
 apresenta em letra maiúscula:
@@ -80,7 +81,7 @@ apresenta em letra maiúscula:
 irb(main):019:0> def h(nome = "Mundo")
 irb(main):020:1> puts "Olá #{nome.capitalize}!"
 irb(main):021:1> end
-=> nil
+=> :h
 irb(main):022:0> h "chris"
 Olá Chris!
 => nil
@@ -89,19 +90,18 @@ Olá Mundo!
 => nil
 {% endhighlight %}
 
-Podemos encontrar aqui um truque ou dois. Um deles é que estamos a
-chamar novamente o método sem recorrer aos parênteses. Se aquilo que
-estamos a fazer for óbvio então os parênteses são opcionais. O outro
+Podemos encontrar aqui um truque ou dois. Um deles é que estamos
+chamando novamente o método sem recorrer aos parênteses. Se aquilo que
+estamos fazendo for óbvio então os parênteses são opcionais. O outro
 truque é o parâmetro `Mundo` usado por omissão. O que isto quer dizer é
-que “Se o nome não for fornecido, então usamos o nome por omissão
+que “Se o nome não for fornecido, então usamos o nome padrão
 `"Mundo"`.
 
 ## Evoluindo para um Anfitrião
 
-E se quisermos criar um Anfitrião mais “sério”? Um que se lembre do
-nosso nome, nos dê as boas vindas e nos trate com o respeio devido?
-Podemos usar um objecto para esse efeito. Vamos então criar, a classe
-“Anfitrião”.
+E se quisermos criar um verdadeiro anfitrião, um que se lembre do
+nosso nome, nos dê as boas vindas e nos trate com o devido respeito?
+Podemos usar um objeto para isso. Então vamos criar a classe “Anfitrião”.
 
 {% highlight irb %}
 irb(main):024:0> class Anfitriao
@@ -118,12 +118,11 @@ irb(main):034:1> end
 => nil
 {% endhighlight %}
 
-A nova palavra chave aqui é `class`. Esta define uma nova classe chamada
-Anfitrião e uma quantidade de métodos para essa classe. E o `@nome` ? É
+A nova palavra-chave aqui é `class`. Ela define uma nova classe chamada
+Anfitrião e alguns métodos para essa classe. E o `@nome` ? É
 uma variável de instância e está disponível para todos os métodos da
-classe. Como podemos ver está a ser utilizada por `diz_ola` e
-`diz_adeus`.
+classe. Como podemos ver, ela é utilizada por `diz_ola` e `diz_adeus`.
 
-Então como é que pomos a classe Anfitrião em movimento? [Criamos um
-objecto.](../3/)
+Então como é que fazemos a classe Anfitrião funcionar? [Criamos um
+objeto.](../3/)
 

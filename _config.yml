@@ -246,8 +246,8 @@ locales:
         url: /pt/community
       - text: Notícias
         url: /pt/news
-#     - text:
-#       url: /pt/security
+      - text: Segurança
+        url: /pt/security
       - text: Sobre Ruby
         url: /pt/about
     ru:
@@ -425,7 +425,7 @@ locales:
 #   ja:
     ko: "작성자: AUTHOR (%Y-%m-%d)"
     pl: "Zamieszczone przez AUTHOR %Y-%m-%d"
-    pt: "Escrito por AUTHOR em %Y-%m-%d"
+    pt: "Escrito por AUTHOR em %d/%m/%Y"
     ru: "Опубликовал AUTHOR %Y-%m-%d"
     tr: "AUTHOR tarafından %d.%m.%Y tarihinde gönderildi"
     vi: "Đăng bởi AUTHOR vào %-d %b %Y"
@@ -492,8 +492,8 @@ locales:
       description: Najnowsze wiadomości z ruby-lang.org.
       lang_code: pl
     pt:
-      title: Notícias de Ruby por RSS
-      description: As notícias mais recentes do ruby-lang.org em Português.
+      title: Notícias sobre Ruby
+      description: As notícias mais recentes do ruby-lang.org em português.
       lang_code: pt-PT
     ru:
       title: Новости Ruby
@@ -641,12 +641,12 @@ locales:
       other_news: Outras Notícias
       more_news: Mais Notícias...
       continue: Continuar a Leitura...
-      back_to_year: "Back to %Y Archives"
+      back_to_year: "Voltar aos arquivos de %Y"
       recent_news: Notícias Recentes
       yearly_archive_title: "Arquivos de %Y"
-      monthly_archive_title: "%B %Y Archives"
+      monthly_archive_title: "Arquivos de %B %Y"
       yearly_archives: Arquivos por Ano
-      monthly_archives: Archives by Month
+      monthly_archives: Arquivos por Mês
       yearly_archive_link: "Arquivos de %Y"
       monthly_archive_link: "%B %Y"
     ru:
@@ -1319,7 +1319,7 @@ locales:
           text: Ruby a partir de outras linguagens
           url: /pt/documentation/ruby-from-other-languages/
       explore:
-        text: <strong>Explora</strong> um novo mundo…
+        text: <strong>Explore</strong> um novo mundo…
         documentation:
           text: Documentação
           url: /pt/documentation/
@@ -1334,36 +1334,36 @@ locales:
           url: /pt/documentation/success-stories/
       participate:
         text: |
-          <strong>Participa</strong> numa comunidade simpática e em crescimento.
+          <strong>Participe</strong> de uma comunidade simpática e em crescimento.
         mailing_lists:
-          text: Listas de Correio
+          text: Listas de E-mail
           url: /pt/community/mailing-lists/
           description: |
-            Fala sobre Ruby com programadores de todo o mundo.
+            Fale sobre Ruby com programadores de todo o mundo.
         user_groups:
-          text: Grupos de Utilizadores
+          text: Grupos de Usuários
           url: /pt/community/user-groups/
           description: |
-            Entra em contacto com colegas da tua área.
-#       weblogs:
-#         text: Weblogs
-#         url: /pt/community/weblogs/
-#         description: |
-#           Read about what’s happening right now in the Ruby community.
+            Entre em contato com colegas da sua área.
+        weblogs:
+          text: Weblogs
+          url: /pt/community/weblogs/
+          description: |
+            Leia sobre o que está acontecendo agora na comunidade Ruby.
         ruby_core:
           text: Ruby Core
           url: /pt/community/ruby-core/
           description: |
-            Ajuda a limar as arestas da última versão de Ruby.
-#       issue_tracking:
-#         text: Issue Tracking
-#         url: https://bugs.ruby-lang.org/
-#         description: |
-#           Report or help solve issues in Ruby.
+            Ajude a polir as arestas da última versão do Ruby.
+        issue_tracking:
+          text: Issue Tracking
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Informe ou ajude a resolver problemas do Ruby.
       syndicate:
-        text: Feeds de noticias (RSS)
+        text: Feeds de notícias (RSS)
         recent_news:
-          text: Em Português
+          text: Em português
           url: /pt/feeds/news.rss
     ru:
       get_started:
@@ -1748,13 +1748,13 @@ locales:
       unsubscribe: Unsubscribe
       submit: Submit Form
     pt:
-      list: Lista de Correio
+      list: Lista de E-mails
       first_name: Primeiro Nome
       last_name: Último Nome
-      email: Endereço Electrónico
-      action: Acção
-      subscribe: Subscribe
-      unsubscribe: Unsubscribe
+      email: E-mail
+      action: Ação
+      subscribe: Inscrever
+      unsubscribe: Desinscrever
       submit: Enviar Formulário
     ru:
       list: Почтовая рассылка
@@ -1809,7 +1809,7 @@ locales:
     fr: "Autres langues disponibles :"
     it: "Questo sito in altre lingue:"
     pl: "Ta strona w innych językach:"
-    pt: "Este site em outras línguas:"
+    pt: "Este site em outros idiomas:"
     ru: "Этот сайт на других языках:"
     tr: "Diğer dillerde bu site:"
 
@@ -1859,7 +1859,7 @@ locales:
       jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
     pt: |
       <a href="/pt/about/website/">Este website</a>
-      é orgulhosamente mantido por membros da comunidade Ruby.
+      é mantido com orgulho por membros da comunidade Ruby.
     ru: |
       <a href="/ru/about/website/">Этот сайт</a> с гордостью поддерживается членами сообщества Ruby.
     tr: |

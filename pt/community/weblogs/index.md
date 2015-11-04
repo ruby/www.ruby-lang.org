@@ -5,63 +5,60 @@ lang: pt
 ---
 
 Os blogs sobre Ruby explodiram durante o último ano. Com procura
-suficiente, poderá desenterrar centenas de blogs partilhando pedaços de
+suficiente, poderá desenterrar centenas de blogs compartilhando trechos de
 código em Ruby, descrevendo novas técnicas ou especulando acerca do
-futuro do ruby.
+futuro do Ruby.
 {: .summary}
 
-### Exploração para Blogs sobre Ruby
+### Buscando Blogs sobre Ruby
 
-[**Ruby no del.icio.us**][1]\: Ruby and Rails é constantemente uma das
-cinquenta etiquetas de topo no del.icio.us, um Sítio de partilha de
-ligações. Veja o etiqueta [ruby][1] para descobrir ligações obscuras e o
-seu [gráfico de popularidade][2] para entradas recentes na comunidade
-Ruby.
+Alguns **planetas** (agregadores de _feeds_ especializados) tem rodado por
+anos. Alguns deles fornecem um conteúdo conveniente:
 
-**Agregadores**\: [Ruby Corner][4], [Planet Ruby][5],
-e [PlanetRubyOnRails.com][6] estão entre os sites que agregam grupos de
-blogs sobre Ruby para leitura cómoda.
+* [Ruby Corner][4]
+* [Planet Ruby][5]
+* [PlanetRubyOnRails.com][7]
 
 ### Blogs Notáveis
 
 Alguns blogs destacam-se pela frequência e rapidez das suas
-actualizações.
+atualizações.
 
-* [**O’Reilly Ruby**][7] é um blog de group com tutoriais e entrevistas
-  com pessoas interessantes da comunidade Ruby.
-* [**Riding Rails**][8] é o blog de grupo oficial da equipa de Ruby on
-  Rails. Se está a utilizar Rails, este blog é essencial para
-  notificações de segurança e uma vista gera da larga comunidade de
-  Rails.
-* [**Ruby Inside**][9] anuncia aplicações e bibliotecas interessantes de
-  todo o mundo sobre ambos Ruby e Rails.
-* [**Matz’ Blog**][10] é um blog em Japonês escrito pelos criador do
-  Ruby. Mesmo que não o consiga ler na sua totalidade, é bom saber que
+* [**O’Reilly Ruby**][8] é um blog de um grupo com tutoriais e entrevistas
+  com pessoas interessantes da comunidade.
+* [**Riding Rails**][9] é o blog de grupo oficial da equipa do Ruby on
+  Rails. Se você estiver utilizando o Rails, este blog é essencial para
+  notificações de atualizações de segurança e uma visão geral da
+  grande comunidade do Rails.
+* [**Ruby Inside**][10] anuncia aplicações e bibliotecas interessantes de
+  todo o mundo, tanto sobre Ruby quanto Rails.
+* [**Matz’ Blog**][11] é um blog em japonês escrito pelos criador do
+  Ruby. Mesmo que você não consiga ler tudo, é bom saber que ele
   está ali!
 
 ### Divulgando a Palavra
 
-Se iniciou um blog sobre Ruby, é inteligente fazer uma ligação ao blog
-no [del.icio.us][11] com a etiqueta *ruby*.Poderá também contactar os
-weblogs acima, se estiver a cobrir um tópico em que eles estejam
-interessados. (Obviamente, se não é um blog relacionado com Rails, a
-equipa do *Riding Rails* pode não estar interessada—mas nunca se sabe.)
+Se você iniciou um blog sobre Ruby, é inteligente criar um link para o blog
+no [del.icio.us][12] com a tag *ruby*. Você também poderá contatar os blogs
+acima, se você estiver cobrindo um tópico no qual eles possam se interessar.
+(Obviamente, se não é um blog relacionado a Rails, a equipe do *Riding Rails*
+pode não estar interessada – mas nunca se sabe.)
 
-Ruby é, também, um tópico comum em ambos [Digg][12] e [Slashdot][13],
-nas suas notícias sobre programação. Se encontrar algum código
-brilhante, tenha a certeza que os informou!
+O Ruby também é um tópico comum no [Digg][13], [Slashdot][14], [reddit][15],
+e no [Hacker News][16], em suas respectivas notícias sobre programação.
+Se encontrar algum código brilhante, lembre-se de avisá-los!
 
 
 
-[1]: http://del.icio.us/tag/ruby "Ruby no del.icio.us"
-[2]: http://del.icio.us/popular/ruby "gráfico de popularidade"
-[4]: http://rubycorner.com "Ruby Corner"
-[5]: http://planetruby.0x42.net/ "Planet Ruby"
-[6]: http://www.planetrubyonrails.com/ "Planet Ruby on Rails"
-[7]: http://oreillynet.com/ruby/ "O'Reilly Ruby"
-[8]: http://weblog.rubyonrails.org/ "Riding Rails"
-[9]: http://www.rubyinside.com/ "Ruby Inside"
-[10]: http://www.rubyist.net/~matz/ "Blog Pessoal do Matz"
-[11]: http://del.icio.us "del.icio.us"
-[12]: http://digg.com/programming "Digg"
-[13]: http://developers.slashdot.org/ "Slashdot"
+[4]: http://rubycorner.com
+[5]: http://planetruby.0x42.net/
+[7]: http://www.planetrubyonrails.com/
+[8]: http://oreillynet.com/ruby/
+[9]: http://weblog.rubyonrails.org/
+[10]: http://www.rubyinside.com/
+[11]: http://www.rubyist.net/~matz/
+[12]: http://del.icio.us
+[13]: http://digg.com/programming
+[14]: http://developers.slashdot.org/
+[15]: http://www.reddit.com/r/ruby
+[16]: http://news.ycombinator.com/
