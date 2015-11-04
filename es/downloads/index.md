@@ -18,7 +18,7 @@ Tenemos herramientas para instalar Ruby para las plataformas más importantes.
 * En computadoras con sistema operativo OS X, puedes utilizar herramientas de terceros (rbenv y RVM).
 * En computadoras con sistema operativo Windows, puedes utilizar RubyInstaller.
 
-Chequea la página de [Instalación][installation] para obtener detalles de como usar
+Consulta la página de [Instalación][installation] para obtener detalles de como usar
 sistemas de gestión de paquetes de tu distribución o herramientas de terceros.
 
 ### Compilando Ruby — Código fuente
@@ -28,7 +28,7 @@ confiado con tu plataforma y hasta puedas necesitar configuraciones
 específicas para tu entorno. También es una buena solución en el caso de
 que no existan paquetes disponibles.
 
-Chequea la página de [Instalación][installation] para obtener detalles de cómo compilar
+Consulta la página de [Instalación][installation] para obtener detalles de como compilar
 Ruby desde el código fuente. Si tienes algún problema compilando Ruby, considera
 usar una de las herramientas de terceros en la siguiente sección. Pueden servirte
 de ayuda.
@@ -47,7 +47,7 @@ de ayuda.
 
 * **Snapshots:**
   * [Stable Snapshot][stable-snapshot-gz]:
-    Este es el tarball del último snapshot del branch de la actual versión estable.
+    Este es el tarball del último snapshot del branch de la versión actual estable.
   * [Nightly Snapshot][nightly-gz]:
     Este es el tarball de lo que exista en SVN, hecho diariamente.
     Puede contener errores, ¡úsalo bajo tu responsabilidad!
@@ -57,7 +57,7 @@ nuestra página [Ruby core](/es/community/ruby-core/).
 
 El código fuente de Ruby está disponible desde un conjunto
 de [mirror sites][mirrors] a lo largo del mundo.
-Intenta usar el mirror site más cerca tuyo.
+Intenta usar el mirror site que te quede más cerca.
 
 
 
