@@ -9,6 +9,20 @@ referências que serão úteis quando você sentir que gosta de programar
 em Ruby.
 {: .summary}
 
+### Instalando o Ruby
+
+A menos que você queira testar o Ruby no seu navegador (veja os links abaixo),
+você precisará ter o Ruby instalado no seu computador. Você pode verificar se
+o Ruby já está instalado abrindo o terminal e digitando
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+Isso deve imprimir algumas informações sobre a versão do Ruby instalada. Se não
+imprimir, consulte a [página de instalação](installation/) para conhecer as
+diversas maneiras de obter o Ruby.
+
 ### Primeiros Passos
 
 [Try Ruby!][1]
