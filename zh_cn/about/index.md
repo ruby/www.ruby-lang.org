@@ -15,12 +15,11 @@ Smalltalk、 Eiffel、 Ada 和 Lisp ） 产生了一种具有函数式及指令�
 
 除此之外，他还提到：
 
-Ruby 就像人的身体一样，表面上看来简单，但是内部却相当的复杂[\[1\]](#fn1)。
+> Ruby 就像人的身体一样，表面上看来简单，但是内部却相当的复杂[\[1\]](#fn1)。
 
 ### Ruby 的成长
 
-在 1993 年，没有人会相信一个由日本业余语言设计者创建的面向对象的语言，能最终在世界范围内被广泛使用并且变得几乎像 Perl 那样流行。自从
-1995 年 Ruby 公开发表以来，Ruby 在全球吸引了许多忠实的程序设计员。在 2006 年，Ruby
+自从 1995 年 Ruby 公开发布以来，Ruby 在全球吸引了许多忠实的程序设计员。在 2006 年，Ruby
 被广泛接受。在各大城市都有活跃的使用者并通过社区举办许许多多场场爆满的研讨会。
 
 ![Graph courtesy of
@@ -28,20 +27,19 @@ Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;wi
 "Graph courtesy of Gmane."){: style="padding-left:8px;"}
 {: style="float:right"}
 
-在 Ruby-Talk，主要的[ 邮件列表](/zh_cn/community/mailing-lists/) 上，讨论 Ruby
-语言的文章爬升到每日 200 封。
+在 Ruby-Talk，主要的[邮件列表](/zh_cn/community/mailing-lists/)上，讨论 Ruby
+语言的文章爬升到每日 200 封。这个数目近几年有所降低，因为社区讨论从一个集中化的列表分成了很多更小的组织。
 
-在 [TIOBE][tiobe]， 最流行的开发语言排名调查中， Ruby 排名为全球第 11 位。 根据这样的成长情况，他们预测“在半年之中
-Ruby 将会进入最受欢迎开发语言的前 10 名。”有越来越多受欢迎的软件如 [Ruby on Rails][ror]
-web framework 是使用 Ruby 撰写而成，也是造成 Ruby 如此快速成长的原因。
+Ruby 经常位于全球编程语言成长和流行度指数的前十名（比如[TIOBE][tiobe]）。
+造成 Ruby 如此快速成长的原因很大是因为使用 Ruby 编写而成的 web framework [Ruby on Rails][ror] 非常受欢迎。
 
 Ruby 是[开源软件]({{ site.license.url }})。 不只是免费，而且可以自由的使用、复制、修改与发布。
 
-### 所见到的都是对象
+### 所有见到的都是对象
 
 最初，Matz
-从其它语言中找寻理想的语法，在网络上他做了一段时间的调查，找到候选如“Perl“和“Python“。但都不是他想要的，他需要一个比 Perl
-更强大、比 Python 更面向对象的语言[\[2\]](#fn2)。
+从其它语言中找寻理想的语法，回想他的调查，他说，我想要一种比 Perl
+更强大、比 Python 更面向对象的脚本语言[\[2\]](#fn2)。
 
 在 Ruby 中，所有的东西都是对象，所有的信息和代码都可以给它们所拥有的属性和行为。面向对象程序设计中称属性为实例变量（*instance
 variables*），称命令为方法 （*methods*）。 从下列程序代码中看到 Ruby 能够给数字赋于行为，从这点可以证明 Ruby
@@ -69,18 +67,16 @@ class Numeric
 end
 
 y = 5.plus 6
-# y is now equal to 11
+# y 现在等于 11
 {% endhighlight %}
 
-Ruby 的符号只是语法的甜头 (syntactic sugar)。你可以随时重定义他们。
+Ruby 的符号只是语法糖 (syntactic sugar)。你可以随时重定义他们。
 
 ### Blocks，一个独特且强大的特性
 
-Ruby 的代码块是非常强大的。程序员可以给任何函数添加一个密封 (closure)
-来表述这个函数该如何工作。密封也被叫做代码块，是用过其他比如 PHP, Visual Basic 等规则语言的 Ruby
-的初学者最喜欢使用的一个功能。
+Ruby 的代码块是非常强大且灵活的。程序员可以给任何函数添加一个闭合（closure）来表述这个函数该如何工作。闭合也被叫做代码块，是用过其他规则语言（比如 PHP、Visual Basic 等）转到 Ruby 的初学者最喜欢使用的一个功能。
 
-代码块取自函数语言。Matz 说：“我希望在 Ruby 的密封中融入 Lisp 的文化 [\[3\]](#fn3)。”
+代码块取自函数语言。Matz 说：“我希望在 Ruby 的闭合中融入 Lisp 的文化 [\[3\]](#fn3)。”
 
 {% highlight ruby %}
 search_engines =
@@ -125,7 +121,7 @@ Ruby 还有其他丰富的特性：
 
 * Ruby 有类似于 Java 和 Python 的异常处理，使处理错误更方便。
 
-* Ruby 拥有一个针对所有对象的标识-清扫(mark-and-sweep)式垃圾收集器(garbage collector)。使用者无需维护扩展库中的引用计数(reference counts)。正如
+* Ruby 拥有一个针对所有对象的标识-清扫（mark-and-sweep）式垃圾收集器（garbage collector）。使用者无需维护扩展库中的引用计数（reference counts）。正如
   Matz 所说：“这对您的健康有益。”
 
 * 为 Ruby 写 C 的扩展比 Perl 和 Python 更容易。Ruby 有一个非常雅致的 API 从 C 语言调用 Ruby。这包括把
@@ -133,20 +129,39 @@ Ruby 还有其他丰富的特性：
 
 * Ruby 可以在操作系统允许的情况下动态调用库。
 
-* Ruby 提供不依赖操作系统的线程。所以在所有 Ruby 支持的操作系统里都可以使用多线程处理，不管操作系统支不支持，比如 MS-DOS!
+* Ruby 提供不依赖操作系统的线程。所以在所有 Ruby 支持的操作系统里都可以使用多线程处理，不管操作系统支不支持，甚至是 MS-DOS!
 
 * Ruby 极为轻便：它主要是在 GNU/Linux 上开发的，但也支持很多类型的 UNIX，以及 Mac OS X, Windows
   95/98/Me/NT/2000/XP，DOS，BeOS，OS/2 等。
 
+### Ruby 的其他实现
+
+Ruby 作为一种语言还有一些不同的实现。
+这个页面和社区所说的常常指的是 **MRI**（“Matz’s Ruby Interpreter”）或者 **CRuby**（因为是用 C 语言写的），但是还存在别的一些实现。
+它们经常被用在一些特定的情况下，为了和别的语言或者环境能更好的集成，或者为了一些 MRI 不支持的特性。
+
+详细列表：
+
+* [JRuby][jruby] 是一个基于 JVM（Java Virtual Machine）的 Ruby实现，通过 JVM 优化 JIT 编译器，垃圾回收，并发线程，工具生态系统和大量的库。
+* [Rubinius][rubinius] 是用 “Ruby 编写的 Ruby”。构建于 LLVM,
+  Rubinius 跑在一个很灵活的虚拟机上，别的语言也可以构建于这个虚拟机上。
+* [MacRuby][macruby] 是一个和苹果 Mac OS X 上 Cocoa 库紧密集成的实现，可以让你轻易地写出桌面应用程序。
+* [mruby][mruby] 是一个轻量级的 Ruby，可以被连接或者嵌入到程序之中。它是由 Ruby 的创造者 Yukihiro “Matz” Matsumoto 带领开发的。
+* [IronRuby][ironruby] 是一个紧密和 .NET 框架集成的实现。
+* [MagLev][maglev] 是一个快速，稳定的 Ruby 实现，支持集成对象持久化和分布式共享缓存。
+* [Cardinal][cardinal] 是一个为 [Parrot][parrot] 虚拟机 编写的 Ruby 编译器（Perl 6）。
+
+这些实现中有一部分，包括 MRI，遵守 [RubySpec][rubyspec] 的说明书，这个说明书是一个”Ruby 编程语言完全可执行的详述“。
+
 ### 参考资料
 
-<sup>1</sup> Matz, 在 Ruby-Talk 邮件列表, [5月12日, 2000][blade].
+<sup>1</sup> Matz，在 Ruby-Talk 邮件列表，[5 月 12 日，2000 年][blade]。
 {: #fn1}
 
-<sup>2</sup> Matz, 在 [Ruby 创造者的采访][linuxdevcenter], 11月29日, 2001.
+<sup>2</sup> Matz，在 [Ruby 创造者的采访][linuxdevcenter]，11 月 29 日，2001。
 {: #fn2}
 
-<sup>3</sup> Matz, 在 [Ruby 的代码块和闭合][artima], 12月22日, 2003.
+<sup>3</sup> Matz，在 [Ruby 的代码块和闭合][artima]，12 月 22 日，2003。
 {: #fn3}
 
 
@@ -157,3 +172,13 @@ Ruby 还有其他丰富的特性：
 [linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[jruby]: http://jruby.org
+[rubinius]: http://rubini.us
+[macruby]: http://www.macruby.org
+[mruby]: http://www.mruby.org/
+[ironruby]: http://www.ironruby.net
+[maglev]: http://ruby.gemstone.com
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
+[rubyspec]: http://rubyspec.org
+
