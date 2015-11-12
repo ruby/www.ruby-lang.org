@@ -13,9 +13,9 @@ Ruby 2.3.0-preview1 是 Ruby 2.3.0 版本的初次亮相。
 包含了許多改進與新功能。
 
 引入[冰凍字串常量編譯指示（Frozen String Literal
-Pragma）](https://bugs.ruby-lang.org/issues/11473)。Ruby 2.1 針對了 `"str".freeze` 進行優化，減少了物件的佔用空間。Ruby 2.3 引入了新的魔法註解以及命令行選項，用來指定一個檔案裡的字串，全部默認為冰凍字串。除此之外，在除錯時也可以透過使用 `--enable-frozen-string-literal-debug` 來找到 `"can't modify frozen String"` 錯誤發生的地方。
+Pragma）](https://bugs.ruby-lang.org/issues/11473)。Ruby 2.1 針對了 `"str".freeze` 進行優化，減少了物件的佔用空間。Ruby 2.3 引入了新的魔法註解以及命令行選項，用來指定一個檔案裡的字串，全部默認為無法修改的字串（Frozen String）。除此之外，在除錯時也可以透過使用 `--enable-frozen-string-literal-debug` 來找到 `"can't modify frozen String"` 錯誤發生的地方。
 
-[安全調用運算子（Safe navigation operator）](https://bugs.ruby-lang.org/issues/11537)，引入了 C#、Groovy 以及 Swift 都有的安全調用運算元，用來簡化 `nil` 的處理：`obj&.foo`。另新增了 `Array#dig` 和 `Hash#dig` 方法。
+[安全調用運算子（Safe navigation operator）](https://bugs.ruby-lang.org/issues/11537)，引入了 C#、Groovy 以及 Swift 都有的安全調用運算子，用來簡化 `nil` 的處理：`obj&.foo`。另新增了 `Array#dig` 和 `Hash#dig` 方法。
 
 [did_you_mean 納入標準函式庫](https://bugs.ruby-lang.org/issues/11252)。did_you_mean.gem 針對 `NameError` 以及 `NoMethodError` 會顯示可能的正確拼寫，進而簡化除錯。
 
