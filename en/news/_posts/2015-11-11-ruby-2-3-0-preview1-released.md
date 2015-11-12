@@ -36,8 +36,8 @@ knowledge!
 ## Notable Changes since 2.2
 * TBD
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) and
-[ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog)
+See [NEWS](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_0_preview1/NEWS) and
+[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_0_preview1/ChangeLog)
 for detail.
 
 With those changes, 1036 files changed, 81312 insertions(+), 51322
