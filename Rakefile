@@ -34,7 +34,7 @@ task :generate do
   Rake::Task[:build].invoke
 end
 
-desc "Serves the Jekyll site locally"
+desc "Serve the Jekyll site locally"
 task :serve do
   sh "rackup config.ru"
 end
@@ -77,7 +77,7 @@ namespace :new_post do
     end
   end
 
-  desc "Creates a news post template for language `lang'"
+  desc "Create a news post template for language `lang'"
   task :lang do
     puts 'Please specify one of the valid language codes:'
     puts LANGUAGES.join(', ') << '.'
@@ -117,7 +117,7 @@ namespace :check do
     date ? date.getutc.strftime('%Y/%m/%d') : nil
   end
 
-  desc "Checks for missing author variables in news posts"
+  desc "Check for missing author variables in news posts"
   task :author do
     print "Checking for missing author variables in news posts..."
 
@@ -132,7 +132,7 @@ namespace :check do
     end
   end
 
-  desc "Checks for missing lang variables in markdown files"
+  desc "Check for missing lang variables in markdown files"
   task :lang do
     print "Checking for missing lang variables in markdown files..."
 
@@ -152,7 +152,7 @@ namespace :check do
     end
   end
 
-  desc "Checks publication dates (UTC) for consistency with filename"
+  desc "Check publication dates (UTC) for consistency with filename"
   task :pubdates do
     print "Checking for date mismatch in posts (filename / YAML front matter)..."
 
@@ -176,7 +176,7 @@ namespace :check do
 
   localport = 9292
 
-  desc "Checks for broken links on http://localhost:#{localport}/"
+  desc "Check for broken links on http://localhost:#{localport}/"
   task :links do
     gem 'spidr', '~> 0.4'
     require 'spidr'
@@ -213,7 +213,7 @@ namespace :check do
     end
   end
 
-  desc 'validate _site markup with validate-website'
+  desc 'Validate _site markup with validate-website'
   task :markup => :build do
     require 'jekyll'
     options = Jekyll.configuration
@@ -224,5 +224,5 @@ namespace :check do
   end
 end
 
-desc "Carries out some tests"
+desc "Run some tests (lang, author, pubdates)"
 task :check => ['check:lang', 'check:author', 'check:pubdates']
