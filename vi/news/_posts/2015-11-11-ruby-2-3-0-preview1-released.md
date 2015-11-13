@@ -3,7 +3,7 @@ layout: news_post
 title: "Phát hành Ruby 2.3.0-preview1"
 author: "naruse"
 translator: "Trung Lê"
-date: 2015-11-11 16:00:00 +0000
+date: 2015-11-11 14:00:00 +0000
 lang: vi
 ---
 
