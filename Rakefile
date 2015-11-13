@@ -210,6 +210,7 @@ namespace :check do
 
   desc 'validate _site markup with validate-website'
   task :markup => :generate do
+    require 'jekyll'
     options = Jekyll.configuration
     Dir.chdir('_site') do
       system("validate-website-static --site '#{options['url']}/' --quiet")
