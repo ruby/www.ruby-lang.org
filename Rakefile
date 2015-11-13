@@ -34,8 +34,6 @@ task :serve do
   sh "rackup config.ru"
 end
 
-task :preview => [:serve]
-
 namespace :new_post do
 
   def create_template(lang)
