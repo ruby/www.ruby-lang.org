@@ -15,7 +15,7 @@ Giới thiệu cùng với phiên bản này bao gồm các cải tiến sau:
 [Frozen String Literal
 Pragma](https://bugs.ruby-lang.org/issues/11473) được giới thiệu. Trên
 Ruby 2.1, "str".freeze được tối ưu hoá để giảm số lượng đối tượng được
-tạo ra. Ruby 2.3 cho phép đóng băng tất cả string literal trong các
+tạo ra. Ruby 2.3 cho phép đóng băng tất cả chuỗi ký tự trong các
 file mã nguồn thông qua một magic comment và một cờ của command line.
 Ngoài ra người dùng còn có thể biết được vị trí đổi tượng được tạo
 khi gặp phải lỗi "can't modify frozen String" thông qua cờ `--enable-frozen-string-literal-debug`.
