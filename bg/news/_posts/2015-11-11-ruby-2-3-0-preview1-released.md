@@ -30,7 +30,7 @@ https://bugs.ruby-lang.org/issues/11537), който позволява
 
 Приятно използване на Ruby 2.3.0-preview1!
 
-## Notable Changes since 2.2
+## Важни промени от 2.2
 
 * TBD
 
