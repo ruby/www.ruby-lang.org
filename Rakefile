@@ -13,28 +13,31 @@ end
 HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 
-task :default => [:generate]
+task :default => [:build]
 
-desc "Generates the Jekyll site"
-task :generate do
+desc "Build the Jekyll site"
+task :build do
   require 'jekyll'
   # workaround for LANG=C environment
   module Jekyll::Convertible
     Encoding.default_external = Encoding::UTF_8
   end
 
-  options = Jekyll.configuration({'auto' => false, 'server' => false})
+  options = Jekyll.configuration
   puts "Building site: #{options['source']} -> #{options['destination']}"
   $stdout.flush
   Jekyll::Site.new(options).process
 end
 
-desc "Serves the Jekyll site locally"
+task :generate do
+  warn "Warning: The `generate' task is deprecated, use `build' instead."
+  Rake::Task[:build].invoke
+end
+
+desc "Serve the Jekyll site locally"
 task :serve do
   sh "rackup config.ru"
 end
-
-task :preview => [:serve]
 
 namespace :new_post do
 
@@ -74,7 +77,7 @@ namespace :new_post do
     end
   end
 
-  desc "Creates a news post template for language `lang'"
+  desc "Create a news post template for language `lang'"
   task :lang do
     puts 'Please specify one of the valid language codes:'
     puts LANGUAGES.join(', ') << '.'
@@ -114,7 +117,7 @@ namespace :check do
     date ? date.getutc.strftime('%Y/%m/%d') : nil
   end
 
-  desc "Checks for missing author variables in news posts"
+  desc "Check for missing author variables in news posts"
   task :author do
     print "Checking for missing author variables in news posts..."
 
@@ -129,7 +132,7 @@ namespace :check do
     end
   end
 
-  desc "Checks for missing lang variables in markdown files"
+  desc "Check for missing lang variables in markdown files"
   task :lang do
     print "Checking for missing lang variables in markdown files..."
 
@@ -149,7 +152,7 @@ namespace :check do
     end
   end
 
-  desc "Checks publication dates (UTC) for consistency with filename"
+  desc "Check publication dates (UTC) for consistency with filename"
   task :pubdates do
     print "Checking for date mismatch in posts (filename / YAML front matter)..."
 
@@ -173,7 +176,7 @@ namespace :check do
 
   localport = 9292
 
-  desc "Checks for broken links on http://localhost:#{localport}/"
+  desc "Check for broken links on http://localhost:#{localport}/"
   task :links do
     gem 'spidr', '~> 0.4'
     require 'spidr'
@@ -210,9 +213,10 @@ namespace :check do
     end
   end
 
-  desc 'validate _site markup with validate-website'
-  task :markup => :generate do
-    options = Jekyll.configuration({'auto' => false, 'server' => false})
+  desc 'Validate _site markup with validate-website'
+  task :markup => :build do
+    require 'jekyll'
+    options = Jekyll.configuration
     Dir.chdir('_site') do
       system("validate-website-static --site '#{options['url']}/' --quiet")
       exit($?.exitstatus)
@@ -220,5 +224,5 @@ namespace :check do
   end
 end
 
-desc "Carries out some tests"
+desc "Run some tests (lang, author, pubdates)"
 task :check => ['check:lang', 'check:author', 'check:pubdates']
