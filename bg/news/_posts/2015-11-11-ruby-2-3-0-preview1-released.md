@@ -30,6 +30,10 @@ https://bugs.ruby-lang.org/issues/11537), който позволява
 
 Приятно използване на Ruby 2.3.0-preview1!
 
+## Notable Changes since 2.2
+
+* TBD
+
 Виж [Новини](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) и
 [Списък с промени](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog)
 за повече информация.
