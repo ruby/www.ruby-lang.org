@@ -61,7 +61,7 @@ your commits and PRs should look like.
 Generate the website with
 
 ``` sh
-bundle exec rake generate
+bundle exec rake build
 ```
 
 Then start a local web server with

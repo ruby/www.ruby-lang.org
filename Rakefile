@@ -13,10 +13,10 @@ end
 HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 
-task :default => [:generate]
+task :default => [:build]
 
-desc "Generates the Jekyll site"
-task :generate do
+desc "Build the Jekyll site"
+task :build do
   require 'jekyll'
   # workaround for LANG=C environment
   module Jekyll::Convertible
@@ -27,6 +27,11 @@ task :generate do
   puts "Building site: #{options['source']} -> #{options['destination']}"
   $stdout.flush
   Jekyll::Site.new(options).process
+end
+
+task :generate do
+  warn "Warning: The `generate' task is deprecated, use `build' instead."
+  Rake::Task[:build].invoke
 end
 
 desc "Serves the Jekyll site locally"
@@ -209,7 +214,7 @@ namespace :check do
   end
 
   desc 'validate _site markup with validate-website'
-  task :markup => :generate do
+  task :markup => :build do
     require 'jekyll'
     options = Jekyll.configuration
     Dir.chdir('_site') do
