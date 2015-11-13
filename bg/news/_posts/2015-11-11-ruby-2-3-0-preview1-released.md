@@ -24,7 +24,7 @@ https://bugs.ruby-lang.org/issues/11537), който позволява
 вече съществуват в C#, Groovy и Swift. Добавени са също `Array#dig`
 и `Hash#dig`.
 
-[did_you_mean.gem](https://bugs.ruby-lang.org/issues/11252) e добавен
+[did_you_mean gem](https://bugs.ruby-lang.org/issues/11252) e добавен
 към ruby-core. Библиотеката показва потенциални кандидати при `NameError`
 и `NoMethodError` за по-лесно дебъгване.
 

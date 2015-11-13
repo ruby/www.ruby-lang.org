@@ -25,14 +25,15 @@ chức năng này đã hiện diện trong C#, Groovy, và Swift. Cú pháp này
 được giới thiệu để làm giảm phiền toái xử lý `nil`, xem vd: `obj&.foo`.
 `Array#dig` và `Hash#dig` cũng mới được bổ sung vào thư viện.
 
-[did_you_mean.gem được kèm cùng](https://bugs.ruby-lang.org/issues/11252).
-did_you_mean.gem hiển thị những gợi ý trong trường hợp gặp lỗi `NameError`
+[did_you_mean gem được kèm cùng](https://bugs.ruby-lang.org/issues/11252).
+did_you_mean gem hiển thị những gợi ý trong trường hợp gặp lỗi `NameError`
 hay `NoMethodError` giúp cho việc debug dễ dàng hơn.
 
 Hãy thử nghiệm Ruby 2.3.0-preview1 với ứng dụng của bạn và phản hồi cho
 chúng tôi biết nếu bạn có gặp bất cứ sự cố nào.
 
 ## Các thay đổi tiêu biểu từ bản 2.2
+
 * TBD
 
 Xem [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) và

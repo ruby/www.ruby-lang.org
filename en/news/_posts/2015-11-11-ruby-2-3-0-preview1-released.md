@@ -34,6 +34,7 @@ Try and enjoy programming with Ruby 2.3.0-preview1, and report us your
 knowledge!
 
 ## Notable Changes since 2.2
+
 * TBD
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) and

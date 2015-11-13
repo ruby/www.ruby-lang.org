@@ -17,7 +17,7 @@ Pragma）](https://bugs.ruby-lang.org/issues/11473)。Ruby 2.1 針對了 `"str".
 
 [安全調用運算子（Safe navigation operator）](https://bugs.ruby-lang.org/issues/11537)，引入了 C#、Groovy 以及 Swift 都有的安全調用運算子，用來簡化 `nil` 的處理：`obj&.foo`。另新增了 `Array#dig` 和 `Hash#dig` 方法。
 
-[did_you_mean 納入標準函式庫](https://bugs.ruby-lang.org/issues/11252)。did_you_mean.gem 針對 `NameError` 以及 `NoMethodError` 會顯示可能的正確拼寫，進而簡化除錯。
+[did_you_mean 納入標準函式庫](https://bugs.ruby-lang.org/issues/11252)。did_you_mean gem 針對 `NameError` 以及 `NoMethodError` 會顯示可能的正確拼寫，進而簡化除錯。
 
 請嘗試並享受與 Ruby 2.3.0-preview1 的編碼時光，有任何問題敬請回報！
 
