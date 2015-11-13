@@ -39,73 +39,84 @@ cd www.ruby-lang.org/
 bundle install
 ```
 
-To generate the site and start a local web server, you can use
+## Make Changes
 
-``` sh
-bundle exec rake serve
-```
+Making changes is easy:
+just locate the Markdown source of the page you want to improve,
+then make your changes or add content.
 
-Then open [http://localhost:9292/](http://localhost:9292/)
-in your local browser to access the preview.
+If you plan to submit a pull request or want to preview your changes
+on Heroku, you need to
 
-**Note:** The build of the site will take several minutes.
+* create a topic branch,
+* commit your changes to this branch.
 
-If you created the site previously and the `_site` directory
-already exists, the web server will start instantly.
-It will serve the content as it was at the time of the last
-site generation, though.
+See the [project's wiki][wiki] for some guidelines on how
+your commits and PRs should look like.
 
-To force regeneration of the site or
-to only get feedback on the success of the build you might want
-to create the website *without starting a local server* instead:
+## Preview Your Changes
+
+### Preview Locally
+
+Generate the website with
 
 ``` sh
 bundle exec rake generate
 ```
 
-## Preview on Heroku
+Then start a local web server with
+
+``` sh
+bundle exec rake serve
+```
+
+Open [http://localhost:9292/](http://localhost:9292/)
+in your browser to access the preview.
+
+**Note:** The build of the site will take several minutes.
+
+### Preview on Heroku
 
 In case a build is not possible on your local machine
+or you want to test your changes under production conditions
 you can also create a preview on Heroku.
 
-* Sign up for [Heroku](http://www.heroku.com) if you don't have an account yet.
-* Install [Heroku Toolbelt](https://toolbelt.heroku.com).
-* Clone repository.
+  * Sign up for [Heroku](http://www.heroku.com) if you do not have
+    an account yet.
 
-```
-git clone https://github.com/ruby/www.ruby-lang.org.git
-cd www.ruby-lang.org
-```
+  * Install the [Heroku Toolbelt](https://toolbelt.heroku.com).
 
-* Create a feature branch.
-* Make changes or add content and commit.
-* Create preview app on Heroku using custom buildpack.
+  * Unless you already have, `cd` into your local working copy of this repo.
 
-```
-heroku login
-heroku create --buildpack https://github.com/ruby/heroku-buildpack-www-ruby-lang.git
-```
+  * Create a preview app on Heroku using the custom buildpack:
 
-* Push your site.
+    ``` sh
+    heroku login
+    heroku create --buildpack https://github.com/ruby/heroku-buildpack-www-ruby-lang.git
+    ```
 
-```
-git push heroku feature_branch:master
-heroku open
-```
+  * Push your feature branch:
 
-To create a preview of the master branch:
+    ``` sh
+    git push heroku feature_branch:master
+    ```
 
-```
-git push heroku master
-heroku open
-```
+    To create a preview of the master branch:
+
+    ``` sh
+    git push heroku master
+    ```
+
+Open the preview in your browser with `heroku open` or
+retrieve the preview URL using `heroku info` and open it in your browser.
+
 
 ## Testing
 
 Besides generating and previewing the site
 you can perform additional tests with these tasks:
 
-```
+``` sh
 bundle exec rake check         # perform various tests on the source files
 bundle exec rake check:markup  # check markup for all generated pages
 bundle exec rake check:links   # check for 404's (needs a running local server)
@@ -113,4 +124,6 @@ bundle exec rake check:links   # check for 404's (needs a running local server)
 
 ## More Information
 
-For more information see the [wiki](https://github.com/ruby/www.ruby-lang.org/wiki).
+For more information see the [wiki][wiki].
+
+[wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
