@@ -23,7 +23,7 @@ task :generate do
     Encoding.default_external = Encoding::UTF_8
   end
 
-  options = Jekyll.configuration({'auto' => false, 'server' => false})
+  options = Jekyll.configuration
   puts "Building site: #{options['source']} -> #{options['destination']}"
   $stdout.flush
   Jekyll::Site.new(options).process
@@ -210,7 +210,7 @@ namespace :check do
 
   desc 'validate _site markup with validate-website'
   task :markup => :generate do
-    options = Jekyll.configuration({'auto' => false, 'server' => false})
+    options = Jekyll.configuration
     Dir.chdir('_site') do
       system("validate-website-static --site '#{options['url']}/' --quiet")
       exit($?.exitstatus)
