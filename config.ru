@@ -1,4 +1,4 @@
-require 'rack/jekyll'
+require 'lanyon'
 require 'rack/rewrite'
 require 'rack/ssl'
 require 'rack/protection'
@@ -7,10 +7,6 @@ require 'yaml'
 use Rack::CommonLogger
 
 use Rack::Rewrite do
-  # enforce trailing slash (/foo -> /foo/) when index.html exists
-  r302 %r{.*}, "$&/", if: ->(rack_env) {
-    rack_env["PATH_INFO"].match(%r{/$}).nil? && File.exist?("_site#{rack_env["PATH_INFO"]}/index.html")
-  }
 
   # bugreport.html (linked to from Ruby source code)
   r302 %r{^/bugreport\.html$}, "http://bugs.ruby-lang.org/"
@@ -81,4 +77,4 @@ end
 use Rack::Protection::HttpOrigin
 use Rack::Protection::FrameOptions
 
-run Rack::Jekyll.new
+run Lanyon.application(:skip_build => true)
