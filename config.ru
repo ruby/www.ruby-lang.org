@@ -1,4 +1,4 @@
-require 'rack/jekyll'
+require 'lanyon'
 require 'rack/rewrite'
 require 'rack/ssl'
 require 'rack/protection'
@@ -81,4 +81,4 @@ end
 use Rack::Protection::HttpOrigin
 use Rack::Protection::FrameOptions
 
-run Rack::Jekyll.new
+run Lanyon.application(:skip_build => true)
