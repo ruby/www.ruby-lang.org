@@ -7,10 +7,6 @@ require 'yaml'
 use Rack::CommonLogger
 
 use Rack::Rewrite do
-  # enforce trailing slash (/foo -> /foo/) when index.html exists
-  r302 %r{.*}, "$&/", if: ->(rack_env) {
-    rack_env["PATH_INFO"].match(%r{/$}).nil? && File.exist?("_site#{rack_env["PATH_INFO"]}/index.html")
-  }
 
   # bugreport.html (linked to from Ruby source code)
   r302 %r{^/bugreport\.html$}, "http://bugs.ruby-lang.org/"
