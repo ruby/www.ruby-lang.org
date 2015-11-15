@@ -17,7 +17,7 @@ e [Ruddy Lee](https://ruddyblog.wordpress.com) hanno confermato la loro presenza
 all'evento.
 
 La [CFP è aperta](http://rubytaiwan.kktix.cc/events/rubyconftw2015-cfp)
-fino al 20 Luglio (GMT +8) e il 
+fino al 20 Luglio (GMT +8) e il
 [CFP per i lightning talk](http://rubytaiwan.kktix.cc/events/rubyconftw2015-ltcfp)
 sarà aperta fino al 10 Agosto (GMT +8).
 
