@@ -13,10 +13,10 @@ Ruby 2.3.0-preview1 is the first preview of Ruby 2.3.0.
 Many new features and improvements are included.
 
 [Frozen String Literal
-Pragma](https://bugs.ruby-lang.org/issues/11473) is introduced. On
-Ruby 2.1, `"str".freeze` is optimized to reduce object allocation.
+Pragma](https://bugs.ruby-lang.org/issues/11473) is introduced.
+With Ruby 2.1, `"str".freeze` was optimized to reduce object allocation.
 Ruby 2.3 introduces a new magic comment and command line option to
-specify all the string literals in the source files.
+freeze all string literals in the source files.
 Additionally for debugging, you can get where the object is created on
 `"can't modify frozen String"` error by
 `--enable-frozen-string-literal-debug`.
