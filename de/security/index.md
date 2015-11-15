@@ -20,7 +20,7 @@ Distributoren, PaaS-Plattformen).
 
 ## Bekannte Schwachstellen
 
-Hier ein Liste kürzlich bekannt gewordener Probleme:
+Hier eine Liste kürzlich bekannt gewordener Probleme:
 
 {% include security_posts.html %}
 
