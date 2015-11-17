@@ -18,7 +18,7 @@ creación de nuevos objetos. Ruby 2.3 introduce un nuevo comentario _mágico_ y
 una opción de línea de comando para especificar todas las literales de
 cadena 
 de texto.
-Adicionalmente para depurado, usted puede obtener donde el objeto fue creado
+Adicionalmente para depurarlo, tu puedes obtener donde fue creado el objeto
 cuando sucede el error `"can't modify frozen String"` con
 --enable-frozen-string-literal-debug.
 
@@ -37,9 +37,7 @@ Prueba y disfruta el programar con Ruby 2.3.0-preview1.
 ## Cambios notables desde la versión 2.2
 * TBD
 
-Visitar [Noticias](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) y
-[Bitácora de Cambios](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog)
-para mayor detalle.
+Puedes ver las [Noticias](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) y la [Bitácora de Cambios](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog) para mayor detalle.
 
 Con estos cambios, 1036 archivos se modificaron, 81312 inserciones(+), 51322
 eliminaciones(-) desde Ruby 2.2.0.
@@ -76,7 +74,7 @@ eliminaciones(-) desde Ruby 2.2.0.
 
 ## Comentarios de la versión
 
-Refiérase también al calendario de entregas e información adicional:
+Puedes referirte también al calendario de entregas e información adicional:
 
 [ReleaseEngineering23](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
 
