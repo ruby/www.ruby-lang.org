@@ -12,23 +12,23 @@ We are pleased to announce the release of Ruby 2.3.0-preview1.
 Ruby 2.3.0-preview1 is the first preview of Ruby 2.3.0.
 Many new features and improvements are included.
 
-[Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
+A [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
 is introduced.
-With Ruby 2.1, `"str".freeze` was optimized to reduce object allocation.
+With Ruby 2.1, `"str".freeze` has been optimized to reduce object allocation.
 Ruby 2.3 introduces a new magic comment and command line option to
 freeze all string literals in the source files.
 Additionally for debugging, you can get where the object is created on
 `"can't modify frozen String"` error by
 `--enable-frozen-string-literal-debug`.
 
-[Safe navigation operator](https://bugs.ruby-lang.org/issues/11537),
+A [Safe navigation operator](https://bugs.ruby-lang.org/issues/11537),
 which already exists in C#, Groovy, and Swift, is introduced to ease
 `nil` handling as `obj&.foo`. `Array#dig` and `Hash#dig` are also added.
 
-[did_you_mean gem is bundled](https://bugs.ruby-lang.org/issues/11252).
+The [did_you_mean gem is bundled](https://bugs.ruby-lang.org/issues/11252).
 The did_you_mean gem
 shows the candidates on the `NameError` and `NoMethodError` to ease
-debbugging.
+debugging.
 
 Try and enjoy programming with Ruby 2.3.0-preview1, and report us your
 knowledge!
