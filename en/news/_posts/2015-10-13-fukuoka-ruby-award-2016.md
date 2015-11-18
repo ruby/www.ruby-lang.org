@@ -58,4 +58,4 @@ The winner of the IIJ GIO Prize will receive:
 "Matz will be testing and reviewing your source code thoroughly, so it's very
 meaningful to apply! The competition is free to enter."
 
-Cheers,
+Cheers!
