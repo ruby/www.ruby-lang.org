@@ -39,7 +39,7 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
  * [GlobalSign][globalsign] (SSL 証明書)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], サーバー監視)
- * [![CloudCore](http://www.cloudcore.jp/develop/links/images/74x36_white.gif) CloudCore][cloudcore] (build server)
+ * [![CloudCore][cloudcore-logo] CloudCore][cloudcore] (build server)
  * [Ruby no Kai][rubynokai] (build server)
 
 
@@ -58,4 +58,5 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
 [cloudcore]: http://www.cloudcore.jp/?utm_source=ad&utm_medium=ad&utm_content=dev&utm_campaign=vps
+[cloudcore-logo]: http://www.cloudcore.jp/develop/links/images/74x36_white.gif
 [rubynokai]: http://ruby-no-kai.org/

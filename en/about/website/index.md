@@ -40,8 +40,7 @@ Also many thanks to the organizations that support us:
  * [GlobalSign][globalsign] (SSL certification)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], server monitoring)
- * [CloudCore][cloudcore] (build server)
- * [![CloudCore](http://www.cloudcore.jp/develop/links/images/74x36_white.gif) CloudCore][cloudcore] (build server)
+ * [![CloudCore][cloudcore-logo] CloudCore][cloudcore] (build server)
  * [Ruby no Kai][rubynokai] (build server)
 
 
@@ -60,4 +59,5 @@ Also many thanks to the organizations that support us:
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
 [cloudcore]: http://www.cloudcore.jp/?utm_source=ad&utm_medium=ad&utm_content=dev&utm_campaign=vps
+[cloudcore-logo]: http://www.cloudcore.jp/develop/links/images/74x36_white.gif
 [rubynokai]: http://ruby-no-kai.org/
