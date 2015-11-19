@@ -9,7 +9,7 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.3.0-preview2.
 
-Ruby 2.3.0-preview2 is the first preview of Ruby 2.3.0.
+Ruby 2.3.0-preview2 is the second preview of Ruby 2.3.0.
 Many new features and improvements are included.
 
 A [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
