@@ -21,7 +21,8 @@ Additionally for debugging, you can get where the object is created on
 `"can't modify frozen String"` error by
 `--enable-frozen-string-literal-debug`.
 
-A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537),
+A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
+[`&.`](https://instagram.com/p/-M9l6mRPLR/),
 which already exists in C#, Groovy, and Swift, is introduced to ease
 `nil` handling as `obj&.foo`. `Array#dig` and `Hash#dig` are also added.
 
