@@ -25,7 +25,7 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   w twojej przeglądarce!
 
 [Hackety Hack][4]
-: <q cite="http://hackety-hack.com/">Zestaw startowy młodego kodera</q>.
+: <q cite="http://www.hackety.com/">Zestaw startowy młodego kodera</q>.
   Zabawny i prosty sposób na naukę programowania (poprzez Rubiego) przy
   użyciu Shoes GUI Toolkit.
 
@@ -149,7 +149,7 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
-[4]: http://hackety-hack.com/
+[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

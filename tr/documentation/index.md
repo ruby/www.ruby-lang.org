@@ -22,7 +22,7 @@ referanslar ve diğer belgeleri bulacaksınız.
   öğretiyor.
 
 [Hackety Hack][3]
-: <q cite="http://hackety-hack.com/">Küçük programcının başlangıç
+: <q cite="http://www.hackety.com/">Küçük programcının başlangıç
   kiti</q>. Shoes GUI Toolkit kullanarak Ruby programlamayı öğrenmek
   için eğlenceli ve koly bir yol.
 
@@ -116,7 +116,7 @@ listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
 
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
-[3]: http://hackety-hack.com/
+[3]: http://www.hackety.com/
 [4]: http://mislav.uniqpath.com/poignant-guide/
 [5]: http://pine.fm/LearnToProgram/
 [6]: http://rubylearning.com/

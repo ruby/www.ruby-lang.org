@@ -25,7 +25,7 @@ tại đây.
   học thông qua các bài học và giải quyết những bài tập.
 
 [Hackety Hack][4]
-: <q cite="http://hackety-hack.com/">Nhập môn Ruby cho người không có kinh
+: <q cite="http://www.hackety.com/">Nhập môn Ruby cho người không có kinh
   nghiệm lập trình</q>.  Một cách thích thú và dễ dàng để học về lập trình
   (thông qua Ruby) sử dụng bộ công cụ Shoes GUI.
 
@@ -133,7 +133,7 @@ là một nơi tuyệt vời.
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
-[4]: http://hackety-hack.com/
+[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

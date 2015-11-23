@@ -42,7 +42,7 @@ ruby -v
   수 있습니다.
 
 [Hackety Hack][4] (영문)
-: <q cite="http://hackety-hack.com/">꼬꼬마 코더의 스타터 킷</q>.
+: <q cite="http://www.hackety.com/">꼬꼬마 코더의 스타터 킷</q>.
   Shoes GUI 개발환경을 사용해 루비를 통해 쉽고 재미있게 프로그래밍을 배웁니다.
 
 [Why’s (Poignant) Guide to Ruby][5] (영문)
@@ -159,7 +159,7 @@ ruby -v
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
-[4]: http://hackety-hack.com/
+[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

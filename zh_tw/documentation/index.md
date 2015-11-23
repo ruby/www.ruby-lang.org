@@ -20,7 +20,7 @@ lang: zh_tw
 : 探索 Ruby 的慣用法、學習課程，解決問題，在瀏覽器內便可完成！
 
 [Hackety Hack][4]
-: <q cite="http://hackety-hack.com/">程式設計師的新手包</q>.
+: <q cite="http://www.hackety.com/">程式設計師的新手包</q>.
   一種使用叫做 Shoes 的 GUI 工具，來學習如何用 Ruby 寫程式，有趣又簡單。
 
 [Why’s (Poignant) Guide to Ruby][5]
@@ -109,7 +109,7 @@ lang: zh_tw
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
-[4]: http://hackety-hack.com/
+[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

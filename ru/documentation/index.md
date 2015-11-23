@@ -25,7 +25,7 @@ lang: ru
   вашем браузере!
 
 [Hackety Hack][4]
-: <q cite="http://hackety-hack.com/">Стартовый набор маленького
+: <q cite="http://www.hackety.com/">Стартовый набор маленького
   программиста</q>. Веселый и легкий путь обучения программированию (при
   помощи Ruby), использует графическую среду разработки Shoes.
 
@@ -138,7 +138,7 @@ lang: ru
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
-[4]: http://hackety-hack.com/
+[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
