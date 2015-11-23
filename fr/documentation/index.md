@@ -74,7 +74,7 @@ pour les nombreuses façons d'obtenir Ruby.
   traduction française est [disponible en PDF][7]
 
 [Hackety Hack][8]
-: <q cite="http://hackety-hack.com/">The little coder’s starter kit</q>.
+: <q cite="http://www.hackety.com/">The little coder’s starter kit</q>.
   Il s’agit d’un logiciel à vocation éducative, qui vous apprendra à
   programmer en utilisant Ruby et le toolkit Shoes pour réaliser des
   interfaces graphiques.
@@ -152,7 +152,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://pine.fm/LearnToProgram/
 [7]: http://www.ruby-doc.org/docs/ApprendreProgrammer/Apprendre_%E0_Programmer.pdf
-[8]: http://hackety-hack.com/
+[8]: http://www.hackety.com/
 [9]: http://rubylearning.com/
 [10]: http://www.techotopia.com/index.php/Ruby_Essentials
 [11]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials

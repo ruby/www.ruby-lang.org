@@ -40,7 +40,7 @@ diversas maneiras de obter o Ruby.
   no seu browser!
 
 [Hackety Hack][4]
-: <q cite="http://hackety-hack.com/">O kit de iniciante do programadorzinho</q>.
+: <q cite="http://www.hackety.com/">O kit de iniciante do programadorzinho</q>.
   Um jeito fácil e divertido de aprender sobre programação (com Ruby)
   usando o Shoes GUI Toolkit.
 
@@ -155,7 +155,7 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [1]: http://tryruby.org/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
-[4]: http://hackety-hack.com/
+[4]: http://www.hackety.com/
 [5]: http://why.carlosbrando.com/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

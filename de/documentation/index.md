@@ -84,7 +84,7 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 
 
 [1]: http://tryruby.org
-[2]: http://hackety-hack.com/
+[2]: http://www.hackety.com/
 [3]: http://mislav.uniqpath.com/poignant-guide/
 [4]: http://www.moccasoft.de/papers/ruby_tutorial
 [5]: http://pine.fm/LearnToProgram/
