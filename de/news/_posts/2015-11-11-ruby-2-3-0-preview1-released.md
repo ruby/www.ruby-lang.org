@@ -17,9 +17,9 @@ So wird etwa das [Pragma für eingefrorene
 String-Literale](https://bugs.ruby-lang.org/issues/11473)
 eingeführt. Bereits seit Ruby 2.1 handelt es sich bei `"str".freeze`
 um eine auf besseren Speicherverbrauch optimierte Operation, mit Ruby
-2.3 wird nunmehr ein neuer magischer Kommentar und eine
+2.3 werden nunmehr ein neuer magischer Kommentar und eine
 Kommandozeilenoption eingeführt, die alle String-Literale im Quellcode
-betrifft. Zu Debugging-Zwecken können Sie mithilfe der Option
+einfrieren. Zu Debugging-Zwecken können Sie mithilfe der Option
 `--enable-frozen-string-literal-debug` feststellen, an welcher Stelle
 das Objekt erstellt wird, welches den Fehler `"can't modify frozen
 String"` auslöst.
@@ -30,8 +30,8 @@ bereits aus C#, Groovy und Swift bekannt ist. Er erleichtert die
 Behandlung von `nil` als `obj.&foo`. Außerdem wurden `Array#dig` und
 `Hash#dig` hinzugefügt.
 
-[did_you_mean.gem wird
-mitgeliefert](https://bugs.ruby-lang.org/issues/11252). did_you_mean.gem
+Das [`did_you_mean`-Gem wird
+mitgeliefert](https://bugs.ruby-lang.org/issues/11252). Dieses Gem
 gibt mögliche Kandidaten bei einem `NameError` oder `NoMethodError`
 aus, um so das Debugging zu vereinfachen.
 
