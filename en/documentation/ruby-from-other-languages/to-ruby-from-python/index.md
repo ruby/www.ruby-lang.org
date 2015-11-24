@@ -27,6 +27,8 @@ As with Python, in Ruby,...
 * Although the keywords are a bit different, exceptions work about the
   same.
 * You’ve got embedded doc tools (Ruby’s is called rdoc).
+* There is good support for functional programming with first-class
+  functions, anonymous functions, and closures.
 
 ### Differences
 
@@ -71,4 +73,11 @@ Unlike Python, in Ruby,...
   statement). You can reset a variable to `nil`, allowing the old
   contents to be garbage collected, but the variable will remain in the
   symbol table as long as it is in scope.
+* The `yield` keyword behaves differently. In Python it will return
+  execution to the scope outside the function's invocation. External
+  code is responsible for resuming the function. In Ruby `yield` will
+  execute another function that has been passed as the final argument,
+  then immediately resume.
+* Python supports just one kind of anonymous functions, lambdas, while
+  Ruby contains blocks, Procs, and lambdas.
 
