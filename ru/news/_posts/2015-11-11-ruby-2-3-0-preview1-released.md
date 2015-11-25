@@ -36,7 +36,7 @@ Ruby 2.3.0-preview1 &mdash; первая предварительная верс
 ## Значительные изменения с 2.2
 
 Смотрите подробнее [новости](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) и
-[список измменений](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog).
+[список изменений](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog).
 
 С версии 2.2.0 было изменено 1036 файлов, 81312 строк добавлено и 51322 удалено.
 
