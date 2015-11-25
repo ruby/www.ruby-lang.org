@@ -96,10 +96,10 @@ d’un verre dans un lieu adapté aux présentations).
 
 ### Votre propre groupe
 
-Si votre ville n’est pas listé sur cette page, tout n’est pas perdu.
+Si votre ville n’est pas listée sur cette page, tout n’est pas perdu.
 Vous pouvez envoyer un mail à contact AT rubyfr DOT org. Nous nous
-efforçons de mettre en relation les utilisateurs de Ruby dans toutes les
-frances. Et ça peut également être l’occasion de lancer votre groupe
+efforçons de mettre en relation les utilisateurs de Ruby dans toute la
+France. Et ça peut également être l’occasion de lancer votre groupe
 d’utilisateurs avec l’appui de Ruby France. En plus, vous n’avez pas
 d’excuse, Camille Roux a écrit un billet de blog qui explique dans le
 détail [comment organiser un apéro Ruby][19].
