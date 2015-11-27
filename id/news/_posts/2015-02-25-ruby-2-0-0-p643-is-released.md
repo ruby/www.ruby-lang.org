@@ -15,7 +15,7 @@ dan tidak akan pernah rilis kecuali ada regresi yang kritis
 atau masalah keamanan ditemukan.
 Tahap ini direncanakan akan di-*maintain* selama satu tahun.
 Kemudian, perawatan dari Ruby 2.0.0 akan diakhiri pada tanggal 24 Februari 2016.
-Kami merekomendasikan untuk mulai merencanakan untuk migrasi ke versi Ruby yang lebih baru, seperti 2.1 atau 2.2.
+Kami merekomendasikan untuk mulai merencanakan migrasi ke versi Ruby yang lebih baru, seperti 2.1 atau 2.2.
 
 Rilis ini mencakup banyak *bugfixes*.
 Lihat [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
