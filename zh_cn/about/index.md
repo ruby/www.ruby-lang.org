@@ -5,6 +5,7 @@ lang: zh_cn
 ---
 
 想知道 Ruby 为什么会如此受欢迎吗？为什么使用过它的支持者都称赞它为巧妙、优雅且易用更实用有趣的语言？
+{: .summary}
 
 ### Ruby 发明者的理想
 
@@ -15,7 +16,7 @@ Smalltalk、 Eiffel、 Ada 和 Lisp ） 产生了一种具有函数式及指令�
 
 除此之外，他还提到：
 
-> Ruby 就像人的身体一样，表面上看来简单，但是内部却相当的复杂[\[1\]](#fn1)。
+> Ruby 就像人的身体一样，表面上看来简单，但是内部却相当的复杂<sup>[1](#fn1)</sup>。
 
 ### Ruby 的成长
 
@@ -39,7 +40,7 @@ Ruby 是[开源软件]({{ site.license.url }})。 不只是免费，而且可以
 
 最初，Matz
 从其它语言中找寻理想的语法，回想他的调查，他说，我想要一种比 Perl
-更强大、比 Python 更面向对象的脚本语言[\[2\]](#fn2)。
+更强大、比 Python 更面向对象的脚本语言<sup>[2](#fn2)</sup>。
 
 在 Ruby 中，所有的东西都是对象，所有的信息和代码都可以给它们所拥有的属性和行为。面向对象程序设计中称属性为实例变量（*instance
 variables*），称命令为方法 （*methods*）。 从下列程序代码中看到 Ruby 能够给数字赋于行为，从这点可以证明 Ruby
@@ -76,7 +77,7 @@ Ruby 的符号只是语法糖 (syntactic sugar)。你可以随时重定义他们
 
 Ruby 的代码块是非常强大且灵活的。程序员可以给任何函数添加一个闭合（closure）来表述这个函数该如何工作。闭合也被叫做代码块，是用过其他规则语言（比如 PHP、Visual Basic 等）转到 Ruby 的初学者最喜欢使用的一个功能。
 
-代码块取自函数语言。Matz 说：“我希望在 Ruby 的闭合中融入 Lisp 的文化 [\[3\]](#fn3)。”
+代码块取自函数语言。Matz 说：“我希望在 Ruby 的闭合中融入 Lisp 的文化 <sup>[3](#fn3)</sup>。”
 
 {% highlight ruby %}
 search_engines =
@@ -181,4 +182,3 @@ Ruby 作为一种语言还有一些不同的实现。
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
 [rubyspec]: http://rubyspec.org
-

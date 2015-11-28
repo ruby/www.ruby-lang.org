@@ -4,8 +4,8 @@ title: "关于本站"
 lang: zh_cn
 ---
 
-网站是由 Ruby 编写的 [Jekyll][jekyll] 生成的，<br>源码托管在 
-[GitHub][github-repo] 上。
+网站是由 Ruby 编写的 [Jekyll][jekyll] 生成的，<br>
+源码托管在 [GitHub][github-repo] 上。
 
 视觉设计是由 [Jason Zimdars][jzimdars] 完成的。<br>
 基于之前 Ruby Visual Identity Team 的设计。

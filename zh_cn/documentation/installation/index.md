@@ -9,6 +9,7 @@ lang: zh_cn
 以及如何通过源码来编译安装。
 {: .summary}
 
+
 ## 选择你的安装方式
 
 这里有多种方法来安装 Ruby：
@@ -131,7 +132,6 @@ $ brew install ruby
 
 [Sunfreeware][sunfreeware] 上的 Solaris 8 到 10 内置 Ruby 1.8.7，
 [Blastwave][blastwave] 同样如此。
-
 Ruby 1.9.2p0 在 [Sunfreeware][sunfreeware] 上也有，但版本已经过时。
 
 要在 [OpenIndiana][openindiana] 上安装 Ruby，
@@ -197,7 +197,6 @@ ruby-build 也可以不依赖 rbenv 而单独使用。
 * [RailsInstaller][railsinstaller]，
   使用的是 RubyInstaller，但包括了其它能够帮助 Rails 开发的工具。
   支持 OS X 和 Windows。
-
 * [Bitnami Ruby Stack][rubystack]，
   提供了完整的 Rails 开发环境。
   支持 OS X、Linux、Windows、虚拟机和云镜像。
@@ -224,7 +223,6 @@ chruby 能够管理用 [ruby-install](#ruby-install) 或者通过源码编译安
 [rbenv][rbenv] 能让你管理在系统中安装的多个 Ruby。
 它不能直接用来安装 Ruby，
 但有个流行的插件叫 [ruby-build](#ruby-build) 能够用来安装 Ruby。
-
 这两个工具都支持 OS X、Linux 和其它类 UNIX 操作系统。
 
 
