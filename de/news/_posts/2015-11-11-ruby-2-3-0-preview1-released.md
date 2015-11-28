@@ -13,8 +13,8 @@ bekanntgeben zu können.
 Ruby 2.3.0-preview1 ist die erste Vorschau auf Ruby 2.3.0, in die
 viele neue Features und Verbesserungen eingeflossen sind.
 
-So wird etwa das [Pragma für eingefrorene
-String-Literale](https://bugs.ruby-lang.org/issues/11473)
+So wird etwa das
+[Pragma für eingefrorene String-Literale](https://bugs.ruby-lang.org/issues/11473)
 eingeführt. Bereits seit Ruby 2.1 handelt es sich bei `"str".freeze`
 um eine auf besseren Speicherverbrauch optimierte Operation, mit Ruby
 2.3 werden nunmehr ein neuer magischer Kommentar und eine
@@ -24,21 +24,21 @@ einfrieren. Zu Debugging-Zwecken können Sie mithilfe der Option
 das Objekt erstellt wird, welches den Fehler `"can't modify frozen
 String"` auslöst.
 
-Daneben wird der [Safe Navigation
-Operator](https://bugs.ruby-lang.org/issues/11537) eingeführt, wie er
+Daneben wird der [Safe Navigation Operator](https://bugs.ruby-lang.org/issues/11537)
+eingeführt, wie er
 bereits aus C#, Groovy und Swift bekannt ist. Er erleichtert die
 Behandlung von `nil` als `obj.&foo`. Außerdem wurden `Array#dig` und
 `Hash#dig` hinzugefügt.
 
-Das [`did_you_mean`-Gem wird
-mitgeliefert](https://bugs.ruby-lang.org/issues/11252). Dieses Gem
-gibt mögliche Kandidaten bei einem `NameError` oder `NoMethodError`
+Das [`did_you_mean`-Gem wird mitgeliefert](https://bugs.ruby-lang.org/issues/11252).
+Dieses Gem gibt mögliche Kandidaten bei einem `NameError` oder `NoMethodError`
 aus, um so das Debugging zu vereinfachen.
 
 Probieren Sie Ruby 2.3.0-preview1 aus, haben Sie Spaß daran und lassen
 Sie uns an Ihren Erfahrungen teilhaben!
 
 ## Wesentliche Änderungen seit 2.2
+
 * TBD
 
 Siehe die
@@ -46,7 +46,7 @@ Siehe die
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog)
 für weitere Informationen.
 
-Mit diesen Änderungen wurden seit Ruby 2.2.0. 1036 Dateien geändert,
+Mit diesen Änderungen wurden seit Ruby 2.2.0 1036 Dateien geändert,
 81312 Einfügungen(+), 51322 Löschungen(-).
 
 ## Download
