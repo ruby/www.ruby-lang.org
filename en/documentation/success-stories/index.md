@@ -72,7 +72,9 @@ you’ll find a small sample of real world usage of Ruby.
   code and has been downloaded over a million times in 2010. The
   commercial editions [Metasploit Express][15] and [Metasploit Pro][16]
   developed by Rapid7 are also based on Ruby.
-
+* The [Arachni Web Application Security Scanner][17] is a free, modular, 
+  high-performance Ruby framework aimed towards helping penetration testers
+  and administrators evaluate the security of modern web applications.
 
 
 [1]: http://www.larc.nasa.gov/
@@ -91,3 +93,4 @@ you’ll find a small sample of real world usage of Ruby.
 [14]: http://www.rapid7.com
 [15]: http://www.rapid7.com/products/metasploit-express.jsp
 [16]: http://www.rapid7.com/products/metasploit-pro.jsp
+[17]: http://www.arachni-scanner.com/
