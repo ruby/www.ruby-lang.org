@@ -65,13 +65,12 @@ you’ll find a small sample of real world usage of Ruby.
 
 #### Security
 
-* The [Metasploit Framework][14], a community open source project
-  managed by [Rapid7][14], is a free penetration testing platform that
+* The [Metasploit Framework][metasploit], a community open source project
+  managed by [Rapid7][rapid7], is a free penetration testing platform that
   helps IT professionals assess the security of their networks and
   applications. The Metasploit Project consists of over 700,000 lines of
-  code and has been downloaded over a million times in 2010. The
-  commercial editions [Metasploit Express][15] and [Metasploit Pro][16]
-  developed by Rapid7 are also based on Ruby.
+  code and has been downloaded over a million times in 2010.
+  The commercial editions developed by Rapid7 are also based on Ruby.
 
 * The [Arachni Web Application Security Scanner][arachni] is a free, modular,
   high-performance Ruby framework aimed towards helping penetration testers
@@ -91,8 +90,6 @@ you’ll find a small sample of real world usage of Ruby.
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
 [12]: http://www.bluefountain.com/supply-chain-management/
-[13]: http://www.metasploit.com
-[14]: http://www.rapid7.com
-[15]: http://www.rapid7.com/products/metasploit-express.jsp
-[16]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com
 [arachni]: http://www.arachni-scanner.com/
