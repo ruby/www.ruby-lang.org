@@ -51,7 +51,9 @@ lang: zh_cn
 
 #### 安全
 
-* 由 Rapid7 管理的社区开源项目 [Metasploit Framework][14] 是一个免费的渗透测试平台，旨在帮助IT专业人员评估网络和应用程序的安全性。项目由超过了 70 万行 代码组成，2010 年已经下载超过一百万次。Rapid7 开发的商业版本 [Metasploit Express][16] 和 [Metasploit Pro][17]均基于 Ruby 开发。
+* 由 [Rapid7][rapid7] 管理的社区开源项目 [Metasploit Framework][metasploit] 是一个免费的渗透测试平台，旨在帮助IT专业人员评估网络和应用程序的安全性。项目由超过了 70 万行 代码组成，2010 年已经下载超过一百万次。Rapid7 开发的商业版本 Metasploit Express 和 Metasploit Pro均基于 Ruby 开发。
+
+
 
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
@@ -66,7 +68,5 @@ lang: zh_cn
 [11]: http://www.43things.com
 [12]: http://www.alistapart.com
 [13]: http://www.bluefountain.com/supply-chain-management/
-[14]: http://www.metasploit.com
-[15]: http://www.rapid7.com
-[16]: http://www.rapid7.com/products/metasploit-express.jsp
-[17]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com

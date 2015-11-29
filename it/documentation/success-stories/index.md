@@ -65,14 +65,13 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 
 #### Security
 
-* Il [Metasploit Framework][13], un progetto community open source
-  gestito da [Rapid7][14], è una piattaforma gratuita di penetration testing
-  che aiuta i professionisti IT a valutare la sicurezza dei loro network
-  e applicazioni.
+* Il [Metasploit Framework][metasploit], un progetto community open source
+  gestito da [Rapid7][rapid7], è una piattaforma gratuita di penetration
+  testing che aiuta i professionisti IT a valutare la sicurezza dei
+  loro network e applicazioni.
   Il progetto Metasploit consiste in più di 700,000 linee di codice ed ha
-  raggiunto più di un milione di download nel 2010. Le edizioni commerciali
-  [Metasploit Express][15] e [Metasploit Pro][16] sviluppate da Rapid7
-  sono anche esse basate su Ruby.
+  raggiunto più di un milione di download nel 2010.
+  Le edizioni commerciali sviluppate da Rapid7 sono anche esse basate su Ruby.
 
 
 
@@ -88,7 +87,5 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
 [12]: http://www.bluefountain.com/supply-chain-management/
-[13]: http://www.metasploit.com
-[14]: http://www.rapid7.com
-[15]: http://www.rapid7.com/products/metasploit-express.jsp
-[16]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com

@@ -67,13 +67,13 @@ Aqui você encontrará uma pequena amostra do uso de Ruby no mundo real.
 
 #### Segurança
 
-* O [Metasploit Framework][14], um projeto open source da comunidade
-  gerenciado pela [Rapid7][15], é uma plataforma gratuita de teste de
+* O [Metasploit Framework][metasploit], um projeto open source da comunidade
+  gerenciado pela [Rapid7][rapid7], é uma plataforma gratuita de teste de
   penetração que permite que profissionais de TI avaliem a segurança
   de suas redes e aplicações. O projeto Metasploit consiste de mais de
   700.000 linhas de código e foi baixado mais de um milhão de vezes
-  em 2010. As versões comerciais [Metasploit Express][16] e [Metasploit Pro][17]
-  desenvolvidas pela Rapid7 também são baseadas em Ruby.
+  em 2010.
+  As versões comerciais desenvolvidas pela Rapid7 também são baseadas em Ruby.
 
 
 
@@ -89,7 +89,5 @@ Aqui você encontrará uma pequena amostra do uso de Ruby no mundo real.
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
 [12]: http://www.bluefountain.com/supply-chain-management/
-[13]: http://www.metasploit.com
-[14]: http://www.rapid7.com
-[15]: http://www.rapid7.com/products/metasploit-express.jsp
-[16]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com

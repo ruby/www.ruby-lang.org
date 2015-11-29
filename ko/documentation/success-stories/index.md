@@ -62,12 +62,12 @@ lang: ko
 
 #### 보안
 
-* [Metasploit Framework][13]는 [Rapid7][14]에서 관리하는 커뮤니티형
+* [Metasploit Framework][metasploit]는 [Rapid7][rapid7]에서 관리하는 커뮤니티형
   오픈 소스 프로젝트입니다. Metasploit 프레임워크는 IT 전문가가 자신의
   네트워크 및 응용 프로그램의 보안을 평가하는 데 사용되는 무료 침투
   테스트 플랫폼입니다. Metasploit 프로젝트의 코드 700,000 라인으로
   구성되어 있으며 2010년에만 백만 회 이상 다운로드 되었습니다.
-  상용 버전인 [Metasploit Express][15]와 [Metasploit Pro][16]도
+  상용 버전인 Metasploit Express와 Metasploit Pro도
   Rapid7에서 개발하였으며 루비를 사용합니다.
 
 
@@ -84,7 +84,5 @@ lang: ko
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
 [12]: http://www.bluefountain.com/supply-chain-management/
-[13]: http://www.metasploit.com
-[14]: http://www.rapid7.com
-[15]: http://www.rapid7.com/products/metasploit-express.jsp
-[16]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com

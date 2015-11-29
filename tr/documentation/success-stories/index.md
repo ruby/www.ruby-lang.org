@@ -67,13 +67,14 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 
 #### Güvenlik
 
-* [Metasploit Framework][12], [Rapid7][13] tarafından yönetilen topluluk
-  açık kaynak projesi, ağların ve uygulamarın güvenliğini
+* [Metasploit Framework][metasploit], [Rapid7][rapid7] tarafından yönetilen
+  topluluk açık kaynak projesi, ağların ve uygulamarın güvenliğini
   değerlendirmede BT uzmanlarına yardımcı olan ücretsiz bir penetrasyon
   test platformudur. Metasploit Projesi 700,000 satırın üstünde koddan
   oluşur ve 2010 yılında 1 milyondan fazla indirilme sayısına
-  ulaşmıştır. Ticari sürüm olan [Metasploit Express][14] ve [Metasploit
-  Pro][15] Rapid7 tarafından geliştirilir ayrıca Ruby tabanlıdır.
+  ulaşmıştır.
+  Ticari sürüm olan Metasploit Express ve Metasploit Pro
+  Rapid7 tarafından geliştirilir ayrıca Ruby tabanlıdır.
 
 
 
@@ -88,7 +89,5 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 [9]: http://www.37signals.com
 [10]: http://www.alistapart.com
 [11]: http://www.bluefountain.com/supply-chain-management/
-[12]: http://www.metasploit.com
-[13]: http://www.rapid7.com
-[14]: http://www.rapid7.com/products/metasploit-express.jsp
-[15]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com

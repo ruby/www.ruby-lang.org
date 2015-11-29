@@ -69,13 +69,14 @@ lang: ru
 
 #### Безопасность
 
-* [Metasploit Framework][13], проект с открытым исходным кодом,
-  поддерживаемый [Rapid7][14], это бесплатная платформа проникающего тестирования,
+* [Metasploit Framework][metasploit], проект с открытым исходным кодом,
+  поддерживаемый [Rapid7][rapid7], это бесплатная платформа проникающего
+  тестирования,
   которая помогает IT профессионалам проверить безопасность их сети и
   приложений. Metasploit Project содержит более 700 000 строк кода и был
-  скачан больше миллиона раз в 2010 году. Коммерческая версия [Metasploit
-  Express][15] и [Metasploit Pro][16] разработаны Rapid7 и так же написаны
-  на Ruby.
+  скачан больше миллиона раз в 2010 году.
+  Коммерческая версия Metasploit Express и Metasploit Pro разработаны Rapid7
+  и так же написаны на Ruby.
 
 
 
@@ -91,7 +92,5 @@ lang: ru
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
 [12]: http://www.bluefountain.com/supply-chain-management/
-[13]: http://www.metasploit.com
-[14]: http://www.rapid7.com
-[15]: http://www.rapid7.com/products/metasploit-express.jsp
-[16]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com

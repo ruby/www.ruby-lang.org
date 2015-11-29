@@ -61,11 +61,12 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 
 #### Bảo mật
 
-* [Metasploit Framework][13], một dự án mã nguồn mỡ quản lý bởi
-  [Rapid7][14], là một nền tảng thử nghiệm các tấn công bảo mật
+* [Metasploit Framework][metasploit], một dự án mã nguồn mỡ quản lý bởi
+  [Rapid7][rapid7], là một nền tảng thử nghiệm các tấn công bảo mật
   giúp các chuyên gia kiểm định bảo mật của mạng hay ứng dụng.
   Dự án Metasploit bao gồm trên 700,000 dòng mã và được download
-  trên một triệu lần trong năm 2010. Phiên bản thương mại [Metasploit Express][15] và [Metasploit Pro][16]
+  trên một triệu lần trong năm 2010.
+  Phiên bản thương mại Metasploit Express và Metasploit Pro
   do Rapid7 phát triển cũng dựa trên Ruby.
 
 
@@ -82,7 +83,5 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
 [12]: http://www.bluefountain.com/supply-chain-management/
-[13]: http://www.metasploit.com
-[14]: http://www.rapid7.com
-[15]: http://www.rapid7.com/products/metasploit-express.jsp
-[16]: http://www.rapid7.com/products/metasploit-pro.jsp
+[metasploit]: http://www.metasploit.com
+[rapid7]: http://www.rapid7.com
