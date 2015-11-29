@@ -8,7 +8,7 @@ lang: id
 ---
 
 [RubyConf Taiwan 2015](http://rubyconf.tw) akan berlangsung 11-12
-September di Taipei, Taiwan, sebuah pulau tropis yang berlokasi di jantung Asia.
+September di Taipei, Taiwan, sebuah pulau tropis yang berlokasi di jantung Benua Asia.
 
 [Matz](https://twitter.com/yukihiro_matz),
 [Aaron Patterson](https://twitter.com/tenderlove),

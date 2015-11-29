@@ -12,7 +12,7 @@ Ini adalah sebuah versi TEENY dari rangkaian *stable* 2.2.
 
 Rilis ini mencakup perbaikan keamanan untuk *OpenSSL extension's hostname verification vulnerability*.
 
-* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
+* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/id/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Ada juga beberapa *bugfixes*.
 Lihat [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)

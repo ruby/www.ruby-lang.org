@@ -9,7 +9,7 @@ lang: id
 
 Ruby akan berpartisipasi di [Google Summer of Code 2015][gsoc] sebagai salah satu komunitas kelas atas. Kami akan tampil sebagai
 penanggung jawab untuk proyek-proyek yang berhubungan dengan Ruby termasuk [Ruby][ruby-ideas], [JRuby][jruby-ideas], [Celluloid][celluloid] dan
-[others][ideas]. Ajuan pelajar dapat diajukan mulai 16 Maret dan batas akhir 27 Maret
+[others][ideas]. Ajuan bagi pelajar dapat diajukan mulai 16 Maret dan batas akhir 27 Maret
 (berikut ini [timeline][timeline]).
 
 Jika Anda tertarik untuk berpartisipasi sebagai pelajar atau pembimbing mohon bergabung dengan
