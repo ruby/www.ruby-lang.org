@@ -31,8 +31,8 @@ did_you_mean gem hiển thị những gợi ý trong trường hợp gặp lỗi
 hay `NoMethodError` giúp cho việc debug dễ dàng hơn.
 
 [RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788)
-are introduced as experimental features.
-With these features, we can make an ISeq (bytecode) pre-compilation system.
+là các tính năng thử nghiệm được giới thiệu trong phiên bản này. Với các chức năng này
+chúng ta có thể tạo ra một hệ thống biện dịch trước ISeq (bytecode).
 
 Ruby 2.3 còn kèm theo các cải tiến về phần hiệu chỉnh công suất.
 Ví dụ, [tối ưu hoá Proc#call](https://bugs.ruby-lang.org/issues/11569),
@@ -41,10 +41,9 @@ Ví dụ, [tối ưu hoá Proc#call](https://bugs.ruby-lang.org/issues/11569),
 hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi mã, và
 còn nhiều tối ưu hoá khác.
 
-Hãy thử sử dụng Ruby 2.3.0-preview2, và cho chúng tôi biết cảm
-nghĩ của bạn.
+Hãy thử sử dụng Ruby 2.3.0-preview2, và cho chúng tôi biết trải nghiệm của bạn.
 
-## Các thay đổi lên so với 2.2
+## Các thay đổi đáng chú ý so với 2.2
 
 Xem [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview2/NEWS)
 và [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0_preview2/ChangeLog)
