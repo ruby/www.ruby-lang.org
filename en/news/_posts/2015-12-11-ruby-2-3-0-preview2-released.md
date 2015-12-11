@@ -18,7 +18,7 @@ With Ruby 2.1, `"str".freeze` has been optimized to reduce object allocation.
 Ruby 2.3 introduces a new magic comment and command line option to
 freeze all string literals in the source files.
 Additionally for debugging, you can get where the object is created on
-`"can't modify frozen String"` error by
+`"can't modify frozen String"` error by using the
 `--debug=frozen-string-literal` command line option.
 
 A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
@@ -31,14 +31,14 @@ The did_you_mean gem
 shows the candidates on the `NameError` and `NoMethodError` to ease
 debugging.
 
-[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788) are introduced as experimental feature. With these features, we can make a ISeq (bytecode) pre-compilation system.
+[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788) are introduced as experimental features. With these features, we can make an ISeq (bytecode) pre-compilation system.
 
 Ruby 2.3 includes many performance tuning fixes.
-For example, [optimize Proc#call](https://bugs.ruby-lang.org/issues/11569),
-[reconsider method entry data structure](https://bugs.ruby-lang.org/issues/11278),
+For example, [optimizing Proc#call](https://bugs.ruby-lang.org/issues/11569),
+[reconsidering method entry data structure](https://bugs.ruby-lang.org/issues/11278),
 [introducing new table data structure](https://bugs.ruby-lang.org/issues/11420),
 machine code level tuning for object allocation and method calling code,
-and other many optimizations.
+and many other optimizations.
 
 Try and enjoy programming with Ruby 2.3.0-preview2, and report us your
 knowledge!
