@@ -31,6 +31,15 @@ The did_you_mean gem
 shows the candidates on the `NameError` and `NoMethodError` to ease
 debugging.
 
+[RubyVM::InstructionSequence#to_binary and .load_from_binary] (https://bugs.ruby-lang.org/issues/11788) are introduced as experimental feature. With these features, we can make a ISeq (bytecode) pre-compilation system.
+
+Ruby 2.3 includes many performance tuning fixes.
+For example, [optimize Proc#call] (https://bugs.ruby-lang.org/issues/11569),
+[reconsider method entry data structure] (https://bugs.ruby-lang.org/issues/11278),
+[introducing new table data structure] (https://bugs.ruby-lang.org/issues/11420),
+machine code level tuning for object allocation and method calling code,
+and other many optimizations.
+
 Try and enjoy programming with Ruby 2.3.0-preview2, and report us your
 knowledge!
 
