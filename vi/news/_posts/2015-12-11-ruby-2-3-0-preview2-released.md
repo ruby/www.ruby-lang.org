@@ -23,23 +23,23 @@ khi gặp phải lỗi "can't modify frozen String" thông qua cờ `--enable-fr
 [Safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
 ([hay còn gọi là lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
 chức năng này đã hiện diện trong C#, Groovy, và Swift. Cú pháp này
-được giới thiệu để làm giảm phiền toái xử lý `nil`, xem vd:
+được giới thiệu để làm giảm thiểu sự phiền toái khi xử lý `nil`, xem ví dụ:
 `obj&.foo`. `Array#dig` và `Hash#dig` cũng mới được bổ sung vào thư viện.
 
-[did_you_mean gem được kèm cùng](https://bugs.ruby-lang.org/issues/11252).
+[Giới thiệu did_you_mean gem](https://bugs.ruby-lang.org/issues/11252).
 did_you_mean gem hiển thị những gợi ý trong trường hợp gặp lỗi `NameError`
 hay `NoMethodError` giúp cho việc debug dễ dàng hơn.
 
 [RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788)
 là các tính năng thử nghiệm được giới thiệu trong phiên bản này. Với các chức năng này
-chúng ta có thể tạo ra một hệ thống biện dịch trước ISeq (bytecode).
+chúng ta có thể tạo ra một hệ thống biên dịch trước ISeq (bytecode).
 
 Ruby 2.3 còn kèm theo các cải tiến về phần hiệu chỉnh công suất.
 Ví dụ, [tối ưu hoá Proc#call](https://bugs.ruby-lang.org/issues/11569),
 [xem xét lại phần cấu trúc dữ liệu hàm nhập](https://bugs.ruby-lang.org/issues/11278),
-[giớii thiệu kiểu cấu trúc dữ liệu bảng mới](https://bugs.ruby-lang.org/issues/11420),
-hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi mã, và
-còn nhiều tối ưu hoá khác.
+[giới thiệu kiểu cấu trúc dữ liệu bảng mới](https://bugs.ruby-lang.org/issues/11420),
+hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi mã, 
+và nhiều tối ưu khác.
 
 Hãy thử sử dụng Ruby 2.3.0-preview2, và cho chúng tôi biết trải nghiệm của bạn.
 
