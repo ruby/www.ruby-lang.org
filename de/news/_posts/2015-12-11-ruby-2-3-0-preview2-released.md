@@ -17,13 +17,13 @@ sind.
 So wird etwa das
 [Pragma für eingefrorene String-Literale](https://bugs.ruby-lang.org/issues/11473)
 eingeführt. Bereits seit Ruby 2.1 handelt es sich bei `"str".freeze`
-um eine auf besseren Speicherverbrauch optimierte Operation; mit Ruby
-2.3 werden nunmehr ein neuer magischer Kommentar und eine
+um eine auf besseren Speicherverbrauch optimierte Operation;
+mit Ruby 2.3 werden nunmehr ein neuer magischer Kommentar und eine
 Kommandozeilenoption eingeführt, die alle String-Literale im Quellcode
 einfrieren. Zu Debugging-Zwecken können Sie mithilfe des Schalters
 `--debug=frozen-string-literal` feststellen, an welcher Stelle
-das Objekt erstellt wird, welches den Fehler `"can't modify frozen
-String"` auslöst.
+das Objekt erstellt wird, welches den Fehler
+`"can't modify frozen String"` auslöst.
 
 Daneben wird der [Safe Navigation Operator](https://bugs.ruby-lang.org/issues/11537)
 eingeführt, wie er
@@ -35,15 +35,15 @@ Das [`did_you_mean`-Gem wird mitgeliefert](https://bugs.ruby-lang.org/issues/112
 Dieses Gem gibt mögliche Kandidaten bei einem `NameError` oder `NoMethodError`
 aus, um so das Debugging zu vereinfachen.
 
-Experimentell eingeführt werden [RubyVM::InstructionSequence#to_binary
-und .load_from_binary](https://bugs.ruby-lang.org/issues/11788). Diese
-beiden Features ermöglichen die Einrichtung eines auf ISeq (Bytecode)
+Experimentell eingeführt werden
+[RubyVM::InstructionSequence#to_binary und .load_from_binary](https://bugs.ruby-lang.org/issues/11788).
+Diese beiden Features ermöglichen die Einrichtung eines auf ISeq (Bytecode)
 basierenden Vorkompilationssystems.
 
 Daneben enthält Ruby 2.3 zahlreiche die Performanzoptimierung
-betreffende Verbesserungen, darunter etwa die [Optimierung von
-Proc#call](https://bugs.ruby-lang.org/issues/11569), [eine neue
-tabellarische Datenstruktur](https://bugs.ruby-lang.org/issues/11278),
+betreffende Verbesserungen, darunter etwa die
+[Optimierung von Proc#call](https://bugs.ruby-lang.org/issues/11569),
+[eine neue tabellarische Datenstruktur](https://bugs.ruby-lang.org/issues/11278),
 Optimierungen auf Maschinencodeebene für Objektallozierung und
 Methodenaufrufverarbeitung, und vieles andere mehr.
 

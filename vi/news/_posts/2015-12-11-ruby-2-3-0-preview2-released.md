@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.3.0-preview2 Released"
+title: "Phát hành Ruby 2.3.0-preview2"
 author: "naruse"
 translator: "Trung Lê"
 date: 2015-12-11 14:00:00 +0000
@@ -18,7 +18,7 @@ Ruby 2.1, "str".freeze được tối ưu hoá để giảm số lượng đối
 tạo ra. Ruby 2.3 cho phép đóng băng tất cả chuỗi ký tự trong các
 file mã nguồn thông qua một magic comment và một cờ của command line.
 Ngoài ra người dùng còn có thể biết được vị trí đổi tượng được tạo
-khi gặp phải lỗi "can't modify frozen String" thông qua cờ `--enable-frozen-string-literal-debug`.
+khi gặp phải lỗi "can't modify frozen String" thông qua cờ `--debug=frozen-string-literal`.
 
 [Safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
 ([hay còn gọi là lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
@@ -38,7 +38,7 @@ Ruby 2.3 còn kèm theo các cải tiến về phần hiệu chỉnh công suấ
 Ví dụ, [tối ưu hoá Proc#call](https://bugs.ruby-lang.org/issues/11569),
 [xem xét lại phần cấu trúc dữ liệu hàm nhập](https://bugs.ruby-lang.org/issues/11278),
 [giới thiệu kiểu cấu trúc dữ liệu bảng mới](https://bugs.ruby-lang.org/issues/11420),
-hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi mã, 
+hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi mã,
 và nhiều tối ưu khác.
 
 Hãy thử sử dụng Ruby 2.3.0-preview2, và cho chúng tôi biết trải nghiệm của bạn.

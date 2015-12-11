@@ -12,8 +12,7 @@ lang: zh_tw
 Ruby 2.3.0-preview2 是 Ruby 2.3.0 系列的第二個預覽版。
 包含了許多改進與新功能。
 
-引入[冰凍字串常量編譯指示（Frozen String Literal
-Pragma）](https://bugs.ruby-lang.org/issues/11473)。Ruby 2.1 針對了 `"str".freeze` 進行優化，減少了物件的佔用空間。Ruby 2.3 引入了新的魔法註解以及命令行選項，用來指定一個檔案裡的字串，全部默認為無法修改的字串（Frozen String）。除此之外，在除錯時也可以透過使用 `--enable-frozen-string-literal-debug` 來找到 `"can't modify frozen String"` 錯誤發生的地方。
+引入[冰凍字串常量編譯指示（Frozen String Literal Pragma）](https://bugs.ruby-lang.org/issues/11473)。Ruby 2.1 針對了 `"str".freeze` 進行優化，減少了物件的佔用空間。Ruby 2.3 引入了新的魔法註解以及命令行選項，用來指定一個檔案裡的字串，全部默認為無法修改的字串（Frozen String）。除此之外，在除錯時也可以透過使用 `--debug=frozen-string-literal` 來找到 `"can't modify frozen String"` 錯誤發生的地方。
 
 [安全調用運算子](https://bugs.ruby-lang.org/issues/11537)（[又稱孤獨運算子](https://instagram.com/p/-M9l6mRPLR/) `&.`），引入了 C#、Groovy 以及 Swift 都有的安全調用運算子，用來簡化 `nil` 的處理：`obj&.foo`。另新增了 `Array#dig` 和 `Hash#dig` 方法。
 
