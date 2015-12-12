@@ -14,14 +14,14 @@ Ruby 2.3.0-preview2 は Ruby 2.3.0 の2つ目のプレビューです。
 
 [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473) が導入されました。
 Ruby 2.1 から `"str".freeze` はオブジェクトアロケーションを削減するように最適化されています。
-Ruby 2.3 はソースファイル内の滑ての文字列リテラルを不変にする新しいマジックコメントとコマンドラインオプションが導入されます。
+Ruby 2.3 はソースファイル内の全ての文字列リテラルを不変にする新しいマジックコメントとコマンドラインオプションが導入されます。
 
 またデバッグ用に、`--debug=frozen-string-literal` コマンドラインオプションによって、
 `"can't modify frozen String"` エラーが発生したときにそのオブジェクトがどこで生成されたかを知ることができます。
 
 [safe navigation operator](https://bugs.ruby-lang.org/issues/11537) `&.` (またの名を[ぼっちオペレータ](https://instagram.com/p/-M9l6mRPLR/)) が導入されました。
 safe navigation operator は C# や Groovy、Swift にも存在し、`obj&.foo` のように `nil` のハンドリングを簡単にするためのものです。
-他にも `Arry#dig` と `Hash#dig` が追加されました。
+他にも `Array#dig` と `Hash#dig` が追加されました。
 
 [did_you_mean gem がバンドルされました](https://bugs.ruby-lang.org/issues/11252)。
 did_you_mean gem は、デバッグを容易にするために `NameError` や `NoMethodError` 発生時に候補を表示させます。
