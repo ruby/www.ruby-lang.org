@@ -12,11 +12,11 @@ Nos complace anunciar la entrega de Ruby 2.3.0-preview1.
 Ruby 2.3.0-preview1 es el primer preview de la serie 2.3.0.
 Incluye muchas mejoras y nuevas características.
 
-[Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473) 
+[Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
 ha sido introducida. En Ruby 2.1. "str".freeze está optimizado para reducir la
 creación de nuevos objetos. Ruby 2.3 introduce un nuevo comentario _mágico_ y
 una opción de línea de comando para especificar todas las literales de
-cadena 
+cadena
 de texto.
 Adicionalmente para depurarlo, tu puedes obtener donde fue creado el objeto
 cuando sucede el error `"can't modify frozen String"` con
@@ -38,7 +38,7 @@ Prueba y disfruta el programar con Ruby 2.3.0-preview1.
 
 * TBD
 
-Puedes ver las [Noticias](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) y la [Bitácora de Cambios](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog) para mayor detalle.
+Puedes ver las [Noticias](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) y la [Bitácora de Cambios](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog) para más detalles.
 
 Con estos cambios, 1036 archivos se modificaron, 81312 inserciones(+), 51322
 eliminaciones(-) desde Ruby 2.2.0.
