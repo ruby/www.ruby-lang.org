@@ -18,28 +18,28 @@ Ruby 2.2.4 已經發佈了。
 
 ## 下載
 
-* [http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2](http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2)
+* [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2)
 
       SIZE:   13336518 bytes
       SHA1:   6132840a859dbf2ac1498ba313021f299a870038
       SHA256: 31203696adbfdda6f2874a2de31f7c5a1f3bcb6628f4d1a241de21b158cd5c76
       SHA512: d27ca2f19c214ce87f906b57edd41f2f8af35b2871c191470facded9cfda15ba46e5c3bc7d5540225a38da6bd65050fcc8aaa4ffbadbb6bf7dc891c1821da0df
 
-* [http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz](http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz)
+* [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz)
 
       SIZE:   16638151 bytes
       SHA1:   818e5e157f76d4912ba3a7c7b4fc5156105e83c3
       SHA256: b6eff568b48e0fda76e5a36333175df049b204e91217aa32a65153cc0cdcb761
       SHA512: 5f5d4a5b6bb55643a2c2e4df9ec81062f62d97b2aa0de5faf5b4251f7e585b65a0ff07b4edf23c0969525e36916a132362f8349b6ab441ced8a86d0337532832
 
-* [http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.xz](http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.xz)
+* [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.xz](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.xz)
 
       SIZE:   10464500 bytes
       SHA1:   9216cf34df7fd5ce8059a6403951d6d47964442a
       SHA256: d28bff4641e382681c58072ddc244d025ac47ff71dd9426a92fcfc3830d1773c
       SHA512: 755257eea0cb79f28f1d2dc6e2a5ee4b1954280f51153e5fe90605a875b1d52077660b87e4e04d11552591a1f60a1241e4c70056f073a217b3bad896f64780da
 
-* [http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.zip](http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.zip)
+* [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.zip](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.zip)
 
       SIZE:   18472352 bytes
       SHA1:   b6de8559d6e56ad09a3f4b57ef2c01e8c0754d5a
