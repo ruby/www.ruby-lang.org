@@ -9,7 +9,7 @@ lang: es
 
 Ruby 2.2.4 ha sido liberado.
 
-Esta entrega contiene una corrección de seguridad para una vulnerabilidad de la extensión Fiddle.
+Esta entrega contiene una corrección de seguridad para una vulnerabilidad en la extensión Fiddle.
 
 Puedes leer más detalles en esta publicación:
 
