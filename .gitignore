@@ -3,7 +3,6 @@ _site/
 *.swp
 *.swo
 .bundle
-.ruby-version
 vendor
 .env
 bin
