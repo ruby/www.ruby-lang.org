@@ -12,7 +12,7 @@ lang: bg
 Този рилийз включва поправка по сигурността за Fiddle.
 Посетете страницата по-долу за повече информация.
 
-* [CVE-2015-7551: Използване на опасни стрингове във Fiddle и DL](https://www.ruby-lang.org/bg/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
+* [CVE-2015-7551: Уязвимост във Fiddle и DL](https://www.ruby-lang.org/bg/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 Включени са и много бъгфиксове.
 Вижте [Списък с промени](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) за повече информация.
