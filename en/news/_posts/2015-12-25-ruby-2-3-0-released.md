@@ -41,7 +41,9 @@ For example,
 [introducing new table data structure](https://bugs.ruby-lang.org/issues/11420),
 [optimize Proc#call](https://bugs.ruby-lang.org/issues/11569),
 machine code level tuning for object allocation and method calling code,
-and other many optimizations.
+[smarter instance variable data structure](https://bugs.ruby-lang.org/issues/11170),
+[Socket and I/O allow to use "exception:" keywords for high-performance non-blocking I/O](https://bugs.ruby-lang.org/issues/11229)
+and so on. Check "Implementation improvements" section in NEWS file.
 
 For a complete list of new features and compatibility notes, please see
 [NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS) and
