@@ -25,7 +25,7 @@ A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
 ([so-called lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
 which already exists in C#, Groovy, and Swift, is introduced to ease
 `nil` handling as `obj&.foo`. `Array#dig` and `Hash#dig` are also added.
-Note that this behaves as [try! of ActiveSupport](http://apidock.com/rails/Object/try%21),
+Note that this behaves as [try! of ActiveSupport](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
 which specially handle only nil.
 
 The [did_you_mean gem is bundled](https://bugs.ruby-lang.org/issues/11252).
