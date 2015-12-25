@@ -7,9 +7,9 @@ date: 2015-12-25 17:00:00 +0000
 lang: zh_tw
 ---
 
-我們很高興的宣佈 Ruby 2.2.0 發佈了。
+我們很高興的宣佈 Ruby 2.3.0 發佈了。
 
-Ruby 2.3.0-preview1 是 Ruby 2.3.0 版本的第一個穩定版。
+Ruby 2.3.0 是 Ruby 2.3.0 版本的第一個穩定版。
 包含了許多新功能，譬如：
 
 新增[冰凍字串常量編譯指示（Frozen String Literal Pragma）](https://bugs.ruby-lang.org/issues/11473)
