@@ -3,14 +3,14 @@ layout: news_post
 title: "Ruby 2.3.0 Released"
 author: "naruse"
 translator:
-date: 2015-12-25 00:00:00 +0000
+date: 2015-12-25 17:00:00 +0000
 lang: en
 ---
 
 We are pleased to announce the release of Ruby 2.3.0.
 
 This is the first stable release of Ruby 2.3 series.
-It introduces many new features and improvements for example:
+It introduces many new features for example:
 
 A [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
 is introduced.
@@ -35,8 +35,7 @@ debugging.
 
 [RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788) are introduced as experimental feature. With these features, we can make a ISeq (bytecode) pre-compilation system.
 
-Ruby 2.3 includes many performance tuning fixes.
-For example,
+It also includes many performance improvements for example,
 [reconsider method entry data structure](https://bugs.ruby-lang.org/issues/11278),
 [introducing new table data structure](https://bugs.ruby-lang.org/issues/11420),
 [optimize Proc#call](https://bugs.ruby-lang.org/issues/11569),
@@ -49,27 +48,29 @@ For a complete list of new features and compatibility notes, please see
 [NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS) and
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0/ChangeLog).
 
-With those changes, [1097 files changed, 97466 insertions(+), 58685 deletions(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0) since Ruby 2.2.0!
+With those changes, [2946 files changed, 104057 insertions(+), 59478 deletions(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0) since Ruby 2.2.0!
+
+Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.3!
 
 ## Download
 
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.tar.bz2>
-  * SIZE:   14126752 bytes
-  * SHA1:   7e717ef7a0a1523ad696b5fe693f7f7a613a3810
-  * SHA256: e9b0464e50b2e5c31546e6b8ca8cad71fe2d2146ccf88b7419bbe9626af741cb
-  * SHA512: e397f321d4338edba8d005d871408775f03d975da90c8abcfdb457a1bc7e6c87efe58c53b2c3bc122e9f58f619767b271bcc8d5d9663ed4b4288c60556e8d288
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.tar.gz>
-  * SIZE:   17623519 bytes
-  * SHA1:   2deaf3ccbbfc5e08d3d840a4f1c33ff5f62f931d
-  * SHA256: cb1c745bda33ba9e812b48c87852571ef6486f985c5e6ff4508a137d1c9734a3
-  * SHA512: 83022f99775eb139beec281d59029dcc7c59de1e313182685b0a785334ac53d0c445212460d00d065169b922949263f30a1f981e19fc6e59814e79e6e53ae8e0
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.tar.xz>
-  * SIZE:   11249780 bytes
-  * SHA1:   e1dfca06cd3c2cf6456a7feb0b1cd0752bde1a3b
-  * SHA256: 7c3119268af87c137f415301b299281762453ad78f86e35562be014dabd67b11
-  * SHA512: ab3376145d95a2188e6345984f0e5592c8d33515d7046a2ab2565dc418fa2306cdcf797aae9494d4d10446ada54ba638d8a8ad2d4b7510544d7eaea3de4faa87
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.zip>
-  * SIZE:   19841531 bytes
-  * SHA1:   db7fa5291d90e0a9c6f75c0cd068bc54050520d6
-  * SHA256: 90d036fd1ec40aa8f5493821ac162bf69f505c5977db54afe53b8bf689d79b9d
-  * SHA512: 05784df420018aaae7d09d41e872df708e861cacc74dc8ee97a9e3ac7458cb12b937523ad6def34d5ae2890a0cf037a8d61e365beb88d28acd84879b9391ad65
+* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.bz2>
+  * SIZE:   14185617 bytes
+  * SHA1:   6c8a832d49d22755ea8c45b6d53faf2ccc6d6ac9
+  * SHA256: ec7579eaba2e4c402a089dbc86c98e5f1f62507880fd800b9b34ca30166bfa5e
+  * SHA512: 77b707359e754c3616699d21697752741497c719dc3d6fdfb55ed639e76d52560d293ae54cbe5c63be78dc73fbe60f1b8615d704d017bdfe1994aa9747d26a6c
+* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.gz>
+  * SIZE:   17648682 bytes
+  * SHA1:   2dfcf7f33bda4078efca30ae28cb89cd0e36ddc4
+  * SHA256: ba5ba60e5f1aa21b4ef8e9bf35b9ddb57286cb546aac4b5a28c71f459467e507
+  * SHA512: 914d0201ecefaeb67aca0531146d2e89900833d8d2a597ec8a19be94529ab6b4be367f9b0cee2868b407288896cc14b64d96150223cac0aef8aafc46fc3dd7cc
+* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.xz>
+  * SIZE:   11294412 bytes
+  * SHA1:   96e620e38af351c8da63e40cfe217ec79f912ba1
+  * SHA256: 70125af0cfd7048e813a5eecab3676249582bfb65cfd57b868c3595f966e4097
+  * SHA512: d893c5e6db5a0533e0da48d899c619964388852ef90e7d1b92a4363d5f189cd2dba32a009581f62b9f42a8e6027975fc3c18b64faf356f5e3ac43a8d69ec5327
+* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.zip>
+  * SIZE:   19840511 bytes
+  * SHA1:   3f88617568d9a4f491e8b32dca532363f73eaa71
+  * SHA256: 8270bdcbc6b62a18fdf1b75bd28d5d6fc0fc26b9bd778d422393a1b98006020a
+  * SHA512: a3f397bb3c9c19d9b797552c5d60bb01c82db884cfa966df84881125bea35713cffd99f88fb86b271bae72d9cfb09ad9b33838cffcf6365c091459479914fdef
