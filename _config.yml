@@ -1600,18 +1600,18 @@ locales:
           url: /zh_tw/feeds/news.rss
     zh_cn:
       get_started:
-        text: <strong>试用</strong>, 其实很简单!
+        text: <strong>试用</strong>，其实很简单！
         try_ruby:
-          text: 在浏览器上试用 Ruby (英文)
+          text: 在浏览器中试用 Ruby（英文）
           <<: *try_ruby
         quickstart:
-          text: 20分钟体验 Ruby
+          text: 20 分钟体验 Ruby
           url: /zh_cn/documentation/quickstart/
         ruby_from_other_languages:
-          text: 从其它语言到 Ruby
+          text: 从其它语言转到 Ruby
           url: /zh_cn/documentation/ruby-from-other-languages/
       explore:
-        text: <strong>探索</strong> 新的世界
+        text: <strong>探索</strong>新的世界
         documentation:
           text: 文档
           url: /zh_cn/documentation/
@@ -1625,7 +1625,7 @@ locales:
           text: 成功案例
           url: /zh_cn/documentation/success-stories/
       participate:
-        text: <strong>加入</strong> 友善及日益壮大的社区
+        text: <strong>加入</strong>友善及日益壮大的社区
         mailing_lists:
           text: 邮件列表
           url: /zh_cn/community/mailing-lists/
@@ -1654,7 +1654,7 @@ locales:
       syndicate:
         text: 订阅
         recent_news:
-          text: 最新消息(RSS)
+          text: 最新消息（RSS）
           url: /zh_cn/feeds/news.rss
 
   subscription_form:
