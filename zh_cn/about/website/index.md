@@ -4,30 +4,28 @@ title: "关于本站"
 lang: zh_cn
 ---
 
-网站是由 Ruby 编写的 [Jekyll][jekyll] 生成的，<br>
-源码托管在 [GitHub][github-repo] 上。
+本站由使用 Ruby 开发的 [Jekyll][jekyll] 生成，源码托管在 [GitHub][github-repo] 上。
 
-视觉设计是由 [Jason Zimdars][jzimdars] 完成的。<br>
-基于之前 Ruby Visual Identity Team 的设计。
+视觉设计由 [Jason Zimdars][jzimdars] 完成。基于 Ruby 视觉识别团队之前的设计。
 
-[Ruby 标识][logo]是受版权保护的 &copy; 2006，Yukihiro Matsumoto。
+[Ruby 徽标][logo]受版权保护。&copy; 2006，Yukihiro Matsumoto。
 
 
 ## 报告问题 ##
 
-请使用 [issue tracker][github-issues] 来报告问题或者联系我们的[网站管理员][webmaster] （使用英语）。
+请使用 [issue tracker][github-issues] 报告问题，或者联系我们的[网站管理员][webmaster]（请用英语）。
 
 
-## 如何做出贡献 ##
+## 如何做贡献 ##
 
-网站是因由 Ruby 社区的成员维护而自豪。
+本站由 Ruby 社区成员维护。
 
-如果你想做出贡献的话，请阅读[贡献指导][github-wiki]，然后提交 pull request 吧。
+如果您想贡献，请阅读[贡献说明][github-wiki]，然后提交工单或拉取请求。
 
 
 ## 答谢 ##
 
-我们感谢所有向这个网站做出贡献的的提交者、作者、翻译者和其他贡献者。
+感谢所有向本站做出贡献的提交者、作者、翻译和其他贡献者。
 
 同时也感谢这些组织对我们的支持：
 
@@ -37,11 +35,11 @@ lang: zh_cn
  * [GlobalSign][globalsign]（SSL 认证）
  * [Fastly][fastly]（CDN）
  * [Hatena][hatena]（[mackerel][mackerel]，服务器监控）
- * [CloudCore][cloudcore]（服务器创建）
- * [Ruby no Kai][rubynokai]（服务器创建）
+ * [![CloudCore][cloudcore-logo] CloudCore][cloudcore]（构建服务器）
+ * [Ruby no Kai][rubynokai]（构建服务器）
 
 
-[logo]: /en/about/logo/
+[logo]: /zh_cn/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [jzimdars]: https://twitter.com/jasonzimdars
@@ -55,5 +53,6 @@ lang: zh_cn
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
+[cloudcore-logo]: http://www.cloudcore.jp/develop/links/images/74x36_white.gif
 [cloudcore]: http://www.cloudcore.jp/
 [rubynokai]: http://ruby-no-kai.org/
