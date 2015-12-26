@@ -27,7 +27,7 @@ Ruby 2.3.0 还做了很多性能优化，例如：[重新设定方法入口的�
 
 圣诞快乐，节日愉快！享受用 Ruby 2.3 编程的美好时光吧！
 
-## 下載
+## 下载
 
 * <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.bz2>
 
