@@ -55,4 +55,4 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 [previous20-gz]: {{ site.downloads.previous20.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
-[mirrors]: /zh_cn/downloads/mirrors/
+[mirrors]: /en/downloads/mirrors/
