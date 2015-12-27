@@ -12,7 +12,7 @@ Ruby 2.3 シリーズの最初の安定版である、Ruby 2.3.0 のリリース
 Ruby 2.3.0 には以下に示すようなたくさんの新機能が含まれています:
 
 [Frozen String Literal プラグマ](https://bugs.ruby-lang.org/issues/11473) が導入されました。
-Ruby 2.1 では既に、オブジェクトアロケーション削減のために `"str".freeze` が最適化されていましたが、これは、1 ファイル中の全 String リテラルを freeze する新しいマジックコメントとコマンドラインオプションになります。
+Ruby 2.1 では既に、オブジェクトアロケーション削減のために `"str".freeze` が最適化されていましたが、Ruby 2.3 では 1 ファイル中の全 String リテラルを freeze する新しいマジックコメントとコマンドラインオプションが導入されました。
 また、`can't modify frozen String` エラーのデバッグを容易にするため、当該エラーにおいてどこで対象の String オブジェクトが作成されたかを表示する `--debug=frozen-string-literal` コマンドラインオプションが追加されました。
 
 [safe navigation operator](https://bugs.ruby-lang.org/issues/11537) ([lonely operator](https://instagram.com/p/-M9l6mRPLR/) `&.` とも呼ばれています) が導入されました。これは `nil` の扱いをやりやすくするものです。既に C#, Groovy, Swift などでも同様の機能が存在します。
