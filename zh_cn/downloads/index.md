@@ -34,9 +34,9 @@ lang: zh_cn
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **旧的稳定版（2.0.0 系列）：**
-  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha256: {{ site.downloads.previous20.sha256.gz }}
+* **旧的稳定版：**
+  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
+  sha256: {{ site.downloads.old.sha256.gz }}
 
 * **快照：**
   * [稳定版快照][stable-snapshot-gz]：当前稳定版 tarball 的最新快照
@@ -52,7 +52,7 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 [installation]: /zh_cn/documentation/installation/
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[old-gz]: {{ site.downloads.old.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

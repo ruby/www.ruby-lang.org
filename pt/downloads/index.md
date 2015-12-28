@@ -44,9 +44,9 @@ mencionadas acima. Elas podem te ajudar.
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **Versão estável antiga (série 2.0.0):**
-  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha256: {{ site.downloads.previous20.sha256.gz }}
+* **Versão estável antiga:**
+  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
+  sha256: {{ site.downloads.old.sha256.gz }}
 
 * **Snapshots:**
   * [Snapshot Estável][stable-snapshot-gz]:
@@ -68,7 +68,7 @@ usar um _mirror_ que está próximo de você.
 [installation]: /pt/documentation/installation/
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[old-gz]: {{ site.downloads.old.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/
