@@ -36,9 +36,15 @@ lang: ja
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **古い安定版 (2.0 系):**
-  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha256: {{ site.downloads.previous20.sha256.gz }}
+* **古い安定版:**
+  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
+  sha256: {{ site.downloads.old.sha256.gz }}
+
+{% if site.downloads.tooold %}
+* **さらに古い安定版 (まもなく EOL):**
+  [Ruby {{site.downloads.tooold.version}}][tooold-gz]<br>
+  sha256: {{ site.downloads.tooold.sha256.gz }}
+{% endif %}
 
 * **スナップショット:**
   * [安定版のスナップショット][stable-snapshot-gz]:
@@ -69,7 +75,8 @@ Windows向けのバイナリが有志により配布されています。
 [installation]: /ja/documentation/installation/
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[old-gz]: {{ site.downloads.old.url.gz }}
+[tooold-gz]: {{ site.downloads.tooold.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

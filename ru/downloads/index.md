@@ -48,9 +48,9 @@ lang: ru
   [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
   sha256: {{ site.downloads.previous.sha256.gz }}
 
-* **Старая стабильная (Из 2.0.0 серии):**
-  [Ruby {{ site.downloads.previous20.version }}][previous20-gz]<br>
-  sha256: {{ site.downloads.previous20.sha256.gz }}
+* **Старая стабильная:**
+  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
+  sha256: {{ site.downloads.old.sha256.gz }}
 
  * **Слепки:**
    * [Стабильный слепок][stable-snapshot-gz]:
@@ -240,7 +240,7 @@ Ruby как язык имеет несколько разных имплемен
 [license]: {{ site.license.url }}
 [stable-gz]: {{ site.downloads.stable.url.gz }}
 [previous-gz]: {{ site.downloads.previous.url.gz }}
-[previous20-gz]: {{ site.downloads.previous20.url.gz }}
+[old-gz]: {{ site.downloads.old.url.gz }}
 [stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
 [nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/
