@@ -17,7 +17,7 @@ Ruby 2.1 では既に、オブジェクトアロケーション削減のため�
 
 [safe navigation operator](https://bugs.ruby-lang.org/issues/11537) ([lonely operator](https://instagram.com/p/-M9l6mRPLR/) `&.` とも呼ばれています) が導入されました。これは `nil` の扱いをやりやすくするものです。既に C#, Groovy, Swift などでも同様の機能が存在します。
 また、`Array#dig`, `Hash#dig` も追加されました。
-safe navigation operator は、`nil` のみを取り扱う [ActiveSupport における try!](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21) と同様の挙動をする事について注意してください。
+safe navigation operator は、`nil` のみを取り扱う [Active Support における try!](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21) と同様の挙動をする事について注意してください。
 
 [did_you_mean gem がバンドル](https://bugs.ruby-lang.org/issues/11252) されました。
 この gem は `NameError` と `NoMethodError` の発生時、デバッグを容易にするため、正しい名前と思われる候補を合わせて表示します。
