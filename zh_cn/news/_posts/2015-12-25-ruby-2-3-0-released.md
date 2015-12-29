@@ -13,7 +13,7 @@ lang: zh_cn
 
 新增[冻结字符串字面量的标示符](https://bugs.ruby-lang.org/issues/11473)。Ruby 2.1 针对 `"str".freeze` 进行了优化，以减少分配给对象的空间。Ruby 2.3 引入了新的魔法注释和命令行选项，用于冻结源码文件中的所有字符串字面量。此外，可以使用 `--debug=frozen-string-literal` 命令行选项找到 `"can't modify frozen String"` 错误发生的地方。
 
-引入了[安全调用运算符](https://bugs.ruby-lang.org/issues/11537)【也叫“孤寂运算符”（lonely operator）】——`.&`。C#、Groovy 和 Swift 已经有这个运算符，其作用是简化对 `nil` 的处理，例如 `obj&.foo`。另外，还增加了 `Array#dig` 和 `Hash#dig` 方法。注意，这与 [ActiveSupport 中的 try! 方法](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21)行为一致，不过只对 `nil` 做特殊处理。
+引入了[安全调用运算符](https://bugs.ruby-lang.org/issues/11537)【也叫“孤寂运算符”（lonely operator）】——`.&`。C#、Groovy 和 Swift 已经有这个运算符，其作用是简化对 `nil` 的处理，例如 `obj&.foo`。另外，还增加了 `Array#dig` 和 `Hash#dig` 方法。注意，这与 [Active Support 中的 try! 方法](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21)行为一致，不过只对 `nil` 做特殊处理。
 
 [内置了 did_you_mean gem](https://bugs.ruby-lang.org/issues/11252)。出现 `NameError` 以及 `NoMethodError` 异常时，这个 gem 会显示可能正确的拼写，从而简化调试。
 

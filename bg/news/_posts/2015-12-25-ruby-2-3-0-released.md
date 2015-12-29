@@ -25,7 +25,7 @@ https://bugs.ruby-lang.org/issues/11473). В Ruby 2.1 `"str".freeze`
 `obj && obj.foo` да бъде заместено от `obj&.foo`. Подобни оператори
 вече съществуват в C#, Groovy и Swift. Добавени са също `Array#dig`
 и `Hash#dig`. Забележете, че `&.` се държи като
-[try! от ActiveSupport](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
+[try! от Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
 който специфично обработва само `nil`.
 
 [did_you_mean gem](https://bugs.ruby-lang.org/issues/11252) e добавен
