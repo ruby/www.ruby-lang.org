@@ -31,7 +31,7 @@ safe navigation operator は、`nil` のみを取り扱う [Active Support に�
 [Proc#call 最適化](https://bugs.ruby-lang.org/issues/11569),
 オブジェクトアロケーションとメソッド呼び出しのコードにおけるマシンコードレベルでの最適化,
 [よりスマートな instance variable データ構造](https://bugs.ruby-lang.org/issues/11170),
-[Socket#sendmsg/recvmsg における exception: false キーワード引数のサポート](https://bugs.ruby-lang.org/issues/11229)
+[Socket#*_nonblock メソッド群における exception: false キーワード引数のサポート](https://bugs.ruby-lang.org/issues/11229)
 などが上げられます。その他の改善については NEWS ファイルの Implementation improvements セクションをごらんください。
 
 その他、全新機能のリストや互換性については、[NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS) と [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0/ChangeLog) をごらんください。
