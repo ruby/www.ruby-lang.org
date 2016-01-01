@@ -41,7 +41,7 @@ It also includes many performance improvements for example,
 [optimize Proc#call](https://bugs.ruby-lang.org/issues/11569),
 machine code level tuning for object allocation and method calling code,
 [smarter instance variable data structure](https://bugs.ruby-lang.org/issues/11170),
-[Socket and I/O allow to use "exception:" keywords for high-performance non-blocking I/O](https://bugs.ruby-lang.org/issues/11229)
+[`exception: false` keyword argument support on Socket#*_nonblock methods](https://bugs.ruby-lang.org/issues/11229)
 and so on. Check "Implementation improvements" section in NEWS file.
 
 For a complete list of new features and compatibility notes, please see
