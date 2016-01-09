@@ -3,15 +3,15 @@ layout: null
 ---
 
 {% highlight ruby %}
-# Output "I love Ruby"
-say = "I love Ruby"
+# Salida "Yo amo Ruby"
+say = "Yo amo Ruby"
 puts say
 
-# Output "I *LOVE* RUBY"
-say['love'] = "*love*"
+# Salida "YO *AMO* RUBY"
+say['amo'] = "*amo*"
 puts say.upcase
 
-# Output "I *love* Ruby"
-# five times
+# Salida "Yo *amo* Ruby
+# cinco veces
 5.times { puts say }
 {% endhighlight %}
