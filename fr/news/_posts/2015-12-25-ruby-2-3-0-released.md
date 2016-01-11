@@ -55,7 +55,7 @@ compatibilité, dans le fichier [NEWS](https://github.com/ruby/ruby/blob/v2_3_0/
 et dans le [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0/ChangeLog).
 
 Par rapport à la version précédente, la 2.2, [2946 fichiers ont été modifiés,
-avec 104 057 insertions(+) et 59 478 suppressions(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0_preview2.
+avec 104 057 insertions(+) et 59 478 suppressions(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0_preview2).
 
 Joyeux Noël, bonnes vacances et amusez-vous bien avec Ruby 2.3 !
 
