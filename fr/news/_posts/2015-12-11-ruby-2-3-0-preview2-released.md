@@ -45,7 +45,6 @@ Par exemple,
 des optimisations du code machine gérant l'allocation objet et l'appel des méthodes, etc.
 
 À vous maintenant de tester Ruby 2.3.0-preview2 et de faire vos retours.
-knowledge!
 
 ## Changements depuis la 2.2
 
