@@ -28,7 +28,7 @@ L'[opérateur de navigation sécurisé](https://bugs.ruby-lang.org/issues/11537)
 (*Safe navigation operator*) `&.` qui va faciliter la gestion de `nil`. Déjà
 présent dans C#, Groovy, Swift ou encore CoffeeScript, cet opérateur permet
 d'écrire `obj&.foo` sans se soucier de savoir si `foo` existe.
-Il s'agit de la même chose que le [`try!`` d'Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
+Il s'agit de la même chose que le [`try!` d'Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
 mais qui est limité à `nil`. À noter également, l'ajout de `Array#dig` and `Hash#dig`.
 
 La gem `did_you_mean` [a été intégrée à Ruby MRI](https://bugs.ruby-lang.org/issues/11252).
@@ -46,7 +46,7 @@ Par exemple,
 [la mise en place d'une nouvelle structure de données pour gérer les ID de façon générique](https://bugs.ruby-lang.org/issues/11420),
 des optimisations du code machine gérant l'allocation objet et l'appel des méthodes,
 [une structure de donnée plus ingénieuse pour les variables](https://bugs.ruby-lang.org/issues/11170),
-[la gestion de `exception: false` dans les argument des méthodes `Socket#*_nonblock`], etc.
+[la gestion de `exception: false` dans les argument des méthodes `Socket#*_nonblock`](https://bugs.ruby-lang.org/issues/11229), etc.
 Consultez la section "Implementation improvements" du fichier NEWS pour plus de
 détails.
 
