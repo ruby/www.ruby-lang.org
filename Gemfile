@@ -3,6 +3,7 @@ ruby '2.3.0'
 
 gem 'rake',   '~> 10.0'
 gem 'jekyll', '~> 2.0'
+gem 'rouge',  '~> 1.10'
 
 gem 'unicorn'
 gem 'lanyon', '~> 0.2.0'
