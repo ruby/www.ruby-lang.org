@@ -172,7 +172,7 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
 * la gestione delle eccezioni, proprio come Java o Python, per rendere
   la gestione degli errori più semplice.
 
-* Ruby ha un vero Garbage collecttor mark-and-sweep per tutti gli oggetti.
+* Ruby ha un vero Garbage collector mark-and-sweep per tutti gli oggetti.
   Come dice Matz: “Molto meglio per la tua salute!”
 
 * Scrivere estensioni in linguaggio C per Ruby è più facile che
