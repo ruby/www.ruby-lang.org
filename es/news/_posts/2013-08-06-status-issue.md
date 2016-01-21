@@ -70,7 +70,7 @@ el accidente en los servidores que habíamos reportado ya están de regreso.
     * Para mas detalles, por favor revisa
       [http://lists.ruby-lang.org](http://lists.ruby-lang.org).
   * Distribución de Paquetes: Ya puedes descargara los paquetes de
-    [ftp.ruby-lang.org](http://ftp.ruby-lang.org) via http o ftp.
+    [ftp.ruby-lang.org](https://cache.ruby-lang.org) via http o ftp.
   * Imagenes diarias: Volvemos a comenzar con la compilación y empaque de los
     builds diarios.
 

@@ -36,8 +36,8 @@ Entwicklerversion (1.9 Serien)
 
 : Bitte aktualisieren Sie auf die Version 1.8.6-p111 oder 1.8.5-p114.
 
-  * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz&gt;][2]
-  * [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz&gt;][3]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz&gt;][2]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz&gt;][3]
 
   Weiterhin sollten sie die Methode
   Net::HTTP#enable\_post\_connection\_check= nutzen um den
@@ -65,5 +65,5 @@ Entwicklerversion (1.9 Serie)
 
 
 [1]: http://www.isecpartners.com/advisories/2007-006-rubyssl.txt
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p111.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p114.tar.gz

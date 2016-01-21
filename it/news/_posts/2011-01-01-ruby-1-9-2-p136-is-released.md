@@ -13,7 +13,7 @@ maggiori dettagli.
 
 ### Download
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2&gt;][2]
   SIZE:
   : 8819324 bytes
 
@@ -23,7 +23,7 @@ maggiori dettagli.
   SHA256:
   : 33092509aad118f07f0483a3db1d4c5adaccf4bb0324cd43f44e3bd3dd1858cb
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz&gt;][3]
   SIZE:
   : 11155066 bytes
 
@@ -33,7 +33,7 @@ maggiori dettagli.
   SHA256:
   : c4314df44f3ab81230685fb51c296ce21034f4c719e2fcc0baba221d19f28746
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip&gt;][4]
   SIZE:
   : 12566581 bytes
 
@@ -46,6 +46,6 @@ maggiori dettagli.
 
 
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog
-[2]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
-[3]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip

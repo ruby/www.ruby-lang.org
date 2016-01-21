@@ -78,7 +78,7 @@ Please try to use a mirror that is near you.
 [mirror-http-jp-ring-yamanashi]: http://ring.yamanashi.ac.jp/archives/lang/ruby/
 [mirror-http-jp-ring-airnet]: http://ring.airnet.ne.jp/archives/lang/ruby/
 [mirror-http-jp-ring-maffin]: http://ring.maffin.ad.jp/archives/lang/ruby/
-[mirror-https-jp]: https://ftp.ruby-lang.org/pub/ruby/
+[mirror-https-jp]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-http-uk]: http://www.mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
 [mirror-http-de]: http://dl.ambiweb.de/mirrors/ftp.ruby-lang.org/
 [mirror-http-be]: http://ruby.mirror.easynet.be/

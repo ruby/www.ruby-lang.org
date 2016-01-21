@@ -42,7 +42,7 @@ Ruby and let us know via [our issue tracker][4] if you have any issues.
   * SHA256:
     c2a680aa5472c8d04a71625afa2b0f75c030d3655a3063fe364cfda8b33c1480
 
-* [ruby-1.9.2-rc1.tar.gz](URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz)
+* [ruby-1.9.2-rc1.tar.gz](URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz)
   * SIZE: 10779309 bytes
   * MD5: fdedd5b42ae89a9a46797823ad2d9acf
   * SHA256:
@@ -60,5 +60,5 @@ Ruby and let us know via [our issue tracker][4] if you have any issues.
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog
 [3]: https://bugs.ruby-lang.org/issues/show/3462
 [4]: https://bugs.ruby-lang.org/projects/show/ruby-19/
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip

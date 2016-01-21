@@ -32,7 +32,7 @@ RC1 공개 후 psych 라이브러리 수정과 몇 가지 버그 수정이 이�
 
 ### 다운로드
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.bz2&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.bz2&gt;][4]
   SIZE
   : 8480974 bytes
 
@@ -42,7 +42,7 @@ RC1 공개 후 psych 라이브러리 수정과 몇 가지 버그 수정이 이�
   SHA256
   : 692ebae991b104482dc9f0d220c1afb6b690a338b3b815aaa4f62954d2fa1b4a
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz&gt;][5]
   SIZE
   : 10781884 bytes
 
@@ -52,7 +52,7 @@ RC1 공개 후 psych 라이브러리 수정과 몇 가지 버그 수정이 이�
   SHA256
   : 5d523d99f928705ac1de84ade03283c468415c00f8b6755a8dd7a140828869b4
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.zip&gt;][6]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.zip&gt;][6]
   SIZE
   : 12161233 bytes
 
@@ -67,6 +67,6 @@ RC1 공개 후 psych 라이브러리 수정과 몇 가지 버그 수정이 이�
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/NEWS
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/ChangeLog
 [3]: https://bugs.ruby-lang.org/projects/show/ruby-19/
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.bz2
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.bz2
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.zip

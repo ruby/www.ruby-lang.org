@@ -68,7 +68,7 @@ Bir LoadError kaynağı
 
 ### İndirin
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2&gt;][4]
   BOYUT:
   : 8495472 bytes
 
@@ -78,7 +78,7 @@ Bir LoadError kaynağı
   SHA256:
   : e9710990ed8c2e794123aba509010471915fb13c27dae0118831d2001a9c8d3b
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz&gt;][5]
   BOYUT:
   : 10787899 bytes
 
@@ -88,7 +88,7 @@ Bir LoadError kaynağı
   SHA256:
   : 8c0c4e261a921b5c406bf9e76ac23bf3c915651534e9d1b9e8c5d0bee4a7285c
 
-* [&lt;URL:http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip&gt;][6]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip&gt;][6]
   BOYUT:
   : 12159728 bytes
 
@@ -103,6 +103,6 @@ Bir LoadError kaynağı
 [1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/NEWS
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/ChangeLog
 [3]: http://www.rubyspec.org
-[4]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2
-[5]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
-[6]: http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip
