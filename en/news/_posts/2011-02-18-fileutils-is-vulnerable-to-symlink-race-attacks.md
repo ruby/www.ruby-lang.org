@@ -35,32 +35,32 @@ should not be world writable except when the sticky bit set.
 * Fixed typo. (vulnerabile -&gt; vulnerable)
 * 1\.8.7-334 was released to fix this issue. 1.8.7 users are encouraged
   to upgrade.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz][1]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2][2]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip][3]
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz][1]
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2][2]
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip][3]
 
 * 1\.9.1-p431 was released to fix this issue. 1.9.1 users are encouraged
   to upgrade.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz][4]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2][5]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip][6]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz][4]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2][5]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip][6]
 
 * 1\.9.2-p180 was released to fix this issue. 1.9.2 users are encouraged
   to upgrade.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz][7]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2][8]
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip][9]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz][7]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2][8]
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip][9]
 
 * Fixed affected versions for 1.9 series.
 
 
 
-[1]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2
-[6]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip
-[7]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
-[8]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2
-[9]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2
+[6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip
+[7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
+[8]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2
+[9]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip

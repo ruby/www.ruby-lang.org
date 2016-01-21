@@ -17,19 +17,19 @@ recomiendo la lectura del registro de [cambios.][2]
 
 ## Descargas
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2&gt;][3]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2&gt;][3]
   * SIZE: 9961862 bytes
   * MD5: e76848a86606a4fd5dcf14fc4b4e755e
   * SHA256:
     5281656c7a0ae48b64f28d845a96b4dfa16ba1357a911265752787585fb5ea64
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz&gt;][4]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz&gt;][4]
   * SIZE: 12459652 bytes
   * MD5: e2469b55c2a3d0d643097d47fe4984bb
   * SHA256:
     e94367108751fd6bce79401d947baa66096c757fd3a0856350a2abd05d26d89d
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip&gt;][5]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip&gt;][5]
   * SIZE: 13906047 bytes
   * MD5: 8b3c2d6bd306804ed198260e4f5b6418
   * SHA256:
@@ -39,6 +39,6 @@ recomiendo la lectura del registro de [cambios.][2]
 
 [1]: http://unaaldia.hispasec.com/2012/10/vulnerabilidad-en-la-creacion-de.html
 [2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_286/ChangeLog
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz
-[5]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip
+[3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz
+[5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip

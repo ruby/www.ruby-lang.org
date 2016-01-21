@@ -151,8 +151,8 @@ Rubyforge][29] adresini inceleyin.
 [7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe
 [8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe
 [9]: http://rubyforge.org/frs/download.php/73722/rubyinstaller-1.9.2-p136.exe
-[10]: ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip
-[11]: ftp://ftp.ruby-lang.org:21/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip
+[10]: https://cache.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip
+[11]: https://cache.ruby-lang.org:21/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip
 [12]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html
 [13]: http://github.com/vertiginous/pik
 [14]: http://rvm.beginrescueend.com

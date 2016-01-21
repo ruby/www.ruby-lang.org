@@ -140,13 +140,13 @@ resolv.rb允许远程攻击者欺骗DNS响应。这个漏洞可以通过随机�
 1.8系列
 : 请更新到1.8.6-p286或者1.8.7-p71。
 
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p286.tar.gz&gt;][2]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p286.tar.gz&gt;][2]
 
         (md5: 797ea136fe43e4286c9362ee4516674e,
         sha256: 1774de918b156c360843c1b68690f5f57532ee48ff079d4d05c51dace8d523ed,
         size: 4590373)
 
-  * [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p71.tar.gz&gt;][3]
+  * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p71.tar.gz&gt;][3]
 
         (md5: 721741d1e0785a0b6b9fb07d55184908,
         sha256: 30ec4298e9ac186a2fe1a94362919ba805538252b707f3aadae1938429269c1a,
@@ -172,5 +172,5 @@ Security Team指出这个问题。
 
 
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1447
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p286.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p71.tar.gz
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p286.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p71.tar.gz

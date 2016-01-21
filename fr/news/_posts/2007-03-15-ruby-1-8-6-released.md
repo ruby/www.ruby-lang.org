@@ -31,8 +31,8 @@ Le fichier NEWS récapitule les grands changements utiles à l\'utilisateur ; le
 À partir de maintenant commence le développement de la branche 1.8.7. La branche 1.8.6, quant à elle, est maintenue et intègrera les mises-à-jour importantes éventuelles (bugs critiques, failles de sécurité). Gardez donc l\'œil ouvert.
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/43267
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.zip
 [5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/NEWS
 [6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/ChangeLog

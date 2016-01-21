@@ -222,6 +222,6 @@ Vielen Dank euch allen!
 [9]: http://www.infoq.com/news/2012/11/ruby-20-preview1
 [10]: http://jp.rubyist.net/magazine/?0041-200Special
 [11]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
-[12]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
-[13]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
-[14]: ftp://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip
+[12]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2
+[13]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
+[14]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.zip

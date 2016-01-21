@@ -14,9 +14,9 @@ quatrième anniversaire. Merci !
 
 ### Téléchargements
 
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz][2]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2][3]
-* [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.zip][4]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz][2]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2][3]
+* [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.zip][4]
 
 ### Sommes de contrôle
 
@@ -35,6 +35,6 @@ quatrième anniversaire. Merci !
 
 
 [1]: {{ site.url }}/fr/news/2011/10/06/les-plans-pour-ruby-1-8-7/
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.zip

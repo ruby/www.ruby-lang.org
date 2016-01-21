@@ -22,11 +22,11 @@ ruby-1.8.0.tar.gz. Its MD5SUM is:
 Binaries are going to be there.
 
 Some features are changed from previous stable version ruby 1.6.x; See
-[ftp://ftp.ruby-lang.org/pub/ruby/1.8/changes.1.8.0][2].
+[https://cache.ruby-lang.org/pub/ruby/1.8/changes.1.8.0][2].
 
 Thank you matz, and all committers, for all your trouble!
 
 
 
 [1]: {{ site.url }}/download-1.8.0.rbx
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/changes.1.8.0
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/changes.1.8.0

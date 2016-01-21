@@ -24,5 +24,5 @@ sumを確認してからご利用ください。ご迷惑をおかけしてし�
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/33947
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/
 [3]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/33951

@@ -106,15 +106,15 @@ Posted by Shugo Maeda on 26 May 2006
 [man-187-chm]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.7-20120829.chm
 [man-193-chm]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-20120829.chm
 [man-mirror]: http://doc.okkez.net/
-[old-man-html-gz]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.gz
-[old-man-html-bz2]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.bz2
-[old-man-html-zip]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.zip
-[old-man-rd-gz]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.gz
-[old-man-rd-bz2]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.bz2
-[old-man-rd-zip]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.zip
-[man-166-ja]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-ja-1.6.6-20011225-rd.tar.gz
-[man-146-ja]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
-[man-146-en]: ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
+[old-man-html-gz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.gz
+[old-man-html-bz2]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.tar.bz2
+[old-man-html-zip]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-ja-html-20051029.zip
+[old-man-rd-gz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.gz
+[old-man-rd-bz2]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.tar.bz2
+[old-man-rd-zip]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-ja-rd-20051029.zip
+[man-166-ja]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-ja-1.6.6-20011225-rd.tar.gz
+[man-146-ja]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
+[man-146-en]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
 
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

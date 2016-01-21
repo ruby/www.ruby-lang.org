@@ -34,22 +34,22 @@ tutti tranne quando lo sticky bit è settato.
 * 1.8.7-334 è stato rilasciato per correggere questo problema.
   Utenti che fanno uso di Ruby 1.8.7 sono pregati di aggiornare la loro
   installazione.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz](ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz)
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2)
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip](ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip)
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz](https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz)
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.bz2)
+  * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip](https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.zip)
 
 * 1.9.1-p431 è stato rilasciato per correggere questo problema.
   Utenti che fanno uso di Ruby 1.9.1 sono pregati di aggiornare la loro
   installazione.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz)
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2)
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip)
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz)
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.bz2)
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.zip)
 
 * 1.9.2-p180 è stato rilasciato per correggere questo problema.
   Utenti che fanno uso di Ruby 1.9.2 sono pregati di aggiornare la loro
   installazione.
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz)
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2)
-  * [ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip)
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz)
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2)
+  * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip)
 
 * Corrette le versioni soggette a questa vulnerabilità per la serie 1.9.

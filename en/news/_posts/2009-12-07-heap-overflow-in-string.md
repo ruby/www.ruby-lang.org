@@ -21,7 +21,7 @@ This vulnerability does not affect Ruby 1.8 series.
 
 Please upgrade to Ruby 1.9.1-p376.
 
-* [&lt;URL:ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2&gt;][2]
+* [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2&gt;][2]
 
 ## Credit
 
@@ -36,4 +36,4 @@ Ruby Security team.
 
 
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4124
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2
+[2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2

@@ -35,8 +35,8 @@ check them out after upgrading Ruby to 1.8.6.
 
 
 [1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/43267
-[2]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.bz2
-[3]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.gz
-[4]: ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.zip
+[2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.bz2
+[3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.gz
+[4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.zip
 [5]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/NEWS
 [6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/ChangeLog
