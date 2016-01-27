@@ -18,6 +18,7 @@ lang: ja
 * [Rubyリファレンスマニュアル Ruby 2.0.0版][man-200]
 * [Rubyリファレンスマニュアル Ruby 2.1.0版][man-210]
 * [Rubyリファレンスマニュアル Ruby 2.2.0版][man-220]
+* [Rubyリファレンスマニュアル Ruby 2.3.0版][man-230]
 * [るりまサーチ][man-search]
 
 またこのリファレンスマニュアルをまとめてダウンロードすることもできます。
@@ -99,6 +100,7 @@ Posted by Shugo Maeda on 26 May 2006
 [man-200]: http://docs.ruby-lang.org/ja/2.0.0/doc/index.html
 [man-210]: http://docs.ruby-lang.org/ja/2.1.0/doc/index.html
 [man-220]: http://docs.ruby-lang.org/ja/2.2.0/doc/index.html
+[man-230]: http://docs.ruby-lang.org/ja/2.3.0/doc/index.html
 [man-search]: http://docs.ruby-lang.org/ja/search/
 [man-xz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.xz
 [man-gz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.gz
