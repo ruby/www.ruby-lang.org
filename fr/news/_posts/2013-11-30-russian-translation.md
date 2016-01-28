@@ -17,11 +17,11 @@ De chaleureux remerciements à toute l'équipe en charge de cette traduction :
 
 Nous sommes heureux de pouvoir ainsi fêter l'arrivée d'une seconde nouvelle
 traduction du site depuis le passage à un workflow de contribution ouvert
-sur Github, il y a peu.
+sur GitHub, il y a peu.
 
 C'est aussi l'occasion de rappeler qu'à l'exemple d'Alexey et Vlad,
 tout un chacun peut participer à l'élaboration et aux mises à jour
-du site officiel de Ruby : il suffit de se [rendre sur Github][2],
+du site officiel de Ruby : il suffit de se [rendre sur GitHub][2],
 et participer en proposant des Issues ou des Pull Requests.
 
 

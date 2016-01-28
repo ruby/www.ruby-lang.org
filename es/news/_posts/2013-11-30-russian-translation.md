@@ -15,10 +15,10 @@ Muchas gracias al equipo de traductores:
 •	Vlad Bokov (razum2um)
 
 Estamos muy felices de que ya podemos anunciar la segunda nueva traducción
-desde que hicimos el cambio al flujo de trabajo con Github a principios de este año.
+desde que hicimos el cambio al flujo de trabajo con GitHub a principios de este año.
 
 Si también quieres contribuir con la comunidad de Ruby, puedes hacerlo ayudando
-a mantener el sitio actualizado. Simplemente visita ruby-lang.org en Github y ¡comienza
+a mantener el sitio actualizado. Simplemente visita ruby-lang.org en GitHub y ¡comienza
 a enviar issues o pull requests hoy!
 
 

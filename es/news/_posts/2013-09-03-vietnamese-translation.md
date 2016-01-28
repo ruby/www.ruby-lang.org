@@ -18,7 +18,7 @@ Muchas gracias a el equipo de traductores:
 
 Si tu también quieres contribuir a la comunidad de Ruby, puedes hacerlo
 manteniendo este sitio actualizado. Simplemente visita
-[ruby-lang.org en Github][2] y reporta problemas o envía Pull Requests hoy mismo!
+[ruby-lang.org en GitHub][2] y reporta problemas o envía Pull Requests hoy mismo!
 
 [1]: {{ site.url }}/vi/
 [2]: https://github.com/ruby/www.ruby-lang.org/
