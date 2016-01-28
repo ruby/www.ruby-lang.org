@@ -17,12 +17,12 @@ Ruby 中国社区：
 * [Ruby China][1]
 
 因为 Ruby China 社区是用 Rails 开发，所以...
-如果你精通Ruby或者Rails，你可以在Github的Ruby-China项目中，Fork
+如果你精通Ruby或者Rails，你可以在GitHub的Ruby-China项目中，Fork
 以后提交你的改进，社区会根据情况合并到主线中去，并将你列入贡献者名单。
 
-Github 项目地址：
+GitHub 项目地址：
 
-* [Github 项目][2]
+* [GitHub 项目][2]
 
 
 

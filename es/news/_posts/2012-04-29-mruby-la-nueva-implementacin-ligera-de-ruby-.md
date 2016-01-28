@@ -39,7 +39,7 @@ Los ficheros de distribución se pueden encontrar en la página de
 [descarga.][2]
 
 Para ampliar información sobre el proyecto lo mejor es dirigirse a su
-página en [Github.][3]
+página en [GitHub.][3]
 
 
 

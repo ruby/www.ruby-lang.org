@@ -14,7 +14,7 @@ past year, could be an educator, or maybe someone who’s helped organize
 Ruby events.
 
 If you have a minute please take a moment to nominate someone by heading
-over to [RubyHeroes.com][1], typing in the github username of the person
+over to [RubyHeroes.com][1], typing in the GitHub username of the person
 you wish to nominate, and giving us a reason why they deserve to win.
 About a month from now all the previous year’s Ruby Heroes will help
 decide who will win this year’s 6 awards which will be presented to the

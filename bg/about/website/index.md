@@ -5,7 +5,7 @@ lang: bg
 ---
 
 Този уебсайт е генериран с Ruby и използва [Jekyll][jekyll],<br>
-а изходният код се хоства в [Github][github-repo].
+а изходният код се хоства в [GitHub][github-repo].
 
 Визуалният дизайн e изготвен от [Jason Zimdars][jzimdars].<br>
 

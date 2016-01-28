@@ -15,7 +15,7 @@ façon particulièrement utile (au moins selon vous…), un mentor, un
 organisateur de conférences ou ateliers…
 
 Si vous avez une idée en tête, proposer un nom sur [RubyHeroes.com][1]
-ne vous prendra pas plus d\'une minute : indiquez un pseudo github et
+ne vous prendra pas plus d\'une minute : indiquez un pseudo GitHub et
 expliquez en quelques mots les raisons de votre choix. Dans environ un
 mois, les lauréats des années précédentes se concerteront pour désigner
 leurs six nouveaux héros, lesquels seront révélés au monde lors de la

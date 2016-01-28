@@ -15,7 +15,7 @@ berguna tahun lalu. Orang-orang tersebut bisa juga seorang pendidik, atau mungki
 orang-orang yang membantu mengorganisir acara Ruby.
 
 Jika Anda memiliki waktu sebentar, harap luangkan waktu untuk mencalonkan seseorang
-dengan mengunjungi [RubyHeroes.com][1], mengetik username github orang yang
+dengan mengunjungi [RubyHeroes.com][1], mengetik username GitHub orang yang
 Anda calonkan, dan memberikan kami alasan mengapa mereka layak untuk menang.
 Sekitar sebulan dari sekarang, semua Pahlawan Ruby tahun sebelumnya akan membantu
 memutuskan siapa yang akan memenangkan 6 penghargaan tahun ini. Penghargaan-penghargaan

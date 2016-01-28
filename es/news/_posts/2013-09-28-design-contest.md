@@ -11,7 +11,7 @@ La Asociación de Ruby va a llevar a cabo un concurso de diseño para la nueva
 imagen de ruby-lang.org.
 
 La plataforma de ruby-lang.org cambió de Radiant CMS a Jekyll en la primavera
-del 2013, ahora todos pueden editar el contenido a través de Github.
+del 2013, ahora todos pueden editar el contenido a través de GitHub.
 Sin embargo, el diseño actual fue construido para el tamaño tipico de una
 pantalla de computadora o laptop, pero no para smartphones o tablets. ¡Aún hay
 trabajo por hacer!
