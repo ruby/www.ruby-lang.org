@@ -6,5 +6,4 @@ lang: de
 ---
 
 We just started RSS feed in this site. Check it.
-http://www.ruby-lang.org/en/index.rdf
-
+https://www.ruby-lang.org/en/index.rdf

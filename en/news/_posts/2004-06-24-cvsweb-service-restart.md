@@ -6,7 +6,7 @@ lang: en
 ---
 
 CVSweb service is restarted.
-[http://www.ruby-lang.org/cgi-bin/cvsweb.cgi/][1]
+[https://www.ruby-lang.org/cgi-bin/cvsweb.cgi/][1]
 
 
 

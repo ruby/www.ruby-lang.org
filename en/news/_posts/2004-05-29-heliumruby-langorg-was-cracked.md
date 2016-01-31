@@ -23,5 +23,5 @@ distributions are not affected at least.
 The mailing list services are restarted, but CVS/WWW/FTP/RSYNC
 are stopped yet, sorry.
 
-Further information will be provided on http://www.ruby-lang.org/.
+Further information will be provided on https://www.ruby-lang.org/.
 For more information, send mail to admin@ruby-lang.org please.

@@ -6,7 +6,7 @@ Hash: SHA1
 コンテンツの検証作業が終了しましたので、WWW/FTPサービスを再開いた
 しました。
 
-  <URL:http://www.ruby-lang.org/>
+  <URL:https://www.ruby-lang.org/>
   <URL:ftp://ftp.ruby-lang.org/>
 
 検証作業の内容については後日改めてご報告いたしますので、今しばら

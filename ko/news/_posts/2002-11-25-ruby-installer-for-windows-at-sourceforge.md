@@ -24,4 +24,4 @@ Win32 바이너리와 수십여 개의 인기있는 익스텐션을 보시려면
 
 [1]: http://rubyinstaller.sourceforge.net/
 [2]: http://www.dm4lab.to/~usa/ruby/index_en.html#download
-[3]: http://www.ruby-lang.org/~eban/ruby/binaries/
+[3]: https://www.ruby-lang.org/~eban/ruby/binaries/

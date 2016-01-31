@@ -50,7 +50,7 @@ REXML. Veja-se o exemplo:
 
 Faça download do seguinte *patch* para corrigir o problema.
 
-* [http://www.ruby-lang.org/security/20080823rexml/rexml-expansion-fix.rb][1]
+* [https://www.ruby-lang.org/security/20080823rexml/rexml-expansion-fix.rb][1]
 
 Depois adicione a linha na aplicação para carregar
 rexml-expansion-fix.rb antes de utilizar REXML.
