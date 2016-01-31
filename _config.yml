@@ -171,11 +171,11 @@ locales:
       - text: À propos de Ruby
         url:  /fr/about
     id:
-      - text: Download
+      - text: Unduh
         url: /id/downloads
       - text: Dokumentasi
         url: /id/documentation
-      - text: Library
+      - text: Pustaka
         url: /id/libraries
       - text: Komunitas
         url: /id/community
@@ -594,7 +594,7 @@ locales:
       more_news: Arsip Sebelumnya...
       continue: Baca Selengkapnya...
       back_to_year: "Kembali ke Arsip Tahun %Y"
-      recent_news: Berita
+      recent_news: Berita Baru
       yearly_archive_title: "Arsip Tahun %Y"
       monthly_archive_title: "Arsip %B %Y"
       yearly_archives: Arsip Tahunan
@@ -1044,7 +1044,7 @@ locales:
           text: Buku-buku
           url: http://www.ruby-doc.org/bookstore
         libraries:
-          text: Library
+          text: Pustaka
           url: /id/libraries/
         success_stories:
           text: Kisah Sukses
@@ -1073,11 +1073,11 @@ locales:
           url: /id/community/ruby-core/
           description: |
             Silakan berkontribusi untuk versi Ruby terbaru.
-#       issue_tracking:
-#         text: Issue Tracking
-#         url: https://bugs.ruby-lang.org/
-#         description: |
-#           Report or help solve issues in Ruby.
+        issue_tracking:
+          text: Laporkan Masalah
+          url: https://bugs.ruby-lang.org/
+          description: |
+            Lapor atau bantu memecahkan masalah yang ada di Ruby.
       syndicate:
         text: Sindikasi Web
         recent_news:
@@ -1819,6 +1819,7 @@ locales:
     de: "Diese Website in anderen Sprachen:"
     en: "This site in other languages:"
     fr: "Autres langues disponibles :"
+    id: "Situs ini dalam bahasa lain:"
     it: "Questo sito in altre lingue:"
     pl: "Ta strona w innych językach:"
     pt: "Este site em outros idiomas:"
@@ -1849,11 +1850,8 @@ locales:
       ou contactez le <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       pour toute question ou tout commentaire.
     id: |
-      Situs ini dikembangkan menggunakan bahasa Ruby dan <a href="http://www.jekyllrb.com/">Jekyll</a>.
-      Dipersembahkan dengan bangga oleh anggota komunitas Ruby.
-      Silakan berkontribusi melalui <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
-      atau hubungi <a href="mailto:webmaster@ruby-lang.org">webmaster</a> kami
-      untuk pertanyaan atau komentar mengenai situs ini.
+      <a href="id/about/website"/">Situs ini</a>
+      dengan bangga dirawat oleh anggota komunitas Ruby.
     it: |
       <a href="/it/about/website/">Questo sito web</a>
       è mantenuto con orgoglio dai membri della comunità Ruby.
