@@ -8,7 +8,7 @@ lang: de
 The source code of Ruby is stored in CVS repositories. You can walk them
 around by CVSweb:
 
-* http://www.ruby-lang.org/cgi-bin/cvsweb.cgi/
+* https://www.ruby-lang.org/cgi-bin/cvsweb.cgi/
 
 Anonymous CVS is also available:
 

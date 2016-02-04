@@ -213,9 +213,9 @@ CVS$B$N@H<e@-$rMxMQ$7$??/F~$N:/@W$,8+$D$+$C$F$*$j!"(Bhelium$B$K$O!"Ev;~!"?/(
 $B8!>Z$K;HMQ$7$?;qNA$O!"0J2<$N(BURL$B$G8x3+$7$F$$$^$9!#(B
 
   * cvsup$B$N%m%0(B
-    <URL:http://www.ruby-lang.org/check-data/cvs/cvsup-log/>
+    <URL:https://www.ruby-lang.org/check-data/cvs/cvsup-log/>
   * 5/19$B$+$i(B5/28$B$^$G$N(Bcommit$BFbMF(B
-    <URL:http://www.ruby-lang.org/check-data/cvs/cvs-diff/>
+    <URL:https://www.ruby-lang.org/check-data/cvs/cvs-diff/>
 
 $B$^$?!">e5-$NH=CG:`NA$K2C$($F!"0J2<$N:n6H$K$h$j!"JdB-E*$J8!>Z$r9T$$$^$7(B
 $B$?!#(B
@@ -313,7 +313,7 @@ ruby$BK\BN$K$9$G$K(Bwince$B$,<h$j9~$^$l$F$$$k$?$a!"(Bpocketruby$B$K4X$7$F$O
 
 === WWW(www.ruby-lang.org)
 
-http://www.ruby-lang.org/{ja,en}/$B$O!"(BtDiary$B$K$h$C$F1?MQ$5$l$F$$$^$7$?!#(B
+https://www.ruby-lang.org/{ja,en}/$B$O!"(BtDiary$B$K$h$C$F1?MQ$5$l$F$$$^$7$?!#(B
 $B$=$N$?$a!"$^$:(BtDiary$B$N<B9T$KLdBj$,$J$$$3$H$r3NG'$9$k$?$a!"0J2<$N$h$&$J(B
 $B:n6H$r9T$$$^$7$?!#(B
 
@@ -334,7 +334,7 @@ RWiki$B$G4IM}$5$l$?%*%s%i%$%s%j%U%!%l%s%9%^%K%e%"%k$K$D$$$F$O!"(B2/29$B$N;~(
 
 $BHf3S7k2L$O!"0J2<$N(BURL$B$G8x3+$7$F$$$^$9!#(B
 
-  <URL:http://www.ruby-lang.org/check-data/ruby-man/man-rd-ja.diff>
+  <URL:https://www.ruby-lang.org/check-data/ruby-man/man-rd-ja.diff>
 
 Base64.rd$B$NAj0c$O!"%a!<%k$G:9J,$,Aw?.$5$l$k:]$K!"ESCf$K2~9T$,F~$C$F$7(B
 $B$^$C$?$?$a$G$9!#(B

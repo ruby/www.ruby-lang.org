@@ -27,7 +27,7 @@ bf48d49dbd94b5c0eda5f75b3bfbac16  ruby-1.6.8.tar.gz
 CVS/WWW/FTP/RSYNCにつきましては、申し訳ありませんがサービスを
 停止させていただいております。
 
-今後もこの件に関する情報をhttp://www.ruby-lang.org/で情報を提供して
+今後もこの件に関する情報をhttps://www.ruby-lang.org/で情報を提供して
 まいります。
 より詳しい情報が必要な場合、admin@ruby-lang.org宛にメールをお送りください。
 
