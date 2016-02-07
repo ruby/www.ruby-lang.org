@@ -73,8 +73,8 @@ Ruby 2.2.0-preview1 でのプログラミングをお楽しみください！
 
 ## リリースコメント
 
-* [2.2.0 既知の問題](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 既知の問題](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 リリーススケジュールとその他の情報は以下を参照してください:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

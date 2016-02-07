@@ -59,7 +59,7 @@ la version `MINEURE`, par conséquent le numéro de version `MICRO` sera fixé �
 Pour plus d'informations sur cette proposition, veuillez consulter les liens
 suivants :
 
-* [Introduction au schéma de versionnage et à la politique de gestion des branches](http://bugs.ruby-lang.org/issues/8835)
+* [Introduction au schéma de versionnage et à la politique de gestion des branches](https://bugs.ruby-lang.org/issues/8835)
 * [Proposition acceptée en anglais](https://gist.github.com/sorah/7803201)
 * [Proposition acceptée en japonais](https://gist.github.com/hsbt/7719305)
 

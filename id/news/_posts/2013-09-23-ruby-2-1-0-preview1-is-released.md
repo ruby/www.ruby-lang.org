@@ -62,8 +62,8 @@ Konstantin Haase (@konstantinhaase) menulis sebuah ringkasan yang sangat bagus d
 
 Issue yang diketahui adalah:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
 Lihat juga jadwal rilis dan informasi lainnya:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)

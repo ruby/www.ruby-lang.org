@@ -76,8 +76,8 @@ Ruby 2.2 針對使用者對 Ruby 各式各樣的需求，做了許多修正、�
 
 ## 發佈記
 
-* [2.2.0 已知問題](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 已知問題](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 同時請參考發佈時程及其他相關資訊：
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

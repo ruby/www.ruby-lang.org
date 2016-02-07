@@ -47,6 +47,6 @@ Le modifiche rilevanti sono:
 * "literal".freeze è ora ottimizzato [#9042](https://bugs.ruby-lang.org/issues/9042)
 * aggiunto Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * aggiornate librerie come BigDecimal, JSON, NKF, Rake, RubyGems, e RDoc.
-* rimosse curses. [#8584](http://bugs.ruby-lang.org/issues/8584)
+* rimosse curses. [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 Guarda più dettagli sulle modifiche: [NEWS su repository Ruby](https://github.com/ruby/ruby/blob/v2_1_0/NEWS).

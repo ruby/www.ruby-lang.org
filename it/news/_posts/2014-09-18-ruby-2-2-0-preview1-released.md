@@ -75,8 +75,8 @@ Totale delle modifiche: 1239 file modificati, 98343 aggiunte(+), 61858 rimozioni
 
 ## Commento alla Release
 
-* [2.2.0 Known issues](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 Known issues](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Per vedere anche il release schedule e altre informazioni:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

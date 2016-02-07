@@ -68,8 +68,8 @@ Konstantin Haase (@konstantinhaase) a produit un bon résumé dans ce billet de 
 
 Les problèmes connus sont listés sur :
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
 Vous pouvez aussi suivre l'avancement du planning et d'autres informations sur :
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)

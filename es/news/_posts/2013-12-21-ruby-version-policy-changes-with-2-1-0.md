@@ -56,7 +56,7 @@ mismo nivel de entregas de `MINOR`. Por lo tanto `TEENY` será corregida en 0.
 
 Para leer más acerca de esta propuesta por favor ve a las siguientes ligas:
 
-* [Introducing a semantic versioning scheme and branching policy](http://bugs.ruby-lang.org/issues/8835)
+* [Introducing a semantic versioning scheme and branching policy](https://bugs.ruby-lang.org/issues/8835)
 * [Accepted proposal in English](https://gist.github.com/sorah/7803201)
 * [Accepted proposal in Japanese](https://gist.github.com/hsbt/7719305)
 

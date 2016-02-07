@@ -54,7 +54,7 @@ level releases, so `TEENY` will be fixed at 0.
 
 To read up more on this proposal please see the following links:
 
-* [Introducing a semantic versioning scheme and branching policy](http://bugs.ruby-lang.org/issues/8835)
+* [Introducing a semantic versioning scheme and branching policy](https://bugs.ruby-lang.org/issues/8835)
 * [Accepted proposal in English](https://gist.github.com/sorah/7803201)
 * [Accepted proposal in Japanese](https://gist.github.com/hsbt/7719305)
 

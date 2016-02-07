@@ -60,8 +60,8 @@ Konstantin Haase(@konstantinhaase)가 멋진 요약을 자신의 블로그 포�
 
 알려진 이슈들:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
 릴리스 일정과 기타 정보들은 다음 링크를 참조해 주십시오:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)

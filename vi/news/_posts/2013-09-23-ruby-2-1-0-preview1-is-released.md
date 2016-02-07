@@ -55,8 +55,8 @@ Các thay đổi chính:
 
 Các vấn đề hiện được biết:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
 Xem thông tin lịch trình phát hành tại:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)

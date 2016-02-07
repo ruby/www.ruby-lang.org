@@ -12,7 +12,7 @@ Per favore provate le nuove feature in Ruby 2.1 prima del rilascio finale previs
 
 ## Modifiche rilevanti dalla preview 2
 
-* rimosse curses. [#8584](http://bugs.ruby-lang.org/issues/8584)
+* rimosse curses. [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 per le altre modifiche vedere [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
@@ -49,7 +49,7 @@ Le modifiche rilevanti sono:
 * "literal".freeze è ora ottimizzato [#9042](https://bugs.ruby-lang.org/issues/9042)
 * aggiunto Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * aggiornate librerie come BigDecimal, JSON, NKF, Rake, RubyGems, e RDoc.
-* rimosse curses. [#8584](http://bugs.ruby-lang.org/issues/8584)
+* rimosse curses. [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 Guarda più dettagli sulle modifiche: [NEWS su repository Ruby (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
@@ -63,8 +63,8 @@ post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
 Problemi noti sono:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
 Vedere inoltre il release schedule e altre informazioni:
 
-[http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
+[https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)

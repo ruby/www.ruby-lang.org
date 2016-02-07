@@ -88,8 +88,8 @@ Avec ces changements, 1 239 fichiers changés, 98 343 ajouts(+), 61 858 supprés
 
 ## Commentaire
 
-* [Tickets ouverts](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [Tickets ouverts](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Consultez également le planning de versions et d'autres informations :
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
