@@ -58,7 +58,7 @@ stesso livello `MINOR`, così che `TEENY` resterà fisso a 0.
 
 Per documentarsi meglio su questa proposta si prega di vedere i seguenti link:
 
-* [Introducing a semantic versioning scheme and branching policy](http://bugs.ruby-lang.org/issues/8835)
+* [Introducing a semantic versioning scheme and branching policy](https://bugs.ruby-lang.org/issues/8835)
 * [Proposta accettata in Inglese](https://gist.github.com/sorah/7803201)
 * [Proposta accettata in Giapponese](https://gist.github.com/hsbt/7719305)
 

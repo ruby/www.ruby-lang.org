@@ -74,8 +74,8 @@ Bu değişiklikler ile, 1239 dosya değiştirildi, 98343 ekleme(+), 61858 silme(
 
 ## Sürüm Yorumu
 
-* [2.2.0 Bilinen sorunlar](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 Bilinen sorunlar](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Ayrıca, sürüm planlaması ve diğer bilgiler için bakınız:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

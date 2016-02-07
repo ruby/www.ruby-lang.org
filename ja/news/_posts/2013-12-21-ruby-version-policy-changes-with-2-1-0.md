@@ -52,7 +52,7 @@ ABI は `{MAJOR}.{MINOR}.0` のスキーマに従うものとします。
 
 この提案についてのより詳しい情報は以下のリンクを参照してください。
 
-* [Introducing a semantic versioning scheme and branching policy](http://bugs.ruby-lang.org/issues/8835)
+* [Introducing a semantic versioning scheme and branching policy](https://bugs.ruby-lang.org/issues/8835)
 * [受理された提案](https://gist.github.com/hsbt/7719305)
 * [受理された提案 (英語訳)](https://gist.github.com/sorah/7803201)
 

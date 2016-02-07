@@ -74,8 +74,8 @@ Z tymi zmianami, 1239 zmienionych plików, 98343 wstawień(+), 61858 usunięć(-
 
 ## Komentarz do wydania
 
-* [2.2.0 znane błędy](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 znane błędy](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Zobacz także harmonogram wydań i inne informacje:
 
-[Wydania 2.2](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[Wydania 2.2](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

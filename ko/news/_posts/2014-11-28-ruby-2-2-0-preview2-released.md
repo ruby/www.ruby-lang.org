@@ -93,8 +93,8 @@ lang: ko
 
 ##  릴리스 코멘트
 
-* [2.2.0 알려진 이슈](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 알려진 이슈](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 릴리스 일정과 다른 정보는 밑의 링크를 참조하세요.
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

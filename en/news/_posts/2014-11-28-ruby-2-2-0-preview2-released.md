@@ -87,8 +87,8 @@ With those changes, 1239 files changed, 98343 insertions(+), 61858 deletions(-).
 
 ## Release Comment
 
-* [2.2.0 Known issues](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 Known issues](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 See also the release schedule and other information:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

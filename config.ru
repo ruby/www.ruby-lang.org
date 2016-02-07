@@ -9,7 +9,7 @@ use Rack::CommonLogger
 use Rack::Rewrite do
 
   # bugreport.html (linked to from Ruby source code)
-  r302 %r{^/bugreport\.html$}, "http://bugs.ruby-lang.org/"
+  r302 %r{^/bugreport\.html$}, "https://bugs.ruby-lang.org/"
 
   # various redirects
   r302 %r{^/(en|ja)/(LICENSE|license).txt$}, "/en/about/license.txt"

@@ -75,7 +75,7 @@ y desearíamos que tomaras ventaja de ello.
 
 [heroku]:        http://heroku.com/
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
-[source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
-[source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
+[source-187]:    https://bugs.ruby-lang.org/projects/ruby-187/repository
+[source-192]:    https://bugs.ruby-lang.org/projects/ruby-192/repository
 [security-es]:   https://www.ruby-lang.org/es/security/
 [sunset-187-es]: https://www.ruby-lang.org/es/news/2013/06/30/we-retire-1-8-7/

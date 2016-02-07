@@ -109,8 +109,8 @@ lang: ru
 
 ## Комментарии к релизу
 
-* [Известные ошибки в 2.2.0](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [Известные ошибки в 2.2.0](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Другая информация и график релизов:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

@@ -54,7 +54,7 @@ ABI는 `{MAJOR}.{MINOR}.0`의 스키마를 사용하도록 합니다.
 
 이 제안에 관한 좀 더 자세한 정보는 밑의 링크를 참고하여 주십시오.
 
-* [Introducing a semantic versioning scheme and branching policy](http://bugs.ruby-lang.org/issues/8835)
+* [Introducing a semantic versioning scheme and branching policy](https://bugs.ruby-lang.org/issues/8835)
 * [Accepted proposal in English](https://gist.github.com/sorah/7803201)
 * [Accepted proposal in Japanese](https://gist.github.com/hsbt/7719305)
 

@@ -87,8 +87,8 @@ Dengan perubahan tersebut, 1239 berkas berubah, 98343 Penambahan(+), 61858 pengh
 
 ## Komentar Rilis
 
-* [Isu 2.2.0 yang diketahui](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [Isu 2.2.0 yang diketahui](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Lihat juga jadwal rilis dan informasi lainnya:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

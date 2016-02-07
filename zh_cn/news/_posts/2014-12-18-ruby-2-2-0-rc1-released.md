@@ -77,8 +77,8 @@ Ruby 2.2.0 针对使用者日益增多的各类需求，进行了许多更新和
 
 ## 发布公告
 
-* [2.2.0 版本已知的问题](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 版本已知的问题](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 同时请参考发布进程表及其他信息：
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

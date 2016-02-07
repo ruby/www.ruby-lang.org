@@ -60,7 +60,7 @@ aufrecht zu erhalten, daher wird `TEENY` auf 0 festgehalten.
 Sie können die folgenden Beiträge lesen, um mehr über diesen Vorschlag
 zu erfahren:
 
-* [Einführung eines semantischen Versionierungsschemas und einer Branching-Richtlinie](http://bugs.ruby-lang.org/issues/8835)
+* [Einführung eines semantischen Versionierungsschemas und einer Branching-Richtlinie](https://bugs.ruby-lang.org/issues/8835)
 * [Akzeptierter Vorschlag auf Englisch](https://gist.github.com/sorah/7803201)
 * [Akzeptierter Vorschlag auf Japanisch](https://gist.github.com/hsbt/7719305)
 

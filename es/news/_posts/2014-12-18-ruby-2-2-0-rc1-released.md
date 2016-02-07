@@ -101,8 +101,8 @@ Con estos cambios, 1548 archivos cambiaron, 123658 inserciones(+), 74306 borrado
 
 ## Comentarios de la entrega
 
-* [Problemas conocidos de 2.2.0](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [Problemas conocidos de 2.2.0](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Para más información de la agenda de entregas:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

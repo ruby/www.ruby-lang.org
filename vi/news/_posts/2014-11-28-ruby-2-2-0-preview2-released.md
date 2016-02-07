@@ -93,8 +93,8 @@ Với những thay đổi, 1239 file đã được thay đổi, 98343 insertions
 
 ## Chú thích
 
-* [2.2.0 Known issues](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 Known issues](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Lịch phát hành các phiên bản tiếp theo và các thông tin khác tại:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

@@ -70,7 +70,7 @@ Dziękujemy za nieustające wsparcie i uczyńmy Rubiego lepszym!
 
 [heroku]:        http://heroku.com/
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
-[source-187]:    http://bugs.ruby-lang.org/projects/ruby-187/repository
-[source-192]:    http://bugs.ruby-lang.org/projects/ruby-192/repository
+[source-187]:    https://bugs.ruby-lang.org/projects/ruby-187/repository
+[source-192]:    https://bugs.ruby-lang.org/projects/ruby-192/repository
 [security-en]:   https://www.ruby-lang.org/en/security/
 [sunset-187-pl]: https://www.ruby-lang.org/pl/news/2013/06/30/we-retire-1-8-7/

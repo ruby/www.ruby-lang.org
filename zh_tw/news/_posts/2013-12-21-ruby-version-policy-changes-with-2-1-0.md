@@ -48,7 +48,7 @@ ABI 會採用下列架構 `{MAJOR}.{MINOR}.0`。
 
 閱讀更多關於此提案的內容，請參考下列連結：
 
-* [語意化版本與分支架構簡介](http://bugs.ruby-lang.org/issues/8835)
+* [語意化版本與分支架構簡介](https://bugs.ruby-lang.org/issues/8835)
 * [採納提案（英文）](https://gist.github.com/sorah/7803201)
 * [採納提案（日文）](https://gist.github.com/hsbt/7719305)
 

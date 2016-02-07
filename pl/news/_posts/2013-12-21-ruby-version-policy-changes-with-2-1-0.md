@@ -53,7 +53,7 @@ wydań `MINOR`, więc `TEENY` zostanie ustalona na 0.
 
 Aby przeczytać więcej na temat tej propozycji zobacz poniższe linki:
 
-* [Wprowadzenie schematu semantycznego wersjonowania i polityki branchy](http://bugs.ruby-lang.org/issues/8835)
+* [Wprowadzenie schematu semantycznego wersjonowania i polityki branchy](https://bugs.ruby-lang.org/issues/8835)
 * [Zaakceptowane propozycje po angielsku](https://gist.github.com/sorah/7803201)
 * [Zaakceptowane propozycje po japońsku](https://gist.github.com/hsbt/7719305)
 

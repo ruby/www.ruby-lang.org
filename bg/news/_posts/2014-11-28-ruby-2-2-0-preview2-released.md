@@ -87,8 +87,8 @@ configure.in да използва jemalloc [Feature #9113](https://bugs.ruby-la
 
 ## Допълнително
 
-* [2.2.0 Известни проблеми](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 Известни проблеми](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 За повече информация:
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)

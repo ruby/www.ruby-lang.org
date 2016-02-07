@@ -75,8 +75,8 @@ Avec ces changements : 1239 fichiers changés, 98343 insertions(+), 61858 suppre
 
 ## Commentaire
 
-* [Problème connus sur 2.2.0](http://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [Problème connus sur 2.2.0](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Consultez également le planning de sortie et d'autres informations :
 
-[ReleaseEngineering22](http://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
