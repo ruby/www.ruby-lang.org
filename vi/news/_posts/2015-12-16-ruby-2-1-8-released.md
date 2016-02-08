@@ -4,7 +4,7 @@ title: "Phát hành Ruby 2.1.8"
 author: "usa"
 translator: "Cẩm Huỳnh"
 date: 2015-12-16 12:00:00 +0000
-lang: en
+lang: vi
 ---
 
 Ruby 2.1.8 đã được phát hành.
