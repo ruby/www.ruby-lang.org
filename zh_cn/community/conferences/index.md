@@ -34,7 +34,7 @@ Ruby 相关的报道，而且我们总是对 Ruby 相关的内容更感兴趣。
 
 [Ruby Central][2] 提供了 [区域性研讨会赞助计划][6]，提供经费给区域性团体组织活动。
 
-自2006年起，Ruby Central 还携手 [SDForum][7] 主办了硅谷 Ruby 研讨会。
+自2006年起，Ruby Central 还携手 [SVForum][7] 主办了硅谷 Ruby 研讨会。
 
 [RubyNation][8] 是美国东岸（Virginia, West Virginia, Maryland, and
 Washington, DC 等地区）的年度 Ruby 大会。
@@ -69,7 +69,7 @@ Ruby 相关的内容都在逐年增加。许多研讨会都以 [Ruby on Rails][1
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.sdforum.org
+[7]: http://www.svforum.org
 [8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/

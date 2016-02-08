@@ -43,7 +43,7 @@ lang: ru
 событий.
 
 
-Ruby Central также сотрудничает с [SDForum][7], чтобы организовать Silicon
+Ruby Central также сотрудничает с [SVForum][7], чтобы организовать Silicon
 Valley Ruby Conference, участвуя в этом со второй такой конференции в 2007
 году.
 
@@ -71,7 +71,7 @@ O’Reilly), и Canada on Rails.
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.sdforum.org
+[7]: http://www.svforum.org
 [8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/

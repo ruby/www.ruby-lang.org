@@ -51,7 +51,7 @@ For Proposals) e registrazioni.
 per contribuire alle spese di gruppi locali e regionali intenzionati a
 organizzare eventi.
 
-Ruby Central si è anche collegata con [SDForum][7] per produrre la
+Ruby Central si è anche collegata con [SVForum][7] per produrre la
 Conferenza Ruby di Silicon Valley, che ha avuto il suo secondo incontro
 annuale nel 2007.
 
@@ -100,7 +100,7 @@ e in 2007 da Ruby Central e O’Reilly), e infine Canada on Rails.
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.sdforum.org
+[7]: http://www.svforum.org
 [8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/

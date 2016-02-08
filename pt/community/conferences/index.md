@@ -51,7 +51,7 @@ A [Ruby Central][2] administra o [Regional Conference Grant Program][6],
 para compensar despesas para grupos regionais e locais que desejem
 organizar eventos.
 
-A Ruby Central juntou-se também com a [SDForum][7] para realizar a
+A Ruby Central juntou-se também com a [SVForum][7] para realizar a
 “Silicon Valley Ruby Conference”, entrando no seu segundo ano em 2007.
 
 A [RubyNation][8] é uma conferência anual de Ruby às áreas da Virginia, West
@@ -95,7 +95,7 @@ O’Reilly) e, para finalizar a Canada on Rails.
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.sdforum.org
+[7]: http://www.svforum.org
 [8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/

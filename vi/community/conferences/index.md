@@ -39,7 +39,7 @@ về tương lai của Ruby và chào đón những thành viên mới đến v�
 [Ruby Central][2] điều hành [chương trình tài trợ cho hội thảo khu vực][6],
 để trợ giúp về chi phí cho các nhóm trong khu vực muốn tổ chức sự kiện.
 
-Ruby Central đã hợp tác với [SDForum][7] để tạo ra thung lũng Silicon dành cho các
+Ruby Central đã hợp tác với [SVForum][7] để tạo ra thung lũng Silicon dành cho các
 hội thảo về Ruby trong khu vực lần thứ 2 trong năm 2007.
 
 [RubyNation][8] là cuộc hội thảo Ruby thường niên dành cho các khu vực Virginia,
@@ -65,7 +65,7 @@ Ruby Central và O’Reilly năm 2007), và Canada on Rails.
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.sdforum.org
+[7]: http://www.svforum.org
 [8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/

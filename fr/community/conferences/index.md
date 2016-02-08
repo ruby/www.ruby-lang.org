@@ -53,7 +53,7 @@ bon moment pour accueillir les nouveaux, également.
 afin de guider sur les plans budgétaire et organisationnel les groupes
 amateurs souhaitant monter des conférences locales ou régionales.
 
-Ruby Central s’est également rapproché de [SDForum][7] pour monter la
+Ruby Central s’est également rapproché de [SVForum][7] pour monter la
 *Silicon Valley Ruby Conference*, dont le deuxième opus se tient en
 2007.
 
@@ -75,7 +75,7 @@ O’Reilly) et enfin *Canada on Rails*.
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.sdforum.org
+[7]: http://www.svforum.org
 [8]: http://conferences.oreillynet.com/os2006/
 [9]: http://www.rubyonrails.org
 [10]: http://www.railsconf.org

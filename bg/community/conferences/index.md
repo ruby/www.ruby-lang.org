@@ -46,7 +46,7 @@ Ruby програмистите по света все по-често орга�
 като поемат разходите за локални и регионални групи, желаещи да
 организират събирания.
 
-Ruby Central също така работи с [SDForum][7] в усилията си за Silicon
+Ruby Central също така работи с [SVForum][7] в усилията си за Silicon
 Valley Ruby Conference.
 
 [RubyNation][8] е ежегодна Ruby конференция, която се провежда във
@@ -69,7 +69,7 @@ Central и [Skills Matter][14], и през 2007 г. с помощта на Ruby
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.sdforum.org
+[7]: http://www.svforum.org
 [8]: http://rubynation.org/
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

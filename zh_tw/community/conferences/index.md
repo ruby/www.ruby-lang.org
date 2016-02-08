@@ -38,7 +38,7 @@ lang: zh_tw
 
 [Ruby Central][2] 提供了 [地區性研討會贊助計畫][11] ，提供一些經費給地區性團體來組織活動。
 
-自 2007 年起，Ruby Central 也與 [SDForum][12] 合作主辦矽谷的 Ruby 研討會。
+自 2007 年起，Ruby Central 也與 [SVForum][12] 合作主辦矽谷的 Ruby 研討會。
 
 [RubyNation][13] 則是美國東岸(Virginia, West Virginia, Maryland, and
 Washington, DC 等地區)的 Ruby 年度大會。
@@ -62,7 +62,7 @@ Ruby 演講，並逐年增加中。也有許多研討會以 [Ruby on Rails][15] 
 [9]: http://rubyconfchina.org
 [10]: http://groups.google.com/group/shanghaionrails
 [11]: http://rubycentral.org/community/grant
-[12]: http://www.sdforum.org
+[12]: http://www.svforum.org
 [13]: http://rubynation.org/
 [14]: http://conferences.oreillynet.com/os2006/
 [15]: http://www.rubyonrails.org

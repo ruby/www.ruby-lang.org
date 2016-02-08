@@ -53,7 +53,7 @@ bergabung dengan milis tersebut untuk mengetahui perkembangan terbaru.
 untuk membantu kelompok lokal dan regional yang hendak mengadakan
 *event* tentang Ruby.
 
-Ruby Central juga berkolaborasi dengan [SDForum][9] untuk mengadakan
+Ruby Central juga berkolaborasi dengan [SVForum][9] untuk mengadakan
 Silicon Valley Ruby Conference, yang sudah memasuki tahun kedua
 penyelenggaraannya di tahun 2007.
 
@@ -77,7 +77,7 @@ on Rails.
 [6]: http://rubykaigi.org/
 [7]: http://euruko.org
 [8]: http://rubycentral.org/community/grant
-[9]: http://www.sdforum.org
+[9]: http://www.svforum.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
 [12]: http://www.railsconf.org
