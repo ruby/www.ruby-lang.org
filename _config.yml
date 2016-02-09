@@ -1850,7 +1850,7 @@ locales:
       ou contactez le <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       pour toute question ou tout commentaire.
     id: |
-      <a href="id/about/website"/">Situs ini</a>
+      <a href="/id/about/website"/">Situs ini</a>
       dengan bangga dirawat oleh anggota komunitas Ruby.
     it: |
       <a href="/it/about/website/">Questo sito web</a>
