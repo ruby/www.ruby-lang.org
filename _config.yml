@@ -84,14 +84,14 @@ downloads:
 
 svn:
   stable:
+    version: 2.3
+    branch:  ruby_2_3
+  previous:
     version: 2.2
     branch:  ruby_2_2
-  previous:
+  old:
     version: 2.1
     branch:  ruby_2_1
-  old:
-    version: 2.0.0
-    branch:  ruby_2_0_0
 
 locales:
   sitelinks:
