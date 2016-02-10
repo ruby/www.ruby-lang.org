@@ -47,7 +47,7 @@ one of the third party tools mentioned above. They may help you.
   sha256: {{ site.downloads.old.sha256.gz }}
 
 {% if site.downloads.tooold %}
-* **Too old stable (will EOL soon!):**
+* **In security maintenance phase (will EOL soon!):**
   [Ruby {{site.downloads.tooold.version}}][tooold-gz]<br>
   sha256: {{ site.downloads.tooold.sha256.gz }}
 {% endif %}
