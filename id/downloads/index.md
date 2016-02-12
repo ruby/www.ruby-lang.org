@@ -4,6 +4,8 @@ title: "Unduh Ruby"
 lang: id
 ---
 
+{% include out-of-date.html %}
+
 Di sini Anda bisa mendapatkan distribusi Ruby terbaru. Versi stabil saat
 ini adalah {{ site.downloads.stable.version }}. Ruby disediakan secara gratis,
 namun pastikan Anda membaca [Lisensi Ruby][license] terlebih dahulu sebelum

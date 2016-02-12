@@ -4,6 +4,8 @@ title: "Ruby İndirin"
 lang: tr
 ---
 
+{% include out-of-date.html %}
+
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
 En son kararlı sürüm {{ site.downloads.stable.version }},
 lütfen önce [Ruby lisansını][license] okuyun.
