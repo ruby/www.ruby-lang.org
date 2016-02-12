@@ -5,7 +5,7 @@ lang: ru
 ---
 
 Здесь вы найдете последние дистрибутивы Ruby на любой вкус. Текущая
-стабильная версия {{ site.downloads.stable.version }}. Пожалуйста ознакомьтесь
+стабильная версия {{ site.downloads.stable[0].version }}. Пожалуйста ознакомьтесь
 с [лицензией Ruby][license].
 {: .summary}
 
@@ -41,23 +41,23 @@ lang: ru
 сторонних инструментов из следующей секции. Они могут помочь вам.
 
 * **Текущая стабильная:**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha256: {{ site.downloads.stable.sha256.gz }}
+  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.downloads.stable[0].sha256.gz }}
 
 * **Предыдущая стабильная:**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha256: {{ site.downloads.previous.sha256.gz }}
+  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.downloads.stable[1].sha256.gz }}
 
 * **Старая стабильная:**
-  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
-  sha256: {{ site.downloads.old.sha256.gz }}
+  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.downloads.stable[2].sha256.gz }}
 
- * **Слепки:**
-   * [Стабильный слепок][stable-snapshot-gz]:
-     Это архив свежайшего стабильного слепка текущей стабильной ветки.
-   * [Nightly слепок][nightly-gz]:
-     Это архив того что в SVN на данный момент.
-     Может содержать баги и другие проблемы. Используйте на собственный риск.
+* **Слепки:**
+  * [Стабильный слепок]({{ site.downloads.stable_snapshot.url.gz }}):
+    Это архив свежайшего стабильного слепка текущей стабильной ветки.
+  * [Nightly слепок]({{ site.downloads.nightly_snapshot.url.gz }}):
+    Это архив того что в SVN на данный момент.
+    Может содержать баги и другие проблемы. Используйте на собственный риск.
 
 За информацией о Ruby Subversion и Git репозиториях пожалуйста,
 посмотрите страницу о [ядре Ruby](/ru/community/ruby-core/).
@@ -238,11 +238,6 @@ Ruby как язык имеет несколько разных имплемен
 
 
 [license]: {{ site.license.url }}
-[stable-gz]: {{ site.downloads.stable.url.gz }}
-[previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.old.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/
 [5]: https://github.com/vertiginous/pik
 [7]: https://rvm.io/rvm/install/

@@ -5,7 +5,7 @@ lang: fr
 ---
 
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
-version stable actuelle est la {{ site.downloads.stable.version }}.
+version stable actuelle est la {{ site.downloads.stable[0].version }}.
 N’oubliez pas de consulter la [licence Ruby][license].
 {: .summary}
 
@@ -39,22 +39,22 @@ envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
 * **Dernière version stable :**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha256: {{ site.downloads.stable.sha256.gz }}
+  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.downloads.stable[0].sha256.gz }}
 
 * **Version stable précédente :**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha256: {{ site.downloads.previous.sha256.gz }}
+  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.downloads.stable[1].sha256.gz }}
 
 * **Anciennes versions stables:**
-  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
-  sha256: {{ site.downloads.old.sha256.gz }}
+  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.downloads.stable[2].sha256.gz }}
 
 * **Snapshots :**
-  * [Stable Snapshot][stable-snapshot-gz]:
+  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
     Archive de la dernière version publiée à partir de la branche stable courante.
-  * [Nightly Snapshot][nightly-gz] Archive construite chaque nuit à partir du code le plus
-    récent présent sur SVN.
+  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+    Archive construite chaque nuit à partir du code le plus récent présent sur SVN.
     Comporte probablement des bugs ou d'autres problèmes, utilisez-la en connaissance de cause !
 
 Pour plus d’information sur le dépôt Subversion de Ruby, voyez la page
@@ -67,9 +67,4 @@ Utilisez s'il-vous-plaît un miroir proche de vous.
 
 [license]: {{ site.license.url }}
 [installation]: /fr/documentation/installation/
-[stable-gz]: {{ site.downloads.stable.url.gz }}
-[previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.old.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

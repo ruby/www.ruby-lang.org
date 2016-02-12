@@ -5,7 +5,7 @@ lang: zh_tw
 ---
 
 您可以在這裡下載適合最新的 Ruby 發行版。目前最新的穩定版本是
-{{ site.downloads.stable.version }}。另外，請先閱讀 [Ruby 版權說明][license]。
+{{ site.downloads.stable[0].version }}。另外，請先閱讀 [Ruby 版權說明][license]。
 {: .summary}
 
 ### 安裝 Ruby 的方法
@@ -27,21 +27,21 @@ lang: zh_tw
 進一步關於從原始碼編譯 Ruby 的資訊，請參考[安裝][installation]頁面。若編譯 Ruby 時遇到任何問題，請參考安裝頁面羅列的第三方工具，可能會有幫助。
 
 * **當前穩定版：**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha256: {{ site.downloads.stable.sha256.gz }}
+  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.downloads.stable[0].sha256.gz }}
 
 * **穩定上一版：**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha256: {{ site.downloads.previous.sha256.gz }}
+  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.downloads.stable[1].sha256.gz }}
 
 * **舊穩定版：**
-  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
-  sha256: {{ site.downloads.old.sha256.gz }}
+  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.downloads.stable[2].sha256.gz }}
 
 * **快照：**
-  * [Stable Snapshot][stable-snapshot-gz]:
+  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
     當前穩定版 tarball 的最新快照
-  * [Nightly Snapshot][nightly-gz]:
+  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
     這是 SVN 上的 tarball，每晚更新。
     可能有問題或 bug，謹慎使用！
 
@@ -53,9 +53,4 @@ Ruby 原始碼可從世界各地的[鏡像站][mirrors]獲得。請嘗試離您�
 
 [license]: {{ site.license.url }}
 [installation]: /zh_tw/documentation/installation/
-[stable-gz]: {{ site.downloads.stable.url.gz }}
-[previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.old.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

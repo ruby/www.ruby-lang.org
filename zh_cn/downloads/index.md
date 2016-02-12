@@ -5,7 +5,7 @@ lang: zh_cn
 ---
 
 您可以在这里下载最新的 Ruby 发行版。目前最新的稳定版本是
-{{ site.downloads.stable.version }}。另外，请先阅读 [Ruby 版权说明][license]。
+{{ site.downloads.stable[0].version }}。另外，请先阅读 [Ruby 版权说明][license]。
 {: .summary}
 
 ### 安装 Ruby 的方法
@@ -27,20 +27,20 @@ lang: zh_cn
 从源代码编译 Ruby 的详细说明，参见[安装页面][installation]。若编译 Ruby 时遇到问题，请参考安装页面罗列的第三方工具，可能会有帮助。
 
 * **当前稳定版：**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha256: {{ site.downloads.stable.sha256.gz }}
+  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.downloads.stable[0].sha256.gz }}
 
 * **前一个稳定版：**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha256: {{ site.downloads.previous.sha256.gz }}
+  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.downloads.stable[1].sha256.gz }}
 
 * **旧的稳定版：**
-  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
-  sha256: {{ site.downloads.old.sha256.gz }}
+  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.downloads.stable[2].sha256.gz }}
 
 * **快照：**
-  * [稳定版快照][stable-snapshot-gz]：当前稳定版 tarball 的最新快照
-  * [每日构建版快照][nightly-gz]：这是 SVN 上的 tarball，每晚构建。可能有问题或 bug，谨慎使用！
+  * [稳定版快照]({{ site.downloads.stable_snapshot.url.gz }})：当前稳定版 tarball 的最新快照
+  * [每日构建版快照]({{ site.downloads.nightly_snapshot.url.gz }})：这是 SVN 上的 tarball，每晚构建。可能有问题或 bug，谨慎使用！
 
 关于 Ruby Subversion 和 Git 仓库的信息，参见 [Ruby Core](/zh_cn/community/ruby-core/) 页面。
 
@@ -50,9 +50,4 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 
 [license]: {{ site.license.url }}
 [installation]: /zh_cn/documentation/installation/
-[stable-gz]: {{ site.downloads.stable.url.gz }}
-[previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.old.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

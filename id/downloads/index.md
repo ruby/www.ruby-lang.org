@@ -7,7 +7,7 @@ lang: id
 {% include out-of-date.html %}
 
 Di sini Anda bisa mendapatkan distribusi Ruby terbaru. Versi stabil saat
-ini adalah {{ site.downloads.stable.version }}. Ruby disediakan secara gratis,
+ini adalah {{ site.downloads.stable[0].version }}. Ruby disediakan secara gratis,
 namun pastikan Anda membaca [Lisensi Ruby][license] terlebih dahulu sebelum
 menggunakannya.
 {: .summary}
@@ -151,11 +151,12 @@ Anda berpengalaman dengan sistem operasi Anda atau membutuhkan
 konfigurasi yang spesifik. Apabila tidak ada paket distribusi siap pakai
 untuk sistem operasi Anda, alternatif ini juga solusi yang baik.
 
-* [Ruby {{ site.downloads.stable.version }}][stable-gz]
-  (sha256:&nbsp;{{ site.downloads.stable.sha256.gz }}) Stable (*dianjurkan*)
+* [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})
+  (sha256:&nbsp;{{ site.downloads.stable[0].sha256.gz }}) Stable (*dianjurkan*)
 * [Ruby 1.9.3 preview1][22] (md5:&nbsp;0f0220be4cc7c51a82c1bd8f6a0969f3)
-* [Stable Snapshot][stable-snapshot-gz]
-* [Nightly Snapshot][nightly-gz] Ini adalah versi paling mutakhir langsung dari
+* [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }})
+* [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }})
+  Ini adalah versi paling mutakhir langsung dari
   Subversion *repository* dalam format tar+gzip. Versi ini mungkin
   memiliki bug yang belum diperbaiki.
 
@@ -165,9 +166,6 @@ Ruby, silakan kunjungi halaman [Ruby Core](/id/community/ruby-core/).
 
 
 [license]: {{ site.license.url }}
-[stable-gz]:   {{ site.downloads.stable.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [2]: http://www.linuxmint.com/
 [3]: http://www.ubuntu.com
 [4]: http://www.debian.org

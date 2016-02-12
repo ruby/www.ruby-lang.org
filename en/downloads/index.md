@@ -5,7 +5,7 @@ lang: en
 ---
 
 Here you can get the latest Ruby distributions in your favorite flavor.
-The current stable version is {{ site.downloads.stable.version }}.
+The current stable version is {{ site.downloads.stable[0].version }}.
 Please be sure to read [Ruby’s License][license].
 {: .summary}
 
@@ -35,27 +35,27 @@ Ruby from source. If you have an issue compiling Ruby, consider using
 one of the third party tools mentioned above. They may help you.
 
 * **Current stable:**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha256: {{ site.downloads.stable.sha256.gz }}
+  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.downloads.stable[0].sha256.gz }}
 
 * **Previous stable:**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha256: {{ site.downloads.previous.sha256.gz }}
+  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.downloads.stable[1].sha256.gz }}
 
 * **Old stable:**
-  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
-  sha256: {{ site.downloads.old.sha256.gz }}
+  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.downloads.stable[2].sha256.gz }}
 
-{% if site.downloads.tooold %}
+{% if site.downloads.security_maintenance %}
 * **In security maintenance phase (will EOL soon!):**
-  [Ruby {{site.downloads.tooold.version}}][tooold-gz]<br>
-  sha256: {{ site.downloads.tooold.sha256.gz }}
+  [Ruby {{ site.downloads.security_maintenance[0].version }}]({{ site.downloads.security_maintenance[0].url.gz }})<br>
+  sha256: {{ site.downloads.security_maintenance[0].sha256.gz }}
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot][stable-snapshot-gz]:
+  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
     This is a tarball of the latest snapshot of the current stable branch.
-  * [Nightly Snapshot][nightly-gz]:
+  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
     This is a tarball of whatever is in SVN, made nightly.
     This may contain bugs or other issues, use at your own risk!
 
@@ -70,10 +70,4 @@ Please try to use a mirror that is near you.
 
 [license]: {{ site.license.url }}
 [installation]: /en/documentation/installation/
-[stable-gz]: {{ site.downloads.stable.url.gz }}
-[previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.old.url.gz }}
-[tooold-gz]: {{ site.downloads.tooold.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

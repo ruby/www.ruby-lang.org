@@ -6,7 +6,7 @@ lang: vi
 
 Bạn có thể lấy về bản phân phối Ruby mới nhất cho hầu hết các nền tảng
 tại đây.
-Bản ổn định mới nhất là {{ site.downloads.stable.version }}.
+Bản ổn định mới nhất là {{ site.downloads.stable[0].version }}.
 Xin tham khảo [giấy phép][license] trước khi dùng.
 {: .summary}
 
@@ -35,21 +35,21 @@ Ruby từ nguồn. Nếu bạn gặp vấn đề biên dịch Ruby, xin hãy xem
 dụng một trong những công cụ của bên thứ ba đã được đề cập ở trên.
 
 * **Bản ổn định hiện hành:**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha256: {{ site.downloads.stable.sha256.gz }}
+  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.downloads.stable[0].sha256.gz }}
 
 * **Bản ổn định trước đó:**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha256: {{ site.downloads.previous.sha256.gz }}
+  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.downloads.stable[1].sha256.gz }}
 
 * **Bản ổn định c:**
-  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
-  sha256: {{ site.downloads.old.sha256.gz }}
+  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.downloads.stable[2].sha256.gz }}
 
 * **Snapshots:**
-  * [Stable Snapshot][stable-snapshot-gz]:
+  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
     Đây là một tarball của snapshot mới nhất của nhánh ổn định hiện hành.
-  * [Nightly Snapshot][nightly-gz]:
+  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
     Đây là một tarball của mã mới nhất hiện hữu trong SVN. Gói này được tạo
     ra mỗi đêm. Xin lưu ý gói có thể kèm theo lỗi và một số vấn đề khác.
 
@@ -63,9 +63,4 @@ Xin hãy sử dụng mirror gần bạn nhất.
 
 [license]: {{ site.license.url }}
 [installation]: /vi/documentation/installation/
-[stable-gz]: {{ site.downloads.stable.url.gz }}
-[previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.old.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/

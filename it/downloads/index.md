@@ -6,7 +6,7 @@ lang: it
 
 Tramite questa pagina è possibile scaricare le distribuzioni di Ruby più
 recenti nel tuo formato preferito. La versione stabile corrente è la
-{{ site.downloads.stable.version }}. Assicurati di aver letto
+{{ site.downloads.stable[0].version }}. Assicurati di aver letto
 la [Licenza di Ruby][license].
 {: .summary}
 
@@ -41,21 +41,21 @@ degli strumenti di terze parti presenti nella sezione successiva. Potrebbero
 esserti di aiuto.
 
 * **Stabile Corrente:**
-  [Ruby {{ site.downloads.stable.version }}][stable-gz]<br>
-  sha256: {{ site.downloads.stable.sha256.gz }}
+  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.downloads.stable[0].sha256.gz }}
 
 * **Stabile Precedente:**
-  [Ruby {{ site.downloads.previous.version }}][previous-gz]<br>
-  sha256: {{ site.downloads.previous.sha256.gz }}
+  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.downloads.stable[1].sha256.gz }}
 
 * **Stabile Vecchia:**
-  [Ruby {{ site.downloads.old.version }}][old-gz]<br>
-  sha256: {{ site.downloads.old.sha256.gz }}
+  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.downloads.stable[2].sha256.gz }}
 
 * **Snapshots:**
-  * [Stable Snapshot][stable-snapshot-gz]:
+  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
     Questo è il tarball dell'ultimo snapshot del branch stabile corrente.
-  * [Nightly Snapshot][nightly-gz]:
+  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
     Questo è il tarball di ciò che c’è in SVN, generato giornalmente.
     Potrebbe contenere bug o avere altri problemi, usalo a tuo rischio e
     pericolo!
@@ -71,9 +71,4 @@ Cerca di utilizzare il sito mirror più vicino a te.
 
 [license]: {{ site.license.url }}
 [installation]: /it/documentation/installation/
-[stable-gz]: {{ site.downloads.stable.url.gz }}
-[previous-gz]: {{ site.downloads.previous.url.gz }}
-[old-gz]: {{ site.downloads.old.url.gz }}
-[stable-snapshot-gz]: {{ site.downloads.stable_snapshot.url.gz }}
-[nightly-gz]: {{ site.downloads.nightly_snapshot.url.gz }}
 [mirrors]: /en/downloads/mirrors/
