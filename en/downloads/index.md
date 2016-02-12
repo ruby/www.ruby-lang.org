@@ -34,22 +34,14 @@ See the [Installation][installation] page for details on building
 Ruby from source. If you have an issue compiling Ruby, consider using
 one of the third party tools mentioned above. They may help you.
 
-* **Current stable:**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
-
-* **Previous stable:**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
-
-* **Old stable:**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+* **Stable releases:**{% for release in site.downloads.stable %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.downloads.security_maintenance %}
-* **In security maintenance phase (will EOL soon!):**
-  [Ruby {{ site.downloads.security_maintenance[0].version }}]({{ site.downloads.security_maintenance[0].url.gz }})<br>
-  sha256: {{ site.downloads.security_maintenance[0].sha256.gz }}
+* **In security maintenance phase (will EOL soon!):**{% for release in site.downloads.security_maintenance %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
