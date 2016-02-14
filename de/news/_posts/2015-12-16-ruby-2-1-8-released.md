@@ -55,4 +55,4 @@ Dank an alle, die mit dieser Veröffentlichung geholfen haben.
 
 Die Unterstützung von Ruby 2.1, diese Veröffentlichung eingeschlossen,
 basiert auf der „Vereinbarung über die stabile Version von Ruby“
-[der Ruby Assocation](http://www.ruby.or.jp/).
+[der Ruby Association](http://www.ruby.or.jp/).

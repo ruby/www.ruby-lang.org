@@ -51,6 +51,6 @@ für weitere Informationen.
 
 ## Veröffentlichungskommentar
 
-Viele Commiters, Entwickler und Nutzer, die Fehler gemeldet haben,
+Viele Committer, Entwickler und Nutzer, die Fehler gemeldet haben,
 haben uns bei der Erstellung dieser Veröffentlichung geholfen.
 Vielen Dank für ihre Mitarbeit.

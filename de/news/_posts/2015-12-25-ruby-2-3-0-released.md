@@ -25,13 +25,12 @@ Kommandozeilenoption `--debug=frozen-string-literal` herauszufinden,
 wo das Objekt erstellt wird, welches den Fehler `"can't modify frozen
 String"` auslöst.
 
-Der [Safe Navigation
-Operator](https://bugs.ruby-lang.org/issues/11537)
+Der [Safe Navigation Operator](https://bugs.ruby-lang.org/issues/11537)
 ([auch bekannt als Einsamkeitsoperator](https://instagram.com/p/-M9l6mRPLR/))
 `&.`, wie er auch aus C#, Groovy und Swift bekannt ist, wird mit dem
 Ziel eingeführt, die Behandlung von `nil` als `obj&.foo` zu
 erleichtern. Daneben wurden `Array#dig` und `Hash#dig`
-eingeführt. Dies verhält sich wie [ActiveSupports try!](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
+eingeführt. Dies verhält sich wie [try! bei Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
 welches speziell auf die Behandlung von nil zugeschnitten ist.
 
 Das [`did_you_mean`-Gem wird mitgeliefert](https://bugs.ruby-lang.org/issues/11252).
@@ -43,14 +42,15 @@ Experimentell eingeführt werden
 Diese beiden Features ermöglichen die Einrichtung eines auf ISeq (Bytecode)
 basierenden Vorkompilationssystems.
 
-Daneben enthält Ruby 2.3 zahlreiche die Performanzoptimierung
-betreffende Verbesserungen, darunter [die Neuausrichtung der
-Datenstruktur für Methodeneinträge](https://bugs.ruby-lang.org/issues/11278),
+Daneben enthält Ruby 2.3 zahlreiche die Performanz betreffende Verbesserungen,
+darunter
+[die Neuausrichtung der Datenstruktur für Methodeneinträge](https://bugs.ruby-lang.org/issues/11278),
 [die Einführung einer neuen tabellarischen Datenstruktur](https://bugs.ruby-lang.org/issues/11420),
-ein optimiertes [Proc#call](https://bugs.ruby-lang.org/issues/11569),
+ein [optimiertes Proc#call](https://bugs.ruby-lang.org/issues/11569),
 Feinjustierung auf Maschinencode-Ebene im Bezug auf Objektallozierung
-und Methodenaufrufscode, eine [intelligentere Datenstruktur für Instanzvariablen](https://bugs.ruby-lang.org/issues/11170),
-[ein neues Schlüsselwort „exception:“ für Socket und I/O für nicht-blockende high-performance I/O](https://bugs.ruby-lang.org/issues/11229)
+und Methodenaufrufscode,
+eine [intelligentere Datenstruktur für Instanzvariablen](https://bugs.ruby-lang.org/issues/11170),
+[Unterstützung des Keyword-Arguments „exception: false“ für Socket#*_nonblock-Methoden](https://bugs.ruby-lang.org/issues/11229)
 und so weiter. Werfen Sie einen Blick auf den Abschnitt
 „Implementation improvements“ in der NEWS-Datei.
 
