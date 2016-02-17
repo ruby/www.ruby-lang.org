@@ -1,36 +1,35 @@
 ---
 layout: page
-title: "社区 - Ruby 官方网站"
+title: "社区"
 lang: zh_cn
 ---
 
-编程语言社区成长的好坏是衡量出这个编程语言发展的状况很重要的一个方面。Ruby
-就拥有一个充满活力、不断壮大的社区，并且这个社区友好的对待每前来访问的个人，不管是初学者还是专家。
+编程语言社区成长的好坏是衡量一门语言发展状况的重要指标。Ruby 拥有一个充满活力、不断壮大的社区，这个社区对待各种技术水平的人都很友善。
+{: .summary}
 
-如果你想对参与其中很感兴趣，你可以先从这几个地方入手：
+如果你想参与其中，可以先从这几个地方入手：
 
-[Ruby China 社区论坛][1]
-: Ruby 的中文论坛，目前国内最权威的 Ruby 社区，拥有国内所有资深的 Ruby 工程师。
+[Ruby China 社区][ruby-china]
+: 中国 Ruby 社区，由众多爱好者共同维护，致力于构建完善的 Ruby 中文社区。
 
 [Ruby 用户组](user-groups/)
-: 你的本地用户组是一个能让你在网络上与其他 Ruby 程序员进行交流的地方。Ruby
-  用户组是自主管理的，通常设置有月度集会、邮件列表、Web站点，并且如果你幸运的话，还会时不时的举办代码节(codefest)。
+: 本地用户组是与其他 Ruby 程序员交流的好地方。Ruby
+  用户组是自发组织的，通常有月度聚会、邮件列表和网站。如果幸运的话，时不时还有代码节。
 
 [Ruby 邮件列表和新闻组](mailing-lists/)
-: Ruby 拥有一个由不同话题不同语言组成的列表目录。如果你有关于 Ruby 的问题，在邮件列表上进行提问是一个获得答案的好方法。
+: Ruby 有各种各样的邮件列表，使用不同的语言讨论各种话题。如果你有 Ruby 相关的问题，在邮件列表中提问往往能得到解答。
 
-[Ruby 在 IRC 上(#ruby)](irc://irc.freenode.net/ruby)
-: 在 Ruby 语言 IRC 频道上，你可以与其他 Ruby 同道者进行畅谈。
-
+[IRC 中的 Ruby 频道（#ruby）](irc://irc.freenode.net/ruby)
+: 在 IRC 中的 Ruby 频道中，你可以与其他 Ruby 同道者畅谈。
+ 
 [Ruby 核心](ruby-core/)
-: 随着Ruby 2.0在向我们逐渐走来，现在是一个追随 Ruby 发展的绝好时机。如果你对帮助 Ruby 的发展有兴趣，请从这里开始。
+: 现在是追踪 Ruby 开发的绝好时机。如果你想帮助开发 Ruby，请从这里开始。
 
-[关于 Ruby 的网络日志](weblogs/ "Weblog")
-: 在 Ruby 社区中，没有什么事情不会在 Blog 上被谈起。在这里我们有一份细致的建议表等着你去插入新条目。
+[关于 Ruby 的网络日志](weblogs/)
+: Ruby 社区中发生的一切都有博客讨论。这个页面列出了一些推荐的博客，供你先期阅读。
 
 [Ruby 会议](conferences/)
-: 遍及世界的 Ruby 程序员正在参与越来越多的会议，在会议上他们一起分享工作成果，讨论 Ruby 的未来并且欢迎新成员加入到 Ruby
-  社区。
+: 遍及世界的 Ruby 程序员正在参与越来越多的会议，在会议上他们一起分享工作成果，讨论 Ruby 的未来，欢迎新成员加入到 Ruby 社区。
 
 Ruby 的一般信息
 : * [Ruby Central][3]
@@ -39,7 +38,7 @@ Ruby 的一般信息
 
 
 
-[1]: http://ruby-china.org
 [3]: http://rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[ruby-china]: http://ruby-china.org
