@@ -4,8 +4,9 @@ title: "The Ruby Community Code of Conduct"
 lang: en
 ---
 
-We have picked the following code of conduct based on an early draft of the
-PostgreSQL CoC, for Ruby developer's community for safe, productive collaboration.
+We have picked the following code of conduct based on an early proposed draft
+of a CoC for PostgreSQL, for Ruby developer's community for safe,
+productive collaboration.
 Each Ruby related community (conference etc.) may pick their own CoC.
 {: .summary}
 
