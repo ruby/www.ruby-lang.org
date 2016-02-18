@@ -53,6 +53,6 @@ für Details.
 
 ## Veröffentlichungskommentar
 
-Viele Commiters, Entwickler und Nutzer, die uns Fehlermeldungen
-sanddten, halfen uns dabei, diese Veröffentlichung durchzuführen.
+Viele Committer, Entwickler und Nutzer, die uns Fehlermeldungen
+sandten, halfen uns dabei, diese Veröffentlichung durchzuführen.
 Wir danken ihnen für ihre Mitarbeit.
