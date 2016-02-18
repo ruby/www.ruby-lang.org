@@ -4,14 +4,14 @@ layout: null
 
 {% highlight ruby %}
 # Salida "Yo amo Ruby"
-expresar = "Yo amo Ruby"
-puts expresar
+expresion = "Yo amo Ruby"
+puts expresion
 
 # Salida "YO *AMO* RUBY"
-expresar['amo'] = "*amo*"
-puts expresar.upcase
+expresion['amo'] = "*amo*"
+puts expresion.upcase
 
 # Salida "Yo *amo* Ruby
 # cinco veces
-5.times { puts expresar }
+5.times { puts expresion }
 {% endhighlight %}
