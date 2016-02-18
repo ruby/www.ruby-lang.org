@@ -5,17 +5,17 @@ layout: null
 {% highlight ruby %}
 # Ruby sabe lo que tu
 # quieres, aun si quieres
-# hacer matematicas
+# hacer matemáticas
 # en un Arreglo completo
-cities  = %w[ London
+ciudades = %w[ London
               Oslo
               Paris
               Amsterdam
               Berlin ]
-visited = %w[Berlin Oslo]
+visitado = %w[Berlin Oslo]
 
 puts "Aun necesito " +
      "visitar las " +
      "siguientes ciudades:",
-     cities - visited
+     ciudades - visitado
 {% endhighlight %}

@@ -7,11 +7,11 @@ layout: null
 # Hola Mundo es trivial
 # en Ruby. Superfluo:
 #
-# * Un metodo "main"
+# * Un método "main"
 # * Nueva linea
-# * Semicolons
+# * Punto y coma
 #
-# Aqui esta el codigo:
+# Aqui esta el código:
 
-puts "Hola Mundo!"
+puts "¡Hola Mundo!"
 {% endhighlight %}
