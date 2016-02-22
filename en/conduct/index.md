@@ -3,8 +3,9 @@ layout: page
 title: "The Ruby Community Conduct Guideline"
 lang: en
 ---
-We have picked the following conduct guideline based on an early draft of the
-PostgreSQL CoC, for Ruby developers community for safe, productive collaboration.
+We have picked the following conduct guideline based on an early proposed draft
+of the PostgreSQL CoC, for Ruby developers community for safe, productive
+collaboration.
 Each Ruby related community (conference etc.) may pick their own Code of Conduct.
 {: .summary}
 
