@@ -20,7 +20,7 @@ Please contact us via the ruby-core ML if you'd like to continue maintaining the
 
 ## About Ruby 2.1
 
-We are planning to release Ruby 2.1.9 until the end of March.
+We are planning to release Ruby 2.1.9 by the end of March.
 After the release, we will end the normal maintenance phase of 2.1, and start the security maintenance phase of it.
 This means that after the release of 2.1.9 we will never backport any bug fixes to 2.1 except security fixes.
 
