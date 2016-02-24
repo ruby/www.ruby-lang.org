@@ -16,7 +16,7 @@ Bug and security fixes from more recent Ruby versions will no longer be backport
 
 We highly recommend that you upgrade to Ruby 2.3 or 2.2 as soon as possible.
 
-Please contact us via the ruby-core ML if you'd like to continue maintaining the 2.0.0 branch for some justifiable reason you can't upgrade.
+Please contact us via the ruby-core ML if you'd like to continue maintaining the 2.0.0 branch as for some justifiable reason you can't upgrade.
 
 ## About Ruby 2.1
 
@@ -24,7 +24,7 @@ We are planning to release Ruby 2.1.9 until the end of March.
 After the release, we will end the normal maintenance phase of 2.1, and start the security maintenance phase of it.
 This means that after the release of 2.1.9 we will never backport any bug fixes to 2.1 except security fixes.
 
-We recommend that you start planning to upgrate to Ruby 2.3 or 2.2.
+We recommend that you start planning to upgrade to Ruby 2.3 or 2.2.
 
 By the way, we are also planning to release Ruby 2.1.10 just after releasing 2.1.9.
 This is not a bug fix release nor a security fix release.
