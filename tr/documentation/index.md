@@ -88,11 +88,6 @@ referanslar ve diğer belgeleri bulacaksınız.
 : Yine RDoc ile üretilmiş bu referans belgesi, standart kütüphaneyi
   kapsayacak niteliktedir.
 
-[Ruby C API Referansı][18]
-: Ruby’nin temelinde yatan C kodu hakkında bir belgeleme çalışması. Eğer
-  C kodları yazmak ve Ruby’nin geliştirilmesine katkıda bulunmak
-  isterseniz, bu belge size yardımcı olabilir.
-
 [RubyDoc.info][19]
 : Ruby gem’leri için dökümanlar ve GitHub Ruby projeleri için tek kaynak
   site.
@@ -131,7 +126,6 @@ listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
 [15]: http://www.ruby-doc.org/core
 [16]: http://docs.seattlerb.org/rdoc/
 [17]: http://www.ruby-doc.org/stdlib
-[18]: http://www.ruby-doc.org/doxygen/current/
 [19]: http://www.rubydoc.info/
 [20]: http://rubydocs.org/
 [21]: http://www.rubydox.net/
