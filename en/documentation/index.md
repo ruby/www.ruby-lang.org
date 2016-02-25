@@ -100,6 +100,11 @@ of getting Ruby.
 : Also pulled from the source code using RDoc, this reference work
   documents the standard library.
 
+[Ruby C API Reference][extensions]
+: The official introduction to Ruby's C API.
+  Great if you want to write C extensions
+  or contribute to Ruby’s development.
+
 [RubyDoc.info][16]
 : The one-stop web site for reference documentation about Ruby gems and
   GitHub-hosted Ruby projects.
@@ -174,6 +179,7 @@ If you have questions about Ruby the
 [13]: http://www.ruby-doc.org/core
 [14]: http://docs.seattlerb.org/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
+[extensions]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
