@@ -118,10 +118,9 @@ pour les nombreuses façons d'obtenir Ruby.
 : Également extraite du code source par RDoc, cette seconde référence
   documente la bibliothèque standard.
 
-[*Ruby C API Reference*][19]
-: La documentation de l’implémentation C de ruby. Très utile si vous
-  comptez écrire des extensions C ou contribuer au développement de
-  Ruby.
+[*Ruby C API Reference*][extensions]
+: La documentation de l’API C de Ruby.
+  Très utile si vous comptez écrire des extensions C.
 
 [rubydoc.info][20]
 : Documentation auto-générée pour un grand nombre de bibliothèques Ruby.
@@ -163,7 +162,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [16]: http://www.ruby-doc.org/core
 [17]: http://docs.seattlerb.org/rdoc/
 [18]: http://www.ruby-doc.org/stdlib
-[19]: http://www.ruby-doc.org/doxygen/current/
+[extensions]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [20]: http://rubydoc.info/
 [21]: http://rubydocs.org/
 [22]: http://www.rubydox.net/

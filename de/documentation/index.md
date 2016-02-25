@@ -64,11 +64,10 @@ Ruby-Programmieren sicher nützlich sein werden.
   Dokumentation wird ebenfalls direkt aus dem Quelltext generiert
   (englisch).
 
-[Referenz zu Rubys C-API][11]
-: Eine C-API-Dokumentation von Ruby. Für Erweiterungen von Ruby ist
-  dieses API absolut unverzichtbar. Es beschreibt die vordefinierten
-  Schnittstellen für Erweiterungen in der Programmiersprache C und wie
-  diese sowohl von der Ruby- als auch der C-Seite aus verwendet werden.
+[Referenz zu Rubys C-API][extensions]
+: Offizielle C-API-Dokumentation von Ruby. Sie beschreibt die vordefinierten
+  Schnittstellen für Erweiterungen in der Programmiersprache C und wie diese
+  sowohl von der Ruby- als auch der C-Seite aus verwendet werden.
 
 [RubyDoc.info][12]
 : Die Referenzdokumentation für Ruby, Gems und auf GitHub gehostete
@@ -93,7 +92,7 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [8]: http://www.approximity.com/rubybuch2/
 [9]: http://www.ruby-doc.org/core
 [10]: http://www.ruby-doc.org/stdlib
-[11]: http://www.ruby-doc.org/doxygen/current/
+[extensions]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [12]: http://www.rubydoc.info/
 [13]: http://ruby-doc.org
 [14]: http://wiki.ruby-portal.de
