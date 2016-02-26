@@ -49,12 +49,29 @@ Tây Virginia, Maryland, và Washington, DC.
 Ruby on Rails. Trụ sở hội thảo tại Chicago đã phục vụ cộng đồng Ruby từ
 năm 2008.
 
+[Madison Ruby][10]: Madison, WI
+
+[Steel City Ruby][11]: Pittsburg, PA
+
+[Ruby on Ales][12] là một hội nghị 2 ngày thường niên lấy cảm hứng từ Ruby, bia microbrew
+, và tuyết. Lắng nghe những người thuyết trình hấp dẫn, thưởng thức món ăn ngon và
+phong cảnh tuyệt vời xung quanh Bend Oregon.
+
+[Burlington Ruby Conference][13]: Một hội nghị Ruby diễn ra vào mùa hè hàng năm ở
+Burlington, Vermont, Mỹ. Hội nghị kéo dài 2 ngày và đi theo một lộ trình duy nhất. Trọng tâm
+của hội nghị là việc tạo ra một môi trường học tập, vui chơi và gặp gỡ giữa các Rubyist.
+
+[Goruko][14]: một hội nghị Ruby hàng năm ở thành phố New York. Một hội nghị một chiều một ngày.
+
+[DeccanRubyConf][15]: hội nghị Ruby thường niên ở Pune (Ấn Độ),
+chủ đề xung quanh các hoạt động thú vị suốt ngày. Nó là hội nghị một chiều một ngày.
+
 ### Ruby tại những hội thảo khác
 
-Có một số người quan tâm đến Ruby tại [hội thảo mã nguồn mở O’Reilly][10]
+Có một số người quan tâm đến Ruby tại [hội thảo mã nguồn mở O’Reilly][16]
 (OSCON) từ năm 2004, và con số này không ngừng tăng lên qua các hội thảo khác.
-Một số hội thảo dành riêng cho [Ruby on Rails][11], gồm [RailsConf][12] của Ruby Central,
-[RailsConf Europe][13] (đồng tổ chức bởi Ruby Central và [Skills Matter][14] năm 2006,
+Một số hội thảo dành riêng cho [Ruby on Rails][17], gồm [RailsConf][18] của Ruby Central,
+[RailsConf Europe][19] (đồng tổ chức bởi Ruby Central và [Skills Matter][20] năm 2006,
 Ruby Central và O’Reilly năm 2007), và Canada on Rails.
 
 
@@ -68,8 +85,14 @@ Ruby Central và O’Reilly năm 2007), và Canada on Rails.
 [7]: http://www.svforum.org
 [8]: http://rubynation.org/
 [9]: http://windycityrails.org
-[10]: http://conferences.oreillynet.com/os2006/
-[11]: http://www.rubyonrails.org
-[12]: http://www.railsconf.org
-[13]: http://europe.railsconf.org
-[14]: http://www.skillsmatter.com
+[10]: http://madisonruby.org/
+[11]: http://www.steelcityruby.org/
+[12]: https://ruby.onales.com/
+[13]: http://www.burlingtonrubyconference.com/
+[14]: http://goruco.com/
+[15]: http://www.deccanrubyconf.org/
+[16]: http://conferences.oreillynet.com/os2006/
+[17]: http://www.rubyonrails.org
+[18]: http://www.railsconf.org
+[19]: http://europe.railsconf.org
+[20]: http://www.skillsmatter.com
