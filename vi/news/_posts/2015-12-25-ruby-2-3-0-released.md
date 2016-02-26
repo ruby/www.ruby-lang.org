@@ -9,17 +9,32 @@ lang: vi
 
 Chúng tôi vui mừng thông báo việc phát hành Ruby 2.3.0.
 
-Đây là phiên bản ổn định đầu tiên của sê-ri Ruby 2.3. Phiên bản này giới thiệu nhiều tính năng mới, như:
+Đây là phiên bản ổn định đầu tiên của sê-ri Ruby 2.3.
+Phiên bản này giới thiệu nhiều tính năng mới, như:
 
-Giới thiệu [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473).
+Giới thiệu
+[Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473).
 Trong Ruby 2.1, `"str".freeze` được tối ưu để giảm số lượng đối tượng tạo ra.
-Ruby 2.3 giới thiệu một magic comment và một tùy chọn cho command line để đóng băng tất cả các chuỗi trong tệp mã nguồn. Ngoài ra, bạn có thể sử dụng tùy chọn `--debug=frozen-string-literal` trong command line để xem các đối được tạo ra ở đâu khi debug lỗi `"can't modify frozen String"`.
+Ruby 2.3 giới thiệu một magic comment và một tùy chọn cho command line để đóng
+băng tất cả các chuỗi trong tệp mã nguồn. Ngoài ra, bạn có thể sử dụng tùy
+chọn `--debug=frozen-string-literal` trong command line để xem các đối được
+tạo ra ở đâu khi debug lỗi `"can't modify frozen String"`.
 
-[Safe navigation operator](https://bugs.ruby-lang.org/issues/11537) ([hay còn gọi là lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`, đã hiện diện trong C#, Groovy, và Swift, được giới thiệu để làm giảm thiểu sự phiền toái khi xử lý `nil` với cú pháp `obj&.foo`. `Array#dig` và `Hash#dig` cũng mới được thêm vào, chúng hoạt động giống như [try! trong Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21), vốn được tạo ra để xử lý trường hợp `nil`.
+[Safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
+([hay còn gọi là lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
+đã hiện diện trong C#, Groovy, và Swift, được giới thiệu để làm giảm
+thiểu sự phiền toái khi xử lý `nil` với cú pháp `obj&.foo`. `Array#dig` và
+`Hash#dig` cũng mới được thêm vào, chúng hoạt động giống như
+[try! trong Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
+vốn được tạo ra để xử lý trường hợp `nil`.
 
-[Tích hợp did_you_mean gem](https://bugs.ruby-lang.org/issues/11252). did_you_mean gem đưa ra một số lời khuyên khi gặp `NameError` và `NoMethodError`, giúp cho việc debug dễ dàng hơn.
+[Tích hợp did_you_mean gem](https://bugs.ruby-lang.org/issues/11252).
+did_you_mean gem đưa ra một số lời khuyên khi gặp `NameError` và
+`NoMethodError`, giúp cho việc debug dễ dàng hơn.
 
-[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788) là các tính năng thử nghiệm được giới thiệu trong phiên bản này. Với các chức năng này chúng ta có thể tạo ra một hệ thống tiền biên dịch ISeq (bytecode).
+[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788)
+là các tính năng thử nghiệm được giới thiệu trong phiên bản này. Với các chức
+năng này chúng ta có thể tạo ra một hệ thống tiền biên dịch ISeq (bytecode).
 
 Ruby 2.3.0 còn có rất nhiều cải thiện về hiệu suất, như
 [xem xét lại phần cấu trúc dữ liệu hàm nhập](https://bugs.ruby-lang.org/issues/11278),
@@ -30,13 +45,17 @@ hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi m�
 [hỗ trợ keyword argument `exception: false` cho Socket#*_nonblock methods](https://bugs.ruby-lang.org/issues/11229).
 Vui lòng xem phần "Implementation improvements" trong tệp tin NEWS.
 
-Để biết đầy đủ danh sách các tính năng mới và các lưu ý về vấn đề tương thích, vui lòng xem
+Để biết đầy đủ danh sách các tính năng mới và các lưu ý về vấn đề tương thích,
+vui lòng xem
 [NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS) và
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0/ChangeLog).
 
-Để có những thay đổi trên, [2946 tệp tin đã được thay đổi, 104057 dòng được thêm vào(+), 59478 dòng được xóa đi(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0) kể từ Ruby 2.2.0!
+Để có những thay đổi trên,
+[2946 tệp tin đã được thay đổi, 104057 dòng được thêm vào(+), 59478 dòng được xóa đi(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0)
+kể từ Ruby 2.2.0!
 
-Chúc mừng Giáng sinh, chúc các bạn có một kì nghỉ vui vẻ, và có những giây phút lập trình đầy hứng khởi với Ruby 2.3!
+Chúc mừng Giáng sinh, chúc các bạn có một kì nghỉ vui vẻ, và có những giây
+phút lập trình đầy hứng khởi với Ruby 2.3!
 
 ## Tải về
 
