@@ -58,6 +58,7 @@ downloads:
         xz: 94eeae3b3e3ac93cfd205e1aaef4c5325227b7656cbb2fc1ee217618145dd19d
         zip: 6e0491e029a6f4c40bc091033c5bc91f65438f3f9153f93f1b86889521e79cee
   security_maintenance:
+  eol:
     - version: 2.0.0-p648
       url:
         bz2: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.bz2
