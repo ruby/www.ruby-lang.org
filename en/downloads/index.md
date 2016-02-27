@@ -44,6 +44,12 @@ one of the third party tools mentioned above. They may help you.
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
+{% if site.downloads.eol %}
+* **Not maintained anymore (EOL):**{% for release in site.downloads.eol %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
 * **Snapshots:**
   * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
     This is a tarball of the latest snapshot of the current stable branch.
