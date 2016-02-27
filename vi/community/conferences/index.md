@@ -8,6 +8,10 @@ Các lập trình viên Ruby trên khắp thế giới đang nhận được l�
 hội thảo, nơi mà họ có thể chia sẻ các báo cáo về tiến độ công việc, thảo luận
 về tương lai của Ruby và chào đón những thành viên mới đến với cộng đồng Ruby.
 
+[RubyConferences.org][rc] là một danh sách đơn giản các hội nghị chuyên về Ruby,
+được công bố một cách hợp tác với cộng đồng Ruby. Ở đó, bạn sẽ tìm thấy thời gian,
+địa điểm, kêu gọi đề xuất và thông tin đăng kí của sự kiện.
+
 ### Các hội thảo lớn
 
 [RubyConf][1]
@@ -49,6 +53,23 @@ Tây Virginia, Maryland, và Washington, DC.
 Ruby on Rails. Trụ sở hội thảo tại Chicago đã phục vụ cộng đồng Ruby từ
 năm 2008.
 
+[Madison Ruby][15]: Madison, WI
+
+[Steel City Ruby][16]: Pittsburg, PA
+
+[Ruby on Ales][17] là một hội nghị 2 ngày thường niên lấy cảm hứng từ Ruby, bia microbrew
+, và tuyết. Lắng nghe những người thuyết trình hấp dẫn, thưởng thức món ăn ngon và
+phong cảnh tuyệt vời xung quanh Bend Oregon.
+
+[Burlington Ruby Conference][18]: Một hội nghị Ruby diễn ra vào mùa hè hàng năm ở
+Burlington, Vermont, Mỹ. Hội nghị kéo dài 2 ngày và đi theo một lộ trình duy nhất. Trọng tâm
+của hội nghị là việc tạo ra một môi trường học tập, vui chơi và gặp gỡ giữa các Rubyist.
+
+[Goruko][19]: một hội nghị Ruby hàng năm ở thành phố New York. Một hội nghị một chiều một ngày.
+
+[DeccanRubyConf][20]: hội nghị Ruby thường niên ở Pune (Ấn Độ),
+chủ đề xung quanh các hoạt động thú vị suốt ngày. Nó là hội nghị một chiều một ngày.
+
 ### Ruby tại những hội thảo khác
 
 Có một số người quan tâm đến Ruby tại [hội thảo mã nguồn mở O’Reilly][10]
@@ -59,6 +80,7 @@ Ruby Central và O’Reilly năm 2007), và Canada on Rails.
 
 
 
+[rc]: http://rubyconferences.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
@@ -73,3 +95,9 @@ Ruby Central và O’Reilly năm 2007), và Canada on Rails.
 [12]: http://www.railsconf.org
 [13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com
+[15]: http://madisonruby.org/
+[16]: http://steelcityruby.org/
+[17]: http://ruby.onales.com/
+[18]: http://burlingtonrubyconference.com
+[19]: http://goruco.com/
+[20]: http://www.deccanrubyconf.org/
