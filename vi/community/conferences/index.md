@@ -8,19 +8,20 @@ Các lập trình viên Ruby trên khắp thế giới đang nhận được l�
 hội thảo, nơi mà họ có thể chia sẻ các báo cáo về tiến độ công việc, thảo luận
 về tương lai của Ruby và chào đón những thành viên mới đến với cộng đồng Ruby.
 
-[RubyConferences.org][rc] là một danh sách đơn giản các hội nghị chuyên về Ruby,
-được công bố một cách hợp tác với cộng đồng Ruby. Ở đó, bạn sẽ tìm thấy thời gian,
-địa điểm, kêu gọi đề xuất và thông tin đăng kí của sự kiện.
+[RubyConferences.org][rc] là một danh sách đơn giản các hội nghị chuyên về
+Ruby, được công bố một cách hợp tác với cộng đồng Ruby. Ở đó, bạn sẽ tìm thấy
+thời gian, địa điểm, kêu gọi đề xuất và thông tin đăng kí của sự kiện.
 
 ### Các hội thảo lớn
 
 [RubyConf][1]
-: Diễn ra thường niên từ năm 2001, [Ruby Central, Inc.][2] đã tổ chức RubyConf -
-  hội thảo quốc tế về Ruby. Số người tham gia tăng gấp mười từ năm 2001 đến năm 2006.
-  RubyConf cung cấp một diễn đàn dành riêng cho các bài thuyết trình về các công nghệ của Ruby,
-  bao gồm các bài thuyết trình của Nathaniel Talbot về Test Unit, Jim Weirich về Rake,
-  David Heinemeier Hansson về Ruby on Rails, Why the Lucky Stiff về thư viện YAML,
-  và Sasada Koichi về YARV. Ông Matz cũng tham dự và phát biểu ở hầu hết các RubyConf.
+: Diễn ra thường niên từ năm 2001, [Ruby Central, Inc.][2] đã tổ chức
+  RubyConf - hội thảo quốc tế về Ruby. Số người tham gia tăng gấp mười từ năm
+  2001 đến năm 2006.  RubyConf cung cấp một diễn đàn dành riêng cho các bài
+  thuyết trình về các công nghệ của Ruby, bao gồm các bài thuyết trình của
+  Nathaniel Talbot về Test Unit, Jim Weirich về Rake, David Heinemeier Hansson
+  về Ruby on Rails, Why the Lucky Stiff về thư viện YAML, và Sasada Koichi về
+  YARV. Ông Matz cũng tham dự và phát biểu ở hầu hết các RubyConf.
 
 [RubyKaigi][3]
 : Hội thảo về Ruby đầu tiên của Nhật, RubyKaigi được tổ chức năm 2006 tại
@@ -30,8 +31,8 @@ về tương lai của Ruby và chào đón những thành viên mới đến v�
 [EuRuKo <small>(Hội thảo về Ruby tại châu Âu)</small>][4]
 : Hội thảo thường niên về Ruby tại châu Âu (EuRuKo) lần đầu tiên được tổ chức
   tại Karlsruhe, Đức vào năm 2003. Hội thảo được tổ chức bởi 2 nhà lập trình
-  viên Ruby Armin Roehrl và Michael Neumann, EuRuKo nổi lên như một sự kiện hàng
-  năm thứ 2 của Ruby sau RubyConf 2 năm.
+  viên Ruby Armin Roehrl và Michael Neumann, EuRuKo nổi lên như một sự kiện
+  hàng năm thứ 2 của Ruby sau RubyConf 2 năm.
 
 [Hội thảo mã nguồn mở][5]
 : Đây là hội thảo mã nguồn mở hàng năm tại Úc. Mặc dù không phải là một hội
@@ -43,8 +44,8 @@ về tương lai của Ruby và chào đón những thành viên mới đến v�
 [Ruby Central][2] điều hành [chương trình tài trợ cho hội thảo khu vực][6],
 để trợ giúp về chi phí cho các nhóm trong khu vực muốn tổ chức sự kiện.
 
-Ruby Central đã hợp tác với [SVForum][7] để tạo ra thung lũng Silicon dành cho các
-hội thảo về Ruby trong khu vực lần thứ 2 trong năm 2007.
+Ruby Central đã hợp tác với [SVForum][7] để tạo ra thung lũng Silicon dành cho
+các hội thảo về Ruby trong khu vực lần thứ 2 trong năm 2007.
 
 [RubyNation][8] là cuộc hội thảo Ruby thường niên dành cho các khu vực Virginia,
 Tây Virginia, Maryland, và Washington, DC.
@@ -57,26 +58,30 @@ năm 2008.
 
 [Steel City Ruby][16]: Pittsburg, PA
 
-[Ruby on Ales][17] là một hội nghị 2 ngày thường niên lấy cảm hứng từ Ruby, bia microbrew
-, và tuyết. Lắng nghe những người thuyết trình hấp dẫn, thưởng thức món ăn ngon và
-phong cảnh tuyệt vời xung quanh Bend Oregon.
+[Ruby on Ales][17] là một hội nghị 2 ngày thường niên lấy cảm hứng từ Ruby,
+bia microbrew , và tuyết. Lắng nghe những người thuyết trình hấp dẫn, thưởng
+thức món ăn ngon và phong cảnh tuyệt vời xung quanh Bend Oregon.
 
-[Burlington Ruby Conference][18]: Một hội nghị Ruby diễn ra vào mùa hè hàng năm ở
-Burlington, Vermont, Mỹ. Hội nghị kéo dài 2 ngày và đi theo một lộ trình duy nhất. Trọng tâm
-của hội nghị là việc tạo ra một môi trường học tập, vui chơi và gặp gỡ giữa các Rubyist.
+[Burlington Ruby Conference][18]: Một hội nghị Ruby diễn ra vào mùa hè hàng
+năm ở Burlington, Vermont, Mỹ. Hội nghị kéo dài 2 ngày và đi theo một lộ trình
+duy nhất. Trọng tâm của hội nghị là việc tạo ra một môi trường học tập, vui
+chơi và gặp gỡ giữa các Rubyist.
 
-[Goruko][19]: một hội nghị Ruby hàng năm ở thành phố New York. Một hội nghị một chiều một ngày.
+[GoRuCo][19]: một hội nghị Ruby hàng năm ở thành phố New York. Một hội nghị
+một chiều một ngày.
 
 [DeccanRubyConf][20]: hội nghị Ruby thường niên ở Pune (Ấn Độ),
-chủ đề xung quanh các hoạt động thú vị suốt ngày. Nó là hội nghị một chiều một ngày.
+chủ đề xung quanh các hoạt động thú vị suốt ngày. Nó là hội nghị một chiều
+một ngày.
 
 ### Ruby tại những hội thảo khác
 
 Có một số người quan tâm đến Ruby tại [hội thảo mã nguồn mở O’Reilly][10]
 (OSCON) từ năm 2004, và con số này không ngừng tăng lên qua các hội thảo khác.
-Một số hội thảo dành riêng cho [Ruby on Rails][11], gồm [RailsConf][12] của Ruby Central,
-[RailsConf Europe][13] (đồng tổ chức bởi Ruby Central và [Skills Matter][14] năm 2006,
-Ruby Central và O’Reilly năm 2007), và Canada on Rails.
+Một số hội thảo dành riêng cho [Ruby on Rails][11], gồm [RailsConf][12] của
+Ruby Central, [RailsConf Europe][13] (đồng tổ chức bởi Ruby Central và
+[Skills Matter][14] năm 2006, Ruby Central và O’Reilly năm 2007),
+và Canada on Rails.
 
 
 
