@@ -8,6 +8,20 @@ Bạn sẽ tìm được các nguồn tài liệu hướng dẫn và tham khảo
 tại đây.
 {: .summary}
 
+### Cài đặt Ruby
+
+Trừ khi bạn chỉ muốn thử Ruby trên trình duyệt (xem những liên kết bên dưới),
+bạn cần có Ruby được cài đặt trong máy tính của bạn. Bạn có thể kiểm tra liệu
+Ruby đã có sẵn hay chưa bằng việc mở terminal lên và gõ
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+Câu lệnh này nên in ra một số về phiên bản của Ruby đã được cài đặt. Nếu không
+thấy, hãy xem [trang cài đặt](installation/) để có những tùy chọn khác nhau cho
+việc cài đặt Ruby.
+
 ### Khởi đầu
 
 [Thử Ruby!][1]
@@ -21,8 +35,8 @@ tại đây.
   dụng của Ruby.
 
 [RubyMonk][3]
-: Khám phá các thành ngữ của Ruby với phương pháp tương tác trực tuyến. Bạn sẽ
-  học thông qua các bài học và giải quyết những bài tập.
+: Khám phá các thành ngữ của Ruby, học các bài học và giải quyết những bài tập,
+  tất cả trên trình duyệt của bạn!
 
 [Hackety Hack][4]
 : <q cite="http://www.hackety.com/">Nhập môn Ruby cho người không có kinh
@@ -39,11 +53,13 @@ tại đây.
   phút cho phần này.
 
 [Đến với Ruby từ ngôn ngữ khác](/vi/documentation/ruby-from-other-languages/)
-: Bạn đến với Ruby từ ngôn ngữ khác? Bất kể nó là C, C++, Java, Perl, PHP hay
-  Python, bài viết này.
+: Bạn đến với Ruby từ ngôn ngữ khác? Bất kể nó là C, C++, Java,
+  Perl, PHP hay Python, bài viết này sẽ giải quyết cho bạn.
 
 [Học về Ruby][6]
-: Một bộ sưu tập các thông tin về Ruby dành cho những người mới bắt đầu.
+: Một bộ sưu tập toàn diện về Ruby dành cho những người mới làm
+  quen với ngôn ngữ và tìm kiếm một sự giới thiệu vững chắc về các
+  khái niệm và cấu trúc của Ruby.
 
 [Ruby Essentials][7]
 : Ruby Essentials là một cuốn sách trực tuyến miễn phí hướng dẫn học Ruby dễ
@@ -60,7 +76,7 @@ tại đây.
 ### Hướng dẫn sử dụng
 
 [Lập trình Ruby][9]
-: Hội thảo làm viện trên Ruby bằng Tiếng Anh, phiên bản đầu tiên
+: Hội thảo làm việc trên Ruby bằng Tiếng Anh, phiên bản đầu tiên
   [Sách của Lập trình viên thực dụng][10] hiện đang được miễn phí trực tuyến.
 
 [Hướng dẫn người sử dụng Ruby][11]
@@ -81,6 +97,10 @@ tại đây.
 [Thư viện tài liệu tham khảo Ruby chuẩn][15]
 : Cũng được tải từ mã nguồn sử dụng RDoc, đưa ra tài liệu của thư viện chuẩn.
 
+[Tài liệu tham khảo Ruby C API][extensions]
+: Sự giới thiệu chính thức về Ruby's C API. Tuyệt vời nếu bạn muốn
+  viết những mở rộng của C hoặc đóng góp cho sự phát triển của Ruby.
+
 [RubyDoc.info][16]
 : Các trang web một cửa cho tài liệu tham khảo về Ruby gems và GitHub chứa các
   dự án Ruby.
@@ -90,6 +110,11 @@ tại đây.
 
 [APIdock][18]
 : Tài liệu Ruby, Rails và RSpec với các ghi chú của người sử dụng.
+
+[Omniref: Chú thích Ruby, Rails và tài liệu về Gem][40]
+: Tài liệu cho mọi phiên bản của Ruby, và mọi phiên bản của mỗi Rubygem.
+  Một hướng dẫn tham khảo toàn diện cho Ruby, với các tính năng tìm kiếm
+  code, nguồn chú thích và hỏi đáp.
 
 ### Phần mềm chỉnh sửa và các môi trường phát triển tích hợp
 
@@ -111,15 +136,19 @@ tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, h
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Atom][atom]
 
 * Trên Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
+  * [Atom][atom]
 
 * Trên Mac OS X:
   * [TextMate][32]
   * [TextWrangler][33]
+  * [Dash][39] (trình duyệt tài liệu)
+  * [Atom][atom]
 
 ### Đọc thêm
 
@@ -145,6 +174,7 @@ là một nơi tuyệt vời.
 [13]: http://www.ruby-doc.org/core
 [14]: http://docs.seattlerb.org/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
+[extensions]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
@@ -168,3 +198,6 @@ là một nơi tuyệt vời.
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
+[39]: http://kapeli.com/dash
+[40]: https://www.omniref.com
+[atom]: https://atom.io/
