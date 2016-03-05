@@ -69,6 +69,7 @@ Ruby може да бъде инсталиран и от изходен код �
 вас.
 
 
+
 [license]: {{ site.license.url }}
-[installation]: /bg/documentation/installation
+[installation]: /bg/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
