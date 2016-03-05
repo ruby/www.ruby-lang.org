@@ -9,40 +9,40 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.3.0.
 
-This is the first stable release of Ruby 2.3 series.
-It introduces many new features for example:
+This is the first stable release of the Ruby 2.3 series.
+It introduces many new features, for example:
 
-A [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
+A [frozen string literal pragma](https://bugs.ruby-lang.org/issues/11473)
 is introduced.
 With Ruby 2.1, `"str".freeze` has been optimized to reduce object allocation.
 Ruby 2.3 introduces a new magic comment and command line option to
 freeze all string literals in the source files.
 Additionally for debugging, you can get where the object is created on
-`"can't modify frozen String"` error by
+`"can't modify frozen String"` error by using the
 `--debug=frozen-string-literal` command line option.
 
 A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
 ([so-called lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
 which already exists in C#, Groovy, and Swift, is introduced to ease
 `nil` handling as `obj&.foo`. `Array#dig` and `Hash#dig` are also added.
-Note that this behaves as [try! of Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
-which specially handle only nil.
+Note that this behaves like [try! of Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
+which specially handles only `nil`.
 
 The [did_you_mean gem is bundled](https://bugs.ruby-lang.org/issues/11252).
 The did_you_mean gem
 shows the candidates on the `NameError` and `NoMethodError` to ease
 debugging.
 
-[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788) are introduced as experimental feature. With these features, we can make a ISeq (bytecode) pre-compilation system.
+[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788) are introduced as experimental features. With these features, we can make a ISeq (bytecode) pre-compilation system.
 
-It also includes many performance improvements for example,
-[reconsider method entry data structure](https://bugs.ruby-lang.org/issues/11278),
+Ruby 2.3 also includes many performance improvements, for example
+[reconsidering method entry data structure](https://bugs.ruby-lang.org/issues/11278),
 [introducing new table data structure](https://bugs.ruby-lang.org/issues/11420),
-[optimize Proc#call](https://bugs.ruby-lang.org/issues/11569),
+[optimizing Proc#call](https://bugs.ruby-lang.org/issues/11569),
 machine code level tuning for object allocation and method calling code,
 [smarter instance variable data structure](https://bugs.ruby-lang.org/issues/11170),
-[`exception: false` keyword argument support on Socket#*_nonblock methods](https://bugs.ruby-lang.org/issues/11229)
-and so on. Check "Implementation improvements" section in NEWS file.
+[`exception: false` keyword argument support on Socket#*_nonblock methods](https://bugs.ruby-lang.org/issues/11229),
+and so on. Check the "Implementation improvements" section in the NEWS file.
 
 For a complete list of new features and compatibility notes, please see
 [NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS) and
@@ -81,4 +81,3 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.3!
       SHA1:   3f88617568d9a4f491e8b32dca532363f73eaa71
       SHA256: 8270bdcbc6b62a18fdf1b75bd28d5d6fc0fc26b9bd778d422393a1b98006020a
       SHA512: a3f397bb3c9c19d9b797552c5d60bb01c82db884cfa966df84881125bea35713cffd99f88fb86b271bae72d9cfb09ad9b33838cffcf6365c091459479914fdef
-
