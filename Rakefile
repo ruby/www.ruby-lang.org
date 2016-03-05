@@ -29,11 +29,6 @@ task :build do
   Jekyll::Site.new(options).process
 end
 
-task :generate do
-  warn "Warning: The `generate' task is deprecated, use `build' instead."
-  Rake::Task[:build].invoke
-end
-
 desc "Serve the Jekyll site locally"
 task :serve do
   sh "rackup config.ru"
