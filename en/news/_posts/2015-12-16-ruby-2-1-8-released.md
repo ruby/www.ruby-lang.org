@@ -9,7 +9,7 @@ lang: en
 
 Ruby 2.1.8 has been released.
 
-This release includes a security fix for Fiddle and DL extension.
+This release includes a security fix for the Fiddle and DL extensions.
 Please view the topic below for more details.
 
 * [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
@@ -52,4 +52,4 @@ for details.
 
 Thanks to everyone who helped with this release.
 
-The maintenance of Ruby 2.1, include this release, is based on the "Agreement for the Ruby stable version" of [the Ruby Association](http://www.ruby.or.jp/).
+The maintenance of Ruby 2.1, including this release, is based on the "Agreement for the Ruby stable version" of the [Ruby Association](http://www.ruby.or.jp/).

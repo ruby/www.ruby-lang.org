@@ -9,7 +9,7 @@ lang: en
 
 Ruby 2.2.4 has been released.
 
-This release includes a security fix for Fiddle extension.
+This release includes a security fix for the Fiddle extension.
 Please view the topic below for more details.
 
 * [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
