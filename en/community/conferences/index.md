@@ -49,7 +49,7 @@ event dates, location, CFP (Call For Proposals) and Registration information.
 to offset expenses for local and regional groups wanting to organize
 events.
 
-Ruby Central has also teamed up with [SVForum][7] (previously known as SDForum) 
+Ruby Central has also teamed up with [SVForum][7] (previously known as SDForum)
 to produce the Silicon Valley Ruby Conference, entering its second year in 2007.
 
 [RubyNation][8] is an annual Ruby conference serving the Virginia, West

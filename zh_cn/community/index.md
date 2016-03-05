@@ -21,7 +21,7 @@ lang: zh_cn
 
 [IRC 中的 Ruby 频道（#ruby）](irc://irc.freenode.net/ruby)
 : 在 IRC 中的 Ruby 频道中，你可以与其他 Ruby 同道者畅谈。
- 
+
 [Ruby 核心](ruby-core/)
 : 现在是追踪 Ruby 开发的绝好时机。如果你想帮助开发 Ruby，请从这里开始。
 
