@@ -26,17 +26,21 @@ lang: zh_cn
 
 从源代码编译 Ruby 的详细说明，参见[安装页面][installation]。若编译 Ruby 时遇到问题，请参考安装页面罗列的第三方工具，可能会有帮助。
 
-* **当前稳定版：**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
+* **稳定版:**{% for release in site.downloads.stable %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
-* **前一个稳定版：**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
+{% if site.downloads.security_maintenance %}
+* **在做安全性维护的版本（很快 EOL！）:**{% for release in site.downloads.security_maintenance %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
-* **旧的稳定版：**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+{% if site.downloads.eol %}
+* **不再维护的版本（EOL）:**{% for release in site.downloads.eol %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
 * **快照：**
   * [稳定版快照]({{ site.downloads.stable_snapshot.url.gz }})：当前稳定版 tarball 的最新快照
