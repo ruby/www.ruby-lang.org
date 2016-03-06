@@ -35,17 +35,21 @@ lang: ko
 밑에서 소개하는 서드파티 도구 중 하나를 이용해볼 것을 고려해 보십시오.
 도움이 될 것입니다.
 
-* **안정버전:**
-  [루비 {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
+* **안정 릴리스:**{% for release in site.downloads.stable %}
+  * [루비 {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
-* **이전버전:**
-  [루비 {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
+{% if site.downloads.security_maintenance %}
+* **보안 유지보수 단계 (곧 EOL 예정!):**{% for release in site.downloads.security_maintenance %}
+  * [루비 {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
-* **낡은 버전:**
-  [루비 {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+{% if site.downloads.eol %}
+* **더 이상 유지보수 없음 (EOL):**{% for release in site.downloads.eol %}
+  * [루비 {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
 * **스냅숏:**
   * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
