@@ -40,13 +40,13 @@ lang: ko
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.downloads.security_maintenance %}
-* **보안 유지보수 단계 (곧 EOL 예정!):**{% for release in site.downloads.security_maintenance %}
+* **보안 유지보수 단계(곧 EOL 예정!):**{% for release in site.downloads.security_maintenance %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.downloads.eol %}
-* **더 이상 유지보수 없음 (EOL):**{% for release in site.downloads.eol %}
+* **더 이상 유지보수 없음(EOL):**{% for release in site.downloads.eol %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
