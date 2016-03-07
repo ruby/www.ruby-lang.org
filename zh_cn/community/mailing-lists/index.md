@@ -11,7 +11,7 @@ Ruby 最主要的四个使用英文语言交流的邮件列表：
 
 Ruby-Talk
 : 这是处理一般 Ruby 话题最流行的邮件列表。Ruby-Talk 被 [comp.lang.ruby](news:comp.lang.ruby)
-新闻组和 [Ruby-Forum.com][1] 所效仿。([Weekly Summaries][2], [FAQ][3], [Archives][4])
+新闻组和 [Ruby-Forum.com][1] 所效仿。([FAQ][3], [Archives][4])
 
 Ruby-Core
 : 该列表处理和 Ruby 相关的核心和重点专题，经常被用于补丁审核。([Archives][5])
@@ -31,7 +31,6 @@ Ruby-CVS
 
 
 [1]: https://www.ruby-forum.com/
-[2]: http://www.rubyweeklynews.org/
 [3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml

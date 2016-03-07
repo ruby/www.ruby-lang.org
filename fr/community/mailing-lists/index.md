@@ -15,9 +15,8 @@ Ruby-Talk
 : C’est la plus populaire, elle accueille les discussions généralistes
   sur Ruby. Elle possède des miroirs sur le web, le *newsgroup*
   [comp.lang.ruby](news:comp.lang.ruby) et le forum
-  [*Ruby-Forum.com*][1]. Des résumés hebdomadaires, les [*Weekly
-  Summaries*][2], sont proposés. Voir aussi la [FAQ][3], les
-  [archives][4].
+  [*Ruby-Forum.com*][1].
+  Voir aussi la [FAQ][3], les [archives][4].
 
 Ruby-Core
 : Cette liste accueille les sujets relatifs à l’implémentation et au
@@ -41,7 +40,6 @@ formulaire, essayez la [méthode manuelle](manual-instructions/).
 
 
 [1]: https://www.ruby-forum.com/
-[2]: http://www.rubyweeklynews.org/
 [3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml

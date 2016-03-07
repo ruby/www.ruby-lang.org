@@ -14,7 +14,7 @@ Ruby-Talk
 : Najpopularniejsza lista mailingowa, która zajmuje się ogólnymi
   tematami związanymi z językiem Ruby. Ruby-Talk jest kopiowana na grupę
   newsową [comp.lang.ruby](news:comp.lang.ruby) oraz forum
-  [Ruby-Forum.com][1]. ([Tygodniowe Podsumowania][2], [FAQ][3],
+  [Ruby-Forum.com][1]. ([FAQ][3],
   [Archiwa][4])
 
 Ruby-Core
@@ -45,7 +45,6 @@ way](/en/community/mailing-lists/manual-instructions/).
 
 
 [1]: https://www.ruby-forum.com/
-[2]: http://www.rubyweeklynews.org/
 [3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml

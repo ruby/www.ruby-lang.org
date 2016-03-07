@@ -23,7 +23,7 @@ Ruby juga menyediakan milis berbahasa Inggris dengan komunitas global:
 Ruby-Talk
 : Milis Ruby internasional yang paling terkenal. Ruby-Talk juga tersedia
   melalui newsgroup [comp.lang.ruby](news:comp.lang.ruby) dan
-  [Ruby-Forum.com][8]. ([Rangkuman Mingguan][9], [FAQ][10], [Arsip][11])
+  [Ruby-Forum.com][8]. ([FAQ][10], [Arsip][11])
 
 Ruby-Core
 : Mendiskusikan implementasi *interpreter* Ruby, terutama
@@ -55,7 +55,6 @@ manual](/id/community/mailing-lists/manual-instructions/).
 [6]: http://rss.gmane.org/gmane.comp.lang.ruby.region.indonesia
 [7]: http://www.mail-archive.com/id-ruby@yahoogroups.com/
 [8]: https://www.ruby-forum.com/
-[9]: http://www.rubyweeklynews.org/
 [10]: http://rubyhacker.com/clrFAQ.html
 [11]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [12]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
