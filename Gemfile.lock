@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.8)
+    addressable (2.4.0)
     blankslate (2.1.2.4)
     classifier-reborn (2.0.4)
       fast-stemmer (~> 1.0)
@@ -40,7 +40,7 @@ GEM
     jekyll-watch (1.3.1)
       listen (~> 3.0)
     kgio (2.10.0)
-    kramdown (1.9.0)
+    kramdown (1.10.0)
     lanyon (0.2.3)
       jekyll (~> 2.0)
       rack (~> 1.6)
@@ -54,8 +54,8 @@ GEM
     multipart_body (0.2.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
-    octokit (4.2.0)
-      sawyer (~> 0.6.0, >= 0.5.3)
+    octokit (4.3.0)
+      sawyer (~> 0.7.0, >= 0.5.3)
     paint (0.9.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
@@ -69,7 +69,7 @@ GEM
     rack-rewrite (1.5.1)
     rack-ssl (1.4.1)
       rack
-    raindrops (0.15.0)
+    raindrops (0.16.0)
     rake (10.5.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
@@ -77,8 +77,8 @@ GEM
     redcarpet (3.3.4)
     safe_yaml (1.0.4)
     sass (3.4.21)
-    sawyer (0.6.0)
-      addressable (~> 2.3.5)
+    sawyer (0.7.0)
+      addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
     spidr (0.5.0)
       nokogiri (~> 1.3)
