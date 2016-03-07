@@ -40,7 +40,7 @@ formulaire, essayez la [méthode manuelle](manual-instructions/).
 
 
 
-[1]: http://ruby-forum.com
+[1]: https://www.ruby-forum.com/
 [2]: http://www.rubyweeklynews.org/
 [3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
