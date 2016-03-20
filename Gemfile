@@ -6,7 +6,7 @@ gem 'jekyll', '~> 2.0'
 gem 'rouge',  '~> 1.10'
 
 gem 'unicorn'
-gem 'lanyon', '~> 0.2.0'
+gem 'lanyon', '~> 0.3.0'
 gem 'rack-rewrite'
 gem 'rack-ssl'
 gem 'rack-protection'
