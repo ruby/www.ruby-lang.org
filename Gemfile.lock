@@ -41,8 +41,8 @@ GEM
       listen (~> 3.0)
     kgio (2.10.0)
     kramdown (1.10.0)
-    lanyon (0.2.3)
-      jekyll (~> 2.0)
+    lanyon (0.3.1)
+      jekyll (>= 2.0, < 4.0)
       rack (~> 1.6)
     liquid (2.6.3)
     listen (3.0.6)
@@ -100,7 +100,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 2.0)
-  lanyon (~> 0.2.0)
+  lanyon (~> 0.3.1)
   rack-protection
   rack-rewrite
   rack-ssl
