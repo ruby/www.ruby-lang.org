@@ -938,7 +938,7 @@ locales:
           text: Listas de correo
           url: /es/community/mailing-lists/
           description: |
-            Habla sobre Ruby con desarrolladores al rededor del mundo.
+            Habla sobre Ruby con desarrolladores alrededor del mundo.
         user_groups:
           text: Grupos de usuarios
           url: /es/community/user-groups/
