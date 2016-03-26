@@ -113,7 +113,7 @@ irb(main):031:1>   def say_bye
 irb(main):032:2>     puts "Bye #{@name}, come back soon."
 irb(main):033:2>   end
 irb(main):034:1> end
-=> nil
+=> :say_bye
 {% endhighlight %}
 
 The new keyword here is `class`. This defines a new class called Greeter
