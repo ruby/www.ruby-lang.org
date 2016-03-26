@@ -151,6 +151,7 @@ lang: zh_tw
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[40]: https://www.omniref.com
 [atom]: https://atom.io/
 
 [rubytw]: http://ruby.tw
