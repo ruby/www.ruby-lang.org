@@ -11,11 +11,10 @@ Anunciamos los planes de soporte a futuro para Ruby 2.0.0 y Ruby 2.1.
 
 ## Sobre Ruby 2.0.0
 
-
 Como se anunció anteriormente, todo el soporte para Ruby 2.0.0 ha terminado el día de hoy.
 
 Las correcciones de seguridad y errores de las versiones más recientes de Ruby ya no serán
-portados a 2.0.0, y ningún parche de 2.0.0 será liberado.
+portadas a 2.0.0, y ningún parche de 2.0.0 será liberado.
 
 Te recomendamos altamente que actualices a Ruby 2.3 o 2.2 lo más pronto posible.
 
@@ -24,24 +23,24 @@ la rama 2.0.0 o si por alguna razón justificada no puedes actualizar tu versió
 
 ## Sobre Ruby 2.1
 
-Estamos planeando liberar Ruby 2.1.9 a finales de marzo.
-Después del lanzamiento, finalizaremos la fase normal de mantenimiento de 2.1,
+Planeamos liberar Ruby 2.1.9 a fines de marzo.
+Después del lanzamiento, pondremos fin a la fase normal de mantenimiento de 2.1,
 y empezaremos la fase de mantenimiento de seguridad de dicha versión.
-Eso significa que, después del lanzamiento de la versión 2.1.9, ya no
-adaptaremos ningúna corrección de errores a 2.1 con excepción de los parches
+Esto significa que después del lanzamiento de la versión 2.1.9, ya no
+portaremos ninguna corrección de errores a 2.1 con excepción de las correcciones
 de seguridad.
 
-Te recomendamos que comiences a planear la actualización a Ruby 2.3 o 2.2.
+Te recomendamos que comiences a planear una actualización a Ruby 2.3 o 2.2.
 
-Por cierto, también estamos planeando lanzar Ruby 2.1.10 inmediatamente
-después de lanzar la versión 2.1.9. Este no es un lanzamiento ni de
-correción de errores ni de seguridad.
+Por cierto, también planeamos liberar Ruby 2.1.10 inmediatamente
+después de liberar la versión 2.1.9. Este no es un lanzamiento ni de
+corrección de errores ni de seguridad.
 Nunca hemos experimentado una versión de Ruby de dos dígitos.
-Por lo tanto, consideramos importante probar dicho lanzamiento sin parches
-de seguridad alguno.
+Por lo tanto, consideramos importante probar dicho lanzamiento sin ningún tipo de
+correcciones de seguridad.
 
 Ruby 2.1.10 no incluirá cambios de la versión 2.1.9, con excepción del número
 de versión.
 No es necesario que la uses en producción, pero deberías probarla antes del
-lanzamiento de la versión 2.1.11 que probablemente ya incluya parches de
+lanzamiento de la versión 2.1.11 que probablemente ya incluya correcciones de
 seguridad.
