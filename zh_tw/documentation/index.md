@@ -89,16 +89,19 @@ lang: zh_tw
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Atom][atom]
 
 * Windows 作業系統：
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
+  * [Atom][atom]
 
 * Mac OS X 作業系統：
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] （瀏覽文件用）
+  * [Atom][atom]
 
 ### 進階閱讀
 
@@ -145,6 +148,7 @@ lang: zh_tw
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[atom]: https://atom.io/
 
 [rubytw]: http://ruby.tw
 [ruby-user-guide-zh_tw]: http://guides.ruby.tw/ruby/
