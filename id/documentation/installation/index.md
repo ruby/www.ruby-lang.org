@@ -78,7 +78,7 @@ lama yang stabil, pada Debian dan Ubuntu.
 
 
 ### yum (CentOS, Fedora, atau RHEL)
-{: yum}
+{: #yum}
 
 CentOS, Fedora, dan RHEL menggunakan *yum package manager*.
 Anda dapat menggunakannya seperti ini:
@@ -92,7 +92,7 @@ saat waktu rilis versi distribusi tertentu.
 
 
 ### portage (Gentoo)
-{: portage}
+{: #portage}
 
 Gentoo menggunakan *portage package manager*.
 
@@ -120,7 +120,7 @@ Ini semestinya memasang versi Ruby terbaru.
 
 
 ### Homebrew (OS X)
-{: homebrew}
+{: #homebrew}
 
 Pada OS X Yosemite dan Mavericks, Ruby 2.0 sudah tersedia.
 OS X Mountain Lion, Lion, dan Snow Leopard terisi dengan Ruby 1.8.7.
@@ -177,13 +177,13 @@ Jika Anda sedang merencanakan untuk mengunakan [RVM](#rvm) sebagai *version mana
 
 
 ### ruby-build
-{: #ruby-buid}
+{: #ruby-build}
 
-[ruby-buid][ruby-buid] adalah sebuah *plugin* untuk [rbenv](#rbenv) yang
+[ruby-build][ruby-build] adalah sebuah *plugin* untuk [rbenv](#rbenv) yang
 memperbolehkan Anda untuk mengkompilasi dan memasang versi Ruby yang berbeda
 ke dalam *directory* pilihan Anda.
-ruby-buid juga dapat digunakan sebagai *standalone program* tanpa rbenv.
-ruby-buid tersedia untuk OS X, Linux, dan sistem operasi UNIX-like lainnya.
+ruby-build juga dapat digunakan sebagai *standalone program* tanpa rbenv.
+ruby-build tersedia untuk OS X, Linux, dan sistem operasi UNIX-like lainnya.
 
 
 ### ruby-install
@@ -222,7 +222,7 @@ Anda dapat menggunakan *installer* berikut:
 
 
 ## Managers
-{: #manager}
+{: #managers}
 
 Banyak Rubyists menggunakan Ruby *manager* untuk mengatur banyak versi Ruby.
 Ruby *manager* memberikan banyak keuntungan tetapi tidak didukung secara resmi.
