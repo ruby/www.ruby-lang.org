@@ -78,7 +78,7 @@ Unlike C, in Ruby,...
 * There are no header files. You just define your functions (usually
   referred to as “methods”) and classes in the main source code files.
 * There’s no `#define`. Just use constants instead.
-* As of Ruby 1.8, code is interpreted at run-time rather than compiled
+* Code is interpreted at run-time rather than compiled
   to any sort of machine- or byte-code.
 * All variables live on the heap. Further, you don’t need to free them
   yourself—the garbage collector takes care of that.
