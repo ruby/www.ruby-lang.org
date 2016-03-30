@@ -28,22 +28,20 @@ lang: ja
 
 もしコンパイルで問題がある場合、[インストールガイド][installation] ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
 
-* **最新の安定版:**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
-
-* **前世代の安定版:**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
-
-* **古い安定版:**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+* **安定版:**{% for release in site.downloads.stable %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.downloads.security_maintenance %}
-* **さらに古い安定版 (まもなく EOL):**
-  [Ruby {{ site.downloads.security_maintenance[0].version }}]({{ site.downloads.security_maintenance[0].url.gz }})<br>
-  sha256: {{ site.downloads.security_maintenance[0].sha256.gz }}
+* **セキュリティ修正のみの安定版 (まもなく EOL):**{% for release in site.downloads.security_maintenance %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
+{% if site.downloads.eol %}
+* **メンテナンス終了 (EOL):**{% for release in site.downloads.eol %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **スナップショット:**
