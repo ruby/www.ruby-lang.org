@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.1.9 Released"
+title: "Ruby 2.1.9 發佈了"
 author: "usa"
 translator: "Juanito Fatas"
 date: 2016-03-30 12:00:00 +0000
