@@ -13,13 +13,13 @@ This release includes many bug fixes.
 See [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
 for details.
 
-[As announced before](https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), this is the last normal release of Ruby 2.1 series.
+[As announced before](https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), this is the last normal release of the Ruby 2.1 series.
 After this release we will never backport any bug fixes to 2.1 except security fixes.
 We recommend that you start planning to upgrade to Ruby 2.3 or 2.2.
 
 By the way, we are planning to release Ruby 2.1.10 in a few days.
 Ruby 2.1.10 will not include any changes from 2.1.9, except for its version number.
-You do not have to use it on production, but you should test it because it has two-digit version number.
+You do not have to use it on production, but you should test it because it has a two-digit version number.
 
 ## Download
 
