@@ -71,6 +71,7 @@ As with C++, in Ruby,...
 
 Unlike C, in Ruby,...
 
+* You don’t need to compile your code. You just run it directly.
 * Objects are strongly typed (and variable names themselves have no type
   at all).
 * There’s no macros or preprocessor. No casts. No pointers (nor pointer
@@ -78,8 +79,6 @@ Unlike C, in Ruby,...
 * There are no header files. You just define your functions (usually
   referred to as “methods”) and classes in the main source code files.
 * There’s no `#define`. Just use constants instead.
-* Code is interpreted at run-time rather than compiled
-  to any sort of machine- or byte-code.
 * All variables live on the heap. Further, you don’t need to free them
   yourself—the garbage collector takes care of that.
 * Arguments to methods (i.e. functions) are passed by reference, not by
