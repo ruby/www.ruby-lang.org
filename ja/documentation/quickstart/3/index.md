@@ -35,9 +35,7 @@ Bye Pat, come back soon.
 
 {% highlight irb %}
 irb(main):038:0> greeter.@name
-SyntaxError: compile error
-(irb):52: syntax error
-        from (irb):52
+SyntaxError: (irb):38: syntax error, unexpected tIVAR, expecting '('
 {% endhighlight %}
 
 おっと、これはできませんでした。
