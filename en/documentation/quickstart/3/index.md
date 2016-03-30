@@ -51,7 +51,7 @@ So what methods do exist for Greeter objects?
 
 {% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
-=> [:say_hi, :say_bye, :h, :instance_of?, :public_send,
+=> [:say_hi, :say_bye, :instance_of?, :public_send,
     :instance_variable_get, :instance_variable_set,
     :instance_variable_defined?, :remove_instance_variable,
     :private_methods, :kind_of?, :instance_variables, :tap,
