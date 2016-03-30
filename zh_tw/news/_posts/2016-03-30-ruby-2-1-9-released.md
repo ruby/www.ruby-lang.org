@@ -13,7 +13,7 @@ Ruby 2.1.9 釋出。
 請參考 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
 來進一步了解。
 
-[如先前所宣布](https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/)，這是 2.1 系列的最後一次正常發行版。
+[如先前所宣布](https://www.ruby-lang.org/zh_tw/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/)，這是 2.1 系列的最後一次正常發行版。
 這次發行版之後，除了安全性修正之外，就不再將錯誤修正移植到 2.1 版本。
 我們建議您開始計畫升級到 Ruby 2.3 或 2.2。
 
