@@ -36,8 +36,7 @@ Konferenzen rund um Ruby sind ausverkauft.
 
 ![Graph courtesy of
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px;"}
-{: style="float:right"}
+"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
 
 Ruby-Talk, die wichtigste [Mailingliste](/de/community/mailing-lists/)
 für Diskussionen rund um Ruby, erreichte 2006 einen Spitzenwert von etwa

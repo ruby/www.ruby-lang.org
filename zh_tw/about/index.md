@@ -22,8 +22,7 @@ Matz 常說： “不斷嘗試讓 Ruby 更為自然，而不是簡單”，就�
 
 ![Graph courtesy of
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px;"}
-{: style="float:right"}
+"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
 
 2006 年，Ruby 主要的[郵件列表：Ruby-Talk](/en/community/mailing-lists/) 上，討論 Ruby 語言的文章爬升到每日 200 封。近幾年郵件列表討論下降了，因為各個社群有著自己的討論小組。
 

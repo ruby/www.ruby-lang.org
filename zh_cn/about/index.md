@@ -23,8 +23,7 @@ Ruby 是一个注重均衡的语言，它的发明者[松本行弘（Yukihiro �
 
 ![Graph courtesy of
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px;"}
-{: style="float:right"}
+"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
 
 在主要的[邮件列表](/zh_cn/community/mailing-lists/) Ruby-Talk 中，讨论 Ruby 语言的消息攀升到每日 200 封。近几年，消息数量有所下降，因为社区在不断变大，由一个集中的邮件列表分成了很多小型的讨论组。
 

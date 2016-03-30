@@ -34,8 +34,7 @@ del mondo e conferenze a tema capaci di fare il tutto esaurito.
 
 ![Grafico per cortesia di
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Grafico per cortesia di Gmane."){: style="padding-left:8px;"}
-{: style="float:right"}
+"Grafico per cortesia di Gmane."){: style="padding-left:8px; float:right;"}
 
 Ruby-Talk, la prima [lista di discussione](/it/community/mailing-lists/)
 del linguaggio Ruby, ha raggiunto il traguardo di 200 nuovi messaggi

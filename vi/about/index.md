@@ -31,8 +31,7 @@ và cả các hội nghị liên quan Ruby luôn bán hết vé.
 
 ![Graph courtesy of
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px;"}
-{: style="float:right"}
+"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
 
 Ruby-Talk là [mailing list](/vi/community/mailing-lists/) chính để thảo luận về
 ngôn ngữ Ruby. Theo thống kê trung bình có trên 200 bài mỗi ngày trong năm 2006.

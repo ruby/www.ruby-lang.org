@@ -27,8 +27,7 @@ lang: ko
 
 ![Graph courtesy of
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px;"}
-{: style="float:right"}
+"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
 
 루비의 주된 [메일링 리스트](/ko/community/mailing-lists/)인 루비 토크는 2006년까지 하루에 평균 200개의 글이 올라올 정도로
 성장하였습니다. 최근 몇 년 동안 커뮤니티의 경향이 하나의 집중된 메일링 리스트보다 작은 그룹에서의 토론을 선호하게 바뀌어
