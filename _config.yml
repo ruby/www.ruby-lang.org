@@ -1148,7 +1148,7 @@ locales:
 #         text: Try Ruby! (in your browser)
 #         <<: *try_ruby
 #       quickstart:
-#         text: Ruby in Twenty Minutes
+#         text: 20分ではじめるRuby
 #         url: /ja/documentation/quickstart/
 #       ruby_from_other_languages:
 #         text: Ruby from Other Languages
