@@ -34,6 +34,8 @@ lang: ja
 [20分ではじめるRuby](/ja/documentation/quickstart/)
 : Rubyの基本をカバーしている便利なチュートリアルです。始めから終わりまで読んでも20分かからないでしょう。
 
+[ホワイの(感動的)Rubyガイド](http://www.aoky.net/articles/why_poignant_guide_to_ruby/)
+: お話やとんち、まんがを通してRubyを学べる、型破りだけれど面白い本です。why the lucky stiff によって書かれました。このガイドはRuby学習者にとっての古典です。
 
 ### リファレンス
 
