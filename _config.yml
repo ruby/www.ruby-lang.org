@@ -1142,19 +1142,19 @@ locales:
           text: Ultime Notizie (RSS)
           url: /it/feeds/news.rss
     ja:
-#     get_started:
-#       text: <strong>Get Started</strong>, it's easy!
-#       try_ruby:
-#         text: Try Ruby! (in your browser)
-#         <<: *try_ruby
-#       quickstart:
-#         text: 20分ではじめるRuby
-#         url: /ja/documentation/quickstart/
+      get_started:
+        text: <strong>はじめよう!</strong>
+        try_ruby:
+          text: 試してみる! (ブラウザから)
+          <<: *try_ruby
+        quickstart:
+          text: 20分ではじめるRuby
+          url: /ja/documentation/quickstart/
 #       ruby_from_other_languages:
 #         text: Ruby from Other Languages
 #         url: /ja/documentation/ruby-from-other-languages/
       explore:
-        text: <strong>探求しよう!</strong>
+        text: <strong>探求しよう</strong>
         documentation:
           text: ドキュメント
           url: /ja/documentation/
