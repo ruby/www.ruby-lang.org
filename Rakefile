@@ -17,16 +17,9 @@ task :default => [:build]
 
 desc "Build the Jekyll site"
 task :build do
-  require 'jekyll'
-  # workaround for LANG=C environment
-  module Jekyll::Convertible
-    Encoding.default_external = Encoding::UTF_8
-  end
+  require "lanyon"
 
-  options = Jekyll.configuration
-  puts "Building site: #{options['source']} -> #{options['destination']}"
-  $stdout.flush
-  Jekyll::Site.new(options).process
+  Lanyon.build
 end
 
 desc "Serve the Jekyll site locally"
