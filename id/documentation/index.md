@@ -4,9 +4,24 @@ title: "Dokumentasi"
 lang: id
 ---
 
-Di sini Anda akan menemukan petunjuk untuk manual, tutorial dan referensi yang
-akan berguna ketika Anda merasa seperti coding di Ruby.
+Di sini Anda akan menemukan petunjuk manual, tutorial, dan referensi yang
+akan berguna ketika Anda merasa seperti meng-*coding* di Ruby.
 {: .summary}
+
+### Memasang Ruby
+
+Kecuali jika Anda hanya ingin mencoba Ruby di *browser* (lihat tautan di bawah ini)
+Anda perlu memasang Ruby di dalam komputer Anda.
+Anda dapat mengecek apakah Ruby telah tersedia dengan membuka *terminal*
+dan mengetik
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+Ini seharusnya mengeluarkan informasi versi Ruby yang terpasang.
+Jika tidak, lihat [halaman instalasi](installation/) untuk berbagai pilihan
+mendapatkan Ruby.
 
 ### Langkah Pertama
 
@@ -44,7 +59,8 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 
 [Learning Ruby][6]
 : Sebuah koleksi menyeluruh dari catatan pelajaran Ruby bagi mereka yang baru ke
-  bahasa Ruby dan sedang mencari pengenalan konsep dan konstruksi Ruby.
+  bahasa Ruby dan sedang mencari pengenalan konsep dan konstruksi
+  Ruby.
 
 [Ruby Essentials][7]
 : Ruby Essentials adalah buku online gratis yang dirancang untuk memberikan
@@ -54,14 +70,9 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 : Tutorial kecil yang indah Chris Pine untuk pemula pemrograman. Jika
   Anda tidak tahu bagaimana membuat program, mulai di sini.
 
-[Coba Ruby](http://id-ruby.org/coba-ruby/)
-: Situs ini mirip dengan [Try Ruby!][1], tetapi isinya diterjemah dan
-  diadaptasikan ke Bahasa Indonesia.
-
-[Mengenal Ruby](http://nyan.catcyb.org/mengenal-ruby/)
-: Tempat mengenal dasar-dasar Ruby secara singkat dalam Bahasa Indonesia.
-  Isinya mencakup fitur-fitur Ruby yang biasa dipakai, RubyGems dan cara
-  instalasi Ruby. Terdapat juga contoh-contoh kode Ruby dapat dicoba langsung online.
+[Learn Ruby the Hard Way][38]
+: Sebuah kumpulan latihan yang sangat baik dengan penjelasan yang memandu Anda dari
+  semua dasar Ruby hingga OOP dan pengembangan *web*.
 
 ### Manual
 
@@ -89,6 +100,11 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 : Juga diambil langsung dari source code menggunakan RDoc, referensi ini
   mendokumentasikan library standar.
 
+[Ruby C API Reference][extensions]
+: Pengenalan Ruby C API.
+  Bagus jika Anda ingin membuat *extension* C
+  atau membantu pengembangan Ruby.
+
 [RubyDoc.info][16]
 : Situs web lengkap untuk dokumentasi referensi tentang gem Ruby dan
   proyek Ruby yang di-host di GitHub.
@@ -99,17 +115,23 @@ akan berguna ketika Anda merasa seperti coding di Ruby.
 [APIdock][18]
 : Dokumentasi Ruby, Rails dan RSpec dengan catatan para pengguna.
 
+[Omniref: Annotated Ruby, Rails, dan Gem Documentation][40]
+: Dokumentasi setiap versi Ruby dan setiap versi dari setiap
+  RubyGem. Sebuah referensi manual Ruby yang lengkat, dengan pencarian *code*,
+  *source annotation*, dan fitur Q&A.
+
 ### Editor dan IDE
 
-Untuk koding Ruby, Anda dapat menggunakan editor default dari sistem operasi.
-Supaya lebih efektif koding, alangkah sangat berguna untuk memilih editor
-dengan dukungan Ruby dasar (misalnya highlight sintaks, browsing file)
-atau integrated development environment yang memiliki fitur canggih
-(misalnya code completion, refactoring, support untuk testing).
+Untuk meng-*coding* Ruby, Anda dapat menggunakan *default editor* dari sistem operasi
+Anda. Supaya lebih efektif koding, alangkah sangat berguna untuk
+memilih editor dengan dukungan Ruby dasar (misalnya
+*highlight* sintaks, *browsing file*) atau *integrated development environment*
+yang memiliki fitur canggih (misalnya *code completion*, *refactoring*,
+*testing support*).
 
-Berikut adalah daftar alat populer yang digunakan oleh para pengguna Ruby.
+Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby.
 
-* Alat pada Linux dan lintas platform:
+* Kakas pada Linux dan lintas platform:
   * [Aptana Studio][19]
   * [Emacs][20] with [Ruby mode][21] and [Rsense][22]
   * [Geany][23]
@@ -119,15 +141,19 @@ Berikut adalah daftar alat populer yang digunakan oleh para pengguna Ruby.
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Atom][atom]
 
 * Pada Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
+  * [Atom][atom]
 
 * Pada Mac OS X:
   * [TextMate][32]
   * [TextWrangler][33]
+  * [Dash][39] (documentation browser)
+  * [Atom][atom]
 
 ### Bacaan selanjutnya
 
@@ -153,6 +179,7 @@ adalah tempat yang baik untuk memulai.
 [13]: http://www.ruby-doc.org/core
 [14]: http://docs.seattlerb.org/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
+[extensions]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
@@ -175,3 +202,7 @@ adalah tempat yang baik untuk memulai.
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
+[38]: http://ruby.learncodethehardway.org/
+[39]: http://kapeli.com/dash
+[40]: https://www.omniref.com
+[atom]: https://atom.io/
