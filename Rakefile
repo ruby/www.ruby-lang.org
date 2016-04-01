@@ -17,11 +17,9 @@ task :default => [:build]
 
 desc "Build the Jekyll site"
 task :build do
-  require 'jekyll'
-  options = Jekyll.configuration
-  puts "Building site: #{options['source']} -> #{options['destination']}"
-  $stdout.flush
-  Jekyll::Site.new(options).process
+  require "lanyon"
+
+  Lanyon.build
 end
 
 desc "Serve the Jekyll site locally"
