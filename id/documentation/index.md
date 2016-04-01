@@ -159,7 +159,7 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby.
 
 [Ruby-Doc.org][34] me-maintain daftar lengkap dokumentasi bahasa Inggris.
 Ada juga banyak [buku tentang Ruby] [35]. Jika Anda memiliki pertanyaan
-tentang Ruby, [mailing list](/en/community/mailing-lists/)
+tentang Ruby, [mailing list](/id/community/mailing-lists/)
 adalah tempat yang baik untuk memulai.
 
 
