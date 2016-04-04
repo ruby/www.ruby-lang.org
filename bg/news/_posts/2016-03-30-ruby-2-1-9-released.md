@@ -54,7 +54,6 @@ lang: bg
 ## Коментар
 
 Благодарим на всички, помогнали при подготвянето на тази версия.
-Thanks to everyone who helped with this release.
 
 Поддръжката на Ruby 2.1, включително този рилийз, е базирана на
 "Agreement for the Ruby stable version" от [Ruby Association](http://www.ruby.or.jp/).
