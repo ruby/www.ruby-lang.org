@@ -110,6 +110,11 @@ diversas maneiras de obter o Ruby.
 [APIdock][18]
 : Documentação do Ruby, Rails e RSpec com notas de usuários.
 
+[Omniref: Annotated Ruby, Rails, and Gem Documentation][40]
+: Documentação de todas as versões do Ruby e todas as versões de cada gem do
+  RubyGem. Um manual de referência completo para Ruby com pesquisa de código,
+  anotações, além de seção de Perguntas & Respostas.
+
 ### Editores e IDEs
 
 Para programar em Ruby, você pode usar o editor padrão do seu sistema
@@ -132,16 +137,19 @@ programadores Ruby:
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Atom][atom]
 
 * No Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
+  * [Atom][atom]
 
 * No Mac OS X:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (navegador de documentação)
+  * [Atom][atom]
 
 ### Leitura Complementar
 
@@ -191,3 +199,5 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[40]: https://www.omniref.com
+[atom]: https://atom.io/
