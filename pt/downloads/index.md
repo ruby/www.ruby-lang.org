@@ -36,17 +36,21 @@ como compilar Ruby a partir dos fontes. Se você tiver algum problema
 compilando Ruby, considere utilizar uma das ferramentas de terceiros
 mencionadas acima. Elas podem te ajudar.
 
-* **Versão estável atual:**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
+* **Versões estáveis:**{% for release in site.downloads.stable %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
-* **Versão estável anterior:**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
+{% if site.downloads.security_maintenance %}
+* **Com suporte a atualizações de segurança (EOL em breve!):**{% for release in site.downloads.security_maintenance %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
-* **Versão estável antiga:**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+{% if site.downloads.eol %}
+* **Sem suporte a atualizações (EOL):**{% for release in site.downloads.eol %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
 * **Snapshots:**
   * [Snapshot Estável]({{ site.downloads.stable_snapshot.url.gz }}):
