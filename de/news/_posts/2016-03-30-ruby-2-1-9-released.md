@@ -14,7 +14,7 @@ Siehe das [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
 für weitere Informationen.
 
 [Wie zuvor angekündigt](https://www.ruby-lang.org/de/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/)
-handelt es sich hierbei im die letzte reguläre Veröffentlichung der
+handelt es sich hierbei um die letzte reguläre Veröffentlichung der
 2.1er-Serie von Ruby, nach der wir abgesehen von
 Sicherheitskorrekturen keine weiteren Bugfixes nach Ruby 2.1
 zurückportieren werden.
@@ -63,4 +63,4 @@ Dank geht an alle, die bei dieser Veröffentlichung geholfen haben.
 
 Die Unterstützung von Ruby 2.1, diese Veröffentlichung eingeschlossen,
 basiert auf der „Vereinbarung über die stabile Version von Ruby“
-[der Ruby Association](http://www.ruby.or.jp/).
+der [Ruby Association](http://www.ruby.or.jp/).

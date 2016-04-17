@@ -9,19 +9,15 @@ lang: vi
 
 Ruby 2.1.9 đã được chính thức phát hành.
 
-Bản phát hành này bao gồm nhiều vá lỗi
-
+Bản phát hành này bao gồm nhiều vá lỗi.
 Xem [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
 để biết thêm chi tiết.
 
-[Như đã được thông báo trước đó](https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành thông thường cuối cùng của series 2.1.
-
+[Như đã được thông báo trước đó](https://www.ruby-lang.org/vi/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành thông thường cuối cùng của series 2.1.
 Sau bản phát hành này, chúng tôi sẽ không còn hỗ trợ bất kì lỗi nào cho 2.1 ngoại trừ lỗi bảo mật. Chúng tôi khuyến khích bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.3 hoặc 2.2.
 
 Đồng thời, chúng tôi dự định sẽ tung ra bản 2.1.10 trong vòng ít ngày tới.
-
 Ruby 2.1.10 sẽ không có bất kì sự thay đổi nào so với 2.1.9 ngoại trừ con số phiên bản.
-
 Bạn không cần phải sử dụng nó cho production, nhưng bạn nên thử nghiệm nó bởi vì số phiên bản của nó có hai chữ số.
 
 ## Download
