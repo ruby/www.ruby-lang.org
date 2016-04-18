@@ -36,7 +36,8 @@ Please try to use a mirror that is near you.
 * [Austria][mirror-http-at] (tuwien.ac.at)
 * [Taiwan 1][mirror-http-tw1] (cdpa.nsysu.edu.tw)
 * [Taiwan 2][mirror-http-tw2] (ftp.cs.pu.edu.tw)
-* [China][mirror-http-cn] (ruby.taobao.org)
+* [China 1][mirror-http-cn1] (ruby.taobao.org)
+* [China 2][mirror-http-cn2] (Ruby China)
 
 ### Mirror sites via FTP
 
@@ -92,7 +93,8 @@ Please try to use a mirror that is near you.
 [mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
 [mirror-http-tw1]: http://pluto.cdpa.nsysu.edu.tw/ruby/
 [mirror-http-tw2]: http://ftp.cs.pu.edu.tw/Unix/lang/Ruby/
-[mirror-http-cn]: https://ruby.taobao.org/mirrors/ruby/
+[mirror-http-cn1]: https://ruby.taobao.org/mirrors/ruby/
+[mirror-http-cn2]: https://cache.ruby-china.org/pub/ruby/
 [mirror-ftp-jp1]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-tohoku]: ftp://ring.tains.tohoku.ac.jp/pub/lang/ruby/
