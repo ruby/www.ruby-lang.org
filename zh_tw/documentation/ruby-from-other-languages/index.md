@@ -12,16 +12,11 @@ lang: zh_tw
 
 ## 重點整理: 從 *程式語言 X* 到 Ruby
 
-* [從 C 和 C++ 到
-  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [從 Java 到
-  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [從 Perl 到
-  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [從 PHP 到
-  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [從 Python 到
-  Ruby](/zh_tw/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [從 C 和 C++ 到 Ruby](to-ruby-from-c-and-cpp/)
+* [從 Java 到 Ruby](to-ruby-from-java/)
+* [從 Perl 到 Ruby](to-ruby-from-perl/)
+* [從 PHP 到 Ruby](to-ruby-from-php/)
+* [從 Python 到 Ruby](to-ruby-from-python/)
 
 ## 重要的語言特色及一些訣竅
 

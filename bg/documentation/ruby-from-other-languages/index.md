@@ -14,11 +14,11 @@ Ruby. Втората секция е посветена на някои от о�
 
 ## Какво да очакваме
 
-  * [Oт C/C++ към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-  * [Oт Java към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-java/)
-  * [Oт Perl към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-  * [Oт PHP към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-php/)
-  * [Oт Python към Ruby](/bg/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Oт C/C++ към Ruby](to-ruby-from-c-and-cpp/)
+* [Oт Java към Ruby](to-ruby-from-java/)
+* [Oт Perl към Ruby](to-ruby-from-perl/)
+* [Oт PHP към Ruby](to-ruby-from-php/)
+* [Oт Python към Ruby](to-ruby-from-python/)
 
 ## Важни неща в езика
 

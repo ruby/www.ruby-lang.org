@@ -16,16 +16,11 @@ lang: ko
 
 ## 차이점들: *어떤 언어*에서 루비로
 
-* [C 나 C++에서
-  루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [자바에서
-  루비로](/ko/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [펄에서
-  루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [PHP에서
-  루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [파이썬에서
-  루비로](/ko/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [C 나 C++에서 루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
+* [자바에서 루비로](to-ruby-from-java/)
+* [펄에서 루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
+* [PHP에서 루비로](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [파이썬에서 루비로](to-ruby-from-python/)
 
 ## 언어의 중요한 기능과 알아둘 점
 

@@ -18,16 +18,11 @@ mà bạn đã quen thuộc.
 
 ## Mong đợi gì: từ *ngôn ngữ X* đến Ruby
 
-* [Đến với Ruby từ C và
-  C++](/vi/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [Đến với Ruby từ
-  Java](/vi/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Đến với Ruby từ
-  Perl](/vi/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [Đến với Ruby từ
-  PHP](/vi/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Đến với Ruby từ
-  Python](/vi/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Đến với Ruby từ C và C++](to-ruby-from-c-and-cpp/)
+* [Đến với Ruby từ Java](to-ruby-from-java/)
+* [Đến với Ruby từ Perl](to-ruby-from-perl/)
+* [Đến với Ruby từ PHP](to-ruby-from-php/)
+* [Đến với Ruby từ Python](to-ruby-from-python/)
 
 ## Một số vấn đề và tính năng quan trọng của ngôn ngữ
 

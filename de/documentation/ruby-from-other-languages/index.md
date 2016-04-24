@@ -19,16 +19,11 @@ anderer Sprachen, die du bereits kennst.
 
 ## <span style="font-size:0.9em;;">Von *Sprache X* zu Ruby: Was erwartet mich?</span>
 
-* [Von C und C++ zu
-  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [Von Java zu
-  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Von Perl zu
-  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [Von PHP zu
-  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Von Python zu
-  Ruby](/de/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Von C und C++ zu Ruby](to-ruby-from-c-and-cpp/)
+* [Von Java zu Ruby](to-ruby-from-java/)
+* [Von Perl zu Ruby](to-ruby-from-perl/)
+* [Von PHP zu Ruby](to-ruby-from-php/)
+* [Von Python zu Ruby](to-ruby-from-python/)
 
 ## Wichtige Features und ein paar Fallen
 

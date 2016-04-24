@@ -16,12 +16,9 @@ najważniejszych elementów języka i porównuje je do tego, co już znasz.
 
 ## Czego oczekiwać: *Język X* a Ruby
 
-* [Ruby a
-  Java](/pl/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Ruby a
-  PHP](/pl/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Ruby a
-  Python](/pl/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Ruby a Java](to-ruby-from-java/)
+* [Ruby a PHP](to-ruby-from-php/)
+* [Ruby a Python](to-ruby-from-python/)
 
 ## Ważne elementy języka i niespodzianki
 

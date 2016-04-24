@@ -20,16 +20,11 @@ Anda lakukan di bahasa lain.
 
 ## Apa yang Diharapkan: *Bahasa X* ke Ruby
 
-* [Dari C dan C++ ke
-  Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [Dari Java ke
-  Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Dari Perl ke
-  Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [Dari PHP ke
-  Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Dari Python ke
-  Ruby](/id/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Dari C dan C++ ke Ruby](to-ruby-from-c-and-cpp/)
+* [Dari Java ke Ruby](to-ruby-from-java/)
+* [Dari Perl ke Ruby](to-ruby-from-perl/)
+* [Dari PHP ke Ruby](to-ruby-from-php/)
+* [Dari Python ke Ruby](to-ruby-from-python/)
 
 ## Tabel Perbandingan
 

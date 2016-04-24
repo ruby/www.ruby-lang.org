@@ -16,16 +16,11 @@ lang: ru
 
 ## Чего ожидать после *языка Х* на Ruby
 
-* [Пришедшим из C и
-  C++](/ru/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [В Ruby из
-  Java](/ru/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Знакомым с
-  Perl](/ru/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [Разработчикам на
-  PHP](/ru/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Пришедшим из
-  Python](/ru/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Пришедшим из C и C++](to-ruby-from-c-and-cpp/)
+* [В Ruby из Java](to-ruby-from-java/)
+* [Знакомым с Perl](to-ruby-from-perl/)
+* [Разработчикам на PHP](to-ruby-from-php/)
+* [Пришедшим из Python](to-ruby-from-python/)
 
 ## Важные замечания по поводу языка и подсказки
 

@@ -11,16 +11,11 @@ Perl、Python 和 Java（以及其他语言）的用户所熟悉的。 如果您
 
 ## 可以期待什么: *从语言 X* 到 Ruby
 
-* [从 C/C++ 到
-  Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [从 Java 到
-  Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [从 Perl 到
-  Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [从 PHP 到
-  Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [从 Python 到
-  Ruby](/zh_cn/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [从 C/C++ 到 Ruby](to-ruby-from-c-and-cpp/)
+* [从 Java 到 Ruby](to-ruby-from-java/)
+* [从 Perl 到 Ruby](to-ruby-from-perl/)
+* [从 PHP 到 Ruby](to-ruby-from-php/)
+* [从 Python 到 Ruby](to-ruby-from-python/)
 
 ## 重要的语言特性和一些小技巧
 

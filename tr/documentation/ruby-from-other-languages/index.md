@@ -16,16 +16,11 @@ bildiklerinizle karşılaştırır.
 
 ## Neler Değişiyor: *X Dilinden* Ruby’ye
 
-* [C ve C++ dan
-  Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [Java’dan
-  Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Perl’den
-  Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [PHP’den
-  Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Python’dan
-  Ruby’ye](/tr/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [C ve C++ dan Ruby’ye](to-ruby-from-c-and-cpp/)
+* [Java’dan Ruby’ye](to-ruby-from-java/)
+* [Perl’den Ruby’ye](to-ruby-from-perl/)
+* [PHP’den Ruby’ye](to-ruby-from-php/)
+* [Python’dan Ruby’ye](to-ruby-from-python/)
 
 ## Önemli Dil Özellikleri ve Bazı İpuçları
 

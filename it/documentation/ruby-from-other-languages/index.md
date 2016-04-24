@@ -20,16 +20,11 @@ ti è già familiare.
 
 ## Cosa c’è da aspettarsi: Da *Linguaggio X* a Ruby
 
-* [Da C/C++ a
-  Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [Da Java a
-  Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [Da Perl a
-  Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [Da PHP a
-  Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [Da Python a
-  Ruby](/it/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Da C/C++ a Ruby](to-ruby-from-c-and-cpp/)
+* [Da Java a Ruby](to-ruby-from-java/)
+* [Da Perl a Ruby](to-ruby-from-perl/)
+* [Da PHP a Ruby](to-ruby-from-php/)
+* [Da Python a Ruby](to-ruby-from-python/)
 
 ## Caratteristiche importanti e peculiarità
 

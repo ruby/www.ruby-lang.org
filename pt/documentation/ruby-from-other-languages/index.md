@@ -19,24 +19,11 @@ aquilo que já se encontra familiarizado.
 
 ## O Que Esperar: *Linguagem X* para Ruby
 
-* [Para Ruby a partir de C e
-  C++](/pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-^
-
-* [Para Ruby a partir de
-  Java](/pt/documentation/ruby-from-other-languages/to-ruby-from-java/)
-^
-
-* [Para Ruby a partir de
-  Perl](/pt/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-^
-
-* [Para Ruby a partir de
-  PHP](/pt/documentation/ruby-from-other-languages/to-ruby-from-php/)
-^
-
-* [Para Ruby a partir de
-  Python](/pt/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [Para Ruby a partir de C e C++](to-ruby-from-c-and-cpp/)
+* [Para Ruby a partir de Java](to-ruby-from-java/)
+* [Para Ruby a partir de Perl](to-ruby-from-perl/)
+* [Para Ruby a partir de PHP](to-ruby-from-php/)
+* [Para Ruby a partir de Python](to-ruby-from-python/)
 
 ## Características Importantes da Linguagem e Algumas Notas
 

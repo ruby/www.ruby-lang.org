@@ -19,28 +19,21 @@ familiarizado.
 
 ## Qué esperar: *Lenguaje X* a Ruby
 
-* [A Ruby desde
-  Java](/es/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [A Ruby desde
-  PHP](/es/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [A Ruby desde Java](to-ruby-from-java/)
+* [A Ruby desde PHP](to-ruby-from-php/)
 
 Estamos en proceso de traducir todos estos artículos, pero mientras lo
 hacemos no queremos privarte de que los leas en inglés:
 
-* [To Ruby From C and
-  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
+* [To Ruby From C and C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
   (en inglés)
-* [To Ruby From
-  Java](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
+* [To Ruby From Java](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
   (en inglés)
-* [To Ruby From
-  Perl](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
+* [To Ruby From Perl](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
   (en inglés)
-* [To Ruby From
-  PHP](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [To Ruby From PHP](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
   (en inglés)
-* [To Ruby From
-  Python](/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [To Ruby From Python](/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
   (en inglés)
 
 ## Funcionalidades importantes del lenguaje y algunas advertencias
