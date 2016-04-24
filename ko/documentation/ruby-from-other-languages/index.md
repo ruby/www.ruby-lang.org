@@ -224,45 +224,39 @@ end
 클래스나 하위 클래스 인스턴스에서 호출할 수 있고, 다른 인스턴스를 리시버로
 사용할 수 있습니다. [루비 FAQ][faq]에서 가져온 예제입니다.
 
-{% highlight irb %}
-$ irb
-irb(main):001:0> class Test
-irb(main):002:1>   # 기본값은 public입니다.
-irb(main):003:1*   def func
-irb(main):004:2>     99
-irb(main):005:2>   end
-irb(main):006:1>
-irb(main):007:1*   def ==(other)
-irb(main):008:2>     func == other.func
-irb(main):009:2>   end
-irb(main):010:1> end
-=> nil
-irb(main):011:0>
-irb(main):012:0* t1 = Test.new
-=> #<Test:0x34ab50>
-irb(main):013:0> t2 = Test.new
-=> #<Test:0x342784>
-irb(main):014:0> t1 == t2
-=> true
-irb(main):015:0> # 이제 `func`를 protected로 만들지만 protected가 다른
-irb(main):016:0* # 객체에서의 참조를 허용하기 때문에 여전히 동작합니다.
-irb(main):017:0* class Test
-irb(main):018:1>   protected :func
-irb(main):019:1> end
-=> Test
-irb(main):020:0> t1 == t2
-=> true
-irb(main):021:0> # 이제 `func`을 private으로 만듭니다.
-irb(main):022:0* class Test
-irb(main):023:1>   private :func
-irb(main):024:1> end
-=> Test
-irb(main):025:0> t1 == t2
-NoMethodError: private method `func' called for #<Test:0x342784>
-        from (irb):8:in `=='
-        from (irb):25
-        from :0
-irb(main):026:0>
+{% highlight ruby %}
+class Test
+  # 기본값은 public입니다.
+  def identifier
+    99
+  end
+
+  def ==(other)
+    identifier == other.identifier
+  end
+end
+
+t1 = Test.new  # => #<Test:0x34ab50>
+t2 = Test.new  # => #<Test:0x342784>
+t1 == t2       # => true
+
+# 이제 `identifier'를 protected로 만들지만 protected가 다른
+# 객체에서의 참조를 허용하기 때문에 여전히 동작합니다.
+
+class Test
+  protected :identifier
+end
+
+t1 == t2  # => true
+
+# 이제 `identifier'을 private으로 만듭니다.
+
+class Test
+  private :identifier
+end
+
+t1 == t2
+# NoMethodError: private method `identifier' called for #<Test:0x342784>
 {% endhighlight %}
 
 ### 열린 클래스

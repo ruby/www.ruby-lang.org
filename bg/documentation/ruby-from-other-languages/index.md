@@ -163,45 +163,39 @@ end
 
 В Ruby `private` се изпозлзва за модификатор за достъп, който прави методите достъпни, когато се викат без explicit receiver. В този случай Само **self** е receiver на извикването на private метод. Към `protected` трябва да се подхожда с внимание. protected метод може да бъде извикан от клас или инстанция на наследен клас, но също така и с друга инстанции като receiver. Пример, взет от [Ruby Language FAQ][faq]:
 
-{% highlight irb %}
-$ irb
-irb(main):001:0> class Test
-irb(main):002:1>   # public by default
-irb(main):003:1*   def func
-irb(main):004:2>     99
-irb(main):005:2>   end
-irb(main):006:1>
-irb(main):007:1*   def ==(other)
-irb(main):008:2>     func == other.func
-irb(main):009:2>   end
-irb(main):010:1> end
-=> nil
-irb(main):011:0>
-irb(main):012:0* t1 = Test.new
-=> #<Test:0x34ab50>
-irb(main):013:0> t2 = Test.new
-=> #<Test:0x342784>
-irb(main):014:0> t1 == t2
-=> true
-irb(main):015:0> # now make `func` protected, still works
-irb(main):016:0* # because protected allows the other reference
-irb(main):017:0* class Test
-irb(main):018:1>   protected :func
-irb(main):019:1> end
-=> Test
-irb(main):020:0> t1 == t2
-=> true
-irb(main):021:0> # now make `func` private
-irb(main):022:0* class Test
-irb(main):023:1>   private :func
-irb(main):024:1> end
-=> Test
-irb(main):025:0> t1 == t2
-NoMethodError: private method `func' called for #<Test:0x342784>
-        from (irb):8:in `=='
-        from (irb):25
-        from :0
-irb(main):026:0>
+{% highlight ruby %}
+class Test
+  # public by default
+  def identifier
+    99
+  end
+
+  def ==(other)
+    identifier == other.identifier
+  end
+end
+
+t1 = Test.new  # => #<Test:0x34ab50>
+t2 = Test.new  # => #<Test:0x342784>
+t1 == t2       # => true
+
+# now make `identifier' protected; it still works
+# because protected allows `other' as receiver
+
+class Test
+  protected :identifier
+end
+
+t1 == t2  # => true
+
+# now make `identifier' private
+
+class Test
+  private :identifier
+end
+
+t1 == t2
+# NoMethodError: private method `identifier' called for #<Test:0x342784>
 {% endhighlight %}
 
 ### Отворени класове

@@ -188,45 +188,39 @@ Ruby 有些不同。`public` 还是公开的。`private` 表示只有非明确�
 
 `protected` 应该特别注意。受保护的方法可以被类及继承类的实例调用，同一个类的其他实例也可以调用。 来自[Ruby Language FAQ][faq] 的例子:
 
-{% highlight irb %}
-$ irb
-irb(main):001:0> class Test
-irb(main):002:1>   # 默认公开
-irb(main):003:1*   def func
-irb(main):004:2>     99
-irb(main):005:2>   end
-irb(main):006:1>
-irb(main):007:1*   def ==(other)
-irb(main):008:2>     func == other.func
-irb(main):009:2>   end
-irb(main):010:1> end
-=> nil
-irb(main):011:0>
-irb(main):012:0* t1 = Test.new
-=> #<Test:0x34ab50>
-irb(main):013:0> t2 = Test.new
-=> #<Test:0x342784>
-irb(main):014:0> t1 == t2
-=> true
-irb(main):015:0> # 修改 `func` 为受保护方法，仍然可用
-irb(main):016:0* # 因为受保护方法允许其他引用
-irb(main):017:0* class Test
-irb(main):018:1>   protected :func
-irb(main):019:1> end
-=> Test
-irb(main):020:0> t1 == t2
-=> true
-irb(main):021:0> # 修改 `func` 为私有方法
-irb(main):022:0* class Test
-irb(main):023:1>   private :func
-irb(main):024:1> end
-=> Test
-irb(main):025:0> t1 == t2
-NoMethodError: private method `func' called for #<Test:0x342784>
-        from (irb):8:in `=='
-        from (irb):25
-        from :0
-irb(main):026:0>
+{% highlight ruby %}
+class Test
+  # 默认公开
+  def identifier
+    99
+  end
+
+  def ==(other)
+    identifier == other.identifier
+  end
+end
+
+t1 = Test.new  # => #<Test:0x34ab50>
+t2 = Test.new  # => #<Test:0x342784>
+t1 == t2       # => true
+
+# 修改 `identifier' 为受保护方法，仍然可用
+# 因为受保护方法允许其他引用
+
+class Test
+  protected :identifier
+end
+
+t1 == t2  # => true
+
+# 修改 `identifier' 为私有方法
+
+class Test
+  private :identifier
+end
+
+t1 == t2
+# NoMethodError: private method `identifier' called for #<Test:0x342784>
 {% endhighlight %}
 
 ### 类是开放的

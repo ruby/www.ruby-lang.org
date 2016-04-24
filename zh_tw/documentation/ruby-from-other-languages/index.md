@@ -197,45 +197,39 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
 
 `protected` 也有點不同。一個 protected 方法除了可以被一個類別或衍生類別的實例呼叫，也可以讓另一個相同類別的實例來當做接受者。 來看看 [Ruby Language FAQ][faq] 的例子：
 
-{% highlight irb %}
-$ irb
-irb(main):001:0> class Test
-irb(main):002:1>   # 預設是 public 的
-irb(main):003:1*   def func
-irb(main):004:2>     99
-irb(main):005:2>   end
-irb(main):006:1>
-irb(main):007:1*   def ==(other)
-irb(main):008:2>     func == other.func
-irb(main):009:2>   end
-irb(main):010:1> end
-=> nil
-irb(main):011:0>
-irb(main):012:0* t1 = Test.new
-=> #<Test:0x34ab50>
-irb(main):013:0> t2 = Test.new
-=> #<Test:0x342784>
-irb(main):014:0> t1 == t2
-=> true
-irb(main):015:0> # 來讓 `func` 變成 protected，一樣沒問題
-irb(main):016:0* # 因為 protected 允許其他相同類別的實例呼叫
-irb(main):017:0* class Test
-irb(main):018:1>   protected :func
-irb(main):019:1> end
-=> Test
-irb(main):020:0> t1 == t2
-=> true
-irb(main):021:0> # 來讓 `func` 變成 private
-irb(main):022:0* class Test
-irb(main):023:1>   private :func
-irb(main):024:1> end
-=> Test
-irb(main):025:0> t1 == t2
-NoMethodError: private method `func' called for #<Test:0x342784>
-        from (irb):8:in `=='
-        from (irb):25
-        from :0
-irb(main):026:0>
+{% highlight ruby %}
+class Test
+  # 預設是 public 的
+  def identifier
+    99
+  end
+
+  def ==(other)
+    identifier == other.identifier
+  end
+end
+
+t1 = Test.new  # => #<Test:0x34ab50>
+t2 = Test.new  # => #<Test:0x342784>
+t1 == t2       # => true
+
+# 來讓 `identifier' 變成 protected，一樣沒問題
+# 因為 protected 允許其他相同類別的實例呼叫
+
+class Test
+  protected :identifier
+end
+
+t1 == t2  # => true
+
+# 來讓 `identifier' 變成 private
+
+class Test
+  private :identifier
+end
+
+t1 == t2
+# NoMethodError: private method `identifier' called for #<Test:0x342784>
 {% endhighlight %}
 
 ### 類別是開放的

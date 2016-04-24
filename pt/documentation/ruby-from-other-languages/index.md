@@ -248,45 +248,39 @@ Only **self** is allowed to be the receiver of a private method call.
 
 `protected` é aquele que se deve ter mais cuidado. Um método protegido pode ser chamado de uma class ou classes descendentes, mas também com outra instância como receptor. Exemplo adaptado da [Ruby Language FAQ][faq]:
 
-{% highlight irb %}
-$ irb
-irb(main):001:0> class Teste
-irb(main):002:1>   # public por omissao
-irb(main):003:1*   def func
-irb(main):004:2>     99
-irb(main):005:2>   end
-irb(main):006:1>
-irb(main):007:1*   def ==(outro)
-irb(main):008:2>     func == outro.func
-irb(main):009:2>   end
-irb(main):010:1> end
-=> nil
-irb(main):011:0>
-irb(main):012:0* t1 = Teste.new
-=> #<Test:0x34ab50>
-irb(main):013:0> t2 = Teste.new
-=> #<Test:0x342784>
-irb(main):014:0> t1 == t2
-=> true
-irb(main):015:0> # seja `func` protected. ainda funciona
-irb(main):016:0* # porque protected permite a outra referência
-irb(main):017:0* class Teste
-irb(main):018:1>   protected :func
-irb(main):019:1> end
-=> Test
-irb(main):020:0> t1 == t2
-=> true
-irb(main):021:0> # seja `func` private
-irb(main):022:0* class Teste
-irb(main):023:1>   private :func
-irb(main):024:1> end
-=> Test
-irb(main):025:0> t1 == t2
-NoMethodError: private method `func' called for #<Test:0x342784>
-        from (irb):8:in `=='
-        from (irb):25
-        from :0
-irb(main):026:0>
+{% highlight ruby %}
+class Test
+  # public por omissao
+  def identifier
+    99
+  end
+
+  def ==(other)
+    identifier == other.identifier
+  end
+end
+
+t1 = Test.new  # => #<Test:0x34ab50>
+t2 = Test.new  # => #<Test:0x342784>
+t1 == t2       # => true
+
+# seja `identifier' protected. ainda funciona
+# porque protected permite a outra referência
+
+class Test
+  protected :identifier
+end
+
+t1 == t2  # => true
+
+# seja `identifier' private
+
+class Test
+  private :identifier
+end
+
+t1 == t2
+# NoMethodError: private method `identifier' called for #<Test:0x342784>
 {% endhighlight %}
 
 ### As Classes são abertas
