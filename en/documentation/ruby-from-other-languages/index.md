@@ -19,16 +19,11 @@ with.
 
 ## What to Expect: *Language X* to Ruby
 
-* [To Ruby From C and
-  C++](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [To Ruby From
-  Java](/en/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [To Ruby From
-  Perl](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [To Ruby From
-  PHP](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [To Ruby From
-  Python](/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [To Ruby From C and C++](to-ruby-from-c-and-cpp/)
+* [To Ruby From Java](to-ruby-from-java/)
+* [To Ruby From Perl](to-ruby-from-perl/)
+* [To Ruby From PHP](to-ruby-from-php/)
+* [To Ruby From Python](to-ruby-from-python/)
 
 ## Important Language Features And Some Gotchas
 
@@ -56,7 +51,7 @@ For more info on `each` (and its friends `collect`, `find`, `inject`,
 ### Everything has a value
 
 There’s no difference between an expression and a statement. Everything
-has a value, even if that value is **nil**. This is possible:
+has a value, even if that value is `nil`. This is possible:
 
 {% highlight ruby %}
 x = 10
@@ -160,7 +155,7 @@ deliver(via: "Pony Express", from: "B", to: "A")
 
 ### The universal truth
 
-In Ruby, everything except **nil** and **false** is considered true. In
+In Ruby, everything except `nil` and `false` is considered true. In
 C, Python and many other languages, 0 and possibly other values, such as
 empty lists, are considered false. Take a look at the following Python
 code (the example applies to other languages, too):
@@ -224,12 +219,12 @@ altered.
 In Java, `public` means a method is accessible by anyone. `protected`
 means the class’s instances, instances of descendant classes, and
 instances of classes in the same package can access it, but not anyone
-else, and `private` means nobody besides the class's instances can
+else, and `private` means nobody besides the class’s instances can
 access the method.
 
 Ruby differs slightly. `public` is, naturally, public. `private` means
 the method(s) are accessible only when they can be called without an
-explicit receiver. Only **self** is allowed to be the receiver of a
+explicit receiver. Only `self` is allowed to be the receiver of a
 private method call.
 
 `protected` is the one to be on the lookout for. A protected method can be
@@ -296,9 +291,9 @@ Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 
 In Ruby, methods are allowed to end with question marks or exclamation marks.
 By convention, methods that answer questions end in question marks
-(e.g. `Array#empty?`, which returns **true** if the receiver is empty).
+(e.g. `Array#empty?`, which returns `true` if the receiver is empty).
 Potentially “dangerous” methods by convention end with exclamation marks
-(e.g. methods that modify **self** or the arguments, `exit!`, etc.).
+(e.g. methods that modify `self` or the arguments, `exit!`, etc.).
 Not all methods that change their arguments end with exclamation marks, though.
 `Array#replace` replaces the contents of an array with the contents
 of another array. It doesn’t make much sense to have a method like that
@@ -395,7 +390,7 @@ method(:puts).call "puts is an object!"
 ### Operators are syntactic sugar
 
 Most operators in Ruby are just syntactic sugar (with some precedence
-rules) for method calls. You can, for example, override Fixnums +
+rules) for method calls. You can, for example, override Fixnum’s `+`
 method:
 
 {% highlight ruby %}
