@@ -164,8 +164,6 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
 * [MagLev][maglev]는 “통합된 개체 지속성과 분산 공유 캐시를 가진 빠르고, 안정적인 루비 구현체”입니다.
 * [Cardinal][cardinal]는 “[Parrot][parrot] 가상 기기을 위한 루비 컴파일러”(Perl 6)입니다.
 
-MRI를 포함, 일부 구현체들은 “complete executable specification for the Ruby programming language”인 [RubySpec][rubyspec]의 가이드라인을 준수합니다.
-
 ### 참조
 
 <sup>1</sup> 마츠, 루비토크 메일링 리스트에서, [May 12th,
@@ -196,4 +194,3 @@ MRI를 포함, 일부 구현체들은 “complete executable specification for t
 [maglev]: http://ruby.gemstone.com
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
-[rubyspec]: http://rubyspec.org

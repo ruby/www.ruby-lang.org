@@ -216,9 +216,6 @@ Tu jest lista:
 * [Cardinal][cardinal] jest “kompilatorem Rubiego dla [Parrot][parrot] Virtual Machine”
   (Perl 6).
 
-Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
-[RubySpec][rubyspec], “pełna wykonywalna specyfikacja dla języka programowania Ruby”.
-
 ### Odnośniki
 
 <sup>1</sup> Matz, wypowiedź na liście ruby-talk, [May 12th, 2000][blade].
@@ -247,4 +244,3 @@ Niektóre z tych implementacji, włączając w to MRI, podążają za wytycznymi
 [maglev]: http://ruby.gemstone.com
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
-[rubyspec]: http://rubyspec.org

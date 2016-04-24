@@ -181,8 +181,6 @@ MRI以外のRuby処理系には以下のようなものがあります。
 * [MagLev][maglev]は、オブジェクトの永続化と分散共有キャッシュを持った、高速で安定したRuby処理系です。
 * [Cardinal][cardinal]はPerl6用の仮想マシンである[Parrot][parrot]上のRubyコンパイラです。
 
-MRIを含めて、これらの処理系は「Ruby言語のための実行可能な仕様」である[RubySpec][rubyspec]のガイドラインに沿っています。
-
 ### 参照リンク
 
 <sup>1</sup> Matz, ruby-talk メーリンクリスト上での会話, [2000年5月12日][blade]。
@@ -209,4 +207,3 @@ MRIを含めて、これらの処理系は「Ruby言語のための実行可能�
 [maglev]: http://ruby.gemstone.com
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
-[rubyspec]: http://rubyspec.org

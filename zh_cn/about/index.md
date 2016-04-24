@@ -132,8 +132,6 @@ Ruby 还有其他众多特性，下面列举一些：
 * [MagLev][maglev] 是“一个快速、稳定的 Ruby 实现，支持集成对象持久化和分布式共享缓存”。
 * [Cardinal][cardinal] 是一个“为 [Parrot][parrot] 虚拟机 （Perl 6）编写的 Ruby 编译器”。
 
-这些实现中有一部分（包括 MRI）遵守 [RubySpec][rubyspec] 规范，这是一份“完全可以执行的 Ruby 编程语言规范”。
-
 ### 参考资料
 
 <sup>1</sup> [2000 年 5 月 12 日][blade]，Matz 在 Ruby-Talk 邮件列表中发布的消息。
@@ -161,4 +159,3 @@ Ruby 还有其他众多特性，下面列举一些：
 [maglev]: http://ruby.gemstone.com
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
-[rubyspec]: http://rubyspec.org
