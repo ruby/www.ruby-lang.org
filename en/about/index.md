@@ -211,10 +211,6 @@ Here’s a list:
 * [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
   (Perl 6).
 
-Some of those implementations, including MRI, follow the guidelines of
-[RubySpec][rubyspec], a “complete executable specification for the Ruby
-programming language”.
-
 ### References
 
 <sup>1</sup> Matz, speaking on the Ruby-Talk mailing list, [May 12th,
@@ -245,4 +241,3 @@ programming language”.
 [maglev]: http://ruby.gemstone.com
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
-[rubyspec]: http://rubyspec.org
