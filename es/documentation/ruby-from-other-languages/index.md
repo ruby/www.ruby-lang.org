@@ -252,7 +252,7 @@ Al que debemos estar atentos es a `protected`. Un método protegido puede
 ser llamado desde una instancia de una clase o las instancias de sus
 ancestros, pero también con otra instancia como su receptor.
 
-Ejemplo, adaptado del [Ruby FAQ][1]\:
+Ejemplo, adaptado del [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -457,4 +457,4 @@ Cuando estés listo para saber más sobre Ruby, visita nuestra sección de
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

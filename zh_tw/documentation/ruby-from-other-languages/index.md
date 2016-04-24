@@ -195,7 +195,7 @@ package 類別的實例可以呼叫，而 `private` 表示除了這個類別的�
 在 Ruby 中，`public` 還是一樣是公開的意思，其他則有一點差異。`private`
 表示只有不指定接受者(receiver)時才可以呼叫，也就是只有 **self** 可以當成 private 方法的接受者。
 
-`protected` 也有點不同。一個 protected 方法除了可以被一個類別或衍生類別的實例呼叫，也可以讓另一個相同類別的實例來當做接受者。 來看看 [Ruby FAQ][1] 的例子：
+`protected` 也有點不同。一個 protected 方法除了可以被一個類別或衍生類別的實例呼叫，也可以讓另一個相同類別的實例來當做接受者。 來看看 [Ruby Language FAQ][faq] 的例子：
 
 {% highlight irb %}
 $ irb
@@ -381,4 +381,4 @@ end
 
 
 
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

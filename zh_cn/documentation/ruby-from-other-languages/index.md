@@ -186,7 +186,7 @@ end
 
 Ruby 有些不同。`public` 还是公开的。`private` 表示只有非明确指定接收者（receiver）才允许调用。私有方法调用只允许 **self** 为接收者。
 
-`protected` 应该特别注意。受保护的方法可以被类及继承类的实例调用，同一个类的其他实例也可以调用。 来自[Ruby FAQ][1] 的例子:
+`protected` 应该特别注意。受保护的方法可以被类及继承类的实例调用，同一个类的其他实例也可以调用。 来自[Ruby Language FAQ][faq] 的例子:
 
 {% highlight irb %}
 $ irb
@@ -353,4 +353,6 @@ end
 
 当你准备学习更多 Ruby 知识的时候，请查看[文档](/zh_cn/documentation/)部分。
 
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
+
+
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

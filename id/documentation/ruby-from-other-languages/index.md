@@ -262,7 +262,7 @@ metode hanya bisa diakses ketika metode bisa dipanggil tanpa obyek
 penerima yang eksplisit. Hanya **self** yang boleh menjadi receiver
 pemanggilan metode private.
 
-`protected` perlu diperhatikan lebih lanjut. Metode `protected` bisa dipanggil dari kelas ataupun *instance* kelas turunan, tetapi juga dengan *instance* lain sebagai penerima. Contoh, diadaptasi dari [Ruby FAQ][2]\:
+`protected` perlu diperhatikan lebih lanjut. Metode `protected` bisa dipanggil dari kelas ataupun *instance* kelas turunan, tetapi juga dengan *instance* lain sebagai penerima. Contoh, diadaptasi dari [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -485,4 +485,4 @@ Ketika Anda siap dengan pengetahuan Ruby yang lebih lagi, lihat bagian
 
 
 [1]: http://www.jvoegele.com/software/langcomp.html
-[2]: http://www.rubycentral.com/faq/rubyfaq-7.html
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

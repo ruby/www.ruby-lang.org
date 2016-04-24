@@ -222,7 +222,7 @@ end
 
 `protected` 밖에서부터 호출했을 때 주의해야 한다는 뜻입니다. `protected` 메소드는
 클래스나 하위 클래스 인스턴스에서 호출할 수 있고, 다른 인스턴스를 리시버로
-사용할 수 있습니다. [루비 FAQ][1]에서 가져온 예제입니다.
+사용할 수 있습니다. [루비 FAQ][faq]에서 가져온 예제입니다.
 
 {% highlight irb %}
 $ irb
@@ -421,4 +421,4 @@ C++의 `operator+` 같은 건 필요 없습니다.
 
 
 
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

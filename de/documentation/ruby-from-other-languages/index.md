@@ -257,7 +257,7 @@ Empfänger in der Klasse und abgeleiteten Klassen aufgerufen werden (wie
 bei *private*), aber zusätzlich auch mit einer anderen Instanz dieser
 Klasse als Empfänger.
 
-Ein Beispiel aus den [Ruby FAQ][1]\:
+Ein Beispiel aus den [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -464,4 +464,4 @@ Wenn du bereit für noch mehr Ruby-Wissen bist, dann schau dir die
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

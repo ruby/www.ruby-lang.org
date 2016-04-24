@@ -226,7 +226,7 @@ end
 
 О `protected` методах надо поговорить подробнее. Protected метод может быть вызван
 инстансом текущего или дочернего класса, однако может иметь вызывающей стороной
-другой инстанс. Пример, позаимствованный из [Ruby FAQ][1]\:
+другой инстанс. Пример, позаимствованный из [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -425,4 +425,4 @@ end
 
 
 
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

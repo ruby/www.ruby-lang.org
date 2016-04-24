@@ -249,7 +249,7 @@ est autorisé. `protected` est à part : une méthode protégée peut être
 appelée depuis une instance de classe ou de classe fille, mais également
 avec une autre instance comme destinataire.
 
-Un exemple, repris de la [FAQ Ruby][1]\:
+Un exemple, repris de la [FAQ Ruby][faq]:
 
 {% highlight irb %}
 $ irb
@@ -458,4 +458,4 @@ Enthousiaste ? Direction notre section
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

@@ -233,7 +233,8 @@ tiếp nhận khi gọi phương thức private.
 
 `protected` là một truy cập cần được xem xét. Một phương thức protected có thể
 được gọi từ một lớp con của lớp thể hiện (lớp cha), nhưng cũng có thề được gọi
-bởi lớp thể hiện khác như là một lớp tiếp nhận của nó. Ví dụ, từ [Ruby FAQ][1]\:
+bởi lớp thể hiện khác như là một lớp tiếp nhận của nó.
+Ví dụ, từ [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -433,4 +434,4 @@ Khi bạn đã sẵn sàng để nâng cao kiến thức về Ruby, xem phần
 
 
 
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

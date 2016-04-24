@@ -246,7 +246,7 @@ significa que os métodos são acessíveis somente quando chamados com um
 receptor específico. Só **self** pode ser o receptor dum método privado
 Only **self** is allowed to be the receiver of a private method call.
 
-`protected` é aquele que se deve ter mais cuidado. Um método protegido pode ser chamado de uma class ou classes descendentes, mas também com outra instância como receptor. Exemplo adaptado da [Ruby FAQ][1]\:
+`protected` é aquele que se deve ter mais cuidado. Um método protegido pode ser chamado de uma class ou classes descendentes, mas também com outra instância como receptor. Exemplo adaptado da [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -456,4 +456,4 @@ secção de [Documentação](/pt/documentation/).
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html "FAQ de Ruby"
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

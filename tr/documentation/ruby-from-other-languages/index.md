@@ -219,7 +219,7 @@ Ruby biraz farklılık gösterir. `public` doğal olarak herkese açık
 demektir. `private` ise metodun belirlenmiş alıcısı varsa
 erişilebileceğini belirtir ve bu alıcı sadece **self** olabilir.
 
-`protected` incelenmesi gereken birşey. Bir protected metod sınıfın yada türetilmiş sınıfın oluşumlarından çağrılabilir, ayrıca diğer oluşum üzerinden çağrılabilir. Örnek, [Ruby FAQ][1] alınmıştır:
+`protected` incelenmesi gereken birşey. Bir protected metod sınıfın yada türetilmiş sınıfın oluşumlarından çağrılabilir, ayrıca diğer oluşum üzerinden çağrılabilir. Örnek, [Ruby Language FAQ][faq] alınmıştır:
 
 {% highlight irb %}
 $ irb
@@ -420,4 +420,4 @@ bölümüne bakınız.
 
 
 
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

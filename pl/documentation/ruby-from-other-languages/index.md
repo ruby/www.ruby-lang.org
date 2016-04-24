@@ -228,7 +228,7 @@ dostęp publiczny. `private` oznacza, że dana metoda(y) jest dostępna
 tylko wtedy, jeśli można ją wywołać bez wyraźnego określenia odbiorcy.
 Jedynie **self** jest dozwolonym odbiorcą wywołań prywatnych metod.
 
-`protected` jest tym, na co trzeba zwrócić uwagę. Metoda chroniona może być wywołana przez instancje danej klasy lub klas pochodnych, ale również przez inną instancję danej klasy. Poniżej przykład za [Ruby FAQ][1]\:
+`protected` jest tym, na co trzeba zwrócić uwagę. Metoda chroniona może być wywołana przez instancje danej klasy lub klas pochodnych, ale również przez inną instancję danej klasy. Poniżej przykład za [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -432,4 +432,4 @@ Więcej informacji na temat języka Ruby znajdziesz w
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

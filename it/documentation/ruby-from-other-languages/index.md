@@ -245,7 +245,7 @@ usato come ricevente per una chiamata ad un metodo pubblico.
 `protected` è il più inusuale dei tre. Un metodo protetto può essere chiamato
 da un’istanza della classe o delle sue derivate, ma anche con un’altra istanza
 come receiver. Per chiarificare meglio il concetto, consideriamo questo
-semplice esempio adattato dalle [Ruby FAQ][1]\:
+semplice esempio adattato dalle [Ruby Language FAQ][faq]:
 
 {% highlight irb %}
 $ irb
@@ -457,4 +457,4 @@ sezione [Documentazione](/it/documentation/).
 
 
 
-[1]: http://www.rubycentral.com/faq/rubyfaq-7.html
+[faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
