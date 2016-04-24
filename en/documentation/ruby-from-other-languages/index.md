@@ -234,7 +234,7 @@ private method call.
 
 `protected` is the one to be on the lookout for. A protected method can be
 called from a class or descendant class instances, but also with another
-instance as its receiver. Example, adapted from the [Ruby FAQ][1]\:
+instance as its receiver. Here is an example:
 
 {% highlight irb %}
 $ irb
@@ -432,5 +432,3 @@ When you are ready for more Ruby knowledge, see our
 [Documentation](/en/documentation/) section.
 
 
-
-[1]: http://faq.rubygarden.org/entry/show/57?controller_prefix=faq%2F
