@@ -20,7 +20,7 @@ for details.
       SIZE:   13350551 bytes
       SHA1:   f78473fe60a632b778599374ae64612592c2c9c1
       SHA256: 22f0c6f34c0024e0bcaaa8e6831b7c0041e1ef6120c781618b833bde29626700
-      SHA512: d3224814361c297bc36646c2e40f63c461ccf5a77fea5a3acdcb2c7ad1705bb229ac6a
+      SHA512: d3224814361c297bc36646c2e40f63c461ccf5a77fea5a3acdcb2c7ad1705bb229ac6abbd7ad1ae61cbe0fefd7a008c6102568d11366ad3107179302cd3e734e
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.gz](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.gz)
 
