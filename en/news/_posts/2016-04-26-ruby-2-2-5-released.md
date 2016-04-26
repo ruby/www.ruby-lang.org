@@ -47,8 +47,8 @@ for details.
 
 Thanks to everyone who helped with this release.
 
-From this release, the maintainer of Ruby 2.2 is switched from nagachika-san to usa.
-About 2/3 part of the changes included in this release is made by nagachika-san.
+With this release, the maintainer of Ruby 2.2 changed from nagachika-san to usa.
+About two thirds of the changes included in this release were made by nagachika-san.
 Thanks for his great contributions.
 
 The maintenance of Ruby 2.2, including this release, is based on the "Agreement for the Ruby stable version" of the [Ruby Association](http://www.ruby.or.jp/).
