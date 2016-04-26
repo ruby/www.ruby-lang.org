@@ -12,7 +12,8 @@ Ruby 2.3.1 has been released.
 This is the first TEENY version release of the stable 2.3 series.
 
 There are many bugfixes.
-See [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog) for details.
+See the [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+for details.
 
 ## Download
 

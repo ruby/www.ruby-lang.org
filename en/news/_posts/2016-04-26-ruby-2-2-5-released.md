@@ -10,7 +10,7 @@ lang: en
 Ruby 2.2.5 has been released.
 
 This release includes many bug fixes.
-See [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+See the [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
 for details.
 
 ## Download
@@ -51,4 +51,6 @@ With this release, the maintainer of Ruby 2.2 changed from nagachika-san to usa.
 About two thirds of the changes included in this release were made by nagachika-san.
 Thanks for his great contributions.
 
-The maintenance of Ruby 2.2, including this release, is based on the "Agreement for the Ruby stable version" of the [Ruby Association](http://www.ruby.or.jp/).
+The maintenance of Ruby 2.2, including this release,
+is based on the "Agreement for the Ruby stable version" of the
+[Ruby Association](http://www.ruby.or.jp/).
