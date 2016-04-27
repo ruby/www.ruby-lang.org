@@ -1802,7 +1802,7 @@ locales:
       action: 操作
       subscribe: 订阅
       unsubscribe: 退订
-      submit: 提交表格
+      submit: 提交表单
     zh_tw:
       list: 郵件論壇
       first_name: 名
