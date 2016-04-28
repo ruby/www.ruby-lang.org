@@ -137,7 +137,7 @@ Unlike C++, in Ruby,...
   anyway). No casting either.
 * Iteration is done a bit differently. In Ruby, you don’t use a separate
   iterator object (like `vector<T>::const_iterator iter`) but instead
-  your objects may mixin the `Enumerator` module and just make a method
+  your objects may mixin the `Enumerable` module and just make a method
   call like `my_obj.each`.
 * There’s only two container types: `Array` and `Hash`.
 * There’s no type conversions. With Ruby though, you’ll probably find
