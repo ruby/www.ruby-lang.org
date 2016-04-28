@@ -163,9 +163,9 @@ code (the example applies to other languages, too):
 {% highlight python %}
 # in Python
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 This will print “0 is false”. The equivalent Ruby:
