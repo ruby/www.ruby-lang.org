@@ -22,7 +22,8 @@ Chúng ta có một vài công cụ trên các nền tảng chính để cài đ
 Xem trang [Cài đặt][installation] để biết thêm chi tiết về
 hệ thống quản lý gói hoặc các công cụ của bên thứ ba.
 
-Dĩ nhiên bạn có thể cài đặt Ruby từ gói mã nguồn trên các nền tảng chính.
+Dĩ nhiên bạn có thể cài đặt Ruby từ gói mã nguồn trên các nền tảng
+chính.
 
 ### Biên dịch Ruby — Mã nguồn
 
@@ -34,24 +35,29 @@ Xem trang [Cài đặt][installation] để biết thêm chi tiết cách biên 
 Ruby từ nguồn. Nếu bạn gặp vấn đề biên dịch Ruby, xin hãy xem xét sử
 dụng một trong những công cụ của bên thứ ba đã được đề cập ở trên.
 
-* **Bản ổn định hiện hành:**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
+* **Bản ổn định:**{% for release in site.downloads.stable %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
-* **Bản ổn định trước đó:**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
+{% if site.downloads.security_maintenance %}
+* **Trong giai đoạn duy trì bảo mật (sẽ sớm EOL!):**{% for release in site.downloads.security_maintenance %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
-* **Bản ổn định c:**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+{% if site.downloads.eol %}
+* **Không còn duy trì nữa (EOL):**{% for release in site.downloads.eol %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
 * **Snapshots:**
   * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
     Đây là một tarball của snapshot mới nhất của nhánh ổn định hiện hành.
   * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
-    Đây là một tarball của mã mới nhất hiện hữu trong SVN. Gói này được tạo
-    ra mỗi đêm. Xin lưu ý gói có thể kèm theo lỗi và một số vấn đề khác.
+    Đây là một tarball của mã mới nhất hiện hữu trong SVN. Gói này được
+    tạo ra mỗi đêm. Xin lưu ý gói có thể kèm theo lỗi và một số vấn đề
+    khác.
 
 Để biết thêm chi tiết về Ruby Subversion và Git repositories, xem trang
 [Ruby Core](/vi/community/ruby-core/).
