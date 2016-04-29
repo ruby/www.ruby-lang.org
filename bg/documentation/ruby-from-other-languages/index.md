@@ -115,9 +115,9 @@ some_keyword_params(:param_one => 10, :param_two => 42)
 {% highlight python %}
 # in Python
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 Изхода от кода е \"0 is false\". Еквивалента на Ruby

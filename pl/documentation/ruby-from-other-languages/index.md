@@ -163,9 +163,9 @@ poniższy kod w Pythonie:
 {% highlight python %}
 # w Pythonie
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 Ten kawałek kodu wypisze `0 is false` To samo w Rubim wygląda

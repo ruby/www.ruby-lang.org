@@ -155,9 +155,9 @@ C나 파이썬이나 많은 다른 언어들에서 0과 빈 리스트같은 값�
 {% highlight python %}
 # 파이썬
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 이 구문은 “0 is false”를 출력합니다. 같은 구문은 루비에서:

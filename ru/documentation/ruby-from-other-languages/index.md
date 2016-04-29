@@ -158,9 +158,9 @@ deliver(via: "Pony Express", from: "B", to: "A")
 {% highlight python %}
 # Python
 if 0:
-  print "0 - истина"
+  print("0 - истина")
 else:
-  print "0 - ложь"
+  print("0 - ложь")
 {% endhighlight %}
 
 Это выведет на экран “0 - ложь”. Эквивалент на Ruby:

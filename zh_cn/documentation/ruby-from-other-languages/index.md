@@ -128,9 +128,9 @@ Ruby 把任何不是 **nil** 和 **false** 的值当作真值。在 C，Python �
 {% highlight python %}
 # Python 中
 if 0:
-  print "0 为真"
+  print("0 为真")
 else:
-  print "0 为假"
+  print("0 为假")
 {% endhighlight %}
 
 这会打印出 “0 为假”，而在 Ruby 中：

@@ -157,9 +157,9 @@ yanlış kabul edilir. Aşağıdaki Python koduna bakın (diğer dillere de
 {% highlight python %}
 # Python'da
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 Bunu çıktısı “0 is false” olacaktır. Ruby karşılığı ise:

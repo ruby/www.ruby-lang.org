@@ -135,9 +135,9 @@ deliver(via: "Pony Express", from: "B", to: "A")
 {% highlight python %}
 # in Python
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 這會輸出 “0 is false”。而在 Ruby 裡:

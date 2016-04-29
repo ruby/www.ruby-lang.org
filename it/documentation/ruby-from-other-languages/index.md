@@ -170,9 +170,9 @@ applica anche ad altri linguaggi):
 {% highlight python %}
 # in Python
 if 0:
-  print "0 è true"
+  print("0 è true")
 else:
-  print "0 è false"
+  print("0 è false")
 {% endhighlight %}
 
 Questo stamperà “0 è false”, mentre l’equivalente in Ruby:

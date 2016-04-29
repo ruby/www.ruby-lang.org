@@ -170,9 +170,9 @@ seguinte código Python (o exemplo aplica-se a outras linguagens também):
 {% highlight python %}
 # em Python
 if 0:
-  print "0 e' verdadeiro"
+  print("0 e' verdadeiro")
 else:
-  print "0 e' falso"
+  print("0 e' falso")
 {% endhighlight %}
 
 Isto irá imprimir “0 e’ falso”. O equivalente em Ruby:

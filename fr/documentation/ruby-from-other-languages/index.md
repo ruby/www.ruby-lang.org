@@ -177,9 +177,9 @@ Voyez par exemple le bout de code suivant, écrit en Python :
 {% highlight python %}
 # en Python
 if 0:
-  print "0 est vrai/true"
+  print("0 est vrai/true")
 else:
-  print "0 est faux/false"
+  print("0 est faux/false")
 {% endhighlight %}
 
 Ce qui affichera « 0 est faux/false. » L’équivalent en Ruby, maintenant :

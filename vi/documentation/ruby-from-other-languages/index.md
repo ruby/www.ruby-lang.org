@@ -164,9 +164,9 @@ dưới đây (ví dụ cũng được áp dụng với các ngôn ngữ khác):
 {% highlight python %}
 # trong Python
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 Sẽ trả về kết quả “0 is false”. tương tự với Ruby:

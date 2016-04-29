@@ -195,9 +195,9 @@ seperti list yang kosong, dianggap false. Perhatikan kode Python berikut
 {% highlight python %}
 # di Python
 if 0:
-  print "0 is true"
+  print("0 is true")
 else:
-  print "0 is false"
+  print("0 is false")
 {% endhighlight %}
 
 Ini akan print “0 is false”. Kode yang sama di Ruby:

@@ -180,9 +180,9 @@ Python-Code an (das Beispiel funktioniert auch in anderen Sprachen):
 {% highlight python %}
 # in Python
 if 0:
-  print "0 ist true"
+  print("0 ist true")
 else:
-  print "0 ist false"
+  print("0 ist false")
 {% endhighlight %}
 
 Hier wird “0 ist false” ausgeben. Dasselbe in Ruby:
