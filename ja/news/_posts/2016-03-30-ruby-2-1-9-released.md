@@ -30,7 +30,7 @@ Ruby 2.1.9 がリリースされました。
       SIZE:   12016421 bytes
       SHA1:   39524185b580a3390a3b5019819c8b28d3249766
       SHA256: 4f21376aa11e09b499c3254bbd839e68e053c0d18e28d61c428a32347269036e
-      SHA512: a86422132e4c64007a84a91696f4557bdcbc8716fbfe1962f1eef3754ee7f994f4de0b
+      SHA512: a86422132e4c64007a84a91696f4557bdcbc8716fbfe1962f1eef3754ee7f994f4de0b5b7e7231c25057515767040d5c4af33339750b6db15744662e9bd24f38
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.gz](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.gz)
 
