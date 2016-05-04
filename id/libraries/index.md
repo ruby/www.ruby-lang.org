@@ -1,58 +1,62 @@
 ---
 layout: page
-title: "Library"
+title: "Pustaka"
 lang: id
 ---
 
 Seperti bahasa pemrograman lain, Ruby memanfaatkan serangkaian luas
-library pihak ketiga.
+pustaka pihak ketiga.
 {: .summary}
 
-Sebagian besar dari library tersebut dirilis dalam bentuk **gem**.
-[**RubyGems**][1] adalah sistem packaging Ruby dirancang untuk
-memfasilitasi penciptaan, berbagi dan instalasi library (dalam beberapa
-hal, itu adalah sistem distribusi packaging yang mirip dengan, katakanlah,
-`apt-get`, tetapi ditargetkan pada software Ruby). Sejak versi 1.9, Ruby
-dilengkapi dengan RubyGems secara default, sementara pada versi sebelumnya
-kita perlu [menginstalnya sendiri][2].
+Sebagian besar dari pustaka tersebut dirilis dalam bentuk **gem**. [**RubyGems**][1] adalah
+sistem *packaging* Ruby yang dirancang untuk memfasilitasi penciptaan, berbagi dan
+pemasangan pustaka (dalam beberapa hal, itu adalah sistem distribusi *packaging*
+yang mirip dengan, katakanlah, `apt-get`, tetapi ditargetkan pada aplikasi Ruby).
+Sejak versi 1.9, Ruby dilengkapi dengan RubyGems secara *default*, sementara pada versi
+sebelumnya kita perlu [memasangnya sendiri][2].
 
-Beberapa library lain dirilis sebagai arsip (.zip atau .tar.gz)
-direktori dari **kode**. Proses instalasi dapat bervariasi,
-biasanya file `README` atau `INSTALL` menyediakan instruksi.
+Beberapa pustaka lain dirilis sebagai arsip (.zip atau .tar.gz)
+direktori dari **kode sumber**. Proses instalasi dapat bervariasi,
+biasanya berkas `README` atau `INSTALL` menyediakan instruksi.
 
-Mari kita lihat cara menemukan library dan menginstalnya
+Mari kita lihat cara menemukan pustaka dan memasangnya
 untuk penggunaan Anda sendiri.
 
-### Menemukan Library
+### Menemukan pustaka
 
-[**RubyGems.org**][1] adalah tempat utama dimana library dihost, menyediakan
-library Ruby sebagai gem. Anda dapat browse situs webnya langsung, atau
+[**RubyGems.org**][1] adalah tempat utama dimana pustaka di-*host*,
+menyediakan pustaka Ruby sebagai gem. Anda dapat menelusuri langsung situs tersebut, atau
 menggunakan perintah `gem`.
 
 Dengan menggunakan `gem search -r`, Anda dapat memeriksa repositori RubyGems.
 Misalnya, `gem search -r rails` akan mengembalikan daftar gem yang terkait
 dengan Rails. Dengan pilihan `--local` (`-l`), Anda akan melakukan pencarian lokal
-melalui gem yang Anda instal. Untuk menginstal gem, gunakan `gem install
-[gem]`. Browsing gem yang telah diinstal dilakukan dengan `gem list`. Untuk informasi
-lebih jelas tentang perintah `gem`, lihat di bawah atau kunjungi [dokumentasi RubyGems][3].
+melalui gem yang Anda pasang. Untuk memasang gem, gunakan `gem install
+[gem]`. Menelusuri gem yang telah dipasang dilakukan dengan `gem list`. Untuk informasi
+lebih jelas tentang perintah `gem`, lihat di bawah atau kunjungi [dokumentasi
+RubyGems][3].
 
-Ada sumber lain untuk library juga. [RubyForge][4] dulu populer sebagai
-tempat sumber library Ruby, tapi beberapa tahun terakhir [**GitHub**][5] bangkit
+Ada sumber lain dari pustaka. [RubyForge][4] dulu populer sebagai
+tempat sumber pustaka Ruby, tapi beberapa tahun terakhir [**GitHub**][5] bangkit
 sebagai salah satu repositori utama untuk konten terkait dengan Ruby. Biasanya,
-kode gem di-host di GitHub, dan dipublikasikan sebagai gem lengkap di RubyGems.org.
+kode sumber gem akan di-*host* di GitHub, dan dipublikasikan
+sebagai gem lengkap di RubyGems.org.
 
-[Ruby Application Archive][6] (RAA) adalah direktori segala macam software Ruby
-yang dikategorikan berdasarkan fungsi, tetapi tidak banyak digunakan lagi.
-Anda mungkin tidak perlu pergi ke sana.
+[**Ruby Toolbox**][6] adalah sebuah proyek yang memudahkan penelusuran proyek *open
+source* Ruby. Ruby Toolbox memiliki kategori untuk berbagai tugas pengembangan, pengumpulan
+banyak informasi tentang proyek seperti rilis dan aktivitas *commit* atau *dependency*,
+dan penilaian proyek berdasarkan popularitasnya di RubyGems.org dan GitHub.
+Pencarian memudahkan untuk menemukan apa yang sedang Anda cari.
 
-### Beberapa Kata tentang RubyGems
+### Beberapa kata tentang RubyGems
 
 Berikut ini tinjauan singkat dari perintah `gem` untuk penggunaan sehari-hari Anda.
-[Dokumentasi lebih rinci][7] tersedia, dan mencakup semua aspek sistem packaging ini.
+[Dokumentasi lebih rinci][7] tersedia, dan mencakup semua aspek
+sistem *packaging* ini.
 
 #### Mencari di antara gem yang tersedia
 
-Perintah **search** digunakan untuk mencari gem berdasarkan sebuah string.
+Perintah **search** dapat digunakan untuk mencari gem berdasarkan sebuah string.
 Gem yang namanya mulai dengan string tertentu akan terdaftar sebagai hasil pencarian.
 Sebagai contoh, untuk mencari gem terkait dengan "html":
 
@@ -64,20 +68,21 @@ $ gem search -r html
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-Flag `--remote` / `-r` menunjukkan bahwa kita ingin memeriksa repositori
-resmi RubyGems.org (default). Dengan flag `--local` / `-l` Anda akan
-melakukan pencarian lokal pada gem yang telah Anda instal.
+Penanda `--remote` / `-r` menunjukkan bahwa kita ingin memeriksa
+repositori resmi RubyGems.org (*default*).
+Dengan penanda `--local` / `-l` Anda akan melakukan pencarian lokal
+pada gem yang telah Anda pasang.
 
-#### Menginstal sebuah gem
+#### Memasang sebuah gem
 
-Setelah Anda tahu gem mana yang ingin Anda **install**, misalnya gem
+Setelah Anda tahu gem mana yang ingin Anda pasang, misalnya gem
 Rails yang populer:
 
 {% highlight sh %}
 $ gem install rails
 {% endhighlight %}
 
-Anda bahkan dapat menginstal library versi tertentu menggunakan flag
+Anda bahkan dapat memasang pustaka versi tertentu menggunakan penanda
 `--version` / `-v`:
 
 {% highlight sh %}
@@ -86,14 +91,13 @@ $ gem install rails --version 3.0
 
 #### Daftar semua gem
 
-Untuk **list** semua gem yang telah Anda instal:
+Untuk **list** semua gem yang telah Anda pasang:
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-Untuk mendapatkan daftar (sangat panjang) dari semua gem yang
-tersedia di RubyGems.org:
+Untuk mendapatkan daftar (sangat panjang) dari semua gem yang tersedia di RubyGems.org:
 
 {% highlight sh %}
 $ gem list -r
@@ -107,14 +111,14 @@ Dokumentasi tersedia pada terminal Anda:
 $ gem help
 {% endhighlight %}
 
-Contohnya, `gem help commands` sangat berguna karena mengeluarkan
-daftar semua perintah `gem`.
+Contohnya, `gem help commands` sangat berguna karena mengeluarkan daftar dari
+semua perintah `gem`.
 
 #### Membuat gem Anda sendiri
 
-RubyGems.org memiliki [beberapa panduan][3] tentang topik ini. Anda juga
+RubyGems.org memiliki [beberapa panduan][3] terkait topik ini. Anda juga
 mungkin ingin untuk melihat [Bundler][9], alat generik yang membantu
-Anda mengelola dependensi dan aplikasi dapat digunakan bersama RubyGems.
+Anda mengelola *dependency* dan aplikasi dapat digunakan bersama RubyGems.
 
 
 
@@ -123,6 +127,6 @@ Anda mengelola dependensi dan aplikasi dapat digunakan bersama RubyGems.
 [3]: http://guides.rubygems.org/
 [4]: http://rubyforge.org/
 [5]: https://github.com/
-[6]: http://raa.ruby-lang.org/
+[6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/
 [9]: http://bundler.io/
