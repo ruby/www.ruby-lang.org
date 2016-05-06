@@ -30,29 +30,30 @@ the `gem` command.
 
 Using `gem search -r`, you can inspect RubyGems' repository. For
 instance, `gem search -r rails` will return a list of Rails-related
-gems. With the `--local` (`-l`) option, you would perform a local
-search through your installed gems. To install a gem, use `gem install
-[gem]`. Browsing installed gems is done with `gem list`. For more
-information about the `gem` command, see below or head to [RubyGems’
-docs][3].
+gems. With the `--local` (`-l`) option, you would perform a local search
+through your installed gems. To install a gem, use `gem install [gem]`.
+Browsing installed gems is done with `gem list`. For more
+information about the `gem` command, see below or head to
+[RubyGems’ docs][3].
 
 There are other sources of libraries though. [RubyForge][4] used to be a
 popular home for Ruby libraries, but last years saw the rise of
-[**GitHub**][5] as one of the main ruby-related content repository. Most
-often a gem source code will be hosted on GitHub while being published
-as a fully-fledged gem to RubyGems.org.
+[**GitHub**][5] as one of the main ruby-related content repository.
+Most often a gem source code will be hosted on GitHub while being
+published as a fully-fledged gem to RubyGems.org.
 
-[**The Ruby Toolbox**][6] is a project that makes it easy to explore open source
-Ruby projects. It has categories for various common development tasks, collects
-a lot of information about the projects like release and commit activity or dependencies,
-and rates projects based on their popularity on RubyGems.org and GitHub.
-The search makes it easy to find what you are looking for.
+[**The Ruby Toolbox**][6] is a project that makes it easy to explore open
+source Ruby projects. It has categories for various common development tasks,
+collects a lot of information about the projects like release and commit
+activity or dependencies, and rates projects based on their popularity on
+RubyGems.org and GitHub. The search makes it easy to find what you are
+looking for.
 
 ### A few more words about RubyGems
 
-Here is a quick review of the `gem` command for your daily use. [More
-detailed documentation][7] is available, covering all aspects of this
-packaging system.
+Here is a quick review of the `gem` command for your daily use.
+[More detailed documentation][7] is available, covering all aspects
+of this packaging system.
 
 #### Searching among available gems
 
