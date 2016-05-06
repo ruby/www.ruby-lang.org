@@ -12,8 +12,7 @@ Ruby has four primary English speaking mailing lists:
 
 Ruby-Talk
 : This is the most popular mailing-list and deals with general topics
-  about Ruby. Ruby-Talk is mirrored by [Ruby-Forum.com][1].
-  ([FAQ][2] and [Archives][3])
+  about Ruby. ([FAQ][2] and [Archives][3])
 
 Ruby-Core
 : This list deals with core and implementation topics about Ruby, often
@@ -40,7 +39,6 @@ subscribing the [manual way](manual-instructions/).
 
 
 
-[1]: https://www.ruby-forum.com/
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
