@@ -118,7 +118,7 @@ ini semakin berkembang dari hari ke hari.
 
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
-[3]: http://ruby-gnome2.sourceforge.jp/
+[3]: https://ruby-gnome2.osdn.jp/
 [4]: https://github.com/ryanmelt/qtbindings/
 [5]: http://jruby.codehaus.org/
 [6]: http://www.thoughtworks.com/
