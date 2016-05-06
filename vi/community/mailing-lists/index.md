@@ -10,8 +10,8 @@ Hộp thư chung luôn là nơi tốt nhất để giúp bạn hòa nhịp với
 Ruby có 4 hộp thư sử dụng tiếng Anh là ngôn ngữ chính sau :
 
 Ruby-Talk
-: Đây là hộp thư phổ biến nhất với các chủ đề chung về Ruby.  Ruby-Talk là một
-  bản sao của [Ruby-Forum.com][1]. ([Câu hỏi thường gặp][2] và [Lưu trữ][3])
+: Đây là hộp thư phổ biến nhất với các chủ đề chung về Ruby.
+  ([Câu hỏi thường gặp][2] và [Lưu trữ][3])
 
 Ruby-Core
 : Danh sách này có rất nhiều chủ đề về Ruby core và cách xử lý,
@@ -39,7 +39,6 @@ vui lòng thử lại theo cách [thủ công](manual-instructions/).
 
 
 
-[1]: https://www.ruby-forum.com/
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml

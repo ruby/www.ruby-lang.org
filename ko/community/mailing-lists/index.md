@@ -11,8 +11,7 @@ lang: ko
 
 Ruby-Talk
 : 이 곳은 가장 유명한 메일링 리스트로 루비에 관한 일반적인 주제를 다룹니다.
-  Ruby-Talk의 미러사이트에는 [Ruby-Forum.com][1]이 있습니다. ([FAQ][2],
-  [Archives][3])
+  ([FAQ][2], [Archives][3])
 
 Ruby-Core
 : 이 곳은 루비의 코어와 구현에 관한 주제를 다룹니다. 주로 패치의 리뷰에
@@ -38,7 +37,6 @@ comp.lang.ruby 뉴스그룹
 
 
 
-[1]: https://www.ruby-forum.com/
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
