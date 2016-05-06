@@ -8,12 +8,13 @@ Seperti bahasa pemrograman lain, Ruby memanfaatkan serangkaian luas
 pustaka pihak ketiga.
 {: .summary}
 
-Sebagian besar dari pustaka tersebut dirilis dalam bentuk **gem**. [**RubyGems**][1] adalah
-sistem *packaging* Ruby yang dirancang untuk memfasilitasi penciptaan, berbagi dan
-pemasangan pustaka (dalam beberapa hal, itu adalah sistem distribusi *packaging*
-yang mirip dengan, katakanlah, `apt-get`, tetapi ditargetkan pada aplikasi Ruby).
-Sejak versi 1.9, Ruby dilengkapi dengan RubyGems secara *default*, sementara pada versi
-sebelumnya kita perlu [memasangnya sendiri][2].
+Sebagian besar dari pustaka tersebut dirilis dalam bentuk **gem**.
+[**RubyGems**][1] adalah sistem *packaging* Ruby yang dirancang untuk
+memfasilitasi penciptaan, berbagi dan pemasangan pustaka (dalam beberapa hal,
+itu adalah sistem distribusi *packaging* yang mirip dengan, katakanlah,
+`apt-get`, tetapi ditargetkan pada aplikasi Ruby). Sejak versi 1.9, Ruby
+dilengkapi dengan RubyGems secara *default*, sementara pada versi sebelumnya
+kita perlu [memasangnya sendiri][2].
 
 Beberapa pustaka lain dirilis sebagai arsip (.zip atau .tar.gz)
 direktori dari **kode sumber**. Proses instalasi dapat bervariasi,
@@ -25,39 +26,41 @@ untuk penggunaan Anda sendiri.
 ### Menemukan pustaka
 
 [**RubyGems.org**][1] adalah tempat utama dimana pustaka di-*host*,
-menyediakan pustaka Ruby sebagai gem. Anda dapat menelusuri langsung situs tersebut, atau
-menggunakan perintah `gem`.
+menyediakan pustaka Ruby sebagai gem. Anda dapat menelusuri langsung situs
+tersebut, atau menggunakan perintah `gem`.
 
 Dengan menggunakan `gem search -r`, Anda dapat memeriksa repositori RubyGems.
 Misalnya, `gem search -r rails` akan mengembalikan daftar gem yang terkait
-dengan Rails. Dengan pilihan `--local` (`-l`), Anda akan melakukan pencarian lokal
-melalui gem yang Anda pasang. Untuk memasang gem, gunakan `gem install
-[gem]`. Menelusuri gem yang telah dipasang dilakukan dengan `gem list`. Untuk informasi
-lebih jelas tentang perintah `gem`, lihat di bawah atau kunjungi [dokumentasi
-RubyGems][3].
+dengan Rails. Dengan pilihan `--local` (`-l`), Anda akan melakukan pencarian
+lokal melalui gem yang Anda pasang. Untuk memasang gem,
+gunakan `gem install [gem]`. Menelusuri gem yang telah dipasang dilakukan
+dengan `gem list`. Untuk informasi lebih jelas tentang perintah `gem`,
+lihat di bawah atau kunjungi [dokumentasi RubyGems][3].
 
-Ada sumber lain dari pustaka. [RubyForge][4] dulu populer sebagai
-tempat sumber pustaka Ruby, tapi beberapa tahun terakhir [**GitHub**][5] bangkit
-sebagai salah satu repositori utama untuk konten terkait dengan Ruby. Biasanya,
-kode sumber gem akan di-*host* di GitHub, dan dipublikasikan
-sebagai gem lengkap di RubyGems.org.
+Ada sumber lain dari pustaka. [RubyForge][4] dulu populer sebagai tempat
+sumber pustaka Ruby, tapi beberapa tahun terakhir [**GitHub**][5] bangkit
+sebagai salah satu repositori utama untuk konten terkait dengan Ruby.
+Biasanya, kode sumber gem akan di-*host* di GitHub, dan dipublikasikan sebagai
+gem lengkap di RubyGems.org.
 
-[**Ruby Toolbox**][6] adalah sebuah proyek yang memudahkan penelusuran proyek *open
-source* Ruby. Ruby Toolbox memiliki kategori untuk berbagai tugas pengembangan, pengumpulan
-banyak informasi tentang proyek seperti rilis dan aktivitas *commit* atau *dependency*,
-dan penilaian proyek berdasarkan popularitasnya di RubyGems.org dan GitHub.
-Pencarian memudahkan untuk menemukan apa yang sedang Anda cari.
+[**Ruby Toolbox**][6] adalah sebuah proyek yang memudahkan penelusuran proyek
+*open source* Ruby. Ruby Toolbox memiliki kategori untuk berbagai tugas
+pengembangan, pengumpulan banyak informasi tentang proyek seperti rilis dan
+aktivitas *commit* atau *dependency*, dan penilaian proyek berdasarkan
+popularitasnya di RubyGems.org dan GitHub. Pencarian memudahkan untuk
+menemukan apa yang sedang Anda cari.
 
 ### Beberapa kata tentang RubyGems
 
-Berikut ini tinjauan singkat dari perintah `gem` untuk penggunaan sehari-hari Anda.
-[Dokumentasi lebih rinci][7] tersedia, dan mencakup semua aspek
-sistem *packaging* ini.
+Berikut ini tinjauan singkat dari perintah `gem` untuk penggunaan sehari-hari
+Anda. [Dokumentasi lebih rinci][7] tersedia, dan mencakup semua aspek sistem
+*packaging* ini.
 
 #### Mencari di antara gem yang tersedia
 
-Perintah **search** dapat digunakan untuk mencari gem berdasarkan sebuah string.
-Gem yang namanya mulai dengan string tertentu akan terdaftar sebagai hasil pencarian.
+Perintah **search** dapat digunakan untuk mencari gem berdasarkan sebuah
+string. Gem yang namanya mulai dengan string tertentu akan terdaftar sebagai
+hasil pencarian.
 Sebagai contoh, untuk mencari gem terkait dengan "html":
 
 {% highlight sh %}
@@ -97,7 +100,8 @@ Untuk **list** semua gem yang telah Anda pasang:
 $ gem list
 {% endhighlight %}
 
-Untuk mendapatkan daftar (sangat panjang) dari semua gem yang tersedia di RubyGems.org:
+Untuk mendapatkan daftar (sangat panjang) dari semua gem yang tersedia di
+RubyGems.org:
 
 {% highlight sh %}
 $ gem list -r
