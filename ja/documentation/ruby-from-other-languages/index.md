@@ -146,7 +146,7 @@ end
 
 ### キーワード引数
 
-メソッドはRuby2.0から、Pythonのように、
+メソッドはRuby 2.0から、Pythonのように、
 キーワード引数を定義できるようになりました。
 
 {% highlight ruby %}
@@ -436,6 +436,7 @@ C++の`operator+`などは必要ありません。
 Rubyについてもっと知りたくなったのなら、
 [ドキュメント](/ja/documentation/)の
 その他のコンテンツを見てみてください。
+
 
 
 [faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html

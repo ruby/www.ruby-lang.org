@@ -59,5 +59,7 @@ Perlと違って、Rubyは…
   それ以外の値(`0`、`0.0`、`"0"`など)はすべて真と評価されます。
 * [PerlMonks][2]はありませんが、ruby-listメーリングリストなどの質問場所があります。
 
+
+
 [1]: http://guides.rubygems.org
 [2]: http://www.perlmonks.org/

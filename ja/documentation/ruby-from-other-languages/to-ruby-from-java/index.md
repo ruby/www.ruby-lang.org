@@ -46,6 +46,8 @@ Javaと違って、Rubyは...
 * `==`と`equals()`の扱いが異なります。等価かどうかを評価したい時(Javaで`equals()`を使うケース)は`==`を使います。
   二つのオブジェクトが同一かどうかを確認したい時(Javaで`==`を使うケース)は`equal?()`を使います。
 
+
+
 [1]: http://wxruby.rubyforge.org/wiki/wiki.pl
 [2]: http://www.fxruby.org/
 [3]: http://ruby-gnome2.osdn.jp/
