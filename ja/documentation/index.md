@@ -34,6 +34,8 @@ lang: ja
 [20分ではじめるRuby](/ja/documentation/quickstart/)
 : Rubyの基本をカバーしている便利なチュートリアルです。始めから終わりまで読んでも20分かからないでしょう。
 
+[他言語からのRuby入門](/ja/documentation/ruby-from-other-languages/)
+: 他の言語からRubyにやってきましたか？C、C++、Java、Perl、PHP、Pythonといった言語から来たのであれば、この記事が役に立つはずです！
 
 ### リファレンス
 
