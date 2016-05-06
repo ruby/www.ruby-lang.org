@@ -19,11 +19,11 @@ Rubyを学ぶのはおそらくどうってことないはずです。
 
 ## 求められていること: *言語X*からRubyへ
 
-* [C・C++からRubyへ](/ja/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [JavaからRubyへ](/ja/documentation/ruby-from-other-languages/to-ruby-from-java/)
-* [PerlからRubyへ](/ja/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [PHPからRubyへ](/ja/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [PythonからRubyへ](/ja/documentation/ruby-from-other-languages/to-ruby-from-python/)
+* [C・C++からRubyへ](to-ruby-from-c-and-cpp/)
+* [JavaからRubyへ](to-ruby-from-java/)
+* [PerlからRubyへ](to-ruby-from-perl/)
+* [PHPからRubyへ](to-ruby-from-php/)
+* [PythonからRubyへ](to-ruby-from-python/)
 
 ## 重要な言語機能と知っておくべきこと
 
