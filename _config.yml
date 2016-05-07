@@ -724,8 +724,6 @@ locales:
   sidebar:
     try_ruby: &try_ruby
       url: http://tryruby.org/
-    books: &books
-      url: http://www.amazon.com/s/ref=sr_nr_n_5?ie=UTF8&amp;rs=1000&amp;keywords=Ruby&amp;rh=i%3Aaps%2Ck%3ARuby%2Ci%3Astripbooks%2Cn%3A1000%2Cn%3A5
     rubybib: &rubybib
       url: http://rubybib.org/
 
@@ -746,9 +744,8 @@ locales:
         documentation:
           text: Документация
           url: /bg/documentation/
-        books:
-          text: Книги
-          <<: *books
+        # books:
+        #   text: Книги
         libraries:
           text: Библиотеки
           url: /bg/libraries/
@@ -804,9 +801,8 @@ locales:
         documentation:
           text: Dokumentation
           url: /de/documentation/
-        books:
-          text: Bücher
-          <<: *books
+        # books:
+        #   text: Bücher
         libraries:
           text: Bibliotheken
           url: /de/libraries/
@@ -862,9 +858,8 @@ locales:
         documentation:
           text: Documentation
           url: /en/documentation/
-        books:
-          text: Books
-          <<: *books
+        # books:
+        #   text: Books
         rubybib:
           text: Academic Research
           <<: *rubybib
@@ -923,9 +918,8 @@ locales:
         documentation:
           text: Documentación
           url: /es/documentation/
-        books:
-          text: Libros
-          url: http://www.ruby-doc.org/bookstore
+        # books:
+        #   text: Libros
         libraries:
           text: Bibliotecas
           url: /es/libraries/
@@ -981,9 +975,8 @@ locales:
         documentation:
           text: Documentation
           url: /fr/documentation/
-        books:
-          text: Livres
-          <<: *books
+        # books:
+        #   text: Livres
         libraries:
           text: Bibliothèques
           url: /fr/libraries/
@@ -1039,9 +1032,8 @@ locales:
         documentation:
           text: Dokumentasi
           url: /id/documentation/
-        books:
-          text: Buku-buku
-          url: http://www.ruby-doc.org/bookstore
+        # books:
+        #   text: Buku-buku
         libraries:
           text: Pustaka
           url: /id/libraries/
@@ -1099,9 +1091,8 @@ locales:
         documentation:
           text: Documentazione
           url: /it/documentation/
-        books:
-          text: Libri
-          url: http://www.ruby-doc.org/bookstore
+        # books:
+        #   text: Libri
         libraries:
           text: Librerie
           url: /it/libraries/
@@ -1158,9 +1149,8 @@ locales:
         documentation:
           text: ドキュメント
           url: /ja/documentation/
-#       books:
-#         text: Books
-#         <<: *books
+        # books:
+        #   text: Books
         rubybib:
           text: 学術研究(英語)
           <<: *rubybib
@@ -1219,9 +1209,8 @@ locales:
         documentation:
           text: 문서
           url: /ko/documentation/
-        books:
-          text: 책
-          url: http://www.ruby-doc.org/bookstore
+        # books:
+        #   text: 책
         libraries:
           text: 라이브러리
           url: /ko/libraries/
@@ -1277,9 +1266,8 @@ locales:
         documentation:
           text: Dokumentacja
           url: /pl/documentation/
-        books:
-          text: Książki
-          url: http://www.ruby-doc.org/bookstore
+        # books:
+        #   text: Książki
         libraries:
           text: Biblioteki
           url: /pl/libraries/
@@ -1337,9 +1325,8 @@ locales:
         documentation:
           text: Documentação
           url: /pt/documentation/
-        books:
-          text: Livros
-          url: http://www.ruby-doc.org/bookstore
+        # books:
+        #   text: Livros
         libraries:
           text: Bibliotecas
           url: /pt/libraries/
@@ -1396,9 +1383,8 @@ locales:
         documentation:
           text: Документация
           url: /ru/documentation/
-        books:
-          text: Книги
-          <<: *books
+        # books:
+        #   text: Книги
         libraries:
           text: Библиотеки
           url: /ru/libraries/
@@ -1454,9 +1440,8 @@ locales:
         documentation:
           text: Belgeler
           url: /tr/documentation/
-        books:
-          text: Kitaplar
-          <<: *books
+        # books:
+        #   text: Kitaplar
         libraries:
           text: Kütüphaneler
           url: /tr/libraries/
@@ -1512,9 +1497,8 @@ locales:
         documentation:
           text: Tài liệu
           url: /vi/documentation/
-        books:
-          text: Sách
-          <<: *books
+        # books:
+        #   text: Sách
         libraries:
           text: Thư viện
           url: /vi/libraries/
@@ -1570,9 +1554,8 @@ locales:
         documentation:
           text: 文件
           url: /zh_tw/documentation/
-        books:
-          text: 書籍
-          <<: *books
+        # books:
+        #   text: 書籍
         libraries:
           text: 函式庫
           url: /zh_tw/libraries/
@@ -1628,9 +1611,8 @@ locales:
         documentation:
           text: 文档
           url: /zh_cn/documentation/
-#       books:
-#         text: Books
-#         <<: *books
+        # books:
+        #   text: Books
         libraries:
           text: 代码库
           url: /zh_cn/libraries/
