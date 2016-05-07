@@ -1161,6 +1161,9 @@ locales:
 #       books:
 #         text: Books
 #         <<: *books
+        rubybib:
+          text: 学術研究(英語)
+          <<: *rubybib
         libraries:
           text: ライブラリ
           url: /ja/libraries/
