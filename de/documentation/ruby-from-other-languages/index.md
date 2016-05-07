@@ -440,7 +440,7 @@ Die folgenden Operatoren sind *kein* syntaktischer Zucker. Sie sind
 keine Methoden, und können nicht umdefiniert werden:
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 Zudem sind `+=`, `*=`, usw. nur Abkürzungen für `foo = foo + bar`,

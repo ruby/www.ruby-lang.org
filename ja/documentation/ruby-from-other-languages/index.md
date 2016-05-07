@@ -425,7 +425,7 @@ C++の`operator+`などは必要ありません。
 これらはメソッドではないので、再定義できません。
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 加えて`+=`、`*=`などは`var = var + other_var`、`var = var * other_var`

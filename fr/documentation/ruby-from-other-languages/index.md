@@ -433,7 +433,7 @@ Les opérateurs ci-dessous ne sont pas des méthodes, et ne peuvent pas
 être modifiés :
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 Par ailleurs, `+=`, `*=`, etc. ne sont que des raccourcis pour

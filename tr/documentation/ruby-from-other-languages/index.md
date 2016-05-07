@@ -396,7 +396,7 @@ Aşağıdaki operatörler bu şekilde değerlendirilmezler. Bunlar metod
 değildir ve tekrar tanımlanamazlar:
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 Ek olarak, `+=`, `*=` vb. şunların kısaltmasıdır : `var = var + other_var`,
