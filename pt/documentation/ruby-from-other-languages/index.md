@@ -424,7 +424,7 @@ Os operadores abaixo não são, no entanto, açúcar sintáctico.Não são
 métodos, e não podem ser redifinidos:
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 Como `+=`, `*=` etc. são somente abreviações para `var = var + outra_var`,

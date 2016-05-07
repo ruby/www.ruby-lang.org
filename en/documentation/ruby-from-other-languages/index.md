@@ -410,7 +410,7 @@ To define the unary + and - (think +1 and -2), you must define the `+@` and
 though. They are not methods, and cannot be redefined:
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 In addition, `+=`, `*=` etc. are just abbreviations for `var = var + other_var`,

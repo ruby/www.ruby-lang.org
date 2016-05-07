@@ -397,7 +397,7 @@ C++의 `operator+` 같은 건 필요 없습니다.
 아니며 재정의할 수 없습니다.
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 덧붙여, `+=`, `*=` 등등은 `var = var + other_var`, `var = var * other_var`

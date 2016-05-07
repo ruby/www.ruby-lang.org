@@ -459,7 +459,7 @@ Operator-operator dibawah ini bukan metode dan tidak dapat didefinisikan
 ulang:
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 Tambahan, `+=`, `*=` dan lain sebagainya hanyalah singkatan untuk

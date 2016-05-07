@@ -410,7 +410,7 @@ Các toán tử dưới đây **không** có cú pháp. Nó không phải là c�
 phương thức, và không thể tái định nghĩa:
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 Thêm vào đó, `+=`, `*=` v.v. chỉ là cách viết tắt cho `var = var + other_var`,

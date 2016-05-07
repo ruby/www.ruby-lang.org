@@ -410,7 +410,7 @@ odpowiednio metody `+@` i `-@`. Poniższe operatory jednak
 przedefiniować.
 
 {% highlight ruby %}
-=, .., ..., !, not, &&, and, ||, or, !=, !~, ::
+=, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
 Dodatkowo, `+=`, `*=` etc. są po prostu skrótami dla `var = var + other_var`,
