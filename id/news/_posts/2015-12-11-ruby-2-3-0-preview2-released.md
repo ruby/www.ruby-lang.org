@@ -18,7 +18,7 @@ Dengan Ruby 2.1, `"str".freeze` telah dioptimalkan untuk mengurangi alokasi obje
 Ruby 2.3 memperkenalkan sebuah *magic comment* dan opsi *command line* baru untuk
 membekukan semua *string literal* di dalam kode sumber.
 Adapun tambahan untuk *debugging*, Anda bisa mendapatkan di mana objek dibuat
-eror `"can't modify frozen string"` oleh penggunaan
+eror `"can't modify frozen String"` oleh penggunaan
 opsi *command line* `--debug=frozen-string-literal`.
 
 Sebuah [*safe navigation operator*](https://bugs.ruby-lang.org/issues/11537)

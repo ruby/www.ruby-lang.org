@@ -7,7 +7,7 @@ date: 2015-11-11 14:00:00 +0000
 lang: id
 ---
 
-Kami dengan senang hati mengumumkan rilis dari Ruby-2.3.0-preview1.
+Kami dengan senang hati mengumumkan rilis dari Ruby 2.3.0-preview1.
 
 Ruby 2.3.0-preview1 merupakan pratinjau pertama dari Ruby 2.3.0.
 Banyak fitur baru dan perbaikan yang dimasukkan.

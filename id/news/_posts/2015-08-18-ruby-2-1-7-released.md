@@ -53,4 +53,4 @@ untuk detail.
 
 Terima kasih kepada semua yang telah membantu rilis ini, terutama, nagachika.
 
-Perawatan dari Ruby 2.1, termasuk rilis ini, didasarkan pada "Agreement for the Ruby stable version" dari [the Ruby Association](http://www.ruby.or.jp/).
+Perawatan dari Ruby 2.1, termasuk rilis ini, didasarkan pada "Agreement for the Ruby stable version" dari [Ruby Association](http://www.ruby.or.jp/).

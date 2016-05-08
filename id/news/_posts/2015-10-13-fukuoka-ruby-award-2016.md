@@ -14,7 +14,7 @@ mengajak Anda untuk mengikuti kompetisi Ruby berikut. Jika Anda telah mengembang
 program Ruby yang menarik, mohon dengan sangat untuk mengajukan.
 
 2016 Fukuoka Ruby Award Competition
-- Grand Prize - 1 juta Yen!
+ - Grand Prize - 1 juta Yen!
 
 Batas akhir masuk: 27 November 2015
 
@@ -59,4 +59,3 @@ Pemenang *IIJ GIO Prize* akan menerima:
 berarti untuk mengajukan dalam kompetisi! Kompetisi ini gratis untuk diikuti."
 
 Terima kasih dan sampai jumpa!
-
