@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Offical Ruby FAQ"
+title: "Official Ruby FAQ"
 lang: en
 
 header: |
