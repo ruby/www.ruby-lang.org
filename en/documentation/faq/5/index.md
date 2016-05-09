@@ -35,9 +35,13 @@ header: |
 
 ### What is an iterator?
 
-An iterator is a method which accepts a block or a Proc object. In the source file, the block is placed immediately after the invocation of the method. Iterators are used to produce user-defined control structures--especially loops.
+An iterator is a method which accepts a block or a Proc object. In the source
+file, the block is placed immediately after the invocation of the method.
+Iterators are used to produce user-defined control structures--especially
+loops.
 
-Let's look at an example to see how this works. Iterators are often used to repeat the same action on each element of a collection, like this:
+Let's look at an example to see how this works. Iterators are often used to
+repeat the same action on each element of a collection, like this:
 
     data = [1, 2, 3]
     data.each do |i|
@@ -50,7 +54,9 @@ Produces:
     2
     3
 
-The each method of the array data is passed the do...end block, and executes it repeatedly. On each call, the block is passed successive elements of the array.
+The each method of the array data is passed the do...end block, and executes
+it repeatedly. On each call, the block is passed successive elements of the
+array.
 
 You can define blocks with `{...}` in place of `do...end`.
 
@@ -65,22 +71,30 @@ Produces:
     2
     3
 
-This code has the same meaning as the last example. However, in some cases, precedence issues cause `do...end` and `{...}` to act differently.
+This code has the same meaning as the last example. However, in some cases,
+precedence issues cause `do...end` and `{...}` to act differently.
 
     foobar a, b do .. end # foobar is the iterator.
     foobar a, b { .. }    # b is the iterator.
 
-This is because `{...}` binds more tightly to the preceding expression than does a `do` block. The first example is equivalent to `foobar(a, b) do...`, while the second is `foobar(a, b {...})`.
+This is because `{...}` binds more tightly to the preceding expression than
+does a `do` block. The first example is equivalent to `foobar(a, b) do...`,
+while the second is `foobar(a, b {...})`.
 
 ### How can I pass a block to an iterator?
 
-You simply place the block after the iterator call. You can also pass a Proc object by prepending & to the variable or constant name that refers to the Proc.
+You simply place the block after the iterator call. You can also pass a Proc
+object by prepending & to the variable or constant name that refers to the
+Proc.
 
 ### How is a block used in an iterator?
 
-There are three ways to execute a block from an iterator method: (1) the yield control structure; (2) calling a Proc argument (made from a block) with call; and (3) using Proc.new followed by a call.
+There are three ways to execute a block from an iterator method:
+(1) the yield control structure; (2) calling a Proc argument
+(made from a block) with call; and (3) using Proc.new followed by a call.
 
-The yield statement calls the block, optionally passing it one or more arguments.
+The yield statement calls the block, optionally passing it one or more
+arguments.
 
     def myIterator
       yield 1,2
@@ -92,7 +106,9 @@ Produces:
     1
     2
 
-If a method definition has a block argument (the last formal parameter has an ampersand (&) prepended), it will receive the attached block, converted to a Proc object. This may be called using `method.call(args...)`.
+If a method definition has a block argument (the last formal parameter has
+an ampersand (&) prepended), it will receive the attached block, converted
+to a Proc object. This may be called using `method.call(args...)`.
 
     def myIterator(&b)
       b.call(2,3)
@@ -104,7 +120,10 @@ Produces:
     2
     3
 
-Proc.new (or the equivalent proc or lambda calls), when used in an iterator definition, takes the block which is given to the method as its argument, generates a procedure object from it. (proc and lambda are effectively synonyms.)
+Proc.new (or the equivalent proc or lambda calls), when used in an iterator
+definition, takes the block which is given to the method as its argument,
+generates a procedure object from it. (proc and lambda are effectively
+synonyms.)
 
     def myIterator
       Proc.new.call(3,4)
@@ -122,13 +141,19 @@ Produces:
     5
     6
 
-Perhaps surprisingly, `Proc.new` and friends do not in any sense consume the block attached to the method--each call to `Proc.new` generates a new procedure object out of the same block.
+Perhaps surprisingly, `Proc.new` and friends do not in any sense consume
+the block attached to the method--each call to `Proc.new` generates a new
+procedure object out of the same block.
 
-You can tell if there is a block associated with a method by calling `block_given?`.
+You can tell if there is a block associated with a method by calling
+`block_given?`.
 
 ### What does Proc.new without a block do?
 
-`Proc.new` without a block cannot generate a procedure object and an error occurs. In a method definition, however, `Proc.new` without a block implies the existence of a block at the time the method is called, and so no error will occur.
+`Proc.new` without a block cannot generate a procedure object and an error
+occurs. In a method definition, however, `Proc.new` without a block implies
+the existence of a block at the time the method is called, and so no error
+will occur.
 
 ### How can I run iterators in parallel?
 
@@ -173,4 +198,3 @@ Matz's solution, in [ruby-talk:5252], uses threads:
     combine('it1','it2') do |x|
       # x is (1, 4), then (2, 5), then (3, 6)
     end
-
