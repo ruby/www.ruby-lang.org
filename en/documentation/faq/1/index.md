@@ -5,6 +5,8 @@ lang: en
 
 header: |
   <div class="multi-page">
+    <a href="../" title="Content">Content</a>
+    <span class="separator"> | </span>
     <strong>1</strong>
     <span class="separator"> | </span>
     <a href="../2/" title="Part 2">2</a>

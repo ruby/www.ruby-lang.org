@@ -5,6 +5,8 @@ lang: en
 
 header: |
   <div class="multi-page">
+    <a href="../" title="Content">Content</a>
+    <span class="separator"> | </span>
     <a href="../1/" title="Part 1">1</a>
     <span class="separator"> | </span>
     <strong>2</strong>
@@ -31,9 +33,9 @@ header: |
 
 ---
 
-## How Does Ruby Stack Up Against...?
+## How does Ruby stack up against...?
 
-### How Does Ruby Compare With Python?
+### How does Ruby compare with Python?
 
 Python and Ruby are both object oriented languages that provide a smooth
 transition from procedural to OO programming styles. Smalltalk, by contrast,

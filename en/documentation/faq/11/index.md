@@ -5,6 +5,8 @@ lang: en
 
 header: |
   <div class="multi-page">
+    <a href="../" title="Content">Content</a>
+    <span class="separator"> | </span>
     <a href="../1/" title="Part 1">1</a>
     <span class="separator"> | </span>
     <a href="../2/" title="Part 2">2</a>
@@ -31,7 +33,7 @@ header: |
 
 ---
 
-11. Other Features
+## Other features
 
 11.1 What does a ? b : c mean?
 
