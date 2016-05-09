@@ -62,7 +62,7 @@ Ruby features:
 * High transportability (runs on various Unices, Windows, DOS, OSX, OS/2,
   Amiga, and so on)
 
-### Show me some Ruby code.
+### Show me some Ruby code!
 
 Let's define a class called Person, with a name and an age. We'll test our
 code by creating a few people and examining them.
@@ -121,7 +121,7 @@ Another way would be to change the comparison method for class Person:
     end
     people.sort      # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
 
-### Why the name 'Ruby'?
+### Why the name “Ruby”?
 
 Influenced by Perl, Matz wanted to use a jewel name for his new language, so
 he named Ruby after a colleague's birthstone.
@@ -192,7 +192,7 @@ You can search the mailing list archives using
 http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml.
 (This is the url for the ruby-talk list: munge as required for the others).
 
-1.8 **Changed** How can I thread the mailing list in mutt?
+### How can I thread the mailing list in mutt?
 
 The Ruby mailing list software adds a prefix to the subject lines, for example
 [ruby-talk:1234]. This can confuse the threading in some mail user agents.
@@ -202,7 +202,7 @@ In mutt, you can get threading to work using the following variable setting.
     # reply regexp, to support MLs like ruby-talk.
     set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]]*"
 
-### Which is correct, Ruby or ruby?
+### Which is correct, “Ruby” or “ruby”?
 
 Officially, the language is called ``Ruby''. On most systems, it is invoked
 using the command ``ruby''. It's OK to use ruby instead of Ruby.
@@ -232,7 +232,7 @@ that covers the art and implementation of regular expressions in various
 programming languages. Most of it is highly relevant to Ruby regular
 expressions.
 
-### Which editors provide support for Ruby.
+### Which editors provide support for Ruby?
 
 * Emacs or XEmacs: ruby-mode.el is supplied in the Ruby distribution.
   With some versions of XEmacs, you may need to add (load "font-lock") to your

@@ -218,7 +218,7 @@ and to make the object do something. You can do this with objects passed to
 methods. You need to be careful when doing this, as these kinds of side
 effects can make programs hard to follow.
 
-### What does ``*'' prepended to an argument mean?
+### What does `*` prepended to an argument mean?
 
 When used as part of a formal parameter list, the asterisk allows arbitrary
 numbers of arguments to be passed to a method by collecting them into an
@@ -260,7 +260,7 @@ For example:
     x     = [7, 8, 9]
     x                # -> [7, 8, 9]
 
-### What does ``&'' prepended to an argument mean?
+### What does `&` prepended to an argument mean?
 
 If the last formal argument of a method is preceeded with an ampersand,
 a block following the method call will be converted into a Proc object

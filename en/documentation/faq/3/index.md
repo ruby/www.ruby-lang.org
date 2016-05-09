@@ -99,7 +99,7 @@ configure options using:
 If you are working from the CVS archive, you may need to run autoconf before
 running configure.
 
-### **Changed** How do I tell Ruby where my libraries are?
+### How do I tell Ruby where my libraries are?
 
 On some systems, the build process may fail to find libraries used by
 extension modules (for example the dbm libraries).
@@ -152,7 +152,7 @@ Reuben Thomas writes:
 > I do provide a binary distribution of 1.4.3 for the Acorn at
 > http://www.cl.cam.ac.uk/users/rrt1001/ruby.zip.
 
-### What's all this 'cygwin', 'mingw', and 'djgpp' stuff?
+### What's all this “cygwin”, “mingw”, and “djgpp” stuff?
 
 Ruby is written to take advantage of the rich feature set of a Unix
 environment. Unfortunately, Windows is missing some of the functions, and

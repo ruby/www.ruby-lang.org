@@ -35,7 +35,7 @@ header: |
 
 ## Syntax
 
-### What does :var mean?
+### What does `:var` mean?
 
 A colon followed by a name generates an integer(Fixnum) called a symbol
 which corresponds one to one with the identifier. "var".intern gives the
@@ -80,7 +80,7 @@ may then call.
     m = d.method(:meth)  # -> #<Method: Demo(Demo)#meth>
     m.call               # -> "Hello, world"
 
-### Is loop a control structure?
+### Is `loop` a control structure?
 
 Although loop looks like a control structure, it is actually a method defined
 in Kernel. The block which follows introduces a new scope for local variables.
@@ -115,7 +115,7 @@ all the time. In this case, `a +b` is parsed as `a(+b)`. Remove the space
 to the left of `+` or add a space to the right of `+,` and it will be parsed
 as an addition.
 
-### `s = "x"; puts s *10` gives an error.
+### `s = "x"; puts s *10` gives an error!
 
 Again, Ruby sees the asymmetrical space and parses it as `puts(s(*10))`
 (which isn't too smart, really). Use `s*10` or `s * 10` to get the desired
@@ -127,7 +127,7 @@ The {} is parsed as a block, not a Hash constructor. You can force the {}
 to be treated as an expression by making the fact that it's a parameter
 explicit: `p({})`.
 
-### I can't get def pos=(val) to work.
+### I can't get `def pos=(val)` to work!
 
 I have the following code, but I cannot use the method pos = 1.
 
@@ -147,7 +147,7 @@ transformed and other combinations remain unchanged.
 However, in a doubled quoted string, "\1" is the byte \001, while "\\1"
 is the two character string containing a backslash and the character "1".
 
-### What's the difference between `or` and `||`?
+### What is the difference between `or` and `||`?
 
 Q: `p(nil || "Hello")` prints `"Hello"`, while `p(nil or "Hello")` gives a
 parse error.
