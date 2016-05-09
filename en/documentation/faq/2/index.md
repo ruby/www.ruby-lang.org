@@ -5,7 +5,7 @@ lang: en
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
+    <a href="../1/" title="Part 1">1</a>
     <span class="separator"> | </span>
     <strong>2</strong>
     <span class="separator"> | </span>
