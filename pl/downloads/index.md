@@ -51,7 +51,7 @@ skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
 * **Migawki:**
   * [Stabilna migawka]({{ site.downloads.stable_snapshot.url.gz }}):
     To jest tarball ostatniej migawki stabilnej obecnego stabilnego brancha.
-  * [Nocny migawka]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nocna migawka]({{ site.downloads.nightly_snapshot.url.gz }}):
     To jest tarball tego co jest w SVN, przygotowany
     w nocy. Może zawierać błędy lub inne problemy, używaj na własne ryzyko!
 
