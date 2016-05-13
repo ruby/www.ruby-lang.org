@@ -34,7 +34,7 @@ to this website.
 
 Also many thanks to the organizations that support us:
 
- * [NaCl][nacl] (hosting)
+ * [Ruby Association][rubyassociation] (hosting)
  * [Heroku][heroku] (hosting)
  * [IIJ][iij] (hosting)
  * [GlobalSign][globalsign] (SSL certification)
@@ -51,7 +51,7 @@ Also many thanks to the organizations that support us:
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
