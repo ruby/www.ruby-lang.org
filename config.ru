@@ -23,6 +23,23 @@ use Rack::Rewrite do
   r302 %r{^/([a-z_]+)/news/2013/12/21/semantic-versioning-after-2-1-0(.*)$}, "/$1/news/2013/12/21/ruby-version-policy-changes-with-2-1-0$2"
   r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
 
+  # URL changes with Jekyll 3, May 2016
+  r302 %r{^/(en|id)/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-(.*)$}, "/$1/news/2012/02/16/security-fix-for-ruby-openssl-module$2"
+  r302 %r{^/(de)/news/2012/02/16/sicherheitsfix-fr-rubys-openssl-modul-erlaube-0n-splitting-als-gegenmanahme-fr-den-tls-beast-angriff(.*)$}, "/$1/news/2012/02/16/security-fix-for-ruby-openssl-module$2"
+  r302 %r{^/(en|it)/news/(201./../..)/fukuoka-ruby-award-2011-competition---grand-prize-12000(.*)$}, "/$1/news/$2/fukuoka-ruby-award-2011$3"
+  r302 %r{^/(en|id|it)/news/(201./../..)/2013-fukuoka-ruby-award-competitionentries-to-be-judged-by-matz(.*)$}, "/$1/news/$2/fukuoka-ruby-award-2013$3"
+  r302 %r{^/(en)/news/2011/10/12/upcoming-ruby-programming-competitions-with-matz---grand-prize---1000000-jpy(.*)$}, "/$1/news/2011/10/12/programming-competitions-with-matz$2"
+  r302 %r{^/(de)/news/2011/10/13/anstehende-ruby-programmierwettbewerbe-mit-matz---groer-preis-1-000-000-(.*)$}, "/$1/news/2011/10/12/programming-competitions-with-matz$2"
+  r302 %r{^/(en|de|ko)/news/2003/01/31/raasuccversion--230(.*)$}, "/$1/news/2003/01/31/raa-2-3-0$2"
+  r302 %r{^/(en|de|ko)/news/2002/12/07/my20021207-raasuccversion--210(.*)$}, "/$1/news/2002/12/07/raa-2-1-0$2"
+  r302 %r{^/(en|ko)/news/2002/12/11/ruby-hacking-guide-is-out-though-(.*)$}, "/$1/news/2002/12/11/ruby-hacking-guide$2"
+  r302 %r{^/(de)/news/2002/12/11/ruby-hacking-guide-ist-da-obwohl-(.*)$}, "/$1/news/2002/12/11/ruby-hacking-guide$2"
+  r302 %r{^/(pl)/news/2012/10/22/rupy-2012---pita-edycja-konferencji-niebawem(.*)$}, "/$1/news/2012/10/22/rupy-2012$2"
+  r302 %r{^/(ko)/news/2008/06/12/-1-8-7-(.*)$}, "/$1/news/2008/06/12/ruby-1-8-7$2"
+  r302 %r{^/(ko)/news/2007/09/10/-4-(.*)$}, "/$1/news/2007/09/10/ruby-kr-seminar-4$2"
+  r302 %r{^/(ko)/news/2006/11/10/-2006-11-25(.*)$}, "/$1/news/2006/11/10/meeting-2006-11-25$2"
+  r302 %r{^/(bg|es|ja|ko|zh_cn|zh_tw)/news/(.*)-(|/|/index\.html)$}, "/$1/news/$2$3"
+
   # removed resources (some are still linked to from old news posts)
   r302 %r{^/ja/install\.cgi(\?.+)?$}, "/ja/downloads"
   r302 %r{^/ja/20030611\.html$},      "/ja/downloads"
