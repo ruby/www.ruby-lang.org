@@ -99,7 +99,7 @@ Weitere bekannte Probleme:
 [5]: /de/news/2012/10/12/durch-ungltiges-nul-zeichen-werden-unabsichtlich-dateien-erzeugt/
 [6]: /de/news/2012/10/12/sicherheitsluecke-in-exception-ermoeglicht-umgehung-von-safe-mode/
 [7]: /de/news/2012/04/20/ruby-1-9-3-p194-verffentlicht/
-[8]: /de/news/2012/02/16/sicherheitsfix-fr-rubys-openssl-modul-erlaube-0n-splitting-als-gegenmanahme-fr-den-tls-beast-angriff/
+[8]: /de/news/2012/02/16/security-fix-for-ruby-openssl-module/
 [9]: /de/news/2012/01/04/denial-of-service-attacke-fr-rubys-hash-algorithmus-gefunden-cve-2011-4815/
 [10]: /de/news/2011/02/18/exception-methoden-knnen-safe-umgehen/
 [11]: /de/news/2011/02/18/sicherheitslcke-in-fileutils-durch-race-conditions-in-symlinks/
