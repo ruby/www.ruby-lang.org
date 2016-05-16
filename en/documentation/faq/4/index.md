@@ -77,7 +77,7 @@ Produces:
 (Note that the class definition is executable code: the trace message it
 contains is written as the class is defined).
 
-A block (``{'' ... ``}'' or do ... end) almost introduces a new scope ;-)
+A block (`{ ... }` or `do ... end`) almost introduces a new scope ;-)
 Locals created within a block are not accessible outside the block. However,
 if a local within the block has the same name as an existing local variable
 in the caller's scope, then no new local is created, and you can subsequently
@@ -126,10 +126,10 @@ is a method and the associated block introduces a new scope.
 
 Actually, the question may be better asked as: "at what point does Ruby work
 out that something is a variable?" The problem arises because the simple
-expression ``a'' could be either a variable or a call to a method with no
+expression “a” could be either a variable or a call to a method with no
 parameters. To decide which is the case, Ruby looks for assignment statements.
-If at some point in the source prior to the use of ``a'' it sees it being
-assigned to, it decides to parse ``a'' as a variable, otherwise it treats it
+If at some point in the source prior to the use of “a” it sees it being
+assigned to, it decides to parse “a” as a variable, otherwise it treats it
 as a method. As a somewhat pathological case of this, consider this code
 fragment, submitted by Clemens Hintze:
 
@@ -153,10 +153,10 @@ Produces:
     Function 'a' called
     a=99
 
-During the parse, Ruby sees the use of ``a'' in the first print statement and,
-as it hasn't yet seen any assignment to ``a'', assumes that it is a method
+During the parse, Ruby sees the use of “a” in the first print statement and,
+as it hasn't yet seen any assignment to “a”, assumes that it is a method
 call. By the time it gets to the second print statement, though, it has seen
-an assignment, and so treats ``a'' as a variable.
+an assignment, and so treats “a” as a variable.
 
 Note that the assignment does not have to be executed---Ruby just has to have
 seen it. This program does not raise an error.
@@ -331,11 +331,11 @@ calls yield), or by using the Proc.call method.
     a                # -> "abcd"
     A                # -> "abcd"
 
-Variables hold references to objects. The assignment A = a = b = "abc" put a
-reference to the string ``abc'' into A, a, and b.
+Variables hold references to objects. The assignment A = a = b = "abc" puts a
+reference to the string “abc” into A, a, and b.
 
 When you called b.concat("d"), you invoked the concat method on that object,
-changing it from ``abc'' to ``abcd''. Because a and A also reference that
+changing it from “abc” to “abcd”. Because a and A also reference that
 same object, their apparent value changes too.
 
 This is less of a problem in practice than it might appear.

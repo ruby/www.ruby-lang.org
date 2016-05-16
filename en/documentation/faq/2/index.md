@@ -41,24 +41,24 @@ Python and Ruby are both object oriented languages that provide a smooth
 transition from procedural to OO programming styles. Smalltalk, by contrast,
 is object only - you can't do anything until you understand objects,
 inheritance and the sizable Smalltalk class hierarchy. By providing procedural
-training wheels, Python and Ruby ``fix'' one of the features that may have
+training wheels, Python and Ruby “fix” one of the features that may have
 kept Smalltalk out of the mainstream. The two languages differ by approaching
 this solution from opposite directions.
 
 Python is a hybrid language. It has functions for procedural programming and
 objects for OO programming. Python bridges the two worlds by allowing
-functions and methods to interconvert using the explicit ``self'' parameter
+functions and methods to interconvert using the explicit `self` parameter
 of every method def. When a function is inserted into an object, the first
 argument automagically becomes a reference to the receiver.
 
 Ruby is a pure OO language that can masquerade as a procedural one. It has no
-functions, only method calls. In a Ruby method the receiver, also called self,
-is a hidden argument like ``this'' in C++. A ``def'' statement outside of a
+functions, only method calls. In a Ruby method the receiver, also called `self`,
+is a hidden argument like `this` in C++. A `def` statement outside of a
 class definition, which is a function in Python, is actually a method call in
 Ruby. These ersatz functions become private methods of class Object, the root
 of the Ruby class hierarchy. Procedural programming is neatly solved from the
 other direction - everything is an object. If the user doesn't grok objects
-yet, they can just pretend that ``def'' is a function definition and still
+yet, they can just pretend that `def` is a function definition and still
 get useful work done.
 
 Ruby's OO purity provides a number features that Python lacks or is still
@@ -77,7 +77,7 @@ Python is sprouting (lambdas and list comprehensions).
 Ruby's syntax and design philosophy are heavily influenced by Perl. It has a
 lot of syntactic variability. Statement modifiers (if, unless, while, until,
 etc.) may appear at the end of any statement. Some key words are optional
-(the ``then'' in an ``if'' statement for example). Parentheses may sometimes
+(the `then` in an `if` statement for example). Parentheses may sometimes
 be elided in method calls. The receiver of a method may usually be elided.
 Many, many things are lifted directly from Perl.
 Built in regular expressions, $_ and friends, here documents,

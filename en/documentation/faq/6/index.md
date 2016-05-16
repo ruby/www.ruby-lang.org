@@ -39,7 +39,7 @@ header: |
 
 A colon followed by a name generates an integer(Fixnum) called a symbol
 which corresponds one to one with the identifier. "var".intern gives the
-same integer as :var, but the ``:'' form will create a local symbol if it
+same integer as :var, but the “:” form will create a local symbol if it
 doesn't already exist.
 
 The routines "catch", "throw", "autoload", and so on, require a string or a

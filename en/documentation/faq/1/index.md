@@ -204,12 +204,12 @@ In mutt, you can get threading to work using the following variable setting.
 
 ### Which is correct, “Ruby” or “ruby”?
 
-Officially, the language is called ``Ruby''. On most systems, it is invoked
-using the command ``ruby''. It's OK to use ruby instead of Ruby.
+Officially, the language is called “Ruby”. On most systems, it is invoked
+using the command `ruby`. It's OK to use ruby instead of Ruby.
 
 Please don't use RUBY as the language name.
 
-Originally, or historically, it was called ``ruby''.
+Originally, or historically, it was called “ruby”.
 
 ### Are there any Ruby books?
 
@@ -219,14 +219,14 @@ October 2000.
 
 A Japanese language Ruby reference book by matz, et al and published by ASCII
 is available in Japan (ISBN 4-7561-3254-5). An English translation,
-`` The Ruby Programming Language,'' is in the works from Addison-Wesley
+“The Ruby Programming Language”, is in the works from Addison-Wesley
 (ISBN 020171096X).
 
-A Japanese language ``Ruby Pocket Reference'' is published by O'Reilly Japan
+A Japanese language “Ruby Pocket Reference” is published by O'Reilly Japan
 (ISBN 4-87311-023-8). Let O'Reilly in the US know if you'd like to see a
 translation.
 
-In addition, `` Mastering Regular Expressions,'' by Jeffrey Friedl, (the Hip
+In addition, “Mastering Regular Expressions”, by Jeffrey Friedl, (the Hip
 Owl Book): ISBN 1-56592-257-3 from O'Reilly & Associates, is a reference work
 that covers the art and implementation of regular expressions in various
 programming languages. Most of it is highly relevant to Ruby regular

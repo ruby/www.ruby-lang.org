@@ -305,9 +305,9 @@ z
 
 9.16 What does "abcd"[0] return?
 
-It returns the character code for ``a'', 97(Fixnum). You can express a
+It returns the character code for “a”, 97 (Fixnum). You can express a
 character code as an integer constant by prefixing the character with a
-question mark, so ?a is also 97(Fixnum).
+question mark, so `?a` is also 97 (Fixnum).
 
 9.17 How can I expand tabs to spaces?
 
