@@ -35,33 +35,32 @@ header: |
 
 ## Other features
 
-11.1 What does a ? b : c mean?
+### What does a ? b : c mean?
 
 It's the same as saying if a then b else c end.
 
-11.2 How can I count the number of lines in a file?
+### How can I count the number of lines in a file?
 
 Assuming that the file ends in a linefeed, the following code may give the
 fastest result.
 
-
-
+~~~
 open("example").read.count("\n")  # -> 3
+~~~
 
-11.3 What do begin and end of MatchingData return?
+### What do begin and end of MatchingData return?
 
 They act with $ , and return the start index and the end index of the
 matched data ($0) in the original string. See an example in tab expansion.
 
-11.4 How can I sum the elements in an array?
+### How can I sum the elements in an array?
 
 Rather than solve the specific problem, let's solve the general case. The
 first thing we'll do is produce a method that will iterate over an Enumerable
 object and collect a single result. Smalltalk calls that method inject, so we
 will too:
 
-
-
+~~~
 module Enumerable
 
   # inject(n) { |n, i| ...}
@@ -72,6 +71,7 @@ module Enumerable
     n
   end
 end
+~~~
 
 Notice how we've added the method to Enumerable. This means that anything
 that includes Enumerable can now use inject. But how do we use it? It takes
@@ -80,8 +80,7 @@ enumerated, it calls the block, passing in `n' and the element itself.
 The result of the block is assigned back to `n'. So, to define sum,
 we could write:
 
-
-
+~~~
 module Enumerable
   def sum
     inject(0) {|n, i|  n + i }
@@ -90,8 +89,9 @@ end
 
 [1,3,5,7,9].sum  # -> 25
 (1..100).sum     # -> 5050
+~~~
 
-11.5 How can I use continuations?
+### How can I use continuations?
 
 Ruby's continuations allow you to create an object representing a place in a
 Ruby program, and then return to that place at any time (even if it has
@@ -101,8 +101,7 @@ control structures, but are typically more useful as ways of confusing people.
 In [ruby-talk:4482], Jim Weirich posted the following examples of
 continuations:
 
-
-
+~~~
 # --------------------------------------------------------------------
 # Simple Producer/Consumer
 # --------------------------------------------------------------------
@@ -129,9 +128,11 @@ def count(limit)
   count_task(limit, print_task())
   print "\n"
 end
+~~~
 
 
 
+~~~
 # --------------------------------------------------------------------
 # Filtering Out Multiples of a Given Number
 # --------------------------------------------------------------------
@@ -154,9 +155,11 @@ def omit(factor, limit)
   count_task(limit, filter)
   print "\n"
 end
+~~~
 
 
 
+~~~
 # --------------------------------------------------------------------
 # Prime Number Generator
 # --------------------------------------------------------------------
@@ -181,3 +184,4 @@ def primes(limit)
   count_task(limit, primes)
   print "\n"
 end
+~~~

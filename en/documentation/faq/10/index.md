@@ -35,18 +35,20 @@ header: |
 
 ## Extension library
 
-10.1 How can I use Ruby interactively?
+### How can I use Ruby interactively?
 
 You can try using irb. The following is paraphrased from Goto Kentaro
 (Gotoken), and originally appeared in ruby-talk:444.
 
-    Get the latest tarball of irb from the contrib directory in the Ruby archive.
-    Extract the irb directory tree.
-    Add the location of the irb/ directory to the $RUBYLIB environment variable
-    Make a symbolic link from $RUBYLIB/irb/irb.rb to a file called irb somewhere in your path.
-    chmod +x $RUBYLIB/irb/irb.rb
-    Possibly use rehash to tell your login shell about the new command.
-    Type irb
+~~~
+Get the latest tarball of irb from the contrib directory in the Ruby archive.
+Extract the irb directory tree.
+Add the location of the irb/ directory to the $RUBYLIB environment variable
+Make a symbolic link from $RUBYLIB/irb/irb.rb to a file called irb somewhere in your path.
+chmod +x $RUBYLIB/irb/irb.rb
+Possibly use rehash to tell your login shell about the new command.
+Type irb
+~~~
 
 If the readline extension module works with your interpreter, it makes irb
 a lot more fun to use.
@@ -56,19 +58,19 @@ distribution. It lets you enter expressions and view their values. You can
 copy eval into the site_ruby directory in the Ruby tree, and then invoke it
 using:
 
-
-
+~~~
 ruby -r eval -e0
+~~~
 
-10.2 Is there a debugger for Ruby?
+### Is there a debugger for Ruby?
 
 There is a gdb-like debugger for Ruby.
 
+~~~
+ruby -r debug your_program
+~~~
 
-
-  ruby -r debug your_program
-
-10.3 How can I use a library written in C from Ruby?
+### How can I use a library written in C from Ruby?
 
 Of all the scripting languages, Ruby is probably the easiest to extend.
 There are no problems with reference counting and variable types, and very
@@ -83,7 +85,7 @@ Next, have a look at the source of the interpreter itself, and at the various
 supplied extensions in the ext/ directory. You'll also find good examples
 under contrib/ on the Ruby ftp sites.
 
-10.4 Can I use Tcl/Tk interface in Ruby?
+### Can I use Tcl/Tk interface in Ruby?
 
 There are two interfaces to Tcl/Tk included in the standard distribution.
 One is under ext/tcltk/ and loaded with require "tcltk". The syntax is very
@@ -93,16 +95,16 @@ description for this library is written in Japanese.
 The other is under ext/tk/ and loaded with require "tk". Its syntax closer to
 the style of the Tk interface provided by the Perl and Python interfaces.
 
-10.5 Tk won't work.
+### Tk won't work.
 
 Your Tk version may be old, try a newer version.
 
-10.6 Can I use gtk+ or xforms interfaces in Ruby?
+### Can I use gtk+ or xforms interfaces in Ruby?
 
 You'll find ruby-gtk-x.xx.tar.gz and ruby-forms-x.x.tar.gz under contrib/
 in ftp sites.
 
-10.7 How can I do date arithmetic?
+### How can I do date arithmetic?
 
 A Time object can express only the dates between Jan 1, 1970 and Jan 19, 2038.
 
