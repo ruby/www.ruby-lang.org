@@ -71,10 +71,12 @@ Also on this page is a link to a nightly snapshot of the development tree.
 
 If you have a CVS client, you can check out the current source tree using:
 
-    % cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs login
-    (Logging in to anonymous@cvs.netlab.co.jp)
-    CVS password: guest
-    % cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs co ruby
+~~~
+% cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs login
+(Logging in to anonymous@cvs.netlab.co.jp)
+CVS password: guest
+% cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs co ruby
+~~~
 
 If you do not have CVS you can get a nightly snapshot of the development
 source from ftp://ftp.netlab.co.jp/pub/lang/ruby/snapshot.tar.gz.
@@ -85,16 +87,20 @@ Under Unix, Ruby uses the autoconf system to configure the build environment.
 You don't need the autoconf command on your box to build Ruby from a
 distribution; just use the commands:
 
-    % ./configure  [configure options]
-    % make
-    % make test
-    % make install
+~~~
+% ./configure  [configure options]
+% make
+% make test
+% make install
+~~~
 
 You may need superuser privileges to install Ruby if you don't override the
 default installation location (/usr/local). You can get a full list of
 configure options using:
 
-    % ./configure --help
+~~~
+% ./configure --help
+~~~
 
 If you are working from the CVS archive, you may need to run autoconf before
 running configure.
@@ -107,27 +113,35 @@ extension modules (for example the dbm libraries).
 You can tell Ruby where to find libraries using options to configure.
 From [ruby-talk:5041]:
 
-    ./configure --with-xxx-yyy=DIR
+~~~
+./configure --with-xxx-yyy=DIR
+~~~
 
 where xxx is either
 
-    opt           extra software path in general
-    dbm           path for dbm library
-    gdbm          path for gdbm library
-    x11           ...for X11..
-    tk            ...for Tk...
-    tcl           ...for Tcl...
+~~~
+opt           extra software path in general
+dbm           path for dbm library
+gdbm          path for gdbm library
+x11           ...for X11..
+tk            ...for Tk...
+tcl           ...for Tcl...
+~~~
 
 and yyy is either
 
-    dir           specifies -I DIR/include -L DIR/lib
-    include       specifies -I DIR
-    lib           specifies -L DIR
+~~~
+dir           specifies -I DIR/include -L DIR/lib
+include       specifies -I DIR
+lib           specifies -L DIR
+~~~
 
 On HP-UX, there may be problems building with gcc. Try using the native
 compiler instead. WATANABE Tetsuya recommends:
 
-    CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
+~~~
+CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
+~~~
 
 There may also be problems with HP's native sed. He recommends installing the
 GNU equivalent.

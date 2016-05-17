@@ -51,10 +51,12 @@ require a symbol.
 The fact that a symbol springs into existence the first time it is referenced
 is sometimes used to assign unique values to constants:
 
-    NORTH = :NORTH
-    SOUTH = :SOUTH
-    EAST  = :EAST
-    WEST  = :WEST
+~~~
+NORTH = :NORTH
+SOUTH = :SOUTH
+EAST  = :EAST
+WEST  = :WEST
+~~~
 
 ### How can I access the value of a symbol?
 
@@ -62,23 +64,27 @@ To get the value of the variable corresponding to a symbol, you can use
 id2name to get the name of the variable, and then eval that to get that
 variable's contents. In the scope of "symbol", do eval(:symbol.id2name).
 
-    a = 'This is the content of "a"'
-    b = eval(:a.id2name)
-    a.id == b.id  # b now references the same object as a
+~~~
+a = 'This is the content of "a"'
+b = eval(:a.id2name)
+a.id == b.id  # b now references the same object as a
+~~~
 
 If your symbol corresponds to the name of a method, you can use the
 Method.method function to return a corresponding Method object, which you
 may then call.
 
-    class Demo
-      def meth
-        "Hello, world"
-      end
-    end
+~~~
+class Demo
+  def meth
+    "Hello, world"
+  end
+end
 
-    d = Demo.new         # -> #<Demo:0x401b4400>
-    m = d.method(:meth)  # -> #<Method: Demo(Demo)#meth>
-    m.call               # -> "Hello, world"
+d = Demo.new         # -> #<Demo:0x401b4400>
+m = d.method(:meth)  # -> #<Method: Demo(Demo)#meth>
+m.call               # -> "Hello, world"
+~~~
 
 ### Is `loop` a control structure?
 
@@ -93,19 +99,23 @@ loops that test the condition at the end.
 Clemens Hintze says: You can use a combination of Ruby's `begin ... end`
 and the while or until statement modifiers to achieve the same effect:
 
-    i = 0
-    begin
-      puts "i = #{i}"
-      i += 1
-    end until i > 4
+~~~
+i = 0
+begin
+  puts "i = #{i}"
+  i += 1
+end until i > 4
+~~~
 
 Produces:
 
-    i = 0
-    i = 1
-    i = 2
-    i = 3
-    i = 4
+~~~
+i = 0
+i = 1
+i = 2
+i = 3
+i = 4
+~~~
 
 ### `a +b` gives an error!
 
@@ -131,10 +141,12 @@ explicit: `p({})`.
 
 I have the following code, but I cannot use the method pos = 1.
 
-    def pos=(val)
-      print @pos, "\n"
-      @pos = val
-    end
+~~~
+def pos=(val)
+  print @pos, "\n"
+  @pos = val
+end
+~~~
 
 Methods with = appended must be called with a receiver (without the receiver,
 you're just assigning to a local variable). Invoke it as `self.pos = 1`.

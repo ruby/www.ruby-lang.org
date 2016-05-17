@@ -45,16 +45,20 @@ loops.
 Let's look at an example to see how this works. Iterators are often used to
 repeat the same action on each element of a collection, like this:
 
-    data = [1, 2, 3]
-    data.each do |i|
-      print i, "\n"
-    end
+~~~
+data = [1, 2, 3]
+data.each do |i|
+  print i, "\n"
+end
+~~~
 
 Produces:
 
-    1
-    2
-    3
+~~~
+1
+2
+3
+~~~
 
 The each method of the array data is passed the do...end block, and executes
 it repeatedly. On each call, the block is passed successive elements of the
@@ -62,22 +66,28 @@ array.
 
 You can define blocks with `{...}` in place of `do...end`.
 
-    data = [1, 2, 3]
-    data.each { |i|
-      print i, "\n"
-    }
+~~~
+data = [1, 2, 3]
+data.each { |i|
+  print i, "\n"
+}
+~~~
 
 Produces:
 
-    1
-    2
-    3
+~~~
+1
+2
+3
+~~~
 
 This code has the same meaning as the last example. However, in some cases,
 precedence issues cause `do...end` and `{...}` to act differently.
 
-    foobar a, b do .. end # foobar is the iterator.
-    foobar a, b { .. }    # b is the iterator.
+~~~
+foobar a, b do .. end # foobar is the iterator.
+foobar a, b { .. }    # b is the iterator.
+~~~
 
 This is because `{...}` binds more tightly to the preceding expression than
 does a `do` block. The first example is equivalent to `foobar(a, b) do...`,
@@ -98,50 +108,62 @@ There are three ways to execute a block from an iterator method:
 The yield statement calls the block, optionally passing it one or more
 arguments.
 
-    def myIterator
-      yield 1,2
-    end
-    myIterator { |a,b| puts a, b }
+~~~
+def myIterator
+  yield 1,2
+end
+myIterator { |a,b| puts a, b }
+~~~
 
 Produces:
 
-    1
-    2
+~~~
+1
+2
+~~~
 
 If a method definition has a block argument (the last formal parameter has
 an ampersand (&) prepended), it will receive the attached block, converted
 to a Proc object. This may be called using `method.call(args...)`.
 
-    def myIterator(&b)
-      b.call(2,3)
-    end
-    myIterator { |a,b| puts a, b }
+~~~
+def myIterator(&b)
+  b.call(2,3)
+end
+myIterator { |a,b| puts a, b }
+~~~
 
 Produces:
 
-    2
-    3
+~~~
+2
+3
+~~~
 
 Proc.new (or the equivalent proc or lambda calls), when used in an iterator
 definition, takes the block which is given to the method as its argument,
 generates a procedure object from it. (proc and lambda are effectively
 synonyms.)
 
-    def myIterator
-      Proc.new.call(3,4)
-      proc.call(4,5)
-      lambda.call(5,6)
-    end
-    myIterator { |a,b| puts a, b }
+~~~
+def myIterator
+  Proc.new.call(3,4)
+  proc.call(4,5)
+  lambda.call(5,6)
+end
+myIterator { |a,b| puts a, b }
+~~~
 
 Produces:
 
-    3
-    4
-    4
-    5
-    5
-    6
+~~~
+3
+4
+4
+5
+5
+6
+~~~
 
 Perhaps surprisingly, `Proc.new` and friends do not in any sense consume
 the block attached to the method--each call to `Proc.new` generates a new
@@ -161,42 +183,44 @@ will occur.
 
 Matz's solution, in [ruby-talk:5252], uses threads:
 
-    require 'thread'
+~~~
+require 'thread'
 
-    def combine(*args)
-      queues = []
-      threads = []
-      for it in args
-        queue = SizedQueue.new(1)
-        th = Thread.start(it, queue) do |i,q|
-          self.send(it) do |x|
-            q.push x
-          end
-        end
-        queues.push queue
-        threads.push th
-      end
-      loop do
-        ary = []
-        for q in queues
-          ary.push q.pop
-        end
-        yield ary
-        for th in threads
-          return unless th.status
-        end
+def combine(*args)
+  queues = []
+  threads = []
+  for it in args
+    queue = SizedQueue.new(1)
+    th = Thread.start(it, queue) do |i,q|
+      self.send(it) do |x|
+        q.push x
       end
     end
-    public :combine
-
-    def it1 ()
-      yield 1; yield 2; yield 3
+    queues.push queue
+    threads.push th
+  end
+  loop do
+    ary = []
+    for q in queues
+      ary.push q.pop
     end
-
-    def it2 ()
-      yield 4; yield 5; yield 6
+    yield ary
+    for th in threads
+      return unless th.status
     end
+  end
+end
+public :combine
 
-    combine('it1','it2') do |x|
-      # x is (1, 4), then (2, 5), then (3, 6)
-    end
+def it1 ()
+  yield 1; yield 2; yield 3
+end
+
+def it2 ()
+  yield 4; yield 5; yield 6
+end
+
+combine('it1','it2') do |x|
+  # x is (1, 4), then (2, 5), then (3, 6)
+end
+~~~

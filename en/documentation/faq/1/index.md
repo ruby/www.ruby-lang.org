@@ -67,59 +67,69 @@ Ruby features:
 Let's define a class called Person, with a name and an age. We'll test our
 code by creating a few people and examining them.
 
-    class Person
-      attr_accessor :name, :age
-      def initialize(name, age)
-        @name = name
-        @age  = age.to_i
-      end
-      def inspect
-        "#@name (#@age)"
-      end
-    end
+~~~
+class Person
+  attr_accessor :name, :age
+  def initialize(name, age)
+    @name = name
+    @age  = age.to_i
+  end
+  def inspect
+    "#@name (#@age)"
+  end
+end
 
-    p1 = Person.new('elmo', 4)
-    p2 = Person.new('zoe', 7)
+p1 = Person.new('elmo', 4)
+p2 = Person.new('zoe', 7)
 
-    p1               # -> elmo (4)
-    p2               # -> zoe (7)
+p1               # -> elmo (4)
+p2               # -> zoe (7)
+~~~
 
 Now let's populate an array of people by reading their names and ages from a
 file containing lines like:
 
-    bert:    8
-    cookie: 11
-    elmo:    4
-    ernie:   8
-    zoe:     7
+~~~
+bert:    8
+cookie: 11
+elmo:    4
+ernie:   8
+zoe:     7
+~~~
 
 The code uses regular expressions to parse successive lines from the input
 file, creating a new Person object for each match and pushing it on to the
 end of the array people.
 
-    people = Array.new
+~~~
+people = Array.new
 
-    File.foreach("ages") { |l|
-      people << Person.new($1, $2) if l =~ /(.*):\s+(\d+)/
-    }
+File.foreach("ages") { |l|
+  people << Person.new($1, $2) if l =~ /(.*):\s+(\d+)/
+}
 
-    people           # -> [bert (8), cookie (11), elmo (4), ernie (8), zoe (7)]
+people           # -> [bert (8), cookie (11), elmo (4), ernie (8), zoe (7)]
+~~~
 
 Now, let's sort the result based on the person's age. There are many ways to
 do this. We can define a sort block, which tells Ruby how to do the comparison
 of two people:
 
-    sorted = people.sort do |a,b| a.age <=> b.age end
-    sorted           # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+~~~
+sorted = people.sort do |a,b| a.age <=> b.age end
+sorted           # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+~~~
 
 Another way would be to change the comparison method for class Person:
 
-    class Person
-      def <=>(other)
-        @age <=> other.age
-      end
-    end
-    people.sort      # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+~~~
+class Person
+  def <=>(other)
+    @age <=> other.age
+  end
+end
+people.sort      # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+~~~
 
 ### Why the name “Ruby”?
 
@@ -180,11 +190,13 @@ Conrad Schneiker).
 There are five mailing lists now talking about Ruby. The first is in English,
 the last four in Japanese:
 
-    ruby-talk: English language discussion of Ruby.
-    ruby-list: Japanese language discussion of Ruby.
-    ruby-dev: List for Ruby developers.
-    ruby-ext: List for people writing extensions for or with Ruby.
-    ruby-math: Ruby in mathematics.
+~~~
+ruby-talk: English language discussion of Ruby.
+ruby-list: Japanese language discussion of Ruby.
+ruby-dev: List for Ruby developers.
+ruby-ext: List for people writing extensions for or with Ruby.
+ruby-math: Ruby in mathematics.
+~~~
 
 See joining the mailing list.
 
@@ -199,8 +211,10 @@ The Ruby mailing list software adds a prefix to the subject lines, for example
 
 In mutt, you can get threading to work using the following variable setting.
 
-    # reply regexp, to support MLs like ruby-talk.
-    set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]]*"
+~~~
+# reply regexp, to support MLs like ruby-talk.
+set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]]*"
+~~~
 
 ### Which is correct, “Ruby” or “ruby”?
 
@@ -256,8 +270,10 @@ statement as a comment attached to that statement. For example, in the
 following code, we show that the assignment generates the string "Billy Bob",
 and then result of extracting some substrings.
 
-    str = "Billy" + " Bob"           # -> "Billy Bob"
-    str[0,1] + str[2,1] + str[-2,2]  # -> "Blob"
+~~~
+str = "Billy" + " Bob"           # -> "Billy Bob"
+str[0,1] + str[2,1] + str[-2,2]  # -> "Blob"
+~~~
 
 Gotoken's xmp package, available from
 http://www.ruby-lang.org/en/raa-list.rhtml?name=xmp is a utility that
@@ -267,18 +283,22 @@ Emacs and vim users can integrate this with their editing environments, which
 is useful if you want to send people e-mail with annotated Ruby code. Having
 installed xmp, Emacs users can add the following to their .emacs file:
 
-    (defun ruby-xmp-region (reg-start reg-end)
-      "Pipe the region through Ruby's xmp utility and replace the region with
-       the result."
-      (interactive "r")
-      (shell-command-on-region reg-start reg-end
-                               "ruby -r xmp -n -e 'xmp($_, \"%l\t\t# %r\n\")'"
-                               t))
-    (global-set-key [(meta f10)] 'ruby-xmp-region)
+~~~
+(defun ruby-xmp-region (reg-start reg-end)
+  "Pipe the region through Ruby's xmp utility and replace the region with
+   the result."
+  (interactive "r")
+  (shell-command-on-region reg-start reg-end
+                           "ruby -r xmp -n -e 'xmp($_, \"%l\t\t# %r\n\")'"
+                           t))
+(global-set-key [(meta f10)] 'ruby-xmp-region)
+~~~
 
 Vim users can use the mapping (thanks to hipster):
 
-    map <M-F10> :!ruby -r xmp -n -e 'xmp($_, "\%l\t\t\# \%r\n")'<CR>
+~~~
+map <M-F10> :!ruby -r xmp -n -e 'xmp($_, "\%l\t\t\# \%r\n")'<CR>
+~~~
 
 In both cases, highlight a region of code and hit Meta-F10 to annotate it.
 
