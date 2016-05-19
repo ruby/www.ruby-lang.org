@@ -12,16 +12,17 @@ Siamo lieti di annunciare il rilascio di Ruby 2.3.0-preview2.
 Ruby 2.3.0-preview2 è la seconda anteprima di Ruby 2.3.0.
 Sono state aggiunte molte nuove funzionalità e miglioramenti.
 
-E' stato aggiunto il [Frozen String Literal
-Pragma](https://bugs.ruby-lang.org/issues/11473). Su Ruby 2.1 `"str".freeze` è
+E' stato aggiunto il [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473).
+Su Ruby 2.1 `"str".freeze` è
 stato ottimizzato per ridurre il numero di oggetti allocati in memoria. Ruby 2.3
 introduce un nuovo commento 'magico' e un'opzione da linea di comando che
 permette di congelare tutte le stringhe nel codice sorgente.
 Inoltre per poter debuggare le proprie applicazioni, potete individuare dove sia
 stato creato l'oggeto che causa l'errore `"can't modify frozen String"` passando
-l'opzione `--enable-frozen-string-literal-debug`.
+l'opzione `--debug=frozen-string-literal`.
 
-Il [safe navigation operator](https://bugs.ruby-lang.org/issues/11537) ([chiamato anche lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
+Il [safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
+([chiamato anche lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
 che esiste già in linguaggi come C#, Groovy e Swift, è stato introdotto per
 rendere più semplice la gestione di oggetti che potrebbero essere `nil`,
 scrivendo ad esempio `obj&.foo`. Inoltre sono stati aggiunti `Array#dig` e
@@ -32,7 +33,8 @@ E' stata anche aggiunta la gemma
 alternative quando si incontrano `NameError` o `NoMethodError` per rendere più
 semplice il debug delle nostre applicazioni.
 
-Sono stati aggiunti [RubyVM::InstructionSequence#to_binary e .load_from_binary](https://bugs.ruby-lang.org/issues/11788) come funzionalità sperimentali.
+Sono stati aggiunti [RubyVM::InstructionSequence#to_binary e .load_from_binary](https://bugs.ruby-lang.org/issues/11788)
+come funzionalità sperimentali.
 Con queste funzionalità, possiamo creare un sistema di pre-compilazione ISeq (bytecode).
 
 Ruby 2.3 include molti fix per migliorare le performance.
