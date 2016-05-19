@@ -29,7 +29,7 @@ lang: zh_cn
 
 同时也感谢这些组织对我们的支持：
 
- * [NaCl][nacl]（托管）
+ * [Ruby Association][rubyassociation]（托管）
  * [Heroku][heroku]（托管）
  * [IIJ][iij]（托管）
  * [GlobalSign][globalsign]（SSL 认证）
@@ -46,7 +46,7 @@ lang: zh_cn
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
