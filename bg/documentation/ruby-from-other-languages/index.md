@@ -367,7 +367,8 @@ adder.class # => Proc
 
 {% highlight ruby %}
 method(:puts).call "puts is an object!"
-# => puts is an object!  {% endhighlight %}
+# => puts is an object!
+{% endhighlight %}
 
 ### Операторите са синтактична захар
 
@@ -402,5 +403,7 @@ end
 ## Научете още
 
 Ако сте готови за още знания, посетете [документацията](/bg/documentation/).
+
+
 
 [faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
