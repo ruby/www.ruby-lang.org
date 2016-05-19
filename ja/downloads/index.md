@@ -5,9 +5,9 @@ lang: ja
 ---
 
 ここでは、Rubyインタプリタの代表的な入手方法を説明します。
-
 現在の安定版は {{ site.downloads.stable[0].version }}です。
 [Ruby’sライセンス][license]を必ずお読み下さい。
+{: .summary}
 
 ### Rubyのインストール方法
 
