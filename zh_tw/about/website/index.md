@@ -31,7 +31,7 @@ lang: zh_tw
 
 此外感謝下列機構提供支持：
 
- * [NaCl][nacl] (網站托管)、
+ * [Ruby Association][rubyassociation] (網站托管)、
  * [Heroku][heroku] (網站托管)、
  * [IIJ][iij] (網站托管)、
  * [GlobalSign][globalsign] (SSL 證書)、
@@ -45,7 +45,7 @@ lang: zh_tw
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
