@@ -18,7 +18,7 @@ stato ottimizzato per ridurre il numero di oggetti allocati in memoria. Ruby 2.3
 introduce un nuovo commento 'magico' e un'opzione da linea di comando che
 permette di congelare tutte le stringhe nel codice sorgente.
 Inoltre per poter debuggare le proprie applicazioni, potete individuare dove sia
-stato creato l'oggeto che causa l'errore `"can't modify frozen String"` passando
+stato creato l'oggetto che causa l'errore `"can't modify frozen String"` passando
 l'opzione `--enable-frozen-string-literal-debug`.
 
 Il [safe navigation operator](https://bugs.ruby-lang.org/issues/11537),
