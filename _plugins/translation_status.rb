@@ -117,7 +117,7 @@ module Jekyll
 
             name = post.url.gsub(%r(\A/#{lang}/news/), '')
             @posts[name].translations << lang
-            @posts[name].security = true  if post.tags.include?('security')
+            @posts[name].security = true  if post.data['tags'].include?('security')
           end
         end
 

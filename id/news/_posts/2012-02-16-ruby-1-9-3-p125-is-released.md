@@ -48,7 +48,7 @@ Catatan: Dipackage ulang pada on 2012-02-17 02:04:00 UTC untuk memperbaiki [\[Bu
 
 
 
-[1]: {{ site.url }}/id/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/
+[1]: {{ site.url }}/id/news/2012/02/16/security-fix-for-ruby-openssl-module/
 [2]: https://bugs.ruby-lang.org/issues/show/5076
 [3]: https://bugs.ruby-lang.org/issues/show/5851
 [4]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5

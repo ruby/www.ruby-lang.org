@@ -49,6 +49,6 @@ Untuk isu - isu sebelumnya lihat [halaman bahasa Inggris][12].
 [7]: /id/news/2012/10/12/poisoned-NUL-byte-vulnerability/
 [8]: /id/news/2012/10/12/cve-2012-4464-cve-2012-4466/
 [9]: /id/news/2012/04/20/ruby-1-9-3-p194-is-released/
-[10]: /id/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/
+[10]: /id/news/2012/02/16/security-fix-for-ruby-openssl-module/
 [11]: /id/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/
 [12]: /en/security/

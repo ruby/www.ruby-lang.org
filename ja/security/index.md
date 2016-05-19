@@ -82,7 +82,7 @@ Posted by usa on 02 Jun 2006
 [5]: /ja/news/2012/10/12/poisoned-NUL-byte-vulnerability/
 [6]: /ja/news/2012/10/12/cve-2012-4464-cve-2012-4466/
 [7]: /en/news/2012/04/20/ruby-1-9-3-p194-is-released/
-[8]: /en/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-/
+[8]: /en/news/2012/02/16/security-fix-for-ruby-openssl-module/
 [9]: /en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/
 [10]: /ja/news/2011/02/18/exception-methods-can-bypass-safe/
 [11]: /ja/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/

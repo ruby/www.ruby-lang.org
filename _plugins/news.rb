@@ -118,7 +118,7 @@ module Jekyll
     end
   end
 
-  class Post
+  class Document
 
     def lang
       data['lang']
@@ -144,7 +144,7 @@ module Jekyll
         end
       end
 
-      site.posts.each do |post|
+      site.posts.docs.each do |post|
         posts[post.lang][post.date.year][post.date.month] << post
       end
 
