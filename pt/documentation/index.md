@@ -36,7 +36,7 @@ diversas maneiras de obter o Ruby.
   bibliotecas comuns do Ruby. Também ensinamos cultura.
 
 [RubyMonk][3]
-: Descubra idiomas Ruby, aprenda lissões e resolva problemas, tudo
+: Descubra idiomas Ruby, aprenda lições e resolva problemas, tudo
   no seu browser!
 
 [Hackety Hack][4]
