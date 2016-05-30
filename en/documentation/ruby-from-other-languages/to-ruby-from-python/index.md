@@ -80,4 +80,5 @@ Unlike Python, in Ruby,...
   then immediately resume.
 * Python supports just one kind of anonymous functions, lambdas, while
   Ruby contains blocks, Procs, and lambdas.
+* Ruby scripts have the file extension `.rb`
 
