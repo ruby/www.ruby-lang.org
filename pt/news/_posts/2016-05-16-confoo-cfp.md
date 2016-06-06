@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "ConFoo Vancouver 2016 is looking for Ruby speakers"
+title: "ConFoo Vancouver 2016 está procurando por palestrantes em Ruby"
 author: "afilina"
 translator: "jcserracampos"
 date: 2016-05-16 20:06:00 +0000
