@@ -1,8 +1,15 @@
 language: ruby
 sudo: false
 rvm: 2.3.1
+jdk: oraclejdk8
 cache:
   bundler: true
+  directories:
+    - "${HOME}/validator"
+before_script: ./.travis-install_start_validator_nu.sh
+script:
+  - bundle exec rake build
+  - bundle exec rake validate:markup
 # Notifications, used by our Gitter channel.
 notifications:
   webhooks:
