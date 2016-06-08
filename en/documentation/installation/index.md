@@ -29,7 +29,7 @@ for different needs and platforms.
 
 * [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
-  * [CentOS, Fedora, RHEL](#yum)
+  * [CentOS, Fedora, RHEL](#dnf)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [OS X](#homebrew)
@@ -77,14 +77,14 @@ As of writing, the `ruby-full` package provides Ruby 1.9.3, which is an old
 stable release, on Debian and Ubuntu.
 
 
-### yum (CentOS, Fedora, or RHEL)
-{: #yum}
+### dnf (CentOS, Fedora, or RHEL)
+{: #dnf}
 
-CentOS, Fedora, and RHEL use the yum package manager.
+CentOS, Fedora, and RHEL use the dnf package manager.
 You can use it like this:
 
 {% highlight sh %}
-$ sudo yum install ruby
+$ sudo dnf install ruby
 {% endhighlight %}
 
 The installed version is typically the latest version of Ruby available
