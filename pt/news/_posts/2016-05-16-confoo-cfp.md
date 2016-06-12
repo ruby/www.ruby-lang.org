@@ -8,7 +8,6 @@ lang: pt
 ---
 
 ConFoo está mais uma vez procurando por palestrantes apaixonador para sua próxima conferência.
-ConFoo is once more seeking passionate speakers for the upcoming conference.
 
 ![ConFoo - Developer Conference](https://confoo.ca/images/propaganda/yvr2016/en/like.png){: style="border:0; float:right; margin-left:20px;" width="180" height="130"}ConFoo está feliz por [receber artigos][1]  para a edição Vancouver 2016! Se você é interessado em falar sobre Ruby ou outros tópicos sobre desenvolvimento web, por favor submeta até dia 6 e junho. Nós vamos custear viagem e hotel para os palestrantes que requerirem.
 
