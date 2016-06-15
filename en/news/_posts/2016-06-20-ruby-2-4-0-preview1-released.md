@@ -20,10 +20,10 @@ Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/ca
 CRuby has two visible Integer classes: Fixnum and Bignum.
 Ruby 2.4 unifies them into Integer.
 
-## [String case mapping methods supports Unicode](https://bugs.ruby-lang.org/issues/10085)
+## [String supports Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
 
-String/Symbol#upcase/downcase/swapcase/capitalize(!) now work for all of Unicode,
-not only for ASCII.
+String/Symbol#upcase/downcase/swapcase/capitalize(!) now handle Unicode case mappings
+not only ASCII case mappings.
 
 ## Optimizations
 
@@ -42,7 +42,11 @@ Regexp match without creating back reference object and change `$~`.
 
 ### [Thread#report_on_exception and Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
-Report if a thread is died with exception.
+Ruby ignored exceptions in threads unless another thread explicitly joins it.
+With `report_on_exception = true`,
+you can notice if a thread is died by an unhandled exception.
+
+Send us feedback what should be the default of report_on_exception and about report-on-GC.
 
 ### [Thread deadlock detection now shows their backtrace and dependency](https://bugs.ruby-lang.org/issues/8214)
 
