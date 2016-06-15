@@ -11,14 +11,14 @@ We are pleased to announce the release of Ruby 2.4.0-preview1.
 
 Ruby 2.4.0-preview1 is the first preview of Ruby 2.4.0.
 This preview1 is released earlier than usual because it has so
-many new features and improvements are included.
-Feel free to send feedback since you can still change the features.
+many new features and improvements.
+Feel free to [send feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport) since you can still change the features.
 
 ## [Unify Fixnum and Bignum into Integer](https://bugs.ruby-lang.org/issues/12005)
 
 Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) doesn't specify the detail of Integer,
 CRuby has two visible Integer classes: Fixnum and Bignum.
-Ruby 2.4 unifies those into Integer.
+Ruby 2.4 unifies them into Integer.
 
 ## [String case mapping methods supports Unicode](https://bugs.ruby-lang.org/issues/10085)
 
@@ -50,7 +50,7 @@ Ruby has deadlock detection around waiting threads, but its report doesn't
 have enough information to debug.
 Ruby 2.4 shows who waits the thread and their backtrace.
 
-Try and enjoy programming with Ruby 2.4.0-preview1, and send us feedback!
+Try and enjoy programming with Ruby 2.4.0-preview1, and [send us feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
 
 ## Notable Changes since 2.3
 
