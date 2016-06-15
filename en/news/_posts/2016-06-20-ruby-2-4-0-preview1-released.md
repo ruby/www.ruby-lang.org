@@ -22,7 +22,7 @@ Ruby 2.4 unifies them into Integer.
 
 ## [String supports Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
 
-String/Symbol#upcase/downcase/swapcase/capitalize(!) now handle Unicode case mappings
+`String/Symbol#upcase/downcase/swapcase/capitalize(!)` now handle Unicode case mappings
 not only ASCII case mappings.
 
 ## Performance improvements
@@ -36,7 +36,7 @@ so that a temporal array is not created.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-Added Regexp#match? which executes regexp match without creating back reference object
+Added `Regexp#match?` which executes regexp match without creating back reference object
 and change `$~` to reduce object allocation.
 
 ### Other performance improvements
@@ -51,7 +51,7 @@ Ruby ignored exceptions in threads unless another thread explicitly joins it.
 With `report_on_exception = true`,
 you can notice if a thread is died by an unhandled exception.
 
-Send us feedback what should be the default of report_on_exception and about report-on-GC.
+Send us feedback what should be the default of `report_on_exception` and about report-on-GC.
 
 ### [Thread deadlock detection now shows their backtrace and dependency](https://bugs.ruby-lang.org/issues/8214)
 
