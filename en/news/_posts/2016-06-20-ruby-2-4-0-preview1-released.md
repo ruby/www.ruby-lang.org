@@ -25,9 +25,9 @@ Ruby 2.4 unifies them into Integer.
 String/Symbol#upcase/downcase/swapcase/capitalize(!) now handle Unicode case mappings
 not only ASCII case mappings.
 
-## Optimizations
+## Performance improvements
 
-Ruby 2.4 also includes many performance tuning changes like following:
+Ruby 2.4 also contains the following performance improvements including language changes:
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
@@ -36,7 +36,12 @@ so that a temporal array is not created.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-Regexp match without creating back reference object and change `$~`.
+Added Regexp#match? which executes regexp match without creating back reference object
+and change `$~` to reduce object allocation.
+
+### Other performance improvements
+
+* [speed up instance variable access](https://bugs.ruby-lang.org/issues/12274)
 
 ## Debugging
 
