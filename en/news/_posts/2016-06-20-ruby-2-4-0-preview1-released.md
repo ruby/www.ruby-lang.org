@@ -67,37 +67,37 @@ See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview1/NEWS)
 and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog)
 for details.
 
-With those changes, [1097 files changed, 97466 insertions(+), 58685 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1) since Ruby 2.3.0!
+With those changes, [1140 files changed, 33126 insertions(+), 50993 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1) since Ruby 2.3.0!
 
 ## Download
 
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.tar.bz2>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview1.tar.bz2>
 
-  * SIZE:   14126752 bytes
-  * SHA1:   7e717ef7a0a1523ad696b5fe693f7f7a613a3810
-  * SHA256: e9b0464e50b2e5c31546e6b8ca8cad71fe2d2146ccf88b7419bbe9626af741cb
-  * SHA512: e397f321d4338edba8d005d871408775f03d975da90c8abcfdb457a1bc7e6c87efe58c53b2c3bc122e9f58f619767b271bcc8d5d9663ed4b4288c60556e8d288
+  * SIZE:   14108114 bytes
+  * SHA1:   7dcc42548d0724d83b6589ab98f34282845d7bcd
+  * SHA256: 17570f0b84215ca82252f10c167ee50bc075383c018420c6b2601ae1cade0649
+  * SHA512: c9873e8686eb54dbde61d6e23cd5197beebccd6cb31fd12c82763ebe1fde17095d7514d9d93c2c82b238032c98691df5479dc2d666a8a590e0fc54450ec29cb5
 
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview1.tar.gz>
 
-  * SIZE:   17623519 bytes
-  * SHA1:   2deaf3ccbbfc5e08d3d840a4f1c33ff5f62f931d
-  * SHA256: cb1c745bda33ba9e812b48c87852571ef6486f985c5e6ff4508a137d1c9734a3
-  * SHA512: 83022f99775eb139beec281d59029dcc7c59de1e313182685b0a785334ac53d0c445212460d00d065169b922949263f30a1f981e19fc6e59814e79e6e53ae8e0
+  * SIZE:   17605452 bytes
+  * SHA1:   1003a1e57547d81f4bb979c0f40f242afc284cd5
+  * SHA256: 80d02f49f40e7ce07b70bee7efda751b0595a349a017306e9fe8caad5da13e64
+  * SHA512: 4b603ab4ff9ea7e8bb8053aa4b638839d534241466d7f0e4d5bca3f2ea416694c2ea391790f1ffdc07fa538918d27707621741eb0ddc7bd00eb9d7628622787a
 
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.tar.xz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview1.tar.xz>
 
-  * SIZE:   11249780 bytes
-  * SHA1:   e1dfca06cd3c2cf6456a7feb0b1cd0752bde1a3b
-  * SHA256: 7c3119268af87c137f415301b299281762453ad78f86e35562be014dabd67b11
-  * SHA512: ab3376145d95a2188e6345984f0e5592c8d33515d7046a2ab2565dc418fa2306cdcf797aae9494d4d10446ada54ba638d8a8ad2d4b7510544d7eaea3de4faa87
+  * SIZE:   11155800 bytes
+  * SHA1:   bc33085277266f5a09a143bf6817affcb77f8e7f
+  * SHA256: 62942c7300727469fe3d2b43e5a5c772d4836cf624a1d644bdece2afaca472c8
+  * SHA512: dfc2c6642d49fa95383817a6dc82c416b3218ddfdaf882d6d2e5a7da22d0a5ac142e516a57aa96214070f3c7551d275044233ac052c82d67189b01c39847aad4
 
-* <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.zip>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview1.zip>
 
-  * SIZE:   19841531 bytes
-  * SHA1:   db7fa5291d90e0a9c6f75c0cd068bc54050520d6
-  * SHA256: 90d036fd1ec40aa8f5493821ac162bf69f505c5977db54afe53b8bf689d79b9d
-  * SHA512: 05784df420018aaae7d09d41e872df708e861cacc74dc8ee97a9e3ac7458cb12b937523ad6def34d5ae2890a0cf037a8d61e365beb88d28acd84879b9391ad65
+  * SIZE:   19904781 bytes
+  * SHA1:   25c16ee91bbcb0224f80e20d938f5c08832973f7
+  * SHA256: fd588aea1558b1171f87a3dd342ee207b8995a2c0a8241d7aa15bcfa16036854
+  * SHA512: f2fff35ff9157a4b31177b3d6b91bdaad04c22b3c626c3a5e5ec9a31b103f9607b31c909ef27880065cfdbcfa5d6901a6db89d22e0c645666d069c5b6dd1818b
 
 ## Release Comment
 
