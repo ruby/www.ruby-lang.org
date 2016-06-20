@@ -51,7 +51,7 @@ a back reference object and changing `$~` to reduce object allocation.
 
 ### [Thread#report_on_exception and Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
-Ruby ignored exceptions in threads unless another thread explicitly joins it.
+Ruby ignores exceptions in threads unless another thread explicitly joins them.
 With `report_on_exception = true`,
 you can notice if a thread has died due to an unhandled exception.
 
