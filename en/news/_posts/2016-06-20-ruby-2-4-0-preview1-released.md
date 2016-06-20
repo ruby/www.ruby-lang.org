@@ -12,22 +12,26 @@ We are pleased to announce the release of Ruby 2.4.0-preview1.
 Ruby 2.4.0-preview1 is the first preview of Ruby 2.4.0.
 This preview1 is released earlier than usual because it includes so
 many new features and improvements.
-Feel free to [send feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport) since you can still change the features.
+Feel free to
+[send feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+since you can still change the features.
 
 ## [Unify Fixnum and Bignum into Integer](https://bugs.ruby-lang.org/issues/12005)
 
-Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) doesn't specify details of the Integer class,
+Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+doesn't specify details of the Integer class,
 CRuby has two visible Integer classes: Fixnum and Bignum.
 Ruby 2.4 unifies them into Integer.
 
 ## [String supports Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
 
-`String/Symbol#upcase/downcase/swapcase/capitalize(!)` now handle Unicode case mappings
-instead of only ASCII case mappings.
+`String/Symbol#upcase/downcase/swapcase/capitalize(!)` now handle
+Unicode case mappings instead of only ASCII case mappings.
 
 ## Performance improvements
 
-Ruby 2.4 also contains the following performance improvements including language changes:
+Ruby 2.4 also contains the following performance improvements including
+language changes:
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
@@ -36,8 +40,8 @@ under certain conditions.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-Added `Regexp#match?`, which executes a regexp match without creating a back reference object
-and changing `$~` to reduce object allocation.
+Added `Regexp#match?`, which executes a regexp match without creating
+a back reference object and changing `$~` to reduce object allocation.
 
 ### Other performance improvements
 
@@ -51,15 +55,18 @@ Ruby ignored exceptions in threads unless another thread explicitly joins it.
 With `report_on_exception = true`,
 you can notice if a thread has died due to an unhandled exception.
 
-Send us feedback what should be the default for `report_on_exception` and about report-on-GC.
+Send us feedback what should be the default for `report_on_exception`
+and about report-on-GC.
 
 ### [Thread deadlock detection now shows threads with their backtrace and dependency](https://bugs.ruby-lang.org/issues/8214)
 
 Ruby has deadlock detection around waiting threads, but its report doesn't
 include enough information for debugging.
-Ruby 2.4's deadlock detection shows threads with their backtrace and dependent threads.
+Ruby 2.4's deadlock detection shows threads with their backtrace and
+dependent threads.
 
-Try and enjoy programming with Ruby 2.4.0-preview1, and [send us feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+Try and enjoy programming with Ruby 2.4.0-preview1, and
+[send us feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
 
 ## Notable Changes since 2.3
 
@@ -67,7 +74,9 @@ See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview1/NEWS)
 and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog)
 for details.
 
-With those changes, [1140 files changed, 33126 insertions(+), 50993 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1) since Ruby 2.3.0!
+With those changes,
+[1140 files changed, 33126 insertions(+), 50993 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1)
+since Ruby 2.3.0!
 
 ## Download
 
