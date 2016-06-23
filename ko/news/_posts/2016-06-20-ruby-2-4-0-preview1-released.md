@@ -10,9 +10,9 @@ lang: ko
 루비 2.4.0-preview1의 릴리스를 알리게 되어 기쁘게 생각합니다.
 
 루비 2.4.0-preview1은 루비 2.4.0의 첫 번째 프리뷰입니다.
-이 첫 번째 프리뷰는 많은 새 기능과 개선들을 포함하고 있어서
-평소보다 이르게 릴리스 되었습니다.
-아직 기능들이 변경될 수 있으므로, 자유롭게
+이 프리뷰는 많은 새 기능과 개선들을 포함하고 있어서
+이례적으로 이르게 릴리스 되었습니다.
+아직 기능이 확정되지 않았으니, 자유롭게
 [피드백](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)을 보내주세요.
 
 ## [Fixnum과 Bignum을 Integer로 통합](https://bugs.ruby-lang.org/issues/12005)
