@@ -13,15 +13,15 @@ Ruby 2.4.0-preview1 是 Ruby 2.4.0 的首个预览版。
 这个预览版的发布比平常早一点，因为它包括了很多新功能和改进。
 敬请给我们[反馈](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)，因为你还可以改变一些功能。
 
-## [统一 Fixnum 和 Bignum 为 Integer]((https://bugs.ruby-lang.org/issues/12005)
+## [统一 Fixnum 和 Bignum 为 Integer](https://bugs.ruby-lang.org/issues/12005)
 
-虽然 [ISO/IED 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) 
+虽然 [ISO/IED 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
 没有明确指定 Integer 类的细节，CRuby 有两个显式的 Integer 类：Fixnum 和 Bignum。
 Ruby 2.4 把它们统一为 Integer。
 
 ## [字符串支持 Unicode 大小写及其他类型](https://bugs.ruby-lang.org/issues/10085)
 
-`String/Symbol#upcase/downcase/swapcase/capitalize(!)` 现在可以做 Unicode 的的大小写及其他类型，而不仅仅是 ASCII 类型转换。
+`String/Symbol#upcase/downcase/swapcase/capitalize(!)` 现在可以做 Unicode 的大小写及其他类型，而不仅仅是 ASCII 类型转换。
 
 ## 性能提升
 
@@ -61,7 +61,7 @@ Ruby 2.4 死锁检查会显示他们的栈信息和依赖线程。
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog)
 来进一步了解。
 
-以上变化自 Ruby 2.3.0 以来，计有 1140 个文件变更，新增代码 33126 行，移除了 50993 行！
+以上变化自 Ruby 2.3.0 以来，计有 [1140 个文件变更，新增代码 33126 行，移除了 50993 行](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1)！
 
 ## 下载
 

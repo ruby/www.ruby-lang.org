@@ -1,67 +1,66 @@
 ---
 layout: news_post
-title: "Ruby 2.4.0-preview1 發布"
+title: "Ruby 2.4.0-preview1 發佈"
 author: "naruse"
-translator: "Alex S"
+translator: "Alex S & Juanito Fatas"
 date: 2016-06-20 18:00:00 +0900
 lang: zh_tw
 ---
 
-我們高興地宣布 Ruby 2.4.0-preview1 發布了。
+很高興告訴大家 Ruby 2.4.0-preview1 發佈了。
 
 Ruby 2.4.0-preview1 是 Ruby 2.4.0 的首個預覽版。
-這個預覽版的發布比平常早一點，因為它包括了很多新功能和改進。
-敬請給我們[反饋](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)，因為你還可以改變一些功能。
+這個預覽版發佈的比平常早，因為包含了許多新功能和改良。
+有任何想修改的功能，敬請給我們[建議](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)。
 
-## [統一 Fixnum 和 Bignum 為 Integer]((https://bugs.ruby-lang.org/issues/12005)
+## [Fixnum 和 Bignum 統整為 Integer](https://bugs.ruby-lang.org/issues/12005)
 
-雖然 [ISO/IED 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) 
-沒有明確指定 Integer 類的細節，CRuby 有兩個顯式的 Integer 類：Fixnum 和 Bignum。
-Ruby 2.4 把它們統一為 Integer。
+雖然 [ISO/IED 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+沒有明確指定 Integer 類別的細節，但 CRuby 有兩個 Integer 類別：Fixnum 和 Bignum。
+Ruby 2.4 統整為 Integer。
 
-## [字符串支持 Unicode 大小寫及其他類型](https://bugs.ruby-lang.org/issues/10085)
+## [字串支持 Unicode 的大小寫轉換](https://bugs.ruby-lang.org/issues/10085)
 
-`String/Symbol#upcase/downcase/swapcase/capitalize(!)` 現在可以做 Unicode 的的大小寫及其他類型，而不僅僅是 ASCII 類型轉換。
+`String/Symbol#upcase/downcase/swapcase/capitalize(!)` 除 ASCII 之外，現在也可以做 Unicode 的大小寫轉換了。
 
-## 性能提升
+## 效能優化
 
-Ruby 2.4 還包括以下性能提升，和一些語法改進：
+Ruby 2.4 還包括以下效能優化及語法變更：
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` and `[x, y].min` 被優化，不會某些情況下創建臨時數組。
+優化了 `[x, y].max` and `[x, y].min`，某些情況下不會產生暫時性陣列。
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-添加 `Regexp#match?`，它只做正則匹配，而不會創建後向引用對象和改變 `$~`，可以減少對象的創建。
+新增 `Regexp#match?` 方法，只做正則匹配，而不會產生參照物件及修改 `$~`，減少物件的分配。
 
-### 其他性能提升
+### 其他效能改善
 
-* [提速實例變量的訪問](https://bugs.ruby-lang.org/issues/12274)
+* [提昇實體變量的訪問速度](https://bugs.ruby-lang.org/issues/12274)
 
-## 調試
+## 除錯
 
 ### [Thread#report_on_exception 和 Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
-Ruby 忽視線程中的異常，除非另一個線程顯式地執行直至結束。
-通過設置 `report_on_exception = true`，你會注意到如果一個線程終止了因為未處理的異常。
+除非有另外的線程明確和執行中線程進行 join，否則 Ruby 會忽略執行中線程的異常。啟用 `report_on_exception = true` 來觀察線程是否有未處理的異常而終止執行。
 
-請向我們反饋 `report_on_exception` 的默認值應該是什麼和垃圾回收報告。
+敬請給我們建議關於 `report_on_exception` 的預設值以及 report-on-GC。
 
-### [線程死鎖檢查現在會顯示線程的棧和依賴](https://bugs.ruby-lang.org/issues/8214)
+### [線程死鎖檢查現在會顯示線程的錯誤和相依線程](https://bugs.ruby-lang.org/issues/8214)
 
-Ruby 在線程等待地時候會進行死鎖檢查，但是檢查的結果沒有足夠的信息用來調試。
-Ruby 2.4 死鎖檢查會顯示他們的棧信息和依賴線程。
+Ruby 在等待線程執行時會進行死鎖檢查，但檢查結果沒有足夠的資訊來除錯。
+Ruby 2.4 的死鎖檢查會顯示錯誤資訊及相依的線程。
 
-嘗試並且享受用與 Ruby 2.4.0-preview1 的編碼時光，有任何問題，敬請[反饋](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+請嘗試並享受與 Ruby 2.4.0-preview1 的編碼時光，有任何問題敬請[不吝指出](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)！
 
-## 自 2.3 起顯著的改變
+## 自 2.3 起重要的變化
 
 請參閱 [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview1/NEWS) 和
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog)
 來進一步了解。
 
-以上變化自 Ruby 2.3.0 以來，計有 1140 個文件變更，新增代碼 33126 行，移除了 50993 行！
+以上變化自 Ruby 2.3.0 以來，計有 [1140 個文件變更，新增代碼 33126 行，移除了 50993 行](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1)！
 
 ## 下載
 
@@ -93,8 +92,8 @@ Ruby 2.4 死鎖檢查會顯示他們的棧信息和依賴線程。
   * SHA256: fd588aea1558b1171f87a3dd342ee207b8995a2c0a8241d7aa15bcfa16036854
   * SHA512: f2fff35ff9157a4b31177b3d6b91bdaad04c22b3c626c3a5e5ec9a31b103f9607b31c909ef27880065cfdbcfa5d6901a6db89d22e0c645666d069c5b6dd1818b
 
-## 發布記
+## 發佈記
 
-其他資訊請參考發布日程安排：
+其他資訊請參考發佈時程：
 
 [ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
