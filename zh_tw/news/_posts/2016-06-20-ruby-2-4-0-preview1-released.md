@@ -15,7 +15,7 @@ Ruby 2.4.0-preview1 是 Ruby 2.4.0 的首個預覽版。
 
 ## [Fixnum 和 Bignum 統整為 Integer](https://bugs.ruby-lang.org/issues/12005)
 
-雖然 [ISO/IED 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+雖然 [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
 沒有明確指定 Integer 類別的細節，但 CRuby 有兩個 Integer 類別：Fixnum 和 Bignum。
 Ruby 2.4 統整為 Integer。
 
