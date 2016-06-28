@@ -18,7 +18,8 @@ chúng tôi về phiên bản này, vì các chức năng vẫn có thể đư�
 
 ## [Hợp nhất Fixnum và Bignum vào Integer](https://bugs.ruby-lang.org/issues/12005)
 
-Mặc dù chuẩn [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) không mô tả chi tiết nội dung của lớp (class) Integer, CRuby
+Mặc dù chuẩn [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+không mô tả chi tiết nội dung của lớp (class) Integer, CRuby
 hiện đang tồn tại hai lớp `Integer` : `Fixnum` và `Bignum`. Ruby 2.4 đã thống
 nhất lại và gộp chung 2 lớp này thành 1 lớp có tên là `Integer`.
 
@@ -26,7 +27,7 @@ nhất lại và gộp chung 2 lớp này thành 1 lớp có tên là `Integer`.
 
 Hàm `String/Symbol#upcase/downcase/swapcase/capitalize(!)` ở phiên bản 2.4.0 đã
 hỗ trợ việc biến đổi hoa - thường cho các ký tự Unicode
-(vi du: `'Türkiye'.upcase 'tr' # => 'TÜRKİYE'`)
+(vi du: `'Türkiye'.upcase 'tr' # => 'TÜRKİYE'`).
 
 ## Cải thiện hiệu năng
 
@@ -73,9 +74,9 @@ Mời mọi người dùng thử và cảm nhận việc lập trình với Ruby
 ## Thay đổi đáng chú ý so với phiên bản 2.3
 
 Chi tiết mời xem [Thông tin](https://github.com/ruby/ruby/blob/v2_4_0_preview1/NEWS) và
-[Changelog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog).
+[ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog).
 
-Với lần cập nhật này, [1140 files đã được cập nhật, bao gồm 33126 insertion và 50933 deletions so với phiên bản 2.3.0](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1)!
+Với lần cập nhật này, [1140 files đã được cập nhật, bao gồm 33126 insertion và 50993 deletions so với phiên bản 2.3.0](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1)!
 
 ## Tải về
 
