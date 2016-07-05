@@ -9,9 +9,21 @@ Here you will find information about security issues of Ruby.
 
 ## Reporting Security Vulnerabilities
 
-Security vulnerabilities should be reported via an email to
-security@ruby-lang.org ([the PGP public key](/security.asc)), which is a
-private mailing list. Reported problems will be published after fixes.
+Security vulnerabilities in the Ruby programming language should be
+reported through our [bounty program page at
+HackerOne](https://hackerone.com/ruby). Please ensure you read the
+specific details around the scope of our program before reporting
+an issue. Any valid reported problems will be published after fixes.
+
+If you have found an issue affecting one of our websites, please
+report it [via GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new).
+
+If you have found an issue that affects a specific Ruby gem, follow the
+[instructions on RubyGems.org](http://guides.rubygems.org/security/#reporting-security-vulnerabilities).
+
+If you need to get in touch with the security team directly outside
+of HackerOne, you can send email to security@ruby-lang.org
+([the PGP public key](/security.asc)), which is a private mailing list.
 
 The members of the mailing list are people who provide Ruby
 (Ruby committers and authors of other Ruby implementations,
