@@ -10,10 +10,11 @@ Here you will find information about security issues of Ruby.
 ## Reporting Security Vulnerabilities
 
 Security vulnerabilities in the Ruby programming language should be
-reported through our [bounty program page at
-HackerOne](https://hackerone.com/ruby). Please ensure you read the
-specific details around the scope of our program before reporting
-an issue. Any valid reported problems will be published after fixes.
+reported through our
+[bounty program page at HackerOne](https://hackerone.com/ruby).
+Please ensure you read the specific details around the scope of
+our program before reporting an issue. Any valid reported problems
+will be published after fixes.
 
 If you have found an issue affecting one of our websites, please
 report it [via GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new).
