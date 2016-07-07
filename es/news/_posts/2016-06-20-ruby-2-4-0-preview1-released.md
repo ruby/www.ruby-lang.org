@@ -2,7 +2,7 @@
 layout: news_post
 title: "Liberada la versión 2.4.0-preview1 de Ruby"
 author: "naruse"
-translator: David Padilla
+translator: "David Padilla"
 date: 2016-06-20 18:00:00 +0900
 lang: es
 ---
@@ -11,8 +11,8 @@ Nos complace anunciar la entrega de Ruby 2.4.0-preview1.
 
 Esta versión es la primera vista previa a Ruby 2.4.0 y ha sido liberada antes
 de lo usual porque incluye muchas mejoras y características nuevas.
-
-Por favor no olvides enviar [tus comentarios](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+Por favor no olvides enviar
+[tus comentarios](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
 ya que aún estamos a buen tiempo de hacer cambios.
 
 ## [Integrar Fixnum y Bignum en Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -20,7 +20,6 @@ ya que aún estamos a buen tiempo de hacer cambios.
 A pesar de que en [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
 no se especifican los detalles de la clase Integer,
 CRuby tiene dos clases de Integer visibles: Fixnum y Bignum.
-
 Ruby 2.4 unifica ambas en la clase Integer.
 
 ## [Soporte en String de el empate de mayúsculas y minúsculas en caracteres Unicode](https://bugs.ruby-lang.org/issues/10085)
@@ -53,7 +52,6 @@ referencia al objeto y mejora `$~` para reducir la creación de objetos innecesa
 
 Ruby ignora las excepciones en threads a menos que otro thread se una explicitamente
 a ese thread.
-
 Con `report_on_exception = true`, puedes darte cuenta si un thread se murió
 debido a alguna excepción que no fue manejada adecuadamente.
 
@@ -64,7 +62,6 @@ Por favor envía tu opinión acerca de cual debería ser el valor por defecto de
 
 Ruby tiene detección de puntos muertos en threads, pero el reporte no incluye
 suficiente información para depurar el error.
-
 La detección de puntos muertos en Ruby 2.4 ahora muestra los threads con su
 traza inversa y los threads dependientes.
 
