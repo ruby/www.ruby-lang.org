@@ -31,7 +31,7 @@ Rubyコミュニティに興味があるのなら、ぜひ以下のコミュニ�
 
 ## IRC
 
-* IRCNetの[#ruby-ja](irc://irc.ircnet.ne.jp/%23ruby:*.jp?charset=iso-2022-jp)
+* IRCNetの[#ruby-ja](irc://irc.ircnet.ne.jp/%23ruby-ja?charset=iso-2022-jp)
   * Rubyの開発用兼、簡単な質疑応答用のチャンネルです。
   * ここでのログは公開する事ができます。
   * 従来の#ruby:\*.jpとは違い、日本サーバーに接続しなくとも参加できるので、海外からの参加敷居が低くなっています。
