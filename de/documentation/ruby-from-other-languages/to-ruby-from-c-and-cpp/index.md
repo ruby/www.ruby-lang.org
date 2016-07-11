@@ -113,8 +113,8 @@ Es gibt allerdings deutlich mehr Unterschiede als Gemeinsamkeiten zwischen Ruby 
   irrelevant, dementsprechend gibt es keine Pointer und kein `sizeof`.
 * Es gibt keine `enum`s. Es gibt zwar *Symbole*, die aber keinen
   implizit zugeordneten Zahlenwert haben.
-* Parameter von Methoden (oder Funktionen) werden immer als Referenz
-  übergeben.
+* Parameter von Methoden (oder Funktionen) werden immer als Wertparameter
+  übergeben, wobei die Werte selbst stets Referenzen sind
 * Lokale Variablen werden nicht explizit deklariert. Es wird einfach ein
   typenloser Name vergeben und Wert zugewiesen, wo gerade eine lokale
   Variable benötigt wird.
