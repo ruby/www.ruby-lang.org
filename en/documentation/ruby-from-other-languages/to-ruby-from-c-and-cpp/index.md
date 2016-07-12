@@ -82,7 +82,7 @@ Unlike C, in Ruby,...
 * All variables live on the heap. Further, you don’t need to free them
   yourself—the garbage collector takes care of that.
 * Arguments to methods (i.e. functions) are passed by value, where the
-  values are always references
+  values are always object references.
 * It’s `require 'foo'` instead of `#include <foo>` or `#include "foo"`.
 * You cannot drop down to assembly.
 * There’s no semicolons ending lines.

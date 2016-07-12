@@ -114,7 +114,7 @@ Es gibt allerdings deutlich mehr Unterschiede als Gemeinsamkeiten zwischen Ruby 
 * Es gibt keine `enum`s. Es gibt zwar *Symbole*, die aber keinen
   implizit zugeordneten Zahlenwert haben.
 * Parameter von Methoden (oder Funktionen) werden immer als Wertparameter
-  übergeben, wobei die Werte selbst stets Referenzen sind
+  übergeben, wobei die Werte selbst stets Referenzen auf Objekte sind.
 * Lokale Variablen werden nicht explizit deklariert. Es wird einfach ein
   typenloser Name vergeben und Wert zugewiesen, wo gerade eine lokale
   Variable benötigt wird.
