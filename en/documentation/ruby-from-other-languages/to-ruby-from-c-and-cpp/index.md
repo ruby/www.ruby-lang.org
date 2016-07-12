@@ -81,8 +81,8 @@ Unlike C, in Ruby,...
 * There’s no `#define`. Just use constants instead.
 * All variables live on the heap. Further, you don’t need to free them
   yourself—the garbage collector takes care of that.
-* Arguments to methods (i.e. functions) are passed by reference, not by
-  value.
+* Arguments to methods (i.e. functions) are passed by value, where the
+  values are always references
 * It’s `require 'foo'` instead of `#include <foo>` or `#include "foo"`.
 * You cannot drop down to assembly.
 * There’s no semicolons ending lines.
