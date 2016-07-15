@@ -126,8 +126,8 @@ Tidak seperti C, di Ruby,...
   di *compile* ke *machine-code* ataupun ke *byte-code*.
 * Semua variabel ada di heap. Lebih jauh, Anda tidak perlu membebaskan
   variabel, sudah ada garbage collector untuk itu.
-* Argument-argument di metode (atau function) di pass by reference,
-  bukan by value.
+* Argument-argument di metode (atau function) di pass by value, di mana
+  value selalu objek reference.
 * `require 'foo'` bukan `#include <foo>` atau `#include "foo"`.
 * Anda tidak bisa drop down ke assembly.
 * Tidak pakai semicolon (titik koma `;`) di tiap akhir baris kode.
