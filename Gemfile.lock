@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorator (0.1)
-    ffi (1.9.12)
+    ffi (1.9.14)
     jekyll (3.1.6)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -14,7 +14,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
-    jekyll-watch (1.4.0)
+    jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kgio (2.10.0)
     kramdown (1.11.1)
@@ -40,7 +40,7 @@ GEM
     rack-ssl (1.4.1)
       rack
     raindrops (0.16.0)
-    rake (10.5.0)
+    rake (11.2.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -66,7 +66,7 @@ DEPENDENCIES
   rack-protection
   rack-rewrite
   rack-ssl
-  rake (~> 10.0)
+  rake
   rouge (~> 1.10)
   spidr (~> 0.4)
   unicorn
