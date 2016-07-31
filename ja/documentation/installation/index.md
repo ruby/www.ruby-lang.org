@@ -161,8 +161,8 @@ $ sudo pacman -S ruby
 ### Homebrew (OS X)
 {: #homebrew}
 
-Ruby 2.0.0 は OS X Capitan、Mavericks に含まれています。
-また、OS X Mountain Lion、 Lion および Snow Leopard には 1.8.7 が含まれています。
+Ruby 2.0.0 は OS X El Capitan、Yosemite および Mavericks に含まれています。
+また、OS X Mountain Lion、Lion および Snow Leopard には 1.8.7 が含まれています。
 
 すでに 2.0 も 1.8 も古いバージョンです。
 そのため、Ruby の最新バージョンをインストールするためのいくつかの方法があります。
