@@ -164,26 +164,21 @@ end
 
 Sekarang `Konstanta` adalah 10, tetapi `Konstanta()` adalah 11.
 
-### Fake Keyword Parameters
+### Argumen Keyword
 
-Ruby tidak memiliki *keyword parameters* atau parameter bernama, seperti
-Python. Tetapi, ini bisa dimanipulasi (*fake*) dengan cara menggunakan
-*symbol* dan *hash*. Ruby on Rails, satu diantara banyak aplikasi yang
-dibuat dengan Ruby, banyak menggunakan trik ini. Contoh:
+Seperti Python, metode pada Ruby 2.0 dapat didefinisikan
+menggunakan argumen keyword:
 
 {% highlight ruby %}
-def keluarkan( params )
-  params
+def menyampaikan(dari: "A", ke: nil, lewat: "mail")
+  "Mengirimkan dari #{dari} ke #{ke} lewat #{lewat}."
 end
 
-keluarkan( :param_satu => 10, :param_dua => 42 )
-
-# => {:param_satu=>10, :param_dua=>42}
+menyampaikan(ke: "B")
+# => "Mengirimkan dari A ke B lewat mail."
+menyampaikan(lewat: "Pony Express", dari: "B", ke: "A")
+# => "Mengirimkan dari B ke A lewat Pony Express."
 {% endhighlight %}
-
-Ini dikarenakan Ruby otomatis mengubah parameter yang diberikan tersebut
-menjadi bentuk hash. (meskipun pemanggilannya tanpa menggunakan kurung
-kurawal yang merupakan sintaks hash)
 
 ### Nilai True bersifat Universal
 
