@@ -98,7 +98,7 @@ $ sudo pacman -S ruby
 ### Homebrew（OS X）
 {: #homebrew}
 
-OS X Yosemite 和 Mavericks 内置了 Ruby 2.0。OS X Mountain Lion、Lion 和 Snow Leopard 内置了 Ruby 1.8.7。
+OS X El Capitan、Yosemite 和 Mavericks 内置了 Ruby 2.0。OS X Mountain Lion、Lion 和 Snow Leopard 内置了 Ruby 1.8.7。
 
 许多 OS X 用户使用 [Homebrew][homebrew] 作为包管理器。用 Homebrew 能够非常简单地获取到最新版的 Ruby：
 
