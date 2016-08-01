@@ -86,7 +86,7 @@ Poderá também instalar uma determinada versão da biblioteca utilizando a
 flag `--version` / `-v`.
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Listando Todas as Gems

@@ -82,7 +82,7 @@ Możesz nawet instalowac konkretne wersje biblioteki używając flagi
 `--version` / `-v`:
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Spis wszystkich gemów
