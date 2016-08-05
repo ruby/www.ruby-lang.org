@@ -14,49 +14,44 @@ describing new techniques, or speculating on Ruby’s future.
 Some **planets** (online specialized feed aggregators) have been running
 for years now. A few of them providing convenient content:
 
-* [Ruby Corner][4]
-* [Planet Ruby][5]
-* [PlanetRubyOnRails.com][7]
+* [Ruby Corner][1]
 
 ### Blogs of Note
 
 A few notable blogs stand out for the frequency and immediacy of their
 updates.
 
-* [**O’Reilly Ruby**][8] is a group blog with pertinent Ruby tutorials
+* [**O’Reilly Ruby**][2] is a group blog with pertinent Ruby tutorials
   and interviews with interesting folks from around the community.
-* [**Riding Rails**][9] is the official group blog of the Ruby on Rails
+* [**Riding Rails**][3] is the official group blog of the Ruby on Rails
   team. If you are running Rails, this blog is essential for
   notification of security updates and an overall view of the wide Rails
   community.
-* [**Ruby Inside**][10] announces interesting applications and libraries
+* [**Ruby Inside**][4] announces interesting applications and libraries
   from throughout the world, both Ruby and Rails.
-* [**Matz’ Blog**][11] is a Japanese blog written by Ruby’s creator.
+* [**Matz’ Blog**][5] is a Japanese blog written by Ruby’s creator.
   Even if you can’t read all of it, it’s good to know he’s right there!
 
 ### Spreading the Word
 
 If you’ve got a Ruby blog you’ve started, it’s wise to link the blog on
-[del.icio.us][12] with the *ruby* tag. You might also contact the
+[del.icio.us][6] with the *ruby* tag. You might also contact the
 weblogs above, if you are covering a topic they’d be interested in.
 (Obviously, if it’s not Rails-related, then the *Riding Rails* crew may
 not be as interested—but you never know.)
 
-Ruby is also a common topic on [Digg][13], [Slashdot][14], [reddit][15],
-and [Hacker News][16], in their respective programming news. If you find
+Ruby is also a common topic on [Digg][7], [Slashdot][8], [reddit][9],
+and [Hacker News][10], in their respective programming news. If you find
 some brilliant code out there, be sure to let them know!
 
 
-
-[4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net/
-[7]: http://www.planetrubyonrails.com/
-[8]: http://oreillynet.com/ruby/
-[9]: http://weblog.rubyonrails.org/
-[10]: http://www.rubyinside.com/
-[11]: http://www.rubyist.net/~matz/
-[12]: http://del.icio.us
-[13]: http://digg.com/programming
-[14]: http://developers.slashdot.org/
-[15]: http://www.reddit.com/r/ruby
-[16]: http://news.ycombinator.com/
+[1]: http://rubycorner.com
+[2]: http://oreillynet.com/ruby/
+[3]: http://weblog.rubyonrails.org/
+[4]: http://www.rubyinside.com/
+[5]: http://www.rubyist.net/~matz/
+[6]: http://del.icio.us
+[7]: http://digg.com/programming
+[8]: http://developers.slashdot.org/
+[9]: http://www.reddit.com/r/ruby
+[10]: http://news.ycombinator.com/
