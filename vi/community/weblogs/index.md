@@ -16,8 +16,6 @@ Một số các **planets** (tập hợp các nguồn cấp dữ liệu chuyên 
 Một số trong đó cung cấp các nội dung tiện lợi cho người đọc như:
 
 * [Ruby Corner][4]
-* [Planet Ruby][5]
-* [PlanetRubyOnRails.com][7]
 
 ### Các blog ghi chú
 
@@ -48,8 +46,6 @@ Nếu như bạn tìm được một số đoạn mã hay trên mạng, hãy nó
 
 
 [4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net/
-[7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

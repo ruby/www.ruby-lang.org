@@ -12,8 +12,6 @@ Ruby 博客在过去几年呈现出了爆炸式的增长，你可以发掘到数
 一些 **planets** (在线专业提要聚合器) 已经运行多年，其中一些提供了方便的内容：
 
 * [Ruby Corner][4]
-* [Planet Ruby][5]
-* [PlanetRubyOnRails.com][7]
 
 ### 知名博客
 
@@ -34,8 +32,6 @@ Ruby 也是 [Digg][13]、[Slashdot][14]、[reddit][15]、和 [Hacker News][16] �
 
 
 [4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net/
-[7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

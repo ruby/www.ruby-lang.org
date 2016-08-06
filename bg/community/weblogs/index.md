@@ -13,8 +13,6 @@ lang: bg
 Някои **хранилки** същестуват от много години. Някои от тях:
 
 * [Ruby Corner][4]
-* [Planet Ruby][5]
-* [PlanetRubyOnRails.com][7]
 
 ### Интересни блогове
 
@@ -37,8 +35,6 @@ Ruby е популярна тема в [Digg][13], [Slashdot][14], [reddit][15],
 
 
 [4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net/
-[7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

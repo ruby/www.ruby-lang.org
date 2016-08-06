@@ -22,8 +22,6 @@ dédiés à Ruby ont vu le jour. Quelques exemples notables :
 
 * [Human Coders News - Ruby][16] (français)
 * [Ruby Corner][4]
-* [Planet Ruby][5]
-* [PlanetRubyOnRails.com][7]
 
 ### Blogs personnels
 
@@ -53,8 +51,6 @@ Ruby est également un sujet récurrent sur [Digg][14] et [Slashdot][15].
 [1]: http://del.icio.us/tag/ruby
 [2]: http://del.icio.us/popular/ruby
 [4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net
-[7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

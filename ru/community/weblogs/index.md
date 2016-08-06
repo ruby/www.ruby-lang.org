@@ -15,8 +15,6 @@ lang: ru
 работают уже годы. Некоторые из них наполнены неплохим содержимым:
 
 * [Ruby Corner][4]
-* [Planet Ruby][5]
-* [PlanetRubyOnRails.com][7]
 
 ### Выдающиеся блоги
 
@@ -51,8 +49,6 @@ Ruby также довольно частая тема на [Digg][13], [Slashdo
 
 
 [4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net/
-[7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

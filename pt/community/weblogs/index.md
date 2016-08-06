@@ -16,8 +16,6 @@ Alguns **planetas** (agregadores de _feeds_ especializados) tem rodado por
 anos. Alguns deles fornecem um conteúdo conveniente:
 
 * [Ruby Corner][4]
-* [Planet Ruby][5]
-* [PlanetRubyOnRails.com][7]
 
 ### Blogs Notáveis
 
@@ -51,8 +49,6 @@ Se encontrar algum código brilhante, lembre-se de avisá-los!
 
 
 [4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net/
-[7]: http://www.planetrubyonrails.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
