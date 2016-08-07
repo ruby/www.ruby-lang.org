@@ -37,9 +37,9 @@ header: |
 
 ## Other features
 
-### What does a ? b : c mean?
+### What does `a ? b : c` mean?
 
-It's the same as saying if a then b else c end.
+It's the same as saying `if a then b else c` end.
 
 ### How can I count the number of lines in a file?
 
@@ -50,17 +50,17 @@ fastest result.
 open("example").read.count("\n")  # => 3
 ~~~
 
-### What do begin and end of MatchingData return?
+### What do `begin` and `end` of `MatchingData` return?
 
-They act with $ , and return the start index and the end index of the
-matched data ($0) in the original string. See an example in tab expansion.
+They act with `$ `, and return the start index and the end index of the
+matched data (`$0`) in the original string. See an example in tab expansion.
 
 ### How can I sum the elements in an array?
 
 Rather than solve the specific problem, let's solve the general case. The
-first thing we'll do is produce a method that will iterate over an Enumerable
-object and collect a single result. Smalltalk calls that method inject, so we
-will too:
+first thing we'll do is produce a method that will iterate over an
+`Enumerable` object and collect a single result. Smalltalk calls that
+method inject, so we will too:
 
 ~~~
 module Enumerable
@@ -75,11 +75,11 @@ module Enumerable
 end
 ~~~
 
-Notice how we've added the method to Enumerable. This means that anything
-that includes Enumerable can now use inject. But how do we use it? It takes
-a single argument `n' and a block. For each element in the thing being
-enumerated, it calls the block, passing in `n' and the element itself.
-The result of the block is assigned back to `n'. So, to define sum,
+Notice how we've added the method to `Enumerable`. This means that anything
+that includes Enumerable can now use `inject`. But how do we use it? It takes
+a single argument `n` and a block. For each element in the thing being
+enumerated, it calls the block, passing in `n` and the element itself.
+The result of the block is assigned back to `n`. So, to define `sum`,
 we could write:
 
 ~~~
@@ -133,7 +133,6 @@ end
 ~~~
 
 
-
 ~~~
 # --------------------------------------------------------------------
 # Filtering Out Multiples of a Given Number
@@ -158,7 +157,6 @@ def omit(factor, limit)
   print "\n"
 end
 ~~~
-
 
 
 ~~~

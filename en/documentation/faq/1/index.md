@@ -66,7 +66,7 @@ Ruby features:
 
 ### Show me some Ruby code!
 
-Let's define a class called Person, with a name and an age. We'll test our
+Let's define a class called `Person`, with a name and an age. We'll test our
 code by creating a few people and examining them.
 
 ~~~
@@ -100,8 +100,8 @@ zoe:     7
 ~~~
 
 The code uses regular expressions to parse successive lines from the input
-file, creating a new Person object for each match and pushing it on to the
-end of the array people.
+file, creating a new `Person` object for each match and pushing it on to the
+end of the array `people`.
 
 ~~~
 people = Array.new
@@ -122,7 +122,7 @@ sorted = people.sort do |a,b| a.age <=> b.age end
 sorted           # => [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
 ~~~
 
-Another way would be to change the comparison method for class Person:
+Another way would be to change the comparison method for class `Person`:
 
 ~~~
 class Person
@@ -195,8 +195,8 @@ the last four in Japanese:
 ~~~
 ruby-talk: English language discussion of Ruby.
 ruby-list: Japanese language discussion of Ruby.
-ruby-dev: List for Ruby developers.
-ruby-ext: List for people writing extensions for or with Ruby.
+ruby-dev:  List for Ruby developers.
+ruby-ext:  List for people writing extensions for or with Ruby.
 ruby-math: Ruby in mathematics.
 ~~~
 
@@ -221,9 +221,9 @@ set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]
 ### Which is correct, “Ruby” or “ruby”?
 
 Officially, the language is called “Ruby”. On most systems, it is invoked
-using the command `ruby`. It's OK to use ruby instead of Ruby.
+using the command `ruby`. It's OK to use “ruby” instead of “Ruby”.
 
-Please don't use RUBY as the language name.
+Please don't use “RUBY” as the language name.
 
 Originally, or historically, it was called “ruby”.
 
@@ -250,17 +250,17 @@ expressions.
 
 ### Which editors provide support for Ruby?
 
-* Emacs or XEmacs: ruby-mode.el is supplied in the Ruby distribution.
-  With some versions of XEmacs, you may need to add (load "font-lock") to your
-  .emacs file to allow ruby-mode.el to detect the syntax highlighting package
-  you're using.
+* Emacs or XEmacs: `ruby-mode.el` is supplied in the Ruby distribution.
+  With some versions of XEmacs, you may need to add `(load "font-lock")`
+  to your `.emacs` file to allow `ruby-mode.el` to detect the syntax
+  highlighting package you're using.
 * Vim: Vim 5.7 and later have Ruby syntax files as standard in the runtime
   package. For prior versions, a syntax file for Ruby is available at
   http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim.
 * Jedit: A portable editor written in Java, comes with support for Ruby.
 * Jed: An s-lang file supporting Ruby is available at
   http://www.kondara.org/~g/slang/ruby.sl.
-* Nedit ( http://www.nedit.org): Eric Santonacci has written Ruby support for
+* Nedit (http://www.nedit.org): Eric Santonacci has written Ruby support for
   Nedit, available from ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz.
 * Barry Shultz has written a Ruby definition file for TextPad, available at
   http://www.textpad.com/add-ons/ntsyn.html.
@@ -277,13 +277,13 @@ str = "Billy" + " Bob"           # => "Billy Bob"
 str[0,1] + str[2,1] + str[-2,2]  # => "Blob"
 ~~~
 
-Gotoken's xmp package, available from
+Gotoken's `xmp` package, available from
 http://www.ruby-lang.org/en/raa-list.rhtml?name=xmp is a utility that
 annotates Ruby source code this way.
 
 Emacs and vim users can integrate this with their editing environments, which
 is useful if you want to send people e-mail with annotated Ruby code. Having
-installed xmp, Emacs users can add the following to their .emacs file:
+installed `xmp`, Emacs users can add the following to their `.emacs` file:
 
 ~~~
 (defun ruby-xmp-region (reg-start reg-end)
@@ -315,10 +315,12 @@ mailing list). Generally you'll get timely answers from matz himself, the
 author of the language, from other gurus, and from those who've solved
 problems similar to your own.
 
-Please include the output of ruby -v along with any problematic source code.
+Please include the output of `ruby -v` along with any problematic
+source code.
 
-If you have a problem using irb, be aware that it has some limitations.
-Try the script using `irb --single-irb`, or directly using the ruby command.
+If you have a problem using `irb`, be aware that it has some limitations.
+Try the script using `irb --single-irb`, or directly using the
+`ruby` command.
 
 There might be similar questions in the mailing list, and it is good
 netiquette to read through recent mails (RFC1855:3.1.1, 3.1.2) before asking.

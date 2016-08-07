@@ -39,7 +39,7 @@ header: |
 
 ### How can I use Ruby interactively?
 
-You can try using irb. The following is paraphrased from Goto Kentaro
+You can try using `irb`. The following is paraphrased from Goto Kentaro
 (Gotoken), and originally appeared in ruby-talk:444.
 
 ~~~
@@ -52,13 +52,13 @@ Possibly use rehash to tell your login shell about the new command.
 Type irb
 ~~~
 
-If the readline extension module works with your interpreter, it makes irb
+If the readline extension module works with your interpreter, it makes `irb`
 a lot more fun to use.
 
-There is also a simple program, eval, in the samples/ directory of the Ruby
-distribution. It lets you enter expressions and view their values. You can
-copy eval into the site_ruby directory in the Ruby tree, and then invoke it
-using:
+There is also a simple program, `eval`, in the `samples/` directory of the
+Ruby distribution. It lets you enter expressions and view their values.
+You can copy `eval` into the `site_ruby` directory in the Ruby tree, and
+then invoke it using:
 
 ~~~
 ruby -r eval -e0
@@ -79,23 +79,24 @@ There are no problems with reference counting and variable types, and very
 few interfaces to learn. In fact, C code used to extend Ruby often ends up
 looking surprisingly like Ruby code itself.
 
-First, get the Ruby source distribution and read README.EXT. This is a good
-document, not only if you're writing an extension library, but also if you
-want to understand Ruby more deeply.
+First, get the Ruby source distribution and read `README.EXT`. This is a
+good document, not only if you're writing an extension library, but also
+if you want to understand Ruby more deeply.
 
 Next, have a look at the source of the interpreter itself, and at the various
-supplied extensions in the ext/ directory. You'll also find good examples
-under contrib/ on the Ruby ftp sites.
+supplied extensions in the `ext/` directory. You'll also find good examples
+under `contrib/` on the Ruby ftp sites.
 
 ### Can I use Tcl/Tk interface in Ruby?
 
 There are two interfaces to Tcl/Tk included in the standard distribution.
-One is under ext/tcltk/ and loaded with require "tcltk". The syntax is very
-close to that Tcl, which is passed to Tcl interpreter. Unfortunately, the
-description for this library is written in Japanese.
+One is under `ext/tcltk/` and loaded with `require "tcltk"`. The syntax is
+very close to that Tcl, which is passed to Tcl interpreter.
+Unfortunately, the description for this library is written in Japanese.
 
-The other is under ext/tk/ and loaded with require "tk". Its syntax closer to
-the style of the Tk interface provided by the Perl and Python interfaces.
+The other is under `ext/tk/` and loaded with `require "tk"`. Its syntax
+closer to the style of the Tk interface provided by the Perl and Python
+interfaces.
 
 ### Tk won't work.
 
@@ -103,15 +104,16 @@ Your Tk version may be old, try a newer version.
 
 ### Can I use gtk+ or xforms interfaces in Ruby?
 
-You'll find ruby-gtk-x.xx.tar.gz and ruby-forms-x.x.tar.gz under contrib/
+You'll find ruby-gtk-x.xx.tar.gz and ruby-forms-x.x.tar.gz under `contrib/`
 in ftp sites.
 
 ### How can I do date arithmetic?
 
-A Time object can express only the dates between Jan 1, 1970 and Jan 19, 2038.
+A `Time` object can express only the dates between Jan 1, 1970 and
+Jan 19, 2038.
 
 Two standard extension library modules are provided:
-require "date", which is simple and uses the English calendar,
-and require "date2", which is more general purpose.
+`require "date"`, which is simple and uses the English calendar,
+and `require "date2"`, which is more general purpose.
 
-Also see sample/cal.rb.
+Also see `sample/cal.rb`.

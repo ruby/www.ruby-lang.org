@@ -39,10 +39,10 @@ header: |
 
 ### What is an iterator?
 
-An iterator is a method which accepts a block or a Proc object. In the source
-file, the block is placed immediately after the invocation of the method.
-Iterators are used to produce user-defined control structures--especially
-loops.
+An iterator is a method which accepts a block or a `Proc` object. In the
+source file, the block is placed immediately after the invocation of the
+method. Iterators are used to produce user-defined control
+structures--especially loops.
 
 Let's look at an example to see how this works. Iterators are often used to
 repeat the same action on each element of a collection, like this:
@@ -62,7 +62,7 @@ Produces:
 3
 ~~~
 
-The each method of the array data is passed the do...end block, and executes
+The each method of the array data is passed the `do...end` block, and executes
 it repeatedly. On each call, the block is passed successive elements of the
 array.
 
@@ -97,17 +97,17 @@ while the second is `foobar(a, b {...})`.
 
 ### How can I pass a block to an iterator?
 
-You simply place the block after the iterator call. You can also pass a Proc
-object by prepending & to the variable or constant name that refers to the
-Proc.
+You simply place the block after the iterator call. You can also pass a
+`Proc` object by prepending `&` to the variable or constant name that refers
+to the `Proc`.
 
 ### How is a block used in an iterator?
 
 There are three ways to execute a block from an iterator method:
-(1) the yield control structure; (2) calling a Proc argument
-(made from a block) with call; and (3) using Proc.new followed by a call.
+(1) the `yield` control structure; (2) calling a `Proc` argument
+(made from a block) with `call`; and (3) using `Proc.new` followed by a call.
 
-The yield statement calls the block, optionally passing it one or more
+The `yield` statement calls the block, optionally passing it one or more
 arguments.
 
 ~~~
@@ -125,8 +125,8 @@ Produces:
 ~~~
 
 If a method definition has a block argument (the last formal parameter has
-an ampersand (&) prepended), it will receive the attached block, converted
-to a Proc object. This may be called using `method.call(args...)`.
+an ampersand (`&`) prepended), it will receive the attached block, converted
+to a `Proc` object. This may be called using `method.call(args...)`.
 
 ~~~
 def myIterator(&b)
@@ -142,10 +142,10 @@ Produces:
 3
 ~~~
 
-Proc.new (or the equivalent proc or lambda calls), when used in an iterator
-definition, takes the block which is given to the method as its argument,
-generates a procedure object from it. (proc and lambda are effectively
-synonyms.)
+`Proc.new` (or the equivalent `proc` or `lambda` calls), when used in an
+iterator definition, takes the block which is given to the method as its
+argument, generates a procedure object from it.
+(`proc` and `lambda` are effectively synonyms.)
 
 ~~~
 def myIterator
@@ -174,7 +174,7 @@ procedure object out of the same block.
 You can tell if there is a block associated with a method by calling
 `block_given?`.
 
-### What does Proc.new without a block do?
+### What does `Proc.new` without a block do?
 
 `Proc.new` without a block cannot generate a procedure object and an error
 occurs. In a method definition, however, `Proc.new` without a block implies

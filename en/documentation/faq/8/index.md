@@ -71,8 +71,8 @@ CountEm.totalChildren  # => 3
 ~~~
 
 Earlier versions of Ruby do not have class variables. However, container
-classes (Array, Hash, etc) assigned to a class constant can be used to give
-the same effect. This example uses an array. Some folks feel hashes are
+classes (`Array`, `Hash`, etc) assigned to a class constant can be used to
+give the same effect. This example uses an array. Some folks feel hashes are
 better.
 
 ~~~
@@ -100,9 +100,9 @@ end
 ~~~
 
 (1) is a class instance variable, and (2) is an ordinary instance variable
-(which, not having been initialized, has a value of nil). (2) belongs to an
-instance of class Foo, and (1) belongs to the class object Foo, which is an
-instance of Class class. (phew!)
+(which, not having been initialized, has a value of `nil`). (2) belongs to an
+instance of class `Foo`, and (1) belongs to the class object `Foo`, which is
+an instance of `Class` class. (phew!)
 
 There is no way to access class instance variables from instance methods.
 
@@ -145,7 +145,7 @@ is a method whose receiver is a class.
 It all comes down to the fact that you can call class methods without having
 to have instances of that class (objects) as the receiver.
 
-Let's create a singleton method of class Foo:
+Let's create a singleton method of class `Foo`:
 
 ~~~
 class Foo
@@ -159,9 +159,9 @@ end
 Foo.test         # => "this is foo"
 ~~~
 
-In this example, Foo.test is a class method.
+In this example, `Foo.test` is a class method.
 
-Methods which are defined in class Class can be used as class methods for
+Methods which are defined in class `Class` can be used as class methods for
 every class(!)
 
 ### What is a singleton class?
@@ -170,7 +170,7 @@ A Singleton class is an anonymous class that is created by subclassing the
 class associated with a particular object. They are another way of extending
 the functionality associated with just one object.
 
-Take the lowly Foo:
+Take the lowly `Foo`:
 
 ~~~
 class Foo        # => hello<<7>>nil
@@ -198,20 +198,20 @@ foo.name = "Tom"
 foo.hello        # => "hello. I'm Tom\n"
 ~~~
 
-We've customized foo without changing the characteristics of Foo.
+We've customized `foo` without changing the characteristics of `Foo`.
 
 ### What is a module function?
 
 A module function is a private, singleton method defined in a module.
 In effect, it is similar to a class method, in that it can be called using
-the Module.method notation:
+the `Module.method` notation:
 
 ~~~
 Math.sqrt(2)     # => 1.414213562
 ~~~
 
 However, because modules can be mixed in to classes, module functions can
-also be used without the prefix (that's how all those Kernel functions are
+also be used without the prefix (that's how all those `Kernel` functions are
 made available to objects):
 
 ~~~
@@ -219,7 +219,7 @@ include Math
 sqrt(2)          # => 1.414213562
 ~~~
 
-Use module_function to make a method a module function.
+Use `module_function` to make a method a module function.
 
 ~~~
 module Test
@@ -250,13 +250,14 @@ No. However, a module may be included in a class or another module to mimic
 multiple inheritance (the mixin facility).
 
 This does not generate a subclass (which would require inheritance), but does
-generate an is_a? relationship between the class and the module.
+generate an `is_a?` relationship between the class and the module.
 
 ### Give me an example of a mix-in
 
-The module Comparable provides a variety of comparison operators
-(<, <=, >, between? and so on). It defines these in terms of calls to the
-general comparison method, <=>. However, it does not itself define <=>.
+The module `Comparable` provides a variety of comparison operators
+(`<`, `<=`, `>`, `between?` and so on). It defines these in terms of calls
+to the general comparison method, `<=>`. However, it does not itself define
+`<=>`.
 
 Say you want to create a class where comparisons are based on the number of
 legs an animal has:
@@ -283,11 +284,11 @@ p.between?(s, c)  # => true
 [p, s, c].sort    # => [snake, parrot, cat]
 ~~~
 
-All MyClass must do is define its own semantics for the operator <=>,
-and mix-in the Comparable module. Comparable's methods now become
-indistinguishable from MyClass's and your class suddenly sprouts new
-functionality. And because the same Comparable module is used my many classes,
-your new class will share a consistent and well understood semantic.
+All `MyClass` must do is define its own semantics for the operator `<=>`,
+and mix-in the `Comparable` module. `Comparable`'s methods now become
+indistinguishable from `MyClass`'s and your class suddenly sprouts new
+functionality. And because the same `Comparable` module is used my many
+classes, your new class will share a consistent and well understood semantic.
 
 ### Why are there two ways of defining class methods?
 
@@ -307,32 +308,32 @@ end
 There is only one significant difference between the two.
 In the class definition you can refer to the class's constants directly,
 as the constants are within scope. At the top level, you have to use the
-Class::CONST notation.
+`Class::CONST` notation.
 
-### What is the difference between load and require?
+### What is the difference between `load` and `require`?
 
-load will load and execute a Ruby program (*.rb).
+`load` will load and execute a Ruby program (`*.rb`).
 
-require loads Ruby programs as well, but will also load binary Ruby
-extension modules (shared libraries or DLLs). In addition, require ensures
+`require` loads Ruby programs as well, but will also load binary Ruby
+extension modules (shared libraries or DLLs). In addition, `require` ensures
 that a feature is never loaded more than once.
 
-### What is the difference between include and extend?
+### What is the difference between `include` and `extend`?
 
-include mixes a module into a class or another module. Methods from that the
-module are called function-style (without a receiver).
+`include` mixes a module into a class or another module. Methods from that
+the module are called function-style (without a receiver).
 
-extend is used to include a module in an object(instance).
+`extend` is used to include a module in an object (instance).
 Methods in the module become methods in the object.
 
-### What does self mean?
+### What does `self` mean?
 
-self is the currently executing receiver--the object to which a method
-is applied. A function-style method call implies self as the receiver.
+`self` is the currently executing receiver--the object to which a method
+is applied. A function-style method call implies `self` as the receiver.
 
 ### Why can't I load variables from a separate file?
 
-Say file1 contains:
+Say `file1` contains:
 
 ~~~
 var1 = 99
@@ -351,6 +352,6 @@ Produces:
 prog.rb:2: undefined local variable or method `var1' for #<Object:0x401c1ce0> (NameError)
 ~~~
 
-You get an error because load and require arrange for local variables to be
-stored into a separate, anonymous namespace, effectively discarding them.
+You get an error because `load` and `require` arrange for local variables to
+be stored into a separate, anonymous namespace, effectively discarding them.
 This is designed to protect your code from being polluted.

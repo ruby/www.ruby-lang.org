@@ -39,15 +39,15 @@ header: |
 
 ### What does `:var` mean?
 
-A colon followed by a name generates an integer(Fixnum) called a symbol
-which corresponds one to one with the identifier. "var".intern gives the
-same integer as :var, but the “:” form will create a local symbol if it
+A colon followed by a name generates an integer (`Fixnum`) called a symbol
+which corresponds one to one with the identifier. `"var".intern` gives the
+same integer as `:var`, but the `:` form will create a local symbol if it
 doesn't already exist.
 
-The routines "catch", "throw", "autoload", and so on, require a string or a
+The routines `catch`, `throw`, `autoload`, and so on, require a string or a
 symbol as an argument.
 
-"method_missing", "method_added" and "singleton_method_added" (and others)
+`method_missing`, `method_added` and `singleton_method_added` (and others)
 require a symbol.
 
 The fact that a symbol springs into existence the first time it is referenced
@@ -63,8 +63,8 @@ WEST  = :WEST
 ### How can I access the value of a symbol?
 
 To get the value of the variable corresponding to a symbol, you can use
-id2name to get the name of the variable, and then eval that to get that
-variable's contents. In the scope of "symbol", do eval(:symbol.id2name).
+`id2name` to get the name of the variable, and then eval that to get that
+variable's contents. In the scope of "symbol", do `eval(:symbol.id2name)`.
 
 ~~~
 a = 'This is the content of "a"'
@@ -73,8 +73,8 @@ a.id == b.id  # b now references the same object as a
 ~~~
 
 If your symbol corresponds to the name of a method, you can use the
-Method.method function to return a corresponding Method object, which you
-may then call.
+`Method.method` function to return a corresponding `Method` object, which
+you may then call.
 
 ~~~
 class Demo
@@ -90,8 +90,9 @@ m.call               # => "Hello, world"
 
 ### Is `loop` a control structure?
 
-Although loop looks like a control structure, it is actually a method defined
-in Kernel. The block which follows introduces a new scope for local variables.
+Although `loop` looks like a control structure, it is actually a method
+defined in `Kernel`. The block which follows introduces a new scope for
+local variables.
 
 ### Ruby doesn't have a post-test loop
 
@@ -99,7 +100,7 @@ Q: Ruby does not have a `do { ... } while` construct, so how can I implement
 loops that test the condition at the end.
 
 Clemens Hintze says: You can use a combination of Ruby's `begin ... end`
-and the while or until statement modifiers to achieve the same effect:
+and the `while` or `until` statement modifiers to achieve the same effect:
 
 ~~~
 i = 0
@@ -124,7 +125,7 @@ i = 4
 Ruby works hard to distinguish method calls from operators, and variable
 names from method names. Unfortunately, there's no way it can get it right
 all the time. In this case, `a +b` is parsed as `a(+b)`. Remove the space
-to the left of `+` or add a space to the right of `+,` and it will be parsed
+to the left of `+` or add a space to the right of `+`, and it will be parsed
 as an addition.
 
 ### `s = "x"; puts s *10` gives an error!
@@ -135,13 +136,13 @@ result.
 
 ### Why can't I pass a hash literal to a method: `p {}`?
 
-The {} is parsed as a block, not a Hash constructor. You can force the {}
-to be treated as an expression by making the fact that it's a parameter
+The `{}` is parsed as a block, not a `Hash` constructor. You can force the
+`{}` to be treated as an expression by making the fact that it's a parameter
 explicit: `p({})`.
 
 ### I can't get `def pos=(val)` to work!
 
-I have the following code, but I cannot use the method pos = 1.
+I have the following code, but I cannot use the method `pos = 1`.
 
 ~~~
 def pos=(val)
@@ -150,16 +151,17 @@ def pos=(val)
 end
 ~~~
 
-Methods with = appended must be called with a receiver (without the receiver,
-you're just assigning to a local variable). Invoke it as `self.pos = 1`.
+Methods with `=` appended must be called with a receiver
+(without the receiver, you're just assigning to a local variable).
+Invoke it as `self.pos = 1`.
 
 ### What is the difference between `'\1'` and `'\\1'`?
 
-They have the same meaning. In a single quote string, only \' and \\ are
-transformed and other combinations remain unchanged.
+They have the same meaning. In a single quote string, only `\'` and `\\`
+are transformed and other combinations remain unchanged.
 
-However, in a doubled quoted string, "\1" is the byte \001, while "\\1"
-is the two character string containing a backslash and the character "1".
+However, in a doubled quoted string, `"\1"` is the byte `\001`, while `"\\1"`
+is the two character string containing a backslash and the character `"1"`.
 
 ### What is the difference between `or` and `||`?
 
@@ -167,7 +169,7 @@ Q: `p(nil || "Hello")` prints `"Hello"`, while `p(nil or "Hello")` gives a
 parse error.
 
 A: `||` combines terms within an expression. Because the first term in this
-case is nil, the second term is evaluated.
+case is `nil`, the second term is evaluated.
 
-or is used to combine expressions in conditionals. Ruby is not expecting a
+`or` is used to combine expressions in conditionals. Ruby is not expecting a
 conditional statement in an argument list.

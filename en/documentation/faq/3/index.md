@@ -85,9 +85,9 @@ source from ftp://ftp.netlab.co.jp/pub/lang/ruby/snapshot.tar.gz.
 
 ### How do I compile Ruby?
 
-Under Unix, Ruby uses the autoconf system to configure the build environment.
-You don't need the autoconf command on your box to build Ruby from a
-distribution; just use the commands:
+Under Unix, Ruby uses the `autoconf` system to configure the build
+environment. You don't need the `autoconf` command on your box to build Ruby
+from a distribution; just use the commands:
 
 ~~~
 % ./configure  [configure options]
@@ -97,22 +97,22 @@ distribution; just use the commands:
 ~~~
 
 You may need superuser privileges to install Ruby if you don't override the
-default installation location (/usr/local). You can get a full list of
-configure options using:
+default installation location (`/usr/local`). You can get a full list of
+`configure` options using:
 
 ~~~
 % ./configure --help
 ~~~
 
-If you are working from the CVS archive, you may need to run autoconf before
-running configure.
+If you are working from the CVS archive, you may need to run `autoconf`
+before running `configure`.
 
 ### How do I tell Ruby where my libraries are?
 
 On some systems, the build process may fail to find libraries used by
-extension modules (for example the dbm libraries).
+extension modules (for example the `dbm` libraries).
 
-You can tell Ruby where to find libraries using options to configure.
+You can tell Ruby where to find libraries using options to `configure`.
 From [ruby-talk:5041]:
 
 ~~~
@@ -138,15 +138,15 @@ include       specifies -I DIR
 lib           specifies -L DIR
 ~~~
 
-On HP-UX, there may be problems building with gcc. Try using the native
+On HP-UX, there may be problems building with `gcc`. Try using the native
 compiler instead. WATANABE Tetsuya recommends:
 
 ~~~
 CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
 ~~~
 
-There may also be problems with HP's native sed. He recommends installing the
-GNU equivalent.
+There may also be problems with HP's native `sed`.
+He recommends installing the GNU equivalent.
 
 ### Are precompiled binaries available?
 
@@ -179,7 +179,7 @@ You may come across different versions of the Ruby executable that use
 different wrapper mapping layers.
 
 The rbdj version is a stand-alone version of the Windows binary of Ruby.
-It uses the DJ Delorie tools ( http://www.delorie.com).
+It uses the DJ Delorie tools (http://www.delorie.com).
 
 The rbcw version is a Windows binary of Ruby that requires the cygwin library,
 available at http://www.cygwin.com or from the Ruby download pages. Cygwin is
@@ -189,9 +189,9 @@ fullest set of features under Windows, so most programmers will want to use
 it.
 
 To use the rbcw version, you will need to install the cygwin .dll separately.
-Once you have installed cygwin on your computer, copy cygwin1.dll (which is
-found in the bin subdirectory of the cygwin distribution) to your
-Windows\System32 folder (or somewhere else on your path).
+Once you have installed cygwin on your computer, copy `cygwin1.dll` (which
+is found in the `bin` subdirectory of the cygwin distribution) to your
+`Windows\System32` folder (or somewhere else on your path).
 
 Thanks to Anders Schneiderman for the basis of this description
 
@@ -201,7 +201,7 @@ Is Tk installed correctly on your Windows box? Go to
 http://dev.scriptics.com/software/tcltk/ to find a precompiled binary
 Tcl/Tk distribution for your box.
 
-Are the environment variables TCL_LIBRARY and TK_LIBRARY pointing to the
+Are the environment variables `TCL_LIBRARY` and `TK_LIBRARY` pointing to the
 directories containing tcl and tk?
 
 Is the tk library in your path?

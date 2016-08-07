@@ -41,17 +41,17 @@ header: |
 
 All variables and constants reference (point at) some object. (The exception
 is uninitialized local variables, which reference nothing. These raise a
-NameError exception if used). When you assign to a variable, or initialize a
-constant, you set the object that the variable or constant references.
+`NameError` exception if used). When you assign to a variable, or initialize
+a constant, you set the object that the variable or constant references.
 
 Assignment on its own therefore never creates a new copy of an object.
 
 There's a slightly deeper explanation in certain special cases. Instances of
-Fixnum, NilClass, TrueClass, and FalseClass are contained directly in
+`Fixnum`, `NilClass`, `TrueClass`, and `FalseClass` are contained directly in
 variables or constants--there is no reference involved. A variable holding the
-number 42 or the constant true, actually holds the value, and not a reference
-to it. Assignment therefore physically produces a copy of objects of these
-types. We discuss this more in Immediate and Reference Objects.
+number `42` or the constant `true`, actually holds the value, and not a
+reference to it. Assignment therefore physically produces a copy of objects
+of these types. We discuss this more in Immediate and Reference Objects.
 
 ### What is the scope of a local variable?
 
@@ -130,18 +130,18 @@ onetwo: : 11
 onetwo: : 33
 ~~~
 
-while, until, and for are control structures, not blocks, so local variables
-within them will be accessible in the enclosing environment. loop, however,
-is a method and the associated block introduces a new scope.
+`while`, `until`, and `for` are control structures, not blocks, so local
+variables within them will be accessible in the enclosing environment.
+`loop`, however, is a method and the associated block introduces a new scope.
 
 ### When does a local variable become accessible?
 
-Actually, the question may be better asked as: "at what point does Ruby work
-out that something is a variable?" The problem arises because the simple
-expression “a” could be either a variable or a call to a method with no
+Actually, the question may be better asked as: “at what point does Ruby work
+out that something is a variable?” The problem arises because the simple
+expression `a` could be either a variable or a call to a method with no
 parameters. To decide which is the case, Ruby looks for assignment statements.
-If at some point in the source prior to the use of “a” it sees it being
-assigned to, it decides to parse “a” as a variable, otherwise it treats it
+If at some point in the source prior to the use of `a` it sees it being
+assigned to, it decides to parse `a` as a variable, otherwise it treats it
 as a method. As a somewhat pathological case of this, consider this code
 fragment, submitted by Clemens Hintze:
 
@@ -169,10 +169,10 @@ Function 'a' called
 a=99
 ~~~
 
-During the parse, Ruby sees the use of “a” in the first print statement and,
-as it hasn't yet seen any assignment to “a”, assumes that it is a method
-call. By the time it gets to the second print statement, though, it has seen
-an assignment, and so treats “a” as a variable.
+During the parse, Ruby sees the use of `a` in the first `print` statement
+and, as it hasn't yet seen any assignment to `a`, assumes that it is a method
+call. By the time it gets to the second `print` statement, though, it has seen
+an assignment, and so treats `a` as a variable.
 
 Note that the assignment does not have to be executed---Ruby just has to have
 seen it. This program does not raise an error.
@@ -182,7 +182,7 @@ a = 1 if false; a  # => nil
 ~~~
 
 This issue with variables is not normally a problem. If you do bump into it,
-try putting an assignment such as a = nil before the first access to the
+try putting an assignment such as `a = nil` before the first access to the
 variable. This has the additional benefit of speeding up the access time to
 local variables that subsequently appear in loops.
 
@@ -197,7 +197,7 @@ within nested classes and constants.
 You can also directly access constants in superclasses and included modules.
 
 Apart from these cases, you can access class and module constants using
-the :: operator--ModuleName::CONST1 or ClassName::CONST2.
+the `::` operator--`ModuleName::CONST1` or `ClassName::CONST2`.
 
 ### How are arguments passed?
 
@@ -262,7 +262,7 @@ Produces:
 val=1 val=2 val=3
 ~~~
 
-When used in a method call, * expands an array, passing its individual
+When used in a method call, `*` expands an array, passing its individual
 elements as arguments.
 
 ~~~
@@ -270,7 +270,7 @@ a = [1, 2, 3]
 foo(*a)
 ~~~
 
-You can prepend * to the last argument of
+You can prepend `*` to the last argument of
 
 ~~~
 Left hand side of a multiple assignment.
@@ -295,12 +295,12 @@ x                # => [7, 8, 9]
 ### What does `&` prepended to an argument mean?
 
 If the last formal argument of a method is preceeded with an ampersand,
-a block following the method call will be converted into a Proc object
+a block following the method call will be converted into a `Proc` object
 and assigned to the formal parameter.
 
-If the last actual argument in a method invocation is a Proc object, you can
+If the last actual argument in a method invocation is a `Proc` object, you can
 preceed its name with an ampersand to convert in into a block. The method may
-then use yield to call it.
+then use `yield` to call it.
 
 ~~~
 square = proc { |i| i*i }
@@ -363,8 +363,8 @@ These parameters are actually local variables. If an existing local of the
 same name exists when the block executes, that variable will be modified by
 the call to the block. This may or may not be a good thing.
 
-Typically, arguments are passed to a block using yield (or an iterator that
-calls yield), or by using the Proc.call method.
+Typically, arguments are passed to a block using `yield` (or an iterator that
+calls `yield`), or by using the `Proc.call` method.
 
 ### Why did my object change unexpectedly?
 
@@ -375,11 +375,11 @@ a                # => "abcd"
 A                # => "abcd"
 ~~~
 
-Variables hold references to objects. The assignment A = a = b = "abc" puts a
-reference to the string “abc” into A, a, and b.
+Variables hold references to objects. The assignment `A = a = b = "abc"` puts
+a reference to the string `"abc"` into `A`, `a`, and `b`.
 
-When you called b.concat("d"), you invoked the concat method on that object,
-changing it from “abc” to “abcd”. Because a and A also reference that
+When you called `b.concat("d")`, you invoked the concat method on that object,
+changing it from `"abc"` to `"abcd"`. Because `a` and `A` also reference that
 same object, their apparent value changes too.
 
 This is less of a problem in practice than it might appear.
