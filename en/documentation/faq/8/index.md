@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## Classes and modules
 
 ### Can a class definition be repeated?

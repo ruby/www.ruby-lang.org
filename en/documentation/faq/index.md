@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 This document contains Frequently Asked Questions about Ruby with answers.
 {: .summary}
 

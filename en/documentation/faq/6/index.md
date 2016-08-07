@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## Syntax
 
 ### What does `:var` mean?

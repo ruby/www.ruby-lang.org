@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## Installing Ruby
 
 ### What operating systems support Ruby?

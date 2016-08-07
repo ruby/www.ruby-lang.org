@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## How does Ruby stack up against...?
 
 ### How does Ruby compare with Python?

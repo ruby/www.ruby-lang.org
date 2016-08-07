@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## Variables, constants, and arguments
 
 ### Does assignment generate a new copy of an object?

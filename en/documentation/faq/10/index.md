@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## Extension library
 
 ### How can I use Ruby interactively?

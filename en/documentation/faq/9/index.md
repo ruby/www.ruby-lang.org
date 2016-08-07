@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## Built-in libraries
 
 ### What does instance_methods(nil) return?

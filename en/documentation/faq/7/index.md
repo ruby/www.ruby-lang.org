@@ -33,6 +33,8 @@ header: |
 
 ---
 
+{% include faq-notice.html %}
+
 ## Methods
 
 ### How does Ruby choose which method to invoke?
