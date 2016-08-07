@@ -365,15 +365,15 @@ def foo(str)
 end
 
 obj = "foo"
-foo(obj)         # -> "baz"
-obj              # -> "foo"
+foo(obj)         # => "baz"
+obj              # => "foo"
 
 def foo(str)
     str = str.sub!(/foo/, "baz")
 end
 
-foo(obj)         # -> "baz"
-obj              # -> "baz"
+foo(obj)         # => "baz"
+obj              # => "baz"
 ~~~
 
 ### Where does \Z match?

@@ -95,7 +95,7 @@ a = 0
   a += i
   b = i*i
 end
-a                # -> 6
+a                # => 6
 # b is not defined here
 ~~~
 
@@ -178,7 +178,7 @@ Note that the assignment does not have to be executed---Ruby just has to have
 seen it. This program does not raise an error.
 
 ~~~
-a = 1 if false; a  # -> nil
+a = 1 if false; a  # => nil
 ~~~
 
 This issue with variables is not normally a problem. If you do bump into it,
@@ -209,8 +209,8 @@ def addOne(n)
   n += 1
 end
 a = 1
-addOne(a)      # -> 2
-a              # -> 1
+addOne(a)      # => 2
+a              # => 1
 ~~~
 
 As you are passing object references, it is possible that a method may modify
@@ -220,9 +220,9 @@ the contents of a mutable object passed in to it.
 def downer(string)
   string.downcase!
 end
-a = "HELLO"    # -> "HELLO"
-downer(a)      # -> "hello"
-a              # -> "hello"
+a = "HELLO"    # => "HELLO"
+downer(a)      # => "hello"
+a              # => "hello"
 ~~~
 
 There is no equivalent of other language's pass-by-reference semantics.
@@ -284,12 +284,12 @@ For example:
 
 ~~~
 x, *y = [7, 8, 9]
-x                # -> 7
-y                # -> [8, 9]
+x                # => 7
+y                # => [8, 9]
 x,    = [7, 8, 9]
-x                # -> 7
+x                # => 7
 x     = [7, 8, 9]
-x                # -> [7, 8, 9]
+x                # => [7, 8, 9]
 ~~~
 
 ### What does `&` prepended to an argument mean?
@@ -370,9 +370,9 @@ calls yield), or by using the Proc.call method.
 
 ~~~
 A = a = b = "abc"
-b.concat("d")    # -> "abcd"
-a                # -> "abcd"
-A                # -> "abcd"
+b.concat("d")    # => "abcd"
+a                # => "abcd"
+A                # => "abcd"
 ~~~
 
 Variables hold references to objects. The assignment A = a = b = "abc" puts a

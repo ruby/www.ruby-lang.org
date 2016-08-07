@@ -65,9 +65,9 @@ end
 c1 = CountEm.new
 c2 = CountEm.new
 c3 = CountEm.new
-c1.whoAmI              # -> "I'm child number 1 (out of 3)"
-c3.whoAmI              # -> "I'm child number 3 (out of 3)"
-CountEm.totalChildren  # -> 3
+c1.whoAmI              # => "I'm child number 1 (out of 3)"
+c3.whoAmI              # => "I'm child number 3 (out of 3)"
+CountEm.totalChildren  # => 3
 ~~~
 
 Earlier versions of Ruby do not have class variables. However, container
@@ -156,7 +156,7 @@ end
 
 # It is invoked this way.
 
-Foo.test         # -> "this is foo"
+Foo.test         # => "this is foo"
 ~~~
 
 In this example, Foo.test is a class method.
@@ -173,7 +173,7 @@ the functionality associated with just one object.
 Take the lowly Foo:
 
 ~~~
-class Foo        # -> hello<<7>>nil
+class Foo        # => hello<<7>>nil
   def hello
     print "hello"
   end
@@ -195,7 +195,7 @@ class << foo
 end
 
 foo.name = "Tom"
-foo.hello        # -> "hello. I'm Tom\n"
+foo.hello        # => "hello. I'm Tom\n"
 ~~~
 
 We've customized foo without changing the characteristics of Foo.
@@ -207,7 +207,7 @@ In effect, it is similar to a class method, in that it can be called using
 the Module.method notation:
 
 ~~~
-Math.sqrt(2)     # -> 1.414213562
+Math.sqrt(2)     # => 1.414213562
 ~~~
 
 However, because modules can be mixed in to classes, module functions can
@@ -216,7 +216,7 @@ made available to objects):
 
 ~~~
 include Math
-sqrt(2)          # -> 1.414213562
+sqrt(2)          # => 1.414213562
 ~~~
 
 Use module_function to make a method a module function.
@@ -276,11 +276,11 @@ c = MyClass.new('cat', 4)
 s = MyClass.new('snake', 0)
 p = MyClass.new('parrot', 2)
 
-c < s          # -> false
-s < c          # -> true
-p >= s         # -> true
-p.between?(s, c)  # -> true
-[p, s, c].sort    # -> [snake, parrot, cat]
+c < s          # => false
+s < c          # => true
+p >= s         # => true
+p.between?(s, c)  # => true
+[p, s, c].sort    # => [snake, parrot, cat]
 ~~~
 
 All MyClass must do is define its own semantics for the operator <=>,

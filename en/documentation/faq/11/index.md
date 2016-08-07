@@ -47,7 +47,7 @@ Assuming that the file ends in a linefeed, the following code may give the
 fastest result.
 
 ~~~
-open("example").read.count("\n")  # -> 3
+open("example").read.count("\n")  # => 3
 ~~~
 
 ### What do begin and end of MatchingData return?
@@ -89,8 +89,8 @@ module Enumerable
   end
 end
 
-[1,3,5,7,9].sum  # -> 25
-(1..100).sum     # -> 5050
+[1,3,5,7,9].sum  # => 25
+(1..100).sum     # => 5050
 ~~~
 
 ### How can I use continuations?

@@ -83,9 +83,9 @@ class Demo
   end
 end
 
-d = Demo.new         # -> #<Demo:0x401b4400>
-m = d.method(:meth)  # -> #<Method: Demo(Demo)#meth>
-m.call               # -> "Hello, world"
+d = Demo.new         # => #<Demo:0x401b4400>
+m = d.method(:meth)  # => #<Method: Demo(Demo)#meth>
+m.call               # => "Hello, world"
 ~~~
 
 ### Is `loop` a control structure?

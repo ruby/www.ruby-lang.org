@@ -84,8 +84,8 @@ end
 p1 = Person.new('elmo', 4)
 p2 = Person.new('zoe', 7)
 
-p1               # -> elmo (4)
-p2               # -> zoe (7)
+p1               # => elmo (4)
+p2               # => zoe (7)
 ~~~
 
 Now let's populate an array of people by reading their names and ages from a
@@ -110,7 +110,7 @@ File.foreach("ages") { |l|
   people << Person.new($1, $2) if l =~ /(.*):\s+(\d+)/
 }
 
-people           # -> [bert (8), cookie (11), elmo (4), ernie (8), zoe (7)]
+people           # => [bert (8), cookie (11), elmo (4), ernie (8), zoe (7)]
 ~~~
 
 Now, let's sort the result based on the person's age. There are many ways to
@@ -119,7 +119,7 @@ of two people:
 
 ~~~
 sorted = people.sort do |a,b| a.age <=> b.age end
-sorted           # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+sorted           # => [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
 ~~~
 
 Another way would be to change the comparison method for class Person:
@@ -130,7 +130,7 @@ class Person
     @age <=> other.age
   end
 end
-people.sort      # -> [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+people.sort      # => [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
 ~~~
 
 ### Why the name “Ruby”?
@@ -273,8 +273,8 @@ following code, we show that the assignment generates the string "Billy Bob",
 and then result of extracting some substrings.
 
 ~~~
-str = "Billy" + " Bob"           # -> "Billy Bob"
-str[0,1] + str[2,1] + str[-2,2]  # -> "Blob"
+str = "Billy" + " Bob"           # => "Billy Bob"
+str[0,1] + str[2,1] + str[-2,2]  # => "Blob"
 ~~~
 
 Gotoken's xmp package, available from

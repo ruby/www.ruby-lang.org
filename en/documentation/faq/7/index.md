@@ -60,8 +60,8 @@ end
 class String
   include Indexed
 end
-String.ancestors                # -> [String, Indexed, Enumerable, Comparable, Object, Kernel]
-"abcde".gsub!(/./, "\\&\n")[1]  # -> 10
+String.ancestors                # => [String, Indexed, Enumerable, Comparable, Object, Kernel]
+"abcde".gsub!(/./, "\\&\n")[1]  # => 10
 ~~~
 
 This program does not return "b\n" as one expects, but returns 10. When the
@@ -167,10 +167,10 @@ class Person
 end
 
 p = Person.new("Dave")
-p.name           # -> "Dave"
-p.wearing_a_hat  # -> nil
+p.name           # => "Dave"
+p.wearing_a_hat  # => nil
 p.wearing_a_hat = true
-p.wearing_a_hat  # -> true
+p.wearing_a_hat  # => true
 ~~~
 
 You can also define your own accessor functions (perhaps to perform
@@ -341,8 +341,8 @@ def foo(str)
 end
 
 obj = "foo"
-foo(obj)         # -> "baz"
-obj              # -> "baz"
+foo(obj)         # => "baz"
+obj              # => "baz"
 ~~~
 
 In this case the actual argument is altered.
@@ -358,8 +358,8 @@ end
 def m2
   return [1, 2, 3]
 end
-m1               # -> [1, 2, 3]
-m2               # -> [1, 2, 3]
+m1               # => [1, 2, 3]
+m2               # => [1, 2, 3]
 ~~~
 
 So, only one thing is returned, but that thing can be an arbitrarily complex
@@ -372,7 +372,7 @@ def foo
 end
 
 a, b, c = foo
-a                # -> 20
-b                # -> 4
-c                # -> 17
+a                # => 20
+b                # => 4
+c                # => 17
 ~~~
