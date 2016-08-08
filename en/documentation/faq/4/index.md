@@ -38,6 +38,7 @@ header: |
 ## Variables, constants, and arguments
 
 ### Does assignment generate a new copy of an object?
+{: #assignment}
 
 All variables and constants reference (point at) some object. (The exception
 is uninitialized local variables, which reference nothing. These raise a
@@ -51,7 +52,8 @@ There's a slightly deeper explanation in certain special cases. Instances of
 variables or constants--there is no reference involved. A variable holding the
 number `42` or the constant `true`, actually holds the value, and not a
 reference to it. Assignment therefore physically produces a copy of objects
-of these types. We discuss this more in Immediate and Reference Objects.
+of these types. We discuss this more in
+[Immediate and Reference Objects](../9/#immediate).
 
 ### What is the scope of a local variable?
 
@@ -202,7 +204,7 @@ the `::` operator--`ModuleName::CONST1` or `ClassName::CONST2`.
 ### How are arguments passed?
 
 The actual argument is assigned to the formal argument when the method is
-invoked. (See assignment for more on the semantics of assignment.)
+invoked. (See [assignment](#assignment) for more on the semantics of assignment.)
 
 ~~~
 def addOne(n)

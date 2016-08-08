@@ -53,7 +53,8 @@ open("example").read.count("\n")  # => 3
 ### What do `begin` and `end` of `MatchingData` return?
 
 They act with `$ `, and return the start index and the end index of the
-matched data (`$0`) in the original string. See an example in tab expansion.
+matched data (`$0`) in the original string. See an example in
+[tab expansion](../9/#tab-expansion).
 
 ### How can I sum the elements in an array?
 

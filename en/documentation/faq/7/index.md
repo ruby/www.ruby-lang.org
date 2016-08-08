@@ -317,6 +317,7 @@ to give it an alternative name. Finally, you can call the original method as
 a singleton method of `Kernel`.
 
 ### What is a destructive method?
+{: #destructive-method}
 
 A destructive method is one which alters the state of an object. `String`,
 `Array`, and `Hash`, and others have such methods. Often there are two

@@ -60,6 +60,7 @@ different sequences of random numbers. To get the old, predictable, behavior
 (perhaps for testing), call `srand` with a constant seed.
 
 ### What is the difference between an immediate value and a reference?
+{: #immediate}
 
 `Fixnum`, `true`, `nil`, and `false` are implemented as immediate values.
 With immediate values, variables hold the objects themselves, rather than
@@ -319,6 +320,7 @@ character code as an integer constant by prefixing the character with a
 question mark, so `?a` is also 97 (`Fixnum`).
 
 ### How can I expand tabs to spaces?
+{: #tab-expansion}
 
 If `a` holds the string to be expanded, you could use one of:
 
@@ -355,9 +357,9 @@ In `sub`, a copy of the receiver is generated, substituted and returned.
 In `sub!`, the receiver is altered and returned if any match was found.
 Otherwise, `nil` is returned.
 
-Methods like `sub!` are called destructive methods which alter the attribute
-of the receiver. If there are two similar methods and one is destructive,
-the destructive one has a suffix `!`.
+Methods like `sub!` are called [destructive methods](../7/#destructive-method)
+which alter the attribute of the receiver. If there are two similar methods
+and one is destructive, the destructive one has a suffix `!`.
 
 ~~~
 def foo(str)

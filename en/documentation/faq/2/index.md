@@ -98,5 +98,5 @@ mined for P3K. I'm not sure how many Python programmers will be attracted to
 it though - it hasn't won me over (yet). But it is worthy of serious study and
 could be a real threat to Perl.
 
-Posted by John Dell'Aquila in comp.lang.python, 11/17/2000.
-Reproduced with permission.
+Posted by [John Dell'Aquila](mailto:jbd@alum.mit.edu) in comp.lang.python,
+11/17/2000. Reproduced with permission.

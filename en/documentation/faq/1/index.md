@@ -175,19 +175,23 @@ June 4, 1999. (The birthday of Ruby is corrected in [ruby-list:15977]).
 
 ### Where is the Ruby Home Page?
 
-The official Ruby Home Page is http://www.ruby-lang.org (in English) and
-http://www.ruby-lang.org/ja/ (in Japanese).
+The official Ruby Home Page is [http://www.ruby-lang.org](http://www.ruby-lang.org)
+(in English) and [http://www.ruby-lang.org/ja/](http://www.ruby-lang.org/ja/)
+(in Japanese).
 
-You can also find Ruby information at http://www.rubycentral.com.
-In particular, there is a complete online reference to Ruby's built-in classes
-and methods.
+You can also find Ruby information at
+[http://www.rubycentral.com](http://www.rubycentral.com).
+In particular, there is a complete
+[online reference](http://www.rubycentral.com/book/builtins.html)
+to Ruby's built-in classes and methods.
 
 ### Is there a Ruby newsgroup?
 
 comp.lang.ruby was established in May, 2000 (thanks to the efforts of
-Conrad Schneiker).
+[Conrad Schneiker](mailto:schneiker@jump.net)).
 
 ### Is there a Ruby mailing list?
+{: #mailing-lists}
 
 There are five mailing lists now talking about Ruby. The first is in English,
 the last four in Japanese:
@@ -200,10 +204,10 @@ ruby-ext:  List for people writing extensions for or with Ruby.
 ruby-math: Ruby in mathematics.
 ~~~
 
-See joining the mailing list.
+See [joining the mailing list](http://www.ruby-lang.org/en/ml.html).
 
 You can search the mailing list archives using
-http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml.
+[http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml](http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml).
 (This is the url for the ruby-talk list: munge as required for the others).
 
 ### How can I thread the mailing list in mutt?
@@ -250,20 +254,25 @@ expressions.
 
 ### Which editors provide support for Ruby?
 
-* Emacs or XEmacs: `ruby-mode.el` is supplied in the Ruby distribution.
-  With some versions of XEmacs, you may need to add `(load "font-lock")`
-  to your `.emacs` file to allow `ruby-mode.el` to detect the syntax
-  highlighting package you're using.
-* Vim: Vim 5.7 and later have Ruby syntax files as standard in the runtime
-  package. For prior versions, a syntax file for Ruby is available at
-  http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim.
-* Jedit: A portable editor written in Java, comes with support for Ruby.
-* Jed: An s-lang file supporting Ruby is available at
-  http://www.kondara.org/~g/slang/ruby.sl.
-* Nedit (http://www.nedit.org): Eric Santonacci has written Ruby support for
-  Nedit, available from ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz.
+* [Emacs](http://www.gnu.org/software/emacs/emacs.html)
+  or [XEmacs](http://www.xemacs.org/): `ruby-mode.el` is supplied in the Ruby
+  distribution. With some versions of XEmacs, you may need to add
+  `(load "font-lock")` to your `.emacs` file to allow `ruby-mode.el` to detect
+  the syntax highlighting package you're using.
+* [Vim](http://www.vim.org/): Vim 5.7 and later have Ruby syntax files as
+  standard in the runtime package. For prior versions, a syntax file for Ruby
+  is available at
+  [http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim](http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim).
+* [Jedit](http://jedit.sourceforge.net/): A portable editor written in Java,
+  comes with support for Ruby.
+* [Jed](http://space.mit.edu/~davis/jed.html): An s-lang file supporting Ruby
+  is available at
+  [http://www.kondara.org/~g/slang/ruby.sl](http://www.kondara.org/~g/slang/ruby.sl).
+* [Nedit](http://www.nedit.org): Eric Santonacci has written Ruby support for
+  Nedit, available from
+  [ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz](ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz).
 * Barry Shultz has written a Ruby definition file for TextPad, available at
-  http://www.textpad.com/add-ons/ntsyn.html.
+  [http://www.textpad.com/add-ons/ntsyn.html](http://www.textpad.com/add-ons/ntsyn.html).
 
 ### How can I annotate Ruby code with its results?
 
@@ -278,8 +287,8 @@ str[0,1] + str[2,1] + str[-2,2]  # => "Blob"
 ~~~
 
 Gotoken's `xmp` package, available from
-http://www.ruby-lang.org/en/raa-list.rhtml?name=xmp is a utility that
-annotates Ruby source code this way.
+[http://www.ruby-lang.org/en/raa-list.rhtml?name=xmp](http://www.ruby-lang.org/en/raa-list.rhtml?name=xmp)
+is a utility that annotates Ruby source code this way.
 
 Emacs and vim users can integrate this with their editing environments, which
 is useful if you want to send people e-mail with annotated Ruby code. Having
@@ -310,15 +319,17 @@ The syntax of Ruby has been fairly stable since Ruby 1.0, but new features are
 added every now and then. So, the books and the online documentation can get
 behind.
 
-If you have a problem, feel free to ask in the mailing list (see ruby-talk
-mailing list). Generally you'll get timely answers from matz himself, the
+If you have a problem, feel free to ask in the mailing list
+(see [ruby-talk mailing list](#mailing-lists)).
+Generally you'll get timely answers from matz himself, the
 author of the language, from other gurus, and from those who've solved
 problems similar to your own.
 
 Please include the output of `ruby -v` along with any problematic
 source code.
 
-If you have a problem using `irb`, be aware that it has some limitations.
+If you have a problem using [`irb`](../10/#irb),
+be aware that it has some limitations.
 Try the script using `irb --single-irb`, or directly using the
 `ruby` command.
 

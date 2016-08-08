@@ -107,6 +107,7 @@ an instance of `Class` class. (phew!)
 There is no way to access class instance variables from instance methods.
 
 ### What is a singleton method?
+{: #singleton-method}
 
 A singleton method is an instance method associated with one specific object.
 
@@ -136,8 +137,10 @@ Singleton methods are useful when you want to add a method to an object and
 creating a new subclass is not appropriate.
 
 ### Does Ruby have class methods?
+{: #class-method}
 
-A singleton method of a class object is called a class method.
+A [singleton method](#singleton-method) of a class object is called a
+class method.
 (Actually, the class method is defined in the metaclass, but that is pretty
 much transparent). Another way of looking at it is to say that a class method
 is a method whose receiver is a class.
@@ -203,8 +206,8 @@ We've customized `foo` without changing the characteristics of `Foo`.
 ### What is a module function?
 
 A module function is a private, singleton method defined in a module.
-In effect, it is similar to a class method, in that it can be called using
-the `Module.method` notation:
+In effect, it is similar to a [class method](#class-method),
+in that it can be called using the `Module.method` notation:
 
 ~~~
 Math.sqrt(2)     # => 1.414213562

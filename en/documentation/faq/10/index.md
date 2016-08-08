@@ -38,12 +38,13 @@ header: |
 ## Extension library
 
 ### How can I use Ruby interactively?
+{: #irb}
 
 You can try using `irb`. The following is paraphrased from Goto Kentaro
 (Gotoken), and originally appeared in ruby-talk:444.
 
 ~~~
-Get the latest tarball of irb from the contrib directory in the Ruby archive.
+Get the latest tarball of irb from the contrib directory (ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/) in the Ruby archive.
 Extract the irb directory tree.
 Add the location of the irb/ directory to the $RUBYLIB environment variable
 Make a symbolic link from $RUBYLIB/irb/irb.rb to a file called irb somewhere in your path.
