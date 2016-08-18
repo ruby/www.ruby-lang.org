@@ -177,14 +177,14 @@ way of extending the functionality associated with just one object.
 Take the lowly `Foo`:
 
 ~~~
-class Foo        # => hello<<7>>nil
+class Foo
   def hello
-    print "hello"
+    "hello"
   end
 end
 
 foo = Foo.new
-foo.hello
+foo.hello        # => "hello"
 ~~~
 
 Now let's say we need to add class-level functionality to just this one
@@ -276,6 +276,9 @@ class MyClass
   def <=>(o)
     return @legs <=> o.legs
   end
+  def inspect
+    @name
+  end
 end
 c = MyClass.new('cat', 4)
 s = MyClass.new('snake', 0)
@@ -337,7 +340,7 @@ is applied. A function-style method call implies `self` as the receiver.
 
 ### Why can't I load variables from a separate file?
 
-Say `file1` contains:
+Say `file1.rb` contains:
 
 ~~~
 var1 = 99

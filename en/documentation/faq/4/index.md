@@ -123,14 +123,16 @@ end
 threads.each {|t| t.join }
 ~~~
 
-Produces:
+Might produce (in case the scheduler switches threads as hinted
+by `Thread.pass`; this depends on OS and processor):
 
 ~~~
-onetwo: : 00
-
-onetwo: : 11
-
-onetwo: : 33
+one: 0
+two: 0
+one: 1
+two: 1
+one: 3
+two: 3
 ~~~
 
 `while`, `until`, and `for` are control structures, not blocks, so local
@@ -195,7 +197,7 @@ A constant defined in a class or module definition can be accessed directly
 within that class's or module's definition.
 
 You can directly access the constants in outer classes and modules from
-within nested classes and constants.
+within nested classes and modules.
 
 You can also directly access constants in superclasses and included modules.
 

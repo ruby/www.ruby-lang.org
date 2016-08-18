@@ -327,7 +327,7 @@ change to it, and returns the copy. The version with the `!` modifies the
 receiver in place.
 
 Beware, however, that there are a fair number of destructive methods that
-do not have an `!`, including assignment operators (`name=`), array assignment
+do not have an `!`, including assignment methods (`name=`), array assignment
 (`[]=`), and methods such as `Array.delete`.
 
 ### Why can destructive methods be dangerous?

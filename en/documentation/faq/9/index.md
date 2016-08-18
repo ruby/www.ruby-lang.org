@@ -365,7 +365,7 @@ the destructive one has a suffix `!`.
 
 ~~~
 def foo(str)
-    str = str.sub(/foo/, "baz")
+    str.sub(/foo/, "baz")
 end
 
 obj = "foo"
@@ -373,7 +373,7 @@ foo(obj)         # => "baz"
 obj              # => "foo"
 
 def foo(str)
-    str = str.sub!(/foo/, "baz")
+    str.sub!(/foo/, "baz")
 end
 
 foo(obj)         # => "baz"

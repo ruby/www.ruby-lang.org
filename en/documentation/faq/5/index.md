@@ -194,7 +194,7 @@ def combine(*args)
   for it in args
     queue = SizedQueue.new(1)
     th = Thread.start(it, queue) do |i,q|
-      self.send(it) do |x|
+      self.send(i) do |x|
         q.push x
       end
     end
@@ -223,6 +223,6 @@ def it2 ()
 end
 
 combine('it1','it2') do |x|
-  # x is (1, 4), then (2, 5), then (3, 6)
+  # x is [1, 4], then [2, 5], then [3, 6]
 end
 ~~~
