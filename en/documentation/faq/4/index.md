@@ -40,28 +40,29 @@ header: |
 ### Does assignment generate a new copy of an object?
 {: #assignment}
 
-All variables and constants reference (point at) some object. (The exception
-is uninitialized local variables, which reference nothing. These raise a
-`NameError` exception if used). When you assign to a variable, or initialize
-a constant, you set the object that the variable or constant references.
+All variables and constants reference (point at) some object. (With the
+exception of uninitialized local variables, which reference nothing.
+These raise a `NameError` exception if used). When you assign to a variable,
+or initialize a constant, you set the object that the variable or constant
+references.
 
 Assignment on its own therefore never creates a new copy of an object.
 
 There's a slightly deeper explanation in certain special cases. Instances of
 `Fixnum`, `NilClass`, `TrueClass`, and `FalseClass` are contained directly in
-variables or constants--there is no reference involved. A variable holding the
-number `42` or the constant `true`, actually holds the value, and not a
+variables or constants---there is no reference involved. A variable holding
+the number `42` or the constant `true` actually holds the value, and not a
 reference to it. Assignment therefore physically produces a copy of objects
 of these types. We discuss this more in
 [Immediate and Reference Objects](../9/#immediate).
 
 ### What is the scope of a local variable?
 
-A new scope for a local variable is introduced in the (1) toplevel (main),
+A new scope for a local variable is introduced in (1) the toplevel (main),
 (2) a class (or module) definition, or (3) a method definition.
 
 ~~~
-i  =  1       # (1)
+i = 1         # (1)
 class Demo
   i = 2       # (2)
   def meth
@@ -86,10 +87,10 @@ In method, i = 3
 contains is written as the class is defined).
 
 A block (`{ ... }` or `do ... end`) almost introduces a new scope ;-)
-Locals created within a block are not accessible outside the block. However,
-if a local within the block has the same name as an existing local variable
-in the caller's scope, then no new local is created, and you can subsequently
-access that variable outside the block.
+Local variables created within a block are not accessible outside the block.
+However, if a local variable within the block has the same name as an existing
+local variable in the caller's scope, then no new local variable is created,
+and you can subsequently access that variable outside the block.
 
 ~~~
 a = 0
@@ -101,13 +102,13 @@ a                # => 6
 # b is not defined here
 ~~~
 
-This becomes significant when you use threading--each thread receives its
+This becomes significant when you use threading---each thread receives its
 own copy of the variables local to the thread's block:
 
 ~~~
 threads = []
 
-for name in ['one', 'two' ] do
+for name in ['one', 'two'] do
   threads << Thread.new {
     localName = name
     a = 0
@@ -177,7 +178,7 @@ call. By the time it gets to the second `print` statement, though, it has seen
 an assignment, and so treats `a` as a variable.
 
 Note that the assignment does not have to be executed---Ruby just has to have
-seen it. This program does not raise an error.
+seen it. This program does not raise an error:
 
 ~~~
 a = 1 if false; a  # => nil
@@ -190,8 +191,8 @@ local variables that subsequently appear in loops.
 
 ### What is the scope of a constant?
 
-A constant defined in a class/module definition can be accessed directly
-within that class or module's definition.
+A constant defined in a class or module definition can be accessed directly
+within that class's or module's definition.
 
 You can directly access the constants in outer classes and modules from
 within nested classes and constants.
@@ -199,12 +200,13 @@ within nested classes and constants.
 You can also directly access constants in superclasses and included modules.
 
 Apart from these cases, you can access class and module constants using
-the `::` operator--`ModuleName::CONST1` or `ClassName::CONST2`.
+the `::` operator, `ModuleName::CONST1` or `ClassName::CONST2`.
 
 ### How are arguments passed?
 
 The actual argument is assigned to the formal argument when the method is
-invoked. (See [assignment](#assignment) for more on the semantics of assignment.)
+invoked.
+(See [assignment](#assignment) for more on the semantics of assignment.)
 
 ~~~
 def addOne(n)
@@ -216,7 +218,7 @@ a              # => 1
 ~~~
 
 As you are passing object references, it is possible that a method may modify
-the contents of a mutable object passed in to it.
+the contents of a mutable object passed into it.
 
 ~~~
 def downer(string)
@@ -274,13 +276,11 @@ foo(*a)
 
 You can prepend `*` to the last argument of
 
-~~~
-Left hand side of a multiple assignment.
-Right hand side of a multiple assignment.
-Definition of method formal arguments.
-Actual arguments in a method call.
-In when clause of case structure.
-~~~
+1. Left hand side of a multiple assignment.
+2. Right hand side of a multiple assignment.
+3. Definition of method formal arguments.
+4. Actual arguments in a method call.
+5. In `when` clause of `case` structure.
 
 For example:
 
@@ -296,13 +296,13 @@ x                # => [7, 8, 9]
 
 ### What does `&` prepended to an argument mean?
 
-If the last formal argument of a method is preceeded with an ampersand,
+If the last formal argument of a method is preceded with an ampersand (`&`),
 a block following the method call will be converted into a `Proc` object
 and assigned to the formal parameter.
 
-If the last actual argument in a method invocation is a `Proc` object, you can
-preceed its name with an ampersand to convert in into a block. The method may
-then use `yield` to call it.
+If the last actual argument in a method invocation is a `Proc` object,
+you can precede its name with an ampersand to convert in into a block.
+The method may then use `yield` to call it.
 
 ~~~
 square = proc { |i| i*i }
@@ -361,9 +361,9 @@ of the block:
 proc { |a, b| a <=> b }
 ~~~
 
-These parameters are actually local variables. If an existing local of the
-same name exists when the block executes, that variable will be modified by
-the call to the block. This may or may not be a good thing.
+These parameters are actually local variables. If an existing local variable
+of the same name exists when the block executes, that variable will be
+modified by the call to the block. This may or may not be a good thing.
 
 Typically, arguments are passed to a block using `yield` (or an iterator that
 calls `yield`), or by using the `Proc.call` method.
@@ -380,9 +380,9 @@ A                # => "abcd"
 Variables hold references to objects. The assignment `A = a = b = "abc"` puts
 a reference to the string `"abc"` into `A`, `a`, and `b`.
 
-When you called `b.concat("d")`, you invoked the concat method on that object,
+When you call `b.concat("d")`, you invoke the concat method on that object,
 changing it from `"abc"` to `"abcd"`. Because `a` and `A` also reference that
-same object, their apparent value changes too.
+same object, their apparent values change too.
 
 This is less of a problem in practice than it might appear.
 

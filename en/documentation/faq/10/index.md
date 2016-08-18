@@ -40,18 +40,20 @@ header: |
 ### How can I use Ruby interactively?
 {: #irb}
 
-You can try using `irb`. The following is paraphrased from Goto Kentaro
-(Gotoken), and originally appeared in ruby-talk:444.
+You can try using `irb`. The following is paraphrased from Kentaro Goto
+(Gotoken), and originally appeared in [ruby-talk:444].
 
-~~~
-Get the latest tarball of irb from the contrib directory (ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/) in the Ruby archive.
-Extract the irb directory tree.
-Add the location of the irb/ directory to the $RUBYLIB environment variable
-Make a symbolic link from $RUBYLIB/irb/irb.rb to a file called irb somewhere in your path.
-chmod +x $RUBYLIB/irb/irb.rb
-Possibly use rehash to tell your login shell about the new command.
-Type irb
-~~~
+1. Get the latest tarball of `irb` from the
+   [contrib directory](ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/)
+   in the Ruby archive.
+2. Extract the `irb` directory tree.
+3. Add the location of the `irb/` directory to the `$RUBYLIB`
+   environment variable.
+4. Make a symbolic link from `$RUBYLIB/irb/irb.rb` to a file called `irb`
+   somewhere in your path.
+5. `chmod +x $RUBYLIB/irb/irb.rb`
+6. Possibly use `rehash` to tell your login shell about the new command.
+7. Type `irb`.
 
 If the readline extension module works with your interpreter, it makes `irb`
 a lot more fun to use.
@@ -81,22 +83,22 @@ few interfaces to learn. In fact, C code used to extend Ruby often ends up
 looking surprisingly like Ruby code itself.
 
 First, get the Ruby source distribution and read `README.EXT`. This is a
-good document, not only if you're writing an extension library, but also
+good document, not only if you are writing an extension library, but also
 if you want to understand Ruby more deeply.
 
 Next, have a look at the source of the interpreter itself, and at the various
-supplied extensions in the `ext/` directory. You'll also find good examples
+supplied extensions in the `ext/` directory. You will also find good examples
 under `contrib/` on the Ruby ftp sites.
 
 ### Can I use Tcl/Tk interface in Ruby?
 
 There are two interfaces to Tcl/Tk included in the standard distribution.
 One is under `ext/tcltk/` and loaded with `require "tcltk"`. The syntax is
-very close to that Tcl, which is passed to Tcl interpreter.
+very close to that Tcl which is passed on to the Tcl interpreter.
 Unfortunately, the description for this library is written in Japanese.
 
 The other is under `ext/tk/` and loaded with `require "tk"`. Its syntax
-closer to the style of the Tk interface provided by the Perl and Python
+is closer to the style of the Tk interface provided by the Perl and Python
 interfaces.
 
 ### Tk won't work.
@@ -105,8 +107,8 @@ Your Tk version may be old, try a newer version.
 
 ### Can I use gtk+ or xforms interfaces in Ruby?
 
-You'll find ruby-gtk-x.xx.tar.gz and ruby-forms-x.x.tar.gz under `contrib/`
-in ftp sites.
+You will find `ruby-gtk-x.xx.tar.gz` and `ruby-forms-x.x.tar.gz`
+under `contrib/` in ftp sites.
 
 ### How can I do date arithmetic?
 

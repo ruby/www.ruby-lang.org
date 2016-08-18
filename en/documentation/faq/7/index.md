@@ -43,7 +43,7 @@ Ruby binds all messages to methods dynamically. It searches first for
 singleton methods in the receiver, then for methods defined in the receiver's
 own class, and finally for methods defined in the receiver's superclasses
 (including any modules which may have been mixed in). You can see the order
-of searching by displaying `Classname.ancestors`, which shows the ancestor
+of searching by displaying `ClassName.ancestors`, which shows the ancestor
 classes and modules of `ClassName`.
 
 If after searching the alternatives a matching method could not be found,
@@ -65,7 +65,7 @@ String.ancestors                # => [String, Indexed, Enumerable, Comparable, O
 ~~~
 
 This program does not return `"b\n"` as one expects, but returns `10`.
-When the method `[]` is searched for, it is found in class String, before
+When the method `[]` is searched for, it is found in class `String`, before
 searching `Indexed`. You should directly redefine `[]` in class `String`.
 
 ### Are `+`, `-`, `*`, ... operators?
@@ -82,7 +82,7 @@ end
 ~~~
 
 However, the following are built-in control structures, not methods,
-which cannot be overridden.
+which cannot be overridden:
 
 ~~~
 =, .., ..., !, not, ||, &&, and, or, ::
@@ -104,7 +104,7 @@ t.attribute = 1
 ~~~
 
 If operators such as `+` and `-` are defined, Ruby automatically handles
-the self assignment forms (`+=`, `-=` and so on).
+the self assignment forms (`+=`, `-=`, and so on).
 
 ### Where are `++` and `--` ?
 
@@ -130,23 +130,23 @@ Produces:
 Hello, World!
 ~~~
 
-However, they're actually method calls with the receiver omitted.
+However, they are actually method calls with the receiver omitted.
 In this case, Ruby assumes the receiver is self.
 
 So, `writeln` resembles a function but it's actually a method belonging to
 class `Object` and sent as a message to the hidden receiver self.
-Ruby is a pure object-oriented language..
+Ruby is a pure object-oriented language.
 
 Of course you can use such methods as if they were functions.
 
 ### So where do all these function-like methods come from?
 
 All classes in Ruby are derived from class `Object`. The definition of class
-`Object` mixes-in the methods defined in the `Kernel` module. These methods
+`Object` mixes in the methods defined in the `Kernel` module. These methods
 are therefore available within every object in the system.
 
-Even if you're writing a simple Ruby program without classes, you're actually
-working inside class `Object`.
+Even if you are writing a simple Ruby program without classes, you are
+actually working inside class `Object`.
 
 ### Can I access an object's instance variables?
 
@@ -224,8 +224,8 @@ prog.rb:7:in `test': private method `func' called for #<Test:0x401b4284> (NameEr
 ~~~
 
 Protected methods are also callable only from within their own class or
-its subclasses, but they can be called both as functions form and using
-a receiver. For example,
+its subclasses, but they can be called both in function form and using
+a receiver. For example:
 
 ~~~
 def <=>(other)
@@ -239,7 +239,7 @@ These features help you control access to your class's internals.
 
 ### How can I change the visibility of a method?
 
-You change the visibility of methods using `private`, `protected` and
+You change the visibility of methods using `private`, `protected`, and
 `public`. When used without parameters during a class definition, they affect
 the visibility of subsequent methods. When used with parameters, they change
 the visibility of the named methods.
@@ -305,8 +305,8 @@ and pass a suitable number of arguments.
 
 ### How can I call the a method of the same name two levels up?
 
-`super` invokes the same named method one level up. If you're overloading a
-method in a more distant ancestor, use `alias` to give it an new name before
+`super` invokes the same named method one level up. If you are overloading a
+method in a more distant ancestor, use `alias` to give it a new name before
 masking it with your method definition. You can then call it using that
 aliased name.
 
@@ -320,14 +320,14 @@ a singleton method of `Kernel`.
 {: #destructive-method}
 
 A destructive method is one which alters the state of an object. `String`,
-`Array`, and `Hash`, and others have such methods. Often there are two
+`Array`, `Hash`, and others have such methods. Often there are two
 versions of a method, one with a plain name, the other with the same, but
 followed by `!`. The plain version takes a copy of the receiver, makes its
 change to it, and returns the copy. The version with the `!` modifies the
 receiver in place.
 
 Beware, however, that there are a fair number of destructive methods that
-don't have an `!`, including assignment operators (`name=`), array assignment
+do not have an `!`, including assignment operators (`name=`), array assignment
 (`[]=`), and methods such as `Array.delete`.
 
 ### Why can destructive methods be dangerous?

@@ -42,7 +42,7 @@ header: |
 An iterator is a method which accepts a block or a `Proc` object. In the
 source file, the block is placed immediately after the invocation of the
 method. Iterators are used to produce user-defined control
-structures--especially loops.
+structures---especially loops.
 
 Let's look at an example to see how this works. Iterators are often used to
 repeat the same action on each element of a collection, like this:
@@ -62,11 +62,11 @@ Produces:
 3
 ~~~
 
-The each method of the array data is passed the `do...end` block, and executes
-it repeatedly. On each call, the block is passed successive elements of the
-array.
+The each method of the array `data` is passed the `do ... end` block,
+and executes it repeatedly. On each call, the block is passed successive
+elements of the array.
 
-You can define blocks with `{...}` in place of `do...end`.
+You can define blocks with `{ ... }` in place of `do ... end`.
 
 ~~~
 data = [1, 2, 3]
@@ -84,16 +84,16 @@ Produces:
 ~~~
 
 This code has the same meaning as the last example. However, in some cases,
-precedence issues cause `do...end` and `{...}` to act differently.
+precedence issues cause `do ... end` and `{ ... }` to act differently.
 
 ~~~
-foobar a, b do .. end # foobar is the iterator.
-foobar a, b { .. }    # b is the iterator.
+foobar a, b do ... end # foobar is the iterator.
+foobar a, b { ... }    # b is the iterator.
 ~~~
 
-This is because `{...}` binds more tightly to the preceding expression than
-does a `do` block. The first example is equivalent to `foobar(a, b) do...`,
-while the second is `foobar(a, b {...})`.
+This is because `{ ... }` binds more tightly to the preceding expression
+than does a `do ... end` block. The first example is equivalent to
+`foobar(a, b) do ... end`, while the second is `foobar(a, b { ... })`.
 
 ### How can I pass a block to an iterator?
 
@@ -126,7 +126,7 @@ Produces:
 
 If a method definition has a block argument (the last formal parameter has
 an ampersand (`&`) prepended), it will receive the attached block, converted
-to a `Proc` object. This may be called using `method.call(args...)`.
+to a `Proc` object. This may be called using `method.call(args)`.
 
 ~~~
 def myIterator(&b)
@@ -144,7 +144,7 @@ Produces:
 
 `Proc.new` (or the equivalent `proc` or `lambda` calls), when used in an
 iterator definition, takes the block which is given to the method as its
-argument, generates a procedure object from it.
+argument and generates a procedure object from it.
 (`proc` and `lambda` are effectively synonyms.)
 
 ~~~
@@ -168,7 +168,7 @@ Produces:
 ~~~
 
 Perhaps surprisingly, `Proc.new` and friends do not in any sense consume
-the block attached to the method--each call to `Proc.new` generates a new
+the block attached to the method---each call to `Proc.new` generates a new
 procedure object out of the same block.
 
 You can tell if there is a block associated with a method by calling

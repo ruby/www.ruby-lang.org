@@ -41,7 +41,7 @@ header: |
 
 Python and Ruby are both object oriented languages that provide a smooth
 transition from procedural to OO programming styles. Smalltalk, by contrast,
-is object only - you can't do anything until you understand objects,
+is object only---you can't do anything until you understand objects,
 inheritance and the sizable Smalltalk class hierarchy. By providing procedural
 training wheels, Python and Ruby “fix” one of the features that may have
 kept Smalltalk out of the mainstream. The two languages differ by approaching
@@ -59,7 +59,7 @@ functions, only method calls. In a Ruby method the receiver, also called
 a class definition, which is a function in Python, is actually a method call
 in Ruby. These ersatz functions become private methods of class Object, the
 root of the Ruby class hierarchy. Procedural programming is neatly solved from
-the other direction - everything is an object. If the user doesn't grok
+the other direction---everything is an object. If the user doesn't grok
 objects yet, they can just pretend that `def` is a function definition and
 still get useful work done.
 
@@ -95,7 +95,7 @@ difference in design philosophy between Python and Ruby/Perl.
 Ruby is much more complex than Python but its features, for the most part,
 hang together well. Ruby is well designed and full of neat ideas that might be
 mined for P3K. I'm not sure how many Python programmers will be attracted to
-it though - it hasn't won me over (yet). But it is worthy of serious study and
+it though---it hasn't won me over (yet). But it is worthy of serious study and
 could be a real threat to Perl.
 
 Posted by [John Dell'Aquila](mailto:jbd@alum.mit.edu) in comp.lang.python,

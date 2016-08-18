@@ -55,14 +55,14 @@ Ruby features:
 
 * Simple syntax,
 * Basic OO features (classes, methods, objects, and so on),
-* Special OO features (Mix-ins, singleton methods, renaming, ...),
+* Special OO features (mixins, singleton methods, renaming, ...),
 * Operator overloading,
 * Exception handling,
 * Iterators and closures,
 * Garbage collection,
 * Dynamic loading (depending on the architecture),
-* High transportability (runs on various Unices, Windows, DOS, OSX, OS/2,
-  Amiga, and so on)
+* High transportability (runs on various Unices, Windows, DOS, OS X, OS/2,
+  Amiga, and so on).
 
 ### Show me some Ruby code!
 
@@ -100,7 +100,7 @@ zoe:     7
 ~~~
 
 The code uses regular expressions to parse successive lines from the input
-file, creating a new `Person` object for each match and pushing it on to the
+file, creating a new `Person` object for each match and pushing it onto the
 end of the array `people`.
 
 ~~~
@@ -147,24 +147,24 @@ programming language newer (and hopefully better) than Perl.
 
 ### What is the history of Ruby?
 
-The following a summary of a posting made by Matz in [ruby-talk:00382] on
-June 4, 1999. (The birthday of Ruby is corrected in [ruby-list:15977]).
+The following is a summary of a posting made by Matz in [ruby-talk:00382] on
+June 4, 1999. (The birthday of Ruby has been corrected in [ruby-list:15977].)
 
-> Well, Ruby was born on February 24 1993. I was talking with my colleague
+> Well, Ruby was born on February 24, 1993. I was talking with my colleague
 > about the possibility of an object-oriented scripting language. I knew Perl
-> (Perl4, not Perl5), but I didn't like it really, because it had smell of toy
-> language (it still has). The object-oriented scripting language seemed very
-> promising.
+> (Perl4, not Perl5), but I didn't like it really, because it had the smell of
+> a toy language (it still has). The object-oriented scripting language seemed
+> very promising.
 
 > I knew Python then. But I didn't like it, because I didn't think it was a
-> true object-oriented language---OO features appeared to be add-on to the
+> true object-oriented language---OO features appeared to be an add-on to the
 > language. As a language manic and OO fan for 15 years, I really wanted a
 > genuine object-oriented, easy-to-use scripting language. I looked for, but
 > couldn't find one.
 
 > So, I decided to make it. It took several months to make the interpreter
-> run. I put it the features I love to have in my language, such as iterators,
-> exception handling, garbage collection.
+> run. I put into it the features I love to have in my language, such as
+> iterators, exception handling, garbage collection.
 
 > Then, I reorganized the features of Perl into a class library, and
 > implemented them. I posted Ruby 0.95 to the Japanese domestic newsgroups
@@ -196,19 +196,17 @@ comp.lang.ruby was established in May, 2000 (thanks to the efforts of
 There are five mailing lists now talking about Ruby. The first is in English,
 the last four in Japanese:
 
-~~~
-ruby-talk: English language discussion of Ruby.
-ruby-list: Japanese language discussion of Ruby.
-ruby-dev:  List for Ruby developers.
-ruby-ext:  List for people writing extensions for or with Ruby.
-ruby-math: Ruby in mathematics.
-~~~
+* `ruby-talk`: English language discussion of Ruby.
+* `ruby-list`: Japanese language discussion of Ruby.
+* `ruby-dev`:  List for Ruby developers.
+* `ruby-ext`:  List for people writing extensions for or with Ruby.
+* `ruby-math`: Ruby in mathematics.
 
 See [joining the mailing list](http://www.ruby-lang.org/en/ml.html).
 
 You can search the mailing list archives using
 [http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml](http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml).
-(This is the url for the ruby-talk list: munge as required for the others).
+(This is the URL for the ruby-talk list, munge as required for the others).
 
 ### How can I thread the mailing list in mutt?
 
@@ -233,24 +231,24 @@ Originally, or historically, it was called “ruby”.
 
 ### Are there any Ruby books?
 
-Programming Ruby: The Pragmatic Programmer's Guide, (the Pickaxe Book) by
-David Thomas and Andrew Hunt: ISBN 0-20171-089-7, Addison-Wesley,
-October 2000.
+* Programming Ruby: The Pragmatic Programmer's Guide,
+  (the Pickaxe Book) by David Thomas and Andrew Hunt: ISBN 0-20171-089-7,
+  Addison-Wesley, October 2000.
 
-A Japanese language Ruby reference book by matz, et al and published by ASCII
-is available in Japan (ISBN 4-7561-3254-5). An English translation,
-“The Ruby Programming Language”, is in the works from Addison-Wesley
-(ISBN 020171096X).
+* A Japanese language Ruby reference book by matz et al. and published by
+  ASCII is available in Japan (ISBN 4-7561-3254-5). An English translation,
+  “The Ruby Programming Language”, is in the works from Addison-Wesley
+  (ISBN 020171096X).
 
-A Japanese language “Ruby Pocket Reference” is published by O'Reilly Japan
-(ISBN 4-87311-023-8). Let O'Reilly in the US know if you'd like to see a
-translation.
+* A Japanese language “Ruby Pocket Reference” is published by O'Reilly Japan
+  (ISBN 4-87311-023-8). Let O'Reilly in the US know if you'd like to see a
+  translation.
 
-In addition, “Mastering Regular Expressions”, by Jeffrey Friedl, (the Hip
-Owl Book): ISBN 1-56592-257-3 from O'Reilly & Associates, is a reference work
-that covers the art and implementation of regular expressions in various
-programming languages. Most of it is highly relevant to Ruby regular
-expressions.
+* In addition, “Mastering Regular Expressions”, by Jeffrey Friedl,
+  (the Hip Owl Book): ISBN 1-56592-257-3 from O'Reilly & Associates,
+  is a reference work that covers the art and implementation of regular
+  expressions in various programming languages. Most of it is highly
+  relevant to Ruby regular expressions.
 
 ### Which editors provide support for Ruby?
 
@@ -258,7 +256,7 @@ expressions.
   or [XEmacs](http://www.xemacs.org/): `ruby-mode.el` is supplied in the Ruby
   distribution. With some versions of XEmacs, you may need to add
   `(load "font-lock")` to your `.emacs` file to allow `ruby-mode.el` to detect
-  the syntax highlighting package you're using.
+  the syntax highlighting package you are using.
 * [Vim](http://www.vim.org/): Vim 5.7 and later have Ruby syntax files as
   standard in the runtime package. For prior versions, a syntax file for Ruby
   is available at
@@ -279,7 +277,7 @@ expressions.
 People commonly annotate Ruby code by showing the results of executing each
 statement as a comment attached to that statement. For example, in the
 following code, we show that the assignment generates the string "Billy Bob",
-and then result of extracting some substrings.
+and then the result of extracting some substrings.
 
 ~~~
 str = "Billy" + " Bob"           # => "Billy Bob"
@@ -322,7 +320,7 @@ behind.
 If you have a problem, feel free to ask in the mailing list
 (see [ruby-talk mailing list](#mailing-lists)).
 Generally you'll get timely answers from matz himself, the
-author of the language, from other gurus, and from those who've solved
+author of the language, from other gurus, and from those who have solved
 problems similar to your own.
 
 Please include the output of `ruby -v` along with any problematic

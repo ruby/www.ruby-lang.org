@@ -41,22 +41,22 @@ header: |
 
 The method `instance_methods` returns an array containing the names of methods
 that the receiver responds to. This will include the methods in superclasses
-and in mixed-in modules.
+and in mixed in modules.
 
-`instance_methods(nil)` returns the name of just those methods which are
+`instance_methods(nil)` returns the names of just those methods which are
 defined in the object's class.
 
 ### How do random number seeds work?
 
 It depends. In Ruby versions prior to 1.5.2, the random number generator had
 (by default) a constant seed, and so would produce the same series of numbers
-each time a program was run. If you needed less deterministic behaviors, you
+each time a program was run. If you needed less deterministic behavior, you
 called `srand` to set up a less predictable seed.
 
-Newer Rubys (Rubies?) have a different behavior. If `rand` is called without
+Newer Rubies have a different behavior. If `rand` is called without
 a prior call to `srand`, Ruby will generate its own random(ish) seed.
 Successive runs of a program that does not use `srand` will generate
-different sequences of random numbers. To get the old, predictable, behavior
+different sequences of random numbers. To get the old, predictable behavior
 (perhaps for testing), call `srand` with a constant seed.
 
 ### What is the difference between an immediate value and a reference?
@@ -68,17 +68,17 @@ references to them.
 
 Singleton methods cannot be defined for such objects. Two `Fixnums` of the
 same value always represent the same object instance, so (for example)
-instance variables for the `Fixnum` with the value "one" are shared between
-all the "ones" is the system. This makes it impossible to define a singleton
+instance variables for the `Fixnum` with the value `1` are shared between
+all the `1`'s in the system. This makes it impossible to define a singleton
 method for just one of these.
 
 ### What is the difference between `nil` and `false`?
 
-First the similarity. `nil` and `false` are the only two values that evaluate
+First the similarity: `nil` and `false` are the only two objects that evaluate
 to `false` in a boolean context.
 
 However, they are instances of different classes (`NilClass` and
-`FalseClass`), and have different behaviors elsewhere.
+`FalseClass`), and have different behavior elsewhere.
 
 We recommend that predicate methods (those whose name ends with a question
 mark) return `true` or `false`. Other methods that need to indicate failure
@@ -91,10 +91,11 @@ open("example", "r+").readlines.each_with_index{|l, i|
   l[0,0] = (i+1).to_s + ": " }
 ~~~
 
-This program does not add line numbers to the file `example`. It does read the
-contents of the file, and for each line read prepend the line number, but the
-data is never written back. The code below does update the file (although
-somewhat dangerously, as it takes no backup before starting the update):
+This program does _not_ add line numbers to the file `example`. It does read
+the contents of the file, and for each line read does prepend the line number,
+but the data is never written back. The code below _does_ update the file
+(although somewhat dangerously, as it takes no backup before starting the
+update):
 
 ~~~
 io = open("example", "r+")
@@ -110,7 +111,7 @@ io.close
 Using the command-line option `-i`, or built-in variable `$-i`, you can read
 a file and replace it.
 
-The code in the preceding question, which added line numbers to file,
+The code in the preceding question, which added line numbers to a file,
 is probably best written using this technique:
 
 ~~~
@@ -212,7 +213,7 @@ There are at least four good ways of ensuring that you do close a file:
 (4)  IO.readlines("file").each {|l| print l}
 ~~~
 
-### How can I sort files by their modified time?
+### How can I sort files by their modification time?
 
 ~~~
 Dir.glob("*").sort{|a,b| File.mtime(b) <=> File.mtime(a)}
@@ -255,7 +256,7 @@ Q: An empty string (`""`) returns `true` in a conditional expression!
 In Perl, it's `false`.
 
 A: In Ruby, only `nil` and `false` are false in conditional contexts.
-This is a way of gaining speed--both `nil` and `false` have immediate values,
+This is a way of gaining speed: both `nil` and `false` have immediate values,
 so they can be tested without having to chase a reference to an object.
 
 You can use `empty?`, compare the string to `""`, or compare `length` to `0`
@@ -332,11 +333,11 @@ If `a` holds the string to be expanded, you could use one of:
   a.gsub!(/([^\t]{8})|([^\t]*)\t/n){[$+].pack("A8")}
 ~~~
 
-### How can I escape a backslash in a regexp?
+### How can I escape a backslash in a regular expression?
 
 `Regexp.quote('\\')` escapes a backslash.
 
-It gets trickier if you're using `sub` and `gsub`, Say you write
+It gets trickier if you are using `sub` and `gsub`. Say you write
 `gsub(/\\/, '\\\\')`, hoping to replace each backslash with two.
 The second argument is converted to `'\\'` in syntax analysis. When the
 substitution occurs, the regular expression engine converts this to `'\'`,
@@ -346,20 +347,21 @@ backslash. You need to write `gsub(/\\/, '\\\\\\')`!
 However, using the fact that `\&` contains the matched string, you could also
 write `gsub(/\\/, '\&\&')`.
 
-If you use the block form of `gsub`, i.e. `gsub(/\\/){'\\\\'}`, the string
+If you use the block form of `gsub`, i.e. `gsub(/\\/) { '\\\\' }`, the string
 for substitution is analyzed only once (during the syntax pass) and the
 result is what you intended.
 
 ### What is the difference between `sub` and `sub!`?
 
-In `sub`, a copy of the receiver is generated, substituted and returned.
+In `sub`, a copy of the receiver is generated, substituted, and returned.
 
 In `sub!`, the receiver is altered and returned if any match was found.
 Otherwise, `nil` is returned.
 
-Methods like `sub!` are called [destructive methods](../7/#destructive-method)
-which alter the attribute of the receiver. If there are two similar methods
-and one is destructive, the destructive one has a suffix `!`.
+Methods like `sub!`, which alter the attribute of the receiver,
+are called [destructive methods](../7/#destructive-method).
+If there are two similar methods and one is destructive,
+the destructive one has a suffix `!`.
 
 ~~~
 def foo(str)
@@ -380,8 +382,8 @@ obj              # => "baz"
 
 ### Where does `\Z` match?
 
-`\Z` matches just before the last `\n` if the string ends with a `\n`,
-otherwise it matches at the end of a string.
+`\Z` matches just before the last `\n` (newline) if the string ends
+with a `\n`, otherwise it matches at the end of a string.
 
 ### What is the difference between `..` and `...`?
 
@@ -399,13 +401,13 @@ can also get references to methods within a particular object instance using
 Ruby threads are implemented within the interpreter, while `fork` invokes the
 operating system to create a separately executing subprocess.
 
-Thread and fork have following characteristics:
+Thread and fork have the following characteristics:
 
 * `fork` is slow, `thread` is not.
 * `fork` does not share the memory space.
 * `thread` does not cause thrashing.
 * `thread` works on DOS.
-* when `thread` gets in a deadlock, the whole process stops.
+* When `thread` gets in a deadlock, the whole process stops.
 * `fork` can take advantage of pauses waiting for I/O to complete,
   `thread` does not (at least not without some help).
 
@@ -444,11 +446,11 @@ Ruby supports a flexible exception handling scheme:
 
 ~~~
 begin
-  statements which may raise exceptions.
+  statements which may raise exceptions
 rescue [exception class names]
-  statements when an exception occurred.
+  statements when an exception occurred
 rescue [exception class names]
-  statements when an exception occurred.
+  statements when an exception occurred
 ensure
   statements that will always run
 end
@@ -458,7 +460,7 @@ If an exception occurs in the `begin` clause, the `rescue` clause with the
 matching exception name is executed. The `ensure` clause is executed whether
 an exception occurred or not. `rescue` and `ensure` clauses may be omitted.
 
-If no exception class is designated for `rescue` clause, `StandardError`
+If no exception class is designated for a `rescue` clause, `StandardError`
 exception is implied, and exceptions which are in a `is_a?` relation to
 `StandardError` are captured.
 
@@ -472,5 +474,5 @@ type can be determined using `$!.type`).
 `trap` associates code blocks with external events (signals).
 
 ~~~
-trap("PIPE") {raise "SIGPIPE"}
+trap("PIPE") { raise "SIGPIPE" }
 ~~~

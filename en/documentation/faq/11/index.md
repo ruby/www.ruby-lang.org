@@ -39,11 +39,11 @@ header: |
 
 ### What does `a ? b : c` mean?
 
-It's the same as saying `if a then b else c` end.
+It's the same as saying `if a then b else c end`.
 
 ### How can I count the number of lines in a file?
 
-Assuming that the file ends in a linefeed, the following code may give the
+Assuming that the file ends in a newline, the following code may give the
 fastest result.
 
 ~~~
@@ -58,9 +58,9 @@ matched data (`$0`) in the original string. See an example in
 
 ### How can I sum the elements in an array?
 
-Rather than solve the specific problem, let's solve the general case. The
-first thing we'll do is produce a method that will iterate over an
-`Enumerable` object and collect a single result. Smalltalk calls that
+Rather than solve the specific problem, let's solve the general case.
+The first thing we will do is produce a method that will iterate over
+an `Enumerable` object and collect a single result. Smalltalk calls that
 method inject, so we will too:
 
 ~~~
@@ -76,7 +76,7 @@ module Enumerable
 end
 ~~~
 
-Notice how we've added the method to `Enumerable`. This means that anything
+Notice how we have added the method to `Enumerable`. This means that anything
 that includes Enumerable can now use `inject`. But how do we use it? It takes
 a single argument `n` and a block. For each element in the thing being
 enumerated, it calls the block, passing in `n` and the element itself.
@@ -86,7 +86,7 @@ we could write:
 ~~~
 module Enumerable
   def sum
-    inject(0) {|n, i|  n + i }
+    inject(0) {|n, i| n + i }
   end
 end
 

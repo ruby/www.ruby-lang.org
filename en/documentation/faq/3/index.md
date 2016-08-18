@@ -40,18 +40,18 @@ header: |
 ### What operating systems support Ruby?
 
 Ruby is developed under Linux, and is written in fairly straightforward C.
-It runs under UNIX, DOS, Windows 95/98/NT/2000, Mac OSX, BeOS, Amiga,
+It runs under UNIX, DOS, Windows 95/98/NT/2000, Mac OS X, BeOS, Amiga,
 Acorn Risc OS, and OS/2.
 
 August 2002:
 
-MacOSX 10.2 now comes with ruby installed by default.
-(ruby 1.6.7 (2002-03-01) [powerpc-darwin6.0])
+Mac OS X 10.2 now comes with Ruby installed by default
+(Ruby 1.6.7 (2002-03-01) [powerpc-darwin6.0]).
 See http://developer.apple.com/technotes/tn2002/tn2053.html.
 
-H Morita notes:
+H. Morita notes:
 
-> There's a MacOS (not X) port of Ruby, by Hisakuni FUJIMOTO at
+> There's a Mac OS (not X) port of Ruby, by Hisakuni FUJIMOTO at
 > [http://www.imasy.or.jp/~hisa/ruby/macruby.html](http://www.imasy.or.jp/~hisa/ruby/macruby.html).
 > However it's based on Ruby 1.1b7, and hasn't been updated since
 > December 1999. It's highly experimental. It may crash and sometimes freeze
@@ -65,7 +65,7 @@ However, that link seems broken: can anyone give us something that works?
 ### Where can I get Ruby sources?
 
 The latest version of Ruby can be downloaded from:
-[http://www.ruby-lang.org/en/download.html](http://www.ruby-lang.org/en/download.html)
+[http://www.ruby-lang.org/en/download.html](http://www.ruby-lang.org/en/download.html).
 Mirror sites are also listed on this page.
 
 Also on this page is a link to a nightly snapshot of the development tree.
@@ -92,7 +92,7 @@ environment. You don't need the `autoconf` command on your box to build Ruby
 from a distribution; just use the commands:
 
 ~~~
-% ./configure  [configure options]
+% ./configure [configure options]
 % make
 % make test
 % make install
@@ -153,7 +153,7 @@ He recommends installing the GNU equivalent.
 ### Are precompiled binaries available?
 
 A single download that contains everything you need to run Ruby under various
-Windows operating systems. is available from
+Windows operating systems is available from
 [RubyCentral's One-click Windows installer](http://www.rubycentral.com/downloads/ruby-install.html).
 This installation uses cygwin, and includes Tk support.
 
@@ -178,7 +178,7 @@ available from the same page.
 Ruby is written to take advantage of the rich feature set of a Unix
 environment. Unfortunately, Windows is missing some of the functions, and
 implements others differently. As a result, some kind of mapping layer is
-needed to run Ruby (and other Unix-based programs) under windows.
+needed to run Ruby (and other Unix-based programs) under Windows.
 
 You may come across different versions of the Ruby executable that use
 different wrapper mapping layers.
@@ -189,9 +189,9 @@ It uses the DJ Delorie tools
 
 The rbcw version is a Windows binary of Ruby that requires the cygwin library,
 available at [http://www.cygwin.com](http://www.cygwin.com) or from the
-Ruby download pages. Cygwin is a both an emulation layer and a set of
+Ruby download pages. Cygwin is both an emulation layer and a set of
 utilities initially produced by Cygnus Solutions (now part of Redhat).
-The Cygwin version of Ruby probably has the fullest set of features under
+The cygwin version of Ruby probably has the fullest set of features under
 Windows, so most programmers will want to use it.
 
 To use the rbcw version, you will need to install the cygwin .dll separately.
@@ -199,7 +199,7 @@ Once you have installed cygwin on your computer, copy `cygwin1.dll` (which
 is found in the `bin` subdirectory of the cygwin distribution) to your
 `Windows\System32` folder (or somewhere else on your path).
 
-Thanks to Anders Schneiderman for the basis of this description
+Thanks to Anders Schneiderman for the basis of this description.
 
 ### Why doesn't Tk graphics work under Windows?
 

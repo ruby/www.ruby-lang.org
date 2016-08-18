@@ -44,8 +44,9 @@ definition. If a method is redefined, the former one is overridden and lost.
 
 ### Are there class variables?
 
-As of Ruby 1.5.3, there are. A variable prefixed with two at signs is a class
-variable, accessible within both instance and class methods of the class.
+As of Ruby 1.5.3, there are. A variable prefixed with two at signs (`@`)
+is a class variable, accessible within both instance and class methods
+of the class.
 
 ~~~
 class CountEm
@@ -94,7 +95,7 @@ class Foo.
 class Foo
   @a = 123   # (1)
   def foo
-    p @a     # (2) ... nil not 123
+    p @a     # (2) ... nil, not 123
   end
 end
 ~~~
@@ -102,7 +103,7 @@ end
 (1) is a class instance variable, and (2) is an ordinary instance variable
 (which, not having been initialized, has a value of `nil`). (2) belongs to an
 instance of class `Foo`, and (1) belongs to the class object `Foo`, which is
-an instance of `Class` class. (phew!)
+an instance of class `Class`. (phew!)
 
 There is no way to access class instance variables from instance methods.
 
@@ -165,13 +166,13 @@ Foo.test         # => "this is foo"
 In this example, `Foo.test` is a class method.
 
 Methods which are defined in class `Class` can be used as class methods for
-every class(!)
+every(!) class.
 
 ### What is a singleton class?
 
-A Singleton class is an anonymous class that is created by subclassing the
-class associated with a particular object. They are another way of extending
-the functionality associated with just one object.
+A singleton class is an anonymous class that is created by subclassing the
+class associated with a particular object. Singleton classes are another
+way of extending the functionality associated with just one object.
 
 Take the lowly `Foo`:
 
@@ -239,7 +240,7 @@ Modules are collections of methods and constants. They cannot generate
 instances. Classes may generate instances (objects), and have per-instance
 state (instance variables).
 
-Modules may be mixed in to classes and other modules. The mixed-in module's
+Modules may be mixed in to classes and other modules. The mixed in module's
 constants and methods blend into that class's own, augmenting the class's
 functionality. Classes, however, cannot be mixed in to anything.
 
@@ -255,10 +256,10 @@ multiple inheritance (the mixin facility).
 This does not generate a subclass (which would require inheritance), but does
 generate an `is_a?` relationship between the class and the module.
 
-### Give me an example of a mix-in
+### Give me an example of a mixin
 
 The module `Comparable` provides a variety of comparison operators
-(`<`, `<=`, `>`, `between?` and so on). It defines these in terms of calls
+(`<`, `<=`, `>`, `between?`, and so on). It defines these in terms of calls
 to the general comparison method, `<=>`. However, it does not itself define
 `<=>`.
 
@@ -288,15 +289,15 @@ p.between?(s, c)  # => true
 ~~~
 
 All `MyClass` must do is define its own semantics for the operator `<=>`,
-and mix-in the `Comparable` module. `Comparable`'s methods now become
+and mix in the `Comparable` module. `Comparable`'s methods now become
 indistinguishable from `MyClass`'s and your class suddenly sprouts new
-functionality. And because the same `Comparable` module is used my many
-classes, your new class will share a consistent and well understood semantic.
+functionality. And because the same `Comparable` module is used by many
+classes, your new class will share a consistent and well understood semantics.
 
 ### Why are there two ways of defining class methods?
 
 You can define a class method in the class definition, and you can define
-a class method at the top level?
+a class method at the top level.
 
 ~~~
 class Demo
@@ -324,14 +325,14 @@ that a feature is never loaded more than once.
 ### What is the difference between `include` and `extend`?
 
 `include` mixes a module into a class or another module. Methods from that
-the module are called function-style (without a receiver).
+module are called function-style (without a receiver).
 
 `extend` is used to include a module in an object (instance).
 Methods in the module become methods in the object.
 
 ### What does `self` mean?
 
-`self` is the currently executing receiver--the object to which a method
+`self` is the currently executing receiver, the object to which a method
 is applied. A function-style method call implies `self` as the receiver.
 
 ### Why can't I load variables from a separate file?

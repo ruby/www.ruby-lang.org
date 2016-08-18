@@ -47,7 +47,7 @@ doesn't already exist.
 The routines `catch`, `throw`, `autoload`, and so on, require a string or a
 symbol as an argument.
 
-`method_missing`, `method_added` and `singleton_method_added` (and others)
+`method_missing`, `method_added`, `singleton_method_added`, and others,
 require a symbol.
 
 The fact that a symbol springs into existence the first time it is referenced
@@ -97,7 +97,7 @@ local variables.
 ### Ruby doesn't have a post-test loop
 
 Q: Ruby does not have a `do { ... } while` construct, so how can I implement
-loops that test the condition at the end.
+loops that test the condition at the end?
 
 Clemens Hintze says: You can use a combination of Ruby's `begin ... end`
 and the `while` or `until` statement modifiers to achieve the same effect:
@@ -157,16 +157,16 @@ Invoke it as `self.pos = 1`.
 
 ### What is the difference between `'\1'` and `'\\1'`?
 
-They have the same meaning. In a single quote string, only `\'` and `\\`
+They have the same meaning. In a single quoted string, only `\'` and `\\`
 are transformed and other combinations remain unchanged.
 
-However, in a doubled quoted string, `"\1"` is the byte `\001`, while `"\\1"`
+However, in a double quoted string, `"\1"` is the byte `\001`, while `"\\1"`
 is the two character string containing a backslash and the character `"1"`.
 
 ### What is the difference between `or` and `||`?
 
 Q: `p(nil || "Hello")` prints `"Hello"`, while `p(nil or "Hello")` gives a
-parse error.
+parse error. Why?
 
 A: `||` combines terms within an expression. Because the first term in this
 case is `nil`, the second term is evaluated.
