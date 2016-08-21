@@ -62,25 +62,25 @@ A new scope for a local variable is introduced in (1) the toplevel (main),
 (2) a class (or module) definition, or (3) a method definition.
 
 ~~~
-i = 1         # (1)
+var = 1         # (1)
 class Demo
-  i = 2       # (2)
-  def meth
-    i = 3     # (3)
-    print "In method, i = ", i, "\n"
+  var = 2       # (2)
+  def method
+    var = 3     # (3)
+    puts "in method: var = #{var}"
   end
-  print "In class, i = ", i, "\n"
+  puts "in class: var = #{var}"
 end
-print "At top level, i = ", i, "\n"
-Demo.new.meth
+puts "at top level: var = #{var}"
+Demo.new.method
 ~~~
 
 Produces:
 
 ~~~
-In class, i = 2
-At top level, i = 1
-In method, i = 3
+in class: var = 2
+at top level: var = 1
+in method: var = 3
 ~~~
 
 (Note that the class definition is executable code: the trace message it
@@ -98,7 +98,7 @@ a = 0
   a += i
   b = i*i
 end
-a                # => 6
+a  # => 6
 # b is not defined here
 ~~~
 
@@ -108,16 +108,16 @@ own copy of the variables local to the thread's block:
 ~~~
 threads = []
 
-for name in ['one', 'two'] do
-  threads << Thread.new {
-    localName = name
+["one", "two"].each do |name|
+  threads << Thread.new do
+    local_name = name
     a = 0
     3.times do |i|
       Thread.pass
       a += i
-      print localName, ": ", a, "\n"
+      puts "#{local_name}: #{a}"
     end
-  }
+  end
 end
 
 threads.each {|t| t.join }
@@ -148,20 +148,21 @@ parameters. To decide which is the case, Ruby looks for assignment statements.
 If at some point in the source prior to the use of `a` it sees it being
 assigned to, it decides to parse `a` as a variable, otherwise it treats it
 as a method. As a somewhat pathological case of this, consider this code
-fragment, submitted by Clemens Hintze:
+fragment, originally submitted by Clemens Hintze:
 
 ~~~
 def a
-  print "Function 'a' called\n"
+  puts "method `a' called"
+
   99
 end
 
-for i in 1..2
+[1, 2].each do |i|
   if i == 2
-    print "a=", a, "\n"
+    puts "a = #{a}"
   else
     a = 1
-    print "a=", a, "\n"
+    puts "a = #{a}"
   end
 end
 ~~~
@@ -169,14 +170,14 @@ end
 Produces:
 
 ~~~
-a=1
-Function 'a' called
-a=99
+a = 1
+method `a' called
+a = 99
 ~~~
 
-During the parse, Ruby sees the use of `a` in the first `print` statement
+During the parse, Ruby sees the use of `a` in the first `puts` statement
 and, as it hasn't yet seen any assignment to `a`, assumes that it is a method
-call. By the time it gets to the second `print` statement, though, it has seen
+call. By the time it gets to the second `puts` statement, though, it has seen
 an assignment, and so treats `a` as a variable.
 
 Note that the assignment does not have to be executed---Ruby just has to have
@@ -211,12 +212,13 @@ invoked.
 (See [assignment](#assignment) for more on the semantics of assignment.)
 
 ~~~
-def addOne(n)
-  n += 1
+def add_one(number)
+  number += 1
 end
+
 a = 1
-addOne(a)      # => 2
-a              # => 1
+add_one(a)  # => 2
+a           # => 1
 ~~~
 
 As you are passing object references, it is possible that a method may modify
@@ -226,9 +228,10 @@ the contents of a mutable object passed into it.
 def downer(string)
   string.downcase!
 end
-a = "HELLO"    # => "HELLO"
-downer(a)      # => "hello"
-a              # => "hello"
+
+a = "HELLO"  # => "HELLO"
+downer(a)    # => "hello"
+a            # => "hello"
 ~~~
 
 There is no equivalent of other language's pass-by-reference semantics.
@@ -254,18 +257,20 @@ array, and assigning that array to the starred parameter.
 
 ~~~
 def foo(prefix, *all)
-  for e in all
-    print prefix, e, " "
+  all.each do |element|
+    puts "#{prefix}#{element}"
   end
 end
 
-foo("val=", 1, 2, 3)
+foo("val = ", 1, 2, 3)
 ~~~
 
 Produces:
 
 ~~~
-val=1 val=2 val=3
+val = 1
+val = 2
+val = 3
 ~~~
 
 When used in a method call, `*` expands an array, passing its individual
@@ -288,12 +293,12 @@ For example:
 
 ~~~
 x, *y = [7, 8, 9]
-x                # => 7
-y                # => [8, 9]
+x                  # => 7
+y                  # => [8, 9]
 x,    = [7, 8, 9]
-x                # => 7
+x                  # => 7
 x     = [7, 8, 9]
-x                # => [7, 8, 9]
+x                  # => [7, 8, 9]
 ~~~
 
 ### What does `&` prepended to an argument mean?
@@ -307,19 +312,19 @@ you can precede its name with an ampersand to convert in into a block.
 The method may then use `yield` to call it.
 
 ~~~
-square = proc { |i| i*i }
-
 def meth1(&b)
-  print b.call(9), "\n"
+  puts b.call(9)
 end
 
-meth1 { |i| i+i }
+meth1 {|i| i + i }
 
 def meth2
-  print yield(8), "\n"
+  puts yield(8)
 end
 
-meth2 { |i| i+i }
+square = proc {|i| i * i }
+
+meth2 {|i| i + i }
 meth2 &square
 ~~~
 
@@ -334,13 +339,13 @@ Produces:
 ### How can I specify a default value for a formal argument?
 
 ~~~
-def greet(p1='hello', p2='world')
-  print "#{p1} #{p2}\n"
+def greet(p1="hello", p2="world")
+  puts "#{p1} #{p2}"
 end
 
 greet
-greet "hi"
-greet "morning", "mom"
+greet("hi")
+greet("morning", "mom")
 ~~~
 
 Produces:
@@ -360,7 +365,7 @@ The formal parameters of a block appear between vertical bars at the start
 of the block:
 
 ~~~
-proc { |a, b| a <=> b }
+proc {|a, b| a <=> b }
 ~~~
 
 These parameters are actually local variables. If an existing local variable
@@ -374,9 +379,9 @@ calls `yield`), or by using the `Proc.call` method.
 
 ~~~
 A = a = b = "abc"
-b.concat("d")    # => "abcd"
-a                # => "abcd"
-A                # => "abcd"
+b.concat("d")  # => "abcd"
+a              # => "abcd"
+A              # => "abcd"
 ~~~
 
 Variables hold references to objects. The assignment `A = a = b = "abc"` puts

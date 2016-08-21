@@ -67,9 +67,9 @@ To get the value of the variable corresponding to a symbol, you can use
 variable's contents. In the scope of "symbol", do `eval(:symbol.id2name)`.
 
 ~~~
-a = 'This is the content of "a"'
+a = "This is the content of `a'"
 b = eval(:a.id2name)
-a.id == b.id  # b now references the same object as a
+a.object_id == b.object_id  # => true (b now references the same object as a)
 ~~~
 
 If your symbol corresponds to the name of a method, you can use the
@@ -78,14 +78,14 @@ you may then call.
 
 ~~~
 class Demo
-  def meth
+  def hello
     "Hello, world"
   end
 end
 
-d = Demo.new         # => #<Demo:0x401b4400>
-m = d.method(:meth)  # => #<Method: Demo(Demo)#meth>
-m.call               # => "Hello, world"
+demo = Demo.new
+m = demo.method(:hello)  # => #<Method: Demo#hello>
+m.call                   # => "Hello, world"
 ~~~
 
 ### Is `loop` a control structure?
@@ -146,7 +146,7 @@ I have the following code, but I cannot use the method `pos = 1`.
 
 ~~~
 def pos=(val)
-  print @pos, "\n"
+  puts @pos
   @pos = val
 end
 ~~~

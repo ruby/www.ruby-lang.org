@@ -72,31 +72,33 @@ code by creating a few people and examining them.
 ~~~
 class Person
   attr_accessor :name, :age
+
   def initialize(name, age)
     @name = name
     @age  = age.to_i
   end
+
   def inspect
-    "#@name (#@age)"
+    "#{name} (#{age})"
   end
 end
 
-p1 = Person.new('elmo', 4)
-p2 = Person.new('zoe', 7)
+p1 = Person.new("Elmo", 4)
+p2 = Person.new("Zoe", 7)
 
-p1               # => elmo (4)
-p2               # => zoe (7)
+p1  # => Elmo (4)
+p2  # => Zoe (7)
 ~~~
 
 Now let's populate an array of people by reading their names and ages from a
-file containing lines like:
+file `ages` containing lines like:
 
 ~~~
-bert:    8
-cookie: 11
-elmo:    4
-ernie:   8
-zoe:     7
+Bert:    8
+Cookie: 11
+Elmo:    4
+Ernie:   8
+Zoe:     7
 ~~~
 
 The code uses regular expressions to parse successive lines from the input
@@ -106,11 +108,11 @@ end of the array `people`.
 ~~~
 people = Array.new
 
-File.foreach("ages") { |l|
-  people << Person.new($1, $2) if l =~ /(.*):\s+(\d+)/
-}
+File.foreach("ages") do |line|
+  people << Person.new($1, $2) if line =~ /(.*):\s+(\d+)/
+end
 
-people           # => [bert (8), cookie (11), elmo (4), ernie (8), zoe (7)]
+people  # => [Bert (8), Cookie (11), Elmo (4), Ernie (8), Zoe (7)]
 ~~~
 
 Now, let's sort the result based on the person's age. There are many ways to
@@ -118,8 +120,8 @@ do this. We can define a sort block, which tells Ruby how to do the comparison
 of two people:
 
 ~~~
-sorted = people.sort do |a,b| a.age <=> b.age end
-sorted           # => [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+sorted = people.sort {|a, b| a.age <=> b.age }
+sorted  # => [Elmo (4), Zoe (7), Bert (8), Ernie (8), Cookie (11)]
 ~~~
 
 Another way would be to change the comparison method for class `Person`:
@@ -127,10 +129,10 @@ Another way would be to change the comparison method for class `Person`:
 ~~~
 class Person
   def <=>(other)
-    @age <=> other.age
+    age <=> other.age
   end
 end
-people.sort      # => [elmo (4), zoe (7), bert (8), ernie (8), cookie (11)]
+people.sort  # => [Elmo (4), Zoe (7), Bert (8), Ernie (8), Cookie (11)]
 ~~~
 
 ### Why the name “Ruby”?

@@ -51,14 +51,17 @@ of the class.
 ~~~
 class CountEm
   @@children = 0
+
   def initialize
     @@children += 1
-    @myNumber = @@children
+    @my_number = @@children
   end
-  def whoAmI
-   "I'm child number #@myNumber (out of #@@children)"
+
+  def who_am_i
+   "I'm child number #{@my_number} (out of #{@@children})"
   end
-  def CountEm.totalChildren
+
+  def self.total_children
     @@children
   end
 end
@@ -66,9 +69,9 @@ end
 c1 = CountEm.new
 c2 = CountEm.new
 c3 = CountEm.new
-c1.whoAmI              # => "I'm child number 1 (out of 3)"
-c3.whoAmI              # => "I'm child number 3 (out of 3)"
-CountEm.totalChildren  # => 3
+c1.who_am_i             # => "I'm child number 1 (out of 3)"
+c3.who_am_i             # => "I'm child number 3 (out of 3)"
+CountEm.total_children  # => 3
 ~~~
 
 Earlier versions of Ruby do not have class variables. However, container
@@ -78,7 +81,8 @@ better.
 
 ~~~
 class Foo
-  F = [ 0 ]          # pseudo class variable - Array 'F'
+  F = [0]      # pseudo class variable - Array `F'
+
   def foo
     F[0] += 1
     puts F[0]
@@ -93,9 +97,10 @@ class Foo.
 
 ~~~
 class Foo
-  @a = 123   # (1)
+  @a = 123  # (1)
+
   def foo
-    p @a     # (2) ... nil, not 123
+    p @a    # (2) ... nil, not 123
   end
 end
 ~~~
@@ -115,14 +120,15 @@ A singleton method is an instance method associated with one specific object.
 You create a singleton method by including the object in the definition:
 
 ~~~
-class Foo
-end
+class Foo; end
 
 foo = Foo.new
 bar = Foo.new
+
 def foo.hello
   puts "Hello"
 end
+
 foo.hello
 bar.hello
 ~~~
@@ -131,7 +137,7 @@ Produces:
 
 ~~~
 Hello
-prog.rb:10: undefined method `hello' for #<Foo:0x401b45f4> (NameError)
+prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NoMethodError)
 ~~~
 
 Singleton methods are useful when you want to add a method to an object and
@@ -153,14 +159,14 @@ Let's create a singleton method of class `Foo`:
 
 ~~~
 class Foo
-  def Foo.test
+  def self.test
     "this is foo"
   end
 end
 
 # It is invoked this way.
 
-Foo.test         # => "this is foo"
+Foo.test  # => "this is foo"
 ~~~
 
 In this example, `Foo.test` is a class method.
@@ -184,7 +190,7 @@ class Foo
 end
 
 foo = Foo.new
-foo.hello        # => "hello"
+foo.hello  # => "hello"
 ~~~
 
 Now let's say we need to add class-level functionality to just this one
@@ -192,14 +198,15 @@ instance:
 
 ~~~
 class << foo
-  attr :name, TRUE
+  attr_accessor :name
+
   def hello
-    "hello. I'm " +  @name + "\n"
+    "hello, I'm #{name}"
   end
 end
 
 foo.name = "Tom"
-foo.hello        # => "hello. I'm Tom\n"
+foo.hello  # => "hello, I'm Tom"
 ~~~
 
 We've customized `foo` without changing the characteristics of `Foo`.
@@ -211,7 +218,7 @@ In effect, it is similar to a [class method](#class-method),
 in that it can be called using the `Module.method` notation:
 
 ~~~
-Math.sqrt(2)     # => 1.414213562
+Math.sqrt(2)  # => 1.414213562
 ~~~
 
 However, because modules can be mixed in to classes, module functions can
@@ -220,7 +227,7 @@ made available to objects):
 
 ~~~
 include Math
-sqrt(2)          # => 1.414213562
+sqrt(2)  # => 1.414213562
 ~~~
 
 Use `module_function` to make a method a module function.
@@ -267,33 +274,38 @@ Say you want to create a class where comparisons are based on the number of
 legs an animal has:
 
 ~~~
-class MyClass
+class Animal
   include Comparable
-  attr :legs
+
+  attr_reader :legs
+
   def initialize(name, legs)
-   @name, @legs = name, legs
+    @name, @legs = name, legs
   end
+
   def <=>(o)
-    return @legs <=> o.legs
+    legs <=> o.legs
   end
+
   def inspect
     @name
   end
 end
-c = MyClass.new('cat', 4)
-s = MyClass.new('snake', 0)
-p = MyClass.new('parrot', 2)
 
-c < s          # => false
-s < c          # => true
-p >= s         # => true
+c = Animal.new("cat", 4)
+s = Animal.new("snake", 0)
+p = Animal.new("parrot", 2)
+
+c < s             # => false
+s < c             # => true
+p >= s            # => true
 p.between?(s, c)  # => true
 [p, s, c].sort    # => [snake, parrot, cat]
 ~~~
 
-All `MyClass` must do is define its own semantics for the operator `<=>`,
+All `Animal` must do is define its own semantics for the operator `<=>`,
 and mix in the `Comparable` module. `Comparable`'s methods now become
-indistinguishable from `MyClass`'s and your class suddenly sprouts new
+indistinguishable from `Animal`'s and your class suddenly sprouts new
 functionality. And because the same `Comparable` module is used by many
 classes, your new class will share a consistent and well understood semantics.
 
@@ -304,11 +316,11 @@ a class method at the top level.
 
 ~~~
 class Demo
-  def Demo.classMethod
+  def self.class_method
   end
 end
 
-def Demo.anotherClassMethod
+def Demo.another_class_method
 end
 ~~~
 
@@ -349,14 +361,14 @@ var1 = 99
 and some other file loads it in:
 
 ~~~
-require 'file1'
+require_relative "file1"
 puts var1
 ~~~
 
 Produces:
 
 ~~~
-prog.rb:2: undefined local variable or method `var1' for #<Object:0x401c1ce0> (NameError)
+prog.rb:2:in `<main>': undefined local variable or method `var1' for main:Object (NameError)
 ~~~
 
 You get an error because `load` and `require` arrange for local variables to

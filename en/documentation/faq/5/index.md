@@ -50,7 +50,7 @@ repeat the same action on each element of a collection, like this:
 ~~~
 data = [1, 2, 3]
 data.each do |i|
-  print i, "\n"
+  puts i
 end
 ~~~
 
@@ -71,7 +71,7 @@ You can define blocks with `{ ... }` in place of `do ... end`.
 ~~~
 data = [1, 2, 3]
 data.each { |i|
-  print i, "\n"
+  puts i
 }
 ~~~
 
@@ -87,8 +87,8 @@ This code has the same meaning as the last example. However, in some cases,
 precedence issues cause `do ... end` and `{ ... }` to act differently.
 
 ~~~
-foobar a, b do ... end # foobar is the iterator.
-foobar a, b { ... }    # b is the iterator.
+foobar a, b do ... end  # foobar is the iterator.
+foobar a, b { ... }     # b is the iterator.
 ~~~
 
 This is because `{ ... }` binds more tightly to the preceding expression
@@ -111,10 +111,11 @@ The `yield` statement calls the block, optionally passing it one or more
 arguments.
 
 ~~~
-def myIterator
-  yield 1,2
+def my_iterator
+  yield 1, 2
 end
-myIterator { |a,b| puts a, b }
+
+my_iterator {|a, b| puts a, b }
 ~~~
 
 Produces:
@@ -129,17 +130,18 @@ an ampersand (`&`) prepended), it will receive the attached block, converted
 to a `Proc` object. This may be called using `method.call(args)`.
 
 ~~~
-def myIterator(&b)
-  b.call(2,3)
+def my_iterator(&b)
+  b.call(1, 2)
 end
-myIterator { |a,b| puts a, b }
+
+my_iterator {|a, b| puts a, b }
 ~~~
 
 Produces:
 
 ~~~
+1
 2
-3
 ~~~
 
 `Proc.new` (or the equivalent `proc` or `lambda` calls), when used in an
@@ -148,12 +150,13 @@ argument and generates a procedure object from it.
 (`proc` and `lambda` are effectively synonyms.)
 
 ~~~
-def myIterator
-  Proc.new.call(3,4)
-  proc.call(4,5)
-  lambda.call(5,6)
+def my_iterator
+  Proc.new.call(3, 4)
+  proc.call(5, 6)
+  lambda.call(7, 8)
 end
-myIterator { |a,b| puts a, b }
+
+my_iterator {|a, b| puts a, b }
 ~~~
 
 Produces:
@@ -161,10 +164,10 @@ Produces:
 ~~~
 3
 4
-4
-5
 5
 6
+7
+8
 ~~~
 
 Perhaps surprisingly, `Proc.new` and friends do not in any sense consume

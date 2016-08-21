@@ -87,8 +87,9 @@ should return `nil`.
 ### I read a file and changed it, but the file on disk has not changed.
 
 ~~~
-open("example", "r+").readlines.each_with_index{|l, i|
-  l[0,0] = (i+1).to_s + ": " }
+File.open("example", "r+").readlines.each_with_index do |line, i|
+  line[0,0] = "#{i+1}: "
+end
 ~~~
 
 This program does _not_ add line numbers to the file `example`. It does read
@@ -98,12 +99,12 @@ but the data is never written back. The code below _does_ update the file
 update):
 
 ~~~
-io = open("example", "r+")
-ary = io.readlines
-ary.each_with_index{|l, i| l[0,0] = (i+1).to_s + ": "}
-io.rewind
-io.print ary
-io.close
+File.open("example", "r+") do |f|
+  lines = f.readlines
+  lines.each_with_index {|line, i| line[0,0] = "#{i+1}: " }
+  f.rewind
+  f.puts lines
+end
 ~~~
 
 ### How can I process a file and update its contents?
@@ -125,21 +126,24 @@ If you want to preserve the original file, use `-i.bak` to create a backup.
 This code will not work correctly:
 
 ~~~
-open('file', 'w').print "This is a file.\n"
-system 'cp file newfile'
+require "fileutils"
+
+File.open("file", "w").puts "This is a file."
+FileUtils.cp("file", "newfile")
 ~~~
 
 Because I/O is buffered, `file` is being copied before its contents have been
 written to disk. `newfile` will probably be empty. However, when the program
 terminates, the buffers are flushed, and file has the expected content.
 
-The problem doesn't arise if you close `file` before copying:
+The problem doesn't arise if you make sure that `file` is closed before
+copying:
 
 ~~~
-f = open('file', 'w')
-f.print "This is a file.\n"
-f.close
-system "cp file newfile"
+require "fileutils"
+
+File.open("file", "w") {|f| f.puts "This is a file." }
+FileUtils.cp("file", "newfile")
 ~~~
 
 ### How can I get the line number in current input file?
@@ -172,18 +176,15 @@ You can also get the name of the current file using `ARGF.file.path`.
 I tried the following, but nothing came out:
 
 ~~~
-f = open '|less', 'w'
-f.print "abc\n"
+open("|less", "w").puts "abc"
 ~~~
 
 That's because the program ends immediately, and `less` never gets a chance
-to see the stuff you've written to it, never mind to display it. Use `close`
-to wait until `less` ends.
+to see the stuff you've written to it, never mind to display it.
+Make sure that the IO is properly closed and it will wait until `less` ends.
 
 ~~~
-f = open '|less', 'w'
-f.print "abc\n"
-f.close
+open("|less", "w") {|f| f.puts "abc" }
 ~~~
 
 ### What happens to a `File` object which is no longer referenced?
@@ -197,26 +198,30 @@ garbage collected.
 There are at least four good ways of ensuring that you do close a file:
 
 ~~~
-(1)  f = open "file"
-     begin
-       f.each {|l| print l}
-     ensure
-       f.close
-     end
+# (1)
+f = File.open("file")
+begin
+  f.each {|line| print line }
+ensure
+  f.close
+end
 
-(2)  File.open("file") { |f|
-       f.readlines.each { |l| print l }
-     }
+# (2)
+File.open("file") do |f|
+  f.each {|line| print line }
+end
 
-(3)  IO.foreach("file") {|l| print l}
+# (3)
+File.foreach("file") {|line| print line }
 
-(4)  IO.readlines("file").each {|l| print l}
+# (4)
+File.readlines("file").each {|line| print line }
 ~~~
 
 ### How can I sort files by their modification time?
 
 ~~~
-Dir.glob("*").sort{|a,b| File.mtime(b) <=> File.mtime(a)}
+Dir.glob("*").sort {|a, b| File.mtime(b) <=> File.mtime(a) }
 ~~~
 
 Although this works (returning a list in reverse chronological order) it
@@ -226,28 +231,28 @@ operating system on every comparison.
 More efficiency can be bought with some extra complexity:
 
 ~~~
-Dir.glob("*").collect! {|f| [File.mtime(f), f]}.
-  sort{|a,b| b[0] <=> a[0]}.collect! {|e| e[1]}
+Dir.glob("*").collect {|f| [File.mtime(f), f] }.
+  sort {|a, b| b[0] <=> a[0] }.collect {|e| e[1] }
 ~~~
 
 ### How can I count the frequency of words in a file?
 
 ~~~
 freq = Hash.new(0)
-open("example").read.scan(/\w+/){|w| freq[w] += 1}
-freq.keys.sort.each {|k| print k, "-", freq[k], "\n"}
+File.read("example").scan(/\w+/) {|word| freq[word] += 1 }
+freq.keys.sort.each {|word| puts "#{word}: #{freq[word]}" }
 ~~~
 
 Produces:
 
 ~~~
-and-1
-is-3
-line-3
-one-1
-this-3
-three-1
-two-1
+and: 1
+is: 3
+line: 3
+one: 1
+this: 3
+three: 1
+two: 1
 ~~~
 
 ### Why is an empty string not `false`?
@@ -271,47 +276,17 @@ If you want to sort ignoring case distinctions, compare downcased versions of
 the strings in the sort block:
 
 ~~~
-array = %w( z bB Bb BB bb Aa aA AA aa a )
-puts array.sort { |a,b|  a.downcase <=> b.downcase }
-~~~
-
-Produces:
-
-~~~
-a
-aa
-AA
-aA
-Aa
-bb
-BB
-bB
-Bb
-z
+array = %w( z bB Bb bb Aa BB aA AA aa a A )
+array.sort {|a, b| a.downcase <=> b.downcase }
+  # => ["a", "A", "Aa", "aA", "AA", "aa", "bB", "Bb", "bb", "BB", "z"]
 ~~~
 
 If you want to sort so that the 'A's and 'a's come together, but 'a' is
 considered greater than 'A' (so 'Aa' comes after 'AA' but before 'AB'), use:
 
 ~~~
-puts array.sort { |a,b|
-  (a.downcase <=> b.downcase).nonzero? || a <=> b
-}
-~~~
-
-Produces:
-
-~~~
-a
-AA
-Aa
-aA
-aa
-BB
-Bb
-bB
-bb
-z
+array.sort {|a, b| (a.downcase <=> b.downcase).nonzero? || a <=> b }
+  # => ["A", "a", "AA", "Aa", "aA", "aa", "BB", "Bb", "bB", "bb", "z"]
 ~~~
 
 ### What does `"abcd"[0]` return?
@@ -326,9 +301,9 @@ question mark, so `?a` is also 97 (`Fixnum`).
 If `a` holds the string to be expanded, you could use one of:
 
 ~~~
-  1 while a.sub!(/(^[^\t]*)\t(\t*)/){$1+' '*(8-$1.size%8+8*$2.size)}
+  1 while a.sub!(/(^[^\t]*)\t(\t*)/){$1+" "*(8-$1.size%8+8*$2.size)}
 # or
-  1 while a.sub!(/\t(\t*)/){' '*(8-$~.begin(0)%8+8*$1.size)}
+  1 while a.sub!(/\t(\t*)/){" "*(8-$~.begin(0)%8+8*$1.size)}
 # or
   a.gsub!(/([^\t]{8})|([^\t]*)\t/n){[$+].pack("A8")}
 ~~~
@@ -365,19 +340,19 @@ the destructive one has a suffix `!`.
 
 ~~~
 def foo(str)
-    str.sub(/foo/, "baz")
+  str.sub(/foo/, "baz")
 end
 
 obj = "foo"
-foo(obj)         # => "baz"
-obj              # => "foo"
+foo(obj)  # => "baz"
+obj       # => "foo"
 
 def foo(str)
-    str.sub!(/foo/, "baz")
+  str.sub!(/foo/, "baz")
 end
 
-foo(obj)         # => "baz"
-obj              # => "baz"
+foo(obj)  # => "baz"
+obj       # => "baz"
 ~~~
 
 ### Where does `\Z` match?
@@ -433,9 +408,9 @@ If `io` is omitted, the marshaled objects are returned in a string.
 You can load objects back using:
 
 ~~~
-   obj = Marshal.load io
+   obj = Marshal.load(io)
 # or
-   obj = Marshal.load str
+   obj = Marshal.load(str)
 ~~~
 
 where `io` is a readable `IO` object, `str` is the dumped string.

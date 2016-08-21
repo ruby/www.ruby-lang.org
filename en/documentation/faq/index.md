@@ -43,7 +43,7 @@ compiled by Shugo Maeda and translated into English by Kentaro Goto.
 Thanks to Zachary Scott and Marcus Stollsteimer for incorporating
 the FAQ into the site and for a major overhaul of the content.
 
-The code examples in this document have been run using Ruby 1.6.8.
+The code examples in this document have been run using Ruby 2.3.
 
 [original-faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
 

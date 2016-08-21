@@ -43,11 +43,10 @@ It's the same as saying `if a then b else c end`.
 
 ### How can I count the number of lines in a file?
 
-Assuming that the file ends in a newline, the following code may give the
-fastest result.
+The following code may give the fastest result.
 
 ~~~
-open("example").read.count("\n")  # => 3
+File.readlines("example").size  # => 3
 ~~~
 
 ### What do `begin` and `end` of `MatchData` return?
@@ -66,11 +65,10 @@ method inject, so we will too:
 ~~~
 module Enumerable
 
-  # inject(n) { |n, i| ...}
+  # inject(n) {|n, i| ...}
   def inject(n)
-    each { |i|
-      n = yield(n, i)
-    }
+    each {|i| n = yield(n, i) }
+
     n
   end
 end

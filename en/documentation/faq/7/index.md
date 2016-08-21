@@ -53,18 +53,22 @@ methods, and is often used to provide dynamic interfaces to classes.
 
 ~~~
 module Indexed
-  def [](n)
-    to_a[n]
+  def [](index)
+    each_byte.to_a[index]
   end
 end
+
 class String
   include Indexed
 end
-String.ancestors                # => [String, Indexed, Enumerable, Comparable, Object, Kernel]
-"abcde".gsub!(/./, "\\&\n")[1]  # => 10
+
+String.ancestors
+  # => [String, Indexed, Comparable, Object, Kernel, BasicObject]
+
+"abcd"[1]  # => "b"
 ~~~
 
-This program does not return `"b\n"` as one expects, but returns `10`.
+This program does not return `98` as one might expect, but returns `"b"`.
 When the method `[]` is searched for, it is found in class `String`, before
 searching `Indexed`. You should directly redefine `[]` in class `String`.
 
@@ -75,7 +79,7 @@ They can, therefore, be overloaded by new definitions.
 
 ~~~
 class MyString < String
-  def -(other)            # New method
+  def -(other)
     self[0...other.size]  # self truncated to other's size
   end
 end
@@ -99,6 +103,7 @@ class Test
     @attribute = val
   end
 end
+
 t = Test.new
 t.attribute = 1
 ~~~
@@ -154,13 +159,14 @@ An object's instance variables (those variables starting with `@`) are not
 directly accessible outside the object. This promotes good encapsulation.
 However, Ruby makes it easy for you to define accessors to these instance
 variables in such a way that users of your class can treat instance variables
-just like attributes. Just use one or more of `Module.attr`, `attr_reader`,
-`attr_writer`, or `attr_accessor`.
+just like attributes. Just use one or more of `attr_reader`, `attr_writer`,
+or `attr_accessor`.
 
 ~~~
 class Person
-  attr           :name           # read only
-  attr_accessor  :wearing_a_hat  # read/write
+  attr_reader   :name           # read only
+  attr_accessor :wearing_a_hat  # read/write
+
   def initialize(name)
     @name = name
   end
@@ -191,23 +197,25 @@ subclasses.
 
 ~~~
 class Test
-  def func
-    return 99
+  def foo
+    99
   end
+
   def test(other)
-    p func
-    p other.func
+    p foo
+    p other.foo
   end
 end
+
 t1 = Test.new
 t2 = Test.new
 
 t1.test(t2)
 
-# Now make 'func' private
+# Now make `foo' private
 
 class Test
-  private :func
+  private :foo
 end
 
 t1.test(t2)
@@ -219,8 +227,8 @@ Produces:
 99
 99
 99
-prog.rb:7:in `test': private method `func' called for #<Test:0x401b4284> (NameError)
-        from prog.rb:21
+prog.rb:8:in `test': private method `foo' called for #<Test:0x00000000b57a48> (NoMethodError)
+        from prog.rb:23:in `<main>'
 ~~~
 
 Protected methods are also callable only from within their own class or
@@ -247,7 +255,7 @@ the visibility of the named methods.
 ~~~
 class Foo
   def test
-    print "hello\n"
+    puts "hello"
   end
   private :test
 end
@@ -259,15 +267,15 @@ foo.test
 Produces:
 
 ~~~
-prog.rb:9: private method `test' called for #<Foo:0x401b4694> (NameError)
+prog.rb:9:in `<main>': private method `test' called for #<Foo:0x0000000284dda0> (NoMethodError)
 ~~~
 
 You can make a class method private using `private_class_method`.
 
 ~~~
 class Foo
-  def Foo.test
-    print "hello\n"
+  def self.test
+    puts "hello"
   end
   private_class_method :test
 end
@@ -278,7 +286,7 @@ Foo.test
 Produces:
 
 ~~~
-prog.rb:8: private method `test' called for Foo:Class (NameError)
+prog.rb:8:in `<main>': private method `test' called for Foo:Class (NoMethodError)
 ~~~
 
 The default visibility for the methods defined in a class is public.
@@ -344,8 +352,8 @@ def foo(str)
 end
 
 obj = "foo"
-foo(obj)         # => "baz"
-obj              # => "baz"
+foo(obj)     # => "baz"
+obj          # => "baz"
 ~~~
 
 In this case the actual argument is altered.
@@ -358,11 +366,13 @@ Yes and no.
 def m1
   return 1, 2, 3
 end
+
 def m2
-  return [1, 2, 3]
+  [1, 2, 3]
 end
-m1               # => [1, 2, 3]
-m2               # => [1, 2, 3]
+
+m1  # => [1, 2, 3]
+m2  # => [1, 2, 3]
 ~~~
 
 So, only one thing is returned, but that thing can be an arbitrarily complex
@@ -371,11 +381,11 @@ effect of multiple return values. For example:
 
 ~~~
 def foo
-  return 20, 4, 17
+  [20, 4, 17]
 end
 
 a, b, c = foo
-a                # => 20
-b                # => 4
-c                # => 17
+a              # => 20
+b              # => 4
+c              # => 17
 ~~~
