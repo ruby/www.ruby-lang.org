@@ -24,6 +24,10 @@
     {% if sidebar.get_started.ruby_from_other_languages != null %}
     <li><a href="{{ sidebar.get_started.ruby_from_other_languages.url }}">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
     {% endif %}
+
+    {% if sidebar.get_started.ruby_practice_exercises != null %}
+    <li><a href="{{ sidebar.get_started.ruby_practice_exercises.url }}">{{ sidebar.get_started.ruby_practice_exercises.text }}</a></li>
+    {% endif %}
   </ul>
 </div>
 {% endif %}
