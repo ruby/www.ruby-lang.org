@@ -171,7 +171,7 @@ mà Ruby chạy trên sẽ có multithreading bất kể hệ đấy có hỗ tr
 cả MSDOS còn hỗ trợ!
 
 * Ruby rất dễ port: nó được phát triển chủ yếu cho GNU/Linux, nhưng có làm việc
-với các hệ UNIX khác, như Mac OS X, Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, vân vân.
+với các hệ UNIX khác, như Mac OS X, Windows, DOS, BeOS, OS/2, vân vân.
 
 ### Tham khảo
 

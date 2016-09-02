@@ -192,7 +192,7 @@ seguintes:
 
 * O Ruby é altamente portável: é desenvolvido principalmente em ambiente
   GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, Mac OS X,
-  Windows 95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, etc.
+  Windows, DOS, BeOS, OS/2, etc.
 
 ### Outras Implementações do Ruby
 

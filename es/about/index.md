@@ -190,8 +190,8 @@ encuentran las siguientes:
   no, ¡incluso en MS-DOS!
 
 * Ruby es fácilmente portable: se desarrolla mayoritariamente en
-  GNU/Linux, pero corre en varios tipos de UNIX, Mac OS X, Windows
-  95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, etc.
+  GNU/Linux, pero corre en varios tipos de UNIX, Mac OS X,
+  Windows, DOS, BeOS, OS/2, etc.
 
 ### Referencias
 

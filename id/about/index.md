@@ -194,8 +194,8 @@ Ruby kaya fitur, antara lain sebagai berikut:
   tidak, bahkan pada MS-DOS sekalipun!
 
 * Ruby sangat portable: Ruby kebanyakan dikembangkan di GNU/Linux,
-  tetapi juga berjalan di banyak tipe UNIX, Mac OS X, Windows
-  95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, dan lain-lain.
+  tetapi juga berjalan di banyak tipe UNIX, Mac OS X,
+  Windows, DOS, BeOS, OS/2, dan lain-lain.
 
 ### Referensi
 

@@ -189,8 +189,8 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
   il sistema operativo lo supporti o meno, anche in DOS!
 
 * Ruby è altamente portatile: è sviluppato principalmente su GNU/Linux,
-  ma funziona su molte varianti di UNIX, Mac OS X, Windows
-  95/98/Me/NT/2000/XP, DOS, BeOS, OS/2, ecc.
+  ma funziona su molte varianti di UNIX, Mac OS X,
+  Windows, DOS, BeOS, OS/2, ecc.
 
 ### Riferimenti
 
