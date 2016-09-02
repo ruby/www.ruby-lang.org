@@ -7,9 +7,9 @@ date: 2016-08-26 16:00:00 +0000
 lang: fr
 ---
 
-![ConFoo - Conférence pour développeurs](https://confoo.ca/images/propaganda/yul2017/fr/like.png){: style="border:0; float:right; margin-left:20px;" width="180" height="130"}Vous voulez mettre vos idées de développement web devant un public? [L'appel aux conférenciers][1] pour la conférence ConFoo Montréal 2017 est ouvert! Si vous avez un désir ardent de présenter sur Ruby, les bases de données, JavaScript, ou d'autres sujets de développement web, nous voulons lire vos propositions.
+Vous voulez mettre vos idées de développement web devant un public? [L'appel aux conférenciers][1] pour la conférence ConFoo Montréal 2017 est ouvert! Si vous avez un désir ardent de présenter sur Ruby, les bases de données, JavaScript, ou d'autres sujets de développement web, nous voulons lire vos propositions.
 
-L'appel est ouvert seulement du 21 août au 20 septembre 2016, alors faites vite. Un avantage supplémentaire: si votre proposition est sélectionnée et que vous êtes à l'extérieur de la région de Montréal, nous allons couvrir le transport et l'hôtel.
+![ConFoo - Conférence pour développeurs](https://confoo.ca/images/propaganda/yul2017/fr/like.png){: style="border:0; float:right; margin-left:20px;" width="180" height="130"}L'appel est ouvert seulement du 21 août au 20 septembre 2016, alors faites vite. Un avantage supplémentaire: si votre proposition est sélectionnée et que vous êtes à l'extérieur de la région de Montréal, nous allons couvrir le transport et l'hôtel.
 
 Vous avez 45 minutes pour impressionner la foule, avec 35 minutes pour votre sujet et 10 minutes pour les questions. Nous avons hâte de voir vos propositions. Impressionnez-nous!
 
