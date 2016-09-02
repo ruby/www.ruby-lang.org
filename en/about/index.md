@@ -177,8 +177,7 @@ Ruby has a wealth of other features, among which are the following:
   supports it or not, even on MS-DOS!
 
 * Ruby is highly portable: it is developed mostly on GNU/Linux, but
-  works on many types of UNIX, Mac OS X, Windows 95/98/Me/NT/2000/XP,
-  DOS, BeOS, OS/2, etc.
+  works on many types of UNIX, Mac OS X, Windows, DOS, BeOS, OS/2, etc.
 
 ### Other Implementations of Ruby
 
