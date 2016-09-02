@@ -7,9 +7,9 @@ date: 2016-08-26 16:00:00 +0000
 lang: ko
 ---
 
-![ConFoo - Developer Conference](https://confoo.ca/images/propaganda/yul2017/en/like.png){: style="border:0; float:right; margin-left:20px;" width="180" height="130"}청중의 앞에서 웹 개발에 대해 말하고 싶으신가요? ConFoo 몬트리올 2017 콘퍼런스의 [발표자 모집][1]을 하고 있습니다! 루비, 데이터베이스, 자바스크립트는 물론 웹 개발에 관한 주제라면 무엇이든 길게 말하고 싶으시면 저희에게 제안을 보내주세요.
+청중의 앞에서 웹 개발에 대해 말하고 싶으신가요? ConFoo 몬트리올 2017 콘퍼런스의 [발표자 모집][1]을 하고 있습니다! 루비, 데이터베이스, 자바스크립트는 물론 웹 개발에 관한 주제라면 무엇이든 길게 말하고 싶으시면 저희에게 제안을 보내주세요.
 
-모집은 2016년 8월 21일부터 9월 20일까지이므로 서두르세요. 덧붙여 몬트리올에 살지 않는 분의 제안이 채택된다면, 여행비와 숙박비를 지원해드립니다.
+![ConFoo - Developer Conference](https://confoo.ca/images/propaganda/yul2017/en/like.png){: style="border:0; float:right; margin-left:20px;" width="180" height="130"}모집은 2016년 8월 21일부터 9월 20일까지이므로 서두르세요. 덧붙여 몬트리올에 살지 않는 분의 제안이 채택된다면, 여행비와 숙박비를 지원해드립니다.
 
 총 45분의 시간이 주어지며, 주제에 대해서 이야기할 시간이 35분, 질의응답에 10분이 주어집니다. 우리는 제안을 기대하고 있습니다. 연락해주세요!
 
