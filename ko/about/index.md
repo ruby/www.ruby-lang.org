@@ -141,7 +141,7 @@ end
   지원하지 않는 MS-DOS에서도 다중 스레드 프로그램을 작성할 수 있습니다.
 
 * 루비는 이식성이 매우 높습니다. 대부분 GNU Linux에서 개발되었지만 대부분의 UNIX, 맥 OS X, Windows
-  95/98/Me/NT/2000/XP, DOS, BeOS, OS/2 등에서 동작합니다.
+  95 이후의 모든 Windows, DOS, BeOS, OS/2 등에서 동작합니다.
 
 ### 루비의 다른 구현체들
 
