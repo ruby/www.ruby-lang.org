@@ -17,7 +17,7 @@ Ruby branches see the
 
 ### Ruby releases by version number
 
-<table>
+<table class="release-list">
 <tr>
 <th>Release Version</th>
 <th>Release Date</th>
