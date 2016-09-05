@@ -12,7 +12,8 @@ Ingin ide pengembangan web Anda di depan audiensi langsung?
 hasrat mendalam untuk berbicara tentang Ruby, basis data, JavaScript, atau topik
 pengembangan web lainnya, ConFoo ingin melihat ajuan proposal Anda.
 
-![ConFoo - Developer Conference](https://confoo.ca/images/propaganda/yul2017/en/like.png){: style="border:0; float:right; margin-left:20px;" width="180" height="130"}Kesempatan hanya dibuka mulai 21 Agustus hingga 20 September 2016, sehingga segera.
+![ConFoo - Developer Conference](https://confoo.ca/images/propaganda/yul2017/en/like.png){: style="border:0; float:right; margin-left:20px;" width="180" height="130"}
+Kesempatan hanya dibuka mulai 21 Agustus hingga 20 September 2016, sehingga segera.
 Keuntungan tambahan: Jika ajuan proposal Anda dipilih dan Anda tinggal di luar
 Montreal, ConFoo akan menanggung perjalanan dan penginapan Anda.
 
