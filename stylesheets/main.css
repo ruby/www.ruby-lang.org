@@ -480,15 +480,6 @@ hr.hidden-modern { display: none; }
 
 /* Subscription Form */
 
-#subscriptions-form table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-#subscriptions-form table th, td {
-	padding: 0;
-}
-
 #subscriptions-form table input {
   -webkit-appearance: none;
   font-size: 13px;
@@ -518,7 +509,10 @@ hr.hidden-modern { display: none; }
   min-width: 260px;
 }
 
-#subscriptions-form td { min-width: 120px; }
+#subscriptions-form table td {
+  padding: 0;
+  min-width: 120px;
+}
 
 #subscriptions-form table tr {
   font-size: 14px;
