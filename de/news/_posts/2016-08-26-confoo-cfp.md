@@ -22,14 +22,14 @@ Reise- und Hotelkosten.
 
 Ihnen werden 45 Minuten zur Verfügung gestellt, um die Menge zu
 begeistern, wovon 35 Minuten für Ihr Thema und 10 Minuten für die
-Bewantwortung von Fragen vorgesehen sind. Die ConFoo kann Ihre
+Beantwortung von Fragen vorgesehen sind. Die ConFoo kann Ihre
 Vorschläge kaum erwarten -- zeigen Sie, was sie können!
 
 Die ConFoo Montreal wird vom 8. bis 10. März 2017
 stattfinden. Diejenigen von Ihnen, die bereits über diese Konferenz
-bescheid wissen, werden darauf hingewiesen, dass dieses jährliche
-Ereignis neben der ConFoo Vancouver stattfindet. Besuchen Sie [die
-Webseite der ConFoo][2], um mehr über beide Veranstaltungen zu
+Bescheid wissen, werden darauf hingewiesen, dass dieses jährliche
+Ereignis neben der ConFoo Vancouver stattfindet. Besuchen Sie
+[die Webseite der ConFoo][2], um mehr über beide Veranstaltungen zu
 erfahren.
 
 [1]: https://confoo.ca/en/yul2017/call-for-papers
