@@ -10,9 +10,7 @@ lang: en
 We are pleased to announce the release of Ruby 2.4.0-preview2.
 
 Ruby 2.4.0-preview2 is the second preview of Ruby 2.4.0.
-This preview2 is released earlier than usual because it includes so
-many new features and improvements.
-(This is the one usually released as preview1)
+This preview2 is released to get feedback from community.
 Feel free to
 [send feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
 since you can still change the features.
@@ -21,10 +19,11 @@ since you can still change the features.
 
 Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
 doesn't specify details of the Integer class,
-CRuby has two visible Integer classes: Fixnum and Bignum.
+CRuby had two visible Integer classes: Fixnum and Bignum.
 Ruby 2.4 unifies them into Integer.
+All C extensions which touches Fixnum or Bignum class needs to fix.
 
-All C extensions which touches Fixnum or Bignum needs to fix.
+See also [the ticket](https://bugs.ruby-lang.org/issues/12005) and [akr's slide](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
 
 ## [String supports Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
 
