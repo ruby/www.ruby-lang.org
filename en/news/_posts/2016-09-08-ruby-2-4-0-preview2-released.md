@@ -21,7 +21,7 @@ Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/ca
 doesn't specify details of the Integer class,
 Ruby had two visible Integer classes: Fixnum and Bignum.
 Ruby 2.4 unifies them into Integer.
-All C extensions which touches Fixnum or Bignum class needs to be fixed.
+All C extensions which touch the Fixnum or Bignum class need to be fixed.
 
 See also [the ticket](https://bugs.ruby-lang.org/issues/12005) and [akr's slides](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
 
@@ -58,7 +58,8 @@ With `report_on_exception = true`,
 you can notice if a thread has died due to an unhandled exception.
 
 Send us feedback what should be the default for `report_on_exception`
-and about report-on-GC, which show a report when a thread is GCed without join.
+and about report-on-GC, which shows a report when a thread is
+garbage collected without join.
 
 ### [Thread deadlock detection now shows threads with their backtrace and dependency](https://bugs.ruby-lang.org/issues/8214)
 
