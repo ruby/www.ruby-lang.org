@@ -79,6 +79,6 @@ correo](/es/community/mailing-lists/) es un buen lugar para comenzar.
 [7]: http://www.ruby-doc.org/core
 [8]: http://docs.seattlerb.org/rdoc/
 [9]: http://www.ruby-doc.org/stdlib
-[extensions]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [11]: http://ruby-doc.org
 [12]: http://www.ruby-doc.org/bookstore
