@@ -13,7 +13,7 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 各環境にRubyをインストールする方法は、 [ダウンロード](/ja/downloads) 及び [インストールガイド](/ja/installation) で解説しています。
 
 また、現在有志の手により[リファレンスマニュアルの整備][rurema-wiki]が進行中です。
-作業途中の成果物を[&lt;URL:http://docs.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
+作業途中の成果物を[&lt;URL:https://docs.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
 
 * [Rubyリファレンスマニュアル Ruby 1.8.7版][man-187]
 * [Rubyリファレンスマニュアル Ruby 1.9.3版][man-193]
@@ -107,14 +107,14 @@ Posted by Shugo Maeda on 26 May 2006
 
 
 [rurema-wiki]: https://github.com/rurema/doctree/wiki
-[doc-r-l-o]: http://docs.ruby-lang.org/ja/
-[man-187]: http://docs.ruby-lang.org/ja/1.8.7/doc/index.html
-[man-193]: http://docs.ruby-lang.org/ja/1.9.3/doc/index.html
-[man-200]: http://docs.ruby-lang.org/ja/2.0.0/doc/index.html
-[man-210]: http://docs.ruby-lang.org/ja/2.1.0/doc/index.html
-[man-220]: http://docs.ruby-lang.org/ja/2.2.0/doc/index.html
-[man-230]: http://docs.ruby-lang.org/ja/2.3.0/doc/index.html
-[man-search]: http://docs.ruby-lang.org/ja/search/
+[doc-r-l-o]: https://docs.ruby-lang.org/ja/
+[man-187]: https://docs.ruby-lang.org/ja/1.8.7/doc/index.html
+[man-193]: https://docs.ruby-lang.org/ja/1.9.3/doc/index.html
+[man-200]: https://docs.ruby-lang.org/ja/2.0.0/doc/index.html
+[man-210]: https://docs.ruby-lang.org/ja/2.1.0/doc/index.html
+[man-220]: https://docs.ruby-lang.org/ja/2.2.0/doc/index.html
+[man-230]: https://docs.ruby-lang.org/ja/2.3.0/doc/index.html
+[man-search]: https://docs.ruby-lang.org/ja/search/
 [man-xz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.xz
 [man-gz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.gz
 [man-zip]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.zip

@@ -174,7 +174,7 @@ là một nơi tuyệt vời.
 [13]: http://www.ruby-doc.org/core
 [14]: http://docs.seattlerb.org/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[extensions]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
