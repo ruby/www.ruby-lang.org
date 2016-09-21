@@ -46,7 +46,7 @@ use Rack::Rewrite do
 
   r302 %r{^/cgi-bin/cvsweb\.cgi(/.*)?$}, "http://svn.ruby-lang.org/"
 
-  r302 %r{^/ja/(man|old-man)/.*$}, "http://doc.ruby-lang.org/ja/"
+  r302 %r{^/ja/(man|old-man)/.*$}, "https://docs.ruby-lang.org/ja/"
 
   r302 %r{^/ja/man/archive/ruby-refm-1.8.6-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.8.6-chm.zip"
   r302 %r{^/ja/man/archive/ruby-refm-1.9.0-chm.zip$}, "ftp://ftp.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.0-chm.zip"
