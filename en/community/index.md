@@ -31,7 +31,7 @@ to start:
 : Now is a fantastic time to follow Ruby’s development.
   If you are interested in helping with Ruby, start here.
 
-[Weblogs About Ruby](weblogs/)
+[Weblogs](weblogs/)
 : Very little happens in the Ruby community that is not talked about on
   the blogs. We’ve got a nice list of suggestions for you here for
   getting plugged in.
@@ -41,6 +41,9 @@ to start:
   more conferences, where they get together to share reports on
   work-in-progress, discuss the future of Ruby, and welcome newcomers to
   the Ruby community.
+
+[Newsletters](newsletters/)
+: Sometimes it's easier to receive Ruby news in your email inbox.
 
 General Ruby Information
 : * [Ruby Central][3]
