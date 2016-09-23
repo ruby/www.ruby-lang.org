@@ -231,7 +231,7 @@ perchè la versione installata non verrebbe gestita da nessun tool.
 
 
 [rvm]: http://rvm.io/
-[rbenv]: https://github.com/sstephenson/rbenv
+[rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer

@@ -227,7 +227,7 @@ pomysłem, ponieważ zainstalowany Ruby nie będzie zarządzany przez żadne z n
 
 
 [rvm]: http://rvm.io/
-[rbenv]: https://github.com/sstephenson/rbenv
+[rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: http://rubyinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org

@@ -229,7 +229,7 @@ $ sudo make install
 
 
 [rvm]: http://rvm.io/
-[rbenv]: https://github.com/sstephenson/rbenv
+[rbenv]: https://github.com/rbenv/rbenv
 [active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: http://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/

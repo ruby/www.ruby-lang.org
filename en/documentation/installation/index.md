@@ -281,8 +281,8 @@ though, because the installed Ruby won't be managed by any tools.
 
 
 [rvm]: http://rvm.io/
-[rbenv]: https://github.com/sstephenson/rbenv#readme
-[ruby-build]: https://github.com/sstephenson/ruby-build#readme
+[rbenv]: https://github.com/rbenv/rbenv#readme
+[ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
