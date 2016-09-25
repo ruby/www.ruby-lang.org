@@ -137,8 +137,8 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 [5]: http://www.pragmaticprogrammer.com/titles/svn/
 [6]: http://git-scm.com/
 [7]: http://github.com/ruby/ruby
-[8]: http://wiki.github.com/shyouhei/ruby/committerhowto
-[9]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
+[8]: https://github.com/shyouhei/ruby/wiki/committerhowto
+[9]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/
 [11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

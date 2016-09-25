@@ -138,8 +138,8 @@ Subversion-Repository beachtet werden:
 [3]: http://svnbook.org
 [4]: http://git-scm.com/
 [5]: http://github.com/ruby/ruby
-[6]: http://wiki.github.com/shyouhei/ruby/committerhowto
-[7]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
+[6]: https://github.com/shyouhei/ruby/wiki/committerhowto
+[7]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [8]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698
 [9]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700
 [10]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

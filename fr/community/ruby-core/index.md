@@ -141,8 +141,8 @@ Les développeurs de Ruby devraient évidemment être à l’aise avec le code s
 [4]: http://www.pragmaticprogrammer.com/titles/svn/
 [5]: http://git-scm.com/
 [6]: http://github.com/shyouhei/ruby
-[7]: http://wiki.github.com/shyouhei/ruby/committerhowto
-[8]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
+[7]: https://github.com/shyouhei/ruby/wiki/committerhowto
+[8]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [9]: https://bugs.ruby-lang.org
 [10]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700
 [11]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
