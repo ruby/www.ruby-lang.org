@@ -45,5 +45,5 @@ Posted by usa on 30 May 2006
 [1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [2]: http://svn.ruby-lang.org/repos/ruby/
 [3]: http://github.com/ruby/ruby
-[4]: http://wiki.github.com/shyouhei/ruby/noncommitterhowto
-[5]: http://wiki.github.com/shyouhei/ruby/committerhowto
+[4]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[5]: https://github.com/shyouhei/ruby/wiki/committerhowto
