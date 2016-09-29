@@ -137,7 +137,7 @@ Subversion-Repository beachtet werden:
 [2]: http://subversion.apache.org/faq.html
 [3]: http://svnbook.org
 [4]: http://git-scm.com/
-[5]: http://github.com/ruby/ruby
+[5]: https://github.com/ruby/ruby
 [6]: https://github.com/shyouhei/ruby/wiki/committerhowto
 [7]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [8]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698
