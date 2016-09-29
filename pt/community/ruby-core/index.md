@@ -165,7 +165,7 @@ Veja também as informações no [_issue tracker_ do Ruby][10].
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/
 [6]: http://git-scm.com/
-[7]: http://github.com/ruby/ruby
+[7]: https://github.com/ruby/ruby
 [8]: https://github.com/shyouhei/ruby/wiki/committerhowto
 [9]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/

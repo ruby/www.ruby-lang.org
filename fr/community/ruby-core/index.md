@@ -140,7 +140,7 @@ Les développeurs de Ruby devraient évidemment être à l’aise avec le code s
 [3]: http://svnbook.org
 [4]: http://www.pragmaticprogrammer.com/titles/svn/
 [5]: http://git-scm.com/
-[6]: http://github.com/shyouhei/ruby
+[6]: https://github.com/shyouhei/ruby
 [7]: https://github.com/shyouhei/ruby/wiki/committerhowto
 [8]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [9]: https://bugs.ruby-lang.org

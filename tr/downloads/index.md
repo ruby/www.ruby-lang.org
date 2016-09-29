@@ -154,7 +154,7 @@ Rubyforge][29] adresini inceleyin.
 [10]: https://cache.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip
 [11]: https://cache.ruby-lang.org:21/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip
 [12]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html
-[13]: http://github.com/vertiginous/pik
+[13]: https://github.com/vertiginous/pik
 [14]: http://rvm.beginrescueend.com
 [15]: http://trac.macosforge.org/projects/ruby/wiki
 [16]: http://locomotive.raaum.org/
