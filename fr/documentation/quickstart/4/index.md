@@ -59,7 +59,7 @@ Si le paramètre `@name`, qui est un objet, comme toute chose en Ruby,
 choses, et donc qu’il serait intéressant de récupérer ces choses une par
 unes… de réaliser une itération, en somme. Dernier cas de figure, si
 `@names` n’est ni `nil`, ni une liste à parcourir, alors il s’agit
-personne unique, et nous pouvons écrire son nom sans plus de
+d'une personne unique, et nous pouvons écrire son nom sans plus de
 manipulation.
 
 Voyons d’un peu plus près cette fameuse itération :
@@ -176,12 +176,10 @@ Si tel est le cas, rendez-vous sur notre
 [documentation](/fr/documentation), qui rassemble des liens vers des
 manuels et tutoriels disponibles gratuitement en ligne. Si vous êtes
 tentés par l’achat d’un livre au contenu plus conséquent, voyez une
-[première liste][1] (en anglais, relativement exhaustive) et [une
-seconde][2] (en français, incomplète).
+[liste][1] (en anglais, relativement exhaustive)
 
 Bonne continuation !
 
 
 
 [1]: http://www.ruby-doc.org/bookstore
-[2]: http://rubyfrance.org/liens/livres/
