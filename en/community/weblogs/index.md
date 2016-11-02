@@ -9,6 +9,12 @@ hunting, you can unearth hundreds of blogs sharing bits of Ruby code,
 describing new techniques, or speculating on Ruby’s future.
 {: .summary}
 
+### Mining for Ruby Blogs
+
+* [**RubyFlow**][rubyflow], “the Ruby and Rails community linklog”,
+  is a Ruby news site with links to libraries, blog posts, tutorials,
+  and other Ruby resources.
+
 ### Blogs of Note
 
 A few notable blogs stand out for the frequency and immediacy of their
@@ -39,6 +45,7 @@ some brilliant code out there, be sure to let them know!
 
 
 
+[rubyflow]: http://www.rubyflow.com/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
