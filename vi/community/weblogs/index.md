@@ -9,14 +9,6 @@ bạn có thể tìm đươc hàng trăm blog chia sẻ code Ruby,
 giới thiệu về các kỹ thuật mới, hoặc dự đoán về tương lai của Ruby.
 {: .summary}
 
-### Khai thác các blog về Ruby
-
-Một số các **planets** (tập hợp các nguồn cấp dữ liệu chuyên ngành trực tuyến)
-đã hoạt động từ nhiều năm trở lại đây.
-Một số trong đó cung cấp các nội dung tiện lợi cho người đọc như:
-
-* [Ruby Corner][4]
-
 ### Các blog ghi chú
 
 Một vài trang blog nổi bật về sự nhanh chóng và tần số cập nhật các bài viết.
@@ -45,7 +37,6 @@ Nếu như bạn tìm được một số đoạn mã hay trên mạng, hãy nó
 
 
 
-[4]: http://rubycorner.com
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

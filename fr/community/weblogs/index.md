@@ -13,15 +13,10 @@ quelques sites agrègent un certain nombre d’entre elles.
 
 ### Listes de blogs
 
-[**Ruby sur del.icio.us**][1]\: Ruby et Rails sont souvent dans le top
-50 des *tags* les plus populaires de del.icio.us. Voyez ainsi le *tag*
-[ruby][1] et le [*popularity chart*][2] associé.
-
 **Planètes**\: un certains nombre de planètes (agrégateurs thématiques en ligne)
 dédiés à Ruby ont vu le jour. Quelques exemples notables :
 
 * [Human Coders News - Ruby][16] (français)
-* [Ruby Corner][4]
 
 ### Blogs personnels
 
@@ -48,9 +43,6 @@ Ruby est également un sujet récurrent sur [Digg][14] et [Slashdot][15].
 
 
 
-[1]: http://del.icio.us/tag/ruby
-[2]: http://del.icio.us/popular/ruby
-[4]: http://rubycorner.com
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

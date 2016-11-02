@@ -9,13 +9,6 @@ hunting, you can unearth hundreds of blogs sharing bits of Ruby code,
 describing new techniques, or speculating on Ruby’s future.
 {: .summary}
 
-### Mining for Ruby Blogs
-
-Some **planets** (online specialized feed aggregators) have been running
-for years now. A few of them providing convenient content:
-
-* [Ruby Corner][4]
-
 ### Blogs of Note
 
 A few notable blogs stand out for the frequency and immediacy of their
@@ -46,7 +39,6 @@ some brilliant code out there, be sure to let them know!
 
 
 
-[4]: http://rubycorner.com
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

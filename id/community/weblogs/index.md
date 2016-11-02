@@ -10,19 +10,6 @@ banyak hal mulai dari berbagi pengalaman, *source code*, teknik-teknik
 baru yang menarik, dan membahas masa depan Ruby.
 {: .summary}
 
-### Berburu Blog Ruby
-
-[**Ruby di del.icio.us**][1]\: Ruby dan Rails merupakan tag yang secara
-konsisten menempati urutan Top 50 di del.icio.us, sebuah situs *link
-sharing* yang cukup terkenal. Perhatikan tag [ruby][1] untuk *link-link*
-baru dan [daftar link Ruby terpopuler][2] untuk link-link Ruby terbaru
-yang sedang ngetop.
-
-**Aggregator**\: [Planet Ruby Indonesia][4], [Ruby Corner][5],
-[Planet Ruby][6], dan [PlanetRubyOnRails.com][7]
-adalah situs-situs yang berisi konten gabungan dari beberapa situs Ruby
-yang lain.
-
 ### Blog Ternama
 
 Beberapa blog cukup terkenal karena jumlah dan frekuensi *update* yang
@@ -61,12 +48,6 @@ tersebut!
 
 
 
-[1]: http://del.icio.us/tag/ruby
-[2]: http://del.icio.us/popular/ruby
-[4]: http://planet.ruby-id.web.id
-[5]: http://rubycorner.com
-[6]: http://planetruby.0x42.net/
-[7]: http://www.planetrubyonrails.com/
 [9]: http://ariekusumaatmaja.wordpress.com/
 [10]: http://twitter.com/rubyindonesia
 [11]: http://oreillynet.com/ruby/

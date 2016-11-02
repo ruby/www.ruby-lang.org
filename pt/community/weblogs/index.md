@@ -10,13 +10,6 @@ código em Ruby, descrevendo novas técnicas ou especulando acerca do
 futuro do Ruby.
 {: .summary}
 
-### Buscando Blogs sobre Ruby
-
-Alguns **planetas** (agregadores de _feeds_ especializados) tem rodado por
-anos. Alguns deles fornecem um conteúdo conveniente:
-
-* [Ruby Corner][4]
-
 ### Blogs Notáveis
 
 Alguns blogs destacam-se pela frequência e rapidez das suas
@@ -48,7 +41,6 @@ Se encontrar algum código brilhante, lembre-se de avisá-los!
 
 
 
-[4]: http://rubycorner.com
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

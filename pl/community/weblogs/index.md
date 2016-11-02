@@ -10,18 +10,6 @@ fragmenty kodu Rubiego, nowe techniki lub spekulujących o przyszłości
 tego języka.
 {: .summary}
 
-### Szukanie Blogów
-
-[**Ruby na del.icio.us**][1]\: Ruby i Rails to tagi, które stale
-utrzymują sie w pierwszej pięćdziesiątce tagów na del.icio.us,
-popularnym serwisie dzielenia się linkami. Obserwuj tag [ruby][1] i
-[najpopularniejszą listę][2] aby zauważyć nowości w społeczności Rubiego
-na całym świecie.
-
-**Agregatory**\: [Ruby Corner][4], [Planet Ruby][5],
-oraz [PlanetRubyOnRails.com][6] to serwisy gromadzące grupy blogów na
-temat Rubiego w celu łatwiejszego czytania.
-
 ### Blogi Godne Polecenia
 
 A few notable blogs stand out for the frequency and immediacy of their
@@ -44,11 +32,6 @@ kodu, pamiętaj aby ich o tym poinformować ! :)
 
 
 
-[1]: http://del.icio.us/tag/ruby
-[2]: http://del.icio.us/popular/ruby
-[4]: http://rubycorner.com
-[5]: http://planetruby.0x42.net/
-[6]: http://www.planetrubyonrails.com/
 [7]: http://oreillynet.com/ruby/
 [8]: http://weblog.rubyonrails.org/
 [9]: http://www.rubyinside.com/

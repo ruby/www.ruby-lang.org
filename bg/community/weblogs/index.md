@@ -8,12 +8,6 @@ lang: bg
 нови техники, съвети и трикове.
 {: .summary}
 
-### Търсене на Ruby блогове
-
-Някои **хранилки** същестуват от много години. Някои от тях:
-
-* [Ruby Corner][4]
-
 ### Интересни блогове
 
 * [**O’Reilly Ruby**][8] е групов блог, където можете да намерите
@@ -34,7 +28,6 @@ Ruby е популярна тема в [Digg][13], [Slashdot][14], [reddit][15],
 
 
 
-[4]: http://rubycorner.com
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/

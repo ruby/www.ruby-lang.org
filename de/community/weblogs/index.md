@@ -10,18 +10,6 @@ Ruby-Code enthalten, neue Techniken beschreiben oder über die Zukunft
 von Ruby spekulieren.
 {: .summary}
 
-### Ruby-Blogs finden
-
-[**Ruby bei del.icio.us**][1]\: Ruby und Rails befinden sich unter den
-Top 50 Tags auf del.icio.us, einer populären Seite zur Verwaltung von
-Bookmarks. Wer auf der Suche nach neuen, interessanten Links ist, sollte
-sich den [ruby][1]-Tag anschauen. Für aktuelle Trends kann die
-[Popularitätsskala][2] im Allgemeinen von Interesse sein.
-
-**Aggregatoren**\: [Ruby Corner][4]
-und andere Seiten sammeln Ruby-Beiträge aus
-Blogs und bereiten sie zur besseren Lesbarkeit auf.
-
 ### Erwähnenswerte Blogs
 
 Einige Blogs sind wegen ihres frequenten Outputs und der Aktualität zu
@@ -56,9 +44,6 @@ Thema. Wer interessanten Code findet, sollte sich dort melden.
 
 
 
-[1]: http://del.icio.us/tag/ruby
-[2]: http://del.icio.us/popular/ruby
-[4]: http://rubycorner.com
 [7]: http://www.rubyist.net/~matz/
 [8]: http://www.ruby-mine.de/
 [9]: http://www.rubyinside.com/

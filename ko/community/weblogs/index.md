@@ -10,13 +10,6 @@ lang: ko
 있습니다.
 {: .summary}
 
-### 루비 블로그 채광하기
-
-몇몇 **플래닛**(온라인 전문 피드 수집기)은 이미 다년간 운영되고 있습니다.
-좋은 콘텐츠를 제공하는 플래닛의 일부를 소개합니다.
-
-* [Ruby Corner][4](영문)
-
 ### 주목할 만한 블로그들
 
 업데이트 빈도나 속도에 주목할 만한 블로그들
@@ -43,7 +36,6 @@ lang: ko
 
 
 
-[4]: http://rubycorner.com
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
