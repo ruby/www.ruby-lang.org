@@ -37,7 +37,7 @@ Ruby – это тщательно сбалансированный язык. Е
 Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
 "Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
 
-Ruby-Talk, основная [рассылка](/en/community/mailing-lists/) для
+Ruby-Talk, основная [рассылка](/ru/community/mailing-lists/) для
 обсуждения языка Ruby, содержала в среднем 200 сообщений ежедневно в 2006
 году. В последние годы это количество уменьшилось, так как сообщество
 стало использовать несколько тематических рассылок вместо одной общей.
