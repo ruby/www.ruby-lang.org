@@ -10,6 +10,12 @@ Ruby-Code enthalten, neue Techniken beschreiben oder über die Zukunft
 von Ruby spekulieren.
 {: .summary}
 
+### Ruby-Blogs finden
+
+* [**RubyFlow**][rubyflow], „das Linkblog der Ruby- und Rails-Community“,
+  bietet Ruby-Neuigkeiten in der Form von Links zu Bibliotheken,
+  Blog-Artikeln, Tutorials, und anderen Materialien zu Ruby.
+
 ### Erwähnenswerte Blogs
 
 Einige Blogs sind wegen ihres frequenten Outputs und der Aktualität zu
@@ -44,6 +50,7 @@ Thema. Wer interessanten Code findet, sollte sich dort melden.
 
 
 
+[rubyflow]: http://www.rubyflow.com/
 [7]: http://www.rubyist.net/~matz/
 [8]: http://www.ruby-mine.de/
 [9]: http://www.rubyinside.com/
