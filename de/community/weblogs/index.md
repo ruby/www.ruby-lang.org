@@ -14,7 +14,7 @@ von Ruby spekulieren.
 
 * [**RubyFlow**][rubyflow], „das Linkblog der Ruby- und Rails-Community“,
   bietet Ruby-Neuigkeiten in der Form von Links zu Bibliotheken,
-  Blog-Artikeln, Tutorials, und anderen Materialien zu Ruby.
+  Blog-Artikeln, Tutorials und anderen Materialien zu Ruby.
 
 ### Erwähnenswerte Blogs
 
