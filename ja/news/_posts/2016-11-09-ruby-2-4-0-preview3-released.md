@@ -4,7 +4,7 @@ title: "Ruby 2.4.0-preview3 リリース"
 author: "naruse"
 translator:
 date: 2016-11-09 18:00:00 +0900
-lang: en
+lang: ja
 ---
 
 Ruby 2.4.0-preview3がリリースされました.

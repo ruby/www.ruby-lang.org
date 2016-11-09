@@ -24,7 +24,7 @@ This improvement is discussed with many people, especially with Yura Sokolov.
 ## Binding#irb: Start a REPL session like `binding.pry`
 
 While you are debugging, you may often use `p` to see the value of variables.
-With [pry](https://github.com/pry/pry) and you wrote `binding.pry` in your applicatioin,
+With [pry](https://github.com/pry/pry) and you wrote `binding.pry` in your application,
 it will launch REPL and you can run any ruby code.
 [r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a) introduces `binding.irb` which behaves like that with irb.
 
