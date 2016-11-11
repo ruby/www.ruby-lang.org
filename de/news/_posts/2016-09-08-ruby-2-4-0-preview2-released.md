@@ -80,7 +80,7 @@ Versuchen Sie Ruby 2.4.0-preview1, haben Sie Spaß daran und [geben Sie Rückmel
 ## Sonstige wesentliche Änderungen seit 2.3
 
 * Unterstützung von OpenSSL 1.1.0
-* ext/tk wurde aus der stdlib entfernt [Feature #8539]
+* ext/tk wurde aus der stdlib entfernt [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 
 Siehe die [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
 und das [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)

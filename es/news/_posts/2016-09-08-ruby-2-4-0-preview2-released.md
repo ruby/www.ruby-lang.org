@@ -72,7 +72,7 @@ La detección de deadlocks en Ruby 2.4 muestra los hilos con sus respectivas tra
 ## Otros cambios notables desde 2.3
 
 * Soporte para OpenSSL 1.1.0
-* ext/tk fue removido de stdlib [Funcionalidad #8539]
+* ext/tk fue removido de stdlib [Funcionalidad #8539](https://bugs.ruby-lang.org/issues/8539)
 
 Ve [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
 y [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)

@@ -75,7 +75,7 @@ Dilettatevi nella programmazione con Ruby 2.4.0-preview2 e
 ## Modifiche importanti dalla 2.3
 
 * Supporta OpenSSL 1.1.0
-* ext/tk rimosso dalla stdlib [Feature #8539]
+* ext/tk rimosso dalla stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 
 Vedere le [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
 e il [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)

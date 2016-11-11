@@ -84,8 +84,8 @@ ASCII 대/소문자 대응 대신에 유니코드 대/소문자 대응을 지원
 ## 2.3 이후의 주목할 만한 변경
 
 * OpenSSL 1.1.0을 지원합니다.
-* stdlib에서 ext/tk가 제거됩니다. [Feature #8539]
-* stdlib에서 XMLRPC가 제거됩니다. [Feature #12160]
+* stdlib에서 ext/tk가 제거됩니다. [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
+* stdlib에서 XMLRPC가 제거됩니다. [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
 자세한 내용은 [뉴스](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)와
 [변경기록](https://github.com/ruby/ruby/blob/v2_4_0_preview3/ChangeLog)을
