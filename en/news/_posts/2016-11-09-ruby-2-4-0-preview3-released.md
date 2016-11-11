@@ -87,8 +87,8 @@ Try and enjoy programming with Ruby 2.4.0-preview3, and
 ## Other notable changes since 2.3
 
 * Support OpenSSL 1.1.0
-* ext/tk is now removed from stdlib [Feature #8539]
-* XMLRPC is now removed from stdlib [Feature #12160]
+* ext/tk is now removed from stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
+* XMLRPC is now removed from stdlib [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)
 and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview3/ChangeLog)
