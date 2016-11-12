@@ -74,7 +74,8 @@ Coba dan nikmati memprogram dengan Ruby 2.4.0-preview2, dan
 ## Perubahan Penting sejak 2.3
 
 * Mendukung OpenSSL 1.1.0
-* ext/tk sekarang dihapus dari stdlib [Feature #8539]
+* ext/tk sekarang dihapus dari stdlib [Feature
+  #8539](https://bugs.ruby-lang.org/issues/8539)
 
 Lihat [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
 dan [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)
