@@ -57,7 +57,7 @@ Ruby 2.4 的死鎖檢查會顯示錯誤資訊及相依的線程。
 ## 自 2.3 起重要的變化
 
 * 支援 OpenSSL 1.1.0 版本
-* ext/tk 從標準函式庫移除 [Feature #8539]
+* ext/tk 從標準函式庫移除 [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 
 請參閱 [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS) 和
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)
