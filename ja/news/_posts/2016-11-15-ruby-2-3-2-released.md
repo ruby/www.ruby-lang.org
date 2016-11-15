@@ -32,10 +32,10 @@ Ruby 2.3.2 がリリースされました。これは安定版 2.3 系列の TEE
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.tar.xz](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.tar.xz)
 
-      SIZE:   17814200 bytes
-      SHA1:   baef56b27941bfbfac6e2cd005b686d320c7f124
-      SHA256: 8d7f6ca0f16d77e3d242b24da38985b7539f58dc0da177ec633a83d0c8f5b197
-      SHA512: 833e76555c72fd142d89701715e6c6d838121347c4c7aa857478ba1e8f7596aa7c4fd1950046322747e46db041288747e4c1943cf9b13e064c6e85ee60d6515a
+      SIZE:   11420276 bytes
+      SHA1:   b7c780dbfc34b5baea116504ae700f68c92379a0
+      SHA256: 5c78f311045ce48160092160444dec2744941a5e37d7865032978bd5bf392f0c
+      SHA512: f2e602281cbcfad81b8197b9555bf637a1ef34f51dbc7548e5e0c5996ab1b7db5bd9eeb902128d37eed90f39b559c569aa75f2b29fe5f65085be65a63206fd72
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.zip](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.zip)
 
