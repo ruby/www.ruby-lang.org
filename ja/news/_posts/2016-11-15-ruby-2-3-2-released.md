@@ -2,8 +2,8 @@
 layout: news_post
 title: "Ruby 2.3.2 リリース"
 author: "nagachika"
-translator: "nagachika"
-date: 2016-04-26 12:00:00 +0000
+translator:
+date: 2016-11-15 12:00:00 +0000
 lang: ja
 ---
 
