@@ -166,7 +166,7 @@ namespace :check do
 
   desc "Check for broken links on http://localhost:#{localport}/"
   task :links do
-    gem 'spidr', '~> 0.4'
+    gem 'spidr', '~> 0.6'
     require 'spidr'
 
     url_map = Hash.new { |hash,key| hash[key] = [] }
