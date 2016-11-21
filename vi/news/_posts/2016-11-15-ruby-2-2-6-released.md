@@ -9,7 +9,7 @@ lang: vi
 
 Ruby 2.2.6 mới được phát hành
 
-Bản này kèm SSL certificates mới cho RubyGems và 80 vá lỗi.
+Bản này có kèm theo SSL certificates mới cho RubyGems, và fix khoảng 80 lỗi khác từ bản release trước.
 
 Xen thêm chi tiết trong [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog).
 
@@ -47,6 +47,6 @@ Xen thêm chi tiết trong [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/
 
 Cảm ơn tất cả mọi người đã giúp đỡ với ấn bản này.
 
-Bảo trì của Ruby 2.2 (kèm luôn cả ấn bản này) được dựa
+Việc bảo trì của Ruby 2.2 (kèm luôn cả ấn bản này) được dựa
 trên "Bản chấp thuận về việc bảo trì các phiên bản Ruby bền vững" của
 [Ruby Association](http://www.ruby.or.jp/).
