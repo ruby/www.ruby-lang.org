@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby ENV['CUSTOM_RUBY_VERSION'] || '2.3.1'
+ruby ENV['CUSTOM_RUBY_VERSION'] || '~> 2.3.2'
 
 gem 'rake'
 gem 'jekyll', '~> 3.0'
