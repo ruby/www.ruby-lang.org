@@ -11,6 +11,7 @@ Ruby 2.3.3 has been released.
 
 This release contains a bug fix about Refinements and Module#prepend.
 The mixture use of Module#refine and Module#prepend to the same Class could cause unexpected NoMethodError.
+This is a regression on Ruby 2.3.2 released last week.
 See [[Bug #12920]](https://bugs.ruby-lang.org/issues/12920) for details.
 
 There are some bugfixes too.
