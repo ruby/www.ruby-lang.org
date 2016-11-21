@@ -7,11 +7,12 @@ date: 2016-11-15 12:00:00 +0000
 lang: ko
 ---
 
-루비 2.3.2이 릴리스 되었습니다.
+루비 2.3.2가 릴리스 되었습니다.
 
 2.3 안정 버전 시리즈의 TEENY 버전입니다.
 
 이 릴리스는 RubyGems 2.5.2와 갱신된 ssl 인증서를 포함합니다.
+
 또한 많은 버그 수정도 포함되었습니다.
 자세한 사항은
 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)를

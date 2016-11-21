@@ -10,10 +10,10 @@ lang: ko
 루비 2.3.3이 릴리스 되었습니다.
 
 이 릴리스는 Refinement와 Module#prepend에 대한 버그 수정을 포함하고 있습니다.
-같은 클래스에서 Module#refine와 Module#prepend를 섞어서 사용하게 되면
+같은 클래스에서 Module#refine과 Module#prepend를 섞어서 사용하게 되면
 기대하지 않은 NoMethodError가 발생할 수 있습니다.
-저번 주에 릴리스된 루비 2.3.2 버전을 회귀한 것입니다.
-더 자세한 설명은 [[Bug #12920]](https://bugs.ruby-lang.org/issues/12920)
+이는 지난주에 릴리스된 루비 2.3.2 버전의 회귀입니다.
+더 자세한 설명은 [[Bug #12920]](https://bugs.ruby-lang.org/issues/12920)을 보세요.
 
 또한 몇몇 버그 수정도 포함되었습니다.
 자세한 사항은
