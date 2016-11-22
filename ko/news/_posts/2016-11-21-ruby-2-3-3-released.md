@@ -17,7 +17,7 @@ lang: ko
 
 또한 몇몇 버그 수정도 포함되었습니다.
 자세한 사항은
-[ChangeLog](https://github.com/ruby/ruby/compare/v2_3_2...v2_3_3#diff-02f0b547c2779d25cff89672135f20e3)를
+[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)를
 확인해주세요.
 
 ## 다운로드

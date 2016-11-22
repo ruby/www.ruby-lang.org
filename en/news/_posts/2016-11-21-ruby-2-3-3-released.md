@@ -15,7 +15,7 @@ This is a regression on Ruby 2.3.2 released last week.
 See [[Bug #12920]](https://bugs.ruby-lang.org/issues/12920) for details.
 
 There are some bugfixes too.
-See the [ChangeLog](https://github.com/ruby/ruby/compare/v2_3_2...v2_3_3#diff-02f0b547c2779d25cff89672135f20e3)
+See the [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
 for details.
 
 ## Download
