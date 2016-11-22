@@ -206,7 +206,10 @@ namespace :check do
     require 'jekyll'
     options = Jekyll.configuration
     Dir.chdir('_site') do
-      system("validate-website-static --site '#{options['url']}/' --quiet")
+      system("validate-website-static " \
+                   "--verbose " \
+                   "--exclude 'examples' " \
+                   "--site '#{options['url']}/'")
       exit($?.exitstatus)
     end
   end
