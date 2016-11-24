@@ -1,32 +1,19 @@
 ---
 layout: news_post
-title: "Lançado o Ruby 2.4.0-preview3"
+title: "Lançado o Ruby 2.4.0-preview2"
 author: "naruse"
 translator: "Filipe Rocha"
-date: 2016-11-09 18:00:00 +0900
+date: 2016-09-08 18:00:00 +0900
 lang: pt
 ---
 
-Temos o gosto de anunciar a versão 2.4.0-preview3 do Ruby.
+Temos o gosto de anunciar a versão 2.4.0-preview2 do Ruby.
 
-A versão 2.4.0-preview3 do Ruby é a terceira *preview* do Ruby 2.4.0,
+A versão 2.4.0-preview2 do Ruby é a segunda *preview* do Ruby 2.4.0,
 lançada com o fim de obter *feedback* da comunidade.
-
 Poderão
 [enviar *feedback*](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
 uma vez que ainda podem influenciar das funcionalidades.
-
-## [Introdução de melhorias nas hash tables por Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
-
-Melhorar a estrutura interna da hash table (st_table) introduzindo o *open addressing*
-e introdução de um *array* com a ordem de inclusão.
-
-## Binding#irb: Iniciar uma sessão REPL como `binding.pry`
-
-Enquanto está a fazer o *debug*, poderá utilizar `p` para listar o valor das variáveis.
-Com o [pry](https://github.com/pry/pry) e incluindo `binding.pry` na sua aplicação,
-será lançado este REPL para correr qualquer código ruby.
-[r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a) introduz `binding.irb` com o mesmo comportamento para o irb.
 
 ## [Unificar as classes Fixnum e Bignum na classe Integer](https://bugs.ruby-lang.org/issues/12005)
 
@@ -84,49 +71,44 @@ Experimente e desfrute a programação com o Ruby 2.4.0-preview3 e
 
 * Suporta OpenSSL 1.1.0
 * ext/tk foi removido de stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
-* XMLRPC foi removido de stdlib [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
 Consultar as [Notícias](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)
 e o [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview3/ChangeLog)
 para detalhes.
 
 Com todas as alterações,
-[2470 ficheiros alterados, 283051 inserções(+), 64902 eliminações(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview3)
+[2353 ficheiros alterados, 289057 inserções(+), 73847 eliminações(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview2)
 desde o Ruby 2.3.0!
 
 ## Download
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.bz2>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.bz2>
 
-      SIZE:   12615328 bytes
-      SHA1:   fefe49f6a7d5b642936c324f3b05aaac827355db
-      SHA256: 305a2b2c627990e54965393f6eb1c442eeddfa149128ccdd9f4334e2e00a2a52
-      SHA512: 6602c65a7b1e3bc680acc48217108f4335e84fdd74a9cf06f2e2f9ad00a2fccacf9fa035a912bc9d5cc3f0c7a5
-e21475971dfac37b0364311ef3645f25c7ddf9
+  * SIZE:   12463225 bytes
+  * SHA1:   95a501624f1cf4bb0785d3e17afd0ad099f66385
+  * SHA256: 2224c55b2d87b5c0f08d23a4618e870027dbc1cffbfb4a05efd19eac4ff4cf1d
+  * SHA512: 0c9a59a2f57a99c4ee8539a30f41da1de7547566203f89d856e1be9dbb44365754e6c470145dc9336eb324e0feb2f53d9fef18a1564968ac21f9ee528905949f
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.gz>
 
-      SIZE:   15758023 bytes
-      SHA1:   f6a6ec9f7fedad0bf4efee2e42801cc963f60dca
-      SHA256: c35fe752ccfabf69bf48e6aab5111c25a05938b428936f780638e2111934c9dd
-      SHA512: 68556d5252b6813b4c8eeba32733e940207f80694b5c5d20e69bf01eb52929ed2466496b05a895a5ad4831d430
-695e17624eb35b728b2d4d7cf02df756ac48b4
+  * SIZE:   15586514 bytes
+  * SHA1:   492a13c4ddc1c0c218433acb00dcf7ddeef96fe0
+  * SHA256: fec544836428aada2dc593a8cc42ce330798a805e49ecb807a0e21b386fd0b14
+  * SHA512: 5a3de852a7611e79f38219ed7bb13772aaabb25538ca843d38743180a0cc939a4e34c008b61d578da785285196b6b8882270bddc17cbed481237db8afa4c54e4
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.xz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.xz>
 
-      SIZE:   9957596 bytes
-      SHA1:   66592b1a52f985638d639e7c3dd6bdda4e0569d0
-      SHA256: b14be2b5c80bff0d6894ae2b37afdb17a968413e70236ec860f3e2d670b4c317
-      SHA512: 5be20f0b2609745790c2b22f2228e69a840f63c34a117a1f95fd5436af211f0a6db2758d513d3e095a2d97c53c
-80793579cb2a1e00e70cf72c487a88c4a40d33
+  * SIZE:   9886832 bytes
+  * SHA1:   95d5fd7d54d86497194f69ec433755a517dcde8f
+  * SHA256: 6c2d25bedc50c2f19b0e349f0ffd9b9a83000d9cb6a677bf5372fb493d33e16a
+  * SHA512: b9bd898d17583103ee61b4764ac86eb62c9661fca1f41ff0d06a15965a0a1ba581491d4b8a342e527d63e102b6ddcb2acebdabe5b246409ce9711e13f9428d5b
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.zip>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.zip>
 
-      SIZE:   17579012 bytes
-      SHA1:   15d08cff952da3844ae54887b7f74b12d47c9ee2
-      SHA256: b95a8f67fb7d6e852db77c5660c8878c14d68eb72c5501dac164a7e640ecb06e
-      SHA512: fa15e1b7ab0cab56c9a580e1b1e2fee250ee0b9c59546079675a1931a36e37131bd37d64033c75e05d8e9d9fcc
-33ce7850254d3acaca2136cf3bd08b070244f0
+  * SIZE:   17401564 bytes
+  * SHA1:   5f3a5b2fd03f70d49e74ec36be3e0c110f6c17cc
+  * SHA256: 4d0e466148283ad52208b1e1b70b018aefb7fa95b490fc862d5ea4ca284ecdd2
+  * SHA512: 0ef2098d995238580245a4bcee843641199c1194189be13614611e2ffec329278072319a799d409eaf13b1cff45f05a0eae02d9ea8ccc69058fa49e03eca0130
 
 ## Comentários de Lançamento
 
