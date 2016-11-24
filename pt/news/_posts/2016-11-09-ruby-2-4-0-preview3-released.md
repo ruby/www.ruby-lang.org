@@ -49,7 +49,7 @@ O Ruby 2.4 contém, também, as seguintes melhorias na performance incluindo mel
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` e `[x, y].min` estão optimizadas para evitar a criação de um array temporário em certas condições.
+`[x, y].max` e `[x, y].min` estão optimizados para evitar a criação de um array temporário em certas condições.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
@@ -71,7 +71,7 @@ poderá verificar se uma *thread* terminou devido a uma exceção não tratada.
 Enviem-nos *feedback* sobre qual deverá ser o valor pré-definido para `report_on_exception`
 e sobre report-on-GC, que mostra um relatório quando uma *thread* é *garbage collected* sem se juntar.
 
-### [Deteção de *deadlocks* em *threads* mostra todas as *threads* com o seu *backtrace* e dependencias](https://bugs.ruby-lang.org/issues/8214) ola
+### [Deteção de *deadlocks* em *threads* mostra todas as *threads* com o seu *backtrace* e dependencias](https://bugs.ruby-lang.org/issues/8214)
 
 O Ruby tem deteção de *deadlocks* de *threads* em espera, mas relatório não
 inclui informação suficiente para depuração.
