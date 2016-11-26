@@ -62,10 +62,6 @@ ASCII 대/소문자 대응 대신에 유니코드 대/소문자 대응을 지원
 ### [Thread#report_on_exception과 Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
 루비는 다른 스레드에서 명시적으로 접근하지 않는 이상 스레드에서의 예외를 무시합니다.
-
-### [Thread#report_on_exception과 Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
-
-루비는 다른 스레드에서 명시적으로 접근하지 않는 이상 스레드에서의 예외를 무시합니다.
 `report_on_exception = true`를 사용하면,
 처리되지 않은 예외 때문에 스레드가 사망하는 경우, 알림을 받을 수 있게 됩니다.
 
