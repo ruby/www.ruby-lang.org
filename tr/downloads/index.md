@@ -146,7 +146,7 @@ Rubyforge][29] adresini inceleyin.
 
 
 [license]: {{ site.license.url }}
-[5]: http://rubyinstaller.org/
+[5]: https://rubyinstaller.org/
 [6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
 [7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe
 [8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe

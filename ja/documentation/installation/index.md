@@ -231,7 +231,7 @@ $ sudo make install
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
 [active-script-ruby]: http://www.artonx.org/data/asr/
-[rubyinstaller]: http://rubyinstaller.org/
+[rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
