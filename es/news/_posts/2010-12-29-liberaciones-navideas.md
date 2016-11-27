@@ -104,4 +104,4 @@ aplicación.
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip
-[7]: http://rubyinstaller.org/downloads
+[7]: https://rubyinstaller.org/downloads

@@ -73,5 +73,5 @@ Windows向けのバイナリが有志により配布されています。
 [installation]: /ja/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
 [active-script-ruby]: http://www.artonx.org/data/asr/
-[rubyinstaller]: http://rubyinstaller.org/
+[rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
