@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "ruby 2.3.3 rilis"
+title: "Ruby 2.3.3 rilis"
 author: "nagachika"
 translator: "meisyal"
 date: 2016-11-21 10:30:00 +0000
@@ -54,4 +54,3 @@ untuk detail.
 Banyak *commiter*, pengembang, dan pengguna yang menyediakan laporan *bug*
 telah membantu kami membuat rilis ini.
 Terima kasih atas kontribusinya.
-

@@ -52,4 +52,3 @@ untuk detail.
 Banyak *committer*, pengembang, dan pengguna yang menyediakan laporan *bug*
 telah membantu kami untuk membuat rilis ini.
 Terima kasih atas kontribusinya.
-
