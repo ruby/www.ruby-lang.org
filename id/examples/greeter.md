@@ -3,20 +3,20 @@ layout: null
 ---
 
 {% highlight ruby %}
-# kelas TukangSapa
-class TukangSapa
+# Kelas Greeter
+class Greeter
   def initialize(name)
     @name = name.capitalize
   end
 
-  def menyapa
+  def salute
     puts "Halo #{@name}!"
   end
 end
 
-# Membuat obyek baru
-g = TukangSapa.new("dunia")
+# Membuat sebuh objek baru
+g = Greeter.new("dunia")
 
-# Output "Halo dunia!"
-g.menyapa
+# Keluaran "Halo Dunia!"
+g.salute
 {% endhighlight %}
