@@ -15,7 +15,7 @@ Jangan ragu untuk
 [mengirimkan umpan balik](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
 karena Anda masih dapat mengubah fitur-fitur ini.
 
-## [Menyatukan Fixnum dan Bignum ke dalam Integer](https://bugs.ruby-lang.org/issues/1200)
+## [Menyatukan Fixnum dan Bignum ke dalam Integer](https://bugs.ruby-lang.org/issues/12005)
 
 Meskipun [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
 tidak memerinci detail dari kelas Integer,
@@ -74,8 +74,7 @@ Coba dan nikmati memprogram dengan Ruby 2.4.0-preview2, dan
 ## Perubahan Penting sejak 2.3
 
 * Mendukung OpenSSL 1.1.0
-* ext/tk sekarang dihapus dari stdlib [Feature
-  #8539](https://bugs.ruby-lang.org/issues/8539)
+* ext/tk sekarang dihapus dari stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 
 Lihat [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
 dan [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)
