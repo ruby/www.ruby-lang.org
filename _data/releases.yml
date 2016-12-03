@@ -1,3 +1,18 @@
+- version: 2.3.3
+  date: 2016-11-21
+  post: /en/news/2016/11/21/ruby-2-3-3-released/
+- version: 2.3.2
+  date: 2016-11-15
+  post: /en/news/2016/11/15/ruby-2-3-2-released/
+- version: 2.2.6
+  date: 2016-11-15
+  post: /en/news/2016/11/15/ruby-2-2-6-released/
+- version: 2.4.0-preview3
+  date: 2016-11-09
+  post: /en/news/2016/11/09/ruby-2-4-0-preview3-released/
+- version: 2.4.0-preview2
+  date: 2016-09-08
+  post: /en/news/2016/09/08/ruby-2-4-0-preview2-released/
 - version: 2.4.0-preview1
   date: 2016-06-20
   post: /en/news/2016/06/20/ruby-2-4-0-preview1-released/
