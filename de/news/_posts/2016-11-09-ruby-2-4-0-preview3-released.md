@@ -12,11 +12,11 @@ ankündigen zu können.
 
 Ruby 2.4.0-preview3 ist die dritte Vorschau auf Ruby 2.4.0 und wird in
 der Absicht veröffentlicht, Feedback von der Gemeinschaft zu
-erhalten. Bitte [geben Sie uns
-Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
+erhalten. Bitte
+[geben Sie uns Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
 da Sie immer noch Einfluss auf die Features nehmen können.
 
-## [Verbesserung der Hash-Tabellen von Wladimir Makarow](https://bugs.ruby-lang.org/issues/12142)
+## [Verbesserung der Hash-Tabellen (von Wladimir Makarow)](https://bugs.ruby-lang.org/issues/12142)
 
 Die interne Struktur von Hash-Tabellen (st_table) wird durch die
 Einführung offener Adressierung _(open addressing)_ und eines die
@@ -104,8 +104,8 @@ Versuchen Sie Ruby 2.4.0-preview3, haben Sie Spaß daran und [geben Sie Rückmel
 * ext/tk wurde aus der stdlib entfernt [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 * XMLRPC wurde aus der stdlib entfernt [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
-Siehe die [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
-und das [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)
+Siehe die [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)
+und das [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview3/ChangeLog)
 für weitere Informationen.
 
 Mit diesen Änderungen wurden seit Ruby 2.3.0
