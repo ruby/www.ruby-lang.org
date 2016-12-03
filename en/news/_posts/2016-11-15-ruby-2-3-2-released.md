@@ -9,11 +9,12 @@ lang: en
 
 Ruby 2.3.2 has been released.
 
-This is the TEENY version release of the stable 2.3 series.
+This is a TEENY version release of the stable 2.3 series.
 
-This release contains update of RubyGems 2.5.2 and update of included ssl certificates.
+This release contains an update to RubyGems 2.5.2
+and updates of the included SSL certificates.
 
-There are many bugfixes too.
+There are many bugfixes, too.
 See the [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
 for details.
 
