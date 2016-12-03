@@ -17,6 +17,11 @@ Ruby branches see the
 
 ### Ruby releases by version number
 
+This is a preliminary list of Ruby releases.
+The shown dates correspond to the publication dates of the
+English versions of release posts and may differ from the
+actual creation dates of the source tarballs.
+
 <table class="release-list">
 <tr>
 <th>Release Version</th>
