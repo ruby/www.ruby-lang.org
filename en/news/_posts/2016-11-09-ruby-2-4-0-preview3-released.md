@@ -15,18 +15,19 @@ Feel free to
 [send feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
 since you can still influence the features.
 
-## [Introduce hash table improvement by Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
+## [Introduce hash table improvement (by Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
 
-Improve the internal structure of hash table (st_table) with introducing open addressing
-and inclusion order array.
-This improvement is discussed with many people, especially with Yura Sokolov.
+Improve the internal structure of hash table (st_table) by introducing open addressing
+and an inclusion order array.
+This improvement has been discussed with many people, especially with Yura Sokolov.
 
-## Binding#irb: Start a REPL session like `binding.pry`
+## Binding#irb: Start a REPL session similar to `binding.pry`
 
 While you are debugging, you may often use `p` to see the value of variables.
-With [pry](https://github.com/pry/pry) and you wrote `binding.pry` in your application,
-it will launch REPL and you can run any ruby code.
-[r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a) introduces `binding.irb` which behaves like that with irb.
+With [pry](https://github.com/pry/pry) you can use `binding.pry` in your application
+to launch a REPL and run any Ruby code.
+[r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a)
+introduces `binding.irb` which behaves like that with irb.
 
 ## [Unify Fixnum and Bignum into Integer](https://bugs.ruby-lang.org/issues/12005)
 
