@@ -13,7 +13,7 @@ Rilis ini mencakup sebuah perbaikan *bug* Refinements dan Module#prepend.
 Pencampuran penggunaan Module#refine dan Module#prepend pada Class yang sama
 dapat menyebabkan *unexpected* NoMethodError.
 Ini adalah regresi pada rilis Ruby 2.3.2 minggu lalu.
-Lihat [[Bug #12920]](https://bugs.ruby-lang.org/issues/12920) untuk detail.
+Lihat [Bug #12920](https://bugs.ruby-lang.org/issues/12920) untuk detail.
 
 Ada juga beberapa perbaikan *bug*.
 Lihat [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
