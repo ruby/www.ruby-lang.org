@@ -28,7 +28,8 @@ actual creation dates of the source tarballs.
 <th>Release Date</th>
 <th>Release Notes</th>
 </tr>
-{% for release in site.data.releases %}
+{% assign releases = site.data.releases | reverse | sort: "date" | reverse %}
+{% for release in releases %}
 <tr>
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
