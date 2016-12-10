@@ -5,7 +5,7 @@ lang: es
 ---
 
 Aquí puedes obtener las últimas distribuciones de Ruby en tu sabor
-favorito. La versión estable actual es {{ site.downloads.stable[0].version }}.
+favorito. La versión estable actual es {{ site.data.downloads.stable[0].version }}.
 Por favor asegúrate de leer la [licencia de Ruby][license].
 {: .summary}
 
@@ -34,21 +34,21 @@ usar una de las herramientas de terceros en la siguiente sección. Pueden servir
 de ayuda.
 
 * **Estable actual:**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[0].sha256.gz }}
 
 * **Estable previo:**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[1].version }}]({{ site.data.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[1].sha256.gz }}
 
 * **Estable viejo:**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[2].version }}]({{ site.data.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[2].sha256.gz }}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Este es el tarball del último snapshot del branch de la versión actual estable.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Este es el tarball de lo que exista en SVN, hecho diariamente.
     Puede contener errores, ¡úsalo bajo tu responsabilidad!
 

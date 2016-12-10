@@ -5,7 +5,7 @@ lang: id
 ---
 
 Di sini Anda bisa mendapatkan distribusi Ruby terbaru sesuai pilihan Anda.
-Versi stabil saat ini adalah {{ site.downloads.stable[0].version }}.
+Versi stabil saat ini adalah {{ site.data.downloads.stable[0].version }}.
 Pastikan Anda membaca [Lisensi Ruby][license] terlebih dahulu.
 {: .summary}
 
@@ -34,26 +34,26 @@ Lihat halaman [Instalasi][installation] untuk detail membangun
 Ruby dari kode sumbernya. Jika Anda memiliki masalah kompilasi Ruby, pertimbangkan menggunakan
 salah satu kakas bantu pihak ketiga yang telah disebutkan sebelumnya. Itu mungkin membantu Anda.
 
-* **Stable releases:**{% for release in site.downloads.stable %}
+* **Stable releases:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **Pada fase perawatan keamanan (akan EOL segera!):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **Pada fase perawatan keamanan (akan EOL segera!):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **Tidak dirawat sama sekali (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **Tidak dirawat sama sekali (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Ini adalah *tarball* dari *snapshot branch* yang stabil saat ini.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Ini adalah *tarball* dari apapun yang ada di SVN, *nightly*.
     Ini mungkin terdapat *bugs* atau masalah lain, gunakan secara hati-hati!
 

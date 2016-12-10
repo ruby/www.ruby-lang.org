@@ -5,7 +5,7 @@ lang: en
 ---
 
 Here you can get the latest Ruby distributions in your favorite flavor.
-The current stable version is {{ site.downloads.stable[0].version }}.
+The current stable version is {{ site.data.downloads.stable[0].version }}.
 Please be sure to read [Ruby’s License][license].
 {: .summary}
 
@@ -34,7 +34,7 @@ See the [Installation][installation] page for details on building
 Ruby from source. If you have an issue compiling Ruby, consider using
 one of the third party tools mentioned above. They may help you.
 
-* **Stable releases:**{% for release in site.downloads.stable %}
+* **Stable releases:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
@@ -42,22 +42,22 @@ one of the third party tools mentioned above. They may help you.
   * [Ruby 2.4.0-preview3](https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.gz)<br>
     sha256: c35fe752ccfabf69bf48e6aab5111c25a05938b428936f780638e2111934c9dd
 
-{% if site.downloads.security_maintenance %}
-* **In security maintenance phase (will EOL soon!):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **In security maintenance phase (will EOL soon!):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **Not maintained anymore (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **Not maintained anymore (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     This is a tarball of the latest snapshot of the current stable branch.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     This is a tarball of whatever is in SVN, made nightly.
     This may contain bugs or other issues, use at your own risk!
 

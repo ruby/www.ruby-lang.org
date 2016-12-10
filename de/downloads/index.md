@@ -5,7 +5,7 @@ lang: de
 ---
 
 Hier kannst Du die aktuellen Ruby-Distributionen herunterladen.
-Die stabile Version ist derzeit {{ site.downloads.stable[0].version }}.
+Die stabile Version ist derzeit {{ site.data.downloads.stable[0].version }}.
 Bitte nimm auch [Rubys Lizenz][license] zur Kenntnis.
 {: .summary}
 
@@ -36,26 +36,26 @@ Siehe die [Installationsanleitung][installation] für Details.
 Falls es Schwierigkeiten beim Kompilieren geben sollte, solltest Du
 vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
 
-* **Stabile Versionen:**{% for release in site.downloads.stable %}
+* **Stabile Versionen:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **In der Phase der Sicherheits-Maintenance (Unterstützung endet bald!):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **In der Phase der Sicherheits-Maintenance (Unterstützung endet bald!):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **Nicht mehr unterstützt (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **Nicht mehr unterstützt (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Hierbei handelt es sich um den neuesten Snapshot des stabilen Zweiges.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Hierbei handelt es sich um eine Kopie der SVN-Version von letzter Nacht.
     Es besteht durchaus die Gefahr, dass in dieser Version noch nicht
     korrigierte Fehler enthalten sind.

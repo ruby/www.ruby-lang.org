@@ -7,7 +7,7 @@ lang: tr
 {% include out-of-date.html %}
 
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
-En son kararlı sürüm {{ site.downloads.stable[0].version }},
+En son kararlı sürüm {{ site.data.downloads.stable[0].version }},
 lütfen önce [Ruby lisansını][license] okuyun.
 {: .summary}
 
@@ -17,13 +17,13 @@ Kaynak kodundan kurmak, platformunuza yeterince hakimseniz ve
 ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
-* [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})
-  (sha256:&nbsp;{{ site.downloads.stable[0].sha256.gz }})
+* [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})
+  (sha256:&nbsp;{{ site.data.downloads.stable[0].sha256.gz }})
   Kararlı Versiyon (*tavsiye edilir*)
-* [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }})
+* [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }})
   Bu son kararlı SVN’nin tar gzip hali. Son kararlı
   sürümden daha iyi olması beklenir.
-* [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }})
+* [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }})
   Bu son SVN’nin tar gzip hali. Çözülmemiş problemleri olabilir.
 
 Ruby Subversion ve Git depoları hakkında bilgi için [Ruby

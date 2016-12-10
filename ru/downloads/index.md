@@ -5,7 +5,7 @@ lang: ru
 ---
 
 Здесь вы найдете последние дистрибутивы Ruby на любой вкус. Текущая
-стабильная версия {{ site.downloads.stable[0].version }}.
+стабильная версия {{ site.data.downloads.stable[0].version }}.
 Пожалуйста, ознакомьтесь с [лицензией Ruby][license].
 {: .summary}
 
@@ -35,26 +35,26 @@ lang: ru
 из исходников. Если у вас возникла сложность с компиляцией Ruby, попробуйте один из
 сторонних инструментов из следующей секции. Они могут помочь вам.
 
-* **Стабильные релизы:**{% for release in site.downloads.stable %}
+* **Стабильные релизы:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **На стадии поддержки безопасности (скоро будет остановлена):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **На стадии поддержки безопасности (скоро будет остановлена):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **Больше не поддерживается (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **Больше не поддерживается (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Слепки:**
-  * [Стабильный слепок]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Стабильный слепок]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Это архив свежайшего слепка текущей стабильной ветки.
-  * [Nightly слепок]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly слепок]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Это архив того, что в SVN, сделанный ночью.
     Может содержать баги и другие проблем, используйте на собственный риск.
 

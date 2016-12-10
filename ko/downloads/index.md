@@ -5,7 +5,7 @@ lang: ko
 ---
 
 자신이 선호하는 방식으로 최신 루비 배포판을 설치할 수 있습니다.
-현재 안정 버전은 {{ site.downloads.stable[0].version }}입니다.
+현재 안정 버전은 {{ site.data.downloads.stable[0].version }}입니다.
 [루비 라이센스][license]를 읽어 보십시오.
 {: .summary}
 
@@ -35,26 +35,26 @@ lang: ko
 밑에서 소개하는 서드파티 도구 중 하나를 이용해볼 것을 고려해 보십시오.
 도움이 될 것입니다.
 
-* **안정 릴리스:**{% for release in site.downloads.stable %}
+* **안정 릴리스:**{% for release in site.data.downloads.stable %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **보안 유지보수 단계(곧 EOL 예정!):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **보안 유지보수 단계(곧 EOL 예정!):**{% for release in site.data.downloads.security_maintenance %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **더 이상 유지보수 없음(EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **더 이상 유지보수 없음(EOL):**{% for release in site.data.downloads.eol %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **스냅숏:**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     안정 브랜치의 최신 스냅숏을 tarball로 압축한 것.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     나이틀리로 제작된 SVN 상의 모든 것을 tarball로 압축한 것.
     본 스냅숏은 버그 혹은 기타 이슈를 포함하고 있을 수 있으니 주의하여 사용하십시오!
 

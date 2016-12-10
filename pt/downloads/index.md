@@ -5,7 +5,7 @@ lang: pt
 ---
 
 Aqui você poderá obter as distribuições mais recentes de Ruby em seus sabores
-preferidos. A versão estável atual é a {{ site.downloads.stable[0].version }}.
+preferidos. A versão estável atual é a {{ site.data.downloads.stable[0].version }}.
 Por favor certifique-se de ter lido a [Licença do Ruby][license].
 {: .summary}
 
@@ -36,26 +36,26 @@ como compilar Ruby a partir dos fontes. Se você tiver algum problema
 compilando Ruby, considere utilizar uma das ferramentas de terceiros
 mencionadas acima. Elas podem te ajudar.
 
-* **Versões estáveis:**{% for release in site.downloads.stable %}
+* **Versões estáveis:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **Com suporte a atualizações de segurança (EOL em breve!):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **Com suporte a atualizações de segurança (EOL em breve!):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **Sem suporte a atualizações (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **Sem suporte a atualizações (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
-  * [Snapshot Estável]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Snapshot Estável]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Este é um arquivo compactado com o snapshot mais recente do branch estável.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Este é um arquivo compactado do que está no SVN, criado todas as noites.
     Ele pode conter bugs ou outros problemas, use por sua própria conta e risco!
 

@@ -5,7 +5,7 @@ lang: pl
 ---
 
 Tutaj znajdziesz najnowsze dystrybucje języka Ruby. Aktualna stabilna
-wersja to {{ site.downloads.stable[0].version }}. Pamiętaj aby przeczytać
+wersja to {{ site.data.downloads.stable[0].version }}. Pamiętaj aby przeczytać
 [licencję Rubiego][license].
 {: .summary}
 
@@ -37,21 +37,21 @@ budowania Rubiego ze źródeł. Jeśli masz problem z kompilacją Rubiego rozwa�
 skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
 
 * **Obecny stabilny:**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[0].sha256.gz }}
 
 * **Poprzedni stabilny:**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[1].version }}]({{ site.data.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[1].sha256.gz }}
 
 * **Stary stabilny:**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[2].version }}]({{ site.data.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[2].sha256.gz }}
 
 * **Migawki:**
-  * [Stabilna migawka]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stabilna migawka]({{ site.data.downloads.stable_snapshot.url.gz }}):
     To jest tarball ostatniej migawki stabilnej obecnego stabilnego brancha.
-  * [Nocna migawka]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nocna migawka]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     To jest tarball tego co jest w SVN, przygotowany
     w nocy. Może zawierać błędy lub inne problemy, używaj na własne ryzyko!
 

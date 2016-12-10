@@ -5,7 +5,7 @@ lang: bg
 ---
 
 Това е мястото, от където можете да свалите последната версия на Ruby.
-Наличната стабилна версия е {{ site.downloads.stable[0].version }}.
+Наличната стабилна версия е {{ site.data.downloads.stable[0].version }}.
 Препоръчително е да прочете [Лиценз на Ruby][license].
 {: .summary}
 
@@ -37,26 +37,26 @@ Ruby може да бъде инсталиран и от изходен код �
 може да използвате някое от приложенията за управление на Ruby версии,
 споменати по-горе. Те могат да ви помогнат.
 
-* **Стабилни версии:**{% for release in site.downloads.stable %}
+* **Стабилни версии:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **Получават security ъпдейти (скоро ще бъдат преустановени!):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **Получават security ъпдейти (скоро ще бъдат преустановени!):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **Преустановена поддръжка (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **Преустановена поддръжка (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Това е архвирано копие на последната стабилна версия в SVN хранилището.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Това е архивирано копие на последната версия в SVN хранилището.
     Възможно е да съдържа бъгове или некоригирани проблеми.
 

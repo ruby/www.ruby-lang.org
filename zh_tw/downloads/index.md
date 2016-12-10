@@ -5,7 +5,7 @@ lang: zh_tw
 ---
 
 您可以在這裡下載最適合的 Ruby 發行版。目前最新的穩定版本是
-{{ site.downloads.stable[0].version }}。請記得詳閱 [Ruby 版權說明][license]。
+{{ site.data.downloads.stable[0].version }}。請記得詳閱 [Ruby 版權說明][license]。
 {: .summary}
 
 ### 安裝 Ruby 的方法
@@ -26,26 +26,26 @@ lang: zh_tw
 
 進一步關於從原始碼編譯 Ruby 的資訊，請參考[安裝][installation]頁面。若編譯 Ruby 時遇到任何問題，請參考安裝頁面羅列的第三方工具，可能會有幫助。
 
-* **穩定版本：**{% for release in site.downloads.stable %}
+* **穩定版本：**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **處於安全維護週期（即將停止維護！）：**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **處於安全維護週期（即將停止維護！）：**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **不再維護（停止維護）：**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **不再維護（停止維護）：**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **快照：**
-  * [穩定版快照]({{ site.downloads.stable_snapshot.url.gz }})：
+  * [穩定版快照]({{ site.data.downloads.stable_snapshot.url.gz }})：
     這是當前穩定版本分支的 tarball 的最新快照；
-  * [最新版本]({{ site.downloads.nightly_snapshot.url.gz }})：
+  * [最新版本]({{ site.data.downloads.nightly_snapshot.url.gz }})：
     這是 SVN 上的 tarball，每晚更新。
     可能有問題或 bug，謹慎使用，風險自負！
 

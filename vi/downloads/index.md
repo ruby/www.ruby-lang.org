@@ -6,7 +6,7 @@ lang: vi
 
 Bạn có thể lấy về bản phân phối Ruby mới nhất cho hầu hết các nền tảng
 tại đây.
-Bản ổn định mới nhất là {{ site.downloads.stable[0].version }}.
+Bản ổn định mới nhất là {{ site.data.downloads.stable[0].version }}.
 Xin tham khảo [giấy phép][license] trước khi dùng.
 {: .summary}
 
@@ -35,26 +35,26 @@ Xem trang [Cài đặt][installation] để biết thêm chi tiết cách biên 
 Ruby từ nguồn. Nếu bạn gặp vấn đề biên dịch Ruby, xin hãy xem xét sử
 dụng một trong những công cụ của bên thứ ba đã được đề cập ở trên.
 
-* **Bản ổn định:**{% for release in site.downloads.stable %}
+* **Bản ổn định:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **Trong giai đoạn duy trì bảo mật (sẽ sớm EOL!):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **Trong giai đoạn duy trì bảo mật (sẽ sớm EOL!):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **Không còn duy trì nữa (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **Không còn duy trì nữa (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Đây là một tarball của snapshot mới nhất của nhánh ổn định hiện hành.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Đây là một tarball của mã mới nhất hiện hữu trong SVN. Gói này được
     tạo ra mỗi đêm. Xin lưu ý gói có thể kèm theo lỗi và một số vấn đề
     khác.

@@ -5,7 +5,7 @@ lang: fr
 ---
 
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
-version stable actuelle est la {{ site.downloads.stable[0].version }}.
+version stable actuelle est la {{ site.data.downloads.stable[0].version }}.
 N’oubliez pas de consulter la [licence Ruby][license].
 {: .summary}
 
@@ -39,21 +39,21 @@ envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
 * **Dernière version stable :**
-  [Ruby {{ site.downloads.stable[0].version }}]({{ site.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.downloads.stable[0].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[0].sha256.gz }}
 
 * **Version stable précédente :**
-  [Ruby {{ site.downloads.stable[1].version }}]({{ site.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.downloads.stable[1].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[1].version }}]({{ site.data.downloads.stable[1].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[1].sha256.gz }}
 
 * **Anciennes versions stables:**
-  [Ruby {{ site.downloads.stable[2].version }}]({{ site.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.downloads.stable[2].sha256.gz }}
+  [Ruby {{ site.data.downloads.stable[2].version }}]({{ site.data.downloads.stable[2].url.gz }})<br>
+  sha256: {{ site.data.downloads.stable[2].sha256.gz }}
 
 * **Snapshots :**
-  * [Stable Snapshot]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Archive de la dernière version publiée à partir de la branche stable courante.
-  * [Nightly Snapshot]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Archive construite chaque nuit à partir du code le plus récent présent sur SVN.
     Comporte probablement des bugs ou d'autres problèmes, utilisez-la en connaissance de cause !
 

@@ -5,7 +5,7 @@ lang: ja
 ---
 
 ここでは、Rubyインタプリタの代表的な入手方法を説明します。
-現在の安定版は {{ site.downloads.stable[0].version }}です。
+現在の安定版は {{ site.data.downloads.stable[0].version }}です。
 [Ruby’sライセンス][license]を必ずお読み下さい。
 {: .summary}
 
@@ -28,26 +28,26 @@ lang: ja
 
 もしコンパイルで問題がある場合、[インストールガイド][installation] ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
 
-* **安定版:**{% for release in site.downloads.stable %}
+* **安定版:**{% for release in site.data.downloads.stable %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-{% if site.downloads.security_maintenance %}
-* **セキュリティ修正のみの安定版 (まもなく EOL):**{% for release in site.downloads.security_maintenance %}
+{% if site.data.downloads.security_maintenance %}
+* **セキュリティ修正のみの安定版 (まもなく EOL):**{% for release in site.data.downloads.security_maintenance %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-{% if site.downloads.eol %}
-* **メンテナンス終了 (EOL):**{% for release in site.downloads.eol %}
+{% if site.data.downloads.eol %}
+* **メンテナンス終了 (EOL):**{% for release in site.data.downloads.eol %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **スナップショット:**
-  * [安定版のスナップショット]({{ site.downloads.stable_snapshot.url.gz }}):
+  * [安定版のスナップショット]({{ site.data.downloads.stable_snapshot.url.gz }}):
     最も新しい現在の安定版ブランチのスナップショットのtarballです。
-  * [ナイトリースナップショット]({{ site.downloads.nightly_snapshot.url.gz }}):
+  * [ナイトリースナップショット]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     毎晩SVNに入っているものから作成しているtarballです。
     バグやその他の問題があるかもしれません。利用する場合は自己責任でお願いします！
 
