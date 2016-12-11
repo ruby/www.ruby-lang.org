@@ -22,6 +22,7 @@ use Rack::Rewrite do
   r302 %r{^/([a-z_]+)/news/2014/08/19/ruby-1\.9\.2-p330-released(.*)$}, "/$1/news/2014/08/19/ruby-1-9-2-p330-released$2"
   r302 %r{^/([a-z_]+)/news/2013/12/21/semantic-versioning-after-2-1-0(.*)$}, "/$1/news/2013/12/21/ruby-version-policy-changes-with-2-1-0$2"
   r302 %r{^/([a-z_]+)/documentation/ruby-from-other-languages/to-ruby-from-c-and-c-(.*)$}, "/$1/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp$2"
+  r302 %r{^/en/news/2010/08/18/ruby-1-9\.2-released(.*)$}, "/en/news/2010/08/18/ruby-1-9-2-released$1"
 
   # URL changes with Jekyll 3, May 2016
   r302 %r{^/(en|id)/news/2012/02/16/security-fix-for-ruby-openssl-module-allow-0n-splitting-as-a-prevention-for-the-tls-beast-attack-(.*)$}, "/$1/news/2012/02/16/security-fix-for-ruby-openssl-module$2"
