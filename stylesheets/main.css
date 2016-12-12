@@ -523,6 +523,11 @@ hr.hidden-modern { display: none; }
   float: left;
 }
 
+.release-list th,
+.release-list td {
+  padding: 2px 2em 2px 0px;
+}
+
 .buttons .button {
   -webkit-appearance: none;
   display: inline-block;

@@ -61,6 +61,11 @@ one of the third party tools mentioned above. They may help you.
     This is a tarball of whatever is in SVN, made nightly.
     This may contain bugs or other issues, use at your own risk!
 
+For more information about specific releases, particularly older releases
+or previews, see the [Releases page][releases].
+Information about the current maintenance status of the various
+Ruby branches can be found on the [Branches page][branches].
+
 For information about the Ruby Subversion and Git repositories, see our
 [Ruby Core](/en/community/ruby-core/) page.
 
@@ -72,4 +77,6 @@ Please try to use a mirror that is near you.
 
 [license]: {{ site.license.url }}
 [installation]: /en/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
