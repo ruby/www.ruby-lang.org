@@ -94,7 +94,7 @@ Try and enjoy programming with Ruby 2.4.0-rc1, and
 See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS) or commit logs for details.
 
 With those changes,
-[2519 files changed, 288606 insertions(+), 83896 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview3)
+[2519 files changed, 288606 insertions(+), 83896 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_rc1)
 since Ruby 2.3.0!
 
 ## Download
