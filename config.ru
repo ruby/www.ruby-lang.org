@@ -16,6 +16,7 @@ use Rack::Rewrite do
   r302 %r{^/(en|ja)/install\.html$}, "/$1/downloads"
 
   # URL changes
+  r302 %r{^/(en|zh_tw)/news/2016/12/11/ruby-2-4-0-rc1-released(.*)$}, "/$1/news/2016/12/12/ruby-2-4-0-rc1-released$2"
   r302 %r{^/(en|fr)/news/2016/08/31/confoo-cfp(.*)$}, "/$1/news/2015/08/31/confoo-cfp$2"
   r302 %r{^/(en|de|it|ja|ko|pl)/installation(.*)$}, "/$1/documentation/installation$2"
   r302 %r{^/([a-z_]+)/news/2014/09/18/ruby-2\.2\.0-preview1-released(.*)$}, "/$1/news/2014/09/18/ruby-2-2-0-preview1-released$2"
