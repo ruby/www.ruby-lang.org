@@ -74,7 +74,7 @@ irb(main):039:0> Greeter.instance_methods
 
 Ouch. Voilà une sacré liste de méthodes. Et pourtant, nous n’en avons
 défini que deux… d’où sortent donc les autres ? En fait, il s’agit d’une
-liste exhaustive des méthodes appliquables aux objets de la classe
+liste exhaustive des méthodes applicables aux objets de la classe
 `Greeter`, y compris celles définies dans les classes *parentes* de
 `Greeter`. Si nous voulons obtenir la listes des méthodes définies
 uniquement pour `Greeter`, il suffit de passer le paramètre `false`\:
