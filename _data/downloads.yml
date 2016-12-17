@@ -1,3 +1,17 @@
+preview:
+
+  - version: 2.4.0-rc1
+    url:
+      bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.bz2
+      gz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.zip
+    sha256:
+      bz2: 3b156b20f9df0dd62cbeeb8e57e66ea872d2a5b55fabdef1889650122bcc2ea7
+      gz: e41ada7650eed2a5800534d1201ba7c88f1627085659df994f47ab4c5e327745
+      xz: 3f014b3186d10676da6c512d14c65db23ccc4bf200fed9d7c6f9a58fd1e3295b
+      zip: 14e6910e36618cddffeb22bad5f1052f907dc31ec93d4aa945bca0905d8a52c4
+
 stable:
 
   - version: 2.3.3

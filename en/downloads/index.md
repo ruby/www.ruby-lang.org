@@ -38,9 +38,9 @@ one of the third party tools mentioned above. They may help you.
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-* **Preview release:**
-  * [Ruby 2.4.0-preview3](https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.gz)<br>
-    sha256: c35fe752ccfabf69bf48e6aab5111c25a05938b428936f780638e2111934c9dd
+* **Preview release:**{% for release in site.data.downloads.preview %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
 * **In security maintenance phase (will EOL soon!):**{% for release in site.data.downloads.security_maintenance %}
