@@ -13,9 +13,9 @@ Diese Veröffentlichung behebt einen Fehler im Bezug auf Refinements
 und Module#prepend, deren Kombination in derselben Klasse einen
 unerwarteten `NoMethodError` verursachte.
 Hierbei handelt es sich um eine Regression in dem letzte Woche
-veröffentlichten Ruby 2.3.2. Siehe [Bug
-#12920](https://bugs.ruby-lang.org/issues/12920) für weitere
-Informationen.
+veröffentlichten Ruby 2.3.2.
+Siehe [Bug #12920](https://bugs.ruby-lang.org/issues/12920)
+für weitere Informationen.
 
 Daneben gab es noch ein paar weitere Fehlerkorrekturen, die im
 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)

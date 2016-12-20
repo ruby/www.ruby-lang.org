@@ -104,7 +104,7 @@ Versuchen Sie Ruby 2.4.0-rc1, haben Sie Spaß daran und [geben Sie Rückmeldung]
 * ext/tk wurde aus der stdlib entfernt [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 * XMLRPC wurde aus der stdlib entfernt [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
-Suege die [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)
+Siehe die [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)
 oder das Commitlog für weitere Informationen.
 
 Mit diesen Änderungen wurden seit Ruby 2.3.0
