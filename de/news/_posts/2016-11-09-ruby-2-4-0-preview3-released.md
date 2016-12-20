@@ -141,7 +141,7 @@ Mit diesen Änderungen wurden seit Ruby 2.3.0
       SHA256: b95a8f67fb7d6e852db77c5660c8878c14d68eb72c5501dac164a7e640ecb06e
       SHA512: fa15e1b7ab0cab56c9a580e1b1e2fee250ee0b9c59546079675a1931a36e37131bd37d64033c75e05d8e9d9fcc33ce7850254d3acaca2136cf3bd08b070244f0
 
-## Release Comment
+## Veröffentlichungskommentar
 
 Siehe auch den Veröffentlichungsplan und andere Informationen:
 
