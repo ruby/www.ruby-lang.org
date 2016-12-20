@@ -39,7 +39,7 @@ Ruby 2.4 menyatukan mereka ke dalam Integer,
 Semua ekstensi C yang bersentuhan dengan kelas Fixnum atau Bignum perlu untuk
 diperbaiki.
 
-Lihat juga [tiket][the ticket](https://bugs.ruby-lang.org/issues/12005) dan [akr's slides](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
+Lihat juga [tiket](https://bugs.ruby-lang.org/issues/12005) dan [akr's slides](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
 
 ## [String mendukung Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
 
