@@ -33,6 +33,7 @@ for different needs and platforms.
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [OS X](#homebrew)
+  * [FreeBSD](#freebsd)
   * [Solaris, OpenIndiana](#solaris)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
@@ -134,6 +135,22 @@ $ brew install ruby
 
 This should install the latest Ruby version.
 
+### FreeBSD
+{: #freebsd}
+
+FreeBSD offers both pre-packaged and source-based methods to install Ruby.
+Prebuilt packages can be installed via the pkg tool:
+
+{% highlight sh %}
+$ pkg install ruby
+{% endhighlight %}
+
+A source-based method can be used to install Ruby using the
+[Ports Collection][freebsd-ports-collection]. This is useful if you want
+to customize the build configuration options.
+
+More information about Ruby and its surrounding ecosystem on FreeBSD
+can be found on the [FreeBSD Ruby Project website][freebsd-ruby].
 
 ### Ruby on Solaris and OpenIndiana
 {: #solaris}
@@ -294,4 +311,6 @@ though, because the installed Ruby won't be managed by any tools.
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
