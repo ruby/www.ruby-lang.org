@@ -38,9 +38,11 @@ one of the third party tools mentioned above. They may help you.
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
-* **Preview release:**{% for release in site.data.downloads.preview %}
+{% if site.data.downloads.preview %}
+* **Preview releases:**{% for release in site.data.downloads.preview %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
 {% if site.data.downloads.security_maintenance %}
 * **In security maintenance phase (will EOL soon!):**{% for release in site.data.downloads.security_maintenance %}
