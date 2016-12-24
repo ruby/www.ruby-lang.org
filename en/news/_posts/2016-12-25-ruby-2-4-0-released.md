@@ -3,13 +3,13 @@ layout: news_post
 title: "Ruby 2.4.0 Released"
 author: "naruse"
 translator:
-date: 2016-12-25 00:00:00 +0900
+date: 2016-12-25 00:00:00 +0000
 lang: en
 ---
 
 We are pleased to announce the release of Ruby 2.4.0.
 
-Ruby 2.4.0 is the first stable release of Ruby 2.4 series.
+Ruby 2.4.0 is the first stable release of the Ruby 2.4 series.
 It introduces many new features, for example:
 
 ## [Introduce hash table improvement (by Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
