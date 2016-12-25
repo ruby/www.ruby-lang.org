@@ -10,7 +10,7 @@ lang: zh_cn
 Ruby 2.3.3 发布了。
 
 本次发布修复了有关于 Refinements 和 Module#prepend 的错误。
-对于同一个 class 混合使用 Module#refine 和 Module#prepend 会引发意料之外的 NoMethodError。
+对于同一个 class 混合使用 Module#refine 和 Module#prepend 会引发意料之外的 `NoMethodError`。
 这是一个上周 Ruby 2.3.2 发布的一个回归。
 参考 [Bug #12920](https://bugs.ruby-lang.org/issues/12920) 来查阅更多细节。
 

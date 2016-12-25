@@ -25,12 +25,12 @@ Ruby 2.4.0-rc1 是 Ruby 2.4.0 的第一个候选版本。
 在 [pry](https://github.com/pry/pry) 的帮助下，你可以通过 `binding.pry`，
 在应用内部启动一个 REPL，并执行任何代码。
 [r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a)
-补丁给 irb 提供了类似的功能。
+这次提交给 irb 提供了类似的功能。
 
 ## [Fixnum 和 Bignum 合并成 Integer](https://bugs.ruby-lang.org/issues/12005)
 
 虽然 [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
-没有明确指定 Integer 的实现细节，但 CRuby 有两个 Integer 类：Fixnum 和 Bignum。 Ruby 2.4 合并为 Integer。
+没有明确指定 Integer 的实现细节，但 CRuby 有两个 Integer 类：Fixnum 和 Bignum。Ruby 2.4 合并为 Integer。
 所有有关 Fixnum 与 Bignum 的 C 语言扩展需要做出修正。
 
 请参考[这个工单](https://bugs.ruby-lang.org/issues/12005)和 [akr 的演示文稿](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf)。
@@ -45,7 +45,7 @@ Ruby 2.4 还包括以下性能提升，和一些语法改进：
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` and `[x, y].min` 被优化，不会某些情况下创建临时数组。
+`[x, y].max` 和 `[x, y].min` 被优化，不会某些情况下创建临时数组。
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
