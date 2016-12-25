@@ -4,7 +4,7 @@ title: "Ruby 2.4.0 发布"
 author: "naruse"
 translator: "Delton Ding"
 date: 2016-12-25 00:00:00 +0000
-lang: zh_tw
+lang: zh_cn
 ---
 
 我们高兴地宣布 Ruby 2.4.0 发布了。
