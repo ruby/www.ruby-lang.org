@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby 2.4.0-preview3 veröffentlicht"
+title: "Ruby 2.4.0-rc1 veröffentlicht"
 author: "naruse"
 translator: "Marvin Gülker"
-date: 2016-11-09 18:00:00 +0900
+date: 2016-12-12 18:00:00 +0900
 lang: de
 ---
 
-Wir freuen uns, die Veröffentlichung von Ruby 2.4.0-preview3
-ankündigen zu können.
+Wir freuen uns, die Veröffentlichung von Ruby 2.4.0-rc1 bekannt geben
+zu können.
 
-Ruby 2.4.0-preview3 ist die dritte Vorschau auf Ruby 2.4.0 und wird in
-der Absicht veröffentlicht, Feedback von der Gemeinschaft zu
-erhalten. Bitte
-[geben Sie uns Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
-da Sie immer noch Einfluss auf die Features nehmen können.
+Ruby 2.4.0-rc1 ist der erste Veröffentlichungskandidat von Ruby 2.4.0
+und dient dazu, Rückmeldungen aus der Community zu
+sammeln. Bitte [geben Sie uns Feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
+da noch immer die Möglichkeit besteht, Einfluss auf die Features zu
+nehmen.
 
 ## [Verbesserung der Hash-Tabellen (von Wladimir Makarow)](https://bugs.ruby-lang.org/issues/12142)
 
@@ -96,50 +96,49 @@ sinnvolles Debugging.
 Die Deadlock-Erkennung von Ruby 2.4 listet Threads nun mit ihrem
 Backtrace und abhängigen Threads.
 
-Versuchen Sie Ruby 2.4.0-preview3, haben Sie Spaß daran und [geben Sie Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+Versuchen Sie Ruby 2.4.0-rc1, haben Sie Spaß daran und [geben Sie Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
 
 ## Sonstige wesentliche Änderungen seit 2.3
 
-* Unterstützung von OpenSSL 1.1.0
+* Unterstützung von OpenSSL 1.1.0 (Unterstützung von 0.9.7 und früher wird aufgegeben)
 * ext/tk wurde aus der stdlib entfernt [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 * XMLRPC wurde aus der stdlib entfernt [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
-Siehe die [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)
-und das [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview3/ChangeLog)
-für weitere Informationen.
+Siehe die [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)
+oder das Commitlog für weitere Informationen.
 
 Mit diesen Änderungen wurden seit Ruby 2.3.0
-[2470 Dateien geändert, 283051 Einfügungen(+), 64902 Löschungen(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview3)!
+[2519 Dateien geändert, 288606 Einfügungen(+), 83896 Löschungen(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_rc1)!
 
 ## Download
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.bz2>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.bz2>
 
-      SIZE:   12615328 bytes
-      SHA1:   fefe49f6a7d5b642936c324f3b05aaac827355db
-      SHA256: 305a2b2c627990e54965393f6eb1c442eeddfa149128ccdd9f4334e2e00a2a52
-      SHA512: 6602c65a7b1e3bc680acc48217108f4335e84fdd74a9cf06f2e2f9ad00a2fccacf9fa035a912bc9d5cc3f0c7a5e21475971dfac37b0364311ef3645f25c7ddf9
+      SIZE:   12512729 bytes
+      SHA1:   a0439652a97a2406b691e8a1e586e2cf08c258ba
+      SHA256: 3b156b20f9df0dd62cbeeb8e57e66ea872d2a5b55fabdef1889650122bcc2ea7
+      SHA512: b43902ac7794487197df55a45256819d2e7540b77f1ed4eb68def3e0473ee98860a400862075bafadbde74f242e1dfe36a18cd6fe05ac42aae1ea6dddc9978ce
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.gz>
 
-      SIZE:   15758023 bytes
-      SHA1:   f6a6ec9f7fedad0bf4efee2e42801cc963f60dca
-      SHA256: c35fe752ccfabf69bf48e6aab5111c25a05938b428936f780638e2111934c9dd
-      SHA512: 68556d5252b6813b4c8eeba32733e940207f80694b5c5d20e69bf01eb52929ed2466496b05a895a5ad4831d430695e17624eb35b728b2d4d7cf02df756ac48b4
+      SIZE:   14098505 bytes
+      SHA1:   6b242f9ec7b908c9aa26e497440684ba06d86927
+      SHA256: e41ada7650eed2a5800534d1201ba7c88f1627085659df994f47ab4c5e327745
+      SHA512: 26d3c60483ce2d6eaabd7077085102fad6633f18cf5d772bacf6f563670030cb7bba22d54d8b7dfa5eac8b52990371c4a6ad1c095dff6f6b3a7bbe1a8ffb3754
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.xz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.xz>
 
-      SIZE:   9957596 bytes
-      SHA1:   66592b1a52f985638d639e7c3dd6bdda4e0569d0
-      SHA256: b14be2b5c80bff0d6894ae2b37afdb17a968413e70236ec860f3e2d670b4c317
-      SHA512: 5be20f0b2609745790c2b22f2228e69a840f63c34a117a1f95fd5436af211f0a6db2758d513d3e095a2d97c53c80793579cb2a1e00e70cf72c487a88c4a40d33
+      SIZE:   9930088 bytes
+      SHA1:   7c404e8bec9859f708927f7203d4f42187e678b7
+      SHA256: 3f014b3186d10676da6c512d14c65db23ccc4bf200fed9d7c6f9a58fd1e3295b
+      SHA512: 22e209e28da1f2394f50c0a7dd5d0d4d4c0c5a6b5b0b02260fad0267a0940b98f0e2b0f36a44f87d1612555cb3022f43cd136a5186c7f87650aa20264408d415
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.zip>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.zip>
 
-      SIZE:   17579012 bytes
-      SHA1:   15d08cff952da3844ae54887b7f74b12d47c9ee2
-      SHA256: b95a8f67fb7d6e852db77c5660c8878c14d68eb72c5501dac164a7e640ecb06e
-      SHA512: fa15e1b7ab0cab56c9a580e1b1e2fee250ee0b9c59546079675a1931a36e37131bd37d64033c75e05d8e9d9fcc33ce7850254d3acaca2136cf3bd08b070244f0
+      SIZE:   15785968 bytes
+      SHA1:   7d82386434ccbb1701f2995286bf29c8b9179e01
+      SHA256: 14e6910e36618cddffeb22bad5f1052f907dc31ec93d4aa945bca0905d8a52c4
+      SHA512: 5dd89320d429e5bd5faf3709be7e5b70f7355304d6324d7ac13a69187e5f1446ad5988c8186bc33f4fea8934288294f9d16fea173f39b2b39967746c4b03d1d4
 
 ## Veröffentlichungskommentar
 

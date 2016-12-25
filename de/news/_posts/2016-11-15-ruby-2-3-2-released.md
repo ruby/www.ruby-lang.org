@@ -47,5 +47,5 @@ für weitere Informationen.
 
 ## Release Comment
 
-Viele Commiter, Entwickler und Nutzer, die Fehler gemeldet haben,
+Viele Committer, Entwickler und Nutzer, die Fehler gemeldet haben,
 halfen uns mit dieser Veröffentlichung. Danke für ihre Mitarbeit.

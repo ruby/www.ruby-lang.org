@@ -6,9 +6,7 @@ lang: fr
 
 Vous trouverez ici des manuels, tutoriels et références pour apprendre
 Ruby. Une bonne partie de ces ressources est en langue anglaise. Sachez
-qu’il existe une association française pour la promotion du langage
-Ruby, [Ruby France][1], qui propose des tutoriels en français ; il
-existe également plusieurs livres en français. Toutefois, la pratique de
+qu’il existe plusieurs livres en français. Toutefois, la pratique de
 l’anglais est recommandée car il s’agit *de facto* de la langue
 dominante en informatique. Bon courage !
 {: .summary}
@@ -144,7 +142,6 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 
 
 
-[1]: http://www.rubyfrance.org
 [2]: http://jeveuxapprendreruby.fr/
 [3]: http://tryruby.org/
 [4]: http://rubykoans.com/

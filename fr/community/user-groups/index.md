@@ -30,12 +30,6 @@ pour le partage des connaissances et, si vous êtes chanceux, des
 réunions et conférences (la mode étant aux barcamp, rencontres autour
 d’un verre dans un lieu adapté aux présentations).
 
-[Ruby France][1]
-: L’association française de promotion du language Ruby fédère un
-  certains nombre de groupes locaux (Paris, Lyon…) et constitue par
-  elle-même un groupe d’utilisateurs, centré autour de la liste de
-  diffusion publique.
-
 [Meetup][2]
 : Un nombre non négligeable de groupes ont choisi de promouvoir leurs
   évènements chez Meetup. Cet outil propose des services variés
@@ -108,7 +102,6 @@ détail [comment organiser un apéro Ruby][19].
 
 
 
-[1]: http://www.rubyfrance.org/
 [2]: http://ruby.meetup.com
 [3]: http://www.meetup.com/parisrb/
 [4]: http://groups.google.com/group/parisrb
