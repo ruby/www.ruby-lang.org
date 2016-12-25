@@ -69,12 +69,12 @@ Rubyにはスレッド待ちのデッドロックを検出する機能があり�
 * ext/tk is now removed from stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 * XMLRPC is now removed from stdlib [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)
-and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview3/ChangeLog)
+See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0/NEWS)
+and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0/doc/ChangeLog-2.4.0)
 for details.
 
 With those changes,
-[2470 files changed, 283051 insertions(+), 64902 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview3)
+[2523 files changed, 289129 insertions(+), 84670 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0)
 since Ruby 2.3.0!
 
 メリークリスマス。Ruby とともに良き休日をおすごしください。
