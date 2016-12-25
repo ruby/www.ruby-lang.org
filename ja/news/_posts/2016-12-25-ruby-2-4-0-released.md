@@ -7,17 +7,16 @@ date: 2016-12-25 00:00:00 +0000
 lang: ja
 ---
 
-
 Ruby 2.4シリーズの最初の安定版である、Ruby 2.4.0がリリースされました。
 
 Ruby 2.4.0 には以下に示すようなたくさんの新機能が含まれています:
 
-## [Introduce hash table improvement by Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
+## [Introduce hash table improvement (by Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
 
 従来Rubyのハッシュテーブルの内部実装 (st_table) ではに双方向連結リストとチェイン法を用いた実装が使われていましたが、挿入順の配列にオープンアドレス法を用いることによる高速化が行われました。
 この改善に際しては多くの方による議論が行われ、とりわけ Yura Sokolov 氏によって多大な貢献がありました。
 
-## Binding#irb: Start a REPL session like `binding.pry`
+## Binding#irb: Start a REPL session similar to `binding.pry`
 
 [pry](https://github.com/pry/pry) を用いると `binding.pry` とアプリケーションに書くことで、その場で対話型実行環境を起動することができ、デバッグの際に便利です。
 [r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a) にて `binding.irb` と書くことで同様なことをirbを用いて行える機能が入りました。

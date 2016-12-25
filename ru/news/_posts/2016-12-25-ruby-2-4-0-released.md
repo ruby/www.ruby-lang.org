@@ -21,15 +21,15 @@ Ruby 2.4.0 является первой стабильной версией в 
 ## `Binding#irb`: интерактивные сессии по примеру `binding.pry`
 
 При поиске ошибок многие из нас используют `p`, чтобы видеть значение переменных.
-При помощи [pry](https://github.com/pry/pry) (`bindings.pry`) уже давно было
+При помощи [pry](https://github.com/pry/pry) (`binding.pry`) уже давно было
 возможно запустить интерактивную сессию и вызывать произвольный код на Ruby.
 Патч [r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a)
-реализует `bindings.irb`, так что теперь можно добиться похожего поведения
+реализует `binding.irb`, так что теперь можно добиться похожего поведения
 при помощи irb.
 
 ## [Объединение `Fixnum` и `Bignum` в `Integer`](https://bugs.ruby-lang.org/issues/12005)
 
-Хотя стандарт [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?cs number=59579)
+Хотя стандарт [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
 не уточняет детали реализации класса `Integer`, Ruby имел два видимых класса:
 `Fixnum` и `Bignum`. Ruby 2.4 объединяет эти классы в `Integer`.
 Все расширения на С, которые работают с классами `Fixnum` или `Bignum` нуждаются
