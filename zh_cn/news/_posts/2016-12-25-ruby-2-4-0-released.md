@@ -1,18 +1,16 @@
 ---
 layout: news_post
-title: "Ruby 2.4.0-rc1 发布"
+title: "Ruby 2.4.0 发布"
 author: "naruse"
 translator: "Delton Ding"
-date: 2016-12-12 18:00:00 +0900
-lang: zh_cn
+date: 2016-12-25 00:00:00 +0000
+lang: zh_tw
 ---
 
-我们高兴地宣布 Ruby 2.4.0-rc1 发布了。
+我们高兴地宣布 Ruby 2.4.0 发布了。
 
-Ruby 2.4.0-rc1 是 Ruby 2.4.0 的第一个候选版本。
-发布 rc1 版本是为了从社区得带更多反馈。
-请[发送反馈](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)，
-因为你可以帮助修复这些功能。
+Ruby 2.4.0 是 Ruby 2.4 的第一个稳定版本。
+包含了很多新功能，比如：
 
 ## [哈希表的提升（由 Vladimir Makarov 提供）](https://bugs.ruby-lang.org/issues/12142)
 
@@ -39,7 +37,7 @@ Ruby 2.4.0-rc1 是 Ruby 2.4.0 的第一个候选版本。
 
 `String/Symbol#upcase/downcase/swapcase/capitalize(!)` 除了 ASCII 之外，现在也可以做 Unicode 的大小写转换了。
 
-## 性能提升
+# 性能提升
 
 Ruby 2.4 还包括以下性能提升，和一些语法改进：
 
@@ -69,50 +67,42 @@ Ruby 忽视线程中的异常，除非另一个线程显式地执行直至结束
 Ruby 在线程等待地时候会进行死锁检查，但是检查的结果没有足够的信息用来调试。
 Ruby 2.4 死锁检查会显示他们的栈信息和依赖线程。
 
-尝试并且享受用与 Ruby 2.4.0-rc1 的编码时光，有任何问题，敬请[反馈](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
-
 ## 其他自 2.3 起显著的改变
 
 * 支持 OpenSSL 1.1.0 版本（对 0.9.7 及之前版本不再支持）
 * ext/tk 现已从标准库中移除 [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 * XMLRPC 现已从标准库中移除 [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
-请参阅 [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)。
+请参阅 [NEWS](https://github.com/ruby/ruby/blob/v2_4_0/NEWS)。
 
-Ruby 2.3.0 以来，已有 [2519 个文件变更，新增代码 288606 行，移除了 83896 行](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_rc1)！
+圣诞快乐！愉快使用 Ruby 2.4 编程吧！
 
 ## 下载
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.bz2>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.bz2>
 
-      SIZE:   12512729 bytes
-      SHA1:   a0439652a97a2406b691e8a1e586e2cf08c258ba
-      SHA256: 3b156b20f9df0dd62cbeeb8e57e66ea872d2a5b55fabdef1889650122bcc2ea7
-      SHA512: b43902ac7794487197df55a45256819d2e7540b77f1ed4eb68def3e0473ee98860a400862075bafadbde74f242e1dfe36a18cd6fe05ac42aae1ea6dddc9978ce
+      SIZE:   12572424 bytes
+      SHA1:   944d2588308391b20a89642472454d1dfe7b2360
+      SHA256: 440bbbdc49d08d3650f340dccb35986d9399177ad69a204def56e5d3954600cf
+      SHA512: bef7bb53f63fb74073d071cc125fb67b273ed0779ef43c2d2969089b9ca21fff1bd012281c5b748f7a3c24dd26e71730d7248c05a01cb23ab2089eb4d02115fe
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.gz>
 
-      SIZE:   14098505 bytes
-      SHA1:   6b242f9ec7b908c9aa26e497440684ba06d86927
-      SHA256: e41ada7650eed2a5800534d1201ba7c88f1627085659df994f47ab4c5e327745
-      SHA512: 26d3c60483ce2d6eaabd7077085102fad6633f18cf5d772bacf6f563670030cb7bba22d54d8b7dfa5eac8b52990371c4a6ad1c095dff6f6b3a7bbe1a8ffb3754
+      SIZE:   14104044 bytes
+      SHA1:   d44a3c50a0e742341ed3033d5db79d865151a4f4
+      SHA256: 152fd0bd15a90b4a18213448f485d4b53e9f7662e1508190aa5b702446b29e3d
+      SHA512: 21c9f596b42dd9cba7a53963a59fed0c2e0c1eb960a4ac7087ea3eaa991ce9252d32639e1edcb75b1d709bc07c4820a6dc336ab427d0643c6e6498e0eacdbc8b
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.xz>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.xz>
 
-      SIZE:   9930088 bytes
-      SHA1:   7c404e8bec9859f708927f7203d4f42187e678b7
-      SHA256: 3f014b3186d10676da6c512d14c65db23ccc4bf200fed9d7c6f9a58fd1e3295b
-      SHA512: 22e209e28da1f2394f50c0a7dd5d0d4d4c0c5a6b5b0b02260fad0267a0940b98f0e2b0f36a44f87d1612555cb3022f43cd136a5186c7f87650aa20264408d415
+      SIZE:   9906880 bytes
+      SHA1:   038804bbd0e77508dd2510b729a9f3b325489b2e
+      SHA256: 3a87fef45cba48b9322236be60c455c13fd4220184ce7287600361319bb63690
+      SHA512: 975a5388592adc038461e0acebb6c0efee242891b2ea8621476401458efe2bc0fdd317d3bf99beb745b0b3808410efdff33862da29c95c027f457943721e3ab6
 
-* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.zip>
+* <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.zip>
 
-      SIZE:   15785968 bytes
-      SHA1:   7d82386434ccbb1701f2995286bf29c8b9179e01
-      SHA256: 14e6910e36618cddffeb22bad5f1052f907dc31ec93d4aa945bca0905d8a52c4
-      SHA512: 5dd89320d429e5bd5faf3709be7e5b70f7355304d6324d7ac13a69187e5f1446ad5988c8186bc33f4fea8934288294f9d16fea173f39b2b39967746c4b03d1d4
-
-## 发布记
-
-有关于发布时间表和其他信息请参考：
-
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+      SIZE:   15758757 bytes
+      SHA1:   29e1bab11551011718c35a51827edcb55bd656fc
+      SHA256: 5c2bbfa26fd6a15a2d70961874b0f3a386206fcc5f698e240dd8b0c9f0f18c5e
+      SHA512: 31d932372ce490eeac0a70bc8dcf842909a90435422398d069c05cf01d994936064b8f4e60879e28a8655c1296eb8e180e348cb95e001ed6ca73cda0ff77de23
