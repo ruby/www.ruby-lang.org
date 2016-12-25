@@ -70,7 +70,7 @@ Rubyにはスレッド待ちのデッドロックを検出する機能があり�
 * XMLRPC is now removed from stdlib [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0/NEWS)
-and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0/ChangeLog)
+and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0/doc/ChangeLog-2.4.0)
 for details.
 
 With those changes,
