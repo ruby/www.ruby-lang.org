@@ -77,7 +77,7 @@ Ruby 2.4 死锁检查会显示他们的栈信息和依赖线程。
 * ext/tk 现已从标准库中移除 [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 * XMLRPC 现已从标准库中移除 [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
-请参阅 [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)。
+请参阅 [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)，或提交记录来了解更多细节。
 
 Ruby 2.3.0 以来，已有 [2519 个文件变更，新增代码 288606 行，移除了 83896 行](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_rc1)！
 
