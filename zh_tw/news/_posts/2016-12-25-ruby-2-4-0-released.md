@@ -36,7 +36,7 @@ Ruby 2.4 還包括以下效能優化及語法變更：
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-優化了 `[x, y].max` and `[x, y].min`，某些情況下不會產生暫時性陣列。
+優化了 `[x, y].max` 和 `[x, y].min`，某些情況下不會產生暫時性陣列。
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
