@@ -39,8 +39,7 @@ Contrairement à PHP, avec Ruby…
 * les parenthèses sont souvent optionnelles, notamment dans les appels
   de méthodes. Usage recommandé pour clarifier la filiation des
   paramètres, cependant ;
-* la bibliothèque standard ne s’organise pas d’après des conventions de
-  nommage, mais en modules et classes ;
+* la bibliothèque standard s’organise en modules et classes ;
 * la réflection est une capacité intrinsèque des objets : pas besoin
   d’utiliser une classe comme `Reflection` en PHP 5 ;
 * les variables sont des références aux objets (leurs noms), pas des
