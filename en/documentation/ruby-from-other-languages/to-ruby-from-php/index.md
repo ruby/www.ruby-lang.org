@@ -39,8 +39,7 @@ Unlike in PHP, in Ruby…
   abs(-1) it’s -1.abs.
 * Parentheses are optional in method calls, except to clarify which
   parameters go to which method calls.
-* Instead of naming conventions, like underscores, the standard library
-  and extensions are organized in modules and classes.
+* The standard library and extensions are organized in modules and classes.
 * Reflection is an inherent capability of objects, you don’t need to use
   `Reflection` classes like in PHP 5.
 * Variables are references.
