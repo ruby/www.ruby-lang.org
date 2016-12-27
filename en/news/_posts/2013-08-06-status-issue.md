@@ -36,7 +36,7 @@ We stopped ftp.ruby-lang.org via http and ftp, because some old packages of Ruby
 We are investigating now. Detail infomation is following issue.
 https://github.com/ruby/www.ruby-lang.org/issues/259
 
-## Update (2013-08-07 14:08 UTC)
+## Update (2013-08-07 05:08 UTC)
 
 We confrimed that follow packages are broken. We got same packages via http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
 <pre>
@@ -56,7 +56,7 @@ ruby-2.0.0-p195.zip
 
 We checked that MD5 checksum of these files are same as our release announcements. ftp.ruby-lang.org via http and ftp is available now.
 
-## Update (2013-08-09 9:30 UTC)
+## Update (2013-08-09 10:30 UTC)
 
 Some of our services have been backed now, which had been suspended since Aug. 6 2013 by the server accident we reported before
 
