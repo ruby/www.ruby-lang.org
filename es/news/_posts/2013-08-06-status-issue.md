@@ -37,7 +37,7 @@ de Ruby son corruptos. Su firma MD5 no corresponde como debe ser.
 Estamos investigando. El detalle del problema se encuentra en el siguiente reporte.
 [https://github.com/ruby/www.ruby-lang.org/issues/259](https://github.com/ruby/www.ruby-lang.org/issues/259).
 
-## Actualización (2013-08-07 14:08 UTC)
+## Actualización (2013-08-07 05:08 UTC)
 
 Hemos confirmado que los siguientes paquetes no sirven. Tenemos los mismos paquetes vía
 [http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/](http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/).
@@ -60,7 +60,7 @@ ruby-2.0.0-p195.zip
 Ya confirmamos que la firma MD5 de estos archivos sean los mismos de nuestros anuncios
 de liberación. El sitio ftp.ruby-lang.org ya se encuentra disponible via http y ftp.
 
-## Actualización (2013-08-09 9:30 UTC)
+## Actualización (2013-08-09 10:30 UTC)
 
 Algunos de los servicios que habían estado deshabilitados desde Agosto 6, 2013 por
 el accidente en los servidores que habíamos reportado ya están de regreso.

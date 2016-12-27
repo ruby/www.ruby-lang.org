@@ -42,7 +42,7 @@ stimmen nicht wie erwartet überein.
 Wir untersuchen den Vorfall momentan. Weitere Informationen sind unter
 [https://github.com/ruby/www.ruby-lang.org/issues/259](https://github.com/ruby/www.ruby-lang.org/issues/259) verfügbar.
 
-## Update (2013-08-07 14:08 UTC)
+## Update (2013-08-07 05:08 UTC)
 
 Unseren Untersuchungen zufolge sind die folgenden Pakete beschädigt,
 die sich auch auf
@@ -67,7 +67,7 @@ in unseren Veröffentlichungshinweisen angegebenen
 entsprechen. ftp.ruby-lang.org ist nun wieder über HTTP und FTP
 zugänglich.
 
-## Update (2013-08-09 9:30 UTC)
+## Update (2013-08-09 10:30 UTC)
 
 Mittlerweile sind die meisten der seit dem 6. August 2013 wegen
 Serverproblemen ausgefallenen Dienste wieder verfügbar:
