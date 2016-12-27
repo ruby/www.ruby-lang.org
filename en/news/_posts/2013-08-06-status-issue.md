@@ -33,7 +33,7 @@ https://github.com/ruby/www.ruby-lang.org/issues.
 
 We stopped ftp.ruby-lang.org via http and ftp, because some old packages of Ruby are broken. MD5 doesn't match as expected.
 
-We are investigating now. Detail infomation can be found in the following issue.
+We are investigating now. Detail information can be found in the following issue.
 https://github.com/ruby/www.ruby-lang.org/issues/259
 
 ## Update (2013-08-07 05:08 UTC)
