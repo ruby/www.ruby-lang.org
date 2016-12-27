@@ -56,9 +56,9 @@ ruby-2.0.0-p195.zip
 
 2013-08-06 に発生したサーバーの障害によるサービスの停止は以下の通り復旧しています。
 
- * ruby-lang.org が提供していたメーリングリストは FML から Mailman へとソフトウェアを変更し再開しました。
-  * 詳細は http://lists.ruby-lang.org をご参照ください。
- * ftp.ruby-lang.org からのパッケージ配布を http と ftp 共に再開しました。
- * 毎日のスナップショットパッケージの作成・配布を再開しました。
+  * ruby-lang.org が提供していたメーリングリストは FML から Mailman へとソフトウェアを変更し再開しました。
+    * 詳細は http://lists.ruby-lang.org をご参照ください。
+  * ftp.ruby-lang.org からのパッケージ配布を http と ftp 共に再開しました。
+  * 毎日のスナップショットパッケージの作成・配布を再開しました。
 
 もし、何か問題を見つけた場合は https://github.com/ruby/www.ruby-lang.org/issues まで報告して頂けると幸いです。
