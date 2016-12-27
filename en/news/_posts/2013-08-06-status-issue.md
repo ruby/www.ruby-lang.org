@@ -31,9 +31,9 @@ https://github.com/ruby/www.ruby-lang.org/issues.
 
 ## Update (2013-08-06 13:18 UTC)
 
-We stopped ftp.ruby-lang.org via http and ftp, because some old packages of Ruby is broken. MD5 doesn't match as expected.
+We stopped ftp.ruby-lang.org via http and ftp, because some old packages of Ruby are broken. MD5 doesn't match as expected.
 
-We are investigating now. Detail infomation is following issue.
+We are investigating now. Detail infomation can be found in the following issue.
 https://github.com/ruby/www.ruby-lang.org/issues/259
 
 ## Update (2013-08-07 05:08 UTC)
@@ -55,15 +55,15 @@ ruby-2.0.0-p195.tar.gz
 ruby-2.0.0-p195.zip
 </pre>
 
-We checked that MD5 checksum of these files are same as our release announcements. ftp.ruby-lang.org via http and ftp is available now.
+We checked that the MD5 checksums of these files are the same as in our release announcements. ftp.ruby-lang.org via http and ftp is available now.
 
 ## Update (2013-08-09 10:30 UTC)
 
-Some of our services have been backed now, which had been suspended since Aug. 6 2013 by the server accident we reported before
+Some of our services have been backed now, which had been suspended since Aug. 6 2013 by the server accident we reported before:
 
-  * Mailing list: We replaced a software to provide the service from FML to Mailman.
-    * For details, please check out http://lists.ruby-lang.org
+  * Mailing lists: We changed the software that provides the service from FML to Mailman.
+    * For details, please check out http://lists.ruby-lang.org.
   * Package distribution: You can now download the packages we're providing from ftp.ruby-lang.org via both http and ftp.
-  * Snapshot packages: We restarted daily snapshot building and packaging
+  * Snapshot packages: We restarted daily snapshot building and packaging.
 
-If you find any problems on our services, please notify us at https://github.com/ruby/www.ruby-lang.org/issues
+If you find any problems on our services, please notify us at https://github.com/ruby/www.ruby-lang.org/issues.
