@@ -38,7 +38,8 @@ https://github.com/ruby/www.ruby-lang.org/issues/259
 
 ## Update (2013-08-07 05:08 UTC)
 
-We confrimed that follow packages are broken. We got same packages via http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
+We confirmed that the following packages were broken. We restored these packages via http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/.
+
 <pre>
 ruby-1.9.3-p426.tar.bz2
 ruby-1.9.3-p426.tar.gz
