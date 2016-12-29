@@ -19,7 +19,7 @@ Ruby-Core
 
 Ruby-Doc
 : Danh sách này thảo luận các tiêu chuẩn về tài liệu cũng như công cụ cho
-  Ruby. ([Lưu trữ tại Gmane][5])
+  Ruby. ([Lưu trữ][5])
 
 Ruby-CVS
 : Danh sách này báo cáo tất cả các commit được lưu trữ tại Ruby-CVS.
@@ -42,4 +42,4 @@ vui lòng thử lại theo cách [thủ công](manual-instructions/).
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/

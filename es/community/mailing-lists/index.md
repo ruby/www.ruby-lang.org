@@ -20,7 +20,7 @@ Ruby-Core
 
 Ruby-Doc
 : Aquí se discuten estándares y herramientas para la documentación de
-  Ruby. ([Archivos en Gmane][6])
+  Ruby. ([Archivos][6])
 
 Ruby-CVS
 : En esta lista se anuncian todos los commits al código en el
@@ -31,12 +31,11 @@ Ruby-CVS
 {% include subscription-form.html %}
 
 Si no recibes el correo de confirmación usando este formulario de
-suscripción, intenta suscribirte de la [forma
-manual](manual-instructions/).
+suscripción, intenta suscribirte de la [forma manual](manual-instructions/).
 
 
 
 [3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[6]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[6]: http://lists.ruby-lang.org/pipermail/ruby-doc/

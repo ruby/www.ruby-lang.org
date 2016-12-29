@@ -18,7 +18,7 @@ Ruby-Core
   활용되고 있습니다. ([Archives][4])
 
 Ruby-Doc
-: 이 곳에서는 문서화 표준과 도구에 관한 토론을 합니다. ([Archives at Gmane][5])
+: 이 곳에서는 문서화 표준과 도구에 관한 토론을 합니다. ([Archives][5])
 
 Ruby-CVS
 : 이 곳에서는 루비의 Subversion 저장소의 커밋들이 보고됩니다.
@@ -40,4 +40,4 @@ comp.lang.ruby 뉴스그룹
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/

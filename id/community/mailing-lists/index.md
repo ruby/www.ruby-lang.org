@@ -28,8 +28,7 @@ Ruby-Core
   penanganan *patch* baru. ([Arsip][12])
 
 Ruby-Doc
-: Mendiskusikan standar dan *tools* dokumentasi Ruby. ([Arsip di
-  Gmane][13])
+: Mendiskusikan standar dan *tools* dokumentasi Ruby. ([Arsip][13])
 
 Ruby-CVS
 : Milis ini melaporkan setiap *commit* yang terjadi pada *repository*
@@ -55,4 +54,4 @@ manual](/id/community/mailing-lists/manual-instructions/).
 [10]: http://rubyhacker.com/clrFAQ.html
 [11]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [12]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[13]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[13]: http://lists.ruby-lang.org/pipermail/ruby-doc/

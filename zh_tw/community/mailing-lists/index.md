@@ -16,7 +16,7 @@ Ruby-Core
 : 此郵件論壇專注於 Ruby 的核心以及重點實作，通常用於修正檔的檢查上。（[彙整][4]）
 
 Ruby-Doc
-: 此郵件論壇專注於 Ruby 的標準文件以及工具。（[在 Gmane 上的彙整][5]）
+: 此郵件論壇專注於 Ruby 的標準文件以及工具。（[彙整][5]）
 
 Ruby-CVS
 : 此郵件列表會回報 Ruby Subversion 版本控制庫的每一個提交。
@@ -36,4 +36,4 @@ The comp.lang.ruby 新聞組
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
