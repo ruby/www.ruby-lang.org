@@ -12,7 +12,7 @@ Ruby has four primary English speaking mailing lists:
 
 Ruby-Talk
 : This is the most popular mailing-list and deals with general topics
-  about Ruby. ([FAQ][2] and [Archives][3])
+  about Ruby. ([Archives][3], [comp.lang.ruby FAQ][clrFAQ])
 
 Ruby-Core
 : This list deals with core and implementation topics about Ruby, often
@@ -27,7 +27,7 @@ Ruby-CVS
 
 The comp.lang.ruby Newsgroup
 : Those who prefer Usenet over mailing lists will want to checkout the
-  [comp.lang.ruby](news:comp.lang.ruby) newsgroup.
+  [comp.lang.ruby](news:comp.lang.ruby) newsgroup. ([FAQ][clrFAQ])
 
 
 ## Subscribe or Unsubscribe
@@ -39,7 +39,7 @@ subscribing the [manual way](manual-instructions/).
 
 
 
-[2]: http://rubyhacker.com/clrFAQ.html
+[clrFAQ]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
