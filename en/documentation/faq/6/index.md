@@ -37,44 +37,57 @@ header: |
 
 ## Syntax
 
-### What does `:var` mean?
+### What does `:name` mean?
 
-A colon followed by a name generates an integer (`Fixnum`) called a symbol
-which corresponds one to one with the identifier. `"var".intern` gives the
-same integer as `:var`, but the `:` form will create a local symbol if it
-doesn't already exist.
+A colon followed by a name generates a Symbol object which corresponds
+one to one with the identifier. During the duration of a program's
+execution the same Symbol object will be created for a given name or string.
+Symbols can also be created with `"name".intern` or `"name".to_sym`.
 
-The routines `catch`, `throw`, `autoload`, and so on, require a string or a
-symbol as an argument.
+Symbol objects can represent identifiers for methods, variables, and so on.
+Some methods, like `define_method`, `method_missing`, or `trace_var`,
+require a symbol. Other methods, e.g. `attr_accessor`, `send`, or `autoload`,
+also accept a string.
 
-`method_missing`, `method_added`, `singleton_method_added`, and others,
-require a symbol.
-
-The fact that a symbol springs into existence the first time it is referenced
-is sometimes used to assign unique values to constants:
+Due to the fact that they are created only once, Symbols are often used as
+hash keys. String hash keys would create a new object for every single use,
+thereby causing some memory overhead.
+There is even a special syntax for symbol hash keys:
 
 ~~~
+person_1 = { :name => "John", :age => 42 }
+person_2 = { name: "Jane", age: 24 }        # alternate syntax
+~~~
+
+Symbols can also be used as enumeration values
+or to assign unique values to constants:
+
+~~~
+status = :open  # :closed, ...
+
 NORTH = :NORTH
 SOUTH = :SOUTH
-EAST  = :EAST
-WEST  = :WEST
 ~~~
 
 ### How can I access the value of a symbol?
 
 To get the value of the variable corresponding to a symbol, you can use
-`id2name` to get the name of the variable, and then eval that to get that
-variable's contents. In the scope of "symbol", do `eval(:symbol.id2name)`.
+`symbol.to_s` or `"#{symbol}"` to get the name of the variable, and then
+eval that in the scope of the symbol to get the variable's contents:
 
 ~~~
 a = "This is the content of `a'"
-b = eval(:a.id2name)
-a.object_id == b.object_id  # => true (b now references the same object as a)
+b = eval("#{:a}")
+a.object_id == b.object_id  # => true
 ~~~
 
-If your symbol corresponds to the name of a method, you can use the
-`Method.method` function to return a corresponding `Method` object, which
-you may then call.
+You can also use
+
+~~~
+b = binding.local_variable_get(:a)
+~~~
+
+If your symbol corresponds to the name of a method, you can use `send`:
 
 ~~~
 class Demo
@@ -84,6 +97,13 @@ class Demo
 end
 
 demo = Demo.new
+demo.send(:hello)
+~~~
+
+Or you can use `Object#method` to return a corresponding `Method` object,
+which you may then call:
+
+~~~
 m = demo.method(:hello)  # => #<Method: Demo#hello>
 m.call                   # => "Hello, world"
 ~~~
@@ -120,20 +140,6 @@ i = 3
 i = 4
 ~~~
 
-### `a +b` gives an error!
-
-Ruby works hard to distinguish method calls from operators, and variable
-names from method names. Unfortunately, there's no way it can get it right
-all the time. In this case, `a +b` is parsed as `a(+b)`. Remove the space
-to the left of `+` or add a space to the right of `+`, and it will be parsed
-as an addition.
-
-### `s = "x"; puts s *10` gives an error!
-
-Again, Ruby sees the asymmetrical space and parses it as `puts(s(*10))`
-(which isn't too smart, really). Use `s*10` or `s * 10` to get the desired
-result.
-
 ### Why can't I pass a hash literal to a method: `p {}`?
 
 The `{}` is parsed as a block, not a `Hash` constructor. You can force the
@@ -146,13 +152,13 @@ I have the following code, but I cannot use the method `pos = 1`.
 
 ~~~
 def pos=(val)
-  puts @pos
   @pos = val
+  puts @pos
 end
 ~~~
 
-Methods with `=` appended must be called with a receiver
-(without the receiver, you're just assigning to a local variable).
+Methods with `=` appended must be called with an explicit receiver
+(without the receiver, you are just assigning to a local variable).
 Invoke it as `self.pos = 1`.
 
 ### What is the difference between `'\1'` and `'\\1'`?
@@ -160,16 +166,35 @@ Invoke it as `self.pos = 1`.
 They have the same meaning. In a single quoted string, only `\'` and `\\`
 are transformed and other combinations remain unchanged.
 
-However, in a double quoted string, `"\1"` is the byte `\001`, while `"\\1"`
-is the two character string containing a backslash and the character `"1"`.
+However, in a double quoted string, `"\1"` is the byte `\001`
+(an octal bit pattern), while `"\\1"` is the two character string
+containing a backslash and the character `"1"`.
 
 ### What is the difference between `or` and `||`?
 
 Q: `p(nil || "Hello")` prints `"Hello"`, while `p(nil or "Hello")` gives a
 parse error. Why?
 
-A: `||` combines terms within an expression. Because the first term in this
-case is `nil`, the second term is evaluated.
+A: `or` has a very low precedence, `p( (nil or "Hello") )` will work.
 
-`or` is used to combine expressions in conditionals. Ruby is not expecting a
-conditional statement in an argument list.
+The precedence of `or` is for instance also lower than that of `=`,
+whereas `||` has a higher precedence:
+
+~~~
+foo = nil || "Hello"  # parsed as: foo = (nil || "Hello")
+foo  # => "Hello"
+
+# but perhaps surprisingly:
+
+foo = nil or "Hello"  # parsed as: (foo = nil) or "Hello"
+foo  # => nil
+~~~
+
+`or` (and similarly `and`) is best used **not** for combining
+boolean expressions, but for control flow, like in
+
+~~~
+do_something  or raise "some error!"
+~~~
+
+where `do_something` returns `false` or `nil` when an error occurs.
