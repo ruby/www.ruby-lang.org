@@ -103,6 +103,8 @@ to the `Proc`.
 
 ### How is a block used in an iterator?
 
+{% include faq-out-of-date.html %}
+
 There are three ways to execute a block from an iterator method:
 (1) the `yield` control structure; (2) calling a `Proc` argument
 (made from a block) with `call`; and (3) using `Proc.new` followed by a call.
@@ -127,7 +129,7 @@ Produces:
 
 If a method definition has a block argument (the last formal parameter has
 an ampersand (`&`) prepended), it will receive the attached block, converted
-to a `Proc` object. This may be called using `method.call(args)`.
+to a `Proc` object. This may be called using `prc.call(args)`.
 
 ~~~
 def my_iterator(&b)
@@ -148,6 +150,9 @@ Produces:
 iterator definition, takes the block which is given to the method as its
 argument and generates a procedure object from it.
 (`proc` and `lambda` are effectively synonyms.)
+
+_[Update needed: `lambda` behaves in a slightly different way and
+produces a warning `tried to create Proc object without a block`.]_
 
 ~~~
 def my_iterator
@@ -186,8 +191,8 @@ will occur.
 
 ### How can I run iterators in parallel?
 
-Here an adoption of a solution by Matz, in [ruby-talk:5252],
-that uses threads:
+Here an adoption of a solution by Matz, in
+[\[ruby-talk:5252\]][ruby-talk:5252], that uses threads:
 
 ~~~
 require "thread"
@@ -228,3 +233,5 @@ combine(:it1, :it2) do |x|
   # x is [1, 4], then [2, 5], then [3, 6]
 end
 ~~~
+
+[ruby-talk:5252]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/5252
