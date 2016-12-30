@@ -37,53 +37,42 @@ header: |
 
 ## Installing Ruby
 
+For current information on downloading and installing Ruby
+see the [Installation](/en/documentation/installation/)
+or [Downloads](/en/downloads/) page.
+
 ### What operating systems support Ruby?
 
+{% include faq-out-of-date.html %}
+
 Ruby is developed under Linux, and is written in fairly straightforward C.
-It runs under UNIX, DOS, Windows 95/98/NT/2000, Mac OS X, BeOS, Amiga,
-Acorn Risc OS, and OS/2.
-
-August 2002:
-
-Mac OS X 10.2 now comes with Ruby installed by default
-(Ruby 1.6.7 (2002-03-01) [powerpc-darwin6.0]).
-See http://developer.apple.com/technotes/tn2002/tn2053.html.
-
-H. Morita notes:
-
-> There's a Mac OS (not X) port of Ruby, by Hisakuni FUJIMOTO at
-> [http://www.imasy.or.jp/~hisa/ruby/macruby.html](http://www.imasy.or.jp/~hisa/ruby/macruby.html).
-> However it's based on Ruby 1.1b7, and hasn't been updated since
-> December 1999. It's highly experimental. It may crash and sometimes freeze
-> the OS, even with the sample scripts included in the Ruby distribution.
-> (Sounds like fun ;-).
-
-Rob tells us that there's Ruby 1.6.4 for OS/2 at
-[http://www.aminet.org/systems/os2/dev/misc/](http://www.aminet.org/systems/os2/dev/misc/).
-However, that link seems broken: can anyone give us something that works?
+It runs under Linux and other UNIX-like operating systems, Mac OS X,
+Windows, DOS, BeOS, Amiga, Acorn Risc OS, and OS/2.
 
 ### Where can I get Ruby sources?
 
 The latest version of Ruby can be downloaded from:
-[http://www.ruby-lang.org/en/download.html](http://www.ruby-lang.org/en/download.html).
+[www.ruby-lang.org/en/downloads/](/en/downloads/).
 Mirror sites are also listed on this page.
 
 Also on this page is a link to a nightly snapshot of the development tree.
 
 ### Can I get to the development source tree?
 
+{% include faq-out-of-date.html %}
+
 If you have a CVS client, you can check out the current source tree using:
 
 ~~~
-% cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs login
+$ cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs login
 (Logging in to anonymous@cvs.netlab.co.jp)
 CVS password: guest
-% cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs co ruby
+$ cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs co ruby
 ~~~
 
 If you do not have CVS you can get a nightly snapshot of the development
 source from
-[ftp://ftp.netlab.co.jp/pub/lang/ruby/snapshot.tar.gz](ftp://ftp.netlab.co.jp/pub/lang/ruby/snapshot.tar.gz).
+[https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz](https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz).
 
 ### How do I compile Ruby?
 
@@ -92,10 +81,10 @@ environment. You don't need the `autoconf` command on your box to build Ruby
 from a distribution; just use the commands:
 
 ~~~
-% ./configure [configure options]
-% make
-% make test
-% make install
+$ ./configure [configure options]
+$ make
+$ make test
+$ make install
 ~~~
 
 You may need superuser privileges to install Ruby if you don't override the
@@ -103,22 +92,24 @@ default installation location (`/usr/local`). You can get a full list of
 `configure` options using:
 
 ~~~
-% ./configure --help
+$ ./configure --help
 ~~~
 
-If you are working from the CVS archive, you may need to run `autoconf`
-before running `configure`.
+If you are working from the source repository, you may need to run
+`autoconf` before running `configure`.
 
 ### How do I tell Ruby where my libraries are?
+
+{% include faq-out-of-date.html %}
 
 On some systems, the build process may fail to find libraries used by
 extension modules (for example the `dbm` libraries).
 
 You can tell Ruby where to find libraries using options to `configure`.
-From [ruby-talk:5041]:
+From [\[ruby-talk:5041\]][ruby-talk:5041]:
 
 ~~~
-./configure --with-xxx-yyy=DIR
+$ ./configure --with-xxx-yyy=DIR
 ~~~
 
 where xxx is either
@@ -144,13 +135,17 @@ On HP-UX, there may be problems building with `gcc`. Try using the native
 compiler instead. WATANABE Tetsuya recommends:
 
 ~~~
-CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
+$ CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
 ~~~
 
 There may also be problems with HP's native `sed`.
 He recommends installing the GNU equivalent.
 
+[ruby-talk:5041]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/5401
+
 ### Are precompiled binaries available?
+
+{% include faq-out-of-date.html %}
 
 A single download that contains everything you need to run Ruby under various
 Windows operating systems is available from
@@ -174,6 +169,8 @@ available from the same page.
 > [http://www.cl.cam.ac.uk/users/rrt1001/ruby.zip](http://www.cl.cam.ac.uk/users/rrt1001/ruby.zip).
 
 ### What's all this “cygwin”, “mingw”, and “djgpp” stuff?
+
+{% include faq-out-of-date.html %}
 
 Ruby is written to take advantage of the rich feature set of a Unix
 environment. Unfortunately, Windows is missing some of the functions, and
@@ -202,6 +199,8 @@ is found in the `bin` subdirectory of the cygwin distribution) to your
 Thanks to Anders Schneiderman for the basis of this description.
 
 ### Why doesn't Tk graphics work under Windows?
+
+{% include faq-out-of-date.html %}
 
 Is Tk installed correctly on your Windows box? Go to
 [http://dev.scriptics.com/software/tcltk/](http://dev.scriptics.com/software/tcltk/)
