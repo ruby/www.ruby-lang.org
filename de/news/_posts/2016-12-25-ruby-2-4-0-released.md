@@ -11,7 +11,7 @@ Wir freuen uns, die Veröffentlichung von Ruby 2.4.0 bekannt geben zu
 können.
 
 Bei Ruby 2.4.0 handelt es sich um die erste stabile Veröffentlichung
-von Rubys 2.4er Serie und führt zahlreiche neue Features ein,
+von Rubys 2.4er-Serie und führt zahlreiche neue Features ein,
 beispielsweise:
 
 ## [Verbesserung der Hash-Tabellen (von Wladimir Makarow)](https://bugs.ruby-lang.org/issues/12142)
@@ -25,7 +25,7 @@ insbesondere mit Jura Sokolow.
 
 ## Binding#irb: Startet eine REPL-Sitzung wie `binding.pry`
 
-Im Rahmen von Debugging ist es oft erforderlich, sich Variablenwerte
+Im Rahmen von Debugging ist es oft hilfreich, sich Variablenwerte
 mithilfe von `p` anzeigen zu lassen. Mit
 [pry](https://github.com/pry/pry) war es möglich, durch Einfügen der
 Anweisung `binding.pry` in die Anwendung an der betroffenen Stelle
@@ -38,8 +38,8 @@ eine reguläre IRB startet.
 
 Obwohl [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
 keine näheren Bestimmungen über die Integer-Klasse trifft, führt Ruby
-mit Fixnum und Bignum zwei sichtbare Subklassen von Integer. Mit Ruby
-2.4 werden diese mit Integer vereinigt.
+mit Fixnum und Bignum zwei sichtbare Subklassen von Integer.
+Mit Ruby 2.4 werden diese in Integer vereinigt.
 Daraus folgt, dass alle C-Extensions, die die Klassen Fixnum oder
 Bignum benutzen, überarbeitet werden müssen.
 
@@ -76,8 +76,8 @@ verändern, wodurch Objektallozierungen eingespart werden können.
 ### [Thread#report_on_exception und Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
 Exceptions in Threads werden von Ruby ignoriert, bis der betreffende
-Thread mit einem anderen zusammengeführt _(joined)_ wird. Wenn
-`report_on_exception = true` gesetzt ist, erhalten Sie einen Hinweis,
+Thread mit einem anderen zusammengeführt wird _(join)_. Wenn
+`report_on_exception = true` gesetzt ist, erhalten Sie eine Warnung,
 wenn ein Thread wegen einer nicht behandelten Exception abgestürzt
 ist.
 
