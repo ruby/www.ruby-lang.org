@@ -393,12 +393,11 @@ same object, their apparent values change too.
 
 This is less of a problem in practice than it might appear.
 
-In addition, as of Ruby 1.5.2, all objects may be frozen, protecting them
-from change.
+In addition, all objects may be frozen, protecting them from change.
 
 ### Does the value of a constant ever change?
 
-A constant is a variable whose name starts with an upper case letter. In older
-Ruby implementations, when a constant was assigned a new value, a warning was
-issued. In newer Rubies, constants may not be reassigned from within instance
-methods, but can otherwise be changed at will.
+A constant is a variable whose name starts with an upper case letter.
+Constants may not be reassigned from within instance methods,
+but can otherwise be changed at will.
+When a constant is assigned a new value, a warning is issued.
