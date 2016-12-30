@@ -40,7 +40,7 @@ header: |
 ### What is Ruby?
 
 Ruby is a simple and powerful object-oriented programming language, created by
-Yukihiro Matsumoto (who goes by the handle "matz" in this document and on the
+Yukihiro Matsumoto (who goes by the handle "Matz" in this document and on the
 mailing lists).
 
 Like Perl, Ruby is good at text processing. Like Smalltalk, everything in Ruby
@@ -145,12 +145,17 @@ In birthstones, pearl is June, ruby is July. When measuring font sizes,
 pearl is 5pt, ruby is 5.5pt. He thought Ruby was a good name for a
 programming language newer (and hopefully better) than Perl.
 
-(Based on an explanation from matz in [ruby-talk:00394] on June 11, 1999.)
+(Based on an explanation from Matz in [\[ruby-talk:00394\]][ruby-talk:00394]
+on June 11, 1999.)
+
+[ruby-talk:00394]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/394
 
 ### What is the history of Ruby?
 
-The following is a summary of a posting made by Matz in [ruby-talk:00382] on
-June 4, 1999. (The birthday of Ruby has been corrected in [ruby-list:15977].)
+The following is a summary of a posting made by Matz in
+[\[ruby-talk:00382\]][ruby-talk:00382] on June 4, 1999.
+(The birthday of Ruby has been corrected in
+[\[ruby-list:15977\]][ruby-list:15977].)
 
 > Well, Ruby was born on February 24, 1993. I was talking with my colleague
 > about the possibility of an object-oriented scripting language. I knew Perl
@@ -175,17 +180,18 @@ June 4, 1999. (The birthday of Ruby has been corrected in [ruby-list:15977].)
 > Since then, highly active mailing lists have been established and
 > web pages formed.
 
+[ruby-talk:00382]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382
+[ruby-list:15977]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/15977
+
 ### Where is the Ruby Home Page?
 
-The official Ruby Home Page is [http://www.ruby-lang.org](http://www.ruby-lang.org)
-(in English) and [http://www.ruby-lang.org/ja/](http://www.ruby-lang.org/ja/)
-(in Japanese).
+The official Ruby Home Page is [www.ruby-lang.org](https://www.ruby-lang.org).
+Besides the English and Japanese versions, there exist translations
+into various other languages.
 
-You can also find Ruby information at
-[http://www.rubycentral.com](http://www.rubycentral.com).
-In particular, there is a complete
-[online reference](http://www.rubycentral.com/book/builtins.html)
-to Ruby's built-in classes and methods.
+Good starting points for finding Ruby information are the
+[Documentation](/en/documentation/) and [Community](/en/community/)
+pages.
 
 ### Is there a Ruby newsgroup?
 
@@ -193,18 +199,10 @@ comp.lang.ruby was established in May, 2000 (thanks to the efforts of
 [Conrad Schneiker](mailto:schneiker@jump.net)).
 
 ### Is there a Ruby mailing list?
-{: #mailing-lists}
 
-There are five mailing lists now talking about Ruby. The first is in English,
-the last four in Japanese:
-
-* `ruby-talk`: English language discussion of Ruby.
-* `ruby-list`: Japanese language discussion of Ruby.
-* `ruby-dev`:  List for Ruby developers.
-* `ruby-ext`:  List for people writing extensions for or with Ruby.
-* `ruby-math`: Ruby in mathematics.
-
-See [joining the mailing list](http://www.ruby-lang.org/en/ml.html).
+There are several mailing lists talking about Ruby. See the
+[Mailing Lists](/en/community/mailing-lists/)
+page for more information.
 
 You can search the mailing list archives using
 [http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml](http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml).
@@ -212,8 +210,11 @@ You can search the mailing list archives using
 
 ### How can I thread the mailing list in mutt?
 
-The Ruby mailing list software adds a prefix to the subject lines, for example
-[ruby-talk:1234]. This can confuse the threading in some mail user agents.
+{% include faq-out-of-date.html %}
+
+For some of the Ruby mailing lists, the mailing list software adds a prefix
+to the subject lines, for example `ruby-core:1234`. This can confuse the
+threading in some mail user agents.
 
 In mutt, you can get threading to work using the following variable setting.
 
@@ -233,14 +234,16 @@ Originally, or historically, it was called “ruby”.
 
 ### Are there any Ruby books?
 
+{% include faq-out-of-date.html %}
+
 * Programming Ruby: The Pragmatic Programmer's Guide,
   (the Pickaxe Book) by David Thomas and Andrew Hunt: ISBN 0-20171-089-7,
   Addison-Wesley, October 2000.
 
-* A Japanese language Ruby reference book by matz et al. and published by
+* A Japanese language Ruby reference book by Matz et al. and published by
   ASCII is available in Japan (ISBN 4-7561-3254-5). An English translation,
-  “The Ruby Programming Language”, is in the works from Addison-Wesley
-  (ISBN 020171096X).
+  “The Ruby Programming Language”, is available from O'Reilly & Associates
+  (ISBN 978-0596516178).
 
 * A Japanese language “Ruby Pocket Reference” is published by O'Reilly Japan
   (ISBN 4-87311-023-8). Let O'Reilly in the US know if you'd like to see a
@@ -253,6 +256,8 @@ Originally, or historically, it was called “ruby”.
   relevant to Ruby regular expressions.
 
 ### Which editors provide support for Ruby?
+
+{% include faq-out-of-date.html %}
 
 * [Emacs](http://www.gnu.org/software/emacs/emacs.html)
   or [XEmacs](http://www.xemacs.org/): `ruby-mode.el` is supplied in the Ruby
@@ -275,6 +280,8 @@ Originally, or historically, it was called “ruby”.
   [http://www.textpad.com/add-ons/ntsyn.html](http://www.textpad.com/add-ons/ntsyn.html).
 
 ### How can I annotate Ruby code with its results?
+
+{% include faq-out-of-date.html %}
 
 People commonly annotate Ruby code by showing the results of executing each
 statement as a comment attached to that statement. For example, in the
@@ -315,13 +322,15 @@ In both cases, highlight a region of code and hit Meta-F10 to annotate it.
 
 ### I can't understand Ruby even after reading the manual!
 
+{% include faq-out-of-date.html %}
+
 The syntax of Ruby has been fairly stable since Ruby 1.0, but new features are
 added every now and then. So, the books and the online documentation can get
 behind.
 
 If you have a problem, feel free to ask in the mailing list
-(see [ruby-talk mailing list](#mailing-lists)).
-Generally you'll get timely answers from matz himself, the
+(see the [Mailing Lists page](/en/community/mailing-lists/)).
+Generally you'll get timely answers from Matz himself, the
 author of the language, from other gurus, and from those who have solved
 problems similar to your own.
 
