@@ -112,41 +112,10 @@ an instance of class `Class`. (phew!)
 
 There is no way to access class instance variables from instance methods.
 
-### What is a singleton method?
-{: #singleton-method}
-
-A singleton method is an instance method associated with one specific object.
-
-You create a singleton method by including the object in the definition:
-
-~~~
-class Foo; end
-
-foo = Foo.new
-bar = Foo.new
-
-def foo.hello
-  puts "Hello"
-end
-
-foo.hello
-bar.hello
-~~~
-
-Produces:
-
-~~~
-Hello
-prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NoMethodError)
-~~~
-
-Singleton methods are useful when you want to add a method to an object and
-creating a new subclass is not appropriate.
-
 ### Does Ruby have class methods?
 {: #class-method}
 
-A [singleton method](#singleton-method) of a class object is called a
+A [singleton method](../7/#singleton-method) of a class object is called a
 class method.
 (Actually, the class method is defined in the metaclass, but that is pretty
 much transparent). Another way of looking at it is to say that a class method

@@ -116,6 +116,37 @@ the self assignment forms (`+=`, `-=`, and so on).
 Ruby does not have the autoincrement and autodecrement operators.
 You can use `+= 1` and `-= 1` instead.
 
+### What is a singleton method?
+{: #singleton-method}
+
+A singleton method is an instance method associated with one specific object.
+
+You create a singleton method by including the object in the definition:
+
+~~~
+class Foo; end
+
+foo = Foo.new
+bar = Foo.new
+
+def foo.hello
+  puts "Hello"
+end
+
+foo.hello
+bar.hello
+~~~
+
+Produces:
+
+~~~
+Hello
+prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NoMethodError)
+~~~
+
+Singleton methods are useful when you want to add a method to an object and
+creating a new subclass is not appropriate.
+
 ### All these objects are fine, but does Ruby have any simple functions?
 
 Yes and no. Ruby has methods that look like functions in languages such
