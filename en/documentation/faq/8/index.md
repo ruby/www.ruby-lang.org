@@ -310,28 +310,3 @@ Methods in the module become methods in the object.
 
 `self` is the currently executing receiver, the object to which a method
 is applied. A function-style method call implies `self` as the receiver.
-
-### Why can't I load variables from a separate file?
-
-Say `file1.rb` contains:
-
-~~~
-var1 = 99
-~~~
-
-and some other file loads it in:
-
-~~~
-require_relative "file1"
-puts var1
-~~~
-
-Produces:
-
-~~~
-prog.rb:2:in `<main>': undefined local variable or method `var1' for main:Object (NameError)
-~~~
-
-You get an error because `load` and `require` arrange for local variables to
-be stored into a separate, anonymous namespace, effectively discarding them.
-This is designed to protect your code from being polluted.

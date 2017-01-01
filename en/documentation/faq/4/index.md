@@ -401,3 +401,28 @@ A constant is a variable whose name starts with an upper case letter.
 Constants may not be reassigned from within instance methods,
 but can otherwise be changed at will.
 When a constant is assigned a new value, a warning is issued.
+
+### Why can't I load variables from a separate file?
+
+Say `file1.rb` contains:
+
+~~~
+var1 = 99
+~~~
+
+and some other file loads it in:
+
+~~~
+require_relative "file1"
+puts var1
+~~~
+
+Produces:
+
+~~~
+prog.rb:2:in `<main>': undefined local variable or method `var1' for main:Object (NameError)
+~~~
+
+You get an error because `load` and `require` arrange for local variables to
+be stored into a separate, anonymous namespace, effectively discarding them.
+This is designed to protect your code from being polluted.
