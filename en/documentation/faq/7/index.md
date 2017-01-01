@@ -52,25 +52,45 @@ search procedure to find it. This allows you to handle messages to unknown
 methods, and is often used to provide dynamic interfaces to classes.
 
 ~~~
-module Indexed
-  def [](index)
-    each_byte.to_a[index]
+module Emphasizable
+  def emphasize
+    "**#{self}**"
   end
 end
 
 class String
-  include Indexed
+  include Emphasizable
 end
 
 String.ancestors
-  # => [String, Indexed, Comparable, Object, Kernel, BasicObject]
+  # => [String, Emphasizable, Comparable, Object, Kernel, BasicObject]
 
-"abcd"[1]  # => "b"
+"Wow!".emphasize  # => "**Wow!**"
 ~~~
 
-This program does not return `98` as one might expect, but returns `"b"`.
-When the method `[]` is searched for, it is found in class `String`, before
-searching `Indexed`. You should directly redefine `[]` in class `String`.
+When the method `emphasize` is searched for, it is not found in class
+`String`, so Ruby searches next in the module `Emphasizable`.
+
+In order to override a method that already exists in the receiver's class,
+e.g. `String#capitalize`, you need to insert the module into the
+ancestor chain in front of that class, by using `prepend`:
+
+~~~
+module PrettyCapitalize
+  def capitalize
+    "**#{super}**"
+  end
+end
+
+class String
+  prepend PrettyCapitalize
+end
+
+String.ancestors
+  # => [PrettyCapitalize, String, Comparable, Object, Kernel, BasicObject]
+
+"hello".capitalize  # => "**Hello**"
+~~~
 
 ### Are `+`, `-`, `*`, ... operators?
 
@@ -89,11 +109,11 @@ However, the following are built-in control structures, not methods,
 which cannot be overridden:
 
 ~~~
-=, .., ..., !, not, ||, &&, and, or, ::
+=, .., ..., not, ||, &&, and, or, ::
 ~~~
 
-To overload or to define unary operators, you can use `+@` and `-@` as the
-method names.
+To overload or to define the unary `+` and `-` operators,
+you need to use `+@` and `-@` as the method names.
 
 `=` is used to define a method to set an attribute of the object:
 
@@ -153,11 +173,11 @@ Yes and no. Ruby has methods that look like functions in languages such
 as C or Perl:
 
 ~~~
-def writeln(str)
-  print(str, "\n")
+def hello(name)
+  puts "Hello, #{name}!"
 end
 
-writeln("Hello, World!")
+hello("World")
 ~~~
 
 Produces:
@@ -169,7 +189,7 @@ Hello, World!
 However, they are actually method calls with the receiver omitted.
 In this case, Ruby assumes the receiver is self.
 
-So, `writeln` resembles a function but it's actually a method belonging to
+So, `hello` resembles a function but it's actually a method belonging to
 class `Object` and sent as a message to the hidden receiver self.
 Ruby is a pure object-oriented language.
 
@@ -177,9 +197,9 @@ Of course you can use such methods as if they were functions.
 
 ### So where do all these function-like methods come from?
 
-All classes in Ruby are derived from class `Object`. The definition of class
-`Object` mixes in the methods defined in the `Kernel` module. These methods
-are therefore available within every object in the system.
+Almost all classes in Ruby are derived from class `Object`. The definition
+of class `Object` mixes in the methods defined in the `Kernel` module.
+These methods are therefore available within every object in the system.
 
 Even if you are writing a simple Ruby program without classes, you are
 actually working inside class `Object`.
@@ -222,9 +242,9 @@ as long as the corresponding `+` or `-` methods are defined.
 ### What's the difference between `private` and `protected`?
 
 The visibility keyword `private` makes a method callable only in a function
-form, and so it can only have `self` as a receiver. A private method is
-callable only within the class in which the method was defined or in its
-subclasses.
+form, without an explicit receiver, and so it can only have `self` as its
+receiver. A private method is callable only within the class in which the
+method was defined or in its subclasses.
 
 ~~~
 class Test
@@ -327,7 +347,7 @@ Methods defined at the toplevel are also public by default.
 
 ### Can an identifier beginning with a capital letter be a method name?
 
-Yes, you can, but we don't do it lightly! If Ruby sees a capitalized name
+Yes, it can, but we don't do it lightly! If Ruby sees a capitalized name
 followed by a space, it will probably (depending on the context) assume it's
 a constant, not a method name. So, if you use capitalized method names,
 always remember to put parameter lists in parentheses, and always put the
@@ -342,7 +362,7 @@ arguments to the original method disagrees with that of the higher-level
 method, an `ArgumentError` is raised. To get around this, simply call `super`
 and pass a suitable number of arguments.
 
-### How can I call the a method of the same name two levels up?
+### How can I call the method of the same name two levels up?
 
 `super` invokes the same named method one level up. If you are overloading a
 method in a more distant ancestor, use `alias` to give it a new name before
@@ -360,10 +380,10 @@ a singleton method of `Kernel`.
 
 A destructive method is one which alters the state of an object. `String`,
 `Array`, `Hash`, and others have such methods. Often there are two
-versions of a method, one with a plain name, the other with the same, but
-followed by `!`. The plain version takes a copy of the receiver, makes its
-change to it, and returns the copy. The version with the `!` modifies the
-receiver in place.
+versions of a method, one with a plain name, the other with the same name,
+but followed by `!`. The plain version creates a copy of the receiver, makes
+its change to it, and returns the copy. The “bang” version (with the `!`)
+modifies the receiver in place.
 
 Beware, however, that there are a fair number of destructive methods that
 do not have an `!`, including assignment methods (`name=`), array assignment
