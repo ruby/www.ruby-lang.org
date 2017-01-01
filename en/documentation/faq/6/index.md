@@ -198,3 +198,11 @@ do_something  or raise "some error!"
 ~~~
 
 where `do_something` returns `false` or `nil` when an error occurs.
+
+### What is the difference between `load` and `require`?
+
+`load` will load and execute a Ruby program (`*.rb`).
+
+`require` loads Ruby programs as well, but will also load binary Ruby
+extension modules (shared libraries or DLLs). In addition,
+`require` ensures that a feature is never loaded more than once.

@@ -298,14 +298,6 @@ In the class definition you can refer to the class's constants directly,
 as the constants are within scope. At the top level, you have to use the
 `Class::CONST` notation.
 
-### What is the difference between `load` and `require`?
-
-`load` will load and execute a Ruby program (`*.rb`).
-
-`require` loads Ruby programs as well, but will also load binary Ruby
-extension modules (shared libraries or DLLs). In addition, `require` ensures
-that a feature is never loaded more than once.
-
 ### What is the difference between `include` and `extend`?
 
 `include` mixes a module into a class or another module. Methods from that
