@@ -44,73 +44,134 @@ definition. If a method is redefined, the former one is overridden and lost.
 
 ### Are there class variables?
 
-As of Ruby 1.5.3, there are. A variable prefixed with two at signs (`@`)
-is a class variable, accessible within both instance and class methods
-of the class.
+There are. A variable prefixed with two at signs (`@@`) is a class variable,
+accessible within both instance and class methods of the class.
 
 ~~~
-class CountEm
-  @@children = 0
+class Entity
+
+  @@instances = 0
 
   def initialize
-    @@children += 1
-    @my_number = @@children
+    @@instances += 1
+    @number = @@instances
   end
 
   def who_am_i
-   "I'm child number #{@my_number} (out of #{@@children})"
+   "I'm #{@number} of #{@@instances}"
   end
 
-  def self.total_children
-    @@children
-  end
-end
-
-c1 = CountEm.new
-c2 = CountEm.new
-c3 = CountEm.new
-c1.who_am_i             # => "I'm child number 1 (out of 3)"
-c3.who_am_i             # => "I'm child number 3 (out of 3)"
-CountEm.total_children  # => 3
-~~~
-
-Earlier versions of Ruby do not have class variables. However, container
-classes (`Array`, `Hash`, etc) assigned to a class constant can be used to
-give the same effect. This example uses an array. Some folks feel hashes are
-better.
-
-~~~
-class Foo
-  F = [0]      # pseudo class variable - Array `F'
-
-  def foo
-    F[0] += 1
-    puts F[0]
+  def self.total
+    @@instances
   end
 end
+
+entities = Array.new(9) { Entity.new }
+
+entities[6].who_am_i  # => "I'm 7 of 9"
+Entity.total          # => 9
 ~~~
 
-This reports on the number of times foo is called across all instances of
-class Foo.
+However, you probably should use _class instance variables_ instead.
 
 ### What is a class instance variable?
 
-~~~
-class Foo
-  @a = 123  # (1)
+Here the example of the previous section rewritten
+using a class instance variable:
 
-  def foo
-    p @a    # (2) ... nil, not 123
+~~~
+class Entity
+
+  @instances = 0
+
+  class << self
+    attr_accessor :instances  # provide class methods for reading/writing
+  end
+
+  def initialize
+    self.class.instances += 1
+    @number = self.class.instances
+  end
+
+  def who_am_i
+   "I'm #{@number} of #{self.class.instances}"
+  end
+
+  def self.total
+    @instances
   end
 end
+
+entities = Array.new(9) { Entity.new }
+
+entities[6].who_am_i  # => "I'm 7 of 9"
+Entity.instances      # => 9
+Entity.total          # => 9
 ~~~
 
-(1) is a class instance variable, and (2) is an ordinary instance variable
-(which, not having been initialized, has a value of `nil`). (2) belongs to an
-instance of class `Foo`, and (1) belongs to the class object `Foo`, which is
-an instance of class `Class`. (phew!)
+Here, `@instances` is a _class_ instance variable. It does not belong
+to an instance of class `Entity`, but to the class object `Entity`,
+which is an instance of class `Class`.
 
-There is no way to access class instance variables from instance methods.
+Class instance variables are directly accessible only within class methods
+of the class.
+
+### What is the difference between class variables and class instance variables?
+
+The main difference is the behavior concerning inheritance:
+class variables are shared between a class and all its subclasses,
+while class instance variables only belong to one specific class.
+
+Class variables in some way can be seen as global variables within
+the context of an inheritance hierarchy, with all the problems
+that come with global variables.
+For instance, a class variable might (accidentally) be reassigned
+by any of its subclasses, affecting all other classes:
+
+~~~
+class Woof
+
+  @@sound = "woof"
+
+  def self.sound
+    @@sound
+  end
+end
+
+Woof.sound  # => "woof"
+
+class LoudWoof < Woof
+  @@sound = "WOOF"
+end
+
+LoudWoof.sound  # => "WOOF"
+Woof.sound      # => "WOOF" (!)
+~~~
+
+Or, an ancestor class might later be reopened and changed,
+with possibly surprising effects:
+
+~~~
+class Foo
+
+  @@var = "foo"
+
+  def self.var
+    @@var
+  end
+end
+
+Foo.var  # => "foo" (as expected)
+
+class Object
+  @@var = "object"
+end
+
+Foo.var  # => "object" (!)
+~~~
+
+So, unless you exactly know what you are doing and explicitly need
+this kind of behavior, you better should use class instance variables.
 
 ### Does Ruby have class methods?
 {: #class-method}
@@ -140,8 +201,8 @@ Foo.test  # => "this is foo"
 
 In this example, `Foo.test` is a class method.
 
-Methods which are defined in class `Class` can be used as class methods for
-every(!) class.
+Instance methods which are defined in class `Class` can be used
+as class methods for every(!) class.
 
 ### What is a singleton class?
 
@@ -175,12 +236,15 @@ class << foo
 end
 
 foo.name = "Tom"
-foo.hello  # => "hello, I'm Tom"
+foo.hello         # => "hello, I'm Tom"
+Foo.new.hello     # => "hello"
 ~~~
 
 We've customized `foo` without changing the characteristics of `Foo`.
 
 ### What is a module function?
+
+{% include faq-out-of-date.html %}
 
 A module function is a private, singleton method defined in a module.
 In effect, it is similar to a [class method](#class-method),
@@ -235,9 +299,9 @@ generate an `is_a?` relationship between the class and the module.
 ### Give me an example of a mixin
 
 The module `Comparable` provides a variety of comparison operators
-(`<`, `<=`, `>`, `between?`, and so on). It defines these in terms of calls
-to the general comparison method, `<=>`. However, it does not itself define
-`<=>`.
+(`<`, `<=`, `==`, `>=`, `>`, `between?`). It defines these in terms
+of calls to the general comparison method, `<=>`. However, it does
+not itself define `<=>`.
 
 Say you want to create a class where comparisons are based on the number of
 legs an animal has:
@@ -252,8 +316,8 @@ class Animal
     @name, @legs = name, legs
   end
 
-  def <=>(o)
-    legs <=> o.legs
+  def <=>(other)
+    legs <=> other.legs
   end
 
   def inspect
@@ -299,6 +363,8 @@ as the constants are within scope. At the top level, you have to use the
 `Class::CONST` notation.
 
 ### What is the difference between `include` and `extend`?
+
+{% include faq-out-of-date.html %}
 
 `include` mixes a module into a class or another module. Methods from that
 module are called function-style (without a receiver).
