@@ -37,27 +37,27 @@ header: |
 
 ## Built-in libraries
 
-### What does `instance_methods(nil)` return?
+### What does `instance_methods(false)` return?
 
-The method `instance_methods` returns an array containing the names of methods
-that the receiver responds to. This will include the methods in superclasses
-and in mixed in modules.
+The method `instance_methods` returns an array containing the names of
+instance methods in the receiving class or module. This will include
+the methods in superclasses and in mixed in modules.
 
-`instance_methods(nil)` returns the names of just those methods which are
-defined in the object's class.
+`instance_methods(false)` or `instance_methods(nil)` returns the names
+of just those methods which are defined in the receiver.
 
 ### How do random number seeds work?
 
-It depends. In Ruby versions prior to 1.5.2, the random number generator had
-(by default) a constant seed, and so would produce the same series of numbers
-each time a program was run. If you needed less deterministic behavior, you
-called `srand` to set up a less predictable seed.
-
-Newer Rubies have a different behavior. If `rand` is called without
-a prior call to `srand`, Ruby will generate its own random(ish) seed.
+If `rand` is called without a prior call to `srand`,
+Ruby's pseudo-random number generator uses a random(ish) seed that
+amongst other things uses an entropy source provided by the OS,
+if available.
 Successive runs of a program that does not use `srand` will generate
-different sequences of random numbers. To get the old, predictable behavior
-(perhaps for testing), call `srand` with a constant seed.
+different sequences of random numbers.
+
+For testing purposes, you can get a predictable behavior with the same
+series of numbers each time the program is run by calling `srand`
+with a constant seed.
 
 ### I read a file and changed it, but the file on disk has not changed.
 
@@ -121,7 +121,7 @@ File.open("file", "w") {|f| f.puts "This is a file." }
 FileUtils.cp("file", "newfile")
 ~~~
 
-### How can I get the line number in current input file?
+### How can I get the line number in the current input file?
 
 As you read from a file, Ruby increments a line number counter in the global
 variable `$.`. This is also available using the `lineno` attribute of the
@@ -206,8 +206,8 @@ operating system on every comparison.
 More efficiency can be bought with some extra complexity:
 
 ~~~
-Dir.glob("*").collect {|f| [File.mtime(f), f] }.
-  sort {|a, b| b[0] <=> a[0] }.collect {|e| e[1] }
+Dir.glob("*").map {|f| [File.mtime(f), f] }.
+  sort {|a, b| b[0] <=> a[0] }.map(&:last)
 ~~~
 
 ### How can I count the frequency of words in a file?
@@ -252,23 +252,17 @@ array.sort {|a, b| (a.downcase <=> b.downcase).nonzero? || a <=> b }
   # => ["A", "a", "AA", "Aa", "aA", "aa", "BB", "Bb", "bB", "bb", "z"]
 ~~~
 
-### What does `"abcd"[0]` return?
-
-It returns the character code for “a”, 97 (`Fixnum`). You can express a
-character code as an integer constant by prefixing the character with a
-question mark, so `?a` is also 97 (`Fixnum`).
-
 ### How can I expand tabs to spaces?
 {: #tab-expansion}
 
 If `a` holds the string to be expanded, you could use one of:
 
 ~~~
-  1 while a.sub!(/(^[^\t]*)\t(\t*)/){$1+" "*(8-$1.size%8+8*$2.size)}
+1 while a.sub!(/(^[^\t]*)\t(\t*)/){$1+" "*(8-$1.size%8+8*$2.size)}
 # or
-  1 while a.sub!(/\t(\t*)/){" "*(8-$~.begin(0)%8+8*$1.size)}
+1 while a.sub!(/\t(\t*)/){" "*(8-$~.begin(0)%8+8*$1.size)}
 # or
-  a.gsub!(/([^\t]{8})|([^\t]*)\t/n){[$+].pack("A8")}
+a.gsub!(/([^\t]{8})|([^\t]*)\t/n){[$+].pack("A8")}
 ~~~
 
 ### How can I escape a backslash in a regular expression?
@@ -298,7 +292,7 @@ Otherwise, `nil` is returned.
 
 Methods like `sub!`, which alter the attribute of the receiver,
 are called [destructive methods](../7/#destructive-method).
-If there are two similar methods and one is destructive,
+Usually, if there are two similar methods and one is destructive,
 the destructive one has a suffix `!`.
 
 ~~~
@@ -325,6 +319,8 @@ with a `\n`, otherwise it matches at the end of a string.
 
 ### What is the difference between `thread` and `fork`?
 
+{% include faq-out-of-date.html %}
+
 Ruby threads are implemented within the interpreter, while `fork` invokes the
 operating system to create a separately executing subprocess.
 
@@ -346,7 +342,7 @@ You probably shouldn't mix `fork` and `thread`.
 reconstitute it. Objects may be stored using:
 
 ~~~
-Marshal.dump obj [, io ] [, lev]
+Marshal.dump( obj [, io ] [, lev] )
 ~~~
 
 `io` is a writable `IO` object, `lev` designates the level to which objects
@@ -360,9 +356,9 @@ If `io` is omitted, the marshaled objects are returned in a string.
 You can load objects back using:
 
 ~~~
-   obj = Marshal.load(io)
+obj = Marshal.load(io)
 # or
-   obj = Marshal.load(str)
+obj = Marshal.load(str)
 ~~~
 
 where `io` is a readable `IO` object, `str` is the dumped string.
