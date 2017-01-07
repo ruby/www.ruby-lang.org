@@ -54,7 +54,7 @@ variables or constants---there is no reference involved. A variable holding
 the number `42` or the constant `true` actually holds the value, and not a
 reference to it. Assignment therefore physically produces a copy of objects
 of these types. We discuss this more in
-[Immediate and Reference Objects](../9/#immediate).
+[Immediate and Reference Objects](../6/#immediate).
 
 ### What is the scope of a local variable?
 
