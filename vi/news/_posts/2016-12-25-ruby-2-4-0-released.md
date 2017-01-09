@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.4.0 Released"
+title: "Phát hành Ruby 2.4.0"
 author: "naruse"
 translator:
 date: 2016-12-25 00:00:00 +0000
@@ -22,7 +22,8 @@ Cải thiện này đã được rất nhiều người chấp nhận, đặc bi
 Thông thường bạn có thể dùng `p` để xem giá trị của các biến trong quá trình debug.
 Với [pry](https://github.com/pry/pry) bạn có thể dùng `binding.pry` để chạy REPL và
 debug ở bất kỳ dòng code nào.
-[r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a) giới thiệu `binding.irb` có tính năng tương tự trong IRB.
+[r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a)
+ giới thiệu `binding.irb` có tính năng tương tự trong IRB.
 
 ## [Hợp nhất Fixnum và Bignum vào Integer](https://bugs.ruby-lang.org/issues/12005)
 
@@ -86,10 +87,9 @@ hoặc lịch sử commit để biết thêm chi tiết.
 
 Với những sự thay đổi này,
 [2519 files changed, 288606 insertions(+), 83896 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0)
-
 so với Ruby 2.3.0!
 
-Giáng sinh vui vẻ :) đừng quên ruby 2.4!
+Giáng sinh vui vẻ :) đừng quên Ruby 2.4!
 
 ## Download
 
