@@ -39,7 +39,8 @@ header: |
 
 ### What does `a ? b : c` mean?
 
-It's the same as saying `if a then b else c end`.
+This is the so-called “ternary operator” and is the same as saying
+`if a then b else c end`.
 
 ### How can I count the number of lines in a file?
 
@@ -49,13 +50,15 @@ The following code may give the fastest result.
 File.readlines("example").size  # => 3
 ~~~
 
-### What do `begin` and `end` of `MatchData` return?
+### What do `MatchData#begin` and `MatchData#end` return?
 
-They act with `$~`, and return the start index and the end index of the
-matched data in the original string. See an example in
+They act with `$~`, and return the start index and the end index of
+the matched data in the original string. See an example in
 [tab expansion](../9/#tab-expansion).
 
 ### How can I sum the elements in an array?
+
+{% include faq-out-of-date.html %}
 
 Rather than solve the specific problem, let's solve the general case.
 The first thing we will do is produce a method that will iterate over
@@ -94,13 +97,15 @@ end
 
 ### How can I use continuations?
 
+{% include faq-out-of-date.html %}
+
 Ruby's continuations allow you to create an object representing a place in a
 Ruby program, and then return to that place at any time (even if it has
 apparently gone out of scope). Continuations can be used to implement complex
 control structures, but are typically more useful as ways of confusing people.
 
-In [ruby-talk:4482], Jim Weirich posted the following examples of
-continuations:
+In [\[ruby-talk:4482\]][ruby-talk:4482], Jim Weirich posted the following
+examples of continuations:
 
 ~~~
 # --------------------------------------------------------------------
@@ -112,8 +117,7 @@ continuations:
 # Usage:  count(limit)
 
 def count_task(count, consumer)
-  (1..count).each do
-    |i|
+  (1..count).each do |i|
     callcc {|cc| consumer.call cc, i }
   end
   nil
@@ -139,7 +143,7 @@ end
 # Create a filter that is both a consumer and producer. Insert it
 # between the counting task and the printing task.
 #
-# Usage:  omit (2, limit)
+# Usage:  omit(2, limit)
 
 def filter_task(factor, consumer)
   producer, i = callcc { |cc| return cc }
@@ -166,7 +170,7 @@ end
 # discovered, dynamically add a new multiple filter to the chain of
 # producers and consumers.
 #
-# Usage:  primes (limit)
+# Usage:  primes(limit)
 
 def prime_task(consumer)
   producer, i = callcc { |cc| return cc }
@@ -184,3 +188,5 @@ def primes(limit)
   print "\n"
 end
 ~~~
+
+[ruby-talk:4482]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/4482
