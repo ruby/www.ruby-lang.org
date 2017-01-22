@@ -40,8 +40,10 @@ header: |
 ### How can I use Ruby interactively?
 {: #irb}
 
+{% include faq-out-of-date.html %}
+
 You can try using `irb`. The following is paraphrased from Kentaro Goto
-(Gotoken), and originally appeared in [ruby-talk:444].
+(Gotoken), and originally appeared in [\[ruby-talk:444\]][ruby-talk:444].
 
 1. Get the latest tarball of `irb` from the
    [contrib directory](ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/)
@@ -67,6 +69,8 @@ then invoke it using:
 ruby -r eval -e0
 ~~~
 
+[ruby-talk:444]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/444
+
 ### Is there a debugger for Ruby?
 
 There is a gdb-like debugger for Ruby.
@@ -82,15 +86,28 @@ There are no problems with reference counting and variable types, and very
 few interfaces to learn. In fact, C code used to extend Ruby often ends up
 looking surprisingly like Ruby code itself.
 
-First, get the Ruby source distribution and read `README.EXT`. This is a
-good document, not only if you are writing an extension library, but also
-if you want to understand Ruby more deeply.
+First, read the `doc/extension.rdoc` file in the Ruby source,
+or read [extension.rdoc on docs.ruby-lang.org][extension-rdoc].
+This is a good document, not only if you are writing an extension library,
+but also if you want to understand Ruby more deeply.
 
-Next, have a look at the source of the interpreter itself, and at the various
-supplied extensions in the `ext/` directory. You will also find good examples
-under `contrib/` on the Ruby ftp sites.
+Then, the RubyGems site provides a
+[guide on creating gems with extensions][rubygems-guide].
+It shows how to setup a gem with C extensions that are built at install time.
+It has also links to some existing gems that wrap C libraries and
+to further reading.
 
-### Can I use Tcl/Tk interface in Ruby?
+You might also want to have a look at the source of the interpreter itself,
+and at the various supplied extensions in the `ext/` directory
+(you can browse the [Ruby repository on GiHub][ruby-github]).
+
+[extension-rdoc]: http://docs.ruby-lang.org/en/trunk/extension_rdoc.html
+[rubygems-guide]: http://guides.rubygems.org/gems-with-extensions/
+[ruby-github]:    https://github.com/ruby/ruby
+
+### Can I use Tcl/Tk in Ruby?
+
+{% include faq-out-of-date.html %}
 
 There are two interfaces to Tcl/Tk included in the standard distribution.
 One is under `ext/tcltk/` and loaded with `require "tcltk"`. The syntax is
@@ -101,16 +118,22 @@ The other is under `ext/tk/` and loaded with `require "tk"`. Its syntax
 is closer to the style of the Tk interface provided by the Perl and Python
 interfaces.
 
-### Tk won't work.
+### Tk won't work. Why?
+
+{% include faq-out-of-date.html %}
 
 Your Tk version may be old, try a newer version.
 
 ### Can I use gtk+ or xforms interfaces in Ruby?
 
+{% include faq-out-of-date.html %}
+
 You will find `ruby-gtk-x.xx.tar.gz` and `ruby-forms-x.x.tar.gz`
-under `contrib/` in ftp sites.
+under `contrib/` on the Ruby ftp sites.
 
 ### How can I do date arithmetic?
+
+{% include faq-out-of-date.html %}
 
 A `Time` object can express only the dates between Jan 1, 1970 and
 Jan 19, 2038.
