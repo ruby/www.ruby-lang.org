@@ -54,7 +54,7 @@ and Zachary will support these versions for security maintenance as part of a
 corporate sponsorship.
 
 In the past we have supported vendors who wish to maintain legacy versions. In
-2009 the maintenance of Ruby 1.8.6 was transfered to Engine Yard when they
+2009 the maintenance of Ruby 1.8.6 was transferred to Engine Yard when they
 released 1.8.6-p369.
 
 ### Words of encouragement
