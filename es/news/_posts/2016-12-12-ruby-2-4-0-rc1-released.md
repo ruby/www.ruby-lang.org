@@ -10,29 +10,35 @@ lang: es
 Nos complace anunciar el lanzamiento de Ruby 2.4.0-rc1.
 
 Ruby 2.4.0-rc1 es el primer candidato a lanzamiento de Ruby 2.4.0.
-
 Esta versión rc1 es liberada para obtener retroalimentación de la comunidad.
-
-Siéntete libre de [enviar tu retroalimentación](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport) ya que aún puedes arreglar las funcionalidades.
+Siéntete libre de
+[enviar tu retroalimentación](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+ya que aún puedes arreglar las funcionalidades.
 
 ## [Presentamos una mejora a las tablas de hash por Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
 
-Se mejora la estructura interna de las tablas de hash (st_table) al agregar direccionamiento abierto y arreglos con orden de inclusión. Esta mejora ha sido discutida con varias personas, especialmente con Yura Sokolov.
+Se mejora la estructura interna de las tablas de hash (st_table) al agregar
+direccionamiento abierto y arreglos con orden de inclusión. Esta mejora ha
+sido discutida con varias personas, especialmente con Yura Sokolov.
 
 ## Binding#irb: Inicia una sesión de REPL al igual que `binding.pry`
 
-Cuando estás depurando código, quizá usas `p` frecuentemente para ver el valor de las variables.
-Al usar [pry](https://github.com/pry/pry) y escribir `binding.pry` en tu aplicación, se inicia un ciclo
-REPL (Lectura-Evaluación-Impresión) donde puedes correr código de Ruby.
-[r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a) añade `binding.irb` que se
-comporta de la misma manera con irb.
+Cuando estás depurando código, quizá usas `p` frecuentemente para ver
+el valor de las variables.
+Al usar [pry](https://github.com/pry/pry) y escribir `binding.pry` en
+tu aplicación, se inicia un ciclo REPL (Lectura-Evaluación-Impresión)
+donde puedes correr código de Ruby.
+[r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a)
+añade `binding.irb` que se comporta de la misma manera con irb.
 
 ## [Unificación de Fixnum y Bignum en Integer](https://bugs.ruby-lang.org/issues/12005)
 
-A pesar de que [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579) no especifica detalles sobre la clase Integer,
+A pesar de que [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+no especifica detalles sobre la clase Integer,
 Ruby tuvo dos clases visibles para Integer: Fixnum y Bignum.
 Ruby 2.4 las unifica en Integer.
-Todas las extensiones que tocan las clases Fixnum o Bignum necesitan ser reparadas.
+Todas las extensiones que tocan las clases Fixnum o Bignum necesitan
+ser reparadas.
 
 Ve también [el incidente](https://bugs.ruby-lang.org/issues/12005) y la [presentación de akr](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
 
@@ -48,13 +54,14 @@ en el lenguage:
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` y `[x, y].min` están optimizados para no crear un arreglo vacío temporal
-bajo ciertas condiciones.
+`[x, y].max` y `[x, y].min` están optimizados para no crear un arreglo vacío
+temporal bajo ciertas condiciones.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-Se añade `Regexp#match?`, ejecuta una comparación con expresiones regulares sin crear
-un objeto de referencia y cambia $~ para ejecutar asignación de memoria.
+Se añade `Regexp#match?`, ejecuta una comparación con expresiones regulares
+sin crear un objeto de referencia y cambia `$~` para ejecutar asignación de
+memoria.
 
 ### Otras mejoras al rendimiento
 
@@ -74,9 +81,10 @@ muestra un reporte cuando un hilo es recogido por el recolector de basura sin un
 
 ### [Detección de deadlocks en hilos ahora muestra los hilos con sus trazas y depencencias](https://bugs.ruby-lang.org/issues/8214)
 
-Ruby tiene detección de deadlocks en los hilos que están a la espera, pero este reporte
-no incluye suficiente información para depuración.
-La detección de deadlocks en Ruby 2.4 muestra los hilos con sus respectivas trazas e hilos dependientes.
+Ruby tiene detección de deadlocks en los hilos que están a la espera, pero
+este reporte no incluye suficiente información para depuración. La detección
+de deadlocks en Ruby 2.4 muestra los hilos con sus respectivas trazas e hilos
+dependientes.
 
 ¡Prueba y disfruta programar con Ruby 2.4.0-rc1, y
 [envíanos retroalimentación](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
