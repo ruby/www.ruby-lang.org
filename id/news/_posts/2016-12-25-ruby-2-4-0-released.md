@@ -12,7 +12,7 @@ Kami dengan senang hati mengumumkan rilis dari Ruby 2.4.0.
 Ruby 2.4.0 adalah rilis *stable* pertama dari rangkaian Ruby 2.4.
 Rilis ini memperkenalkan banyak fitur, sebagai contoh:
 
-## [Memperkenalkan penyempurnaan hash table (oleh Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
+## [Memperkenalkan penyempurnaan hash table (oleh Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
 
 Menyempurnakan struktur internal dari *hash table* (st_table) dengan memperkenalkan
 *open addressing* dan sebuah *inclusion order array*.
