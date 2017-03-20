@@ -266,24 +266,12 @@ to use multiple Rubies on OS X, Linux, or Windows systems.
 ## Platforms
 {: #platforms}
 
-A platform allows you to install Ruby without having to worry about *Package Managers*, *Installers*, or *Version Managers*.
+Platforms allows you to install Ruby without having to worry about *Package Managers*, *Installers*, or *Version Managers*.
 
 ### Nanobox
 {: #nanobox}
 
-[Nanobox][nanobox] is a micro-PaaS (μPaaS) that uses Docker to create isolated Ruby development environments on OS X, Linux, and Windows.
-
-Since each environment is unique to a project, version managers are unnecessary, and Gem conflicts are eliminated.
-
-Place a `boxfile.yml` at the root of any project and type `nanobox run`:
-
-```yml
-run.config:
-  engine: ruby
-```
-
-Additional documentation on using different versions or distributions of Ruby can be found [here](https://guides.nanobox.io/ruby/generic/configure-ruby/).
-
+[Nanobox][nanobox] uses Docker to create isolated Ruby development environments on OS X, Linux, and Windows.
 
 ## Building from Source
 {: #building-from-source}
@@ -310,7 +298,7 @@ though, because the installed Ruby won't be managed by any tools.
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
-[nanobox]: https://nanobox.io
+[nanobox]: https://github.com/nanobox-io/nanobox
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
