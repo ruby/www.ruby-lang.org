@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 2.4.1 リリース"
 author: "naruse"
+translator:
 date: 2017-03-22 03:00:00 +0000
 lang: ja
 ---

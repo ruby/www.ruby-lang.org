@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.4.1 發布"
+author: "naruse"
 translator: "Juanito Fatas"
 date: 2017-03-22 03:00:00 +0000
 lang: zh_tw
