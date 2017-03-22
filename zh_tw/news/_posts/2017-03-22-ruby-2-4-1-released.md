@@ -7,8 +7,8 @@ date: 2017-03-22 03:00:00 +0000
 lang: zh_tw
 ---
 
-很高興告訴大家 Ruby 2.4.0-preview1 發布了。
-這是 2.4 穩定版的首個 TENNY 版本。
+很高興告訴大家 Ruby 2.4.1 發布了。
+這是 2.4 穩定版的首個 TEENY 版本。
 
 參考[提交紀錄](https://github.com/ruby/ruby/compare/v2_4_0...v2_4_1)來進一步了解。
 
