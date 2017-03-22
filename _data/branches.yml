@@ -1,6 +1,11 @@
+# name:     branch name (MAJOR.MINOR since 2.1)
+# status:   normal maintenance | security maintenance | eol | preview
+# date:     date of first stable release (YYYY-MM-DD)
+# eol_date: date of EOL (YYYY-MM-DD)
+
 - name: 2.4
   status: normal maintenance
-  date: 2017-03-22
+  date: 2016-12-25
   eol_date:
 
 - name: 2.3
