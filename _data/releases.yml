@@ -1,5 +1,8 @@
 # 2.4 series
 
+- version: 2.4.1
+  date: 2017-03-22
+  post: /en/news/2017/03/22/ruby-2-4-1-released/
 - version: 2.4.0
   date: 2016-12-25
   post: /en/news/2016/12/25/ruby-2-4-0-released/

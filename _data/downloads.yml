@@ -2,17 +2,17 @@ preview:
 
 stable:
 
-  - version: 2.4.0
+  - version: 2.4.1
     url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.zip
+      bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.bz2
+      gz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.zip
     sha256:
-      bz2: 440bbbdc49d08d3650f340dccb35986d9399177ad69a204def56e5d3954600cf
-      gz: 152fd0bd15a90b4a18213448f485d4b53e9f7662e1508190aa5b702446b29e3d
-      xz: 3a87fef45cba48b9322236be60c455c13fd4220184ce7287600361319bb63690
-      zip: 5c2bbfa26fd6a15a2d70961874b0f3a386206fcc5f698e240dd8b0c9f0f18c5e
+      bz2: ccfb2d0a61e2a9c374d51e099b0d833b09241ee78fc17e1fe38e3b282160237c
+      gz: a330e10d5cb5e53b3a0078326c5731888bb55e32c4abfeb27d9e7f8e5d000250
+      xz: 4fc8a9992de3e90191de369270ea4b6c1b171b7941743614cc50822ddc1fe654
+      zip: f98a3b50439ffdd270f9ae86d99ff0be431c81b85215c9aafac942ef40b89cbf
 
   - version: 2.3.3
     url:
