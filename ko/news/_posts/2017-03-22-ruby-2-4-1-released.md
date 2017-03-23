@@ -1,6 +1,7 @@
 ---
 layout: news_post
 title: "루비 2.4.1 릴리스"
+author: "naruse"
 translator: "shia"
 date: 2017-03-22 03:00:00 +0000
 lang: ko
