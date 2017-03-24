@@ -33,7 +33,7 @@ header: |
 
 ---
 
-{% include faq-notice.html %}
+{% include faq-notice.md %}
 
 ## Variables, constants, and arguments
 
