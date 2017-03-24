@@ -33,8 +33,6 @@ header: |
 
 ---
 
-{% include faq-notice.html %}
-
 This document contains Frequently Asked Questions about Ruby with answers.
 {: .summary}
 
@@ -46,6 +44,8 @@ the FAQ into the site and for a major overhaul of the content.
 The code examples in this document have been run using Ruby 2.3.
 
 [original-faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
+
+{% include faq-notice.html %}
 
 ## Content
 
