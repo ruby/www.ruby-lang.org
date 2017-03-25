@@ -200,7 +200,7 @@ Windows 使用者，可以使用這個很棒的專案來幫助您安裝 Ruby：
 [RVM][rvm] 可以在系統上安裝多個版本的 Ruby。也可以管理不同的 Gem 包（gemset）。兼容 OS X、Linux 和其它類 Unix 的作業系統。
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] 是一個輕量、支援多平台的命令列工具，幫助您在 OS X、Linux 以及 Windows 上安裝多版本的 Ruby。

@@ -253,7 +253,7 @@ También puede manejar varios gemsets. Está disponible para OS X, Linux y otros
 sistemas operativos UNIX.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] es una herramienta de la línea de comandos multi-plataforma muy ligera

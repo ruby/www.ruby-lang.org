@@ -241,7 +241,7 @@ RVM은 다른 gemsets도 관리해 줍니다.
 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru]는 OS X, Linux, Windows에서 여러 루비를 사용하게 하는 가벼운

@@ -254,7 +254,7 @@ on your system. It can also manage different gemsets.
 It is available for OS X, Linux, or other UNIX-like operating systems.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] is a lightweight, multi-platform command line tool that helps you

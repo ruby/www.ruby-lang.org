@@ -188,7 +188,7 @@ $ pkg install runtime/ruby-18
 [RVM][rvm] 能在系统中安装和管理多个 Ruby 版本。同时还能管理不同的 gem 集。支持 OS X、Linux 和其它类 UNIX 操作系统。
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] 是一个轻量级的命令行工具，支持多平台，能够帮你在 OS X、Linux 和 Windows 上使用不同的 Ruby 版本。

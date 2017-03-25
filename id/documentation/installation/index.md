@@ -254,7 +254,7 @@ pada sistem Anda. RVM juga dapat mengatur *gemsets* yang berbeda.
 RVM tersedi untuk OS X, Linux, dan sistem operasi UNIX-like lainnya.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] adalah sebuah *command line tool* yang ringan dan mendukung banyak *platform* yang membantu Anda
