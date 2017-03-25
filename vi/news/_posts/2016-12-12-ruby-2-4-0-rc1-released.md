@@ -3,7 +3,7 @@ layout: news_post
 title: "Phát hành Ruby 2.4.0-rc1"
 author: "naruse"
 translator: "Hiền Vương"
-date: 2016-12-12 18:00:00 +0900
+date: 2016-12-12 09:00:00 +0000
 lang: vi
 ---
 

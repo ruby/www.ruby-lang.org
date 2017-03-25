@@ -3,7 +3,7 @@ layout: news_post
 title: "Rilasciato Ruby 2.4.0-preview2"
 author: "naruse"
 translator: alepore
-date: 2016-09-08 18:00:00 +0900
+date: 2016-09-08 09:00:00 +0000
 lang: it
 ---
 
