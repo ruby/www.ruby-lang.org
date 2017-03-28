@@ -9,8 +9,7 @@ lang: de
 
 Ruby 2.2.7 ist veröffentlicht worden.
 
-Diese Veröffentlichung enthält etwa 70 Bugfixes im Vergleich zur
-vorherigen Version.
+Diese Veröffentlichung enthält etwa 70 Bugfixes seit der vorherigen Version.
 Siehe das
 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
 für weitere Informationen.
