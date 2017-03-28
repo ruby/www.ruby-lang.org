@@ -42,6 +42,9 @@
 
 # 2.2 series
 
+- version: 2.2.7
+  date: 2017-03-28
+  post: /en/news/2017/03/28/ruby-2-2-7-released/
 - version: 2.2.6
   date: 2016-11-15
   post: /en/news/2016/11/15/ruby-2-2-6-released/
