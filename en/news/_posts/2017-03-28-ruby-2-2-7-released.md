@@ -17,7 +17,7 @@ After this release, we will end the normal maintenance phase of Ruby 2.2,
 and start the security maintenance phase of it.
 This means that after the release of 2.2.7 we will never backport any bug fixes
 to 2.2 except security fixes.
-The term of the security mainenance phase is scheduled for 1 year.
+The term of the security maintenance phase is scheduled for 1 year.
 By the end of this term, official support of Ruby 2.2 will be over.
 Therefore, we recommend that you start planning to upgrade to Ruby 2.4 or 2.3.
 
