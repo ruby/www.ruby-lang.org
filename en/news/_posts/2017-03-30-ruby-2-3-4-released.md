@@ -10,11 +10,11 @@ lang: en
 Ruby 2.3.4 has been released.
 
 This release contains about 80 bug fixes after the previous release.
-See the [commits logs](https://github.com/ruby/ruby/compare/v2_3_3...v2_3_4)
+See the [commit logs](https://github.com/ruby/ruby/compare/v2_3_3...v2_3_4)
 for details.
 
 And this release contains a bug fix of Symbol#hash to be non-deterministic.
-This is a regression on 2.3.x seriese before 2.3.4.
+This is a regression on 2.3 seriese before 2.3.4.
 See [Bug #13376](https://bugs.ruby-lang.org/issues/13376) for more details.
 
 
