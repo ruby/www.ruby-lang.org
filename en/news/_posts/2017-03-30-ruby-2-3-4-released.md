@@ -14,7 +14,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_3_3...v2_3_4)
 for details.
 
 And this release contains a bug fix of Symbol#hash to be non-deterministic.
-This is a regression on 2.3 seriese before 2.3.4.
+This is a regression on the 2.3 series before 2.3.4.
 See [Bug #13376](https://bugs.ruby-lang.org/issues/13376) for more details.
 
 
