@@ -40,6 +40,8 @@ stable:
 
 security_maintenance:
 
+eol:
+
   - version: 2.1.10
     url:
       bz2: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.bz2
@@ -51,20 +53,6 @@ security_maintenance:
       gz: fb2e454d7a5e5a39eb54db0ec666f53eeb6edc593d1d2b970ae4d150b831dd20
       xz: 5be9f8d5d29d252cd7f969ab7550e31bbb001feb4a83532301c0dd3b5006e148
       zip: 21cf83156ec782d17827fb9c8a945626dfd68cf0d9eb5ca7a78b12eb91c6f1fb
-
-eol:
-
-  - version: 2.0.0-p648
-    url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.zip
-    sha256:
-      bz2: 087ad4dec748cfe665c856dbfbabdee5520268e94bb81a1d8565d76c3cc62166
-      gz: 8690bd6b4949c333b3919755c4e48885dbfed6fd055fe9ef89930bde0d2376f8
-      xz: 22fe97739110ba9171b13fc4dcd1a92e767f16769de3593ee41ef1283d218402
-      zip: 6d1fb8b285c80bfc1838880626d04f128561a649161c80d1748423c731d548bd
 
 stable_snapshot:
 
