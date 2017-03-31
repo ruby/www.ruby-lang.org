@@ -26,6 +26,8 @@ stable:
       xz: 341cd9032e9fd17c452ed8562a8d43f7e45bfe05e411d0d7d627751dd82c578c
       zip: e70b716982be704375129d4fc0ef305fd8d8151f64e0fcb12de791ab956a526d
 
+security_maintenance:
+
   - version: 2.2.7
     url:
       bz2: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.7.tar.bz2
@@ -37,8 +39,6 @@ stable:
       gz: 374184c6c5bbc88fb7bad422368d4053a236fb6587f0eff76146dcba57f93da5
       xz: 234c8aee6543da9efd67008e6e7ee740d41ed57a52e797f65043c3b5ec3bcb53
       zip: db3852d3f23b5eab2b9862ff01c16486eb5700cd7cb5a78234254fd8a330e183
-
-security_maintenance:
 
 eol:
 
