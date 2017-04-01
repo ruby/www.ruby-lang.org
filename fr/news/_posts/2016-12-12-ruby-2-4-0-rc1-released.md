@@ -82,7 +82,7 @@ Dites-nous quelle valeur par défaut vous souhaiteriez que Ruby définisse pour
 le réglage `report_on_exception`, et aussi pour *report-on-GC*, qui affiche un
 rapport quand un thread (non-`join`) est recyclé par le ramasse-miette.
 
-### [La détection d'interblocage de Thread affiche désormais les threads avec leur backtrace et dépendances]](https://bugs.ruby-lang.org/issues/8214)
+### [La détection d'interblocage de Thread affiche désormais les threads avec leur backtrace et dépendances](https://bugs.ruby-lang.org/issues/8214)
 
 Ruby comporte une détection des interblocages (*deadlocks*) pour les threads
 mis en attente, mais le rapport de détection ne fournissait pas suffisamment
@@ -96,8 +96,8 @@ et à nous [faire vos retours](https://bugs.ruby-lang.org/projects/ruby/wiki/How
 ## Autres changements notables depuis la version 2.3
 
 * Support de OpenSSL 1.1.0 (et fin du support des versions 0.9.7 et précédentes)
-* ext/tk retiré de la librairie standard [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
-* XMLRPC retiré de la librairie standard [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
+* ext/tk retiré de la librairie standard ([#8539](https://bugs.ruby-lang.org/issues/8539))
+* XMLRPC retiré de la librairie standard ([#12160](https://bugs.ruby-lang.org/issues/12160))
 
 Consultez le fichier [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)
 et le log de commits pour plus de détails.

@@ -51,4 +51,4 @@ pour en savoir plus.
 ## Commentaire de release
 
 Nombre de programmeurs et d'utilisateurs nous ont aidés à préparer cette
-version au travers de leur rapport de bug. Merci à eux.
+version au travers de leurs rapports de bug. Merci à eux.
