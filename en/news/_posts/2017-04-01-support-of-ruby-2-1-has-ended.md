@@ -21,7 +21,7 @@ We highly recommend that you upgrade to Ruby 2.4 or 2.3 as soon as possible.
 
 Currently in normal maintenance phase.
 We will backport bug fixes and release with the fixes whenever necessary.
-And, if a critical security issue will be found, we will release the urgent fix for it.
+And, if a critical security issue will be found, we will release un urgent fix for it.
 
 ### Ruby 2.3 series
 
@@ -33,5 +33,5 @@ And, if a critical security issue will be found, we will release an urgent fix f
 
 Currently in security maintenance phase.
 We will never backport any bug fixes to 2.2 except security fixes.
-If a critical security issue will be found, we will release the urgent fix for it.
+If a critical security issue will be found, we will release un urgent fix for it.
 We are planning to end the support of the Ruby 2.2 series at the end of March of 2018.
