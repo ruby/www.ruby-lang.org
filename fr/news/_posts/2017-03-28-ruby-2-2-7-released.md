@@ -10,16 +10,16 @@ lang: fr
 Ruby 2.2.7 est désormais disponible.
 
 Cette version amène près de 70 nouvelles résolutions de bugs.
-Consultez le [changeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
+Consultez le [changelog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
 pour plus de détails.
 
 La version 2.2.7 marque la fin de la phase standard de maintenance de la
-branche 2.2, et le début de la phase de maintance sécurité. Cela signifie
-qu'il n'y aura plus de *backports* de corrections de bug autre que de
-sécurité. Cette phase de maintenance réduite s'achèvera dans un an, à
-l'issue de quoi la branche 2.2 ne sera plus officiellement supportée.
-De ce fait, nous vous recommandons de passer sans attendre à Ruby 2.4 ou
-au minimum 2.3.
+branche 2.2, et le début de sa phase de maintance de sécurité. Cela signifie
+qu'il n'y aura plus de *backports* depuis les versions plus récentes, sauf
+pour les correctifs de sécurité. Cette phase de maintenance réduite
+s'achèvera dans un an, à l'issue de quoi la branche 2.2 ne sera plus
+officiellement supportée. De ce fait, nous vous recommandons de passer
+sans attendre à Ruby 2.4 ou au minimum 2.3.
 
 ## Téléchargement
 
@@ -53,7 +53,7 @@ au minimum 2.3.
 
 ## Commentaire de release
 
-Merci à tous celles et ceux qui nous ont aidé à préparer cette version.
+Merci à tous celles et ceux qui nous ont aidés à préparer cette version.
 
 Le support de la branche 2.2 est documenté et encadré par le document
 *Agreement for the Ruby stable version* publié par la [*Ruby Association*](http://www.ruby.or.jp/).
