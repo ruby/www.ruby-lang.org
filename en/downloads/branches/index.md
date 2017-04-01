@@ -36,7 +36,8 @@ the following phases:
 ### Ruby {{ branch.name }}
 
 status: {{ branch.status }}<br>
-release date: {{ branch.date }}<br>
+release date: {{ branch.date }}{% if branch.eol_date %}<br>
 EOL date: {{ branch.eol_date }}
+{% endif %}
 
 {% endfor %}
