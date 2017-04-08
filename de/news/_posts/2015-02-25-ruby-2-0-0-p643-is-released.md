@@ -15,7 +15,7 @@ Ruby 2.0.0, welches nunmehr in die Phase der Sicherheitsunterstützung
 übergeht. Es werden daher keine neuen Versionen von Ruby 2.0.0 mehr
 veröffentlicht, sofern nicht kritische Regressions oder
 Sicherheitslücken gefunden werden.
-Die Dauer dieser letzten Pase ist auf 1 Jahr angesetzt.
+Die Dauer dieser letzten Phase ist auf 1 Jahr angesetzt.
 Danach wird die Unterstützung von Ruby 2.0.0 am 25. Februar 2016
 enden.
 Wir empfehlen daher, mit den Planungen für eine Migration auf neuere
