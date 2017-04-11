@@ -17,6 +17,14 @@ And this release contains a bug fix of Symbol#hash to be non-deterministic.
 This is a regression on the 2.3 series before 2.3.4.
 See [Bug #13376](https://bugs.ruby-lang.org/issues/13376) for more details.
 
+## Known Problem (this section was added at 11 Apr 2017)
+
+An API incompatibility has been found with Ruby 2.3.4.
+It is the accidental removal of an API named `rb_thread_fd_close`.
+We will fix this problem at the next release, but if you are facing
+the problem now and need to overcome it immediately, use this patch:
+
+* [to fix rb_thread_fd_close problem](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
 
 ## Download
 
