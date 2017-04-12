@@ -13,6 +13,12 @@ Ruby 2.3.4 发布了。
 
 这一版修正了 Symbol#hash 的不确定性。这是一个回归问题，存在于 2.3 系列中 2.3.4 之前的版本中。详情参见 [Bug #13376](https://bugs.ruby-lang.org/issues/13376)。
 
+## 已发现的问题（此段添加于 2017 年 04 月 12 号)
+
+Ruby 2.3.4 中发现存在 API 不兼容。这是由于意外地删除了一个叫 `rb_thread_fd_close` 的 API。我们会在下一个版本修复这个问题，如果你遇到这个问题并且需要解决方案的话，请应用这个补丁：
+
+* [修复 rb_thread_fd_close 问题的补丁](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+
 ## 下载
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.bz2)
