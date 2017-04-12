@@ -18,6 +18,16 @@ Dan rilis ini juga memuat perbaikan *bug* dari Symbol#hash menjadi
 2.3.4. Lihat [Bug #13376](https://bugs.ruby-lang.org/issues/13376) untuk lebih
 detail.
 
+## Masalah Umum (bagian ini ditambahkan pada 11 April 2017)
+
+Sebuah API *incompatibility* telah ditemukan pada Ruby 2.3.4.
+Ini adalah penghapusan yang disengaja dari fungsi API `rb_thread_fd_close`.
+Kami akan memperbaiki masalah ini pada rilis berikutnya, tetapi jika Anda
+sedang menghadapi masalah ini sekarang dan perlu untuk mengatasinya segera, gunakan
+patch berikut:
+
+* [patch for rb_thread_fd_close problem](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+
 ## Unduh
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.bz2)
