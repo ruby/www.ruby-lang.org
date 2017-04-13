@@ -18,7 +18,9 @@ This is a regression on the 2.3 series before 2.3.4.
 See [Bug #13376](https://bugs.ruby-lang.org/issues/13376) for more details.
 
 
-## Known Problem (this section was added at April 11, 2017)
+## Known Problem
+
+_(This section was added at April 11, 2017.)_
 
 An API incompatibility has been found for Ruby 2.3.4.
 It is the accidental removal of the API function `rb_thread_fd_close`.
