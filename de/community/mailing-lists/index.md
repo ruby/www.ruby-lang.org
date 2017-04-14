@@ -12,8 +12,7 @@ Es gibt eine deutschsprachige Mailingliste zu Ruby:
 
 ruby-de
 : Die einzige deutschsprachige Mailingliste zu Ruby, offen für alle
-  Themen rund um Ruby in
-  Deutsch. ([Anmelden][6], [Archiv][7], [Benutzungsanleitung][8])
+  Themen rund um Ruby. ([Anmelden][6], [Archiv][7], [Benutzungsanleitung][8])
 
 Ruby hat vier englischsprachige Mailinglisten:
 
