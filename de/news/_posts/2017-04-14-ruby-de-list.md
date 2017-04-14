@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Deutschsprachiges Ruby-Forum schließt und wird durch Mailingliste ersetzt"
+title: "Neue Mailingliste für die deutschsprachige Ruby-Community"
 author: "Marvin Gülker"
 translator:
 date: 2017-04-14 00:00:00 +0000
 lang: de
 ---
 
-Das deutschsprachige Ruby-Forum schließt und wird durch eine
-Mailingliste ersetzt.
+Eine neue deutschsprachige Mailingliste ersetzt das in die Jahre
+gekommene Ruby-Forum.
 
 Das [einzige deutschsprachige Forum zur Programmiersprache Ruby][1]
 befand sich [seit ca. 2014][2] nicht mehr in aktiver Wartung. Bis
@@ -17,15 +17,16 @@ heute war es nicht möglich, jemanden zu finden, der die Administration
 nunmehr die Konsequenzen gezogen haben und [das Forum schließen
 werden][3].
 
-Ab etwa Anfang Juni wird das Forum — und die dazugehörige Wiki — nach
+Ab etwa Anfang Juni wird das Forum — und das dazugehörige Wiki — nach
 derzeitiger Planung kontrolliert heruntergefahren und durch eine
 statische Kopie zu Archivzwecken ersetzt.
 
 Wir freuen uns aber, ankündigen zu können, dass das Forum dank der
-[Anstrengungen von hsbt][4] durch eine neue Mailingliste ersetzt
-wird. Es wird daher allen deutschsprachigen Rubyisten wärmstens
-empfohlen, die [neue Ruby-Mailingliste ruby-de@ruby-lang.org][5]
-zu abonnieren und dort über alle Themen rund um Ruby zu diskutieren.
+[Anstrengungen von hsbt und Quintus (mir)][4] durch eine neue
+Mailingliste ersetzt wird. Es wird daher allen deutschsprachigen
+Rubyisten wärmstens empfohlen, die [neue Ruby-Mailingliste
+ruby-de@ruby-lang.org][5] zu abonnieren und dort über alle Themen rund
+um Ruby zu diskutieren.
 
 _Der Autor ist Moderator im deutschsprachigen Forum für die
 Programmiersprache Ruby gewesen._
