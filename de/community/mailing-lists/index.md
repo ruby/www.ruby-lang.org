@@ -8,7 +8,14 @@ Mailinglisten sind eine prima Möglichkeit, um die Hand am Puls der
 Ruby-Community zu halten.
 {: .summary}
 
-Ruby hat vier vorrangige englischsprachige Mailinglisten:
+Es gibt eine deutschsprachige Mailingliste zu Ruby:
+
+ruby-de
+: Die einzige deutschsprachige Mailingliste zu Ruby, offen für alle
+  Themen rund um Ruby in
+  Deutsch. ([Anmelden][6], [Archiv][7], [Benutzungsanleitung][8])
+
+Ruby hat vier englischsprachige Mailinglisten:
 
 Ruby-Talk
 : Dies ist die höchstfrequentierte Liste. Sie behandelt alle allgemeinen
@@ -49,3 +56,6 @@ auch [manuell anmelden](manual-instructions/).
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[6]: http://lists.ruby-lang.org/cgi-bin/mailman/listinfo/ruby-de
+[7]: http://lists.ruby-lang.org/pipermail/ruby-de/
+[8]: http://planet.ruby-portal.de/ruby-de.html
