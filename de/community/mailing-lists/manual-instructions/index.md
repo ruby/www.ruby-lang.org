@@ -10,6 +10,14 @@ mit dem folgenden Inhalt (nicht Betreff) an die Controller-Adresse:
     subscribe
 {: .code}
 
+ruby-de
+: Für ruby-de ist die Controller-Adresse
+  [ruby-de-request@ruby-lang.org](mailto:ruby-de-request@ruby-lang.org), die
+  E-Mail-Adresse um Nachrichten an die Liste zu senden ist
+  [ruby-de@ruby-lang.org](mailto:ruby-de@ruby-lang.org) und den
+  Administrator erreichst du unter
+  [ruby-de-owner@ruby-lang.org](mailto:ruby-de-owner@ruby-lang.org),
+
 Ruby-Talk
 : Für Ruby-Talk ist die Controller-Adresse
   [ruby-talk-request@ruby-lang.org](mailto:ruby-talk-request@ruby-lang.org), die
