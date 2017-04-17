@@ -152,8 +152,8 @@ class MegaGreeter
   attr_accessor :names
 
   # Create the object
-  def initialize(names = "World")
-    @names = names
+  def initialize(somename = "World")
+    @names = somename
   end
 
   # Say hi to everybody
