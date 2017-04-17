@@ -26,6 +26,10 @@ to start:
 [Ruby on IRC (#ruby)](irc://irc.freenode.net/ruby)
 : The Ruby Language IRC Channel is a wonderful way to chat with fellow
   Rubyists.
+  
+[Ruby on Slack](https://rubyoss-slackin.herokuapp.com)
+: The Ruby Language Slack team is a wonderful way to chat with fellow
+  Rubyists, and stay in touch with the community.
 
 [Ruby Core](ruby-core/)
 : Now is a fantastic time to follow Ruby’s development.
