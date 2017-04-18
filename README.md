@@ -22,13 +22,13 @@ Please help us stay on top of things by following our
 Bundler will take care of the dependencies, so unless you
 already have done so, you might need to install bundler with:
 
-``` sh
+```sh
 gem install bundler
 ```
 
 Then clone the repository and install the dependencies:
 
-``` sh
+```sh
 git clone https://github.com/ruby/www.ruby-lang.org.git
 cd www.ruby-lang.org/
 bundle install
@@ -55,13 +55,13 @@ your commits and PRs should look like.
 
 Generate the website with
 
-``` sh
+```sh
 bundle exec rake build
 ```
 
 Then start a local web server with
 
-``` sh
+```sh
 bundle exec rake serve
 ```
 
@@ -85,20 +85,20 @@ you can also create a preview on Heroku.
 
   * Create a preview app on Heroku using the custom buildpack:
 
-    ``` sh
+    ```sh
     heroku login
     heroku create --buildpack https://github.com/ruby/heroku-buildpack-www-ruby-lang.git
     ```
 
   * Push your feature branch:
 
-    ``` sh
+    ```sh
     git push heroku feature_branch:master
     ```
 
     To create a preview of the master branch:
 
-    ``` sh
+    ```sh
     git push heroku master
     ```
 
@@ -111,7 +111,7 @@ retrieve the preview URL using `heroku info` and open it in your browser.
 Besides generating and previewing the site
 you can perform additional tests with these tasks:
 
-``` sh
+```sh
 bundle exec rake check         # perform various tests on the source files
 bundle exec rake check:markup  # check markup for all generated pages
 bundle exec rake check:links   # check for 404's (needs a running local server)
