@@ -1745,7 +1745,7 @@ locales:
     bg: "Този сайт на други езици:"
     de: "Diese Website in anderen Sprachen:"
     en: "This site in other languages:"
-    fr: "Autres langues disponibles :"
+    fr: "Autres langues disponibles:"
     id: "Situs ini dalam bahasa lain:"
     it: "Questo sito in altre lingue:"
     pl: "Ta strona w innych językach:"
@@ -1753,6 +1753,7 @@ locales:
     ru: "Этот сайт на других языках:"
     tr: "Diğer dillerde bu site:"
     zh_cn: "本站其他语言版本："
+    vi: "Ngôn ngữ khác:"
 
   credits:
     bg: |
