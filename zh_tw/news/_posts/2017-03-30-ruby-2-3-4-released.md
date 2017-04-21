@@ -12,7 +12,7 @@ Ruby 2.3.4 發布了。
 本次發布較前板相比約修正了 80 個錯誤。
 參考 [commit logs](https://github.com/ruby/ruby/compare/v2_3_3...v2_3_4) 來進一步了解。
 
-同時本次發布包含了 Symbol#hash 的不確定性修正。 
+同時本次發布包含了 Symbol#hash 的不確定性修正。
 這是 2.3 系列在 2.3.4 版本前存在的功能退化（regression）。
 參考 [Bug #13376](https://bugs.ruby-lang.org/issues/13376) 來進一步了解。
 
