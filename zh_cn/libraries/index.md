@@ -54,7 +54,7 @@ $ gem install rails
 你甚至可以通过 `--version` 或 `-v` 标识来安装特定版本的代码库:
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### 列出所有的 Gem

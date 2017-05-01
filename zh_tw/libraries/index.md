@@ -55,7 +55,7 @@ $ gem install rails
 可以傳入 `--version`（縮寫 `-v`）來指定版本：
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 RubyGems 提倡語義化版本，請參考 [Semantic Versioning 2.0.0][semver]。

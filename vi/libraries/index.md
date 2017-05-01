@@ -77,7 +77,7 @@ $ gem install rails
 Bạn có thể cài một phiên bản nhất định của gem, với cờ `--version` / `-v`:
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Liệt kê tất cả gem

@@ -89,7 +89,7 @@ Anda bahkan dapat memasang pustaka versi tertentu menggunakan penanda
 `--version` / `-v`:
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Daftar semua gem

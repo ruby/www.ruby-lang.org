@@ -91,7 +91,7 @@ Du kannst sogar nur eine spezielle Version der Bibliothek installieren,
 indem Du den Parameter `--version` / `-v` übergibst:
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Alle Gems auflisten
