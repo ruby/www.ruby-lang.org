@@ -45,6 +45,8 @@ for different needs and platforms.
   * [rbenv](#rbenv)
   * [RVM](#rvm)
   * [uru](#uru)
+* [Platforms](#platforms)
+  * [Nanobox](#nanobox)
 * [Building from source](#building-from-source)
 
 
@@ -261,6 +263,16 @@ It is available for OS X, Linux, or other UNIX-like operating systems.
 to use multiple Rubies on OS X, Linux, or Windows systems.
 
 
+## Platforms
+{: #platforms}
+
+Platforms allows you to install Ruby without having to worry about *Package Managers*, *Installers*, or *Version Managers*.
+
+### Nanobox
+{: #nanobox}
+
+[Nanobox][nanobox] uses Docker to create isolated Ruby development environments on OS X, Linux, and Windows.
+
 ## Building from Source
 {: #building-from-source}
 
@@ -286,6 +298,7 @@ though, because the installed Ruby won't be managed by any tools.
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
+[nanobox]: https://github.com/nanobox-io/nanobox
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
