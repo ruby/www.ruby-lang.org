@@ -10,7 +10,7 @@ lang: zh_tw
 Ruby 有四個主要的英文郵件論壇：
 
 Ruby-Talk
-: Ruby-Talk 與 [Ruby-Forum.com][1] 十分相似，其討論的議題十分全面，同時也是最有人氣的 Ruby 郵件論壇。（[問與答][2]跟[彙整][3]）
+: Ruby-Talk 與 [Ruby-Forum.com][1] 十分相似，其討論的議題十分全面，同時也是最有人氣的 Ruby 郵件論壇。（[彙整][3]）
 
 Ruby-Core
 : 此郵件論壇專注於 Ruby 的核心以及重點實作，通常用於修正檔的檢查上。（[彙整][4]）
@@ -33,7 +33,6 @@ The comp.lang.ruby 新聞組
 
 
 [1]: https://www.ruby-forum.com/
-[2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://lists.ruby-lang.org/pipermail/ruby-doc/

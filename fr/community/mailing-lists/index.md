@@ -13,7 +13,7 @@ Quatre listes principales existent :
 
 Ruby-Talk
 : C’est la plus populaire, elle accueille les discussions généralistes
-  sur Ruby. Voir aussi la [FAQ][3], les [archives][4].
+  sur Ruby. Voir aussi les [archives][4].
 
 Ruby-Core
 : Cette liste accueille les sujets relatifs à l’implémentation et au
@@ -36,7 +36,6 @@ formulaire, essayez la [méthode manuelle](manual-instructions/).
 
 
 
-[3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [6]: http://lists.ruby-lang.org/pipermail/ruby-doc/

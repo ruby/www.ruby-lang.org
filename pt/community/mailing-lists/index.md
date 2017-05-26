@@ -12,7 +12,7 @@ O Ruby tem quatro listas de e-mail principais em inglês:
 
 Ruby-Talk
 : Esta é a lista de e-mails mais popular e trata de tópicos gerais sobre
-  o Ruby. ([FAQ][2] e [Arquivos][3])
+  o Ruby. ([Arquivos][3])
 
 Ruby-Core
 : Esta lsta trata do núcleo e tópicos da implementação do Ruby.
@@ -52,7 +52,6 @@ tente se inscrever [manualmente](manual-instructions/).
 
 
 
-[2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://lists.ruby-lang.org/pipermail/ruby-doc/

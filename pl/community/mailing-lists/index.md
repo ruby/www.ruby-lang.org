@@ -12,7 +12,7 @@ Ruby posiada cztery angielskojęzyczne listy mailingowe i jedną polskojęzyczn�
 
 Ruby-Talk
 : Najpopularniejsza lista mailingowa, która zajmuje się ogólnymi
-  tematami związanymi z językiem Ruby. ([FAQ][3], [Archiwa][4])
+  tematami związanymi z językiem Ruby. ([Archiwa][4])
 
 Ruby-Core
 : Lista zajmująca się tematami zwązanymi z rdzeniem języka oraz jego
@@ -41,7 +41,6 @@ way](/en/community/mailing-lists/manual-instructions/).
 
 
 
-[3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [6]: http://lists.ruby-lang.org/pipermail/ruby-doc/

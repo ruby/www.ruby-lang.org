@@ -10,7 +10,7 @@ lang: zh_cn
 Ruby 最主要的四个使用英文语言交流的邮件列表：
 
 Ruby-Talk
-: 这是处理一般 Ruby 话题最流行的邮件列表。([FAQ][3]，[存档][4])
+: 这是处理一般 Ruby 话题最流行的邮件列表。([存档][4])
 
 Ruby-Core
 : 该列表处理和 Ruby 相关的核心和重点专题，经常被用于补丁审核。([存档][5])
@@ -32,7 +32,6 @@ comp.lang.ruby新闻组
 
 
 
-[3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [6]: http://lists.ruby-lang.org/pipermail/ruby-doc/
