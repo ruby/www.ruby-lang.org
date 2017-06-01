@@ -92,7 +92,7 @@ Puoi anche installare solamente una determinata versione della libreria
 specificando l'opzione `--version` / `-v`.
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Elencare tutte le gem

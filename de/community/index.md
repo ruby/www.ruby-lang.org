@@ -14,11 +14,11 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
 
 ## Deutschsprachige Seiten
 
-[Ruby-Forum](https://forum.ruby-portal.de)
-: Das deutschsprachige Ruby-Forum ist der Haupttreffpunkt für die
-  Ruby-Community in und aus Deutschland. Hilfestellungen für Neulinge
-  werden ebenso gern gegeben wie ausschweifende Diskussionen über
-  Ruby-Interna geführt.
+[ruby-de](http://lists.ruby-lang.org/cgi-bin/mailman/listinfo/ruby-de)
+: Die deutschsprachige Ruby-Mailingliste ist der Haupttreffpunkt für die
+  Ruby-Community in und aus Deutschland und anderen deutschsprachigen
+  Ländern. Hilfestellungen für Neulinge werden ebenso gern gegeben wie
+  ausschweifende Diskussionen über Ruby-Interna geführt.
 
 [Ruby im IRC (#ruby-de)](irc://irc.freenode.net/ruby-de)
 : Der deutschsprachige IRC-Channel zu Ruby ist zwar lange nicht so
@@ -31,10 +31,20 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   eine Website und eventuell auch häufig stattfindende
   Programmierparties.
 
-[RubyWiki](http://wiki.ruby-portal.de)
-: Das einzige deutschsprachige Ruby-Wiki ist eine gute Anlaufstelle
+[Ruby-Forum (Archiv)](http://forum.ruby-portal.de)
+: Das ehemalige deutschsprachige Ruby-Forum war der Haupttreffpunkt
+  für die Ruby-Community in und aus Deutschland, bevor es zugunsten
+  der oben angesprochenen Mailingliste _ruby-de_ geschlossen wurde.
+  Es gibt hier noch viele interessante Threads, weshalb die Seite
+  als Archiv aufrecht erhalten wird. Es können aber keine neuen
+  Posts erstellt werden.
+
+[RubyWiki (Archiv)](http://wiki.ruby-portal.de)
+: Das ehemals einzige deutschsprachige Ruby-Wiki ist eine gute Anlaufstelle
   für häufige Fragen und Sammelstelle für unterschiedlichstes Wissen
-  aus dem Bereich um die Programmiersprache Ruby.
+  aus dem Bereich um die Programmiersprache Ruby. Hier können
+  allerdings keine neuen Artikel mehr erstellt werden, es handelt
+  sich um eine Archivseite.
 
 ## Internationale Seiten
 

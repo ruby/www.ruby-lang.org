@@ -89,7 +89,7 @@ Vous pouvez par ailleurs demander l’installation d’une version précise,
 avec l’option `--version` :
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Lister toutes les gems

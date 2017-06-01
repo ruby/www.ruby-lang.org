@@ -3,7 +3,7 @@ layout: news_post
 title: "루비 2.4.0-rc1 릴리스"
 author: "naruse"
 translator: "yous"
-date: 2016-12-12 18:00:00 +0900
+date: 2016-12-12 09:00:00 +0000
 lang: ko
 ---
 

@@ -259,7 +259,7 @@ Nó cũng có thể quản lý các gemset khác nhau.
 Có sẵn trên OS X, Linux, và các hệ điều hành giống UNIX khác.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] là một công cụ dòng lệnh đa nền tảng, gọn nhẹ giúp bạn

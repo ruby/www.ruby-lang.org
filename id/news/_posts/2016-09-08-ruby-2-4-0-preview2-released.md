@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.4.0-preview2 Rilis"
 author: "naruse"
 translator: "meisyal"
-date: 2016-09-08 18:00:00 +0900
+date: 2016-09-08 09:00:00 +0000
 lang: id
 ---
 

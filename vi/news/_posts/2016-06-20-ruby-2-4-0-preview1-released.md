@@ -3,7 +3,7 @@ layout: news_post
 title: "Phát hành Ruby 2.4.0-preview1"
 author: "naruse"
 translator: "Tạ Duy Anh"
-date: 2016-06-20 18:00:00 +0900
+date: 2016-06-20 09:00:00 +0000
 lang: vi
 ---
 

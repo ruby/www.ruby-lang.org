@@ -14,6 +14,8 @@ describing new techniques, or speculating on Ruby’s future.
 * [**RubyFlow**][rubyflow], “the Ruby and Rails community linklog”,
   is a Ruby news site with links to libraries, blog posts, tutorials,
   and other Ruby resources.
+* [**Rubyland**][rubyland] aggregates news and blog posts about Ruby
+  from RSS feeds.
 
 ### Blogs of Note
 
@@ -46,6 +48,7 @@ some brilliant code out there, be sure to let them know!
 
 
 [rubyflow]: http://www.rubyflow.com/
+[rubyland]: http://rubyland.news/
 [8]: http://oreillynet.com/ruby/
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
