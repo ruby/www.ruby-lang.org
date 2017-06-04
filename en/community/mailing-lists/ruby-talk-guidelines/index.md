@@ -1,17 +1,15 @@
 ---
 layout: page
-title: "Posting Guidelines for comp.lang.ruby"
+title: "Posting Guidelines for the Ruby-Talk Mailing List"
 lang: en
 ---
 
-_These are the posting guidelines for comp.lang.ruby,
-adopted from the [comp.lang.ruby FAQ][clrFAQ]._
+You should follow these guidelines when posting to the ruby-talk mailing list.
+{: .summary}
 
-You should also follow these guidelines for the ruby-list mail list,
-since it is mirrored to comp.lang.ruby.
 
 1. ALWAYS be friendly, considerate, tactful, and tasteful. We want to
-   keep this forum hospitable to the growing ranks of newbies, very
+   keep this list hospitable to the growing ranks of newbies, very
    young people, and their teachers, as well as cater to fire breathing
    wizards. :-)
 
@@ -19,7 +17,7 @@ since it is mirrored to comp.lang.ruby.
    content brief and to the point, but also try to include all relevant
    information.
 
-   1. The general format guidelines (aka USENET Netiquette) are
+   1. The general format guidelines (aka Netiquette) are
       matters of common sense and common courtesy that make life
       easier for 3rd parties to follow along (in real time or when
       perusing archives):
@@ -27,8 +25,8 @@ since it is mirrored to comp.lang.ruby.
       * PLEASE NOTE! Include quoted text from previous posts
         **before** your responses. And **selectively** quote as much
         as is relevant.
-      * Use **plain** text; don't use HTML, RTF, or Word. Most mail
-        or newsreader programs have an option for this; if yours
+      * Use **plain** text; don't use HTML, RTF, or Word.
+        Most mail programs have an option for this; if yours
         doesn't, get a (freeware) program or use a web-based
         service that does.
       * Include examples from files as **in-line** text; don't use
@@ -74,6 +72,9 @@ since it is mirrored to comp.lang.ruby.
    appropriate, check the Ruby home page, check the Ruby FAQ and other
    documentation, use google.com to search past comp.lang.ruby
    postings, and so on.
+
+
+_These guidelines where adopted from the [comp.lang.ruby FAQ][clrFAQ]._
 
 
 
