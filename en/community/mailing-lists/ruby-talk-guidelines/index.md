@@ -8,7 +8,7 @@ You should follow these guidelines when posting to the ruby-talk mailing list.
 {: .summary}
 
 
-1. ALWAYS be friendly, considerate, tactful, and tasteful. We want to
+1. **Always** be friendly, considerate, tactful, and tasteful. We want to
    keep this list hospitable to the growing ranks of newbies, very
    young people, and their teachers, as well as cater to fire breathing
    wizards. :-)
@@ -19,16 +19,15 @@ You should follow these guidelines when posting to the ruby-talk mailing list.
 
    1. The general format guidelines (aka Netiquette) are
       matters of common sense and common courtesy that make life
-      easier for 3rd parties to follow along (in real time or when
+      easier for third parties to follow along (in real time or when
       perusing archives):
 
-      * PLEASE NOTE! Include quoted text from previous posts
-        **before** your responses. And **selectively** quote as much
-        as is relevant.
-      * Use **plain** text; don't use HTML, RTF, or Word.
-        Most mail programs have an option for this; if yours
-        doesn't, get a (freeware) program or use a web-based
-        service that does.
+      * **Please note:**
+        Include quoted text from previous posts **before** your responses
+        and **selectively** quote as much as is relevant.
+      * Use **plain text**; don't use HTML, RTF, or Word.
+        Most email programs have an option for this; if yours doesn't,
+        get a (free) program or use a web-based service that does.
       * Include examples from files as **in-line** text; don't use
         attachments.
 
@@ -37,11 +36,11 @@ You should follow these guidelines when posting to the ruby-talk mailing list.
 
       When appropriate, include:
 
-      * The version of Ruby. (`ruby -v`)
-      * The compiler name and version used to build Ruby.
-      * The OS type and level. (`uname -a`)
-      * The actual error messages.
-      * An example (preferably simple) that produces the problem.
+      * an example (preferably simple) that produces the problem
+      * the actual error messages
+      * the version of Ruby (`ruby -v`)
+      * the OS type and version (`uname -a`)
+      * the compiler name and version used to build Ruby
 
 3. Make the subject line maximally informative, so that people who
    should be interested will read your post and so that people who
@@ -69,13 +68,15 @@ You should follow these guidelines when posting to the ruby-talk mailing list.
 
 4. Finally, be considerate: Don't be too lazy. If you are seeking
    information, first make a reasonable effort to look it up. As
-   appropriate, check the Ruby home page, check the Ruby FAQ and other
-   documentation, use google.com to search past comp.lang.ruby
-   postings, and so on.
+   appropriate, check the [Ruby home page][ruby-lang],
+   check the [Ruby FAQ][faq] and other documentation,
+   use a search engine to search past postings, and so on.
 
 
 _These guidelines where adopted from the [comp.lang.ruby FAQ][clrFAQ]._
 
 
 
+[ruby-lang]: /en/
+[faq]: /en/documentation/faq/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
