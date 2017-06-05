@@ -58,11 +58,6 @@ you’ll find a small sample of real world usage of Ruby.
   been around since 1997, has recently been revamped and uses a custom
   application built with Ruby on Rails.
 
-* [Blue Sequence][12], a sophisticated mission-critical application
-  which forms part of Toyota Motor Manufacturing’s own
-  “sequence-in-time” production process, has recently been selected as
-  finalist the British Computer (BCS) Information Management Awards.
-
 #### Security
 
 * The [Metasploit Framework][metasploit], a community open source project
@@ -89,7 +84,6 @@ you’ll find a small sample of real world usage of Ruby.
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com
 [arachni]: http://www.arachni-scanner.com/

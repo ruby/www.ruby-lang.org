@@ -62,11 +62,6 @@ lang: ru
   который работает с 1997 года. Недавно был обновлен и приложение было
   написано на Ruby on Rails.
 
-* [Blue Sequence][12], сложное критически-целевое приложение, которое
-  формирует часть собственного "последовательного-во-времени" процесса
-  производства Toyota Motor Manufacturing, была недавно выбрана в
-  качестве финалиста British Computer (BCS) Information Management Awards.
-
 #### Безопасность
 
 * [Metasploit Framework][metasploit], проект с открытым исходным кодом,
@@ -91,6 +86,5 @@ lang: ru
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com

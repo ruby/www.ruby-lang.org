@@ -56,10 +56,6 @@ lang: ko
   메거진입니다. 최근에 루비 온 레일즈로 만들어진 독자적인 애플리케이션으로
   리뉴얼하였습니다.
 
-* [Blue Sequence][12]는 도요타 자동차 제조에서 사용하는 “sequence-in-time”
-  생산 공정의 일부를 담당하는 복잡한 mission-critical 애플리케이션입니다.
-  Blue Sequence는 최근 영국 컴퓨터(BCS) 정보 경영 대상으로 선정되었습니다.
-
 #### 보안
 
 * [Metasploit Framework][metasploit]는 [Rapid7][rapid7]에서 관리하는 커뮤니티형
@@ -83,6 +79,5 @@ lang: ko
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com

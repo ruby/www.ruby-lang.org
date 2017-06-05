@@ -56,11 +56,6 @@ lang: bg
 * [A List Apart][11] е списание за програмисти и дизайнери, като сайта
   съществува от 1997 и е пренаписан на Ruby.
 
-* [Blue Sequence][12] е сложна апликация, част от процеса за
-  производство на Toyota Motor, която наскоро беше избрана за финалист
-  на тазгодишните награди на British Computer Information Management.
-
-
 
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
@@ -73,4 +68,3 @@ lang: bg
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
