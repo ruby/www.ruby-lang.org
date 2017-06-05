@@ -18,7 +18,7 @@ Ruby hat vier englischsprachige Mailinglisten:
 
 Ruby-Talk
 : Dies ist die höchstfrequentierte Liste. Sie behandelt alle allgemeinen
-  Themen zu Ruby. ([Archiv][3])
+  Themen zu Ruby. ([Archiv][3], [Posting Guidelines][guidelines])
 
 Ruby-Core
 : Diese Liste behandelt die Core-Entwicklung von Ruby. Sie wird
@@ -51,6 +51,7 @@ auch [manuell anmelden](manual-instructions/).
 
 
 
+[guidelines]: /en/community/mailing-lists/ruby-talk-guidelines/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
