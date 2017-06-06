@@ -47,8 +47,6 @@ lang: zh_cn
 
 * [A List Apart][12] 建立于 1997 年的杂志网站，最近使用自定义的 Ruby on Rails 重新构建。
 
-* [Blue Sequence][13] 是组成丰田汽车工厂供应链管理的一个复杂的任务关键型应用，最近被选为决赛英国计算机信息管理(BCS)奖。
-
 #### 安全
 
 * 由 [Rapid7][rapid7] 管理的社区开源项目 [Metasploit Framework][metasploit] 是一个免费的渗透测试平台，旨在帮助IT专业人员评估网络和应用程序的安全性。项目由超过了 70 万行 代码组成，2010 年已经下载超过一百万次。Rapid7 开发的商业版本 Metasploit Express 和 Metasploit Pro均基于 Ruby 开发。
@@ -67,6 +65,5 @@ lang: zh_cn
 [10]: http://www.37signals.com
 [11]: http://www.43things.com
 [12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com
