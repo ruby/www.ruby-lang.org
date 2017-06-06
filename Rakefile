@@ -12,6 +12,7 @@ end
 
 HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
+CONFIG = "_config.yml"
 
 task :default => [:build]
 
@@ -20,6 +21,22 @@ task :build do
   require "lanyon"
 
   Lanyon.build
+end
+
+namespace :build do
+
+  desc "Build the Jekyll site (`en' language part only)"
+  task :en do
+    require "yaml"
+    require "lanyon"
+
+    exclude_config = YAML.load_file(CONFIG)["exclude"]
+    exclude_langs  = (LANGUAGES - ["en"]).map {|lang| "#{lang}/" }
+
+    exclude = exclude_config + exclude_langs
+
+    Lanyon.build(exclude: exclude)
+  end
 end
 
 desc "Serve the Jekyll site locally"
