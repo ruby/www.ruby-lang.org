@@ -57,6 +57,7 @@ lang: bg
   съществува от 1997 и е пренаписан на Ruby.
 
 
+
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/

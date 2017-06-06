@@ -60,6 +60,7 @@ témoignages du « monde réel. »
   depuis 1997, a réalisé une refonte totale en utilisant Ruby on Rails.
 
 
+
 [1]: http://www.larc.nasa.gov/
 [2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
 [3]: http://www.motorola.com
