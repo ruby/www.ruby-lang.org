@@ -11,7 +11,7 @@ lang: zh_cn
 
 有关于 Ruby 的安全问题可以通过 [HackerOne 悬赏项目](https://hackerone.com/ruby) 进行提交。请确保在提交问题前仔细阅读我们项目上的详细信息。问题在被修复后会被公开。
 
-如果你找到了一个有关于于 Ruby 官方网站的问题，请通过 [GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new) 进行提交。
+如果你找到了一个有关于 Ruby 官方网站的问题，请通过 [GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new) 进行提交。
 
 如果你找到了某个特定的 Ruby gem 的问题，请参考 [RubyGems.org 介绍页](http://guides.rubygems.org/security/#reporting-security-vulnerabilities) 上的操作进行提交。
 
