@@ -17,12 +17,10 @@ program kami sebelum melaporkan sebuah isu. Masalah sah yang dilaporkan
 akan dipublikasikan setelah perbaikan.
 
 Jika Anda menemukan sebuah isu yang memengaruhi salah satu laman kami, mohon
-laporkan [melalui
-GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new).
+laporkan [melalui GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new).
 
 Jika Anda menemukan sebuah isu mengenai Ruby gem tertentu, ikuti
-[instruksi pada
-RubyGems.org](http://guides.rubygems.org/security/#reporting-security-vulnerabilities).
+[instruksi pada RubyGems.org](http://guides.rubygems.org/security/#reporting-security-vulnerabilities).
 
 Jika Anda perlu terhubung dengan tim keamanan secara langsung di luar
 HackerOne, Anda dapat mengirim surel ke security@ruby-lang.org
