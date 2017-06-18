@@ -1,22 +1,38 @@
 ---
 layout: page
-title: "Security"
+title: "Keamanan"
 lang: id
 ---
 
-Di sini anda akan menemukan informasi tentang isu keamanan dari Ruby.
+Di sini Anda akan menemukan informasi terkait isu-isu keamanan dari Ruby.
 {: .summary}
 
 ## Melaporkan Kerentanan Keamanan
 
-Kerentanan keamanan harus dilaporkan melalui email ke
-security@ruby-lang.org ([PGP public key](/security.asc)), yang merupakan
-mailing list pribadi. Masalah yang dilaporkan akan dipublikasikan setelah
-perbaikan.
+Kerentanan keamanan pada bahasa pemrograman Ruby harus
+dilaporkan melalui
+[halaman bounty program di HackerOne](https://hackerone.com/ruby).
+Mohon pastikan Anda membaca detail khusus seputar ruang lingkup dari
+program kami sebelum melaporkan sebuah isu. Masalah sah yang dilaporkan
+akan dipublikasikan setelah perbaikan.
 
-## Isu - isu yang diketahui
+Jika Anda menemukan sebuah isu yang memengaruhi salah satu laman kami, mohon
+laporkan [melalui GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new).
 
-Berikut adalah isu - isu terkini.
+Jika Anda menemukan sebuah isu mengenai Ruby gem tertentu, ikuti
+[instruksi pada RubyGems.org](http://guides.rubygems.org/security/#reporting-security-vulnerabilities).
+
+Jika Anda perlu terhubung dengan tim keamanan secara langsung di luar
+HackerOne, Anda dapat mengirim surel ke security@ruby-lang.org
+([PGP public key](/security.asc)), yang merupakan *mailing list* pribadi.
+
+Anggota dari *mailing list* adalah orang-orang yang merawat Ruby
+(Ruby *committers* dan *author* dari implementasi Ruby lainnya,
+distributor, dan PaaS *platformer*).
+
+## Isu-isu yang diketahui
+
+Berikut adalah isu-isu terkini:
 
 {% include security_posts.html %}
 
@@ -39,7 +55,7 @@ Berikut adalah isu - isu terkini.
 * [Serangan Denial of Service Ditemukan pada Algoritma Hash Ruby
   (CVE-2011-4815)][11] dipublikasikan pada 28 Dec, 2011.
 
-Untuk isu - isu sebelumnya lihat [halaman bahasa Inggris][12].
+Untuk isu-isu sebelumnya lihat [halaman bahasa Inggris][12].
 
 
 [3]: /id/news/2013/02/22/rexml-dos-2013-02-22/
