@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html>
+{% if page.lang != null %}
+<html lang="{{ page.lang }}">
+{% else %}
+<html lang="en">
+{% endif %}
   <head>
     <meta charset="utf-8">
 
