@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rilasciato Ruby 2.3.1"
 author: "nagachika"
-translator: alepore
+translator: "alepore"
 date: 2016-04-26 12:00:00 +0000
 lang: it
 ---

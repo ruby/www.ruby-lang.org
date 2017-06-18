@@ -2,7 +2,7 @@
 layout: news_post
 title: "Piani di supporto per Ruby 2.0.0 e Ruby 2.1"
 author: "usa"
-translator: alepore
+translator: "alepore"
 date: 2016-02-24 09:00:00 +0000
 lang: it
 ---

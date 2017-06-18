@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rilasciato Ruby 2.1.9"
 author: "usa"
-translator: alepore
+translator: "alepore"
 date: 2016-03-30 12:00:00 +0000
 lang: it
 ---

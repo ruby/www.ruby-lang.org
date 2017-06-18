@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.3.0 リリース"
 author: "naruse"
-translator: sorah
+translator: "sorah"
 date: 2015-12-25 17:00:00 +0000
 lang: ja
 ---
