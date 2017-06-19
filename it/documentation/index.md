@@ -181,5 +181,5 @@ iniziare.
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
-[39]: http://nemboweb.com/corsi/imparare-a-programmare/
+[39]: https://corsidia.com/materia/programmazione/imparare-a-programmare
 [40]: http://kapeli.com/dash
