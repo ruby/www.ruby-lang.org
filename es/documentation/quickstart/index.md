@@ -20,11 +20,15 @@ header: |
 ## Introducción
 
 Este es un pequeño tutorial de Ruby que no debería tomar más de 20
-minutos completarlo. Se asume que ya tienes instalado Ruby. Si no tienes
-Ruby funcionando en tu PC, [descárgalo](/es/downloads/) e instálalo
-antes de comenzar.
+minutos completarlo. Se asume que ya tienes instalado Ruby.
+(Si no tienes Ruby funcionando en tu computadora, [instálalo][installation]
+antes de comenzar).
 
 ## Ruby interactivo
+
+Ruby incluye un programa que mostrará el resultado de cualquier
+comando Ruby que le introduzcas. Jugar con código Ruby en una sesión
+interactiva como ésta es una manera estupenda de aprender el lenguaje.
 
 Arranca el IRB.
 
@@ -141,3 +145,4 @@ Por más bueno que esté esto de la calculadora, nos estamos alejando del
 tradicional mensaje `Hola Mundo` en el que se supone que los cursos para
 principiantes deben enfocarse… [así que volvamos a eso](2/).
 
+[installation]: /es/documentation/installation/
