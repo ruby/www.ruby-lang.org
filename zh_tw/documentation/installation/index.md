@@ -132,6 +132,7 @@ $ pkg install runtime/ruby-18
 
 
 ### 其它發行版
+{: #other-systems}
 
 其它作業系統可以在發行版的套件庫上搜尋 Ruby，或是使用第三方工具可能會比較好。
 
