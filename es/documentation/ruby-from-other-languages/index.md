@@ -21,6 +21,7 @@ familiarizado.
 
 * [A Ruby desde Java](to-ruby-from-java/)
 * [A Ruby desde PHP](to-ruby-from-php/)
+* [A Ruby desde Python](to-ruby-from-python/)
 
 Estamos en proceso de traducir todos estos artículos, pero mientras lo
 hacemos no queremos privarte de que los leas en inglés:
@@ -33,8 +34,7 @@ hacemos no queremos privarte de que los leas en inglés:
   (en inglés)
 * [To Ruby From PHP](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
   (en inglés)
-* [To Ruby From Python](/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
-  (en inglés)
+
 
 ## Funcionalidades importantes del lenguaje y algunas advertencias
 
