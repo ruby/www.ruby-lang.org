@@ -5,23 +5,26 @@ lang: en
 ---
 
 Here you will find pointers to manuals, tutorials and references that
-will come in handy when you feel like coding in Ruby.
+will come in handy.
 {: .summary}
 
 ### Installing Ruby
 
-Unless you only want to try Ruby in the browser (see the links below)
-you need to have Ruby installed on your computer.
-You can check whether Ruby already is available by opening a terminal
-and typing
+Ruby is readily avaliable on all major platforms including Linux, Windows
+and MacOS. Detailed instructions on installing Ruby can be found in the
+[installation documentation](installation/).
+
+To check if Ruby has been installed succesfully, open a new terminal
+session and enter:
 
 {% highlight sh %}
 ruby -v
 {% endhighlight %}
 
 This should output some information on the installed Ruby version.
-If not, see the [installation page](installation/) for various options
-of getting Ruby.
+
+If you would like to try Ruby in your browser; [Try Ruby!][1] is an
+interative 15-minute tutorial aimed at beginners.
 
 ### Getting Started
 
