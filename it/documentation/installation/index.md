@@ -118,7 +118,7 @@ Puoi usarlo in questo modo:
 $ sudo apt-get install ruby
 {% endhighlight %}
 
-Come detto, su Debian e Ubuntu, il pacchetto `ruby` fornito è il Ruby 1.9.3,
+Come detto, su Debian e Ubuntu, il pacchetto `ruby` fornito è il Ruby 2.3.1,
 che è un vecchia release stabile.
 
 

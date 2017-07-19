@@ -113,7 +113,7 @@ Możesz go użyć tak:
 $ sudo apt-get install ruby
 {% endhighlight %}
 
-Na czas pisania pakiet `ruby` dostarcza starszego Rubiego 1.9.3 dla Debiana i
+Na czas pisania pakiet `ruby` dostarcza starszego Rubiego 2.3.1 dla Debiana i
 Ubuntu.
 
 

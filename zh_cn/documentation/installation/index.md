@@ -57,7 +57,7 @@ Debian GNU/Linux 和 Ubuntu 使用 apt 包管理器。用法如下：
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-撰写本文时，在 Debian 和 Ubuntu 下，`ruby-full` 包提供的是老旧的 Ruby 1.9.3。
+撰写本文时，在 Debian 和 Ubuntu 下，`ruby-full` 包提供的是老旧的 Ruby 2.3.1。
 
 ### yum（CentOS、Fedora 或 RHEL）
 {: #yum}

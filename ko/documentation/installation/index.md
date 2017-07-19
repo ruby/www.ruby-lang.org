@@ -72,7 +72,7 @@ Debian GNU/Linux와 Ubuntu는 apt 패키지 관리 시스템을 사용합니다.
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-글을 쓰는 시점에서, `ruby-full` 패키지는 루비 1.9.3을 설치합니다.
+글을 쓰는 시점에서, `ruby-full` 패키지는 루비 2.3.1을 설치합니다.
 이 버전은 Debian이나 Ubuntu의 오래된 안정 버전입니다.
 
 

@@ -76,7 +76,7 @@ $ sudo apt-get install ruby-full
 {% endhighlight %}
 
 No momento em que foi escrita esta página, o pacote `ruby-full` fornecia
-a versão 1.9.3 do Ruby, que é uma versão estável antiga, tanto no
+a versão 2.3.1 do Ruby, que é uma versão estável antiga, tanto no
 Debian quanto no Ubuntu.
 
 

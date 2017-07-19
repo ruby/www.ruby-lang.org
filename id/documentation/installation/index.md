@@ -73,7 +73,7 @@ Anda dapat menggunakannya seperti ini:
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-Sesuai penulisan, paket `ruby-full` menyediakan Ruby 1.9.3, yang mana adalah versi
+Sesuai penulisan, paket `ruby-full` menyediakan Ruby 2.3.1, yang mana adalah versi
 lama yang stabil, pada Debian dan Ubuntu.
 
 

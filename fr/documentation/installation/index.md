@@ -76,7 +76,7 @@ Vous pouvez l'utiliser de la façon suivante :
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-Au moment d'écrire ces lignes, le paquet `ruby-full` fourni Ruby 1.9.3, qui
+Au moment d'écrire ces lignes, le paquet `ruby-full` fourni Ruby 2.3.1, qui
 est une ancienne version stable, sur Debian et Ubuntu.
 
 
