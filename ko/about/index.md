@@ -25,10 +25,6 @@ lang: ko
 1995년에 처음 공개된 이후로 전세계에 많은 루비 개발자가 생겨났습니다. 특히 2006년에는 수많은 사람들이 루비를 배웠습니다.
 전 세계의 웬만한 도시에는 활발한 사용자 그룹이 만들어졌고, 루비와 관련된 콘퍼런스는 모두 매진되었습니다.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 루비의 주된 [메일링 리스트](/ko/community/mailing-lists/)인 루비 토크는 2006년까지 하루에 평균 200개의 글이 올라올 정도로
 성장하였습니다. 최근 몇 년 동안 커뮤니티의 경향이 하나의 집중된 메일링 리스트보다 작은 그룹에서의 토론을 선호하게 바뀌어
 토론의 숫자는 감소 중입니다.

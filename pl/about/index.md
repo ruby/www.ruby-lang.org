@@ -33,10 +33,6 @@ akceptację, co objawiło się w postaci dużej ilości aktywnych grup
 użytkowników powstających w największych miastach świata oraz salach
 konferencyjnych wypełnionych po brzegi.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk, główna [lista mailingowa](/en/community/mailing-lists/) na
 tematy związane z Rubim, osiągnęła średnio ruch 200 wiadomości dziennie
 w 2006 roku. Zmalało to w ostatnich latach gdy część społeczności

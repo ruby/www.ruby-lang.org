@@ -32,10 +32,6 @@ reconocimiento masivo, formándose grupos de usuarios activos en las
 ciudades más importantes del mundo y llenando las capacidades de las
 conferencias relacionadas a Ruby.
 
-![Gráfica cortesía de
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Actividad+en+Ruby-Talk
-"Gráfica cortesía de Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk, la [lista de correo](/es/community/mailing-lists/) más
 importante sobre el lenguaje Ruby ha crecido hasta lograr un promedio de
 200 mensajes por día.

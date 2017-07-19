@@ -20,10 +20,6 @@ Matz 常說： “不斷嘗試讓 Ruby 更為自然，而不是簡單”，就�
 
 自從在 1995 年公開發表以來，Ruby 在全球吸引了許多忠誠的支持者。2006 年，Ruby 被廣泛的接受。各大城市都有活躍的使用者社群，並舉辦了許許多多場場爆滿的研討會。
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 2006 年，Ruby 主要的[郵件列表：Ruby-Talk](/en/community/mailing-lists/) 上，討論 Ruby 語言的文章爬升到每日 200 封。近幾年郵件列表討論下降了，因為各個社群有著自己的討論小組。
 
 [TIOBE 的最流行開發語言排名調查][tiobe]中，Ruby 排名為全球第 13。根據這樣的成長情況，他們預測 “在半年之中 Ruby 將會進入最受歡迎的第 10 名.” 有越來越多受歡迎的軟體，如 [Ruby on Rails][ror] 網路框架 是使用 Ruby 撰寫而成，也是為什麼 Ruby 會成長的如此快。
