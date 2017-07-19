@@ -14,9 +14,9 @@ Please be sure to read [Ruby’s License][license].
 We have several tools on each major platform to install Ruby:
 
 * On Linux/UNIX, you can use the package management system of your
-  distribution or third-party tools (rbenv and RVM).
-* On OS X machines, you can use third-party tools (rbenv and RVM).
-* On Windows machines, you can use RubyInstaller.
+  distribution or third-party tools ([rbenv][rbenv] and [RVM][rvm]).
+* On OS X machines, you can use third-party tools ([rbenv][rbenv] and [RVM][rvm]).
+* On Windows machines, you can use [RubyInstaller][rubyinstaller].
 
 See the [Installation][installation] page for details on using
 package management systems or third-party tools.
@@ -82,3 +82,6 @@ Please try to use a mirror that is near you.
 [releases]: /en/downloads/releases/
 [branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

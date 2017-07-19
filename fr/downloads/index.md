@@ -15,9 +15,9 @@ Pour installer Ruby, les principales plateformes proposent un ensemble
 d'outils spécifiques :
 
 * Sur Linux/UNIX, vous pouvez utiliser le système de gestion des
-  paquets de votre distribution ou des outils tiers (rbenv et RVM).
-* Sur les machines OS X, vous pouvez utiliser des outils tiers (rbenv et RVM).
-* Sur les machines Windows, vous pouvez utiliser RubyInstaller.
+  paquets de votre distribution ou des outils tiers ([rbenv][rbenv] et [RVM][rvm]).
+* Sur les machines OS X, vous pouvez utiliser des outils tiers ([rbenv][rbenv] et [RVM][rvm]).
+* Sur les machines Windows, vous pouvez utiliser [RubyInstaller][rubyinstaller].
 
 Voir la page d'[Installation][installation] pour les détails sur l'usage des
 systèmes de gestion de paquets ou outils tiers.
@@ -68,3 +68,6 @@ Utilisez s'il-vous-plaît un miroir proche de vous.
 [license]: {{ site.license.url }}
 [installation]: /fr/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

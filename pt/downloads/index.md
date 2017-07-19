@@ -14,9 +14,9 @@ Por favor certifique-se de ter lido a [Licença do Ruby][license].
 Existem diversas ferramentas para instalar o Ruby em cada grande plataforma:
 
 * No Linux/UNIX, você pode usar o sistema de gerenciamento de pacotes da
-  sua distribuição ou ferramentas de terceiros (rbenv e RVM).
-* Em máquinas com OS X, você pode usar ferramentas de terceiros (rbenv e RVM).
-* Em máquinas com Windows, você pode usar o RubyInstaller ou o pik.
+  sua distribuição ou ferramentas de terceiros ([rbenv][rbenv] e [RVM][rvm]).
+* Em máquinas com OS X, você pode usar ferramentas de terceirol ([rbenv][rbenv] e [RVM][rvm]).
+* Em máquinas com Windows, você pode usar o [RubyInstaller][rubyinstaller] ou o pik.
 
 Consulte a página [Instalação][installation] para mais detalhes sobre
 como usar sistemas de gerenciamento de pacotes ou ferramentas de terceiros.
@@ -71,3 +71,6 @@ usar um _mirror_ que está próximo de você.
 [license]: {{ site.license.url }}
 [installation]: /pt/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/
