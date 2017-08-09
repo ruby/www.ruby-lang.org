@@ -91,9 +91,8 @@ end
 
 if ENV["RACK_ENV"] == "production"
   use Rack::SSL
+  use Rack::Protection::HttpOrigin
+  use Rack::Protection::FrameOptions
 end
-
-use Rack::Protection::HttpOrigin
-use Rack::Protection::FrameOptions
 
 run Lanyon.application(:skip_build => true)
