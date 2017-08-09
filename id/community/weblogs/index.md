@@ -49,7 +49,7 @@ tersebut!
 
 
 [9]: http://ariekusumaatmaja.wordpress.com/
-[10]: http://twitter.com/rubyindonesia
+[10]: https://twitter.com/id_ruby
 [11]: http://oreillynet.com/ruby/
 [12]: http://weblog.rubyonrails.org/
 [13]: http://www.rubyinside.com/

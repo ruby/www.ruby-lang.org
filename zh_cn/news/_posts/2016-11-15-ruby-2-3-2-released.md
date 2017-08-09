@@ -1,21 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.3.2 veröffentlicht"
+title: "Ruby 2.3.2 发布"
 author: "nagachika"
-translator: "Marvin Gülker"
+translator: "Delton Ding"
 date: 2016-11-15 12:00:00 +0000
-lang: de
+lang: zh_cn
 ---
 
-Ruby 2.3.2 ist veröffentlicht worden.
+Ruby 2.3.2 已经发布了。
 
-Dies ist eine TEENY-Veröffentlichung der stabilen 2.3er Serie. Sie
-aktualisiert RubyGems auf 2.5.2 und enthält neue SSL-Zertifikate,
-außerdem gibt es eine Reihe von Fehlerkorrekturen. Siehe das
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
-für weitere Informationen.
+这是 2.3 的 TEENY 版本稳定版发布。
 
-## Download
+本次发布将 RubyGems 更新至 2.5.2，并更新了其内置的 SSL 证书。
+
+同时还修正了一些漏洞。
+请查阅 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog) 进一步了解。
+
+## 下载
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.tar.bz2)
 
@@ -45,7 +46,7 @@ für weitere Informationen.
       SHA256: b8ad5b47fad22610476a4abc1c32b8e558265f9b20a5865a12836709028cbd76
       SHA512: 8a794c8eed53380b026b150b0ce176af2a6ba278d5f7a5067e27615940ae85b6af28ac7187adc5d7af04c82442271ed0d8530d9fe751810ecc6c75340f81bd03
 
-## Release Comment
+## 发布记
 
-Viele Committer, Entwickler und Nutzer, die Fehler gemeldet haben,
-halfen uns mit dieser Veröffentlichung. Danke für ihre Mitarbeit.
+许多提交者、开发者、和用户提供的漏洞报告帮助我们发布了这个版本。
+感谢诸位的贡献。

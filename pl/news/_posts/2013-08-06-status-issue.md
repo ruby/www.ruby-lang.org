@@ -37,7 +37,7 @@ MD5 nie jest zgodne z oczekiwaniami.
 Badamy to teraz. Dokładniejsze informacje są w następującym błędzie.
 https://github.com/ruby/www.ruby-lang.org/issues/259
 
-## Aktualizacja (2013-08-07 14:08 UTC)
+## Aktualizacja (2013-08-07 05:08 UTC)
 
 Potwierdziliśmy, że następujące pakiety są zepsute. Mamy niektóre pakiety z
 http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
@@ -59,7 +59,7 @@ ruby-2.0.0-p195.zip
 Sprawdziliśmy, że sumy MD5 tych plików są identyczne z sumami z naszych ogłaszanych wydań.
 ftp.ruby-lang.org poprzez http i ftp jest teraz dostępny.
 
-## Aktualizacja (2013-08-09 9:30 UTC)
+## Aktualizacja (2013-08-09 10:30 UTC)
 
 Część z naszych usług zostało przywróconych, kiedy to 6 sierpnia 2013
 zostały zawieszone z powodu problemów z serwerem, które zgłosiliśmy wcześniej.

@@ -40,8 +40,7 @@ A differenza di PHP, in Ruby…
   chiamare abs(-1) si chiama -1.abs.
 * Le parentesi sono opzionali nelle chiamate ai metodi, eccetto per
   chiarificare quali parametri si riferiscono a quali metodi.
-* Invece di utilizzare convenzioni sui nomi, la libreria standard e le
-  estensioni sono organizzate in moduli e classi.
+* La libreria standard e le estensioni sono organizzate in moduli e classi.
 * La riflessione è una capacità innata degli oggetti, non c’è bisogno di
   utilizzare classi `Reflection` come in PHP5.
 * Le variabili sono dei riferimenti.

@@ -17,7 +17,7 @@ The new 1.9.2 is almost compatible with 1.9.1, except these changes:
 * New Random class which supports several random numbers generators
 * Time is reimplemented. The bug with year 2038 is fixed.
 * regex improvements
-* $: doesn\'t include the current direcotry.
+* $: doesn\'t include the current directory.
 * dl is reimplemented on top of libffi.
 * new psych library wrapping libyaml which can replace syck.
 

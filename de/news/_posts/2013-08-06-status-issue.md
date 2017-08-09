@@ -42,11 +42,11 @@ stimmen nicht wie erwartet überein.
 Wir untersuchen den Vorfall momentan. Weitere Informationen sind unter
 [https://github.com/ruby/www.ruby-lang.org/issues/259](https://github.com/ruby/www.ruby-lang.org/issues/259) verfügbar.
 
-## Update (2013-08-07 14:08 UTC)
+## Update (2013-08-07 05:08 UTC)
 
-Unseren Untersuchungen zufolge sind die folgenden Pakete beschädigt,
-die sich auch auf
-[http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/](http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/) befinden:
+Unseren Untersuchungen zufolge waren die folgenden Pakete beschädigt.
+Sie wurden mittels [http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/](http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/) wiederhergestellt.
+
 <pre>
 ruby-1.9.3-p426.tar.bz2
 ruby-1.9.3-p426.tar.gz
@@ -67,17 +67,17 @@ in unseren Veröffentlichungshinweisen angegebenen
 entsprechen. ftp.ruby-lang.org ist nun wieder über HTTP und FTP
 zugänglich.
 
-## Update (2013-08-09 9:30 UTC)
+## Update (2013-08-09 10:30 UTC)
 
 Mittlerweile sind die meisten der seit dem 6. August 2013 wegen
 Serverproblemen ausgefallenen Dienste wieder verfügbar:
 
   * Mailinglisten: Wir haben die Software, die die Mailinglisten zur
     Verfügung stellt, von FML zu Mailman gewechselt.
-    * Für weitere Informationen, siehe [http://lists.ruby-lang.org](http://lists.ruby-lang.org)
+    * Für weitere Informationen, siehe [http://lists.ruby-lang.org](http://lists.ruby-lang.org).
   * Pakete: Sie können nun die von uns über ftp.ruby-lang.org
     angebotenen Pakete wieder über HTTP und FTP herunterladen.
   * Snapshots: Die täglichen Snapshot-Builds und -Pakete wurden reaktiviert.
 
 Wenn Sie noch irgendwelche Probleme mit unseren Diensten haben, melden
-Sie dies unter [https://github.com/ruby/www.ruby-lang.org/issues](https://github.com/ruby/www.ruby-lang.org/issues)
+Sie dies unter [https://github.com/ruby/www.ruby-lang.org/issues](https://github.com/ruby/www.ruby-lang.org/issues).

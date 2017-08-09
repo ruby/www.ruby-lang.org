@@ -42,4 +42,4 @@ comp.lang.ruby дискусионна група.
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/

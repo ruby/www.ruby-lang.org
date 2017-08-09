@@ -12,7 +12,7 @@ nauczenia jest trochę więcej składni niż w Pythonie.
 
 Podobnie jak w Pythonie, w Rubim,...
 
-* Jest interaktywna konsola (nazwya się `irb`).
+* Jest interaktywna konsola (nazywa się `irb`).
 * Możesz czytać dokumentację z linii poleceń (używając komendy `ri`
   zamiast `pydoc`).
 * Nie ma specjalnych znaków oznaczających koniec linii (poza zwykłym
@@ -28,7 +28,7 @@ Podobnie jak w Pythonie, w Rubim,...
 * Wszystko jest obiektem, zmienne są po prostu referencjami do obiektów.
 * Pomimo tego, że wyjątki różnią się słowami kluczowymi, działają bardzo
   podobnie.
-* Masz dostęp do wbudowanego narzędzai dkoumentującego (rdoc).
+* Masz dostęp do wbudowanego narzędzia dokumentującego (rdoc).
 
 ### Różnice
 

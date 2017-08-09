@@ -36,7 +36,7 @@ Kami memberhentikan ftp.ruby-lang.org melalui http dan ftp, karena beberapa pake
 Kami sedang menginvestigasi hal tersebut sekarang. Informasi rinci terdapat pada issue berikut.
 https://github.com/ruby/www.ruby-lang.org/issues/259
 
-## Update (2013-08-07 14:08 UTC)
+## Update (2013-08-07 05:08 UTC)
 
 Kami mengkonfirmasikan paket berikut rusak. Kami mendapatkan beberapa paket melalui http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
 <pre>
@@ -56,7 +56,7 @@ ruby-2.0.0-p195.zip
 
 Kami telah memeriksa bahwa checksum MD5 file-file tersebut sama dengan pengumuman rilis kami. ftp.ruby-lang.org via http dan ftp dapat diakses sekarang.
 
-## Update (2013-08-09 9:30 UTC)
+## Update (2013-08-09 10:30 UTC)
 
 Beberapa layanan kami telah kembali sekarang, yang tadinya telah berhenti sejak 6 Agustus 2013 karena masalah server yang kami laporkan sebelumnya
 

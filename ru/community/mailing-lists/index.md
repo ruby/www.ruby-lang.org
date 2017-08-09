@@ -20,7 +20,7 @@ Ruby-Core
 
 Ruby-Doc
 : Данная рассылка служит для обсуждения инструментов и стандартов документации
-в Ruby. ([Архив на Gmane][5])
+в Ruby. ([Архив][5])
 
 Ruby-CVS
 : Данная рассылка транслирует все коммиты в Subversion репозиторий Ruby.
@@ -42,4 +42,4 @@ Ruby-CVS
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/

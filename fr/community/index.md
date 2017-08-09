@@ -8,9 +8,7 @@ La communauté se développant autour d’un langage de programmation
 constitue évidemment une de ses qualités essentielles. Ruby possède une
 communauté grandissante qui s’avère accueillante, indépendamment du
 niveau technique de ses visiteurs. Attention toutefois, la plupart des
-communautés utilisateurs utilisent l’anglais comme base de travail. Si
-vous recherchez spécifiquement des programmeurs francophones,
-[RubyFrance][1] est certainement ce qu’il vous faut !
+communautés utilisateurs utilisent l’anglais comme base de travail.
 {: .summary}
 
 Quelques liens à visiter:
@@ -54,7 +52,6 @@ Informations générales
 
 
 
-[1]: http://rubyfrance.org
 [3]: http://rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/

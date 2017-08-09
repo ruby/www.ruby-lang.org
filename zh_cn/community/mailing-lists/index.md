@@ -16,7 +16,7 @@ Ruby-Core
 : 该列表处理和 Ruby 相关的核心和重点专题，经常被用于补丁审核。([存档][5])
 
 Ruby-Doc
-: 该列表用于讨论 Ruby 的标准文档和工具。([Gmane 中的存档][6])
+: 该列表用于讨论 Ruby 的标准文档和工具。([存档][6])
 
 Ruby-CVS
 : 该列表报道所有针对 Ruby 的 Subversion 仓库的提交。
@@ -35,4 +35,4 @@ comp.lang.ruby新闻组
 [3]: http://rubyhacker.com/clrFAQ.html
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[6]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[6]: http://lists.ruby-lang.org/pipermail/ruby-doc/

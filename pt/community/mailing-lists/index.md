@@ -20,7 +20,7 @@ Ruby-Core
 
 Ruby-Doc
 : Esta lista é para discussão sobre normas de documentação e ferramentas
-  para Ruby. ([Arquivos em Gmane][5])
+  para Ruby. ([Arquivos][5])
 
 Ruby-CVS
 : Esta lista relata todas as submissões no repositório Subversion do Ruby.
@@ -55,5 +55,5 @@ tente se inscrever [manualmente](manual-instructions/).
 [2]: http://rubyhacker.com/clrFAQ.html
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://dir.gmane.org/gmane.comp.lang.ruby.documentation
+[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
 [ruby-pt]: http://groups.google.com/group/ruby-pt
