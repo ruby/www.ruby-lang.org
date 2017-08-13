@@ -29,10 +29,6 @@ viên. Vào 2006, Ruby đã được chấp nhận ở mức phổ cập, điề
 qua số lượng lớn các nhóm người dùng hoạt động tích cực ở các thành phố trên thế giới
 và cả các hội nghị liên quan Ruby luôn bán hết vé.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk là [mailing list](/vi/community/mailing-lists/) chính để thảo luận về
 ngôn ngữ Ruby. Theo thống kê trung bình có trên 200 bài mỗi ngày trong năm 2006.
 Con số này có giảm sút trong những năm gần đây vì xu hướng người dùng gửi bài

@@ -30,10 +30,6 @@ worldwide. In 2006, Ruby achieved mass acceptance. With active user
 groups formed in the world’s major cities and Ruby-related conferences
 filled to capacity.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk, the primary [mailing list](/en/community/mailing-lists/) for
 discussion of the Ruby language, climbed to an average of 200 messages
 per day in 2006. It has dropped in recent years as the size of the

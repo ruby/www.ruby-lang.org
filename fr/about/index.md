@@ -40,10 +40,6 @@ reconnaissance. Aujourd’hui, des groupes d’utilisateurs existent dans
 les plus grandes villes du monde, et les (nombreuses) conférences à
 propos de Ruby affichent complet.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk, la toute première [liste de
 diffusion](/fr/community/mailing-lists/) recevant les discussions à
 propos du langage Ruby, atteint aujourd’hui une moyenne de deux cent

@@ -29,9 +29,6 @@ Matzはよく、「Rubyをシンプルなものではなく、自然なものに
 現在では、世界中の主要都市に活発なユーザーグループが形成され、
 そしてRubyに関する大規模なカンファレンスが開かれています。
 
-![Gmaneのグラフ](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 英語でRubyについて会話するための[メーリングリスト](/ja/community/mailing-lists/)であるruby-talkでは、
 2006年には平均して日に200通ものメッセージがやりとりされていました。
 最近ではそういった大きな場所での流量は低下しているものの、
