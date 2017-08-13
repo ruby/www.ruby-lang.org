@@ -19,19 +19,19 @@ lang: zh_cn
 
 [**RubyGems.org**][1] 站点是代码库的主要集散地，它提供 Gem 形式的代码库。你可以直接访问其网站或者使用 `gem` 命令。
 
-使用 `gem search -r`，能查看 RubyGems 的 Repository 。比如要找 rails，輸入 `gem search -r rails` 会返回与 Rails 相关的 Gem。使用 `--local` (`-l`) 选项就会在本地你已安装的 Gem 中搜索与 Rails 相关的 Gem。使用 `gem install [gem]` 来安装 Gem。可通过 `gem list` 来浏览已安装的 Gem。更多关于 `gem` 命令的说明，请继续阅读，或前往 [RubyGems 的文件][3]。
+使用 `gem search -r`，能查看 RubyGems 的 Repository 。比如要找 Rails，输入 `gem search -r rails` 会返回与 Rails 相关的 Gem。使用 `--local` (`-l`) 选项就会在本地你已安装的 Gem 中搜索与 Rails 相关的 Gem。使用 `gem install [gem]` 来安装 Gem。可通过 `gem list` 来浏览已安装的 Gem。更多关于 `gem` 命令的说明，请继续阅读，或前往 [RubyGems 的文件][3]。
 
-除了 RubyGems.org 之外，也有其它的站点可供查找代码库。[RubyForge][4] 曾是 Ruby 代码库之家，但近年來 [**GitHub**][5] 作为主要的Ruby相关资源的 Repository 而崛起。現在，通常 Gem 的源代码会被放在 GitHub，而 Gem 会被发布到 RubyGems.org。
+除了 RubyGems.org 之外，也有其它的站点可供查找代码库。[RubyForge][4] 曾是 Ruby 代码库之家，但近年来 [**GitHub**][5] 作为主要的 Ruby 相关资源的 Repository 而崛起。现在，通常 Gem 的源代码会被放在 GitHub，而 Gem 会被发布到 RubyGems.org。
 
 [**The Ruby Toolbox**][6] 是一个旨在使搜索开源 Ruby 项目更容易的项目。它按照各种常见的开发任务做了分类，并收集了许多与项目相关的信息，诸如版本发布历史、提交活跃度、代码库相依关系、根据它们在 GitHub 和 RubyGems.org 上的流行程度做评估，让你更易找到所需的代码库。
 
-### 更多关于 RubyGems 的說明
+### 更多关于 RubyGems 的说明
 
 这里是对 `gem` 命令的快速回顾。关于 `gem` 命令更详细的说明，请查阅[更详细的文件][7]。
 
 #### 搜索可用的 Gem
 
-`search` 命令可根据输入的关键字用來查找 Gem。比如輸入 `html` 会返回与 `html` 相关的 Gem：
+`search` 命令可根据输入的关键字来查找 Gem。比如输入 `html` 会返回与 `html` 相关的 Gem：
 
 {% highlight sh %}
 $ gem search -r html
@@ -43,9 +43,9 @@ html-sample (1.0, 1.1)
 
 `--remote` 或 `-r` 标识表示我们想要查看 RubyGems.org 的官方仓库（默认设置）。使用 `--local` 或 `-l` 标识表示你想要搜索本地你已安装的 Gem 包。
 
-#### 安裝 Gem
+#### 安装 Gem
 
-一旦你知道你所需要安装的 Gem 包，比如说颇受欢迎的 rails:
+一旦你知道你所需要安装的 Gem 包，比如说颇受欢迎的 Rails:
 
 {% highlight sh %}
 $ gem install rails
@@ -59,7 +59,7 @@ $ gem install rails --version 5.0
 
 #### 列出所有的 Gem
 
-列出本地安裝的所有 Gem：
+列出本地安装的所有 Gem：
 
 {% highlight sh %}
 $ gem list
