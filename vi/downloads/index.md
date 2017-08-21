@@ -15,9 +15,9 @@ Xin tham khảo [giấy phép][license] trước khi dùng.
 Chúng ta có một vài công cụ trên các nền tảng chính để cài đặt Ruby:
 
 * Trên Linux/UNIX bạn có thể dùng hệ thống quản lý gói của bản
-  phân phối hoặc các công cụ của bên thứ ba (rbenv và RVM).
-* Trên OSX bạn có thể dùng các công cụ của bên thứ ba (rbenv và RVM)
-* Trên Windows bạn có thể dùng RubyInstaller.
+  phân phối hoặc các công cụ của bên thứ ba ([rbenv][rbenv] và [RVM][rvm]).
+* Trên OSX bạn có thể dùng các công cụ của bên thứ ba ([rbenv][rbenv] và [RVM][rvm])
+* Trên Windows bạn có thể dùng [RubyInstaller][rubyinstaller].
 
 Xem trang [Cài đặt][installation] để biết thêm chi tiết về
 hệ thống quản lý gói hoặc các công cụ của bên thứ ba.
@@ -70,3 +70,6 @@ Xin hãy sử dụng mirror gần bạn nhất.
 [license]: {{ site.license.url }}
 [installation]: /vi/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

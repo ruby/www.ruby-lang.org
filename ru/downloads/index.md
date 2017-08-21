@@ -14,9 +14,9 @@ lang: ru
 У нас имеются инструменты для всех основных платформ для установки Ruby:
 
 * На Linux/UNIX, вы можете использовать систему управления пакетами вашей
-  операционной системы или сторонние инструменты (rbenv и RVM).
-* На OS X вы можете использовать сторонние инструменты (rbenv и RVM).
-* На Windows вы можете использовать RubyInstaller.
+  операционной системы или сторонние инструменты ([rbenv][rbenv] и [RVM][rvm]).
+* На OS X вы можете использовать сторонние инструменты ([rbenv][rbenv] и [RVM][rvm]).
+* На Windows вы можете использовать [RubyInstaller][rubyinstaller].
 
 Смотрите на странице [Установка][installation] подробности об использовании
 систем управления пакетами или сторонних инструментов.
@@ -71,3 +71,6 @@ lang: ru
 [license]: {{ site.license.url }}
 [installation]: /ru/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

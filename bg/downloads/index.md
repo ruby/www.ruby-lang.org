@@ -15,10 +15,10 @@ lang: bg
 
 * За Linux/UNIX може да бъде използван пакетният мениджър на
   дистрибуцията (apt-get, yum, pacman, etc.) или приложение за
-  управление на ruby версии (rbenv и RVM).
+  управление на ruby версии ([rbenv][rbenv] и [RVM][rvm]).
 * За OS X може да се използва инструмент за управление на ruby версии
-  (rbenv и RVM).
-* За Windows машини може да бъде използван RubyInstaller.
+  ([rbenv][rbenv] и [RVM][rvm]).
+* За Windows машини може да бъде използван [RubyInstaller][rubyinstaller].
 
 Вижте страницата за [Инсталация][installation] за по-подробна
 информация за инсталиране.
@@ -73,3 +73,6 @@ Ruby може да бъде инсталиран и от изходен код �
 [license]: {{ site.license.url }}
 [installation]: /bg/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

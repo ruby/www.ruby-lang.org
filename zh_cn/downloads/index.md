@@ -12,9 +12,9 @@ lang: zh_cn
 
 每个流行的平台都有多种工具可用于安装 Ruby：
 
-* Linux/UNIX 平台，可以使用第三方工具（如 rbenv 或 RVM）或使用系统中的包管理系统。
-* OS X 平台，可以使用第三方工具（如 rbenv 或 RVM）。
-* Windows 平台，可以使用 RubyInstaller。
+* Linux/UNIX 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）或使用系统中的包管理系统。
+* OS X 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）。
+* Windows 平台，可以使用 [RubyInstaller][rubyinstaller]。
 
 使用包管理系统或第三方工具的详细说明，参见[安装页面][installation]。
 
@@ -55,3 +55,6 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 [license]: {{ site.license.url }}
 [installation]: /zh_cn/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

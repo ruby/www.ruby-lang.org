@@ -15,9 +15,9 @@ Mamy dostępnych wiele narzędzi dla każdej znaczącej platformy by zainstalowa
 Rubiego:
 
 * dla maszyn z systemem Linux/UNIX możesz użyć systemowego menedżera pakietów
-  lub narzędzi osób trzecich (rbenv lub RVM),
-* dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich (rbenv lub RVM),
-* dla maszyn z systemem Windows możesz użyć narzędzia RubyInstaller.
+  lub narzędzi osób trzecich ([rbenv][rbenv] lub [RVM][RVM]),
+* dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich ([rbenv][rbenv] lub [RVM][rvm]),
+* dla maszyn z systemem Windows możesz użyć narzędzia [RubyInstaller][rubyinstaller].
 
 Zobacz stronę [Instalacja][installation] po więcej szczegółów dotyczących
 systemów zarządzania pakietami lub narzędzi osób trzecich.
@@ -67,3 +67,6 @@ Spróbuj użyć jakiegoś blisko ciebie.
 [license]: {{ site.license.url }}
 [installation]: /pl/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/
