@@ -117,7 +117,7 @@ Debian GNU/Linux および Ubuntu は apt というパッケージマネージ�
 $ sudo apt-get install ruby
 {% endhighlight %}
 
-これを書いている時点では、 Debian と Ubuntu の `ruby` パッケージは古い Ruby 1.9.3 を提供しています。
+これを書いている時点では、 Debian と Ubuntu の `ruby` パッケージは古い Ruby 2.3.1 を提供しています。
 
 
 ### yum (CentOS, Fedora, or RHEL)

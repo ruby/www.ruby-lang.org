@@ -73,7 +73,7 @@ $ sudo apt-get install ruby-full
 {% endhighlight %}
 
 Al momento de escribir este documento, el paquete `ruby-full` instala la versión
-de Ruby 1.9.3, la cual es una entrega vieja pero estable en Debian y Ubuntu.
+de Ruby 2.3.1, la cual es una entrega vieja pero estable en Debian y Ubuntu.
 
 
 ### yum (CentOS, Fedora, or RHEL)

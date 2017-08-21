@@ -58,7 +58,7 @@ Debian GNU/Linux 和 Ubuntu 的使用者可以使用 apt。
 $ sudo apt-get install ruby
 {% endhighlight %}
 
-撰文當下 `ruby` 套件在 Debian 與 Ubuntu 平台上所提供的版本是老舊的穩定版 Ruby 1.9.3。
+撰文當下 `ruby` 套件在 Debian 與 Ubuntu 平台上所提供的版本是老舊的穩定版 Ruby 2.3.1。
 
 
 ### yum（CentOS、Fedora 或 RHEL）

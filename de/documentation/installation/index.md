@@ -129,7 +129,7 @@ $ sudo apt-get install ruby
 {% endhighlight %}
 
 Dadurch wird auf Ubuntu oder Debian (zum Stand der Entstehung dieses Artikels)
-Ruby 1.9.3 installiert, eine ältere stabile Version.
+Ruby 2.3.1 installiert, eine ältere stabile Version.
 
 
 ### yum (CentOS, Fedora, or RHEL)
