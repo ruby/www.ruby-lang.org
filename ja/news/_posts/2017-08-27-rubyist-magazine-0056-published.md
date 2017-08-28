@@ -26,4 +26,3 @@ lang: ja
 [2]: http://magazine.rubyist.net/
 [3]: http://magazine.rubyist.net/?0056
 [4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/50565
-
