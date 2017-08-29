@@ -8,12 +8,12 @@ tags: security
 lang: en
 ---
 
-There are multiple vulnerabilites in RubyGems bundled by Ruby.
+There are multiple vulnerabilities in RubyGems bundled by Ruby.
 It is [reported at the official blog of RubyGems](http://blog.rubygems.org/2017/08/27/2.6.13-released.html).
 
 ## Details
 
-The following vulnerabilites have been reported.
+The following vulnerabilities have been reported.
 
 * a DNS request hijacking vulnerability
 * an ANSI escape sequence vulnerability
