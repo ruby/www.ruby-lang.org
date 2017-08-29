@@ -41,12 +41,12 @@ gem update --system
 ```
 
 If you can't upgrade RubyGems, you can apply the following patches as a workaround.
-For Ruby 2.4.1, you'll need 2 patches one by one.
 
 * [for Ruby 2.2.7](https://bugs.ruby-lang.org/attachments/download/6690/rubygems-2613-ruby22.patch)
 * [for Ruby 2.3.4](https://bugs.ruby-lang.org/attachments/download/6691/rubygems-2613-ruby23.patch)
-* [for Ruby 2.4.1 (RubyGems 2.6.11 to 2.6.12)](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
-* [for Ruby 2.4.1 (RubyGems 2.6.12 to 2.6.13)](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
+* for Ruby 2.4.1: need 2 patches.  Apply sequentially as follows:
+  1. [RubyGems 2.6.11 to 2.6.12](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
+  2. [RubyGems 2.6.12 to 2.6.13](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
 
 About the trunk, update to the latest revision.
 
