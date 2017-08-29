@@ -46,6 +46,8 @@ gem update --system
 * [Ruby 2.4.1 用(RubyGems 2.6.11 から 2.6.12 へのパッチ)](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
 * [Ruby 2.4.1 用(RubyGems 2.6.12 から 2.6.13 へのパッチ)](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
 
+開発版については、最新のリビジョンに更新してください。
+
 ## クレジット
 
 この脆弱性情報は、[RubyGems 公式ブログ](http://blog.rubygems.org/2017/08/27/2.6.13-released.html)に基づいています。
