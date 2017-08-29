@@ -46,7 +46,7 @@ For Ruby 2.4.1, apply the two patches one by one.
 * [for Ruby 2.2.7](https://bugs.ruby-lang.org/attachments/download/6690/rubygems-2613-ruby22.patch)
 * [for Ruby 2.3.4](https://bugs.ruby-lang.org/attachments/download/6691/rubygems-2613-ruby23.patch)
 * [for Ruby 2.4.1 (RubyGems 2.6.11 to 2.6.12)](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
-* [For Ruby 2.4.1 (RubyGems 2.6.12 to 2.6.13)](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
+* [for Ruby 2.4.1 (RubyGems 2.6.12 to 2.6.13)](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
 
 About trunk, sync the latest revision.
 
