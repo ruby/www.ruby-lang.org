@@ -39,10 +39,12 @@ gem update --system
 
 もし何らかの事情で RubyGems 全体を更新できない場合は、脆弱性対応のみを行うパッチが公開されています。
 各バージョン用に用意されていますので、以下より入手・適用してください。
+なお、Ruby 2.4.1 用については、両方のパッチを順次適用してください。
 
 * [Ruby 2.2.7 用](https://bugs.ruby-lang.org/attachments/download/6690/rubygems-2613-ruby22.patch)
 * [Ruby 2.3.4 用](https://bugs.ruby-lang.org/attachments/download/6691/rubygems-2613-ruby23.patch)
-* [Ruby 2.4.1 用](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
+* [Ruby 2.4.1 用(RubyGems 2.6.11 から 2.6.12 へのパッチ)](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
+* [Ruby 2.4.1 用(RubyGems 2.6.12 から 2.6.13 へのパッチ)](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
 
 ## クレジット
 
