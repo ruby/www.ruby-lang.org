@@ -17,16 +17,16 @@ The following vulnerabilities have been reported.
 
 * a DNS request hijacking vulnerability
 * an ANSI escape sequence vulnerability
-* a DoS vulernerability in the query command
+* a DoS vulnerability in the query command
 * a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files
 
 It is strongly recommended for Ruby users to take one of the following workarounds as soon as possible.
 
 ## Affected Versions
 
-* Ruby 2.2 series: 2.2.7 and earlier 
-* Ruby 2.3 series: 2.3.4 and earlier 
-* Ruby 2.4 series: 2.4.1 and earlier 
+* Ruby 2.2 series: 2.2.7 and earlier
+* Ruby 2.3 series: 2.3.4 and earlier
+* Ruby 2.4 series: 2.4.1 and earlier
 * prior to trunk revision 59672
 
 ## Workarounds
@@ -34,7 +34,6 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 At this moment, there are no Ruby releases including the fix for RubyGems.
 But you can upgrade RubyGems to the latest version.
 RubyGems 2.6.13 or later includes the fix for the vulnerabilities.
-
 
 ```
 gem update --system
