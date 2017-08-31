@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.1)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     crass (1.0.2)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.5.1)
+    jekyll (3.5.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -39,14 +39,14 @@ GEM
     paint (1.0.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    public_suffix (2.0.5)
+    public_suffix (3.0.0)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
     rack-rewrite (1.5.1)
     rack-ssl (1.4.1)
       rack
-    raindrops (0.18.0)
+    raindrops (0.19.0)
     rake (12.0.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
@@ -61,14 +61,17 @@ GEM
     slop (4.5.0)
     spidr (0.6.0)
       nokogiri (~> 1.3)
+    tidy_ffi (0.1.6)
+      ffi (~> 1.2)
     unicorn (5.3.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
-    validate-website (1.7.0)
+    validate-website (1.8.0)
       crass (~> 1)
       paint (~> 1)
       slop (~> 4.2)
       spidr (~> 0.6)
+      tidy_ffi (~> 0.1)
       w3c_validators (~> 1.3)
     w3c_validators (1.3.3)
       json (>= 1.8)
@@ -93,4 +96,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.3
+   1.15.4
