@@ -15,11 +15,11 @@ Foi reportado no [blog oficial do RubyGems](http://blog.rubygems.org/2017/08/27/
 
 As seguintes vulnerabilidades foram reportadas.
 
-* vulnerabilidade de redirecionamento de DNS
-* vulnerabilidade de código de escape ANSI
-* vulnerabilidade de ataque DoS
+* vulnerabilidade de redirecionamento de DNS. (CVE-2017-0902)
+* vulnerabilidade de código de escape ANSI. (CVE-2017-0899)
+* vulnerabilidade de ataque DoS. (CVE-2017-0900)
 * vulnerabilidade no instalador de _gems_ que permite uma _gem_ maliciosa sobrescrever arquivos
-arbitrários
+arbitrários. (CVE-2017-0901)
 
 É altamente recomendado para os usuários do Ruby que sigam uma das soluções alternativas o mais
 rápido possível.
@@ -59,3 +59,4 @@ Baseado no relato do [blog oficial do RubyGems](http://blog.rubygems.org/2017/08
 ## Histórico
 
 * Originalmente publicado em 2017-08-29 12:00:00 UTC
+* Adicionado números de vulnerabilidades e exposições comuns (CVE) em 2017-08-31 02:00:00 UTC
