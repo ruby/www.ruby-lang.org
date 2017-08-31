@@ -15,10 +15,10 @@ It is [reported at the official blog of RubyGems](http://blog.rubygems.org/2017/
 
 The following vulnerabilities have been reported.
 
-* a DNS request hijacking vulnerability
-* an ANSI escape sequence vulnerability
-* a DoS vulnerability in the query command
-* a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files
+* a DNS request hijacking vulnerability. (CVE-2017-0902)
+* an ANSI escape sequence vulnerability. (CVE-2017-0899)
+* a DoS vulnerability in the query command. (CVE-2017-0900)
+* a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files. (CVE-2017-0901)
 
 It is strongly recommended for Ruby users to take one of the following workarounds as soon as possible.
 

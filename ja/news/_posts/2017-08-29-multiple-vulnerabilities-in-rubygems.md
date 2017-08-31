@@ -15,10 +15,10 @@ RubyGems の公式ブログにて[報告されています](http://blog.rubygems
 
 以下の脆弱性が報告されています。
 
-* a DNS request hijacking vulnerability
-* an ANSI escape sequence vulnerability
-* a DoS vulnerability in the query command
-* a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files
+* a DNS request hijacking vulnerability. (CVE-2017-0902)
+* an ANSI escape sequence vulnerability. (CVE-2017-0899)
+* a DoS vulnerability in the query command. (CVE-2017-0900)
+* a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files. (CVE-2017-0901)
 
 Ruby ユーザには、以下に示すいずれかの対策を速やかに行うことを強く推奨します。
 
