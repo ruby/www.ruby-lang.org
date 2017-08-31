@@ -56,3 +56,4 @@ This report is based on [the official blog of RubyGems](http://blog.rubygems.org
 ## History
 
 * Originally published at 2017-08-29 12:00:00 UTC
+* Added CVE numbers at 2017-08-31 2:00:00 (UTC)
