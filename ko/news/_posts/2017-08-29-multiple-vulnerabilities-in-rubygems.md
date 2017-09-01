@@ -20,7 +20,7 @@ lang: ko
 * 질의 명령의 DoS 취약점. (CVE-2017-0900)
 * 악성 젬이 파일을 임의로 덮어 쓰기 하여도 루비 인스톨러가 허용하는 취약점. (CVE-2017-0901)
 
-루비 사용자는 아래의 해결 방법 중 하나를 즉시 따를 것으로 강력히 권고합니다.
+루비 사용자는 가능한 빨리 아래 해결 방법으로 조치하기 바랍니다.
 
 ## 해당 버전
 
@@ -31,15 +31,15 @@ lang: ko
 
 ## 해결 방법
 
-지금은 RubyGems를 보완한 루비 릴리스 버전이 없습니다.
-그러나 RubyGems를 최신 버전으로 업그레이드할 수 있습니다.
-루비 2.6.13 이후 버전은 취약점을 보완하여 적용하였습니다.
+업데이트된 RubyGems 버전을 사용하는 루비 릴리스 버전은 없지만,
+RubyGems를 최신 버전으로 업그레이드할 수 있습니다.
+RubyGems 2.6.13 이후 버전은 취약점을 보완하였습니다.
 
 ```
 gem update --system
 ```
 
-RubyGems를 업그레이드를 할 수 없다면, 아래의 패치를 제2의 해결 방법으로 적용할 수 있습니다.
+RubyGems를 업그레이드를 할 수 없다면, 차선책으로 다음 패치를 적용할 수 있습니다.
 
 * [루비 2.2.7](https://bugs.ruby-lang.org/attachments/download/6690/rubygems-2613-ruby22.patch)
 * [루비 2.3.4](https://bugs.ruby-lang.org/attachments/download/6691/rubygems-2613-ruby23.patch)
