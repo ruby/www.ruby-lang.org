@@ -146,18 +146,20 @@ end
 
 Agora `Constante` é 10, mas `Constante()` é 11.
 
-### Falsos parâmetros (keyword parameters)
+### Argumentos nomeados
 
-O Ruby não utiliza parâmetros, como o Python. No entanto, estes podem
-ser forjados através da utilização de símbolos e tabelas de hashing. O
-Ruby on Rails, entre outros utilizam muito esta técnica. Exemplo:
+Como em Python, desde a versão Ruby 2.0, métodos podem ser definidos
+usando argumentos nomeados. Exemplo:
 
 {% highlight ruby %}
-def alguns_parametros(params)
-  params
+def deliver(from: "A", to: nil, via: "mail")
+  "Enviando de #{from} para #{to} através de #{via}."
 end
-alguns_parametros( :param_um => 10, :param_dois => 42 )
-# => {:param_um=>10, :param_dois=>42}
+
+deliver(to: "B")
+# => "Enviando de A para B atavés de mail."
+deliver(via: "Pony Express", from: "B", to: "A")
+# => "Enviando de B para A através de Pony Express."
 {% endhighlight %}
 
 ### A Propriedade Universal
