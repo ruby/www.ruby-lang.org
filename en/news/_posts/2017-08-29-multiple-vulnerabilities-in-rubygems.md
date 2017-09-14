@@ -20,7 +20,7 @@ The following vulnerabilities have been reported.
 * a DoS vulnerability in the query command. (CVE-2017-0900)
 * a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files. (CVE-2017-0901)
 
-It is strongly recommended for Ruby users to take one of the following workarounds as soon as possible.
+It is strongly recommended for Ruby users to upgrade or take one of the following workarounds as soon as possible.
 
 ## Affected Versions
 
@@ -31,8 +31,7 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 
 ## Workarounds
 
-At this moment, there are no Ruby releases including the fix for RubyGems.
-But you can upgrade RubyGems to the latest version.
+If you can't upgrade Ruby itself, upgrade RubyGems to the latest version.
 RubyGems 2.6.13 or later includes the fix for the vulnerabilities.
 
 ```
@@ -57,3 +56,4 @@ This report is based on [the official blog of RubyGems](http://blog.rubygems.org
 
 * Originally published at 2017-08-29 12:00:00 UTC
 * Added CVE numbers at 2017-08-31 2:00:00 UTC
+* Mention about upgrading Rubies at 2017-09-15 12:00:00 UTC
