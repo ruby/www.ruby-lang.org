@@ -18,7 +18,7 @@ Please check the topics below for details.
 * [Multiple vulnerabilities in RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * Updated bundled libyaml to version 0.1.7
 
-Ruby 2.2 is now under the state of the security maintenance phase, until the endo of the March of 2018.
+Ruby 2.2 is now under the state of the security maintenance phase, until the end of the March of 2018.
 After the date, maintenance of Ruby 2.2 will be ended.
 We recommend you start planning migration to newer versions of Ruby, such as 2.4 or 2.3.
 
