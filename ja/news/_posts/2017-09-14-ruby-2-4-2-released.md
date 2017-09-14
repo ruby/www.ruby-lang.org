@@ -19,6 +19,13 @@ Ruby 2.4.2 がリリースされました。
 
 その他多くのバグ修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) を参照してください。
 
+## 既知の不具合について(2017年4月15日追記)
+
+Ruby 2.4.2 において、libgmp および jemalloc と正しくリンクできないという非互換性が発見されています。
+次回リリース時には修正される予定ですが、緊急に対応が必要なユーザーは、以下のページから修正を入手してください。
+
+* [Ruby 2.4.2 and 2.3.5 cannot link with libgmp nor jemalloc](https://bugs.ruby-lang.org/issues/13899)
+
 ## ダウンロード
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.bz2>
