@@ -18,7 +18,7 @@ This release contains some security fixes.
 * Update bundled libyaml to version 0.1.7.
 
 There are also many bug-fixes.
-See [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_4_1) for more details.
+See [commit logs](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) for more details.
 
 ## Download
 
