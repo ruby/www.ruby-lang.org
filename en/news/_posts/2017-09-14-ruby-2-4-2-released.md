@@ -1,25 +1,26 @@
 ---
 layout: news_post
-title: "Ruby 2.4.2 リリース"
+title: "Ruby 2.4.2 Released"
 author: "nagachika"
 translator:
 date: 2017-09-14 00:00:00 +0000
-lang: ja
+lang: en
 ---
 
-Ruby 2.4.2 がリリースされました。
-このリリースにはいくつかの脆弱性修正が含まれています。
+We are pleased to announce the release of Ruby 2.4.2.
+This release contains some security fixes.
 
-* [CVE-2017-0898: Kernel.sprintf におけるバッファーアンダーラン](/ja/news/2017/09/13/sprintf-buffer-underrun-cve-2017-0898/)への対応
-* [CVE-2017-10784: WEBrick の BASIC 認証におけるエスケープシーケンス挿入](/ja/news/2017/09/13/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)への対応
-* [CVE-2017-14033: OpenSSL の ASN1 デコードにおけるバッファーアンダーラン](/ja/news/2017/09/13/openssl-asn1-buffer-underrun-cve-2017-14033/)への対応
-* [CVE-2017-14064: JSON の生成時におけるヒープ暴露](/ja/news/2017/09/13/json-heap-exposure-cve-2017-14064/)への対応
-* [RubyGems の複数の脆弱性](/ja/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)への対応
-* 添付の libyaml を 0.1.7 に更新
+* [CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
+* [CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick](/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 docod](/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
+* [CVE-2017-14064: Heap exposure in generating JSON](/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
+* [Multiple vulnerabilities in RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
+* Update bundled libyaml to version 0.1.7.
 
-その他多くのバグ修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) を参照してください。
+There are also many bug-fixes.
+See [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_4_1) for more details.
 
-## ダウンロード
+## Download
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.bz2>
 
@@ -49,6 +50,8 @@ Ruby 2.4.2 がリリースされました。
       SHA256: e541547e82bfd03b05a2ec486c146b4c3a762be35bd402d30995920d9a5880f7
       SHA512: 3e4ec635adb512b0891225b7be4d2df0c714de89fbb9835cd8b0fc36d0328bbcb7ac5d67e8295126ebaf2c6c15497d2e1f49c7dc98bb4be79eca3f9cd11cf6e3
 
-## リリースコメント
+## Release Comment
 
-このリリースにあたり、多くのコミッター、開発者、バグ報告をしてくれたユーザーの皆様に感謝を申し上げます。
+Many committers, developers, and users who provided bug reports helped
+us to make this release.
+Thanks for their contributions.
