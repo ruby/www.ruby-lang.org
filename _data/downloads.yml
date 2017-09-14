@@ -9,10 +9,10 @@ stable:
       xz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.xz
       zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.zip
     sha256:
-      bz2: f98170527209e94c74c5d6f24f0c0bf2d91e325c003fa133c7e7a2dcf7ec7623
-      gz: a7fc9c7ea65f28262e4a3d62bb2ed0c6b089d6cc415f307093bd8fd03c1a6ecc
-      xz: 03b62335f71a54b0868c49cd097eaa0597cc75855da7261ab32cd4e7dd58d8d7
-      zip: e541547e82bfd03b05a2ec486c146b4c3a762be35bd402d30995920d9a5880f7
+      bz2: 08e72d0cbe870ed1317493600fbbad5995ea3af2d0166585e7ecc85d04cc50dc
+      gz: 93b9e75e00b262bc4def6b26b7ae8717efc252c47154abb7392e54357e6c8c9c
+      xz: 748a8980d30141bd1a4124e11745bb105b436fb1890826e0d2b9ea31af27f735
+      zip: 37d7cb27d8abd4b143556260506306659930548652343076f7f8470f07818824
 
   - version: 2.3.5
     url:
