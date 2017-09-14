@@ -20,7 +20,7 @@ RubyGems の公式ブログにて[報告されています](http://blog.rubygems
 * a DoS vulnerability in the query command. (CVE-2017-0900)
 * a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files. (CVE-2017-0901)
 
-Ruby ユーザには、以下に示すいずれかの対策を速やかに行うことを強く推奨します。
+この問題の影響を受けるバージョンの Ruby のユーザーは、速やかに問題の修正されたバージョンに更新するか、または下記の回避策を取ってください。
 
 ## 影響を受けるバージョン
 
@@ -31,7 +31,7 @@ Ruby ユーザには、以下に示すいずれかの対策を速やかに行う
 
 ## 回避策
 
-現時点では、本件に対応した Ruby はリリースされていませんが、以下のコマンドを実行することにより、RubyGems を最新版(2.6.13 以降)に更新することによって、各脆弱性が修正されます。
+Ruby 自体を更新できない場合は、以下のコマンドを実行することにより、RubyGems を最新版(2.6.13 以降)に更新することによって、各脆弱性が修正されます。
 
 ```
 gem update --system
@@ -56,3 +56,4 @@ gem update --system
 
 * 2017-08-29 21:00:00 (JST) 初版
 * 2017-08-31 11:00:00 (JST) CVE 番号を追加
+* 2017-09-14 21:00:00 (JST) Ruby 自体の更新でも対応可能である旨を追記
