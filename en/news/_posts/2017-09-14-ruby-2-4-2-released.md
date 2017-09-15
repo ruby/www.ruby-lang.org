@@ -20,6 +20,16 @@ This release contains some security fixes.
 There are also many bug-fixes.
 See [commit logs](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) for more details.
 
+## Known Problem
+
+_(This section was added at September 15, 2017.)_
+
+An incompatibility has been found for Ruby 2.4.2.
+Ruby 2.4.2 can not link with libgmp nor jemalloc.
+We will fix this problem with the next release, but if you are facing the problem now and need to overcome it immediately, get a patch from this link:
+
+* [Ruby 2.4.2 and 2.3.5 cannot link with libgmp nor jemalloc](https://bugs.ruby-lang.org/issues/13899)
+
 ## Download
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.bz2>
