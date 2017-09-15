@@ -21,6 +21,16 @@ Please check the topics below for details.
 
 See the [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) for details.
 
+## Known Problem
+
+_(This section was added at September 15, 2017.)_
+
+An incompatibility has been found for Ruby 2.3.5.
+Ruby 2.3.5 can not link with libgmp nor jemalloc.
+We will fix this problem with the next release, but if you are facing the problem now and need to overcome it immediately, get a patch from this link:
+
+* [Ruby 2.4.2 and 2.3.5 cannot link with libgmp nor jemalloc](https://bugs.ruby-lang.org/issues/13899)
+
 ## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.tar.bz2)
