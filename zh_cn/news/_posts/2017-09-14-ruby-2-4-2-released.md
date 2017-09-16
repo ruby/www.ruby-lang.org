@@ -10,11 +10,11 @@ lang: zh-cn
 我们高兴地宣布 Ruby 2.4.2 发布了。
 这个版本修复了数个安全问题。
 
-* [CVE-2017-0898: Kernel.sprintf 缓冲区欠载缺陷](/zh-cn/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: WEBrick 基本认证转义序列缺陷](/zh-cn/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
-* [CVE-2017-14033: OpenSSL ASN1 解码时缓冲区欠载缺陷](/zh-cn/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
-* [CVE-2017-14064: 生成 JSON 时的堆暴露缺陷](/zh-cn/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
-* [RubyGems 发现多个漏洞](/zh-cn/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
+* [CVE-2017-0898: Kernel.sprintf 缓冲区欠载缺陷](/zh_cn/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
+* [CVE-2017-10784: WEBrick 基本认证转义序列缺陷](/zh_cn/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-14033: OpenSSL ASN1 解码时缓冲区欠载缺陷](/zh_cn/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
+* [CVE-2017-14064: 生成 JSON 时的堆暴露缺陷](/zh_cn/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
+* [RubyGems 发现多个漏洞](/zh_cn/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * 升级内置 libyaml gem 至 0.1.7 版本
 
 这还包括许多其他 Bug 修复。
