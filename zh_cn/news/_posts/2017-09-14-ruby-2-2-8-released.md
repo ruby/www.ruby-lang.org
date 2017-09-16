@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.8 Released"
+title: "Ruby 2.2.8 已发布"
 author: "usa"
 translator: "Delton Ding"
 date: 2017-09-14 12:00:00 +0000

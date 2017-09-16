@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.4.2 Released"
+title: "Ruby 2.4.2 已发布"
 author: "nagachika"
 translator: "Delton Ding"
 date: 2017-09-14 00:00:00 +0000
