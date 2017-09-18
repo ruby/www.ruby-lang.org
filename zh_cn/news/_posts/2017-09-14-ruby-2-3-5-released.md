@@ -1,16 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 2.3.5 已发布"
+title: "Ruby 2.3.5 发布"
 author: "usa"
 translator: "Delton Ding"
 date: 2017-09-14 12:00:00 +0000
-lang: zh-cn
+lang: zh_cn
 ---
 
 Ruby 2.3.5 已发布。
 
-该版本在上个版本后修复了约 70 个漏洞，特别是数个安全漏洞。
-请检查下述主题以获得详情。
+该版本在上个版本后修复了约 70 个漏洞，特别是数个安全漏洞。详情参见以下文章。
 
 * [CVE-2017-0898: Kernel.sprintf 缓冲区欠载缺陷](/zh_cn/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
 * [CVE-2017-10784: WEBrick 基本认证转义序列缺陷](/zh_cn/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
@@ -19,15 +18,13 @@ Ruby 2.3.5 已发布。
 * [RubyGems 发现多个漏洞](/zh_cn/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * 升级内置 libyaml gem 至 0.1.7 版本
 
-查看 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) 以获取详情。
+详情参见 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog)  。
 
 ## 已知问题
 
-_(这一章节于 2017 年 9 月 15 日追加。)_
+(这一章节于 2017 年 9 月 15 日追加。)
 
-Ruby 2.3.5 中发现了一处兼容性问题。
-Ruby 2.3.5 无法链接 libgmp 和 jemalloc。
-我们将会在下个版本中修复这一问题，但如果您正面临这一问题并急需解决，请从下面的链接中获取补丁：
+Ruby 2.3.5 中发现了一处兼容性问题。Ruby 2.3.5 无法链接 libgmp 和 jemalloc。我们将会在下个版本中修复这一问题，但如果您正面临这一问题并急需解决，请从下面的链接中获取补丁：
 
 * [Ruby 2.4.2 和 2.3.5 无法链接 libgmp 和 jemalloc](https://bugs.ruby-lang.org/issues/13899)
 

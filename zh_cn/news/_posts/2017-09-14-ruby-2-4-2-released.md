@@ -1,14 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.4.2 已发布"
+title: "Ruby 2.4.2 发布"
 author: "nagachika"
 translator: "Delton Ding"
 date: 2017-09-14 00:00:00 +0000
-lang: zh-cn
+lang: zh_cn
 ---
 
-我们高兴地宣布 Ruby 2.4.2 发布了。
-这个版本修复了数个安全问题。
+我们高兴地宣布 Ruby 2.4.2 发布了。这个版本修复了数个安全问题。
 
 * [CVE-2017-0898: Kernel.sprintf 缓冲区欠载缺陷](/zh_cn/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
 * [CVE-2017-10784: WEBrick 基本认证转义序列缺陷](/zh_cn/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
@@ -17,16 +16,13 @@ lang: zh-cn
 * [RubyGems 发现多个漏洞](/zh_cn/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * 升级内置 libyaml gem 至 0.1.7 版本
 
-这还包括许多其他 Bug 修复。
-查阅 [提交日志](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) 以获取更多详情。
+这还包括许多其他 Bug 修复。查阅 [提交日志](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) 以获取更多详情。
 
 ## 已知问题
 
-_(这一章节于 2017 年 9 月 15 日追加。)_
+(这一章节于 2017 年 9 月 15 日追加。)
 
-Ruby 2.4.2 中发现了一处兼容性问题。
-Ruby 2.4.2 无法链接 libgmp 和 jemalloc。
-我们将会在下个版本中修复这一问题，但如果您正面临这一问题并急需解决，请从下面的链接中获取补丁：
+Ruby 2.4.2 中发现了一处兼容性问题。Ruby 2.4.2 无法链接 libgmp 和 jemalloc。我们将会在下个版本中修复这一问题，但如果您正面临这一问题并急需解决，请从下面的链接中获取补丁：
 
 * [Ruby 2.4.2 和 2.3.5 无法链接 libgmp 和 jemalloc](https://bugs.ruby-lang.org/issues/13899)
 

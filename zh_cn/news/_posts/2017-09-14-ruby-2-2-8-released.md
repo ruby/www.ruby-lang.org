@@ -1,15 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.2.8 已发布"
+title: "Ruby 2.2.8 发布"
 author: "usa"
 translator: "Delton Ding"
 date: 2017-09-14 12:00:00 +0000
-lang: zh-cn
+lang: zh_cn
 ---
 
-Ruby 2.2.8 已发布。
-该版本修复了数个安全漏洞。
-请检查下述主题以获得详情。
+Ruby 2.2.8 已发布。该版本修复了数个安全漏洞。请检查下述主题以获得详情。
 
 * [CVE-2017-0898: Kernel.sprintf 缓冲区欠载缺陷](/zh_cn/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
 * [CVE-2017-10784: WEBrick 基本认证转义序列缺陷](/zh_cn/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
@@ -18,9 +16,7 @@ Ruby 2.2.8 已发布。
 * [RubyGems 发现多个漏洞](/zh_cn/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * 升级内置 libyaml gem 至 0.1.7 版本
 
-Ruby 2.2 目前处于安全维护阶段，直至 2018 年三月。
-在此之后，Ruby 2.2 的维护将会结束。
-我们建议您开始考虑迁移至更新版本的 Ruby，例如 Ruby 2.4 或 2.3。
+Ruby 2.2 目前处于安全维护阶段，直至 2018 年三月。在此之后，Ruby 2.2 的维护将会结束。我们建议您开始考虑迁移至更新版本的 Ruby，例如 Ruby 2.4 或 2.3。
 
 ## 下载
 
