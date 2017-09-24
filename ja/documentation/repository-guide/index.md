@@ -8,23 +8,23 @@ lang: ja
 
 RubyのソースコードはSVNリポジトリに保存されており、ViewVC経由で参照できます:
 
-* [&lt;URL:http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][1]
+* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][1]
 
 また、Anonymous SVNも利用可能です:
 
 trunkの場合:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 1\.8の場合:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8 ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8 ruby
 {% endhighlight %}
 
-その他のブランチ・タグなどは[&lt;URL:http://svn.ruby-lang.org/repos/ruby/&gt;][2]から確認してください。
+その他のブランチ・タグなどは[&lt;URL:https://svn.ruby-lang.org/repos/ruby/&gt;][2]から確認してください。
 
 ## Gitリポジトリ
 
@@ -42,8 +42,8 @@ Posted by usa on 30 May 2006
 
 
 
-[1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
-[2]: http://svn.ruby-lang.org/repos/ruby/
+[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[2]: https://svn.ruby-lang.org/repos/ruby/
 [3]: https://github.com/ruby/ruby
 [4]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [5]: https://github.com/shyouhei/ruby/wiki/committerhowto

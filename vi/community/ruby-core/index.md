@@ -25,7 +25,7 @@ Các chủ đề liên quan đến sự phát triển Ruby được đề cập 
 là một vấn đề đối với các checkout không xác định. Bạn gõ dòng lệnh sau:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 Thư mục `ruby` sẽ chứa toàn bộ mã nguồn của phiên bản mới nhất (theo dạng
@@ -37,14 +37,14 @@ Nếu bạn muốn theo dõi các bản vá lỗi cho Ruby 2.0.0, bạn cần nh
 `ruby_2_0_0` khi checkout:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
 {% endhighlight %}
 
 Nếu bạn muốn theo dõi các bản vá lỗi cho Ruby 1.9.3, bạn cần nhập
 `ruby_1_9_3` khi checkout:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 {% endhighlight %}
 
 Câu lệnh trên sẽ checkout Ruby 1.9.3 vào thư mục `ruby_1_9_3`.  Các nhà phát
@@ -88,12 +88,12 @@ Dưới đây là một số bước để tạo được một bản vá lỗi:
     nếu bạn muốn thêm một tính năng cho Ruby 1.9.3, thì nó cần được kiểm tra ở
     nhánh chính trước.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     Nếu bạn đang sử chữa một lỗi nào đó trong nhánh nào đó thì checkout bản
     sao của nhánh đó ví dụ như `ruby_1_9.3`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 
 2.  Thêm các cải tiến cho code.
 
@@ -148,7 +148,7 @@ Xem thêm thông tin về [Ruby’s issue tracker][10].
 
 [mailing-lists]: /vi/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

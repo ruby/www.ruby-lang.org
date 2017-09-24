@@ -24,7 +24,7 @@ Obter a versão mais recente do código fonte do Ruby é uma questão de fazer u
 _checkout_ anônimo do repositório [Subversion][1]. Na sua linha de comando:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 O diretório `ruby` conterá o código fonte mais recente da versão de
@@ -37,13 +37,13 @@ Se você gostaria de seguir os _patches_  aplicados ao Ruby
 `{{ site.svn.stable.branch }}` ao fazer o _check out_:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
 A mesma coisa para o Ruby {{ site.svn.previous.version }}:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
 Isto fará o *check out* da árvore de desenvolvimento em um
@@ -92,13 +92,13 @@ Para resumir, os passos para criar um *patch* são:
     Mesmo que você queira adicionar uma funcionalidade ao Ruby 1.9.3,
     ele deve ser provado no _trunk_ primeiro.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     Se você estiver corrigindo um bug que é específico de um _branch_ de
     manutenção, faça o _check out_ do respectivo _branch_, por exemplo
     `{{ site.svn.previous.branch }}`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Faça as suas melhorias no código.
 
@@ -160,7 +160,7 @@ Veja também as informações no [_issue tracker_ do Ruby][10].
 
 [mailing-lists]: /pt/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

@@ -24,7 +24,7 @@ Getting the latest Ruby source code is a matter of an anonymous checkout
 from the [Subversion][1] repository. From your command line:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 The `ruby` directory will now contain the latest source code
@@ -37,13 +37,13 @@ If you’d like to follow patching of Ruby {{ site.svn.stable.version }},
 you should use the `{{ site.svn.stable.branch }}` branch when checking out:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
 Similarly for Ruby {{ site.svn.previous.version }}:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
 This will check out the respective development tree into a
@@ -87,13 +87,13 @@ To summarize, the steps for building a patch are:
     to Ruby {{ site.svn.previous.version }}, it has to be proven in
     the trunk first.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     If you are fixing a bug that is specific to only one maintenance branch,
     check out a copy of the respective branch,
     e.g. `{{ site.svn.previous.branch }}`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Add your improvements to the code.
 
@@ -152,7 +152,7 @@ See also the information in [Ruby’s issue tracker][10].
 [mailing-lists]: /en/community/mailing-lists/
 [writing-patches]: /en/community/ruby-core/writing-patches/
 [1]: http://subversion.apache.org/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/
