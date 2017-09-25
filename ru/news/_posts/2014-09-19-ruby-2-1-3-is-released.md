@@ -16,7 +16,7 @@ lang: ru
 немного замедлится ради уменьшения "аппетитов".
 
 См. [другие вопросы](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-и [журнал изменений](http://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+и [журнал изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
 для подробной информации.
 
 ## Загрузить

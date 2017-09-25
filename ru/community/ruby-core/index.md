@@ -24,7 +24,7 @@ lang: ru
 репозитория. В командной строке наберите:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 Папка `ruby` теперь будет содержать последние исходники
@@ -37,13 +37,13 @@ development-версии Ruby (ruby-trunk). Патчи, применяемые �
 на `{{ site.svn.stable.branch }}` ветку:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
 То же самое для Ruby {{ site.svn.previous.version }}:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
 Эти команды скачают соответствующее дерево разработки в папку
@@ -91,12 +91,12 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
     добавить конструкцию к {{ site.svn.previous.version }}, это должно быть сначала проверено в
     trunk.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     Если вы исправляете баг, который специфичен для одной из
     поддерживаемых веток, выберите эту ветку, например, `{{ site.svn.previous.version }}`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Добавьте ваши улучшения в код.
 
@@ -156,7 +156,7 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
 
 [mailing-lists]: /ru/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

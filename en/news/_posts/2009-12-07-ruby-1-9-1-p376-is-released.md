@@ -30,7 +30,7 @@ In addition, 1.9.1-p376 includes &gt; 100 bug fixes.
 
 See the ChangeLog for more detail.
 
-* [&lt;URL:http://svn.ruby-lang.org/repos/ruby/branches/ruby\_1\_9\_1/ChangeLog&gt;][2]
+* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/branches/ruby\_1\_9\_1/ChangeLog&gt;][2]
 
 #### Location
 
@@ -67,7 +67,7 @@ See the ChangeLog for more detail.
 
 
 [1]: {{ site.url }}/en/news/2009/12/07/heap-overflow-in-string/
-[2]: http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog
+[2]: https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.zip

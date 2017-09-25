@@ -18,13 +18,13 @@ Vì vậy, dựa trên cuộc thảo luận ở [Bug #9424](https://bugs.ruby-la
 Nếu bạn cần phải bỏ qua thay đổi này (xem ở dưới), hãy áp dụng bản vá ngược để thu hồi.
 
 2.1.4
-: [r48098](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+: [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
 
 2.0.0-p594
-: [r48110](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+: [r48110](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
 
 1.9.3-p550
-: [r48121](http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+: [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
 
 Tuy nhiên, nếu bạn bỏ qua thay đổi này, có nguy cơ là bạn không đảm bảo được sự an toàn của giao tiếp mạng.
 Bạn nên hiểu trước khi làm điều đó.

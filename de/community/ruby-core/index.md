@@ -25,7 +25,7 @@ Mit dem folgenden Kommandozeilenbefehl kannst du den aktuellsten
 Quelltext von Ruby über Subversion herunterladen (auschecken):
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 Das Verzeichnis `ruby` enthält nun den vollständigen Quelltext der
@@ -39,7 +39,7 @@ den Branch `ruby_1_8` genauer anschauen. Über den folgenden
 Kommandozeilenbefehl kannst du den Quelltext auschecken:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
 {% endhighlight %}
 
 Damit hast du die aktuelle Entwicklerversion des offiziellen Ruby 1.8
@@ -133,7 +133,7 @@ Subversion-Repository beachtet werden:
 
 
 [mailing-lists]: /de/community/mailing-lists/
-[1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [2]: http://subversion.apache.org/faq.html
 [3]: http://svnbook.org
 [4]: http://git-scm.com/

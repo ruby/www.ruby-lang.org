@@ -55,7 +55,7 @@ lang: ko
 
 자세한 사항은 아래의 링크를 참조하시기 바랍니다.
 
-* 1: http://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_3\_preview1/NEWS
+* 1: https://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_3\_preview1/NEWS
 * 2:
-  http://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_3\_preview1/ChangeLog
+  https://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_3\_preview1/ChangeLog
 
