@@ -14,8 +14,8 @@ Ruby 2.2.8 發布了。
 * [CVE-2017-10784: WEBrick 基本認證的轉義序列注入安全性風險](/zh_tw/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
 * [CVE-2017-14033: OpenSSL ASN1 解碼時緩衝區掏空的安全性風險](/zh_tw/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
 * [CVE-2017-14064: 在生成 JSON 時堆積暴露的安全性風險](/zh_tw/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
-* [RubyGems 發現多個安全性風險](/zh_tw/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
-* Updated bundled libyaml to version 0.1.7
+* [RubyGems 多個安全性風險](/zh_tw/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
+* 內建的 libyaml 更新至版本 0.1.7
 
 Ruby 2.2 目前處於安全性維護階段直到 2018 年 3 月。
 在此之後， Ruby 2.2 將會停止維護。
