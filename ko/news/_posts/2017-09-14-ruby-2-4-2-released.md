@@ -11,7 +11,7 @@ lang: ko
 이번 릴리스는 보안 취약점 수정을 포함합니다.
 
 * [CVE-2017-0898: Kernel.sprintf에서 버퍼 언더런 취약점 발생](/ko/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: WEBrick 베이직 인증의 이스케이프 시퀀스 삽입 취약점 발생](/ko/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-10784: WEBrick 베이직 인증에 이스케이프 시퀀스 삽입 취약점 발생](/ko/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
 * [CVE-2017-14033: OpenSSL ASN1 디코드할 때 버퍼 언더런 취약점 발생](/ko/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
 * [CVE-2017-14064: JSON을 생성할 때 힙 메모리를 노출하는 취약점](/ko/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
 * [RubyGems의 취약점 다수 발견](/ko/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
