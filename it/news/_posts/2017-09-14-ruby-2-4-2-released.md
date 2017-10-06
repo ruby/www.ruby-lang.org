@@ -7,7 +7,7 @@ date: 2017-09-14 00:00:00 +0000
 lang: it
 ---
 
-Siamo lieti di annunciare la release di Ruby 2.4.2.
+Siamo lieti di annunciare il rilascio di Ruby 2.4.2.
 Questa release include alcuni fix di sicurezza.
 
 * [CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
@@ -27,7 +27,7 @@ _(Questa sezione è stata aggiunta il 15 settembre 2017.)_
 
 E' stata trovata una incompatibilità in Ruby 2.4.2.
 Ruby 2.4.2 non può linkare le librerie libgmp e jemalloc.
-Risolveremo questo problema con la prossima release, me se riscontrate il problema ora e avete la necessità di una soluzione immediata, potete prelevare una patch da questo link:
+Risolveremo questo problema con la prossima release, me se lo riscontrate ora e avete la necessità di una soluzione immediata, potete prelevare una patch da questo link:
 
 * [Ruby 2.4.2 and 2.3.5 cannot link with libgmp nor jemalloc](https://bugs.ruby-lang.org/issues/13899)
 
