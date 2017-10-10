@@ -43,7 +43,7 @@ See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_preview1/NEWS)
 or commit logs for details.
 
 With those changes,
-[6162 files changed, 28537 insertions(+), 339582 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)
+[6162 files changed, 339744 insertions(+), 28699 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)
 since Ruby 2.4.0!
 
 Enjoy Ruby 2.5.0-preview1!
