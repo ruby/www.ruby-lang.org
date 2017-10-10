@@ -54,6 +54,6 @@ Laporan ini didasarkan pada [blog resmi RubyGems](http://blog.rubygems.org/2017/
 
 ## Riwayat
 
-* Semula dipublikasikan pada 29-08-2017 12:00:00 UTC
-* Penambahan angka CVE pada 31-08-2017 2:00:00 UTC
-* Sebut memperbarui Ruby pada 15-09-2017 12:00:00 UTC
+* Semula dipublikasikan pada 2017-08-29 12:00:00 UTC
+* Penambahan angka CVE pada 2017-08-31 2:00:00 UTC
+* Sebut memperbarui Ruby pada 2017-09-15 12:00:00 UTC
