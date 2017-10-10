@@ -20,7 +20,7 @@ Kerentanan berikut ini telah dilaporkan.
 * kerentanan DoS pada perintah *query*. (CVE-2017-0900)
 * kerentanan pada *gem installer* yang memperbolehkan *malicious gem* untuk menimpa *arbitrary files*. (CVE-2017-0901)
 
-Pengguna Ruby sangat disarankan untuk mengambil salah satu solusi berikut segera mungkin.
+Pengguna Ruby sangat disarankan untuk memperbarui atau mengambil salah satu solusi berikut segera mungkin.
 
 ## Versi Terimbas
 
@@ -31,8 +31,7 @@ Pengguna Ruby sangat disarankan untuk mengambil salah satu solusi berikut segera
 
 ## Solusi
 
-Saat ini, tidak ada rilis Ruby yang memasukkan perbaikan untuk RubyGems.
-Namun Anda dapat memperbarui RubyGems ke versi terbaru.
+Jika Anda tidak dapat memperbarui Ruby itu sendiri, perbarui RubyGems ke versi terbaru.
 RubyGems 2.6.13 atau setelahnya berisi perbaikan untuk kerentanan-kerentanan di atas.
 
 ```
@@ -57,3 +56,4 @@ Laporan ini didasarkan pada [blog resmi RubyGems](http://blog.rubygems.org/2017/
 
 * Semula dipublikasikan pada 29-08-2017 12:00:00 UTC
 * Penambahan angka CVE pada 31-08-2017 2:00:00 UTC
+* Sebut memperbarui Ruby pada 15-09-2017 12:00:00 UTC
