@@ -13,7 +13,7 @@ A versão 2.4.0-preview2 do Ruby é a segunda *preview* do Ruby 2.4.0,
 lançada com o fim de obter *feedback* da comunidade.
 Poderão
 [enviar *feedback*](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
-uma vez que ainda podem influenciar das funcionalidades.
+uma vez que ainda podem influenciar as funcionalidades.
 
 ## [Unificar as classes Fixnum e Bignum na classe Integer](https://bugs.ruby-lang.org/issues/12005)
 
@@ -23,7 +23,7 @@ o Ruby teve duas classes Integer visíveis: Fixnum and Bignum.
 O Ruby 2.4 unifica-as na classe Integer.
 Todas as extensões C que utilizam a classe Fixnum ou Bignum necessitam de ser corrigidas.
 
-Consultar também [o ticket](https://bugs.ruby-lang.org/issues/12005) e os [slides do akr](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
+Consulte também [o ticket](https://bugs.ruby-lang.org/issues/12005) e os [slides do akr](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
 
 ## [String suporta Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
 
@@ -36,12 +36,12 @@ O Ruby 2.4 contém, também, as seguintes melhorias na performance incluindo mel
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` e `[x, y].min` estão optimizados para evitar a criação de um array temporário em certas condições.
+`[x, y].max` e `[x, y].min` estão otimizados para evitar a criação de um array temporário em certas condições.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
 Adicionado `Regexp#match?`, que executa um *regexp match* sem a criação
-de um objecto de referência e alterando `$~` para reduzir a alocação de objectos.
+de um objeto de referência e alterando `$~` para reduzir a alocação de objetos.
 
 ### Outras melhorias de desempenho
 
@@ -56,11 +56,11 @@ Utilizando `report_on_exception = true`,
 poderá verificar se uma *thread* terminou devido a uma exceção não tratada.
 
 Enviem-nos *feedback* sobre qual deverá ser o valor pré-definido para `report_on_exception`
-e sobre report-on-GC, que mostra um relatório quando uma *thread* é *garbage collected* sem se juntar.
+e sobre _report-on-GC_, que mostra um relatório quando uma *thread* é *garbage collected* sem se juntar.
 
 ### [Deteção de *deadlocks* em *threads* mostra todas as *threads* com o seu *backtrace* e dependencias](https://bugs.ruby-lang.org/issues/8214)
 
-O Ruby tem deteção de *deadlocks* de *threads* em espera, mas relatório não
+O Ruby tem deteção de *deadlocks* de *threads* em espera, mas o relatório não
 inclui informação suficiente para depuração.
 A deteção de *deadlocks* no Ruby 2.4 mostra *threads* com o seu *backtrace* e *threads* dependentes.
 
@@ -72,7 +72,7 @@ Experimente e desfrute a programação com o Ruby 2.4.0-preview3 e
 * Suporta OpenSSL 1.1.0
 * ext/tk foi removido de stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 
-Consultar as [Notícias](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)
+Consulte as [Notícias](https://github.com/ruby/ruby/blob/v2_4_0_preview3/NEWS)
 e o [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview3/ChangeLog)
 para detalhes.
 
