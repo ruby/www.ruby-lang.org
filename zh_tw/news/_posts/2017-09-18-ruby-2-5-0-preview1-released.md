@@ -41,7 +41,7 @@ lang: zh_tw
 
 請參閱[新聞](https://github.com/ruby/ruby/blob/v2_5_0_preview1/NEWS)或是提交歷史來進一步了解。
 
-以上變化自 Ruby 2.4.0 以來，計有 [6162 個文件變更，新增代碼 28537 行，移除了 339582 行](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)！
+以上變化自 Ruby 2.4.0 以來，計有 [6162 個文件變更，新增代碼 339744 行，移除了 28699 行](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)！
 
 享受 Ruby 2.5.0-preview1 吧！
 
