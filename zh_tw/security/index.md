@@ -9,7 +9,13 @@ lang: zh_tw
 
 ## 回報安全風險
 
-如發現安全風險，請寫信至 security@ruby-lang.org 回報（[the PGP public key](/security.asc)），這是保密的郵件群組。回報的風險會在修正之後公開。
+關於 Ruby 的安全問題可以通過 [HackerOne 賞金項目](https://hackerone.com/ruby) 進行回報。請確保在提交安全風險前仔細閱讀我們項目頁上的詳細訊息。回報的風險會在修正之後公開。
+
+如發現有關於 Ruby 官方網站的問題，請通過 [GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new) 進行提交。
+
+如你找到某個特定的 Ruby gem 的問題，請參考 [RubyGems.org 介紹頁面](http://guides.rubygems.org/security/#reporting-security-vulnerabilities) 上的指南進行提交。
+
+如果你需要直接聯繫我們的安全團隊，而不是通過 HackerOne 網站的話，請發送電子郵件到 security@ruby-lang.org（[the PGP public key](/security.asc)）。這是保密的郵件群組。回報的風險會在修正之後公開。
 
 ## 已知風險
 
