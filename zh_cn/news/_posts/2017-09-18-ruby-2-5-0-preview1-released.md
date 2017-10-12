@@ -33,7 +33,7 @@ Ruby 2.5.0-preview1 是迈向 Ruby 2.5.0 的第一个预览版，引入了一些
 
 详情参见 [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_preview1/NEWS) 或提交日志。
 
-与 Ruby 2.4.0 相比，这一版[修改了 6162 个文件，新增 28537 处，删除 339582 处](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)。
+与 Ruby 2.4.0 相比，这一版[修改了 6162 个文件，新增 339744 处，删除 28699 处](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)。
 
 享受 Ruby 2.5.0-preview1 吧！
 

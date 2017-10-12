@@ -47,7 +47,7 @@ Siehe die
 die Commit-Logs für weitere Informationen.
 
 Mit diesen Änderungen wurden
-[6162 Dateien geändert, 28537 Einfügungen(+), 339582 Löschungen(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)
+[6162 Dateien geändert, 339744 Einfügungen(+), 28699 Löschungen(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)
 seit Ruby 2.4.0!
 
 Viel Spaß mit Ruby 2.5.0-preview1!
