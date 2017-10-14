@@ -10,6 +10,8 @@ rescue LoadError => e
   exit -1
 end
 
+require 'pathname'
+
 HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 CONFIG = "_config.yml"
@@ -122,11 +124,15 @@ namespace :check do
     date ? date.getutc.strftime('%Y/%m/%d') : nil
   end
 
+  def glob(pattern)
+    Pathname.glob(pattern).reject {|path| path.expand_path.to_s =~ %r{\A#{Regexp.escape(Bundler.bundle_path.to_s)}/} }.map(&:to_s)
+  end
+
   desc "Check for missing author variables in news posts"
   task :author do
     print "Checking for missing author variables in news posts..."
 
-    md_files = Dir["**/_posts/*.md"]
+    md_files = glob("**/_posts/*.md")
 
     author_missing = md_files.select {|fn| !author_variable_defined?(fn) }
     if author_missing.empty?
@@ -143,8 +149,8 @@ namespace :check do
   task :lang do
     print "Checking for missing lang variables in markdown files..."
 
-    md_files = Dir["**/*.md"]
-    skip_patterns = [/README.md/, %r{[^/]*/examples/}]
+    md_files = glob("**/*.md")
+    skip_patterns = [/README.md/, %r{[^/]*/examples/}, %r{\A_includes/}]
 
     skip_patterns.each do |pattern|
       md_files.delete_if {|fn| fn =~ pattern }
@@ -165,7 +171,7 @@ namespace :check do
   task :pubdates do
     print "Checking for date mismatch in posts (filename / YAML front matter)..."
 
-    posts = Dir["**/_posts/*.md"]
+    posts = glob("**/_posts/*.md")
 
     date_mismatch = []
     posts.each do |post|
