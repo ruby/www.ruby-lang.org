@@ -134,6 +134,8 @@ namespace :check do
     else
       puts "\nNo author variable defined in:"
       puts author_missing.map {|s| "  #{s}\n"}.join
+
+      raise
     end
   end
 
@@ -154,6 +156,8 @@ namespace :check do
     else
       puts "\nNo lang variable defined in:"
       puts lang_missing.map {|s| "  #{s}\n"}.join
+
+      raise
     end
   end
 
@@ -176,6 +180,8 @@ namespace :check do
     else
       puts "\nDate mismatch in:"
       puts date_mismatch.map {|s| "  #{s}\n"}.join
+
+      raise
     end
   end
 
@@ -213,6 +219,8 @@ namespace :check do
           else
             puts "New Broken Link: #{origin} -> #{dest}"
           end
+
+          raise
         end
       end
     end
