@@ -242,3 +242,4 @@ end
 
 desc "Run some tests (lang, author, pubdates)"
 task :check => ['check:lang', 'check:author', 'check:pubdates']
+task :ci => [:test, :build]
