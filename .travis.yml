@@ -3,6 +3,7 @@ sudo: false
 rvm: 2.4.2
 cache:
   bundler: true
+script: bundle exec rake ci
 # Notifications, used by our Gitter channel.
 notifications:
   webhooks:
