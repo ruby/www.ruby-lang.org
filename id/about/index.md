@@ -193,6 +193,36 @@ Ruby kaya fitur, antara lain sebagai berikut:
   tetapi juga berjalan di banyak tipe UNIX, Mac OS X,
   Windows, DOS, BeOS, OS/2, dan lain-lain.
 
+### Implementasi Lain dari Ruby
+
+Ruby, sebagai sebuah bahasa, memiliki beberapa implementasi yang berbeda.
+Halaman ini telah mendiskusikan referensi implementasi, di dalam
+komunitas sering disebut sebagai **MRI** (“Matz’s Ruby Interpreter”)
+atau **CRuby** (karena ditulis dalam bahasa C), tetapi ada juga bahasa lainnya.
+Mereka sangat bermanfaat pada situasi tertentu, menyediakan integrasi
+dengan bahasa atau lingkungan lainnya, atau memiliki fitur khusus
+yang tidak dimiliki oleh MRI.
+
+Berikut ini daftarnya:
+
+* [JRuby][jruby] adalah Ruby yang berjalan di atas JVM (Java Virtual Machine),
+  memanfaatkan optimisasi JIT *compiler*-nya JVM, *garbage collector*,
+  *concurrent thread*, *tool ecosystem*, dan kumpulan pustaka yang luas.
+* [Rubinius][rubinius] adalah ‘Ruby written in Ruby’. Dibuat di atas LLVM,
+  Rubinius memakai sebuah *virtual machine* yang bagus yang bahasa lainnya
+  sedang dibuat di atasnya, juga.
+* [MacRuby][macruby] adalah Ruby yang sangat terintegrasi erat dengan pustaka
+  Apple Cocoa untuk Mac OS X, memperbolehkan Anda untuk memprogram aplikasi
+  *desktop* dengan mudah.
+* [mruby][mruby] adalah sebuah implementasi *lightweight* dari bahasa Ruby
+  yang dapat dihubungkan dan ditanamkan dengan sebuah aplikasi.
+* [IronRuby][ironruby] adalah sebuah implementasi “tightly integrated with
+  the .NET Framework”.
+* [MagLev][maglev] adalah “a fast, stable, Ruby implementation with integrated
+  object persistence and distributed shared cache”.
+* [Cardinal][cardinal] adalah “Ruby compiler for [Parrot][parrot] Virtual
+  Machine” (Perl 6).
+
 ### Referensi
 
 <sup>1</sup> Matz, berbicara di milis Ruby-Talk, [12 Mei 2000][blade].
@@ -216,3 +246,11 @@ di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [sigil]: http://en.wikipedia.org/wiki/Sigil_%28computer_programming%29
+[jruby]: http://jruby.org
+[rubinius]: http://rubini.us
+[macruby]: http://www.macruby.org
+[mruby]: http://www.mruby.org/
+[ironruby]: http://www.ironruby.net
+[maglev]: http://ruby.gemstone.com
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
