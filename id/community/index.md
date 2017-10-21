@@ -4,27 +4,25 @@ title: "Komunitas"
 lang: id
 ---
 
-Satu di antara faktor-faktor penting untuk sebuah bahasa pemrograman
-adalah bantuan dari komunitas di sekitar bahasa itu dalam perkembangan
-para anggotanya. Ruby mempunyai komunitas yang aktif, ramah dan
-berkembang untuk semua orang dari segala tingkatan, dari pemula sampai
-pakar.
+Komunitas yang menumbuhkan sebuah bahasa pemrograman merupakan salah satu
+kekuatan yang paling penting darinya. Ruby memiliki semangat dan komunitas
+yang bersahabat untuk semua orang dari segala tingkatan.
 {: .summary}
 
 Jika Anda tertarik untuk berpartisipasi, berikut adalah beberapa tempat
 untuk memulai petualangan Anda:
 
 [Kelompok Pengguna Ruby](user-groups/)
-: Kelompok Pengguna Ruby di sekitar tempat Anda adalah tempat yang baik
+: Kelompok Pengguna Ruby di sekitar Anda adalah tempat yang baik
   untuk bertemu dengan programmer Ruby lain. Kelompok-kelompok ini
   mempunyai otonomi sendiri-sendiri dan biasanya mempunyai pertemuan
-  bulanan, milis, web situs, dan beberapa grup juga mengadakan codefest
-  di mana beberapa anggota berkumpul untuk *coding* bersama-sama.
+  bulanan, milis, web situs, dan jika Anda beruntung, sering
+  diadakan *codefest*.
 
 [Milis Ruby dan Newsgroups](mailing-lists/)
-: Ada bermacam-macam milis untuk macam-macam topik di beberapa bahasa.
-  Para anggota milis tersebut akan dengan senang menjawab
-  pertanyaan-pertanyaan anda.
+: Ruby memiliki bermacam-macam milis untuk berbagai topik dan tersedia
+  di beberapa bahasa. Jika Anda memiliki pertanyaan terkait Ruby,
+  menanyakannya di milis adalah cara yang bagus untuk mendapatkan jawaban.
 
 **Ruby di IRC**
 : Anda bisa berbincang-bincang (*chatting*) dengan pengguna Ruby lainnya
@@ -34,21 +32,19 @@ untuk memulai petualangan Anda:
   [#ruby-id](irc://irc.freenode.net/ruby-id) untuk diskusi lokal.
 
 [Ruby Core](ruby-core/)
-: Selagi Ruby 2.0 sedang dikembangkan, sekarang adalah waktu yang tepat
-  untuk mengikuti perkembangan Ruby. Jika berminat untuk membantu,
-  mulailah dari sini
+: Sekarang adalah waktu yang tepat untuk mengikuti perkembangan Ruby.
+  Jika berminat untuk membantu, mulailah dari sini.
 
 [Blog tentang Ruby](weblogs/)
-: Hampir semua hal yang terjadi di dunia Ruby dikupas tuntas oleh para
-  blogger yang berdedikasi tinggi. Anda bisa memulai petualangan anda di
-  dunia Ruby blogging dari daftar ini.
+: Sangat jarang yang terjadi pada komunitas Ruby tidak dibicarakan dalam
+  *blog*. Kami memiliki sebuah daftar saran yang bagus untuk Anda agar
+  *up to date*.
 
 [Ruby Conferences](conferences/)
-: Semakin banyak pengguna Ruby di sekeliling dunia hadir di berbagai
-  konferensi Ruby. Mereka berkumpul dengan pengguna lainnya dan
-  berbagi-bagi pengalaman, cerita, dan membahas masa depan Ruby.
-  Pendatang baru di komunitas Ruby janganlah sungkan, Anda dijamin akan
-  disambut dengan ramah.
+: *Programmer* Ruby di seluruh dunia sedang terlibat dalam konferensi-
+  konferensi, di mana mereka bersama-sama berbagi laporan tentang
+  *work-in-progress*, diskusi masa depan Ruby, dan menyambut pendatang
+  baru di komunitas Ruby.
 
 [Komunitas Pengguna Ruby Indonesia][2]
 : Komunitas Pengguna Ruby Indonesia (mayoritas diikuti oleh orang
