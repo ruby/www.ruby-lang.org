@@ -31,7 +31,7 @@ of getting Ruby.
   a feeling of the language.
 
 [Official FAQ](/en/documentation/faq/)
-: The offical frequently asked questions.
+: The official frequently asked questions.
 
 [Ruby Koans][2]
 : The Koans walk you along the path to enlightenment in order to learn
