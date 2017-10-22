@@ -19,32 +19,32 @@ lang: ko
 
 * 최상위 상수 검색 기능을 삭제했습니다. [기능 #11547]
 
-* do/end 블록 안에 rescue/else/ensure 사용 가능합니다. [기능 #12906]
+* do/end 블록 안에 rescue/else/ensure 사용할 수 있습니다. [기능 #12906]
 
 * yield\_self [기능 #6721]
 
 ## 2.4 이후 주목할 만한 변경
 
-* Onigmo를 6.1.1로 병합.
-  [absent operator](https://github.com/k-takata/Onigmo/issues/87) 추가.
-  루비 2.4.1은 이미 이 사항을 포함하였음.
-* 번들러를 표준 라이브러리로 병합.
-* rubygems-2.6.13 병합.
-* rdoc-6.0.0.beta2 병합.
-  IRB 구문 분석기를 Ripper로 교체.
+* Onigmo를 6.1.1로 병합했습니다.
+  [absent operator](https://github.com/k-takata/Onigmo/issues/87)를 추가했습니다.
+  루비 2.4.1은 이미 이 사항을 포함하였습니다.
+* 번들러를 표준 라이브러리로 병합했습니다.
+* rubygems-2.6.13 병합했습니다.
+* rdoc-6.0.0.beta2 병합했습니다.
+  IRB 구문 분석기를 Ripper로 교체,
   문서 생성 속도가 크게 향상되었습니다.
   https://github.com/ruby/rdoc/pull/512
   아래 사항도 포함합니다.
-  * 지난 수년간의 많은 버그를 보완
-  * 지난 몇 년간의 루비 새로운 구문을 지원
-* 유니코드 지원 버전을 10.0.0으로 업데이트.
+  * 지난 수년간의 많은 버그를 보완했습니다.
+  * 지난 몇 년간의 루비 새로운 구문을 지원합니다.
+* 유니코드 지원 버전을 10.0.0으로 업데이트했습니다.
 
 자세한 내용은 [뉴스](https://github.com/ruby/ruby/blob/v2_5_0_preview1/NEWS)와
-커밋 로그를 참고.
+커밋 로그를 참고하세요.
 
 이러한 변경사항에 따라,
 루비 2.4.0 이후 [파일 6162개 수정, 339744줄 추가(+), 28699줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)
-하였음!
+하였습니다!
 
 루비 2.5.0-preview1을 즐겨주시기 바랍니다!
 
