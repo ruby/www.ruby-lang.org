@@ -8,12 +8,14 @@ As most programming languages, Ruby leverages a wide set of third-party
 libraries.
 {: .summary}
 
-Most of them are released in the form of a **gem**. [**RubyGems**][1] is
-a Ruby packaging system designed to facilitate the creation, sharing and
+Nearly all of these libraries are released in the form of a **gem**, a packaged
+library or application that can be installed with a tool called [**RubyGems**][1].
+
+RubyGems is a Ruby packaging system designed to facilitate the creation, sharing and
 installation of libraries (in some ways, it is a distribution packaging
 system similar to, say, `apt-get`, but targeted at Ruby software).
-Since version 1.9 Ruby comes with RubyGems by default, while previous
-Ruby versions require to [install it by hand][2].
+Ruby comes with RubyGems by default since version 1.9, previous
+Ruby versions require RubyGems to be [installed by hand][2].
 
 Some other libraries are released as archived (.zip or .tar.gz)
 directories of **source code**. Installation processes may vary,
@@ -24,11 +26,12 @@ use.
 
 ### Finding libraries
 
-The main place where libraries are hosted is [**RubyGems.org**][1],
-providing Ruby libs as gems. You may browse the website directly, or use
+The main place where libraries are hosted is [**RubyGems.org**][1], a public
+repository of gems that can be searched and installed onto your machine.
+You may browse and search for gems using [RubyGems.org][1], or use
 the `gem` command.
 
-Using `gem search -r`, you can inspect RubyGems' repository. For
+Using `gem search -r`, you can search RubyGems' repository. For
 instance, `gem search -r rails` will return a list of Rails-related
 gems. With the `--local` (`-l`) option, you would perform a local search
 through your installed gems. To install a gem, use `gem install [gem]`.
@@ -45,9 +48,10 @@ published as a fully-fledged gem to RubyGems.org.
 [**The Ruby Toolbox**][6] is a project that makes it easy to explore open
 source Ruby projects. It has categories for various common development tasks,
 collects a lot of information about the projects like release and commit
-activity or dependencies, and rates projects based on their popularity on
-RubyGems.org and GitHub. The search makes it easy to find what you are
-looking for.
+activity or dependencies and rates projects based on their popularity on
+RubyGems.org and GitHub. This makes it easy to find a gem which solves
+a particular problem such as web frameworks, documentation tools and
+code quality libraries.
 
 ### A few more words about RubyGems
 
@@ -77,13 +81,13 @@ among your installed gems.
 #### Installing a gem
 
 Once you know which gem you would like to **install**, for instance the
-popular Rails:
+popular Ruby on Rails framework:
 
 {% highlight sh %}
 $ gem install rails
 {% endhighlight %}
 
-You can even install just a certain version of the library, using the
+You can even install just a specific version of the library, using the
 `--version` / `-v` flag:
 
 {% highlight sh %}
