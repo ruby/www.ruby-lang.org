@@ -135,6 +135,7 @@ $ brew install ruby
 
 This should install the latest Ruby version.
 
+
 ### FreeBSD
 {: #freebsd}
 
@@ -151,6 +152,7 @@ to customize the build configuration options.
 
 More information about Ruby and its surrounding ecosystem on FreeBSD
 can be found on the [FreeBSD Ruby Project website][freebsd-ruby].
+
 
 ### Ruby on Solaris and OpenIndiana
 {: #solaris}
