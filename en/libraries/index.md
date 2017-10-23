@@ -36,9 +36,8 @@ Browsing installed gems is done with `gem list`. For more
 information about the `gem` command, see below or head to
 [RubyGems’ docs][3].
 
-There are other sources of libraries though. [RubyForge][4] used to be a
-popular home for Ruby libraries, but last years saw the rise of
-[**GitHub**][5] as one of the main ruby-related content repository.
+There are other sources of libraries though.
+[**GitHub**][5] is the main Ruby-related content repository.
 Most often a gem source code will be hosted on GitHub while being
 published as a fully-fledged gem to RubyGems.org.
 
@@ -126,7 +125,6 @@ application’s dependencies and may be used along RubyGems.
 [1]: https://rubygems.org/
 [2]: https://rubygems.org/pages/download/
 [3]: http://guides.rubygems.org/
-[4]: http://rubyforge.org/
 [5]: https://github.com/
 [6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/
