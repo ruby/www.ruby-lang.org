@@ -8,12 +8,13 @@ As most programming languages, Ruby leverages a wide set of third-party
 libraries.
 {: .summary}
 
-Nearly all of these libraries are released in the form of a **gem**, a packaged
-library or application that can be installed with a tool called [**RubyGems**][1].
+Nearly all of these libraries are released in the form of a **gem**,
+a packaged library or application that can be installed with a tool
+called [**RubyGems**][1].
 
-RubyGems is a Ruby packaging system designed to facilitate the creation, sharing and
-installation of libraries (in some ways, it is a distribution packaging
-system similar to, say, `apt-get`, but targeted at Ruby software).
+RubyGems is a Ruby packaging system designed to facilitate the creation,
+sharing and installation of libraries (in some ways, it is a distribution
+packaging system similar to, say, `apt-get`, but targeted at Ruby software).
 Ruby comes with RubyGems by default since version 1.9, previous
 Ruby versions require RubyGems to be [installed by hand][2].
 
@@ -28,8 +29,8 @@ use.
 
 The main place where libraries are hosted is [**RubyGems.org**][1], a public
 repository of gems that can be searched and installed onto your machine.
-You may browse and search for gems using [RubyGems.org][1], or use
-the `gem` command.
+You may browse and search for gems using the RubyGems website,
+or use the `gem` command.
 
 Using `gem search -r`, you can search RubyGems' repository. For
 instance, `gem search -r rails` will return a list of Rails-related
