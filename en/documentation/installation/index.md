@@ -34,7 +34,7 @@ for different needs and platforms.
   * [Arch Linux](#pacman)
   * [OS X](#homebrew)
   * [FreeBSD](#freebsd)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
   * [ruby-build](#ruby-build)
@@ -153,14 +153,8 @@ More information about Ruby and its surrounding ecosystem on FreeBSD
 can be found on the [FreeBSD Ruby Project website][freebsd-ruby].
 
 
-### Ruby on Solaris and OpenIndiana
-{: #solaris}
-
-Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
-[Sunfreeware][sunfreeware] and Ruby 1.8.7 is available at
-[Blastwave][blastwave].
-Ruby 1.9.2p0 is also available at [Sunfreeware][sunfreeware],
-but this is outdated.
+### Ruby on OpenIndiana
+{: #openindiana}
 
 To install Ruby on [OpenIndiana][openindiana], please use the
 Image Packaging System (IPS) client.
@@ -307,8 +301,6 @@ though, because the installed Ruby won't be managed by any tools.
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
