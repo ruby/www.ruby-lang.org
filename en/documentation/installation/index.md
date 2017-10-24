@@ -163,12 +163,12 @@ Ruby 1.9.2p0 is also available at [Sunfreeware][sunfreeware],
 but this is outdated.
 
 To install Ruby on [OpenIndiana][openindiana], please use the
-[Image Packaging System (IPS)][opensolaris-pkg] client.
-This will install the latest Ruby binaries and RubyGems directly
-from the OpenSolaris network repository for Ruby 1.9. It’s easy:
+Image Packaging System (IPS) client.
+This will install the Ruby binaries and RubyGems directly
+from the OpenIndiana repositories. It’s easy:
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install runtime/ruby
 {% endhighlight %}
 
 However, the third-party tools might be a good way to obtain the
@@ -310,7 +310,6 @@ though, because the installed Ruby won't be managed by any tools.
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
 [freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
