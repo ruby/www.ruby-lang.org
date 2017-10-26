@@ -13,7 +13,7 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 各環境にRubyをインストールする方法は、 [ダウンロード](/ja/downloads) 及び [インストールガイド](/ja/installation) で解説しています。
 
 また、現在有志の手により[リファレンスマニュアルの整備][rurema-wiki]が進行中です。
-作業途中の成果物を[&lt;URL:https://docs.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
+成果物を[&lt;URL:https://docs.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
 
 * [Rubyリファレンスマニュアル Ruby 1.8.7版][man-187]
 * [Rubyリファレンスマニュアル Ruby 1.9.3版][man-193]
