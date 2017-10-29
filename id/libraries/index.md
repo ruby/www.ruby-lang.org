@@ -37,9 +37,8 @@ gunakan `gem install [gem]`. Menelusuri gem yang telah dipasang dilakukan
 dengan `gem list`. Untuk informasi lebih jelas tentang perintah `gem`,
 lihat di bawah atau kunjungi [dokumentasi RubyGems][3].
 
-Ada sumber lain dari pustaka. [RubyForge][4] dulu populer sebagai tempat
-sumber pustaka Ruby, tapi beberapa tahun terakhir [**GitHub**][5] bangkit
-sebagai salah satu repositori utama untuk konten terkait dengan Ruby.
+Ada sumber lain dari pustaka.
+[**GitHub**][5] sebagai repositori utama untuk konten terkait dengan Ruby.
 Biasanya, kode sumber gem akan di-*host* di GitHub, dan dipublikasikan sebagai
 gem lengkap di RubyGems.org.
 
@@ -129,7 +128,6 @@ Anda mengelola *dependency* dan aplikasi dapat digunakan bersama RubyGems.
 [1]: https://rubygems.org/
 [2]: https://rubygems.org/pages/download/
 [3]: http://guides.rubygems.org/
-[4]: http://rubyforge.org/
 [5]: https://github.com/
 [6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/
