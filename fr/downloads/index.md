@@ -4,6 +4,8 @@ title: "Télécharger Ruby"
 lang: fr
 ---
 
+{% include out-of-date.html %}
+
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
 version stable actuelle est la {{ site.data.downloads.stable[0].version }}.
 N’oubliez pas de consulter la [licence Ruby][license].
@@ -39,16 +41,7 @@ envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
 * **Dernière version stable :**
-  [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[0].sha256.gz }}
-
-* **Version stable précédente :**
-  [Ruby {{ site.data.downloads.stable[1].version }}]({{ site.data.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[1].sha256.gz }}
-
-* **Anciennes versions stables:**
-  [Ruby {{ site.data.downloads.stable[2].version }}]({{ site.data.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[2].sha256.gz }}
+  Ruby {{ site.data.downloads.stable[0].version }}
 
 * **Snapshots :**
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):

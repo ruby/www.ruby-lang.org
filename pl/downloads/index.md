@@ -4,6 +4,8 @@ title: "Pobierz Rubiego"
 lang: pl
 ---
 
+{% include out-of-date.html %}
+
 Tutaj znajdziesz najnowsze dystrybucje języka Ruby. Aktualna stabilna
 wersja to {{ site.data.downloads.stable[0].version }}. Pamiętaj aby przeczytać
 [licencję Rubiego][license].
@@ -37,16 +39,7 @@ budowania Rubiego ze źródeł. Jeśli masz problem z kompilacją Rubiego rozwa�
 skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
 
 * **Obecny stabilny:**
-  [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[0].sha256.gz }}
-
-* **Poprzedni stabilny:**
-  [Ruby {{ site.data.downloads.stable[1].version }}]({{ site.data.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[1].sha256.gz }}
-
-* **Stary stabilny:**
-  [Ruby {{ site.data.downloads.stable[2].version }}]({{ site.data.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[2].sha256.gz }}
+  Ruby {{ site.data.downloads.stable[0].version }}
 
 * **Migawki:**
   * [Stabilna migawka]({{ site.data.downloads.stable_snapshot.url.gz }}):

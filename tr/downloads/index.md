@@ -17,8 +17,7 @@ Kaynak kodundan kurmak, platformunuza yeterince hakimseniz ve
 ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
-* [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})
-  (sha256:&nbsp;{{ site.data.downloads.stable[0].sha256.gz }})
+* Ruby {{ site.data.downloads.stable[0].version }}
   Kararlı Versiyon (*tavsiye edilir*)
 * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }})
   Bu son kararlı SVN’nin tar gzip hali. Son kararlı

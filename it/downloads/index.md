@@ -4,6 +4,8 @@ title: "Scarica Ruby"
 lang: it
 ---
 
+{% include out-of-date.html %}
+
 Tramite questa pagina è possibile scaricare le distribuzioni di Ruby più
 recenti nel tuo formato preferito. La versione stabile corrente è la
 {{ site.data.downloads.stable[0].version }}. Assicurati di aver letto
@@ -41,16 +43,7 @@ degli strumenti di terze parti presenti nella sezione successiva. Potrebbero
 esserti di aiuto.
 
 * **Stabile Corrente:**
-  [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[0].sha256.gz }}
-
-* **Stabile Precedente:**
-  [Ruby {{ site.data.downloads.stable[1].version }}]({{ site.data.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[1].sha256.gz }}
-
-* **Stabile Vecchia:**
-  [Ruby {{ site.data.downloads.stable[2].version }}]({{ site.data.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[2].sha256.gz }}
+  Ruby {{ site.data.downloads.stable[0].version }}
 
 * **Snapshots:**
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
