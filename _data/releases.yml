@@ -1,3 +1,25 @@
+# This file provides details on the various Ruby releases.
+#
+# For a new release, add an entry of the following form:
+#
+# - version: Ruby version (MAJOR.MINOR.TEENY since 2.1.0)
+#   date: release date (YYYY-MM-DD)
+#   post: /en/news/YYYY/MM/DD/ruby-VERSION-released/
+#   url:
+#     bz2: download URL
+#     gz:  ...
+#     xz:  ...
+#     zip: ...
+#   sha256:
+#     bz2: checksum
+#     gz:  ...
+#     xz:  ...
+#     zip: ...
+#
+# In order to get the release listed on the downloads page,
+# you also need to add an entry to `_data/downloads.yml'.
+
+
 # 2.5 series
 
 - version: 2.5.0-preview1

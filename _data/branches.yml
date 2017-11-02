@@ -1,7 +1,12 @@
-# name:     branch name (MAJOR.MINOR since 2.1)
-# status:   normal maintenance | security maintenance | eol | preview
-# date:     date of first stable release (YYYY-MM-DD)
-# eol_date: date of EOL (YYYY-MM-DD)
+# This file provides details on the various Ruby branches
+# and their maintenance status.
+#
+# Each entry has the following form:
+#
+# - name:     branch name (MAJOR.MINOR since 2.1)
+#   status:   normal maintenance | security maintenance | eol | preview
+#   date:     date of first stable release (YYYY-MM-DD)
+#   eol_date: date of EOL (YYYY-MM-DD)
 
 - name: 2.4
   status: normal maintenance

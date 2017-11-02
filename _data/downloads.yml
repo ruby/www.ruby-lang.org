@@ -1,3 +1,7 @@
+# This file specifies the Ruby releases
+# that will be listed on the downloads page.
+
+# optional
 preview:
 
 stable:
@@ -5,10 +9,12 @@ stable:
   - 2.4.2
   - 2.3.5
 
+# optional
 security_maintenance:
 
   - 2.2.8
 
+# optional
 eol:
 
   - 2.1.10
