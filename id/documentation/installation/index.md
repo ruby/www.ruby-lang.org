@@ -122,8 +122,7 @@ Ini semestinya memasang versi Ruby terbaru.
 ### Homebrew (OS X)
 {: #homebrew}
 
-Pada OS X Yosemite dan Mavericks, Ruby 2.0 sudah tersedia.
-OS X Mountain Lion, Lion, dan Snow Leopard terisi dengan Ruby 1.8.7.
+Ruby 2.0 sudah dimasukkan pada macOS (High) Sierra dan OS X El Capitan.
 
 Banyak pengguna OS X menggunakan [Homebrew][homebrew] sebagai *package manager*.
 Hal ini sangat mudah untuk mendapatkan versi terbaru menggunakan Homebrew:
