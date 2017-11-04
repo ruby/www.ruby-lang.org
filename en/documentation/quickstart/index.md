@@ -133,7 +133,7 @@ irb(main):007:0> a = 3 ** 2
 => 9
 irb(main):008:0> b = 4 ** 2
 => 16
-irb(main):009:0> Math.sqrt(a+b)
+irb(main):009:0> c = Math.sqrt(a+b)
 => 5.0
 {% endhighlight %}
 
