@@ -33,6 +33,7 @@ sesuai kebutuhan dan *platform* tertentu.
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [OS X](#homebrew)
+  * [FreeBSD](#freebsd)
   * [Solaris, OpenIndiana](#solaris)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
@@ -133,6 +134,24 @@ $ brew install ruby
 {% endhighlight %}
 
 Ini semestinya memasang versi Ruby terbaru.
+
+
+### FreeBSD
+{: #freebsd}
+
+FreeBSD menawarkan metode *pre-packaged* dan *source-based* untuk memasang Ruby.
+*Prebuilt package* dapat dipasang melalui *pkg tool*:
+
+{% highlight sh %}
+$ pkg install ruby
+{% endhighlight %}
+
+Metode *source-based* dapat digunakan untuk memasang Ruby menggunakan
+[Ports Collection][freebsd-ports-collection]. Hal ini sangat berguna jika Anda
+ingin menyesuaikan konfigurasi.
+
+Informasi lebih lanjut terkait Ruby dan ekosistem sekelilingnya pada FreeBSD
+dapat ditemukan di [FreeBSD Ruby Project website][freebsd-ruby].
 
 
 ### Ruby di Solaris dan OpenIndiana
@@ -294,4 +313,6 @@ karena Ruby yang terpasang tidak akan diatur oleh kakas apapun.
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
