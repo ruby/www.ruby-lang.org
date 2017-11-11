@@ -5,7 +5,7 @@ lang: bg
 ---
 
 Това е мястото, от където можете да свалите последната версия на Ruby.
-Наличната стабилна версия е {{ site.data.downloads.stable[0].version }}.
+Наличната стабилна версия е {{ site.data.downloads.stable[0] }}.
 Препоръчително е да прочете [Лиценз на Ruby][license].
 {: .summary}
 
@@ -37,18 +37,18 @@ Ruby може да бъде инсталиран и от изходен код �
 може да използвате някое от приложенията за управление на Ruby версии,
 споменати по-горе. Те могат да ви помогнат.
 
-* **Стабилни версии:**{% for release in site.data.downloads.stable %}
+* **Стабилни версии:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **Получават security ъпдейти (скоро ще бъдат преустановени!):**{% for release in site.data.downloads.security_maintenance %}
+* **Получават security ъпдейти (скоро ще бъдат преустановени!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Преустановена поддръжка (EOL):**{% for release in site.data.downloads.eol %}
+* **Преустановена поддръжка (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

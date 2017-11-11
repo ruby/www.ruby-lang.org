@@ -5,7 +5,7 @@ lang: ja
 ---
 
 ここでは、Rubyインタプリタの代表的な入手方法を説明します。
-現在の安定版は {{ site.data.downloads.stable[0].version }}です。
+現在の安定版は {{ site.data.downloads.stable[0] }}です。
 [Ruby’sライセンス][license]を必ずお読み下さい。
 {: .summary}
 
@@ -28,18 +28,18 @@ lang: ja
 
 もしコンパイルで問題がある場合、[インストールガイド][installation] ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
 
-* **安定版:**{% for release in site.data.downloads.stable %}
+* **安定版:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **セキュリティ修正のみの安定版 (まもなく EOL):**{% for release in site.data.downloads.security_maintenance %}
+* **セキュリティ修正のみの安定版 (まもなく EOL):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **メンテナンス終了 (EOL):**{% for release in site.data.downloads.eol %}
+* **メンテナンス終了 (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

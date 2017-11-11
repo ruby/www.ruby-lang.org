@@ -6,7 +6,7 @@ lang: vi
 
 Bạn có thể lấy về bản phân phối Ruby mới nhất cho hầu hết các nền tảng
 tại đây.
-Bản ổn định mới nhất là {{ site.data.downloads.stable[0].version }}.
+Bản ổn định mới nhất là {{ site.data.downloads.stable[0] }}.
 Xin tham khảo [giấy phép][license] trước khi dùng.
 {: .summary}
 
@@ -35,18 +35,18 @@ Xem trang [Cài đặt][installation] để biết thêm chi tiết cách biên 
 Ruby từ nguồn. Nếu bạn gặp vấn đề biên dịch Ruby, xin hãy xem xét sử
 dụng một trong những công cụ của bên thứ ba đã được đề cập ở trên.
 
-* **Bản ổn định:**{% for release in site.data.downloads.stable %}
+* **Bản ổn định:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **Trong giai đoạn duy trì bảo mật (sẽ sớm EOL!):**{% for release in site.data.downloads.security_maintenance %}
+* **Trong giai đoạn duy trì bảo mật (sẽ sớm EOL!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Không còn duy trì nữa (EOL):**{% for release in site.data.downloads.eol %}
+* **Không còn duy trì nữa (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

@@ -7,7 +7,7 @@ lang: tr
 {% include out-of-date.html %}
 
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
-En son kararlı sürüm {{ site.data.downloads.stable[0].version }},
+En son kararlı sürüm {{ site.data.downloads.stable[0] }},
 lütfen önce [Ruby lisansını][license] okuyun.
 {: .summary}
 
@@ -17,7 +17,7 @@ Kaynak kodundan kurmak, platformunuza yeterince hakimseniz ve
 ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
 hazır paket bulunmazsa da uygun olacaktır.
 
-* Ruby {{ site.data.downloads.stable[0].version }}
+* Ruby {{ site.data.downloads.stable[0] }}
   Kararlı Versiyon (*tavsiye edilir*)
 * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }})
   Bu son kararlı SVN’nin tar gzip hali. Son kararlı

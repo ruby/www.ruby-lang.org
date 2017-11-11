@@ -5,7 +5,7 @@ lang: pt
 ---
 
 Aqui você poderá obter as distribuições mais recentes de Ruby em seus sabores
-preferidos. A versão estável atual é a {{ site.data.downloads.stable[0].version }}.
+preferidos. A versão estável atual é a {{ site.data.downloads.stable[0] }}.
 Por favor certifique-se de ter lido a [Licença do Ruby][license].
 {: .summary}
 
@@ -36,18 +36,18 @@ como compilar Ruby a partir dos fontes. Se você tiver algum problema
 compilando Ruby, considere utilizar uma das ferramentas de terceiros
 mencionadas acima. Elas podem te ajudar.
 
-* **Versões estáveis:**{% for release in site.data.downloads.stable %}
+* **Versões estáveis:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **Com suporte a atualizações de segurança (EOL em breve!):**{% for release in site.data.downloads.security_maintenance %}
+* **Com suporte a atualizações de segurança (EOL em breve!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Sem suporte a atualizações (EOL):**{% for release in site.data.downloads.eol %}
+* **Sem suporte a atualizações (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
