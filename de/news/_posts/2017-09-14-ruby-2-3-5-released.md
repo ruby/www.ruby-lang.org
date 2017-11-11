@@ -11,10 +11,10 @@ Ruby 2.3.5 ist veröffentlicht worden.
 
 Diese Version enthält etwa 70 Fehlerkorrekturen seit der
 Vorgängerversion sowie einige Sicherheitsfixes. Siehe die
-nachfolgenden Links für weitre Informationen.
+nachfolgenden Links für weitere Informationen.
 
 * [CVE-2017-0898: Pufferunterlauf in Kernel.sprintf](/de/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: Sicherheitsproblem durch Einschleusung von Escape-Sequenzen in der Basic-Authenisierung von WEBrick](/de/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-10784: Sicherheitsproblem durch Einschleusung von Escape-Sequenzen in der Basic-Authentisierung von WEBrick](/de/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
 * [CVE-2017-14033: Pufferunterlauf-Problem bei Dekodierung von OpenSSL-ASN1](/de/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
 * [CVE-2017-14064: Sicherheitsproblem mit dem Heap beim Erzeugen von JSON](/de/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
 * [Mehrere Sicherheitslücken in RubyGems](/de/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)

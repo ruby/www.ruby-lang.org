@@ -45,7 +45,7 @@ Patches als Workaround anwenden.
 
 * [für Ruby 2.2.7](https://bugs.ruby-lang.org/attachments/download/6690/rubygems-2613-ruby22.patch)
 * [für Ruby 2.3.4](https://bugs.ruby-lang.org/attachments/download/6691/rubygems-2613-ruby23.patch)
-* f+r Ruby 2.4.1: benötigt 2 Patches. In folgender Reihenfolge nacheinander anwenden:
+* für Ruby 2.4.1: benötigt 2 Patches. In folgender Reihenfolge nacheinander anwenden:
   1. [RubyGems 2.6.11 zu 2.6.12](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
   2. [RubyGems 2.6.12 zu 2.6.13](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
 

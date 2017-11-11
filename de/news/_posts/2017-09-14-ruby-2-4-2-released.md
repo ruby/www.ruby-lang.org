@@ -11,7 +11,7 @@ Wir freuen uns, die Veröffentlichung von Ruby 2.4.2 ankündigen zu
 können. Diese Version behebt einige Sicherheitsprobleme.
 
 * [CVE-2017-0898: Pufferunterlauf in Kernel.sprintf](/de/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: Sicherheitsproblem durch Einschleusung von Escape-Sequenzen in der Basic-Authenisierung von WEBrick](/de/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-10784: Sicherheitsproblem durch Einschleusung von Escape-Sequenzen in der Basic-Authentisierung von WEBrick](/de/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
 * [CVE-2017-14033: Pufferunterlauf-Problem bei Dekodierung von OpenSSL-ASN1](/de/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
 * [CVE-2017-14064: Sicherheitsproblem mit dem Heap beim Erzeugen von JSON](/de/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
 * [Mehrere Sicherheitslücken in RubyGems](/de/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
@@ -64,6 +64,6 @@ Patch unter folgendem Link nutzen:
 
 ## Veröffentlichungskommentar
 
-Viele Commiter, Entwickler und Nutzer, die Fehler gemeldet haben,
+Viele Committer, Entwickler und Nutzer, die Fehler gemeldet haben,
 halfen uns bei der Veröffentlichung dieser Version. Vielen Dank für
 ihre Beiträge.
