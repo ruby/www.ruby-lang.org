@@ -4,6 +4,8 @@
 # optional
 preview:
 
+  - 2.5.0-preview1
+
 stable:
 
   - 2.4.2
