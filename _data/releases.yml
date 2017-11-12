@@ -1,3 +1,25 @@
+# This file provides details on the various Ruby releases.
+#
+# For a new release, add an entry of the following form:
+#
+# - version: Ruby version (MAJOR.MINOR.TEENY since 2.1.0)
+#   date: release date (YYYY-MM-DD)
+#   post: /en/news/YYYY/MM/DD/ruby-VERSION-released/
+#   url:
+#     bz2: download URL
+#     gz:  ...
+#     xz:  ...
+#     zip: ...
+#   sha256:
+#     bz2: checksum
+#     gz:  ...
+#     xz:  ...
+#     zip: ...
+#
+# In order to get the release listed on the downloads page,
+# you also need to add an entry to `_data/downloads.yml'.
+
+
 # 2.5 series
 
 - version: 2.5.0-preview1
@@ -9,6 +31,17 @@
 - version: 2.4.2
   date: 2017-09-14
   post: /en/news/2017/09/14/ruby-2-4-2-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.zip
+  sha256:
+    bz2: 08e72d0cbe870ed1317493600fbbad5995ea3af2d0166585e7ecc85d04cc50dc
+    gz:  93b9e75e00b262bc4def6b26b7ae8717efc252c47154abb7392e54357e6c8c9c
+    xz:  748a8980d30141bd1a4124e11745bb105b436fb1890826e0d2b9ea31af27f735
+    zip: 37d7cb27d8abd4b143556260506306659930548652343076f7f8470f07818824
+
 - version: 2.4.1
   date: 2017-03-22
   post: /en/news/2017/03/22/ruby-2-4-1-released/
@@ -33,6 +66,17 @@
 - version: 2.3.5
   date: 2017-09-14
   post: /en/news/2017/09/14/ruby-2-3-5-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.zip
+  sha256:
+    bz2: f71c4b67ba1bef424feba66774dc9d4bbe02375f5787e41596bc7f923739128b
+    gz:  5462f7bbb28beff5da7441968471ed922f964db1abdce82b8860608acc23ddcc
+    xz:  7d3a7dabb190c2da06c963063342ca9a214bcd26f2158e904f0ec059b065ffda
+    zip: c9971e1ccb6e2f1ab32b1fe05416fce0b19a1cd9ba8fa095c77c4bdf2058e514
+
 - version: 2.3.4
   date: 2017-03-30
   post: /en/news/2017/03/30/ruby-2-3-4-released/
@@ -60,6 +104,17 @@
 - version: 2.2.8
   date: 2017-09-14
   post: /en/news/2017/09/14/ruby-2-2-8-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.8.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.8.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.8.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.8.zip
+  sha256:
+    bz2: b19085587d859baf9d7763f92e34a84632fceac5cc593ca2c0efa28ed8c6e44e
+    gz:  8f37b9d8538bf8e50ad098db2a716ea49585ad1601bbd347ef84ca0662d9268a
+    xz:  37eafc15037396c26870f6a6c5bcd0658d14b46cd5e191a3b56d89dd22d561b0
+    zip: 58bf98b62d21d6cc622e6ef5c7d024db0458c6860199ab4c1bf68cdc4b36fa9d
+
 - version: 2.2.7
   date: 2017-03-28
   post: /en/news/2017/03/28/ruby-2-2-7-released/
@@ -99,6 +154,17 @@
 - version: 2.1.10
   date: 2016-04-01
   post: /en/news/2016/04/01/ruby-2-1-10-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.zip
+  sha256:
+    bz2: a74675578a9a801ac25eb7152bef3023432d6267f875b198eb9cd6944a5bf4f1
+    gz:  fb2e454d7a5e5a39eb54db0ec666f53eeb6edc593d1d2b970ae4d150b831dd20
+    xz:  5be9f8d5d29d252cd7f969ab7550e31bbb001feb4a83532301c0dd3b5006e148
+    zip: 21cf83156ec782d17827fb9c8a945626dfd68cf0d9eb5ca7a78b12eb91c6f1fb
+
 - version: 2.1.9
   date: 2016-03-30
   post: /en/news/2016/03/30/ruby-2-1-9-released/

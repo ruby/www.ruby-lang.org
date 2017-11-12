@@ -7,7 +7,7 @@ lang: pl
 {% include out-of-date.html %}
 
 Tutaj znajdziesz najnowsze dystrybucje języka Ruby. Aktualna stabilna
-wersja to {{ site.data.downloads.stable[0].version }}. Pamiętaj aby przeczytać
+wersja to {{ site.data.downloads.stable[0] }}. Pamiętaj aby przeczytać
 [licencję Rubiego][license].
 {: .summary}
 
@@ -39,7 +39,7 @@ budowania Rubiego ze źródeł. Jeśli masz problem z kompilacją Rubiego rozwa�
 skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
 
 * **Obecny stabilny:**
-  Ruby {{ site.data.downloads.stable[0].version }}
+  Ruby {{ site.data.downloads.stable[0] }}
 
 * **Migawki:**
   * [Stabilna migawka]({{ site.data.downloads.stable_snapshot.url.gz }}):

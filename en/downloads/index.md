@@ -5,7 +5,7 @@ lang: en
 ---
 
 Here you can get the latest Ruby distributions in your favorite flavor.
-The current stable version is {{ site.data.downloads.stable[0].version }}.
+The current stable version is {{ site.data.downloads.stable[0] }}.
 Please be sure to read [Ruby’s License][license].
 {: .summary}
 
@@ -34,24 +34,24 @@ See the [Installation][installation] page for details on building
 Ruby from source. If you have an issue compiling Ruby, consider using
 one of the third party tools mentioned above. They may help you.
 
-* **Stable releases:**{% for release in site.data.downloads.stable %}
+* **Stable releases:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.preview %}
-* **Preview releases:**{% for release in site.data.downloads.preview %}
+* **Preview releases:**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.security_maintenance %}
-* **In security maintenance phase (will EOL soon!):**{% for release in site.data.downloads.security_maintenance %}
+* **In security maintenance phase (will EOL soon!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Not maintained anymore (EOL):**{% for release in site.data.downloads.eol %}
+* **Not maintained anymore (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

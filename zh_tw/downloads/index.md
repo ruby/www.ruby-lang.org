@@ -5,7 +5,7 @@ lang: zh_tw
 ---
 
 您可以在這裡下載最適合的 Ruby 發行版。目前最新的穩定版本是
-{{ site.data.downloads.stable[0].version }}。請記得詳閱 [Ruby 版權說明][license]。
+{{ site.data.downloads.stable[0] }}。請記得詳閱 [Ruby 版權說明][license]。
 {: .summary}
 
 ### 安裝 Ruby 的方法
@@ -26,18 +26,18 @@ lang: zh_tw
 
 進一步關於從原始碼編譯 Ruby 的資訊，請參考[安裝][installation]頁面。若編譯 Ruby 時遇到任何問題，請參考安裝頁面羅列的第三方工具，可能會有幫助。
 
-* **穩定版本：**{% for release in site.data.downloads.stable %}
+* **穩定版本：**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **處於安全維護週期（即將停止維護！）：**{% for release in site.data.downloads.security_maintenance %}
+* **處於安全維護週期（即將停止維護！）：**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **不再維護（停止維護）：**{% for release in site.data.downloads.eol %}
+* **不再維護（停止維護）：**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

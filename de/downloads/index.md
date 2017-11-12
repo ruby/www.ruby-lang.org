@@ -5,7 +5,7 @@ lang: de
 ---
 
 Hier kannst Du die aktuellen Ruby-Distributionen herunterladen.
-Die stabile Version ist derzeit {{ site.data.downloads.stable[0].version }}.
+Die stabile Version ist derzeit {{ site.data.downloads.stable[0] }}.
 Bitte nimm auch [Rubys Lizenz][license] zur Kenntnis.
 {: .summary}
 
@@ -36,18 +36,18 @@ Siehe die [Installationsanleitung][installation] für Details.
 Falls es Schwierigkeiten beim Kompilieren geben sollte, solltest Du
 vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
 
-* **Stabile Versionen:**{% for release in site.data.downloads.stable %}
+* **Stabile Versionen:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **In der Phase der Sicherheits-Maintenance (Unterstützung endet bald!):**{% for release in site.data.downloads.security_maintenance %}
+* **In der Phase der Sicherheits-Maintenance (Unterstützung endet bald!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Nicht mehr unterstützt (EOL):**{% for release in site.data.downloads.eol %}
+* **Nicht mehr unterstützt (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

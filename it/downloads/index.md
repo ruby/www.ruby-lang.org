@@ -8,7 +8,7 @@ lang: it
 
 Tramite questa pagina è possibile scaricare le distribuzioni di Ruby più
 recenti nel tuo formato preferito. La versione stabile corrente è la
-{{ site.data.downloads.stable[0].version }}. Assicurati di aver letto
+{{ site.data.downloads.stable[0] }}. Assicurati di aver letto
 la [Licenza di Ruby][license].
 {: .summary}
 
@@ -43,7 +43,7 @@ degli strumenti di terze parti presenti nella sezione successiva. Potrebbero
 esserti di aiuto.
 
 * **Stabile Corrente:**
-  Ruby {{ site.data.downloads.stable[0].version }}
+  Ruby {{ site.data.downloads.stable[0] }}
 
 * **Snapshots:**
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):

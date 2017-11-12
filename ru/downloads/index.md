@@ -5,7 +5,7 @@ lang: ru
 ---
 
 Здесь вы найдете последние дистрибутивы Ruby на любой вкус. Текущая
-стабильная версия {{ site.data.downloads.stable[0].version }}.
+стабильная версия {{ site.data.downloads.stable[0] }}.
 Пожалуйста, ознакомьтесь с [лицензией Ruby][license].
 {: .summary}
 
@@ -35,18 +35,18 @@ lang: ru
 из исходников. Если у вас возникла сложность с компиляцией Ruby, попробуйте один из
 сторонних инструментов из следующей секции. Они могут помочь вам.
 
-* **Стабильные релизы:**{% for release in site.data.downloads.stable %}
+* **Стабильные релизы:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **На стадии поддержки безопасности (скоро будет остановлена):**{% for release in site.data.downloads.security_maintenance %}
+* **На стадии поддержки безопасности (скоро будет остановлена):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Больше не поддерживается (EOL):**{% for release in site.data.downloads.eol %}
+* **Больше не поддерживается (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

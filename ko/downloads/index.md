@@ -5,7 +5,7 @@ lang: ko
 ---
 
 자신이 선호하는 방식으로 최신 루비 배포판을 설치할 수 있습니다.
-현재 안정 버전은 {{ site.data.downloads.stable[0].version }}입니다.
+현재 안정 버전은 {{ site.data.downloads.stable[0] }}입니다.
 [루비 라이센스][license]를 읽어 보십시오.
 {: .summary}
 
@@ -35,18 +35,18 @@ lang: ko
 밑에서 소개하는 서드파티 도구 중 하나를 이용해볼 것을 고려해 보십시오.
 도움이 될 것입니다.
 
-* **안정 릴리스:**{% for release in site.data.downloads.stable %}
+* **안정 릴리스:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **보안 유지보수 단계(곧 EOL 예정!):**{% for release in site.data.downloads.security_maintenance %}
+* **보안 유지보수 단계(곧 EOL 예정!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **더 이상 유지보수 없음(EOL):**{% for release in site.data.downloads.eol %}
+* **더 이상 유지보수 없음(EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [루비 {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}

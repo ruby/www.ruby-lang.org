@@ -7,7 +7,7 @@ lang: es
 {% include out-of-date.html %}
 
 Aquí puedes obtener las últimas distribuciones de Ruby en tu sabor
-favorito. La versión estable actual es {{ site.data.downloads.stable[0].version }}.
+favorito. La versión estable actual es {{ site.data.downloads.stable[0] }}.
 Por favor asegúrate de leer la [licencia de Ruby][license].
 {: .summary}
 
@@ -36,7 +36,7 @@ usar una de las herramientas de terceros en la siguiente sección. Pueden servir
 de ayuda.
 
 * **Estable actual:**
-  Ruby {{ site.data.downloads.stable[0].version }}
+  Ruby {{ site.data.downloads.stable[0] }}
 
 * **Snapshots:**
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
