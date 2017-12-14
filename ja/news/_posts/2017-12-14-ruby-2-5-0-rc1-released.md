@@ -1,59 +1,59 @@
 ---
 layout: news_post
-title: "Ruby 2.5.0-rc1 �����[�X"
+title: "Ruby 2.5.0-rc1 リリース"
 author: "naruse"
 translator: "usa"
 date: 2017-12-14 17:00:00 +0000
 lang: en
 ---
 
-Ruby 2.5.0-rc1 �������[�X�������Ƃ����m�点���܂��B
+Ruby 2.5.0-rc1 をリリースしたことをお知らせします。
 
-Ruby 2.5.0-rc1 �́A���� Ruby 2.5.0 �Ɍ����Ă̌��ؗp���O�����[�X�ł��B
-����ɂ́A����̐V�����@�\��p�t�H�[�}���X�̉��P���܂܂�Ă��܂��B
-�Ⴆ�΁A�ȉ��̂悤�Ȃ��̂�����܂��B
+Ruby 2.5.0-rc1 は、来る Ruby 2.5.0 に向けての検証用事前リリースです。
+これには、幾つかの新しい機能やパフォーマンスの改善が含まれています。
+例えば、以下のようなものがあります。
 
-## �V�@�\
+## 新機能
 
-* STDERR ���ύX����Ă��炸�A���� tty �ł���ꍇ�A�o�b�N�g���[�X����уG���[���b�Z�[�W���t���ɏo�͂����悤�ɂȂ�܂����B
+* STDERR が変更されておらず、かつ tty である場合、バックトレースおよびエラーメッセージが逆順に出力されるようになりました。
   [Feature #8661] [experimental]
 
-* �g�b�v���x���̒萔�����͍폜����܂����B[Feature #11547]
+* トップレベルの定数検索は削除されました。[Feature #11547]
 
-* rescue/else/ensure �� do/end �u���b�N���ɂ����ڏ�����悤�ɂȂ�܂����B [Feature #12906]
+* rescue/else/ensure が do/end ブロック内にも直接書けるようになりました。 [Feature #12906]
 
 * yield\_self [Feature #6721]
 
-## �p�t�H�[�}���X�̉��P
+## パフォーマンスの改善
 
-* TracePoint �̃t�b�N�ɂ����āA"trace" ���߂����Ă����̂���߂ĕK�v���ɓ��I�Ɏ��������悤�ɂȂ�܂����B�ʏ펞�̃I�[�o�[�w�b�h���y������܂��B [Feature #14104]
+* TracePoint のフックにおいて、"trace" 命令を入れておくのをやめて必要時に動的に実装されるようになりました。通常時のオーバーヘッドが軽減されます。 [Feature #14104]
 
-* Proc �̊m�ۂ�x�����邱�Ƃɂ��A�u���b�N�����ɂ��u���b�N�n���̃p�t�H�[�}���X�����サ�܂����B [Feature #14045]
+* Proc の確保を遅延することにより、ブロック引数によるブロック渡しのパフォーマンスが向上しました。 [Feature #14045]
 
-* Mutex �����R���p�N�g�������ɏ���������܂����B [Feature #13517]
+* Mutex がよりコンパクトかつ高速に書き直されました。 [Feature #13517]
 
-* SecureRandom �� OpenSSL ���� OS �̒񋟂��闐���\�[�X��D�悷��悤�ɂȂ�܂����B [Bug #9569]
+* SecureRandom は OpenSSL よりも OS の提供する乱数ソースを優先するようになりました。 [Bug #9569]
 
-## ���̑��̒��ڂ��ׂ� 2.4 ����̕ύX�_
+## その他の注目すべき 2.4 からの変更点
 
-* Onigmo 6.1.3 ����荞�܂�܂����B
-  [���܃I�y���[�^](https://github.com/k-takata/Onigmo/issues/87) ���ǉ�����Ă��܂��B
-  �Ȃ��A���̕ύX�� Ruby 2.4.1 �ɂ���荞�܂�܂����B
-* bundler ����荞�܂�A�W�����C�u�����ƂȂ�܂����B
-* rubygems-2.7.0 ����荞�܂�܂����B
-* rdoc-6.0.0.beta3 ����荞�܂�܂����B
-  IRB �x�[�X���������@��͊킪 Ripper �x�[�X�ɂȂ��Ă��܂��B
-  ����ɂ��A�h�L�������g�������x�����サ�Ă��܂��B
+* Onigmo 6.1.3 が取り込まれました。
+  [非包含オペレータ](https://github.com/k-takata/Onigmo/issues/87) が追加されています。
+  なお、この変更は Ruby 2.4.1 にも取り込まれました。
+* bundler が取り込まれ、標準ライブラリとなりました。
+* rubygems-2.7.0 が取り込まれました。
+* rdoc-6.0.0.beta3 が取り込まれました。
+  IRB ベースだった文法解析器が Ripper ベースになっています。
+  これにより、ドキュメント生成速度が向上しています。
   https://github.com/ruby/rdoc/pull/512
-  �܂��A
-  * ����10�N�]��ŗݐς��������̃o�O���C������Ă��܂��B
-  * �ߔN Ruby �ɒǉ����ꂽ�V�������@���T�|�[�g����Ă��܂��B
-* �T�|�[�g���Ă��� Unicode �̃o�[�W������ 10.0.0 �ɍX�V����܂����B
+  また、
+  * ここ10年余りで累積した多数のバグが修正されています。
+  * 近年 Ruby に追加された新しい文法がサポートされています。
+* サポートしている Unicode のバージョンが 10.0.0 に更新されました。
 
-���̑��ڍׂɂ��ẮA[NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS) �t�@�C���܂��̓R�~�b�g���O���Q�Ƃ��Ă��������B
+その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS) ファイルまたはコミットログを参照してください。
 
-�Ȃ��A���������ύX�ɂ��ARuby 2.4.0 �ȍ~�ł�
-[6162 �̃t�@�C���ɕύX���������A339744 �s�̑}���� 28699 �s�̍폜���s���܂���](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_rc1)!
+なお、こうした変更により、Ruby 2.4.0 以降では
+[6162 個のファイルに変更が加えられ、339744 行の挿入と 28699 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_rc1)!
 
 Enjoy Ruby 2.5.0-rc1!
 
