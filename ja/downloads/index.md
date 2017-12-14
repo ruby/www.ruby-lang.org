@@ -32,6 +32,12 @@ lang: ja
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
+{% if site.data.downloads.preview %}
+* **プレビュー版:**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
 {% if site.data.downloads.security_maintenance %}
 * **セキュリティ修正のみの安定版 (まもなく EOL):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
