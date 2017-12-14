@@ -3,14 +3,14 @@ layout: news_post
 title: "Ruby 2.4.3 リリース"
 author: "nagachika"
 translator:
-date: 2017-12-14 00:00:00 +0000
+date: 2017-12-14 16:00:00 +0000
 lang: ja
 ---
 
 Ruby 2.4.3 がリリースされました。
 このリリースには以下の脆弱性修正が含まれています。
 
-* [CVE-2017-17405: Command injection vulnerability in Net::FTP](/en/news/2017/12/14/xxx-cve-2017-17405/)
+* [CVE-2017-17405: Net::FTP におけるコマンドインジェクション](/ja/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)への対応
 
 その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) を参照してください。
 
