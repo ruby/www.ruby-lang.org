@@ -11,7 +11,7 @@ Ruby 2.4.3 已發佈
 
 此次發佈修復了多個漏洞，包括一個安全性修正。
 
-* [CVE-2017-17405: Net::FTP 命令注入安全性風險](/zh_cn/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [CVE-2017-17405: Net::FTP 命令注入安全性風險](/zh_tw/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 
 其他問題請查看 [提交记录](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) 以獲取詳細訊息。
 
