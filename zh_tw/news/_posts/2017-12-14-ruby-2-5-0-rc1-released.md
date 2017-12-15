@@ -11,35 +11,42 @@ lang: zh_tw
 
 Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一個候選版本。此版本包括數個新特性和效能提升。例如：
 
-## 新特性
+## 新功能
 
-* 錯誤報告中的堆疊將以反序列印到 STDERR，但在 tty 中保持不變。[Feature #8661] [試驗特性]
+* 如果標準錯誤輸出沒有更改的話，會使用倒序印出錯誤訊息。
+  [功能 #8661] [試驗性質]
 
-* 頂層常數查詢被移除。[Feature #11547]
+* 移除了最高層級常數的查找。  [功能 #11547]
 
-* rescue/else/ensure 可以在 do/end 中被允許使用。[Feature #12906]
+* rescue/else/ensure 可允許出現在 do/end 區塊。  [功能 #12906]
 
-* yield\_self [Feature #6721]
+* yield\_self [功能 #6721]
 
 ## 效能提升
 
-* 使用 TracePoint hook 動態指令替代 "trace" 指令以降低間接效能開銷。[Feature #14104]
+* 使用 TracePoint hook 動態指令替代 "trace" 指令以降低間接效能開銷。[功能 #14104]
 
-* 通過 lazy 的 Proc 分配提升了使用參數傳 block 時的效能。[Feature #14045]
+* 通過 lazy 的 Proc 分配提升了使用參數傳 block 時的效能。[功能 #14045]
 
-* 互斥鎖修改變得更輕量和快速。[Feature #13517]
+* 互斥鎖修改變得更輕量和快速。[功能 #13517]
 
-* SecureRandom 傾向使用作業系統方法而非 OpenSSL。[Bug #9569]
+* SecureRandom 傾向使用作業系統方法而非 OpenSSL。[漏洞 #9569]
 
-## 其他自 2.4 版本起的變化
+## 自 2.4 起重要的變化
 
-* 合併 Onigmo 至 6.1.3 版本。增加 [absent 運算子](https://github.com/k-takata/Onigmo/issues/87)。注意，Ruby 2.4.1 也包括這一更新。
+* 合併 Onigmo 至 6.1.3 版本。
+  新增了 [absent operator](https://github.com/k-takata/Onigmo/issues/87)
+  Ruby 2.4.1 也同樣包含此變更.
 * 合併 bundler 至標準函式庫。
-* 合併 rubygems-2.7.0。
-* 合併 rdoc-6.0.0.beta3。用 Ripper 替代了 lexer IRB。這大大提高了文件產生的速度。 https://github.com/ruby/rdoc/pull/512。還包括
-  * 修復了過去數年的大量 bug。
-  * 支持過去數年 Ruby 的新語法。
-* 升級 Unicode 版本至 10.0.0。
+* 合併 rubygems-2.77.0 。
+* 合併 rdoc-6.0.0.beta3 。
+  將 IRB 的詞法分析器更新為 Ripper.
+  它提升了生成文件的速度
+  https://github.com/ruby/rdoc/pull/512
+  同時包含
+  * 修復了許多最近幾年的錯誤。
+  * 支援近幾年 Ruby 的新語法。
+* 更新支援的 Unicode 版本至 10.0.0 。
 
 詳見 [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS) 或 commit 記錄獲取詳細訊息。
 
