@@ -23,8 +23,8 @@
 # 2.5 series
 
 - version: 2.5.0-rc1
-  date: 2017-12-15
-  post: /en/news/2017/12/15/ruby-2-5-0-rc1-released/
+  date: 2017-12-14
+  post: /en/news/2017/12/14/ruby-2-5-0-rc1-released/
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0-rc1.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0-rc1.zip
