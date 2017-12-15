@@ -9,7 +9,7 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.5.0-rc1.
 
-Ruby 2.5.0-rc1 is the first preview release toward Ruby 2.5.0.
+Ruby 2.5.0-rc1 is the first release candidate of Ruby 2.5.0.
 It introduces some new features and performance improvements, for example:
 
 ## New Features
