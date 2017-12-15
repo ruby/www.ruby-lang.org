@@ -4,7 +4,7 @@ title: "Ruby 2.5.0-rc1 リリース"
 author: "naruse"
 translator: "usa"
 date: 2017-12-14 17:00:00 +0000
-lang: en
+lang: ja
 ---
 
 Ruby 2.5.0-rc1 をリリースしたことをお知らせします。
