@@ -9,37 +9,27 @@ lang: zh_cn
 
 我们高兴地宣布 Ruby 2.5.0-rc1 已发布。
 
-Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一个预览版。此版本包括数个新特性和性能提升，例如：
+Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一个候选版本。此版本包括数个新特性和性能提升，例如：
 
 ## 新特性
 
-* 错误信息中的栈调用将以颠倒的顺序输出到 STDERR，但在 tty 中保持不变。[Feature #8661] [试验性]
+* 如果未修改 STDERR，或者在 tty 中，逆序打印调用跟踪和错误消息。[功能 #8661] [实验性]
 
-* 顶层常量查询被移除。[Feature #11547]
+* 删除顶层常量查找。[功能 #11547]
 
-* rescue/else/ensure 在 do/end 代码块中被允许。[Feature #12906]
+* 允许在 do/end 中使用 rescue/else/ensure。[功能 #12906]
 
-* yield\_self [Feature #6721]
+* yield\_self [功能 #6721]
 
-## 性能提升
+## 与 2.4 相比的重要变化
 
-* 使用 TracePoint 钩子的动态指令替代 "trace" 指令以降低间接开销。[Feature #14104]
-
-* 通过懒惰 Proc 分配提升了使用 block 参数传递代码块的性能。[Feature #14045]
-
-* 互斥锁的复写变得更轻量和快速。[Feature #13517]
-
-* SecureRandom 倾向使用操作系统方法而非 OpenSSL。[Bug #9569]
-
-## 其他自 2.4 版本其的重要变化
-
-* 合并 Onigmo 至 6.1.3 版本。增加 [absent 运算符](https://github.com/k-takata/Onigmo/issues/87)。注意，Ruby 2.4.1 也包含次更新。
-* 合并 bundler 到标准库。
-* 合并 rubygems-2.7.0。
-* 合并 rdoc-6.0.0.beta3。用 Ripper 替代了 lexer IRB。这大大提高了文档生成的速度。 https://github.com/ruby/rdoc/pull/512。还包括
-  * 修复了过去数年大量的 bug。
-  * 支持过去数年 Ruby 的新语法。
-* 升级 Unicode 版本至 10.0.0。
+* 合并 Onigmo 6.1.1。添加[缺位运算符](https://github.com/k-takata/Onigmo/issues/87)。注意，Ruby 2.4.1 也包含这项改动。
+* 把 bundler 纳入标准库。
+* 合并 rubygems-2.6.13。
+* 合并 rdoc-6.0.0.beta2。词法分析程序由 IRB 更换为 Ripper，极大提升了生成文档的速度。详见 https://github.com/ruby/rdoc/pull/512。这一版的改动还有：
+  * 修正过去这些年存在的缺陷
+  * 支持近些年 Ruby 的新句法
+* 更新到 Unicode 10.0.0。
 
 详见 [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS) 或提交记录以查看详情。
 
