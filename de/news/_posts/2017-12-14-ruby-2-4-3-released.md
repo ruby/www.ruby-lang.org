@@ -11,7 +11,7 @@ Ruby 2.4.3 ist veröffentlicht worden.
 
 Diese Version enthält einige Fehlerkorrekturen und behebt ein Sicherheitsproblem.
 
-* [CVE-2017-17405: CVE-2017-17405: Schwachstelle in Net::FTP erlaubt Ausführung von beliebigen Shell-Befehlen](/de/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [CVE-2017-17405: Schwachstelle in Net::FTP erlaubt Ausführung von beliebigen Shell-Befehlen](/de/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 
 Siehe die
 [Commit-Logs](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3)

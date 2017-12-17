@@ -13,7 +13,7 @@ Diese Version enthält ungefähr zehn Fehlerkorrekturen seit der letzten
 Version und behebt einige Sicherheitsprobleme. Details zu den
 Sicherheitsproblemen finden Sie unter den folgenden Links.
 
-* [CVE-2017-17405: CVE-2017-17405: Schwachstelle in Net::FTP erlaubt Ausführung von beliebigen Shell-Befehlen](/de/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [CVE-2017-17405: Schwachstelle in Net::FTP erlaubt Ausführung von beliebigen Shell-Befehlen](/de/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [Unsichere Objekt-Deserialisierung in RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
 Siehe das

@@ -11,7 +11,7 @@ Ruby 2.2.9 ist veröffentlicht worden. Diese Version behebt einige
 Sicherheitsprobleme, zu denen Details unter den folgenden Links
 verfügbar sind.
 
-* [CVE-2017-17405: CVE-2017-17405: Schwachstelle in Net::FTP erlaubt Ausführung von beliebigen Shell-Befehlen](/de/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [CVE-2017-17405: Schwachstelle in Net::FTP erlaubt Ausführung von beliebigen Shell-Befehlen](/de/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [Unsichere Objekt-Deserialisierung in RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
 Ruby 2.2 befindet sich derzeit noch bis Ende März 2018 in der Phase
