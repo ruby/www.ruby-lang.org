@@ -37,16 +37,15 @@ It introduces some new features and performance improvements, for example:
 
 ## Other notable changes since 2.4
 
-* Merge Onigmo to 6.1.3.
+* Update to Onigmo 6.1.3.
   It adds the [absent operator](https://github.com/k-takata/Onigmo/issues/87).
   Note that Ruby 2.4.1 also includes this change.
-* Merge Bundler to standard libraries.
-* Merge rubygems-2.7.0.
-* Merge rdoc-6.0.0.beta3.
-  Change lexer from IRB based one to Ripper;
-  this much improves the speed of generating documentation
-  [https://github.com/ruby/rdoc/pull/512].
-  This also includes
+* Add Bundler to standard libraries.
+* Update to RubyGems 2.7.0.
+* Update to RDoc 6.0.0.beta3.
+  * Change lexer from IRB based one to Ripper;
+    this much improves the speed of generating documentation.
+    [https://github.com/ruby/rdoc/pull/512]
   * Fix so many bugs from the last dozen years or so.
   * Support new Ruby syntaxes from the last several years.
 * Update supported Unicode version to 10.0.0.
