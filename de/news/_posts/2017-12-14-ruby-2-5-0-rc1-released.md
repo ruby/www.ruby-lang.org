@@ -16,7 +16,7 @@ einige neue Features sowie Performanzverbesserungen, beispielsweise:
 
 * Das Backtrace und die Fehlermeldung werden in umgekehrter
   Reihenfolge ausgegeben, wenn STDERR nicht verändert wurde und auf
-  einen TTY zeigt. [Feature #8661] [experimental]
+  einen TTY zeigt. [Feature #8661] [experimentell]}
 
 * Die Auflösung von Konstanten über die oberste Ebene wurde entfernt.
   [Feature #11547]
