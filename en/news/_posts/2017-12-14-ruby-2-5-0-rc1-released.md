@@ -21,34 +21,34 @@ It introduces some new features and performance improvements, for example:
 
 * rescue/else/ensure are allowed inside do/end blocks.  [Feature #12906]
 
-* yield\_self [Feature #6721]
+* Add yield\_self.  [Feature #6721]
 
 ## Performance improvements
 
 * Dynamic instrumentation for TracePoint hooks instead of using "trace"
-  instruction to avoid overhead [Feature #14104]
+  instruction to avoid overhead. [Feature #14104]
 
 * Performance of block passing using block parameters is improved by
-  lazy Proc allocation [Feature #14045]
+  lazy Proc allocation. [Feature #14045]
 
-* Mutex rewritten to be smaller and faster [Feature #13517]
+* Mutex is rewritten to be smaller and faster. [Feature #13517]
 
-* SecureRandom now prefers OS-provided sources than OpenSSL. [Bug #9569]
+* SecureRandom now prefers OS-provided sources over OpenSSL. [Bug #9569]
 
 ## Other notable changes since 2.4
 
 * Merge Onigmo to 6.1.3.
-  It adds [absent operator](https://github.com/k-takata/Onigmo/issues/87)
+  It adds the [absent operator](https://github.com/k-takata/Onigmo/issues/87).
   Note that Ruby 2.4.1 also includes this change.
-* Merge bundler to standard libraries.
+* Merge Bundler to standard libraries.
 * Merge rubygems-2.7.0.
 * Merge rdoc-6.0.0.beta3.
-  Change lexer IRB based one to Ripper.
-  It much improves the speed of generating document.
-  https://github.com/ruby/rdoc/pull/512
+  Change lexer from IRB based one to Ripper;
+  this much improves the speed of generating documentation
+  [https://github.com/ruby/rdoc/pull/512].
   This also includes
-  * Fix so many bugs in the last dozen years or so
-  * Support new Ruby syntaxes in the last several years
+  * Fix so many bugs from the last dozen years or so.
+  * Support new Ruby syntaxes from the last several years.
 * Update supported Unicode version to 10.0.0.
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS)
