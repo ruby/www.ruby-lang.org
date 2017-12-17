@@ -18,25 +18,27 @@ einige neue Features sowie Performanzverbesserungen, beispielsweise:
   Reihenfolge ausgegeben, wenn STDERR nicht verändert wurde und auf
   einen TTY zeigt. [Feature #8661] [experimental]
 
-* Die Auflösung von Konstanten über die oberste Ebene wurde entfernt [Feature #11547]
+* Die Auflösung von Konstanten über die oberste Ebene wurde entfernt.
+  [Feature #11547]
 
-* rescue/else/ensure sind jetzt in do/end-Blöcken erlaubt [Feature #12906]
+* rescue/else/ensure sind jetzt in do/end-Blöcken erlaubt. [Feature #12906]
 
 * yield\_self [Feature #6721]
 
 ## Performanzverbesserungen
 
 * Die dynamische Verwaltung von TracePoint-Hooks anstelle der Benutzung
-  von „trace“ spart Zeit [Feature #14104]
+  von „trace“ spart Zeit. [Feature #14104]
 
 * Die Performanz bei der Übergabe von Blockparametern wurde durch die
-  Einführung von verzögerter Allozierung der Proc-Instanzen _(lazy
-  Proc allocation)_ verbessert [Feature #14045]
+  Einführung von verzögerter Allozierung der Proc-Instanzen
+  _(lazy Proc allocation)_ verbessert. [Feature #14045]
 
-* Mutex neu geschrieben. Es ist jetzt kleiner und schneller. [Feature #13517]
+* Mutex wurde neu geschrieben. Es ist jetzt kleiner und schneller.
+  [Feature #13517]
 
 * SecureRandom bezieht Zufallsdaten jetzt bevorzugt vom Betriebssystem statt
-  von OpenSSL [Bug #9569]
+  von OpenSSL. [Bug #9569]
 
 ## Sonstige bemerkenswerte Änderungen seit 2.4
 
@@ -44,15 +46,15 @@ einige neue Features sowie Performanzverbesserungen, beispielsweise:
   [Abwesenheitsoperator](https://github.com/k-takata/Onigmo/issues/87)
   hinzu. Beachten Sie, dass Ruby 2.4.1 diese Änderung ebenfalls
   enthält.
-* bundler wurde in die Standardbibliothek aufgenommen.
+* Bundler wurde in die Standardbibliothek aufgenommen.
 * RubyGems wurde auf 2.7.0 aktualisiert.
 * RDoc wurde auf 6.0.0.beta3 aktualisiert. Der Lexer basiert nun nicht
   mehr auf IRB, sondern auf Ripper, wodurch die Geschwindigkeit, mit
-  der die Dokumentation generiert wird, erheblich zunimmt.
-  https://github.com/ruby/rdoc/pull/512
+  der die Dokumentation generiert wird, erheblich zunimmt
+  [https://github.com/ruby/rdoc/pull/512].
   Desweiteren enthalten sind:
-  * Zahlreiche Korrekturen von Fehlern der letzten dutzend Jahre
-  * Unterstützung von neuer Ruby-Syntax aus den letzten Jahren
+  * Zahlreiche Korrekturen von Fehlern der letzten dutzend Jahre.
+  * Unterstützung von neuer Ruby-Syntax aus den letzten Jahren.
 * Unicode-Unterstützung auf Version 10.0.0 aktualisiert.
 
 Siehe die
