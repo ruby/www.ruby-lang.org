@@ -13,7 +13,7 @@ This release includes some bug fixes and a security fix.
 
 * [CVE-2017-17405: Command injection vulnerability in Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 
-There are also som bug fixes.
+There are also some bug fixes.
 See [commit logs](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) for more details.
 
 ## Download
