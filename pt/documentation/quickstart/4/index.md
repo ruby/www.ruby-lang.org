@@ -125,7 +125,7 @@ conforme o planejado.
 
 ## Executando o Script
 
-Então, essa é a classe MegaAnfitrião, o resto do arwuivo só
+Então, essa é a classe MegaAnfitrião, o resto do arquivo só
 chama os métodos nessa classe. Existe um último truque para
 verificarmos, que é a linha:
 
