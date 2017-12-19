@@ -12,7 +12,7 @@ Ruby 2.2.9 已發佈。此次發佈包括數個安全性修正。請查看以下
 * [CVE-2017-17405: Net::FTP 命令注入安全性風險](/zh_tw/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [RubyGems 中不安全物件反序列化風險](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-Ruby 2.2 處於安全維護期，于 2018 年 3 月停止。此後 Ruby 2.2 的維護會全部停止。我們建議您著手遷移到更新的 Ruby 版本，例如 2.4 或 2.3。
+Ruby 2.2 處於安全維護期，於 2018 年 3 月停止。此後 Ruby 2.2 的維護會全部停止。我們建議您著手遷移到更新的 Ruby 版本，例如 2.4 或 2.3。
 
 ## 下載
 
