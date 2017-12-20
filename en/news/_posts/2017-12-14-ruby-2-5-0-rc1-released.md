@@ -42,7 +42,7 @@ It introduces some new features and performance improvements, for example:
   Note that Ruby 2.4.1 also includes this change.
 * Add Bundler to standard libraries.
 * Update to RubyGems 2.7.0.
-* Update to RDoc 6.0.0.beta3.
+* Update to RDoc 6.0.0.
   * Change lexer from IRB based one to Ripper;
     this much improves the speed of generating documentation.
     [https://github.com/ruby/rdoc/pull/512]

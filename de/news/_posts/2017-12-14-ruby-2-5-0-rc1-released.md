@@ -48,7 +48,7 @@ einige neue Features sowie Performanzverbesserungen, beispielsweise:
   enthält.
 * Bundler wurde in die Standardbibliothek aufgenommen.
 * RubyGems wurde auf 2.7.0 aktualisiert.
-* RDoc wurde auf 6.0.0.beta3 aktualisiert.
+* RDoc wurde auf 6.0.0 aktualisiert.
   * Der Lexer basiert nun nicht mehr auf IRB, sondern auf Ripper,
     wodurch die Geschwindigkeit, mit der die Dokumentation generiert wird,
     erheblich zunimmt.
