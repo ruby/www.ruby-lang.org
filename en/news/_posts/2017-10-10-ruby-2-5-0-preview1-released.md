@@ -26,7 +26,7 @@ It introduces some new features and performance improvements, for example:
 ## Other notable changes since 2.4
 
 * Merge Onigmo to 6.1.1.
-  It adds [absent operator](https://github.com/k-takata/Onigmo/issues/87)
+  It adds [absence operator](https://github.com/k-takata/Onigmo/issues/87)
   Note that Ruby 2.4.1 also includes this change.
 * Merge bundler to standard libraries.
 * Merge rubygems-2.6.13.

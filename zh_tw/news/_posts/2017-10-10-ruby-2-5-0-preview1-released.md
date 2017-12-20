@@ -26,7 +26,7 @@ lang: zh_tw
 ## 自 2.4 起重要的變化
 
 * 合併 Onigmo 至 6.1.1 版本。
-  新增了 [absent operator](https://github.com/k-takata/Onigmo/issues/87)
+  新增了 [absence operator](https://github.com/k-takata/Onigmo/issues/87)
   Ruby 2.4.1 也同樣包含此變更.
 * 合併 bundler 至標準函式庫。
 * 合併 rubygems-2.6.13 。

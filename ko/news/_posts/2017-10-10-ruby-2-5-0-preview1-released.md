@@ -26,7 +26,7 @@ lang: ko
 ## 2.4 이후 주목할 만한 변경
 
 * Onigmo를 6.1.1로 병합했습니다.
-  [absent operator](https://github.com/k-takata/Onigmo/issues/87)를 추가했습니다.
+  [absence operator](https://github.com/k-takata/Onigmo/issues/87)를 추가했습니다.
   루비 2.4.1은 이미 이 사항을 포함하였습니다.
 * 번들러를 표준 라이브러리로 병합했습니다.
 * rubygems-2.6.13 병합했습니다.

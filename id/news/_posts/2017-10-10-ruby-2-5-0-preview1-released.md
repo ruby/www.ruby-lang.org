@@ -27,7 +27,7 @@ contoh:
 ## Beberapa perubahan penting lainnya sejak versi 2.4
 
 * Menggabungkan Onigmo ke 6.1.1.
-  Ini menambahkan [absent operator](https://github.com/k-takata/Onigmo/issues/87)
+  Ini menambahkan [absence operator](https://github.com/k-takata/Onigmo/issues/87)
   Perhatikan Ruby 2.4.1 juga berisi perubahan ini.
 * Menggabungkan bundler ke pustaka standar.
 * Menggabungkan rubygems-2.6.13.

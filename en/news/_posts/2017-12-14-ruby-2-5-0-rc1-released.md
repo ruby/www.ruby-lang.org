@@ -38,7 +38,7 @@ It introduces some new features and performance improvements, for example:
 ## Other notable changes since 2.4
 
 * Update to Onigmo 6.1.3.
-  It adds the [absent operator](https://github.com/k-takata/Onigmo/issues/87).
+  It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
   Note that Ruby 2.4.1 also includes this change.
 * Add Bundler to standard libraries.
 * Update to RubyGems 2.7.0.
