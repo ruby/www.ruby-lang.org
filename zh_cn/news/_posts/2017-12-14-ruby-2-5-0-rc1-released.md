@@ -36,7 +36,7 @@ Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一个候选版本。此版本包括数个�
 * 合并 Onigmo 6.1.3。添加[缺位运算符](https://github.com/k-takata/Onigmo/issues/87)。注意，Ruby 2.4.1 也包含这项改动。
 * 把 bundler 纳入标准库。
 * 合并 rubygems-2.7.0。
-* 合并 rdoc-6.0.0.beta3。词法分析程序由 IRB 更换为 Ripper，极大提升了生成文档的速度。详见 https://github.com/ruby/rdoc/pull/512。这一版的改动还有：
+* 合并 rdoc-6.0.0。词法分析程序由 IRB 更换为 Ripper，极大提升了生成文档的速度。详见 https://github.com/ruby/rdoc/pull/512。这一版的改动还有：
   * 修正过去这些年存在的缺陷
   * 支持近些年 Ruby 的新句法
 * 更新到 Unicode 10.0.0。

@@ -39,7 +39,7 @@ Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一個候選版本。此版本包括數個�
   Ruby 2.4.1 也同樣包含此變更.
 * 合併 bundler 至標準函式庫。
 * 合併 rubygems-2.77.0 。
-* 合併 rdoc-6.0.0.beta3 。
+* 合併 rdoc-6.0.0 。
   將 IRB 的詞法分析器更新為 Ripper.
   它提升了生成文件的速度
   https://github.com/ruby/rdoc/pull/512
