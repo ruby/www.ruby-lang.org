@@ -134,7 +134,7 @@ sein.
 
 [1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/NEWS
 [2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_0/ChangeLog
-[3]: http://www.rubyspec.org/
+[3]: https://github.com/ruby/spec
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip
