@@ -120,7 +120,7 @@ Causa un LoadError
 
 
 
-[1]: http://www.rubyspec.org
+[1]: https://github.com/ruby/spec
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip
