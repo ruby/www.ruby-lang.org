@@ -58,8 +58,8 @@ Come in C, in Ruby…
 Come in C++, in Ruby…
 
 * Esistono più o meno gli stessi operatori (anche `::`). L’operatore
-  `<<` è usato spesso per aggiungere elementi ad una lista. Rubi
-  tuttavia non usa mai l’operatore `->`, è sempre solo `.`.
+  `<<` è usato spesso per aggiungere elementi ad una lista.
+  Ruby tuttavia non usa mai l’operatore `->`, è sempre solo `.`.
 * `public`, `private` e `protected` si comportano in modo simile
 * La sintassi per l’ereditarietà è sempre costituita da un solo
   carattere, ma è `<` invece di `:`.
