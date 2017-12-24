@@ -15,15 +15,15 @@ It introduces many new features and performance improvements, for example:
 ## New Features
 
 * Print backtrace and error message in reverse order if STDERR is unchanged and a tty.
-  [Feature #8661] [experimental]
+  [&#x5B;Feature #8661&#x5D;](https://bugs.ruby-lang.org/issues/8661) [experimental]
 
-* Top-level constant look-up is removed.  [Feature #11547]
+* Top-level constant look-up is removed.  [&#x5B;Feature #11547&#x5D;](https://bugs.ruby-lang.org/issues/11547)
 
-* rescue/else/ensure are allowed inside do/end blocks.  [Feature #12906]
+* rescue/else/ensure are allowed inside do/end blocks.  [&#x5B;Feature #12906&#x5D;](https://bugs.ruby-lang.org/issues/12906)
 
-* Add yield\_self.  [Feature #6721]
+* Add yield\_self.  [&#x5B;Feature #6721&#x5D;](https://bugs.ruby-lang.org/issues/6721)
 
-* Support branch coverage and method coverage measurement. [Feature #13901]
+* Support branch coverage and method coverage measurement. [&#x5B;Feature #13901&#x5D;](https://bugs.ruby-lang.org/issues/13901)
   Branch coverage tells you which branches are executed, and which not.
   Method coverage tells you which methods are invoked, and which not.
   By running a test suite with this new feature, you can know which branches
@@ -32,15 +32,15 @@ It introduces many new features and performance improvements, for example:
 
 ## Performance improvements
 
-* About 10% speed-up by removing all `trace` instructions from overall bytecodes (instruction sequences). `trace` instructions were inserted to support `TracePoint`. However, most of case `TracePoint` is not used and `trace` instructions are pure-overhead. Instead of `trace` instruction, we use dynamic instrumentation technique. See [Feature #14104] for details.
+* About 10% speed-up by removing all `trace` instructions from overall bytecodes (instruction sequences). `trace` instructions were inserted to support `TracePoint`. However, most of case `TracePoint` is not used and `trace` instructions are pure-overhead. Instead of `trace` instruction, we use dynamic instrumentation technique. See [&#x5B;Feature #14104&#x5D;](https://bugs.ruby-lang.org/issues/14104) for details.
 
-* Given block passing by a block parameter is about 3 times faster than Ruby 2.4 by "Lazy Proc allocation" technique. We need to use a block parameter to pass given block to another methods. However, block parameters requires Proc creation and it becomes huge overhead for this purpose. "Lazy Proc allocation" solves this performance problem. See [Feature #14045] for details.
+* Given block passing by a block parameter is about 3 times faster than Ruby 2.4 by "Lazy Proc allocation" technique. We need to use a block parameter to pass given block to another methods. However, block parameters requires Proc creation and it becomes huge overhead for this purpose. "Lazy Proc allocation" solves this performance problem. See [&#x5B;Feature #14045&#x5D;](https://bugs.ruby-lang.org/issues/14045) for details.
 
-* Mutex is rewritten to be smaller and faster. [Feature #13517]
+* Mutex is rewritten to be smaller and faster. [&#x5B;Feature #13517&#x5D;](https://bugs.ruby-lang.org/issues/13517)
 
 ## Other notable changes since 2.4
 
-* SecureRandom now prefers OS-provided sources over OpenSSL. [Bug #9569]
+* SecureRandom now prefers OS-provided sources over OpenSSL. [&#x5B;Bug #9569&#x5D;](https://bugs.ruby-lang.org/issues/9569)
 * Update to Onigmo 6.1.3.
   It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
   Note that Ruby 2.4.1 also includes this change.
