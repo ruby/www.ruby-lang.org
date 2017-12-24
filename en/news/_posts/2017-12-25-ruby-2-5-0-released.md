@@ -98,10 +98,9 @@ It introduces many new features and performance improvements, for example:
 
 * Mutex is rewritten to be smaller and faster. [Feature #13517]
 
-* SecureRandom now prefers OS-provided sources over OpenSSL. [Bug #9569]
-
 ## Other notable changes since 2.4
 
+* SecureRandom now prefers OS-provided sources over OpenSSL. [Bug #9569]
 * Update to Onigmo 6.1.3.
   It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
   Note that Ruby 2.4.1 also includes this change.
