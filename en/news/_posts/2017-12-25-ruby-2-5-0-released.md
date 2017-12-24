@@ -44,8 +44,8 @@ It introduces many new features and performance improvements, for example:
 * Update to Onigmo 6.1.3.
   It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
   Note that Ruby 2.4.1 also includes this change.
-* Update to RubyGems 2.7.0.
-* Update to RDoc 6.0.0.
+* Update to RubyGems 2.7.3.
+* Update to RDoc 6.0.1.
   * Change lexer from IRB based one to Ripper;
     this much improves the speed of generating documentation.
     [https://github.com/ruby/rdoc/pull/512]
