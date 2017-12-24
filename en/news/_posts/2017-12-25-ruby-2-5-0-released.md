@@ -93,8 +93,7 @@ It introduces many new features and performance improvements, for example:
 
 * About 10% speed-up by removing all `trace` instructions from overall bytecodes (instruction sequences). `trace` instructions were inserted to support `TracePoint`. However, most of case `TracePoint` is not used and `trace` instructions are pure-overhead. Instead of `trace` instruction, we use dynamic instrumentation technique. See [Feature #14104] for details.
 
-* Performance of block passing using block parameters is improved by
-  lazy Proc allocation. [Feature #14045]
+* Given block passing by a block parameter is about 3 times faster than Ruby 2.4 by "Lazy Proc allocation" technique. We need to use a block parameter to pass given block to another methods. However, block parameters requires Proc creation and it becomes huge overhead for this purpose. "Lazy Proc allocation" solves this performance problem. See [Feature #14045] for details.
 
 * Mutex is rewritten to be smaller and faster. [Feature #13517]
 
