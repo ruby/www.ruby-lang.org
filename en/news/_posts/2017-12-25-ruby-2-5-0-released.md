@@ -53,11 +53,11 @@ It introduces many new features and performance improvements, for example:
   * Support new Ruby syntaxes from the last several years.
 * Update supported Unicode version to 10.0.0.
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS)
+See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS)
 or commit logs for details.
 
 With those changes,
-[6162 files changed, 339744 insertions(+), 28699 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_rc1)
+[6162 files changed, 339744 insertions(+), 28699 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
 since Ruby 2.4.0!
 
 Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.5!
