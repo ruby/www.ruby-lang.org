@@ -91,8 +91,7 @@ It introduces many new features and performance improvements, for example:
 
 ## Performance improvements
 
-* Dynamic instrumentation for TracePoint hooks instead of using "trace"
-  instruction to avoid overhead. [Feature #14104]
+* About 10% speed-up by removing all `trace` instructions from overall bytecodes (instruction sequences). `trace` instructions were inserted to support `TracePoint`. However, most of case `TracePoint` is not used and `trace` instructions are pure-overhead. Instead of `trace` instruction, we use dynamic instrumentation technique. See [Feature #14104] for details.
 
 * Performance of block passing using block parameters is improved by
   lazy Proc allocation. [Feature #14045]
