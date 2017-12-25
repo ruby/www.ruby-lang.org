@@ -13,23 +13,24 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
 その一部を以下に紹介します。
 
 ## 新機能
-- `rescue`/`else`/`ensure` が `do`/`end` ブロック内にも直接書けるようになりました。 [[Feature #12906]](https://bugs.ruby-lang.org/issues/12906)
-- `yield_self` が追加されました。与えられたブロックをそのコンテキストでyieldします。`tap`と異なり、`yield_self` はブロックの値を返します。[[Feature #12906]](https://bugs.ruby-lang.org/issues/12906)
-- 分岐カバレッジとメソッドカバレッジの計測がサポートされました。分岐カバレッジは分岐が実行されたかどうかを表します。またメソッドカバレッジはメソッドが呼び出されたかどうかを測定します。テストスイートをこれらの新機能を用いて実行することにより、どの分岐およびメソッドが実行されたかを知ることができるため、テストスイートのカバレッジをより厳密に評価することができます。 [[Feature #13901]](https://bugs.ruby-lang.org/issues/13901)
-- トップレベルの定数検索は削除されました。[[Feature #11547]](https://bugs.ruby-lang.org/issues/11547)
-- みなさんに最も愛されているライブラリの一つである pp.rb が自動的にロードされるようになりました。もう `require "pp"` と書く必要はありません。 [[Feature](https://bugs.ruby-lang.org/issues/14123) [](https://bugs.ruby-lang.org/issues/14123)[#14123]](https://bugs.ruby-lang.org/issues/14123)
-- バックトレースおよびエラーメッセージが逆順(古い呼び出しが先、最新の呼び出しが後)に表示されるようになりました。これにより、長いバックトレースが端末(TTY)に表示された場合に、エラーの原因行が末尾に表示されて見つけやすくなります。なお、この逆順表示はこれらが端末に直接表示される場合にのみ有効となります。[[Feature #8661]](https://bugs.ruby-lang.org/issues/8661) [experimental]
+- `rescue`/`else`/`ensure` が `do`/`end` ブロック内にも直接書けるようになりました。 [&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
+- `yield_self` が追加されました。与えられたブロックをそのコンテキストでyieldします。`tap`と異なり、`yield_self` はブロックの値を返します。[&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
+- 分岐カバレッジとメソッドカバレッジの計測がサポートされました。分岐カバレッジは分岐が実行されたかどうかを表します。またメソッドカバレッジはメソッドが呼び出されたかどうかを測定します。テストスイートをこれらの新機能を用いて実行することにより、どの分岐およびメソッドが実行されたかを知ることができるため、テストスイートのカバレッジをより厳密に評価することができます。 [&#x5b;Feature #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
+- トップレベルの定数検索は削除されました。[&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
+- みなさんに最も愛されているライブラリの一つである pp.rb が自動的にロードされるようになりました。もう `require "pp"` と書く必要はありません。 [&#x5b;Feature](https://bugs.ruby-lang.org/issues/14123) [](https://bugs.ruby-lang.org/issues/14123)[#14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
+- バックトレースおよびエラーメッセージが逆順(古い呼び出しが先、最新の呼び出しが後)に表示されるようになりました。これにより、長いバックトレースが端末(TTY)に表示された場合に、エラーの原因行が末尾に表示されて見つけやすくなります。なお、この逆順表示はこれらが端末に直接表示される場合にのみ有効となります。[&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
 ## パフォーマンスの改善
-- 命令列中のすべての `trace` 命令を削除することで、5～10% の高速化を実現しました。`trace` 命令は `TracePoint` をサポートするために挿入されていましたが、ほとんどの場合、`TracePoint` は有効にされず、これらの命令は無用なオーバヘッドとなっていました。Ruby 2.5 では、`trace` 命令を用いる代わりに、動的書き換えを利用します。詳細は [Feature #14104] をご覧ください。
-- ブロックパラメータによるブロック渡し（例：`def foo(&b); bar(&b); end`）が、"Lazy Proc allocation" というテクニックを用いることで、Ruby 2.4 と比べて約3倍高速化しました。渡されたブロックを、さらに他のメソッドに渡したい場合、ブロックパラメータを利用する必要があります。しかし、ブロックパラメータは `Proc` オブジェクトの生成が必要であり、ブロック渡しのためにはこれが大きなオーバヘッドとなっていました。"Lazy Proc allocation" はこの問題を解決します。詳細は [Feature #14045] をご覧ください。
-- Mutex がよりコンパクトかつ高速に書き直されました。 [Feature #13517]
+- 命令列中のすべての `trace` 命令を削除することで、5～10% の高速化を実現しました。`trace` 命令は `TracePoint` をサポートするために挿入されていましたが、ほとんどの場合、`TracePoint` は有効にされず、これらの命令は無用なオーバヘッドとなっていました。Ruby 2.5 では、`trace` 命令を用いる代わりに、動的書き換えを利用します。詳細は [&#x5b;Feature #14104&#x5d;](https://bugs.ruby-lang.org/issues/14104) をご覧ください。
+- ブロックパラメータによるブロック渡し（例：`def foo(&b); bar(&b); end`）が、"Lazy Proc allocation" というテクニックを用いることで、Ruby 2.4 と比べて約3倍高速化しました。渡されたブロックを、さらに他のメソッドに渡したい場合、ブロックパラメータを利用する必要があります。しかし、ブロックパラメータは `Proc` オブジェクトの生成が必要であり、ブロック渡しのためにはこれが大きなオーバヘッドとなっていました。"Lazy Proc allocation" はこの問題を解決します。詳細は [&#x5b;Feature #14045&#x14045;](https://bugs.ruby-lang.org/issues/14045) をご覧ください。
+- Mutex がよりコンパクトかつ高速に書き直されました。 [&#x5b;Feature #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
 - ERB は Ruby 2.4 に比べて 2 倍の速度でテンプレートからコードを生成するようになりました。
 - `Array#concat`、`Enumerable#sort_by`、`String#concat`、`String#index`、`Time#+`、などの組み込みメソッドの速度が向上しました。
 ## その他の注目すべき 2.4 からの変更点
-- SecureRandom は OpenSSL よりも OS の提供する乱数ソースを優先するようになりました。 [Bug #9569]
+- SecureRandom は OpenSSL よりも OS の提供する乱数ソースを優先するようになりました。 [&#x5b;Bug #9569&#x5d;](https://bugs.ruby-lang.org/issues/9569)
 - Onigmo 6.1.3 が取り込まれました。
   - [非包含オペレータ](https://github.com/k-takata/Onigmo/issues/87) が追加されています。
   - なお、この変更は [Ruby 2.4.1](https://www.ruby-lang.org/ja/news/2017/03/22/ruby-2-4-1-released/) にも取り込まれました。
+- Psych 3.0.2 が取り込まれました。
 - RubyGems 2.7.3 が取り込まれました。
 - RDoc 6.0.1 が取り込まれました。
   - [IRB ベースだった文法解析器が Ripper ベースになり](https://github.com/ruby/rdoc/pull/512)、ドキュメント生成速度が向上しています。
@@ -37,11 +38,11 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
     - ここ10年余りで累積した多数のバグが修正されています。
     - 近年 Ruby に追加された新しい文法がサポートされています。
 - サポートしている Unicode のバージョンが 10.0.0 に更新されました。
-- `Thread.report_on_exception` のデフォルト値が true になりました。マルチスレッドプログラムのデバッグの助けになるでしょう。 [Feature #14143]
+- `Thread.report_on_exception` のデフォルト値が true になりました。マルチスレッドプログラムのデバッグの助けになるでしょう。 [&#x5b;Feature #14143&#x5d;](https://bugs.ruby-lang.org/issues/14143)
 
-その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)を参照してください。
+その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)を参照してください。
 
-なお、こうした変更により、Ruby 2.4.0 以降では [6158 個のファイルに変更が加えられ、82778 行の挿入と 348515 行の削除が行われました](https://github.com/ruby/ruby/blob/v2_5_0/NEWS) !
+なお、こうした変更により、Ruby 2.4.0 以降では [6158 個のファイルに変更が加えられ、82778 行の挿入と 348515 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0) !
 
 メリークリスマス。Ruby とともに良いお年を！
 
