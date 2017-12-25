@@ -20,7 +20,7 @@ Ruby 2.5.0 is the first stable release of the Ruby 2.5 series. It introduces man
 - Struct.new can create classes that accept keyword arguments. [&#x5b;Feature #11925&#x5d;](https://bugs.ruby-lang.org/issues/11925)
 - Enumerable#any?,all?,none? and one? accept a pattern argument [&#x5b;Feature #11286&#x5d;](https://bugs.ruby-lang.org/issues/11286)
 - Top-level constant look-up is no longer available. [&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
-- One of our most loved libraries, pp.rb, is now automatically loaded.  You no longer have to write `require "pp"`. [&#x5b;Feature&#x5d;](https://bugs.ruby-lang.org/issues/14123)
+- One of our most loved libraries, pp.rb, is now automatically loaded.  You no longer have to write `require "pp"`. [&#x5b;Feature #14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
 - Print backtrace and error message in reverse order (oldest call first, most recent call last). When a long backtrace appears on your terminal (TTY), you can easily find the cause line at the bottom of the backtrace. Note that the order is reversed only when backtrace is printed out to the terminal directly. [&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
 ## Performance improvements
 - About 5-10% performance improvement by removing all `trace` instructions from overall bytecode (instruction sequences).
