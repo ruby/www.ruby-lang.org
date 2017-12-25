@@ -77,7 +77,7 @@ mengkonfirmasi terlebih dahulu apakah permintaan Anda akan diperhatikan atau
 tidak. Anda juga bisa mengirim *patch* langsung ke milis. Anda diharapkan
 untuk berpartisipasi aktif dalam diskusi tersebut.
 
-Mohon lihat [Patch Writer's Guide][writing patches] untuk beberapa tips,
+Mohon lihat [Patch Writer's Guide][writing-patches] untuk beberapa tips,
 langsung dari Matz, bagaimana *patch* Anda dipertimbangkan.
 
 Sebagai ringkasan, langkah-langkah mengirimkan *patch* adalah sebagai
