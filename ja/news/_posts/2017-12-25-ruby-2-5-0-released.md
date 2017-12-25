@@ -17,6 +17,7 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
 - `rescue`/`else`/`ensure` が `do`/`end` ブロック内にも直接書けるようになりました。 [&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
 - `yield_self` が追加されました。与えられたブロックをそのコンテキストでyieldします。`tap`と異なり、`yield_self` はブロックの値を返します。[&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
 - 分岐カバレッジとメソッドカバレッジの計測がサポートされました。分岐カバレッジは分岐が実行されたかどうかを表します。またメソッドカバレッジはメソッドが呼び出されたかどうかを測定します。テストスイートをこれらの新機能を用いて実行することにより、どの分岐およびメソッドが実行されたかを知ることができるため、テストスイートのカバレッジをより厳密に評価することができます。 [&#x5b;Feature #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
+- Hash#slice [&#x5b;Feature #8499&#x5d;](https://bugs.ruby-lang.org/issues/8499) とHash#transform_keys [&#x5b;Feature #13583&#x5d;](https://bugs.ruby-lang.org/issues/13583) が追加されました。
 - トップレベルの定数検索は削除されました。[&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
 - みなさんに最も愛されているライブラリの一つである pp.rb が自動的にロードされるようになりました。もう `require "pp"` と書く必要はありません。[&#x5b;Feature #14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
 - バックトレースおよびエラーメッセージが逆順(古い呼び出しが先、最新の呼び出しが後)に表示されるようになりました。これにより、長いバックトレースが端末(TTY)に表示された場合に、エラーの原因行が末尾に表示されて見つけやすくなります。なお、この逆順表示はこれらが端末に直接表示される場合にのみ有効となります。[&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
@@ -28,6 +29,7 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
 - Mutex がよりコンパクトかつ高速に書き直されました。 [&#x5b;Feature #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
 - ERB は Ruby 2.4 に比べて 2 倍の速度でテンプレートからコードを生成するようになりました。
 - `Array#concat`、`Enumerable#sort_by`、`String#concat`、`String#index`、`Time#+`、などの組み込みメソッドの速度が向上しました。
+- IO.copy_streamがcopy_file_range(2)を使ってコピーのオフロードを試みるようになりました。 [&#x5b;Feature #13867&#x5d;](https://bugs.ruby-lang.org/issues/13867)
 
 ## その他の注目すべき 2.4 からの変更点
 
@@ -46,6 +48,7 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
     - 近年 Ruby に追加された新しい文法がサポートされています。
 - サポートしている Unicode のバージョンが 10.0.0 に更新されました。
 - `Thread.report_on_exception` のデフォルト値が true になりました。マルチスレッドプログラムのデバッグの助けになるでしょう。 [&#x5b;Feature #14143&#x5d;](https://bugs.ruby-lang.org/issues/14143)
+- IO#writeが複数の引数を受け取るようになりました。 [&#x5b;Feature #9323&#x5d;](https://bugs.ruby-lang.org/issues/9323)
 
 その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)を参照してください。
 
