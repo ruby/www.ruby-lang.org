@@ -15,7 +15,7 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
 ## 新機能
 
 - `rescue`/`else`/`ensure` が `do`/`end` ブロック内にも直接書けるようになりました。 [&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
-- `yield_self` が追加されました。与えられたブロックをそのコンテキストでyieldします。`tap`と異なり、`yield_self` はブロックの値を返します。[&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
+- `yield_self` が追加されました。与えられたブロックをそのコンテキストでyieldします。`tap`と異なり、`yield_self` はブロックの値を返します。[&#x5b;Feature #6721&#x5d;](https://bugs.ruby-lang.org/issues/6721)
 - 分岐カバレッジとメソッドカバレッジの計測がサポートされました。分岐カバレッジは分岐が実行されたかどうかを表します。またメソッドカバレッジはメソッドが呼び出されたかどうかを測定します。テストスイートをこれらの新機能を用いて実行することにより、どの分岐およびメソッドが実行されたかを知ることができるため、テストスイートのカバレッジをより厳密に評価することができます。 [&#x5b;Feature #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
 - Hash#slice [&#x5b;Feature #8499&#x5d;](https://bugs.ruby-lang.org/issues/8499) とHash#transform_keys [&#x5b;Feature #13583&#x5d;](https://bugs.ruby-lang.org/issues/13583) が追加されました。
 - トップレベルの定数検索は削除されました。[&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
