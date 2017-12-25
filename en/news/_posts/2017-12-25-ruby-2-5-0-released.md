@@ -30,8 +30,10 @@ Ruby 2.5.0 is the first stable release of Ruby 2.5 series. It introduces many ne
 - ERB now generates code from a template which runs twice faster than Ruby 2.4.
 - Improve performance of some builtin methods including `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` and more.
 - IO.copy_stream uses copy_file_range(2) to copy offload [[Feature #13867]](https://bugs.ruby-lang.org/issues/13867)
+
 ## Other notable changes since 2.4
 - SecureRandom now prefers OS-provided sources over OpenSSL. [[Bug #9569]](https://bugs.ruby-lang.org/issues/9569)
+- Promote cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr, scanf, sdbm, stringio, strscan, webrick, zlib from standard libraries to default gems.
 - Update to [Onigmo](https://github.com/k-takata/Onigmo/) 6.1.3.
   - It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
   - Note that [Ruby 2.4.1](https://www.ruby-lang.org/en/news/2017/03/22/ruby-2-4-1-released/) also includes this change.
