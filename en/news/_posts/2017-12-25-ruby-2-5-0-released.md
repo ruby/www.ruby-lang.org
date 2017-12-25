@@ -12,6 +12,7 @@ We are pleased to announce the release of the Ruby 2.5.0.
 Ruby 2.5.0 is the first stable release of the Ruby 2.5 series. It introduces many new features and performance improvements. The notable changes are as follows:
 
 ## New Features
+
 - `rescue`/`else`/`ensure` are now allowed to be used directly with `do`/`end` blocks. [&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
 - Add `yield_self` to yield given block in its context. Unlike `tap`, it returns the result of the block. [&#x5b;Feature #6721&#x5d;](https://bugs.ruby-lang.org/issues/6721)
 - Support branch coverage and method coverage measurement.
@@ -20,9 +21,11 @@ Ruby 2.5.0 is the first stable release of the Ruby 2.5 series. It introduces man
 - Struct.new can create classes that accept keyword arguments. [&#x5b;Feature #11925&#x5d;](https://bugs.ruby-lang.org/issues/11925)
 - Enumerable#any?,all?,none? and one? accept a pattern argument [&#x5b;Feature #11286&#x5d;](https://bugs.ruby-lang.org/issues/11286)
 - Top-level constant look-up is no longer available. [&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
-- One of our most loved libraries, pp.rb, is now automatically loaded.  You no longer have to write `require "pp"`. [&#x5b;Feature&#x5d;](https://bugs.ruby-lang.org/issues/14123)
+- One of our most loved libraries, pp.rb, is now automatically loaded.  You no longer have to write `require "pp"`. [&#x5b;Feature #14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
 - Print backtrace and error message in reverse order (oldest call first, most recent call last). When a long backtrace appears on your terminal (TTY), you can easily find the cause line at the bottom of the backtrace. Note that the order is reversed only when backtrace is printed out to the terminal directly. [&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
+
 ## Performance improvements
+
 - About 5-10% performance improvement by removing all `trace` instructions from overall bytecode (instruction sequences).
   The `trace` instruction was added to support the `TracePoint`. However, in most cases, `TracePoint` is not used and `trace` instructions are pure overhead. Instead, now we use a dynamic instrumentation technique. See [&#x5b;Feature #14104&#x5d;](https://bugs.ruby-lang.org/issues/14104) for more details.
 - Block passing by a block parameter (e.g. `def foo(&b); bar(&b); end`) is about 3 times faster than Ruby 2.4 by "Lazy Proc allocation" technique. [&#x5b;Feature #14045&#x5d;](https://bugs.ruby-lang.org/issues/14045)
@@ -32,6 +35,7 @@ Ruby 2.5.0 is the first stable release of the Ruby 2.5 series. It introduces man
 - IO.copy_stream uses copy_file_range(2) to copy offload [&#x5b;Feature #13867&#x5d;](https://bugs.ruby-lang.org/issues/13867)
 
 ## Other notable changes since 2.4
+
 - SecureRandom now prefers OS-provided sources over OpenSSL. [&#x5b;Bug #9569&#x5d;](https://bugs.ruby-lang.org/issues/9569)
 - Promote cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr, scanf, sdbm, stringio, strscan, webrick, zlib from standard libraries to default gems.
 - Update to [Onigmo](https://github.com/k-takata/Onigmo/) 6.1.3.

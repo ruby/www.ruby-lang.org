@@ -13,20 +13,27 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
 その一部を以下に紹介します。
 
 ## 新機能
+
 - `rescue`/`else`/`ensure` が `do`/`end` ブロック内にも直接書けるようになりました。 [&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
 - `yield_self` が追加されました。与えられたブロックをそのコンテキストでyieldします。`tap`と異なり、`yield_self` はブロックの値を返します。[&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
 - 分岐カバレッジとメソッドカバレッジの計測がサポートされました。分岐カバレッジは分岐が実行されたかどうかを表します。またメソッドカバレッジはメソッドが呼び出されたかどうかを測定します。テストスイートをこれらの新機能を用いて実行することにより、どの分岐およびメソッドが実行されたかを知ることができるため、テストスイートのカバレッジをより厳密に評価することができます。 [&#x5b;Feature #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
 - トップレベルの定数検索は削除されました。[&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
-- みなさんに最も愛されているライブラリの一つである pp.rb が自動的にロードされるようになりました。もう `require "pp"` と書く必要はありません。[&#x5b;Feature&#x5d;](https://bugs.ruby-lang.org/issues/14123)
+- みなさんに最も愛されているライブラリの一つである pp.rb が自動的にロードされるようになりました。もう `require "pp"` と書く必要はありません。[&#x5b;Feature #14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
 - バックトレースおよびエラーメッセージが逆順(古い呼び出しが先、最新の呼び出しが後)に表示されるようになりました。これにより、長いバックトレースが端末(TTY)に表示された場合に、エラーの原因行が末尾に表示されて見つけやすくなります。なお、この逆順表示はこれらが端末に直接表示される場合にのみ有効となります。[&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
+
 ## パフォーマンスの改善
+
 - 命令列中のすべての `trace` 命令を削除することで、5～10% の高速化を実現しました。`trace` 命令は `TracePoint` をサポートするために挿入されていましたが、ほとんどの場合、`TracePoint` は有効にされず、これらの命令は無用なオーバヘッドとなっていました。Ruby 2.5 では、`trace` 命令を用いる代わりに、動的書き換えを利用します。詳細は [&#x5b;Feature #14104&#x5d;](https://bugs.ruby-lang.org/issues/14104) をご覧ください。
 - ブロックパラメータによるブロック渡し（例：`def foo(&b); bar(&b); end`）が、"Lazy Proc allocation" というテクニックを用いることで、Ruby 2.4 と比べて約3倍高速化しました。渡されたブロックを、さらに他のメソッドに渡したい場合、ブロックパラメータを利用する必要があります。しかし、ブロックパラメータは `Proc` オブジェクトの生成が必要であり、ブロック渡しのためにはこれが大きなオーバヘッドとなっていました。"Lazy Proc allocation" はこの問題を解決します。詳細は [&#x5b;Feature #14045&#x5d;](https://bugs.ruby-lang.org/issues/14045) をご覧ください。
 - Mutex がよりコンパクトかつ高速に書き直されました。 [&#x5b;Feature #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
 - ERB は Ruby 2.4 に比べて 2 倍の速度でテンプレートからコードを生成するようになりました。
 - `Array#concat`、`Enumerable#sort_by`、`String#concat`、`String#index`、`Time#+`、などの組み込みメソッドの速度が向上しました。
+
 ## その他の注目すべき 2.4 からの変更点
+
 - SecureRandom は OpenSSL よりも OS の提供する乱数ソースを優先するようになりました。 [&#x5b;Bug #9569&#x5d;](https://bugs.ruby-lang.org/issues/9569)
+- cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr, scanf, sdbm, stringio, strscan, webrick, zlib が
+  default gems になりました
 - Onigmo 6.1.3 が取り込まれました。
   - [非包含オペレータ](https://github.com/k-takata/Onigmo/issues/87) が追加されています。
   - なお、この変更は [Ruby 2.4.1](https://www.ruby-lang.org/ja/news/2017/03/22/ruby-2-4-1-released/) にも取り込まれました。
