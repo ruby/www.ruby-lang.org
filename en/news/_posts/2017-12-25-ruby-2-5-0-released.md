@@ -50,7 +50,7 @@ Ruby 2.5.0 is the first stable release of the Ruby 2.5 series. It introduces man
 See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0) for details.
 
 With those changes,
-[6158 files changed, 82778 insertions(+), 348515 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
+[6158 files changed, 348484 insertions(+), 82747 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
 since Ruby 2.4.0!
 
 Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.5!
