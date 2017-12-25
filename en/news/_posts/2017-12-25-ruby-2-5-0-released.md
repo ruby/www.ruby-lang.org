@@ -24,7 +24,7 @@ The notable changes are as follows:
 * Support branch coverage and method coverage measurement.
   The branch coverage indicates which branches are executed and which are not.
   The method coverage indicates which methods are invoked and which are not.
-  By running the test suite with these new features, you will know which
+  By running a test suite with these new features, you will know which
   branches and methods are executed, and evaluate total coverage of the test
   suite more strictly.
   [&#x5b;Feature #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
@@ -32,7 +32,7 @@ The notable changes are as follows:
   and Hash#transform_keys [&#x5b;Feature #13583&#x5d;](https://bugs.ruby-lang.org/issues/13583)
 * Struct.new can create classes that accept keyword arguments.
   [&#x5b;Feature #11925&#x5d;](https://bugs.ruby-lang.org/issues/11925)
-* Enumerable#any?,all?,none? and one? accept a pattern argument
+* Enumerable#any?, all?, none?, and one? accept a pattern argument.
   [&#x5b;Feature #11286&#x5d;](https://bugs.ruby-lang.org/issues/11286)
 * Top-level constant look-up is no longer available.
   [&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
@@ -42,7 +42,7 @@ The notable changes are as follows:
 * Print backtrace and error message in reverse order (oldest call first,
   most recent call last). When a long backtrace appears on your terminal (TTY),
   you can easily find the cause line at the bottom of the backtrace.
-  Note that the order is reversed only when backtrace is printed out
+  Note that the order is reversed only when the backtrace is printed out
   to the terminal directly.
   [&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
 
@@ -59,10 +59,10 @@ The notable changes are as follows:
   [&#x5b;Feature #14045&#x5d;](https://bugs.ruby-lang.org/issues/14045)
 * Mutex is rewritten to be smaller and faster.
   [&#x5b;Feature #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
-* ERB now generates code from a template which runs twice as fast as Ruby 2.4.
+* ERB now generates code from a template twice as fast as Ruby 2.4.
 * Improve performance of some built-in methods including `Array#concat`,
-  `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` and more.
-* IO.copy_stream uses copy_file_range(2) to copy offload
+  `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+`, and more.
+* IO.copy_stream uses copy_file_range(2) to copy offload.
   [&#x5b;Feature #13867&#x5d;](https://bugs.ruby-lang.org/issues/13867)
 
 ## Other notable changes since 2.4
@@ -86,7 +86,7 @@ The notable changes are as follows:
 * `Thread.report_on_exception` is now set to true by default.
   This change helps debugging of multi-threaded programs.
   [&#x5b;Feature #14143&#x5d;](https://bugs.ruby-lang.org/issues/14143)
-* IO#write now receives multiple arguments
+* IO#write now receives multiple arguments.
   [&#x5b;Feature #9323&#x5d;](https://bugs.ruby-lang.org/issues/9323)
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS)
