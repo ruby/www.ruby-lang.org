@@ -41,6 +41,8 @@ It introduces many new features and performance improvements, for example:
 ## Other notable changes since 2.4
 
 * SecureRandom now prefers OS-provided sources over OpenSSL. [&#x5B;Bug #9569&#x5D;](https://bugs.ruby-lang.org/issues/9569)
+* Promote cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr, scanf, sdbm, stringio, strscan, webrick, zlib from
+  standard libraries to default gems.
 * Update to Onigmo 6.1.3.
   It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
   Note that Ruby 2.4.1 also includes this change.
