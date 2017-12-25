@@ -4,7 +4,7 @@ title: "Ruby 2.5.0 リリース"
 author: "naruse"
 translator:
 date: 2017-12-25 00:00:00 +0000
-lang: en
+lang: ja
 ---
 
 Ruby 2.5シリーズの最初の安定版である、Ruby 2.5.0がリリースされました。
@@ -42,7 +42,7 @@ Ruby 2.5.0には、多くの新しい機能やパフォーマンスの改善が�
 
 その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)を参照してください。
 
-なお、こうした変更により、Ruby 2.4.0 以降では [6158 個のファイルに変更が加えられ、82778 行の挿入と 348515 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0) !
+なお、こうした変更により、Ruby 2.4.0 以降では [6158 個のファイルに変更が加えられ、348515 行の挿入と 82748 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0) !
 
 メリークリスマス。Ruby とともに良いお年を！
 
