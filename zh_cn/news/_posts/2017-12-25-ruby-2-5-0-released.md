@@ -25,6 +25,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 - 逆序打印（从旧到新）调用跟踪和错误消息。当在终端（TTY）中用较长的调用跟踪信息时，你可以从最底部看到直接触发问题的行。需要注意的是，仅当在直接输出到终端是，才会逆序打印。[&#x5b;功能 #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [试验性]
 
 ## 性能提升
+
 - 通过在字节码中移除了全部 `trace` 指令提升了大约 5-10% 的性能。`trace` 指令的引入是为了提供 `TracePoint` 的支持。然而，在大多数情况，`TracePoint` 不会被用到，`trace` 指令增加了额外的开销。作为替代，我们实现了一个动态指令技术，详情见 [&#x5b;功能 #14104&#x5d;](https://bugs.ruby-lang.org/issues/14104)。
 - 通过懒惰 Proc 分配使 block 参数传递代码块（例如 `def foo(&b); bar(&b); end`）的性能相较于 Ruby 2.4 提升了约 3 倍。[&#x5b;功能 #14045]](https://bugs.ruby-lang.org/issues/14045)
 - 互斥锁的复写变得更轻量和快速。[&#x5b;功能 #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
