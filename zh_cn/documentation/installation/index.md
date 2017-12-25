@@ -25,7 +25,7 @@ lang: zh_cn
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [OS X](#homebrew)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
   * [其他发行版](#other-systems)
 * [安装工具](#installers)
   * [ruby-build](#ruby-build)
@@ -57,8 +57,6 @@ Debian GNU/Linux 和 Ubuntu 使用 apt 包管理器。用法如下：
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-撰写本文时，在 Debian 和 Ubuntu 下，`ruby-full` 包提供的是老旧的 Ruby 2.3.1。
-
 ### yum（CentOS、Fedora 或 RHEL）
 {: #yum}
 
@@ -80,7 +78,7 @@ Gentoo 使用 portage 包管理器。
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-一般来说，这将安装 1.9 和 2.0 版本，不过还有更多版本可供安装。如果想安装指定的版本，要在 `make.conf` 文件中设置 `RUBY_TARGETS`。详见 [Gentoo Ruby Project 网站][gentoo-ruby]。
+安装指定的版本，要在 `make.conf` 文件中设置 `RUBY_TARGETS`。详见 [Gentoo Ruby Project 网站][gentoo-ruby]。
 
 
 ### pacman（Arch Linux）
@@ -98,7 +96,7 @@ $ sudo pacman -S ruby
 ### Homebrew（OS X）
 {: #homebrew}
 
-OS X El Capitan、Yosemite 和 Mavericks 内置了 Ruby 2.0。OS X Mountain Lion、Lion 和 Snow Leopard 内置了 Ruby 1.8.7。
+macOS (High) Sierra 和 OS X El Capitan 已内置了 Ruby 2.0。
 
 许多 OS X 用户使用 [Homebrew][homebrew] 作为包管理器。用 Homebrew 能够非常简单地获取到最新版的 Ruby：
 
@@ -109,10 +107,8 @@ $ brew install ruby
 这将安装最新版的 Ruby。
 
 
-### Solaris 和 OpenIndiana
-{: #solaris}
-
-[Sunfreeware][sunfreeware] 上的 Solaris 8 到 10 内置了 Ruby 1.8.7，[Blastwave][blastwave] 同样如此。Ruby 1.9.2p0 在 [Sunfreeware][sunfreeware] 上也有，但是这一版已经过时。
+### OpenIndiana
+{: #openindiana}
 
 若想在 [OpenIndiana][openindiana] 上安装 Ruby，要使用 [Image Packaging System (IPS)][opensolaris-pkg] 客户端。这将直接从 OpenSolaris 代码库安装 Ruby 1.9 和 RubyGems：
 
@@ -219,8 +215,6 @@ $ sudo make install
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
