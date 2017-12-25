@@ -13,7 +13,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 
 ## 新特性
 
-- 允许在 do/end 中直接使用 rescue/else/ensure。[&#x5b;功能 #12906&#x5d;]((https://bugs.ruby-lang.org/issues/12906))
+- 允许在 do/end 中直接使用 rescue/else/ensure。[&#x5b;功能 #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
 - 新增 `yield_self` 来使用当前上下文 yield 代码块。不同于 `tap`，此方法会返回代码块的运行结果。[&#x5b;功能 #6721&#x5d;](https://bugs.ruby-lang.org/issues/6721)
 - 支持测量分支代码覆盖和方法代码覆盖。分支代码覆盖指检查哪些分支被覆盖到，哪些没有。而方法覆盖在指可以测量方法是否被调用。基于这些新特性运行你的测试用例，你可以精确地知道哪些分支和方法被运行，并更精确地计算测试的代码覆盖程度。[&#x5b;功能 #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
 - 新增 Hash#slice [&#x5b;功能 #8499&#x5d;](https://bugs.ruby-lang.org/issues/8499) 和 Hash#transform_keys。[&#x5b;功能 #13583&#x5d;](https://bugs.ruby-lang.org/issues/13583)
@@ -26,7 +26,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 ## 性能提升
 
 - 通过在字节码中移除了全部 `trace` 指令提升了大约 5-10% 的性能。`trace` 指令的引入是为了提供 `TracePoint` 的支持。然而，在大多数情况，`TracePoint` 不会被用到，`trace` 指令增加了额外的开销。作为替代，我们实现了一个动态指令技术，详情见 [&#x5b;功能 #14104&#x5d;](https://bugs.ruby-lang.org/issues/14104)。
-- 通过懒惰 Proc 分配使 block 参数传递代码块（例如 `def foo(&b); bar(&b); end`）的性能相较于 Ruby 2.4 提升了约 3 倍。[&#x5b;功能 #14045]](https://bugs.ruby-lang.org/issues/14045)
+- 通过懒惰 Proc 分配使 block 参数传递代码块（例如 `def foo(&b); bar(&b); end`）的性能相较于 Ruby 2.4 提升了约 3 倍。[&#x5b;功能 #14045&#x5d;](https://bugs.ruby-lang.org/issues/14045)
 - 互斥锁的复写变得更轻量和快速。[&#x5b;功能 #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
 - ERB 现在模板生成代码的速度相较于 Ruby 2.4 提升 2 倍。
 - 提升了多个内置方法例如 `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 等。
@@ -44,8 +44,8 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 - 更新到 Rubygems 2.7.3。
 - 更新到 RDoc 6.0.1。
   - [词法分析程序由 IRB 更换为 Ripper](https://github.com/ruby/rdoc/pull/512)，极大提升了生成文档的速度。
-  - 修正过去这些年存在的缺陷
-  - 支持近些年 Ruby 的新句法
+  - 修正过去这些年存在的缺陷。
+  - 支持近些年 Ruby 的新句法。
 - 更新到 Unicode 10.0.0。
 - `Thread.report_on_exception` 默认值现为 true，这对调试多线程程序很有帮助。[功能 #14143]
 - IO#write 现接受多个参数 [&#x5b;功能 #9323&#x5d;](https://bugs.ruby-lang.org/issues/9323)
