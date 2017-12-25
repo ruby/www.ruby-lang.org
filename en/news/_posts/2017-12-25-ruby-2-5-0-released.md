@@ -44,7 +44,7 @@ Ruby 2.5.0 is the first stable release of the Ruby 2.5 series. It introduces man
 - Update to Psych 3.0.2.
 - Update to RubyGems 2.7.3.
 - Update to RDoc 6.0.1.
-  - [Switch](https://github.com/ruby/rdoc/pull/512) [](https://github.com/ruby/rdoc/pull/512)[the](https://github.com/ruby/rdoc/pull/512) [lexer from IRB based one to Ripper](https://github.com/ruby/rdoc/pull/512). This dramatically improves the performance of document generation.
+  - [Switch the lexer from IRB based one to Ripper](https://github.com/ruby/rdoc/pull/512). This dramatically improves the performance of document generation.
   - Fix a significant amount of bugs that existed over ten years.
   - Add support for new Ruby syntax from the latest versions.
 - Update supported Unicode version to 10.0.0.
