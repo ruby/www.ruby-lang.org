@@ -30,8 +30,8 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 - 通过懒惰 Proc 分配使 block 参数传递代码块（例如 `def foo(&b); bar(&b); end`）的性能相较于 Ruby 2.4 提升了约 3 倍。[&#x5b;功能 #14045]](https://bugs.ruby-lang.org/issues/14045)
 - 互斥锁的复写变得更轻量和快速。[&#x5b;功能 #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
 - ERB 现在模板生成代码的速度相较于 Ruby 2.4 提升 2 倍。
-- 提升了多个内置方法例如 Array#concat, Enumerable#sort_by, String#concat, String#index, Time#+ 等。
-- `IO.copy_stream` 使用 `copy_file_range(2)` 来拷贝负载。[&#x5b;功能 #13867&#x5d;](https://bugs.ruby-lang.org/issues/13867)
+- 提升了多个内置方法例如 `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 等。
+- IO.copy\_stream 使用 copy\_file\_range(2) 来拷贝负载。[&#x5b;功能 #13867&#x5d;](https://bugs.ruby-lang.org/issues/13867)
 
 ## 与 2.4 相比的重要变化
 
@@ -53,7 +53,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 
 详见 [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS) 或[提交记录](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)以查看详情。
 
-自 Ruby 2.4.0 以来，已有 [6158 个文件更改，82778 行增加(+)，348515 行删减(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)！
+自 Ruby 2.4.0 以来，已有 [6158 个文件更改，348484 行增加(+)，82747 行删减(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)！
 
 圣诞快乐！享受你 Ruby 2.5 的编程之旅吧！
 
