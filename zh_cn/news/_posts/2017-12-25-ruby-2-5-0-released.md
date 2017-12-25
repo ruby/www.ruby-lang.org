@@ -21,7 +21,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 - Enumerable#any?, all?, none? 和 one? 可以接受一个模式作为参数。[&#x5b;功能 #11286&#x5d;](https://bugs.ruby-lang.org/issues/11286)
 - 删除顶层常量查找。[&#x5b;功能 #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
 - 我们最喜爱的库之一 pp.rb，现已自动加载。无需手动写 `require "pp"` 来加载。[&#x5b;功能 #14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
-- 逆序打印（从旧到新）调用跟踪和错误消息。当在终端（TTY）中用较长的调用跟踪信息时，你可以从最底部看到直接触发问题的行。需要注意的是，仅当在直接输出到终端是，才会逆序打印。[&#x5b;功能 #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [试验性]
+- 逆序打印（从旧到新）调用跟踪和错误消息。当在终端（TTY）中用较长的调用跟踪信息时，你可以从最底部看到直接触发问题的行。需要注意的是，仅当在直接输出到终端时，才会逆序打印。[&#x5b;功能 #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [试验性]
 
 ## 性能提升
 
