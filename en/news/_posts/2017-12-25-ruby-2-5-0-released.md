@@ -7,7 +7,7 @@ date: 2017-12-25 00:00:00 +0000
 lang: en
 ---
 
-We are pleased to announce the release of Ruby 2.5.0.
+We are pleased to announce the release of the Ruby 2.5.0.
 
 Ruby 2.5.0 is the first stable release of Ruby 2.5 series. It introduces many new features and performance improvements. The notable changes are as follows:
 
