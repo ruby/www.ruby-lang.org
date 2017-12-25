@@ -14,30 +14,30 @@ lang: ko
 
 ## 새 기능
 
-- `rescue`/`else`/`ensure`가 do/end 블록 내부에서도 직접 사용할 수 있게 됩니다. [&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
-- `yield_self`가 추가되었습니다. 해당 컨텍스트에 주어진 블록을 넘깁니다. `tab`과는 다르게, 블록의 실행 결과를 반환합니다. [&#x5b;Feature #6721&#x5d;](https://bugs.ruby-lang.org/issues/6721)
+- `rescue`/`else`/`ensure`가 do/end 블록 내부에서도 직접 사용할 수 있게 됩니다. [[Feature #12906]](https://bugs.ruby-lang.org/issues/12906)
+- `yield_self`가 추가되었습니다. 해당 컨텍스트에 주어진 블록을 넘깁니다. `tab`과는 다르게, 블록의 실행 결과를 반환합니다. [[Feature #6721]](https://bugs.ruby-lang.org/issues/6721)
 - 분기 커버리지와 메소드 커버리지 측정을 지원합니다.
-  분기 커버리지는 분기가 실행되었는지 아닌지를 나타냅니다. 또한 메소드 커버리지는 메소드가 호출되었는지 아닌지 측정합니다. 이 기능들을 이용하여 테스트 스위트를 실행하여 어떤 분기, 메소드가 실행되었는지를 알 수 있게 되므로, 테스트 스위트의 커버리지를 좀 더 엄밀하게 평가할 수 있습니다. [&#x5b;Feature #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
-- Hash#slice [&#x5b;Feature #8499&#x5d;](https://bugs.ruby-lang.org/issues/8499)와 Hash#transform_keys [&#x5b;Feature #13583&#x5d;](https://bugs.ruby-lang.org/issues/13583)가 추가됩니다.
-- Struct.new로 키워드 인수를 받는 클래스를 생성할 수 있습니다. [&#x5b;Feature #11925&#x5d;](https://bugs.ruby-lang.org/issues/11925)
-- Enumerable#any?, all?, none?, one?이 패턴 인수를 받게 됩니다. [&#x5b;Feature #11286&#x5d;](https://bugs.ruby-lang.org/issues/11286)
-- 최상위 상수 탐색을 더 이상 지원하지 않습니다. [&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
-- 많은 사랑을 받고 있는 라이브러리중 하나인 pp.rb가 이제 자동으로 로딩됩니다. 이제 더 이상 `require "pp"`를 쓸 필요가 없습니다. [&#x5b;Feature #14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
-- 백트레이스와 에러 메시지가 역순(오래된 호출이 위, 최신의 호출이 아래)으로 표시됩니다. 이에 따라, 긴 백트레이스가 터미널(TTY)에 표시되는 경우, 에러를 야기한 라인의 정보가 마지막에 표시되므로 발견하기 쉬워집니다. 또한, 이 역순 표시는 터미널에 직접 출력되는 경우에만 적용됩니다. [&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
+  분기 커버리지는 분기가 실행되었는지 아닌지를 나타냅니다. 또한 메소드 커버리지는 메소드가 호출되었는지 아닌지 측정합니다. 이 기능들을 이용하여 테스트 스위트를 실행하여 어떤 분기, 메소드가 실행되었는지를 알 수 있게 되므로, 테스트 스위트의 커버리지를 좀 더 엄밀하게 평가할 수 있습니다. [[Feature #13901]](https://bugs.ruby-lang.org/issues/13901)
+- Hash#slice [[Feature #8499]](https://bugs.ruby-lang.org/issues/8499)와 Hash#transform_keys [[Feature #13583]](https://bugs.ruby-lang.org/issues/13583)가 추가됩니다.
+- Struct.new로 키워드 인수를 받는 클래스를 생성할 수 있습니다. [[Feature #11925]](https://bugs.ruby-lang.org/issues/11925)
+- Enumerable#any?, all?, none?, one?이 패턴 인수를 받게 됩니다. [[Feature #11286]](https://bugs.ruby-lang.org/issues/11286)
+- 최상위 상수 탐색을 더 이상 지원하지 않습니다. [[Feature #11547]](https://bugs.ruby-lang.org/issues/11547)
+- 많은 사랑을 받고 있는 라이브러리중 하나인 pp.rb가 이제 자동으로 로딩됩니다. 이제 더 이상 `require "pp"`를 쓸 필요가 없습니다. [[Feature #14123]](https://bugs.ruby-lang.org/issues/14123)
+- 백트레이스와 에러 메시지가 역순(오래된 호출이 위, 최신의 호출이 아래)으로 표시됩니다. 이에 따라, 긴 백트레이스가 터미널(TTY)에 표시되는 경우, 에러를 야기한 라인의 정보가 마지막에 표시되므로 발견하기 쉬워집니다. 또한, 이 역순 표시는 터미널에 직접 출력되는 경우에만 적용됩니다. [[Feature #8661]](https://bugs.ruby-lang.org/issues/8661) [experimental]
 
 ## 성능 개선
 
 - 전체 바이트 코드(instruction sequences)에서 `trace` 명령이 제거되어 성능이 5-10% 향상됩니다.
-  `trace` 명령은 `TracePoint`를 지원하기 위해서 삽입되었습니다만, 대부분의 경우, `TracePoint`는 사용되지 않기 때문에 쓸모 없는 오버헤드였습니다. 이 대신 동적으로 갱신하는 방식을 사용하게 됩니다. 자세한 설명은 [&#x5b;Feature #14104&#x5d;](https://bugs.ruby-lang.org/issues/14104)를 확인하세요.
-- 블록 매개변수에 의한 블록 패스(예: `def foo(&b); bar(&b); end`)가 '지연 Proc 할당'을 통해 루비 2.4보다 약 3배 빨라집니다. [&#x5b;Feature #14045&#x5d;](https://bugs.ruby-lang.org/issues/14045)
-- Mutex가 작고 빠르게 재작성되었습니다. [&#x5b;Feature #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
+  `trace` 명령은 `TracePoint`를 지원하기 위해서 삽입되었습니다만, 대부분의 경우, `TracePoint`는 사용되지 않기 때문에 쓸모 없는 오버헤드였습니다. 이 대신 동적으로 갱신하는 방식을 사용하게 됩니다. 자세한 설명은 [[Feature #14104]](https://bugs.ruby-lang.org/issues/14104)를 확인하세요.
+- 블록 매개변수에 의한 블록 패스(예: `def foo(&b); bar(&b); end`)가 '지연 Proc 할당'을 통해 루비 2.4보다 약 3배 빨라집니다. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
+- Mutex가 작고 빠르게 재작성되었습니다. [[Feature #13517]](https://bugs.ruby-lang.org/issues/13517)
 - ERB는 루비 2.4와 비교하여 2배 빠른 속도로 템플릿으로부터 코드를 생성합니다.
 - `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 등의 내장 메소드의 속도가 향상되었습니다.
-- IO.copy_stream이 복사 오프로드를 위해서 copy_file_range(2)를 사용합니다. [&#x5b;Feature #13867&#x5d;](https://bugs.ruby-lang.org/issues/13867)
+- IO.copy_stream이 복사 오프로드를 위해서 copy_file_range(2)를 사용합니다. [[Feature #13867]](https://bugs.ruby-lang.org/issues/13867)
 
 ## 2.4 이후로 눈에 띄는 변경점
 
-- SecureRandom은 이제 OpenSSL보다 OS가 제공하는 난수 소스를 우선합니다. [&#x5b;Bug #9569&#x5d;](https://bugs.ruby-lang.org/issues/9569)
+- SecureRandom은 이제 OpenSSL보다 OS가 제공하는 난수 소스를 우선합니다. [[Bug #9569]](https://bugs.ruby-lang.org/issues/9569)
 - cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr, scanf, sdbm, stringio, strscan, webrick, zlib이 표준 라이브러리에서 기본 gem으로 변경됩니다.
 - [Onigmo](https://github.com/k-takata/Onigmo/)가 6.1.3으로 갱신되었습니다.
   - 이는 [비포함 연산자](https://github.com/k-takata/Onigmo/issues/87)를 추가합니다.
@@ -49,8 +49,8 @@ lang: ko
   - 근 수년동안 쌓였던 버그들이 수정됩니다.
   - 최근 루비에 추가된 새로운 문법이 지원됩니다.
 - 유니코드 지원 버전이 10.0.0으로 갱신되었습니다.
-- `Thread.report_on_exception`의 기본값이 true로 변경됩니다. 이 변경은 멀티 스레드 프로그램을 디버깅하기 쉽도록 해줍니다. [&#x5b;Feature #14143&#x5d;](https://bugs.ruby-lang.org/issues/14143)
-- IO#write가 여러 인수를 받을 수 있게 됩니다. [&#x5b;Feature #9323&#x5d;](https://bugs.ruby-lang.org/issues/9323)
+- `Thread.report_on_exception`의 기본값이 true로 변경됩니다. 이 변경은 멀티 스레드 프로그램을 디버깅하기 쉽도록 해줍니다. [[Feature #14143]](https://bugs.ruby-lang.org/issues/14143)
+- IO#write가 여러 인수를 받을 수 있게 됩니다. [[Feature #9323]](https://bugs.ruby-lang.org/issues/9323)
 
 [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS)나 [커밋 로그](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)에서
 더 자세한 설명을 확인할 수 있습니다.

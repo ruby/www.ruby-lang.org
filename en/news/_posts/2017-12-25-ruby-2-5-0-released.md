@@ -17,34 +17,34 @@ The notable changes are as follows:
 
 * `rescue`/`else`/`ensure` are now allowed to be used directly with
   `do`/`end` blocks.
-  [&#x5b;Feature #12906&#x5d;](https://bugs.ruby-lang.org/issues/12906)
+  [[Feature #12906]](https://bugs.ruby-lang.org/issues/12906)
 * Add `yield_self` to yield given block in its context.
   Unlike `tap`, it returns the result of the block.
-  [&#x5b;Feature #6721&#x5d;](https://bugs.ruby-lang.org/issues/6721)
+  [[Feature #6721]](https://bugs.ruby-lang.org/issues/6721)
 * Support branch coverage and method coverage measurement.
   The branch coverage indicates which branches are executed and which are not.
   The method coverage indicates which methods are invoked and which are not.
   By running a test suite with these new features, you will know which
   branches and methods are executed, and evaluate total coverage of the test
   suite more strictly.
-  [&#x5b;Feature #13901&#x5d;](https://bugs.ruby-lang.org/issues/13901)
-* Hash#slice [&#x5b;Feature #8499&#x5d;](https://bugs.ruby-lang.org/issues/8499)
-  and Hash#transform_keys [&#x5b;Feature #13583&#x5d;](https://bugs.ruby-lang.org/issues/13583)
+  [[Feature #13901]](https://bugs.ruby-lang.org/issues/13901)
+* Hash#slice [[Feature #8499]](https://bugs.ruby-lang.org/issues/8499)
+  and Hash#transform_keys [[Feature #13583]](https://bugs.ruby-lang.org/issues/13583)
 * Struct.new can create classes that accept keyword arguments.
-  [&#x5b;Feature #11925&#x5d;](https://bugs.ruby-lang.org/issues/11925)
+  [[Feature #11925]](https://bugs.ruby-lang.org/issues/11925)
 * Enumerable#any?, all?, none?, and one? accept a pattern argument.
-  [&#x5b;Feature #11286&#x5d;](https://bugs.ruby-lang.org/issues/11286)
+  [[Feature #11286]](https://bugs.ruby-lang.org/issues/11286)
 * Top-level constant look-up is no longer available.
-  [&#x5b;Feature #11547&#x5d;](https://bugs.ruby-lang.org/issues/11547)
+  [[Feature #11547]](https://bugs.ruby-lang.org/issues/11547)
 * One of our most loved libraries, pp.rb, is now automatically loaded.
   You no longer have to write `require "pp"`.
-  [&#x5b;Feature #14123&#x5d;](https://bugs.ruby-lang.org/issues/14123)
+  [[Feature #14123]](https://bugs.ruby-lang.org/issues/14123)
 * Print backtrace and error message in reverse order (oldest call first,
   most recent call last). When a long backtrace appears on your terminal (TTY),
   you can easily find the cause line at the bottom of the backtrace.
   Note that the order is reversed only when the backtrace is printed out
   to the terminal directly.
-  [&#x5b;Feature #8661&#x5d;](https://bugs.ruby-lang.org/issues/8661) [experimental]
+  [[Feature #8661]](https://bugs.ruby-lang.org/issues/8661) [experimental]
 
 ## Performance improvements
 
@@ -53,22 +53,22 @@ The notable changes are as follows:
   The `trace` instruction was added to support the `TracePoint`.
   However, in most cases, `TracePoint` is not used and `trace` instructions
   are pure overhead. Instead, now we use a dynamic instrumentation technique.
-  See [&#x5b;Feature #14104&#x5d;](https://bugs.ruby-lang.org/issues/14104) for more details.
+  See [[Feature #14104]](https://bugs.ruby-lang.org/issues/14104) for more details.
 * Block passing by a block parameter (e.g. `def foo(&b); bar(&b); end`)
   is about 3 times faster than Ruby 2.4 by "Lazy Proc allocation" technique.
-  [&#x5b;Feature #14045&#x5d;](https://bugs.ruby-lang.org/issues/14045)
+  [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
 * Mutex is rewritten to be smaller and faster.
-  [&#x5b;Feature #13517&#x5d;](https://bugs.ruby-lang.org/issues/13517)
+  [[Feature #13517]](https://bugs.ruby-lang.org/issues/13517)
 * ERB now generates code from a template twice as fast as Ruby 2.4.
 * Improve performance of some built-in methods including `Array#concat`,
   `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+`, and more.
 * IO.copy_stream uses copy_file_range(2) to copy offload.
-  [&#x5b;Feature #13867&#x5d;](https://bugs.ruby-lang.org/issues/13867)
+  [[Feature #13867]](https://bugs.ruby-lang.org/issues/13867)
 
 ## Other notable changes since 2.4
 
 * SecureRandom now prefers OS-provided sources over OpenSSL.
-  [&#x5b;Bug #9569&#x5d;](https://bugs.ruby-lang.org/issues/9569)
+  [[Bug #9569]](https://bugs.ruby-lang.org/issues/9569)
 * Promote cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr,
   scanf, sdbm, stringio, strscan, webrick, zlib from standard libraries
   to default gems.
@@ -85,9 +85,9 @@ The notable changes are as follows:
 * Update supported Unicode version to 10.0.0.
 * `Thread.report_on_exception` is now set to true by default.
   This change helps debugging of multi-threaded programs.
-  [&#x5b;Feature #14143&#x5d;](https://bugs.ruby-lang.org/issues/14143)
+  [[Feature #14143]](https://bugs.ruby-lang.org/issues/14143)
 * IO#write now receives multiple arguments.
-  [&#x5b;Feature #9323&#x5d;](https://bugs.ruby-lang.org/issues/9323)
+  [[Feature #9323]](https://bugs.ruby-lang.org/issues/9323)
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS)
 or [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
