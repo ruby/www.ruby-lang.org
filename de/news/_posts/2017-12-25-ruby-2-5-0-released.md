@@ -10,7 +10,7 @@ lang: de
 Wir freuen uns, die Veröffentlichung von Ruby 2.5.0 bekanntgeben zu
 können.
 
-Ruby 2.5.0 ist die erste stabile Veröffentlichung der 2.5er Serie und
+Ruby 2.5.0 ist die erste stabile Veröffentlichung der 2.5er-Serie und
 enthält viele neue Features sowie Performanzverbesserungen. Die
 wichtigsten Änderungen sind:
 
@@ -22,7 +22,7 @@ wichtigsten Änderungen sind:
 * `yield_self` führt den übergebenen Block im umgebenden Kontext
   aus. Anders als `tap` gibt es aber das Ergebnis des Blocks zurück.
   [[Feature #6721]](https://bugs.ruby-lang.org/issues/6721)
-* Unterstüzung für Codeverzweigungs- und Methodenanalysen. Erstere
+* Unterstützung für Codeverzweigungs- und Methodenanalysen. Erstere
   geben an, welche logischen Zweige im Code ausgeführt werden und
   welche nicht. Letztere geben an, welche Methoden ausgeführt werden
   und welche nicht. Indem Sie eine Testsuite mit diesen neuen Features
@@ -36,7 +36,7 @@ wichtigsten Änderungen sind:
 * Struct.new kann nun Klassen erzeugen, die mit
   Schlüsselwortargumenten _(keyword arguments)_ umgehen können.
   [[Feature #11925]](https://bugs.ruby-lang.org/issues/11925)
-* Enumerable#any?, all?, none?, and one? können jetzt Musterabgleiche
+* Enumerable#any?, all?, none? und one? können jetzt Musterabgleiche
   gegen ihr Argument vornehmen.
   [[Feature #11286]](https://bugs.ruby-lang.org/issues/11286)
 * Die Auflösung von Konstanten über die oberste Ebene wurde entfernt.
@@ -55,19 +55,19 @@ wichtigsten Änderungen sind:
 
 ## Performanzverbesserungen
 
-* Zwischen 5 und 10% Performanzverbesserung durch die Entfernung
-  sämtlicher `trace`-Befehle aus dem Bytecode _(instruction
-  sequences)_.
+* Zwischen 5 und 10 % Performanzverbesserung durch die Entfernung
+  sämtlicher `trace`-Befehle aus dem Bytecode
+  _(instruction sequences)_.
   Der `trace`-Befehl wurde ursprünglich hinzugefügt, um die
   `TracePoint`-API zu unterstützen, welche jedoch praktisch kaum benutzt
   wurde. Es handelte sich somit um unnötigen Ballast. Stattdessen
   verwenden wir jetzt eine dynamische Technik.
   Siehe [[Feature #14104]](https://bugs.ruby-lang.org/issues/14104)
   für weitere Details.
-* Die Übergabe von Blöcken mithilfe eines Blockparameters (z.B.
-  `def foo(&b); bar(&b); end`) ist dank der neuen verzögerten
+* Die Übergabe von Blöcken mithilfe eines Blockparameters
+  (z.B. `def foo(&b); bar(&b); end`) ist dank der neuen verzögerten
   Allozierung der Proc-Instanzen _(lazy proc allocation)_ etwa
-  drei mal so schnell wie unter Ruby 2.4.
+  dreimal so schnell wie unter Ruby 2.4.
   [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
 * Mutex wurde neu geschrieben. Es ist jetzt kleiner und schneller.
   [[Feature #13517]](https://bugs.ruby-lang.org/issues/13517)
@@ -85,8 +85,8 @@ wichtigsten Änderungen sind:
   von OpenSSL.
   [[Bug #9569]](https://bugs.ruby-lang.org/issues/9569)
 * cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr,
-  scanf, sdbm, stringio, strscan, webrick, zlib wurden von der Standardbibliothek
-  in Standard-Gems verschoben.
+  scanf, sdbm, stringio, strscan, webrick, zlib wurden von der
+  Standardbibliothek in Standard-Gems verschoben.
 * [Onigmo](https://github.com/k-takata/Onigmo/) wurde auf 6.1.3 aktualisiert.
   * Dies fügt einen neuen [Abwesenheitsoperator](https://github.com/k-takata/Onigmo/issues/87) hinzu.
   * Beachten Sie, dass [Ruby 2.4.1](https://www.ruby-lang.org/de/news/2017/03/22/ruby-2-4-1-released/) diese Änderung ebenfalls enthält.
@@ -114,7 +114,7 @@ Mit diesen Änderungen wurden
 [6158 Dateien geändert, 348484 Einfügungen(+), 82747 Löschungen(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
 seit Ruby 2.4.0!
 
-Frohe Weihnachten, angenehme Ferien und viel Spaß bei der
+Frohe Weihnachten, schöne Feiertage und viel Spaß bei der
 Programmierung mit Ruby 2.5!
 
 ## Download
