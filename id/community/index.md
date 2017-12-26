@@ -52,7 +52,9 @@ untuk memulai petualangan Anda:
   juga orang Indonesia yang sedang tinggal di luar negeri). Berdiskusi
   tentang Ruby berikut semua varian-varian Ruby (seperti JRuby,
   Rubinius, XRuby, IronRuby, dan lain sebagainya) termasuk juga
-  aplikasi-aplikasi yang dibuat dengan Ruby seperti Rails.
+  aplikasi-aplikasi yang dibuat dengan Ruby seperti Rails. Anda bisa
+  bergabung ke grup [Slack][6] Ruby Indonesia untuk saling berbagi
+  dengan komunitas.
 
 Informasi Umum Tentang Ruby
 : * [Ruby Central][3]
@@ -65,3 +67,4 @@ Informasi Umum Tentang Ruby
 [3]: http://rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[6]: http://ruby.id/slack/
