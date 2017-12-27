@@ -110,10 +110,10 @@ $ brew install ruby
 ### OpenIndiana
 {: #openindiana}
 
-若想在 [OpenIndiana][openindiana] 上安装 Ruby，要使用 [Image Packaging System (IPS)][opensolaris-pkg] 客户端。这将直接从 OpenSolaris 代码库安装 Ruby 1.9 和 RubyGems：
+若想在 [OpenIndiana][openindiana] 上安装 Ruby，要使用 Image Packaging System (IPS) 客户端。这将直接从 OpenIndiana 代码库安装 Ruby 和 RubyGems：
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install runtime/ruby
 {% endhighlight %}
 
 然而，第三方工具或许是获取最新版 Ruby 更好的方法。
@@ -216,6 +216,5 @@ $ sudo make install
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
