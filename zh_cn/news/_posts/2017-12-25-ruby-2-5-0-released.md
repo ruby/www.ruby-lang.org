@@ -15,7 +15,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 
 - 允许在 do/end 中直接使用 rescue/else/ensure。[[功能 #12906]](https://bugs.ruby-lang.org/issues/12906)
 - 新增 `yield_self` 来使用当前上下文 yield 代码块。不同于 `tap`，此方法会返回代码块的运行结果。[[功能 #6721&]](https://bugs.ruby-lang.org/issues/6721)
-- 支持测量分支代码覆盖和方法代码覆盖。分支代码覆盖指检查哪些分支被覆盖到，哪些没有。而方法覆盖在指可以测量方法是否被调用。基于这些新特性运行你的测试用例，你可以精确地知道哪些分支和方法被运行，并更精确地计算测试的代码覆盖程度。[[功能 #13901]](https://bugs.ruby-lang.org/issues/13901)
+- 支持测量分支代码覆盖和方法代码覆盖。分支代码覆盖指检查哪些分支被覆盖到，哪些没有。而方法覆盖指可以测量方法是否被调用。基于这些新特性运行你的测试用例，你可以精确地知道哪些分支和方法被运行，并更精确地计算测试的代码覆盖程度。[[功能 #13901]](https://bugs.ruby-lang.org/issues/13901)
 - 新增 Hash#slice [[功能 #8499]](https://bugs.ruby-lang.org/issues/8499) 和 Hash#transform_keys。[[功能 #13583]](https://bugs.ruby-lang.org/issues/13583)
 - Struct.new 现在可以被用于创建含有关键字参数的类。[[功能 #11925]](https://bugs.ruby-lang.org/issues/11925)
 - Enumerable#any?, all?, none? 和 one? 可以接受一个模式作为参数。[[功能 #11286]](https://bugs.ruby-lang.org/issues/11286)
