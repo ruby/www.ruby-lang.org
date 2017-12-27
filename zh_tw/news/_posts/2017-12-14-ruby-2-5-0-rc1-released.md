@@ -13,12 +13,11 @@ Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一個候選版本。此版本包括數個�
 
 ## 新功能
 
-* 如果標準錯誤輸出沒有更改的話，會使用倒序印出錯誤訊息。
-  [功能 #8661] [試驗性質]
+* 如果標準錯誤輸出沒有更改的話，會使用倒序印出錯誤訊息。[功能 #8661] [試驗性質]
 
-* 移除了最高層級常數的查找。  [功能 #11547]
+* 移除了最高層級常數的查找。[功能 #11547]
 
-* rescue/else/ensure 可允許出現在 do/end 區塊。  [功能 #12906]
+* rescue/else/ensure 可允許出現在 do/end 區塊。[功能 #12906]
 
 * yield\_self [功能 #6721]
 
@@ -36,17 +35,17 @@ Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一個候選版本。此版本包括數個�
 
 * 合併 Onigmo 至 6.1.3 版本。
   新增了 [absent operator](https://github.com/k-takata/Onigmo/issues/87)
-  Ruby 2.4.1 也同樣包含此變更.
+  Ruby 2.4.1 也同樣包含此變更。
 * 合併 bundler 至標準函式庫。
-* 合併 rubygems-2.77.0 。
-* 合併 rdoc-6.0.0 。
-  將 IRB 的詞法分析器更新為 Ripper.
+* 合併 rubygems-2.77.0。
+* 合併 rdoc-6.0.0。
+  將 IRB 的詞法分析器更新為 Ripper。
   它提升了生成文件的速度
   https://github.com/ruby/rdoc/pull/512
   同時包含
   * 修復了許多最近幾年的錯誤。
   * 支援近幾年 Ruby 的新語法。
-* 更新支援的 Unicode 版本至 10.0.0 。
+* 更新支援的 Unicode 版本至 10.0.0。
 
 詳見 [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS) 或 commit 記錄獲取詳細訊息。
 
