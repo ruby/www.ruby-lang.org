@@ -40,10 +40,10 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
   - 添加 [缺位运算符](https://github.com/k-takata/Onigmo/issues/87)。
   - 注意，Ruby 2.4.1 也包含这项改动。
 - 更新到 Psych 3.0.2。
-- 更新到 Rubygems 2.7.3。
+- 更新到 RubyGems 2.7.3。
 - 更新到 RDoc 6.0.1。
   - [词法分析程序由 IRB 更换为 Ripper](https://github.com/ruby/rdoc/pull/512)，极大提升了生成文档的速度。
-  - 修正过去这些年存在的缺陷。
+  - 修正近十年来的大量缺陷。
   - 支持近些年 Ruby 的新句法。
 - 更新到 Unicode 10.0.0。
 - `Thread.report_on_exception` 默认值现为 true，这对调试多线程程序很有帮助。[功能 #14143]
