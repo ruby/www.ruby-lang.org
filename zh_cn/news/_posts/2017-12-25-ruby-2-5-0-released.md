@@ -15,13 +15,13 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 
 - 允许在 do/end 中直接使用 rescue/else/ensure。[[功能 #12906]](https://bugs.ruby-lang.org/issues/12906)
 - 新增 `yield_self` 来使用当前上下文 yield 代码块。不同于 `tap`，此方法会返回代码块的运行结果。[[功能 #6721&]](https://bugs.ruby-lang.org/issues/6721)
-- 支持测量分支代码覆盖和方法代码覆盖。分支代码覆盖指检查哪些分支被覆盖到，哪些没有。而方法覆盖在指可以测量方法是否被调用。基于这些新特性运行你的测试用例，你可以精确地知道哪些分支和方法被运行，并更精确地计算测试的代码覆盖程度。[[功能 #13901]](https://bugs.ruby-lang.org/issues/13901)
+- 支持测量分支代码覆盖和方法代码覆盖。分支代码覆盖指检查哪些分支被覆盖到，哪些没有。而方法覆盖指可以测量方法是否被调用。基于这些新特性运行你的测试用例，你可以精确地知道哪些分支和方法被运行，并更精确地计算测试的代码覆盖程度。[[功能 #13901]](https://bugs.ruby-lang.org/issues/13901)
 - 新增 Hash#slice [[功能 #8499]](https://bugs.ruby-lang.org/issues/8499) 和 Hash#transform_keys。[[功能 #13583]](https://bugs.ruby-lang.org/issues/13583)
 - Struct.new 现在可以被用于创建含有关键字参数的类。[[功能 #11925]](https://bugs.ruby-lang.org/issues/11925)
 - Enumerable#any?, all?, none? 和 one? 可以接受一个模式作为参数。[[功能 #11286]](https://bugs.ruby-lang.org/issues/11286)
 - 删除顶层常量查找。[[功能 #11547]](https://bugs.ruby-lang.org/issues/11547)
 - 我们最喜爱的库之一 pp.rb，现已自动加载。无需手动写 `require "pp"` 来加载。[[功能 #14123]](https://bugs.ruby-lang.org/issues/14123)
-- 逆序打印（从旧到新）调用跟踪和错误消息。当在终端（TTY）中用较长的调用跟踪信息时，你可以从最底部看到直接触发问题的行。需要注意的是，仅当在直接输出到终端时，才会逆序打印。[[功能 #8661]](https://bugs.ruby-lang.org/issues/8661) [试验性]
+- 逆序打印（从旧到新）调用跟踪和错误消息。当在终端（TTY）中有较长的调用跟踪信息时，你可以从最底部看到直接触发问题的行。需要注意的是，仅当在直接输出到终端时，才会逆序打印。[[功能 #8661]](https://bugs.ruby-lang.org/issues/8661) [试验性]
 
 ## 性能提升
 
@@ -29,7 +29,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 - 通过懒惰 Proc 分配使 block 参数传递代码块（例如 `def foo(&b); bar(&b); end`）的性能相较于 Ruby 2.4 提升了约 3 倍。[[功能 #14045]](https://bugs.ruby-lang.org/issues/14045)
 - 互斥锁的复写变得更轻量和快速。[[功能 #13517]](https://bugs.ruby-lang.org/issues/13517)
 - ERB 现在模板生成代码的速度相较于 Ruby 2.4 提升 2 倍。
-- 提升了多个内置方法例如 `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 等。
+- 提升了多个内置方法例如 `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 等的性能。
 - IO.copy\_stream 使用 copy\_file\_range(2) 来拷贝负载。[[功能 #13867]](https://bugs.ruby-lang.org/issues/13867)
 
 ## 与 2.4 相比的重要变化
