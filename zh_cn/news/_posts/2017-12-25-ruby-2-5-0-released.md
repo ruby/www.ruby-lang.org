@@ -29,7 +29,7 @@ Ruby 2.5.0 是 2.5 系列首个稳定版。此版本包括数个新特性和性�
 - 通过懒惰 Proc 分配使 block 参数传递代码块（例如 `def foo(&b); bar(&b); end`）的性能相较于 Ruby 2.4 提升了约 3 倍。[[功能 #14045]](https://bugs.ruby-lang.org/issues/14045)
 - 互斥锁的复写变得更轻量和快速。[[功能 #13517]](https://bugs.ruby-lang.org/issues/13517)
 - ERB 现在模板生成代码的速度相较于 Ruby 2.4 提升 2 倍。
-- 提升了多个内置方法例如 `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 等。
+- 提升了多个内置方法例如 `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 等的性能。
 - IO.copy\_stream 使用 copy\_file\_range(2) 来拷贝负载。[[功能 #13867]](https://bugs.ruby-lang.org/issues/13867)
 
 ## 与 2.4 相比的重要变化
