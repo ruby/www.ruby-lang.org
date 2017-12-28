@@ -131,10 +131,10 @@ namespace :check do
 
   localport = 9292
 
-  desc "Check for broken links on http://localhost:#{localport}/"
+  desc "Check for broken internal links on http://localhost:#{localport}/"
   task :links do
     require_relative "lib/link_checker"
-    LinkChecker.new.check(localport: localport, languages: LANGUAGES, host: HOST)
+    LinkChecker.new.check(localport: localport, languages: LANGUAGES)
   end
 
   desc 'Validate _site markup with validate-website'

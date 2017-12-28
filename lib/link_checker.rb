@@ -3,8 +3,8 @@ require "spidr"
 
 class LinkChecker
 
-  # Check for broken links on http://localhost:localport/
-  def check(localport:, languages:, host:)
+  # Check for broken internal links on http://localhost:localport/
+  def check(localport:, languages:)
 
     url_map = Hash.new { |hash,key| hash[key] = [] }
 
@@ -22,19 +22,7 @@ class LinkChecker
           origin = url_map[page.url].last
           dest   = page.url.request_uri
 
-          external = URI::HTTP.build(
-            :host  => host,
-            :path  => page.url.path,
-            :query => page.url.query
-          )
-
-          if Net::HTTP.get_response(external).code == '404'
-            puts "Old Broken Link: #{origin} -> #{dest}"
-          else
-            puts "New Broken Link: #{origin} -> #{dest}"
-          end
-
-          raise
+          puts "Broken Link: #{origin} -> #{dest}"
         end
       end
     end
