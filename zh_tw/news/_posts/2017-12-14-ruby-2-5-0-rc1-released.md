@@ -34,7 +34,7 @@ Ruby 2.5.0-rc1 是 Ruby 2.5.0 的第一個候選版本。此版本包括數個�
 ## 自 2.4 起重要的變化
 
 * 合併 Onigmo 至 6.1.3 版本。
-  新增了 [absent operator](https://github.com/k-takata/Onigmo/issues/87)
+  新增了 [absence operator](https://github.com/k-takata/Onigmo/issues/87)
   Ruby 2.4.1 也同樣包含此變更。
 * 合併 bundler 至標準函式庫。
 * 合併 rubygems-2.77.0。
