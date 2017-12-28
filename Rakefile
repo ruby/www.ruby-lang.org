@@ -138,7 +138,7 @@ namespace :check do
   end
 
   desc 'Validate _site markup with validate-website'
-  task :markup => :build do
+  task :markup do
     require_relative "lib/markup_checker"
     MarkupChecker.new.check
   end
