@@ -140,7 +140,7 @@ namespace :check do
   desc 'Validate _site markup with validate-website'
   task :markup do
     require_relative "lib/markup_checker"
-    MarkupChecker.new.check
+    MarkupChecker.new.check(host: HOST)
   end
 end
 
