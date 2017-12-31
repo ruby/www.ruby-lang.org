@@ -15,13 +15,13 @@ Ruby 2.5.0 是 Ruby 2.5.0 的第一個穩定版本。此版本包括數個新功
 
 * 允許在 do/end 區塊中 rescue/else/ensure。[[功能 #12906]](https://bugs.ruby-lang.org/issues/12906)
 * 新增 `yield_self` 使用當前上下文 yield 區塊。不同於 `tap`，此方法會返回區塊的執行結果。[[功能 #6721&]](https://bugs.ruby-lang.org/issues/6721)
-* 支援測量分支覆蓋率和方法覆蓋率。分支覆蓋指檢查哪些分支被覆蓋到，哪些沒有。方法覆蓋則指可以測量方法是否被呼叫。基於這些新功能進行測試，可以精準地知道哪些分支和方法被執行，并更精確地計算測試的代碼覆蓋率。[[功能 #13901]](https://bugs.ruby-lang.org/issues/13901)
+* 支援測量分支覆蓋率和方法覆蓋率。分支覆蓋指檢查哪些分支被覆蓋到，哪些沒有。方法覆蓋則指可以測量方法是否被呼叫。基於這些新功能進行測試，可以精準地知道哪些分支和方法被執行，並更精確地計算測試的程式碼覆蓋率。[[功能 #13901]](https://bugs.ruby-lang.org/issues/13901)
 * 新增 Hash#slice [[功能 #8499]](https://bugs.ruby-lang.org/issues/8499) 和 Hash#transform_keys。[[功能 #13583]](https://bugs.ruby-lang.org/issues/13583)
-* Struct.new 现在可以被用於含有關鍵字參數的類別。[[功能 #11925]](https://bugs.ruby-lang.org/issues/11925)
+* Struct.new 現在可以被用於含有關鍵字參數的類別。[[功能 #11925]](https://bugs.ruby-lang.org/issues/11925)
 * Enumerable#any?, all?, none? 和 one? 可以接受模式作為參數。[[功能 #11286]](https://bugs.ruby-lang.org/issues/11286)
 * 移除了最高層級常數的查找。[[功能 #11547]](https://bugs.ruby-lang.org/issues/11547)
 * 我們最喜愛的函式庫之一 pp.rb，現已自動載入。無需再手寫 `require "pp"` 來載入。[[功能 #14123]](https://bugs.ruby-lang.org/issues/14123)
-* 倒序（从旧到新）印出錯誤訊息。當終端視窗（TTY）中有較長的呼叫堆疊訊息時，你可在在最底部看到直接觸發問題的行。需要注意的是，僅當直接列印到終端時，才會倒序列印。[[功能 #8661]](https://bugs.ruby-lang.org/issues/8661) [試驗性質]
+* 倒序（從舊到新）印出錯誤訊息。當終端視窗（TTY）中有較長的呼叫堆疊訊息時，你可在在最底部看到直接觸發問題的行。需要注意的是，僅當直接列印到終端時，才會倒序列印。[[功能 #8661]](https://bugs.ruby-lang.org/issues/8661) [試驗性質]
 
 ## 效能提升
 
