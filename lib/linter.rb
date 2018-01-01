@@ -7,9 +7,11 @@ require_relative "linter/document"
 
 class Linter
 
-  attr_accessor :docs, :posts
+  attr_accessor :docs, :posts, :raise_on_error
 
-  def initialize
+  def initialize(raise_on_error: true)
+    @raise_on_error = raise_on_error
+
     md_files = glob("**/*.md")
     skip_patterns = [/README.md/, %r{[^/]*/examples/}, %r{\A_includes/}]
 
@@ -39,7 +41,7 @@ class Linter
       puts "\nNo lang variable defined in:"
       puts lang_missing.map {|doc| "  #{doc.filename}\n"}.join
 
-      raise
+      raise  if raise_on_error
     end
   end
 
@@ -54,7 +56,7 @@ class Linter
       puts "\nNo author variable defined in:"
       puts author_missing.map {|doc| "  #{doc.filename}\n"}.join
 
-      raise
+      raise  if raise_on_error
     end
   end
 
@@ -76,7 +78,7 @@ class Linter
       puts "\nDate mismatch in:"
       puts date_mismatch.map {|doc| "  #{doc.filename}\n"}.join
 
-      raise
+      raise  if raise_on_error
     end
   end
 
