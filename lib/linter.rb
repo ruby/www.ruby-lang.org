@@ -34,7 +34,7 @@ class Linter
   def check_lang
     print "Checking for missing lang variables in markdown files..."
 
-    lang_missing = docs.select {|doc| !doc.lang? }
+    lang_missing = docs.select {|doc| doc.lang_missing? }
     if lang_missing.empty?
       puts " ok"
     else
@@ -49,7 +49,7 @@ class Linter
   def check_author
     print "Checking for missing author variables in news posts..."
 
-    author_missing = posts.select {|doc| !doc.author? }
+    author_missing = posts.select {|doc| doc.author_missing? }
     if author_missing.empty?
       puts " ok"
     else

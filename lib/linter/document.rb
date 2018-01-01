@@ -8,12 +8,12 @@ class Linter
       @yaml = read_yaml(filename)
     end
 
-    def lang?
-      yaml.has_key?("lang")
+    def lang_missing?
+      !yaml.has_key?("lang")
     end
 
-    def author?
-      yaml.has_key?("author")
+    def author_missing?
+      !yaml.has_key?("author")
     end
 
     def date_mismatch?
