@@ -34,7 +34,7 @@ class Linter
   def check_lang
     print "Checking for missing lang variables in markdown files..."
 
-    lang_missing = docs.select {|doc| !lang_variable_defined?(doc) }
+    lang_missing = docs.select {|doc| !doc.lang? }
     if lang_missing.empty?
       puts " ok"
     else
@@ -49,7 +49,7 @@ class Linter
   def check_author
     print "Checking for missing author variables in news posts..."
 
-    author_missing = posts.select {|doc| !author_variable_defined?(doc) }
+    author_missing = posts.select {|doc| !doc.author? }
     if author_missing.empty?
       puts " ok"
     else
@@ -64,13 +64,7 @@ class Linter
   def check_pubdates
     print "Checking for date mismatch in posts (filename / YAML front matter)..."
 
-    date_mismatch = []
-    posts.each do |post|
-      filename_date = File.basename(post.filename).split('-',4)[0..2].join('/')
-      yaml_date = pub_date_utc(post)
-
-      date_mismatch << post  if yaml_date && yaml_date != filename_date
-    end
+    date_mismatch = posts.select {|doc| doc.date_mismatch? }
 
     if date_mismatch.empty?
       puts " ok"
@@ -83,20 +77,6 @@ class Linter
   end
 
   private
-
-  def author_variable_defined?(doc)
-    doc.yaml.has_key?('author')
-  end
-
-  def lang_variable_defined?(doc)
-    doc.yaml.has_key?('lang')
-  end
-
-  def pub_date_utc(doc)
-    date = doc.yaml['date']
-
-    date ? date.getutc.strftime('%Y/%m/%d') : nil
-  end
 
   def glob(pattern)
     Pathname.glob(pattern).reject {|path| path.expand_path.to_s =~ %r{\A#{Regexp.escape(Bundler.bundle_path.to_s)}/} }.map(&:to_s)
