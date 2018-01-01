@@ -145,5 +145,9 @@ namespace :check do
 end
 
 desc "Run some tests (lang, author, pubdates)"
-task :check => ['check:lang', 'check:author', 'check:pubdates']
+task :check do
+  require_relative "lib/linter"
+  Linter.new.check_all
+end
+
 task :ci => [:test, :build]

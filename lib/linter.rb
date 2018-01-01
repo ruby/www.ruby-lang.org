@@ -5,6 +5,13 @@ require 'yaml'
 
 class Linter
 
+  # Run all check methods
+  def check_all
+    check_lang
+    check_author
+    check_pubdates
+  end
+
   # Check for missing lang variables in markdown files
   def check_lang
     print "Checking for missing lang variables in markdown files..."
