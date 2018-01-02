@@ -7,7 +7,7 @@ require_relative "linter/document"
 
 class Linter
 
-  attr_accessor :docs, :posts, :raise_on_error
+  attr_accessor :docs, :posts, :errors, :raise_on_error
 
   def initialize(raise_on_error: true)
     @raise_on_error = raise_on_error
@@ -21,6 +21,25 @@ class Linter
 
     @docs = md_files.map {|fn| Document.new(fn) }
     @posts = @docs.select {|doc| doc.filename =~ %r{/_posts/} }
+
+    @errors = Hash.new {|h, k| h[k] = [] }
+  end
+
+  def check
+    print "Checking markdown files..."
+
+    docs.each do |doc|
+      errors[doc] << "  missing lang variable"  if doc.lang_missing?
+    end
+
+    posts.each do |doc|
+      errors[doc] << "  missing author variable"  if doc.author_missing?
+      errors[doc] << "  date mismatch between filename and YAML front matter (UTC)"  if doc.date_mismatch?
+    end
+
+    report
+
+    exit(1)  if errors.any?
   end
 
   # Run all check methods
@@ -59,6 +78,18 @@ class Linter
 
   def glob(pattern)
     Pathname.glob(pattern).reject {|path| path.expand_path.to_s =~ %r{\A#{Regexp.escape(Bundler.bundle_path.to_s)}/} }.map(&:to_s)
+  end
+
+  def report
+    if errors.empty?
+      puts " ok"
+    else
+      puts
+      errors.each do |doc, messages|
+        puts doc.filename
+        puts messages
+      end
+    end
   end
 
   def report_docs(failed_docs)
