@@ -144,10 +144,10 @@ namespace :check do
   end
 end
 
-desc "Run some tests (lang, author, pubdates)"
+desc "Run some tests on markdown files"
 task :check do
   require_relative "lib/linter"
-  Linter.new.check_all
+  Linter.new.check
 end
 
 task :ci => [:test, :build]
