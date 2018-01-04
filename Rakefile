@@ -111,24 +111,6 @@ task :test => [:check]
 
 namespace :check do
 
-  desc "Check for missing author variables in news posts"
-  task :author do
-    require_relative "lib/linter"
-    Linter.new.check_author
-  end
-
-  desc "Check for missing lang variables in markdown files"
-  task :lang do
-    require_relative "lib/linter"
-    Linter.new.check_lang
-  end
-
-  desc "Check publication dates (UTC) for consistency with filename"
-  task :pubdates do
-    require_relative "lib/linter"
-    Linter.new.check_pubdates
-  end
-
   localport = 9292
 
   desc "Check for broken internal links on http://localhost:#{localport}/"
