@@ -8,8 +8,8 @@ require_relative "linter/document"
 class Linter
 
   EXCLUDE_PATTERNS = [
-    %r{README.md},
-    %r{[^/]*/examples/},
+    %r{\AREADME\.md\z},
+    %r{\A[^/]*/examples/},
     %r{\A_includes/}
   ]
 
