@@ -7,11 +7,9 @@ require_relative "linter/document"
 
 class Linter
 
-  attr_accessor :docs, :posts, :errors, :raise_on_error
+  attr_accessor :docs, :posts, :errors
 
-  def initialize(raise_on_error: true)
-    @raise_on_error = raise_on_error
-
+  def initialize
     md_files = glob("**/*.md")
     skip_patterns = [/README.md/, %r{[^/]*/examples/}, %r{\A_includes/}]
 
@@ -42,38 +40,6 @@ class Linter
     exit(1)  if errors.any?
   end
 
-  # Run all check methods
-  def check_all
-    check_lang
-    check_author
-    check_pubdates
-  end
-
-  # Check for missing lang variables in markdown files
-  def check_lang
-    print "Checking for missing lang variable in markdown files..."
-
-    lang_missing = docs.select {|doc| doc.lang_missing? }
-    report_docs(lang_missing)
-  end
-
-  # Check for missing author variables in news posts
-  def check_author
-    print "Checking for missing author variable in news posts..."
-
-    author_missing = posts.select {|doc| doc.author_missing? }
-    report_docs(author_missing)
-  end
-
-  # Check publication dates (UTC) for consistency with filename
-  def check_pubdates
-    print "Checking for date mismatch in news posts (filename / YAML front matter)..."
-
-    date_mismatch = posts.select {|doc| doc.date_mismatch? }
-
-    report_docs(date_mismatch)
-  end
-
   private
 
   def glob(pattern)
@@ -89,17 +55,6 @@ class Linter
         puts doc.filename
         puts messages
       end
-    end
-  end
-
-  def report_docs(failed_docs)
-    if failed_docs.empty?
-      puts " ok"
-    else
-      puts
-      puts failed_docs.map {|doc| "  #{doc.filename}\n"}.join
-
-      raise  if raise_on_error
     end
   end
 end
