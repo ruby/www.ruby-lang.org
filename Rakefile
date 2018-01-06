@@ -129,7 +129,7 @@ end
 desc "Run some tests on markdown files"
 task :check do
   require_relative "lib/linter"
-  Linter.new.check
+  Linter.new.run
 end
 
 task :ci => [:test, :build]
