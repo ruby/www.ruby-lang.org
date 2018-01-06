@@ -7,6 +7,12 @@ require_relative "linter/document"
 
 class Linter
 
+  EXCLUDE_PATTERNS = [
+    %r{README.md},
+    %r{[^/]*/examples/},
+    %r{\A_includes/}
+  ]
+
   attr_accessor :docs, :posts, :errors
 
   def initialize
@@ -30,9 +36,8 @@ class Linter
 
   def load_files
     md_files = glob("**/*.md")
-    skip_patterns = [/README.md/, %r{[^/]*/examples/}, %r{\A_includes/}]
 
-    skip_patterns.each do |pattern|
+    EXCLUDE_PATTERNS.each do |pattern|
       md_files.delete_if {|fn| fn =~ pattern }
     end
 
