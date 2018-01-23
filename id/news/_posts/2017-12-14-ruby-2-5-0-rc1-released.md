@@ -5,6 +5,7 @@ author: "naruse"
 translator: "meisyal"
 date: 2017-12-14 00:00:00 +0000
 lang: id
+---
 
 Kami dengan senang hati mengumumkan rilis dari Ruby 2.5.0-rc1.
 
