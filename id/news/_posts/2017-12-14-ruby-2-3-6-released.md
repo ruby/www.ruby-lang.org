@@ -51,4 +51,4 @@ Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) un
 
 Terima kasih kepada semua yang telah membantu rilis ini.
 
-Perawatan Ruby 2.3, termasuk rilis ini, didasarkan pada "Agreement for the Ruby stable version" dari Ruby Assocuation.
+Perawatan Ruby 2.3, termasuk rilis ini, didasarkan pada "Agreement for the Ruby stable version" dari Ruby Association.
