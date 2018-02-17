@@ -34,8 +34,7 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 
 ## Workarounds
 
-If you can't upgrade Ruby itself, upgrade RubyGems to the latest version.
-RubyGems 2.7.6 or later includes the fix for the vulnerabilities.
+RubyGems 2.7.6 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
 
 ```
 gem update --system
@@ -56,4 +55,4 @@ This report is based on [the official blog of RubyGems](http://blog.rubygems.org
 
 ## History
 
-* Originally published at 2017-02-17 03:00:00 UTC
+* Originally published at 2018-02-17 03:00:00 UTC
