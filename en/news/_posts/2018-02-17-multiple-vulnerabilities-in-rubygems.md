@@ -30,6 +30,7 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 * Ruby 2.2 series: 2.2.9 and earlier
 * Ruby 2.3 series: 2.3.6 and earlier
 * Ruby 2.4 series: 2.4.3 and earlier
+* Ruby 2.5 series: 2.5.0 and earlier
 * prior to trunk revision 62422
 
 ## Workarounds
