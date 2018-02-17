@@ -30,7 +30,7 @@ RubyGems の公式ブログにて[報告されています](http://blog.rubygems
 * Ruby 2.2.9 以前の全ての Ruby 2.2 系列
 * Ruby 2.3.6 以前の全ての Ruby 2.3 系列
 * Ruby 2.4.3 以前の全ての Ruby 2.4 系列
-* Ruby 2.5.0 以前の全ての Ruby 2.4 系列
+* Ruby 2.5.0 以前の全ての Ruby 2.5 系列
 * revision 62422 より前の開発版
 
 ## 回避策
