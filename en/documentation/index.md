@@ -167,7 +167,7 @@ If you have questions about Ruby the
 
 
 
-[1]: http://tryruby.org/
+[1]: https://easydatawarehousing.github.io/TryRuby/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
 [4]: http://www.hackety.com/
