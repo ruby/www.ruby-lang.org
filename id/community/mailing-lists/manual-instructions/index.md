@@ -25,9 +25,12 @@ apabila ada pertanyaan, saran, maupun komentar seputar milis.
 
 ### Milis Berbahasa Inggris
 
+CATATAN: Jika Anda tidak dapat berlangganan, mohon mengacu pada
+[lists.ruby-lang.org](http://lists.ruby-lang.org).
+
 Untuk berlangganan sebuah milis berbahasa Inggris, silakan kirim e-mail
-ke alamat *controller* milis yang Anda inginkan dengan isi pesan (bukan
-subjek/judul) sebagai berikut:
+ke alamat *controller* milis yang Anda inginkan berikut dengan isi pesan
+(bukan judul):
 
     subscribe
 {: .code}
@@ -71,6 +74,9 @@ isi pesan “unsubscribe” ke alamat *controller* milis yang Anda inginkan:
 
     unsubscribe
 {: .code}
+
+Pastikan untuk mengirim e-mail yang berisi teks biasa, e-mail yang berisi
+HTML mungkin tidak bekerja.
 
 ### Mencari Bantuan
 
