@@ -95,13 +95,11 @@ referanslar ve diğer belgeleri bulacaksınız.
 [Ruby & Rails Searchable API Docs][20]
 : Akıllı arama özellikleri olan Rails ve Ruby dökümantasyonu.
 
-[RubyDox][21]
-: Ruby, Rails, Gem ve Plugin Belgeleri.
 
 ### Diğer Belgeler
 
-[Ruby-Doc.org][22] Ruby hakkındaki İngilizce belgeleri bir araya
-toplamayı amaçlayan bir site. [Ruby hakkında yazılmış kitaplar][23] da
+[Ruby-Doc.org][21] Ruby hakkındaki İngilizce belgeleri bir araya
+toplamayı amaçlayan bir site. [Ruby hakkında yazılmış kitaplar][22] da
 bakılacak diğer kaynaklardan. [Ruby Garden Wiki][9] adresinde
 kullanıcıların oluşturduğu geniş bir içerik mevcut. Ayrıca Ruby hakkında
 aklınıza takılan herhangi bir soru için [e-posta
@@ -128,6 +126,5 @@ listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
 [17]: http://www.ruby-doc.org/stdlib
 [19]: http://www.rubydoc.info/
 [20]: http://rubydocs.org/
-[21]: http://www.rubydox.net/
-[22]: http://ruby-doc.org
-[23]: http://www.ruby-doc.org/bookstore
+[21]: http://ruby-doc.org
+[22]: http://www.ruby-doc.org/bookstore
