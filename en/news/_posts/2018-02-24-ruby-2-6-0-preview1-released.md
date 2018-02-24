@@ -18,50 +18,51 @@ Ruby 2.6 introduces an initial implementation of JIT (Just-in-time) compiler.
 
 JIT compiler aims to improve performance of any Ruby program execution.
 Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which prints C code to a disk and spawns common C compiler process to generate native code.
-See also: https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization
+See also: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
-How to use: Just specify "--jit" in command line or $RUBYOPT environment variable.
-Specifying "--jit-verbose=1" allows to print basic information of ongoing JIT compilation. See "ruby --help" for other options.
+How to use: Just specify `--jit` in command line or `$RUBYOPT` environment variable. Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT compilation. See `ruby --help` for other options.
 
 The main purpose of this JIT release is to provide a chance to check if it works for your platform and to find out security risks before the 2.6 release.
 Currently JIT compiler is supported only when Ruby is built by gcc or clang and the compiler is available on runtime. Otherwise you can't use it for now.
 
-As of 2.6.0-preview1, we're just preparing infrastructure for JIT and very few optimizations are implemented.
-You can measure some of potential improvements in micro benchmarks with this release, but it is NOT ready for benchmarking final performance of Ruby's JIT compiler, especially for larger programs like Rails applications.
+As of 2.6.0-preview1, we're just preparing infrastructure for JIT and very few optimizations are implemented. You can measure some of potential improvements in micro benchmarks with this release, but it is NOT ready for benchmarking final performance of Ruby's JIT compiler, especially for large programs like Rails applications.
 
-We're going to implement method iniling in JIT compiler, which is expected to increase Ruby's performance in order of magnitude.
+We're going to implement method inlining in JIT compiler, which is expected to increase Ruby's performance significantly.
+
 Also, we're planning to increase the supported platforms, and the next plan is to support Visual Studio.
 
 Stay tuned for the new age of Ruby's performance.
 
 ## New Features
 
-* Add Random.bytes. [Feature #4938]
+* Add `Random.bytes`. [Feature #4938]
+* Add `Binding#source_location`.  [Feature #14230]
 
-* Add Binding#source_location.  [Feature #14230]
-  * This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
+  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores `binding`'s source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
 
-* Add :exception option to let Kernel.#system raise error instead of returning false. [Feature #14386]
+* Add `:exception` option to let `Kernel.#system` raise error instead of returning `false`. [Feature #14386]
 
 ## Performance improvements
 
-* Speedup `Proc#call` because we dont' need to care about `$SAFE` any more.
+* Speedup `Proc#call` because we don't need to care about `$SAFE` any more.
   [Feature #14318]
+
   With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
   x1.4 improvements [Bug #10212].
 
 * Speedup `block.call` where `block` is passed block parameter. [Feature #14330]
+
   Ruby 2.5 improves block passing performance. [Feature #14045]
   Additionally, Ruby 2.6 improves the performance of passed block calling.
-  With micro-benchmark we can observe x2.6 improvemnt.
+  With micro-benchmark we can observe 2.6x improvemnt.
 
 ## Other notable changes since 2.5
 
-* $SAFE is a process global state and we can set 0 again. [Feature #14250]
+* `$SAFE` is a process global state and we can set `0` again. [Feature #14250]
 
-* Passing safe_level to ERB.new is deprecated. trim_mode and eoutvar arguments are changed to keyword arguments. [Feature #14256]
+* Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [Feature #14256]
 
-* Merge RubyGems 2.7.6
+* Merged RubyGems 2.7.6
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview1/NEWS)
 or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview1)
