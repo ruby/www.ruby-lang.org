@@ -18,7 +18,7 @@ Ruby 2.6 introduces an initial implementation of JIT (Just-in-time) compiler.
 
 JIT compiler aims to improve performance of any Ruby program execution.
 Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which prints C code to a disk and spawns common C compiler process to generate native code.
-See also: [Vladimir Makarov's mjit-organization branch](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
+See also: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
 How to use: Just specify `--jit` in command line or `$RUBYOPT` environment variable. Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT compilation. See `ruby --help` for other options.
 
@@ -27,7 +27,7 @@ Currently JIT compiler is supported only when Ruby is built by gcc or clang and 
 
 As of 2.6.0-preview1, we're just preparing infrastructure for JIT and very few optimizations are implemented. You can measure some of potential improvements in micro benchmarks with this release, but it is NOT ready for benchmarking final performance of Ruby's JIT compiler, especially for large programs like Rails applications.
 
-We're going to implement method iniling in JIT compiler, which is expected to increase Ruby's performance in order of magnitude.
+We're going to implement method inlining in JIT compiler, which is expected to increase Ruby's performance significantly.
 
 Also, we're planning to increase the supported platforms, and the next plan is to support Visual Studio.
 
@@ -38,7 +38,7 @@ Stay tuned for the new age of Ruby's performance.
 * Add `Random.bytes`. [Feature #4938]
 * Add `Binding#source_location`.  [Feature #14230]
 
-  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
+  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores `binding`'s source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
 
 * Add `:exception` option to let `Kernel.#system` raise error instead of returning `false`. [Feature #14386]
 

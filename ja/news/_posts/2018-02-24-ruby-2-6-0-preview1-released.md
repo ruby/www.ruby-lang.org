@@ -17,7 +17,7 @@ Ruby 2.6.0-preview1は、重要な新機能であるJITを含むため、例年�
 Ruby 2.6ではJIT (Just-in-time) コンパイラが導入されました。
 
 JITコンパイラはあらゆるRubyプログラムの実行を高速化することを目的としています。
-他言語の一般的なJITコンパイラと異なり、RubyのJITコンパイラはC言語のソースコードをファイルとしてディスクに書き、通常のCコンパイラを用いてネイティブコードに変換することでJITコンパイルを行うという手法を用いています。(参考: [Vladimir Makarovのmjit-organizationブランチ](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization))
+他言語の一般的なJITコンパイラと異なり、RubyのJITコンパイラはC言語のソースコードをファイルとしてディスクに書き、通常のCコンパイラを用いてネイティブコードに変換することでJITコンパイルを行うという手法を用いています。(参考: [Vladimir MakarovのMJIT organization](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization))
 
 JITコンパイルを有効にするには `--jit` オプションをコマンドラインまたは`$RUBYOPT`環境変数を指定します。`--jit-verbose=1`を指定すれば実行中のJITコンパイルの基本的な情報を表示します。その他のオプションについては `ruby --help` を参照ください。
 
@@ -33,9 +33,9 @@ JITコンパイルを有効にするには `--jit` オプションをコマン�
 * `Random.bytes` の追加 [Feature #4938]
 * `Binding#source_location` の追加 [Feature #14230]
 
-  `binding`のソースコード上の位置を `__FILE__` と `__LINE__` の二要素配列として返します。従来でも `eval("[__FILE__, __LINE__]", binding)` とすることでこれらの情報は得られましたが、将来的に `Kernel#eval` はbindingのソースコード行を無視する変更を予定しているため [Bug #4352]、この新しいメソッドを用いることが今後は推奨されます。
+  `binding`のソースコード上の位置を `__FILE__` と `__LINE__` の二要素配列として返します。従来でも `eval("[__FILE__, __LINE__]", binding)` とすることでこれらの情報は得られましたが、将来的に `Kernel#eval` は`binding`のソースコード行を無視する変更を予定しているため [Bug #4352]、この新しいメソッドを用いることが今後は推奨されます。
 
-* `Kernel#system` の失敗時に、`false`を返す代わりに例外を上げさせる :exception オプションを追加 [Feature #14386]
+* `Kernel#system` の失敗時に、`false`を返す代わりに例外を上げさせる `:exception` オプションを追加 [Feature #14386]
 
 ## パフォーマンスの改善
 
@@ -50,7 +50,7 @@ JITコンパイルを有効にするには `--jit` オプションをコマン�
 
 ## その他の注目すべき 2.5 からの変更点
 
-* `$SAFE` はプロセスグローバルで扱われることになると共に、`0`以外を設定した後に0に戻せるようになりました [Feature #14250]
+* `$SAFE` はプロセスグローバルで扱われることになると共に、`0`以外を設定した後に`0`に戻せるようになりました [Feature #14250]
 * `ERB.new`に`safe_level`を渡すのは非推奨になりました。また、`trim_mode`と`eoutvar`はキーワード引数に変更されました。 [Feature #14256]
 * RubyGems 2.7.6 をマージしました
 
