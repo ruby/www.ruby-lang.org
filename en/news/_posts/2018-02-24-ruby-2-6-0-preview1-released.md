@@ -37,7 +37,6 @@ Stay tuned for the new age of Ruby's performance.
 ## New Features
 
 * Add Random.bytes. [Feature #4938]
-NOTE: 小粒な変更だけど賑やかしのために入れる。preview2ではけす
 
 * Add Binding#source_location.  [Feature #14230]
   * This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
