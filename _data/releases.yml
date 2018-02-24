@@ -19,6 +19,21 @@
 # In order to get the release listed on the downloads page,
 # you also need to add an entry to `_data/downloads.yml'.
 
+# 2.6 series
+
+- version: 2.6.0-preview1
+  date: 2018-02-24
+  post: /en/news/2018/02/24/ruby-2-6-0-preview1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview1.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview1.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview1.tar.xz
+  sha256:
+    gz:  2023c42676d9237481e1a97157d5e2ecc10db5e320d5b9cf872ec1d293265d61
+    zip: 6c883927e80430cf07f2d90728d6c2c71164223f378a48ebf964d3b66319f623
+    bz2: 8bd6c373df6ee009441270a8b4f86413d101b8f88e8051c55ef62abffadce462
+    xz:  1d99139116e4e245ce543edb137b2a8873c26e9f0bde88d8cee6789617cc8d0e
 
 # 2.5 series
 
