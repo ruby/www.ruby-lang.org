@@ -26,14 +26,14 @@ license:
 
 svn:
   stable:
+    version: 2.5
+    branch:  ruby_2_5
+  previous:
     version: 2.4
     branch:  ruby_2_4
-  previous:
+  old:
     version: 2.3
     branch:  ruby_2_3
-  old:
-    version: 2.2
-    branch:  ruby_2_2
 
 locales:
   sitelinks:
