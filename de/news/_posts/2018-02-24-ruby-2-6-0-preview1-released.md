@@ -26,8 +26,8 @@ C-Compiler-Prozess, um Maschinencode zu erzeugen. Siehe dazu auch:
 [Die Funktionsweise von MJIT von Wladimir Makarow](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
 Um den JIT zu benutzen, geben Sie `--jit` als Kommandozeilenoption
-oder in der Umgsbungsvariable `$RUBYOPT` an. Bei Angabe von
-`--jit-verbose=1` werden Informationen über die durchgeführte
+oder in der Umgebungsvariablen `$RUBYOPT` an. Bei Angabe von
+`--jit-verbose=1` werden Informationen über die laufende
 JIT-Kompilation ausgegeben. Siehe auch `ruby --help` für weitere
 Optionen.
 
@@ -36,7 +36,7 @@ der JIT auf Ihrer Plattform funktioniert. Außerdem soll eine Prüfung
 auf Sicherheitsprobleme noch vor der Freigabe von 2.6 ermöglicht
 werden. Der JIT-Compiler wird derzeit nur unterstützt, wenn Ruby mit
 GCC oder Clang gebaut wird und der Compiler auch während des
-Programmablaufs verfügbar ist. Ansonsten können Sie ihn momenten leider
+Programmablaufs verfügbar ist. Ansonsten können Sie ihn momentan leider
 nicht verwenden.
 
 Zum jetzigen Zeitpunkt (2.6.0-preview1) bereiten wir lediglich die
@@ -87,7 +87,7 @@ Machen Sie sich bereit für eine neue Ära von Rubys Performanz.
   Bereits Ruby 2.5 verbessert die Performanz bei der Übergabe von
   Blöcken. [Feature #14045]
   Mit Ruby 2.6 wird auch der Aufruf von übergebenen Blöcken
-  beschleunigt, sodass wir im Mikro-Benchmark einer 2,6-fache
+  beschleunigt, sodass wir im Mikro-Benchmark eine 2,6-fache
   Beschleunigung messen konnten.
 
 ## Sonstige bemerkenswerte Änderungen seit 2.5
