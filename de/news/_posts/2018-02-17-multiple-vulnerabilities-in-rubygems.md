@@ -15,7 +15,7 @@ auf dem [offiziellen RubyGems-Blog beschrieben wird](http://blog.rubygems.org/20
 
 Die folgenden Sicherheitslücken wurden behoben.
 
-* Verhinderung von Pfadverfolgung _(path traversal_) bei
+* Verhinderung von Pfadverfolgung _(path traversal)_ bei
   Schreibzugriff auf ein per Symlink verlinktes basedir außerhalb des
   Wurzelverzeichnisses.
 * Möglicherweise unsichere Objektdeserialisierung in gem owner
@@ -24,8 +24,8 @@ Die folgenden Sicherheitslücken wurden behoben.
 * Werfe einen Sicherheitsfehler, wenn in einem Paket Dateien mehrfach
   vorkommen.
 * Erzwinge URL-Validierung im Homepage-Attribut der Spec
-* XSS-Schwachstelle im Homepage-Attribut behoben, wenn es von gem
-  server angezeigt wird.
+* XSS-Schwachstelle im Homepage-Attribut behoben, wenn es von
+  gem server angezeigt wird.
 * Verhinderung von Pfadverfolgung während der Gem-Installation.
 
 Es wird nachdrücklich empfohlen, so schnell wie möglich einen der
@@ -33,16 +33,16 @@ folgenden Workarounds anzuwenden.
 
 ## Betroffene Versionen
 
-* Ruby 2.2er-Serie: 2.2.9 and früher
-* Ruby 2.3er-Serie: 2.3.6 and früher
-* Ruby 2.4er-Serie: 2.4.3 and früher
-* Ruby 2.5er-Serie: 2.5.0 and früher
+* Ruby 2.2er-Serie: 2.2.9 und früher
+* Ruby 2.3er-Serie: 2.3.6 und früher
+* Ruby 2.4er-Serie: 2.4.3 und früher
+* Ruby 2.5er-Serie: 2.5.0 und früher
 * Trunk vor Revision 62422
 
 ## Workarounds
 
 Die Probleme wurden in RubyGems 2.7.6 behoben, weshalb eine
-Aktualisierung von RubyGems auf die neueste Version Abilfe schafft.
+Aktualisierung von RubyGems auf die neueste Version Abhilfe schafft.
 
 ```
 gem update --system
