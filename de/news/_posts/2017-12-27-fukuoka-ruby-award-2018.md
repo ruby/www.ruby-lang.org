@@ -66,7 +66,7 @@ Der Gewinner des IIJ GIO Prize erhält:
 
 Der Gewinner des Money Forward Prize erhält:
 
-* Ein Abendessen mit den Ruby-Commitern von Money Forward
+* Ein Abendessen mit den Ruby-Committern von Money Forward
 * Gratis-Zehnjahresticket für die Premiumdienste des persönlichen
   Finanzverwaltungsdienstes „Money Forward“
 
