@@ -30,6 +30,12 @@ class Linter
       File.basename(filename).split('-',4)[0..2].join('/')
     end
 
+    def yaml_date_not_utc?
+      date = yaml["date"]
+
+      date ? date.utc_offset != 0 : nil
+    end
+
     private
 
     def read_yaml(filename)
