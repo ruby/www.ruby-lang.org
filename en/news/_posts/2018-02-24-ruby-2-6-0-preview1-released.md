@@ -54,7 +54,7 @@ Stay tuned for the new age of Ruby's performance.
 
   Ruby 2.5 improves block passing performance. [Feature #14045]
   Additionally, Ruby 2.6 improves the performance of passed block calling.
-  With micro-benchmark we can observe 2.6x improvemnt.
+  With micro-benchmark we can observe 2.6x improvement.
 
 ## Other notable changes since 2.5
 
