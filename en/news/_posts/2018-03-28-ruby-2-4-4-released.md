@@ -1,9 +1,9 @@
 ---
 layout: news_post
-title: "Ruby 2.4.3 Released"
+title: "Ruby 2.4.4 Released"
 author: "nagachika"
 translator:
-date: 2017-12-14 00:00:00 +0000
+date: 2018-03-28 00:00:00 +0000
 lang: en
 ---
 
