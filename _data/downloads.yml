@@ -8,14 +8,14 @@ preview:
 
 stable:
 
-  - 2.5.0
-  - 2.4.3
-  - 2.3.6
+  - 2.5.1
+  - 2.4.4
+  - 2.3.7
 
 # optional
 security_maintenance:
 
-  - 2.2.9
+  - 2.2.10
 
 # optional
 eol:
