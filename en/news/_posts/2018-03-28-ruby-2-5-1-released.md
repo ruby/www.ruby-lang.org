@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.5.1 Released"
 author: "naruse"
 translator:
-date: 2018-03-28 00:00:00 +0000
+date: 2018-03-28 17:20:00 +0000
 lang: en
 ---
 
