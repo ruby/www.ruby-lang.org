@@ -17,6 +17,7 @@ This release includes some bug fixes and some security fixes.
 * [CVE-2018-8778: Buffer under-read in String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
 * [CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
 * [CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
+* [Multiple vulnerabilities in RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)への対応
 
 There are also some bug fixes.
 See [commit logs](https://github.com/ruby/ruby/compare/v2_4_3...v2_4_4) for more details.
