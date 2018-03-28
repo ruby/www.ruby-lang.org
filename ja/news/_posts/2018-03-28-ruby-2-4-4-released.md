@@ -10,12 +10,14 @@ lang: ja
 Ruby 2.4.3 がリリースされました。
 このリリースには以下の脆弱性修正が含まれています。
 
-* [CVE-2017-17742: WEBrick における HTTP レスポンス偽装の脆弱性について](/ja/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742)
-* [CVE-2018-6914: Tempfile および Tmpdir でのディレクトリトラバーサルを伴う意図しないファイルまたはディレクトリ作成の脆弱性について](/ja/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914)
-* [CVE-2018-8777: WEBrick における巨大リクエストにともなう DoS 脆弱性について](/ja/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777)
-* [CVE-2018-8778: String#unpack における範囲外読み込みの脆弱性について](/ja/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778.md/)
-* [CVE-2018-8779: UNIX ドメインソケットにおいて NUL 文字挿入により意図しないソケットにアクセスされうる脆弱性について](/ja/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779)
-* [CVE-2018-8780: Dir において NUL 文字挿入により意図しないディレクトリにアクセスされうる脆弱性について](/ja/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780)
+
+* [CVE-2017-17742: WEBrick における HTTP レスポンス偽装の脆弱性について](/ja/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)への対応
+* [CVE-2018-8777: WEBrick における巨大リクエストにともなう DoS 脆弱性について](/ja/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)への対応
+* [CVE-2018-6914: Tempfile および Tmpdir でのディレクトリトラバーサルを伴う意図しないファイルまたはディレクトリ作成の脆弱性について](/ja/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)への対応
+* [CVE-2018-8778: String#unpack における範囲外読み込みの脆弱性について](/ja/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)への対応
+* [CVE-2018-8779: UNIX ドメインソケットにおいて NUL 文字挿入により意図しないソケットにアクセスされうる脆弱性について](/ja/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)への対応
+* [CVE-2018-8780: Dir において NUL 文字挿入により意図しないディレクトリにアクセスされうる脆弱性について](/ja/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)への対応
+* [RubyGems の複数の脆弱性について](/ja/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)への対応
 
 その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) を参照してください。
 

@@ -11,12 +11,12 @@ Ruby 2.4.4 has been released.
 
 This release includes some bug fixes and some security fixes.
 
-* [CVE-2017-17742: HTTP response splitting in WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742)
-* [CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914)
-* [CVE-2018-8777: DoS by large request in WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777)
-* [CVE-2018-8778: Buffer under-read in String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778.md/)
-* [CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779)
-* [CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780)
+* [CVE-2017-17742: HTTP response splitting in WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
+* [CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
+* [CVE-2018-8777: DoS by large request in WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
+* [CVE-2018-8778: Buffer under-read in String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
+* [CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
+* [CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
 
 There are also some bug fixes.
 See [commit logs](https://github.com/ruby/ruby/compare/v2_4_3...v2_4_4) for more details.
