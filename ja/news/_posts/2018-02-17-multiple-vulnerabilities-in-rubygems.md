@@ -23,7 +23,7 @@ RubyGems の公式ブログにて[報告されています](http://blog.rubygems
 * Mitigate XSS vulnerability in homepage attribute when displayed via gem server.
 * Prevent Path Traversal issue during gem installation.
 
-この問題の影響を受けるバージョンの Ruby のユーザーは、下記の回避策を取ってください。
+この問題の影響を受けるバージョンの Ruby のユーザーは、最新の Ruby に更新するか、下記の回避策を取ってください。
 
 ## 影響を受けるバージョン
 
@@ -35,7 +35,8 @@ RubyGems の公式ブログにて[報告されています](http://blog.rubygems
 
 ## 回避策
 
-以下のコマンドを実行することにより、RubyGems を最新版(2.7.6 以降)に更新することによって、各脆弱性が修正されます。
+原則としては、Ruby 自体を最新のリリースに更新してください。
+それができない場合は、以下のコマンドを実行することにより、RubyGems を最新版(2.7.6 以降)に更新することによって、各脆弱性が修正されます。
 
 ```
 gem update --system
@@ -58,3 +59,4 @@ gem update --system
 ## 更新履歴
 
 * 2018-02-17 12:00:00 (JST) 初版
+* 2018-03-29 10:00:00 (JST) Ruby の最新リリースについて言及

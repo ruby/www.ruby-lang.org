@@ -23,7 +23,7 @@ The following vulnerabilities have been reported.
 * Mitigate XSS vulnerability in homepage attribute when displayed via gem server.
 * Prevent Path Traversal issue during gem installation.
 
-It is strongly recommended for Ruby users to take one of the following workarounds as soon as possible.
+It is strongly recommended for Ruby users to upgrade your Ruby installation or take one of the following workarounds as soon as possible.
 
 ## Affected Versions
 
@@ -35,7 +35,8 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 
 ## Workarounds
 
-RubyGems 2.7.6 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
+In principle, you should upgrade your Ruby installation to the latest version.
+RubyGems 2.7.6 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version if you can't upgrade Ruby itself.
 
 ```
 gem update --system
@@ -57,3 +58,4 @@ This report is based on [the official blog of RubyGems](http://blog.rubygems.org
 ## History
 
 * Originally published at 2018-02-17 03:00:00 UTC
+* Mention about upgrading Rubies at 2018-03-29 01:00:00 UTC
