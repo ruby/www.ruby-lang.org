@@ -9,15 +9,15 @@ lang: ko
 
 루비 2.3.7이 릴리스 되었습니다.
 
-이번 릴리스는 70개의 버그 수정과 다수의 보안 수정을 포함합니다.
+이번 릴리스는 70여개의 버그 수정과 다수의 보안 수정을 포함합니다.
 세부 내용은 아래 주제를 확인해주세요.
 
 * [CVE-2017-17742: WEBrick의 HTTP 응답 위장 취약점](/ko/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
-* [CVE-2018-8777: WEBrick 커다란 요청을 통한 DoS 취약점](/ko/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
-* [CVE-2018-6914: Tempfile, Tmpdir 에서 디렉토리 순회를 동반하는 의도하지 않은 파일, 또는 디렉토리 생성 취약점](/ko/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
+* [CVE-2018-8777: WEBrick의 커다란 요청을 통한 서비스 거부 공격 취약점](/ko/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
+* [CVE-2018-6914: tempfile, tmpdir에서 디렉터리 순회를 동반하는 의도하지 않은 파일, 또는 디렉터리 생성 취약점](/ko/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
 * [CVE-2018-8778: String#unpack의 범위 외 읽기 취약점](/ko/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
-* [CVE-2018-8779: UNIXServer, UNIXSocket 에서 NUL 문자 삽입을 통한 의도치 않은 소켓 생성 취약점](/ko/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
-* [CVE-2018-8780: Dir에서 NUL 문자 주입을 통한 의도하지 않은 디렉토리 접근 취약점](/ko/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
+* [CVE-2018-8779: UNIXServer, UNIXSocket에서 NUL 문자 삽입을 통한 의도치 않은 소켓 생성 취약점](/ko/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
+* [CVE-2018-8780: Dir에서 NUL 문자 주입을 통한 의도하지 않은 디렉터리 접근 취약점](/ko/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
 * [RubyGems의 취약점 다수 발견](/ko/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog)를 확인해주세요.
@@ -59,7 +59,7 @@ lang: ko
       SHA256: ffa42eeff928624a05dc7ad39426c855c6e9a757417f17b6fe9e54664ec91012
       SHA512: c85255a7f43c7df2fb11be4f9aa96e2ae70a94d3e963ccff4d8c1349ad6d455d9a436812efb24c91e451e68b8f81e5d335c6d5811b2a0e945a7070c305054434
 
-## Release Comment
+## 릴리스 코멘트
 
 이 릴리스를 만드는 데 도움을 준 모든 분에게 감사합니다.
 
