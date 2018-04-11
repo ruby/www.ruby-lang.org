@@ -6,6 +6,7 @@ cache:
 before_script:
   # https://github.com/travis-ci/travis-ci/issues/8978
   - gem update --system
+  - gem install bundler -v 1.16.1
 script: bundle exec rake ci
 # Notifications, used by our Gitter channel.
 notifications:
