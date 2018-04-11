@@ -1,11 +1,12 @@
 language: ruby
 sudo: false
-rvm: 2.5.0
+rvm: 2.5.1
 cache:
   bundler: true
 before_script:
   # https://github.com/travis-ci/travis-ci/issues/8978
   - gem update --system
+  - gem install bundler -v 1.16.1
 script: bundle exec rake ci
 # Notifications, used by our Gitter channel.
 notifications:
