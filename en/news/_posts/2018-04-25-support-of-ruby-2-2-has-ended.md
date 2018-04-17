@@ -3,7 +3,7 @@ layout: news_post
 title: "Support of Ruby 2.2 has ended"
 author: "antonpaisov"
 translator:
-date: 2018-04-17 00:00:00 +0000
+date: 2018-04-25 00:00:00 +0000
 lang: en
 ---
 
