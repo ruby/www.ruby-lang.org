@@ -7,7 +7,7 @@ date: 2017-03-22 03:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ân bản Ruby 2.4.1.
+Chúng tôi hân hạnh công bố ấn bản Ruby 2.4.1.
 Đấy là bản TEENY đầu tiên của chuỗi ấn bản ổn định 2.4.
 
 Xem [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_4_1)
