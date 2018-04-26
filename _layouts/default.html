@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html>
+{% if page.lang != null %}
+{% assign lang_code = site.locales.feed[page.lang].lang_code %}
+<html lang="{{ lang_code }}">
+{% else %}
+<html lang="en">
+{% endif %}
   <head>
     <meta charset="utf-8">
 
