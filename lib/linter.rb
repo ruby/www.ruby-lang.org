@@ -55,6 +55,7 @@ class Linter
   def check
     docs.each do |doc|
       errors[doc] << "  missing lang variable"  if doc.lang_missing?
+      errors[doc] << "  no newline at end of file"  if doc.no_newline_at_eof?
 
       unless WHITESPACE_EXCLUSIONS.include?(doc.filename)
         errors[doc] << "  trailing whitespace"  if doc.trailing_whitespace?

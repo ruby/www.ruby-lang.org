@@ -36,6 +36,10 @@ class Linter
       date ? date.utc_offset != 0 : nil
     end
 
+    def no_newline_at_eof?
+      !File.read(@filename).end_with?("\n")
+    end
+
     def trailing_whitespace?
       File.read(@filename).match?(/ $/)
     end
