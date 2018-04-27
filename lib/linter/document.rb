@@ -36,6 +36,10 @@ class Linter
       date ? date.utc_offset != 0 : nil
     end
 
+    def trailing_whitespace?
+      File.read(@filename).match?(/ $/)
+    end
+
     private
 
     def read_yaml(filename)

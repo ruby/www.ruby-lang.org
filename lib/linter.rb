@@ -48,6 +48,7 @@ class Linter
   def check
     docs.each do |doc|
       errors[doc] << "  missing lang variable"  if doc.lang_missing?
+      errors[doc] << "  trailing whitespace"  if doc.trailing_whitespace?
     end
 
     posts.each do |doc|
