@@ -13,6 +13,13 @@ class Linter
     %r{\A_includes/}
   ]
 
+  WHITESPACE_EXCLUSIONS = [
+    "en/news/_posts/2005-07-01-xmlrpcipimethods-vulnerability.md",
+    "ja/news/_posts/2005-07-01-20050701.md",
+    "de/news/_posts/2005-07-01-xmlrpcipimethods-vulnerability.md",
+    "ko/news/_posts/2005-07-01-xmlrpcipimethods-vulnerability.md"
+  ]
+
   attr_accessor :docs, :posts, :errors
 
   def initialize
@@ -48,7 +55,10 @@ class Linter
   def check
     docs.each do |doc|
       errors[doc] << "  missing lang variable"  if doc.lang_missing?
-      errors[doc] << "  trailing whitespace"  if doc.trailing_whitespace?
+
+      unless WHITESPACE_EXCLUSIONS.include?(doc.filename)
+        errors[doc] << "  trailing whitespace"  if doc.trailing_whitespace?
+      end
     end
 
     posts.each do |doc|
