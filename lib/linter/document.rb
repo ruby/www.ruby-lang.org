@@ -1,11 +1,11 @@
 class Linter
   class Document
 
-    attr_accessor :filename, :yaml
+    attr_accessor :filename, :yaml, :content
 
     def initialize(filename)
       @filename = filename
-      @yaml = read_yaml(filename)
+      @yaml, @content = read_yaml_and_content(filename)
     end
 
     def lang_missing?
@@ -37,20 +37,22 @@ class Linter
     end
 
     def no_newline_at_eof?
-      !File.read(@filename).end_with?("\n")
+      !content.end_with?("\n")
     end
 
     def trailing_whitespace?
-      File.read(@filename).match?(/ $/)
+      content.match?(/ $/)
     end
 
     private
 
-    def read_yaml(filename)
-      matchdata = File.read(filename).match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
-      yaml = YAML.load(matchdata[1])  if matchdata
+    def read_yaml_and_content(filename)
+      _content = File.read(filename)
 
-      yaml || {}
+      matchdata = _content.match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
+      _yaml = YAML.load(matchdata[1])  if matchdata
+
+      [_yaml || {}, _content || ""]
     end
   end
 end
