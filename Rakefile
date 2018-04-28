@@ -15,6 +15,7 @@ LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 CONFIG = "_config.yml"
 
 task :default => [:build]
+task :ci      => [:test, :build]
 
 desc "Build the Jekyll site"
 task :build do
@@ -109,6 +110,12 @@ end
 desc "Alias for `check'"
 task :test => [:check]
 
+desc "Run some tests on markdown files"
+task :check do
+  require_relative "lib/linter"
+  Linter.new.run
+end
+
 namespace :check do
 
   localport = 9292
@@ -125,11 +132,3 @@ namespace :check do
     MarkupChecker.new.check(host: HOST)
   end
 end
-
-desc "Run some tests on markdown files"
-task :check do
-  require_relative "lib/linter"
-  Linter.new.run
-end
-
-task :ci => [:test, :build]
