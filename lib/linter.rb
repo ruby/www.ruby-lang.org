@@ -54,18 +54,18 @@ class Linter
 
   def check
     docs.each do |doc|
-      errors[doc] << "  missing lang variable"  if doc.lang_missing?
-      errors[doc] << "  no newline at end of file"  if doc.no_newline_at_eof?
+      errors[doc] << "missing lang variable"  if doc.lang_missing?
+      errors[doc] << "no newline at end of file"  if doc.no_newline_at_eof?
 
       unless WHITESPACE_EXCLUSIONS.include?(doc.filename)
-        errors[doc] << "  trailing whitespace"  if doc.trailing_whitespace?
+        errors[doc] << "trailing whitespace"  if doc.trailing_whitespace?
       end
     end
 
     posts.each do |doc|
-      errors[doc] << "  missing author variable"  if doc.author_missing?
-      errors[doc] << "  date mismatch between filename and YAML front matter (UTC)"  if doc.date_mismatch?
-      errors[doc] << "  wrong time zone offset in YAML front matter (not UTC)"  if doc.yaml_date_not_utc?
+      errors[doc] << "missing author variable"  if doc.author_missing?
+      errors[doc] << "date mismatch between filename and YAML front matter (UTC)"  if doc.date_mismatch?
+      errors[doc] << "wrong time zone offset in YAML front matter (not UTC)"  if doc.yaml_date_not_utc?
     end
   end
 
@@ -76,7 +76,7 @@ class Linter
       puts
       errors.each do |doc, messages|
         puts doc.filename
-        puts messages
+        puts messages.map {|msg| "  #{msg}" }
       end
     end
   end
