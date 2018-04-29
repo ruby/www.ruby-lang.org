@@ -39,13 +39,13 @@ class Linter
     end
 
     def date_mismatch?
-      yaml_date_utc && (yaml_date_utc != slug_date)
+      return nil  if (date_missing? || old_post?)
+
+      yaml_date_utc != slug_date
     end
 
     def yaml_date_utc
-      date = yaml["date"]
-
-      date ? date.getutc.strftime('%Y/%m/%d') : nil
+      yaml["date"].getutc.strftime('%Y/%m/%d')
     end
 
     def slug_date
@@ -53,9 +53,9 @@ class Linter
     end
 
     def yaml_date_not_utc?
-      date = yaml["date"]
+      return nil  if (date_missing? || old_post?)
 
-      date ? date.utc_offset != 0 : nil
+      yaml["date"].utc_offset != 0
     end
 
     def no_newline_at_eof?
