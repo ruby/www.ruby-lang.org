@@ -12,6 +12,10 @@ class Linter
       yaml["lang"].nil? || yaml["lang"].empty?
     end
 
+    def lang_not_matching_filename?
+      !lang_missing? && !filename.start_with?("#{yaml['lang']}/")
+    end
+
     def author_missing?
       yaml["author"].nil? || yaml["author"].empty?
     end

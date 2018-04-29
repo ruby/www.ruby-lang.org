@@ -8,7 +8,9 @@ require_relative "linter/document"
 class Linter
 
   EXCLUDE_PATTERNS = [
+    %r{\A404\.md\z},
     %r{\AREADME\.md\z},
+    %r{\Aadmin/index\.md},
     %r{\A[^/]*/examples/},
     %r{\A_includes/}
   ]
@@ -55,6 +57,7 @@ class Linter
   def check
     docs.each do |doc|
       errors[doc] << "missing lang variable"  if doc.lang_missing?
+      errors[doc] << "lang variable not matching file location"  if doc.lang_not_matching_filename?
       errors[doc] << "no newline at end of file"  if doc.no_newline_at_eof?
 
       unless WHITESPACE_EXCLUSIONS.include?(doc.filename)
