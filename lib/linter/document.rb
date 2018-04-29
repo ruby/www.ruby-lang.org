@@ -9,11 +9,11 @@ class Linter
     end
 
     def lang_missing?
-      !yaml.has_key?("lang")
+      yaml["lang"].nil? || yaml["lang"].empty?
     end
 
     def author_missing?
-      !yaml.has_key?("author")
+      yaml["author"].nil? || yaml["author"].empty?
     end
 
     def date_mismatch?
