@@ -12,6 +12,13 @@ class Linter
       filename.match? %r{/_posts/}
     end
 
+    # posts from before the migration to the Jekyll site
+    # (they follow different rules; e.g. they have no YAML date variable,
+    # filenames of translations differ from original `en' post, ...)
+    def old_post?
+      post? && Time.utc(*slug_date.split("/")) < Time.utc(2013, 4, 1)
+    end
+
     def lang_missing?
       yaml["lang"].nil? || yaml["lang"].empty?
     end
@@ -22,6 +29,13 @@ class Linter
 
     def author_missing?
       yaml["author"].nil? || yaml["author"].empty?
+    end
+
+    # date missing or invalid
+    def date_missing?
+      return nil  if old_post?
+
+      yaml["date"].nil? || !yaml["date"].respond_to?(:getutc)
     end
 
     def date_mismatch?
