@@ -8,6 +8,10 @@ class Linter
       @yaml, @content = read_yaml_and_content(filename)
     end
 
+    def post?
+      filename.match? %r{/_posts/}
+    end
+
     def lang_missing?
       yaml["lang"].nil? || yaml["lang"].empty?
     end

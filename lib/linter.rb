@@ -51,7 +51,7 @@ class Linter
     end
 
     @docs = md_files.map {|fn| Document.new(fn) }
-    @posts = @docs.select {|doc| doc.filename =~ %r{/_posts/} }
+    @posts = @docs.select {|doc| doc.post? }
   end
 
   def check
