@@ -31,6 +31,12 @@ class Linter
       yaml["author"].nil? || yaml["author"].empty?
     end
 
+    def translator_missing?
+      return nil  if old_post?
+
+      !yaml.has_key?("translator")
+    end
+
     # date missing or invalid
     def date_missing?
       return nil  if old_post?
