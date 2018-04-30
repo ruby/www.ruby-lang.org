@@ -1,0 +1,46 @@
+Checking markdown files...
+en/1_trailing_whitespace.md
+  trailing whitespace
+en/2_trailing_whitespace_in_yaml.md
+  trailing whitespace
+en/3_newline_at_eof.md
+  no newline at end of file
+en/4_lang_variable.md
+  missing lang variable
+en/5_lang_variable_nil.md
+  missing lang variable
+en/6_lang_variable_empty.md
+  missing lang variable
+en/8_lang_variable_wrong.md
+  lang variable not matching file location
+en/9_multiple_errors.md
+  missing lang variable
+  trailing whitespace
+en/_posts/2000-01-01-old-lang-variable-nil.md
+  missing lang variable
+en/_posts/2018-01-01-trailing-whitespace.md
+  trailing whitespace
+en/_posts/2018-01-02-lang-variable-nil.md
+  missing lang variable
+en/_posts/2018-01-03-author-variable.md
+  missing author variable
+en/_posts/2018-01-04-author-variable-nil.md
+  missing author variable
+en/_posts/2018-01-05-author-variable-empty.md
+  missing author variable
+en/_posts/2018-01-07-translator-variable.md
+  missing translator variable
+en/_posts/2018-01-09-date-variable.md
+  missing or invalid date variable
+en/_posts/2018-01-10-date-variable-nil.md
+  missing or invalid date variable
+en/_posts/2018-01-11-date-variable-empty.md
+  missing or invalid date variable
+en/_posts/2018-01-12-date-variable-wrong-type.md
+  missing or invalid date variable
+en/_posts/2018-01-13-date-variable-without-time.md
+  missing or invalid date variable
+en/_posts/2018-01-14-date-variable-wrong-offset.md
+  wrong time zone offset in YAML front matter (not UTC)
+en/_posts/2018-01-15-date-mismatch.md
+  date mismatch between filename and YAML front matter (UTC)

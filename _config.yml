@@ -18,6 +18,7 @@ exclude:
   - README.md
   - unicorn.rb
   - lib
+  - test
   - vendor
 
 url: https://www.ruby-lang.org

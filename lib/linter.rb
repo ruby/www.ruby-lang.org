@@ -12,7 +12,8 @@ class Linter
     %r{\AREADME\.md\z},
     %r{\Aadmin/index\.md},
     %r{\A[^/]*/examples/},
-    %r{\A_includes/}
+    %r{\A_includes/},
+    %r{\Atest/}
   ]
 
   WHITESPACE_EXCLUSIONS = [
@@ -24,7 +25,11 @@ class Linter
 
   attr_accessor :docs, :posts, :errors
 
-  def initialize
+  # set to +false+ when running Linter in tests
+  attr_accessor :exit_on_errors
+
+  def initialize(exit_on_errors: true)
+    @exit_on_errors = exit_on_errors
     @docs = []
     @posts = []
     @errors = Hash.new {|h, k| h[k] = [] }
@@ -38,7 +43,7 @@ class Linter
     check
     report
 
-    exit(1)  if errors.any?
+    exit(1)  if errors.any? && exit_on_errors
   end
 
   private
@@ -78,6 +83,8 @@ class Linter
     if errors.empty?
       puts " ok"
     else
+      errors.replace errors.sort_by {|doc, _| doc.filename }.to_h
+
       puts
       errors.each do |doc, messages|
         puts doc.filename
