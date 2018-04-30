@@ -8,7 +8,7 @@ tags: security
 lang: id
 ---
 
-Ada beberapa kerentanan pada RubyGems yang di-*bundle* oleh Ruby.
+Ada beberapa kerentanan pada RubyGems yang dikemas dengan Ruby.
 Ini [dilaporkan pada blog resmi RubyGems](http://blog.rubygems.org/2018/02/15/2.7.6-released.html).
 
 ## Detail
@@ -23,7 +23,8 @@ Kerentanan berikut ini telah dilaporkan.
 * Menangani kerentanan XSS pada halaman awal atribut ketika ditampilkan melalui gem *server*.
 * Mencegah *Path Traversal* selama pemasangan gem.
 
-Ini sangat direkomendasikan kepada pengguna Ruby untuk mengambil salah satu solusi berikut segera mungkin.
+Ini sangat direkomendasikan kepada pengguna Ruby untuk memperbarui Ruby atau
+mengambil salah satu solusi berikut segera mungkin.
 
 ## Versi Terimbas
 
@@ -35,8 +36,10 @@ Ini sangat direkomendasikan kepada pengguna Ruby untuk mengambil salah satu solu
 
 ## Solusi
 
-RubyGems 2.7.6 atau setelahnya berisi perbaikan dari kerentanan di atas, sehingga
-perbarui RubyGems ke versi terbaru.
+Pada prinsipnya, Anda harus memperbarui Ruby ke versi terbaru.
+RubyGems 2.7.6 atau setelahnya berisi perbaikan dari kerentanan di atas,
+sehingga perbarui RubyGems ke versi terbaru jika Anda tidak dapat memperbarui
+Ruby itu sendiri.
 
 ```
 gem update --system
@@ -58,3 +61,4 @@ Laporan ini didasarkan pada [blog resmi RubyGems](http://blog.rubygems.org/2018/
 ## Riwayat
 
 * Semula dipublikasikan pada 2018-02-17 03:00:00 UTC
+* Sebut memperbarui Ruby pada 2018-03-29 01:00:00 UTC
