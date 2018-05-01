@@ -31,15 +31,15 @@ en/_posts/2018-01-05-author-variable-empty.md
 en/_posts/2018-01-07-translator-variable.md
   missing translator variable
 en/_posts/2018-01-09-date-variable.md
-  missing or invalid date variable
+  missing date variable
 en/_posts/2018-01-10-date-variable-nil.md
-  missing or invalid date variable
+  missing date variable
 en/_posts/2018-01-11-date-variable-empty.md
-  missing or invalid date variable
+  invalid date variable
 en/_posts/2018-01-12-date-variable-wrong-type.md
-  missing or invalid date variable
+  invalid date variable
 en/_posts/2018-01-13-date-variable-without-time.md
-  missing or invalid date variable
+  invalid date variable
 en/_posts/2018-01-14-date-variable-wrong-offset.md
   wrong time zone offset in YAML front matter (not UTC)
 en/_posts/2018-01-15-date-mismatch.md
