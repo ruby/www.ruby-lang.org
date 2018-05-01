@@ -32,20 +32,16 @@ class Linter
     end
 
     def translator_missing?
-      return nil  if old_post?
-
       !yaml.has_key?("translator")
     end
 
     # date missing or invalid
     def date_missing?
-      return nil  if old_post?
-
       yaml["date"].nil? || !yaml["date"].respond_to?(:getutc)
     end
 
     def date_mismatch?
-      return nil  if (date_missing? || old_post?)
+      return nil  if date_missing?
 
       yaml_date_utc != slug_date
     end
@@ -59,7 +55,7 @@ class Linter
     end
 
     def yaml_date_not_utc?
-      return nil  if (date_missing? || old_post?)
+      return nil  if date_missing?
 
       yaml["date"].utc_offset != 0
     end
