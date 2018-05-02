@@ -30,6 +30,8 @@ en/_posts/2018-01-05-author-variable-empty.md
   missing author variable
 en/_posts/2018-01-07-translator-variable.md
   missing translator variable
+en/_posts/2018-01-08-translator-variable-empty.md
+  invalid translator variable
 en/_posts/2018-01-09-date-variable.md
   missing date variable
 en/_posts/2018-01-10-date-variable-nil.md
