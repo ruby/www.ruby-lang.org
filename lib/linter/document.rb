@@ -31,8 +31,15 @@ class Linter
       yaml["author"].nil? || yaml["author"].empty?
     end
 
+    # translator variable must be present but can be nil
     def translator_missing?
       !yaml.has_key?("translator")
+    end
+
+    def translator_invalid?
+      return nil  if yaml["translator"].nil?
+
+      !yaml["translator"].is_a?(String) || yaml["translator"].empty?
     end
 
     def date_missing?

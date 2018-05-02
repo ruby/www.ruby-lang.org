@@ -72,6 +72,7 @@ class Linter
 
     posts.each do |doc|
       errors[doc] << "missing author variable"  if doc.author_missing?
+      errors[doc] << "invalid translator variable"  if doc.translator_invalid?
       errors[doc] << "invalid date variable"  if doc.date_invalid?
       errors[doc] << "date mismatch between filename and YAML front matter (UTC)"  if doc.date_mismatch?
       errors[doc] << "wrong time zone offset in YAML front matter (not UTC)"  if doc.yaml_date_not_utc?
