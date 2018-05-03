@@ -74,8 +74,8 @@ class Linter
       errors[doc] << "missing author variable"  if doc.author_missing?
       errors[doc] << "invalid translator variable"  if doc.translator_invalid?
       errors[doc] << "invalid date variable"  if doc.date_invalid?
-      errors[doc] << "date mismatch between filename and YAML front matter (UTC)"  if doc.date_mismatch?
-      errors[doc] << "wrong time zone offset in YAML front matter (not UTC)"  if doc.yaml_date_not_utc?
+      errors[doc] << "filename not matching date variable"  if doc.date_mismatch?
+      errors[doc] << "date variable with wrong time zone offset (not +0000)"  if doc.date_not_utc?
 
       unless doc.old_post?
         errors[doc] << "missing translator variable"  if doc.translator_missing?

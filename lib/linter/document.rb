@@ -16,7 +16,7 @@ class Linter
     # (they follow different rules; e.g. they have no YAML date variable,
     # filenames of translations differ from original `en' post, ...)
     def old_post?
-      post? && Time.utc(*slug_date.split("/")) < Time.utc(2013, 4, 1)
+      post? && Time.utc(*filename_date_string.split("/")) < Time.utc(2013, 4, 1)
     end
 
     def lang_missing?
@@ -55,18 +55,18 @@ class Linter
     def date_mismatch?
       return nil  if date_missing? || date_invalid?
 
-      yaml_date_utc != slug_date
+      date_utc_string != filename_date_string
     end
 
-    def yaml_date_utc
+    def date_utc_string
       yaml["date"].getutc.strftime('%Y/%m/%d')
     end
 
-    def slug_date
+    def filename_date_string
       File.basename(filename).split('-',4)[0..2].join('/')
     end
 
-    def yaml_date_not_utc?
+    def date_not_utc?
       return nil  if date_missing? || date_invalid?
 
       yaml["date"].utc_offset != 0
