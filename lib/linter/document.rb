@@ -19,16 +19,16 @@ class Linter
       post? && Time.utc(*filename_date_string.split("/")) < Time.utc(2013, 4, 1)
     end
 
-    def lang_missing?
-      yaml["lang"].nil? || yaml["lang"].empty?
+    def lang_invalid?
+      yaml["lang"].nil? || !valid_string(yaml["lang"])
     end
 
     def lang_not_matching_filename?
-      !lang_missing? && !filename.start_with?("#{yaml['lang']}/")
+      !lang_invalid? && !filename.start_with?("#{yaml['lang']}/")
     end
 
-    def author_missing?
-      yaml["author"].nil? || yaml["author"].empty?
+    def author_invalid?
+      yaml["author"].nil? || !valid_string(yaml["author"])
     end
 
     # translator variable must be present but can be nil
@@ -39,7 +39,7 @@ class Linter
     def translator_invalid?
       return nil  if yaml["translator"].nil?
 
-      !yaml["translator"].is_a?(String) || yaml["translator"].empty?
+      !valid_string(yaml["translator"])
     end
 
     def date_missing?
@@ -49,7 +49,7 @@ class Linter
     def date_invalid?
       return nil  if date_missing?
 
-      !yaml["date"].respond_to?(:getutc)
+      !yaml["date"].is_a?(Time)
     end
 
     def date_mismatch?
@@ -89,6 +89,10 @@ class Linter
       _yaml = YAML.load(matchdata[1])  if matchdata
 
       [_yaml || {}, _content || ""]
+    end
+
+    def valid_string(obj)
+      obj.is_a?(String) && !obj.empty?
     end
   end
 end

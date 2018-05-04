@@ -6,18 +6,20 @@ en/2_trailing_whitespace_in_yaml.md
 en/3_newline_at_eof.md
   no newline at end of file
 en/4_lang_variable.md
-  missing lang variable
+  missing or invalid lang variable
 en/5_lang_variable_nil.md
-  missing lang variable
+  missing or invalid lang variable
 en/6_lang_variable_empty.md
-  missing lang variable
+  missing or invalid lang variable
+en/7_lang_variable_wrong_type.md
+  missing or invalid lang variable
 en/8_lang_variable_wrong.md
   lang variable not matching file location
 en/9_multiple_errors.md
-  missing lang variable
+  missing or invalid lang variable
   trailing whitespace
 en/_posts/2000-01-01-old-lang-variable-nil.md
-  missing lang variable
+  missing or invalid lang variable
 en/_posts/2000-01-02-old-translator-variable-wrong-type.md
   invalid translator variable
 en/_posts/2000-01-03-old-date-empty.md
@@ -27,13 +29,15 @@ en/_posts/2000-01-04-old-date-mismatch.md
 en/_posts/2018-01-01-trailing-whitespace.md
   trailing whitespace
 en/_posts/2018-01-02-lang-variable-nil.md
-  missing lang variable
+  missing or invalid lang variable
 en/_posts/2018-01-03-author-variable.md
-  missing author variable
+  missing or invalid author variable
 en/_posts/2018-01-04-author-variable-nil.md
-  missing author variable
+  missing or invalid author variable
 en/_posts/2018-01-05-author-variable-empty.md
-  missing author variable
+  missing or invalid author variable
+en/_posts/2018-01-06-author-variable-wrong-type.md
+  missing or invalid author variable
 en/_posts/2018-01-07-translator-variable.md
   missing translator variable
 en/_posts/2018-01-08-translator-variable-empty.md

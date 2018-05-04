@@ -61,7 +61,7 @@ class Linter
 
   def check
     docs.each do |doc|
-      errors[doc] << "missing lang variable"  if doc.lang_missing?
+      errors[doc] << "missing or invalid lang variable"  if doc.lang_invalid?
       errors[doc] << "lang variable not matching file location"  if doc.lang_not_matching_filename?
       errors[doc] << "no newline at end of file"  if doc.no_newline_at_eof?
 
@@ -71,7 +71,7 @@ class Linter
     end
 
     posts.each do |doc|
-      errors[doc] << "missing author variable"  if doc.author_missing?
+      errors[doc] << "missing or invalid author variable"  if doc.author_invalid?
       errors[doc] << "invalid translator variable"  if doc.translator_invalid?
       errors[doc] << "invalid date variable"  if doc.date_invalid?
       errors[doc] << "filename not matching date variable"  if doc.date_mismatch?
