@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0042号 発行"
 author: "oshow"
+translator:
 date: 2013-05-30 00:40:00 +0000
 lang: ja
 ---

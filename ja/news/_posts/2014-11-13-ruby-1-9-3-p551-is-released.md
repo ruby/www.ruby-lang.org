@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 1.9.3-p551 リリース"
 author: "usa"
+translator:
 date: 2014-11-13 12:00:00 +0000
 lang: ja
 ---

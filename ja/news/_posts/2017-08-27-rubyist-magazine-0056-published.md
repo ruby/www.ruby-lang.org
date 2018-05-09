@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0056号 発行"
 author: "miyohide"
+translator:
 date: 2017-08-27 15:55:00 +0000
 lang: ja
 ---

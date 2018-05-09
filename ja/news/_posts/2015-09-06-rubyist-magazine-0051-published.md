@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0051号 発行"
 author: "gunjisatoshi"
+translator:
 date: 2015-09-06 13:30:00 +0000
 lang: ja
 ---
