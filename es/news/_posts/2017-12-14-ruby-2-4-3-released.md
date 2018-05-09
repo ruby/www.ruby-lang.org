@@ -48,6 +48,6 @@ Ver más detalles en la [bitácora de commits](https://github.com/ruby/ruby/comp
 
 ## Comentario de la versión
 
-Muchas personas que contribuyeron, desarrolladores y usuarios que proveyeron reportes de fallas 
+Muchas personas que contribuyeron, desarrolladores y usuarios que proveyeron reportes de fallas
 nos ayudaron a lograr esta versión.
 Gracias por sus contribuciones.

@@ -14,10 +14,10 @@ Introduce algunas características nuevas y mejoras al desempeño, por ejemplo:
 
 ## Nuevas características
 
-* Imprimir trazas y mensajes de error en orden inverso si no se ha 
+* Imprimir trazas y mensajes de error en orden inverso si no se ha
   cambiado STDERR y es un tty.  [Feature #8661] [experimental]
 
-* Se ha eliminado la búsqueda de constantes en el nivel superior 
+* Se ha eliminado la búsqueda de constantes en el nivel superior
   cuando no se encuentran en una clase.  [Feature #11547]
 
 * rescue/else/ensure se permiten al interior de bloques do/end.  [Feature #12906]
@@ -26,13 +26,13 @@ Introduce algunas características nuevas y mejoras al desempeño, por ejemplo:
 
 ## Mejoras en desempeño
 
-* Instrumentación dinámica para ganchos TracePoint en lugar de usar 
+* Instrumentación dinámica para ganchos TracePoint en lugar de usar
   la instrucción "trace" para evitar costos. [Feature #14104]
 
 * El desempeño al pasar bloques usando parámetros de bloque se ha
   mejorado empleando localización de Proc retardada.  [Feature #14045]
 
-* Se ha vuelto a escribir mutex para que sea más pequeño y 
+* Se ha vuelto a escribir mutex para que sea más pequeño y
   veloz. [Feature #13517]
 
 * SecureRandom ahora prefiere fuentes proveidas por el sistema operativo
@@ -47,7 +47,7 @@ Introduce algunas características nuevas y mejoras al desempeño, por ejemplo:
 * Actualización a RubyGems 2.7.0.
 * Actualización a RDoc 6.0.0.
   * Cambiado el analizador léxico de IRB por uno basado en Ripper;
-    esto mejora considerablemente la velocidad de generación de la 
+    esto mejora considerablemente la velocidad de generación de la
     documentación.  [https://github.com/ruby/rdoc/pull/512]
   * Resuletas muchas fallas de la última docena de años aproximadamente.
   * Soporta las nuevas sintaxis de Ruby de los últimos años.
