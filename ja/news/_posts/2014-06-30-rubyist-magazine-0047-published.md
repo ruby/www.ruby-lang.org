@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0047号 発行"
 author: "sunaot"
+translator:
 date: 2014-06-30 19:30:00 +0000
 lang: ja
 ---

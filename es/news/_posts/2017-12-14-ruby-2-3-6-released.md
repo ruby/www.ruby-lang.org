@@ -9,8 +9,8 @@ lang: es
 
 Ruby 2.3.6 ha sido publicado.
 
-Esta versión incluye cerca de 10 correcciones a fallas posteriores a la 
-versión anterior, y también incluya diversas correcciones a fallas de 
+Esta versión incluye cerca de 10 correcciones a fallas posteriores a la
+versión anterior, y también incluya diversas correcciones a fallas de
 seguridad.
 Por favor revise los temas siguientes para ver más detalles.
 

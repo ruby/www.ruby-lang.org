@@ -2,6 +2,7 @@
 layout: news_post
 title: "Ruby 2.0.0-p643 リリース"
 author: "usa"
+translator:
 date: 2015-02-25 12:00:00 +0000
 lang: ja
 ---

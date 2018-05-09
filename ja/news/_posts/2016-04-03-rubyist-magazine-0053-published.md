@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0053号 発行"
 author: "kurotaky"
+translator:
 date: 2016-04-03 18:50:00 +0000
 lang: ja
 ---
