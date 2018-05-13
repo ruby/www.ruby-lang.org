@@ -22,13 +22,13 @@ you’ll find a small sample of real world usage of Ruby.
 
 #### Business
 
-* [Toronto Rehab][4] uses a RubyWebDialogs based app to manage and track
+* [Toronto Rehab][4] uses a RubyWebDialogs-based app to manage and track
   on-call and on-site support for the IT help desk and IT operations
   teams.
 
 #### Robotics
 
-* At [MORPHA][5] project, Ruby was used to implemented the reactive
+* At [MORPHA][5] project, Ruby was used to implement the reactive
   control part for the Siemens service robot.
 
 #### Networking
