@@ -19,7 +19,7 @@ Ruby 2.4.4 がリリースされました。
 * [CVE-2018-8780: Dir において NUL 文字挿入により意図しないディレクトリにアクセスされうる脆弱性について](/ja/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)への対応
 * [RubyGems の複数の脆弱性について](/ja/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)への対応
 
-その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) を参照してください。
+その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_4_3...v2_4_4) を参照してください。
 
 
 ## ダウンロード
