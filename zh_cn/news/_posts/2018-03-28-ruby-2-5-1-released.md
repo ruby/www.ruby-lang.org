@@ -4,7 +4,7 @@ title: "Ruby 2.5.1 已发布"
 author: "naruse"
 translator: "Delton Ding"
 date: 2018-03-28 17:20:00 +0000
-lang: zh-cn
+lang: zh_cn
 ---
 
 Ruby 2.5.1 已发布。
