@@ -7,7 +7,7 @@ date: 2018-03-28 17:00:00 +0000
 lang: zh_cn
 ---
 
-Ruby 2.2.7 已发布。此次发布修复了近 70 个漏洞，包括数个安全漏洞。请检查以下主题以了解详情。
+Ruby 2.3.7 已发布。此次发布修复了近 70 个漏洞，包括数个安全漏洞。请检查以下主题以了解详情。
 
 * [CVE-2017-17742: WEBrick 回复分离缺陷](/zh_cn/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
 * [CVE-2018-8777: WEBrick 大请求 DoS 缺陷](/zh_cn/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
