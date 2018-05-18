@@ -112,7 +112,7 @@ lang: zh_tw
 
 
 
-[1]: https://easydatawarehousing.github.io/TryRuby/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
 [4]: http://www.hackety.com/
