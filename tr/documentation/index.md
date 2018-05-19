@@ -107,7 +107,7 @@ listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
 [3]: http://www.hackety.com/
 [4]: http://mislav.uniqpath.com/poignant-guide/

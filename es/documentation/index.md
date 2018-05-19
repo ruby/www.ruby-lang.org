@@ -70,7 +70,7 @@ correo](/es/community/mailing-lists/) es un buen lugar para comenzar.
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://pine.fm/LearnToProgram/
 [3]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [4]: http://pragmaticprogrammer.com/titles/ruby/index.html

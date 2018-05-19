@@ -142,7 +142,7 @@ ruby -v
 Ако имате въпроси относно Ruby, [пощенският списък](/bg/community/mailing-lists/)
 е чудесно място да ги зададете.
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
 [3]: http://rubymonk.com/
 [4]: http://www.hackety.com/

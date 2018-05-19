@@ -668,7 +668,7 @@ locales:
 
   sidebar:
     try_ruby: &try_ruby
-      url: http://tryruby.org/
+      url: https://ruby.github.io/TryRuby/
     rubybib: &rubybib
       url: http://rubybib.org/
 
