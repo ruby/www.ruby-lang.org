@@ -72,11 +72,9 @@ An endless range, `(1..)`, is introduced.  It works as it has no end.  This show
 * Speedup `block.call` where `block` is passed block parameter. [Feature #14330]
   Ruby 2.5 improves block passing performance. [Feature #14045]
   Additionally, Ruby 2.6 improves the performance of passed block calling.
-  With micro-benchmark we can observe x2.6 improvemnt.
+  With micro-benchmark we can observe x2.6 improvement.
 
 ## Other notable changes since 2.5
-
-* Range#cover? いる？
 
 * $SAFE is a process global state and we can set 0 again. [Feature #14250]
 
