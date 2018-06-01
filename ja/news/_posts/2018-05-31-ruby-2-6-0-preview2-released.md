@@ -58,7 +58,7 @@ An endless range, `(1..)`, is introduced.  It works as it has no end.  This show
 ## パフォーマンスの改善
 
 * 後述の$SAFEの変更に伴って考慮すべきことが減ったため、`Proc#call`が高速化されました [Feature #14318]
-  `Proc#call` を大量に呼び出す `lc_fizzbuzz` ベンチマークにおいては、1.4倍高速化されています [Bug #10212].
+  `Proc#call` を大量に呼び出す `lc_fizzbuzz` ベンチマークにおいては、1.4倍高速化されています [Bug #10212]。
 * `block` がブロックパレメータである時、`block.call`が高速化されました [Feature #14330]
   Ruby 2.5ではブロック渡しの性能が改善されましたが [Feature #14045]、加えてRuby 2.6では渡されたブロックの呼び出しも改善されました。
   マイクロベンチマークにおいては2.6倍高速化されています。

@@ -38,8 +38,9 @@ Stay tuned for the new age of Ruby's performance.
 
 Ruby 2.6 introduces `RubyVM::AST` module.
 
-This module has `parse` method which parses a given string and returns AST (Abstract Syntax Tree) nodes, and `parse_file` method which parses a given file and returns AST nodes.
-`RubyVM::AST::Node` class is also introduced you can get location information and children nodes from `Node` objects. This feature is experimental, so compatibility is not guaranteed.
+This module has `parse` method which parses a given ruby code of string and returns AST (Abstract Syntax Tree) nodes, and `parse_file` method which parses a given ruby code file and returns AST nodes.
+
+`RubyVM::AST::Node` class is also introduced you can get location information and children nodes from `Node` objects. This feature is experimental. Compatibility of the structure of AST nodes are not guaranteed.
 
 ## New Features
 
