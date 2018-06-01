@@ -43,12 +43,12 @@ Ruby 2.6では `RubyVM::AST` モジュールが導入されました。
 
 * ASCII以外の大文字でも定数を定義出来るようになりました [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* endless range [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
+* 終端なしRange [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
-An endless range, `(1..)`, is introduced.  It works as it has no end.  This shows typical use cases:
+終端なしRange `(1..)` が導入されました。これは終端を持ちません。これが典型的な用途です:
 
-    ary[1..]                          # identical to ary[1..-1] without magical -1
-    (1..).each {|index| ... }         # inifinite loop from index 1
+    ary[1..]                          # マジックナンバー -1 なしで ary[1..-1] と同じ意味
+    (1..).each {|index| ... }         # index が 1 から始まる無限ループ
     ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * Binding#source_location の追加 [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
