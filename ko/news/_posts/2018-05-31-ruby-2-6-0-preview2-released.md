@@ -9,7 +9,7 @@ lang: ko
 
 루비 2.6.0-preview2 릴리스를 알리게 되어 기쁩니다.
 
-루비 2.6.0-preview2는 루비 2.6.0의 두번째 프리뷰입니다.
+루비 2.6.0-preview2는 루비 2.6.0의 두 번째 프리뷰입니다.
 이 프리뷰는 JIT이라는 중요한 새 기능을 포함하고 있기 때문에 평소보다 빠르게 릴리스됩니다.
 그 일부를 아래에서 소개합니다.
 
@@ -38,7 +38,8 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 루비 2.6에는 `RubyVM::AST` 모듈이 도입되었습니다.
 
 이 모듈에은 문자열을 파싱하여 AST(추상구문트리)의 Node를 돌려주는 `parse` 메소드, 파일을 파싱하는 `parse_file` 메소드가 들어있습니다.
-`RubyVM::AST::Node`도 도입되었습니다. 이 클래스의 인스턴스로부터 위치정보나 자식 노드를 얻을 수 있습니다. 이 기능은 실험적으로 포함되었으며, 호환성을 보장하지 않습니다.
+
+`RubyVM::AST::Node`도 도입되었습니다. 이 클래스의 인스턴스로부터 위치정보나 자식 노드를 얻을 수 있습니다. 이 기능은 실험적으로 포함되었으며, AST 노드의 구조는 호환성을 보장하지 않습니다.
 
 ## 새로운 기능
 
@@ -46,7 +47,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * `rescue` 가 없는 `else` 가 문법 에러가 됩니다. [EXPERIMENTAL]
 
-* ASCII 이외의 대문자라도 상수를 정의할 수 있게 됩니다. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
+* ASCII 이외의 대문자로 시작하는 상수를 정의할 수 있게 됩니다. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
 * 종료 지정이 없는 범위 연산자. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
@@ -59,7 +60,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 * `Binding#source_location`을 추가했습니다. [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
   * 이 메소드는 `binding`의 소스 코드 상의 위치를 `__FILE__`과 `__LINE__`을 가지는 배열로 돌려줍니다. 지금까지는 `eval("[__FILE__, __LINE__]", binding)`을 사용하여 같은 정보를 획득할 수 있었습니다만, `Kernel#eval`이 `binding`의 소스 코드의 위치를 무시하도록 변경할 예정입니다. [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352) 그러므로 앞으로는 `Kernel#eval`보다는 이 새로운 메소드를 사용해야 합니다.
 
-* `Kernal#system`이 실패했을 경우 `false`를 돌려주는 대신, 에러를 던지도록 하는 `:exception` 옵션을 추가. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
+* `Kernal#system`이 실패했을 경우 `false`를 돌려주는 대신, 에러를 던지도록 하는 `:exception` 옵션을 추가했습니다. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
 ## 성능 향상
 
