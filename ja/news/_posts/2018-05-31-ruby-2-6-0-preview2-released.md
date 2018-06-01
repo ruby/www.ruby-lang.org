@@ -17,7 +17,7 @@ Ruby 2.6.0-preview2は、重要な新機能であるJITを含むため、例年�
 Ruby 2.6ではJIT (Just-in-time) コンパイラが導入されました。
 
 JITコンパイラはあらゆるRubyプログラムの実行を高速化することを目的としています。
-他言語の一般的なJITコンパイラと異なり、RubyのJITコンパイラはC言語のソースコードをファイルとしてディスクに書き、通常のCコンパイラを用いてネイティブコードに変換することでJITコンパイルを行うという手法を用いています。(参考: https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization)
+他言語の一般的なJITコンパイラと異なり、RubyのJITコンパイラはC言語のソースコードをファイルとしてディスクに書き、通常のCコンパイラを用いてネイティブコードに変換することでJITコンパイルを行うという手法を用いています。(参考: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization))
 
 JITコンパイルを有効にするには `--jit` オプションをコマンドラインまたは$RUBYOPT環境変数を指定します。`--jit-verbose=1`を指定すれば指定すれば実行中のJITコンパイルの基本的な情報を表示します。その他のオプションについては `ruby --help` を参照ください。
 
@@ -37,13 +37,13 @@ Ruby 2.6では `RubyVM::AST` モジュールが導入されました。
 
 ## 新機能
 
-* `Kernel#yield_self` の別名として `then` が追加されました [Feature #14594]
+* `Kernel#yield_self` の別名として `then` が追加されました [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
 
 * `rescue` 無しの `else` が文法エラーとなるようになりました  [EXPERIMENTAL]
 
-* ASCII以外の大文字でも定数を定義出来るようになりました [Feature #13770]
+* ASCII以外の大文字でも定数を定義出来るようになりました [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* endless range [Feature#12912]
+* endless range [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
 An endless range, `(1..)`, is introduced.  It works as it has no end.  This shows typical use cases:
 
@@ -51,22 +51,22 @@ An endless range, `(1..)`, is introduced.  It works as it has no end.  This show
     (1..).each {|index| ... }         # inifinite loop from index 1
     ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* Binding#source_location の追加 [Feature #14230]
-  * `binding`のソースコード上の位置を `__FILE__` と `__LINE__` の二要素配列として返します。従来でも `eval("[__FILE__, __LINE__]", binding)` とすることでこれらの情報は得られましたが、将来的に `Kernel#eval` はbindingのソースコード行を無視する変更を予定しているため [Bug #4352]、この新しいメソッドを用いることが今後は推奨されます。
-* Kernel#system の失敗時に、falseを返す代わりに例外を上げさせる :exception オプションを追加 [Feature #14386]
+* Binding#source_location の追加 [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
+  * `binding`のソースコード上の位置を `__FILE__` と `__LINE__` の二要素配列として返します。従来でも `eval("[__FILE__, __LINE__]", binding)` とすることでこれらの情報は得られましたが、将来的に `Kernel#eval` はbindingのソースコード行を無視する変更を予定しているため [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352)、この新しいメソッドを用いることが今後は推奨されます。
+* Kernel#system の失敗時に、falseを返す代わりに例外を上げさせる :exception オプションを追加 [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
 ## パフォーマンスの改善
 
-* 後述の$SAFEの変更に伴って考慮すべきことが減ったため、`Proc#call`が高速化されました [Feature #14318]
-  `Proc#call` を大量に呼び出す `lc_fizzbuzz` ベンチマークにおいては、1.4倍高速化されています [Bug #10212]。
-* `block` がブロックパラメータである時、`block.call`が高速化されました [Feature #14330]
-  Ruby 2.5ではブロック渡しの性能が改善されましたが [Feature #14045]、加えてRuby 2.6では渡されたブロックの呼び出しも改善されました。
+* 後述の$SAFEの変更に伴って考慮すべきことが減ったため、`Proc#call`が高速化されました [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
+  `Proc#call` を大量に呼び出す `lc_fizzbuzz` ベンチマークにおいては、1.4倍高速化されています [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212)。
+* `block` がブロックパラメータである時、`block.call`が高速化されました [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
+  Ruby 2.5ではブロック渡しの性能が改善されましたが [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)、加えてRuby 2.6では渡されたブロックの呼び出しも改善されました。
   マイクロベンチマークにおいては2.6倍高速化されています。
 
 ## その他の注目すべき 2.5 からの変更点
 
-* $SAFE はプロセスグローバルで扱われることになると共に、0以外を設定した後に0に戻せるようになりました [Feature #14250]
-* `ERB.new`に`safe_level`を渡すのは非推奨になりました。また、`trim_mode`と`eoutvar`はキーワード引数に変更されました。 [Feature #14256]
+* $SAFE はプロセスグローバルで扱われることになると共に、0以外を設定した後に0に戻せるようになりました [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
+* `ERB.new`に`safe_level`を渡すのは非推奨になりました。また、`trim_mode`と`eoutvar`はキーワード引数に変更されました。 [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 * RubyGems 3.0.0.beta1 をマージしました
 
 その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview2/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)を参照してください。

@@ -44,13 +44,13 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 ## New Features
 
-* Add a new alias `then` to `Kernel#yield_self`. [Feature #14594]
+* Add a new alias `then` to `Kernel#yield_self`. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
 
 * `else` without `rescue` now causes a syntax error.  [EXPERIMENTAL]
 
-* constant names may start with a non-ASCII capital letter. [Feature #13770]
+* constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* endless range. [Feature#12912]
+* endless range [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
   An endless range, `(1..)`, is introduced. It works as it has no end. This shows typical use cases:
 
@@ -58,31 +58,31 @@ This module has `parse` method which parses a given ruby code of string and retu
       (1..).each {|index| ... }         # inifinite loop from index 1
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* Add `Binding#source_location`.  [Feature #14230]
+* Add `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
 
-  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
+  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352).  So, users should use this newly-introduced method instead of `Kernel#eval`.
 
-* Add `:exception` option to let `Kernel.#system` raise error instead of returning `false`. [Feature #14386]
+* Add `:exception` option to let `Kernel.#system` raise error instead of returning `false`.  [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
 ## Performance improvements
 
 * Speedup `Proc#call` because we dont' need to care about `$SAFE` any more.
-  [Feature #14318]
+  [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
   With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
-  x1.4 improvements [Bug #10212].
+  x1.4 improvements [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212).
 
-* Speedup `block.call` where `block` is passed block parameter. [Feature #14330]
+* Speedup `block.call` where `block` is passed block parameter. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
-  Ruby 2.5 improves block passing performance. [Feature #14045]
+  Ruby 2.5 improves block passing performance. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
   Additionally, Ruby 2.6 improves the performance of passed block calling.
   With micro-benchmark we can observe x2.6 improvement.
 
 ## Other notable changes since 2.5
 
-* `$SAFE` is a process global state and we can set `0` again. [Feature #14250]
+* `$SAFE` is a process global state and we can set `0` again.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
-* Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [Feature #14256]
+* Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
 * Merge RubyGems 3.0.0.beta1
 
