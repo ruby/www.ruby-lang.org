@@ -43,9 +43,9 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 ## 새로운 기능
 
-* `Kernel#yield_self`의 별칭으로 `then` 이 추가되었습니다. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
+* `Kernel#yield_self`의 별칭으로 `then`이 추가되었습니다. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
 
-* `rescue` 가 없는 `else` 가 문법 에러가 됩니다. [EXPERIMENTAL]
+* `rescue`가 없는 `else`가 문법 에러가 됩니다. [EXPERIMENTAL]
 
 * ASCII 이외의 대문자로 시작하는 상수를 정의할 수 있게 됩니다. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
@@ -53,7 +53,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 종료 지정이 없는 범위 연산자, `(1..)`가 추가됩니다. 이는 끝이 없는 것처럼 취급됩니다. 다음은 전형적인 사용 예시입니다.
 
-    ary[1..]                          # ary[1..-1] 와 동치
+    ary[1..]                          # ary[1..-1]와 동치
     (1..).each {|index| ... }         # 1로 시작하는 무한 루프
     ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
