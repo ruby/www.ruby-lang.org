@@ -17,11 +17,11 @@ This preview2 is released earlier than usual because it includes an important ne
 Ruby 2.6 introduces an initial implementation of JIT (Just-in-time) compiler.
 
 JIT compiler aims to improve performance of any Ruby program execution.
-Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which prints C code to a disk and spawns common C compiler process to generate native cod e.
-See also: https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization
+Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which prints C code to a disk and spawns common C compiler process to generate native code.
+See also: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
-How to use: Just specify "--jit" in command line or $RUBYOPT environment variable.
-Specifying "--jit-verbose=1" allows to print basic information of ongoing JIT compilation. See "ruby --help" for other options.
+How to use: Just specify `--jit` in command line or `$RUBYOPT` environment variable.
+Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT compilation. See `ruby --help` for other options.
 
 The main purpose of this JIT release is to provide a chance to check if it works for your platform and to find out security risks before the 2.6 release.
 Currently JIT compiler is supported only when Ruby is built by gcc or clang and the compiler is available on runtime. Otherwise you can't use it for now.
@@ -50,36 +50,39 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 * constant names may start with a non-ASCII capital letter. [Feature #13770]
 
-* endless range [Feature#12912]
+* endless range. [Feature#12912]
 
-An endless range, `(1..)`, is introduced.  It works as it has no end.  This shows typical use cases:
+  An endless range, `(1..)`, is introduced. It works as it has no end. This shows typical use cases:
 
-    ary[1..]                          # identical to ary[1..-1] without magical -1
-    (1..).each {|index| ... }         # inifinite loop from index 1
-    ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
+      ary[1..]                          # identical to ary[1..-1] without magical -1
+      (1..).each {|index| ... }         # inifinite loop from index 1
+      ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* Add Binding#source_location.  [Feature #14230]
-  * This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
+* Add `Binding#source_location`.  [Feature #14230]
 
-* Add :exception option to let Kernel.#system raise error instead of returning false. [Feature #14386]
+  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [Bug #4352].  So, users should use this newly-introduced method instead of `Kernel#eval`.
+
+* Add `:exception` option to let `Kernel.#system` raise error instead of returning `false`. [Feature #14386]
 
 ## Performance improvements
 
 * Speedup `Proc#call` because we dont' need to care about `$SAFE` any more.
   [Feature #14318]
+
   With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
   x1.4 improvements [Bug #10212].
 
 * Speedup `block.call` where `block` is passed block parameter. [Feature #14330]
+
   Ruby 2.5 improves block passing performance. [Feature #14045]
   Additionally, Ruby 2.6 improves the performance of passed block calling.
   With micro-benchmark we can observe x2.6 improvement.
 
 ## Other notable changes since 2.5
 
-* $SAFE is a process global state and we can set 0 again. [Feature #14250]
+* `$SAFE` is a process global state and we can set `0` again. [Feature #14250]
 
-* Passing safe_level to ERB.new is deprecated. trim_mode and eoutvar arguments are changed to keyword arguments. [Feature #14256]
+* Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [Feature #14256]
 
 * Merge RubyGems 3.0.0.beta1
 
