@@ -33,7 +33,7 @@ JIT 编译器旨在提升任何 Ruby 程序的执行速度。不同于其他语�
 
 * 新增 `Binding#source_location`。[功能 #14230]
 
-  此方法以一个二元组数组 `__FILE__` and `__LINE__` 的形式返回 binding 的源代码路径。传统上，这可以通过执行 `eval("[__FILE__, __LINE__]", binding)` 来获得相同的数据。但我们计划改变这一行为让 `Kernel#eval` 忽略 `binding` 的源代码路径 [漏洞 #4352]。所以，用户需要通过新加入的方法来替代之前的 `Kernel#eval`。
+  此方法以一个二元组数组 `__FILE__` 和 `__LINE__` 的形式返回 binding 的源代码路径。传统上，这可以通过执行 `eval("[__FILE__, __LINE__]", binding)` 来获得相同的数据。但我们计划改变这一行为让 `Kernel#eval` 忽略 `binding` 的源代码路径 [漏洞 #4352]。所以，用户需要通过新加入的方法来替代之前的 `Kernel#eval`。
 
 * 增加 `:exception` 选项，以让 `Kernel.#system` 抛出错误而不是返回 `false`。[功能 #14386]
 
