@@ -51,11 +51,11 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * 종료 지정이 없는 범위 연산자. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
-종료 지정이 없는 범위 연산자, `(1..)`가 추가됩니다. 이는 끝이 없는 것처럼 취급됩니다. 다음은 전형적인 사용 예시입니다.
+  종료 지정이 없는 범위 연산자, `(1..)`가 추가됩니다. 이는 끝이 없는 것처럼 취급됩니다. 다음은 전형적인 사용 예시입니다.
 
-    ary[1..]                          # ary[1..-1]와 동치
-    (1..).each {|index| ... }         # 1로 시작하는 무한 루프
-    ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
+      ary[1..]                          # ary[1..-1]와 동치
+      (1..).each {|index| ... }         # 1로 시작하는 무한 루프
+      ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * `Binding#source_location`을 추가했습니다. [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
   * 이 메소드는 `binding`의 소스 코드 상의 위치를 `__FILE__`과 `__LINE__`을 가지는 배열로 돌려줍니다. 지금까지는 `eval("[__FILE__, __LINE__]", binding)`을 사용하여 같은 정보를 획득할 수 있었습니다만, `Kernel#eval`이 `binding`의 소스 코드의 위치를 무시하도록 변경할 예정입니다. [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352) 그러므로 앞으로는 `Kernel#eval`보다는 이 새로운 메소드를 사용해야 합니다.

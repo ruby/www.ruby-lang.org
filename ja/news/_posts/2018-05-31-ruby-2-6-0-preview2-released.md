@@ -45,11 +45,11 @@ Ruby 2.6では `RubyVM::AST` モジュールが導入されました。
 
 * 終端なしRange [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
-終端なしRange `(1..)` が導入されました。これは終端を持ちません。これが典型的な用途です:
+  終端なしRange `(1..)` が導入されました。これは終端を持ちません。これが典型的な用途です:
 
-    ary[1..]                          # マジックナンバー -1 なしで ary[1..-1] と同じ意味
-    (1..).each {|index| ... }         # index が 1 から始まる無限ループ
-    ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
+      ary[1..]                          # マジックナンバー -1 なしで ary[1..-1] と同じ意味
+      (1..).each {|index| ... }         # index が 1 から始まる無限ループ
+      ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * Binding#source_location の追加 [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
   * `binding`のソースコード上の位置を `__FILE__` と `__LINE__` の二要素配列として返します。従来でも `eval("[__FILE__, __LINE__]", binding)` とすることでこれらの情報は得られましたが、将来的に `Kernel#eval` はbindingのソースコード行を無視する変更を予定しているため [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352)、この新しいメソッドを用いることが今後は推奨されます。

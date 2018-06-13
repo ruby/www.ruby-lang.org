@@ -50,11 +50,11 @@ Ruby 2.6 引入了 `RubyVM::AST` 模組。
 
 * 無盡範圍 [Feature#12912]
 
-引入了無盡範圍 `(1..)`，如同無止盡般的運作，下面列出幾個典型的例子：
+  引入了無盡範圍 `(1..)`，如同無止盡般的運作，下面列出幾個典型的例子：
 
-    ary[1..]                          # 與 ary[1..-1] 完全相同，少了神奇的 -1
-    (1..).each {|index| ... }         # 從 index 1 開始無限循環
-    ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
+      ary[1..]                          # 與 ary[1..-1] 完全相同，少了神奇的 -1
+      (1..).each {|index| ... }         # 從 index 1 開始無限循環
+      ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * 新增 Binding#source_location. [Feature #14230]
   * 此方法回傳 binding 的原始碼路徑，為一個兩個元素的陣列 `__FILE__` 和 `__LINE__`。照理來說，`eval("[__FILE__, __LINE__]", binding)` 可以獲取相同的訊息，但我們打算改變這種情況以便 `Kernel#eval` 忽略 binding 的原始碼路徑 [Bug #4352]。因此，使用者應使用這個新引入的方法來取代 `Kernel#eval`。
