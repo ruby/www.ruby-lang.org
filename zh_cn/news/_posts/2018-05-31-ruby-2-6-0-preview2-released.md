@@ -7,9 +7,9 @@ date: 2018-05-31 00:00:00 +0000
 lang: zh_cn
 ---
 
-我们高兴地宣布 Ruby 2.6.0-preview1 已发布。
+我们高兴地宣布 Ruby 2.6.0-preview2 已发布。
 
-Ruby 2.6.0-preview1 是 Ruby 2.6.0 系列的第二个测试版本。此次 preview2 发布比以往早，因为其包括了重要新特性：JIT。
+Ruby 2.6.0-preview2 是 Ruby 2.6.0 系列的第二个测试版本。此次 preview2 发布比以往早，因为其包括了重要新特性：JIT。
 
 ## JIT
 
