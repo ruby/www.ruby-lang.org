@@ -3,7 +3,7 @@ layout: news_post
 title: "Support of Ruby 2.2 has ended"
 author: "antonpaisov"
 translator:
-date: 2018-04-17 00:00:00 +0000
+date: 2018-06-20 00:00:00 +0000
 lang: en
 ---
 
@@ -19,6 +19,8 @@ We highly recommend that you upgrade to Ruby 2.5 or 2.4 as soon as possible.
 
 
 ## About currently supported Ruby versions
+
+(as of Jun 20th, 2018)
 
 ### Ruby 2.5 series
 
