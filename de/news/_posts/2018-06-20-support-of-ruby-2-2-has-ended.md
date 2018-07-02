@@ -22,8 +22,6 @@ geben. Wir empfehlen Ihnen dringend, so schnell wie möglich auf Ruby
 
 ## Über momentan unterstützte Ruby-Versionen
 
-(zum Stichtag 20. Juni 2018)
-
 ### Rubys 2.5er-Serie
 
 Befindet sich momentan in der normalen Unterstützungsphase. Wir werden

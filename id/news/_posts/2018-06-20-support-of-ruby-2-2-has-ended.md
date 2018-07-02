@@ -20,8 +20,6 @@ segera mungkin.
 
 ## Tentang dukungan versi Ruby saat ini
 
-(mulai 20 Juni 2018)
-
 ### Rangkaian Ruby 2.5
 
 Saat ini pada fase perawatan biasa.
