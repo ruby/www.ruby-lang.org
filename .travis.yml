@@ -3,11 +3,6 @@ sudo: false
 rvm: 2.5.1
 cache:
   bundler: true
-before_script:
-  # https://github.com/travis-ci/travis-ci/issues/8978
-  - gem update --system
-  # Fix bundler/dep_proxy failure
-  - gem install bundler -v 1.16.1
 script: bundle exec rake ci
 # Notifications, used by our Gitter channel.
 notifications:
