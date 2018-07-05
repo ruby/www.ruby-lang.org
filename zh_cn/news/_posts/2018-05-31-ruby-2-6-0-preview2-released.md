@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.6.0-preview2 Released"
+title: "Ruby 2.6.0-preview2 已发布"
 author: "naruse"
 translator: "Delton Ding"
 date: 2018-05-31 00:00:00 +0000

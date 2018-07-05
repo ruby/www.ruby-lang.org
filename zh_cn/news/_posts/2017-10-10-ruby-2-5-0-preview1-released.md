@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.5.0-preview1 Released"
+title: "Ruby 2.5.0-preview1 已发布"
 author: "naruse"
 translator: "安道"
 date: 2017-10-10 00:00:00 +0000
