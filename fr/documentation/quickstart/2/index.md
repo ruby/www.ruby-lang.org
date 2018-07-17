@@ -55,7 +55,7 @@ Hello World!
 Rien de très compliqué. Appeler une méthode en Ruby, c’est simplement
 dire son nom, au minimum. Si la méthode n’attend pas de paramètres pour
 préciser ce qu’elle doit faire, le nom suffira. Et d’ailleurs, vous
-pouvez bien ajouter des parenthèses vides à une méthode qui n’attend 
+pouvez bien ajouter des parenthèses vides à une méthode qui n’attend
 pas de paramètres : elles seront simplement ignorés.
 
 Que faire si nous souhaitons dire bonjour à une personne en particulier,
