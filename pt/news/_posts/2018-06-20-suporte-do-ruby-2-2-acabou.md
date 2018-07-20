@@ -18,7 +18,7 @@ para a versão 2.2, e não haverão mais lançamentos de patch da versão 2.2.
 Nós recomendamos altamente que atualize para o Ruby 2.5 ou 2.4 o mais rápido possível.
 
 
-## sSobre as versões do Ruby atualmente suportadas
+## Sobre as versões do Ruby atualmente suportadas
 
 ### Séries Ruby 2.5
 
