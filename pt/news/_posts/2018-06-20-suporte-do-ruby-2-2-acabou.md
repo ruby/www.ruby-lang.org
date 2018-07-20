@@ -34,11 +34,6 @@ E se um problema crítico de segurança for encontrado iremos lançar uma corre�
 
 ### Séries Ruby 2.3
 
-Currently in security maintenance phase.
-We will never backport any bug fixes to 2.3 except security fixes.
-If a critical security issue is found, we will release an urgent fix for it.
-We are planning to end the support of the Ruby 2.3 series at the end of
-March 2019.
 Atualmente em fase de manunteção de segurança.
 Nós nunca exportaremos quaisquer correções de bugs para a versão 2.3 exceto correções de segurança.
 Se um problema crítico de segurança for encontrado iremos lançar uma correção urgente para resolvê-lo.
