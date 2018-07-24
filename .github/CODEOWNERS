@@ -1,0 +1,37 @@
+# Order alphabetically.
+# Order is important. The last matching pattern takes the most precedence.
+
+# Default owners for everything in the repo.
+*      @ruby/www-ruby-lang-org-editorial
+
+bg/    @ruby/www-ruby-lang-org-i18n
+
+de/    @ruby/www-ruby-lang-org-i18n-de
+
+en/    @ruby/www-ruby-lang-org-editorial
+
+es/    @ruby/www-ruby-lang-org-i18n-es
+
+fr/    @ruby/www-ruby-lang-org-i18n-fr
+
+id/    @ruby/www-ruby-lang-org-i18n-id
+
+it/    @ruby/www-ruby-lang-org-i18n-it
+
+ja/    @ruby/www-ruby-lang-org-i18n-ja
+
+ko/    @ruby/www-ruby-lang-org-i18n-ko
+
+pl/    @ruby/www-ruby-lang-org-i18n
+
+pt/    @ruby/www-ruby-lang-org-i18n
+
+ru/    @ruby/www-ruby-lang-org-i18n
+
+tr/    @ruby/www-ruby-lang-org-i18n
+
+vi/    @ruby/www-ruby-lang-org-i18n
+
+zh_cn/ @ruby/www-ruby-lang-org-i18n-zh_cn
+
+zh_tw/ @ruby/www-ruby-lang-org-i18n-zh_tw
