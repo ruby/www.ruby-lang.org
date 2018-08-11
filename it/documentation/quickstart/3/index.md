@@ -135,7 +135,7 @@ il valore e `nome=` per settarlo.
 
 ## Salutare tutti e tutto, L’AmicoDiTutti non trascura nessuno!
 
-Questa PersonaCordiale uò salutare solo una persona alla volta. Cosa
+Questa PersonaCordiale può salutare solo una persona alla volta. Cosa
 succederebbe se avessimo un amico di tutti che può salutare il mondo,
 una persona o un intero elenco di persone?
 
