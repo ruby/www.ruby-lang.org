@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0058号 発行"
 author: "miyohide"
+translator:
 date: 2018-08-28 21:30:00 +0000
 lang: ja
 ---
