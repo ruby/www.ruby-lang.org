@@ -211,17 +211,21 @@ Berikut ini daftarnya:
 * [Rubinius][rubinius] adalah ‘Ruby written in Ruby’. Dibuat di atas LLVM,
   Rubinius memakai sebuah *virtual machine* yang bagus yang bahasa lainnya
   sedang dibuat di atasnya, juga.
+* [TruffleRuby][truffleruby] adalah sebuah implementasi Ruby di atas GraalVM
+  yang memiliki performa tinggi.
+* [mruby][mruby] adalah sebuah implementasi *lightweight* dari bahasa Ruby
+  yang dapat dihubungkan dan ditanamkan dengan sebuah aplikasi.
 * [MacRuby][macruby] adalah Ruby yang sangat terintegrasi erat dengan pustaka
   Apple Cocoa untuk Mac OS X, memperbolehkan Anda untuk memprogram aplikasi
   *desktop* dengan mudah.
-* [mruby][mruby] adalah sebuah implementasi *lightweight* dari bahasa Ruby
-  yang dapat dihubungkan dan ditanamkan dengan sebuah aplikasi.
 * [IronRuby][ironruby] adalah sebuah implementasi “tightly integrated with
   the .NET Framework”.
 * [MagLev][maglev] adalah “a fast, stable, Ruby implementation with integrated
   object persistence and distributed shared cache”.
 * [Cardinal][cardinal] adalah “Ruby compiler for [Parrot][parrot] Virtual
   Machine” (Perl 6).
+
+Untuk daftar lebih lengkapnya, lihat [Awesome Rubies][awesome-rubies].
 
 ### Referensi
 
@@ -248,9 +252,11 @@ di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
 [sigil]: http://en.wikipedia.org/wiki/Sigil_%28computer_programming%29
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
+[truffleruby]: https://github.com/oracle/truffleruby
 [macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
+[awesome-rubies]: https://github.com/planetruby/awesome-rubies
