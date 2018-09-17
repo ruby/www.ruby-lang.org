@@ -11,9 +11,9 @@ praktis dan mudah. Apa lagi?
 
 ### Idealisme Pencipta Ruby
 
-Ruby merupakan bahasa yang seimbang. Pencipta Ruby, [Yukihiro “Matz”
+Ruby merupakan sebuah bahasa yang seimbang. Pencipta Ruby, [Yukihiro “Matz”
 Matsumoto][matz], menggabungkan bagian-bagian dari bahasa-bahasa favorit
-beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk bahasa
+beliau (Perl, Smalltalk, Eiffel, Ada dan Lisp) untuk membentuk sebuah bahasa
 baru yang seimbang antara pemrograman fungsional dengan pemrograman
 imperatif.
 
@@ -35,49 +35,48 @@ pengguna Ruby yang aktif di banyak kota-kota di seluruh dunia dan
 konferensi-konferensi beserta pertemuan Ruby terkait.
 
 Ruby-Talk, [milis](/id/community/mailing-lists/) utama untuk diskusi
-Ruby (dalam bahasa Inggris) telah mencapai kisaran 200 email setiap
-hari.
+Ruby (dalam bahasa Inggris), telah mencapai kisaran 200 email setiap
+hari pada tahun 2006. Namun, telah menurun di beberapa tahun terakhir
+karena ukuran diskusi komunitas dari satu tempat terpusat menjadi banyak
+kelompok-kelompok lebih kecil.
 
-[TIOBE index][tiobe], yang menghitung perkembangan bahasa-bahasa pemrograman,
-menempatkan Ruby pada peringkat ke 10 diantara bahasa-bahasa pemrograman
-di seluruh dunia. Melihat pada perkembangan ini, mereka memperkirakan,
-“Kesempatan Ruby memasuki peringkat atas 10 besar adalah dalam waktu
-setengah tahun.” Kebanyakan dari perkembangan Ruby beratribut pada
-terkenalnya software yang ditulis dengan Ruby, terutama framework web
+Ruby berada di peringkat 10 teratas pada indeks yang menghitung
+perkembangan dan popularitas bahasa-bahasa pemrograman di seluruh dunia
+(seperti [TIOBE index][tiobe]). Kebanyakan dari perkembangan Ruby beratribut
+pada terkenalnya *software* yang ditulis dengan Ruby, terutama *web framework*
 [Ruby on Rails][ror].
 
 Ruby juga [sepenuhnya bebas]({{ site.license.url }}). Tidak hanya gratis,
-tetapi juga bebas untuk menggunakan, memodifikasi dan mendistribusikan
-Ruby.
+tetapi juga bebas untuk digunakan, dimodifikasi dan didistribusikan.
 
-### Melihat Semua sebagai Obyek
+### Melihat Semua sebagai Sebuah Objek
 
 Pertama kali, Matz melihat bahasa-bahasa lain untuk mencari sintaks yang
-ideal. Terkenang pencariannya, Matz berkata, “Saya mau bahasa scripting
-yang lebih hebat daripada Perl dan lebih berorientasi obyek daripada
+ideal. Terkenang pencariannya, Matz berkata, “Saya mau bahasa *scripting*
+yang lebih hebat daripada Perl dan lebih berorientasi objek daripada
 Python<sup>[2](#fn2)</sup>.”
 
-Di Ruby, semua adalah obyek. Setiap informasi dan kode bisa diberi
-property dan action. Pemrograman berorientasi obyek memanggil property
-dengan nama *variabel instan* dan action, yang disebut sebagai *metode*.
-Pendekatan murni berorientasi obyek terutama terlihat pada demonstrasi
-sedikit kode yang diberikan pada number.
+Di Ruby, semua adalah sebuah objek. Setiap informasi dan kode bisa diberi
+*property* dan *action*. Pemrograman berorientasi objek memanggil *property*
+dengan nama *variabel instan* dan *action*, yang disebut sebagai *metode*.
+Pendekatan murni berorientasi objek terutama terlihat pada demonstrasi
+sedikit kode yang diberikan pada sebuah *number*.
 
 {% highlight ruby %}
 5.times { print "Kami *cinta* Ruby -- Ruby sungguh aduhai!" }
 {% endhighlight %}
 
-Di banyak bahasa-bahasa lain, number dan tipe primitif bukan obyek. Ruby
+Di banyak bahasa-bahasa lain, *number* dan tipe primitif bukan objek. Ruby
 mengikuti pengaruh bahasa Smalltalk dengan memberikan metode dan
 variabel instan pada semua tipe. Ini memudahkan menggunakan Ruby, karena
-peraturan-peraturan mengenai obyek semua berlaku pada Ruby.
+peraturan-peraturan mengenai objek semua berlaku pada Ruby.
 
-### Ruby Fleksibel
+### Fleksibilitas Ruby
 
-Ruby dianggap sebagai bahasa yang fleksibel, karena bagian-bagian dari
-Ruby bisa diubah-ubah dengan bebas. Bagian-bagian yang esensi di Ruby
+Ruby dianggap sebagai sebuah bahasa yang fleksibel, karena bagian-bagian
+dari Ruby bisa diubah-ubah dengan bebas. Bagian-bagian penting di Ruby
 bisa dihapus maupun didefinisikan ulang. Bagian-bagian yang sudah ada
-bisa ditambahkan. Ruby mencoba untuk tidak membatasi programmer.
+bisa ditambahkan. Ruby mencoba untuk tidak membatasi *programmer*.
 
 Misalnya, penambahan dilakukan dengan operator plus (`+`). Tetapi, jika
 Anda ingin menggunakan kata `plus` yang lebih mudah dibaca, maka Anda
@@ -97,12 +96,12 @@ y = 5.plus 6
 Demi kemudahan, operator-operator Ruby adalah juga metode. Anda juga
 bisa mendefinisikan ulang operator.
 
-### Blok, Fitur yang sungguh Ekspresif
+### Blok: Sebuah Fitur yang sungguh Ekspresif
 
 Blok Ruby juga dianggap sebagai sumber kekuatan Ruby yang sangat
-fleksibel. Programmer dapat menyertakan closure pada setiap metode,
+fleksibel. *Programmer* dapat menyertakan *closure* pada setiap metode,
 menjelaskan bagaimana metode yang bersangkutan seharusnya berperilaku.
-Closure disebut *blok* dan telah menjadi satu diantara banyak
+*Closure* disebut *blok* dan telah menjadi satu diantara banyak
 fitur-fitur Ruby yang paling populer pada banyak pendatang baru Ruby
 dari bahasa-bahasa imperatif lain seperti PHP atau Visual Basic.
 
@@ -119,20 +118,20 @@ search_engines =
 Pada kode diatas, blok dijelaskan dalam bentuk `do ... end`. Metode
 `map` memberlakukan blok agar menerima array kata-kata (Google, Yahoo
 dan MSN). Banyak metode-metode lain di Ruby dibiarkan mempunyai hole
-yang dibuka untuk programmer agar menulis blok mereka sendiri untuk
+yang dibuka untuk *programmer* agar menulis blok mereka sendiri untuk
 mengisi dengan lebih lengkap apa saja yang seharusnya sebuah metode
 lakukan.
 
 ### Ruby dan Mixin
 
-Tidak seperti banyak bahasa-bahasa berorientasi obyek lain, Ruby hanya
-menyediakan single inheritance **dengan sengaja**. Tetapi Ruby
-mengetahui konsep module (disebut sebagai Categories di Objective-C).
-Module merupakan kumpulan dari metode-metode.
+Tidak seperti banyak bahasa-bahasa berorientasi objek lain, Ruby hanya
+menyediakan *single inheritance* **dengan sengaja**. Tetapi Ruby
+mengetahui konsep *module* (disebut sebagai Categories di Objective-C).
+*Module* merupakan kumpulan dari metode-metode.
 
-Kelas dapat me-mixin (menggabungkan) sebuah module dan menerima semua
-metode-metode (dari module yang bersangkutan) dengan bebas. Contoh,
-setiap kelas yang mengimplementasikan metode `each` bisa mixin module
+Kelas dapat me-*mixin* (menggabungkan) sebuah *module* dan menerima semua
+metode-metode (dari *module* yang bersangkutan) dengan bebas. Contoh,
+setiap kelas yang mengimplementasikan metode `each` bisa *mixin module*
 `Enumerable`, yang menambahkan banyak metode-metode yang menggunakan
 `each` untuk melakukan perulangan.
 
@@ -144,17 +143,16 @@ end
 
 Secara umum, <abbr title="Matz telah mendeklarasikan pengguna Ruby
 disebut Rubyist">Rubyist</abbr> menganggap ini sebagai cara yang lebih
-jelas ketimbang multiple inheritance, yang rumit dan bahkan terlalu
+jelas ketimbang *multiple inheritance*, yang rumit dan bahkan terlalu
 membatasi.
 
 ### Tampilan Ruby secara Visual
 
 Ruby jarang menggunakan tanda baca dan biasanya cenderung menggunakan
-keyword berbahasa Inggris, biasanya beberapa tanda baca digunakan untuk
-memperjelas kode Ruby
-
-Ruby tidak perlu deklarasi variabel. Ruby menggunakan aturan penamaan
-yang mudah untuk menyatakan scope suatu variabel.
+kata kunci berbahasa Inggris, beberapa tanda baca digunakan untuk
+memperjelas kode Ruby. Ruby tidak perlu deklarasi variabel. Ruby
+menggunakan aturan penamaan yang mudah untuk menyatakan *scope*
+dari variabel-variabel.
 
 * `var` adalah variabel lokal.
 * `@var` adalah variabel instan.
@@ -169,27 +167,27 @@ digunakan pada setiap member instan `self.`
 
 Ruby kaya fitur, antara lain sebagai berikut:
 
-* Ruby memiliki fitur-fitur yang menangani exception, seperti Java atau
-  Python, untuk mempermudah menangani error.
+* Ruby memiliki fitur-fitur yang menangani *exception*, seperti Java atau
+  Python, untuk mempermudah menangani *error*.
 
-* Ruby menyediakan mark-and-sweep garbage collector untuk semua obyek
-  Ruby. Tidak perlu me-maintain reference count pada library extension.
+* Ruby menyediakan *mark-and-sweep garbage collector* untuk semua objek
+  Ruby. Tidak perlu me-*maintain reference count* pada *extension*.
   Seperti yang Matz katakan, “Ini lebih baik untuk kesehatan Anda.”
 
-* Menulis extension C di Ruby lebih mudah daripada di Perl ataupun di
+* Menulis *extension* C di Ruby lebih mudah daripada di Perl ataupun di
   Python, dengan API yang elegan untuk memanggil Ruby dari C. Ini
-  termasuk memanggil Ruby embedded di software, untuk digunakan sebagai
-  bahasa scripting. Interface SWIG juga tersedia.
+  termasuk memanggil Ruby *embedded* di *software*, untuk digunakan sebagai
+  bahasa *scripting*. *Interface* SWIG juga tersedia.
 
-* Ruby bisa load library extension secara dinamis jika Sistem Operasi
-  mengijinkan.
+* Ruby bisa memuat *extension library* secara dinamis jika sistem operasi
+  mengizinkan.
 
-* Ruby menyediakan fitur OS threading yang independent. Maka, untuk
-  semua platform dimana Ruby berjalan, Anda juga punya multithreading,
-  terlepas dari apakah Sistem Operasi mendukung multithreading atau
+* Ruby menyediakan fitur OS *threading* yang independen. Maka, untuk
+  semua *platform* dimana Ruby berjalan, Anda juga punya *multithreading*,
+  terlepas dari apakah sistem operasi mendukung *multithreading* atau
   tidak, bahkan pada MS-DOS sekalipun!
 
-* Ruby sangat portable: Ruby kebanyakan dikembangkan di GNU/Linux,
+* Ruby sangat *portable*: Ruby kebanyakan dikembangkan di GNU/Linux,
   tetapi juga berjalan di banyak tipe UNIX, Mac OS X,
   Windows, DOS, BeOS, OS/2, dan lain-lain.
 
