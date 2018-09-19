@@ -41,4 +41,4 @@ Ruby 的一般信息
 [3]: http://rubycentral.org/
 [4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
 [5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
-[ruby-china]: http://ruby-china.org
+[ruby-china]: https://ruby-china.org

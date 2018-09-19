@@ -48,7 +48,7 @@ Please try to use a mirror that is near you.
 [mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
 [mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
 [mirror-http-cn1]: https://ruby.taobao.org/mirrors/ruby/
-[mirror-http-cn2]: https://cache.ruby-china.org/pub/ruby/
+[mirror-http-cn2]: https://cache.ruby-china.com/pub/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-u-toyama]: ftp://ring.u-toyama.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-airnet]: ftp://ring.airnet.ne.jp/pub/lang/ruby/
