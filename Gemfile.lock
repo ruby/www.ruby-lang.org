@@ -73,6 +73,9 @@ GEM
     slop (4.6.2)
     spidr (0.6.0)
       nokogiri (~> 1.3)
+    sq_mini_racer (0.2.0.sqreen1)
+    sqreen (1.14.0)
+      sq_mini_racer (~> 0.2.0.beta3)
     tidy_ffi (0.1.6)
       ffi (~> 1.2)
     unicorn (5.4.1)
@@ -101,6 +104,7 @@ DEPENDENCIES
   rake
   rouge (~> 1.10)
   spidr (~> 0.6)
+  sqreen
   unicorn
   validate-website (~> 1.6)
 
