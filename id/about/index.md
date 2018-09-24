@@ -171,7 +171,7 @@ Ruby kaya fitur, antara lain sebagai berikut:
   Python, untuk mempermudah menangani *error*.
 
 * Ruby menyediakan *mark-and-sweep garbage collector* untuk semua objek
-  Ruby. Tidak perlu me-*maintain reference count* pada *extension*.
+  Ruby. Tidak perlu menjaga *reference count* pada *extension*.
   Seperti yang Matz katakan, “Ini lebih baik untuk kesehatan Anda.”
 
 * Menulis *extension* C di Ruby lebih mudah daripada di Perl ataupun di
