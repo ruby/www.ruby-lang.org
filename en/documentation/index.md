@@ -38,15 +38,6 @@ of getting Ruby.
   Ruby. The goal is to learn the Ruby language, syntax, structure, and
   some common functions and libraries. We also teach you culture.
 
-[RubyMonk][3]
-: Discover Ruby idioms, learn lessons and solve problems, all in your
-  browser!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">The little coder’s starter kit</q>.
-  A fun and easy way to learn about programming (through Ruby) using the
-  Shoes GUI Toolkit.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : An unconventional but interesting book that will teach you Ruby
   through stories, wit, and comics. Originally created by *why the lucky
@@ -169,8 +160,6 @@ If you have questions about Ruby the
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
