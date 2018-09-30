@@ -6,7 +6,7 @@ translator:
 date: 2018-08-28 21:30:00 +0000
 lang: ja
 ---
-[日本Rubyの会][1]有志による、ウェブ雑誌[Rubyist Magazine][2]の[0058号][3]がリリースされました([\[ruby-list:50654\]][4])。
+[日本Rubyの会][1]有志による、ウェブ雑誌[Rubyist Magazine][2]の[0058号][3]がリリースされました([\[ruby-list:50698\]][4])。
 今号は、
 
 * [巻頭言](https://magazine.rubyist.net/articles/0058/0058-ForeWord.html)
