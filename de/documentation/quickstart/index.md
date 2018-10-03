@@ -28,7 +28,7 @@ bereits installiert hast. (Falls nicht, solltest Du vor dem Weiterlesen
 
 Zuerst starten wir die interaktive Ruby-Konsole: IRB.
 
-* Wenn Du **Mac OS X** benutzt, öffne `Terminal`, gib `irb` ein und
+* Wenn Du **macOS** benutzt, öffne `Terminal`, gib `irb` ein und
   drücke Enter.
 * Wenn Du **Linux** benutzt, öffne eine Shell, gib `irb` ein und drücke
   Enter.

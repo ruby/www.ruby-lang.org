@@ -187,7 +187,7 @@ seguintes:
   não, temos _multithreading_ até em MS-DOS!
 
 * O Ruby é altamente portável: é desenvolvido principalmente em ambiente
-  GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, Mac OS X,
+  GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, macOS,
   Windows, DOS, BeOS, OS/2, etc.
 
 ### Outras Implementações do Ruby

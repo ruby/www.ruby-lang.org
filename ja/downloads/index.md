@@ -14,7 +14,7 @@ lang: ja
 メジャーなプラットフォームでは Ruby をインストールする方法はいくつかあります。
 
 * Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、[rbenv][rbenv]、[RVM][rvm]などのサードパーティツールが使えます。
-* OS Xマシンでは、[rbenv][rbenv]、[RVM][rvm]などのサードパーティのパッケージ管理ツールが使えます。
+* macOSマシンでは、[rbenv][rbenv]、[RVM][rvm]などのサードパーティのパッケージ管理ツールが使えます。
 * Windowsマシンでは、[RubyInstaller][rubyinstaller]といったツールが使えます。
 
 各パッケージマネージャ及びサードパーティーツールの詳細は、[インストールガイド][installation] ページを参照して下さい。

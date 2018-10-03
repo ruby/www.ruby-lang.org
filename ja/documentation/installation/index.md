@@ -13,7 +13,7 @@ lang: ja
 利用可能なインストール方法を解説します。
 お好みの使いやすい方法を選んでください。
 
-* OS X
+* macOS
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -49,7 +49,7 @@ rbenv では複数の Ruby を管理することができます。
 rbenv は Ruby のインストール自体はサポートしていませんが、
 ruby-build というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
 
-それぞれのツールは OS X、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
+それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
 
 rbenv をインストールする方法は [rbenvのページ][rbenv] に記述されています。
 
@@ -61,7 +61,7 @@ rbenv と似たツールとして、次に説明する RVM があります。
 {: #rvm}
 
 RVM は複数の Ruby のインストールと管理を行うことができます。
-このツールは OS X、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
+このツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
 
@@ -103,7 +103,7 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 * [yum (CentOS, Fedora, or RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
-* [Homebrew (OS X)](#homebrew)
+* [Homebrew (macOS)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 
@@ -158,7 +158,7 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Ruby 2.0.0 は OS X El Capitan、Yosemite および Mavericks に含まれています。
@@ -167,19 +167,19 @@ Ruby 2.0.0 は OS X El Capitan、Yosemite および Mavericks に含まれてい
 すでに 2.0 も 1.8 も古いバージョンです。
 そのため、Ruby の最新バージョンをインストールするためのいくつかの方法があります。
 
-Ruby コミュニティにいる大半の OS X ユーザは Ruby をインストールするためにサードパーティ製のツールを使用しています。
+Ruby コミュニティにいる大半の macOS ユーザは Ruby をインストールするためにサードパーティ製のツールを使用しています。
 しかし、いくつかのパッケージマネージャが Ruby をサポートしています。
 
-多くの OS X ユーザはパッケージマネージャとして [Homebrew][homebrew] を使っています。
+多くの macOS ユーザはパッケージマネージャとして [Homebrew][homebrew] を使っています。
 これを使うと本当に簡単に Ruby を手に入れることができます:
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-また、 OS X は Unix ベースなので、ソースコードをダウンロードしてインストールするのも、
+また、 macOS は Unix ベースなので、ソースコードをダウンロードしてインストールするのも、
 他の方法と同じように簡単で効果的な方法です。
-OS X 上で新しい Ruby のバージョンをインストールする手助けのために、
+macOS 上で新しい Ruby のバージョンをインストールする手助けのために、
 サードパーティ製ツールを使うことも良い方法だと考えられます。
 
 

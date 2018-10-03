@@ -131,7 +131,7 @@ programadores Ruby:
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* No Mac OS X:
+* No macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (navegador de documentação)

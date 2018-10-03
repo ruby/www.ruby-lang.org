@@ -122,7 +122,7 @@ ruby -v
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
 
-* За Mac OS X:
+* За macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (за преглед на документация)

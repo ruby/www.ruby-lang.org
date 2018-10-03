@@ -135,7 +135,7 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby.
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* Pada Mac OS X:
+* Pada macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (documentation browser)

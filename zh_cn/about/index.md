@@ -112,7 +112,7 @@ Ruby 还有其他众多特性，下面列举一些：
 
 * Ruby 提供不依赖操作系统的线程。所以，不管操作系统是否支持，Ruby 支持的所有操作系统都可以使用多线程，甚至是 MS-DOS!
 
-* Ruby 高度可移植：它主要在 GNU/Linux 上开发，但也支持很多类型的 UNIX，以及 Mac OS X，Windows，DOS，BeOS，OS/2 等。
+* Ruby 高度可移植：它主要在 GNU/Linux 上开发，但也支持很多类型的 UNIX，以及 macOS，Windows，DOS，BeOS，OS/2 等。
 
 ### Ruby 的其他实现
 

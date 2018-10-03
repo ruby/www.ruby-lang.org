@@ -32,7 +32,7 @@ interactiva como ésta es una manera estupenda de aprender el lenguaje.
 
 Arranca el IRB.
 
-* Si estás usando **Mac OS X** abre una `Terminal` y escribe `irb`,
+* Si estás usando **macOS** abre una `Terminal` y escribe `irb`,
   después presiona enter.
 * Si estás usando **Linux**, abre una `Terminal` y escribe `irb`,
   después presiona enter.

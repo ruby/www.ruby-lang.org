@@ -31,7 +31,7 @@ vào. Thử sức với Ruby code theo cách tương tác như thế này là m�
 
 Mở IRB (hiểu là Tương tác với Ruby).
 
-* Nếu bạn sử dụng **Mac OS X**, mở `Terminal` và gõ `irb` rồi enter.
+* Nếu bạn sử dụng **macOS**, mở `Terminal` và gõ `irb` rồi enter.
 * Nếu bạn sử dụng **Linux**, mở một shell và gõ `irb` rồi enter.
 * Nếu bạn sử dụng **Windows**, mở `Interactive Ruby` từ phần Ruby trên
   Start Menu.

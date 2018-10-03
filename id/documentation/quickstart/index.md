@@ -28,7 +28,7 @@ silakan instal Ruby terlebih dahulu sebelum Anda mengikuti tutorial ini)
 
 Buka IRB.
 
-* Jika Anda menggunakan **Mac OS X** buka `Terminal` dan ketik `irb`,
+* Jika Anda menggunakan **macOS** buka `Terminal` dan ketik `irb`,
   kemudian tekan enter.
 * Jika Anda menggunakan **Linux**, buka shell dan ketik `irb`, kemudian
   tekan enter.

@@ -18,7 +18,7 @@ d'outils spécifiques :
 
 * Sur Linux/UNIX, vous pouvez utiliser le système de gestion des
   paquets de votre distribution ou des outils tiers ([rbenv][rbenv] et [RVM][rvm]).
-* Sur les machines OS X, vous pouvez utiliser des outils tiers ([rbenv][rbenv] et [RVM][rvm]).
+* Sur les machines macOS, vous pouvez utiliser des outils tiers ([rbenv][rbenv] et [RVM][rvm]).
 * Sur les machines Windows, vous pouvez utiliser [RubyInstaller][rubyinstaller].
 
 Voir la page d'[Installation][installation] pour les détails sur l'usage des

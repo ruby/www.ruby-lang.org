@@ -28,7 +28,7 @@ installarlo prima di cominciare).
 
 Apri la shell interattiva di Ruby (IRB).
 
-* Se stai usando **Mac OS X** apri il `Terminal`, scrivi `irb` e premi
+* Se stai usando **macOS** apri il `Terminal`, scrivi `irb` e premi
   invio.
 * Se stai usando **Linux**, apri una shell, scrivi `irb` e premi invio.
 * Se stai usando **Windows**, seleziona `Interactive Ruby` dalla

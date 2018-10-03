@@ -123,7 +123,7 @@ Oto lista popularnych narzędzi używanych przez rubistów:
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
 
-* Dla Mac OS X:
+* Dla macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (przeglądarka dokumentacji)

@@ -28,7 +28,7 @@ Rubiego. (Jeśli na swoim komputerze nie masz zainstalowanego Rubiego,
 
 Otwórz IRB’a.
 
-* Jeśli używasz **Mac OS X** otwórz `Terminal` i wpisz `irb`, naciśnij
+* Jeśli używasz **macOS** otwórz `Terminal` i wpisz `irb`, naciśnij
   enter.
 * Jeśli używasz **Linux’a**, otwórz konsolę, wpisz `irb` i naciśnij
   enter.
