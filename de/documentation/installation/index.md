@@ -16,7 +16,7 @@ von Ruby sowie die Kompilierung aus dem Quelltext.
 Die folgende Übersicht zeigt die verfügbaren Installationsmethoden
 für die gebräuchlichsten Plattformen.
 
-* OS X
+* macOS
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -48,7 +48,7 @@ Nichtsdestotrotz sind ihre jeweiligen Communities sehr hilfsbereit.
 rbenv erlaubt die Verwaltung mehrerer Ruby-Installationen.
 Es unterstützt zwar selbst nicht die Installation von Ruby,
 es gibt dafür aber ein beliebtes Plugin namens ruby-build.
-Beide Werkzeuge sind verfügbar für OS X, Linux oder
+Beide Werkzeuge sind verfügbar für macOS, Linux oder
 andere UNIX-ähnliche Betriebssysteme.
 
 Siehe die [rbenv-Website][rbenv] für die aktuellsten Informationen
@@ -62,7 +62,7 @@ Ein ähnliches Werkzeug ist RVM, siehe den nächsten Abschnitt.
 
 RVM erlaubt die Installation und Verwaltung mehrerer Ruby-Installationen auf
 einem System.
-Es ist verfügbar für OS X, Linux oder andere UNIX-ähnliche Betriebssysteme.
+Es ist verfügbar für macOS, Linux oder andere UNIX-ähnliche Betriebssysteme.
 
 Die aktuellsten Installationsanweisungen für RVM können auf der
 [Installationsseite von RVM][rvm] nachgelesen werden.
@@ -89,7 +89,7 @@ Für die Nutzung von Ruby on Rails gibt es spezielle Installer:
   Unterstützt werden OS X und Windows.
 * [Bitnami Ruby Stack][rubystack]
   stellt eine vollständige Entwicklungsumgebung für Rails zur Verfügung.
-  Unterstützt werden OS X, Linux, Windows, virtuelle Maschinen und Cloud Images.
+  Unterstützt werden macOS, Linux, Windows, virtuelle Maschinen und Cloud Images.
 
 
 ## Paketverwaltungssysteme
@@ -114,7 +114,7 @@ Die folgenden Paketverwaltungssysteme werden unten genauer beschrieben:
 * [yum (CentOS, Fedora, oder RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
-* [Homebrew (OS X)](#homebrew)
+* [Homebrew (macOS)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 
@@ -171,7 +171,7 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Bei OS X Mavericks ist Ruby 2.0 vorinstalliert.
@@ -182,14 +182,14 @@ Die meisten OS-X-Anwender in der Ruby-Community benutzen
 Drittanbieter-Werkzeuge zur Installation, es gibt aber auch einige
 Paketverwaltungssysteme, die Ruby unterstützen.
 
-Viele Anwender verwenden unter OS X [Homebrew][homebrew] als Paketverwaltung.
+Viele Anwender verwenden unter macOS [Homebrew][homebrew] als Paketverwaltung.
 Ruby wird damit folgendermaßen installiert:
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-Da OS X auf UNIX basiert, ist aber auch die Installation aus dem
+Da macOS auf UNIX basiert, ist aber auch die Installation aus dem
 Quellcode genauso einfach und effektiv wie die anderen Möglichkeiten.
 Die Verwendung von Drittanbieter-Werkzeugen hilft bei der Installation
 neuer Ruby-Versionen.

@@ -118,7 +118,7 @@ Here is a list of popular tools used by Rubyists:
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* On Mac OS X:
+* On macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (documentation browser)

@@ -130,7 +130,7 @@ tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, h
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* Trên Mac OS X:
+* Trên macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (trình duyệt tài liệu)

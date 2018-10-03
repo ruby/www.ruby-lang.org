@@ -61,7 +61,7 @@ Ruby features:
 * Iterators and closures,
 * Garbage collection,
 * Dynamic loading (depending on the architecture),
-* High transportability (runs on various Unices, Windows, DOS, OS X, OS/2,
+* High transportability (runs on various Unices, Windows, DOS, macOS, OS/2,
   Amiga, and so on).
 
 ### Show me some Ruby code!

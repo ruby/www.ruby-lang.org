@@ -197,7 +197,7 @@ parmi lesquelles on peut citer…
 * la possibilité de charger une bibliothèque d’extension à la volée, si
   le système d’exploitation le permet ;
 * une très grande portabilité : développé majoritairement sous
-  GNU/Linux, Ruby fonctionne aussi sur une grande part des UNIX, Mac OS X,
+  GNU/Linux, Ruby fonctionne aussi sur une grande part des UNIX, macOS,
   Windows, DOS, BeOS, OS/2, etc.
 
 ### Références

@@ -131,7 +131,7 @@ ruby -v
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
 
-* Mac OS X
+* macOS
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (문서 브라우저)

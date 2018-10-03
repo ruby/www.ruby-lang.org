@@ -178,7 +178,7 @@ bahsedilmiştir:
   bile çoklu iş parçacıkları kullanabilirsiniz!
 
 * Ruby yüksek taşınabilirliğe sahiptir. GNU/Linux üzerinde geliştirilmiş
-  olsa dahi, UNIX’in bir çok çeşidi, Mac OS X,
+  olsa dahi, UNIX’in bir çok çeşidi, macOS,
   Windows, DOS, BeOS, OS/2, vb. üzerinde çalışmaktadır.
 
 ### Referanslar

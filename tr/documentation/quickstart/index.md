@@ -32,7 +32,7 @@ dili öğrenmek için dehşet verici bir yoldur.
 
 IRB’i açın (Interactive Ruby anlamına gelir).
 
-* Eğer **Mac OS X** kullanıyorsanız `Terminal` açın ve yazın : `irb`,
+* Eğer **macOS** kullanıyorsanız `Terminal` açın ve yazın : `irb`,
   sonra enter basın.
 * Eğer **Linux** kullanıyorsanız konsol açın ve yazın : `irb`, sonra
   enter basın.

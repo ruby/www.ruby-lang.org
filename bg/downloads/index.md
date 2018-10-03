@@ -16,7 +16,7 @@ lang: bg
 * За Linux/UNIX може да бъде използван пакетният мениджър на
   дистрибуцията (apt-get, yum, pacman, etc.) или приложение за
   управление на ruby версии ([rbenv][rbenv] и [RVM][rvm]).
-* За OS X може да се използва инструмент за управление на ruby версии
+* За macOS може да се използва инструмент за управление на ruby версии
   ([rbenv][rbenv] и [RVM][rvm]).
 * За Windows машини може да бъде използван [RubyInstaller][rubyinstaller].
 

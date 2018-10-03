@@ -90,7 +90,7 @@ lang: zh_tw
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* Mac OS X 作業系統：
+* macOS 作業系統：
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] （瀏覽文件用）

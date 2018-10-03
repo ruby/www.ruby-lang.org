@@ -24,7 +24,7 @@ lang: zh_tw
   * [CentOS、Fedora、RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
+  * [macOS](#homebrew)
   * [Solaris、OpenIndiana](#solaris)
   * [其他發行版](#other-systems)
 * [安裝工具](#installers)
@@ -99,13 +99,13 @@ $ sudo pacman -S ruby
 會安裝最新穩定版的 Ruby。
 
 
-### Homebrew（OS X）
+### Homebrew（macOS）
 {: #homebrew}
 
 OS X El Capitan、Yosemite 以及 Mavericks 內建 Ruby 2.0。
 OS X Mountain Lion、Lion 以及 Snow Leopard 出廠內建 Ruby 1.8.7。
 
-OS X 的使用者使用 [Homebrew][homebrew] 作為套件管理工具。
+macOS 的使用者使用 [Homebrew][homebrew] 作為套件管理工具。
 用法：
 
 {% highlight sh %}
@@ -146,13 +146,13 @@ $ pkg install runtime/ruby-18
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build] 是 [rbenv](#rbenv) 的一個插件，可以編譯及安裝不同版本的 Ruby 到任意目錄下。ruby-build 也可以不搭配 rbenv 使用。ruby-build 在 OS X、Linux 以及類 UNIX 平台下都可使用。
+[ruby-build][ruby-build] 是 [rbenv](#rbenv) 的一個插件，可以編譯及安裝不同版本的 Ruby 到任意目錄下。ruby-build 也可以不搭配 rbenv 使用。ruby-build 在 macOS、Linux 以及類 UNIX 平台下都可使用。
 
 
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] 可以編譯及安裝不同版本的 Ruby 到任意目錄下。還有一個姊妹工具叫做 [chruby](#chruby)，可以用來切換不同版本的 Ruby。ruby-install 在 OS X、Linux 以及類 UNIX 平台下都可使用。
+[ruby-install][ruby-install] 可以編譯及安裝不同版本的 Ruby 到任意目錄下。還有一個姊妹工具叫做 [chruby](#chruby)，可以用來切換不同版本的 Ruby。ruby-install 在 macOS、Linux 以及類 UNIX 平台下都可使用。
 
 
 ### RubyInstaller
@@ -174,7 +174,7 @@ Windows 使用者，可以使用這個很棒的專案來幫助您安裝 Ruby：
   支援 OS X 與 Windows。
 * [Bitnami Ruby Stack][rubystack],
   提供完整的 Rails 開發環境。
-  兼容 OS X、Linux、Windows、虛擬機器以及雲鏡像。
+  兼容 macOS、Linux、Windows、虛擬機器以及雲鏡像。
 
 
 ## 版本管理工具
@@ -192,19 +192,19 @@ Windows 使用者，可以使用這個很棒的專案來幫助您安裝 Ruby：
 ### rbenv
 {: #rbenv}
 
-[rbenv][rbenv] 可以在系統上安裝多個版本的 Ruby。rbenv 本身不能安裝 Ruby，但有一個流行的插件，叫做 ruby-build，可以用來安裝 Ruby。支援 OS X、Linux 和其它類 Unix 的作業系統。
+[rbenv][rbenv] 可以在系統上安裝多個版本的 Ruby。rbenv 本身不能安裝 Ruby，但有一個流行的插件，叫做 ruby-build，可以用來安裝 Ruby。支援 macOS、Linux 和其它類 Unix 的作業系統。
 
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
-[RVM][rvm] 可以在系統上安裝多個版本的 Ruby。也可以管理不同的 Gem 包（gemset）。兼容 OS X、Linux 和其它類 Unix 的作業系統。
+[RVM][rvm] 可以在系統上安裝多個版本的 Ruby。也可以管理不同的 Gem 包（gemset）。兼容 macOS、Linux 和其它類 Unix 的作業系統。
 
 
 ### uru
 {: #uru}
 
-[Uru][uru] 是一個輕量、支援多平台的命令列工具，幫助您在 OS X、Linux 以及 Windows 上安裝多版本的 Ruby。
+[Uru][uru] 是一個輕量、支援多平台的命令列工具，幫助您在 macOS、Linux 以及 Windows 上安裝多版本的 Ruby。
 
 
 ## 從原始碼編譯

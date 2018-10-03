@@ -86,7 +86,7 @@ irb ve rdoc için “universe repository” aktif edilmelidir.
 Lütfen ayrıca `rvm` ‘i de inceleyin , [Ruby Version Manager][14] , ile
 aynı anda birkaç versiyon Ruby ve gemleri kullanabilirsiniz.
 
-### OS X’de Ruby
+### macOS’de Ruby
 
 Ruby 1.8.6 Mac OS X Leopard’da Ruby on Rails, Capistrno, Mongrel ve
 birçok popüler gem’i de kapsayacak şekilde tam desteklenir. Ayrıntı için
@@ -107,7 +107,7 @@ $ port install ruby
 Fink (Fink Commander kullanarak) Ruby kurulumu için bir grafik arabirime
 sahiptir.
 
-Ayrıca OS X, Unix temelli olduğu için, kaynak kodu indirip derlemek te
+Ayrıca macOS, Unix temelli olduğu için, kaynak kodu indirip derlemek te
 diğer çözümler kadar etkili olacaktır.
 
 Ruby (ve Rails) in kurulumuna detaylı bakış için Dan Benjamin’in [Tiger

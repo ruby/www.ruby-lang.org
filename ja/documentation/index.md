@@ -97,7 +97,7 @@ Rubyistに人気のあるソフトウェアには次のようなものがあり�
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* OS X
+* macOS
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (ドキュメント表示ツール)

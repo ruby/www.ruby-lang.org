@@ -31,7 +31,7 @@ lang: ko
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
+  * [macOS](#homebrew)
   * [Solaris, OpenIndiana](#solaris)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
@@ -115,14 +115,14 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
-OS X 엘 캐피탄, 요세미티, 매버릭스에는 루비 2.0이 포함되어 있습니다.
-OS X 마운틴 라이언, 라이언, 스노 레퍼드는 루비 1.8.7을
+macOS 엘 캐피탄, 요세미티, 매버릭스에는 루비 2.0이 포함되어 있습니다.
+macOS 마운틴 라이언, 라이언, 스노 레퍼드는 루비 1.8.7을
 탑재하여 출시되었습니다.
 
-많은 OS X 사용자들은 패키지 관리자로 [Homebrew][homebrew]를 사용합니다.
+많은 macOS 사용자들은 패키지 관리자로 [Homebrew][homebrew]를 사용합니다.
 Homebrew를 사용해 새로운 버전의 루비를 얻는 방법은 정말로 쉽습니다.
 
 {% highlight sh %}
@@ -175,7 +175,7 @@ $ pkg install runtime/ruby-18
 [ruby-build][ruby-build]는 다른 버전의 루비를 임의의 디렉터리에
 컴파일하고 설치할 수 있게 하는 [rbenv](#rbenv)의 플러그인입니다.
 ruby-build는 rbenv 없이 독자적으로 사용 할 수도 있습니다.
-맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
+macOS, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
 ### ruby-install
@@ -184,7 +184,7 @@ ruby-build는 rbenv 없이 독자적으로 사용 할 수도 있습니다.
 [ruby-install][ruby-install]은 다른 버전의 루비를 임의의 디렉터리에
 컴파일하고 설치할 수 있게 합니다.
 루비 버전을 전환하는 [chruby](#chruby)와 형제 관계입니다.
-맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
+macOS, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
 ### RubyInstaller
@@ -206,7 +206,7 @@ Windows를 사용하고 있다면, 루비 설치를 도와줄 훌륭한 프로�
   도와줄 추가 도구들을 제공합니다.
   OS X, Windows를 지원합니다.
 * [Bitnami Ruby Stack][rubystack]는 루비 온 레일즈를 위한 완전한 개발환경을 제공합니다.
-  OS X, Linux, Windows, 가상 기기, 클라우드 이미지를 지원합니다.
+  macOS, Linux, Windows, 가상 기기, 클라우드 이미지를 지원합니다.
 
 
 ## 관리자
@@ -230,7 +230,7 @@ chruby는 [ruby-install](#ruby-install)로 설치된 루비뿐만
 [rbenv][rbenv]는 여러 종류의 루비를 설치할 수 있게 합니다.
 rbenv 자체는 루비 설치를 지원하지 않습니다만, [ruby-build](#ruby-build)라는
 유명한 플러그인에서 루비를 설치할 수 있습니다.
-rbenv, ruby-build 모두 맥 OS X, Linux나 다른 UNIX-계열 운영체제에서 사용가능합니다.
+rbenv, ruby-build 모두 macOS, Linux나 다른 UNIX-계열 운영체제에서 사용가능합니다.
 
 
 ### RVM ("Ruby Version Manager")
@@ -238,13 +238,13 @@ rbenv, ruby-build 모두 맥 OS X, Linux나 다른 UNIX-계열 운영체제에�
 
 [RVM][rvm]은 시스템에 여러 종류의 루비를 설치하고 관리할 수 있게 해줍니다.
 RVM은 다른 gemsets도 관리해 줍니다.
-맥 OS X, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
+macOS, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
 ### uru
 {: #uru}
 
-[Uru][uru]는 OS X, Linux, Windows에서 여러 루비를 사용하게 하는 가벼운
+[Uru][uru]는 macOS, Linux, Windows에서 여러 루비를 사용하게 하는 가벼운
 멀티 플랫폼 커맨드 라인 툴입니다.
 
 

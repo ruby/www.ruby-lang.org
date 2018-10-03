@@ -99,7 +99,7 @@ ruby -v
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* Mac OS X:
+* macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39]（文档浏览器）

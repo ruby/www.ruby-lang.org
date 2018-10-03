@@ -32,7 +32,7 @@ theo nhu cầu và nền tảng khác nhau.
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
+  * [macOS](#homebrew)
   * [Solaris, OpenIndiana](#solaris)
   * [Các bản phân phối khác](#other-systems)
 * [Installers](#installers)
@@ -121,13 +121,13 @@ $ sudo pacman -S ruby
 Lệnh trên sẽ cài đặt phiên bản ổn định mới nhất của Ruby.
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Trên Yosemite và Mavericks, Ruby 2.0 có sẵn trong homebrew
 Đối với OS X Mountain Lion, Lion, và Snow Leopard thì là Ruby 1.8.7.
 
-Nhiều người sử dụng [Homebrew][homebrew] trên OS X như một trình quản lý gói.
+Nhiều người sử dụng [Homebrew][homebrew] trên macOS như một trình quản lý gói.
 Rất dễ để cài đặt phiên bản mới nhất của Ruby bằng Homebrew:
 
 {% highlight sh %}
@@ -186,7 +186,7 @@ thì bạn không cần thêm installer nữa vì RVM đã có một installer r
 cho phép bạn có thể biên dịch và cài đặt các phiên bản khác nhau của Ruby
 trong các thư mục tuỳ ý.
 ruby-build có thể được sử dụng như một chương trình độc lập mà không cần rbenv.
-Có sẵn trên OS X, Linux, và các hệ điều hành giống UNIX khác.
+Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
 
 
 ### ruby-install
@@ -196,7 +196,7 @@ Có sẵn trên OS X, Linux, và các hệ điều hành giống UNIX khác.
 phiên bản khác nhau của Ruby trong các thư mục tuỳ ý.
 Người anh em của nó là [chruby](#chruby), dùng để chuyển đổi giữa các
 phiên bản Ruby.
-Có sẵn trên OS X, Linux, và các hệ điều hành giống UNIX khác.
+Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
 
 
 ### RubyInstaller
@@ -221,7 +221,7 @@ bạn có thể sử dụng các installers sau đây:
   Có sẵn trên OS X và Windows.
 * [Bitnami Ruby Stack][rubystack],
   cung cấp một môi trường phát triển hoàn chỉnh cho Rails.
-  Có sẵn trên OS X, Linux, Windows, các máy ảo và các cloud image.
+  Có sẵn trên macOS, Linux, Windows, các máy ảo và các cloud image.
 
 
 ## Trình quản lý
@@ -247,7 +247,7 @@ hoặc thậm chí là các phiên bản được biên dịch từ mã nguồn.
 [rbenv][rbenv] cho phép bạn quản lý nhiều bản cài đặt của Ruby.
 Nó không hỗ trợ cài đặt Ruby, nhưng bạn có thể dùng plugin
 [ruby-build](#ruby-build) để cài đặt Ruby.
-Cả hai công cụ trên đều có sẵn trên OS X, Linux,
+Cả hai công cụ trên đều có sẵn trên macOS, Linux,
 và các hệ điều hành giống UNIX khác.
 
 
@@ -256,14 +256,14 @@ và các hệ điều hành giống UNIX khác.
 
 [RVM][rvm] cho phép bạn cài đặt và quản lý nhiều bản cài đặt của Ruby.
 Nó cũng có thể quản lý các gemset khác nhau.
-Có sẵn trên OS X, Linux, và các hệ điều hành giống UNIX khác.
+Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
 
 
 ### uru
 {: #uru}
 
 [Uru][uru] là một công cụ dòng lệnh đa nền tảng, gọn nhẹ giúp bạn
-sử dụng nhiều phiên bản Ruby trên OS X, Linux, hoặc Windows.
+sử dụng nhiều phiên bản Ruby trên macOS, Linux, hoặc Windows.
 
 
 ## Biên dịch từ mã nguồn

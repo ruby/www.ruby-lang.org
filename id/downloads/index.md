@@ -15,7 +15,7 @@ Kami memiliki beberapa kakas bantu untuk memasang Ruby pada perangkat berikut:
 
 * Di Linux/UNIX, Anda dapat menggunakan *package management system* dari
   distribusi Linux/UNIX Anda atau kakas pihak ketiga ([rbenv][rbenv] dan [RVM][rvm]).
-* Di OS X, Anda dapat menggunakan kakas pihak ketiga ([rbenv][rbenv] dan [RVM][rvm]).
+* Di macOS, Anda dapat menggunakan kakas pihak ketiga ([rbenv][rbenv] dan [RVM][rvm]).
 * Di Windows, Anda dapat menggunakan [RubyInstaller][rubyinstaller].
 
 Lihat halaman [Instalasi][installation] untuk detail menggunakan
