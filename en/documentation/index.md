@@ -109,11 +109,6 @@ of getting Ruby.
 [APIdock][18]
 : Ruby, Rails and RSpec documentation with users’ notes.
 
-[Omniref: Annotated Ruby, Rails, and Gem Documentation][40]
-: Documentation for every version of Ruby, and every version of every
-  RubyGem. A comprehensive reference manual for Ruby, with code search,
-  source annotations, and Q&A features.
-
 ### Editors and IDEs
 
 For coding in Ruby you can use the default editor of your operating
@@ -196,5 +191,4 @@ If you have questions about Ruby the
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [atom]: https://atom.io/

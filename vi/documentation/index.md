@@ -111,11 +111,6 @@ việc cài đặt Ruby.
 [APIdock][18]
 : Tài liệu Ruby, Rails và RSpec với các ghi chú của người sử dụng.
 
-[Omniref: Chú thích Ruby, Rails và tài liệu về Gem][40]
-: Tài liệu cho mọi phiên bản của Ruby, và mọi phiên bản của mỗi Rubygem.
-  Một hướng dẫn tham khảo toàn diện cho Ruby, với các tính năng tìm kiếm
-  code, nguồn chú thích và hỏi đáp.
-
 ### Phần mềm chỉnh sửa và các môi trường phát triển tích hợp
 
 Để lập trình trong Ruby bạn có thể sử dụng chương trình chỉnh sửa mặc định của
@@ -199,5 +194,4 @@ là một nơi tuyệt vời.
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [atom]: https://atom.io/

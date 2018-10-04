@@ -114,10 +114,6 @@ ruby -v
 [APIdock][18] (영문)
 : 유저의 댓글이 달린 루비, 레일즈, RSpec의 문서입니다.
 
-[주석 달린 Ruby, Rails, Gem 문서][40] (영문)
-: 모든 루비 버전과 모든 RubyGem의 모든 버전의 문서. 포괄적인 루비 레퍼런스
-  매뉴얼, 코드 검색, 소스 주석과 Q&A를 제공합니다.
-
 ### 편집기와 IDE
 
 루비를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습니다. 하지만,
@@ -195,7 +191,6 @@ ruby -v
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [ko-2]: http://beyond.daesan.com/pages/ruby-faq
 [ko-3]: https://groups.google.com/forum/#!forum/rubykr

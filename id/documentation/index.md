@@ -115,11 +115,6 @@ mendapatkan Ruby.
 [APIdock][18]
 : Dokumentasi Ruby, Rails dan RSpec dengan catatan para pengguna.
 
-[Omniref: Annotated Ruby, Rails, dan Gem Documentation][40]
-: Dokumentasi setiap versi Ruby dan setiap versi dari setiap
-  RubyGem. Sebuah referensi manual Ruby yang lengkat, dengan pencarian *code*,
-  *source annotation*, dan fitur Q&A.
-
 ### Editor dan IDE
 
 Untuk meng-*coding* Ruby, Anda dapat menggunakan *default editor* dari sistem operasi
@@ -204,5 +199,4 @@ adalah tempat yang baik untuk memulai.
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [atom]: https://atom.io/
