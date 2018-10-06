@@ -16,10 +16,6 @@ Ruby-Programmieren sicher nützlich sein werden.
   15-minütige Tutorial erlaubt es, Ruby-Code direkt im Browser
   einzugeben! (englisch)
 
-[Hackety Hack][2]
-: Ein einfacher Weg, Programmieren in Ruby mithilfe des GUI-Toolkits
-  Shoes zu lernen. (englisch)
-
 [Why’s (Poignant) Guide to Ruby][3]
 : Ein unorthodoxes Buch um Ruby zu lernen.
 
@@ -83,7 +79,6 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 
 
 [1]: https://ruby.github.io/TryRuby/
-[2]: http://www.hackety.com/
 [3]: http://mislav.uniqpath.com/poignant-guide/
 [4]: http://www.moccasoft.de/papers/ruby_tutorial
 [5]: http://pine.fm/LearnToProgram/

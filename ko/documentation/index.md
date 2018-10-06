@@ -37,14 +37,6 @@ ruby -v
   루비 언어, 문법, 구조, 일반적인 함수들과 라이브러리를 배우는 것입니다.
   Koans에서는 문화도 가르칩니다.
 
-[RubyMonk][3] (영문)
-: 브라우저에서 루비의 관용적인 코드를 발견하거나 수업을 듣고 문제를 풀
-  수 있습니다.
-
-[Hackety Hack][4] (영문)
-: <q cite="http://www.hackety.com/">꼬꼬마 코더의 스타터 킷</q>.
-  Shoes GUI 개발환경을 사용해 루비를 통해 쉽고 재미있게 프로그래밍을 배웁니다.
-
 [Why’s (Poignant) Guide to Ruby][5] (영문)
 : 이야기, 재치, 만화를 통해 루비를 가르쳐주는 틀에 얽매이지 않는 재미있는
   책입니다. *Why the Lucky Stiff*의 저작물로 루비를 배우는 사람을 위한
@@ -158,8 +150,6 @@ ruby -v
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

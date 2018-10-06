@@ -35,15 +35,6 @@ mendapatkan Ruby.
   Ruby. Tujuannya adalah untuk belajar bahasa Ruby, sintaks, struktur, dan
   beberapa fungsi umum dan library. Kami juga mengajarkan budaya Ruby.
 
-[RubyMonk][3]
-: Temukan idiom Ruby, pelajari dan pecahkan masalah Ruby, semua dalam
-  browser Anda!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">Starter kit kecil untuk koder</q>.
-  Ini sebuah cara menyenangkan dan mudah untuk belajar tentang
-  pemrograman (melalui Ruby) menggunakan Shoes GUI Toolkit.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Ini sebuah buku tak konvensional tapi menarik yang akan mengajarkan Anda Ruby
   melalui cerita, humor cerdas, dan komik. Awalnya dibuat oleh *why the lucky
@@ -166,8 +157,6 @@ adalah tempat yang baik untuk memulai.
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

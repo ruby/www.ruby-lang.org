@@ -21,11 +21,6 @@ referanslar ve diğer belgeleri bulacaksınız.
   kullanılan yapılarını öğrenmek ama bununla beraber size kültürünü de
   öğretiyor.
 
-[Hackety Hack][3]
-: <q cite="http://www.hackety.com/">Küçük programcının başlangıç
-  kiti</q>. Shoes GUI Toolkit kullanarak Ruby programlamayı öğrenmek
-  için eğlenceli ve koly bir yol.
-
 [Why’s (Poignant) Guide to Ruby][4]
 : Ruby’nin hikayelerle, nüktelerle ve karikatürlerle anlatıldığı
   sıradışı ama ilginç bir kitap. Orjinali *why the lucky stiff*
@@ -109,7 +104,6 @@ listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://www.hackety.com/
 [4]: http://mislav.uniqpath.com/poignant-guide/
 [5]: http://pine.fm/LearnToProgram/
 [6]: http://rubylearning.com/

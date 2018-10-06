@@ -35,15 +35,6 @@ diversas maneiras de obter o Ruby.
   O objetivo é aprender a linguagem, sintaxe, estrutura algumas funções e
   bibliotecas comuns do Ruby. Também ensinamos cultura.
 
-[RubyMonk][3]
-: Descubra idiomas Ruby, aprenda lições e resolva problemas, tudo
-  no seu browser!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">O kit de iniciante do programadorzinho</q>.
-  Um jeito fácil e divertido de aprender sobre programação (com Ruby)
-  usando o Shoes GUI Toolkit.
-
 [O Guia (Comovente) de Ruby do Why][5]
 : UM livro inconveniente, porém interessante, que te ensinará Ruby através
   de histórias, humor e quadrinhos. Originalmente criado por *why the lucky
@@ -162,8 +153,6 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://why.carlosbrando.com/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

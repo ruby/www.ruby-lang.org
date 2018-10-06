@@ -25,12 +25,6 @@ ruby -v
 [Ruby Koans][2]
 : Ruby Koans 可以指引你走过学习 Ruby 的启蒙之路。在这里可以学到 Ruby 语言的语法、结构、常用函数和库。当然，还有 Ruby 文化。
 
-[RubyMonk][3]
-: 探索 Ruby 的习惯用法，学习课程，解决问题，只需要浏览器就可完成！
-
-[Hackety Hack][4]
-: “小小程序员的入门工具。”使用 Shoes GUI 工具包趣学（Ruby）编程。
-
 [Why’s (Poignant) Guide to Ruby][5]
 : 一本不同寻常但是非常有趣的书，通过故事、幽默和漫画教你 Ruby。由 *why the luckystiff* 创作, 本书始终是学习 Ruby 的经典之作。
 
@@ -123,8 +117,6 @@ ruby -v
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
