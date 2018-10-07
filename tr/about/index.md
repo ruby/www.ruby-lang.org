@@ -58,7 +58,7 @@ Ruby’nin yüzde yüz saf nesneye yönelik bir dil olduğunun en iyi ispatı
 bir kod parçası ile bir sayıya olay vererek yapılır:
 
 {% highlight ruby %}
-5.times { print "Ruby'ti *seviyoruz* -- harika bir dil!" }
+5.times { print "Ruby'yi *seviyoruz* -- harika bir dil!" }
 {% endhighlight %}
 
 Çoğu dilde sayılar ve diğer ilkel tipler nesne değildir. Ruby tüm
