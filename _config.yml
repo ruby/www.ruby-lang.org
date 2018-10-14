@@ -670,7 +670,7 @@ locales:
     try_ruby: &try_ruby
       url: https://ruby.github.io/TryRuby/
     rubybib: &rubybib
-      url: http://rubybib.org/
+      url: https://rubybib.org/
 
     bg:
       get_started:
