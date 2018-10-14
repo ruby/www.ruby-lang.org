@@ -30,7 +30,7 @@ lang: ko
 계신다면 그들과 접촉하는 것도 방법입니다. (레일즈에 관련된 정보가 아니라면
 당신은 모르겠지만 아마 *Riding Rails*에서는 관심없을 것입니다.)
 
-루비는 [Digg][13], [Slashdot][14], [reddit][15], [Hacker News][16] 내에서도
+루비는 [Slashdot][14], [reddit][15], [Hacker News][16] 내에서도
 존중받는 프로그래밍 뉴스입니다. 뛰어난 코드를 발견했다면 그들에게도 알려주세요.
 
 
@@ -39,7 +39,6 @@ lang: ko
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
 [16]: http://news.ycombinator.com/

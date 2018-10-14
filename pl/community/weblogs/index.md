@@ -26,7 +26,7 @@ updates.
 * [**Matz’ Blog**][10] jest japońskim blogiem twórcy Rubiego. Nawet
   jeśli nie możesz go odczytać, dobrze wiedzieć, że jest taki blog!
 
-Ruby jest również popularnym tematem w serwisach [Digg][11] oraz
+Ruby jest również popularnym tematem w serwisach
 [Slashdot][12],. Jeśli znajdziesz gdzieś jakiś fantastyczny fragment
 kodu, pamiętaj aby ich o tym poinformować ! :)
 
@@ -36,5 +36,4 @@ kodu, pamiętaj aby ich o tym poinformować ! :)
 [8]: http://weblog.rubyonrails.org/
 [9]: http://www.rubyinside.com/
 [10]: http://www.rubyist.net/~matz/
-[11]: http://digg.com/programming
 [12]: http://developers.slashdot.org/

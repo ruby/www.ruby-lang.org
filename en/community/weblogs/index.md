@@ -40,7 +40,7 @@ weblogs above, if you are covering a topic they’d be interested in.
 (Obviously, if it’s not Rails-related, then the *Riding Rails* crew may
 not be as interested—but you never know.)
 
-Ruby is also a common topic on [Digg][13], [Slashdot][14], [reddit][15],
+Ruby is also a common topic on [Slashdot][14], [reddit][15],
 and [Hacker News][16], in their respective programming news. If you find
 some brilliant code out there, be sure to let them know!
 
@@ -52,7 +52,6 @@ some brilliant code out there, be sure to let them know!
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
 [16]: http://news.ycombinator.com/

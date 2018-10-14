@@ -22,7 +22,7 @@ lang: bg
 Също така можете да се свържете с
 гореспоменатите блогове ако имате интересни статии върху общи теми.
 
-Ruby е популярна тема в [Digg][13], [Slashdot][14], [reddit][15],
+Ruby е популярна тема в [Slashdot][14], [reddit][15],
 и [Hacker News][16].
 
 
@@ -31,7 +31,6 @@ Ruby е популярна тема в [Digg][13], [Slashdot][14], [reddit][15],
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
 [16]: http://news.ycombinator.com/
