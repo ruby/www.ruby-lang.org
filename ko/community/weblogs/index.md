@@ -26,8 +26,7 @@ lang: ko
 
 ### 널리 알리기
 
-직접 루비 블로그를 하고 있다면, [del.icio.us][12]에 *ruby* 태그를 붙여서
-링크하시는 것이 좋습니다. 위의 웹로그들이 관심을 가질 만한 주제를 다루고
+위의 웹로그들이 관심을 가질 만한 주제를 다루고
 계신다면 그들과 접촉하는 것도 방법입니다. (레일즈에 관련된 정보가 아니라면
 당신은 모르겠지만 아마 *Riding Rails*에서는 관심없을 것입니다.)
 
@@ -40,7 +39,6 @@ lang: ko
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[12]: http://del.icio.us
 [13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby

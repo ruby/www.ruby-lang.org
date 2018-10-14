@@ -34,9 +34,7 @@ signifikan.
 
 ### Dari Mulut ke Mulut
 
-Apabila Anda mempunyai Ruby blog atau baru saja memulainya, Anda
-disarankan untuk memasukkan *link*-nya ke [del.icio.us][15] dengan tag
-*ruby*. Anda bisa juga menghubungi blog-blog yang disebutkan di atas,
+Anda bisa juga menghubungi blog-blog yang disebutkan di atas,
 apabila blog Anda mencakup topik yang relevan. (Tentu saja, apabila blog
 Anda tidak berhubungan dengan Rails, maka tim *Riding Rails* tidak akan
 tertarik—tapi mungkin saja sebaliknya.)
@@ -54,6 +52,5 @@ tersebut!
 [12]: http://weblog.rubyonrails.org/
 [13]: http://www.rubyinside.com/
 [14]: http://www.rubyist.net/~matz/
-[15]: http://del.icio.us
 [16]: http://digg.com/programming
 [17]: http://developers.slashdot.org/
