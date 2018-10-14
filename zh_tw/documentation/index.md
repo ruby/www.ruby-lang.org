@@ -16,13 +16,6 @@ lang: zh_tw
 : Ruby Koans 導引你走上學習 Ruby 的啟蒙之路。可以學到 Ruby 語言、語法、結構、常用函數與函式庫。
   當然也少不了 Ruby 的文化。
 
-[RubyMonk][3] （monk：修行的僧侣）
-: 探索 Ruby 的慣用法、學習課程，解決問題，在瀏覽器內便可完成！
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">程式設計師的新手包</q>.
-  一種使用叫做 Shoes 的 GUI 工具，來學習如何用 Ruby 寫程式，有趣又簡單。
-
 [Why’s (Poignant) Guide to Ruby][5]
 : 非比尋常但玩味無窮的書，透過故事、幽默與漫畫來教會你 Ruby。由 *why the lucky
   stiff* 創作，本書是學習 Ruby 的經典大作。
@@ -111,8 +104,6 @@ lang: zh_tw
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials

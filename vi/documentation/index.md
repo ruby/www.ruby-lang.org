@@ -34,15 +34,6 @@ việc cài đặt Ruby.
   bạn kiến thức về ngôn ngữ, cú pháp, cấu trúc và một số hàm và thư viện phổ
   dụng của Ruby.
 
-[RubyMonk][3]
-: Khám phá các thành ngữ của Ruby, học các bài học và giải quyết những bài tập,
-  tất cả trên trình duyệt của bạn!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">Nhập môn Ruby cho người không có kinh
-  nghiệm lập trình</q>.  Một cách thích thú và dễ dàng để học về lập trình
-  (thông qua Ruby) sử dụng bộ công cụ Shoes GUI.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Một cuốn sách thú vị và độc đáo, dạy bạn Ruby qua các mẩu truyện tranh vui
   nhộn. Ban đầu được tạo ra bởi *why the lucky stiff*. Sách này được xem là
@@ -156,8 +147,6 @@ là một nơi tuyệt vời.
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
