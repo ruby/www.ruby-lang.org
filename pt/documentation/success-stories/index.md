@@ -76,7 +76,7 @@ Aqui você encontrará uma pequena amostra do uso de Ruby no mundo real.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: http://www.torontorehab.com
-[5]: http://www.morpha.de/php_e/index.php3
+[5]: http://www.morpha.de/
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

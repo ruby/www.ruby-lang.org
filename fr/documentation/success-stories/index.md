@@ -66,7 +66,7 @@ témoignages du « monde réel. »
 [3]: http://www.motorola.com
 [4]: http://www.sketchup.com/
 [5]: http://www.torontorehab.com
-[6]: http://www.morpha.de/php_e/index.php3
+[6]: http://www.morpha.de/
 [7]: http://ods.org/
 [8]: http://www.lucent.com/
 [9]: http://www.level3.com/
