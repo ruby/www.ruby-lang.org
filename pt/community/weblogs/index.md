@@ -29,8 +29,7 @@ atualizações.
 
 ### Divulgando a Palavra
 
-Se você iniciou um blog sobre Ruby, é inteligente criar um link para o blog
-no [del.icio.us][12] com a tag *ruby*. Você também poderá contatar os blogs
+Você também poderá contatar os blogs
 acima, se você estiver cobrindo um tópico no qual eles possam se interessar.
 (Obviamente, se não é um blog relacionado a Rails, a equipe do *Riding Rails*
 pode não estar interessada – mas nunca se sabe.)
@@ -45,7 +44,6 @@ Se encontrar algum código brilhante, lembre-se de avisá-los!
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[12]: http://del.icio.us
 [13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby

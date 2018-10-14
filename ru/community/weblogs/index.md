@@ -28,8 +28,7 @@ lang: ru
 
 ### Распространение в мире
 
-Если вы ведете свой Ruby блог, полезным будет поделиться ссылкой на него
-на [del.icio.us][12] с тегом *ruby*. Вы можете также связаться с
+Вы можете также связаться с
 администраторами блогов выше, если вы освещаете интересную им тему.
 (очевидно, что если это не относится к Rails, то команда *Riding Rails*
 может быть не особо заинтересована – но кто знает)
@@ -45,7 +44,6 @@ Ruby также довольно частая тема на [Digg][13], [Slashdo
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[12]: http://del.icio.us
 [13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
