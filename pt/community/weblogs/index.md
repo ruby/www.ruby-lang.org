@@ -34,7 +34,7 @@ acima, se você estiver cobrindo um tópico no qual eles possam se interessar.
 (Obviamente, se não é um blog relacionado a Rails, a equipe do *Riding Rails*
 pode não estar interessada – mas nunca se sabe.)
 
-O Ruby também é um tópico comum no [Digg][13], [Slashdot][14], [reddit][15],
+O Ruby também é um tópico comum no [Slashdot][14], [reddit][15],
 e no [Hacker News][16], em suas respectivas notícias sobre programação.
 Se encontrar algum código brilhante, lembre-se de avisá-los!
 
@@ -44,7 +44,6 @@ Se encontrar algum código brilhante, lembre-se de avisá-los!
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
 [16]: http://news.ycombinator.com/

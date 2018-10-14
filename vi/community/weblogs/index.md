@@ -30,7 +30,7 @@ các blog trên nếu bạn đang theo dõi một chủ đề nào đó mà họ
 (Tất nhiên, nếu chủ đề đó không liên quan đến Rails thì nhóm *Riding Rails*
 có lẽ sẽ không quan tâm lắm —nhưng biết đâu đấy.)
 
-Ruby cũng là một chủ đề phổ biến trên [Digg][13], [Slashdot][14], [reddit][15],
+Ruby cũng là một chủ đề phổ biến trên [Slashdot][14], [reddit][15],
 và [Hacker News][16], trong các chương trình tin tức tương ứng của họ.
 Nếu như bạn tìm được một số đoạn mã hay trên mạng, hãy nói cho họ biết về nó!
 
@@ -40,7 +40,6 @@ Nếu như bạn tìm được một số đoạn mã hay trên mạng, hãy nó
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
 [16]: http://news.ycombinator.com/

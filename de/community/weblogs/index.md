@@ -44,7 +44,7 @@ gute Anlaufstellen, um dort eigene Themen anderen bereitzustellen. (Wenn
 es offensichtlich nichts mit Rails zu tun hat, wird das *Riding Rails*
 Team eventuell nicht daran interessiert sein, aber man weiß ja nie).
 
-Ruby ist außerdem auf [Digg][13] und [Slashdot][14] ein verbreitetes
+Ruby ist außerdem auf [Slashdot][14] ein verbreitetes
 Thema. Wer interessanten Code findet, sollte sich dort melden.
 
 
@@ -55,5 +55,4 @@ Thema. Wer interessanten Code findet, sollte sich dort melden.
 [9]: http://www.rubyinside.com/
 [10]: http://oreillynet.com/ruby/
 [11]: http://weblog.rubyonrails.org/
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/

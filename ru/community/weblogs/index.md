@@ -33,7 +33,7 @@ lang: ru
 (очевидно, что если это не относится к Rails, то команда *Riding Rails*
 может быть не особо заинтересована – но кто знает)
 
-Ruby также довольно частая тема на [Digg][13], [Slashdot][14],
+Ruby также довольно частая тема на [Slashdot][14],
 [reddit][15] и [Hacker News][16], в разделах о новостях
 программирования. Если вы напишете некий замечательный код - обязательно
 поделитесь этой новостью там!
@@ -44,7 +44,6 @@ Ruby также довольно частая тема на [Digg][13], [Slashdo
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
 [16]: http://news.ycombinator.com/
