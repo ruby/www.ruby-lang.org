@@ -15,7 +15,7 @@ Esta versão introduz algumas novas funcionalidades e melhorias de performance, 
 ## Novas Funcionalidades
 
 * Imprime _backtrace_ e mensagens de erros em ordem reversa se STDERR está inalterado e um tty.
-[Feature #8661] [experimental]
+  [Feature #8661] [experimental]
 
 * Pesquisa de constante de alto nível foi removida.  [Feature #11547]
 
@@ -29,7 +29,7 @@ Esta versão introduz algumas novas funcionalidades e melhorias de performance, 
   "trace" para evitar sobrecarga. [Feature #14104]
 
 * Performance de passagem de bloco usando parâmetros de blocos
-está aprimorado usando lazy Proc allocation. [Feature #14045]
+  está aprimorado usando lazy Proc allocation. [Feature #14045]
 
 * Mutex está reescrito para ser menor e mais rápido. [Feature #13517]
 
@@ -38,8 +38,8 @@ está aprimorado usando lazy Proc allocation. [Feature #14045]
 ## Outras mudanças notáveis desde 2.4
 
 * Alteração para Onigmo 6.1.3.
-Adiciona [absence operator](https://github.com/k-takata/Onigmo/issues/87).
-Note que Ruby 2.4.1 também inclue esta alteração.
+  Adiciona [absence operator](https://github.com/k-takata/Onigmo/issues/87).
+  Note que Ruby 2.4.1 também inclue esta alteração.
 * Adiciona Bundler nas bibliotecas padrões.
 * Alteração para RubyGems 2.7.0.
 * Alteração para RDoc 6.0.0.

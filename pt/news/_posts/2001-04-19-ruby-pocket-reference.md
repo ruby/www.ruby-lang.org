@@ -6,7 +6,7 @@ translator: "jcserracampos"
 lang: pt
 ---
 
-O’Reilly finalmente decidiu publicar traduções de __Ruby Pocket Reference__.
+O’Reilly finalmente decidiu publicar traduções de **Ruby Pocket Reference**.
 Será um [livro entitulado “Ruby in a Nutshell”][1].
 
 
