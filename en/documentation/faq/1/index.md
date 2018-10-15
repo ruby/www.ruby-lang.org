@@ -277,7 +277,7 @@ Originally, or historically, it was called “ruby”.
   Nedit, available from
   [ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz](ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz).
 * Barry Shultz has written a Ruby definition file for TextPad, available at
-  [http://www.textpad.com/add-ons/ntsyn.html](http://www.textpad.com/add-ons/ntsyn.html).
+  [https://www.textpad.com/add-ons/synn2t.html](https://www.textpad.com/add-ons/synn2t.html).
 
 ### How can I annotate Ruby code with its results?
 
