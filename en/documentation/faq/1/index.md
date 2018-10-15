@@ -270,9 +270,6 @@ Originally, or historically, it was called “ruby”.
   [http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim](http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim).
 * [Jedit](http://jedit.sourceforge.net/): A portable editor written in Java,
   comes with support for Ruby.
-* [Jed](http://space.mit.edu/~davis/jed.html): An s-lang file supporting Ruby
-  is available at
-  [http://www.kondara.org/~g/slang/ruby.sl](http://www.kondara.org/~g/slang/ruby.sl).
 * [Nedit](http://www.nedit.org): Eric Santonacci has written Ruby support for
   Nedit, available from
   [ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz](ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz).
