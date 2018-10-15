@@ -53,19 +53,13 @@ your commits and PRs should look like.
 
 ### Preview Locally
 
-Generate the website with
+Generate the website and start the web server with
 
 ``` sh
-bundle exec rake build
+bundle exec jekyll serve
 ```
 
-Then start a local web server with
-
-``` sh
-bundle exec rake serve
-```
-
-Open [http://localhost:9292/](http://localhost:9292/)
+Open [http://localhost:4000/](http://localhost:4000/)
 in your browser to access the preview.
 
 **Note:** The build of the site will take several minutes.
