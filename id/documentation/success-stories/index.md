@@ -86,7 +86,7 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 [10]: http://wiki.rubyonrails.com/rails/pages/RealWorldUsage
 [11]: http://www.larc.nasa.gov/
 [12]: http://www.motorola.com
-[13]: http://www.torontorehab.com
+[13]: https://www.uhn.ca/TorontoRehab
 [14]: http://www.morpha.de/php_e/index.php3
 [15]: http://ods.org/
 [16]: http://www.lucent.com/
