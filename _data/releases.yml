@@ -51,6 +51,20 @@
 
 # 2.5 series
 
+- version: 2.5.2
+  date: 2018-10-17
+  post: /en/news/2018/10/17/ruby-2-5-2-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.zip
+  sha256:
+    bz2: ea3bcecc3b30cee271b4decde5e9ff3e17369d5fd1ed828d321c198307c9f0df
+    gz:  b32340e64a0c7ecbf31486c41fe429a55c7984d980eca7a78138367d9209f471
+    xz:  8be6b6afdf09957a6e2c2a6ada4b1982a391a828b34e49072c4beb60febb678d
+    zip: f148947fee070f30826ef0bda77228b9c374b388050db81ad07f5cd8608e3624
+
 - version: 2.5.1
   date: 2018-03-28
   post: /en/news/2018/03/28/ruby-2-5-1-released/
@@ -108,6 +122,20 @@
     zip: 1a61196a845cb9d9b5a71fd66cb77fbc215f82cb6f90371e309ceddb25e7107b
 
 # 2.4 series
+
+- version: 2.4.5
+  date: 2018-10-17
+  post: /en/news/2018/10/17/ruby-2-4-5-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.zip
+  sha256:
+    bz2: 276c8e73e51e4ba6a0fe81fb92669734e741ccea86f01c45e99f2c7ef7bcd1e3
+    gz:  6737741ae6ffa61174c8a3dcdd8ba92bc38827827ab1d7ea1ec78bc3cefc5198
+    xz:  2f0cdcce9989f63ef7c2939bdb17b1ef244c4f384d85b8531d60e73d8cc31eeb
+    zip: 33694b03ac178cf96aa728b74de7b0bc5d848fcfabc64a7c74ea093198142601
 
 - version: 2.4.4
   date: 2018-03-28
@@ -171,6 +199,20 @@
   post: /en/news/2016/06/20/ruby-2-4-0-preview1-released/
 
 # 2.3 series
+
+- version: 2.3.8
+  date: 2018-10-17
+  post: /en/news/2018/10/17/ruby-2-3-8-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.zip
+  sha256:
+    bz2: 4d1a3a88e8cf9aea624eb73843fbfc60a9a281582660f86d5e4e00870397407c
+    gz:  b5016d61440e939045d4e22979e04708ed6c8e1c52e7edb2553cf40b73c59abf
+    xz:  910f635d84fd0d81ac9bdee0731279e6026cb4cd1315bbbb5dfb22e09c5c1dfe
+    zip: ec9792d0473a22954ad25cd0c531fc672679c1a5eaeefa08caf9e1288852796f
 
 - version: 2.3.7
   date: 2018-03-28

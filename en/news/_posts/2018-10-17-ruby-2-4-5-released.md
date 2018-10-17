@@ -15,7 +15,7 @@ Please check the topics below for details.
 * [CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
 * [CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_4_5/ChangeLog) for details.
+See the [commit logs](https://github.com/ruby/ruby/compare/v2_4_4...v2_4_5) for details.
 
 ## Download
 

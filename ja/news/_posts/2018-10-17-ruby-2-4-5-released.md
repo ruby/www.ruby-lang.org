@@ -16,7 +16,7 @@ Ruby 2.4.5 がリリースされました。
 * [CVE-2018-16396: Array#pack および String#unpack の一部のフォーマット指定においてtaintフラグが伝播しない脆弱性について](/ja/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)への対応
 * [CVE-2018-16395: OpenSSL::X509::Name の同一性判定が機能していない脆弱性について](/ja/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)への対応
 
-詳しくは、対応する [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_4_5/ChangeLog) を参照してください。
+詳しくは、対応する [commit log](https://github.com/ruby/ruby/compare/v2_4_4...v2_4_5) を参照してください。
 
 ## ダウンロード
 
