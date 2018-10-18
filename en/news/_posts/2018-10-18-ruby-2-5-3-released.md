@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.5.3 Released"
 author: "nagachika"
 translator:
-date: 2018-10-16 14:00:00 +0000
+date: 2018-10-18 14:00:00 +0000
 lang: en
 ---
 
