@@ -117,7 +117,7 @@ makaleleri sizin çok çabuk ilerlemenizi sağlayacaktır.
 ### Solaris ve OpenSolaris’de Ruby
 
 Ruby 1.8.7 Solaris 8’den Solaris 10’a kadar [Sunfreeware][22]
-kurulabilir ve Ruby 1.8.7 [Blastwave][23] ‘da bulunabilir. Solaris 10
+kurulabilir. Solaris 10
 için ayarlanmış bir Ruby on Rails paketi Sun’ın Cooltools projesinde
 bulunabilir [Coolstack][24].
 
@@ -163,7 +163,6 @@ Rubyforge][29] adresini inceleyin.
 [20]: http://hivelogic.com/articles/ruby-rails-leopard
 [21]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
 [22]: http://www.sunfreeware.com
-[23]: http://www.blastwave.org
 [24]: http://cooltools.sunsource.net/coolstack
 [25]: http://www.opensolaris.org
 [26]: http://opensolaris.org/os/project/pkg/

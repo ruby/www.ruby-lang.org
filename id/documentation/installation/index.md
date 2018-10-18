@@ -158,8 +158,7 @@ dapat ditemukan di [FreeBSD Ruby Project website][freebsd-ruby].
 {: #solaris}
 
 Ruby 1.8.7 tersedia untuk Solaris 8 hingga Solaris 10 di
-[Sunfreeware][sunfreeware] dan Ruby 1.8.7 tersedia di
-[Blastwave][blastwave].
+[Sunfreeware][sunfreeware].
 Ruby 1.9.2p0 juga tersedia di [Sunfreeware][sunfreeware],
 namun sudah tidak diperbarui lagi.
 
@@ -309,7 +308,6 @@ karena Ruby yang terpasang tidak akan diatur oleh kakas apapun.
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

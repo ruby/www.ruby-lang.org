@@ -118,7 +118,7 @@ $ brew install ruby
 ### Solaris 和 OpenIndiana 平台
 {: #solaris}
 
-[Sunfreeware][sunfreeware] 上的 Solaris 8 到 10 版有 Ruby 1.8.7 可用，同時 [Blastwave][blastwave] 上也有 Ruby 1.8.7。Ruby 1.9.2p0 在 [Sunfreeware][sunfreeware] 也有，但版本已經過時了。
+[Sunfreeware][sunfreeware] 上的 Solaris 8 到 10 版有 Ruby 1.8.7 可用。Ruby 1.9.2p0 在 [Sunfreeware][sunfreeware] 也有，但版本已經過時了。
 
 要在 [OpenIndiana][openindiana] 安裝 Ruby，請使用：
 [Image Packaging System (IPS)][opensolaris-pkg] 客戶端。
@@ -234,7 +234,6 @@ $ sudo make install
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

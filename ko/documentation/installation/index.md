@@ -135,8 +135,7 @@ $ brew install ruby
 ### Solaris와 OpenIndiana에서의 루비
 {: #solaris}
 
-Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
-[Blastwave][blastwave]에서 루비 1.8.7을 사용 가능합니다.
+Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능합니다.
 [Sunfreeware][sunfreeware]에서 루비 1.9.2p0을 사용 가능하지만, 이는 구 버전입니다.
 서드파티 도구를 사용하면 최신 버전의 루비를 얻을 수 있습니다.
 
@@ -277,7 +276,6 @@ $ sudo make install
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

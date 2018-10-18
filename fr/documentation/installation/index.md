@@ -143,8 +143,7 @@ La version la plus récente de Ruby sera installée.
 {: #solaris}
 
 Ruby 1.8.7 est disponible de Solaris 8 à Solaris 10 sur
-[Sunfreeware][sunfreeware] et Ruby 1.8.7 est disponible sur
-[Blastwave][blastwave].
+[Sunfreeware][sunfreeware].
 Ruby 1.9.2p0 est aussi disponible sur [Sunfreeware][sunfreeware], mais il est
 obsolète.
 
@@ -312,7 +311,6 @@ Ruby ne pourront pas être gérées par un gestionnaire de versions.
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

@@ -140,8 +140,7 @@ $ brew install ruby
 ### Ruby на Solaris и OpenIndiana
 {: #solaris}
 
-Ruby 1.8.7 доступен для Solaris 8-10 на [Sunfreeware][sunfreeware] и
-[Blastwave][blastwave]. Ruby 1.9.2p0 также доступен на [Sunfreeware][sunfreeware],
+Ruby 1.8.7 доступен для Solaris 8-10 на [Sunfreeware][sunfreeware]. Ruby 1.9.2p0 также доступен на [Sunfreeware][sunfreeware],
 но это все уже устарело.
 
 Чтобы установить Ruby на [OpenIndiana][openindiana], пожалуйста, используйте
@@ -288,7 +287,6 @@ $ sudo make install
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

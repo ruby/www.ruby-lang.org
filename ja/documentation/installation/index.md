@@ -187,7 +187,6 @@ OS X 上で新しい Ruby のバージョンをインストールする手助け
 {: #solaris}
 
 [Sunfreeware][sunfreeware] で Solaris 8 から 10 用の Ruby 1.8.7 が使用できます。
-[Blastwave][blastwave] で Ruby 1.8.7 が使用できます。
 [Sunfreeware][sunfreeware] で Ruby 1.9.2p0 も使用できますが、これは古いバージョンです。
 サードパーティ製ツールを使用することで最新バージョンの Ruby を手に入れることができます。
 
@@ -234,7 +233,6 @@ $ sudo make install
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

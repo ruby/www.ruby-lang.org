@@ -187,7 +187,7 @@ probabilmente una buona ida utilizzare i tool di terze parti.
 {: #solaris}
 
 Ruby 1.8.7 è disponibile per Solaris 8 fino a Solaris 10 su
-[Sunfreeware][sunfreeware] e Ruby 1.8.7 è disponibile su [Blastwave][blastwave].
+[Sunfreeware][sunfreeware].
 Ruby 1.9.2p0 è disponibile su [Sunfreeware][sunfreeware], ma è outdate.
 Si possono avere le ultime versioni di Ruby utilizzando i tool di terze parti.
 
@@ -236,7 +236,6 @@ perchè la versione installata non verrebbe gestita da nessun tool.
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
