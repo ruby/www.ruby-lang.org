@@ -9,10 +9,10 @@ lang: en
 
 Ruby 2.5.3 has been released.
 
-There are some missing files in the release packages of 2.5.2 which are necessary for build.
+There were some missing files in the release packages of 2.5.2 which are necessary for building.
 See details in [[Bug #15232]](https://bugs.ruby-lang.org/issues/15232).
 
-This release is just for fixing the packaging issue. This release donesn't contain any additional bug fixes from 2.5.2.
+This release is just for fixing the packaging issue. This release doesn't contain any additional bug fixes from 2.5.2.
 
 ## Download
 
