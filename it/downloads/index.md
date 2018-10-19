@@ -51,20 +51,20 @@ esserti di aiuto.
 {% endif %}
 
 {% if site.data.downloads.security_maintenance %}
-* **Nella fase di manutenzione di sicurezza (sono giunti a fine vita!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
+* **Nella fase di manutenzione di sicurezza (raggiungeranno presto la loro EOL):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Non più mantenute (finevita):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
+* **Non più mantenute (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 * **Snapshots:**
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
-    Un file compresso dell'ultimo snapshot della branch stabile corrente.
+    Un file compresso dell'ultimo snapshot del branch stabile corrente.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Questo è un file compresso di tutto quello che c'è nell'SVN, generato ogni notte.
     Potrebbe contenere bug ed errori, usalo a tuo rischio e pericolo!
