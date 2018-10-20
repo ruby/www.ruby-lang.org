@@ -44,7 +44,7 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 ### リファレンス
 
 [Ruby コアリファレンス (英語)](http://www.ruby-doc.org/core/)
-: [RDoc](http://docs.seattlerb.org/rdoc/)を用いてRubyのソースコードから直接生成したものです。
+: [RDoc](https://ruby.github.io/rdoc)を用いてRubyのソースコードから直接生成したものです。
   String, ArrayやSymbol等のコアクラスやモジュールのリファレンスがあります。
 
 [Ruby 標準ライブラリリファレンス (英語)](http://www.ruby-doc.org/stdlib/)
