@@ -156,7 +156,7 @@ là một nơi tuyệt vời.
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: https://ruby.github.io/rdoc
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/

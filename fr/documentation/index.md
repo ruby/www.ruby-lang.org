@@ -147,7 +147,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [14]: http://www.rubyist.net/~slagell/ruby/
 [15]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: http://www.ruby-doc.org/core
-[17]: https://ruby.github.io/rdoc
+[17]: https://ruby.github.io/rdoc/
 [18]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [20]: http://rubydoc.info/

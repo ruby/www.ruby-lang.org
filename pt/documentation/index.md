@@ -157,7 +157,7 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: https://ruby.github.io/rdoc
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
