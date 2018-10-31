@@ -19,7 +19,7 @@ Il existe plusieurs manières d'installer Ruby :
   **gestionnaire de paquets** de votre système est la façon la plus simple de
   procéder.
   Toutefois, la dernière version de Ruby pourrait ne pas être disponible.
-* Un **Installateurs** peut être utilisé pour installer une ou plusieurs versions
+* Un **Installateur** peut être utilisé pour installer une ou plusieurs versions
   de Ruby. Il existe aussi un installateur pour Windows.
 * Des **Managers** aident à basculer d'une version de Ruby à une autre sur
   votre système.
