@@ -18,8 +18,8 @@ This release also includes a non-security fix to support Visual Studio 2014
 with Windows 10 October 2018 Update for maintenance reasons.
 
 Ruby 2.3 is now under the state of the security maintenance phase, until
-the end of the March of 2019.  After the date, maintenance of Ruby 2.3
-will be ended. We recommend you start planning migration to newer
+the end of March of 2019.  After that date, maintenance of Ruby 2.3
+will be ended. We recommend you start planning the migration to newer
 versions of Ruby, such as 2.5 or 2.4.
 
 ## Download

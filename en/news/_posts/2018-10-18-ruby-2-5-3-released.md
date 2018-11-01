@@ -14,7 +14,7 @@ necessary for building.
 See details in [[Bug #15232]](https://bugs.ruby-lang.org/issues/15232).
 
 This release is just for fixing the packaging issue.
-This release doesn't contain any additional bug fixes from 2.5.2.
+It does not contain any additional bug fixes from 2.5.2.
 
 ## Download
 
@@ -52,4 +52,4 @@ Many committers, developers, and users who provided bug reports helped
 us to make this release.
 Thanks for their contributions.
 
-Especially thank you wanabe for reporting the issue about 2.5.2 packages.
+Especially thank you wanabe for reporting the issue about the 2.5.2 packages.
