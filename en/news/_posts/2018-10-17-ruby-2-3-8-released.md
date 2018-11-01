@@ -14,11 +14,13 @@ Please check the topics below for details.
 * [CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
 * [CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
-This release also includes a non-security fix to support Visual Studio 2014 with Windows 10 October 2018 Update for maintenance reasons.
+This release also includes a non-security fix to support Visual Studio 2014
+with Windows 10 October 2018 Update for maintenance reasons.
 
-Ruby 2.3 is now under the state of the security maintenance phase, until the end of the March of 2019.
-After the date, maintenance of Ruby 2.3 will be ended.
-We recommend you start planning migration to newer versions of Ruby, such as 2.5 or 2.4.
+Ruby 2.3 is now under the state of the security maintenance phase, until
+the end of the March of 2019.  After the date, maintenance of Ruby 2.3
+will be ended. We recommend you start planning migration to newer
+versions of Ruby, such as 2.5 or 2.4.
 
 ## Download
 

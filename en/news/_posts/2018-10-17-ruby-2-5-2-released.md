@@ -14,9 +14,9 @@ This release includes some bug fixes and some security fixes.
 * [CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
 * [CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
-
 There are also some bug fixes.
-See [commit logs](https://github.com/ruby/ruby/compare/v2_5_1...v2_5_2) for more details.
+See [commit logs](https://github.com/ruby/ruby/compare/v2_5_1...v2_5_2)
+for more details.
 
 ## Download
 

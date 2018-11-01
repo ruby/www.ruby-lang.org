@@ -9,13 +9,15 @@ lang: en
 
 Ruby 2.4.5 has been released.
 
-This release includes about 40 bug fixes after the previous release, and also includes several security fixes.
+This release includes about 40 bug fixes after the previous release,
+and also includes several security fixes.
 Please check the topics below for details.
 
 * [CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
 * [CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_4_4...v2_4_5) for details.
+See the [commit logs](https://github.com/ruby/ruby/compare/v2_4_4...v2_4_5)
+for details.
 
 ## Download
 
@@ -51,4 +53,5 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_4_4...v2_4_5) for 
 
 Thanks to everyone who helped with this release.
 
-The maintenance of Ruby 2.4, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+The maintenance of Ruby 2.4, including this release, is based on the
+“Agreement for the Ruby stable version” of the Ruby Association.
