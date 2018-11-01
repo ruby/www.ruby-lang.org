@@ -8,6 +8,7 @@ lang: en
 ---
 
 Ruby 2.3.8 has been released.
+
 This release includes several security fixes.
 Please check the topics below for details.
 

@@ -7,7 +7,9 @@ date: 2018-10-17 17:00:00 +0000
 lang: zh_tw
 ---
 
-Ruby 2.3.8 已發佈。此次發佈修復了數個安全性缺陷，請查看下述主題以獲取詳情。
+Ruby 2.3.8 已發佈。
+
+此次發佈修復了數個安全性缺陷，請查看下述主題以獲取詳情。
 
 * [CVE-2018-16396: 特定命令下受污染標記未能如實展開到 Array#pack 和 String#unpack 結果中](/zh_cn/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
 * [CVE-2018-16395: OpenSSL::X509::Name 相等檢查未正常工作](/zh_cn/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)

@@ -8,6 +8,7 @@ lang: ja
 ---
 
 Ruby 2.3.8 がリリースされました。
+
 今回のリリースでは、以下のセキュリティ上の問題への対応が行われています。
 
 * [CVE-2018-16396: Array#pack および String#unpack の一部のフォーマット指定においてtaintフラグが伝播しない脆弱性について](/ja/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)への対応
