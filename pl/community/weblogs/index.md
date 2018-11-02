@@ -27,7 +27,7 @@ updates.
   jeśli nie możesz go odczytać, dobrze wiedzieć, że jest taki blog!
 
 Ruby jest również popularnym tematem w serwisach [Digg][11] oraz
-[Slashdot][12],. Jeśli znajdziesz gdzieś jakiś fantastyczny fragment
+[Slashdot][12]. Jeśli znajdziesz gdzieś jakiś fantastyczny fragment
 kodu, pamiętaj aby ich o tym poinformować ! :)
 
 
