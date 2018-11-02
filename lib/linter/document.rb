@@ -79,6 +79,10 @@ class Linter
       date.utc_offset != 0
     end
 
+    def crlf_line_breaks?
+      content.match?(/\r\n/)
+    end
+
     def no_newline_at_eof?
       !content.end_with?("\n")
     end
