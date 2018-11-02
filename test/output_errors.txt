@@ -1,4 +1,6 @@
 Checking markdown files...
+en/01_crlf_line_breaks.md
+  wrong line breaks (CR/LF)
 en/02_no_newline_at_eof.md
   no newline at end of file
 en/03_trailing_whitespace.md
