@@ -22,8 +22,8 @@
 # 2.6 series
 
 - version: 2.6.0-preview3
-  date: 2018-10-06
-  post: /en/news/2018/10/06/ruby-2-6-0-preview3-released/
+  date: 2018-11-06
+  post: /en/news/2018/11/06/ruby-2-6-0-preview3-released/
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.zip

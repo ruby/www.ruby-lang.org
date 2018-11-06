@@ -3,14 +3,14 @@ layout: news_post
 title: "Ruby 2.6.0-preview3 Released"
 author: "naruse"
 translator:
-date: 2018-05-31 00:00:00 +0000
+date: 2018-11-06 00:00:00 +0000
 lang: en
 ---
 
 We are pleased to announce the release of Ruby 2.6.0-preview3.
 
 Ruby 2.6.0-preview3 is the third preview toward Ruby 2.6.0.
-This preview3 is released to test new features before comming Release Candidate.
+This preview3 is released to test new features before coming Release Candidate.
 
 ## JIT
 
@@ -61,7 +61,7 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 ## Performance improvements
 
-* Speedup `Proc#call` because we dont' need to care about `$SAFE` any more.
+* Speedup `Proc#call` because we don't need to care about `$SAFE` any more.
   [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
   With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
@@ -75,7 +75,7 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 * Transient Heap (theap) is introduced. [Bug #14858] [Feature #14989]
   theap is managed heap for short-living memory objects which are pointed by
-  specific classes (Array, Hash, Object, Struct). For example, making small
+  specific classes (Array, Hash, Object, and Struct). For example, making small
   and short-living Hash object is x2 faster. With rdoc benchmark, we observed
   6-7% performance improvement.
 
@@ -85,7 +85,7 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 * Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* Merge RubyGems 3.0.0.beta2. `--ri` and `--rdoc` options was removed. Please use `--docuent` and `--no-document` options instead of them.
+* Merge RubyGems 3.0.0.beta2. `--ri` and `--rdoc` options was removed. Please use `--document` and `--no-document` options instead of them.
 
 * Merge [Bundler](https://github.com/bundler/bundler) as Default gems.
 

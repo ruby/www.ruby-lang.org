@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.6.0-preview3 Released"
 author: "naruse"
 translator:
-date: 2018-10-06 00:00:00 +0000
+date: 2018-11-06 00:00:00 +0000
 lang: ja
 ---
 
@@ -74,8 +74,7 @@ Ruby 2.6では `RubyVM::AST` モジュールが導入されました。
 
 ## その他の注目すべき 2.5 からの変更点
 
-* $SAFE はプロセスグローバルで扱われることになると共に、0以外を設定した後に0に戻せるようになりました [[Feature #14250]](https://bugs
-.ruby-lang.org/issues/14250)
+* $SAFE はプロセスグローバルで扱われることになると共に、0以外を設定した後に0に戻せるようになりました [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 * `ERB.new`に`safe_level`を渡すのは非推奨になりました。また、`trim_mode`と`eoutvar`はキーワード引数に変更されました。 [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 * RubyGems 3.0.0.beta2 をマージしました。 `--ri` と `--rdoc` オプションは使えなくなりました。`--document` または `--no-document` を利用してください。
 * [Bundler](https://github.com/bundler/bundler) を Default gems として標準添付しました。
