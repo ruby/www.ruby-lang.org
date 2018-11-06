@@ -80,7 +80,7 @@ Ruby 2.6では `RubyVM::AST` モジュールが導入されました。
 * RubyGems 3.0.0.beta2 をマージしました。 `--ri` と `--rdoc` オプションは使えなくなりました。`--document` または `--no-document` を利用してください。
 * [Bundler](https://github.com/bundler/bundler) を Default gems として標準添付しました。
 
-その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview2/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)を参照してください。
+その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview3/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)を参照してください。
 
 なお、こうした変更により、Ruby 2.5.0 以降では [6474 個のファイルに変更が加えられ、171888 行の追加と 46617 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3) !
 
