@@ -78,11 +78,11 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
   가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체는
   2배 빨라집니다. rdoc 벤치마크에서 6-7% 의 성능 향상을 확인했습니다.
 
-* Coverage の oneshot_lines モードの追加 [Feature#15022]
-  * This mode checks "whether each line was executed at least once or not", instead of "how many times each line was executed".  A hook for each line is fired at most once, and after it is fired the hook flag is removed, i.e., it runs with zero overhead.
-  * Add +:oneshot_lines+ keyword argument to Coverage.start.
-  * Add +:stop+ and +:clear+ keyword arguments to Coverage.result. If +clear+ is true, it clears the counters to zero.  If +stop+ is true, it disables coverage measurement.
-  * Coverage.line_stub, which is a simple helper function that creates the "stub" of line coverage from a given source code.
+* `Coverage`의 oneshot_lines 모드 추가. [Feature#15022]
+  * 이 모드는 "각 줄이 몇 번 실행되었는지" 대신 "각 줄이 한번 이상 실행되었는지"를 확인합니다. 각 줄의 훅은 최대 1회만 실행되며, 실행된 후에는 플래그를 제거하기 때문에 오버헤드 없이 실행됩니다.
+  * `Coverage.start`에 +:oneshot_lines+ 키워드 인수가 추가됩니다.
+  * `Coverage.result`에 +:stop+과 +:clear+ 키워드 인수가 추가됩니다. 만약 +clear+가 참이라면, 이는 카운터를 0으로 초기화합니다. 만약 +stop+이 참이라면 커버리지 측정을 비활성화합니다.
+  * 주어진 소스 코드로부터 "stub"을 생성하는 간단한 헬퍼 함수인 `Coverage.line_stub`을 추가합니다.
 
 ## 2.5 이후 주목할 만한 변경
 
