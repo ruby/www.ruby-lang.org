@@ -1,105 +1,103 @@
 ---
 layout: news_post
-title: "Ruby 2.6.0-preview3 Released"
+title: "루비 2.6.0-preview3 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2018-11-06 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
-We are pleased to announce the release of Ruby 2.6.0-preview3.
+루비 2.6.0-preview3 릴리스를 알리게 되어 기쁩니다.
 
-Ruby 2.6.0-preview3 is the third preview toward Ruby 2.6.0.
-This preview3 is released to test new features before coming Release Candidate.
+루비 2.6.0-preview3은 루비 2.6.0의 세 번째 프리뷰입니다.
+이 프리뷰는 다가오는 릴리스 후보에 포함될 기능을 테스트하기 위하여 릴리스되었습니다.
 
 ## JIT
 
-Ruby 2.6 introduces an initial implementation of JIT (Just-in-time) compiler.
+루비 2.6은 JIT(Just-in-time) 컴파일러의 첫 구현체를 포함합니다.
 
-JIT compiler aims to improve performance of any Ruby program execution.
-Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which prints C code to a disk and spawns common C compiler process to generate native code.
-See also: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
+JIP 컴파일러는 루비 프로그램의 실행 성능을 향상시키는 것이 목적입니다.
+다른 언어의 일반적인 JIT 컴파일러와는 다르게, 루비의 JIT 컴파일러는 C 코드를 디스크에 출력한 뒤, 일반적인 C 컴파일러 프로세스를 사용해 네이티브 코드를 생성하도록 합니다.
+다음을 참고하세요. [Vladimir Makarov가 작성한 MJIT 구조](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
-How to use: Just specify `--jit` in command line or `$RUBYOPT` environment variable.
-Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT compilation. See `ruby --help` for other options.
+JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYOPT` 환경 변수에 지정합니다.
+`--jit-verbose=1`을 지정하면 실행 중인 JIT 컴파일의 기본적인 정보를 출력합니다. 다른 옵션에 대해서는 `ruby --help`를 확인하세요.
 
-The main purpose of this JIT release is to provide a chance to check if it works for your platform and to find out security risks before the 2.6 release.
-JIT compiler is supported when Ruby is built by GCC, Clang, or Microsoft VC++, which needs to be available on runtime. Otherwise you can't use it for now.
+이번 JIT 릴리스의 주 목적은 2.6 릴리스 전에 각 플랫폼에서 잘 동작하는지, 보안상의 문제가 발생하는지 미리 확인하는 것입니다.
+현재 JIT 컴파일러는 루비가 gcc나 clang, Microsoft VC++로 빌드되었으며, 해당 컴파일러가 런타임에서 사용 가능한 경우에만 이용할 수 있습니다. 그 이외에는 아직 이용할 수 없습니다.
 
-As of Ruby 2.6.0 preview3, we achieved 1.7x faster performance than Ruby 2.5 on CPU-intensive non-trivial benchmark workload called Optcarrot https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208. We're going to improve the performance on memory-intensive workload like Rails application as well.
+2.6.0-preview3에서는 Optcarrot 이라고 불리는 CPU 성능을 요구하는 벤치마크에서 1.7배의 성능 향상을 이루어졌습니다(다음을 참조: https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208). Rails 애플리케이션같은 메모리를 요구하는 작업에서도 성능을 향상시킬 것입니다.
 
-Stay tuned for the new age of Ruby's performance.
+새로운 루비의 성능을 기대해주세요.
 
 ## RubyVM::AST [Experimental]
 
-Ruby 2.6 introduces `RubyVM::AST` module.
+루비 2.6에는 `RubyVM::AST` 모듈이 도입되었습니다.
 
-This module has `parse` method which parses a given ruby code of string and returns AST (Abstract Syntax Tree) nodes, and `parse_file` method which parses a given ruby code file and returns AST nodes.
-`RubyVM::AST::Node` class is also introduced. You can get location information and children nodes from `Node` objects. This feature is experimental. Compatibility of the structure of AST nodes are not guaranteed.
+이 모듈에은 문자열을 파싱하여 AST(추상구문트리)의 Node를 돌려주는 `parse` 메소드, 파일을 파싱하여 AST의 노드를 돌려주는 `parse_file` 메소드가 들어있습니다.
+`RubyVM::AST::Node`도 도입되었습니다. 이 클래스의 인스턴스로부터 위치정보나 자식 노드를 얻을 수 있습니다. 이 기능은 실험적으로 포함되었으며, AST 노드의 구조는 호환성을 보장하지 않습니다.
 
-## New Features
+## 새로운 기능
 
-* Add a new alias `then` to `Kernel#yield_self`. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
+* `Kernel#yield_self`의 별칭으로 `then`이 추가되었습니다. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
 
-* `else` without `rescue` now causes a syntax error.  [EXPERIMENTAL]
+* `rescue`가 없는 `else`가 문법 에러가 됩니다. [EXPERIMENTAL]
 
-* constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
+* ASCII 이외의 대문자로 시작하는 상수를 정의할 수 있게 됩니다. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* endless range [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
+* 종료 지정이 없는 범위 연산자. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
-  An endless range, `(1..)`, is introduced. It works as it has no end. This shows typical use cases:
+  종료 지정이 없는 범위 연산자, `(1..)`가 추가됩니다. 이는 끝이 없는 것처럼 취급됩니다. 다음은 전형적인 사용 예시입니다.
 
-      ary[1..]                          # identical to ary[1..-1] without magical -1
-      (1..).each {|index| ... }         # inifinite loop from index 1
+      ary[1..]                          # ary[1..-1]와 동치
+      (1..).each {|index| ... }         # 1로 시작하는 무한 루프
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* Add `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
+* `Binding#source_location`을 추가했습니다. [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
 
-  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352).  So, users should use this newly-introduced method instead of `Kernel#eval`.
+  이 메소드는 `binding`의 소스 코드 상의 위치를 `__FILE__`과 `__LINE__`을 가지는 배열로 돌려줍니다. 지금까지는 `eval("[__FILE__, __LINE__]", binding)`을 사용하여 같은 정보를 획득할 수 있었습니다만, `Kernel#eval`이 `binding`의 소스 코드의 위치를 무시하도록 변경할 예정입니다. [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352) 그러므로 앞으로는 `Kernel#eval`보다는 이 새로운 메소드를 사용해야 합니다.
 
-* Add `:exception` option to let `Kernel.#system` raise error instead of returning `false`.  [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
+* `Kernal#system`이 실패했을 경우 `false`를 돌려주는 대신, 에러를 던지도록 하는 `:exception` 옵션을 추가했습니다. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
-## Performance improvements
+## 성능 향상
 
-* Speedup `Proc#call` because we don't need to care about `$SAFE` any more.
+* `Proc#call`이 더 이상 `$SAFE`를 고려하지 않아도 되어 속도가 빨라졌습니다.
   [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
-  With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
-  x1.4 improvements [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212).
+  `Proc#call`을 대량으로 호출하는 `lc_fizzbuzz` 벤치마크가 1.4배 빨라졌습니다.
+  [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212)
 
-* Speedup `block.call` where `block` is passed block parameter. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
+* `block`이 블록 파라미터인 경우의 `block.call`이 빨라졌습니다. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
-  Ruby 2.5 improves block passing performance. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
-  Additionally, Ruby 2.6 improves the performance of passed block calling.
-  With micro-benchmark we can observe x2.6 improvement.
+  루비 2.5에서는 블록 넘기기의 성능이 향상되었습니다만 [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045),
+  추가로 2.6에서는 넘겨진 블록의 호출이 개선되었습니다.
+  간단한 벤치마크에서 2.6배의 성능 향상을 확인했습니다.
 
-* Transient Heap (theap) is introduced. [Bug #14858] [Feature #14989]
-  theap is managed heap for short-living memory objects which are pointed by
-  specific classes (Array, Hash, Object, and Struct). For example, making small
-  and short-living Hash object is x2 faster. With rdoc benchmark, we observed
-  6-7% performance improvement.
+* Transient Heap(theap)이 도입되었습니다. [Bug #14858] [Feature #14989]
+  theap은 특정 클래스(Array, Hash, Object, Struct)가 가리키는 짧은 생애를
+  가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체는
+  2배 빨라집니다. rdoc 벤치마크에서 6-7% 의 성능 향상을 확인했습니다.
 
-## Other notable changes since 2.5
+## 2.5 이후 주목할 만한 변경
 
-* `$SAFE` is a process global state and we can set `0` again.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
+* `$SAFE`가 프로세스 전역 변수로 취급되며, `0` 이외의 값을 설정한 후에 `0`으로 되돌리는 것이 가능해집니다. [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
-* Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
+* `ERB.new`에 `safe_level`을 넘기는 기능이 제거 예정이 되었습니다. 또한 `trim_mode`와 `eoutvar`는 키워드 변수로 변경됩니다. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* Merge RubyGems 3.0.0.beta2. `--ri` and `--rdoc` options was removed. Please use `--document` and `--no-document` options instead of them.
+* RubyGems 3.0.0.beta2를 병합했습니다. `--ri`와 `--rdoc` 옵션이 제거되었습니다. 대신에 `--document`와 `--no-document`를 사용해주세요.
 
-* Merge [Bundler](https://github.com/bundler/bundler) as Default gems.
+* [Bundler](https://github.com/bundler/bundler)를 기본 젬으로 병합됩니다.
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview3/NEWS)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)
-for details.
+자세한 내용은 [뉴스](https://github.com/ruby/ruby/blob/v2_6_0_preview3/NEWS)와
+[커밋 로그](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)를 참고하세요.
 
-With those changes,
-[6474 files changed, 171888 insertions(+), 46617 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)
-since Ruby 2.5.0!
+이러한 변경사항에 따라,
+루비 2.5.0 이후 [파일 6474개 수정, 171888줄 추가(+), 46617줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)
+하였습니다!
 
-Enjoy programming with Ruby 2.6.0-preview3!
+루비 2.6.0-preview3와 함께 즐거운 프로그래밍하세요!
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.gz>
 
