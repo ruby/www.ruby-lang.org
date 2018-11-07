@@ -78,6 +78,12 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
   가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체는
   2배 빨라집니다. rdoc 벤치마크에서 6-7% 의 성능 향상을 확인했습니다.
 
+* Coverage の oneshot_lines モードの追加 [Feature#15022]
+  * This mode checks "whether each line was executed at least once or not", instead of "how many times each line was executed".  A hook for each line is fired at most once, and after it is fired the hook flag is removed, i.e., it runs with zero overhead.
+  * Add +:oneshot_lines+ keyword argument to Coverage.start.
+  * Add +:stop+ and +:clear+ keyword arguments to Coverage.result. If +clear+ is true, it clears the counters to zero.  If +stop+ is true, it disables coverage measurement.
+  * Coverage.line_stub, which is a simple helper function that creates the "stub" of line coverage from a given source code.
+
 ## 2.5 이후 주목할 만한 변경
 
 * `$SAFE`가 프로세스 전역 변수로 취급되며, `0` 이외의 값을 설정한 후에 `0`으로 되돌리는 것이 가능해집니다. [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
