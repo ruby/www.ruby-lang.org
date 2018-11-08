@@ -37,9 +37,9 @@ did_you_mean 젬은 간편한 디버깅을 위해 `NameError`와 `NoMethodError`
 
 루비 2.3에는 많은 성능 향상이 포함됩니다.
 예를 들어, [Proc#call 최적화](https://bugs.ruby-lang.org/issues/11569),
-[메소드 엔트리 데이터 구조 재고](https://bugs.ruby-lang.org/issues/11278),
+[메서드 엔트리 데이터 구조 재고](https://bugs.ruby-lang.org/issues/11278),
 [테이블 데이터 구조 도입](https://bugs.ruby-lang.org/issues/11420),
-객체 할당과 메소드 호출 코드의 머신 코드 레벨 튜닝과 그 밖의 수많은 최적화가
+객체 할당과 메서드 호출 코드의 머신 코드 레벨 튜닝과 그 밖의 수많은 최적화가
 이루어져 있습니다.
 
 루비 2.3.0-preview2를 시험하고 즐겁게 프로그래밍 해보세요. 그리고 지식을
