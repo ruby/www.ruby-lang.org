@@ -16,7 +16,7 @@ lang: ko
 
 루비 2.6은 JIT(Just-in-time) 컴파일러의 첫 구현체를 포함합니다.
 
-JIP 컴파일러는 루비 프로그램의 실행 성능을 향상시키는 것이 목적입니다.
+JIT 컴파일러는 루비 프로그램의 실행 성능을 향상시키는 것이 목적입니다.
 다른 언어의 일반적인 JIT 컴파일러와는 다르게, 루비의 JIT 컴파일러는 C 코드를 디스크에 출력한 뒤, 일반적인 C 컴파일러 프로세스를 사용해 네이티브 코드를 생성하도록 합니다.
 다음을 참고하세요. [Vladimir Makarov가 작성한 MJIT 구조](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
@@ -26,7 +26,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 이번 JIT 릴리스의 주 목적은 2.6 릴리스 전에 각 플랫폼에서 잘 동작하는지, 보안상의 문제가 발생하는지 미리 확인하는 것입니다.
 현재 JIT 컴파일러는 루비가 gcc나 clang, Microsoft VC++로 빌드되었으며, 해당 컴파일러가 런타임에서 사용 가능한 경우에만 이용할 수 있습니다. 그 이외에는 아직 이용할 수 없습니다.
 
-2.6.0-preview3에서는 Optcarrot 이라고 불리는 CPU 성능을 요구하는 벤치마크에서 1.7배의 성능 향상을 이루어졌습니다(다음을 참조: https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208). Rails 애플리케이션같은 메모리를 요구하는 작업에서도 성능을 향상시킬 것입니다.
+2.6.0-preview3에서는 Optcarrot이라는 CPU 성능을 요구하는 벤치마크에서 1.7배의 성능 향상을 이루었습니다(다음을 참조: https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208). Rails 애플리케이션 같은 메모리를 요구하는 작업에서도 성능을 향상시킬 것입니다.
 
 새로운 루비의 성능을 기대해주세요.
 
@@ -34,7 +34,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 루비 2.6에는 `RubyVM::AST` 모듈이 도입되었습니다.
 
-이 모듈에은 문자열을 파싱하여 AST(추상구문트리)의 Node를 돌려주는 `parse` 메소드, 파일을 파싱하여 AST의 노드를 돌려주는 `parse_file` 메소드가 들어있습니다.
+이 모듈에은 문자열을 파싱하여 AST(추상구문트리)의 노드를 돌려주는 `parse` 메서드, 파일을 파싱하여 AST의 노드를 돌려주는 `parse_file` 메서드가 들어있습니다.
 `RubyVM::AST::Node`도 도입되었습니다. 이 클래스의 인스턴스로부터 위치정보나 자식 노드를 얻을 수 있습니다. 이 기능은 실험적으로 포함되었으며, AST 노드의 구조는 호환성을 보장하지 않습니다.
 
 ## 새로운 기능
@@ -55,7 +55,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * `Binding#source_location`을 추가했습니다. [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
 
-  이 메소드는 `binding`의 소스 코드 상의 위치를 `__FILE__`과 `__LINE__`을 가지는 배열로 돌려줍니다. 지금까지는 `eval("[__FILE__, __LINE__]", binding)`을 사용하여 같은 정보를 획득할 수 있었습니다만, `Kernel#eval`이 `binding`의 소스 코드의 위치를 무시하도록 변경할 예정입니다. [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352) 그러므로 앞으로는 `Kernel#eval`보다는 이 새로운 메소드를 사용해야 합니다.
+  이 메서드는 `binding`의 소스 코드 상의 위치를 `__FILE__`과 `__LINE__`을 가지는 배열로 돌려줍니다. `Kernel#eval`이 `binding`의 소스 코드의 위치를 무시하도록 변경할 예정입니다. [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352) 그러므로 지금까지 사용하던 `eval("[__FILE__, __LINE__]", binding)`로 같은 정보를 획득할 수 없게 됩니다,  앞으로는 `Kernel#eval`보다는 새로운 `Binding#source_location` 메서드를 사용하게 될 것입니다.
 
 * `Kernal#system`이 실패했을 경우 `false`를 돌려주는 대신, 에러를 던지도록 하는 `:exception` 옵션을 추가했습니다. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
@@ -76,23 +76,23 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 * Transient Heap(theap)이 도입되었습니다. [Bug #14858] [Feature #14989]
   theap은 특정 클래스(Array, Hash, Object, Struct)가 가리키는 짧은 생애를
   가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체는
-  2배 빨라집니다. rdoc 벤치마크에서 6-7% 의 성능 향상을 확인했습니다.
+  2배 빨라집니다. rdoc 벤치마크에서 6-7%의 성능 향상을 확인했습니다.
 
-* `Coverage`의 oneshot_lines 모드 추가. [Feature#15022]
-  * 이 모드는 "각 줄이 몇 번 실행되었는지" 대신 "각 줄이 한번 이상 실행되었는지"를 확인합니다. 각 줄의 훅은 최대 1회만 실행되며, 실행된 후에는 플래그를 제거하기 때문에 오버헤드 없이 실행됩니다.
-  * `Coverage.start`에 +:oneshot_lines+ 키워드 인수가 추가됩니다.
-  * `Coverage.result`에 +:stop+과 +:clear+ 키워드 인수가 추가됩니다. 만약 +clear+가 참이라면, 이는 카운터를 0으로 초기화합니다. 만약 +stop+이 참이라면 커버리지 측정을 비활성화합니다.
-  * 주어진 소스 코드로부터 "stub"을 생성하는 간단한 헬퍼 함수인 `Coverage.line_stub`을 추가합니다.
+* `Coverage`의 oneshot_lines 모드를 추가했습니다. [Feature#15022]
+  * 이 모드는 '각 줄이 몇 번 실행되었는지' 대신 '각 줄이 한 번 이상 실행되었는지'를 확인합니다. 각 줄의 훅은 최대 1회만 실행되며, 실행된 후에는 플래그를 제거하기 때문에 오버헤드 없이 실행됩니다.
+  * `Coverage.start`에 `:oneshot_lines` 키워드 인수가 추가됩니다.
+  * `Coverage.result`에 `:stop`과 `:clear` 키워드 인수가 추가됩니다. 만약 `clear`가 참이라면, 이는 카운터를 0으로 초기화합니다. 만약 `stop`이 참이라면 커버리지 측정을 비활성화합니다.
+  * 주어진 소스 코드로부터 'stub'을 생성하는 간단한 헬퍼 함수인 `Coverage.line_stub`을 추가합니다.
 
 ## 2.5 이후 주목할 만한 변경
 
 * `$SAFE`가 프로세스 전역 변수로 취급되며, `0` 이외의 값을 설정한 후에 `0`으로 되돌리는 것이 가능해집니다. [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
-* `ERB.new`에 `safe_level`을 넘기는 기능이 제거 예정이 되었습니다. 또한 `trim_mode`와 `eoutvar`는 키워드 변수로 변경됩니다. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
+* `ERB.new`에 `safe_level`을 넘기는 기능이 제거될 예정입니다. 또한 `trim_mode`와 `eoutvar`는 키워드 변수로 변경됩니다. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
 * RubyGems 3.0.0.beta2를 병합했습니다. `--ri`와 `--rdoc` 옵션이 제거되었습니다. 대신에 `--document`와 `--no-document`를 사용해주세요.
 
-* [Bundler](https://github.com/bundler/bundler)를 기본 젬으로 병합됩니다.
+* [Bundler](https://github.com/bundler/bundler)를 기본 젬으로 병합했습니다.
 
 자세한 내용은 [뉴스](https://github.com/ruby/ruby/blob/v2_6_0_preview3/NEWS)와
 [커밋 로그](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)를 참고하세요.
