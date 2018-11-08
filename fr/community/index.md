@@ -35,7 +35,7 @@ Quelques liens à visiter:
   contribuer à ce dernier, commencez par ici.
 
 [Blogs](weblogs/)
-: Très peu de choses se passent dans la communauté Ruby sans qu’elles ne 
+: Très peu de choses se passent dans la communauté Ruby sans qu’elles ne
   se retrouvent mentionnées dans des blogs. Nous avons une liste de 
   liens pour vous aider à vous y connecter.
 
