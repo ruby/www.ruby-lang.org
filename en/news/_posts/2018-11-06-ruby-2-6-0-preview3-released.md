@@ -26,7 +26,7 @@ Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT co
 The main purpose of this JIT release is to provide a chance to check if it works for your platform and to find out security risks before the 2.6 release.
 JIT compiler is supported when Ruby is built by GCC, Clang, or Microsoft VC++, which needs to be available on runtime. Otherwise you can't use it for now.
 
-As of Ruby 2.6.0 preview3, we achieved 1.7x faster performance than Ruby 2.5 on CPU-intensive non-trivial benchmark workload called Optcarrot https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208. We're going to improve the performance on memory-intensive workload like Rails application as well.
+As of Ruby 2.6.0 preview3, we achieved 1.7x faster performance than Ruby 2.5 on CPU-intensive non-trivial benchmark workload called Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208>. We're going to improve the performance on memory-intensive workload like Rails application as well.
 
 Stay tuned for the new age of Ruby's performance.
 
