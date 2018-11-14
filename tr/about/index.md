@@ -158,8 +158,8 @@ külfetini ortadan kaldırmıştır.
 Ruby çok çeşitli özelliklere sahiptir, aşağıda bir kaçından
 bahsedilmiştir:
 
-* Ruby; Java ya da Python gibi istisna yakalama mekanizmalarına sahiptir,
-  hatalarla baş etmek kolaylaşır.
+* Ruby, hataları işlemek için kolaylaştırmak amacıyla Java veya Python
+  gibi istisna işleme özelliklerine sahiptir.
 
 * Ruby tüm nesneleri için gerçek bir mark &amp; sweep çöp toplayıcısı
   sunar. Eklenti kütüphanelerinde referans sayaçlarına gerek yok,
