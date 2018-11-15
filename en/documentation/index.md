@@ -4,8 +4,7 @@ title: "Documentation"
 lang: en
 ---
 
-Here you will find pointers to manuals, tutorials and references that
-will come in handy when you feel like coding in Ruby.
+Guides, tutorials and reference material to help you learn more about Ruby
 {: .summary}
 
 ### Installing Ruby
