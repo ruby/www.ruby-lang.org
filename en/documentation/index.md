@@ -61,6 +61,10 @@ the [installation guide](installation/) for help on installing Ruby.
 
 ### Reference Documentation
 
+[Official API Documentation][40]
+: The official Ruby API documentation for different versions including
+  the currently unreleased (trunk) version.
+
 [Ruby Core Reference][13]
 : Pulled straight from the source code using [RDoc][14], this reference
   work documents all of the core classes and modules (like String,
@@ -167,4 +171,5 @@ If you have questions about Ruby the
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[40]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
