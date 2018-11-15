@@ -827,7 +827,7 @@ locales:
           description: |
             Get in contact with Rubyists in your area.
         weblogs:
-          text: Weblogs
+          text: Blogs
           url: /en/community/weblogs/
           description: |
             Read about what’s happening right now in the Ruby community.
