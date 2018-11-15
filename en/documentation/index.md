@@ -14,11 +14,6 @@ the [installation guide](installation/) for help on installing Ruby.
 
 ### Getting Started
 
-[Try Ruby!][1]
-: An interactive tutorial that lets you try out Ruby right in your
-  browser. This 15-minute tutorial is aimed at beginners who want to get
-  a feeling of the language.
-
 [Official FAQ](/en/documentation/faq/)
 : The official frequently asked questions.
 
@@ -31,14 +26,6 @@ the [installation guide](installation/) for help on installing Ruby.
 : An unconventional but interesting book that will teach you Ruby
   through stories, wit, and comics. Originally created by *why the lucky
   stiff*, this guide remains a classic for Ruby learners.
-
-[Ruby in Twenty Minutes](/en/documentation/quickstart/)
-: A nice tutorial covering the basics of Ruby. From start to finish it
-  shouldn’t take you more than twenty minutes.
-
-[Ruby from Other Languages](/en/documentation/ruby-from-other-languages/)
-: Coming to Ruby from another language? Whether it’s C, C++, Java, Perl,
-  PHP, or Python, this article has you covered!
 
 [Learning Ruby][6]
 : A thorough collection of Ruby study notes for those who are new to the
