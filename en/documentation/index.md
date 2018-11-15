@@ -9,18 +9,8 @@ Guides, tutorials and reference material to help you learn more about Ruby
 
 ### Installing Ruby
 
-Unless you only want to try Ruby in the browser (see the links below)
-you need to have Ruby installed on your computer.
-You can check whether Ruby already is available by opening a terminal
-and typing
-
-{% highlight sh %}
-ruby -v
-{% endhighlight %}
-
-This should output some information on the installed Ruby version.
-If not, see the [installation page](installation/) for various options
-of getting Ruby.
+Although you can easily [try Ruby in your browser][1], you can also read
+the [installation guide](installation/) for help on installing Ruby.
 
 ### Getting Started
 
