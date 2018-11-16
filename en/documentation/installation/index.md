@@ -131,7 +131,7 @@ Ruby versions 2.0 and above are included by default in macOS releases
 since at least El Capitan (10.11) all the way through Mojave (10.14).
 
 [Homebrew][homebrew] is a commonly used package manager on macOS.
-Installing a Ruby using Homebrew is easy:
+Installing Ruby using Homebrew is easy:
 
 {% highlight sh %}
 $ brew install ruby
