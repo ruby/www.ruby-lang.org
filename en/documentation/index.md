@@ -4,31 +4,15 @@ title: "Documentation"
 lang: en
 ---
 
-Here you will find pointers to manuals, tutorials and references that
-will come in handy when you feel like coding in Ruby.
+Guides, tutorials and reference material to help you learn more about Ruby
 {: .summary}
 
 ### Installing Ruby
 
-Unless you only want to try Ruby in the browser (see the links below)
-you need to have Ruby installed on your computer.
-You can check whether Ruby already is available by opening a terminal
-and typing
-
-{% highlight sh %}
-ruby -v
-{% endhighlight %}
-
-This should output some information on the installed Ruby version.
-If not, see the [installation page](installation/) for various options
-of getting Ruby.
+Although you can easily [try Ruby in your browser][1], you can also read
+the [installation guide](installation/) for help on installing Ruby.
 
 ### Getting Started
-
-[Try Ruby!][1]
-: An interactive tutorial that lets you try out Ruby right in your
-  browser. This 15-minute tutorial is aimed at beginners who want to get
-  a feeling of the language.
 
 [Official FAQ](/en/documentation/faq/)
 : The official frequently asked questions.
@@ -42,14 +26,6 @@ of getting Ruby.
 : An unconventional but interesting book that will teach you Ruby
   through stories, wit, and comics. Originally created by *why the lucky
   stiff*, this guide remains a classic for Ruby learners.
-
-[Ruby in Twenty Minutes](/en/documentation/quickstart/)
-: A nice tutorial covering the basics of Ruby. From start to finish it
-  shouldn’t take you more than twenty minutes.
-
-[Ruby from Other Languages](/en/documentation/ruby-from-other-languages/)
-: Coming to Ruby from another language? Whether it’s C, C++, Java, Perl,
-  PHP, or Python, this article has you covered!
 
 [Learning Ruby][6]
 : A thorough collection of Ruby study notes for those who are new to the
@@ -84,6 +60,10 @@ of getting Ruby.
   thorough language reference.
 
 ### Reference Documentation
+
+[Official API Documentation][40]
+: The official Ruby API documentation for different versions including
+  the currently unreleased (trunk) version.
 
 [Ruby Core Reference][13]
 : Pulled straight from the source code using [RDoc][14], this reference
@@ -191,4 +171,5 @@ If you have questions about Ruby the
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[40]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
