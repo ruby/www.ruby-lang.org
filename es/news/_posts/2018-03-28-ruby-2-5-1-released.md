@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.5.1 Released"
+title: "Ruby 2.5.1 Publicado"
 author: "naruse"
 translator: "zasman"
 date: 2018-03-28 17:20:00 +0000
