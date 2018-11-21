@@ -31,7 +31,7 @@ to start:
 : Now is a fantastic time to follow Ruby’s development.
   If you are interested in helping with Ruby, start here.
 
-[Weblogs About Ruby](weblogs/)
+[Ruby Blogs](weblogs/)
 : Very little happens in the Ruby community that is not talked about on
   the blogs. We’ve got a nice list of suggestions for you here for
   getting plugged in.
