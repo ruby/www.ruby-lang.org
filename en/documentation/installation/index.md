@@ -33,6 +33,7 @@ There are several ways to install Ruby:
 Here are available installation methods:
 
 * [Package Management Systems](#package-management-systems)
+  * [Snap](#snap)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
@@ -67,6 +68,25 @@ It's possible that major package managers will install older Ruby
 versions instead of the latest release. To use the latest Ruby release,
 check that the package name matches its version number. Or use a
 dedicated [installer][installers].
+
+### snap (Ubuntu or other linux distribution)
+{: #snap}
+
+snap is the package system developed by Canonical.
+You can use it like this.
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+You can also use multiple channels. The following commands switch to Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
+
+snap should install the latest stable Ruby version.
 
 ### apt (Debian or Ubuntu)
 {: #apt}
