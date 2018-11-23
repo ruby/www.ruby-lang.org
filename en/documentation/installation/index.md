@@ -33,9 +33,9 @@ There are several ways to install Ruby:
 Here are available installation methods:
 
 * [Package Management Systems](#package-management-systems)
-  * [Snap](#snap)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
@@ -69,25 +69,6 @@ versions instead of the latest release. To use the latest Ruby release,
 check that the package name matches its version number. Or use a
 dedicated [installer][installers].
 
-### snap (Ubuntu or other linux distribution)
-{: #snap}
-
-snap is the package system developed by Canonical.
-You can use it like this.
-
-{% highlight sh %}
-$ sudo snap install ruby --classic
-{% endhighlight %}
-
-You can also use multiple channels. The following commands switch to Ruby 2.3:
-
-{% highlight sh %}
-$ sudo snap switch ruby --channel=2.3/stable
-$ sudo snap refresh
-{% endhighlight %}
-
-snap should install the latest stable Ruby version.
-
 ### apt (Debian or Ubuntu)
 {: #apt}
 
@@ -115,6 +96,23 @@ $ sudo yum install ruby
 The installed version is typically the latest version of Ruby available
 at the release time of the specific distribution version.
 
+
+### snap (Ubuntu or other linux distribution)
+{: #snap}
+
+Snap is a package manager developed by Canonical. It's available out-of-the-box on Ubuntu, but snap also works on many Linux distributions.
+You can use it like this.
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+We have several channels per Ruby minor series. For instance, the following commands switch to Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 ### portage (Gentoo)
 {: #portage}
