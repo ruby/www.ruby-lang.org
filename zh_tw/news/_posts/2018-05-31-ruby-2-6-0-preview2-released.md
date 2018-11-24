@@ -9,7 +9,7 @@ lang: zh_tw
 
 我們很榮幸的宣布 Ruby 2.6.0-preview2 發布了。
 
-Ruby 2.6.0-preview2 是 Ruby 2.6.0 第一個預覽版。
+Ruby 2.6.0-preview2 是 Ruby 2.6.0 第二個預覽版。
 此次的 preview2 發布的平常還要早一些，因為它包含了一個重要新功能，JIT。
 
 ## JIT
