@@ -71,12 +71,6 @@ pour les nombreuses façons d'obtenir Ruby.
   vous n’avez aucunes notions de programmation, commencez par là. Une
   traduction française est [disponible en PDF][7]
 
-[Hackety Hack][8]
-: <q cite="http://www.hackety.com/">The little coder’s starter kit</q>.
-  Il s’agit d’un logiciel à vocation éducative, qui vous apprendra à
-  programmer en utilisant Ruby et le toolkit Shoes pour réaliser des
-  interfaces graphiques.
-
 [*Learning Ruby*][9]
 : Un ensemble cohérent de notes introductives sur la structure et la
   logique qui prévalent en Ruby. Tout à fait indiqué pour se
@@ -127,15 +121,12 @@ pour les nombreuses façons d'obtenir Ruby.
 : Documentation sur les API Ruby et Ruby On Rails, proposant un système
   de recherche poussé.
 
-[RubyDox][22]
-: Documentation pour Ruby, Rails, gems et plugin Rails.
-
 ### Lectures additionnelles
 
-[Ruby-Doc.org][23] maintient à jour une liste presque exhaustive de la
+[Ruby-Doc.org][22] maintient à jour une liste presque exhaustive de la
 documentation disponible en anglais. Il existe également de nombreux
-ouvrages à propos de Ruby : [une liste de livres en anglais][24]
-(relativement exhaustive) et [une liste de livres en français][25]
+ouvrages à propos de Ruby : [une liste de livres en anglais][23]
+(relativement exhaustive) et [une liste de livres en français][24]
 (incomplète). Par ailleurs, si vous avez des questions à poser sur Ruby,
 la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 à explorer.
@@ -143,12 +134,11 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 
 
 [2]: http://jeveuxapprendreruby.fr/
-[3]: http://tryruby.org/
+[3]: https://ruby.github.io/TryRuby/
 [4]: http://rubykoans.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://pine.fm/LearnToProgram/
 [7]: http://www.ruby-doc.org/docs/ApprendreProgrammer/Apprendre_%E0_Programmer.pdf
-[8]: http://www.hackety.com/
 [9]: http://rubylearning.com/
 [10]: http://www.techotopia.com/index.php/Ruby_Essentials
 [11]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
@@ -157,12 +147,11 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [14]: http://www.rubyist.net/~slagell/ruby/
 [15]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: http://www.ruby-doc.org/core
-[17]: http://docs.seattlerb.org/rdoc/
+[17]: https://ruby.github.io/rdoc/
 [18]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [20]: http://rubydoc.info/
 [21]: http://rubydocs.org/
-[22]: http://www.rubydox.net/
-[23]: http://ruby-doc.org
-[24]: http://www.ruby-doc.org/bookstore
-[25]: http://rubyfrance.org/liens/livres/
+[22]: http://ruby-doc.org
+[23]: http://www.ruby-doc.org/bookstore
+[24]: http://rubyfrance.org/liens/livres/

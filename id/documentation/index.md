@@ -35,15 +35,6 @@ mendapatkan Ruby.
   Ruby. Tujuannya adalah untuk belajar bahasa Ruby, sintaks, struktur, dan
   beberapa fungsi umum dan library. Kami juga mengajarkan budaya Ruby.
 
-[RubyMonk][3]
-: Temukan idiom Ruby, pelajari dan pecahkan masalah Ruby, semua dalam
-  browser Anda!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">Starter kit kecil untuk koder</q>.
-  Ini sebuah cara menyenangkan dan mudah untuk belajar tentang
-  pemrograman (melalui Ruby) menggunakan Shoes GUI Toolkit.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Ini sebuah buku tak konvensional tapi menarik yang akan mengajarkan Anda Ruby
   melalui cerita, humor cerdas, dan komik. Awalnya dibuat oleh *why the lucky
@@ -115,11 +106,6 @@ mendapatkan Ruby.
 [APIdock][18]
 : Dokumentasi Ruby, Rails dan RSpec dengan catatan para pengguna.
 
-[Omniref: Annotated Ruby, Rails, dan Gem Documentation][40]
-: Dokumentasi setiap versi Ruby dan setiap versi dari setiap
-  RubyGem. Sebuah referensi manual Ruby yang lengkat, dengan pencarian *code*,
-  *source annotation*, dan fitur Q&A.
-
 ### Editor dan IDE
 
 Untuk meng-*coding* Ruby, Anda dapat menggunakan *default editor* dari sistem operasi
@@ -164,10 +150,8 @@ adalah tempat yang baik untuk memulai.
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -177,7 +161,7 @@ adalah tempat yang baik untuk memulai.
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
@@ -204,5 +188,4 @@ adalah tempat yang baik untuk memulai.
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [atom]: https://atom.io/

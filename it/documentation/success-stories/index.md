@@ -58,10 +58,6 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 * [A List Apart][11], un magazine per webmaster on-line dal 1997 che è
   stato recentemente aggiornato e utilizza applicazioni scritte in Ruby
   on Rails.
-* [Blue Sequence][12], una sofisticata applicazione mission-critical che
-  deriva dal processo di produzione Toyota Motor Manufacturing’s
-  “sequence-in-time”. E’ stata recentemente selezionata come finalista
-  quest’anno al British Computer (BCS) Information Management Awards.
 
 #### Security
 
@@ -78,7 +74,7 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
-[4]: http://www.torontorehab.com
+[4]: https://www.uhn.ca/TorontoRehab
 [5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
@@ -86,6 +82,5 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com

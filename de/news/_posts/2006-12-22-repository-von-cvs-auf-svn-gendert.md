@@ -6,7 +6,7 @@ lang: de
 ---
 
 Wir haben soebend das gesamte Ruby Repository nach Subversion portiert.
-Es ist über [http://svn.ruby-lang.org/repos/ruby/][1] zu erreichen. Ihr
+Es ist über [https://svn.ruby-lang.org/repos/ruby/][1] zu erreichen. Ihr
 könnt den Quellcode nun direkt mit dem svn Befehl auschecken oder Ihn
 über [ViewVC][2] im Browser begutachten.
 
@@ -16,7 +16,7 @@ bisher ziemlich gut.
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[1]: https://svn.ruby-lang.org/repos/ruby/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [3]: http://www.sun.com
 [4]: http://www.sun.com/software/solaris/

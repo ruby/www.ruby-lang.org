@@ -34,15 +34,6 @@ ruby -v
   ресурса – изучить язык Ruby, его синтаксис, структуру и несколько
   стандартных функций и библиотек. Так же он обучит вас культуре.
 
-[RubyMonk][3]
-: Откройте для себя идиомы Ruby, пройдите урок и решите проблемы, все в
-  вашем браузере!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">Стартовый набор маленького
-  программиста</q>. Веселый и легкий путь обучения программированию (при
-  помощи Ruby), использует графическую среду разработки Shoes.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Необычная, но интересная книга, которая научит вас Ruby посредством
   историй, шуток и комиксов. Созданное программистом *why the lucky stiff*,
@@ -149,10 +140,8 @@ ruby -v
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -162,7 +151,7 @@ ruby -v
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/

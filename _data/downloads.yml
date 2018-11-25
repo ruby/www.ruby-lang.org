@@ -1,70 +1,25 @@
+# This file specifies the Ruby releases
+# that will be listed on the downloads page.
+
+# optional
 preview:
+
+  - 2.6.0-preview3
 
 stable:
 
-  - version: 2.4.0
-    url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.zip
-    sha256:
-      bz2: 440bbbdc49d08d3650f340dccb35986d9399177ad69a204def56e5d3954600cf
-      gz: 152fd0bd15a90b4a18213448f485d4b53e9f7662e1508190aa5b702446b29e3d
-      xz: 3a87fef45cba48b9322236be60c455c13fd4220184ce7287600361319bb63690
-      zip: 5c2bbfa26fd6a15a2d70961874b0f3a386206fcc5f698e240dd8b0c9f0f18c5e
+  - 2.5.3
+  - 2.4.5
 
-  - version: 2.3.3
-    url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.3.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.3.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.3.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.3.zip
-    sha256:
-      bz2: 882e6146ed26c6e78c02342835f5d46b86de95f0dc4e16543294bc656594cc5b
-      gz: 241408c8c555b258846368830a06146e4849a1d58dcaf6b14a3b6a73058115b7
-      xz: 1a4fa8c2885734ba37b97ffdb4a19b8fba0e8982606db02d936e65bac07419dc
-      zip: cbffda17fdb1bbd86dd36de093524b0a9b5c92e007fd60acac1c9804b429886e
-
-  - version: 2.2.6
-    url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.zip
-    sha256:
-      bz2: e845ba41ea3525aafaa4094212f1eadc57392732232b67b4394a7e0f046dddf7
-      gz: de8e192791cb157d610c48a9a9ff6e7f19d67ce86052feae62b82e3682cc675f
-      xz: 9414ecc0d09cf71c9a24e8dc82fcc87919ac7359fb08db2791d6c32bfd157339
-      zip: 71bafc98c0b6f7b70cd79473952060e9b9fc36c8d57ee21c6b775451a16e6f9a
-
+# optional
 security_maintenance:
 
-  - version: 2.1.10
-    url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.zip
-    sha256:
-      bz2: a74675578a9a801ac25eb7152bef3023432d6267f875b198eb9cd6944a5bf4f1
-      gz: fb2e454d7a5e5a39eb54db0ec666f53eeb6edc593d1d2b970ae4d150b831dd20
-      xz: 5be9f8d5d29d252cd7f969ab7550e31bbb001feb4a83532301c0dd3b5006e148
-      zip: 21cf83156ec782d17827fb9c8a945626dfd68cf0d9eb5ca7a78b12eb91c6f1fb
+  - 2.3.8
 
+# optional
 eol:
 
-  - version: 2.0.0-p648
-    url:
-      bz2: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.bz2
-      gz: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.zip
-    sha256:
-      bz2: 087ad4dec748cfe665c856dbfbabdee5520268e94bb81a1d8565d76c3cc62166
-      gz: 8690bd6b4949c333b3919755c4e48885dbfed6fd055fe9ef89930bde0d2376f8
-      xz: 22fe97739110ba9171b13fc4dcd1a92e767f16769de3593ee41ef1283d218402
-      zip: 6d1fb8b285c80bfc1838880626d04f128561a649161c80d1748423c731d548bd
+  - 2.2.10
 
 stable_snapshot:
 

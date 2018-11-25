@@ -26,8 +26,8 @@ eccetto per i cambiamenti seguenti:
   È possibile usare questa libreria invece di \`syck\`.
 
 Vedere i file
-[NEWS](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS) e
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog)
+[NEWS](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS) e
+[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog)
 per ulteriori dettagli.
 
 Ruby 1.9.2 passa più del 99% della [RubySpec][1].
@@ -120,7 +120,7 @@ Causa un LoadError
 
 
 
-[1]: http://www.rubyspec.org
+[1]: https://github.com/ruby/spec
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.zip

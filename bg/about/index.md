@@ -28,10 +28,6 @@ Ruby e перфектно балансиран език за програмир�
 От първата си публична поява през 1995 година, Ruby привлича отдадени
 програмисти по целия свят. През 2006, Ruby достигна масов прием.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk – основният [пощенски списък](/bg/community/mailing-lists/) за
 дискусии относно Ruby достигна 200 съобщения на ден.
 
@@ -218,6 +214,6 @@ Ruby притежава множество други черти, като ня�
 [macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
-[maglev]: http://ruby.gemstone.com
+[maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org

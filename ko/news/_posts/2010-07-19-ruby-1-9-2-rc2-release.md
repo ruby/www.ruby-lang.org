@@ -15,7 +15,7 @@ RC1 공개 후 psych 라이브러리 수정과 몇 가지 버그 수정이 이�
 
 루비 1.9.2는 아래의 몇 가지 항목을 제외하고, 1.9.1과의 호환성을 유지하고 있습니다.
 
-* 다수의 추가 메소드
+* 다수의 추가 메서드
 * 새로운 socket API(IPv6 지원)
 * 새로운 인코딩
 * 난수 생성을 위한 Random 클래스
@@ -64,8 +64,8 @@ RC1 공개 후 psych 라이브러리 수정과 몇 가지 버그 수정이 이�
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/NEWS
-[2]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/ChangeLog
+[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/NEWS
+[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/ChangeLog
 [3]: https://bugs.ruby-lang.org/projects/show/ruby-19/
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz

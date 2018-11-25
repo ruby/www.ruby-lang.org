@@ -55,8 +55,8 @@ Hello World!
 Rien de très compliqué. Appeler une méthode en Ruby, c’est simplement
 dire son nom, au minimum. Si la méthode n’attend pas de paramètres pour
 préciser ce qu’elle doit faire, le nom suffira. Et d’ailleurs, vous
-pouvez bien ajouter des paramètres à une méthode qui n’en attend pas :
-il seront simplement ignorés.
+pouvez bien ajouter des parenthèses vides à une méthode qui n’attend
+pas de paramètres : elles seront simplement ignorés.
 
 Que faire si nous souhaitons dire bonjour à une personne en particulier,
 et pas au monde entier ? Et bien, il suffit justement de demander à ce
@@ -103,7 +103,7 @@ Hello World!
 D’autres petits ajouts ont eu lieu dans ce dernier bout de code. Tout
 d’abord, nous n’appelons plus la méthode avec des parenthèses autour du
 paramètre. Elles sont en effet optionnelles, et vous pouvez vous en
-passez si ce que vous écrivez est trivial, comme c’est le cas ici.
+passer si ce que vous écrivez est trivial, comme c’est le cas ici.
 Ensuite, nous avons défini une valeur par défaut pour le paramètre
 `name`. Si la méthode est appelée sans que lui soit fourni un nom en
 particulier, alors le nom prendra la valeur `"World"`.

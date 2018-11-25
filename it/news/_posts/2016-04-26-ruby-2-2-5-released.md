@@ -2,14 +2,14 @@
 layout: news_post
 title: "Rilasciato Ruby 2.2.5"
 author: "usa"
-translator: alepore
+translator: "alepore"
 date: 2016-04-26 12:00:00 +0000
 lang: it
 ---
 
 È stato rilasciato Ruby 2.2.5.
 
-Questa release contiene molti bugfixes, si veda il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+Questa release contiene molti bugfixes, si veda il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
 per i dettagli.
 
 ## Download

@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby ENV['CUSTOM_RUBY_VERSION'] || '~> 2.4.0'
+ruby ENV['CUSTOM_RUBY_VERSION'] || '~> 2.5.1'
 
 gem 'rake'
 gem 'jekyll', '~> 3.0'
@@ -10,6 +10,10 @@ gem 'lanyon', '~> 0.4.0'
 gem 'rack-rewrite'
 gem 'rack-ssl'
 gem 'rack-protection'
+
+group :production do
+  gem "sqreen"
+end
 
 group :development do
   gem 'spidr', '~> 0.6'

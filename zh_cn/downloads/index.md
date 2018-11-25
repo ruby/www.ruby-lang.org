@@ -5,16 +5,16 @@ lang: zh_cn
 ---
 
 您可以在这里下载最新的 Ruby 发行版。目前最新的稳定版本是
-{{ site.data.downloads.stable[0].version }}。另外，请先阅读 [Ruby 版权说明][license]。
+{{ site.data.downloads.stable[0] }}。另外，请先阅读 [Ruby 版权说明][license]。
 {: .summary}
 
 ### 安装 Ruby 的方法
 
 每个流行的平台都有多种工具可用于安装 Ruby：
 
-* Linux/UNIX 平台，可以使用第三方工具（如 rbenv 或 RVM）或使用系统中的包管理系统。
-* OS X 平台，可以使用第三方工具（如 rbenv 或 RVM）。
-* Windows 平台，可以使用 RubyInstaller。
+* Linux/UNIX 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）或使用系统中的包管理系统。
+* OS X 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）。
+* Windows 平台，可以使用 [RubyInstaller][rubyinstaller]。
 
 使用包管理系统或第三方工具的详细说明，参见[安装页面][installation]。
 
@@ -26,18 +26,18 @@ lang: zh_cn
 
 从源代码编译 Ruby 的详细说明，参见[安装页面][installation]。若编译 Ruby 时遇到问题，请参考安装页面罗列的第三方工具，可能会有帮助。
 
-* **稳定版:**{% for release in site.data.downloads.stable %}
+* **稳定版:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **在做安全性维护的版本（很快 EOL！）:**{% for release in site.data.downloads.security_maintenance %}
+* **在做安全性维护的版本（很快 EOL！）:**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **不再维护的版本（EOL）:**{% for release in site.data.downloads.eol %}
+* **不再维护的版本（EOL）:**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
@@ -55,3 +55,6 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 [license]: {{ site.license.url }}
 [installation]: /zh_cn/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

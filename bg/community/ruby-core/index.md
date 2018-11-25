@@ -24,7 +24,7 @@ lang: bg
 [Subversion][1] с анонимен акаунт. От командния ред:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 Директорията `ruby` съдържа актуалният изходен код на Ruby (ruby-trunk).
@@ -36,13 +36,13 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 трябва да използвате `{{ site.svn.stable.branch }}` branch-a:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
 Подобно за {{ site.svn.previous.version }}:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
 Това ще свали желанaта версия в директорията `{{ site.svn.stable.branch }}` или
@@ -79,12 +79,12 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
     ако желаете да добавите нещо към Ruby {{ site.svn.previous.version }},
     трябва първо то да мине през trunk.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     Ако желаете да оправите проблем по специфична версия, дръпнете само нея,
     например `{{ site.svn.previous.branch }}`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  Добавете подобренията на кода.
 
@@ -133,7 +133,7 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branc
 
 [mailing-lists]: /bg/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

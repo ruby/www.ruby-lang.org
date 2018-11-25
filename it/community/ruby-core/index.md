@@ -25,7 +25,7 @@ Per fare checkout del più recente codice Ruby, devi semplicemente fare
 il login usando l’account anonimo di [Subversion][1]. Dalla linea di comando:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 La directory `ruby` contiene ora il codice sorgente più recente per la
@@ -37,14 +37,14 @@ Se sei interessato a seguire il patching di Ruby 2.0.0, devi fare checkout
 del branch `ruby_2_0_0`\:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
 {% endhighlight %}
 
 Se sei interessato a seguire il patching di Ruby 1.9.3, devi fare checkout
 del branch `ruby_1_9_3`\:
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 {% endhighlight %}
 
 Questo comando effettua il checkout del development tree su una
@@ -87,13 +87,13 @@ In sintesi, i passi per costruire un patch sono:
     Persino se vuoi aggiungere una feature a Ruby 1.9.3, deve essere
     provata prima nel trunk.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     Se stai correngendo un bug che è specifico di un solo branch
     di manuntenzione, fai il check out di una copia del rispettivo
     branch, ad esempio `ruby_1_9.3`.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
 
 2.  Aggiungi le tue modifiche al codice.
 
@@ -157,7 +157,7 @@ Guarda anche le informazioni su [Ruby’s issue tracker][10].
 
 [mailing-lists]: /it/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

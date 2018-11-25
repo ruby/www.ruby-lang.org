@@ -62,7 +62,7 @@ $ gem install rails
 `--version` / `-v` フラグを使うと、ライブラリの特定のバージョンを指定してインストールすることも出来ます。
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### 全ての gem を一覧にする

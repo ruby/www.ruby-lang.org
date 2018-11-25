@@ -46,15 +46,12 @@ lang: zh_tw
 * [A List Apart][11], 從 1997 年就開始發行的一個針對網站製作者的雜誌，最近改版使用 Ruby on Rails
   所客製化而成的程式。
 
-* [Blue Sequence][12] ，Toyota 汽車 “sequence-in-time” 生產流程中的一個先進的關鍵性任務應用
-  (mission-critical application)，最近被選入 BCS 資訊管理獎的決選名單。
-
 
 
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
-[4]: http://www.torontorehab.com
+[4]: https://www.uhn.ca/TorontoRehab
 [5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
@@ -62,4 +59,3 @@ lang: zh_tw
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/

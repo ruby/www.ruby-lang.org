@@ -19,7 +19,7 @@ mais pour Ruby spécifiquement.
 Depuis Ruby 1.9, RubyGems est intégré dans Ruby. Pour les versions
 précédentes, il faudra l'installer séparement.
 
-Lorsqu'un gem n'est pas disponible, il est toujours possible d'installer
+Lorsqu'une gem n'est pas disponible, il est toujours possible d'installer
 une librairie à partir de son code source, ce dernier étant généralement
 mis à disposition sous la forme d'une archive (.zip ou .tar.gz). Chaque
 projet pouvant avoir ses spécificités, on consultera sa documentation (en
@@ -89,7 +89,7 @@ Vous pouvez par ailleurs demander l’installation d’une version précise,
 avec l’option `--version` :
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Lister toutes les gems

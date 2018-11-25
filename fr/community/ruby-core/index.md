@@ -25,7 +25,7 @@ un *check out* en se connectant au compte anonyme du dépôt Subversion.
 Dans un terminal :
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 Le répertoire `ruby` contient maintenant le code source de Ruby 1.9.x
@@ -39,13 +39,13 @@ Si vous êtes plutôt intéressé par le suivi des patchs appliqués à Ruby
 faut récupérer la branche stable par :
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
 {% endhighlight %}
 
 Si vous êtes intéressés par la branche 1.8.6 ou 1.8.7 :
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_*
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_*
 {% endhighlight %}
 
 où `*` est `6` ou `7`.
@@ -82,7 +82,7 @@ Pour résumer, les grandes étapes pour proposer un patch sont :
 1.  Récupérer une copie de travail de Ruby 1.8 depuis Subversion, sur la
     branche `ruby_1_8` branch.
 
-         $ svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+         $ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
 
 2.  Ajouter vos améliorations dans le code (dans le répertoire/dossier
     `ruby_1_8` en local).
@@ -135,7 +135,7 @@ Les développeurs de Ruby devraient évidemment être à l’aise avec le code s
 
 
 [mailing-lists]: /fr/community/mailing-lists/
-[1]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [2]: http://subversion.apache.org/faq.html
 [3]: http://svnbook.org
 [4]: http://www.pragmaticprogrammer.com/titles/svn/

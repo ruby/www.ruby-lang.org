@@ -17,6 +17,8 @@ exclude:
   - Rakefile
   - README.md
   - unicorn.rb
+  - lib
+  - test
   - vendor
 
 url: https://www.ruby-lang.org
@@ -26,14 +28,14 @@ license:
 
 svn:
   stable:
+    version: 2.5
+    branch:  ruby_2_5
+  previous:
+    version: 2.4
+    branch:  ruby_2_4
+  old:
     version: 2.3
     branch:  ruby_2_3
-  previous:
-    version: 2.2
-    branch:  ruby_2_2
-  old:
-    version: 2.1
-    branch:  ruby_2_1
 
 locales:
   sitelinks:
@@ -666,9 +668,9 @@ locales:
 
   sidebar:
     try_ruby: &try_ruby
-      url: http://tryruby.org/
+      url: https://ruby.github.io/TryRuby/
     rubybib: &rubybib
-      url: http://rubybib.org/
+      url: https://rubybib.org/
 
     bg:
       get_started:
@@ -825,7 +827,7 @@ locales:
           description: |
             Get in contact with Rubyists in your area.
         weblogs:
-          text: Weblogs
+          text: Blogs
           url: /en/community/weblogs/
           description: |
             Read about what’s happening right now in the Ruby community.

@@ -4,58 +4,28 @@ title: "Documentation"
 lang: en
 ---
 
-Here you will find pointers to manuals, tutorials and references that
-will come in handy when you feel like coding in Ruby.
+Guides, tutorials and reference material to help you learn more about Ruby
 {: .summary}
 
 ### Installing Ruby
 
-Unless you only want to try Ruby in the browser (see the links below)
-you need to have Ruby installed on your computer.
-You can check whether Ruby already is available by opening a terminal
-and typing
-
-{% highlight sh %}
-ruby -v
-{% endhighlight %}
-
-This should output some information on the installed Ruby version.
-If not, see the [installation page](installation/) for various options
-of getting Ruby.
+Although you can easily [try Ruby in your browser][1], you can also read
+the [installation guide](installation/) for help on installing Ruby.
 
 ### Getting Started
 
-[Try Ruby!][1]
-: An interactive tutorial that lets you try out Ruby right in your
-  browser. This 15-minute tutorial is aimed at beginners who want to get
-  a feeling of the language.
+[Official FAQ](/en/documentation/faq/)
+: The official frequently asked questions.
 
 [Ruby Koans][2]
 : The Koans walk you along the path to enlightenment in order to learn
   Ruby. The goal is to learn the Ruby language, syntax, structure, and
   some common functions and libraries. We also teach you culture.
 
-[RubyMonk][3]
-: Discover Ruby idioms, learn lessons and solve problems, all in your
-  browser!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">The little coder’s starter kit</q>.
-  A fun and easy way to learn about programming (through Ruby) using the
-  Shoes GUI Toolkit.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : An unconventional but interesting book that will teach you Ruby
   through stories, wit, and comics. Originally created by *why the lucky
   stiff*, this guide remains a classic for Ruby learners.
-
-[Ruby in Twenty Minutes](/en/documentation/quickstart/)
-: A nice tutorial covering the basics of Ruby. From start to finish it
-  shouldn’t take you more than twenty minutes.
-
-[Ruby from Other Languages](/en/documentation/ruby-from-other-languages/)
-: Coming to Ruby from another language? Whether it’s C, C++, Java, Perl,
-  PHP, or Python, this article has you covered!
 
 [Learning Ruby][6]
 : A thorough collection of Ruby study notes for those who are new to the
@@ -91,6 +61,10 @@ of getting Ruby.
 
 ### Reference Documentation
 
+[Official API Documentation][40]
+: The official Ruby API documentation for different versions including
+  the currently unreleased (trunk) version.
+
 [Ruby Core Reference][13]
 : Pulled straight from the source code using [RDoc][14], this reference
   work documents all of the core classes and modules (like String,
@@ -114,11 +88,6 @@ of getting Ruby.
 
 [APIdock][18]
 : Ruby, Rails and RSpec documentation with users’ notes.
-
-[Omniref: Annotated Ruby, Rails, and Gem Documentation][40]
-: Documentation for every version of Ruby, and every version of every
-  RubyGem. A comprehensive reference manual for Ruby, with code search,
-  source annotations, and Q&A features.
 
 ### Editors and IDEs
 
@@ -164,10 +133,8 @@ If you have questions about Ruby the
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -177,7 +144,7 @@ If you have questions about Ruby the
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
@@ -204,5 +171,5 @@ If you have questions about Ruby the
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
+[40]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/

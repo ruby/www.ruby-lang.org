@@ -35,15 +35,6 @@ diversas maneiras de obter o Ruby.
   O objetivo é aprender a linguagem, sintaxe, estrutura algumas funções e
   bibliotecas comuns do Ruby. Também ensinamos cultura.
 
-[RubyMonk][3]
-: Descubra idiomas Ruby, aprenda lições e resolva problemas, tudo
-  no seu browser!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">O kit de iniciante do programadorzinho</q>.
-  Um jeito fácil e divertido de aprender sobre programação (com Ruby)
-  usando o Shoes GUI Toolkit.
-
 [O Guia (Comovente) de Ruby do Why][5]
 : UM livro inconveniente, porém interessante, que te ensinará Ruby através
   de histórias, humor e quadrinhos. Originalmente criado por *why the lucky
@@ -110,11 +101,6 @@ diversas maneiras de obter o Ruby.
 [APIdock][18]
 : Documentação do Ruby, Rails e RSpec com notas de usuários.
 
-[Omniref: Annotated Ruby, Rails, and Gem Documentation][40]
-: Documentação de todas as versões do Ruby e todas as versões de cada gem do
-  RubyGem. Um manual de referência completo para Ruby com pesquisa de código,
-  anotações, além de seção de Perguntas & Respostas.
-
 ### Editores e IDEs
 
 Para programar em Ruby, você pode usar o editor padrão do seu sistema
@@ -160,10 +146,8 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://why.carlosbrando.com/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -173,7 +157,7 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
@@ -199,5 +183,4 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [atom]: https://atom.io/

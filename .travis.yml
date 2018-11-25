@@ -1,8 +1,9 @@
 language: ruby
 sudo: false
-rvm: 2.4.0
+rvm: 2.5.1
 cache:
   bundler: true
+script: bundle exec rake ci
 # Notifications, used by our Gitter channel.
 notifications:
   webhooks:

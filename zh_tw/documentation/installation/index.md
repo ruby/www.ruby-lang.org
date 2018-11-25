@@ -58,7 +58,7 @@ Debian GNU/Linux 和 Ubuntu 的使用者可以使用 apt。
 $ sudo apt-get install ruby
 {% endhighlight %}
 
-撰文當下 `ruby` 套件在 Debian 與 Ubuntu 平台上所提供的版本是老舊的穩定版 Ruby 1.9.3。
+撰文當下 `ruby` 套件在 Debian 與 Ubuntu 平台上所提供的版本是老舊的穩定版 Ruby 2.3.1。
 
 
 ### yum（CentOS、Fedora 或 RHEL）
@@ -132,6 +132,7 @@ $ pkg install runtime/ruby-18
 
 
 ### 其它發行版
+{: #other-systems}
 
 其它作業系統可以在發行版的套件庫上搜尋 Ruby，或是使用第三方工具可能會比較好。
 
@@ -200,7 +201,7 @@ Windows 使用者，可以使用這個很棒的專案來幫助您安裝 Ruby：
 [RVM][rvm] 可以在系統上安裝多個版本的 Ruby。也可以管理不同的 Gem 包（gemset）。兼容 OS X、Linux 和其它類 Unix 的作業系統。
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] 是一個輕量、支援多平台的命令列工具，幫助您在 OS X、Linux 以及 Windows 上安裝多版本的 Ruby。

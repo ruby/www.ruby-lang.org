@@ -5,7 +5,7 @@ lang: ja
 ---
 
 ここでは、Rubyインタプリタの代表的な入手方法を説明します。
-現在の安定版は {{ site.data.downloads.stable[0].version }}です。
+現在の安定版は {{ site.data.downloads.stable[0] }}です。
 [Ruby’sライセンス][license]を必ずお読み下さい。
 {: .summary}
 
@@ -13,9 +13,9 @@ lang: ja
 
 メジャーなプラットフォームでは Ruby をインストールする方法はいくつかあります。
 
-* Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、rbenv、RVMなどのサードパーティツールが使えます。
-* OS Xマシンでは、rbenv、RVMなどのサードパーティのパッケージ管理ツールが使えます。
-* Windowsマシンでは、RubyInstallerといったツールが使えます。
+* Linux/UNIX マシンでは、そのシステムのパッケージ管理ツールや、[rbenv][rbenv]、[RVM][rvm]などのサードパーティツールが使えます。
+* OS Xマシンでは、[rbenv][rbenv]、[RVM][rvm]などのサードパーティのパッケージ管理ツールが使えます。
+* Windowsマシンでは、[RubyInstaller][rubyinstaller]といったツールが使えます。
 
 各パッケージマネージャ及びサードパーティーツールの詳細は、[インストールガイド][installation] ページを参照して下さい。
 
@@ -28,18 +28,24 @@ lang: ja
 
 もしコンパイルで問題がある場合、[インストールガイド][installation] ページで解説しているサードパーティーツールの利用が助けになるかもしれません。
 
-* **安定版:**{% for release in site.data.downloads.stable %}
+* **安定版:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
+{% if site.data.downloads.preview %}
+* **プレビュー版:**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
 {% if site.data.downloads.security_maintenance %}
-* **セキュリティ修正のみの安定版 (まもなく EOL):**{% for release in site.data.downloads.security_maintenance %}
+* **セキュリティ修正のみの安定版 (まもなく EOL):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **メンテナンス終了 (EOL):**{% for release in site.data.downloads.eol %}
+* **メンテナンス終了 (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
@@ -75,3 +81,5 @@ Windows向けのバイナリが有志により配布されています。
 [active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv

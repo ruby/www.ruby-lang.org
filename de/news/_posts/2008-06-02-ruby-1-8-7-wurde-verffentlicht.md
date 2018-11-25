@@ -40,8 +40,8 @@ Checksumme:
 Für eine detailierte Auflistung aller Änderungen gibt es die folgenden
 Dokumente:
 
-* http://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
-* http://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog
+* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
+* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog
 
 
 

@@ -35,14 +35,14 @@ Quelques liens à visiter:
   contribuer à ce dernier, commencez par ici.
 
 [Blogs](weblogs/)
-: Très peu de choses se passent dans la communauté Ruby sans qu’elles se
-  retrouvent mentionnées dans des blogs. Nous avons une liste de liens
-  pour vous aidez à vous y connecter.
+: Très peu de choses se passent dans la communauté Ruby sans qu’elles ne
+  se retrouvent mentionnées dans des blogs. Nous avons une liste de
+  liens pour vous aider à vous y connecter.
 
 [Conférences](conferences/)
 : Les programmeurs Ruby à travers le monde s’impliquent de plus en plus
   dans des conférences, dans lesquelles ils partagent ensemble les
-  progrès sur leurs travaux, et bien sur accueillent les nouveaux
+  progrès sur leurs travaux, et bien sûr accueillent les nouveaux
   arrivants dans la communauté.
 
 Informations générales

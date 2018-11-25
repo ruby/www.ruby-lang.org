@@ -32,10 +32,6 @@ programadores devotos em todo o mundo. Em 2006, o Ruby atingiu aceitação
 massiva, com a formação de grupos de usuários em todas as principais
 cidades do mundo e com as conferências sobre Ruby com lotação esgotada.
 
-![Gráfico cortesia de
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 A Ruby-Talk, a principal [lista de e-mails](/pt/community/mailing-lists/)
 para a discussão sobre a
 linguagem Ruby atingiu uma média de 200 mensagens diárias em 2006.
@@ -253,6 +249,6 @@ Nov. 2001.
 [macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
-[maglev]: http://ruby.gemstone.com
+[maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org

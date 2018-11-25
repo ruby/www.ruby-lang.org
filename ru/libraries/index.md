@@ -87,7 +87,7 @@ $ gem install rails
 используйте флаг `--version` / `-v`:
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Список всех гемов

@@ -30,10 +30,6 @@ worldwide. In 2006, Ruby achieved mass acceptance. With active user
 groups formed in the world’s major cities and Ruby-related conferences
 filled to capacity.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk, the primary [mailing list](/en/community/mailing-lists/) for
 discussion of the Ruby language, climbed to an average of 200 messages
 per day in 2006. It has dropped in recent years as the size of the
@@ -197,18 +193,22 @@ Here’s a list:
 * [Rubinius][rubinius] is ‘Ruby written in Ruby’. Built on top of LLVM,
   Rubinius sports a nifty virtual machine that other languages are being
   built on top of, too.
-* [MacRuby][macruby] is a Ruby that’s tightly integrated with Apple’s Cocoa
-  libraries for Mac OS X, allowing you to write desktop applications
-  with ease.
+* [TruffleRuby][truffleruby] is a high performance Ruby implementation on top of
+  GraalVM.
 * [mruby][mruby] is a lightweight implementation of the Ruby language
   that can be linked and embedded within an application.
   Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.
+* [MacRuby][macruby] is a Ruby that’s tightly integrated with Apple’s Cocoa
+  libraries for Mac OS X, allowing you to write desktop applications
+  with ease.
 * [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
   Framework”.
 * [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
   object persistence and distributed shared cache”.
 * [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
   (Perl 6).
+
+For a more complete list, see [Awesome Rubies][awesome-rubies].
 
 ### References
 
@@ -234,9 +234,11 @@ Here’s a list:
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
+[truffleruby]: https://github.com/oracle/truffleruby
 [macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
-[maglev]: http://ruby.gemstone.com
+[maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
+[awesome-rubies]: https://github.com/planetruby/awesome-rubies

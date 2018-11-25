@@ -33,10 +33,6 @@ Ruby – это тщательно сбалансированный язык. Е
 пользователей Ruby, а конференции, посвященные Ruby, заполнены до
 предела.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk, основная [рассылка](/ru/community/mailing-lists/) для
 обсуждения языка Ruby, содержала в среднем 200 сообщений ежедневно в 2006
 году. В последние годы это количество уменьшилось, так как сообщество
@@ -249,6 +245,6 @@ Ruby как язык имеет несколько разных имплемен
 [macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
-[maglev]: http://ruby.gemstone.com
+[maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org

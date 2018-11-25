@@ -6,7 +6,7 @@ lang: en
 ---
 
 We have moved the source code repository to
-[http://svn.ruby-lang.org/repos/ruby/][1]. You can checkout it using the
+[https://svn.ruby-lang.org/repos/ruby/][1]. You can checkout it using the
 svn command, or you can also browse it by [ViewVC][2].
 
 The new machine for svn.ruby-lang.org is provided by [Sun
@@ -15,7 +15,7 @@ it works pretty well.
 
 
 
-[1]: http://svn.ruby-lang.org/repos/ruby/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[1]: https://svn.ruby-lang.org/repos/ruby/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [3]: http://www.sun.com
 [4]: http://www.sun.com/software/solaris/

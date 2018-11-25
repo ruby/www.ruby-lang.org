@@ -22,13 +22,13 @@ you’ll find a small sample of real world usage of Ruby.
 
 #### Business
 
-* [Toronto Rehab][4] uses a RubyWebDialogs based app to manage and track
+* [Toronto Rehab][4] uses a RubyWebDialogs-based app to manage and track
   on-call and on-site support for the IT help desk and IT operations
   teams.
 
 #### Robotics
 
-* At [MORPHA][5] project, Ruby was used to implemented the reactive
+* At [MORPHA][5] project, Ruby was used to implement the reactive
   control part for the Siemens service robot.
 
 #### Networking
@@ -58,11 +58,6 @@ you’ll find a small sample of real world usage of Ruby.
   been around since 1997, has recently been revamped and uses a custom
   application built with Ruby on Rails.
 
-* [Blue Sequence][12], a sophisticated mission-critical application
-  which forms part of Toyota Motor Manufacturing’s own
-  “sequence-in-time” production process, has recently been selected as
-  finalist the British Computer (BCS) Information Management Awards.
-
 #### Security
 
 * The [Metasploit Framework][metasploit], a community open source project
@@ -81,7 +76,7 @@ you’ll find a small sample of real world usage of Ruby.
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
-[4]: http://www.torontorehab.com
+[4]: https://www.uhn.ca/TorontoRehab
 [5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
@@ -89,7 +84,6 @@ you’ll find a small sample of real world usage of Ruby.
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com
 [arachni]: http://www.arachni-scanner.com/

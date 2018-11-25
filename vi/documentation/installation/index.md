@@ -74,7 +74,7 @@ Bạn có thể sử dụng như sau:
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-`ruby-full` ở lệnh trên cung cấp Ruby 1.9.3, một bản phân phối ổn định cũ,
+`ruby-full` ở lệnh trên cung cấp Ruby 2.3.1, một bản phân phối ổn định cũ,
 trên Debian và Ubuntu.
 
 
@@ -259,7 +259,7 @@ Nó cũng có thể quản lý các gemset khác nhau.
 Có sẵn trên OS X, Linux, và các hệ điều hành giống UNIX khác.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] là một công cụ dòng lệnh đa nền tảng, gọn nhẹ giúp bạn

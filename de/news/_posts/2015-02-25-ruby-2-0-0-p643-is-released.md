@@ -15,7 +15,7 @@ Ruby 2.0.0, welches nunmehr in die Phase der Sicherheitsunterstützung
 übergeht. Es werden daher keine neuen Versionen von Ruby 2.0.0 mehr
 veröffentlicht, sofern nicht kritische Regressions oder
 Sicherheitslücken gefunden werden.
-Die Dauer dieser letzten Pase ist auf 1 Jahr angesetzt.
+Die Dauer dieser letzten Phase ist auf 1 Jahr angesetzt.
 Danach wird die Unterstützung von Ruby 2.0.0 am 25. Februar 2016
 enden.
 Wir empfehlen daher, mit den Planungen für eine Migration auf neuere
@@ -24,7 +24,7 @@ Ruby-Versionen wie 2.1 oder 2.2 zu beginnen.
 Diese Veröffentlichung enthält viele Fehlerkorrekturen. Siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 und das
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
 für weitere Informationen.
 
 ## Download

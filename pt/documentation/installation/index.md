@@ -76,7 +76,7 @@ $ sudo apt-get install ruby-full
 {% endhighlight %}
 
 No momento em que foi escrita esta página, o pacote `ruby-full` fornecia
-a versão 1.9.3 do Ruby, que é uma versão estável antiga, tanto no
+a versão 2.3.1 do Ruby, que é uma versão estável antiga, tanto no
 Debian quanto no Ubuntu.
 
 
@@ -253,7 +253,7 @@ gerenciar diferentes gemsets. Também está disponível para
 OS X, Linux ou outros sistemas operacionais do tipo UNIX.
 
 
-## uru
+### uru
 {: #uru}
 
 O [Uru][uru] é uma ferramenta de linha de comando leve e multi-plataforma, que

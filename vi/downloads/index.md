@@ -6,7 +6,7 @@ lang: vi
 
 Bạn có thể lấy về bản phân phối Ruby mới nhất cho hầu hết các nền tảng
 tại đây.
-Bản ổn định mới nhất là {{ site.data.downloads.stable[0].version }}.
+Bản ổn định mới nhất là {{ site.data.downloads.stable[0] }}.
 Xin tham khảo [giấy phép][license] trước khi dùng.
 {: .summary}
 
@@ -15,9 +15,9 @@ Xin tham khảo [giấy phép][license] trước khi dùng.
 Chúng ta có một vài công cụ trên các nền tảng chính để cài đặt Ruby:
 
 * Trên Linux/UNIX bạn có thể dùng hệ thống quản lý gói của bản
-  phân phối hoặc các công cụ của bên thứ ba (rbenv và RVM).
-* Trên OSX bạn có thể dùng các công cụ của bên thứ ba (rbenv và RVM)
-* Trên Windows bạn có thể dùng RubyInstaller.
+  phân phối hoặc các công cụ của bên thứ ba ([rbenv][rbenv] và [RVM][rvm]).
+* Trên OSX bạn có thể dùng các công cụ của bên thứ ba ([rbenv][rbenv] và [RVM][rvm])
+* Trên Windows bạn có thể dùng [RubyInstaller][rubyinstaller].
 
 Xem trang [Cài đặt][installation] để biết thêm chi tiết về
 hệ thống quản lý gói hoặc các công cụ của bên thứ ba.
@@ -35,18 +35,18 @@ Xem trang [Cài đặt][installation] để biết thêm chi tiết cách biên 
 Ruby từ nguồn. Nếu bạn gặp vấn đề biên dịch Ruby, xin hãy xem xét sử
 dụng một trong những công cụ của bên thứ ba đã được đề cập ở trên.
 
-* **Bản ổn định:**{% for release in site.data.downloads.stable %}
+* **Bản ổn định:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.security_maintenance %}
-* **Trong giai đoạn duy trì bảo mật (sẽ sớm EOL!):**{% for release in site.data.downloads.security_maintenance %}
+* **Trong giai đoạn duy trì bảo mật (sẽ sớm EOL!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Không còn duy trì nữa (EOL):**{% for release in site.data.downloads.eol %}
+* **Không còn duy trì nữa (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
@@ -70,3 +70,6 @@ Xin hãy sử dụng mirror gần bạn nhất.
 [license]: {{ site.license.url }}
 [installation]: /vi/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

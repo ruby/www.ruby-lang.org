@@ -7,14 +7,14 @@ date: 2015-04-13 12:00:00 +0000
 lang: zh_tw
 ---
 
-很高興宣布 Ruby 2.2.2 發佈了。這是 2.2 穩定版系列的一次 TENNY 版本發佈。
+很高興宣布 Ruby 2.2.2 發佈了。這是 2.2 穩定版系列的一次 TEENY 版本發佈。
 
 本次發佈包含了 OpenSSL 擴展的主機名稱驗證的安全風險修正。
 
 * [CVE-2015-1855: Ruby OpenSSL 主機名稱驗證風險](https://www.ruby-lang.org/zh_tw/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 同時帶有許多錯誤修正。
-參見 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+參見 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
 來了解更多細節。
 
 ## 下載

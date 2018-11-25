@@ -56,12 +56,6 @@ Rubiego w rzeczywistości.
   istniejący juz od 1997, ostatnio został odświeżony i oparty o
   aplikację napisaną w Ruby on Rails.
 
-* [Blue Sequence][12], wyrafinowana aplikacja do misji krytycznych,
-  która stanowi część procesu produkcyjnego silników Toyoty (Toyota
-  Motor Manufacturing), została niedawno uznana za finalistę w kategorii
-  najlepszych brytyjskich informacyjnych systemów zarządzania (British
-  Computer (BCS) Information Management Awards).
-
 * [Wyszukiwarka mieszkaniowa Hogo.pl][13] – wyszukiwarka kontekstowa
   ogłoszeń mieszkaniowych. Umożliwia przeszukiwanie wszystkich większych
   serwisów z ogłoszeniami nieruchomości z poziomu jednego serwisu.
@@ -88,7 +82,7 @@ Rubiego w rzeczywistości.
 [1]: http://www.larc.nasa.gov/
 [2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
 [3]: http://www.motorola.com
-[4]: http://www.torontorehab.com
+[4]: https://www.uhn.ca/TorontoRehab
 [5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
@@ -96,6 +90,5 @@ Rubiego w rzeczywistości.
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
-[13]: http://www.hogo.pl
-[14]: http://www.infakt.pl
+[12]: http://www.hogo.pl
+[13]: http://www.infakt.pl

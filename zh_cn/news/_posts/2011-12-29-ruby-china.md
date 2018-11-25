@@ -26,5 +26,5 @@ GitHub 项目地址：
 
 
 
-[1]: http://www.ruby-china.org
-[2]: http://github.com/huacnlee/ruby-china
+[1]: https://ruby-china.org
+[2]: https://github.com/ruby-china/homeland

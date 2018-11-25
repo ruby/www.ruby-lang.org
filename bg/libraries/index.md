@@ -77,7 +77,7 @@ $ gem install rails
 За инсталирането на специфична версия се използва флагът `--version` / `-v`:
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### Показване на списък с всички gem-oве

@@ -46,7 +46,7 @@ use Rack::Rewrite do
   r302 %r{^/ja/install\.cgi(\?.+)?$}, "/ja/downloads"
   r302 %r{^/ja/20030611\.html$},      "/ja/downloads"
 
-  r302 %r{^/cgi-bin/cvsweb\.cgi(/.*)?$}, "http://svn.ruby-lang.org/"
+  r302 %r{^/cgi-bin/cvsweb\.cgi(/.*)?$}, "https://svn.ruby-lang.org/"
 
   r302 %r{^/ja/(man|old-man)/.*$}, "https://docs.ruby-lang.org/ja/"
 
@@ -91,9 +91,8 @@ end
 
 if ENV["RACK_ENV"] == "production"
   use Rack::SSL
+  use Rack::Protection::HttpOrigin
+  use Rack::Protection::FrameOptions
 end
-
-use Rack::Protection::HttpOrigin
-use Rack::Protection::FrameOptions
 
 run Lanyon.application(:skip_build => true)

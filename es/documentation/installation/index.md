@@ -73,7 +73,7 @@ $ sudo apt-get install ruby-full
 {% endhighlight %}
 
 Al momento de escribir este documento, el paquete `ruby-full` instala la versión
-de Ruby 1.9.3, la cual es una entrega vieja pero estable en Debian y Ubuntu.
+de Ruby 2.3.1, la cual es una entrega vieja pero estable en Debian y Ubuntu.
 
 
 ### yum (CentOS, Fedora, or RHEL)
@@ -122,7 +122,7 @@ Esto debería instalar la última versión estable de Ruby.
 ### Homebrew (OS X)
 {: #homebrew}
 
-Ruby 2.0.0 ya viene instalado en OS X Yosemite y Mavericks.
+Ruby 2.0 ya viene instalado en OS X El Capitan, Yosemite, Mavericks y macOS Sierra.
 OS X Mountain Lion, Lion, y Snow Leopard vienen con Ruby 1.8.7 instalado.
 
 Algunas personas en OS X usan [Homebrew][homebrew] como gestor de paquetes.
@@ -253,7 +253,7 @@ También puede manejar varios gemsets. Está disponible para OS X, Linux y otros
 sistemas operativos UNIX.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] es una herramienta de la línea de comandos multi-plataforma muy ligera

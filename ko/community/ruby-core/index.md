@@ -23,7 +23,7 @@ lang: ko
 커맨드 라인에서 다음을 입력하세요.
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 {% endhighlight %}
 
 이제 `ruby` 디렉터리에는 루비의 최신 개발 버전(ruby-trunk)이 들어 있을 것입니다.
@@ -35,13 +35,13 @@ $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
 `{{ site.svn.stable.branch }}` 브랜치를 사용하십시오.
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
 {% endhighlight %}
 
 비슷하게 루비 {{ site.svn.previous.version }}에서는..
 
 {% highlight sh %}
-$ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 {% endhighlight %}
 
 이 명령은 `{{ site.svn.stable.branch }}`나 `{{ site.svn.previous.branch }}` 디렉터리에
@@ -74,12 +74,12 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
     등록되어 있습니다. {{ site.svn.previous.branch }}에 추가하고 싶다고 하더라도
     트렁크에서 먼저 입증되어야 합니다.
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
     한 관리 브랜치에서만 일어나는 버그를 수정하려고 한다면, 해당 브랜치를
     체크아웃합니다. 예를 들어 `{{ site.svn.previous.branch }}`의 경우
 
-        $ svn co http://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
 
 2.  개선된 코드를 추가합니다.
 
@@ -131,7 +131,7 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 
 [mailing-lists]: /ko/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: http://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

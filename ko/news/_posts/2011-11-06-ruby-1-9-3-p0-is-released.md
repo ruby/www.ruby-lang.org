@@ -46,16 +46,16 @@ lang: ko
 
 ### Core클래스
 
-* ARGF: ARGF.print와 ARGF.read\_nonblock 등 새로운 메소드가 추가되었습니다.
+* ARGF: ARGF.print와 ARGF.read\_nonblock 등 새로운 메서드가 추가되었습니다.
 * Array#pack, String#unpack: 엔디안을 명시적으로 지정할 수 있게 되었습니다.
 * Bignum: 내부표현으로 자릿수가 150 이상인 정수의 곱셈을 Toom-3 알고리즘으로 처리하도록 변경되었습니다. 이에 따라
   성능 향상이 이루어졌습니다.
 * 정수 File::NULL과 File::DIRECT가 추가되었습니다.
 * IO#putc: 멀티바이트 문자를 지원합니다.
 * IO: IO#advise, IO.write, IO.binwrite가 추가되었습니다.
-* \#\_\_id\_\_가 BasicObject의 메소드로 변경되었습니다.
+* \#\_\_id\_\_가 BasicObject의 메서드로 변경되었습니다.
 * Kernel#rand의 인수로 Range 객체를 지정할 수 있습니다.
-* Module#private\_constant, Module#public\_constant 메소드가 추가되었습니다.
+* Module#private\_constant, Module#public\_constant 메서드가 추가되었습니다.
 * String#prepend, String#byteslice가 추가되었습니다.
 * Time#strftime: %:z와 %::z.를 지원합니다.
 * Process#maxgroups와 Process#maxgroups: 보조 그룹을 지원하지 않는 환경에서
@@ -85,5 +85,5 @@ lang: ko
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip
 [4]: http://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29
 [5]: {{ site.url }}{{ site.license.url }}
-[6]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/NEWS
-[7]: http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/ChangeLog
+[6]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/NEWS
+[7]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_0/ChangeLog

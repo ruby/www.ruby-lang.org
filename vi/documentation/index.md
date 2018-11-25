@@ -34,15 +34,6 @@ việc cài đặt Ruby.
   bạn kiến thức về ngôn ngữ, cú pháp, cấu trúc và một số hàm và thư viện phổ
   dụng của Ruby.
 
-[RubyMonk][3]
-: Khám phá các thành ngữ của Ruby, học các bài học và giải quyết những bài tập,
-  tất cả trên trình duyệt của bạn!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">Nhập môn Ruby cho người không có kinh
-  nghiệm lập trình</q>.  Một cách thích thú và dễ dàng để học về lập trình
-  (thông qua Ruby) sử dụng bộ công cụ Shoes GUI.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Một cuốn sách thú vị và độc đáo, dạy bạn Ruby qua các mẩu truyện tranh vui
   nhộn. Ban đầu được tạo ra bởi *why the lucky stiff*. Sách này được xem là
@@ -111,11 +102,6 @@ việc cài đặt Ruby.
 [APIdock][18]
 : Tài liệu Ruby, Rails và RSpec với các ghi chú của người sử dụng.
 
-[Omniref: Chú thích Ruby, Rails và tài liệu về Gem][40]
-: Tài liệu cho mọi phiên bản của Ruby, và mọi phiên bản của mỗi Rubygem.
-  Một hướng dẫn tham khảo toàn diện cho Ruby, với các tính năng tìm kiếm
-  code, nguồn chú thích và hỏi đáp.
-
 ### Phần mềm chỉnh sửa và các môi trường phát triển tích hợp
 
 Để lập trình trong Ruby bạn có thể sử dụng chương trình chỉnh sửa mặc định của
@@ -159,10 +145,8 @@ là một nơi tuyệt vời.
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -172,7 +156,7 @@ là một nơi tuyệt vời.
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
@@ -199,5 +183,4 @@ là một nơi tuyệt vời.
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [atom]: https://atom.io/

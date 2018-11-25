@@ -59,18 +59,13 @@ témoignages du « monde réel. »
 * [A List Apart][12], un magazine en ligne destiné aux développeurs web
   depuis 1997, a réalisé une refonte totale en utilisant Ruby on Rails.
 
-* [Blue Sequence][13] est un des composants du système d’applications
-  critiques *sequence-in-time* du constructeur automobile Toyota. Il a
-  été sélectionné parmi les finalistes des *British Computer Information
-  Awards*.
-
 
 
 [1]: http://www.larc.nasa.gov/
 [2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
 [3]: http://www.motorola.com
 [4]: http://www.sketchup.com/
-[5]: http://www.torontorehab.com
+[5]: https://www.uhn.ca/TorontoRehab
 [6]: http://www.morpha.de/php_e/index.php3
 [7]: http://ods.org/
 [8]: http://www.lucent.com/
@@ -78,4 +73,3 @@ témoignages du « monde réel. »
 [10]: http://www.basecamphq.com
 [11]: http://www.37signals.com
 [12]: http://www.alistapart.com
-[13]: http://www.bluefountain.com/supply-chain-management/

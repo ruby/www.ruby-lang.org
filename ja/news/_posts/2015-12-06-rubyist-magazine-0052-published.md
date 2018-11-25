@@ -2,6 +2,7 @@
 layout: news_post
 title: "Rubyist Magazine 0052号 発行"
 author: "miyohide"
+translator:
 date: 2015-12-06 11:45:00 +0000
 lang: ja
 ---

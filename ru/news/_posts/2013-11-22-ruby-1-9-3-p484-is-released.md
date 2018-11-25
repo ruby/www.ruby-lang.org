@@ -15,7 +15,7 @@ lang: ru
 
 А также некоторые багфиксы.
 Смотри [тикеты](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-и [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog).
+и [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog).
 
 ## Скачать
 

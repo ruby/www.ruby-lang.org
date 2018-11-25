@@ -5,7 +5,7 @@ lang: en
 ---
 
 Here you can get the latest Ruby distributions in your favorite flavor.
-The current stable version is {{ site.data.downloads.stable[0].version }}.
+The current stable version is {{ site.data.downloads.stable[0] }}.
 Please be sure to read [Ruby’s License][license].
 {: .summary}
 
@@ -14,9 +14,9 @@ Please be sure to read [Ruby’s License][license].
 We have several tools on each major platform to install Ruby:
 
 * On Linux/UNIX, you can use the package management system of your
-  distribution or third-party tools (rbenv and RVM).
-* On OS X machines, you can use third-party tools (rbenv and RVM).
-* On Windows machines, you can use RubyInstaller.
+  distribution or third-party tools ([rbenv][rbenv] and [RVM][rvm]).
+* On OS X machines, you can use third-party tools ([rbenv][rbenv] and [RVM][rvm]).
+* On Windows machines, you can use [RubyInstaller][rubyinstaller].
 
 See the [Installation][installation] page for details on using
 package management systems or third-party tools.
@@ -34,24 +34,24 @@ See the [Installation][installation] page for details on building
 Ruby from source. If you have an issue compiling Ruby, consider using
 one of the third party tools mentioned above. They may help you.
 
-* **Stable releases:**{% for release in site.data.downloads.stable %}
+* **Stable releases:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
 {% if site.data.downloads.preview %}
-* **Preview releases:**{% for release in site.data.downloads.preview %}
+* **Preview releases:**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.security_maintenance %}
-* **In security maintenance phase (will EOL soon!):**{% for release in site.data.downloads.security_maintenance %}
+* **In security maintenance phase (will EOL soon!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
 {% if site.data.downloads.eol %}
-* **Not maintained anymore (EOL):**{% for release in site.data.downloads.eol %}
+* **Not maintained anymore (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
@@ -82,3 +82,6 @@ Please try to use a mirror that is near you.
 [releases]: /en/downloads/releases/
 [branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

@@ -60,11 +60,6 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
   yapan insanlar için bir dergi. Son zamanlarda yeniden canlandı ve Ruby
   On Rails ile oluşturulan özel bir uygulama kullanır.
 
-* [Blue Sequence][11], Toyota Motor İmalatı’nın kendi “sequence-in-time”
-  üretim sürecinin bir parçası olan gelişmiş,kritik bir uygulama, son
-  zamanlarda British Computer (BCS) Bilgi Yönetimi Ödülleri’nde finalist
-  olarak seçildi.
-
 #### Güvenlik
 
 * [Metasploit Framework][metasploit], [Rapid7][rapid7] tarafından yönetilen
@@ -80,7 +75,7 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.sketchup.com/
-[3]: http://www.torontorehab.com
+[3]: https://www.uhn.ca/TorontoRehab
 [4]: http://www.morpha.de/php_e/index.php3
 [5]: http://ods.org/
 [6]: http://www.lucent.com/
@@ -88,6 +83,5 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 [8]: http://www.basecamphq.com
 [9]: http://www.37signals.com
 [10]: http://www.alistapart.com
-[11]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com

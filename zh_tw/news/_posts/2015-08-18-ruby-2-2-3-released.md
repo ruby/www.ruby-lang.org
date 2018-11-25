@@ -7,14 +7,14 @@ date: 2015-08-18 16:00:00 +0000
 lang: zh_tw
 ---
 
-很高興宣布 Ruby 2.2.3 發佈了。這是 2.2 穩定版系列的一次 TENNY 版本發佈。
+很高興宣布 Ruby 2.2.3 發佈了。這是 2.2 穩定版系列的一次 TEENY 版本發佈。
 
 本次發佈包含了 RubyGems 網域名稱驗證的風險修正。請參考下文連結來了解更多細節。
 
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 同時也包含了許多錯誤修正。
-參見 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog) 來了解更多細節。
+參見 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog) 來了解更多細節。
 
 ## 下載
 

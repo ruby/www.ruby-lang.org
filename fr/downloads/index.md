@@ -4,8 +4,10 @@ title: "Télécharger Ruby"
 lang: fr
 ---
 
+{% include out-of-date.html %}
+
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
-version stable actuelle est la {{ site.data.downloads.stable[0].version }}.
+version stable actuelle est la {{ site.data.downloads.stable[0] }}.
 N’oubliez pas de consulter la [licence Ruby][license].
 {: .summary}
 
@@ -15,9 +17,9 @@ Pour installer Ruby, les principales plateformes proposent un ensemble
 d'outils spécifiques :
 
 * Sur Linux/UNIX, vous pouvez utiliser le système de gestion des
-  paquets de votre distribution ou des outils tiers (rbenv et RVM).
-* Sur les machines OS X, vous pouvez utiliser des outils tiers (rbenv et RVM).
-* Sur les machines Windows, vous pouvez utiliser RubyInstaller.
+  paquets de votre distribution ou des outils tiers ([rbenv][rbenv] et [RVM][rvm]).
+* Sur les machines OS X, vous pouvez utiliser des outils tiers ([rbenv][rbenv] et [RVM][rvm]).
+* Sur les machines Windows, vous pouvez utiliser [RubyInstaller][rubyinstaller].
 
 Voir la page d'[Installation][installation] pour les détails sur l'usage des
 systèmes de gestion de paquets ou outils tiers.
@@ -39,16 +41,7 @@ envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
 * **Dernière version stable :**
-  [Ruby {{ site.data.downloads.stable[0].version }}]({{ site.data.downloads.stable[0].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[0].sha256.gz }}
-
-* **Version stable précédente :**
-  [Ruby {{ site.data.downloads.stable[1].version }}]({{ site.data.downloads.stable[1].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[1].sha256.gz }}
-
-* **Anciennes versions stables:**
-  [Ruby {{ site.data.downloads.stable[2].version }}]({{ site.data.downloads.stable[2].url.gz }})<br>
-  sha256: {{ site.data.downloads.stable[2].sha256.gz }}
+  Ruby {{ site.data.downloads.stable[0] }}
 
 * **Snapshots :**
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
@@ -68,3 +61,6 @@ Utilisez s'il-vous-plaît un miroir proche de vous.
 [license]: {{ site.license.url }}
 [installation]: /fr/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

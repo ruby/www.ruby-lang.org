@@ -75,7 +75,7 @@ $ gem install rails
 `--version` / `-v` 플래그를 이용하면 특정 버전을 지칭해서 설치할 수도 있습니다.
 
 {% highlight sh %}
-$ gem install rails --version 3.0
+$ gem install rails --version 5.0
 {% endhighlight %}
 
 #### 전체 젬 목록

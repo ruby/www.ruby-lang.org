@@ -70,14 +70,14 @@ correo](/es/community/mailing-lists/) es un buen lugar para comenzar.
 
 
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://pine.fm/LearnToProgram/
 [3]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [4]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://www.rubyist.net/~slagell/ruby/
 [7]: http://www.ruby-doc.org/core
-[8]: http://docs.seattlerb.org/rdoc/
+[8]: https://ruby.github.io/rdoc/
 [9]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [11]: http://ruby-doc.org

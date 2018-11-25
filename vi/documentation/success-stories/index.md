@@ -55,10 +55,6 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 * [A List Apart][11], tạp chí cho ai thích tạo website, ra đời năm 1997, mới
   cải tiến site của họ bằng một ứng dụng riêng xây dựng với Ruby on Rails.
 
-* [Blue Sequence][12], Một ứng dụng mission-critical rất tinh vi, và là
-  một phần của công đoạn sản xuất “sequence-in-time” của Toyota Motor Manufacturing,
-  vừa được bình chọn vào chung kết giải British Computer (BCS) Information Management Awards.
-
 #### Bảo mật
 
 * [Metasploit Framework][metasploit], một dự án mã nguồn mỡ quản lý bởi
@@ -74,7 +70,7 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
-[4]: http://www.torontorehab.com
+[4]: https://www.uhn.ca/TorontoRehab
 [5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
@@ -82,6 +78,5 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
 [11]: http://www.alistapart.com
-[12]: http://www.bluefountain.com/supply-chain-management/
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com

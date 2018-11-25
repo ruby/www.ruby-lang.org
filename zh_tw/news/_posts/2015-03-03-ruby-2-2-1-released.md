@@ -8,11 +8,11 @@ lang: zh_tw
 ---
 
 很高興宣布 Ruby 2.2.1 發佈了。
-這是 2.2 穩定版本的第一個 TENNY 版本發佈。
+這是 2.2 穩定版本的第一個 TEENY 版本發佈。
 
 本次發佈修復了 ffi 無法 build 的錯誤以及 SymbolGC 的記憶體洩漏問題（見 [Bug #10686](https://bugs.ruby-lang.org/issues/10686)）。
 
-參見 [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog) 來了解更多細節。
+參見 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog) 來了解更多細節。
 
 ## 下載
 

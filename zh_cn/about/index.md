@@ -21,10 +21,6 @@ Ruby 是一个注重均衡的语言，它的发明者[松本行弘（Yukihiro �
 
 自从 1995 年公开发布以来，Ruby 在全球吸引了许多忠实的程序员。2006 年，Ruby 得到广泛接受，各大城市都有活跃的用户组，以及 Ruby 相关的开发者大会。
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 在主要的[邮件列表](/zh_cn/community/mailing-lists/) Ruby-Talk 中，讨论 Ruby 语言的消息攀升到每日 200 封。近几年，消息数量有所下降，因为社区在不断变大，由一个集中的邮件列表分成了很多小型的讨论组。
 
 Ruby 经常位于全球编程语言成长和流行度指数的前十名（比如[TIOBE][tiobe]）。造成 Ruby 如此快速成长的原因很大程度上是因为使用 Ruby 编写的 Web 框架 [Ruby on Rails][ror] 非常受欢迎。
@@ -156,6 +152,6 @@ Ruby 还有其他众多特性，下面列举一些：
 [macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
-[maglev]: http://ruby.gemstone.com
+[maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org

@@ -19,7 +19,7 @@ Il existe plusieurs manières d'installer Ruby :
   **gestionnaire de paquets** de votre système est la façon la plus simple de
   procéder.
   Toutefois, la dernière version de Ruby pourrait ne pas être disponible.
-* Un **Installateurs** peut être utilisé pour installer une ou plusieurs versions
+* Un **Installateur** peut être utilisé pour installer une ou plusieurs versions
   de Ruby. Il existe aussi un installateur pour Windows.
 * Des **Managers** aident à basculer d'une version de Ruby à une autre sur
   votre système.
@@ -76,7 +76,7 @@ Vous pouvez l'utiliser de la façon suivante :
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-Au moment d'écrire ces lignes, le paquet `ruby-full` fourni Ruby 1.9.3, qui
+Au moment d'écrire ces lignes, le paquet `ruby-full` fourni Ruby 2.3.1, qui
 est une ancienne version stable, sur Debian et Ubuntu.
 
 
@@ -273,7 +273,7 @@ Il est disponible pour les systèmes d'exploitation OS X, Linux, ou autres
 systèmes basés sur UNIX.
 
 
-## uru
+### uru
 {: #uru}
 
 [Uru][uru] est un outil en ligne de commande léger et multi-plateforme qui vous

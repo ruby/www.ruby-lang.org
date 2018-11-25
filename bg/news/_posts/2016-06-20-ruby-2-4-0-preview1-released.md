@@ -3,7 +3,7 @@ layout: news_post
 title: "Излезе Ruby 2.4.0-preview1"
 author: "naruse"
 translator: "Georgi Mitrev"
-date: 2016-06-20 18:00:00 +0900
+date: 2016-06-20 09:00:00 +0000
 lang: bg
 ---
 

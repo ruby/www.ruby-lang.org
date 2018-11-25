@@ -2,7 +2,7 @@
 layout: news_post
 title: "2016 日本福冈 Ruby 有奖竞赛 - 松本行弘评判"
 author: "Fukuoka Ruby"
-translator: Zane5
+translator: "Zane5"
 date: 2015-10-13 08:00:00 +0000
 lang: zh_cn
 ---

@@ -34,12 +34,10 @@ Quelques blogs se démarquent par la fréquence de leur mise-à-jour.
 
 ### Participer
 
-Si vous venez de lancer votre propre blog sur Ruby, il serait
-intéressant de vous inscrire sur [del.icio.us][13] avec le *tag*
-**ruby**. Vous pourriez aussi contacter les blogs mentionnés ci-dessus,
+Vous pourriez aussi contacter les blogs mentionnés ci-dessus,
 si vous parlez d’un sujet susceptible de les intéresser.
 
-Ruby est également un sujet récurrent sur [Digg][14] et [Slashdot][15].
+Ruby est également un sujet récurrent sur [Slashdot][15].
 
 
 
@@ -48,7 +46,5 @@ Ruby est également un sujet récurrent sur [Digg][14] et [Slashdot][15].
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
 [12]: http://newsforwhatyoudo.com/groups/643ddee01cd911deaef1001aa018681c/news
-[13]: http://del.icio.us
-[14]: http://digg.com/programming
 [15]: http://developers.slashdot.org/
 [16]: http://news.humancoders.com/t/ruby

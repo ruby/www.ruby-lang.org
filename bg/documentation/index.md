@@ -33,14 +33,6 @@ ruby -v
 : Коаните помагат с научаването на синтаксиса и структурата на Ruby,
   както и със запознаването с някои основни функции и библиотеки.
 
-[RubyMonk][3]
-: Научи Ruby идиоми и уроци и решавай проблеми в твоят браузър!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">The little coder’s starter kit</q>.
-  Забавен и лесен начин да се учи програмиране с Ruby чрез използването
-  на Shoes GUI Toolkit.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Необичайна, но интересна книга, която ще ви научи на Ruby чрез
   истории, шеги и рисунки. Първоначално създадено от *why the lucky stiff*,
@@ -142,10 +134,8 @@ ruby -v
 Ако имате въпроси относно Ruby, [пощенският списък](/bg/community/mailing-lists/)
 е чудесно място да ги зададете.
 
-[1]: http://tryruby.org/
+[1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -155,7 +145,7 @@ ruby -v
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/

@@ -34,10 +34,6 @@ ganzen Welt angezogen und begeistert. Im Jahr 2006 hat Ruby die Massen
 erreicht: Aktive Usergroups entstehen in den großen Weltstädten und
 Konferenzen rund um Ruby sind ausverkauft.
 
-![Graph courtesy of
-Gmane.](http://gmane.org/plot-rate.php?group=gmane.comp.lang.ruby.general&amp;width=320&amp;height=160&amp;title=Ruby-Talk+Activity
-"Graph courtesy of Gmane."){: style="padding-left:8px; float:right;"}
-
 Ruby-Talk, die wichtigste [Mailingliste](/de/community/mailing-lists/)
 für Diskussionen rund um Ruby, erreichte 2006 einen Spitzenwert von etwa
 200 Nachrichten pro Tag. Seither ist die Aktivität wieder zurückgegangen,
@@ -253,6 +249,6 @@ November 2001.
 [macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
-[maglev]: http://ruby.gemstone.com
+[maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org

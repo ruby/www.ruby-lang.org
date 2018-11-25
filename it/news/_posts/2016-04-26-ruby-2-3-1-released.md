@@ -2,7 +2,7 @@
 layout: news_post
 title: "Rilasciato Ruby 2.3.1"
 author: "nagachika"
-translator: alepore
+translator: "alepore"
 date: 2016-04-26 12:00:00 +0000
 lang: it
 ---
@@ -11,7 +11,7 @@ lang: it
 
 Questo è il rilascio della prima versione TEENY della serie stabile 2.3.
 
-Ci sono molti bugfixes, vedere il [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+Ci sono molti bugfixes, vedere il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
 per i dettagli.
 
 ## Download
