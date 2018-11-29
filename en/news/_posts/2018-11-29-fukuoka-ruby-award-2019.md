@@ -36,7 +36,7 @@ Please email the application form to award@f-ruby.com
 This year, there are the following special prizes:
 
 The winner of the AWS Prize will receive:
- 
+
 * Amazon Echo (subject to change)
 * AWS architect technical consultation
 
@@ -50,7 +50,7 @@ The winner of the IIJ GIO Prize will receive:
 * IIJ GIO free coupon worth 500,000 yen(Up to 6 months)
 
 The winner of the Money Forward Prize will receive:
- 
+
 * dinner with Money Forward's Ruby committers.
 * a 10 years free ticket for the premium services of our personal financial management service "Money Forward".
 
