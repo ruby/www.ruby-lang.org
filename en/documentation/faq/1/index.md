@@ -55,7 +55,7 @@ Ruby features:
 
 * Simple syntax,
 * Basic OO features (classes, methods, objects, and so on),
-* Special OO features (mixins, singleton methods, renaming, ...),
+* Special OO features (mixins, singleton methods, renaming, and so on),
 * Operator overloading,
 * Exception handling,
 * Iterators and closures,
