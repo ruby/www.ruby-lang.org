@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Support of Ruby 2.2 has ended"
+title: "Ha terminado el soporte para Ruby 2.2"
 author: "antonpaisov"
 translator: "vtamara"
 date: 2018-06-20 00:00:00 +0000
