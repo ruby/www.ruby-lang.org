@@ -9,8 +9,8 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.6.0-rc1.
 
-Ruby 2.6.0-rc1 is the third preview toward Ruby 2.6.0.
-This rc1 is released to test new features before coming Release Candidate.
+Ruby 2.6.0-rc1 is the first release candidate of Ruby 2.6.0.
+It introduces some new features and performance improvements, for example:
 
 ## JIT
 
