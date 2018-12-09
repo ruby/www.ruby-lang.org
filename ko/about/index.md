@@ -152,7 +152,6 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
   그리고 다양한 라이브러리 집합을 활용합니다.
 * [Rubinius][rubinius]는 ‘루비로 쓰여진 루비’입니다. LLVM 위에 구축되어,
   Rubinius는 다른 언어 역시 구축된 멋진 가상 기기 위에서 활동합니다.
-* [MacRuby][macruby]는 macOS를 위한 애플의 Cocoa 라이브러리에 강력하게 통합된 루비로, 손쉽게 데스크톱 응용프로그램을 작성할 수 있도록 해줍니다.
 * [mruby][mruby]는 루비의 경량 구현체로 애플리케이션 안에 링크되거나 포함시킬 수 있습니다.
   루비의 창시자인 유키히로 “Matz” 마츠모토가 개발을 이끌고 있습니다.
 * [IronRuby][ironruby]는 “.NET Framework과 강력하게 통합된” 구현체입니다.
@@ -183,7 +182,6 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
