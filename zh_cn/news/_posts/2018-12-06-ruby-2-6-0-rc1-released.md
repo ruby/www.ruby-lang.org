@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 2.6.0-preview3 已发布"
+title: "Ruby 2.6.0-rc1 已发布"
 author: "naruse"
-translator: "Delton Ding"
-date: 2018-11-06 00:00:00 +0000
+translator: Delton Ding
+date: 2018-12-06 00:00:00 +0000
 lang: zh_cn
 ---
 
-我们高兴地宣布 Ruby 2.6.0-preview3 已发布。
+我们高兴地宣布 Ruby 2.6.0-rc-1 已发布。
 
-Ruby 2.6.0-preview3 是 Ruby 2.6.0 系列的第三个测试版本。此次 preview3 的发布意在发布候选版前测试新特性。
+Ruby 2.6.0-rc1 是 Ruby 2.6.0 的第一个候选版本。此版本包括数个新特性和性能提升，例如：
 
 ## JIT
 Ruby 2.6 引入了 JIT (Just-in-time) 编译器的初始实现。
@@ -20,17 +20,17 @@ JIT 编译器旨在提升任何 Ruby 程序的执行速度。不同于其他语�
 
 此 JIT 发布的主要目的是检查平台的兼容性，以及在 2.6 版本发布前找出安全风险。目前 JIT 编译器只当 Ruby 由 gcc clang 或 Microsoft VC++ 编译后，编译器仍可被运行时发现时可用，除此之外你暂时无法使用 JIT。
 
-Ruby 2.6.0 preview3 在使用 CPU 密集型场景下的复杂 Bemchmark Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208> 进行测试后，比起 Ruby 2.5 取得了 1.7 倍的性能提升。我们会进一步提升其在内存密集型场景，例如 Rails 应用中的性能。
+Ruby 2.6.0-rc1 在使用 CPU 密集型场景下的复杂 Bemchmark Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208> 进行测试后，比起 Ruby 2.5 取得了 1.7 倍的性能提升。我们会进一步提升其在内存密集型场景，例如 Rails 应用中的性能。
 
 请保持对 Ruby 新时代性能的关注。
 
-## RubyVM::AST [试验性]
+## RubyVM::AbstractSyntaxTree [试验性]
 
-Ruby 2.6 引入了 `RubyVM::AST` 模块。
+Ruby 2.6 引入了 `RubyVM::AbstractSyntaxTree` 模块。
 
 此模块提供 `parse` 方法，传入 Ruby 代码字符串，返回 AST（抽象语法树）节点。而 `parse_file` 方法则接受一个 Ruby 代码文件作为参数，返回 AST 节点。
 
-同时引入了 `RubyVM::AST::Node` 类，你可以从 `Node` 对象中获取位置信息和子节点。此功能尚处于实验性质，对于 AST 节点的兼容性不做保证。
+同时引入了 `RubyVM::AbstractSyntaxTree::Node` 类，你可以从 `Node` 对象中获取位置信息和子节点。此功能尚处于实验性质，对于 AST 节点的兼容性不做保证。
 
 ## 新特性
 
@@ -80,42 +80,42 @@ Ruby 2.6 引入了 `RubyVM::AST` 模块。
 
 * 不再建议将 `safe_level` 参数传递给 `ERB.new` 的行为。`trim_mode` 和 `eoutvar` 参数被转换成了关键词参数。[[功能 #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* 合并 RubyGems 3.0.0.beta2，`--ri` 和 `--rdoc` 选项已被移除。请使用 `--document` 和 `--no-document` 选项来替代他们。
+* 升级支持的 Unicode 版本至 11。我们计划在未来 Ruby 2.6 的小更新中升级至 12 和 12.1。
+
+* 合并 RubyGems 3.0.0.beta3，`--ri` 和 `--rdoc` 选项已被移除。请使用 `--document` 和 `--no-document` 选项来替代他们。
 
 * 合并 [Bundler](https://github.com/bundler/bundler) 作为默认 gem。
 
-见 [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview3/NEWS) 或 [提交日志](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3) 以查看详情。
+见 [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_rc1/NEWS) 或 [提交日志](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc1) 以查看详情。
 
-这些合并后，自 Ruby 2.5.0 已发生了 [6474 个文件变更，171888 行新增(+)，46617 行删除(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)！
+这些合并后，自 Ruby 2.5.0 已发生了 [6376 个文件变更，227364 行新增(+)，51599 行删除(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc1)！
 
-享受 Ruby 2.6.0-preview3 的编程吧！
+享受 Ruby 2.6.0-rc1 的编程吧！
 
 ## 下载
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.gz>
 
-      SIZE:   17071670 bytes
-      SHA1:   67836fda11fa91e0b988a6cc07989fbceda025b4
-      SHA256: 60243e3bd9661e37675009ab66ba63beacf5dec748885b9b93916909f965f27a
-      SHA512: 877278cd6e9b947f5bb6ed78136efb232dcc9c5c218b7236576171e7c3cd7f6b7d10d07d8402014a14aba1fcd1913a4370f0725c561ead41d8a3fe92029f7f76
+      SIZE:   16823448 bytes
+      SHA1:   889db7731fd43f6dbf7f31ffdb0a29bba1a8d356
+      SHA256: 6d6183639ed9c02320d7132e97c65489a39e24d8b55fc4ed35ac53d1189cb61d
+      SHA512: ad101adee5c43f3645561e73970f15d4e9141f707da69a92e224575c665949e18ca53389e5315fca2ea393
+4d77967a59e304353cde4a915537e7c4e4ee20be73
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.zip>
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.zip>
+      SIZE:   20737499 bytes
+      SHA1:   457e39aee1978da5e42af42a6ad230421544aa07
+      SHA256: 2bcdf468de499e4d6983d60d63dcc883f4c54fdc05a08a54eb93d315477bc4cc
+      SHA512: 0842fae8a199f6c1e76f5d775edbf468e18a54f0419324eb73595e0268c728c71733371d71dc2fa342105dbc487987ca5556948a9ef067276a7b5f552462802a
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.bz2>
 
-      SIZE:   21537655 bytes
-      SHA1:   45f3c90dfffe03b746f21f24152666e361cbb41a
-      SHA256: 9152af9e700349dcfa2eec196dd91587d42d70a6837fa2c415ebba1167587be1
-      SHA512: 335de36cf56706326f4acc4bbd35be01e0ac5fff30d0a69b2e1630ba4c78f0e711822d1623d0099a517c824b154917d2f60be192dfb143a422cf1d17b38e1183
+      SIZE:   14607078 bytes
+      SHA1:   269fe9d414d7731e4a63959fadffe5c50c08ce0e
+      SHA256: b4e9c0e8801946e9f0baba30948955f4341e9e04f363c206b7bd774208053eb5
+      SHA512: cbd6281b2aab6fbce3f699c1ab57e5423304dca7a547a0b3cd4e8e980326dc7b85b2ca2bfaf3f3a648d40f4222fdf1740d81d422790ee7ae1ba1ed33eb11e3e8
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.xz>
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.bz2>
-
-      SIZE:   14973451 bytes
-      SHA1:   5f2df5d8c5a3888ccb915d36a3532ba32cda8791
-      SHA256: 1f09a2ac1ab26721923cbf4b9302a66d36bb302dc45e72112b41d6fccc5b5931
-      SHA512: d1693625723796e8902f3e4c4fae444f2912af9173489f7cf18c99db2a217afc971b082fce7089e39f8edd54d762d2b4e72843c8306ed29b05ccb15ac03dbb5b
-
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.xz>
-
-      SIZE:   12291692 bytes
-      SHA1:   7f8216247745215e9645568e7a02140f9a029b31
-      SHA256: 9856d9e0e32df9e5cdf01928eec363d037f1a76dab2abbf828170647beaf64fe
-      SHA512: b4d3b17ecf96272c43cd7518c0b54dee63fc1150ad143e1d9c9d708506fe78676c80eb96cc47b8d46d1128bd483a53f16c944963a03d1f99f00131b74714df7b
+      SIZE:   11851908 bytes
+      SHA1:   3b93fdf1c5bd969ab4fe0a8176a6cf64e4597e6e
+      SHA256: 21d9d54c20e45ccacecf8bea4dfccd05edc52479c776381ae98ef6a7b4afa739
+      SHA512: 3d93d8d80e4900e8b3a27f904ed60581cebc6c55f4ab7acafc81e95001f92f3ea4ddec2da6169b1ed5e0146f7b7c35c1c13b3243955d5825c72170834fe933f3
