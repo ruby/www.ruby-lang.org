@@ -69,6 +69,7 @@ versions instead of the latest release. To use the latest Ruby release,
 check that the package name matches its version number. Or use a
 dedicated [installer][installers].
 
+
 ### apt (Debian or Ubuntu)
 {: #apt}
 
@@ -113,6 +114,7 @@ We have several channels per Ruby minor series. For instance, the following comm
 $ sudo snap switch ruby --channel=2.3/stable
 $ sudo snap refresh
 {% endhighlight %}
+
 
 ### portage (Gentoo)
 {: #portage}
