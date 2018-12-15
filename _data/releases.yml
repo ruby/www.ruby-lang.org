@@ -36,8 +36,8 @@
     xz:  d620b3d87b3190867304067f3ce77f5305f7ec1b2e73b09c17710c97c028986d
 
 - version: 2.6.0-rc1
-  date: 2018-12-07
-  post: /en/news/2018/12/07/ruby-2-6-0-rc1-released/
+  date: 2018-12-06
+  post: /en/news/2018/12/06/ruby-2-6-0-rc1-released/
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.zip
