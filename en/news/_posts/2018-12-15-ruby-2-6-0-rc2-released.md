@@ -1,15 +1,16 @@
 ---
 layout: news_post
-title: "Ruby 2.6.0-rc1 Released"
+title: "Ruby 2.6.0-rc2 Released"
 author: "naruse"
 translator:
-date: 2018-12-06 00:00:00 +0000
+date: 2018-12-15 00:00:00 +0000
 lang: en
 ---
 
-We are pleased to announce the release of Ruby 2.6.0-rc1.
+We are pleased to announce the release of Ruby 2.6.0-rc2.
 
-Ruby 2.6.0-rc1 is the first release candidate of Ruby 2.6.0.
+Ruby 2.6.0-rc2 is the second release candidate of Ruby 2.6.0.
+RC2 is released to test bundled Bundler 1.17 instead of 2.0.
 It introduces some new features and performance improvements, for example:
 
 ## JIT
@@ -26,7 +27,7 @@ Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT co
 The main purpose of this JIT release is to provide a chance to check if it works for your platform and to find out security risks before the 2.6 release.
 JIT compiler is supported when Ruby is built by GCC, Clang, or Microsoft VC++, which needs to be available on runtime. Otherwise you can't use it for now.
 
-As of Ruby 2.6.0-rc1, we achieved 1.7x faster performance than Ruby 2.5 on CPU-intensive non-trivial benchmark workload called Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208>. We're going to improve the performance on memory-intensive workload like Rails application as well.
+As of Ruby 2.6.0-rc2, we achieved 1.7x faster performance than Ruby 2.5 on CPU-intensive non-trivial benchmark workload called Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208>. We're going to improve the performance on memory-intensive workload like Rails application as well.
 
 Stay tuned for the new age of Ruby's performance.
 
@@ -41,7 +42,7 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 * Add a new alias `then` to `Kernel#yield_self`. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
 
-* `else` without `rescue` now causes a syntax error.  [EXPERIMENTAL]
+* `else` without `rescue` now causes a syntax error.  [EXPERIMENTAL][[Feature #14606]](https://bugs.ruby-lang.org/issues/14606)
 
 * constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
@@ -99,37 +100,37 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 * Merge [Bundler](https://github.com/bundler/bundler) as Default gems.
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_rc1/NEWS)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc1)
+See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_rc2/NEWS)
+or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc2)
 for details.
 
 With those changes,
-[6376 files changed, 227364 insertions(+), 51599 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc1)
+[6411 files changed, 228864 insertions(+), 97600 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc2)
 since Ruby 2.5.0!
 
-Enjoy programming with Ruby 2.6.0-rc1!
+Enjoy programming with Ruby 2.6.0-rc2!
 
 ## Download
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/2.6.0-rc2.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.gz>
 
       SIZE:   16723556 bytes
       SHA1:   a4d7f8c8c3584a60fe1a57d03d80162361fe3c78
       SHA256: 9c0245e96379246040f1fd0978f8e447e7f47cdccbdaffdb83302a995276b62b
       SHA512: 789f608f93db6e12835911f3105d9abe2fabb67cd22dc3bafdff38716ac56974925738e7f7788ebef5bdf67b6fd91f84a4ee78a3e5d072cfc8ee0972de737b08
-* <https://cache.ruby-lang.org/pub/ruby/2.6/2.6.0-rc2.zip>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.zip>
 
       SIZE:   20643747 bytes
       SHA1:   c1a2898949d929dd952880f1c1c2bac2ef2609b4
       SHA256: e8a446cf1f2ffc14483604de0a5e12c2578dd2f672ae87798ca2bbb9b7b73899
       SHA512: 2d06feae13f485f5da59574672b14d03881ed532d652648f94e2435f5d81df623b5ef532b8ba8e0b9bc4ee6baf7c0328a5610eab753a9020a0fea2673254c76c
-* <https://cache.ruby-lang.org/pub/ruby/2.6/2.6.0-rc2.tar.bz2>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.bz2>
 
       SIZE:   14581998 bytes
       SHA1:   94bbee97de4955e67effb7f512c58300617a3a09
       SHA256: b3d03e471e3136f43bb948013d4f4974abb63d478e8ff7ec2741b22750a3ec50
       SHA512: 9bfbe83fd3699b71bae2350801d8c967eb128e79b62a9d36fc0f011b83c53cab28a280939f4cc9f0a28f9bf02dce8eea30866ca4d06480dc44289400abf580ba
-* <https://cache.ruby-lang.org/pub/ruby/2.6/2.6.0-rc2.tar.xz>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.xz>
 
       SIZE:   11908088 bytes
       SHA1:   13a7f06d832dc28989e3e4321490a6ba528ed023
