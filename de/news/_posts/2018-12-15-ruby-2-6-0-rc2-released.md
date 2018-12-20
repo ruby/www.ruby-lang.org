@@ -52,7 +52,7 @@ Machen Sie sich bereit für eine neue Ära von Rubys Performanz.
 Ruby 2.6 führt das Modul `RubyVM::AbstractSyntaxTree` ein.
 
 Dieses Modul verfügt über die Methoden `parse`, die den als String
-übergenen Ruby-Code verarbeitet und eine Liste von Knoten des ASTs
+übergebenen Ruby-Code verarbeitet und eine Liste von Knoten des ASTs
 _(Abstract Syntax Tree)_ zurückgibt, und `parse_file`, die die
 übergebene Ruby-Quelldatei auf ähnliche Weise verarbeitet und
 ebenfalls AST-Knoten zurückgibt.
@@ -97,6 +97,7 @@ Struktur von AST-Knoten kann derzeit nicht gewährleistet werden.
 
 * Einmal-Modus _(oneshot mode)_
   hinzugefügt. [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
+
   * Anstelle von „wie oft wurde eine bestimmte Zeile ausgeführt“,
     prüft dieser Modus, „ob jede Zeile wenigstens einmal oder gar
     nicht ausgeführt wurde“. Der entsprechende Hook wird für jede
@@ -112,6 +113,7 @@ Struktur von AST-Knoten kann derzeit nicht gewährleistet werden.
   * `Coverage.line_stub` hinzugefügt. Es handelt sich um eine einfache
     Hilfsfunktion, die eine kurze Zusammenfassung der Zeilenabdeckung
     des übergebenen Quellcodes erzeugt.
+
 * `FileUtils#cp_lr` hinzugefügt. [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 
 ## Performanzverbesserungen
