@@ -15,28 +15,28 @@ It introduces some new features and performance improvements, for example:
 
 ## JIT
 
-Ruby 2.6 introduces an initial implementation of JIT (Just-in-time) compiler.
+Ruby 2.6 introduces an initial implementation of a JIT (Just-in-time) compiler.
 
-JIT compiler aims to improve performance of any Ruby program execution.
-Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which prints C code to a disk and spawns common C compiler process to generate native code.
+The JIT compiler aims to improve performance of any Ruby program execution.
+Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which writes C code to a disk and spawns a common C compiler process to generate native code.
 See also: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
-How to use: Just specify `--jit` in command line or `$RUBYOPT` environment variable.
+How to use: Just specify `--jit` in the command line or `$RUBYOPT` environment variable.
 Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT compilation. See `ruby --help` for other options.
 
 The main purpose of this JIT release is to provide a chance to check if it works for your platform and to find out security risks before the 2.6 release.
-JIT compiler is supported when Ruby is built by GCC, Clang, or Microsoft VC++, which needs to be available on runtime. Otherwise you can't use it for now.
+The JIT compiler is supported when Ruby is built by GCC, Clang, or Microsoft VC++, which needs to be available at runtime. Otherwise you can't use it for now.
 
-As of Ruby 2.6.0-rc2, we achieved 1.7x faster performance than Ruby 2.5 on CPU-intensive non-trivial benchmark workload called Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208>. We're going to improve the performance on memory-intensive workload like Rails application as well.
+As of Ruby 2.6.0-rc2, we achieved 1.7x faster performance than Ruby 2.5 on a CPU-intensive non-trivial benchmark workload called Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208>. We're going to improve the performance on memory-intensive workloads like Rails applications as well.
 
 Stay tuned for the new age of Ruby's performance.
 
 ## RubyVM::AbstractSyntaxTree [Experimental]
 
-Ruby 2.6 introduces `RubyVM::AbstractSyntaxTree` module.
+Ruby 2.6 introduces the `RubyVM::AbstractSyntaxTree` module.
 
-This module has `parse` method which parses a given ruby code of string and returns AST (Abstract Syntax Tree) nodes, and `parse_file` method which parses a given ruby code file and returns AST nodes.
-`RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get location information and children nodes from `Node` objects. This feature is experimental. Compatibility of the structure of AST nodes are not guaranteed.
+This module has a `parse` method which parses Ruby code from a given string and returns AST (Abstract Syntax Tree) nodes, and a `parse_file` method which parses Ruby code from a given file and returns AST nodes.
+The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get location information and children nodes from `Node` objects. This feature is experimental. Compatibility of the structure of AST nodes are not guaranteed.
 
 ## New Features
 
@@ -44,37 +44,38 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 * `else` without `rescue` now causes a syntax error.  [EXPERIMENTAL][[Feature #14606]](https://bugs.ruby-lang.org/issues/14606)
 
-* constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
+* Constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
 * endless range [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
-  An endless range, `(1..)`, is introduced. It works as it has no end. This shows typical use cases:
+  An endless range, `(1..)`, is introduced. It works as if it has no end. This shows typical use cases:
 
-      ary[1..]                          # identical to ary[1..-1] without magical -1
-      (1..).each {|index| ... }         # inifinite loop from index 1
-      ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
+      ary[1..]                             # identical to ary[1..-1] without magical -1
+      (1..).each {|index| block }          # inifinite loop from index 1
+      ary.zip(1..) {|elem, index| block }  # ary.each.with_index(1) { }
 
 * Add `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
 
-  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352).  So, users should use this newly-introduced method instead of `Kernel#eval`.
+  This method returns the source location of the binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352).  So, users should use this newly-introduced method instead of `Kernel#eval`.
 
-* Add `:exception` option to let `Kernel#system` raise error instead of returning `false`.  [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
+* Add `:exception` option to let `Kernel#system` raise an exception on failure instead of returning `false`.  [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
-* add the oneshot mode [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
+* Add a oneshot mode to `Coverage`. [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
+
   * This mode checks "whether each line was executed at least once or not", instead of "how many times each line was executed".  A hook for each line is fired at most once, and after it is fired the hook flag is removed, i.e., it runs with zero overhead.
   * Add `:oneshot_lines` keyword argument to Coverage.start.
   * Add `:stop` and `:clear` keyword arguments to Coverage.result. If `clear` is true, it clears the counters to zero.  If `stop` is true, it disables coverage measurement.
   * Coverage.line_stub, which is a simple helper function that creates the "stub" of line coverage from a given source code.
 
-* `FileUtils#cp_lr`.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
+* Add `FileUtils#cp_lr`.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 
 ## Performance improvements
 
 * Speedup `Proc#call` because we don't need to care about `$SAFE` any more.
   [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
-  With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
-  x1.4 improvements [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212).
+  With `lc_fizzbuzz` benchmark which uses `Proc#call` many times we can measure
+  x1.4 improvements. [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212).
 
 * Speedup `block.call` where `block` is passed block parameter. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
@@ -83,22 +84,22 @@ This module has `parse` method which parses a given ruby code of string and retu
   With micro-benchmark we can observe x2.6 improvement.
 
 * Transient Heap (theap) is introduced. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
-  theap is managed heap for short-living memory objects which are pointed by
-  specific classes (Array, Hash, Object, and Struct). For example, making small
+  theap is a managed heap for short-living memory objects which are pointed to by
+  specific classes (Array, Hash, Object, and Struct). For example, making a small
   and short-living Hash object is x2 faster. With rdoc benchmark, we observed
   6-7% performance improvement.
 
 ## Other notable changes since 2.5
 
-* `$SAFE` is a process global state and we can set `0` again.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
+* `$SAFE` is a process global state and we can set it to `0` again.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
 * Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* Supported Unicode version is updated to 11. It is planed to update 12 and 12.1 in future TEENY releases of Ruby 2.6.
+* Supported Unicode version is updated to 11. It is planed to update to 12 and 12.1 in future TEENY releases of Ruby 2.6.
 
-* Merge RubyGems 3.0.0.beta3. `--ri` and `--rdoc` options was removed. Please use `--document` and `--no-document` options instead of them.
+* Merge RubyGems 3.0.0.beta3. `--ri` and `--rdoc` options were removed. Please use `--document` and `--no-document` options instead.
 
-* Merge [Bundler](https://github.com/bundler/bundler) as Default gems.
+* Merge [Bundler](https://github.com/bundler/bundler) as default gem.
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_rc2/NEWS)
 or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc2)
