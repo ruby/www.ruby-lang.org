@@ -38,6 +38,7 @@ ruby -v
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
+  * [FreeBSD](#freebsd)
   * [Solaris, OpenIndiana](#solaris)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
@@ -132,6 +133,23 @@ $ brew install ruby
 {% endhighlight %}
 
 이 명령어는 최신 루비 버전을 설치할 것입니다.
+
+
+### FreeBSD
+{: #freebsd}
+
+FreeBSD는 패키지와 소스로부터 설치하는 방법을 모두 제공합니다.
+pkg를 이용하여 패키지를 설치할 수 있습니다:
+
+{% highlight sh %}
+$ pkg install ruby
+{% endhighlight %}
+
+[포트 컬렉션][freebsd-ports-collection]을 사용하여 루비를 소스로부터 설치
+할 수 있습니다. 이는 설치 설정을 변경하고 싶을 때 유용합니다.
+
+FreeBSD 상의 루비와 그 환경에 대해서 더 자세한 정보는
+[FreeBSD Ruby Project 웹사이트][freebsd-ruby]에서 얻을 수 있습니다.
 
 
 ### Solaris와 OpenIndiana에서의 루비
@@ -288,6 +306,8 @@ $ sudo make install
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
 [terminal]: : https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90_%EC%97%90%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0_%EB%AA%A9%EB%A1%9D
 [download]: /ko/downloads/
