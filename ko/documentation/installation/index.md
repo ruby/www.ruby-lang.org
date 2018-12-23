@@ -163,8 +163,8 @@ Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7�
 서드파티 도구를 사용하면 최신 버전의 루비를 얻을 수 있습니다.
 
 [OpenIndiana][openindiana]에서 루비를 설치하려면,
-[Image Packaging System (IPS)][opensolaris-pkg] 클라이언트를 사용해 주십시오.
-이것은 루비 1.9를 위한 OpenSolaris 네트워크 저장소로부터 최신
+Image Packaging System (IPS) 클라이언트를 사용해 주십시오.
+이것은 OpenSolaris 저장소로부터 최신
 루비 바이너리와 RubyGems를 직접 받아 설치합니다. 아주 쉽습니다.
 
 {% highlight sh %}
@@ -306,7 +306,6 @@ $ sudo make install
 [sunfreeware]: http://www.sunfreeware.com
 [blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
 [freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
