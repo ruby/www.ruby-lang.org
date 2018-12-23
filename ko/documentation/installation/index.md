@@ -160,7 +160,6 @@ FreeBSD 상의 루비와 그 환경에 대해서 더 자세한 정보는
 Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
 [Blastwave][blastwave]에서 루비 1.8.7을 사용 가능합니다.
 [Sunfreeware][sunfreeware]에서 루비 1.9.2p0을 사용 가능하지만, 이는 구 버전입니다.
-서드파티 도구를 사용하면 최신 버전의 루비를 얻을 수 있습니다.
 
 [OpenIndiana][openindiana]에서 루비를 설치하려면,
 Image Packaging System (IPS) 클라이언트를 사용해 주십시오.
@@ -168,7 +167,7 @@ Image Packaging System (IPS) 클라이언트를 사용해 주십시오.
 루비 바이너리와 RubyGems를 직접 받아 설치합니다. 아주 쉽습니다.
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install runtime/ruby
 {% endhighlight %}
 
 하지만, 서드파티 도구를 사용하는 것이 최신 버전의 루비를 얻는 더 좋은 방법입니다.
