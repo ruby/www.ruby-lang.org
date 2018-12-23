@@ -80,6 +80,10 @@ lang: ko
 : 마찬가지로 RDoc을 이용해 소스에서 추출한 것으로 표준 라이브러리에
   대한 레퍼런스입니다.
 
+[루비 C API 레퍼런스][extensions] (영문)
+: 루비의 공식 C API 문서입니다.
+  루비 개발에 참여하거나, C 확장을 개발할 때 도움이 될 것입니다.
+
 [RubyDoc.info][16] (영문)
 : 루비 젬과 GitHub에서 호스팅 되는 루비 프로젝트의 레퍼런스 문서들을
   모아놓은 사이트입니다.
@@ -141,6 +145,7 @@ lang: ko
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
