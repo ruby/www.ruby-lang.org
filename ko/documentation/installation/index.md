@@ -119,6 +119,8 @@ Arch Linux는 pacman이라는 이름의 패키지 관리자를 사용합니다.
 $ sudo pacman -S ruby
 {% endhighlight %}
 
+이는 루비의 최신 안정판을 설치할 것입니다.
+
 
 ### Homebrew (macOS)
 {: #homebrew}
