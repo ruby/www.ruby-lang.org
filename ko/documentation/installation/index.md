@@ -229,7 +229,7 @@ Windows에서는 [RubyInstaller][rubyinstaller]는 전체 루비 개발 환경�
   사용하지만, 레일즈 개발을 도와줄 추가 도구들을 제공합니다. macOS, Windows를
   지원합니다.
 * [Bitnami Ruby Stack][rubystack]는 루비 온 레일즈를 위한 완전한 개발환경을 제공합니다.
-  macOS, Linux, Windows, 가상 기기, 클라우드 이미지를 지원합니다.
+  macOS, Linux, Windows, 가상 머신, 클라우드 이미지를 지원합니다.
 
 
 ## 관리자
