@@ -13,24 +13,13 @@ lang: ko
 
 ### 루비 설치하기
 
-브라우저에서만 루비를 시험해 보려는 게 아니라면 (밑의 링크 참조)
-컴퓨터에 루비를 설치할 필요가 있습니다.
-루비가 이미 설치되어 있는지 확인하려면 터미널을 열고 다음 명령어를
-입력하세요.
-
-{% highlight sh %}
-ruby -v
-{% endhighlight %}
-
-이 명령은 설치된 루비에 대한 정보를 알려줄 것입니다.
-설치되어 있지 않다면, [설치 페이지](installation/)에 있는 많은 옵션을
-참조하세요.
+[루비를 브라우저에서 시험해 볼 수도 있지만][1], 루비를 설치하기 위해서
+[설치 설명서](installation/)를 읽어보아도 좋습니다.
 
 ### 초보자용 문서
 
-[Try Ruby!][1] (영문)
-: 초보자를 위한 웹 기반의 대화형 튜토리얼입니다. 루비를 설치하지 않고도
-  브라우저만 있으면 루비를 배울 수 있습니다.
+[공식 FAQ](/en/documentation/faq/) (영문)
+: 자주 묻는 질문들을 모았습니다.
 
 [Ruby Koans][2] (영문)
 : Koans는 루비를 배우는 깨달음의 길로 여러분을 안내합니다. Koans의 목표는
@@ -41,10 +30,6 @@ ruby -v
 : 이야기, 재치, 만화를 통해 루비를 가르쳐주는 틀에 얽매이지 않는 재미있는
   책입니다. *Why the Lucky Stiff*의 저작물로 루비를 배우는 사람을 위한
   고전입니다.
-
-[루비 20분 가이드](/ko/documentation/quickstart/)
-: 루비의 기초를 다루는 튜토리얼입니다. 처음부터 끝까지 읽는 데 20분도 걸리지
-  않습니다.
 
 [Learning Ruby][6] (영문)
 : 새로 언어를 배우는 사람이나 루비의 개념과 구조를 검색하려는 사람들을 위한
@@ -68,10 +53,6 @@ ruby -v
 [루비 FAQ][ko-2]
 : 황대산 님이 정리하신 FAQ입니다.
 
-[다른 언어로 부터의 루비](/ko/documentation/ruby-from-other-languages/)
-: 다른 언어를 하시다 루비로 오셨나요? C, C++, Java, Perl, PHP, Python에
-  상관없이 이 글이면 충분합니다.
-
 ### 매뉴얼
 
 [프로그래밍 루비][9] (영문)
@@ -88,6 +69,9 @@ ruby -v
 
 ### 참조
 
+[공식 API 문서][40]
+: 아직 릴리스되지 않은 트렁크를 포함한 여러 루비 버전의 공식 API 문서입니다.
+
 [루비 코어 레퍼런스][13] (영문)
 : [RDoc][14]을 이용해 소스에서 추출한 레퍼런스입니다. String, Array,
   Symbol 등 모든 코어 클래스와 모듈에 대한 문서를 찾아볼 수 있습니다.
@@ -95,6 +79,10 @@ ruby -v
 [루비 표준 라이브러리][15] (영문)
 : 마찬가지로 RDoc을 이용해 소스에서 추출한 것으로 표준 라이브러리에
   대한 레퍼런스입니다.
+
+[루비 C API 레퍼런스][extensions] (영문)
+: 루비의 공식 C API 문서입니다.
+  루비 개발에 참여하거나, C 확장을 개발할 때 도움이 될 것입니다.
 
 [RubyDoc.info][16] (영문)
 : 루비 젬과 GitHub에서 호스팅 되는 루비 프로젝트의 레퍼런스 문서들을
@@ -125,16 +113,19 @@ ruby -v
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Atom][atom]
 
 * Windows
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
+  * [Atom][atom]
 
 * macOS
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (문서 브라우저)
+  * [Atom][atom]
 
 ### 더 읽을거리
 
@@ -157,6 +148,7 @@ ruby -v
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
@@ -181,6 +173,8 @@ ruby -v
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[40]: https://docs.ruby-lang.org/en/
+[atom]: https://atom.io/
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [ko-2]: http://beyond.daesan.com/pages/ruby-faq
 [ko-3]: https://groups.google.com/forum/#!forum/rubykr
