@@ -19,7 +19,7 @@ RC2는 Bundler 2.0 대신 1.17을 포함해보기 위해서 릴리스되었습�
 
 JIT 컴파일러는 루비 프로그램의 실행 성능을 향상시키는 것이 목적입니다.
 다른 언어의 일반적인 JIT 컴파일러와는 다르게, 루비의 JIT 컴파일러는 C 코드를 디스크에 출력한 뒤, 일반적인 C 컴파일러 프로세스를 사용해 네이티브 코드를 생성하도록 합니다.
-다음을 참고하세요. [Vladimir Makarov가 작성한 MJIT 구조](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
+다음을 참고하세요. [(Vladimir Makarov가) 작성한 MJIT 구조](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
 JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYOPT` 환경 변수에 지정합니다.
 `--jit-verbose=1`을 지정하면 실행 중인 JIT 컴파일의 기본적인 정보를 출력합니다. 다른 옵션에 대해서는 `ruby --help`를 확인하세요.
@@ -46,7 +46,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * ASCII 이외의 대문자로 시작하는 상수를 정의할 수 있게 됩니다. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* 종료 지정이 없는 범위 연산자. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
+* 종료 지정이 없는 범위 연산자가 추가됩니다. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
   종료 지정이 없는 범위 연산자, `(1..)`가 추가됩니다. 이는 끝이 없는 것처럼 취급됩니다. 다음은 전형적인 사용 예시입니다.
 
@@ -84,6 +84,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
   간단한 벤치마크에서 2.6배의 성능 향상을 확인했습니다.
 
 * Transient Heap(theap)이 도입되었습니다. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
+
   theap은 특정 클래스(Array, Hash, Object, Struct)가 가리키는 짧은 생애를
   가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체는
   2배 빨라집니다. rdoc 벤치마크에서 6-7%의 성능 향상을 확인했습니다.
