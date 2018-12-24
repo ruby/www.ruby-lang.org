@@ -36,7 +36,7 @@ Stay tuned for the new age of Ruby's performance.
 Ruby 2.6 introduces the `RubyVM::AbstractSyntaxTree` module.
 
 This module has a `parse` method which parses Ruby code from a given string and returns AST (Abstract Syntax Tree) nodes, and a `parse_file` method which parses Ruby code from a given file and returns AST nodes.
-The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get location information and children nodes from `Node` objects. This feature is experimental. Compatibility of the structure of AST nodes are not guaranteed.
+The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get location information and children nodes from `Node` objects. This feature is experimental. Compatibility of the structure of AST nodes is not guaranteed.
 
 ## New Features
 
@@ -80,6 +80,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get loc
 * Speedup `block.call` where `block` is passed block parameter. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
   Ruby 2.5 improves block passing performance. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
+
   Additionally, Ruby 2.6 improves the performance of passed block calling.
   With micro-benchmark we can observe x2.6 improvement.
 
@@ -92,7 +93,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get loc
 
 ## Other notable changes since 2.5
 
-* `$SAFE` is a process global state and we can set it to `0` again.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
+* `$SAFE` now is a process global state and can be set to `0` again.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
 * Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
