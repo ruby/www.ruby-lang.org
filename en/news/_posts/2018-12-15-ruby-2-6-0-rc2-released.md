@@ -19,7 +19,7 @@ Ruby 2.6 introduces an initial implementation of a JIT (Just-in-time) compiler.
 
 The JIT compiler aims to improve performance of any Ruby program execution.
 Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which writes C code to a disk and spawns a common C compiler process to generate native code.
-See also: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
+See also: [MJIT organization (by Vladimir Makarov)](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
 How to use: Just specify `--jit` in the command line or `$RUBYOPT` environment variable.
 Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT compilation. See `ruby --help` for other options.
@@ -46,7 +46,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get loc
 
 * Constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* endless range [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
+* Introduce endless ranges. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
   An endless range, `(1..)`, is introduced. It works as if it has no end. This shows typical use cases:
 
@@ -84,6 +84,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get loc
   With micro-benchmark we can observe x2.6 improvement.
 
 * Transient Heap (theap) is introduced. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
+
   theap is a managed heap for short-living memory objects which are pointed to by
   specific classes (Array, Hash, Object, and Struct). For example, making a small
   and short-living Hash object is x2 faster. With rdoc benchmark, we observed
