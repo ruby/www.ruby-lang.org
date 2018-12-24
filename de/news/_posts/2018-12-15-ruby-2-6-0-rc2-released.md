@@ -23,16 +23,16 @@ verbessern. Rubys JIT-Compiler arbeitet anders als herkömmliche
 JIT-Compiler für andere Programmiersprachen, denn er schreibt C-Code
 auf die Festplatte und startet dann einen gewöhnlichen
 C-Compiler-Prozess, um Maschinencode zu erzeugen. Siehe dazu auch:
-[Die Funktionsweise von MJIT von Wladimir Makarow](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
+[Die Funktionsweise von MJIT (von Wladimir Makarow)](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
-Um den JIT zu benutzen, geben Sie `--jit` als Kommandozeilenoption
+Um den JIT-Compiler zu benutzen, geben Sie `--jit` als Kommandozeilenoption
 oder in der Umgebungsvariablen `$RUBYOPT` an. Bei Angabe von
 `--jit-verbose=1` werden Informationen über die laufende
 JIT-Kompilation ausgegeben. Siehe auch `ruby --help` für weitere
 Optionen.
 
 Diese Veröffentlichung soll Ihnen Gelegenheit geben, zu überprüfen, ob
-der JIT auf Ihrer Plattform funktioniert. Außerdem soll eine Prüfung
+der JIT-Compiler auf Ihrer Plattform funktioniert. Außerdem soll eine Prüfung
 auf Sicherheitsprobleme noch vor der Freigabe von 2.6 ermöglicht
 werden. Der JIT-Compiler wird derzeit nur unterstützt, wenn Ruby mit
 GCC, Clang oder Microsoft VC++ gebaut wird und der Compiler auch
@@ -87,15 +87,15 @@ Struktur von AST-Knoten kann derzeit nicht gewährleistet werden.
   im Quelltext ein Binding definiert wurde. Dieselbe Information
   konnte bisher über `eval("[__FILE__, __LINE__]", binding)` ermittelt
   werden, allerdings planen wir, dieses Verhalten so zu ändern, dass
-  `Kernel#eval` den Definitionsort eines `binding` ignoriert [[Bug
-  #4352]](https://bugs.ruby-lang.org/issues/4352). Nutzern wird
+  `Kernel#eval` den Definitionsort eines `binding` ignoriert
+  [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352). Nutzern wird
   deshalb empfohlen, auf diese neu eingeführte Methode umzusteigen.
 
 * Option `:exception` zu `Kernel.#system` hinzugefügt. Diese Option
   führt dazu, dass #system statt `false` zurückzugeben einen Fehler
   verursacht. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
-* Einmal-Modus _(oneshot mode)_
+* Einmal-Modus _(oneshot mode)_ zu `Coverage`
   hinzugefügt. [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
 
   * Anstelle von „wie oft wurde eine bestimmte Zeile ausgeführt“,
@@ -129,12 +129,15 @@ Struktur von AST-Knoten kann derzeit nicht gewährleistet werden.
 
   Bereits Ruby 2.5 verbessert die Performanz bei der Übergabe von
   Blöcken. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
+
   Mit Ruby 2.6 wird auch der Aufruf von übergebenen Blöcken
   beschleunigt, sodass wir im Mikro-Benchmark eine 2,6-fache
   Beschleunigung messen konnten.
 
 * Es wird ein flüchtiger Heap _(transient heap, theap)_
-  eingeführt [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989). Dabei handelt es sich um
+  eingeführt [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989).
+
+  Dabei handelt es sich um
   einen automatisch verwalteten Freispeicher für kurzlebige Objekte im
   Speicher, auf welche von bestimmten Klassen (Array, Hash, Object und
   Struct) verwiesen wird. Dies führt beispielsweise dazu, dass die
@@ -170,7 +173,7 @@ Mit diesen Änderungen wurden
 [6411 Dateien geändert, 228864 Einfügungen(+), 97600 Löschungen(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc2)
 seit Ruby 2.5.0!
 
-Viel Spaß mit der Programmierung mit Ruby 2.6.0-rc2!
+Viel Spaß beim Programmieren mit Ruby 2.6.0-rc2!
 
 ## Download
 
