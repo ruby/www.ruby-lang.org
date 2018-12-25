@@ -109,7 +109,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) for more details.
 
-With those changes, [6376 files changed, 227364 insertions(+), 51599 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) since Ruby 2.5.0!
+With those changes, [6437 files changed, 231471 insertions(+), 98498 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) since Ruby 2.5.0!
 
 Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.6!
 
