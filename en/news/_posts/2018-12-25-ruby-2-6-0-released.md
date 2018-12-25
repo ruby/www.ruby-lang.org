@@ -99,7 +99,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
 
 * Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments have been changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* Unicode support is updated to version 11. We have plans to add support Unicode version 12 and 12.1 in a future TEENY release of Ruby 2.6. This will include support for the [new Japenese era](http://blog.unicode.org/2018/09/new-japanese-era.html).
+* Unicode support is updated to version 11. We have plans to add support Unicode version 12 and 12.1 in a future TEENY release of Ruby 2.6. This will include support for the [new Japanese era](http://blog.unicode.org/2018/09/new-japanese-era.html).
 
 * Merge RubyGems 3.0.1. The `--ri` and `--rdoc` options have been removed. Please use `--document` and `--no-document` options instead.
 
