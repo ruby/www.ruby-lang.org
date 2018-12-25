@@ -105,7 +105,7 @@ Ruby 2.6では抽象構文木を扱う `RubyVM::AbstractSyntaxTree` モジュー
 
 なお、こうした変更により、Ruby 2.5.0 以降では [6376 個のファイルに変更が加えられ、227364 行の追加と 51599 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) !
 
-メリークリスマス。Ruby とともに良いお年を！
+メリークリスマス。Ruby 2.6 とともに良いお年を！
 
 ## Download
 
