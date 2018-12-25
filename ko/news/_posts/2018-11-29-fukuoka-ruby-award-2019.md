@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "2018 후쿠오카 루비 경진대회 - Matz가 심사합니다"
+title: "2019 후쿠오카 루비 경진대회 - Matz가 심사합니다"
 author: "Fukuoka Ruby"
 translator: "shia"
 date: 2018-11-29 00:00:00 +0000
