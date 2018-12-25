@@ -95,7 +95,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * `ERB.new`에 `safe_level`을 넘기는 기능이 제거될 예정입니다. 또한 `trim_mode`와 `eoutvar`는 키워드 변수로 변경됩니다. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* 유니코드 지원 버전이 11.0.0으로 갱신되었습니다. 이는 루비 2.6의 TEENY 릴리스에서 12와 12.1로 갱신될 예정입니다.
+* 유니코드 지원 버전이 11으로 갱신되었습니다. 이는 루비 2.6의 TEENY 릴리스에서 12와 12.1로 갱신될 예정입니다.
 
 * RubyGems 3.0.0.beta3를 병합했습니다. `--ri`와 `--rdoc` 옵션이 제거되었습니다. 대신에 `--document`와 `--no-document`를 사용해주세요.
 
