@@ -48,7 +48,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
       ary[1..]                          # ary[1..-1]와 동치
       (1..).each {|index| ... }         # 1로 시작하는 무한 루프
-      ary.zip(1..) {|elem, index| block }  # ary.each.with_index(1) { ... }
+      ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * `Enumerable#chain`과 `Enumerator#+`가 추가되었습니다. [[Feature #15144]](https://bugs.ruby-lang.org/issues/15144)
 
