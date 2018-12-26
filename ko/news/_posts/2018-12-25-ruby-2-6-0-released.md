@@ -87,7 +87,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * Transient Heap(`theap`)이 도입되었습니다. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
 
-  `theap`은 특정 클래스(`Array`, `Hash`, `Object`, `Struct`)가 가리키는 짧은 생애를 가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체는 2배 빨라집니다. rdoc 벤치마크에서 6-7%의 성능 향상을 확인했습니다.
+  `theap`은 특정 클래스(`Array`, `Hash`, `Object`, `Struct`)가 가리키는 짧은 생애를 가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체의 생성이 2배 빨라집니다. rdoc 벤치마크에서 6-7%의 성능 향상을 확인했습니다.
 
 * Fiber의 컨텍스트 변경 속도를 현저하게 향상시키는 코루틴의 네이티브 구현체(`arm32`, `arm64`, `ppc64le`, `win32`, `win64`, `x86`, `amd64`)가 추가되었습니다. [[Feature #14739]](https://bugs.ruby-lang.org/issues/14739)
 
