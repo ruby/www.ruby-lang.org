@@ -46,6 +46,7 @@ a:hover { color: #0086b3; }
 
 p {
   margin: 20px 0;
+  line-height: 1.4rem;
   text-rendering: optimizeLegibility;
 }
 
