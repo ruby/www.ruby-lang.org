@@ -20,11 +20,11 @@ Ruby 2.6 introduces an initial implementation of a JIT (Just-In-Time) compiler.
 
 The JIT compiler aims to improve the performance of Ruby programs. Unlike traditional JIT compilers which operate in-process, Ruby's JIT compiler writes out C code to disk and spawns a common C compiler to generate native code. For more details about it, see the [MJIT organization by Vladimir Makarov](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#MJIT-organization).
 
-In order to enable the JIT compiler, specify `--jit` on the command line or in the `$RUBYOPT` environment variable. Specifying `--jit-verbose=1` will cause the JIT compiler to print additional information. Read the output of `ruby --help` or [the documentation](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage) for other options.
+In order to enable the JIT compiler, specify `--jit` on the command line or in the `$RUBYOPT` environment variable. Specifying `--jit-verbose=1` will cause the JIT compiler to print additional information. Read the output of `ruby --help` or the [documentation](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage) for other options.
 
 The JIT compiler is supported when Ruby is built by GCC, Clang, or Microsoft VC++, which needs to be available at runtime.
 
-As of Ruby 2.6.0, we have achieved [1.7x faster performance](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208) compared to Ruby 2.5 on a CPU-intensive, non-trivial benchmark called [Optcarrot](https://github.com/mame/optcarrot). However, it is still experimental and many other memory-intensive workloads like Rails might not benefit from it at the moment. For more details, see [Ruby 2.6 JIT - Progress and Future](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf).
+As of Ruby 2.6.0, we have achieved [1.7x faster performance](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208) compared to Ruby 2.5 on a CPU-intensive, non-trivial benchmark called [Optcarrot](https://github.com/mame/optcarrot). However, it is still experimental and many other memory-intensive workloads like Rails applications might not benefit from it at the moment. For more details, see [Ruby 2.6 JIT - Progress and Future](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf).
 
 Stay tuned for the new age of Ruby's performance.
 
@@ -50,7 +50,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
       (1..).each {|index| ... }         # enumerates values starting from index 1
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* Add `Enumerable#chain` and `Enumerator#+` [[Feature #15144]](https://bugs.ruby-lang.org/issues/15144)
+* Add `Enumerable#chain` and `Enumerator#+`. [[Feature #15144]](https://bugs.ruby-lang.org/issues/15144)
 
 * Add function composition operators `<<` and `>>` to `Proc` and `Method`. [[Feature #6284]](https://bugs.ruby-lang.org/issues/6284)
 
@@ -65,14 +65,14 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
 
 * Add an `exception:` option to `Kernel#system` which causes it to raise an exception on failure instead of returning `false`. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
-* Add a oneshot mode to `Coverage` [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
+* Add a oneshot mode to `Coverage`. [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
 
   * This mode checks "whether each line was executed at least once or not", instead of "how many times each line was executed".  A hook for each line is fired only once, and once it is fired the hook flag will be removed, i.e., it runs with zero overhead.
-  * Add `oneshot_lines:` keyword argument to Coverage.start.
-  * Add `stop:` and `clear:` keyword arguments to Coverage.result. If `clear` is true, it clears the counters to zero.  If `stop` is true, it disables coverage measurement.
-  * Coverage.line_stub is a simple helper function that creates the "stub" of line coverage from a given source code.
+  * Add `oneshot_lines:` keyword argument to `Coverage.start`.
+  * Add `stop:` and `clear:` keyword arguments to `Coverage.result`. If `clear` is true, it clears the counters to zero.  If `stop` is true, it disables coverage measurement.
+  * `Coverage.line_stub` is a simple helper function that creates the "stub" of line coverage from a given source code.
 
-* Add `FileUtils#cp_lr`.  It works just like cp_r but links instead of copies.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
+* Add `FileUtils#cp_lr`.  It works just like `cp_r` but links instead of copies.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 
 ## Performance improvements
 
@@ -87,7 +87,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
 
 * Transient Heap (`theap`) is introduced. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
 
-  `theap` is managed heap for short-living memory objects which are pointed by specific classes (`Array`, `Hash`, `Object`, and `Struct`). Making small and short-living Hash object is 2x faster. With rdoc benchmark, we observed 6-7% performance improvement.
+  `theap` is a managed heap for short-living memory objects which are pointed to by specific classes (`Array`, `Hash`, `Object`, and `Struct`). Making small and short-living Hash objects is 2x faster. With rdoc benchmark, we observed 6-7% performance improvement.
 
 * Native implementations (`arm32`, `arm64`, `ppc64le`, `win32`, `win64`, `x86`, `amd64`) of coroutines to improve context switching performance of Fiber significantly. [[Feature #14739]](https://bugs.ruby-lang.org/issues/14739)
 
@@ -99,9 +99,9 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
 
 * Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments have been changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* Unicode support is updated to version 11. We have plans to add support Unicode version 12 and 12.1 in a future TEENY release of Ruby 2.6. This will include support for the [new Japanese era](http://blog.unicode.org/2018/09/new-japanese-era.html).
+* Unicode support is updated to version 11. We have plans to add support for Unicode version 12 and 12.1 in a future TEENY release of Ruby 2.6. This will include support for the [new Japanese era](http://blog.unicode.org/2018/09/new-japanese-era.html).
 
-* Merge RubyGems 3.0.1. The `--ri` and `--rdoc` options have been removed. Please use `--document` and `--no-document` options instead.
+* Merge RubyGems 3.0.1. The `--ri` and `--rdoc` options have been removed. Please use the `--document` and `--no-document` options instead.
 
 * [Bundler](https://github.com/bundler/bundler) is now installed as a default gem.
 
