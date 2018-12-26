@@ -72,7 +72,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
   * `Coverage.result`에 `:stop`과 `:clear` 키워드 인수가 추가됩니다. 만약 `clear`가 참이라면, 이는 카운터를 0으로 초기화합니다. 만약 `stop`이 참이라면 커버리지 측정을 비활성화합니다.
   * 주어진 소스 코드로부터 'stub'을 생성하는 간단한 헬퍼 함수인 `Coverage.line_stub`을 추가합니다.
 
-* `FileUtils#cp_lr`을 추가했습니다. 이는 cp_r 처럼 동작하지만, 복사를 하는 대신 링크를 생성합니다. [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
+* `FileUtils#cp_lr`을 추가했습니다. 이는 `cp_r`처럼 동작하지만, 복사를 하는 대신 링크를 생성합니다. [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 
 ## 성능 향상
 
