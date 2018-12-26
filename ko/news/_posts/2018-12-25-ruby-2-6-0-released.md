@@ -9,7 +9,7 @@ lang: ko
 
 루비 2.6.0의 릴리스를 알리게 되어 기쁩니다.
 
-이는 여러 새 기능과 기능 향상을 포함하며, 눈에 띄는 것은 아래와 같습니다.
+이는 여러 새 기능과 기능 향상을 포함하며, 주목할 만한 것은 아래와 같습니다.
 
  * 새로운 JIT 컴파일러.
  * `RubyVM::AbstractSyntaxTree` 모듈.
@@ -20,11 +20,11 @@ lang: ko
 
 JIT 컴파일러는 루비 프로그램의 실행 성능을 향상시키는 것이 목적입니다. 다른 언어의 일반적인 JIT 컴파일러와는 다르게, 루비의 JIT 컴파일러는 C 코드를 디스크에 출력한 뒤, 일반적인 C 컴파일러 프로세스를 사용해 네이티브 코드를 생성하도록 합니다. [Vladimir Makarov가 작성한 MJIT 구조](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#MJIT-organization)를 참고하세요.
 
-JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYOPT` 환경 변수에 지정합니다. `--jit-verbose=1`을 지정하면 실행 중인 JIT 컴파일의 기본적인 정보를 출력합니다. 다른 옵션에 대해서는 `ruby --help`나 [문서](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage)를 확인하세요.
+JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYOPT` 환경 변수에 지정합니다. `--jit-verbose=1`을 지정하면 실행 중인 JIT 컴파일의 추가적인 정보를 출력합니다. 다른 옵션에 대해서는 `ruby --help`나 [문서](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage)를 확인하세요.
 
 현재 JIT 컴파일러는 루비가 gcc나 clang, Microsoft VC++로 빌드되었으며, 해당 컴파일러가 런타임에서 사용 가능한 경우에만 이용할 수 있습니다.
 
-2.6.0에서는 [Optcarrot](https://github.com/mame/optcarrot)이라는 CPU 성능을 요구하는 벤치마크에서 루비 2.5에 비해 [1.7배의 성능 향상](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208)을 이루었습니다. 하지만 여전히 실험적인 기능이며 Rails 애플리케이션 같은 메모리를 요구하는 작업에서는 이득이 없을 수도 있습니다. 더 자세한 설명은 [Ruby 2.6 JIT - Progress and Future](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf) (영문)을 참고하세요.
+2.6.0에서는 [Optcarrot](https://github.com/mame/optcarrot)이라는 CPU 성능을 요구하는 벤치마크에서 루비 2.5에 비해 [1.7배의 성능 향상](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208)을 이루었습니다. 하지만 여전히 실험적인 기능이며 Rails 애플리케이션 같은 메모리를 요구하는 작업에서는 이득이 없을 수도 있습니다. 더 자세한 설명은 [Ruby 2.6 JIT - Progress and Future](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf)(영문)를 참고하세요.
 
 새로운 루비의 성능을 기대해주세요.
 
@@ -46,8 +46,8 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
   종료 지정이 없는 범위 연산자 `(1..)`가 추가됩니다. 이는 끝이 없는 것처럼 취급됩니다. 다음은 전형적인 사용 예시입니다.
 
-      ary[1..]                             # ary[1..-1]와 동치
-      (1..).each {|index| block }          # 1로 시작하는 무한 루프
+      ary[1..]                          # ary[1..-1]와 동치
+      (1..).each {|index| ... }         # 1로 시작하는 무한 루프
       ary.zip(1..) {|elem, index| block }  # ary.each.with_index(1) { ... }
 
 * `Enumerable#chain`과 `Enumerator#+`가 추가되었습니다. [[Feature #15144]](https://bugs.ruby-lang.org/issues/15144)
@@ -83,9 +83,9 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * `block`이 블록 파라미터인 경우의 `block.call`이 빨라졌습니다. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
-  루비 2.5에서 개선된 블록 넘기기 기능을 포함하여, 루비 2.6에서는 블록 평가가 간단한 벤치마크에서 2.6배 빨라졌습니다. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045),
+  루비 2.5에서 개선된 블록 넘기기 기능을 포함하여, 루비 2.6에서는 블록 평가가 간단한 벤치마크에서 2.6배 빨라졌습니다. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
 
-* Transient Heap(theap)이 도입되었습니다. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
+* Transient Heap(`theap`)이 도입되었습니다. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
 
   `theap`은 특정 클래스(`Array`, `Hash`, `Object`, `Struct`)가 가리키는 짧은 생애를 가지는 메모리 객체들을 관리합니다. 예를 들어 작고 짧게 생존하는 Hash 객체는 2배 빨라집니다. rdoc 벤치마크에서 6-7%의 성능 향상을 확인했습니다.
 
@@ -99,7 +99,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 * `ERB.new`에 `safe_level`을 넘기는 기능이 제거될 예정입니다. 또한 `trim_mode`와 `eoutvar`는 키워드 변수로 변경됩니다. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* 유니코드 지원 버전이 11으로 갱신되었습니다. 이는 루비 2.6의 TEENY 릴리스에서 12와 12.1로 갱신될 예정입니다. 이는 [새 일본 연호](http://blog.unicode.org/2018/09/new-japanese-era.html) (영문)에 대한 지원이 포함됩니다.
+* 유니코드 지원 버전이 11로 갱신되었습니다. 이는 루비 2.6의 TEENY 릴리스에서 12와 12.1로 갱신될 예정입니다. 이는 [새 일본 연호](http://blog.unicode.org/2018/09/new-japanese-era.html)(영문)에 대한 지원을 포함합니다.
 
 * RubyGems 3.0.1을 병합했습니다. `--ri`와 `--rdoc` 옵션이 제거되었습니다. 대신에 `--document`와 `--no-document`를 사용해주세요.
 
@@ -109,9 +109,9 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 [NEWS](https://github.com/ruby/ruby/blob/v2_6_0/NEWS)나 [커밋 로그](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0)에서 더 자세한 설명을 확인할 수 있습니다.
 
-이러한 변경 사항에 따라, 루비 2.5.0 이후로 [파일 6437개 수정, 231471줄 추가(+), 98498줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc2)가 이루어졌습니다!
+이러한 변경 사항에 따라, 루비 2.5.0 이후로 [파일 6437개 수정, 231471줄 추가(+), 98498줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0)가 이루어졌습니다!
 
-메리 크리스마스, 행복한 휴일 보내시고, 루비 2.6와 함께 즐거운 프로그래밍 하세요!
+메리 크리스마스, 행복한 휴일 보내시고, 루비 2.6과 함께 즐거운 프로그래밍 하세요!
 
 ## 다운로드
 
