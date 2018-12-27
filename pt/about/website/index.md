@@ -42,7 +42,7 @@ Também agradecemos a todas as organizações que nos dão suporte:
  * [Hatena][hatena] ([mackerel][mackerel], monitoramento do servidor)
  * [![CloudCore][cloudcore-logo] CloudCore][cloudcore] (servidor de build)
  * [Ruby no Kai][rubynokai] (servidor de build)
- 
+
 
 [logo]: /pt/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
