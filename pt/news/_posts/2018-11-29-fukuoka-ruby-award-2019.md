@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Competição Fukuoka Ruby Award 2019 - Aplicaçoes a serem julgadas pelo Matz"
+title: "Competição Fukuoka Ruby Award 2019 - Aplicações a serem julgadas pelo Matz"
 author: "Fukuoka Ruby"
 translator: "vnbrs (Vinicius Brasil)
 date: 2018-11-29 00:00:00 +0000
