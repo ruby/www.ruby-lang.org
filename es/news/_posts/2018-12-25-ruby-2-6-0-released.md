@@ -178,25 +178,25 @@ Feliz Navidad, Felices Fiestas y disfrute programar con Ruby 2.6.0!
       SIZE:   16687800 bytes
       SHA1:   c95f4e86e21390270dad3ebb94491fd42ee2ce69
       SHA256: f3c35b924a11c88ff111f0956ded3cdc12c90c04b72b266ac61076d3697fc072
-      SHA512: 01f886b0c0782a06315c4a46414e9f2b66ee634ba4349c8e0697f511793ae3c56d2ad3cad6563f2b0fdced
-f0ff3eba51b9afab907e7e1ac243475772f8688382
+      SHA512: 01f886b0c0782a06315c4a46414e9f2b66ee634ba4349c8e0697f511793ae3c56d2ad3cad6563f2b0fdcedf0ff3eba51b9afab907e7e1ac243475772f8688382
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.zip>
 
       SIZE:   20582054 bytes
       SHA1:   a804e63d18da12107e1d101918a3d8f4c5462a27
       SHA256: 8a4fb6ca58202495c9682cb88effd804398bd0ef023e3e36f001ca88d8b5855a
-      SHA512: 16d66ec4a2c6a2e928d5b50e094a5efa481ac6e4d5ed77459d351ef19fe692aa59b68307e3e25229eec5f3
-0ae2f9adae2663bafe9c9d44bfb45d3833d77839d4
+      SHA512: 16d66ec4a2c6a2e928d5b50e094a5efa481ac6e4d5ed77459d351ef19fe692aa59b68307e3e25229eec5f30ae2f9adae2663bafe9c9d44bfb45d3833d77839d4
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.bz2>
 
       SIZE:   14585856 bytes
       SHA1:   b8638eb806efbf7b6af87b24ccc6ad915f262318
       SHA256: c89ca663ad9a6238f4b1ec4d04c7dff630560c6e6eca6d30857c4d394f01a599
       SHA512: ca3daf9acf11d3db2900af21b66231bd1f025427a9d2212b35f6137ca03f77f57171ddfdb99022c8c8bcd730ff92a7a4af54e8a2a770a67d8e16c5807aa391f1
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.xz>
 
       SIZE:   11918536 bytes
       SHA1:   9ddaeba3505d2855460c8c653159fc0ac8928c0f
       SHA256: acb00f04374899ba8ee74bbbcb9b35c5c6b1fd229f1876554ee76f0f1710ff5f
       SHA512: c56eaf85ef7b79deb34ee4590b143c07f4fc83eb79775290761aee5a7c63374659613538a41f25706ed6e19e49d5c67a1014c24d17f29948294c7abd0b0fcea8
-
