@@ -98,20 +98,22 @@ Ruby 2.6では `RubyVM::AbstractSyntaxTree` モジュールが導入されまし
       SIZE:   16823448 bytes
       SHA1:   889db7731fd43f6dbf7f31ffdb0a29bba1a8d356
       SHA256: 6d6183639ed9c02320d7132e97c65489a39e24d8b55fc4ed35ac53d1189cb61d
-      SHA512: ad101adee5c43f3645561e73970f15d4e9141f707da69a92e224575c665949e18ca53389e5315fca2ea393
-4d77967a59e304353cde4a915537e7c4e4ee20be73
+      SHA512: ad101adee5c43f3645561e73970f15d4e9141f707da69a92e224575c665949e18ca53389e5315fca2ea3934d77967a59e304353cde4a915537e7c4e4ee20be73
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.zip>
 
       SIZE:   20737499 bytes
       SHA1:   457e39aee1978da5e42af42a6ad230421544aa07
       SHA256: 2bcdf468de499e4d6983d60d63dcc883f4c54fdc05a08a54eb93d315477bc4cc
       SHA512: 0842fae8a199f6c1e76f5d775edbf468e18a54f0419324eb73595e0268c728c71733371d71dc2fa342105dbc487987ca5556948a9ef067276a7b5f552462802a
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.bz2>
 
       SIZE:   14607078 bytes
       SHA1:   269fe9d414d7731e4a63959fadffe5c50c08ce0e
       SHA256: b4e9c0e8801946e9f0baba30948955f4341e9e04f363c206b7bd774208053eb5
       SHA512: cbd6281b2aab6fbce3f699c1ab57e5423304dca7a547a0b3cd4e8e980326dc7b85b2ca2bfaf3f3a648d40f4222fdf1740d81d422790ee7ae1ba1ed33eb11e3e8
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.xz>
 
       SIZE:   11851908 bytes
