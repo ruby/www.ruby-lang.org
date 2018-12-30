@@ -16,7 +16,7 @@ describe Linter do
 
   it "can run ok" do
     Dir.chdir @md_ok
-    stdout, stderr = capture_io { Linter.new.run }
+    stdout, stderr = capture_io { Linter.new(exit_on_errors: false).run }
 
     stdout.must_equal @output_ok
   end
