@@ -34,11 +34,14 @@ e outros colaboradores deste website.
 
 Também agradecemos a todas as organizações que nos dão suporte:
 
- * [NaCl][nacl] (hospedagem)
+ * [Ruby Association][rubyassociation] (hospedagem)
  * [Heroku][heroku] (hospedagem)
  * [IIJ][iij] (hospedagem)
  * [GlobalSign][globalsign] (certificação SSL)
  * [Fastly][fastly] (CDN)
+ * [Hatena][hatena] ([mackerel][mackerel], monitoramento do servidor)
+ * [![CloudCore][cloudcore-logo] CloudCore][cloudcore] (servidor de build)
+ * [Ruby no Kai][rubynokai] (servidor de build)
 
 
 [logo]: /pt/about/logo/
@@ -48,8 +51,13 @@ Também agradecemos a todas as organizações que nos dão suporte:
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[hatena]: http://hatenacorp.jp/
+[mackerel]: https://mackerel.io/
+[cloudcore]: http://www.cloudcore.jp/?utm_source=ad&utm_medium=ad&utm_content=dev&utm_campaign=vps
+[cloudcore-logo]: http://www.cloudcore.jp/develop/links/images/74x36_white.gif
+[rubynokai]: http://ruby-no-kai.org/
