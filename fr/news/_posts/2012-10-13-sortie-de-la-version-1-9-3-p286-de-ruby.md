@@ -22,20 +22,17 @@ détails.
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2&gt;][5]
   * TAILLE: 9961862 bytes
   * MD5: e76848a86606a4fd5dcf14fc4b4e755e
-  * SHA256:
-    5281656c7a0ae48b64f28d845a96b4dfa16ba1357a911265752787585fb5ea64
+  * SHA256: 5281656c7a0ae48b64f28d845a96b4dfa16ba1357a911265752787585fb5ea64
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz&gt;][6]
   * TAILLE: 12459652 bytes
   * MD5: e2469b55c2a3d0d643097d47fe4984bb
-  * SHA256:
-    e94367108751fd6bce79401d947baa66096c757fd3a0856350a2abd05d26d89d
+  * SHA256: e94367108751fd6bce79401d947baa66096c757fd3a0856350a2abd05d26d89d
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip&gt;][7]
   * TAILLE: 13906047 bytes
   * MD5: 8b3c2d6bd306804ed198260e4f5b6418
-  * SHA256:
-    9d59c5885e66e6fbfbc49a2b6b80429141f8bdd2827747ec9a4eee7c2252b522
+  * SHA256: 9d59c5885e66e6fbfbc49a2b6b80429141f8bdd2827747ec9a4eee7c2252b522
 
 
 

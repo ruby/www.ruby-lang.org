@@ -36,8 +36,7 @@ O Download está disponível em:
 
   MD5: 0278610ec3f895ece688de703d99143e
 
-  SHA256:
-  de7d33aeabdba123404c21230142299ac1de88c944c9f3215b816e824dd33321
+  SHA256: de7d33aeabdba123404c21230142299ac1de88c944c9f3215b816e824dd33321
 ^
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz][5]
@@ -45,8 +44,7 @@ O Download está disponível em:
 
   MD5: 50e4f381ce68c6de72bace6d75f0135b
 
-  SHA256:
-  a5485951823c8c22ddf6100fc9e10c7bfc85fb5a4483844033cee0fad9e292cc
+  SHA256: a5485951823c8c22ddf6100fc9e10c7bfc85fb5a4483844033cee0fad9e292cc
 ^
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip][6]
@@ -54,8 +52,7 @@ O Download está disponível em:
 
   MD5: 3377d43b041877cda108e243c6b7f436
 
-  SHA256:
-  00562fce4108e5c6024c4152f943eaa7dcc8cf97d5c449ac102673a0d5c1943b
+  SHA256: 00562fce4108e5c6024c4152f943eaa7dcc8cf97d5c449ac102673a0d5c1943b
 
 
 
