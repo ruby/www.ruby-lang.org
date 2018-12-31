@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 2.6.0-preview3 已發佈"
+title: "Ruby 2.6.0-rc1 已發佈"
 author: "naruse"
-translator: "Delton Ding"
-date: 2018-11-06 00:00:00 +0000
+translator: Delton Ding
+date: 2018-12-06 00:00:00 +0000
 lang: zh_tw
 ---
 
-我們很榮幸的宣布 Ruby 2.6.0-preview3 發布了。
+我們很榮幸的宣布 Ruby 2.6.0-rc1 發布了。
 
-Ruby 2.6.0-preview3 是 Ruby 2.6.0 第三個預覽版。此次 preview3 的發佈意在發佈候選版前測試新特性。
+Ruby 2.6.0-rc1 是 Ruby 2.6.0 的第一個候選版本。此版本包括數個新特性和效能提升。例如：
 
 ## JIT
 
@@ -21,17 +21,17 @@ JIT 編譯器專注於提升任何 Ruby 程式的執行速度。不同於其他�
 
 此次 JIT 預覽版發布的主要目為提供使用者檢查是否適用於您的平台，並且在 2.6 正式版本發布前找出安全性風險。現行的 JIT 編譯器僅在透過 gcc clang 或 Microsoft VC++ 建構 Ruby 以及編譯器可運行時進行支援，除此之外你無法使用它。
 
-在 2.6.0-preview3 中，我們相比 Ruby 2.5 在 CPU 密集場景的性能測試 Optcarrot<https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208> 中，取得了 1.7 倍的效能提升。我們正着手優化記憶體密集場景例如 Rails 應用中的執行效能。
+在 2.6.0-rc1 中，我們相比 Ruby 2.5 在 CPU 密集場景的性能測試 Optcarrot<https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208> 中，取得了 1.7 倍的效能提升。我們正着手優化記憶體密集場景例如 Rails 應用中的執行效能。
 
 請持續關注 Ruby 效能的全新時代。
 
-## RubyVM::AST [ 實驗性質 ]
+## RubyVM::AbstractSyntaxTree [ 實驗性質 ]
 
-Ruby 2.6 引入了 `RubyVM::AST` 模組。
+Ruby 2.6 引入了 `RubyVM::AbstractSyntaxTree` 模組。
 
 此模組擁有 `parse` 方法，解析給予的 Ruby 程式碼字串並回傳抽象語法樹 AST（Abstract Syntax Tree）節點，以及解析給予 Ruby 程式碼檔案並回傳 AST 節點的 `parse_file` 方法。
 
-同樣也引入了 `RubyVM::AST::Node` 類別，您可以從 `Node` 物件中獲取位置訊息和子結點，此功能為實驗性質，無法保證 AST 節點結構的兼容性。
+同樣也引入了 `RubyVM::AbstractSyntaxTree::Node` 類別，您可以從 `Node` 物件中獲取位置訊息和子結點，此功能為實驗性質，無法保證 AST 節點結構的相容性。
 
 ## 新功能
 
@@ -60,7 +60,7 @@ Ruby 2.6 引入了 `RubyVM::AST` 模組。
   * 爲 `Coverage.result` 方法新增 `:stop` 和 `:clear` 參數。若 `clear` 設爲 true，它會清空計數器。若 `stop` 設爲 true。它會禁用覆蓋測量。
   * 新增 Coverage.line_stub，其爲原始碼新建覆蓋存根（stub）提供了一個簡單的幫助函式。
 
-* `FileUtils#cp_lr`.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
+* `FileUtils#cp_lr`。[[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 
 ## 效能提升
 
@@ -68,7 +68,7 @@ Ruby 2.6 引入了 `RubyVM::AST` 模組。
 
 * 提升了當 `block` 為 block 參數時 `block.call` 的效能。[[Feature #14330]](https://bugs.ruby-lang.org/issues/14330) Ruby 2.5 提升了 block 傳遞效能。[[Feature #14045]](https://bugs.ruby-lang.org/issues/14045) 另外，Ruby 2.6 提升了 block 傳遞的呼叫效能。藉由 micro-benchmark 我們測得了 2.6 倍的提升。
 
-* 引入了瞬態堆積（theap）。[[Bug #14858](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]]((https://bugs.ruby-lang.org/issues/14989)) teap 是用來管理短生命週期的指向特定類別（Array、Hash、Object 和 Struct）指標的堆積。舉例來說，新建小而短生命週期的 Hash 物件的效能提升了 2x。藉由 rdoc benchmark，我們測得了 6%-7% 的效能提升。
+* 引入了瞬態堆積（theap）。[Bug #14858] [Feature #14989] teap 是用來管理短生命週期的指向特定類別（Array、Hash、Object 和 Struct）指標的堆積。舉例來說，新建小而短生命週期的 Hash 物件的效能提升了 2x。藉由 rdoc benchmark，我們測得了 6%-7% 的效能提升。
 
 ## 自 2.5 起重要的變化
 
@@ -76,46 +76,48 @@ Ruby 2.6 引入了 `RubyVM::AST` 模組。
 
 * 不再建議將 safe_level 參數傳遞給 ERB.new 的行為。trim_mode 和 eoutvar 參數被轉換成關鍵字參數。[[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* 合併 RubyGems 3.0.0.beta2。`--ri` 和 `--rdoc` 選項已被移除。請改用 `--document` 和 `--no-document` 選項。
+* 將支援的 Unicode 版本升級至 11。我們計劃在 2.6 的小版本更新中升至 12 和 12.1 版本。
 
-* 合併 [Bundler](https://github.com/bundler/bundler) 作爲缺省 gems。
+* 合併 RubyGems 3.0.0.beta3。`--ri` 和 `--rdoc` 選項已被移除。請改用 `--document` 和 `--no-document` 選項。
 
-請參考 [新聞](https://github.com/ruby/ruby/blob/v2_6_0_preview3/NEWS)
-或 [提交紀錄](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)
+* 合併 [Bundler](https://github.com/bundler/bundler) 作爲預設 gems。
+
+請參考 [新聞](https://github.com/ruby/ruby/blob/v2_6_0_rc1/NEWS)
+或 [提交紀錄](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc1)
 來進一步了解。
 
 自 Ruby 2.5.0 以來，共計有
-[6474 個文件變更，171888 行增加(+)，46617 行刪減(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)
+[6376 個文件變更，227364 行增加(+)，51599 行刪減(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc1)
 ！
 
-與 Ruby 2.6.0-preview3 一起享受編程吧！
+與 Ruby 2.6.0-rc1 一起享受編程吧！
 
 ## 下載
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.gz>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.gz>
 
-      SIZE:   17071670 bytes
-      SHA1:   67836fda11fa91e0b988a6cc07989fbceda025b4
-      SHA256: 60243e3bd9661e37675009ab66ba63beacf5dec748885b9b93916909f965f27a
-      SHA512: 877278cd6e9b947f5bb6ed78136efb232dcc9c5c218b7236576171e7c3cd7f6b7d10d07d8402014a14aba1fcd1913a4370f0725c561ead41d8a3fe92029f7f76
+      SIZE:   16823448 bytes
+      SHA1:   889db7731fd43f6dbf7f31ffdb0a29bba1a8d356
+      SHA256: 6d6183639ed9c02320d7132e97c65489a39e24d8b55fc4ed35ac53d1189cb61d
+      SHA512: ad101adee5c43f3645561e73970f15d4e9141f707da69a92e224575c665949e18ca53389e5315fca2ea3934d77967a59e304353cde4a915537e7c4e4ee20be73
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.zip>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.zip>
 
-      SIZE:   21537655 bytes
-      SHA1:   45f3c90dfffe03b746f21f24152666e361cbb41a
-      SHA256: 9152af9e700349dcfa2eec196dd91587d42d70a6837fa2c415ebba1167587be1
-      SHA512: 335de36cf56706326f4acc4bbd35be01e0ac5fff30d0a69b2e1630ba4c78f0e711822d1623d0099a517c824b154917d2f60be192dfb143a422cf1d17b38e1183
+      SIZE:   20737499 bytes
+      SHA1:   457e39aee1978da5e42af42a6ad230421544aa07
+      SHA256: 2bcdf468de499e4d6983d60d63dcc883f4c54fdc05a08a54eb93d315477bc4cc
+      SHA512: 0842fae8a199f6c1e76f5d775edbf468e18a54f0419324eb73595e0268c728c71733371d71dc2fa342105dbc487987ca5556948a9ef067276a7b5f552462802a
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.bz2>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.bz2>
 
-      SIZE:   14973451 bytes
-      SHA1:   5f2df5d8c5a3888ccb915d36a3532ba32cda8791
-      SHA256: 1f09a2ac1ab26721923cbf4b9302a66d36bb302dc45e72112b41d6fccc5b5931
-      SHA512: d1693625723796e8902f3e4c4fae444f2912af9173489f7cf18c99db2a217afc971b082fce7089e39f8edd54d762d2b4e72843c8306ed29b05ccb15ac03dbb5b
+      SIZE:   14607078 bytes
+      SHA1:   269fe9d414d7731e4a63959fadffe5c50c08ce0e
+      SHA256: b4e9c0e8801946e9f0baba30948955f4341e9e04f363c206b7bd774208053eb5
+      SHA512: cbd6281b2aab6fbce3f699c1ab57e5423304dca7a547a0b3cd4e8e980326dc7b85b2ca2bfaf3f3a648d40f4222fdf1740d81d422790ee7ae1ba1ed33eb11e3e8
 
-* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.xz>
+* <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.xz>
 
-      SIZE:   12291692 bytes
-      SHA1:   7f8216247745215e9645568e7a02140f9a029b31
-      SHA256: 9856d9e0e32df9e5cdf01928eec363d037f1a76dab2abbf828170647beaf64fe
-      SHA512: b4d3b17ecf96272c43cd7518c0b54dee63fc1150ad143e1d9c9d708506fe78676c80eb96cc47b8d46d1128bd483a53f16c944963a03d1f99f00131b74714df7b
+      SIZE:   11851908 bytes
+      SHA1:   3b93fdf1c5bd969ab4fe0a8176a6cf64e4597e6e
+      SHA256: 21d9d54c20e45ccacecf8bea4dfccd05edc52479c776381ae98ef6a7b4afa739
+      SHA512: 3d93d8d80e4900e8b3a27f904ed60581cebc6c55f4ab7acafc81e95001f92f3ea4ddec2da6169b1ed5e0146f7b7c35c1c13b3243955d5825c72170834fe933f3
