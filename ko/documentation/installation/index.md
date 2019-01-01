@@ -95,17 +95,17 @@ $ sudo yum install ruby
 설치된 버전은 보통 그 특정 배포 버전 릴리스 시기의 최신 버전의 루비입니다.
 
 
-### snap (Ubuntu or other linux distribution)
+### snap (Ubuntu나 다른 리눅스 배포판)
 {: #snap}
 
-Snap is a package manager developed by Canonical. It's available out-of-the-box on Ubuntu, but snap also works on many Linux distributions.
-You can use it like this.
+Snap은 Canonical에 의해 개발된 패키지 매니저입니다. 이는 Ubuntu에서 바로 사용가능합니다만, 다른 리눅스 배포판에서도 동작합니다.
+다음과 같이 사용할 수 있습니다.
 
 {% highlight sh %}
 $ sudo snap install ruby --classic
 {% endhighlight %}
 
-We have several channels per Ruby minor series. For instance, the following commands switch to Ruby 2.3:
+루비의 마이너 시리즈를 위한 채널을 제공합니다. 예를 들어, 다음 명령은 루비 2.3으로 변경할 수 있게 해줍니다.
 
 {% highlight sh %}
 $ sudo snap switch ruby --channel=2.3/stable
