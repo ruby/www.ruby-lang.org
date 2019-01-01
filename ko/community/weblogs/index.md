@@ -33,8 +33,8 @@ lang: ko
 위의 블로그들이 관심을 가질 만한 주제를 다루고
 계신다면 그들과 접촉하는 것도 방법입니다.
 
-루비는 [reddit][reddit], [Hacker News][hn] 내에서도
-존중받는 프로그래밍 뉴스입니다. 뛰어난 코드를 발견했다면 그들에게도 알려주세요.
+루비는 [reddit][reddit], [Hacker News][hn]의 프로그래밍 뉴스에서도
+자주 등장하는 주제입니다. 뛰어난 코드를 발견했다면 그들에게도 알려주세요.
 
 
 [rubyflow]: http://www.rubyflow.com/
