@@ -35,6 +35,7 @@ ruby -v
 * [패키지 관리 시스템](#package-management-systems)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
@@ -92,6 +93,24 @@ $ sudo yum install ruby
 {% endhighlight %}
 
 설치된 버전은 보통 그 특정 배포 버전 릴리스 시기의 최신 버전의 루비입니다.
+
+
+### snap (Ubuntu or other linux distribution)
+{: #snap}
+
+Snap is a package manager developed by Canonical. It's available out-of-the-box on Ubuntu, but snap also works on many Linux distributions.
+You can use it like this.
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+We have several channels per Ruby minor series. For instance, the following commands switch to Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 
 ### portage (Gentoo)
