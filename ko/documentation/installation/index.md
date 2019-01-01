@@ -98,7 +98,7 @@ $ sudo yum install ruby
 ### snap (Ubuntu나 다른 리눅스 배포판)
 {: #snap}
 
-Snap은 Canonical에 의해 개발된 패키지 매니저입니다. 이는 Ubuntu에서 바로 사용가능합니다만, 다른 리눅스 배포판에서도 동작합니다.
+Snap은 Canonical에 의해 개발된 패키지 매니저입니다. 이는 Ubuntu에서 바로 사용 가능합니다만, 다른 리눅스 배포판에서도 동작합니다.
 다음과 같이 사용할 수 있습니다.
 
 {% highlight sh %}
