@@ -42,6 +42,7 @@ out there, be sure to let them know!
 
 [rubyflow]: http://www.rubyflow.com/
 [rubyland]: http://rubyland.news/
+[ruby-weekly]: https://rubyweekly.com/
 [riding-rails]: http://weblog.rubyonrails.org/
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/
