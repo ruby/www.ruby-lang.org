@@ -185,7 +185,7 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
   MS-DOS!
 
 * Ruby ist in hohem Maße portabel: Es wird vorrangig auf GNU/Linux
-  entwickelt, arbeitet aber auf vielen UNIX-Varianten wie Mac OS X,
+  entwickelt, arbeitet aber auf vielen UNIX-Varianten wie macOS,
   auf Windows, DOS, BeOS, OS/2, usw.
 
 ### Alternative Ruby-Implementierungen

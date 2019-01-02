@@ -36,7 +36,7 @@ listesi](/en/community/mailing-lists/) günde ortalama 200 mesaj
 trafiğine sahiptir.
 
 Programlama dillerinin popülaritesini araştıran [TIOBE][tiobe] istatistiklerine
-göre, Ruby dünya çapında en çok kullanılan 10.cu dil haline gelmiştir.
+göre, Ruby dünya çapında en çok kullanılan 10. dil haline gelmiştir.
 Ruby’nin bu hızlı büyümesinde [Ruby on Rails][ror] framework’ünün
 hatırı sayılır etkisi bulunmaktadır.
 
@@ -48,17 +48,17 @@ kopyalama, düzenleme ve dağıtma özgürlüğü de sunar.
 
 Matz yeni bir dil yaratmadan önce ideal sözdizimini bulmak için diğer
 programlama dillerini incelemiş ve araştırmasının sonunda “Perl’den daha
-güçlü ama Pyton’dan daha nesneye yönelik bir betik
+güçlü ama Python’dan daha nesneye yönelik bir betik
 dili<sup>[2](#fn2)</sup>” istediğini söylemiştir.
 
 Ruby’de herşey bir nesnedir. Gördüğünüz en ufak bilgi parçası ve kod
 kendi özelliklerine ve olaylarına sahiptir. Özellikleri isimle çağırma
-*örnek değişkenler* ,olaylar da *metotlar* olarak isimlendirilir.
+*örnek değişkenler*, olaylar da *metotlar* olarak isimlendirilir.
 Ruby’nin yüzde yüz saf nesneye yönelik bir dil olduğunun en iyi ispatı
 bir kod parçası ile bir sayıya olay vererek yapılır:
 
 {% highlight ruby %}
-5.times { print "Ruby'ti *seviyoruz* -- harika bir dil!" }
+5.times { print "Ruby'yi *seviyoruz* -- harika bir dil!" }
 {% endhighlight %}
 
 Çoğu dilde sayılar ve diğer ilkel tipler nesne değildir. Ruby tüm
@@ -70,7 +70,7 @@ miras almıştır.
 Ruby kullanıcılara istediği kısımları değiştirebilme imkanı sunduğu için
 esnek bir dildir. İsteğe bağlı olarak Ruby’nin esaslı kısımları bile
 kaldırılabilir, yeniden tanımlanabilir ya da yeni kısımlar eklenebilir.
-Ruby programıcıyı kısıtlamamayı amaçlamaktadır.
+Ruby programcıyı kısıtlamamayı amaçlamaktadır.
 
 Örneğin toplama işleminin artı (`+`) operatörü ile yapıldığını
 biliyoruz. Ama eğer okunabilirlik amacıyla `topla` gibi bir kelime
@@ -94,9 +94,9 @@ olanak sağlar.
 ### Bloklar, Tam Anlamıyla Etkileyici Bir Özellik
 
 Ruby’nin esnek bir dil olarak anılmasının en önemli sebeplerinden biri
-de bloklardır.Bir kapamayı (closure) herhangi bir metoda ataçlayabilir
+de bloklardır. Bir kapamayı (closure) herhangi bir metoda ataçlayabilir
 ve metodun nasıl tepki vereceğini belirleyebilirsiniz. Kapamalar,
-*bloklar* olarak anlandırırlırlar ve PHP ya da Visual Basic gibi
+*bloklar* olarak adlandırılırlar ve PHP ya da Visual Basic gibi
 imperativ dillerden Ruby’ye geçenler arasında en popüler özelliğe
 dönüşmüştür.
 
@@ -119,7 +119,7 @@ metodu istediği gibi şekillendirmesine izin vermektedir.
 ### Ruby ve Mixin’ler
 
 Pek çok nesneye yönelik dilin aksine, Ruby özellikle yalnızca tekil
-mirası destekler. Çünkü Ruby modül konseptini (Nesnesel-C’de
+mirası destekler. Çünkü Ruby modül konseptini (Objective-C’de
 Kategoriler) kullanır ve modüller metodların bir koleksiyonundan
 ibarettir.
 
@@ -158,8 +158,8 @@ külfetini ortadan kaldırmıştır.
 Ruby çok çeşitli özelliklere sahiptir, aşağıda bir kaçından
 bahsedilmiştir:
 
-* Ruby Java ya da Python gibi istisna yakalama mekanizmalarına sahiptir,
-  hatalarla başetmek kolaylaşır.
+* Ruby, hataları işlemek için kolaylaştırmak amacıyla Java veya Python
+  gibi istisna işleme özelliklerine sahiptir.
 
 * Ruby tüm nesneleri için gerçek bir mark &amp; sweep çöp toplayıcısı
   sunar. Eklenti kütüphanelerinde referans sayaçlarına gerek yok,
@@ -178,7 +178,7 @@ bahsedilmiştir:
   bile çoklu iş parçacıkları kullanabilirsiniz!
 
 * Ruby yüksek taşınabilirliğe sahiptir. GNU/Linux üzerinde geliştirilmiş
-  olsa dahi, UNIX’in bir çok çeşidi, Mac OS X,
+  olsa dahi, UNIX’in bir çok çeşidi, macOS,
   Windows, DOS, BeOS, OS/2, vb. üzerinde çalışmaktadır.
 
 ### Referanslar

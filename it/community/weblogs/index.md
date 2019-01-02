@@ -28,13 +28,12 @@ aggiornamenti.
 
 ### Partecipa e fatti conoscere
 
-Se hai iniziato un blog su Ruby, puoi linkare il tuo blog su
-[del.icio.us][12] con la tag *ruby*. Puoi anche contattare i blog di cui
+Puoi anche contattare i blog di cui
 sopra, se stai coprendo un soggetto nel quale sono interessati.
 (Ovviamente, se non è in relazione con Rails, allora la gente di *Riding
 Rails* può non essere interessata—ma non si sa mai).
 
-Ruby è inoltre un soggetto di discussione frequente su [Digg][13],
+Ruby è inoltre un soggetto di discussione frequente su
 [Slashdot][14], [reddit][15] e [Hacker News][16], nelle loro rispettive
 sezioni di notizie di programmazione. Se ti capitasse di trovare brani
 di codice particolarmente brillanti, assicurati di farglielo sapere!
@@ -45,8 +44,6 @@ di codice particolarmente brillanti, assicurati di farglielo sapere!
 [9]: http://weblog.rubyonrails.org/
 [10]: http://www.rubyinside.com/
 [11]: http://www.rubyist.net/~matz/
-[12]: http://del.icio.us
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/
 [15]: http://www.reddit.com/r/ruby
 [16]: http://news.ycombinator.com/

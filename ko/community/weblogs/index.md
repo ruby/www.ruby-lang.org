@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "웹로그"
+title: "블로그"
 lang: ko
 ---
 
@@ -10,38 +10,36 @@ lang: ko
 있습니다.
 {: .summary}
 
+### 루비 블로그 발굴하기
+
+* [**RubyFlow**][rubyflow]는 '루비와 레일즈 커뮤니티의 링크 목록'으로
+  라이브러리, 블로그 글, 튜토리얼 등의 루비에 대한 정보를 다루는 링크를
+  제공하는 루비 뉴스 사이트입니다.
+* [**Rubyland**][rubyland]는 여러 RSS 피드로부터 루비에 관련된 뉴스와 블로그
+  글을 모아줍니다.
+
 ### 주목할 만한 블로그들
 
 업데이트 빈도나 속도에 주목할 만한 블로그들
 
-* [**O’Reilly Ruby**][8]는 루비 튜토리얼과 커뮤니티에 주목할 만한 개발자와의
-  인터뷰를 하는 그룹 블로그입니다.
-* [**Riding Rails**][9]는 루비 온 레일즈 팀의 공식 블로그입니다.
-  레일즈를 하고 있다면, 이 블로그에서는 보안 패치의 요약과 전체 레일즈 커뮤니티가
-  어떻게 돌아가는지에 대한 넓은 식견을 얻을 수 있습니다.
-* [**Ruby Inside**][10]는 루비, 레일즈 양쪽에 대한 애플리케이션이나
-  라이브러리의 정보를 제공합니다.
-* [**Matz의 블로그**][11]는 루비의 창시자가 하는 일본어 블로그입니다.
-  전혀 읽을 수 없다고 해도, 그가 여기 있다는 것을 알 수 있습니다.
+* [**Ruby Weekly**][ruby-weekly]는 블로그라기보다는 뉴스레터에 가까움에도
+  불구하고, Ruby Weekly는 매주 흥미로운 루비 기사나 뉴스를 제공합니다.
+* [**Riding Rails**][riding-rails]는 루비 온 레일즈 팀의 공식 그룹 블로그입니다.
+  레일즈를 이용하고 있다면, 이 블로그는 보안 업데이트를 받아 보거나 넓은 레일즈 커뮤니티를
+  전망하기에 필수입니다.
 
 ### 널리 알리기
 
-직접 루비 블로그를 하고 있다면, [del.icio.us][12]에 *ruby* 태그를 붙여서
-링크하시는 것이 좋습니다. 위의 웹로그들이 관심을 가질 만한 주제를 다루고
-계신다면 그들과 접촉하는 것도 방법입니다. (레일즈에 관련된 정보가 아니라면
-당신은 모르겠지만 아마 *Riding Rails*에서는 관심없을 것입니다.)
+위의 블로그들이 관심을 가질 만한 주제를 다루고
+계신다면 그들과 접촉하는 것도 방법입니다.
 
-루비는 [Digg][13], [Slashdot][14], [reddit][15], [Hacker News][16] 내에서도
-존중받는 프로그래밍 뉴스입니다. 뛰어난 코드를 발견했다면 그들에게도 알려주세요.
+루비는 [reddit][reddit], [Hacker News][hn]의 프로그래밍 뉴스에서도
+자주 등장하는 주제입니다. 뛰어난 코드를 발견했다면 그들에게도 알려주세요.
 
 
-
-[8]: http://oreillynet.com/ruby/
-[9]: http://weblog.rubyonrails.org/
-[10]: http://www.rubyinside.com/
-[11]: http://www.rubyist.net/~matz/
-[12]: http://del.icio.us
-[13]: http://digg.com/programming
-[14]: http://developers.slashdot.org/
-[15]: http://www.reddit.com/r/ruby
-[16]: http://news.ycombinator.com/
+[rubyflow]: http://www.rubyflow.com/
+[rubyland]: http://rubyland.news/
+[ruby-weekly]: https://rubyweekly.com/
+[riding-rails]: http://weblog.rubyonrails.org/
+[reddit]: http://www.reddit.com/r/ruby
+[hn]: http://news.ycombinator.com/

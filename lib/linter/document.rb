@@ -19,6 +19,10 @@ class Linter
       filename.match? %r{/_posts/}
     end
 
+    def release_post?
+      post? && filename.match?(%r{released\.md})
+    end
+
     # posts from before the migration to the Jekyll site
     # (they follow different rules; e.g. they have no YAML date variable,
     # filenames of translations differ from original `en' post, ...)
@@ -79,12 +83,37 @@ class Linter
       date.utc_offset != 0
     end
 
+    def crlf_line_breaks?
+      content.match?(/\r\n/)
+    end
+
     def no_newline_at_eof?
       !content.end_with?("\n")
     end
 
     def trailing_whitespace?
       content.match?(/ $/)
+    end
+
+    def sha1_length_invalid?
+      matchdata = content.match(/SHA1: *(?<sha>[0-9a-f]*)/)
+      return nil  unless matchdata
+
+      matchdata[:sha].size != 40
+    end
+
+    def sha256_length_invalid?
+      matchdata = content.match(/SHA256: *(?<sha>[0-9a-f]*)/)
+      return nil  unless matchdata
+
+      matchdata[:sha].size != 64
+    end
+
+    def sha512_length_invalid?
+      matchdata = content.match(/SHA512: *(?<sha>[0-9a-f]*)/)
+      return nil  unless matchdata
+
+      matchdata[:sha].size != 128
     end
 
     private

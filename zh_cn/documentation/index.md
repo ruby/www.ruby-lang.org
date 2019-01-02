@@ -25,12 +25,6 @@ ruby -v
 [Ruby Koans][2]
 : Ruby Koans 可以指引你走过学习 Ruby 的启蒙之路。在这里可以学到 Ruby 语言的语法、结构、常用函数和库。当然，还有 Ruby 文化。
 
-[RubyMonk][3]
-: 探索 Ruby 的习惯用法，学习课程，解决问题，只需要浏览器就可完成！
-
-[Hackety Hack][4]
-: “小小程序员的入门工具。”使用 Shoes GUI 工具包趣学（Ruby）编程。
-
 [Why’s (Poignant) Guide to Ruby][5]
 : 一本不同寻常但是非常有趣的书，通过故事、幽默和漫画教你 Ruby。由 *why the luckystiff* 创作, 本书始终是学习 Ruby 的经典之作。
 
@@ -81,10 +75,6 @@ ruby -v
 [APIdock][18]
 : 带有用户评注的 Ruby、Rails 和 RSpec 文档。
 
-[Omniref：带有注解的 Ruby、Rails 和 gem 文档][40]
-: Ruby 和 RubyGem 各个版本的文档。这是全方位的 Ruby 参考手册，支持代码搜索、源码注解和疑问解答等。
-
-
 ### 编辑器和集成开发环境
 
 您可以用操作系统中默认的编辑器来进行 Ruby 编程。不过，为了更高效地编程，建议选择一个支持 Ruby 基本特性（比如句法高亮，文件浏览）的代码编辑器，或者有高级特性（比如代码补全，重构，测试支持等）的集成开发环境。
@@ -109,7 +99,7 @@ ruby -v
   * [Ruby In Steel][31]
   * [Atom][atom]
 
-* Mac OS X:
+* macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39]（文档浏览器）
@@ -123,8 +113,6 @@ ruby -v
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -134,7 +122,7 @@ ruby -v
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
@@ -160,5 +148,4 @@ ruby -v
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://www.omniref.com
 [atom]: https://atom.io/

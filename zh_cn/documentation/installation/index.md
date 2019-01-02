@@ -24,8 +24,8 @@ lang: zh_cn
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
-  * [Solaris, OpenIndiana](#solaris)
+  * [macOS](#homebrew)
+  * [OpenIndiana](#openindiana)
   * [其他发行版](#other-systems)
 * [安装工具](#installers)
   * [ruby-build](#ruby-build)
@@ -57,8 +57,6 @@ Debian GNU/Linux 和 Ubuntu 使用 apt 包管理器。用法如下：
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-撰写本文时，在 Debian 和 Ubuntu 下，`ruby-full` 包提供的是老旧的 Ruby 2.3.1。
-
 ### yum（CentOS、Fedora 或 RHEL）
 {: #yum}
 
@@ -80,7 +78,7 @@ Gentoo 使用 portage 包管理器。
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-一般来说，这将安装 1.9 和 2.0 版本，不过还有更多版本可供安装。如果想安装指定的版本，要在 `make.conf` 文件中设置 `RUBY_TARGETS`。详见 [Gentoo Ruby Project 网站][gentoo-ruby]。
+安装指定的版本，要在 `make.conf` 文件中设置 `RUBY_TARGETS`。详见 [Gentoo Ruby Project 网站][gentoo-ruby]。
 
 
 ### pacman（Arch Linux）
@@ -95,12 +93,12 @@ $ sudo pacman -S ruby
 这将安装最新的 Ruby 稳定版。
 
 
-### Homebrew（OS X）
+### Homebrew（macOS）
 {: #homebrew}
 
-OS X El Capitan、Yosemite 和 Mavericks 内置了 Ruby 2.0。OS X Mountain Lion、Lion 和 Snow Leopard 内置了 Ruby 1.8.7。
+macOS (High) Sierra 和 OS X El Capitan 已内置了 Ruby 2.0。
 
-许多 OS X 用户使用 [Homebrew][homebrew] 作为包管理器。用 Homebrew 能够非常简单地获取到最新版的 Ruby：
+许多 macOS 用户使用 [Homebrew][homebrew] 作为包管理器。用 Homebrew 能够非常简单地获取到最新版的 Ruby：
 
 {% highlight sh %}
 $ brew install ruby
@@ -109,15 +107,13 @@ $ brew install ruby
 这将安装最新版的 Ruby。
 
 
-### Solaris 和 OpenIndiana
-{: #solaris}
+### OpenIndiana
+{: #openindiana}
 
-[Sunfreeware][sunfreeware] 上的 Solaris 8 到 10 内置了 Ruby 1.8.7，[Blastwave][blastwave] 同样如此。Ruby 1.9.2p0 在 [Sunfreeware][sunfreeware] 上也有，但是这一版已经过时。
-
-若想在 [OpenIndiana][openindiana] 上安装 Ruby，要使用 [Image Packaging System (IPS)][opensolaris-pkg] 客户端。这将直接从 OpenSolaris 代码库安装 Ruby 1.9 和 RubyGems：
+若想在 [OpenIndiana][openindiana] 上安装 Ruby，要使用 Image Packaging System (IPS) 客户端。这将直接从 OpenIndiana 代码库安装 Ruby 和 RubyGems：
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install runtime/ruby
 {% endhighlight %}
 
 然而，第三方工具或许是获取最新版 Ruby 更好的方法。
@@ -138,13 +134,13 @@ $ pkg install runtime/ruby-18
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build] 是 [rbenv](#rbenv) 的一个插件，能在任意目录中编译和安装不同版本的 Ruby。ruby-build 也可以不依赖 rbenv 而单独使用。支持的平台有 OS X、Linux 和其它类 UNIX 操作系统。
+[ruby-build][ruby-build] 是 [rbenv](#rbenv) 的一个插件，能在任意目录中编译和安装不同版本的 Ruby。ruby-build 也可以不依赖 rbenv 而单独使用。支持的平台有 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] 能在任意目录中编译和安装不同版本的 Ruby。还有个兄弟工具，[chruby](#chruby)，可以用来切换不同的 Ruby 版本。支持的平台有 OS X、Linux 和其它类 UNIX 操作系统。
+[ruby-install][ruby-install] 能在任意目录中编译和安装不同版本的 Ruby。还有个兄弟工具，[chruby](#chruby)，可以用来切换不同的 Ruby 版本。支持的平台有 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### RubyInstaller
@@ -161,7 +157,7 @@ $ pkg install runtime/ruby-18
 如果是为了使用 Ruby on Rails 而安装 Ruby，可以使用下列安装工具：
 
 * [RailsInstaller][railsinstaller]，使用的是 RubyInstaller，但包括了其它能够帮助 Rails 开发的工具。支持 OS X 和 Windows。
-* [Bitnami Ruby Stack][rubystack]，提供了完整的 Rails 开发环境。支持 OS X、Linux、Windows、虚拟机和云镜像。
+* [Bitnami Ruby Stack][rubystack]，提供了完整的 Rails 开发环境。支持 macOS、Linux、Windows、虚拟机和云镜像。
 
 
 ## 管理工具
@@ -179,19 +175,19 @@ $ pkg install runtime/ruby-18
 ### rbenv
 {: #rbenv}
 
-[rbenv][rbenv] 用于管理系统中安装的多个 Ruby 版本。它不能直接安装 Ruby，但有个流行的插件叫 [ruby-build](#ruby-build) 能够安装 Ruby。这两个工具都支持 OS X、Linux 和其它类 UNIX 操作系统。
+[rbenv][rbenv] 用于管理系统中安装的多个 Ruby 版本。它不能直接安装 Ruby，但有个流行的插件叫 [ruby-build](#ruby-build) 能够安装 Ruby。这两个工具都支持 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### RVM（“Ruby Version Manager”）
 {: #rvm}
 
-[RVM][rvm] 能在系统中安装和管理多个 Ruby 版本。同时还能管理不同的 gem 集。支持 OS X、Linux 和其它类 UNIX 操作系统。
+[RVM][rvm] 能在系统中安装和管理多个 Ruby 版本。同时还能管理不同的 gem 集。支持 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### uru
 {: #uru}
 
-[Uru][uru] 是一个轻量级的命令行工具，支持多平台，能够帮你在 OS X、Linux 和 Windows 上使用不同的 Ruby 版本。
+[Uru][uru] 是一个轻量级的命令行工具，支持多平台，能够帮你在 macOS、Linux 和 Windows 上使用不同的 Ruby 版本。
 
 
 ## 通过源码编译安装
@@ -219,9 +215,6 @@ $ sudo make install
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/

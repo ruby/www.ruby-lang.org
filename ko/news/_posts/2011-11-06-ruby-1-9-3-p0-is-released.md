@@ -13,20 +13,17 @@ lang: ko
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&gt;][1]
   * SIZE: 9554576 bytes
   * MD5: 65401fb3194cdccd6c1175ab29b8fdb8
-  * SHA256:
-    ca8ba4e564fc5f98b210a5784e43dfffef9471222849e46f8e848b37e9f38acf
+  * SHA256: ca8ba4e564fc5f98b210a5784e43dfffef9471222849e46f8e848b37e9f38acf
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz&gt;][2]
   * SIZE: 12223217 bytes
   * MD5: 8e2fef56185cfbaf29d0c8329fc77c05
-  * SHA256:
-    3b910042e3561f4296fd95d96bf30322e53eecf083992e5042a7680698cfa34e
+  * SHA256: 3b910042e3561f4296fd95d96bf30322e53eecf083992e5042a7680698cfa34e
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip&gt;][3]
   * SIZE: 13691314 bytes
   * MD5: 437ac529a7872c8dcc956eab8e7e6f76
-  * SHA256:
-    1be16d0172e9cf9e5078a7bee2465a9f3af431920e1e3d9417a4fc2ee074bca4
+  * SHA256: 1be16d0172e9cf9e5078a7bee2465a9f3af431920e1e3d9417a4fc2ee074bca4
 
 ## 1.9.2와의 차이점
 
@@ -46,16 +43,16 @@ lang: ko
 
 ### Core클래스
 
-* ARGF: ARGF.print와 ARGF.read\_nonblock 등 새로운 메소드가 추가되었습니다.
+* ARGF: ARGF.print와 ARGF.read\_nonblock 등 새로운 메서드가 추가되었습니다.
 * Array#pack, String#unpack: 엔디안을 명시적으로 지정할 수 있게 되었습니다.
 * Bignum: 내부표현으로 자릿수가 150 이상인 정수의 곱셈을 Toom-3 알고리즘으로 처리하도록 변경되었습니다. 이에 따라
   성능 향상이 이루어졌습니다.
 * 정수 File::NULL과 File::DIRECT가 추가되었습니다.
 * IO#putc: 멀티바이트 문자를 지원합니다.
 * IO: IO#advise, IO.write, IO.binwrite가 추가되었습니다.
-* \#\_\_id\_\_가 BasicObject의 메소드로 변경되었습니다.
+* \#\_\_id\_\_가 BasicObject의 메서드로 변경되었습니다.
 * Kernel#rand의 인수로 Range 객체를 지정할 수 있습니다.
-* Module#private\_constant, Module#public\_constant 메소드가 추가되었습니다.
+* Module#private\_constant, Module#public\_constant 메서드가 추가되었습니다.
 * String#prepend, String#byteslice가 추가되었습니다.
 * Time#strftime: %:z와 %::z.를 지원합니다.
 * Process#maxgroups와 Process#maxgroups: 보조 그룹을 지원하지 않는 환경에서

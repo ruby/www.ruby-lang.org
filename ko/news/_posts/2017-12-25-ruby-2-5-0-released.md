@@ -16,8 +16,8 @@ lang: ko
 
 - `rescue`/`else`/`ensure`가 do/end 블록 내부에서도 직접 사용할 수 있게 됩니다. [[Feature #12906]](https://bugs.ruby-lang.org/issues/12906)
 - `yield_self`가 추가되었습니다. 해당 컨텍스트에 주어진 블록을 넘깁니다. `tab`과는 다르게, 블록의 실행 결과를 반환합니다. [[Feature #6721]](https://bugs.ruby-lang.org/issues/6721)
-- 분기 커버리지와 메소드 커버리지 측정을 지원합니다.
-  분기 커버리지는 분기가 실행되었는지 아닌지를 나타냅니다. 또한 메소드 커버리지는 메소드가 호출되었는지 아닌지 측정합니다. 이 기능들을 이용하여 테스트 스위트를 실행하여 어떤 분기, 메소드가 실행되었는지를 알 수 있게 되므로, 테스트 스위트의 커버리지를 좀 더 엄밀하게 평가할 수 있습니다. [[Feature #13901]](https://bugs.ruby-lang.org/issues/13901)
+- 분기 커버리지와 메서드 커버리지 측정을 지원합니다.
+  분기 커버리지는 분기가 실행되었는지 아닌지를 나타냅니다. 또한 메서드 커버리지는 메서드가 호출되었는지 아닌지 측정합니다. 이 기능들을 이용하여 테스트 스위트를 실행하여 어떤 분기, 메서드가 실행되었는지를 알 수 있게 되므로, 테스트 스위트의 커버리지를 좀 더 엄밀하게 평가할 수 있습니다. [[Feature #13901]](https://bugs.ruby-lang.org/issues/13901)
 - Hash#slice [[Feature #8499]](https://bugs.ruby-lang.org/issues/8499)와 Hash#transform_keys [[Feature #13583]](https://bugs.ruby-lang.org/issues/13583)가 추가됩니다.
 - Struct.new로 키워드 인수를 받는 클래스를 생성할 수 있습니다. [[Feature #11925]](https://bugs.ruby-lang.org/issues/11925)
 - Enumerable#any?, all?, none?, one?이 패턴 인수를 받게 됩니다. [[Feature #11286]](https://bugs.ruby-lang.org/issues/11286)
@@ -32,7 +32,7 @@ lang: ko
 - 블록 매개변수에 의한 블록 패스(예: `def foo(&b); bar(&b); end`)가 '지연 Proc 할당'을 통해 루비 2.4보다 약 3배 빨라집니다. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
 - Mutex가 작고 빠르게 재작성되었습니다. [[Feature #13517]](https://bugs.ruby-lang.org/issues/13517)
 - ERB는 루비 2.4와 비교하여 2배 빠른 속도로 템플릿으로부터 코드를 생성합니다.
-- `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 등의 내장 메소드의 속도가 향상되었습니다.
+- `Array#concat`, `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+` 등의 내장 메서드의 속도가 향상되었습니다.
 - IO.copy_stream이 복사 오프로드를 위해서 copy_file_range(2)를 사용합니다. [[Feature #13867]](https://bugs.ruby-lang.org/issues/13867)
 
 ## 2.4 이후로 눈에 띄는 변경점

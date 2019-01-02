@@ -4,7 +4,7 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.3)
     crass (1.0.4)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -15,7 +15,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.3)
+    jekyll (3.8.5)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -30,7 +30,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-watch (2.0.0)
+    jekyll-watch (2.1.2)
       listen (~> 3.0)
     json (2.1.0)
     kgio (2.11.2)
@@ -38,21 +38,22 @@ GEM
     lanyon (0.4.0)
       jekyll (>= 2.0, < 4.0)
       rack (>= 1.6, < 3.0)
-    liquid (4.0.0)
+    liquid (4.0.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
-    nokogiri (1.8.4)
+    minitest (5.11.3)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     paint (1.0.1)
-    pathutil (0.16.1)
+    pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    rack (2.0.5)
-    rack-protection (2.0.3)
+    rack (2.0.6)
+    rack-protection (2.0.4)
       rack
     rack-rewrite (1.5.1)
     rack-ssl (1.4.1)
@@ -65,7 +66,7 @@ GEM
     rouge (1.11.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
-    sass (3.5.7)
+    sass (3.7.1)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -73,6 +74,9 @@ GEM
     slop (4.6.2)
     spidr (0.6.0)
       nokogiri (~> 1.3)
+    sq_mini_racer (0.2.3.sqreen4)
+    sqreen (1.15.3)
+      sq_mini_racer (~> 0.2.2.sqreen1)
     tidy_ffi (0.1.6)
       ffi (~> 1.2)
     unicorn (5.4.1)
@@ -95,12 +99,14 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.0)
   lanyon (~> 0.4.0)
+  minitest
   rack-protection
   rack-rewrite
   rack-ssl
   rake
   rouge (~> 1.10)
   spidr (~> 0.6)
+  sqreen
   unicorn
   validate-website (~> 1.6)
 
@@ -108,4 +114,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.4
+   1.17.1

@@ -31,20 +31,17 @@ Alle Änderungen sind im [ChangeLog][2] aufgelistet.
 * * [ruby-1.9.1-p376.tar.bz2][3]
   * Größe: 7.293.106 Byte
   * MD5-Summe: e019ae9c643c5efe91be49e29781fb94
-  * SHA256:
-    79164e647e23bb7c705195e0075ce6020c30dd5ec4f8c8a12a100fe0eb0d6783
+  * SHA256: 79164e647e23bb7c705195e0075ce6020c30dd5ec4f8c8a12a100fe0eb0d6783
 
 * * [ruby-1.9.1-p376.tar.gz][4]
   * Größe: 9.073.007 Byte
   * MD5-Summe: ebb20550a11e7f1a2fbd6fdec2a3e0a3
-  * SHA256:
-    58b8fc1645283fcf3d5be195dffcaf55b7c85cbc210074273b57b835409b21ca
+  * SHA256: 58b8fc1645283fcf3d5be195dffcaf55b7c85cbc210074273b57b835409b21ca
 
 * * [ruby-1.9.1-p376.zip][5]
   * Größe: 10.337.871 Byte
   * MD5-Summe: d4d5e62f65cb92a281f1569a7f25371b
-  * SHA256:
-    486d3efdab269040ce7142964ba3a4e0d46f0a5b812136bcac7e5bafc726c14e
+  * SHA256: 486d3efdab269040ce7142964ba3a4e0d46f0a5b812136bcac7e5bafc726c14e
 
 
 

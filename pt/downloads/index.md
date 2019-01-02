@@ -15,7 +15,7 @@ Existem diversas ferramentas para instalar o Ruby em cada grande plataforma:
 
 * No Linux/UNIX, você pode usar o sistema de gerenciamento de pacotes da
   sua distribuição ou ferramentas de terceiros ([rbenv][rbenv] e [RVM][rvm]).
-* Em máquinas com OS X, você pode usar ferramentas de terceirol ([rbenv][rbenv] e [RVM][rvm]).
+* Em máquinas com macOS, você pode usar ferramentas de terceirol ([rbenv][rbenv] e [RVM][rvm]).
 * Em máquinas com Windows, você pode usar o [RubyInstaller][rubyinstaller] ou o pik.
 
 Consulte a página [Instalação][installation] para mais detalhes sobre

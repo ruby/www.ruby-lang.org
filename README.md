@@ -31,7 +31,7 @@ Then clone the repository and install the dependencies:
 ``` sh
 git clone https://github.com/ruby/www.ruby-lang.org.git
 cd www.ruby-lang.org/
-bundle install
+bundle install --without production
 ```
 
 ## Make Changes

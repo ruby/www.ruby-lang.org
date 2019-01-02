@@ -64,6 +64,7 @@ class Linter
       errors[doc] << "missing or invalid lang variable"  if doc.lang_invalid?
       errors[doc] << "lang variable not matching file location"  if doc.lang_not_matching_filename?
       errors[doc] << "no newline at end of file"  if doc.no_newline_at_eof?
+      errors[doc] << "wrong line breaks (CR/LF)"  if doc.crlf_line_breaks?
 
       unless WHITESPACE_EXCLUSIONS.include?(doc.filename)
         errors[doc] << "trailing whitespace"  if doc.trailing_whitespace?
@@ -80,6 +81,13 @@ class Linter
       unless doc.old_post?
         errors[doc] << "missing translator variable"  if doc.translator_missing?
         errors[doc] << "missing date variable"  if doc.date_missing?
+      end
+
+      if doc.release_post?
+        errors[doc] << "invalid SHA1 length"  if doc.sha1_length_invalid?
+        errors[doc] << "invalid SHA256 length"  if doc.sha256_length_invalid?
+        errors[doc] << "invalid SHA512 length"  if doc.sha512_length_invalid?
+      else
       end
     end
   end

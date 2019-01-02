@@ -39,13 +39,12 @@ empfehlen:
 
 ### Weitersagen
 
-Wer ein eigenes Blog zum Thema Ruby hat, sollte es auf [del.icio.us][12]
-mit dem Tag *ruby* versehen. Die oben genannten Blogs sind ebenfalls
+Die oben genannten Blogs sind ebenfalls
 gute Anlaufstellen, um dort eigene Themen anderen bereitzustellen. (Wenn
 es offensichtlich nichts mit Rails zu tun hat, wird das *Riding Rails*
 Team eventuell nicht daran interessiert sein, aber man weiß ja nie).
 
-Ruby ist außerdem auf [Digg][13] und [Slashdot][14] ein verbreitetes
+Ruby ist außerdem auf [Slashdot][14] ein verbreitetes
 Thema. Wer interessanten Code findet, sollte sich dort melden.
 
 
@@ -56,6 +55,4 @@ Thema. Wer interessanten Code findet, sollte sich dort melden.
 [9]: http://www.rubyinside.com/
 [10]: http://oreillynet.com/ruby/
 [11]: http://weblog.rubyonrails.org/
-[12]: http://del.icio.us
-[13]: http://digg.com/programming
 [14]: http://developers.slashdot.org/

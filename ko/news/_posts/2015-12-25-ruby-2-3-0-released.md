@@ -23,7 +23,7 @@ C#, Groovy, Swift의 [세이프 내비게이션 연산자](https://bugs.ruby-lan
 
 [RubyVM::InstructionSequence#to_binary와 .load_from_binary](https://bugs.ruby-lang.org/issues/11788)가 실험적으로 도입되었습니다. 이 기능을 통해서 ISeq(bytecode) 사전 컴파일 기능을 만들 수 있습니다.
 
-더불어 많은 성능 개선이 있었습니다. 예를 들어, [메소드 엔트리 데이터 구조의 변경](https://bugs.ruby-lang.org/issues/11278), [새 테이블 데이터 구조의 도입](https://bugs.ruby-lang.org/issues/11420), [Proc#call 최적화](https://bugs.ruby-lang.org/issues/11569), 기계 코드 레벨의 객체 할당 및 함수 호출 방법의 개선, [더 영리한 인스턴스 변수 데이터 구조](https://bugs.ruby-lang.org/issues/11170), [소켓과 I/O에서 고성능 논블로킹 I/O를 위해 "exception:" 키워드 사용을 허용](https://bugs.ruby-lang.org/issues/11229)하는 등의 변경이 있었습니다. NEWS 파일의 "Implementation improvements"를 확인하세요.
+더불어 많은 성능 개선이 있었습니다. 예를 들어, [메서드 엔트리 데이터 구조의 변경](https://bugs.ruby-lang.org/issues/11278), [새 테이블 데이터 구조의 도입](https://bugs.ruby-lang.org/issues/11420), [Proc#call 최적화](https://bugs.ruby-lang.org/issues/11569), 기계 코드 레벨의 객체 할당 및 함수 호출 방법의 개선, [더 영리한 인스턴스 변수 데이터 구조](https://bugs.ruby-lang.org/issues/11170), [소켓과 I/O에서 고성능 논블로킹 I/O를 위해 "exception:" 키워드 사용을 허용](https://bugs.ruby-lang.org/issues/11229)하는 등의 변경이 있었습니다. NEWS 파일의 "Implementation improvements"를 확인하세요.
 
 새 기능과 호환성의 전체 목록은 [NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS)와 [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0/ChangeLog)를 확인해주세요.
 

@@ -157,7 +157,7 @@ Rubyは次に示すような豊富な機能を持っています。
   OSのサポートなしに(MS-DOSだとしても！)マルチスレッド処理を扱えます。
 
 * Rubyにはとても高い可搬性があります。Rubyは主にGNU/Linux上で開発されていますが、
-  UNIX、Max OS X、Windows、DOS、BeOS、OS/2など、多くのOSで動作します。
+  UNIX、macOS、Windows、DOS、BeOS、OS/2など、多くのOSで動作します。
 
 ### さまざまなRuby処理系
 

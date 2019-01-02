@@ -18,7 +18,7 @@ Rubiego:
 
 * dla maszyn z systemem Linux/UNIX możesz użyć systemowego menedżera pakietów
   lub narzędzi osób trzecich ([rbenv][rbenv] lub [RVM][RVM]),
-* dla maszyn z systemem OS X możesz użyć narzędzi osób trzecich ([rbenv][rbenv] lub [RVM][rvm]),
+* dla maszyn z systemem macOS możesz użyć narzędzi osób trzecich ([rbenv][rbenv] lub [RVM][rvm]),
 * dla maszyn z systemem Windows możesz użyć narzędzia [RubyInstaller][rubyinstaller].
 
 Zobacz stronę [Instalacja][installation] po więcej szczegółów dotyczących

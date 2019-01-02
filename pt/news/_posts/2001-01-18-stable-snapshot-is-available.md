@@ -7,7 +7,7 @@ lang: pt
 ---
 
 [Snapshot estável][1] está disponível. Este é um arquivo compactado (tar e zip) da
-última __CVS__ estável. Esta versão deve estar melhor do que a última.
+última **CVS** estável. Esta versão deve estar melhor do que a última.
 
 
 [1]: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz

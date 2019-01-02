@@ -20,15 +20,6 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   Celem jest nauczenie się języka Ruby, składni, struktury i
    pewnych popularnych funkcji i bibliotek. Nauczenie również kultury.
 
-[RubyMonk][3]
-: Odkryj dialekt Rubiego, weź lekcje i rozwiązuj problemy, a to wszystko
-  w twojej przeglądarce!
-
-[Hackety Hack][4]
-: <q cite="http://www.hackety.com/">Zestaw startowy młodego kodera</q>.
-  Zabawny i prosty sposób na naukę programowania (poprzez Rubiego) przy
-  użyciu Shoes GUI Toolkit.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Niekonwencjonalna ale interesująca książka, która nauczy cię Rubiego
   poprzez historyjki, dowcipy i komiks. Oryginalnie stworzona przez
@@ -132,7 +123,7 @@ Oto lista popularnych narzędzi używanych przez rubistów:
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
 
-* Dla Mac OS X:
+* Dla macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (przeglądarka dokumentacji)
@@ -148,8 +139,6 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[3]: http://rubymonk.com/
-[4]: http://www.hackety.com/
 [5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
@@ -159,7 +148,7 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
-[14]: http://docs.seattlerb.org/rdoc/
+[14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/

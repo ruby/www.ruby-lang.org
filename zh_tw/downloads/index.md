@@ -13,7 +13,7 @@ lang: zh_tw
 每個主要的平台都有多種工具可安裝 Ruby：
 
 * Linux/UNIX 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）或使用系統套件管理工具；
-* OS X 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）；
+* macOS 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）；
 * Windows 平台，可以使用 [RubyInstaller][rubyinstaller]。
 
 進一步了解請參考[安裝][installation]頁面上關於套件管理工具與第三方工具的內容。

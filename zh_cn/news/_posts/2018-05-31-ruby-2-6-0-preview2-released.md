@@ -13,7 +13,7 @@ Ruby 2.6.0-preview2 是 Ruby 2.6.0 系列的第二个测试版本。此次 previ
 
 ## JIT
 
-uby 2.6 引入了 JIT (Just-in-time) 编译器的初始实现。
+Ruby 2.6 引入了 JIT (Just-in-time) 编译器的初始实现。
 
 JIT 编译器旨在提升任何 Ruby 程序的执行速度。不同于其他语言中常见的 JIT 编译器，Ruby 的 JIT 编译器进行 JIT 编译的过程非常独特。其将生成的 C 代码打印至磁盘并 spawn 常见的 C 编译器进行代码的生成工作。详见：[Vladimir Makarov 的 MJIT 组织](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization)。
 
@@ -37,13 +37,13 @@ Ruby 2.6 引入了 `RubyVM::AST` 模块。
 
 ## 新特性
 
-* 为 `Kernel#yield_self` 添加了新别名 `then`。[功能 #14594]
+* 为 `Kernel#yield_self` 添加了新别名 `then`。[[功能 #14594]](https://bugs.ruby-lang.org/issues/14594)
 
 * 不含 `rescue` 的 `else` 现在会引起语法错误。[实验性质]
 
-* 常量名现在可以以非 ASCII 大写字母开头。[功能 #13770]
+* 常量名现在可以以非 ASCII 大写字母开头。[[功能 #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* 无限范围 [功能 #12912]
+* 无限范围 [[功能 #12912]](https://bugs.ruby-lang.org/issues/12912)
 
   引入了无限范围 `(1..)`。这个范围没有终点，以下是使用场景的举例。
 
@@ -51,27 +51,27 @@ Ruby 2.6 引入了 `RubyVM::AST` 模块。
       (1..).each {|index| ... }         # 从 1 开始的无限循环
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* 新增 `Binding#source_location`。[功能 #14230]
+* 新增 `Binding#source_location`。[[功能 #14230]](https://bugs.ruby-lang.org/issues/14230)
 
-  此方法以一个二元组数组 `__FILE__` 和 `__LINE__` 的形式返回 binding 的源代码路径。传统上，这可以通过执行 `eval("[__FILE__, __LINE__]", binding)` 来获得相同的数据。但我们计划改变这一行为让 `Kernel#eval` 忽略 `binding` 的源代码路径 [漏洞 #4352]。所以，用户需要通过新加入的方法来替代之前的 `Kernel#eval`。
+  此方法以一个二元组数组 `__FILE__` 和 `__LINE__` 的形式返回 binding 的源代码路径。传统上，这可以通过执行 `eval("[__FILE__, __LINE__]", binding)` 来获得相同的数据。但我们计划改变这一行为让 `Kernel#eval` 忽略 `binding` 的源代码路径 [[漏洞 #4352]](https://bugs.ruby-lang.org/issues/4352)。所以，用户需要通过新加入的方法来替代之前的 `Kernel#eval`。
 
-* 增加 `:exception` 选项，以让 `Kernel.#system` 抛出错误而不是返回 `false`。[功能 #14386]
+* 增加 `:exception` 选项，以让 `Kernel.#system` 抛出错误而不是返回 `false`。[[功能 #14386]](https://bugs.ruby-lang.org/issues/14386)
 
 ## 性能提升
 
-* 提升 `Proc#call` 的速度，因为我们无需再关心 `$SAFE`。[功能 #14318]
+* 提升 `Proc#call` 的速度，因为我们无需再关心 `$SAFE`。[[功能 #14318]](https://bugs.ruby-lang.org/issues/14318)
 
-  通过 `lc_fizzbuzz` 多次使用 `Proc#call` 的基准测试我们测量到了 1.4 倍性能提升 [漏洞 #10212]。
+  通过 `lc_fizzbuzz` 多次使用 `Proc#call` 的 benchmark 我们测量到了 1.4 倍性能提升 [[漏洞 #10212]]((https://bugs.ruby-lang.org/issues/10212))。
 
-* 提升了当 `block` 是代码块参数时 `block.call` 的性能。[功能 #14330]
+* 提升了当 `block` 是代码块参数时 `block.call` 的性能。[[功能 #14330]]((https://bugs.ruby-lang.org/issues/14330))
 
-  Ruby 2.5 提升了代码块传递的性能。[功能 #14045] 另外，Ruby 2.6 提升了传递代码块调用时的性能。通过 micro-benchmark 我们观察到了 2.6 倍性能提升。
+  Ruby 2.5 提升了代码块传递的性能。[[功能 #14045]](https://bugs.ruby-lang.org/issues/14045) 另外，Ruby 2.6 提升了传递代码块调用时的性能。通过 micro-benchmark 我们观察到了 2.6 倍性能提升。
 
 ## 其他自 2.5 以来的重要变化
 
-* `$SAFE` 成为了进程全局状态，我们可以再次将其设为 `0`。[功能 #14250]
+* `$SAFE` 成为了进程全局状态，我们可以再次将其设为 `0`。[[功能 #14250]](https://bugs.ruby-lang.org/issues/14250)
 
-* 不再建议将 `safe_level` 参数传递给 `ERB.new` 的行为。`trim_mode` 和 `eoutvar` 参数被转换成了关键词参数。[功能 #14256]
+* 不再建议将 `safe_level` 参数传递给 `ERB.new` 的行为。`trim_mode` 和 `eoutvar` 参数被转换成了关键词参数。[[功能 #14256]](https://bugs.ruby-lang.org/issues/14256)
 
 * 合并 RubyGems 3.0.0.beta1
 

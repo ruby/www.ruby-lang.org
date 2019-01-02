@@ -1,21 +1,23 @@
 Checking markdown files...
-en/1_trailing_whitespace.md
-  trailing whitespace
-en/2_trailing_whitespace_in_yaml.md
-  trailing whitespace
-en/3_newline_at_eof.md
+en/01_crlf_line_breaks.md
+  wrong line breaks (CR/LF)
+en/02_no_newline_at_eof.md
   no newline at end of file
-en/4_lang_variable.md
+en/03_trailing_whitespace.md
+  trailing whitespace
+en/04_trailing_whitespace_in_yaml.md
+  trailing whitespace
+en/05_lang_variable.md
   missing or invalid lang variable
-en/5_lang_variable_nil.md
+en/06_lang_variable_nil.md
   missing or invalid lang variable
-en/6_lang_variable_empty.md
+en/07_lang_variable_empty.md
   missing or invalid lang variable
-en/7_lang_variable_wrong_type.md
+en/08_lang_variable_wrong_type.md
   missing or invalid lang variable
-en/8_lang_variable_wrong.md
+en/09_lang_variable_wrong.md
   lang variable not matching file location
-en/9_multiple_errors.md
+en/10_multiple_errors.md
   missing or invalid lang variable
   trailing whitespace
 en/_posts/2000-01-01-old-lang-variable-nil.md
@@ -56,3 +58,9 @@ en/_posts/2018-01-14-date-variable-wrong-offset.md
   date variable with wrong time zone offset (not +0000)
 en/_posts/2018-01-15-date-mismatch.md
   filename not matching date variable
+en/_posts/2019-01-01-invalid-sha1-length-released.md
+  invalid SHA1 length
+en/_posts/2019-01-02-invalid-sha256-length-released.md
+  invalid SHA256 length
+en/_posts/2019-01-03-invalid-sha512-length-released.md
+  invalid SHA512 length

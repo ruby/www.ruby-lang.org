@@ -46,7 +46,7 @@ or [Downloads](/en/downloads/) page.
 {% include faq-out-of-date.html %}
 
 Ruby is developed under Linux, and is written in fairly straightforward C.
-It runs under Linux and other UNIX-like operating systems, Mac OS X,
+It runs under Linux and other UNIX-like operating systems, macOS,
 Windows, DOS, BeOS, Amiga, Acorn Risc OS, and OS/2.
 
 ### Where can I get Ruby sources?

@@ -17,20 +17,17 @@ check out the new features in Ruby 2.0 before final release!
 * https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-preview1.tar.bz2
   * SIZE: 10309440 bytes
   * MD5: 47a0f662f0e258aa1c5e429c310861b3
-  * SHA256:
-    79e5605003bf6766fbd123ce00a0027df716ba6d28494c35185909f7e61a5bdf
+  * SHA256: 79e5605003bf6766fbd123ce00a0027df716ba6d28494c35185909f7e61a5bdf
 
 * https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-preview1.tar.gz
   * SIZE: 12937316 bytes
   * MD5: c7d73f3ddb6d25e7733626ddbad04158
-  * SHA256:
-    94b585560c05cb40fadd03e675bd3beb8271c2e976b45644cc765bf854cfd80c
+  * SHA256: 94b585560c05cb40fadd03e675bd3beb8271c2e976b45644cc765bf854cfd80c
 
 * https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-preview1.zip
   * SIZE: 14470260 bytes
   * MD5: 4adb51aa69b56b81c81a8c5f892689cf
-  * SHA256:
-    c327f3d91ed7033790244d5b263d7b346f3d8efe808079f5a598507fad90ee6e
+  * SHA256: c327f3d91ed7033790244d5b263d7b346f3d8efe808079f5a598507fad90ee6e
 
 ## The new features in 2.0.0
 

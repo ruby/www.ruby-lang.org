@@ -182,7 +182,7 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
   czy sama platforma wspiera wątki, można ich używać nawet w MS-DOS!
 
 * Ruby jest bardzo przenośny: rozwijany głównie na platformie GNU/Linux,
-  ale może być używany na wielu typach UNIXów, Mac OS X,
+  ale może być używany na wielu typach UNIXów, macOS,
   Windows, DOS, BeOS, OS/2, itd.
 
 ### Inne implementacje Rubiego

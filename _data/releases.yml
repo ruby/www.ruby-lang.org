@@ -21,6 +21,62 @@
 
 # 2.6 series
 
+- version: 2.6.0
+  date: 2018-12-25
+  post: /en/news/2018/12/25/ruby-2-6-0-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.xz
+  sha256:
+    gz:  f3c35b924a11c88ff111f0956ded3cdc12c90c04b72b266ac61076d3697fc072
+    zip: 8a4fb6ca58202495c9682cb88effd804398bd0ef023e3e36f001ca88d8b5855a
+    bz2: c89ca663ad9a6238f4b1ec4d04c7dff630560c6e6eca6d30857c4d394f01a599
+    xz:  acb00f04374899ba8ee74bbbcb9b35c5c6b1fd229f1876554ee76f0f1710ff5f
+
+- version: 2.6.0-rc2
+  date: 2018-12-15
+  post: /en/news/2018/12/15/ruby-2-6-0-rc2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.xz
+  sha256:
+    gz:  9c0245e96379246040f1fd0978f8e447e7f47cdccbdaffdb83302a995276b62b
+    zip: e8a446cf1f2ffc14483604de0a5e12c2578dd2f672ae87798ca2bbb9b7b73899
+    bz2: b3d03e471e3136f43bb948013d4f4974abb63d478e8ff7ec2741b22750a3ec50
+    xz:  d620b3d87b3190867304067f3ce77f5305f7ec1b2e73b09c17710c97c028986d
+
+- version: 2.6.0-rc1
+  date: 2018-12-06
+  post: /en/news/2018/12/06/ruby-2-6-0-rc1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.xz
+  sha256:
+    gz:  6d6183639ed9c02320d7132e97c65489a39e24d8b55fc4ed35ac53d1189cb61d
+    zip: 2bcdf468de499e4d6983d60d63dcc883f4c54fdc05a08a54eb93d315477bc4cc
+    bz2: b4e9c0e8801946e9f0baba30948955f4341e9e04f363c206b7bd774208053eb5
+    xz:  21d9d54c20e45ccacecf8bea4dfccd05edc52479c776381ae98ef6a7b4afa739
+
+- version: 2.6.0-preview3
+  date: 2018-11-06
+  post: /en/news/2018/11/06/ruby-2-6-0-preview3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview3.tar.xz
+  sha256:
+    gz:  60243e3bd9661e37675009ab66ba63beacf5dec748885b9b93916909f965f27a
+    zip: 9152af9e700349dcfa2eec196dd91587d42d70a6837fa2c415ebba1167587be1
+    bz2: 1f09a2ac1ab26721923cbf4b9302a66d36bb302dc45e72112b41d6fccc5b5931
+    xz:  9856d9e0e32df9e5cdf01928eec363d037f1a76dab2abbf828170647beaf64fe
+
 - version: 2.6.0-preview2
   date: 2018-05-31
   post: /en/news/2018/05/31/ruby-2-6-0-preview2-released/
@@ -50,6 +106,34 @@
     xz:  1d99139116e4e245ce543edb137b2a8873c26e9f0bde88d8cee6789617cc8d0e
 
 # 2.5 series
+
+- version: 2.5.3
+  date: 2018-10-18
+  post: /en/news/2018/10/18/ruby-2-5-3-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.zip
+  sha256:
+    bz2: 228a787ba68a7b20ac6e1d5af3d176d36e8ed600eb754d6325da341c3088ed76
+    gz:  9828d03852c37c20fa333a0264f2490f07338576734d910ee3fd538c9520846c
+    xz:  1cc9d0359a8ea35fc6111ec830d12e60168f3b9b305a3c2578357d360fcf306f
+    zip: 622ffa051470e967f3e51cc6347783e93d9b09a4557d4f5a78efb87b959f87a3
+
+- version: 2.5.2
+  date: 2018-10-17
+  post: /en/news/2018/10/17/ruby-2-5-2-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.zip
+  sha256:
+    bz2: ea3bcecc3b30cee271b4decde5e9ff3e17369d5fd1ed828d321c198307c9f0df
+    gz:  b32340e64a0c7ecbf31486c41fe429a55c7984d980eca7a78138367d9209f471
+    xz:  8be6b6afdf09957a6e2c2a6ada4b1982a391a828b34e49072c4beb60febb678d
+    zip: f148947fee070f30826ef0bda77228b9c374b388050db81ad07f5cd8608e3624
 
 - version: 2.5.1
   date: 2018-03-28
@@ -108,6 +192,20 @@
     zip: 1a61196a845cb9d9b5a71fd66cb77fbc215f82cb6f90371e309ceddb25e7107b
 
 # 2.4 series
+
+- version: 2.4.5
+  date: 2018-10-17
+  post: /en/news/2018/10/17/ruby-2-4-5-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.zip
+  sha256:
+    bz2: 276c8e73e51e4ba6a0fe81fb92669734e741ccea86f01c45e99f2c7ef7bcd1e3
+    gz:  6737741ae6ffa61174c8a3dcdd8ba92bc38827827ab1d7ea1ec78bc3cefc5198
+    xz:  2f0cdcce9989f63ef7c2939bdb17b1ef244c4f384d85b8531d60e73d8cc31eeb
+    zip: 33694b03ac178cf96aa728b74de7b0bc5d848fcfabc64a7c74ea093198142601
 
 - version: 2.4.4
   date: 2018-03-28
@@ -171,6 +269,20 @@
   post: /en/news/2016/06/20/ruby-2-4-0-preview1-released/
 
 # 2.3 series
+
+- version: 2.3.8
+  date: 2018-10-17
+  post: /en/news/2018/10/17/ruby-2-3-8-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.zip
+  sha256:
+    bz2: 4d1a3a88e8cf9aea624eb73843fbfc60a9a281582660f86d5e4e00870397407c
+    gz:  b5016d61440e939045d4e22979e04708ed6c8e1c52e7edb2553cf40b73c59abf
+    xz:  910f635d84fd0d81ac9bdee0731279e6026cb4cd1315bbbb5dfb22e09c5c1dfe
+    zip: ec9792d0473a22954ad25cd0c531fc672679c1a5eaeefa08caf9e1288852796f
 
 - version: 2.3.7
   date: 2018-03-28

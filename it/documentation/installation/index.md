@@ -17,7 +17,7 @@ La seguente panoramica indica i metodi di installazione disponibili
 per le maggiori piattaforme.
 Scegli il modo più comodo per te.
 
-* OS X
+* macOS
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -49,7 +49,7 @@ Tuttavia la loro rispettabile comunità è molto disponibile.
 [rbenv][rbenv] ti permette di gestire multiple installazioni di Ruby.
 Non supporta l'installazione di Ruby, ma esiste un plugin molto popolare
 chiamato ruby-build che permette di installare Ruby.
-Entrambi i tool sono disponibili per OS X, Linux o altri sistemi operativi
+Entrambi i tool sono disponibili per macOS, Linux o altri sistemi operativi
 UNIX-like.
 
 
@@ -58,7 +58,7 @@ UNIX-like.
 
 [RVM][rvm] ti permette di installare e gestire multiple installazioni di Ruby
 sul tuo sistema. Ti permette anche di gestire gemsets differenti.
-È disponibile solo per OS X, Linux, o gli altri sistemi operativi UNIX-like.
+È disponibile solo per macOS, Linux, o gli altri sistemi operativi UNIX-like.
 
 
 ### RubyInstaller
@@ -81,7 +81,7 @@ Se stai installando Ruby per usare Rails, puoi utilizzare questi installer:
   Supporta OS X e Windows.
 * [Bitnami Ruby Stack][rubystack]
   fornisce un ambiente di sviluppo completo per Rails.
-  Supporta Windows, OS X, Linux, macchine virtuali e immagini cloud.
+  Supporta Windows, macOS, Linux, macchine virtuali e immagini cloud.
 
 
 ## Sistemi di gestione dei pacchetti
@@ -104,7 +104,7 @@ Di seguito sono descritti e seguenti gestori di pacchetti:
 * [yum (CentOS, Fedora, o RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
-* [Homebrew (OS X)](#homebrew)
+* [Homebrew (macOS)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 
@@ -161,26 +161,26 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Su OS X Mavericks, Ruby 2.0. è incluso.
 OS X Mountain Lion, Lion, e Snow Leopard hanno la versione 1.8.7.
 
 Ci sono diverse opzioni per installare le nuove versioni di Ruby.
-Molti utenti OS X nella comunità Ruby usano i tool di terze parti per installare
+Molti utenti macOS nella comunità Ruby usano i tool di terze parti per installare
 Ruby, ma ci sono alcuni gestori di pacchetti che supportano Ruby.
 
-Molti utenti su OS X usano [Homebrew][homebrew] come gestore di pacchetti.
+Molti utenti su macOS usano [Homebrew][homebrew] come gestore di pacchetti.
 Con questo è molto facile installare Ruby:
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-In alternativa, dato che OS X è basato su Unix, si possonono scaricare ed
+In alternativa, dato che macOS è basato su Unix, si possonono scaricare ed
 installare i sorgenti, è altrettanto facile ed efficace.
-Per aiutarti nell'installazione delle nuove versioni Ruby su OS X, è
+Per aiutarti nell'installazione delle nuove versioni Ruby su macOS, è
 probabilmente una buona ida utilizzare i tool di terze parti.
 
 ### Ruby su Solaris e OpenIndiana

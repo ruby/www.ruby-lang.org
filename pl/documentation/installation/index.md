@@ -15,7 +15,7 @@ trzecich do zarządzania i instalacji Rubiego.
 Poniższa lista przedstawia dostępne metody instalacji.
 Wybierz najbardziej odpowiednią.
 
-* OS X
+* macOS
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -49,7 +49,7 @@ Narzędzie rbenv umożliwia zarządzanie wieloma instalacjami Rubiego.
 Nie umożliwia instalowania Rubiego, ale jest popularna wtyczka ruby-build
 do instalowania Rubiego.
 
-Oba narzędzia są dostępne dla systemu OS X, Linux, lub innych bazujących na UNIX-ie.
+Oba narzędzia są dostępne dla systemu macOS, Linux, lub innych bazujących na UNIX-ie.
 
 Po najaktualniejszą instrukcję instalacji rbenv zajrzyj na [stronę rbenv][rbenv].
 
@@ -61,7 +61,7 @@ Sprawdź je też i wybierz odpowiednie dla ciebie.
 {: #rvm}
 
 Narzędzie RVM umożliwia instalację i zarządzanie wieloma instalacjami Rubiego w
-systemie. Jest dostępny wyłącznie na system OS X, Linux, lub dowolny system
+systemie. Jest dostępny wyłącznie na system macOS, Linux, lub dowolny system
 bazujący na systemie UNIX.
 
 Po najaktualniejszą instrukcję instalacji RVM zajrzyj na [rvm.io][rvm].
@@ -99,7 +99,7 @@ Na tej stronie następujące menedżery pakietów są opisane:
 * [yum (CentOS, Fedora lub RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
-* [Homebrew (OS X)](#homebrew)
+* [Homebrew (macOS)](#homebrew)
 * [Solaris, OpenIndiana](#solaris)
 
 
@@ -155,7 +155,7 @@ $ sudo pacman -S ruby
 {% endhighlight %}
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Ruby 2.0.0 jest zawarty w OS X Mavericks.
@@ -164,20 +164,20 @@ A OS X Mountain Lion, Lion i Snow Leopard jest dostarczany z 1.8.7.
 2.0 oraz 1.8 są starszymi wersjami, więc jest sporo możliwości by zainstalować
 najnowszą wersję Rubiego.
 
-Większość użytkowników systemu OS X ze społeczności Rubiego używa narzędzi osób
+Większość użytkowników systemu macOS ze społeczności Rubiego używa narzędzi osób
 trzecich by zainstalować Rubiego. Ale są też menedżery pakietów wspierające
 Rubiego.
 
-Wiele osób w OS X używa [Homebrew][homebrew] jako menedżera pakietów.
+Wiele osób w macOS używa [Homebrew][homebrew] jako menedżera pakietów.
 Bardzo łatwo jest zainstalować Rubiego:
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-A ponadto z racji, że OS X bazuje na Unixie, pobieranie i instalowanie ze
+A ponadto z racji, że macOS bazuje na Unixie, pobieranie i instalowanie ze
 źródeł jest proste i efektywne jak inne rozwiązania. By ułatwić ci instalację
-nowej wersji Rubiego w OS X dobrym pomysłem jest użycie narzędzi osób trzecich.
+nowej wersji Rubiego w macOS dobrym pomysłem jest użycie narzędzi osób trzecich.
 
 
 ### Ruby On Solaris and OpenIndiana
