@@ -43,7 +43,7 @@ O ganhador do prêmio AWS receberá:
 O ganhador do prêmio GMO Pepabo receberá:
 
 * Lolipop! (serviço de hospedagem compartilhada): assinatura gratuita por 10 anos do plano Standard, ou um cupom no valor de JPY 100,000 para o plano metrificado da Managed Cloud
-* Muumuu Domain (serviço de registro de DNS): assinatura gratuita por 10 anos de um domínio (válido somente para domínios de JPY 10,000 ou menos por ano)
+* Muumuu Domain (serviço de registro de DNS): assinatura gratuita por 10 anos de um domínio (válido somente para domínios de ¥ 10.000,00 ou menos por ano)
 
 O ganhador do prêmio IIJ GIO receberá:
 
