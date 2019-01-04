@@ -9,7 +9,7 @@ lang: pt
 
 Caros entusiatas de Ruby,
 
-O governo de Fukuoka, Japão, juntamente com "Matz" Matsumoto gostaria de convidá-los para entrar na seguinte competição de Ruby. Se você desenvolveu algum programa interessante em Ruby, por favor seja encorajado à aplicar.
+O governo de Fukuoka, Japão, juntamente com "Matz" Matsumoto gostaria de convidá-los para entrar na seguinte competição de Ruby. Se você desenvolveu algum programa interessante em Ruby, por favor seja encorajado a aplicar.
 
 Competição Fukuoka Ruby Award 2019 - Grande Prêmio - 1 Milhão de Ienes!
 
