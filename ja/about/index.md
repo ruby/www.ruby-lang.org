@@ -172,7 +172,6 @@ MRI以外のRuby処理系には以下のようなものがあります。
 * [JRuby][jruby]は、JVM(Java仮想マシン)上に構築されたRubyです。
   JVMの最適化されたJITコンパイラやGC、並行スレッド、ツール群、そして膨大なコレクションのライブラリを使うことができます。
 * [Rubinius][rubinius]は「Rubyで書かれたRuby」です。LLVM上に構築されています。LLVMは他の言語も構築されるよくできた仮想マシンです。
-* [MacRuby][macruby]は、Mac OS X用のCocoaライブラリとしっかり統合されたRubyです。デスクトップアプリケーションを作成できます。
 * [mruby][mruby]はRubyの軽量実装です。アプリケーションにリンクし、組み込むことができます。Rubyの作者であるまつもと ゆきひろ氏によって開発が進められています。
 * [IronRuby][ironruby]は、.Netフレームワークにしっかりと統合されたRuby処理系です。
 * [MagLev][maglev]は、オブジェクトの永続化と分散共有キャッシュを持った、高速で安定したRuby処理系です。
@@ -198,7 +197,6 @@ MRI以外のRuby処理系には以下のようなものがあります。
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

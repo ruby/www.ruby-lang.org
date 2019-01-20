@@ -122,7 +122,6 @@ Ruby 还有其他众多特性，下面列举一些：
 
 * [JRuby][jruby] 是基于 JVM（Java Virtual Machine）的 Ruby 实现，利用了 JVM 中优秀的 JIT 编译器、垃圾回收程序、并发线程、工具生态系统和大量的库。
 * [Rubinius][rubinius] 是用“Ruby 编写的 Ruby”。构建于 LLVM 之上，Rubinius 跑在一个很灵活的虚拟机上，别的语言也可以构建于这个虚拟机上。
-* [MacRuby][macruby] 是一个与苹果 Mac OS X 上 Cocoa 库紧密集成的实现，可以让你轻易地写出桌面应用程序。
 * [mruby][mruby] 是 Ruby 语言的轻量级实现，可以链接或嵌入到程序之中。mruby 由 Ruby 的创建者松本行弘（Matz）领导开发。
 * [IronRuby][ironruby] 是一个“与 .NET 框架紧密集成”的实现。
 * [MagLev][maglev] 是“一个快速、稳定的 Ruby 实现，支持集成对象持久化和分布式共享缓存”。
@@ -149,7 +148,6 @@ Ruby 还有其他众多特性，下面列举一些：
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

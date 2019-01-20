@@ -204,9 +204,6 @@ Ruby как язык имеет несколько разных имплемен
 * [Rubinius][rubinius] это "Ruby написанный на Ruby". Реализован на основе LLVM –
   изящной виртуальной машине, на который созданы и другие известные
   языки.
-* [MacRuby][macruby] это Ruby, который тесно интегрирован с библиотеками
-  Cocoa от Apple для Mac OS X. Позволяет вам проще писать приложения для Mac
-  OS X.
 * [mruby][mruby] это легковесная реализация Ruby, которая может быть
   слинкована и встроена в приложение. Возглавляет разработку mruby создатель
   языка Ruby, Yukihiro “Matz” Matsumoto.
@@ -242,7 +239,6 @@ Ruby как язык имеет несколько разных имплемен
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

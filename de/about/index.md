@@ -209,9 +209,6 @@ Hier ist eine Liste:
   der sogar andere Sprachen aufbauen. Ebenso wie JRuby besitzt es echt
   nebenläufige Threads, ist jedoch im Gegensatz zu diesem kompatibel zur
   C-API des MRI.
-* [MacRuby][macruby] ist stark integriert in Apples Cocoa-Framework für Mac
-  OS X, was ein leichtes Erstellen von Desktopanwendungen für Mac OS X
-  ermöglicht.
 * [mruby][mruby] ist eine schlanke Ruby-Implementierung, die
   gelinkt und in Anwendungen eingebunden werden kann.
   Die Entwicklung von mruby wird von Yukihiro “Matz” Matsumoto geleitet,
@@ -246,7 +243,6 @@ November 2001.
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
