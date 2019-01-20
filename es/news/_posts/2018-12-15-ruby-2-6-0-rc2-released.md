@@ -137,18 +137,21 @@ Disfrute programar con Ruby 2.6.0-rc2!
       SHA1:   a4d7f8c8c3584a60fe1a57d03d80162361fe3c78
       SHA256: 9c0245e96379246040f1fd0978f8e447e7f47cdccbdaffdb83302a995276b62b
       SHA512: 789f608f93db6e12835911f3105d9abe2fabb67cd22dc3bafdff38716ac56974925738e7f7788ebef5bdf67b6fd91f84a4ee78a3e5d072cfc8ee0972de737b08
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.zip>
 
       SIZE:   20643747 bytes
       SHA1:   c1a2898949d929dd952880f1c1c2bac2ef2609b4
       SHA256: e8a446cf1f2ffc14483604de0a5e12c2578dd2f672ae87798ca2bbb9b7b73899
       SHA512: 2d06feae13f485f5da59574672b14d03881ed532d652648f94e2435f5d81df623b5ef532b8ba8e0b9bc4ee6baf7c0328a5610eab753a9020a0fea2673254c76c
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.bz2>
 
       SIZE:   14581998 bytes
       SHA1:   94bbee97de4955e67effb7f512c58300617a3a09
       SHA256: b3d03e471e3136f43bb948013d4f4974abb63d478e8ff7ec2741b22750a3ec50
       SHA512: 9bfbe83fd3699b71bae2350801d8c967eb128e79b62a9d36fc0f011b83c53cab28a280939f4cc9f0a28f9bf02dce8eea30866ca4d06480dc44289400abf580ba
+
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.xz>
 
       SIZE:   11908088 bytes
