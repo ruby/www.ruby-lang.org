@@ -113,6 +113,12 @@ With those changes, [6437 files changed, 231471 insertions(+), 98498 deletions(-
 
 Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.6!
 
+## Known Problem
+
+_(This section was added at January 28, 2019.)_
+
+* [Net::Protocol::BufferedIO#write raises NoMethodError when sending large multi-byte string](https://github.com/ruby/ruby/pull/2058)
+
 ## Download
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.gz>
