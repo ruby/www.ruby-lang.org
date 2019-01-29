@@ -1,52 +1,48 @@
 ---
 layout: page
-title: "Patch Writer’s Guide"
-lang: en
+title: "패치 작성자를 위한 지침"
+lang: ko
 ---
 
-Here follow some tips, straight from Matz, on how to get
-your patches considered.
+다음은 마츠 씨가 직접 언급한 좋은 패치를 만드는 방법입니다.
 {: .summary}
 
-These guidelines were adopted from a [post by Matz][ruby-core-post]
-on the Ruby-Core mailing list:
+이 지침은 Ruby-Core 메일링 리스트의 [마츠 씨의 글][ruby-core-post]에서
+가져왔습니다.
 
-* Implement one modification per patch
+* 패치당 하나의 수정사항 구현하기
 
-  This is the biggest issue for most deferred patches. When you
-  submit a patch that fixes multiple bugs (and adds features) at once,
-  we have to separate them before applying it. It is a rather hard task
-  for us busy developers, so this kind of patches tends to be deferred.
-  No big patches please.
+  이는 대부분의 보류 중인 패치들이 갖고 있는 가장 큰 문제입니다. 여러 개의
+  버그를 수정하는 (또 여러 기능을 추가하는) 패치를 한 번에 보내면, 우리는 이를
+  다시 나눠서 적용해야 합니다. 이는 바쁜 개발자에게는 상대적으로 힘든 작업이
+  되기에, 이런 유형의 패치는 자주 보류되곤 합니다. 큰 패치를 보내지 말아주세요.
 
-* Provide descriptions
+* 설명 제공하기
 
-  Sometimes a mere patch does not sufficiently describe the problem it fixes.
-  A better description (the problem it fixes, preconditions, platform, etc.)
-  would help a patch to be merged earlier.
+  가끔 어떤 문제를 고치는지에 대한 충분한 설명이 없는 패치가 들어오곤 합니다. 좀
+  더 나은 설명(패치가 고치는 문제점, 전제조건, 플랫폼 등)과 함께라면 패치가 더
+  일찍 병합될 수 있을 것입니다.
 
-* Diff to the latest revision
+* 최신 리비전 기반으로 패치 작성하기
 
-  Your problem might have been fixed in the latest revision. Or the code
-  might be totally different by now. Before submitting a patch, try to fetch
-  the latest version (the `trunk` branch for the latest development version,
-  `{{ site.svn.stable.branch }}` for {{ site.svn.stable.version }})
-  from the Subversion repository, please.
+  고치려는 문제가 이미 최신 리비전에서 수정되었을 수 있습니다. 코드가 완전히
+  달라졌을 수도 있습니다. 패치를 제출하기 전에 서브버전 저장소에서 최신
+  버전(최신 개발 버전은 `trunk` 브랜치, {{ site.svn.stable.version }} 버전은
+  `{{ site.svn.stable.branch }}` 브랜치)을 받아 보세요.
 
-* Use `diff -u`
+* `diff -u` 사용하기
 
-  We prefer `diff -u` style unified diff patches to `diff -c`
-  or any other style of patches. They are far easier to review.
-  Do not send modified files, we do not want to make a diff by ourselves.
+  우리는 `diff -c`나 다른 스타일보다 `diff -u`의 unified diff 스타일의 패치를
+  선호합니다. 그게 리뷰하기 훨씬 쉽습니다. 수정한 파일을 보내지 마세요. 직접
+  diff를 만들고 싶지 않습니다.
 
-* Provide test cases (optional)
+* 테스트 케이스 제공하기(선택)
 
-  A patch providing test cases (preferably a patch to `test/*/test_*.rb`)
-  would help us understand the patch and your intention.
+  패치가 테스트 케이스(`test/*/test_*.rb`에 패치하는 게 좋습니다)를 제공하면
+  작성자의 의도와 패치를 이해하는 데 도움이 됩니다.
 
-We might move to a Git style push/pull workflow in the future.
-But until then, following the above guidelines would help you to avoid
-frustration.
+추후에는 Git 스타일 push/pull 워크플로우로 옮겨갈 수 있습니다. 하지만 그 전까진
+위의 지침을 따른다면 낙심할 일을 줄일 수 있을 겁니다.
 
 
 [ruby-core-post]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
