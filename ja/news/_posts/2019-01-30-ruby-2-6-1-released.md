@@ -9,6 +9,8 @@ lang: ja
 
 Ruby 2.6.1 がリリースされました。
 
+* [大きな多バイト文字列を送ると Net::Protocol::BufferedIO#write で NoMethodError が発生する問題](https://bugs.ruby-lang.org/issues/15468) が修正されました。
+
 その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1) を参照してください。
 
 ## ダウンロード
