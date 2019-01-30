@@ -13,8 +13,7 @@ Ruby 2.6.1 has been released.
 
 * [Net::Protocol::BufferedIO#write raises NoMethodError when sending large multi-byte string](https://bugs.ruby-lang.org/issues/15468) has been fixed.
 
-This release includes some bug fixes.
-See [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1) for more details.
+This release includes additional bug fixes. See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1) for more details.
 
 ## Download
 
