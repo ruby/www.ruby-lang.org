@@ -13,7 +13,7 @@ lang: ko
 
 * [`Net::Protocol::BufferedIO#write`가 긴 멀티바이트 문자열을 전송할 때 `NoMethodError` 에러가 발생하는 문제](https://bugs.ruby-lang.org/issues/15468)가 수정되었습니다.
 
-이번 릴리스는 몇몇 버그 수정 또한 포함됩니다. [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1)를 확인해주세요.
+이번 릴리스는 몇몇 버그 수정 또한 포함합니다. [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1)를 확인해주세요.
 
 ## 다운로드
 
