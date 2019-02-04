@@ -97,7 +97,7 @@ A classe `RubyVM::AbstractSyntaxTree::Node` também foi adicionada. Você pode o
 
 * `$SAFE` agora é um processo de estado global e pode ser setado para `0` novamente.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
-* Passar `safe_level` para `ERB.new` está deprecado. Os argumentos `trim_mode` e `eoutvar` foram alterados para keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
+* Passar `safe_level` para `ERB.new` está depreciado. Os argumentos `trim_mode` e `eoutvar` foram alterados para keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
 * Suporte à Unicode está atualizado para versão 11. Temos planos de adicionar suporte à versão 12 e 12.1 em um pequeno próximo release do Ruby 2.6. Isso adicionará suporte à [nova era Japonesa](http://blog.unicode.org/2018/09/new-japanese-era.html).
 
