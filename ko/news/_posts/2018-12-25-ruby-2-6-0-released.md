@@ -117,7 +117,7 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 _(이 문단은 2019년 1월 28일에 추가되었습니다.)_
 
-* [`Net::Protocol::BufferedIO#write`가 긴 멀티바이트 문자열을 전송할 때 `NoMethodError` 에러가 발생하는 문제](https://bugs.ruby-lang.org/issues/15468)
+* [`Net::Protocol::BufferedIO#write`로 긴 멀티바이트 문자열을 전송할 때 `NoMethodError` 에러가 발생하는 문제](https://bugs.ruby-lang.org/issues/15468)
 
 ## 다운로드
 
