@@ -113,6 +113,12 @@ JIT 컴파일을 사용하려면 `--jit` 옵션을 커맨드라인이나 `$RUBYO
 
 메리 크리스마스, 행복한 휴일 보내시고, 루비 2.6과 함께 즐거운 프로그래밍 하세요!
 
+## 알려진 문제점
+
+_(이 문단은 2019년 1월 28일에 추가되었습니다.)_
+
+* [`Net::Protocol::BufferedIO#write`가 긴 멀티바이트 문자열을 전송할 때 `NoMethodError` 에러가 발생하는 문제](https://bugs.ruby-lang.org/issues/15468)
+
 ## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.gz>
