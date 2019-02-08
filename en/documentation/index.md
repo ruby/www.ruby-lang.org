@@ -146,7 +146,6 @@ If you have questions about Ruby the
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
@@ -173,3 +172,5 @@ If you have questions about Ruby the
 [39]: http://kapeli.com/dash
 [40]: https://docs.ruby-lang.org/en/
 [41]: https://atom.io/
+
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
