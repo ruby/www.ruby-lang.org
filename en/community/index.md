@@ -36,6 +36,11 @@ to start:
   the blogs. We’ve got a nice list of suggestions for you here for
   getting plugged in.
 
+[Ruby Podcasts](podcasts/)
+: Ruby has a vibrant podcasting community. If you want to keep up with
+  the latest Ruby trends and news, we have a list of high-quality
+  suggestions.
+
 [Ruby Conferences](conferences/)
 : Ruby programmers around the world are getting involved in more and
   more conferences, where they get together to share reports on
