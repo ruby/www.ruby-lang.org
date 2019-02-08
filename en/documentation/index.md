@@ -117,13 +117,11 @@ Here is a list of popular tools used by Rubyists:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][41]
 
 * On macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (documentation browser)
-  * [Atom][41]
 
 ### Further Reading
 
