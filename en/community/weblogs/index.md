@@ -32,12 +32,12 @@ updates.
 
 ### Spreading the Word
 
-You can contact the authors of the above blogs, if you are covering a
-topic they’d be interested in.
+If you're interested in writing for any of the above blogs, you should
+contact the authors.
 
 Ruby is also a common topic on [reddit][reddit], and [Hacker News][hn],
 in their respective programming news. If you find some brilliant code
-out there, be sure to let them know!
+out there, be sure to share!
 
 
 [rubyflow]: http://www.rubyflow.com/
