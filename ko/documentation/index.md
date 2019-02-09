@@ -114,6 +114,7 @@ lang: ko
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][41]
+  * [Visual Studio Code][42]
 
 * Windows
   * [Notepad++][29]
@@ -172,6 +173,7 @@ lang: ko
 [39]: http://kapeli.com/dash
 [40]: https://docs.ruby-lang.org/en/
 [41]: https://atom.io/
+[42]: https://code.visualstudio.com/
 
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 
