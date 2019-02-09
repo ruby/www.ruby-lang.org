@@ -87,6 +87,7 @@ lang: zh_tw
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][41]
+  * [Visual Studio Code][42]
 
 * Windows 作業系統：
   * [Notepad++][29]
@@ -144,6 +145,7 @@ lang: zh_tw
 [39]: http://kapeli.com/dash
 [40]: https://docs.ruby-lang.org/en/
 [41]: https://atom.io/
+[42]: https://code.visualstudio.com/
 
 [rubytw]: http://ruby.tw
 [ruby-user-guide-zh_tw]: http://guides.ruby.tw/ruby/
