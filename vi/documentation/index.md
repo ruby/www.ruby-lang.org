@@ -123,6 +123,7 @@ tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, h
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][40]
+  * [Visual Studio Code][41]
 
 * Trên Windows:
   * [Notepad++][29]
@@ -182,3 +183,4 @@ là một nơi tuyệt vời.
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [40]: https://atom.io/
+[41]: https://code.visualstudio.com/
