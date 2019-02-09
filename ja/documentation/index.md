@@ -90,6 +90,7 @@ Rubyistに人気のあるソフトウェアには次のようなものがあり�
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][40]
+  * [Visual Studio Code][41]
 
 * Windows
   * [Notepad++][29]
@@ -152,3 +153,4 @@ Posted by Shugo Maeda on 26 May 2006
 [37]: http://www.sublimetext.com/
 [39]: http://kapeli.com/dash
 [40]: https://atom.io/
+[41]: https://code.visualstudio.com/
