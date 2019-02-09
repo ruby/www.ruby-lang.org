@@ -128,6 +128,7 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby.
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][40]
+  * [Visual Studio Code][41]
 
 * Pada Windows:
   * [Notepad++][29]
@@ -186,5 +187,6 @@ adalah tempat yang baik untuk memulai.
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [40]: https://atom.io/
+[41]: https://code.visualstudio.com/
 
 [extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
