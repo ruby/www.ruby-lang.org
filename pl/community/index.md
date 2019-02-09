@@ -54,6 +54,6 @@ Ogólne informacje o Rubim
 
 
 [3]: http://rubycentral.org/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[4]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[5]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
 [6]: http://forum.rubyonrails.pl/
