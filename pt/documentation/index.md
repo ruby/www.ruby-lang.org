@@ -124,6 +124,7 @@ programadores Ruby:
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][40]
+  * [Visual Studio Code][41]
 
 * No Windows:
   * [Notepad++][29]
@@ -182,3 +183,4 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [40]: https://atom.io/
+[41]: https://code.visualstudio.com/
