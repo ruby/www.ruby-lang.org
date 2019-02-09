@@ -113,19 +113,17 @@ lang: ko
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Atom][41]
 
 * Windows
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
 * macOS
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (문서 브라우저)
-  * [Atom][atom]
 
 ### 더 읽을거리
 
@@ -174,7 +172,8 @@ lang: ko
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [40]: https://docs.ruby-lang.org/en/
-[atom]: https://atom.io/
+[41]: https://atom.io/
+
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [ko-2]: http://beyond.daesan.com/pages/ruby-faq
 [ko-3]: https://groups.google.com/forum/#!forum/rubykr
