@@ -113,19 +113,18 @@ lang: ko
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Atom][41]
+  * [Visual Studio Code][42]
 
 * Windows
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
 * macOS
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (문서 브라우저)
-  * [Atom][atom]
 
 ### 더 읽을거리
 
@@ -148,7 +147,6 @@ lang: ko
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
@@ -174,7 +172,11 @@ lang: ko
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [40]: https://docs.ruby-lang.org/en/
-[atom]: https://atom.io/
+[41]: https://atom.io/
+[42]: https://code.visualstudio.com/
+
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
+
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [ko-2]: http://beyond.daesan.com/pages/ruby-faq
 [ko-3]: https://groups.google.com/forum/#!forum/rubykr

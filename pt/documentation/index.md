@@ -123,19 +123,18 @@ programadores Ruby:
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Atom][40]
+  * [Visual Studio Code][41]
 
 * No Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
 * No macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (navegador de documentação)
-  * [Atom][atom]
 
 ### Leitura Complementar
 
@@ -183,4 +182,5 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[atom]: https://atom.io/
+[40]: https://atom.io/
+[41]: https://code.visualstudio.com/
