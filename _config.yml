@@ -1501,6 +1501,9 @@ locales:
           url: /zh_tw/documentation/
         # books:
         #   text: 書籍
+        rubybib:
+          text: 學術研究
+          <<: *rubybib
         libraries:
           text: 函式庫
           url: /zh_tw/libraries/
@@ -1558,6 +1561,9 @@ locales:
           url: /zh_cn/documentation/
         # books:
         #   text: Books
+        rubybib:
+          text: 学术研究
+          <<: *rubybib
         libraries:
           text: 代码库
           url: /zh_cn/libraries/
