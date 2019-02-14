@@ -110,8 +110,8 @@ Here is a list of popular tools used by Rubyists:
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][41]
-  * [Visual Studio Code][42]
+  * [Atom][atom]
+  * [Visual Studio Code][vscode]
 
 * On Windows:
   * [Notepad++][29]
@@ -145,6 +145,7 @@ If you have questions about Ruby the
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
@@ -170,7 +171,5 @@ If you have questions about Ruby the
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [40]: https://docs.ruby-lang.org/en/
-[41]: https://atom.io/
-[42]: https://code.visualstudio.com/
-
-[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
+[atom]: https://atom.io/
+[vscode]: https://code.visualstudio.com/
