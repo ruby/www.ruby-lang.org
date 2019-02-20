@@ -30,6 +30,12 @@ lang: zh_tw
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
+{% if site.data.downloads.preview %}
+* **預覽版本:**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
 {% if site.data.downloads.security_maintenance %}
 * **處於安全維護週期（即將停止維護！）：**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
@@ -49,6 +55,9 @@ lang: zh_tw
     這是 SVN 上的 tarball，每晚更新。
     可能有問題或 bug，謹慎使用，風險自負！
 
+更多有關特定發行版本、特別是老舊版本的資訊，請參閱[版本頁面][releases]。
+關於現正維護中的多個 Ruby 分支資訊，可在[分支頁面][branches]中找到。
+
 關於 Ruby Subversion 與 Git Repositories 的資訊，參見 [Ruby Core](/en/community/ruby-core/) 頁面。
 
 Ruby 原始碼可從世界各地的[鏡像站][mirrors]獲得。請嘗試離您最近的鏡像站。
@@ -57,6 +66,8 @@ Ruby 原始碼可從世界各地的[鏡像站][mirrors]獲得。請嘗試離您�
 
 [license]: {{ site.license.url }}
 [installation]: /zh_tw/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
