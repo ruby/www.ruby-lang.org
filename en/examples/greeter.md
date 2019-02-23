@@ -15,7 +15,7 @@ class Greeter
 end
 
 # Create a new object
-g = Greeter.new("world")
+g = Greeter.new("World")
 
 # Output "Hello World!"
 g.salute
