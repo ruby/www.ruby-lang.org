@@ -4,19 +4,19 @@ layout: null
 
 {% highlight ruby %}
 # Selamlama sınıfı
-class Greeter
+class Selamlama
   def initialize(isim)
     @isim = isim.capitalize
   end
 
-  def salute
+  def selamla
     puts "Merhaba #{@isim}!"
   end
 end
 
-# Yeni bir obje üretin
-g = Greeter.new("Dünya!")
+# Yeni bir nesne üret
+s = Selamlama.new("Dünya")
 
 # Çıktı "Merhaba Dünya!"
-g.salute
+s.selamla
 {% endhighlight %}

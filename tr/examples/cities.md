@@ -4,19 +4,19 @@ layout: null
 
 {% highlight ruby %}
 # Tüm bir Array üzerinde
-# matematik işlem yapmak
+# matematik işlemi yapmak
 # isteseniz dahi
 # Ruby ne istediğinizi
 # hemen anlar
-cities  = %w[ London
-              Oslo
-              Paris
-              Amsterdam
-              Berlin ]
-visited = %w[Berlin Oslo]
+şehirler = %w[ İstanbul
+               Tokyo
+               Londra
+               Paris
+               Berlin ]
+gidilen  = %w[Berlin İstanbul]
 
 puts "Halihazırda " +
      "şu şehirleri " +
      "ziyaret etmedim:",
-     cities - visited
+     şehirler - gidilen
 {% endhighlight %}

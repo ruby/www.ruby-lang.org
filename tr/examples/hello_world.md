@@ -3,15 +3,15 @@ layout: null
 ---
 
 {% highlight ruby %}
-# Meşhur Hello World
+# Meşhur Merhaba Dünya
 # programı Ruby'de çok
 # basit. Şunlar gereksiz:
 #
-# * bir "main" metodu
-# * yeni satır bildirimi
-# * noktalı virgüller
+# * Bir "main" metodu
+# * Yeni satır
+# * Noktalı virgüller
 #
 # İşte kodumuz:
 
-puts "Hello World!"
+puts "Merhaba Dünya!"
 {% endhighlight %}
