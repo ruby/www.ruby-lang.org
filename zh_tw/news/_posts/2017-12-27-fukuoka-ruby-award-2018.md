@@ -45,7 +45,7 @@ AWS 特賞得獎者將獲得：
 GMO Pepabo 特賞將獲得：
 
 * Lolipop! 共享主機服務的標準方案十年免費，或是 Managed Cloud 的流量方案價值日幣十萬元的折價券
-* Muumuu Domain DNS 註冊服務：十年免費域名一個（限每年費用低於一萬日圓的域名）
+* Muumuu Domain DNS 註冊服務：十年免費域名一個（限每年費用低於一萬日圓的域名）
 
 IIJ GIO 特賞將獲得：
 
