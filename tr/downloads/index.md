@@ -92,7 +92,7 @@ Lütfen yakınınızdaki bir yansıyı kullanmaya çalışın.
 
 
 [license]: {{ site.license.url }}
-[installation]: /en/documentation/installation/
+[installation]: /tr/documentation/installation/
 [releases]: /en/downloads/releases/
 [branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
