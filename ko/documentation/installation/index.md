@@ -328,7 +328,7 @@ $ sudo make install
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
 [freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
-[terminal]: : https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90_%EC%97%90%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0_%EB%AA%A9%EB%A1%9D
+[terminal]: https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90_%EC%97%90%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0_%EB%AA%A9%EB%A1%9D
 [download]: /ko/downloads/
 [installers]: /ko/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
