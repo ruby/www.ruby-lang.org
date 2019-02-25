@@ -4,143 +4,347 @@ title: "Ruby'yi Kurma"
 lang: tr
 ---
 
-### Windows’ta Ruby
+Paket yöneticileri ya da üçüncü taraf araçlar ile,
+Ruby'yi kurmak ve yönetmek için çok sayıda seçeneğiniz vardır.
+{: .summary}
 
-Windows için Ruby kurulumunda birkaç seçenek vardır. İlk seçenek
-[RubyInstaller][5] kullanmak, derlemiş binary dosyaları içeren bir
-kurulum. İkincisi ise paketlenmiş uygulamaların ve binarylerin
-kullanılması. Ruby’yi nasıl kuracağınızdan emin değilseniz, ilk seçenek
-sizin için daha doğru olacaktır.
-
-* [Ruby 1.8.6-p398 RubyInstaller][6]
-  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) Kararlı versiyon (*tavsiye
-  edilir*)
-* [Ruby 1.8.7-p330 RubyInstaller][7] (md5:&nbsp;
-  18d688cfae6e60857cad24da6f9ee055) Kararlı versiyon (*tavsiye edilir*)
-* [Ruby 1.9.1-p430 RubyInstaller][8]
-  (md5:&nbsp;86ac589a955898c3163b161d81750a05) Kararlı versiyon (*tavsiye
-  edilir*)
-* [Ruby 1.9.2-p136 RubyInstaller][9] (md5:&nbsp;
-  8e8843963dae29a98ce3e2ba2ee111f1) Kararlı versiyon (*tavsiye edilir*)
-* [Ruby 1.8.7-p249 Binary][10] (md5:&nbsp;4fd37b0b4b21a042cae7f5f0a8daad16)
-  Kararlı versiyon
-* [Ruby 1.9.1-p378 Binary][11] (md5:&nbsp;7d14a918cc8d243d3e2c409aff41f454)
-  Kararlı versiyon
-
-Lütfen dikkat edin yukarda belirtilen binaryler indirilip elle
-yüklenmesi gereken ve ek parçaları ayrıca yüklenmesi gereken
-dosyalardır. Detaylarını [bu sayfada][12] bulabilirsiniz. Lütfen bir
-hata bildirmeden önce bu adımları yerine getirdiğinizden emin olun.
-
-[RubyInstaller][5] ek işlemler takip etmeyi gerektirmez.
-
-Lütfen ayrıca [pik][13] kullanımını da inceleyin. Bununla Windows’ta
-aynı anda değişik versiyonları ve gemleri kullanmak mümkündür.
-
-### Linux’da Ruby
-
-Kullandığınız dağıtıma bağlı olarak Ruby’yi kurmanın değişik yolları
-vardır. İlki kolay bir şekilde kaynak dosyalarını indirin ve derleyin.
-Bunun dışında bazı dağıtımlarda Ruby’yi çok kolay şekilde kurmak için
-paket yöneticileri vardır.
-
-Örneğin Debian’da ya da Ubuntu’da `apt-get` harika bir çözüm sunar:
+Ruby, bilgisayarınızda zaten kurulu olabilir. Bir
+[uçbirim öykünücüsü][terminal] içinde şunu yazarak denetleyebilirsiniz:
 
 {% highlight sh %}
-$ sudo apt-get install ruby1.9.1-full
+ruby -v
 {% endhighlight %}
 
-Yukarıdaki komut Ruby 1.9.1’in şu andaki kararlı sürümünü kuracaktır.
-Eğer Ruby 1.8 versiyon kurmak isterseniz şunu kullanabilirsiniz:
+Bu, kurulu Ruby sürümü hakkında bazı bilgileri çıktı vermelidir.
+
+## Kurulum Yönteminizi Seçin
+
+Ruby'yi kurmanın birçok yolu vardır:
+
+* UNIX benzeri bir işletim sistemi üzerinde sisteminizin
+  **paket yöneticisi**ni kullanmak en kolayıdır. Fakat paketlenmiş
+  Ruby sürümü en yenisi olmayabilir.
+* **Kurucular**, belirli bir ya da birden çok Ruby sürümü kurmak için
+  kullanılabilir. Ayrıca Windows için de bir kurucu vardır.
+* **Yöneticiler**, sisteminiz üzerinde birden çok Ruby sürümü arasında
+  geçiş yapmanıza yardım eder.
+* Son olarak, ayrıca **Ruby'yi kaynaktan inşa edebilirsiniz**.
+
+İşte kullanılabilir kurulum yöntemleri:
+
+* [Paket Yönetim Sistemleri](#package-management-systems)
+  * [Debian, Ubuntu](#apt)
+  * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
+  * [Gentoo](#portage)
+  * [Arch Linux](#pacman)
+  * [macOS](#homebrew)
+  * [FreeBSD](#freebsd)
+  * [Solaris, OpenIndiana](#solaris)
+  * [Diğer Dağıtımlar](#other-systems)
+* [Kurucular](#installers)
+  * [ruby-build](#ruby-build)
+  * [ruby-install](#ruby-install)
+  * [RubyInstaller](#rubyinstaller) (Windows)
+  * [RailsInstaller ve Ruby Stack](#railsinstaller)
+* [Yöneticiler](#managers)
+  * [chruby](#chruby)
+  * [rbenv](#rbenv)
+  * [RVM](#rvm)
+  * [uru](#uru)
+* [Kaynaktan inşa etme](#building-from-source)
+
+
+## Paket Yönetim Sistemleri
+{: #package-management-systems}
+
+Eğer kendi Ruby'nizi derleyemiyor, ve üçüncü taraf bir araç kullanmak
+istemiyorsanız, Ruby'yi kurmak için sisteminizin paket yöneticisini
+kullanabilirsiniz.
+
+Ruby topluluğunun bazı üyeleri, Ruby'yi kurmak için paket yöneticilerinden
+sakınılması ve bunun yerine adanmış araçların kullanılması gerektiğini
+düşünürler.
+
+Başlıca paket yöneticilerinin en son sürüm yerine daha eski Ruby sürümlerini
+kurması mümkündür. Son Ruby sürümünü kullanmak için paket adının bu sürümün
+numarası ile eşleştiğini kontrol edin. Ya da adanmış bir [kurucu][installers]
+kullanın.
+
+
+### apt  (Debian ya da Ubuntu)
+{: #apt}
+
+Debian GNU/Linux ve Ubuntu, apt paket yöneticisini kullanır. Bunu şu şekilde
+kullanabilirsiniz:
 
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-irb ve rdoc için “universe repository” aktif edilmelidir.
+Bu satırlar yazıldığı sırada `ruby-full` paketi Debian ve Ubuntu'da Ruby
+2.3.1'i, ki bu eski bir kararlı sürümdür, sağlamaktadır,
 
-Lütfen ayrıca `rvm` ‘i de inceleyin , [Ruby Version Manager][14] , ile
-aynı anda birkaç versiyon Ruby ve gemleri kullanabilirsiniz.
 
-### macOS’de Ruby
+### yum (CentOS, Fedora, ya da RHEL)
+{: #yum}
 
-Ruby 1.8.6 Mac OS X Leopard’da Ruby on Rails, Capistrno, Mongrel ve
-birçok popüler gem’i de kapsayacak şekilde tam desteklenir. Ayrıntı için
-[MacOS Forge’daki Ruby wiki][15] ye bakınız.
-
-Mac OS X Tiger 1.8.2 versiyon Ruby ile paketlenmiştir, ama Leopard’a
-yükseltilmemişler için de Ruby son versiyonu yüklemek için yollar
-vardır. [Locomotive][16] eğer çok hızla Rails geliştirmeye başlamak
-isterseniz güzel bir seçim. [MacPorts][17] veya [Fink][18] daha teknik
-kişiler için daha güzel gelebilir.
-
-MacPorts’da, Ruby’yi kurmak için…
+CentOS, Fedora, ve RHEL, yum paket yöneticisini kullanır.
+Bunu şu şekilde kullanabilirsiniz:
 
 {% highlight sh %}
-$ port install ruby
+$ sudo yum install ruby
 {% endhighlight %}
 
-Fink (Fink Commander kullanarak) Ruby kurulumu için bir grafik arabirime
-sahiptir.
+Kurulan sürüm genelde belirli dağıtım sürümünün yayın zamanında kullanılabilir
+olan Ruby'nin en son sürümüdür.
 
-Ayrıca macOS, Unix temelli olduğu için, kaynak kodu indirip derlemek te
-diğer çözümler kadar etkili olacaktır.
 
-Ruby (ve Rails) in kurulumuna detaylı bakış için Dan Benjamin’in [Tiger
-için][19], [Leopard için][20] ve [Snow Leopard için][21] emsalsiz
-makaleleri sizin çok çabuk ilerlemenizi sağlayacaktır.
+### snap (Ubuntu ya da başka Linux dağıtımı)
+{: #snap}
 
-### Solaris ve OpenSolaris’de Ruby
-
-Ruby 1.8.7 Solaris 8’den Solaris 10’a kadar [Sunfreeware][22]
-kurulabilir ve Ruby 1.8.7 [Blastwave][23] ‘da bulunabilir. Solaris 10
-için ayarlanmış bir Ruby on Rails paketi Sun’ın Cooltools projesinde
-bulunabilir [Coolstack][24].
-
-[OpenSolaris][25] ‘te Ruby kurmak için, lütfen [Image Packaging System
-veya IPS][26] client kullanın. Bu en son binary ve gem’leri direk olarak
-OpenSolaris depolarından indirecektir. Şunu yazın:
+Snap, Canonical tarafından geliştirilen bir paket yöneticisidir. Bu, Ubuntu'da
+halihazırda kullanılabilirdir, fakat snap ayrıca birçok Linux dağıtımında
+çalışır. Snap'i şu şekilde kullanabilirsiniz:
 
 {% highlight sh %}
-$ pfexec pkg install SUNWruby18
+$ sudo snap install ruby --classic
 {% endhighlight %}
 
-Bu Ruby, Rubygems, ortak eklentiler ve onların destek kütüphanelerini
-kuracaktır. Bu paket ayrıca DTrace desteği ve performans
-optimizasyonları da içerir. Birçok değişik eserler [Ruby OpenSolaris ARC
-Case][27] ‘de anlatılmıştır.
+Ruby ikincil serileri için birçok kanal vardır. Örneğin, aşağıdaki komut Ruby
+2.3'e geçiş yapar:
 
-Diğer OpenSolaris dağıtımı [Solaris Express Community Edition veya
-SXCE][28] üzerinde Ruby kurulu olarak gelir. Versiyonu, yeri vs.
-OpenSolaris’le aynıdır ve yukarda bahsedilen ARC Case’de dökümanı
-bulunabilir.
-
-SVR4 paketlerini elle yüklemek için lütfen [RubyOpenSolaris project @
-Rubyforge][29] adresini inceleyin.
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 
-[5]: https://rubyinstaller.org/
-[6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
-[7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe
-[8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe
-[9]: http://rubyforge.org/frs/download.php/73722/rubyinstaller-1.9.2-p136.exe
-[10]: https://cache.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip
-[11]: https://cache.ruby-lang.org:21/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip
-[12]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html
-[13]: https://github.com/vertiginous/pik
-[14]: http://rvm.beginrescueend.com
-[15]: http://trac.macosforge.org/projects/ruby/wiki
-[16]: http://locomotive.raaum.org/
-[17]: http://www.macports.org/
-[18]: http://fink.sourceforge.net/
-[19]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
-[20]: http://hivelogic.com/articles/ruby-rails-leopard
-[21]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
-[22]: http://www.sunfreeware.com
-[23]: http://www.blastwave.org
-[24]: http://cooltools.sunsource.net/coolstack
-[25]: http://www.opensolaris.org
-[26]: http://opensolaris.org/os/project/pkg/
-[27]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
-[28]: http://opensolaris.org/os/downloads
-[29]: http://rubyforge.org/projects/rubyopensolaris
+### portage (Gentoo)
+{: #portage}
+
+Gentoo, portage paket yöneticisini kullanır.
+
+{% highlight sh %}
+$ sudo emerge dev-lang/ruby
+{% endhighlight %}
+
+Varsayılan olarak bu, sürüm 1.9 ve 2.0'ı kurmaya çalışacaktır, fakat daha fazla
+sürüm kullanılabilir. Belirli bir sürümü kurmak için `make.conf`'unuzdaki
+`RUBY_TARGETS`'ı ayarlayın. Ayrıntılar için
+[Gentoo Ruby Projesi websitesi][gentoo-ruby]ne bakın.
+
+
+### pacman (Arch Linux)
+{: #pacman}
+
+Arch Linux, pacman isimli bir paket yöneticisi kullanır. Ruby'yi almak için
+sadece şunu yapın:
+
+{% highlight sh %}
+$ sudo pacman -S ruby
+{% endhighlight %}
+
+Bu, son kararlı Ruby sürümünü kurmalıdır.
+
+
+### Homebrew (macOS)
+{: #homebrew}
+
+Ruby'nin 2.0 ve üstü sürümleri en azından El Capitan (10.11)'dan Mojave
+(10.14)'e kadar macOS sürümlerinde varsayılan olarak içerilir.
+
+[Homebrew][homebrew], macOS'ta sıklıkla kullanılan bir paket yöneticisidir.
+Ruby'yi Homebrew kullanarak kurmak kolaydır:
+
+{% highlight sh %}
+$ brew install ruby
+{% endhighlight %}
+
+Bu, son Ruby sürümünü kurmalıdır.
+
+
+### FreeBSD
+{: #freebsd}
+
+FreeBSD Ruby'yi kurmak için hem önceden paketlenmiş hem de kaynak tabanlı
+yöntemler sunar. Önceden inşa edilmiş paketler pkg aracı yoluyla kurulabilir:
+
+{% highlight sh %}
+$ pkg install ruby
+{% endhighlight %}
+
+Kaynak tabanlı bir metod, [Ports Collection][freebsd-ports-collection]
+kullanılarak Ruby'yi kurmak için kullanılabilir. Eğer inşa yapılandırma
+seçeneklerini özelleştirmek istiyorsanız, bu, kullanışlıdır.
+
+FreeBSD'de Ruby ve onun çevreleyen ekosistemi hakkında daha fazla bilgi
+[FreeBSD Ruby Projesi websitesi][freebsd-ruby]nde bulunabilir.
+
+
+### Solaris ve OpenIndiana üzerinde Ruby
+{: #solaris}
+
+Ruby 1.8.7, Solaris 8'den Solaris 10'a kadar [Sunfreeware][sunfreeware]
+üzerinden kullanılabilirdir ve Ruby 1.8.7, [Blastwave][blastwave]'de
+mevcuttur. Ayrıca Ruby 1.9.2p0 da [Sunfreeware][sunfreeware]'de mevcuttur,
+fakat bu güncel değildir.
+
+Ruby'yi [OpenIndiana][openindiana] üzerinde kurmak için lütfen Image Packaging
+System (IPS) istemcisini kullanın.
+Bu, Ruby ikililerini ve RubyGems'i doğrudan OpenIndiana depolarından
+kuracaktır. Bu kolaydır:
+
+{% highlight sh %}
+$ pkg install runtime/ruby
+{% endhighlight %}
+
+Fakat üçüncü taraf araçlar, Ruby'nin en son sürümünü elde etmek için iyi bir
+yol olabilir.
+
+
+### Diğer Dağıtımlar
+{: #other-systems}
+
+Diğer sistemlerde, Linux dağıtımınızın yöneticisinin paket depolarında Ruby'yi
+arayabilirsiniz. Alternatif olarak [üçüncü taraf bir kurucu][installers] da
+kullanabilirsiniz.
+
+
+## Kurucular
+{: #installers}
+
+Eğer sisteminiz ya da paket yöneticiniz tarafından sağlanan Ruby'nin sürümü
+güncel değilse, üçüncü taraf bir kurucu kullanılarak daha yeni bir Ruby
+kurulabilir.
+
+Bazı kurucular birden çok sürümü aynı sistemde kurmanıza imkan verir; ilgili
+yöneticiler farklı Ruby'ler arasında geçiş yapmanıza yardım edebilir.
+
+Eğer sürüm yöneticisi olarak [RVM](#rvm)'i kullanmayı planlıyorsanız, ayrı bir
+kurucuya ihtiyacınız yok, RVM kendisininki ile gelir.
+
+
+### ruby-build
+{: #ruby-build}
+
+[ruby-build][ruby-build], [rbenv](#rbenv) için Ruby'nin farklı sürümlerini
+derleyip kurmanıza imkan veren bir eklentidir. ruby-build ayrıca rbenv olmadan
+tek başına çalışan bir program olarak da kullanılabilir. rbenv, macOS, Linux, ve diğer
+UNIX benzeri işletim sistemlerinde kullanılabilir.
+
+
+### ruby-install
+{: #ruby-install}
+
+[ruby-install][ruby-install], Ruby'nin farklı sürümlerini isteğe bağlı
+dizinlere derleyip kurmanıza imkan sağlar. [chruby](#chruby), bu kurucu ile
+kullanılabilen ve Ruby sürümleri arasında geçiş yapmak için kullanılan bir
+araçtır. macOS, Linux, ve diğer UNIX benzeri işletim sistemlerinde
+kullanılabilir.
+
+
+### RubyInstaller
+{: #rubyinstaller}
+
+Windows'ta [RubyInstaller][rubyinstaller] tam bir Ruby geliştirme ortamı
+ayarlamak için size gereken her şeyi verir.
+
+Sadece indirin, çalıştırın, ve her şey tamam!
+
+
+### RailsInstaller ve Ruby Stack
+{: #railsinstaller}
+
+Eğer Ruby'yi Ruby on Rails kullanmak için kuruyorsanız, aşağıdaki kurucuları
+kullanabilirsiniz:
+
+* [RailsInstaller][railsinstaller], [RubyInstaller][rubyinstaller]'ı kullanır
+  fakat size Rails geliştirmesine yardımcı olacak fazladan araçlar verir.
+* [Bitnami Ruby Stack][rubystack], Rails için tam bir geliştirme ortamı sağlar.
+  macOS, Linux, Windows, sanal makineler, ve bulut görüntülerini destekler.
+
+
+## Yöneticiler
+{: #managers}
+
+Birçok Ruby'ci birden çok Ruby'yi yönetmek için Ruby yöneticilerini kullanır.
+Yöneticiler Ruby sürümleri arasında kolay hatta projeye bağlı olarak otomatik
+geçiş imkanı sağlar ve başka avantajlara sahiptir fakat resmi olarak
+desteklenmezler. Fakat ilgili topluluklar içinde destek bulabilirsiniz.
+
+
+### chruby
+{: #chruby}
+
+[chruby][chruby] birden çok Ruby arasında geçiş yapmanıza imkan sağlar.
+[ruby-install](#ruby-install) tarafından, hatta kaynaktan inşa edilerek kurulan
+Ruby'leri yönetebilir.
+
+
+### rbenv
+{: #rbenv}
+
+[rbenv][rbenv], Ruby'nin birden çok kurulumunu yönetmenize imkan sağlar.
+Varsayılan olarak Ruby'yi kuramasa da, [ruby-build](#ruby-build) eklentisi bunu
+yapabilir. Her iki araç da macOS, Linux, ve diğer UNIX benzeri işletim
+sistemlerinde kullanılabilir.
+
+
+### RVM ("Ruby Version Manager")
+{: #rvm}
+
+[RVM][rvm], sisteminizde Ruby'nin birden çok kurulumunu kurup yönetmenize imkan
+sağlar. Ayrıca farklı gem kümelerini yönetmek için de kullanılabilir. macOS,
+Linux, ve diğer UNIX benzeri işletim sistemlerinde kullanılabilir.
+
+
+### uru
+{: #uru}
+
+[Uru][uru], macOS, Linux, ya da Windows sistemlerinde birden çok Ruby'yi
+kullanmanıza yardımcı olan hafif, çoklu platform bir komut satırı aracıdır.
+
+
+## Kaynaktan İnşa Etme
+{: #building-from-source}
+
+Tabii ki Ruby'yi kaynaktan kurabilirsiniz. Bir tar arşivi [indirin][download]
+ve açın, sonra sadece şunu yapın:
+
+{% highlight sh %}
+$ ./configure
+$ make
+$ sudo make install
+{% endhighlight %}
+
+Varsayılan olarak, bu, Ruby'yi `/usr/local` içine kuracaktır. Değiştirmek için
+`./configure` betiğine `--prefix=DIR` seçeneğini geçirin.
+
+Kaynaktan inşa etme hakkında daha fazla bilgiyi
+[Ruby README dosyası][readme]nda bulabilirsiniz.
+
+Üçüncü taraf araçlar ya da paket yöneticileri kullanmak daha iyi bir fikir
+olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecektir.
+
+
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv#readme
+[ruby-build]: https://github.com/rbenv/ruby-build#readme
+[ruby-install]: https://github.com/postmodern/ruby-install#readme
+[chruby]: https://github.com/postmodern/chruby#readme
+[uru]: https://bitbucket.org/jonforums/uru
+[rubyinstaller]: https://rubyinstaller.org/
+[railsinstaller]: http://railsinstaller.org/
+[rubystack]: http://bitnami.com/stack/ruby/installer
+[sunfreeware]: http://www.sunfreeware.com
+[blastwave]: http://www.blastwave.org
+[openindiana]: http://openindiana.org/
+[gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
+[homebrew]: http://brew.sh/
+[terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
+[download]: /tr/downloads/
+[installers]: /tr/documentation/installation/#installers
+[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
