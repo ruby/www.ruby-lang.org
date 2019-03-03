@@ -1,9 +1,14 @@
+---
 language: ruby
 sudo: false
 rvm: 2.5.1
 cache:
   bundler: true
-script: bundle exec rake ci
+before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then wget https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb; sudo apt-get remove '^libtidy.*';  sudo dpkg -i tidy-5.4.0-64bit.deb; fi
+script:
+  - bundle exec rake ci
+  - bundle exec rake check:markup
 # Notifications, used by our Gitter channel.
 notifications:
   webhooks:

@@ -108,7 +108,7 @@ DEPENDENCIES
   spidr (~> 0.6)
   sqreen
   unicorn
-  validate-website (~> 1.6)
+  validate-website (~> 1.9)
 
 RUBY VERSION
    ruby 2.5.1p57
