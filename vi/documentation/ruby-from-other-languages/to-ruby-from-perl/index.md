@@ -21,7 +21,7 @@ Giống như Perl, trong Ruby,...
 * Cách hoạt động của các String cũng tương tự nhau.
 * Có một ký tự phân cách giữa chuỗi và regex khi trích dẫn cú pháp
   như của Perls (như `%q{(dẫu nháy đơn) này}`, hoặc `%Q{(nháy kép) này}`,
-  và %w{trích dẫn danh sách các từ}`.
+  và `%w{trích dẫn danh sách các từ}`.
   Bạn `%Q|có thể|` `%Q(dùng)` ký tự `%Q^khác^` nếu thích.
 * You’ve got double-quotish variable interpolation, though
   nó `"trông #{như thế} này"` (và bạn có thể đặt bất cứ đoạn mã mình thích vào
