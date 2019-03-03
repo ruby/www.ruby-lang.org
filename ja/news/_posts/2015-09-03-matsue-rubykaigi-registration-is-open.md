@@ -10,7 +10,7 @@ lang: ja
 日本Rubyの会が後援する、[地域Ruby会議(RegionalRubyKaigi)][1]の1つである[松江Ruby会議07](http://matsue.rubyist.net/matrk07/)の参加登録が開始されました。
 
 * 開催日: 2015年9月26日(土) 11:00 〜 17:10 (懇親会) 18:00 〜 20:00
-* 会場: [松江テルサ４F](https://www.google.com/maps/search/松江テルサ/@35.463976,133.062015,14z?hl=ja)
+* 会場: [松江テルサ４F](https://www.google.com/maps/search/%E6%9D%BE%E6%B1%9F%E3%83%86%E3%83%AB%E3%82%B5/@35.463976,133.062015,14z?hl=ja)
 * 主　 催: Matsue.rb(まつえるびー)
 * 参加費: 無料
 * 中継: [動画による中継(YouTube)](https://www.youtube.com/watch?v=JhNlQra5VKg)
