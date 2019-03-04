@@ -12,7 +12,7 @@ LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 CONFIG = "_config.yml"
 
 task :default => [:build]
-task :ci      => [:test, :build]
+task :ci      => [:test, :build, 'check:markup']
 
 desc "Build the Jekyll site"
 task :build do

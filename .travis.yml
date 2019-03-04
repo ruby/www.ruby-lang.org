@@ -4,7 +4,9 @@ rvm: 2.6.2
 cache: bundler
 env:
   - TASK=ci
-before_install: gem install bundler:2.0.1
+before_install:
+  - gem install bundler:2.0.1
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then wget https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb; sudo apt-get remove '^libtidy.*';  sudo dpkg -i tidy-5.4.0-64bit.deb; fi
 script: bundle exec rake $TASK
 # Notifications, used by our Gitter channel.
 notifications:
