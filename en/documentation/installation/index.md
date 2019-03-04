@@ -80,9 +80,6 @@ like this:
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-As of writing, the `ruby-full` package provides Ruby 2.3.1, which is an old
-stable release, on Debian and Ubuntu.
-
 
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
@@ -125,9 +122,7 @@ Gentoo uses the portage package manager.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-By default, this will try to install versions 1.9 and 2.0, but more
-versions are available. To install a specific version, set
-`RUBY_TARGETS` in your `make.conf`.
+To install a specific version, set `RUBY_TARGETS` in your `make.conf`.
 See the [Gentoo Ruby Project website][gentoo-ruby] for details.
 
 
