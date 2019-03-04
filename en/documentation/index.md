@@ -4,7 +4,7 @@ title: "Documentation"
 lang: en
 ---
 
-Guides, tutorials and reference material to help you learn more about Ruby
+Guides, tutorials, and reference material to help you learn more about Ruby
 {: .summary}
 
 ### Installing Ruby
