@@ -23,6 +23,7 @@ Please try to use a mirror that is near you.
 * [Germany][mirror-http-de] (AmbiWeb GmbH)
 * [Holland][mirror-http-nl] (XS4ALL) - only release packages
 * [Austria][mirror-http-at] (tuwien.ac.at)
+* [France][mirror-http-fr] (cyberbits.eu)
 * [China 1][mirror-http-cn1] (ruby.taobao.org)
 * [China 2][mirror-http-cn2] (Ruby China)
 
@@ -39,6 +40,10 @@ Please try to use a mirror that is near you.
 * [Greece][mirror-ftp-gr] (ntua.gr)
 * [Austria][mirror-ftp-at] (tuwien.ac.at)
 
+### Mirror sites via rsync
+
+* [France][mirror-rsync-fr] (cyberbits.eu)
+
 [mirror-https-cdn]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-http-jp-ring-shibaura-it]: http://ring.shibaura-it.ac.jp/archives/lang/ruby/
 [mirror-http-jp-ring-u-toyama]: http://ring.u-toyama.ac.jp/archives/lang/ruby/
@@ -47,6 +52,7 @@ Please try to use a mirror that is near you.
 [mirror-http-de]: http://dl.ambiweb.de/mirrors/ftp.ruby-lang.org/
 [mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
 [mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
+[mirror-http-fr]: https://mirror.cyberbits.eu/ruby/
 [mirror-http-cn1]: https://ruby.taobao.org/mirrors/ruby/
 [mirror-http-cn2]: https://cache.ruby-china.com/pub/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
@@ -58,3 +64,4 @@ Please try to use a mirror that is near you.
 [mirror-ftp-de]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
 [mirror-ftp-gr]: ftp://ftp.ntua.gr/pub/lang/ruby/
 [mirror-ftp-at]: ftp://gd.tuwien.ac.at/languages/ruby/
+[mirror-rsync-fr]: rsync://rsync.cyberbits.eu/ruby/
