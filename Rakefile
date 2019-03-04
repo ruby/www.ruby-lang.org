@@ -8,7 +8,6 @@ rescue LoadError => e
   exit -1
 end
 
-HOST = 'www.ruby-lang.org'
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 CONFIG = "_config.yml"
 
@@ -127,6 +126,6 @@ namespace :check do
   desc 'Validate _site markup with validate-website'
   task :markup do
     require_relative "lib/markup_checker"
-    MarkupChecker.new.check(host: HOST)
+    MarkupChecker.new.check
   end
 end
