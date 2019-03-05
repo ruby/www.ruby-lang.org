@@ -29,11 +29,11 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 * Ruby 2.4 series: 2.4.5 and earlier
 * Ruby 2.5 series: 2.5.3 and earlier
 * Ruby 2.6 series: 2.6.1 and earlier
-* prior to trunk revision XXXXXX
+* prior to trunk revision 67168
 
 ## Workarounds
 
-RubyGems 2.7.6/3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
+RubyGems 2.7.9/3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
 
 ```
 gem update --system
