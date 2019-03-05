@@ -8,7 +8,7 @@ tags: security
 lang: en
 ---
 
-There are multiple vulnerabilities in RubyGems bundled by Ruby.
+There are multiple vulnerabilities in RubyGems bundled with Ruby.
 It is [reported at the official blog of RubyGems](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
 
 ## Details
