@@ -3,7 +3,7 @@ layout: news_post
 title: "Multiple vulnerabilities in RubyGems"
 author: "hsbt"
 translator:
-date: 2018-03-05 00:00:00 +0000
+date: 2019-03-05 00:00:00 +0000
 tags: security
 lang: en
 ---
