@@ -4,7 +4,7 @@ title: "Blogs"
 lang: en
 ---
 
-Ruby blogs have exploded over the past year and given sufficient
+Ruby blogs have exploded over the past years and given sufficient
 hunting, you can unearth hundreds of blogs sharing bits of Ruby code,
 describing new techniques, or speculating on Ruby’s future.
 {: .summary}
@@ -22,7 +22,7 @@ describing new techniques, or speculating on Ruby’s future.
 A few notable blogs stand out for the frequency and immediacy of their
 updates.
 
-* [**Ruby Weekly**][ruby-weekly] Although more of a newsletter than a
+* [**Ruby Weekly**][ruby-weekly]: Although more of a newsletter than a
   blog, Ruby Weekly is a distillation of the most interesting Ruby
   articles and news each week.
 * [**Riding Rails**][riding-rails] is the official group blog of the
@@ -35,7 +35,7 @@ updates.
 If you're interested in writing for any of the above blogs, you should
 contact the authors.
 
-Ruby is also a common topic on [reddit][reddit], and [Hacker News][hn],
+Ruby is also a common topic on [reddit][reddit] and [Hacker News][hn],
 in their respective programming news. If you find some brilliant code
 out there, be sure to share!
 
