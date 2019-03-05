@@ -21,9 +21,9 @@ This should output some information on the installed Ruby version.
 
 There are several ways to install Ruby:
 
-* On a UNIX-like operating system, using your system's **package
-  manager** is easiest. However, the packaged Ruby version may not be
-  the newest one.
+* On a UNIX-like operating system, using your system's
+  **package manager** is easiest.
+  However, the packaged Ruby version may not be the newest one.
 * **Installers** can be used to install a specific or multiple
   Ruby versions. There is also an installer for Windows.
 * **Managers** help you to switch between multiple Ruby versions
@@ -64,7 +64,7 @@ third-party tool, you can use your system's package manager to install Ruby.
 Some members of the Ruby community feel that you should avoid package
 managers to install Ruby and that you should use dedicated tools instead.
 
-It's possible that major package managers will install older Ruby
+It is possible that major package managers will install older Ruby
 versions instead of the latest release. To use the latest Ruby release,
 check that the package name matches its version number. Or use a
 dedicated [installer][installers].
@@ -95,17 +95,20 @@ The installed version is typically the latest version of Ruby available
 at the release time of the specific distribution version.
 
 
-### snap (Ubuntu or other linux distribution)
+### snap (Ubuntu or other Linux distributions)
 {: #snap}
 
-Snap is a package manager developed by Canonical. It's available out-of-the-box on Ubuntu, but snap also works on many Linux distributions.
-You can use it like this.
+Snap is a package manager developed by Canonical.
+It is available out-of-the-box on Ubuntu, but snap also works
+on many other Linux distributions.
+You can use it like this:
 
 {% highlight sh %}
 $ sudo snap install ruby --classic
 {% endhighlight %}
 
-We have several channels per Ruby minor series. For instance, the following commands switch to Ruby 2.3:
+We have several channels per Ruby minor series.
+For instance, the following commands switch to Ruby 2.3:
 
 {% highlight sh %}
 $ sudo snap switch ruby --channel=2.3/stable
@@ -143,7 +146,7 @@ This should install the latest stable Ruby version.
 {: #homebrew}
 
 Ruby versions 2.0 and above are included by default in macOS releases
-since at least El Capitan (10.11) all the way through Mojave (10.14).
+since at least El Capitan (10.11).
 
 [Homebrew][homebrew] is a commonly used package manager on macOS.
 Installing Ruby using Homebrew is easy:
@@ -225,7 +228,7 @@ Linux, and other UNIX-like operating systems.
 
 [ruby-install][ruby-install] allows you to compile and install different
 versions of Ruby into arbitrary directories. [chruby](#chruby) is a
-complimentary tool used to switch between Ruby versions. It's available
+complimentary tool used to switch between Ruby versions. It is available
 for macOS, Linux, and other UNIX-like operating systems.
 
 
@@ -308,8 +311,8 @@ $ sudo make install
 By default, this will install Ruby into `/usr/local`.
 To change, pass the `--prefix=DIR` option to the `./configure` script.
 
-You can find more information about building from source in the [Ruby
-README file][readme].
+You can find more information about building from source in the
+[Ruby README file][readme].
 
 Using the third-party tools or package managers might be a better idea,
 though, because the installed Ruby won't be managed by any tools.
