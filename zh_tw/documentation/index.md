@@ -49,7 +49,7 @@ lang: zh_tw
 
 ### 參考文件
 
-[Official API Documentation][40]
+[Official API Documentation][docs-rlo-en]
 : 各種版本的 Ruby 官方 API 文件，包含當前未釋出的版本（trunk）。
 
 [Ruby Core Reference][13]
@@ -143,7 +143,7 @@ lang: zh_tw
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://docs.ruby-lang.org/en/
+[docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
 

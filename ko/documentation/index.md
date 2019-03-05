@@ -69,7 +69,7 @@ lang: ko
 
 ### 참조
 
-[공식 API 문서][40]
+[공식 API 문서][docs-rlo-en]
 : 아직 릴리스되지 않은 트렁크를 포함한 여러 루비 버전의 공식 API 문서입니다.
 
 [루비 코어 레퍼런스][13] (영문)
@@ -172,7 +172,7 @@ lang: ko
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://docs.ruby-lang.org/en/
+[docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
 

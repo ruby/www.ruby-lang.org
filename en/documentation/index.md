@@ -61,7 +61,7 @@ the [installation guide](installation/) for help on installing Ruby.
 
 ### Reference Documentation
 
-[Official API Documentation][40]
+[Official API Documentation][docs-rlo-en]
 : The official Ruby API documentation for different versions including
   the currently unreleased (trunk) version.
 
@@ -170,6 +170,6 @@ If you have questions about Ruby the
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
-[40]: https://docs.ruby-lang.org/en/
+[docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
