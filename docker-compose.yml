@@ -1,0 +1,22 @@
+version: '3.5'
+services:
+  web:
+    container_name: ruby-lang
+    image: ruby:2.6.1
+    environment:
+      - RAILS_ENV=development
+    command: >
+      sh -c "bundle check || bundle install --without production &&
+             bundle exec rake build &&
+             bundle exec rake serve"
+    volumes:
+      - .:/www.ruby-lang.org
+      - bundle_cache:/usr/local/bundle
+    working_dir: /www.ruby-lang.org
+    ports:
+      - 9292:9292
+    network_mode: host
+
+volumes:
+  bundle_cache:
+    name: ruby-lang-bundle
