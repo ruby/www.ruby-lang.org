@@ -3,7 +3,11 @@ sudo: false
 rvm: 2.6.1
 cache:
   bundler: true
-script: bundle exec rake ci
+env:
+  matrix:
+    - SCRIPT="bundle exec rake build"
+    - SCRIPT="bundle exec rake test"
+script: $SCRIPT
 # Notifications, used by our Gitter channel.
 notifications:
   webhooks:
