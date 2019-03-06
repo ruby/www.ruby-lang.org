@@ -41,9 +41,9 @@ gem update --system
 
 If you can't upgrade RubyGems, you can apply the following patches as a workaround.
 
-* [for Ruby 2.4.5](https://bugs.ruby-lang.org/attachments/7662)
-* [for Ruby 2.5.3](https://bugs.ruby-lang.org/attachments/7663)
-* [for Ruby 2.6.1](https://bugs.ruby-lang.org/attachments/7664)
+* [for Ruby 2.4.5](https://bugs.ruby-lang.org/attachments/7669)
+* [for Ruby 2.5.3](https://bugs.ruby-lang.org/attachments/7670)
+* [for Ruby 2.6.1](https://bugs.ruby-lang.org/attachments/7671)
 
 About the trunk, update to the latest revision.
 
