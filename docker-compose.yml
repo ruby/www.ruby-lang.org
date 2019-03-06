@@ -3,8 +3,6 @@ services:
   web:
     container_name: ruby-lang
     image: ruby:2.6.1
-    environment:
-      - RAILS_ENV=development
     command: >
       sh -c "bundle check || bundle install --without production &&
              bundle exec rake build &&
