@@ -38,6 +38,12 @@ salah satu kakas bantu pihak ketiga yang telah disebutkan sebelumnya. Itu mungki
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
+{% if site.data.downloads.preview %}
+* **Preview releases:**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
 {% if site.data.downloads.security_maintenance %}
 * **Pada fase perawatan keamanan (akan EOL segera!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
@@ -57,6 +63,11 @@ salah satu kakas bantu pihak ketiga yang telah disebutkan sebelumnya. Itu mungki
     Ini adalah *tarball* dari apapun yang ada di SVN, *nightly*.
     Ini mungkin terdapat *bugs* atau masalah lain, gunakan secara hati-hati!
 
+Untuk informasi lebih lanjut terkait rilis yang spesifik, terutama rilis
+sebelumnya atau *preview*, lihat [Release page][releases].
+Informasi terkait status perawatan saat ini dari berbagai
+*branch* Ruby dapat ditemukan pada [Branches page][branches].
+
 Untuk informasi *repository* Ruby Subversion dan Git, lihat
 halaman [Ruby core](/id/community/ruby-core/) kami.
 
@@ -68,6 +79,8 @@ Coba gunakan salah satu *mirror* yang dekat dengan Anda.
 
 [license]: {{ site.license.url }}
 [installation]: /id/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
