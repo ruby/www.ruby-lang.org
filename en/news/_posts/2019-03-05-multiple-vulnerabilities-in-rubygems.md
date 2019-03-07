@@ -54,3 +54,4 @@ This report is based on [the official blog of RubyGems](http://blog.rubygems.org
 ## History
 
 * Originally published at 2019-03-05 00:00:00 UTC
+* Link to updated patches at 2019-03-06 05:26:27 UTC
