@@ -177,7 +177,7 @@ FreeBSD 상의 루비와 그 환경에 대해서 더 자세한 정보는
 {: #solaris}
 
 Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
-[Blastwave][blastwave]에서 루비 1.8.7을 사용 가능합니다.
+Blastwave에서 루비 1.8.7을 사용 가능합니다.
 [Sunfreeware][sunfreeware]에서 루비 1.9.2p0을 사용 가능하지만, 이는 구 버전입니다.
 
 [OpenIndiana][openindiana]에서 루비를 설치하려면,
@@ -322,7 +322,6 @@ $ sudo make install
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
