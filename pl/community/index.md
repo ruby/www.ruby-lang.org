@@ -47,13 +47,13 @@ poniżej znajdziesz kilka propozycji:
   projekcie i przywitać nowe osoby w społeczności.
 
 Ogólne informacje o Rubim
-: * [Ruby Central][3]
-  * [Ruby w Open Directory Project][4]
-  * [Rails w Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby w Open Directory Project][ruby-opendir]
+  * [Rails w Open Directory Project][rails-opendir]
 
 
 
-[3]: http://rubycentral.org/
-[4]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[5]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
 [6]: http://forum.rubyonrails.pl/

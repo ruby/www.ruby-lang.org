@@ -44,10 +44,10 @@ lang: ko
   커뮤니티의 뉴비의 환영 등을 함께합니다.
 
 일반적인 루비 정보(영문)
-: * [Ruby Central][3]
-  * [Ruby at Open Directory Project][4]
-  * [Rails at Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby at Open Directory Project][ruby-opendir]
+  * [Rails at Open Directory Project][rails-opendir]
 
-[3]: http://rubycentral.org/
-[4]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[5]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

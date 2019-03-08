@@ -40,12 +40,12 @@ Oбщността, която се образува около един език
   обществото.
 
 Обща информация за Ruby
-: * [Ruby Central][3]
-  * [Ruby в Open Directory Project][4]
-  * [Rails в Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby в Open Directory Project][ruby-opendir]
+  * [Rails в Open Directory Project][rails-opendir]
 
 
 
-[3]: http://rubycentral.org/
-[4]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[5]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

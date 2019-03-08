@@ -35,14 +35,14 @@ lang: zh_tw
   Ruby 年度研討會為 [RubyConf Taiwan](http://rubyconf.tw)。
 
 Ruby 的一般消息
-: * [Ruby Central][3]
-  * [Ruby at Open Directory Project][4]
-  * [Rails at Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby at Open Directory Project][ruby-opendir]
+  * [Rails at Open Directory Project][rails-opendir]
 
 [1]: http://ruby.tw
 [2]: http://ruby.tw/about
 [railsfun]: http://railsfun.tw/index.php
 
-[3]: http://rubycentral.org/
-[4]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[5]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
