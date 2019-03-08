@@ -3,10 +3,9 @@ sudo: false
 rvm: 2.6.1
 cache: bundler
 env:
-  matrix:
-    - SCRIPT="bundle exec rake build"
-    - SCRIPT="bundle exec rake test"
-script: $SCRIPT
+  - TASK=build
+  - TASK=test
+script: bundle exec rake $TASK
 # Notifications, used by our Gitter channel.
 notifications:
   webhooks:
