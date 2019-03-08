@@ -42,6 +42,11 @@ to start:
   work-in-progress, discuss the future of Ruby, and welcome newcomers to
   the Ruby community.
 
+[Podcasts](podcasts/)
+: If you like to hear about Ruby rather than read about you can listen
+  to podcasts which cover new Ruby or gem releases, interviews and
+  discussions between Ruby programmers, contributors, and maintainers.
+
 General Ruby Information
 : * [Ruby Central][ruby-central]
   * [Ruby at Open Directory Project][ruby-opendir]
