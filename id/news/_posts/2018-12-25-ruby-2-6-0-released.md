@@ -131,6 +131,10 @@ bukan salinan.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
   Membuat objek Hash yang kecil dan *short-living* 2x lebih cepat.
   Dengan rdoc *benchmark*, kami mengamati 6-7% kemajuan.
 
+* Implementasi asli (`arm32`, `arm64`, `ppc64le`, `win32`, `win64`, `x86`, `amd64`) dari *coroutine* untuk memperbaiki performa *context switching* dari Fiber secara signifikan. [[Feature #14739]](https://bugs.ruby-lang.org/issues/14739)
+
+* `Fiber.yield` dan `Fiber#resume` sekitar 5x lebih cepat pada Linux 64-bit. Program-program Fiber yang intensif dapat diharapkan hingga 5% perbaikan secara keseluruhan.
+
 ## Perubahan penting lainnya sejak 2.5
 
 * `$SAFE` adalah sebuah proses *state* global dan kita dapat mengatur ke `0` lagi.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
