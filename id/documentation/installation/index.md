@@ -4,12 +4,18 @@ title: "Instalasi Ruby"
 lang: id
 ---
 
-Anda dapat menggunakan beberapa kakas bantu untuk memasang Ruby.
-Halaman ini menjelaskan bagaimana menggunakan *package management systems*
-dan kakas bantu pihak ketiga untuk mengatur dan memasang Ruby
-dan bagaimana membangun Ruby dari kode sumbernya.
+Dengan *package manager* dan alat bantu pihak ketiga, Anda mempunyai banyak
+pilihan untuk memasang dan mengatur Ruby.
 {: .summary}
 
+Anda mungkin telah memiliki Ruby yang terpasang di komputer Anda. Anda dapat
+mengeceknya di dalam sebuah [terminal emulator][terminal] dengan mengetik:
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+Ini seharusnya mengeluarkan informasi versi Ruby yang terpasang.
 
 ## Pilih Metode Instalasi Anda
 
@@ -24,17 +30,17 @@ Ada banyak jalan untuk memasang Ruby:
   pada sistem Anda.
 * Dan terakhir, Anda juga dapat **membangun Ruby dari kode sumbernya**.
 
-Berikut adalah daftar metode instalasi yang tersedia
-sesuai kebutuhan dan *platform* tertentu.
+Berikut adalah daftar metode instalasi yang tersedia:
 
 * [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
   * [ruby-build](#ruby-build)
@@ -52,37 +58,36 @@ sesuai kebutuhan dan *platform* tertentu.
 ## Package Management Systems
 {: #package-management-systems}
 
-Jika Anda tidak dapat mengkompilasi Ruby sendiri, dan tidak ingin menggunakan sebuah
-kakas bantu pihak ketiga, Anda dapat menggunakan *package manager* sistem untuk memasang Ruby.
+Jika Anda tidak dapat mengkompilasi Ruby sendiri, dan tidak ingin menggunakan
+sebuah alat bantu pihak ketiga, Anda dapat menggunakan *package manager*
+sistem untuk memasang Ruby.
 
-Beberapa anggota komunitas Ruby sangat menyarankan Anda untuk
-tidak menggunakan *package manager* untuk memasang Ruby dan sebaiknya menggunakan kakas
-bantu. Selagi penuh pro dan kontra di luar bahasan
-halaman ini, alasan mendasarnya adalah kebanyakan *package manager* memiliki
-versi Ruby lama di dalam *repository* mereka. Jika Anda ingin
-menggunakan Ruby terbaru, pastikan Anda menggunakan nama *package* yang benar,
-atau menggunakan kakas bantu yang dijelaskan di bawah ini.
+Beberapa anggota komunitas Ruby sangat menyarankan Anda untuk tidak
+menggunakan *package manager* saat memasang Ruby dan sebaiknya menggunakan
+alat bantu.
+
+Ini sangat mungkin sebagaian besar *package manager* akan memasang versi Ruby
+lama ketimbang versi terbaru. Untuk menggunakan versi Ruby terbaru,
+cek nama *package* yang cocok dengan nomor versinya. Atau gunakan sebuah
+[installer][installers].
 
 
 ### apt (Debian atau Ubuntu)
 {: #apt}
 
 Debian GNU/Linux dan Ubuntu menggunakan *apt package manager*.
-Anda dapat menggunakannya seperti ini:
+Anda dapat menggunakannya sebagai berikut:
 
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
-
-Sesuai penulisan, paket `ruby-full` menyediakan Ruby 2.3.1, yang mana adalah versi
-lama yang stabil, pada Debian dan Ubuntu.
 
 
 ### yum (CentOS, Fedora, atau RHEL)
 {: #yum}
 
 CentOS, Fedora, dan RHEL menggunakan *yum package manager*.
-Anda dapat menggunakannya seperti ini:
+Anda dapat menggunakannya sebagai berikut:
 
 {% highlight sh %}
 $ sudo yum install ruby
@@ -90,6 +95,27 @@ $ sudo yum install ruby
 
 Versi yang terpasang adalah versi Ruby terbaru yang tersedia
 saat waktu rilis versi distribusi tertentu.
+
+
+### snap (Ubuntu atau distribusi Linux lain)
+{: #snap}
+
+Snap adalah sebuah *package manager* yang dikembangkan oleh Canonical.
+Ini tersedia *out-of-the-box* pada Ubuntu, tetapi snap juga berjalan
+pada banyak distribusi Linux lainnya.
+Anda dapat menggunakannya sebagai berikut:
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+Kami memiliki beberapa *channel* tiap rangkaian minor Ruby.
+Sebagai contoh, perintah di bawah ini beralih ke Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 
 ### portage (Gentoo)
@@ -101,8 +127,6 @@ Gentoo menggunakan *portage package manager*.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-Secara otomatis, ini akan mencoba untuk memasang Ruby versi 1.9 dan 2.0,
-tetapi versi lainnya juga tersedia.
 Untuk memasang versi tertentu, atur `RUBY_TARGETS` di dalam `make.conf` Anda.
 Lihat [Gentoo Ruby Project website][gentoo-ruby] untuk detail.
 
@@ -117,17 +141,18 @@ Untuk mendapatkan Ruby, lakukan ini:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-Ini semestinya memasang versi Ruby terbaru.
+Ini semestinya memasang versi Ruby terbaru yang *stable*.
 
 
 ### Homebrew (macOS)
 {: #homebrew}
 
-Pada OS X Yosemite dan Mavericks, Ruby 2.0 sudah tersedia.
-OS X Mountain Lion, Lion, dan Snow Leopard terisi dengan Ruby 1.8.7.
+Versi Ruby 2.0 and diatasnya sudah dimasukkan secara *default* pada rilis
+macOS setidaknya sejak El Capitan (10.11).
 
-Banyak pengguna macOS menggunakan [Homebrew][homebrew] sebagai *package manager*.
-Hal ini sangat mudah untuk mendapatkan versi terbaru menggunakan Homebrew:
+[Homebrew][homebrew] adalah sebuah *package manager* yang umumnya digunakan
+pada macOS.
+Memasang Ruby dengan menggunakan Homebrew sangat mudah:
 
 {% highlight sh %}
 $ brew install ruby
@@ -154,53 +179,50 @@ Informasi lebih lanjut terkait Ruby dan ekosistem sekelilingnya pada FreeBSD
 dapat ditemukan di [FreeBSD Ruby Project website][freebsd-ruby].
 
 
-### Ruby di Solaris dan OpenIndiana
-{: #solaris}
-
-Ruby 1.8.7 tersedia untuk Solaris 8 hingga Solaris 10 di
-[Sunfreeware][sunfreeware] dan Ruby 1.8.7 tersedia di
-Blastwave.
-Ruby 1.9.2p0 juga tersedia di [Sunfreeware][sunfreeware],
-namun sudah tidak diperbarui lagi.
+### Ruby pada OpenIndiana
+{: #openindiana}
 
 Untuk memasang Ruby pada [OpenIndiana][openindiana], mohon gunakan
-[Image Package Systems (IPS)][opensolaris-pkg] *client*.
+Image Package Systems (IPS) *client*.
 Ini akan memasang *binary* Ruby terbaru dan RubyGems secara langsung
-dari jaringan *repository* OpenSolaris untuk Ruby 1.9. Ini mudah:
+dari *repository* OpenSolaris. Ini mudah:
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install runtime/ruby
 {% endhighlight %}
 
-Namun demikian, kakas bantu pihak ketiga mungkin adalah jalan terbaik untuk mendapatkan
-Ruby versi terbaru.
+Namun demikian, alat bantu pihak ketiga mungkin adalah jalan terbaik untuk
+mendapatkan versi Ruby terbaru.
 
 
 ### Distribusi Lainnya
 {: #other-systems}
 
 Pada sistem lain, Anda dapat mencari *package repository* dari
-*manager* distribusi Linux Anda untuk Ruby, atau kakas bantu pihak ketiga mungkin
-pilihan tepat untuk Anda.
+*manager* distribusi Linux Anda untuk Ruby. Kemungkinan lain, Anda dapat
+menggunakan sebuah [third-party installer][installers].
 
 
 ## Installers
 {: #installers}
 
-Jika versi Ruby yang disediakan oleh system atau *package manager* Anda telah
+Jika versi Ruby yang disediakan oleh sistem atau *package manager* Anda telah
 usang, versi terbaru dapat dipasang menggunakan sebuah *installer* pihak ketiga.
-Beberapa dari mereka juga memperbolehkan Anda untuk memasang banyak versi dalam sistem yang sama;
-*manager* yang bersesuaian dapat membantu berpindah antar versi Ruby yang berbeda.
-Jika Anda sedang merencanakan untuk mengunakan [RVM](#rvm) sebagai *version manager* Anda tidak perlu
-*installer* terpisah, ini sudah ada dengan sendirinya.
+
+Beberapa dari mereka juga memperbolehkan Anda untuk memasang banyak versi
+dalam sistem yang sama; *manager* yang bersesuaian dapat membantu beralih
+antar versi Ruby yang berbeda.
+
+Jika Anda sedang merencanakan untuk mengunakan [RVM](#rvm) sebagai
+*version manager* Anda tidak perlu *installer* terpisah, ini sudah ada dengan
+sendirinya.
 
 
 ### ruby-build
 {: #ruby-build}
 
 [ruby-build][ruby-build] adalah sebuah *plugin* untuk [rbenv](#rbenv) yang
-memperbolehkan Anda untuk mengkompilasi dan memasang versi Ruby yang berbeda
-ke dalam *directory* pilihan Anda.
+memperbolehkan Anda untuk mengkompilasi dan memasang versi Ruby yang berbeda.
 ruby-build juga dapat digunakan sebagai *standalone program* tanpa rbenv.
 ruby-build tersedia untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
 
@@ -208,19 +230,18 @@ ruby-build tersedia untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] memperbolehkan Anda untuk mengkompilasi dan memasang
-versi Ruby yang berbeda ke dalam *directory* pilihan Anda.
-Ini juga ada saudaranya, [chruby](#chruby), yang menangani perpindahan antar
-versi Ruby.
-ruby-install tersedia untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
+[ruby-install][ruby-install] memperbolehkan Anda untuk mengkompilasi
+dan memasang versi Ruby yang berbeda ke dalam *directory* pilihan Anda.
+[chruby](#chruby) adalah sebuah alat bantu pelengkap yang digunakan untuk
+beralih ke versi Ruby yang berbeda. ruby-install tersedia untuk macOS, Linux,
+dan sistem operasi UNIX-like lainnya.
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
-Jika Anda di Windows, ada sebuah kakas bantu yang membantu Anda memasang Ruby:
-[RubyInstaller][rubyinstaller]. Ini memberikan apapun yang Anda butuhkan untuk memasang
-Ruby *development environment* sepenuhnya pada Windows.
+Pada Windows, [RubyInstaller][rubyinstaller] memberikan apapun yang Anda
+butuhkan untuk memasang Ruby *development environment* sepenuhnya.
 
 Unduh, jalankan, dan selesai!
 
@@ -231,21 +252,22 @@ Unduh, jalankan, dan selesai!
 Jika Anda sedang memasang Ruby untuk menggunakan Ruby on Rails,
 Anda dapat menggunakan *installer* berikut:
 
-* [RailsInstaller][railsinstaller],
-  yang mana menggunakan RubyInstaller tetapi memberikan
-  kakas tambahan untuk pengembangan dengan Rails.
+* [RailsInstaller][railsinstaller] menggunakan [RubyInstaller][rubyinstaller]
+  tetapi memberikan alat bantu tambahan untuk pengembangan dengan Rails.
   RailsInstaller mendukung OS X dan Windows.
-* [Bitnami Ruby Stack][rubystack],
-  yang mana menyediakan *development environment* lengkap untuk Rails.
-  Bitnami Ruby Stack mendukung macOS, Linux, Windows, *virtual machines*, dan *cloud images*.
+* [Bitnami Ruby Stack][rubystack] menyediakan *development environment*
+  lengkap untuk Rails. Bitnami Ruby Stack mendukung macOS, Linux, Windows,
+  *virtual machines*, dan *cloud images*.
 
 
 ## Managers
 {: #managers}
 
 Banyak Rubyists menggunakan Ruby *manager* untuk mengatur banyak versi Ruby.
-Ruby *manager* memberikan banyak keuntungan tetapi tidak didukung secara resmi.
-Meskipun demikian, perhatian komunitas ini sangat membantu.
+*Manager* memperbolehkan Anda untuk berpindah antar versi Ruby dengan mudah
+bahkan otomatis pada proyek dan kelebihan lainnya yang tidak didukung secara
+resmi. Meskipun demikian, Anda dapat menemukan dukungan dalam komunitas
+masing-masing.
 
 
 ### chruby
@@ -260,31 +282,32 @@ atau bahkan dari kode sumber.
 {: #rbenv}
 
 [rbenv][rbenv] memperbolehkan Anda untuk mengatur banyak instalasi Ruby.
-rbenv tidak mendukung instalasi Ruby, tetapi ada sebuah *plugin* populer
-yang bernama [ruby-build](#ruby-build) untuk memasang Ruby.
-Kedua kakas bantu ini tersedia untuk macOS, Linux, atau sistem operasi UNIX-like lainnya.
+Selagi rbenv tidak dapat memasang Ruby secara *default*, *plugin*
+[ruby-build](#ruby-build) dapat. Kedua alat bantu ini tersedia untuk macOS,
+Linux, atau sistem operasi UNIX-like lainnya.
 
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
-[RVM][rvm] memperbolehkan Anda untuk memasang dan mengatur banyak instalasi Ruby
-pada sistem Anda. RVM juga dapat mengatur *gemsets* yang berbeda.
-RVM tersedi untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
+[RVM][rvm] memperbolehkan Anda untuk memasang dan mengatur banyak instalasi
+Ruby pada sistem Anda. RVM juga dapat mengatur *gemsets* yang berbeda.
+RVM tersedia untuk macOS, Linux, atau sistem operasi UNIX-like lainnya.
 
 
 ### uru
 {: #uru}
 
-[Uru][uru] adalah sebuah *command line tool* yang ringan dan mendukung banyak *platform* yang membantu Anda
-untuk menggunakan banyak versi Ruby pada sistem operasi macOS, Linux, atau Windows.
+[Uru][uru] adalah sebuah *command line tool* yang ringan dan mendukung
+banyak *platform* yang membantu Anda untuk menggunakan banyak versi Ruby
+pada sistem operasi macOS, Linux, atau Windows.
 
 
 ## Membangun dari Kode Sumber
 {: #building-from-source}
 
 Tentu saja, Anda dapat memasang Ruby dari kode sumbernya.
-[Download](/id/downloads/) dan *unpack tarball* tersebut, kemudian lakukan ini:
+[Unduh][download] dan *unpack tarball* tersebut, kemudian lakukan ini:
 
 {% highlight sh %}
 $ ./configure
@@ -295,8 +318,12 @@ $ sudo make install
 Secara otomatis, ini akan memasang Ruby pada `/usr/local`.
 Untuk mengubahnya, tambahkan opsi `--prefix=DIR` di dalam skrip `./configure`.
 
-Meskipun begitu, menggunakan kakas bantu pihak ketiga atau *package manager* mungkin adalah solusi yang terbaik,
-karena Ruby yang terpasang tidak akan diatur oleh kakas apapun.
+Anda dapat menemukan informasi lebih lanjut terkait membangun dari kode
+sumber pada [Ruby README file][readme].
+
+Meskipun begitu, menggunakan alat bantu pihak ketiga atau *package manager*
+mungkin adalah solusi yang terbaik, karena Ruby yang terpasang tidak akan
+diatur oleh alat bantu apapun.
 
 
 [rvm]: http://rvm.io/
@@ -308,10 +335,12 @@ karena Ruby yang terpasang tidak akan diatur oleh kakas apapun.
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
 [freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
+[terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
+[download]: /id/downloads/
+[installers]: /id/documentation/installation/#installers
+[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
