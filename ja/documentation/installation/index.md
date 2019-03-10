@@ -29,6 +29,7 @@ lang: ja
 
 * Windows
 
+  * [WSL](#wsl)
   * [ActiveScriptRuby](#activescriptruby)
   * [RubyInstaller](#rubyinstaller)
   * [RailsInstaller](#railsinstaller)
@@ -64,6 +65,13 @@ RVM は複数の Ruby のインストールと管理を行うことができま�
 このツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
+
+### WSL ("Windows Subsystem for Linux")
+{: #wsl }
+
+WSLを使うとWindows上でLinux環境をインストールすることができます。インストールしたLinux上で、前述の [rbenv](#rbenv) や後述のパッケージ管理システム [apt](#apt) など、Linux/UNIX向けツールを利用することでRuby開発環境を構築できます。
+
+WSLをインストールする方法は [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) のページに書かれています。
 
 ### ActiveScriptRuby
 {: #activescriptruby }
