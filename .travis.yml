@@ -1,9 +1,11 @@
 language: ruby
 sudo: false
 rvm: 2.6.1
-cache:
-  bundler: true
-script: bundle exec rake ci
+cache: bundler
+env:
+  - TASK=build
+  - TASK=test
+script: bundle exec rake $TASK
 # Notifications, used by our Gitter channel.
 notifications:
   webhooks:
