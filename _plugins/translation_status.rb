@@ -8,8 +8,27 @@ module Jekyll
   # Outputs HTML.
   module TranslationStatus
 
-    LANGS =  %w{en de es fr id it ja ko ru vi zh_cn zh_tw}
-    START_DATE = '2013-04-01'
+    LANGS_MAP = {
+      "en" => nil,
+      # "bg" => "bg",
+      "de" => "de",
+      "es" => "es",
+      "fr" => "fr",
+      "id" => "id",
+      "it" => "it",
+      "ja" => "ja",
+      "ko" => "ko",
+      # "pl" => "pl",
+      # "pt" => "pt",
+      "ru" => "ru",
+      # "tr" => "tr",
+      "vi" => "vi",
+      "zh_cn" => "zh-CN",
+      "zh_tw" => "zh-TW",
+    }
+    LANGS = LANGS_MAP.keys
+
+    START_DATE = Time.utc(2013, 4, 1)
 
     OK_CHAR      = '✓'
     MISSING_CHAR = ''  # '✗'
@@ -19,7 +38,7 @@ module Jekyll
     TEMPLATE =<<-EOF.gsub(/^      /, '')
       <p>
       Posts with missing translations: <%= posts.size.to_s %><br>
-      Start date: <%= START_DATE %><br>
+      Start date: <%= START_DATE.strftime('%Y-%m-%d') %><br>
       Ignored languages: <%= ignored %>
       </p>
 
@@ -96,7 +115,7 @@ module Jekyll
       end
 
       def too_old(date)
-        date.strftime("%Y-%m-%d") < START_DATE
+        date < START_DATE
       end
 
       def table_header
@@ -129,7 +148,32 @@ module Jekyll
         ERB.new(TEMPLATE, nil, '-').result(binding)
       end
     end
+
+    class LanguagesJson < Liquid::Tag
+      def render(context)
+        categories = context.registers[:site].categories
+
+        newest_post_date = Hash.new(START_DATE)
+
+        LANGS.each do |lang|
+          categories[lang].each do |post|
+            if newest_post_date[lang] < post.date
+              newest_post_date[lang] = post.date
+            end
+          end
+        end
+
+        about_6_months_ago = Time.now - 60*60*24*30*6
+        newest_post_date.delete("en")
+        newest_post_date.delete_if {|_lang, date| date < about_6_months_ago }
+        languages = newest_post_date.keys.map do |lang|
+          %Q("#{LANGS_MAP[lang]}": "#{lang}")
+        end
+        "{#{languages.join(',')}}"
+      end
+    end
   end
 end
 
 Liquid::Template.register_tag('translation_status', Jekyll::TranslationStatus::Tag)
+Liquid::Template.register_tag('languages_json', Jekyll::TranslationStatus::LanguagesJson)
