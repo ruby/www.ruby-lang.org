@@ -31,7 +31,7 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 
 #### Robotika
 
-* Proyek [MORPHA][5] menggunakan Ruby untuk mengimplementasikan bagian
+* Proyek MORPHA menggunakan Ruby untuk mengimplementasikan bagian
   pengendali reaktif dari robot Siemens yang digunakan.
 
 #### Jaringan Komputer
@@ -81,7 +81,6 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

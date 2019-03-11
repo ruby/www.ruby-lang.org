@@ -30,7 +30,7 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 
 #### Robotik
 
-* [MORPHA][4] projesinde, Ruby Siemens servis robotunun reaktif denetim
+* MORPHA projesinde, Ruby Siemens servis robotunun reaktif denetim
   kısmını uygulamak için kullanıldı.
 
 #### Ağ
@@ -76,7 +76,6 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.sketchup.com/
 [3]: https://www.uhn.ca/TorontoRehab
-[4]: http://www.morpha.de/php_e/index.php3
 [5]: http://ods.org/
 [6]: http://www.lucent.com/
 [7]: http://www.level3.com/

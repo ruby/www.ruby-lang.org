@@ -23,7 +23,7 @@ Projekten, die Ruby nutzen.
 
 #### Robotics
 
-* Im [MORPHA][3] Projekt, wurde Ruby eingesetzt, um für den Siemens
+* Im MORPHA Projekt, wurde Ruby eingesetzt, um für den Siemens
   Service Roboter die Reaktionskontrolle zu implementieren.
 
 #### Netzwerke
@@ -57,7 +57,6 @@ Projekten, die Ruby nutzen.
 
 [1]: http://www.motorola.com
 [2]: https://www.uhn.ca/TorontoRehab
-[3]: http://www.morpha.de/php_d/index.php3
 [4]: http://ods.org/
 [5]: http://www.lucent.com/
 [6]: http://www.level3.com/

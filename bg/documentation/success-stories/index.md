@@ -29,7 +29,7 @@ lang: bg
 
 #### Роботика
 
-* В [MORPHA][5] се използва Ruby за имплементирането на реактивната
+* В MORPHA се използва Ruby за имплементирането на реактивната
   контролна част за сервизния робот на Siemens.
 
 #### Мрежи
@@ -62,7 +62,6 @@ lang: bg
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

@@ -28,7 +28,7 @@ lang: ko
 
 #### 로봇공학
 
-* [MORPHA][5] 프로젝트에서는, 루비는 Siemens 서비스 로봇의 반응 컨트롤
+* MORPHA 프로젝트에서는, 루비는 Siemens 서비스 로봇의 반응 컨트롤
   부분에 사용되고 있습니다.
 
 #### 네트워킹
@@ -72,7 +72,6 @@ lang: ko
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

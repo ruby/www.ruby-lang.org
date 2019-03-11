@@ -29,7 +29,7 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 
 #### Robotica
 
-* Il progetto [MORPHA][5] utilizza Ruby per implementare il controllo
+* Il progetto MORPHA utilizza Ruby per implementare il controllo
   della reattività dei componenti della Simens service robot.
 
 #### Networking
@@ -75,7 +75,6 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

@@ -25,7 +25,7 @@ lang: zh_cn
 
 #### 机器人学
 
-* 在 [MORPHA][5] 项目，Ruby 用来实现西门子服务机器人的反应控制部分。
+* 在 MORPHA 项目，Ruby 用来实现西门子服务机器人的反应控制部分。
 
 #### 网络
 
@@ -57,7 +57,6 @@ lang: zh_cn
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
