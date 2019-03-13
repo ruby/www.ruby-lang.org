@@ -33,7 +33,7 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 
 ## Workarounds
 
-RubyGems 2.7.9/3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
+RubyGems 2.7.6.2/2.7.9/3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
 
 ```
 gem update --system
