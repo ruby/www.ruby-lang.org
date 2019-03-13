@@ -9,12 +9,9 @@ lang: en
 
 Ruby 2.5.4 has been released.
 
-This release includes some bug fixes and update of bundled rubygems which contains some secirity fiexes.
-See details in [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/).
-
-There are also some bug fixes.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4)
-for more details.
+This release includes bug fixes and security update of bundled RubyGems.
+See details in [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
+and [commit logs](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
 
 ## Download
 
@@ -49,5 +46,5 @@ for more details.
 ## Release Comment
 
 Many committers, developers, and users who provided bug reports helped
-us to make this release.
+us make this release.
 Thanks for their contributions.
