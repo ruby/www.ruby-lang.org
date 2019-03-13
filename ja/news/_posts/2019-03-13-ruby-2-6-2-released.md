@@ -12,7 +12,7 @@ Ruby 2.6.2 がリリースされました。
 このリリースには同梱しているRubyGemsの脆弱性修正が含まれています。
 詳細は[Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)を参照してください。
 
-その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_6_1...v2.6.2) を参照してください。
+その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2) を参照してください。
 
 ## ダウンロード
 
