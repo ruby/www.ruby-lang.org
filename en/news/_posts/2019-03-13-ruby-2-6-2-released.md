@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 2.6.2 Released"
-author: "nagachika"
+author: "naruse"
 translator:
 date: 2019-03-13 11:30:00 +0000
 lang: en
