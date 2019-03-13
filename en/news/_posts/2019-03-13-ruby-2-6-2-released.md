@@ -9,10 +9,10 @@ lang: en
 
 Ruby 2.6.2 has been released.
 
-This release includes bug fixes and security update of bundled RubyGems.
+This release includes bug fixes and a security update of the bundled RubyGems.
 
 See details in [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
-and [commit logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
+and the [commit logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
 
 ## Download
 
