@@ -9,9 +9,9 @@ lang: en
 
 Ruby 2.5.5 has been released.
 
-This release includes a bug fix for the deadlock in the multi-thread+multi-process (using Process.fork) applications (ex: puma).
+This release includes a bug fix for a deadlock in multi-thread/multi-process (using `Process.fork`) applications, like for example Puma.
 
-See [commit logs](https://github.com/ruby/ruby/compare/v2_5_4...v2_5_5) for changes in details.
+See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_4...v2_5_5) for changes in details.
 
 ## Download
 
