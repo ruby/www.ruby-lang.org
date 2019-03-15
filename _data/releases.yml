@@ -135,6 +135,20 @@
 
 # 2.5 series
 
+- version: 2.5.5
+  date: 2019-03-15
+  post: /en/news/2019/03/15/ruby-2-5-5-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.zip
+  sha256:
+    bz2: 1f2567a55dad6e50911ce42fcc705cf686924b897f597cabf803d88192024dcb
+    gz:  28a945fdf340e6ba04fc890b98648342e3cccfd6d223a48f3810572f11b2514c
+    xz:  9bf6370aaa82c284f193264cc7ca56f202171c32367deceb3599a4f354175d7d
+    zip: be630e814c796f3750bd892f1250851e67fc4379f75508a4cb7ca7ceb718ddef
+
 - version: 2.5.4
   date: 2019-03-13
   post: /en/news/2019/03/13/ruby-2-5-4-released/
