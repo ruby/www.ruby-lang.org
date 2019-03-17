@@ -4,7 +4,7 @@ rvm: 2.6.2
 cache: bundler
 env:
   - TASK=ci
-before_script: gem install bundler:2.0.1
+before_intall: gem install bundler:2.0.1
 script: bundle exec rake $TASK
 # Notifications, used by our Gitter channel.
 notifications:
