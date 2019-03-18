@@ -34,6 +34,7 @@ Here are available installation methods:
 
 * [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
+  * [Windows WSL Ubuntu](#apt-wsl)
   * [CentOS, Fedora, RHEL](#yum)
   * [Snap](#snap)
   * [Gentoo](#portage)
@@ -80,6 +81,22 @@ like this:
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
+### apt (Windows WSL Ubuntu)
+{: #apt-wsl}
+
+If you use Windows 10, you can use Linux Ubuntu OS with WSL. And you can also use Ruby with apt.
+
+There is an information that how to install WSL in this page:
+
+[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+You can use the apt same as Linux OS like this:
+
+{% highlight sh %}
+$ sudo apt-get install ruby-full
+{% endhighlight %}
+
+Or you can also use Ruby managers like the rbenv on WSL.
 
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
