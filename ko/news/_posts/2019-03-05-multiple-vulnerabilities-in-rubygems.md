@@ -1,57 +1,57 @@
 ---
 layout: news_post
-title: "Multiple vulnerabilities in RubyGems"
+title: "RubyGems의 취약점 다수 발견"
 author: "hsbt"
-translator:
+translator: "shia"
 date: 2019-03-05 00:00:00 +0000
 tags: security
-lang: en
+lang: ko
 ---
 
-There are multiple vulnerabilities in RubyGems bundled with Ruby.
-It is [reported at the official blog of RubyGems](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
+루비에 포함되어 있는 라이브러리인 RubyGems의 취약점이 다수 발견되었습니다.
+[RubyGems 공식 블로그](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html)에 보고되었습니다.
 
-## Details
+## 세부 내용
 
-The following vulnerabilities have been reported.
+아래와 같은 취약점이 보고되었습니다.
 
-* CVE-2019-8320: Delete directory using symlink when decompressing tar
-* CVE-2019-8321: Escape sequence injection vulnerability in `verbose`
-* CVE-2019-8322: Escape sequence injection vulnerability in `gem owner`
-* CVE-2019-8323: Escape sequence injection vulnerability in API response handling
-* CVE-2019-8324: Installing a malicious gem may lead to arbitrary code execution
-* CVE-2019-8325: Escape sequence injection vulnerability in errors
+* CVE-2019-8320: tar 압축 풀기 중 심볼릭 링크를 이용한 폴더 삭제
+* CVE-2019-8321: `verbose`에서의 이스케이프 시퀀스 주입 취약점
+* CVE-2019-8322: `gem owner`에서의 이스케이프 시퀀스 주입 취약점
+* CVE-2019-8323: API 응답 처리 중의 이스케이프 시퀀스 주입 취약점
+* CVE-2019-8324: 임의의 코드 실행을 유도할 수 있는 악의있는 젬 설치
+* CVE-2019-8325: 에러 중 이스케이프 시퀀스 주입 취약점
 
-It is strongly recommended for Ruby users to take one of the following workarounds as soon as possible.
+루비 사용자는 가능한 빨리 업그레이드하거나 아래 해결 방법으로 조치하기 바랍니다.
 
-## Affected Versions
+## 해당 버전
 
-* Ruby 2.4 series: 2.4.5 and earlier
-* Ruby 2.5 series: 2.5.3 and earlier
-* Ruby 2.6 series: 2.6.1 and earlier
-* prior to trunk revision 67168
+* 루비 2.4 버전대: 2.4.5 이하
+* 루비 2.5 버전대: 2.5.3 이하
+* 루비 2.6 버전대: 2.6.1 이하
+* 리비전 67168 이전의 트렁크
 
-## Workarounds
+## 해결 방법
 
-RubyGems 2.7.6.2/2.7.9/3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
+RubyGems 2.7.6.2/2.7.9/3.0.3 이나 그 이후의 버전은 취약점에 대한 패치를 포함하고 있으므로, RubyGems를 최신 버전으로 업그레이드해 주세요.
 
 ```
 gem update --system
 ```
 
-If you can't upgrade RubyGems, you can apply the following patches as a workaround.
+RubyGems를 업그레이드를 할 수 없다면, 차선책으로 다음 패치를 적용할 수 있습니다.
 
-* [for Ruby 2.4.5](https://bugs.ruby-lang.org/attachments/7669)
-* [for Ruby 2.5.3](https://bugs.ruby-lang.org/attachments/7670)
-* [for Ruby 2.6.1](https://bugs.ruby-lang.org/attachments/7671)
+* [루비 2.4.5](https://bugs.ruby-lang.org/attachments/7669)
+* [루비 2.5.3](https://bugs.ruby-lang.org/attachments/7670)
+* [루비 2.6.1](https://bugs.ruby-lang.org/attachments/7671)
 
-About the trunk, update to the latest revision.
+개발버전에 대하여는, 최신 리비전으로 업데이트합니다.
 
-## Credits
+## 도움을 준 글
 
-This report is based on [the official blog of RubyGems](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
+이 보고서는 [RubyGems 공식 블로그](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html)를 바탕으로 하여 작성하였습니다.
 
-## History
+## 수정 이력
 
-* Originally published at 2019-03-05 00:00:00 UTC
-* Link to updated patches at 2019-03-06 05:26:27 UTC
+* 2019-03-05 00:00:00 UTC 최초 공개
+* 2019-03-06 05:26:27 UTC 패치에 대한 링크 추가
