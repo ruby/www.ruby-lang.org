@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 2.5.5 Released"
+title: "루비 2.5.5 릴리스"
 author: "nagachika"
-translator:
+translator: "shia"
 date: 2019-03-15 02:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.5.5 has been released.
+루비 2.5.5가 릴리스 되었습니다.
 
-This release includes a bug fix for a deadlock in multi-thread/multi-process (using `Process.fork`) applications, like for example Puma.
+이 릴리스는 Puma 와 같은 멀티 스레드, 또는 멀티 프로세스(`Process.fork`를 사용하는) 애플리케이션에서 데드록이 발생하는 버그 수정을 포함합니다.
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_4...v2_5_5) for changes in details.
+자세한 내용은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_5_4...v2_5_5)를 확인해주세요.
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.tar.bz2>
 
@@ -43,6 +43,6 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_4...v2_5_5) for 
       SHA256: be630e814c796f3750bd892f1250851e67fc4379f75508a4cb7ca7ceb718ddef
       SHA512: 95604d47f3436e0be3a59742a89ac5f1c5c9493ddab8b53b154098b876b2fa12418d2adfc1c71e039a6876d209a7832efd88c0e297df5be56b8f7e92094eb487
 
-## Release Comment
+## 릴리스 코멘트
 
-I wish to express my gratitude to sorah and k0kubun for their report and investigation. Thank you.
+sorah와 k0kubun의 보고와 조사에 감사를 표합니다. 고맙습니다.
