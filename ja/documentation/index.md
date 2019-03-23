@@ -15,14 +15,15 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 また、現在有志の手により[リファレンスマニュアルの整備][rurema-wiki]が進行中です。
 成果物を[&lt;URL:https://docs.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
 
-* [Rubyリファレンスマニュアル Ruby 1.8.7版][man-187]
-* [Rubyリファレンスマニュアル Ruby 1.9.3版][man-193]
-* [Rubyリファレンスマニュアル Ruby 2.0.0版][man-200]
-* [Rubyリファレンスマニュアル Ruby 2.1.0版][man-210]
-* [Rubyリファレンスマニュアル Ruby 2.2.0版][man-220]
-* [Rubyリファレンスマニュアル Ruby 2.3.0版][man-230]
-* [Rubyリファレンスマニュアル Ruby 2.4.0版][man-240]
+* [Rubyリファレンスマニュアル Ruby 2.6.0版][man-260]
 * [Rubyリファレンスマニュアル Ruby 2.5.0版][man-250]
+* [Rubyリファレンスマニュアル Ruby 2.4.0版][man-240]
+* [Rubyリファレンスマニュアル Ruby 2.3.0版][man-230]
+* [Rubyリファレンスマニュアル Ruby 2.2.0版][man-220]
+* [Rubyリファレンスマニュアル Ruby 2.1.0版][man-210]
+* [Rubyリファレンスマニュアル Ruby 2.0.0版][man-200]
+* [Rubyリファレンスマニュアル Ruby 1.9.3版][man-193]
+* [Rubyリファレンスマニュアル Ruby 1.8.7版][man-187]
 * [るりまサーチ][man-search]
 
 またこのリファレンスマニュアルをまとめてダウンロードすることもできます。
@@ -90,18 +91,17 @@ Rubyistに人気のあるソフトウェアには次のようなものがあり�
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][atom]
+  * [Visual Studio Code][vscode]
 
 * Windows
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
-* OS X
+* macOS
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (ドキュメント表示ツール)
-  * [Atom][atom]
 
 Posted by Shugo Maeda on 26 May 2006
 {: .post-info}
@@ -118,6 +118,7 @@ Posted by Shugo Maeda on 26 May 2006
 [man-230]: https://docs.ruby-lang.org/ja/2.3.0/doc/index.html
 [man-240]: https://docs.ruby-lang.org/ja/2.4.0/doc/index.html
 [man-250]: https://docs.ruby-lang.org/ja/2.5.0/doc/index.html
+[man-260]: https://docs.ruby-lang.org/ja/2.6.0/doc/index.html
 [man-search]: https://docs.ruby-lang.org/ja/search/
 [man-xz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.xz
 [man-gz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.gz
@@ -154,3 +155,4 @@ Posted by Shugo Maeda on 26 May 2006
 [37]: http://www.sublimetext.com/
 [39]: http://kapeli.com/dash
 [atom]: https://atom.io/
+[vscode]: https://code.visualstudio.com/

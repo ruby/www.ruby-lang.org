@@ -34,7 +34,7 @@ lang: ko
 : 루비 개발 과정에 참여하고 싶다면 바로 지금이 최고의 타이밍입니다.
   루비를 도와주는데 관심이 있으시다면 여기서 시작하세요.
 
-[루비에 관한 웹로그](weblogs/)
+[루비에 관한 블로그](weblogs/)
 : 루비 커뮤니티에서 블로그에 관한 이야기를 빼놓을 수 없죠. 여기에
   구독할 만한 추천 블로그 목록이 있습니다.
 
@@ -44,10 +44,10 @@ lang: ko
   커뮤니티의 뉴비의 환영 등을 함께합니다.
 
 일반적인 루비 정보(영문)
-: * [Ruby Central][3]
-  * [Ruby at Open Directory Project][4]
-  * [Rails at Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby at Open Directory Project][ruby-opendir]
+  * [Rails at Open Directory Project][rails-opendir]
 
-[3]: http://rubycentral.org/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

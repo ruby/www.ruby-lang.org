@@ -188,7 +188,7 @@ Ruby kaya fitur, antara lain sebagai berikut:
   tidak, bahkan pada MS-DOS sekalipun!
 
 * Ruby sangat *portable*: Ruby kebanyakan dikembangkan di GNU/Linux,
-  tetapi juga berjalan di banyak tipe UNIX, Mac OS X,
+  tetapi juga berjalan di banyak tipe UNIX, macOS,
   Windows, DOS, BeOS, OS/2, dan lain-lain.
 
 ### Implementasi Lain dari Ruby
@@ -213,9 +213,6 @@ Berikut ini daftarnya:
   yang memiliki performa tinggi.
 * [mruby][mruby] adalah sebuah implementasi *lightweight* dari bahasa Ruby
   yang dapat dihubungkan dan ditanamkan dengan sebuah aplikasi.
-* [MacRuby][macruby] adalah Ruby yang sangat terintegrasi erat dengan pustaka
-  Apple Cocoa untuk Mac OS X, memperbolehkan Anda untuk memprogram aplikasi
-  *desktop* dengan mudah.
 * [IronRuby][ironruby] adalah sebuah implementasi “tightly integrated with
   the .NET Framework”.
 * [MagLev][maglev] adalah “a fast, stable, Ruby implementation with integrated
@@ -251,7 +248,6 @@ di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [truffleruby]: https://github.com/oracle/truffleruby
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

@@ -121,7 +121,7 @@ Questa è una lista dei tool più comunemente usati dagli sviluppatori Ruby:
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
 
-* Per Mac OS X:
+* Per macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][40] (Documentation Browser)

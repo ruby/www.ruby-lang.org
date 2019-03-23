@@ -187,7 +187,7 @@ seguintes:
   não, temos _multithreading_ até em MS-DOS!
 
 * O Ruby é altamente portável: é desenvolvido principalmente em ambiente
-  GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, Mac OS X,
+  GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, macOS,
   Windows, DOS, BeOS, OS/2, etc.
 
 ### Outras Implementações do Ruby
@@ -209,9 +209,6 @@ Segue uma lista:
 * [Rubinius][rubinius] é “Ruby escrito em Ruby”. Construído em cima da LLVM,
   Rubinius utiliza uma elegante máquina virtual sobre a qual outras
   linguagens também estão sendo construídas.
-* [MacRuby][macruby] é um Ruby que é fortemente integrado com as bibliotecas
-  Cocoa da Apple para o Mac OS X, permitindo que você escreva aplicações
-  desktop com facilidade.
 * [mruby][mruby] é uma implementação leve da linguagem Ruby que pode ser
   vinculada e embutida em uma aplicação. Seu desenvolvimento é conduzido
   pelo criador do Ruby, Yukihiro “Matz” Matsumoto.
@@ -246,7 +243,6 @@ Nov. 2001.
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

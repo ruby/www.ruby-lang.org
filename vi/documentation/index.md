@@ -123,18 +123,17 @@ tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, h
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][atom]
+  * [Visual Studio Code][vscode]
 
 * Trên Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
-* Trên Mac OS X:
+* Trên macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (trình duyệt tài liệu)
-  * [Atom][atom]
 
 ### Đọc thêm
 
@@ -184,3 +183,4 @@ là một nơi tuyệt vời.
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [atom]: https://atom.io/
+[vscode]: https://code.visualstudio.com/

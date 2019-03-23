@@ -128,7 +128,7 @@ ruby -v
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
 
-* На Mac OS X:
+* На macOS:
   * [TextMate][32]
   * [TextWrangler][33]
 

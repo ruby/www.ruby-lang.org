@@ -32,13 +32,13 @@ lang: zh_cn
 : 遍及世界的 Ruby 程序员正在参与越来越多的会议，在会议上他们一起分享工作成果，讨论 Ruby 的未来，欢迎新成员加入到 Ruby 社区。
 
 Ruby 的一般信息
-: * [Ruby Central][3]
-  * [Ruby at Open Directory Project][4]
-  * [Rails at Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby at Open Directory Project][ruby-opendir]
+  * [Rails at Open Directory Project][rails-opendir]
 
 
 
-[3]: http://rubycentral.org/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
 [ruby-china]: https://ruby-china.org

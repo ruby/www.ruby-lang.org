@@ -24,7 +24,7 @@ lang: zh_cn
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
+  * [macOS](#homebrew)
   * [OpenIndiana](#openindiana)
   * [其他发行版](#other-systems)
 * [安装工具](#installers)
@@ -93,12 +93,12 @@ $ sudo pacman -S ruby
 这将安装最新的 Ruby 稳定版。
 
 
-### Homebrew（OS X）
+### Homebrew（macOS）
 {: #homebrew}
 
 macOS (High) Sierra 和 OS X El Capitan 已内置了 Ruby 2.0。
 
-许多 OS X 用户使用 [Homebrew][homebrew] 作为包管理器。用 Homebrew 能够非常简单地获取到最新版的 Ruby：
+许多 macOS 用户使用 [Homebrew][homebrew] 作为包管理器。用 Homebrew 能够非常简单地获取到最新版的 Ruby：
 
 {% highlight sh %}
 $ brew install ruby
@@ -134,13 +134,13 @@ $ pkg install runtime/ruby
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build] 是 [rbenv](#rbenv) 的一个插件，能在任意目录中编译和安装不同版本的 Ruby。ruby-build 也可以不依赖 rbenv 而单独使用。支持的平台有 OS X、Linux 和其它类 UNIX 操作系统。
+[ruby-build][ruby-build] 是 [rbenv](#rbenv) 的一个插件，能在任意目录中编译和安装不同版本的 Ruby。ruby-build 也可以不依赖 rbenv 而单独使用。支持的平台有 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] 能在任意目录中编译和安装不同版本的 Ruby。还有个兄弟工具，[chruby](#chruby)，可以用来切换不同的 Ruby 版本。支持的平台有 OS X、Linux 和其它类 UNIX 操作系统。
+[ruby-install][ruby-install] 能在任意目录中编译和安装不同版本的 Ruby。还有个兄弟工具，[chruby](#chruby)，可以用来切换不同的 Ruby 版本。支持的平台有 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### RubyInstaller
@@ -157,7 +157,7 @@ $ pkg install runtime/ruby
 如果是为了使用 Ruby on Rails 而安装 Ruby，可以使用下列安装工具：
 
 * [RailsInstaller][railsinstaller]，使用的是 RubyInstaller，但包括了其它能够帮助 Rails 开发的工具。支持 OS X 和 Windows。
-* [Bitnami Ruby Stack][rubystack]，提供了完整的 Rails 开发环境。支持 OS X、Linux、Windows、虚拟机和云镜像。
+* [Bitnami Ruby Stack][rubystack]，提供了完整的 Rails 开发环境。支持 macOS、Linux、Windows、虚拟机和云镜像。
 
 
 ## 管理工具
@@ -175,19 +175,19 @@ $ pkg install runtime/ruby
 ### rbenv
 {: #rbenv}
 
-[rbenv][rbenv] 用于管理系统中安装的多个 Ruby 版本。它不能直接安装 Ruby，但有个流行的插件叫 [ruby-build](#ruby-build) 能够安装 Ruby。这两个工具都支持 OS X、Linux 和其它类 UNIX 操作系统。
+[rbenv][rbenv] 用于管理系统中安装的多个 Ruby 版本。它不能直接安装 Ruby，但有个流行的插件叫 [ruby-build](#ruby-build) 能够安装 Ruby。这两个工具都支持 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### RVM（“Ruby Version Manager”）
 {: #rvm}
 
-[RVM][rvm] 能在系统中安装和管理多个 Ruby 版本。同时还能管理不同的 gem 集。支持 OS X、Linux 和其它类 UNIX 操作系统。
+[RVM][rvm] 能在系统中安装和管理多个 Ruby 版本。同时还能管理不同的 gem 集。支持 macOS、Linux 和其它类 UNIX 操作系统。
 
 
 ### uru
 {: #uru}
 
-[Uru][uru] 是一个轻量级的命令行工具，支持多平台，能够帮你在 OS X、Linux 和 Windows 上使用不同的 Ruby 版本。
+[Uru][uru] 是一个轻量级的命令行工具，支持多平台，能够帮你在 macOS、Linux 和 Windows 上使用不同的 Ruby 版本。
 
 
 ## 通过源码编译安装

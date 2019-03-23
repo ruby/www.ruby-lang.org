@@ -128,18 +128,17 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby.
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][atom]
+  * [Visual Studio Code][vscode]
 
 * Pada Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
-* Pada Mac OS X:
+* Pada macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (documentation browser)
-  * [Atom][atom]
 
 ### Bacaan selanjutnya
 
@@ -189,3 +188,4 @@ adalah tempat yang baik untuk memulai.
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [atom]: https://atom.io/
+[vscode]: https://code.visualstudio.com/

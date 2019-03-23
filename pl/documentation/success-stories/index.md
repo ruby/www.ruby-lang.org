@@ -25,7 +25,7 @@ Rubiego w rzeczywistości.
 
 #### Robotyka
 
-* W projekcie [MORPHA][5] , Ruby został użyty do implementacji systemu
+* W projekcie MORPHA, Ruby został użyty do implementacji systemu
   kontroli reakcji Robota usługowego firmy Siemens.
 
 #### Sieci
@@ -83,7 +83,6 @@ Rubiego w rzeczywistości.
 [2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
 [3]: http://www.motorola.com
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

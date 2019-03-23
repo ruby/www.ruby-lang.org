@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby ENV['CUSTOM_RUBY_VERSION'] || '~> 2.5.1'
+ruby ENV['CUSTOM_RUBY_VERSION'] || '~> 2.6.2'
 
 gem 'rake'
 gem 'jekyll', '~> 3.0'
@@ -16,6 +16,7 @@ group :production do
 end
 
 group :development do
+  gem 'minitest'
   gem 'spidr', '~> 0.6'
   gem 'validate-website', '~> 1.6'
 end

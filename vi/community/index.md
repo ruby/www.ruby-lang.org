@@ -43,12 +43,12 @@ Nếu bạn muốn tham gia thì dưới đây là một vài nơi để bắt �
   đồng Ruby.
 
 Thông tin chung về Ruby
-: * [Ruby Central][3]
-  * [Ruby at Open Directory Project][4]
-  * [Rails at Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby at Open Directory Project][ruby-opendir]
+  * [Rails at Open Directory Project][rails-opendir]
 
 
 
-[3]: http://rubycentral.org/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

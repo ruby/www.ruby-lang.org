@@ -31,7 +31,7 @@ témoignages du « monde réel. »
 
 #### Robotique
 
-* Le projet [MORPHA][6] a utilisé Ruby pour implémenter la partie de
+* Le projet MORPHA a utilisé Ruby pour implémenter la partie de
   contrôle réactif du robot de service Siemens.
 
 #### Réseaux
@@ -66,7 +66,6 @@ témoignages du « monde réel. »
 [3]: http://www.motorola.com
 [4]: http://www.sketchup.com/
 [5]: https://www.uhn.ca/TorontoRehab
-[6]: http://www.morpha.de/php_e/index.php3
 [7]: http://ods.org/
 [8]: http://www.lucent.com/
 [9]: http://www.level3.com/

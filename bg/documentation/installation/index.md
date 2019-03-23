@@ -30,7 +30,7 @@ lang: bg
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
+  * [macOS](#homebrew)
   * [Solaris, OpenIndiana](#solaris)
   * [Други системи](#other-systems)
 * [Инсталатори](#installers)
@@ -116,13 +116,13 @@ $ sudo pacman -S ruby
 Това ще инсталира последната стабилна версия на Ruby.
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Ruby 2.0 е включен в OS X Mavericks.
 OS X Mountain Lion, Lion, и Snow Leopard са с вграден Ruby 1.8.7.
 
-Много потребители на OS X ползват [Homebrew][homebrew] за пакетен
+Много потребители на macOS ползват [Homebrew][homebrew] за пакетен
 мениджър. С него е много е лесно да се инсталира нова версия на Ruby:
 
 {% highlight sh %}
@@ -136,7 +136,7 @@ $ brew install ruby
 {: #solaris}
 
 Ruby 1.8.7 е наличен за Solaris от версия 8 до 10 на
-[Sunfreeware][sunfreeware] и на [Blastwave][blastwave].
+[Sunfreeware][sunfreeware] и на Blastwave.
 Ruby 1.9.2p0 също може да бъде инсталиран от [Sunfreeware][sunfreeware],
 но е стара версия.
 
@@ -178,7 +178,7 @@ $ pkg install runtime/ruby-18
 позволява компилирането и инсталирането на различни версии на Ruby в
 произволни директории.
 ruby-build може да бъде използван и самостоятелно, без rbenv.
-Наличен е за OS X, Linux и други UNIX системи.
+Наличен е за macOS, Linux и други UNIX системи.
 
 
 ### ruby-install
@@ -188,7 +188,7 @@ ruby-build може да бъде използван и самостоятелн
 Ruby в произволни директории.
 Съществува и [chruby](#chruby), което осъществява смянате между различните
 версии.
-Налично е за OS X, Linux и други UNIX системи.
+Налично е за macOS, Linux и други UNIX системи.
 
 
 ### RubyInstaller
@@ -213,7 +213,7 @@ Ruby в произволни директории.
   Налично за OS X и Windows.
 * [Bitnami Ruby Stack][rubystack],
   осигурява пълна среда за разработка за Rails.
-  Поддържа OS X, Linux, Windows и виртуални машини.
+  Поддържа macOS, Linux, Windows и виртуални машини.
 
 
 ## Мениджъри
@@ -238,7 +238,7 @@ Ruby в произволни директории.
 [rbenv][rbenv] също позволява използването на множество версии на Ruby.
 Официално не поддържа инсталирането на Ruby, но затова съществува популярният
 плъгин [ruby-build](#ruby-build).
-И двата инструмента са налични за OS X, Linux и други UNIX системи.
+И двата инструмента са налични за macOS, Linux и други UNIX системи.
 
 
 ### RVM ("Ruby Version Manager")
@@ -246,14 +246,14 @@ Ruby в произволни директории.
 
 [RVM][rvm] позволява инсталирането и използването на множество инсталации на
 Ruby. Също така позволява и създаването на gemsets.
-Налично е за OS X, Linux и други UNIX системи.
+Налично е за macOS, Linux и други UNIX системи.
 
 
 ### uru
 {: #uru}
 
 [Uru][uru] е лек, мултиплатформен инструмент, който помага при ползването на
-една или повече версии на Ruby за OS X, Linux или Windows системи.
+една или повече версии на Ruby за macOS, Linux или Windows системи.
 
 
 ## Компилиране от изходен код
@@ -282,7 +282,6 @@ $ sudo make install
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

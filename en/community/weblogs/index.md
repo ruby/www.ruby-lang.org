@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Weblogs"
+title: "Blogs"
 lang: en
 ---
 
-Ruby blogs have exploded over the past year and given sufficient
+Ruby blogs have exploded over the past years and given sufficient
 hunting, you can unearth hundreds of blogs sharing bits of Ruby code,
 describing new techniques, or speculating on Ruby’s future.
 {: .summary}
@@ -22,36 +22,27 @@ describing new techniques, or speculating on Ruby’s future.
 A few notable blogs stand out for the frequency and immediacy of their
 updates.
 
-* [**O’Reilly Ruby**][8] is a group blog with pertinent Ruby tutorials
-  and interviews with interesting folks from around the community.
-* [**Riding Rails**][9] is the official group blog of the Ruby on Rails
-  team. If you are running Rails, this blog is essential for
-  notification of security updates and an overall view of the wide Rails
-  community.
-* [**Ruby Inside**][10] announces interesting applications and libraries
-  from throughout the world, both Ruby and Rails.
-* [**Matz’ Blog**][11] is a Japanese blog written by Ruby’s creator.
-  Even if you can’t read all of it, it’s good to know he’s right there!
+* [**Ruby Weekly**][ruby-weekly]: Although more of a newsletter than a
+  blog, Ruby Weekly is a distillation of the most interesting Ruby
+  articles and news each week.
+* [**Riding Rails**][riding-rails] is the official group blog of the
+  Ruby on Rails team. If you are running Rails, this blog is essential
+  for notification of security updates and an overall view of the wide
+  Rails community.
 
 ### Spreading the Word
 
-You might also contact the
-weblogs above, if you are covering a topic they’d be interested in.
-(Obviously, if it’s not Rails-related, then the *Riding Rails* crew may
-not be as interested—but you never know.)
+If you're interested in writing for any of the above blogs, you should
+contact the authors.
 
-Ruby is also a common topic on [Slashdot][14], [reddit][15],
-and [Hacker News][16], in their respective programming news. If you find
-some brilliant code out there, be sure to let them know!
-
+Ruby is also a common topic on [reddit][reddit] and [Hacker News][hn],
+in their respective programming news. If you find some brilliant code
+out there, be sure to share!
 
 
 [rubyflow]: http://www.rubyflow.com/
 [rubyland]: http://rubyland.news/
-[8]: http://oreillynet.com/ruby/
-[9]: http://weblog.rubyonrails.org/
-[10]: http://www.rubyinside.com/
-[11]: http://www.rubyist.net/~matz/
-[14]: http://developers.slashdot.org/
-[15]: http://www.reddit.com/r/ruby
-[16]: http://news.ycombinator.com/
+[ruby-weekly]: https://rubyweekly.com/
+[riding-rails]: http://weblog.rubyonrails.org/
+[reddit]: http://www.reddit.com/r/ruby
+[hn]: http://news.ycombinator.com/

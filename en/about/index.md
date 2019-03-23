@@ -173,7 +173,7 @@ Ruby has a wealth of other features, among which are the following:
   supports it or not, even on MS-DOS!
 
 * Ruby is highly portable: it is developed mostly on GNU/Linux, but
-  works on many types of UNIX, Mac OS X, Windows, DOS, BeOS, OS/2, etc.
+  works on many types of UNIX, macOS, Windows, DOS, BeOS, OS/2, etc.
 
 ### Other Implementations of Ruby
 
@@ -198,9 +198,6 @@ Here’s a list:
 * [mruby][mruby] is a lightweight implementation of the Ruby language
   that can be linked and embedded within an application.
   Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.
-* [MacRuby][macruby] is a Ruby that’s tightly integrated with Apple’s Cocoa
-  libraries for Mac OS X, allowing you to write desktop applications
-  with ease.
 * [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
   Framework”.
 * [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
@@ -235,7 +232,6 @@ For a more complete list, see [Awesome Rubies][awesome-rubies].
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [truffleruby]: https://github.com/oracle/truffleruby
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

@@ -21,6 +21,76 @@
 
 # 2.6 series
 
+- version: 2.6.2
+  date: 2019-03-13
+  post: /en/news/2019/03/13/ruby-2-6-2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.2.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.2.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.2.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.2.tar.xz
+  sha256:
+    gz:  a0405d2bf2c2d2f332033b70dff354d224a864ab0edd462b7a413420453b49ab
+    zip: 65b862e5c86346d6bda05fc193c6f2cd728ddfd357f4b0a19d54d48a50984d13
+    bz2: d126ada7f4147ce1029a80c2a37a0c4bfb37e9e82da8816662241a43faeb8915
+    xz:  91fcde77eea8e6206d775a48ac58450afe4883af1a42e5b358320beb33a445fa
+
+- version: 2.6.1
+  date: 2019-01-30
+  post: /en/news/2019/01/30/ruby-2-6-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.1.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.1.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.1.tar.xz
+  sha256:
+    gz:  17024fb7bb203d9cf7a5a42c78ff6ce77140f9d083676044a7db67f1e5191cb8
+    zip: ed1537f49d333a809900c1f49ad16c4c06224ebbf5c744cb7b9104ab2a385366
+    bz2: 82c9402920eac9ce777beb3f34eeadc2a3f3ce80f25004bbf54b5ed1280ba099
+    xz:  47b629808e9fd44ce1f760cdf3ed14875fc9b19d4f334e82e2cf25cb2898f2f2
+
+- version: 2.6.0
+  date: 2018-12-25
+  post: /en/news/2018/12/25/ruby-2-6-0-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.xz
+  sha256:
+    gz:  f3c35b924a11c88ff111f0956ded3cdc12c90c04b72b266ac61076d3697fc072
+    zip: 8a4fb6ca58202495c9682cb88effd804398bd0ef023e3e36f001ca88d8b5855a
+    bz2: c89ca663ad9a6238f4b1ec4d04c7dff630560c6e6eca6d30857c4d394f01a599
+    xz:  acb00f04374899ba8ee74bbbcb9b35c5c6b1fd229f1876554ee76f0f1710ff5f
+
+- version: 2.6.0-rc2
+  date: 2018-12-15
+  post: /en/news/2018/12/15/ruby-2-6-0-rc2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc2.tar.xz
+  sha256:
+    gz:  9c0245e96379246040f1fd0978f8e447e7f47cdccbdaffdb83302a995276b62b
+    zip: e8a446cf1f2ffc14483604de0a5e12c2578dd2f672ae87798ca2bbb9b7b73899
+    bz2: b3d03e471e3136f43bb948013d4f4974abb63d478e8ff7ec2741b22750a3ec50
+    xz:  d620b3d87b3190867304067f3ce77f5305f7ec1b2e73b09c17710c97c028986d
+
+- version: 2.6.0-rc1
+  date: 2018-12-06
+  post: /en/news/2018/12/06/ruby-2-6-0-rc1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-rc1.tar.xz
+  sha256:
+    gz:  6d6183639ed9c02320d7132e97c65489a39e24d8b55fc4ed35ac53d1189cb61d
+    zip: 2bcdf468de499e4d6983d60d63dcc883f4c54fdc05a08a54eb93d315477bc4cc
+    bz2: b4e9c0e8801946e9f0baba30948955f4341e9e04f363c206b7bd774208053eb5
+    xz:  21d9d54c20e45ccacecf8bea4dfccd05edc52479c776381ae98ef6a7b4afa739
+
 - version: 2.6.0-preview3
   date: 2018-11-06
   post: /en/news/2018/11/06/ruby-2-6-0-preview3-released/
@@ -64,6 +134,34 @@
     xz:  1d99139116e4e245ce543edb137b2a8873c26e9f0bde88d8cee6789617cc8d0e
 
 # 2.5 series
+
+- version: 2.5.5
+  date: 2019-03-15
+  post: /en/news/2019/03/15/ruby-2-5-5-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.5.zip
+  sha256:
+    bz2: 1f2567a55dad6e50911ce42fcc705cf686924b897f597cabf803d88192024dcb
+    gz:  28a945fdf340e6ba04fc890b98648342e3cccfd6d223a48f3810572f11b2514c
+    xz:  9bf6370aaa82c284f193264cc7ca56f202171c32367deceb3599a4f354175d7d
+    zip: be630e814c796f3750bd892f1250851e67fc4379f75508a4cb7ca7ceb718ddef
+
+- version: 2.5.4
+  date: 2019-03-13
+  post: /en/news/2019/03/13/ruby-2-5-4-released/
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.4.tar.bz2
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.4.tar.gz
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.4.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.4.zip
+  sha256:
+    bz2: 8a16566207b2334a6904a10a1f093befc3aaf9b2e6cf01c62b1c4ac15cb7d8fc
+    gz:  0e4042bce749352dfcf1b9e3013ba7c078b728f51f8adaf6470ce37675e3cb1f
+    xz:  46f6eff655a6be1939f70c7a4c1bf58f76663e7e804738bc52f4d47ca31dee3d
+    zip: 823a6a2c9c7baa18554fd78d430837a01ab33cc16ad1759c9842bdd9523e9cea
 
 - version: 2.5.3
   date: 2018-10-18

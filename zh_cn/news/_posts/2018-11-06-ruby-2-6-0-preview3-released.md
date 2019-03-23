@@ -20,7 +20,7 @@ JIT 编译器旨在提升任何 Ruby 程序的执行速度。不同于其他语�
 
 此 JIT 发布的主要目的是检查平台的兼容性，以及在 2.6 版本发布前找出安全风险。目前 JIT 编译器只当 Ruby 由 gcc clang 或 Microsoft VC++ 编译后，编译器仍可被运行时发现时可用，除此之外你暂时无法使用 JIT。
 
-Ruby 2.6.0 preview3 在使用 CPU 密集型场景下的复杂 Bemchmark Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208> 进行测试后，比起 Ruby 2.5 取得了 1.7 倍的性能提升。我们会进一步提升其在内存密集型场景，例如 Rails 应用中的性能。
+Ruby 2.6.0 preview3 在使用 CPU 密集型场景下的复杂 Benchmark Optcarrot <https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208> 进行测试后，比起 Ruby 2.5 取得了 1.7 倍的性能提升。我们会进一步提升其在内存密集型场景，例如 Rails 应用中的性能。
 
 请保持对 Ruby 新时代性能的关注。
 
@@ -54,6 +54,14 @@ Ruby 2.6 引入了 `RubyVM::AST` 模块。
 
 * 增加 `:exception` 选项，以让 `Kernel.#system` 抛出错误而不是返回 `false`。[[功能 #14386]](https://bugs.ruby-lang.org/issues/14386)
 
+* 新增 oneshot 模式 [[功能 #15022]](https://bugs.ruby-lang.org/issues/15022)
+  * 此模式检查「每一行代码是否都至少被执行一次」，而不是「每行代码被执行了几次」。每行代码的 hook 至多被调用一次，并会在调用后将 hook 标识移除。换句话说，移除后的代码运行将没有额外的性能开销。
+  * 为 `Coverage.start` 方法新增 `:oneshot_lines` 关键字参数。
+  * 为 `Coverage.result` 方法新增 `:stop` 和 `:clear` 关键字参数。如果 `clear` 被设置为 true，它会清空计数器。如果 `stop` 被设置为 true，它会禁用覆盖测量。
+  * 新增 `Coverage.line_stub`，其为从源代码新建代码覆盖存根（stub）提供了一个简单的帮助函数。
+
+* `FileUtils#cp_lr`.  [[功能 #4189]](https://bugs.ruby-lang.org/issues/4189)
+
 ## 性能提升
 
 * 提升 `Proc#call` 的速度，因为我们无需再关心 `$SAFE`。[[功能 #14318]](https://bugs.ruby-lang.org/issues/14318)
@@ -64,7 +72,7 @@ Ruby 2.6 引入了 `RubyVM::AST` 模块。
 
   Ruby 2.5 提升了代码块传递的性能。[[功能 #14045]](https://bugs.ruby-lang.org/issues/14045) 另外，Ruby 2.6 提升了传递代码块调用时的性能。通过 micro-benchmark 我们观察到了 2.6 倍性能提升。
 
-* 引入了瞬态堆 (theap)。 [Bug #14858] [Feature #14989] 瞬态堆是用于管理指向特定类（Array, Hash, Object 和 Struct）短生命周期内存对象的堆。例如，创建小而短生命周期的哈希对象的速度提升到了 2 倍快。根据 rdoc benchmark，我们观察到了 6% 到 7% 的性能提升。
+* 引入了瞬态堆 (theap)。 [[漏洞 #14858]](https://bugs.ruby-lang.org/issues/14858) [[功能 #14989]](https://bugs.ruby-lang.org/issues/14989) 瞬态堆是用于管理指向特定类（Array、Hash、Object 和 Struct）短生命周期内存对象的堆。例如，创建小而短生命周期的哈希对象的速度提升到了 2 倍快。根据 rdoc benchmark，我们观察到了 6% 到 7% 的性能提升。
 
 ## 其他自 2.5 以来的重要变化
 

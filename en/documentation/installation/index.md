@@ -21,9 +21,9 @@ This should output some information on the installed Ruby version.
 
 There are several ways to install Ruby:
 
-* On a UNIX-like operating system, using your system's **package
-  manager** is easiest. However, the packaged Ruby version may not be
-  the newest one.
+* On a UNIX-like operating system, using your system's
+  **package manager** is easiest.
+  However, the packaged Ruby version may not be the newest one.
 * **Installers** can be used to install a specific or multiple
   Ruby versions. There is also an installer for Windows.
 * **Managers** help you to switch between multiple Ruby versions
@@ -34,12 +34,14 @@ Here are available installation methods:
 
 * [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
+  * [Windows WSL Ubuntu](#apt-wsl)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
   * [ruby-build](#ruby-build)
@@ -63,10 +65,11 @@ third-party tool, you can use your system's package manager to install Ruby.
 Some members of the Ruby community feel that you should avoid package
 managers to install Ruby and that you should use dedicated tools instead.
 
-It's possible that major package managers will install older Ruby
+It is possible that major package managers will install older Ruby
 versions instead of the latest release. To use the latest Ruby release,
 check that the package name matches its version number. Or use a
 dedicated [installer][installers].
+
 
 ### apt (Debian or Ubuntu)
 {: #apt}
@@ -78,9 +81,22 @@ like this:
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-As of writing, the `ruby-full` package provides Ruby 2.3.1, which is an old
-stable release, on Debian and Ubuntu.
+### apt (Windows WSL Ubuntu)
+{: #apt-wsl}
 
+If you use Windows 10, you can use Linux Ubuntu OS with WSL. And you can also use Ruby with apt.
+
+There is an information that how to install WSL in this page:
+
+[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+You can use the apt same as Linux OS like this:
+
+{% highlight sh %}
+$ sudo apt-get install ruby-full
+{% endhighlight %}
+
+Or you can also use Ruby managers like the rbenv on WSL.
 
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
@@ -96,6 +112,27 @@ The installed version is typically the latest version of Ruby available
 at the release time of the specific distribution version.
 
 
+### snap (Ubuntu or other Linux distributions)
+{: #snap}
+
+Snap is a package manager developed by Canonical.
+It is available out-of-the-box on Ubuntu, but snap also works
+on many other Linux distributions.
+You can use it like this:
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+We have several channels per Ruby minor series.
+For instance, the following commands switch to Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
+
+
 ### portage (Gentoo)
 {: #portage}
 
@@ -105,9 +142,7 @@ Gentoo uses the portage package manager.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-By default, this will try to install versions 1.9 and 2.0, but more
-versions are available. To install a specific version, set
-`RUBY_TARGETS` in your `make.conf`.
+To install a specific version, set `RUBY_TARGETS` in your `make.conf`.
 See the [Gentoo Ruby Project website][gentoo-ruby] for details.
 
 
@@ -128,10 +163,10 @@ This should install the latest stable Ruby version.
 {: #homebrew}
 
 Ruby versions 2.0 and above are included by default in macOS releases
-since at least El Capitan (10.11) all the way through Mojave (10.14).
+since at least El Capitan (10.11).
 
 [Homebrew][homebrew] is a commonly used package manager on macOS.
-Installing a Ruby using Homebrew is easy:
+Installing Ruby using Homebrew is easy:
 
 {% highlight sh %}
 $ brew install ruby
@@ -158,14 +193,8 @@ More information about Ruby and its surrounding ecosystem on FreeBSD
 can be found on the [FreeBSD Ruby Project website][freebsd-ruby].
 
 
-### Ruby on Solaris and OpenIndiana
-{: #solaris}
-
-Ruby 1.8.7 is available for Solaris 8 through Solaris 10 on
-[Sunfreeware][sunfreeware] and Ruby 1.8.7 is available at
-[Blastwave][blastwave].
-Ruby 1.9.2p0 is also available at [Sunfreeware][sunfreeware],
-but this is outdated.
+### Ruby on OpenIndiana
+{: #openindiana}
 
 To install Ruby on [OpenIndiana][openindiana], please use the
 Image Packaging System (IPS) client.
@@ -216,7 +245,7 @@ Linux, and other UNIX-like operating systems.
 
 [ruby-install][ruby-install] allows you to compile and install different
 versions of Ruby into arbitrary directories. [chruby](#chruby) is a
-complimentary tool used to switch between Ruby versions. It's available
+complimentary tool used to switch between Ruby versions. It is available
 for macOS, Linux, and other UNIX-like operating systems.
 
 
@@ -299,8 +328,8 @@ $ sudo make install
 By default, this will install Ruby into `/usr/local`.
 To change, pass the `--prefix=DIR` option to the `./configure` script.
 
-You can find more information about building from source in the [Ruby
-README file][readme].
+You can find more information about building from source in the
+[Ruby README file][readme].
 
 Using the third-party tools or package managers might be a better idea,
 though, because the installed Ruby won't be managed by any tools.
@@ -315,8 +344,6 @@ though, because the installed Ruby won't be managed by any tools.
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby

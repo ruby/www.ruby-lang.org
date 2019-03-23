@@ -46,12 +46,12 @@ Quelques liens à visiter:
   arrivants dans la communauté.
 
 Informations générales
-: * [Ruby Central][3]
-  * [Ruby sur le projet Open Directory][4]
-  * [Rails sur le projet Open Directory][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby sur le projet Open Directory][ruby-opendir]
+  * [Rails sur le projet Open Directory][rails-opendir]
 
 
 
-[3]: http://rubycentral.org/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

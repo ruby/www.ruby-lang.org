@@ -33,7 +33,7 @@ différents besoins et plateformes.
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
+  * [macOS](#homebrew)
   * [Solaris, OpenIndiana](#solaris)
   * [Autres Distributions](#other-systems)
 * [Installateurs](#installers)
@@ -123,13 +123,13 @@ $ sudo pacman -S ruby
 La version stable la plus récente de Ruby sera installée.
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Sur OS X Yosemite et Mavericks, Ruby 2.0 est déjà présent.
 OS X Mountain Lion, Lion, et Snow Leopard sont fournis avec Ruby 1.8.7.
 
-Beaucoups sur OS X utilisent [Homebrew][homebrew] comme gestionnaire de paquets.
+Beaucoups sur macOS utilisent [Homebrew][homebrew] comme gestionnaire de paquets.
 Il est très simple d'obtenir une version plus récente de Ruby avec Homebrew :
 
 {% highlight sh %}
@@ -144,7 +144,7 @@ La version la plus récente de Ruby sera installée.
 
 Ruby 1.8.7 est disponible de Solaris 8 à Solaris 10 sur
 [Sunfreeware][sunfreeware] et Ruby 1.8.7 est disponible sur
-[Blastwave][blastwave].
+Blastwave.
 Ruby 1.9.2p0 est aussi disponible sur [Sunfreeware][sunfreeware], mais il est
 obsolète.
 
@@ -189,7 +189,7 @@ pas besoin d'un installateur séparé, il est fourni avec son propre installateu
 compiler et d'installer différentes versions de Ruby dans les répertoires de
 votre choix.
 ruby-build peut aussi être utilisé comme un programme _standalone_, sans rbenv.
-Il est disponible sur les systèmes d'exploitation OS X, Linux, et autres
+Il est disponible sur les systèmes d'exploitation macOS, Linux, et autres
 systèmes basés sur UNIX.
 
 
@@ -200,7 +200,7 @@ systèmes basés sur UNIX.
 version de Ruby dans les répertoires de votre choix.
 Il existe aussi une alternative, [chruby](#chruby), qui gère le basculement
 entre différentes versions de Ruby.
-Il est disponible sur les systèmes d'exploitation OS X, Linux, et autres
+Il est disponible sur les systèmes d'exploitation macOS, Linux, et autres
 systèmes basés sur UNIX.
 
 
@@ -227,7 +227,7 @@ utiliser les installateurs suivants :
   Il est disponible pour OS X et Windows.
 * [Bitnami Ruby Stack][rubystack],
   qui fournit un environnement compet de développement pour Rails.
-  Il est disponible pour OS X, Linux, Windows, les machines virtuelles, et les
+  Il est disponible pour macOS, Linux, Windows, les machines virtuelles, et les
   images pour le cloud.
 
 
@@ -260,7 +260,7 @@ les installations faites à partir des sources.
 [rbenv][rbenv] vous permet de gérer différentes installations de Ruby.
 Il ne permet pas d'installer Ruby, mais il existe un plugin très utilisé
 s'appelant [ruby-build](#ruby-build) qui s'occupe de l'installation de Ruby.
-Tous deux sont disponibles pour les systèmes d'exploitation OS X, Linux, ou
+Tous deux sont disponibles pour les systèmes d'exploitation macOS, Linux, ou
 autres systèmes basés sur UNIX.
 
 
@@ -269,7 +269,7 @@ autres systèmes basés sur UNIX.
 
 [RVM][rvm] vous permet d'installer et de gérer plusieurs installations de Ruby
 sur votre système. Il peut aussi gérer différent gemsets.
-Il est disponible pour les systèmes d'exploitation OS X, Linux, ou autres
+Il est disponible pour les systèmes d'exploitation macOS, Linux, ou autres
 systèmes basés sur UNIX.
 
 
@@ -277,7 +277,7 @@ systèmes basés sur UNIX.
 {: #uru}
 
 [Uru][uru] est un outil en ligne de commande léger et multi-plateforme qui vous
-aide à utiliser différentes installation de Ruby sur les systèmes OS X, Linux,
+aide à utiliser différentes installation de Ruby sur les systèmes macOS, Linux,
 ou Windows.
 
 
@@ -312,7 +312,6 @@ Ruby ne pourront pas être gérées par un gestionnaire de versions.
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

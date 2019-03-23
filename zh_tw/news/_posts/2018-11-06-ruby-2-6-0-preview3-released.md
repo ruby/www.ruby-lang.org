@@ -54,13 +54,21 @@ Ruby 2.6 引入了 `RubyVM::AST` 模組。
 
 * 新增 :exception 選項讓 Kernel.#system 引發錯誤而非回傳 false。[[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
+* 新增 oneshot 模式 [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
+  * 此模式會檢查「每一行原始碼至少被執行一次」，而不是「每行原始碼被執行了幾次」。每行原始碼的 hook 至多被調用一次，並會在調用後將 hook 移除。換句話說，移除後的程式運行時不會有額外的效能開銷。
+  * 爲 `Coverage.start` 方法新增 `:oneshot_lines` 參數。
+  * 爲 `Coverage.result` 方法新增 `:stop` 和 `:clear` 參數。若 `clear` 設爲 true，它會清空計數器。若 `stop` 設爲 true。它會禁用覆蓋測量。
+  * 新增 Coverage.line_stub，其爲原始碼新建覆蓋存根（stub）提供了一個簡單的幫助函式。
+
+* `FileUtils#cp_lr`.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
+
 ## 效能提升
 
 * 提升 `Proc#call`的速度，因為我們不需要再顧慮 `$SAFE` 了。[[Feature #14318]](https://bugs.ruby-lang.org/issues/14318) 透過 `lc_fizzbuzz` 大量使用 `Proc#call` 的測試，我們測得了 1.4 倍效能提升。[[Bug #10212]](https://bugs.ruby-lang.org/issues/10212)
 
 * 提升了當 `block` 為 block 參數時 `block.call` 的效能。[[Feature #14330]](https://bugs.ruby-lang.org/issues/14330) Ruby 2.5 提升了 block 傳遞效能。[[Feature #14045]](https://bugs.ruby-lang.org/issues/14045) 另外，Ruby 2.6 提升了 block 傳遞的呼叫效能。藉由 micro-benchmark 我們測得了 2.6 倍的提升。
 
-* 引入了瞬態堆積（theap）。[Bug #14858] [Feature #14989] teap 是用來管理短生命週期的指向特定類別（Array, Hash, Object 和 Struct）指標的堆積。舉例來說，新建小而短生命週期的 Hash 物件的效能提升了 2x。藉由 rdoc benchmark，我們測得了 6%-7% 的效能提升。
+* 引入了瞬態堆積（theap）。[[Bug #14858](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]]((https://bugs.ruby-lang.org/issues/14989)) teap 是用來管理短生命週期的指向特定類別（Array、Hash、Object 和 Struct）指標的堆積。舉例來說，新建小而短生命週期的 Hash 物件的效能提升了 2x。藉由 rdoc benchmark，我們測得了 6%-7% 的效能提升。
 
 ## 自 2.5 起重要的變化
 

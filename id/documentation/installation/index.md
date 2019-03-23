@@ -32,7 +32,7 @@ sesuai kebutuhan dan *platform* tertentu.
   * [CentOS, Fedora, RHEL](#yum)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
-  * [OS X](#homebrew)
+  * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
   * [Solaris, OpenIndiana](#solaris)
   * [Other Distributions](#other-systems)
@@ -120,13 +120,13 @@ $ sudo pacman -S ruby
 Ini semestinya memasang versi Ruby terbaru.
 
 
-### Homebrew (OS X)
+### Homebrew (macOS)
 {: #homebrew}
 
 Pada OS X Yosemite dan Mavericks, Ruby 2.0 sudah tersedia.
 OS X Mountain Lion, Lion, dan Snow Leopard terisi dengan Ruby 1.8.7.
 
-Banyak pengguna OS X menggunakan [Homebrew][homebrew] sebagai *package manager*.
+Banyak pengguna macOS menggunakan [Homebrew][homebrew] sebagai *package manager*.
 Hal ini sangat mudah untuk mendapatkan versi terbaru menggunakan Homebrew:
 
 {% highlight sh %}
@@ -159,7 +159,7 @@ dapat ditemukan di [FreeBSD Ruby Project website][freebsd-ruby].
 
 Ruby 1.8.7 tersedia untuk Solaris 8 hingga Solaris 10 di
 [Sunfreeware][sunfreeware] dan Ruby 1.8.7 tersedia di
-[Blastwave][blastwave].
+Blastwave.
 Ruby 1.9.2p0 juga tersedia di [Sunfreeware][sunfreeware],
 namun sudah tidak diperbarui lagi.
 
@@ -202,7 +202,7 @@ Jika Anda sedang merencanakan untuk mengunakan [RVM](#rvm) sebagai *version mana
 memperbolehkan Anda untuk mengkompilasi dan memasang versi Ruby yang berbeda
 ke dalam *directory* pilihan Anda.
 ruby-build juga dapat digunakan sebagai *standalone program* tanpa rbenv.
-ruby-build tersedia untuk OS X, Linux, dan sistem operasi UNIX-like lainnya.
+ruby-build tersedia untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
 
 
 ### ruby-install
@@ -212,7 +212,7 @@ ruby-build tersedia untuk OS X, Linux, dan sistem operasi UNIX-like lainnya.
 versi Ruby yang berbeda ke dalam *directory* pilihan Anda.
 Ini juga ada saudaranya, [chruby](#chruby), yang menangani perpindahan antar
 versi Ruby.
-ruby-install tersedia untuk OS X, Linux, dan sistem operasi UNIX-like lainnya.
+ruby-install tersedia untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
 
 
 ### RubyInstaller
@@ -237,7 +237,7 @@ Anda dapat menggunakan *installer* berikut:
   RailsInstaller mendukung OS X dan Windows.
 * [Bitnami Ruby Stack][rubystack],
   yang mana menyediakan *development environment* lengkap untuk Rails.
-  Bitnami Ruby Stack mendukung OS X, Linux, Windows, *virtual machines*, dan *cloud images*.
+  Bitnami Ruby Stack mendukung macOS, Linux, Windows, *virtual machines*, dan *cloud images*.
 
 
 ## Managers
@@ -262,7 +262,7 @@ atau bahkan dari kode sumber.
 [rbenv][rbenv] memperbolehkan Anda untuk mengatur banyak instalasi Ruby.
 rbenv tidak mendukung instalasi Ruby, tetapi ada sebuah *plugin* populer
 yang bernama [ruby-build](#ruby-build) untuk memasang Ruby.
-Kedua kakas bantu ini tersedia untuk OS X, Linux, atau sistem operasi UNIX-like lainnya.
+Kedua kakas bantu ini tersedia untuk macOS, Linux, atau sistem operasi UNIX-like lainnya.
 
 
 ### RVM ("Ruby Version Manager")
@@ -270,14 +270,14 @@ Kedua kakas bantu ini tersedia untuk OS X, Linux, atau sistem operasi UNIX-like 
 
 [RVM][rvm] memperbolehkan Anda untuk memasang dan mengatur banyak instalasi Ruby
 pada sistem Anda. RVM juga dapat mengatur *gemsets* yang berbeda.
-RVM tersedi untuk OS X, Linux, dan sistem operasi UNIX-like lainnya.
+RVM tersedi untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
 
 
 ### uru
 {: #uru}
 
 [Uru][uru] adalah sebuah *command line tool* yang ringan dan mendukung banyak *platform* yang membantu Anda
-untuk menggunakan banyak versi Ruby pada sistem operasi OS X, Linux, atau Windows.
+untuk menggunakan banyak versi Ruby pada sistem operasi macOS, Linux, atau Windows.
 
 
 ## Membangun dari Kode Sumber
@@ -309,7 +309,6 @@ karena Ruby yang terpasang tidak akan diatur oleh kakas apapun.
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

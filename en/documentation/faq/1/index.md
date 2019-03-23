@@ -55,13 +55,13 @@ Ruby features:
 
 * Simple syntax,
 * Basic OO features (classes, methods, objects, and so on),
-* Special OO features (mixins, singleton methods, renaming, ...),
+* Special OO features (mixins, singleton methods, renaming, and so on),
 * Operator overloading,
 * Exception handling,
 * Iterators and closures,
 * Garbage collection,
 * Dynamic loading (depending on the architecture),
-* High transportability (runs on various Unices, Windows, DOS, OS X, OS/2,
+* High transportability (runs on various Unices, Windows, DOS, macOS, OS/2,
   Amiga, and so on).
 
 ### Show me some Ruby code!

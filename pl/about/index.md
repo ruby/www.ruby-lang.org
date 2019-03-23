@@ -182,7 +182,7 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
   czy sama platforma wspiera wątki, można ich używać nawet w MS-DOS!
 
 * Ruby jest bardzo przenośny: rozwijany głównie na platformie GNU/Linux,
-  ale może być używany na wielu typach UNIXów, Mac OS X,
+  ale może być używany na wielu typach UNIXów, macOS,
   Windows, DOS, BeOS, OS/2, itd.
 
 ### Inne implementacje Rubiego
@@ -201,8 +201,6 @@ Tu jest lista:
 * [Rubinius][rubinius] jest ‘Rubim napisanym w Rubim’. Zbudowanym na szczycie LLVM,
   Rubinius ukazuje sprytną maszynę wirtualną na bazie której budowane są inne
   języki.
-* [MacRuby][macruby] jest Rubim ściśle zintegrowanym z bibliotekami Cocoa Apple
-  dla Mac OS X, umożliwiając łatwe pisanie desktopowych aplikacji.
 * [mruby][mruby] jest lekką implementacją języka Ruby, która może być połączona
   i osadzona w aplikacji.
 +  Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
@@ -234,7 +232,6 @@ Tu jest lista:
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
-[macruby]: http://www.macruby.org
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

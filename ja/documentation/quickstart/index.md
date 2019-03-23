@@ -31,7 +31,7 @@ Rubyの処理系には、入力したRubyの文を実行して結果を出力す
 
 IRBを立ち上げましょう(IRBはInteractive Rubyの略です)。
 
-* **Mac OS X** をお使いの場合、`Terminal`を立ち上げて`irb`と入力し、enterキーを押して下さい。
+* **macOS** をお使いの場合、`Terminal`を立ち上げて`irb`と入力し、enterキーを押して下さい。
 * **Linux** をお使いの場合、shellを立ち上げて`irb`と入力し、enterキーを押して下さい。
 * **Windows** をお使いの場合、スタートメニューのRubyから`Interactive Ruby`を起動してください。
 

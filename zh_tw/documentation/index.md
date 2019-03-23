@@ -7,10 +7,14 @@ lang: zh_tw
 當想要寫 Ruby 程式時，這裡是一些可以幫上忙的入門教學、學習手冊和參考文件：
 {: .summary}
 
+### 安裝 Ruby
+
+儘管可以輕鬆的[在瀏覽器試玩 Ruby ][1]，你還是可以閱讀[安裝指南](installation/)來幫助你安裝 Ruby。
+
 ### 入門
 
-[試玩 Ruby！][1]
-: 針對新手的互動式教學。讓你可以在瀏覽器中試玩 Ruby，體驗用 Ruby 寫程式的感受。
+[官方 FAQ](/en/documentation/faq/)
+: 官方常見問題與解答。
 
 [Ruby Koans][2]
 : Ruby Koans 導引你走上學習 Ruby 的啟蒙之路。可以學到 Ruby 語言、語法、結構、常用函數與函式庫。
@@ -19,12 +23,6 @@ lang: zh_tw
 [Why’s (Poignant) Guide to Ruby][5]
 : 非比尋常但玩味無窮的書，透過故事、幽默與漫畫來教會你 Ruby。由 *why the lucky
   stiff* 創作，本書是學習 Ruby 的經典大作。
-
-[二十分鐘 Ruby 體驗](/zh_tw/documentation/quickstart/)
-: 一份不錯的 Ruby 入門體驗，從開始到結束應該不花你二十分鐘。
-
-[從其他語言到 Ruby](/zh_tw/documentation/ruby-from-other-languages/)
-: 已經熟悉其他程式語言? 不論是 C、C++、Java、Perl、PHP 或是 Python，這裡都有介紹！
 
 [Learning Ruby][6]
 : 蒐集了許多 Ruby 上手的經驗談，紮實的介紹了 Ruby 的概念與如何建構 Ruby 程式。
@@ -51,11 +49,17 @@ lang: zh_tw
 
 ### 參考文件
 
+[Official API Documentation][docs-rlo-en]
+: 各種版本的 Ruby 官方 API 文件，包含當前未釋出的版本（trunk）。
+
 [Ruby Core Reference][13]
 : 直接從原始碼拉出來的 [RDoc][14] 文件，包括所有的核心類別和模組(例如 String、Array、Symbol 等)。
 
 [Ruby Standard Library Reference][15]
 : 也是從從原始碼拉出來的 RDoc 文件，記載了 Ruby 的標準函式庫。
+
+[Ruby C API Reference][extensions]
+: 官方 Ruby 的 C API 介紹文件，有助於你撰寫 C 擴充程式或是貢獻到 Ruby 的開發。
 
 [RubyDoc.info][16]
 : 一站式站點，擁有 RubyGems 與 GitHub 上托管的 Ruby 專案的文件。
@@ -83,18 +87,17 @@ lang: zh_tw
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][atom]
+  * [Visual Studio Code][vscode]
 
 * Windows 作業系統：
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
-* Mac OS X 作業系統：
+* macOS 作業系統：
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] （瀏覽文件用）
-  * [Atom][atom]
 
 ### 進階閱讀
 
@@ -115,6 +118,7 @@ lang: zh_tw
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
+[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
@@ -139,7 +143,9 @@ lang: zh_tw
 [37]: http://www.sublimetext.com/
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
+[docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
+[vscode]: https://code.visualstudio.com/
 
 [rubytw]: http://ruby.tw
 [ruby-user-guide-zh_tw]: http://guides.ruby.tw/ruby/

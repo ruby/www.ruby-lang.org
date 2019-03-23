@@ -1,14 +1,14 @@
 class MarkupChecker
 
   # Validate _site markup with validate-website
-  def check(host:)
-    url = "https://#{host}/"
-
+  def check
     Dir.chdir("_site") do
-      system("validate-website-static",
-               "--verbose",
-               "--exclude", "examples",
-               "--site", "#{url}")
+      system(
+        "validate-website-static",
+        "--verbose",
+        "--exclude", "examples"
+      )
+
       exit($?.exitstatus)
     end
   end

@@ -124,18 +124,17 @@ programadores Ruby:
   * [NetBeans][36]
   * [Sublime Text][37]
   * [Atom][atom]
+  * [Visual Studio Code][vscode]
 
 * No Windows:
   * [Notepad++][29]
   * [E-TextEditor][30]
   * [Ruby In Steel][31]
-  * [Atom][atom]
 
-* No Mac OS X:
+* No macOS:
   * [TextMate][32]
   * [TextWrangler][33]
   * [Dash][39] (navegador de documentação)
-  * [Atom][atom]
 
 ### Leitura Complementar
 
@@ -184,3 +183,4 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [38]: http://ruby.learncodethehardway.org/
 [39]: http://kapeli.com/dash
 [atom]: https://atom.io/
+[vscode]: https://code.visualstudio.com/

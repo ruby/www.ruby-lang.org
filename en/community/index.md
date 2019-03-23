@@ -31,7 +31,7 @@ to start:
 : Now is a fantastic time to follow Ruby’s development.
   If you are interested in helping with Ruby, start here.
 
-[Weblogs About Ruby](weblogs/)
+[Ruby Blogs](weblogs/)
 : Very little happens in the Ruby community that is not talked about on
   the blogs. We’ve got a nice list of suggestions for you here for
   getting plugged in.
@@ -42,13 +42,18 @@ to start:
   work-in-progress, discuss the future of Ruby, and welcome newcomers to
   the Ruby community.
 
+[Podcasts](podcasts/)
+: If you like to hear about Ruby rather than read about you can listen
+  to podcasts which cover new Ruby or gem releases, interviews and
+  discussions between Ruby programmers, contributors, and maintainers.
+
 General Ruby Information
-: * [Ruby Central][3]
-  * [Ruby at Open Directory Project][4]
-  * [Rails at Open Directory Project][5]
+: * [Ruby Central][ruby-central]
+  * [Ruby at Open Directory Project][ruby-opendir]
+  * [Rails at Open Directory Project][rails-opendir]
 
 
 
-[3]: http://rubycentral.org/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

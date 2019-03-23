@@ -32,7 +32,7 @@ like this is a terrific way to learn the language.
 
 Open up IRB (which stands for Interactive Ruby).
 
-* If you’re using **Mac OS X** open up `Terminal` and type `irb`, then
+* If you’re using **macOS** open up `Terminal` and type `irb`, then
   hit enter.
 * If you’re using **Linux**, open up a shell and type `irb` and hit
   enter.

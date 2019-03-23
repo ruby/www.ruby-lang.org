@@ -53,12 +53,12 @@ başlangıç önerisi var:
   gelenlerle kaynaşıyorlar.
 
 Genel Ruby Kaynakları
-: * [Ruby Central][3]
-  * [Açık Dizin Projesinde Ruby][4]
-  * [Açık Dizin Projesinde Rails][5]
+: * [Ruby Central][ruby-central]
+  * [Açık Dizin Projesinde Ruby][ruby-opendir]
+  * [Açık Dizin Projesinde Rails][rails-opendir]
 
 
 
-[3]: http://rubycentral.org/
-[4]: http://dmoz.org/Computers/Programming/Languages/Ruby/
-[5]: http://dmoz.org/Computers/Programming/Languages/Ruby/Software/Rails/
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

@@ -35,7 +35,7 @@ de [Shakespeare][2].
 
 Une première approche de Ruby, la plus simple, consiste à utiliser IRB (*Interactive Ruby*) dans un terminal :
 
-* si vous utilisez **Mac OS X**, ouvrez un `Terminal` et tapez `irb`,
+* si vous utilisez **macOS**, ouvrez un `Terminal` et tapez `irb`,
   puis appuyez sur \[Entrée\] ;
 * si vous êtes sous **Linux**, ouvrez une console et tapez `irb`, puis
   appuyez sur \[Entrée\] ;
