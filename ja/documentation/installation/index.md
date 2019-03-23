@@ -29,7 +29,7 @@ lang: ja
 
 * Windows
 
-  * [WSL](#wsl)
+  * [WSL](#apt-wsl)
   * [ActiveScriptRuby](#activescriptruby)
   * [RubyInstaller](#rubyinstaller)
   * [RailsInstaller](#railsinstaller)
@@ -66,13 +66,6 @@ RVM は複数の Ruby のインストールと管理を行うことができま�
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
 
-### WSL ("Windows Subsystem for Linux")
-{: #wsl }
-
-WSLを使うとWindows上でLinux環境をインストールすることができます。インストールしたLinux上で、前述の [rbenv](#rbenv) や後述のパッケージ管理システム [apt](#apt) など、Linux/UNIX向けツールを利用することでRuby開発環境を構築できます。
-
-WSLをインストールする方法は [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) のページに書かれています。
-
 ### ActiveScriptRuby
 {: #activescriptruby }
 
@@ -108,6 +101,7 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 このページには以下のパッケージマネージャが記述されています。
 
 * [apt (Debian or Ubuntu)](#apt)
+* [apt (Windows WSL Ubuntu)](#apt-wsl)
 * [yum (CentOS, Fedora, or RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
@@ -127,6 +121,12 @@ $ sudo apt-get install ruby
 
 これを書いている時点では、 Debian と Ubuntu の `ruby` パッケージは古い Ruby 2.3.1 を提供しています。
 
+### apt (Windows WSL Ubuntu)
+{: #apt-wsl }
+
+WSL(Windows Subsystem for Linux)を使うとWindows上でLinux環境をインストールすることができます。インストールしたLinux上で、前述の [rbenv](#rbenv) やパッケージ管理システム [apt](#apt) など、Linux/UNIX向けツールを利用することでRuby開発環境を構築できます。
+
+WSLをインストールする方法は [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) のページに書かれています。
 
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
