@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby 2.6.2 Released"
+title: "루비 2.6.2 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2019-03-13 11:30:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.6.2 has been released.
+루비 2.6.2가 릴리스 되었습니다.
 
-This release includes bug fixes and a security update of the bundled RubyGems.
+이 릴리스는 루비에 포함된 RubyGems의 보안 취약점 수정과 버그 수정을 포함합니다.
 
-See details in [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
-and the [commit logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
+자세한 설명은 [RubyGems의 취약점 다수 발견](/ko/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)과
+[커밋 로그](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2)를 확인해주세요.
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.2.tar.gz>
 
@@ -44,8 +44,8 @@ and the [commit logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
       SHA256: 91fcde77eea8e6206d775a48ac58450afe4883af1a42e5b358320beb33a445fa
       SHA512: 13f7d7b483a037378eac4bf4bebddc21d69f4e19e6bbb397dd53e7518037ae9a3aa5b41fc20bf1fe410803c6efc3a6a65a65af47648d3a93713f75cfe885326a
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped
-us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 신고해 준 사용자들이 이 릴리스를 만드는 데 도움을
+주었습니다.
+그들의 기여에 감사드립니다.

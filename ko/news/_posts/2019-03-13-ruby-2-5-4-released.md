@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 2.5.4 Released"
+title: "루비 2.5.4 릴리스"
 author: "nagachika"
-translator:
+translator: "shia"
 date: 2019-03-13 11:30:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.5.4 has been released.
+루비 2.5.4가 릴리스 되었습니다.
 
-This release includes bug fixes and a security update of the bundled RubyGems.
-See details in [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
-and the [commit logs](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
+이 릴리스는 루비에 포함된 RubyGems의 보안 취약점 수정과 버그 수정을 포함합니다.
+자세한 설명은 [RubyGems의 취약점 다수 발견](/ko/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)과
+[커밋 로그](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4)를 확인해주세요.
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.4.tar.bz2>
 
@@ -43,8 +43,8 @@ and the [commit logs](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
       SHA256: 823a6a2c9c7baa18554fd78d430837a01ab33cc16ad1759c9842bdd9523e9cea
       SHA512: a83f90514b09c217fbbd154cfc09c804553353a97cbff7df24185b613e1c7be69a965fe9ec925ac3f4bd6170f2c3d0d60be7ea4ab1037ce64300d7443b6e08e8
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped
-us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 신고해 준 사용자들이 이 릴리스를 만드는 데 도움을
+주었습니다.
+그들의 기여에 감사드립니다.
