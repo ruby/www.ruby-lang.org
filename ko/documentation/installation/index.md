@@ -40,7 +40,7 @@ ruby -v
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
   * [ruby-build](#ruby-build)
@@ -173,12 +173,8 @@ FreeBSD 상의 루비와 그 환경에 대해서 더 자세한 정보는
 [FreeBSD Ruby Project 웹사이트][freebsd-ruby]에서 얻을 수 있습니다.
 
 
-### Solaris와 OpenIndiana에서의 루비
-{: #solaris}
-
-Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
-Blastwave에서 루비 1.8.7을 사용 가능합니다.
-[Sunfreeware][sunfreeware]에서 루비 1.9.2p0을 사용 가능하지만, 이는 구 버전입니다.
+### OpenIndiana에서의 루비
+{: #openindiana}
 
 [OpenIndiana][openindiana]에서 루비를 설치하려면,
 Image Packaging System (IPS) 클라이언트를 사용해 주십시오.
@@ -321,7 +317,6 @@ $ sudo make install
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
