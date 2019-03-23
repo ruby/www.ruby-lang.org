@@ -10,46 +10,45 @@ banyak hal mulai dari berbagi pengalaman, *source code*, teknik-teknik
 baru yang menarik, dan membahas masa depan Ruby.
 {: .summary}
 
+### Menggali Ruby Blogs
+
+* [**RubyFlow**][rubyflow], "the Ruby and Rails community linklog",
+  adalah sebuah laman berita Ruby dengan *link-link* pustaka, *blog post*,
+  tutorial, dan sumber Ruby lainnya.
+* [**Rubyland**][rubyland] mengumpulkan berita dan *blog post* Ruby
+  dari umpan RSS.
+
 ### Blog Ternama
 
-Beberapa blog cukup terkenal karena jumlah dan frekuensi *update* yang
+Beberapa blog ternama karena frekuensi dan kecepatan pembaruan yang
 signifikan.
 
-* [**World of Ruby Indonesia**][9]. Blog khusus Ruby berbahasa Indonesia
-  ini diasuh oleh Arie Kusuma Atmaja, beliau adalah seorang pionir Ruby
-  di Indonesia.
-* [**Twitter Ruby Indonesia**][10] merupakan layanan microblogging Ruby
-  berbahasa Indonesia.
-* [**O’Reilly Ruby**][11] merupakan blog kelompok yang berisi berbagai
-  tutorial dan interview mengenai Ruby.
-* [**Riding Rails**][12] adalah blog resmi dari tim Ruby on Rails.
+* [**Ruby Weekly**][ruby-weekly]: Meskipun lebih banyak buletin ketimbang
+  blog, Ruby Weekly adalah distilasi dari artikel dan berita Ruby yang
+  paling menarik setiap minggu.
+* [**Riding Rails**][riding-rails] adalah blog resmi dari tim Ruby on Rails.
   Apabila Anda mengembangkan aplikasi Rails, blog ini sangat penting
-  untuk mendapatkan *update* terbaru di dunia Ruby on Rails.
-* [**Ruby Inside**][13] mengumumkan berbagi aplikasi dan *library*
-  terbaru dari seluruh dunia, untuk Ruby dan juga Rails.
-* [**Matz’ Blog**][14] adalah blog berbahasa Jepang yang ditulis oleh
-  sang pembuat Ruby. Meskipun Anda mungkin tidak bisa membaca
-  keseluruhan isinya, minimal Anda bisa merasa senang bahwa beliau masih
-  aktif!
+  untuk mendapatkan pembaruan keamanan dan gambaran keseluruhan dari
+  komunitas Rails.
+* [**Twitter Ruby Indonesia**][ruby-id-twitter] merupakan layanan microblogging
+  Ruby berbahasa Indonesia.
 
 ### Dari Mulut ke Mulut
 
-Anda bisa juga menghubungi blog-blog yang disebutkan di atas,
-apabila blog Anda mencakup topik yang relevan. (Tentu saja, apabila blog
-Anda tidak berhubungan dengan Rails, maka tim *Riding Rails* tidak akan
-tertarik—tapi mungkin saja sebaliknya.)
+Jika Anda tertarik menulis untuk salah satu blog di atas, Anda bisa
+menghubungi penulis.
 
-Ruby juga merupakan topik yang sering diangkat di
-[Slashdot][17], di bagian *programming*. Apabila Anda menemukan sesuatu
-yang menarik mengenai Ruby, pastikan menyumbangkannya ke situs-situs
+Ruby juga merupakan topik yang sering dibicarakan pada [reddit][reddit]
+dan [Hacker News][hn], di berita pemrograman. Apabila Anda menemukan
+kode yang brilian di luar sana, pastikan menyumbangkannya ke laman-laman
 tersebut!
 
 
 
-[9]: http://ariekusumaatmaja.wordpress.com/
-[10]: https://twitter.com/id_ruby
-[11]: http://oreillynet.com/ruby/
-[12]: http://weblog.rubyonrails.org/
-[13]: http://www.rubyinside.com/
-[14]: http://www.rubyist.net/~matz/
-[17]: http://developers.slashdot.org/
+[rubyflow]: http://www.rubyflow.com/
+[rubyland]: http://rubyland.news/
+[ruby-weekly]: https://rubyweekly.com/
+[riding-rails]: http://weblog.rubyonrails.org/
+[ruby-id-twitter]: https://twitter.com/id_ruby
+[reddit]: http://www.reddit.com/r/ruby
+[hn]: http://news.ycombinator.com/
