@@ -78,9 +78,6 @@ Debian GNU/Linux와 Ubuntu는 apt 패키지 관리 시스템을 사용합니다.
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-글을 쓰는 시점에서, `ruby-full` 패키지는 루비 2.3.1을 설치합니다.
-이 버전은 Debian이나 Ubuntu의 오래된 안정 버전입니다.
-
 
 ### yum (CentOS, Fedora, RHEL)
 {: #yum}
@@ -122,8 +119,6 @@ Gentoo는 portage 패키지 관리자를 사용합니다.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-기본적으로, 이 명령어는 1.9와 2.0 버전을 설치하려 하지만, 더 많은 버전도
-사용할 수 있습니다.
 특정 버전을 설치하려면, `make.conf`에 `RUBY_TARGETS`를 설정하세요.
 더 자세한 정보는 [Gentoo 루비 프로젝트 웹 사이트][gentoo-ruby]를 확인하세요.
 
