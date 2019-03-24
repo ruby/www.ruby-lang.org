@@ -43,6 +43,11 @@ lang: ko
   콘퍼런스에서는 루비에서 작업 중인 내용의 공유, 루비의 미래에 대한 토론, 루비
   커뮤니티의 뉴비의 환영 등을 함께합니다.
 
+[Podcasts](podcasts/)
+: If you like to hear about Ruby rather than read about you can listen
+  to podcasts which cover new Ruby or gem releases, interviews and
+  discussions between Ruby programmers, contributors, and maintainers.
+
 일반적인 루비 정보(영문)
 : * [Ruby Central][ruby-central]
   * [Ruby at Open Directory Project][ruby-opendir]
