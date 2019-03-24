@@ -43,10 +43,9 @@ lang: ko
   콘퍼런스에서는 루비에서 작업 중인 내용의 공유, 루비의 미래에 대한 토론, 루비
   커뮤니티의 뉴비의 환영 등을 함께합니다.
 
-[Podcasts](podcasts/)
-: If you like to hear about Ruby rather than read about you can listen
-  to podcasts which cover new Ruby or gem releases, interviews and
-  discussions between Ruby programmers, contributors, and maintainers.
+[팟캐스트](podcasts/)
+: 루비에 대해 듣고 싶다면 새 루비나 젬 릴리스, 인터뷰와 더불어 루비
+  프로그래머, 기여자, 메인테이너 간의 토론을 다루는 팟캐스트를 들어보세요.
 
 일반적인 루비 정보(영문)
 : * [Ruby Central][ruby-central]
