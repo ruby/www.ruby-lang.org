@@ -26,6 +26,7 @@ Please try to use a mirror that is near you.
 * [France][mirror-http-fr] (cyberbits.eu)
 * [China 1][mirror-http-cn1] (ruby.taobao.org)
 * [China 2][mirror-http-cn2] (Ruby China)
+* [South Korea][mirror-http-kr] (Korea FreeBSD Users Group)
 
 ### Mirror sites via FTP
 
@@ -43,6 +44,7 @@ Please try to use a mirror that is near you.
 ### Mirror sites via rsync
 
 * [France][mirror-rsync-fr] (cyberbits.eu)
+* [South Korea][mirror-rsync-kr] (Korea FreeBSD Users Group)
 
 [mirror-https-cdn]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-http-jp-ring-shibaura-it]: http://ring.shibaura-it.ac.jp/archives/lang/ruby/
@@ -55,6 +57,7 @@ Please try to use a mirror that is near you.
 [mirror-http-fr]: https://mirror.cyberbits.eu/ruby/
 [mirror-http-cn1]: https://ruby.taobao.org/mirrors/ruby/
 [mirror-http-cn2]: https://cache.ruby-china.com/pub/ruby/
+[mirror-http-kr]: http://ftp.kr.freebsd.org/pub/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-u-toyama]: ftp://ring.u-toyama.ac.jp/pub/lang/ruby/
 [mirror-ftp-jp-ring-airnet]: ftp://ring.airnet.ne.jp/pub/lang/ruby/
@@ -65,3 +68,4 @@ Please try to use a mirror that is near you.
 [mirror-ftp-gr]: ftp://ftp.ntua.gr/pub/lang/ruby/
 [mirror-ftp-at]: ftp://gd.tuwien.ac.at/languages/ruby/
 [mirror-rsync-fr]: rsync://rsync.cyberbits.eu/ruby/
+[mirror-rsync-kr]: rsync://rsync.kr.freebsd.org/ruby/
