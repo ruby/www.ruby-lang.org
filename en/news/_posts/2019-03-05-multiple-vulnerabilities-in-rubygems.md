@@ -22,10 +22,11 @@ The following vulnerabilities have been reported.
 * CVE-2019-8324: Installing a malicious gem may lead to arbitrary code execution
 * CVE-2019-8325: Escape sequence injection vulnerability in errors
 
-It is strongly recommended for Ruby users to take one of the following workarounds as soon as possible.
+It is strongly recommended for Ruby users to upgrade your Ruby installation or take one of the following workarounds as soon as possible.
 
 ## Affected Versions
 
+* Ruby 2.3 series: all
 * Ruby 2.4 series: 2.4.5 and earlier
 * Ruby 2.5 series: 2.5.3 and earlier
 * Ruby 2.6 series: 2.6.1 and earlier
@@ -33,7 +34,8 @@ It is strongly recommended for Ruby users to take one of the following workaroun
 
 ## Workarounds
 
-RubyGems 2.7.6.2/2.7.9/3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version.
+In principle, you should upgrade your Ruby installation to the latest version.
+RubyGems 3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version if you can’t upgrade Ruby itself.
 
 ```
 gem update --system
@@ -55,3 +57,4 @@ This report is based on [the official blog of RubyGems](http://blog.rubygems.org
 
 * Originally published at 2019-03-05 00:00:00 UTC
 * Link to updated patches at 2019-03-06 05:26:27 UTC
+* Mention about upgrading Ruby itself at 2019-04-01 06:00:00 UTC
