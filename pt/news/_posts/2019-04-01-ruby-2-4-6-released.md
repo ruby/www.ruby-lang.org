@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Lnaçado Ruby 2.4.6"
+title: "Lançado Ruby 2.4.6"
 author: "usa"
 translator: "jcserracampos"
 date: 2019-04-01 06:00:00 +0000
