@@ -10,13 +10,13 @@ class Greeter
   end
 
   def salute
-    puts "Hello #{@name}!"
+    puts "Привет, #{@name}!"
   end
 end
 
 # Создаем новый объект
-g = Greeter.new("world")
+g = Greeter.new("мир")
 
-# Результат будет "Hello World!"
+# Результат будет "Привет, Мир!"
 g.salute
 {% endhighlight %}
