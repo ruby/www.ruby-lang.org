@@ -34,6 +34,7 @@ Berikut adalah daftar metode instalasi yang tersedia:
 
 * [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
+  * [Windows WSL Ubuntu](#apt-wsl)
   * [CentOS, Fedora, RHEL](#yum)
   * [Snap](#snap)
   * [Gentoo](#portage)
@@ -81,6 +82,26 @@ Anda dapat menggunakannya sebagai berikut:
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
+
+
+### apt (Windows WSL Ubuntu)
+{: #apt-wsl}
+
+Jika Anda menggunakan Windows 10, Anda dapat menggunakan sistem operasi
+Linux Ubuntu dengan WSL. Dan Anda juga dapat menggunakan Ruby dengan apt.
+
+Ada sebuah informasi tentang bagaimana memasang WSL:
+
+[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+Anda dapat menggunakan apt yang sama pada sistem operasi Linux sebagai
+berikut:
+
+{% highlight sh %}
+$ sudo apt-get install ruby-full
+{% endhighlight %}
+
+atau Anda juga dapat menggunakan Ruby *manager*, seperti rbenv pada WSL.
 
 
 ### yum (CentOS, Fedora, atau RHEL)
