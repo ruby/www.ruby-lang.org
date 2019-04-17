@@ -10,7 +10,7 @@ lang: en
 Ruby 2.6.3 has been released.
 
 This release adds support for New Japanese Era "令和" (Reiwa).
-It updates the Unicode version to 12.1 beta ([#15195](https://bugs.ruby-lang.org/issues/15195), and updates date library ([#15742](https://bugs.ruby-lang.org/issues/15742).
+It updates the Unicode version to 12.1 beta ([#15195](https://bugs.ruby-lang.org/issues/15195)), and updates date library ([#15742](https://bugs.ruby-lang.org/issues/15742)).
 
 This release also includes some bug fixes.
 See details [commit logs](https://github.com/ruby/ruby/compare/v2_6_2...v2_6_3).
