@@ -10,7 +10,7 @@ lang: ja
 Ruby 2.6.3 がリリースされました。
 
 このリリースでは日本の新元号「令和」のサポートを追加しています。
-具体的には Unicode のバージョンを 12.1 beta に更新する ([#15195](https://bugs.ruby-lang.org/issues/15195) とともに、date ライブラリを更新しています ([#15742](https://bugs.ruby-lang.org/issues/15742)。
+具体的には Unicode のバージョンを 12.1 beta に更新する ([#15195](https://bugs.ruby-lang.org/issues/15195)) とともに、date ライブラリを更新しています ([#15742](https://bugs.ruby-lang.org/issues/15742))。
 
 その他いくつかの不具合修正も含まれます。詳細は [commit log](https://github.com/ruby/ruby/compare/v2_6_2...v2_6_3) を参照してください。
 
