@@ -47,7 +47,7 @@ If you can't upgrade RubyGems, you can apply the following patches as a workarou
 * [for Ruby 2.5.3](https://bugs.ruby-lang.org/attachments/7670)
 * [for Ruby 2.6.1](https://bugs.ruby-lang.org/attachments/7671)
 
-About the trunk, update to the latest revision.
+Regarding Ruby trunk, update to the latest revision.
 
 ## Credits
 
