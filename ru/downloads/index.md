@@ -73,4 +73,4 @@ lang: ru
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
-[rubyinstaller]: https://rubyinstaller.org/
+[rubyinstaller]: https://rubyinstaller.ru/
