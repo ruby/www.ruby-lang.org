@@ -284,7 +284,7 @@ $ sudo make install
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
-[rubyinstaller]: https://rubyinstaller.org/
+[rubyinstaller]: https://rubyinstaller.ru/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
