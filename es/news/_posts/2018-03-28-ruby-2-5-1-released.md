@@ -56,4 +56,3 @@ Puedes ver [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_5_1) p
 
 Varios autores, desarrolladores, y usuarios que enviaron reportes de errores ayudaron a hacer esta entrega.
 Gracias por sus contribuciones.
-

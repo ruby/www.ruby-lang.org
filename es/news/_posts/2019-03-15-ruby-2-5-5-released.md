@@ -7,7 +7,7 @@ date: 2019-03-15 02:00:00 +0000
 lang: es
 ---
 
-Se ha publicado Ruby 2.5.5
+Se ha publicado Ruby 2.5.5.
 
 Esta versión incluye la corrección a una falla que lleva a un punto muerto (deadlock) en
 aplicaciones multi-proceso o multi-hilos (que usan `Process.fork`), como por ejemplo Puma.
