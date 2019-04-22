@@ -1,30 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 2.4.6 Released"
+title: "루비 2.4.6 릴리스"
 author: "usa"
-translator:
+translator: "yous"
 date: 2019-04-01 06:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.4.6 has been released.
+루비 2.4.6이 릴리스되었습니다.
 
-This release includes about 20 bug fixes after the previous release, and also includes several security fixes.
-Please check the topics below for details.
+이 릴리스는 지난 릴리스 이후로 약 20개의 버그 수정과 몇 개의 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
+* [RubyGems의 취약점 다수 발견](/ko/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
 
-See the [commit log](https://github.com/ruby/ruby/compare/v2_4_5...v2_4_6) for details.
+자세한 내용은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_4_5...v2_4_6)를 확인해주세요.
 
-After this release, we will end the normal maintenance phase of Ruby 2.4,
-and start the security maintenance phase of it.
-This means that after the release of 2.4.6 we will never backport any bug fixes
-to 2.4 except security fixes.
-The term of the security maintenance phase is scheduled for 1 year.
-By the end of this term, official support of Ruby 2.4 will be over.
-Therefore, we recommend that you start planning to upgrade to Ruby 2.6 or 2.5.
+이 릴리스 이후로 루비 2.4의 일반 유지보수는 종료되고, 보안 유지보수 단계가 시작됩니다.
+2.4.6의 릴리스 이후로 보안 수정을 제외한 어떤 버그 수정도 2.4로 백포트되지 않습니다.
+보안 유지보수 단계의 기간은 1년으로 계획되어 있습니다.
+이 기간이 끝나면 루비 2.4의 공식 지원은 종료됩니다.
+루비 2.6이나 2.5로 업그레이드할 계획을 세우길 바랍니다.
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.6.tar.bz2>
 
@@ -54,9 +52,9 @@ Therefore, we recommend that you start planning to upgrade to Ruby 2.6 or 2.5.
       SHA256: c5de9f11d4b7608d57139b96f7bc94899bb2fc9dee2e192c8951f6647a9d60f7
       SHA512: cfa779cdb970dfd35dc2a97951310cb3cde1d380b040c283fda6609c591039817a2847ab7174f7a9ee7f7adbb610709b57914bb26e5c015a20d5fe880c569855
 
-## Release Comment
+## 릴리스 코멘트
 
-Sorry for making you wait for a long time.
-Thanks to everyone who helped with this release.
+긴 시간을 기다리게 하여 죄송합니다.
+이 릴리스를 만드는 데 도움을 준 모든 분에게 감사합니다.
 
-The maintenance of Ruby 2.4, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+이 릴리스를 포함한 루비 2.4의 유지보수는 Ruby Association의 "루비 안정 버전에 관한 협의"에 기반해 이루어집니다.
