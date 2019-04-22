@@ -16,6 +16,7 @@ The new repository is https://git.ruby-lang.org built by cgit. We can keep your 
 * We don't use a topic branch on cgit.
 * GitHub repository will still be just a mirror. We don't use "Merge pull request" feature.
 * ruby_2_4, ruby_2_5, ruby_2_6 branches will continue to use SVN. We don't push anything to these branches on cgit.
+  * From ruby_2_7, we'll use cgit to develop stable branches.
 
 ## Special Thanks
 
