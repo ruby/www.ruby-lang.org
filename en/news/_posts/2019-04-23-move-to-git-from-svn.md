@@ -17,6 +17,7 @@ The web interface for the new repository is [https://git.ruby-lang.org](https://
 * The GitHub repository will still be just a mirror. We don't use the "Merge pull request" feature.
 * The ruby_2_4, ruby_2_5, and ruby_2_6 branches will continue to use SVN. We don't push anything to these branches on cgit.
 * Starting with ruby_2_7, we'll use cgit to develop stable branches.
+* We don't use merge commits.
 
 ## Special Thanks
 
