@@ -9,7 +9,7 @@ lang: en
 
 Today, The canonical repository of the Ruby language was moved to Git from Subversion.
 
-The new repository is https://git.ruby-lang.org built by cgit. We can keep your commit hash on the ruby repository.
+The new repository is https://git.ruby-lang.org built by cgit. We can keep your commit hash on the ruby repository directly.
 
 ## Development policy
 
@@ -21,12 +21,12 @@ The new repository is https://git.ruby-lang.org built by cgit. We can keep your 
 
 * k0kubun
 
-k0kubun aggresively develop toolchains related release and backport workflow and also update the hook script for git.
+k0kubun aggressively develops toolchains related release and backport workflow and also updates the hook script for git.
 
 * naruse
 
-naruse update the feature changes for Ruby CI and Redmine that is bugs.ruby-lang.org.
+naruse updates the feature changes for Ruby CI and Redmine that is bugs.ruby-lang.org.
 
 * mame
 
-mame create the commit notification script for slack.
+mame creates the commit notification script for slack.
