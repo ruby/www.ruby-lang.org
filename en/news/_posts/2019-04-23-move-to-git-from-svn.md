@@ -7,7 +7,7 @@ date: 2019-04-23 00:00:00 +0000
 lang: en
 ---
 
-The canonical repository of the Ruby language was moved to Git from Subversion.
+Today, The canonical repository of the Ruby language was moved to Git from Subversion.
 
 The new repository is https://git.ruby-lang.org built by cgit. We can keep your commit hash on the ruby repository.
 
