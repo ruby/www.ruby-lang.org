@@ -9,7 +9,7 @@ lang: en
 
 Today, the canonical repository of the Ruby programming language was moved to Git from Subversion.
 
-The web interface for the new repository is [https://git.ruby-lang.org](https://git.ruby-lang.org), and is provided by cgit. We can keep your commit hash on the Ruby repository directly.
+The web interface for the new repository is [https://git.ruby-lang.org](https://git.ruby-lang.org), and is provided by cgit. We can keep the commit hash from the contributor on the Ruby repository directly.
 
 ## Development policy
 
