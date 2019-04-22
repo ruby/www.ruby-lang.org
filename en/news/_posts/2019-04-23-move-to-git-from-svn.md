@@ -31,3 +31,9 @@ naruse updates the feature changes for Ruby CI and Redmine that is bugs.ruby-lan
 * mame
 
 mame creates the commit notification script for slack.
+
+## Future Works
+
+We still have some of tasks. If you found the issues related git migration, Please file it to https://bugs.ruby-lang.org/issues/14632.
+
+Enjoy!
