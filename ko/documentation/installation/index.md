@@ -34,6 +34,7 @@ ruby -v
 
 * [패키지 관리 시스템](#package-management-systems)
   * [Debian, Ubuntu](#apt)
+  * [Windows WSL Ubuntu](#apt-wsl)
   * [CentOS, Fedora, RHEL](#yum)
   * [Snap](#snap)
   * [Gentoo](#portage)
@@ -78,6 +79,23 @@ Debian GNU/Linux와 Ubuntu는 apt 패키지 관리 시스템을 사용합니다.
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
+### apt (Windows WSL Ubuntu)
+{: #apt-wsl}
+
+Windows 10을 사용 중이라면 WSL을 통해 Linux Ubuntu OS를 사용할 수 있습니다.
+또한 apt를 통해 루비를 사용할 수 있습니다.
+
+다음 페이지에서 WSL을 설치하는 방법에 대해 알아보세요.
+
+[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/ko-kr/windows/wsl/install-win10)
+
+다음과 같이 Linux OS와 동일하게 apt를 사용할 수 있습니다.
+
+{% highlight sh %}
+$ sudo apt-get install ruby-full
+{% endhighlight %}
+
+WSL에서 rbenv와 같은 루비 관리자를 사용하는 것도 가능합니다.
 
 ### yum (CentOS, Fedora, RHEL)
 {: #yum}
