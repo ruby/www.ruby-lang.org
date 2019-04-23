@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "루비 2.6.3 릴리즈"
+title: "루비 2.6.3 릴리스"
 author: "naruse"
 translator: "jiwoong"
 date: 2019-04-17 00:00:00 +0000
