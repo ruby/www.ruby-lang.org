@@ -23,15 +23,15 @@ The web interface for the new repository is [https://git.ruby-lang.org](https://
 
 * k0kubun
 
-  k0kubun aggressively develops toolchains related to release and backport workflows and also updates the hook script for git.
+  k0kubun aggressively developed toolchains related to release and backport workflows and also updated the hook script for git.
 
 * naruse
 
-  naruse updates the feature changes for Ruby CI and Redmine (bugs.ruby-lang.org).
+  naruse updated the feature changes for Ruby CI and Redmine (bugs.ruby-lang.org).
 
 * mame
 
-  mame creates the commit notification script for slack.
+  mame created the commit notification script for slack.
 
 ## Future Work
 
