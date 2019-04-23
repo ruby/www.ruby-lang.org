@@ -1,41 +1,39 @@
 ---
 layout: news_post
-title: "Support of Ruby 2.3 has ended"
+title: "루비 2.3 유지보수 종료"
 author: "antonpaisov"
-translator:
+translator: "yous"
 date: 2019-03-31 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
-We announce that all support of the Ruby 2.3 series has ended.
+루비 2.3 시리즈의 모든 유지보수가 종료됩니다.
 
-After the release of Ruby 2.3.7 on March 28, 2018,
-the support of the Ruby 2.3 series was in the security maintenance phase.
-Now, after one year has passed, this phase has ended.
-Therefore, on March 31, 2019, all support of the Ruby 2.3 series ends.
-Security and bug fixes from more recent Ruby versions will no longer be
-backported to 2.3. There won't be any patches of 2.3 either.
-We highly recommend that you upgrade to Ruby 2.6 or 2.5 as soon as possible.
+2018년 3월 28일에 릴리스된 루비 2.3.7 이후로 루비 2.3 시리즈는 보안 유지보수
+단계였습니다.
+이제 1년이 지나 이 단계가 종료됩니다.
+그러므로 2019년 3월 31일을 기점으로 루비 2.3 시리즈의 모든 유지보수가 종료됩니다.
+버그 수정, 보안 패치는 더 이상 2.3에 백포트되지 않으며, 더 이상 패치가
+릴리스되지 않습니다.
+가능한 한 빠르게 루비 2.6이나 2.5로 업그레이드하시길 강력히 권합니다.
 
-## About currently supported Ruby versions
+## 현재 유지보수 중인 루비 버전에 대해
 
-### Ruby 2.6 series
+### 루비 2.6 시리즈
 
-Currently in normal maintenance phase.
-We will backport bug fixes and release with the fixes whenever necessary.
-And, if a critical security issue is found, we will release an urgent fix
-for it.
+현재 일반 유지보수 단계입니다.
+버그 수정을 백포트하며, 필요한 시점에 이를 포함한 릴리스가 이루어집니다.
+그리고 심각한 보안 문제가 발견되면 이를 위한 긴급 패치를 릴리스할 것입니다.
 
-### Ruby 2.5 series
+### 루비 2.5 시리즈
 
-Currently in normal maintenance phase.
-We will backport bug fixes and release with the fixes whenever necessary.
-And, if a critical security issue is found, we will release an urgent fix
-for it.
+현재 일반 유지보수 단계입니다.
+버그 수정을 백포트하며, 필요한 시점에 이를 포함한 릴리스가 이루어집니다.
+그리고 심각한 보안 문제가 발견되면 이를 위한 긴급 패치를 릴리스할 것입니다.
 
-### Ruby 2.4 series
+### 루비 2.4 시리즈
 
-Currently in security maintenance phase.
-We will never backport any bug fixes to 2.4 except security fixes.
-If a critical security issue is found, we will release an urgent fix for it.
-We are planning to end the support of the Ruby 2.4 series on March 31, 2020.
+현재 보안 유지보수 단계입니다.
+보안 패치를 제외한 어떠한 버그 수정도 루비 2.4에 백포트되지 않을 것입니다.
+심각한 보안 문제가 발견되면 이를 위한 긴급 패치를 릴리스할 것입니다.
+루비 2.4의 유지보수 종료는 2020년 3월 31일로 계획되어 있습니다.
