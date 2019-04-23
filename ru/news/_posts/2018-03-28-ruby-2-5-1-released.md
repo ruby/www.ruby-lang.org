@@ -9,7 +9,7 @@ lang: ru
 
 Вышел Ruby 2.5.1.
 
-Этот релиз влючает в себя исправление ошибок и решений проблем в безопасности.
+Этот релиз включает в себя исправление ошибок и решение проблем в безопасности.
 
 * [CVE-2017-17742: HTTP response splitting in WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
 * [CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
