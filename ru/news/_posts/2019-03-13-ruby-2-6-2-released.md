@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.6.2 Released"
+title: "Вышел Ruby 2.6.2"
 author: "naruse"
 translator: "lex111"
 date: 2019-03-13 11:30:00 +0000

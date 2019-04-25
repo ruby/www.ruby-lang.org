@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.5.5 Released"
+title: "Вышел Ruby 2.5.5"
 author: "nagachika"
 translator: "lex111"
 date: 2019-03-15 02:00:00 +0000
