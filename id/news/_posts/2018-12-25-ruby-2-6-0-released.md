@@ -83,32 +83,32 @@ eksperimental.
 * Menambahkan `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
 
   *Method* ini mengembalikan sumber lokasi dari *binding*, sebuah *array* dua
-elemen dari `__FILE__` dan `__LINE__`. Berbicara teknikal, ini sama dengan
-`eval("[__FILE__, __LINE__]", binding)`. Namun, kami sedang merencanakan untuk
-mengubah perilaku ini sehingga `Kernel#eval` mengabaikan sumber lokasi *binding*
-[[Bug #4352]](https://bugs.ruby-lang.org/issues/4352). Dengan demikian,
-pengguna direkomendasikan untuk menggunakan `Binding#source_location` daripada
-`Kernel#eval`.
+  elemen dari `__FILE__` dan `__LINE__`. Berbicara teknikal, ini sama dengan
+  `eval("[__FILE__, __LINE__]", binding)`. Namun, kami sedang merencanakan untuk
+  mengubah perilaku ini sehingga `Kernel#eval` mengabaikan sumber lokasi *binding*
+  [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352). Dengan demikian,
+  pengguna direkomendasikan untuk menggunakan `Binding#source_location` daripada
+  `Kernel#eval`.
 
 * Menambahkan pilihan `:exception` pada `Kernel#system` agar mengeluarkan
-sebuah *exception* kegagalan daripada mengembalikan `false`.  [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
+  sebuah *exception* kegagalan daripada mengembalikan `false`.  [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
 * Menambahkan sebuah mode *oneshot* pada `Coverage`. [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
 
   * Mode ini mengecek "apakah setiap baris dieksekusi minimal sekali atau tidak",
-daripada "berapa banyak setiap baris dieksekusi". Sebuah *hook* untuk setiap
-baris ditembakan paling banyak sekali dan setelah itu penanda *hook* dihapus,
-sebagai contoh ini berjalan dengan *zero overhead*.
+    daripada "berapa banyak setiap baris dieksekusi". Sebuah *hook* untuk setiap
+    baris ditembakan paling banyak sekali dan setelah itu penanda *hook* dihapus,
+    sebagai contoh ini berjalan dengan *zero overhead*.
   * Menambahkan argumen kata kunci `:oneshot_lines` pada Coverage.start.
   * Menambahkan argumen kata kunci `:stop` dan `:clear` pada Coverage.result.
-Jika `clear` *true* maka mengubah *counter* menjadi nol. Jika `stop` *true*
-maka nonaktifkan pengukuran  *coverage*.
+    Jika `clear` *true* maka mengubah *counter* menjadi nol. Jika `stop` *true*
+    maka nonaktifkan pengukuran  *coverage*.
   * Coverage.line_stub, yang mana adalah sebuah fungsi pembantu yang sederhana
-yang dapat membuat "stub" dari baris *coverage* dari sebuah kode sumber yang
-diberikan.
+    yang dapat membuat "stub" dari baris *coverage* dari sebuah kode sumber yang
+    diberikan.
 
 * Menambahkan `FileUtils#cp_lr`. Ini bekerja seperti `cp_r`, tetapi *link*
-bukan salinan.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
+  bukan salinan.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 
 ## Perbaikan performa
 
@@ -140,7 +140,7 @@ bukan salinan.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 * `$SAFE` adalah sebuah proses *state* global dan kita dapat mengatur ke `0` lagi.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
 * Menempatkan parameter `safe_level` ke `ERB.new` tidak berlaku lagi. Argumen
-`trim_mode` dan `eoutvar` diubah menjadi argumen kata kunci. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
+  `trim_mode` dan `eoutvar` diubah menjadi argumen kata kunci. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
 * Mendukung versi Unicode 11. Kami memiliki rencana untuk menambah dukungan
   Unicode versi 12 dan 12.1 pada rilis TEENY dari Ruby 2.6. Ini termasuk
