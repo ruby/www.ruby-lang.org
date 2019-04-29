@@ -22,7 +22,7 @@ Isto signifa que após o lançamento da 2.4.6 nós nunca traremos qualquer corre
 para a 2.4, exceto correções de segurança.
 O período da fase de manutenção de segurança está programda para 1 ano.
 Ao fim deste período, o suporte oficial ao Ruby 2.4 terminará.
-Assim sendo, nós recomendamos que você comece a planejar para migrar para o Ruby 2.6 ou 2.5
+Assim sendo, nós recomendamos que você comece a planejar para migrar para o Ruby 2.6 ou 2.5.
 
 ## Download
 
