@@ -6,4 +6,3 @@ lang: de
 ---
 
 Der CVS Service wurde wieder gestartet.
-

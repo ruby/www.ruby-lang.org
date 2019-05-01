@@ -91,6 +91,10 @@ class Linter
       !content.end_with?("\n")
     end
 
+    def blank_line_at_eof?
+      content.end_with?("\n\n")
+    end
+
     def trailing_whitespace?
       content.match?(/ $/)
     end

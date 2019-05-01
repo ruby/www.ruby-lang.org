@@ -10,4 +10,3 @@ La dirección IP del servidor cambiará el 22 de Febrero de 2007 a horas
 minutos.
 
 Disculpen los inconvenientes.
-

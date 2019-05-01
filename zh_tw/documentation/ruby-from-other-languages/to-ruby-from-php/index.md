@@ -37,4 +37,3 @@ Ruby與PHP不同的地方...
 * 雜湊和陣列不可互換使用。
 * 只有 `false` and `nil` 是 false: `0`, `array()` and `""` 在條件判斷時皆為真。
 * 幾乎所有東西都是方法呼叫，甚至是 `raise` (PHP的 `throw`).
-

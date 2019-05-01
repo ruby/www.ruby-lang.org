@@ -132,4 +132,3 @@ lihat variabel instan `@name` digunakan di metode `say_hai` dan metode
 
 Lalu, bagaimana caranya kita menjalan kelas TukangSapa ? [Membuat
 obyek.](../3/)
-

@@ -130,4 +130,3 @@ von `sag_hallo` und `sag_tschuess` benutzt.
 
 Wie setzen wir diese Begrüßungsklasse also in Bewegung? Ganz einfach:
 [Wir erzeugen ein Objekt!](../3/)
-

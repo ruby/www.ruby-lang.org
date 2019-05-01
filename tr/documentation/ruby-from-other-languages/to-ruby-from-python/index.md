@@ -70,4 +70,3 @@ Python’ın aksine, Rubyde,...
   `del` ifadesi gibi). Değişkeni `nil` olarak ayarlayabilirsiniz, bu
   eski değişkenin eski değerini çöp toplayıcıya gönderir, ama değişken
   kapsamı içinde sembol tablosunda kalmaya devam eder.
-

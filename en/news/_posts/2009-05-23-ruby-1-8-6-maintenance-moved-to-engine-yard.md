@@ -21,4 +21,3 @@ This issue do not affect those current Ruby 1.8.6 users in the short
 run. Everything remains as they are. Users\' benefit is that bug fixes
 and improvements for Ruby 1.8.6 lasts longer than we announced before. I
 believe that is what everyone want.
-

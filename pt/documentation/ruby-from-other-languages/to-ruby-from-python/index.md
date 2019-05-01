@@ -66,4 +66,3 @@ Em oposição ao Pyhton, no Ruby,...
 * Há um número de atalhos que, embora dão mais trabalho a lembrar, irá
   rapidamente aprender. Eles pretende fazer o Ruby divertido e muito
   produtivo
-

@@ -67,5 +67,3 @@ Per documentarsi meglio su questa proposta si prega di vedere i seguenti link:
 Vorrei ringraziare personalmente tutti quelli che hanno contribuito a questa
 discussione. Ogni passo che facciamo ci porta ad un Ruby più stabile ed
 efficace.
-
-

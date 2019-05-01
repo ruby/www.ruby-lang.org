@@ -140,4 +140,3 @@ irb(main):009:0> Math.sqrt(a+b)
 Odbiegamy tutaj jednak od tradycyjnego programu “Hello World” , na
 którym tutoriale dla początkujących powinny się skupiać więc [wróćmy do
 tego](2/)
-

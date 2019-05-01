@@ -233,4 +233,3 @@ Salve este arquivo como “ri20min.rb”, e execute-o com o comando
 
 Há uma série de coisas novas neste exemplo às quais podemos
 [observar mais profundamente](../4/)
-

@@ -135,4 +135,3 @@ irb(main):009:0> Math.sqrt(a+b)
 
 Bir hesap makinası için oldukça yeterli. Klasik `Hello World` mesajından
 uzaklaşmaya başladık, [geri dönelim.](2/)
-

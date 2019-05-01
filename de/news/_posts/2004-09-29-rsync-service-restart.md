@@ -7,4 +7,3 @@ lang: de
 
 RSYNC service is restarted.
 [rsync://ftp.ruby-lang.org/](rsync://ftp.ruby-lang.org/)
-

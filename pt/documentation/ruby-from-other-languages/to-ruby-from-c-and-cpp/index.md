@@ -167,4 +167,3 @@ Ao contrario do C++, no Ruby,...
   interpretador) por oposição a threads nativas.
 * O Ruby vem complementado com uma biblioteca standard de testes
   unitários.
-

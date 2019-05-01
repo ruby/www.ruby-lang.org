@@ -14,4 +14,3 @@ David Black。详情见[演讲者列表](http://scotlandonrails.com/talks)。
 我们同时计划在三号周四举办一个慈善活动。活动包括 Ruby 和 Rails 的初级课程和主会议的其他演讲者（如 Jim
 Weirich，Bruce Williams 和 Giles Bowkett) 带来的小课程。所有活动收益将捐给CHAS – The
 Childrens Hospice Association（儿童招待所联盟）。
-

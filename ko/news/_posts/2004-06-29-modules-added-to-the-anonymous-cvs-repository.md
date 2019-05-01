@@ -16,4 +16,3 @@ These checked modules are added to the Anonymous CVS repository.
 * ruby-parser
 * shim
 * vms
-

@@ -50,4 +50,3 @@ Contrairement à PHP, avec Ruby…
   valent tous vrai dans les tests conditionnels ;
 * à peu près tout est un appel de méthode, d’une manière ou d’une autre
   (même `raise`, le `throw` de PHP).
-

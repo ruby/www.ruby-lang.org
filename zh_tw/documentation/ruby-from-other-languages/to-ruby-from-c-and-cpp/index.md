@@ -94,4 +94,3 @@ typed)的程式語言。Ruby的執行期環境(runtime)會盡可能的處理所�
 * Ruby沒有型別轉換，你也會發現在Ruby中你不需要它們。
 * Ruby內建了多執行緒。但是在Ruby 1.8之中只有”green threads”（只在直譯器中有效的執行緒），而不是原生的執行緒。
 * Ruby的標準函式庫中就包含了單元測試(Unit test)函式庫。
-

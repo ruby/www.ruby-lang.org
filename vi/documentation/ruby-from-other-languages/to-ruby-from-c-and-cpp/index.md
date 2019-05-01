@@ -137,4 +137,3 @@ Khác với C++, trong Ruby,...
 * Đa luồng đã được xây dựng sẵn, nhưng trong Ruby 1.8 đều là "green thread"
   (được thực thi khi biên dịch) trái ngược với các luồng gốc.
 * Thư viện unit test theo chuẩn của Ruby.
-
