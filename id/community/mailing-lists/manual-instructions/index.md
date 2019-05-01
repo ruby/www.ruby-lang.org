@@ -82,4 +82,3 @@ HTML mungkin tidak bekerja.
 
 Untuk melihat daftar perintah yang ada, kirimkan e-mail dengan isi pesan
 “help” ke alamat *controller* milis yang Anda inginkan.
-

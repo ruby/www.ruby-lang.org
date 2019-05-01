@@ -139,4 +139,3 @@ Ruby’de C++’tan farklı,...
   olarak adlandırıldı (sadece interpreter içinde işlenirler) native
   thread’a zıt olarak.
 * Ruby ile bir birim test kütüphanesi birlikte gelir.
-

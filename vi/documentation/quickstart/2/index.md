@@ -118,4 +118,3 @@ ChàoMừng và một vài phương thức thuộc lớp. Thông báo tới `@t�
 
 Vậy, làm thế nào để chúng ta thiết lập lớp ChàoMừng này?
 [Tạo một đối tượng](../3/)
-

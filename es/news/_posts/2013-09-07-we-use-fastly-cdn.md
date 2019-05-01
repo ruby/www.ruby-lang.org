@@ -17,4 +17,3 @@ Este CDN es proporcionado por el plan para Open Source de [Fastly][1].
 Agradecemos a Fastly por toda su ayuda.
 
 [1]: http://www.fastly.com
-

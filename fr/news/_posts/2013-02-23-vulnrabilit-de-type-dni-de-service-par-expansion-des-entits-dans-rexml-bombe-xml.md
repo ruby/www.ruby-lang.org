@@ -110,4 +110,3 @@ Merci à Ben Murphy pour avoir remonté cette vulnérabilité.
 ## Historique
 
 * Publié initialement à 2013-02-22 12:00:00 (UTC)
-

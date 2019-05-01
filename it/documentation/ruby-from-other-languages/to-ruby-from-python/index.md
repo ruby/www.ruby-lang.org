@@ -74,4 +74,3 @@ A differenza di Python, in Ruby…
   `nil`, dando così la possibilità ai vecchi contenuti di essere rimossi
   tramite garbage collection, ma la variabile rimane nella tabella dei
   simboli fintanto che è in scope.
-

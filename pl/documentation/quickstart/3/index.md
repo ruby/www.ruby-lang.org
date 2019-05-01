@@ -228,4 +228,3 @@ ri20min.rb”. Wynik poniżej:
 
 W powyższym przykładzie jest sporo nowych rzeczy, [którym możemy się
 bliżej przyjrzeć.](../4/)
-

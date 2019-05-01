@@ -226,4 +226,3 @@ hiện như này:
 
 Có rất nhiều thứ mới trong ví dụ cuối cùng này và chúng ta
 [có thể có cái nhìn sâu hơn tại.](../4/)
-

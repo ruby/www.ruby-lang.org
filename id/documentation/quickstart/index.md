@@ -142,4 +142,3 @@ irb(main):009:0> Math.sqrt(a+b)
 Sehebat kalkulator, kita sudah pergi dari message tradisional `Hello
 World` yang biasanya selalu saja kalau ada tutorial untuk pemula
 berfokus disana… [jadi mari kita kembali kesana.](2/)
-

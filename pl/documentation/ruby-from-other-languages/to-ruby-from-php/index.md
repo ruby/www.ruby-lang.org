@@ -52,4 +52,3 @@ W przeciwieństwie do PHP, w Rubim…
 * Tylko `false` i `nil` są fałszem: `0`, `array()` i `""` są prawdą w
   wywołaniach warunkowych.
 * Prawie wszystko jest wywołaniem metody, nawet `raise` (`throw` w PHP).
-
