@@ -64,6 +64,7 @@ class Linter
       errors[doc] << "missing or invalid lang variable"  if doc.lang_invalid?
       errors[doc] << "lang variable not matching file location"  if doc.lang_not_matching_filename?
       errors[doc] << "no newline at end of file"  if doc.no_newline_at_eof?
+      errors[doc] << "blank line(s) at end of file"  if doc.blank_line_at_eof?
       errors[doc] << "wrong line breaks (CR/LF)"  if doc.crlf_line_breaks?
 
       unless WHITESPACE_EXCLUSIONS.include?(doc.filename)
