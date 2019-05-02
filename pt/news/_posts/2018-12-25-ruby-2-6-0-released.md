@@ -20,7 +20,7 @@ O Ruby 2.6 introduz uma implementação inicial de um compilador JIT (Just-In-Ti
 
 O compilador JIT foca em melhorar a performance das aplicações Ruby. Diferente dos compiladores JIT tradicionais, que operam no processo, o compilador JIT do Ruby escreve código C no disco e invoca um compilador comum C para gerar código nativo. Para mais detalhes sobre isso, acesse a [organização MJIT por Vladimir Makarov](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#MJIT-organization).
 
-Para habilitar o compilador JIT, especifique `--jit` na linha de comando ou na variável de ambiente `$RUBYOPT`. Especificando `--jit-verbose=1` irá fazer com o que compilador JIT imprima informações adicionais. Leia o output de `ruby --help` ou [a documentação](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage) para outras opções.
+Para habilitar o compilador JIT, especifique `--jit` na linha de comando ou na variável de ambiente `$RUBYOPT`. Especificando `--jit-verbose=1` irá fazer com o que compilador JIT imprima informações adicionais. Leia a saída de `ruby --help` ou [a documentação](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage) para outras opções.
 
 O compilador JIT é compatível quando o Ruby é compilado pelo GCC, Clang, ou Microsoft VC++, que precisa estar disponível em tempo de execução.
 
