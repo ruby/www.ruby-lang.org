@@ -95,7 +95,7 @@ A classe `RubyVM::AbstractSyntaxTree::Node` também foi adicionada. Você pode o
 
 ## Outras alterações notáveis desde a versão 2.5
 
-* `$SAFE` agora é um processo de estado global e pode ser setado para `0` novamente.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
+* `$SAFE` agora é um processo de estado global e pode ser configurado para `0` novamente.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
 * Passar `safe_level` para `ERB.new` está depreciado. Os argumentos `trim_mode` e `eoutvar` foram alterados para keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
