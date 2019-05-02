@@ -67,7 +67,7 @@ A classe `RubyVM::AbstractSyntaxTree::Node` também foi adicionada. Você pode o
 
 * Adiciona o modo oneshot ao `Coverage` [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
 
-  * Esse modo verifica "quando uma linha de código foi executado ao menos uma vez ou não", ao invés de "quantas vezes uma linha de código foi executada". Um gatilho por linha é disparado apenas uma vez, e uma vez que é disparado, a flag será removida, i.e., roda sem desperídicos.
+  * Esse modo verifica "quando uma linha de código foi executado ao menos uma vez ou não", ao invés de "quantas vezes uma linha de código foi executada". Um gatilho por linha é disparado apenas uma vez, e uma vez que é disparado, a flag será removida, isto é, roda sem desperdícios.
   * Adiciona `oneshot_lines:` keyword argument do Coverage.start.
   * Adiciona `stop:` and `clear:` keyword arguments do Coverage.result. Se `clear` é verdadeiro, limpa os contadores para zero.  Se `stop` é verdadeiro, desabilita a metrificação de coverage.
   * Coverage.line_stub é uma simples função de helper que cria o "stub" da cobertura da linha de um dado código-fonte.
