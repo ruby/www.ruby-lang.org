@@ -24,7 +24,7 @@ Para habilitar o compilador JIT, especifique `--jit` na linha de comando ou na v
 
 O compilador JIT é compatível quando o Ruby é compilado pelo GCC, Clang, ou Microsoft VC++, que precisa estar disponível em tempo de execução.
 
-Com o Ruby 2.6.0, conseguimos atingir [1.7x faster performance](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208) se comparado ao Ruby 2.5 em um teste de benchmark de CPU não-trivial, chamado [Optcarrot](https://github.com/mame/optcarrot). De qualquer forma, ainda está em fase experimental e muitas outras aplicações de memória intensiva, como o Rails, podem não se beneficiar no momento. Para mais detalhes, veja [Ruby 2.6 JIT - Progresso e Futuro](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf).
+Com o Ruby 2.6.0, conseguimos atingir [uma performance 1.7x melhor](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208) se comparado ao Ruby 2.5 em um teste de benchmark de CPU não-trivial, chamado [Optcarrot](https://github.com/mame/optcarrot). De qualquer forma, ainda está em fase experimental e muitas outras aplicações de memória intensiva, como o Rails, podem não se beneficiar no momento. Para mais detalhes, veja [Ruby 2.6 JIT - Progresso e Futuro](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf).
 
 Fique ligado na nova era de performance do Ruby.
 
