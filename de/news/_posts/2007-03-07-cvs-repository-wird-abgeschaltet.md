@@ -12,4 +12,3 @@ verfügbar](/de/news/2006/12/22/repository-von-cvs-auf-svn-gendert/).
 
 Sollte jemand das aktuelle CVS Repository benötigen so hat er bis zum
 16. noch die Möglichkeit es über CVSup herunterzuladen.
-

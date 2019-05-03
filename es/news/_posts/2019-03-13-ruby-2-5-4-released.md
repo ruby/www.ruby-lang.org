@@ -7,7 +7,7 @@ date: 2019-03-13 11:30:00 +0000
 lang: es
 ---
 
-Publicado Ruby 2.5.4
+Se ha publicado Ruby 2.5.4.
 
 Esta versión incluye correcciones a fallas y una actualización de seguridad
 al RubyGems incluido.
@@ -49,4 +49,3 @@ y en las [bitácoras del cambio](https://github.com/ruby/ruby/compare/v2_5_3...v
 Muchos contribuyentes, desarrolladores y usuarios que reportaron fallas
 nos ayudaron a hacer esta versión.
 Gracias por sus contribuciones.
-

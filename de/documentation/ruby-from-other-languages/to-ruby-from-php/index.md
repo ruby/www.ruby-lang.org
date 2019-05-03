@@ -52,4 +52,3 @@ Im Gegensatz zu PHP hat Ruby…
   in Bedingungen true.
 * fast alles ist Methodenaufruf, sogar `raise`
   (`throw` in PHP).
-

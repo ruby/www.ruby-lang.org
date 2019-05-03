@@ -55,4 +55,3 @@ Muchos colaboradores, desarrolladores y usuarios que nos reportaron problemas no
 ayudaron a hacer esta entrega una realidad.
 
 Gracias por su ayuda.
-

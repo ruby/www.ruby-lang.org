@@ -122,4 +122,3 @@ to zmienna instancji, która jest dostępna dla wszystkich metod tej
 klasy. Używana jest przez metody `say_hi` oraz `say_bye`.
 
 Jak teraz wprowadzić tę klasę w ruch ? [Utwórzmy obiekt.](../3/)
-

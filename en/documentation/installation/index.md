@@ -30,11 +30,14 @@ There are several ways to install Ruby:
   on your system.
 * Finally, you can also **build Ruby from source**.
 
+On Windows 10, you can also use the [Windows Subsystem for Linux][wsl]
+to install one of the supported Linux distributions and use any of the
+installation methods available on that system.
+
 Here are available installation methods:
 
 * [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
-  * [Windows WSL Ubuntu](#apt-wsl)
   * [CentOS, Fedora, RHEL](#yum)
   * [Snap](#snap)
   * [Gentoo](#portage)
@@ -81,22 +84,6 @@ like this:
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-### apt (Windows WSL Ubuntu)
-{: #apt-wsl}
-
-If you use Windows 10, you can use Linux Ubuntu OS with WSL. And you can also use Ruby with apt.
-
-There is an information that how to install WSL in this page:
-
-[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-
-You can use the apt same as Linux OS like this:
-
-{% highlight sh %}
-$ sudo apt-get install ruby-full
-{% endhighlight %}
-
-Or you can also use Ruby managers like the rbenv on WSL.
 
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
@@ -353,3 +340,4 @@ though, because the installed Ruby won't be managed by any tools.
 [download]: /en/downloads/
 [installers]: /en/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about

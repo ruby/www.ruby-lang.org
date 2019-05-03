@@ -7,7 +7,7 @@ date: 2018-10-17 14:00:00 +0000
 lang: es
 ---
 
-Se ha publicado Ruby 2.5.2
+Se ha publicado Ruby 2.5.2.
 
 Esta versión incluye diversas correcciones así como correcciones de seguridad.
 

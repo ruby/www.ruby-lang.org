@@ -90,7 +90,7 @@ This module has `parse` method which parses a given ruby code of string and retu
 * Merge [Bundler](https://github.com/bundler/bundler) as Default gems.
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview3/NEWS)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)
+or the [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview3)
 for details.
 
 With those changes,

@@ -52,7 +52,7 @@ Trunk-Nutzer müssen auf die neueste Revision aktualisieren.
 
 ## Danksagung
 
-Diese Nachricht beruhrt auf dem [offiziellen RubyGems-Blogpost](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
+Diese Nachricht beruht auf dem [offiziellen RubyGems-Blogpost](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
 
 ## Historie
 

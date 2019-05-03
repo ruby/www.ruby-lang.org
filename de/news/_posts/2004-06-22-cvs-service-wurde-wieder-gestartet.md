@@ -8,4 +8,3 @@ lang: de
 Der anonyme CVS Service läuft nun wieder.
 
 Der Server akzeptiert nun jedes Passwort :)
-

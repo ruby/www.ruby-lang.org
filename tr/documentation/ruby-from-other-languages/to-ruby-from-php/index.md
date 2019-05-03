@@ -53,4 +53,3 @@ PHP’nin aksine, Rubyde…
   `array()` ve `""` doğru bilgisi döner.
 * Neredeyse her şey metod çağrılarıdır, hatta `raise` bile. (PHP’de
   `throw`).
-

@@ -67,4 +67,3 @@ suivants :
 
 Je souhaiterais remercier personnellement tous ceux qui ont contribué à ce débat.
 Chaque décision permet d'avoir un Ruby plus stable et plus efficace.
-

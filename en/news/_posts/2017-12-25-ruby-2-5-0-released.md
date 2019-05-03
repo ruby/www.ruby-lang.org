@@ -90,7 +90,7 @@ The notable changes are as follows:
   [[Feature #9323]](https://bugs.ruby-lang.org/issues/9323)
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
+or the [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
 for details.
 
 With those changes,

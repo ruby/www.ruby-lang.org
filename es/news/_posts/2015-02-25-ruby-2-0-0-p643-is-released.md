@@ -59,4 +59,3 @@ para conocer los detalles.
 ## Comentarios de la entrega
 
 Agradecemos a todas las personas que nos han ayudado con esta y otras entregas.
-

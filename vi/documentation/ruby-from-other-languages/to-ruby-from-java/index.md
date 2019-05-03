@@ -54,7 +54,7 @@ Khác với Java, trong Ruby,...
 
 
 
-[1]: http://wxruby.rubyforge.org/wiki/wiki.pl
-[2]: http://www.fxruby.org/
+[1]: https://github.com/eumario/wxruby
+[2]: https://github.com/larskanis/fxruby
 [3]: https://ruby-gnome2.osdn.jp/
 [4]: https://github.com/ryanmelt/qtbindings/

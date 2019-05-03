@@ -1315,7 +1315,7 @@ locales:
       get_started:
         text: <strong>Начните сейчас</strong>, это легко!
         try_ruby:
-          text: Попробуйте Ruby! (в Вашем браузере)
+          text: Попробуйте Ruby! (в своем браузере)
           <<: *try_ruby
         quickstart:
           text: Ruby за двадцать минут

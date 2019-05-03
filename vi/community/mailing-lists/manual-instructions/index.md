@@ -48,4 +48,3 @@ bất cứ thư có định dạng HTML nào đều không được.
 ### Mẹo nhỏ
 
 Để xem danh sách các lệnh, gửi thư với nội dung "help" đến địa chỉ điều khiển.
-

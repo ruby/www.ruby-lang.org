@@ -61,4 +61,3 @@ pois um e-mail HTML pode não funcionar.
 
 Para visualizar a lista de comandos, envie um email ao endereço do
 controlador com “help” no corpo da mensagem.
-

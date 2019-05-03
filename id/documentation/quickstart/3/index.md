@@ -238,4 +238,3 @@ ri20min.rb”. Outputnya seharusnya menjadi sebagai berikut:
 
 Ada banyak barang baru di contoh terakhir kita kali ini yang [bisa kita
 lihat lebih lanjut](../4/)
-

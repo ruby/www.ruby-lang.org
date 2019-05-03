@@ -68,4 +68,3 @@ Khác với Python, trong Ruby,...
 * Không có cách nào gỡ bỏ một biến đã được thiết lập (như lệnh `del`
   trong Python). Bạn có thể gán giá trị `nil` cho biến, làm cho nội
   dung cũ được xoá, tuy nhiên biến đó vẫn sẽ tồn tại trong bảng symbol.
-
