@@ -1,40 +1,42 @@
 ---
 layout: news_post
-title: "Ruby Repository Moved to Git from Subversion"
+title: "루비 저장소가 Subversion에서 Git으로 이동했습니다"
 author: "hsbt"
-translator:
+translator: "yous"
 date: 2019-04-23 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Today, the canonical repository of the Ruby programming language was moved to Git from Subversion.
+오늘, 루비 프로그래밍 언어의 표준 저장소가 Subversion에서 Git으로 이동했습니다.
 
-The web interface for the new repository is [https://git.ruby-lang.org](https://git.ruby-lang.org), and is provided by cgit. We can keep the commit hash from the contributor on the Ruby repository directly.
+새 저장소의 웹 인퍼테이스는 <https://git.ruby-lang.org>이며, cgit을 통해
+제공됩니다. 루비 저장소에서 바로 기여자의 커밋 해시를 볼 수 있습니다.
 
-## Development policy
+## 개발 정책
 
-* We don't use a topic branch on cgit.
-* The GitHub repository will still be just a mirror. We don't use the "Merge pull request" feature.
-* The ruby_2_4, ruby_2_5, and ruby_2_6 branches will continue to use SVN. We don't push anything to these branches on cgit.
-* Starting with ruby_2_7, we'll use cgit to develop stable branches.
-* We don't use merge commits.
+* cgit에서 토픽 브랜치를 사용하지 않습니다.
+* GitHub 저장소는 미러 저장소일 뿐입니다. '풀 리퀘스트 머지' 기능을 사용하지 않습니다.
+* ruby_2_4, ruby_2_5, ruby_2_6 브랜치는 계속 SVN을 사용합니다. 이 브랜치에는 cgit을 통해 그 어떤 것도 푸시하지 않습니다.
+* ruby_2_7 브랜치부터 cgit을 사용해 안정 브랜치를 개발합니다.
+* 머지 커밋을 사용하지 않습니다.
 
-## Special Thanks
+## 감사의 말
 
 * k0kubun
 
-  k0kubun aggressively developed toolchains related to release and backport workflows and also updated the hook script for git.
+  k0kubun은 릴리스와 백포트 워크플로에 관련된 툴체인을 활발히 개발했고, Git을 위한 훅 스크립트를 업데이트했습니다.
 
 * naruse
 
-  naruse updated the feature changes for Ruby CI and Redmine (bugs.ruby-lang.org).
+  naruse는 루비 CI와 Redmine(bugs.ruby-lang.org)의 기능 변경 사항을 업데이트했습니다.
 
 * mame
 
-  mame created the commit notification script for slack.
+  mame는 Slack을 위한 커밋 알림 스크립트를 만들었습니다.
 
-## Future Work
+## 향후 계획
 
-We still have to complete some tasks. If you find an issue related to the Git migration, please file it to [https://bugs.ruby-lang.org/issues/14632](https://bugs.ruby-lang.org/issues/14632).
+아직 몇 가지 작업이 남았습니다. Git 마이그레이션과 관련한 이슈를 찾았다면
+<https://bugs.ruby-lang.org/issues/14632>로 제보해주시기 바랍니다.
 
-Enjoy!
+감사합니다!
