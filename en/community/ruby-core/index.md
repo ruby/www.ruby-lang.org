@@ -12,12 +12,12 @@ So, where do you start?
 
 The topics related to Ruby development covered here are:
 
-* [Using Subversion to Track Ruby Development](#following-ruby)
-* [How to Use Git With the Main Ruby Repository](#git-ruby)
+* [Using Git to Track Ruby Development](#following-ruby)
 * [Improving Ruby, Patch by Patch](#patching-ruby)
 * [Rules for Core Developers](#coding-standards)
 
 ### Using Git to Track Ruby Development
+{: #following-ruby}
 
 The current primary repository of the latest Ruby source code is
 [git.ruby-lang.org/ruby.git][gitrlo].
