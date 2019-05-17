@@ -17,54 +17,30 @@ The topics related to Ruby development covered here are:
 * [Improving Ruby, Patch by Patch](#patching-ruby)
 * [Rules for Core Developers](#coding-standards)
 
-### Using Subversion to Track Ruby Development
-{: #following-ruby}
+### Using Git to Track Ruby Development
 
-Getting the latest Ruby source code is a matter of an anonymous checkout
-from the [Subversion][1] repository. From your command line:
+The current primary repository of the latest Ruby source code is
+[git.ruby-lang.org/ruby.git][gitrlo].
+There is also a [mirror on GitHub][7].  Usually, please use this mirror.
+
+You can get the latest Ruby source code by using Git.
+From your command line:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
 The `ruby` directory will now contain the latest source code
 for the development version of Ruby (ruby-trunk).
-Currently patches applied to the trunk are backported to the stable
-{{ site.svn.stable.version }}, {{ site.svn.previous.version }},
-and {{ site.svn.old.version }} branches (see below).
 
-If you’d like to follow patching of Ruby {{ site.svn.stable.version }},
-you should use the `{{ site.svn.stable.branch }}` branch when checking out:
+See also [Non-committer’s HOWTO to join our development][noncommitterhowto].
 
-{% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
-{% endhighlight %}
-
-Similarly for Ruby {{ site.svn.previous.version }}:
+If you have commit access, and if you want to push something,
+you should use the primary repository.
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ git clone git@git.ruby-lang.org:ruby/ruby.git
 {% endhighlight %}
-
-This will check out the respective development tree into a
-`{{ site.svn.stable.branch }}` or `{{ site.svn.previous.branch }}` directory.
-Developers working on the maintenance branches are expected to migrate
-their changes to Ruby’s trunk, so often the branches are very similar,
-with the exception of improvements made by Matz and Nobu to the language
-itself.
-
-If you prefer, you may browse [Ruby’s Subversion repository via the web][2].
-
-For information about Subversion, please see the [Subversion FAQ][3]
-and the [Subversion book][4]. Alternatively, you may find
-[Pragmatic Version Control with Subversion][5] to be a useful introductory book.
-
-### How to Use Git With the Main Ruby Repository
-{: #git-ruby}
-
-Those who prefer to use [Git][6] over Subversion can find instructions
-with the [mirror on GitHub][7], both for [those with commit access][8]
-and [everybody else][9].
 
 ### Improving Ruby, Patch by Patch
 {: #patching-ruby}
@@ -81,25 +57,24 @@ straight from Matz, on how to get your patches considered.
 
 To summarize, the steps for building a patch are:
 
-1.  Check out a copy of the Ruby source code from Subversion.
+1.  Check out a copy of the Ruby source code from GitHub.
     Usually patches for bugfixes or new features should be submitted
-    for the trunk of Ruby’s source. Even if you wish to add a feature
-    to Ruby {{ site.svn.previous.version }}, it has to be proven in
-    the trunk first.
+    for the trunk of Ruby’s source.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
     If you are fixing a bug that is specific to only one maintenance branch,
-    check out a copy of the respective branch,
-    e.g. `{{ site.svn.previous.branch }}`.
+    check out a copy of the respective branch.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ git checkout ruby_X_X
+
+    X_X should be replaced with a version that you want to check out.
 
 2.  Add your improvements to the code.
 
 3.  Create a patch.
 
-        $ svn diff > ruby-changes.patch
+        $ git diff > ruby-changes.patch
 
 4.  Create a ticket in the [issue tracker][10] or email your patch to
     the [Ruby-Core mailing list][mailing-lists] with a ChangeLog entry
@@ -120,47 +95,40 @@ should be very low, topics should be pointed, well-conceived and
 well-written. Since we’re addressing Ruby’s creator, let’s have some
 reverence.
 
-Keep in mind that Ruby’s core developers live in Japan and, while many
+Keep in mind that many Ruby’s core developers live in Japan and, while many
 speak very good English, there is a significant timezone difference.
 They also have an entire body of Japanese development lists happening
 alongside the English counterparts. Be patient, if your claim isn’t
 resolved, be persistent—give it another shot a few days later.
 
-### Rules for Core Developers
-{: #coding-standards}
 
-Generally, the developers of Ruby should be familiar with the source
-code and the style of development used by the team. To be clear, the
-following guidelines should be honored when checking into Subversion:
+### Note about branches
 
-* All check-ins should be described in the `ChangeLog`, following the
-  [GNU conventions][14]. (Many Ruby core developers use Emacs `add-log`
-  mode, which can be accessed with the command `C-x 4 a`.)
-* Check-in dates should be given in Japan Standard Time (UTC+9).
-* The bulleted points from your ChangeLog should also be placed in the
-  Subversion commit message. This message will be automatically mailed
-  to the Ruby-CVS list after you commit.
-* Function prototypes are used throughout Ruby’s source code and its
-  packaged extensions.
-* Please, do not use C++-style comments (`//`), Ruby’s maintainers
-  instead prefer the standard C multi-line comment (`/* .. */`).
+The source code of Ruby had been managed under Subversion repository until 22rd April 2019.
+Thus, some branches may be still managed under Subversion.
+You can view the SVN repository.
 
-See also the information in [Ruby’s issue tracker][10].
+* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
 
+However, you don't have to care about it (unless you are a branch maintainer).
+You can check out the branches in your Git working copy.
+For example, run the following command.
 
+{% highlight sh %}
+$ git checkout ruby_X_X
+{% endhighlight %}
 
+X_X should be replaced with a version that you want to check out.
+
+If you want to modify the branches, please open an issue in our [issue tracker][10].
+See also the following section.
+
+[gitrlo]: https://git.ruby-lang.org/ruby.git
 [mailing-lists]: /en/community/mailing-lists/
 [writing-patches]: /en/community/ruby-core/writing-patches/
-[1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[3]: http://subversion.apache.org/faq.html
-[4]: http://svnbook.org
-[5]: http://www.pragmaticprogrammer.com/titles/svn/
-[6]: http://git-scm.com/
+[noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [7]: https://github.com/ruby/ruby
-[8]: https://github.com/shyouhei/ruby/wiki/committerhowto
-[9]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
-[14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

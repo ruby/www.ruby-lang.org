@@ -4,46 +4,54 @@ title: "リポジトリガイド"
 lang: ja
 ---
 
+## Gitリポジトリ
+
+RubyのソースコードはGitリポジトリに保存されています。コミッタはこちらを使います。
+
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][1]
+
+{% highlight sh %}
+$ git clone git@git.ruby-lang.org:ruby.git
+{% endhighlight %}
+
+また、GitHubにミラーが用意されています。
+
+* [&lt;URL:https://github.com/ruby/ruby.git&gt;][2]
+
+{% highlight sh %}
+$ git clone https://github.com/ruby/ruby.git
+{% endhighlight %}
+
+コミッタ以外でRubyの開発に参加したい方は、GitHubのミラーを使うとよいでしょう。次のHowto(英語)もご覧ください。
+
+* [&lt;URL:https://github.com/shyouhei/ruby/wiki/noncommitterhowto&gt;][3]
+
 ## SVNリポジトリ
 
-RubyのソースコードはSVNリポジトリに保存されており、ViewVC経由で参照できます:
+Rubyのソースコードは2019年4月22日までSVNリポジトリで管理されていたため、一部のブランチはまだSVNで管理されている場合があります。ViewVC経由で参照できます:
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][1]
+* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][4]
 
 また、Anonymous SVNも利用可能です:
 
-trunkの場合:
+2\.6の場合:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_2_6 ruby
 {% endhighlight %}
 
-1\.8の場合:
-
-{% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8 ruby
-{% endhighlight %}
-
-その他のブランチ・タグなどは[&lt;URL:https://svn.ruby-lang.org/repos/ruby/&gt;][2]から確認してください。
-
-## Gitリポジトリ
-
-Gitをお使いの方は、[githubにあるRubyのリポジトリ][3]も利用可能です。
-
-また、これを使ってRubyの開発に参加したい方は、以下のHowto(英語)を読まれるとよいでしょう。
-
-* [非コミッター向け][4]
-* [コミッター向け][5]
+その他のブランチ・タグなどは[&lt;URL:https://svn.ruby-lang.org/repos/ruby/&gt;][5]から確認してください。
 
 それではみなさん、楽しいハックを！
 
 Posted by usa on 30 May 2006
+Updated by mame on 12 May 2019
 {: .post-info}
 
 
 
-[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
-[2]: https://svn.ruby-lang.org/repos/ruby/
-[3]: https://github.com/ruby/ruby
-[4]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[5]: https://github.com/shyouhei/ruby/wiki/committerhowto
+[1]: https://git.ruby-lang.org/ruby.git
+[2]: https://github.com/ruby/ruby
+[3]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[4]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[5]: https://svn.ruby-lang.org/repos/ruby/
