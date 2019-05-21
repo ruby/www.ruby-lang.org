@@ -6,17 +6,9 @@ lang: ja
 
 ## Gitリポジトリ
 
-RubyのソースコードはGitリポジトリに保存されています。コミッタはこちらを使います。
+GitHubにミラーが用意されています。
 
-* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][1]
-
-{% highlight sh %}
-$ git clone git@git.ruby-lang.org:ruby.git
-{% endhighlight %}
-
-また、GitHubにミラーが用意されています。
-
-* [&lt;URL:https://github.com/ruby/ruby.git&gt;][2]
+* [&lt;URL:https://github.com/ruby/ruby.git&gt;][1]
 
 {% highlight sh %}
 $ git clone https://github.com/ruby/ruby.git
@@ -24,7 +16,16 @@ $ git clone https://github.com/ruby/ruby.git
 
 コミッタ以外でRubyの開発に参加したい方は、GitHubのミラーを使うとよいでしょう。次のHowto(英語)もご覧ください。
 
-* [&lt;URL:https://github.com/shyouhei/ruby/wiki/noncommitterhowto&gt;][3]
+* [&lt;URL:https://github.com/shyouhei/ruby/wiki/noncommitterhowto&gt;][2]
+
+また、ミラーとは別に、RubyのソースコードはGitリポジトリに保存されています。コミッタはこちらを使います。
+
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][3]
+
+{% highlight sh %}
+$ git clone git@git.ruby-lang.org:ruby.git
+{% endhighlight %}
+
 
 ## SVNリポジトリ
 
@@ -50,8 +51,8 @@ Updated by mame on 12 May 2019
 
 
 
-[1]: https://git.ruby-lang.org/ruby.git
-[2]: https://github.com/ruby/ruby
-[3]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[1]: https://github.com/ruby/ruby
+[2]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[3]: https://git.ruby-lang.org/ruby.git
 [4]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [5]: https://svn.ruby-lang.org/repos/ruby/
