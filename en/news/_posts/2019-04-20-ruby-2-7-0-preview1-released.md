@@ -41,7 +41,7 @@ end
 ## REPL improvement
 
 `irb`, bundled interactive environment (REPL; Read-Eval-Print-Loop), now supports multi-line editing. It's powered by `reline`, `readline` compatible pure Ruby implementation.
-It also provides rdoc integration. In `irb` you can show the reference of given class, module, and method.  [#14683](https://bugs.ruby-lang.org/issues/14683) [#14787](https://bugs.ruby-lang.org/issues/14787) [#14918](https://bugs.ruby-lang.org/issues/14918)
+It also provides rdoc integration. In `irb` you now can display the reference for a given class, module, or method.  [#14683](https://bugs.ruby-lang.org/issues/14683) [#14787](https://bugs.ruby-lang.org/issues/14787) [#14918](https://bugs.ruby-lang.org/issues/14918)
 
 <video autoplay="autoplay" loop="loop" width="478" height="202">
   <source src="//ftp.ruby-lang.org/pub/media/irb_multiline.mp4" type="video/mp4">
