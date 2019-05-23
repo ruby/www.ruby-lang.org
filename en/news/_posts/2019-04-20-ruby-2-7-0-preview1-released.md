@@ -67,7 +67,7 @@ It also provides rdoc integration. In `irb` you now can display the reference fo
 
   * Method inlining is performed when a method is considered as pure. This optimization is still experimental and many methods are NOT considered as pure yet.
 
-  * Default value of +--jit-min-calls+ is changed from 5 to 10,000
+  * Default value of `--jit-min-calls` is changed from 5 to 10,000
 
   * Default value of +--jit-max-cache+ is changed from 1,000 to 100
 
