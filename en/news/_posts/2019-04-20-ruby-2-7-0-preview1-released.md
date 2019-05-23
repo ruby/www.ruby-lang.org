@@ -49,7 +49,7 @@ It also provides rdoc integration. In `irb` you now can display the reference fo
 
 ## Other Notable New Features
 
-* Method reference operator, <code>.:</code> is introduced as an experimental feature.  [#12125]( https://bugs.ruby-lang.org/issues/12125) [#13581]( https://bugs.ruby-lang.org/issues/13581)
+* A method reference operator, <code>.:</code>, is introduced as an experimental feature.  [#12125]( https://bugs.ruby-lang.org/issues/12125) [#13581]( https://bugs.ruby-lang.org/issues/13581)
 
 * Numbered parameter as the default block parameter is introduced as an experimental feature.  [#4475](https://bugs.ruby-lang.org/issues/4475)
 
