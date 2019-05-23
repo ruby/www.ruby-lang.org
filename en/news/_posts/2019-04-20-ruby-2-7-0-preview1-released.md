@@ -19,7 +19,7 @@ A preview version is released to gather feedback for the final release planed to
 
 Compaction GC which can defragment a fragmented memory space is introduced.
 
-Some multithread Ruby program may cause memory fragmentation and it causes high memory usage and degrade speed.
+Some multithread Ruby programs may cause memory fragmentation, leading to high memory usage and degraded speed.
 
 This introduces `GC.compact` method for compacting the heap. This function compacts live objects in the heap so that fewer pages may be used, and the heap may be more CoW friendly. [#15626](https://bugs.ruby-lang.org/issues/15626)
 
