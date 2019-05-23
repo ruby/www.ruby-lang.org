@@ -69,7 +69,7 @@ It also provides rdoc integration. In `irb` you now can display the reference fo
 
   * Default value of `--jit-min-calls` is changed from 5 to 10,000
 
-  * Default value of +--jit-max-cache+ is changed from 1,000 to 100
+  * Default value of `--jit-max-cache` is changed from 1,000 to 100
 
 ## Other notable changes since 2.6
 
