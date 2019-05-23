@@ -23,7 +23,7 @@ Some multithread Ruby programs may cause memory fragmentation, leading to high m
 
 The `GC.compact` method is introduced for compacting the heap. This function compacts live objects in the heap so that fewer pages may be used, and the heap may be more CoW friendly. [#15626](https://bugs.ruby-lang.org/issues/15626)
 
-Known issues: It may cause Segmentation Fault if MJIT is enabled. Please avoid to use both Compaction GC and MJIT at the same time.
+Known issues: It may cause segmentation faults if MJIT is enabled. Please avoid using both Compaction GC and MJIT at the same time.
 
 ## Pattern Matching [Experimental]
 
