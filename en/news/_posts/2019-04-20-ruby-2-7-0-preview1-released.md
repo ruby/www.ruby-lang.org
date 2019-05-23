@@ -98,4 +98,4 @@ Enjoy programming with Ruby 2.7!
 
 ## What is Ruby
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993, and now is developing as Open Source. It runs on multiple platforms and used by all over the world especially for Web Development.
+Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993, and is now developed as Open Source. It runs on multiple platforms and is used all over the world especially for web development.
