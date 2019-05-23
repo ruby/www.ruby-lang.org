@@ -17,7 +17,7 @@ A preview version is released to gather feedback for the final release planed to
 
 ## Compaction GC
 
-Compaction GC which can defragment a fragmented memory space is introduced.
+This release introduces Compaction GC which can defragment a fragmented memory space.
 
 Some multithread Ruby programs may cause memory fragmentation, leading to high memory usage and degraded speed.
 
