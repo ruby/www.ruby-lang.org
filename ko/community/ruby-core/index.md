@@ -39,11 +39,6 @@ $ git clone https://github.com/ruby/ruby.git
 $ git clone git@git.ruby-lang.org:ruby/ruby.git
 {% endhighlight %}
 
-이 명령은 `{{ site.svn.stable.branch }}`나 `{{ site.svn.previous.branch }}` 디렉터리에
-각각의 루비 개발 트리를 체크아웃합니다. 유지보수 브랜치에서 개발하는 개발자들은
-유지보수에서의 변경사항을 루비 트렁크에도 이관할 것입니다. 그래서 마츠나
-노부가 언어레벨의 수정을 한 경우를 제외하면 두 브랜치는 매우 비슷합니다.
-
 ### 패치들로 루비 개선하기
 {: #patching-ruby}
 
