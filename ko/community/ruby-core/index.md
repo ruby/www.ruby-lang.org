@@ -94,14 +94,14 @@ $ git clone git@git.ruby-lang.org:ruby/ruby.git
 
 ### 브랜치에 대한 안내
 
-루비의 소스 코드는 2019년 4월 22일까지 서브버전에서 관리되어왔습니다.
+루비의 소스 코드는 2019년 4월 22일까지 서브버전에서 관리되어 왔습니다.
 그러므로 몇몇 버전은 그대로 서브버전에서 관리됩니다.
 다음 SVN 저장소를 이용할 수 있습니다.
 
 * [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
 
 그렇지만 (브랜치 유지보수 담당자가 아니라면) 이를 신경쓸 필요는 없습니다.
-브랜치들을 Git에서 체크아웃 할 수 있습니다.
+브랜치를 Git에서 체크아웃 할 수 있습니다.
 예를 들어 다음 명령을 실행하세요.
 
 {% highlight sh %}
