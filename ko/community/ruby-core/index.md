@@ -36,7 +36,7 @@ $ git clone https://github.com/ruby/ruby.git
 반드시 주 저장소를 이용해야 합니다.
 
 {% highlight sh %}
-$ git clone git@git.ruby-lang.org:ruby/ruby.git
+$ git clone git@git.ruby-lang.org:ruby.git
 {% endhighlight %}
 
 ### 패치들로 루비 개선하기
