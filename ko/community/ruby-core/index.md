@@ -11,49 +11,38 @@ lang: ko
 
 루비 개발에 관련된 주제들입니다.
 
-* [Subversion을 사용하여 루비 개발을 트래킹하기](#following-ruby)
-* [주 루비 저장소로 Git을 사용하는 방법](#git-ruby)
+* [Git을 사용하여 루비 개발을 트래킹하기](#following-ruby)
 * [패치들로 루비 개선하기](#patching-ruby)
 * [코어 개발자를 위한 룰](#coding-standards)
 
-### Subversion을 사용하여 루비 개발을 트래킹하기
+### Git을 사용하여 루비 개발을 트래킹하기
 {: #following-ruby}
 
-루비 코드를 받으려면 [Subversion][1] 저장소에서 익명으로 체크하웃하면 됩니다.
-커맨드 라인에서 다음을 입력하세요.
+현재 최신 루비 코드의 주 저장소는 [git.ruby-lang.org/ruby.git][gitrlo]입니다.
+또한 [GitHub에도 미러][7]가 있습니다. 기본적으로는 이 미러를 이용하세요.
+
+최신 루비 코드는 Git을 사용하여 받을 수 있습니다.
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
 이제 `ruby` 디렉터리에는 루비의 최신 개발 버전(ruby-trunk)이 들어 있을 것입니다.
-현재 트렁크에 적용되는 패치는 안정 브랜치들({{ site.svn.stable.version }},
-{{ site.svn.previous.version }}, {{ site.svn.old.version }})에 백포트되고
-있습니다.(밑을 참고하세요.)
 
-루비 {{ site.svn.stable.version }}의 패치들을 보고 싶다면, 체크아웃 하실 때
-`{{ site.svn.stable.branch }}` 브랜치를 사용하십시오.
+[커미터가 아닌 사람들을 위한 개발 참가 방법][noncommitterhowto]도 참고하세요.
 
-{% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
-{% endhighlight %}
 
-비슷하게 루비 {{ site.svn.previous.version }}에서는..
+만약 커밋 권한을 가지고 있고, 무엇인가를 푸시하기를 원한다면,
+반드시 주 저장소를 이용해야 합니다.
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ git clone git@git.ruby-lang.org:ruby/ruby.git
 {% endhighlight %}
 
 이 명령은 `{{ site.svn.stable.branch }}`나 `{{ site.svn.previous.branch }}` 디렉터리에
 각각의 루비 개발 트리를 체크아웃합니다. 유지보수 브랜치에서 개발하는 개발자들은
 유지보수에서의 변경사항을 루비 트렁크에도 이관할 것입니다. 그래서 마츠나
 노부가 언어레벨의 수정을 한 경우를 제외하면 두 브랜치는 매우 비슷합니다.
-
-더 자세한 내용은 [루비의 Subversion 저장소][2]의 웹 사이트를 참조하세요.
-
-Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]을
-보십시오. 혹은 [Pragmatic Version Control with Subversion][5]도 매우 유용한
-입문서입니다.
 
 ### 패치들로 루비 개선하기
 {: #patching-ruby}
@@ -69,23 +58,24 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 
 패치를 만드는 순서를 요약하자면,
 
-1.  서브버전에서 루비 소스코드를 체크아웃합니다.
+1.  GitHub에서 루비 소스코드를 체크아웃합니다.
     일반적으로 버그 수정을 위한 패치나 새로운 기능이 이미 루비 소스의 트렁크에
-    등록되어 있습니다. {{ site.svn.previous.branch }}에 추가하고 싶다고 하더라도
-    트렁크에서 먼저 입증되어야 합니다.
+    등록되어 있습니다.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
     한 관리 브랜치에서만 일어나는 버그를 수정하려고 한다면, 해당 브랜치를
-    체크아웃합니다. 예를 들어 `{{ site.svn.previous.branch }}`의 경우
+    체크아웃합니다.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ git checkout ruby_X_X
+
+    X_X를 체크아웃하고 싶은 버전으로 변경하세요.
 
 2.  개선된 코드를 추가합니다.
 
 3.  패치를 만듭니다.
 
-        $ svn diff > ruby-changes.patch
+        $ git diff > ruby-changes.patch
 
 4.  [이슈 트랙커][10]에 티켓을 만들거나
     [Ruby-Core 메일링 리스트][mailing-lists]에 패치와 패치를 설명한
@@ -103,44 +93,36 @@ Subversion에 대한 정보는 [Subversion FAQ][3]나 [the Subversion book][4]�
 주제는 명확해야 하고 잘 생각해서 잘 쓰여야 합니다. 우리는 루비의 창조자에게 말을
 걸고 있으니 예의를 갖춥시다.
 
-루비의 코어 개발자들이 영어를 잘한다고 해도 일본에 살고 있으니 시차가 있습니다.
+루비의 코어 개발자들이 영어를 잘한다고 해도 많은 수가 일본에 살고 있으니 시차가 있습니다.
 영어와 동시에 진행되는 일어 개발 메일링 리스트도 있습니다. 클레임이 해결되지
 않았을 경우에도 인내심을 가지고 며칠 후에 다시 시도해주시길 바랍니다.
 
-### 코어 개발자를 위한 규칙
-{: #coding-standards}
+### 브랜치에 대한 안내
 
-일반적으로, 루비의 개발자는 소스코드와 팀이 사용하는 개발 스타일에
-친숙해야 합니다. 다시 말하자면, Subversion에 체크인할 때 다음 가이드
-라인들은 지켜져야 합니다.
+루비의 소스 코드는 2019년 4월 22일까지 서브버전에서 관리되어왔습니다.
+그러므로 몇몇 버전은 그대로 서브버전에서 관리됩니다.
+다음 SVN 저장소를 이용할 수 있습니다.
 
-* 모든 체크인은 [GNU conventions][14]에 따라 `ChangeLog`에 기술되어야
-  합니다. (많은 루비 코어 개발자들은 이맥스의 `add-log`모드를 사용합니다.
-  `add-log` 모드는 단축키 `C-x 4 a`로 열 수 있습니다.)
-* 체크인 날짜는 일본 표준시(UTC+9)여야 합니다.
-* ChangeLog에 추가할 때에는 Subversion 커밋 메시지도 같은 내용을 넣어야
-  합니다. 이 메시지는 커밋과 동시에 Ruby-CVS 메일링 리스트에 자동으로
-  공지됩니다.
-* 함수 프로토타입은 루비의 코드와 코드의 확장기능 전체에서 사용됩니다.
-* C++ 스타일의 주석(`//`)을 쓰지 마세요. 루비의 메인테이너는 표준 C의
-  여러 줄 주석(`/* .. */`)을 사용하길 권장합니다.
+* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
 
-더 자세한 정보는 [루비의 이슈 트랙커][10]를 참조하세요.
+그렇지만 (브랜치 유지보수 담당자가 아니라면) 이를 신경쓸 필요는 없습니다.
+브랜치들을 Git에서 체크아웃 할 수 있습니다.
+예를 들어 다음 명령을 실행하세요.
 
+{% highlight sh %}
+$ git checkout ruby_X_X
+{% endhighlight %}
 
+X_X는 체크아웃 하고 싶은 브랜치 이름으로 변경하세요.
 
+브랜치를 변경하고 싶다면 [이슈 트랙커][10]에 이슈를 만들어주세요.
+다음 링크도 참고하세요.
+
+[gitrlo]: https://git.ruby-lang.org/ruby.git
 [mailing-lists]: /ko/community/mailing-lists/
-[1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[3]: http://subversion.apache.org/faq.html
-[4]: http://svnbook.org
-[5]: http://www.pragmaticprogrammer.com/titles/svn/
-[6]: http://git-scm.com/
+[noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [7]: https://github.com/ruby/ruby
-[8]: https://github.com/shyouhei/ruby/wiki/committerhowto
-[9]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/
-[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
-[14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs
