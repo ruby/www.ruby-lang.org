@@ -49,7 +49,7 @@ $ git clone git@git.ruby-lang.org:ruby/ruby.git
 있습니다. 어떤 방식을 사용하셔도, 계속 토론에 참여하시는 것이 좋습니다.
 
 패치를 다루는 방법에 대해 구체적인 가이드를 원하시면 마츠가 직접 쓴
-[패치 작성자 가이드][11]를 확인하세요.
+[패치 작성자를 위한 지침][writing-patches]를 확인하세요.
 
 패치를 만드는 순서를 요약하자면,
 
@@ -115,6 +115,7 @@ X_X는 체크아웃 하고 싶은 브랜치 이름으로 변경하세요.
 
 [gitrlo]: https://git.ruby-lang.org/ruby.git
 [mailing-lists]: /ko/community/mailing-lists/
+[writing-patches]: /en/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [7]: https://github.com/ruby/ruby
