@@ -39,7 +39,7 @@ If you have commit access, and if you want to push something,
 you should use the primary repository.
 
 {% highlight sh %}
-$ git clone git@git.ruby-lang.org:ruby/ruby.git
+$ git clone git@git.ruby-lang.org:ruby.git
 {% endhighlight %}
 
 ### Improving Ruby, Patch by Patch
