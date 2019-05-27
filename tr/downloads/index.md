@@ -83,7 +83,7 @@ hakkında daha fazla bilgi için, [Sürümler sayfası][releases]na bakın.
 [Dallar sayfası][branches]nda bulunabilir.
 
 Ruby Subversion ve Git depoları hakkında bilgi için [Ruby
-Core][ruby-core] sayfasına bakın.
+Core](/en/community/ruby-core/) sayfasına bakın.
 
 Ruby kaynağı tüm dünyaya yayılmış [Yansı Siteleri][mirrors]nden
 ulaşılabilirdir.
@@ -96,7 +96,6 @@ Lütfen yakınınızdaki bir yansıyı kullanmaya çalışın.
 [releases]: /en/downloads/releases/
 [branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
-[rvm]: https://rvm.io/
+[rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
-[ruby-core]: /en/community/ruby-core/
