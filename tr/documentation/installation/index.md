@@ -30,6 +30,10 @@ Ruby'yi kurmanın birçok yolu vardır:
   geçiş yapmanıza yardım eder.
 * Son olarak, ayrıca **Ruby'yi kaynaktan inşa edebilirsiniz**.
 
+Windows 10'da ayrıca desteklenen Linux dağıtımlarından birini kurmak ve bu
+sistemde var olan kurulum yöntemlerinden herhangi birini kullanmak için
+[Linux için Windows Altsistemi][wsl]ni kullanabilirsiniz.
+
 İşte kullanılabilir kurulum yöntemleri:
 
 * [Paket Yönetim Sistemleri](#package-management-systems)
@@ -40,7 +44,7 @@ Ruby'yi kurmanın birçok yolu vardır:
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
   * [Diğer Dağıtımlar](#other-systems)
 * [Kurucular](#installers)
   * [ruby-build](#ruby-build)
@@ -81,9 +85,6 @@ kullanabilirsiniz:
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
-
-Bu satırlar yazıldığı sırada `ruby-full` paketi Debian ve Ubuntu'da Ruby
-2.3.1'i, ki bu eski bir kararlı sürümdür, sağlamaktadır,
 
 
 ### yum (CentOS, Fedora, ya da RHEL)
@@ -129,10 +130,8 @@ Gentoo, portage paket yöneticisini kullanır.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-Varsayılan olarak bu, sürüm 1.9 ve 2.0'ı kurmaya çalışacaktır, fakat daha fazla
-sürüm kullanılabilir. Belirli bir sürümü kurmak için `make.conf`'unuzdaki
-`RUBY_TARGETS`'ı ayarlayın. Ayrıntılar için
-[Gentoo Ruby Projesi websitesi][gentoo-ruby]ne bakın.
+Belirli bir sürümü kurmak için `make.conf`'unuzdaki `RUBY_TARGETS`'ı ayarlayın.
+Ayrıntılar için [Gentoo Ruby Projesi websitesi][gentoo-ruby]ne bakın.
 
 
 ### pacman (Arch Linux)
@@ -151,8 +150,8 @@ Bu, son kararlı Ruby sürümünü kurmalıdır.
 ### Homebrew (macOS)
 {: #homebrew}
 
-Ruby'nin 2.0 ve üstü sürümleri en azından El Capitan (10.11)'dan Mojave
-(10.14)'e kadar macOS sürümlerinde varsayılan olarak içerilir.
+Ruby'nin 2.0 ve üstü sürümleri en azından El Capitan (10.11)'dan beri
+macOS sürümlerinde varsayılan olarak içerilir.
 
 [Homebrew][homebrew], macOS'ta sıklıkla kullanılan bir paket yöneticisidir.
 Ruby'yi Homebrew kullanarak kurmak kolaydır:
@@ -182,13 +181,8 @@ FreeBSD'de Ruby ve onun çevreleyen ekosistemi hakkında daha fazla bilgi
 [FreeBSD Ruby Projesi websitesi][freebsd-ruby]nde bulunabilir.
 
 
-### Solaris ve OpenIndiana üzerinde Ruby
-{: #solaris}
-
-Ruby 1.8.7, Solaris 8'den Solaris 10'a kadar [Sunfreeware][sunfreeware]
-üzerinden kullanılabilirdir ve Ruby 1.8.7, [Blastwave][blastwave]'de
-mevcuttur. Ayrıca Ruby 1.9.2p0 da [Sunfreeware][sunfreeware]'de mevcuttur,
-fakat bu güncel değildir.
+### OpenIndiana üzerinde Ruby
+{: #openindiana}
 
 Ruby'yi [OpenIndiana][openindiana] üzerinde kurmak için lütfen Image Packaging
 System (IPS) istemcisini kullanın.
@@ -261,6 +255,7 @@ kullanabilirsiniz:
 
 * [RailsInstaller][railsinstaller], [RubyInstaller][rubyinstaller]'ı kullanır
   fakat size Rails geliştirmesine yardımcı olacak fazladan araçlar verir.
+  macOS ve Windows'u destekler.
 * [Bitnami Ruby Stack][rubystack], Rails için tam bir geliştirme ortamı sağlar.
   macOS, Linux, Windows, sanal makineler, ve bulut görüntülerini destekler.
 
@@ -337,8 +332,6 @@ olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecekti
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
@@ -348,3 +341,4 @@ olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecekti
 [download]: /tr/downloads/
 [installers]: /tr/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
