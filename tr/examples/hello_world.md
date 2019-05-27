@@ -3,7 +3,7 @@ layout: null
 ---
 
 {% highlight ruby %}
-# Meşhur Merhaba Dünya
+# Meşhur Hello World
 # programı Ruby'de çok
 # basit. Şunlar gereksiz:
 #
@@ -13,5 +13,5 @@ layout: null
 #
 # İşte kodumuz:
 
-puts "Merhaba Dünya!"
+puts "Hello World!"
 {% endhighlight %}

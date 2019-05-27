@@ -4,14 +4,14 @@ layout: null
 
 {% highlight ruby %}
 # Çıktı "I love Ruby"
-söz = "I love Ruby"
-puts söz
+say = "I love Ruby"
+puts say
 
 # Çıktı "I *LOVE* RUBY"
-söz['love'] = "*love*"
-puts söz.upcase
+say['love'] = "*love*"
+puts say.upcase
 
 # Çıktı "I *love* Ruby"
 # ama 5 kere
-5.times { puts söz }
+5.times { puts say }
 {% endhighlight %}

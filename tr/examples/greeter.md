@@ -3,20 +3,20 @@ layout: null
 ---
 
 {% highlight ruby %}
-# Selamlama sınıfı
-class Selamlama
-  def initialize(isim)
-    @isim = isim.capitalize
+# Greeter sınıfı
+class Greeter
+  def initialize(name)
+    @name = name.capitalize
   end
 
-  def selamla
-    puts "Merhaba #{@isim}!"
+  def salute
+    puts "Hello #{@name}!"
   end
 end
 
 # Yeni bir nesne üret
-s = Selamlama.new("Dünya")
+g = Greeter.new("world")
 
-# Çıktı "Merhaba Dünya!"
-s.selamla
+# Çıktı "Hello World!"
+g.salute
 {% endhighlight %}
