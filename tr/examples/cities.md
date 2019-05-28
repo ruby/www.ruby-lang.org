@@ -13,7 +13,7 @@ cities = %w[ London
              Paris
              Amsterdam
              Berlin ]
-visited  = %w[Berlin Oslo]
+visited = %w[Berlin Oslo]
 
 puts "I still need " +
      "to visit the " +
