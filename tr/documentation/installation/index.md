@@ -32,7 +32,7 @@ Ruby'yi kurmanın birçok yolu vardır:
 
 Windows 10'da ayrıca desteklenen Linux dağıtımlarından birini kurmak ve bu
 sistemde var olan kurulum yöntemlerinden herhangi birini kullanmak için
-[Linux için Windows Altsistemi][wsl]ni kullanabilirsiniz.
+[Linux için Windows Altsistemi][wsl]'ni kullanabilirsiniz.
 
 İşte kullanılabilir kurulum yöntemleri:
 
