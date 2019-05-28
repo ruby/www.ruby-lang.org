@@ -9,10 +9,10 @@ lang: tr
 
 Ruby 2.6.3 yayımlandı.
 
-Bu sürüm Yeni Japon Dönemi "令和" (Reiwa) için destek ekler.
-Bu sürüm Unicode sürümünü 12.1 betaya günceller ([#15195](https://bugs.ruby-lang.org/issues/15195)) ve tarih kütüphanesini günceller ([#15742](https://bugs.ruby-lang.org/issues/15742)).
+Bu yayın Yeni Japon Dönemi "令和" (Reiwa) için destek ekler.
+Bu yayın Unicode sürümünü 12.1 betaya günceller ([#15195](https://bugs.ruby-lang.org/issues/15195)) ve tarih kütüphanesini günceller ([#15742](https://bugs.ruby-lang.org/issues/15742)).
 
-Bu sürüm ayrıca bazı hata düzeltmeleri içerir.
+Bu yayın ayrıca bazı hata düzeltmeleri içerir.
 Ayrıntılar için [işleme loglarına](https://github.com/ruby/ruby/compare/v2_6_2...v2_6_3) bakın.
 
 ## İndirin
@@ -45,7 +45,7 @@ Ayrıntılar için [işleme loglarına](https://github.com/ruby/ruby/compare/v2_
       SHA256: 11a83f85c03d3f0fc9b8a9b6cad1b2674f26c5aaa43ba858d4b0fcc2b54171e1
       SHA512: 959a613f5cf5b3185a1d7a7ba0e1921166b3930f30461b391b1c9fcfe396f56dc3c736123dfc7b4e72c32a97dc5a1eb1fd7f09bcc3793a3c5526f6644ba421c8
 
-## Sürüm Yorumu
+## Yayın Yorumu
 
-Hata raporları sağlayan birçok işleyici, geliştirici, ve kullanıcı bu sürümü yapmakta bize yardım etti.
+Hata raporları sağlayan birçok işleyici, geliştirici, ve kullanıcı bu yayını yapmakta bize yardım etti.
 Katkıları için teşekkür ederiz.
