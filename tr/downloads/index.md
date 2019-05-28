@@ -7,7 +7,7 @@ lang: tr
 {% include out-of-date.html %}
 
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
-En son kararlı sürüm {{ site.data.downloads.stable[0] }}'dir.
+En son kararlı sürüm {{ site.data.downloads.stable[0] }} sürümüdür.
 Lütfen önce [Ruby'nin lisansını][license] okuyun.
 {: .summary}
 
