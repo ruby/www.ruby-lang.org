@@ -9,7 +9,7 @@ lang: tr
 
 Ruby 2.5.5 yayınlandı.
 
-Bu yayın, Puma gibi çoklu iş parçacığı/çoklu işlem uygulamalarındaki (çoklu iş parçacıklı ana işlemlerden `Process.fork`'u kullanan) bir kilitlenme için bir hata düzeltmesi içerir.
+Bu yayın, Puma gibi çok iş parçacıklı/çok işlemli uygulamalardaki (çok iş parçacıklı ana işlemlerden `Process.fork`'u kullanan) bir kilitlenme için bir hata düzeltmesi içerir.
 
 Ayrıntılı değişiklikler için [işleme logları](https://github.com/ruby/ruby/compare/v2_5_4...v2_5_5)na bakın.
 
