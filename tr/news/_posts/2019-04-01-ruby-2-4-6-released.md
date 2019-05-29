@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.4.6 Yayımlandı"
 author: "usa"
-translator: İsmail Arılık
+translator: "İsmail Arılık"
 date: 2019-04-01 06:00:00 +0000
 lang: tr
 ---
