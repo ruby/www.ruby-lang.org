@@ -45,5 +45,5 @@ Ayrıntılı değişiklikler için [işleme logları](https://github.com/ruby/ru
 
 ## Yayın Yorumu
 
-Raporları ve soruşturmaları için sorah ve k0kubun'a şükranlarımı sunmak isterim.
+Bildirileri ve soruşturmaları için sorah ve k0kubun'a şükranlarımı sunmak isterim.
 Teşekkür ederim.
