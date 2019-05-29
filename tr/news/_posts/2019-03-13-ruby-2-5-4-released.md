@@ -44,5 +44,5 @@ Ayrıntılara [RubyGems'te birçok güvenlik açığı](/en/news/2019/03/05/mult
 
 ## Yayın Yorumu
 
-Hata raporları sunan birçok işleyici, geliştirici, ve kullanıcı bu yayını yapmamıza yardım etti.
+Hata bildirileri sunan birçok işleyici, geliştirici, ve kullanıcı bu yayını yapmamıza yardım etti.
 Katkıları için teşekkür ederiz.
