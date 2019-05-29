@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.5.5 Yayımlandı"
 author: "nagachika"
-translator: İsmail Arılık
+translator: "İsmail Arılık"
 date: 2019-03-15 02:00:00 +0000
 lang: tr
 ---
