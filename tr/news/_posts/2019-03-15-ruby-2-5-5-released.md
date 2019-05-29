@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.5.5 Yayımlandı"
+title: "Ruby 2.5.5 Yayınlandı"
 author: "nagachika"
 translator: "İsmail Arılık"
 date: 2019-03-15 02:00:00 +0000
 lang: tr
 ---
 
-Ruby 2.5.5 yayımlandı.
+Ruby 2.5.5 yayınlandı.
 
 Bu yayın, Puma gibi çoklu iş parçacığı/çoklu işlem uygulamalarındaki (çoklu iş parçacıklı ana işlemlerden `Process.fork`'u kullanan) bir kilitlenme için bir hata düzeltmesi içerir.
 
