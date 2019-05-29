@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.5.4 Yayımlandı"
+title: "Ruby 2.5.4 Yayınlandı"
 author: "nagachika"
 translator: "İsmail Arılık"
 date: 2019-03-13 11:30:00 +0000
 lang: tr
 ---
 
-Ruby 2.5.4 yayımlandı.
+Ruby 2.5.4 yayınlandı.
 
 Bu yayın, paketlenmiş RubyGems'in hata düzeltmeleri ve bir güvenlik güncellemesini içerir.
 Ayrıntılara [RubyGems'te birçok güvenlik açığı](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/) ve [işleme logları](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4)ndan bakın.
