@@ -11,7 +11,7 @@ Ruby 2.6.2 yayınlandı.
 
 Bu yayın, paketlenmiş RubyGems'in hata düzeltmeleri ve bir güvenlik güncellemesini içerir.
 
-Ayrıntılara [RubyGems'te birçok güvenlik açığı](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/) ve [işleme logları](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2)ndan bakın.
+Ayrıntılara [RubyGems'te birçok güvenlik açığı](/tr/news/2019/03/05/multiple-vulnerabilities-in-rubygems/) ve [işleme logları](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2)ndan bakın.
 
 ## İndirin
 
