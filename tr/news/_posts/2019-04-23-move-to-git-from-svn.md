@@ -26,7 +26,7 @@ Katkıcının işleme hash'ini doğrudan Ruby deposunda tutabiliriz.
 
 * k0kubun
 
-  k0kubun yoğun bir şekilde, iş akışlarını yayımlamak ve geri taşımak ile ilgili araç dizilerini geliştirdi ve ayrıca git için kanca betiğini güncelledi.
+  k0kubun yoğun bir şekilde, iş akışlarını yayınlamak ve geri taşımak ile ilgili araç dizilerini geliştirdi ve ayrıca git için kanca betiğini güncelledi.
 
 * naruse
 
