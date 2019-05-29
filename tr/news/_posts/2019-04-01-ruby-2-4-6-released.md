@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.4.6 Yayımlandı"
+title: "Ruby 2.4.6 Yayınlandı"
 author: "usa"
 translator: "İsmail Arılık"
 date: 2019-04-01 06:00:00 +0000
 lang: tr
 ---
 
-Ruby 2.4.6 yayımlandı.
+Ruby 2.4.6 yayınlandı.
 
 Bu yayın önceki yayından sonra 20 hata düzeltmesi içerir, ve ayrıca birkaç güvenlik düzeltmesi içerir.
 Ayrıntılar için lütfen aşağıdaki konuları gözden geçirin.
