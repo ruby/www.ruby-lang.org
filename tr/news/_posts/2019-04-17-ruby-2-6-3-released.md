@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.6.3 Yayımlandı"
 author: "naruse"
-translator: İsmail Arılık
+translator: "İsmail Arılık"
 date: 2019-04-17 00:00:00 +0000
 lang: tr
 ---
