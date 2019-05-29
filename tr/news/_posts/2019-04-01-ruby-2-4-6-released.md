@@ -12,7 +12,7 @@ Ruby 2.4.6 yayınlandı.
 Bu yayın önceki yayından sonra 20 hata düzeltmesi içerir, ve ayrıca birkaç güvenlik düzeltmesi içerir.
 Ayrıntılar için lütfen aşağıdaki konuları gözden geçirin.
 
-* [RubyGems'te birçok güvenlik açığı](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
+* [RubyGems'te birçok güvenlik açığı](/tr/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
 
 Ayrıntılar için [işleme loguna](https://github.com/ruby/ruby/compare/v2_4_5...v2_4_6) bakın.
 
