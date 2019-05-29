@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.6.2 Yayımlandı"
+title: "Ruby 2.6.2 Yayınlandı"
 author: "naruse"
 translator: "İsmail Arılık"
 date: 2019-03-13 11:30:00 +0000
 lang: tr
 ---
 
-Ruby 2.6.2 yayımlandı.
+Ruby 2.6.2 yayınlandı.
 
 Bu yayın, paketlenmiş RubyGems'in hata düzeltmeleri ve bir güvenlik güncellemesini içerir.
 
