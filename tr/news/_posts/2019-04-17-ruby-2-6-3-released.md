@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.6.3 Yayımlandı"
+title: "Ruby 2.6.3 Yayınlandı"
 author: "naruse"
 translator: "İsmail Arılık"
 date: 2019-04-17 00:00:00 +0000
 lang: tr
 ---
 
-Ruby 2.6.3 yayımlandı.
+Ruby 2.6.3 yayınlandı.
 
 Bu yayın Yeni Japon Dönemi "令和" (Reiwa) için destek ekler.
 Bu yayın Unicode sürümünü 12.1 betaya günceller ([#15195](https://bugs.ruby-lang.org/issues/15195)) ve tarih kütüphanesini günceller ([#15742](https://bugs.ruby-lang.org/issues/15742)).
