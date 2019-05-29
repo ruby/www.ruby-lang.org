@@ -47,5 +47,5 @@ Ayrıntılar için [işleme loglarına](https://github.com/ruby/ruby/compare/v2_
 
 ## Yayın Yorumu
 
-Hata raporları sağlayan birçok işleyici, geliştirici, ve kullanıcı bu yayını yapmakta bize yardım etti.
+Hata bildirileri sağlayan birçok işleyici, geliştirici, ve kullanıcı bu yayını yapmakta bize yardım etti.
 Katkıları için teşekkür ederiz.
