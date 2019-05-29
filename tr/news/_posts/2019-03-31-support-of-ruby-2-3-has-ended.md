@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.3 desteği sona erdi"
 author: "antonpaisov"
-translator: İsmail Arılık
+translator: "İsmail Arılık"
 date: 2019-03-31 00:00:00 +0000
 lang: tr
 ---
