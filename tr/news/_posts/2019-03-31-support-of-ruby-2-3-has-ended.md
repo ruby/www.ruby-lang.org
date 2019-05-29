@@ -21,18 +21,18 @@ En kısa zamanda Ruby 2.6 ya da 2.5'e yükseltme yapmanızı şiddetle tavsiye e
 ### Ruby 2.6 serisi
 
 Şu anda normal sürdürme evresinde.
-Hata düzeltmelerini geri taşıyacağız ve gerekli oldukça düzeltmelerle birlikte yayımlayacağız.
-Ve, eğer ciddi bir güvenlik sorunu bulunursa, bunun için acil bir düzeltme yayımlayacağız.
+Hata düzeltmelerini geri taşıyacağız ve gerekli oldukça düzeltmelerle birlikte yayınlayacağız.
+Ve, eğer ciddi bir güvenlik sorunu bulunursa, bunun için acil bir düzeltme yayınlayacağız.
 
 ### Ruby 2.5 serisi
 
 Şu anda normal sürdürme evresinde.
-Hata düzeltmelerini geri taşıyacağız ve gerekli oldukça düzeltmelerle birlikte yayımlayacağız.
-Ve, eğer ciddi bir güvenlik sorunu bulunursa, bunun için acil bir düzeltme yayımlayacağız.
+Hata düzeltmelerini geri taşıyacağız ve gerekli oldukça düzeltmelerle birlikte yayınlayacağız.
+Ve, eğer ciddi bir güvenlik sorunu bulunursa, bunun için acil bir düzeltme yayınlayacağız.
 
 ### Ruby 2.4 serisi
 
 Şu anda güvenlik sürdürmesi evresinde.
 Güvenlik düzeltmeleri dışında asla hiçbir hata düzeltmesini 2.4'e geri taşımayacağız.
-Eğer ciddi bir güvenlik sorunu bulunursa, bunun için acil bir düzeltme yayımlayacağız.
+Eğer ciddi bir güvenlik sorunu bulunursa, bunun için acil bir düzeltme yayınlayacağız.
 Ruby 2.4 serisinin desteğini 31 Mart 2020'de sona erdirmeyi planlıyoruz.
