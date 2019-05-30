@@ -13,7 +13,7 @@ Ruby 2.6.1 yayınlandı.
 
 * [Net::Protocol::BufferedIO#write, büyük çok baytlı karakter dizisi gönderirken NoMethodError yükseltiyor](https://bugs.ruby-lang.org/issues/15468) düzeltildi.
 
-Bu yayın ek hata düzeltmeleri içerir.
+Bu sürüm ek hata düzeltmeleri içerir.
 Daha fazla ayrıntı için [işleme logları](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1)na bakın.
 
 ## İndirin
@@ -46,7 +46,7 @@ Daha fazla ayrıntı için [işleme logları](https://github.com/ruby/ruby/compa
       SHA256: 47b629808e9fd44ce1f760cdf3ed14875fc9b19d4f334e82e2cf25cb2898f2f2
       SHA512: fb36289a955f0596c683cdadf1e4a9a9fd35222b1e1c6160c2e7cd82e5befd40a7aa4361e55f7a8f83c06ee899ec493821c7db34a60c4ac3bca0e874d33ef1a9
 
-## Yayın Yorumu
+## Sürüm Yorumu
 
-Hata bildirileri sunan birçok işleyici, geliştirici, ve kullanıcı bu yayını yapmamıza yardım etti.
+Hata bildirileri sunan birçok işleyici, geliştirici, ve kullanıcı bu sürümü yapmamıza yardım etti.
 Katkıları için teşekkür ederiz.
