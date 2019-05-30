@@ -7,9 +7,9 @@ date: 2018-12-25 00:00:00 +0000
 lang: tr
 ---
 
-Ruby 2.6.0'ın yayınını duyurmaktan memnuniyet duyarız.
+Ruby 2.6.0'ın sürümünü duyurmaktan memnuniyet duyarız.
 
-Bu yayın birkaç yeni özellik ve performans artışı getirmektedir, en önemlileri:
+Bu sürüm birkaç yeni özellik ve performans artışı getirmektedir, en önemlileri:
 
  * Yeni bir JIT derleyicisi.
  * `RubyVM::AbstractSyntaxTree` modülü.
@@ -139,7 +139,7 @@ Bu özellik deneyseldir.
   [[Özellik #14256]](https://bugs.ruby-lang.org/issues/14256)
 
 * Unicode desteği sürüm 11'e güncellendi.
-  Ruby 2.6'nın gelecek UFACIK bir yayınında Unicode sürümü 12 ve 12.1 için destek ekleme planlarımız var.
+  Ruby 2.6'nın gelecek UFACIK bir sürümünde Unicode sürümü 12 ve 12.1 için destek ekleme planlarımız var.
   Bu, [yeni Japon dönemi](http://blog.unicode.org/2018/09/new-japanese-era.html) için destek içerecek.
 
 * RubyGems 3.0.1'i birleştir.
