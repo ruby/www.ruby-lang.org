@@ -9,7 +9,7 @@ lang: tr
 
 Ruby 2.5.4 yayınlandı.
 
-Bu yayın, paketlenmiş RubyGems'in hata düzeltmeleri ve bir güvenlik güncellemesini içerir.
+Bu sürüm, paketlenmiş RubyGems'in hata düzeltmeleri ve bir güvenlik güncellemesini içerir.
 Ayrıntılara [RubyGems'te birçok güvenlik açığı](/tr/news/2019/03/05/multiple-vulnerabilities-in-rubygems/) ve [işleme logları](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4)ndan bakın.
 
 ## İndirin
@@ -42,7 +42,7 @@ Ayrıntılara [RubyGems'te birçok güvenlik açığı](/tr/news/2019/03/05/mult
       SHA256: 823a6a2c9c7baa18554fd78d430837a01ab33cc16ad1759c9842bdd9523e9cea
       SHA512: a83f90514b09c217fbbd154cfc09c804553353a97cbff7df24185b613e1c7be69a965fe9ec925ac3f4bd6170f2c3d0d60be7ea4ab1037ce64300d7443b6e08e8
 
-## Yayın Yorumu
+## Sürüm Yorumu
 
-Hata bildirileri sunan birçok işleyici, geliştirici, ve kullanıcı bu yayını yapmamıza yardım etti.
+Hata bildirileri sunan birçok işleyici, geliştirici, ve kullanıcı bu sürümü yapmamıza yardım etti.
 Katkıları için teşekkür ederiz.
