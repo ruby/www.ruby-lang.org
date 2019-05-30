@@ -9,15 +9,15 @@ lang: tr
 
 Ruby 2.4.6 yayınlandı.
 
-Bu yayın önceki yayından sonra 20 hata düzeltmesi içerir, ve ayrıca birkaç güvenlik düzeltmesi içerir.
+Bu sürüm önceki sürümden sonra 20 hata düzeltmesi içerir, ve ayrıca birkaç güvenlik düzeltmesi içerir.
 Ayrıntılar için lütfen aşağıdaki konuları gözden geçirin.
 
 * [RubyGems'te birçok güvenlik açığı](/tr/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
 
 Ayrıntılar için [işleme loguna](https://github.com/ruby/ruby/compare/v2_4_5...v2_4_6) bakın.
 
-Bu yayından sonra, Ruby 2.4'ün normal sürdürme evresini sona erdireceğiz, ve güvenlik sürdürme evresine başlayacağız.
-Bu, 2.4.6 yayınından sonra güvenlik düzeltmeleri dışında asla herhangi bir hata düzeltmesini 2.4'e geri taşımayacağımız anlamına geliyor.
+Bu sürümden sonra, Ruby 2.4'ün normal sürdürme evresini sona erdireceğiz, ve güvenlik sürdürme evresine başlayacağız.
+Bu, 2.4.6 sürümünden sonra güvenlik düzeltmeleri dışında asla herhangi bir hata düzeltmesini 2.4'e geri taşımayacağımız anlamına geliyor.
 Güvenlik sürdürme evresi dönemi 1 seneye zamanlanır.
 Bu dönemin bitişiyle birlikte, Ruby 2.4'ün resmi desteği son bulacaktır.
 Bu sebeple, Ruby 2.6 ya da 2.5'e yükseltme için planlama yapmaya başlamanızı öneririz.
@@ -52,9 +52,9 @@ Bu sebeple, Ruby 2.6 ya da 2.5'e yükseltme için planlama yapmaya başlamanız�
       SHA256: c5de9f11d4b7608d57139b96f7bc94899bb2fc9dee2e192c8951f6647a9d60f7
       SHA512: cfa779cdb970dfd35dc2a97951310cb3cde1d380b040c283fda6609c591039817a2847ab7174f7a9ee7f7adbb610709b57914bb26e5c015a20d5fe880c569855
 
-## Yayın Yorumu
+## Sürüm Yorumu
 
 Sizi uzun süre beklettiğimiz için üzgünüz.
-Bu yayın için yardım eden herkese teşekkür ederiz.
+Bu sürüm için yardım eden herkese teşekkür ederiz.
 
-Ruby 2.4 sürdürmesi, bu yayın da dahil, Ruby Derneği'nin “Ruby kararlı sürümü için Anlaşması”na dayalıdır.
+Ruby 2.4 sürdürmesi, bu sürüm de dahil, Ruby Derneği'nin “Ruby kararlı sürümü için Anlaşması”na dayalıdır.
