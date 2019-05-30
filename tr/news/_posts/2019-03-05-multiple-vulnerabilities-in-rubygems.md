@@ -8,7 +8,7 @@ tags: security
 lang: tr
 ---
 
-Ruby ile paketlenmiş RubyGems'te birçok güvenlik açığı vardır.
+Ruby ile paketlenmiş RubyGems'te birçok güvenlik açığı var.
 Bunlar [RubyGems'in resmi günlüğünde bildirilmiştir](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
 
 ## Ayrıntılar
