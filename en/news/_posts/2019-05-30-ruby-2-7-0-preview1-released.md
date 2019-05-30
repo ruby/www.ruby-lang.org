@@ -36,7 +36,7 @@ in {name: "Alice", children: [{name: "Bob", age: age}]}
 end
 ```
 
-For more details, please see https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7.
+For more details, please see [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
 
 ## REPL improvement
 
@@ -94,7 +94,7 @@ Besides, source lines shown at `binding.irb` and inspect results for core-class 
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) for more details.
 
-With those changes, [6376 files changed, 227364 insertions(+), 51599 deletions(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) since Ruby 2.6.0!
+With those changes, [1727 files changed, 76022 insertions(+), 60286 deletions(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) since Ruby 2.6.0!
 
 Enjoy programming with Ruby 2.7!
 
@@ -102,28 +102,28 @@ Enjoy programming with Ruby 2.7!
 
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.gz>
 
-      SIZE:   16020363 bytes
-      SHA1:   db070c20aceb235907e6a773dd147a292cb2a7ca
-      SHA256: f0305c4d2a78d66c3cf91c3509a027753888d9b7fba28b8e6bc165854a58fc0b
-      SHA512: d763a4330d43c7ffe16d20f95e8c695f29fafec7cea96953697dd07079e6daab23266a133c3f4e7a971a1781eb29388bafc305f9ad3a68ba4fed6c72f539dd04
+      SIZE:   16021286 bytes
+      SHA1:   2fbecf42b03a9d4391b81de42caec7fa497747cf
+      SHA256: c44500af4a4a0c78a0b4d891272523f28e21176cf9bc1cc108977c5f270eaec2
+      SHA512: f731bc9002edd3a61a4955e4cc46a75b5ab687a19c7964f02d3b5b07423d2360d25d7be5df340e884ca9945e3954e68e5eb11b209b65b3a687c71a1abc24b91f
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.zip>
 
-      SIZE:   20283369 bytes
-      SHA1:   3ab08e70e15a6d4205c543478abd0dfb9a4aa751
-      SHA256: 1ccc2fc75d2eb72b8a684272db5fb657cd1aa560f6eadae16cb5d97d0547c223
-      SHA512: 0ff8bd687775c1d34d0e3eeccde7359990d94688ef4914f645db4e8b59586dcdc0817708505c127b1de1bb1406ecc8d1538370113f202e7bc69d8eceb5104383
+      SIZE:   20283343 bytes
+      SHA1:   7488346fa8e58203a38158752d03c8be6b1da65b
+      SHA256: fdf25573e72e1769b51b8d541d0e1a894a5394dbfdf1b08215aa093079cca64c
+      SHA512: b3b1f59dce94c242ef88a4e68381a4c3a6f90ba0af699083e5a1a00b0fb1dce580f057dad25571fe789ac9aa95aa6e9c071ebb330328dc822217ac9ea9fbeb3f
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.bz2>
 
-      SIZE:   14039220 bytes
-      SHA1:   041ce5746424cf07f02282f7c9b774e509de4071
-      SHA256: 6b7e57399ac3be3233148e902bf3008fff3ad0b7bb2bb0ec57e6aaa85f79dd8b
-      SHA512: e112a0d52509fe4b6954e08c3b67f2fb408784bc0df1c63828728c3f8d88a8917c6451606e2d9f35b6fefaa5ee648b0a3d51417456a5979bde2d079726479a24
+      SIZE:   14038296 bytes
+      SHA1:   f7e70cbc2604c53a9e818a2fc59cd0e2d6c859fa
+      SHA256: d45b4a1712ec5c03a35e85e33bcb57c7426b856d35e4f04f7975ae3944d09952
+      SHA512: a36b241fc1eccba121bb7c2cc5675b11609e0153e25a3a8961b67270c05414b1aa669ce5d4a5ebe4c6b2328ea2b8f8635fbba046b70de103320b3fdcb3d51248
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.xz>
 
-      SIZE:   11437508 bytes
-      SHA1:   009c197ceb96a6b4330048804e30ba351c3bc15b
-      SHA256: 5fa3d54b3610fe57d129b304ca88849663dbd892b7f04a926952a1b254c0565e
-      SHA512: 4940e0d879367946823284cf694975d479ce34fd77d3736dc2e4f5d9c601d085821d5112e59e4781d213e6c3dd0e1fa54d1244a32aac07868a1fe70d76b97572
+      SIZE:   11442988 bytes
+      SHA1:   45e467debc194847a9e3afefb20b11e6dc28ea31
+      SHA256: 8c546df3345398b3edc9d0ab097846f033783d33762889fd0f3dc8bb465c3354
+      SHA512: d416e90bfa3e49cc0675c4c13243c8ec319b7a0836add1bd16bd7662d09eaf46656d26e772ef3b097e10779896e643edd8a6e4f885147e3235257736adfdf3b5
 
 ## What is Ruby
 
