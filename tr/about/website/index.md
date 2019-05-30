@@ -15,7 +15,7 @@ Ruby Visual Identity Team'in daha önceki bir tasarımı tabanlıdır.
 
 ## Sorunları Bildirme ##
 
-Bir sorunu bildirmek için [konu takibi][github-issues]ni kullanın ya da [webmaster][webmaster] ile irtibata geçin (İngilizce olarak).
+Sorun bildirmek için [konu takibi][github-issues]ni kullanın ya da [webmaster][webmaster] ile irtibata geçin (İngilizce olarak).
 
 
 ## Katkıda Bulunma ##
