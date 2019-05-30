@@ -18,7 +18,7 @@ Ayrıntılar için [işleme loguna](https://github.com/ruby/ruby/compare/v2_4_5.
 
 Bu sürümden sonra, Ruby 2.4'ün normal sürdürme evresini sona erdireceğiz, ve güvenlik sürdürme evresine başlayacağız.
 Bu, 2.4.6 sürümünden sonra güvenlik düzeltmeleri dışında asla herhangi bir hata düzeltmesini 2.4'e geri taşımayacağımız anlamına geliyor.
-Güvenlik sürdürme evresi dönemi 1 seneye zamanlanır.
+Güvenlik bakım aşamasının süresi 1 yıl için planlanmıştır.
 Bu dönemin bitişiyle birlikte, Ruby 2.4'ün resmi desteği son bulacaktır.
 Bu sebeple, Ruby 2.6 ya da 2.5'e yükseltme için planlama yapmaya başlamanızı öneririz.
 
