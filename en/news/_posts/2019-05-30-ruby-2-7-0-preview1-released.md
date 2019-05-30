@@ -44,7 +44,7 @@ For more details, please see https://speakerdeck.com/k_tsj/pattern-matching-new-
 It also provides rdoc integration. In `irb` you can display the reference for a given class, module, or method.  [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
 Besides, source lines shown at `binding.irb` and inspect results for core-class objects are now colorized.
 
-<video autoplay="autoplay" loop="loop" width="478" height="202">
+<video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
   <source src="https://cache.ruby-lang.org/pub/media/irb_improved_with_key_take2.mp4" type="video/mp4">
 </video>
 
