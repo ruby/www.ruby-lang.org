@@ -16,7 +16,7 @@ Bu sürüm birkaç yeni özellik ve performans artışı getirmektedir, en önem
 
 ## JIT [Deneysel]
 
-Ruby 2.6 bir JIT (Just-In-Time) derleyicisinin bir ilk gerçeklemesini getirmektedir.
+Ruby 2.6 bir JIT (Just-In-Time) derleyicisinin ilk uygulamasını barındırmaktadır.
 
 JIT derleyicisi, Ruby programlarının performansını iyileştirmeyi amaçlamaktadır.
 İşlem içinde çalışan geleneksel JIT derleyicilerinin aksine, Ruby'nin JIT derleyicisi, C kodunu diske yazar ve yerel kod oluşturmak için yaygın bir C derleyicisini ortaya çıkarır.
