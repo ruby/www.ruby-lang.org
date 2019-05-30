@@ -46,7 +46,7 @@ Bu modül bir `parse` metoduna sahiptir, bu metod verilen karakter dizisini Ruby
 `Node` nesnelerinden kaynak konumu ve çocuk düğümlerini alabilirsiniz.
 Bu özellik deneyseldir.
 
-## Diğer Dikkate Değer Yeni Özellikler
+## Dikkate Değer Diğer Yeni Özellikler
 
 * `#then` isminde `Kernel#yield_self` için bir takma ad eklenmesi.
   [[Özellik #14594]](https://bugs.ruby-lang.org/issues/14594)
