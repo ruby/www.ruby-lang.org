@@ -9,7 +9,7 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.7.0-preview1.
 
-A preview version is released to gather feedback for the final release planed to release on December. It introduces a number of new features and performance improvements, most notably:
+A preview version is released to gather feedback for the final release planned to release on December. It introduces a number of new features and performance improvements, most notably:
 
 * Compaction GC
 * Pattern Matching
