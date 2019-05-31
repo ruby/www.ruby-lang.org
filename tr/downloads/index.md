@@ -1,172 +1,101 @@
 ---
 layout: page
-title: "Ruby İndirin"
+title: "Ruby'yi İndirin"
 lang: tr
 ---
 
 {% include out-of-date.html %}
 
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
-En son kararlı sürüm {{ site.data.downloads.stable[0] }},
-lütfen önce [Ruby lisansını][license] okuyun.
+En son kararlı sürüm {{ site.data.downloads.stable[0] }} sürümüdür.
+Lütfen önce [Ruby'nin lisansını][license] okuyun.
 {: .summary}
 
-### Ruby Kaynak Kodu
+### Ruby'yi Kurmanın Yolları
+
+Her ana platform üstünde Ruby'yi kurmak için birkaç araç vardır:
+
+* Linux/UNIX'te dağıtımınızın paket yönetim sistemini ya da
+  üçüncü taraf araçları ([rbenv][rbenv] ve [RVM][rvm]) kullanabilirsiniz.
+* macOS makinelerinde üçüncü taraf araçları ([rbenv][rbenv] ve [RVM][rvm]) kullanabilirsiniz.
+* Windows makinelerinde [RubyInstaller][rubyinstaller]'ı kullanabilirsiniz.
+
+Paket yönetim sistemleri ya da üçüncü taraf araçları kullanma hakkındaki
+ayrıntılar için [Kurulum][installation] sayfasına bakın.
+
+Tabii ki, ayrıca tüm ana platformlar üzerinde Ruby'yi kaynaktan da kurabilirsiniz.
+
+### Ruby'yi Derlemek — Kaynak Kod
 
 Kaynak kodundan kurmak, platformunuza yeterince hakimseniz ve
-ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Eğer platformunuza
-hazır paket bulunmazsa da uygun olacaktır.
+ortamınızda özel ayarlar gerekiyorsa uygun çözümdür. Bu çözüm ayrıca
+eğer platformunuz için hazır paketler yoksa da uygun olacaktır.
 
-* Ruby {{ site.data.downloads.stable[0] }}
-  Kararlı Versiyon (*tavsiye edilir*)
-* [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }})
-  Bu son kararlı SVN’nin tar gzip hali. Son kararlı
-  sürümden daha iyi olması beklenir.
-* [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }})
-  Bu son SVN’nin tar gzip hali. Çözülmemiş problemleri olabilir.
+Ruby'yi kaynaktan derleme hakkındaki ayrıntılar için [Kurulum][installation]
+sayfasına bakın. Ruby'yi derlerken bir sorunla karşılaşıyorsanız,
+yukarıda bahsedilen üçüncü taraf araçlardan birini kullanmayı düşünün.
+Bunlar size yardımcı olabilir.
+
+* **Kararlı sürümler:**
+  {% for version in site.data.downloads.stable %}
+  {% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}
+  {% endfor %}
+
+{% if site.data.downloads.preview %}
+* **Önizleme sürümleri:**
+  {% for version in site.data.downloads.preview %}
+  {% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}
+  {% endfor %}
+{% endif %}
+
+{% if site.data.downloads.security_maintenance %}
+* **Güvenlik sürdürmesi sürecinde (yakında hayatının sonuna gelecek!):**
+  {% for version in site.data.downloads.security_maintenance %}
+  {% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}
+  {% endfor %}
+{% endif %}
+
+{% if site.data.downloads.eol %}
+* **Artık sürdürülmüyor (Hayatının sonuna gelmiş):**
+  {% for version in site.data.downloads.eol %}
+  {% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}
+  {% endfor %}
+{% endif %}
+
+* **Anlıklar:**
+  * [Kararlı Anlık]({{ site.data.downloads.stable_snapshot.url.gz }}):
+    Bu, şu anki kararlı dalın son anlığının bir tar arşividir.
+    [Gecelik Anlık]({{ site.data.downloads.nightly_snapshot.url.gz }}):
+    Bu, SVN'de her ne varsa onun bir tar arşividir, gecelik olarak yapılır.
+    Bu, hata ve başka sorunlar içerebilir, sorumluluğunu alarak kullanın!
+
+Belirli sürümler, özellikle daha eski sürümler ya da önizlemeler,
+hakkında daha fazla bilgi için, [Sürümler sayfası][releases]na bakın.
+Çeşitli Ruby dallarının şu anki sürdürme durumları hakkında bilgi
+[Dallar sayfası][branches]nda bulunabilir.
 
 Ruby Subversion ve Git depoları hakkında bilgi için [Ruby
-Core](/en/community/ruby-core/) sayfasına bakınız.
+Core](/en/community/ruby-core/) sayfasına bakın.
 
-### Windows’ta Ruby
-
-Windows için Ruby kurulumunda birkaç seçenek vardır. İlk seçenek
-[RubyInstaller][5] kullanmak, derlemiş binary dosyaları içeren bir
-kurulum. İkincisi ise paketlenmiş uygulamaların ve binarylerin
-kullanılması. Ruby’yi nasıl kuracağınızdan emin değilseniz, ilk seçenek
-sizin için daha doğru olacaktır.
-
-* [Ruby 1.8.6-p398 RubyInstaller][6]
-  (md5:&nbsp;233d6b3ddc4c61436b075b51254cd138) Kararlı versiyon (*tavsiye
-  edilir*)
-* [Ruby 1.8.7-p330 RubyInstaller][7] (md5:&nbsp;
-  18d688cfae6e60857cad24da6f9ee055) Kararlı versiyon (*tavsiye edilir*)
-* [Ruby 1.9.1-p430 RubyInstaller][8]
-  (md5:&nbsp;86ac589a955898c3163b161d81750a05) Kararlı versiyon (*tavsiye
-  edilir*)
-* [Ruby 1.9.2-p136 RubyInstaller][9] (md5:&nbsp;
-  8e8843963dae29a98ce3e2ba2ee111f1) Kararlı versiyon (*tavsiye edilir*)
-* [Ruby 1.8.7-p249 Binary][10] (md5:&nbsp;4fd37b0b4b21a042cae7f5f0a8daad16)
-  Kararlı versiyon
-* [Ruby 1.9.1-p378 Binary][11] (md5:&nbsp;7d14a918cc8d243d3e2c409aff41f454)
-  Kararlı versiyon
-
-Lütfen dikkat edin yukarda belirtilen binaryler indirilip elle
-yüklenmesi gereken ve ek parçaları ayrıca yüklenmesi gereken
-dosyalardır. Detaylarını [bu sayfada][12] bulabilirsiniz. Lütfen bir
-hata bildirmeden önce bu adımları yerine getirdiğinizden emin olun.
-
-[RubyInstaller][5] ek işlemler takip etmeyi gerektirmez.
-
-Lütfen ayrıca [pik][13] kullanımını da inceleyin. Bununla Windows’ta
-aynı anda değişik versiyonları ve gemleri kullanmak mümkündür.
-
-### Linux’da Ruby
-
-Kullandığınız dağıtıma bağlı olarak Ruby’yi kurmanın değişik yolları
-vardır. İlki kolay bir şekilde kaynak dosyalarını indirin ve derleyin.
-Bunun dışında bazı dağıtımlarda Ruby’yi çok kolay şekilde kurmak için
-paket yöneticileri vardır.
-
-Örneğin Debian’da ya da Ubuntu’da `apt-get` harika bir çözüm sunar:
-
-{% highlight sh %}
-$ sudo apt-get install ruby1.9.1-full
-{% endhighlight %}
-
-Yukarıdaki komut Ruby 1.9.1’in şu andaki kararlı sürümünü kuracaktır.
-Eğer Ruby 1.8 versiyon kurmak isterseniz şunu kullanabilirsiniz:
-
-{% highlight sh %}
-$ sudo apt-get install ruby-full
-{% endhighlight %}
-
-irb ve rdoc için “universe repository” aktif edilmelidir.
-
-Lütfen ayrıca `rvm` ‘i de inceleyin , [Ruby Version Manager][14] , ile
-aynı anda birkaç versiyon Ruby ve gemleri kullanabilirsiniz.
-
-### macOS’de Ruby
-
-Ruby 1.8.6 Mac OS X Leopard’da Ruby on Rails, Capistrno, Mongrel ve
-birçok popüler gem’i de kapsayacak şekilde tam desteklenir. Ayrıntı için
-[MacOS Forge’daki Ruby wiki][15] ye bakınız.
-
-Mac OS X Tiger 1.8.2 versiyon Ruby ile paketlenmiştir, ama Leopard’a
-yükseltilmemişler için de Ruby son versiyonu yüklemek için yollar
-vardır. [Locomotive][16] eğer çok hızla Rails geliştirmeye başlamak
-isterseniz güzel bir seçim. [MacPorts][17] veya [Fink][18] daha teknik
-kişiler için daha güzel gelebilir.
-
-MacPorts’da, Ruby’yi kurmak için…
-
-{% highlight sh %}
-$ port install ruby
-{% endhighlight %}
-
-Fink (Fink Commander kullanarak) Ruby kurulumu için bir grafik arabirime
-sahiptir.
-
-Ayrıca macOS, Unix temelli olduğu için, kaynak kodu indirip derlemek te
-diğer çözümler kadar etkili olacaktır.
-
-Ruby (ve Rails) in kurulumuna detaylı bakış için Dan Benjamin’in [Tiger
-için][19], [Leopard için][20] ve [Snow Leopard için][21] emsalsiz
-makaleleri sizin çok çabuk ilerlemenizi sağlayacaktır.
-
-### Solaris ve OpenSolaris’de Ruby
-
-Ruby 1.8.7 Solaris 8’den Solaris 10’a kadar [Sunfreeware][22]
-kurulabilir ve Ruby 1.8.7 [Blastwave][23] ‘da bulunabilir. Solaris 10
-için ayarlanmış bir Ruby on Rails paketi Sun’ın Cooltools projesinde
-bulunabilir [Coolstack][24].
-
-[OpenSolaris][25] ‘te Ruby kurmak için, lütfen [Image Packaging System
-veya IPS][26] client kullanın. Bu en son binary ve gem’leri direk olarak
-OpenSolaris depolarından indirecektir. Şunu yazın:
-
-{% highlight sh %}
-$ pfexec pkg install SUNWruby18
-{% endhighlight %}
-
-Bu Ruby, Rubygems, ortak eklentiler ve onların destek kütüphanelerini
-kuracaktır. Bu paket ayrıca DTrace desteği ve performans
-optimizasyonları da içerir. Birçok değişik eserler [Ruby OpenSolaris ARC
-Case][27] ‘de anlatılmıştır.
-
-Diğer OpenSolaris dağıtımı [Solaris Express Community Edition veya
-SXCE][28] üzerinde Ruby kurulu olarak gelir. Versiyonu, yeri vs.
-OpenSolaris’le aynıdır ve yukarda bahsedilen ARC Case’de dökümanı
-bulunabilir.
-
-SVR4 paketlerini elle yüklemek için lütfen [RubyOpenSolaris project @
-Rubyforge][29] adresini inceleyin.
+Ruby kaynağı tüm dünyaya yayılmış [Yansı Siteleri][mirrors]nden
+ulaşılabilirdir.
+Lütfen yakınınızdaki bir yansıyı kullanmaya çalışın.
 
 
 
 [license]: {{ site.license.url }}
-[5]: https://rubyinstaller.org/
-[6]: http://rubyforge.org/frs/download.php/71066/rubyinstaller-1.8.6-p398.exe
-[7]: http://rubyforge.org/frs/download.php/73719/rubyinstaller-1.8.7-p330.exe
-[8]: http://rubyforge.org/frs/download.php/72075/rubyinstaller-1.9.1-p430.exe
-[9]: http://rubyforge.org/frs/download.php/73722/rubyinstaller-1.9.2-p136.exe
-[10]: https://cache.ruby-lang.org/pub/ruby/binaries/mswin32/ruby-1.8.7-p249-i386-mswin32.zip
-[11]: https://cache.ruby-lang.org:21/pub/ruby/binaries/mswin32/ruby-1.9.1-p378-i386-mswin32.zip
-[12]: http://www.garbagecollect.jp/ruby/mswin32/en/documents/install.html
-[13]: https://github.com/vertiginous/pik
-[14]: http://rvm.beginrescueend.com
-[15]: http://trac.macosforge.org/projects/ruby/wiki
-[16]: http://locomotive.raaum.org/
-[17]: http://www.macports.org/
-[18]: http://fink.sourceforge.net/
-[19]: http://hivelogic.com/articles/ruby-rails-mongrel-mysql-osx
-[20]: http://hivelogic.com/articles/ruby-rails-leopard
-[21]: http://hivelogic.com/articles/compiling-ruby-rubygems-and-rails-on-snow-leopard/
-[22]: http://www.sunfreeware.com
-[23]: http://www.blastwave.org
-[24]: http://cooltools.sunsource.net/coolstack
-[25]: http://www.opensolaris.org
-[26]: http://opensolaris.org/os/project/pkg/
-[27]: http://jp.opensolaris.org/os/community/arc/caselog/2007/600/
-[28]: http://opensolaris.org/os/downloads
-[29]: http://rubyforge.org/projects/rubyopensolaris
+[installation]: /tr/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /en/downloads/branches/
+[mirrors]: /en/downloads/mirrors/
+[rvm]: http://rvm.io/
+[rbenv]: https://github.com/rbenv/rbenv
+[rubyinstaller]: https://rubyinstaller.org/

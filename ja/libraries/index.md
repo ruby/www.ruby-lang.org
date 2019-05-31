@@ -20,9 +20,8 @@ Ruby のライブラリは主に [RubyGems.org][rubygems] に gem として置�
 `gem search -r` を使うと RubyGems のリポジトリを調べることが出来ます。例えば、`gem search -r rails` は Rails に関係のある gem を返します。
 `--local` (`-l`) オプションを使うと、インストール済みの gem に対してローカルで検索をすることが出来ます。gem をインストールするには `gem install [gem]` を使います。インストール済みの gem を見るには `gem list` を使います。さらに `gem` コマンドについて知りたい場合は、先に進むか[RubyGems' docs][rubygems-guides] を参照してください。
 
-他にもライブラリの配布元があります。
-[RubyForge][rubyforge]はかつて Ruby のライブラリの保管場所として広く使われていたものです。
-しかし近年では [GitHub][github] が ruby 関連のリポジトリとして台頭してきました。
+また、他にもライブラリの配布元があります。
+近年では[GitHub][github] が ruby 関連のリポジトリとして広く使われています。
 gem としては RubyGems.org に公開されますが、gem のソースコードのほとんどは GitHub 上で見ることが出来ます。
 
 [The Ruby Toolbox][ruby-toolbox] は、オープンソースの Ruby プロジェクトを探索しやすくするプロジェクトです。
@@ -99,7 +98,6 @@ RubyGems.org に [いくつかのガイド][rubygems-guides] があります。
 [rubygems]: https://rubygems.org/
 [rubygems-download]: https://rubygems.org/pages/download/
 [rubygems-guides]: http://guides.rubygems.org/
-[rubyforge]: http://rubyforge.org/
 [github]: https://github.com/
 [rubygems-command-ref]: http://guides.rubygems.org/command-reference/
 [bundler]: http://bundler.io/

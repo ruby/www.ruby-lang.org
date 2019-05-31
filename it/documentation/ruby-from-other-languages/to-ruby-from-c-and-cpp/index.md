@@ -154,4 +154,3 @@ A differenza di C++, in Ruby…
   “green thread” (implementati solo all’interno dell’interpreter) e non
   dei thread nativi.
 * Una libreria standard di unit test è disponibile di default.
-

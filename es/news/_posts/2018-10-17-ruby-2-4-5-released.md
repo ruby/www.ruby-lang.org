@@ -7,7 +7,7 @@ date: 2018-10-17 17:00:00 +0000
 lang: es
 ---
 
-Se ha publicado Ruby 2.4.5
+Se ha publicado Ruby 2.4.5.
 
 Esta versión incluye cerca de 40 correcciones a fallas tras la versión
 anterior, y también incluye varias correcciones de seguridad.

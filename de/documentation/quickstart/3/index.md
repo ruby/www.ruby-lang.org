@@ -232,4 +232,3 @@ ri20min.rb”. Die Ausgabe sollte sein:
 
 In dieses Beispiel wurden einige neue Dinge gestreut, auf die wir
 sogleich [näher eingehen werden](../4/).
-

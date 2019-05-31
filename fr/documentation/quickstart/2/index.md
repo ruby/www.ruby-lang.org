@@ -139,4 +139,3 @@ d’ailleurs utilisée par les méthodes `say_hi` et `say_bye`.
 
 Maintenant, il s’agit de donner vie à notre classe. Donc de [créer un
 objet](../3/)...
-

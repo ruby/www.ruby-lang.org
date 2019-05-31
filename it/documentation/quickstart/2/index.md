@@ -122,4 +122,3 @@ classe. Come vedi l’abbiamo usata in `saluta` e in `congeda`.
 
 Quindi come mettiamo in funzione la nostra classe PersonaCordiale?
 [Creare un oggetto.](../3/)
-

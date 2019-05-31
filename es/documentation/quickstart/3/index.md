@@ -234,4 +234,3 @@ ri20min.rb”. El resultado debería ser:
 
 Hay un montón de cosas nuevas en este nuevo ejemplo en las que podemos
 [echar una mirada más profunda](../4/).
-

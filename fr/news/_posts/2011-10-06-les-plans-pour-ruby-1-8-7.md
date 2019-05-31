@@ -41,4 +41,3 @@ Voici l\'agenda :
   2013, au cas où vous utiliseriez toujours 1.8.7.
 * Nous ne supporterons plus 1.8.7, de quelque manière que ce soit, après
   juin 2013.
-

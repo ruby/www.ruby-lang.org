@@ -108,4 +108,3 @@ Vielen Dank an Ben Murphy für das Melden dieses Problems.
 
 * CVE-Nummer ergänzt am 2013-03-11 07:45:00 (UTC)
 * Erstmals veröffentlicht am 2013-02-22 12:00:00 (UTC)
-

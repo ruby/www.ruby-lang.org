@@ -44,4 +44,3 @@ Ce problème a été remonté par Peter Bex.
 ## Mises à jour
 
 * Initialement publiées le 2012-10-12 à 19:19:55 JST.
-

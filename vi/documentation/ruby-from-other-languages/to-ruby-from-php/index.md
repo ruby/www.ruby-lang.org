@@ -48,4 +48,3 @@ Không giống như PHP, trong Ruby…
 * Chỉ có `false` và `nil` là false: `0`, `array()` và `""` đều là true
   trong các câu điều kiện.
 * Hầu như mọi thứ đều gọi phương thức, thậm chí cả `raise` (trong PHP là `throw`).
-

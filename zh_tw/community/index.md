@@ -5,12 +5,13 @@ lang: zh_tw
 ---
 
 良好的社群是支持程式語言發展的一個很重要的因素。Ruby 擁有了一個有活力、不斷茁壯的社群，無論是你是初學者或是程式好手，我們歡迎來自不同程度背景的朋友。
+{: .summary}
 
 如果你有興趣參與，可以從這幾個地方開始：
 
 [Ruby Taiwan 社群][1]
 : Ruby Taiwan 社群成立於 2008 年 10 月，主要是針對 Ruby
-  程式語言及軟體開發，進行業界的交流及分享，提昇開發人員的技術深度與廣度。詳見[關於 Ruby Taiwan][2]。
+  程式語言及軟體開發，進行業界的交流及分享，提昇開發人員的技術深度與廣度。
 
 [Ruby 使用者群組](/zh_tw/community/user-groups/)
 : 本地的 Ruby 使用者群組可以讓你與其他程式設計師進行交流。Ruby
@@ -34,13 +35,16 @@ lang: zh_tw
 : 全世界有越來越多的研討會讓 Ruby 程式設計師可以參與，分享他們的工作經驗、討論 Ruby 的未來，同時也歡迎新成員的加入。台灣的
   Ruby 年度研討會為 [RubyConf Taiwan](http://rubyconf.tw)。
 
+[Podcasts](/zh_tw/community/podcasts/)
+: 比起閱讀，如果你更喜歡用聆聽的方式接收 Ruby 的資訊，你可以收聽這些 Podcasts。
+  內容包括 Ruby 或是 gem 的新發佈消息，還有 Ruby 使用者、貢獻者和維護者之間的討論與訪談。
+
 Ruby 的一般消息
 : * [Ruby Central][ruby-central]
   * [Ruby at Open Directory Project][ruby-opendir]
   * [Rails at Open Directory Project][rails-opendir]
 
 [1]: http://ruby.tw
-[2]: http://ruby.tw/about
 [railsfun]: http://railsfun.tw/index.php
 
 [ruby-central]: http://rubycentral.org/

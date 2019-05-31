@@ -65,7 +65,7 @@ Stay tuned for the new age of Ruby's performance.
 * Merged RubyGems 2.7.6
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview1/NEWS)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview1)
+or the [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview1)
 for details.
 
 With those changes,

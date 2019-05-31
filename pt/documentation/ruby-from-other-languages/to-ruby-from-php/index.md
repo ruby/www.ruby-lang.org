@@ -53,4 +53,3 @@ Diferente do PHP, em Ruby …
 * Somente `false` e `nil` são falsos: `0`, `array()` e `""` são todos
   verdade em expressões condicionais.
 * Quase tudo é uma invocação de um método, até `raise` (`throw` no PHP).
-

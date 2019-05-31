@@ -30,10 +30,9 @@ lang: ko
 list`를 사용합니다. 좀 더 정보가 필요하시면 아래 내용을 좀 더 읽으시거나 [RubyGems의
 문서][3]를 참조하세요.
 
-다른 라이브러리의 배포처도 있습니다. [RubyForge][4]는 예전엔 루비 라이브러리의
-배포처로 널리 사용되었던 적이 있습니다. 하지만 최근 몇 년간 [**GitHub**][5]가
-루비 관련 라이브러리의 배포처로 대두되었습니다. 젬으로 RubyGems.org에
-공개되어 있지만, 대부분의 젬의 소스코드는 GitHub에서 볼 수 있습니다.
+다른 라이브러리의 배포처도 있습니다. [**GitHub**][5]는 루비 관련 라이브러리의
+주요 배포처입니다. 완전한 젬은 RubyGems.org에 공개되어 있지만, 대부분의 젬의
+소스코드는 GitHub에서 볼 수 있습니다.
 
 [**The Ruby Toolbox**][6]는 오픈소스이며 루비 프로젝트를 검색하기 쉽게 하기 위한
 프로젝트입니다. 다양한 종류의 일반적인 개발 작업을 카테고리로 릴리스나 커밋의
@@ -114,7 +113,6 @@ RubyGems.org에는 이 주제에 대한 [몇 가지 가이드][3]가 있습니�
 [1]: https://rubygems.org/
 [2]: https://rubygems.org/pages/download/
 [3]: http://guides.rubygems.org/
-[4]: http://rubyforge.org/
 [5]: https://github.com/
 [6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/

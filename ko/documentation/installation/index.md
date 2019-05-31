@@ -30,6 +30,10 @@ ruby -v
   전환을 도와줍니다.
 * 마지막으로 **소스에서 빌드** 하실 수도 있습니다.
 
+Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용하여
+지원되는 Linux 배포판 중 하나를 설치하고, 해당 시스템에 맞는 설치 방법을
+사용할 수 있습니다.
+
 이 목록은 각 다른 요구사항과 플랫폼을 위한 주요 설치방법입니다.
 
 * [패키지 관리 시스템](#package-management-systems)
@@ -77,7 +81,6 @@ Debian GNU/Linux와 Ubuntu는 apt 패키지 관리 시스템을 사용합니다.
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
-
 
 ### yum (CentOS, Fedora, RHEL)
 {: #yum}
@@ -321,3 +324,4 @@ $ sudo make install
 [download]: /ko/downloads/
 [installers]: /ko/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[wsl]: https://docs.microsoft.com/ko-kr/windows/wsl/about

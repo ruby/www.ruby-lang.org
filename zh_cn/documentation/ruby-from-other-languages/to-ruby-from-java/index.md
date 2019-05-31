@@ -38,7 +38,7 @@ Ruby 与 Java 不同的地方……
 * `nil` 替代 `null`。
 * Ruby 对 `==` 和 `equals()` 的处理方式与 Java 不一样。测试相等性使用 `==`（Java 中是 `equals()`）。测试是否为同一对象使用 `equals?()`（Java 中是 `==`）。
 
-[1]: http://wxruby.rubyforge.org/wiki/wiki.pl
-[2]: http://www.fxruby.org/
+[1]: https://github.com/eumario/wxruby
+[2]: https://github.com/larskanis/fxruby
 [3]: https://ruby-gnome2.osdn.jp/
 [4]: https://github.com/ryanmelt/qtbindings/

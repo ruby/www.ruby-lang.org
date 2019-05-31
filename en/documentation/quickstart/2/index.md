@@ -123,4 +123,3 @@ you can see it’s used by `say_hi` and `say_bye`.
 
 So how do we get this Greeter class set in motion?
 [Create an object.](../3/)
-

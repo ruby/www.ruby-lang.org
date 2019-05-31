@@ -55,4 +55,3 @@ Para desuscribirse de una lista, envía un correo cuyo cuerpo sea
 
 Para ver la lista de comandos, envía un mensaje cuyo cuerpo sea “help” a
 la dirección de administración automatizada.
-

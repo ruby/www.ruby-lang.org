@@ -227,4 +227,3 @@ output should be:
 
 There are a lot of new things thrown into this final example that we
 [can take a deeper look at.](../4/)
-

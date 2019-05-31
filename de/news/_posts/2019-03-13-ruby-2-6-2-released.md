@@ -47,6 +47,6 @@ und die [Commit-Logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
 
 ## Veröffentlichungskommentar
 
-Viele Commiter, Entwickler und Nutzer, die Fehler gemeldet haben,
+Viele Committer, Entwickler und Nutzer, die Fehler gemeldet haben,
 haben uns bei dieser Veröffentlichung geholfen.
 Danke für ihre Beiträge.

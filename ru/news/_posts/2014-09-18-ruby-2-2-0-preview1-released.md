@@ -75,4 +75,3 @@ Ruby 2.2 и старше. (См. [пост в их блоге](http://weblog.rub
 * [Известные проблемы с 2.2.0](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
 Информацию о плане релиза можно узнать [тут](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22).
-

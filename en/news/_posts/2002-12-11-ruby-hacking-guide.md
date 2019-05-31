@@ -536,4 +536,3 @@ Bear in mind that it’s an unofficial translation.
     Appendix A: Function and macros reference
     Appendix B: References
     Index
-

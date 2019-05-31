@@ -125,4 +125,3 @@ classe. Como podemos ver, ela é utilizada por `diz_ola` e `diz_adeus`.
 
 Então como é que fazemos a classe Anfitrião funcionar? [Criamos um
 objeto.](../3/)
-

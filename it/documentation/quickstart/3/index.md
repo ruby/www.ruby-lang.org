@@ -226,4 +226,3 @@ Verrà mostrato qualcosa di simile:
 
 Ci sono moltissime cose nuove in questo esempio che [possono assumere un
 significato più profondo](../4/).
-
