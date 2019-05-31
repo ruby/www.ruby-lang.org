@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir-Bold.eot');
+    src: url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Bold.woff2') format('woff2'),
+         url('fonts/Vazir-Bold.woff') format('woff'),
+         url('fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir-Black.eot');
+    src: url('fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Black.woff2') format('woff2'),
+         url('fonts/Vazir-Black.woff') format('woff'),
+         url('fonts/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir-Medium.eot');
+    src: url('fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Medium.woff2') format('woff2'),
+         url('fonts/Vazir-Medium.woff') format('woff'),
+         url('fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir-Light.eot');
+    src: url('fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir-Light.woff2') format('woff2'),
+         url('fonts/Vazir-Light.woff') format('woff'),
+         url('fonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir-Thin.eot');
+    src: url('fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fonts/Vazir-Thin.woff2') format('woff2'),
+         url('fonts/Vazir-Thin.woff') format('woff'),
+         url('fonts/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Vazir', "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+.container {
+    text-align: right !important;
+}
+
+#search-box {
+    right: auto;
+    left: 24px ;
+}
+
+#header h2 {
+    letter-spacing: normal;
+}
+
+#footer {
+    text-align: right !important;
+}
+
+#home-page-layout #code {
+    direction: ltr !important;
+    text-align: left;
+}
+
+pre {
+    direction: ltr !important;
+    text-align: left;
+}
+
+#header div.site-links a {
+    float: none;
+}
+
+#footer div.site-links a {
+    float: none;
+}
+
+#footer div.site-links {
+    text-align: right;
+    padding: 0 15px 0 0;
+}
+
+#header div.site-links {
+    padding: 0 8px 0 0;
+}
