@@ -19,6 +19,22 @@
 # In order to get the release listed on the downloads page,
 # you also need to add an entry to `_data/downloads.yml'.
 
+# 2.7 series
+
+- version: 2.7.0-preview1
+  date: 2019-05-30
+  post: /en/news/2019/05/30/ruby-2-7-0-preview1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.xz
+  sha256:
+    gz:  b61dba9ed01e855000111964363fbd691219ab3c567455434717ecba962747ea
+    zip: 59da2314822add396f68ce3e8e43e98843d41f4eab2354edc7f793a1ec3f3359
+    bz2: b20c80adc1324c0ec87bf3f4a66b837771d7a30fc876d83e68e519c623cf0369
+    xz:  540f11753f5805c1bf560c54a44d1ea04414217c7d319cac165de964e269399f
+
 # 2.6 series
 
 - version: 2.6.3
