@@ -9,7 +9,7 @@ lang: ko
 
 루비 2.7.0-preview1 릴리스를 알리게 되어 기쁩니다.
 
-프리뷰 버전은 12월에 예정된 최종 릴리즈에 대한 의견을 모으기 위해서 릴리스됩니다. 이는 많은 새 기능과 성능 향상을 포함하고 있습니다. 특히 눈에 띄는 것은 이하입니다.
+프리뷰 버전은 12월에 예정된 최종 릴리스에 대한 의견을 모으기 위해서 릴리스됩니다. 이는 많은 새 기능과 성능 향상을 포함하고 있습니다. 특히 눈에 띄는 것은 이하입니다.
 
 * 압축 GC
 * 패턴 매칭
@@ -19,9 +19,9 @@ lang: ko
 
 이 릴리스는 단편화된 메모리를 최적화할 수 있는 압축 GC를 도입합니다.
 
-몇몇 멀티 스레드를 이용하는 루비 프로그램은 과다한 메모리 사용량과 성능을 저하시키는 메모리 단편화가 일어날 수 있습니다.
+몇몇 멀티 스레드를 이용하는 루비 프로그램은 메모리 단편화를 일으킬 수 있고, 이는 과다한 메모리 사용량과 성능 저하로 이어질 수 있습니다.
 
-`GC.compact` 메소드는 힙 공간을 압축합니다. 이 기능은 더 적은 페이지가 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다. [#15626](https://bugs.ruby-lang.org/issues/15626)
+`GC.compact` 메서드는 힙 공간을 압축합니다. 이 기능은 더 적은 페이지를 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다. [#15626](https://bugs.ruby-lang.org/issues/15626)
 
 ## 패턴 매칭 [Experimental]
 
@@ -41,8 +41,8 @@ end
 ## REPL 개선
 
 루비에 기본으로 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가 이제 여러 줄 입력을 지원합니다. 이는 `reline`, `readline`과 호환되는 순수 루비 구현으로 동작합니다.
-또한 rdoc 통합도 제공됩니다. `irb`에서 주어진 클래스, 모듈, 메소드의 레퍼런스를 볼 수 있습니다. [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
-그 뿐만 아니라, `binding.irb`에서 보여지는 소스 코드나 코어 클래스 객체의 inspect 결과에 색이 추가되었습니다.
+또한 rdoc 통합도 제공됩니다. `irb`에서 주어진 클래스, 모듈, 메서드의 레퍼런스를 볼 수 있습니다. [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
+그뿐만 아니라, `binding.irb`에서 보이는 소스 코드나 코어 클래스 객체의 inspect 결과에 색이 추가되었습니다.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
   <source src="https://cache.ruby-lang.org/pub/media/irb_improved_with_key_take2.mp4" type="video/mp4">
@@ -50,7 +50,7 @@ end
 
 ## 이외의 주목할 만한 새 기능
 
-* 메소드 참조 연산자 <code>.:</code>가 실험적으로 도입되었습니다. [#12125]( https://bugs.ruby-lang.org/issues/12125), [#13581]( https://bugs.ruby-lang.org/issues/13581)
+* 메소드 참조 연산자 <code>.:</code>가 실험적으로 도입되었습니다. [#12125](https://bugs.ruby-lang.org/issues/12125), [#13581](https://bugs.ruby-lang.org/issues/13581)
 
 * 번호 지정 파라미터가 기본 블록 파라미터로서 실험적으로 도입되었습니다. [#4475](https://bugs.ruby-lang.org/issues/4475)
 
@@ -71,7 +71,7 @@ end
 
   * 최적화 가정이 유효하지 않은 경우 JIT으로 컴파일 된 코드는 최적화 레벨이 낮은 코드로 재컴파일 됩니다.
 
-  * 순수하다고 판단된 메소드를 인라인으로 삽입하기 됩니다. 이 최적화는 아직 실험적이며 많은 메소드는 아직 순수하다고 판정되지 않은 채입니다.
+  * 순수하다고 판단된 메서드를 인라인으로 삽입하게 됩니다. 이 최적화는 아직 실험적이며 많은 메서드는 아직 순수하다고 판정되지 않은 상태입니다.
 
   * `--jit-min-calls`의 기본값이 5에서 10,000으로 변경됩니다.
 
@@ -79,13 +79,13 @@ end
 
 ## 그 이외의 2.6 이후로 주목할 만한 변경
 
-* 블록을 넘긴 메소드의 호출 안에서 블록이 없는 `Proc.new`와 `proc`을 사용하면 경고가 발생합니다.
+* 블록을 넘긴 메서드의 호출 안에서 블록이 없는 `Proc.new`와 `proc`을 사용하면 경고가 발생합니다.
 
-* 블록을 넘긴 메소드의 호출 안에서 블록이 없는 `lambda` 는 에러가 발생합니다.
+* 블록을 넘긴 메서드의 호출 안에서 블록이 없는 `lambda`는 에러가 발생합니다.
 
 * 유니코드와 에모지의 버전을 11.0.0에서 12.0.0으로 갱신했습니다. [[Feature #15321]](https://bugs.ruby-lang.org/issues/15321)
 
-* 유니코드를 일본의 새로운 연호 레이와를 가리키는 코드(U+32FF)에 대한 지원을 추가한 12.1.0으로 갱신했습니다. [[Feature #15195]](https://bugs.ruby-lang.org/issues/15195)
+* 유니코드를 일본의 새로운 연호 레이와를 가리키는 코드(U+32FF SQUARE ERA NAME REIWA)에 대한 지원을 추가한 12.1.0으로 갱신했습니다. [[Feature #15195]](https://bugs.ruby-lang.org/issues/15195)
 
 * JIS X 0301의 새 버전이 나올 때까지 잠정적으로 `Date.jisx0301`, `Date#jisx0301`, `Date.parse`에 새 일본 연호를 대응했습니다. [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
@@ -127,4 +127,4 @@ end
 
 ## 루비는
 
-루비는 1993년에 Matz(유키모토 마츠히로)가 처음 개발하고, 현재는 오픈 소스로서 개발되고 있습니다. 이는 여러 플랫폼에서 동작하며, 특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
+루비는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했고, 현재는 오픈 소스로서 개발되고 있습니다. 이는 여러 플랫폼에서 동작하며, 특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
