@@ -1813,7 +1813,7 @@ locales:
     ru: |
       <a href="/ru/about/website/">Этот сайт</a> с гордостью поддерживается членами сообщества Ruby.
     tr: |
-      <a href="/en/about/website/">Bu web sitesi</a>
+      <a href="/tr/about/website/">Bu web sitesi</a>
       Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
     vi: |
       Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
