@@ -1,32 +1,32 @@
 ---
 layout: news_post
-title: "Ruby 2.7.0-preview1 Released"
+title: "루비 2.7.0-preview1 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2019-05-30 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
-We are pleased to announce the release of Ruby 2.7.0-preview1.
+루비 2.7.0-preview1 릴리스를 알리게 되어 기쁩니다.
 
-A preview version is released to gather feedback for the final release planned to release on December. It introduces a number of new features and performance improvements, most notably:
+프리뷰 버전은 12월에 예정된 최종 릴리즈에 대한 의견을 모으기 위해서 릴리스됩니다. 이는 많은 새 기능과 성능 향상을 포함하고 있습니다. 특히 눈에 띄는 것은 이하입니다.
 
-* Compaction GC
-* Pattern Matching
-* REPL improvement
+* 압축 GC
+* 패턴 매칭
+* REPL 개선
 
-## Compaction GC
+## 압축 GC
 
-This release introduces Compaction GC which can defragment a fragmented memory space.
+이 릴리스는 단편화된 메모리를 모을 수 있는 압축 GC를 도입합니다.
 
-Some multithread Ruby programs may cause memory fragmentation, leading to high memory usage and degraded speed.
+몇몇 멀티 스레드를 이용하는 루비 프로그램은 과다한 메모리 사용량과 성능을 저하시키는 메모리 단편화가 일어날 수 있습니다.
 
-The `GC.compact` method is introduced for compacting the heap. This function compacts live objects in the heap so that fewer pages may be used, and the heap may be more CoW friendly. [#15626](https://bugs.ruby-lang.org/issues/15626)
+`GC.compact` 메소드는 힙 공간을 압축합니다. 이 기능은 더 적은 페이지가 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다. [#15626](https://bugs.ruby-lang.org/issues/15626)
 
-## Pattern Matching [Experimental]
+## 패턴 매칭 [Experimental]
 
-Pattern matching, widely used feature in functional programming languages, is introduced as an experimental feature. [#14912](https://bugs.ruby-lang.org/issues/14912)
-It can traverse a given object and assign its value if it matches a pattern.
+함수형 언어에서 널리 알려진 기능인 패턴 매칭이 실험적으로 도입되었습니다. [#14912](https://bugs.ruby-lang.org/issues/14912)
+이는 패턴에 일치하는 경우, 주어진 객체를 순회하여 그 값을 대입합니다.
 
 ```ruby
 case JSON.parse('{...}', symbolize_names: true)
@@ -36,69 +36,69 @@ in {name: "Alice", children: [{name: "Bob", age: age}]}
 end
 ```
 
-For more details, please see [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
+더 자세한 설명은 [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)을 확인해 주세요.
 
-## REPL improvement
+## REPL 개선
 
-`irb`, bundled interactive environment (REPL; Read-Eval-Print-Loop), now supports multi-line editing. It's powered by `reline`, `readline` compatible pure Ruby implementation.
-It also provides rdoc integration. In `irb` you can display the reference for a given class, module, or method.  [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
-Besides, source lines shown at `binding.irb` and inspect results for core-class objects are now colorized.
+루비에 기본으로 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가 이제 여러 줄 입력을 지원합니다. 이는 `reline`, `readline`과 호환되는 순수 루비 구현으로 동작합니다.
+또한 rdoc 통합도 제공됩니다. `irb`에서 주어진 클래스, 모듈, 메소드의 레퍼런스를 볼 수 있습니다. [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
+그 뿐만 아니라, `binding.irb`에서 보여지는 소스 코드나 코어 클래스 객체의 inspect 결과에 색이 추가되었습니다.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
   <source src="https://cache.ruby-lang.org/pub/media/irb_improved_with_key_take2.mp4" type="video/mp4">
 </video>
 
-## Other Notable New Features
+## 이외의 주목할 만한 새 기능
 
-* A method reference operator, <code>.:</code>, is introduced as an experimental feature.  [#12125]( https://bugs.ruby-lang.org/issues/12125), [#13581]( https://bugs.ruby-lang.org/issues/13581)
+* 메소드 참조 연산자 <code>.:</code>가 실험적으로 도입되었습니다. [#12125]( https://bugs.ruby-lang.org/issues/12125), [#13581]( https://bugs.ruby-lang.org/issues/13581)
 
-* Numbered parameter as the default block parameter is introduced as an experimental feature.  [#4475](https://bugs.ruby-lang.org/issues/4475)
+* 번호 지정 파라미터가 기본 블록 파라미터로서 실험적으로 도입되었습니다. [#4475](https://bugs.ruby-lang.org/issues/4475)
 
-* A beginless range is experimentally introduced.  It might not be as useful
-  as an endless range, but would be good for DSL purpose. [#14799](https://bugs.ruby-lang.org/issues/14799)
+* 시작 값을 지정하지 않는 범위 연산자가 실험적으로 추가됩니다. 종료 지정이 없는 범위 연산자처럼 유용하지
+  않을 수도 있습니다만, DSL 용도로는 유용할 것입니다. [#14799](https://bugs.ruby-lang.org/issues/14799)
 
       ary[..3]  # identical to ary[0..3]
       rel.where(sales: ..100)
 
-* `Enumerable#tally` is added.  It counts the occurrence of each element.
+* `Enumerable#tally`가 추가됩니다. 이는 각 요소가 몇번 출현했는지를 셉니다.
 
       ["a", "b", "c", "b"].tally
       #=> {"a"=>1, "b"=>2, "c"=>1}
 
-## Performance improvements
+## 성능 향상
 
 * JIT [Experimental]
 
-  * JIT-ed code is recompiled to less-optimized code when an optimization assumption is invalidated.
+  * 최적화 가정이 유효하지 않은 경우 JIT으로 컴파일 된 코드는 최적화 레벨이 낮은 코드로 재컴파일 됩니다.
 
-  * Method inlining is performed when a method is considered as pure. This optimization is still experimental and many methods are NOT considered as pure yet.
+  * 순수하다고 판단된 메소드를 인라인으로 삽입하기 됩니다. 이 최적화는 아직 실험적이며 많은 메소드는 아직 순수하다고 판정되지 않은 채입니다.
 
-  * Default value of `--jit-min-calls` is changed from 5 to 10,000
+  * `--jit-min-calls`의 기본값이 5에서 10,000으로 변경됩니다.
 
-  * Default value of `--jit-max-cache` is changed from 1,000 to 100
+  * `--jit-max-cache`의 기본값이 1,000에서 100으로 변경됩니다.
 
-## Other notable changes since 2.6
+## 그 이외의 2.6 이후로 주목할 만한 변경
 
-* `Proc.new` and `proc` with no block in a method called with a block is warned now.
+* 블록을 넘긴 메소드의 호출 안에서 블록이 없는 `Proc.new`와 `proc`을 사용하면 경고가 발생합니다.
 
-* `lambda` with no block in a method called with a block errs.
+* 블록을 넘긴 메소드의 호출 안에서 블록이 없는 `lambda` 는 에러가 발생합니다.
 
-* Update Unicode version and Emoji version from 11.0.0 to 12.0.0.  [[Feature #15321]](https://bugs.ruby-lang.org/issues/15321)
+* 유니코드와 에모지의 버전을 11.0.0에서 12.0.0으로 갱신했습니다. [[Feature #15321]](https://bugs.ruby-lang.org/issues/15321)
 
-* Update Unicode version to 12.1.0, adding support for U+32FF SQUARE ERA NAME REIWA.  [[Feature #15195]](https://bugs.ruby-lang.org/issues/15195)
+* 유니코드를 일본의 새로운 연호 레이와를 가리키는 코드(U+32FF)에 대한 지원을 추가한 12.1.0으로 갱신했습니다. [[Feature #15195]](https://bugs.ruby-lang.org/issues/15195)
 
-* `Date.jisx0301`, `Date#jisx0301`, and `Date.parse` provisionally support the new Japanese era as an informal extension, until the new JIS X 0301 is issued.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
+* JIS X 0301의 새 버전이 나올 때까지 잠정적으로 `Date.jisx0301`, `Date#jisx0301`, `Date.parse`에 새 일본 연호를 대응했습니다. [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
-* Require compilers to support C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Details of our dialect: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+* 루비 빌드에 C99를 지원하는 컴파일러를 요구하게 됩니다. [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
+  * 이에 대한 자세한 정보: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) for more details.
+[NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS)나 [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1)에서 더 자세한 설명을 확인할 수 있습니다.
 
-With those changes, [1727 files changed, 76022 insertions(+), 60286 deletions(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) since Ruby 2.6.0!
+이러한 변경사항에 따라, 루비 2.6.0 이후로 [파일 1727개 수정, 76022줄 추가(+), 60286줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1)가 이루어졌습니다!
 
-Enjoy programming with Ruby 2.7!
+루비 2.7을 즐겨주시기 바랍니다!
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.gz>
 
@@ -125,6 +125,6 @@ Enjoy programming with Ruby 2.7!
       SHA256: 8c546df3345398b3edc9d0ab097846f033783d33762889fd0f3dc8bb465c3354
       SHA512: d416e90bfa3e49cc0675c4c13243c8ec319b7a0836add1bd16bd7662d09eaf46656d26e772ef3b097e10779896e643edd8a6e4f885147e3235257736adfdf3b5
 
-## What is Ruby
+## 루비는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993, and is now developed as Open Source. It runs on multiple platforms and is used all over the world especially for web development.
+루비는 1993년에 Matz(유키모토 마츠히로)가 처음 개발하고, 현재는 오픈 소스로서 개발되고 있습니다. 이는 여러 플랫폼에서 동작하며, 특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
