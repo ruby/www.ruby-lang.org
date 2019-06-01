@@ -50,7 +50,7 @@ end
 
 ## 이외의 주목할 만한 새 기능
 
-* 메소드 참조 연산자 <code>.:</code>가 실험적으로 도입되었습니다. [#12125](https://bugs.ruby-lang.org/issues/12125), [#13581](https://bugs.ruby-lang.org/issues/13581)
+* 메서드 참조 연산자 <code>.:</code>가 실험적으로 도입되었습니다. [#12125](https://bugs.ruby-lang.org/issues/12125), [#13581](https://bugs.ruby-lang.org/issues/13581)
 
 * 번호 지정 파라미터가 기본 블록 파라미터로서 실험적으로 도입되었습니다. [#4475](https://bugs.ruby-lang.org/issues/4475)
 
