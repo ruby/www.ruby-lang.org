@@ -36,7 +36,7 @@ mengambil salah satu solusi berikut segera mungkin.
 ## Solusi
 
 Pada prinsipnya, Anda harus memperbarui Ruby ke versi terbaru.
-RubyGems 3.0 atau setelahnya mencakup perbaikan dari kerentanan ini, sehingga
+RubyGems 3.0.3 atau setelahnya mencakup perbaikan dari kerentanan ini, sehingga
 perbarui RubyGems ke versi terbaru jika Ada tidak dapat memperbarui
 Ruby itu sendiri.
 
