@@ -221,7 +221,7 @@ mendapatkan versi Ruby terbaru.
 
 Pada sistem lain, Anda dapat mencari *package repository* dari
 *manager* distribusi Linux Anda untuk Ruby. Kemungkinan lain, Anda dapat
-menggunakan sebuah [third-party installer][installers].
+menggunakan sebuah [*third-party installer*][installers].
 
 
 ## Installers
