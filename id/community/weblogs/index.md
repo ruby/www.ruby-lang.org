@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Blog"
+title: "Blog Ruby"
 lang: id
 ---
 
