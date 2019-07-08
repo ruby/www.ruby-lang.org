@@ -16,7 +16,7 @@ Sehingga, pada 31 Maret 2019, semua dukungan dari rangkaian Ruby 2.3 berakhir.
 Perbaikan keamanan dan *bug* dari versi Ruby terbaru tidak akan
 di-*backport* ke 2.3. Tidak akan ada juga *patch* untuk 2.3.
 Kami sangat merekomendasikan Anda untuk memperbarui Ruby ke 2.6 atau 2.5
-segera mungkin.
+sesegera mungkin.
 
 ## Tentang dukungan versi Ruby saat ini
 
