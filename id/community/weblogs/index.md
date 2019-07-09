@@ -10,7 +10,7 @@ banyak hal mulai dari berbagi pengalaman, *source code*, teknik-teknik
 baru yang menarik, dan membahas masa depan Ruby.
 {: .summary}
 
-### Menggali Ruby Blogs
+### Menyusuri Kumpulan Blog Ruby
 
 * [**RubyFlow**][rubyflow], "the Ruby and Rails community linklog",
   adalah sebuah laman berita Ruby dengan *link-link* pustaka, *blog post*,
