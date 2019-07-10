@@ -35,7 +35,7 @@ untuk memulai petualangan Anda:
 : Sekarang adalah waktu yang tepat untuk mengikuti perkembangan Ruby.
   Jika berminat untuk membantu, mulailah dari sini.
 
-[Blog tentang Ruby](weblogs/)
+[Blog Ruby](weblogs/)
 : Sangat jarang yang terjadi pada komunitas Ruby tidak dibicarakan dalam
   *blog*. Kami memiliki sebuah daftar saran yang bagus untuk Anda agar
   *up to date*.
