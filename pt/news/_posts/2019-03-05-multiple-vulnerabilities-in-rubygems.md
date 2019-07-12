@@ -16,13 +16,13 @@ Isto foi [reportado no blog oficial do RubyGems](http://blog.rubygems.org/2019/0
 As seguintes vulnerabilidades foram reportadas:
 
 * CVE-2019-8320: Exclui diretório usando symlink quando descomprimindo tar
-* CVE-2019-8321: Vulnerabilidade de injeção de seqüência de escape em `verbose`
-* CVE-2019-8322: Vulnerabilidade de injeção de seqüência de escape em `gem owner`
-* CVE-2019-8323: Vulnerabilidade de injeção de seqüência de escape em tratamento de respostas de API
-* CVE-2019-8324: Instalando uma gem maliciosa pode gerar execução arbitrária de código
-* CVE-2019-8325: Vulnerabilidade de injeção de seqüência de escape em erros
+* CVE-2019-8321: Vulnerabilidade de injeção de sequência de escape em `verbose`
+* CVE-2019-8322: Vulnerabilidade de injeção de sequência de escape em `gem owner`
+* CVE-2019-8323: Vulnerabilidade de injeção de sequência de escape em tratamento de respostas de API
+* CVE-2019-8324: A instalação de uma gem maliciosa pode gerar execução arbitrária de código
+* CVE-2019-8325: Vulnerabilidade de injeção de sequência de escape em erros
 
-É fortemente recomendo que usuários de Ruby atualizem sua instalação de Ruby ou tome uma das seguintes soluções alternativas assim que possível.
+É fortemente recomendado que usuários de Ruby atualizem sua instalação de Ruby ou tomme uma das seguintes soluções alternativas assim que possível.
 
 ## Versões afetadas
 
