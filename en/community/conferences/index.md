@@ -61,6 +61,8 @@ community since 2008.
 themed around fun activities filled around the day.
 It is a single-day single-track conference.
 
+[Southeast Ruby][21]: Nashville, TN workshop and conference.
+
 ### Ruby At Other Conferences
 
 There has been a Ruby track at the [O’Reilly Open Source Conference][10]
@@ -90,3 +92,4 @@ O’Reilly), and Canada on Rails.
 [16]: http://steelcityruby.org/
 [19]: http://goruco.com/
 [20]: http://www.deccanrubyconf.org/
+[21]: https://southeastruby.com/
