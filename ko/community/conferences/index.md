@@ -39,10 +39,10 @@ lang: ko
 
 ### 다른 콘퍼런스에서의 루비
 
-2004년부터 [오렐리 오픈소스 콘퍼런스][10](OSCON)에 루비 트랙이 생겼고 매년
+2004년부터 [오라일리 오픈소스 콘퍼런스][10](OSCON)에 루비 트랙이 생겼고 매년
 다른 언어의 트랙에 비해 비중이 증가하는 추세입니다. Ruby Central의
 [RailsConf][12], [RailsConf Europe][13] (2006년엔 Ruby Central과
-[Skills Matter][14]에 의해 2007년엔 Ruby Central과 오렐리에 의해 공동기획),
+[Skills Matter][14]에 의해 2007년엔 Ruby Central과 오라일리에 의해 공동기획),
 Canada on Rails 등등의 많은 콘퍼런스들은 [루비 온 레일즈][11]의 헌신 덕분에
 가능했습니다.
 
