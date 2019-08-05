@@ -12,65 +12,40 @@ Sehingga, dari mana Anda memulai?
 
 Topik seputar pengembangan Ruby yang dibahas disini adalah:
 
-* [Menggunakan Subversion untuk Memonitor Pengembangan Ruby](#following-ruby)
-* [Bagaimana Menggunakan Git pada Repository Utama Ruby](#git-ruby)
+* [Menggunakan Git untuk Memonitor Pengembangan Ruby](#following-ruby)
 * [Menyempurnakan Ruby, Patch by Patch](#patching-ruby)
-* [Peraturan untuk Developer Inti](#coding-standards)
+* [Peraturan untuk Core Developer](#coding-standards)
 
-### Menggunakan Subversion untuk Memonitor Pengembangan Ruby
+### Menggunakan Git untuk Memonitor Pengembangan Ruby
 {: #following-ruby}
 
-Mendapatkan kode sumber Ruby terbaru dengan melakukan *checkout* sebagai anonim
-pada repositori [Subversion][1]. Masukan perintah berikut pada *console* Anda:
+Repositori utama saat ini dari kode sumber Ruby terbaru adalah
+[git.ruby-lang.org/ruby.git][gitrlo].
+Ada juga sebuah [mirror pada GitHub][7]. Biasanya, mohon gunakan *mirror* ini.
+
+Anda dapat mendapatkan kode sumber Ruby terbaru dengan menggunakan Git.
+Dari *command line* Anda:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
-Sekarang direktori `ruby` akan berisi kode sumber terbaru dari versi
-*development* Ruby (ruby-trunk). Saat ini *patch* yang digunakan oleh *trunk*
-di-*backport* ke *branch stable* {{ site.svn.stable.version }},
-{{ site.svn.previous.version }}, dan {{ site.svn.old.version }} (lihat bawah).
+Direktori `ruby` saat ini akan berisi kode sumber terbaru dari versi
+*development* Ruby (ruby-trunk).
 
-Jika Anda ingin *patching* Ruby {{ site.svn.stable.version }},
-gunakan *branch* {{ site.svn.stable.branch }} ketika sedang *checkout*:
+Lihat juga [Non-committer’s HOWTO to join our development][noncommitterhowto].
+
+Jika Anda memiliki akses *commit*, dan jika Anda ingin *push* sesuatu,
+Anda seharusnya menggunakan repositori utama.
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ git clone git@git.ruby-lang.org:ruby.git
 {% endhighlight %}
-
-Demikian pula untuk Ruby {{ site.svn.previous.version }}:
-
-{% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
-{% endhighlight %}
-
-Perintah di atas akan melakukan *checkout* masing-masing ke direktori
-`{{ site.svn.stable.branch }}` or `{{ site.svn.previous.branch }}`.
-Pekerjaan pengembang pada *maintenance branch* diharapkan untuk migrasi
-perubahannya ke Ruby *trunk*, seringkali *branch-branch* kelihatan sangat
-mirip, dengan pengecualian ada perbaikan yang dibuat oleh Matz dan Nobu untuk
-bahasa Ruby sendiri.
-
-Kalau Anda berminat *browsing*, Anda bisa *browse* [repository Ruby melalui
-web][2].
-
-Untuk informasi lebih lanjut tentang Subversion, silakan lihat [the
-Subversion FAQ][3] dan [the Subversion book][4]. Sebagai alternatif,
-Anda bisa juga dapatkan buku [Pragmatic Version Control with Subversion][5]
-sebagai buku yang berguna untuk pengenalan svn.
-
-### Bagaimana Menggunakan Git pada Repositori Utama Ruby
-{: #git-ruby}
-
-Bagi mereka yang lebih memilih menggunakan [Git][6] dibanding Subversion dapat
-mengikuti instruksi di [mirror on GitHub][7], baik untuk [comitter][8]
-maupun [bukan commiter][9].
 
 ### Menyempurnakan Ruby, dengan Patch
 {: #patching-ruby}
 
-Tim Ruby Core merawat [bug tracker][6] untuk memasukkan *patch* dan laporan
+Tim Ruby Core merawat [issue tracker][10] untuk memasukkan *patch* dan laporan
 *bug* ke Matz dan rekan-rekannya. Laporan-laporan ini juga dimasukkan ke
 [milis Ruby-Core][mailing-lists] untuk didiskusikan, jadi Anda bisa
 mengkonfirmasi terlebih dahulu apakah permintaan Anda akan diperhatikan atau
@@ -83,25 +58,22 @@ langsung dari Matz, bagaimana *patch* Anda dipertimbangkan.
 Sebagai ringkasan, langkah-langkah mengirimkan *patch* adalah sebagai
 berikut:
 
-1. *Checkout* salinan kode sumber Ruby dari Subversion.
+1. *Check out* salinan kode sumber Ruby dari GitHub.
    Biasanya *patch* untuk *bugfix* atau fitur baru dimasukkan
-   untuk *trunk* dari kode sumber Ruby. Bahkan jika Anda ingin menambahkan
-   sebuah fitur ke Ruby {{ site.svn.previous.version }}, perubahan harus
-   disetujui terlebih dahulu di *trunk*.
+   untuk *trunk* dari kode sumber Ruby.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
    Jika Anda sedang memperbaiki sebuah *bug* yang khusus pada satu *branch
-   maintenance*, *checkout* salinan dari masing-masing *branch*,
-   Misal, `{{ site.svn.previous.branch }}`.
+   maintenance*, *check out* salinan dari masing-masing *branch*.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ git checkout ruby_X_X
 
-2.  Tambahkan perbaikan Anda ke *source code* Ruby.
+2.  Tambahkan perbaikan Anda ke kode.
 
 3.  Buat sebuah *patch*.
 
-        $ svn diff > ruby-changes.patch
+        $ git diff > ruby-changes.patch
 
 4.  Buat sebuah tiket di [issue tracker][10] atau kirim *patch* melalui e-mail
     ke [Ruby-Core mailing list][mailing-lists] dengan entri ChangeLog yang
@@ -122,50 +94,43 @@ kemari. Jangan mengirimkan hal-hal di luar topik (OOT) karena milis ini
 adalah milis serius. Mari kita menjaga sopan santun karena kita
 berkorespondensi dengan pembuat Ruby.
 
-Ingatlah tim Ruby Core tinggal di Jepang dan walau banyak yang
+Ingatlah banyak tim Ruby Core tinggal di Jepang dan walau banyak yang
 bisa berbicara bahasa Inggris dengan baik tetap ada perbedaan zona waktu
 yang jauh. Mereka juga punya milis pengembangan yang menggunakan bahasa
 Jepang selain dengan milis berbahasa Inggris. Jadi sabarlah, jika tidak
 ada yang membalas kiriman Anda; jangan menyerah dan coba lagi beberapa
 hari kemudian.
 
-### Pedoman untuk Pengembang Inti
-{: #coding-standards}
 
-Secara umum developer Ruby harus sudah terbiasa dengan kode sumber dan
-gaya pengembangan yang digunakan oleh tim Ruby Core. Supaya jelas,
-pedoman berikut harus dipatuhi ketika *check-in* (*commit*) ke
-Subversion:
+### Catatan terkait branches
 
-* Semua check-ins harus dijelaskan di `ChangeLog`, yang mengikuti
-  [standar GNU][14]. (Banyak Developer Ruby Core menggunakan Emacs
-  `add-log` mode, yang bisa diakses dengan perintah `C-x 4 a`.)
-* Tanggal *check-in* harus diberikan dalam format yang memenuhi standar
-  waktu Jepang (UTC+9).
-* Poin-poin ChangeLog Anda harus ditaruh juga di pesan *commit*
-  Subversion. Pesan ini secara otomatis di e-mail ke milis Ruby-CVS
-  setelah Anda *commit*.
-* *Function prototype* digunakan di seluruh kode sumber Ruby dan
-  *packaged extension*-nya.
-* Tolong jangan gunakan gaya komentar C++ (`//`), *maintainer* Ruby
-  cenderung memakai komentar multibaris standar C (`/* .. */`).
+Kode sumber Ruby telah dikelola menggunakan repositori Subversion hingga
+22 April 2019.
+Sehingga, beberapa *branch* mungkin masih dikelola dengan Subversion.
+Anda dapat melihat repositori SVN.
 
-Lihat juga informasi di [Ruby’s issue tracker][10].
+* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
 
+Namun demikian, Anda tidak harus peduli tentang itu (kecuali Anda adalah
+seorang *branch maintainer*).
+Anda dapat *check out branch* pada salinan kerja Git Anda.
+Sebagai contoh, jalankan perintah berikut.
 
+{% highlight sh %}
+$ git checkout ruby_X_X
+{% endhighlight %}
 
+X_X seharusnya diganti dengan sebuah versi yang Anda ingin *check out*.
+
+Jika Anda ingin memodifikasi *branch*, mohon buka sebuah isu pada [issue tracker][10] kami.
+Lihat juga bagian berikut.
+
+[gitrlo]: https://git.ruby-lang.org/ruby.git
 [mailing-lists]: /en/community/mailing-lists/
 [writing-patches]: /en/community/ruby-core/writing-patches/
-[1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[3]: http://subversion.apache.org/faq.html
-[4]: http://svnbook.org
-[5]: http://www.pragmaticprogrammer.com/titles/svn/
-[6]: http://git-scm.com/
+[noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [7]: https://github.com/ruby/ruby
-[8]: https://github.com/shyouhei/ruby/wiki/committerhowto
-[9]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
-[14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs
