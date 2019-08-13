@@ -30,11 +30,15 @@ Ada banyak jalan untuk memasang Ruby:
   pada sistem Anda.
 * Dan terakhir, Anda juga dapat **membangun Ruby dari kode sumbernya**.
 
+Pada Windows 10, Anda juga dapat menggunakan [Windows Subsystem untuk Linux][wsl]
+untuk memasang satu dari distribusi Linux yang didukung dan metode instalasi
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
+apapun yang tersedia pada sistem tersebut.
+
 Berikut adalah daftar metode instalasi yang tersedia:
 
 * [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
-  * [Windows WSL Ubuntu](#apt-wsl)
   * [CentOS, Fedora, RHEL](#yum)
   * [Snap](#snap)
   * [Gentoo](#portage)
@@ -82,26 +86,6 @@ Anda dapat menggunakannya sebagai berikut:
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
-
-
-### apt (Windows WSL Ubuntu)
-{: #apt-wsl}
-
-Jika Anda menggunakan Windows 10, Anda dapat menggunakan sistem operasi
-Linux Ubuntu dengan WSL. Dan Anda juga dapat menggunakan Ruby dengan apt.
-
-Ada sebuah informasi tentang bagaimana memasang WSL:
-
-[Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-
-Anda dapat menggunakan apt yang sama pada sistem operasi Linux sebagai
-berikut:
-
-{% highlight sh %}
-$ sudo apt-get install ruby-full
-{% endhighlight %}
-
-atau Anda juga dapat menggunakan Ruby *manager*, seperti rbenv pada WSL.
 
 
 ### yum (CentOS, Fedora, atau RHEL)
@@ -365,3 +349,4 @@ diatur oleh alat bantu apapun.
 [download]: /id/downloads/
 [installers]: /id/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
