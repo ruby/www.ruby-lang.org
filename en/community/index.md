@@ -43,9 +43,10 @@ to start:
   the Ruby community.
 
 [Podcasts](podcasts/)
-: If you like to hear about Ruby rather than read about you can listen
-  to podcasts which cover new Ruby or gem releases, interviews and
-  discussions between Ruby programmers, contributors, and maintainers.
+: If you prefer to listen to discussions about Ruby rather than read,
+  you can tune into one of these awesome Ruby podcasts. These Rubyists
+  use their podcasts to cover new releases, community news, and
+  interview their fellow Ruby developers.
 
 General Ruby Information
 : * [Ruby Central][ruby-central]
