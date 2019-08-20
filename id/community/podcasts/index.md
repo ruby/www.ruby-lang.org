@@ -14,5 +14,13 @@ Dengarkan berita, wawancara, dan diskusi terkait Ruby dan komunitasnya.
 : Ruby on Rails Podcast, sebuah pembicaraan mingguan terkait Ruby on Rails,
   perangkat lunak *open source*, dan profesi pemrograman.
 
+### Terlibat
+
+*Podcast host* selalu mencari tamu. Jika Anda memiliki beberapa pengetahuan
+Ruby untuk dibagi, hubungi pembuat *podcast* tersebut.
+
+Anda juga dapat memulai *podcast* Ruby sendiri and menambahkan pada daftar
+berikut!
+
 [rorpodcast]: http://5by5.tv/rubyonrails
 [rogues]: https://devchat.tv/ruby-rogues
