@@ -16,7 +16,7 @@ lang: zh_cn
 * 我们不在 cgit 上使用 topic 分支。
 * GitHub 仓库仍然会作为镜像，我们不会使用「Merge pull request」功能。
 * ruby_2_4、ruby_2_5 和 ruby_2_6 分支仍会继续使用 SVN，在 cgit 上我们不会推送任何东西到这些分支。
-* 从 ruby_2_7 开始，我们江慧使用 cgit 开发稳定版本的分支。
+* 从 ruby_2_7 开始，我们将会使用 cgit 开发稳定版本的分支。
 * 我们不使用 Merge commits。
 
 ## 特别感谢
