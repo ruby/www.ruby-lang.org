@@ -47,9 +47,10 @@ untuk memulai petualangan Anda:
   baru di komunitas Ruby.
 
 [Podcasts](podcasts/)
-: Jika Anda senang mendengar ketimbang membaca Anda dapat mendengarkan
-  *podcast* yang mencakup rilis baru dari Ruby atau gem, wawancara, dan
-  diskusi antar pemrogram, kontributor, dan *maintainer* Ruby.
+: Jika Anda memilih untuk mendengar diskusi Ruby ketimbang membaca,
+  Anda dapat mendengarkan satu di antara *podcast* Ruby yang luar biasa ini.
+  Rubyist menggunakan *podcast* untuk mencakup rilis baru, kabar komunitas, dan
+  wawancara sesama pengembang Ruby.
 
 [Komunitas Pengguna Ruby Indonesia][ruby-id-group]
 : Komunitas Pengguna Ruby Indonesia (mayoritas diikuti oleh orang
