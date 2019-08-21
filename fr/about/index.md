@@ -198,7 +198,7 @@ parmi lesquelles on peut citer…
   le système d’exploitation le permet ;
 * une très grande portabilité : développé majoritairement sous
   GNU/Linux, Ruby fonctionne aussi sur une grande part des UNIX, macOS,
-  Windows, DOS, BeOS, OS/2, etc.
+  et Windows.
 
 ### Références
 

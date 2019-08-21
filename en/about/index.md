@@ -170,10 +170,10 @@ Ruby has a wealth of other features, among which are the following:
 
 * Ruby features OS independent threading. Thus, for all platforms on
   which Ruby runs, you also have multithreading, regardless of if the OS
-  supports it or not, even on MS-DOS!
+  supports it or not.
 
 * Ruby is highly portable: it is developed mostly on GNU/Linux, but
-  works on many types of UNIX, macOS, Windows, DOS, BeOS, OS/2, etc.
+  works on many types of UNIX, macOS, and Windows.
 
 ### Other Implementations of Ruby
 
@@ -198,12 +198,6 @@ Here’s a list:
 * [mruby][mruby] is a lightweight implementation of the Ruby language
   that can be linked and embedded within an application.
   Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.
-* [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
-  Framework”.
-* [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
-  object persistence and distributed shared cache”.
-* [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
-  (Perl 6).
 
 For a more complete list, see [Awesome Rubies][awesome-rubies].
 
@@ -233,8 +227,4 @@ For a more complete list, see [Awesome Rubies][awesome-rubies].
 [rubinius]: http://rubini.us
 [truffleruby]: https://github.com/oracle/truffleruby
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org
 [awesome-rubies]: https://github.com/planetruby/awesome-rubies
