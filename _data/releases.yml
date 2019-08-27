@@ -37,6 +37,20 @@
 
 # 2.6 series
 
+- version: 2.6.4
+  date: 2019-08-27
+  post: /en/news/2019/08/27/ruby-2-6-4-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.4.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.4.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.4.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.4.tar.xz
+  sha256:
+    gz:  af8a2b12010c56f3a41ba45b34188f15f19da7fae5bc3a0d18efbe6bc9c5c5d3
+    zip: ceb1de84f1338332a2f73f28e86cf4f9bcbc20a922ec93defe52acd83a7a8632
+    bz2: c290dd2a969a1334f1266d35151566fb5bde0080433b4e327c0b94cde85af511
+    xz:  7a076ea5678f45b42a813ac2cf75f2f17300bf29d292e01d651e946aabcb594c
+
 - version: 2.6.3
   date: 2019-04-17
   post: /en/news/2019/04/17/ruby-2-6-3-released/
