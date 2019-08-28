@@ -40,25 +40,7 @@ RDoc 6.1.2 or later includes the fix for the vulnerabilities, so upgrade RDoc to
 gem install rdoc -f
 ```
 
-At this time, the following message will be displayed. Every time you get `Overwrite the executable? [YN]`, enter `y` and confirm with Enter to continue the update.
-
-```
-Updating installed gems
-Updating rdoc
-Fetching: rdoc-6.1.1.gem (100%)
-rdoc's executable "rdoc" conflicts with /home/aycabta/.rbenv/versions/2.5.3/bin/rdoc
-Overwrite the executable? [yN]  y
-rdoc's executable "ri" conflicts with /home/aycabta/.rbenv/versions/2.5.3/bin/ri
-Overwrite the executable? [yN]  y
-Successfully installed rdoc-6.1.1
-Parsing documentation for rdoc-6.1.1
-Installing ri documentation for rdoc-6.1.1
-Installing darkfish documentation for rdoc-6.1.1
-Done installing documentation for rdoc after 6 seconds
-Parsing documentation for rdoc-6.1.1
-Done installing documentation for rdoc after 3 seconds
-Gems updated: rdoc
-```
+*Update:* The initial version of this post said rdoc-6.1.1.gem which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
 
 Regarding the development version (master branch), update to HEAD.
 
@@ -73,3 +55,4 @@ Thanks to [Chris Seaton](https://hackerone.com/chrisseaton) for reporting the is
 ## History
 
 * Originally published at 2019-08-28 09:00:00 UTC
+* RDoc version fixed at 2019-08-28 11:50:00 UTC
