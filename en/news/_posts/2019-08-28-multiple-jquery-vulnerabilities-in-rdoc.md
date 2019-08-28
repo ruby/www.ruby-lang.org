@@ -51,7 +51,7 @@ gem install rdoc -f
 
 *Update:* The initial version of this post partially mentioned rdoc-6.1.1.gem, which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
 
-Regarding the development version (master branch), update to its HEAD.
+Regarding the development version, update to the latest HEAD of master branch.
 
 ## Credits
 
