@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.5.6 リリース"
 author: "usa"
 translator:
-date: 2019-08-27 14:30:00 +0000
+date: 2019-08-28 09:00:00 +0000
 lang: ja
 ---
 
@@ -13,7 +13,7 @@ Ruby 2.5.6 がリリースされました。
 今回のリリースでは、前回リリースから 40 件ほどのバグ修正が行われ、安定性のさらなる向上が図られています。
 また、以下のセキュリティ上の問題に対する対応が含まれています。
 
-* [RDoc における jQuery の脆弱性について](/ja/news/2019/08/27/multiple-jquery-vulnerabilities-in-rdoc/)への対応
+* [RDoc における jQuery の脆弱性について](/ja/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)への対応
 
 詳しくは、対応する [commit log](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6) を参照してください。
 
@@ -21,31 +21,31 @@ Ruby 2.5.6 がリリースされました。
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.6.tar.bz2>
 
-      SIZE:   14084719 bytes
-      SHA1:   94750f925a34d44d8f4fa059f0001e0193e216be
-      SHA256: 306106a42c9022c6817c87cf17a5ee26625be1d7ce72ae59ba0a9e362ee954ee
-      SHA512: bf7195b630a8ddb57516a0e2d6a06e6e9b58a81200edb3aae5a48a0b1220613ce8a55892f6f4b9141730a119a893fc35e126fe1c1c4a8852cda43218a61f559f
+      SIZE:   14073430 bytes
+      SHA1:   a1b497237770d2a0d1386408fc264ad16f3efccf
+      SHA256: 24fc2a417e71150cd2229ec204afc8f467ebb15a8e295aab5d4bceebfb05e18d
+      SHA512: e4511d42d19a7bb39ea79f66bb4eca54b63c2a9d27addc035d6d670c1e59ee48a0c6e9c6bc7d082d1f1114b0668831dce3b7422034517f3c4a06ced0e47a7914
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.6.tar.gz>
 
-      SIZE:   17715063 bytes
-      SHA1:   2bd487e235ff94162fc0602e5a2ac6c7d754c17c
-      SHA256: 8829a09526a5b315714fd1eb1fa561f787979faa4953df3cc23d670870cfbdc8
-      SHA512: 78e632f4dbde5285537bbb2481d58c252377055f75a0f04776fdfa03d74fbeecb1780800845ae2c9db78b6305851f17c5e80485215f547b4840d979675714d37
+      SIZE:   17684288 bytes
+      SHA1:   d2dd34da5f3b63a0075e50133f60eb35d71b7543
+      SHA256: 1d7ed06c673020cd12a737ed686470552e8e99d72b82cd3c26daa3115c36bea7
+      SHA512: dc34243129a40b4b16fe171d70bcbdac255819868c608f3ca9f2866124fd6cfde0f3990d5e08a42752427d9066981ca14a634679b9bed5bca9f349a8526d0f35
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.6.tar.xz>
 
-      SIZE:   11354460 bytes
-      SHA1:   42ba85cf1e84302de24420104b153ceaca25d0e0
-      SHA256: e8b706ad226aa7a34a3af0337fa99dde363367f040efb90a31db8bb676df9c5a
-      SHA512: 650127cbbbe5472687ad993b6cdaa14752e7bb756aad75a85433c31a474ad7b62fc01ae6515b62d242ecb4d12c6f3fd9d447607758faf071c8692fbe020635e5
+      SIZE:   11323612 bytes
+      SHA1:   5008b35d386c4b663b7956a0790b6aa7ae5dc9a9
+      SHA256: 7601e4b83f4f17bc1affe091502dd465282ffba0761dea57c071ead21b132cee
+      SHA512: 4fe5f8bad5d320f8f17b02ce15afee341e7b0074efcfd98d8944e0cb7c448e0660c4553dd5c0328ee3b49fea3247642f85c60bdce431ed57f58b6326dfd48ee1
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.6.zip>
 
-      SIZE:   21295497 bytes
-      SHA1:   45f3e338e49b214982e76db40b54923f0e24f9d1
-      SHA256: 46e60b850a856e04d034488e7dcb1556f4a39d764ad5a6348cb00b5f409dd1b9
-      SHA512: 20aba5fdabb47b625fc45fe91be075517b703e9d5a43807a6fa0526cd361308200787ccd9113a8bdad3328b5b5b1fcdf20f78d16f80d11e7349c5ab65af76d6a
+      SIZE:   21263348 bytes
+      SHA1:   4a3859319dd9f1f4d43e2a2bf874ca8233d39b15
+      SHA256: c86b0a9bfe47df5639cf134eabd3ebc2711794226ccb02e22094e46aa3e887f4
+      SHA512: 8aa96c4e6692ed8c9f8fe4ceb2a91829bb5fa98ef53a4bc85f3a3d0cd66d60bb80985359bd9f7020de7d1cc39c7223559aa20dfdcc01d890624b71b935c6f8da
 
 ## リリースコメント
 

@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.4.7 リリース"
 author: "usa"
 translator:
-date: 2019-08-27 14:30:00 +0000
+date: 2019-08-28 09:00:00 +0000
 lang: ja
 ---
 
@@ -12,7 +12,7 @@ Ruby 2.4.7 がリリースされました。
 
 今回のリリースでは、以下のセキュリティ上の問題に対する対応が含まれています。
 
-* [RDoc における jQuery の脆弱性について](/ja/news/2019/08/27/multiple-jquery-vulnerabilities-in-rdoc/)への対応
+* [RDoc における jQuery の脆弱性について](/ja/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)への対応
 
 Ruby 2.4 系列は、現在、セキュリティメンテナンスフェーズにあります。
 このフェーズ中は、重大なセキュリティ上の問題への対応のみが行われます。
@@ -23,31 +23,31 @@ Ruby 2.4 系列は、現在、セキュリティメンテナンスフェーズ�
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.7.tar.bz2>
 
-      SIZE:   12830620 bytes
-      SHA1:   dfb45b5c3edd19ee29d2697da256344b78bd5ac4
-      SHA256: e677ff8fdc380fdaf80cd7c92fed125da7919a3807ee4f8baa344cfba1a37752
-      SHA512: d71f364ca7937c9469501cbea5a50c0cf33ea918a23cb1f6e64e7cecdfc18baf14e68b94b3d02f40e2e5983379d753c2bbb2e5532af5e216302b1c339e8d3f86
+      SIZE:   12826941 bytes
+      SHA1:   9eac11cd50a2c11ff310e88087f25a0ceb5d0994
+      SHA256: c10d6ba6c890aacdf27b733e96ec3859c3ff33bfebb9b6dc8e96879636be7bf5
+      SHA512: 2665bca5f55d4b37f100eec0e2e632d41158139b85fcb8d5806c6dc1699e64194f17b9fe757b5afd6aa2c6e7ccabba8710a9aa8182a2d697add11f2b76cf6958
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.7.tar.gz>
 
-      SIZE:   16073060 bytes
-      SHA1:   420aa53371aa84271612ed89a7346af67295276a
-      SHA256: a546dcd1491274c0dceb3acdb43f96d51049ece682226e12e8f1ccf0a9daebf1
-      SHA512: e24edc281aed1869ee0d497fda1674b5ed8391817d94bcf493f0ccd6f45b3809e6c38d7fdcf6ce0eb9289d84f99b886ba198a5d77de362cb26bda2ab6db94d90
+      SIZE:   16036496 bytes
+      SHA1:   607384450348bd87028cd8d1ebf09f21103d0cd2
+      SHA256: cd6efc720ca6a622745e2bac79f45e6cd63ab0f5a53ad7eb881545f58ff38b89
+      SHA512: 2fbada1cf92dc3b1cbdaf05186ff2e5d8e0ce4ac9dc736148116e365bec6d557a2115838404c982b527adbb27677340acfbbb7c873004f0cb4be8a07857e6473
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.7.tar.xz>
 
-      SIZE:   10141968 bytes
-      SHA1:   20608bb57e2c4bdab7172d4fc253d77e37632509
-      SHA256: aad833c5e3fe7222ed4f5ddd25e47e7691651986bae80c43ecf663540f8d4acc
-      SHA512: 36996efd325303bf0b410c6e5950796df13636a28dcb508436e398ae8f64c248e5ee56ab2b076a6506eabe10848e38dbab66cc8202c5c42d00ee294b5a6df38b
+      SIZE:   10118948 bytes
+      SHA1:   6ed0e943bfcbf181384b48e7873361f1acaf106d
+      SHA256: a249193c7e79b891a4783f951cad8160fa5fe985c385b4628db8e9913bff1f98
+      SHA512: df637c5803ddd83f759e9c24b0e7ca1f6cae7c7b353409583d92dbffece0d9d02b48905d6552327a1522a4a37d4e2d22c6c11bd991383835be35e2f31739d649
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.7.zip>
 
-      SIZE:   17659404 bytes
-      SHA1:   1c006ced0ff8f482cb6d43f2ecab53c61794a4ae
-      SHA256: 49b885f8ce8d8a973501250b33f3bc739add488c89c28b53becd27c39b0ef908
-      SHA512: 3ba006e93aaa7c6403770b406d5aba3c7200df86f0d740ade67d563e9728408b6492e6f2df8eaa722f4302c4977d82ca39e727a12c81e8592c8cc4a8cb07dd40
+      SIZE:   17659539 bytes
+      SHA1:   3f991d6b5296e9d0df405033e336bb973d418354
+      SHA256: 1016797925e55c78d9c15633da8ddbd19daed2993a99d35377d2a16c3175cfe5
+      SHA512: 1bddd5616edb1a671224bc1c22cc3ac6f70e96e41cb2937efb437e8920fe09ce2ef0f29c591499d3682ac547e1d3eb7474f89ff86a3834d25724329e4927ed76
 
 ## リリースコメント
 
