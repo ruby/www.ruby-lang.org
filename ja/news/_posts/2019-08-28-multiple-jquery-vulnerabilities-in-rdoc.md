@@ -40,25 +40,7 @@ Ruby の標準添付ライブラリである RDoc に、jQuery に関するク�
 gem install rdoc -f
 ```
 
-その際に以下のようなメッセージが出るので、 `Overwrite the executable? [yN]` と出る度に随時 `y` を入力し Enter で確定することで更新を続行してください。
-
-```
-Updating installed gems
-Updating rdoc
-Fetching: rdoc-6.1.1.gem (100%)
-rdoc's executable "rdoc" conflicts with /home/aycabta/.rbenv/versions/2.5.3/bin/rdoc
-Overwrite the executable? [yN]  y
-rdoc's executable "ri" conflicts with /home/aycabta/.rbenv/versions/2.5.3/bin/ri
-Overwrite the executable? [yN]  y
-Successfully installed rdoc-6.1.1
-Parsing documentation for rdoc-6.1.1
-Installing ri documentation for rdoc-6.1.1
-Installing darkfish documentation for rdoc-6.1.1
-Done installing documentation for rdoc after 6 seconds
-Parsing documentation for rdoc-6.1.1
-Done installing documentation for rdoc after 3 seconds
-Gems updated: rdoc
-```
+注意: 当初この記事で rdoc-6.1.1.gem と書いていましたが、これは脆弱なバージョンでした。rdoc-6.1.2 以降を使用してください。
 
 開発版については、HEAD に更新してください。
 
