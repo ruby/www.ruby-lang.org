@@ -10,7 +10,7 @@ lang: en
 
 
 There are multiple vulnerabilities about Cross-Site Scripting (XSS) in jQuery shipped with RDoc which bundled in Ruby.
-All Ruby users are recommended to update Ruby to newer version which includes security-fixed RDoc.
+All Ruby users are recommended to update Ruby to the latest release which includes the fixed version of RDoc.
 
 ## Details
 
