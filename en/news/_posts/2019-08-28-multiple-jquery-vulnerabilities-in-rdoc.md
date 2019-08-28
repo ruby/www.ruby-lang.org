@@ -40,7 +40,7 @@ RDoc 6.1.2 or later includes the fix for the vulnerabilities, so upgrade RDoc to
 gem install rdoc -f
 ```
 
-CAUTION: The initial version of this post said rdoc-6.1.1.gem which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
+*Update:* The initial version of this post said rdoc-6.1.1.gem which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
 
 Regarding the development version (master branch), update to HEAD.
 
