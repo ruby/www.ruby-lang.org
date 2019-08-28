@@ -37,7 +37,7 @@ In principle, you should upgrade your Ruby installation to the latest version.
 RDoc 6.1.2 or later includes the fix for the vulnerabilities, so upgrade RDoc to the latest version if you can’t upgrade Ruby itself.
 
 ```
-gem update --system
+gem install rdoc -f
 ```
 
 At this time, the following message will be displayed. Every time you get `Overwrite the executable? [YN]`, enter `y` and confirm with Enter to continue the update.
