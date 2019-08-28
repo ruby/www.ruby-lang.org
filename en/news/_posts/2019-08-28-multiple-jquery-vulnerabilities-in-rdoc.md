@@ -31,10 +31,19 @@ After that, you should re-generate RDoc documentation.
 * Ruby 2.6 series: 2.6.3 and earlier
 * prior to master commit f308ab2131ee675000926540cbb8c13c91dc3be5
 
+## Required actions
+
+RDoc is a static documentation generation tool.
+Patching the tool itself is insufficient to mitigate these vulnerabilities.
+
+RDoc documentations generated with previous versions have to be re-generated with newer RDoc.
+
 ## Workarounds
 
 In principle, you should upgrade your Ruby installation to the latest version.
 RDoc 6.1.2 or later includes the fix for the vulnerabilities, so upgrade RDoc to the latest version if you can’t upgrade Ruby itself.
+
+Note that as mentioned earlier, you have to regenerate existing RDoc documentations.
 
 ```
 gem install rdoc -f
@@ -43,13 +52,6 @@ gem install rdoc -f
 *Update:* The initial version of this post partially mentioned rdoc-6.1.1.gem, which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
 
 Regarding the development version (master branch), update to its HEAD.
-
-## Required actions
-
-RDoc is a static documentation generation tool.
-Patching the tool itself is insufficient to mitigate these vulnerabilities.
-
-RDoc documentations generated with previous versions have to be re-generated it with newer RDoc.
 
 ## Credits
 
