@@ -40,13 +40,16 @@ RDoc 6.1.2 or later includes the fix for the vulnerabilities, so upgrade RDoc to
 gem install rdoc -f
 ```
 
-*Update:* The initial version of this post said rdoc-6.1.1.gem which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
+*Update:* The initial version of this post partially mentioned rdoc-6.1.1.gem, which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
 
-Regarding the development version (master branch), update to HEAD.
+Regarding the development version (master branch), update to its HEAD.
+
+## Required actions
 
 RDoc is a static documentation generation tool.
-Patching the library itself is insufficient to correct this exploit.
-Those hosting rdoc documentation will need to re-generate it with security-fixed RDoc.
+Patching the tool itself is insufficient to mitigate these vulnerabilities.
+
+RDoc documentations generated with previous versions have to be re-generated it with newer RDoc.
 
 ## Credits
 
