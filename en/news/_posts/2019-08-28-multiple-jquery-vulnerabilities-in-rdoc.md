@@ -61,3 +61,4 @@ Thanks to [Chris Seaton](https://hackerone.com/chrisseaton) for reporting the is
 
 * Originally published at 2019-08-28 09:00:00 UTC
 * RDoc version fixed at 2019-08-28 11:50:00 UTC
+* Minor language fixes at 2019-08-28 12:30:00 UTC
