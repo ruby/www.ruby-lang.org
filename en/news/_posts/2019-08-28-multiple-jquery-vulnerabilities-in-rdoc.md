@@ -36,7 +36,7 @@ After that, you should re-generate RDoc documentation.
 RDoc is a static documentation generation tool.
 Patching the tool itself is insufficient to mitigate these vulnerabilities.
 
-RDoc documentations generated with previous versions have to be re-generated with newer RDoc.
+So, RDoc documentations generated with previous versions have to be re-generated with newer RDoc.
 
 ## Workarounds
 
