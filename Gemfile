@@ -2,11 +2,11 @@ source "https://rubygems.org"
 ruby ENV['CUSTOM_RUBY_VERSION'] || '~> 2.6.3'
 
 gem 'rake'
-gem 'jekyll', '~> 3.0'
-gem 'rouge',  '~> 1.10'
+gem 'jekyll'
+gem 'rouge'
 
 gem 'unicorn'
-gem 'lanyon', '~> 0.4.0'
+gem 'lanyon', git: "https://github.com/hsbt/lanyon", ref: "b84d5338b7e4138319311591c41ae41a66dcd3e8"
 gem 'rack-rewrite'
 gem 'rack-ssl'
 gem 'rack-protection'
