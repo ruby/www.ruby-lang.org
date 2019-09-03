@@ -286,12 +286,12 @@ t1 == t2
 
 Las clases de Ruby están abiertas. Puedes abrirlas, agregarles
 funcionalidad y modificarlas en cualquier momento. Incluso las clases
-principales, como `Fixnum` o incluso `Object`, el padre de todos los
+principales, como `Integer` o incluso `Object`, el padre de todos los
 objetos. Ruby on Rails define un montón de métodos para manejar el
-tiempo y los horarios en `Fixnum`. Mira:
+tiempo y los horarios en `Integer`. Mira:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # cantidad de segundos en una hora
   end
@@ -410,10 +410,10 @@ method(:puts).call "¡puts es un objeto!"
 
 La mayoría de los operadores en Ruby son simples simplificaciones
 sintácticas (con algunas reglas de precedencia) para llamar a ciertos
-métodos. Puedes, por ejemplo, redefinir el método `Fixnum#+`\:
+métodos. Puedes, por ejemplo, redefinir el método `Integer#+`\:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Puedes, pero por favor no lo hagas
   def +(otro)
     self - otro

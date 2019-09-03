@@ -285,12 +285,12 @@ t1 == t2
 
 Ouvertes à la modification, à tout moment. Vous pouvez y faire des
 ajouts, les modifier durant l’exécution. Y compris les classes
-standards, telles que `Fixnum`, voire `Object`, la classe parente de
+standards, telles que `Integer`, voire `Object`, la classe parente de
 toute autre. Par exemple, l’application Ruby on Rails défini nombre de
-méthodes pour traiter le temps, au sein de `Fixnum`. Voyez ceci :
+méthodes pour traiter le temps, au sein de `Integer`. Voyez ceci :
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # nombre de secondes dans une heure
   end
@@ -412,10 +412,10 @@ method(:puts).call "puts est un objet !"
 
 La plupart des opérateurs ne sont là que pour faciliter la vie du
 programmeur (et gèrent aussi les règles de priorité mathématique). Vous
-pouvez, par exemple, redéfinir la méthode `+` de la classe `Fixnum`\:
+pouvez, par exemple, redéfinir la méthode `+` de la classe `Integer`\:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Possible, mais pas recommandé...
   def +(other)
     self - other

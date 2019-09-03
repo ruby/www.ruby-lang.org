@@ -292,12 +292,12 @@ t1 == t2
 ### Offene Klassen
 
 Ruby-Klassen sind offen. Du kannst sie jeder Zeit verändern und ihnen
-Methoden hinzufügen. Sogar eingebaute Klassen wie `Fixnum` oder `Object`
-(die Mutter aller Objekte) sind erweiterbar. ActiveSupport fügt `Fixnum`
+Methoden hinzufügen. Sogar eingebaute Klassen wie `Integer` oder `Object`
+(die Mutter aller Objekte) sind erweiterbar. ActiveSupport fügt `Integer`
 viele Methoden zur Erzeugung von Zeitangaben hinzu:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600  # Anzahl der Sekunden in einer Stunde
   end
@@ -418,10 +418,10 @@ method(:puts).call "puts ist ein Objekt!"
 
 Die meisten Operatoren in Ruby sind nur Methodenaufrufe mit einer
 speziellen Syntax (und ein paar Vorrangregeln). Du kannst zum Beispiel
-die Methode `+` für `Fixnum` überschreiben:
+die Methode `+` für `Integer` überschreiben:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Du kannst, aber bitte tu es nicht.
   def +(other)
     self - other

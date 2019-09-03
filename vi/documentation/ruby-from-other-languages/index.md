@@ -269,12 +269,12 @@ t1 == t2
 ### Các lớp đều mở
 
 Các lớp trong Ruby đều mở. Bạn có thể mở, thêm vào, và thay đổi nó bất cứ lúc nào.
-Thậm chí các lớp lõi, như `Fixnum` hoặc thậm chí là `Object`, lớp chính của mọi
+Thậm chí các lớp lõi, như `Integer` hoặc thậm chí là `Object`, lớp chính của mọi
 đối tượng. Ruby on Rails định nghĩa một loạt các phương thức để xử lý thời gian
-trên `Fixnum`. Xem bên dưới:
+trên `Integer`. Xem bên dưới:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # số giây trong 1 giờ
   end
@@ -390,10 +390,10 @@ method(:puts).call "puts là một đối tượng!"
 ### Toán tử và cú pháp
 
 Hầu hết các toán tử trong Ruby chỉ là cú pháp (với một số quy tắc ưu tiên)
-để gọi phương thức. Ví dụ, bạn có thể viết lại phương thức Fixnums +
+để gọi phương thức. Ví dụ, bạn có thể viết lại phương thức Integers +
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Bạn có thể, nhưng tốt nhất là đừng sửa
   def +(other)
     self - other

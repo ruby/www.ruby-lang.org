@@ -254,12 +254,12 @@ t1 == t2
 ### Sınıflar Açıktır
 
 Ruby sınıfları açıktır. İstediğiniz zaman açabilir, ekleme yapabilir,
-değiştirebilirsiniz. Core sınıfları bile, mesela `Fixnum` ve hatta tüm
-sınıfların anası `Object` sınıfı dahil. Ruby on Rails `Fixnum` sınıfına
+değiştirebilirsiniz. Core sınıfları bile, mesela `Integer` ve hatta tüm
+sınıfların anası `Object` sınıfı dahil. Ruby on Rails `Integer` sınıfına
 zamanla ilgili bir kısım metod eklemiştir. İzleyin:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # bir saat içindeki saniye miktarı
   end
@@ -375,10 +375,10 @@ method(:puts).call "puts is an object!"
 ### Operatörler de Deyimdir
 
 Ruby’deki operatörler birbirlerine belli öncelikleri olan metodlardır.
-Bu yüzden isterseniz Fixnum’un + metodunu değiştirebilirsiniz:
+Bu yüzden isterseniz Integer’un + metodunu değiştirebilirsiniz:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Yapabilirsiniz ama lütfen bunu yapmayın
   def +(other)
     self - other

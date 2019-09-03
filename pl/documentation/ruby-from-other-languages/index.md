@@ -266,12 +266,12 @@ t1 == t2
 
 Klasy Rubiego są otwarte. Można je otworzyć, dodać nowe metody czy
 zmienić istniejące działanie w dowolnym momencie. Nawet główne klasy
-takie jak `Fixnum` czy nawet `Object`, rodzic wszystkich obiektów. Ruby
+takie jak `Integer` czy nawet `Object`, rodzic wszystkich obiektów. Ruby
 on Rails na przykład definiuje zestaw metod do operowania czasem w
-klasie `Fixnum`. Poniżej:
+klasie `Integer`. Poniżej:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # liczba sekund w godzinie
   end
@@ -390,10 +390,10 @@ method(:puts).call "puts to obiekt!"
 ### Operatory to cukier syntaktyczny
 
 Większość operatorów w Rubim to po prostu cukier syntaktyczny dla
-wywołań metod. Możesz, na przykład, nadpisać metodę + klasy Fixnum:
+wywołań metod. Możesz, na przykład, nadpisać metodę + klasy Integer:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Możesz, ale proszę nie rób tego !
   def +(other)
     self - other
