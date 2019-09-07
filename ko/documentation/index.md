@@ -170,7 +170,7 @@ lang: ko
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
-[38]: http://ruby.learncodethehardway.org/
+[38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
