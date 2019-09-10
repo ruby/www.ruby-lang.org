@@ -50,4 +50,3 @@ A differenza di PHP, in Ruby…
   tutti vero.
 * Quasi ogni cosa è una chiamata ad un metodo, anche `raise` (`throw` in
   PHP).
-

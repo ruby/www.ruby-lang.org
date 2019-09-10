@@ -87,7 +87,7 @@ This module has `parse` method which parses a given ruby code of string and retu
 * Merge RubyGems 3.0.0.beta1
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview2/NEWS)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)
+or the [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)
 for details.
 
 With those changes,

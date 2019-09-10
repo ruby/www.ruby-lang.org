@@ -94,4 +94,3 @@ of me, and unak and Aaron Patterson reviewed the draft of this
 announcement. Thank you all!
 
 Yusuke Endoh &lt;mame / tsg.ne.jp&gt;
-

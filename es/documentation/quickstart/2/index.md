@@ -124,4 +124,3 @@ todos los métodos de la clase. Como puedes ver es utilizada por
 
 ¿Así que cómo hacemos para que esta clase Anfitrion nos sea de utilidad?
 [Crea un objeto](../3/).
-

@@ -244,4 +244,3 @@ terminal. Vous devriez y lire ceci :
 
 Il y a un certain nombre de choses nouvelles dans ce fichier.
 [Examinons-les en détails](../4/).
-

@@ -8,6 +8,10 @@ lang: ko
 콘퍼런스에서는 루비에서 작업 중인 내용의 공유, 루비의 미래에 대한 토론, 루비
 커뮤니티의 뉴비의 환영 등을 함께합니다.
 
+[RubyConferences.org][rc]는 루비 커뮤니티에서 함께 제작하고 있는
+루비에 대한 콘퍼런스 목록입니다. 이곳에서는 행사일, 장소, CFP(발표 신청)와
+등록 정보를 찾아볼 수 있습니다.
+
 ### 주요 루비 콘퍼런스
 
 [RubyConf][1]
@@ -29,21 +33,16 @@ lang: ko
   개최되었습니다. Armin Roehrl, Michael Neumann를 포함한 독일의 루비스트들이
   주축이 되었고 RubyConf 이후 2번째로 등장한 루비 콘퍼런스입니다.
 
-[Open Source Developer Conference][5]
-: 이 콘퍼런스는 호주에서 매년 개최되는 정기적인 콘퍼런스입니다. 루비만을
-  위한 콘퍼런스가 아니지만 매년 다수의 관심을 가질만한 루비 논문을
-  얻을 수 있습니다.
-
 ### 지역 루비 콘퍼런스
 
 한국에서는 아직 정기적인 루비 콘퍼런스는 개최되고 있지 않습니다.
 
 ### 다른 콘퍼런스에서의 루비
 
-2004년부터 [오렐리 오픈소스 콘퍼런스][10](OSCON)에 루비 트랙이 생겼고 매년
+2004년부터 [오라일리 오픈소스 콘퍼런스][10](OSCON)에 루비 트랙이 생겼고 매년
 다른 언어의 트랙에 비해 비중이 증가하는 추세입니다. Ruby Central의
 [RailsConf][12], [RailsConf Europe][13] (2006년엔 Ruby Central과
-[Skills Matter][14]에 의해 2007년엔 Ruby Central과 오렐리에 의해 공동기획),
+[Skills Matter][14]에 의해 2007년엔 Ruby Central과 오라일리에 의해 공동기획),
 Canada on Rails 등등의 많은 콘퍼런스들은 [루비 온 레일즈][11]의 헌신 덕분에
 가능했습니다.
 
@@ -51,6 +50,7 @@ Canada on Rails 등등의 많은 콘퍼런스들은 [루비 온 레일즈][11]�
 한국에서는 [대안언어축제](http://www.pnakorea.org/)에서 루비를 다루고 있습니다.
 
 
+[rc]: http://rubyconferences.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
@@ -61,4 +61,3 @@ Canada on Rails 등등의 많은 콘퍼런스들은 [루비 온 레일즈][11]�
 [12]: http://www.railsconf.org
 [13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com
-

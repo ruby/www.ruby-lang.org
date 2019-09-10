@@ -107,7 +107,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
 
 * In exception handling blocks, `else` without `rescue` now causes a syntax error. [EXPERIMENTAL][[Feature #14606]](https://bugs.ruby-lang.org/issues/14606)
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) for more details.
+See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0/NEWS) or the [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) for more details.
 
 With those changes, [6437 files changed, 231471 insertions(+), 98498 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) since Ruby 2.5.0!
 

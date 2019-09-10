@@ -60,4 +60,3 @@ Make sure to send a plain text mail, an HTML mail might not work.
 
 To see the list of commands, send a mail which body is “help” to the
 controller address.
-

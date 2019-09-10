@@ -73,4 +73,3 @@ Contrairement à Python, en Ruby…
   dessous) ;
 * un certain nombre de raccourcis sont offerts, dont la mémorisation est
   cependant assez rapide.
-

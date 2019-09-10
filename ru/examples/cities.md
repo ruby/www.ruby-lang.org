@@ -7,15 +7,15 @@ layout: null
 # что вы имеете в виду,
 # даже если вы хотите производить
 # вычисления на целом массиве.
-cities  = %w[ London
-              Oslo
-              Paris
-              Amsterdam
-              Berlin ]
-visited = %w[Berlin Oslo]
+cities  = %w[ Лондон
+              Осло
+              Париж
+              Амстердам
+              Берлин ]
+visited = %w[Берлин Осло]
 
-puts "I still need " +
-     "to visit the " +
-     "following cities:",
+puts "Я ещё хочу " +
+     "посетить " +
+     "следующие города:",
      cities - visited
 {% endhighlight %}

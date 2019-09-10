@@ -23,7 +23,7 @@ lang: zh_tw
 
 #### 機器人
 
-* 在 [MORPHA][5] 計畫中，使用 Ruby 來實作西門子公司服務型機器人的反應控制部份。
+* 在 MORPHA 計畫中，使用 Ruby 來實作西門子公司服務型機器人的反應控制部份。
 
 #### 網路
 
@@ -52,7 +52,6 @@ lang: zh_tw
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

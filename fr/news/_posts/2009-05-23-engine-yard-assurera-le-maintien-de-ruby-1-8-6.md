@@ -21,4 +21,3 @@ proposée et il a été décidé de leur transférer les accès appropriés.
 Du point de vue des utilisateurs, cette annonce officielle n\'introduit
 aucun changement… si ce n\'est que les fix et les mises-à-jour devraient
 sortir à un rythme un peu plus rapide.
-

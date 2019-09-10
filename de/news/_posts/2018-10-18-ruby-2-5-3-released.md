@@ -49,7 +49,7 @@ Paketierungsfehlers. Sie enthält keine weiteren Änderungen gegenüber
 
 ## Veröffentlichungskommentar
 
-Viele Commiter, Entwickler und Fehlermelder halfen uns bei dieser
+Viele Committer, Entwickler und Fehlermelder halfen uns bei dieser
 Version. Wir danken ihnen für ihre Mitarbeit.
 
 Besonderer Dank geht an wanabe für die Meldung des Fehlers mit den

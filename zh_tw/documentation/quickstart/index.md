@@ -115,4 +115,3 @@ irb(main):009:0> Math.sqrt(a+b)
 {% endhighlight %}
 
 儘管這是一個不錯的計算機，但我們將逐漸脫離基本的 `Hello World`，[讓我們繼續吧](2/)。
-

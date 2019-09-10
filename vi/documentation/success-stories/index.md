@@ -29,7 +29,7 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 
 #### Robotics
 
-* Dự án [MORPHA][5] dùng Ruby để triển khai phần tương tác phản hồi của cho rô-bô dịch vụ của Siemens.
+* Dự án MORPHA dùng Ruby để triển khai phần tương tác phản hồi của cho rô-bô dịch vụ của Siemens.
 
 #### Mạng
 
@@ -71,7 +71,6 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.morpha.de/php_e/index.php3
 [6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/

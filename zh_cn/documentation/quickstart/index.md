@@ -113,4 +113,3 @@ irb(main):009:0> Math.sqrt(a+b)
 {% endhighlight %}
 
 尽管这是个非常好的计算器，我们已经要从基本的 `Hello World` 程序向更有意思的领域迈进了。[现在就开始吧](2/)
-

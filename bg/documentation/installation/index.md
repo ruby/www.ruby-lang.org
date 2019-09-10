@@ -136,7 +136,7 @@ $ brew install ruby
 {: #solaris}
 
 Ruby 1.8.7 е наличен за Solaris от версия 8 до 10 на
-[Sunfreeware][sunfreeware] и на [Blastwave][blastwave].
+[Sunfreeware][sunfreeware] и на Blastwave.
 Ruby 1.9.2p0 също може да бъде инсталиран от [Sunfreeware][sunfreeware],
 но е стара версия.
 
@@ -282,7 +282,6 @@ $ sudo make install
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

@@ -55,4 +55,3 @@ unsubscribe » dans le corps du message:
 
 Vous pouvez envoyer un e-mail au robot avec le terme « help » pour
 obtenir une liste des commandes.
-

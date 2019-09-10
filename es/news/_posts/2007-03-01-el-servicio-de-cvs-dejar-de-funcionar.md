@@ -12,4 +12,3 @@ SVN](/es/news/2006/12/23/cvs-de-ruby-ahora-en-svn/).
 
 Si por alguna razón necesitas el repositorio CVS, puedes obtener una
 copia hasta ese día mediante CVSup.
-

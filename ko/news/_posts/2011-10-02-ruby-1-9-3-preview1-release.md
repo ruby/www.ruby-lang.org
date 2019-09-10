@@ -58,4 +58,3 @@ lang: ko
 * 1: https://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_3\_preview1/NEWS
 * 2:
   https://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_3\_preview1/ChangeLog
-

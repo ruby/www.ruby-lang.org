@@ -65,4 +65,3 @@ funktioniert möglicherweise nicht.
 
 Um alle Befehle aufzulisten, sende eine E-Mail mit dem Inhalt “help”
 an die Controller-Adresse.
-

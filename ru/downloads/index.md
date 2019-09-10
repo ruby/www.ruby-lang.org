@@ -39,6 +39,12 @@ lang: ru
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
+{% if site.data.downloads.preview %}
+* **Предварительные релизы:**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
 {% if site.data.downloads.security_maintenance %}
 * **На стадии поддержки безопасности (скоро будет остановлена):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
@@ -54,11 +60,17 @@ lang: ru
 * **Слепки:**
   * [Стабильный слепок]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Это архив свежайшего слепка текущей стабильной ветки.
-  * [Nightly слепок]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    Это архив того, что в SVN, сделанный ночью.
-    Может содержать баги и другие проблемы, используйте на свой страх и риск.
+  * [Nightly-слепок]({{ site.data.downloads.nightly_snapshot.url.gz }}):
+    Это архив того, что есть в SVN, сделанный ночью.
+    Может содержать баги и прочие ошибки, используйте на его на свой страх и риск.
 
-За информацией о Ruby Subversion и Git репозиториях пожалуйста,
+Для получения дополнительной информации по определенным релизам,
+в частности про старые релизы или предварительных релизам,
+обратитесь к [странице со списком релизов][releases].
+Информацию о текущем состоянии поддержки различных веток Ruby
+можно найти на [странице ветвей][branches].
+
+За информацией про Ruby-репозитории Subversion и Git, пожалуйста,
 посмотрите страницу о [ядре Ruby](/ru/community/ruby-core/).
 
 Исходный код Ruby доступен по всему миру на нескольких
@@ -70,6 +82,8 @@ lang: ru
 
 [license]: {{ site.license.url }}
 [installation]: /ru/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv

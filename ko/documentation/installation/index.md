@@ -30,6 +30,10 @@ ruby -v
   전환을 도와줍니다.
 * 마지막으로 **소스에서 빌드** 하실 수도 있습니다.
 
+Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용하여
+지원되는 Linux 배포판 중 하나를 설치하고, 해당 시스템에 맞는 설치 방법을
+사용할 수 있습니다.
+
 이 목록은 각 다른 요구사항과 플랫폼을 위한 주요 설치방법입니다.
 
 * [패키지 관리 시스템](#package-management-systems)
@@ -40,7 +44,7 @@ ruby -v
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
   * [ruby-build](#ruby-build)
@@ -77,10 +81,6 @@ Debian GNU/Linux와 Ubuntu는 apt 패키지 관리 시스템을 사용합니다.
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
-
-글을 쓰는 시점에서, `ruby-full` 패키지는 루비 2.3.1을 설치합니다.
-이 버전은 Debian이나 Ubuntu의 오래된 안정 버전입니다.
-
 
 ### yum (CentOS, Fedora, RHEL)
 {: #yum}
@@ -122,8 +122,6 @@ Gentoo는 portage 패키지 관리자를 사용합니다.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-기본적으로, 이 명령어는 1.9와 2.0 버전을 설치하려 하지만, 더 많은 버전도
-사용할 수 있습니다.
 특정 버전을 설치하려면, `make.conf`에 `RUBY_TARGETS`를 설정하세요.
 더 자세한 정보는 [Gentoo 루비 프로젝트 웹 사이트][gentoo-ruby]를 확인하세요.
 
@@ -173,12 +171,8 @@ FreeBSD 상의 루비와 그 환경에 대해서 더 자세한 정보는
 [FreeBSD Ruby Project 웹사이트][freebsd-ruby]에서 얻을 수 있습니다.
 
 
-### Solaris와 OpenIndiana에서의 루비
-{: #solaris}
-
-Solaris 8에서 Solaris 10까지 [Sunfreeware][sunfreeware]에서 루비 1.8.7을 사용 가능하며
-[Blastwave][blastwave]에서 루비 1.8.7을 사용 가능합니다.
-[Sunfreeware][sunfreeware]에서 루비 1.9.2p0을 사용 가능하지만, 이는 구 버전입니다.
+### OpenIndiana에서의 루비
+{: #openindiana}
 
 [OpenIndiana][openindiana]에서 루비를 설치하려면,
 Image Packaging System (IPS) 클라이언트를 사용해 주십시오.
@@ -321,8 +315,6 @@ $ sudo make install
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [freebsd-ruby]: https://wiki.freebsd.org/Ruby
@@ -332,3 +324,4 @@ $ sudo make install
 [download]: /ko/downloads/
 [installers]: /ko/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[wsl]: https://docs.microsoft.com/ko-kr/windows/wsl/about

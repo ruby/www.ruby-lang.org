@@ -29,6 +29,7 @@ lang: ja
 
 * Windows
 
+  * [WSL](#apt-wsl)
   * [ActiveScriptRuby](#activescriptruby)
   * [RubyInstaller](#rubyinstaller)
   * [RailsInstaller](#railsinstaller)
@@ -100,6 +101,7 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 このページには以下のパッケージマネージャが記述されています。
 
 * [apt (Debian or Ubuntu)](#apt)
+* [apt (Windows WSL Ubuntu)](#apt-wsl)
 * [yum (CentOS, Fedora, or RHEL)](#yum)
 * [portage (Gentoo)](#gentoo)
 * [pacman (Arch Linux)](#pacman)
@@ -119,6 +121,12 @@ $ sudo apt-get install ruby
 
 これを書いている時点では、 Debian と Ubuntu の `ruby` パッケージは古い Ruby 2.3.1 を提供しています。
 
+### apt (Windows WSL Ubuntu)
+{: #apt-wsl }
+
+WSL(Windows Subsystem for Linux)を使うとWindows上でLinux環境をインストールすることができます。インストールしたLinux上で、前述の [rbenv](#rbenv) やパッケージ管理システム [apt](#apt) など、Linux/UNIX向けツールを利用することでRuby開発環境を構築できます。
+
+WSLをインストールする方法は [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) のページに書かれています。
 
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
@@ -187,7 +195,7 @@ macOS 上で新しい Ruby のバージョンをインストールする手助�
 {: #solaris}
 
 [Sunfreeware][sunfreeware] で Solaris 8 から 10 用の Ruby 1.8.7 が使用できます。
-[Blastwave][blastwave] で Ruby 1.8.7 が使用できます。
+Blastwave で Ruby 1.8.7 が使用できます。
 [Sunfreeware][sunfreeware] で Ruby 1.9.2p0 も使用できますが、これは古いバージョンです。
 サードパーティ製ツールを使用することで最新バージョンの Ruby を手に入れることができます。
 
@@ -234,7 +242,6 @@ $ sudo make install
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

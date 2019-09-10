@@ -33,4 +33,3 @@ Rails の `HashWithIndifferentAccess` と `OrderedHash` です: [Rails issue #14
 また、この不具合はあるコミットのバックポート漏れで発生してしまいました。対策などを含めた詳細はこちらの記事を参照してください: [http://diary.sorah.jp/2014/02/28/ruby211-hash-reject](http://diary.sorah.jp/2014/02/28/ruby211-hash-reject)
 
 ご不便をおかけします。
-

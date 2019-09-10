@@ -1,44 +1,54 @@
+GIT
+  remote: https://github.com/hsbt/lanyon
+  revision: b84d5338b7e4138319311591c41ae41a66dcd3e8
+  ref: b84d5338b7e4138319311591c41ae41a66dcd3e8
+  specs:
+    lanyon (0.4.0)
+      jekyll (>= 2.0, < 5.0)
+      rack (>= 1.6, < 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     crass (1.0.4)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.10.0)
+    ffi (1.11.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    i18n (0.9.5)
+    i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.5)
+    jekyll (4.0.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
-      i18n (~> 0.7)
-      jekyll-sass-converter (~> 1.0)
+      i18n (>= 0.9.5, < 2)
+      jekyll-sass-converter (~> 2.0)
       jekyll-watch (~> 2.0)
-      kramdown (~> 1.14)
+      kramdown (~> 2.1)
+      kramdown-parser-gfm (~> 1.0)
       liquid (~> 4.0)
       mercenary (~> 0.3.3)
       pathutil (~> 0.9)
-      rouge (>= 1.7, < 4)
+      rouge (~> 3.0)
       safe_yaml (~> 1.0)
-    jekyll-sass-converter (1.5.2)
-      sass (~> 3.4)
-    jekyll-watch (2.1.2)
+      terminal-table (~> 1.8)
+    jekyll-sass-converter (2.0.0)
+      sassc (> 2.0.1, < 3.0)
+    jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.2.0)
     kgio (2.11.2)
-    kramdown (1.17.0)
-    lanyon (0.4.0)
-      jekyll (>= 2.0, < 4.0)
-      rack (>= 1.6, < 3.0)
-    liquid (4.0.1)
+    kramdown (2.1.0)
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
+    liquid (4.0.3)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -46,48 +56,48 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
-    nokogiri (1.10.1)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
-    paint (2.1.0)
+    paint (2.1.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (3.0.3)
-    rack (2.0.6)
-    rack-protection (2.0.5)
+    public_suffix (3.1.1)
+    rack (2.0.7)
+    rack-protection (2.0.7)
       rack
     rack-rewrite (1.5.1)
     rack-ssl (1.4.1)
       rack
     raindrops (0.19.0)
-    rake (12.3.2)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rouge (1.11.1)
+    rouge (3.9.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
-    sass (3.7.3)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
-    slop (4.6.2)
+    sassc (2.2.0)
+      ffi (~> 1.9)
+    slop (4.7.0)
     spidr (0.6.0)
       nokogiri (~> 1.3)
-    sq_mini_racer (0.2.4.sqreen2)
-    sqreen (1.16.2)
+    sq_mini_racer (0.2.5.0.1.beta1)
+    sqreen (1.17.0)
       sq_mini_racer (~> 0.2.4.sqreen2)
-    tidy_ffi (0.1.6)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    tidy_ffi (1.0.0)
       ffi (~> 1.2)
-    unicorn (5.5.0)
+    unicode-display_width (1.6.0)
+    unicorn (5.5.1)
       kgio (~> 2.6)
       raindrops (~> 0.7)
-    validate-website (1.9.0)
+    validate-website (1.9.3)
       crass (~> 1)
       paint (~> 2)
       slop (~> 4.6)
       spidr (~> 0.6)
-      tidy_ffi (~> 0.1)
+      tidy_ffi (~> 1.0)
       w3c_validators (~> 1.3)
     w3c_validators (1.3.4)
       json (>= 1.8)
@@ -97,21 +107,21 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.0)
-  lanyon (~> 0.4.0)
+  jekyll
+  lanyon!
   minitest
   rack-protection
   rack-rewrite
   rack-ssl
   rake
-  rouge (~> 1.10)
+  rouge
   spidr (~> 0.6)
   sqreen
   unicorn
   validate-website (~> 1.6)
 
 RUBY VERSION
-   ruby 2.6.1p33
+   ruby 2.6.3p62
 
 BUNDLED WITH
-   1.17.3
+   2.0.2

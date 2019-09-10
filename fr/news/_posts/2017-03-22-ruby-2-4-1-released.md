@@ -47,4 +47,3 @@ pour les détails.
 
 Nombre de développeurs et d'utilisateurs ont remonté des bugs et nous
 ont ainsi aidé à préparer cette version. Merci à tous et à toutes.
-

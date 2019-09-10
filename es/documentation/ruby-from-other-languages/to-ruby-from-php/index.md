@@ -53,4 +53,3 @@ A diferencia de PHP, en Ruby…
   verdaderos en las condiciones lógicas.
 * casi todo es una llamada a un método, incluso `raise` (equivalente a
   `throw` en PHP).
-

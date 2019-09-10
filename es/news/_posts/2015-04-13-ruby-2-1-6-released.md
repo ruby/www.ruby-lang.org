@@ -55,4 +55,3 @@ Gracias a todos los que ayudaron con esta entrega, en especial nagachika.
 
 El mantenimiento de Ruby 2.1, incluyendo esta entrega, está basada en el "Pacto
 por la versión estable de Ruby" de la [Asociación de Ruby](http://www.ruby.or.jp/).
-

@@ -104,7 +104,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get loc
 * Merge [Bundler](https://github.com/bundler/bundler) as default gem.
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_rc2/NEWS)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc2)
+or the [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_rc2)
 for details.
 
 With those changes,

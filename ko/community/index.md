@@ -43,11 +43,16 @@ lang: ko
   콘퍼런스에서는 루비에서 작업 중인 내용의 공유, 루비의 미래에 대한 토론, 루비
   커뮤니티의 뉴비의 환영 등을 함께합니다.
 
-일반적인 루비 정보(영문)
-: * [Ruby Central][3]
-  * [Ruby at Open Directory Project][4]
-  * [Rails at Open Directory Project][5]
+[팟캐스트](podcasts/)
+: 루비에 대해 듣고 싶다면 다음 루비 팟캐스트 중 하나를 들어보세요. 루비스트들이
+  팟캐스트를 통해 새 릴리스, 커뮤니티 소식, 동료 루비 개발자와의 인터뷰를
+  다룹니다.
 
-[3]: http://rubycentral.org/
-[4]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[5]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+일반적인 루비 정보(영문)
+: * [Ruby Central][ruby-central]
+  * [Ruby at Open Directory Project][ruby-opendir]
+  * [Rails at Open Directory Project][rails-opendir]
+
+[ruby-central]: http://rubycentral.org/
+[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
+[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

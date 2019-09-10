@@ -144,4 +144,3 @@ So nützlich das auch für einen Taschenrechner ist: Wir entfernen uns von
 der traditionellen `"Hallo, Welt!"`-Botschaft, auf die Anleitungen für
 Anfänger für gewöhnlich den Fokus setzen … [Also kehren wir flugs wieder
 dahin zurück.](2/)
-

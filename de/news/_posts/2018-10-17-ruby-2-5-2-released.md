@@ -49,5 +49,5 @@ für weitere Informationen.
 
 ## Veröffentlichungskommentar
 
-Viele Commiter, Entwickler und Fehlermelder halfen uns bei dieser
+Viele Committer, Entwickler und Fehlermelder halfen uns bei dieser
 Version. Wir danken ihnen für ihre Mitarbeit.

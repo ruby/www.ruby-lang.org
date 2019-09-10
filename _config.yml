@@ -28,14 +28,14 @@ license:
 
 svn:
   stable:
+    version: 2.6
+    branch:  ruby_2_6
+  previous:
     version: 2.5
     branch:  ruby_2_5
-  previous:
+  old:
     version: 2.4
     branch:  ruby_2_4
-  old:
-    version: 2.3
-    branch:  ruby_2_3
 
 locales:
   sitelinks:
@@ -313,6 +313,7 @@ locales:
       text: Поиск
     tr:
       text: Ara
+      cx_id: "011743037637077038592:5tuc9cqilws"
     vi:
       text: Tìm
     zh_cn:
@@ -1315,7 +1316,7 @@ locales:
       get_started:
         text: <strong>Начните сейчас</strong>, это легко!
         try_ruby:
-          text: Попробуйте Ruby! (в Вашем браузере)
+          text: Попробуйте Ruby! (в своем браузере)
           <<: *try_ruby
         quickstart:
           text: Ruby за двадцать минут
@@ -1387,6 +1388,9 @@ locales:
           url: /tr/documentation/
         # books:
         #   text: Kitaplar
+        rubybib:
+          text: Akademik Araştırma
+          <<: *rubybib
         libraries:
           text: Kütüphaneler
           url: /tr/libraries/
@@ -1712,15 +1716,15 @@ locales:
       subscribe: Подписаться
       unsubscribe: Отписаться
       submit: Отправить
-#   tr:
-#     list: Mailing List
-#     first_name: First Name
-#     last_name: Last Name
-#     email: Email Address
-#     action: Action
-#     subscribe: Subscribe
-#     unsubscribe: Unsubscribe
-#     submit: Submit Form
+    tr:
+      list: E-posta Listesi
+      first_name: Ad
+      last_name: Soyad
+      email: E-posta Adresi
+      action: Eylem
+      subscribe: Abone Ol
+      unsubscribe: Abonelikten Çık
+      submit: Formu Gönder
     vi:
       list: Mailing List
       first_name: Tên
@@ -1809,7 +1813,7 @@ locales:
     ru: |
       <a href="/ru/about/website/">Этот сайт</a> с гордостью поддерживается членами сообщества Ruby.
     tr: |
-      <a href="/en/about/website/">Bu web sitesi</a>
+      <a href="/tr/about/website/">Bu web sitesi</a>
       Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
     vi: |
       Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.

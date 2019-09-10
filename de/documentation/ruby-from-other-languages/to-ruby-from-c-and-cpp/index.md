@@ -199,4 +199,3 @@ zwischen Ruby und C++:
   Version 1.8 gibt es allerdings nur “green threads”, also keine
   Abbildung auf die Threads des Betriebssystems.
 * Ruby enthält bereits ein Unit-Test-Framework.
-

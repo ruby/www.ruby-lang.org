@@ -184,7 +184,7 @@ nowej wersji Rubiego w macOS dobrym pomysłem jest użycie narzędzi osób trzec
 {: #solaris}
 
 Ruby 1.8.7 jest dostępny dla Solarisa 8 do Solarisa 10 na
-[Sunfreeware][sunfreeware] i Ruby 1.8.7 jest dostępny na [Blastwave][blastwave].
+[Sunfreeware][sunfreeware] i Ruby 1.8.7 jest dostępny na Blastwave.
 Ruby 1.9.2p0 jest także dostępny na [Sunfreeware][sunfreeware], ale przestarzały.
 Użycie RVM umożliwi ci skorzystanie z najnowszej wersji Rubiego.
 
@@ -230,7 +230,6 @@ pomysłem, ponieważ zainstalowany Ruby nie będzie zarządzany przez żadne z n
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

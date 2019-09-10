@@ -140,7 +140,7 @@ Este comando deve instalar a versão mais recente do Ruby.
 
 O Ruby 1.8.7 está disponível do Solaris 8 até o Solaris 10 no
 [Sunfreeware][sunfreeware] e o Ruby 1.8.7 está disponível no
-[Blastwave][blastwave]. O Ruby 1.9.2p0 também está disponível no
+Blastwave. O Ruby 1.9.2p0 também está disponível no
 [Sunfreeware][sunfreeware], mas está desatualizado.
 
 Para instalar o Ruby no [OpenIndiana][openindiana], por favor use o
@@ -290,7 +290,6 @@ por nenhuma ferramenta.
 [railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
-[blastwave]: http://www.blastwave.org
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/

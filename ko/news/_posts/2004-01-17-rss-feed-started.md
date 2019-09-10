@@ -7,4 +7,3 @@ lang: ko
 
 We just started RSS feed in this site. Check it.
 https://www.ruby-lang.org/en/index.rdf
-

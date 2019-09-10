@@ -10,4 +10,3 @@ that provided various services relevant to Ruby evelopment, was cracked
 by an unauthorized user. We, the ruby-lang.org administrators, are
 reporting our analysis of this intrusion and the countermeasures we’ve
 taken.
-

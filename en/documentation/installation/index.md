@@ -30,6 +30,10 @@ There are several ways to install Ruby:
   on your system.
 * Finally, you can also **build Ruby from source**.
 
+On Windows 10, you can also use the [Windows Subsystem for Linux][wsl]
+to install one of the supported Linux distributions and use any of the
+installation methods available on that system.
+
 Here are available installation methods:
 
 * [Package Management Systems](#package-management-systems)
@@ -336,3 +340,4 @@ though, because the installed Ruby won't be managed by any tools.
 [download]: /en/downloads/
 [installers]: /en/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
