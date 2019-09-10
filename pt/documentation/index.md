@@ -85,7 +85,7 @@ diversas maneiras de obter o Ruby.
 [Ruby Core Reference][13]
 : Vindo diretamente do código-fonte através de [RDoc][14], esta
   referência documenta todas as classes e módulos do _core_ (como String,
-  Array, Sumbol, etc…).
+  Array, Symbol, etc…).
 
 [Ruby Standard Library Reference][15]
 : Também vindo do código-fonte através do RDoc, esta referência explora
