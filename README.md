@@ -75,7 +75,7 @@ in your browser to access the preview.
 Run the following
 
 ``` sh
-docker run -it --name ruby-lang -v $PWD:/www.ruby-lang.org -w /www.ruby-lang.org --network host ruby:2.6.1 sh -c "bundle install --without production && bundle exec rake serve"
+docker run -it --name ruby-lang -v $PWD:/www.ruby-lang.org -w /www.ruby-lang.org --network host ruby:2.6.3 sh -c "bundle install --without production && bundle exec rake serve"
 ```
 
 to generate the website and start a local web server
