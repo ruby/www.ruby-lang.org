@@ -2,7 +2,7 @@ version: '3.5'
 services:
   web:
     container_name: ruby-lang
-    image: ruby:2.6.1
+    image: ruby:2.6.3
     command: >
       sh -c "bundle check || bundle install --without production &&
              bundle exec rake build &&

@@ -81,8 +81,7 @@ docker run -it --name ruby-lang -v $PWD:/www.ruby-lang.org -w /www.ruby-lang.org
 to generate the website and start a local web server
 
 
-Open [http://localhost:9292/](http://localhost:9292/)
-in your browser to access the preview.
+Open <http://localhost:9292/> in your browser to access the preview.
 
 ### Preview with Docker Compose
 
