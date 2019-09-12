@@ -40,7 +40,7 @@ end
 
 ## REPL 改进
 
-`irb`，集成的交互环境 (REPL; Read-Eval-Print-Loop)，现已支持多行编辑，由 `reline`、`readline` 实现了纯 Ruby 的支持。它还提供 rdoc 集成。在 irb 中您可以为指定的类、模块或方法的显示引用。[#14683](https://bugs.ruby-lang.org/issues/14683)、[#14787](https://bugs.ruby-lang.org/issues/14787)、[#14918](https://bugs.ruby-lang.org/issues/14918) 此外，`binding.irb` 中显示的代码和黑心类的检查结果现在已经可以彩色呈现。
+`irb`，集成的交互环境 (REPL; Read-Eval-Print-Loop)，现已支持多行编辑，由 `reline`、`readline` 实现了纯 Ruby 的支持。它还提供 rdoc 集成。在 irb 中您可以为指定的类、模块或方法的显示引用。[#14683](https://bugs.ruby-lang.org/issues/14683)、[#14787](https://bugs.ruby-lang.org/issues/14787)、[#14918](https://bugs.ruby-lang.org/issues/14918) 此外，`binding.irb` 中显示的代码和核心类的检查结果现在已经可以彩色呈现。
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
   <source src="https://cache.ruby-lang.org/pub/media/irb_improved_with_key_take2.mp4" type="video/mp4">
