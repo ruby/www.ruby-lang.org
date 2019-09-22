@@ -281,12 +281,12 @@ t1 == t2
 
 In Ruby, tutte le classi sono “aperte”. Questo vuol dire che puoi aggiungere
 metodi e variabili e cambiarle in qualsiasi momento, e questo vale anche per
-classi interne, come `Fixnum` o anche `Object`, il “genitore” di tutti gli
+classi interne, come `Integer` o anche `Object`, il “genitore” di tutti gli
 oggetti. Ruby on Rails, per esempio, definisce una serie di metodi per fare
-operazioni temporali con oggetti `Fixnum`\:
+operazioni temporali con oggetti `Integer`\:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # numero di secondi in un'ora
   end
@@ -410,10 +410,10 @@ method(:puts).call "puts è un oggetto!"
 
 Molti degli operatori sono solamente dello “zucchero sintattico” (con
 alcune regole di precendenza però) per delle chiamate a dei metodi. È
-possibile, per esempio, ridefinire il metodo ”+” della classe Fixnum:
+possibile, per esempio, ridefinire il metodo ”+” della classe Integer:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Puoi farlo, ma è meglio di no!
   def +(other)
     self - other

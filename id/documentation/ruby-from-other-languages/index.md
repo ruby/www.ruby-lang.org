@@ -293,13 +293,13 @@ t1 == t2
 
 Kelas Ruby bersifat terbuka. Anda bisa membuka `Class`, lalu menambahkan
 ke dalam `Class`, dan menggantinya kapan saja. Bahkan kelas yang
-termasuk class inti, seperti kelas `Fixnum` atau bahkan kelas `Object`,
+termasuk class inti, seperti kelas `Integer` atau bahkan kelas `Object`,
 induk dari semua obyek di Ruby. Ruby on Rails mendefinisikan banyak
-metode yang berhubungan dengan waktu ke dalam kelas `Fixnum`. Perhatikan
+metode yang berhubungan dengan waktu ke dalam kelas `Integer`. Perhatikan
 kode berikut:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # total detik dalam satu jam adalah 3600
   end
@@ -431,10 +431,10 @@ Kebanyakan operator di Ruby hanyalah *syntactic sugar*. Maksudnya
 operator-operator itu, mereka sebenarnya hanyalah pemanggilan metode
 saja, tentunya dengan peraturan tertentu supaya jenjang *precedence*
 tetap dituruti. Contohnya, Anda bisa meng-*override* metode + milik
-kelas Fixnum:
+kelas Integer:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Sebenarnya Anda bisa melakukan ini,
   # tetapi tolong jangan lakukan ini
   def +(other)

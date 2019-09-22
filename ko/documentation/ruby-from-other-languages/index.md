@@ -257,12 +257,12 @@ t1 == t2
 ### 열린 클래스
 
 루비의 클래스는 열려 있습니다. 언제든 클래스를 열어서, 추가하고, 변경할 수
-있습니다. `Fixnum`이나 심지어 모든 객체의 부모인 `Object` 같은 코어 클래스도
-예외는 아닙니다. 루비 온 레일즈에서는 시간을 제어하기 위해 `Fixnum`에 많은
+있습니다. `Integer`나 심지어 모든 객체의 부모인 `Object` 같은 코어 클래스도
+예외는 아닙니다. 루비 온 레일즈에서는 시간을 제어하기 위해 `Integer`에 많은
 메서드를 추가해서 사용합니다. 밑을 보세요.
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # 한 시간을 초로 환산한 수
   end
@@ -377,11 +377,11 @@ method(:puts).call "puts is an object!"
 ### 연산자는 신택스 슈거
 
 루비의 대부분의 연산자는 메서드 호출의 (몇가지 우선순위 규칙을
-포함한) 신택스 슈거입니다. 예를 들어, Fixnum의 + 메서드를 오버라이드
+포함한) 신택스 슈거입니다. 예를 들어, Integer의 + 메서드를 오버라이드
 할 수 있습니다.
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # 할 수는 있지만, 하지 마세요.
   def +(other)
     self - other

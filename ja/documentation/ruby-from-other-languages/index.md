@@ -283,12 +283,12 @@ t1 == t2
 
 Rubyのクラスは開いています。
 いつでもクラスを開いて、定義を足したり、変更することができます。
-`Fixnum`や、すべてのオブジェクトの祖先である`Object`のようなクラスであっても、
+`Integer`や、すべてのオブジェクトの祖先である`Object`のようなクラスであっても、
 自由に再定義することが可能です。Ruby on Railsは、次のような
-`Fixnum`に時間を扱うメソッド群を定義しています。
+`Integer`に時間を扱うメソッド群を定義しています。
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # 1時間あたりの秒数を返します
   end
@@ -406,10 +406,10 @@ method(:puts).call "putsはオブジェクト!"
 
 Rubyにおけるほとんどの演算子は糖衣構文です。
 いくつかの優先順位規則にもとづいて、メソッド呼び出しを単に書き換えているだけです。
-たとえば、Fixnumクラスの`+`メソッドを次のようにオーバーライドすることもできます。
+たとえば、Integerクラスの`+`メソッドを次のようにオーバーライドすることもできます。
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # できるけれど、しないほうがいいでしょう
   def +(other)
     self - other
