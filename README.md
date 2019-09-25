@@ -70,6 +70,33 @@ in your browser to access the preview.
 
 **Note:** The build of the site will take several minutes.
 
+### Preview with Docker
+
+Run the following
+
+``` sh
+docker run -it --name ruby-lang -v $PWD:/www.ruby-lang.org -w /www.ruby-lang.org --network host ruby:2.6.3 sh -c "bundle install --without production && bundle exec rake serve"
+```
+
+to generate the website and start a local web server
+
+
+Open <http://localhost:9292/> in your browser to access the preview.
+
+### Preview with Docker Compose
+
+Run the following
+
+``` sh
+docker-compose up
+```
+
+to generate the website and start a local web server
+
+
+Open [http://localhost:9292/](http://localhost:9292/)
+in your browser to access the preview.
+
 ### Preview on Heroku
 
 In case a build is not possible on your local machine
