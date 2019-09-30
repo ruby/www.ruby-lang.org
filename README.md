@@ -70,6 +70,14 @@ in your browser to access the preview.
 
 **Note:** The build of the site will take several minutes.
 
+Alternatively, you can use Jekyll directly.
+
+```
+bundle exec jekyll serve --watch --future --incremental
+```
+
+If your draft uses future date, you may want to use `--future` option.
+
 ### Preview on Heroku
 
 In case a build is not possible on your local machine
