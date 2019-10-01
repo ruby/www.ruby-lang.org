@@ -9,7 +9,7 @@ lang: en
 
 Ruby 2.6.5 has been released.
 
-This release includes a security fix of rdoc.
+This release includes security fixes.
 Please check the topics below for details.
 
 * [CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test"](/en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md)
