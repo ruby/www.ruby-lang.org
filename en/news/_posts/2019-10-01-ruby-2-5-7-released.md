@@ -9,7 +9,7 @@ lang: en
 
 Ruby 2.5.7 has been released.
 
-This release includes about XXX bug fixes after the previous release, and also includes security fixes.
+This release includes security fixes as listed below.
 Please check the topics below for details.
 
 * [CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test](/en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md)
