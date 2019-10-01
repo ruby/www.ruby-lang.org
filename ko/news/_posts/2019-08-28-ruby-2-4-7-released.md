@@ -1,25 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.4.7 Released"
+title: "루비 2.4.7 릴리스"
 author: "usa"
-translator:
+translator: "yous"
 date: 2019-08-28 09:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.4.7 has been released.
+루비 2.4.7이 릴리스되었습니다.
 
-This release includes a security fix.
-Please check the topics below for details.
+이 릴리스는 보안 수정 1개를 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [Multiple jQuery vulnerabilities in RDoc](/en/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
+* [RDoc의 jQuery 취약점 다수 발견](/ko/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-Ruby 2.4 is now under the state of the security maintenance phase, until
-the end of March of 2020.  After that date, maintenance of Ruby 2.4
-will be ended. We recommend you start planning the migration to newer
-versions of Ruby, such as 2.6 or 2.5.
+루비 2.4는 현재 보안 유지보수 단계이고, 기한은 2020년 3월입니다. 이날 이후 루비
+2.4의 유지보수는 종료됩니다. 루비 2.6, 2.5 등의 새 루비 버전으로 업그레이드할
+계획을 세우길 바랍니다.
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.7.tar.bz2>
 
@@ -49,6 +48,6 @@ versions of Ruby, such as 2.6 or 2.5.
       SHA256: 1016797925e55c78d9c15633da8ddbd19daed2993a99d35377d2a16c3175cfe5
       SHA512: 1bddd5616edb1a671224bc1c22cc3ac6f70e96e41cb2937efb437e8920fe09ce2ef0f29c591499d3682ac547e1d3eb7474f89ff86a3834d25724329e4927ed76
 
-## Release Comment
+## 릴리스 코멘트
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+이 릴리스를 만드는 데 도움을 준 모든 분, 특히 취약점을 보고해준 분에게 감사드립니다.

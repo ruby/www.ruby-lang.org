@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.5.6 Released"
+title: "루비 2.5.6 릴리스"
 author: "usa"
-translator:
+translator: "yous"
 date: 2019-08-28 09:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.5.6 has been released.
+루비 2.5.6이 릴리스되었습니다.
 
-This release includes about 40 bug fixes after the previous release, and also includes a security fix.
-Please check the topics below for details.
+이 릴리스는 지난 릴리스 이후로 버그 수정 약 40개와 보안 수정 1개를 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [Multiple jQuery vulnerabilities in RDoc](/en/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
+* [RDoc의 jQuery 취약점 다수 발견](/ko/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-See the [commit log](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6) for details.
+자세한 내용은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6)를 확인해주세요.
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.6.tar.bz2>
 
@@ -46,8 +46,8 @@ See the [commit log](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6) for d
       SHA256: c86b0a9bfe47df5639cf134eabd3ebc2711794226ccb02e22094e46aa3e887f4
       SHA512: 8aa96c4e6692ed8c9f8fe4ceb2a91829bb5fa98ef53a4bc85f3a3d0cd66d60bb80985359bd9f7020de7d1cc39c7223559aa20dfdcc01d890624b71b935c6f8da
 
-## Release Comment
+## 릴리스 코멘트
 
-Thanks to everyone who helped with this release.
+이 릴리스를 만드는 데 도움을 준 모든 분에게 감사드립니다.
 
-The maintenance of Ruby 2.5, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+이 릴리스를 포함한 루비 2.5의 유지보수는 Ruby Association의 "루비 안정 버전에 관한 협의"에 기반에 이루어집니다.

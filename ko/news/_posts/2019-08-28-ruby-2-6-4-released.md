@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.6.4 Released"
+title: "루비 2.6.4 릴리스"
 author: "nagachika"
-translator:
+translator: "yous"
 date: 2019-08-28 09:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.6.4 has been released.
+루비 2.6.4가 릴리스되었습니다.
 
-This release includes a security fix of rdoc.
-Please check the topics below for details.
+이 릴리스는 rdoc의 보안 수정 1개를 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [Multiple jQuery vulnerabilities in RDoc](/en/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
+* [RDoc의 jQuery 취약점 다수 발견](/ko/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_3...v2_6_4) for changes in detail.
+자세한 내용은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_3...v2_6_4)를 확인해주세요.
 
-## Download
+## 다운로드
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.4.tar.bz2>
 
@@ -47,7 +47,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_3...v2_6_4) for 
       SHA512: 5696f2921b8488bde42536dd23d933c8a5ab9ce33632760d217d79567324c4a20f8007d4815f33e56c0a764d1ca372b40c41a5937f9938bb1d63ea078d10d657
 
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 신고해준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.

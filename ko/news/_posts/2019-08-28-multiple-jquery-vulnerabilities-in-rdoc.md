@@ -1,63 +1,63 @@
 ---
 layout: news_post
-title: "Multiple jQuery vulnerabilities in RDoc"
+title: "RDoc의 jQuery 취약점 다수 발견"
 author: "aycabta"
-translator:
+translator: "yous"
 date: 2019-08-28 09:00:00 +0000
 tags: security
-lang: en
+lang: ko
 ---
 
 
-There are multiple vulnerabilities about Cross-Site Scripting (XSS) in jQuery shipped with RDoc which bundled in Ruby.
-All Ruby users are recommended to update Ruby to the latest release which includes the fixed version of RDoc.
+루비에 포함되어 있는 RDoc과 함께 배포되는 jQuery에 크로스 사이트 스크립팅(XSS) 취약점이 다수 발견되었습니다.
+모든 루비 사용자는 취약점을 수정한 RDoc이 포함된 최신 루비 릴리스로 업데이트하기 바랍니다.
 
-## Details
+## 세부 내용
 
-The following vulnerabilities have been reported.
+아래와 같은 취약점이 보고되었습니다.
 
 * [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
 * [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
 
-It is strongly recommended for all Ruby users to upgrade your Ruby installation or take one of the following workarounds as soon as possible.
-You also have to re-generate existing RDoc documentations to completely mitigate the vulnerabilities.
+모든 루비 사용자는 가능한 빨리 설치된 루비를 업그레이드하거나 아래 해결 방법으로 조치하기 바랍니다.
+취약점을 완전히 해소하려면 기존의 RDoc 문서를 다시 생성해야 합니다.
 
-## Affected Versions
+## 해당 버전
 
-* Ruby 2.3 series: all
-* Ruby 2.4 series: 2.4.6 and earlier
-* Ruby 2.5 series: 2.5.5 and earlier
-* Ruby 2.6 series: 2.6.3 and earlier
-* prior to master commit f308ab2131ee675000926540cbb8c13c91dc3be5
+* 루비 2.3 버전대: 모든 버전
+* 루비 2.4 버전대: 2.4.6 이하
+* 루비 2.5 버전대: 2.5.5 이하
+* 루비 2.6 버전대: 2.6.3 이하
+* f308ab2131ee675000926540cbb8c13c91dc3be5 커밋 이전의 master
 
-## Required actions
+## 필요한 조치
 
-RDoc is a static documentation generation tool.
-Patching the tool itself is insufficient to mitigate these vulnerabilities.
+RDoc은 정적 문서 생성 도구입니다.
+도구 자체를 패치하는 것만으로는 이번 취약점을 해소할 수 없습니다.
 
-So, RDoc documentations generated with previous versions have to be re-generated with newer RDoc.
+따라서 이전 버전의 RDoc을 통해 생성된 문서는 새 RDoc으로 다시 생성해야 합니다.
 
-## Workarounds
+## 해결 방법
 
-In principle, you should upgrade your Ruby installation to the latest version.
-RDoc 6.1.2 or later includes the fix for the vulnerabilities, so upgrade RDoc to the latest version if you can’t upgrade Ruby itself.
+원칙적으로, 설치된 루비를 최신 버전으로 업그레이드해야 합니다.
+RDoc 6.1.2나 그 이후의 버전은 취약점에 대한 패치를 포함하고 있으므로, 루비를 업그레이드할 수 없다면 RDoc을 최신 버전으로 업그레이드해 주세요.
 
-Note that as mentioned earlier, you have to regenerate existing RDoc documentations.
+앞에서 언급한 것처럼 기존의 RDoc 문서를 다시 생성해야 합니다.
 
 ```
 gem install rdoc -f
 ```
 
-*Update:* The initial version of this post partially mentioned rdoc-6.1.1.gem, which was still vulnerable. Please make sure that you install rdoc-6.1.2 or later.
+*업데이트:* 이 글의 초기 버전은 여전히 취약한 rdoc-6.1.1.gem을 언급했습니다. rdoc-6.1.2나 그 이후의 버전을 설치해주세요.
 
-Regarding the development version, update to the latest HEAD of master branch.
+개발 버전은 master 브랜치의 최신 HEAD로 업데이트해 주세요.
 
-## Credits
+## 도움을 준 글
 
-Thanks to [Chris Seaton](https://hackerone.com/chrisseaton) for reporting the issue.
+이 문제를 보고해 준 [Chris Seaton](https://hackerone.com/chrisseaton)에게 감사를 표합니다.
 
-## History
+## 수정 이력
 
-* Originally published at 2019-08-28 09:00:00 UTC
-* RDoc version fixed at 2019-08-28 11:50:00 UTC
-* Minor language fixes at 2019-08-28 12:30:00 UTC
+* 2019-08-28 09:00:00 UTC 최초 공개
+* 2019-08-28 11:50:00 UTC RDoc 버전 수정
+* 2019-08-28 12:30:00 UTC 사소한 표현 수정
