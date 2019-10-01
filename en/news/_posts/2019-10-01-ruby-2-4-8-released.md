@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.4.8 Released"
 author: "usa"
 translator:
-date: 2019-10-01 12:00:00 +0000
+date: 2019-10-01 11:00:00 +0000
 lang: en
 ---
 
