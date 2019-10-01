@@ -43,4 +43,4 @@ See the [commit log](https://github.com/ruby/ruby/compare/v2_5_6...v2_5_7) for d
 
 Thanks to everyone who helped with this release.
 
-The maintenance of Ruby 2.5, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+The maintenance of Ruby 2.5, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
