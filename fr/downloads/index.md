@@ -47,7 +47,7 @@ peut-être vous aider.
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Archive de la dernière version publiée à partir de la branche stable courante.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    Archive construite chaque nuit à partir du code le plus récent présent sur SVN.
+    Archive construite chaque nuit à partir du code le plus récent présent sur Git.
     Comporte probablement des bugs ou d'autres problèmes, utilisez-la en connaissance de cause !
 
 Pour plus d’information sur le dépôt Subversion de Ruby, voyez la page

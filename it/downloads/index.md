@@ -49,7 +49,7 @@ esserti di aiuto.
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Questo è il tarball dell'ultimo snapshot del branch stabile corrente.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    Questo è il tarball di ciò che c’è in SVN, generato giornalmente.
+    Questo è il tarball di ciò che c’è in Git, generato giornalmente.
     Potrebbe contenere bug o avere altri problemi, usalo a tuo rischio e
     pericolo!
 

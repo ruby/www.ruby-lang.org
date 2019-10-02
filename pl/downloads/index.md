@@ -45,7 +45,7 @@ skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
   * [Stabilna migawka]({{ site.data.downloads.stable_snapshot.url.gz }}):
     To jest tarball ostatniej migawki stabilnej obecnego stabilnego brancha.
   * [Nocna migawka]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    To jest tarball tego co jest w SVN, przygotowany
+    To jest tarball tego co jest w Git, przygotowany
     w nocy. Może zawierać błędy lub inne problemy, używaj na własne ryzyko!
 
 Aby uzyskać informacje na temat repozytorium Rubiego w Subversion i Git,

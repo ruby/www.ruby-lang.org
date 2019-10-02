@@ -52,7 +52,7 @@ lang: zh_tw
   * [穩定版快照]({{ site.data.downloads.stable_snapshot.url.gz }})：
     這是當前穩定版本分支的 tarball 的最新快照；
   * [最新版本]({{ site.data.downloads.nightly_snapshot.url.gz }})：
-    這是 SVN 上的 tarball，每晚更新。
+    這是 Git 上的 tarball，每晚更新。
     可能有問題或 bug，謹慎使用，風險自負！
 
 更多有關特定發行版本、特別是老舊版本的資訊，請參閱[版本頁面][releases]。
