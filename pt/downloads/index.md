@@ -56,7 +56,7 @@ mencionadas acima. Elas podem te ajudar.
   * [Snapshot Estável]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Este é um arquivo compactado com o snapshot mais recente do branch estável.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    Este é um arquivo compactado do que está no SVN, criado todas as noites.
+    Este é um arquivo compactado do que está no Git, criado todas as noites.
     Ele pode conter bugs ou outros problemas, use por sua própria conta e risco!
 
 Para mais informações sobre os repositórios Subversion e Git do Ruby, consulte

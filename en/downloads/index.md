@@ -60,7 +60,7 @@ one of the third party tools mentioned above. They may help you.
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     This is a tarball of the latest snapshot of the current stable branch.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    This is a tarball of whatever is in SVN, made nightly.
+    This is a tarball of whatever is in Git, made nightly.
     This may contain bugs or other issues, use at your own risk!
 
 For more information about specific releases, particularly older releases
