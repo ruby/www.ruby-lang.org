@@ -22,6 +22,8 @@ the end of March of 2020.  After that date, maintenance of Ruby 2.4
 will be ended. We recommend you start planning the migration to newer
 versions of Ruby, such as 2.6 or 2.5.
 
+__Update (Oct 2nd 4:00 UTC):__ We're working on the issue that the Ruby 2.4.8 release tarball doesn't install under _non-root_ user. Follow [[Bug #16197]](https://bugs.ruby-lang.org/issues/16197) for detailed updates.
+
 ## Download
 
 {% assign release = site.data.releases | where: "version", "2.4.8" | first %}
