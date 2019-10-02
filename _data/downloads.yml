@@ -14,7 +14,7 @@ stable:
 # optional
 security_maintenance:
 
-  - 2.4.8
+  - 2.4.9
 
 # optional
 eol:
