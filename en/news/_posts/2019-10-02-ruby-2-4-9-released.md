@@ -53,4 +53,4 @@ versions of Ruby, such as 2.6 or 2.5.
 
 ## Release Comment
 
-Thanks to everyone who helped with this release. XXX
+Thanks to everyone who helped with this release.
