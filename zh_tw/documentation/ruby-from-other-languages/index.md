@@ -229,11 +229,11 @@ t1 == t2
 
 ### 類別是開放的
 
-Ruby 的類別是開放的，你可以隨時打開它新增一點程式或是修改。即使是核心類別如 `Fixnum` 或是
-`Object`(這是所有類別的父類別) 都一樣。 Ruby on Rails 甚至定義了一堆時間方法到 `Fixnum` 去，例如：
+Ruby 的類別是開放的，你可以隨時打開它新增一點程式或是修改。即使是核心類別如 `Integer` 或是
+`Object`(這是所有類別的父類別) 都一樣。 Ruby on Rails 甚至定義了一堆時間方法到 `Integer` 去，例如：
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # 一小時有多少秒
   end
@@ -339,10 +339,10 @@ method(:puts).call "puts is an object!"
 ### 操作符只是語法包裝
 
 大部分的 Ruby 操作符(operators)只是一種方法呼叫的語法包裝(syntactic
-sugar)，加上一些優先權規則。你要的話，舉例來說，我們可以覆寫掉 Fixnum 的 + 方法：
+sugar)，加上一些優先權規則。你要的話，舉例來說，我們可以覆寫掉 Integer 的 + 方法：
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # 可以這麼做，但請不要這麼改
   def +(other)
     self - other

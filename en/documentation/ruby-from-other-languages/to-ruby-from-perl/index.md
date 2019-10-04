@@ -5,9 +5,8 @@ lang: en
 ---
 
 Perl is awesome. Perl’s docs are awesome. The Perl community is …
-awesome. However, the language is fairly large and arguably complex. For
-those Perlers who long for a simpler time, a more orthogonal language,
-and elegant OO features built-in from the beginning, Ruby may be for
+awesome.
+For those Perlers who long for elegant OO features built-in from the beginning, Ruby may be for
 you.
 
 ### Similarities

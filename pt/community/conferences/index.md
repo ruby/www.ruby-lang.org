@@ -39,50 +39,39 @@ inscrições.
   Ruby incluindo Armin Roehrl e Michael Neumann, a EuRuKo tornou-se o
   segundo evento anual de Ruby, começando dois anos após a RubyConf.
 
-[Open Source Developer Conference][5]
-: Esta é uma conferência anual sobre desenvolvimento open source, realizada
-  anualmente na Austrália. Embora não seja uma conferência especificamente
-  sobre Ruby, todos os anos recebemos um grande número de apresentações sobre
-  Ruby e estamos sempre interessados em mais conteúdo sobre Ruby.
-
 ### Conferências Regionais de Ruby
 
-A [Ruby Central][2] administra o [Regional Conference Grant Program][6],
+A [Ruby Central][2] administra o [Regional Conference Grant Program][5],
 para compensar despesas para grupos regionais e locais que desejem
 organizar eventos.
 
-A Ruby Central juntou-se também com a [SVForum][7] para realizar a
+A Ruby Central juntou-se também com a [SVForum][6] para realizar a
 “Silicon Valley Ruby Conference”, entrando no seu segundo ano em 2007.
 
-A [RubyNation][8] é uma conferência anual de Ruby às áreas da Virginia, West
+A [RubyNation][7] é uma conferência anual de Ruby às áreas da Virginia, West
 Virginia, Maryland e Washington, DC.
 
 A WindyCityRails é um encontro anual para todos os que são apaixonados em
 Ruby on Rails. A conferência situada em Chicago atende à comunidade Ruby
-desde 2008. Visite [http://windycityrails.org][9] para mais detalhes.
+desde 2008. Visite [http://windycityrails.org][8] para mais detalhes.
 
-[Madison Ruby][15]: Madison, WI
+[Steel City Ruby][14]: Pittsburg, PA
 
-[Steel City Ruby][16]: Pittsburg, PA
+[GoRuCo][15]: New York City's annual Ruby conference. A one-day single-track conference.
 
-[Ruby on Ales][17] é uma conferência anual de dois dias inspirada em
-Ruby, microcervejarias e neve. Ouça palestrantes cativantes, saboreie deliciosa
-comida e aproveite a maravilhosa paisagem de Bend Oregon.
-
-[Burlington Ruby Conference][18]: uma conferência de Ruby que acontece no
-verão, anualmente, em Burlington, VT. A confer&encia dura dois dias e segue
-uma _track_ única. O foco da conferência está em criar um ambiente para
-aprender, se divertir e encontrar colegas Rubistas.
+[DeccanRubyConf][16]: Conferência anual de Ruby de Pune (India),
+pautada por atividades divertidas por todo o dia.
+É um evento de um dia com uma só trilhe.
 
 ### Ruby em Outras Conferências
 
-Tem havido uma _track_ de Ruby na [O’Reilly Open Source Conference][10]
+Tem havido uma _track_ de Ruby na [O’Reilly Open Source Conference][9]
 (OSCON) desde 2004, e uma crescente presença da parte do Ruby e
 Programadores Ruby em outros encontros não relacionados com Ruby. Tem
 havido também, um crescente número de conferências dedicadas a
-[Ruby on Rails][11], incluindo a [RailsConf][12] da Ruby Central, a
-[RailsConf Europe][13] (co-realizada em 2006 pela Ruby Central e pela
-[Skills Matter][14], e que em 2007 o será pela Ruby Central e
+[Ruby on Rails][10], incluindo a [RailsConf][11] da Ruby Central, a
+[RailsConf Europe][12] (co-realizada em 2006 pela Ruby Central e pela
+[Skills Matter][13], e que em 2007 o será pela Ruby Central e
 O’Reilly) e, para finalizar a Canada on Rails.
 
 
@@ -93,17 +82,15 @@ O’Reilly) e, para finalizar a Canada on Rails.
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
-[5]: http://www.osdc.com.au/
-[6]: http://rubycentral.org/community/grant
-[7]: http://www.svforum.org
-[8]: http://rubynation.org/
-[9]: http://windycityrails.org
-[10]: http://conferences.oreillynet.com/os2006/
-[11]: http://www.rubyonrails.org
-[12]: http://www.railsconf.org
-[13]: http://europe.railsconf.org
-[14]: http://www.skillsmatter.com
-[15]: http://madisonruby.org/
-[16]: http://steelcityruby.org/
-[17]: http://ruby.onales.com/
-[18]: http://burlingtonrubyconference.com
+[5]: http://rubycentral.org/community/grant
+[6]: http://www.svforum.org
+[7]: http://rubynation.org/
+[8]: http://windycityrails.org
+[9]: http://conferences.oreillynet.com/os2006/
+[10]: http://www.rubyonrails.org
+[11]: http://www.railsconf.org
+[12]: http://europe.railsconf.org
+[13]: http://www.skillsmatter.com
+[14]: http://steelcityruby.org/
+[15]: http://goruco.com/
+[16]: http://www.deccanrubyconf.org/

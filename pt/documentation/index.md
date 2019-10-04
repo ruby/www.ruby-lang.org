@@ -85,7 +85,7 @@ diversas maneiras de obter o Ruby.
 [Ruby Core Reference][13]
 : Vindo diretamente do código-fonte através de [RDoc][14], esta
   referência documenta todas as classes e módulos do _core_ (como String,
-  Array, Sumbol, etc…).
+  Array, Symbol, etc…).
 
 [Ruby Standard Library Reference][15]
 : Também vindo do código-fonte através do RDoc, esta referência explora
@@ -180,7 +180,7 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
-[38]: http://ruby.learncodethehardway.org/
+[38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/

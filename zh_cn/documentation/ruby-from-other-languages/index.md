@@ -220,10 +220,10 @@ t1 == t2
 
 ### 类是开放的
 
-Ruby 的类是开放的。任何时候你都可以打开它进行增加和修改。即使像 `Fixnum` 这样的核心类，甚至是所有对象的父类 `Object` 类都可以打开。Ruby on Rails 在 `Fixnum` 类里定义了一大堆方法来处理时间问题。请看：
+Ruby 的类是开放的。任何时候你都可以打开它进行增加和修改。即使像 `Integer` 这样的核心类，甚至是所有对象的父类 `Object` 类都可以打开。Ruby on Rails 在 `Fixnum` 类里定义了一大堆方法来处理时间问题。请看：
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # 一小时有多少秒
   end
@@ -317,10 +317,10 @@ method(:puts).call "puts 是一个对象!"
 
 ### 操作符是语法糖
 
-Ruby 中的大部分操作符仅仅是方法调用（根据一些优先级）的语法糖。例如，你可以覆盖 Fixnum 的 + 方法：
+Ruby 中的大部分操作符仅仅是方法调用（根据一些优先级）的语法糖。例如，你可以覆盖 Integer 的 + 方法：
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # 请不要这么做，虽然你可以
   def +(other)
     self - other

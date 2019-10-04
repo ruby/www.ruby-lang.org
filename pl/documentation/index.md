@@ -172,7 +172,7 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
-[38]: http://ruby.learncodethehardway.org/
+[38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
 [pl-1]: http://www.apohllo.pl/dydaktyka/ruby/intro/
 [pl-2]: http://forum.rubyonrails.pl/

@@ -91,9 +91,8 @@ the [installation guide](installation/) for help on installing Ruby.
 
 ### Editors and IDEs
 
-For coding in Ruby you can use the default editor of your operating
-system. By the way, to be more effective in coding, it is worth to
-choose a source code editor with basic Ruby support (e.g.
+For coding in Ruby, you can use the default editor of your operating
+system. By the way, to be more effective in coding, it is worth choosing a source code editor with basic Ruby support (e.g.
 syntax-highlighting, file browsing) or an integrated development
 environment with advanced features (e.g. code completion, refactoring,
 testing support).
@@ -168,7 +167,7 @@ If you have questions about Ruby the
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
-[38]: http://ruby.learncodethehardway.org/
+[38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/

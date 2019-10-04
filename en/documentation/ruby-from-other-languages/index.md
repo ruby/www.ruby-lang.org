@@ -270,12 +270,12 @@ t1 == t2
 ### Classes are open
 
 Ruby classes are open. You can open them up, add to them, and change them at
-any time. Even core classes, like `Fixnum` or even `Object`, the parent of all
+any time. Even core classes, like `Integer` or even `Object`, the parent of all
 objects. Ruby on Rails defines a bunch of methods for dealing with time on
-`Fixnum`. Watch:
+`Integer`. Watch:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def hours
     self * 3600 # number of seconds in an hour
   end
@@ -390,11 +390,11 @@ method(:puts).call "puts is an object!"
 ### Operators are syntactic sugar
 
 Most operators in Ruby are just syntactic sugar (with some precedence
-rules) for method calls. You can, for example, override Fixnum’s `+`
+rules) for method calls. You can, for example, override Integer’s `+`
 method:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # You can, but please don't do this
   def +(other)
     self - other

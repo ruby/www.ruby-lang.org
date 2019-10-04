@@ -95,7 +95,7 @@ should be very low, topics should be pointed, well-conceived and
 well-written. Since we’re addressing Ruby’s creator, let’s have some
 reverence.
 
-Keep in mind that many Ruby’s core developers live in Japan and, while many
+Keep in mind that many of Ruby’s core developers live in Japan and, while many
 speak very good English, there is a significant timezone difference.
 They also have an entire body of Japanese development lists happening
 alongside the English counterparts. Be patient, if your claim isn’t
@@ -104,8 +104,8 @@ resolved, be persistent—give it another shot a few days later.
 
 ### Note about branches
 
-The source code of Ruby had been managed under Subversion repository until 22rd April 2019.
-Thus, some branches may be still managed under Subversion.
+The source code of Ruby had been managed under Subversion repository until 22nd April 2019.
+Thus, some branches may still be managed under Subversion.
 You can view the SVN repository.
 
 * [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]

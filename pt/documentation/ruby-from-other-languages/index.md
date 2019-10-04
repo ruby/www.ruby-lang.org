@@ -275,12 +275,12 @@ t1 == t2
 ### As Classes são abertas
 
 As classes em Ruby são abertas. Poderá abrir, adicionar e alterá-las a
-qualquer altura. Mesmo as classes do núcleo como por exemplo `Fixnum` ou
+qualquer altura. Mesmo as classes do núcleo como por exemplo `Integer` ou
 mesmo a classe `Object`, a classe de topo. O Ruby on Rails define uma
-quantidade de métodos para lidar com as horas na classe `Fixnum`. Veja:
+quantidade de métodos para lidar com as horas na classe `Integer`. Veja:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   def horas
     self * 3600 # nu'mero de segundos numa hora
   end
@@ -405,10 +405,10 @@ method(:puts).call "puts e' um objecto!"
 
 A maioria dos operadores em Ruby são somente açúcar sintático (com
 algumas regras de precedência) para chamadas a métodos. Poderá, por
-exemplo, redifinir o método + da classe Fixnum:
+exemplo, redifinir o método + da classe Integer:
 
 {% highlight ruby %}
-class Fixnum
+class Integer
   # Pode fazer, mas por favor não faça isto
   def +(outro)
     self - outro
