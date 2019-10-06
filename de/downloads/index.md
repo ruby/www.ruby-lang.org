@@ -56,7 +56,7 @@ vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Hierbei handelt es sich um den neuesten Snapshot des stabilen Zweiges.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    Hierbei handelt es sich um eine Kopie der SVN-Version von letzter Nacht.
+    Hierbei handelt es sich um eine Kopie der Git von letzter Nacht.
     Es besteht durchaus die Gefahr, dass in dieser Version noch nicht
     korrigierte Fehler enthalten sind.
 

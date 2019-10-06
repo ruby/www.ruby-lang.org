@@ -60,7 +60,7 @@ salah satu kakas bantu pihak ketiga yang telah disebutkan sebelumnya. Itu mungki
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Ini adalah *tarball* dari *snapshot branch* yang stabil saat ini.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    Ini adalah *tarball* dari apapun yang ada di SVN, *nightly*.
+    Ini adalah *tarball* dari apapun yang ada di Git, *nightly*.
     Ini mungkin terdapat *bugs* atau masalah lain, gunakan secara hati-hati!
 
 Untuk informasi lebih lanjut terkait rilis yang spesifik, terutama rilis

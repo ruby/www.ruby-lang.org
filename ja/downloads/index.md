@@ -54,7 +54,7 @@ lang: ja
   * [安定版のスナップショット]({{ site.data.downloads.stable_snapshot.url.gz }}):
     最も新しい現在の安定版ブランチのスナップショットのtarballです。
   * [ナイトリースナップショット]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    毎晩SVNに入っているものから作成しているtarballです。
+    毎晩Gitから作成しているtarballです。
     バグやその他の問題があるかもしれません。利用する場合は自己責任でお願いします！
 
 RubyのSubversionやGitリポジトリについての情報は、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。

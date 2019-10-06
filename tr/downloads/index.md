@@ -74,7 +74,7 @@ Bunlar size yardımcı olabilir.
   * [Kararlı Anlık]({{ site.data.downloads.stable_snapshot.url.gz }}):
     Bu, şu anki kararlı dalın son anlığının bir tar arşividir.
     [Gecelik Anlık]({{ site.data.downloads.nightly_snapshot.url.gz }}):
-    Bu, SVN'de her ne varsa onun bir tar arşividir, gecelik olarak yapılır.
+    Bu, Git'de her ne varsa onun bir tar arşividir, gecelik olarak yapılır.
     Bu, hata ve başka sorunlar içerebilir, sorumluluğunu alarak kullanın!
 
 Belirli sürümler, özellikle daha eski sürümler ya da önizlemeler,
