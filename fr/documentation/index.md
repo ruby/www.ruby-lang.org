@@ -149,7 +149,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [16]: http://www.ruby-doc.org/core
 [17]: https://ruby.github.io/rdoc/
 [18]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [20]: http://rubydoc.info/
 [21]: http://rubydocs.org/
 [22]: http://ruby-doc.org
