@@ -1,10 +1,10 @@
 language: ruby
 sudo: false
-rvm: 2.6.3
+rvm: 2.6.5
 cache: bundler
 env:
   - TASK=ci
-before_install: gem install bundler:2.0.1
+before_install: gem install bundler:2.0.2
 script: bundle exec rake $TASK
 # Notifications, used by our Gitter channel.
 notifications:
