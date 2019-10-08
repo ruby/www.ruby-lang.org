@@ -28,12 +28,6 @@ Rubiego w rzeczywistości.
 * W projekcie MORPHA, Ruby został użyty do implementacji systemu
   kontroli reakcji Robota usługowego firmy Siemens.
 
-#### Sieci
-
-* [Open Domain Server][6] używa Rubiego aby umożliwić korzystanie z
-  dynamicznych klientów DNS do aktualizacji w czasie rzeczywistym ich
-  adresów IP w taki sposób, żeby wskazywały na statyczne domeny.
-
 #### Telefonia
 
 * [Lucent][7] używa Rubiego w swoim produkcie telefonii bezprzewodowej
@@ -83,7 +77,6 @@ Rubiego w rzeczywistości.
 [2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
 [3]: http://www.motorola.com
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com

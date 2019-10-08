@@ -27,10 +27,6 @@ lang: zh_cn
 
 * 在 MORPHA 项目，Ruby 用来实现西门子服务机器人的反应控制部分。
 
-#### 网络
-
-* [Open Domain Server][6] 使用 Ruby 帮助人们使用动态域名解析客户端实时更新IP配置，达到映射到静态域的目的。
-
 #### 电讯
 
 * [朗讯][7]一个3G无线电话产品中使用了 Ruby。
@@ -57,7 +53,6 @@ lang: zh_cn
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com

@@ -32,12 +32,6 @@ Aqui você encontrará uma pequena amostra do uso de Ruby no mundo real.
 * No projeto MORPHA, Ruby foi usado para implementar a parte do
   controle reativo do robô de serviços da Siemens.
 
-#### Redes
-
-* O [Open Domain Server][6] usa Ruby de forma a permitir que as pessoas
-  usem clientes de DNS Dinâmicos para a atualização em tempo real das
-  configurações de IP para que possam ser mapeadas em domínios estáticos.
-
 #### Telefonia
 
 * Ruby está sendo utilizado na [Lucent][7] num produto de telefonia
@@ -76,7 +70,6 @@ Aqui você encontrará uma pequena amostra do uso de Ruby no mundo real.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
