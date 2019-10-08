@@ -32,13 +32,6 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 * Il progetto MORPHA utilizza Ruby per implementare il controllo
   della reattività dei componenti della Simens service robot.
 
-#### Networking
-
-* [Open Domain Server][6] utilizza Ruby per permettere alle persone di
-  utilizzare dei programmi che permettono di aggiornare in tempo reale i
-  loro DNS dinamici, così che possano essere collegati a un dominio
-  statico.
-
 #### Telefonia
 
 * Ruby viene utilizzato in [Lucent][7] un prodotto telefonico di terza
@@ -75,7 +68,6 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com

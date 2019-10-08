@@ -25,11 +25,6 @@ lang: zh_tw
 
 * 在 MORPHA 計畫中，使用 Ruby 來實作西門子公司服務型機器人的反應控制部份。
 
-#### 網路
-
-* [Open Domain Server][6] 使用 Ruby 讓使用者可以使用『動態DNS客戶端程式』及時更新 IP
-  設定來對應到靜態網域設定。
-
 #### 電信
 
 * Ruby 也被用在 [Lucent][7] 3G無線電信產品中。
@@ -52,7 +47,6 @@ lang: zh_tw
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com

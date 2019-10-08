@@ -31,12 +31,6 @@ you’ll find a small sample of real world usage of Ruby.
 * At MORPHA project, Ruby was used to implement the reactive
   control part for the Siemens service robot.
 
-#### Networking
-
-* [Open Domain Server][6] uses Ruby to allow people using Dynamic DNS
-  clients to update in real time their IP configuration so that it can
-  be mapped to static domains.
-
 #### Telephony
 
 * Ruby is being used within [Lucent][7] on a 3G wireless telephony
@@ -77,7 +71,6 @@ you’ll find a small sample of real world usage of Ruby.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
