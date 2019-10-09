@@ -14,9 +14,10 @@ Mohon cek topik-topik di bawah ini untuk detail.
 
 * [Beberapa kerentanan jQuery pada RDoc](/id/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-Ruby 2.4 saat ini berada pada fase perawatan keamanan hingga akhir Maret 2020.
-Setelah waktu tersebut, perawatan Ruby 2.4 akan berakhir. Kami menyarankan
-Anda untuk merencanakan migrasi ke versi Ruby terbaru, seperti 2.6 atau 2.5.
+Ruby 2.4 saat ini berada pada fase pemeliharaan keamanan hingga akhir
+Maret 2020. Setelah waktu tersebut, perawatan Ruby 2.4 akan berakhir.
+Kami menyarankan Anda untuk merencanakan migrasi ke versi Ruby terbaru,
+seperti 2.6 atau 2.5.
 
 ## Unduh
 
