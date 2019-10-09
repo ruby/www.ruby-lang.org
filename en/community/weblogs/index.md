@@ -27,7 +27,7 @@ updates.
   articles and news each week.
 * [**DEV Ruby Tag**][dev-ruby-tag] is the collection of all posts
   tagged Ruby within the DEV Community. DEV is a network of thousands
-  of software developers who blog about and discuss code. 
+  of software developers who blog about and discuss code.
 * [**Riding Rails**][riding-rails] is the official group blog of the
   Ruby on Rails team. If you are running Rails, this blog is essential
   for notification of security updates and an overall view of the wide
