@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.4.7 Rilis"
+title: "Ruby 2.4.7 Telah Rilis"
 author: "usa"
 translator: "meisyal"
 date: 2019-08-28 09:00:00 +0000
