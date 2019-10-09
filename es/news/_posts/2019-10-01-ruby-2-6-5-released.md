@@ -57,4 +57,3 @@ Muchos contribuyentes, desarrolladores y usuarios han proveido reportes
 de fallas que nos han ayudado a hacer esta versión.
 
 Gracias por sus contribuciones.
-

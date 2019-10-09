@@ -59,5 +59,3 @@ Gracias a todos los que ayudaron con esta versión.
 El mantenimiento de Ruby 2.5, incluyendo esta versión,
 se basan en el "Acuerdo para una versión estable de Ruby"
 de la Asociación Ruby.
-
-
