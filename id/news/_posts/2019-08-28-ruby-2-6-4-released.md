@@ -50,6 +50,6 @@ untuk detail perubahan.
 
 ## Komentar Rilis
 
-Banyak *committer*, pengembang, dan pengguna yang telah menyediakan laporan
-*bug* membantu kami untuk membuat rilis ini.
+Banyak *committer*, pengembang, dan pengguna yang menyediakan laporan
+*bug* telah membantu kami untuk membuat rilis ini.
 Terima kasih atas kontribusinya.
