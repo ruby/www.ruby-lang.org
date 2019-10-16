@@ -36,7 +36,7 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 
 #### Telekomunikasi
 
-* Ruby digunakan oleh [Lucent][7] pada produk wireless 3G yang mereka
+* Ruby digunakan oleh Lucent pada produk wireless 3G yang mereka
   kembangkan.
 
 #### Administrasi Sistem
@@ -75,7 +75,6 @@ kecil contoh dari berbagai penggunaan Ruby di dunia nyata.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

@@ -28,7 +28,7 @@ Projekten, die Ruby nutzen.
 
 #### Telephonie
 
-* Ruby wird bei [Lucent][5] in einem 3G Wireless Telefonieprodukt
+* Ruby wird bei Lucent in einem 3G Wireless Telefonieprodukt
   eingesetzt.
 
 #### Systemadministration
@@ -51,7 +51,6 @@ Projekten, die Ruby nutzen.
 
 [1]: http://www.motorola.com
 [2]: https://www.uhn.ca/TorontoRehab
-[5]: http://www.lucent.com/
 [6]: http://www.level3.com/
 [7]: http://www.basecamphq.com
 [8]: http://www.37signals.com

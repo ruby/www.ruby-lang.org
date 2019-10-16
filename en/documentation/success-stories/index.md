@@ -33,7 +33,7 @@ you’ll find a small sample of real world usage of Ruby.
 
 #### Telephony
 
-* Ruby is being used within [Lucent][7] on a 3G wireless telephony
+* Ruby is being used within Lucent on a 3G wireless telephony
   product.
 
 #### System Administration
@@ -71,7 +71,6 @@ you’ll find a small sample of real world usage of Ruby.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

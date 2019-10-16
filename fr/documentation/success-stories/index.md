@@ -36,7 +36,7 @@ témoignages du « monde réel. »
 
 #### Téléphonie
 
-* Ruby est utilisé sur un projet de [Lucent][8]\: un téléphone 3G sans
+* Ruby est utilisé sur un projet de Lucent\: un téléphone 3G sans
   fil.
 
 #### Administration système
@@ -61,7 +61,6 @@ témoignages du « monde réel. »
 [3]: http://www.motorola.com
 [4]: http://www.sketchup.com/
 [5]: https://www.uhn.ca/TorontoRehab
-[8]: http://www.lucent.com/
 [9]: http://www.level3.com/
 [10]: http://www.basecamphq.com
 [11]: http://www.37signals.com
