@@ -107,3 +107,12 @@ pre {
 #header div.site-links {
     padding: 0 8px 0 0;
 }
+
+#header_content > a {
+  text-decoration: none;
+  color: black;
+  background: url(/images/header-ruby-logo.png) no-repeat right 8px;
+  display: inline-block;
+  padding: 15px 74px 0 74px;
+  margin: 0 0 15px -4px;
+}
