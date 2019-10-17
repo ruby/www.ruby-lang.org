@@ -87,7 +87,7 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [8]: http://www.approximity.com/rubybuch2/
 [9]: http://www.ruby-doc.org/core
 [10]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/trunk/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [12]: http://www.rubydoc.info/
 [13]: http://ruby-doc.org
 [14]: http://wiki.ruby-portal.de

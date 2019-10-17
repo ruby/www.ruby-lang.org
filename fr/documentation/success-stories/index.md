@@ -34,11 +34,6 @@ témoignages du « monde réel. »
 * Le projet MORPHA a utilisé Ruby pour implémenter la partie de
   contrôle réactif du robot de service Siemens.
 
-#### Réseaux
-
-* [Open Domain Server][7] fait usage de Ruby pour mapper en temps réel
-  les adresses statiques aux configurations DynDNS de leurs clients.
-
 #### Téléphonie
 
 * Ruby est utilisé sur un projet de [Lucent][8]\: un téléphone 3G sans
@@ -66,7 +61,6 @@ témoignages du « monde réel. »
 [3]: http://www.motorola.com
 [4]: http://www.sketchup.com/
 [5]: https://www.uhn.ca/TorontoRehab
-[7]: http://ods.org/
 [8]: http://www.lucent.com/
 [9]: http://www.level3.com/
 [10]: http://www.basecamphq.com

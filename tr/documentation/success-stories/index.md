@@ -33,12 +33,6 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 * MORPHA projesinde, Ruby Siemens servis robotunun reaktif denetim
   kısmını uygulamak için kullanıldı.
 
-#### Ağ
-
-* [Open Domain Server][5] IP ayarlarının gerçek zamanlı olarak
-  güncellenmesini ve böylece statik domainler ile eşlenebilmesini
-  sağlayan “Dynamic DNS” istemcileri Ruby ile yazıldı.
-
 #### Telefonculuk
 
 * Ruby 3G kablosuz telefonculuk ürünü olan [Lucent][6] içinde
@@ -76,7 +70,6 @@ olarak. Burada Ruby’nin gerçek dünyadan örneklerini görebilirsiniz.
 [1]: http://www.larc.nasa.gov/
 [2]: http://www.sketchup.com/
 [3]: https://www.uhn.ca/TorontoRehab
-[5]: http://ods.org/
 [6]: http://www.lucent.com/
 [7]: http://www.level3.com/
 [8]: http://www.basecamphq.com

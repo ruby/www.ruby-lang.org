@@ -31,11 +31,6 @@ lang: ko
 * MORPHA 프로젝트에서는, 루비는 Siemens 서비스 로봇의 반응 컨트롤
   부분에 사용되고 있습니다.
 
-#### 네트워킹
-
-* [Open Domain Server][6]에서는 루비를 정적 도메인에 매핑할 수 있도록
-  다이나믹 DNS 클라이언트의 IP 설정을 실시간 업데이트하는데 사용합니다.
-
 #### 전화
 
 * 루비는 3G 무선 전화 제품인 [Lucent][7]에서도 사용됩니다.
@@ -72,7 +67,6 @@ lang: ko
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com

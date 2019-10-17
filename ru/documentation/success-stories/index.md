@@ -34,13 +34,6 @@ lang: ru
 * В проекте MORPHA, Ruby был задействован для создания реактивных
   элементов управления для обслуживающего робота Siemens.
 
-#### Сеть
-
-* [Open Domain Server][6] использует Ruby, чтобы позволить людям
-  использовать динамические DNS клиенты для того, чтобы онлайн обновлять
-  их конфигурацию IP таким образом, что он может быть привязан к
-  статическим доменам.
-
 #### Телефония
 
 * Ruby используется в [Lucent][7], в их 3G беспроводном телефонном
@@ -79,7 +72,6 @@ lang: ru
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[6]: http://ods.org/
 [7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
