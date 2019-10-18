@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruby Conferences"
-lang: en
+lang: fa
 ---
 
 Ruby programmers around the world are getting involved in more and more
