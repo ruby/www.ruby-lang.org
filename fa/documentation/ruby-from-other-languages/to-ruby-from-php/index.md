@@ -48,4 +48,3 @@ Unlike in PHP, in Ruby…
 * Only `false` and `nil` are false: `0`, `array()` and `""` are all true
   in conditionals.
 * Almost everything is a method call, even `raise` (`throw` in PHP).
-

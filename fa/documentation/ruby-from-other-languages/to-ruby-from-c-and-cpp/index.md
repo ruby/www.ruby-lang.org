@@ -146,4 +146,3 @@ Unlike C++, in Ruby,...
   threads” (implemented only within the interpreter) as opposed to
   native threads.
 * A unit testing lib comes standard with Ruby.
-
