@@ -13,7 +13,6 @@ the Ruby community.
 published collaboratively with the Ruby community. There you will find
 event dates, location, CFP (Call For Proposals) and Registration information.
 
-
 ### Major Ruby Conferences
 
 [RubyConf][1]
@@ -70,8 +69,6 @@ have also been devoted to [Ruby on Rails][11], including Ruby Central’s
 [RailsConf][12], [RailsConf Europe][13] (co-produced in 2006 by Ruby
 Central and [Skills Matter][14], and in 2007 by Ruby Central and
 O’Reilly), and Canada on Rails.
-
-
 
 [rc]: http://rubyconferences.org/
 [1]: http://rubyconf.org/

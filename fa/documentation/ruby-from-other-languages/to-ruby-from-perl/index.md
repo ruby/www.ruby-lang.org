@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "To Ruby From Perl"
-lang: en
+lang: fa
 ---
 
 Perl is awesome. Perl’s docs are awesome. The Perl community is …

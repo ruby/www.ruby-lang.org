@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Manual Mailing List Instructions"
-lang: en
+lang: fa
 ---
 
 NOTE: If you cannot subscribe, please refer to

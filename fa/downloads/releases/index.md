@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruby Releases"
-lang: en
+lang: fa
 ---
 
 {% comment %}

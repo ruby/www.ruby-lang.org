@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "To Ruby From Java"
-lang: en
+lang: fa
 ---
 
 Java is mature. It’s tested. And it’s fast (contrary to what the

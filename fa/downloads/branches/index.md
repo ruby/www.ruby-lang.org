@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruby Maintenance Branches"
-lang: en
+lang: fa
 ---
 
 {% comment %}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruby Core"
-lang: en
+lang: fa
 ---
 
 Now is a fantastic time to follow Ruby’s development. With the increased

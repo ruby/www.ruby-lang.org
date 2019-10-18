@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "To Ruby From C and C++"
-lang: en
+lang: fa
 ---
 
 It’s difficult to write a bulleted list describing how your code will be

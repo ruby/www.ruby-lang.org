@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Posting Guidelines for the Ruby-Talk Mailing List"
-lang: en
+lang: fa
 ---
 
 You should follow these guidelines when posting to the ruby-talk mailing list.

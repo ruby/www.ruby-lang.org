@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Ruby Community Conduct Guideline"
-lang: en
+lang: fa
 ---
 
 We have picked the following conduct guideline based on an early proposed draft

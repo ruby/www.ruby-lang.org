@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "To Ruby From PHP"
-lang: en
+lang: fa
 ---
 
 PHP is in widespread use for web applications, but if you want to use

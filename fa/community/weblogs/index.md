@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Blogs"
-lang: en
+lang: fa
 ---
 
 Ruby blogs have exploded over the past years and given sufficient

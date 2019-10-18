@@ -9,7 +9,7 @@ lang: fa
 
 روبی ۲٫۵٫۴ منتشر شد.
 
-این نسخه شامل رفع اشکال و به‌روز رسانی امنیتی RubyGems همراه است. 
+این نسخه شامل رفع اشکال و به‌روز رسانی امنیتی RubyGems همراه است.
 جزئیات [آسیب پذیری‌ متعدد در RubyGems](/fa/news/2019/03/05/multiple-vulnerabilities-in-rubygems/) و [commit logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2) را مشاهده کنید.
 
 ## دانلود

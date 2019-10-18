@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Podcasts"
-lang: en
+lang: fa
 ---
 
 Listen to news, interviews, and discussions about Ruby and its community.

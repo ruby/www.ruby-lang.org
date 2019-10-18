@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "To Ruby From Python"
-lang: en
+lang: fa
 ---
 
 Python is another very nice general purpose programming language. Going

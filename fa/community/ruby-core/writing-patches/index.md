@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Patch Writer’s Guide"
-lang: en
+lang: fa
 ---
 
 Here follow some tips, straight from Matz, on how to get
