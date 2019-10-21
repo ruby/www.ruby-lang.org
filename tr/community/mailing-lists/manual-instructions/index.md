@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Manuel E-posta Listesi Talimatları"
-lang: en
+lang: tr
 ---
 
 NOTE: Eğer abone olamazsanız, lütfen
