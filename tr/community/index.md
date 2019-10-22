@@ -52,6 +52,12 @@ başlangıç önerisi var:
   Ruby’nin geleceğini tartışıyor, yenilikleri konuşuyor ve yeni
   gelenlerle kaynaşıyorlar.
 
+[Podcast'ler](podcasts/)
+: Ruby hakkındaki tartışmaları okumak yerine dinlemeyi tercih ediyorsanız,
+  bu müthiş Ruby podcast'lerinden birine girebilirsiniz. Bu Rubyciler, yeni
+  yayınları ve topluluk haberlerini paylaşmak, ve yoldaş Ruby geliştiricileri
+  ile görüşmek için podcast'lerini kullanırlar.
+
 Genel Ruby Kaynakları
 : * [Ruby Central][ruby-central]
   * [Açık Dizin Projesinde Ruby][ruby-opendir]
