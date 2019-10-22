@@ -73,7 +73,6 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
     def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
     def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
     def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-    def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
     ```
 
 * メソッドがキーワード引数を受け取らず、呼び出し側でキーワード引数を渡した場合、ハッシュの引数としてみなされる挙動は変わらず、警告も表示されません。Ruby 3でもこのコードは動き続ける予定です。
