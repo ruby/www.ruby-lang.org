@@ -178,18 +178,17 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
 
 * `Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s` and `nil.to_s` now always return a frozen String. The returned String is always the same for a given object. [Experimental]  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
 
-* The performance of CGI.escapeHTML is improved.
-  * https://github.com/ruby/ruby/pull/2226
+* The performance of `CGI.escapeHTML` is improved. [GH-2226](https://github.com/ruby/ruby/pull/2226)
 
 ## Other notable changes since 2.6
 
 * Some standard libraries are updated.
   * Bundler 2.1.0.pre.1
   * RubyGems 3.1.0.pre.1
-  * CSV 3.1.2 ([NEWS](https://github.com/ruby/csv/blob/master/NEWS.md))
+  * CSV 3.1.2 ([NEWS](https://github.com/ruby/csv/blob/v3.1.2/NEWS.md))
   * Racc 1.4.15
-  * REXML 3.2.3 ([NEWS](https://github.com/ruby/rexml/blob/master/NEWS.md))
-  * RSS 0.2.8 ([NEWS](https://github.com/ruby/rss/blob/master/NEWS.md))
+  * REXML 3.2.3 ([NEWS](https://github.com/ruby/rexml/blob/v3.2.3/NEWS.md))
+  * RSS 0.2.8 ([NEWS](https://github.com/ruby/rss/blob/v0.2.8/NEWS.md))
   * StringScanner 1.0.3
   * Some of other libraries that have no original version are also updated.
 

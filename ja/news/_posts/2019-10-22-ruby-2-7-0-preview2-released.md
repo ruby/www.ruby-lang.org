@@ -159,10 +159,10 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 * いくつかの標準ライブラリがアップデートされました。
   * Bundler 2.1.0.pre.1
   * RubyGems 3.1.0.pre.1
-  * CSV 3.1.2 ([NEWS](https://github.com/ruby/csv/blob/master/NEWS.md))
+  * CSV 3.1.2 ([NEWS](https://github.com/ruby/csv/blob/v3.1.2/NEWS.md))
   * Racc 1.4.15
-  * REXML 3.2.3 ([NEWS](https://github.com/ruby/rexml/blob/master/NEWS.md))
-  * RSS 0.2.8 ([NEWS](https://github.com/ruby/rss/blob/master/NEWS.md))
+  * REXML 3.2.3 ([NEWS](https://github.com/ruby/rexml/blob/v3.2.3/NEWS.md))
+  * RSS 0.2.8 ([NEWS](https://github.com/ruby/rss/blob/v0.2.8/NEWS.md))
   * StringScanner 1.0.3
   * 独自のバージョン番号を持たないその他のライブラリの一部も更新されています。
 
