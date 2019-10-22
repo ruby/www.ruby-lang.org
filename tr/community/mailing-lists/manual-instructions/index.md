@@ -18,7 +18,7 @@ Ruby-Talk
   [ruby-talk-request@ruby-lang.org](mailto:ruby-talk-request@ruby-lang.org),
   gönderi adresi
   [ruby-talk@ruby-lang.org](mailto:ruby-talk@ruby-lang.org), ve
-  insan yönetici adresi
+  “insan” yönetici adresi
   [ruby-talk-owner@ruby-lang.org](mailto:ruby-talk-owner@ruby-lang.org)'tur.
 
 Ruby-Core
