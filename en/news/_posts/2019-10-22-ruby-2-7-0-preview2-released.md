@@ -201,7 +201,7 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
 
 * Update Unicode version to 12.1.0, adding support for U+32FF SQUARE ERA NAME REIWA.  [[Feature #15195]](https://bugs.ruby-lang.org/issues/15195)
 
-* `Date.jisx0301`, `Date#jisx0301`, and `Date.parse` provisionally support the new Japanese era as an informal extension, until the new JIS X 0301 is issued.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
+* `Date.jisx0301`, `Date#jisx0301`, and `Date.parse` support the new Japanese era.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Require compilers to support C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * Details of our dialect: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
