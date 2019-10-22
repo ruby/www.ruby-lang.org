@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruby Topluluğu Davranış Yönergesi"
-lang: en
+lang: tr
 ---
 
 Aşağıdaki davranış yönergesi, PostgreSQL için önerilen davranış kuralları
