@@ -60,12 +60,12 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     splat operator to avoid the warning and ensure correct behavior in
     Ruby 3.
 
-  ```ruby
-  def foo(key: 42); end; foo({key: 42})   # warned
-  def foo(**kw);    end; foo({key: 42})   # warned
-  def foo(key: 42); end; foo(**{key: 42}) # OK
-  def foo(**kw);    end; foo(**{key: 42}) # OK
-  ```
+    ```ruby
+    def foo(key: 42); end; foo({key: 42})   # warned
+    def foo(**kw);    end; foo({key: 42})   # warned
+    def foo(key: 42); end; foo(**{key: 42}) # OK
+    def foo(**kw);    end; foo(**{key: 42}) # OK
+    ```
 
   * When a method call passes keywords to a method that accepts keywords,
     but it does not pass enough required positional arguments, the
@@ -73,12 +73,12 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     warning is emitted.  Pass the argument as a hash instead of keywords
     to avoid the warning and ensure correct behavior in Ruby 3.
 
-  ```ruby
-  def foo(h, **kw); end; foo(key: 42)      # warned
-  def foo(h, key: 42); end; foo(key: 42)   # warned
-  def foo(h, **kw); end; foo({key: 42})    # OK
-  def foo(h, key: 42); end; foo({key: 42}) # OK
-  ```
+    ```ruby
+    def foo(h, **kw); end; foo(key: 42)      # warned
+    def foo(h, key: 42); end; foo(key: 42)   # warned
+    def foo(h, **kw); end; foo({key: 42})    # OK
+    def foo(h, key: 42); end; foo({key: 42}) # OK
+    ```
 
   * When a method accepts specific keywords but not a keyword splat, and
     a hash or keywords splat is passed to the method that includes both
@@ -86,19 +86,19 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     a warning will be emitted.  You will need to update the calling code
     to pass separate hashes to ensure correct behavior in Ruby 3.
 
-  ```ruby
-  def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
-  def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
-  def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  ```
+    ```ruby
+    def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
+    def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
+    def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
+    ```
 
   * If a method does not accept keywords, and is called with keywords,
     the keywords are still treated as a positional hash, with no warning.
     This behavior will continue to work in Ruby 3.
 
-  ```ruby
-  def foo(opt={});  end; foo( key: 42 )   # OK
-  ```
+    ```ruby
+    def foo(opt={});  end; foo( key: 42 )   # OK
+    ```
 
 * Non-symbols are allowed as a keyword argument keys if method accepts
   arbitrary keywords.  [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
