@@ -13,20 +13,20 @@ sahiptir.
 Eğer Ruby topluluğu ile içiçe olmak istiyorsanız, aşağıda bir kaç
 başlangıç önerisi var:
 
-[Ruby Türkiye](http://www.rubyturkiye.org/) (Türkçe)
+[Ruby Türkiye](https://rubyturkiye.org/) (Türkçe)
 : Türkiye'deki Ruby programcıları ve Ruby severler topluluğudur.
   Ruby ile program yazan ve ilgilenen herkese açıktır.
 
-[Ruby Kullanıcı Grupları](/en/community/user-groups/) (İngilizce)
+[Ruby Kullanıcı Grupları](user-groups/)
 : Yerel Ruby kullanıcı grubunuz olması, diğer Ruby programcıları ile
   iletişim kurmanız için ideal bir fırsattır. Ruby Kullanıcı Grupları
   aylık toplantılar, e-posta listeleri, bir web sitesi ve eğer
   şanslıysanız kodlama festivalleri gibi harika aktiviteler içerir.
 
-[Ruby Türkiye E-Posta Listesi](http://www.rubyturkiye.org/group) (Türkçe)
+[Ruby Türkiye E-Posta Listesi](https://rubyturkiye.org/group) (Türkçe)
 : Ruby Türkiye Topluluğu E-Posta Listesi.
 
-[Ruby E-Posta Listeleri ve Haber Grupları](/en/community/mailing-lists/) (İngilizce)
+[Ruby E-Posta Listeleri ve Haber Grupları](mailing-lists/)
 : Ruby değişik dillerde ve çeşitli konularda kullanılan e-posta
   listelerine sahiptir. Eğer aklınızda Ruby ile ilgili bir soru varsa,
   e-posta listeleri cevap aramak için başvuracağınız ilk kaynaklardan
@@ -39,15 +39,15 @@ başlangıç önerisi var:
 : Ruby IRC Kanalı, diğer Ruby’cilerle sohbet etmek için harika bir
   yoldur.
 
-[Ruby Çekirdek](/en/community/ruby-core/) (İngilizce)
+[Ruby Çekirdek](ruby-core/)
 : Ruby 2.0’ın yolda olduğu şu günlerde, Ruby’in gelişimini takip etmek
   inanılmaz. Eğer siz de ilgileniyorsanız, buradan başlayabilirsiniz.
 
-[Ruby Hakkında Webloglar](/en/community/weblogs/) (İngilizce)
+[Ruby Hakkında Webloglar](weblogs/)
 : Ruby dünyasında, bloglarda konuşulmamış pek az şey vardır. Bu bölümde,
   sizi ortama ısıtacak önerilerden oluşan bir liste bulunuyor.
 
-[Ruby Konferansları](/en/community/conferences/) (İngilizce)
+[Ruby Konferansları](conferences/)
 : Dünya çapındaki Ruby programcıları, Ruby konferansları sayesinde
   Ruby’nin geleceğini tartışıyor, yenilikleri konuşuyor ve yeni
   gelenlerle kaynaşıyorlar.
