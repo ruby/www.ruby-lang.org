@@ -22,11 +22,11 @@ This release introduces Compaction GC which can defragment a fragmented memory s
 
 Some multi-threaded Ruby programs may cause memory fragmentation, leading to high memory usage and degraded speed.
 
-The `GC.compact` method is introduced for compacting the heap. This function compacts live objects in the heap so that fewer pages may be used, and the heap may be more CoW friendly. [#15626](https://bugs.ruby-lang.org/issues/15626)
+The `GC.compact` method is introduced for compacting the heap. This function compacts live objects in the heap so that fewer pages may be used, and the heap may be more CoW friendly. [[Feature #15626]](https://bugs.ruby-lang.org/issues/15626)
 
 ## Pattern Matching [Experimental]
 
-Pattern matching, widely used feature in functional programming languages, is introduced as an experimental feature. [#14912](https://bugs.ruby-lang.org/issues/14912)
+Pattern matching, widely used feature in functional programming languages, is introduced as an experimental feature. [[Feature #14912]](https://bugs.ruby-lang.org/issues/14912)
 It can traverse a given object and assign its value if it matches a pattern.
 
 ```ruby
@@ -42,7 +42,7 @@ For more details, please see [Pattern matching - New feature in Ruby 2.7](https:
 ## REPL improvement
 
 `irb`, bundled interactive environment (REPL; Read-Eval-Print-Loop), now supports multi-line editing. It's powered by `reline`, `readline`-compatible pure Ruby implementation.
-It also provides rdoc integration. In `irb` you can display the reference for a given class, module, or method.  [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
+It also provides rdoc integration. In `irb` you can display the reference for a given class, module, or method.  [[Feature #14683]](https://bugs.ruby-lang.org/issues/14683), [[Feature #14787]](https://bugs.ruby-lang.org/issues/14787), [[Feature #14918]](https://bugs.ruby-lang.org/issues/14918)
 Besides, source lines shown at `binding.irb` and inspect results for core-class objects are now colorized.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
@@ -134,12 +134,12 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
 
 ## Other Notable New Features
 
-* A method reference operator, <code>.:</code>, is introduced as an experimental feature.  [#12125]( https://bugs.ruby-lang.org/issues/12125), [#13581]( https://bugs.ruby-lang.org/issues/13581)
+* A method reference operator, <code>.:</code>, is introduced as an experimental feature.  [[Feature #12125]](https://bugs.ruby-lang.org/issues/12125), [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581)
 
-* Numbered parameter as the default block parameter is introduced as an experimental feature.  [#4475](https://bugs.ruby-lang.org/issues/4475)
+* Numbered parameter as the default block parameter is introduced as an experimental feature.  [[Feature #4475]](https://bugs.ruby-lang.org/issues/4475)
 
 * A beginless range is experimentally introduced.  It might not be as useful
-  as an endless range, but would be good for DSL purpose. [#14799](https://bugs.ruby-lang.org/issues/14799)
+  as an endless range, but would be good for DSL purpose. [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
     ```ruby
     ary[..3]  # identical to ary[0..3]
@@ -153,7 +153,7 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     #=> {"a"=>1, "b"=>2, "c"=>1}
     ```
 
-* Calling a private method on `self` is now allowed.  [Feature #11297] [Feature #16123]
+* Calling a private method on `self` is now allowed.  [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297) [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
     ```ruby
     def foo

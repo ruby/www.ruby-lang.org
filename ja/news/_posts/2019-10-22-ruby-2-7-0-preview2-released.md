@@ -18,12 +18,12 @@ Ruby 2.7.0-preview2では、多くの新しい機能やパフォーマンスの�
 
 一部のマルチスレッドなRubyプログラムを長期間動かし、マーク&スイープ型GCを何度も実行していると、メモリが断片化してメモリ使用量の増大や性能の劣化を招くことが知られています。
 
-Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコンパクションすることが出来るようになります。ヒープ内の生存しているオブジェクトを他のページに移動し、不要なページを解放できるようになるとともに、ヒープをCoW (Copy on Write) フレンドリーにすることが出来ます。 [#15626](https://bugs.ruby-lang.org/issues/15626)
+Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコンパクションすることが出来るようになります。ヒープ内の生存しているオブジェクトを他のページに移動し、不要なページを解放できるようになるとともに、ヒープをCoW (Copy on Write) フレンドリーにすることが出来ます。 [[Feature #15626]](https://bugs.ruby-lang.org/issues/15626)
 
 ## Pattern Matching [Experimental]
 
 関数型言語で広く使われているパターンマッチという機能が実験的に導入されました。
-渡されたオブジェクトの構造がパターンと一致するかどうかを調べ、一致した場合にその値を変数に代入するといったことができるようになります。 [#14912](https://bugs.ruby-lang.org/issues/14912)
+渡されたオブジェクトの構造がパターンと一致するかどうかを調べ、一致した場合にその値を変数に代入するといったことができるようになります。 [[Feature #14912]](https://bugs.ruby-lang.org/issues/14912)
 
 ```ruby
 case JSON.parse('{...}', symbolize_names: true)
@@ -38,7 +38,7 @@ end
 ## REPL improvement
 
 Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、複数行編集がサポートされました。これは `reline` という `readline` 互換のピュア Ruby 実装によるものです。
-また、rdoc 連携も提供されるようになっています。`irb` 内で、クラス、モジュール、メソッドのリファレンスをその場で確認できるようになりました。 [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
+また、rdoc 連携も提供されるようになっています。`irb` 内で、クラス、モジュール、メソッドのリファレンスをその場で確認できるようになりました。 [[Feature #14683]](https://bugs.ruby-lang.org/issues/14683), [[Feature #14787]](https://bugs.ruby-lang.org/issues/14787), [[Feature #14918]](https://bugs.ruby-lang.org/issues/14918)
 これに加え、`binding.irb`で表示される周辺のコードや、コアクラスのオブジェクトのinspect結果に色がつくようになっています。
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
@@ -109,11 +109,11 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 ## 主要な新機能
 
-* メソッド参照演算子 <code>.:</code> が試験的に導入されました。[#12125](https://bugs.ruby-lang.org/issues/12125), [#13581](https://bugs.ruby-lang.org/issues/13581)
+* メソッド参照演算子 <code>.:</code> が試験的に導入されました。[[Feature #12125]](https://bugs.ruby-lang.org/issues/12125), [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581)
 
-* デフォルトのブロックの仮引数として番号指定パラメータが試験的に導入されました。[#4475](https://bugs.ruby-lang.org/issues/4475)
+* デフォルトのブロックの仮引数として番号指定パラメータが試験的に導入されました。[[Feature #4475]](https://bugs.ruby-lang.org/issues/4475)
 
-* 開始値省略範囲式が試験的に導入されました。これは終了値省略範囲式ほど有用ではないと思われますが、しかし DSL のような目的には役立つかもしれません。 [#14799](https://bugs.ruby-lang.org/issues/14799)
+* 開始値省略範囲式が試験的に導入されました。これは終了値省略範囲式ほど有用ではないと思われますが、しかし DSL のような目的には役立つかもしれません。 [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
     ```ruby
     ary[..3]  # identical to ary[0..3]
@@ -127,7 +127,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
     #=> {"a"=>1, "b"=>2, "c"=>1}
     ```
 
-* レシーバを`self`としてprivateメソッドを呼び出すことが許容されるようになりました。[Feature #11297] [Feature #16123]
+* レシーバを`self`としてprivateメソッドを呼び出すことが許容されるようになりました。 [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297) [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
     ```ruby
     def foo
@@ -159,8 +159,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * `Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s` `nil.to_s` は常にfrozenな文字列を返すようになりました。返された文字列は常に同じオブジェクトとなります。 [Experimental]  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
 
-* CGI.escapeHTMLのパフォーマンスが改善されました。
-  * https://github.com/ruby/ruby/pull/2226
+* `CGI.escapeHTML` のパフォーマンスが改善されました。 [GH-2226](https://github.com/ruby/ruby/pull/2226)
 
 ## その他の注目すべき 2.6 からの変更点
 
