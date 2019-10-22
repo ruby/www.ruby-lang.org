@@ -40,8 +40,8 @@ başlangıç önerisi var:
   yoldur.
 
 [Ruby Çekirdek](ruby-core/)
-: Ruby 2.0’ın yolda olduğu şu günlerde, Ruby’in gelişimini takip etmek
-  inanılmaz. Eğer siz de ilgileniyorsanız, buradan başlayabilirsiniz.
+: Şimdi Ruby’nin gelişimini takip etmek için mükemmel bir zaman. Eğer Ruby'ye
+  yardım etmekle ilgileniyorsanız, buradan başlayın.
 
 [Ruby Hakkında Webloglar](weblogs/)
 : Ruby dünyasında, bloglarda konuşulmamış pek az şey vardır. Bu bölümde,
