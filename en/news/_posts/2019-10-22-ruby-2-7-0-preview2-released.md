@@ -90,7 +90,6 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
     def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
     def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-    def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
     ```
 
   * If a method does not accept keywords, and is called with keywords,
