@@ -162,7 +162,7 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
   ```
 
 * `Enumerator::Lazy#eager` is added.  It generates a non-lazy enumerator
-  from a lazy enumerator.  [Feature #15901]
+  from a lazy enumerator.  [[Feature #15901]](https://bugs.ruby-lang.org/issues/15901)
 
   ```ruby
   a = %w(foo bar baz)
