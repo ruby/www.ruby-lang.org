@@ -179,6 +179,8 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 * Ruby のビルドに C99 に対応したコンパイラが必要になりました。[[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * 本件についての詳細: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
 
+その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview2/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2)を参照してください。
+
 なお、こうした変更により、Ruby 2.6.0 以降では [3670 個のファイルに変更が加えられ、201242 行の追加と 88066 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2) !
 
 Ruby 2.7 で楽しいプログラミングを！
