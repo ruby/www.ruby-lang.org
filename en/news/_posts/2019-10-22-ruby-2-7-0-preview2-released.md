@@ -54,51 +54,51 @@ Besides, source lines shown at `binding.irb` and inspect results for core-class 
 Automatic conversion of keyword arguments and positional arguments is
 deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  * When a method call passes a Hash at the last argument, and when it
-    passes no keywords, and when the called method accepts keywords, a
-    warning is emitted.  To continue treating as keywords, add a double
-    splat operator to avoid the warning and ensure correct behavior in
-    Ruby 3.
+* When a method call passes a Hash at the last argument, and when it
+  passes no keywords, and when the called method accepts keywords, a
+  warning is emitted.  To continue treating as keywords, add a double
+  splat operator to avoid the warning and ensure correct behavior in
+  Ruby 3.
 
-    ```ruby
-    def foo(key: 42); end; foo({key: 42})   # warned
-    def foo(**kw);    end; foo({key: 42})   # warned
-    def foo(key: 42); end; foo(**{key: 42}) # OK
-    def foo(**kw);    end; foo(**{key: 42}) # OK
-    ```
+  ```ruby
+  def foo(key: 42); end; foo({key: 42})   # warned
+  def foo(**kw);    end; foo({key: 42})   # warned
+  def foo(key: 42); end; foo(**{key: 42}) # OK
+  def foo(**kw);    end; foo(**{key: 42}) # OK
+  ```
 
-  * When a method call passes keywords to a method that accepts keywords,
-    but it does not pass enough required positional arguments, the
-    keywords are treated as a final required positional argument, and a
-    warning is emitted.  Pass the argument as a hash instead of keywords
-    to avoid the warning and ensure correct behavior in Ruby 3.
+* When a method call passes keywords to a method that accepts keywords,
+  but it does not pass enough required positional arguments, the
+  keywords are treated as a final required positional argument, and a
+  warning is emitted.  Pass the argument as a hash instead of keywords
+  to avoid the warning and ensure correct behavior in Ruby 3.
 
-    ```ruby
-    def foo(h, **kw); end; foo(key: 42)      # warned
-    def foo(h, key: 42); end; foo(key: 42)   # warned
-    def foo(h, **kw); end; foo({key: 42})    # OK
-    def foo(h, key: 42); end; foo({key: 42}) # OK
-    ```
+  ```ruby
+  def foo(h, **kw); end; foo(key: 42)      # warned
+  def foo(h, key: 42); end; foo(key: 42)   # warned
+  def foo(h, **kw); end; foo({key: 42})    # OK
+  def foo(h, key: 42); end; foo({key: 42}) # OK
+  ```
 
-  * When a method accepts specific keywords but not a keyword splat, and
-    a hash or keywords splat is passed to the method that includes both
-    Symbol and non-Symbol keys, the hash will continue to be split, and
-    a warning will be emitted.  You will need to update the calling code
-    to pass separate hashes to ensure correct behavior in Ruby 3.
+* When a method accepts specific keywords but not a keyword splat, and
+  a hash or keywords splat is passed to the method that includes both
+  Symbol and non-Symbol keys, the hash will continue to be split, and
+  a warning will be emitted.  You will need to update the calling code
+  to pass separate hashes to ensure correct behavior in Ruby 3.
 
-    ```ruby
-    def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
-    def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
-    def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-    ```
+  ```ruby
+  def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
+  def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
+  def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
+  ```
 
-  * If a method does not accept keywords, and is called with keywords,
-    the keywords are still treated as a positional hash, with no warning.
-    This behavior will continue to work in Ruby 3.
+* If a method does not accept keywords, and is called with keywords,
+  the keywords are still treated as a positional hash, with no warning.
+  This behavior will continue to work in Ruby 3.
 
-    ```ruby
-    def foo(opt={});  end; foo( key: 42 )   # OK
-    ```
+  ```ruby
+  def foo(opt={});  end; foo( key: 42 )   # OK
+  ```
 
 * Non-symbols are allowed as a keyword argument keys if method accepts
   arbitrary keywords.  [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
