@@ -141,28 +141,36 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
 * A beginless range is experimentally introduced.  It might not be as useful
   as an endless range, but would be good for DSL purpose. [#14799](https://bugs.ruby-lang.org/issues/14799)
 
-      ary[..3]  # identical to ary[0..3]
-      rel.where(sales: ..100)
+    ```ruby
+    ary[..3]  # identical to ary[0..3]
+    rel.where(sales: ..100)
+    ```
 
 * `Enumerable#tally` is added.  It counts the occurrence of each element.
 
-      ["a", "b", "c", "b"].tally
-      #=> {"a"=>1, "b"=>2, "c"=>1}
+    ```ruby
+    ["a", "b", "c", "b"].tally
+    #=> {"a"=>1, "b"=>2, "c"=>1}
+    ```
 
 * Calling a private method on `self` is now allowed.  [Feature #11297] [Feature #16123]
 
-      def foo
-      end
-      private :foo
-      self.foo
+    ```ruby
+    def foo
+    end
+    private :foo
+    self.foo
+    ```
 
 * `Enumerator::Lazy#eager` is added.  It generates a non-lazy enumerator
   from a lazy enumerator.  [Feature #15901]
 
-      a = %w(foo bar baz)
-      e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
-      p e.class               #=> Enumerator
-      p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
+    ```ruby
+    a = %w(foo bar baz)
+    e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
+    p e.class               #=> Enumerator
+    p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
+    ```
 
 ## Performance improvements
 

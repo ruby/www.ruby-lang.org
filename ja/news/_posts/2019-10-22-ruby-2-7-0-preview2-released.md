@@ -115,27 +115,35 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * 開始値省略範囲式が試験的に導入されました。これは終了値省略範囲式ほど有用ではないと思われますが、しかし DSL のような目的には役立つかもしれません。 [#14799](https://bugs.ruby-lang.org/issues/14799)
 
-      ary[..3]  # identical to ary[0..3]
-      rel.where(sales: ..100)
+    ```ruby
+    ary[..3]  # identical to ary[0..3]
+    rel.where(sales: ..100)
+    ```
 
 * `Enumerable#tally` が追加されました。各要素の出現回数を数えます。
 
-      ["a", "b", "c", "b"].tally
-      #=> {"a"=>1, "b"=>2, "c"=>1}
+    ```ruby
+    ["a", "b", "c", "b"].tally
+    #=> {"a"=>1, "b"=>2, "c"=>1}
+    ```
 
 * レシーバを`self`としてprivateメソッドを呼び出すことが許容されるようになりました。[Feature #11297] [Feature #16123]
 
-      def foo
-      end
-      private :foo
-      self.foo
+    ```ruby
+    def foo
+    end
+    private :foo
+    self.foo
+    ```
 
 * `Enumerator::Lazy#eager` が追加されました。lazyなEnumeratorを非lazyなEnumeratorに変換します。
 
-      a = %w(foo bar baz)
-      e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
-      p e.class               #=> Enumerator
-      p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
+    ```ruby
+    a = %w(foo bar baz)
+    e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
+    p e.class               #=> Enumerator
+    p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
+    ```
 
 ## パフォーマンスの改善
 
