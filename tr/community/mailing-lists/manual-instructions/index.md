@@ -4,7 +4,7 @@ title: "Manuel E-posta Listesi Talimatları"
 lang: tr
 ---
 
-NOTE: Eğer abone olamazsanız, lütfen
+NOT: Eğer abone olamazsanız, lütfen
 [lists.ruby-lang.org](http://lists.ruby-lang.org) adresine gidin.
 
 Bir e-posta listesine abone olmak için lütfen aşağıdaki e-posta gövdesini (konu
