@@ -13,7 +13,7 @@ sahiptir.
 Eğer Ruby topluluğu ile içiçe olmak istiyorsanız, aşağıda bir kaç
 başlangıç önerisi var:
 
-[Ruby Türkiye](https://rubyturkiye.org/) (Türkçe)
+[Ruby Türkiye](https://rubyturkiye.org/)
 : Türkiye'deki Ruby programcıları ve Ruby severler topluluğudur.
   Ruby ile program yazan ve ilgilenen herkese açıktır.
 
@@ -23,7 +23,7 @@ başlangıç önerisi var:
   aylık toplantılar, e-posta listeleri, bir web sitesi ve eğer
   şanslıysanız kodlama festivalleri gibi harika aktiviteler içerir.
 
-[Ruby Türkiye E-Posta Listesi](https://rubyturkiye.org/group) (Türkçe)
+[Ruby Türkiye E-Posta Listesi](https://rubyturkiye.org/group)
 : Ruby Türkiye Topluluğu E-Posta Listesi.
 
 [Ruby E-Posta Listeleri ve Haber Grupları](mailing-lists/)
@@ -32,7 +32,7 @@ başlangıç önerisi var:
   e-posta listeleri cevap aramak için başvuracağınız ilk kaynaklardan
   biridir.
 
-[Ruby Türkiye IRC Kanalı](irc://irc.freenode.net/ruby-tr) (Türkçe)
+[Ruby Türkiye IRC Kanalı](irc://irc.freenode.net/ruby-tr)
 : Ruby Türkiye IRC Kanalı.
 
 [Ruby Türkiye Slack Kanalı][ruby-turkiye-slack]
