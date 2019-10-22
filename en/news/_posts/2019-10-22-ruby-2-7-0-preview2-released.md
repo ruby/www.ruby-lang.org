@@ -206,9 +206,9 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
 * Require compilers to support C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * Details of our dialect: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) for more details.
+See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview2/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2) for more details.
 
-With those changes, [1727 files changed, 76022 insertions(+), 60286 deletions(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) since Ruby 2.6.0!
+With those changes, [3670 files changed, 201242 insertions(+), 88066 deletions(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2) since Ruby 2.6.0!
 
 Enjoy programming with Ruby 2.7!
 
