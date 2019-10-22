@@ -35,6 +35,10 @@ başlangıç önerisi var:
 [Ruby Türkiye IRC Kanalı](irc://irc.freenode.net/ruby-tr) (Türkçe)
 : Ruby Türkiye IRC Kanalı.
 
+[Ruby Türkiye Slack Kanalı][ruby-turkiye-slack]
+: Kendi dilinizde sohbet etmek için IRC kanalına alternatif olarak oldukça
+  popüler olan bu Slack kanalını da kullanabilirsiniz.
+
 [IRC’de Ruby (#ruby)](irc://irc.freenode.net/ruby) (İngilizce)
 : Ruby IRC Kanalı, diğer Ruby’cilerle sohbet etmek için harika bir
   yoldur.
@@ -68,3 +72,4 @@ Genel Ruby Kaynakları
 [ruby-central]: http://rubycentral.org/
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
 [rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-turkiye-slack]: https://rubytr.herokuapp.com/
