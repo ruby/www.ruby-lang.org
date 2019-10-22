@@ -47,6 +47,8 @@ Bir günlük tek konulu bir konferanstır.
 [DeccanRubyConf][20]: Pune'un (Hindistan) yıllık Ruby konferansı, tüm güne yayılmış eğlenceli aktiviteler ile geçer.
 Bir günlük tek konulu bir konferanstır.
 
+[Southeast Ruby][21]: Nashville, TN atölye ve konferans.
+
 ### Diğer Konferanslarda Ruby
 
 2004'ten beri [O’Reilly'nin Açık Kaynak Konferansı][10] konuları içinde Ruby yer almaktadır.
@@ -73,3 +75,4 @@ Ayrıca Ruby Central'in [RailsConf][12]'u, [RailsConf Avrupa][13] (2006'da Ruby 
 [16]: http://steelcityruby.org/
 [19]: http://goruco.com/
 [20]: http://www.deccanrubyconf.org/
+[21]: https://southeastruby.com/
