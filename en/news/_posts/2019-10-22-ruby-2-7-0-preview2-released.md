@@ -60,12 +60,12 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     splat operator to avoid the warning and ensure correct behavior in
     Ruby 3.
 
-    ```ruby
-    def foo(key: 42); end; foo({key: 42})   # warned
-    def foo(**kw);    end; foo({key: 42})   # warned
-    def foo(key: 42); end; foo(**{key: 42}) # OK
-    def foo(**kw);    end; foo(**{key: 42}) # OK
-    ```
+  ```ruby
+  def foo(key: 42); end; foo({key: 42})   # warned
+  def foo(**kw);    end; foo({key: 42})   # warned
+  def foo(key: 42); end; foo(**{key: 42}) # OK
+  def foo(**kw);    end; foo(**{key: 42}) # OK
+  ```
 
   * When a method call passes keywords to a method that accepts keywords,
     but it does not pass enough required positional arguments, the
@@ -73,12 +73,12 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     warning is emitted.  Pass the argument as a hash instead of keywords
     to avoid the warning and ensure correct behavior in Ruby 3.
 
-    ```ruby
-    def foo(h, **kw); end; foo(key: 42)      # warned
-    def foo(h, key: 42); end; foo(key: 42)   # warned
-    def foo(h, **kw); end; foo({key: 42})    # OK
-    def foo(h, key: 42); end; foo({key: 42}) # OK
-    ```
+  ```ruby
+  def foo(h, **kw); end; foo(key: 42)      # warned
+  def foo(h, key: 42); end; foo(key: 42)   # warned
+  def foo(h, **kw); end; foo({key: 42})    # OK
+  def foo(h, key: 42); end; foo({key: 42}) # OK
+  ```
 
   * When a method accepts specific keywords but not a keyword splat, and
     a hash or keywords splat is passed to the method that includes both
@@ -86,50 +86,50 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
     a warning will be emitted.  You will need to update the calling code
     to pass separate hashes to ensure correct behavior in Ruby 3.
 
-    ```ruby
-    def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
-    def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
-    def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-    ```
+  ```ruby
+  def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
+  def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
+  def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
+  ```
 
   * If a method does not accept keywords, and is called with keywords,
     the keywords are still treated as a positional hash, with no warning.
     This behavior will continue to work in Ruby 3.
 
-    ```ruby
-    def foo(opt={});  end; foo( key: 42 )   # OK
-    ```
+  ```ruby
+  def foo(opt={});  end; foo( key: 42 )   # OK
+  ```
 
 * Non-symbols are allowed as a keyword argument keys if method accepts
   arbitrary keywords.  [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-    ```ruby
-    def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-    ```
+  ```ruby
+  def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
+  ```
 
 * <code>**nil</code> is allowed in method definitions to explicitly mark
   that the method accepts no keywords. Calling such a method with keywords
   will result in an ArgumentError.  [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-    ```ruby
-    def foo(h, **nil); end; foo(key: 1)       # ArgumentError
-    def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
-    def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
-    def foo(h, **nil); end; foo({key: 1})     # OK
-    def foo(h, **nil); end; foo({"str" => 1}) # OK
-    ```
+  ```ruby
+  def foo(h, **nil); end; foo(key: 1)       # ArgumentError
+  def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
+  def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
+  def foo(h, **nil); end; foo({key: 1})     # OK
+  def foo(h, **nil); end; foo({"str" => 1}) # OK
+  ```
 
 * Passing an empty keyword splat to a method that does not accept keywords
   no longer passes an empty hash, unless the empty hash is necessary for
   a required parameter, in which case a warning will be emitted.  Remove
   the double splat to continue passing a positional hash.  [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-    ```ruby
-    h = {}; def foo(*a) a end; foo(**h) # []
-    h = {}; def foo(a) a end; foo(**h)  # {} and warning
-    h = {}; def foo(*a) a end; foo(h)   # [{}]
-    h = {}; def foo(a) a end; foo(h)    # {}
-    ```
+  ```ruby
+  h = {}; def foo(*a) a end; foo(**h) # []
+  h = {}; def foo(a) a end; foo(**h)  # {} and warning
+  h = {}; def foo(*a) a end; foo(h)   # [{}]
+  h = {}; def foo(a) a end; foo(h)    # {}
+  ```
 
 ## Other Notable New Features
 
@@ -140,36 +140,36 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
 * A beginless range is experimentally introduced.  It might not be as useful
   as an endless range, but would be good for DSL purpose. [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-    ```ruby
-    ary[..3]  # identical to ary[0..3]
-    rel.where(sales: ..100)
-    ```
+  ```ruby
+  ary[..3]  # identical to ary[0..3]
+  rel.where(sales: ..100)
+  ```
 
 * `Enumerable#tally` is added.  It counts the occurrence of each element.
 
-    ```ruby
-    ["a", "b", "c", "b"].tally
-    #=> {"a"=>1, "b"=>2, "c"=>1}
-    ```
+  ```ruby
+  ["a", "b", "c", "b"].tally
+  #=> {"a"=>1, "b"=>2, "c"=>1}
+  ```
 
 * Calling a private method on `self` is now allowed.  [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297) [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-    ```ruby
-    def foo
-    end
-    private :foo
-    self.foo
-    ```
+  ```ruby
+  def foo
+  end
+  private :foo
+  self.foo
+  ```
 
 * `Enumerator::Lazy#eager` is added.  It generates a non-lazy enumerator
   from a lazy enumerator.  [Feature #15901]
 
-    ```ruby
-    a = %w(foo bar baz)
-    e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
-    p e.class               #=> Enumerator
-    p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-    ```
+  ```ruby
+  a = %w(foo bar baz)
+  e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
+  p e.class               #=> Enumerator
+  p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
+  ```
 
 ## Performance improvements
 

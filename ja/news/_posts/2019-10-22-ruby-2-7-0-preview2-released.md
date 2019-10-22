@@ -51,60 +51,60 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * メソッド呼び出しにおいて最後の引数としてハッシュオブジェクトを渡し、他にキーワード引数を渡さず、かつ、呼ばれたメソッドがキーワード引数を受け取るとき、警告が表示されます。キーワード引数として扱いたい場合は、明示的にdouble splat演算子（`**`）を足すことで警告を回避できます。このように書けばRuby 3でも同じ意味で動きます。
 
-    ```ruby
-    def foo(key: 42); end; foo({key: 42})   # warned
-    def foo(**kw);    end; foo({key: 42})   # warned
-    def foo(key: 42); end; foo(**{key: 42}) # OK
-    def foo(**kw);    end; foo(**{key: 42}) # OK
-    ```
+  ```ruby
+  def foo(key: 42); end; foo({key: 42})   # warned
+  def foo(**kw);    end; foo({key: 42})   # warned
+  def foo(key: 42); end; foo(**{key: 42}) # OK
+  def foo(**kw);    end; foo(**{key: 42}) # OK
+  ```
 
 * キーワード引数を受け取るメソッドにキーワード引数を渡すが、必須引数が不足している場合に、キーワード引数は最後の必須引数として解釈され、警告が表示されます。警告を回避するには、キーワードではなく明示的にハッシュとして渡してください。このように書けばRuby 3でも同じ意味で動きます。
 
-    ```ruby
-    def foo(h, **kw); end; foo(key: 42)      # warned
-    def foo(h, key: 42); end; foo(key: 42)   # warned
-    def foo(h, **kw); end; foo({key: 42})    # OK
-    def foo(h, key: 42); end; foo({key: 42}) # OK
-    ```
+  ```ruby
+  def foo(h, **kw); end; foo(key: 42)      # warned
+  def foo(h, key: 42); end; foo(key: 42)   # warned
+  def foo(h, **kw); end; foo({key: 42})    # OK
+  def foo(h, key: 42); end; foo({key: 42}) # OK
+  ```
 
 * メソッドがキーワード引数を受け取るがdouble splat引数は受け取らず、かつ、メソッド呼び出しでSymbolと非Symbolの混ざったハッシュを渡す（もしくはハッシュをdouble splatでキーワードとして渡す）場合、ハッシュは分割され、警告が表示されます。Ruby 3でもハッシュの分割を続けたい場合は、呼び出し側で明示的に分けるようにしてください。
 
-    ```ruby
-    def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
-    def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
-    def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-    ```
+  ```ruby
+  def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
+  def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
+  def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
+  ```
 
 * メソッドがキーワード引数を受け取らず、呼び出し側でキーワード引数を渡した場合、ハッシュの引数としてみなされる挙動は変わらず、警告も表示されません。Ruby 3でもこのコードは動き続ける予定です。
 
-    ```ruby
-    def foo(opt={});  end; foo( key: 42 )   # OK
-    ```
+  ```ruby
+  def foo(opt={});  end; foo( key: 42 )   # OK
+  ```
 
 * メソッドが任意のキーワードを受け取る場合、非Symbolがキーワード引数のキーとして許容されるようになります。[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-    ```ruby
-    def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-    ```
+  ```ruby
+  def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
+  ```
 
 * メソッド定義で<code>**nil</code>と書くことで、このメソッドがキーワードを受け取らないことを明示できるようになりました。このようなメソッドをキーワード引数付きで呼び出すとArgumentErrorになります。[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-    ```ruby
-    def foo(h, **nil); end; foo(key: 1)       # ArgumentError
-    def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
-    def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
-    def foo(h, **nil); end; foo({key: 1})     # OK
-    def foo(h, **nil); end; foo({"str" => 1}) # OK
-    ```
+  ```ruby
+  def foo(h, **nil); end; foo(key: 1)       # ArgumentError
+  def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
+  def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
+  def foo(h, **nil); end; foo({key: 1})     # OK
+  def foo(h, **nil); end; foo({"str" => 1}) # OK
+  ```
 
 * キーワード引数を受け取らないメソッドに対して空のハッシュをdouble splatで渡すとき、空のハッシュが渡る挙動はなくなりました。ただし、必須引数が不足する場合は空のハッシュが渡され、警告が表示されます。ハッシュの引数として渡したい場合はdouble splatをつけないようにしてください。
 
-    ```ruby
-    h = {}; def foo(*a) a end; foo(**h) # []
-    h = {}; def foo(a) a end; foo(**h)  # {} and warning
-    h = {}; def foo(*a) a end; foo(h)   # [{}]
-    h = {}; def foo(a) a end; foo(h)    # {}
-    ```
+  ```ruby
+  h = {}; def foo(*a) a end; foo(**h) # []
+  h = {}; def foo(a) a end; foo(**h)  # {} and warning
+  h = {}; def foo(*a) a end; foo(h)   # [{}]
+  h = {}; def foo(a) a end; foo(h)    # {}
+  ```
 
 ## 主要な新機能
 
@@ -114,35 +114,35 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * 開始値省略範囲式が試験的に導入されました。これは終了値省略範囲式ほど有用ではないと思われますが、しかし DSL のような目的には役立つかもしれません。 [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-    ```ruby
-    ary[..3]  # identical to ary[0..3]
-    rel.where(sales: ..100)
-    ```
+  ```ruby
+  ary[..3]  # identical to ary[0..3]
+  rel.where(sales: ..100)
+  ```
 
 * `Enumerable#tally` が追加されました。各要素の出現回数を数えます。
 
-    ```ruby
-    ["a", "b", "c", "b"].tally
-    #=> {"a"=>1, "b"=>2, "c"=>1}
-    ```
+  ```ruby
+  ["a", "b", "c", "b"].tally
+  #=> {"a"=>1, "b"=>2, "c"=>1}
+  ```
 
 * レシーバを`self`としてprivateメソッドを呼び出すことが許容されるようになりました。 [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297) [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-    ```ruby
-    def foo
-    end
-    private :foo
-    self.foo
-    ```
+  ```ruby
+  def foo
+  end
+  private :foo
+  self.foo
+  ```
 
 * `Enumerator::Lazy#eager` が追加されました。lazyなEnumeratorを非lazyなEnumeratorに変換します。
 
-    ```ruby
-    a = %w(foo bar baz)
-    e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
-    p e.class               #=> Enumerator
-    p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-    ```
+  ```ruby
+  a = %w(foo bar baz)
+  e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
+  p e.class               #=> Enumerator
+  p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
+  ```
 
 ## パフォーマンスの改善
 
