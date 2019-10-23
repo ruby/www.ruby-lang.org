@@ -224,7 +224,7 @@ kurucuya ihtiyacınız yok, RVM kendisininki ile gelir.
 
 [ruby-build][ruby-build], [rbenv](#rbenv) için Ruby'nin farklı sürümlerini
 derleyip kurmanıza imkan veren bir eklentidir. ruby-build ayrıca rbenv olmadan
-tek başına çalışan bir program olarak da kullanılabilir. rbenv, macOS, Linux, ve diğer
+tek başına çalışan bir program olarak da kullanılabilir. macOS, Linux, ve diğer
 UNIX benzeri işletim sistemlerinde kullanılabilir.
 
 
