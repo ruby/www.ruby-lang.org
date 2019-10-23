@@ -11,7 +11,7 @@ birini kullanmışsanız işiniz çok kolay.
 {: .summary}
 
 Bu belgede iki ana bölüm var. İlki *X* dilinden Ruby’ye geçerken ne
-görmeyi beklediğiniz, ikincisi dlin ana özelliklerini ele alıp önceden
+görmeyi beklediğiniz, ikincisi dilin ana özelliklerini ele alıp önceden
 bildiklerinizle karşılaştırır.
 
 ## Neler Değişiyor: *X Dilinden* Ruby’ye
@@ -29,8 +29,8 @@ görüyorsunuz.
 
 ### Yineleme (Iteration)
 
-İki Ruby özelliğini daha önce görmüşsünüzdür ama Ruby’de farklı bir
-davranış gösterirler, bloklar ve yineleyiciler. Bir index üzerinden
+İki Ruby özelliği, daha önce muhtemelen görmediğiniz ve kullanmaya başlaması
+biraz zaman alan, bloklar ve yineleyicilerdir. Bir index üzerinden
 döngü yapmak (C, C++ ve 1.5 öncesi Java daki gibi) veya bir liste
 üzerinde döngü yapmak (Perl’ün `for (@a) {...}` veya Python’un
 `for i in aList: ...`) yerine Ruby ile genellikle şöyle birşey
@@ -49,7 +49,7 @@ hakkında daha fazla bilgi için komut satırında `ri Enumerable`
 
 ### Herşeyin Bir Değeri Vardır
 
-Bir eşitlik ve bir deyim satırı arasında fak yoktur. Herşey **nil** de
+Bir deyimle bir ifade arasında fark yoktur. Herşey **nil** de
 olsa bir değer geri döner. Şu mümkündür:
 
 {% highlight ruby %}
@@ -69,7 +69,7 @@ Ruby’ye yeni başlayan birçok kişi Sembollerin ne olduğunu ve ne için
 kullanıldıklarını anlamakta zorlanır.
 
 Semboller en iyi kimlikler olarak açıklanabilir. Bir sembolle ilgili
-sorulacak olan **ne** olduğu değil **kim** olduğudur. Konsalda `irb`
+sorulacak olan **ne** olduğu değil **kim** olduğudur. Konsolda `irb`
 girin ve farkı görelim:
 
 {% highlight irb %}
@@ -112,13 +112,13 @@ end
 
 Sabitler tam olarak sabit değil. Eğer halihazırda değeri verilmiş bir
 sabiti değiştirmeye kalkarsanız bir uyarı mesajı üretir ama çalışmayı
-durdurmaz.
+durdurmaz. Bu, sabitleri yeniden **tanımlamalısınız** demek değildir tabii ki.
 
 ### İsimlendirme Gelenekleri
 
 Ruby bazı isimlendirme geleneklerine zorlar. Eğer bir isim büyük harfle
 başlıyorsa, o bir sabittir. Eğer bir dolar işaretiyle başlıyorsa (`$`), bu
-bir global değişkendir. Eğer `@` işaretiyle başlıyorsa bu bir oluşum
+bir global değişkendir. Eğer `@` işaretiyle başlıyorsa bu bir örnek
 değişkenidir. Eğer `@@` ile başlıyorsa bu bir sınıf değişkenidir.
 
 Metod isimleri de büyük harfle başlayabilir. Bu aşağıdaki gibi bir
@@ -133,26 +133,28 @@ end
 
 Burada `Constant` 10 değerindeyken `Constant()` değeri 11 dir.
 
-### Sahte İsimli Parametreler
+### Anahtar kelime argümanları
 
-Ruby Python’dakine benzer isimli parametrelere sahip değildir. Bunun
-yerine hash ve semboller kullanarak taklidi yapılır. Ruby on Rails’de
-çok sık kullanılır. Örneğin:
+Python'daki gibi, Ruby 2.0'dan itibaren, metodlar anahtar kelime argümanları
+kullanarak tanımlanabilir:
 
 {% highlight ruby %}
-def some_keyword_params( params )
-  params
+def deliver(from: "A", to: nil, via: "mail")
+  "Sending from #{from} to #{to} via #{via}."
 end
-some_keyword_params( :param_one => 10, :param_two => 42 )
-# => {:param_one=>10, :param_two=>42}
+
+deliver(to: "B")
+# => "Sending from A to B via mail."
+deliver(via: "Pony Express", from: "B", to: "A")
+# => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
 ### Evrensel Doğruluk
 
 Ruby’de **nil** ve **false** dışında herşey doğru kabul edilir. C,
 Python ve diğer birçok dilde 0 ve boş listeler gibi diğer bazı değerler
-yanlış kabul edilir. Aşağıdaki Python koduna bakın (diğer dillere de
-çevrilebilir):
+yanlış kabul edilir. Aşağıdaki Python koduna bakın (diğer dillerde de durum
+böyledir):
 
 {% highlight python %}
 # Python'da
@@ -182,12 +184,12 @@ Aşağıdaki Ruby kodunda,
 {% highlight ruby %}
 class MyClass
   private
-  def bir_metod; true; end
-  def diger_metod; false; end
+  def a_method; true; end
+  def another_method; false; end
 end
 {% endhighlight %}
 
-`diger_metod` erişiminin genel olacağını düşünebilirsiniz ama öyle değil. “privete” erişim belirleyici sınıf tanımı sonuna kadar veya başka bir erişim belirleyici satıra kadar geçerli olacaktır. Default olarak tüm metodlar “public”(genel erişim)dir:
+`another_method` erişiminin genel olacağını düşünebilirsiniz ama öyle değil. “private” erişim belirleyici sınıf tanımı sonuna kadar veya başka bir erişim belirleyici satıra kadar geçerli olacaktır. Default olarak tüm metodlar “public”(genel erişim)dir:
 
 {% highlight ruby %}
 class MyClass
@@ -201,24 +203,25 @@ class MyClass
 end
 {% endhighlight %}
 
-`public`, `private` ve `protected` aslında metoddur ve bu yüzden parametre alabilirler. Eğer bunlara bir sembol gönderirseniz metodun görünrlüğü değişir.
+`public`, `private` ve `protected` aslında metoddur ve bu yüzden parametre alabilirler. Eğer bunlara bir sembol gönderirseniz metodun görünürlüğü değişir.
 
 ### Metod Erişimleri
 
-Java’da, `public` metoda herkes erişebilir demektir. `protected` sınıfın
-oluşumlarından, türetilmiş sınıfların oluşumlarından ve aynı paket
-içersindeki sınıfların oluşumlarından erişilebilir demektir. `private`
-ise sınıfın oluşumlarından başka kimse metoda ulaşamaz demektir.
+Java’da `public`, metoda herkes erişebilir demektir. `protected`, sınıfın
+örneklerinden, türetilmiş sınıfların örneklerinden ve aynı paket
+içerisindeki sınıfların örneklerinden erişilebilir demektir. `private`
+ise sınıfın örneklerinden başka kimse metoda ulaşamaz demektir.
 
 Ruby biraz farklılık gösterir. `public` doğal olarak herkese açık
-demektir. `private` ise metodun belirlenmiş alıcısı varsa
-erişilebileceğini belirtir ve bu alıcı sadece **self** olabilir.
+demektir. `private` ise metodun sadece harici bir alıcı olmadan
+çağrılabildiğinde ulaşılabilir olduğunu belirtir. Sadece `self`, private bir
+metod çağrısının alıcısı olabilir.
 
-`protected` incelenmesi gereken birşey. Bir protected metod sınıfın yada türetilmiş sınıfın oluşumlarından çağrılabilir, ayrıca diğer oluşum üzerinden çağrılabilir. Örnek, [Ruby Language FAQ][faq] alınmıştır:
+`protected` incelenmesi gereken birşey. Bir protected metod sınıfın yada türetilmiş sınıfın örneklerinden çağrılabilir, ayrıca diğer örnekler üzerinden çağrılabilir. Örnek, [Ruby Dili SSS][faq] alınmıştır:
 
 {% highlight ruby %}
 class Test
-  # default olarak public
+  # varsayılan olarak public
   def identifier
     99
   end
@@ -232,8 +235,8 @@ t1 = Test.new  # => #<Test:0x34ab50>
 t2 = Test.new  # => #<Test:0x342784>
 t1 == t2       # => true
 
-# şimdi `identifier' u protected yapalım, hala çalışıyor
-# çünkü protexted diğerine referansa izin veriyor
+# şimdi `identifier'ı protected yapalım, hala çalışıyor
+# çünkü protected `diğerinin' alıcı olmasına izin verir
 
 class Test
   protected :identifier
@@ -241,7 +244,7 @@ end
 
 t1 == t2  # => true
 
-# şimdi `identifier' u private yapalım
+# şimdi `identifier'ı private yapalım
 
 class Test
   private :identifier
@@ -254,8 +257,8 @@ t1 == t2
 ### Sınıflar Açıktır
 
 Ruby sınıfları açıktır. İstediğiniz zaman açabilir, ekleme yapabilir,
-değiştirebilirsiniz. Core sınıfları bile, mesela `Integer` ve hatta tüm
-sınıfların anası `Object` sınıfı dahil. Ruby on Rails `Integer` sınıfına
+değiştirebilirsiniz. Çekirdek sınıfları bile, mesela `Integer` ve hatta tüm
+nesnelerin anası `Object` sınıfı dahil. Ruby on Rails `Integer` sınıfına
 zamanla ilgili bir kısım metod eklemiştir. İzleyin:
 
 {% highlight ruby %}
@@ -268,7 +271,7 @@ end
 
 # 1 Ocak saat 00:00 dan itibaren 14 saat sonra
 # anca uyanmışsınız ;)
-Time.mktime(2011, 01, 01) + 14.hours # => Sat Jan 01 14:00:00
+Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 {% endhighlight %}
 
 ### Eğlenceli Metod İsimleri
@@ -276,36 +279,37 @@ Time.mktime(2011, 01, 01) + 14.hours # => Sat Jan 01 14:00:00
 Ruby’de metodların soru veya ünlem işareti ile bitmesine izin verilir.
 Gelenek olarak sorulara cevap veren metodlar (örnek,
 `Array#empty?` eğer alıcısı boşsa **true** döner) soru işareti
-ile biter. Tehlikeli sonuçları olabilecek metodlar (örneğin “kendi”ni
+ile biter. Tehlikeli sonuçları olabilecek metodlar (örneğin “kendi”ni ya da argümanlarını
 değiştiren metodlar, `exit!` gibi) ünlem işareti ile bitirilirler.
 
-Argümanlarını değiştiren tüm metodlar ünlem işareti ile bitmayabilir.
+Argümanlarını değiştiren tüm metodlar ünlem işareti ile bitmeyebilir.
 `Array#replace` bir array’in içeriğini diğer biriyle değiştirir
-ama ünlemle bitmez.
+ama ünlemle bitmez. Böyle bir metodun kendini **değiştirmemesi** pek mantıklı
+değil.
 
-### Özel Metodlar
+### Tekil Metodlar
 
-Özel metodlar, tek nesneye özel metodlardır. Hangi nesne için
+Tekil metodlar, tek nesneye özel metodlardır. Hangi nesne için
 tanımlandıysa onun için geçerlidir.
 
 {% highlight ruby %}
 class Car
   def inspect
-    "Ucuz araba"
+    "Cheap car"
   end
 end
 
 porsche = Car.new
-porsche.inspect # => Ucuz araba
+porsche.inspect # => Cheap car
 def porsche.inspect
-  "Pahalı araba"
+  "Expensive car"
 end
 
-porsche.inspect # => Pahalı araba
+porsche.inspect # => Expensive car
 
 # Diğer nesneler etkilenmez
 other_car = Car.new
-other_car.inspect # => Ucuz araba
+other_car.inspect # => Cheap car
 {% endhighlight %}
 
 ### Kayıp Metodlar
@@ -320,17 +324,17 @@ yapar. Bir örnek:
 # id çağrılan metodun adı, * deyimiyle tüm argümanlar
 # bir 'arguments' adlı bir array içinde toplanır
 def method_missing(id, *arguments)
-  puts "Metod #{id} çağrıldı fakat bulunamadı. Argümanları " +
-       "şunlar : #{arguments.join(", ")}"
+  puts "Method #{id} was called, but not found. It has " +
+       "these arguments: #{arguments.join(", ")}"
 end
 
 __ :a, :b, 10
-# => Metod __ çağrıldı fakat bulunamadı. Argümanları
-# şunlar: a, b, 10
+# => Method __ was called, but not found. It has these
+# arguments: a, b, 10
 {% endhighlight %}
 
-Yukardaki kod sadece çağrının detaylarını çağırır, fakat siz bu mesajı
-istediğiniz gibi değiştirmekte serbestsiniz.
+Yukardaki kod sadece çağrının detaylarını yazdırır, fakat siz mesajı
+istediğiniz gibi ele almakta serbestsiniz.
 
 ### Fonksiyon Çağrısı Değil Mesaj İletimi
 
@@ -347,9 +351,9 @@ Bir metod çağrısı aslında diğer bir nesneye bir **mesaj** dır:
 
 ### Bloklar Nesnedir, Sadece Henüz Bunu Bilmiyorlar
 
-Bloklar (çevrili kodlar) standart kütüphaneler tarafından çok
+Bloklar (gerçekte kapamalar) standart kütüphane tarafından çok
 kullanılır. Bir bloğu çağırmak için `yield` da kullanabilirsiniz,
-argüman listesinde özel bir argüman ekleyerek `Proc` da yapabilirsiniz.
+argüman listesine özel bir argüman ekleyerek bloğu `Proc` da yapabilirsiniz.
 Şöyleki:
 
 {% highlight ruby %}
@@ -372,10 +376,10 @@ method(:puts).call "puts is an object!"
 # => puts is an object!
 {% endhighlight %}
 
-### Operatörler de Deyimdir
+### Operatörler sözdizimsel şekerlerdir
 
-Ruby’deki operatörler birbirlerine belli öncelikleri olan metodlardır.
-Bu yüzden isterseniz Integer’un + metodunu değiştirebilirsiniz:
+Ruby’deki çoğu operatör birbirine belli önceliği olan metod çağrılarıdır.
+Bu yüzden isterseniz Integer’ın + metodunu değiştirebilirsiniz:
 
 {% highlight ruby %}
 class Integer
@@ -386,13 +390,13 @@ class Integer
 end
 {% endhighlight %}
 
-C++’ın `operator+` sına ihtiyacınız yok.
+C++’ın `operator+`'ına, vb. ihtiyacınız yok.
 
 Array stili bir erişim için `[]` ve `[]=` metodları tanımlayabilirsiniz.
 (+1 ve -2 deki gibi) işaretler için `+@` ve `-@` metodlarını
 tanımlamalısınız.
 
-Aşağıdaki operatörler bu şekilde değerlendirilmezler. Bunlar metod
+Aşağıdaki operatörler sözdizimsel şeker değillerdir. Bunlar metod
 değildir ve tekrar tanımlanamazlar:
 
 {% highlight ruby %}

@@ -14,7 +14,8 @@ PHP’de olduğu gibi, Rubyde…
 
 * Ruby dinamik olarak yazılan bir dildir, PHP’de olduğu gibi, bu yüzden
   değişken tanımlama konusunda endişelenmenize gerek yok
-* Sınıflar vardır, ve bu sınıflara PHP 5’te olduğu gibi erişebilirsiniz.
+* Sınıflar vardır, ve bu sınıflara erişimi PHP 5’te olduğu gibi kontrol
+  edebilirsiniz.
   (`public`, `protected` ve `private`)
 * Bazı değişkenler $ sembolü ile başlar, PHP gibi (ama hepsi değil)
 * `eval` burada da vardır.
@@ -25,8 +26,8 @@ PHP’de olduğu gibi, Rubyde…
 * Here dökümanları vardır
 * PHP 5 gibi rubyde de istisnalar(exception) vardır.
 * Oldukça büyük bir standart kütüphanesi vardır.
-* Dizeler ve hash veri tipi benzer çalışır, `array()` yerine `{` ve `}`
-  kullanırsanız: `array('a' => 'b')` `{'a' => 'b'}` olur.
+* Dizeler ve hash veri tipi beklendiği gibi çalışır, `array()` yerine `{` ve
+  `}` kullanırsanız: `array('a' => 'b')` `{'a' => 'b'}` olur.
 * `true` ve `false` PHP’de olduğu gibi davranır, ama `null` `nil` olarak
   çağırılır.
 
@@ -34,7 +35,7 @@ PHP’de olduğu gibi, Rubyde…
 
 PHP’nin aksine, Rubyde…
 
-* Güçlü yazım vardır. Karakter dizisi ve sayı tipi gibi veri tipleri
+* Güçlü tipleme vardır. Karakter dizisi ve sayı tipi gibi veri tipleri
   arasında çeviri yapabilmek için bunu yapması için dile güvenmek yerine
   `to_s`, `to_i` vs. metodları kullanmalısınız.
 * Karakter dizileri, sayılar, dizeler, hash veri tipleri, vs. nesnedir.
