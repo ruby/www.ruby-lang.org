@@ -180,7 +180,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * Unicode のバージョンが 12.1.0 となり、新元号「令和」を表す合字 U+32FF がサポートされました。[[Feature #15195]](https://bugs.ruby-lang.org/issues/15195)
 
-* `Date.jisx0301`, `Date#jisx0301`, および `Date.parse` で新元号に仮対応しました。[[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
+* `Date.jisx0301`, `Date#jisx0301`, および `Date.parse` で新元号に対応しました。[[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Ruby のビルドに C99 に対応したコンパイラが必要になりました。[[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * 本件についての詳細: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
