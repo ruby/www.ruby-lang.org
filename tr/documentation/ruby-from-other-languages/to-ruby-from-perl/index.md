@@ -37,18 +37,18 @@ Ruby’de Perl’den farklı olarak,...
 * Bir değişken gösterdiği nesne ile aynı şey değildir. Sadece nesneye
   referans verir.
 * `$` ve `@` karakterleri bazen değişken isminin ilk harfi olarak
-  kullanılabilir. Ama bunlar tipi değil bakış açısını belirtir. (global
-  değişkenler `$` ile başlar, nesne oluşum değişkenleri `@` ile
-  başlar ve nesne özellikleri `@@` ile başlar).
+  kullanılabilir. Ama bunlar tipi değil kapsamı belirtir. (global
+  değişkenler `$` ile başlar, nesne nitelikleri `@` ile
+  başlar ve sınıf nitelikleri `@@` ile başlar).
 * Array değerleri parantezler yerine köşeli parantezler içinde
   gösterilir.
 * Listelerden oluşan bir liste ürettiğinizde büyük bir liste oluşmaz.
   Array’lerden oluşan bir array elde edersiniz.
 * `sub` yerine `def` kullanılır.
-* Her satırın sonunda noktalı virgül gerekmez. Tüm çevrimler, sınıf
-  tanımları, fonksiyon tanımları, case blokları vs. hep `end` deyimi ile
+* Her satırın sonunda noktalı virgül gerekmez. Lafı açılmışken, sınıf
+  tanımları, fonksiyon tanımları ve case blokları `end` anahtar kelimesi ile
   biter.
-* Nesne tipleri kararlıdır. Nesnelerin tipini dönüştürmek için
+* Nesneler güçlü tiplenirler. Nesnelerin tipini dönüştürmek için
   `foo.to_i`, `foo.to_s` gibi elle yapmalısınız.
 * `eq`, `ne`, `lt`, `gt`, `ge`, veya `le` yoktur.
 * “Diamond” operatörü (`<>`) yoktur. Genellikle bunun yerine

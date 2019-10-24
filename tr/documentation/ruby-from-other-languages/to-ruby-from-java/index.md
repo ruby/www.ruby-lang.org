@@ -13,8 +13,8 @@ prototiplere daha çabuk ulaşırsınız.
 
 Java’da olduğu gibi Ruby’de de,...
 
-* Hafıza kullanımı sizin tarafınızdan yönetilir.
-* Nesneleri işlemekte güçlüdür.
+* Hafıza kullanımı çöp toplayıcı tarafından yönetilir.
+* Nesneler güçlü tiplenirler.
 * Public, private ve protected metodlar vardır.
 * Gömülü dökümanlama araçları vardır (Ruby’ninki RDoc olarak
   isimlendirilir). RDoc ile hazırlanan dökümanlar javadoc ile
@@ -36,14 +36,14 @@ Ruby’de Java’dan farklı olarak,...
 * Metod çağrılarında parantezler genelde opsiyoneldir ve çoğunlukla da
   kullanılmaz.
 * Herşey bir nesnedir, 2 veya 3.14159 gibi sayılar dahil.
-* Sabit tip kontrolü yoktur.
+* Statik tip kontrolü yoktur.
 * Değişken isimleri sadece etiketlerdir. Belirlenmiş bir tipe
   bağlanmazlar.
 * Tip tanımlamaları yoktur. Yeni bir değişken üretirken sadece kendisine
   değer atamak yeterlidir. (örn. `int[] a = {1,2,3};` yerine `a =
   [1,2,3]` yazılır)
-* There’s no casting. Just call the methods. Your unit tests should tell
-  you before you even run the code if you’re going to see an exception.
+* Tip dönüşümü yoktur. Sadece metodları çağırın. Bir istisna görecekseniz,
+  birim testleriniz size kodu çalıştırmadan önce bunu söylemelidir.
 * `Foo foo = new Foo("hi")` yerine `foo = Foo.new("hi")` yazılır.
 * Sınıfın üretici metodu için sınıfın adı yerine bütün sınıflar için
   “initialize” ismi kullanılır.

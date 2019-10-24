@@ -9,8 +9,8 @@ liste ile anlatmak çok zor, çünkü oldukça fazla fark var. Bir sebep Ruby
 runtime sizin için birçok şeyi yapar. Ruby , C’nin “saklı mekanizma yok”
 prensibinden çok uzak görünür—Ruby’nin tüm amacı işin çoğunu runtime’ın
 omuzlarına yükleyerek insanların işini kolaylaştırmak. Ruby kullanırken
-eğer kodunuzu optimize etmeye çalışmıyorsanız derleyicinin nasıl
-çalışacağını dert etmezsiniz.
+eğer kodunuzu optimize etmeye çalışmıyorsanız "derleyiciyi mutlu etmeye"
+çalışmazsınız.
 
 Bunun anlamı, eşdeğer bir C veya C++ programa göre Ruby programının daha
 yavaş çalışmasını bekleyebilirsiniz ama ne kadar az kod yazarak ve ne
@@ -19,8 +19,8 @@ Ruby , C++ dan çok daha basittir ve her işinizi görür.
 
 Ruby dinamik yazılımdır , static değildir—runtime bir çok şeyi ismi gibi
 program çalışırken ayarlar. Örneğin Ruby programınızın hangi modüllere
-bağlanacağını veya hangi metodun çağrılacağını önceden bilmeye gerek
-yoktur (bu kadar, yükle ve kullan).
+bağlanacağını (yükleyip kullanacağını) bilmeye veya hangi metodun çağrılacağını
+önceden bilmeye gerek yoktur.
 
 Ne mutlu ki, Ruby ve C arasında genetik bir bağlantı vardır. Ruby
 “extension modüles” destekler. Bu modüller C’de yazılmış ama Ruby
@@ -66,25 +66,26 @@ C++ gibi Ruby de,...
 
 Ruby’de C’den farklı olarak,...
 
-* Obje yönetimi çok güçlüdür (mesela değişkenlerin tipi yoktur).
+* Kodunuzu derlemenize gerek yoktur, doğrudan çalıştırabilirsiniz.
+* Nesneler güçlü tiplenir (ve değişkenlerin tipi yoktur).
 * Makrolar ya da önyükleme komutları yoktur. Cast yoktur. İşaretçiler
-  (veya işaretçi aritmetiği) yoktur. Tip ve boyut tanımlaması yoktur.
+  (veya işaretçi aritmetiği) yoktur. typedef, sizeof ya da enum yoktur.
 * Header dosyalar yoktur. Fonksiyonlarınızı (genelde metod denir) ve
   sınıflarınızı kaynak dosyalarınıza yazarsınız.
-* `#define` yoktur, sabitler direk kullanılır, tanımlanmaz.
+* `#define` yoktur. Bunun yerine sabitleri kullanın.
 * Ruby 1.8 itibarıyla kod makina ya da byte koduna dönüştürüleceğine
   direk runtime içinde işlenmektedir.
-* Tüm değişkenler yığında canlı durur. Dahası hafızadan kendiniz
+* Tüm değişkenler heap'te yaşar. Dahası hafızadan kendiniz
   boşaltmak zorunda değilsiniz—garbage collector bunu kontrol eder.
 * Metodlara argümanları değer olarak değil referans olarak geçirilir.
 * `#include <foo>` veya `#include "foo"` yerine `require 'foo'`
   kullanılır.
-* Birleştirmeyle uğraşmazsınız.
+* Assembly yazamazsınız.
 * Satır sonlarında noktalı virgüller yoktur.
-* `if` ve `while` gibi koşullu döngüler için parantez kullanılmaz.
+* `if` ve `while` koşul deyimlerinde parantez kullanılmaz.
 * Metod çağrıları için parantezler sıklıkla isteğe bağlıdır.
-* Süslü parantezler kullanılmaz (`while` gibi) döngüler `end`
-  kelimesiyle bitirilir.
+* Süslü parantezler kullanılmaz, `while` gibi çok satırlı yapıları sonlandırmak
+  için sadece `end` anahtar kelimesini kullanın.
 * `do` kelimesi “blok”lar için kullanılır C’deki gibi “do statement”
   yoktur.
 * “Blok” farklı bir anlama gelir. Bir metod çağrısına bağlanmış kod
@@ -98,8 +99,9 @@ Ruby’de C’den farklı olarak,...
 * Stringler bir null byte ile bitmezler.
 * Array’ler köşeli parantez içindedir, süslü parantez değil.
 * Array’ler içlerine daha fazla eleman koydukça büyürler.
-* Eğer iki array’i toplarsanız yeni ve büyük bir array elde edilir,
-  işaretçi aritmetiği yapılmaz (Yığında yerleşir).
+* Eğer iki array’i toplarsanız yeni ve büyük bir array elde edilir (tabii ki
+  heap'te tutulur),
+  işaretçi aritmetiği yapılmaz.
 * Herşey bir eşitliktir ve değer döner (yani `while` gibi deyimler
   gerçekte bir değer dönüşü yaparlar)
 
@@ -107,9 +109,9 @@ Ruby’de C’den farklı olarak,...
 
 Ruby’de C++’tan farklı,...
 
-* Mutlak referanslar yoktur. Şu demek Ruby’de tüm değişkenler bir objeye
+* Harici referanslar yoktur. Şu demek Ruby’de tüm değişkenler bir objeye
   referans eden isimlerdir.
-* Objeler kararlıdır ama *dinamik* olarak değişebilir. Runtime bir
+* Objeler güçlü ama *dinamik* tiplenirler. Runtime bir
   metodun çalışabilirliğini *çalışırken* araştırır.
 * Sınıf inşaa edici metod sınıfın adı yerine `initialize` olarak
   adlandırılır.
@@ -121,19 +123,22 @@ Ruby’de C++’tan farklı,...
 * `this` yerine `self` kullanılır.
 * Bazı metodların sonunda ’?’ ve ’!’ vardır, bunlar metod isminin
   parçasıdır işlem değildir.
+* Çoklu kalıtım yoktur. Fakat Ruby "mixin"lere sahiptir (bir modülün tüm örnek
+  metodlarını "miras alabilirsiniz").
 * Bazı zorunlu harf boyut gelenekleri vardır (örn. sınıf isimleri büyük
   harfle başlar , değişkenler küçük harfle başlar).
 * Metod çağrılarında parantez kullanılması genelde isteğe bağlıdır.
 * Herhangibir zamanda sınıf kodunu tekrar açıp içine metod
   ekleyebilirsiniz.
 * C++ şablonlarına ihtiyaç yoktur (bir değişkene çalıştırma esnasında
-  herhangi bir obje atayabileceğiniz için). Tip dönüşümüne gerek yoktur.
+  herhangi bir obje atayabileceğiniz ve her durumda tiplerin çalışma zamanında
+  anlaşılacağı için). Tip dönüşümüne gerek yoktur.
 * Tekrarlamalar biraz farklı yapılır. Ruby’de farklı bir tekrar nesnesi
   kullanılmaz. (`vector<T>::const_iterator iter` gibi) fakat bunun
-  yerine `Enumerator` modulü ile `my_obj.each` şeklinde metod çağrısı
-  yapılır.
+  yerine taşıyıcı nesnenin bir yineleyici metodu (`each` gibi) kullanılır, bu
+  metod bir kod bloğu alır ve ardarda gelen öğeleri bu bloğa geçirir.
 * Sadece iki container tip vardır: `Array` ve `Hash`.
-* Tip dönüşümüne gerek yoktur. Ruby mantığına sahip oldukça sz de
+* Tip dönüşümüne gerek yoktur. Ruby mantığına sahip oldukça siz de
   gereksiz olduğunu göreceksiniz.
 * Multithread gömülüdür, fakat Ruby 1.8 ile birlikte “green threads”
   olarak adlandırıldı (sadece interpreter içinde işlenirler) native
