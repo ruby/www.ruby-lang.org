@@ -13,7 +13,7 @@ Bu kılavuz Ruby-Core e-posta listesindeki
 
 * Yama başına bir değişiklik gerçekleyin
 
-  Bu, ertelenen yamaların çoğundaki en büyük meseledir. Birden fazla hatayı
+  Ertelenen yamalar için bu durum en büyük konudur. Birden fazla hatayı
   düzelten (ve özellikler ekleyen) bir yamayı bir seferde gönderdiğinizde,
   uygulamadan önce bunları ayırmamız gerekiyor. Bizim gibi meşgul
   geliştiriciler için bu, oldukça zor bir iş, o yüzden bu gibi yamalar genelde
