@@ -5,13 +5,13 @@ lang: tr
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
+    <a href="../" title="Kısım 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Kısım 2">2</a>
     <span class="separator"> | </span>
     <strong>3</strong>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Kısım 4">4</a>
   </div>
   <h1>Yirmi Dakikada Ruby</h1>
 
@@ -20,24 +20,22 @@ header: |
 Şimdi bir selamlayıcı nesnesi üretelim ve kullanalım:
 
 {% highlight irb %}
-irb(main):035:0> g = Greeter.new("Pat")
+irb(main):035:0> greeter = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
-irb(main):036:0> g.say_hi
+irb(main):036:0> greeter.say_hi
 Hi Pat!
 => nil
-irb(main):037:0> g.say_bye
+irb(main):037:0> greeter.say_bye
 Bye Pat, come back soon.
 => nil
 {% endhighlight %}
 
-Birkez `g` nesnesi üretildi mi, ismin Pat olduğunu hep hatırlayacaktır.
+Birkez `greeter` nesnesi üretildi mi, ismin Pat olduğunu hep hatırlayacaktır.
 Hımm, peki ismi direk olarak almak istersek nolcak?
 
 {% highlight irb %}
-irb(main):038:0> g.@name
-SyntaxError: compile error
-(irb):52: syntax error
-        from (irb):52
+irb(main):038:0> greeter.@name
+SyntaxError: (irb):38: syntax error, unexpected tIVAR, expecting '('
 {% endhighlight %}
 
 Yok, yapamadık.
@@ -45,7 +43,8 @@ Yok, yapamadık.
 ## Nesnenin Derisinin Altında
 
 Örnek değişkenleri nesnenin içinde gizli kalırlar. Mutlak olarak gizli
-değillerdir, onlara erişmenin başka yolları vardır, fakat Ruby
+değillerdir, nesneyi incelediğinizde bunları görebilirsiniz, ve bunlara
+erişmenin başka yolları vardır, fakat Ruby
 verileri dışardan erişime gizleyecek çeşitli nesne yönelimli teknikler
 kullanır.
 
@@ -53,22 +52,24 @@ Pekala Greeter nesnesinin ne metotları mevcut?
 
 {% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
-=> ["method", "send", "object_id", "singleton_methods",
-    "__send__", "equal?", "taint", "frozen?",
-    "instance_variable_get", "kind_of?", "to_a",
-    "instance_eval", "type", "protected_methods", "extend",
-    "eql?", "display", "instance_variable_set", "hash",
-    "is_a?", "to_s", "class", "tainted?", "private_methods",
-    "untaint", "say_hi", "id", "inspect", "==", "===",
-    "clone", "public_methods", "respond_to?", "freeze",
-    "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-    "instance_variables", "instance_of?"]
+=> [:say_hi, :say_bye, :instance_of?, :public_send,
+    :instance_variable_get, :instance_variable_set,
+    :instance_variable_defined?, :remove_instance_variable,
+    :private_methods, :kind_of?, :instance_variables, :tap,
+    :is_a?, :extend, :define_singleton_method, :to_enum,
+    :enum_for, :<=>, :===, :=~, :!~, :eql?, :respond_to?,
+    :freeze, :inspect, :display, :send, :object_id, :to_s,
+    :method, :public_method, :singleton_method, :nil?, :hash,
+    :class, :singleton_class, :clone, :dup, :itself, :taint,
+    :tainted?, :untaint, :untrust, :trust, :untrusted?, :methods,
+    :protected_methods, :frozen?, :public_methods, :singleton_methods,
+    :!, :==, :!=, :__send__, :equal?, :instance_eval, :instance_exec, :__id__]
 {% endhighlight %}
 
 Vay, bir sürü metot varmış. Biz sadece iki metot tanımladık. Burada neler
 oluyor? Pekala bunlar Greeter nesnesinin tüm metotları, kalıtımdan
 gelenler dahil. Eğer kalıtımdan gelen atalarının metotlarını görmek
-istemezsek az evvelki çağrıyı `false` prametresiyle yapmalıyız. Bunun
+istemezsek az evvelki çağrıyı `false` parametresiyle yapmalıyız. Bunun
 anlamı kalıtımsal metotları istemediğimizdir.
 
 {% highlight irb %}
@@ -76,7 +77,7 @@ irb(main):040:0> Greeter.instance_methods(false)
 => ["say_bye", "say_hi"]
 {% endhighlight %}
 
-Ah, şimdi daha iyi. Haydi şimdide selamlayıcı nesnemiz hangi metotlara
+Ah, şimdi daha iyi. Haydi şimdi de selamlayıcı nesnemiz hangi metotlara
 cevap veriyor, bulalım:
 
 {% highlight irb %}
@@ -88,7 +89,8 @@ irb(main):043:0> g.respond_to?("to_s")
 => true
 {% endhighlight %}
 
-Gördüğünüz gibi `say_hi` ve `to_s` (bir şeyi stringe çevirme emridir)
+Gördüğünüz gibi `say_hi` ve `to_s` (bir şeyi stringe çevirme emridir, bu metod
+varsayılan olarak tüm nesneler için tanımlanır)
 kelimelerinin anlamını biliyor, fakat `name` anlamını bilmiyor.
 
 ## Sınıfları Değiştirmek—Asla Çok Geç Değildir
@@ -109,22 +111,22 @@ etkilidir. Öyleyse yeni bir nesne üretelim ve onun `@name` özelliği ile
 biraz oynayalım.
 
 {% highlight irb %}
-irb(main):047:0> g = Greeter.new("Andy")
+irb(main):047:0> greeter = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
-irb(main):048:0> g.respond_to?("name")
+irb(main):048:0> greeter.respond_to?("name")
 => true
-irb(main):049:0> g.respond_to?("name=")
+irb(main):049:0> greeter.respond_to?("name=")
 => true
-irb(main):050:0> g.say_hi
+irb(main):050:0> greeter.say_hi
 Hi Andy!
 => nil
-irb(main):051:0> g.name="Betty"
+irb(main):051:0> greeter.name="Betty"
 => "Betty"
-irb(main):052:0> g
+irb(main):052:0> greeter
 => #<Greeter:0x3c9b0 @name="Betty">
-irb(main):053:0> g.name
+irb(main):053:0> greeter.name
 => "Betty"
-irb(main):054:0> g.say_hi
+irb(main):054:0> greeter.say_hi
 Hi Betty!
 => nil
 {% endhighlight %}
@@ -132,7 +134,7 @@ Hi Betty!
 `attr_accessor` kullanarak iki yeni metot tanımlanmış olur, değeri
 okumak için `name` ve değeri değiştirmek için `name=` metotları.
 
-## Herşeyi ve Hiçbirşeyi Selamlamak, MegaGreeter Hiçbirini Atlamaz!
+## Herşeyi Selamlamak, MegaGreeter Hiçbirini Atlamaz!
 
 Bu selamlayıcı yeterince ilginç değil. Sadece bir kişi ile ilgileniyor.
 Eğer biz dünyayı, bir kişiyi yada kişiler listesinin hepsini

@@ -5,11 +5,11 @@ lang: tr
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
+    <a href="../" title="Kısım 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Kısım 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Kısım 3">3</a>
     <span class="separator"> | </span>
     <strong>4</strong>
   </div>
@@ -43,7 +43,7 @@ end
 {% endhighlight %}
 
 Bu betik nasıl cevap vereceğine karar vermek için `@names` değişkenine
-bakıyor. Eğer değişken boşsa üç nokta koyuyor, selamlanacak kimse yoksa
+bakıyor. Eğer değişken nil'se üç nokta koyuyor, selamlanacak kimse yoksa
 ne yapacak ki?
 
 ## Çevirmek, Döngü veya Yineleme
@@ -63,11 +63,12 @@ end
 {% endhighlight %}
 
 `each` metodu arkasından gelen kod bloğunu listenin her elemanı için
-çalıştırır. `do` ve `end` arasında kod bloğu yer alır. Liste elemanları
+çalıştırır. `do` ve `end` arasında kod bloğu yer alır. Blok, isimsiz
+fonksiyonlar ya da `lambda` gibidir. Liste elemanları
 tek tek bar karakterleri arasındaki değişkene konur ve kod işlenir.
 Sonra bir sonraki liste elemanına geçilir.
 
-Eğer isimleri bir liste içinde verirseniz ne olacak? `name` listenin
+Burada olan şudur: `name` listenin
 elemanlarına bağlanır ve `puts "Hello #{name}!"` satırı bu isimle
 çalışır.
 
@@ -92,9 +93,9 @@ okunaklı oluyor, Ruby yolu böyle olmalı. İçeride `each` metodu sırayla
 
 ## Bloklar, Ruby’nin En Işıldayan Özelliği
 
-Blokların bir şeyleri işlemekteki gücü listelerden daha karmaşıktır.
+Blokların bir şeyleri işlemekteki gücü listelerdekinden daha fazladır.
 Metodun içerisindekileri toparlamanın ötesinde, ayrıca kullanıcı farkında
-olmadan ayarlarlar, parçalama ve hatalarla ilgilenebilirsiniz.
+olmadan ayarlar, parçalama ve hatalarla ilgilenebilirsiniz.
 
 {% highlight ruby %}
 # Herkese hoşçakal de
@@ -111,12 +112,16 @@ end
 {% endhighlight %}
 
 `say_bye` metodu `each` kullanmaz onun yerine `@names` değişkeninin
-`join` metoduna cevap vermesini sınar ve kullanır. Diğer durumda liste
+`join` metoduna cevap vermesini sınar ve veriyorsa bu metodu kullanır. Diğer
+durumda bu değişken liste
 değil de string olarak işlenir. Bu metot, değişkenin orjinal *tipi* ile
 ilgilenmez `join` metoduna cevap veriyorsa `join` ile değişkeni işler,
 liste değil başka bir tipte değişken de `join` metoduna cevap verse onu
 da aynı şekilde işler. Buna “Duck Typing” denir, “eğer ördek gibi
-yürüyorsa ve ördek gibi ötüyorsa …” gibi bir şey.
+yürüyorsa ve ördek gibi ötüyorsa …” gibi bir şey. Bunun faydası, desteklenen
+değişken tiplerinin gereksiz yere kısıtlanmamasıdır. Eğer birisi yeni bir tür
+liste sınıfı ile gelirse, diğer listelerdeki aynı anlam ile `join` metodunu
+gerçeklediği sürece, her şey planlandığı gibi çalışacaktır.
 
 ## Betiğe Giriş
 
@@ -139,7 +144,8 @@ içindeki blok çalışmayacaktır. Ancak ve ancak bu dosya tek başına
 
 Ruby’ye hızlı bakış bu kadar. Daha Ruby’nin sunduğu incelenebilecek
 birçok değişik kontrol yapıları var; blokların ve `yield`in kullanımı,
-modüller ve dahası. Umarız bu anlattıklarımız sizde Ruby hakkında daha
+mixin olarak modüller ve dahası. Umarız bu anlattıklarımız sizde Ruby hakkında
+daha
 fazla şeyler öğrenmek için bir arzu yaratmıştır.
 
 Eğer öyleyse lütfen [Belgeler](/tr/documentation/) bölgesindeki ücretsiz

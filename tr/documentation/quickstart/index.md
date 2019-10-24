@@ -7,11 +7,11 @@ header: |
   <div class="multi-page">
     <strong>1</strong>
     <span class="separator"> | </span>
-    <a href="2/" title="Part 2">2</a>
+    <a href="2/" title="Kısım 2">2</a>
     <span class="separator"> | </span>
-    <a href="3/" title="Part 3">3</a>
+    <a href="3/" title="Kısım 3">3</a>
     <span class="separator"> | </span>
-    <a href="4/" title="Part 4">4</a>
+    <a href="4/" title="Kısım 4">4</a>
   </div>
   <h1>Yirmi Dakikada Ruby</h1>
 
@@ -20,9 +20,9 @@ header: |
 ## Giriş
 
 Bu tamamlaması 20 dakikadan fazla vakit almayacak küçük bir Ruby
-eğitmenidir. Halihazırda Ruby’nin sisteminizde kurul olduğunu kabul
+eğitmenidir. Halihazırda Ruby’nin sisteminizde kurulu olduğunu kabul
 eder. (eğer Ruby bilgisayarınızda yüklü değilse başlamadan önce
-[indirin](/tr/downloads/) ve kurun.)
+[kurun][installation].)
 
 ## İnteraktif Ruby
 
@@ -135,3 +135,5 @@ irb(main):009:0> Math.sqrt(a+b)
 
 Bir hesap makinası için oldukça yeterli. Klasik `Hello World` mesajından
 uzaklaşmaya başladık, [geri dönelim.](2/)
+
+[installation]: /tr/documentation/installation/
