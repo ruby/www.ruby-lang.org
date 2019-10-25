@@ -58,13 +58,13 @@ gem install rdoc -f
 ki bunda da güvenlik açığı vardır. Lütfen rdoc-6.1.2 ya da sonrasını
 kurduğunuza emin olun.
 
-Geliştirme sürümü için master dalının en son HEAD'ine güncelleyin. 
+Geliştirme sürümü için master dalının en son HEAD'ine güncelleyin.
 
 ## Teşekkür
 
 [Chris Seaton](https://hackerone.com/chrisseaton)'a güvenlik açıklarını bildirdiği için teşekkürler.
 
-## History
+## Geçmiş
 
 * İlk olarak 2019-08-28 09:00:00 UTC tarihinde yayınlandı
 * RDoc sürümü 2019-08-28 11:50:00 UTC tarihinde düzeltildi
