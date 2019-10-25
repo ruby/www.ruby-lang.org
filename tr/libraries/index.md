@@ -4,7 +4,7 @@ title: "Kütüphaneler"
 lang: tr
 ---
 
-Çoğu programlama dili gibi Ruby de geniş bir üçüncü taraf kütüphane kümesine
+Çoğu programlama dili gibi Ruby de geniş bir üçüncü parti kütüphane kümesine
 sahiptir.
 {: .summary}
 
@@ -76,7 +76,7 @@ arasında yerel bir arama gerçekleştirebilirsiniz.
 #### Bir gemi kurma
 
 Hangi gemi **kurmak** istediğinizi bildiğiniz zaman, mesela gözde Ruby on Rails
-çatısını:
+web çatısını:
 
 {% highlight sh %}
 $ gem install rails
@@ -111,7 +111,7 @@ Belgelendirme uçbiriminizin içinde mevcuttur:
 $ gem help
 {% endhighlight %}
 
-Örneğin, `gem help commands` çok kullanışlıdır, çünkü tüm `gem` komutlarının
+Örneğin `gem help commands` çok kullanışlıdır çünkü tüm `gem` komutlarının
 bir listesini çıktı olarak verir.
 
 #### Kendi geminizi yapma
