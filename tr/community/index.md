@@ -13,44 +13,47 @@ sahiptir.
 Eğer Ruby topluluğu ile içiçe olmak istiyorsanız, aşağıda bir kaç
 başlangıç önerisi var:
 
-[Ruby Türkiye](http://www.rubyturkiye.org/) (Türkçe)
-: Türkiye'deki Ruby programcıları ve Ruby severler topluluğudur.
-  Ruby ile program yazan ve ilgilenen herkese açıktır.
-
-[Ruby Kullanıcı Grupları](/en/community/user-groups/) (İngilizce)
+[Ruby Kullanıcı Grupları](user-groups/)
 : Yerel Ruby kullanıcı grubunuz olması, diğer Ruby programcıları ile
   iletişim kurmanız için ideal bir fırsattır. Ruby Kullanıcı Grupları
   aylık toplantılar, e-posta listeleri, bir web sitesi ve eğer
   şanslıysanız kodlama festivalleri gibi harika aktiviteler içerir.
 
-[Ruby Türkiye E-Posta Listesi](http://www.rubyturkiye.org/group) (Türkçe)
-: Ruby Türkiye Topluluğu E-Posta Listesi.
-
-[Ruby E-Posta Listeleri ve Haber Grupları](/en/community/mailing-lists/) (İngilizce)
+[Ruby E-Posta Listeleri ve Haber Grupları](mailing-lists/)
 : Ruby değişik dillerde ve çeşitli konularda kullanılan e-posta
   listelerine sahiptir. Eğer aklınızda Ruby ile ilgili bir soru varsa,
   e-posta listeleri cevap aramak için başvuracağınız ilk kaynaklardan
   biridir.
 
-[Ruby Türkiye IRC Kanalı](irc://irc.freenode.net/ruby-tr) (Türkçe)
+[Ruby Türkiye IRC Kanalı](irc://irc.freenode.net/ruby-tr)
 : Ruby Türkiye IRC Kanalı.
+
+[Ruby Türkiye Slack Kanalı][ruby-turkiye-slack]
+: Kendi dilinizde sohbet etmek için IRC kanalına alternatif olarak oldukça
+  popüler olan bu Slack kanalını da kullanabilirsiniz.
 
 [IRC’de Ruby (#ruby)](irc://irc.freenode.net/ruby) (İngilizce)
 : Ruby IRC Kanalı, diğer Ruby’cilerle sohbet etmek için harika bir
   yoldur.
 
-[Ruby Çekirdek](/en/community/ruby-core/) (İngilizce)
-: Ruby 2.0’ın yolda olduğu şu günlerde, Ruby’in gelişimini takip etmek
-  inanılmaz. Eğer siz de ilgileniyorsanız, buradan başlayabilirsiniz.
+[Ruby Çekirdek](ruby-core/)
+: Şimdi Ruby’nin gelişimini takip etmek için mükemmel bir zaman. Eğer Ruby'ye
+  yardım etmekle ilgileniyorsanız, buradan başlayın.
 
-[Ruby Hakkında Webloglar](/en/community/weblogs/) (İngilizce)
+[Ruby Hakkında Webloglar](weblogs/)
 : Ruby dünyasında, bloglarda konuşulmamış pek az şey vardır. Bu bölümde,
   sizi ortama ısıtacak önerilerden oluşan bir liste bulunuyor.
 
-[Ruby Konferansları](/en/community/conferences/) (İngilizce)
+[Ruby Konferansları](conferences/)
 : Dünya çapındaki Ruby programcıları, Ruby konferansları sayesinde
   Ruby’nin geleceğini tartışıyor, yenilikleri konuşuyor ve yeni
   gelenlerle kaynaşıyorlar.
+
+[Podcast'ler](podcasts/)
+: Ruby hakkındaki tartışmaları okumak yerine dinlemeyi tercih ediyorsanız,
+  bu müthiş Ruby podcast'lerinden birine girebilirsiniz. Bu Rubyciler, yeni
+  yayınları ve topluluk haberlerini paylaşmak, ve yoldaş Ruby geliştiricileri
+  ile görüşmek için podcast'lerini kullanırlar.
 
 Genel Ruby Kaynakları
 : * [Ruby Central][ruby-central]
@@ -62,3 +65,4 @@ Genel Ruby Kaynakları
 [ruby-central]: http://rubycentral.org/
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
 [rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-turkiye-slack]: https://rubytr.herokuapp.com/
