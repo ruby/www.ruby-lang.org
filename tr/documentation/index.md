@@ -97,7 +97,7 @@ isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
   tek site.
 
 [Ruby & Rails Aranabilir API Belgeleri][17]
-: Akıllı arama özellikleri olan Rails ve Ruby dökümantasyonu.
+: Akıllı arama özellikleri olan Rails ve Ruby belgelendirmesi.
 
 [APIdock][18]
 : Kullanıcı notları ile Ruby, Rails ve RSpec belgelendirmesi.
