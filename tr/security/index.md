@@ -19,7 +19,7 @@ Websitelerimizden birini etkileyen bir sorun bulduysanız, lütfen bunu
 [GitHub aracılığıyla](https://github.com/ruby/www.ruby-lang.org/issues/new)
 bildirin.
 
-Belirli bir Ruby gemini etkileyen bir sorun bulduysanız,
+Belirli bir Ruby gem'ini etkileyen bir sorun bulduysanız,
 [RubyGems.org'daki talimatları](http://guides.rubygems.org/security/#reporting-security-vulnerabilities)
 takip edin.
 
