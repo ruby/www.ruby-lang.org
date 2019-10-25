@@ -7,20 +7,20 @@ date: 2018-03-28 17:20:00 +0000
 lang: es
 ---
 
-Ruby 2.5.1 ha se liberado.
+Ruby 2.5.1 se ha liberado.
 
-Esta entrega contiene algunas correciónes de errores y seguridad.
+Esta entrega contiene algunas correciónes de errores y de seguridad.
 
-* [CVE-2017-17742: Divsiones de respuestas HTTP en WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
-* [CVE-2018-6914: Creacción involuntaria de archivos y direcotrios con traversa de directorio en tempfile y tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
-* [CVE-2018-8777: DoS por gran solicitud en WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
-* [CVE-2018-8778: Búfer subestimado en String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
-* [CVE-2018-8779: Creacción involuntaria de socket por byte NUL envenenado en UNIXServer y UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
+* [CVE-2017-17742: Divisiones de respuestas HTTP en WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
+* [CVE-2018-6914: Creación involuntaria de archivos y directorios por escalamiento de directorios en tempfile y tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
+* [CVE-2018-8777: DoS por solicitud muy grande en WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
+* [CVE-2018-8778: Lectura por debajo de un bufer en String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
+* [CVE-2018-8779: Creacción involuntaria de socket por envenenamiento con byte NUL en UNIXServer y UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
 * [CVE-2018-8780: Recorrido involuntario del directorio por el byte NUL envenenado en Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
 * [Vulnerabilidades múltiples en RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
-Hay algunas correciones de errors también.
-Puedes ver [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_5_1) para más detalles.
+Hay algunas correciones de errores también.
+Puede ver [las bitácoras de contribuciones](https://github.com/ruby/ruby/compare/v2_5_0...v2_5_1) para más detalles.
 
 ## Descargas
 
