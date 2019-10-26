@@ -52,6 +52,7 @@ Here are available installation methods:
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [Ruby Stack](#rubystack)
 * [Managers](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -265,6 +266,15 @@ project and other advantages but are not officially supported. You can
 however find support within their respective communities.
 
 
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] is an extendable version manager that can manage multiple
+language runtime versions on a per-project basis. You will need the
+[asdf-ruby][asdf-ruby] plugin (which in turn uses [ruby-build](#ruby-build))
+to install Ruby.
+
+
 ### chruby
 {: #chruby}
 
@@ -337,3 +347,5 @@ though, because the installed Ruby won't be managed by any tools.
 [installers]: /en/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
