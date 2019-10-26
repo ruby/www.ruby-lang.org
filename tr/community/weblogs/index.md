@@ -24,6 +24,9 @@ göze çarpmaktadır.
 
 * [**Ruby Weekly**][ruby-weekly]: Blogdan çok bir haber bülteni olsa da, Ruby
   Weekly, her hafta en dikkat çeken makale ve haberleri sunmaktadır.
+* [**DEV Ruby Etiketi**][dev-ruby-tag], DEV Topluluğu içinde Ruby ile
+  etiketlenmiş tüm gönderileri içerir. DEV, kod tartışan ve hakkında blog yazan
+  binlerce yazılım geliştiricinin bulunduğu bir ağdır.
 * [**Riding Rails**][riding-rails], Ruby on Rails ekibinin resmi grup bloğudur.
   Eğer Ruby on Rails koşuyorsanız, bu blog, güvenlik güncellemelerinin
   bildirilmesi ve geniş Rails topluluğunun genel görünümü konularında
@@ -42,6 +45,7 @@ paylaş!
 [rubyflow]: http://www.rubyflow.com/
 [rubyland]: http://rubyland.news/
 [ruby-weekly]: https://rubyweekly.com/
+[dev-ruby-tag]: https://dev.to/t/ruby
 [riding-rails]: http://weblog.rubyonrails.org/
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/
