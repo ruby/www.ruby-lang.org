@@ -50,7 +50,7 @@ Here are available installation methods:
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller and Ruby Stack](#railsinstaller)
+  * [Ruby Stack](#rubystack)
 * [Managers](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
@@ -245,15 +245,12 @@ to set up a full Ruby development environment.
 Just download it, run it, and you are done!
 
 
-### RailsInstaller and Ruby Stack
-{: #railsinstaller}
+### Ruby Stack
+{: #rubystack}
 
 If you are installing Ruby in order to use Ruby on Rails,
-you can use the following installers:
+you can use the following installer:
 
-* [RailsInstaller][railsinstaller] uses [RubyInstaller][rubyinstaller]
-  but gives you extra tools that help with Rails development. It
-  supports macOS and Windows.
 * [Bitnami Ruby Stack][rubystack] provides a complete development
   environment for Rails. It supports macOS, Linux, Windows, virtual
   machines, and cloud images.
@@ -329,7 +326,6 @@ though, because the installed Ruby won't be managed by any tools.
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
