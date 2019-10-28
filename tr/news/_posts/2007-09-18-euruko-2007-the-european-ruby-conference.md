@@ -1,11 +1,11 @@
 ---
 layout: news_post
 title: "Euruko 2007: Avrupa Ruby Konferansı"
-author: "Unknown Author"
+author: "james"
 lang: tr
 ---
 
-Avrupa Ruby Konferansı Euruko 2007 için hazırlıklar [başladı][1] .
+Avrupa Ruby Konferansı [Euruko 2007][1] için hazırlıklar başladı.
 
 Euruko 2007 Avusturya, Viyana’da 10-11 Kasım 2007 tarihlerinde
 gerçekleştirilecek.
