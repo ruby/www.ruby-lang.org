@@ -4,7 +4,7 @@ title: "A Ruby desde Python"
 lang: es
 ---
 
-Python es otro lenguaje de programación de propósito general 
+Python es otro lenguaje de programación de propósito general
 muy agradable. Al pasar de Python a Ruby encontrarás que hay un poco
 más de sintaxis por aprender que con Python.
 
@@ -26,7 +26,7 @@ salto de línea).
  `a3 = [ a1, a2 ]` crea un arreglo de arreglos).
 * Los objetos están fuerte y dinámicamente tipados.
 * Todo es un objeto, las variables son sólo referencias a objetos.
-* Anque las palabras claves son un poco diferentes, las excepciones 
+* Anque las palabras claves son un poco diferentes, las excepciones
   funcionan casi del mismo modo.
 * Tiene herramientas de documentación embebidas (la de Ruby se llama
   RDoc).
@@ -56,7 +56,7 @@ A diferencia de Python, en Ruby...
 * Los paréntesis en las llamadas a los métodos usualmente son opcionales
   y a menudo son omitidos.
 * Existen `public`, `private`, y `protected` para restringir el acceso a
-  métodos, en vez de la `_convencion_ __voluntaria__` de Python del 
+  métodos, en vez de la `_convencion_ __voluntaria__` de Python del
   guion bajo.
 * Se usan los “mixins” en vez de la herencia múltiple.
 * Puedes agregar o modificar los métodos de las clases nativas. Ambos
