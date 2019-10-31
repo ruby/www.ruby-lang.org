@@ -311,4 +311,3 @@ Ruby fue desarrollado primero por Matz (Yukihiro Matsumoto) en 1993, y ahora
 es desarrollado como Código Abierto.
 Corre en múltiples plataformas y se usa en todo el mundo especialmente
 para desarrollo web.
-
