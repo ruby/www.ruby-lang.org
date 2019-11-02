@@ -11,7 +11,7 @@ Ruby, temel olarak dört tane İngilizce konuşulan e-posta listesine sahiptir.
 
 Ruby-Talk
 : Bu, en popüler e-posta listesidir ve Ruby hakkında genel konuları kapsar.
-  ([Arşiv][3], [Gönderi Yönergeleri][guidelines])
+  ([Arşiv][3], [Gönderi Yönergeleri][guidelines], [Topluluk Arşivi][rubytalk])
 
 Ruby-Core
 : Bu liste, genelde gözden geçirme için yamaların koşulması için kullanılan
@@ -47,3 +47,4 @@ Eğer formu kullanarak bir onay e-postası alamadıysanız,
 [3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[rubytalk]: https://rubytalk.org/
