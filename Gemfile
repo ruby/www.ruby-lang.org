@@ -6,7 +6,7 @@ gem 'jekyll'
 gem 'rouge'
 
 gem 'unicorn'
-gem 'lanyon', git: "https://github.com/hsbt/lanyon", ref: "b84d5338b7e4138319311591c41ae41a66dcd3e8"
+gem 'lanyon'
 gem 'rack-rewrite'
 gem 'rack-ssl'
 gem 'rack-protection'
