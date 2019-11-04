@@ -59,6 +59,12 @@ class Linter
     @posts = @docs.select {|doc| doc.post? }
   end
 
+  def syntax_highlighting_message(language)
+    "wrong syntax highlighting: " +
+    "use '{% highlight #{language} %}...{% endhighlight %}' " +
+    "instead of '```#{language}' block"
+  end
+
   def check
     docs.each do |doc|
       errors[doc] << "missing or invalid lang variable"  if doc.lang_invalid?
@@ -66,6 +72,8 @@ class Linter
       errors[doc] << "no newline at end of file"  if doc.no_newline_at_eof?
       errors[doc] << "blank line(s) at end of file"  if doc.blank_line_at_eof?
       errors[doc] << "wrong line breaks (CR/LF)"  if doc.crlf_line_breaks?
+      errors[doc] << syntax_highlighting_message("ruby")  if doc.fenced_code?("ruby")
+      errors[doc] << syntax_highlighting_message("sh")  if doc.fenced_code?("sh")
 
       unless WHITESPACE_EXCLUSIONS.include?(doc.filename)
         errors[doc] << "trailing whitespace"  if doc.trailing_whitespace?

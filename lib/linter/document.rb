@@ -123,6 +123,10 @@ class Linter
       matchdata[:sha].size != 128
     end
 
+    def fenced_code?(language)
+      content.match?(/^ *``` *#{language}$/)
+    end
+
     private
 
     def read_yaml_and_content(filename)

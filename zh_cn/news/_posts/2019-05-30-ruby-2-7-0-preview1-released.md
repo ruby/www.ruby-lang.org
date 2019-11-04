@@ -28,13 +28,13 @@ lang: zh_cn
 
 在函数式编程中非常常用的模式匹配功能，作为实验性功能被加入了。[#14912](https://bugs.ruby-lang.org/issues/14912) 它可以遍历一个对象，并在其满足某一模式时进行赋值。
 
-```ruby
+{% highlight ruby %}
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-```
+{% endhighlight %}
 
 关于更多信息，请查阅 [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)。
 

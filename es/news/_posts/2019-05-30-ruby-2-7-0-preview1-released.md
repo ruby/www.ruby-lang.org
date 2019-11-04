@@ -30,7 +30,7 @@ El método `GC.compact` se introduce para compactar el montón (heap). Esta func
 El reconocimiento de patrones, es una característica ampliamente usada en lenguajes de programación funcional, se introduce como característica experimental.  [#14912](https://bugs.ruby-lang.org/issues/14912)
 Puede recorrer un objeto dado y asignar su valor si concuerda con un patrón.
 
-```ruby
+{% highlight ruby %}
 json ='{
 	"nombre": "Alice",
 	"edad": 30,
@@ -45,7 +45,7 @@ case JSON.parse(json, symbolize_names: true)
 in {nombre: "Alice", hijos: [{nombre: "Bob", edad: edad}]}
   p edad
 end
-```
+{% endhighlight %}
 
 Puede ver más detalles en [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
 

@@ -36,13 +36,13 @@ fungsional, dikenalkan sebagai sebuah fitur eksperimental. [#14912](https://bugs
 Ini dapat melewati sebuah objek dan menetapkan nilanya jika cocok dengan sebuah
 pola.
 
-```ruby
+{% highlight ruby %}
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-```
+{% endhighlight %}
 
 Untuk lebih detail, mohon lihat [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
 
