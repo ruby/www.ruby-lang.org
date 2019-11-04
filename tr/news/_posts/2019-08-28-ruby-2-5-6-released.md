@@ -15,7 +15,7 @@ konulara bakın.
 
 * [RDoc'ta birden çok jQuery güvenlik açığı](/tr/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-Ayrıntılar için [işleme logu](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6)na bakın.
+Ayrıntılar için [işleme günlüğü](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6)na bakın.
 
 ## İndirin
 
