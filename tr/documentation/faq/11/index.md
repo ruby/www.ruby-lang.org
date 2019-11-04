@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Official Ruby FAQ"
-lang: en
+lang: tr
 
 header: |
   <div class="multi-page">
