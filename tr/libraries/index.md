@@ -75,8 +75,7 @@ arasında yerel bir arama gerçekleştirebilirsiniz.
 
 #### Bir gemi kurma
 
-Hangi gemi **kurmak** istediğinizi bildiğiniz zaman, mesela gözde Ruby on Rails
-web çatısını:
+Gözde Ruby on Rails web çatısını **kurmak** istiyorsunuz diyelim, o zaman şu komutu vermelisiniz:
 
 {% highlight sh %}
 $ gem install rails
