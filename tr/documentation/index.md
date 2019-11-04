@@ -10,7 +10,7 @@ referanslar ve diğer belgeleri bulacaksınız.
 
 ### Ruby'yi Kurma
 
-[Ruby'yi tarayıcınızda kolayca deneme][1] imkanınız olsa da, Ruby'yi kurmak
+[Ruby'yi tarayıcınızda kolayca deneyebilecek olsanız da][1], Ruby'yi kurmak
 isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
 
 ### Başlangıç
