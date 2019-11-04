@@ -12,10 +12,10 @@ Ruby 2.4.8 yayınlandı.
 Bu sürüm güvenlik düzeltmeleri içermektedir.
 Ayrıntılar için lütfen aşağıdaki konulara bakın.
 
-* [CVE-2019-16255: Shell#[] ve Shell#test'in bir kod enjeksiyonu güvenlik açığı]({% link en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
-* [CVE-2019-16254: WEBrick'te HTTP yanıtı ayırma (Ek düzeltme)]({% link en/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
-* [CVE-2019-15845: File.fnmatch ve File.fnmatch?'in bir NUL enjeksiyonu güvenlik açığı]({% link en/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
-* [CVE-2019-16201: WEBrick'in Özet erişim kimlik doğrulamasında Düzenli İfade Hizmet Reddi güvenlik açığı]({% link en/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
+* [CVE-2019-16255: Shell#[] ve Shell#test'in bir kod enjeksiyonu güvenlik açığı]({% link tr/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
+* [CVE-2019-16254: WEBrick'te HTTP yanıtı ayırma (Ek düzeltme)]({% link tr/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
+* [CVE-2019-15845: File.fnmatch ve File.fnmatch?'in bir NUL enjeksiyonu güvenlik açığı]({% link tr/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
+* [CVE-2019-16201: WEBrick'in Özet erişim kimlik doğrulamasında Düzenli İfade Hizmet Reddi güvenlik açığı]({% link tr/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
 
 Ruby 2.4 artık güvenlik sürdürmesi sürecinde, Mart 2020'nin sonuna kadar.
 Bu tarihten sonra Ruby 2.4'ün sürdürülmesi sonlandırılacak.
