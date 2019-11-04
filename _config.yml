@@ -99,6 +99,21 @@ locales:
         url:  /es/security
       - text: Acerca de Ruby
         url:  /es/about
+    fa:
+      - text: دانلودها
+        url:  /fa/downloads
+      - text: مستندات
+        url:  /fa/documentation
+      - text: کتابخانه‌ها
+        url:  /fa/libraries
+      - text: جامعه
+        url:  /fa/community
+      - text: اخبار
+        url:  /fa/news
+      - text: امنیت
+        url:  /fa/security
+      - text: درباره روبی
+        url:  /fa/about
     fr:
       - text: Téléchargements
         url:  /fr/downloads
@@ -293,6 +308,8 @@ locales:
       cx_id: "013598269713424429640:g5orptiw95w"
     es:
       text: Buscar
+    fa:
+      text: جستجو
     fr:
       text: Recherche
       cx_id: "016749562256550695330:efcmgh3a1ac"
@@ -326,6 +343,7 @@ locales:
     de: "Der beste Freund eines Programmierers"
     en: "A Programmer's Best Friend"
     es: "El mejor amigo de un desarrollador"
+    fa: "بهترین دوست برنامه نویس"
     fr: "A Programmer's Best Friend"
     id: "Sahabat Terbaik Programmer"
     it: "Il migliore amico dei programmatori"
@@ -344,6 +362,7 @@ locales:
     de: "Ruby"
     en: "Ruby"
     es: "Ruby"
+    fa: "روبی"
     fr: "Ruby"
     id: "Ruby"
     it: "Ruby"
@@ -362,6 +381,7 @@ locales:
     de: [Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
     en: [January, February, March, April, May, June, July, August, September, October, November, December]
     es: [Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
+    fa: [ژانویه, فوریه, مارس, آوریل, مه, ژوئن, جولای, اوت, سپتامبر, اکتبر, نوامبر, دسامبر]
     fr: [Janvier, Février, Mars, Avril, Mai, Juin, Juillet, Août, Septembre, Octobre, Novembre, Décembre]
     id: [Januari, Februari, Maret, April, Mei, Juni, Juli, Agustus, September, Oktober, November, Desember]
     it: [Gennaio, Febbraio, Marzo, Aprile, Maggio, Giugno, Luglio, Agosto, Settembre, Ottobre, Novembre, Dicembre]
@@ -376,6 +396,7 @@ locales:
     de: "Geschrieben von AUTHOR am %-d.%-m.%Y"
     en: "Posted by AUTHOR on %-d %b %Y"
     es: "Publicado por AUTHOR el %Y-%m-%d"
+    fa: "ارسال شده توسط AUTHOR در تاریخ %-d %b %Y"
     fr: "Posté par AUTHOR le %Y-%m-%d"
     id: "Ditulis oleh AUTHOR tanggal %Y-%m-%d"
     it: "Inserito da AUTHOR il %Y-%m-%d"
@@ -394,6 +415,7 @@ locales:
     de: "Übersetzt von"
     en: "Translated by"
     es: "Traducción de"
+    fa: "ترجمه شده توسط"
     fr: "Traduit par"
     id: "Diterjemahkan oleh"
     it: "Tradotto da"
@@ -424,6 +446,10 @@ locales:
       title: Noticias de Ruby por RSS
       description: Las últimas noticias de ruby-lang.org en español.
       lang_code: es-ES
+    fa:
+      title: اخبار روبی
+      description: آخرین اخبار از ruby-lang.org.
+      lang_code: fa-IR
     fr:
       title: Actualités de Ruby-lang
       description: Les dernières news sur ruby-lang.org.
@@ -521,6 +547,18 @@ locales:
       yearly_archives: Noticias por año
       monthly_archives: Noticias por mes
       yearly_archive_link: "Noticias de %Y"
+      monthly_archive_link: "%B %Y"
+    fa:
+      other_news: سایر اخبار
+      more_news: اخبار بیشتر...
+      continue: در ادامه بخوانید...
+      back_to_year: "بازگشت به بایگانی %Y"
+      recent_news: آخرین اخبار
+      yearly_archive_title: "بایگانی %Y"
+      monthly_archive_title: "بایگانی %Y %B"
+      yearly_archives: بایگانی سالیانه
+      monthly_archives: بایگانی ماهانه
+      yearly_archive_link: "بایگانی %Y"
       monthly_archive_link: "%B %Y"
     fr:
       other_news: Autres actualités
@@ -904,6 +942,66 @@ locales:
         recent_news:
           text: En español
           url: /es/feeds/news.rss
+    fa:
+      get_started:
+        text: <strong>شروع کنید</strong>، آسان است!
+        try_ruby:
+          text: روبی را امتحان کن! (در مرورگر خود)
+          <<: *try_ruby
+        quickstart:
+          text: روبی در ۲۰ دقیقه
+          url: /fa/documentation/quickstart/
+        ruby_from_other_languages:
+          text: روبی از زبان‌های دیگر
+          url: /fa/documentation/ruby-from-other-languages/
+      explore:
+        text: <strong>کاوش</strong> در دنیای جدید…
+        documentation:
+          text: مستندات
+          url: /fa/documentation/
+        # books:
+        #   text: کتاب‌ها
+        rubybib:
+          text: تحقیقات دانشگاهی
+          <<: *rubybib
+        libraries:
+          text: کتابخانه‌ها
+          url: /fa/libraries/
+        success_stories:
+          text: داستان‌های موفقیت
+          url: /fa/documentation/success-stories/
+      participate:
+        text: <strong>مشارکت</strong> در یک جامعه دوستانه و رو به رشد.
+        mailing_lists:
+          text: فهرست‌های ایمیل
+          url: /fa/community/mailing-lists/
+          description: |
+            در مورد روبی با برنامه نویسان سراسر جهان صحبت کنید.
+        user_groups:
+          text: گروه‌های کاربری
+          url: /fa/community/user-groups/
+          description: |
+            با Rubyists در منطقه خود تماس بگیرید.
+        weblogs:
+          text: وبلاگ‌ها
+          url: /fa/community/weblogs/
+          description: |
+            اطلاعات بیشتر در مورد آنچه که الان در جامعه روبی اتفاق می‌افتد.
+        ruby_core:
+          text: هسته روبی
+          url: /fa/community/ruby-core/
+          description: |
+            Help polish the rough edges of the latest Ruby.
+        issue_tracking:
+          text: ردیابی موضوع
+          url: https://bugs.ruby-lang.org/
+          description: |
+            گزارش یا کمک به حل مسائل در روبی.
+      syndicate:
+        text: سندیکا
+        recent_news:
+          text: آخرین اخبار (آر‌اس‌اس)
+          url: /fa/feeds/news.rss
     fr:
       get_started:
         text: <strong>Lancez-vous</strong>, c’est facile !
@@ -1644,6 +1742,15 @@ locales:
       subscribe: Subscribe
       unsubscribe: Unsubscribe
       submit: Enviar
+    fa:
+      list: Mailing List
+      first_name: نام
+      last_name: نام خانوادگی
+      email: آدرس ایمیل
+      action: عمل
+      subscribe: اشتراک
+      unsubscribe: لغو اشتراک
+      submit: ثبت فرم
     fr:
       list: Liste de diffusion
       first_name: Prénom
@@ -1757,7 +1864,8 @@ locales:
     bg: "Този сайт на други езици:"
     de: "Diese Website in anderen Sprachen:"
     en: "This site in other languages:"
-    fr: "Autres langues disponibles :"
+    fa: "این سایت به زبان‌های دیگر:"
+    fr: "Autres langues disponibles :"
     id: "Situs ini dalam bahasa lain:"
     it: "Questo sito in altre lingue:"
     pl: "Ta strona w innych językach:"
@@ -1782,6 +1890,9 @@ locales:
       Si quieres contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       si tienes preguntas o comentarios.
+    fa: |
+      <a href="/fa/about/website/">این وب‌سایت</a>
+      با افتخار توسط اعضای جامعه روبی نگهداری می‌شود.
     fr: |
       Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Il est fièrement maintenu par des membres de la communauté Ruby.

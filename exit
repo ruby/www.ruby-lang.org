@@ -1,0 +1,2270 @@
+[33mcommit e9d6c7f949df32300bc052e6136d26308ec6e70e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Goudarz <goudarz.jafari@gmail.com>
+Date:   Fri May 31 15:17:11 2019 +0430
+
+    Added Persian translation
+
+[33mcommit dbb60a67a884c871a39d109da99de9cdf992a3b6[m
+Merge: d9405276 4e65b7c2
+Author: Goudarz Jafari <goudarz.jafari@gmail.com>
+Date:   Sun Mar 24 03:02:26 2019 +0430
+
+    Merge pull request #2 from ruby/master
+    
+    update repo
+
+[33mcommit 4e65b7c20147586fd5b873f5cd7dddce862823db[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Sat Mar 23 19:39:32 2019 +0900
+
+    Update documents (ko) (#2011)
+    
+    * Backport #1682 (ko)
+    
+    * Backport #1681 (ko)
+    
+    * Backport da7c5408a5a6fb2d5c79555cb28700c096d578ba (ko)
+    
+    Ref: #1958
+    
+    * Add RubyConferences.org
+    
+    * Update ko/community/conferences/index.md
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit f867117c1e220a9de9999cc39e4cb0c4de413fd0[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Sat Mar 23 19:28:00 2019 +0900
+
+     Translate 2019-03-05-multiple-vulnerabilities-in-rubygems.md (ko) (#2012)
+    
+    * cp {en,ko}/news/_posts/2019-03-05-multiple-vulnerabilities-in-rubygems.md
+    
+    * Translate 2019-03-05-multiple-vulnerabilities-in-rubygems.md
+    
+    * Apply suggestions from code review
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+    
+    * Omit some text.
+
+[33mcommit 9528fa34dd1856b36947f2b352147d7a7c3284db[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Sat Mar 23 19:27:22 2019 +0900
+
+    Translate ruby 2.5.5 release note (ko) (#2014)
+    
+    * Import origin article
+    
+    * Translate ruby 2.5.5 release note
+    
+    * Update ko/news/_posts/2019-03-15-ruby-2-5-5-released.md
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit 30c73e610b47c64b623c3a5f78badccf107d5fc6[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Sat Mar 23 17:17:52 2019 +0900
+
+    Translate ruby 2.5.4/2.6.2 release note (ko) (#2013)
+    
+    * Import origin articles
+    
+    cp {en,ko}/news/_posts/2019-03-13-ruby-2-5-4-released.md
+    cp {en,ko}/news/_posts/2019-03-13-ruby-2-5-4-released.md
+    
+    * Translate ruby 2.5.4/2.6.2 release note
+
+[33mcommit 6be0ae7fb9debc835985a19b2926373eda1c34a8[m
+Merge: 6ea14a82 72fc7d21
+Author: David Padilla <david@padilla.cc>
+Date:   Thu Mar 21 11:12:16 2019 -0600
+
+    Merge pull request #2010 from vtamara/es-20190305-rubygems
+    
+    Translation of 2019-03-05-multiple-vulnerabilities-in-rubygems (es)
+
+[33mcommit 72fc7d210cdbc2bd8d49dcff92fb45230c8e0656[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Wed Mar 20 21:28:47 2019 -0500
+
+    Translation of 2019-03-05-multiple-vulnerabilities-in-rubygems (es)
+
+[33mcommit 6ea14a821c0d1893deee6c98437f54c65810eb47[m
+Author: Vincent Lin <bugtender@gmail.com>
+Date:   Thu Mar 7 17:04:14 2019 +0800
+
+    Translate 2019-03-05 Multiple vulnerabilities in RubyGems (zh_tw)
+
+[33mcommit 7f34146884267e2f386469d5bd0a91fded24c905[m
+Author: Kuniaki IGARASHI <igaiga@gmail.com>
+Date:   Tue Mar 19 08:52:34 2019 +0900
+
+    Add WSL in en/documentation/installation
+
+[33mcommit ed84088a60e617472e09d0a2fc57cd94fe9a1aa8[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 18 08:57:20 2019 +0900
+
+    typo
+
+[33mcommit db16d6e041d8788995b9013b21f8aab46d1ddb31[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 18 08:52:43 2019 +0900
+
+    Move to before_install.
+
+[33mcommit 239eeaac2a72a231107a7f8c2a228f14727c15f6[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 18 08:50:09 2019 +0900
+
+    Support Bundler 2.
+
+[33mcommit 50f6bf598ce026cb9dd67f2f32138d0736d7f1c2[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 18 08:47:35 2019 +0900
+
+    bump version on Travis CI.
+
+[33mcommit 97c943c69845973f3d94bfdae556a02cc912e00f[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 18 08:31:39 2019 +0900
+
+    update bundles and ruby version.
+
+[33mcommit f8a7982951bdb794cc3cff8b34c656c00268a2c6[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Mar 16 15:51:58 2019 +0100
+
+    Drop parallel build jobs on Travis CI
+    
+    For now it doesn't make sense, because build duration is not shortened
+    noticeably. The `test` task usually runs for only just under a second
+    (but as separate job adds about one minute of total runtime for setup).
+
+[33mcommit 4ca5fe19b3024d4b28259226e55714d1e3fb2799[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Mar 16 14:30:11 2019 +0100
+
+    Small improvements in 2.5.5 post (ja)
+
+[33mcommit 54c33961abeddf2ab7741cbc59a21de7029e207e[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 15 15:13:36 2019 +0100
+
+    Small improvements in 2.5.5 post (en)
+
+[33mcommit 6b1634b152e298f63ba5f19e2dc528ab8a0d83e4[m
+Merge: 08db24f7 21f5b200
+Author: nagachika <nagachika@ruby-lang.org>
+Date:   Fri Mar 15 11:10:40 2019 +0900
+
+    Merge pull request #2005 from nagachika/release_2_5_5
+    
+    Add release notes for 2.5.5.
+
+[33mcommit 21f5b2003db0b6c85f88f695e07e67b44bb14224[m
+Author: Chikanaga Tomoyuki <t-chikanaga@groovenauts.jp>
+Date:   Fri Mar 15 09:38:05 2019 +0900
+
+    Add release notes for 2.5.5.
+
+[33mcommit 08db24f75f17c13fb625931196c430dafd7905b1[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Thu Mar 14 14:52:21 2019 +0100
+
+    Translate Ruby 2.6.2 released (de)
+
+[33mcommit e24eb606e1223a4e428338fbe9f178450b0f8320[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Thu Mar 14 14:52:14 2019 +0100
+
+    Translate Ruby 2.5.4 released (de)
+
+[33mcommit 5c142322c69242ba55d128f450b3cd7a972f921d[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Thu Mar 14 14:52:02 2019 +0100
+
+    Translate RubyGems vulnerabilities post (de)
+
+[33mcommit fa3ef0dcd70a3a589be23321fe133f206b7139b3[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 21:39:00 2019 +0100
+
+    Mark bg, fr, it, ru, vi as unmaintained
+    
+    * add unmaintained notice
+    * do not redirect there from /index.html
+    * update language list for translation_status tag
+
+[33mcommit baefd72dbabe5c59a08eef28c94e40a073bf1320[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 21:38:48 2019 +0100
+
+    Do not redirect to unmaintained translations
+    
+    Do not automatically redirect from /index.html to unmaintained
+    or outdated translations. Currently this affects pl, tr.
+    
+    Related to #1828.
+
+[33mcommit 405929d8f38bab4fe4147222b353537c9058e70c[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 21:38:39 2019 +0100
+
+    Remove unmaintained notice for pt
+
+[33mcommit 218d5569e9dbf7219e657acefcef0f6061ae1bad[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 21:38:29 2019 +0100
+
+    Remove unmaintained notice for id
+
+[33mcommit 348885026bbbf61527a7025acf4d17bf4fb3984d[m
+Merge: e19302df 7b7bdec0
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 21:23:01 2019 +0100
+
+    Merge pull request #1997 from sho-h/add_2.6_rurema_link
+    
+    Add a link to rurema for Ruby 2.6.0 (ja)
+
+[33mcommit e19302df6c4d5c5b09a185e89298980e186c4cbf[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 14:56:25 2019 +0100
+
+    Update gem bundle
+
+[33mcommit e94406b23ba3e27d7267f15b43691af628414e90[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 14:45:20 2019 +0100
+
+    Fix grammar in news posts (en)
+
+[33mcommit 38e65bfa5a49cc8d068757d95609bb1b5355c2d7[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Mar 13 14:40:43 2019 +0100
+
+    Add newlines
+
+[33mcommit 8f324ed68229fb9a4c19e5e4d373b7ebb7b94bd1[m
+Merge: e218bf24 da7c635d
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Wed Mar 13 21:31:56 2019 +0900
+
+    Merge pull request #2004 from ruby/fix_typo_in_ruby_2_6_2_releasenotes
+    
+    Fix typo in commit log links.
+
+[33mcommit da7c635db790d6ed246ce2883b5ba116a1591cb5[m
+Author: Chikanaga Tomoyuki <nagachika@ruby-lang.org>
+Date:   Wed Mar 13 21:24:58 2019 +0900
+
+    Fix typo in commit log links.
+
+[33mcommit e218bf24326b177270bc1ae102bb2fdc704fda65[m
+Author: nagachika <nagachika@ruby-lang.org>
+Date:   Wed Mar 13 20:16:06 2019 +0900
+
+    Update en/news/_posts/2019-03-13-ruby-2-6-2-released.md
+    
+    fix author
+    
+    Co-Authored-By: nurse <nurse@users.noreply.github.com>
+
+[33mcommit 1c8a85805eb027320dc2119d2ce5eb1cff9ad334[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Wed Mar 13 20:08:34 2019 +0900
+
+    Ruby 2.6.2 released
+
+[33mcommit cb2cd1263be2efc92a482a73a21e91c334a1d9c1[m
+Merge: 7560b1bd dced8d87
+Author: nagachika <nagachika@ruby-lang.org>
+Date:   Wed Mar 13 20:32:11 2019 +0900
+
+    Merge pull request #2002 from nagachika/release_2.5.4
+    
+    Release 2.5.4
+
+[33mcommit dced8d87d3981db3f4981a814326530e3232a1db[m
+Author: Chikanaga Tomoyuki <nagachika@ruby-lang.org>
+Date:   Wed Mar 13 19:58:13 2019 +0900
+
+    Fix typos.
+
+[33mcommit 20a399fd447b20b35e3cebd20a20edb95d6515f4[m
+Author: Chikanaga Tomoyuki <nagachika@ruby-lang.org>
+Date:   Wed Mar 13 19:42:41 2019 +0900
+
+    Update _data/releases.yml and _data/downloads.yml
+
+[33mcommit ed3a28378a37f6b40ef06de5a4e80795e79c2462[m
+Author: Chikanaga Tomoyuki <nagachika@ruby-lang.org>
+Date:   Wed Mar 13 19:38:34 2019 +0900
+
+    Add release notes for ruby 2.5.4.
+
+[33mcommit 6076694972892cb1a1693134fee72b0be5f33a7c[m
+Author: Chikanaga Tomoyuki <nagachika@ruby-lang.org>
+Date:   Wed Mar 13 19:33:32 2019 +0900
+
+    Add fixed rubygems version 2.7.6.2 in Workarounds section.
+
+[33mcommit 7560b1bdda368f683ff9d819fe8a225f6df4fa55[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Mar 11 20:31:04 2019 +0100
+
+    Remove dead link to MORPHA
+    
+    The site of the MORPHA project is no longer available under this URL
+    and the domain is not even related to the project anymore.
+    
+    Closes #1845
+
+[33mcommit d229628f43e6ecf8d916f863c25268ec1649695b[m
+Merge: da7c5408 69b5892b
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 11 14:20:51 2019 +0900
+
+    Merge pull request #1993 from alaxalves/travis-improv
+    
+    Paralleling Travis jobs to shorten build duration
+
+[33mcommit 7b7bdec0c17663ebdcfb6c0ce8be4293589f587b[m
+Author: Sho Hashimoto <sho.hsmt@gmail.com>
+Date:   Mon Mar 11 09:42:24 2019 +0900
+
+    Change listing order. Make newer versions upper.
+
+[33mcommit 32f55d6f8b47ba0263fa30cf3525942745fd24ae[m
+Author: Sho Hashimoto <sho.hsmt@gmail.com>
+Date:   Sun Mar 10 16:56:01 2019 +0900
+
+    Add a link to rurema for Ruby 2.6.0 (ja)
+
+[33mcommit 69b5892bf6c65d2d8bf3b25e8581189bc3dc21db[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 8 22:47:51 2019 +0100
+
+    Simplify build matrix for Travis CI
+
+[33mcommit da7c5408a5a6fb2d5c79555cb28700c096d578ba[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 8 22:15:24 2019 +0100
+
+    Remove defunct conference sites (en)
+    
+    Closes #1958
+    
+    Co-authored-by: Jacob Herrington <jacobherringtondeveloper@gmail.com>
+
+[33mcommit b0fc2a7098ba42c6eee308aa86bafc1b59d7e3e2[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 8 22:06:16 2019 +0100
+
+    Remove dead link to blastwave.org
+    
+    Closes #1860
+
+[33mcommit 9124a20b4f78bd615f0213c95bf0c9a8c3b8cdbf[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 8 21:58:26 2019 +0100
+
+    Use named link references on community page
+
+[33mcommit 118909f9021a77d67508cc5bbffbac7bc16ca8fa[m
+Author: BannerGames <davidandrade339@gmail.com>
+Date:   Fri Jul 20 21:28:12 2018 +0100
+
+    Translate Ruby 2.2 EOL post (pt)
+    
+    Closes #1818
+    
+    Co-authored-by: Marcus Stollsteimer <sto.mar@web.de>
+    Co-authored-by: Júlio Campos <jcserracampos@gmail.com>
+    Co-authored-by: Alax Alves <alaxallves@gmail.com>
+
+[33mcommit 58f2af25dfe081bd014cf6f8f1cc1e413f6606c5[m
+Merge: 3901bf1d b26c5feb
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 8 08:37:25 2019 +0100
+
+    Merge pull request #1466 olivierlacan/podcasts
+    
+    Add Podcasts section to Community
+    
+    Conflicts:
+      en/community/index.md (outdated URLs)
+
+[33mcommit 3901bf1d4a97e03084dec948321d9bb0d7a38a03[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Fri Mar 8 08:34:25 2019 +0100
+
+    Use named link references on community page (en)
+
+[33mcommit a3b31d305ef74e6d22672408a120d2ccfb65ccfd[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 8 08:30:16 2019 +0100
+
+    Add newline after YAML front matter
+
+[33mcommit e2b3274573cfeb94f8f003f6ef5ef15647c4f319[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Mar 8 08:29:40 2019 +0100
+
+    Use untranslated 'SIZE' in download section (es)
+
+[33mcommit 3de10c19b94b1a0292c6facd6be9e818e93eb08a[m
+Merge: b72499bc faaecfc5
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Fri Mar 8 09:03:42 2019 +0900
+
+    Merge pull request #1996 from stomar/update-history
+    
+    Mention updated patches in news post history
+
+[33mcommit faaecfc5c5c0f6beb06f1001ffd8c3c793353c0a[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Thu Mar 7 19:37:42 2019 +0100
+
+    Mention updated patches in news post history
+
+[33mcommit b72499bcfe2645ff19fcd82a722841da35fcfdf8[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Wed Mar 6 14:26:27 2019 +0900
+
+    Update urls for the latest patch
+
+[33mcommit e3caede3377cfb6618091e3a2d1697b4c9e747b8[m
+Author: Alax Alves <alaxallves@gmail.com>
+Date:   Tue Mar 5 22:44:59 2019 -0300
+
+    Making bundle cache work properly
+
+[33mcommit 18e17f9e4119c48bac39be02235660c764a8f8b0[m
+Author: Alax Alves <alaxallves@gmail.com>
+Date:   Tue Mar 5 22:28:42 2019 -0300
+
+    Paralleling Travis jobs to shorten build duration
+
+[33mcommit ffe9e474fe3255a292faac8fcf6514ddfff29b22[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Tue Mar 5 22:24:36 2019 +0100
+
+    Small improvements on blogs page (en)
+    
+    Fix questionable statement in summary (replacing "past year"
+    with "past years"), and typos.
+
+[33mcommit 167e93910936ae3b8fc134d2176f7791d0b610ba[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Tue Mar 5 22:06:10 2019 +0100
+
+    Small improvements on installation page (en)
+    
+    Remove reference to latest macOS to avoid having to update it;
+    improve snap section; other small fixes.
+
+[33mcommit 379e180226bacd54ddeb6a4dafa56241382104ff[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Tue Mar 5 21:49:21 2019 +0100
+
+    Use named link reference for recently added link
+
+[33mcommit cf032c821d0e85a0a4b396d026eccb39f67aabaa[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Tue Mar 5 21:35:08 2019 +0100
+
+    Small fix in news post (en)
+
+[33mcommit 907980a835da2a5541c0de9538e3d06232f3bcdb[m
+Merge: bc7c7eca 944a697e
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Tue Mar 5 15:49:19 2019 +0900
+
+    Merge pull request #1991 from stomar/use-ruby-2.6.1
+    
+    Use Ruby 2.6.1
+
+[33mcommit bc7c7ecad4cef92c6980bd43e4f55de3ec7a3e74[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Tue Mar 5 12:34:43 2019 +0900
+
+    Update the wrong version of RG 2.7.x and the revision of trunk branch.
+
+[33mcommit 02b7079b039f998bcf88957d1858c817c2424719[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Tue Mar 5 09:16:30 2019 +0900
+
+    oops
+
+[33mcommit ed4d7a21cd6b72e95694de814814b3d0bb83f9cf[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Tue Mar 5 09:06:18 2019 +0900
+
+    Update patch link with bugs.ruby-lang.org.
+
+[33mcommit 8f11fef7298968c5597283b0a0c252cb73001e31[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 18:02:57 2019 +0900
+
+    Revert to mention the released version of Ruby.
+
+[33mcommit e2f18e4bb2204d32f73b78412be0e8ff16627253[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 11:11:09 2019 +0900
+
+    Security Advisories for RubyGems Mar, 2019.
+
+[33mcommit 944a697e3a3d21c646ab3aaa422ec6d26057097a[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Mar 4 22:22:21 2019 +0100
+
+    Use Ruby 2.6.1
+
+[33mcommit 2bcc020a21c6603ba5b717991e51a23ade9eda05[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Mar 4 22:15:05 2019 +0100
+
+    Remove HOST constant
+    
+    HOST was only used by validate-website-static via the check:markup task,
+    but it has no significance, since the task checks the local files and not
+    the specified URL.
+
+[33mcommit 455e796d20d93793022c90f67ca4e4a6ddef66c1[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Mar 4 16:05:57 2019 +0100
+
+    Drop mention of specific Ruby versions (en) (#1681)
+
+[33mcommit 3cac2f50c1384a25eb8b9296e5b746a56a9592c7[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Mar 4 15:48:38 2019 +0100
+
+    Fix typo (en)
+
+[33mcommit 6fc0cdd5f46debecb1226daa6f94554df59c5509[m
+Merge: f2bf13ee d0cbdb32
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 13:00:03 2019 +0900
+
+    Merge pull request #1988 from znz/revive-yaml-front-matter
+    
+    Revive YAML front matter
+
+[33mcommit d0cbdb32665864929c618ac1c80e223af31250c3[m
+Author: Kazuhiro NISHIYAMA <zn@mbf.nifty.com>
+Date:   Mon Mar 4 11:22:18 2019 +0900
+
+    Revive YAML front matter
+    
+    to enable liquid tags again.
+    This partially reverts 2c8ff6b80a1d8fb2b8b86e38996fdd7e6b8c491d.
+
+[33mcommit f2bf13ee6189fa4b9f033d5f2f3f3ac48b73b452[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 11:10:41 2019 +0900
+
+    update bundles
+
+[33mcommit 1179e693a79f0ee64b18888091b375761c53b5f1[m
+Merge: 5dae4fd9 2c8ff6b8
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 10:59:28 2019 +0900
+
+    Merge pull request #1987 from spk/fix-markup-issues
+    
+    Fix markup issues
+
+[33mcommit 5dae4fd98fd3067362ff965390f056d88777d8a2[m
+Merge: 1f5e3048 8a558839
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 10:58:51 2019 +0900
+
+    Merge pull request #1978 from ismailarilik/fix-meaning-of-description
+    
+    Fix meaning of language description in main page (tr)
+
+[33mcommit 1f5e30482b7f9dc7d8adc427ccde58bf64d8d283[m
+Merge: 578c091b 17059f34
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 10:58:35 2019 +0900
+
+    Merge pull request #1976 from ismailarilik/add-necessary-suffix
+    
+    Add necessary suffix (tr)
+
+[33mcommit 578c091be7d0f60c8a6dd2397ab7cc0a5e878a3a[m
+Merge: ffba6ad8 4ee1fd32
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 10:57:34 2019 +0900
+
+    Merge pull request #1944 from infertux/add-fr-mirror
+    
+    Add French mirror (HTTP, HTTPS and rsync)
+
+[33mcommit ffba6ad82088c3cfcca3fb1b8314d73a92aa9fae[m
+Merge: 9feddd17 f088a9ed
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 10:54:57 2019 +0900
+
+    Merge pull request #1843 from jcserracampos/fukuokarubyaward2018
+    
+    Translate 2018 Fukuoka Ruby Award Competition (pt)
+
+[33mcommit 9feddd1751a71d6f557c3234bb1fdf7ccf945726[m
+Merge: 660a8159 6320b95e
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Mon Mar 4 10:51:46 2019 +0900
+
+    Merge pull request #1682 from stomar/solaris-en
+    
+    Remove Solaris section from installation page (en)
+
+[33mcommit 2c8ff6b80a1d8fb2b8b86e38996fdd7e6b8c491d[m
+Author: Laurent Arnoud <laurent@spkdev.net>
+Date:   Sun Mar 3 16:23:28 2019 +0100
+
+    Fix tidy js check
+    
+    ref https://github.com/htacg/tidy-html5/issues/65
+
+[33mcommit f386e7f9720f3224ed07a40c28888c42f61caf15[m
+Author: Laurent Arnoud <laurent@spkdev.net>
+Date:   Sun Mar 3 16:11:56 2019 +0100
+
+    Fix uri encoding
+    
+    >> URI.encode "https://www.google.com/maps/search/松江テルサ/@35.463976,133.062015,14z?hl=ja"
+    => "https://www.google.com/maps/search/%E6%9D%BE%E6%B1%9F%E3%83%86%E3%83%AB%E3%82%B5/@35.463976,133.062015,14z?hl=ja"
+
+[33mcommit a44c5af2f3ed2fb446e48d0178db0ff9c7a18c53[m
+Author: Laurent Arnoud <laurent@spkdev.net>
+Date:   Sun Mar 3 16:11:11 2019 +0100
+
+    Fix missing open code tag
+
+[33mcommit 660a8159bdee73f1c56e25bf667872c6dea4511c[m
+Author: Vincent Lin <bugtender@users.noreply.github.com>
+Date:   Mon Feb 25 09:44:37 2019 +0800
+
+    Remove useless backspace in posts (zh_tw, zh_cn) (#1986)
+
+[33mcommit 5db6009dd330ae56797c0355434d38ded634c1f8[m
+Author: İsmail Arılık <arilik.ismail@gmail.com>
+Date:   Mon Feb 25 02:36:39 2019 +0300
+
+    Fix typo in installation page (ko) (#1984)
+
+[33mcommit 8a558839967960d7821e2853457d963851cfb319[m
+Author: İsmail Arılık <arilik.ismail@gmail.com>
+Date:   Sat Feb 23 14:42:04 2019 +0300
+
+    Fix meaning of language description in main page (tr)
+
+[33mcommit 17059f34db45eeead056338d8d60218b4d04c360[m
+Author: İsmail Arılık <arilik.ismail@gmail.com>
+Date:   Sat Feb 23 12:47:18 2019 +0300
+
+    Add necessary suffix (tr)
+
+[33mcommit c50956c36e6d66c438504ec1aacfc975fae25484[m
+Author: Chayoung You <yousbe@gmail.com>
+Date:   Thu Feb 21 09:31:05 2019 +0900
+
+    Update translation of downloads page (ko) (#1975)
+
+[33mcommit b2cf27fdad276eb754c4be2f145d92c572d161a8[m
+Author: Vincent Lin <bugtender@gmail.com>
+Date:   Wed Feb 20 18:11:06 2019 +0800
+
+    Update Download Ruby page (zh_tw, zh_cn)
+
+[33mcommit 824ddc013d4cae5a13a442efe7bdf0e5e465abc4[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Thu Feb 14 15:38:43 2019 +0100
+
+    Use named link references
+    
+    Partially revert 1171065 and d4e30a683 to use named link references
+    for Atom, and restore previous order of the references;
+    also introduce named link references for VS code.
+
+[33mcommit c3fe63969513de1214ce2e6497fc22ee159acdb0[m
+Author: Chayoung You <yousbe@gmail.com>
+Date:   Tue Feb 12 12:05:13 2019 +0900
+
+    Rephrase copy on the blog page (ko) (#1972)
+
+[33mcommit d4e30a683194e6695b766092aac83924d2d10b99[m
+Author: Jacob Herrington <jacobherringtondeveloper@gmail.com>
+Date:   Sun Feb 10 08:02:28 2019 -0600
+
+    Editor list fixes in more languages (id, ja, ko, pt, vi, zh_cn, zh_tw) (#1968)
+    
+    * Remove duplicate instances of Atom (vi)
+    
+    * Add VS Code to editors (vi)
+    
+    * Move extensions link (vi)
+    
+    * Remove multiple instances of Atom (ja)
+    
+    * Add VS Code to editor list (ja)
+    
+    * Remove duplicate instances of Atom (tw)
+    
+    * Add VS Code to editor list (tw)
+    
+    * Remove duplicate instances of Atom (cn)
+    
+    * Add VS Code to editor list (cn)
+    
+    * Remove duplicate instances of Aton (pt)
+    
+    * Add VS Code to editor list (pt)
+    
+    * Remove duplicate instances of Atom (ko)
+    
+    * Move extensions link (ko)
+    
+    * Add VS code to editor list (ko)
+    
+    * Remove duplicate instances of Atom (id)
+    
+    * Move extensions link (id)
+    
+    * Add VS code to editor list (id)
+
+[33mcommit 4eef1d373cbc54bf2e97398b35da6f23a9a30ce9[m
+Author: Vincent Lin <bugtender@gmail.com>
+Date:   Sun Feb 10 19:15:13 2019 +0800
+
+    Add the link to the Ruby Bibliography in the sidebar (zh_tw, zh_cn)
+
+[33mcommit 147cf89e8510939643a29c52cc20f370309b61e8[m
+Author: jacobherrington <jacobherringtondeveloper@gmail.com>
+Date:   Sat Feb 9 12:26:25 2019 -0600
+
+    Fix dmoz.org links
+    
+    dmoz.org is no longer active. dmoztools.net still hosts a lot of the
+    same content. This commit updates those links.
+
+[33mcommit 6358ecb254d0312d0e1a1f5c92e7613dc36a1c81[m
+Author: Jacob Herrington <jacobherringtondeveloper@gmail.com>
+Date:   Sat Feb 9 05:58:17 2019 -0600
+
+    Update dmoz.org to dmoztools.net on community page (en) (#1966)
+    
+    * Update dmoz.org to dmoztools.net
+    
+    dmoz.org is no longer operating, but the information is still available
+    on dmoztools.net. I think it's worth considering changing these
+    resources out for more modern ones.
+    
+    * Add https to links and fix broken dmztools.net link
+
+[33mcommit 117106587e2f0c98b6b643ce69855b764ffff631[m
+Author: Jacob Herrington <jacobherringtondeveloper@gmail.com>
+Date:   Sat Feb 9 05:56:43 2019 -0600
+
+    Fixes Editor list on documentation page  (en) (#1965)
+    
+    * Standardize editor links
+    
+    Atom was using a different style for the markdown link than the other
+    editors, so I changed it to be consistent.
+    
+    * Move extensions link due to it's uniqueness
+    
+    * Add VS Code to cross platform editors
+    
+    * Remove multiple links to Atom
+    
+    Atom should be listed only once on the cross-platform list
+
+[33mcommit 4b192570d10e2a24b49df9b07f270261820c0073[m
+Author: jacobherrington <jacobherringtondeveloper@gmail.com>
+Date:   Fri Feb 8 09:11:22 2019 -0600
+
+    Rephrase copy on the blog page (en)
+    
+    The copy on this page had a bit of odd phrasing. These changes make more
+    sense to me.
+
+[33mcommit f22ca9c53260ce0f89f1809bb210430e19d51bf9[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Feb 8 14:20:41 2019 +0100
+
+    Add newlines
+
+[33mcommit 97c48651ef1def20266ebf4fd55d365d7304d718[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Fri Feb 8 16:34:55 2019 +0900
+
+    Add known problem section to 2.6.0 release post (ko) (#1962)
+    
+    * Add known problem section
+    
+    Ref: https://github.com/ruby/www.ruby-lang.org/pull/1953/files#diff-75096a7d388db30daf2a0bcdcf0a035b
+    
+    * Better korean sentence
+
+[33mcommit 0c72b6e2418494bca5e0e9e04024b628e28a7882[m
+Merge: 7bf7df86 9aaf816b
+Author: Andrias Meisyal <andriasonline+github@gmail.com>
+Date:   Wed Feb 6 13:51:14 2019 +0700
+
+    Merge pull request #1961 from meisyal/ruby-2.6.0-rc2-news
+    
+    Translate Ruby 2.6.0-rc2 released news (id)
+
+[33mcommit 9aaf816b9b354ad32875b8ec184c6d651520cf1d[m
+Author: Andrias Meisyal <andriasonline@gmail.com>
+Date:   Tue Feb 5 20:55:33 2019 +0700
+
+    Translate Ruby 2.6.0-rc2 released news (id)
+
+[33mcommit 7bf7df8695f0d79039048069035b351a243227fc[m
+Author: Tadashi Saito <tad.a.digger@gmail.com>
+Date:   Thu Jan 31 00:29:38 2019 +0900
+
+    Add a item to sync with English version announcement of Ruby 2.6.1
+
+[33mcommit 543830cccbdd82622ec6f89d648e456fc98ec065[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Mon Feb 4 01:03:55 2019 +0900
+
+    Translate 2.6.1 Release Post (zh_cn)
+
+[33mcommit 966a4d221857b07e463d1e3cfe35018be1b05037[m
+Author: Vincent Lin <bugtender@gmail.com>
+Date:   Fri Feb 1 01:56:43 2019 +0800
+
+    Translate Ruby 2.6.1 Released (zh_tw)
+
+[33mcommit c38799a198ba05afc491e7852c81523a602bee87[m
+Author: Chayoung You <yousbe@gmail.com>
+Date:   Fri Feb 1 09:58:33 2019 +0900
+
+    Translate Patch Writer's Guide (ko) (#1952)
+    
+    * Translate Patch Writer's Guide (ko)
+    * Apply reviews
+
+[33mcommit ac8eeb6da0303aa81a4981497092e1fa1defe47f[m
+Merge: 44dc0b0b 813f6374
+Author: David Padilla <david@padilla.cc>
+Date:   Thu Jan 31 17:50:05 2019 -0600
+
+    Merge pull request #1956 from vtamara/es-20190130-ruby-2-6-1
+    
+    Translate Ruby 2.6.1 (es)
+
+[33mcommit 44dc0b0b56ba4edb9f1b6bbd79a1725c7ee25629[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Thu Jan 31 15:00:50 2019 +0100
+
+    Translate 2.6.1 release post (de)
+
+[33mcommit 813f6374beb8f2cb17d577fed4c292238f7c5255[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Thu Jan 31 07:44:03 2019 -0500
+
+    Translate Ruby 2.6.1 (es)
+
+[33mcommit eaf295f51ce9b7ffa29f35b02e189762efd476e9[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Thu Jan 31 16:46:23 2019 +0900
+
+    Translate ruby 2.6.1 release news (ko) (#1955)
+    
+    * Copy origin news
+    
+    * Translate ruby 2.6.1 release news (ko)
+    
+    * Update ko/news/_posts/2019-01-30-ruby-2-6-1-released.md
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit 8f0d8c2bd0edc24950eabb1282a808e14dda8c2c[m
+Merge: 2cde0d44 4bd41f08
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Wed Jan 30 21:29:29 2019 +0900
+
+    Merge pull request #1953 from nurse/ruby-2-6-1-released
+    
+    Ruby 2.6.1 Released
+
+[33mcommit 4bd41f0862390e3c698e9919e64afe4afe152291[m
+Author: Samuel Williams <samuel.williams@oriontransfer.co.nz>
+Date:   Thu Jan 31 01:12:51 2019 +1300
+
+    Fix formatting.
+
+[33mcommit 894ec6e7751785b782ec2cbddcb8d93cbcb6d8ae[m
+Author: Samuel Williams <samuel.williams@oriontransfer.co.nz>
+Date:   Thu Jan 31 01:11:23 2019 +1300
+
+    Hot topic first then see others.
+
+[33mcommit 26f8db9b88d8446efd1a99b3ab649780b89a9e98[m
+Author: Oshan Wisumperuma <warunaoshan@gmail.com>
+Date:   Mon Jan 28 14:52:05 2019 +0530
+
+    Update 2018-12-25-ruby-2-6-0-released.md
+    
+    ruby/ruby#2058
+
+[33mcommit 5b4396bebd59e7aa5b5f7106d5d25d643ffc9006[m
+Author: Samuel Williams <samuel.williams@oriontransfer.co.nz>
+Date:   Thu Jan 31 01:05:30 2019 +1300
+
+    Add notable changes/fixes.
+
+[33mcommit 2d90aff31c27614ed715bf4faf759ebfd47a452d[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Wed Jan 30 20:01:05 2019 +0900
+
+    Ruby 2.6.1 Released
+
+[33mcommit 2cde0d4464d2ec3b32a1ba94445e33f6d1ff1edc[m
+Merge: fe09aede 537ababb
+Author: Sorah Fukumori <sora134@gmail.com>
+Date:   Sun Jan 27 20:41:40 2019 +0900
+
+    Merge pull request #1950 from miyohide/patch-4
+    
+    Add posts about Rubima 0059 published (ja)
+
+[33mcommit 537ababb6206a37a76188eeab030773b74570c91[m
+Author: miyohide <miyohide@gmail.com>
+Date:   Sun Jan 27 09:28:42 2019 +0900
+
+    Add posts about Rubima 0059 published (ja)
+    
+    RubiMa Editors have released Rubyist Magazine 0059 (in japanese).
+
+[33mcommit fe09aedecd335e1ea31fca29f25eafac2bff4d04[m
+Author: Andrias Meisyal <andriasonline@gmail.com>
+Date:   Fri Nov 30 06:24:14 2018 +0700
+
+    Translate Ruby 2.5.3 released news (id)
+
+[33mcommit 48f03b32459bb99bf2bcbeae8373aced9208809c[m
+Author: Andrias Meisyal <andriasonline@gmail.com>
+Date:   Sat Nov 17 22:48:55 2018 +0700
+
+    Translate Ruby 2.3.8 released news (id)
+
+[33mcommit 37b9f9bf4b8331d0d63cd9a12cb6f9f62aa70dfd[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Wed Jan 23 10:52:47 2019 +0900
+
+    Translate 2.6.0 Released Post (zh_cn) (#1927)
+
+[33mcommit a35bad79ec90e4b8a281614d95a6028ce6b9e708[m
+Author: Andrias Meisyal <andriasonline@gmail.com>
+Date:   Sun Dec 30 15:16:39 2018 +0700
+
+    Translate 2019 Fukuoka Ruby Award Competition post (id)
+
+[33mcommit 5e68a22ff611c1a47d893009c32946c5fb2bd2dc[m
+Author: Andrias Meisyal <andriasonline+github@gmail.com>
+Date:   Tue Jan 22 10:52:00 2019 +0700
+
+    Translate the official ruby snap news post (id) (#1919)
+
+[33mcommit 6a4069736afabed620b5200743bda7b80493fc3b[m
+Author: Vincent Lin <bugtender@gmail.com>
+Date:   Sun Jan 20 23:49:24 2019 +0800
+
+    Translate Ruby 2.6.0 Released post (zh_tw)
+
+[33mcommit 3d8dd1b2800ec5e1b028d668a6ec772bb3f74262[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Jan 20 16:42:29 2019 +0100
+
+    Remove MacRuby from about page (translations)
+
+[33mcommit 81f6058cca50bd1adf482ecbfccac397b12b986f[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Jan 20 16:18:20 2019 +0100
+
+    Add newlines
+
+[33mcommit 5ddf5cd51488bd723b3f73a7c7d97941dd32bcbf[m
+Author: Andrias Meisyal <andriasonline+github@gmail.com>
+Date:   Sun Jan 20 20:43:03 2019 +0700
+
+    Translate Ruby 2.6.0-rc1 released news (id) (#1945)
+
+[33mcommit d110924ee592ef6bab9afc6ea391e9a1409d3c9a[m
+Author: Vinicius Brasil <vnbrs@icloud.com>
+Date:   Sun Jan 20 11:41:44 2019 -0200
+
+    Translate Fukuoka Ruby Award 2019 post (pt) (#1937)
+    
+    Translate pt/news/_posts/2018-11-29-fukuoka-ruby-award-2019.md
+    
+    Co-Authored-By: vnbrs <vnbrs@icloud.com>
+    Co-Authored-By: Júlio Campos <jcserracampos@gmail.com>
+
+[33mcommit c3e2ff68a287740572cf659336f55ec8158a98bf[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Tue Jan 15 23:54:17 2019 +0900
+
+    Translate Ruby Community Conduct Guideline (ko) (#1946)
+    
+    * Copy original article
+    
+    * Translate Ruby Community Conduct Guideline(ko)
+    
+    * Apply suggestions from code review
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit 7a0e41bec13cb65a3dd9012d3b1546f66495432c[m
+Author: Vincent Lin <bugtender@gmail.com>
+Date:   Sat Jan 12 20:12:50 2019 +0800
+
+    Update translation of Documentation (zh_tw)
+
+[33mcommit 6900c10b75c0038e64c4150ccd80103014317b7f[m
+Author: Vinicius Brasil <vnbrs@icloud.com>
+Date:   Wed Jan 9 00:32:23 2019 +0000
+
+    Translate Ruby Snap post (pt) (#1940)
+    
+    * Translate 2018 Nov Ruby Snap post (pt)
+    
+    Co-Authored-By: vnbrs <vnbrs@icloud.com>
+
+[33mcommit 669538a74d96b11a7cc3031fd176f062ee3469bd[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Sat Dec 29 19:33:01 2018 +0900
+
+    Translate 2.6.0-rc2 released news (zh_tw)
+
+[33mcommit f35e71090cc5e78a7efe64f506b88cf48e32ad5a[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Mon Dec 31 10:36:19 2018 +0900
+
+    Translate Ruby 2.6.0-rc1 Released Post (zh_tw)
+
+[33mcommit 4ee1fd324b04ca4bdba2ed3d42a9bbd1d08a85a1[m
+Author: Cédric Félizard <cedric@felizard.fr>
+Date:   Thu Jan 3 10:20:50 2019 +0000
+
+    Add French mirror (HTTP, HTTPS and rsync)
+
+[33mcommit 5f9f13ace38ac91760466820c71464e6700efad7[m
+Author: Andrias Meisyal <andriasonline+github@gmail.com>
+Date:   Wed Jan 2 20:59:35 2019 +0700
+
+    Update success stories (id) (#1844)
+
+[33mcommit 003344c4670fa9b3710a0320f60e2564194d1f4f[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Tue Jan 1 22:49:33 2019 +0900
+
+     Translate snap article (ko) (#1943)
+    
+    * Import Original diff
+    
+    * Translate snap article (ko)
+    
+    * Apply suggestions from code review
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit 0328087520358160abda366c3e9ed7e761b3220f[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Tue Jan 1 12:52:16 2019 +0900
+
+    Update blog section (ko) (#1942)
+    
+    * %s/웹로그/블로그/
+    
+    * Sync up Original post
+    
+    * Follow up blog section update (ko)
+    
+    Follow up https://github.com/ruby/www.ruby-lang.org/pull/1889
+    
+    * Backport of #1941
+    
+    * Use single quote
+    
+    * Apply suggestions from code review
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+    
+    * Better translation
+
+[33mcommit f3c342483067fea19b30039faaa15bc0347927e6[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Tue Jan 1 11:23:31 2019 +0900
+
+    Add link for Ruby Weekly (#1941)
+
+[33mcommit e72d59b11ef642478c3ceacc2b66490ee20262e5[m
+Author: Samuel Williams <samuel.williams@oriontransfer.co.nz>
+Date:   Wed Dec 26 13:22:08 2018 +1300
+
+    Adjust CSS for code (#1933)
+    
+    Make font size of code the same as of parent element.
+
+[33mcommit 1bc734ebbf7baf4d1702c6427af64ea21266d0b4[m
+Merge: df8d016f 90c52536
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 23:15:55 2018 +0100
+
+    Merge pull request #1936 from vnbrs/patch-2
+    
+    Update about/website/index.md with supporting orgs (pt)
+
+[33mcommit df8d016f031f84bcd0f6f7ae567f237ce40c5c01[m
+Merge: 5373a5a2 8f9e9203
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 22:46:28 2018 +0100
+
+    Merge pull request #1939 from stomar/linter-check-sha-sums
+    
+    Add Linter test for SHA sum lengths
+
+[33mcommit 8f9e920331437b698ddb3d1b67faeb6ad3611faa[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 21:12:05 2018 +0100
+
+    Fix SHA512 sums in Ruby 2.4.0-preview3 post (pt)
+
+[33mcommit 99880bb4db08c2d3d81d8e3ddfe0c9d1e33b46ab[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 21:11:18 2018 +0100
+
+    Fix SHA512 sum in Ruby 2.6.0-rc1 posts
+
+[33mcommit 5a34b3b436e6229a4a40e23be0dbf91b56b1ff3e[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 21:10:16 2018 +0100
+
+    Small change in layout of SHA sums in some old posts
+    
+    Small format change to avoid Linter errors for some old release posts.
+    The previous format caused errors because of the seemingly missing
+    SHA sum (which is given in the following line of the definition list).
+    Removing the ':' after 'SHA256' makes the Linter ignore these sums.
+
+[33mcommit 51580e535b7246f43a6b2034c9b0d60bed81d64e[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 21:09:16 2018 +0100
+
+    Add test for SHA sum lengths
+    
+    Check for wrong SHA sum lengths in release posts, an error that
+    happens from time to time (mainly truncated or wrapped SHA512).
+
+[33mcommit 6144c5c48da1733e46c6675a13d96f8a829ca4b0[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 21:08:05 2018 +0100
+
+    Fix line breaks for SHA sums in some old posts
+    
+    Drop nonessential line breaks in markdown source of
+    some old release posts for easier parsing of SHA sums.
+
+[33mcommit 1ba26514a3b4cbe8e88b71a83e91830a46e20502[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 21:07:03 2018 +0100
+
+    Never exit on errors during Linter test runs
+    
+    Always set +exit_on_errors+ to false for Linter test runs,
+    even for test cases that should not cause errors, to avoid
+    stopping test runs and silencing (unexpected) error messages
+    during development.
+
+[33mcommit 2bc187be5366d076dbe9e9f55740c2c82a0bf222[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Dec 30 21:06:13 2018 +0100
+
+    Add minitest to development group
+    
+    For Linter tests with 'bundle exec ruby test/test_linter.rb'.
+
+[33mcommit 5373a5a207681366fbe57108a748c634d37679fe[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 29 17:42:33 2018 +0100
+
+    Fix SHA512 sums in Ruby 2.6.0 post (es)
+
+[33mcommit 092c8c84b823b5925058dfb8da56a2f07d19f5aa[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 29 10:02:47 2018 +0100
+
+    Fix SHA512 sums in Ruby 2.6.0 post (ja)
+
+[33mcommit 90c52536f25a934dcc64c222a460fbd5f0af2c19[m
+Author: Vinicius Brasil <vnbrs@icloud.com>
+Date:   Fri Dec 28 10:17:47 2018 -0200
+
+    Update URL reference order to match en version (pt)
+
+[33mcommit fd1ae53d21941dae7423a02bfe49a30b4816b7d6[m
+Merge: d769dd58 cdb8e2c6
+Author: David Padilla <david@padilla.cc>
+Date:   Thu Dec 27 14:11:39 2018 -0700
+
+    Merge pull request #1932 from vtamara/es-20181225-ruby-2-6-0
+    
+    Translation of 2018-12-25-ruby-2-6-0-released.md (es)
+
+[33mcommit 506f2a4866e798ce738d3d7bfc0abb047b8dfd52[m
+Author: Vinicius Brasil <vnbrs@icloud.com>
+Date:   Wed Dec 26 22:14:22 2018 -0200
+
+    Remove trailing spaces
+
+[33mcommit c97165bbcc493c83a95091f1d64a9be771c3ac5c[m
+Author: Vinicius Brasil <vnbrs@icloud.com>
+Date:   Wed Dec 26 21:12:30 2018 -0200
+
+    Update about/website/index.md with supporting orgs (pt)
+
+[33mcommit d769dd58e1ee7c69362a16c38a180a18df0a9ef1[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Thu Dec 27 08:02:12 2018 +0900
+
+    Follow up 43399ee (#1935)
+    
+    Follow up 43399ee (ko)
+
+[33mcommit cdb8e2c6681b1c14632b6675c23024e5c72c28b1[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Tue Dec 25 16:00:57 2018 -0500
+
+    Translation of 2018-12-25-ruby-2-6-0-released.md (es)
+
+[33mcommit bc01381b8270d76424eec5b8ee2d4cf7f72af2ea[m
+Merge: c8e9589b fd3d543a
+Author: David Padilla <david@padilla.cc>
+Date:   Wed Dec 26 13:03:19 2018 -0700
+
+    Merge pull request #1923 from vtamara/es-20181215-2-6-0-rc2
+    
+    Translation of 2018-12-15-ruby-2-6-0-rc2-release (es)
+
+[33mcommit c8e9589b9aded39fb96afb91007df388eb36ec31[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Wed Dec 26 13:01:22 2018 +0100
+
+    Translate 2.6.0 release post (de)
+
+[33mcommit 43399ee7c0dd1a310d839101623d97e1892fe32b[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Dec 26 10:02:09 2018 +0100
+
+    Small improvements in 2.6.0 post (en)
+
+[33mcommit 6f1061ecacb4f2817dce12044118d87a86dfc785[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Dec 26 09:16:41 2018 +0100
+
+    Fix sha512 sums in Ruby 2.6.0 post (ko)
+
+[33mcommit 26e3629b8b3b855966120960010ec7e491a9a606[m
+Merge: 2f4cc3e6 fdba9b9b
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Wed Dec 26 17:02:26 2018 +0900
+
+    Merge pull request #1930 from vnbrs/patch-2
+    
+    Fix Ruby 2.6 release post typo
+
+[33mcommit 2f4cc3e69c51de85655b5ec5600c85b46d3aeaa0[m
+Merge: c3a14589 e73d4c1b
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Wed Dec 26 17:01:56 2018 +0900
+
+    Merge pull request #1934 from epistrephein/fix-2.6-branches-status
+    
+    Remove duplicate `status` and use expected `date` key for 2.6 branch
+
+[33mcommit c3a145897b03970fa78b469a3ece1c43e234ddf5[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Wed Dec 26 16:36:45 2018 +0900
+
+     Translate Ruby 2.6.0 Release (ko) (#1928)
+    
+    * Copy from original news
+    
+    * Translate Ruby 2.6.0 Release (ko)
+    
+    * Apply suggestions from code review
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+    
+    * More natural explanation
+    
+    * Apply Suggestion
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit a763274efd88580046234bece7dfe0ca51762bff[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Dec 26 08:23:07 2018 +0100
+
+    Fix sha512 sums in Ruby 2.6.0 post (en)
+
+[33mcommit e73d4c1b0e81cc286442069305188aa3392eab81[m
+Author: epistrephein <epistrephein@gmail.com>
+Date:   Wed Dec 26 08:19:02 2018 +0100
+
+    Use date key instead of status for release date
+
+[33mcommit 845d4983279672a6c48e4fc45c87a500c70e91f4[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Wed Dec 26 08:17:32 2018 +0100
+
+    Fix date field for Ruby 2.6 series
+
+[33mcommit fdba9b9bc1c336994bb002b4e7592fcc03290c43[m
+Author: Vinicius Brasil <vnbrs@icloud.com>
+Date:   Tue Dec 25 14:28:16 2018 -0200
+
+    Fix Ruby 2.6 release post typo
+
+[33mcommit c1299d04044dba5d9a1a8e917ce420f306817a4d[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Tue Dec 25 22:08:27 2018 +0900
+
+    Translate Ruby 2.6.0-rc2 released (zh_cn) (#1921)
+
+[33mcommit c3db46db02084897562e0100245d2f746ff34989[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Tue Dec 25 18:52:44 2018 +0900
+
+    Translate 2.6.0-rc{1,2} release (ko) (#1924)
+    
+    * Copy original news
+    
+    * [KO] Translate 2.6.0-rc{1,2} release
+    
+    * Fix to use 2.6.0
+    
+    * Follow up f8e7266
+    
+    * Apply suggestions from code review
+    
+    Apply reviews
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+    
+    * Use 11, not 11.0.0
+    
+    * better korean
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit 68a659ed37888caaf50129d2b862676b0f3b21ee[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Tue Dec 25 17:40:00 2018 +0900
+
+    Translate fukuoka-ruby-award 2019 (ko) (#1925)
+    
+    * Copy original news
+    
+    * [KO] Translate fukuoka-ruby-award 2019
+    
+    * s/여러분에게/여러분께/
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+    
+    * Better korean
+    
+    /대회에 참가하는 것은/대회참가는/
+    
+    * Fix to correct year
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+    
+    * Fix to correct year (2)
+    
+    Co-Authored-By: riseshia <rise.shia@gmail.com>
+
+[33mcommit 4b65379f81c3a70eb9d016c9bf67fb112393cbac[m
+Merge: df17fd69 0f574345
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Tue Dec 25 16:37:40 2018 +0900
+
+    Merge pull request #1926 from nurse/ruby-2-6-0-released
+    
+    Ruby 2.6.0 Released
+
+[33mcommit 0f5743456952e2d28fc9287535cc6e99aaee2530[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Tue Dec 25 16:26:27 2018 +0900
+
+    update shortstat
+
+[33mcommit 5739e20f4ac94d577dd80d07b37dcbc93909335a[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Tue Dec 25 16:22:51 2018 +0900
+
+    fix missing version
+
+[33mcommit 1ad3dd1bff49a12cf92f4741b4119b33dbb4b9ce[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Tue Dec 25 15:55:47 2018 +0900
+
+    Ruby 2.6.0 Released
+
+[33mcommit df17fd69d1ff4e405c97732e944337f1b8324613[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Dec 24 12:22:13 2018 +0100
+
+    Improvements in Ruby 2.6.0-rc2 post (de)
+
+[33mcommit fe3c5d73d30c8114949eee92bb8b93551f3d2fc1[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Dec 24 12:16:45 2018 +0100
+
+    Small improvements in Ruby 2.6.0-rc2 post (en)
+
+[33mcommit f8e7266e51d4ff00e3456d38a58c9f69cb944dfd[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Mon Dec 24 12:02:32 2018 +0100
+
+    Imrovements in Ruby 2.6.0-rc2 post (en)
+
+[33mcommit 764f649e0443af2cd4196f5789b4cf152dd8832d[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Sun Dec 23 22:08:06 2018 +0900
+
+    [KO] Follow up changes of #1877 (#1879)
+    
+    * [KO] Follow up changes of #1877
+    
+    Ref: https://github.com/ruby/www.ruby-lang.org/pull/1877
+    
+    * Add faq
+    
+    * Add C API reference
+    
+    * Add Atom to list
+    
+    * Translate FreeBSD
+    
+    Ports Collection from
+    https://docs.freebsd.org/doc/10.3-RELEASE/usr/local/share/doc/freebsd/ko/articles/contributing/ports-contributing.html
+    
+    * Add missing text
+    
+    * Use 모하브 as Mojave translation
+    
+    * Follow up dc375e4aa909ce78d9cfb019a4a81940086830cf
+    
+    * Prefer 가상 머신 than 가상 기기 for virtual machine
+    
+    * Fix more
+    
+    * Use korean link
+
+[33mcommit d3d96e59317231d25888f5de9e98adeb2315fddd[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Dec 21 00:12:46 2018 +0100
+
+    Fix typos in Ruby 2.6.0-rc2 post (de)
+
+[33mcommit 8c21be1fb4158d28e4e9a3170450c1a5f33d5063[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Dec 21 00:08:11 2018 +0100
+
+    Imrovements in Ruby 2.6.0-rc2 post (en)
+
+[33mcommit b272b60dfd0fffa1243eaaba5e59cc48a4933aff[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Thu Dec 20 16:04:59 2018 +0100
+
+    Translate 2.6.0-rc2 release (de)
+
+[33mcommit fd3d543a4a7b7434cf4cbf593a74590bc263615c[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Wed Dec 19 14:09:24 2018 -0500
+
+    Translation of 2018-12-15-ruby-2-6-0-rc2-release (es)
+
+[33mcommit f145587990ad04fed15bf44587a4b43beb87b266[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 15 21:45:57 2018 +0100
+
+    Small fix in snap post (de)
+
+[33mcommit af2733ed1a439307a483f273b7f09d18574da122[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 15 21:43:06 2018 +0100
+
+    Various improvements in snap post (en)
+
+[33mcommit eabc38210dbabeea261ab58689f887ef18e94bbe[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 15 21:26:09 2018 +0100
+
+    Rewrap snap post (en)
+
+[33mcommit 805b0a02d7e95a4c857d7d3e80d6c2f7c9cef8a5[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 15 21:11:25 2018 +0100
+
+    Fix date and link for Ruby 2.6.0-rc1
+
+[33mcommit 91a70cef90e24623e3f99240a459530991d4e2e5[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 15 21:10:31 2018 +0100
+
+    Fix typo (zh_cn)
+
+[33mcommit 0a656877802e352b3d333c8e77fd9d32358db2a3[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sat Dec 15 21:09:40 2018 +0100
+
+    Add newlines
+
+[33mcommit 9abb25a0d5c5024d7e2cf1d5137e1a72daaeaab9[m
+Merge: a240d577 3040463f
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Sat Dec 15 13:46:20 2018 +0100
+
+    Merge branch 'translate-2-6-0-rc1-to-de'
+
+[33mcommit 3040463f7ceb8b63f1243413bffe6b90a431958c[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Sat Dec 15 13:38:06 2018 +0100
+
+    Translate 2.6.0-rc1 post (de)
+
+[33mcommit a240d5772c3d4db2958ebfb1f185b73aa6ae5954[m
+Merge: e52b3008 55e062dd
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Sat Dec 15 21:24:20 2018 +0900
+
+    Merge pull request #1920 from nurse/ruby-2-6-0-rc2-released
+    
+    Ruby 2.6.0-rc2 Released
+
+[33mcommit 55e062dd6d63a4824c311b6c0543cb00008e562a[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Sat Dec 15 20:12:29 2018 +0900
+
+    fix url and so on
+
+[33mcommit ee2f791f3a4511bfa07ba0f49caa67f092d09d60[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Sat Dec 15 20:05:36 2018 +0900
+
+    Ruby 2.6.0-rc2 Released
+
+[33mcommit e52b3008740d2226d01b39da1fb7055eda2abc2c[m
+Merge: 15a19ed6 ed6185f6
+Author: David Padilla <david@padilla.cc>
+Date:   Wed Dec 12 10:20:59 2018 -0600
+
+    Merge pull request #1917 from vtamara/es-20181206-2-6-0-rc1
+    
+    Translate 2018-12-06-ruby-2-6-0-rc1-released (es)
+
+[33mcommit 15a19ed6d58e849c0eebd939d5fb902495a2a390[m
+Merge: 117e4b62 e7d2a14d
+Author: David Padilla <david@padilla.cc>
+Date:   Wed Dec 12 10:18:17 2018 -0600
+
+    Merge pull request #1916 from vtamara/es-2018-11-29-fukuoka
+    
+    Translation of 2018-11-29-fukuoka-ruby-award-2019.md (es)
+
+[33mcommit ed6185f64c655600613438b30bd56e58deffd514[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Fri Dec 7 14:30:01 2018 -0500
+
+    Translate 2018-12-06-ruby-2-6-0-rc1-released.md (es)
+
+[33mcommit e7d2a14d6bc0f1df34e9bb072ba84e19f6d1fe21[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Fri Dec 7 14:03:26 2018 -0500
+
+    Translation of 2018-11-29-fukuoka-ruby-award-2019.md (es)
+
+[33mcommit 117e4b62ae59b52b2b098ec4b1d84a8ba671c1b1[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Tue Dec 11 17:21:17 2018 +0900
+
+    Translate Ruby 2.6.0-rc1 Released (zh_cn)
+
+[33mcommit 688e5e907c1feee17cf0dacf14f0318fcb5cb329[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Sun Dec 9 16:30:56 2018 +0900
+
+    [KO] Remove MacRuby from about page (#1918)
+    
+    Follow up https://github.com/ruby/www.ruby-lang.org/pull/1836
+
+[33mcommit 359bc1955b1c444f2f7d66cedc9515fad5b6f395[m
+Merge: 4396c61b e10ba235
+Author: David Padilla <david@padilla.cc>
+Date:   Fri Dec 7 12:44:26 2018 -0600
+
+    Merge pull request #1902 from vtamara/es-20181108-snap
+    
+    Translates 2018-11-08-snap.md (es)
+
+[33mcommit e10ba235d53ffdf0a1121e5ab5ece400f3af77e1[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Fri Dec 7 13:34:15 2018 -0500
+
+    Fixing urls after https://github.com/ruby/www.ruby-lang.org/pull/1907/files
+
+[33mcommit 4396c61b38868b92aa40ee22a761d099ca390dee[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Fri Dec 7 09:16:57 2018 +0900
+
+    Fix candidate version number (en)
+
+[33mcommit 93b65db83e16ad070e8997a6f11c2c7021aa2aeb[m
+Author: Shannon Skipper <shannonskipper@gmail.com>
+Date:   Thu Dec 6 16:55:00 2018 -0800
+
+    Fix ruby-2.6.0-rc1 announcement file exts (en, ja) (#1911)
+
+[33mcommit aae76c9f90e6d98fe4d4160192cd6b5ef1da382a[m
+Merge: 3410ff29 b09acaf2
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Fri Dec 7 02:05:22 2018 +0900
+
+    Merge pull request #1910 from nurse/ruby-2-6-0-rc1-released
+    
+    fix url
+
+[33mcommit b09acaf2f1e8b45f199f20f830ca3387060b467d[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Fri Dec 7 01:58:50 2018 +0900
+
+    fix url
+
+[33mcommit 3410ff29bf7a33d8522ef585e29b8b57ccbed1b7[m
+Merge: 1f549080 db778633
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Fri Dec 7 01:34:58 2018 +0900
+
+    Merge pull request #1909 from nurse/ruby-2-6-0-rc1-released
+    
+    Ruby 2.6.0-rc1 Released
+
+[33mcommit db77863392c0f2143ada28a57d5065c22ce7d24e[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Fri Dec 7 01:14:05 2018 +0900
+
+    Ruby 2.6.0-rc1 Released
+
+[33mcommit 5435d8686c6999c516bb83ea1bde0394bd8fc043[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Sun Dec 2 21:53:14 2018 -0500
+
+    Translates 2018-11-08-snap.md (es)
+
+[33mcommit 1f5490807647b4542b2efd1d7c396ca37e7d8f76[m
+Author: Andrias Meisyal <andriasonline@gmail.com>
+Date:   Sun Dec 2 14:43:17 2018 +0700
+
+    Translate Ruby 2.6.0-preview3 released news (id)
+
+[33mcommit cf216f80c92030c15897ec58492dbe430688f241[m
+Author: Andrias Meisyal <andriasonline@gmail.com>
+Date:   Sat Nov 24 19:59:11 2018 +0700
+
+    Translate Ruby 2.4.5 released news (id)
+
+[33mcommit e87b7ada205e88c2ff60816cf1665ab2ccfb910f[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Wed Dec 5 20:02:50 2018 +0900
+
+    Translate snap post (zh_tw)
+
+[33mcommit e0ea92a2f6791610846fc620a75ae5814efc0bc1[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Wed Dec 5 07:55:00 2018 +0900
+
+    Translate snap post (zh_cn)
+
+[33mcommit 97ef6910f74bd2b4e635d5c35983798fbe865d46[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Wed Dec 5 07:53:07 2018 +0900
+
+    Translate Fukuoka 2019 Post (zh_cn)
+
+[33mcommit fefa8d15cf9dc9e2bc76f4e5b649c9222deb8613[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Wed Dec 5 17:35:20 2018 +0900
+
+    Translate 2019 Fukuoka award post (zh_tw) (#1908)
+
+[33mcommit 71e9cb1d67783735784aff0072a1a91926482faf[m
+Merge: 710d49f4 9885c8d8
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Tue Dec 4 17:33:48 2018 +0900
+
+    Merge pull request #1907 from olivierlacan/fix-snap-post-links
+    
+    Fix links in English Snap post
+
+[33mcommit 9885c8d817e7ffc7074552c523b87e0a70c1d3f4[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Tue Dec 4 07:12:24 2018 +0100
+
+    Fix links in English Snap post
+    
+    See https://github.com/ruby/www.ruby-lang.org/pull/1888#issuecomment-442523867
+    
+    @hsbt, read your GitHub emails! :-p
+
+[33mcommit 710d49f4d217a26b51b8a7202b767312c1c184f5[m
+Merge: dfa7e9d5 d9ea771e
+Author: David Padilla <david@padilla.cc>
+Date:   Mon Dec 3 18:16:14 2018 -0600
+
+    Merge pull request #1903 from vtamara/fix-es20180620-2-2
+    
+    Translate title of 2018-06-20-support-of-ruby-2-2-has-ended.md
+
+[33mcommit dfa7e9d5249f065ef4cb3b1ae96772bfd54721e2[m
+Author: Jakob Krigovsky <jakob@krigovsky.com>
+Date:   Wed Oct 3 10:55:33 2018 +0200
+
+    Update spelling of “macOS”
+    
+    Co-Authored-By: Chayoung You <yousbe@gmail.com>
+
+[33mcommit d9ea771e7d2fac445e4d829c21d27bbce6e515f8[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Sun Dec 2 21:58:13 2018 -0500
+
+    Translate title
+
+[33mcommit e8ff86f9fe2e6817d8c085bab9dacbba7715e764[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Sun Dec 2 10:46:44 2018 +0100
+
+    Translate Fukuoka Award 2019 post (de)
+
+[33mcommit 975c8f79dbb5d8b66d0b2326932899fec744dcc3[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Sun Dec 2 10:46:32 2018 +0100
+
+    Translate snap release post (de)
+
+[33mcommit 4b89845cf6267307dba874ae4ba83c9b21c8da5e[m
+Author: Jakob Krigovsky <jakob@krigovsky.com>
+Date:   Sat Dec 1 01:50:20 2018 +0100
+
+    Fix typo in installation page (en) (#1878)
+
+[33mcommit 920f53a6716a42b3080fb1818b568c012ba4480b[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Sat Dec 1 01:48:30 2018 +0100
+
+    Update Blog section (en) (#1889)
+    
+    Removed several defunct blogs:
+    - Ruby Inside: last updated in 2014 (4 years ago)
+    - O'Reilly Ruby: doesn't exist anymore
+    - Matz' Blog: not updated since 2014
+    - Slashdot link, since https://slashdot.org/index2.pl?fhfilter=Ruby
+    reveals almost no recent mentions of Ruby, Reddit and HN are far more
+    active these days.
+    
+    Added:
+    - RubyFlow: replacement for Ruby Inside as community-submitted news
+    - Ruby Weekly: although not a blog, arguably the most popular news
+    source and since #1465 was a tough sell for a single Newsletter, I
+    believe it belongs on this list
+    
+    Changed:
+    - the title was "Weblogs" even though the body uses "Blogs", let's be
+    consistent as "weblog" has fallen out of fashion, or rather has never
+    been in fashion to begin with:
+    https://trends.google.com/trends/explore?date=all&geo=US&q=weblog,blog
+    
+    Also took the opportunity to replace number-based reference links to
+    make @stomar happy. Even though he hates my verbose commit messages. <3
+
+[33mcommit 8bc7b3b42adb4637f7b96cc2b1aa2418814131e4[m
+Author: Nathaniel Suchy <me@lunorian.is>
+Date:   Fri Nov 30 19:46:31 2018 -0500
+
+    Improve FAQ1 post (en) (#1900)
+    
+    Replace "..." with "and so on" to make the text about OO features consistent with each other
+
+[33mcommit 9f0dd8f2b8500ed486961273214a5200f2e8cc0e[m
+Author: Shannon Skipper <shannonskipper@gmail.com>
+Date:   Fri Nov 30 16:44:26 2018 -0800
+
+    Fix code snippets in snap post (en, ja) (#1899)
+    
+    * Switch to markdown style code blocks
+    * Fix a couple single-character typos
+
+[33mcommit 8f90080fcbde2b840473c56c5ed1d88c342cb695[m
+Author: digitalfukuoka <award@f-ruby.com>
+Date:   Thu Nov 29 17:10:12 2018 +0900
+
+    Announce Fukuoka Ruby Award 2019 (en)
+    
+    Closes #1897
+
+[33mcommit 14997f783b6545d44ac1c84d5cf97545d354467c[m
+Merge: ef3d7d68 a3c7845c
+Author: David Padilla <david@padilla.cc>
+Date:   Wed Nov 28 11:05:05 2018 -0600
+
+    Merge pull request #1884 from vtamara/es-20181017-2-3-8
+    
+    Translation of 2018-10-17-ruby-2-3-8... (es)
+
+[33mcommit ef3d7d68e046a7fe97eda5327b014dd132c4c0c0[m
+Merge: 8ca031f9 c9fd17f9
+Author: David Padilla <david@padilla.cc>
+Date:   Wed Nov 28 11:03:41 2018 -0600
+
+    Merge pull request #1885 from vtamara/es-20181017-ruby-2-5-2
+    
+    Translate 2018-10-17-ruby-2-5-2 (es)
+
+[33mcommit 8ca031f92ee2be8d25273557f4b49fc5d85e807b[m
+Merge: 2d6612d1 9441c217
+Author: David Padilla <david@padilla.cc>
+Date:   Wed Nov 28 11:02:46 2018 -0600
+
+    Merge pull request #1886 from vtamara/es-20181017-ruby-2-4-5
+    
+    Translation of 2018-10-17-ruby-2-4-5 (es)
+
+[33mcommit 2d6612d167077fca4f24eab2bcc175ace455967f[m
+Merge: 6f135abc 22e442f2
+Author: David Padilla <david@padilla.cc>
+Date:   Wed Nov 28 11:02:00 2018 -0600
+
+    Merge pull request #1887 from vtamara/es-20181106
+    
+    Translation of 2018-11-06-ruby-2-6-0-preview3 (es)
+
+[33mcommit 6f135abcf14f3adcdaca3d574dc7968cdbfa25e5[m
+Merge: ed6c0592 7949cbfa
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Wed Nov 28 18:28:15 2018 +0900
+
+    Merge pull request #1836 from sonicdoe/macruby
+    
+    Remove MacRuby from about page
+
+[33mcommit ed6c0592dd0d94bf73434fb3ca8554faf6811b8f[m
+Merge: 725ca8f2 c1685d73
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Wed Nov 28 18:26:59 2018 +0900
+
+    Merge pull request #1888 from ruby/snap
+    
+    The announcement for snap release.
+
+[33mcommit 22e442f262c90d3aa640d67f4e60f9f551f67a85[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Tue Nov 20 08:57:02 2018 -0500
+
+    Translation of 2018-11-06-ruby-2-6-0-preview3 (es)
+
+[33mcommit c9fd17f9054449674dcee108a4b68c62b5d4b9fb[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Tue Nov 20 06:16:20 2018 -0500
+
+    Translate 2018-10-17-ruby-2-5-2 (es)
+
+[33mcommit 9441c217af23ca500d5df8152111130121facd8c[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Tue Nov 20 06:27:05 2018 -0500
+
+    Translation of 2018-10-17-ruby-2-4-5 (es)
+
+[33mcommit a3c7845c479508a9951f56e268d8e3eef8d4312f[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Mon Nov 19 20:10:45 2018 -0500
+
+    Translation of 2018-10-17-ruby-2-3-8... (es)
+
+[33mcommit 725ca8f23667deb76bc452cb1604bc310468b36f[m
+Merge: 3e61e076 6339bcdf
+Author: David Padilla <david@padilla.cc>
+Date:   Tue Nov 27 17:20:54 2018 -0600
+
+    Merge pull request #1876 from vtamara/es-p20180620
+    
+    Translation of 2018-06-20-support-of-ruby-2-2-has-ended (es)
+
+[33mcommit 3e61e076b7b9c1692ed9816cb207c1705f138ba1[m
+Merge: ecbdd1a6 9257a864
+Author: David Padilla <david@padilla.cc>
+Date:   Tue Nov 27 17:20:05 2018 -0600
+
+    Merge pull request #1882 from vtamara/es-20181017-openssl
+    
+    Translation of 2018-10-17-openssl... (es)
+
+[33mcommit d94052764ce963446260c2e812686bb631e0b2bc[m
+Merge: 5c8f2a52 ecbdd1a6
+Author: Goudarz Jafari <goudarz.jafari@gmail.com>
+Date:   Sun Nov 25 22:46:46 2018 +0330
+
+    Merge pull request #1 from ruby/master
+    
+    update repo
+
+[33mcommit ecbdd1a6dc67164983a85bc8e9796fa63f575872[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Sat Nov 24 17:24:44 2018 +0900
+
+    Translate 2.6.0-preview3 post (zh_tw)
+
+[33mcommit dac9be992b7126089e7c380edbd1ffbc2f462389[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Sun Nov 25 12:56:05 2018 +0900
+
+    Translate 2.6.0-preview3 posts (zh_cn) (#1890)
+
+[33mcommit c1685d73e98fa33fa641bc37a50082fc90aa04f7[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Sat Nov 24 08:16:39 2018 +0900
+
+    Applied 2nd proofreadings by sorah
+
+[33mcommit ac6dda4fba349c25b30d96bf7dbf381e1786c8c1[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Sat Nov 24 07:59:48 2018 +0900
+
+    Fixed ja
+
+[33mcommit 92c9a69df277e9eff33250305c49605b51036d2b[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Fri Nov 23 20:49:12 2018 +0900
+
+    Added option for pristine
+
+[33mcommit 1b0f6c1fb8a6286d790f05ae38d0c64b63daef34[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Thu Nov 22 22:20:59 2018 +0900
+
+    Added install section
+
+[33mcommit 4af88f51d3833fc4a54b34373da1f1dbe8fa3863[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Thu Nov 22 22:14:04 2018 +0900
+
+    Applied proofreadings by sorah
+
+[33mcommit 4ac65426ec1a18dc31e2e97066978dbc580577e6[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Wed Nov 21 12:20:25 2018 +0900
+
+    Rename and added contents for snap release.
+
+[33mcommit 6dc64debbff746866d160cf58d6c6c8753a749c6[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Thu Nov 8 15:48:09 2018 +0000
+
+    rake new_post:en
+
+[33mcommit b26c5feb4b07fc603c3c64c94cd90cacd6a4aee1[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Wed Sep 21 19:01:14 2016 -0400
+
+    Add Podcasts section to Community
+    
+    Includes Ruby Rogues and the Ruby on Rails Podcast since they're the
+    most prominent Ruby-related podcasts in English but I'm sure there might
+    be more in other languages.
+
+[33mcommit ab1d3634ea9817e1058df73a63a0628a0c4dbb8c[m
+Author: Júlio Campos <jcserracampos@gmail.com>
+Date:   Thu Oct 4 11:41:04 2018 -0300
+
+    Translate Ruby 2.5.0 Release post (pt)
+    
+    Closes #1840
+
+[33mcommit e026493f66d5a77d7e01e83f9fbb7fe3bc0cf328[m
+Author: Zane Alexander <zanesandin@gmail.com>
+Date:   Mon Nov 19 20:02:00 2018 -0500
+
+    Translate ruby 2.5.1 release (es) (#1883)
+    
+    
+    Co-Authored-By: ZASMan <zanesandin@gmail.com>
+
+[33mcommit 8dd2e9d694d50f399c382fc196206cdd3835c34b[m
+Merge: 48ded006 ef0b15f6
+Author: Gustavo Villa <gfvcastro@gmail.com>
+Date:   Mon Nov 19 17:11:06 2018 -0300
+
+    Merge pull request #1881 from vtamara/es-20181017-not-propagated
+    
+    Translate 2018-10-17-not-propagated... (es)
+
+[33mcommit 9257a86496beda18ec9f603b25822192cb63fcab[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Mon Nov 19 09:36:03 2018 -0500
+
+    Translation of 2018-10-17-openssl... (es)
+
+[33mcommit ef0b15f6311b0c7be5c01cc2f57aaeb06bcc9060[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Mon Nov 19 06:54:03 2018 -0500
+
+    Translate 2018-10-17-not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396.md (es)
+
+[33mcommit 48ded006d8fddd843449897553895be571259a73[m
+Merge: 769fad06 1f6e5aaa
+Author: Juanito Fatas <katehuang0320@gmail.com>
+Date:   Fri Nov 16 09:01:25 2018 +0900
+
+    Update Documentation and Installation pages (en)
+    
+    Merge pull request #1877 from olivierlacan/official-api-docs
+
+[33mcommit 1f6e5aaa2ebc6fb6a7b47b09f8e1b5cd74064bc2[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Thu Nov 15 13:08:09 2018 -0500
+
+    No one says Weblogs anymore
+
+[33mcommit c06bd27c56fd5c4c170e8c876d0a8a01fcd80b90[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Thu Nov 15 13:07:59 2018 -0500
+
+    Clean up and update Installation guide
+    
+    There were a lot of outdated (and many may still remain)
+    pieces of information in this guide and it was often
+    needllessly verbose.
+    
+    I cut down on unnecessary copy, added relevant internal
+    and external links, etc.
+
+[33mcommit e01e69935f69250f279076b718eae5d9f71cf817[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Thu Nov 15 13:06:45 2018 -0500
+
+    Add listing for the official API documentation
+    
+    I was surprised not to find these listed anywhere even
+    though it is the official documentation built from source
+    and hosted on ruby-lang.org
+    
+    Third parties are fine, but we shouldn’t link to third parties
+    only if we offer this resource already.
+
+[33mcommit f3133b0d408a3ef6e040a0f485f34798245caae3[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Thu Nov 15 13:05:37 2018 -0500
+
+    Remove redundant listing of Getting Started links
+    
+    These links are already available on every single page of
+    the site in the sidebar, there’s no need to repeat them here.
+
+[33mcommit 4d615d4670d78f9108fea1cd8e21c738ae8da365[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Thu Nov 15 13:05:03 2018 -0500
+
+    Don’t linger on installation in documentation
+    
+    There’s no reason to spend so much time talking about
+    installing Ruby or the command line on a page dedicated
+    to documentation. We can refer people directly to the
+    installation page which is much better suited to this.
+
+[33mcommit f971262255a484eddefe53bf545a7848d3939646[m
+Author: Olivier Lacan <hi@olivierlacan.com>
+Date:   Thu Nov 15 12:30:07 2018 -0500
+
+    Simplify introductory copy for Documentation
+
+[33mcommit 769fad0683360f8c3b8f7d1e2f0b41dae8d21238[m
+Author: SADIK KUZU <sadikkuzu@hotmail.com>
+Date:   Wed Nov 14 08:54:32 2018 +0300
+
+    Fix typos on about page (tr) (#1853)
+
+[33mcommit b420c7a309f48d5c1289b44aeb72dab0188e621b[m
+Author: Juanito Fatas <juanito.fatas@shopify.com>
+Date:   Tue Jul 24 11:36:58 2018 -0400
+
+    Add CODEOWNERS to enable auto review
+
+[33mcommit 6339bcdf3a2a2d98dc3a8402e11280282f4feff2[m
+Author: Vladimir Támara Patiño <vtamara@pasosdeJesus.org>
+Date:   Mon Nov 12 14:39:17 2018 -0500
+
+    Translation of 2018-06-20-support-of-ruby-2-2-has-ended (es)
+
+[33mcommit 7b4204df3a82f0a985ccccd3326e088d596c111d[m
+Author: Delton Ding <dsh0416@gmail.com>
+Date:   Mon Nov 12 20:15:38 2018 +0900
+
+    Update installation page (zh_cn) (#1709)
+
+[33mcommit f7db758124585bf135214ccc013a488b844903e7[m
+Author: Vagish Vela <web@vagish.com>
+Date:   Mon Nov 12 06:12:41 2018 -0500
+
+    Fix links in first FAQ Page (en) (#1850)
+    
+    * Update location of TextPad Ruby definition
+    
+    The old location was heading to a 404 error, this is the new location.
+    
+    * Remove the Jed editor from FAQ page 1
+    
+    The s-lang file supporting Ruby is no longer maintained and is un-findable
+    on kondara.org.
+
+[33mcommit 06b03c9e7d90d0fd9b83799cf295b74b08882339[m
+Author: Marvin Gülker <m-guelker@phoenixmail.de>
+Date:   Sun Nov 11 20:59:12 2018 +0100
+
+    Translate most recent news (de)
+
+[33mcommit 6a0d4b798e97b4023b7617aa13bf297bd2d5e08a[m
+Author: Kazuhiro NISHIYAMA <znz@users.noreply.github.com>
+Date:   Fri Nov 9 11:09:44 2018 +0900
+
+    Fix link to gist in 2.6.0-preview3 posts (en, ja) (#1871)
+
+[33mcommit 819c16c7413e74e8120164700d6ee4c36072aade[m
+Author: Jordanlelay <43350109+Jordanlelay@users.noreply.github.com>
+Date:   Thu Nov 8 10:52:28 2018 +0100
+
+    Fix typo on librairies page (fr)
+
+[33mcommit 5a6ce58017626f02ce26716725072b09fc1f1d1a[m
+Author: Jordanlelay <43350109+Jordanlelay@users.noreply.github.com>
+Date:   Fri Nov 9 02:14:45 2018 +0100
+
+    Fix typo and wording on community page (fr) (#1874)
+
+[33mcommit 7209524caf6b2a6b49543c0088f3aff851c287a2[m
+Author: SHIBATA Hiroshi <hsbt@ruby-lang.org>
+Date:   Thu Nov 8 14:53:38 2018 +0000
+
+    update bundles
+
+[33mcommit d9f4a07ed395e9f7f418dc5d69a4d57a80a88249[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Thu Nov 8 22:11:49 2018 +0900
+
+    [KO] Translate 2018-11-06-ruby-2-6-0-preview3-released.md (#1872)
+    
+    * cp {en,ko}/news/_posts/2018-11-06-ruby-2-6-0-preview3-released.md
+    
+    * Translate ruby 2.6.0-preview3
+    
+    * Copy oneshot coverage explanation
+    
+    * Translate oneshot coverage
+    
+    * Fix translation
+
+[33mcommit fedb65aadece57a7c39b44488934020dd25e0137[m
+Author: Shia <rise.shia@gmail.com>
+Date:   Thu Nov 8 22:03:50 2018 +0900
+
+    %s/메소드/메서드/g (#1875)
+    
+    Ref: http://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=61&qna_seq=11976
+
+[33mcommit da95fa07c90ae7fe46bc3aca8b0ce0b7cd669d65[m
+Merge: cd44e1f7 d8b54ea2
+Author: NARUSE, Yui <nurse@users.noreply.github.com>
+Date:   Wed Nov 7 00:39:00 2018 +0900
+
+    Merge pull request #1870 from ruby/ruby-2-6-0-preview3-released
+    
+    Ruby 2.6.0-preview3 Released
+
+[33mcommit d8b54ea2067eaa7cd30dd228a62999022916d0a6[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Wed Nov 7 00:30:54 2018 +0900
+
+    fix typos pointed by znz
+
+[33mcommit b540819f92cdecf421c45c018579bec9ee8b476e[m
+Author: nagachika <nagachika@ruby-lang.org>
+Date:   Wed Nov 7 00:20:25 2018 +0900
+
+    Update ja/news/_posts/2018-11-06-ruby-2-6-0-preview3-released.md
+    
+    Co-Authored-By: nurse <nurse@users.noreply.github.com>
+
+[33mcommit 0e1f856d4b222335624d7a02a69b864e6ab57e24[m
+Author: nagachika <nagachika@ruby-lang.org>
+Date:   Wed Nov 7 00:20:20 2018 +0900
+
+    Update en/news/_posts/2018-11-06-ruby-2-6-0-preview3-released.md
+    
+    Co-Authored-By: nurse <nurse@users.noreply.github.com>
+
+[33mcommit 266fdf6d169d3247cf86afa15a307345300b45cb[m
+Author: nagachika <nagachika@ruby-lang.org>
+Date:   Wed Nov 7 00:20:10 2018 +0900
+
+    Update en/news/_posts/2018-11-06-ruby-2-6-0-preview3-released.md
+    
+    Co-Authored-By: nurse <nurse@users.noreply.github.com>
+
+[33mcommit 540d4993faad50f14c1781b3a7419453fdfded48[m
+Author: NARUSE, Yui <naruse@airemix.jp>
+Date:   Tue Nov 6 22:09:00 2018 +0900
+
+    Ruby 2.6.0-preview3 Released
+
+[33mcommit cd44e1f7820e77b567ccb95bdf411deb7b4e32f0[m
+Author: Andrias Meisyal <andriasonline@gmail.com>
+Date:   Fri Nov 2 20:04:40 2018 +0700
+
+    Translate Ruby 2.5.2 released news (id)
+
+[33mcommit b104504ad5f83ecf43cb70e05704d3c2ab09ced2[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Sun Nov 4 09:32:40 2018 +0100
+
+    Remove dead link to digg programming page (id)
+
+[33mcommit 49db8a28370b9a6897064dcb58231cddfcdbc957[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Nov 2 20:08:36 2018 +0100
+
+    Fix typo (pl)
+
+[33mcommit 48e3a8eebc3e93c486458dd563ff1d43b5cd8498[m
+Author: Marcus Stollsteimer <sto.mar@web.de>
+Date:   Fri Nov 2 19:55:16 2018 +0100
+
+    Partially revert "Remove link to digg programming page..."
+    
+    This partially reverts commit b6bd84fb9c279e96ade8321e2016ee89bbfd5b88.
+    For `id' and `pl' the number of mentioned sites changes from plural
+    to singular, and I'm not convinced that the grammar is still correct.
+    Better an obviously outdated paragraph than a subtle error that is
+    likely to stay unnoticed.
