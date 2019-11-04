@@ -25,13 +25,13 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
 関数型言語で広く使われているパターンマッチという機能が実験的に導入されました。
 渡されたオブジェクトの構造がパターンと一致するかどうかを調べ、一致した場合にその値を変数に代入するといったことができるようになります。 [#14912](https://bugs.ruby-lang.org/issues/14912)
 
-```ruby
+{% highlight ruby %}
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-```
+{% endhighlight %}
 
 詳細については [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7) を参照してください。
 
