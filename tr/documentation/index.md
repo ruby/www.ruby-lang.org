@@ -8,12 +8,19 @@ Bu bölümde Ruby öğrenmenizi kolaylaştıracak el kitapları, kılavuzlar,
 referanslar ve diğer belgeleri bulacaksınız.
 {: .summary}
 
+### Ruby'yi Kurma
+
+[Ruby'yi tarayıcınızda kolayca deneyebilecek olsanız da][1], Ruby'yi kurmak
+isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
+
 ### Başlangıç
 
-[Try Ruby!][1]
-: Ruby’yi tarayıcınızda deneyebileceğiniz interaktif bir tutorial. Bu 15
-  dakikalık çalışma ile bu dile yenibaşlayanların ilk denemelerini
-  yapmaları amaçlanmıştır.
+[Resmi SSS](/en/documentation/faq/)
+: Resmi sık sorulan sorular.
+
+[2014 Akademik Bilişim Konferansı Ruby Eğitimi Notları][ab2014-ruby-notlari] (Türkçe)
+: Sıtkı Bağdat'ın 2014 yılındaki Akademik Bilişim Konferansı'nda düzenlediği
+  Ruby eğitimindeki notların Leyla Kapı tarafından düzenlenmiş hali.
 
 [Ruby Koans][2]
 : Koans Ruby öğrenmek için bir aydınlanma yolu üzerinden yürümenizi
@@ -21,104 +28,164 @@ referanslar ve diğer belgeleri bulacaksınız.
   kullanılan yapılarını öğrenmek ama bununla beraber size kültürünü de
   öğretiyor.
 
-[Why’s (Poignant) Guide to Ruby][4]
+[Why’s (Poignant) Guide to Ruby][5]
 : Ruby’nin hikayelerle, nüktelerle ve karikatürlerle anlatıldığı
   sıradışı ama ilginç bir kitap. Orjinali *why the lucky stiff*
-  tarafından yazılmıştır, bu klavuz Ruby’ye yeni başlayanlar için bir
+  tarafından yazılmıştır, bu kılavuz Ruby’ye yeni başlayanlar için bir
   klasiktir.
 
-[Programlama Öğrenin][5]
+[Learning Ruby][6]
+: Dile yeni olanlar ve Ruby’nin kavramlarına ve yapısına sağlam bir
+  giriş yapmak isteyenler için Ruby öğrenci notlarından derlenmiş
+  mükemmel bir koleksiyon.
+
+[Ruby Essentials][7]
+: Ruby Essentials, Ruby öğrenmek için öz ve takip etmesi kolay şekilde
+  tasarlanan ücretsiz bir çevrimiçi kitaptır.
+
+[Learn to Program][8]
 : Chris Pine tarafından, yeni başlayanlar için yazılmış harika bir
   kılavuz. Eğer programlama bilmiyorsanız, buradan başlayın.
 
-[20 Dakikada Ruby](/tr/documentation/quickstart/)
-: Ruby’nin temellerini kapsayan hoş bir kılavuz. Başlayıp bitirmesi
-  yirmi dakikadan fazla zamanınızı almayacak.
-
-[Ruby ve Diğer Diller](/tr/documentation/ruby-from-other-languages/)
-: Başka bir dilden Ruby’ye mi geçiyorsunuz? C, C++, Java, Perl, PHP, ya
-  da Python, farketmez! Bu makale sizi saracak!
-
-[Ruby Öğrenmek][6]
-: Dile yeni olanlar ve Ruby’nin kavramlarına ve yapısına sağlam bir
-  giriş yapmak isteyenler için Ruby öğrenci notlarından derlenmiş
-  mükemmel bir kolleksiyon.
-
-[Ruby SSS][7]
-: Ruby deyimlerini öğrenmek ya da tipik programlama tekniklerinin Ruby
-  yoluyla nasıl yapıldığını göstermek için toplanmış soru ve cevaplar.
-
-[Tüm Yeni Gelenlerin Bilmesi Gereken Şeyler][8]
-: [Ruby Garden Wiki][9] ‘nin “yeni gelenlerin bilmesi gereken şeyler”
-  sayfası.
-
-[Ruby &amp; Ruby on Rails programlama kılavuzları][10]
-: Hem Ruby hem Rails için zengin içerikli kılavuzlar sunan, iyi organize
-  edilmiş bir site.
+[Learn Ruby the Hard Way][38]
+: Ruby'nin en temelinden başlayarak nesne yönelimli programlama ve web
+  geliştirmeye kadar size kılavuzluk edecek açıklamalı alıştırmaların çok iyi
+  bir bütünüdür.
 
 ### El Kitapları
 
-[Ruby Programlama][11]
-: [Pratik Programcılar’ın Kitabı][12] ‘nın ilk baskısı. İngilizce Ruby
+[Ruby 101 Kitabı][ruby-101-kitabi] (Türkçe)
+: Uğur Özyılmazel tarafından yazılan hem temel hem de ileri düzey konuları
+  kapsayan bir kitapçık.
+
+[Programming Ruby][9]
+: [Pragmatic Programmers’ın kitabı][10]‘nın ilk baskısı. İngilizce Ruby
   kaynakları arasında hatırı sayılır bir yere sahip olan bu kitabı,
   çevrimiçi okuyabilirsiniz.
 
-[Ruby Kullanıcı Kılavuzu][13]
+[Ruby Kullanıcı Kılavuzu][ruby-kullanici-kilavuzu] (Türkçe)
 : Ruby diliyle ilgili pek çok alanda hoş görüşler sunan bu belgenin
   orijinali Yukihiro Matsumoto (Ruby’nin yaratıcısı) tarafından yazılmış
-  olup, Goto Kentaro ve Mark Slagell tarafından İngilizce’ye, Pınar
+  olup, Goto Kentaro ve Mark Slagell tarafından [İngilizce’ye][11], Pınar
   Yanardağ tarafından da Türkçe’ye çevirilmiştir.
 
-[Ruby Programlama Wikikitabı][14]
-: Başlangıç ve ileri düzeyde içeriğe sahip olan çevrimiçi, kapsamlı bir
-  kılavuz.
+[Ruby Programming Vikikitabı][12]
+: Başlangıç ve ileri düzeyde içeriğe sahip olan çevrimiçi, tam bir dil
+  başvurusu da sunan bir kitapçık.
 
 ### Referans Belgeleri
 
-[Ruby Çekirdek Referansı][15]
-: [RDoc][16] ile kaynak kodundan üretilmiş bir belge. Bu belge tüm
+[Resmi API Belgelendirmesi][docs-rlo-en]
+: Şu anki yayınlanmamış (trunk) sürümü de içeren farklı sürümlerin resmi API
+  belgelendirmesi.
+
+[Ruby Çekirdek Referansı][13]
+: [RDoc][14] ile kaynak kodundan üretilmiş bir belge. Bu belge tüm
   çekirdek sınıfları ve modülleri (String, Array, Symbol gibi) içerir.
 
-[Ruby Standart Kütüphane Referansı][17]
+[Ruby Standart Kütüphane Referansı][15]
 : Yine RDoc ile üretilmiş bu referans belgesi, standart kütüphaneyi
   kapsayacak niteliktedir.
 
-[RubyDoc.info][19]
-: Ruby gem’leri için dökümanlar ve GitHub Ruby projeleri için tek kaynak
-  site.
+[Ruby C API Başvurusu][extensions]
+: Ruby'nin C API'ına resmi bir giriştir.
+  Eğer C uzantıları yazmak ya da Ruby'nin geliştirilmesine katkıda bulunmak
+  istiyorsanız, mükemmeldir.
 
-[Ruby & Rails Searchable API Docs][20]
-: Akıllı arama özellikleri olan Rails ve Ruby dökümantasyonu.
+[RubyDoc.info][16]
+: Ruby gem’leri ve GitHub’daki Ruby projelerinin başvuru belgelendirmeleri için
+  tek site.
 
+[Ruby & Rails Aranabilir API Belgeleri][17]
+: Akıllı arama özellikleri olan Rails ve Ruby belgelendirmesi.
+
+[APIdock][18]
+: Kullanıcı notları ile Ruby, Rails ve RSpec belgelendirmesi.
+
+### Editörler ve IDE'ler
+
+Ruby'de kodlama için işletim sisteminizin varsayılan editörünü
+kullanabilirsiniz. Fakat kodlamada daha etkili olmak için temel Ruby
+desteğine (sözdizimi vurgulaması, dosya tarama) sahip bir kaynak kod editörü
+veya gelişmiş özelliklere (kod tamamlama, refactoring, test desteği) sahip
+bir tümleşik geliştirme ortamı seçmeniz daha iyi olur.
+
+İşte Rubyciler tarafından kullanılan gözde araçların bir listesi:
+
+* Linux ve platformlararası araçlar:
+  * [Aptana Studio][19]
+  * [Emacs][20], [Ruby modu][21] ve [Rsense][22] ile
+  * [Geany][23]
+  * [gedit][24]
+  * [Vim][25], [vim-ruby][26] eklentisi ve [Rsense][22] ile
+  * [RubyMine][27]
+  * [SciTe][28]
+  * [NetBeans][36]
+  * [Sublime Text][37]
+  * [Atom][atom]
+  * [Visual Studio Code][vscode]
+
+* Windows'ta:
+  * [Notepad++][29]
+  * [E-TextEditor][30]
+  * [Ruby In Steel][31]
+
+* macOS'ta:
+  * [TextMate][32]
+  * [TextWrangler][33]
+  * [Dash][39] (belgelendirme tarayıcısı)
 
 ### Diğer Belgeler
 
-[Ruby-Doc.org][21] Ruby hakkındaki İngilizce belgeleri bir araya
-toplamayı amaçlayan bir site. [Ruby hakkında yazılmış kitaplar][22] da
-bakılacak diğer kaynaklardan. [Ruby Garden Wiki][9] adresinde
-kullanıcıların oluşturduğu geniş bir içerik mevcut. Ayrıca Ruby hakkında
-aklınıza takılan herhangi bir soru için [e-posta
-listeleri](/en/community/mailing-lists/) iyi bir başlangıç olacaktır.
+[Ruby-doc.org][34] Ruby hakkındaki İngilizce belgeleri bir araya
+toplamayı amaçlayan bir site. [Ruby hakkında yazılmış kitaplar][35] da
+bakılacak diğer kaynaklardan. Ruby hakkında aklınıza takılan herhangi bir soru
+için [e-posta listeleri](/tr/community/mailing-lists/) iyi bir başlangıç
+olacaktır.
 
 
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[4]: http://mislav.uniqpath.com/poignant-guide/
-[5]: http://pine.fm/LearnToProgram/
+[5]: http://mislav.uniqpath.com/poignant-guide/
 [6]: http://rubylearning.com/
-[7]: http://faq.rubygarden.org/
-[8]: http://www.rubygarden.org/ruby?ThingsNewcomersShouldKnow
-[9]: http://wiki.rubygarden.org/Ruby
-[10]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
-[11]: http://www.ruby-doc.org/docs/ProgrammingRuby/
-[12]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[13]: http://www.belgeler.org/uygulamalar/ruby/ruby-ug.html
-[14]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[15]: http://www.ruby-doc.org/core
-[16]: https://ruby.github.io/rdoc/
-[17]: http://www.ruby-doc.org/stdlib
-[19]: http://www.rubydoc.info/
-[20]: http://rubydocs.org/
-[21]: http://ruby-doc.org
-[22]: http://www.ruby-doc.org/bookstore
+[7]: http://www.techotopia.com/index.php/Ruby_Essentials
+[8]: http://pine.fm/LearnToProgram/
+[9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[10]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[11]: http://www.rubyist.net/~slagell/ruby/
+[12]: http://en.wikibooks.org/wiki/Ruby_programming_language
+[13]: http://www.ruby-doc.org/core
+[14]: https://ruby.github.io/rdoc/
+[15]: http://www.ruby-doc.org/stdlib
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
+[16]: http://www.rubydoc.info/
+[17]: http://rubydocs.org/
+[18]: http://apidock.com/
+[19]: http://www.aptana.com/
+[20]: http://www.gnu.org/software/emacs/
+[21]: http://www.emacswiki.org/emacs/RubyMode
+[22]: http://rsense.github.io/
+[23]: http://www.geany.org/
+[24]: http://projects.gnome.org/gedit/screenshots.html
+[25]: http://www.vim.org/
+[26]: https://github.com/vim-ruby/vim-ruby
+[27]: http://www.jetbrains.com/ruby/
+[28]: http://www.scintilla.org/SciTE.html
+[29]: http://notepad-plus-plus.org/
+[30]: http://www.e-texteditor.com/
+[31]: http://www.sapphiresteel.com/
+[32]: http://macromates.com/
+[33]: http://www.barebones.com/products/textwrangler/
+[34]: http://ruby-doc.org
+[35]: http://www.ruby-doc.org/bookstore
+[36]: https://netbeans.org/
+[37]: http://www.sublimetext.com/
+[38]: https://learncodethehardway.org/ruby/
+[39]: http://kapeli.com/dash
+[docs-rlo-en]: https://docs.ruby-lang.org/en/
+[atom]: https://atom.io/
+[vscode]: https://code.visualstudio.com/
+[ruby-kullanici-kilavuzu]: http://www.belgeler.org/uygulamalar/ruby/ruby-ug.html
+[ruby-101-kitabi]: https://vigo.gitbooks.io/ruby-101/
+[ab2014-ruby-notlari]: https://github.com/leylaKapi/AB2014-Ruby-Programlama-Dili/blob/master/Ruby_AB2014.md
