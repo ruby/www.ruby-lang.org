@@ -30,6 +30,6 @@ Projetos devem ter sido desenvolvidos ou completados nos últimos 12 meses para 
 
 Por favor, envie sua aplicação por e-mail para award@f-ruby.com
 
-"Matz testará e revisará seu código conte, então é muito importante se inscrever. A competição é gratuíta."
+"Matz testará e revisará seu código fonte, então é muito importante se inscrever. A competição é gratuíta."
 
 Obrigado!
