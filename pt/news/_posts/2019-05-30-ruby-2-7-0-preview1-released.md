@@ -30,7 +30,7 @@ páginas possam ser usadas e a heap possa ser mais _CoW friendly_. [#15626](http
 Pattern matching, funcionalidade amplamenta utilizada em linguagens para programação funcional, é introduzida como uma funcionalidade experimental. [#14912](https://bugs.ruby-lang.org/issues/14912)
 Ela pode examinar um dado objeto e definir seu valor se um padrão for .
 
-```ruby
+{% highlight ruby %}
 json ='{
  	"nombre": "Alice",
  	"edad": 30,
@@ -46,7 +46,7 @@ in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-```
+{% endhighlight %}
 
 Para mais detalhes, por favor, veja [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
 

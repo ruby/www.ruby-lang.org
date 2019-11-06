@@ -24,6 +24,10 @@ en/11_blank_line_at_eof.md
   blank line(s) at end of file
 en/12_blank_lines_at_eof.md
   blank line(s) at end of file
+en/20_fenced_ruby_code_block.md
+  wrong syntax highlighting: use '{% highlight ruby %}...{% endhighlight %}' instead of '```ruby' block
+en/21_fenced_sh_code_block.md
+  wrong syntax highlighting: use '{% highlight sh %}...{% endhighlight %}' instead of '```sh' block
 en/_posts/2000-01-01-old-lang-variable-nil.md
   missing or invalid lang variable
 en/_posts/2000-01-02-old-translator-variable-wrong-type.md

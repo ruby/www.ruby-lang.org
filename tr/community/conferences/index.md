@@ -39,10 +39,10 @@ Chicago merkezli konferans, Ruby topluluğuna 2008'den beri hizmet etmektedir.
 [Steel City Ruby][16]: Pittsburg, PA
 
 [GoRuCo][19]: New York City'nin yıllık Ruby konferansı.
-Bir günlük tek konulu bir konferanstır.
+Bir günlük tek eşzamanlı oturumlu bir konferanstır.
 
 [DeccanRubyConf][20]: Pune'un (Hindistan) yıllık Ruby konferansı, tüm güne yayılmış eğlenceli aktiviteler ile geçer.
-Bir günlük tek konulu bir konferanstır.
+Bir günlük tek eşzamanlı oturumlu bir konferanstır.
 
 [Southeast Ruby][21]: Nashville, TN atölye ve konferans.
 

@@ -28,13 +28,13 @@ The `GC.compact` method is introduced for compacting the heap. This function com
 Pattern matching, widely used feature in functional programming languages, is introduced as an experimental feature. [#14912](https://bugs.ruby-lang.org/issues/14912)
 It can traverse a given object and assign its value if it matches a pattern.
 
-```ruby
+{% highlight ruby %}
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-```
+{% endhighlight %}
 
 For more details, please see [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
 

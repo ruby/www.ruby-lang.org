@@ -31,7 +31,7 @@ dikkatini çekmeye başlamıştır. 2006 Ruby’nin altın yılı olmuştur.
 Dünyanın en büyük şehirlerinde aktif kullanıcı grupları ve Ruby ile
 ilgili konferanslar gerçekleştirilmiştir.
 
-Ruby-Talk, Ruby dilini tartışmak için birincil [e-posta listesi](/en/community/mailing-lists/), 2006 yılında günde ortalama 200 mesaja ulaşmıştır.
+Ruby-Talk, Ruby dilini tartışmak için birincil [e-posta listesi](/tr/community/mailing-lists/), 2006 yılında günde ortalama 200 mesaja ulaşmıştır.
 Bu sayı son yıllarda düşmüştür çünkü topluluğun büyüklüğü, tartışmanın merkezi bir listeden daha küçük gruplara kaymasına neden olmuştur.
 
 Ruby, dünya çapında programlama dillerinin büyümesini ve popülaritesini ölçen dizinlerin ([TIOBE dizini][tiobe] gibi) çoğunda ilk 10 içinde yer almıştır.

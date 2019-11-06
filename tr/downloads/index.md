@@ -81,7 +81,7 @@ hakkında daha fazla bilgi için, [Sürümler sayfası][releases]na bakın.
 [Dallar sayfası][branches]nda bulunabilir.
 
 Ruby Subversion ve Git depoları hakkında bilgi için [Ruby
-Core](/en/community/ruby-core/) sayfasına bakın.
+Core](/tr/community/ruby-core/) sayfasına bakın.
 
 Ruby kaynağı tüm dünyaya yayılmış [Yansı Siteleri][mirrors]nden
 ulaşılabilirdir.

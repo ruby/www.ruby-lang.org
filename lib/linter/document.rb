@@ -100,24 +100,31 @@ class Linter
     end
 
     def sha1_length_invalid?
-      matchdata = content.match(/SHA1: *(?<sha>[0-9a-f]*)/)
+      matchdata = content.match(/SHA1: *(?<sha>[{0-9a-f]*)/)
       return nil  unless matchdata
+      return nil  if matchdata[:sha].start_with?("{{")  # {{ Liquid output }}
 
       matchdata[:sha].size != 40
     end
 
     def sha256_length_invalid?
-      matchdata = content.match(/SHA256: *(?<sha>[0-9a-f]*)/)
+      matchdata = content.match(/SHA256: *(?<sha>[{0-9a-f]*)/)
       return nil  unless matchdata
+      return nil  if matchdata[:sha].start_with?("{{")  # {{ Liquid output }}
 
       matchdata[:sha].size != 64
     end
 
     def sha512_length_invalid?
-      matchdata = content.match(/SHA512: *(?<sha>[0-9a-f]*)/)
+      matchdata = content.match(/SHA512: *(?<sha>[{0-9a-f]*)/)
       return nil  unless matchdata
+      return nil  if matchdata[:sha].start_with?("{{")  # {{ Liquid output }}
 
       matchdata[:sha].size != 128
+    end
+
+    def fenced_code?(language)
+      content.match?(/^ *``` *#{language}$/)
     end
 
     private

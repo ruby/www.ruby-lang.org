@@ -27,13 +27,13 @@ lang: zh_tw
 
 在函數式編程語言中廣泛地被使用的 Pattern matching，作為實驗性的功能加入了。[#14912](https://bugs.ruby-lang.org/issues/14912) 它可以遍歷給定的物件並在其比對成功時賦值。
 
-```ruby
+{% highlight ruby %}
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-```
+{% endhighlight %}
 
 更多詳細資訊，請參閱 [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)。
 

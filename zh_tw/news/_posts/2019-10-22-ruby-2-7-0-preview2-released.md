@@ -28,13 +28,13 @@ lang: zh_tw
 
 在函數式編程語言中廣泛地被使用的 Pattern matching，作為實驗性的功能加入了。[Feature #14912](https://bugs.ruby-lang.org/issues/14912) 它可以遍歷給定的物件並在其比對成功時賦值。
 
-```ruby
+{% highlight ruby %}
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-```
+{% endhighlight %}
 
 更多詳細資訊，請參閱 [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)。
 
@@ -52,60 +52,60 @@ end
 
 * 當方法將 Hash 作爲最後一個參數傳入，或者傳入的參數沒有關鍵字的時候，会拋出警告。如果需要繼續將其視爲關鍵字參數，則需要加入兩個星號來避免警告並在 Ruby 3 在中行爲正常。
 
-  ```ruby
+  {% highlight ruby %}
   def foo(key: 42); end; foo({key: 42})   # warned
   def foo(**kw);    end; foo({key: 42})   # warned
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  ```
+  {% endhighlight %}
 
 * 當方法傳入 Hash 到一個接受關鍵字參數的方法中，但沒有傳入足夠的位置參數，關鍵字參數會被視爲最後一個位置參數，並拋出一個警告。請將參數包裝爲 Hash 物件來避免警告，並在 Ruby 3 在中行爲正常。
 
-  ```ruby
+  {% highlight ruby %}
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  ```
+  {% endhighlight %}
 
 * 當方法接受關鍵字參數傳入，但不會進行關鍵字分割（splat），且傳入同時含有 Symbol 和非 Symbol 的 key，那麼 Hash 會被分割，但是會拋出警告。你需要傳入兩個分開的 Hash 來確保 Ruby 3 中行爲正常。
 
-  ```ruby
+  {% highlight ruby %}
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  ```
+  {% endhighlight %}
 
 * 當一個方法不接受關鍵字參數，但傳入了關鍵字參數，關鍵字會被視爲位置參數，不會有警告拋出。這一行爲會在 Ruby 3 中繼續工作。
 
-  ```ruby
+  {% highlight ruby %}
   def foo(opt={});  end; foo( key: 42 )   # OK
-  ```
+  {% endhighlight %}
 
 * 如果方法支援任意參數傳入，那麼非 Symbol 也會被允許作爲關鍵字參數傳入。[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  ```ruby
+  {% highlight ruby %}
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  ```
+  {% endhighlight %}
 
 * <code>**nil</code> 被允許使用在方法的定義中，用來標記不接受關鍵字參數。以關鍵詞參數來使用這些方法會拋出 ArgumentError [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  ```ruby
+  {% highlight ruby %}
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  ```
+  {% endhighlight %}
 
 * 將空的關鍵字分割（splat）傳入一個不接受關鍵字參數的方法不會繼續被當作空雜湊處理，除非空雜湊被作爲一個必要參數，並且這種情況會拋出警告。請移除雙星號将雜湊作爲位置參數傳入。[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  ```ruby
+  {% highlight ruby %}
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  ```
+  {% endhighlight %}
 
 ## 其他值得注意的新特點
 
@@ -115,35 +115,35 @@ end
 
 * 無始範圍試驗性的加入了。他可能沒有無盡範圍那麼有用，但他以 DSL 為目的來說是好的。[Feature #14799](https://bugs.ruby-lang.org/issues/14799)
 
-  ```ruby
+  {% highlight ruby %}
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  ```
+  {% endhighlight %}
 
 * 新增了 `Enumerable#tally`，它將會計算每個元素出現的次數。
 
-  ```ruby
+  {% highlight ruby %}
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  ```
+  {% endhighlight %}
 
 * 允許在 `self` 上調用私有方法 [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297) [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  ```ruby
+  {% highlight ruby %}
   def foo
   end
   private :foo
   self.foo
-  ```
+  {% endhighlight %}
 
 * 新增 `Enumerator::Lazy#eager`。它會產生一個非懶惰的 Enumerator。[[功能 #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  ```ruby
+  {% highlight ruby %}
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  ```
+  {% endhighlight %}
 
 ## 效能改進
 
