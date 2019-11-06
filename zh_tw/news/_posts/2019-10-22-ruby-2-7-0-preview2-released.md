@@ -200,18 +200,21 @@ end
       SHA1:   7d9eed71115acfc8851747517904c1c6809872a9
       SHA256: 417c84346ba84d664a13833c94c6d9f888c89bb9bee9adf469580441eaede30b
       SHA512: 7066ececebbbba4b2933ba1a4f70cdef373169910802259a3e52b4fc144ba298f3cffda4be5fe8a7be8ef769ed43076fa046a9ac2c13bb733475b9852112c6f0
+
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.tar.gz>
 
       SIZE:   16622499 bytes
       SHA1:   5e998eb37ef54e650c0206184d56f506359d5477
       SHA256: bda4b8dc340fad425c8099400fe3ef8e7393837d7e6e1bfae41843d1d938ebc4
       SHA512: dbf05d6ddab59062f507342b25b8c21670b02bdd49e77bda947870607f4bf9049e5e7ddfde6bbce2e1749ca92568da9be3e5f30601b1eb450f10d8add952239a
+
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.tar.xz>
 
       SIZE:   11874200 bytes
       SHA1:   4356e1726027795a5c6b08572bb37bcb5a8c55d6
       SHA256: fa39f088331f6d505154aa9d025aab177fdffedfbbabccd900b8c02e745bc077
       SHA512: a057a186d85fcdf123abd69d584ef3adb20ad4397521e14306395d34102c3d818fe2d34a6476db01effcde479da9a77076cbb6d30bca40f1471ce3f5d3a995a9
+
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.zip>
 
       SIZE:   20576618 bytes
