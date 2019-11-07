@@ -76,5 +76,5 @@ _Bu yönergeler [comp.lang.ruby SSS][clrFAQ]'dan alınmıştır._
 
 
 [ruby-lang]: /tr/
-[faq]: /tr/documentation/faq/
+[faq]: /en/documentation/faq/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
