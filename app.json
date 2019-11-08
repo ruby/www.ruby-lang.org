@@ -1,0 +1,13 @@
+{
+  "environments": {
+    "test": {
+      "env": {
+        "TASK": "ci"
+      },
+      "scripts": {
+        "test-setup": "gem install bundler",
+        "test": "bundle exec rake $TASK"
+      }
+    }
+  }
+}
