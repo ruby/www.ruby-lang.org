@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.6.5 Released"
+title: "루비 2.6.5 릴리스"
 author: "nagachika"
-translator:
+translator: "yous"
 date: 2019-10-01 11:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.6.5 has been released.
+루비 2.6.5가 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test]({% link en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
-* [CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)]({% link en/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
-* [CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?]({% link en/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
-* [CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick's Digest access authentication]({% link en/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
+* [CVE-2019-16255: Shell#[] 및 Shell#test의 코드 주입 취약점]({% link ko/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
+* [CVE-2019-16254: WEBrick의 HTTP 응답 분할 취약점(추가 수정)]({% link ko/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
+* [CVE-2019-15845: File.fnmatch 및 File.fnmatch?의 NUL 주입 취약점]({% link ko/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
+* [CVE-2019-16201: WEBrick Digest 인증의 정규 표현식 서비스 거부 취약점]({% link ko/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_4...v2_6_5) for changes in detail.
+자세한 내용은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_4...v2_6_5)를 확인해주세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "2.6.5" | first %}
 
@@ -51,7 +51,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_4...v2_6_5) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 신고해준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.

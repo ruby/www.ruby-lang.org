@@ -1,30 +1,29 @@
 ---
 layout: news_post
-title: "Ruby 2.4.8 Released"
+title: "루비 2.4.8 릴리스"
 author: "usa"
-translator:
+translator: "yous"
 date: 2019-10-01 11:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.4.8 has been released.
+루비 2.4.8이 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test]({% link en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
-* [CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)]({% link en/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
-* [CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?]({% link en/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
-* [CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick's Digest access authentication]({% link en/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
+* [CVE-2019-16255: Shell#[] 및 Shell#test의 코드 주입 취약점]({% link ko/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
+* [CVE-2019-16254: WEBrick의 HTTP 응답 분할 취약점(추가 수정)]({% link ko/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
+* [CVE-2019-15845: File.fnmatch 및 File.fnmatch?의 NUL 주입 취약점]({% link ko/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
+* [CVE-2019-16201: WEBrick Digest 인증의 정규 표현식 서비스 거부 취약점]({% link ko/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
 
-Ruby 2.4 is now under the state of the security maintenance phase, until
-the end of March of 2020.  After that date, maintenance of Ruby 2.4
-will be ended. We recommend you start planning the migration to newer
-versions of Ruby, such as 2.6 or 2.5.
+루비 2.4는 현재 보안 유지보수 단계이고, 기한은 2020년 3월입니다. 이날 이후 루비
+2.4의 유지보수는 종료됩니다. 루비 2.6, 2.5 등의 새 루비 버전으로 업그레이드할
+계획을 세우길 바랍니다.
 
-__Update (Oct 2nd 4:00 UTC):__ We're working on the issue that the Ruby 2.4.8 release tarball doesn't install under _non-root_ user. Follow [[Bug #16197]](https://bugs.ruby-lang.org/issues/16197) for detailed updates.
+__업데이트(10월 2일 4:00 UTC):__ 루비 2.4.8의 릴리스 tarball이 _루트가 아닌_ 사용자에게 설치되지 않는 문제를 해결하고 있습니다. 자세한 업데이트는 [[Bug #16197]](https://bugs.ruby-lang.org/issues/16197)에서 받아보세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "2.4.8" | first %}
 
@@ -56,6 +55,6 @@ __Update (Oct 2nd 4:00 UTC):__ We're working on the issue that the Ruby 2.4.8 re
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+이 릴리스를 만드는 데 도움을 준 모든 분, 특히 취약점을 보고해준 분에게 감사드립니다.
