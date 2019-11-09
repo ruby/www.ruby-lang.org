@@ -1,0 +1,36 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: build (${{ matrix.ruby }})
+
+    strategy:
+      matrix:
+        ruby: [2.6.3]
+
+    runs-on: ubuntu-latest
+
+    env:
+      # override the Ruby version specified in the Gemfile
+      CUSTOM_RUBY_VERSION: ${{ matrix.ruby }}
+
+    steps:
+      - name: Dump environment
+        run: env | sort
+      - name: Checkout ruby/www.ruby-lang.org
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          architecture: x64
+      - name: Install bundler
+        run: gem install bundler --no-document
+      - name: Install gem bundle
+        run: bundle install
+      - name: Run tests
+        run: bundle exec rake ci
