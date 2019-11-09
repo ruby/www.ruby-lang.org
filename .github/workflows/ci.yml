@@ -4,13 +4,15 @@ on: [push, pull_request]
 
 jobs:
   build:
-    name: build (${{ matrix.ruby }})
+    name: build (${{ matrix.ruby }} / ${{ matrix.os }})
 
     strategy:
       matrix:
         ruby: [2.6.3]
+        os: [ubuntu-latest, macos-latest]
+      fail-fast: false
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
 
     env:
       # override the Ruby version specified in the Gemfile
