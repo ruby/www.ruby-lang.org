@@ -28,9 +28,14 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
           architecture: x64
+      - name: Cache gem bundle
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-bundle-${{ hashFiles('**/Gemfile.lock') }}
       - name: Install bundler
         run: gem install bundler --no-document
       - name: Install gem bundle
-        run: bundle install
+        run: bundle install --path vendor/bundle
       - name: Run tests
         run: bundle exec rake ci
