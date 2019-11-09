@@ -44,8 +44,8 @@ to offset expenses for local and regional groups wanting to organize
 events.
 
 Ruby Central had also teamed up with SVForum (previously known as SDForum)
-to produce the Silicon Valley Ruby Conference, which ran for 2 years for 2006
-and 2007.
+to produce the Silicon Valley Ruby Conference, which took place in 2006
+and in 2007.
 
 [WindyCityRails][9] is an annual gathering for all who are passionate about
 Ruby on Rails. The Chicago-based conference has served the Ruby
