@@ -31,7 +31,8 @@ Burada etkinlik tarihlerini, konumlarını, CFP'leri (Call For Proposals) ve kay
 [Ruby Central][2], [Bölgesel Konferans Hibe Programı][6]nı yönetmektedir.
 Bu program, etkinlikler düzenlemek isteyen yerel ve bölgesel grupların masraflarını denkleştirmeyi amaçlamaktadır.
 
-Ruby Central ayrıca 2006 ve 2007 yılında Silikon Vadisi Ruby Konferansı'nı düzenlemek için [SVForum][7] (önceden SDForum) ile takım halinde çalışmıştır.
+Ruby Central ayrıca 2006 ve 2007 yılında Silikon Vadisi Ruby Konferansı'nı
+düzenlemek için SVForum (önceden SDForum) ile takım halinde çalışmıştır.
 
 [WindyCityRails][9], Ruby on Rails konusunda tutkulu olan herkesi bir araya getiren yıllık bir Ruby konferansıdır.
 Chicago merkezli konferans, Ruby topluluğuna 2008'den beri hizmet etmektedir.
@@ -61,7 +62,6 @@ Ayrıca Ruby Central'in [RailsConf][12]'u, [RailsConf Avrupa][13] (2006'da Ruby 
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.svforum.org
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
