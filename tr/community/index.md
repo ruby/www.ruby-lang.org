@@ -25,9 +25,6 @@ başlangıç önerisi var:
   e-posta listeleri cevap aramak için başvuracağınız ilk kaynaklardan
   biridir.
 
-[Ruby Türkiye IRC Kanalı](irc://irc.freenode.net/ruby-tr)
-: Ruby Türkiye IRC Kanalı.
-
 [Ruby Türkiye Slack Kanalı][ruby-turkiye-slack]
 : Kendi dilinizde sohbet etmek için IRC kanalına alternatif olarak oldukça
   popüler olan bu Slack kanalını da kullanabilirsiniz.
