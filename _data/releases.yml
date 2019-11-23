@@ -21,6 +21,20 @@
 
 # 2.7 series
 
+- version: 2.7.0-preview3
+  date: 2019-11-22
+  post: /en/news/2019/11/22/ruby-2-7-0-preview3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.xz
+  sha256:
+    gz:  54300275a17a0367bab91ad54b51faf3d45955041f0bf69a4612fe7b0179f4f2
+    zip: 3b227bf242de646f7479ec145bc9445e5fc6a24648a3912bfb8ac02b7effcdb7
+    bz2: 09de8d3a014904142b7bc111195ba8094f6eeb59eb529f7bb0512d8b0fc06f5d
+    xz:  aaf3d78e2d7b3d42c668f9f619a016507771552e207f7729b3feba19b13c591a
+
 - version: 2.7.0-preview2
   date: 2019-10-22
   post: /en/news/2019/10/22/ruby-2-7-0-preview2-released/
