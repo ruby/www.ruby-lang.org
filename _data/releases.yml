@@ -23,7 +23,7 @@
 
 - version: 2.7.0-preview3
   date: 2019-11-22
-  post: /en/news/2019/11/22/ruby-2-7-0-preview3-released/
+  post: /en/news/2019/11/23/ruby-2-7-0-preview3-released/
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.zip
