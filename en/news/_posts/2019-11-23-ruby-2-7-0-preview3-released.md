@@ -208,7 +208,7 @@ NOTE: Too many deprecation warnings about keyword argument incompatibility have 
 
 * Promote stdlib to default gems
   * The following default gems was published at rubygems.org
-    * benchmarck
+    * benchmark
     * cgi
     * delegate
     * getoptlong
