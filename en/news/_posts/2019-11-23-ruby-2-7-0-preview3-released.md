@@ -9,7 +9,7 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.7.0-preview3.
 
-A preview version is released to gather feedback for the final release planned to release on December.
+A preview version is released to gather feedback for the final release planned to release in December.
 This preview3 is mainly released to confirm the compatibility of keyword arguments.
 
 It also introduces a number of new features and performance improvements, most notably:
