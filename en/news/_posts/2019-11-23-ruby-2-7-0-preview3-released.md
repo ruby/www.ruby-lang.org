@@ -40,6 +40,7 @@ may be used, and the heap may be more CoW friendly.
 Pattern matching, widely used feature in functional programming languages,
 is introduced as an experimental feature.
 [[Feature #14912]](https://bugs.ruby-lang.org/issues/14912)
+
 It can traverse a given object and assign its value if it matches a pattern.
 
 {% highlight ruby %}
@@ -63,6 +64,7 @@ for a given class, module, or method.
 [[Feature #14683]](https://bugs.ruby-lang.org/issues/14683),
 [[Feature #14787]](https://bugs.ruby-lang.org/issues/14787),
 [[Feature #14918]](https://bugs.ruby-lang.org/issues/14918)
+
 Besides, source lines shown at `binding.irb` and inspect results
 for core-class objects are now colorized.
 
@@ -130,7 +132,7 @@ is deprecated, and conversion will be removed in Ruby 3.
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
   {% endhighlight %}
 
-* <code>**nil</code> is allowed in method definitions to explicitly mark
+* `**nil` is allowed in method definitions to explicitly mark
   that the method accepts no keywords. Calling such a method with keywords
   will result in an ArgumentError.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
@@ -166,7 +168,7 @@ The final decision is not done, but will be fixed by the official release.
 
 ## Other Notable New Features
 
-* A method reference operator, <code>.:</code>, is introduced
+* A method reference operator, `.:`, is introduced
   as an experimental feature in earlier preview, but it reverted.
   [[Feature #12125]](https://bugs.ruby-lang.org/issues/12125),
   [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581),
@@ -303,6 +305,7 @@ The final decision is not done, but will be fixed by the official release.
   [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ reverted
 
 3895 files changed, 213426 insertions(+), 96934 deletions(-)
+
 See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview3/NEWS)
 or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview3)
 for more details.
