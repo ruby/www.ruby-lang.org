@@ -10,7 +10,7 @@ lang: en
 We are pleased to announce the release of Ruby 2.7.0-preview3.
 
 A preview version is released to gather feedback for the final release
-planned to release in December.
+planned for December.
 This preview3 is mainly released to confirm the compatibility of
 keyword arguments.
 
@@ -37,7 +37,7 @@ may be used, and the heap may be more CoW friendly.
 
 ## Pattern Matching [Experimental]
 
-Pattern matching, widely used feature in functional programming languages,
+Pattern matching, a widely used feature in functional programming languages,
 is introduced as an experimental feature.
 [[Feature #14912]](https://bugs.ruby-lang.org/issues/14912)
 
@@ -56,9 +56,9 @@ For more details, please see
 
 ## REPL improvement
 
-`irb`, bundled interactive environment (REPL; Read-Eval-Print-Loop),
-now supports multi-line editing. It's powered by `reline`,
-`readline`-compatible pure Ruby implementation.
+`irb`, the bundled interactive environment (REPL; Read-Eval-Print-Loop),
+now supports multi-line editing. It is powered by `reline`,
+a `readline`-compatible pure Ruby implementation.
 It also provides rdoc integration. In `irb` you can display the reference
 for a given class, module, or method.
 [[Feature #14683]](https://bugs.ruby-lang.org/issues/14683),
@@ -80,9 +80,9 @@ is deprecated, and conversion will be removed in Ruby 3.
 
 * When a method call passes a Hash at the last argument, and when it
   passes no keywords, and when the called method accepts keywords,
-  a warning is emitted.  To continue treating as keywords, add a double
-  splat operator to avoid the warning and ensure correct behavior in
-  Ruby 3.
+  a warning is emitted.  To continue treating the hash as keywords,
+  add a double splat operator to avoid the warning and ensure
+  correct behavior in Ruby 3.
 
   {% highlight ruby %}
   def foo(key: 42); end; foo({key: 42})   # warned
@@ -124,7 +124,7 @@ is deprecated, and conversion will be removed in Ruby 3.
   def foo(opt={});  end; foo( key: 42 )   # OK
   {% endhighlight %}
 
-* Non-symbols are allowed as a keyword argument keys if method accepts
+* Non-symbols are allowed as keyword argument keys if the method accepts
   arbitrary keywords.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
@@ -164,12 +164,12 @@ are discussed; disabling deprecation warnings by default
 ([#16345](https://bugs.ruby-lang.org/issues/16345))
 or suppressing duplicated warnings
 ([#16289](https://bugs.ruby-lang.org/issues/16289)).
-The final decision is not done, but will be fixed by the official release.
+The final decision is not made, but will be fixed by the official release.
 
 ## Other Notable New Features
 
-* A method reference operator, `.:`, is introduced
-  as an experimental feature in earlier preview, but it reverted.
+* A method reference operator, `.:`, was introduced
+  as an experimental feature in earlier previews, but was reverted.
   [[Feature #12125]](https://bugs.ruby-lang.org/issues/12125),
   [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581),
   [[Feature #16275]](https://bugs.ruby-lang.org/issues/16275)
@@ -179,7 +179,7 @@ The final decision is not done, but will be fixed by the official release.
   [[Feature #4475]](https://bugs.ruby-lang.org/issues/4475)
 
 * A beginless range is experimentally introduced.  It might not be
-  as useful as an endless range, but would be good for DSL purpose.
+  as useful as an endless range, but would be good for DSL purposes.
   [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
   {% highlight ruby %}
@@ -195,7 +195,7 @@ The final decision is not done, but will be fixed by the official release.
   {% endhighlight %}
 
 * Calling a private method on `self` is now allowed.
-  [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297)
+  [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297),
   [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
   {% highlight ruby %}
@@ -227,11 +227,11 @@ The final decision is not done, but will be fixed by the official release.
     This optimization is still experimental and many methods are
     NOT considered as pure yet.
 
-  * Default value of `--jit-min-calls` is changed from 5 to 10,000
+  * The default value of `--jit-min-calls` is changed from 5 to 10,000.
 
-  * Default value of `--jit-max-cache` is changed from 1,000 to 100
+  * The default value of `--jit-max-cache` is changed from 1,000 to 100.
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`
+* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`,
   and `nil.to_s` now always return a frozen String.
   The returned String is always the same for a given object.
   [Experimental]
@@ -258,10 +258,10 @@ The final decision is not done, but will be fixed by the official release.
   * RSS 0.2.8
     ([NEWS](https://github.com/ruby/rss/blob/v0.2.8/NEWS.md))
   * StringScanner 1.0.3
-  * Some of other libraries that have no original version are also updated.
+  * Some other libraries that have no original version are also updated.
 
 * Promote stdlib to default gems
-  * The following default gems was published at rubygems.org
+  * The following default gems were published on rubygems.org
     * benchmark
     * cgi
     * delegate
@@ -271,8 +271,8 @@ The final decision is not done, but will be fixed by the official release.
     * open3
     * pstore
     * singleton
-  * The following default gems only promoted ruby-core,
-    Not yet published at rubygems.org.
+  * The following default gems were only promoted at ruby-core,
+    but not yet published on rubygems.org.
     * monitor
     * observer
     * timeout
@@ -301,7 +301,7 @@ The final decision is not done, but will be fixed by the official release.
   * Details of our dialect:
     <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
 
-* ~~Regexp#match{?} with nil raises TypeError as String, Symbol
+* ~~`Regexp#match{?}` with `nil` raises TypeError as String, Symbol.
   [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ reverted
 
 3895 files changed, 213426 insertions(+), 96934 deletions(-)
