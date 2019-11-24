@@ -249,30 +249,35 @@ Enjoy programming with Ruby 2.7!
 
 ## Download
 
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.bz2>
+{% assign release = site.data.releases | where: "version", "2.7.0-preview3" | first %}
 
-      SIZE:   14628168 bytes
-      SHA1:   849a96041202ad3beea82e1069694740d907d583
-      SHA256: 09de8d3a014904142b7bc111195ba8094f6eeb59eb529f7bb0512d8b0fc06f5d
-      SHA512: 661eaff1830546cea9e36f1f5a3cb591d792a17ad18d2c00bd097d53757bf321f0d192ddb3c8fdc75c28a0ecbef587e433ad1b345cdeeb4aa6a4744f7e828fbb
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.gz>
+* <{{ release.url.bz2 }}>
 
-      SIZE:   16715144 bytes
-      SHA1:   a90300e13b4c8778c798e60b7d782f9808cfe492
-      SHA256: 54300275a17a0367bab91ad54b51faf3d45955041f0bf69a4612fe7b0179f4f2
-      SHA512: 9083525de830a4b2e8685681dfaa3bce14cc1ed7360f5540211f6aa97967e316983554596adf442dda52041245e31ec42bffd1982d28ad5e5c4c230be3fa7d62
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.xz>
+      SIZE: {{ release.size.bz2 }}
+      SHA1: {{ release.sha1.bz2 }}
+      SHA256: {{ release.sha256.bz2 }}
+      SHA512: {{ release.sha512.bz2 }}
 
-      SIZE:   11926312 bytes
-      SHA1:   b40a6c8c11a0ba7c0d9f1548358da7c662673852
-      SHA256: aaf3d78e2d7b3d42c668f9f619a016507771552e207f7729b3feba19b13c591a
-      SHA512: 2a38ac56d63522bf998eaca755fa395ce490b4eaaa065b3345e9f4b57f6a1407b8089735b3dcdf6af9b761a9efe963f716f755867955e69c52e2ab5f0680e974
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.zip>
+* <{{ release.url.gz }}>
 
-      SIZE:   20689945 bytes
-      SHA1:   0de6f8922f7be5b4341ad66e69f309473ba7b905
-      SHA256: 3b227bf242de646f7479ec145bc9445e5fc6a24648a3912bfb8ac02b7effcdb7
-      SHA512: a44bca1cd93e916ec137d65a0e844f1ea84f4d64409f8e2522c9bbcc16f43a61f3bdb5ff8821de62349678da344056b774762d6e625df9ee36fa66d08e244dce
+      SIZE: {{ release.size.gz }}
+      SHA1: {{ release.sha1.gz }}
+      SHA256: {{ release.sha256.gz }}
+      SHA512: {{ release.sha512.gz }}
+
+* <{{ release.url.xz }}>
+
+      SIZE: {{ release.size.xz }}
+      SHA1: {{ release.sha1.xz }}
+      SHA256: {{ release.sha256.xz }}
+      SHA512: {{ release.sha512.xz }}
+
+* <{{ release.url.zip }}>
+
+      SIZE: {{ release.size.zip }}
+      SHA1: {{ release.sha1.zip }}
+      SHA256: {{ release.sha256.zip }}
+      SHA512: {{ release.sha512.zip }}
 
 ## What is Ruby
 

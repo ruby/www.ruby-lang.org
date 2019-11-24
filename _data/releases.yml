@@ -25,15 +25,30 @@
   date: 2019-11-22
   post: /en/news/2019/11/23/ruby-2-7-0-preview3-released/
   url:
-    gz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.gz
-    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.zip
     bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.bz2
-    xz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.xz
+    gz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.zip
+  size:
+    bz2: 14630824
+    gz: 16723536
+    xz: 11923988
+    zip: 20691541
+  sha1:
+    bz2: 1fa35d8a26dfc814e92fa259095f4cf70f386f87
+    gz: 7554926ee29a344da4b53d67fc296d70fdbe60ca
+    xz: f3c54538915483e5ddc714ac23414e7c47048b12
+    zip: d18b494cda4db751d8b3f5026404e348f3f682e3
   sha256:
-    gz:  54300275a17a0367bab91ad54b51faf3d45955041f0bf69a4612fe7b0179f4f2
-    zip: 3b227bf242de646f7479ec145bc9445e5fc6a24648a3912bfb8ac02b7effcdb7
-    bz2: 09de8d3a014904142b7bc111195ba8094f6eeb59eb529f7bb0512d8b0fc06f5d
-    xz:  aaf3d78e2d7b3d42c668f9f619a016507771552e207f7729b3feba19b13c591a
+    bz2: df2ddee659873e6fc30a8590ecffa49cf3a4ef81fa922b0d09f821b69ee88bc3
+    gz: 9baa1f5096ebc2a0923df628d7dc7105da3789c1bf8b873469d9010249736b00
+    xz: ad9d61e55ac224e3447a762e001965839846f9658f87a0e792840887cfe61b8c
+    zip: 2bc95f67f271b6a41fc3dd40536705b4a7974df8a2fa33ff0758a60822291781
+  sha512:
+    bz2: 5d8e99e3fd984c7d05c0bc483e1504e81ccdb920cbb2d78cad3c314e197b30316b692fd0199f836acac41246e3a713cb81dc6dd64c27cba56f807df4c193db1a
+    gz: 8fad3e761fd54036fee974a9f33e4db31d9a8a878b1181a08724388f5a1da548ab249136356f675797e9c43b565777bf22e6a419db1364336f134b31f4e75b33
+    xz: 2b6844f34d32f1013dc3110043e6ece33a083b20f1343dea9a14311bda0017e8f56fc7d73be1616999b22ce430d7ba59a77bb0892d27c6d1ec243c3860086133
+    zip: af9f728aebc53693cbd9f78a632c82e851e9f83dfc0c53979fdc37c627b11482c8435ce12dbb1d5a7253e998ea989759be699e6a00aae18384d2d765650cb0d7
 
 - version: 2.7.0-preview2
   date: 2019-10-22
