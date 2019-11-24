@@ -177,7 +177,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * 以下のライブラリが新たに default gems になりました
   * 以下のライブラリは rubygems.org からアップデート可能です。
-    * benchmarck
+    * benchmark
     * cgi
     * delegate
     * getoptlong
