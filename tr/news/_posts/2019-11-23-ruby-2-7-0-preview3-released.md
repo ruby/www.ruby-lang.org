@@ -64,7 +64,7 @@ Anahtar kelime argümanlarının ve konumsal argümanların otomatik dönüştü
 [[Özellik #14183]](https://bugs.ruby-lang.org/issues/14183)
 
 * Eğer bir metod çağrısı son argümanı olarak bir Hash geçirirse, ve hiç anahtar kelime geçirmezse, ve çağrılan metod anahtar kelimeler kabul ediyorsa, bir uyarı yayınlanır.
-  Anahtar kelime olarak anlaşılmasını sağlamak, uyarıdan kaçınmak ve Ruby 3'te doğru davranıştan emin olmak için çift yıldız operatörü ekleyin.
+  Hash'in anahtar kelime olarak anlaşılmasını sağlamak, uyarıdan kaçınmak ve Ruby 3'te doğru davranıştan emin olmak için çift yıldız operatörü ekleyin.
 
   {% highlight ruby %}
   def foo(key: 42); end; foo({key: 42})   # uyarı yayınlanır
@@ -106,7 +106,7 @@ Anahtar kelime argümanlarının ve konumsal argümanların otomatik dönüştü
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
   {% endhighlight %}
 
-* Harici olarak metodun anahtar kelime almadığını belirtmek için metod tanımlarında <code>**nil</code> kullanılabilir.
+* Harici olarak metodun anahtar kelime almadığını belirtmek için metod tanımlarında `**nil` kullanılabilir.
   Böyle bir metodu anahtar kelimeler ile çağırmak ArgumentError ile sonuçlanır.
   [[Özellik #14183]](https://bugs.ruby-lang.org/issues/14183)
 
@@ -136,7 +136,7 @@ Son karar verilmedi fakat bu sorun resmi yayında düzeltilecek.
 
 ## Dikkate Değer Diğer Yeni Özellikler
 
-* Bir metod referans operatörü (<code>.:</code>), daha önceki bir önizleme sürümünde deneysel bir özellik olarak eklendi fakat geri alındı.
+* Bir metod referans operatörü (`.:`), daha önceki bir önizleme sürümünde deneysel bir özellik olarak eklendi fakat geri alındı.
   [[Özellik #12125]]( https://bugs.ruby-lang.org/issues/12125), [[Özellik #13581]]( https://bugs.ruby-lang.org/issues/13581), [[Özellik #16275]](https://bugs.ruby-lang.org/issues/16275)
 
 * Varsayılan blok parametresi olarak numaralanmış parametre, deneysel bir özellik olarak eklendi.
@@ -160,7 +160,7 @@ Son karar verilmedi fakat bu sorun resmi yayında düzeltilecek.
   {% endhighlight %}
 
 * `self` üstünden özel bir metodu çağırmaya artık izin verilmiyor.
-  [[Özellik #11297]](https://bugs.ruby-lang.org/issues/11297) [[Özellik #16123]](https://bugs.ruby-lang.org/issues/16123)
+  [[Özellik #11297]](https://bugs.ruby-lang.org/issues/11297), [[Özellik #16123]](https://bugs.ruby-lang.org/issues/16123)
 
   {% highlight ruby %}
   def foo
@@ -251,7 +251,7 @@ Döndürülen String, belirli bir nesne için her zaman aynıdır.
   [[Diğer #15347]](https://bugs.ruby-lang.org/issues/15347)
   * Lehçemizin ayrıntıları: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
 
-* ~~nil ile Regexp#match{?} (String ve Symbol olarak) TypeError yükseltir [[Özellik #13083]](https://bugs.ruby-lang.org/issues/13083)~~ geri alındı
+* ~~`nil` ile `Regexp#match{?}` (String ve Symbol olarak) TypeError yükseltir [[Özellik #13083]](https://bugs.ruby-lang.org/issues/13083)~~ geri alındı
 
  3895 dosya değişti, 213426 ekleme(+), 96934 silme(-) yapıldı
 Daha fazla ayrıntı için [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview3/NEWS)'e ya da [işleme günlükleri](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview3)ne bakın.
