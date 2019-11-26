@@ -16,14 +16,14 @@ describe Linter do
 
   it "can run ok" do
     Dir.chdir @md_ok
-    stdout, stderr = capture_io { Linter.new(exit_on_errors: false).run }
+    stdout, _stderr = capture_io { Linter.new(exit_on_errors: false).run }
 
     stdout.must_equal @output_ok
   end
 
   it "can find errors" do
     Dir.chdir @md_errors
-    stdout, stderr = capture_io { Linter.new(exit_on_errors: false).run }
+    stdout, _stderr = capture_io { Linter.new(exit_on_errors: false).run }
 
     stdout.must_equal @output_errors
   end
