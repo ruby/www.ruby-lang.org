@@ -40,4 +40,4 @@ jobs:
       - name: Install gem bundle
         run: bundle install --path vendor/bundle
       - name: Run tests
-        run: bundle exec rake ci
+        run: bundle exec rake test
