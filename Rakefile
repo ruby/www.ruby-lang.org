@@ -104,11 +104,11 @@ namespace :new_post do
   end
 end
 
-desc "Alias for `check'"
-task :test => [:check]
+desc "Alias for `lint'"
+task :test => [:lint]
 
-desc "Run some tests on markdown files"
-task :check do
+desc "Run linter on markdown files"
+task :lint do
   require_relative "lib/linter"
   Linter.new.run
 end
