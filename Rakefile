@@ -12,7 +12,7 @@ LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 CONFIG = "_config.yml"
 
 task :default => [:build]
-task :ci      => [:test, :build]
+task :ci      => [:test]
 
 desc "Build the Jekyll site"
 task :build do
@@ -104,8 +104,8 @@ namespace :new_post do
   end
 end
 
-desc "Alias for `lint'"
-task :test => [:lint]
+desc "Run tests (lint, build)"
+task :test => [:lint, :build]
 
 desc "Run linter on markdown files"
 task :lint do
