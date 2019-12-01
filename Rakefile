@@ -13,6 +13,9 @@ CONFIG = "_config.yml"
 
 task :default => [:build]
 
+desc "Run tests (lint, build)"
+task :test => [:lint, :build]
+
 desc "Build the Jekyll site"
 task :build do
   require "lanyon"
@@ -102,9 +105,6 @@ namespace :new_post do
     end
   end
 end
-
-desc "Run tests (lint, build)"
-task :test => [:lint, :build]
 
 desc "Run linter on markdown files"
 task :lint do
