@@ -4,8 +4,6 @@ title: "Télécharger Ruby"
 lang: fr
 ---
 
-{% include out-of-date.html %}
-
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
 version stable actuelle est la {{ site.data.downloads.stable[0] }}.
 N’oubliez pas de consulter la [licence Ruby][license].
@@ -40,8 +38,27 @@ Ruby à partir des sources. Si vous rencontrez des difficultés en compilant Rub
 envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
-* **Dernière version stable :**
-  Ruby {{ site.data.downloads.stable[0] }}
+* **Versions stables:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+
+{% if site.data.downloads.preview %}
+* **Versions d'aperçu :**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
+{% if site.data.downloads.security_maintenance %}
+* **En maintenance de sécurité (sera bientôt EOL!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
+{% if site.data.downloads.eol %}
+* **Versions plus maintenues (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
 
 * **Snapshots :**
   * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
@@ -57,9 +74,10 @@ Les sources de Ruby sont disponibles depuis des [miroirs][mirrors] répartis dan
 Utilisez s'il-vous-plaît un miroir proche de vous.
 
 
-
 [license]: {{ site.license.url }}
 [installation]: /fr/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
