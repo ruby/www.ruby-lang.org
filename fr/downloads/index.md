@@ -38,7 +38,7 @@ Ruby à partir des sources. Si vous rencontrez des difficultés en compilant Rub
 envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
-* **Dernière versions stables:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
+* **Dernières versions stables:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 
