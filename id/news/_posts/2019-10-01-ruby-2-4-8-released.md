@@ -12,10 +12,10 @@ Ruby 2.4.8 telah dirilis.
 Rilis ini mencakup perbaikan keamanan.
 Mohon cek topik-topik di bawah ini untuk lebih detail.
 
-* [CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test]({% link en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
-* [CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)]({% link en/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
-* [CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?]({% link en/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
-* [CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick's Digest access authentication]({% link en/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
+* [CVE-2019-16255: Sebuah kerentanan injeksi kode dari Shell#[] dan Shell#test]({% link id/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
+* [CVE-2019-16254: Pemisahan respons HTTP pada WEBrick (Perbaikan tambahan)]({% link id/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
+* [CVE-2019-15845: Sebuah kerentanan injeksi NUL dari File.fnmatch dan File.fnmatch?]({% link id/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
+* [CVE-2019-16201: Kerentanan Regular Expression Denial of Service dari WEBrick's Digest access authentication]({% link id/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
 
 Ruby 2.4 saat ini berada pada fase pemeliharaan keamanan hingga akhir bulan
 Maret 2020. Setelah bulan tersebut, pemeliharaan Ruby 2.4 akan berakhir. Kami
