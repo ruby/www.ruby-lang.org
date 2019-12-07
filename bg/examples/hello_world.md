@@ -5,7 +5,8 @@ layout: null
 {% highlight ruby %}
 # The famous Hello World
 # Program is trivial in
-# Ruby. Superfluous:
+# Ruby. 
+# Son superfluos:
 #
 # * A "main" method
 # * Newline
