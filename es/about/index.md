@@ -33,16 +33,14 @@ ciudades más importantes del mundo y llenando las capacidades de las
 conferencias relacionadas a Ruby.
 
 Ruby-Talk, la [lista de correo](/es/community/mailing-lists/) más
-importante sobre el lenguaje Ruby ha crecido hasta lograr un promedio de
-200 mensajes por día.
+importante sobre el lenguaje Ruby creció hasta lograr un promedio de
+200 mensajes por día en el 2006. Se ha reducido en los últimos años a medida que el tamaño de la comunidad movió la discusión de una lista central a muchos grupos más pequeños.
 
 El [índice TIOBE][tiobe], que mide el crecimiento de los lenguajes de
-programación, ubica a Ruby en la posición #13 del ranking mundial.
-Refiriéndose a su crecimiento, predicen, “Todo indica que Ruby llegará a
-estar entre los 10 primeros en menos de 6 meses”. Gran parte de su
-crecimiento se atribuye a la popularidad alcanzada por aplicaciones
-desarrolladas con Ruby, en particular el framework de desarrollo web
-[Ruby on Rails][ror].
+programación, ubica a Ruby entre los diez mejore del ranking mundial.
+Gran parte del crecimiento se atribuye a la
+popularidad del software escrito en Ruby, particularmente el
+framework [Ruby on Rails] [ror].
 
 Ruby es [totalmente libre]({{ site.license.url }}). No sólo gratis, sino también
 libre para usarlo, copiarlo, modificarlo y distribuirlo.
@@ -188,6 +186,26 @@ encuentran las siguientes:
 * Ruby es fácilmente portable: se desarrolla mayoritariamente en
   GNU/Linux, pero corre en varios tipos de UNIX, macOS,
   Windows, DOS, BeOS, OS/2, etc.
+
+### Otras implementaciones de Ruby
+
+Ruby, como lenguaje, tiene algunas implementaciones diferentes. Esta página ha estado discutiendo la implementación de referencia, en la comunidad a menudo referida como **MRI** ("Matz’s Ruby Interpreter") o **CRuby** (ya que está escrito en C), pero también hay otros.
+
+Ellos on útiles en ciertas situaciones, proporcionan una integración adicional a otros lenguajes o entornos, o tienen características especiales que **MRI** no tiene.
+
+Aquí hay una lista:
+
+* [JRuby][jruby] es Ruby encima de la JVM (Máquina Virtual Java), utilizando los compiladores JIT de optimización de JVM, recolectores de basura, hilos concurrentes, ecosistema de herramientas y una vasta colección de bibliotecas.
+* [Rubinius][rubinius] es "Ruby escrito en Ruby". Construido sobre LLVM, Rubinius luce una ingeniosa máquina virtual sobre la que también se están construyendo otros idiomas.
+* [TruffleRuby][truffleruby] una implementación de Ruby de alto rendimiento sobre GraalVM.
+* [mruby][mruby] es una implementación ligera del lenguaje Ruby que se puede vincular e incrustar dentro de una aplicación.
+Su desarrollo es liderado por el creador de Ruby, Yukihiro "Matz" Matsumoto.
+* [IronRuby][ironruby] es una implementación "estrechamente integrada con el marco de trabajo .NET".
+* [MagLev][maglev] es "una implementación de Ruby rápida y estable con persistencia de objetos integrada y caché compartida distribuida".
+* [Cardinal][cardinal] es un "compilador Ruby para la máquina virtual [Parrot][parrot]”
+  (Perl 6).
+
+Para una lista más completa, vea [Awesome Rubies][awesome-rubies].
 
 ### Referencias
 
