@@ -50,11 +50,6 @@ the [installation guide](installation/) for help on installing Ruby.
 : The seminal work on Ruby in English, this first edition of the
   [Pragmatic Programmers’ book][10] is available for free online.
 
-[Ruby User’s Guide][11]
-: Translated from the original Japanese version written by Yukihiro
-  Matsumoto (the creator of Ruby), this version, by Goto Kentaro and
-  Mark Slagell, is a nice overview of many aspects of the Ruby language.
-
 [The Ruby Programming Wikibook][12]
 : A free online manual with beginner and intermediate content plus a
   thorough language reference.
@@ -139,7 +134,6 @@ If you have questions about Ruby the
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
