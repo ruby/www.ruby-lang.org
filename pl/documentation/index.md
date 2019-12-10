@@ -66,11 +66,6 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   wydanie książki zostało wydane w języku polskim pod tytułem:
   "Programowanie w języku Ruby".
 
-[Ruby User’s Guide][11]
-: Przetłumaczone z orzginalnej japońskiej wersji napisanej przez Yukihiro
-  Matsumoto (twórca Rubiego), ta wersja, napisana przez Goto Kentaro i
-  Marka Slagella jest dobrym przeglądem wielu aspektów języka Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Darmowy manual z materiałem dla początkujących i średnio zaawansowanych
   wraz z dokładnymi odniesieniami.
@@ -145,7 +140,6 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/

@@ -63,12 +63,6 @@ isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
   kaynakları arasında hatırı sayılır bir yere sahip olan bu kitabı,
   çevrimiçi okuyabilirsiniz.
 
-[Ruby Kullanıcı Kılavuzu][ruby-kullanici-kilavuzu] (Türkçe)
-: Ruby diliyle ilgili pek çok alanda hoş görüşler sunan bu belgenin
-  orijinali Yukihiro Matsumoto (Ruby’nin yaratıcısı) tarafından yazılmış
-  olup, Goto Kentaro ve Mark Slagell tarafından [İngilizce’ye][11], Pınar
-  Yanardağ tarafından da Türkçe’ye çevirilmiştir.
-
 [Ruby Programming Vikikitabı][12]
 : Başlangıç ve ileri düzeyde içeriğe sahip olan çevrimiçi, tam bir dil
   başvurusu da sunan bir kitapçık.
@@ -153,7 +147,6 @@ olacaktır.
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/

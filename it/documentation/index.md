@@ -62,13 +62,6 @@ ed arrivano fino alla programmazione OOP e lo sviluppo web.
   prima edizione del [Pragmatic Programmers’ book][10] è disponibile
   online gratuitamente.
 
-[Ruby User’s Guide][11]
-: Tradotto in inglese dalla versione originale Giapponese scritta da
-  Yukihiro Matsumoto (il creatore di Ruby).
-  Questa traduzione, curata da Goto Kentaro e Mark Slagell, è
-  un’eccellente punto di partenza per imparare molti aspetti importanti
-  del linguaggio Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Un manuale online gratuito per persone con conoscenze di livello base
   o intermedio, contenente anche delle parti di riferimento complete.
@@ -143,7 +136,6 @@ iniziare.
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
