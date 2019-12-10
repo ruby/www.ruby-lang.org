@@ -7,17 +7,17 @@ date: 2019-10-01 11:00:00 +0000
 lang: id
 ---
 
-Ruby 2.6.5 telah dirilis
+Ruby 2.6.5 telah dirilis.
 
 Rilis ini meliputi beberapa perbaikan keamanan.
-Silakan cek topik - topik dibawah ini untuk detailnya.
+Silakan cek topik-topik dibawah ini untuk detailnya.
 
-* [CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test]({% link en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
-* [CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)]({% link en/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
-* [CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?]({% link en/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
-* [CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick's Digest access authentication]({% link en/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
+* [CVE-2019-16255: Sebuah kerentanan injeksi kode dari Shell#[] dan Shell#test]({% link id/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
+* [CVE-2019-16254: Pemisahan respons HTTP pada WEBrick (Perbaikan tambahan)]({% link id/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
+* [CVE-2019-15845: Sebuah kerentanan injeksi NUL dari File.fnmatch dan File.fnmatch?]({% link id/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
+* [CVE-2019-16201: Kerentanan Regular Expression Denial of Service dari WEBrick's Digest access authentication]({% link id/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
 
-Silakan lihat [commit logs](https://github.com/ruby/ruby/compare/v2_6_4...v2_6_5) untuk detil perubahannya.
+Silakan lihat [commit logs](https://github.com/ruby/ruby/compare/v2_6_4...v2_6_5) untuk detail perubahannya.
 
 ## Unduh
 
@@ -54,5 +54,5 @@ Silakan lihat [commit logs](https://github.com/ruby/ruby/compare/v2_6_4...v2_6_5
 ## Komentar Rilis
 
 Banyak _committer_, pengembang, dan pengguna yang memberikan
-laporan _bug_ telah membantu kami untuk membuat rilis ini
+laporan _bug_ telah membantu kami untuk membuat rilis ini.
 Terima kasih atas kontribusinya.
