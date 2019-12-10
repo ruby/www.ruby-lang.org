@@ -71,11 +71,6 @@ diversas maneiras de obter o Ruby.
 : Trabalho seminal de Ruby em inglês, a primeira edição do [Pragmatic
   Programmers’ book][10] está disponível gratuitamente online.
 
-[Ruby User’s Guide][11]
-: Traduzido do original em japonês escrito por Yukihiro Matsumoto (o
-  criador do Ruby), esta versão, por Goto Kentaro e Mark Slagell,
-  é uma boa visão sobre muitos aspectos da linguagem Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Manual online gratuito, com conteúdo para iniciantes e intermediário,
   além de uma referência completa para a linguagem.
@@ -153,7 +148,6 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [8]: http://aprendaaprogramar.rubyonrails.com.br/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/

@@ -39,11 +39,6 @@ Ruby-Programmieren sicher nützlich sein werden.
 : Dies ist die erste Auflage des bekannten Pickaxe-Buches der
   Pragmatic Programmers. Es ist kostenlos im Internet verfügbar (englisch).
 
-[Ruby User’s Guide][7]
-: Übersetzung der japanischen Version von Yukihiro Matsumoto (der Vater
-  von Ruby), diese Seite bietet einen Überblick über viele Aspekte der
-  Programmiersprache Ruby (englisch).
-
 [Programmieren mit Ruby][8]
 : Ein deutschsprachiges Buch zum Thema Ruby von Armin Roehrl, Stefan
   Schmiedl und Clemens Wyss. Es steht vollständig kostenlos im Internet
@@ -83,7 +78,6 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [4]: http://www.moccasoft.de/papers/ruby_tutorial
 [5]: http://pine.fm/LearnToProgram/
 [6]: http://www.ruby-doc.org/docs/ProgrammingRuby/
-[7]: http://www.rubyist.net/~slagell/ruby/
 [8]: http://www.approximity.com/rubybuch2/
 [9]: http://www.ruby-doc.org/core
 [10]: http://www.ruby-doc.org/stdlib

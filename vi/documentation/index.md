@@ -70,11 +70,6 @@ việc cài đặt Ruby.
 : Hội thảo làm việc trên Ruby bằng Tiếng Anh, phiên bản đầu tiên
   [Sách của Lập trình viên thực dụng][10] hiện đang được miễn phí trực tuyến.
 
-[Hướng dẫn người sử dụng Ruby][11]
-: Được dịch từ bản gốc Tiếng Nhật của tác giả Yukihiro Matsumoto (Cha đẻ của
-  Ruby), phiên bản này được dịch bởi Goto Kentaro và Mark Slagell là tổng quan
-  tốt về rất nhiều khía cạnh của ngôn ngữ Ruby.
-
 [Sách bách khoa lập trình Ruby][12]
 : Một hướng dẫn trực tuyến miễn phí với người mới bắt đầu và nội dung trung
   cấp cộng với một tài liệu tham khảo ngôn ngữ chi tiết.
@@ -152,7 +147,6 @@ là một nơi tuyệt vời.
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/

@@ -51,11 +51,6 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
 : Ini salah satu karya penting untuk pemrograman Ruby dalam Bahasa Inggris.
   Edisi pertama [Pragmatic Programmers’ book][10] ini tersedia gratis *online*.
 
-[Ruby User’s Guide][11]
-: Diterjemahkan dari versi Jepang asli ditulis oleh Yukihiro
-  Matsumoto (pencipta Ruby), versi ini, oleh Goto Kentaro dan
-  Mark Slagell adalah gambaran baik dari banyak aspek dari bahasa Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Manual *online* gratis dengan konten untuk pemula dan menengah ditambah
   referensi bahasa Ruby secara menyeluruh.
@@ -141,7 +136,6 @@ adalah tempat yang baik untuk memulai.
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/

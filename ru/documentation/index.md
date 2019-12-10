@@ -70,11 +70,6 @@ ruby -v
 : Основополагающая работа по Ruby на английском в первом издании,
   [книга от Pragmatic Programmers][10], доступна бесплатно онлайн.
 
-[Ruby User’s Guide][11]
-: Переведенная с японского языка версия, написанная Yukihiro Matsumoto
-  (создатель Ruby), эта версия Goto Kentaro и Mark Slagell является
-  отличным обзором многих аспектов языка Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Бесплатное онлайн-руководство для начинающих и продвинутых, плюс
   полная документация языка.
@@ -148,7 +143,6 @@ ruby -v
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/

@@ -52,9 +52,6 @@ ruby -v
 [Programming Ruby][9]
 : 最有影响的 Ruby 英文教材，[Pragmatic Programmers 出版的第一版][10]可以在网上免费阅读。
 
-[Ruby 用户指南][11]
-: 译自松本行弘（Ruby 的发明者）的日文版原作，Goto Kentaro 和 Mark Slagell 在这部教材里介绍了 Ruby 各个方面的功能。
-
 [Ruby 编程百科全书][12]
 : 免费的在线语言参考资料，内容从 Ruby 初级到中级。
 
@@ -118,7 +115,6 @@ ruby -v
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/

@@ -66,11 +66,6 @@ ruby -v
 : Първото издание на книгата [Pragmatic Programmers][10], напълно
   безплатно.
 
-[Ruby User’s Guide][11]
-: Ръководството е превод на оригинала от Yukihiro Matsumoto (създателя
-  на Ruby). Тази версия (от Goto Kentaro и Mark Slagell) представя много
-  аспекти от програмирането на Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Безплатно online ръководство със съдържание за начинаещи и средно
   напреднали.
@@ -142,7 +137,6 @@ ruby -v
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
