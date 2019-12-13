@@ -21,41 +21,6 @@ sitelinks:
 search:
   text: Buscar
 
-month_names:
-- Enero
-- Febrero
-- Marzo
-- Abril
-- Mayo
-- Junio
-- Julio
-- Agosto
-- Septiembre
-- Octubre
-- Noviembre
-- Diciembre
-
-posted_by: Publicado por AUTHOR el %Y-%m-%d
-translated_by: Traducción de
-
-feed:
-  title: Noticias de Ruby por RSS
-  description: Las últimas noticias de ruby-lang.org en español.
-  lang_code: es-ES
-
-news:
-  other_news: Otras noticias
-  more_news: Más noticias...
-  continue: Continuar leyendo...
-  back_to_year: Volver a las noticias de %Y
-  recent_news: Noticias recientes
-  yearly_archive_title: Noticias de %Y
-  monthly_archive_title: Noticias de %B %Y
-  yearly_archives: Noticias por año
-  monthly_archives: Noticias por mes
-  yearly_archive_link: Noticias de %Y
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Iníciate</strong>, ¡es fácil!
@@ -109,6 +74,50 @@ sidebar:
       text: En español
       url: /es/feeds/news.rss
 
+languages_heading:
+
+credits:
+  Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
+  y es orgullosamente mantenido por miembros de la comunidad. Si quieres
+  contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+  o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+  si tienes preguntas o comentarios.
+
+month_names:
+- Enero
+- Febrero
+- Marzo
+- Abril
+- Mayo
+- Junio
+- Julio
+- Agosto
+- Septiembre
+- Octubre
+- Noviembre
+- Diciembre
+
+posted_by: Publicado por AUTHOR el %Y-%m-%d
+translated_by: Traducción de
+
+feed:
+  title: Noticias de Ruby por RSS
+  description: Las últimas noticias de ruby-lang.org en español.
+  lang_code: es-ES
+
+news:
+  other_news: Otras noticias
+  more_news: Más noticias...
+  continue: Continuar leyendo...
+  back_to_year: Volver a las noticias de %Y
+  recent_news: Noticias recientes
+  yearly_archive_title: Noticias de %Y
+  monthly_archive_title: Noticias de %B %Y
+  yearly_archives: Noticias por año
+  monthly_archives: Noticias por mes
+  yearly_archive_link: Noticias de %Y
+  monthly_archive_link: "%B %Y"
+
 subscription_form:
   list: Lista de correo
   first_name: Nombre
@@ -118,12 +127,3 @@ subscription_form:
   subscribe: Subscribe
   unsubscribe: Unsubscribe
   submit: Enviar
-
-languages_heading:
-
-credits:
-  Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
-  y es orgullosamente mantenido por miembros de la comunidad. Si quieres
-  contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
-  o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-  si tienes preguntas o comentarios.

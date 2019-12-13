@@ -21,41 +21,6 @@ sitelinks:
 search:
   text: Поиск
 
-month_names:
-- Январь
-- Февраль
-- Март
-- Апрель
-- Май
-- Июнь
-- Июль
-- Август
-- Сентябрь
-- Октябрь
-- Ноябрь
-- Декабрь
-
-posted_by: Опубликовал AUTHOR %Y-%m-%d
-translated_by: 'Перевел:'
-
-feed:
-  title: Новости Ruby
-  description: Последние новости с ruby-lang.org.
-  lang_code: ru-RU
-
-news:
-  other_news: Другие новости
-  more_news: Больше новостей...
-  continue: Узнать больше...
-  back_to_year: Вернуться к архивам %Y года
-  recent_news: Последние новости
-  yearly_archive_title: Архивы %Y года
-  monthly_archive_title: Архивы %B %Y
-  yearly_archives: Архивы по годам
-  monthly_archives: Архивы по месяцам
-  yearly_archive_link: Архивы %Y
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Начните сейчас</strong>, это легко!
@@ -110,6 +75,47 @@ sidebar:
       text: Последние новости (RSS)
       url: /ru/feeds/news.rss
 
+languages_heading: 'Этот сайт на других языках:'
+
+credits:
+  <a href="/ru/about/website/">Этот сайт</a>
+  с гордостью поддерживается членами сообщества Ruby.
+
+month_names:
+- Январь
+- Февраль
+- Март
+- Апрель
+- Май
+- Июнь
+- Июль
+- Август
+- Сентябрь
+- Октябрь
+- Ноябрь
+- Декабрь
+
+posted_by: Опубликовал AUTHOR %Y-%m-%d
+translated_by: 'Перевел:'
+
+feed:
+  title: Новости Ruby
+  description: Последние новости с ruby-lang.org.
+  lang_code: ru-RU
+
+news:
+  other_news: Другие новости
+  more_news: Больше новостей...
+  continue: Узнать больше...
+  back_to_year: Вернуться к архивам %Y года
+  recent_news: Последние новости
+  yearly_archive_title: Архивы %Y года
+  monthly_archive_title: Архивы %B %Y
+  yearly_archives: Архивы по годам
+  monthly_archives: Архивы по месяцам
+  yearly_archive_link: Архивы %Y
+  monthly_archive_link: "%B %Y"
+
 subscription_form:
   list: Почтовая рассылка
   first_name: Имя
@@ -119,9 +125,3 @@ subscription_form:
   subscribe: Подписаться
   unsubscribe: Отписаться
   submit: Отправить
-
-languages_heading: 'Этот сайт на других языках:'
-
-credits:
-  <a href="/ru/about/website/">Этот сайт</a>
-  с гордостью поддерживается членами сообщества Ruby.

@@ -24,29 +24,6 @@ search:
   text: 検索
   cx_id: '008288045305770251182:fvruzsaknew'
 
-month_names:
-
-posted_by:
-translated_by:
-
-feed:
-  title: ruby-langの最新ニュース
-  description: ruby-lang.orgの最新ニュース
-  lang_code: ja
-
-news:
-  other_news: その他のニュース
-  more_news: もっと読む...
-  continue: もっと読む...
-  back_to_year: "%Y年のアーカイブに戻る"
-  recent_news: 最近のニュース
-  yearly_archive_title: "%Y年のアーカイブ"
-  monthly_archive_title: "%Y年%m月のアーカイブ"
-  yearly_archives: 年毎のアーカイブ
-  monthly_archives: 月毎のアーカイブ
-  yearly_archive_link: "%Y年のアーカイブ"
-  monthly_archive_link: "%Y年%m月"
-
 sidebar:
   get_started:
     text: <strong>はじめよう!</strong>
@@ -103,9 +80,32 @@ sidebar:
       text: 最近のニュース (RSS)
       url: /ja/feeds/news.rss
 
-subscription_form:
-
 languages_heading:
 
 credits:
   <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
+
+month_names:
+
+posted_by:
+translated_by:
+
+feed:
+  title: ruby-langの最新ニュース
+  description: ruby-lang.orgの最新ニュース
+  lang_code: ja
+
+news:
+  other_news: その他のニュース
+  more_news: もっと読む...
+  continue: もっと読む...
+  back_to_year: "%Y年のアーカイブに戻る"
+  recent_news: 最近のニュース
+  yearly_archive_title: "%Y年のアーカイブ"
+  monthly_archive_title: "%Y年%m月のアーカイブ"
+  yearly_archives: 年毎のアーカイブ
+  monthly_archives: 月毎のアーカイブ
+  yearly_archive_link: "%Y年のアーカイブ"
+  monthly_archive_link: "%Y年%m月"
+
+subscription_form:

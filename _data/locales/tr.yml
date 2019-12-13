@@ -22,41 +22,6 @@ search:
   text: Ara
   cx_id: '011743037637077038592:5tuc9cqilws'
 
-month_names:
-- Ocak
-- Şubat
-- Mart
-- Nisan
-- Mayıs
-- Haziran
-- Temmuz
-- Ağustos
-- Eylül
-- Ekim
-- Kasım
-- Aralık
-
-posted_by: AUTHOR tarafından %d.%m.%Y tarihinde gönderildi
-translated_by: 'Çeviri:'
-
-feed:
-  title: Ruby Son Haberler
-  description: ruby-lang.org'dan en son haberler.
-  lang_code: tr
-
-news:
-  other_news: Diğer Haberler
-  more_news: Dahası...
-  continue: Devamını Okuyun...
-  back_to_year: "%Y arşivlerine geri dönün."
-  recent_news: Son Haberler
-  yearly_archive_title: "%Y Arşivleri"
-  monthly_archive_title: "%B %Y Arşivleri"
-  yearly_archives: Yıllara göre Arşivler
-  monthly_archives: Aylara göre Arşivler
-  yearly_archive_link: "%Y Arşivleri"
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Başlamak</strong>, çok kolay!
@@ -114,6 +79,47 @@ sidebar:
       text: Son Haberler (RSS)
       url: /tr/feeds/news.rss
 
+languages_heading: 'Diğer dillerde bu site:'
+
+credits:
+  <a href="/tr/about/website/">Bu web sitesi</a>
+  Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
+
+month_names:
+- Ocak
+- Şubat
+- Mart
+- Nisan
+- Mayıs
+- Haziran
+- Temmuz
+- Ağustos
+- Eylül
+- Ekim
+- Kasım
+- Aralık
+
+posted_by: AUTHOR tarafından %d.%m.%Y tarihinde gönderildi
+translated_by: 'Çeviri:'
+
+feed:
+  title: Ruby Son Haberler
+  description: ruby-lang.org'dan en son haberler.
+  lang_code: tr
+
+news:
+  other_news: Diğer Haberler
+  more_news: Dahası...
+  continue: Devamını Okuyun...
+  back_to_year: "%Y arşivlerine geri dönün."
+  recent_news: Son Haberler
+  yearly_archive_title: "%Y Arşivleri"
+  monthly_archive_title: "%B %Y Arşivleri"
+  yearly_archives: Yıllara göre Arşivler
+  monthly_archives: Aylara göre Arşivler
+  yearly_archive_link: "%Y Arşivleri"
+  monthly_archive_link: "%B %Y"
+
 subscription_form:
   list: E-posta Listesi
   first_name: Ad
@@ -123,9 +129,3 @@ subscription_form:
   subscribe: Abone Ol
   unsubscribe: Abonelikten Çık
   submit: Formu Gönder
-
-languages_heading: 'Diğer dillerde bu site:'
-
-credits:
-  <a href="/tr/about/website/">Bu web sitesi</a>
-  Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.

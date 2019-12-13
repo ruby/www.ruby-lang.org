@@ -21,41 +21,6 @@ sitelinks:
 search:
   text: Szukaj
 
-month_names:
-- Styczeń
-- Luty
-- Marzec
-- Kwiecień
-- Maj
-- Czerwiec
-- Lipiec
-- Sierpień
-- Wrzesień
-- Październik
-- Listopad
-- Grudzień
-
-posted_by: Zamieszczone przez AUTHOR %Y-%m-%d
-translated_by: Tłumaczone przez
-
-feed:
-  title: Ruby Lang PL
-  description: Najnowsze wiadomości z ruby-lang.org.
-  lang_code: pl
-
-news:
-  other_news: Pozostałe aktualności
-  more_news: Więcej aktualności...
-  continue: Więcej...
-  back_to_year: Powrót do Archiwum %Y
-  recent_news: Aktualności
-  yearly_archive_title: Archiwum %Y
-  monthly_archive_title: Archiwum %B %Y
-  yearly_archives: Archiwum wiadomości
-  monthly_archives: Archiwum według miesiąca
-  yearly_archive_link: "%Y"
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Zacznij</strong>, to proste!
@@ -110,16 +75,6 @@ sidebar:
       text: Ostatnie Wiadomości (RSS)
       url: /pl/feeds/news.rss
 
-subscription_form:
-  list: Mailing List
-  first_name: First Name
-  last_name: Last Name
-  email: Email Address
-  action: Action
-  subscribe: Subscribe
-  unsubscribe: Unsubscribe
-  submit: Submit Form
-
 languages_heading: 'Ta strona w innych językach:'
 
 credits:
@@ -131,3 +86,48 @@ credits:
   nam wsparcia na <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
   lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
   jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
+
+month_names:
+- Styczeń
+- Luty
+- Marzec
+- Kwiecień
+- Maj
+- Czerwiec
+- Lipiec
+- Sierpień
+- Wrzesień
+- Październik
+- Listopad
+- Grudzień
+
+posted_by: Zamieszczone przez AUTHOR %Y-%m-%d
+translated_by: Tłumaczone przez
+
+feed:
+  title: Ruby Lang PL
+  description: Najnowsze wiadomości z ruby-lang.org.
+  lang_code: pl
+
+news:
+  other_news: Pozostałe aktualności
+  more_news: Więcej aktualności...
+  continue: Więcej...
+  back_to_year: Powrót do Archiwum %Y
+  recent_news: Aktualności
+  yearly_archive_title: Archiwum %Y
+  monthly_archive_title: Archiwum %B %Y
+  yearly_archives: Archiwum wiadomości
+  monthly_archives: Archiwum według miesiąca
+  yearly_archive_link: "%Y"
+  monthly_archive_link: "%B %Y"
+
+subscription_form:
+  list: Mailing List
+  first_name: First Name
+  last_name: Last Name
+  email: Email Address
+  action: Action
+  subscribe: Subscribe
+  unsubscribe: Unsubscribe
+  submit: Submit Form

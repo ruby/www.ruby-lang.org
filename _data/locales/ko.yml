@@ -21,29 +21,6 @@ sitelinks:
 search:
   text: 찾기
 
-month_names:
-
-posted_by: '작성자: AUTHOR (%Y-%m-%d)'
-translated_by: '번역자:'
-
-feed:
-  title: 루비 뉴스
-  description: ruby-lang.org의 최근 소식
-  lang_code: ko-KR
-
-news:
-  other_news: 이전 뉴스
-  more_news: 뉴스 더보기...
-  continue: 자세히 읽기
-  back_to_year: "%Y년 아카이브로 돌아가기"
-  recent_news: 최근 소식
-  yearly_archive_title: "%Y년 아카이브"
-  monthly_archive_title: "%Y년 %m월 아카이브"
-  yearly_archives: 년도별 아카이브
-  monthly_archives: 월별 아카이브
-  yearly_archive_link: "%Y년"
-  monthly_archive_link: "%Y년 %m월"
-
 sidebar:
   get_started:
     text: <strong>시작하기</strong>
@@ -97,6 +74,34 @@ sidebar:
       text: 최근 소식(RSS)
       url: /ko/feeds/news.rss
 
+languages_heading:
+
+credits:
+  <a href="/ko/about/website/">이 사이트</a>는 루비 커뮤니티의 구성원들이 직접 관리합니다.
+
+month_names:
+
+posted_by: '작성자: AUTHOR (%Y-%m-%d)'
+translated_by: '번역자:'
+
+feed:
+  title: 루비 뉴스
+  description: ruby-lang.org의 최근 소식
+  lang_code: ko-KR
+
+news:
+  other_news: 이전 뉴스
+  more_news: 뉴스 더보기...
+  continue: 자세히 읽기
+  back_to_year: "%Y년 아카이브로 돌아가기"
+  recent_news: 최근 소식
+  yearly_archive_title: "%Y년 아카이브"
+  monthly_archive_title: "%Y년 %m월 아카이브"
+  yearly_archives: 년도별 아카이브
+  monthly_archives: 월별 아카이브
+  yearly_archive_link: "%Y년"
+  monthly_archive_link: "%Y년 %m월"
+
 subscription_form:
   list: 메일링 리스트
   first_name: 이름
@@ -106,8 +111,3 @@ subscription_form:
   subscribe: 구독하기
   unsubscribe: 구독 해지
   submit: 제출하기
-
-languages_heading:
-
-credits:
-  <a href="/ko/about/website/">이 사이트</a>는 루비 커뮤니티의 구성원들이 직접 관리합니다.

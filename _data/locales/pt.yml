@@ -21,41 +21,6 @@ sitelinks:
 search:
   text: Procurar
 
-month_names:
-- Janeiro
-- Fevereiro
-- Março
-- Abril
-- Maio
-- Junho
-- Julho
-- Agosto
-- Setembro
-- Outubro
-- Novembro
-- Dezembro
-
-posted_by: Escrito por AUTHOR em %d/%m/%Y
-translated_by: Traduzido por
-
-feed:
-  title: Notícias sobre Ruby
-  description: As notícias mais recentes do ruby-lang.org em português.
-  lang_code: pt-PT
-
-news:
-  other_news: Outras Notícias
-  more_news: Mais Notícias...
-  continue: Continuar a Leitura...
-  back_to_year: Voltar aos arquivos de %Y
-  recent_news: Notícias Recentes
-  yearly_archive_title: Arquivos de %Y
-  monthly_archive_title: Arquivos de %B %Y
-  yearly_archives: Arquivos por Ano
-  monthly_archives: Arquivos por Mês
-  yearly_archive_link: Arquivos de %Y
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Primeiros passos</strong>, é fácil!
@@ -110,6 +75,47 @@ sidebar:
       text: Em português
       url: /pt/feeds/news.rss
 
+languages_heading: 'Este site em outros idiomas:'
+
+credits:
+  <a href="/pt/about/website/">Este website</a>
+  é mantido com orgulho por membros da comunidade Ruby.
+
+month_names:
+- Janeiro
+- Fevereiro
+- Março
+- Abril
+- Maio
+- Junho
+- Julho
+- Agosto
+- Setembro
+- Outubro
+- Novembro
+- Dezembro
+
+posted_by: Escrito por AUTHOR em %d/%m/%Y
+translated_by: Traduzido por
+
+feed:
+  title: Notícias sobre Ruby
+  description: As notícias mais recentes do ruby-lang.org em português.
+  lang_code: pt-PT
+
+news:
+  other_news: Outras Notícias
+  more_news: Mais Notícias...
+  continue: Continuar a Leitura...
+  back_to_year: Voltar aos arquivos de %Y
+  recent_news: Notícias Recentes
+  yearly_archive_title: Arquivos de %Y
+  monthly_archive_title: Arquivos de %B %Y
+  yearly_archives: Arquivos por Ano
+  monthly_archives: Arquivos por Mês
+  yearly_archive_link: Arquivos de %Y
+  monthly_archive_link: "%B %Y"
+
 subscription_form:
   list: Lista de E-mails
   first_name: Primeiro Nome
@@ -119,9 +125,3 @@ subscription_form:
   subscribe: Inscrever
   unsubscribe: Desinscrever
   submit: Enviar Formulário
-
-languages_heading: 'Este site em outros idiomas:'
-
-credits:
-  <a href="/pt/about/website/">Este website</a>
-  é mantido com orgulho por membros da comunidade Ruby.

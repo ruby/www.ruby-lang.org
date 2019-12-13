@@ -22,41 +22,6 @@ search:
   text: Search
   cx_id: '013598269713424429640:g5orptiw95w'
 
-month_names:
-- January
-- February
-- March
-- April
-- May
-- June
-- July
-- August
-- September
-- October
-- November
-- December
-
-posted_by: Posted by AUTHOR on %-d %b %Y
-translated_by: Translated by
-
-feed:
-  title: Ruby News
-  description: The latest news from ruby-lang.org.
-  lang_code: en-US
-
-news:
-  other_news: Other News
-  more_news: More News...
-  continue: Continue Reading...
-  back_to_year: Back to %Y Archives
-  recent_news: Recent News
-  yearly_archive_title: "%Y Archives"
-  monthly_archive_title: "%B %Y Archives"
-  yearly_archives: Archives by Year
-  monthly_archives: Archives by Month
-  yearly_archive_link: "%Y Archives"
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Get Started</strong>, it's easy!
@@ -114,6 +79,47 @@ sidebar:
       text: Recent News (RSS)
       url: /en/feeds/news.rss
 
+languages_heading: 'This site in other languages:'
+
+credits:
+  <a href="/en/about/website/">This website</a>
+  is proudly maintained by members of the Ruby community.
+
+month_names:
+- January
+- February
+- March
+- April
+- May
+- June
+- July
+- August
+- September
+- October
+- November
+- December
+
+posted_by: Posted by AUTHOR on %-d %b %Y
+translated_by: Translated by
+
+feed:
+  title: Ruby News
+  description: The latest news from ruby-lang.org.
+  lang_code: en-US
+
+news:
+  other_news: Other News
+  more_news: More News...
+  continue: Continue Reading...
+  back_to_year: Back to %Y Archives
+  recent_news: Recent News
+  yearly_archive_title: "%Y Archives"
+  monthly_archive_title: "%B %Y Archives"
+  yearly_archives: Archives by Year
+  monthly_archives: Archives by Month
+  yearly_archive_link: "%Y Archives"
+  monthly_archive_link: "%B %Y"
+
 subscription_form:
   list: Mailing List
   first_name: First Name
@@ -123,9 +129,3 @@ subscription_form:
   subscribe: Subscribe
   unsubscribe: Unsubscribe
   submit: Submit Form
-
-languages_heading: 'This site in other languages:'
-
-credits:
-  <a href="/en/about/website/">This website</a>
-  is proudly maintained by members of the Ruby community.

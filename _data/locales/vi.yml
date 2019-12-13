@@ -21,41 +21,6 @@ sitelinks:
 search:
   text: Tìm
 
-month_names:
-- Tháng một
-- Tháng hai
-- Tháng ba
-- Tháng tư
-- Tháng năm
-- Tháng sáu
-- Tháng bảy
-- Tháng tám
-- Tháng chín
-- Tháng mười
-- Tháng mười một
-- Tháng mười hai
-
-posted_by: Đăng bởi AUTHOR vào %-d %b %Y
-translated_by: Dịch bởi
-
-feed:
-  title: Tin tức Ruby
-  description: Những tin mới nhất từ ruby-lang.org.
-  lang_code: vi
-
-news:
-  other_news: Tin khác
-  more_news: Thêm Tin...
-  continue: Đọc tiếp...
-  back_to_year: Trở về %Y Lưu trữ
-  recent_news: Tin mới nhất
-  yearly_archive_title: Lưu trữ %Y
-  monthly_archive_title: Lưu trữ %B %Y
-  yearly_archives: Lưu trữ bằng Năm
-  monthly_archives: Lưu trữ bằng Tháng
-  yearly_archive_link: Lưu trữ %Y
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Nhập môn</strong>, quá dễ!
@@ -109,6 +74,50 @@ sidebar:
       text: Tin mới (RSS)
       url: /vi/feeds/news.rss
 
+languages_heading:
+
+credits:
+  Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
+  Trang được bảo trì bởi các thành viên của cộng đồng Ruby. Xin đóng góp
+  trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> hay
+  liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng
+  tiếng Anh) nếu có câu hỏi hoặc ý kiến phản hồi về trang này.
+
+month_names:
+- Tháng một
+- Tháng hai
+- Tháng ba
+- Tháng tư
+- Tháng năm
+- Tháng sáu
+- Tháng bảy
+- Tháng tám
+- Tháng chín
+- Tháng mười
+- Tháng mười một
+- Tháng mười hai
+
+posted_by: Đăng bởi AUTHOR vào %-d %b %Y
+translated_by: Dịch bởi
+
+feed:
+  title: Tin tức Ruby
+  description: Những tin mới nhất từ ruby-lang.org.
+  lang_code: vi
+
+news:
+  other_news: Tin khác
+  more_news: Thêm Tin...
+  continue: Đọc tiếp...
+  back_to_year: Trở về %Y Lưu trữ
+  recent_news: Tin mới nhất
+  yearly_archive_title: Lưu trữ %Y
+  monthly_archive_title: Lưu trữ %B %Y
+  yearly_archives: Lưu trữ bằng Năm
+  monthly_archives: Lưu trữ bằng Tháng
+  yearly_archive_link: Lưu trữ %Y
+  monthly_archive_link: "%B %Y"
+
 subscription_form:
   list: Mailing List
   first_name: Tên
@@ -118,12 +127,3 @@ subscription_form:
   subscribe: Đăng kí
   unsubscribe: Hủy đăng kí
   submit: Nộp đơn
-
-languages_heading:
-
-credits:
-  Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
-  Trang được bảo trì bởi các thành viên của cộng đồng Ruby. Xin đóng góp
-  trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> hay
-  liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng
-  tiếng Anh) nếu có câu hỏi hoặc ý kiến phản hồi về trang này.

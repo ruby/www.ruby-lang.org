@@ -21,29 +21,6 @@ sitelinks:
 search:
   text: 搜尋
 
-month_names:
-
-posted_by: 由 AUTHOR 發表於 %Y-%m-%d
-translated_by: 翻譯：
-
-feed:
-  title: Ruby 新聞
-  description: 來自 ruby-lang.org 的新聞快報。
-  lang_code: zh-TW
-
-news:
-  other_news: 其他新聞
-  more_news: 更多新聞...
-  continue: 深入閱讀...
-  back_to_year: 回到 %Y 年彙整
-  recent_news: 最新消息
-  yearly_archive_title: "%Y 彙整"
-  monthly_archive_title: "%Y 年 %-m 月彙整"
-  yearly_archives: 按年份彙整
-  monthly_archives: 按月份彙整
-  yearly_archive_link: "%Y 年彙整"
-  monthly_archive_link: "%Y 年 %-m 月彙整"
-
 sidebar:
   get_started:
     text: <strong>上手入門</strong>，一點都不難!
@@ -100,6 +77,34 @@ sidebar:
       text: 最新消息（RSS）
       url: /zh_tw/feeds/news.rss
 
+languages_heading:
+
+credits:
+  <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。
+
+month_names:
+
+posted_by: 由 AUTHOR 發表於 %Y-%m-%d
+translated_by: 翻譯：
+
+feed:
+  title: Ruby 新聞
+  description: 來自 ruby-lang.org 的新聞快報。
+  lang_code: zh-TW
+
+news:
+  other_news: 其他新聞
+  more_news: 更多新聞...
+  continue: 深入閱讀...
+  back_to_year: 回到 %Y 年彙整
+  recent_news: 最新消息
+  yearly_archive_title: "%Y 彙整"
+  monthly_archive_title: "%Y 年 %-m 月彙整"
+  yearly_archives: 按年份彙整
+  monthly_archives: 按月份彙整
+  yearly_archive_link: "%Y 年彙整"
+  monthly_archive_link: "%Y 年 %-m 月彙整"
+
 subscription_form:
   list: 郵件論壇
   first_name: 名
@@ -109,8 +114,3 @@ subscription_form:
   subscribe: 訂閱
   unsubscribe: 退訂
   submit: 送出表格
-
-languages_heading:
-
-credits:
-  <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。

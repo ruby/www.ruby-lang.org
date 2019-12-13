@@ -21,29 +21,6 @@ sitelinks:
 search:
   text: 搜索
 
-month_names:
-
-posted_by: 由 AUTHOR 发表于 %Y-%m-%d
-translated_by: 翻译：
-
-feed:
-  title: Ruby 新闻更新
-  description: 来自 ruby-lang.org 的最新文章。
-  lang_code: zh-CN
-
-news:
-  other_news: 其它新闻
-  more_news: 更多新闻...
-  continue: 阅读全文...
-  back_to_year: 返回%Y年归档
-  recent_news: 最新消息
-  yearly_archive_title: "%Y年归档"
-  monthly_archive_title: "%Y年%-m月归档"
-  yearly_archives: 按年存档
-  monthly_archives: 按月归档
-  yearly_archive_link: "%Y年归档"
-  monthly_archive_link: "%Y年%-m月归档"
-
 sidebar:
   get_started:
     text: <strong>试用</strong>，其实很简单！
@@ -100,6 +77,34 @@ sidebar:
       text: 最新消息（RSS）
       url: /zh_cn/feeds/news.rss
 
+languages_heading: 本站其他语言版本：
+
+credits:
+  <a href="/zh_cn/about/website/">本站</a>由 Ruby 社区的成员共同维护。
+
+month_names:
+
+posted_by: 由 AUTHOR 发表于 %Y-%m-%d
+translated_by: 翻译：
+
+feed:
+  title: Ruby 新闻更新
+  description: 来自 ruby-lang.org 的最新文章。
+  lang_code: zh-CN
+
+news:
+  other_news: 其它新闻
+  more_news: 更多新闻...
+  continue: 阅读全文...
+  back_to_year: 返回%Y年归档
+  recent_news: 最新消息
+  yearly_archive_title: "%Y年归档"
+  monthly_archive_title: "%Y年%-m月归档"
+  yearly_archives: 按年存档
+  monthly_archives: 按月归档
+  yearly_archive_link: "%Y年归档"
+  monthly_archive_link: "%Y年%-m月归档"
+
 subscription_form:
   list: 邮件列表
   first_name: 名
@@ -109,8 +114,3 @@ subscription_form:
   subscribe: 订阅
   unsubscribe: 退订
   submit: 提交表单
-
-languages_heading: 本站其他语言版本：
-
-credits:
-  <a href="/zh_cn/about/website/">本站</a>由 Ruby 社区的成员共同维护。

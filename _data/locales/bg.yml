@@ -21,41 +21,6 @@ sitelinks:
 search:
   text: Търси
 
-month_names:
-- януари
-- февруари
-- март
-- април
-- май
-- юни
-- юли
-- август
-- септември
-- октомври
-- ноември
-- декември
-
-posted_by: Публикувана от AUTHOR на %Y-%m-%d
-translated_by: Превод от
-
-feed:
-  title: Ruby новини
-  description: Последните новини от ruby-lang.org.
-  lang_code: bg
-
-news:
-  other_news: Други новини
-  more_news: Още новини...
-  continue: Прочетете още...
-  back_to_year: Обратно към архив %Y
-  recent_news: Последни новини
-  yearly_archive_title: Архив %Y
-  monthly_archive_title: Архив %B %Y
-  yearly_archives: Архив по година
-  monthly_archives: Архив по месец
-  yearly_archive_link: "%Y"
-  monthly_archive_link: "%B %Y"
-
 sidebar:
   get_started:
     text: <strong>Започнете</strong> лесно е!
@@ -110,6 +75,47 @@ sidebar:
       text: Последните новини (RSS)
       url: /bg/feeds/news.rss
 
+languages_heading: 'Този сайт на други езици:'
+
+credits:
+  <a href="/bg/about/website/">Този сайт</a>
+  се поддържа от членове на Ruby обществото.
+
+month_names:
+- януари
+- февруари
+- март
+- април
+- май
+- юни
+- юли
+- август
+- септември
+- октомври
+- ноември
+- декември
+
+posted_by: Публикувана от AUTHOR на %Y-%m-%d
+translated_by: Превод от
+
+feed:
+  title: Ruby новини
+  description: Последните новини от ruby-lang.org.
+  lang_code: bg
+
+news:
+  other_news: Други новини
+  more_news: Още новини...
+  continue: Прочетете още...
+  back_to_year: Обратно към архив %Y
+  recent_news: Последни новини
+  yearly_archive_title: Архив %Y
+  monthly_archive_title: Архив %B %Y
+  yearly_archives: Архив по година
+  monthly_archives: Архив по месец
+  yearly_archive_link: "%Y"
+  monthly_archive_link: "%B %Y"
+
 subscription_form:
   list: Пощенски списък
   first_name: Име
@@ -119,9 +125,3 @@ subscription_form:
   subscribe: Записване
   unsubscribe: Отписване
   submit: Изпрати
-
-languages_heading: 'Този сайт на други езици:'
-
-credits:
-  <a href="/bg/about/website/">Този сайт</a>
-  се поддържа от членове на Ruby обществото.
