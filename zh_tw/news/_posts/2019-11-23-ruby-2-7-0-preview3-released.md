@@ -33,10 +33,19 @@ lang: zh_tw
 它可以遍歷給定的物件並在其比對成功時賦值。
 
 {% highlight ruby %}
-case JSON.parse('{...}', symbolize_names: true)
+require "json"
+
+json = <<END
+{
+  "name": "Alice",
+  "age": 30,
+  "children": [{ "name": "Bob", "age": 2 }]
+}
+END
+
+case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
-  p age
-  ...
+  p age #=> 2
 end
 {% endhighlight %}
 
