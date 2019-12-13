@@ -26,10 +26,19 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
 渡されたオブジェクトの構造がパターンと一致するかどうかを調べ、一致した場合にその値を変数に代入するといったことができるようになります。 [[Feature #14912]](https://bugs.ruby-lang.org/issues/14912)
 
 {% highlight ruby %}
-case JSON.parse('{...}', symbolize_names: true)
+require "json"
+
+json = <<END
+{
+  "name": "Alice",
+  "age": 30,
+  "children": [{ "name": "Bob", "age": 2 }]
+}
+END
+
+case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
-  p age
-  ...
+  p age #=> 2
 end
 {% endhighlight %}
 
