@@ -231,11 +231,11 @@ The final decision is not made, but will be fixed by the official release.
 
   * The default value of `--jit-max-cache` is changed from 1,000 to 100.
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`,
+* ~~`Symbol#to_s`~~ (reverted), `Module#name`, `true.to_s`, `false.to_s`,
   and `nil.to_s` now always return a frozen String.
   The returned String is always the same for a given object.
   [Experimental]
-  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~ reverted
+  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
 
 * The performance of `CGI.escapeHTML` is improved.
   [GH-2226](https://github.com/ruby/ruby/pull/2226)
