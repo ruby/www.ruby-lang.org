@@ -166,7 +166,7 @@ ruby2_keywords def foo(*args, &block)
 end
 {% endhighlight %}
 
-`ruby2_keywords`, son Hash argümanı olarak anahtar kelime argümanlarını kabul eder, ve diğer metodu çağırırken bunu anahtar kelime argümanları olarak geçirir. 
+`ruby2_keywords`, son Hash argümanı olarak anahtar kelime argümanlarını kabul eder, ve diğer metodu çağırırken bunu anahtar kelime argümanları olarak geçirir.
 
 Aslında Ruby 2.7 birçok durumda yeni tarz yetkilendirmeyi destekler.
 Fakat bilinen bir çıkmaz var.
@@ -196,7 +196,7 @@ end if RUBY_VERSION < "2.7"
 
 Eğer kodunuzun Ruby 2.6 ya da öncesinde çalışması gerekmiyorsa, Ruby 2.7'deki yeni tarzı deneyebilirsiniz.
 Bu neredeyse her durumda çalışır.
-Fakat maalesef aşağıdaki gibi çıkmazlar vardır: 
+Fakat maalesef aşağıdaki gibi çıkmazlar vardır:
 
 {% highlight ruby %}
 def target(*args)
