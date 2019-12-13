@@ -1,0 +1,114 @@
+---
+ruby: Ruby
+slogan: 程序员最好的朋友
+
+sitelinks:
+- text: 下载
+  url: /zh_cn/downloads
+- text: 文档
+  url: /zh_cn/documentation
+- text: 代码库
+  url: /zh_cn/libraries
+- text: 社区
+  url: /zh_cn/community
+- text: 新闻
+  url: /zh_cn/news
+- text: 安全
+  url: /zh_cn/security
+- text: 关于 Ruby
+  url: /zh_cn/about
+
+search:
+  text: 搜索
+
+month_names:
+
+posted_by: 由 AUTHOR 发表于 %Y-%m-%d
+translated_by: 翻译：
+
+feed:
+  title: Ruby 新闻更新
+  description: 来自 ruby-lang.org 的最新文章。
+  lang_code: zh-CN
+
+news:
+  other_news: 其它新闻
+  more_news: 更多新闻...
+  continue: 阅读全文...
+  back_to_year: 返回%Y年归档
+  recent_news: 最新消息
+  yearly_archive_title: "%Y年归档"
+  monthly_archive_title: "%Y年%-m月归档"
+  yearly_archives: 按年存档
+  monthly_archives: 按月归档
+  yearly_archive_link: "%Y年归档"
+  monthly_archive_link: "%Y年%-m月归档"
+
+sidebar:
+  get_started:
+    text: <strong>试用</strong>，其实很简单！
+    try_ruby:
+      text: 在浏览器中试用 Ruby（英文）
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: 20 分钟体验 Ruby
+      url: /zh_cn/documentation/quickstart/
+    ruby_from_other_languages:
+      text: 从其它语言转到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>探索</strong>新的世界
+    documentation:
+      text: 文档
+      url: /zh_cn/documentation/
+    rubybib:
+      text: 学术研究
+      url: https://rubybib.org/
+    libraries:
+      text: 代码库
+      url: /zh_cn/libraries/
+    success_stories:
+      text: 成功案例
+      url: /zh_cn/documentation/success-stories/
+  participate:
+    text: <strong>加入</strong>友善及日益壮大的社区
+    mailing_lists:
+      text: 邮件列表
+      url: /zh_cn/community/mailing-lists/
+      description: 联系喜爱 Ruby 的朋友
+    user_groups:
+      text: 用户组
+      url: /zh_cn/community/user-groups/
+      description: 参与 Ruby 爱好者活动
+    weblogs:
+      text: 博客
+      url: /zh_cn/community/weblogs/
+      description: 阅读 Ruby 相关的博客
+    ruby_core:
+      text: Ruby 核心
+      url: /zh_cn/community/ruby-core/
+      description: 帮助开发 Ruby 语言
+    issue_tracking:
+      text: 问题跟踪
+      url: https://bugs.ruby-lang.org/
+      description: 报告或帮助解决 Ruby 的问题
+  syndicate:
+    text: 订阅
+    recent_news:
+      text: 最新消息（RSS）
+      url: /zh_cn/feeds/news.rss
+
+subscription_form:
+  list: 邮件列表
+  first_name: 名
+  last_name: 姓
+  email: 电子邮件
+  action: 操作
+  subscribe: 订阅
+  unsubscribe: 退订
+  submit: 提交表单
+
+languages_heading: 本站其他语言版本：
+
+credits:
+  <a href="/zh_cn/about/website/">本站</a>由 Ruby 社区的成员共同维护。

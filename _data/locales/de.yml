@@ -1,0 +1,125 @@
+---
+ruby: Ruby
+slogan: Der beste Freund eines Programmierers
+
+sitelinks:
+- text: Downloads
+  url: /de/downloads
+- text: Dokumentation
+  url: /de/documentation
+- text: Bibliotheken
+  url: /de/libraries
+- text: Community
+  url: /de/community
+- text: Neuigkeiten
+  url: /de/news
+- text: Sicherheit
+  url: /de/security
+- text: Über Ruby
+  url: /de/about
+
+search:
+  text: Suche
+  cx_id: '008918821236166936739:xplclbf3sh0'
+
+month_names:
+- Januar
+- Februar
+- März
+- April
+- Mai
+- Juni
+- Juli
+- August
+- September
+- Oktober
+- November
+- Dezember
+
+posted_by: Geschrieben von AUTHOR am %-d.%-m.%Y
+translated_by: Übersetzt von
+
+feed:
+  title: Ruby RSS News
+  description: Die letzten Neuigkeiten von ruby-lang.org.
+  lang_code: de-DE
+
+news:
+  other_news: Weitere Neuigkeiten
+  more_news: Mehr Neuigkeiten...
+  continue: Weiterlesen...
+  back_to_year: Zurück zum Archiv für %Y
+  recent_news: Aktuelle Neuigkeiten
+  yearly_archive_title: Archiv für %Y
+  monthly_archive_title: Archiv für %B %Y
+  yearly_archives: Archiv
+  monthly_archives: Archiv nach Monat
+  yearly_archive_link: Archiv für %Y
+  monthly_archive_link: "%B %Y"
+
+sidebar:
+  get_started:
+    text: <strong>Der Einstieg</strong> ist einfach!
+    try_ruby:
+      text: Teste Ruby! (im Browser)
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: Ruby in 20 Minuten
+      url: /de/documentation/quickstart/
+    ruby_from_other_languages:
+      text: Ruby für Umsteiger
+      url: /de/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>Entdecke</strong> eine neue Welt…
+    documentation:
+      text: Dokumentation
+      url: /de/documentation/
+    libraries:
+      text: Bibliotheken
+      url: /de/libraries/
+    success_stories:
+      text: Erfolgsgeschichten
+      url: /de/documentation/success-stories/
+  participate:
+    text: <strong>Beteilige dich</strong> an einer freundlichen und wachsenden Community.
+    mailing_lists:
+      text: Mailing-Listen
+      url: /de/community/mailing-lists/
+      description: Sprich mit Programmierern auf der ganzen Welt über Ruby.
+    user_groups:
+      text: User-Groups
+      url: /de/community/user-groups/
+      description: Treffe Rubyisten in deiner Umgebung.
+    weblogs:
+      text: Weblogs
+      url: /de/community/weblogs/
+      description: Lies, was gerade jetzt in der Ruby-Community passiert.
+    ruby_core:
+      text: Ruby-Entwicklung
+      url: /de/community/ruby-core/
+      description: Hilf mit, die neuesten Ruby-Versionen zu verbessern.
+    issue_tracking:
+      text: Fehler melden
+      url: https://bugs.ruby-lang.org/
+      description: Melde einen Fehler oder hilf mit, offene Fehler zu beseitigen.
+  syndicate:
+    text: Syndication
+    recent_news:
+      text: Aktuelle Neuigkeiten (RSS)
+      url: /de/feeds/news.rss
+
+subscription_form:
+  list: Mailingliste
+  first_name: Vorname
+  last_name: Nachname
+  email: E-Mail
+  action: Vorgang
+  subscribe: Anmelden
+  unsubscribe: Abmelden
+  submit: Absenden
+
+languages_heading: 'Diese Website in anderen Sprachen:'
+
+credits:
+  <a href="/de/about/website/">Diese Website</a>
+  wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.

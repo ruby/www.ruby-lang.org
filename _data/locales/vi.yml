@@ -1,0 +1,127 @@
+---
+ruby: Ruby
+slogan: Người bạn tri kỉ của lập trình viên
+
+sitelinks:
+- text: Downloads
+  url: /vi/downloads
+- text: Tài liệu
+  url: /vi/documentation
+- text: Thư viện
+  url: /vi/libraries
+- text: Cộng đồng
+  url: /vi/community
+- text: Tin tức
+  url: /vi/news
+- text: Bảo mật
+  url: /vi/security
+- text: Về Ruby
+  url: /vi/about
+
+search:
+  text: Tìm
+
+month_names:
+- Tháng một
+- Tháng hai
+- Tháng ba
+- Tháng tư
+- Tháng năm
+- Tháng sáu
+- Tháng bảy
+- Tháng tám
+- Tháng chín
+- Tháng mười
+- Tháng mười một
+- Tháng mười hai
+
+posted_by: Đăng bởi AUTHOR vào %-d %b %Y
+translated_by: Dịch bởi
+
+feed:
+  title: Tin tức Ruby
+  description: Những tin mới nhất từ ruby-lang.org.
+  lang_code: vi
+
+news:
+  other_news: Tin khác
+  more_news: Thêm Tin...
+  continue: Đọc tiếp...
+  back_to_year: Trở về %Y Lưu trữ
+  recent_news: Tin mới nhất
+  yearly_archive_title: Lưu trữ %Y
+  monthly_archive_title: Lưu trữ %B %Y
+  yearly_archives: Lưu trữ bằng Năm
+  monthly_archives: Lưu trữ bằng Tháng
+  yearly_archive_link: Lưu trữ %Y
+  monthly_archive_link: "%B %Y"
+
+sidebar:
+  get_started:
+    text: <strong>Nhập môn</strong>, quá dễ!
+    try_ruby:
+      text: Thử Ruby! (trong trình duyệt)
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: Ruby trong 20 phút
+      url: /vi/documentation/quickstart/
+    ruby_from_other_languages:
+      text: Ruby từ những ngôn ngữ khác
+      url: /vi/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>Khám phá</strong> một thề giới mới…
+    documentation:
+      text: Tài liệu
+      url: /vi/documentation/
+    libraries:
+      text: Thư viện
+      url: /vi/libraries/
+    success_stories:
+      text: Những câu chuyện thành công
+      url: /vi/documentation/success-stories/
+  participate:
+    text: <strong>Tham gia</strong> vào một cộng đồng lớn mạnh và thân thiện.
+    mailing_lists:
+      text: Mailing Lists
+      url: /vi/community/mailing-lists/
+      description: Trao đổi về Ruby với các lập trình viên trên thế giới
+    user_groups:
+      text: Nhóm người dùng
+      url: /vi/community/user-groups/
+      description: Làm quen với những Rubyist trong khu vực của bạn.
+    weblogs:
+      text: Weblogs
+      url: /vi/community/weblogs/
+      description: Đọc về những gì đang xảy ra với cộng đồng Ruby.
+    ruby_core:
+      text: Lõi Ruby
+      url: /vi/community/ruby-core/
+      description: Giúp hoàn thiện Ruby.
+    issue_tracking:
+      text: Thông báo lỗi
+      url: https://bugs.ruby-lang.org/
+      description: Báo hoặc giúp xử lý các lỗi trong Ruby.
+  syndicate:
+    text: Syndicate
+    recent_news:
+      text: Tin mới (RSS)
+      url: /vi/feeds/news.rss
+
+subscription_form:
+  list: Mailing List
+  first_name: Tên
+  last_name: Họ
+  email: Email
+  action: Hành động
+  subscribe: Đăng kí
+  unsubscribe: Hủy đăng kí
+  submit: Nộp đơn
+
+languages_heading:
+
+credits:
+  Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
+  Trang được bảo trì bởi các thành viên của cộng đồng Ruby. Xin đóng góp
+  trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> hay
+  liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng
+  tiếng Anh) nếu có câu hỏi hoặc ý kiến phản hồi về trang này.

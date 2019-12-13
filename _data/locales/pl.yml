@@ -1,0 +1,131 @@
+---
+ruby: Ruby
+slogan: Najlepszy Przyjaciel Programisty
+
+sitelinks:
+- text: Pobierz
+  url: /pl/downloads
+- text: Dokumentacja
+  url: /pl/documentation
+- text: Biblioteki
+  url: /pl/libraries
+- text: Społeczność
+  url: /pl/community
+- text: Wiadomości
+  url: /pl/news
+- text: Bezpieczeństwo
+  url: /pl/security
+- text: O języku Ruby
+  url: /pl/about
+
+search:
+  text: Szukaj
+
+month_names:
+- Styczeń
+- Luty
+- Marzec
+- Kwiecień
+- Maj
+- Czerwiec
+- Lipiec
+- Sierpień
+- Wrzesień
+- Październik
+- Listopad
+- Grudzień
+
+posted_by: Zamieszczone przez AUTHOR %Y-%m-%d
+translated_by: Tłumaczone przez
+
+feed:
+  title: Ruby Lang PL
+  description: Najnowsze wiadomości z ruby-lang.org.
+  lang_code: pl
+
+news:
+  other_news: Pozostałe aktualności
+  more_news: Więcej aktualności...
+  continue: Więcej...
+  back_to_year: Powrót do Archiwum %Y
+  recent_news: Aktualności
+  yearly_archive_title: Archiwum %Y
+  monthly_archive_title: Archiwum %B %Y
+  yearly_archives: Archiwum wiadomości
+  monthly_archives: Archiwum według miesiąca
+  yearly_archive_link: "%Y"
+  monthly_archive_link: "%B %Y"
+
+sidebar:
+  get_started:
+    text: <strong>Zacznij</strong>, to proste!
+    try_ruby:
+      text: Wypróbuj Ruby! (w twojej przeglądarce)
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: Ruby w 20 Minut
+      url: /pl/documentation/quickstart/
+    ruby_from_other_languages:
+      text: Ruby a inne języki programowania
+      url: /pl/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>Poznaj</strong> nowy świat…
+    documentation:
+      text: Dokumentacja
+      url: /pl/documentation/
+    libraries:
+      text: Biblioteki
+      url: /pl/libraries/
+    success_stories:
+      text: Udane wdrożenia
+      url: /pl/documentation/success-stories/
+  participate:
+    text: <strong>Dołącz</strong> do przyjaznej i rozrastającej się społeczności.
+    mailing_lists:
+      text: Listy dyskusyjne
+      url: /pl/community/mailing-lists/
+      description: Porozmawiaj o Ruby z programistami z całego świata.
+    user_groups:
+      text: Grupy Użytkowników
+      url: /pl/community/user-groups/
+      description: Bądź w kontakcie z użytkownikami Rubiego z Twojej okolicy.
+    weblogs:
+      text: Blogi
+      url: /pl/community/weblogs/
+      description: Czytaj na bieżąco co dzieje się w społeczności języka
+        Ruby.
+    ruby_core:
+      text: Ruby Core
+      url: /en/community/ruby-core/
+      description: Pomóż dopracować najnowszą wersję Rubiego.
+    issue_tracking:
+      text: Śledzenie problemów
+      url: https://bugs.ruby-lang.org/
+      description: Zgłoś lub pomóż rozwiązać problemy w Rubim.
+  syndicate:
+    text: Syndicate
+    recent_news:
+      text: Ostatnie Wiadomości (RSS)
+      url: /pl/feeds/news.rss
+
+subscription_form:
+  list: Mailing List
+  first_name: First Name
+  last_name: Last Name
+  email: Email Address
+  action: Action
+  subscribe: Subscribe
+  unsubscribe: Unsubscribe
+  submit: Submit Form
+
+languages_heading: 'Ta strona w innych językach:'
+
+credits:
+  <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006,
+  Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC
+  BY-SA 2.5</a>.<br><br> Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
+  Utrzymaniem serwisu zajmuje się społeczność Rubiego. Projekt strony <a
+  href="https://twitter.com/jasonzimdars">Jason Zimdars</a>. Proszę udziel
+  nam wsparcia na <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+  lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
+  jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.

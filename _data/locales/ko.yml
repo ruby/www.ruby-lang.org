@@ -1,0 +1,111 @@
+---
+ruby: 루비
+slogan: 프로그래머의 단짝 친구
+
+sitelinks:
+- text: 다운로드
+  url: /ko/downloads
+- text: 문서
+  url: /ko/documentation
+- text: 라이브러리
+  url: /ko/libraries
+- text: 커뮤니티
+  url: /ko/community
+- text: 뉴스
+  url: /ko/news
+- text: 보안이슈
+  url: /ko/security
+- text: 루비에 대해서
+  url: /ko/about
+
+search:
+  text: 찾기
+
+month_names:
+
+posted_by: '작성자: AUTHOR (%Y-%m-%d)'
+translated_by: '번역자:'
+
+feed:
+  title: 루비 뉴스
+  description: ruby-lang.org의 최근 소식
+  lang_code: ko-KR
+
+news:
+  other_news: 이전 뉴스
+  more_news: 뉴스 더보기...
+  continue: 자세히 읽기
+  back_to_year: "%Y년 아카이브로 돌아가기"
+  recent_news: 최근 소식
+  yearly_archive_title: "%Y년 아카이브"
+  monthly_archive_title: "%Y년 %m월 아카이브"
+  yearly_archives: 년도별 아카이브
+  monthly_archives: 월별 아카이브
+  yearly_archive_link: "%Y년"
+  monthly_archive_link: "%Y년 %m월"
+
+sidebar:
+  get_started:
+    text: <strong>시작하기</strong>
+    try_ruby:
+      text: Try Ruby!
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: 20분 가이드
+      url: /ko/documentation/quickstart/
+    ruby_from_other_languages:
+      text: 다른 언어에서 루비로
+      url: /ko/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>탐험하기</strong>
+    documentation:
+      text: 문서
+      url: /ko/documentation/
+    libraries:
+      text: 라이브러리
+      url: /ko/libraries/
+    success_stories:
+      text: 사용 사례
+      url: /ko/documentation/success-stories/
+  participate:
+    text: <strong>커뮤니티에 참여하기</strong>
+    mailing_lists:
+      text: 루비 사용자 포럼
+      url: http://groups.google.com/group/rubykr
+      description: 한국의 루비스트를 만나세요
+    user_groups:
+      text: 유저 그룹
+      url: /ko/community/user-groups/
+      description: 근처의 루비스트와 연락하기
+    weblogs:
+      text: 웹로그
+      url: /ko/community/weblogs/
+      description: 루비 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
+    ruby_core:
+      text: 루비 코어
+      url: /ko/community/ruby-core/
+      description: 최신판 루비의 연마를 돕기
+    issue_tracking:
+      text: 이슈 관리
+      url: https://bugs.ruby-lang.org/
+      description: 루비에 관한 이슈를 제보하거나 해결을 돕기
+  syndicate:
+    text: 구독
+    recent_news:
+      text: 최근 소식(RSS)
+      url: /ko/feeds/news.rss
+
+subscription_form:
+  list: 메일링 리스트
+  first_name: 이름
+  last_name: 성
+  email: 이메일 주소
+  action: 할일
+  subscribe: 구독하기
+  unsubscribe: 구독 해지
+  submit: 제출하기
+
+languages_heading:
+
+credits:
+  <a href="/ko/about/website/">이 사이트</a>는 루비 커뮤니티의 구성원들이 직접 관리합니다.
