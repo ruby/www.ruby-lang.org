@@ -1,0 +1,127 @@
+---
+ruby: Ruby
+slogan: най-добрият приятел на програмиста
+
+sitelinks:
+- text: За сваляне
+  url: /bg/downloads
+- text: Документация
+  url: /bg/documentation
+- text: Библиотеки
+  url: /bg/libraries
+- text: Общност
+  url: /bg/community
+- text: Новини
+  url: /bg/news
+- text: Сигурност
+  url: /bg/security
+- text: Относно
+  url: /bg/about
+
+search:
+  text: Търси
+
+sidebar:
+  get_started:
+    text: <strong>Започнете</strong> лесно е!
+    try_ruby:
+      text: Пробвайте Ruby! (в браузъра)
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: Ruby в 20 минути
+      url: /bg/documentation/quickstart/
+    ruby_from_other_languages:
+      text: Ruby от други езици
+      url: /bg/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>Изследвайте</strong> нов свят…
+    documentation:
+      text: Документация
+      url: /bg/documentation/
+    # books:
+    #   text: Книги
+    libraries:
+      text: Библиотеки
+      url: /bg/libraries/
+    success_stories:
+      text: Успешни истории
+      url: /bg/documentation/success-stories/
+  participate:
+    text: <strong>Участвайте</strong> в приятелски настроено общество.
+    mailing_lists:
+      text: Пощенски списъци
+      url: /bg/community/mailing-lists/
+      description: Дискусии относно Ruby с програмисти от цял свят.
+    user_groups:
+      text: Потребителски групи
+      url: /bg/community/user-groups/
+      description: Свържете се с рубисти в твоя район.
+    weblogs:
+      text: Блогове
+      url: /bg/community/weblogs/
+      description: Прочетете какво се случва в Ruby обществото.
+    ruby_core:
+      text: Ruby ядро
+      url: /bg/community/ruby-core/
+      description: Помогнете за разработката на Ruby.
+    issue_tracking:
+      text: Следене на бъгове
+      url: https://bugs.ruby-lang.org/
+      description: Докладвайте или помогнете за решаването на проблеми в
+        Ruby.
+  syndicate:
+    text: Новини
+    recent_news:
+      text: Последните новини (RSS)
+      url: /bg/feeds/news.rss
+
+languages_heading: 'Този сайт на други езици:'
+
+credits:
+  <a href="/bg/about/website/">Този сайт</a>
+  се поддържа от членове на Ruby обществото.
+
+month_names:
+- януари
+- февруари
+- март
+- април
+- май
+- юни
+- юли
+- август
+- септември
+- октомври
+- ноември
+- декември
+
+posted_by: Публикувана от AUTHOR на %Y-%m-%d
+translated_by: Превод от
+
+feed:
+  title: Ruby новини
+  description: Последните новини от ruby-lang.org.
+  lang_code: bg
+
+news:
+  other_news: Други новини
+  more_news: Още новини...
+  continue: Прочетете още...
+  back_to_year: Обратно към архив %Y
+  recent_news: Последни новини
+  yearly_archive_title: Архив %Y
+  monthly_archive_title: Архив %B %Y
+  yearly_archives: Архив по година
+  monthly_archives: Архив по месец
+  yearly_archive_link: "%Y"
+  monthly_archive_link: "%B %Y"
+
+subscription_form:
+  list: Пощенски списък
+  first_name: Име
+  last_name: Фамилия
+  email: Email адрес
+  action: Действие
+  subscribe: Записване
+  unsubscribe: Отписване
+  submit: Изпрати

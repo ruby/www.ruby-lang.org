@@ -1,7 +1,7 @@
-{% if site.locales.sidebar[page.lang] %}
-  {% assign syndicate = site.locales.sidebar[page.lang].syndicate %}
+{% if site.data.locales[page.lang].sidebar %}
+  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
 {% else %}
-  {% assign syndicate = site.locales.sidebar['en'].syndicate %}
+  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
 {% endif %}
 
     <h3>{{ syndicate.text }}</h3>

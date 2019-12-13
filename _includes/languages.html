@@ -1,8 +1,8 @@
 <p>
-{% if site.locales.languages_heading[page.lang] %}
-  {{ site.locales.languages_heading[page.lang] }}
+{% if site.data.locales[page.lang].languages_heading %}
+  {{ site.data.locales[page.lang].languages_heading }}
 {% else %}
-  {{ site.locales.languages_heading['en'] }}
+  {{ site.data.locales['en'].languages_heading }}
 {% endif %}
 <a href="/bg/">Български</a>,
 <a href="/de/">Deutsch</a>,
