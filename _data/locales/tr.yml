@@ -74,6 +74,8 @@ sidebar:
     documentation:
       text: Belgeler
       url: /tr/documentation/
+    # books:
+    #   text: Kitaplar
     rubybib:
       text: Akademik Araştırma
       url: https://rubybib.org/

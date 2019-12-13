@@ -74,6 +74,8 @@ sidebar:
     documentation:
       text: Documentation
       url: /en/documentation/
+    # books:
+    #   text: Books
     rubybib:
       text: Academic Research
       url: https://rubybib.org/

@@ -73,6 +73,8 @@ sidebar:
     documentation:
       text: Tài liệu
       url: /vi/documentation/
+    # books:
+    #   text: Sách
     libraries:
       text: Thư viện
       url: /vi/libraries/

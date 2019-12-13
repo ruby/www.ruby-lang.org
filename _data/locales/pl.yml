@@ -73,6 +73,8 @@ sidebar:
     documentation:
       text: Dokumentacja
       url: /pl/documentation/
+    # books:
+    #   text: Książki
     libraries:
       text: Biblioteki
       url: /pl/libraries/

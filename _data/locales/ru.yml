@@ -73,6 +73,8 @@ sidebar:
     documentation:
       text: Документация
       url: /ru/documentation/
+    # books:
+    #   text: Книги
     libraries:
       text: Библиотеки
       url: /ru/libraries/

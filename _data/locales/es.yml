@@ -73,6 +73,8 @@ sidebar:
     documentation:
       text: Documentación
       url: /es/documentation/
+    # books:
+    #   text: Libros
     libraries:
       text: Bibliotecas
       url: /es/libraries/

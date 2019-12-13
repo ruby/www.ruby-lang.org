@@ -73,6 +73,8 @@ sidebar:
     documentation:
       text: Dokumentasi
       url: /id/documentation/
+    # books:
+    #   text: Buku-buku
     libraries:
       text: Pustaka
       url: /id/libraries/

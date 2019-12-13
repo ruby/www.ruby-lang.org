@@ -61,6 +61,8 @@ sidebar:
     documentation:
       text: 文档
       url: /zh_cn/documentation/
+    # books:
+    #   text: Books
     rubybib:
       text: 学术研究
       url: https://rubybib.org/

@@ -61,6 +61,8 @@ sidebar:
     documentation:
       text: 문서
       url: /ko/documentation/
+    # books:
+    #   text: 책
     libraries:
       text: 라이브러리
       url: /ko/libraries/
