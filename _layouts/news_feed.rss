@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-{% assign locales = site.locales.feed[page.lang] %}
-{% if site.locales.translated_by[page.lang] %}
-{% assign translated_by = site.locales.translated_by[page.lang] %}
+{% assign locales = site.data.locales.feed[page.lang] %}
+{% if site.data.locales.translated_by[page.lang] %}
+{% assign translated_by = site.data.locales.translated_by[page.lang] %}
 {% else %}
-{% assign translated_by = site.locales.translated_by['en'] %}
+{% assign translated_by = site.data.locales.translated_by['en'] %}
 {% endif %}
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>

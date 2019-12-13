@@ -2,7 +2,7 @@ module Jekyll
 
   # Generates a localized "Posted by ... on ..." text from a date,
   # using the page +lang+ variable and a +strftime+ format string
-  # read from the site config (+locales+: +posted_by+: +lang+).
+  # read from the site data (+locales+: +posted_by+: +lang+).
   # Example format string: <tt>"Posted by AUTHOR on %-d %b %Y"</tt>
   # (literal +AUTHOR+ is replaced by the specified author).
   #
@@ -18,7 +18,7 @@ module Jekyll
 
       lang = @context.environments.first['page']['lang'] || 'en'
 
-      locales = @context.registers[:site].config['locales']['posted_by']
+      locales = @context.registers[:site].data['locales']['posted_by']
       posted_by = locales[lang] || locales['en']
 
       if author.nil? || author.empty? || author == 'Unknown Author'

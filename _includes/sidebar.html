@@ -1,7 +1,7 @@
-{% if site.locales.sidebar[page.lang] %}
-  {% assign sidebar = site.locales.sidebar[page.lang] %}
+{% if site.data.locales.sidebar[page.lang] %}
+  {% assign sidebar = site.data.locales.sidebar[page.lang] %}
 {% else %}
-  {% assign sidebar = site.locales.sidebar['en'] %}
+  {% assign sidebar = site.data.locales.sidebar['en'] %}
 {% endif %}
 
 {% if page.sidebar != null %}
