@@ -2,10 +2,10 @@
 layout: default
 ---
 
-{% if site.data.locales.translated_by[page.lang] %}
-  {% assign translated_by = site.data.locales.translated_by[page.lang] %}
+{% if site.data.locales[page.lang].translated_by %}
+  {% assign translated_by = site.data.locales[page.lang].translated_by %}
 {% else %}
-  {% assign translated_by = site.data.locales.translated_by['en'] %}
+  {% assign translated_by = site.data.locales['en'].translated_by %}
 {% endif %}
 
 <div id="content-wrapper">
@@ -23,10 +23,10 @@ layout: default
 <div id="sidebar-wrapper">
   <div id="sidebar">
     <div class="navigation">
-      {% if site.data.locales.news[page.lang] %}
-        {% assign news = site.data.locales.news[page.lang] %}
+      {% if site.data.locales[page.lang].news %}
+        {% assign news = site.data.locales[page.lang].news %}
       {% else %}
-        {% assign news = site.data.locales.news['en'] %}
+        {% assign news = site.data.locales['en'].news %}
       {% endif %}
 
       <h3><strong>{{ news.recent_news }}</strong></h3>
@@ -38,10 +38,10 @@ layout: default
       </ul>
     </div>
 
-    {% if site.data.locales.sidebar[page.lang] %}
-      {% assign sidebar = site.data.locales.sidebar[page.lang] %}
+    {% if site.data.locales[page.lang].sidebar %}
+      {% assign sidebar = site.data.locales[page.lang].sidebar %}
     {% else %}
-      {% assign sidebar = site.data.locales.sidebar['en'] %}
+      {% assign sidebar = site.data.locales['en'].sidebar %}
     {% endif %}
 
     <h3>{{ sidebar.syndicate.text }}</h3>

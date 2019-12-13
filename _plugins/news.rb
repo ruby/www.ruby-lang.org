@@ -12,11 +12,11 @@ module Jekyll
         @dir     = File.join(@lang,news_dir)
         @name    = 'index.html'
 
-        @locales = @site.data['locales']['news'][@lang] ||
-                   @site.data['locales']['news']['en']
+        @locales = @site.data['locales'][@lang]['news'] ||
+                   @site.data['locales']['en']['news']
 
-        @month_names = @site.data['locales']['month_names'][@lang] ||
-                       @site.data['locales']['month_names']['en']
+        @month_names = @site.data['locales'][@lang]['month_names'] ||
+                       @site.data['locales']['en']['month_names']
         @month_names = ['None'] + @month_names
 
         process(@name)

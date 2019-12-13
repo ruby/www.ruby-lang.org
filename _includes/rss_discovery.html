@@ -1,6 +1,6 @@
-{% if site.data.locales.sidebar[page.lang] %}
-  {% assign syndicate = site.data.locales.sidebar[page.lang].syndicate %}
+{% if site.data.locales[page.lang].sidebar %}
+  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
 {% else %}
-  {% assign syndicate = site.data.locales.sidebar['en'].syndicate %}
+  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
 {% endif %}
     <link href="{{ syndicate.recent_news.url }}" rel="alternate" title="{{ syndicate.recent_news.text }}" type="application/rss+xml">

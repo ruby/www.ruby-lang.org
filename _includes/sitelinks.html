@@ -1,7 +1,7 @@
-{% if site.data.locales.sitelinks[page.lang] %}
-  {% assign sitelinks = site.data.locales.sitelinks[page.lang] %}
+{% if site.data.locales[page.lang].sitelinks %}
+  {% assign sitelinks = site.data.locales[page.lang].sitelinks %}
 {% else %}
-  {% assign sitelinks = site.data.locales.sitelinks['en'] %}
+  {% assign sitelinks = site.data.locales['en'].sitelinks %}
 {% endif %}
 {% for link in sitelinks %}
   <a href="{{ link.url }}/">{{ link.text }}</a>

@@ -2,10 +2,10 @@
 layout: default
 ---
 
-{% if site.data.locales.news[page.lang] %}
-  {% assign locales = site.data.locales.news[page.lang] %}
+{% if site.data.locales[page.lang].news %}
+  {% assign locales = site.data.locales[page.lang].news %}
 {% else %}
-  {% assign locales = site.data.locales.news['en'] %}
+  {% assign locales = site.data.locales['en'].news %}
 {% endif %}
 
 <div id="content-wrapper">

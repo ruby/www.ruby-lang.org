@@ -11,10 +11,10 @@ javascript:
 {% assign number_of_excerpts = 4 %}
 {% assign number_of_other    = 6 %}
 
-{% if site.data.locales.news[page.lang] %}
-  {% assign news = site.data.locales.news[page.lang] %}
+{% if site.data.locales[page.lang].news %}
+  {% assign news = site.data.locales[page.lang].news %}
 {% else %}
-  {% assign news = site.data.locales.news['en'] %}
+  {% assign news = site.data.locales['en'].news %}
 {% endif %}
 
 {% for post in site.categories[page.lang] limit:number_of_excerpts %}
