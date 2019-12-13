@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.0'da konumsal ve anahtar kelime argümanlarının ayrılması"
+title: "Ruby 3.0'da konumsal argümanların ve anahtar kelime argümanlarının ayrılması"
 author: "mame"
 translator: "İsmail Arılık"
 date: 2019-12-12 12:00:00 +0000
