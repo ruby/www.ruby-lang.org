@@ -703,27 +703,27 @@ locales:
         mailing_lists:
           text: Пощенски списъци
           url: /bg/community/mailing-lists/
-          description: |
+          description:
             Дискусии относно Ruby с програмисти от цял свят.
         user_groups:
           text: Потребителски групи
           url: /bg/community/user-groups/
-          description: |
+          description:
             Свържете се с рубисти в твоя район.
         weblogs:
           text: Блогове
           url: /bg/community/weblogs/
-          description: |
+          description:
             Прочетете какво се случва в Ruby обществото.
         ruby_core:
           text: Ruby ядро
           url: /bg/community/ruby-core/
-          description: |
+          description:
             Помогнете за разработката на Ruby.
         issue_tracking:
           text: Следене на бъгове
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Докладвайте или помогнете за решаването на проблеми в Ruby.
       syndicate:
         text: Новини
@@ -760,27 +760,27 @@ locales:
         mailing_lists:
           text: Mailing-Listen
           url: /de/community/mailing-lists/
-          description: |
+          description:
             Sprich mit Programmierern auf der ganzen Welt über Ruby.
         user_groups:
           text: User-Groups
           url: /de/community/user-groups/
-          description: |
+          description:
             Treffe Rubyisten in deiner Umgebung.
         weblogs:
           text: Weblogs
           url: /de/community/weblogs/
-          description: |
+          description:
             Lies, was gerade jetzt in der Ruby-Community passiert.
         ruby_core:
           text: Ruby-Entwicklung
           url: /de/community/ruby-core/
-          description: |
+          description:
             Hilf mit, die neuesten Ruby-Versionen zu verbessern.
         issue_tracking:
           text: Fehler melden
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Melde einen Fehler oder hilf mit, offene Fehler zu beseitigen.
       syndicate:
         text: Syndication
@@ -820,27 +820,27 @@ locales:
         mailing_lists:
           text: Mailing Lists
           url: /en/community/mailing-lists/
-          description: |
+          description:
             Talk about Ruby with programmers from all around the world.
         user_groups:
           text: User Groups
           url: /en/community/user-groups/
-          description: |
+          description:
             Get in contact with Rubyists in your area.
         weblogs:
           text: Blogs
           url: /en/community/weblogs/
-          description: |
+          description:
             Read about what’s happening right now in the Ruby community.
         ruby_core:
           text: Ruby Core
           url: /en/community/ruby-core/
-          description: |
+          description:
             Help polish the rough edges of the latest Ruby.
         issue_tracking:
           text: Issue Tracking
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Report or help solve issues in Ruby.
       syndicate:
         text: Syndicate
@@ -877,27 +877,27 @@ locales:
         mailing_lists:
           text: Listas de correo
           url: /es/community/mailing-lists/
-          description: |
+          description:
             Habla sobre Ruby con desarrolladores alrededor del mundo.
         user_groups:
           text: Grupos de usuarios
           url: /es/community/user-groups/
-          description: |
+          description:
             Ponte en contacto con otros Rubyistas en tu localidad.
         weblogs:
           text: Blogs (en inglés)
           url: /en/community/weblogs/
-          description: |
+          description:
              Entérate de lo que está sucediendo en la comunidad.
         ruby_core:
           text: Ruby Core (en inglés)
           url: /en/community/ruby-core/
-          description: |
+          description:
             Ayuda a mejorar el futuro de Ruby.
         issue_tracking:
           text: Reportes de errores
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Reporta o ayuda a resolver problemas en Ruby.
       syndicate:
         text: Feeds de noticias (RSS)
@@ -934,27 +934,27 @@ locales:
         mailing_lists:
           text: Listes de diffusion
           url: /fr/community/mailing-lists/
-          description: |
+          description:
             discutez de Ruby avec des programmeurs du monde entier.
         user_groups:
           text: Groupes d’utilisateur
           url: /fr/community/user-groups/
-          description: |
+          description:
             entrez en contact avec d’autres rubyistes de votre région.
         weblogs:
           text: Blogs
           url: /fr/community/weblogs/
-          description: |
+          description:
             suivez toute l’actualité de la communauté Ruby.
         ruby_core:
           text: Ruby Core
           url: /fr/community/ruby-core/
-          description: |
+          description:
             apportez votre aide à l'élaboration du prochain Ruby.
         issue_tracking:
           text: Rapports de bugs
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             aidez à corriger et améliorer Ruby.
       syndicate:
         text: Syndication
@@ -987,33 +987,31 @@ locales:
           text: Kisah Sukses
           url: /id/documentation/success-stories/
       participate:
-        text: |
-          <strong>Bergabunglah</strong> dalam komunitas yang ramah dan makin
-          berkembang.
+        text: <strong>Bergabunglah</strong> dalam komunitas yang ramah dan makin berkembang.
         mailing_lists:
           text: Mailing List
           url: /id/community/mailing-lists/
-          description: |
+          description:
             Berdiskusi dengan programmer Ruby dari Indonesia dan seluruh dunia.
         user_groups:
           text: Komunitas Pengguna
           url: /id/community/user-groups/
-          description: |
+          description:
             Berpartisipasilah dengan Rubyist di lokasi Anda.
         weblogs:
           text: Blog
           url: /id/community/weblogs/
-          description: |
+          description:
             Ulasan terbaru dari komunitas Ruby.
         ruby_core:
           text: Ruby Core
           url: /id/community/ruby-core/
-          description: |
+          description:
             Silakan berkontribusi untuk versi Ruby terbaru.
         issue_tracking:
           text: Laporkan Masalah
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Lapor atau bantu memecahkan masalah yang ada di Ruby.
       syndicate:
         text: Sindikasi Web
@@ -1046,32 +1044,31 @@ locales:
           text: Esperienze Positive
           url: /it/documentation/success-stories/
       participate:
-        text: |
-          <strong>Partecipa</strong> ad una comunità amichevole e in crescita.
+        text: <strong>Partecipa</strong> ad una comunità amichevole e in crescita.
         mailing_lists:
           text: Liste di Discussione
           url: /it/community/mailing-lists/
-          description: |
+          description:
             Parla con altri programmatori Ruby da tutto il mondo.
         user_groups:
           text: Gruppi di Utenti
           url: /it/community/user-groups/
-          description: |
+          description:
             Entra in contatto con "Rubysti" nella tua zona.
         weblogs:
           text: Blog
           url: /it/community/weblogs/
-          description: |
+          description:
             Leggi cosa sta succedendo proprio adesso nella comunità di Ruby.
         ruby_core:
           text: Ruby Core
           url: /it/community/ruby-core/
-          description: |
+          description:
             Aiutaci a perfezionare l'ultimo Ruby.
         issue_tracking:
           text: Issue Tracking
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Segnalaci o aiutaci a risolvere problemi in Ruby
       syndicate:
         text: Feed RSS
@@ -1111,27 +1108,27 @@ locales:
         mailing_lists:
           text: メーリングリスト
           url: /ja/community/mailing-lists/
-          description: |
+          description:
             世界中のプログラマとRubyについて話しましょう。
         user_groups:
           text: 日本Rubyの会
           url: http://ruby-no-kai.org/
-          description: |
+          description:
             Rubyの利用者/開発者の支援を目的としたグループです。
         weblogs:
           text: 更新順リンク
           url: http://www.rubyist.net/~kazu/samidare/
-          description: |
+          description:
             Ruby関連のサイトのリンクを更新順に並べたものです。
 #       ruby_core:
 #         text: Ruby Core
 #         url: /en/community/ruby-core/
-#         description: |
+#         description:
 #           Help polish the rough edges of the latest Ruby.
 #       issue_tracking:
 #         text: Issue Tracking
 #         url: https://bugs.ruby-lang.org/
-#         description: |
+#         description:
 #           Report or help solve issues in Ruby.
       syndicate:
         text: Syndicate
@@ -1168,27 +1165,27 @@ locales:
         mailing_lists:
           text: 루비 사용자 포럼
           url: http://groups.google.com/group/rubykr
-          description: |
+          description:
             한국의 루비스트를 만나세요
         user_groups:
           text: 유저 그룹
           url: /ko/community/user-groups/
-          description: |
+          description:
             근처의 루비스트와 연락하기
         weblogs:
           text: 웹로그
           url: /ko/community/weblogs/
-          description: |
+          description:
             루비 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
         ruby_core:
           text: 루비 코어
           url: /ko/community/ruby-core/
-          description: |
+          description:
             최신판 루비의 연마를 돕기
         issue_tracking:
           text: 이슈 관리
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             루비에 관한 이슈를 제보하거나 해결을 돕기
       syndicate:
         text: 구독
@@ -1221,33 +1218,31 @@ locales:
           text: Udane wdrożenia
           url: /pl/documentation/success-stories/
       participate:
-        text: |
-          <strong>Dołącz</strong> do przyjaznej i rozrastającej się
-          społeczności.
+        text: <strong>Dołącz</strong> do przyjaznej i rozrastającej się społeczności.
         mailing_lists:
           text: Listy dyskusyjne
           url: /pl/community/mailing-lists/
-          description: |
+          description:
             Porozmawiaj o Ruby z programistami z całego świata.
         user_groups:
           text: Grupy Użytkowników
           url: /pl/community/user-groups/
-          description: |
+          description:
             Bądź w kontakcie z użytkownikami Rubiego z Twojej okolicy.
         weblogs:
           text: Blogi
           url: /pl/community/weblogs/
-          description: |
+          description:
             Czytaj na bieżąco co dzieje się w społeczności języka Ruby.
         ruby_core:
           text: Ruby Core
           url: /en/community/ruby-core/
-          description: |
+          description:
             Pomóż dopracować najnowszą wersję Rubiego.
         issue_tracking:
           text: Śledzenie problemów
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Zgłoś lub pomóż rozwiązać problemy w Rubim.
       syndicate:
         text: Syndicate
@@ -1280,32 +1275,31 @@ locales:
           text: Histórias de sucesso
           url: /pt/documentation/success-stories/
       participate:
-        text: |
-          <strong>Participe</strong> de uma comunidade simpática e em crescimento.
+        text: <strong>Participe</strong> de uma comunidade simpática e em crescimento.
         mailing_lists:
           text: Listas de E-mail
           url: /pt/community/mailing-lists/
-          description: |
+          description:
             Fale sobre Ruby com programadores de todo o mundo.
         user_groups:
           text: Grupos de Usuários
           url: /pt/community/user-groups/
-          description: |
+          description:
             Entre em contato com colegas da sua área.
         weblogs:
           text: Weblogs
           url: /pt/community/weblogs/
-          description: |
+          description:
             Leia sobre o que está acontecendo agora na comunidade Ruby.
         ruby_core:
           text: Ruby Core
           url: /pt/community/ruby-core/
-          description: |
+          description:
             Ajude a polir as arestas da última versão do Ruby.
         issue_tracking:
           text: Issue Tracking
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Informe ou ajude a resolver problemas do Ruby.
       syndicate:
         text: Feeds de notícias (RSS)
@@ -1342,27 +1336,27 @@ locales:
         mailing_lists:
           text: Почтовые рассылки
           url: /ru/community/mailing-lists/
-          description: |
+          description:
             Разговоры о Ruby в кругу программистов со всего мира.
         user_groups:
           text: Группы пользователей
           url: /ru/community/user-groups/
-          description: |
+          description:
             Познакомьтесь с рубистами рядом с вами.
         weblogs:
           text: Блоги
           url: /ru/community/weblogs/
-          description: |
+          description:
             Читайте о том, что происходит в сообществе Ruby прямо сейчас.
         ruby_core:
           text: Ядро Ruby
           url: /ru/community/ruby-core/
-          description: |
+          description:
             Помощь в полировке последней версии Ruby.
         issue_tracking:
           text: Решение проблем
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Сообщайте или помогите решить проблемы в Ruby.
       syndicate:
         text: Синдикат
@@ -1402,27 +1396,27 @@ locales:
         mailing_lists:
           text: Mail Listeleri
           url: /tr/community/mailing-lists/
-          description: |
+          description:
             Tüm dünyadan Ruby programcılarıyla görüşün.
         user_groups:
           text: Kullanıcı Grupları
           url: /tr/community/user-groups/
-          description: |
+          description:
             Bölgenizdeki Ruby'cilerle temas kurun.
         weblogs:
           text: Web günlükleri
           url: /tr/community/weblogs/
-          description: |
+          description:
             Ruby'de neler olduğunu takip edin.
         ruby_core:
           text: Ruby Core
           url: /tr/community/ruby-core/
-          description: |
+          description:
             En son Ruby'nin kaba taraflarının parlatılmasına yardımcı olun.
         issue_tracking:
           text: Sorun Takibi
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Ruby sorunlarını rapor edin ya da çözümüne yardım edin.
       syndicate:
         text: Takip Edin
@@ -1459,27 +1453,27 @@ locales:
         mailing_lists:
           text: Mailing Lists
           url: /vi/community/mailing-lists/
-          description: |
+          description:
             Trao đổi về Ruby với các lập trình viên trên thế giới
         user_groups:
           text: Nhóm người dùng
           url: /vi/community/user-groups/
-          description: |
+          description:
             Làm quen với những Rubyist trong khu vực của bạn.
         weblogs:
           text: Weblogs
           url: /vi/community/weblogs/
-          description: |
+          description:
             Đọc về những gì đang xảy ra với cộng đồng Ruby.
         ruby_core:
           text: Lõi Ruby
           url: /vi/community/ruby-core/
-          description: |
+          description:
             Giúp hoàn thiện Ruby.
         issue_tracking:
           text: Thông báo lỗi
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             Báo hoặc giúp xử lý các lỗi trong Ruby.
       syndicate:
         text: Syndicate
@@ -1519,27 +1513,27 @@ locales:
         mailing_lists:
           text: 郵件論壇
           url: /zh_tw/community/mailing-lists/
-          description: |
+          description:
             與世界各地的程式設計師一同聊聊
         user_groups:
           text: 使用者群組
           url: /zh_tw/community/user-groups/
-          description: |
+          description:
             與身旁的 Ruby 使用者接觸
         weblogs:
           text: 部落格
           url: /zh_tw/community/weblogs/
-          description: |
+          description:
             了解 Ruby 社群中的最新消息
         ruby_core:
           text: Ruby 核心
           url: /zh_tw/community/ruby-core/
-          description: |
+          description:
             幫助開發最新的 Ruby
         issue_tracking:
           text: 問題追蹤
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             回報或解決 Ruby 問題
       syndicate:
         text: 訂閱
@@ -1579,27 +1573,27 @@ locales:
         mailing_lists:
           text: 邮件列表
           url: /zh_cn/community/mailing-lists/
-          description: |
+          description:
             联系喜爱 Ruby 的朋友
         user_groups:
           text: 用户组
           url: /zh_cn/community/user-groups/
-          description: |
+          description:
             参与 Ruby 爱好者活动
         weblogs:
           text: 博客
           url: /zh_cn/community/weblogs/
-          description: |
+          description:
             阅读 Ruby 相关的博客
         ruby_core:
           text: Ruby 核心
           url: /zh_cn/community/ruby-core/
-          description: |
+          description:
             帮助开发 Ruby 语言
         issue_tracking:
           text: 问题跟踪
           url: https://bugs.ruby-lang.org/
-          description: |
+          description:
             报告或帮助解决 Ruby 的问题
       syndicate:
         text: 订阅
@@ -1767,39 +1761,39 @@ locales:
     zh_cn: "本站其他语言版本："
 
   credits:
-    bg: |
+    bg:
       <a href="/bg/about/website/">Този сайт</a>
       се поддържа от членове на Ruby обществото.
-    de: |
+    de:
       <a href="/de/about/website/">Diese Website</a>
       wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.
-    en: |
+    en:
       <a href="/en/about/website/">This website</a>
       is proudly maintained by members of the Ruby community.
-    es: |
+    es:
       Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
       y es orgullosamente mantenido por miembros de la comunidad.
       Si quieres contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       si tienes preguntas o comentarios.
-    fr: |
+    fr:
       Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Il est fièrement maintenu par des membres de la communauté Ruby.
       Contribuez en vous rendant sur <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       ou contactez le <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
       pour toute question ou tout commentaire.
-    id: |
+    id:
       <a href="/id/about/website/">Situs ini</a>
       dengan bangga dirawat oleh anggota komunitas Ruby.
-    it: |
+    it:
       <a href="/it/about/website/">Questo sito web</a>
       è mantenuto con orgoglio dai membri della comunità Ruby.
-    ja: |
+    ja:
       <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
-    ko: |
+    ko:
       <a href="/ko/about/website/">이 사이트</a>는 루비 커뮤니티의
       구성원들이 직접 관리합니다.
-    pl: |
+    pl:
       <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006, Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC BY-SA 2.5</a>.<br><br>
       Serwis powstał w języku Ruby przy użyciu <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Utrzymaniem serwisu zajmuje się społeczność Rubiego.
@@ -1807,21 +1801,21 @@ locales:
       Proszę udziel nam wsparcia na <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       lub skontaktuj się z naszym <a href="mailto:webmaster@ruby-lang.org">webmasterem</a>
       jeśli masz jakieś pytania lub komentarze dotyczące tego serwisu.
-    pt: |
+    pt:
       <a href="/pt/about/website/">Este website</a>
       é mantido com orgulho por membros da comunidade Ruby.
-    ru: |
+    ru:
       <a href="/ru/about/website/">Этот сайт</a> с гордостью поддерживается членами сообщества Ruby.
-    tr: |
+    tr:
       <a href="/tr/about/website/">Bu web sitesi</a>
       Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
-    vi: |
+    vi:
       Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
       Trang được bảo trì bởi các thành viên của cộng đồng Ruby.
       Xin đóng góp trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
       hay liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng tiếng Anh)
       nếu có câu hỏi hoặc ý kiến phản hồi về trang này.
-    zh_cn: |
+    zh_cn:
       <a href="/zh_cn/about/website/">本站</a>由 Ruby 社区的成员共同维护。
-    zh_tw: |
+    zh_tw:
       <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。
