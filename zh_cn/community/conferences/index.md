@@ -36,9 +36,6 @@ Ruby 相关的报道，而且我们总是对 Ruby 相关的内容更感兴趣。
 
 自2006年起，Ruby Central 还携手 [SVForum][7] 主办了硅谷 Ruby 研讨会。
 
-[RubyNation][8] 是美国东岸（Virginia, West Virginia, Maryland, and
-Washington, DC 等地区）的年度 Ruby 大会。
-
 [WindyCityRails][9] 是一个为 Ruby on Rails 爱好者准备的年会。自2008年起，总部位于芝加哥的研讨会就一直为 Ruby 社区服务。
 
 [Madison Ruby][15]: 威斯康星州的麦迪逊（Madison, WI）
@@ -70,7 +67,6 @@ Ruby 相关的内容都在逐年增加。许多研讨会都以 [Ruby on Rails][1
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
 [7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

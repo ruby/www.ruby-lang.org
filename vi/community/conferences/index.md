@@ -47,9 +47,6 @@ thời gian, địa điểm, kêu gọi đề xuất và thông tin đăng kí c
 Ruby Central đã hợp tác với [SVForum][7] để tạo ra thung lũng Silicon dành cho
 các hội thảo về Ruby trong khu vực lần thứ 2 trong năm 2007.
 
-[RubyNation][8] là cuộc hội thảo Ruby thường niên dành cho các khu vực Virginia,
-Tây Virginia, Maryland, và Washington, DC.
-
 [WindyCityRails][9] là nơi tập trung hàng năm dành cho những người đam mê
 Ruby on Rails. Trụ sở hội thảo tại Chicago đã phục vụ cộng đồng Ruby từ
 năm 2008.
@@ -93,7 +90,6 @@ và Canada on Rails.
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
 [7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

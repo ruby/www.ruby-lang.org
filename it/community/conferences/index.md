@@ -55,9 +55,6 @@ Ruby Central si è anche collegata con [SVForum][7] per produrre la
 Conferenza Ruby di Silicon Valley, che ha avuto il suo secondo incontro
 annuale nel 2007.
 
-[RubyNation][8] è una conferenza annnuale su Ruby tenuta nell'area della
-Virginia, West Virginia, Maryland, e Washington, DC.
-
 WindCityRails è un incontro annuale per tutti gli appassionati di Ruby on
 Rails. Questa conferenza di Chicago viene organizzata per la comunità
 Ruby dal 2008. Visita [http://windycityrails.org][9] per maggiori dettagli.
@@ -101,7 +98,6 @@ e in 2007 da Ruby Central e O’Reilly), e infine Canada on Rails.
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
 [7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

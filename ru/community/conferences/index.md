@@ -47,9 +47,6 @@ Ruby Central также сотрудничает с [SVForum][7], чтобы о�
 Valley Ruby Conference, участвуя в этом со второй такой конференции в 2007
 году.
 
-[RubyNation][8] ежегодная Ruby конференция, проводимая в Virginia, West
-Virginia, Maryland, и Washington, округ Колумбия.
-
 [WindyCityRails][9] является ежегодной конференцией для всех, кто обожает
 Ruby on Rails. Событие проводится в Chicago сообществом Ruby начиная с
 2008 года.
@@ -72,7 +69,6 @@ O’Reilly), и Canada on Rails.
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
 [7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
