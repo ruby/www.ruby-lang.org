@@ -49,9 +49,6 @@ Ruby програмистите по света все по-често орга�
 Ruby Central също така работи с [SVForum][7] в усилията си за Silicon
 Valley Ruby Conference.
 
-[RubyNation][8] е ежегодна Ruby конференция, която се провежда във
-Virginia, West Virginia, Maryland, и Washington, DC.
-
 ### Присъствие на Ruby в други конференции
 
 Ruby присъства на [O’Reilly Open Source Conference][10] (OSCON) от 2004
@@ -70,7 +67,6 @@ Central и [Skills Matter][14], и през 2007 г. с помощта на Ruby
 [5]: http://www.osdc.com.au/
 [6]: http://rubycentral.org/community/grant
 [7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
 [12]: http://www.railsconf.org
