@@ -23,7 +23,7 @@ Si necesita ponerse en contacto con el equipo de seguridad directamente por fuer
 de HackerOne, puede enviar un correo electrónico (en inglés) a security@ruby-lang.org
 ([la clave pública PGP](/ security.asc)), que es una lista de correo privada.
 
-Los miembros de la lista de correo son personas que que proveen Ruby (contribuyentes y autores de otras implementaciones de Ruby, distribuidores,plataformas PaaS). Los miembros deben ser personas individuales, no se permiten listas de correo.
+Los miembros de la lista de correo son personas que proveen Ruby (contribuyentes y autores de otras implementaciones de Ruby, distribuidores,plataformas PaaS). Los miembros deben ser personas individuales, no se permiten listas de correo.
 
 ## Problemas conocidos
 
@@ -31,4 +31,4 @@ A continuación una lista de los problemas conocidos más recientes:
 
 {% include security_posts.html %}
 
-Ve [la página en inglés](/en/security/) para publicaciones anteriores relacionadas con la seguridad.
+Vaya a [la página en inglés](/en/security/) para ver publicaciones anteriores relacionadas con la seguridad.
