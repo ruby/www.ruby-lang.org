@@ -162,7 +162,7 @@ Unfortunately, we need to use the old-style delegation (i.e., no `**kwargs`) bec
 
 {% highlight ruby %}
 def ruby2_keywords(*)
-end if RUBY_VESRION < "2.7"
+end if RUBY_VERSION < "2.7"
 {% endhighlight %}
 
 ---
