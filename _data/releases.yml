@@ -22,8 +22,8 @@
 # 2.7 series
 
 - version: 2.7.0-rc1
-  date: 2019-12-18
-  post: /en/news/2019/12/18/ruby-2-7-0-rc1-released/
+  date: 2019-12-17
+  post: /en/news/2019/12/17/ruby-2-7-0-rc1-released/
   total_files: 4163
   insertions: 226280
   deletions: 99449
