@@ -42,7 +42,7 @@ GEM
     lanyon (0.4.1)
       jekyll (>= 2.0)
       rack (>= 1.6, < 3.0)
-    libsqreen (0.3.0.0.2)
+    libsqreen (0.3.0.0.3)
     liquid (4.0.3)
     listen (3.2.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -56,7 +56,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.1)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-protection (2.0.7)
       rack
     rack-rewrite (1.5.1)
