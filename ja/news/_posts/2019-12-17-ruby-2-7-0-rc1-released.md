@@ -221,7 +221,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_7_0_rc1/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc1)を参照してください。
 
-なお、こうした変更により、Ruby 2.6.0 以降では [{{ release.total_files }} 個のファイルに変更が加えられ、{{ release.insertions }} 行の追加と {{ release.deletions }} 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc1) !
+なお、こうした変更により、Ruby 2.6.0 以降では [{{ release.stats.files_changed }} 個のファイルに変更が加えられ、{{ release.stats.insertions }} 行の追加と {{ release.stats.deletions }} 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc1) !
 
 
 Ruby 2.7 で楽しいプログラミングを！

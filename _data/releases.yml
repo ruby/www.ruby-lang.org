@@ -24,9 +24,10 @@
 - version: 2.7.0-rc1
   date: 2019-12-17
   post: /en/news/2019/12/17/ruby-2-7-0-rc1-released/
-  total_files: 4163
-  insertions: 226280
-  deletions: 99449
+  stats:
+    files_changed: 4163
+    insertions: 226280
+    deletions: 99449
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-rc1.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-rc1.zip

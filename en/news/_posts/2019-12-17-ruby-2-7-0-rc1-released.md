@@ -322,7 +322,7 @@ See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_rc1/NEWS)
 or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc1)
 for more details.
 
-With those changes, [{{ release.total_files }} files changed, {{ release.insertions }} insertions(+), {{ release.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc1)
+With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc1)
 since Ruby 2.6.0!
 Enjoy programming with Ruby 2.7!
 
