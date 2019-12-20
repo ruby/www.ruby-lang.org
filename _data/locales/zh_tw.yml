@@ -3,6 +3,9 @@ ruby: Ruby
 slogan: 程式設計師的摯友
 
 sitelinks:
+- text: Home
+  url: /zh_tw
+  home: true
 - text: 下載安裝
   url: /zh_tw/downloads
 - text: 文件
