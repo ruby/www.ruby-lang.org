@@ -3,6 +3,9 @@ ruby: Ruby
 slogan: най-добрият приятел на програмиста
 
 sitelinks:
+- text: Home
+  url: /bg
+  home: true
 - text: За сваляне
   url: /bg/downloads
 - text: Документация

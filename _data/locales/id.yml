@@ -3,6 +3,9 @@ ruby: Ruby
 slogan: Sahabat Terbaik Programmer
 
 sitelinks:
+- text: Home
+  url: /id
+  home: true
 - text: Unduh
   url: /id/downloads
 - text: Dokumentasi

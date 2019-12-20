@@ -3,6 +3,9 @@ ruby: 루비
 slogan: 프로그래머의 단짝 친구
 
 sitelinks:
+- text: Home
+  url: /ko
+  home: true
 - text: 다운로드
   url: /ko/downloads
 - text: 문서

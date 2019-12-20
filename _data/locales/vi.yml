@@ -3,6 +3,9 @@ ruby: Ruby
 slogan: Người bạn tri kỉ của lập trình viên
 
 sitelinks:
+- text: Home
+  url: /vi
+  home: true
 - text: Downloads
   url: /vi/downloads
 - text: Tài liệu
