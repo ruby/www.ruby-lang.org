@@ -12,7 +12,7 @@ breaks: false
 
 We are pleased to announce the release of Ruby 2.7.0-rc1.
 
-A preview version is released to gather feedback for the final release
+A release candidate is released to gather feedback for the final release
 planned for December.
 This rc1 is mainly released to confirm the compatibility of
 keyword arguments.
@@ -315,8 +315,6 @@ The final decision is not made, but will be fixed by the official release.
 
 * ~~`Regexp#match{?}` with `nil` raises TypeError as String, Symbol.
   [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ reverted
-
-3895 files changed, 213426 insertions(+), 96934 deletions(-)
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_rc1/NEWS)
 or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc1)
