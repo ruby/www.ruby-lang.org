@@ -247,7 +247,12 @@ The final decision is not made, but will be fixed by the official release.
   and `nil.to_s` now always return a frozen String.
   The returned String is always the same for a given object.
   [Experimental]
-  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~ reverted
+  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~
+* `Module#name`, `true.to_s`, `false.to_s`,
+  and `nil.to_s` now always return a frozen String.
+  The returned String is always the same for a given object.
+  [Experimental]
+  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150) reverted `Symbol#to_s` only
 
 * The performance of `CGI.escapeHTML` is improved.
   [GH-2226](https://github.com/ruby/ruby/pull/2226)
