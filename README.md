@@ -122,7 +122,7 @@ Besides generating and previewing the site
 you can perform additional tests with these tasks:
 
 ``` sh
-bundle exec rake check         # perform various tests on the source files
+bundle exec rake lint         # perform various tests on the source files
 bundle exec rake check:markup  # check markup for all generated pages
 bundle exec rake check:links   # check for 404's (needs a running local server)
 ```
