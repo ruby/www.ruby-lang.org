@@ -1,8 +1,8 @@
 ---
 layout: news_post
 title: "Вышел Ruby 2.6.3"
-author: "shprotru"
-translator:
+author: "naruse"
+translator: "shprotru"
 date: 2019-04-17 00:00:00 +0000
 lang: ru
 ---

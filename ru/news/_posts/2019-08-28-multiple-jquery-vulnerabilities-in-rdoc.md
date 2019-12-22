@@ -4,7 +4,7 @@ title: "Множественные уязвимости jQuery в RDoc"
 author: "aycabta"
 translator: "shprotru"
 date: 2019-08-28 09:00:00 +0000
-tags: безопасность
+tags: security
 lang: ru
 ---
 
