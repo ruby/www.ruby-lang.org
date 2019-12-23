@@ -54,14 +54,14 @@ For more details, please see
 
 `irb`, the bundled interactive environment (REPL; Read-Eval-Print-Loop),
 now supports multi-line editing. It is powered by `reline`,
-a `readline`-compatible pure Ruby implementation.
+a `readline`-compatible library implemented in pure Ruby.
 It also provides rdoc integration. In `irb` you can display the reference
 for a given class, module, or method.
 [[Feature #14683]](https://bugs.ruby-lang.org/issues/14683),
 [[Feature #14787]](https://bugs.ruby-lang.org/issues/14787),
 [[Feature #14918]](https://bugs.ruby-lang.org/issues/14918)
 
-Besides, source lines shown at `binding.irb` and inspect results
+Besides, source lines shown by `Binding#irb` and inspect results
 for core-class objects are now colorized.
 
 <video controls="controls" muted="muted" width="576" height="259">
@@ -167,7 +167,7 @@ is deprecated, and conversion will be removed in Ruby 3.
   h = {}; def foo(a) a end; foo(h)    # {}
   {% endhighlight %}
 
-NOTE: Too many deprecation warnings about keyword argument incompatibility
+NOTE: Too many deprecation warnings about keyword argument incompatibilities
 have been pointed out to be too verbose.  Currently, two possible solutions
 are discussed; disabling deprecation warnings by default
 ([#16345](https://bugs.ruby-lang.org/issues/16345))
@@ -183,7 +183,7 @@ The final decision is not made, but will be fixed by the official release.
   [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581),
   [[Feature #16275]](https://bugs.ruby-lang.org/issues/16275)
 
-* Numbered parameter as the default block parameter is introduced
+* Numbered parameters as default block parameters are introduced
   as an experimental feature.
   [[Feature #4475]](https://bugs.ruby-lang.org/issues/4475)
 
@@ -203,7 +203,8 @@ The final decision is not made, but will be fixed by the official release.
   #=> {"a"=>1, "b"=>2, "c"=>1}
   {% endhighlight %}
 
-* Calling a private method on `self` is now allowed.
+* Calling a private method with a literal `self` as the receiver
+  is now allowed.
   [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297),
   [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
@@ -292,7 +293,7 @@ The final decision is not made, but will be fixed by the official release.
 * `Proc.new` and `proc` with no block in a method called with a block
    is warned now.
 
-* `lambda` with no block in a method called with a block errs.
+* `lambda` with no block in a method called with a block raises an exception.
 
 * Update Unicode version and Emoji version from 11.0.0 to 12.0.0.
   [[Feature #15321]](https://bugs.ruby-lang.org/issues/15321)
@@ -305,7 +306,7 @@ The final decision is not made, but will be fixed by the official release.
   new Japanese era.
   [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
-* Require compilers to support C99
+* Require compilers to support C99.
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * Details of our dialect:
     <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
