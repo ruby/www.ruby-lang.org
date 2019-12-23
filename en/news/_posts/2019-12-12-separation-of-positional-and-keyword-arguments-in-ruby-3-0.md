@@ -13,7 +13,7 @@ This article explains the planned incompatibility of keyword arguments in Ruby 3
 
 In Ruby 3.0, positional arguments and keyword arguments will be separated.  Ruby 2.7 will warn for behaviors that will change in Ruby 3.0.  If you see the following warnings, you need to update your code:
 
-* `The last argument is used as the keyword parameter`, or
+* `The last argument is used as keyword parameters`, or
 * `The keyword argument is passed as the last hash parameter`, or
 * `The last argument is split into positional and keyword parameters`
 
@@ -37,8 +37,8 @@ h = { k: 42 }
 # In Ruby 2.7: The Hash is automatically converted to a keyword argument
 # In Ruby 3.0: This call raises an ArgumentError
 foo(h)
-  # => demo.rb:11: warning: The last argument is used as the keyword parameter
-  #    demo.rb:2: warning: for `foo' defined here; maybe ** should be added to the call?
+  # => demo.rb:11: warning: The last argument is used as keyword parameters; maybe ** should be added to the call
+  #    demo.rb:2: warning: The called method `foo' is defined here
   #    42
 
 # If you want to keep the behavior in Ruby 3.0, use double splat
@@ -58,7 +58,7 @@ end
 # In Ruby 3.0: This call raises an ArgumentError
 bar(k: 42)
   # => demo2.rb:9: warning: The keyword argument is passed as the last hash parameter
-  #    demo2.rb:2: warning: for `bar' defined here
+  #    demo2.rb:2: warning: The called method `bar' is defined here
   #    {:k=>42}
 
 # If you want to keep the behavior in Ruby 3.0, write braces to make it an
@@ -232,7 +232,7 @@ end
 bar("key" => 42, :sym => 43)
 # Ruby 2.6 and 2.7: => [{"key"=>42}, 43]
 # Ruby 2.7: warning: The last argument is split into positional and keyword parameters
-#           warning: for `bar' defined here
+#           warning: The called method `bar' is defined here
 # Ruby 3.0: ArgumentError
 {% endhighlight %}
 
@@ -264,7 +264,7 @@ empty_hash = {}
 foo(**empty_hash)
   #=> Ruby 2.6 or before: {}
   #=> Ruby 2.7: warning: The keyword argument is passed as the last hash parameter
-  #             warning: for `foo' defined here
+  #             warning: The called method `foo' is defined here
   #=> Ruby 3.0: ArgumentError: wrong number of arguments
 {% endhighlight %}
 
