@@ -202,9 +202,9 @@ Son karar verilmedi fakat bu sorun resmi yayında düzeltilecek.
 
   * `--jit-max-cache`'in varsayılan değeri 1.000'den 100'e değiştirildi.
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s` ve `nil.to_s` artık her zaman donmuş String döndürüyor.
+* ~~`Symbol#to_s`~~ (geri alındı), `Module#name`, `true.to_s`, `false.to_s` ve `nil.to_s` artık her zaman donmuş String döndürüyor.
 Döndürülen String, belirli bir nesne için her zaman aynıdır.
-[Deneysel]  [[Özellik #16150]](https://bugs.ruby-lang.org/issues/16150)~~ geri alındı
+[Deneysel]  [[Özellik #16150]](https://bugs.ruby-lang.org/issues/16150)
 
 * `CGI.escapeHTML`'in performansı iyileştirildi.
 [GH-2226](https://github.com/ruby/ruby/pull/2226)
