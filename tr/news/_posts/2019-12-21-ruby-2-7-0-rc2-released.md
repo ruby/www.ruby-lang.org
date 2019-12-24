@@ -48,12 +48,12 @@ Daha fazla ayrıntı için lütfen [Desen eşleştirme - Ruby 2.7'de yeni bir ö
 ## REPL iyileştirmesi
 
 Ruby ile gelen etkileşimli ortam (REPL; Read-Eval-Print-Loop) olan `irb` şimdi çoklu satır değiştirmeyi destekliyor.
-Bu özellik, `reline` ve `readline`'a uyumlu saf bir Ruby gerçeklemesi tarafından güçlendirilmiştir.
+Bu özellik saf Ruby'de gerçeklenen ve `readline`'a uyumlu bir kütüphane olan `reline` tarafından güçlendirilmiştir.
 Ayrıca bu, rdoc bütünleşimi de sağlamaktadır.
 `irb`'de ayrıca verilen bir sınıf, modül ya da metodun başvurusunu da görüntüleyebilirsiniz.
 [Özellik #14683](https://bugs.ruby-lang.org/issues/14683), [Özellik #14787](https://bugs.ruby-lang.org/issues/14787), [Özellik #14918](https://bugs.ruby-lang.org/issues/14918)
 
-ÜStelik şimdi `binding.irb`'de gösterilen kaynak satırları ve temel sınıf nesnelerinin gözlem sonuçları renklendiriliyor.
+ÜStelik şimdi `Binding#irb` tarafından gösterilen kaynak satırları ve temel sınıf nesnelerinin gözlem sonuçları renklendiriliyor.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
   <source src="https://cache.ruby-lang.org/pub/media/irb_improved_with_key_take2.mp4" type="video/mp4">
@@ -150,7 +150,7 @@ Son karar verilmedi fakat bu sorun resmi yayında düzeltilecek.
 * Bir metod referans operatörü (`.:`), daha önceki bir önizleme sürümünde deneysel bir özellik olarak eklendi fakat geri alındı.
   [[Özellik #12125]]( https://bugs.ruby-lang.org/issues/12125), [[Özellik #13581]]( https://bugs.ruby-lang.org/issues/13581), [[Özellik #16275]](https://bugs.ruby-lang.org/issues/16275)
 
-* Varsayılan blok parametresi olarak numaralanmış parametre, deneysel bir özellik olarak eklendi.
+* Varsayılan blok parametreleri olarak numaralanmış parametreler, deneysel bir özellik olarak eklendi.
   [[Özellik #4475]](https://bugs.ruby-lang.org/issues/4475)
 
 * Başlangıçsız aralık deneysel olarak eklendi.
@@ -170,7 +170,7 @@ Son karar verilmedi fakat bu sorun resmi yayında düzeltilecek.
   #=> {"a"=>1, "b"=>2, "c"=>1}
   {% endhighlight %}
 
-* `self` üstünden özel bir metodu çağırmaya artık izin verilmiyor.
+* Alıcı olarak bir `self` kalıbı ile özel bir metodu çağırmaya artık izin verilmiyor.
   [[Özellik #11297]](https://bugs.ruby-lang.org/issues/11297), [[Özellik #16123]](https://bugs.ruby-lang.org/issues/16123)
 
   {% highlight ruby %}
@@ -253,7 +253,7 @@ Son karar verilmedi fakat bu sorun resmi yayında düzeltilecek.
 
 * Bir blokla çağrılmış bir metodda bloksuz olarak yer alan `Proc.new` ve `proc` şimdi bir uyarıdır.
 
-* Bir blokla çağrılmış bir metodda bloksuz olarak yer alan `lambda` şimdi bir hatadır.
+* Bir blokla çağrılmış bir metodda bloksuz olarak yer alan `lambda` şimdi bir hata yükseltir.
 
 * Unicode ve Emoji sürümleri 11.0.0'dan 12.0.0'a güncellendi.
   [[Özellik #15321]](https://bugs.ruby-lang.org/issues/15321)
