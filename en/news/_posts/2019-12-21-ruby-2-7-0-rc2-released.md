@@ -78,7 +78,7 @@ leading to high memory usage and degraded speed.
 
 The `GC.compact` method is introduced for compacting the heap.
 This function compacts live objects in the heap so that fewer pages
-may be used, and the heap may be more CoW friendly.
+may be used, and the heap may be more CoW (copy-on-write) friendly.
 [[Feature #15626]](https://bugs.ruby-lang.org/issues/15626)
 
 ## Separation of positional and keyword arguments
