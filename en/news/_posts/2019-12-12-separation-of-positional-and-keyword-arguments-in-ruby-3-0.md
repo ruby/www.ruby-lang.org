@@ -37,7 +37,7 @@ h = { k: 42 }
 # In Ruby 2.7: The Hash is automatically converted to a keyword argument
 # In Ruby 3.0: This call raises an ArgumentError
 foo(h)
-  # => demo.rb:11: warning: The last argument is used as keyword parameters; maybe ** should be added to the call
+  # => demo.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
   #    demo.rb:2: warning: The called method `foo' is defined here
   #    42
 
@@ -57,7 +57,7 @@ end
 # In Ruby 2.7: The keyword is converted to a positional Hash argument
 # In Ruby 3.0: This call raises an ArgumentError
 bar(k: 42)
-  # => demo2.rb:9: warning: The keyword argument is passed as the last hash parameter
+  # => demo2.rb:9: warning: Passing the keyword argument as the last hash parameter is deprecated
   #    demo2.rb:2: warning: The called method `bar' is defined here
   #    {:k=>42}
 
@@ -237,7 +237,7 @@ end
 
 bar("key" => 42, :sym => 43)
 # Ruby 2.6 and 2.7: => [{"key"=>42}, 43]
-# Ruby 2.7: warning: The last argument is split into positional and keyword parameters
+# Ruby 2.7: warning: Splitting the last argument into positional and keyword parameters is deprecated
 #           warning: The called method `bar' is defined here
 # Ruby 3.0: ArgumentError
 {% endhighlight %}
@@ -269,7 +269,7 @@ end
 empty_hash = {}
 foo(**empty_hash)
   #=> Ruby 2.6 or before: {}
-  #=> Ruby 2.7: warning: The keyword argument is passed as the last hash parameter
+  #=> Ruby 2.7: warning: Passing the keyword argument as the last hash parameter is deprecated
   #             warning: The called method `foo' is defined here
   #=> Ruby 3.0: ArgumentError: wrong number of arguments
 {% endhighlight %}
