@@ -358,4 +358,4 @@ This article was kindly reviewed (or even co-authored) by Jeremy Evans and Benoi
 
 ## History
 
-* 23rd Dec. 2019: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added
+* Updated 2019-12-23: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added.
