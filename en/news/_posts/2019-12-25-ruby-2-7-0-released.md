@@ -9,7 +9,7 @@ lang: en
 
 We are pleased to announce the release of Ruby 2.7.0.
 
-It also introduces a number of new features and performance improvements,
+It introduces a number of new features and performance improvements,
 most notably:
 
 * Pattern Matching
@@ -229,7 +229,7 @@ The final decision is not made, but will be fixed by the official release.
 
   * The default value of `--jit-max-cache` is changed from 1,000 to 100.
 
-* Fiber's cache strategy is changed and fiber creation is speed up.
+* Fiber's cache strategy is changed and fiber creation is speeded up.
   [GH-2224](https://github.com/ruby/ruby/pull/2224)
 
 * `Module#name`, `true.to_s`, `false.to_s`,
