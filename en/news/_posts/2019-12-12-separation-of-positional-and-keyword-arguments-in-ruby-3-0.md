@@ -102,13 +102,7 @@ The changes in Ruby 2.7 are designed as a migration path towards 3.0.  While in 
 
 Except for the warnings and minor changes, Ruby 2.7 attempts to keep the compatibility with Ruby 2.6.  So, your code will probably work on Ruby 2.7, though it may emit warnings.  And by running it on Ruby 2.7, you can check if your code is ready for Ruby 3.0.
 
-<del>
-If you want to disable all warnings, please set `$VERBOSE = nil` (this is not recommended in general, though).  Ruby 2.7 may add a new mechanism to allow for more fine-grined control over warning visibility (see [Feature #16345](https://bugs.ruby-lang.org/issues/16345)). However, we have yet to decide whether to include this feature in the final release.
-</del>
-
-<ins>
 If you want to disable the deprecation warnings, please use a command-line argument `-W:no-deprecated` or add `Warning[:deprecated] = false` to your code.
-</ins>
 
 ## Handling argument delegation
 
@@ -358,4 +352,4 @@ This article was kindly reviewed (or even co-authored) by Jeremy Evans and Benoi
 
 ## History
 
-* Updated 2019-12-23: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added.
+* Updated 2019-12-25: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added.
