@@ -3,7 +3,7 @@ ruby: Ruby
 slogan: BİR PROGRAMCININ EN İYİ ARKADAŞI
 
 sitelinks:
-- text: Home
+- text: Ana Sayfa
   url: /tr
   home: true
 - text: İndirin
