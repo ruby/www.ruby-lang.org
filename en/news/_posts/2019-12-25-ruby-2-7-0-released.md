@@ -82,6 +82,9 @@ Automatic conversion of keyword arguments and positional arguments
 is deprecated, and conversion will be removed in Ruby 3.
 [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
+See the article "[Separation of positional and keyword arguments in Ruby 3.0](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)" in detail.
+Only the changes are as follows.
+
 * When a method call passes a Hash at the last argument, and when it
   passes no keywords, and when the called method accepts keywords,
   a warning is emitted.  To continue treating the hash as keywords,
@@ -162,13 +165,7 @@ is deprecated, and conversion will be removed in Ruby 3.
   h = {}; def foo(a) a end; foo(h)    # {}
   {% endhighlight %}
 
-NOTE: Too many deprecation warnings about keyword argument incompatibilities
-have been pointed out to be too verbose.  Currently, two possible solutions
-are discussed; disabling deprecation warnings by default
-([#16345](https://bugs.ruby-lang.org/issues/16345))
-or suppressing duplicated warnings
-([#16289](https://bugs.ruby-lang.org/issues/16289)).
-The final decision is not made, but will be fixed by the official release.
+If you want to disable the deprecation warnings, please use a command-line argument `-W:no-deprecated` or add `Warning[:deprecated] = false` to your code.
 
 ## Other Notable New Features
 

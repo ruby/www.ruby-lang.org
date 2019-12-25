@@ -58,6 +58,8 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
 
 キーワード引数とpositionalな引数（ふつうの引数）の間の自動変換が非推奨となりました。この変換はRuby 3で除去される予定です。[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
+以下、変更点のみを列挙しますが、詳しくは解説記事（[Separation of positional and keyword arguments in Ruby 3.0](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)）をご参照ください。
+
 * メソッド呼び出しにおいて最後の引数としてハッシュオブジェクトを渡し、他にキーワード引数を渡さず、かつ、呼ばれたメソッドがキーワード引数を受け取るとき、警告が表示されます。キーワード引数として扱いたい場合は、明示的にdouble splat演算子（`**`）を足すことで警告を回避できます。このように書けばRuby 3でも同じ意味で動きます。
 
   {% highlight ruby %}
@@ -115,7 +117,7 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
   h = {}; def foo(a) a end; foo(h)    # {}
   {% endhighlight %}
 
-注意：キーワード引数の非互換に関する警告が大量すぎるという指摘があります。現在、廃止に関する警告をデフォルトでオフにする ([#16345](https://bugs.ruby-lang.org/issues/16345)) か、一度警告した箇所を二度は警告しない ([#16289](https://bugs.ruby-lang.org/issues/16289)) という2つの解決方法が議論されています。最終決定はなされていませんが、正式リリースまでには修正される予定です。
+非推奨に関する警告を止めたい場合は、コマンドライン引数に`-W:no-deprecated`を指定するか、コードの中で`Warning[:deprecated] = true`としてください。
 
 ## 主要な新機能
 
