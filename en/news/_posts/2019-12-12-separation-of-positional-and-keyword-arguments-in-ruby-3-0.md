@@ -13,9 +13,9 @@ This article explains the planned incompatibility of keyword arguments in Ruby 3
 
 In Ruby 3.0, positional arguments and keyword arguments will be separated.  Ruby 2.7 will warn for behaviors that will change in Ruby 3.0.  If you see the following warnings, you need to update your code:
 
-* `The last argument is used as keyword parameters`, or
-* `The keyword argument is passed as the last hash parameter`, or
-* `The last argument is split into positional and keyword parameters`
+* `Using the last argument as keyword parameters is deprecated`, or
+* `Passing the keyword argument as the last hash parameter is deprecated`, or
+* `Splitting the last argument into positional and keyword parameters is deprecated`
 
 In most cases, you can avoid the incompatibility by adding the _double splat_ operator. It explicitly specifies passing keyword arguments instead of a `Hash` object. Likewise, you may add braces `{}` to explicitly pass a `Hash` object, instead of keyword arguments. Read the section "Typical cases" below for more details.
 
