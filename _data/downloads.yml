@@ -4,10 +4,10 @@
 # optional
 preview:
 
-  - 2.7.0-rc2
 
 stable:
 
+  - 2.7.0
   - 2.6.5
   - 2.5.7
 
