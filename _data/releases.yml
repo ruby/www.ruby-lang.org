@@ -21,6 +21,39 @@
 
 # 2.7 series
 
+- version: 2.7.0
+  date: 2019-12-25
+  post: /en/news/2019/12/25/ruby-2-7-0-released/
+  stats:
+    files_changed: 4190
+    insertions: 227497
+    deletions: 99979
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0.tar.xz
+  size:
+    gz:  16787816
+    zip: 20566973
+    bz2: 14701082
+    xz:  11988532
+  sha1:
+    gz:  90c44f79e4c9b9a645374bcdf73e8038df650fae
+    zip: 54393531f24a2e6776d3cb3081c835b9e0f3b637
+    bz2: c5a2960cf61904cc9da08e7e5c2d988f5d5f2cdf
+    xz:  b585975c6870545dbc9a9928a5a44e7be8ff8a66
+  sha256:
+    gz:  a5149be0fd72e51754aeede9a9f6e8a23128604e3720a742838e8613954ac98b
+    zip: ed7584d19829e150aa5d9bf5df5d657f4110140b1efb7b1a087996e53082a96e
+    bz2: 425531d5155c2a299e03d051bb329a991412887207ffc198e052652bf0e6714f
+    xz:  e287f2d3132f92196116d321dad33cb00e0585597d0aa134afeb4df941d55742
+  sha512:
+    gz:  2dac11e3f72c4339c17fa8b2bd069a5cfbf45ced2502f6dc93e4668443f2e8ccd721e4f96109d5115d993831ec1940ff6da49d4caa8b536710a160a87e5729a6
+    zip: e94b8b91fe02c38633b9fa81444c49d51879575c0c4d4e7a16ecc2d902b7a181537cea131c859b3afd892577f43aca125aaf965f9da439259252adfa761abefe
+    bz2: ae3a8ebb660a92bca77e4477fbf07f45c9aa87e6c95dc9815dc80bd40c7e01780cb3e04281e245fa8df2f0d9f6504d73a128f9ec4cdb491a1f14bc83159517ec
+    xz:  dcd6761a96048fb3bf0e269103bd89d6f8758970fe5981f594fb489a5fef6a1aa7af2bd7c41e6aa845c6cd9e204b16294f7b1bc5d3e8bbc3af31a77fb9aa4c50
+
 - version: 2.7.0-rc2
   date: 2019-12-21
   post: /en/news/2019/12/21/ruby-2-7-0-rc2-released/
