@@ -13,9 +13,9 @@ This article explains the planned incompatibility of keyword arguments in Ruby 3
 
 In Ruby 3.0, positional arguments and keyword arguments will be separated.  Ruby 2.7 will warn for behaviors that will change in Ruby 3.0.  If you see the following warnings, you need to update your code:
 
-* `The last argument is used as keyword parameters`, or
-* `The keyword argument is passed as the last hash parameter`, or
-* `The last argument is split into positional and keyword parameters`
+* `Using the last argument as keyword parameters is deprecated`, or
+* `Passing the keyword argument as the last hash parameter is deprecated`, or
+* `Splitting the last argument into positional and keyword parameters is deprecated`
 
 In most cases, you can avoid the incompatibility by adding the _double splat_ operator. It explicitly specifies passing keyword arguments instead of a `Hash` object. Likewise, you may add braces `{}` to explicitly pass a `Hash` object, instead of keyword arguments. Read the section "Typical cases" below for more details.
 
@@ -37,7 +37,7 @@ h = { k: 42 }
 # In Ruby 2.7: The Hash is automatically converted to a keyword argument
 # In Ruby 3.0: This call raises an ArgumentError
 foo(h)
-  # => demo.rb:11: warning: The last argument is used as keyword parameters; maybe ** should be added to the call
+  # => demo.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
   #    demo.rb:2: warning: The called method `foo' is defined here
   #    42
 
@@ -57,7 +57,7 @@ end
 # In Ruby 2.7: The keyword is converted to a positional Hash argument
 # In Ruby 3.0: This call raises an ArgumentError
 bar(k: 42)
-  # => demo2.rb:9: warning: The keyword argument is passed as the last hash parameter
+  # => demo2.rb:9: warning: Passing the keyword argument as the last hash parameter is deprecated
   #    demo2.rb:2: warning: The called method `bar' is defined here
   #    {:k=>42}
 
@@ -102,7 +102,7 @@ The changes in Ruby 2.7 are designed as a migration path towards 3.0.  While in 
 
 Except for the warnings and minor changes, Ruby 2.7 attempts to keep the compatibility with Ruby 2.6.  So, your code will probably work on Ruby 2.7, though it may emit warnings.  And by running it on Ruby 2.7, you can check if your code is ready for Ruby 3.0.
 
-If you want to disable all warnings, please set `$VERBOSE = nil` (this is not recommended in general, though).  Ruby 2.7 may add a new mechanism to allow for more fine-grined control over warning visibility (see [Feature #16345](https://bugs.ruby-lang.org/issues/16345)). However, we have yet to decide whether to include this feature in the final release.
+If you want to disable the deprecation warnings, please use a command-line argument `-W:no-deprecated` or add `Warning[:deprecated] = false` to your code.
 
 ## Handling argument delegation
 
@@ -231,7 +231,7 @@ end
 
 bar("key" => 42, :sym => 43)
 # Ruby 2.6 and 2.7: => [{"key"=>42}, 43]
-# Ruby 2.7: warning: The last argument is split into positional and keyword parameters
+# Ruby 2.7: warning: Splitting the last argument into positional and keyword parameters is deprecated
 #           warning: The called method `bar' is defined here
 # Ruby 3.0: ArgumentError
 {% endhighlight %}
@@ -263,7 +263,7 @@ end
 empty_hash = {}
 foo(**empty_hash)
   #=> Ruby 2.6 or before: {}
-  #=> Ruby 2.7: warning: The keyword argument is passed as the last hash parameter
+  #=> Ruby 2.7: warning: Passing the keyword argument as the last hash parameter is deprecated
   #             warning: The called method `foo' is defined here
   #=> Ruby 3.0: ArgumentError: wrong number of arguments
 {% endhighlight %}
@@ -349,3 +349,7 @@ The automatic conversion not only confuses people but also makes the method less
 ## Acknowledgment
 
 This article was kindly reviewed (or even co-authored) by Jeremy Evans and Benoit Daloze.
+
+## History
+
+* Updated 2019-12-25: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added.
