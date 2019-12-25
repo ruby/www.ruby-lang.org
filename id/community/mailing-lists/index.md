@@ -21,7 +21,7 @@ id-ruby
 Ruby juga menyediakan milis berbahasa Inggris dengan komunitas global:
 
 Ruby-Talk
-: Milis Ruby internasional yang paling terkenal. ([Arsip][11], [Posting Guidelines][guidelines])
+: Milis Ruby internasional yang paling terkenal. ([Arsip][11], [Posting Guidelines][guidelines], [Arsip Komunitas][rubytalk])
 
 Ruby-Core
 : Mendiskusikan implementasi *interpreter* Ruby, terutama
@@ -55,3 +55,4 @@ manual](/id/community/mailing-lists/manual-instructions/).
 [11]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
 [12]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
 [13]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[rubytalk]: https://rubytalk.org/
