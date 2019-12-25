@@ -356,6 +356,6 @@ The automatic conversion not only confuses people but also makes the method less
 
 This article was kindly reviewed (or even co-authored) by Jeremy Evans and Benoit Daloze.
 
-## ChangeLog
+## History
 
 * 23rd Dec. 2019: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added
