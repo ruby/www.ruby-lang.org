@@ -128,3 +128,8 @@ namespace :check do
     MarkupChecker.new.check
   end
 end
+
+desc "Run tests for the Linter library"
+task :"test-linter" do
+  ruby "test/test_linter.rb"
+end
