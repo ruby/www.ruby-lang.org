@@ -15,6 +15,11 @@ class Linter
       @date = yaml["date"]
     end
 
+    # identifier displayed in error messages
+    def name
+      filename
+    end
+
     def post?
       filename.match? %r{/_posts/}
     end

@@ -3,6 +3,7 @@ require "pathname"
 require 'yaml'
 
 require_relative "linter/document"
+require_relative "linter/release"
 
 
 class Linter
@@ -23,7 +24,9 @@ class Linter
     "ko/news/_posts/2005-07-01-xmlrpcipimethods-vulnerability.md"
   ]
 
-  attr_accessor :docs, :posts, :errors
+  RELEASES_FILE = "_data/releases.yml"
+
+  attr_accessor :docs, :posts, :releases, :errors
 
   # set to +false+ when running Linter in tests
   attr_accessor :exit_on_errors
@@ -32,6 +35,7 @@ class Linter
     @exit_on_errors = exit_on_errors
     @docs = []
     @posts = []
+    @releases = []
     @errors = Hash.new {|h, k| h[k] = [] }
   end
 
@@ -40,7 +44,9 @@ class Linter
     print "Checking markdown files..."
 
     load_files
+    load_releases
     check
+    check_releases
     report
 
     exit(1)  if errors.any? && exit_on_errors
@@ -57,6 +63,12 @@ class Linter
 
     @docs = md_files.map {|fn| Document.new(fn) }
     @posts = @docs.select {|doc| doc.post? }
+  end
+
+  def load_releases
+    releases_yaml = YAML.load_file(RELEASES_FILE) || []
+
+    @releases = releases_yaml.map {|release_data| Release.new(release_data) }
   end
 
   def syntax_highlighting_message(language)
@@ -101,15 +113,32 @@ class Linter
     end
   end
 
+  def invalid_url_message(post_url)
+    "post URL with unexpected format (`#{post_url}')"
+  end
+
+  def missing_post_message(filename)
+    "no release post file that matches given post URL" \
+    " (expected filename: `#{filename}')"
+  end
+
+  def check_releases
+    releases.each do |release|
+      errors[release] << invalid_url_message(release.post)  if release.post_url_invalid?
+      errors[release] << "release date and post date do not match"  if release.date_mismatch?
+      errors[release] << missing_post_message(release.filename)  if release.post_missing?
+    end
+  end
+
   def report
     if errors.empty?
       puts " ok"
     else
-      errors.replace errors.sort_by {|doc, _| doc.filename }.to_h
+      errors.replace errors.sort_by {|doc, _| doc.name }.to_h
 
       puts
       errors.each do |doc, messages|
-        puts doc.filename
+        puts doc.name
         puts messages.map {|msg| "  #{msg}" }
       end
     end
