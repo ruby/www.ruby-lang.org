@@ -121,7 +121,7 @@
     xz:  202b1a5bf01e6c398b8745cf968027db507ef39df521b3b24e06c6894d507ffcef9e904fa0d3a47f8be98fe750ca15a9829eb75627dacb4679538a61dabbe368
 
 - version: 2.7.0-preview3
-  date: 2019-11-22
+  date: 2019-11-23
   post: /en/news/2019/11/23/ruby-2-7-0-preview3-released/
   url:
     bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview3.tar.bz2
