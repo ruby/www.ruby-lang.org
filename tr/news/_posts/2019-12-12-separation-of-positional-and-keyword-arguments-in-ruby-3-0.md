@@ -15,9 +15,9 @@ Ruby 3.0'da konumsal ve anahtar kelime argümanları ayrılacaktır.
 Ruby 2.7, Ruby 3.0'da değişecek davranışlar konusunda uyarı gösterecektir.
 Eğer aşağıdaki uyarıları görüyorsanız, kodunuzu güncellemelisiniz:
 
-* `The last argument is used as keyword parameters`, ya da
-* `The keyword argument is passed as the last hash parameter`, ya da
-* `The last argument is split into positional and keyword parameters`
+* `Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call`, ya da
+* `Passing the keyword argument as the last hash parameter is deprecated`, ya da
+* `Splitting the last argument into positional and keyword parameters is deprecated`
 
 Çoğu durumda _çift splat_ operatörü ekleyerek uyumsuzluktan kaçınılabilir.
 Bu operatör harici olarak, bir `Hash` nesnesi yerine anahtar kelime argümanları geçirildiğini ifade eder.
@@ -45,8 +45,8 @@ h = { k: 42 }
 # Ruby 2.7'de: Hash otomatik olarak bir anahtar kelime argümanına çevrilir
 # Ruby 3.0'da: Bu çağrı bir ArgumentError yükseltir
 foo(h)
-  # => demo.rb:11: warning: The last argument is used as keyword parameters
-  #    demo.rb:2: warning: The called method `foo' is defined here; maybe ** should be added to the call
+  # => demo.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+  #    demo.rb:2: warning: The called method `foo' is defined here
   #    42
 
 # Ruby 3.0'da bu davranışı korumak istiyorsanız, çift splat kullanın
@@ -66,7 +66,7 @@ end
 # Ruby 2.7'de: Anahtar kelime konumsal bir Hash argümanına çevrilir
 # Ruby 3.0'da: Bu çağrı bir ArgumentError yükseltir
 bar(k: 42)
-  # => demo2.rb:9: warning: The keyword argument is passed as the last hash parameter
+  # => demo2.rb:9: warning: Passing the keyword argument as the last hash parameter is deprecated
   #    demo2.rb:2: warning: The called method `bar' is defined here
   #    {:k=>42}
 
@@ -121,9 +121,15 @@ Uyarılar ve küçük değişiklikler dışında Ruby 2.7, Ruby 2.6 ile uyumlu o
 Yani kodunuz muhtemelen Ruby 2.7'de çalışacaktır, tabii uyarılar verebilir.
 Ayrıca kodunuzu Ruby 2.7'de çalıştırarak, onun Ruby 3.0 için hazır olup olmadığını kontrol edebilirsiniz.
 
+<del>
 Tüm uyarıları kapatmak istiyorsanız, lütfen `$VERBOSE = nil`'i ayarlayın (genel olarak bu, tavsiye edilmez).
 Ruby 2.7, uyarı görünürlüğünü daha iyi kontrol etmek için yeni bir mekanizma ekleyebilir ([Özellik #16345](https://bugs.ruby-lang.org/issues/16345)).
 Fakat bu özelliğin son sürümde olup olmayacağına henüz karar vermedik.
+</del>
+
+<ins>
+Eğer ileride kaldırılma uyarılarını kapatmak istiyorsanız, lütfen `-W:no-deprecated` komut satırı argümanını kullanın ya da `Warning[:deprecated] = false` ifadesini kodunuza ekleyin.
+</ins>
 
 ## Argüman yetkilendirmeyi ele alma
 
@@ -266,7 +272,7 @@ end
 
 bar("key" => 42, :sym => 43)
 # Ruby 2.6 ve 2.7: => [{"key"=>42}, 43]
-# Ruby 2.7: warning: The last argument is split into positional and keyword parameters
+# Ruby 2.7: warning: Splitting the last argument into positional and keyword parameters is deprecated
 #           warning: The called method `bar' is defined here
 # Ruby 3.0: ArgumentError
 {% endhighlight %}
@@ -301,7 +307,7 @@ end
 empty_hash = {}
 foo(**empty_hash)
   #=> Ruby 2.6 ve öncesi: {}
-  #=> Ruby 2.7: warning: The keyword argument is passed as the last hash parameter
+  #=> Ruby 2.7: warning: Passing the keyword argument as the last hash parameter is deprecated
   #             warning: The called method `foo' is defined here
   #=> Ruby 3.0: ArgumentError: wrong number of arguments
 {% endhighlight %}
@@ -402,3 +408,6 @@ Davranıştaki değişikliğin nedenleri ve belirli gerçeklemelerin neden seçi
 ## Teşekkür
 
 Bu makale Jeremy Evans and Benoit Daloze tarafından nazikçe gözden geçirilmiştir (hatta onlarla birlikte yazılmıştır).
+
+## Değişiklik Günlüğü
+* 23 Aralık 2019: 2.7.0-rc2'de uyarı mesajları biraz değişti, ve uyarıları bastırmak için bir API eklendi.
