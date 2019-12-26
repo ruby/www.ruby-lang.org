@@ -117,7 +117,7 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
   h = {}; def foo(a) a end; foo(h)    # {}
   {% endhighlight %}
 
-非推奨に関する警告を止めたい場合は、コマンドライン引数に`-W:no-deprecated`を指定するか、コードの中で`Warning[:deprecated] = true`としてください。
+非推奨に関する警告を止めたい場合は、コマンドライン引数に`-W:no-deprecated`を指定するか、コードの中で`Warning[:deprecated] = false`としてください。
 
 ## 主要な新機能
 
