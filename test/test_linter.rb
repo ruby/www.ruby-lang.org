@@ -2,16 +2,17 @@ require "minitest/autorun"
 require_relative "../lib/linter"
 
 SRCPATH = File.expand_path(File.dirname(__FILE__))
+FIXTURES_PATH = "#{SRCPATH}/fixtures"
 
 
 describe Linter do
 
   before do
-    @md_ok = "#{SRCPATH}/md_ok"
-    @md_errors = "#{SRCPATH}/md_errors"
+    @md_ok = "#{FIXTURES_PATH}/ok"
+    @md_errors = "#{FIXTURES_PATH}/errors"
 
-    @output_ok = File.read("#{SRCPATH}/output_ok.txt")
-    @output_errors = File.read("#{SRCPATH}/output_errors.txt")
+    @output_ok = File.read("#{FIXTURES_PATH}/output_ok.txt")
+    @output_errors = File.read("#{FIXTURES_PATH}/output_errors.txt")
   end
 
   it "can run ok" do
