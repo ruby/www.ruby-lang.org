@@ -4,12 +4,10 @@ title: "Dari Perl ke Ruby"
 lang: id
 ---
 
-Perl memang memukau. Dokumentasi Perl juga memukau. Komunitas Perl juga
-luar biasa. Bahasa Perl mempunyai cakupan yang sangat luas sampai
-sebagian orang beranggapan bahasa tersebut rumit.
-
-Untuk para pengguna Perl yang sudah lama menginginkan bahasa yang lebih
-sederhana, lebih kental orientasi objeknya, dan elegan, Ruby cocok untuk
+Perl memang memukau. Dokumentasi Perl juga memukau. Komunitas Perl juga …
+luar biasa.
+Untuk para pengguna Perl yang sudah lama menginginkan bahasa beorientasi objek
+yang terintegrasi elegan dari awal, Ruby cocok untuk
 Anda.
 
 ### 99 Bottles of Beer on the Wall
