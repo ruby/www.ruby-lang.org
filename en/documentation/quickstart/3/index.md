@@ -105,7 +105,7 @@ irb(main):046:1> end
 => nil
 {% endhighlight %}
 
-In Ruby, you can open a class and modify it. The changes will
+In Ruby, you can reopen a class and modify it. The changes will
 be present in any new objects you create and even available in existing
 objects of that class. So, let’s create a new object and play with its
 `@name` property.
