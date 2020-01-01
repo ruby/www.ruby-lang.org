@@ -126,7 +126,7 @@ class Linter
     releases.each do |release|
       errors[release] << invalid_url_message(release.post)  if release.post_url_invalid?
       errors[release] << "release date and post date do not match"  if release.date_mismatch?
-      errors[release] << missing_post_message(release.filename)  if release.post_missing?
+      errors[release] << missing_post_message(release.post_filename)  if release.post_missing?
     end
   end
 

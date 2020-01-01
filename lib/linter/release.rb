@@ -4,7 +4,7 @@ class Linter
     # identifier displayed in error messages
     attr_reader :name
 
-    attr_reader :version, :date, :post, :filename
+    attr_reader :version, :date, :post, :post_filename
 
     def initialize(data)
       @version = data["version"]
@@ -12,7 +12,7 @@ class Linter
       @post = data["post"]
 
       @name = "Ruby #{version} release data (in `#{Linter::RELEASES_FILE}')"
-      @filename = filename_from_post_url
+      @post_filename = filename_from_post_url
     end
 
     # Returns true if the post URL does not match the expected format:
@@ -35,7 +35,7 @@ class Linter
     def post_missing?
       return  if post_url_invalid?
 
-      !File.exist?(filename)
+      !File.exist?(post_filename)
     end
 
     private
