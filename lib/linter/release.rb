@@ -4,7 +4,7 @@ class Linter
     # identifier displayed in error messages
     attr_reader :name
 
-    attr_reader :version, :date, :post, :post_filename
+    attr_reader :version, :date, :post
 
     def initialize(data)
       @version = data["version"]
@@ -12,7 +12,17 @@ class Linter
       @post = data["post"]
 
       @name = "Ruby #{version} release data (in `#{Linter::RELEASES_FILE}')"
-      @post_filename = filename_from_post_url
+    end
+
+    # The filename for the release post, corresponding to the given post URL:
+    #
+    #   URL:  /en/news/2019/12/25/ruby-2-7-0-released/
+    #   file: en/news/_posts/2019-12-25-ruby-2-7-0-released.md
+    #
+    def post_filename
+      %r{\A/en/news/(?<yyyy>\d{4})/(?<mm>\d\d)/(?<dd>\d\d)/(?<name>[^/]*)/\Z} =~ post
+
+      "en/news/_posts/#{yyyy}-#{mm}-#{dd}-#{name}.md"
     end
 
     # Returns true if the post URL does not match the expected format:
@@ -45,17 +55,6 @@ class Linter
       %r{\A/en/news/(?<yyyy>\d{4})/(?<mm>\d\d)/(?<dd>\d\d)/(?<name>[^/]*)/\Z} =~ post
 
       "#{yyyy}-#{mm}-#{dd}"
-    end
-
-    # The filename for the release post, corresponding to the given post URL:
-    #
-    #   URL:  /en/news/2019/12/25/ruby-2-7-0-released/
-    #   file: en/news/_posts/2019-12-25-ruby-2-7-0-released.md
-    #
-    def filename_from_post_url
-      %r{\A/en/news/(?<yyyy>\d{4})/(?<mm>\d\d)/(?<dd>\d\d)/(?<name>[^/]*)/\Z} =~ post
-
-      "en/news/_posts/#{yyyy}-#{mm}-#{dd}-#{name}.md"
     end
   end
 end
