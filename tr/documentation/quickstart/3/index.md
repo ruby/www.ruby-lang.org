@@ -105,7 +105,7 @@ irb(main):046:1> end
 => nil
 {% endhighlight %}
 
-Ruby’de bir sınıfı tekrar açıp değiştirebilirsiniz. Yapılan değişiklikler
+Ruby’de bir sınıfı açıp değiştirebilirsiniz. Yapılan değişiklikler
 yeni üretilecek nesnelerde etkili olacağı gibi üretilmiş nesnelerde de
 etkilidir. Öyleyse yeni bir nesne üretelim ve onun `@name` özelliği ile
 biraz oynayalım.
