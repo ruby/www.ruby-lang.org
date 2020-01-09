@@ -320,7 +320,7 @@ la versión oficial.
 
 * Requiere compiladores que soporten C99
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Detalles de nuestro dialecto en: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Detalles de nuestro dialecto en: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 * ~~ Regexp#match{?}` con `nil` lanza TypeError con String y Symbol.
   [[Característica #13083]](https://bugs.ruby-lang.org/issues/13083)~~

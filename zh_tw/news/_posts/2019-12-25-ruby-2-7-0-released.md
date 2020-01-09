@@ -271,7 +271,7 @@ end
 * 需使用支援 C99 的編譯器
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * 詳見我們所使用的方言
-    <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+    <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 了解更多請參考[新聞](https://github.com/ruby/ruby/blob/v2_7_0/NEWS)
 或[提交紀錄](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0)。

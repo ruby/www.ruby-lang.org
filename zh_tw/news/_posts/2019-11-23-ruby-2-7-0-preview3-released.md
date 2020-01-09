@@ -237,7 +237,7 @@ end
 * `Date.jisx0301`、`Date#jisx0301` 和 `Date.parse` 支持新的日本年號。[[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * 編譯器需必需支援 C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * 關於我們語言的詳細資訊：<https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * 關於我們語言的詳細資訊：<https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 * ~~`Regexp#match{?}` 傳入 `nil` 會產生 TypeError。
   [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ 已回復

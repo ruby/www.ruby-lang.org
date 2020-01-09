@@ -90,7 +90,7 @@ Besides, source lines shown at `binding.irb` and inspect results for core-class 
 * `Date.jisx0301`, `Date#jisx0301`, and `Date.parse` provisionally support the new Japanese era as an informal extension, until the new JIS X 0301 is issued.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Require compilers to support C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Details of our dialect: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Details of our dialect: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) for more details.
 

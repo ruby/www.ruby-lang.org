@@ -102,7 +102,7 @@ Além de, linhas de código mostradas em `binding.irb` e resultados de inspeçõ
 * `Date.jisx0301`, `Date#jisx0301` e `Date.parse` provisoriamente suportam a nova era Japonesa como uma extensão informal, até o novo JIS X 0301 seja emitido.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Requere compiladores para suportar C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Detalhes do nosso dialeto: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Detalhes do nosso dialeto: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 Veja [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) ou [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) para mais detalhes.
 

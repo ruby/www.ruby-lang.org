@@ -217,7 +217,7 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
 * `Date.jisx0301`, `Date#jisx0301`, および `Date.parse` で新元号に対応しました。[[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Ruby のビルドに C99 に対応したコンパイラが必要になりました。[[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * 本件についての詳細: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * 本件についての詳細: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v2_7_0_rc2/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_rc2)を参照してください。
 

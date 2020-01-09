@@ -101,7 +101,7 @@ Además, ahora se presentan con colores tanto el código fuente de su programa a
 * `Date.jisx0301`, `Date#jisx0301`, y `Date.parse` de manera provisional y como extensión informal soportan la nueva era japonesa, hasta que se publique un nuevo estándar JIS X 0301.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Requiere compiladores que soporten C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Detalles de nuestro dialecto en: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Detalles de nuestro dialecto en: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 Vea más detalles en el archivo [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) o en [la bitácora de cambios](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1).
 

@@ -221,7 +221,7 @@ Döndürülen String, belirli bir nesne için her zaman aynıdır.
 
 * Derleyicilerin C99'u desteklemesi zorunlu tutuldu.
   [[Diğer #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Lehçemizin ayrıntıları: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Lehçemizin ayrıntıları: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 Daha fazla ayrıntı için [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview2/NEWS)'e ya da [işleme logları](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2)na bakın.
 

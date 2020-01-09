@@ -102,7 +102,7 @@ objek *core-class* sekarang berwarna.
 * `Date.jisx0301`, `Date#jisx0301`, dan `Date.parse` untuk sementara waktu mendukung *new Japanese era* sebagai sebuah *informal extension*, sampai JIS X 0301 yang baru dikeluarkan.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Membutuhkan *compiler* untuk mendukung C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Detail dari dialek kami: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Detail dari dialek kami: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 Lihat [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) atau
 [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1)

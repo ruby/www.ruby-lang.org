@@ -266,7 +266,7 @@ Döndürülen String, belirli bir nesne için her zaman aynıdır.
 
 * Derleyicilerin C99'u desteklemesi zorunlu tutuldu.
   [[Diğer #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Lehçemizin ayrıntıları: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Lehçemizin ayrıntıları: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 * ~~`nil` ile `Regexp#match{?}` (String ve Symbol olarak) TypeError yükseltir [[Özellik #13083]](https://bugs.ruby-lang.org/issues/13083)~~ geri alındı
 

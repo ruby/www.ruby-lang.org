@@ -186,7 +186,7 @@ end
 * `Date.jisx0301`、`Date#jisx0301` 和 `Date.parse` 展示支持新的日本年号作为非正式的扩展功能，直到新的 JIS X 0301 发布。[[功能 #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * 编译器需要支持 C99 [[杂项 #15347]](https://bugs.ruby-lang.org/issues/15347)
-  *关于我们使用方言的具体信息请查阅：<https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  *关于我们使用方言的具体信息请查阅：<https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 见 [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview2/NEWS) 或 [提交日志](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2) 以查看详情。
 

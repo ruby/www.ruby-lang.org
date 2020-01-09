@@ -308,7 +308,7 @@ The final decision is not made, but will be fixed by the official release.
 * Require compilers to support C99
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * Details of our dialect:
-    <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+    <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 * ~~`Regexp#match{?}` with `nil` raises TypeError as String, Symbol.
   [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ reverted

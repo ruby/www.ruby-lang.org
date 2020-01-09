@@ -210,7 +210,7 @@ deprecated, and conversion will be removed in Ruby 3.  [[Feature #14183]](https:
 * `Date.jisx0301`, `Date#jisx0301`, and `Date.parse` support the new Japanese era.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Require compilers to support C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Details of our dialect: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Details of our dialect: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 See [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview2/NEWS) or [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2) for more details.
 

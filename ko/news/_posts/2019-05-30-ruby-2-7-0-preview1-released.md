@@ -90,7 +90,7 @@ end
 * JIS X 0301의 새 버전이 나올 때까지 잠정적으로 `Date.jisx0301`, `Date#jisx0301`, `Date.parse`에 새 일본 연호를 대응했습니다. [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * 루비 빌드에 C99를 지원하는 컴파일러를 요구하게 됩니다. [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * 이에 대한 자세한 정보: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * 이에 대한 자세한 정보: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS)나 [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1)에서 더 자세한 설명을 확인할 수 있습니다.
 

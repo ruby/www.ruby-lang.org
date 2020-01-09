@@ -87,7 +87,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 * `Date.jisx0301`, `Date#jisx0301`, および `Date.parse` で非公式に新元号に仮対応しました。これは JIS X 0301 の新しい版で正式な仕様が決定されるまでの暫定的なものです。[[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Ruby のビルドに C99 に対応したコンパイラが必要になりました。[[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * 本件についての詳細: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * 本件についての詳細: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 なお、こうした変更により、Ruby 2.6.0 以降では [1727 個のファイルに変更が加えられ、76022 行の追加と 60286 行の削除が行われました](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1) !
 

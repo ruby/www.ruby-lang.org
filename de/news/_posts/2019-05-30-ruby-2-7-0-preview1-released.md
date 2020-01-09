@@ -135,7 +135,7 @@ Ergebnisse von `inspect` farblich hevorgehoben werden.
 
 * Ruby nutzt jetzt C99, welches der Compiler unterstützen muss.
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Details zum genutzten Dialekt: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Details zum genutzten Dialekt: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 
 Siehe die

@@ -269,7 +269,7 @@ argumentos posicionales, y tal conversión se eliminará en Ruby 3.
 
 * Requiere compiladores que soporten C99
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Detalles de nuestro dialecto en: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Detalles de nuestro dialecto en: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 Vea más detalles en el archivo [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS) o en [la bitácora de cambios](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2).
 
