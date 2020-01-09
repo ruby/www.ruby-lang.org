@@ -77,4 +77,4 @@ eliminaciones(-) desde Ruby 2.2.0.
 
 Puedes referirte también al calendario de entregas e información adicional:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

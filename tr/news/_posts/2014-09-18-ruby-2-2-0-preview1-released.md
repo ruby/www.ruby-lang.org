@@ -79,4 +79,4 @@ yapıldı.
 
 Ayrıca, sürüm planlaması ve diğer bilgiler için bakınız:
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

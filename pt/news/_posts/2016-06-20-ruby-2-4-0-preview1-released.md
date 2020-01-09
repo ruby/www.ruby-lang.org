@@ -113,4 +113,4 @@ desde Ruby 2.3.0!
 
 Veja também o calendário de lançamento e outras informações:
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

@@ -78,4 +78,4 @@ terhapus(-) sejak Ruby 2.2.0.
 
 Lihat juga jadwal rilis dan informasi lainnya:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

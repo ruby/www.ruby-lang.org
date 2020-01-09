@@ -88,4 +88,4 @@ Con queste modifiche, [1097 file modificati, 97466 aggiunte(+), 58685 rimozioni(
 
 Potete leggere anche il programma delle release e altre informazioni qui:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

@@ -109,4 +109,4 @@ Ruby игнорирует ошибки в тредах, если другой т
 ## Комментарий к релизу
 
 Также вы можете посмотреть план выхода новых версий и получить другую информацию по
-[ссылке](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24).
+[ссылке](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24).

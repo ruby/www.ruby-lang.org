@@ -87,4 +87,4 @@ avec 97 466 insertions(+) et 58 685 suppressions(-)](https://github.com/ruby/rub
 
 ## Commentaire de version
 
-Vous pouvez également consulter [un calendrier de *release* (avec diverses infos)](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23).
+Vous pouvez également consulter [un calendrier de *release* (avec diverses infos)](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23).

@@ -79,4 +79,4 @@ In tutto, 1036 file cambiati, 81312 aggiunte(+), 51322 rimozioni(-) da Ruby
 
 Potete leggere anche il programma delle release e altre informazioni qui:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

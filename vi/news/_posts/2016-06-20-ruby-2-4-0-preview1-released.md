@@ -112,4 +112,4 @@ Với lần cập nhật này, [1140 files đã được cập nhật, bao gồm
 
 Xem thêm thông tin về kế hoạch release và các nội dung khác ở đây:
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

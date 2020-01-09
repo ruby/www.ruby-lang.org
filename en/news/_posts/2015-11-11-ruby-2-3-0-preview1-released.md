@@ -78,4 +78,4 @@ deletions(-) since Ruby 2.2.0.
 
 See also the release schedule and other information:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

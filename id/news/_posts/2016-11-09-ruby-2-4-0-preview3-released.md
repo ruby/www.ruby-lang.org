@@ -137,4 +137,4 @@ sejak Ruby 2.3.0!
 
 Lihat juga jadwal rilis dan informasi lainnya:
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

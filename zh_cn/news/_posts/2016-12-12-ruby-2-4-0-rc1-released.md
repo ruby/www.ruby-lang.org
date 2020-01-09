@@ -115,4 +115,4 @@ Ruby 2.3.0 以来，已有 [2519 个文件变更，新增代码 288606 行，移
 
 有关于发布时间表和其他信息请参考：
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

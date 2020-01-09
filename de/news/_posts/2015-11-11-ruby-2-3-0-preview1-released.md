@@ -83,4 +83,4 @@ Mit diesen Änderungen wurden seit Ruby 2.2.0 1036 Dateien geändert,
 
 Siehe den Veröffentlichungszeitplan und andere Informationen:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

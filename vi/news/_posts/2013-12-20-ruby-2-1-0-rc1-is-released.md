@@ -66,4 +66,4 @@ Các vấn đề được biết:
 
 Và xem luôn lịch phát hành và các thông tin khác tại:
 
-<https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>
+<https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210>

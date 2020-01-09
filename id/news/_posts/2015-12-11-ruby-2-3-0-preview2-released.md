@@ -88,4 +88,4 @@ Dengan perubahan-perubahan itu, [1097 berkas berubah, 97466 sisipan(+), 58685 te
 
 Lihat juga jadwal rilis dan informasi lainnya:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

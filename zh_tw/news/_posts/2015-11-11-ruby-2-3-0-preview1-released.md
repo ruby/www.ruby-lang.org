@@ -65,4 +65,4 @@ Pragma）](https://bugs.ruby-lang.org/issues/11473)。Ruby 2.1 針對了 `"str".
 
 其他資訊請參考發佈時程：
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

@@ -78,4 +78,4 @@ Ruby 2.2.0-preview2 是 Ruby 2.2.0 第二個預覽版。針對使用者對 Ruby 
 
 同時請參考發佈行程表以及其他資訊：
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

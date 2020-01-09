@@ -64,4 +64,4 @@ Konstantin Haase(@konstantinhaase)가 멋진 요약을 자신의 블로그 포�
 
 릴리스 일정과 기타 정보들은 다음 링크를 참조해 주십시오:
 
-[https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210)
+[https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210)

@@ -77,4 +77,4 @@ gỡ bỏ(-) từ Ruby 2.2.0.
 
 Xin xem lịch ấn bản và các thông tin khác tại
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

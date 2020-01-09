@@ -77,4 +77,4 @@ lang: ko
 
 릴리스 일정과 다른 정보는 밑의 링크에서도 보실 수 있습니다.
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

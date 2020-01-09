@@ -99,4 +99,4 @@ Ruby 2.4 的死鎖檢查會顯示錯誤資訊及相依的線程。
 
 另請參考發佈時程與其他資訊：
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

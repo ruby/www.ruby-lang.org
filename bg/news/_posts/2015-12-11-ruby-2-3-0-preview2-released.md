@@ -82,4 +82,4 @@ Ruby 2.3 включва много подобрения по производи�
 
 За повече информация и release schedule:
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

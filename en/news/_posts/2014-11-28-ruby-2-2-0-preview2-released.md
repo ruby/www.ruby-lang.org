@@ -91,4 +91,4 @@ With those changes, 1239 files changed, 98343 insertions(+), 61858 deletions(-).
 
 See also the release schedule and other information:
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

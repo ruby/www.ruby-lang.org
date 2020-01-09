@@ -97,4 +97,4 @@ Z tymi zmianami, 1548 zmienionych plików, 123658 wstawień(+), 74306 usunięć(
 
 Zobacz także harmonogram wydań i inne informacje:
 
-[Wydania22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[Wydania22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

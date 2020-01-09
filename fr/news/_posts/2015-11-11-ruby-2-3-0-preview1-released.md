@@ -75,4 +75,4 @@ avec 81 312 insertions(+) et 51 322 suppressions(-).
 
 ## Commentaire de version
 
-Il est possible de consulter un [calendrier de *release* pour la version 2.3](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23).
+Il est possible de consulter un [calendrier de *release* pour la version 2.3](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23).

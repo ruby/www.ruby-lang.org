@@ -81,4 +81,4 @@ Ruby 2.2.0 针对使用者日益增多的各类需求，进行了许多更新和
 
 同时请参考发布进程表及其他信息：
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

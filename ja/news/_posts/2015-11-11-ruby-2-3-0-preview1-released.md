@@ -64,4 +64,4 @@ Ruby 2.3.0-preview1 でのプログラミングをお楽しみください。そ
 
 リリーススケジュールやその他の情報はこちらをご覧ください。
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

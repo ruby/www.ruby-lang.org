@@ -80,4 +80,4 @@ Ruby 2.2 針對使用者對 Ruby 各式各樣的需求，做了許多修正、�
 
 同時請參考發佈時程及其他相關資訊：
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)
