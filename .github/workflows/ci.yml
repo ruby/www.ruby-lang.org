@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: [2.6]
+        ruby: [2.6, 2.7]
         os: [ubuntu-latest, macos-latest]
       fail-fast: false
 
@@ -37,7 +37,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-bundle-${{ hashFiles('Gemfile.lock') }}
+          key: ${{ runner.os }}-${{ matrix.ruby }}-bundle-${{ hashFiles('Gemfile.lock') }}
       - name: Install bundler
         run: gem install bundler --no-document
       - name: Install gem bundle
