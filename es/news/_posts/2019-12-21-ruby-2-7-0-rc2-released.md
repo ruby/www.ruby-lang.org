@@ -228,7 +228,7 @@ la versión oficial.
   self.foo
   {% endhighlight %}
 
-* Se añade `Enumerator::Lazy#eager`.  Que genera un enumerador no-perezoso
+* Se añade `Enumerator::Lazy#eager` que genera un enumerador no-perezoso
   a partir de un enumerador perezoso.
   [[Característica #15901]](https://bugs.ruby-lang.org/issues/15901)
 
