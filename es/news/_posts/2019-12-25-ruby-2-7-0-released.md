@@ -211,7 +211,7 @@ un argumento en la línea de ordenes `-W:no-deprecated`  o añada
   self.foo
   {% endhighlight %}
 
-* Se añade `Enumerator::Lazy#eager`.  Que genera un enumerador no-perezoso
+* Se añade `Enumerator::Lazy#eager` que genera un enumerador no-perezoso
   a partir de un enumerador perezoso.
   [[Característica #15901]](https://bugs.ruby-lang.org/issues/15901)
 
