@@ -81,7 +81,7 @@ inspect 결과에 색이 추가되었습니다.
 자세한 설명은 "[Separation of positional and keyword arguments in Ruby 3.0](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)"(영문)을 참고하세요.
 밑에서는 변경만을 설명합니다.
 
-* 메서드 호출이 마지막 인자로 Hash를 넘기며 아무 키워드도 넘기지 않는데,
+* 메서드 호출이 마지막 인자로 Hash를 넘기며 아무 키워드도 넘기지 않을때,
   호출된 메서드는 키워드를 받을 때 경고가 발생합니다.
   계속 키워드로 취급되도록 하려면, 이중 스플랫(double splat) 연산자를 추가해서
   경고를 피하고 루비 3에서 올바르게 동작하도록 하세요.
