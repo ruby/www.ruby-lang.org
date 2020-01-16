@@ -50,7 +50,7 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller and Ruby Stack](#railsinstaller)
+  * [Ruby Stack](#rubystack)
 * [관리자](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
@@ -232,14 +232,11 @@ Windows에서는 [RubyInstaller][rubyinstaller]는 전체 루비 개발 환경�
 다운로드 받으시고 인스톨러를 실행하기만 하면 끝입니다!
 
 
-### RailsInstaller와 Ruby Stack
-{: #railsinstaller}
+### Ruby Stack
+{: #rubystack}
 
 루비 온 레일즈를 사용하기 위해 루비를 설치하신다면 다음 인스톨러를 사용할 수 있습니다.
 
-* [RailsInstaller][railsinstaller]는 [RubyInstaller][rubyinstaller]를
-  사용하지만, 레일즈 개발을 도와줄 추가 도구들을 제공합니다. macOS, Windows를
-  지원합니다.
 * [Bitnami Ruby Stack][rubystack]는 루비 온 레일즈를 위한 완전한 개발환경을 제공합니다.
   macOS, Linux, Windows, 가상 머신, 클라우드 이미지를 지원합니다.
 
@@ -250,6 +247,15 @@ Windows에서는 [RubyInstaller][rubyinstaller]는 전체 루비 개발 환경�
 그들은 각 프로젝트에서 서로 다른 루비 버전을 사용할 수 있도록 간단하게 또는
 자동으로 버전을 변경해주며 그 이외의 장점들이 있지만, 공식적으로 지원되는 것은 아닙니다.
 하지만, 각각의 커뮤니티에서 도움을 구할 수 있습니다.
+
+### asdf-vm
+
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] is an extendable version manager that can manage multiple
+language runtime versions on a per-project basis. You will need the
+[asdf-ruby][asdf-ruby] plugin (which in turn uses [ruby-build](#ruby-build))
+to install Ruby.
 
 
 ### chruby
@@ -313,7 +319,6 @@ $ sudo make install
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
@@ -325,3 +330,5 @@ $ sudo make install
 [installers]: /ko/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
 [wsl]: https://docs.microsoft.com/ko-kr/windows/wsl/about
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
