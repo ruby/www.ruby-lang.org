@@ -24,6 +24,9 @@ lang: ko
 
 * [**Ruby Weekly**][ruby-weekly]는 블로그라기보다는 뉴스레터에 가까움에도
   불구하고, Ruby Weekly는 매주 흥미로운 루비 기사나 뉴스를 제공합니다.
+* [**DEV Ruby Tag**][dev-ruby-tag] is the collection of all posts
+  tagged Ruby within the DEV Community. DEV is a network of thousands
+  of software developers who blog about and discuss code.
 * [**Riding Rails**][riding-rails]는 루비 온 레일즈 팀의 공식 그룹 블로그입니다.
   레일즈를 이용하고 있다면, 이 블로그는 보안 업데이트를 받아 보거나 넓은 레일즈 커뮤니티를
   전망하기에 필수입니다.
@@ -39,6 +42,7 @@ lang: ko
 [rubyflow]: http://www.rubyflow.com/
 [rubyland]: http://rubyland.news/
 [ruby-weekly]: https://rubyweekly.com/
+[dev-ruby-tag]: https://dev.to/t/ruby
 [riding-rails]: http://weblog.rubyonrails.org/
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/
