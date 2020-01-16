@@ -25,7 +25,7 @@ lang: ko
 
 ## 패턴 매칭 [Experimental]
 
-함수형 언어에서 널리 알려진 기능인 패턴 매칭이 실험적으로 도입되었습니다. [#14912](https://bugs.ruby-lang.org/issues/14912)
+함수형 언어에서 널리 알려진 패턴 매칭 기능이 실험적으로 도입되었습니다. [#14912](https://bugs.ruby-lang.org/issues/14912)
 이는 패턴에 일치하는 경우, 주어진 객체를 순회하여 그 값을 대입합니다.
 
 {% highlight ruby %}
