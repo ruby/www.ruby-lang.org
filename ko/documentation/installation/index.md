@@ -252,10 +252,9 @@ Windows에서는 [RubyInstaller][rubyinstaller]는 전체 루비 개발 환경�
 
 {: #asdf-vm}
 
-[asdf-vm][asdf-vm] is an extendable version manager that can manage multiple
-language runtime versions on a per-project basis. You will need the
-[asdf-ruby][asdf-ruby] plugin (which in turn uses [ruby-build](#ruby-build))
-to install Ruby.
+[asdf-vm][asdf-vm]은 프로젝트 단위로 여러 언어 런타임 버전을 관리할 수 있는
+확장 가능한 버전 관리자입니다. 루비를 설치하려면 [asdf-ruby][asdf-ruby]
+플러그인이 필요합니다(이는 [ruby-build](#ruby-build)를 사용합니다).
 
 
 ### chruby
