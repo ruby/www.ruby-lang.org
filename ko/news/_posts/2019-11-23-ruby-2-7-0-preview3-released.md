@@ -162,8 +162,7 @@ NOTE: 키워드 인자 비호환으로 인한 너무 많은 폐기 경고가 번
 
 ## 이외의 주목할 만한 새 기능
 
-* 메서드 참조 연산자 `.:`가 도입되었습니다.
-  이전 프리뷰에서 실험적으로 도입되었지만 취소되었습니다.
+* 메서드 참조 연산자 `.:`가 이전 프리뷰에서 실험적으로 도입되었지만 취소되었습니다.
   [[Feature #12125]](https://bugs.ruby-lang.org/issues/12125),
   [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581),
   [[Feature #16275]](https://bugs.ruby-lang.org/issues/16275)
