@@ -63,7 +63,7 @@ end
 
 루비에 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가
 이제 여러 줄 편집을 지원합니다.
-이는 `reline`, `readline`과 호환되는 순수 루비 구현으로 동작합니다.
+이는 `readline`과 호환되는 순수 루비 구현인 `reline`으로 동작합니다.
 또한 rdoc 통합도 제공됩니다. `irb`에서 주어진 클래스, 모듈, 메서드의 레퍼런스를 볼 수 있습니다.
 [[Feature #14683]](https://bugs.ruby-lang.org/issues/14683),
 [[Feature #14787]](https://bugs.ruby-lang.org/issues/14787),
