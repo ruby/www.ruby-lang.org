@@ -1,7 +1,6 @@
 ---
 layout: news_post
 title: "루비 2.7.0 릴리스"
-title: "Ruby 2.7.0 Released"
 author: "naruse"
 translator: "shia"
 date: 2019-12-25 00:00:00 +0000
