@@ -1,15 +1,17 @@
 ---
 layout: news_post
-title: "루비 2.7.0-preview2 릴리스"
+title: "루비 2.7.0-preview3 릴리스"
 author: "naruse"
-translator: "yous"
-date: 2019-10-22 12:00:00 +0000
+translator: "shia"
+date: 2019-11-23 12:00:00 +0000
 lang: ko
 ---
 
-루비 2.7.0-preview2 릴리스를 알리게 되어 기쁩니다.
+루비 2.7.0-preview3 릴리스를 알리게 되어 기쁩니다.
 
 프리뷰 버전은 12월에 예정된 최종 릴리스에 대한 의견을 모으기 위해서 릴리스됩니다.
+preview3 은 키워드 인자의 호환성 문제를 확인하기 위해서 릴리스됩니다.
+
 이는 많은 새 기능과 성능 향상을 포함하고 있습니다. 특히 눈에 띄는 것은 다음과 같습니다.
 
 * 압축 GC
@@ -25,20 +27,31 @@ lang: ko
 이는 과다한 메모리 사용과 성능 저하로 이어질 수 있습니다.
 
 힙 공간을 압축하는 `GC.compact` 메서드가 도입되었습니다.
-이 함수는 더 적은 페이지를 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다.
+이 함수는 더 적은 페이지를 사용하고, 힙이 CoW(Copy on Write)에 유리하도록
+힙 내부에 살아있는 객체들을 압축합니다.
 [[Feature #15626]](https://bugs.ruby-lang.org/issues/15626)
 
 ## 패턴 매칭 [실험적]
 
 함수형 언어에서 널리 사용되는 패턴 매칭 기능이 실험적으로 도입되었습니다.
 [[Feature #14912]](https://bugs.ruby-lang.org/issues/14912)
+
 이는 주어진 객체를 순회하다가 패턴이 일치하는 경우 그 값을 대입합니다.
 
 {% highlight ruby %}
-case JSON.parse('{...}', symbolize_names: true)
+require "json"
+
+json = <<END
+{
+  "name": "Alice",
+  "age": 30,
+  "children": [{ "name": "Bob", "age": 2 }]
+}
+END
+
+case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
-  p age
-  ...
+  p age #=> 2
 end
 {% endhighlight %}
 
@@ -46,11 +59,16 @@ end
 
 ## REPL 개선
 
-루비에 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가 이제 여러 줄 편집을 지원합니다.
+루비에 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가
+이제 여러 줄 편집을 지원합니다.
 이는 `readline`과 호환되는 순수 루비 구현인 `reline`으로 동작합니다.
 또한 rdoc 통합도 제공됩니다. `irb`에서 주어진 클래스, 모듈, 메서드의 레퍼런스를 볼 수 있습니다.
-[[Feature #14683]](https://bugs.ruby-lang.org/issues/14683), [[Feature #14787]](https://bugs.ruby-lang.org/issues/14787), [[Feature #14918]](https://bugs.ruby-lang.org/issues/14918)
-그뿐만 아니라, `binding.irb`에서 보이는 소스 코드나 코어 클래스 객체의 inspect 결과에 색이 추가되었습니다.
+[[Feature #14683]](https://bugs.ruby-lang.org/issues/14683),
+[[Feature #14787]](https://bugs.ruby-lang.org/issues/14787),
+[[Feature #14918]](https://bugs.ruby-lang.org/issues/14918)
+
+그뿐만 아니라, `binding.irb`에서 보이는 소스 코드나 코어 클래스 객체의
+inspect 결과에 색이 추가되었습니다.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259">
   <source src="https://cache.ruby-lang.org/pub/media/irb_improved_with_key_take2.mp4" type="video/mp4">
@@ -59,7 +77,8 @@ end
 ## 위치 인자와 키워드 인자 분리
 
 키워드 인자와 위치 인자의 자동 변환이 폐기 예정 상태가 되었습니다.
-이 변환은 루비 3에서 제거될 예정입니다. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
+이 변환은 루비 3에서 제거될 예정입니다.
+[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
 * 메서드 호출이 마지막 인자로 Hash를 넘기며 아무 키워드도 넘기지 않을때,
   호출된 메서드는 키워드를 받을 때 경고가 발생합니다.
@@ -85,8 +104,10 @@ end
   {% endhighlight %}
 
 * 메서드가 키워드 스플랫(splat)은 받지 않고 특정 키워드는 받을 때,
-  심볼과 심볼이 아닌 키를 모두 포함한 해시 또는 키워드 스플랫을 메서드에 넘긴 경우 경고가 발생합니다.
-  루비 3에서 올바르게 동작하려면 메서드를 호출하는 코드가 별도의 해시를 넘기도록 업데이트해야 합니다.
+  심볼과 심볼이 아닌 키를 모두 포함한 해시 또는 키워드 스플랫을
+  메서드에 넘긴 경우 경고가 발생합니다.
+  루비 3에서 올바르게 동작하려면 메서드를 호출하는 코드가 별도의 해시를 넘기도록
+  수정해야 합니다.
 
   {% highlight ruby %}
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
@@ -133,10 +154,18 @@ end
   h = {}; def foo(a) a end; foo(h)    # {}
   {% endhighlight %}
 
+NOTE: 키워드 인자 비호환으로 인한 너무 많은 폐기 경고가 번잡하다는 의견이 있습니다.
+현재 두 가지 해결책을 의논중입니다. 하나는 기본 설정을 폐기 경고를 비활성화하는
+것([#16345](https://bugs.ruby-lang.org/issues/16345))과 중복되는 경고의 출력을
+생략하는 것([#16289](https://bugs.ruby-lang.org/issues/16289))입니다.
+아직 결정이 나지 않았습니다만, 공식 릴리스 이전에 정해질 것입니다.
+
 ## 이외의 주목할 만한 새 기능
 
-* 메서드 참조 연산자 `.:`가 실험적으로 도입되었습니다.
-  [[Feature #12125]](https://bugs.ruby-lang.org/issues/12125), [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581)
+* 메서드 참조 연산자 `.:`가 이전 프리뷰에서 실험적으로 도입되었지만 취소되었습니다.
+  [[Feature #12125]](https://bugs.ruby-lang.org/issues/12125),
+  [[Feature #13581]]( https://bugs.ruby-lang.org/issues/13581),
+  [[Feature #16275]](https://bugs.ruby-lang.org/issues/16275)
 
 * 번호 지정 파라미터가 기본 블록 파라미터로서 실험적으로 도입되었습니다.
   [[Feature #4475]](https://bugs.ruby-lang.org/issues/4475)
@@ -158,7 +187,8 @@ end
   {% endhighlight %}
 
 * `self`에 private 메서드를 호출하는 것이 허용됩니다.
-  [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297) [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
+  [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297),
+  [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
   {% highlight ruby %}
   def foo
@@ -192,23 +222,50 @@ end
 
   * `--jit-max-cache`의 기본값이 1,000에서 100으로 변경됩니다.
 
-* `Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`, `nil.to_s`가 이제 항상 얼린 문자열을 반환합니다.
+* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`, `nil.to_s`가 이제 항상 얼린 문자열을 반환합니다.
   주어진 객체에 대해 항상 동일한 문자열이 반환됩니다. [실험적]
-  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
+  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~ 취소되었습니다.
 
 * `CGI.escapeHTML`의 성능이 향상되었습니다. [GH-2226](https://github.com/ruby/ruby/pull/2226)
+
+* Monitor와 MonitorMixin의 성능이 향상되었습니다.
+  [[Feature #16255]](https://bugs.ruby-lang.org/issues/16255)
 
 ## 그 이외의 2.6 이후로 주목할 만한 변경
 
 * 표준 라이브러리를 업데이트했습니다.
-  * Bundler 2.1.0.pre.1
-  * RubyGems 3.1.0.pre.1
-  * CSV 3.1.2 ([NEWS](https://github.com/ruby/csv/blob/v3.1.2/NEWS.md))
+  * Bundler 2.1.0.pre.3
+    ([History](https://github.com/bundler/bundler/blob/2-1-stable/CHANGELOG.md#210pre3-november-8-2019))
+  * RubyGems 3.1.0.pre.3
+    ([History](https://github.com/rubygems/rubygems/blob/3.1/History.txt))
+  * CSV 3.1.2
+    ([NEWS](https://github.com/ruby/csv/blob/v3.1.2/NEWS.md))
   * Racc 1.4.15
-  * REXML 3.2.3 ([NEWS](https://github.com/ruby/rexml/blob/v3.2.3/NEWS.md))
-  * RSS 0.2.8 ([NEWS](https://github.com/ruby/rss/blob/v0.2.8/NEWS.md))
+  * REXML 3.2.3
+    ([NEWS](https://github.com/ruby/rexml/blob/v3.2.3/NEWS.md))
+  * RSS 0.2.8
+    ([NEWS](https://github.com/ruby/rss/blob/v0.2.8/NEWS.md))
   * StringScanner 1.0.3
   * 기존 버전이 없는 다른 몇몇 라이브러리도 업데이트되었습니다.
+
+* 표준 라이브러리가 기본 젬으로 승격됩니다.
+  * 다음 기본 젬들이 rubygems.org 에서 배포중입니다.
+    * benchmark
+    * cgi
+    * delegate
+    * getoptlong
+    * net-pop
+    * net-smtp
+    * open3
+    * pstore
+    * singleton
+  * 다음 기본 젬들은 ruby-core에서는 젬으로 승격되었지만, 아직 rubygems.org에서 배포하고 있지 않습니다.
+    * monitor
+    * observer
+    * timeout
+    * tracer
+    * uri
+    * yaml
 
 * 블록을 넘긴 메서드의 호출 안에서 블록이 없는 `Proc.new`와 `proc`을 사용하면 경고가 발생합니다.
 
@@ -223,46 +280,54 @@ end
 * `Date.jisx0301`, `Date#jisx0301`, `Date.parse`에서 새 일본 연호를 지원합니다.
   [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
-* 루비 빌드에 C99를 지원하는 컴파일러를 요구합니다. [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
+* 루비 빌드에 C99를 지원하는 컴파일러를 요구합니다.
+  [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * 이에 대한 자세한 정보: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
-[NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview2/NEWS)나 [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2)에서 더 자세한 설명을 확인할 수 있습니다.
+* ~~`Regexp#match{?}`에 `nil`을 넘기면 String, Symbol에서 처럼 TypeError를 던집니다.
+  [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ 취소되었습니다.
 
-이러한 변경사항에 따라, 루비 2.6.0 이후로 [파일 3670개 수정, 201242줄 추가(+), 88066줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2)가 이루어졌습니다!
+[NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview3/NEWS)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview3)에서
+더 자세한 설명을 확인할 수 있습니다.
+
+이러한 변경사항에 따라, 루비 2.6.0 이후로 [파일 3895개 수정, 213426줄 추가(+), 96934줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview3)가 이루어졌습니다!
 
 루비 2.7을 즐겨주시기 바랍니다!
 
 ## 다운로드
 
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.tar.bz2>
+{% assign release = site.data.releases | where: "version", "2.7.0-preview3" | first %}
 
-      SIZE:   14555229 bytes
-      SHA1:   7d9eed71115acfc8851747517904c1c6809872a9
-      SHA256: 417c84346ba84d664a13833c94c6d9f888c89bb9bee9adf469580441eaede30b
-      SHA512: 7066ececebbbba4b2933ba1a4f70cdef373169910802259a3e52b4fc144ba298f3cffda4be5fe8a7be8ef769ed43076fa046a9ac2c13bb733475b9852112c6f0
+* <{{ release.url.bz2 }}>
 
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.tar.gz>
+      SIZE: {{ release.size.bz2 }}
+      SHA1: {{ release.sha1.bz2 }}
+      SHA256: {{ release.sha256.bz2 }}
+      SHA512: {{ release.sha512.bz2 }}
 
-      SIZE:   16622499 bytes
-      SHA1:   5e998eb37ef54e650c0206184d56f506359d5477
-      SHA256: bda4b8dc340fad425c8099400fe3ef8e7393837d7e6e1bfae41843d1d938ebc4
-      SHA512: dbf05d6ddab59062f507342b25b8c21670b02bdd49e77bda947870607f4bf9049e5e7ddfde6bbce2e1749ca92568da9be3e5f30601b1eb450f10d8add952239a
+* <{{ release.url.gz }}>
 
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.tar.xz>
+      SIZE: {{ release.size.gz }}
+      SHA1: {{ release.sha1.gz }}
+      SHA256: {{ release.sha256.gz }}
+      SHA512: {{ release.sha512.gz }}
 
-      SIZE:   11874200 bytes
-      SHA1:   4356e1726027795a5c6b08572bb37bcb5a8c55d6
-      SHA256: fa39f088331f6d505154aa9d025aab177fdffedfbbabccd900b8c02e745bc077
-      SHA512: a057a186d85fcdf123abd69d584ef3adb20ad4397521e14306395d34102c3d818fe2d34a6476db01effcde479da9a77076cbb6d30bca40f1471ce3f5d3a995a9
+* <{{ release.url.xz }}>
 
-* <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.zip>
+      SIZE: {{ release.size.xz }}
+      SHA1: {{ release.sha1.xz }}
+      SHA256: {{ release.sha256.xz }}
+      SHA512: {{ release.sha512.xz }}
 
-      SIZE:   20576618 bytes
-      SHA1:   891b70ec76e9e776774a49b3ce24832a944422b3
-      SHA256: 81a240bead4438b064cb4cde562b483b82ec8e414bac057a6df43df5a247545c
-      SHA512: 1a8d4503374d31abf43182e2af6902ea6e5295f55d539415c8268b1d6a0fa83a975648c225ae986e687d5283dc2d180cf1e608841485506e4b0ac5efc154949a
+* <{{ release.url.zip }}>
+
+      SIZE: {{ release.size.zip }}
+      SHA1: {{ release.sha1.zip }}
+      SHA256: {{ release.sha256.zip }}
+      SHA512: {{ release.sha512.zip }}
 
 ## 루비는
 
 루비는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했고, 현재는 오픈 소스로서 개발되고 있습니다.
-이는 여러 플랫폼에서 동작하고, 특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
+이는 여러 플랫폼에서 동작하며, 특히 웹 개발에서 전 세계적으로 이용되고 있습니다.

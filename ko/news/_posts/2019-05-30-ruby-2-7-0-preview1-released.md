@@ -19,13 +19,13 @@ lang: ko
 
 이 릴리스는 단편화된 메모리를 최적화할 수 있는 압축 GC를 도입합니다.
 
-몇몇 멀티 스레드를 이용하는 루비 프로그램은 메모리 단편화를 일으킬 수 있고, 이는 과다한 메모리 사용량과 성능 저하로 이어질 수 있습니다.
+몇몇 멀티 스레드를 이용하는 루비 프로그램은 메모리 단편화를 일으킬 수 있고, 이는 과다한 메모리 사용과 성능 저하로 이어질 수 있습니다.
 
-`GC.compact` 메서드는 힙 공간을 압축합니다. 이 기능은 더 적은 페이지를 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다. [#15626](https://bugs.ruby-lang.org/issues/15626)
+힙 공간을 압축하는 `GC.compact` 메서드가 도입되었습니다. 이 기능은 더 적은 페이지를 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다. [#15626](https://bugs.ruby-lang.org/issues/15626)
 
 ## 패턴 매칭 [Experimental]
 
-함수형 언어에서 널리 알려진 기능인 패턴 매칭이 실험적으로 도입되었습니다. [#14912](https://bugs.ruby-lang.org/issues/14912)
+함수형 언어에서 널리 알려진 패턴 매칭 기능이 실험적으로 도입되었습니다. [#14912](https://bugs.ruby-lang.org/issues/14912)
 이는 패턴에 일치하는 경우, 주어진 객체를 순회하여 그 값을 대입합니다.
 
 {% highlight ruby %}
@@ -40,7 +40,7 @@ end
 
 ## REPL 개선
 
-루비에 기본으로 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가 이제 여러 줄 입력을 지원합니다. 이는 `reline`, `readline`과 호환되는 순수 루비 구현으로 동작합니다.
+루비에 기본으로 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가 이제 여러 줄 입력을 지원합니다. 이는 `readline`과 호환되는 순수 루비 구현인 `reline`으로 동작합니다.
 또한 rdoc 통합도 제공됩니다. `irb`에서 주어진 클래스, 모듈, 메서드의 레퍼런스를 볼 수 있습니다. [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
 그뿐만 아니라, `binding.irb`에서 보이는 소스 코드나 코어 클래스 객체의 inspect 결과에 색이 추가되었습니다.
 
