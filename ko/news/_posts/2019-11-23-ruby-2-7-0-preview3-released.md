@@ -10,7 +10,7 @@ lang: ko
 루비 2.7.0-preview3 릴리스를 알리게 되어 기쁩니다.
 
 프리뷰 버전은 12월에 예정된 최종 릴리스에 대한 의견을 모으기 위해서 릴리스됩니다.
-preview3 은 키워드 인자의 호환성 문제를 확인하기 위해서 릴리스됩니다.
+preview3은 키워드 인자의 호환성 문제를 확인하기 위해서 릴리스됩니다.
 
 이는 많은 새 기능과 성능 향상을 포함하고 있습니다. 특히 눈에 띄는 것은 다음과 같습니다.
 
@@ -80,7 +80,7 @@ inspect 결과에 색이 추가되었습니다.
 이 변환은 루비 3에서 제거될 예정입니다.
 [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-* 메서드 호출이 마지막 인자로 Hash를 넘기며 아무 키워드도 넘기지 않을때,
+* 메서드 호출이 마지막 인자로 Hash를 넘기며 아무 키워드도 넘기지 않을 때,
   호출된 메서드는 키워드를 받을 때 경고가 발생합니다.
   계속 키워드로 취급되도록 하려면, 이중 스플랫(double splat) 연산자를 추가해서
   경고를 피하고 루비 3에서 올바르게 동작하도록 하세요.
@@ -284,7 +284,7 @@ NOTE: 키워드 인자 비호환으로 인한 너무 많은 폐기 경고가 번
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * 이에 대한 자세한 정보: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
-* ~~`Regexp#match{?}`에 `nil`을 넘기면 String, Symbol에서 처럼 TypeError를 던집니다.
+* ~~`Regexp#match{?}`에 `nil`을 넘기면 String, Symbol에서처럼 TypeError를 던집니다.
   [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ 취소되었습니다.
 
 [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview3/NEWS)나
