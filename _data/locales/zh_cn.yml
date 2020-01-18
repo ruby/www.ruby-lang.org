@@ -3,7 +3,7 @@ ruby: Ruby
 slogan: 程序员最好的朋友
 
 sitelinks:
-- text: Home
+- text: 首页
   url: /zh_cn
   home: true
 - text: 下载
