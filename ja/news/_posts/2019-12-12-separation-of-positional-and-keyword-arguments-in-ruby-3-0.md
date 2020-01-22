@@ -2,77 +2,81 @@
 layout: news_post
 title: "Separation of positional and keyword arguments in Ruby 3.0"
 author: "mame"
-translator:
+translator: "hachi8833"
 date: 2019-12-12 12:00:00 +0000
-lang: en
+lang: ja
 ---
 
-This article explains the planned incompatibility of keyword arguments in Ruby 3.0
+本記事では、Ruby 3.0で予定されているキーワード引数の非互換性について解説します。
 
-## tl;dr
+## 概要
 
-In Ruby 3.0, positional arguments and keyword arguments will be separated.  Ruby 2.7 will warn for behaviors that will change in Ruby 3.0.  If you see the following warnings, you need to update your code:
+Ruby 3.0では、位置引数とキーワード引数が分離されます。Ruby 3.0で変更される振る舞いはRuby 2.7でwarningを表示します。以下のいずれかのwarningが表示される場合は、コードのアップデートが必要です。
 
 * `Using the last argument as keyword parameters is deprecated`, or
 * `Passing the keyword argument as the last hash parameter is deprecated`, or
 * `Splitting the last argument into positional and keyword parameters is deprecated`
 
-In most cases, you can avoid the incompatibility by adding the _double splat_ operator. It explicitly specifies passing keyword arguments instead of a `Hash` object. Likewise, you may add braces `{}` to explicitly pass a `Hash` object, instead of keyword arguments. Read the section "Typical cases" below for more details.
+この非互換性は、double splat演算子（`**`）を追加することでほぼ回避できます。これにより、`Hash`オブジェクトではなくキーワード引数を渡すことが明示的に指定されます。同様に、キーワード引数ではなく`Hash`オブジェクトを明示的に渡したい場合は中かっこ（`{}`）を追加できます。詳しくは後述の「典型的なケース」をご覧ください。
 
-In Ruby 3, a method delegating all arguments must explicitly delegate keyword arguments in addition to positional arguments.  If you want to keep the delegation behavior found in Ruby 2.7 and earlier, use `ruby2_keywords`.   See the "Handling argument delegation" section below for more details.
+Ruby 3では、すべての引数を委譲するメソッドで、位置引数の他に必ずキーワード引数も明示的に委譲しなければなりません。Ruby 2.7以前の委譲の振る舞いを変えたくない場合は、`ruby2_keywords`をお使いください。詳しくは後述の「引数の委譲の扱いについて」をご覧ください。
 
-## Typical cases
+## よくあるケース
 
-Here is the most typical case. You can use double splat operator (`**`) to pass keywords instead of a Hash.
+以下はもっともよくあるケースです。Hashではなくキーワードを渡すのにdouble splat演算子（`**`）を使えます。
 
 {% highlight ruby %}
-# This method accepts only a keyword argument
+# このメソッドはキーワード引数のみを受け取る
 def foo(k: 1)
   p k
 end
 
 h = { k: 42 }
 
-# This method call passes a positional Hash argument
-# In Ruby 2.7: The Hash is automatically converted to a keyword argument
-# In Ruby 3.0: This call raises an ArgumentError
+# このメソッド呼び出しは位置引数としてHashを渡している
+# Ruby 2.7: このHashは自動でキーワード引数に変換される
+# Ruby 3.0: この呼び出しはArgumentErrorになる
 foo(h)
   # => demo.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
   #    demo.rb:2: warning: The called method `foo' is defined here
   #    42
 
-# If you want to keep the behavior in Ruby 3.0, use double splat
+# この振る舞いをRuby 3.0で変えたくない場合はdouble splatを用いる
 foo(**h) #=> 42
 {% endhighlight %}
 
-Here is another case.  You can use braces (`{}`) to pass a Hash instead of keywords explicitly.
+別の例: キーワード引数ではなくHashを明示的に渡す場合は中かっこ（`{}`）を使います。
 
 {% highlight ruby %}
-# This method accepts one positional argument and a keyword rest argument
+# このメソッドは位置引数を1個、残りはキーワード引数を受け取る
 def bar(h, **kwargs)
   p h
 end
 
-# This call passes only a keyword argument and no positional arguments
-# In Ruby 2.7: The keyword is converted to a positional Hash argument
-# In Ruby 3.0: This call raises an ArgumentError
+# この呼び出しではキーワード引数のみが渡され、位置引数は渡されない
+# Ruby 2.7: このキーワード引数は自動でHash引数に変換される
+# Ruby 3.0: この呼び出しはArgumentErrorになる
 bar(k: 42)
   # => demo2.rb:9: warning: Passing the keyword argument as the last hash parameter is deprecated
   #    demo2.rb:2: warning: The called method `bar' is defined here
   #    {:k=>42}
 
-# If you want to keep the behavior in Ruby 3.0, write braces to make it an
-# explicit Hash
+# この振る舞いをRuby 3.0で変えたくない場合は
+# 中かっこで明示的にHashにする
 bar({ k: 42 }) # => {:k=>42}
 {% endhighlight %}
 
-## What is deprecated?
+## どの動作が非推奨になるか
 
-In Ruby 2, keyword arguments can be treated as the last positional Hash argument and a last positional Hash argument can be treated as keyword arguments.
+Ruby 2では、キーワード引数が末尾のハッシュ位置引数として扱われることがあります。また、末尾のハッシュ引数がキーワード引数として扱われることもあります。
 
-Because the automatic conversion is sometimes too complex and troublesome as described in the final section.  So it's now deprecated in Ruby 2.7 and will be removed in Ruby 3.  In other words, keyword arguments will be completely separated from positional one in Ruby 3.  So when you want to pass keyword arguments, you should always use `foo(k: expr)` or `foo(**expr)`.  If you want to accept keyword arguments, in principle you should always use `def foo(k: default)` or `def foo(k:)` or `def foo(**kwargs)`.
+この自動変換は場合によっては複雑になりすぎてしまい、本記事末尾で後述するようにトラブルの原因になることがあります。そのため、この自動変換をRuby 2.7で非推奨とし、Ruby 3.0で廃止する予定です。言い換えると、Ruby 3.0のキーワード引数は位置引数と完全に分離されることになります。つまり、キーワード引数を渡したい場合は、常に`foo(k: expr)`または`foo(**expr)`の形にすべきです。（メソッド定義で）キーワード引数を受け取りたい場合は、原則として常に以下のいずれかの形にすべきです。
 
-Note that Ruby 3.0 doesn't behave differently when calling a method which doesn't accept keyword arguments with keyword arguments. For instance, the following case is not going to be deprecated and will keep working in Ruby 3.0. The keyword arguments are still treated as a positional Hash argument.
+* `def foo(k: default)`
+* `def foo(k:)`
+* `def foo(**kwargs)`
+
+なお、キーワード引数を受け取らないメソッドを呼び出すときにキーワード引数を渡した場合の振る舞いは、Ruby 3.0でも変わらない点にご注意ください。たとえば、以下のケースは非推奨にはならず、Ruby 3.0でも引き続き動作します（このキーワード引数は引き続きHash位置引数として扱われます）。
 
 {% highlight ruby %}
 def foo(kwargs = {})
@@ -82,9 +86,9 @@ end
 foo(k: 1) #=> {:k=>1}
 {% endhighlight %}
 
-This is because this style is used very frequently, and there is no ambiguity in how the argument should be treated. Prohibiting this conversion would result in additional incompatibility for little benefit.
+変わらない理由は、このスタイルが非常によく用いられていることと、この呼び出し方法では引数の扱いに曖昧な点がないためです。この振る舞いまで禁止してしまうと、得られるメリットが少ないうえに非互換性がさらに増えてしまいます。
 
-However, this style is not recommended in new code, unless you are often passing a Hash as a positional argument, and are also using keyword arguments.  Otherwise, use double splat:
+ただし今後新しいコードを書く場合、このスタイルはおすすめできません（Hashを位置引数として渡す頻度が高く、かつキーワード引数も使う場合を除く）。代わりに、次のようにdouble splat（`**`）をお使いください。
 
 {% highlight ruby %}
 def foo(**kwargs)
@@ -94,21 +98,21 @@ end
 foo(k: 1) #=> {:k=>1}
 {% endhighlight %}
 
-## Will my code break on Ruby 2.7?
+## Q: 自分のコードはRuby 2.7で動かなくなりますか？
 
-A short answer is "maybe not".
+手短かに言うと「壊れない可能性はあります」。
 
-The changes in Ruby 2.7 are designed as a migration path towards 3.0.  While in principle, Ruby 2.7 only warns against behaviors that will change in Ruby 3, it includes some incompatible changes we consider to be minor.  See the "Other minor changes" section for details.
+Ruby 2.7におけるこの変更は、3.0への移行パスとして設計されています。あくまで原則としてですが、Ruby 2.7ではRuby 3.0で変更される振る舞いについてwarningを出すにとどめており、warningの中には私たちが微細とみなしている変更点も若干含まれます。詳しくは後述の「その他の微細な変更点」をご覧ください。
 
-Except for the warnings and minor changes, Ruby 2.7 attempts to keep the compatibility with Ruby 2.6.  So, your code will probably work on Ruby 2.7, though it may emit warnings.  And by running it on Ruby 2.7, you can check if your code is ready for Ruby 3.0.
+Ruby 2.7では、warningが表示される点と微細な変更点以外を除いてRuby 2.6との互換性を保とうとしています。つまり、あなたのコードはRuby 2.7でもおそらく動作しますが、warningが表示される可能性はあります。あなたのコードをRuby 2.7で実行すれば、Ruby 3.0の準備ができているかどうかをチェックできます。
 
-If you want to disable the deprecation warnings, please use a command-line argument `-W:no-deprecated` or add `Warning[:deprecated] = false` to your code.
+非推奨のwarningを無効にしたい場合は、コマンドライン引数`-W:no-deprecated`を使うか、コードに`Warning[:deprecated] = false`を追加します。
 
-## Handling argument delegation
+## 引数の委譲の扱いについて
 
-### Ruby 2.6 or prior
+### Ruby 2.6以前の場合
 
-In Ruby 2, you can write a delegation method by accepting a `*rest` argument and a `&block` argument, and passing the two to the target method.  In this behavior, the keyword arguments are also implicitly handled by the automatic conversion between positional and keyword arguments.
+Ruby 2では、以下のように1個の`*rest`引数と1個の`&block`引数を受け付けて、この2つの引数を委譲先メソッド（以下の`target`）に渡すことで委譲メソッドを書けます。この振る舞いでは、（1つ以上の）キーワード引数も「位置引数<=>キーワード引数の自動変換」によって暗黙的に扱われます。
 
 {% highlight ruby %}
 def foo(*args, &block)
@@ -116,9 +120,9 @@ def foo(*args, &block)
 end
 {% endhighlight %}
 
-### Ruby 3
+### Ruby 3の場合
 
-You need to explicitly delegate keyword arguments.
+以下のようにキーワード引数を明示的に委譲する必要があります。
 
 {% highlight ruby %}
 def foo(*args, **kwargs, &block)
@@ -126,7 +130,7 @@ def foo(*args, **kwargs, &block)
 end
 {% endhighlight %}
 
-Alternatively, if you do not need compatibility with Ruby 2.6 or prior and you don't alter any arguments, you can use the new delegation syntax (`...`) that is introduced in Ruby 2.7.
+別の方法として、Ruby 2.6以前との互換性を考慮する必要がなく、かつ引数を一切改変しないのであれば、以下のようにRuby 2.7で新しく導入される委譲構文（`...`）を利用できます。
 
 {% highlight ruby %}
 def foo(...)
@@ -134,23 +138,9 @@ def foo(...)
 end
 {% endhighlight %}
 
-### Ruby 2.7
+### Ruby 2.7の場合
 
-In short: use `Module#ruby2_keywords` and delegate `*args, &block`.
-
-{% highlight ruby %}
-ruby2_keywords def foo(*args, &block)
-  target(*args, &block)
-end
-{% endhighlight %}
-
-`ruby2_keywords` accepts keyword arguments as the last Hash argument, and passes it as keyword arguments when calling the other method.
-
-In fact, Ruby 2.7 allows the new style of delegation in many cases.  However, there is a known corner case.  See the next section.
-
-### A compatible delegation that works on Ruby 2.6, 2.7 and Ruby 3
-
-In short: use `Module#ruby2_keywords` again.
+手短かに言うと、以下のように`Module#ruby2_keywords`を用い、`*args, &block`を委譲します。
 
 {% highlight ruby %}
 ruby2_keywords def foo(*args, &block)
@@ -158,16 +148,30 @@ ruby2_keywords def foo(*args, &block)
 end
 {% endhighlight %}
 
-Unfortunately, we need to use the old-style delegation (i.e., no `**kwargs`) because Ruby 2.6 or prior does not handle the new delegation style correctly.  This is one of the reasons of the keyword argument separation; the details are described in the final section. And `ruby2_keywords` allows you to run the old style even in Ruby 2.7 and 3.0.  As there is no `ruby2_keywords` defined in 2.6 or prior, please use the [ruby2_keywords gem](https://rubygems.org/gems/ruby2_keywords) or define it yourself:
+`ruby2_keywords`を指定すると、キーワード引数を末尾のHash引数として受け取れるようになり、他のメソッドを呼び出すときにそれをキーワード引数として渡せます。
+
+実際、Ruby 2.7では多くの場面でこの新しい委譲のスタイルを利用できます。ただし1つ既知のエッジケースがあります。次をご覧ください。
+
+### Ruby 2.6 / 2.7 / 3で互換性のある委譲スタイル
+
+手短かに言うと、ここも「`Module#ruby2_keywords`を使う」となります。
+
+{% highlight ruby %}
+ruby2_keywords def foo(*args, &block)
+  target(*args, &block)
+end
+{% endhighlight %}
+
+残念ながら、Ruby 2.6以前では新しい委譲スタイルを正しく扱えないため、旧来の委譲スタイル（`**kwargs`を使わないなど）を使う必要があります。これは、キーワード引数を分離した理由のひとつでもあります（詳しくは本記事末尾をご覧ください）。`ruby2_keywords`を用いれば、Ruby 2.7や3.0でも旧来の委譲スタイルを引き続き利用できます。2.6以前のRubyでは`ruby2_keywords`が定義されていないので、[ruby2_keywords](https://rubygems.org/gems/ruby2_keywords) gemを使うか、以下を手動で定義します。
 
 {% highlight ruby %}
 def ruby2_keywords(*)
 end if RUBY_VERSION < "2.7"
 {% endhighlight %}
 
----
+* * * * *
 
-If your code doesn't have to run on Ruby 2.6 or older, you may try the new style in Ruby 2.7.  In almost all cases, it works.  Note that, however, there are unfortunate corner cases as follows:
+自分のコードがRuby 2.6以前で動かなくても構わないのであれば、Ruby 2.7で新しいスタイルを試してもよいでしょう。ほぼほぼ間違いなく動作しますが、以下のようなエッジケースを運悪く踏むこともあります。
 
 {% highlight ruby %}
 def target(*args)
@@ -178,35 +182,34 @@ def foo(*args, **kwargs, &block)
   target(*args, **kwargs, &block)
 end
 
-foo({})       #=> Ruby 2.7: []   ({} is dropped)
-foo({}, **{}) #=> Ruby 2.7: [{}] (You can pass {} by explicitly passing "no" keywords)
+foo({})       #=> Ruby 2.7: []  （{}を含んでいない）
+foo({}, **{}) #=> Ruby 2.7: [{}] （{}を渡せば、キーワード引数が「ない」ことを明示できる）
 {% endhighlight %}
 
-An empty Hash argument is automatically converted and absorbed into `**kwargs`, and the delegation call removes the empty keyword hash, so no argument is passed to `target`.  As far as we know, this is the only corner case.
+上のコードでは、空のHash引数が自動的に変換されて`**kwargs`に吸い込まれ、この空のキーワードハッシュは委譲の呼び出しで削除されます。このため、`targe`には引数がまったく渡されなくなります。私たちが把握している範囲では、これが唯一のエッジケースです。
 
-As noted in the last line, you can work around this issue by using `**{}`.
+上のコードの最下部に書いたように、`**{}`を渡すことでこの問題を回避できます。
 
-If you really worry about the portability, use `ruby2_keywords`.  (Acknowledge that Ruby 2.6 or before themselves have tons of corner cases in keyword arguments. :-)
-`ruby2_keywords` might be removed in the future after Ruby 2.6 reaches end-of-life. At that point, we recommend to explicitly delegate keyword arguments (see Ruby 3 code above).
+移植性がどうしても不安な場合は`ruby2_keywords`をお使いください（Ruby 2.6以前ではキーワード引数周りで膨大なエッジケースが存在していることを知っておいてください）。`ruby2_keywords`は、今後Ruby 2.6が役目を終えたときに削除される可能性があります。現時点で私たちがおすすめできるのは、キーワード引数を明示的に委譲することです（上述のRuby 3向けのコードを参照）。
 
-## Other minor changes
+## その他の微細な変更点
 
-There are three minor changes about keyword arguments in Ruby 2.7.
+Ruby 2.7のキーワード引数では、この他に以下の3つのマイナーチェンジが行われています。
 
-### 1. Non-Symbol keys are allowed in keyword arguments
+### 1\. キーワード引数で非シンボルキーを利用できるようになった
 
-In Ruby 2.6 or before, only Symbol keys were allowed in keyword arguments.  In Ruby 2.7, keyword arguments can use non-Symbol keys.
+Ruby 2.6以前のキーワード引数では、シンボル形式のキーしか利用できませんでした。Ruby 2.7のキーワード引数では、以下のようにシンボル形式でないキーを利用できるようになります。
 
 {% highlight ruby %}
 def foo(**kwargs)
   kwargs
 end
 foo("key" => 42)
-  #=> Ruby 2.6 or before: ArgumentError: wrong number of arguments
-  #=> Ruby 2.7 or later: {"key"=>42}
+  #=> Ruby 2.6以前: ArgumentError: wrong number of arguments
+  #=> Ruby 2.7以降: {"key"=>42}
 {% endhighlight %}
 
-If a method accepts both optional and keyword arguments, the Hash object that has both Symbol keys and non-Symbol keys was split in two in Ruby 2.6.  In Ruby 2.7, both are accepted as keywords because non-Symbol keys are allowed.
+あるメソッドがオプション引数とキーワード引数を両方とも受け付ける場合、Ruby 2.6では以下のようにシンボル形式のキーと非シンボルキーを両方持つHashオブジェクトが2つに分割されていました。Ruby 2.7では非シンボルキーを利用できるので、どちらも受け取れます。
 
 {% highlight ruby %}
 def bar(x=1, **kwargs)
@@ -217,12 +220,12 @@ bar("key" => 42, :sym => 43)
   #=> Ruby 2.6: [{"key"=>42}, {:sym=>43}]
   #=> Ruby 2.7: [1, {"key"=>42, :sym=>43}]
 
-# Use braces to keep the behavior
+# 振る舞いを変えたくない場合は中かっこ{}を使う
 bar({"key" => 42}, :sym => 43)
   #=> Ruby 2.6 and 2.7: [{"key"=>42}, {:sym=>43}]
 {% endhighlight %}
 
-Ruby 2.7 still splits hashes with a warning if passing a Hash or keyword arguments with both Symbol and non-Symbol keys to a method that accepts explicit keywords but no keyword rest argument (`**kwargs`).  This behavior will be removed in Ruby 3, and an `ArgumentError` will be raised.
+Ruby 2.7では、キーワード引数を明示的に受け付けるがキーワードrest引数（`**kwargs`）を受け取らないメソッドに対して、シンボル形式のキーと非シンボルキーが両方混じったHashやキーワード引数を渡すと、引き続きハッシュを分割して警告を表示します。この振る舞いはRuby 3で廃止されて`ArgumentError`にする予定です。
 
 {% highlight ruby %}
 def bar(x=1, sym: nil)
@@ -230,15 +233,15 @@ def bar(x=1, sym: nil)
 end
 
 bar("key" => 42, :sym => 43)
-# Ruby 2.6 and 2.7: => [{"key"=>42}, 43]
+# Ruby 2.6と2.7: => [{"key"=>42}, 43]
 # Ruby 2.7: warning: Splitting the last argument into positional and keyword parameters is deprecated
 #           warning: The called method `bar' is defined here
 # Ruby 3.0: ArgumentError
 {% endhighlight %}
 
-### 2. Double splat with an empty hash (`**{}`)  passes no arguments
+### 2\. double splatを付けた空ハッシュ（`**{}`）で引数を渡さないようになった
 
-In Ruby 2.6 or before, passing `**empty_hash` passes an empty Hash as a positional argument.  In Ruby 2.7 or later, it passes no arguments.
+Ruby 2.6以前は、`**empty_hash`を渡すと位置引数に空のハッシュが渡されました（`[{}]`）。Ruby 2.7以降では引数を渡さなくなります。
 
 {% highlight ruby %}
 def foo(*args)
@@ -247,13 +250,13 @@ end
 
 empty_hash = {}
 foo(**empty_hash)
-  #=> Ruby 2.6 or before: [{}]
-  #=> Ruby 2.7 or later: []
+  #=> Ruby 2.6以前: [{}]
+  #=> Ruby 2.7以降: []
 {% endhighlight %}
 
-Note that `foo(**{})` passes nothing in both Ruby 2.6 and 2.7.  In Ruby 2.6 and before, `**{}` is removed by the parser, and in Ruby 2.7 and above, it is treated the same as `**empty_hash`, allowing for an easy way to pass no keyword arguments to a method.
+なお、`foo(**{})`はRuby 2.6以前とRuby 2.7のどちらの場合も引数を渡さず、`**{}`がパーサーによって削除される点にご注意ください。また、Ruby 2.7以降ではどちらも`**empty_hash`として同じに扱われるので、メソッドにキーワード引数を渡さないようにする指定が楽に行なえます。
 
-In Ruby 2.7, when calling a method with an insufficient number of required positional arguments, `foo(**empty_hash)` passes an empty hash with a warning emitted, for compatibility with Ruby 2.6.  This behavior will be removed in 3.0.
+Ruby 2.7では、あるメソッド呼び出しで必須とされる位置引数の個数が不足している場合、Ruby 2.6との互換性を保つために`foo(**empty_hash)`は空のハッシュを渡してwarningを表示します。この振る舞いはRuby 3.0で廃止されます。
 
 {% highlight ruby %}
 def foo(x)
@@ -262,51 +265,51 @@ end
 
 empty_hash = {}
 foo(**empty_hash)
-  #=> Ruby 2.6 or before: {}
+  #=> Ruby 2.6以前: {}
   #=> Ruby 2.7: warning: Passing the keyword argument as the last hash parameter is deprecated
   #             warning: The called method `foo' is defined here
   #=> Ruby 3.0: ArgumentError: wrong number of arguments
 {% endhighlight %}
 
-### 3. The no-keyword-arguments syntax (`**nil`) is introduced
+### 3\. キーワード引数を受け取らないことを表す構文（`**nil`）が導入される
 
-You can use `**nil` in a method definition to explicitly mark the method accepts no keyword arguments. Calling such methods with keyword arguments will result in an `ArgumentError`. (This is actually a new feature, not an incompatibility)
+メソッド定義で`**nil`を用いることで、そのメソッドがキーワード引数を受け取らないことを明示的に示せるようになります。このメソッドを呼び出すときにキーワード引数を渡すと`ArgumentError`が表示されます（これは非互換性ではなく、事実上新機能です）。
 
 {% highlight ruby %}
 def foo(*args, **nil)
 end
 
 foo(k: 1)
-  #=> Ruby 2.7 or later: no keywords accepted (ArgumentError)
+  #=> Ruby 2.7以降: no keywords accepted (ArgumentError)
 {% endhighlight %}
 
-This is useful to make it explicit that the method does not accept keyword arguments.  Otherwise, the keywords are absorbed in the rest argument in the above example.  If you extend a method to accept keyword arguments, the method may have incompatibility as follows:
+この新構文は、メソッドがキーワード引数を受け取らないことを明示的に指定するのに有用です。これを使わない場合、キーワード引数は上述の例の他の引数に吸い込まれます。メソッドを拡張してキーワード引数を受け取るようにする場合、以下のような非互換性が発生する可能性があります。
 
 {% highlight ruby %}
-# If a method accepts rest argument and no `**nil`
+# メソッドは残りの引数を受け取るが、`**nil`はない状態
 def foo(*args)
   p args
 end
 
-# Passing keywords are converted to a Hash object (even in Ruby 3.0)
+# キーワード引数はHashオブジェクトに変換される（Ruby 3.0でも同じ）
 foo(k: 1) #=> [{:k=>1}]
 
-# If the method is extended to accept a keyword
+# メソッドがキーワード引数を受け取るよう拡張した場合
 def foo(*args, mode: false)
   p args
 end
 
-# The existing call may break
+# 以下の呼び出しが壊れる可能性がある
 foo(k: 1) #=> ArgumentError: unknown keyword k
 {% endhighlight %}
 
-## Why we're deprecating the automatic conversion
+## 自動変換を非推奨に変える理由
 
-The automatic conversion initially appeared to be a good idea, and worked well in many cases.  However, it had too many corner cases, and we have received many bug reports about the behavior.
+当初、自動変換はうまいアイデアに思われていて、多くの場合問題なく機能していました。しかし、エッジケースがあまりにも多く、これまでこの振る舞いに関するバグレポートを山のように受け取りました。
 
-Automatic conversion does not work well when a method accepts optional positional arguments and keyword arguments.  Some people expect the last Hash object to be treated as a positional argument, and others expect it to be converted to keyword arguments.
+自動変換は、オプションの位置引数とキーワード引数をどちらも受け取るメソッドではうまく動きません。末尾のHashオブジェクトを位置引数として扱うことを期待する人々もいれば、末尾のHashオブジェクトをキーワード引数として扱うことを期待する人々もいました。
 
-Here is one of the most confusing cases:
+最も混乱を呼ぶケースのひとつを以下に示します。
 
 {% highlight ruby %}
 def foo(x, **kwargs)
@@ -317,17 +320,17 @@ def bar(x=1, **kwargs)
   p [x, kwargs]
 end
 
-foo({}) => [{}, {}]
-bar({}) => [1, {}]
+foo({}) #=> [{}, {}]
+bar({}) #=> [1, {}]
 
-bar({}, **{}) => expected: [{}, {}], actual: [1, {}]
+bar({}, **{}) #=> 期待は: [{}, {}]だが実際はl: [1, {}]
 {% endhighlight %}
 
-In Ruby 2, `foo({})` passes an empty hash as a normal argument (i.e., `{}` is assigned to `x`), while `bar({})` passes a keyword argument (i.e, `{}` is assigned to `kwargs`).  So `any_method({})` is very ambiguous.
+Ruby 2の場合、`foo({})`は空のハッシュを通常の引数として1つ渡しますが（`x`に`{}`が代入されるなど）、`bar({})`はキーワード引数を1つ渡します（`kwargs`に`{}`が代入されるなど）。つまり、`any_method({})`は極めてあいまいになります。
 
-You may think of `bar({}, **{})` to pass the empty hash to `x` explicitly.  Surprisingly, it does not work as you expected; it still prints `[1, {}]` in Ruby 2.6.  This is because `**{}` is ignored by the parser in Ruby 2.6, and the first argument `{}` is automatically converted to keywords (`**kwargs`).  In this case, you need to call `bar({}, {})`, which is very weird.
+「`bar({}, **{})`は`x`に明示的に空のハッシュを渡すのでは？」と考える人もいるかもしれませんが、驚いたことに、この期待は裏切られます。Ruby 2.6では`[1, {}]`が出力されるのです。理由は、`**{}`がRuby 2.6のパーサーで無視されるのと、1番目の引数`{}`が自動的にキーワード引数（`**kwargs`）に変換されるためです。この場合`bar({}, {})`という形で呼び出す必要がありますが、これではあまりに見苦しくなります。
 
-The same issues also apply to methods that accept rest and keyword arguments.  This makes explicit delegation of keyword arguments not work.
+同じ問題は、残りの引数とキーワード引数を受け取るメソッドにも当てはまります。そのせいで、以下のようなキーワード引数の明示的な委譲は動作しません。
 
 {% highlight ruby %}
 def target(*args)
@@ -338,18 +341,18 @@ def foo(*args, **kwargs, &block)
   target(*args, **kwargs, &block)
 end
 
-foo() #=> Ruby 2.6 or before: [{}]
-      #=> Ruby 2.7 or later:  []
+foo() #=> Ruby 2.6以前: [{}]
+      #=> Ruby 2.7以降:  []
 {% endhighlight %}
 
-`foo()` passes no arguments, but `target` receives an empty hash argument in Ruby 2.6.  This is because the method `foo` delegates keywords (`**kwargs`) explicitly.  When `foo()` is called, `args` is an empty Array, `kwargs` is an empty Hash, and `block` is `nil`.  And then `target(*args, **kwargs, &block)` passes an empty Hash as an argument because `**kwargs` is automatically converted to a positional Hash argument.
+`foo()`には引数がありませんが、Ruby 2.6では空のハッシュ引数が`target`に渡されます。理由は、メソッド`foo`が明示的にキーワード（`**kwargs`）を委譲しているためです。`foo()`が呼び出されると、`args`は空のArrayになり、`kwargs`は空のHashになります。そして`target(*args, **kwargs, &block)`は空のHashを引数として1つ渡します。理由は、`**kwargs`が自動的にHash位置引数に変換されるためです。
 
-The automatic conversion not only confuses people but also makes the method less extensible.  See [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183) for more details about the reasons for the change in behavior, and why certain implementation choices were made.
+自動変換は開発者を混乱させるのみならず、メソッドの拡張性も弱めてしまいます。振る舞いが変更された理由や、特定の実装が選択された理由について詳しくは[Feature #14183](https://bugs.ruby-lang.org/issues/14183)をご覧ください。
 
-## Acknowledgment
+## 謝辞
 
-This article was kindly reviewed (or even co-authored) by Jeremy Evans and Benoit Daloze.
+本記事はJeremy EvansとBenoit Dalozeによる丁寧なレビュー（共著と言ってもよいくらいです）をいただきました。
 
-## History
+## 更新履歴
 
-* Updated 2019-12-25: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added.
+* 更新 2019-12-25: 2.7.0-rc2でwarningメッセージが若干変更され、warning抑制APIが追加された。
