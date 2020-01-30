@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Separation of positional and keyword arguments in Ruby 3.0"
+title: "Ruby 3.0における位置引数とキーワード引数の分離について"
 author: "mame"
 translator: "hachi8833"
 date: 2019-12-12 12:00:00 +0000
@@ -13,8 +13,8 @@ lang: ja
 
 Ruby 3.0では、位置引数とキーワード引数が分離されます。Ruby 3.0で変更される振る舞いはRuby 2.7でwarningを表示します。以下のいずれかのwarningが表示される場合は、コードのアップデートが必要です。
 
-* `Using the last argument as keyword parameters is deprecated`, or
-* `Passing the keyword argument as the last hash parameter is deprecated`, or
+* `Using the last argument as keyword parameters is deprecated`
+* `Passing the keyword argument as the last hash parameter is deprecated`
 * `Splitting the last argument into positional and keyword parameters is deprecated`
 
 この非互換性は、double splat演算子（`**`）を追加することでほぼ回避できます。これにより、`Hash`オブジェクトではなくキーワード引数を渡すことが明示的に指定されます。同様に、キーワード引数ではなく`Hash`オブジェクトを明示的に渡したい場合は中かっこ（`{}`）を追加できます。詳しくは後述の「典型的なケース」をご覧ください。
