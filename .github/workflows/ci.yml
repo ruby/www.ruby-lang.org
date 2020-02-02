@@ -41,6 +41,8 @@ jobs:
       - name: Install bundler
         run: gem install bundler --no-document
       - name: Install gem bundle
-        run: bundle install --path vendor/bundle
+        run: |
+          bundle config set path 'vendor/bundle'
+          bundle install
       - name: Run tests
         run: bundle exec rake test
