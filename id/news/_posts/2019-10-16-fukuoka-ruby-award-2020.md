@@ -19,8 +19,8 @@ Batas akhir pendaftaran: 11 Desember 2019
 
 ![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
-Matz dan sebuah grup panelis akan memilih pemenang kompetisi ini. Haidah utama
-dari kompetisi ini adalah 1 juta Yen. Hadian pemenang sebelumnya termasuk
+Matz dan sebuah grup panelis akan memilih pemenang kompetisi ini. Hadiah utama
+dari kompetisi ini adalah 1 juta Yen. Hadiah pemenang sebelumnya termasuk
 *Rhomobile* (USA) dan APEC *Climate Center* (Korea).
 
 [http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
