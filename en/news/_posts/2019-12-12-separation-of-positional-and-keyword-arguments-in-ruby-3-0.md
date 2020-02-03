@@ -22,6 +22,7 @@ In most cases, you can avoid the incompatibility by adding the _double splat_ op
 In Ruby 3, a method delegating all arguments must explicitly delegate keyword arguments in addition to positional arguments.  If you want to keep the delegation behavior found in Ruby 2.7 and earlier, use `ruby2_keywords`.   See the "Handling argument delegation" section below for more details.
 
 ## Typical cases
+{: #typical-cases }
 
 Here is the most typical case. You can use double splat operator (`**`) to pass keywords instead of a Hash.
 
@@ -67,6 +68,7 @@ bar({ k: 42 }) # => {:k=>42}
 {% endhighlight %}
 
 ## What is deprecated?
+{: #what-is-deprecated }
 
 In Ruby 2, keyword arguments can be treated as the last positional Hash argument and a last positional Hash argument can be treated as keyword arguments.
 
@@ -95,6 +97,7 @@ foo(k: 1) #=> {:k=>1}
 {% endhighlight %}
 
 ## Will my code break on Ruby 2.7?
+{: #break-on-ruby-2-7 }
 
 A short answer is "maybe not".
 
@@ -105,8 +108,10 @@ Except for the warnings and minor changes, Ruby 2.7 attempts to keep the compati
 If you want to disable the deprecation warnings, please use a command-line argument `-W:no-deprecated` or add `Warning[:deprecated] = false` to your code.
 
 ## Handling argument delegation
+{: #delegation }
 
 ### Ruby 2.6 or prior
+{: #delegation-ruby-2-6-or-prior }
 
 In Ruby 2, you can write a delegation method by accepting a `*rest` argument and a `&block` argument, and passing the two to the target method.  In this behavior, the keyword arguments are also implicitly handled by the automatic conversion between positional and keyword arguments.
 
@@ -117,6 +122,7 @@ end
 {% endhighlight %}
 
 ### Ruby 3
+{: #delegation-ruby-3 }
 
 You need to explicitly delegate keyword arguments.
 
@@ -135,6 +141,7 @@ end
 {% endhighlight %}
 
 ### Ruby 2.7
+{: #delegation-ruby-2-7 }
 
 In short: use `Module#ruby2_keywords` and delegate `*args, &block`.
 
@@ -149,6 +156,7 @@ end
 In fact, Ruby 2.7 allows the new style of delegation in many cases.  However, there is a known corner case.  See the next section.
 
 ### A compatible delegation that works on Ruby 2.6, 2.7 and Ruby 3
+{: #a-compatible-delegation }
 
 In short: use `Module#ruby2_keywords` again.
 
@@ -190,10 +198,12 @@ If you really worry about the portability, use `ruby2_keywords`.  (Acknowledge t
 `ruby2_keywords` might be removed in the future after Ruby 2.6 reaches end-of-life. At that point, we recommend to explicitly delegate keyword arguments (see Ruby 3 code above).
 
 ## Other minor changes
+{: #other-minor-changes }
 
 There are three minor changes about keyword arguments in Ruby 2.7.
 
 ### 1. Non-Symbol keys are allowed in keyword arguments
+{: #other-minor-changes-non-symbol-keys }
 
 In Ruby 2.6 or before, only Symbol keys were allowed in keyword arguments.  In Ruby 2.7, keyword arguments can use non-Symbol keys.
 
@@ -237,6 +247,7 @@ bar("key" => 42, :sym => 43)
 {% endhighlight %}
 
 ### 2. Double splat with an empty hash (`**{}`)  passes no arguments
+{: #other-minor-changes-empty-hash }
 
 In Ruby 2.6 or before, passing `**empty_hash` passes an empty Hash as a positional argument.  In Ruby 2.7 or later, it passes no arguments.
 
@@ -269,6 +280,7 @@ foo(**empty_hash)
 {% endhighlight %}
 
 ### 3. The no-keyword-arguments syntax (`**nil`) is introduced
+{: #other-minor-changes-double-splat-nil }
 
 You can use `**nil` in a method definition to explicitly mark the method accepts no keyword arguments. Calling such methods with keyword arguments will result in an `ArgumentError`. (This is actually a new feature, not an incompatibility)
 
@@ -301,6 +313,7 @@ foo(k: 1) #=> ArgumentError: unknown keyword k
 {% endhighlight %}
 
 ## Why we're deprecating the automatic conversion
+{: #why-deprecated }
 
 The automatic conversion initially appeared to be a good idea, and worked well in many cases.  However, it had too many corner cases, and we have received many bug reports about the behavior.
 
