@@ -36,6 +36,7 @@ de Ruby 2.7 y anteriores, use `ruby2_keywords`.
 Vea más detalles en la sección "Manejando la delegación de argumentos."
 
 ## Casos típicos
+{: #typical-cases }
 
 Aquí están los casos más típicos.  Puede usar un operador doble splat
 (`**`) para pasar palabras clave en lugar de un diccionario.
@@ -86,6 +87,7 @@ bar({ k: 42 }) # => {:k=>42}
 {% endhighlight %}
 
 ## ¿Qué se ha vuelto obsoleto?
+{: #what-is-deprecated }
 
 En Ruby 2, los argumentos de palabra clave puede tratarse como el último
 argumento Hash posicional y un último argumento Hash posicional puede
@@ -134,6 +136,7 @@ foo(k: 1) #=> {:k=>1}
 {% endhighlight %}
 
 ## ¿Mí código se quebrará en Ruby 2.7?
+{: #break-on-ruby-2-7 }
 
 La respuesta corta es "posiblemente no".
 
@@ -154,8 +157,10 @@ argumento de la línea de ordenes `-W:no-deprecated` o añada a
 su código `Warning[:deprecated] = false`.
 
 ## Manejando la delegación de argumentos
+{: #delegation }
 
 ### Ruby 2.6 o anteriores
+{: #delegation-ruby-2-6-or-prior }
 
 En Ruby 2, puede escribir una delegación de un método aceptando un
 argumento `*rest`  y un argumento `&block`, y pasando ambos al
@@ -171,6 +176,7 @@ end
 {% endhighlight %}
 
 ### Ruby 3
+{: #delegation-ruby-3 }
 
 Necesita delegar explícitamente los argumntos de palabra clave.
 
@@ -191,6 +197,7 @@ end
 {% endhighlight %}
 
 ### Ruby 2.7
+{: #delegation-ruby-2-7 }
 
 Brevemente : use `Module#ruby2_keywords` y delege `*args, &block`.
 
@@ -208,6 +215,7 @@ De hecho, Ruby 2.7 permite el nuevo estilo de delegación en muchos casos.
 Sin embargo, hay un caso esquina conocido.  Ver la siguiente sección.
 
 ### Una delegación compatible que funciona en Ruby 2.6, 2.7 y Ruby 3
+{: #a-compatible-delegation }
 
 Brevemente: nuevamente use `Module#ruby2_keywords`
 
@@ -267,6 +275,7 @@ Ruby 2.6 alcance su fin-de-vida. En ese momento, recomendamos delegar
 argumentos de palabra reservada (ver el código para Ruby 3 antes presentado).
 
 ## Otros cambios menores
+{: #other-minor-changes }
 
 Hay otros cambios menores respecto a argumentos de palabra clave en
 Ruby 2.7.
@@ -326,6 +335,7 @@ bar("key" => 42, :sym => 43)
 {% endhighlight %}
 
 ### 2. Doble splat con un diccionario vacío (`**{}`) no pasa argumentos
+{: #other-minor-changes-empty-hash }
 
 En Ruby 2.6 y anteriores, al pasar `**empty_hash` se pasa un
 Hash vacío como argumento posicional. En Ruby 2.7 o posteriores,
@@ -407,6 +417,7 @@ foo(k: 1) #=> ArgumentError: unknown keyword k
 {% endhighlight %}
 
 ## Razones para despreciar la conversión automática
+{: #why-deprecated }
 
 La conversión automática inicialmente parecía una buena idea,
 y funcionó bien en muchos casos. Sin embargo, tenía muchos casos

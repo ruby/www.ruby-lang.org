@@ -29,6 +29,7 @@ Ruby 2.7 ve öncesinde bulunan yetkilendirme davranışını korumak istiyorsan�
 Daha fazla ayrıntı için aşağıdaki "Argüman yetkilendirmeyi ele alma" bölümüne bakın.
 
 ## Tipik durumlar
+{: #typical-cases }
 
 İşte en tipik durumlar.
 Hash yerine anahtar kelimeleri geçmek için çift splat operatörünü (`**`) kullanabilirsiniz.
@@ -75,6 +76,7 @@ bar({ k: 42 }) # => {:k=>42}
 {% endhighlight %}
 
 ## Sonu gelen hangisi?
+{: #what-is-deprecated }
 
 Ruby 2'de anahtar kelime argümanları son konumsal Hash argümanı olarak düşünülebilir ve son konumsal Hash argümanı anahtar kelime argümanları olarak düşünülebilir.
 
@@ -110,6 +112,7 @@ foo(k: 1) #=> {:k=>1}
 {% endhighlight %}
 
 ## Kodum Ruby 2.7'de patlayacak mı?
+{: #break-on-ruby-2-7 }
 
 Kısa cevap: "Patlamayabilir."
 
@@ -132,8 +135,10 @@ Eğer ileride kaldırılma uyarılarını kapatmak istiyorsanız, lütfen `-W:no
 </ins>
 
 ## Argüman yetkilendirmeyi ele alma
+{: #delegation }
 
 ### Ruby 2.6 ya da öncesi
+{: #delegation-ruby-2-6-or-prior }
 
 Ruby 2'de, bir `*rest` ve `&block` argümanı kabul ederek ve bu ikisini hedef metoda geçirerek bir yetkilendirme metodu yazabilirsiniz.
 Bu davranışta anahtar kelime argümanları da konumsal argümanlar ve anahtar kelime argümanları arasındaki çevrim ile dahili olarak ele alınırlar.
@@ -163,6 +168,7 @@ end
 {% endhighlight %}
 
 ### Ruby 2.7
+{: #delegation-ruby-2-7 }
 
 Kısaca: `Module#ruby2_keywords`'ü kullanın ve `*args, &block`'u yetkilendirin.
 
@@ -179,6 +185,7 @@ Fakat bilinen bir çıkmaz var.
 Bir sonraki bölüme bakın.
 
 ### Ruby 2.6, 2.7 ve Ruby 3'te çalışan uyumlu bir yetkilendirme
+{: #a-compatible-delegation }
 
 Kısaca: Yine, `Module#ruby2_keywords`'ü kullanın.
 
@@ -228,10 +235,12 @@ Eğer gerçekten taşınabilirlik konusunda endişeleniyorsanız, `ruby2_keyword
 Bu noktada, anahtar kelime argümanlarını harici olarak yetkilendirmenizi tavsiye ederiz (yukarıdaki Ruby 3 koduna bakın).
 
 ## Diğer küçük değişiklikler
+{: #other-minor-changes }
 
 Anahtar kelime argümanları konusunda Ruby 2.7'de üç küçük değişiklik var.
 
 ### 1. Sembol olmayan anahtarlar anahtar kelime argümanlarında kullanılabilir
+{: #other-minor-changes-non-symbol-keys }
 
 Ruby 2.6 ve öncesinde anahtar kelime argümanlarında sadece Sembol anahtarlara izin veriliyordu.
 Ruby 2.7'de anahtar kelime argümanları Sembol olmayan anahtarlar kullanabilir.
@@ -278,6 +287,7 @@ bar("key" => 42, :sym => 43)
 {% endhighlight %}
 
 ### 2. Boş bir hash (`**{}`) ile çift splat hiçbir argüman geçirmez
+{: #other-minor-changes-empty-hash }
 
 Ruby 2.6 ve öncesinde, `**empty_hash` geçirmek konumsal bir boş Hash argümanı geçirir.
 Ruby 2.7 ve sonrasında ise hiçbir argüman geçirmez.
@@ -313,6 +323,7 @@ foo(**empty_hash)
 {% endhighlight %}
 
 ### 3. Anahtar-kelime-argümanı-yok sözdizimi (`**nil`) tanıtıldı
+{: #other-minor-changes-double-splat-nil }
 
 Bir metodun hiçbir anahtar kelime argümanı kabul etmediğini harici olarak belirtmek için bu metodun tanımında `**nil` kullanabilirsiniz.
 Bu gibi metodları anahtar kelime argümanları ile çağırmak `ArgumentError`'a neden olacaktır.
@@ -349,6 +360,7 @@ foo(k: 1) #=> ArgumentError: unknown keyword k
 {% endhighlight %}
 
 ## Neden otomatik çevrimin sonunu getiriyoruz
+{: #why-deprecated }
 
 Otomatik çevrim başta iyi bir fikir gibiydi, ve çoğu durumda iyi çalıştı.
 Fakat çok fazla sivrilikler vardı ve davranış hakkında birçok hata raporu aldık.
