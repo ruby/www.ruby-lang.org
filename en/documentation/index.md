@@ -84,6 +84,9 @@ the [installation guide](installation/) for help on installing Ruby.
 [APIdock][18]
 : Ruby, Rails and RSpec documentation with users’ notes.
 
+[Ruby API][40]
+: Easily find and browse Ruby classes, modules and methods.
+
 ### Editors and IDEs
 
 For coding in Ruby, you can use the default editor of your operating
@@ -163,6 +166,7 @@ If you have questions about Ruby the
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
+[40]: https://rubyapi.org/
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
