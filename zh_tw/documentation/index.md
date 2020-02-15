@@ -67,6 +67,9 @@ lang: zh_tw
 [APIdock][18]
 : Ruby、Rails 與 RSpec 的文件，具有使用者的評論。
 
+[Ruby API][40]
+: 簡單搜尋瀏覽 Ruby 類別、模組及方法。
+
 ### 編輯器與整合開發環境
 
 您可以用操作系統內建的編輯器來撰寫 Ruby。為了更有效的寫程式，值得選個 Ruby 基本特性支援良好的編輯器（如：語法高亮、檔案瀏覽）或是有更進階功能的整合開發環境（如：程式碼補全、重構、支持測試等。）
@@ -139,6 +142,7 @@ lang: zh_tw
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
+[40]: https://rubyapi.org/
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
