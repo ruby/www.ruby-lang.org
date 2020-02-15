@@ -72,6 +72,9 @@ ruby -v
 [APIdock][18]
 : 带有用户评注的 Ruby、Rails 和 RSpec 文档。
 
+[Ruby API][40]
+: 简单搜索浏览 Ruby 类、模块和方法。
+
 ### 编辑器和集成开发环境
 
 您可以用操作系统中默认的编辑器来进行 Ruby 编程。不过，为了更高效地编程，建议选择一个支持 Ruby 基本特性（比如句法高亮，文件浏览）的代码编辑器，或者有高级特性（比如代码补全，重构，测试支持等）的集成开发环境。
@@ -143,5 +146,6 @@ ruby -v
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
+[40]: https://rubyapi.org/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
