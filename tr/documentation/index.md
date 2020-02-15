@@ -96,6 +96,9 @@ isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
 [APIdock][18]
 : Kullanıcı notları ile Ruby, Rails ve RSpec belgelendirmesi.
 
+[Ruby API][40]
+: Ruby sınıflarını, modüllerini ve metodlarını kolayca bulun ve gözden geçirin.
+
 ### Editörler ve IDE'ler
 
 Ruby'de kodlama için işletim sisteminizin varsayılan editörünü
@@ -176,6 +179,7 @@ olacaktır.
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
+[40]: https://rubyapi.org/
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
