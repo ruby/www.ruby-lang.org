@@ -96,7 +96,7 @@ isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
 [APIdock][18]
 : Kullanıcı notları ile Ruby, Rails ve RSpec belgelendirmesi.
 
-[Ruby API][40]
+[RubyAPI.org][rubyapi-org]
 : Ruby sınıflarını, modüllerini ve metodlarını kolayca bulun ve gözden geçirin.
 
 ### Editörler ve IDE'ler
@@ -158,6 +158,7 @@ olacaktır.
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -179,7 +180,6 @@ olacaktır.
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
-[40]: https://rubyapi.org/
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
