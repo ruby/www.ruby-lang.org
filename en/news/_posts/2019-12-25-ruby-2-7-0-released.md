@@ -25,7 +25,7 @@ is introduced as an experimental feature.
 
 It can traverse a given object and assign its value if it matches a pattern.
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -40,7 +40,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 For more details, please see
 [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
@@ -91,12 +91,12 @@ Only the changes are as follows.
   add a double splat operator to avoid the warning and ensure
   correct behavior in Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # warned
   def foo(**kw);    end; foo({key: 42})   # warned
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * When a method call passes keywords to a method that accepts keywords,
   but it does not pass enough required positional arguments, the
@@ -104,12 +104,12 @@ Only the changes are as follows.
   a warning is emitted.  Pass the argument as a hash instead of keywords
   to avoid the warning and ensure correct behavior in Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * When a method accepts specific keywords but not a keyword splat, and
   a hash or keywords splat is passed to the method that includes both
@@ -117,40 +117,40 @@ Only the changes are as follows.
   a warning will be emitted.  You will need to update the calling code
   to pass separate hashes to ensure correct behavior in Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * If a method does not accept keywords, and is called with keywords,
   the keywords are still treated as a positional hash, with no warning.
   This behavior will continue to work in Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * Non-symbols are allowed as keyword argument keys if the method accepts
   arbitrary keywords.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * `**nil` is allowed in method definitions to explicitly mark
   that the method accepts no keywords. Calling such a method with keywords
   will result in an ArgumentError.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * Passing an empty keyword splat to a method that does not accept keywords
   no longer passes an empty hash, unless the empty hash is necessary for
@@ -158,12 +158,12 @@ Only the changes are as follows.
   Remove the double splat to continue passing a positional hash.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 If you want to disable the deprecation warnings, please use a command-line argument `-W:no-deprecated` or add `Warning[:deprecated] = false` to your code.
 
@@ -176,40 +176,40 @@ If you want to disable the deprecation warnings, please use a command-line argum
   as useful as an endless range, but would be good for DSL purposes.
   [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * `Enumerable#tally` is added.  It counts the occurrence of each element.
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * Calling a private method with a literal `self` as the receiver
   is now allowed.
   [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297),
   [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * `Enumerator::Lazy#eager` is added.
   It generates a non-lazy enumerator from a lazy enumerator.
   [[Feature #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## Performance improvements
 
