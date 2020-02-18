@@ -20,13 +20,13 @@ lang: zh_cn
 
 在函数式编程中非常常用的模式匹配功能，作为实验性功能被加入了。[[功能 #14912]](https://bugs.ruby-lang.org/issues/14912) 它可以遍历一个对象，并在其满足某一模式时进行赋值。
 
-{% highlight ruby %}
+```ruby
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-{% endhighlight %}
+```
 
 关于更多信息，请查阅 [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)。
 
@@ -55,60 +55,60 @@ end
 
 * 当方法传入一个 Hash 作为最后一个参数，或者传入的参数没有关键词的时候，会抛出警告。如果需要继续将其视为关键词参数，则需要加入两个星号来避免警告并确保在 Ruby 3 中行为正常。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # warned
   def foo(**kw);    end; foo({key: 42})   # warned
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * 当方法传入一个 Hash 到一个接受关键词参数的方法中，但是没有传递足够的位置参数，关键词参数会被视为最后一个位置参数，并抛出一个警告。请将参数包装为 Hash 对象来避免警告并确保在 Ruby 3 中行为正常。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * 当方法接受关键词参数传入，但不会进行关键词分割（splat），且传入同时含有 Symbol 和非 Symbol 的 key，那么 Hash 会被分割，但是会抛出警告。你需要在调用时传入两个分开的 Hash 来确保在 Ruby 3 中行为正常。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * 当一个方法不接受关键词，但是调用时传入了关键词，关键词会被视为位置参数，不会有警告抛出。这一行为将会在 Ruby 3 中继续工作。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * 如果方法支持任意参数传入，那么非 Symbol 也会被允许作为关键词参数传入。[[功能 #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * `**nil` 被允许使用在方法定义中，用来标记方法不接受关键词参数。以关键词参数调用这些方法会抛出 ArgumentError [[功能 #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * 将空的关键词分割（splat）传入一个不接受关键词的方法不会继续被当作空 Hash 处理，除非空哈希被作为一个必要参数，并且这种情况会抛出警告。请移除双星号来将 Hash 作为位置参数传入。[[功能 #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 如果你希望禁用废弃警告，请使用命令行参数 `-W:no-deprecated`，或把 `Warning[:deprecated] = false` 加入你的代码。
 
@@ -118,35 +118,35 @@ end
 
 * 无头范围实验性地加入了。它可能尽管没有无限范围那么有用，但它对开发 DSL 是非常有用的。[[功能 #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * 新增了 `Enumerable#tally`，它会计算每个元素出现的次数。
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * 允许在 `self` 上调用私有方法 [[功能 #11297]](https://bugs.ruby-lang.org/issues/11297) [[功能 #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * 新增 `Enumerator::Lazy#eager`。它会产生一个非懒惰的迭代器。[[功能 #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## 性能改进
 

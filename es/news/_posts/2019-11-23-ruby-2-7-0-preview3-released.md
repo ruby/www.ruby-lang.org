@@ -47,7 +47,7 @@ experimental.
 
 Puede recorrer un objeto dado y asignar su valor si concuerda con un patrón.
 
-{% highlight ruby %}
+```ruby
 json ='{
 	"nombre": "Alice",
 	"edad": 30,
@@ -63,7 +63,7 @@ in {nombre: "Alice", hijos: [{nombre: "Bob", edad: edad}]}
   p edad
   ...
 end
-{% endhighlight %}
+```
 
 Puede ver más detalles en [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
 
@@ -100,12 +100,12 @@ argumentos posicionales, y tal conversión se eliminará en Ruby 3.
   operador doble splat al llamar para evitar la advertencia y asegurar el
   comportamiento correcto en Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # advertencia
   def foo(**kw);    end; foo({key: 42})   # advertencia
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * Si la llamada a un método pasa palabras clave a un método que acepta
   palabras clave, pero no pasa suficientes argumentos posicionales
@@ -115,12 +115,12 @@ argumentos posicionales, y tal conversión se eliminará en Ruby 3.
   Pase el argumento como un diccionario en lugar de palabras clave para
   evitar la advertencia y asegurar el comportamiento correcto en Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * Si un método acepta palabras clave especificas, pero no una palabra
   clave splat, y si en la llamada al método se pasa un diccionario
@@ -129,41 +129,41 @@ argumentos posicionales, y tal conversión se eliminará en Ruby 3.
   Tendrá que actualizar el código que hace la llamada para pasar diccionarios
   separados y asegurar el comportamiento correcto en Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * Si un método no acepta palabras clave, y se llama con palabras clave,
   las palabras clave se tratarán como un diccionario posicional, sin
   advetencias.  Este comportamiento seguirá operando en Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * Las cadenas que no sean símbolos se aceptarán como llaves en
   argumentos con palabras clave si el método acepta palabras clave
   arbitrarias.
   [[Característica #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * `**nil` se permite en la definición de métodos para marcar
   explicitamente que el método no acepta palabras clave.  Llamar
   a un método así con palabras clave resultará en un `ArgumentError`.
   [[Característica #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * Si se pasa una palabra clave splat vacía a un método que no acepta
   palabras clave, ya no pasará un diccionario vacío, a menos que el
@@ -172,12 +172,12 @@ argumentos posicionales, y tal conversión se eliminará en Ruby 3.
   pasando un diccionario posicional.
   [[Característica #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 NOTA: Muchos mensajes de obsolecencia por incompatibilidad de
 argumentos de palabra clave han sido señalados de ser muy extensos.
@@ -219,23 +219,23 @@ la versión oficial.
   [[Característica #11297]](https://bugs.ruby-lang.org/issues/11297),
   [[Característica #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * Se añade `Enumerator::Lazy#eager`.  Que genera un enumerador no-perezoso
   a partir de un enumerador perezoso.
   [[Característica #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## Mejoras en desempeño
 

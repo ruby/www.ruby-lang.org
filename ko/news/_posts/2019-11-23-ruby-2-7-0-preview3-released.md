@@ -38,7 +38,7 @@ preview3은 키워드 인자의 호환성 문제를 확인하기 위해서 릴�
 
 이는 주어진 객체를 순회하다가 패턴이 일치하는 경우 그 값을 대입합니다.
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -53,7 +53,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 더 자세한 설명은 [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)을 확인해 주세요.
 
@@ -85,23 +85,23 @@ inspect 결과에 색이 추가되었습니다.
   계속 키워드로 취급되도록 하려면, 이중 스플랫(double splat) 연산자를 추가해서
   경고를 피하고 루비 3에서 올바르게 동작하도록 하세요.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # warned
   def foo(**kw);    end; foo({key: 42})   # warned
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * 메서드 호출이 키워드를 넘기고 호출된 메서드도 키워드를 받을 때,
   필요한 위치 인자가 부족한 경우 키워드들을 마지막 위치 인자로 간주하고 경고가 발생합니다.
   경고를 피하고 루비 3에서 올바르게 동작하도록 하려면 인자를 키워드 대신 해시로 넘기세요.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * 메서드가 키워드 스플랫(splat)은 받지 않고 특정 키워드는 받을 때,
   심볼과 심볼이 아닌 키를 모두 포함한 해시 또는 키워드 스플랫을
@@ -109,50 +109,50 @@ inspect 결과에 색이 추가되었습니다.
   루비 3에서 올바르게 동작하려면 메서드를 호출하는 코드가 별도의 해시를 넘기도록
   수정해야 합니다.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * 메서드가 키워드를 받지 않는데 키워드와 함께 호출되면,
   키워드는 위치 인자에 해당하는 해시로 인식되고, 경고가 발생하지 않습니다.
   이 동작은 루비 3에서도 유지될 것입니다.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * 메서드가 임의의 키워드를 받으면 심볼이 아닌 키도 키워드 인자로 허용됩니다.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * 메서드가 키워드를 받지 않음을 명시하기 위해 메서드 정의에서 `**nil`을 사용할 수 있습니다.
   이러한 메서드를 키워드와 함께 호출하면 ArgumentError가 발생합니다.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * 키워드를 받지 않는 메서드에 빈 키워드 스플랫을 넘겼을 때, 더 이상 빈 해시를 넘기지 않습니다.
   파라미터가 필요한 경우 빈 해시를 넘기지만, 경고가 발생합니다.
   위치 인자로서 해시를 넘기려면 이중 스플랫(double splat)을 제거하세요.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 NOTE: 키워드 인자 비호환으로 인한 너무 많은 폐기 경고가 번잡하다는 의견이 있습니다.
 현재 두 가지 해결책을 의논중입니다. 하나는 기본 설정을 폐기 경고를 비활성화하는
@@ -174,39 +174,39 @@ NOTE: 키워드 인자 비호환으로 인한 너무 많은 폐기 경고가 번
   종료 지정이 없는 범위 연산자처럼 유용하지 않을 수도 있습니다만, DSL 용도로는 유용할 것입니다.
   [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * `Enumerable#tally`가 추가됩니다. 이는 각 요소가 몇 번 출현했는지를 셉니다.
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * `self`에 private 메서드를 호출하는 것이 허용됩니다.
   [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297),
   [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * `Enumerator::Lazy#eager`가 추가됩니다.
   지연 열거자(lazy enumerator)에서 지연 없는 열거자를 생성합니다.
   [[Feature #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## 성능 향상
 

@@ -23,7 +23,7 @@ lang: zh_tw
 
 模式匹配可以遍歷傳入的物件，如果找到匹配的模式就賦值給指定的變數。
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -38,7 +38,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 進一步了解請參考 [Ruby 2.7 的新功能：模式匹配](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)。
 
@@ -75,63 +75,63 @@ end
 
 * 當一個接受參數的方法，呼叫時傳入的最後一個參數為 Hash，但沒有傳入所須的關鍵字參數，則會出現警告訊息。 要繼續將 Hash 作為關鍵字使用的話，請使用 double splat 運算子來確保程式可在 Ruby 3 正在作動並避免警告訊息。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # warned
   def foo(**kw);    end; foo({key: 42})   # warned
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * 當接受關鍵字參數的方法傳入關鍵字，但沒有傳入足夠的依序參數時，關鍵字會被視作最後一個依序參數並出現警告訊息。請用 Hash 傳入參數而不是關鍵字確保程式可在 Ruby 3 正在作動並避免警告訊息。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * 當方法接受特定關鍵字，但不接受 keyword splat，傳入一個有符號及非符號為鍵的 Hash 或 keyword splat 時，Hash 仍會被分解並報一個警告訊息。請分別傳入 Hash 以確保程式可在 Ruby 3 正常作動。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * 若方法不接受關鍵字但呼叫時傳入關鍵字，則關鍵字會被依序視為 Hash 且不會出警告訊息。此行為在 Ruby 3 會繼續作動。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * 方法接受任意關鍵字時，可以使用非符號作為關鍵字。
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * 可以用 `**nil` 將方法標記為不接受任何關鍵字。用關鍵字呼叫這樣的方法會報一個 ArgumentError 錯誤。
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * 給一個不接受關鍵字的方法傳入空的 keyword splat 時，參數不再視為空 Hsah。當空 Hash 是一個必要的參數時，則會報一個警告訊息。請移除 double splat 來繼續傳入一個依序的 Hash。
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 如想不要顯示警告訊息，請使用命令行選項 `-W:no-deprecated`，或是添加 `Warning[:deprecated] = false` 這行程式碼。
 
@@ -143,38 +143,38 @@ end
 * 引入了實驗性質的無起始範圍，可能不像無終止範圍實用，但在實作 DSL 的場景很有用。
   [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * 新增 `Enumerable#tally`，可以算出元素出現的次數
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * 現在可從 `self` 呼叫私有方法
   [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297)、
   [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * 新增 `Enumerator::Lazy#eager`。從惰性求值的迭代器上產生一般的迭代器。
   [[Feature #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## 效能改進
 

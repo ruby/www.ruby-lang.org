@@ -28,7 +28,7 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
 関数型言語で広く使われているパターンマッチという機能が実験的に導入されました。
 渡されたオブジェクトの構造がパターンと一致するかどうかを調べ、一致した場合にその値を変数に代入するといったことができるようになります。 [[Feature #14912]](https://bugs.ruby-lang.org/issues/14912)
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -43,7 +43,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 詳細については [Pattern matching - New feature in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7) を参照してください。
 
@@ -63,60 +63,60 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * メソッド呼び出しにおいて最後の引数としてハッシュオブジェクトを渡し、他にキーワード引数を渡さず、かつ、呼ばれたメソッドがキーワード引数を受け取るとき、警告が表示されます。キーワード引数として扱いたい場合は、明示的にdouble splat演算子（`**`）を足すことで警告を回避できます。このように書けばRuby 3でも同じ意味で動きます。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # warned
   def foo(**kw);    end; foo({key: 42})   # warned
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * キーワード引数を受け取るメソッドにキーワード引数を渡すが、必須引数が不足している場合に、キーワード引数は最後の必須引数として解釈され、警告が表示されます。警告を回避するには、キーワードではなく明示的にハッシュとして渡してください。このように書けばRuby 3でも同じ意味で動きます。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * メソッドがキーワード引数を受け取るがdouble splat引数は受け取らず、かつ、メソッド呼び出しでSymbolと非Symbolの混ざったハッシュを渡す（もしくはハッシュをdouble splatでキーワードとして渡す）場合、ハッシュは分割され、警告が表示されます。Ruby 3でもハッシュの分割を続けたい場合は、呼び出し側で明示的に分けるようにしてください。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * メソッドがキーワード引数を受け取らず、呼び出し側でキーワード引数を渡した場合、ハッシュの引数としてみなされる挙動は変わらず、警告も表示されません。Ruby 3でもこのコードは動き続ける予定です。
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * メソッドが任意のキーワードを受け取る場合、非Symbolがキーワード引数のキーとして許容されるようになります。[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * メソッド定義で<code>**nil</code>と書くことで、このメソッドがキーワードを受け取らないことを明示できるようになりました。このようなメソッドをキーワード引数付きで呼び出すとArgumentErrorになります。[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * キーワード引数を受け取らないメソッドに対して空のハッシュをdouble splatで渡すとき、空のハッシュが渡る挙動はなくなりました。ただし、必須引数が不足する場合は空のハッシュが渡され、警告が表示されます。ハッシュの引数として渡したい場合はdouble splatをつけないようにしてください。
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 注意：キーワード引数の非互換に関する警告が大量すぎるという指摘があります。現在、廃止に関する警告をデフォルトでオフにする ([#16345](https://bugs.ruby-lang.org/issues/16345)) か、一度警告した箇所を二度は警告しない ([#16289](https://bugs.ruby-lang.org/issues/16289)) という2つの解決方法が議論されています。最終決定はなされていませんが、正式リリースまでには修正される予定です。
 
@@ -128,35 +128,35 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 * 開始値省略範囲式が試験的に導入されました。これは終了値省略範囲式ほど有用ではないと思われますが、しかし DSL のような目的には役立つかもしれません。 [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * `Enumerable#tally` が追加されました。各要素の出現回数を数えます。
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * レシーバを`self`としてprivateメソッドを呼び出すことが許容されるようになりました。 [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297) [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * `Enumerator::Lazy#eager` が追加されました。lazyなEnumeratorを非lazyなEnumeratorに変換します。
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## パフォーマンスの改善
 

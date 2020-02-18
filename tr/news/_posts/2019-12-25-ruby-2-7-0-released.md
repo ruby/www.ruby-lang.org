@@ -23,7 +23,7 @@ Desen eşleştirme deneysel bir özellik olarak eklenmiştir, bu özellik fonksi
 
 Bu özellik, verilen bir nesne üzerinde yürüyebilir ve eğer bu nesne bir desenle eşleşirse, bu nesnenin değerini atayabilir.
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -38,7 +38,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 Daha fazla ayrıntı için lütfen [Desen eşleştirme - Ruby 2.7'de yeni bir özellik](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)'e bakın.
 
@@ -77,69 +77,69 @@ Sadece değişiklikler aşağıdaki gibidir.
 * Eğer bir metod çağrısı son argümanı olarak bir Hash geçirirse, ve hiç anahtar kelime geçirmezse, ve çağrılan metod anahtar kelimeler kabul ediyorsa, bir uyarı yayınlanır.
   Hash'in anahtar kelime olarak anlaşılmasını sağlamak, uyarıdan kaçınmak ve Ruby 3'te doğru davranıştan emin olmak için çift yıldız operatörü ekleyin.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # uyarı yayınlanır
   def foo(**kw);    end; foo({key: 42})   # uyarı yayınlanır
   def foo(key: 42); end; foo(**{key: 42}) # iyi
   def foo(**kw);    end; foo(**{key: 42}) # iyi
-  {% endhighlight %}
+  ```
 
 * Eğer bir metod çağrısı, anahtar kelimeler kabul eden bir metoda anahtar kelimeler geçirirse fakat yeterli sayıda zorunlu konumsal argüman geçirmezse, anahtar kelimeler gerekli son konumsal argüman olarak düşünülür ve bir uyarı yayınlanır.
   Uyarıdan kaçınmak ve Ruby 3'te doğru davranıştan emin olmak için argümanı anahtar kelimeler olarak değil de, hash olarak geçirin.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # uyarı yayınlanır
   def foo(h, key: 42); end; foo(key: 42)   # uyarı yayınlanır
   def foo(h, **kw); end; foo({key: 42})    # iyi
   def foo(h, key: 42); end; foo({key: 42}) # iyi
-  {% endhighlight %}
+  ```
 
 * Bir metod belirli anahtar kelimeler bekliyor fakat yıldızlı anahtar kelime beklemiyorsa, ve metoda bir hash ya da hem Symbol hem de Symbol olmayan anahtarları içeren yıldızlı anahtar kelimeler geçirildiyse, hash ayrılmaya devam eder, ve bir uyarı yayınlanır.
   Ruby 3'te doğru davranıştan emin olmak için çağıran kodu ayrı hash'ler geçirecek şekilde güncellemeniz gerekiyor.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # uyarı yayınlanır
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # uyarı yayınlanır
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # iyi
-  {% endhighlight %}
+  ```
 
 * Eğer bir metod anahtar kelime kabul etmiyor ve anahtar kelimeler ile çağrıldıysa, anahtar kelimeler yine konumsal hash olarak düşünülür, herhangi bir uyarı yayınlanmaz.
   Bu davranış Ruby 3'te çalışmaya devam edecek.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # iyi
-  {% endhighlight %}
+  ```
 
 * Eğer metod keyfi anahtar kelimeler kabul ediyorsa, anahtar kelime argüman anahtarları olarak sembol olmayanlara izin verilir.
   [[Özellik #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * Harici olarak metodun anahtar kelime almadığını belirtmek için metod tanımlarında `**nil` kullanılabilir.
   Böyle bir metodu anahtar kelimeler ile çağırmak ArgumentError ile sonuçlanır.
   [[Özellik #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # iyi
   def foo(h, **nil); end; foo({"str" => 1}) # iyi
-  {% endhighlight %}
+  ```
 
 * Anahtar kelime almayan bir metoda boş bir anahtar kelime yıldızı geçirmek artık boş bir hash geçirmiyor.
   Ancak gerekli bir parametre için boş bir hash gerekliyse, bir uyarı yayınlanır.
   Konumsal bir hash geçirmeye devam etmek için çift yıldızı kaldırın.
   [[Özellik #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} ve uyarı
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 İleride kaldırılma uyarılarını kapatmak için lütfen `-W:no-deprecated` komut satırı argümanını kullanın ya da `Warning[:deprecated] = false` ifadesini kodunuza ekleyin.
 
@@ -152,39 +152,39 @@ Sadece değişiklikler aşağıdaki gibidir.
   Bu, sonsuz aralık kadar kullanışlı olmayabilir, fakat DSL kullanımları için iyi olacaktır.
   [[Özellik #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # ary[0..3] ile aynı
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * `Enumerable#tally` eklendi.
   Bu metod, her öğenin kaç kere geçtiğini sayar.
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * Alıcı olarak bir `self` kalıbı ile özel bir metodu çağırmaya artık izin verilmiyor.
   [[Özellik #11297]](https://bugs.ruby-lang.org/issues/11297), [[Özellik #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * `Enumerator::Lazy#eager` eklendi.
   Bu, tembel bir numaralandırıcıdan tembel olmayan bir numaralandırıcı oluşturur.
   [[Özellik #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## Performans iyileştirmeleri
 

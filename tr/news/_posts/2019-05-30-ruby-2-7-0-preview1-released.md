@@ -32,13 +32,13 @@ Desen eşleştirme deneysel bir özellik olarak eklenmiştir, bu özellik fonksi
 [#14912](https://bugs.ruby-lang.org/issues/14912)
 Bu özellik, verilen bir nesne üzerinde yürüyebilir ve eğer bu nesne bir desenle eşleşirse, bu nesnenin değerini atayabilir.
 
-{% highlight ruby %}
+```ruby
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-{% endhighlight %}
+```
 
 Daha fazla ayrıntı için lütfen [Desen eşleştirme - Ruby 2.7'de yeni bir özellik](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)'e bakın.
 
