@@ -40,7 +40,7 @@ Terima kasih juga kepada organisasi-organisasi yang telah mendukung kami:
  * [GlobalSign][globalsign] (sertifikasi SSL)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], pemantauan *server*)
- * [![CloudCore][cloudcore-logo] CloudCore][cloudcore] (*build server*)
+ * [CloudCore][cloudcore] (*build server*)
  * [Ruby no Kai][rubynokai] (*build server*)
 
 
@@ -59,5 +59,4 @@ Terima kasih juga kepada organisasi-organisasi yang telah mendukung kami:
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
 [cloudcore]: http://www.cloudcore.jp/?utm_source=ad&utm_medium=ad&utm_content=dev&utm_campaign=vps
-[cloudcore-logo]: http://www.cloudcore.jp/develop/links/images/74x36_white.gif
 [rubynokai]: http://ruby-no-kai.org/

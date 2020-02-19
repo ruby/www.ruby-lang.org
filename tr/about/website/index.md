@@ -37,7 +37,7 @@ Ayrıca bizi destekleyen organizasyonlara çok teşekkür ederiz:
  * [GlobalSign][globalsign] (SSL sertifikası)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], sunucu izleme)
- * [![CloudCore][cloudcore-logo] CloudCore][cloudcore] (inşa sunucusu)
+ * [CloudCore][cloudcore] (inşa sunucusu)
  * [Ruby no Kai][rubynokai] (inşa sunucusu)
 
 
@@ -56,5 +56,4 @@ Ayrıca bizi destekleyen organizasyonlara çok teşekkür ederiz:
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
 [cloudcore]: http://www.cloudcore.jp/?utm_source=ad&utm_medium=ad&utm_content=dev&utm_campaign=vps
-[cloudcore-logo]: http://www.cloudcore.jp/develop/links/images/74x36_white.gif
 [rubynokai]: http://ruby-no-kai.org/
