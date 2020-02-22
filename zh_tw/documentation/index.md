@@ -67,7 +67,7 @@ lang: zh_tw
 [APIdock][18]
 : Ruby、Rails 與 RSpec 的文件，具有使用者的評論。
 
-[Ruby API][40]
+[RubyAPI.org][rubyapi-org]
 : 簡單搜尋瀏覽 Ruby 類別、模組及方法。
 
 ### 編輯器與整合開發環境
@@ -121,6 +121,7 @@ lang: zh_tw
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -142,7 +143,6 @@ lang: zh_tw
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
-[40]: https://rubyapi.org/
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/

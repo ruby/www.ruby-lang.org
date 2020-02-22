@@ -72,7 +72,7 @@ ruby -v
 [APIdock][18]
 : 带有用户评注的 Ruby、Rails 和 RSpec 文档。
 
-[Ruby API][40]
+[RubyAPI.org][rubyapi-org]
 : 简单搜索浏览 Ruby 类、模块和方法。
 
 ### 编辑器和集成开发环境
@@ -125,6 +125,7 @@ ruby -v
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -146,6 +147,5 @@ ruby -v
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
-[40]: https://rubyapi.org/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/

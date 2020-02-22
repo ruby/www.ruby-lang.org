@@ -56,7 +56,7 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 : Ruby gemsやGitHubでホスティングされてるRubyプロジェクトのリファレンスが見れる
   完結型のリファレンスサイト。
 
-[Ruby API (英語)](https://rubyapi.org)
+[RubyAPI.org (英語)][rubyapi-org]
 : こちらは Ruby のソースコードから生成したのリファレンス、コアクラスやモジュールのリファレンスがあります。
 
 ### 旧版
@@ -139,6 +139,7 @@ Posted by Shugo Maeda on 26 May 2006
 [man-146-ja]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
 [man-146-en]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
 
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
