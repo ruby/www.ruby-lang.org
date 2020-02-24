@@ -96,6 +96,9 @@ ruby -v
 : Ruby, Rails и RSpec документация с комментариями и заметками
   пользователей.
 
+[RubyAPI.org][rubyapi-org]
+: Легко находите и просматривайте классы, модули и методы Ruby.
+
 ### Редакторы и среды разработки
 
 Для программирования на Ruby вы можете использовать стандартный
@@ -150,6 +153,7 @@ ruby -v
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
