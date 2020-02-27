@@ -50,9 +50,9 @@ lang: ja
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-* **スナップショット:**
-  * [安定版のスナップショット]({{ site.data.downloads.stable_snapshot.url.gz }}):
-    最も新しい現在の安定版ブランチのスナップショットのtarballです。
+* **スナップショット:**{% for snapshot in site.data.downloads.stable_snapshots %}
+  * [{{ snapshot.branch }}ブランチの安定版スナップショット]({{ snapshot.url.gz }}):
+    現在の{{ snapshot.branch }}ブランチのスナップショットのtarballです。{% endfor %}
   * [ナイトリースナップショット]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     毎晩Gitから作成しているtarballです。
     バグやその他の問題があるかもしれません。利用する場合は自己責任でお願いします！

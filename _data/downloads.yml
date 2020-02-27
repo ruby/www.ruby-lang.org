@@ -28,9 +28,29 @@ stable_snapshot:
     gz: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.zip
 
+stable_snapshots:
+
+  - branch: ruby_2_7
+    url:
+      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_7.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_7.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_7.zip
+
+  - branch: ruby_2_6
+    url:
+      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.zip
+
+  - branch: ruby_2_5
+    url:
+      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_5.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_5.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_5.zip
+
 nightly_snapshot:
 
   url:
-    bz2: https://cache.ruby-lang.org/pub/ruby/snapshot.tar.bz2
-    gz: https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz
-    zip: https://cache.ruby-lang.org/pub/ruby/snapshot.zip
+    gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.zip
