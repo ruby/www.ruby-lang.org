@@ -57,7 +57,7 @@ salah satu kakas bantu pihak ketiga yang telah disebutkan sebelumnya. Itu mungki
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Ini adalah *tarball* dari *snapshot branch* yang stabil saat ini.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Ini adalah *tarball* dari apapun yang ada di Git, *nightly*.

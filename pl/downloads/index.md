@@ -42,7 +42,7 @@ skorzystanie z narzędzi osób trzecich wspomnianych powyżej. Mogą ci pomóc.
   Ruby {{ site.data.downloads.stable[0] }}
 
 * **Migawki:**
-  * [Stabilna migawka]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stabilna migawka]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     To jest tarball ostatniej migawki stabilnej obecnego stabilnego brancha.
   * [Nocna migawka]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     To jest tarball tego co jest w Git, przygotowany

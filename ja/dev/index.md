@@ -27,8 +27,10 @@ Rubyの不具合や機能追加の要望などは[Redmine(問題追跡システ�
 開発中のソースコードを取得できます。
 詳しくは[リポジトリガイド](/ja/documentation/repository-guide)のページを参照してください。
 
-また、毎日、日本時間の午前4時頃に、開発版系列(現在はRuby 2.7)および安定版系列(現在はRuby
-2.6)のソースコードのスナップショットを作成しています。 それぞれ、以下のリンクからダウンロードできます。
+また、毎日、日本時間の午後10時頃に、開発版系列(現在はRuby
+{{ site.data.downloads.nightly_snapshot.version }})および安定版系列(現在はRuby
+{{ site.data.downloads.stable_snapshots[0].version }})のソースコードのスナップショットを作成しています。
+それぞれ、以下のリンクからダウンロードできます。
 
 * [開発版スナップショット][3]
 * [安定版スナップショット][4]
@@ -50,4 +52,4 @@ Posted by usa on 13 Aug 2008
 [1]: https://bugs.ruby-lang.org/projects/ruby/wiki
 [2]: https://bugs.ruby-lang.org/
 [3]: {{ site.data.downloads.nightly_snapshot.url.gz }}
-[4]: {{ site.data.downloads.stable_snapshot.url.gz }}
+[4]: {{ site.data.downloads.stable_snapshots[0].url.gz }}

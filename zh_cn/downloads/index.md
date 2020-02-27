@@ -49,7 +49,7 @@ lang: zh_cn
 {% endif %}
 
 * **快照：**
-  * [稳定版快照]({{ site.data.downloads.stable_snapshot.url.gz }})：当前稳定版 tarball 的最新快照
+  * [稳定版快照]({{ site.data.downloads.stable_snapshots[0].url.gz }})：当前稳定版 tarball 的最新快照
   * [每日构建版快照]({{ site.data.downloads.nightly_snapshot.url.gz }})：这是 Git 上的 tarball，每晚构建。可能有问题或 bug，谨慎使用！
 
 更多有关特定发行版本、特别是老旧版本的资讯，请参阅[版本页面][releases]。

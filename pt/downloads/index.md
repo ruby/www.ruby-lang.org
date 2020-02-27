@@ -53,7 +53,7 @@ mencionadas acima. Elas podem te ajudar.
 {% endif %}
 
 * **Snapshots:**
-  * [Snapshot Estável]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Snapshot Estável]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Este é um arquivo compactado com o snapshot mais recente do branch estável.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Este é um arquivo compactado do que está no Git, criado todas as noites.

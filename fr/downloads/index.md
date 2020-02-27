@@ -61,7 +61,7 @@ peut-être vous aider.
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Archive de la dernière version publiée à partir de la branche stable courante.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Archive construite chaque nuit à partir du code le plus récent présent sur Git.

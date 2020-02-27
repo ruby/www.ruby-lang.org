@@ -69,7 +69,7 @@ Bunlar size yardımcı olabilir.
 {% endif %}
 
 * **Anlıklar:**
-  * [Kararlı Anlık]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Kararlı Anlık]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Bu, şu anki kararlı dalın son anlığının bir tar arşividir.
     [Gecelik Anlık]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Bu, Git'de her ne varsa onun bir tar arşividir, gecelik olarak yapılır.
