@@ -167,7 +167,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
   * `--jit-max-cache` オプションのデフォルト値が 1,000 から 100 に変更されました。
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s` `nil.to_s` は常にfrozenな文字列を返すようになりました。返された文字列は常に同じオブジェクトとなります。 [Experimental]  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~ 撤回されました
+* ~~`Symbol#to_s`~~ (撤回されました), `Module#name`, `true.to_s`, `false.to_s` `nil.to_s` は常にfrozenな文字列を返すようになりました。返された文字列は常に同じオブジェクトとなります。 [Experimental]  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
 
 * `CGI.escapeHTML` のパフォーマンスが改善されました。 [GH-2226](https://github.com/ruby/ruby/pull/2226)
 
