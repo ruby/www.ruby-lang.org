@@ -247,11 +247,11 @@ end
 
   * Значение по умолчанию для `--jit-max-cache` изменено 1,000 до 100.
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`,
+* ~~`Symbol#to_s`~~ (reverted), `Module#name`, `true.to_s`, `false.to_s`,
   и `nil.to_s` теперь всегда возвращают морозную строку.
   Возвращенная строка всегда одинакова для данного объекта.
   [Экспериментальный]
-  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~ reverted
+  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
 
 * Производительность `CGI.escapeHTML` улучшена.
   [GH-2226](https://github.com/ruby/ruby/pull/2226)
