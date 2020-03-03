@@ -3,7 +3,7 @@ ruby: Ruby
 slogan: лучший друг программиста
 
 sitelinks:
-- text: Home
+- text: Главная
   url: /ru
   home: true
 - text: Скачать
