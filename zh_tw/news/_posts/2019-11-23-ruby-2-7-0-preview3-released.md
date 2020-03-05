@@ -184,7 +184,7 @@ end
 
   * `--jit-max-cache` 的預設值從 1,000 調整至 100。
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s` 和 `nil.to_s` 現在始終返回一個凍結（frozen）字串。返回的字串始終和給定的物件相等。 [實驗性質] [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~ 已回復
+* ~~`Symbol#to_s`~~ (已回復), `Module#name`, `true.to_s`, `false.to_s` 和 `nil.to_s` 現在始終返回一個凍結（frozen）字串。返回的字串始終和給定的物件相等。 [實驗性質] [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
 
 * `CGI.escapeHTML` 的效能得到了提升。[GH-2226](https://github.com/ruby/ruby/pull/2226)
 
