@@ -222,9 +222,9 @@ NOTE: 키워드 인자 비호환으로 인한 너무 많은 폐기 경고가 번
 
   * `--jit-max-cache`의 기본값이 1,000에서 100으로 변경됩니다.
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`, `nil.to_s`가 이제 항상 얼린 문자열을 반환합니다.
+* ~~`Symbol#to_s`~~ (취소되었습니다.), `Module#name`, `true.to_s`, `false.to_s`, `nil.to_s`가 이제 항상 얼린 문자열을 반환합니다.
   주어진 객체에 대해 항상 동일한 문자열이 반환됩니다. [실험적]
-  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)~~ 취소되었습니다.
+  [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
 
 * `CGI.escapeHTML`의 성능이 향상되었습니다. [GH-2226](https://github.com/ruby/ruby/pull/2226)
 

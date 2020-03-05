@@ -252,12 +252,11 @@ la versión oficial.
 
   * El valor por omisión de `--jit-max-cache` cambió de 1,000 a 100
 
-* ~~`Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s`
+* ~~`Symbol#to_s`~~ (revertido), `Module#name`, `true.to_s`, `false.to_s`
   y `nil.to_s` ahora siempre retornan una cadena congelada.
   La cadena retornada es siempre la misma para
   un objeto dado. [Experimental]
-  [[Característica#16150]](https://bugs.ruby-lang.org/issues/16150)~~
-  revertido
+  [[Característica#16150]](https://bugs.ruby-lang.org/issues/16150)
 
 * Se mejora el desempeño de `CGI.escapeHTML`.
   [GH-2226](https://github.com/ruby/ruby/pull/2226)

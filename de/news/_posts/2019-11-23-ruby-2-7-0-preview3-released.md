@@ -260,7 +260,7 @@ jedoch bis zur offiziellen Veröffentlichung nachgeholt.
   * Der Standardwert von `--jit-max-cache` wird von 1.000 auf 100
     geändert.
 
-* `Symbol#to_s`, `Module#name`, `true.to_s`, `false.to_s` und
+* ~~`Symbol#to_s`~~ (rückgängig gemacht), `Module#name`, `true.to_s`, `false.to_s` und
   `nil.to_s` geben jetzt immer einen eingefrorenen String zurück. Der
   zurückgegebene String ist für das jeweilige Objekt immer derselbe.
   [Experimenell] [[Feature #16150]](https://bugs.ruby-lang.org/issues/16150)
