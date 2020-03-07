@@ -11,7 +11,7 @@ Kami dengan senang hati mengumumkan rilis dari Ruby 2.7.0-preview3.
 
 Sebuah versi *preview* dirilis untuk mengumpulkan umpan balik rilis final
 yang direncanakan rilis pada bulan Desember. Versi ini dirilis terutama untuk
-mengkonfirmasi *compatibility* dari *keyword argument*.
+mengkonfirmasi kompatibilitas dari *keyword argument*.
 
 Selain itu, *preview* ini juga memperkenalkan sejumlah fitur baru dan
 perbaikan performa, terutama:
