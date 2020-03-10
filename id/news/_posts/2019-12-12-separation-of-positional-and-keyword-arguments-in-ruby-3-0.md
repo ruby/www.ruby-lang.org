@@ -98,11 +98,11 @@ Anda seharusnya selalu menggunakan `foo(k: expr)` atau `foo(**expr)`. Jika
 Anda ingin menerima *keyword argument*, pada dasarnya Anda harus selalu
 menggunakan `def foo(k: default)` atau `def foo(k:)` atau `def foo(**kwargs)`.
 
-Ingat bahwa Ruby 3.0 tidak berperilaku berbeda ketika memanggil sebuah *method*
-yang tidak menerima *keyword argument* dengan *keyword argument*. Sebagai
-contoh, kasus berikut ini tidak akan usang dan akan tetap berjalan pada Ruby
-3.0. *Keyword argument* tetap dianggap sebagai sebuah *positional Hash
-argument*.
+Ingat bahwa Ruby 3.0 tidak membedakan perilaku ketika memanggil sebuah *method*
+yang tidak menerima *keyword argument* dengan *method* yang menerima
+*keyword argument*. Sebagai contoh, kasus berikut ini tidak akan usang dan
+akan tetap berjalan pada Ruby 3.0. *Keyword argument* tetap dianggap sebagai
+sebuah *positional Hash argument*.
 
 {% highlight ruby %}
 def foo(kwargs = {})
