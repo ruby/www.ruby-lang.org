@@ -129,7 +129,7 @@ bir tümleşik geliştirme ortamı seçmeniz daha iyi olur.
 
 * macOS'ta:
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (belgelendirme tarayıcısı)
 
 ### Diğer Belgeler
@@ -173,7 +173,7 @@ olacaktır.
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

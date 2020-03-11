@@ -103,7 +103,7 @@ Rubyistに人気のあるソフトウェアには次のようなものがあり�
 
 * macOS
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (ドキュメント表示ツール)
 
 Posted by Shugo Maeda on 26 May 2006
@@ -154,7 +154,7 @@ Posted by Shugo Maeda on 26 May 2006
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [39]: http://kapeli.com/dash
