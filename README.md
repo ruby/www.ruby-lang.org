@@ -64,7 +64,7 @@ bundle exec rake build
 Then start a local web server with
 
 ``` sh
-bundle exec rake serve
+bundle exec rake server
 ```
 
 Open [http://localhost:9292/](http://localhost:9292/)
