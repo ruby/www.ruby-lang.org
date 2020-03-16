@@ -28,7 +28,7 @@ signifikan.
   paling menarik setiap minggu.
 * [**DEV Ruby Tag**][dev-ruby-tag] adalah kumpulan semua *post* dengan penanda
   Ruby dalam Dev Community. DEV adalah sebuah jaringan dari ribuan pengembang
-  perangkat lunak yang menge-*blog* dan mendiskusikan kode.
+  perangkat lunak yang membuat kiriman *blog* dan mendiskusikan kode.
 * [**Riding Rails**][riding-rails] adalah blog resmi dari tim Ruby on Rails.
   Apabila Anda mengembangkan aplikasi Rails, blog ini sangat penting
   untuk mendapatkan pembaruan keamanan dan gambaran keseluruhan dari
