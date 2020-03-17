@@ -26,6 +26,9 @@ signifikan.
 * [**Ruby Weekly**][ruby-weekly]: Meskipun lebih banyak buletin ketimbang
   blog, Ruby Weekly adalah distilasi dari artikel dan berita Ruby yang
   paling menarik setiap minggu.
+* [**DEV Ruby Tag**][dev-ruby-tag] adalah kumpulan semua *post* dengan penanda
+  Ruby dalam Dev Community. DEV adalah sebuah jaringan dari ribuan pengembang
+  perangkat lunak yang membuat kiriman *blog* dan mendiskusikan kode.
 * [**Riding Rails**][riding-rails] adalah blog resmi dari tim Ruby on Rails.
   Apabila Anda mengembangkan aplikasi Rails, blog ini sangat penting
   untuk mendapatkan pembaruan keamanan dan gambaran keseluruhan dari
@@ -48,6 +51,7 @@ tersebut!
 [rubyflow]: http://www.rubyflow.com/
 [rubyland]: http://rubyland.news/
 [ruby-weekly]: https://rubyweekly.com/
+[dev-ruby-tag]: https://dev.to/t/ruby
 [riding-rails]: http://weblog.rubyonrails.org/
 [ruby-id-twitter]: https://twitter.com/id_ruby
 [reddit]: http://www.reddit.com/r/ruby
