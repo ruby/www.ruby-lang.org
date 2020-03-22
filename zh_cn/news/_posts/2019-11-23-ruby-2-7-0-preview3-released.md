@@ -231,7 +231,7 @@ end
   *关于我们使用方言的具体信息请查阅：<https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 * ~~`Regexp#match{?}` 传入 `nil` 会产生 TypeError。
-  [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ 已回复
+  [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ 已撤回
 
 3895 个文件变更，213426 行新增(+)，96934 行删除(-)
 
