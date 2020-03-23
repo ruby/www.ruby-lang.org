@@ -134,7 +134,7 @@ foo(k: 1) #=> {:k=>1}
 Jawaban singkatnya adalah "mungkin tidak".
 
 Perubahan pada Ruby 2.7 didesain sebagai sebuah migrasi menuju 3.0. Pada
-dasarnya, Ruby 2.7 hanya memeringatkan perilaku yang akan berubah pada Ruby 3,
+dasarnya, Ruby 2.7 hanya memperingatkan perilaku yang akan berubah pada Ruby 3,
 ini termasuk beberapa perubahan *incompatible* yang kami pertimbangkan sangat
 kecil. Lihat bagian "Perubahan kecil lainnya" untuk detail.
 
