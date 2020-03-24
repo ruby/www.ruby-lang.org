@@ -7,14 +7,14 @@ preview:
 
 stable:
 
-  - 2.7.0
-  - 2.6.5
-  - 2.5.7
+  - 2.7.1
+  - 2.6.6
+  - 2.5.8
 
 # optional
 security_maintenance:
 
-  - 2.4.9
+  - 2.4.10
 
 # optional
 eol:
