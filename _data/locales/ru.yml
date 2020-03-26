@@ -43,6 +43,9 @@ sidebar:
       url: /ru/documentation/
     # books:
     #   text: Книги
+    rubybib:
+      text: Академическое исследование
+      url: https://rubybib.org/
     libraries:
       text: Библиотеки
       url: /ru/libraries/
