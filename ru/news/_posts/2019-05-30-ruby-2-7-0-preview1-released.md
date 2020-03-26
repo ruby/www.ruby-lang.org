@@ -28,13 +28,13 @@ lang: ru
 Сопоставление с образцом, широко используемое в функциональных языках программирования, представлено в качестве экспериментального нововведения. [#14912](https://bugs.ruby-lang.org/issues/14912)
 Оно позволяет пересекать с указанным объектом и присваивать ему значение, если оно соответствует шаблону.
 
-{% highlight ruby %}
+```ruby
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age
   ...
 end
-{% endhighlight %}
+```
 
 Подробнее, смотрите [Сопоставление с образцом - новая особенность Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
 
