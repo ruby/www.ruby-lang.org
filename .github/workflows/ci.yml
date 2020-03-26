@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: Setup Ruby
-        uses: eregon/use-ruby-action@master
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
           architecture: x64
