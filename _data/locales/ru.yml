@@ -44,7 +44,7 @@ sidebar:
     # books:
     #   text: Книги
     rubybib:
-      text: Академическое исследование
+      text: Научные публикации
       url: https://rubybib.org/
     libraries:
       text: Библиотеки
