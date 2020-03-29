@@ -41,6 +41,7 @@ lang: ru
   * [RubyInstaller](#rubyinstaller) (Windows)
   * [RailsInstaller и Ruby Stack](#railsinstaller)
 * [Менеджеры](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -227,6 +228,15 @@ ruby-build может использоваться как отдельная п�
 Однако их сообщество может оказать помощь.
 
 
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] - это расширяемый менеджер версий, который может управлять
+несколькими исполняемыми версиями языка для каждого проекта. Вам понадобится
+плагин [asdf-ruby][asdf-ruby] (который, в свою очередь, использует
+[ruby-build](#ruby-build)), чтобы установить Ruby.
+
+
 ### chruby
 {: #chruby}
 
@@ -292,3 +302,5 @@ $ sudo make install
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
