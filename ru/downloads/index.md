@@ -46,7 +46,7 @@ lang: ru
 {% endif %}
 
 {% if site.data.downloads.security_maintenance %}
-* **На стадии поддержки безопасности (скоро будет остановлена):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
+* **На стадии поддержки безопасности (скоро будет остановлена!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
@@ -65,7 +65,7 @@ lang: ru
     Может содержать баги и прочие ошибки, используйте его на свой страх и риск.
 
 Для получения дополнительной информации по определенным релизам,
-в частности про старые релизы или предварительных релизам,
+в частности, про старые или предварительные релизы,
 обратитесь к [странице со списком релизов][releases].
 Информацию о текущем состоянии поддержки различных веток Ruby
 можно найти на [странице ветвей][branches].
