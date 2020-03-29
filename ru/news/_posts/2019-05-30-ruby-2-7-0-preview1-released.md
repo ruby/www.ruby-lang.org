@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Выпуск Ruby 2.7.0-preview1"
+title: "Вышел Ruby 2.7.0-preview1"
 author: "naruse"
 translator: "shprotru"
 date: 2019-05-30 00:00:00 +0000
