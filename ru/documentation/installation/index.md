@@ -39,7 +39,7 @@ lang: ru
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller и Ruby Stack](#railsinstaller)
+  * [Ruby Stack](#rubystack)
 * [Менеджеры](#managers)
   * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
@@ -205,16 +205,12 @@ ruby-build может использоваться как отдельная п�
 Просто скачайте его, запустите и все готово!
 
 
-### RailsInstaller и Ruby Stack
-{: #railsinstaller}
+### Ruby Stack
+{: #rubystack}
 
 Если вы устанавливаете Ruby для того, чтобы воспользоваться Ruby on Rails,
-вы можете использовать следующие установщики:
+вы можете использовать следующий установщик:
 
-* [RailsInstaller][railsinstaller],
-  который использует RubyInstaller, но дает вам дополнительные инструменты,
-  которые помогут с разработкой на Rails.
-  Поддерживает OS X и Windows.
 * [Bitnami Ruby Stack][rubystack],
   которые предоставляет полное окружение для разработки на Rails.
   Поддерживает macOS, Linux, Windows, виртуальные машины и облачные сервисы.
@@ -295,7 +291,6 @@ $ sudo make install
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
