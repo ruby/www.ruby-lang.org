@@ -44,7 +44,7 @@ lang: ru
 Оно позволяет пересекать с указанным объектом и присваивать ему значение,
 если оно соответствует шаблону.
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -59,7 +59,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 Подробнее, смотрите
 [Сопоставление с образцом - новая особенность Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7).
@@ -94,12 +94,12 @@ end
   ключевых слов, добавьте оператор двойную звёздочку для избежания
   предупреждения и обеспечения правильного поведения в Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # warned
   def foo(**kw);    end; foo({key: 42})   # warned
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * Когда вызов метода передает ключевые слова методу, который принимает
   ключевые слова, но он не передает достаточно необходимых позиционных
@@ -108,12 +108,12 @@ end
   в качестве хэша вместо ключевого слова чтобы избежать предупреждения
   и обеспечить правильное поведение в Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # warned
   def foo(h, key: 42); end; foo(key: 42)   # warned
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * Когда метод принимает определенные ключевые слова, но не ключевое
   слово звёздочку, и хэш или ключевые слова звёздочки передаются в
@@ -122,40 +122,40 @@ end
   обновить вызывающий код чтобы передать отдельные хэши, для
   обеспечения правильного поведения в Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # warned
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # warned
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * Если метод не принимает ключевые слова и вызывается с ключевыми
   словами, ключевые слова по-прежнему обрабатываются как позиционный
   хэш, без предупреждений.  Такое поведение сохранится в Ruby 3.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * НеСимволы допускаются в качестве ключевых слов аргументов ключей,
   если метод принимает произвольные ключевые слова.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * `**nil` допускается в определениях методов явно отмечать
   что метод не принимает никаких ключевых слов. Вызов такого метода
   с ключевыми словами приведет к возникновнию ArgumentError.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * Передача пустого ключевого слова звёздочки методу, который больше
   не принимает ключевые слова не передает пустой хэш, если пустой хэш не
@@ -164,12 +164,12 @@ end
   позиционного хэша.
   [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} and warning
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 ПРИМЕЧАНИЕ: Выводилось слишком много устаревших предупреждений
 о несовместимости аргументов ключевых слов, слишком многословны.
@@ -198,39 +198,39 @@ end
   для DSL.
   [[Feature #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * `Enumerable#tally` добавлен.  Подсчитывает вхождение каждого элемента.
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * Вызов приватного метода по `self` теперь возможен.
   [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297),
   [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * `Enumerator::Lazy#eager` добавлен.
   Генерирует не ленивый перечислитель из ленивого перечислителя.
   [[Feature #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## Улучшения производительности
 
