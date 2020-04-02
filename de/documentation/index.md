@@ -74,7 +74,7 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 
 
 [1]: https://ruby.github.io/TryRuby/
-[3]: http://mislav.uniqpath.com/poignant-guide/
+[3]: https://poignant.guide
 [4]: http://www.moccasoft.de/papers/ruby_tutorial
 [5]: http://pine.fm/LearnToProgram/
 [6]: http://www.ruby-doc.org/docs/ProgrammingRuby/

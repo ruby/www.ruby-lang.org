@@ -140,7 +140,7 @@ ruby -v
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

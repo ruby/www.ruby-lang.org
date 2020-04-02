@@ -68,7 +68,7 @@ correo](/es/community/mailing-lists/) es un buen lugar para comenzar.
 [2]: http://pine.fm/LearnToProgram/
 [3]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [4]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [7]: http://www.ruby-doc.org/core
 [8]: https://ruby.github.io/rdoc/
 [9]: http://www.ruby-doc.org/stdlib
