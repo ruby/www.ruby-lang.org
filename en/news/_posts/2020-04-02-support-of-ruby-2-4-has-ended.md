@@ -3,7 +3,7 @@ layout: news_post
 title: "Support of Ruby 2.4 has ended"
 author: "antonpaisov"
 translator:
-date: 2019-04-02 00:00:00 +0000
+date: 2020-04-02 00:00:00 +0000
 lang: en
 ---
 
