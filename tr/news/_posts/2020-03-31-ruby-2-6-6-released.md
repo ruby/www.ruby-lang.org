@@ -12,7 +12,7 @@ Ruby 2.6.6 yayınlandı.
 Bu yayın güvenlik düzeltmeleri içermektedir.
 Ayrıntılar için lütfen aşağıdaki konuları inceleyin.
 
-* [CVE-2020-16255: CVE-2020-10663: JSON'da Güvensiz Nesne Oluşturma Zaafiyeti (Ek düzeltme)]({% link tr/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
+* [CVE-2020-10663: JSON'da Güvensiz Nesne Oluşturma Zaafiyeti (Ek düzeltme)]({% link tr/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
 * [CVE-2020-10933: Soket kütüphanesinde heap teşhir zaafiyeti]({% link tr/news/_posts/2020-03-31-heap-exposure-in-socket-cve-2020-10933.md %})
 
 Ayrıntılar için [işleme logları](https://github.com/ruby/ruby/compare/v2_6_5...v2_6_6)na bakın.

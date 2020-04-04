@@ -12,7 +12,7 @@ Ruby 2.6.6 has been released.
 This release includes security fixes.
 Please check the topics below for details.
 
-* [CVE-2020-16255: Unsafe Object Creation Vulnerability in JSON (Additional fix)]({% link en/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
+* [CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)]({% link en/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
 * [CVE-2020-10933: Heap exposure vulnerability in the socket library]({% link en/news/_posts/2020-03-31-heap-exposure-in-socket-cve-2020-10933.md %})
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_5...v2_6_6) for details.
