@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.4 公式サポート終了"
 author: "usa"
 translator:
-date: 2020-04-05 21:00:00 +0900
+date: 2020-04-05 12:00:00 +0000
 lang: ja
 ---
 
