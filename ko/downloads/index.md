@@ -55,7 +55,7 @@ lang: ko
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-* **스냅숏:**
+* **스냅숏:**{% for snapshot in site.data.downloads.stable_snapshots %}
   * [안정 스냅숏]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     안정 브랜치의 최신 스냅숏을 tarball로 압축한 것입니다.
   * [나이틀리 스냅숏]({{ site.data.downloads.nightly_snapshot.url.gz }}):
