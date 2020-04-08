@@ -56,8 +56,8 @@ lang: ko
 {% endif %}
 
 * **스냅숏:**{% for snapshot in site.data.downloads.stable_snapshots %}
-  * [안정 스냅숏]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
-    안정 브랜치의 최신 스냅숏을 tarball로 압축한 것입니다.
+  * [{{ snapshot.branch }} 브랜치의 안정 스냅숏]({{ snapshot.url.gz }}):
+    `{{ snapshot.branch }}` 브랜치의 최신 스냅숏을 tarball로 압축한 것입니다.{% endfor %}
   * [나이틀리 스냅숏]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     나이틀리로 제작된 Git 상의 모든 것을 tarball로 압축한 것입니다.
     본 스냅숏은 버그 혹은 기타 이슈를 포함하고 있을 수 있으니 주의하여
