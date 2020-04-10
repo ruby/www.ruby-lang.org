@@ -42,5 +42,5 @@ for it.
 Currently in security maintenance phase.
 We will never backport any bug fixes to 2.5 except security fixes.
 If a critical security issue is found, we will release an urgent fix for it.
-We are planning to end the support of the Ruby 2.2 series at the end of
+We are planning to end the support of the Ruby 2.4 series at the end of
 March 2021.
