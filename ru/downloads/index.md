@@ -58,7 +58,7 @@ lang: ru
 {% endif %}
 
 * **Слепки:**
-  * [Стабильный слепок]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Стабильный слепок]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Это архив свежайшего слепка текущей стабильной ветки.
   * [Nightly-слепок]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Это архив того, что есть в Git, сделанный ночью.
