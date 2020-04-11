@@ -34,7 +34,7 @@ lang: bg
 
 #### Телефония
 
-* Ruby се използва в [Lucent][7] за изграждането на 3G безжични
+* Ruby се използва в Lucent за изграждането на 3G безжични
   телефонни продукти.
 
 #### Системна Администрация
@@ -58,7 +58,6 @@ lang: bg
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

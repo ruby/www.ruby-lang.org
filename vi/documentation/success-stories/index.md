@@ -33,7 +33,7 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 
 #### Viễn thông
 
-* Ruby được sử dụng bên trong [Lucent][7] để phát triển các sản phảm viễn thông 3G.
+* Ruby được sử dụng bên trong Lucent để phát triển các sản phảm viễn thông 3G.
 
 #### Quản lý hệ thống
 
@@ -65,7 +65,6 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

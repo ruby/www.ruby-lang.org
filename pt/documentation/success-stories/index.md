@@ -34,7 +34,7 @@ Aqui você encontrará uma pequena amostra do uso de Ruby no mundo real.
 
 #### Telefonia
 
-* Ruby está sendo utilizado na [Lucent][7] num produto de telefonia
+* Ruby está sendo utilizado na Lucent num produto de telefonia
   3G wireless.
 
 #### Administração de Sistemas
@@ -70,7 +70,6 @@ Aqui você encontrará uma pequena amostra do uso de Ruby no mundo real.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

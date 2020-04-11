@@ -33,7 +33,7 @@ lang: ko
 
 #### 전화
 
-* 루비는 3G 무선 전화 제품인 [Lucent][7]에서도 사용됩니다.
+* 루비는 3G 무선 전화 제품인 Lucent에서도 사용됩니다.
 
 #### 시스템 관리
 
@@ -67,7 +67,6 @@ lang: ko
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

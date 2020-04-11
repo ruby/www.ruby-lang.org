@@ -29,7 +29,7 @@ lang: zh_cn
 
 #### 电讯
 
-* [朗讯][7]一个3G无线电话产品中使用了 Ruby。
+* 朗讯一个3G无线电话产品中使用了 Ruby。
 
 #### 系统管理
 
@@ -53,7 +53,6 @@ lang: zh_cn
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

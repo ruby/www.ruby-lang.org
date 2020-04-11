@@ -30,7 +30,7 @@ Rubiego w rzeczywistości.
 
 #### Telefonia
 
-* [Lucent][7] używa Rubiego w swoim produkcie telefonii bezprzewodowej
+* Lucent używa Rubiego w swoim produkcie telefonii bezprzewodowej
   3G.
 
 #### Administracja Systemami
@@ -77,7 +77,6 @@ Rubiego w rzeczywistości.
 [2]: http://www-106.ibm.com/developerworks/linux/library/l-oslab/
 [3]: http://www.motorola.com
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

@@ -27,7 +27,7 @@ lang: zh_tw
 
 #### 電信
 
-* Ruby 也被用在 [Lucent][7] 3G無線電信產品中。
+* Ruby 也被用在 Lucent 3G無線電信產品中。
 
 #### 系統管理
 
@@ -47,7 +47,6 @@ lang: zh_tw
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com

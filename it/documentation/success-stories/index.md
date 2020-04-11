@@ -34,7 +34,7 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 
 #### Telefonia
 
-* Ruby viene utilizzato in [Lucent][7] un prodotto telefonico di terza
+* Ruby viene utilizzato in Lucent un prodotto telefonico di terza
   generazione.
 
 #### Amministrazione di sistema
@@ -68,7 +68,6 @@ alcuni esempi reali di come viene utilizzato Ruby nel mondo.
 [2]: http://www.motorola.com
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
-[7]: http://www.lucent.com/
 [8]: http://www.level3.com/
 [9]: http://www.basecamphq.com
 [10]: http://www.37signals.com
