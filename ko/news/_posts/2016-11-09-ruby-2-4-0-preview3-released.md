@@ -124,4 +124,4 @@ ASCII 대/소문자 대응 대신에 유니코드 대/소문자 대응을 지원
 
 릴리스 일정과 다른 정보는 밑의 링크를 참조하세요.
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

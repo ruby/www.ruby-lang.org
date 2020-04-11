@@ -46,12 +46,9 @@ dan informasi pendaftaran.
 untuk membantu kelompok lokal dan regional yang hendak mengadakan
 *event* tentang Ruby.
 
-Ruby Central juga bekerja sama dengan [SVForum][7] (sebelumnya dikenal
+Ruby Central juga bekerja sama dengan SVForum (sebelumnya dikenal
 sebagai SDForum) untuk mengadakan Silicon Valley Ruby Conference, yang sudah
-memasuki tahun kedua penyelenggaraannya di tahun 2007.
-
-[RubyNation][8] adalah sebuah konferensi Ruby tahunan yang bertempat di
-Virginia, West Virginia, Maryland dan Washington, DC.
+berlangsung pada tahun 2006 dan 2007.
 
 [WindyCityRails][9] adalah sebuah pertemuan tahunan untuk semua yang antusias
 dengan Ruby on Rails. Konferensi yang berlokasi di Chicago ini sudah melayani
@@ -89,8 +86,6 @@ on Rails.
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

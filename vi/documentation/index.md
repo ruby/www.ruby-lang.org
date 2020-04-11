@@ -70,11 +70,6 @@ việc cài đặt Ruby.
 : Hội thảo làm việc trên Ruby bằng Tiếng Anh, phiên bản đầu tiên
   [Sách của Lập trình viên thực dụng][10] hiện đang được miễn phí trực tuyến.
 
-[Hướng dẫn người sử dụng Ruby][11]
-: Được dịch từ bản gốc Tiếng Nhật của tác giả Yukihiro Matsumoto (Cha đẻ của
-  Ruby), phiên bản này được dịch bởi Goto Kentaro và Mark Slagell là tổng quan
-  tốt về rất nhiều khía cạnh của ngôn ngữ Ruby.
-
 [Sách bách khoa lập trình Ruby][12]
 : Một hướng dẫn trực tuyến miễn phí với người mới bắt đầu và nội dung trung
   cấp cộng với một tài liệu tham khảo ngôn ngữ chi tiết.
@@ -132,7 +127,7 @@ tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, h
 
 * Trên macOS:
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (trình duyệt tài liệu)
 
 ### Đọc thêm
@@ -146,13 +141,12 @@ là một nơi tuyệt vời.
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -175,7 +169,7 @@ là một nơi tuyệt vời.
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

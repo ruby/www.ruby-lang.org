@@ -82,4 +82,4 @@ Ruby 2.3.0-preview2 を試してプログラミングをお楽しみください
 
 リリーススケジュールやその他の情報もご覧ください：
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

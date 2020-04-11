@@ -43,11 +43,9 @@ event dates, location, CFP (Call For Proposals) and Registration information.
 to offset expenses for local and regional groups wanting to organize
 events.
 
-Ruby Central has also teamed up with [SVForum][7] (previously known as SDForum)
-to produce the Silicon Valley Ruby Conference, entering its second year in 2007.
-
-[RubyNation][8] is an annual Ruby conference serving the Virginia, West
-Virginia, Maryland, and Washington, DC areas.
+Ruby Central had also teamed up with SVForum (previously known as SDForum)
+to produce the Silicon Valley Ruby Conference, which took place in 2006
+and in 2007.
 
 [WindyCityRails][9] is an annual gathering for all who are passionate about
 Ruby on Rails. The Chicago-based conference has served the Ruby
@@ -81,8 +79,6 @@ O’Reilly), and Canada on Rails.
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [6]: http://rubycentral.org/community/grant
-[7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

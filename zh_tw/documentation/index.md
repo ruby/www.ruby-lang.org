@@ -41,9 +41,6 @@ lang: zh_tw
 [Programming Ruby][9]
 : 這是 Ruby 的第一本英文書，第一版開放線上免費閱讀 [Pragmatic Programmers' book][10] 。
 
-[Ruby 使用手冊][11]
-: 原日文版出自 Yukihiro Matsumoto (Ruby 發明人)，英文版為 Goto Kentaro 和 Mark Slagell 翻譯，[繁體中文版][ruby-user-guide-zh_tw]由 [Ruby Taiwan][rubytw] 翻譯。這是一個不錯的 Ruby 導覽。
-
 [The Ruby Programming Wikibook][12]
 : 給初學者到中等程度的線上手冊以及語言參考。
 
@@ -69,6 +66,9 @@ lang: zh_tw
 
 [APIdock][18]
 : Ruby、Rails 與 RSpec 的文件，具有使用者的評論。
+
+[RubyAPI.org][rubyapi-org]
+: 簡單搜尋瀏覽 Ruby 類別、模組及方法。
 
 ### 編輯器與整合開發環境
 
@@ -96,7 +96,7 @@ lang: zh_tw
 
 * macOS 作業系統：
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] （瀏覽文件用）
 
 ### 進階閱讀
@@ -107,13 +107,12 @@ lang: zh_tw
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -122,6 +121,7 @@ lang: zh_tw
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -136,7 +136,7 @@ lang: zh_tw
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

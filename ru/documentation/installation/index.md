@@ -39,8 +39,9 @@ lang: ru
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller и Ruby Stack](#railsinstaller)
+  * [Ruby Stack](#rubystack)
 * [Менеджеры](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -204,16 +205,12 @@ ruby-build может использоваться как отдельная п�
 Просто скачайте его, запустите и все готово!
 
 
-### RailsInstaller и Ruby Stack
-{: #railsinstaller}
+### Ruby Stack
+{: #rubystack}
 
 Если вы устанавливаете Ruby для того, чтобы воспользоваться Ruby on Rails,
-вы можете использовать следующие установщики:
+вы можете использовать следующий установщик:
 
-* [RailsInstaller][railsinstaller],
-  который использует RubyInstaller, но дает вам дополнительные инструменты,
-  которые помогут с разработкой на Rails.
-  Поддерживает OS X и Windows.
 * [Bitnami Ruby Stack][rubystack],
   которые предоставляет полное окружение для разработки на Rails.
   Поддерживает macOS, Linux, Windows, виртуальные машины и облачные сервисы.
@@ -225,6 +222,15 @@ ruby-build может использоваться как отдельная п�
 Многие рубисты используют менеджеры для управления несколькими версиями Ruby.
 Они предоставляют различные преимущества, но поддерживаются не официально.
 Однако их сообщество может оказать помощь.
+
+
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] - это расширяемый менеджер версий, который может управлять
+несколькими исполняемыми версиями языка для каждого проекта. Вам понадобится
+плагин [asdf-ruby][asdf-ruby] (который, в свою очередь, использует
+[ruby-build](#ruby-build)), чтобы установить Ruby.
 
 
 ### chruby
@@ -285,10 +291,11 @@ $ sudo make install
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby

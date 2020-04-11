@@ -52,7 +52,7 @@ dụng một trong những công cụ của bên thứ ba đã được đề c�
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Đây là một tarball của snapshot mới nhất của nhánh ổn định hiện hành.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Đây là một tarball của mã mới nhất hiện hữu trong Git. Gói này được

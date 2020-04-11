@@ -110,4 +110,4 @@ Od wydania Rubiego 2.3 zmieniło się
 
 Inne informacje oraz harmonogram wydań kolejnych wersji dostępny na:
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

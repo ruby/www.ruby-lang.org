@@ -1,0 +1,135 @@
+---
+ruby: Ruby
+slogan: El mejor amigo de un desarrollador
+
+sitelinks:
+- text: Home
+  url: /es
+  home: true
+- text: Descargas
+  url: /es/downloads
+- text: Documentación
+  url: /es/documentation
+- text: Bibliotecas
+  url: /es/libraries
+- text: Comunidad
+  url: /es/community
+- text: Noticias
+  url: /es/news
+- text: Seguridad
+  url: /es/security
+- text: Acerca de Ruby
+  url: /es/about
+
+search:
+  text: Buscar
+
+sidebar:
+  get_started:
+    text: <strong>Iníciate</strong>, ¡es fácil!
+    try_ruby:
+      text: ¡Prueba Ruby! (en tu navegador)
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: Ruby en 20 Minutos
+      url: /es/documentation/quickstart/
+    ruby_from_other_languages:
+      text: Ruby desde otros lenguajes
+      url: /es/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>Explora</strong> un nuevo mundo…
+    documentation:
+      text: Documentación
+      url: /es/documentation/
+    # books:
+    #   text: Libros
+    rubybib:
+      text: Investigación académica
+      url: https://rubybib.org/
+    libraries:
+      text: Bibliotecas
+      url: /es/libraries/
+    success_stories:
+      text: Casos exitosos (en inglés)
+      url: /en/documentation/success-stories/
+  participate:
+    text: <strong>Participa</strong> en una amistosa y creciente comunidad.
+    mailing_lists:
+      text: Listas de correo
+      url: /es/community/mailing-lists/
+      description: Habla sobre Ruby con desarrolladores alrededor del mundo.
+    user_groups:
+      text: Grupos de usuarios
+      url: /es/community/user-groups/
+      description: Ponte en contacto con otros Rubyistas en tu localidad.
+    weblogs:
+      text: Blogs (en inglés)
+      url: /en/community/weblogs/
+      description: Entérate de lo que está sucediendo en la comunidad.
+    ruby_core:
+      text: Ruby Core (en inglés)
+      url: /en/community/ruby-core/
+      description: Ayuda a mejorar el futuro de Ruby.
+    issue_tracking:
+      text: Reportes de errores
+      url: https://bugs.ruby-lang.org/
+      description: Reporta o ayuda a resolver problemas en Ruby.
+  syndicate:
+    text: Feeds de noticias (RSS)
+    recent_news:
+      text: En español
+      url: /es/feeds/news.rss
+
+languages_heading:
+
+credits:
+  Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
+  y es orgullosamente mantenido por miembros de la comunidad. Si quieres
+  contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+  o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+  si tienes preguntas o comentarios.
+
+month_names:
+- Enero
+- Febrero
+- Marzo
+- Abril
+- Mayo
+- Junio
+- Julio
+- Agosto
+- Septiembre
+- Octubre
+- Noviembre
+- Diciembre
+
+posted_by: Publicado por AUTHOR el %Y-%m-%d
+translated_by: Traducción de
+
+feed:
+  title: Noticias de Ruby por RSS
+  description: Las últimas noticias de ruby-lang.org en español.
+  lang_code: es-ES
+
+news:
+  other_news: Otras noticias
+  more_news: Más noticias...
+  continue: Continuar leyendo...
+  back_to_year: Volver a las noticias de %Y
+  recent_news: Noticias recientes
+  yearly_archive_title: Noticias de %Y
+  monthly_archive_title: Noticias de %B %Y
+  yearly_archives: Noticias por año
+  monthly_archives: Noticias por mes
+  yearly_archive_link: Noticias de %Y
+  monthly_archive_link: "%B %Y"
+
+subscription_form:
+  list: Lista de correo
+  first_name: Nombre
+  last_name: Apellidos
+  email: Correo electrónico
+  action: Acción
+  subscribe: Subscribe
+  unsubscribe: Unsubscribe
+  submit: Enviar

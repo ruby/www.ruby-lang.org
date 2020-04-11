@@ -79,4 +79,4 @@ Totale delle modifiche: 1239 file modificati, 98343 aggiunte(+), 61858 rimozioni
 
 Per vedere anche il release schedule e altre informazioni:
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

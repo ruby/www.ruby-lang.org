@@ -53,7 +53,7 @@ vielleicht zu einem der oben erwähnten Drittanbieter-Werkzeuge greifen.
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Hierbei handelt es sich um den neuesten Snapshot des stabilen Zweiges.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Hierbei handelt es sich um eine Kopie der Git von letzter Nacht.

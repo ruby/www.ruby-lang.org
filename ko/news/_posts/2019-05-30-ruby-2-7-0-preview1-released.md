@@ -19,13 +19,13 @@ lang: ko
 
 이 릴리스는 단편화된 메모리를 최적화할 수 있는 압축 GC를 도입합니다.
 
-몇몇 멀티 스레드를 이용하는 루비 프로그램은 메모리 단편화를 일으킬 수 있고, 이는 과다한 메모리 사용량과 성능 저하로 이어질 수 있습니다.
+몇몇 멀티 스레드를 이용하는 루비 프로그램은 메모리 단편화를 일으킬 수 있고, 이는 과다한 메모리 사용과 성능 저하로 이어질 수 있습니다.
 
-`GC.compact` 메서드는 힙 공간을 압축합니다. 이 기능은 더 적은 페이지를 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다. [#15626](https://bugs.ruby-lang.org/issues/15626)
+힙 공간을 압축하는 `GC.compact` 메서드가 도입되었습니다. 이 기능은 더 적은 페이지를 사용하고, 힙이 CoW(Copy on Write)에 유리하도록 힙 내부에 살아있는 객체들을 압축합니다. [#15626](https://bugs.ruby-lang.org/issues/15626)
 
 ## 패턴 매칭 [Experimental]
 
-함수형 언어에서 널리 알려진 기능인 패턴 매칭이 실험적으로 도입되었습니다. [#14912](https://bugs.ruby-lang.org/issues/14912)
+함수형 언어에서 널리 알려진 패턴 매칭 기능이 실험적으로 도입되었습니다. [#14912](https://bugs.ruby-lang.org/issues/14912)
 이는 패턴에 일치하는 경우, 주어진 객체를 순회하여 그 값을 대입합니다.
 
 ```ruby
@@ -40,7 +40,7 @@ end
 
 ## REPL 개선
 
-루비에 기본으로 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가 이제 여러 줄 입력을 지원합니다. 이는 `reline`, `readline`과 호환되는 순수 루비 구현으로 동작합니다.
+루비에 기본으로 포함되어 있는 상호작용 환경(REPL; Read-Eval-Print-Loop)인 `irb`가 이제 여러 줄 입력을 지원합니다. 이는 `readline`과 호환되는 순수 루비 구현인 `reline`으로 동작합니다.
 또한 rdoc 통합도 제공됩니다. `irb`에서 주어진 클래스, 모듈, 메서드의 레퍼런스를 볼 수 있습니다. [#14683](https://bugs.ruby-lang.org/issues/14683), [#14787](https://bugs.ruby-lang.org/issues/14787), [#14918](https://bugs.ruby-lang.org/issues/14918)
 그뿐만 아니라, `binding.irb`에서 보이는 소스 코드나 코어 클래스 객체의 inspect 결과에 색이 추가되었습니다.
 
@@ -90,7 +90,7 @@ end
 * JIS X 0301의 새 버전이 나올 때까지 잠정적으로 `Date.jisx0301`, `Date#jisx0301`, `Date.parse`에 새 일본 연호를 대응했습니다. [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * 루비 빌드에 C99를 지원하는 컴파일러를 요구하게 됩니다. [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * 이에 대한 자세한 정보: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * 이에 대한 자세한 정보: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 [NEWS](https://github.com/ruby/ruby/blob/v2_7_0_preview1/NEWS)나 [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview1)에서 더 자세한 설명을 확인할 수 있습니다.
 
@@ -106,18 +106,21 @@ end
       SHA1:   2fbecf42b03a9d4391b81de42caec7fa497747cf
       SHA256: c44500af4a4a0c78a0b4d891272523f28e21176cf9bc1cc108977c5f270eaec2
       SHA512: f731bc9002edd3a61a4955e4cc46a75b5ab687a19c7964f02d3b5b07423d2360d25d7be5df340e884ca9945e3954e68e5eb11b209b65b3a687c71a1abc24b91f
+
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.zip>
 
       SIZE:   20283343 bytes
       SHA1:   7488346fa8e58203a38158752d03c8be6b1da65b
       SHA256: fdf25573e72e1769b51b8d541d0e1a894a5394dbfdf1b08215aa093079cca64c
       SHA512: b3b1f59dce94c242ef88a4e68381a4c3a6f90ba0af699083e5a1a00b0fb1dce580f057dad25571fe789ac9aa95aa6e9c071ebb330328dc822217ac9ea9fbeb3f
+
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.bz2>
 
       SIZE:   14038296 bytes
       SHA1:   f7e70cbc2604c53a9e818a2fc59cd0e2d6c859fa
       SHA256: d45b4a1712ec5c03a35e85e33bcb57c7426b856d35e4f04f7975ae3944d09952
       SHA512: a36b241fc1eccba121bb7c2cc5675b11609e0153e25a3a8961b67270c05414b1aa669ce5d4a5ebe4c6b2328ea2b8f8635fbba046b70de103320b3fdcb3d51248
+
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview1.tar.xz>
 
       SIZE:   11442988 bytes

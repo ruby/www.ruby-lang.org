@@ -46,14 +46,20 @@ untuk memulai petualangan Anda:
   *work-in-progress*, diskusi masa depan Ruby, dan menyambut pendatang
   baru di komunitas Ruby.
 
-[Komunitas Pengguna Ruby Indonesia][2]
+[Podcasts](podcasts/)
+: Jika Anda memilih untuk mendengar diskusi Ruby ketimbang membaca,
+  Anda dapat mendengarkan satu di antara *podcast* Ruby yang luar biasa ini.
+  Rubyist menggunakan *podcast* untuk mencakup rilis baru, kabar komunitas, dan
+  wawancara sesama pengembang Ruby.
+
+[Komunitas Pengguna Ruby Indonesia][ruby-id-group]
 : Komunitas Pengguna Ruby Indonesia (mayoritas diikuti oleh orang
   Indonesia, baik yang bertempat tinggal di seluruh penjuru Indonesia,
   juga orang Indonesia yang sedang tinggal di luar negeri). Berdiskusi
   tentang Ruby berikut semua varian-varian Ruby (seperti JRuby,
   Rubinius, XRuby, IronRuby, dan lain sebagainya) termasuk juga
   aplikasi-aplikasi yang dibuat dengan Ruby seperti Rails. Anda bisa
-  bergabung ke grup [Slack][6] Ruby Indonesia untuk saling berbagi
+  bergabung ke grup [Slack][ruby-id-slack] Ruby Indonesia untuk saling berbagi
   dengan komunitas.
 
 Informasi Umum Tentang Ruby
@@ -63,8 +69,8 @@ Informasi Umum Tentang Ruby
 
 
 
-[2]: http://tech.groups.yahoo.com/group/id-ruby/
+[ruby-id-group]: http://tech.groups.yahoo.com/group/id-ruby/
 [ruby-central]: http://rubycentral.org/
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
 [rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
-[6]: http://ruby.id/slack/
+[ruby-id-slack]: http://ruby.id/slack/

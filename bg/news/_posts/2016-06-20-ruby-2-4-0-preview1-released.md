@@ -107,4 +107,4 @@ Ruby 2.4 показва нишките заедно с техният backtrace,
 
 За повече информация и план за следващи версии:
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

@@ -69,4 +69,4 @@ Ruby 2.3 引入了许多性能优化，譬如：
 
 其他资讯请参考发布日程安排：
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

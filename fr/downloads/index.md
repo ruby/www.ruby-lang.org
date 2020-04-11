@@ -4,8 +4,6 @@ title: "Télécharger Ruby"
 lang: fr
 ---
 
-{% include out-of-date.html %}
-
 Vous pouvez obtenir sur cette page les dernières versions de Ruby. La
 version stable actuelle est la {{ site.data.downloads.stable[0] }}.
 N’oubliez pas de consulter la [licence Ruby][license].
@@ -40,11 +38,30 @@ Ruby à partir des sources. Si vous rencontrez des difficultés en compilant Rub
 envisagez d'utiliser l'un des outils tiers mentionnés plus haut. Ils pourront
 peut-être vous aider.
 
-* **Dernière version stable :**
-  Ruby {{ site.data.downloads.stable[0] }}
+* **Dernières versions stables:**{% for version in site.data.downloads.stable %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
 
-* **Snapshots :**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+{% if site.data.downloads.preview %}
+* **Versions d'aperçu :**{% for version in site.data.downloads.preview %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
+{% if site.data.downloads.security_maintenance %}
+* **En maintenance de sécurité (sera bientôt EOL!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
+{% if site.data.downloads.eol %}
+* **Versions plus maintenues (EOL):**{% for version in site.data.downloads.eol %}{% assign release = site.data.releases | where: "version", version | first %}
+  * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
+    sha256: {{ release.sha256.gz }}{% endfor %}
+{% endif %}
+
+* **Snapshots:**
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Archive de la dernière version publiée à partir de la branche stable courante.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Archive construite chaque nuit à partir du code le plus récent présent sur Git.
@@ -53,13 +70,16 @@ peut-être vous aider.
 Pour plus d’information sur le dépôt Subversion de Ruby, voyez la page
 [Ruby Core](/fr/community/ruby-core/).
 
+Pour plus d’informations sur des versions spécifiques, en particulier d'anciennes versions ou des aperçus, voyez la page [Releases][releases]. Vous trouverez des informations sur l'état actuel de la maintenance des différentes branches de Ruby voyez la page [Branches][branches].
+
 Les sources de Ruby sont disponibles depuis des [miroirs][mirrors] répartis dans le monde.
 Utilisez s'il-vous-plaît un miroir proche de vous.
 
 
-
 [license]: {{ site.license.url }}
 [installation]: /fr/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /en/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv

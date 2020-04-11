@@ -91,4 +91,4 @@ configure.in да използва jemalloc [Feature #9113](https://bugs.ruby-la
 
 За повече информация:
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

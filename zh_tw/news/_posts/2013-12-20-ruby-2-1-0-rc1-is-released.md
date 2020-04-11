@@ -65,4 +65,4 @@ Konstantin Haase ([@konstantinhaase](https://twitter.com/konstantinhaase)) 寫�
 
 請參考其它相關資訊與發佈時程：
 
-<https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>
+<https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210>

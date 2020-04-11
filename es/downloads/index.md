@@ -39,7 +39,7 @@ de ayuda.
   Ruby {{ site.data.downloads.stable[0] }}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Este es el tarball del último snapshot del branch de la versión actual estable.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Este es el tarball de lo que exista en Git, hecho diariamente.

@@ -3,6 +3,8 @@ www.ruby-lang.org
 
 [![Join the chat at https://gitter.im/ruby/www.ruby-lang.org](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ruby/www.ruby-lang.org?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[![Build Status](https://github.com/ruby/www.ruby-lang.org/workflows/ci/badge.svg)](https://github.com/ruby/www.ruby-lang.org/actions?query=branch%3Amaster)
+
 [![Build Status](https://travis-ci.org/ruby/www.ruby-lang.org.svg?branch=master)](https://travis-ci.org/ruby/www.ruby-lang.org)
 
 This is the [Jekyll](http://www.jekyllrb.com/) source of
@@ -120,7 +122,7 @@ Besides generating and previewing the site
 you can perform additional tests with these tasks:
 
 ``` sh
-bundle exec rake check         # perform various tests on the source files
+bundle exec rake lint          # run linter on markdown files
 bundle exec rake check:markup  # check markup for all generated pages
 bundle exec rake check:links   # check for 404's (needs a running local server)
 ```

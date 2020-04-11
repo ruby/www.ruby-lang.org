@@ -54,7 +54,7 @@ Ruby може да бъде инсталиран и от изходен код �
 {% endif %}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Това е архвирано копие на последната стабилна версия.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Това е архивирано копие на последната версия в Git хранилището.

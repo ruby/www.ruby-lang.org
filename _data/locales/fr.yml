@@ -1,0 +1,133 @@
+---
+ruby: Ruby
+slogan: A Programmer's Best Friend
+
+sitelinks:
+- text: Home
+  url: /fr
+  home: true
+- text: Téléchargements
+  url: /fr/downloads
+- text: Documentation
+  url: /fr/documentation
+- text: Bibliothèques
+  url: /fr/libraries
+- text: Communauté
+  url: /fr/community
+- text: Actualités
+  url: /fr/news
+- text: Sécurité
+  url: /fr/security
+- text: À propos de Ruby
+  url: /fr/about
+
+search:
+  text: Recherche
+  cx_id: '016749562256550695330:efcmgh3a1ac'
+
+sidebar:
+  get_started:
+    text: <strong>Lancez-vous</strong>, c’est facile !
+    try_ruby:
+      text: Essayez Ruby !
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: Apprenez Ruby en vingt minutes
+      url: /fr/documentation/quickstart/
+    ruby_from_other_languages:
+      text: Vous venez d'un autre langage ?
+      url: /fr/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>Explorez</strong> un nouvel univers…
+    documentation:
+      text: Documentation
+      url: /fr/documentation/
+    # books:
+    #   text: Livres
+    libraries:
+      text: Bibliothèques
+      url: /fr/libraries/
+    success_stories:
+      text: Témoignages
+      url: /fr/documentation/success-stories/
+  participate:
+    text: <strong>Participez</strong> à la communauté
+    mailing_lists:
+      text: Listes de diffusion
+      url: /fr/community/mailing-lists/
+      description: discutez de Ruby avec des programmeurs du monde entier.
+    user_groups:
+      text: Groupes d’utilisateur
+      url: /fr/community/user-groups/
+      description: entrez en contact avec d’autres rubyistes de votre région.
+    weblogs:
+      text: Blogs
+      url: /fr/community/weblogs/
+      description: suivez toute l’actualité de la communauté Ruby.
+    ruby_core:
+      text: Ruby Core
+      url: /fr/community/ruby-core/
+      description: apportez votre aide à l'élaboration du prochain Ruby.
+    issue_tracking:
+      text: Rapports de bugs
+      url: https://bugs.ruby-lang.org/
+      description: aidez à corriger et améliorer Ruby.
+  syndicate:
+    text: Syndication
+    recent_news:
+      text: Actualité récente (RSS)
+      url: /fr/feeds/news.rss
+
+languages_heading: 'Autres langues disponibles :'
+
+credits:
+  Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
+  Il est fièrement maintenu par des membres de la communauté Ruby. Contribuez
+  en vous rendant sur <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
+  ou contactez le <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
+  pour toute question ou tout commentaire.
+
+month_names:
+- Janvier
+- Février
+- Mars
+- Avril
+- Mai
+- Juin
+- Juillet
+- Août
+- Septembre
+- Octobre
+- Novembre
+- Décembre
+
+posted_by: Posté par AUTHOR le %Y-%m-%d
+translated_by: Traduit par
+
+feed:
+  title: Actualités de Ruby-lang
+  description: Les dernières news sur ruby-lang.org.
+  lang_code: fr-FR
+
+news:
+  other_news: Autres actualités
+  more_news: Plus d’actualités...
+  continue: Lire la suite...
+  back_to_year: Retour aux %Y archives
+  recent_news: Actualité récente
+  yearly_archive_title: "%Y Archives"
+  monthly_archive_title: "%B %Y Archives"
+  yearly_archives: Archives par années
+  monthly_archives: Archives par mois
+  yearly_archive_link: Actualités de %Y
+  monthly_archive_link: "%m/%Y"
+
+subscription_form:
+  list: Liste de diffusion
+  first_name: Prénom
+  last_name: Nom
+  email: e-mail
+  action: Action
+  subscribe: Subscribe
+  unsubscribe: Unsubscribe
+  submit: Valider

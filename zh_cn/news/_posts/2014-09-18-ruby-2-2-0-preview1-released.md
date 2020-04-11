@@ -75,4 +75,4 @@ Rails 5.0 将会依赖 Symbol GC，它将只支持 Ruby 2.2 及之后的版本�
 
 又见发布时间表和其他信息：
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

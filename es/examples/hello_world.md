@@ -5,7 +5,8 @@ layout: null
 {% highlight ruby %}
 # El famoso programa
 # Hola Mundo es trivial
-# en Ruby. Superfluo:
+# en Ruby.
+# Son superfluos:
 #
 # * Un método "main"
 # * Nueva linea

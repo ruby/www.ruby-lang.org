@@ -35,7 +35,7 @@ lang: zh_cn
  * [GlobalSign][globalsign]（SSL 认证）
  * [Fastly][fastly]（CDN）
  * [Hatena][hatena]（[mackerel][mackerel]，服务器监控）
- * [![CloudCore][cloudcore-logo] CloudCore][cloudcore]（构建服务器）
+ * [CloudCore][cloudcore]（构建服务器）
  * [Ruby no Kai][rubynokai]（构建服务器）
 
 
@@ -53,6 +53,5 @@ lang: zh_cn
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
-[cloudcore-logo]: http://www.cloudcore.jp/develop/links/images/74x36_white.gif
 [cloudcore]: http://www.cloudcore.jp/
 [rubynokai]: http://ruby-no-kai.org/

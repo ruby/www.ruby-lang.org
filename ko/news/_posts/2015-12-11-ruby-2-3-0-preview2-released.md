@@ -89,4 +89,4 @@ did_you_mean 젬은 간편한 디버깅을 위해 `NameError`와 `NoMethodError`
 
 릴리스 일정과 다른 정보는 밑의 링크를 참조하세요.
 
-[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering23)
+[ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

@@ -25,6 +25,9 @@ updates.
 * [**Ruby Weekly**][ruby-weekly]: Although more of a newsletter than a
   blog, Ruby Weekly is a distillation of the most interesting Ruby
   articles and news each week.
+* [**DEV Ruby Tag**][dev-ruby-tag] is the collection of all posts
+  tagged Ruby within the DEV Community. DEV is a network of thousands
+  of software developers who blog about and discuss code.
 * [**Riding Rails**][riding-rails] is the official group blog of the
   Ruby on Rails team. If you are running Rails, this blog is essential
   for notification of security updates and an overall view of the wide
@@ -43,6 +46,7 @@ out there, be sure to share!
 [rubyflow]: http://www.rubyflow.com/
 [rubyland]: http://rubyland.news/
 [ruby-weekly]: https://rubyweekly.com/
+[dev-ruby-tag]: https://dev.to/t/ruby
 [riding-rails]: http://weblog.rubyonrails.org/
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/

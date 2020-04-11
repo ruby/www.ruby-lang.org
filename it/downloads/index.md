@@ -46,7 +46,7 @@ esserti di aiuto.
   Ruby {{ site.data.downloads.stable[0] }}
 
 * **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Stable Snapshot]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Questo è il tarball dell'ultimo snapshot del branch stabile corrente.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Questo è il tarball di ciò che c’è in Git, generato giornalmente.

@@ -4,7 +4,7 @@ title: "Libraries"
 lang: en
 ---
 
-As most programming languages, Ruby leverages a wide set of third-party
+As with most programming languages, Ruby leverages a wide set of third-party
 libraries.
 {: .summary}
 

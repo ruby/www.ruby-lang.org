@@ -91,4 +91,4 @@ Dengan perubahan tersebut, 1239 berkas berubah, 98343 Penambahan(+), 61858 pengh
 
 Lihat juga jadwal rilis dan informasi lainnya:
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

@@ -45,8 +45,6 @@ lang: zh_tw
 
 自 2007 年起，Ruby Central 也與 [SVForum][7] 合作主辦矽谷的 Ruby 研討會。
 
-[RubyNation][8]是美國東岸（Virginia, West Virginia, Maryland 和 Washington, DC 等地區）的 Ruby 年度大會。
-
 [WindyCityRails][9]：是一群由對於 Ruby on Rails 充滿熱情的愛好者所舉辦的年度聚會，從 2008 年於芝加哥開始於社群舉行。
 
 [Steel City Ruby][16]：於匹茲堡舉辦的研討會。
@@ -81,7 +79,6 @@ lang: zh_tw
 [4]: http://euruko.org
 [6]: http://rubycentral.org/community/grant
 [7]: http://www.svforum.org
-[8]: http://rubynation.org/
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

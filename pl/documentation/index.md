@@ -66,11 +66,6 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   wydanie książki zostało wydane w języku polskim pod tytułem:
   "Programowanie w języku Ruby".
 
-[Ruby User’s Guide][11]
-: Przetłumaczone z orzginalnej japońskiej wersji napisanej przez Yukihiro
-  Matsumoto (twórca Rubiego), ta wersja, napisana przez Goto Kentaro i
-  Marka Slagella jest dobrym przeglądem wielu aspektów języka Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Darmowy manual z materiałem dla początkujących i średnio zaawansowanych
   wraz z dokładnymi odniesieniami.
@@ -125,7 +120,7 @@ Oto lista popularnych narzędzi używanych przez rubistów:
 
 * Dla macOS:
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (przeglądarka dokumentacji)
 
 ### Inne źródła
@@ -139,13 +134,12 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -167,7 +161,7 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

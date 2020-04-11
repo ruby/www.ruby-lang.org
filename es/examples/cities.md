@@ -7,12 +7,12 @@ layout: null
 # quieres, aun si quieres
 # hacer matemáticas
 # en un Arreglo completo
-ciudades = %w[ London
+ciudades = %w[ Londres
               Oslo
-              Paris
-              Amsterdam
-              Berlin ]
-visitado = %w[Berlin Oslo]
+              París
+              Ámsterdam
+              Berlín ]
+visitado = %w[Berlín Oslo]
 
 puts "Aun necesito " +
      "visitar las " +

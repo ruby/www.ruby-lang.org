@@ -50,11 +50,6 @@ the [installation guide](installation/) for help on installing Ruby.
 : The seminal work on Ruby in English, this first edition of the
   [Pragmatic Programmers’ book][10] is available for free online.
 
-[Ruby User’s Guide][11]
-: Translated from the original Japanese version written by Yukihiro
-  Matsumoto (the creator of Ruby), this version, by Goto Kentaro and
-  Mark Slagell, is a nice overview of many aspects of the Ruby language.
-
 [The Ruby Programming Wikibook][12]
 : A free online manual with beginner and intermediate content plus a
   thorough language reference.
@@ -89,6 +84,9 @@ the [installation guide](installation/) for help on installing Ruby.
 [APIdock][18]
 : Ruby, Rails and RSpec documentation with users’ notes.
 
+[RubyAPI.org][rubyapi-org]
+: Easily find and browse Ruby classes, modules, and methods.
+
 ### Editors and IDEs
 
 For coding in Ruby, you can use the default editor of your operating
@@ -119,7 +117,7 @@ Here is a list of popular tools used by Rubyists:
 
 * On macOS:
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (documentation browser)
 
 ### Further Reading
@@ -133,13 +131,12 @@ If you have questions about Ruby the
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -148,6 +145,7 @@ If you have questions about Ruby the
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -162,7 +160,7 @@ If you have questions about Ruby the
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

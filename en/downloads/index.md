@@ -56,9 +56,9 @@ one of the third party tools mentioned above. They may help you.
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-* **Snapshots:**
-  * [Stable Snapshot]({{ site.data.downloads.stable_snapshot.url.gz }}):
-    This is a tarball of the latest snapshot of the current stable branch.
+* **Snapshots:**{% for snapshot in site.data.downloads.stable_snapshots %}
+  * [Stable Snapshot of {{ snapshot.branch }} branch]({{ snapshot.url.gz }}):
+    This is a tarball of the latest snapshot of the current `{{ snapshot.branch }}` branch.{% endfor %}
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     This is a tarball of whatever is in Git, made nightly.
     This may contain bugs or other issues, use at your own risk!

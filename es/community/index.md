@@ -44,6 +44,12 @@ donde empezar:
   experiencias en sus desarrollos, discutir sobre el futuro de Ruby, y
   dar una bienvenida a los recién llegados a la comunidad Ruby.
 
+[Podcasts](podcasts/)
+: Si prefieres escuchar conversaciones sobre Ruby en lugar de leer,
+  puedes sintonizar uno de estos increíbles podcast de Ruby. Estos Rubistas
+  usan sus podcast para cubrir nuevos lanzamientos, noticias de la comunidad y
+  entrevistar a sus compañeros desarrolladores de Ruby.
+
 Información general sobre Ruby
 : * [Ruby Central][ruby-central]
   * [Ruby en el Open Directory Project][ruby-opendir]

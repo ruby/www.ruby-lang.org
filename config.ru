@@ -95,4 +95,4 @@ if ENV["RACK_ENV"] == "production"
   use Rack::Protection::FrameOptions
 end
 
-run Lanyon.application(:skip_build => true)
+run Lanyon.application(skip_build: true)

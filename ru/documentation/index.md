@@ -40,7 +40,7 @@ ruby -v
   данное руководство является классикой для изучения Ruby.
 
 [Ruby за двадцать минут](/ru/documentation/quickstart/)
-: Неплохое введение, покрывающие основы Ruby. Прохождение его от начала
+: Неплохое введение, покрывающее основы Ruby. Прохождение его от начала
   до конца не должно занять у вас более двадцати минут.
 
 [В Ruby из других языков](/ru/documentation/ruby-from-other-languages/)
@@ -70,11 +70,6 @@ ruby -v
 : Основополагающая работа по Ruby на английском в первом издании,
   [книга от Pragmatic Programmers][10], доступна бесплатно онлайн.
 
-[Ruby User’s Guide][11]
-: Переведенная с японского языка версия, написанная Yukihiro Matsumoto
-  (создатель Ruby), эта версия Goto Kentaro и Mark Slagell является
-  отличным обзором многих аспектов языка Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Бесплатное онлайн-руководство для начинающих и продвинутых, плюс
   полная документация языка.
@@ -100,6 +95,9 @@ ruby -v
 [APIdock][18]
 : Ruby, Rails и RSpec документация с комментариями и заметками
   пользователей.
+
+[RubyAPI.org][rubyapi-org]
+: Легко находите и просматривайте классы, модули и методы Ruby.
 
 ### Редакторы и среды разработки
 
@@ -130,7 +128,7 @@ ruby -v
 
 * На macOS:
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
 
 ### Дальнейшее чтение
 
@@ -142,13 +140,12 @@ ruby -v
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -156,6 +153,7 @@ ruby -v
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -170,7 +168,7 @@ ruby -v
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

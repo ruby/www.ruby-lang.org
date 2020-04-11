@@ -38,12 +38,11 @@
     <div id="header">
       <div id="header_content" class="container">
         <a href="/{{ page.lang }}/">
-          <h1>{{ site.locales.ruby[page.lang] }}</h1>
-          <h2>{{ site.locales.slogan[page.lang] }}</h2>
+          <h1>{{ site.data.locales[page.lang].ruby }}</h1>
+          <h2>{{ site.data.locales[page.lang].slogan }}</h2>
         </a>
 
         <div class="site-links">
-          <a href="/{{ page.lang }}/" class="home">Home</a>
           {% include sitelinks.html %}
           <a href="#" class="menu selected">Menu</a>
         </div>

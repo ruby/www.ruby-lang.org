@@ -50,7 +50,7 @@ sistemde var olan kurulum yöntemlerinden herhangi birini kullanmak için
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller ve Ruby Stack](#railsinstaller)
+  * [Ruby Stack](#rubystack)
 * [Yöneticiler](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
@@ -224,7 +224,7 @@ kurucuya ihtiyacınız yok, RVM kendisininki ile gelir.
 
 [ruby-build][ruby-build], [rbenv](#rbenv) için Ruby'nin farklı sürümlerini
 derleyip kurmanıza imkan veren bir eklentidir. ruby-build ayrıca rbenv olmadan
-tek başına çalışan bir program olarak da kullanılabilir. rbenv, macOS, Linux, ve diğer
+tek başına çalışan bir program olarak da kullanılabilir. macOS, Linux, ve diğer
 UNIX benzeri işletim sistemlerinde kullanılabilir.
 
 
@@ -247,15 +247,12 @@ ayarlamak için size gereken her şeyi verir.
 Sadece indirin, çalıştırın, ve her şey tamam!
 
 
-### RailsInstaller ve Ruby Stack
-{: #railsinstaller}
+### Ruby Stack
+{: #rubystack}
 
-Eğer Ruby'yi Ruby on Rails kullanmak için kuruyorsanız, aşağıdaki kurucuları
+Eğer Ruby'yi Ruby on Rails kullanmak için kuruyorsanız, aşağıdaki kurucuyu
 kullanabilirsiniz:
 
-* [RailsInstaller][railsinstaller], [RubyInstaller][rubyinstaller]'ı kullanır
-  fakat size Rails geliştirmesine yardımcı olacak fazladan araçlar verir.
-  macOS ve Windows'u destekler.
 * [Bitnami Ruby Stack][rubystack], Rails için tam bir geliştirme ortamı sağlar.
   macOS, Linux, Windows, sanal makineler, ve bulut görüntülerini destekler.
 
@@ -268,6 +265,12 @@ Yöneticiler Ruby sürümleri arasında kolay hatta projeye bağlı olarak otoma
 geçiş imkanı sağlar ve başka avantajlara sahiptir fakat resmi olarak
 desteklenmezler. Fakat ilgili topluluklar içinde destek bulabilirsiniz.
 
+
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm], proje başına birden çok dil çalışma zamanı sürümlerini yönetebilen genişletilebilir bir sürüm yöneticisidir.
+Ruby'yi kurmak için [asdf-ruby][asdf-ruby] ([ruby-build](#ruby-build)'ı kullanır) eklentisini kurmalısınız.
 
 ### chruby
 {: #chruby}
@@ -330,7 +333,6 @@ olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecekti
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
@@ -342,3 +344,5 @@ olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecekti
 [installers]: /tr/documentation/installation/#installers
 [readme]: https://github.com/ruby/ruby#how-to-compile-and-install
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby

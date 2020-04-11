@@ -1,0 +1,119 @@
+---
+ruby: Ruby
+slogan: 程式設計師的摯友
+
+sitelinks:
+- text: 首頁
+  url: /zh_tw
+  home: true
+- text: 下載安裝
+  url: /zh_tw/downloads
+- text: 文件
+  url: /zh_tw/documentation
+- text: 函式庫
+  url: /zh_tw/libraries
+- text: 社群
+  url: /zh_tw/community
+- text: 新聞
+  url: /zh_tw/news
+- text: 安全
+  url: /zh_tw/security
+- text: 關於 Ruby
+  url: /zh_tw/about
+
+search:
+  text: 搜尋
+
+sidebar:
+  get_started:
+    text: <strong>上手入門</strong>，一點都不難!
+    try_ruby:
+      text: 在瀏覽器中試用 Ruby!
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: 20 分鐘 Ruby 體驗
+      url: /zh_tw/documentation/quickstart/
+    ruby_from_other_languages:
+      text: 從其他語言到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>探索</strong> 新世界…
+    documentation:
+      text: 文件
+      url: /zh_tw/documentation/
+    # books:
+    #   text: 書籍
+    rubybib:
+      text: 學術研究
+      url: https://rubybib.org/
+    libraries:
+      text: 函式庫
+      url: /zh_tw/libraries/
+    success_stories:
+      text: 成功案例
+      url: /zh_tw/documentation/success-stories/
+  participate:
+    text: <strong>加入</strong> 友善且持續成長的社群
+    mailing_lists:
+      text: 郵件論壇
+      url: /zh_tw/community/mailing-lists/
+      description: 與世界各地的程式設計師一同聊聊
+    user_groups:
+      text: 使用者群組
+      url: /zh_tw/community/user-groups/
+      description: 與身旁的 Ruby 使用者接觸
+    weblogs:
+      text: 部落格
+      url: /zh_tw/community/weblogs/
+      description: 了解 Ruby 社群中的最新消息
+    ruby_core:
+      text: Ruby 核心
+      url: /zh_tw/community/ruby-core/
+      description: 幫助開發最新的 Ruby
+    issue_tracking:
+      text: 問題追蹤
+      url: https://bugs.ruby-lang.org/
+      description: 回報或解決 Ruby 問題
+  syndicate:
+    text: 訂閱
+    recent_news:
+      text: 最新消息（RSS）
+      url: /zh_tw/feeds/news.rss
+
+languages_heading:
+
+credits:
+  <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。
+
+month_names:
+
+posted_by: 由 AUTHOR 發表於 %Y-%m-%d
+translated_by: 翻譯：
+
+feed:
+  title: Ruby 新聞
+  description: 來自 ruby-lang.org 的新聞快報。
+  lang_code: zh-TW
+
+news:
+  other_news: 其他新聞
+  more_news: 更多新聞...
+  continue: 深入閱讀...
+  back_to_year: 回到 %Y 年彙整
+  recent_news: 最新消息
+  yearly_archive_title: "%Y 彙整"
+  monthly_archive_title: "%Y 年 %-m 月彙整"
+  yearly_archives: 按年份彙整
+  monthly_archives: 按月份彙整
+  yearly_archive_link: "%Y 年彙整"
+  monthly_archive_link: "%Y 年 %-m 月彙整"
+
+subscription_form:
+  list: 郵件論壇
+  first_name: 名
+  last_name: 姓
+  email: 電子郵件
+  action: Action
+  subscribe: 訂閱
+  unsubscribe: 退訂
+  submit: 送出表格

@@ -59,11 +59,6 @@ lang: ko
 : 영어로 된 독창적인 루비 책입니다. [Pragmatic Programmers의 책][10]
   1판이 무료로 온라인에 공개되어 있습니다.
 
-[Ruby User’s Guide][11] (영문)
-: Yukihiro Matsumoto(루비의 창시자)의 글을 영문으로 번역한 것입니다.
-  루비 언어를 여러 관점에서 전반적으로 설명합니다.
-  이 버전은 고토 켄타로 님과 Mark Slagell 님이 작업 해주셨습니다.
-
 [The Ruby Programming Wikibook][12] (영문)
 : 초보자와 중급자를 위한 무료 온라인 매뉴얼과 전 언어 레퍼런스입니다.
 
@@ -123,7 +118,7 @@ lang: ko
 
 * macOS
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (문서 브라우저)
 
 ### 더 읽을거리
@@ -136,13 +131,12 @@ lang: ko
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -165,7 +159,7 @@ lang: ko
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

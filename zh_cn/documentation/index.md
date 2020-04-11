@@ -52,9 +52,6 @@ ruby -v
 [Programming Ruby][9]
 : 最有影响的 Ruby 英文教材，[Pragmatic Programmers 出版的第一版][10]可以在网上免费阅读。
 
-[Ruby 用户指南][11]
-: 译自松本行弘（Ruby 的发明者）的日文版原作，Goto Kentaro 和 Mark Slagell 在这部教材里介绍了 Ruby 各个方面的功能。
-
 [Ruby 编程百科全书][12]
 : 免费的在线语言参考资料，内容从 Ruby 初级到中级。
 
@@ -74,6 +71,9 @@ ruby -v
 
 [APIdock][18]
 : 带有用户评注的 Ruby、Rails 和 RSpec 文档。
+
+[RubyAPI.org][rubyapi-org]
+: 简单搜索浏览 Ruby 类、模块和方法。
 
 ### 编辑器和集成开发环境
 
@@ -101,7 +101,7 @@ ruby -v
 
 * macOS:
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39]（文档浏览器）
 
 ### 扩展阅读
@@ -112,13 +112,12 @@ ruby -v
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -126,6 +125,7 @@ ruby -v
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -140,7 +140,7 @@ ruby -v
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

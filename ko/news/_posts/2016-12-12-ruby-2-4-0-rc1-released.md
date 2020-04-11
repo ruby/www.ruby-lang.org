@@ -133,4 +133,4 @@ Fixnum이나 Bignum 클래스를 변경하는 모든 C 확장을 고쳐야 합�
 
 릴리스 일정과 다른 정보는 아래 링크를 참조하세요.
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

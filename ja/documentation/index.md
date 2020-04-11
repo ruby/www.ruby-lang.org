@@ -56,6 +56,9 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 : Ruby gemsやGitHubでホスティングされてるRubyプロジェクトのリファレンスが見れる
   完結型のリファレンスサイト。
 
+[RubyAPI.org (英語)][rubyapi-org]
+: こちらは Ruby のソースコードから生成したのリファレンス、コアクラスやモジュールのリファレンスがあります。
+
 ### 旧版
 
 刷新計画以前の古いRubyリファレンスマニュアルの公開は終了しましたが、
@@ -100,7 +103,7 @@ Rubyistに人気のあるソフトウェアには次のようなものがあり�
 
 * macOS
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (ドキュメント表示ツール)
 
 Posted by Shugo Maeda on 26 May 2006
@@ -136,6 +139,7 @@ Posted by Shugo Maeda on 26 May 2006
 [man-146-ja]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6-jp.tar.gz
 [man-146-en]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-man-1.4.6.tar.gz
 
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -150,7 +154,7 @@ Posted by Shugo Maeda on 26 May 2006
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [39]: http://kapeli.com/dash

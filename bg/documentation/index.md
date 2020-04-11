@@ -66,11 +66,6 @@ ruby -v
 : Първото издание на книгата [Pragmatic Programmers][10], напълно
   безплатно.
 
-[Ruby User’s Guide][11]
-: Ръководството е превод на оригинала от Yukihiro Matsumoto (създателя
-  на Ruby). Тази версия (от Goto Kentaro и Mark Slagell) представя много
-  аспекти от програмирането на Ruby.
-
 [The Ruby Programming Wikibook][12]
 : Безплатно online ръководство със съдържание за начинаещи и средно
   напреднали.
@@ -124,7 +119,7 @@ ruby -v
 
 * За macOS:
   * [TextMate][32]
-  * [TextWrangler][33]
+  * [BBEdit][33]
   * [Dash][39] (за преглед на документация)
 
 ### Други източници
@@ -136,13 +131,12 @@ ruby -v
 
 [1]: https://ruby.github.io/TryRuby/
 [2]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[11]: http://www.rubyist.net/~slagell/ruby/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
@@ -164,7 +158,7 @@ ruby -v
 [30]: http://www.e-texteditor.com/
 [31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
-[33]: http://www.barebones.com/products/textwrangler/
+[33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
 [35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/

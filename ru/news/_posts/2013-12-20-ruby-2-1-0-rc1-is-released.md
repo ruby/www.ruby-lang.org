@@ -65,4 +65,4 @@ Konstantin Haase (@konstantinhaase) написал хороший пост в с
 
 О плане релизов и другую информацию можно получить тут:
 
-<https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>
+<https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210>

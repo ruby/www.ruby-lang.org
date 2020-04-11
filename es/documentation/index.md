@@ -40,12 +40,6 @@ serán útiles a la hora de desarrollar con Ruby.
   parlantes. Este pequeño libro está en camino a convertirse en un
   clásico de Ruby.
 
-[La guía del usuario Ruby][6]
-: Traducida al inglés desde su versión original japonesa escrita por
-  Yukihiro Matsumoto (el creador de Ruby), esta versión de Goto Kentaro
-  y Mark Slagell es un buen resumen de varios aspectos del lenguaje
-  Ruby.
-
 ### Documentación de referencia
 
 [Referencia del núcleo de Ruby][7]
@@ -74,8 +68,7 @@ correo](/es/community/mailing-lists/) es un buen lugar para comenzar.
 [2]: http://pine.fm/LearnToProgram/
 [3]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [4]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[5]: http://mislav.uniqpath.com/poignant-guide/
-[6]: http://www.rubyist.net/~slagell/ruby/
+[5]: https://poignant.guide
 [7]: http://www.ruby-doc.org/core
 [8]: https://ruby.github.io/rdoc/
 [9]: http://www.ruby-doc.org/stdlib

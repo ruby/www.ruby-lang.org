@@ -125,4 +125,4 @@ so với Ruby 2.3.0!
 
 Xem thêm thông tin về kế hoạch release và các nội dung khác ở đây:
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

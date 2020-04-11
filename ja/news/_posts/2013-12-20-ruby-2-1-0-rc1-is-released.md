@@ -65,4 +65,4 @@ Konstantin Haase (@konstantinhaase) さんがブログに良いまとめを書�
 
 リリーススケジュールやその他の情報については以下も参照してください:
 
-<https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering210>
+<https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210>

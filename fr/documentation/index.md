@@ -90,11 +90,6 @@ pour les nombreuses façons d'obtenir Ruby.
   première version du [livre le plus populaire sur Ruby][13],
   par les *Pragmatic Programmers*.
 
-[*Ruby User’s Guide*][14]
-: Traduit depuis le texte original japonais de Yukihiro Matsumoto (le
-  créateur de Ruby), cette version de Goto Kentaro et Mark Slagell
-  présente l’essentiel des différents aspects du langage Ruby.
-
 [*The Ruby Programming Wikibook*][15]
 : Un manuel gratuit destiné aux débutants et aux programmeurs de niveaux
   intermédiaire. Propose également une référence du langage.
@@ -136,7 +131,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [2]: http://jeveuxapprendreruby.fr/
 [3]: https://ruby.github.io/TryRuby/
 [4]: http://rubykoans.com/
-[5]: http://mislav.uniqpath.com/poignant-guide/
+[5]: https://poignant.guide
 [6]: http://pine.fm/LearnToProgram/
 [7]: http://www.ruby-doc.org/docs/ApprendreProgrammer/Apprendre_%E0_Programmer.pdf
 [9]: http://rubylearning.com/
@@ -144,7 +139,6 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [11]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
 [12]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [13]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[14]: http://www.rubyist.net/~slagell/ruby/
 [15]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: http://www.ruby-doc.org/core
 [17]: https://ruby.github.io/rdoc/

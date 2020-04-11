@@ -1,0 +1,48 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: build (${{ matrix.ruby }} / ${{ matrix.os }})
+
+    strategy:
+      matrix:
+        ruby: [2.6, 2.7]
+        os: [ubuntu-latest, macos-latest]
+      fail-fast: false
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Dump environment
+        run: env | sort
+      - name: Checkout ruby/www.ruby-lang.org
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          architecture: x64
+      - name: Dump Ruby version
+        run: ruby -v
+      # override the Ruby version specified in the Gemfile
+      - name: Set CUSTOM_RUBY_VERSION for Gemfile
+        run: echo ::set-env name=CUSTOM_RUBY_VERSION::$(ruby -e 'puts RUBY_VERSION')
+      - name: Dump CUSTOM_RUBY_VERSION
+        run: echo $CUSTOM_RUBY_VERSION
+      - name: Cache gem bundle
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-${{ matrix.ruby }}-bundle-${{ hashFiles('Gemfile.lock') }}
+      - name: Install bundler
+        run: gem install bundler --no-document
+      - name: Install gem bundle
+        run: |
+          bundle config set path 'vendor/bundle'
+          bundle install
+      - name: Run tests
+        run: bundle exec rake test

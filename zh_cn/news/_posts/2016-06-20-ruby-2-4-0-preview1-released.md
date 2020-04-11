@@ -97,4 +97,4 @@ Ruby 2.4 死锁检查会显示他们的栈信息和依赖线程。
 
 其他资讯请参考发布日程安排：
 
-[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering24)
+[ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

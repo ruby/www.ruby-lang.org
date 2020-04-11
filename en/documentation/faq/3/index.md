@@ -148,9 +148,7 @@ He recommends installing the GNU equivalent.
 {% include faq-out-of-date.html %}
 
 A single download that contains everything you need to run Ruby under various
-Windows operating systems is available from
-[RubyCentral's One-click Windows installer](http://www.rubycentral.com/downloads/ruby-install.html).
-This installation uses cygwin, and includes Tk support.
+Windows operating systems is available from [RubyInstaller](https://rubyinstaller.org/).
 
 If you want other installation options, precompiled binaries for Windows are
 also available from

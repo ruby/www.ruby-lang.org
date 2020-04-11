@@ -78,4 +78,4 @@ Thông kê thay đổi, 1239 files thay đổi, 98343 thêm vào(+), 61858 xoá 
 
 Xem luôn lịch ấn hành và các thông tin khác tại:
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

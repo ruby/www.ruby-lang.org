@@ -15,7 +15,7 @@ Existem diversas ferramentas para instalar o Ruby em cada grande plataforma:
 
 * No Linux/UNIX, você pode usar o sistema de gerenciamento de pacotes da
   sua distribuição ou ferramentas de terceiros ([rbenv][rbenv] e [RVM][rvm]).
-* Em máquinas com macOS, você pode usar ferramentas de terceirol ([rbenv][rbenv] e [RVM][rvm]).
+* Em máquinas com macOS, você pode usar ferramentas de terceiros ([rbenv][rbenv] e [RVM][rvm]).
 * Em máquinas com Windows, você pode usar o [RubyInstaller][rubyinstaller] ou o pik.
 
 Consulte a página [Instalação][installation] para mais detalhes sobre
@@ -53,7 +53,7 @@ mencionadas acima. Elas podem te ajudar.
 {% endif %}
 
 * **Snapshots:**
-  * [Snapshot Estável]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Snapshot Estável]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Este é um arquivo compactado com o snapshot mais recente do branch estável.
   * [Nightly Snapshot]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Este é um arquivo compactado do que está no Git, criado todas as noites.

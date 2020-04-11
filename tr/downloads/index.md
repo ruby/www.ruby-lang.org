@@ -4,8 +4,6 @@ title: "Ruby'yi İndirin"
 lang: tr
 ---
 
-{% include out-of-date.html %}
-
 Burada en son Ruby dağıtımlarını işinize gelen şekliyle bulabilirsiniz.
 En son kararlı sürüm {{ site.data.downloads.stable[0] }} sürümüdür.
 Lütfen önce [Ruby'nin lisansını][license] okuyun.
@@ -71,7 +69,7 @@ Bunlar size yardımcı olabilir.
 {% endif %}
 
 * **Anlıklar:**
-  * [Kararlı Anlık]({{ site.data.downloads.stable_snapshot.url.gz }}):
+  * [Kararlı Anlık]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
     Bu, şu anki kararlı dalın son anlığının bir tar arşividir.
     [Gecelik Anlık]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Bu, Git'de her ne varsa onun bir tar arşividir, gecelik olarak yapılır.
@@ -83,7 +81,7 @@ hakkında daha fazla bilgi için, [Sürümler sayfası][releases]na bakın.
 [Dallar sayfası][branches]nda bulunabilir.
 
 Ruby Subversion ve Git depoları hakkında bilgi için [Ruby
-Core](/en/community/ruby-core/) sayfasına bakın.
+Core](/tr/community/ruby-core/) sayfasına bakın.
 
 Ruby kaynağı tüm dünyaya yayılmış [Yansı Siteleri][mirrors]nden
 ulaşılabilirdir.

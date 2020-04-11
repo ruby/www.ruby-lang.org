@@ -363,8 +363,9 @@ div.post h3 a:hover { text-decoration: underline; }
   font-size: 15px;
 }
 
-#header div.site-links a.menu,
-#header div.site-links a.home { display: none; }
+#header div.site-links a.home,
+#footer div.site-links a.home,
+#header div.site-links a.menu { display: none; }
 
 #header div.site-links a.selected {
   color: white;

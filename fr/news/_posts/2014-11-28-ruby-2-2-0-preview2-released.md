@@ -92,4 +92,4 @@ Avec ces changements, 1 239 fichiers changés, 98 343 ajouts(+), 61 858 supprés
 
 Consultez également le planning de versions et d'autres informations :
 
-[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/ReleaseEngineering22)
+[ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

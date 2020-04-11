@@ -1,0 +1,133 @@
+---
+ruby: Ruby
+slogan: лучший друг программиста
+
+sitelinks:
+- text: Главная
+  url: /ru
+  home: true
+- text: Скачать
+  url: /ru/downloads
+- text: Документация
+  url: /ru/documentation
+- text: Библиотеки
+  url: /ru/libraries
+- text: Сообщество
+  url: /ru/community
+- text: Новости
+  url: /ru/news
+- text: Безопасность
+  url: /ru/security
+- text: О Ruby
+  url: /ru/about
+
+search:
+  text: Поиск
+
+sidebar:
+  get_started:
+    text: <strong>Начните сейчас</strong>, это легко!
+    try_ruby:
+      text: Попробуйте Ruby! (в своем браузере)
+      url: https://ruby.github.io/TryRuby/
+    quickstart:
+      text: Ruby за двадцать минут
+      url: /ru/documentation/quickstart/
+    ruby_from_other_languages:
+      text: В Ruby из других языков
+      url: /ru/documentation/ruby-from-other-languages/
+  explore:
+    text: <strong>Исследуйте</strong> новый мир…
+    documentation:
+      text: Документация
+      url: /ru/documentation/
+    # books:
+    #   text: Книги
+    rubybib:
+      text: Научные публикации
+      url: https://rubybib.org/
+    libraries:
+      text: Библиотеки
+      url: /ru/libraries/
+    success_stories:
+      text: Истории успеха
+      url: /ru/documentation/success-stories/
+  participate:
+    text: <strong>Вступайте</strong> в дружелюбное и развивающееся сообщество.
+    mailing_lists:
+      text: Почтовые рассылки
+      url: /ru/community/mailing-lists/
+      description: Разговоры о Ruby в кругу программистов со всего мира.
+    user_groups:
+      text: Группы пользователей
+      url: /ru/community/user-groups/
+      description: Познакомьтесь с рубистами рядом с вами.
+    weblogs:
+      text: Блоги
+      url: /ru/community/weblogs/
+      description: Читайте о том, что происходит в сообществе Ruby прямо
+        сейчас.
+    ruby_core:
+      text: Ядро Ruby
+      url: /ru/community/ruby-core/
+      description: Помощь в полировке последней версии Ruby.
+    issue_tracking:
+      text: Решение проблем
+      url: https://bugs.ruby-lang.org/
+      description: Сообщайте или помогите решить проблемы в Ruby.
+  syndicate:
+    text: Синдикат
+    recent_news:
+      text: Последние новости (RSS)
+      url: /ru/feeds/news.rss
+
+languages_heading: 'Этот сайт на других языках:'
+
+credits:
+  <a href="/ru/about/website/">Этот сайт</a>
+  с гордостью поддерживается членами сообщества Ruby.
+
+month_names:
+- Январь
+- Февраль
+- Март
+- Апрель
+- Май
+- Июнь
+- Июль
+- Август
+- Сентябрь
+- Октябрь
+- Ноябрь
+- Декабрь
+
+posted_by: Опубликовал AUTHOR %Y-%m-%d
+translated_by: 'Перевел:'
+
+feed:
+  title: Новости Ruby
+  description: Последние новости с ruby-lang.org.
+  lang_code: ru-RU
+
+news:
+  other_news: Другие новости
+  more_news: Больше новостей...
+  continue: Узнать больше...
+  back_to_year: Вернуться к архивам %Y года
+  recent_news: Последние новости
+  yearly_archive_title: Архивы %Y года
+  monthly_archive_title: Архивы %B %Y
+  yearly_archives: Архивы по годам
+  monthly_archives: Архивы по месяцам
+  yearly_archive_link: Архивы %Y
+  monthly_archive_link: "%B %Y"
+
+subscription_form:
+  list: Почтовая рассылка
+  first_name: Имя
+  last_name: Фамилия
+  email: Email
+  action: Действие
+  subscribe: Подписаться
+  unsubscribe: Отписаться
+  submit: Отправить
