@@ -43,6 +43,9 @@ sidebar:
       url: /id/documentation/
     # books:
     #   text: Buku-buku
+    rubybib:
+      text: Penelitian Akademis
+      url: https://rubybib.org/
     libraries:
       text: Pustaka
       url: /id/libraries/
