@@ -9,16 +9,16 @@ stable:
 
   - 2.7.1
   - 2.6.6
-  - 2.5.8
 
 # optional
 security_maintenance:
 
-  - 2.4.10
+  - 2.5.8
 
 # optional
 eol:
 
+  - 2.4.10
   - 2.3.8
 
 stable_snapshots:
