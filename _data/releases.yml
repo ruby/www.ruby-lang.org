@@ -22,7 +22,7 @@
 # 2.7 series
 
 - version: 2.7.1
-  date: '2020-03-31'
+  date: 2020-03-31
   post: "/en/news/2020/03/31/ruby-2-7-1-released/"
   url:
     bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.1.tar.bz2
@@ -209,7 +209,7 @@
 # 2.6 series
 
 - version: 2.6.6
-  date: '2020-03-31'
+  date: 2020-03-31
   post: "/en/news/2020/03/31/ruby-2-6-6-released/"
   url:
     bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.6.tar.bz2
@@ -409,7 +409,7 @@
 # 2.5 series
 
 - version: 2.5.8
-  date: '2020-03-31'
+  date: 2020-03-31
   post: "/en/news/2020/03/31/ruby-2-5-8-released/"
   url:
     bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.8.tar.bz2
@@ -595,7 +595,7 @@
 # 2.4 series
 
 - version: 2.4.10
-  date: '2020-03-31'
+  date: 2020-03-31
   post: "/en/news/2020/03/31/ruby-2-4-10-released/"
   url:
     bz2: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.10.tar.bz2
