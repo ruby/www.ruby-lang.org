@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.6.5 發佈"
+title: "Ruby 2.6.5 已发布"
 author: "nagachika"
 translator: Delton Ding
 date: 2019-10-01 11:00:00 +0000
