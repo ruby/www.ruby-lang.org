@@ -57,9 +57,9 @@ lang: ru
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
 
-* **Слепки:**
-  * [Стабильный слепок]({{ site.data.downloads.stable_snapshots[0].url.gz }}):
-    Это архив свежайшего слепка текущей стабильной ветки.
+* **Слепки:**{% for snapshot in site.data.downloads.stable_snapshots %}
+  * [Стабильный слепок ветки {{ snapshot.branch }}]({{ snapshot.url.gz }}):
+    Это архив свежайшего слепка текущей ветки `{{ snapshot.branch }}`.{% endfor %}
   * [Nightly-слепок]({{ site.data.downloads.nightly_snapshot.url.gz }}):
     Это архив того, что есть в Git, сделанный ночью.
     Может содержать баги и прочие ошибки, используйте его на свой страх и риск.
