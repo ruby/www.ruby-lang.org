@@ -183,7 +183,7 @@ end
 
 * 更新 Unicode 至 12.1.0 版本，新增对于新年号「令和」 U+32FF 的支持。[[功能 #15195]](https://bugs.ruby-lang.org/issues/15195)
 
-* `Date.jisx0301`、`Date#jisx0301` 和 `Date.parse` 展示支持新的日本年号作为非正式的扩展功能，直到新的 JIS X 0301 发布。[[功能 #15742]](https://bugs.ruby-lang.org/issues/15742)
+* `Date.jisx0301`、`Date#jisx0301` 和 `Date.parse` 暂时支持新的日本年号作为非正式的扩展功能，直到新的 JIS X 0301 发布。[[功能 #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * 编译器需要支持 C99 [[杂项 #15347]](https://bugs.ruby-lang.org/issues/15347)
   *关于我们使用方言的具体信息请查阅：<https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
