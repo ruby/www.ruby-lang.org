@@ -226,7 +226,7 @@ Ruby 2.7では`GC.compact` というメソッドを導入し、ヒープをコ�
 
 Ruby 2.7 で楽しいプログラミングを！
 
-## Download
+## ダウンロード
 
 * <{{ release.url.bz2 }}>
 
