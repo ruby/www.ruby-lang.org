@@ -227,7 +227,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 Ruby 2.7 で楽しいプログラミングを！
 
-## Download
+## ダウンロード
 
 * <{{ release.url.bz2 }}>
 

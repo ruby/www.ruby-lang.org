@@ -191,7 +191,7 @@ Ruby に添付されている REPL (Read-Eval-Print-Loop) である `irb` で、
 
 Ruby 2.7 で楽しいプログラミングを！
 
-## Download
+## ダウンロード
 
 * <https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.0-preview2.tar.bz2>
 
