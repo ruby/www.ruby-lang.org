@@ -63,7 +63,7 @@ the other direction---everything is an object. If the user doesn't grok
 objects yet, they can just pretend that `def` is a function definition and
 still get useful work done.
 
-Ruby's OO purity provides a number features that Python lacks or is still
+Ruby's OO purity provides a number of features that Python lacks or is still
 working toward: a unified type/class hierarchy, metaclasses, the ability to
 subclass everything, and uniform method invocation (none of this `len()` is a
 function but `items()` is a method rubbish). Ruby, like Smalltalk, only
