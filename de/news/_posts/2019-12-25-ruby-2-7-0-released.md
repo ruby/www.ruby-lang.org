@@ -27,7 +27,7 @@ Programmiersprache Ruby eingeführt. [#14912](https://bugs.ruby-lang.org/issues/
 Ein Musterabgleich untersucht das übergebene Objekt und weist seinen
 Wert dann zu, wenn er auf ein bestimmtes Muster passt.
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -42,7 +42,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 Weitere Details können Sie der Präsentation [Musterabgleiche - Neue Funktion in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)
 entnehmen.

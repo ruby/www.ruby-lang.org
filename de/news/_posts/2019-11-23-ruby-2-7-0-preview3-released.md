@@ -48,7 +48,7 @@ Programmiersprache Ruby eingeführt. [#14912](https://bugs.ruby-lang.org/issues/
 Ein Musterabgleich untersucht das übergebene Objekt und weist seinen
 Wert dann zu, wenn er auf ein bestimmtes Muster passt.
 
-{% highlight ruby %}
+```ruby
 require "json"
 
 json = <<END
@@ -63,7 +63,7 @@ case JSON.parse(json, symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
   p age #=> 2
 end
-{% endhighlight %}
+```
 
 Weitere Details können Sie der Präsentation [Musterabgleiche - Neue Funktion in Ruby 2.7](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)
 entnehmen.
@@ -101,12 +101,12 @@ werden. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
   vermieden und das korrekte Verhalten in Ruby 3 sichergestellt
   werden.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(key: 42); end; foo({key: 42})   # Warnung
   def foo(**kw);    end; foo({key: 42})   # Warnung
   def foo(key: 42); end; foo(**{key: 42}) # OK
   def foo(**kw);    end; foo(**{key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * Wenn bei einem Methodenaufruf Schlüsselwortargumente an eine
   Methode, die auch Schlüsselwortargumente akzeptiert, übergeben
@@ -117,12 +117,12 @@ werden. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
   Schlüsselwortargumentliste, um die Warnung zu vermeiden und
   korrektes Verhalten in Ruby 3 sicherzustellen.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **kw); end; foo(key: 42)      # Warnung
   def foo(h, key: 42); end; foo(key: 42)   # Warnung
   def foo(h, **kw); end; foo({key: 42})    # OK
   def foo(h, key: 42); end; foo({key: 42}) # OK
-  {% endhighlight %}
+  ```
 
 * Wenn eine Methode bestimmte Schlüsselwortargumente, nicht aber den
   doppelten Auflösungsoperator verwendet, und ein Hash oder eine
@@ -132,11 +132,11 @@ werden. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
   Verhalten in Ruby 3 den aufrufenden Code so ändern, dass zwei
   einzelne Hashes übergeben werden.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h={}, key: 42); end; foo("key" => 43, key: 42)   # Warnung
   def foo(h={}, key: 42); end; foo({"key" => 43, key: 42}) # Warnung
   def foo(h={}, key: 42); end; foo({"key" => 43}, key: 42) # OK
-  {% endhighlight %}
+  ```
 
 * Wenn eine Methode keine Schlüsselwortargumente akzeptiert, aber mit
   solchen aufgerufen wird, werden solche Schlüsselwortargumente
@@ -144,30 +144,30 @@ werden. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
   interpretiert. Dieses Verhalten wird auch in Ruby 3 weiterhin
   beibehalten.
 
-  {% highlight ruby %}
+  ```ruby
   def foo(opt={});  end; foo( key: 42 )   # OK
-  {% endhighlight %}
+  ```
 
 * Schlüsselwortargumente mit anderen Schlüsseln als Symbolen sind
   zulässig, wenn die Methode beliebige Schlüsselwortargumente
   akzeptiert. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(**kw); p kw; end; foo("str" => 1) #=> {"str"=>1}
-  {% endhighlight %}
+  ```
 
 * <code>**nil</code> kann genutzt werden, um in einer
   Methodendefinition ausdrücklich festzulegen, dass die Methode keine
   Schlüsselwörter akzeptiert. Der Aufruf einer solchen Methode mit
   Schlüsselwortargumenten erzeugt einen ArgumentError. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   def foo(h, **nil); end; foo(key: 1)       # ArgumentError
   def foo(h, **nil); end; foo(**{key: 1})   # ArgumentError
   def foo(h, **nil); end; foo("str" => 1)   # ArgumentError
   def foo(h, **nil); end; foo({key: 1})     # OK
   def foo(h, **nil); end; foo({"str" => 1}) # OK
-  {% endhighlight %}
+  ```
 
 * Die Übergabe einess leeren doppelten Auflösungsoperators an eine
   Methode, die keine Schlüsselwortargumente akzeptiert, führt nicht
@@ -177,12 +177,12 @@ werden. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
   doppelten Auflösungsoperator, um ein Hash als Positionsargument zu
   übergeben. [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-  {% highlight ruby %}
+  ```ruby
   h = {}; def foo(*a) a end; foo(**h) # []
   h = {}; def foo(a) a end; foo(**h)  # {} und Warnung
   h = {}; def foo(*a) a end; foo(h)   # [{}]
   h = {}; def foo(a) a end; foo(h)    # {}
-  {% endhighlight %}
+  ```
 
 HINWEIS: Es ist darauf hingewiesen worden, dass die vielen Warnungen über
 die Inkompatibilität von Schlüsselwortargumenten störend sind. Derzeit
@@ -207,40 +207,40 @@ jedoch bis zur offiziellen Veröffentlichung nachgeholt.
   domänenspezifische Sprachen praktisch sein.
   [#14799](https://bugs.ruby-lang.org/issues/14799)
 
-  {% highlight ruby %}
+  ```ruby
   ary[..3]  # identical to ary[0..3]
   rel.where(sales: ..100)
-  {% endhighlight %}
+  ```
 
 * `Enumerable#tally` wird hinzugefügt. Die Methode zählt das Vorkommen
   jedes Elements.
 
-  {% highlight ruby %}
+  ```ruby
   ["a", "b", "c", "b"].tally
   #=> {"a"=>1, "b"=>2, "c"=>1}
-  {% endhighlight %}
+  ```
 
 * Es ist jetzt zulässig, eine private Methode auf `self` aufzurufen.
   [[Feature #11297]](https://bugs.ruby-lang.org/issues/11297)
   [[Feature #16123]](https://bugs.ruby-lang.org/issues/16123)
 
-  {% highlight ruby %}
+  ```ruby
   def foo
   end
   private :foo
   self.foo
-  {% endhighlight %}
+  ```
 
 * `Enumerator::Lazy#eager` wird hinzugefügt. Diese Methode generiert
   einen nicht verzögertern Enumerator (_non-lazy enumerator_) aus
   einem verzögerten Enumerator (_lazy enumerator_). [[Feature #15901]](https://bugs.ruby-lang.org/issues/15901)
 
-  {% highlight ruby %}
+  ```ruby
   a = %w(foo bar baz)
   e = a.lazy.map {|x| x.upcase }.map {|x| x + "!" }.eager
   p e.class               #=> Enumerator
   p e.map {|x| x + "?" }  #=> ["FOO!?", "BAR!?", "BAZ!?"]
-  {% endhighlight %}
+  ```
 
 ## Performanzverbesserungen
 
