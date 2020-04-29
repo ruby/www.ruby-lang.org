@@ -29,7 +29,7 @@ sidebar:
     text: <strong>试用</strong>，其实很简单！
     try_ruby:
       text: 在浏览器中试用 Ruby（英文）
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: 20 分钟体验 Ruby
       url: /zh_cn/documentation/quickstart/

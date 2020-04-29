@@ -32,7 +32,7 @@ sidebar:
     text: <strong>はじめよう!</strong>
     try_ruby:
       text: 試してみる! (ブラウザから)
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: 20分ではじめるRuby
       url: /ja/documentation/quickstart/

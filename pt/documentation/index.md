@@ -140,7 +140,7 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 
 
 
-[1]: https://ruby.github.io/TryRuby/
+[1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: http://why.carlosbrando.com/
 [6]: http://rubylearning.com/

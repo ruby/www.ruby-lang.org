@@ -29,7 +29,7 @@ sidebar:
     text: <strong>Започнете</strong> лесно е!
     try_ruby:
       text: Пробвайте Ruby! (в браузъра)
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: Ruby в 20 минути
       url: /bg/documentation/quickstart/

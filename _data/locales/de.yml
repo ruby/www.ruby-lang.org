@@ -30,7 +30,7 @@ sidebar:
     text: <strong>Der Einstieg</strong> ist einfach!
     try_ruby:
       text: Teste Ruby! (im Browser)
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: Ruby in 20 Minuten
       url: /de/documentation/quickstart/
