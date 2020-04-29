@@ -79,7 +79,7 @@ The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get sou
 * Speed up `Proc#call` by removing the temporary allocation for `$SAFE`.
   [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
-  We have observed a 1.4x peformance improvement in the `lc_fizzbuzz` benchmark that calls `Proc#call` numerous times. [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212)
+  We have observed a 1.4x performance improvement in the `lc_fizzbuzz` benchmark that calls `Proc#call` numerous times. [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212)
 
 * Speed up `block.call` when `block` is passed in as a block parameter. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
