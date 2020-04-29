@@ -29,7 +29,7 @@ sidebar:
     text: <strong>Nhập môn</strong>, quá dễ!
     try_ruby:
       text: Thử Ruby! (trong trình duyệt)
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: Ruby trong 20 phút
       url: /vi/documentation/quickstart/

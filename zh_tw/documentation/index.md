@@ -105,7 +105,7 @@ lang: zh_tw
 
 
 
-[1]: https://ruby.github.io/TryRuby/
+[1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [6]: http://rubylearning.com/

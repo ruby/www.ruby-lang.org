@@ -29,7 +29,7 @@ sidebar:
     text: <strong>Coba Sekarang</strong>, sangat mudah!
     try_ruby:
       text: Try Ruby! (langsung di browser Anda)
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: Menguasai Ruby dalam 20 Menit
       url: /id/documentation/quickstart/

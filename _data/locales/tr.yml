@@ -30,7 +30,7 @@ sidebar:
     text: <strong>Başlamak</strong>, çok kolay!
     try_ruby:
       text: Ruby'yi Deneyin! (tarayıcınızda)
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: Yirmi Dakikada Ruby
       url: /tr/documentation/quickstart/

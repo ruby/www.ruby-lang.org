@@ -29,7 +29,7 @@ sidebar:
     text: <strong>上手入門</strong>，一點都不難!
     try_ruby:
       text: 在瀏覽器中試用 Ruby!
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: 20 分鐘 Ruby 體驗
       url: /zh_tw/documentation/quickstart/

@@ -129,7 +129,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 
 
 [2]: http://jeveuxapprendreruby.fr/
-[3]: https://ruby.github.io/TryRuby/
+[3]: https://try.ruby-lang.org/
 [4]: http://rubykoans.com/
 [5]: https://poignant.guide
 [6]: http://pine.fm/LearnToProgram/

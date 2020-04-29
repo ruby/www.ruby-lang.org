@@ -29,7 +29,7 @@ sidebar:
     text: <strong>시작하기</strong>
     try_ruby:
       text: Try Ruby!
-      url: https://ruby.github.io/TryRuby/
+      url: https://try.ruby-lang.org/
     quickstart:
       text: 20분 가이드
       url: /ko/documentation/quickstart/

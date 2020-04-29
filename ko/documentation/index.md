@@ -129,7 +129,7 @@ lang: ko
 영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하실 수도
 있습니다.
 
-[1]: https://ruby.github.io/TryRuby/
+[1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [6]: http://rubylearning.com/
