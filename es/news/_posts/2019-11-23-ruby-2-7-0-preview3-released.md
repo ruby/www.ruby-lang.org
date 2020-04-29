@@ -207,13 +207,17 @@ la versión oficial.
   específicos para un domino (DSL).
   [[Característica #14799]](https://bugs.ruby-lang.org/issues/14799)
 
-      ary[..3]  # identico a ary[0..3]
-      rel.where(ventas: ..100)
+  ```ruby
+  ary[..3]  # identico a ary[0..3]
+  rel.where(ventas: ..100)
+  ```
 
 * Se añade `Enumerable#tally`.  Que cuenta las ocurrencias de cada elemento.
 
-      ["a", "b", "c", "b"].tally
-      #=> {"a"=>1, "b"=>2, "c"=>1}
+  ```ruby
+  ["a", "b", "c", "b"].tally
+  #=> {"a"=>1, "b"=>2, "c"=>1}
+  ```
 
 * Ahora se permite llamar un método privado con`self`.
   [[Característica #11297]](https://bugs.ruby-lang.org/issues/11297),
