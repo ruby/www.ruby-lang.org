@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Pemisahan *positional* dan *keyword argument* pada Ruby 3.0"
+title: "Pemisahan positional dan keyword argument pada Ruby 3.0"
 author: "mame"
 translator: "meisyal"
 date: 2019-12-12 12:00:00 +0000
@@ -17,9 +17,9 @@ akan memberi peringatan terhadap perilaku yang akan berubah pada Ruby 3.0.
 Jika Anda melihat peringatan di bawah ini maka Anda perlu untuk memperbarui
 kode Anda:
 
-* `Menggunakan *argument* terakhir sebagai parameter *argument* sudah usang`, atau
-* `Melewatkan *keyword argument* sebagai parameter *hash* terakhir juga sudah usang`, atau
-* `Memisahkan *argument* terakhir ke *positional* dan *keyword argument* juga sudah usang`
+* `Menggunakan argument terakhir sebagai parameter argument sudah usang`, atau
+* `Melewatkan keyword argument sebagai parameter hash terakhir juga sudah usang`, atau
+* `Memisahkan argument terakhir ke positional dan keyword argument juga sudah usang`
 
 Pada kebanyakan kasus, Anda dapat menghindari *compatibility* ini dengan
 menambahkan operator _double splat_. Operator ini secara langsung melewatkan
