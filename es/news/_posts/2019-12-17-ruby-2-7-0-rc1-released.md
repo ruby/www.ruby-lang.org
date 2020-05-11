@@ -50,14 +50,14 @@ Puede recorrer un objeto dado y asignar su valor si concuerda con un patrón.
 
 ```ruby
 json ='{
-	"nombre": "Alice",
-	"edad": 30,
-	"hijos": [
-		{
-			"nombre": "Bob",
-			"edad": 2
-		}
-	]
+  "nombre": "Alice",
+  "edad": 30,
+  "hijos": [
+    {
+      "nombre": "Bob",
+      "edad": 2
+    }
+  ]
 }'
 case JSON.parse(json, symbolize_names: true)
 in {nombre: "Alice", hijos: [{nombre: "Bob", edad: edad}]}

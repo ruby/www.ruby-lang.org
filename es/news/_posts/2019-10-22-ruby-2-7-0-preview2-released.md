@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.7.0-preview2 Publicado "
+title: "Ruby 2.7.0-preview2 Publicado"
 author: "naruse"
 translator: vtamara
 date: 2019-10-22 12:00:00 +0000
@@ -44,14 +44,14 @@ Puede recorrer un objeto dado y asignar su valor si concuerda con un patrón.
 
 ```ruby
 json ='{
-	"nombre": "Alice",
-	"edad": 30,
-	"hijos": [
-		{
-			"nombre": "Bob",
-			"edad": 2
-		}
-	]
+  "nombre": "Alice",
+  "edad": 30,
+  "hijos": [
+    {
+      "nombre": "Bob",
+      "edad": 2
+    }
+  ]
 }'
 case JSON.parse(json, symbolize_names: true)
 in {nombre: "Alice", hijos: [{nombre: "Bob", edad: edad}]}

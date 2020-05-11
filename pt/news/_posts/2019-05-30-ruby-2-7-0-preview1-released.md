@@ -28,18 +28,18 @@ páginas possam ser usadas e a heap possa ser mais _CoW friendly_. [#15626](http
 ## Pattern Matching [Experimental]
 
 Pattern matching, funcionalidade amplamenta utilizada em linguagens para programação funcional, é introduzida como uma funcionalidade experimental. [#14912](https://bugs.ruby-lang.org/issues/14912)
-Ela pode examinar um dado objeto e definir seu valor se um padrão for .
+Ela pode examinar um dado objeto e definir seu valor se um padrão for.
 
 ```ruby
 json ='{
- 	"nombre": "Alice",
- 	"edad": 30,
- 	"hijos": [
- 		{
- 			"nombre": "Bob",
- 			"edad": 2
- 		}
- 	]
+  "nombre": "Alice",
+  "edad": 30,
+  "hijos": [
+    {
+      "nombre": "Bob",
+      "edad": 2
+    }
+  ]
 }'
 case JSON.parse('{...}', symbolize_names: true)
 in {name: "Alice", children: [{name: "Bob", age: age}]}
