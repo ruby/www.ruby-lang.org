@@ -32,13 +32,11 @@ Tüm işleyicilere, yazarlara, çevirmenlere, ve bu siteye katkıda bulunan diğ
 Ayrıca bizi destekleyen organizasyonlara çok teşekkür ederiz:
 
  * [Ruby Derneği][rubyassociation] (barındırma)
+ * [Ruby no Kai][rubynokai] (inşa sunucusu)
+ * [AWS][aws] (barındırma)
  * [Heroku][heroku] (barındırma)
- * [IIJ][iij] (barındırma)
- * [GlobalSign][globalsign] (SSL sertifikası)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], sunucu izleme)
- * [CloudCore][cloudcore] (inşa sunucusu)
- * [Ruby no Kai][rubynokai] (inşa sunucusu)
 
 
 [logo]: /tr/about/logo/
@@ -50,10 +48,8 @@ Ayrıca bizi destekleyen organizasyonlara çok teşekkür ederiz:
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
-[cloudcore]: http://www.cloudcore.jp/?utm_source=ad&utm_medium=ad&utm_content=dev&utm_campaign=vps
 [rubynokai]: http://ruby-no-kai.org/
+[aws]: https://aws.amazon.com/
