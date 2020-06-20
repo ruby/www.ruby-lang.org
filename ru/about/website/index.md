@@ -39,6 +39,7 @@ lang: ru
  * [GlobalSign][globalsign] (SSL сертификация),
  * [Fastly][fastly] (CDN).
  * [Hatena][hatena] ([mackerel][mackerel], мониторинг сервера)
+ * [Ruby no Kai][rubynokai] (сборка сервера)
 
 
 [logo]: /ru/about/logo/
@@ -55,3 +56,4 @@ lang: ru
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
+[rubynokai]: http://ruby-no-kai.org/
