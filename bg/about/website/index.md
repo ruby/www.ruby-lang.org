@@ -35,13 +35,11 @@ lang: bg
 Благодарим и на организациите, които ни подкрепят:
 
  * [Ruby Association][rubyassociation] (хостинг)
+ * [Ruby no Kai][rubynokai] (build сървър)
+ * [AWS][aws] (хостинг)
  * [Heroku][heroku] (хостинг)
- * [IIJ][iij] (хостинг)
- * [GlobalSign][globalsign] (SSL сертифициране)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], сървърен мониторинг)
- * [CloudCore][cloudcore] (build сървър)
- * [Ruby no Kai][rubynokai] (build сървър)
 
 
 [logo]: /bg/about/logo/
@@ -53,10 +51,8 @@ lang: bg
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
-[cloudcore]: http://www.cloudcore.jp/
 [rubynokai]: http://ruby-no-kai.org/
+[aws]: https://aws.amazon.com/

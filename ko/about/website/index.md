@@ -37,13 +37,11 @@ lang: ko
 지원해주신 단체들에게도 감사드립니다.
 
  * [Ruby Association][rubyassociation] (호스트)
+ * [Ruby no Kai][rubynokai] (빌드 서버)
+ * [AWS][aws] (호스트)
  * [Heroku][heroku] (호스트)
- * [IIJ][iij] (호스트)
- * [GlobalSign][globalsign] (SSL 인증서)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], 서버 모니터링)
- * [CloudCore][cloudcore] (빌드 서버)
- * [Ruby no Kai][rubynokai] (빌드 서버)
 
 
 [logo]: /ko/about/logo/
@@ -55,10 +53,8 @@ lang: ko
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
-[cloudcore]: http://www.cloudcore.jp/
 [rubynokai]: http://ruby-no-kai.org/
+[aws]: https://aws.amazon.com/

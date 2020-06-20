@@ -30,13 +30,11 @@ lang: zh_cn
 同时也感谢这些组织对我们的支持：
 
  * [Ruby Association][rubyassociation]（托管）
+ * [Ruby no Kai][rubynokai]（构建服务器）
+ * [AWS][aws]（托管）
  * [Heroku][heroku]（托管）
- * [IIJ][iij]（托管）
- * [GlobalSign][globalsign]（SSL 认证）
  * [Fastly][fastly]（CDN）
  * [Hatena][hatena]（[mackerel][mackerel]，服务器监控）
- * [CloudCore][cloudcore]（构建服务器）
- * [Ruby no Kai][rubynokai]（构建服务器）
 
 
 [logo]: /zh_cn/about/logo/
@@ -48,10 +46,8 @@ lang: zh_cn
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
-[cloudcore]: http://www.cloudcore.jp/
 [rubynokai]: http://ruby-no-kai.org/
+[aws]: https://aws.amazon.com/

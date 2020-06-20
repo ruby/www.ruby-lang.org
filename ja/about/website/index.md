@@ -34,13 +34,11 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
 また、われわれをサポートしてくれる以下の機関にも大きな感謝をいたします:
 
  * [Rubyアソシエーション][rubyassociation] (ホスティング)
+ * [Ruby no Kai][rubynokai] (build server)
+ * [AWS][aws] (ホスティング)
  * [Heroku][heroku] (ホスティング)
- * [IIJ][iij] (ホスティング)
- * [GlobalSign][globalsign] (SSL 証明書)
  * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], サーバー監視)
- * [CloudCore][cloudcore] (build server)
- * [Ruby no Kai][rubynokai] (build server)
 
 
 [logo]: /ja/about/logo/
@@ -52,10 +50,8 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp/ja/sponsors/list/
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
-[cloudcore]: http://www.cloudcore.jp/?utm_source=ad&utm_medium=ad&utm_content=dev&utm_campaign=vps
 [rubynokai]: http://ruby-no-kai.org/
+[aws]: https://aws.amazon.com/

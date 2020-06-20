@@ -35,9 +35,8 @@ questo sito web.
 Inoltre, ringraziamo le organizzazioni che ci supportano:
 
  * [Ruby Association][rubyassociation] (hosting)
+ * [AWS][aws] (hosting)
  * [Heroku][heroku] (hosting)
- * [IIJ][iij] (hosting)
- * [GlobalSign][globalsign] (certificati SSL)
  * [Fastly][fastly] (CDN)
 
 
@@ -50,6 +49,5 @@ Inoltre, ringraziamo le organizzazioni che ci supportano:
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[aws]: https://aws.amazon.com/
