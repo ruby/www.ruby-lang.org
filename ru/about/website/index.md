@@ -38,6 +38,7 @@ lang: ru
  * [IIJ][iij] (хостинг),
  * [GlobalSign][globalsign] (SSL сертификация),
  * [Fastly][fastly] (CDN).
+ * [Hatena][hatena] ([mackerel][mackerel], мониторинг сервера)
 
 
 [logo]: /ru/about/logo/
@@ -52,3 +53,5 @@ lang: ru
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[hatena]: http://hatenacorp.jp/
+[mackerel]: https://mackerel.io/
