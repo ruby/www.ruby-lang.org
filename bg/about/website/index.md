@@ -34,7 +34,7 @@ lang: bg
 
 Благодарим и на организациите, които ни подкрепят:
 
- * [NaCl][nacl] (хостинг)
+ * [Ruby Association][rubyassociation] (хостинг)
  * [Heroku][heroku] (хостинг)
  * [IIJ][iij] (хостинг)
  * [GlobalSign][globalsign] (SSL сертифициране)
@@ -51,7 +51,7 @@ lang: bg
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com

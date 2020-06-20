@@ -35,7 +35,7 @@ an dieser Website.
 
 Wir danken außerdem den Organisationen, die uns unterstützen:
 
- * [NaCl][nacl] (Hosting)
+ * [Ruby Association][rubyassociation] (Hosting)
  * [Heroku][heroku] (Hosting)
  * [IIJ][iij] (Hosting)
  * [GlobalSign][globalsign] (SSL-Zertifizierung)
@@ -49,7 +49,7 @@ Wir danken außerdem den Organisationen, die uns unterstützen:
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
 [iij]: http://www.iij.ad.jp
 [globalsign]: https://www.globalsign.com
