@@ -34,11 +34,11 @@ questo sito web.
 
 Inoltre, ringraziamo le organizzazioni che ci supportano:
 
- * [NaCl][nacl] (hosting),
- * [Heroku][heroku] (hosting),
- * [IIJ][iij] (hosting),
- * [GlobalSign][globalsign] (certificati SSL),
- * [Fastly][fastly] (CDN).
+ * [NaCl][nacl] (hosting)
+ * [Heroku][heroku] (hosting)
+ * [IIJ][iij] (hosting)
+ * [GlobalSign][globalsign] (certificati SSL)
+ * [Fastly][fastly] (CDN)
 
 
 [logo]: /it/about/logo/

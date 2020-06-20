@@ -31,11 +31,11 @@ lang: zh_tw
 
 此外感謝下列機構提供支持：
 
- * [Ruby Association][rubyassociation] (網站托管)、
- * [Heroku][heroku] (網站托管)、
- * [IIJ][iij] (網站托管)、
- * [GlobalSign][globalsign] (SSL 證書)、
- * [Fastly][fastly] (CDN)。
+ * [Ruby Association][rubyassociation] (網站托管)
+ * [Heroku][heroku] (網站托管)
+ * [IIJ][iij] (網站托管)
+ * [GlobalSign][globalsign] (SSL 證書)
+ * [Fastly][fastly] (CDN)
 
 
 [logo]: /zh_tw/about/logo/

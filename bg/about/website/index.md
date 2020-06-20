@@ -34,14 +34,15 @@ lang: bg
 
 Благодарим и на организациите, които ни подкрепят:
 
- * [NaCl][nacl] (хостинг),
- * [Heroku][heroku] (хостинг),
- * [IIJ][iij] (хостинг),
- * [GlobalSign][globalsign] (SSL сертифициране),
- * [Fastly][fastly] (CDN).
- * [Hatena][hatena] ([mackerel][mackerel], Сървърен мониторинг)
+ * [NaCl][nacl] (хостинг)
+ * [Heroku][heroku] (хостинг)
+ * [IIJ][iij] (хостинг)
+ * [GlobalSign][globalsign] (SSL сертифициране)
+ * [Fastly][fastly] (CDN)
+ * [Hatena][hatena] ([mackerel][mackerel], сървърен мониторинг)
  * [CloudCore][cloudcore] (build сървър)
  * [Ruby no Kai][rubynokai] (build сървър)
+
 
 [logo]: /bg/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org

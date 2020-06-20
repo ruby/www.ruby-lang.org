@@ -35,11 +35,11 @@ an dieser Website.
 
 Wir danken außerdem den Organisationen, die uns unterstützen:
 
- * [NaCl][nacl] (Hosting),
- * [Heroku][heroku] (Hosting),
- * [IIJ][iij] (Hosting),
- * [GlobalSign][globalsign] (SSL-Zertifizierung),
- * [Fastly][fastly] (CDN).
+ * [NaCl][nacl] (Hosting)
+ * [Heroku][heroku] (Hosting)
+ * [IIJ][iij] (Hosting)
+ * [GlobalSign][globalsign] (SSL-Zertifizierung)
+ * [Fastly][fastly] (CDN)
 
 
 [logo]: /de/about/logo/

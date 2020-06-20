@@ -33,11 +33,11 @@ lang: ru
 
 Также хотим выразить благодарность поддерживающим нас организациям:
 
- * [NaCl][nacl] (хостинг),
- * [Heroku][heroku] (хостинг),
- * [IIJ][iij] (хостинг),
- * [GlobalSign][globalsign] (SSL сертификация),
- * [Fastly][fastly] (CDN).
+ * [NaCl][nacl] (хостинг)
+ * [Heroku][heroku] (хостинг)
+ * [IIJ][iij] (хостинг)
+ * [GlobalSign][globalsign] (SSL сертификация)
+ * [Fastly][fastly] (CDN)
  * [Hatena][hatena] ([mackerel][mackerel], мониторинг сервера)
  * [Ruby no Kai][rubynokai] (сборка сервера)
 
