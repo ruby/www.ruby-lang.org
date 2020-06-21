@@ -14,7 +14,7 @@ Ruby'nin geliştirilmesi ile ilgili burada kapsanan konular şunlardır:
 
 * [Ruby'nin Geliştirilmesini Git Kullanarak Takip Etmek](#following-ruby)
 * [Yamalar ile Ruby'yi İyileştirmek](#patching-ruby)
-* [Çekirdek Geliştiricileri için Kurallar](#coding-standards)
+* [Dallar hakkında bir not](#branches-ruby)
 
 ### Ruby'nin Geliştirilmesini Git Kullanarak Takip Etmek
 {: #following-ruby}
@@ -105,6 +105,7 @@ dürtmeyi deneyin.
 
 
 ### Dallar hakkında bir not
+{: #branches-ruby}
 
 Ruby'nin kaynak kodu 22 Nisan 2019'a kadar Subversion deposunda yönetiliyordu.
 Bu sebeple bazı dallar hala Subversion altında yönetiliyor olabilir.

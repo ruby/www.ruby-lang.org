@@ -13,7 +13,7 @@ lang: ko
 
 * [Git을 사용하여 루비 개발을 트래킹하기](#following-ruby)
 * [패치들로 루비 개선하기](#patching-ruby)
-* [코어 개발자를 위한 룰](#coding-standards)
+* [브랜치에 대한 안내](#branches-ruby)
 
 ### Git을 사용하여 루비 개발을 트래킹하기
 {: #following-ruby}
@@ -93,6 +93,7 @@ $ git clone git@git.ruby-lang.org:ruby.git
 않았을 경우에도 인내심을 가지고 며칠 후에 다시 시도해주시길 바랍니다.
 
 ### 브랜치에 대한 안내
+{: #branches-ruby}
 
 루비의 소스 코드는 2019년 4월 22일까지 서브버전에서 관리되어 왔습니다.
 그러므로 몇몇 버전은 그대로 서브버전에서 관리됩니다.
