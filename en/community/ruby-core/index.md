@@ -14,7 +14,7 @@ The topics related to Ruby development covered here are:
 
 * [Using Git to Track Ruby Development](#following-ruby)
 * [Improving Ruby, Patch by Patch](#patching-ruby)
-* [Rules for Core Developers](#coding-standards)
+* [Note about branches](#branches-ruby)
 
 ### Using Git to Track Ruby Development
 {: #following-ruby}
@@ -103,6 +103,7 @@ resolved, be persistent—give it another shot a few days later.
 
 
 ### Note about branches
+{: #branches-ruby}
 
 The source code of Ruby had been managed under Subversion repository until 22nd April 2019.
 Thus, some branches may still be managed under Subversion.

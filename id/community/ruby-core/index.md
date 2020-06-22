@@ -14,7 +14,7 @@ Topik seputar pengembangan Ruby yang dibahas disini adalah:
 
 * [Menggunakan Git untuk Memonitor Pengembangan Ruby](#following-ruby)
 * [Menyempurnakan Ruby, Patch by Patch](#patching-ruby)
-* [Peraturan untuk Core Developer](#coding-standards)
+* [Catatan terkait branches](#branches-ruby)
 
 ### Menggunakan Git untuk Memonitor Pengembangan Ruby
 {: #following-ruby}
@@ -103,6 +103,7 @@ hari kemudian.
 
 
 ### Catatan terkait branches
+{: #branches-ruby}
 
 Kode sumber Ruby telah dikelola menggunakan repositori Subversion hingga
 22 April 2019.
