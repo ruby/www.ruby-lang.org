@@ -23,7 +23,7 @@ sitelinks:
 
 search:
   text: Search
-  cx_id: '013598269713424429640:g5orptiw95w'
+  # lang: the default, English
 
 sidebar:
   get_started:

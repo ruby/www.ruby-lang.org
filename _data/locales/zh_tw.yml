@@ -23,6 +23,7 @@ sitelinks:
 
 search:
   text: 搜尋
+  lang: tw-tzh
 
 sidebar:
   get_started:

@@ -23,6 +23,7 @@ sitelinks:
 
 search:
   text: 搜索
+  lang: cn-zh
 
 sidebar:
   get_started:

@@ -23,6 +23,7 @@ sitelinks:
 
 search:
   text: Поиск
+  lang: ru-ru
 
 sidebar:
   get_started:

@@ -23,6 +23,7 @@ sitelinks:
 
 search:
   text: Szukaj
+  lang: pl-pl
 
 sidebar:
   get_started:
