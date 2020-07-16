@@ -31,11 +31,10 @@ lang: zh_tw
 
 此外感謝下列機構提供支持：
 
- * [Ruby Association][rubyassociation] (網站托管)、
- * [Heroku][heroku] (網站托管)、
- * [IIJ][iij] (網站托管)、
- * [GlobalSign][globalsign] (SSL 證書)、
- * [Fastly][fastly] (CDN)。
+ * [Ruby Association][rubyassociation] (網站托管)
+ * [AWS][aws] (網站托管)
+ * [Heroku][heroku] (網站托管)
+ * [Fastly][fastly] (CDN)
 
 
 [logo]: /zh_tw/about/logo/
@@ -47,6 +46,5 @@ lang: zh_tw
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[aws]: https://aws.amazon.com/

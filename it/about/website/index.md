@@ -34,11 +34,10 @@ questo sito web.
 
 Inoltre, ringraziamo le organizzazioni che ci supportano:
 
- * [NaCl][nacl] (hosting),
- * [Heroku][heroku] (hosting),
- * [IIJ][iij] (hosting),
- * [GlobalSign][globalsign] (certificati SSL),
- * [Fastly][fastly] (CDN).
+ * [Ruby Association][rubyassociation] (hosting)
+ * [AWS][aws] (hosting)
+ * [Heroku][heroku] (hosting)
+ * [Fastly][fastly] (CDN)
 
 
 [logo]: /it/about/logo/
@@ -48,8 +47,7 @@ Inoltre, ringraziamo le organizzazioni che ci supportano:
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[aws]: https://aws.amazon.com/

@@ -33,11 +33,12 @@ lang: ru
 
 Также хотим выразить благодарность поддерживающим нас организациям:
 
- * [NaCl][nacl] (хостинг),
- * [Heroku][heroku] (хостинг),
- * [IIJ][iij] (хостинг),
- * [GlobalSign][globalsign] (SSL сертификация),
- * [Fastly][fastly] (CDN).
+ * [Ruby Association][rubyassociation] (хостинг)
+ * [Ruby no Kai][rubynokai] (сборка сервера)
+ * [AWS][aws] (хостинг)
+ * [Heroku][heroku] (хостинг)
+ * [Fastly][fastly] (CDN)
+ * [Hatena][hatena] ([mackerel][mackerel], мониторинг сервера)
 
 
 [logo]: /ru/about/logo/
@@ -47,8 +48,10 @@ lang: ru
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[nacl]: http://www.netlab.jp
+[rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[iij]: http://www.iij.ad.jp
-[globalsign]: https://www.globalsign.com
 [fastly]: http://www.fastly.com
+[hatena]: http://hatenacorp.jp/
+[mackerel]: https://mackerel.io/
+[rubynokai]: http://ruby-no-kai.org/
+[aws]: https://aws.amazon.com/
