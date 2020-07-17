@@ -19,12 +19,8 @@ Please try to use a mirror that is near you.
   * [shibaura-it.ac.jp][mirror-http-jp-ring-shibaura-it]
   * [u-toyama.ac.jp][mirror-http-jp-ring-u-toyama]
   * [airnet.ne.jp][mirror-http-jp-ring-airnet]
-  * [maffin.ad.jp][mirror-http-jp-ring-maffin]
-* [Germany][mirror-http-de] (AmbiWeb GmbH)
 * [Holland][mirror-http-nl] (XS4ALL) - only release packages
-* [Austria][mirror-http-at] (tuwien.ac.at)
 * [France][mirror-http-fr] (cyberbits.eu)
-* [China 1][mirror-http-cn1] (ruby.taobao.org)
 * [China 2][mirror-http-cn2] (Ruby China)
 * [South Korea][mirror-http-kr] (Korea FreeBSD Users Group)
 
@@ -34,12 +30,10 @@ Please try to use a mirror that is near you.
   * [shibaura-it.ac.jp][mirror-ftp-jp-ring-shibaura-it]
   * [u-toyama.ac.jp][mirror-ftp-jp-ring-u-toyama]
   * [airnet.ne.jp][mirror-ftp-jp-ring-airnet]
-  * [maffin.ad.jp][mirror-ftp-jp-ring-maffin]
 * [Japan 3][mirror-ftp-jp3] (IIJ)
 * [South Korea][mirror-ftp-kr] (Korea FreeBSD Users Group)
 * [Germany][mirror-ftp-de] (FU Berlin)
 * [Greece][mirror-ftp-gr] (ntua.gr)
-* [Austria][mirror-ftp-at] (tuwien.ac.at)
 
 ### Mirror sites via rsync
 
@@ -50,12 +44,8 @@ Please try to use a mirror that is near you.
 [mirror-http-jp-ring-shibaura-it]: http://ring.shibaura-it.ac.jp/archives/lang/ruby/
 [mirror-http-jp-ring-u-toyama]: http://ring.u-toyama.ac.jp/archives/lang/ruby/
 [mirror-http-jp-ring-airnet]: http://ring.airnet.ne.jp/archives/lang/ruby/
-[mirror-http-jp-ring-maffin]: http://ring.maffin.ad.jp/archives/lang/ruby/
-[mirror-http-de]: http://dl.ambiweb.de/mirrors/ftp.ruby-lang.org/
 [mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
-[mirror-http-at]: http://gd.tuwien.ac.at/languages/ruby/
 [mirror-http-fr]: https://mirror.cyberbits.eu/ruby/
-[mirror-http-cn1]: https://ruby.taobao.org/mirrors/ruby/
 [mirror-http-cn2]: https://cache.ruby-china.com/pub/ruby/
 [mirror-http-kr]: http://ftp.kr.freebsd.org/pub/ruby/
 [mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
@@ -66,6 +56,5 @@ Please try to use a mirror that is near you.
 [mirror-ftp-kr]: ftp://ftp.kr.freebsd.org/pub/ruby/
 [mirror-ftp-de]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
 [mirror-ftp-gr]: ftp://ftp.ntua.gr/pub/lang/ruby/
-[mirror-ftp-at]: ftp://gd.tuwien.ac.at/languages/ruby/
 [mirror-rsync-fr]: rsync://rsync.cyberbits.eu/ruby/
 [mirror-rsync-kr]: rsync://rsync.kr.freebsd.org/ruby/
