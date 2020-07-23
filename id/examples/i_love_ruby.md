@@ -7,7 +7,7 @@ layout: null
 say = "Saya cinta Ruby"
 puts say
 
-# Keluaran "Saya *CINTA* RUBY"
+# Keluaran "SAYA *CINTA* RUBY"
 say['cinta'] = "*cinta*"
 puts say.upcase
 

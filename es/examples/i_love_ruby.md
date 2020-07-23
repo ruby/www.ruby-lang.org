@@ -11,7 +11,7 @@ puts expresion
 expresion['amo'] = "*amo*"
 puts expresion.upcase
 
-# Salida "Yo *amo* Ruby
+# Salida "Yo *amo* Ruby"
 # cinco veces
 5.times { puts expresion }
 {% endhighlight %}

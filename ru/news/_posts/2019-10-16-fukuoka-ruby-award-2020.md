@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "2020 Конкурс Фукуока Ruby Award - работы будут оцениваться Matz"
-author: "Фукуока Ruby"
+author: "Fukuoka Ruby"
 translator: "shprotru"
 date: 2019-10-16 00:00:00 +0000
 lang: ru
