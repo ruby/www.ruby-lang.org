@@ -127,7 +127,7 @@ otras listas, todo funcionará como fue planeado.
 ## Arrancando el Script
 
 Así que eso es la clase MegaAnfitrion, el resto del archivo sólo llama a
-los métodos de la clase. Hy un último truco para tener en cuenta, y es
+los métodos de la clase. Hay un último truco para tener en cuenta, y es
 la linea:
 
 {% highlight ruby %}
