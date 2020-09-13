@@ -11,6 +11,6 @@ puts nói
 nói['love'] = "*love*"
 puts nói.upcase
 
-# In ra "I *love* Ruby " 5 lần
+# In ra "I *love* Ruby" 5 lần
 5.times { puts nói }
 {% endhighlight %}
