@@ -19,6 +19,41 @@
 # In order to get the release listed on the downloads page,
 # you also need to add an entry to `_data/downloads.yml'.
 
+# 3.0 series
+
+- version: 3.0.0-preview1
+  date: 2020-09-25
+  post: /en/news/2020/09/25/ruby-3-0-0-preview1-released/
+  stats:
+    files_changed: 3385
+    insertions: 150159
+    deletions: 124949
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-preview1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-preview1.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-preview1.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-preview1.tar.xz
+  size:
+    gz:  17747808
+    zip: 22002645
+    bz2: 15538340
+    xz:  12703060
+  sha1:
+    gz:  2842d2af2568d74c8d4071f5f536889a6b149202
+    zip: 4b5b61066373daf0a947d3fafe2645788504a164
+    bz2: 032697f3ace0a697cd72f68bac0032c31a8328d4
+    xz:  91d9fbe87504924148deeec90199d6ff4d7dcf56
+  sha256:
+    gz:  ce8bd7534e7ec2a870b24d2145ea20e9bbe5b2d76b7dfa1102dbee5785253105
+    zip: a39a48ed9a8ca2c83d65d225a1bb3db331c6587a77ba156c20e630c1b4bfc23b
+    bz2: 013bdc6e859d76d67a6fcd990d401ed57e6e25896bab96d1d0648a877f556dbb
+    xz:  aa7cce0c99f4ea2145fef9b78d74a44857754396790cd23bad75d759811e7a2a
+  sha512:
+    gz:  b94892951f842a1538f4b99022606ac2c0b5031f1ede7eef3833a8caa9ed63e9b22868509173bfefb406f263c65211db75597b152b61f49e5ba2a875fce63a27
+    zip: 10f6f28715a52093d7d9da82d1678147091b45e2f279e463626adea8efbf181485daa42565e5086057ffb45a097ffb8ff395c572b247b6b5da27d85933cf58a8
+    bz2: 3a6a6458d9c5f06555ab8705160f6b071f4dbe9d2a91cd7848852633657b495c480d74e4b2ff2cebddda556118d26bbb271160c989bc970bb1b5cb234e868d2f
+    xz:  dca5dcc965c434371947c100864090e29e649e19ae24b8bb2e88a534ebd8220c5a086035a999b1e8b1cd5ec154a6985a8d8dfea56095d712d62aeea7a2054f7d
+
 # 2.7 series
 
 - version: 2.7.1
