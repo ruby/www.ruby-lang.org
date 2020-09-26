@@ -191,7 +191,7 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
   * tsort
   * weakref
 
-See [NEWS](https://github.com/ruby/ruby/blob/v3_0_0/NEWS)
+See [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)
 or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
 for more details.
 
