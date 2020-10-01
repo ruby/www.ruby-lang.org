@@ -56,6 +56,35 @@
 
 # 2.7 series
 
+- version: 2.7.2
+  date: 2020-10-01
+  post: "/en/news/2020/10/01/ruby-2-7-2-released/"
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.tar.bz2
+    gz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.zip
+  size:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
+  sha1:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
+  sha256:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
+  sha512:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
+
 - version: 2.7.1
   date: 2020-03-31
   post: "/en/news/2020/03/31/ruby-2-7-1-released/"
