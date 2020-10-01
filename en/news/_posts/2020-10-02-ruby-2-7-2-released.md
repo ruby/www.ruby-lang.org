@@ -13,10 +13,13 @@ This release contains intentional incompatibility. The deprecated warnings are o
 You can turn on the deprecated warnings by specifing command line option -w or -W:deprecated.
 Please check the topics below for details.
 
-
 * [Feature #17000 2.7.2 turns off deprecation warnings by default](https://bugs.ruby-lang.org/issues/17000)
 * [Feature #16345 Don't emit deprecation warnings by default.](https://bugs.ruby-lang.org/issues/16345)
 * https://github.com/ruby/ruby/pull/3481
+
+This release contains the new version of webrick with a security fix described in the article.
+
+* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick](/en/news/2019/09/29/http-request-smuggling-cve-2020-25613/)
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2) for other changes.
 

@@ -14,10 +14,13 @@ Ruby 2.7.2 がリリースされました。
 コマンドラインオプション -w や -W:deprecated を明示的に指定することで deprecated 警告が出力されます。
 詳しくは以下のチケットなどを参照してください。
 
-
 * [Feature #17000 2.7.2 turns off deprecation warnings by default](https://bugs.ruby-lang.org/issues/17000)
 * [Feature #16345 Don't emit deprecation warnings by default.](https://bugs.ruby-lang.org/issues/16345)
 * https://github.com/ruby/ruby/pull/3481
+
+またこのリリースでは標準添付されている webrick の以下の脆弱性修正を含む新バージョンへの更新も含まれています。
+
+* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick](/en/news/2019/09/29/http-request-smuggling-cve-2020-25613/)
 
 その他の変更については [commit log](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2) を参照してください。
 
