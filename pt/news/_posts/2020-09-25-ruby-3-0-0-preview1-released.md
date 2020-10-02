@@ -104,7 +104,7 @@ Atualmente, existe um agendador de teste disponível em [`Async::Scheduler`](htt
   p x #=> 55
   {% endhighlight %}
 
-* A definição de método sem fim foi adicionada.
+* A definição de método sem a keyword _end_ foi adicionada.
   {% highlight ruby %}
   def square(x) = x * x
   {% endhighlight %}
@@ -232,9 +232,9 @@ Por favor, experimente Ruby 3.0.0-preview1 e nos dê qualquer feedback!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## 3.0.0-preview2 trailer
+## Trailer de 3.0.0-preview2
 
-Planejamos incluir ["type-profiler"] (https://github.com/mame/ruby-type-profiler) que é um recurso de análise de tipo estático. Fique ligado!
+Planejamos incluir ["type-profiler"](https://github.com/mame/ruby-type-profiler) que é um recurso de análise de tipo estático. Fique ligado!
 
 ## O que é Ruby
 
