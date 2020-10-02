@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 2.7.2 Released"
 author: "nagachika"
 translator:
-date: 2020-10-02 12:00:00 +0000
+date: 2020-10-02 11:00:00 +0000
 lang: en
 ---
 
