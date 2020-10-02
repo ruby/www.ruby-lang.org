@@ -56,6 +56,36 @@
 
 # 2.7 series
 
+- version: 2.7.2
+  date: 2020-10-02
+  post: "/en/news/2020/10/02/ruby-2-7-2-released/"
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.tar.bz2
+    gz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.2.zip
+
+  size:
+    bz2: 14708724
+    gz: 16836767
+    xz: 12037052
+    zip: 20618242
+  sha1:
+    bz2: 7e30ca324464eab2f4c2a56d8ab4a37174998062
+    gz: cb9731a17487e0ad84037490a6baf8bfa31a09e8
+    xz: 82a1fe683460caa8edb6199707f2905634e5ffcc
+    zip: 9acee3d4e9399c3a2ddc2dd078dd2ee26327cc8f
+  sha256:
+    bz2: 65a590313d244d48dc2ef9a9ad015dd8bc6faf821621bbb269aa7462829c75ed
+    gz: 6e5706d0d4ee4e1e2f883db9d768586b4d06567debea353c796ec45e8321c3d4
+    xz: 1b95ab193cc8f5b5e59d2686cb3d5dcf1ddf2a86cb6950e0b4bdaae5040ec0d6
+    zip: c6b8597e5414f2b01a7cb25095319f2b0e780c95a98fee1ccf1ef022acf93dcc
+  sha512:
+    bz2: f07592cce4de3532c0fa1c84d53a134527d28ba95e310cd3487ac321c49ee680faeace285de544ee6db432a90aa7538a1d49ff10c72b235968ca362ef9be621d
+    gz: e80dc16b60149d0d6fedf0ba7b556ae460ff328ee63e9d9e41f5021f67addcc98159cb27bddccaebd6e4b1cddf29266f1c01c32d9ec8bb665aed63c0a2295f2f
+    xz: 7972278b096aa768c7adf2befd26003e18781a29ca317640317d30d93d6e963ded197724c8e2f1dfe1e838c5647176d414a74732a62e931fb50d6f2e0f777349
+    zip: 5f3a8d78bbd3d9700e5f0434d0cec2072816c02f5d5b55f24d4f9f0621c0c89f796e9ada32ed65f052a321845dd29709a1b76170c7dd0250bea6f8c18953a366
+
 - version: 2.7.1
   date: 2020-03-31
   post: "/en/news/2020/03/31/ruby-2-7-1-released/"
