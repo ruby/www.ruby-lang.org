@@ -26,7 +26,7 @@ Ruby 2.7.2 がリリースされました。
 
 ## ダウンロード
 
-{% assign release = site.data.releases | where: "version", "2.7.1" | first %}
+{% assign release = site.data.releases | where: "version", "2.7.2" | first %}
 
 * <{{ release.url.bz2 }}>
 
