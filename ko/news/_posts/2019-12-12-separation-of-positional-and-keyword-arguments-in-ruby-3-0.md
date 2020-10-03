@@ -1,80 +1,96 @@
 ---
 layout: news_post
-title: "Separation of positional and keyword arguments in Ruby 3.0"
+title: "루비 3.0의 위치 인자와 키워드 인자 분리"
 author: "mame"
-translator:
+translator: "yous"
 date: 2019-12-12 12:00:00 +0000
-lang: en
+lang: ko
 ---
 
-This article explains the planned incompatibility of keyword arguments in Ruby 3.0
+루비 3.0에 계획된 키워드 인자에 대한 호환되지 않는 변경에 대해 설명합니다.
 
-## tl;dr
+## 요약
 
-In Ruby 3.0, positional arguments and keyword arguments will be separated.  Ruby 2.7 will warn for behaviors that will change in Ruby 3.0.  If you see the following warnings, you need to update your code:
+루비 3.0에서 위치 인자와 키워드 인자는 분리됩니다. 루비 2.7은 루비 3.0에서
+변하는 동작에 대해 경고합니다. 다음 경고를 본다면 코드를 업데이트해야 합니다.
 
-* `Using the last argument as keyword parameters is deprecated`, or
-* `Passing the keyword argument as the last hash parameter is deprecated`, or
+* `Using the last argument as keyword parameters is deprecated`, 또는
+* `Passing the keyword argument as the last hash parameter is deprecated`, 또는
 * `Splitting the last argument into positional and keyword parameters is deprecated`
 
-In most cases, you can avoid the incompatibility by adding the _double splat_ operator. It explicitly specifies passing keyword arguments instead of a `Hash` object. Likewise, you may add braces `{}` to explicitly pass a `Hash` object, instead of keyword arguments. Read the section "Typical cases" below for more details.
+대부분의 경우 _이중 스플랫(double splat)_ 연산자를 추가해서 호환성 문제를 해결할
+수 있습니다. 이는 명시적으로 `Hash` 객체 대신 키워드 인자를 넘깁니다. 마찬가지로
+`{}` 중괄호를 추가해서 명시적으로 키워드 인자 대신 `Hash` 객체를 넘길 수
+있습니다. 자세한 내용은 아래의 '대표 사례' 섹션을 보세요.
 
-In Ruby 3, a method delegating all arguments must explicitly delegate keyword arguments in addition to positional arguments.  If you want to keep the delegation behavior found in Ruby 2.7 and earlier, use `ruby2_keywords`.   See the "Handling argument delegation" section below for more details.
+루비 3에서 인자 모두를 델리게이트하는 메서드는 반드시 위치 인자에 더해 키워드
+인자를 명시적으로 델리게이트해야 합니다. 루비 2.7 이전의 위치 인자에 적용되던
+델리게이트 동작을 유지하려면 `ruby2_keywords`를 사용하세요. 자세한 내용은 아래의
+'인자 델리게이트 다루기' 섹션을 보세요.
 
-## Typical cases
+## 대표 사례
 {: #typical-cases }
 
-Here is the most typical case. You can use double splat operator (`**`) to pass keywords instead of a Hash.
+가장 대표적인 사례입니다. Hash 대신 키워드를 넘기려면 이중 스플랫(double splat)
+연산자(`**`)를 사용할 수 있습니다.
 
 {% highlight ruby %}
-# This method accepts only a keyword argument
+# 이 메서드는 키워드 인자 하나만을 받습니다
 def foo(k: 1)
   p k
 end
 
 h = { k: 42 }
 
-# This method call passes a positional Hash argument
-# In Ruby 2.7: The Hash is automatically converted to a keyword argument
-# In Ruby 3.0: This call raises an ArgumentError
+# 이 메서드 호출은 Hash 위치 인자 하나를 넘깁니다
+# 루비 2.7: Hash는 자동으로 키워드 인자로 변환됩니다
+# 루비 3.0: 이 호출은 ArgumentError를 발생시킵니다
 foo(h)
   # => demo.rb:11: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
   #    demo.rb:2: warning: The called method `foo' is defined here
   #    42
 
-# If you want to keep the behavior in Ruby 3.0, use double splat
+# 루비 3.0에서 동작을 유지하려면 이중 스플랫(double splat)을 사용하세요
 foo(**h) #=> 42
 {% endhighlight %}
 
-Here is another case.  You can use braces (`{}`) to pass a Hash instead of keywords explicitly.
+다른 사례입니다. 키워드 대신 명시적으로 Hash를 넘기려면 중괄호(`{}`)를 사용할 수
+있습니다.
 
 {% highlight ruby %}
-# This method accepts one positional argument and a keyword rest argument
+# 이 메서드는 위치 인자 하나와 나머지 키워드 인자 하나를 받습니다
 def bar(h, **kwargs)
   p h
 end
 
-# This call passes only a keyword argument and no positional arguments
-# In Ruby 2.7: The keyword is converted to a positional Hash argument
-# In Ruby 3.0: This call raises an ArgumentError
+# 이 호출은 키워드 인자 하나만 넘기고 위치 인자를 넘기지 않습니다
+# 루비 2.7: 키워드는 Hash 위치 인자로 변환됩니다
+# 루비 3.0: 이 호출은 ArgumentError를 발생시킵니다
 bar(k: 42)
   # => demo2.rb:9: warning: Passing the keyword argument as the last hash parameter is deprecated
   #    demo2.rb:2: warning: The called method `bar' is defined here
   #    {:k=>42}
 
-# If you want to keep the behavior in Ruby 3.0, write braces to make it an
-# explicit Hash
+# 루비 3.0에서 동작을 유지하려면 중괄호를 써서 명시적인 Hash를 만드세요
 bar({ k: 42 }) # => {:k=>42}
 {% endhighlight %}
 
-## What is deprecated?
+## 제거 예정된 기능은 무엇인가요?
 {: #what-is-deprecated }
 
-In Ruby 2, keyword arguments can be treated as the last positional Hash argument and a last positional Hash argument can be treated as keyword arguments.
+루비 2에서 키워드 인자는 마지막 Hash 위치 인자로 간주될 수 있고, 마지막 Hash
+위치 인자는 키워드 인자로 간주될 수 있습니다.
 
-Because the automatic conversion is sometimes too complex and troublesome as described in the final section.  So it's now deprecated in Ruby 2.7 and will be removed in Ruby 3.  In other words, keyword arguments will be completely separated from positional one in Ruby 3.  So when you want to pass keyword arguments, you should always use `foo(k: expr)` or `foo(**expr)`.  If you want to accept keyword arguments, in principle you should always use `def foo(k: default)` or `def foo(k:)` or `def foo(**kwargs)`.
+이는 마지막 섹션에 설명한 것처럼 자동 변환이 가끔은 너무 복잡하고 힘들기
+때문입니다. 그래서 루비 2.7에서는 제거 예정된 기능이고 루비 3에서 제거됩니다.
+다시 말해서, 키워드 인자는 루비 3에서 위치 인자와 완전히 분리됩니다. 키워드
+인자를 넘기고 싶다면 항상 `foo(k: expr)` 또는 `foo(**expr)`를 사용해야 합니다.
+키워드 인자를 받고 싶다면 원칙적으로 항상 `def foo(k: default)`, `def foo(k:)`,
+`def foo(**kwargs)`를 사용해야 합니다.
 
-Note that Ruby 3.0 doesn't behave differently when calling a method which doesn't accept keyword arguments with keyword arguments. For instance, the following case is not going to be deprecated and will keep working in Ruby 3.0. The keyword arguments are still treated as a positional Hash argument.
+루비 3.0은 키워드 인자를 받지 않는 메서드를 키워드 인자와 함께 호출했을 때
+다르게 동작하지 않습니다. 예를 들어, 다음과 같은 경우는 제거 예정되지 않았고
+루비 3.0에서도 계속 동작합니다. 키워드 인자는 계속 Hash 위치 인자로 간주됩니다.
 
 {% highlight ruby %}
 def foo(kwargs = {})
@@ -84,9 +100,13 @@ end
 foo(k: 1) #=> {:k=>1}
 {% endhighlight %}
 
-This is because this style is used very frequently, and there is no ambiguity in how the argument should be treated. Prohibiting this conversion would result in additional incompatibility for little benefit.
+이는 이런 형태가 굉장히 많이 사용되고, 인자가 어떻게 간주되어야 하는지에 대한
+모호함이 없기 때문입니다. 이런 변환을 금지하면 추가적인 호환성 문제가 생기는 데
+반해 얻는 이득은 작습니다.
 
-However, this style is not recommended in new code, unless you are often passing a Hash as a positional argument, and are also using keyword arguments.  Otherwise, use double splat:
+하지만 이런 형태를 새 코드에 사용하는 건 추천하지 않습니다. Hash를 위치 인자로
+넘기면서 키워드 인자를 사용하는 게 자주 있는 일이 아니라면 말이죠. 그 대신 이중
+스플랫(double splat)을 사용하세요.
 
 {% highlight ruby %}
 def foo(**kwargs)
@@ -96,24 +116,33 @@ end
 foo(k: 1) #=> {:k=>1}
 {% endhighlight %}
 
-## Will my code break on Ruby 2.7?
+## 제 코드가 루비 2.7에서 동작하지 않게 되나요?
 {: #break-on-ruby-2-7 }
 
-A short answer is "maybe not".
+짧게 대답하자면 '아마도 아닙니다'.
 
-The changes in Ruby 2.7 are designed as a migration path towards 3.0.  While in principle, Ruby 2.7 only warns against behaviors that will change in Ruby 3, it includes some incompatible changes we consider to be minor.  See the "Other minor changes" section for details.
+루비 2.7의 변경은 3.0으로 옮기는 과정이 되도록 디자인되었습니다. 원칙적으로 루비
+2.7은 루비 3에서 변경될 동작에 대해 경고만 하지만, 사소하다고 생각되는 몇몇
+호환되지 않는 변경도 포함하고 있습니다. 자세한 내용은 '그 외 사소한 변경'
+섹션을 보세요.
 
-Except for the warnings and minor changes, Ruby 2.7 attempts to keep the compatibility with Ruby 2.6.  So, your code will probably work on Ruby 2.7, though it may emit warnings.  And by running it on Ruby 2.7, you can check if your code is ready for Ruby 3.0.
+경고와 사소한 변경을 제외하고, 루비 2.7은 루비 2.6과 호환성을 유지하려고
+했습니다. 여러분의 코드는 경고를 발생시킬지는 몰라도 아마 루비 2.7에서도 동작할
+겁니다. 루비 2.7에서 코드를 실행하는 것으로 여러분의 코드가 루비 3.0에 대해
+준비되었는지 확인할 수 있습니다.
 
-If you want to disable the deprecation warnings, please use a command-line argument `-W:no-deprecated` or add `Warning[:deprecated] = false` to your code.
+제거 예정 경고를 끄고 싶다면 커맨드 라인 인자`-W:no-deprecated`를 사용하거나,
+코드에 `Warning[:deprecated] = false`를 추가하세요.
 
-## Handling argument delegation
+## 인자 델리게이트 다루기
 {: #delegation }
 
-### Ruby 2.6 or prior
+### 루비 2.6 이전
 {: #delegation-ruby-2-6-or-prior }
 
-In Ruby 2, you can write a delegation method by accepting a `*rest` argument and a `&block` argument, and passing the two to the target method.  In this behavior, the keyword arguments are also implicitly handled by the automatic conversion between positional and keyword arguments.
+루비 2에서는 `*rest` 인자와 `&block` 인자를 받아 대상 메서드에 넘기는 델리게이트
+메서드를 만들 수 있습니다. 여기에서 키워드 인자는 암묵적으로 위치 인자나 키워드
+인자로 자동 변환되어 처리됩니다.
 
 {% highlight ruby %}
 def foo(*args, &block)
@@ -121,10 +150,10 @@ def foo(*args, &block)
 end
 {% endhighlight %}
 
-### Ruby 3
+### 루비 3
 {: #delegation-ruby-3 }
 
-You need to explicitly delegate keyword arguments.
+키워드 인자를 명시적으로 델리게이트해야 합니다.
 
 {% highlight ruby %}
 def foo(*args, **kwargs, &block)
@@ -132,7 +161,8 @@ def foo(*args, **kwargs, &block)
 end
 {% endhighlight %}
 
-Alternatively, if you do not need compatibility with Ruby 2.6 or prior and you don't alter any arguments, you can use the new delegation syntax (`...`) that is introduced in Ruby 2.7.
+루비 2.6 이전 버전과의 호환성이 필요하지 않고 아무 인자도 수정하지 않는다면 루비
+2.7에서 도입된 새로운 델리게이트 문법(`...`)을 사용할 수 있습니다.
 
 {% highlight ruby %}
 def foo(...)
@@ -140,10 +170,10 @@ def foo(...)
 end
 {% endhighlight %}
 
-### Ruby 2.7
+### 루비 2.7
 {: #delegation-ruby-2-7 }
 
-In short: use `Module#ruby2_keywords` and delegate `*args, &block`.
+요약: `Module#ruby2_keywords`를 사용하고 `*args, &block`을 델리게이트하세요.
 
 {% highlight ruby %}
 ruby2_keywords def foo(*args, &block)
@@ -151,14 +181,16 @@ ruby2_keywords def foo(*args, &block)
 end
 {% endhighlight %}
 
-`ruby2_keywords` accepts keyword arguments as the last Hash argument, and passes it as keyword arguments when calling the other method.
+`ruby2_keywords`는 키워드 인자를 마지막 Hash 인자로 받고, 다른 메서드를 호출할
+때 이를 키워드 인자로 넘깁니다.
 
-In fact, Ruby 2.7 allows the new style of delegation in many cases.  However, there is a known corner case.  See the next section.
+사실 루비 2.7은 많은 경우에 새로운 형태의 델리게이트를 허용하지만, 알려진 예외가
+있습니다. 다음 섹션을 보세요.
 
-### A compatible delegation that works on Ruby 2.6, 2.7 and Ruby 3
+### 루비 2.6, 2.7, 루비 3에서 호환되는 델리게이트
 {: #a-compatible-delegation }
 
-In short: use `Module#ruby2_keywords` again.
+요약: 이번에도 `Module#ruby2_keywords`를 사용하세요.
 
 {% highlight ruby %}
 ruby2_keywords def foo(*args, &block)
@@ -166,7 +198,13 @@ ruby2_keywords def foo(*args, &block)
 end
 {% endhighlight %}
 
-Unfortunately, we need to use the old-style delegation (i.e., no `**kwargs`) because Ruby 2.6 or prior does not handle the new delegation style correctly.  This is one of the reasons of the keyword argument separation; the details are described in the final section. And `ruby2_keywords` allows you to run the old style even in Ruby 2.7 and 3.0.  As there is no `ruby2_keywords` defined in 2.6 or prior, please use the [ruby2_keywords gem](https://rubygems.org/gems/ruby2_keywords) or define it yourself:
+안타깝게도 루비 2.6 이전 버전은 새로운 형태의 델리게이트를 제대로 처리할 수 없기
+때문에 예전 형태의 델리게이트(즉, `**kwargs` 없음)를 사용해야 합니다. 이는
+키워드 인자를 분리하게 된 이유 중 하나입니다. 자세한 내용은 마지막 섹션에
+설명되어 있습니다. `ruby2_keywords`는 루비 2.7과 3.0에서도 예전 형태가 동작하게
+합니다. 루비 2.6 이전 버전엔 `ruby2_keywords`가 정의되어 있지 않기 때문에,
+[ruby2_keywords 젬](https://rubygems.org/gems/ruby2_keywords)을 사용하거나 직접
+정의하세요.
 
 {% highlight ruby %}
 def ruby2_keywords(*)
@@ -175,7 +213,9 @@ end if RUBY_VERSION < "2.7"
 
 ---
 
-If your code doesn't have to run on Ruby 2.6 or older, you may try the new style in Ruby 2.7.  In almost all cases, it works.  Note that, however, there are unfortunate corner cases as follows:
+코드가 루비 2.6 이전 버전에서 동작할 필요가 없다면 루비 2.7에 도입된 새로운
+형태를 시도해보세요. 대부분의 경우에 동작하지만, 안타깝게도 다음 예외가
+존재합니다.
 
 {% highlight ruby %}
 def target(*args)
@@ -186,37 +226,45 @@ def foo(*args, **kwargs, &block)
   target(*args, **kwargs, &block)
 end
 
-foo({})       #=> Ruby 2.7: []   ({} is dropped)
-foo({}, **{}) #=> Ruby 2.7: [{}] (You can pass {} by explicitly passing "no" keywords)
+foo({})       #=> 루비 2.7: []   ({}는 무시됩니다)
+foo({}, **{}) #=> 루비 2.7: [{}] (명시적으로 키워드 '없이' 넘겨서 {}를 넘길 수 있습니다)
 {% endhighlight %}
 
-An empty Hash argument is automatically converted and absorbed into `**kwargs`, and the delegation call removes the empty keyword hash, so no argument is passed to `target`.  As far as we know, this is the only corner case.
+빈 Hash 인자는 자동으로 변환되어 `**kwargs`에 병합됩니다. 델리게이트 호출은 빈
+키워드 해시를 제거하여 `target`에는 아무 인자도 넘기지 않습니다. 우리가 아는 한
+예외는 이것뿐입니다.
 
-As noted in the last line, you can work around this issue by using `**{}`.
+마지막 줄에서 언급한 것처럼 이 문제는 `**{}`를 사용해서 해결할 수 있습니다.
 
-If you really worry about the portability, use `ruby2_keywords`.  (Acknowledge that Ruby 2.6 or before themselves have tons of corner cases in keyword arguments. :-)
-`ruby2_keywords` might be removed in the future after Ruby 2.6 reaches end-of-life. At that point, we recommend to explicitly delegate keyword arguments (see Ruby 3 code above).
+이식성이 걱정된다면 `ruby2_keywords`를 사용하세요.(루비 2.6 이전 버전은 키워드
+인자에 관한 예외가 굉장히 많다는 걸 알아두세요. :-)
+`ruby2_keywords`는 루비 2.6이 유지보수 종료된 후 제거될 수 있습니다. 그 시점에는
+키워드 인자를 명시적으로 델리게이트하는 것을 추천합니다(위의 루비 3 코드를
+보세요).
 
-## Other minor changes
+## 그 외 사소한 변경
 {: #other-minor-changes }
 
-There are three minor changes about keyword arguments in Ruby 2.7.
+루비 2.7에 키워드 인자와 관련된 사소한 변경 세 가지가 있습니다.
 
-### 1. Non-Symbol keys are allowed in keyword arguments
+### 1. 키워드 인자에 Symbol이 아닌 키 허용
 {: #other-minor-changes-non-symbol-keys }
 
-In Ruby 2.6 or before, only Symbol keys were allowed in keyword arguments.  In Ruby 2.7, keyword arguments can use non-Symbol keys.
+루비 2.6 이전 버전은 키워드 인자에 Symbol 키만 사용할 수 있습니다. 루비
+2.7에서는 키워드 인자에 Symbol이 아닌 키를 사용할 수 있습니다.
 
 {% highlight ruby %}
 def foo(**kwargs)
   kwargs
 end
 foo("key" => 42)
-  #=> Ruby 2.6 or before: ArgumentError: wrong number of arguments
-  #=> Ruby 2.7 or later: {"key"=>42}
+  #=> 루비 2.6 이전: ArgumentError: wrong number of arguments
+  #=> 루비 2.7 이후: {"key"=>42}
 {% endhighlight %}
 
-If a method accepts both optional and keyword arguments, the Hash object that has both Symbol keys and non-Symbol keys was split in two in Ruby 2.6.  In Ruby 2.7, both are accepted as keywords because non-Symbol keys are allowed.
+메서드가 옵셔널 인자와 키워드 인자 모두 받는 경우, 루비 2.6에서 Symbol 키와
+Symbol이 아닌 키 모두를 갖고 있는 Hash는 둘로 나뉘었습니다. 루비 2.7에서는
+Symbol이 아닌 키를 허용하기 때문에 둘 다 키워드로 받습니다.
 
 {% highlight ruby %}
 def bar(x=1, **kwargs)
@@ -224,15 +272,18 @@ def bar(x=1, **kwargs)
 end
 
 bar("key" => 42, :sym => 43)
-  #=> Ruby 2.6: [{"key"=>42}, {:sym=>43}]
-  #=> Ruby 2.7: [1, {"key"=>42, :sym=>43}]
+  #=> 루비 2.6: [{"key"=>42}, {:sym=>43}]
+  #=> 루비 2.7: [1, {"key"=>42, :sym=>43}]
 
-# Use braces to keep the behavior
+# 동작을 유지하려면 중괄호를 사용하세요
 bar({"key" => 42}, :sym => 43)
-  #=> Ruby 2.6 and 2.7: [{"key"=>42}, {:sym=>43}]
+  #=> 루비 2.6 및 2.7: [{"key"=>42}, {:sym=>43}]
 {% endhighlight %}
 
-Ruby 2.7 still splits hashes with a warning if passing a Hash or keyword arguments with both Symbol and non-Symbol keys to a method that accepts explicit keywords but no keyword rest argument (`**kwargs`).  This behavior will be removed in Ruby 3, and an `ArgumentError` will be raised.
+루비 2.7은 명시적 키워드를 받지만 나머지 키워드 인자(`**kwargs`)는 받지 않는
+메서드를, Symbol과 Symbol이 아닌 키 모두를 갖는 Hash 또는 키워드 인자를 넘겨
+호출한 경우 여전히 해시를 나누고 경고를 발생시킵니다. 이 동작은 루비 3에서
+제거되고 `ArgumentError`를 발생시킵니다.
 
 {% highlight ruby %}
 def bar(x=1, sym: nil)
@@ -240,16 +291,17 @@ def bar(x=1, sym: nil)
 end
 
 bar("key" => 42, :sym => 43)
-# Ruby 2.6 and 2.7: => [{"key"=>42}, 43]
-# Ruby 2.7: warning: Splitting the last argument into positional and keyword parameters is deprecated
+# 루비 2.6 및 2.7: => [{"key"=>42}, 43]
+# 루비 2.7: warning: Splitting the last argument into positional and keyword parameters is deprecated
 #           warning: The called method `bar' is defined here
-# Ruby 3.0: ArgumentError
+# 루비 3.0: ArgumentError
 {% endhighlight %}
 
-### 2. Double splat with an empty hash (`**{}`)  passes no arguments
+### 2. 이중 스플랫(double splat)을 사용한 빈 해시(`**{}`)는 아무 인자도 넘기지 않음
 {: #other-minor-changes-empty-hash }
 
-In Ruby 2.6 or before, passing `**empty_hash` passes an empty Hash as a positional argument.  In Ruby 2.7 or later, it passes no arguments.
+루비 2.6 이전 버전은 `**empty_hash`를 넘기면 위치 인자로 빈 Hash를 넘깁니다.
+루비 2.7 이후 버전은 아무 인자도 넘기지 않습니다.
 
 {% highlight ruby %}
 def foo(*args)
@@ -258,13 +310,17 @@ end
 
 empty_hash = {}
 foo(**empty_hash)
-  #=> Ruby 2.6 or before: [{}]
-  #=> Ruby 2.7 or later: []
+  #=> 루비 2.6 이전: [{}]
+  #=> 루비 2.7 이후: []
 {% endhighlight %}
 
-Note that `foo(**{})` passes nothing in both Ruby 2.6 and 2.7.  In Ruby 2.6 and before, `**{}` is removed by the parser, and in Ruby 2.7 and above, it is treated the same as `**empty_hash`, allowing for an easy way to pass no keyword arguments to a method.
+`foo(**{})`는 루비 2.6과 2.7 모두 아무것도 넘기지 않습니다. 루비 2.6 이전 버전은
+파서에 의해 `**{}`를 제거하고, 루비 2.7 이후 버전은 `**empty_hash`와 동일하게
+간주되어, 메서드에 아무 키워드 인자도 넘기지 않는 쉬운 방법을 제공합니다.
 
-In Ruby 2.7, when calling a method with an insufficient number of required positional arguments, `foo(**empty_hash)` passes an empty hash with a warning emitted, for compatibility with Ruby 2.6.  This behavior will be removed in 3.0.
+루비 2.7에서는 필요한 위치 인자 개수보다 적은 인자를 넘겨 메서드를 호출했을 때,
+루비 2.6과의 호환성을 위해 `foo(**empty_hash)`에서 빈 해시를 넘기고 경고를
+발생시킵니다. 이 동작은 3.0에서 제거됩니다.
 
 {% highlight ruby %}
 def foo(x)
@@ -273,53 +329,58 @@ end
 
 empty_hash = {}
 foo(**empty_hash)
-  #=> Ruby 2.6 or before: {}
-  #=> Ruby 2.7: warning: Passing the keyword argument as the last hash parameter is deprecated
+  #=> 루비 2.6 이전: {}
+  #=> 루비 2.7: warning: Passing the keyword argument as the last hash parameter is deprecated
   #             warning: The called method `foo' is defined here
-  #=> Ruby 3.0: ArgumentError: wrong number of arguments
+  #=> 루비 3.0: ArgumentError: wrong number of arguments
 {% endhighlight %}
 
-### 3. The no-keyword-arguments syntax (`**nil`) is introduced
+### 3. 키워드 인자 없음 문법(`**nil`) 도입
 {: #other-minor-changes-double-splat-nil }
 
-You can use `**nil` in a method definition to explicitly mark the method accepts no keyword arguments. Calling such methods with keyword arguments will result in an `ArgumentError`. (This is actually a new feature, not an incompatibility)
+메서드가 키워드 인자를 받지 않는다는 것을 명시적으로 나타내기 위해 메서드 정의에 `**nil`을 사용할 수 있습니다. 이러한 메서드를 키워드 인자와 함께 호출하면 `ArgumentError`가 발생합니다.(이건 새 기능이고, 호환되지 않는 기능이 아닙니다)
 
 {% highlight ruby %}
 def foo(*args, **nil)
 end
 
 foo(k: 1)
-  #=> Ruby 2.7 or later: no keywords accepted (ArgumentError)
+  #=> 루비 2.7 이후: no keywords accepted (ArgumentError)
 {% endhighlight %}
 
-This is useful to make it explicit that the method does not accept keyword arguments.  Otherwise, the keywords are absorbed in the rest argument in the above example.  If you extend a method to accept keyword arguments, the method may have incompatibility as follows:
+메서드가 키워드 인자를 받지 않는다는 것을 명시적으로 만들 때 유용합니다. 이렇게
+하지 않으면 위의 예제에서 키워드는 나머지 인자에 병합됩니다. 메서드가 키워드
+인자를 받도록 확장하면 메서드는 다음과 같은 호환성 문제를 갖게 될 수 있습니다.
 
 {% highlight ruby %}
-# If a method accepts rest argument and no `**nil`
+# 메서드가 나머지 인자를 받고 `**nil`이 없는 경우
 def foo(*args)
   p args
 end
 
-# Passing keywords are converted to a Hash object (even in Ruby 3.0)
+# 키워드를 넘기면 Hash 객체로 변환됩니다(루비 3.0도 마찬가지)
 foo(k: 1) #=> [{:k=>1}]
 
-# If the method is extended to accept a keyword
+# 메서드가 키워드를 받도록 확장된 경우
 def foo(*args, mode: false)
   p args
 end
 
-# The existing call may break
+# 기존의 호출이 동작하지 않을 수 있습니다
 foo(k: 1) #=> ArgumentError: unknown keyword k
 {% endhighlight %}
 
-## Why we're deprecating the automatic conversion
+## 자동 변환이 제거 예정된 이유
 {: #why-deprecated }
 
-The automatic conversion initially appeared to be a good idea, and worked well in many cases.  However, it had too many corner cases, and we have received many bug reports about the behavior.
+처음에 자동 변환은 좋은 아이디어처럼 보였고, 많은 경우에 잘 동작했습니다. 하지만
+너무 많은 예외가 존재했고, 이 동작에 관한 많은 버그 제보를 받았습니다.
 
-Automatic conversion does not work well when a method accepts optional positional arguments and keyword arguments.  Some people expect the last Hash object to be treated as a positional argument, and others expect it to be converted to keyword arguments.
+자동 변환은 메서드가 옵셔널 위치 인자와 키워드 인자를 받는 경우 잘 동작하지
+않습니다. 어떤 사람들은 마지막 Hash 객체가 위치 인자로 간주될 거라고 생각하고,
+또 어떤 사람들은 키워드 인자로 변환될 거라고 생각합니다.
 
-Here is one of the most confusing cases:
+이는 가장 헷갈리는 경우 중 하나입니다.
 
 {% highlight ruby %}
 def foo(x, **kwargs)
@@ -336,11 +397,11 @@ bar({}) => [1, {}]
 bar({}, **{}) => expected: [{}, {}], actual: [1, {}]
 {% endhighlight %}
 
-In Ruby 2, `foo({})` passes an empty hash as a normal argument (i.e., `{}` is assigned to `x`), while `bar({})` passes a keyword argument (i.e, `{}` is assigned to `kwargs`).  So `any_method({})` is very ambiguous.
+루비 2에서 `foo({})`는 빈 해시를 일반적인 인자로 넘기지만(즉, `{}`는 `x`에 대입됩니다), `bar({})`는 키워드 인자를 넘깁니다(즉, `{}`는 `kwargs`에 대입됩니다). 그래서 `any_method({})`는 굉장히 모호합니다.
 
-You may think of `bar({}, **{})` to pass the empty hash to `x` explicitly.  Surprisingly, it does not work as you expected; it still prints `[1, {}]` in Ruby 2.6.  This is because `**{}` is ignored by the parser in Ruby 2.6, and the first argument `{}` is automatically converted to keywords (`**kwargs`).  In this case, you need to call `bar({}, {})`, which is very weird.
+`bar({}, **{})`가 빈 해시를 명시적으로 `x`에 넘길 거라고 생각할 수 있습니다. 놀랍게도 이는 생각한 대로 동작하지 않고 루비 2.6에서 여전히 `[1, {}]`를 출력합니다. 루비 2.6에서 `**{}`가 파서에 의해 무시되고, 첫 번째 인자 `{}`는 키워드(`**kwargs`)로 자동 변환되기 때문입니다. 이 경우에 `bar({}, {})`를 호출해야 하는데, 아주 이상하죠.
 
-The same issues also apply to methods that accept rest and keyword arguments.  This makes explicit delegation of keyword arguments not work.
+같은 문제가 나머지 인자와 키워드 인자를 받는 메서드에도 적용됩니다. 이는 키워드 인자의 명시적인 델리게이트가 동작하지 않게 합니다.
 
 {% highlight ruby %}
 def target(*args)
@@ -351,18 +412,24 @@ def foo(*args, **kwargs, &block)
   target(*args, **kwargs, &block)
 end
 
-foo() #=> Ruby 2.6 or before: [{}]
-      #=> Ruby 2.7 or later:  []
+foo() #=> 루비 2.6 이전: [{}]
+      #=> 루비 2.7 이후: []
 {% endhighlight %}
 
-`foo()` passes no arguments, but `target` receives an empty hash argument in Ruby 2.6.  This is because the method `foo` delegates keywords (`**kwargs`) explicitly.  When `foo()` is called, `args` is an empty Array, `kwargs` is an empty Hash, and `block` is `nil`.  And then `target(*args, **kwargs, &block)` passes an empty Hash as an argument because `**kwargs` is automatically converted to a positional Hash argument.
+`foo()`는 아무 인자도 넘기지 않지만 루비 2.6에서 `target`은 빈 해시 인자를
+받습니다. `foo` 메서드가 키워드(`**kwargs`)를 명시적으로 델리게이트하기
+때문입니다. `foo()`가 호출되었을 때 `args`는 빈 Array, `kwargs`는 빈 Hash,
+`block`은 `nil`입니다. 그 후 `target(*args, **kwargs, &block)`은 빈 Hash를
+인자로 넘기는데, `**kwargs`가 Hash 위치 인자로 자동 변환되기 때문입니다.
 
-The automatic conversion not only confuses people but also makes the method less extensible.  See [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183) for more details about the reasons for the change in behavior, and why certain implementation choices were made.
+자동 변환은 사람을 혼란스럽게 할 뿐만 아니라 메서드의 확장성도 떨어뜨립니다. 이
+동작 변경에 대한 근거와 구현과 관련된 선택이 이루어진 이유에 대한 자세한 내용은
+[[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)을 보세요.
 
-## Acknowledgment
+## 감사의 글
 
-This article was kindly reviewed (or even co-authored) by Jeremy Evans and Benoit Daloze.
+이 글을 리뷰해 준(그리고 같이 작성해 준) Jeremy Evans와 Benoit Daloze에게 감사를 표합니다.
 
-## History
+## 수정 이력
 
-* Updated 2019-12-25: In 2.7.0-rc2, the warning message was slightly changed, and an API to suppress the warnings was added.
+* 2019-12-25 수정: 2.7.0-rc2에서 경고 메시지가 약간 수정되었고, 경고를 끄는 API를 추가했습니다.
