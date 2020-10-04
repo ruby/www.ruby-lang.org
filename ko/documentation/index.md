@@ -89,6 +89,9 @@ lang: ko
 [APIdock][18] (영문)
 : 유저의 댓글이 달린 루비, 레일즈, RSpec의 문서입니다.
 
+[Ruby API][40] (영문)
+: 루비 클래스, 모듈, 메서드를 편하게 찾고 탐색하세요.
+
 ### 편집기와 IDE
 
 루비를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습니다. 하지만,
@@ -166,6 +169,7 @@ lang: ko
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
+[40]: https://rubyapi.org/
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
