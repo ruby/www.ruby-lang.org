@@ -9,8 +9,8 @@ lang: en
 
 Ruby 2.7.2 has been released.
 
-This release contains intentional incompatibility. The deprecated warnings are off by default on 2.7.2 and later.
-You can turn on the deprecated warnings by specifing command line option -w or -W:deprecated.
+This release contains intentional incompatibility. Deprecation warnings are off by default on 2.7.2 and later.
+You can turn on deprecation warnings by specifying the -w or -W:deprecated option at the command-line.
 Please check the topics below for details.
 
 * [Feature #17000 2.7.2 turns off deprecation warnings by default](https://bugs.ruby-lang.org/issues/17000)
@@ -56,5 +56,4 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2) for 
 
 ## Release Comment
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Thanks to the many committers, developers and users who provided bug reports and contributions that made this release possible.
