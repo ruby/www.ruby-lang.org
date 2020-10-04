@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.5.8 Released"
+title: "루비 2.5.8 릴리스"
 author: "usa"
-translator:
+translator: "yous"
 date: 2020-03-31 12:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.5.8 has been released.
+루비 2.5.8이 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)]({% link en/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
-* [CVE-2020-10933: Heap exposure vulnerability in the socket library]({% link en/news/_posts/2020-03-31-heap-exposure-in-socket-cve-2020-10933.md %})
+* [CVE-2020-10663: JSON의 안전하지 않은 객체 생성 취약점(추가 수정)]({% link ko/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
+* [CVE-2020-10933: 소켓 라이브러리의 힙 메모리 노출 취약점]({% link ko/news/_posts/2020-03-31-heap-exposure-in-socket-cve-2020-10933.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_7...v2_5_8) for details.
+자세한 내용은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_5_7...v2_5_8)를 확인해주세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "2.5.8" | first %}
 
@@ -49,6 +49,6 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_7...v2_5_8) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+이 릴리스를 만드는 데 도움을 준 모든 분, 특히 취약점을 보고해 준 분에게 감사드립니다.
