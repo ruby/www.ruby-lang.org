@@ -16,7 +16,7 @@ Please check the topics below for details.
 * [Feature #17000 2.7.2 turns off deprecation warnings by default](https://bugs.ruby-lang.org/issues/17000)
 * [Feature #16345 Don't emit deprecation warnings by default.](https://bugs.ruby-lang.org/issues/16345)
 
-This release contains the new version of WEBrick with a security fix described in the article.
+This release contains the new version of webrick with a security fix described in the article.
 
 * [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick](/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
 
