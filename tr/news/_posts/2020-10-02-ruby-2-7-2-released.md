@@ -19,8 +19,6 @@ Ayrıntılar için lütfen aşağıdaki konulara bakın.
 
 Bu yayın aşağıdaki makalede tanımlanan bir güvenlik düzeltmesi içeren, webrick'in yeni bir sürümü içermektedir.
 
-
-
 * [CVE-2020-25613: WEBrick'te Potansiyel HTTP İsteği Kaçakçılığı Zaafiyeti](/tr/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
 
 Diğer değişiklikler için [işleme loglarına](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2) bakınız.
