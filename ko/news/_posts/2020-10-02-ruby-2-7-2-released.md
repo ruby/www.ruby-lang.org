@@ -18,7 +18,7 @@ lang: ko
 
 이 릴리스는 다음 글이 소개하고 있는 보안 수정이 적용된 webrick의 새 버전을 포함합니다.
 
-* [CVE-2020-25613: WEBrick의 잠재적인 HTTP 요청 밀수 취약점](/ko/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
+* [CVE-2020-25613: WEBrick의 잠재적인 HTTP 요청 스머글링 취약점](/ko/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
 
 이 이외의 변경 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2)를 확인해주세요.
 
