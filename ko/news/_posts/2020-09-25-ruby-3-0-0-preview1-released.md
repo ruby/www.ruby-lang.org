@@ -195,7 +195,7 @@ p r2.take #=> true
   * weakref
 
 더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)나
-[커밋 로그](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)를 확인해주세요.
+[커밋 로그](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)를 확인해주세요.
 
 {% assign release = site.data.releases | where: "version", "3.0.0-preview1" | first %}
 
