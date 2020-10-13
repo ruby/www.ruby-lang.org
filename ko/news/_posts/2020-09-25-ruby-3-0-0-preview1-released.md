@@ -58,7 +58,7 @@ ractor 간의 통신은 메시지 넘기기를 통해서 지원됩니다.
 {% highlight ruby %}
 require 'prime'
 
-# n.prime? with sent integers in r1, r2 run in parallel
+# r1, r2가 넘긴 정수들와 함께 'n.prime?'가 병렬로 동작
 r1, r2 = *(1..2).map do
   Ractor.new do
     n = Ractor.recv
@@ -66,11 +66,11 @@ r1, r2 = *(1..2).map do
   end
 end
 
-# send parameters
+# 매개 변수를 송신
 r1.send 2**61 - 1
 r2.send 2**61 + 15
 
-# wait for the results of expr1, expr2
+# expr1, expr2의 결과 대기
 p r1.take #=> true
 p r2.take #=> true
 {% endhighlight %}
