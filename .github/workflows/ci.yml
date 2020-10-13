@@ -30,7 +30,7 @@ jobs:
         run: ruby -v
       # override the Ruby version specified in the Gemfile
       - name: Set CUSTOM_RUBY_VERSION for Gemfile
-        run: echo ::set-env name=CUSTOM_RUBY_VERSION::$(ruby -e 'puts RUBY_VERSION')
+        run: echo "CUSTOM_RUBY_VERSION=$(ruby -e 'puts RUBY_VERSION')" >> $GITHUB_ENV
       - name: Dump CUSTOM_RUBY_VERSION
         run: echo $CUSTOM_RUBY_VERSION
       - name: Cache gem bundle
