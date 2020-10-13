@@ -192,12 +192,12 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
   * weakref
 
 See [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
+or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)
 for more details.
 
 {% assign release = site.data.releases | where: "version", "3.0.0-preview1" | first %}
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
+With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)
 since Ruby 2.7.0!
 
 Please try Ruby 3.0.0-preview1, and give us any feedback!

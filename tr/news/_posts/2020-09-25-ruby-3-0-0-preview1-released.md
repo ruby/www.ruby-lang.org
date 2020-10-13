@@ -205,11 +205,11 @@ Aşağıdaki varsayılan gem'ler rubygems.org'da yayınlandı.
   * tsort
   * weakref
 
-Daha fazla ayrıntı için [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)'e ya da [işleme loglarına](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0) bakınız.
+Daha fazla ayrıntı için [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)'e ya da [işleme loglarına](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1) bakınız.
 
 {% assign release = site.data.releases | where: "version", "3.0.0-preview1" | first %}
 
-Bu değişikliklerle birlikte, 2.7.0'dan bu yana [{{ release.stats.files_changed }} dosya değişti, {{ release.stats.insertions }} ekleme(+) yapıldı, {{ release.stats.deletions }} silme(-) yapıldı](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)!
+Bu değişikliklerle birlikte, 2.7.0'dan bu yana [{{ release.stats.files_changed }} dosya değişti, {{ release.stats.insertions }} ekleme(+) yapıldı, {{ release.stats.deletions }} silme(-) yapıldı](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)!
 
 Lütfen Ruby 3.0.0-preview1'i deneyin, ve bize herhangi bir geri bildirim verin!
 

@@ -246,11 +246,11 @@ versión prevía.
 
 Ver más detalles en el archivo
 [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)
-o [en la bitácora de contribuciones](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0).
+o [en la bitácora de contribuciones](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1).
 
 {% assign release = site.data.releases | where: "version", "3.0.0-preview1" | first %}
 
-Con estos cambios, [{{ release.stats.files_changed }} archivos cambiados, {{ release.stats.insertions }} inserciones(+), {{ release.stats.deletions }} eliminaciones(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
+Con estos cambios, [{{ release.stats.files_changed }} archivos cambiados, {{ release.stats.insertions }} inserciones(+), {{ release.stats.deletions }} eliminaciones(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)
 desde Ruby 2.7.0!
 
 ¡Por favor pruebe Ruby 3.0.0-preview1, y denos cualquier retroalimentación!
