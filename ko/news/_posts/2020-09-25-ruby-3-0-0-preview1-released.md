@@ -141,7 +141,7 @@ p r2.take #=> true
 
 * 키워드 인자가 다른 인자들로부터 분리됩니다.
   * 원칙적으로 루비 2.7에서 경고를 출력하는 코드는 동작하지 않습니다. 자세한 내용은 [문서](https://www.ruby-lang.org/ko/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)를 확인하세요.
-  * 한편, 일부 인자만을 넘기는 기능을 추가로 지원합니다.
+  * 한편, 인자를 전달할 때 앞쪽 인자를 사용할 수 있습니다.
     {% highlight ruby %}
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
