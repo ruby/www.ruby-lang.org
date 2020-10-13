@@ -30,11 +30,11 @@ module ChatApp
   class Channel
     attr_reader name: String
     attr_reader messages: Array[Message]
-    attr_reader users: Array[User | Bot]              # `|` means union types, `User` or `Bot`.
+    attr_reader users: Array[User | Bot]              # `|`는 유니언 타입을 의미합니다. 여기에서는 `User` 또는 `Bot`이라는 의미입니다.
 
     def initialize: (String) -> void
 
-    def post: (String, from: User | Bot) -> Message   # Method overloading is supported.
+    def post: (String, from: User | Bot) -> Message   # 메서드 오버로딩이 지원됩니다.
             | (File, from: User | Bot) -> Message
   end
 end
