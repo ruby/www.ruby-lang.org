@@ -70,7 +70,7 @@ end
 r1.send 2**61 - 1
 r2.send 2**61 + 15
 
-# expr1, expr2의 결과 대기
+# r1, r2의 실행 결과 대기
 p r1.take #=> true
 p r2.take #=> true
 {% endhighlight %}
