@@ -308,7 +308,7 @@ a block following the method call will be converted into a `Proc` object
 and assigned to the formal parameter.
 
 If the last actual argument in a method invocation is a `Proc` object,
-you can precede its name with an ampersand to convert in into a block.
+you can precede its name with an ampersand to convert it into a block.
 The method may then use `yield` to call it.
 
 ~~~
