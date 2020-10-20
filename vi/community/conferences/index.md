@@ -76,7 +76,7 @@ một ngày.
 Có một số người quan tâm đến Ruby tại [hội thảo mã nguồn mở O’Reilly][10]
 (OSCON) từ năm 2004, và con số này không ngừng tăng lên qua các hội thảo khác.
 Một số hội thảo dành riêng cho [Ruby on Rails][11], gồm [RailsConf][12] của
-Ruby Central, [RailsConf Europe][13] (đồng tổ chức bởi Ruby Central và
+Ruby Central, RailsConf Europe (đồng tổ chức bởi Ruby Central và
 [Skills Matter][14] năm 2006, Ruby Central và O’Reilly năm 2007),
 và Canada on Rails.
 

@@ -60,7 +60,7 @@ lang: zh_tw
 自 2004 年起的 [O’Reilly Open Source Conference][10] (OSCON)
 研討會也包括了一整軌的 Ruby 演講，並逐年增加中。
 也有許多研討會以 [Ruby on Rails][11] 為主題，包括了 Ruby Central 的
-[RailsConf][12]、[RailsConf Europe][13]
+[RailsConf][12]、RailsConf Europe
 （2006 年由 Ruby Central 和 [Skills Matter][14] 共同舉辦，
 2007 年由 Ruby Central 和 O’Reilly 共同舉辦）以及 Canada on Rails.
 

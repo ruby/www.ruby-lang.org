@@ -54,7 +54,7 @@ Ruby 相关的报道，而且我们总是对 Ruby 相关的内容更感兴趣。
 
 自2004年起的 [O’Reilly Open Source Conference][10](OSCON) 研讨会包括了一整轨的 Ruby 演讲，
 Ruby 相关的内容都在逐年增加。许多研讨会都以 [Ruby on Rails][11] 为主题，包括 Ruby Central 的
-[RailsConf][12]、[RailsConf Europe][13]（RubyCentral 和 [Skills Matter][14] 在2006年共同举办，
+[RailsConf][12]、RailsConf Europe（RubyCentral 和 [Skills Matter][14] 在2006年共同举办，
 2007年由 Ruby Central 和 O’Reilly 举办）以及 Canada on Rails。
 
 

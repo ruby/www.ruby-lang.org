@@ -56,7 +56,7 @@ Ruby on Rails. Событие проводится в Chicago сообществ
 С 2004 года часть конференции [O’Reilly Open Source Conference][10]
 посвящена темам Ruby. Также количество рубистов и тем о Ruby растет на
 других не Ruby-специфичных событиях. Некоторые конференции, посвященные
-[Ruby on Rails][11]: [RailsConf][12] от Ruby Central, [RailsConf Europe][13] (Ruby
+[Ruby on Rails][11]: [RailsConf][12] от Ruby Central, RailsConf Europe (Ruby
 Central и [Skills Matter][14] соучередители с 2006, и с 2007 года – Ruby Central и
 O’Reilly), и Canada on Rails.
 

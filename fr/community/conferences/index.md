@@ -64,7 +64,7 @@ Conference*][8] (OSCON) depuis 2004. Par ailleurs, les rubyistes
 maintiennent une très forte présence dans divers regroupements non
 directement liés à Ruby. De très nombreuses conférences ont été
 consacrées à [Ruby on Rails][9], à commencer par la [RailsConf][10] de
-Ruby Central, la [RailsConf Europe][11] (co-produite en 2006 par Ruby
+Ruby Central, la RailsConf Europe (co-produite en 2006 par Ruby
 Central et [Skills Matter][12], organisée en 2007 par Ruby Central et
 O’Reilly) et enfin *Canada on Rails*.
 

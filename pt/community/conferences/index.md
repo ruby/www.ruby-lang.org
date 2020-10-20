@@ -67,7 +67,7 @@ Tem havido uma _track_ de Ruby na [O’Reilly Open Source Conference][9]
 Programadores Ruby em outros encontros não relacionados com Ruby. Tem
 havido também, um crescente número de conferências dedicadas a
 [Ruby on Rails][10], incluindo a [RailsConf][11] da Ruby Central, a
-[RailsConf Europe][12] (co-realizada em 2006 pela Ruby Central e pela
+RailsConf Europe (co-realizada em 2006 pela Ruby Central e pela
 [Skills Matter][13], e que em 2007 o será pela Ruby Central e
 O’Reilly) e, para finalizar a Canada on Rails.
 

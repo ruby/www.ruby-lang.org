@@ -73,7 +73,7 @@ diadakan pada tahun 2017 di Jakarta.
 [O’Reilly Open Source Conference][10] (OSCON) telah mempunyai sesi Ruby
 sejak tahun 2004, dan juga mempunyai semakin banyak pendukung Ruby.
 Berbagai konferensi lain juga diadakan untuk [Ruby on Rails][11],
-termasuk [RailsConf][12] oleh Ruby Central, [RailsConf Europe][13]
+termasuk [RailsConf][12] oleh Ruby Central, RailsConf Europe
 (diselenggarakan bersama tahun 2006 oleh Ruby Central dan [Skills
 Matter][14], dan tahun 2007 oleh Ruby Central dan O’Reilly), dan Canada
 on Rails.

@@ -53,7 +53,7 @@ Valley Ruby Conference.
 
 Ruby присъства на [O’Reilly Open Source Conference][10] (OSCON) от 2004
 г. Някои от конференциите, свързани с [Ruby on Rails][11], са: Ruby Central’s
-[RailsConf][12], [RailsConf Europe][13] (през 2006 г. с помощта на Ruby
+[RailsConf][12], RailsConf Europe (през 2006 г. с помощта на Ruby
 Central и [Skills Matter][14], и през 2007 г. с помощта на Ruby Central
 и O’Reilly), както и Canada on Rails и Scotland on Rails.
 
