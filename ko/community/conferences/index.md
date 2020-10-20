@@ -59,5 +59,4 @@ Canada on Rails 등등의 많은 콘퍼런스들은 [루비 온 레일즈][11]�
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
 [12]: http://www.railsconf.org
-[13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com

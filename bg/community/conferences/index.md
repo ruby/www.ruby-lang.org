@@ -70,5 +70,4 @@ Central и [Skills Matter][14], и през 2007 г. с помощта на Ruby
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
 [12]: http://www.railsconf.org
-[13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com

@@ -90,7 +90,6 @@ on Rails.
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
 [12]: http://www.railsconf.org
-[13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com
 [16]: http://steelcityruby.org/
 [19]: http://goruco.com/

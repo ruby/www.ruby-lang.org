@@ -85,7 +85,6 @@ O’Reilly) e, para finalizar a Canada on Rails.
 [9]: http://conferences.oreillynet.com/os2006/
 [10]: http://www.rubyonrails.org
 [11]: http://www.railsconf.org
-[12]: http://europe.railsconf.org
 [13]: http://www.skillsmatter.com
 [14]: http://steelcityruby.org/
 [15]: http://goruco.com/

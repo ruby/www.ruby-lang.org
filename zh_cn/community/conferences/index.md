@@ -71,7 +71,6 @@ Ruby 相关的内容都在逐年增加。许多研讨会都以 [Ruby on Rails][1
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
 [12]: http://www.railsconf.org
-[13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com
 [15]: http://madisonruby.org/
 [16]: http://steelcityruby.org/

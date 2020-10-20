@@ -79,7 +79,6 @@ O’Reilly) et enfin *Canada on Rails*.
 [8]: http://conferences.oreillynet.com/os2006/
 [9]: http://www.rubyonrails.org
 [10]: http://www.railsconf.org
-[11]: http://europe.railsconf.org
 [12]: http://www.skillsmatter.com
 [13]: http://rulu.eu
 [14]: http://la-conf.org
