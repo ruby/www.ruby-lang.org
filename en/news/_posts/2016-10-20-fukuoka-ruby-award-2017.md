@@ -17,7 +17,7 @@ interesting Ruby program, please be encouraged to apply.
 
 Entry Deadline: December 27, 2016
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz and a group of panelists will select the winners of the Fukuoka Competition.
 The grand prize for the Fukuoka Competition is 1 million yen.

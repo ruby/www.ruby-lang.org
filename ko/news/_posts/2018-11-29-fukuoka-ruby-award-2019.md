@@ -15,7 +15,7 @@ lang: ko
 
 접수 마감: 2019년 1월 31일
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz를 포함한 패널들이 후쿠오카 경진대회의 우승자를 선택합니다. 후쿠오카 경진대회의 대상에게는 백만 엔의 상금이 주어집니다. 이전 이 대회의 우승자로는 Rhomobile(미국)과 APEC 기후 센터(한국)가 있습니다.
 

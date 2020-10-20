@@ -16,7 +16,7 @@ Eğer ilginç bir Ruby programı geliştirdiyseniz, lütfen başvurun.
 
 Son Başvuru Tarihi: 11 Aralık 2019
 
-![Fukuoka Ruby Ödülü](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Ödülü](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz ve bir grup oturum katılımcısı Fukuoka Yarışmasının kazananlarını belirleyecek.
 Fukuoka Yarışması için büyük ödül 1 milyon yen'dir.

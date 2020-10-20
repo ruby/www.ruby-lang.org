@@ -18,7 +18,7 @@ kompetisi ini.
 
 Batas akhir masuk: 27 Desember 2016
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz dan sebuah grup dari panelis akan memilih pemenang kompetisi ini.
 Hadiah utama kompetisi ini adalah 1 juta yen.

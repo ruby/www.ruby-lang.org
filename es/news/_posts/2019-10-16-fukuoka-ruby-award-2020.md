@@ -17,7 +17,7 @@ Premios para la Competencia Fukuoka 2020 - Premio Mayor - 1 Millon Yenes!
 
 Fecha límite: 11 de diciembre de 2019
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz y un grupo de panelistas seleccionarán los ganadores de la Competencia
 Fukuoka.  El premio mayor de la Compentencia Fukuoka es de 1 millón de yenes.

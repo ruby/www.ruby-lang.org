@@ -15,7 +15,7 @@ lang: ru
 
 Крайний Срок Подачи Заявок: 11 Декабря 2019 Года
 
-![Фукуока Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Фукуока Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz и группа участников дискуссии выберут победителей конкурса Фукуоки. Главный приз конкурса от Фукуоки - 1 миллион иен. Прошлые обладатели призов: Rhomobile (США) и Климатический Центр APEC (Корея).
 

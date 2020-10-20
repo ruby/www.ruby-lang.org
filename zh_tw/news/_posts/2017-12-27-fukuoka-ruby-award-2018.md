@@ -15,7 +15,7 @@ lang: zh_tw
 
 截止日期：2018 年 1 月 31 日。
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz 與評審委員小組會選出本次大賽的優勝者。福岡 Ruby 大賽的最大獎是壹百萬日圓。過去的優勝者有來自美國的 Rhomobile 公司以及韓國釜山的亞太經貿氣候中心。
 

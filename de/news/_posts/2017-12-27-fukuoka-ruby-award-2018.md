@@ -18,7 +18,7 @@ Fukuoka Ruby Award 2018 — Großer Preis — 1 Million Yen!
 
 Einsendeschluss: 31. Januar 2018
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz und eine Gruppe Juroren werden die Preisträger gemeinsam
 auswählen; der Große Preis ist mit einer Million Yen (ca. 7.300 €)

@@ -17,7 +17,7 @@ programa interesante en Ruby, anímate a aplicar.
 
 Fecha límite: Diciembre 27, 2016
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz y un grupo de panelistas eligirán a los ganadores de la Fukuoka Competition.
 El gran premio para Fukuoka Competition es de un millón de yens.
