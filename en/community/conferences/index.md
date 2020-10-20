@@ -67,7 +67,7 @@ There has been a Ruby track at the [O’Reilly Open Source Conference][10]
 (OSCON) since 2004, and an increasing presence on the part of Ruby and
 Rubyists at other non-Ruby-specific gatherings. A number of conferences
 have also been devoted to [Ruby on Rails][11], including Ruby Central’s
-[RailsConf][12], [RailsConf Europe][13] (co-produced in 2006 by Ruby
+[RailsConf][12], RailsConf Europe (co-produced in 2006 by Ruby
 Central and [Skills Matter][14], and in 2007 by Ruby Central and
 O’Reilly), and Canada on Rails.
 
@@ -83,7 +83,6 @@ O’Reilly), and Canada on Rails.
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org
 [12]: http://www.railsconf.org
-[13]: http://europe.railsconf.org
 [14]: http://www.skillsmatter.com
 [16]: http://steelcityruby.org/
 [19]: http://goruco.com/
