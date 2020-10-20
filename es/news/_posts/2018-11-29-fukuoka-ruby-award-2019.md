@@ -17,7 +17,7 @@ Fukuoka Ruby Award 2019 - Premio Mayor - 1 Millon de Yenes!
 
 Fecha límite para participar: Enero 31, 2019
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz y un grupo de panelistas elegirán los ganadores de la Competencia Fukuoka.  El premio mayor de la Competencia Fukuoka es 1 millon de yenes.  Los ganadores del premio mayor anteriores incluyen a Rhomobile (USA) y al Centro Climático APEC (Korea).
 

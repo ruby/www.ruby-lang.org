@@ -15,7 +15,7 @@ lang: zh_cn
 
 截止日期：2019 年 1 月 31 日
 
-![福冈 Ruby 竞赛](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![福冈 Ruby 竞赛](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 本次福冈竞赛由松本行弘与其他专家评选获胜者。本次福冈竞赛大奖是一百万日元。
 历届获奖者包括 Rhomobile（美国） 和 APEC Climate Center（韩国）

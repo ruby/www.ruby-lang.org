@@ -18,7 +18,7 @@ Fukuoka Ruby Award 2020 — Großer Preis — 1 Million Yen!
 
 Einsendeschluss: 11. Dezember 2019
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz und eine Gruppe Juroren werden die Preisträger gemeinsam
 auswählen; der Große Preis ist mit einer Million Yen (ca. 8.200 €)

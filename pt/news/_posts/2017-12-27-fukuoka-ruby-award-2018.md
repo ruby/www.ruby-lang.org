@@ -17,7 +17,7 @@ Fukuoka Ruby Award 2018 - Grande Prêmio - 1 milhão de ienes!
 
 Prazo de Inscrição: 31 de janeiro de 2018
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz e um grupo de painelista selecionarão os vencededores da
 Fukuoka Competition. O grande prêmio da Fukuoka Competition

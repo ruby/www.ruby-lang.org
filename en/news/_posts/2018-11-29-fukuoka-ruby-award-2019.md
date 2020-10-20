@@ -15,7 +15,7 @@ The Government of Fukuoka, Japan together with "Matz" Matsumoto would like to in
 
 Entry Deadline: January 31, 2019
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz and a group of panelists will select the winners of the Fukuoka Competition. The grand prize for the Fukuoka Competition is 1 million yen. Past grand prize winners include Rhomobile (USA) and APEC Climate Center (Korea).
 

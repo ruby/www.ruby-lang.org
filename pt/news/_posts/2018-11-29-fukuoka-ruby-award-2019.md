@@ -15,7 +15,7 @@ Competição Fukuoka Ruby Award 2019 - Grande Prêmio - 1 Milhão de Ienes!
 
 Data máxima para aplicação: 31 de Janeiro de 2019
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz e um grupo de jurados selecionarão os vencedores da competição de Fukuoka. O grande prêmio para essa competição é 1 milhão de ienes. Fora o grande prêmio, outras premiações incluem Rhomobile (EUA) and APEC Climate Center (Coréia).
 

@@ -15,7 +15,7 @@ O governo de Fukuoka, Japão, juntamente com "Matz" Matsumoto gostariam de lhe c
 
 Prazo para inscrição: 11 de dezembro de 2019
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz e um grupo de painelistas selecionarão os(as) vencedores(as) da Fukuoka Competition. O grande prêmio da Fukuoka Competition será 1 milhão de ienes. Ganhedores anteriores incluem Rhomobile (USA) e APEC Climate Center (Korea).
 

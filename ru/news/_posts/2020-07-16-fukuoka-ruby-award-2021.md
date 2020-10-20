@@ -15,7 +15,7 @@ lang: ru
 
 Последний день подачи заявки на участие: 4 декабря 2020 года.
 
-![Fukuoka Ruby Award](http://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
+![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
 Matz и группа участников дискуссии выберут победителей соревнования Фукуоки. Главный приз в соревновании Фукуоки - 1 миллион иен. Среди предыдущих обладателей главного приза Rhomobile (США) и APEC Climate Center (Корея).
 
