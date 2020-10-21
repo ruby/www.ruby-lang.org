@@ -65,7 +65,7 @@ Ruby 相关的内容都在逐年增加。许多研讨会都以 [Ruby on Rails][1
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
-[6]: http://rubycentral.org/community/grant
+[6]: https://rubycentral.org/grants
 [7]: http://www.svforum.org
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
