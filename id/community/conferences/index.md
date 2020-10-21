@@ -85,7 +85,7 @@ on Rails.
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
-[6]: http://rubycentral.org/community/grant
+[6]: https://rubycentral.org/grants
 [9]: http://windycityrails.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

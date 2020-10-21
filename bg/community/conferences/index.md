@@ -65,7 +65,7 @@ Central и [Skills Matter][14], и през 2007 г. с помощта на Ruby
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
 [5]: http://www.osdc.com.au/
-[6]: http://rubycentral.org/community/grant
+[6]: https://rubycentral.org/grants
 [7]: http://www.svforum.org
 [10]: http://conferences.oreillynet.com/os2006/
 [11]: http://www.rubyonrails.org

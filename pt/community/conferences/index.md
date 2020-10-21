@@ -79,7 +79,7 @@ O’Reilly) e, para finalizar a Canada on Rails.
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
-[5]: http://rubycentral.org/community/grant
+[5]: https://rubycentral.org/grants
 [6]: http://www.svforum.org
 [8]: http://windycityrails.org
 [9]: http://conferences.oreillynet.com/os2006/
