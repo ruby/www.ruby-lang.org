@@ -52,7 +52,7 @@ Bir günlük tek eşzamanlı oturumlu bir konferanstır.
 2004'ten beri [O’Reilly'nin Açık Kaynak Konferansı][10] konuları içinde Ruby yer almaktadır.
 Ayrıca diğer Ruby'ye özgü olmayan toplantılarda da Ruby ve Ruby'cilerin varlığı artmıştır.
 
-Ayrıca Ruby Central'in [RailsConf][12]'u, [RailsConf Avrupa][13] (2006'da Ruby Central ve [Skills Matter][14], 2007'de ise Ruby Central ve O’Reilly işbirliği ile düzenlenen) ve Canada on Rails'in dahil olduğu birkaç konferans [Ruby on Rails][11]'e adanmıştır.
+Ayrıca Ruby Central'in [RailsConf][12]'u, RailsConf Avrupa (2006'da Ruby Central ve [Skills Matter][14], 2007'de ise Ruby Central ve O’Reilly işbirliği ile düzenlenen) ve Canada on Rails'in dahil olduğu birkaç konferans [Ruby on Rails][11]'e adanmıştır.
 
 
 

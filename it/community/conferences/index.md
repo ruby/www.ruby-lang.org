@@ -84,8 +84,8 @@ Una sezione su Ruby è esistita dal 2004 alla [O’Reilly Open Source
 Conference][10] (OSCON); inoltre, si è constatata una crescente presenza
 di appassionati Ruby ad altre conferenze non specifiche su Ruby. Un
 certo numero di conferenze sono state anche dedicate a [Ruby on
-Rails][11], includendo la [RailsConf][12] di Ruby Central, la [RailsConf
-Europe][13] (co-prodotta in 2006 da Ruby Central e [Skills Matter][14],
+Rails][11], includendo la [RailsConf][12] di Ruby Central, la RailsConf
+Europe (co-prodotta in 2006 da Ruby Central e [Skills Matter][14],
 e in 2007 da Ruby Central e O’Reilly), e infine Canada on Rails.
 
 
