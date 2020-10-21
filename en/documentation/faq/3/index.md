@@ -150,13 +150,6 @@ He recommends installing the GNU equivalent.
 A single download that contains everything you need to run Ruby under various
 Windows operating systems is available from [RubyInstaller](https://rubyinstaller.org/).
 
-If you want other installation options, precompiled binaries for Windows are
-also available from
-[http://www.os.rim.or.jp/~eban/](http://www.os.rim.or.jp/~eban/).
-If you download the `ruby-1.x.y-yyyymmdd-i386-cygwin.tar.gz` package
-(which is a good choice), you'll also need to download the cygwin DLL,
-available from the same page.
-
 [Reuben Thomas](mailto:Reuben.Thomas@cl.cam.ac.uk) writes:
 
 > You could mention that there's a port to Acorn RISC OS, currently of v1.4.3.
