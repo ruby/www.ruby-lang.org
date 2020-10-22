@@ -25,6 +25,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
       - name: Dump Ruby version
         run: ruby -v
       # override the Ruby version specified in the Gemfile
@@ -32,11 +33,6 @@ jobs:
         run: echo ::set-env name=CUSTOM_RUBY_VERSION::$(ruby -e 'puts RUBY_VERSION')
       - name: Dump CUSTOM_RUBY_VERSION
         run: echo $CUSTOM_RUBY_VERSION
-      - name: Cache gem bundle
-        uses: actions/cache@v1
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-${{ matrix.ruby }}-bundle-${{ hashFiles('Gemfile.lock') }}
       - name: Install bundler
         run: gem install bundler --no-document
       - name: Install gem bundle
