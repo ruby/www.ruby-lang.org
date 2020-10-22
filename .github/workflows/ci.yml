@@ -28,11 +28,6 @@ jobs:
           bundler-cache: true
       - name: Dump Ruby version
         run: ruby -v
-      # override the Ruby version specified in the Gemfile
-      - name: Set CUSTOM_RUBY_VERSION for Gemfile
-        run: echo ::set-env name=CUSTOM_RUBY_VERSION::$(ruby -e 'puts RUBY_VERSION')
-      - name: Dump CUSTOM_RUBY_VERSION
-        run: echo $CUSTOM_RUBY_VERSION
       - name: Install gem bundle
         run: |
           bundle config set path 'vendor/bundle'
