@@ -18,7 +18,7 @@ jobs:
       - name: Dump environment
         run: env | sort
       - name: Checkout ruby/www.ruby-lang.org
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
         with:
           fetch-depth: 1
       - name: Setup Ruby
