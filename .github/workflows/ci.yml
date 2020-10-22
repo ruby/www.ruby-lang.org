@@ -25,7 +25,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
-          architecture: x64
       - name: Dump Ruby version
         run: ruby -v
       # override the Ruby version specified in the Gemfile
