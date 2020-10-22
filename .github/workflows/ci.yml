@@ -28,9 +28,5 @@ jobs:
           bundler-cache: true
       - name: Dump Ruby version
         run: ruby -v
-      - name: Install gem bundle
-        run: |
-          bundle config set path 'vendor/bundle'
-          bundle install
       - name: Run tests
         run: bundle exec rake test
