@@ -290,10 +290,6 @@ str = "Billy" + " Bob"           # => "Billy Bob"
 str[0,1] + str[2,1] + str[-2,2]  # => "Blob"
 ~~~
 
-Gotoken's `xmp` package, available from
-[http://www.ruby-lang.org/en/raa-list.rhtml?name=xmp](http://www.ruby-lang.org/en/raa-list.rhtml?name=xmp)
-is a utility that annotates Ruby source code this way.
-
 Emacs and vim users can integrate this with their editing environments, which
 is useful if you want to send people e-mail with annotated Ruby code. Having
 installed `xmp`, Emacs users can add the following to their `.emacs` file:
