@@ -145,8 +145,6 @@ He recommends installing the GNU equivalent.
 
 ### Are precompiled binaries available?
 
-{% include faq-out-of-date.html %}
-
 A single download that contains everything you need to run Ruby under various
 Windows operating systems is available from [RubyInstaller](https://rubyinstaller.org/).
 
@@ -155,9 +153,6 @@ Windows operating systems is available from [RubyInstaller](https://rubyinstalle
 > You could mention that there's a port to Acorn RISC OS, currently of v1.4.3.
 > I made the port, and have no plans to maintain it, but I did send the
 > patches to matz, so newer versions may well compile too.
-
-> I do provide a binary distribution of 1.4.3 for the Acorn at
-> [http://www.cl.cam.ac.uk/users/rrt1001/ruby.zip](http://www.cl.cam.ac.uk/users/rrt1001/ruby.zip).
 
 ### What's all this “cygwin”, “mingw”, and “djgpp” stuff?
 
