@@ -44,6 +44,7 @@ Here are available installation methods:
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
@@ -179,6 +180,25 @@ to customize the build configuration options.
 
 More information about Ruby and its surrounding ecosystem on FreeBSD
 can be found on the [FreeBSD Ruby Project website][freebsd-ruby].
+
+### OpenBSD
+{: #openbsd}
+
+OpenBSD as well as its distribution adJ, have packages for the three
+major versions of Ruby.  The following command allows you to see the
+available versions and to install one:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+You can install simultanously several major versions, because their binaries
+have different names (e.g. ruby27, ruby26, etc).
+
+The `HEAD` branch of the OpenBSD's ports collection could
+have for this platform the most recent version of Ruby some days after
+it is released.
+See [directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports]
 
 
 ### Ruby on OpenIndiana
@@ -349,3 +369,4 @@ though, because the installed Ruby won't be managed by any tools.
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
