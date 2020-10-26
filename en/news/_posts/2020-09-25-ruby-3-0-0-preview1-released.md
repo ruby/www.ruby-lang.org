@@ -23,7 +23,7 @@ Ruby 3.0 ships with `rbs` gem, which allows parsing and processing type definiti
 
 The following is a small example of RBS.
 
-{% highlight rbs %}
+``` rbs
 module ChatApp
   VERSION: String
 
@@ -38,7 +38,7 @@ module ChatApp
             | (File, from: User | Bot) -> Message
   end
 end
-{% endhighlight %}
+```
 
 See [README of rbs gem](https://github.com/ruby/rbs) for more detail.
 
@@ -54,7 +54,7 @@ The specification and implmentation are not matured and changed in future, so th
 
 The following small program calculates `prime?` in parallel with two ractors and about x2 times faster with two or more cores than sequential program.
 
-{% highlight ruby %}
+``` ruby
 require 'prime'
 
 # n.prime? with sent integers in r1, r2 run in parallel
@@ -72,7 +72,7 @@ r2.send 2**61 + 15
 # wait for the results of expr1, expr2
 p r1.take #=> true
 p r2.take #=> true
-{% endhighlight %}
+```
 
 see [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) for more detail.
 
@@ -99,18 +99,21 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
 ## Other Notable New Features
 
 * Rightward assignment statement is added.
-  {% highlight ruby %}
+
+  ``` ruby
   fib(10) => x
   p x #=> 55
-  {% endhighlight %}
+  ```
 
 * Endless method definition is added.
-  {% highlight ruby %}
+
+  ``` ruby
   def square(x) = x * x
-  {% endhighlight %}
+  ```
 
 * Find pattern is added.
-  {% highlight ruby %}
+
+  ``` ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
   in [*pre, String => x, String => y, *post]
     p pre  #=> ["a", 1]
@@ -118,13 +121,14 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
     p y    #=> "c"
     p post #=> [2, "d", "e", "f", 3]
   end
-  {% endhighlight %}
+  ```
 
 * `Hash#except` is now built-in.
-  {% highlight ruby %}
+
+  ``` ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
-  {% endhighlight %}
+  ```
 
 * Memory view is added as an experimental feature
 
@@ -139,11 +143,12 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
 * Keyword arguments are separated from other arguments.
   * In principle, code that prints a warning on Ruby 2.7 won't work.  See the [document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) in detail.
   * By the way, arguments forwarding now supports leading arguments.
-    {% highlight ruby %}
+
+    ``` ruby
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
     end
-    {% endhighlight %}
+    ```
 
 * The feature of `$SAFE` was completely removed; now it is a normal global variable.
 
