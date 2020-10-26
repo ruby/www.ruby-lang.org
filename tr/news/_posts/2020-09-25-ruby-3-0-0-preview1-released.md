@@ -25,7 +25,7 @@ Ruby 3.0 `rbs` gem'i ile gelmektedir, bu gem RBS ile yazılmış tip tanımları
 
 Aşağıdaki kod RBS için küçük bir örnektir.
 
-{% highlight rbs %}
+``` rbs
 module ChatApp
   VERSION: String
 
@@ -40,7 +40,7 @@ module ChatApp
             | (File, from: User | Bot) -> Message
   end
 end
-{% endhighlight %}
+```
 
 Daha fazla ayrıntı için [rbs gem'inin README](https://github.com/ruby/rbs)'sine bakınız.
 
@@ -58,7 +58,7 @@ Belirtim ve gerçekleme henüz tam oturmamıştır ve ileride değişecektir, bu
 
 Aşağıdaki küçük program `prime?`'ı iki ractor ile paralelde hesaplar ve iki ya da daha fazla çekirdekte ardışık bir programa göre aşağı yukarı 2 kat daha hızlıdır.
 
-{% highlight ruby %}
+``` ruby
 require 'prime'
 
 # r1 ve r2'deki, tamsayıların gönderildiği n.prime? paralelde çalışır
@@ -76,7 +76,7 @@ r2.send 2**61 + 15
 # 1. ve 2. deyimin sonuçlarını bekle
 p r1.take #=> true
 p r2.take #=> true
-{% endhighlight %}
+```
 
 Daha fazla ayrıntı için [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md)'ye bakınız.
 
@@ -106,18 +106,21 @@ Daha fazla ayrıntı için [`doc/scheduler.md`](https://github.com/ruby/ruby/blo
 ## Diğer Dikkate Değer Yeni Özellikler
 
 * Sağ atama ifadesi eklendi.
-  {% highlight ruby %}
+
+  ``` ruby
   fib(10) => x
   p x #=> 55
-  {% endhighlight %}
+  ```
 
 * Sonsuz metod tanımı eklendi.
-  {% highlight ruby %}
+
+  ``` ruby
   def square(x) = x * x
-  {% endhighlight %}
+  ```
 
 * Bulma deseni eklendi.
-  {% highlight ruby %}
+
+  ``` ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
   in [*pre, String => x, String => y, *post]
     p pre  #=> ["a", 1]
@@ -125,13 +128,14 @@ Daha fazla ayrıntı için [`doc/scheduler.md`](https://github.com/ruby/ruby/blo
     p y    #=> "c"
     p post #=> [2, "d", "e", "f", 3]
   end
-  {% endhighlight %}
+  ```
 
 * `Hash#except` şimdi gömülü.
-  {% highlight ruby %}
+
+  ``` ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
-  {% endhighlight %}
+  ```
 
 * Hafıza görünümü deneysel bir özellik olarak eklendi.
 
@@ -151,11 +155,12 @@ Ayrıntılar için NEWS'e bakınız.
   * Prensipte, Ruby 2.7'de bir uyarı yazdıran kod çalışmayacaktır.
   Ayrıntılar için [belgeye](https://www.ruby-lang.org/tr/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) bakınız.
   * Bu arada argüman yönlendirme artık sondaki argümanları da destekliyor.
-    {% highlight ruby %}
+
+    ``` ruby
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
     end
-    {% endhighlight %}
+    ```
 
 * `$SAFE` özelliği tamamiyle silindi; şimdi sadece normal bir global değişken.
 

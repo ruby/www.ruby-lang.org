@@ -32,7 +32,7 @@ y procesar definiciones de tipos escritas en RBS.
 
 El siguiente es un pequeño ejemplo de RBS.
 
-{% highlight rbs %}
+``` rbs
 module AplicacionMensajeria
   VERSION: String
 
@@ -47,7 +47,7 @@ module AplicacionMensajeria
             | (File, de: Usuaurio | Robot) -> Mensaje
   end
 end
-{% endhighlight %}
+```
 
 Ver más detalles en el
 [archivo README de la gema rbs](https://github.com/ruby/rbs).
@@ -77,7 +77,7 @@ El siguiente pequeño programa calcula `prime?` en paralelo con dos
 ractores y es casi 2 veces más rápido con dos o más núcleos
 que el programa secuencial.
 
-{% highlight ruby %}
+``` ruby
 require 'prime'
 
 # n.prime? con enteros enviados en r1, r2 que corren en paralelo
@@ -95,7 +95,7 @@ r2.send 2**61 + 15
 # wait for the results of expr1, expr2
 p r1.take #=> true
 p r2.take #=> true
-{% endhighlight %}
+```
 
 Ver más detalles en
 [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md).
@@ -134,18 +134,21 @@ versión prevía.
 ## Otras características notables
 
 * Se agrega una asignación al lado derecho.
-  {% highlight ruby %}
+
+  ``` ruby
   fib(10) => x
   p x #=> 55
-  {% endhighlight %}
+  ```
 
 * Se agrega una definición de métodos que no requiere `end`.
-  {% highlight ruby %}
+
+  ``` ruby
   def cuadrado(x) = x * x
-  {% endhighlight %}
+  ```
 
 * Se agrega un patrón Encontrar (__Find__).
-  {% highlight ruby %}
+
+  ``` ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
   in [*pre, String => x, String => y, *post]
     p pre  #=> ["a", 1]
@@ -153,13 +156,14 @@ versión prevía.
     p y    #=> "c"
     p post #=> [2, "d", "e", "f", 3]
   end
-  {% endhighlight %}
+  ```
 
 * `Hash#except` ahora es un método incorporado.
-  {% highlight ruby %}
+
+  ``` ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
-  {% endhighlight %}
+  ```
 
 * Se agrega como característica experimental __Memory view__
 
@@ -185,11 +189,12 @@ versión prevía.
   funcionará.  Ver detalles en la
   [documentación](https://www.ruby-lang.org/es/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/).
   * Por cierto, el re-envío de argumentos ahora soporta argumentos principales.
-    {% highlight ruby %}
+
+    ``` ruby
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
     end
-    {% endhighlight %}
+    ```
 
 * La característica `$SAFE` se eliminó por completo; ahora es una variable
   global normal.

@@ -23,7 +23,7 @@ Ruby 3.0 vem com gem `rbs`, que permite analisar e processar definições de tip
 
 A seguir está um pequeno exemplo de RBS.
 
-{% highlight rbs %}
+``` rbs
 module ChatApp
   VERSION: String
 
@@ -38,7 +38,7 @@ module ChatApp
             | (File, from: User | Bot) -> Message
   end
 end
-{% endhighlight %}
+```
 
 Veja [README da gem rbs](https://github.com/ruby/rbs) para mais detalhes.
 
@@ -54,7 +54,7 @@ A especificação e implementação não estão amadurecidas e serão alteradas 
 
 O pequeno programa a seguir calcula `prime?` em paralelo com dois ractores e cerca de x2 vezes mais rápido com dois ou mais núcleos do que o programa sequencial.
 
-{% highlight ruby %}
+``` ruby
 require 'prime'
 
 # n.prime? com inteiros r1 e r2 enviados rodando em parelelo
@@ -72,7 +72,7 @@ r2.send 2**61 + 15
 # aguardando os resultados de expr1, expr2
 p r1.take #=> true
 p r2.take #=> true
-{% endhighlight %}
+```
 
 Veja [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) para mais detalhes.
 
@@ -99,18 +99,21 @@ Atualmente, existe um agendador de teste disponível em [`Async::Scheduler`](htt
 ## Outros novos recursos notáveis
 
 * A instrução de atribuição para a direita foi adicionada.
-  {% highlight ruby %}
+
+  ``` ruby
   fib(10) => x
   p x #=> 55
-  {% endhighlight %}
+  ```
 
 * A definição de método sem a keyword _end_ foi adicionada.
-  {% highlight ruby %}
+
+  ``` ruby
   def square(x) = x * x
-  {% endhighlight %}
+  ```
 
 * Find pattern foi adicionada.
-  {% highlight ruby %}
+
+  ``` ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
   in [*pre, String => x, String => y, *post]
     p pre  #=> ["a", 1]
@@ -118,13 +121,14 @@ Atualmente, existe um agendador de teste disponível em [`Async::Scheduler`](htt
     p y    #=> "c"
     p post #=> [2, "d", "e", "f", 3]
   end
-  {% endhighlight %}
+  ```
 
 * `Hash#except` agora é nativo.
-  {% highlight ruby %}
+
+  ``` ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
-  {% endhighlight %}
+  ```
 
 * A visualização da memória é adicionada como um recurso experimental
 
@@ -139,11 +143,12 @@ Atualmente, existe um agendador de teste disponível em [`Async::Scheduler`](htt
 * Os argumentos de palavra-chave são separados de outros argumentos.
   * Em princípio, códigos que imprimem um aviso no Ruby 2.7 não funciona. Veja o [documento](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) em detalhe.
   * A propósito, o encaminhamento de argumentos agora suporta argumentos principais.
-    {% highlight ruby %}
+
+    ``` ruby
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
     end
-    {% endhighlight %}
+    ```
 
 * O recurso de `$SAFE` foi completamente removido; agora é uma variável global normal.
 
