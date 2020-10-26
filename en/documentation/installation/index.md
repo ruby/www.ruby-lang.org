@@ -181,24 +181,25 @@ to customize the build configuration options.
 More information about Ruby and its surrounding ecosystem on FreeBSD
 can be found on the [FreeBSD Ruby Project website][freebsd-ruby].
 
+
 ### OpenBSD
 {: #openbsd}
 
-OpenBSD as well as its distribution adJ, have packages for the three
-major versions of Ruby.  The following command allows you to see the
+OpenBSD as well as its distribution adJ has packages for the three
+major versions of Ruby. The following command allows you to see the
 available versions and to install one:
 
 {% highlight sh %}
 $ doas pkg_add ruby
 {% endhighlight %}
 
-You can install simultanously several major versions, because their binaries
-have different names (e.g. ruby27, ruby26, etc).
+You can install multiple major versions side by side, because their
+binaries have different names (e.g. `ruby27`, `ruby26`).
 
-The `HEAD` branch of the OpenBSD's ports collection could
-have for this platform the most recent version of Ruby some days after
-it is released.
-See [directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports]
+The `HEAD` branch of the OpenBSD ports collection might have the
+most recent version of Ruby for this platform some days after it
+is released, see
+[directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports].
 
 
 ### Ruby on OpenIndiana
