@@ -421,10 +421,10 @@ def bar(x=1, **kwargs)
   p [x, kwargs]
 end
 
-foo({}) => [{}, {}]
-bar({}) => [1, {}]
+foo({}) #=> [{}, {}]
+bar({}) #=> [1, {}]
 
-bar({}, **{}) => expected: [{}, {}], actual: [1, {}]
+bar({}, **{}) #=> expected: [{}, {}], actual: [1, {}]
 {% endhighlight %}
 
 Pada Ruby 2, `foo({})` melewatkan sebuah *hash* kosong sebagai *normal argument*

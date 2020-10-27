@@ -330,10 +330,10 @@ def bar(x=1, **kwargs)
   p [x, kwargs]
 end
 
-foo({}) => [{}, {}]
-bar({}) => [1, {}]
+foo({}) #=> [{}, {}]
+bar({}) #=> [1, {}]
 
-bar({}, **{}) => expected: [{}, {}], actual: [1, {}]
+bar({}, **{}) #=> expected: [{}, {}], actual: [1, {}]
 {% endhighlight %}
 
 In Ruby 2, `foo({})` passes an empty hash as a normal argument (i.e., `{}` is assigned to `x`), while `bar({})` passes a keyword argument (i.e, `{}` is assigned to `kwargs`).  So `any_method({})` is very ambiguous.

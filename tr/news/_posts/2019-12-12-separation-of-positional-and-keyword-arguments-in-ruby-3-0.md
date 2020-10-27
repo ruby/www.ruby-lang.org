@@ -379,10 +379,10 @@ def bar(x=1, **kwargs)
   p [x, kwargs]
 end
 
-foo({}) => [{}, {}]
-bar({}) => [1, {}]
+foo({}) #=> [{}, {}]
+bar({}) #=> [1, {}]
 
-bar({}, **{}) => beklenen: [{}, {}], asıl: [1, {}]
+bar({}, **{}) #=> beklenen: [{}, {}], asıl: [1, {}]
 {% endhighlight %}
 
 Ruby 2'de `foo({})`, boş bir Hash'i normal bir argüman olarak geçirir (yani `{}`, `x`'e geçirilir), fakat `bar({})` bir anahtar kelime argümanı geçirir (yani `{}`, `kwargs`'a atanır).

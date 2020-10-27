@@ -441,10 +441,10 @@ def bar(x=1, **kwargs)
   p [x, kwargs]
 end
 
-foo({}) => [{}, {}]
-bar({}) => [1, {}]
+foo({}) #=> [{}, {}]
+bar({}) #=> [1, {}]
 
-bar({}, **{}) => esperado : [{}, {}], realmente: [1, {}]
+bar({}, **{}) #=> esperado : [{}, {}], realmente: [1, {}]
 {% endhighlight %}
 
 En Ruby 2, `foo({})` pasa un diccionario vacío como un argumento normal

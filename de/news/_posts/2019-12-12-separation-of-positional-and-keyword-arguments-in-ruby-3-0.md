@@ -453,8 +453,8 @@ def bar(x=1, **kwargs)
   p [x, kwargs]
 end
 
-foo({}) => [{}, {}]
-bar({}) => [1, {}]
+foo({}) #=> [{}, {}]
+bar({}) #=> [1, {}]
 
 bar({}, **{}) #=> erwartet: [{}, {}], tatsächlich: [1, {}]
 {% endhighlight %}
