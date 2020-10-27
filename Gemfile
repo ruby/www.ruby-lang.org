@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'rake'
 gem 'jekyll', '~> 4.0'
-gem 'rouge'
+gem 'rouge', '< 3.24.0'
 
 gem 'unicorn'
 gem 'lanyon'
