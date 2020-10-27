@@ -175,21 +175,19 @@ FreeBSD 상의 루비와 그 환경에 대해서 더 자세한 정보는
 ### OpenBSD
 {: #openbsd}
 
-OpenBSD as well as its distribution adJ has packages for the three
-major versions of Ruby. The following command allows you to see the
-available versions and to install one:
+OpenBSD와 그 배포판인 adJ에는 3개의 루비 메이저 버전의 패키지가 있습니다.
+다음 명령을 통해 설치 가능한 버전을 확인하고 설치할 수 있습니다.
 
 {% highlight sh %}
 $ doas pkg_add ruby
 {% endhighlight %}
 
-You can install multiple major versions side by side, because their
-binaries have different names (e.g. `ruby27`, `ruby26`).
+각 버전의 바이너리는 다른 이름(예: `ruby27`, `ruby26`)을 가지고 있으므로
+동시에 여러 메이저 버전을 설치할 수 있습니다.
 
-The `HEAD` branch of the OpenBSD ports collection might have the
-most recent version of Ruby for this platform some days after it
-is released, see
-[directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports].
+가장 최신의 루비 버전이 릴리스된 몇일 후면 OpenBSD 포트 컬렉션의 `HEAD` 브랜치에
+이 플랫폼을 위한 루비 버전이 추가되어 있을 것입니다.
+[가장 최신의 포트 컬렉션의 lang/ruby 디렉터리][openbsd-current-ruby-ports]를 확인하세요.
 
 
 ### OpenIndiana에서의 루비
