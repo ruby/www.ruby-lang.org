@@ -44,6 +44,7 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
@@ -169,6 +170,26 @@ $ pkg install ruby
 
 FreeBSD 상의 루비와 그 환경에 대해서 더 자세한 정보는
 [FreeBSD Ruby Project 웹사이트][freebsd-ruby]에서 얻을 수 있습니다.
+
+
+### OpenBSD
+{: #openbsd}
+
+OpenBSD as well as its distribution adJ has packages for the three
+major versions of Ruby. The following command allows you to see the
+available versions and to install one:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+You can install multiple major versions side by side, because their
+binaries have different names (e.g. `ruby27`, `ruby26`).
+
+The `HEAD` branch of the OpenBSD ports collection might have the
+most recent version of Ruby for this platform some days after it
+is released, see
+[directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports].
 
 
 ### OpenIndiana에서의 루비
@@ -331,3 +352,4 @@ $ sudo make install
 [wsl]: https://docs.microsoft.com/ko-kr/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
