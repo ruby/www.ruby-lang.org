@@ -5,8 +5,6 @@ www.ruby-lang.org
 
 [![Build Status](https://github.com/ruby/www.ruby-lang.org/workflows/ci/badge.svg)](https://github.com/ruby/www.ruby-lang.org/actions?query=branch%3Amaster)
 
-[![Build Status](https://travis-ci.org/ruby/www.ruby-lang.org.svg?branch=master)](https://travis-ci.org/ruby/www.ruby-lang.org)
-
 This is the [Jekyll](http://www.jekyllrb.com/) source of
 the [www.ruby-lang.org](https://www.ruby-lang.org/) website.
 
