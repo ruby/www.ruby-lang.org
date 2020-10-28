@@ -26,7 +26,7 @@ Ruby’de Java’dan farklı olarak,...
 
 * Kodunuzu derlemeye gerek yoktur, direk olarak çalıştırırsınız.
 * Ruby kullanıcıları değişik GUI araçları kullanabilir [WxRuby][1],
-  [FXRuby][2], [Ruby-GNOME2][3], [Qt][4], ya da Ruby içinde yüklü gelen Tk
+  [FXRuby][2], [Ruby-GNOME2][3], [Qt][4], ya da [Ruby Tk](https://github.com/ruby/tk)
   bunların bazıları.
 * Sınıflar, metodlar gibi birşeyleri tanımlarken kod bloğunu süslü
   parantez içine almak yerine sonunda `end` deyimi kullanırsınız
