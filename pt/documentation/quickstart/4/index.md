@@ -143,7 +143,7 @@ executa esse código.
 ## Considere-se Apresentado ao Ruby
 
 Pronto, essa foi uma visita rápida ao mundo do Ruby. Existe muito mais para
-explorar, as diferentes estruturas de controlo que  oRuby oferece; o uso
+explorar, as diferentes estruturas de controlo que o Ruby oferece; o uso
 de blocos e de `yield`; módulos como _mixins_; e muito mais. Espero que
 esta pequena amostra da linguagem Ruby tenha deixado o desejo de
 aprender mais.
