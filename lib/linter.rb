@@ -102,7 +102,6 @@ class Linter
         errors[doc] << "invalid SHA1 length"  if doc.sha1_length_invalid?
         errors[doc] << "invalid SHA256 length"  if doc.sha256_length_invalid?
         errors[doc] << "invalid SHA512 length"  if doc.sha512_length_invalid?
-      else
       end
     end
   end
