@@ -64,7 +64,7 @@ class Linter
     end
 
     @docs = md_files.map {|fn| Document.new(fn) }
-    @posts = @docs.select {|doc| doc.post? }
+    @posts = @docs.select(&:post?)
   end
 
   def load_releases
@@ -133,7 +133,7 @@ class Linter
       puts
       errors.each do |doc, messages|
         puts doc.name
-        puts messages.map {|msg| "  #{msg}" }
+        puts(messages.map {|msg| "  #{msg}" })
       end
     end
   end

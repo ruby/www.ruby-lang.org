@@ -52,7 +52,7 @@ class Linter
 
     # translator variable must be present but can be nil
     def translator_missing?
-      !yaml.has_key?("translator")
+      !yaml.key?("translator")
     end
 
     def translator_invalid?
