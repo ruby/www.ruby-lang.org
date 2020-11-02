@@ -17,14 +17,14 @@ class Linter
     %r{\A[^/]*/examples/},
     %r{\A_includes/},
     %r{\Atest/}
-  ]
+  ].freeze
 
   WHITESPACE_EXCLUSIONS = [
     "en/news/_posts/2005-07-01-xmlrpcipimethods-vulnerability.md",
     "ja/news/_posts/2005-07-01-20050701.md",
     "de/news/_posts/2005-07-01-xmlrpcipimethods-vulnerability.md",
     "ko/news/_posts/2005-07-01-xmlrpcipimethods-vulnerability.md"
-  ]
+  ].freeze
 
   RELEASES_FILE = "_data/releases.yml"
 
