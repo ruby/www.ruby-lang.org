@@ -134,12 +134,12 @@ class Linter
     private
 
     def read_yaml_and_content(filename)
-      _content = File.read(filename)
+      content = File.read(filename)
 
-      matchdata = _content.match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
-      _yaml = YAML.load(matchdata[1])  if matchdata
+      matchdata = content.match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
+      yaml = YAML.load(matchdata[1])  if matchdata
 
-      [_yaml || {}, _content || ""]
+      [yaml || {}, content || ""]
     end
 
     def valid_string(obj)
