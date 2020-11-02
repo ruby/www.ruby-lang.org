@@ -3,7 +3,7 @@
 require "minitest/autorun"
 require_relative "../lib/linter"
 
-SRCPATH = File.expand_path(File.dirname(__FILE__))
+SRCPATH = File.expand_path(__dir__)
 FIXTURES_PATH = "#{SRCPATH}/fixtures"
 
 
