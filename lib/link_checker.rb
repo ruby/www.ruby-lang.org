@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 gem "spidr", "~> 0.6"
 require "spidr"
 
