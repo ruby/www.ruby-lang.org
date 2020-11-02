@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Linter
+
   class Document
 
     attr_accessor :filename, :yaml, :content
@@ -77,11 +78,11 @@ class Linter
     end
 
     def date_utc_string
-      date.getutc.strftime('%Y/%m/%d')
+      date.getutc.strftime("%Y/%m/%d")
     end
 
     def filename_date_string
-      File.basename(filename).split('-',4)[0..2].join('/')
+      File.basename(filename).split("-", 4)[0..2].join("/")
     end
 
     def date_not_utc?

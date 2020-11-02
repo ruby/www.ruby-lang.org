@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Linter
+
   class Release
 
     # identifier displayed in error messages

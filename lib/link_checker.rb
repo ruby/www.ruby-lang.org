@@ -7,15 +7,14 @@ class LinkChecker
 
   # Check for broken internal links on http://localhost:localport/
   def check(localport:, languages:)
-
-    url_map = Hash.new { |hash,key| hash[key] = [] }
+    url_map = Hash.new {|hash, key| hash[key] = [] }
 
     Spidr.site("http://localhost:#{localport}/") do |agent|
       languages.each do |lang|
         agent.enqueue("http://localhost:#{localport}/#{lang}/")
       end
 
-      agent.every_link do |origin,dest|
+      agent.every_link do |origin, dest|
         url_map[dest] << origin
       end
 

@@ -2,7 +2,7 @@
 
 require "bundler/setup"
 require "pathname"
-require 'yaml'
+require "yaml"
 
 require_relative "linter/document"
 require_relative "linter/release"
