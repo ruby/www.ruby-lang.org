@@ -108,7 +108,7 @@ module Jekyll
 
         # hash with url => link_text elements
         data["years"] = Hash[
-          years.map {|year| year.to_s }.zip(
+          years.map(&:to_s).zip(
             years.map {|year| insert_date(year_link_text, year) }
           )
         ]
