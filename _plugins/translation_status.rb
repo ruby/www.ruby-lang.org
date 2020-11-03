@@ -16,7 +16,7 @@ module Jekyll
 
     POST_DISPLAY_LENGTH = 50
 
-    TEMPLATE = <<-ERB.gsub(/^      /, "")
+    TEMPLATE = <<~ERB
       <p>
       Posts with missing translations: <%= posts.size.to_s %><br>
       Start date: <%= START_DATE %><br>
