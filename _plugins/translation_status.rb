@@ -92,7 +92,7 @@ module Jekyll
       end
 
       def remove_completed_posts
-        @posts.delete_if {|name, post| post.completed? }
+        @posts.delete_if {|_name, post| post.completed? }
       end
 
       def too_old(date)
@@ -124,7 +124,7 @@ module Jekyll
         remove_completed_posts
 
         ignored = ignored_langs.sort.join(", ")
-        posts = @posts.sort.reverse.map {|name, post| post }
+        posts = @posts.sort.reverse.map {|_name, post| post }
 
         ERB.new(TEMPLATE, nil, "-").result(binding)
       end
