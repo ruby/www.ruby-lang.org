@@ -24,8 +24,6 @@ module Jekyll
         process(@name)
         read_yaml(File.join(base, "_layouts"), layout)
 
-        oldest_post = posts.max_by {|post| post.date }
-
         data["lang"]  = @lang
         data["posts"] = posts.reverse
       end
