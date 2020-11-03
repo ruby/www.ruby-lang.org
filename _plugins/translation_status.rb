@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Jekyll
 
   # Provides a tag that generates an overview of all news posts

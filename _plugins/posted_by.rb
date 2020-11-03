@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Jekyll
 
   # Generates a localized "Posted by ... on ..." text from a date,
