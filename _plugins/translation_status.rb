@@ -9,14 +9,14 @@ module Jekyll
   module TranslationStatus
 
     LANGS =  %w[en de es id ja ko pt tr zh_cn zh_tw]
-    START_DATE = '2013-04-01'
+    START_DATE = "2013-04-01"
 
-    OK_CHAR      = '✓'
-    MISSING_CHAR = ''  # '✗'
+    OK_CHAR      = "✓"
+    MISSING_CHAR = ""  # "✗"
 
     POST_DISPLAY_LENGTH = 50
 
-    TEMPLATE =<<-EOF.gsub(/^      /, '')
+    TEMPLATE =<<-EOF.gsub(/^      /, "")
       <p>
       Posts with missing translations: <%= posts.size.to_s %><br>
       Start date: <%= START_DATE %><br>
@@ -60,7 +60,7 @@ module Jekyll
 
       def short_name
         if name.size > POST_DISPLAY_LENGTH
-          name[0...POST_DISPLAY_LENGTH - 3] + '...'
+          name[0...POST_DISPLAY_LENGTH - 3] + "..."
         else
           name
         end
@@ -109,27 +109,27 @@ module Jekyll
 
       def render(context)
         categories = context.registers[:site].categories
-        ignored_langs = categories.keys - LANGS - ['news']
+        ignored_langs = categories.keys - LANGS - ["news"]
 
         LANGS.each do |lang|
           categories[lang].each do |post|
             next if too_old(post.date)
 
-            name = post.url.gsub(%r(\A/#{lang}/news/), '')
+            name = post.url.gsub(%r(\A/#{lang}/news/), "")
             @posts[name].translations << lang
-            @posts[name].security = true  if post.data['tags'].include?('security')
+            @posts[name].security = true  if post.data["tags"].include?("security")
           end
         end
 
         remove_completed_posts
 
-        ignored = ignored_langs.sort.join(', ')
+        ignored = ignored_langs.sort.join(", ")
         posts = @posts.sort.reverse.map {|name, post| post }
 
-        ERB.new(TEMPLATE, nil, '-').result(binding)
+        ERB.new(TEMPLATE, nil, "-").result(binding)
       end
     end
   end
 end
 
-Liquid::Template.register_tag('translation_status', Jekyll::TranslationStatus::Tag)
+Liquid::Template.register_tag("translation_status", Jekyll::TranslationStatus::Tag)
