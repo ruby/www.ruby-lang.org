@@ -42,7 +42,6 @@ module Jekyll
           "%B"  => @month_names[month]
         })
       end
-
     end
 
     class MonthlyArchive < ArchivePage
@@ -61,7 +60,6 @@ module Jekyll
         data["title"] = insert_date(title, @year, @month)
         data["year"]  = year
       end
-
     end
 
     class YearlyArchive < ArchivePage
@@ -89,7 +87,6 @@ module Jekyll
           )
         ]
       end
-
     end
 
     class Index < ArchivePage
@@ -116,7 +113,6 @@ module Jekyll
           )
         ]
       end
-
     end
   end
 
@@ -129,7 +125,6 @@ module Jekyll
     def title
       data["title"]
     end
-
   end
 
   class GenerateNews < Generator
@@ -192,6 +187,5 @@ module Jekyll
         end
       end
     end
-
   end
 end
