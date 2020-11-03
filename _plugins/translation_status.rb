@@ -16,7 +16,7 @@ module Jekyll
 
     POST_DISPLAY_LENGTH = 50
 
-    TEMPLATE = <<-EOF.gsub(/^      /, "")
+    TEMPLATE = <<-ERB.gsub(/^      /, "")
       <p>
       Posts with missing translations: <%= posts.size.to_s %><br>
       Start date: <%= START_DATE %><br>
@@ -39,7 +39,7 @@ module Jekyll
       <% end -%>
       </tbody>
       </table>
-    EOF
+    ERB
 
     SET_OF_LANGS = Set.new(LANGS)
 
