@@ -6,12 +6,12 @@ module Jekyll
   module News
     class ArchivePage < Page
 
-      def initialize(site,base,layout,lang,posts)
+      def initialize(site, base, layout, lang, posts)
         @site = site
         @base = base
 
         @lang    = lang
-        @dir     = File.join(@lang,news_dir)
+        @dir     = File.join(@lang, news_dir)
         @name    = "index.html"
 
         @locales = @site.data["locales"][@lang]["news"] ||
@@ -22,7 +22,7 @@ module Jekyll
         @month_names = ["None"] + @month_names
 
         process(@name)
-        read_yaml(File.join(base, "_layouts"),layout)
+        read_yaml(File.join(base, "_layouts"), layout)
 
         oldest_post = posts.max_by { |post| post.date }
 
@@ -49,12 +49,12 @@ module Jekyll
 
       LAYOUT = "news_archive_month.html"
 
-      def initialize(site,base,lang,year,month,posts)
-        super(site,base,LAYOUT,lang,posts)
+      def initialize(site, base, lang, year, month, posts)
+        super(site, base, LAYOUT, lang, posts)
 
         @year  = year
         @month = month
-        @dir   = File.join(@dir,@year.to_s,"%.2d" % @month)
+        @dir   = File.join(@dir, @year.to_s, "%.2d" % @month)
 
         title = @locales["monthly_archive_title"]
 
@@ -68,11 +68,11 @@ module Jekyll
 
       LAYOUT = "news_archive_year.html"
 
-      def initialize(site,base,lang,year,posts)
-        super(site,base,LAYOUT,lang,posts)
+      def initialize(site, base, lang, year, posts)
+        super(site, base, LAYOUT, lang, posts)
 
         @year = year
-        @dir  = File.join(@dir,@year.to_s)
+        @dir  = File.join(@dir, @year.to_s)
 
         title = @locales["yearly_archive_title"]
         month_link_text = @locales["monthly_archive_link"]
@@ -98,8 +98,8 @@ module Jekyll
 
       MAX_POSTS = 10
 
-      def initialize(site,base,lang,posts)
-        super(site,base,LAYOUT,lang,posts)
+      def initialize(site, base, lang, posts)
+        super(site, base, LAYOUT, lang, posts)
 
         title = @locales["recent_news"]
         year_link_text = @locales["yearly_archive_link"]
@@ -138,9 +138,9 @@ module Jekyll
     priority :low
 
     def generate(site)
-      posts = Hash.new do |hash,lang|
-        hash[lang] = Hash.new do |years,year|
-          years[year] = Hash.new do |months,month|
+      posts = Hash.new do |hash, lang|
+        hash[lang] = Hash.new do |years, year|
+          years[year] = Hash.new do |months, month|
             months[month] = []
           end
         end
@@ -150,7 +150,7 @@ module Jekyll
         posts[post.lang][post.date.year][post.date.month] << post
       end
 
-      posts.each do |lang,years|
+      posts.each do |lang, years|
         index = News::Index.new(
           site,
           site.source,
@@ -158,11 +158,11 @@ module Jekyll
           years.values.map(&:values).flatten
         )
 
-        index.render(site.layouts,site.site_payload)
+        index.render(site.layouts, site.site_payload)
         index.write(site.dest)
         site.pages << index
 
-        years.each do |year,months|
+        years.each do |year, months|
           yearly_archive = News::YearlyArchive.new(
             site,
             site.source,
@@ -171,11 +171,11 @@ module Jekyll
             months.values.flatten
           )
 
-          yearly_archive.render(site.layouts,site.site_payload)
+          yearly_archive.render(site.layouts, site.site_payload)
           yearly_archive.write(site.dest)
           site.pages << yearly_archive
 
-          months.each do |month,posts_for_month|
+          months.each do |month, posts_for_month|
             monthly_archive = News::MonthlyArchive.new(
               site,
               site.source,
@@ -185,7 +185,7 @@ module Jekyll
               posts_for_month
             )
 
-            monthly_archive.render(site.layouts,site.site_payload)
+            monthly_archive.render(site.layouts, site.site_payload)
             monthly_archive.write(site.dest)
             site.pages << monthly_archive
           end
