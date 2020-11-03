@@ -67,7 +67,7 @@ module Jekyll
       end
 
       def short_name_in_red
-        %Q{<span style="color:red">#{short_name}</span>}
+        %Q(<span style="color:red">#{short_name}</span>)
       end
 
       def row_data(langs)
