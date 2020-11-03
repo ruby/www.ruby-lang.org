@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 module Jekyll
 
   # Provides a tag that generates an overview of all news posts
