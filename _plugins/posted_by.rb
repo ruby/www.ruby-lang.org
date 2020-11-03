@@ -18,15 +18,15 @@ module Jekyll
     def posted_by(date, author = nil)
       date = date.is_a?(String) ? Time.parse(date) : date
 
-      lang = @context.environments.first["page"]["lang"] || "en"
-      posted_by = @context.registers[:site].data["locales"][lang]["posted_by"] ||
-                  @context.registers[:site].data["locales"]["en"]["posted_by"]
+      posted_by = if author.nil? || author.empty? || author == "Unknown Author"
+                    "%Y-%m-%d"
+                  else
+                    lang = @context.environments.first["page"]["lang"] || "en"
+                    format = @context.registers[:site].data["locales"][lang]["posted_by"] ||
+                             @context.registers[:site].data["locales"]["en"]["posted_by"]
 
-      if author.nil? || author.empty? || author == "Unknown Author"
-        posted_by = "%Y-%m-%d"
-      else
-        posted_by = posted_by.gsub("AUTHOR", author)
-      end
+                    format.gsub("AUTHOR", author)
+                  end
 
       if date.respond_to?(:strftime)
         date.strftime(posted_by)
