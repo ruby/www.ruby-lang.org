@@ -8,7 +8,7 @@ module Jekyll
   # Outputs HTML.
   module TranslationStatus
 
-    LANGS =  %w[en de es id ja ko pt tr zh_cn zh_tw]
+    LANGS = %w[en de es id ja ko pt tr zh_cn zh_tw]
     START_DATE = "2013-04-01"
 
     OK_CHAR      = "✓"
@@ -16,7 +16,7 @@ module Jekyll
 
     POST_DISPLAY_LENGTH = 50
 
-    TEMPLATE =<<-EOF.gsub(/^      /, "")
+    TEMPLATE = <<-EOF.gsub(/^      /, "")
       <p>
       Posts with missing translations: <%= posts.size.to_s %><br>
       Start date: <%= START_DATE %><br>

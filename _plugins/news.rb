@@ -10,9 +10,9 @@ module Jekyll
         @site = site
         @base = base
 
-        @lang    = lang
-        @dir     = File.join(@lang, news_dir)
-        @name    = "index.html"
+        @lang = lang
+        @dir  = File.join(@lang, news_dir)
+        @name = "index.html"
 
         @locales = @site.data["locales"][@lang]["news"] ||
                    @site.data["locales"]["en"]["news"]
@@ -24,7 +24,7 @@ module Jekyll
         process(@name)
         read_yaml(File.join(base, "_layouts"), layout)
 
-        oldest_post = posts.max_by { |post| post.date }
+        oldest_post = posts.max_by {|post| post.date }
 
         data["lang"]  = @lang
         data["posts"] = posts.reverse
@@ -78,14 +78,14 @@ module Jekyll
         month_link_text = @locales["monthly_archive_link"]
 
         data["title"] = insert_date(title, @year)
-        data["year"]   = @year
+        data["year"]  = @year
 
-        months = posts.map { |post| post.date.month }.uniq
+        months = posts.map {|post| post.date.month }.uniq
 
         # hash with url => link_text (including year) elements
         data["months"] = Hash[
-          months.map { |month| "%.2d" % month }.zip(
-            months.map { |month| insert_date(month_link_text, @year, month) }
+          months.map {|month| "%.2d" % month }.zip(
+            months.map {|month| insert_date(month_link_text, @year, month) }
           )
         ]
       end
@@ -107,12 +107,12 @@ module Jekyll
         data["title"] = title
         data["posts"] = posts.last(MAX_POSTS).reverse
 
-        years = posts.map { |post| post.date.year }.uniq.reverse
+        years = posts.map {|post| post.date.year }.uniq.reverse
 
         # hash with url => link_text elements
         data["years"] = Hash[
-          years.map { |year| year.to_s }.zip(
-            years.map { |year| insert_date(year_link_text, year) }
+          years.map {|year| year.to_s }.zip(
+            years.map {|year| insert_date(year_link_text, year) }
           )
         ]
       end
