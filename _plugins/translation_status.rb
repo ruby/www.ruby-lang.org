@@ -126,7 +126,7 @@ module Jekyll
         ignored = ignored_langs.sort.join(", ")
         posts = @posts.sort.reverse.map {|_name, post| post }
 
-        ERB.new(TEMPLATE, nil, "-").result(binding)
+        ERB.new(TEMPLATE, trim_mode: "-").result(binding)
       end
     end
   end
