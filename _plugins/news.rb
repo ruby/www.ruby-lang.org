@@ -151,8 +151,6 @@ module Jekyll
           years.values.map(&:values).flatten
         )
 
-        index.render(site.layouts, site.site_payload)
-        index.write(site.dest)
         site.pages << index
 
         years.each do |year, months|
@@ -164,8 +162,6 @@ module Jekyll
             months.values.flatten
           )
 
-          yearly_archive.render(site.layouts, site.site_payload)
-          yearly_archive.write(site.dest)
           site.pages << yearly_archive
 
           months.each do |month, posts_for_month|
@@ -178,8 +174,6 @@ module Jekyll
               posts_for_month
             )
 
-            monthly_archive.render(site.layouts, site.site_payload)
-            monthly_archive.write(site.dest)
             site.pages << monthly_archive
           end
         end
