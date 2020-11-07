@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 begin
-  require 'bundler/setup'
+  require "bundler/setup"
 rescue LoadError => e
   warn e.message
   warn "Run `gem install bundler` to install Bundler"
@@ -39,8 +39,8 @@ namespace :build do
 
   desc "Build the Jekyll site (`lang' language part only)"
   task :lang do
-    puts 'Please specify one of the valid language codes:'
-    puts LANGUAGES.join(', ') << '.'
+    puts "Please specify one of the valid language codes:"
+    puts LANGUAGES.join(", ") << "."
   end
 
   LANGUAGES.each do |lang|
@@ -58,16 +58,16 @@ end
 namespace :new_post do
 
   def create_template(lang)
-    url_title = 'short-title'
-    title = 'Post Title'
+    url_title = "short-title"
+    title = "Post Title"
 
     now = Time.now.utc
     datetime = now.strftime("%Y-%m-%d %H:%M:%S %z")
     date = now.strftime("%Y-%m-%d")
     filename = "#{date}-#{url_title}.md"
-    path = File.join(lang, 'news', '_posts', filename)
+    path = File.join(lang, "news", "_posts", filename)
 
-    content = <<-TEMPLATE.gsub(/^ */, '')
+    content = <<-TEMPLATE.gsub(/^ */, "")
       ---
       layout: news_post
       title: "#{title}"
@@ -85,8 +85,8 @@ namespace :new_post do
       if File.exist?(path)
         warn "Could not create template, `#{path}' already exists."
       else
-        File.open(path, 'w') {|f| f.write content }
-        warn 'done.'
+        File.open(path, "w") {|f| f.write content }
+        warn "done."
       end
     rescue => e
       warn e.message
@@ -95,8 +95,8 @@ namespace :new_post do
 
   desc "Create a news post template for language `lang'"
   task :lang do
-    puts 'Please specify one of the valid language codes:'
-    puts LANGUAGES.join(', ') << '.'
+    puts "Please specify one of the valid language codes:"
+    puts LANGUAGES.join(", ") << "."
   end
 
   LANGUAGES.each do |lang|
@@ -122,7 +122,7 @@ namespace :check do
     LinkChecker.new.check(localport: localport, languages: LANGUAGES)
   end
 
-  desc 'Validate _site markup with validate-website'
+  desc "Validate _site markup with validate-website"
   task :markup do
     require_relative "lib/markup_checker"
     MarkupChecker.new.check

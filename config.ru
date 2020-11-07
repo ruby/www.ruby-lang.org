@@ -1,8 +1,8 @@
-require 'lanyon'
-require 'rack/rewrite'
-require 'rack/ssl'
-require 'rack/protection'
-require 'yaml'
+require "lanyon"
+require "rack/rewrite"
+require "rack/ssl"
+require "rack/protection"
+require "yaml"
 
 use Rack::CommonLogger
 
