@@ -5,7 +5,7 @@ begin
 rescue LoadError => e
   warn e.message
   warn "Run `gem install bundler` to install Bundler"
-  exit -1
+  exit(-1)
 end
 
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw].freeze
