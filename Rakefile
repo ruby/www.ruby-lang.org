@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 begin
   require "bundler/setup"
 rescue LoadError => e
