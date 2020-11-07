@@ -11,10 +11,10 @@ end
 LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw]
 CONFIG = "_config.yml"
 
-task :default => [:build]
+task default: [:build]
 
 desc "Run tests (lint, build)"
-task :test => [:lint, :build]
+task test: [:lint, :build]
 
 desc "Build the Jekyll site"
 task :build do
