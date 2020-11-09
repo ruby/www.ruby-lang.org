@@ -43,7 +43,6 @@ GEM
     lanyon (0.4.2)
       jekyll (>= 2.0)
       rack (>= 1.6, < 3.0)
-    libsqreen (0.6.1.0.1)
     liquid (4.0.3)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -76,15 +75,6 @@ GEM
     slop (4.8.2)
     spidr (0.6.1)
       nokogiri (~> 1.3)
-    sq_mini_racer (0.2.5.0.1.beta3)
-    sqreen (1.21.1)
-      libsqreen (~> 0.6.1.0.0)
-      sq_mini_racer (~> 0.2.4.sqreen2)
-      sqreen-backport (~> 0.1.0)
-      sqreen-kit (~> 0.2.2)
-    sqreen-backport (0.1.0)
-    sqreen-kit (0.2.2)
-      sqreen-backport (~> 0.1.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     tidy_ffi (1.0.1)
@@ -118,7 +108,6 @@ DEPENDENCIES
   rake
   rouge (< 3.24.0)
   spidr (~> 0.6)
-  sqreen
   unicorn
   validate-website (~> 1.6)
 
