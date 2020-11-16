@@ -106,7 +106,7 @@ Già, funziona, ma che cosa è successo? E in particolare che cos’è
 ## Moduli – ovvero come raggruppare del codice per argomento
 
 `Math` è un modulo predefinito per i calcoli matematici. I moduli hanno
-un dupice scopo in Ruby, e uno di questi è raggruppare metodi simili
+un duplice scopo in Ruby, e uno di questi è raggruppare metodi simili
 insieme utilizzando un particolare nome adatto allo scopo. `Math`
 contiene molti altri metodi come per esempio `sin()` e `tan()`.
 
