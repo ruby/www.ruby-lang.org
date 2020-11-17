@@ -44,6 +44,7 @@ sistemde var olan kurulum yöntemlerinden herhangi birini kullanmak için
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
   * [Diğer Dağıtımlar](#other-systems)
 * [Kurucular](#installers)
@@ -180,6 +181,20 @@ seçeneklerini özelleştirmek istiyorsanız, bu, kullanışlıdır.
 FreeBSD'de Ruby ve onun çevreleyen ekosistemi hakkında daha fazla bilgi
 [FreeBSD Ruby Projesi websitesi][freebsd-ruby]nde bulunabilir.
 
+### OpenBSD
+{: #openbsd}
+
+OpenBSD ve OpenBSD'nin dağıtımı olan adJ, Ruby'nin üç ana sürümü için paketlere sahiptir.
+Aşağıdaki komut mevcut sürümleri görmenizi ve bunlardan birini kurmanızı sağlar:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+Aynı anda birden fazla ana sürüm kurabilirsiniz, çünkü bu sürümlerin ikilileri farklı isimlere sahiptir (ruby27, ruby26, vb. gibi).
+
+OpenBSD'nin ports koleksiyonunun `HEAD` dalı, Ruby'nin en son sürümüne, sürüm yayınlandıktan birkaç gün sonra sahip olacaktır.
+[En son ports koleksiyonundaki lang/ruby dizinine][openbsd-current-ruby-ports] bakın.
 
 ### OpenIndiana üzerinde Ruby
 {: #openindiana}
@@ -346,3 +361,4 @@ olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecekti
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
