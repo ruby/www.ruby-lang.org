@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby '~> 2.7.2'
+
 gem "rake"
 gem "jekyll", "~> 4.0"
 gem "rouge", "< 3.24.0"
