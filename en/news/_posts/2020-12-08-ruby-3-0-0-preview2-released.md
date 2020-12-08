@@ -92,7 +92,7 @@ You can make multiple ractors and you can run them in parallel. Ractor enables y
 
 To limit sharing of objects, Ractor introduces several restrictions to the Ruby's syntax (without multiple Ractors, there is no restriction).
 
-The specification and implmentation are not matured and may be changed in the future, so this feature is marked as experimental and show the "experimental feature" warning when the first `Ractor.new`.
+The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and show the "experimental feature" warning when the first `Ractor.new`.
 
 The following small program calculates `n.prime?` (`n` is relatively a big integer) in parallel with two ractors. You will confirm that the program execution is about x2 times faster ompare with the sequential program on the parallel computer.
 
