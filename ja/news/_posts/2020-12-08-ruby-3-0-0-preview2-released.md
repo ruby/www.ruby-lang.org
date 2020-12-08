@@ -215,7 +215,7 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
   * tsort
   * weakref
 
-その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview2/NEWS) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview2)を参照してください。
+その他詳細については、[NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview2/NEWS.md) ファイルまたは[コミットログ](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview2)を参照してください。
 
 {% assign release = site.data.releases | where: "version", "3.0.0-preview2" | first %}
 
