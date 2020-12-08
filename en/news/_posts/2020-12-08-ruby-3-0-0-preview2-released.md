@@ -94,7 +94,7 @@ To limit sharing of objects, Ractor introduces several restrictions to the Ruby'
 
 The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and show the "experimental feature" warning when the first `Ractor.new`.
 
-The following small program calculates `n.prime?` (`n` is relatively a big integer) in parallel with two ractors. You will confirm that the program execution is about x2 times faster ompare with the sequential program on the parallel computer.
+The following small program calculates `n.prime?` (`n` is relatively a big integer) in parallel with two ractors. You will confirm that the program execution is about x2 times faster compared to the sequential program on the parallel computer.
 
 ``` ruby
 require 'prime'
