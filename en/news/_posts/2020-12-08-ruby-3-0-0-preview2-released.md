@@ -172,16 +172,6 @@ end
     ``` ruby
     def square(x) = x * x
     ```
-* Find pattern is added.
-    ``` ruby
-    case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
-    in [*pre, String => x, String => y, *post]
-      p pre  #=> ["a", 1]
-      p x    #=> "b"
-      p y    #=> "c"
-      p post #=> [2, "d", "e", "f", 3]
-    end
-    ```
 * `Hash#except` is now built-in.
     ``` ruby
     h = { a: 1, b: 2, c: 3 }
