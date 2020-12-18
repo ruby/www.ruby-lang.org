@@ -163,7 +163,7 @@ berubah pada rilis *preview* berikutnya.
 
 * *Keyword argument* dipisahkan dari *argument* lainnya.
   * Pada dasarnya, kode yang mencetak sebuah peringatan pada Ruby 2.7 tidak akan
-bekerja. Lihat [dokumen](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) untuk detail.
+bekerja. Lihat [dokumen](https://www.ruby-lang.org/id/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) untuk detail.
   * Omong-omong, *argument forwarding* sekarang mendukung *leading argument*.
 
     ``` ruby
