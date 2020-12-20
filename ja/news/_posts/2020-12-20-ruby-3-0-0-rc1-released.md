@@ -147,7 +147,7 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
         p b #=> 0
         ```
     * `in` は `true` または `false` を返すようになりました。
-     
+
         ```ruby
         # version 3.0
         0 in 1 #=> false
