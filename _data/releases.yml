@@ -21,6 +21,34 @@
 
 # 3.0 series
 
+- version: 3.0.0-rc1
+  date: 2020-12-20
+  post: /en/news/2020/12/20/ruby-3-0-0-rc1-released/
+  stats:
+    files_changed: 3889
+    insertions: 195560
+    deletions: 152740
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-rc1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-rc1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-rc1.tar.xz
+  size:
+    gz:  19488885
+    zip: 23902334
+    xz:  14341128
+  sha1:
+    gz:  34ede2128a90ef3217d9cab9efcdf20fc444f67c
+    zip: e3e20b4d0ec895e579ae416f2b7552c6be3596f7
+    xz:  deff34cf67373dca166e9961051b6c4723aaaec6
+  sha256:
+    gz:  e1270f38b969ce7b124f0a4c217e33eda643f75c7cb20debc62c17535406e37f
+    zip: 25ced95fa544af6a64d348dc5eace008edfda22f55ed1f6ad9f932b344e6196d
+    xz:  f1adda082f9291e394d25ed32975abbef90962dc4c8b11130586a0151558e79a
+  sha512:
+    gz:  798926db82d27366b39be97556ac5cb322986b96df913c398449bd3ece533e484a3047fe35e7a6241dfbd0f7da803438f5b04b805b33f95c73e3e41d0bb51183
+    zip: c81b3bf7ce582bf39fd7bc1e691d0777ed4cf38ca6b4d54bc9edaef076ae8bcecb6a86ebfd773591f7d8533e772517033c762d35fdc8b05cb4db4488c2bacec2
+    xz:  f4f13dbfa1c96088eb3dbfba0cb1fe99f4e17197ee2d4b78fbe16496780797a10daa3f2ff9c38d2d7b316974101eccf45184708ad05491fb49898b3a7cc6d673
+
 - version: 3.0.0-preview2
   date: 2020-12-08
   post: /en/news/2020/12/08/ruby-3-0-0-preview2-released/
