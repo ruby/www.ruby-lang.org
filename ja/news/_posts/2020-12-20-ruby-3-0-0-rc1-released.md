@@ -5,7 +5,6 @@ author: "naruse"
 translator:
 date: 2020-12-20 00:00:00 +0000
 lang: ja
-breaks: false
 ---
 
 Ruby 3.0に向けてフィードバックを得るためのリリースである、Ruby 3.0.0-rc1が公開されました。
