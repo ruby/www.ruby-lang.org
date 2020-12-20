@@ -162,7 +162,7 @@ end
         p b #=> 0
         ```
     * `in` is changed to return `true` or `false`.
-     
+
         ```ruby
         # version 3.0
         0 in 1 #=> false
