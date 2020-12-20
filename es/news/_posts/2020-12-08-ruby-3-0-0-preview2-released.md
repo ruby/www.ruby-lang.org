@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.0.0 Preview 2 Released"
+title: "Publicado Ruby 3.0.0 versión previa 2"
 author: "naruse"
 translator: vtamara
 date: 2020-12-08 00:00:00 +0000
@@ -60,7 +60,7 @@ Ver más detalles en el
 TypeProf es una herramienta para análisis de tipos incluida en el paquete
 Ruby.
 
-Actualmente, TyepProf sirve como una forma de inferencia de tipos.
+Actualmente, TypeProf sirve como una forma de inferencia de tipos.
 
 Lee código Ruby plano (sin anotiaciones de tipos), analiza que métodos se
 definen y como se usan, y genera un prototipo de la firma de los tipos en
@@ -96,7 +96,7 @@ end
 Puede ejecutar TypeProf guardando el archivo de entrada como "test.rb" y
 ejecutandolo como "typeprof test.rb".
 
-También puede [probar TypeProf en línea](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (Ejecuta TypeProf al lado del servidor, así que ¡disculpe si no está operando!)
+También puede [probar TypeProf en línea](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (TypeProf corre al lado del servidor, así que ¡disculpe si no está operando!)
 
 Ver detalles en [la documentación](https://github.com/ruby/typeprof/blob/master/doc/doc.md) y en [demostraciones](https://github.com/ruby/typeprof/blob/master/doc/demo.md).
 
@@ -129,7 +129,7 @@ experimental.
 
 El siguiente programita calcula `prime?` en paralelo con dos
 ractores. Podrá comprobar que la ejecución es casi 2 veces más rápida
-que el programa secuencial en un computador paralelo.
+que la del programa secuencial en un computador paralelo.
 
 ``` ruby
 require 'prime'
@@ -153,8 +153,6 @@ p r2.take #=> true
 
 Ver más detalles en
 [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md).
-
-The following small program calculates `n.prime?` (`n` is relatively a big integer) in parallel with two ractors. You will confirm that the program execution is about x2 times faster compared to the sequential program on the parallel computer.
 
 
 ## Planificador (__Scheduler__) de Fibras
