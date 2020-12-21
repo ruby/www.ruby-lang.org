@@ -68,7 +68,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.23.0)
+    rouge (3.25.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -106,7 +106,7 @@ DEPENDENCIES
   rack-rewrite
   rack-ssl
   rake
-  rouge (< 3.24.0)
+  rouge
   spidr (~> 0.6)
   unicorn
   validate-website (~> 1.6)
