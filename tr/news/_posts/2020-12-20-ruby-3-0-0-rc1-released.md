@@ -110,7 +110,7 @@ require 'prime'
 # r1 ve r2'deki, tamsayıların gönderildiği n.prime? paralelde çalışır
 r1, r2 = *(1..2).map do
   Ractor.new do
-    n = Ractor.recv
+    n = Ractor.receive
     n.prime?
   end
 end

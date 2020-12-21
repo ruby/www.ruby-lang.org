@@ -102,7 +102,7 @@ require 'prime'
 # n.prime? with sent integers in r1, r2 run in parallel
 r1, r2 = *(1..2).map do
   Ractor.new do
-    n = Ractor.recv
+    n = Ractor.receive
     n.prime?
   end
 end
