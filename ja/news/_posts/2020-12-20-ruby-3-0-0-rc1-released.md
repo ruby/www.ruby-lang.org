@@ -137,45 +137,52 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
 ## その他の主要な新機能
 
 * 1行パターンマッチが再設計されました。 (experimental)
-   * `=>` を新たに使うようになりました。右代入のように使うことができます。
 
-        ```ruby
-        0 => a
-        p a #=> 0
+    * `=>` を新たに使うようになりました。右代入のように使うことができます。
 
-        {b: 0, c: 1} => {b:}
-        p b #=> 0
-        ```
+      ```ruby
+      0 => a
+      p a #=> 0
+
+      {b: 0, c: 1} => {b:}
+      p b #=> 0
+      ```
+
     * `in` は `true` または `false` を返すようになりました。
 
-        ```ruby
-        # version 3.0
-        0 in 1 #=> false
+      ```ruby
+      # version 3.0
+      0 in 1 #=> false
 
-        # version 2.7
-        0 in 1 #=> raise NoMatchingPatternError
-        ```
+      # version 2.7
+      0 in 1 #=> raise NoMatchingPatternError
+      ```
+
 * findパターンが追加されました。 (experimental)
-    ``` ruby
-    case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
-    in [*pre, String => x, String => y, *post]
-      p pre  #=> ["a", 1]
-      p x    #=> "b"
-      p y    #=> "c"
-      p post #=> [2, "d", "e", "f", 3]
-    end
-    ```
+
+  ``` ruby
+  case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
+  in [*pre, String => x, String => y, *post]
+    p pre  #=> ["a", 1]
+    p x    #=> "b"
+    p y    #=> "c"
+    p post #=> [2, "d", "e", "f", 3]
+  end
+  ```
 
 * 一行メソッド定義が書けるようになりました。
-    ``` ruby
-      def square(x) = x * x
-    ```
+
+  ``` ruby
+  def square(x) = x * x
+  ```
 
 * `Hash#except` が組み込みになりました。
-    ``` ruby
-      h = { a: 1, b: 2, c: 3 }
-      p h.except(:a) #=> {:b=>2, :c=>3}
-    ```
+
+  ``` ruby
+  h = { a: 1, b: 2, c: 3 }
+  p h.except(:a) #=> {:b=>2, :c=>3}
+  ```
+
 ## パフォーマンスの改善
 
 * MJITに多数の改善が行われています。詳細はNEWSを参照してください。
@@ -186,11 +193,13 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
 * キーワード引数が通常の引数から分離されました。
   * 原則として、2.7 で警告の出ていたコードは動かなくなります。詳細は[別ドキュメント](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)を参照してください。
   * 関連して、引数のフォワーディングの記法で先頭に引数を書けるようになりました。
+
     ``` ruby
-        def method_missing(meth, ...)
-          send(:"do_#{ meth }", ...)
-        end
+    def method_missing(meth, ...)
+      send(:"do_#{ meth }", ...)
+    end
     ```
+
 * パターンマッチ(`case/in`)が実験的な機能ではなくなりました。
 * `$SAFE` の機能が完全に削除され、ただのグローバル変数となりました。
 * バックトレースの順序は2.5で逆転しましたが、3.0ではこれを取りやめることになりました。例外が起きた行が先に表示され、呼び出し元が後に表示されるように戻ります。
