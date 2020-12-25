@@ -12,7 +12,7 @@ Ruby 3.0系初のリリースである、Ruby {{ release.version }} が公開さ
 
 これまで、Ruby3に向けてパフォーマンスの改善、並行処理、静的解析という3つの目標を掲げて、活発に開発が行われてきました。特にパフォーマンスの改善については、[Ruby 3x3](https://blog.heroku.com/ruby-3-by-3) として「Ruby3はRuby2の3倍速くする」ことを目指してきました。
 
-<img src='https://i.imgur.com/mqOkcWi.png' alt='Optcarrot 3000 frames' width='100%' />
+<img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
 Ruby 3.0では開発の指標の一つとしてきた[Optcarotベンチマーク](https://github.com/mame/optcarrot)で3倍を達成するとともに、以下のような取り組みが行われています。<details>https://benchmark-driver.github.io/hardware.html に書かれている環境で計測されました。 [8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) が Ruby 3.0 として使われています。環境やベンチマークによっては3倍にならないかもしれません。</details>
 
