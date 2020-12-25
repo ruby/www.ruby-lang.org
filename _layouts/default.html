@@ -10,7 +10,12 @@
     {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta itemprop="image" content="https://www.ruby-lang.org/images/header-ruby-logo@2x.png">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
     <meta name="description" content="">
+    {% endif %}
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
