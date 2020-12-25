@@ -27,7 +27,7 @@ Ruby 1.8.7がリリースされました。 (リリースについてのアナ�
     805987ad167d8f9cac90e4b9342686e96a7708664111be27a3c6d680ce21d6c1
   * size: 5851408
 
-　1.8.6 との互換性情報を含む変更点のリストは、同梱の NEWS および ChangeLog
+1.8.6 との互換性情報を含む変更点のリストは、同梱の NEWS および ChangeLog
 を参照してください。以下のURLでも閲覧できます。
 
 * [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS&gt;][5]
