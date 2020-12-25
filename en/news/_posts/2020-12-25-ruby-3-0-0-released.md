@@ -291,15 +291,15 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 * Some standard libraries are updated.
   * RubyGems 3.2.3
   * Bundler 2.2.3
-  * IRB 1.2.6
-  * Reline 0.1.5
-  * Pysch 3.3.0
-  * JSON 2.5.0
+  * IRB 1.3.0
+  * Reline 0.2.0
+  * Psych 3.3.0
+  * JSON 2.5.1
   * BigDecimal 3.0.0
   * CSV 3.1.9
-  * Date 3.1.1
+  * Date 3.1.0
   * Digest 3.0.0
-  * Fiddle 1.0.5
+  * Fiddle 1.0.6
   * StringIO 3.0.0
   * StringScanner 3.0.0
   * etc.
