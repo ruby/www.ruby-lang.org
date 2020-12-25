@@ -7,7 +7,7 @@ date: 2020-12-25 00:00:00 +0000
 lang: de
 ---
 
-Wir freuen uns, die Veröffentlichung von Ruby 3
+Wir freuen uns, die Veröffentlichung von Ruby 3.0.0
 bekannt geben zu können. Seit 2015 haben wir an Ruby 3 gearbeitet,
 dessen Ziele sich so beschreiben lassen: Performanz, Nebenläufigkeit
 und Typisierung. Mit besonderem Blick auf die Performanz hatte Matz
