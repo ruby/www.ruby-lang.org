@@ -7,7 +7,7 @@ date: 2020-12-25 00:00:00 +0000
 lang: en
 ---
 
-We are pleased to announce the release of Ruby {{ release.version }}. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
+We are pleased to announce the release of Ruby 3.0.0. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
@@ -37,22 +37,23 @@ Many improvements were implemented in MJIT. See NEWS for details.
 
 As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends the majority of time in calling a few methods many times.
 
-Although Ruby 3.0 [significantly decreased size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffers from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
+Although Ruby 3.0 [significantly decreased the size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffer from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
 
 ## Concurrency / Parallel
 
 > It's multi-core age today. Concurrency is very important. With Ractor, along with Async Fiber, Ruby will be a real concurrent language. --- Matz
 
 ### Ractor (experimental)
+
 Ractor is an Actor-model like concurrent abstraction designed to provide a parallel execution feature without thread-safety concerns.
 
 You can make multiple ractors and you can run them in parallel. Ractor enables you to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors is supported by exchanging messages.
 
 To limit the sharing of objects, Ractor introduces several restrictions to Ruby's syntax (without multiple Ractors, there is no restriction).
 
-The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and show the "experimental feature" warning when the first `Ractor.new`.
+The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and shows the "experimental feature" warning when the first `Ractor.new` occurs.
 
-The following small program measures the execution time of famous benchmark tak function ([Tak (function) - Wikipedia](https://en.wikipedia.org/wiki/Tak_(function))), by executing it 4 times sequentially or 4 times in parallel with ractors.
+The following small program measures the execution time of the famous benchmark tak function ([Tak (function) - Wikipedia](https://en.wikipedia.org/wiki/Tak_(function))), by executing it 4 times sequentially or 4 times in parallel with ractors.
 
 ``` ruby
 def tarai(x, y, z) =
@@ -80,8 +81,7 @@ seq  64.560736   0.001101  64.561837 ( 64.562194)
 par  66.422010   0.015999  66.438009 ( 16.685797)
 ```
 
-The result was　measured on Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). It shows that the parallel version is 3.87 times faster than the sequential version.
-
+The result was measured on Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). It shows that the parallel version is 3.87 times faster than the sequential version.
 
 See [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) for more details.
 
@@ -97,7 +97,7 @@ Currently supported classes/methods:
 - `Thread#join`
 - `Kernel#sleep`
 - `Process.wait`
-- `IO#wait`, `IO#read`, `IO#write` and related methods (e.g. `#wait_readable`, `#gets`, `#puts` and so on).
+- `IO#wait`, `IO#read`, `IO#write`, and related methods (e.g. `#wait_readable`, `#gets`, `#puts`, and so on).
 - `IO#select` is *not supported*.
 
 This example program will perform several HTTP requests concurrently:
@@ -120,7 +120,7 @@ It uses [async](https://github.com/socketry/async) which provides the event loop
 
 ## Static Analysis
 
-> 2010s were an age of statically type programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first steps to the future. More steps to come. --- Matz
+> 2010s were an age of statically typed programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first step to the future. More steps to come. --- Matz
 
 ### RBS
 
@@ -132,7 +132,7 @@ You can write down the definition of classes and modules: methods defined in the
 
 The goal of RBS is to support commonly seen patterns in Ruby programs and it allows writing advanced types including union types, method overloading, and generics. It also supports duck typing with _interface types_.
 
-Ruby 3.0 ships with `rbs` gem, which allows parsing and processing type definitions written in RBS.
+Ruby 3.0 ships with the `rbs` gem, which allows parsing and processing type definitions written in RBS.
 The following is a small example of RBS with class, module, and constant definitions.
 
 ``` rbs
@@ -186,11 +186,11 @@ class User
 end
 ```
 
-You can run TypeProf by saving the input as "test.rb" and invoke a command called "typeprof test.rb".
+You can run TypeProf by saving the input as "test.rb" and invoking the command "typeprof test.rb".
 
 You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (It runs TypeProf on the server-side, so sorry if it is out!)
 
-See [the documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) for details.
+See the [TypeProf documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) for details.
 
 TypeProf is experimental and not so mature yet; only a subset of the Ruby language is supported, and the detection of type errors is limited. But it is still growing rapidly to improve the coverage of language features, the analysis performance, and usability. Any feedback is very welcome.
 
@@ -198,7 +198,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 
 * One-line pattern matching is redesigned.  (experimental)
 
-    * `=>` is added. It can be used as like rightward assignment.
+    * `=>` is added. It can be used like a rightward assignment.
 
       ```ruby
       0 => a
@@ -207,6 +207,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
       {b: 0, c: 1} => {b:}
       p b #=> 0
       ```
+
     * `in` is changed to return `true` or `false`.
 
       ```ruby
@@ -244,11 +245,11 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 
 * Memory view is added as an experimental feature
 
-    * This is a new C-API set to exchange a raw memory area, such as a numeric array and a bitmap image, between extension libraries.  The extension libraries can share also the metadata of the memory area that consists of the shape, the element format, and so on.  Using these kinds of metadata, the extension libraries can share even a multidimensional array appropriately.  This feature is designed by referring to Python's buffer protocol.
+    * This is a new C-API set to exchange a raw memory area, such as a numeric array or a bitmap image, between extension libraries.  The extension libraries can share also the metadata of the memory area that consists of the shape, the element format, and so on.  Using these kinds of metadata, the extension libraries can share even a multidimensional array appropriately.  This feature is designed by referring to Python's buffer protocol.
 
 ## Performance improvements
 
-* Pasting long code to IRB is 53 times faster than bundled with Ruby 2.7.0. For example, the time required to paste [this sample code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) goes from 11.7 seconds to 0.22 seconds.
+* Pasting long code to IRB is 53 times faster than in the version bundled with Ruby 2.7.0. For example, the time required to paste [this sample code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) goes from 11.7 seconds to 0.22 seconds.
 
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
@@ -276,7 +277,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 ## Other notable changes since 2.7
 
 * Keyword arguments are separated from other arguments.
-  * In principle, code that prints a warning on Ruby 2.7 won't work.  See the [document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) in detail.
+  * In principle, code that prints a warning on Ruby 2.7 won't work.  See [this document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) for details.
   * By the way, arguments forwarding now supports leading arguments.
 
     ``` ruby
@@ -285,21 +286,21 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     end
     ```
 
-* Pattern matching (`case/in`) is no longer experimental.
+* Pattern matching (`case`/`in`) is no longer experimental.
 * The `$SAFE` feature was completely removed; now it is a normal global variable.
 * The order of backtrace had been reversed at Ruby 2.5 and is reverted.  Now it behaves like Ruby 2.4; an error message and the line number where the exception occurs are printed first, and its callers are printed later.
 * Some standard libraries are updated.
   * RubyGems 3.2.3
   * Bundler 2.2.3
-  * IRB 1.2.6
-  * Reline 0.1.5
-  * Pysch 3.3.0
-  * JSON 2.5.0
+  * IRB 1.3.0
+  * Reline 0.2.0
+  * Psych 3.3.0
+  * JSON 2.5.1
   * BigDecimal 3.0.0
   * CSV 3.1.9
-  * Date 3.1.1
+  * Date 3.1.0
   * Digest 3.0.0
-  * Fiddle 1.0.5
+  * Fiddle 1.0.6
   * StringIO 3.0.0
   * StringScanner 3.0.0
   * etc.

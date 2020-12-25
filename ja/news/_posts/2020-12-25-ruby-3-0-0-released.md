@@ -15,7 +15,7 @@ Ruby 3.0系初のリリースである、Ruby 3.0.0 が公開されました。
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-Ruby 3.0では開発の指標の一つとしてきた[Optcarotベンチマーク](https://github.com/mame/optcarrot)で3倍を達成するとともに、以下のような取り組みが行われています。<details>https://benchmark-driver.github.io/hardware.html に書かれている環境で計測されました。 [8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) が Ruby 3.0 として使われています。環境やベンチマークによっては3倍にならないかもしれません。</details>
+Ruby 3.0では開発の指標の一つとしてきた[Optcarrotベンチマーク](https://github.com/mame/optcarrot)で3倍を達成するとともに、以下のような取り組みが行われています。<details>https://benchmark-driver.github.io/hardware.html に書かれている環境で計測されました。 [8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) が Ruby 3.0 として使われています。環境やベンチマークによっては3倍にならないかもしれません。</details>
 
 
 Ruby 3 では以下の目標を達成しました。
@@ -292,15 +292,15 @@ end
 * いくつかの標準ライブラリがアップデートされました。
   * RubyGems 3.2.3
   * Bundler 2.2.3
-  * IRB 1.2.6
-  * Reline 0.1.5
-  * Pysch 3.3.0
-  * JSON 2.5.0
+  * IRB 1.3.0
+  * Reline 0.2.0
+  * Psych 3.3.0
+  * JSON 2.5.1
   * BigDecimal 3.0.0
   * CSV 3.1.9
-  * Date 3.1.1
+  * Date 3.1.0
   * Digest 3.0.0
-  * Fiddle 1.0.5
+  * Fiddle 1.0.6
   * StringIO 3.0.0
   * StringScanner 3.0.0
   * etc.
