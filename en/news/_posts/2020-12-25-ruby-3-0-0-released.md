@@ -37,7 +37,7 @@ Many improvements were implemented in MJIT. See NEWS for details.
 
 As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends the majority of time in calling a few methods many times.
 
-Although Ruby 3.0 [significantly decreased the size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffers from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
+Although Ruby 3.0 [significantly decreased the size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffer from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
 
 ## Concurrency / Parallel
 
@@ -120,7 +120,7 @@ It uses [async](https://github.com/socketry/async) which provides the event loop
 
 ## Static Analysis
 
-> 2010s were an age of statically typed programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first steps to the future. More steps to come. --- Matz
+> 2010s were an age of statically typed programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first step to the future. More steps to come. --- Matz
 
 ### RBS
 
