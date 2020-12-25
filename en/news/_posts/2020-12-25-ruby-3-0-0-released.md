@@ -6,9 +6,10 @@ translator:
 date: 2020-12-25 00:00:00 +0000
 lang: en
 ---
-{% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
 We are pleased to announce the release of Ruby {{ release.version }}. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
+
+{% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
 <img src='https://i.imgur.com/mqOkcWi.png' alt='Optcarrot 3000 frames' width='100%' />
 

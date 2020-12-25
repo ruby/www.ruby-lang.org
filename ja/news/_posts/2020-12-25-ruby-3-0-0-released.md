@@ -6,9 +6,10 @@ translator:
 date: 2020-12-25 00:00:00 +0000
 lang: ja
 ---
-{% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
-Ruby 3.0系初のリリースである、Ruby {{ release.version }} が公開されました。
+Ruby 3.0系初のリリースである、Ruby 3.0.0 が公開されました。
+
+{% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
 これまで、Ruby3に向けてパフォーマンスの改善、並行処理、静的解析という3つの目標を掲げて、活発に開発が行われてきました。特にパフォーマンスの改善については、[Ruby 3x3](https://blog.heroku.com/ruby-3-by-3) として「Ruby3はRuby2の3倍速くする」ことを目指してきました。
 
@@ -90,9 +91,9 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 ### Fiber Scheduler
 
-`Fiber#scheduler` is introduced for intercepting blocking operations. This allows for light-weight concurrency without changing existing code. Watch ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc) for an overview of how it works.
+I/Oなど、処理をブロックさせる操作をフックするための `Fiber#scheduler` が導入されました。この機能により、既存のコードを変更せずに、軽量な並行制御を実現できます。概要と、どのように動作するのかは、 ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc) をご覧ください。
 
-Currently supported classes/methods:
+現在サポートされているクラス・メソッドは次の通りです。
 
 - `Mutex#lock`, `Mutex#unlock`, `Mutex#sleep`
 - `ConditionVariable#wait`
@@ -100,10 +101,10 @@ Currently supported classes/methods:
 - `Thread#join`
 - `Kernel#sleep`
 - `Process.wait`
-- `IO#wait`, `IO#read`, `IO#write` and related methods (e.g. `#wait_readable`, `#gets`, `#puts` and so on).
-- `IO#select` is *not supported*.
+- `IO#wait`, `IO#read`, `IO#write` と、関連するメソッド (e.g. `#wait_readable`, `#gets`, `#puts` など).
+- `IO#select` は *対応していません*
 
-This example program will perform several HTTP requests concurrently:
+次のプログラムは、いくつかの HTTP リクエストを並行に処理します。
 
 ``` ruby
 require 'async'
@@ -119,7 +120,7 @@ Async do
 end
 ```
 
-It uses [async](https://github.com/socketry/async) which provides the event loop. This event loop uses the `Fiber#scheduler` hooks to make `Net::HTTP` non-blocking. Other gems can use this interface to provide non-blocking execution for Ruby, and those gems can be compatible with other implementations of Ruby (e.g. JRuby, TruffleRuby) which can support the same non-blocking hooks.
+ここでは、イベントループを提供する [async](https://github.com/socketry/async) を用いています。このイベントループは、`Net::HTTP` をノンブロックとするために、`Fiber#scheduler` フックを用いています。他の gem も、このインターフェースを用いることで、Ruby をノンブロックで実行することができます。そして、それらの gem は、このインターフェースに対応しているその他の Ruby 実装（例えば、JRuby や TruffleRuby）でも互換にすることができます。
 
 ## 静的解析
 
