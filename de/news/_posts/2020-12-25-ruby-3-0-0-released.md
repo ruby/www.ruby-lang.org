@@ -21,8 +21,9 @@ der auch bekannt ist als [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 Im [Optcarrot-Benchmark](https://github.com/mame/optcarrot), der die Performanz eines einzelnen
 Threads anhand der Emulation eines NES-Spiels misst, erreichte Ruby 3
 die dreifache Performanz von Ruby 2.0! <details>Dies wurde mit der
-unter https://benchmark-driver.github.io/hardware.html.
-[8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) beschriebenen Umgebung als Ruby 3.0 gemessen.
+unter [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html)
+beschriebenen Umgebung mit
+[8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) als Ruby 3.0 gemessen.
 Möglicherweise ist es in Ihrer Umgebung oder Ihrem Benchmark nicht drei mal so schnell.</details>
 
 Ruby 3.0.0 erreicht diese Ziel durch die folgenden Maßnahmen:
