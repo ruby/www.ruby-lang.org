@@ -25,19 +25,19 @@ Ruby 3.0.0 covers those goals by
   * RBS
   * TypeProf
 
-With above performance improvement Ruby 3.0 introduces a number of new features described below.
+With the above performance improvement, Ruby 3.0 introduces several new features described below.
 
 ## Performance
 
-> When I first declared "Ruby3x3" in the conference keynote, many including members of the core team felt "Matz is a boaster". In fact, I felt so too. But we did. I am honored to see the core team actually accomplished to make Ruby3.0 three times faster than Ruby2.0 (in some benchmarks). -- Matz
+> When I first declared "Ruby3x3" in the conference keynote, many including members of the core team felt "Matz is a boaster". In fact, I felt so too. But we did. I am honoured to see the core team actually accomplished to make Ruby3.0 three times faster than Ruby2.0 (in some benchmarks). -- Matz
 
 ### MJIT
 
 Many improvements were implemented in MJIT. See NEWS for details.
 
-As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends majority of time in calling a few methods many times.
+As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends the majority of time in calling a few methods many times.
 
-Although Ruby 3.0 [significantly decreased a size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffer from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
+Although Ruby 3.0 [significantly decreased size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffers from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
 
 ## Concurrency / Parallel
 
@@ -46,9 +46,9 @@ Although Ruby 3.0 [significantly decreased a size of JIT-ed code](https://twitte
 ### Ractor (experimental)
 Ractor is an Actor-model like concurrent abstraction designed to provide a parallel execution feature without thread-safety concerns.
 
-You can make multiple ractors and you can run them in parallel. Ractor enables you to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors are supported by exchaning messages.
+You can make multiple ractors and you can run them in parallel. Ractor enables you to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors is supported by exchanging messages.
 
-To limit sharing of objects, Ractor introduces several restrictions to the Ruby's syntax (without multiple Ractors, there is no restriction).
+To limit the sharing of objects, Ractor introduces several restrictions to Ruby's syntax (without multiple Ractors, there is no restriction).
 
 The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and show the "experimental feature" warning when the first `Ractor.new`.
 
@@ -120,7 +120,7 @@ It uses [async](https://github.com/socketry/async) which provides the event loop
 
 ## Static Analysis
 
-> 2010s were an age of statically type programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first step to the future. More steps to come. --- Matz
+> 2010s were an age of statically type programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first steps to the future. More steps to come. --- Matz
 
 ### RBS
 
@@ -186,9 +186,9 @@ class User
 end
 ```
 
-You can run TypeProf by saving the input as "test.rb" and invoke a command called "typeprof test.rb".
+You can run TypeProf by saving the input as "test.rb" and invoke a command called "typeprof test. rb".
 
-You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (It runs TypeProf on the server side, so sorry if it is out!)
+You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (It runs TypeProf on the server-side, so sorry if it is out!)
 
 See [the documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) for details.
 
@@ -287,7 +287,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 
 * Pattern matching (`case/in`) is no longer experimental.
 * The `$SAFE` feature was completely removed; now it is a normal global variable.
-* The order of backtrace had been reversed at Ruby 2.5, and is reverted.  Now it behaves like Ruby 2.4; an error message and the line number where the exception occurs are printed first, and its callers are printed later.
+* The order of backtrace had been reversed at Ruby 2.5 and is reverted.  Now it behaves like Ruby 2.4; an error message and the line number where the exception occurs are printed first, and its callers are printed later.
 * Some standard libraries are updated.
   * RubyGems 3.2.3
   * Bundler 2.2.3
@@ -384,6 +384,6 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
 
 ## What is Ruby
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993
 and is now developed as Open Source. It runs on multiple platforms
 and is used all over the world especially for web development.
