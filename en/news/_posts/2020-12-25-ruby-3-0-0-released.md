@@ -186,7 +186,7 @@ class User
 end
 ```
 
-You can run TypeProf by saving the input as "test.rb" and invoke a command called "typeprof test. rb".
+You can run TypeProf by saving the input as "test.rb" and invoke a command called "typeprof test.rb".
 
 You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (It runs TypeProf on the server-side, so sorry if it is out!)
 
