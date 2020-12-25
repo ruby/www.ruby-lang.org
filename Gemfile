@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "~> 2.7.2"
 
 gem "rake"
-gem "jekyll", "~> 4.0"
+gem "jekyll", "~> 4.0", "< 4.2.0"
 gem "rouge"
 
 gem "unicorn"
