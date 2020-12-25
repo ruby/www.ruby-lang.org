@@ -164,48 +164,55 @@ end
 ## Other Notable New Features
 
 * Tek satır desen eşleştirme yeniden tasarlandı. (deneysel)
+
     * `=>` eklendi.
       Sağ taraf ataması olarak kullanılabilir.
 
-        ```ruby
-        0 => a
-        p a #=> 0
+      ```ruby
+      0 => a
+      p a #=> 0
 
-        {b: 0, c: 1} => {b:}
-        p b #=> 0
-        ```
+      {b: 0, c: 1} => {b:}
+      p b #=> 0
+      ```
+
     * `in`, `true` ya da `false` döndürmesi için değiştirildi.
 
-        ```ruby
-        # sürüm 3.0
-        0 in 1 #=> false
+      ```ruby
+      # sürüm 3.0
+      0 in 1 #=> false
 
-        # sürüm 2.7
-        0 in 1 #=> NoMatchingPatternError yükseltir
-        ```
+      # sürüm 2.7
+      0 in 1 #=> NoMatchingPatternError yükseltir
+      ```
 
 * Bulma deseni eklendi. (deneysel)
-    ``` ruby
-    case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
-    in [*pre, String => x, String => y, *post]
-      p pre  #=> ["a", 1]
-      p x    #=> "b"
-      p y    #=> "c"
-      p post #=> [2, "d", "e", "f", 3]
-    end
-    ```
+
+  ``` ruby
+  case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
+  in [*pre, String => x, String => y, *post]
+    p pre  #=> ["a", 1]
+    p x    #=> "b"
+    p y    #=> "c"
+    p post #=> [2, "d", "e", "f", 3]
+  end
+  ```
 
 * Sonsuz metod tanımı eklendi.
-    ``` ruby
-    def square(x) = x * x
-    ```
+
+  ``` ruby
+  def square(x) = x * x
+  ```
+
 * `Hash#except` şimdi gömülü.
-    ``` ruby
-    h = { a: 1, b: 2, c: 3 }
-    p h.except(:a) #=> {:b=>2, :c=>3}
-    ```
+
+  ``` ruby
+  h = { a: 1, b: 2, c: 3 }
+  p h.except(:a) #=> {:b=>2, :c=>3}
+  ```
 
 * Hafıza görünümü deneysel bir özellik olarak eklendi.
+
     * Bu, uzantı kütüphaneleri arasında sayısal bir dizi ve bir biteşlem görüntüsü gibi ham bir hafıza alanını takas etmek için yeni bir C-API'ıdır.
       Uzantı kütüphaneleri ayrıca şekil, öğe biçimi, vb. içeren hafıza alanlarının üstverilerini de paylaşır.
       Bu gibi üstverileri kullanarak, uzantı kütüphaneleri çok boyutlu dizileri bile uygun şekilde paylaşabilirler.
@@ -224,11 +231,13 @@ end
   * Prensipte, Ruby 2.7'de bir uyarı yazdıran kod çalışmayacaktır.
     Ayrıntılar için [belgeye](https://www.ruby-lang.org/tr/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) bakınız.
   * Bu arada argüman yönlendirme artık sondaki argümanları da destekliyor.
+
     ``` ruby
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
     end
     ```
+
 * Desen eşleştirme (`case/in`) artık deneysel değil.
 * `$SAFE` özelliği tamamiyle silindi; şimdi sadece normal bir global değişken.
 * Geriizleme sırası Ruby 2.5'te tersine çevrildi, fakat bu iptal edildi.
