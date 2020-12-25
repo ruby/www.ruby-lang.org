@@ -25,7 +25,7 @@ Ruby 3.0.0 covers those goals by
   * RBS
   * TypeProf
 
-With above performance improvement Ruby 3.0 introduces a number of new features described below.
+With the above performance improvement, Ruby 3.0 introduces several new features described below.
 
 ## Performance
 
@@ -49,7 +49,7 @@ Ractor is an Actor-model like concurrent abstraction designed to provide a paral
 
 You can make multiple ractors and you can run them in parallel. Ractor enables you to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors is supported by exchanging messages.
 
-To limit sharing of objects, Ractor introduces several restrictions to Ruby's syntax (without multiple Ractors, there is no restriction).
+To limit the sharing of objects, Ractor introduces several restrictions to Ruby's syntax (without multiple Ractors, there is no restriction).
 
 The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and shows the "experimental feature" warning when the first `Ractor.new` occurs.
 
@@ -288,7 +288,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 
 * Pattern matching (`case`/`in`) is no longer experimental.
 * The `$SAFE` feature was completely removed; now it is a normal global variable.
-* The order of backtrace had been reversed at Ruby 2.5, and is reverted.  Now it behaves like Ruby 2.4; an error message and the line number where the exception occurs are printed first, and its callers are printed later.
+* The order of backtrace had been reversed at Ruby 2.5 and is reverted.  Now it behaves like Ruby 2.4; an error message and the line number where the exception occurs are printed first, and its callers are printed later.
 * Some standard libraries are updated.
   * RubyGems 3.2.3
   * Bundler 2.2.3
@@ -385,6 +385,6 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
 
 ## What is Ruby
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993
 and is now developed as Open Source. It runs on multiple platforms
 and is used all over the world especially for web development.
