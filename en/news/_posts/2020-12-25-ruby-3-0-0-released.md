@@ -10,7 +10,7 @@ lang: en
 
 We are pleased to announce the release of Ruby {{ release.version }}. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
-![Optcarrot 3000 graph](https://i.imgur.com/mqOkcWi.png)
+<img src='https://i.imgur.com/mqOkcWi.png' alt='Optcarrot 3000 frames' width='100%' />
 
 With [Optcarrot benchmark](https://github.com/mame/optcarrot), which measures single thread performance based on NES's game emulation workload, it achieved 3x faster performance than Ruby 2.0! <details>These were measured at the environment written in https://benchmark-driver.github.io/hardware.html. [8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) was used as Ruby 3.0. It may not be 3x faster depending on your environment or benchmark.</details>
 
@@ -250,7 +250,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 * Pasting long code to IRB is 53 times faster than bundled with Ruby 2.7.0. For example, the time required to paste [this sample code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) goes from 11.7 seconds to 0.22 seconds.
 
 
-<video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
+<video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
   <source src="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.mp4" type="video/mp4">
 </video>
 
@@ -356,7 +356,7 @@ since Ruby 2.7.0!
 
 > Ruby3.0 is a milestone. The language is evolved, keeping compatibility. But it's not the end. Ruby will keep progressing, and become even greater. Stay tuned! --- Matz
 
-Please try Ruby {{ release.version }}, and give us any feedback!
+Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
 
 ## Download
 

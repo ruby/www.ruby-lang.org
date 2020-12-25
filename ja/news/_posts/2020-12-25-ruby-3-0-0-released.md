@@ -12,9 +12,9 @@ Ruby 3.0系初のリリースである、Ruby {{ release.version }} が公開さ
 
 これまで、Ruby3に向けてパフォーマンスの改善、並行処理、静的解析という3つの目標を掲げて、活発に開発が行われてきました。特にパフォーマンスの改善については、[Ruby 3x3](https://blog.heroku.com/ruby-3-by-3) として「Ruby3はRuby2の3倍速くする」ことを目指してきました。
 
-![Optcarrot 3000 graph](https://i.imgur.com/mqOkcWi.png)
+<img src='https://i.imgur.com/mqOkcWi.png' alt='Optcarrot 3000 frames' width='100%' />
 
-Ruby 3.0では開発の指標の一つとしてきた[Optcarotベンチマーク](https://github.com/mame/optcarrot)で3倍を達成するとともに、以下のような取り組みが行われています。<details>These were measured at the environment written in https://benchmark-driver.github.io/hardware.html. [8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) was used as Ruby 3.0. It may not be 3x faster depending on your environment or benchmark.</details>
+Ruby 3.0では開発の指標の一つとしてきた[Optcarotベンチマーク](https://github.com/mame/optcarrot)で3倍を達成するとともに、以下のような取り組みが行われています。<details>https://benchmark-driver.github.io/hardware.html に書かれている環境で計測されました。 [8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) が Ruby 3.0 として使われています. 環境やベンチマークによっては3倍にならないかもしれません。</details>
 
 
 Ruby 3 では以下の目標を達成しました。
@@ -251,7 +251,7 @@ end
 
 * IRB への長いコードの貼り付けは、Ruby 2.7.0 にバンドルされているものと比較して 53 倍の速さになります。例えば、[このサンプルコード](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b)の貼り付けに要する時間は、11.7 秒から 0.22 秒になります。
 
-<video autoplay="autoplay" controls="controls" muted="muted" width="576" height="259" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
+<video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
   <source src="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.mp4" type="video/mp4">
 </video>
 
