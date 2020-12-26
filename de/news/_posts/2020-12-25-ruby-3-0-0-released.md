@@ -23,7 +23,7 @@ Threads anhand der Emulation eines NES-Spiels misst, erreichte Ruby 3
 die dreifache Performanz von Ruby 2.0! <details>Dies wurde mit der
 unter [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html)
 beschriebenen Umgebung mit
-[8c510e4095](http://github.com/ruby/ruby/commit/8c510e4095) als Ruby 3.0 gemessen.
+[8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) als Ruby 3.0 gemessen.
 Möglicherweise ist es in Ihrer Umgebung oder Ihrem Benchmark nicht drei mal so schnell.</details>
 
 Ruby 3.0.0 erreicht diese Ziel durch die folgenden Maßnahmen:
