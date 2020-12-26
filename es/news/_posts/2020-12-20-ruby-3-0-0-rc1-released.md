@@ -14,7 +14,7 @@ desempeño.
 
 ## Análisis Estático
 
-###RBS
+### RBS
 
 RBS es un lenguaje para describir los tipos de los programas Ruby.
 
@@ -137,7 +137,7 @@ require 'prime'
 # n.prime? con enteros enviados en r1, r2 que corren en paralelo
 r1, r2 = *(1..2).map do
   Ractor.new do
-    n = Ractor.recv
+    n = Ractor.receive
     n.prime?
   end
 end
@@ -200,6 +200,7 @@ end
 ## Otras características notables
 
 * El reconocimiento de patrones en una línea se ha rediseñado (experimental)
+
   * se añade `=>`.  Puede usarse como una asignación al lado derecho.
 
     ```ruby
@@ -230,7 +231,7 @@ end
     p post #=> [2, "d", "e", "f", 3]
   end
   ```
-* El reconocimiento de patrones (`case/in`) ya no es experimental.
+* El reconocimiento de patrones (`case`/`in`) ya no es experimental.
 
 * Se agrega una definición de métodos que no requiere `end`.
 
@@ -273,6 +274,7 @@ end
   funcionará.  Ver detalles en
   [este documento](https://www.ruby-lang.org/es/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/).
   * Por cierto, el re-envío de argumentos ahora soporta argumentos principales.
+
     ``` ruby
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
