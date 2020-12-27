@@ -8,8 +8,8 @@ lang: es
 ---
 
 Nos complace anunciar la publicación de Ruby 3.0.0. Desde el 2015 desarrollamos
-Ruby 3 con esfuerzo, cuya meta es desempeño, concurrencia y tipado.  Especialmente
-sobre desempeño, Matz estableció "Ruby3 será 3 veces más rápido que Ruby2"
+Ruby 3 con esfuerzo, con metas de desempeño, concurrencia y tipado.  Especialmente
+en desempeño, Matz estableció "Ruby3 será 3 veces más rápido que Ruby2"
 también conocido como [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
@@ -17,30 +17,30 @@ también conocido como [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
 Con [el punto de referencia Optcarrot](https://github.com/mame/optcarrot), que
-mide desempeño en un solo hilo con base en la carga de emulación juegos para NES,
-logra un desempeño 3 veces más rápido que Ruby 2.0!
+mide desempeño con un solo hilo de ejecución con la carga de emular juegos para NES,
+¡logra un desempeño 3 veces más rápido que Ruby 2.0!
 <details>Se midió en el ambiente anotado en [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html).
 La [contribución 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) se usó
-como Ruby 3.0. Podría no ser 3 veces más rápido dependiendo de su ambiente y
-del punto de referencia.</details>
+como Ruby 3.0. Podría no resultar 3 veces más rápido en de su ambiente o con otros
+punto de referencia.</details>
 
-Ruby 3.0.0 cubre estas metas asi
+Ruby 3.0.0 cubre esas metas asi
 * Desempeño
   * MJIT
 * Concurrencia
   * Ractor
-  * Fiber Scheduler
+  * Planificador de fibras (__Fiber Scheduler__)
 * Tipado (Análisis Estático)
   * RBS
   * TypeProf
 
-Con la mejora en desempeño descrita, Ruby 3.0 introduce diversas
+Con la mejora en desempeño mencionada, Ruby 3.0 introduce diversas
 características nuevas que se describen a continuación.
 
 ## Desempeño
 
-> Cuando declaré primero "Ruby3x3" en la charla fundamental de la conferencia,
-muchos, incluso miembros del equipo nuclear sintieron "Matz está exagerando".
+> Cuando mencioné "Ruby3x3" en la charla principal de una conferencia,
+muchos, incluso miembros del equipo nuclear, sintieron "Matz está exagerando".
 De hecho, yo también lo sentí así.  Pero lo hicimos. Me honra ver que el
 equipo nuclear en realidad logró hacer que Ruby 3.0 fuera tres veces más rápido
 que Ruby 2.0 (con algunos puntos de referencia).  -- Matz
@@ -52,24 +52,23 @@ Se implementaron muchas mejoras en MJIT. Ver detalles en NEWS.
 Con Ruby 3.0, el compilador justo a tiempo (JIT) se supone que da mejoras en
 desempeño en cargas de trabajo limitadas, como juegos
 ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)),
-Inteligencia Artificila([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)),
+Inteligencia Artificila([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html))
 o cualquier aplicación que emplee la mayoría del tiempo llamando unos pocos métodos
 muchas veces.
 
 Aunque Ruby 3.0 [disminuyó significativamente el tamaño del código compilado justo a tiempo](https://twitter.com/k0kubun/status/1256142302608650244),
 aún no está listo para optimizar cargas de trabajo como aplicaciones Rails, que
-suelen emplear el tiempo en muchos métodos, y por eso sufren de desatinos del
-i-cache exacerbados por el JIT.  Esté pendiente de Ruby 3.1 que incluirá otras
+suelen emplear el tiempo en muchos métodos, y por eso sufren de demasiados desatinos
+con el i-cache debido al JIT.  Esté pendiente de Ruby 3.1 que incluirá otras
 mejoras en esta área.
 
-## Concurrencia / Paralelo
+## Concurrencia / Paralelismo
 
 > Hoy es un era de múltiples núcleos. La concurrencia es muy importante.
 Con Ractor, junto con fibras asincronas, Ruby será un lenguaje concurrente
 real --- Matz
 
 ### Ractor (experimental)
-
 
 Un Ractor es una abstracción de concurrencia al estilo Actor-modelo,
 diseñada para brindar una forma de ejecución en paralelo sin
@@ -147,7 +146,7 @@ Los métodos y clases que se soportan en el momento son:
   `#wait_readable`, `#gets`, `#puts` y así sucesivamente).
 - `IO#select` *no es soportado*.
 
-Este programa de ejemlo realizará varias peticiones HTTP concurrentemente:
+Este programa de ejemplo realizará varias peticiones HTTP concurrentemente:
 
 ``` ruby
 require 'async'
@@ -172,8 +171,8 @@ que pueden soportar los mismos ganchos no-bloqueantes.
 
 ## Análisis Estático
 
-> 2010s fue un tiempo de lenguajes de programación tipados estaticamente.
-Ruby busca el futuro con chequeo de tipos estáticos, sino declaración de tipos,
+> La decada del 2010 fue de lenguajes de programación tipados estaticamente.
+Ruby busca el futuro con chequeo de tipos estáticos, sin declaración de tipos pero
 usando interpretación abstracta. RBS & TypeProf son los primeros pasos
 hacia el futuro.  Vendrán más pasos. --- Matz
 
@@ -265,7 +264,7 @@ Ver detalles en [la documentación de TypeProf](https://github.com/ruby/typeprof
 y en [las demostraciones](https://github.com/ruby/typeprof/blob/master/doc/demo.md).
 
 TypeProf es experimental y aún no es una herramienta madura, sólo soporta un
-subconjunto del lenguaje Ruby, y la detección de errores de tipos es limitada.
+subconjunto del lenguaje Ruby y la detección de errores de tipos es limitada.
 Pero está creciendo rapidamente para mejorar la cobertura de las
 características del lenguaje, el desempeño del análisis y la usabilidad.
 Toda retroalimentación es bienvenida.
@@ -343,7 +342,6 @@ Toda retroalimentación es bienvenida.
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
   <source src="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.mp4" type="video/mp4">
 </video>
-
 
 * A IRB se le ha añadido la orden `measure`. Permite una medición sencilla del tiempo
   de ejecución.
