@@ -118,17 +118,6 @@ module Jekyll
     end
   end
 
-  class Document
-
-    def lang
-      data["lang"]
-    end
-
-    def title
-      data["title"]
-    end
-  end
-
   class GenerateNews < Generator
 
     safe true
@@ -144,7 +133,8 @@ module Jekyll
       end
 
       site.posts.docs.each do |post|
-        posts[post.lang][post.date.year][post.date.month] << post
+        lang = post.data["lang"]
+        posts[lang][post.date.year][post.date.month] << post
       end
 
       posts.each do |lang, years|
