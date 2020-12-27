@@ -6,12 +6,15 @@ module Jekyll
   module News
     class ArchivePage < Page
 
-      def initialize(site, base, layout, lang, posts)
+      def initialize(site, base, subdir, layout, lang, posts)
         @site = site
         @base = base
-
         @lang = lang
-        @dir  = File.join(@lang, news_dir)
+        @dir  = if subdir
+                  File.join(@lang, news_dir, subdir)
+                else
+                  File.join(@lang, news_dir)
+                end
         @name = "index.html"
 
         @locales = @site.data["locales"][@lang]["news"] ||
@@ -47,11 +50,11 @@ module Jekyll
       LAYOUT = "news_archive_month.html"
 
       def initialize(site, base, lang, year, month, posts)
-        super(site, base, LAYOUT, lang, posts)
-
         @year  = year
         @month = month
-        @dir   = File.join(@dir, @year.to_s, "%.2d" % @month)
+        subdir = File.join(@year.to_s, "%.2d" % @month)
+
+        super(site, base, subdir, LAYOUT, lang, posts)
 
         title = @locales["monthly_archive_title"]
 
@@ -65,10 +68,10 @@ module Jekyll
       LAYOUT = "news_archive_year.html"
 
       def initialize(site, base, lang, year, posts)
-        super(site, base, LAYOUT, lang, posts)
-
         @year = year
-        @dir  = File.join(@dir, @year.to_s)
+        subdir = @year.to_s
+
+        super(site, base, subdir, LAYOUT, lang, posts)
 
         title = @locales["yearly_archive_title"]
         month_link_text = @locales["monthly_archive_link"]
@@ -94,7 +97,8 @@ module Jekyll
       MAX_POSTS = 10
 
       def initialize(site, base, lang, posts)
-        super(site, base, LAYOUT, lang, posts)
+        subdir = nil
+        super(site, base, subdir, LAYOUT, lang, posts)
 
         title = @locales["recent_news"]
         year_link_text = @locales["yearly_archive_link"]
