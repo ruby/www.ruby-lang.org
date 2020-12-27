@@ -49,15 +49,13 @@ module Jekyll
       LAYOUT = "news_archive_month.html"
 
       def initialize(site, base, lang, year, month, posts)
-        @year  = year
-        @month = month
-        subdir = File.join(@year.to_s, "%.2d" % @month)
+        subdir = File.join(year.to_s, "%.2d" % month)
 
         super(site, base, subdir, LAYOUT, lang, posts)
 
         title = @locales["monthly_archive_title"]
 
-        data["title"] = insert_date(title, @year, @month)
+        data["title"] = insert_date(title, year, month)
         data["year"]  = year
       end
     end
@@ -67,23 +65,22 @@ module Jekyll
       LAYOUT = "news_archive_year.html"
 
       def initialize(site, base, lang, year, posts)
-        @year = year
-        subdir = @year.to_s
+        subdir = year.to_s
 
         super(site, base, subdir, LAYOUT, lang, posts)
 
         title = @locales["yearly_archive_title"]
         month_link_text = @locales["monthly_archive_link"]
 
-        data["title"] = insert_date(title, @year)
-        data["year"]  = @year
+        data["title"] = insert_date(title, year)
+        data["year"]  = year
 
         months = posts.map {|post| post.date.month }.uniq
 
         # hash with url => link_text (including year) elements
         data["months"] = Hash[
           months.map {|month| "%.2d" % month }.zip(
-            months.map {|month| insert_date(month_link_text, @year, month) }
+            months.map {|month| insert_date(month_link_text, year, month) }
           )
         ]
       end
