@@ -35,12 +35,14 @@ module Jekyll
       end
 
       def insert_date(string, year, month = 0)
-        string.gsub(/%Y|%m|%-m|%B/, {
-          "%Y"  => year.to_s,
-          "%m"  => "%.2d" % month,
+        substitutions = {
+          "%Y" => year.to_s,
+          "%m" => "%.2d" % month,
           "%-m" => month.to_s,
-          "%B"  => @month_names[month]
-        })
+          "%B" => @month_names[month]
+        }
+
+        string.gsub(/%Y|%m|%-m|%B/, substitutions)
       end
     end
 
@@ -70,12 +72,12 @@ module Jekyll
         super(site, base, subdir, LAYOUT, lang, posts)
 
         title = @locales["yearly_archive_title"]
-        month_link_text = @locales["monthly_archive_link"]
 
         data["title"] = insert_date(title, year)
         data["year"]  = year
 
         months = posts.map {|post| post.date.month }.uniq
+        month_link_text = @locales["monthly_archive_link"]
 
         # hash with url => link_text (including year) elements
         data["months"] = Hash[
@@ -97,12 +99,12 @@ module Jekyll
         super(site, base, subdir, LAYOUT, lang, posts)
 
         title = @locales["recent_news"]
-        year_link_text = @locales["yearly_archive_link"]
 
         data["title"] = title
         data["posts"] = posts.last(MAX_POSTS).reverse
 
         years = posts.map {|post| post.date.year }.uniq.reverse
+        year_link_text = @locales["yearly_archive_link"]
 
         # hash with url => link_text elements
         data["years"] = Hash[
