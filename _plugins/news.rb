@@ -12,9 +12,9 @@ module Jekyll
         @site = site
         @base = base
         @dir  = if subdir
-                  File.join(lang, news_dir, subdir)
+                  File.join(lang, "news", subdir)
                 else
-                  File.join(lang, news_dir)
+                  File.join(lang, "news")
                 end
         @name = "index.html"
 
@@ -25,10 +25,6 @@ module Jekyll
 
         data["lang"]  = lang
         data["posts"] = posts.reverse
-      end
-
-      def news_dir
-        "news"
       end
 
       def locales
