@@ -9,25 +9,24 @@ module Jekyll
       def initialize(site, base, subdir, layout, lang, posts)
         @site = site
         @base = base
-        @lang = lang
         @dir  = if subdir
-                  File.join(@lang, news_dir, subdir)
+                  File.join(lang, news_dir, subdir)
                 else
-                  File.join(@lang, news_dir)
+                  File.join(lang, news_dir)
                 end
         @name = "index.html"
 
-        @locales = @site.data["locales"][@lang]["news"] ||
-                   @site.data["locales"]["en"]["news"]
+        @locales = site.data["locales"][lang]["news"] ||
+                   site.data["locales"]["en"]["news"]
 
-        @month_names = @site.data["locales"][@lang]["month_names"] ||
-                       @site.data["locales"]["en"]["month_names"]
+        @month_names = site.data["locales"][lang]["month_names"] ||
+                       site.data["locales"]["en"]["month_names"]
         @month_names = ["None"] + @month_names
 
         process(@name)
         read_yaml(File.join(base, "_layouts"), layout)
 
-        data["lang"]  = @lang
+        data["lang"]  = lang
         data["posts"] = posts.reverse
       end
 
