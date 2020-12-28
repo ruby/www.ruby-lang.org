@@ -247,7 +247,7 @@ end
   * Bundler 2.2.2
   * IRB 1.2.6
   * Reline 0.1.5
-  * Pysch 3.2.1
+  * Psych 3.2.1
   * JSON 2.4.1
   * BigDecimal 3.0.0
   * CSV 3.1.9
