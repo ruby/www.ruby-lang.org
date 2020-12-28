@@ -6,7 +6,7 @@ module Jekyll
   module News
     class ArchivePage < Page
 
-      def initialize(site, base, subdir, layout, lang, posts)
+      def initialize(site, base, subdir, lang, posts)
         @site = site
         @base = base
         @lang = lang
@@ -25,7 +25,7 @@ module Jekyll
         @month_names = ["None"] + @month_names
 
         process(@name)
-        read_yaml(File.join(base, "_layouts"), layout)
+        @data ||= {}
 
         data["lang"]  = @lang
         data["posts"] = posts.reverse
@@ -54,10 +54,11 @@ module Jekyll
         @month = month
         subdir = File.join(@year.to_s, "%.2d" % @month)
 
-        super(site, base, subdir, LAYOUT, lang, posts)
+        super(site, base, subdir, lang, posts)
 
         title = @locales["monthly_archive_title"]
 
+        data["layout"] ||= "news_archive_month"
         data["title"] = insert_date(title, @year, @month)
         data["year"]  = year
       end
@@ -71,11 +72,12 @@ module Jekyll
         @year = year
         subdir = @year.to_s
 
-        super(site, base, subdir, LAYOUT, lang, posts)
+        super(site, base, subdir, lang, posts)
 
         title = @locales["yearly_archive_title"]
         month_link_text = @locales["monthly_archive_link"]
 
+        data["layout"] ||= "news_archive_year"
         data["title"] = insert_date(title, @year)
         data["year"]  = @year
 
@@ -98,11 +100,12 @@ module Jekyll
 
       def initialize(site, base, lang, posts)
         subdir = nil
-        super(site, base, subdir, LAYOUT, lang, posts)
+        super(site, base, subdir, lang, posts)
 
         title = @locales["recent_news"]
         year_link_text = @locales["yearly_archive_link"]
 
+        data["layout"] ||= "news"
         data["title"] = title
         data["posts"] = posts.last(MAX_POSTS).reverse
 
