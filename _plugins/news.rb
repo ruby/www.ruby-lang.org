@@ -51,8 +51,6 @@ module Jekyll
 
     class MonthlyArchive < ArchivePage
 
-      LAYOUT = "news_archive_month.html"
-
       def initialize(site, base, lang, year, month, posts)
         subdir = File.join(year.to_s, "%.2d" % month)
 
@@ -67,8 +65,6 @@ module Jekyll
     end
 
     class YearlyArchive < ArchivePage
-
-      LAYOUT = "news_archive_year.html"
 
       def initialize(site, base, lang, year, posts)
         subdir = year.to_s
@@ -94,8 +90,6 @@ module Jekyll
     end
 
     class Index < ArchivePage
-
-      LAYOUT = "news.html"
 
       MAX_POSTS = 10
 
