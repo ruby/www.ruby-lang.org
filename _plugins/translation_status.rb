@@ -60,7 +60,7 @@ module Jekyll
 
       def short_name
         if name.size > POST_DISPLAY_LENGTH
-          name[0...POST_DISPLAY_LENGTH - 3] + "..."
+          "#{name[0...POST_DISPLAY_LENGTH - 3]}..."
         else
           name
         end
@@ -115,7 +115,7 @@ module Jekyll
           categories[lang].each do |post|
             next if too_old(post.date)
 
-            name = post.url.gsub(%r(\A/#{lang}/news/), "")
+            name = post.url.gsub(%r{\A/#{lang}/news/}, "")
             @posts[name].translations << lang
             @posts[name].security = true  if post.data["tags"].include?("security")
           end
