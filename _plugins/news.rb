@@ -8,9 +8,8 @@ module Jekyll
 
       attr_reader :lang
 
-      def initialize(site, base, subdir, lang, posts)
+      def initialize(site, subdir, lang, posts)
         @site = site
-        @base = base
         @dir  = if subdir
                   File.join(lang, "news", subdir)
                 else
@@ -51,10 +50,10 @@ module Jekyll
 
     class MonthlyArchive < ArchivePage
 
-      def initialize(site, base, lang, year, month, posts)
+      def initialize(site, lang, year, month, posts)
         subdir = File.join(year.to_s, "%.2d" % month)
 
-        super(site, base, subdir, lang, posts)
+        super(site, subdir, lang, posts)
 
         title = locales["monthly_archive_title"]
 
@@ -66,10 +65,10 @@ module Jekyll
 
     class YearlyArchive < ArchivePage
 
-      def initialize(site, base, lang, year, posts)
+      def initialize(site, lang, year, posts)
         subdir = year.to_s
 
-        super(site, base, subdir, lang, posts)
+        super(site, subdir, lang, posts)
 
         title = locales["yearly_archive_title"]
 
@@ -93,9 +92,9 @@ module Jekyll
 
       MAX_POSTS = 10
 
-      def initialize(site, base, lang, posts)
+      def initialize(site, lang, posts)
         subdir = nil
-        super(site, base, subdir, lang, posts)
+        super(site, subdir, lang, posts)
 
         title = locales["recent_news"]
 
@@ -138,7 +137,6 @@ module Jekyll
       posts.each do |lang, years|
         index = News::Index.new(
           site,
-          site.source,
           lang,
           years.values.map(&:values).flatten
         )
@@ -148,7 +146,6 @@ module Jekyll
         years.each do |year, months|
           yearly_archive = News::YearlyArchive.new(
             site,
-            site.source,
             lang,
             year,
             months.values.flatten
@@ -159,7 +156,6 @@ module Jekyll
           months.each do |month, posts_for_month|
             monthly_archive = News::MonthlyArchive.new(
               site,
-              site.source,
               lang,
               year,
               month,
