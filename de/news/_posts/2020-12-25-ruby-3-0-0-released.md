@@ -380,7 +380,9 @@ willkommen.
     ```
 
 * Musterabgleiche (`case`/`in`) sind nicht länger experimentell.
-  * Siehe dieses [Musterabgleich Dokument](https://github.com/ruby/ruby/blob/ruby_3_0/doc/syntax/pattern_matching.rdoc) für weitere Details.
+  * Siehe die
+    [Pattern-Matching-Dokumentation](https://github.com/ruby/ruby/blob/ruby_3_0/doc/syntax/pattern_matching.rdoc)
+    für weitere Informationen.
 * Die Besonderheiten von `$SAFE` wurden vollständig entfernt. Es
   handelt sich nun um eine normale globale Variable.
 * In Ruby 2.5 war die Reihenfolge der Backtraces umgekehrt worden.
