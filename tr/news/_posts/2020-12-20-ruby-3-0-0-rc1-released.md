@@ -238,7 +238,7 @@ end
     end
     ```
 
-* Desen eşleştirme (`case/in`) artık deneysel değil.
+* Desen eşleştirme (`case`/`in`) artık deneysel değil.
 * `$SAFE` özelliği tamamiyle silindi; şimdi sadece normal bir global değişken.
 * Geriizleme sırası Ruby 2.5'te tersine çevrildi, fakat bu iptal edildi.
   Şimdi Ruby 2.4'teki gibi bir davranış söz konusu; hata mesajı ve istisnanın meydana geldiği satır numarası ilk olarak yazdırılır, daha sonra ise çağırıcıları yazdırılır.

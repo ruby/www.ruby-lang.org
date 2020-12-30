@@ -220,7 +220,7 @@ end
     end
     ```
 
-* Pattern matching (`case/in`) is no longer experimental.
+* Pattern matching (`case`/`in`) is no longer experimental.
 * The `$SAFE` feature was completely removed; now it is a normal global variable.
 * The order of backtrace had been reversed at Ruby 2.5, and is reverted.  Now it behaves like Ruby 2.4; an error message and the line number where the exception occurs are printed first, and its callers are printed later.
 * Some standard libraries are updated.

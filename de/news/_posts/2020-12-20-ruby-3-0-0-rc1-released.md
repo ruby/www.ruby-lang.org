@@ -272,7 +272,7 @@ end
       send(:"do_#{ meth }", ...)
     end
     ```
-* Musterabgleiche (`case/in`) sind nicht länger experimentell.
+* Musterabgleiche (`case`/`in`) sind nicht länger experimentell.
 * Die Besonderheiten von `$SAFE` wurden vollständig entfernt. Es
   handelt sich nun um eine normale globale Variable.
 * In Ruby 2.5 war die Reihenfolge der Backtraces umgekehrt worden.

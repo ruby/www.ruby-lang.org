@@ -286,7 +286,7 @@ TypeProf 目前是实验特性，还不够成熟。只有 Ruby 语言的一个�
     end
     ```
 
-* 模式匹配 (`case/in`) 不再是实验性特性。
+* 模式匹配 (`case`/`in`) 不再是实验性特性。
   * 详见[模式匹配文档](https://github.com/ruby/ruby/blob/ruby_3_0/doc/syntax/pattern_matching.rdoc)。
 * `$SAFE` 特性被彻底移除，现在它就是一个普通的全部常量。
 * backtrace 的顺序在 Ruby 2.5 中被颠倒，现在倒了回来。现在其行为和 2.4 一致，先打印错误信息，再以此打印其调用者。
