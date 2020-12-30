@@ -287,6 +287,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     ```
 
 * Pattern matching (`case`/`in`) is no longer experimental.
+  * See the [pattern matching documentation](https://github.com/ruby/ruby/blob/ruby_3_0/doc/syntax/pattern_matching.rdoc) for details.
 * The `$SAFE` feature was completely removed; now it is a normal global variable.
 * The order of backtraces had been reversed with Ruby 2.5; this change has been reverted.  Now backtraces behave like in Ruby 2.4: an error message and the line number where the exception occurs are printed first, and its callers are printed later.
 * Some standard libraries are updated.
