@@ -376,7 +376,7 @@ Toda retroalimentación es bienvenida.
     ```
 
 * El reconocimiento de patrones (`case`/`in`) ya no es experimental.
-  * Ver detalles en el [documento del reconocimiento de patrones](https://www.ruby-lang.org/es/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/).
+  * Ver detalles en el [documento del reconocimiento de patrones](https://github.com/ruby/ruby/blob/ruby_3_0/doc/syntax/pattern_matching.rdoc).
 
 * La característica `$SAFE` se eliminó por completo; ahora es una variable
   global normal.
