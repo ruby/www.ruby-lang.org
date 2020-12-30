@@ -16,11 +16,12 @@ module Jekyll
                 else
                   File.join(lang, "news")
                 end
-        @name = "index.html"
+
+        @basename = "index"
+        @ext      = ".html"
+        @name     = "index.html"
 
         @lang = lang
-
-        process(@name)
         @data ||= {}
 
         data["lang"]  = lang
