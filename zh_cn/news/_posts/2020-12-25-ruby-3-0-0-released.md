@@ -83,7 +83,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 该测试在 Ubuntu 20.04，Intel(R) Core(TM) i7-6700（4 核心 8 线程）下完成。测量显示其比起顺序执行，有约 3.87 倍的性能提升。
 
-详见 [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md)。
+详见 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html)。
 
 ### Fiber 调度器
 

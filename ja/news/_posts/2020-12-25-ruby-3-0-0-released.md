@@ -87,7 +87,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 結果は Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads) で実行したものになります。逐次実行したときよりも、並列化によって3.87倍の高速化していることがわかります。
 
 
-より詳細は、[doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) をご覧ください。
+より詳細は、[doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) をご覧ください。
 
 ### Fiber Scheduler
 
