@@ -381,7 +381,7 @@ willkommen.
 
 * Musterabgleiche (`case`/`in`) sind nicht länger experimentell.
   * Siehe die
-    [Pattern-Matching-Dokumentation](https://github.com/ruby/ruby/blob/ruby_3_0/doc/syntax/pattern_matching.rdoc)
+    [Pattern-Matching-Dokumentation](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)
     für weitere Informationen.
 * Die Besonderheiten von `$SAFE` wurden vollständig entfernt. Es
   handelt sich nun um eine normale globale Variable.
