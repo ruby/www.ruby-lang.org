@@ -127,7 +127,7 @@ Dieses Ergebnis wurde gemesen auf Ubuntu 20.04, Intel(R) Core(TM)
 i7-6700 (4 Kerne, 8 Hardware-Threads). Es zeigt, dass die parallele
 Version 3,87-mal schneller ist als die sequentielle Version.
 
-Siehe [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) für weitere Details.
+Siehe [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) für weitere Details.
 
 ### Fiber Scheduler
 

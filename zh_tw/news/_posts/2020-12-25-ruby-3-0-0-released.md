@@ -83,7 +83,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 測試在 Ubuntu 20.04、Intel(R) Core(TM) i7-6700 (4 核心、8 硬體線程）下量測。並行的版本比序行的版本快 3.87 倍。
 
-參見 [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) 來了解更多。
+參見 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) 來了解更多。
 
 ### Fiber Scheduler
 
