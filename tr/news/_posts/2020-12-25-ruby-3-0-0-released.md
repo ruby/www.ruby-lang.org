@@ -103,7 +103,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 Sonuç Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 çekirdek, 8 donanım thread'i) özelliklerine sahip bir sistemde ölçülmüştür.
 Bu sonuç, paralel sürümün sırayla çalıştırılan sürümden 3,87 kez hızlı olduğunu göstermektedir.
 
-Ayrıntılar için [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md)'ye bakınız.
+Ayrıntılar için [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html)'ye bakınız.
 
 ### Fiber Zamanlayıcı
 
@@ -326,6 +326,7 @@ Herhangi bir geri bildirime çok ihtiyacımız var.
     ```
 
 * Desen eşleştirme (`case/in`) artık deneysel değil.
+  * Ayrıntılar için lütfen [desen eşleştirme belgelendirmesine](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) bakınız.
 * `$SAFE` özelliği tamamiyle silindi; şimdi sadece normal bir global değişken.
 * Geriizleme sırası Ruby 2.5'te tersine çevrildi, fakat bu iptal edildi.
   Şimdi Ruby 2.4'teki gibi bir davranış söz konusu; hata mesajı ve istisnanın meydana geldiği satır numarası ilk olarak yazdırılır, daha sonra ise çağırıcıları yazdırılır.
