@@ -23,7 +23,7 @@ RBS-Unterstützung werden mithilfe von RBS-Definitionen viel besser in
 der Lage sein, Ruby-Programme zu verstehen.
 
 Mit RBS ist es nun möglich, die Definitionen von Klassen und Modulen
-zu beschrieben: Methoden der Klasse, Instanzvariablen und ihre Typen,
+zu beschreiben: Methoden der Klasse, Instanzvariablen und ihre Typen,
 Vererbungs- und Mix-In-Beziehungen.
 
 RBS soll übliche Ruby-Idiome unterstützen und erlauben, komplexe Typen
@@ -36,7 +36,6 @@ von in RBS geschriebenen Typendefinitionen ermöglicht.
 
 Nachfolgend ein kleines Beispiel von RBS mit Klassen-, Modul- und
 Konstantendefinitionen.
-
 
 ``` rbs
 module ChatApp
@@ -52,7 +51,7 @@ module ChatApp
 end
 ```
 
-Siehe die [README des rbs-Gem](https://github.com/ruby/rbs) für weitere Informationen.
+Siehe die [README des rbs-Gems](https://github.com/ruby/rbs) für weitere Informationen.
 
 ### TypeProf
 
@@ -60,9 +59,9 @@ TypeProf ist ein Typanalysewerkzeug, das mit Ruby ausgeliefert wird.
 
 Momentan fungiert TypeProf als eine Art automatisierte Typerkennung.
 
-Es liest einfachen (nicht typenannotierten) Ruby-Code, analysiert
-welche Methoden darin definiert werden und wie sie genutzt werden, und
-generiert den Prototyp einer Typensignatur im RBS-Format.
+Es liest einfachen (nicht typenannotierten) Ruby-Code, analysiert,
+welche Methoden darin definiert werden und wie sie genutzt werden,
+und generiert den Prototyp einer Typensignatur im RBS-Format.
 
 Nachfolgend eine einfache Demonstration von TypeProf.
 
@@ -92,7 +91,7 @@ end
 ```
 
 Sie können TypeProf ausführen, indem Sie die Eingabe in der Datei
-„test.rb“ speichern und ein Kommando „typeprof test.rb“ ausführen.
+„test.rb“ speichern und das Kommando „typeprof test.rb“ ausführen.
 
 Sie können [TypeProf online ausprobieren](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (Dies führt TypeProf
 serverseitig aus, daher bitten wir um Entschuldigung, falls es ausfällt).
@@ -103,7 +102,7 @@ TypeProf ist experimentell und noch nicht recht fertig; es wird nur
 eine Untermenge der Programmiersprache Ruby unterstützt und die
 Erkennung von Typfehlern ist noch beschränkt. Es wird aber umfassend
 weiterentwickelt, um die Sprachabdeckung, die Analyseperformanz und
-die Benutzerbarkeit zu verbessern. Jegliche Rückmeldungen sind sehr
+die Benutzbarkeit zu verbessern. Jegliche Rückmeldungen sind sehr
 willkommen.
 
 ## Ractor (experimentell)
@@ -192,7 +191,7 @@ end
 
 ## Sonstige erwähnenswerte neue Features
 
-* Einzeiliger Musterabgleich wurde neu gestaltet (experimentell).
+* Einzeiliges Pattern Matching (Musterabgleich) wurde neu gestaltet (experimentell).
 
     * `=>` wurde hinzugefügt. Es funktioniert wie eine rechtsseitige Zuweisung.
 
@@ -241,7 +240,7 @@ end
 
 * Memory View wird als experimentelles Feature eingeführt.
 
-    * Dabei handelt es sich um ein neues C-API, das den Austausch roher
+    * Dabei handelt es sich um eine neue C-API, die den Austausch roher
       Speicherabschnitte, wie ein numerisches Array oder Bitmap-Bilder,
       zwischen Erweiterungsbibliotheken (_C extensions_) ermöglichen
       soll. Die Erweiterungsbibliotheken können auch die Metadaten des
@@ -255,15 +254,16 @@ end
 
 * Das Einfügen langer Code-Abschnitte in IRB ist 53-mal schneller als
   es mit Ruby 2.7.0 der Fall war. Beispielsweise reduziert sich die
-  Zeit, um [diesen Beispiel-Code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) einzufügen von 11,7 auf 0,22
-  Sekunden.
+  Zeit um [diesen Beispiel-Code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b)
+  einzufügen von 11,7 auf 0,22 Sekunden.
 
 ## Sonstige erwähnenswerte Änderungen seit 2.7
 
 * Schlüsselwortargumente werden von anderen Argumenten abgetrennt.
   * Grundsätzlich wird Code, der unter Ruby 2.7 eine Warnung erzeugte,
-    nicht mehr funktionieren. Siehe dieses [Dokument](https://www.ruby-lang.org/de/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) für weitere
-    Details.
+    nicht mehr funktionieren. Siehe dieses
+    [Dokument](https://www.ruby-lang.org/de/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)
+    für weitere Details.
   * Übrigens unterstützt Argumentweiterleitung jetzt auch vorangehende
     Argumente.
 
@@ -272,11 +272,12 @@ end
       send(:"do_#{ meth }", ...)
     end
     ```
+
 * Musterabgleiche (`case`/`in`) sind nicht länger experimentell.
-* Die Besonderheiten von `$SAFE` wurden vollständig entfernt. Es
-  handelt sich nun um eine normale globale Variable.
+* Die Besonderheiten von `$SAFE` wurden vollständig entfernt.
+  Es handelt sich nun um eine normale globale Variable.
 * In Ruby 2.5 war die Reihenfolge der Backtraces umgekehrt worden.
-  Diese Änderung ist rückgängig gemacht worden, d.h. die
+  Diese Änderung ist rückgängig gemacht worden, d. h. die
   Fehlermeldung und die Nummer der Zeile, in der der Fehler auftrat,
   werden zuerst und die Aufrufer danach ausgegeben.
 * Einige Standardbibliotheken wurden aktualisiert.
@@ -343,10 +344,10 @@ für weitere Details.
 
 {% assign release = site.data.releases | where: "version", "3.0.0-rc1" | first %}
 
-Mit diesen Änderungen wurden, [{{ release.stats.files_changed }} Dateien geändert, {{ release.stats.insertions }} Einfügungen(+), {{ release.stats.deletions }} Löschungen(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
-since Ruby 2.7.0!
+Mit diesen Änderungen wurden [{{ release.stats.files_changed }} Dateien geändert, {{ release.stats.insertions }} Einfügungen(+), {{ release.stats.deletions }} Löschungen(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
+seit Ruby 2.7.0!
 
-Bitte versuche Sie Ruby 3.0.0-rc1 und geben Sie uns Rückmeldungen!
+Bitte testen Sie Ruby 3.0.0-rc1 und geben Sie uns Rückmeldungen!
 
 ## Download
 
