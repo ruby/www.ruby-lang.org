@@ -11,7 +11,7 @@ Wir freuen uns, die Veröffentlichung von Ruby 3.0.0
 bekannt geben zu können. Seit 2015 haben wir an Ruby 3 gearbeitet,
 dessen Ziele sich so beschreiben lassen: Performanz, Nebenläufigkeit
 und Typisierung. Mit besonderem Blick auf die Performanz hatte Matz
-angekündigt: „Ruby 3 wird 3-mal so schnell sein wie Ruby 2“, ein Satz
+angekündigt: „Ruby 3 wird 3-mal so schnell sein wie Ruby 2“, ein Satz,
 der auch bekannt ist als [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
@@ -26,7 +26,8 @@ beschriebenen Umgebung mit
 [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) als Ruby 3.0 gemessen.
 Möglicherweise ist es in Ihrer Umgebung oder Ihrem Benchmark nicht drei mal so schnell.</details>
 
-Ruby 3.0.0 erreicht diese Ziel durch die folgenden Maßnahmen:
+Ruby 3.0.0 erreicht diese Ziele durch die folgenden Maßnahmen:
+
 * Performanz
   * MJIT
 * Nebenläufigkeit
@@ -58,9 +59,9 @@ Anwendungen, die den Großteil ihrer Zeit mit dem oft wiederholten Aufruf
 einiger weniger Methoden verbringen, Performanzverbesserungen
 herbeizuführen.
 
-Obwohl Ruby 3.0 [die Größe des ge-JIT-etten Codes signifikant
+Obwohl Ruby 3.0 [die Größe des ge-JIT-eten Codes signifikant
 reduziert hat](https://twitter.com/k0kubun/status/1256142302608650244) ist der JIT immer noch nicht geeignet, komplexe
-Umgebungen wie Rails zu optimieren, die so viel Zeit in so vielen
+Umgebungen wie Rails zu optimieren, die sehr viel Zeit in vielen
 verschiedenen Methoden verbringen und die daher unter Nichttreffern im
 vom JIT verwendeten i-Cache leiden. Freuen Sie sich auf Ruby 3.1 für
 weitere Verbesserungen in dieser Hinsicht.
@@ -77,25 +78,26 @@ Ractor ist eine dem Aktorenmodell ähnliche Abstraktion für
 Nebenläufigkeit, um die parallele Ausführung von Code bei
 gleichzeitiger Beachtung von Thread-Sicherheit zu ermöglichen.
 
-Sie können mehrere Raktoren anlegen und sie parallel ausführen. Ractor
+Sie können mehrere Ractors anlegen und sie parallel ausführen. Ractor
 ermöglicht es, thread-sichere parallele Programme zu schreiben, weil
-sich Raktoren normale Objekte nicht teilen können. Die Kommunikation
-zwischen Raktoren wird stattdessen über Nachrichten abgewickelt.
+sich Ractors normale Objekte nicht teilen können. Die Kommunikation
+zwischen Ractors wird stattdessen über Nachrichten abgewickelt.
 
 Um das Teilen von Objekten zu begrenzen, führt Ractor einige
-Beschränkungen für Rubys Syntax ein (die allerdings nicht eingreifen,
-wenn nicht mehrere Raktoren verwendet werden).
+Beschränkungen für Rubys Syntax ein (die allerdings nicht greifen,
+wenn nicht mehrere Ractors verwendet werden).
 
 Die Spezifikation und Implementation sind noch nicht abgeschlossen und
 können sich in Zukunft noch ändern, weshalb dieses Feature als
-experimentell markiert ist und bei Erstellung eines Raktors mit
+experimentell markiert ist und bei Erstellung eines Ractors mit
 `Ractor.new` eine entsprechende Warnung über „experimentelle Features“
 ausgegeben wird.
 
 Das nachfolgende kleine Programm misst die Ausführungszeit der
-bekannten Tak-Funktion für Benchmarks ([Tak (Funktion) -
-Wikipedia](https://de.wikipedia.org/wiki/Tak_(Funktion))), indem sie 4-mal sequentiell oder 4-mal parallel mit
-Raktoren ausgeführt wird.
+bekannten Tak-Funktion für Benchmarks
+([Tak (Funktion) - Wikipedia](https://de.wikipedia.org/wiki/Tak_(Funktion))),
+indem sie 4-mal sequentiell oder 4-mal parallel mit
+Ractors ausgeführt wird.
 
 ``` ruby
 def tarai(x, y, z) =
@@ -123,9 +125,9 @@ seq  64.560736   0.001101  64.561837 ( 64.562194)
 par  66.422010   0.015999  66.438009 ( 16.685797)
 ```
 
-Dieses Ergebnis wurde gemesen auf Ubuntu 20.04, Intel(R) Core(TM)
+Dieses Ergebnis wurde gemessen auf Ubuntu 20.04, Intel(R) Core(TM)
 i7-6700 (4 Kerne, 8 Hardware-Threads). Es zeigt, dass die parallele
-Version 3,87-mal schneller ist als die sequentielle Version.
+Version 3,87-mal so schnell ist wie die sequentielle Version.
 
 Siehe [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) für weitere Details.
 
@@ -145,7 +147,7 @@ Momentan unterstützte Klassen/Methoden:
 - `Thread#join`
 - `Kernel#sleep`
 - `Process.wait`
-- `IO#wait`, `IO#read`, `IO#write` und verwandte Methoden (z.B. `#wait_readable`, `#gets`, `#puts` usw.).
+- `IO#wait`, `IO#read`, `IO#write` und verwandte Methoden (z. B. `#wait_readable`, `#gets`, `#puts` usw.).
 - `IO#select` wird *nicht unterstützt*.
 
 Das folgende Beispielprogramm führt mehrere HTTP-Anfragen nebenläufig
@@ -169,7 +171,7 @@ Es nutzt [async](https://github.com/socketry/async), das den Event-Loop bereitst
 Event-Loop benutzt die Hooks von `Fiber#scheduler`, um `Net::HTTP`
 nicht-blockierend auszuführen. Andere Gems können diese Schnittstelle
 benutzen, um nicht-blockierende Ausführung für Ruby anzubieten und
-diese Gems können sogar mit anderen Implementierungen von Ruby (z.B.
+diese Gems können sogar mit anderen Implementierungen von Ruby (z. B.
 JRuby, TruffleRuby) interoperabel sein, da diese in der Lage sein
 sollten, dieselben nicht-blockierenden Hooks zu unterstützen.
 
@@ -226,9 +228,9 @@ TypeProf ist ein Typanalysewerkzeug, das mit Ruby ausgeliefert wird.
 
 Momentan fungiert TypeProf als eine Art automatisierte Typerkennung.
 
-Es liest einfachen (nicht typenannotierten) Ruby-Code, analysiert
-welche Methoden darin definiert werden und wie sie genutzt werden, und
-generiert den Prototyp einer Typensignatur im RBS-Format.
+Es liest einfachen (nicht typenannotierten) Ruby-Code, analysiert,
+welche Methoden darin definiert werden und wie sie genutzt werden,
+und generiert den Prototyp einer Typensignatur im RBS-Format.
 
 Nachfolgend eine einfache Demonstration von TypeProf.
 
@@ -258,23 +260,23 @@ end
 ```
 
 Sie können TypeProf ausführen, indem Sie die Eingabe in der Datei
-„test.rb“ speichern und ein Kommando „typeprof test.rb“ ausführen.
+„test.rb“ speichern und das Kommando „typeprof test.rb“ ausführen.
 
 Sie können [TypeProf online ausprobieren](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (Dies führt TypeProf
 serverseitig aus, daher bitten wir um Entschuldigung, falls es ausfällt).
 
-Siehe [die Dokumentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) und die [Demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) für Details.
+Siehe [die TypeProf-Dokumentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) und die [Demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) für Details.
 
 TypeProf ist experimentell und noch nicht recht fertig; es wird nur
 eine Untermenge der Programmiersprache Ruby unterstützt und die
 Erkennung von Typfehlern ist noch beschränkt. Es wird aber umfassend
 weiterentwickelt, um die Sprachabdeckung, die Analyseperformanz und
-die Benutzerbarkeit zu verbessern. Jegliche Rückmeldungen sind sehr
+die Benutzbarkeit zu verbessern. Jegliche Rückmeldungen sind sehr
 willkommen.
 
 ## Sonstige erwähnenswerte neue Features
 
-* Einzeiliger Musterabgleich wurde neu gestaltet (experimentell).
+* Einzeiliges Pattern Matching (Musterabgleich) wurde neu gestaltet (experimentell).
 
     * `=>` wurde hinzugefügt. Es funktioniert wie eine rechtsseitige Zuweisung.
 
@@ -323,7 +325,7 @@ willkommen.
 
 * Memory View wird als experimentelles Feature eingeführt.
 
-    * Dabei handelt es sich um ein neues C-API, das den Austausch roher
+    * Dabei handelt es sich um eine neue C-API, die den Austausch roher
       Speicherabschnitte, wie ein numerisches Array oder Bitmap-Bilder,
       zwischen Erweiterungsbibliotheken (_C extensions_) ermöglichen
       soll. Die Erweiterungsbibliotheken können auch die Metadaten des
@@ -338,8 +340,8 @@ willkommen.
 
 * Das Einfügen langer Code-Abschnitte in IRB ist 53-mal schneller als
   es mit Ruby 2.7.0 der Fall war. Beispielsweise reduziert sich die
-  Zeit, um [diesen Beispiel-Code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) einzufügen von 11,7 auf 0,22
-  Sekunden.
+  Zeit um [diesen Beispiel-Code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b)
+  einzufügen von 11,7 auf 0,22 Sekunden.
 
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
@@ -368,8 +370,9 @@ willkommen.
 
 * Schlüsselwortargumente werden von anderen Argumenten abgetrennt.
   * Grundsätzlich wird Code, der unter Ruby 2.7 eine Warnung erzeugte,
-    nicht mehr funktionieren. Siehe dieses [Dokument](https://www.ruby-lang.org/de/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) für weitere
-    Details.
+    nicht mehr funktionieren. Siehe dieses
+    [Dokument](https://www.ruby-lang.org/de/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)
+    für weitere Details.
   * Übrigens unterstützt Argumentweiterleitung jetzt auch vorangehende
     Argumente.
 
@@ -383,10 +386,10 @@ willkommen.
   * Siehe die
     [Pattern-Matching-Dokumentation](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)
     für weitere Informationen.
-* Die Besonderheiten von `$SAFE` wurden vollständig entfernt. Es
-  handelt sich nun um eine normale globale Variable.
+* Die Besonderheiten von `$SAFE` wurden vollständig entfernt.
+  Es handelt sich nun um eine normale globale Variable.
 * In Ruby 2.5 war die Reihenfolge der Backtraces umgekehrt worden.
-  Diese Änderung ist rückgängig gemacht worden, d.h. die
+  Diese Änderung ist rückgängig gemacht worden, d. h. die
   Fehlermeldung und die Nummer der Zeile, in der der Fehler auftrat,
   werden zuerst und die Aufrufer danach ausgegeben.
 * Einige Standardbibliotheken wurden aktualisiert.
@@ -451,7 +454,9 @@ willkommen.
   * syslog
   * win32ole
 
-Siehe die [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md) oder die [Commit-Logs](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}) for more details.
+Siehe die [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+oder die [Commit-Logs](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }})
+für weitere Informationen.
 
 Mit diesen Änderungen wurden [{{ release.stats.files_changed }} Dateien geändert, {{ release.stats.insertions }} Einfügungen(+), {{ release.stats.deletions }} Löschungen(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)
 seit Ruby 2.7.0!
