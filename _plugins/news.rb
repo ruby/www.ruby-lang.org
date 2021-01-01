@@ -10,6 +10,7 @@ module Jekyll
 
       def initialize(site, subdir, lang, posts)
         @site = site
+        @base = site.source
         @dir  = if subdir
                   File.join(lang, "news", subdir)
                 else
