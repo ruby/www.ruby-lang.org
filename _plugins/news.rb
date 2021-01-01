@@ -2,121 +2,150 @@
 
 require "date"
 
-module Jekyll
-  module News
-    class ArchivePage < Page
+module NewsArchivePlugin
+  class ArchivePage < Jekyll::Page
 
-      attr_reader :lang
+    attr_reader :lang
 
-      def initialize(site, base, subdir, lang, posts)
-        @site = site
-        @base = base
-        @dir  = if subdir
-                  File.join(lang, "news", subdir)
-                else
-                  File.join(lang, "news")
-                end
-        @name = "index.html"
+    def initialize(site, base, lang, posts, year = nil, month = nil)
+      @site = site
+      @base = base
+      @lang = lang
+      @year = year  if year
+      @month = month  if month
 
-        @lang = lang
+      @dir = archive_dir
+      @name = "index.html"
 
-        process(@name)
-        @data ||= {}
+      process(@name)
+      @data ||= {}
 
-        data["lang"]  = lang
-        data["posts"] = posts.reverse
-      end
-
-      def locales
-        site.data["locales"][lang]["news"] ||
-          site.data["locales"]["en"]["news"]
-      end
-
-      def month_names
-        ["None"] + (site.data["locales"][lang]["month_names"] ||
-                    site.data["locales"]["en"]["month_names"])
-      end
-
-      def insert_date(string, year, month = 0)
-        substitutions = {
-          "%Y" => year.to_s,
-          "%m" => "%.2d" % month,
-          "%-m" => month.to_s,
-          "%B" => month_names[month]
-        }
-
-        string.gsub(/%Y|%m|%-m|%B/, substitutions)
-      end
+      data["lang"] = lang
+      data["posts"] = posts.reverse
+      data["layout"] = layout
+      data["title"] = title
     end
 
-    class MonthlyArchive < ArchivePage
-
-      def initialize(site, base, lang, year, month, posts)
-        subdir = File.join(year.to_s, "%.2d" % month)
-
-        super(site, base, subdir, lang, posts)
-
-        title = locales["monthly_archive_title"]
-
-        data["layout"] ||= "news_archive_month"
-        data["title"] = insert_date(title, year, month)
-        data["year"]  = year
-      end
+    def archive_dir
+      File.join(lang, "news")
     end
 
-    class YearlyArchive < ArchivePage
-
-      def initialize(site, base, lang, year, posts)
-        subdir = year.to_s
-
-        super(site, base, subdir, lang, posts)
-
-        title = locales["yearly_archive_title"]
-
-        data["layout"] ||= "news_archive_year"
-        data["title"] = insert_date(title, year)
-        data["year"]  = year
-
-        months = posts.map {|post| post.date.month }.uniq
-        month_link_text = locales["monthly_archive_link"]
-
-        # hash with url => link_text (including year) elements
-        data["months"] = Hash[
-          months.map {|month| "%.2d" % month }.zip(
-            months.map {|month| insert_date(month_link_text, year, month) }
-          )
-        ]
-      end
+    def layout
+      raise NotImplementedError
     end
 
-    class Index < ArchivePage
+    def title
+      raise NotImplementedError
+    end
 
-      MAX_POSTS = 10
+    def locales
+      site.data["locales"][lang]["news"] ||
+        site.data["locales"]["en"]["news"]
+    end
 
-      def initialize(site, base, lang, posts)
-        subdir = nil
-        super(site, base, subdir, lang, posts)
+    def month_names
+      ["None"] + (site.data["locales"][lang]["month_names"] ||
+                  site.data["locales"]["en"]["month_names"])
+    end
 
-        title = locales["recent_news"]
+    def insert_date(string, year, month = 0)
+      substitutions = {
+        "%Y" => year.to_s,
+        "%m" => "%.2d" % month,
+        "%-m" => month.to_s,
+        "%B" => month_names[month]
+      }
 
-        data["layout"] ||= "news"
-        data["title"] = title
-        data["posts"] = posts.last(MAX_POSTS).reverse
-
-        years = posts.map {|post| post.date.year }.uniq.reverse
-        year_link_text = locales["yearly_archive_link"]
-
-        # hash with url => link_text elements
-        data["years"] = Hash[
-          years.map(&:to_s).zip(
-            years.map {|year| insert_date(year_link_text, year) }
-          )
-        ]
-      end
+      string.gsub(/%Y|%m|%-m|%B/, substitutions)
     end
   end
 
-  class GenerateNews < Generator
+  class MonthlyArchive < ArchivePage
+
+    attr_reader :year, :month
+
+    def initialize(site, base, lang, posts, year, month)
+      super
+
+      data["year"] = year
+    end
+
+    def archive_dir
+      File.join(super, year.to_s, "%.2d" % month)
+    end
+
+    def layout
+      "news_archive_month"
+    end
+
+    def title
+      insert_date(locales["monthly_archive_title"], year, month)
+    end
+  end
+
+  class YearlyArchive < ArchivePage
+
+    attr_reader :year
+
+    def initialize(site, base, lang, posts, year)
+      super
+
+      data["year"] = year
+
+      months = posts.map {|post| post.date.month }.uniq
+      month_link_text = locales["monthly_archive_link"]
+
+      # hash with url => link_text (including year) elements
+      data["months"] = Hash[
+        months.map {|month| "%.2d" % month }.zip(
+          months.map {|month| insert_date(month_link_text, year, month) }
+        )
+      ]
+    end
+
+    def archive_dir
+      File.join(super, year.to_s)
+    end
+
+    def layout
+      "news_archive_year"
+    end
+
+    def title
+      insert_date(locales["yearly_archive_title"], year)
+    end
+  end
+
+  class Index < ArchivePage
+
+    MAX_POSTS = 10
+
+    def initialize(site, base, lang, posts)
+      super
+
+      data["posts"] = posts.last(MAX_POSTS).reverse
+
+      years = posts.map {|post| post.date.year }.uniq.reverse
+      year_link_text = locales["yearly_archive_link"]
+
+      # hash with url => link_text elements
+      data["years"] = Hash[
+        years.map(&:to_s).zip(
+          years.map {|year| insert_date(year_link_text, year) }
+        )
+      ]
+    end
+
+    def layout
+      "news"
+    end
+
+    def title
+      locales["recent_news"]
+    end
+  end
+
+  class NewsArchiveGenerator < Jekyll::Generator
 
     safe true
     priority :low
@@ -136,7 +165,7 @@ module Jekyll
       end
 
       posts.each do |lang, years|
-        index = News::Index.new(
+        index = Index.new(
           site,
           site.source,
           lang,
@@ -146,24 +175,24 @@ module Jekyll
         site.pages << index
 
         years.each do |year, months|
-          yearly_archive = News::YearlyArchive.new(
+          yearly_archive = YearlyArchive.new(
             site,
             site.source,
             lang,
-            year,
-            months.values.flatten
+            months.values.flatten,
+            year
           )
 
           site.pages << yearly_archive
 
           months.each do |month, posts_for_month|
-            monthly_archive = News::MonthlyArchive.new(
+            monthly_archive = MonthlyArchive.new(
               site,
               site.source,
               lang,
+              posts_for_month,
               year,
-              month,
-              posts_for_month
+              month
             )
 
             site.pages << monthly_archive
