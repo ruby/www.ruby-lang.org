@@ -55,32 +55,39 @@ module NewsArchivePlugin
 
   class MonthlyArchive < ArchivePage
 
-    def initialize(site, base, lang, year, month, posts)
-      subdir = File.join(year.to_s, "%.2d" % month)
+    attr_reader :year, :month
 
+    def initialize(site, base, lang, year, month, posts)
+      @year = year
+      @month = month
+
+      subdir = File.join(year.to_s, "%.2d" % month)
       super(site, base, subdir, lang, posts)
 
-      title = locales["monthly_archive_title"]
-
-      data["title"] = insert_date(title, year, month)
+      data["title"] = title
       data["year"] = year
     end
 
     def layout
       "news_archive_month"
     end
+
+    def title
+      insert_date(locales["monthly_archive_title"], year, month)
+    end
   end
 
   class YearlyArchive < ArchivePage
 
-    def initialize(site, base, lang, year, posts)
-      subdir = year.to_s
+    attr_reader :year
 
+    def initialize(site, base, lang, year, posts)
+      @year = year
+
+      subdir = year.to_s
       super(site, base, subdir, lang, posts)
 
-      title = locales["yearly_archive_title"]
-
-      data["title"] = insert_date(title, year)
+      data["title"] = title
       data["year"] = year
 
       months = posts.map {|post| post.date.month }.uniq
@@ -97,6 +104,10 @@ module NewsArchivePlugin
     def layout
       "news_archive_year"
     end
+
+    def title
+      insert_date(locales["yearly_archive_title"], year)
+    end
   end
 
   class Index < ArchivePage
@@ -106,8 +117,6 @@ module NewsArchivePlugin
     def initialize(site, base, lang, posts)
       subdir = nil
       super(site, base, subdir, lang, posts)
-
-      title = locales["recent_news"]
 
       data["title"] = title
       data["posts"] = posts.last(MAX_POSTS).reverse
@@ -125,6 +134,10 @@ module NewsArchivePlugin
 
     def layout
       "news"
+    end
+
+    def title
+      locales["recent_news"]
     end
   end
 
