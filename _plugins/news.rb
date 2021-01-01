@@ -7,10 +7,12 @@ module NewsArchivePlugin
 
     attr_reader :lang
 
-    def initialize(site, base, lang, posts)
+    def initialize(site, base, lang, posts, year = nil, month = nil)
       @site = site
       @base = base
       @lang = lang
+      @year = year  if year
+      @month = month  if month
 
       @dir = archive_dir
       @name = "index.html"
@@ -63,10 +65,7 @@ module NewsArchivePlugin
     attr_reader :year, :month
 
     def initialize(site, base, lang, posts, year, month)
-      @year = year
-      @month = month
-
-      super(site, base, lang, posts)
+      super
 
       data["year"] = year
     end
@@ -89,9 +88,7 @@ module NewsArchivePlugin
     attr_reader :year
 
     def initialize(site, base, lang, posts, year)
-      @year = year
-
-      super(site, base, lang, posts)
+      super
 
       data["year"] = year
 
@@ -124,7 +121,7 @@ module NewsArchivePlugin
     MAX_POSTS = 10
 
     def initialize(site, base, lang, posts)
-      super(site, base, lang, posts)
+      super
 
       data["posts"] = posts.last(MAX_POSTS).reverse
 
