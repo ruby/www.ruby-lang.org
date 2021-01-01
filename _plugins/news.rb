@@ -25,9 +25,14 @@ module NewsArchivePlugin
       data["lang"] = lang
       data["posts"] = posts.reverse
       data["layout"] = layout
+      data["title"] = title
     end
 
     def layout
+      raise NotImplementedError
+    end
+
+    def title
       raise NotImplementedError
     end
 
@@ -64,7 +69,6 @@ module NewsArchivePlugin
       subdir = File.join(year.to_s, "%.2d" % month)
       super(site, base, subdir, lang, posts)
 
-      data["title"] = title
       data["year"] = year
     end
 
@@ -87,7 +91,6 @@ module NewsArchivePlugin
       subdir = year.to_s
       super(site, base, subdir, lang, posts)
 
-      data["title"] = title
       data["year"] = year
 
       months = posts.map {|post| post.date.month }.uniq
@@ -118,7 +121,6 @@ module NewsArchivePlugin
       subdir = nil
       super(site, base, subdir, lang, posts)
 
-      data["title"] = title
       data["posts"] = posts.last(MAX_POSTS).reverse
 
       years = posts.map {|post| post.date.year }.uniq.reverse
