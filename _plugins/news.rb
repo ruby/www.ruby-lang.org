@@ -62,7 +62,7 @@ module NewsArchivePlugin
 
     attr_reader :year, :month
 
-    def initialize(site, base, lang, year, month, posts)
+    def initialize(site, base, lang, posts, year, month)
       @year = year
       @month = month
 
@@ -88,7 +88,7 @@ module NewsArchivePlugin
 
     attr_reader :year
 
-    def initialize(site, base, lang, year, posts)
+    def initialize(site, base, lang, posts, year)
       @year = year
 
       super(site, base, lang, posts)
@@ -182,8 +182,8 @@ module NewsArchivePlugin
             site,
             site.source,
             lang,
-            year,
-            months.values.flatten
+            months.values.flatten,
+            year
           )
 
           site.pages << yearly_archive
@@ -193,9 +193,9 @@ module NewsArchivePlugin
               site,
               site.source,
               lang,
+              posts_for_month,
               year,
-              month,
-              posts_for_month
+              month
             )
 
             site.pages << monthly_archive
