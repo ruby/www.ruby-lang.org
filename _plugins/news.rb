@@ -22,7 +22,7 @@ module NewsArchivePlugin
       process(@name)
       @data ||= {}
 
-      data["lang"]  = lang
+      data["lang"] = lang
       data["posts"] = posts.reverse
     end
 
@@ -59,7 +59,7 @@ module NewsArchivePlugin
 
       data["layout"] ||= "news_archive_month"
       data["title"] = insert_date(title, year, month)
-      data["year"]  = year
+      data["year"] = year
     end
   end
 
@@ -74,7 +74,7 @@ module NewsArchivePlugin
 
       data["layout"] ||= "news_archive_year"
       data["title"] = insert_date(title, year)
-      data["year"]  = year
+      data["year"] = year
 
       months = posts.map {|post| post.date.month }.uniq
       month_link_text = locales["monthly_archive_link"]
