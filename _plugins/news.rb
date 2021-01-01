@@ -24,6 +24,11 @@ module NewsArchivePlugin
 
       data["lang"] = lang
       data["posts"] = posts.reverse
+      data["layout"] = layout
+    end
+
+    def layout
+      raise NotImplementedError
     end
 
     def locales
@@ -57,9 +62,12 @@ module NewsArchivePlugin
 
       title = locales["monthly_archive_title"]
 
-      data["layout"] ||= "news_archive_month"
       data["title"] = insert_date(title, year, month)
       data["year"] = year
+    end
+
+    def layout
+      "news_archive_month"
     end
   end
 
@@ -72,7 +80,6 @@ module NewsArchivePlugin
 
       title = locales["yearly_archive_title"]
 
-      data["layout"] ||= "news_archive_year"
       data["title"] = insert_date(title, year)
       data["year"] = year
 
@@ -86,6 +93,10 @@ module NewsArchivePlugin
         )
       ]
     end
+
+    def layout
+      "news_archive_year"
+    end
   end
 
   class Index < ArchivePage
@@ -98,7 +109,6 @@ module NewsArchivePlugin
 
       title = locales["recent_news"]
 
-      data["layout"] ||= "news"
       data["title"] = title
       data["posts"] = posts.last(MAX_POSTS).reverse
 
@@ -111,6 +121,10 @@ module NewsArchivePlugin
           years.map {|year| insert_date(year_link_text, year) }
         )
       ]
+    end
+
+    def layout
+      "news"
     end
   end
 
