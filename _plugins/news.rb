@@ -7,17 +7,13 @@ module NewsArchivePlugin
 
     attr_reader :lang
 
-    def initialize(site, base, subdir, lang, posts)
+    def initialize(site, base, lang, posts)
       @site = site
       @base = base
-      @dir  = if subdir
-                File.join(lang, "news", subdir)
-              else
-                File.join(lang, "news")
-              end
-      @name = "index.html"
-
       @lang = lang
+
+      @dir = archive_dir
+      @name = "index.html"
 
       process(@name)
       @data ||= {}
@@ -26,6 +22,10 @@ module NewsArchivePlugin
       data["posts"] = posts.reverse
       data["layout"] = layout
       data["title"] = title
+    end
+
+    def archive_dir
+      File.join(lang, "news")
     end
 
     def layout
@@ -66,10 +66,13 @@ module NewsArchivePlugin
       @year = year
       @month = month
 
-      subdir = File.join(year.to_s, "%.2d" % month)
-      super(site, base, subdir, lang, posts)
+      super(site, base, lang, posts)
 
       data["year"] = year
+    end
+
+    def archive_dir
+      File.join(super, year.to_s, "%.2d" % month)
     end
 
     def layout
@@ -88,8 +91,7 @@ module NewsArchivePlugin
     def initialize(site, base, lang, year, posts)
       @year = year
 
-      subdir = year.to_s
-      super(site, base, subdir, lang, posts)
+      super(site, base, lang, posts)
 
       data["year"] = year
 
@@ -102,6 +104,10 @@ module NewsArchivePlugin
           months.map {|month| insert_date(month_link_text, year, month) }
         )
       ]
+    end
+
+    def archive_dir
+      File.join(super, year.to_s)
     end
 
     def layout
@@ -118,8 +124,7 @@ module NewsArchivePlugin
     MAX_POSTS = 10
 
     def initialize(site, base, lang, posts)
-      subdir = nil
-      super(site, base, subdir, lang, posts)
+      super(site, base, lang, posts)
 
       data["posts"] = posts.last(MAX_POSTS).reverse
 
