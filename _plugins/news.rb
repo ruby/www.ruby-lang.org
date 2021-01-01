@@ -2,9 +2,8 @@
 
 require "date"
 
-module Jekyll
-  module News
-    class ArchivePage < Page
+module NewsArchivePlugin
+    class ArchivePage < Jekyll::Page
 
       attr_reader :lang
 
@@ -114,9 +113,8 @@ module Jekyll
         ]
       end
     end
-  end
 
-  class GenerateNews < Generator
+  class NewsArchiveGenerator < Jekyll::Generator
 
     safe true
     priority :low
@@ -136,7 +134,7 @@ module Jekyll
       end
 
       posts.each do |lang, years|
-        index = News::Index.new(
+        index = Index.new(
           site,
           site.source,
           lang,
@@ -146,7 +144,7 @@ module Jekyll
         site.pages << index
 
         years.each do |year, months|
-          yearly_archive = News::YearlyArchive.new(
+          yearly_archive = YearlyArchive.new(
             site,
             site.source,
             lang,
@@ -157,7 +155,7 @@ module Jekyll
           site.pages << yearly_archive
 
           months.each do |month, posts_for_month|
-            monthly_archive = News::MonthlyArchive.new(
+            monthly_archive = MonthlyArchive.new(
               site,
               site.source,
               lang,
