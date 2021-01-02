@@ -7,9 +7,9 @@ module NewsArchivePlugin
 
     attr_reader :lang
 
-    def initialize(site, base, lang, posts, year = nil, month = nil)
+    def initialize(site, lang, posts, year = nil, month = nil)
       @site = site
-      @base = base
+      @base = site.source
       @lang = lang
       @year = year  if year
       @month = month  if month
@@ -64,7 +64,7 @@ module NewsArchivePlugin
 
     attr_reader :year, :month
 
-    def initialize(site, base, lang, posts, year, month)
+    def initialize(site, lang, posts, year, month)
       super
 
       data["year"] = year
@@ -87,7 +87,7 @@ module NewsArchivePlugin
 
     attr_reader :year
 
-    def initialize(site, base, lang, posts, year)
+    def initialize(site, lang, posts, year)
       super
 
       data["year"] = year
@@ -120,7 +120,7 @@ module NewsArchivePlugin
 
     MAX_POSTS = 10
 
-    def initialize(site, base, lang, posts)
+    def initialize(site, lang, posts)
       super
 
       data["posts"] = posts.last(MAX_POSTS).reverse
@@ -167,7 +167,6 @@ module NewsArchivePlugin
       posts.each do |lang, years|
         index = Index.new(
           site,
-          site.source,
           lang,
           years.values.map(&:values).flatten
         )
@@ -177,7 +176,6 @@ module NewsArchivePlugin
         years.each do |year, months|
           yearly_archive = YearlyArchive.new(
             site,
-            site.source,
             lang,
             months.values.flatten,
             year
@@ -188,7 +186,6 @@ module NewsArchivePlugin
           months.each do |month, posts_for_month|
             monthly_archive = MonthlyArchive.new(
               site,
-              site.source,
               lang,
               posts_for_month,
               year,
