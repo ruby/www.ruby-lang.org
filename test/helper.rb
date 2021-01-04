@@ -24,11 +24,6 @@ def teardown_tempdir
   FileUtils.rm_rf(TEMP_DIR)  if File.exist?(TEMP_DIR)
 end
 
-def create_releases_file
-  FileUtils.mkdir_p("_data")
-  FileUtils.touch("_data/releases.yml")
-end
-
 def create_file(path, content)
   raise "path must be relative"  unless Pathname.new(path).relative?
 

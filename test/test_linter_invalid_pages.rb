@@ -8,7 +8,6 @@ describe Linter do
 
   before do
     chdir_tempdir
-    create_releases_file
   end
 
   after do
