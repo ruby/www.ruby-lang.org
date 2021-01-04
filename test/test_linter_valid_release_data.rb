@@ -16,6 +16,14 @@ describe Linter do
     teardown_tempdir
   end
 
+  it "checks ok for nonexistent release data file" do
+    release_file = Pathname.new("_data/releases.yml")
+
+    message = "test setup should not create `_data/releases.yml'"
+    _(release_file.exist?).must_equal false, message
+    _(linter_output).must_equal @ok
+  end
+
   it "checks ok valid release data with corresponding post" do
     releases_content = <<~YAML
       - version: 2.7.0
