@@ -68,7 +68,11 @@ class Linter
   end
 
   def load_releases
-    releases_yaml = YAML.load_file(RELEASES_FILE) || []
+    releases_yaml = if Pathname.new(RELEASES_FILE).exist?
+                      YAML.load_file(RELEASES_FILE, fallback: [])
+                    else
+                      []
+                    end
 
     @releases = releases_yaml.map {|release_data| Release.new(release_data) }
   end
