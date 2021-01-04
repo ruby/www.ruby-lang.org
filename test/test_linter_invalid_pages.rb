@@ -125,4 +125,78 @@ describe Linter do
     _(linter_output).must_match "trailing whitespace"
     _(linter_output).must_match "blank line(s) at end of file"
   end
+
+  it "reports pages with missing lang variable" do
+    content = <<~PAGE
+      ---
+      layout: page
+      title: "Page"
+      ---
+
+      Content
+    PAGE
+
+    create_file("en/lang_variable_missing.md", content)
+    _(linter_output).must_match "missing or invalid lang variable"
+  end
+
+  it "reports pages with lang variable that is nil" do
+    content = <<~PAGE
+      ---
+      layout: page
+      title: "Page"
+      lang:
+      ---
+
+      Content
+    PAGE
+
+    create_file("en/lang_variable_nil.md", content)
+    _(linter_output).must_match "missing or invalid lang variable"
+  end
+
+  it "reports pages with lang variable that is empty" do
+    content = <<~PAGE
+      ---
+      layout: page
+      title: "Page"
+      lang: ""
+      ---
+
+      Content
+    PAGE
+
+    create_file("en/lang_variable_empty.md", content)
+    _(linter_output).must_match "missing or invalid lang variable"
+  end
+
+  it "reports pages with lang variable that has wrong type" do
+    content = <<~PAGE
+      ---
+      layout: page
+      title: "Page"
+      lang: 1
+      ---
+
+      Content
+    PAGE
+
+    create_file("en/lang_variable_wrong_type.md", content)
+    _(linter_output).must_match "missing or invalid lang variable"
+  end
+
+  it "reports pages with wrong lang variable" do
+    content = <<~PAGE
+      ---
+      layout: page
+      title: "Page"
+      lang: de
+      ---
+
+      Content
+    PAGE
+
+    create_file("en/lang_variable_wrong.md", content)
+    _(linter_output).must_match "lang variable not matching file location"
+  end
 end
