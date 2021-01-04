@@ -136,3 +136,11 @@ Rake::TestTask.new(:"test-linter") do |t|
   t.test_files = FileList['test/test_linter_*.rb']
   t.verbose = true
 end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-news-plugin") do |t|
+  t.description = "Run tests for the news archive plugin"
+  t.libs = ["test"]
+  t.test_files = FileList['test/test_plugin_news.rb']
+  t.verbose = true
+end
