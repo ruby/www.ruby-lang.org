@@ -129,7 +129,10 @@ namespace :check do
   end
 end
 
-desc "Run tests for the Linter library"
-task :"test-linter" do
-  ruby "test/test_linter.rb"
+require "rake/testtask"
+Rake::TestTask.new(:"test-linter") do |t|
+  t.description = "Run tests for the Linter library"
+  t.libs = ["test", "lib"]
+  t.test_files = ["test/test_linter.rb"]
+  t.verbose = true
 end
