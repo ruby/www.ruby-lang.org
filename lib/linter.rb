@@ -69,7 +69,7 @@ class Linter
 
   def load_releases
     releases_yaml = if Pathname.new(RELEASES_FILE).exist?
-                      YAML.load_file(RELEASES_FILE) || []
+                      YAML.load_file(RELEASES_FILE, fallback: [])
                     else
                       []
                     end

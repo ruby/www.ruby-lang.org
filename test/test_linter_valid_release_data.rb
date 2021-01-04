@@ -24,6 +24,11 @@ describe Linter do
     _(linter_output).must_equal @ok
   end
 
+  it "checks ok for empty release data file" do
+    create_file("_data/releases.yml", "")
+    _(linter_output).must_equal @ok
+  end
+
   it "checks ok valid release data with corresponding post" do
     releases_content = <<~YAML
       - version: 2.7.0
