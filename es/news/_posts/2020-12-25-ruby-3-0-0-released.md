@@ -7,10 +7,12 @@ date: 2020-12-25 00:00:00 +0000
 lang: es
 ---
 
-Nos complace anunciar la publicación de Ruby 3.0.0. Desde el 2015 desarrollamos
-Ruby 3 con esfuerzo, con metas de desempeño, concurrencia y tipado.  Especialmente
-en desempeño, Matz estableció "Ruby3 será 3 veces más rápido que Ruby2"
-también conocido como [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
+Nos complace anunciar la publicación de Ruby 3.0.0. 
+Desde el 2015 desarrollamos Ruby 3 con esfuerzo y con metas en desempeño, 
+concurrencia y tipado.
+Especialmente en desempeño, Matz estableció "Ruby3 será 3 veces más rápido 
+que Ruby2", afirmación también conocida como 
+[Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
@@ -18,11 +20,7 @@ también conocido como [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 Con [el punto de referencia Optcarrot](https://github.com/mame/optcarrot), que
 mide desempeño con un solo hilo de ejecución con la carga de emular juegos para NES,
-¡logra un desempeño 3 veces más rápido que Ruby 2.0!
-<details>Se midió en el ambiente anotado en [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html).
-La [contribución 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) se usó
-como Ruby 3.0. Podría no resultar 3 veces más rápido en de su ambiente o con otros
-punto de referencia.</details>
+¡logra un desempeño 3 veces más rápido que Ruby 2.0! <details>Se midió en el ambiente anotado en [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). La [contribución 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) se usó como Ruby 3.0. Podría no resultar 3 veces más rápido en de su ambiente o con otros punto de referencia.</details>
 
 Ruby 3.0.0 cubre esas metas asi
 * Desempeño
@@ -47,7 +45,8 @@ que Ruby 2.0 (con algunos puntos de referencia).  -- Matz
 
 ### MJIT
 
-Se implementaron muchas mejoras en MJIT. Ver detalles en NEWS.
+Se implementaron muchas mejoras en MJIT. Ver detalles en el 
+archivo [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md).
 
 Con Ruby 3.0, el compilador justo a tiempo (JIT) se supone que da mejoras en
 desempeño en cargas de trabajo limitadas, como juegos
@@ -121,8 +120,8 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 ```
 
 El resultado se midió en Ubuntu 20.04, con procesador Intel(R) Core(TM) i7-6700
-(4 núcleos, 8 hilos por hardware). Muetra que la versión paralela
-es 3.87 veces más rápido que la versión secuencial.
+(4 núcleos, 8 hilos por hardware). Muestra que la versión paralela
+es 3.87 veces más rápida que la versión secuencial.
 
 Vea más detalles en [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html).
 
@@ -130,7 +129,7 @@ Vea más detalles en [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/rac
 ## Planificador (__Scheduler__) de Fibras
 
 Se introduce `Fiber#scheduler` para interceptar operaciones que bloquean.
-Esto permite una concurrencia liviana sin cambiar el
+Esto permite contar con una concurrencia liviana sin cambiar el
 código existente. De un vistazo general y vea como funciona en
 ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc).
 
@@ -162,7 +161,8 @@ Async do
 end
 ```
 
-Usa [async](https://github.com/socketry/async) que provee un ciclo de eventos.
+Note que usa [async](https://github.com/socketry/async) que provee el 
+ciclo de eventos. 
 Este ciclo de eventos usa ganchos `Fiber#scheduler` para lograr
 un `Net::HTTP` no-bloqueante. Otras gemas pueden usar esta interfaz
 para proveer ejecución no-bloqueante para Ruby, y aquellas gemas pueden
@@ -181,14 +181,15 @@ hacia el futuro.  Vendrán más pasos. --- Matz
 RBS es un lenguaje para describir los tipos de los programas Ruby.
 
 Los verificadores de tipos, incluyendo TypeProf y otras herramientas
-que soporten RBS entenderán mejor los programas Ruby con definiciones RBS.
+que soporten RBS entenderán mejor los programas Ruby que tengan
+definiciones RBS.
 
 Usted puede escribir la definición de clases y módulos: métodos que se
 definen en la clase, variables de instancia y sus tipos, y relaciones
 de herencia/mix-in.
 
 El objetivo de RBS es soportar los patrones que comúnmente se ven
-en programas en Ruby y permitir escribir tipos avanzados incluyendo
+en programas Ruby y permitir escribir tipos avanzados incluyendo
 tipos unión, sobrecarga de métodos y genéricos. También soporta tipado
 pato (duck typing) con _tipos de interfaz_.
 
@@ -255,7 +256,7 @@ class Usuario
 end
 ```
 
-Puede ejecutar TypeProf, tras guardar el archivo de entrada como "prueba.rb" y
+Puede ejecutar TypeProf, tras guardar el archivo de entrada como "prueba.rb"
 tecleando "typeprof prueba.rb".
 
 También puede [probar TypeProf en línea](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (TypeProf corre al lado del servidor, así que ¡disculpe si no está operando!)
@@ -332,8 +333,7 @@ Toda retroalimentación es bienvenida.
     como referencia el protocolo de colchón (__buffer__ ) de Python.
 
 
-## Performance improvements
-
+## Mejoras en desempeño
 
 * Pegar código largo en IRB es 53 veces más rápido que con Ruby 2.7.0.
   Por ejemplo el tiempo requerido para pegar [este código de ejemplo](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b)
