@@ -7,11 +7,11 @@ date: 2020-12-25 00:00:00 +0000
 lang: es
 ---
 
-Nos complace anunciar la publicación de Ruby 3.0.0. 
-Desde el 2015 desarrollamos Ruby 3 con esfuerzo y con metas en desempeño, 
+Nos complace anunciar la publicación de Ruby 3.0.0.
+Desde el 2015 desarrollamos Ruby 3 con esfuerzo y con metas en desempeño,
 concurrencia y tipado.
-Especialmente en desempeño, Matz estableció "Ruby3 será 3 veces más rápido 
-que Ruby2", afirmación también conocida como 
+Especialmente en desempeño, Matz estableció "Ruby3 será 3 veces más rápido
+que Ruby2", afirmación también conocida como
 [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
@@ -45,7 +45,7 @@ que Ruby 2.0 (con algunos puntos de referencia).  -- Matz
 
 ### MJIT
 
-Se implementaron muchas mejoras en MJIT. Ver detalles en el 
+Se implementaron muchas mejoras en MJIT. Ver detalles en el
 archivo [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md).
 
 Con Ruby 3.0, el compilador justo a tiempo (JIT) se supone que da mejoras en
@@ -161,8 +161,8 @@ Async do
 end
 ```
 
-Note que usa [async](https://github.com/socketry/async) que provee el 
-ciclo de eventos. 
+Note que usa [async](https://github.com/socketry/async) que provee el
+ciclo de eventos.
 Este ciclo de eventos usa ganchos `Fiber#scheduler` para lograr
 un `Net::HTTP` no-bloqueante. Otras gemas pueden usar esta interfaz
 para proveer ejecución no-bloqueante para Ruby, y aquellas gemas pueden
