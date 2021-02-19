@@ -1,3 +1,4 @@
+"use strict";
 var Examples = {
     names: ['cities', 'greeter', 'i_love_ruby', 'hello_world'],
     random: function () {
