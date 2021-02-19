@@ -4,63 +4,80 @@ title: "Instalar Ruby"
 lang: es
 ---
 
-Se pueden utilizar varias herramientas para instalar Ruby.
-Esta página describe como usar los sistemas de gestión de paquetes y herramientas
-de terceros para instara Ruby y como compilarlo del código fuente.
+Con gestores de paquetes o herramientas de terceros, tienes varias opciones
+para instalar y gestionar Ruby.
 {: .summary}
 
+Puede que ya tengas Ruby instalado en tu computadora.
+Puedes revisar dentro de una [ventana de terminal][terminal]
+con la siguiente orden:
 
-## Escoge el método de instalación
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+Esto debería darte la información de la versión de Ruby instalada.
+
+## Escoge un método de instalación
 
 Hay varias maneras de instalar Ruby:
 
-* Si lo necesitas en un sistema tipo UNIX, la manera mas sencilla de instalarlo
-es usando el **sistema de gestión de paquetes** de la distribución.
-* Se pueden usar los **instaladores** para instalar una o varias versiones de Ruby.
-Incluso existe un instalador para Windows.
-* Los **manejadores** te ayudan a cambiar entre varias versiones de Ruby en tu
-sistema.
-* Y finalmente, puedes compilar Ruby del **código fuente**.
+* Si lo necesitas en un sistema tipo UNIX, la manera más sencilla de instalarlo
+  es usando el **sistema de gestión de paquetes** de la distribución.
+  Sin embargo, la versión de Ruby provista puede no ser la más nueva.
+* Se pueden usar los **instaladores** para instalar una o varias
+  versiones de Ruby. Incluso existe un instalador para Windows.
+* Los **gestores** te ayudan a cambiar entre varias versiones de
+  Ruby en tu sistema.
+* Y finalmente, puedes compilar Ruby desde el **código fuente**.
 
-La lista siguiente muestra los diferentes métodos de instalación para las diversas
-necesidades y plataformas.
+En Windows 10, también puedes usar el [subsistema de Windows para Linux][wsl]
+para instalar una de las distribuciones de Linux soportadas
+y usar cualquier método de instalación disponible en ese sistema.
+
+La lista siguiente muestra los diferentes métodos de instalación
+para las diversas necesidades y plataformas.
 
 * [Sistemas Gestores de Paquetes](#package-management-systems)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
-  * [Solaris, OpenIndiana](#solaris)
+  * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
+  * [OpenIndiana](#openindiana)
   * [Otras Distribuciones](#other-systems)
 * [Instaladores](#installers)
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller and Ruby Stack](#railsinstaller)
-* [Manejadores](#managers)
+  * [Ruby Stack](#rubystack)
+* [Gestores](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
   * [uru](#uru)
-* [Compilar del código](#building-from-source)
+* [Compilar desde el código](#building-from-source)
 
 
 ## Sistemas Gestores de Paquetes
 {: #package-management-systems}
 
-Si no puedes compilar tu propia versión de Ruby y tampoco quieres usar una
-herramienta de terceros, puedes usar el sistema gestor de paquetes
+Si no puedes compilar tu propia versión de Ruby y tampoco quieres usar
+una herramienta de terceros, puedes usar el sistema gestor de paquetes
 de tu sistema para instalar Ruby.
 
-La mayoría de los miembros de la comunidad de Ruby están de acuerdo en que nunca
-se debería usar un gestor de paquetes para instalar Ruby y que deberías usar
-otras herramientas. La lista de pros y contras de usar uno u otro está fuera de
-la intención de este documento, pero la razón básica es que la mayoría de los
-gestores de paquetes tienen versiones viejas de Ruby en sus repositorios oficiales.
-Si quieres usar la versión más nueva de Ruby asegúrate de que usas el nombre
-de paquete correcto o que usas las herramientas descritas mas abajo.
+Algunos miembros de la comunidad Ruby sienten que debes evitar gestores
+de paquetes para instalar Ruby y deberías en su lugar usar
+herramientas dedicadas.
 
+Es posible que algunos gestores de paquetes importantes insten versiones
+anteriores de Ruby en lugar de la ultima versión.
+Para usar la última versión de Ruby, revisa que el nombre del paquete coincida
+con el número de versión. O usa un [instalador][installers] dedicado.
 
 ### apt (Debian o Ubuntu)
 {: #apt}
@@ -71,9 +88,6 @@ Se usa de la siguiente manera:
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
-
-Al momento de escribir este documento, el paquete `ruby-full` instala la versión
-de Ruby 2.3.1, la cual es una entrega vieja pero estable en Debian y Ubuntu.
 
 
 ### yum (CentOS, Fedora, or RHEL)
@@ -86,8 +100,27 @@ Se usa de la siguiente manera:
 $ sudo yum install ruby
 {% endhighlight %}
 
-La versión instalada es típicamente la versión de Ruby disponible en el momento
-de liberación de la versión específica de cada distribución.
+La versión instalada es típicamente la versión de Ruby disponible en el
+momento de liberación de la versión específica de cada distribución.
+
+### snap (Ubuntu u otras distribuciones Linux)
+{: #snap}
+
+Snap es un gestor de paquetes desarrollado por Canonical.
+Esta disponible directamente en Ubuntu, pero snap también funciona en muchas
+otras distribuciones de Linux. Puedes usarlo así:
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+Tenemos varios canales por cada serie menor de Ruby.
+Por ejemplo, la siguiente orden cambia a Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 
 ### portage (Gentoo)
@@ -99,17 +132,15 @@ Gentoo usa el gestor de paquetes portage.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-Por defecto, este comando va a tratar de instalar las versiones 1.9 y 2.0, pero
-existen más versiones disponibles.
-Para instalar una versión específica, establece `RUBY_TARGETS` en el archivo
-`make.conf`.
-Para obtener más detalles puedes leer el [sitio de el Gento Ruby Project][gentoo-ruby].
+Para instalar una versión específica, establece `RUBY_TARGETS` en
+tu archivo `make.conf`.
+Revisa el [sitio web del Gento Ruby Project][gentoo-ruby].
 
 
 ### pacman (Arch Linux)
 {: #pacman}
 
-Arch Linux usa el gestor de paquetes llamado pacman.
+Arch Linux usa un gestor de paquetes llamado pacman.
 Para instalar Ruby, solamente tienes que hacer esto:
 
 {% highlight sh %}
@@ -122,11 +153,11 @@ Esto debería instalar la última versión estable de Ruby.
 ### Homebrew (macOS)
 {: #homebrew}
 
-Ruby 2.0 ya viene instalado en OS X El Capitan, Yosemite, Mavericks y macOS Sierra.
-OS X Mountain Lion, Lion, y Snow Leopard vienen con Ruby 1.8.7 instalado.
+Ruby 2.0 ya viene instalado en OS X El Capitan, Yosemite, Mavericks
+y macOS Sierra.
 
-Algunas personas en macOS usan [Homebrew][homebrew] como gestor de paquetes.
-Es muy fácil obtener una versión nueva de Ruby usando Homebrew:
+[Homebrew][homebrew] es un gestor de paquetes comúnmente usado.
+Es muy fácil obtener Ruby usando Homebrew:
 
 {% highlight sh %}
 $ brew install ruby
@@ -135,97 +166,137 @@ $ brew install ruby
 Este comando debería instalar la versión más actual de Ruby.
 
 
-### Ruby en Solaris y OpenIndiana
-{: #solaris}
+### FreeBSD
+{: #freebsd}
 
-Ruby 1.8.7 está disponible para Solaris 8 a 10 en
-[Sunfreeware][sunfreeware] y Ruby 1.8.7 está disponible en
-Blastwave.
-Ruby 1.9.2p0 también está disponible en [Sunfreeware][sunfreeware],
-pero esta es una versión desactualizada.
-
-Para instalar Ruby en [OpenIndiana][openindiana], por favor usa el cliente de
-[Image Packaging System (IPS)][opensolaris-pkg].
-Esto va a instalar los binarios de Ruby y RubyGems actuales directamente de
-el repositorio de la red de OpenSolaris. Es sencillo:
+FreeBSD ofrece ambos métodos para instalar Ruby; paquete o porte a partir de fuentes.
+Puedes instalr un paquete precompilados vía la herramienta pkg.
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install ruby
 {% endhighlight %}
 
-Sin embargo, las herramientas de terceros pueden ser una mejor manera de
-obtener la versión más actual de Ruby.
+Puedes instalar Ruby con el método basado en fuentes usando
+[la colección de portes][freebsd-ports-collection].
+Esto es util si quieres personalizar las opciones
+de configuración de compilación.
+
+Puedes encontrar más información sobre Ruby y su ecosistema en FreeBSD
+en el [sitio web FreeBSD Ruby Project][freebsd-ruby].
 
 
-### Otras Distribuciones
+### OpenBSD
+{: #openbsd}
+
+OpenBSD y la distribución en español adJ tienen paquetes para las tres versiones
+principales de Ruby.
+La siguiente orden te permite ver las versiones disponibles e instalar alguna:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+Puedes instalar varias versiones lado a lado, porque sus binarios tienen
+usan nombres diferentes (e.g. `ruby27`, `ruby26`).
+
+La rama `HEAD` de la colección de portes de OpenBSD puede tener la versión más
+reciente de Ruby para esta plataforma unos días despues de que sea publicada, revisa
+[el diretorio lang/ruby en la colección de portes más recientes][openbsd-current-ruby-ports].
+
+### Ruby en OpenIndiana
+{: #openindiana}
+
+Para instalar Ruby en [OpenIndiana][openindiana], por favor usa el cliente de
+Image Packaging System (IPS).
+Esto va a instalar los binarios de Ruby y RubyGems
+actuales directamente del repositorio de la red de OpenIndiana. Es sencillo:
+
+{% highlight sh %}
+$ pkg install runtime/ruby
+{% endhighlight %}
+
+Sin embargo, las herramientas de terceros pueden ser una buena manera
+de obtener la versión más actual de Ruby.
+
+
+### Otros sistemas
 {: #other-systems}
 
-En otros sistemas puedes buscar Ruby en  el repositorio de paquetes para el gestor de tu
-distribución de Linux, aunque las herramientas de terceros puede que sean tu
-mejor opción.
+En otros sistemas puedes buscar Ruby en el repositorio de paquetes
+para el gestor de tu sistema operativo.
+Alternativamente, puedes usar [instaladores de terceros][installers].
 
 
 ## Instaladores
 {: #installers}
 
-Si la versión de Ruby distribuida por el gestor de paquetes de tu sistema está
-desactualizada se puede instalar una más actual utilizando un instalador de
-terceros.
-Algunos de ellos incluso te pueden ayudar a instalar varias versiones en un solo
-sistema; los manejadores asociados pueden ayudarte a cambiarte entre las versiones
-de Ruby. Si planeas usar [RVM](#rvm) como manejador de versiones no necesitas
-usar un instalador aparte, ya viene con uno incluido.
+Si la versión de Ruby distribuida por tu sistema o por el gestor de
+paquetes de tu sistema está desactualizada se puede instalar una más actual
+utilizando un instalador de terceros.
+
+Algunos de ellos incluso te pueden ayudar a instalar varias versiones
+en el mismo sistema; los gestores asociados pueden ayudarte a cambiarte
+entre las versiones de Ruby.
+
+Si planeas usar [RVM](#rvm) como gestor de versiones no necesitas usar
+un instalador aparte, ya viene con uno incluido.
 
 
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build] es un plugin para [rbenv](#rbenv) que
-te permite compilar e instalar diferentes versiones de Ruby en directorios
-arbitrarios. ruby-build también puede ser usado como un programa independiente
-sin rbenv. Está disponible para macOS, Linux y otros sistemas operativos UNIX.
+[ruby-build][ruby-build] es un plugin para [rbenv](#rbenv) que te permite
+compilar e instalar diferentes versiones de Ruby en directorios arbitrarios.
+ruby-build también puede ser usado como un programa independiente sin rbenv.
+Está disponible para macOS, Linux y otros sistemas operativos UNIX.
 
 
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] te permite compilar e instalar diferentes versiones
-de ruby en directorios arbitrarios. Tambien tiene un hijo, [chruby](#chruby), el
-cual te ayuda a cambiarte entre diferentes versiones de Ruby.
+[ruby-install][ruby-install] te permite compilar e instalar diferentes
+versiones de ruby en directorios arbitrarios.
+[chruby](#chruby) es una herramienta complementaria usada para cambiar
+entre diferentes versiones de Ruby.
 Está disponible para macOS, Linux y otros sistemas operativos UNIX.
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
-Si usas Windows existe un excelente proyecto que te ayuda a instalar Ruby:
-[RubyInstaller][rubyinstaller]. Te da todo lo que necesitas para instalar un
-ambiente completo de Ruby en Windows.
+En Windows, [RubyInstaller][rubyinstaller] te da todo lo que necesitas
+para instalar un ambiente de desarrollo completo de Ruby.
 
 Simplemente descárgalo, ejecútalo y ¡Listo!
 
 
-### RailsInstaller y Ruby Stack
-{: #railsinstaller}
+### Ruby Stack
+{: #rubystack}
 
 Si estás instalando Ruby para usar Ruby on Rails, puedes usar los siguientes
 instaladores:
 
-* [RailsInstaller][railsinstaller],
-  utiliza RubyInstaller pero te da las herramientas extra necesarias
-  para desarrollo con Ruby on Rails. Está disponible para OS X y Windows.
-* [Bitnami Ruby Stack][rubystack],
-  te provee de un ambiente completo de desarrollo para Rails. Soporta macOS,
-  Linux, Windows, maquinas virtuales e imágenes cloud.
+* [Bitnami Ruby Stack][rubystack], provee un ambiente completo de desarrollo
+  para Rails. Soporta macOS, Linux, Windows, maquinas virtuales
+  e imágenes cloud.
 
 
-## Manejadores
+## Gestores
 {: #managers}
 
-Muchos Rubistas usan manejadores para poder usar varias versiones de Ruby.
-Tienen muchas ventajas pero no son soportados oficialmente. Sin embargo, cada
-uno tiene su respectiva comunidad, las cuales son de mucha ayuda.
+Muchos Rubistas usan gestores para poder usar varias versiones de Ruby.
+Permiten cambiar de versiones Ruby fácilmente o incluso automáticamente
+dependiendo del proyecto y otras ventajas pero no son oficialmente soportados.
+Puedes, sin embargo, encontrar apoyo dentro de cada comunidad respectiva.
 
+
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] es un gestor de versiones expandible que puede gestionar
+multiples versiones del lenguaje por proyecto.
+Necesitaras el plugin [asdf-ruby][asdf-ruby]
+(que por su parte usa [ruby-build](#ruby-build)) para instalar Ruby.
 
 ### chruby
 {: #chruby}
@@ -275,10 +346,12 @@ $ sudo make install
 Por defecto este comando va a instala Ruby en `/usr/local`. Para cambiar esto
 usa la opción `--prefix=DIR` con el script `./configure`.
 
-Usar manejadores de terceros puede ser una mejor idea, ya que las
-versiones instaladas de esta manera no serán manejadas por ninguna otra
-herramienta.
+Puedes encontrar más información acerca de compilar desde fuente en el
+[archivo Ruby README][readme].
 
+Usar herramientas de terceros o gestores de paquetes puede ser una mejor idea,
+ya que las versiones instaladas de esta manera no serán manejadas
+por ninguna otra herramienta.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
@@ -287,10 +360,17 @@ herramienta.
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
+[terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
+[download]: /en/downloads/
+[installers]: /en/documentation/installation/#installers
+[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
