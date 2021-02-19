@@ -4,7 +4,8 @@ var Page = {
         highlight: function () {
             var current_page = location.pathname;
             $("#header div.site-links a:not(.home)").each(function (i) {
-                if (current_page.indexOf($(this).attr('href')) == 0) {
+                var element_href = $(this).attr('href');
+                if (element_href && current_page.indexOf(element_href) == 0) {
                     $(this).addClass('selected');
                 }
             });
