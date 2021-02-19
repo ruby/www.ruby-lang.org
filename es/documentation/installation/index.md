@@ -10,7 +10,7 @@ para instalar y gestionar Ruby.
 
 Puede que ya tengas Ruby instalado en tu computadora.
 Puedes revisar dentro de una [ventana de terminal][terminal]
-con el siguiente comando:
+con la siguiente orden:
 
 {% highlight sh %}
 ruby -v
@@ -74,9 +74,9 @@ Algunos miembros de la comunidad Ruby sienten que debes evitar gestores
 de paquetes para instalar Ruby y deberías en su lugar usar
 herramientas dedicadas.
 
-Es posible que algunos importantes gestores de paquetes instalaran anteriores
-versiones de Ruby en lugar de la ultima versión.
-Para usar la ultima versión de Ruby, revisa que el nombre del paquete coincida
+Es posible que algunos gestores de paquetes importantes insten versiones
+anteriores de Ruby en lugar de la ultima versión.
+Para usar la última versión de Ruby, revisa que el nombre del paquete coincida
 con el número de versión. O usa un [instalador][installers] dedicado.
 
 ### apt (Debian o Ubuntu)
@@ -115,7 +115,7 @@ $ sudo snap install ruby --classic
 {% endhighlight %}
 
 Tenemos varios canales por cada serie menor de Ruby.
-Por ejemplo, el siguiente comando cambia a Ruby 2.3:
+Por ejemplo, la siguiente orden cambia a Ruby 2.3:
 
 {% highlight sh %}
 $ sudo snap switch ruby --channel=2.3/stable
@@ -140,7 +140,7 @@ Revisa el [sitio web del Gento Ruby Project][gentoo-ruby].
 ### pacman (Arch Linux)
 {: #pacman}
 
-Arch Linux usa el gestor de paquetes llamado pacman.
+Arch Linux usa un gestor de paquetes llamado pacman.
 Para instalar Ruby, solamente tienes que hacer esto:
 
 {% highlight sh %}
@@ -169,40 +169,39 @@ Este comando debería instalar la versión más actual de Ruby.
 ### FreeBSD
 {: #freebsd}
 
-FreeBSD ofrece ambos métodos; empaquetado y basado en fuente para instalar Ruby.
-Paquetes precompilados pueden ser instalados via la herramienta pkg.
+FreeBSD ofrece ambos métodos para instalar Ruby; paquete o porte a partir de fuentes.
+Puedes instalr un paquete precompilados vía la herramienta pkg.
 
 {% highlight sh %}
 $ pkg install ruby
 {% endhighlight %}
 
-Un método basado en fuente puede ser usado para instalar Ruby usando
-[Ports Collection][freebsd-ports-collection].
+Puedes instalar Ruby con el método basado en fuentes usando
+[la colección de portes][freebsd-ports-collection].
 Esto es util si quieres personalizar las opciones
 de configuración de compilación.
 
-Más información sobre Ruby y su ecosistema en FreeBSD puede ser
-encontrada en el [sitio web FreeBSD Ruby Project][freebsd-ruby].
+Puedes encontrar más información sobre Ruby y su ecosistema en FreeBSD
+en el [sitio web FreeBSD Ruby Project][freebsd-ruby].
 
 
 ### OpenBSD
 {: #openbsd}
 
-OpenBSD y sus distribuciones adJ tienen paquetes para las tres versiones
+OpenBSD y la distribución en español adJ tienen paquetes para las tres versiones
 principales de Ruby.
-El siguiente comando te permite ver las versiones disponibles e instalar alguna:
+La siguiente orden te permite ver las versiones disponibles e instalar alguna:
 
 {% highlight sh %}
 $ doas pkg_add ruby
 {% endhighlight %}
 
 Puedes instalar varias versiones lado a lado, porque sus binarios tienen
-diferentes nombres (e.g. `ruby27`, `ruby26`).
+usan nombres diferentes (e.g. `ruby27`, `ruby26`).
 
-La rama `HEAD` de la colección de puertos de OpenBSD puede tener la versión más
-reciente de Ruby para esta plataforma unos
-dias despues de que sea publicado, revisa
-[directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports].
+La rama `HEAD` de la colección de portes de OpenBSD puede tener la versión más
+reciente de Ruby para esta plataforma unos días despues de que sea publicada, revisa
+[el diretorio lang/ruby en la colección de portes más recientes][openbsd-current-ruby-ports].
 
 ### Ruby en OpenIndiana
 {: #openindiana}
@@ -220,11 +219,11 @@ Sin embargo, las herramientas de terceros pueden ser una buena manera
 de obtener la versión más actual de Ruby.
 
 
-### Otras Distribuciones
+### Otros sistemas
 {: #other-systems}
 
 En otros sistemas puedes buscar Ruby en el repositorio de paquetes
-para el gestor de tu distribución de Linux.
+para el gestor de tu sistema operativo.
 Alternativamente, puedes usar [instaladores de terceros][installers].
 
 
