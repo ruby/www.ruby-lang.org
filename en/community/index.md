@@ -23,7 +23,7 @@ to start:
   languages. If you have questions about Ruby, asking them on a mailing
   list is a great way to get answers.
 
-[Ruby Discord Server][ruby-discord]
+[Ruby Discord Server (invite link)][ruby-discord]
 : The Ruby Language Discord Server is a place where you can
   chat with other Rubyists, get help with Ruby questions, or help others.
   Discord is a good entry point for new developers and it is easy to join.
