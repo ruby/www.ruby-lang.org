@@ -24,8 +24,9 @@ to start:
   list is a great way to get answers.
 
 [Ruby Discord Server](https://discord.gg/UyQnKrT)
-: The Ruby Language Discord Server is a place where you can: chat with other other Rubyist, get help with Ruby questions or help others.
- Discord is a good entrypoint for younger developers and it's easy to join.
+: The Ruby Language Discord Server is a place where you can:
+  chat with other other Rubyist, get help with Ruby questions or help others.
+  Discord is a good entrypoint for younger developers and it's easy to join.
 
 [Ruby on IRC (#ruby)](irc://irc.freenode.net/ruby)
 : The Ruby Language IRC Channel is a wonderful way to chat with fellow
