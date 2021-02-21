@@ -14,7 +14,7 @@ CONFIG = "_config.yml"
 task default: [:build]
 
 desc "Run tests (test-linter, lint, build)"
-task test: %i[test-linter lint build]
+task test: %i[test-news-plugin test-linter lint build]
 
 desc "Build the Jekyll site"
 task :build do
