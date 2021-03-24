@@ -8,7 +8,7 @@ NOTA: Se você não conseguir se inscrever, favor acessar
 [lists.ruby-lang.org](http://lists.ruby-lang.org).
 
 Para se insrever em uma lista de e-mails, por favor envie um e-mail de
-texto puro com a seguinte mensagem no coropo (não no assunto) para o endereço
+texto puro com a seguinte mensagem no corpo (não no assunto) para o endereço
 do “controlador” automatizado:
 
     subscribe
