@@ -24,7 +24,7 @@ Se está interessado em colaborar, seguem alguns lugares para começar:
   grande jeito de conseguir respostas.
 
 [Ruby no IRC (#ruby)](irc://irc.freenode.net/ruby)
-: O canal de IRC do Ruby é um óptimo meio de comunicar com outros
+: O canal de IRC do Ruby é um ótimo meio de se comunicar com outros
   programadores de Ruby.
 
 [Núcleo do Ruby](ruby-core/)
