@@ -9,26 +9,16 @@ lang: en
 
 Ruby 2.7.2 est désormais disponible.
 
-Cette version contient des incompatiblitées intentionnelles. Les avertissement de des déprécation sont désactivé par défaut dans la 2.7.2 et supérieur. Il est possible d'activer les avertissements en spécifiant l'option -w ou -W:deprecated en ligne de commande. Veuillez regarder les sujets ci-dessous pour plus de détails.
+Cette version contient des incompatibilités intentionnelles. Les avertissements concernant les déprécations sont désactivés par défaut dans la 2.7.2 et supérieur. Il est possible d'activer les avertissements en spécifiant l'option -w ou -W:deprecated en ligne de commande. Veuillez regarder les tickets ci-dessous pour plus de détails.
 
-This release contains intentional incompatibility. Deprecation warnings are off by default on 2.7.2 and later.
-You can turn on deprecation warnings by specifying the -w or -W:deprecated option at the command-line.
-Please check the topics below for details.
+- [Ticket #17000 2.7.2 turns off deprecation warnings by default](https://bugs.ruby-lang.org/issues/17000)
+- [Ticket #16345 Don’t emit deprecation warnings by default.](https://bugs.ruby-lang.org/issues/16345)
 
-- [Ticket #17000](https://bugs.ruby-lang.org/issues/17000)
-- [Ticket #16345](https://bugs.ruby-lang.org/issues/16345)
-
-- [Feature #17000 2.7.2 turns off deprecation warnings by default](https://bugs.ruby-lang.org/issues/17000)
-- [Feature #16345 Don't emit deprecation warnings by default.](https://bugs.ruby-lang.org/issues/16345)
-
-Cette version contient la nouvelle version de webrick avec une correction conscernant la sécurité comme décrit dans l'article suivant.
-
-This release contains the new version of webrick with a security fix described in the article.
+Cette version contient la nouvelle version de webrick avec une correction concernant la sécurité comme décrit dans l'article suivant.
 
 - [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick](/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
 
-Veuillez lire les autres changement dans les logs de commits.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2) for other changes.
+Veuillez lire les autres changement dans les [logs de commit](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2).
 
 ## Téléchargements
 
@@ -64,6 +54,4 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2) for 
 
 ## Commentaire de la versionm
 
-Merci aux nombreux contributeurs, developpeurs et utilisateurs qui en remontant des rapports de bugs et contribuant ont rendu cette version possible.
-
-Thanks to the many committers, developers and users who provided bug reports and contributions that made this release possible.
+Merci aux nombreux contributeurs, développeurs et utilisateurs qui, en contribuant et en remontant des rapports de bugs, ont rendu cette version possible.

@@ -9,39 +9,23 @@ lang: en
 
 Nous sommes heureux de vous annoncer la sortie de Ruby 3.0.0-preview2.
 
-Cela introduit un certain nombre de nouvelles fonctionnalités et d'amélioration de performance.
-
-We are pleased to announce the release of Ruby 3.0.0-preview2.
-
-It introduces a number of new features and performance improvements.
+Cela introduit un certain nombre de nouvelles fonctionnalités et d'améliorations de performance.
 
 ## Analyse statique
 
-## Static Analysis
-
 ### RBS
 
-RBS est un langage qui décrit les types des programmes Ruby.
+RBS est un langage qui décrit les types de programmes Ruby.
 
-RBS is a language to describe the types of Ruby programs.
+Les vérificateurs de type, y compris TypeProf et d'autres outils prenant en charge RBS, comprendront mieux les programmes Ruby avec des définitions RBS.
 
-Les vérifications de type incluent TypeProf et d'autres outils supportant RBS qui comprennent les programmes Ruby bien mieux avec les définitions RBS.
+Vous pouvez écrire la définition des classes et des modules: les méthodes qui sont définies dans la classe, les variables d'instance et leurs types, et les relations d'héritage / mix-in.
 
-Type checkers including TypeProf and other tools supporting RBS will understand Ruby programs much better with RBS definitions.
+Le but de RBS est de prendre en charge les modèles couramment observés dans les programmes Ruby et de vous permettre d'écrire des types avancés, notamment les unions de type, les surcharges de méthode et les génériques. Il prend également en charge le duck typing avec _interface types_.
 
-Vous pouvez écrire directement la définition des classes et modules : les méthodes définis dans la classe, les variables d'instances et leurs types et les relations d'héritage/mix-in.
+Ruby 3.0 arrive avec la gemme 'rbs', qui inclue l'analyse et le traitement des définitions de type écrites en RBS.
 
-You can write down the definition of classes and modules: methods defined in the class, instance variables and their types, and inheritance/mix-in relations.
-
-Le but de RBS est de supporter les patterns communs dans les programmes Ruby et de permettre d'écrire des types avancés incluant les unions de types, la surcharge de méthode et les génériques. Cela supporte aussi le duck typing avec _interface types_.
-
-The goal of RBS is to support commonly seen patterns in Ruby programs and it allows writing advanced types including union types, method overloading, and generics. It also supports duck typing with _interface types_.
-
-Ruby 3.0 arrive avec la gem `rbs`, qui inclue l'analyse et le traitement des définitions de type écrit en RBS.
-Le code ci-dessous est un petit exemple de RBS avec une des définitions de classe, module et constante.
-
-Ruby 3.0 ships with `rbs` gem, which allows parsing and processing type definitions written in RBS.
-The following is a small example of RBS with class, module, and constant definitions.
+Le code ci-dessous est un petit exemple de RBS une classe, un module et des définitions de constantes.
 
 ```rbs
 module ChatApp
@@ -57,9 +41,7 @@ module ChatApp
 end
 ```
 
-Voir le [README de la gem rbs](https://github.com/ruby/rbs) pour plus de détails.
-
-See [README of rbs gem](https://github.com/ruby/rbs) for more detail.
+Voir le [README de la gemme rbs](https://github.com/ruby/rbs) pour plus de détails.
 
 ### TypeProf
 
@@ -112,7 +94,7 @@ Vous pouvez lancer TypeProf en sauvegadant l'entrée dans un fichier "test.rb" e
 
 You can run TypeProf by saving the input as "test.rb" and invoke a command called "typeprof test.rb".
 
-Vous pouvez aussi [essayer TypeProf en ligne](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=). (Cela lance TypeProf coté serveur, donc désolé si c'est)
+Vous pouvez aussi [essayer TypeProf en ligne](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=). (Cela lance TypeProf coté serveur, donc désolé si cela ne fonctionne pas !)
 
 You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=). (It runs TypeProf on the server side, so sorry if it is out!)
 
