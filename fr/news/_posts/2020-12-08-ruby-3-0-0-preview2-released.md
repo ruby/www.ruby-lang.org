@@ -75,6 +75,8 @@ Cela lit du code Ruby non annoté, analyse quelles méthodes sont définis, comm
 
 It reads plain (non-type-annotated) Ruby code, analyzes what methods are defined and how they are used, and generates a prototype of type signature in RBS format.
 
+Voici un exemple simple de TypeProf.
+
 Here is a simple demo of TypeProf.
 
 An example input:
@@ -114,7 +116,7 @@ Vous pouvez aussi [essayer TypeProf en ligne](https://mame.github.io/typeprof-pl
 
 You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=). (It runs TypeProf on the server side, so sorry if it is out!)
 
-Voir [la documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [les demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) pour plus de détails.
+Voir [la documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) et [les demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) pour plus de détails.
 
 See [the documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) for details.
 
@@ -228,15 +230,17 @@ end
     p post #=> [2, "d", "e", "f", 3]
   end
   ```
-- La définition sans le mot clé `end`.
+- La définition de méthode sans le mot clé `end`.
   ```ruby
   def square(x) = x * x
   ```
 - `Hash#except` est désormais intégré.
+
   ```ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
   ```
+
 - Memory view est ajoutée en tant que fonctionnalité experimentale
 
   - C'est un nouvel ensemble d'API C pour échanger une zone mémoire brute, comme un tableau de nombre ou une image bitmap, entre des bibliotheques d'extension. Les bibliotheques d'extension permettent aussi de partager les méta données de la zone mémoire qui est constituée de la forme, du format de l'élément, etc. En utilisant ce types de métadata, les librairies d'extenstion peuvent partager meme des tableau multidimensionnel de facon approprié. Cette fonctionnalité est concu en se referrant au protocol tampon de python.
@@ -278,7 +282,7 @@ end
 - Les gems suivantes sont désormais empaquetées avec Ruby.
   - rexml
   - rss
-- Les fichiers stdlib suivants sont désormais des gems et sont publiées sur rubygems.org. The following stdlib files are now default gems and are published on rubygems.org.
+- Les fichiers stdlib suivants sont désormais des gems et sont publiées sur rubygems.org.
 
 - Keyword arguments are separated from other arguments.
   - In principle, code that prints a warning on Ruby 2.7 won't work. See the [document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) in detail.
