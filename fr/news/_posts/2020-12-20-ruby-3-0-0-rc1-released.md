@@ -292,7 +292,7 @@ since Ruby 2.7.0!
 
 Please try Ruby 3.0.0-rc1, and give us any feedback!
 
-## Download
+## Téléchargement
 
 - <{{ release.url.gz }}>
 
@@ -315,8 +315,10 @@ Please try Ruby 3.0.0-rc1, and give us any feedback!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby, c'est quoi ?
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+Ruby a d'abord été developpé par Matz (Yukihiro Matsumoto) en 1993, mais est désormais Open Source.
+Ruby fonctionne sur de multiple plateformes et est utilisé à travers le monde notamment dans le développement web.
+
 and is now developed as Open Source. It runs on multiple platforms
 and is used all over the world especially for web development.

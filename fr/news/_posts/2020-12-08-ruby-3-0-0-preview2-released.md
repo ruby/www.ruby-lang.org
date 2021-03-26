@@ -140,7 +140,7 @@ La spécification et l'implémintation ne sont pas matures et peuvent changer da
 
 The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and show the "experimental feature" warning when the first `Ractor.new`.
 
-Le petit programme suivant calcul `n.prime?` (`n` est un entier relativement grand) en parallele avec deux ractors. Vous pouvez vérifier que le programme est deux fois plus rapide que celui séquentiel sur le calcul parralele.
+Le bout de code suivant calcul `n.prime?` (`n` est un entier relativement grand) en parallele avec deux ractors. Vous pouvez vérifier que le programme est deux fois plus rapide que celui séquentiel sur le calcul parralele.
 
 The following small program calculates `n.prime?` (`n` is relatively a big integer) in parallel with two ractors. You will confirm that the program execution is about x2 times faster compared to the sequential program on the parallel computer.
 
@@ -329,18 +329,17 @@ end
   - tsort
   - weakref
 
-See [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview2/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview2)
-for more details.
+Voir [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview2/NEWS.md)
+ou les [logs de commit](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview2) pour plus de détails.
 
 {% assign release = site.data.releases | where: "version", "3.0.0-preview2" | first %}
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
-since Ruby 2.7.0!
+Avec ces changements, [{{ release.stats.files_changed }} fichiers changés, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} suppressions(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)
+depuis Ruby 2.7.0!
 
-Please try Ruby 3.0.0-preview2, and give us any feedback!
+Essayez Ruby 3.0.0-preview2 s'il vous plait et faites nous des retours !
 
-## Download
+## Téléchargement
 
 - <{{ release.url.gz }}>
 
@@ -363,8 +362,10 @@ Please try Ruby 3.0.0-preview2, and give us any feedback!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby, c'est quoi ?
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
+Ruby a d'abord été developpé par Matz (Yukihiro Matsumoto) en 1993, mais est désormais Open Source.
+Ruby fonctionne sur de multiple plateformes et est utilisé à travers le monde notamment dans le développement web.
+
 and is now developed as Open Source. It runs on multiple platforms
 and is used all over the world especially for web development.
