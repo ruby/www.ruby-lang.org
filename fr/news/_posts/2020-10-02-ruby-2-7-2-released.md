@@ -4,7 +4,7 @@ title: "Ruby 2.7.2 est disponible"
 author: "nagachika"
 translator: "chatpitre"
 date: 2020-10-02 11:00:00 +0000
-lang: en
+lang: fr
 ---
 
 Ruby 2.7.2 est désormais disponible.
