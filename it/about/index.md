@@ -182,11 +182,10 @@ Ruby è in grado di offrire una marea di altre funzionalità, tra cui:
 * Ruby offre funzionalità di threading indipendenti dal sistema
   operativo. In questo modo si può avere multithreading su tutte le
   piattaforme in grado di eseguire Ruby, indipendentemente dal fatto che
-  il sistema operativo lo supporti o meno, anche in DOS!
+  il sistema operativo lo supporti o meno.
 
 * Ruby è altamente portatile: è sviluppato principalmente su GNU/Linux,
-  ma funziona su molte varianti di UNIX, macOS,
-  Windows, DOS, BeOS, OS/2, ecc.
+  ma funziona su molte varianti di UNIX, macOS, e Windows.
 
 ### Riferimenti
 

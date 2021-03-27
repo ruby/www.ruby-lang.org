@@ -181,11 +181,11 @@ encuentran las siguientes:
 * Tiene manejo de hilos (threading) independiente del sistema operativo.
   De esta forma, tienes soporte multi-hilo en todas las plataformas en
   las que corre Ruby, sin importar si el sistema operativo lo soporta o
-  no, ¡incluso en MS-DOS!
+  no.
 
 * Ruby es fácilmente portable: se desarrolla mayoritariamente en
   GNU/Linux, pero corre en varios tipos de UNIX, macOS,
-  Windows, DOS, BeOS, OS/2, etc.
+  y Windows.
 
 ### Otras implementaciones de Ruby
 
