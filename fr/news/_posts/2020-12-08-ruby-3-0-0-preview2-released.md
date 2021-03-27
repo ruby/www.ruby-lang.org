@@ -203,7 +203,7 @@ end
     end
     ```
 - La fonctionnalité `$SAFE` a été completement supprimée. C'est désormais une variable globale.
-- L'ordre de la backtrace a été inversé depuis la version 2.5 de Ruby, mais cela a été remis comme avant. Cela se comporte comme la version 2.4 de Ruby. Le message d'erreur et le numéro de ligne où l'exception apparait sont affichés en premiers. Les appelants sont affichés apres.
+- L'ordre de la backtrace a été inversé depuis la version 2.5 de Ruby, mais cela a été remis comme avant. Cela se comporte comme la version 2.4 de Ruby. Le message d'erreur et le numéro de ligne où l'exception apparait sont affichés en premiers. Les appelants sont affichés après.
 - Plusieurs bibliothèques standard ont été mises à jour.
   - RubyGems 3.2.0.rc.1
   - Bundler 2.2.0.rc.1

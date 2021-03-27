@@ -220,7 +220,7 @@ end
     end
     ```
 - La fonctionnalité `$SAFE` a été completement supprimée. C'est désormais une variable globale.
-- L'ordre de la backtrace a été inversé depuis la version 2.5 de Ruby, mais cela a été remis comme avant. Cela se comporte comme la version 2.4 de Ruby. Le message d'erreur et le numéro de ligne où l'exception apparait sont affichés en premiers. Les appelants sont affichés apres.
+- L'ordre de la backtrace a été inversé depuis la version 2.5 de Ruby, mais cela a été remis comme avant. Cela se comporte comme la version 2.4 de Ruby. Le message d'erreur et le numéro de ligne où l'exception apparait sont affichés en premiers. Les appelants sont affichés après.
 - Plusieurs bibliothèques standard ont été mises à jour.
   - RubyGems 3.2.2
   - Bundler 2.2.2
@@ -241,7 +241,6 @@ end
   - rexml
   - rss
 - Les fichiers stdlib suivants sont désormais des gemmes et sont disponibles sur rubygems.org.
-
   - English
   - abbrev
   - base64
@@ -277,19 +276,8 @@ end
   - syslog
   - win32ole
 
-- Keyword arguments are separated from other arguments.
-
-  - In principle, code that prints a warning on Ruby 2.7 won't work. See the [document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) in detail.
-  - By the way, arguments forwarding now supports leading arguments.
-
-    ```ruby
-    def method_missing(meth, ...)
-      send(:"do_#{ meth }", ...)
-    end
-    ```
-
 Voir [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_rc1/NEWS.md)
-ou les [logs de commit](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_rc1) pour plus de détails
+ou les [logs de commit](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_rc1) pour plus de détails.
 
 {% assign release = site.data.releases | where: "version", "3.0.0-rc1" | first %}
 

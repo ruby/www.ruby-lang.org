@@ -4,7 +4,7 @@ title: "Ruby 3.0.0 est disponible"
 author: "naruse"
 translator: "chatpitre"
 date: 2020-12-25 00:00:00 +0000
-lang: en
+lang: fr
 ---
 
 We are pleased to announce the release of Ruby 3.0.0. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
@@ -88,9 +88,9 @@ See [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) for 
 
 ### Fiber Scheduler
 
-`Fiber#scheduler` is introduced for intercepting blocking operations. This allows for light-weight concurrency without changing existing code. Watch ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc) for an overview of how it works.
+`Fiber#scheduler` est introduit pour intercepter des opérations de blocage. Cela permet une concurrence légère sans changer le code existant. Voir ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc) pour avoir un aperçu du fonctionnement.
 
-Currently supported classes/methods:
+Les classes et méthodes prises en charge :
 
 - `Mutex#lock`, `Mutex#unlock`, `Mutex#sleep`
 - `ConditionVariable#wait`
@@ -98,8 +98,8 @@ Currently supported classes/methods:
 - `Thread#join`
 - `Kernel#sleep`
 - `Process.wait`
-- `IO#wait`, `IO#read`, `IO#write`, and related methods (e.g. `#wait_readable`, `#gets`, `#puts`, and so on).
-- `IO#select` is _not supported_.
+- `IO#wait`, `IO#read`, `IO#write` et les méthodes rattachées (e.g. `#wait_readable`, `#gets`, `#puts` etc.)
+- `IO#select` n'est _pas prise en charge_.
 
 This example program will perform several HTTP requests concurrently:
 
@@ -125,16 +125,17 @@ It uses [async](https://github.com/socketry/async) which provides the event loop
 
 ### RBS
 
-RBS is a language to describe the types of Ruby programs.
+RBS est un langage qui décrit les types de programmes Ruby.
 
-Type checkers including TypeProf and other tools supporting RBS will understand Ruby programs much better with RBS definitions.
+Les vérificateurs de type, y compris TypeProf et d'autres outils prenant en charge RBS, comprendront mieux les programmes Ruby avec des définitions RBS.
 
-You can write down the definition of classes and modules: methods defined in the class, instance variables and their types, and inheritance/mix-in relations.
+Vous pouvez écrire la définition des classes et des modules: les méthodes qui sont définies dans la classe, les variables d'instance et leurs types, et les relations d'héritage / mix-in.
 
-The goal of RBS is to support commonly seen patterns in Ruby programs and it allows writing advanced types including union types, method overloading, and generics. It also supports duck typing with _interface types_.
+Le but de RBS est de prendre en charge les modèles couramment observés dans les programmes Ruby et de vous permettre d'écrire des types avancés, notamment les unions de type, les surcharges de méthode et les génériques. Il prend également en charge le duck typing avec _interface types_.
 
-Ruby 3.0 ships with the `rbs` gem, which allows parsing and processing type definitions written in RBS.
-The following is a small example of RBS with class, module, and constant definitions.
+Ruby 3.0 arrive avec la gemme `rbs`, qui inclue l'analyse et le traitement des définitions de type écrites en RBS.
+
+Le code ci-dessous est un petit exemple de RBS une classe, un module et des définitions de constantes.
 
 ```rbs
 module ChatApp
@@ -150,19 +151,19 @@ module ChatApp
 end
 ```
 
-See [README of rbs gem](https://github.com/ruby/rbs) for more detail.
+Voir le [README de la gemme rbs](https://github.com/ruby/rbs) pour plus de détails.
 
 ### TypeProf
 
-TypeProf is a type analysis tool bundled in the Ruby package.
+TypeProf est un outil d'analyse de type inclus dans Ruby.
 
-Currently, TypeProf serves as a kind of type inference.
+Actuellement, TypeProf permet une sorte d'inférence de type.
 
-It reads plain (non-type-annotated) Ruby code, analyzes what methods are defined and how they are used, and generates a prototype of type signature in RBS format.
+Il lit du code Ruby sans annotation de type, analyse quelles méthodes sont définies, comment elles sont utilisées et génère un prototype de la signature de type au format RBS.
 
-Here is a simple demo of TypeProf.
+Voici une simple démo de TypeProf.
 
-An example input:
+Un exemple d'entrée :
 
 ```ruby
 # test.rb
@@ -175,7 +176,7 @@ end
 User.new(name: "John", age: 20)
 ```
 
-An example output:
+Un exemple de sortie :
 
 ```
 $ typeprof test.rb
@@ -187,19 +188,19 @@ class User
 end
 ```
 
-You can run TypeProf by saving the input as "test.rb" and invoking the command "typeprof test.rb".
+Vous pouvez lancer TypeProf en sauvegadant le code dans un fichier "test.rb" et en appelant la commande "typeprof test.rb".
 
-You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=). (It runs TypeProf on the server side, so sorry if it is out!)
+Vous pouvez aussi [essayer TypeProf en ligne](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=). (Cela lance TypeProf coté serveur, donc désolé si cela ne fonctionne pas !)
 
-See the [TypeProf documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) for details.
+Voir [la documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) et [les démos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) pour plus de détails.
 
-TypeProf is experimental and not so mature yet; only a subset of the Ruby language is supported, and the detection of type errors is limited. But it is still growing rapidly to improve the coverage of language features, the analysis performance, and usability. Any feedback is very welcome.
+TypeProf est expérimental et n'est pas encore mature. Seulement un sous ensemble du langage Ruby est supporté et la détection des erreurs de typage est limitée. Mais il continue de croître rapidement pour améliorer la couverture des fonctionnalités du langage, les performances d'analyse et la convivialité. Tout commentaire est le bienvenu.
 
-## Other Notable New Features
+## Autres ajouts notables
 
-- One-line pattern matching is redesigned. (experimental)
+- Le filtrage par motif en une ligne est changé (expérimental).
 
-  - `=>` is added. It can be used like a rightward assignment.
+  - `=>` est ajouté. Il peut être utilisé comme une affectation à droite.
 
     ```ruby
     0 => a
@@ -209,7 +210,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     p b #=> 0
     ```
 
-  - `in` is changed to return `true` or `false`.
+  - `in` est changé pour retourner `true` ou `false`.
 
     ```ruby
     # version 3.0
@@ -219,7 +220,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     0 in 1 #=> raise NoMatchingPatternError
     ```
 
-- Find pattern is added. (experimental)
+- Le pattern Find est ajouté (expérimental).
 
   ```ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
@@ -231,32 +232,32 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   end
   ```
 
-- Endless method definition is added.
+- La définition de méthode sans le mot clé `end` est ajoutée.
 
   ```ruby
   def square(x) = x * x
   ```
 
-- `Hash#except` is now built-in.
+- `Hash#except` est désormais inclus.
 
   ```ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
   ```
 
-- Memory view is added as an experimental feature
+- Memory view est ajoutée en tant que fonctionnalité expérimentale
 
-  - This is a new C-API set to exchange a raw memory area, such as a numeric array or a bitmap image, between extension libraries. The extension libraries can share also the metadata of the memory area that consists of the shape, the element format, and so on. Using these kinds of metadata, the extension libraries can share even a multidimensional array appropriately. This feature is designed by referring to Python's buffer protocol.
+  - C'est un nouvel ensemble d'API C pour échanger une zone mémoire brute, comme un tableau de nombre ou une image bitmap, entre des bibliothèques d'extension. Les bibliothèques d'extension peuvent également partager les méta données de la zone mémoire comprenant la forme, le format de l'élément, etc. En utilisant ce type de métadonnées, les librairies d'extension peuvent même partager des tableaux multidimensionnels de façon appropriée. Cette fonctionnalité a été conçue en utilisant le protocole tampon de python.
 
-## Performance improvements
+## Amélioration des performances
 
-- Pasting long code to IRB is 53 times faster than in the version bundled with Ruby 2.7.0. For example, the time required to paste [this sample code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) goes from 11.7 seconds to 0.22 seconds.
+- Coller du code dans IRB est 53 fois plus rapide qu'en Ruby 2.7.0. Par exemple, le temps nécessaire pour coller [cet exemple de code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) passe de 11.7 secondes à 0.22 secondes.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
   <source src="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.mp4" type="video/mp4">
 </video>
 
-- The `measure` command has been added to IRB. It allows simple execution time measurement.
+- La commande `measure` est ajoutée à IRB. Elle permet simplement de mesurer le temps.
 
   ```
   irb(main):001:0> 3
@@ -273,12 +274,12 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   => 3
   ```
 
-## Other notable changes since 2.7
+## Autres changements notables depuis la version 2.7
 
-- Keyword arguments are separated from other arguments.
+- Les arguments de mot-clé sont séparés des autres arguments.
 
-  - In principle, code that prints a warning on Ruby 2.7 won't work. See [this document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) for details.
-  - By the way, arguments forwarding now supports leading arguments.
+  - En principe, le code qui affiche un avertissement dans la version 2.7 de Ruby ne fonctionnera pas. Voir le [document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) pour plus de détails.
+  - La transmission d'arguments prend désormais en charge les arguments principaux.
 
     ```ruby
     def method_missing(meth, ...)
@@ -286,11 +287,11 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     end
     ```
 
-- Pattern matching (`case`/`in`) is no longer experimental.
-  - See the [pattern matching documentation](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) for details.
-- The `$SAFE` feature was completely removed; now it is a normal global variable.
-- The order of backtraces had been reversed with Ruby 2.5; this change has been reverted. Now backtraces behave like in Ruby 2.4: an error message and the line number where the exception occurs are printed first, and its callers are printed later.
-- Some standard libraries are updated.
+- Le filtrage par motif (`case`/`in`) n'est plus expérimentale.
+  - Voir la [documentation du filtrage par motif](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) pour plus de détails.
+- La fonctionnalité `$SAFE` a été completement supprimée. C'est désormais une variable globale.
+- L'ordre de la backtrace a été inversé depuis la version 2.5 de Ruby, mais cela a été remis comme avant. Cela se comporte comme la version 2.4 de Ruby. Le message d'erreur et le numéro de ligne où l'exception apparait sont affichés en premiers. Les appelants sont affichés après.
+- Plusieurs bibliothèques standard ont été mises à jour.
   - RubyGems 3.2.3
   - Bundler 2.2.3
   - IRB 1.3.0
@@ -305,16 +306,15 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   - StringIO 3.0.0
   - StringScanner 3.0.0
   - etc.
-- The following libraries are no longer bundled gems or standard libraries.
-  Install the corresponding gems to use these features.
+- Les librairies suivantes ne sont plus incluses. Il faut installer les gemmes correspondantes pour utiliser leurs fonctionnalitées.
   - sdbm
   - webrick
   - net-telnet
   - xmlrpc
-- The following default gems are now bundled gems.
+- Les gemmes suivantes sont désormais incluses avec Ruby.
   - rexml
   - rss
-- The following stdlib files are now default gems and are published on rubygems.org.
+- Les fichiers stdlib suivants sont désormais des gemmes et sont disponibles sur rubygems.org.
   - English
   - abbrev
   - base64
@@ -350,18 +350,18 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   - syslog
   - win32ole
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }})
-for more details.
+Voir [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+ou les [logs de commit](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }})
+pour plus de détails.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)
-since Ruby 2.7.0!
+Avec ces changements, [{{ release.stats.files_changed }} fichiers changés, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} suppressions(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)
+depuis Ruby 2.7.0!
 
 > Ruby3.0 is a milestone. The language is evolved, keeping compatibility. But it's not the end. Ruby will keep progressing, and become even greater. Stay tuned! --- Matz
 
 Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
 
-## Download
+## Téléchargement
 
 - <{{ release.url.gz }}>
 
@@ -384,8 +384,6 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby, c'est quoi ?
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby a été initialement développé par Matz (Yukihiro Matsumoto) en 1993 puis est devenu open source. Il fonctionne sur de nombreuses plates-formes et est utilisé partout dans le monde, en particulier pour le développement web.
