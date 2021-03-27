@@ -7,54 +7,54 @@ date: 2020-12-25 00:00:00 +0000
 lang: fr
 ---
 
-We are pleased to announce the release of Ruby 3.0.0. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
+Nous avons le plaisir de vous annoncer la sortie de Ruby 3.0.0. Nous avons travaillé dur pour atteindre Ruby 3 dont les objectifs sont la performance, la concurrence et le typage. Surtout en ce qui concerne les performances, Matz a déclaré que "Ruby3 sera trois fois plus rapide que Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-With [Optcarrot benchmark](https://github.com/mame/optcarrot), which measures single thread performance based on NES's game emulation workload, it achieved 3x faster performance than Ruby 2.0! <details>These were measured at the environment noted in [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) was used as Ruby 3.0. It may not be 3x faster depending on your environment or benchmark.</details>
+Avec [Optcarrot benchmark](https://github.com/mame/optcarrot) qui mesure les performances d'un seul thread basé sur la charge de travail de l'émulation d'un jeu NES, Ruby 3.0 a atteint des performances trois fois plus rapide que Ruby 2.0 ! <details>Les mesures ont été réalisées dans l'environnement suivant : [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) a été utilisé comme Ruby 3.0. Cela peut ne pas être trois fois plus rapide en fonction de votre environnement ou benchmark.</details>
 
-Ruby 3.0.0 covers those goals by
+Ruby 3.0.0 couvre les objectifs de :
 
 - Performance
   - MJIT
-- Concurrency
+- Concurrence
   - Ractor
   - Fiber Scheduler
-- Typing (Static Analysis)
+- Typage (Analyse statique)
   - RBS
   - TypeProf
 
-With the above performance improvement, Ruby 3.0 introduces several new features described below.
+Avec le gain de performance, Ruby 3.0 amène de nouvelles fonctionnalités (décrites ci-dessous).
 
 ## Performance
 
-> When I first declared "Ruby3x3" in the conference keynote, many including members of the core team felt "Matz is a boaster". In fact, I felt so too. But we did. I am honored to see the core team actually accomplished to make Ruby3.0 three times faster than Ruby2.0 (in some benchmarks). -- Matz
+> Quand j'ai déclaré "Ruby3x3" pour la première fois dans le discours d'ouverture de la conférence, de nombreux membres de la core team ont estimé que "Matz est un vantard". En fait, j'en avais aussi l'impression. Mais nous l'avons fait. Je suis honoré de voir ce que la core team a réellement accomplie pour rendre Ruby3.0 trois fois plus rapide que Ruby2.0 (dans certains benchmarks). -- Matz
 
 ### MJIT
 
-Many improvements were implemented in MJIT. See NEWS for details.
+Plusieurs améliorations ont été implémentées dans MJIT. Voir News pour plus de détails.
 
-As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends the majority of time in calling a few methods many times.
+A partir de Ruby 3.0, JIT est censé améliorer les performances des charges de travail limitées telles que les jeux ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), l'IA ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), ou n'importe quelle application qui passe la majorité de son temps à appeler quelques méthodes de nombreuse fois.
 
-Although Ruby 3.0 [significantly decreased the size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffer from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
+Bien que Ruby 3.0 [ait considérablement réduit la taille du code JIT](https://twitter.com/k0kubun/status/1256142302608650244), il n'est toujours pas prêt pour optimiser des charges de travail comme Rails, qui passe souvent du temps sur tant de méthodes qu'il souffre de problèmes d'i-cache exacerbés par JIT. Restez à l'écoute de Ruby 3.1 pour d'autres améliorations sur ce problème.
 
-## Concurrency / Parallel
+## Concurrence / Parallèle
 
-> It's multi-core age today. Concurrency is very important. With Ractor, along with Async Fiber, Ruby will be a real concurrent language. --- Matz
+> Aujourd'hui est l'ère du multi-cœur. La concurrence est très importante. Avec Ractor et Async Fiber, Ruby sera un véritable langage concurrent. --- Matz
 
-### Ractor (experimental)
+### Ractor (expérimental)
 
-Ractor is an Actor-model like concurrent abstraction designed to provide a parallel execution feature without thread-safety concerns.
+Ractor est un modèle d'acteur permettant une abstraction pour la concurrence. Il fournit un outil permettant l'exécution de code de façon thread-safe.
 
-You can make multiple ractors and you can run them in parallel. Ractor enables you to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors is supported by exchanging messages.
+Vous pouvez créer plusieurs ractors et les lancer en parallèle. Ractor vous permet de créer des programmes thread-safe puisque les ractors ne partagent pas d'objets normaux. La communication entre ractors se fait par passage de messages.
 
-To limit the sharing of objects, Ractor introduces several restrictions to Ruby's syntax (without multiple Ractors, there is no restriction).
+Afin de limiter le partage d'objet, Ractor introduit plusieurs restrictions sur la syntaxe de Ruby (sans plusieurs ractors, il n'y a pas de restriction).
 
-The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and shows the "experimental feature" warning when the first `Ractor.new` occurs.
+La spécification et l'implémentation ne sont pas matures et pourront donc changer. Cette fonctionnalité est marquée comme expérimentale et montre l'avertissement "experimental feature" au premier `Ractor.new`.
 
-The following small program measures the execution time of the famous benchmark tak function ([Tak (function) - Wikipedia](<https://en.wikipedia.org/wiki/Tak_(function)>)), by executing it 4 times sequentially or 4 times in parallel with ractors.
+Le bout de code suivant mesure le temps d'exécution du célèbre benchmark de ([la fonction de Takeuchi - Wikipedia](https://fr.wikipedia.org/wiki/Fonction_de_Takeuchi)) en l'exécutant quatre fois de façon séquentielle ou quatre fois en parallèle avec des ractors.
 
 ```ruby
 def tarai(x, y, z) =
@@ -82,9 +82,9 @@ seq  64.560736   0.001101  64.561837 ( 64.562194)
 par  66.422010   0.015999  66.438009 ( 16.685797)
 ```
 
-The result was measured on Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). It shows that the parallel version is 3.87 times faster than the sequential version.
+Les résultats sont mesurés sur Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). Cela montre que la version exécutée en parallèle est 3.87 fois plus rapide que la version séquentielle.
 
-See [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) for more details.
+Voir [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) pour plus de détails.
 
 ### Fiber Scheduler
 
@@ -101,7 +101,7 @@ Les classes et méthodes prises en charge :
 - `IO#wait`, `IO#read`, `IO#write` et les méthodes rattachées (e.g. `#wait_readable`, `#gets`, `#puts` etc.)
 - `IO#select` n'est _pas prise en charge_.
 
-This example program will perform several HTTP requests concurrently:
+Cet exemple de code permet de faire plusieurs requêtes HTTP de façon concurrente.
 
 ```ruby
 require 'async'
@@ -117,11 +117,11 @@ Async do
 end
 ```
 
-It uses [async](https://github.com/socketry/async) which provides the event loop. This event loop uses the `Fiber#scheduler` hooks to make `Net::HTTP` non-blocking. Other gems can use this interface to provide non-blocking execution for Ruby, and those gems can be compatible with other implementations of Ruby (e.g. JRuby, TruffleRuby) which can support the same non-blocking hooks.
+Cela utilise [async](https://github.com/socketry/async) qui fournit la boucle d'évènements. Cette boucle utilise les hooks `Fiber#scheduler` pour rendre `Net::HTTP` non bloquant. D'autres gemmes peuvent utiliser cette interface afin de fournir une exécution non bloquante à Ruby et peuvent être compatibles avec d'autres implémentations de Ruby (par exemple, JRuby, TruffleRuby) qui peuvent prendre en charge les mêmes hooks non bloquants.
 
-## Static Analysis
+## Analyse statique
 
-> 2010s were an age of statically typed programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first step to the future. More steps to come. --- Matz
+> Les années 2010 ont été une ère de langages de programmation statiquement typés. Ruby souhaite un futur avec de la vérification de type statique, sans déclaration de type, en utilisant une interprétation abstraite. RBS et TypeProf sont la première étape vers le futur. D'autres étapes sont à venir. --- Matz
 
 ### RBS
 
@@ -357,9 +357,9 @@ pour plus de détails.
 Avec ces changements, [{{ release.stats.files_changed }} fichiers changés, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} suppressions(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)
 depuis Ruby 2.7.0!
 
-> Ruby3.0 is a milestone. The language is evolved, keeping compatibility. But it's not the end. Ruby will keep progressing, and become even greater. Stay tuned! --- Matz
+> Ruby3.0 est une étape importante. Le langage évolue en restant compatible. Mais ce n'est pas la fin. Ruby continuera à progresser et deviendra encore plus grand. Restez à l'écoute ! --- Matz
 
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
+Joyeux Noël, bonnes vacances, et profitez de la programmation avec Ruby 3.0!
 
 ## Téléchargement
 

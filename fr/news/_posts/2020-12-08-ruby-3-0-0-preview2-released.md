@@ -115,7 +115,7 @@ p r1.take #=> true
 p r2.take #=> true
 ```
 
-Voir [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) pour plus de details.
+Voir [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) pour plus de détails.
 
 ## Fiber Scheduler
 
