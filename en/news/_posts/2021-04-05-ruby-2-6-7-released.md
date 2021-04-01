@@ -9,11 +9,10 @@ lang: en
 
 Ruby 2.6.7 has been released.
 
-This release includes security fixes.
+This release includes a security fix.
 Please check the topics below for details.
 
 * [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
-* [CVE-2021-28966: Path traversal in Tempfile on Windows]({% link en/news/_posts/2021-04-05-tempfile-path-traversal-on-windows-cve-2021-28966.md %})
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_6...v2_6_7) for details.
 
