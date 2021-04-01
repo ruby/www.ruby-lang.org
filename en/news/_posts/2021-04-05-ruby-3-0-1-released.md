@@ -21,13 +21,6 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_0...v3_0_1) for 
 
 {% assign release = site.data.releases | where: "version", "3.0.1" | first %}
 
-* <{{ release.url.bz2 }}>
-
-      SIZE: {{ release.size.bz2 }}
-      SHA1: {{ release.sha1.bz2 }}
-      SHA256: {{ release.sha256.bz2 }}
-      SHA512: {{ release.sha512.bz2 }}
-
 * <{{ release.url.gz }}>
 
       SIZE: {{ release.size.gz }}
