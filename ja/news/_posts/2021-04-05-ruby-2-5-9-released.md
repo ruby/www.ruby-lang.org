@@ -15,7 +15,7 @@ Ruby 2.5.9 がリリースされました。
 * [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick]{%link en/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
 * [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
 
-この他に、ビルドの都合に伴うじゃ館の変更が含まれています。
+この他に、ビルドの都合に伴う若干の変更が含まれています。
 変更の詳細については [commit logs](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) を参照してください。
 
 このリリースをもって、Ruby 2.5 系列は EOL となります。
