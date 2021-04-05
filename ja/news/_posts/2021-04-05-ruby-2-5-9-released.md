@@ -4,25 +4,26 @@ title: "Ruby 2.5.9 Released"
 author: "usa"
 translator:
 date: 2021-04-05 12:00:00 +0000
-lang: en
+lang: ja
 ---
 
-Ruby 2.5.9 has been released.
+Ruby 2.5.9 がリリースされました。
 
-This release includes security fixes.
-Please check the topics below for details.
+このリリースには以下の脆弱性修正が含まれています。
+詳細については以下の記事を参照してください。
 
 * [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick]{%link en/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
 * [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) for details.
+この他に、ビルドの都合に伴うじゃ館の変更が含まれています。
+変更の詳細については [commit logs](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) を参照してください。
 
-With this release Ruby 2.5.9, Ruby 2.5 series has gone EOL.
-In other words, this is the last release of Ruby 2.5 series.
-We will not release Ruby 2.5.10 even if a vulnerability is found.
-We recommend you immediately upgrade Ruby to newer versions, 3.0 or 2.7 or 2.6.
+このリリースをもって、Ruby 2.5 系列は EOL となります。
+即ち、Ruby 2.5.9 が Ruby 2.5 系列の最後のリリースとなります。
+これ以降、仮に新たな脆弱性が発見されても、Ruby 2.5.10 などはリリースされません。
+ユーザーの皆様におかれましては、速やかに、より新しい 3.0、2.7、2.6 といったバージョンへの移行を推奨します。
 
-## Download
+## ダウンロード
 
 {% assign release = site.data.releases | where: "version", "2.5.9" | first %}
 
@@ -54,6 +55,6 @@ We recommend you immediately upgrade Ruby to newer versions, 3.0 or 2.7 or 2.6.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## リリースコメント
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+このリリースに協力してくださった皆様、特に、脆弱性を報告してくださった方々に深く感謝します。
