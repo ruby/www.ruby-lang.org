@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.7.3 Released"
+title: "Ruby 2.7.3 リリース"
 author: "nagachika"
 translator:
 date: 2021-04-05 12:00:00 +0000
