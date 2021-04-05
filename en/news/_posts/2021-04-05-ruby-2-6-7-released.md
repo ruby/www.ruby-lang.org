@@ -62,4 +62,4 @@ Therefore, we recommend that you start planning to upgrade to Ruby 2.7 or 3.0.
 Many committers, developers, and users who provided bug reports helped us make this release.
 Thanks for their contributions.
 
-The maintenance of Ruby 2.6, including this release, is based on the ÅgAgreement for the Ruby stable versionÅh of the Ruby Association.
+The maintenance of Ruby 2.6, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
