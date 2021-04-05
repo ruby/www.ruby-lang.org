@@ -12,7 +12,7 @@ Ruby 2.5.9 がリリースされました。
 このリリースには以下の脆弱性修正が含まれています。
 詳細については以下の記事を参照してください。
 
-* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick]{%link en/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
+* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick]({%link en/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
 * [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
 
 この他に、ビルドの都合に伴う若干の変更が含まれています。
