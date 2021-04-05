@@ -17,10 +17,9 @@ Please check the topics below for details.
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) for details.
 
-With this release Ruby 2.5.9, Ruby 2.5 series has gone EOL.
-In other words, this is the last release of Ruby 2.5 series.
-We will not release Ruby 2.5.10 even if a vulnerability is found.
-We recommend you immediately upgrade Ruby to newer versions, 3.0 or 2.7 or 2.6.
+After this release, Ruby 2.5 reaches EOL. In other words, this is the last release of Ruby 2.5 series.
+We will not release Ruby 2.5.10 even if a security vulnerability is found.
+We recommend all Ruby 2.5 users to upgrade to Ruby 3.0, 2.7 or 2.6 immediately.
 
 ## Download
 

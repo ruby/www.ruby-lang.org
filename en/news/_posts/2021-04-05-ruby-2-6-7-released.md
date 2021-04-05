@@ -17,13 +17,12 @@ Please check the topics below for details.
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_6...v2_6_7) for details.
 
-After this release, we end the normal maintenance phase of Ruby 2.6,
-and start the security maintenance phase of it.
-This means that after the release of 2.6.7 we will never backport any bug fixes
-to 2.6 except security fixes.
-The term of the security maintenance phase is scheduled for one year.
-By the end of this term, official support of Ruby 2.6 will be over.
-Therefore, we recommend that you start planning to upgrade to Ruby 2.7 or 3.0.
+By this release, we end the normal maintenance phase of Ruby 2.6,
+and Ruby 2.6 enters the security maintenance phase.
+This means that we will no longer backport any bug fixes to Ruby 2.6 except security fixes.
+The term of the security maintenance phase is scheduled for a year.
+Ruby 2.6 reaches EOL and its official support ends by the end of the security maintenance phase.
+Therefore, we recommend that you start to plan upgrade to Ruby 2.7 or 3.0.
 
 ## Download
 
