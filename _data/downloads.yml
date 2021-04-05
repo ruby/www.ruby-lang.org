@@ -9,12 +9,11 @@ stable:
 
   - 3.0.1
   - 2.7.3
-  - 2.6.7
 
 # optional
 security_maintenance:
 
-  - 2.5.9
+  - 2.6.7
 
 # optional
 eol:
