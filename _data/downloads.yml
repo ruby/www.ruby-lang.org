@@ -50,4 +50,4 @@ nightly_snapshot:
     gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.gz
     xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.zip
-  version: '2.8'
+  version: '3.1'
