@@ -61,6 +61,6 @@ General Ruby Information
 
 
 [ruby-central]: http://rubycentral.org/
-[ruby-discord]: https://discord.gg/UyQnKrT
+[ruby-discord]: https://discord.gg/T68WXUrQmS
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
 [rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
