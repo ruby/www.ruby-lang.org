@@ -75,7 +75,7 @@ Informasi Umum Tentang Ruby
 
 
 
-[ruby-discord]: https://discord.gg/UyQnKrT
+[ruby-discord]: https://discord.gg/EnSevaRfct
 [ruby-id-group]: http://tech.groups.yahoo.com/group/id-ruby/
 [ruby-central]: http://rubycentral.org/
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
