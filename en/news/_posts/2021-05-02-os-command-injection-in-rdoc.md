@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "A command injection vulnerability in RDoc"
+title: "CVE-2021-31799: A command injection vulnerability in RDoc"
 author: "aycabta"
 translator:
 date: 2021-05-02 09:00:00 +0000
