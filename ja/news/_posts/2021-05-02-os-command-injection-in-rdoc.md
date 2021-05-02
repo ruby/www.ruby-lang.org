@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "RDoc におけるコマンドインジェクションの脆弱性について"
+title: "CVE-2021-31799: RDoc におけるコマンドインジェクションの脆弱性について"
 author: "aycabta"
 translator:
 date: 2021-05-02 09:00:00 +0000
