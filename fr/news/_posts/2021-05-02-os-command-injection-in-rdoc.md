@@ -5,7 +5,7 @@ author: "aycabta"
 translator: "Manaleak2d"
 date: 2021-05-02 09:00:00 +0000
 tags: security
-lang: en
+lang: fr
 ---
 
 Il y a une faille concernant l'injection de commandes dans RDoc qui est inclue dans Ruby.
