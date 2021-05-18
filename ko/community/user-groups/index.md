@@ -19,11 +19,7 @@ lang: ko
 
 루비 유저 그룹에 관한 정보는 여러 웹 사이트에서 얻을 수 있습니다.
 
-[rubyusergroups.org][1]
-: 세계의 루비그룹의 공식 메일링 리스트. 루비스트가 직접 세계지도에 자신들을
-  등록할 수도 있습니다.
-
-[Ruby Meetup Groups][2]
+[Ruby Meetup Groups][1]
 : 루비 유저 그룹의 상당수는 Meetup 사이트를 홈페이지로 합니다. Meetup은
 유저 그룹을 위한 몇 가지 툴을 제공하고 있습니다. 비공개 포럼, 공지를 위한 장소,
 자동 리마인더, 훌륭한 RSVP(참석여부 체크) 시스템 등등이 그것이죠.
@@ -36,5 +32,4 @@ lang: ko
 
 
 
-[1]: http://www.rubyusergroups.org/
-[2]: http://ruby.meetup.com
+[1]: https://ruby.meetup.com

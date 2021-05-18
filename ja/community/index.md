@@ -26,9 +26,6 @@ Rubyコミュニティに興味があるのなら、ぜひ以下のコミュニ�
     プログラムが楽しく、エンジニアであることに生き甲斐を感じられるような行動を続けていきたいと思っております。
     みなさん、よろしくお願いします。
 
-* [rubyusergroups.org][4]
-  * rubyusergroups.orgは世界中のRubyistとRubyistの集まりを地図上にプロットして公開するサービスです。日本のRubyistやRubyistの集まりもどんどんリストに追加していくとよいでしょう。
-
 ## IRC
 
 * IRCNetの[#ruby-ja](irc://irc.ircnet.ne.jp/%23ruby-ja?charset=iso-2022-jp)
@@ -68,7 +65,6 @@ Posted by Shugo Maeda on 26 May 2006
 [1]: http://ruby-no-kai.org/
 [2]: http://www.ruby.or.jp/
 [3]: http://facebook.com/rubybizcommons
-[4]: http://www.rubyusergroups.org/
 [5]: http://rubykaigi.org
 [6]: http://www.rubyconf.org/
 [7]: http://euruko.org

@@ -20,11 +20,7 @@ bir websitesi, ve eğer şanslıysanız, sık kod yazma oturumları sağlar.
 
 Ruby kullanıcı grupları hakkında bilgiler çeşitli websitelerinde bulunabilir:
 
-[rubyusergroups.org][1]
-: Dünya çapındaki Ruby gruplarının herkese açık bir listesi. Ayrıca Rubycilerin
-  dünya haritası üzerinde kendilerini işaretleyebilmelerini sağlar.
-
-[Ruby Meetup Groups][2]
+[Ruby Meetup Groups][1]
 : Ruby Kullanıcı Grupları'nın önemli bir kısmı evleri olarak Meetup'ı
   seçmiştir. Meetup, kullanıcı grupları için bazı araçlar sunar. Bunlardan
   bazıları şunlardır: özel forumlar, duyurular için bir ortam, otomatik buluşma
@@ -39,5 +35,4 @@ bir seçenek olmayabilir.
 
 
 
-[1]: http://www.rubyusergroups.org/
-[2]: http://ruby.meetup.com
+[1]: https://ruby.meetup.com

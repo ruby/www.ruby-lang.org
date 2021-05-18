@@ -24,12 +24,7 @@ scrivere codice Ruby).
 Informazioni su i gruppi di utilizzatori Ruby possono essere trovate su
 diversi siti Web:
 
-[rubyusergroups.org][1]
-: Una lista publica di gruppi di utenti Ruby da tutto il mondo.
-  Permette anche agli utenti Ruby di segnalare la loro posizione
-  su una mappa del mondo.
-
-[Ruby Meetup Groups][2]
+[Ruby Meetup Groups][1]
 : Un numero sostanziale di gruppi di utenti Ruby hanno scelto di fare
   di Meetup la loro dimora. Meetup fornisce un numero di tool per i
   gruppi di utenti, fra i quali: forum privati, una bacheca per
@@ -46,5 +41,4 @@ già uno nella tua area.
 
 
 
-[1]: http://www.rubyusergroups.org/
-[2]: http://ruby.meetup.com
+[1]: https://ruby.meetup.com
