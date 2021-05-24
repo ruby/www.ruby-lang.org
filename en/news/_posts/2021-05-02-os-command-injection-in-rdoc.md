@@ -33,6 +33,8 @@ Run the following command to update RDoc to the latest version (6.3.1 or later) 
 gem install rdoc
 ```
 
+If you are using bundler, please add `gem "rdoc", ">= 6.3.1"` to your `Gemfile`.
+
 ## Credits
 
 Thanks to [Alexandr Savca](https://hackerone.com/chinarulezzz) for reporting the issue.
