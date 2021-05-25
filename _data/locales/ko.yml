@@ -1,5 +1,5 @@
 ---
-ruby: 루비
+ruby: Ruby
 slogan: 프로그래머의 단짝 친구
 
 sitelinks:
@@ -16,9 +16,9 @@ sitelinks:
   url: /ko/community
 - text: 뉴스
   url: /ko/news
-- text: 보안이슈
+- text: 보안
   url: /ko/security
-- text: 루비에 대해서
+- text: Ruby에 대해서
   url: /ko/about
 
 search:
@@ -34,10 +34,10 @@ sidebar:
       text: 20분 가이드
       url: /ko/documentation/quickstart/
     ruby_from_other_languages:
-      text: 다른 언어에서 루비로
+      text: 다른 언어에서 Ruby로
       url: /ko/documentation/ruby-from-other-languages/
   explore:
-    text: <strong>탐험하기</strong>
+    text: <strong>탐색하기</strong>
     documentation:
       text: 문서
       url: /ko/documentation/
@@ -55,9 +55,9 @@ sidebar:
   participate:
     text: <strong>커뮤니티에 참여하기</strong>
     mailing_lists:
-      text: 루비 사용자 포럼
-      url: http://groups.google.com/group/rubykr
-      description: 한국의 루비스트를 만나세요
+      text: 메일링 리스트
+      url: /ko/community/mailing-lists/
+      description: 전세계의 프로그래머들와 Ruby와 관련된 대화를 나누기
     user_groups:
       text: 유저 그룹
       url: /ko/community/user-groups/
@@ -65,15 +65,15 @@ sidebar:
     weblogs:
       text: 웹로그
       url: /ko/community/weblogs/
-      description: 루비 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
+      description: Ruby 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
     ruby_core:
-      text: 루비 코어
+      text: Ruby 코어
       url: /ko/community/ruby-core/
-      description: 최신판 루비의 연마를 돕기
+      description: 최신 버전 Ruby의 연마를 돕기
     issue_tracking:
       text: 이슈 관리
       url: https://bugs.ruby-lang.org/
-      description: 루비에 관한 이슈를 제보하거나 해결을 돕기
+      description: Ruby에 관한 이슈를 제보하거나 해결을 돕기
   syndicate:
     text: 구독
     recent_news:
@@ -83,7 +83,7 @@ sidebar:
 languages_heading:
 
 credits:
-  <a href="/ko/about/website/">이 사이트</a>는 루비 커뮤니티의 구성원들이 직접 관리합니다.
+  <a href="/ko/about/website/">이 사이트</a>는 Ruby 커뮤니티의 구성원들이 직접 관리합니다.
 
 month_names:
 
@@ -91,7 +91,7 @@ posted_by: '작성자: AUTHOR (%Y-%m-%d)'
 translated_by: '번역자:'
 
 feed:
-  title: 루비 뉴스
+  title: Ruby 뉴스
   description: ruby-lang.org의 최근 소식
   lang_code: ko-KR
 

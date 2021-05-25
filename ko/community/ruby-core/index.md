@@ -1,33 +1,33 @@
 ---
 layout: page
-title: "루비 코어"
+title: "Ruby 코어"
 lang: ko
 ---
 
-루비 개발 과정에 참여하고 싶다면 바로 지금이 최고의 타이밍입니다. 최근 몇 년간
-주목이 집중됨에 따라, 루비 자체와 그 문서화의 향상이 더욱더 필요하게 되었습니다.
+Ruby 개발 과정에 참여하고 싶다면 바로 지금이 최고의 타이밍입니다. 최근 몇 년간
+주목이 집중됨에 따라, Ruby 자체와 그 문서화의 향상이 더욱더 필요하게 되었습니다.
 어디서부터 시작해야 할까요?
 {: .summary}
 
-루비 개발에 관련된 주제들입니다.
+Ruby 개발에 관련된 주제들입니다.
 
-* [Git을 사용하여 루비 개발을 트래킹하기](#following-ruby)
-* [패치들로 루비 개선하기](#patching-ruby)
+* [Git을 사용하여 Ruby 개발을 트래킹하기](#following-ruby)
+* [패치들로 Ruby 개선하기](#patching-ruby)
 * [브랜치에 대한 안내](#branches-ruby)
 
-### Git을 사용하여 루비 개발을 트래킹하기
+### Git을 사용하여 Ruby 개발을 트래킹하기
 {: #following-ruby}
 
-현재 최신 루비 코드의 주 저장소는 [git.ruby-lang.org/ruby.git][gitrlo]입니다.
+현재 최신 Ruby 코드의 주 저장소는 [git.ruby-lang.org/ruby.git][gitrlo]입니다.
 또한 [GitHub에도 미러][7]가 있습니다. 기본적으로는 이 미러를 이용하세요.
 
-최신 루비 코드는 Git을 사용하여 받을 수 있습니다.
+최신 Ruby 코드는 Git을 사용하여 받을 수 있습니다.
 
 {% highlight sh %}
 $ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
-이제 `ruby` 디렉터리에는 루비의 최신 개발 버전(ruby-trunk)이 들어 있을 것입니다.
+이제 `ruby` 디렉터리에는 Ruby의 최신 개발 버전(ruby-trunk)이 들어 있을 것입니다.
 
 [커미터가 아닌 사람들을 위한 개발 참가 방법][noncommitterhowto]도 참고하세요.
 
@@ -39,7 +39,7 @@ $ git clone https://github.com/ruby/ruby.git
 $ git clone git@git.ruby-lang.org:ruby.git
 {% endhighlight %}
 
-### 패치들로 루비 개선하기
+### 패치들로 Ruby 개선하기
 {: #patching-ruby}
 
 코어 팀은 패치나 버그 리포트를 [이슈 트랙커][10]에서
@@ -53,8 +53,8 @@ $ git clone git@git.ruby-lang.org:ruby.git
 
 패치를 만드는 순서를 요약하자면,
 
-1.  GitHub에서 루비 소스코드를 체크아웃합니다.
-    일반적으로 버그 수정을 위한 패치나 새로운 기능이 이미 루비 소스의 트렁크에
+1.  GitHub에서 Ruby 소스코드를 체크아웃합니다.
+    일반적으로 버그 수정을 위한 패치나 새로운 기능이 이미 Ruby 소스의 트렁크에
     등록되어 있습니다.
 
         $ git clone https://github.com/ruby/ruby.git
@@ -81,21 +81,21 @@ $ git clone git@git.ruby-lang.org:ruby.git
 **주의사항:** 패치는 [unified diff][12]로 등록되어야 합니다. 패치의 머지에 관한
 더 자세한 정보는 [the diffutils reference][13]를 확인해 주세요.
 
-루비 개발에 관한 토론들은 [Ruby-Core 메일링 리스트][mailing-lists]에
+Ruby 개발에 관한 토론들은 [Ruby-Core 메일링 리스트][mailing-lists]에
 모입니다. 그러므로 당신의 패치가 가치
-있는지 알고 싶거나, 루비의 미래에 관한 토론을 하고 싶으시면 망설이지 말고
+있는지 알고 싶거나, Ruby의 미래에 관한 토론을 하고 싶으시면 망설이지 말고
 참여하세요. 주제와 관련 없거나 논란이 될 만한 토론은 허용되지 않습니다.
-주제는 명확해야 하고 잘 생각해서 잘 쓰여야 합니다. 우리는 루비의 창조자에게 말을
+주제는 명확해야 하고 잘 생각해서 잘 쓰여야 합니다. 우리는 Ruby의 창조자에게 말을
 걸고 있으니 예의를 갖춥시다.
 
-루비의 코어 개발자들이 영어를 잘한다고 해도 많은 수가 일본에 살고 있으니 시차가 있습니다.
+Ruby의 코어 개발자들이 영어를 잘한다고 해도 많은 수가 일본에 살고 있으니 시차가 있습니다.
 영어와 동시에 진행되는 일어 개발 메일링 리스트도 있습니다. 클레임이 해결되지
 않았을 경우에도 인내심을 가지고 며칠 후에 다시 시도해주시길 바랍니다.
 
 ### 브랜치에 대한 안내
 {: #branches-ruby}
 
-루비의 소스 코드는 2019년 4월 22일까지 서브버전에서 관리되어 왔습니다.
+Ruby의 소스 코드는 2019년 4월 22일까지 서브버전에서 관리되어 왔습니다.
 그러므로 몇몇 버전은 그대로 서브버전에서 관리됩니다.
 다음 SVN 저장소를 이용할 수 있습니다.
 
