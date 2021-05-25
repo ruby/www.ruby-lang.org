@@ -1,16 +1,16 @@
 ---
 layout: page
-title: "루비 웹 사이트에 대해서"
+title: "Ruby 웹 사이트에 대해서"
 lang: ko
 ---
 
-이 웹 사이트는 루비와 [Jekyll][jekyll]로 생성되었습니다,<br>
+이 웹 사이트는 Ruby와 [Jekyll][jekyll]로 생성되었고,<br>
 소스코드는 [GitHub][github-repo]에서 호스트 됩니다.
 
 이 사이트는 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.
 
-[루비 로고][logo]의 저작권은 &copy; 2006, 마츠모토
+[Ruby 로고][logo]의 저작권은 &copy; 2006, 마츠모토
 유키히로에게 있습니다.
 
 
@@ -23,7 +23,7 @@ lang: ko
 
 ## 기여하기 ##
 
-이 사이트는 루비 커뮤니티의 구성원들이 직접 관리합니다.
+이 사이트는 Ruby 커뮤니티의 구성원들이 직접 관리합니다.
 
 기여하시길 원하시면 먼저 [contribution instructions][github-wiki]를
 읽으시고 이슈를 만들거나 풀 리퀘스트를 보내주시면 됩니다.
