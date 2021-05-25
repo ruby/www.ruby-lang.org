@@ -25,12 +25,12 @@ Ruby에 대한 콘퍼런스 목록입니다. 이곳에서는 행사일, 장소, 
 
 [RubyKaigi][3]
 : 오다이바에서 개최된 RubyKaigi 2006은 최초의 일본 Ruby 콘퍼런스였습니다.
-  RubyKaigi는 매년 Matz와 Ruby스트들에 의해 새롭고 흥미로운 주제들을
+  RubyKaigi는 매년 Matz와 루비스트들에 의해 새롭고 흥미로운 주제들을
   제공합니다.
 
 [EuRuKo <small>(유럽 Ruby 콘퍼런스)</small>][4]
 : 최초의 정기적인 유럽 Ruby 콘퍼런스는 2003년에 독일의 Karlsruhe에서
-  개최되었습니다. Armin Roehrl, Michael Neumann를 포함한 독일의 Ruby스트들이
+  개최되었습니다. Armin Roehrl, Michael Neumann를 포함한 독일의 루비스트들이
   주축이 되었고 RubyConf 이후 2번째로 등장한 Ruby 콘퍼런스입니다.
 
 ### 지역 Ruby 콘퍼런스
