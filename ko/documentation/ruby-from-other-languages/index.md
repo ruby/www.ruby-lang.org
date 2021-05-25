@@ -1,26 +1,26 @@
 ---
 layout: page
-title: "다른 언어에서 로"
+title: "다른 언어에서 Ruby로"
 lang: ko
 ---
 
 처음  코드를 볼 때, 그것은 당신이 사용했던 다른 프로그래밍 언어를
-연상하게 할 수 있습니다. 이것은 의도적입니다. 대부분의 문법은 펄, 파이썬,
-자바나 다른 언어들과 유사합니다. 다른 언어를 사용한 적이 있다면 를
+연상하게 할 수 있습니다. 이것은 의도적입니다. 대부분의 문법은 Perl, Python,
+Java나 다른 언어들과 유사합니다. 다른 언어를 사용한 적이 있다면 를
 배우기는 아주 쉬울 것입니다.
 {: .summary}
 
-이 문서에는 두 가지 주요 단원이 있습니다. 첫번째는 *어떤* 언어에서 로
+이 문서에는 두 가지 주요 단원이 있습니다. 첫번째는 *어떤* 언어에서 Ruby로
 넘어올 때의 빠른 요약입니다. 두번째는 이미 잘 알고있는 것과 비교할 수
 있도록 언어의 주요 기능을 다룹니다.
 
-## 차이점들: *어떤 언어*에서 로
+## 차이점들: *어떤 언어*에서 Ruby로
 
-* [C 나 C++에서 로](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
-* [자바에서 로](to-ruby-from-java/)
-* [펄에서 로](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [PHP에서 로](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
-* [파이썬에서 로](to-ruby-from-python/)
+* [C 나 C++에서 Ruby로](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
+* [Java에서 Ruby로](to-ruby-from-java/)
+* [Perl에서 Ruby로](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
+* [PHP에서 Ruby로](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [Python에서 Ruby로](to-ruby-from-python/)
 
 ## 언어의 중요한 기능과 알아둘 점
 
@@ -29,8 +29,8 @@ lang: ko
 ### 이터레이션
 
 익숙해져야 하지만 전에 본 것과는 다를 수 있는 의 두 가지 기능은 "블록"과
-이터레이터입니다. (C, C++, or pre-1.5 자바처럼) 인덱스로 반복하거나 (펄의
-`for (@a) {...}`나 파이썬의 `for i in aList: ...`처럼) 리스트로 반복하는
+이터레이터입니다. (C, C++, or pre-1.5 Java처럼) 인덱스로 반복하거나 (Perl의
+`for (@a) {...}`나 Python의 `for i in aList: ...`처럼) 리스트로 반복하는
 대신, 에서는 매우 자주 다음과 같은 구문을 사용하는 것을 보게 됩니다.
 
 {% highlight ruby %}
@@ -132,7 +132,7 @@ end
 
 ### 키워드 인자
 
- 2.0부터 메서드는 파이썬처럼 키워드 인자로 선언할
+ 2.0부터 메서드는 Python처럼 키워드 인자로 선언할
 수 있습니다.
 
 {% highlight ruby %}
@@ -149,11 +149,11 @@ deliver(via: "Pony Express", from: "B", to: "A")
 ### 범용적인 참
 
 에서는, **nil**과 **false**를 제외한 모든 것이 참으로 간주됩니다.
-C나 파이썬이나 많은 다른 언어들에서 0과 빈 리스트같은 값들이 거짓으로
-간주됩니다. 다음 파이썬 코드를 보시죠. (이 예제는 다른 언어에도 적용됩니다)
+C나 Python이나 많은 다른 언어들에서 0과 빈 리스트같은 값들이 거짓으로
+간주됩니다. 다음 Python 코드를 보시죠. (이 예제는 다른 언어에도 적용됩니다)
 
 {% highlight python %}
-# 파이썬
+# Python
 if 0:
   print("0 is true")
 else:
@@ -206,7 +206,7 @@ end
 
 ### 메서드 액세스
 
-자바에서, `public`은 누구라도 액세스 할 수 있음을 의미합니다. `protected`는
+Java에서, `public`은 누구라도 액세스 할 수 있음을 의미합니다. `protected`는
 클래스의 인스턴스, 하위 클래스의 인스턴스, 같은 패키지의 클래스의 인스턴스
 는 액세스할 수 있지만, 그 밖의 장소에서는 액세스 할 수 없음을 의미합니다.
 `private`은 클래스의 인스턴스를 제외한 장소에서는 액세스 할 수 없음을 의미합니다.
@@ -258,7 +258,7 @@ t1 == t2
 
 의 클래스는 열려 있습니다. 언제든 클래스를 열어서, 추가하고, 변경할 수
 있습니다. `Integer`나 심지어 모든 객체의 부모인 `Object` 같은 코어 클래스도
-예외는 아닙니다.  온 레일즈에서는 시간을 제어하기 위해 `Integer`에 많은
+예외는 아닙니다.  온 Rails에서는 시간을 제어하기 위해 `Integer`에 많은
 메서드를 추가해서 사용합니다. 밑을 보세요.
 
 {% highlight ruby %}

@@ -24,7 +24,7 @@ Ruby의 라이브러리는 보동 [**RubyGems.org**][1]에서 gem으로 제공�
 웹사이트에서 둘러보거나 `gem` 명령어로 이용할 수 있습니다.
 
 `gem search -r` 명령어를 사용해 RubyGems의 저장소를 조사할 수 있습니다. 예를 들어
-`gem search -r rails`는 레일즈와 관련된 gem들의 목록을 돌려줍니다.
+`gem search -r rails`는 Rails와 관련된 gem들의 목록을 돌려줍니다.
 `--local` (`-l`) 옵션을 사용하면 설치된 gem들에 대해 로컬 검색할 수 있습니다. gem을
 설치하려면 `gem install [gem]`을 사용합니다. 설치된 gem을 보려면 `gem
 list`를 사용합니다. 좀 더 정보가 필요하시면 아래 내용을 좀 더 읽으시거나 [RubyGems의
@@ -64,7 +64,7 @@ html-sample (1.0, 1.1)
 
 #### gem 설치하기
 
-gem을 설치하려면 **install** 명령을 사용하면 됩니다. 예를 들어 레일즈를
+gem을 설치하려면 **install** 명령을 사용하면 됩니다. 예를 들어 Rails를
 설치하려면 이렇게 하면 됩니다.
 
 {% highlight sh %}

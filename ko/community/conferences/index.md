@@ -19,7 +19,7 @@ Ruby에 대한 콘퍼런스 목록입니다. 이곳에서는 행사일, 장소, 
   RubyConf를 개최합니다. 참가자 수는 2001년에서 2006년까지 10배 정도
   증가했습니다. RubyConf에서는 제작자가 직접 자신의 테크놀로지를 설명하고
   있습니다. 여기에는 Nathaniel Talbot의 Test Unit, Jim Weirich의 Rake,
-  David Heinemeier Hansson의 Ruby 온 레일즈, Why the Lucky Stiff의 YAML
+  David Heinemeier Hansson의 Ruby on Rails, Why the Lucky Stiff의 YAML
   라이브러리, Sasada Koichi의 YARV 등이 있었습니다. Matz도 한번을
   제외한 전 RubyConf에 참가하고 강연했습니다.
 
@@ -43,7 +43,7 @@ Ruby에 대한 콘퍼런스 목록입니다. 이곳에서는 행사일, 장소, 
 다른 언어의 트랙에 비해 비중이 증가하는 추세입니다. Ruby Central의
 [RailsConf][12], RailsConf Europe (2006년엔 Ruby Central과
 [Skills Matter][14]에 의해 2007년엔 Ruby Central과 오라일리에 의해 공동기획),
-Canada on Rails 등등의 많은 콘퍼런스들은 [Ruby 온 레일즈][11]의 헌신 덕분에
+Canada on Rails 등등의 많은 콘퍼런스들은 [Ruby on Rails][11]의 헌신 덕분에
 가능했습니다.
 
 

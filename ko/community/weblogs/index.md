@@ -12,7 +12,7 @@ Ruby 블로그들은 지난 몇 년간 폭발적으로 많아졌고, 풍부한 �
 
 ### Ruby 블로그 발굴하기
 
-* [**RubyFlow**][rubyflow]는 'Ruby와 레일즈 커뮤니티의 링크 목록'으로
+* [**RubyFlow**][rubyflow]는 'Ruby와 Rails 커뮤니티의 링크 목록'으로
   라이브러리, 블로그 글, 튜토리얼 등의 Ruby에 대한 정보를 다루는 링크를
   제공하는 Ruby 뉴스 사이트입니다.
 * [**Rubyland**][rubyland]는 여러 RSS 피드로부터 Ruby에 관련된 뉴스와 블로그
@@ -27,8 +27,8 @@ Ruby 블로그들은 지난 몇 년간 폭발적으로 많아졌고, 풍부한 �
 * [**DEV Ruby Tag**][dev-ruby-tag]는 DEV 커뮤니티에서 Ruby 태그가 붙어있는 모든
   글의 모음입니다. DEV는 코드에 대해서 글을 쓰거나 토론하는 수천 명의
   개발자들의 모임입니다.
-* [**Riding Rails**][riding-rails]는 Ruby 온 레일즈 팀의 공식 그룹 블로그입니다.
-  레일즈를 이용하고 있다면, 이 블로그는 보안 업데이트를 받아 보거나 넓은 레일즈 커뮤니티를
+* [**Riding Rails**][riding-rails]는 Ruby on Rails 팀의 공식 그룹 블로그입니다.
+  Rails를 이용하고 있다면, 이 블로그는 보안 업데이트를 받아 보거나 넓은 Rails 커뮤니티를
   전망하기에 필수입니다.
 
 ### 널리 알리기

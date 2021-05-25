@@ -80,14 +80,14 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
   Ruby 개발에 참여하거나, C 확장을 개발할 때 도움이 될 것입니다.
 
 [RubyDoc.info][16] (영문)
-: Ruby 젬과 GitHub에서 호스팅 되는 Ruby 프로젝트의 레퍼런스 문서들을
+: Ruby gem과 GitHub에서 호스팅 되는 Ruby 프로젝트의 레퍼런스 문서들을
   모아놓은 사이트입니다.
 
 [Ruby & Rails Searchable API Docs][17] (영문)
-: 스마트 검색이 가능한 Ruby, 레일즈 문서입니다.
+: 스마트 검색이 가능한 Ruby, Rails 문서입니다.
 
 [APIdock][18] (영문)
-: 유저의 댓글이 달린 Ruby, 레일즈, RSpec의 문서입니다.
+: 유저의 댓글이 달린 Ruby, Rails, RSpec의 문서입니다.
 
 [Ruby API][40] (영문)
 : Ruby 클래스, 모듈, 메서드를 편하게 찾고 탐색하세요.

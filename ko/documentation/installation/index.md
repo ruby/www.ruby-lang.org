@@ -254,9 +254,9 @@ Windows에서는 [RubyInstaller][rubyinstaller]는 전체 Ruby 개발 환경을 
 ### Ruby Stack
 {: #rubystack}
 
-Ruby 온 레일즈를 사용하기 위해 Ruby를 설치하신다면 다음 인스톨러를 사용할 수 있습니다.
+Ruby on Rails를 사용하기 위해 Ruby를 설치하신다면 다음 인스톨러를 사용할 수 있습니다.
 
-* [Bitnami Ruby Stack][rubystack]는 Ruby 온 레일즈를 위한 완전한 개발환경을 제공합니다.
+* [Bitnami Ruby Stack][rubystack]는 Ruby on Rails를 위한 완전한 개발환경을 제공합니다.
   macOS, Linux, Windows, 가상 머신, 클라우드 이미지를 지원합니다.
 
 

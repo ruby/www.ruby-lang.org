@@ -11,7 +11,7 @@ Ruby와 Ruby 커뮤니티에 대한 뉴스, 인터뷰, 토론을 들어보세요
   공개 토론회입니다.
 
 [Ruby on Rails 팟캐스트][rorpodcast]
-: Ruby on Rails 팟캐스트는 Ruby 온 레일즈, 오픈 소스 소프트웨어, 프로그래밍
+: Ruby on Rails 팟캐스트는 Ruby on Rails, 오픈 소스 소프트웨어, 프로그래밍
   업계에 대해 대화하는 주간 팟캐스트입니다.
 
 ### 참여하기
