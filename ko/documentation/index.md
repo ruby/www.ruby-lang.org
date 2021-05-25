@@ -175,7 +175,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [vscode]: https://code.visualstudio.com/
 
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
-[ko-2]: http://beyond.daesan.com/pages/ruby-faq
+[ko-2]: https://web.archive.org/web/20190521035426/http://beyond.daesan.com/pages/ruby-faq
 [ko-3]: https://groups.google.com/forum/#!forum/rubykr
 [ko-4]: https://www.facebook.com/groups/rubykr/
 [ko-5]: http://ruby-korea.github.io/#book
