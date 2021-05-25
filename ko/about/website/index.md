@@ -4,7 +4,7 @@ title: "Ruby 웹 사이트에 대해서"
 lang: ko
 ---
 
-이 웹 사이트는 Ruby와 [Jekyll][jekyll]로 생성되었습니다,<br>
+이 웹 사이트는 Ruby와 [Jekyll][jekyll]로 생성되었고,<br>
 소스코드는 [GitHub][github-repo]에서 호스트 됩니다.
 
 이 사이트는 Ruby Visual Identity 팀의 이전 디자인을 기초로
