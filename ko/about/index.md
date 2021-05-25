@@ -150,7 +150,7 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
 * [JRuby][jruby]는 JVM(Java 가상 머신) 위에서 구동되는 Ruby입니다. JVM의 최적화 JIT 컴파일러, 가비지 컬렉터, 병렬 스레드, 툴 에코시스템,
   그리고 다양한 라이브러리 집합을 활용합니다.
 * [Rubinius][rubinius]는 ‘Ruby로 쓰인 Ruby’입니다. LLVM 위에 구축되어,
-  Rubinius는 다른 언어 역시 구축된 멋진 가상 기기 위에서 활동합니다.
+  Rubinius는 다른 언어 역시 구축된 멋진 가상 머신 위에서 활동합니다.
 * [mruby][mruby]는 Ruby의 경량 구현체로 애플리케이션 안에 링크되거나 포함시킬 수 있습니다.
   Ruby의 창시자인 유키히로 “Matz” 마츠모토가 개발을 이끌고 있습니다.
 * [IronRuby][ironruby]는 “.NET Framework과 강력하게 통합된” 구현체입니다.
