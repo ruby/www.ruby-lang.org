@@ -33,6 +33,8 @@ RDoc はローカルのファイルを開くために、`Kernel#open` を使用�
 gem install rdoc
 ```
 
+もしbundlerを使っている場合は、Gemfileに`gem "rdoc", ">= 6.3.1"`を追加してください。
+
 ## クレジット
 
 この脆弱性情報は、[Alexandr Savca](https://hackerone.com/chinarulezzz) 氏によって報告されました。
