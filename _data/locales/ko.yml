@@ -57,7 +57,7 @@ sidebar:
     mailing_lists:
       text: 메일링 리스트
       url: /ko/community/mailing-lists/
-      description: 전세계의 프로그래머들와 Ruby와 관련된 대화를 나누기
+      description: 전 세계의 프로그래머와 Ruby와 관련된 대화를 나누기
     user_groups:
       text: 유저 그룹
       url: /ko/community/user-groups/
