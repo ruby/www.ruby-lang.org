@@ -11,7 +11,7 @@ Ruby의 장점, 특징에 대한 설명에서 빠지지 않고 등장하는 것�
 관심이 있다면 꼭 참여해보세요. 여기 참여할 수 있는 몇 가지 방법을 알려드립니다.
 
 
-[Ruby 사용자 포럼(RubyKR)](http://groups.google.com/group/rubykr)
+[한국 루비 사용자 모임(RubyKR)](http://groups.google.com/group/rubykr)
 : 한국 Ruby 커뮤니티입니다.
   비정기적으로 오프라인 행사(친목모임 또는 작은 세미나)도 있으니 참여해보기 바랍니다.
 
