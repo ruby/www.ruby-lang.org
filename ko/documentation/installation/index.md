@@ -279,7 +279,7 @@ Ruby on Rails를 사용하기 위해 Ruby를 설치하신다면 다음 인스톨
 ### chruby
 {: #chruby}
 
-[chruby][chruby]는 여러 Ruby들 간의 전환을 하게 합니다.
+[chruby][chruby]는 여러 Ruby 간의 전환을 하게 합니다.
 chruby는 [ruby-install](#ruby-install)로 설치된 Ruby뿐만
 아니라 소스에서 빌드 된 Ruby도 관리할 수 있습니다.
 
