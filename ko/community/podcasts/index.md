@@ -6,7 +6,7 @@ lang: ko
 
 Ruby와 Ruby 커뮤니티에 대한 뉴스, 인터뷰, 토론을 들어보세요.
 
-[Ruby 로그(Ruby Rogues)][rogues]
+[Ruby Rogues][rogues]
 : Ruby 로그 팟캐스트는 프로그래밍, 업계, 커뮤니티, Ruby와 관련된 주제로 진행되는
   공개 토론회입니다.
 
