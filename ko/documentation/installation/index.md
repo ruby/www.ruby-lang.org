@@ -297,7 +297,7 @@ rbenv, ruby-build 모두 macOS, Linux나 다른 UNIX-계열 운영체제에서 �
 {: #rvm}
 
 [RVM][rvm]은 시스템에 여러 종류의 Ruby를 설치하고 관리할 수 있게 해줍니다.
-RVM은 다른 gemsets도 관리해 줍니다.
+RVM은 다른 gemset도 관리해 줍니다.
 macOS, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
