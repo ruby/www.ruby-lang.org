@@ -72,7 +72,7 @@ $ git clone git@git.ruby-lang.org:ruby.git
 
         $ git diff > ruby-changes.patch
 
-4.  [이슈 트랙커][10]에 티켓을 만들거나
+4.  [이슈 트래커][10]에 티켓을 만들거나
     [Ruby-Core 메일링 리스트][mailing-lists]에 패치와 패치를 설명한
     ChangeLog를 함께 메일로 보냅니다.
 
@@ -111,7 +111,7 @@ $ git checkout ruby_X_X
 
 X_X는 체크아웃 하고 싶은 브랜치 이름으로 변경하세요.
 
-브랜치를 변경하고 싶다면 [이슈 트랙커][10]에 이슈를 만들어주세요.
+브랜치를 변경하고 싶다면 [이슈 트래커][10]에 이슈를 만들어주세요.
 다음 링크도 참고하세요.
 
 [gitrlo]: https://git.ruby-lang.org/ruby.git
