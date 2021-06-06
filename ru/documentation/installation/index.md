@@ -33,6 +33,7 @@ lang: ru
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
+  * [OpenBSD](#openbsd)
   * [Solaris, OpenIndiana](#solaris)
   * [Другие дистрибутивы](#other-systems)
 * [Установщики](#installers)
@@ -136,6 +137,26 @@ $ brew install ruby
 {% endhighlight %}
 
 Это установит последнюю версию Ruby.
+
+
+### OpenBSD
+{: #openbsd}
+
+OpenBSD, а также его дистрибутив adJ, имеет пакеты для трех
+основных версий Ruby. Следующая команда позволяет вам увидеть
+доступные версии и установить одну из них:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+Вы можете установить несколько основных версий одновременно, потому что их
+бинарники имеют разные имена (например, `ruby27`, `ruby26`).
+
+Ветка `HEAD` коллекции портов OpenBSD может иметь
+самую последнюю версию Ruby для этой платформы через несколько дней после ее
+релиза, смотрите
+[директорию lang/ruby в самой последней коллекции портов][openbsd-current-ruby-ports].
 
 
 ### Ruby на Solaris и OpenIndiana
@@ -299,3 +320,4 @@ $ sudo make install
 [homebrew]: http://brew.sh/
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
