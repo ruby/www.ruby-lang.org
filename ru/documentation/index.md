@@ -133,7 +133,7 @@ ruby -v
 ### Дальнейшее чтение
 
 [Ruby-Doc.org][34] поддерживает актуальный список англоязычных источников.
-Также там есть неплохой список [книг по Ruby][35]. Если у вас есть
+Если у вас есть
 вопросы по Ruby, [почтовая рассылка](/ru/community/mailing-lists/) – отличное место их задать.
 
 
@@ -170,7 +170,6 @@ ruby -v
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

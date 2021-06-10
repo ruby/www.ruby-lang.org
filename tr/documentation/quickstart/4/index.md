@@ -150,10 +150,3 @@ fazla şeyler öğrenmek için bir arzu yaratmıştır.
 
 Eğer öyleyse lütfen [Belgeler](/tr/documentation/) bölgesindeki ücretsiz
 el kitapları ve öğreticileri inceleyin.
-
-Ya da gerçekten kapsamlı bir kitap bakıyorsanız, [kitap listesinde][1]
-(site-dışı link) yararlı kitaplar bulabilirsiniz.
-
-
-
-[1]: http://www.ruby-doc.org/bookstore

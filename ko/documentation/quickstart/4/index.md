@@ -131,15 +131,11 @@ Ruby를 잠깐 둘러 보았습니다. 물론 훨씬 더 많은 것들이 기다
 만약 그랬다면, 매뉴얼과 튜토리얼 등이 소개되어 있는 [문서 섹션](/ko/documentation)으로 가 보세요. 모두
 온라인에 무료로 제공되고 있으니까요.
 
-다른 책들을 책을 파고 싶으시다면, [원서들][1](외부 링크)을 확인해보세요.
-서점에서 판매중인 책들을 온라인에서 구매 하실 수 있습니다.
-
-* 원문: [Ruby in Twenty Minutes][2]
-* 번역: [황대산][3]
+* 원문: [Ruby in Twenty Minutes][1]
+* 번역: [황대산][2]
 * 이 문서는 업데이트되고 있습니다. 대산 님의 초기 번역본과는 다를 수 있습니다.
 
 
 
-[1]: http://www.ruby-doc.org/bookstore
-[2]: /en/documentation/quickstart
-[3]: http://beyond.daesan.com
+[1]: /en/documentation/quickstart
+[2]: http://beyond.daesan.com

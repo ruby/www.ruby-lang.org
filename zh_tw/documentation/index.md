@@ -101,7 +101,7 @@ lang: zh_tw
 
 ### 進階閱讀
 
-[Ruby-Doc.org][34] 維護了一份簡單易懂的英文文件列表。[Ruby 有關的書籍][35]也相當充足。如有任何 Ruby 相關的問題，[郵件論壇](/en/community/mailing-lists/)是個問問題的好地方。
+[Ruby-Doc.org][34] 維護了一份簡單易懂的英文文件列表。如有任何 Ruby 相關的問題，[郵件論壇](/en/community/mailing-lists/)是個問問題的好地方。
 
 
 
@@ -138,7 +138,6 @@ lang: zh_tw
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

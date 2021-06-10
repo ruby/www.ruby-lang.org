@@ -143,11 +143,3 @@ ti abbia invogliato a saperne di più.
 Se così fosse, allora dai un occhiata alla nostra sezione
 [Documentazione](/it/documentation) che contiene link a manuali e
 tutorial tutti disponibili gratuitamente online.
-
-Oppure, se sei veramente interessato in un libro controlla la [lista dei
-libri][1] (link esterno) dove trovi libri che puoi comprare online o
-nella tua libreria preferita.
-
-
-
-[1]: http://www.ruby-doc.org/bookstore

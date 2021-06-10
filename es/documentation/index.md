@@ -135,7 +135,7 @@ Rubiceros:
 ### Otras lecturas
 
 [Ruby-Doc.org][34] mantiene una extensa lista de fuentes de
-documentación en inglés. También existen varios [libros sobre Ruby][35].
+documentación en inglés.
 Si tiene preguntas sobre Ruby, la
 [lista de correo](/es/community/mailing-lists/) es un buen lugar para
 comenzar.
@@ -176,7 +176,6 @@ comenzar.
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
