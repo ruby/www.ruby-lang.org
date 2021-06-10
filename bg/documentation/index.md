@@ -125,7 +125,7 @@ ruby -v
 ### Други източници
 
 [Ruby-Doc.org][34] поддържа списък с източници на информация на
-английски език. Също така съдържа списък с [книги за Ruby][35].
+английски език.
 Ако имате въпроси относно Ruby, [пощенският списък](/bg/community/mailing-lists/)
 е чудесно място да ги зададете.
 
@@ -160,7 +160,6 @@ ruby -v
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

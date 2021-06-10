@@ -122,7 +122,7 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby:
 ### Bacaan selanjutnya
 
 [Ruby-Doc.org][34] merawat daftar lengkap dokumentasi Bahasa Inggris.
-Ada juga banyak [buku tentang Ruby][35]. Jika Anda memiliki pertanyaan
+Jika Anda memiliki pertanyaan
 tentang Ruby, [mailing list](/id/community/mailing-lists/)
 adalah tempat yang baik untuk memulai.
 
@@ -160,7 +160,6 @@ adalah tempat yang baik untuk memulai.
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

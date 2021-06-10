@@ -149,10 +149,3 @@ ciekawość.
 Jeśli tak, to zapraszam do przejścia do
 [Dokumentacji](/pl/documentation/) , w której znajdziesz podsumowanie
 linków, manuali i tutoriali, wszystkie dostępne za darmo w sieci.
-
-Jeśli chciałbyś obejrzeć jakieś książki, sprawdź [listę książek o
-Rubim][1] (po angielsku).
-
-
-
-[1]: http://www.ruby-doc.org/bookstore

@@ -122,7 +122,7 @@ Questa è una lista dei tool più comunemente usati dagli sviluppatori Ruby:
 ### Ulteriori Informazioni
 
 [Ruby-Doc.org][34] mantiene un’esauriente lista di documenti in inglese.
-Ci sono anche molti [libri su Ruby][35]. Se hai domande su Ruby la lista
+Se hai domande su Ruby la lista
 delle [mailing list](/it/community/mailing-lists/) è perfetta per
 iniziare.
 
@@ -159,7 +159,6 @@ iniziare.
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

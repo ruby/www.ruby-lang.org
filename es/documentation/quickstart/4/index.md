@@ -151,11 +151,3 @@ muestra de Ruby te despierte el interés por saber más.
 Si es así, por favor dirígete a nuestra area de
 [Documentación](/es/documentation/), donde encontrarás vínculos a cursos
 y manuales, todos disponibles gratuitamente en internet.
-
-O si realmente te gustaría sumergirte en un libro, busca en el [listado
-de libros][1] los títulos disponibles para venta en linea o en tu tienda
-favorita.
-
-
-
-[1]: http://www.ruby-doc.org/bookstore

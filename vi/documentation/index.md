@@ -133,7 +133,6 @@ tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, h
 ### Đọc thêm
 
 [Ruby-Doc.org][34] duy trì một danh sách đầy đủ của nguồn tài liệu tiếng anh.
-Ngoài ra còn có rất nhiều [sách về Ruby][35].
 Nếu bạn có câu hỏi gì về Ruby, [danh sách mail](/vi/community/mailing-lists/)
 là một nơi tuyệt vời.
 
@@ -171,7 +170,6 @@ là một nơi tuyệt vời.
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

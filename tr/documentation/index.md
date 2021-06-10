@@ -135,8 +135,7 @@ bir tümleşik geliştirme ortamı seçmeniz daha iyi olur.
 ### Diğer Belgeler
 
 [Ruby-doc.org][34] Ruby hakkındaki İngilizce belgeleri bir araya
-toplamayı amaçlayan bir site. [Ruby hakkında yazılmış kitaplar][35] da
-bakılacak diğer kaynaklardan. Ruby hakkında aklınıza takılan herhangi bir soru
+toplamayı amaçlayan bir site. Ruby hakkında aklınıza takılan herhangi bir soru
 için [e-posta listeleri](/tr/community/mailing-lists/) iyi bir başlangıç
 olacaktır.
 
@@ -175,7 +174,6 @@ olacaktır.
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

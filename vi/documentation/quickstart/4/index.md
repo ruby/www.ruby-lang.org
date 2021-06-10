@@ -142,9 +142,3 @@ hy vọng những thú vị ban đầu này của Ruby sẽ khiến bạn muốn
 Nếu vậy, hãy đi đến khu vực [Tài liệu](/vi/documentation/) của chúng tôi, nơi
 có vô vàn đường dẫn tới các bài chỉ dẫn và hướng dẫn sử dụng, tất cả đều miễn
 phi trực tuyến.
-
-Hoặc nếu bạn thực sự muốn tìm hiểu trong một cuốn sách, hãy kiểm tra
-[danh mục sách][1] (đường dẫn tại trang) cho các đầu sách bán trực tuyến hoặc
-tại các cửa hàng sách gần bạn.
-
-[1]: http://www.ruby-doc.org/bookstore

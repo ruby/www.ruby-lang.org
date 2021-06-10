@@ -127,7 +127,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 ### 더 읽을거리
 
 [Ruby-Doc.org][34]는 Ruby 영문 문서를 포괄적으로 관리하는 사이트입니다. Ruby
-[책들][ko-5]도 출판되어 있습니다. 원서들은 [여기][35]에서 확인하세요. Ruby에
+[책들][ko-5]도 출판되어 있습니다. Ruby에
 관한 질문이 있다면, [유저 그룹][ko-3]이나 [페이스북 그룹][ko-4]에서 하실 수 있고
 영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하실 수도
 있습니다.
@@ -164,7 +164,6 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

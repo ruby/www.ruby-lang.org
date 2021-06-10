@@ -151,10 +151,3 @@ aprender mais.
 Se este for o caso, por favor visite a nossa seção de
 [Documentação](/pt/documentation/) , que reune links para manuais e tutoriais,
 todos disponíveis livremente online.
-
-Ou, se desejar ler um livro mesmo, consulte a nossa [lista de livros][1]
-para títulos disponíveis à venda online ou na sua livraria de preferência.
-
-
-
-[1]: http://www.ruby-doc.org/bookstore
