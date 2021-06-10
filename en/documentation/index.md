@@ -123,7 +123,7 @@ Here is a list of popular tools used by Rubyists:
 ### Further Reading
 
 [Ruby-doc.org][34] maintains a comprehensive list of English
-documentation sources. There are also plenty of [books about Ruby][35].
+documentation sources.
 If you have questions about Ruby the
 [mailing list](/en/community/mailing-lists/) is a great place to start.
 
@@ -162,7 +162,6 @@ If you have questions about Ruby the
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

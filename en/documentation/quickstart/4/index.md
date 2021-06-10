@@ -146,11 +146,3 @@ you wanting to learn more.
 If so, please head on over to our [Documentation](/en/documentation/)
 area, which rounds up links to manuals and tutorials, all freely
 available online.
-
-Or, if you’d really like to dig into a book, check the [book list][1]
-(off-site link) for titles available for sale online or at your local
-bookseller.
-
-
-
-[1]: http://www.ruby-doc.org/bookstore
