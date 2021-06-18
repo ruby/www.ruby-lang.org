@@ -25,7 +25,7 @@ Quelques liens à visiter:
   disponibles. Si vous avez des questions sur Ruby, les poser sur une de
   ces listes est un moyen efficace pour obtenir rapidement des réponses.
 
-[IRC (#ruby)](irc://irc.freenode.net/ruby)
+[IRC (#ruby)](https://web.libera.chat/#ruby)
 : Le canal IRC anglophone #ruby est un endroit fantastique pour
   discuter en temps réel avec d’autres rubyistes.
 

@@ -35,7 +35,7 @@ başlangıç önerisi var:
 : Kendi dilinizde sohbet etmek için IRC kanalına alternatif olarak oldukça
   popüler olan bu Slack kanalını da kullanabilirsiniz.
 
-[IRC’de Ruby (#ruby)](irc://irc.freenode.net/ruby) (İngilizce)
+[IRC’de Ruby (#ruby)](https://web.libera.chat/#ruby) (İngilizce)
 : Ruby IRC Kanalı, diğer Ruby’cilerle sohbet etmek için harika bir
   yoldur.
 
