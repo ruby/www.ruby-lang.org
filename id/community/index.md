@@ -32,10 +32,8 @@ untuk memulai petualangan Anda:
 
 **Ruby di IRC**
 : Anda bisa berbincang-bincang (*chatting*) dengan pengguna Ruby lainnya
-  di *channel* IRC untuk Ruby. Ada dua channel yang menarik bagi Rubyist
-  Indonesia, yaitu [#ruby](irc://irc.freenode.net/ruby) untuk
-  diskusi internasional menggunakan bahasa Inggris dan
-  [#ruby-id](irc://irc.freenode.net/ruby-id) untuk diskusi lokal.
+  di *channel* IRC untuk Ruby. Bergabunglah dengan [#ruby](https://web.libera.chat/#ruby) untuk
+  diskusi internasional menggunakan bahasa Inggris.
 
 [Ruby Core](ruby-core/)
 : Sekarang adalah waktu yang tepat untuk mengikuti perkembangan Ruby.

@@ -28,7 +28,7 @@ to start:
   chat with other Rubyists, get help with Ruby questions, or help others.
   Discord is a good entry point for new developers and it is easy to join.
 
-[Ruby on IRC (#ruby)](irc://irc.freenode.net/ruby)
+[Ruby on IRC (#ruby)](https://web.libera.chat/#ruby)
 : The Ruby Language IRC Channel is a wonderful way to chat with fellow
   Rubyists.
 

@@ -27,7 +27,7 @@ Ruby의 장점, 특징에 대한 설명에서 빠지지 않고 등장하는 것�
 : Ruby는 여러 언어에 걸쳐 다른 주제를 다루는 다양한 메일링 리스트를 가지고 있습니다.
   Ruby에 관해 질문이 있다면, 메일링 리스트에 질문하시면 됩니다.
 
-[IRC에서의 Ruby(#ruby)](irc://irc.freenode.net/ruby)
+[IRC에서의 Ruby(#ruby)](https://web.libera.chat/#ruby)
 : Ruby 언어 IRC 채널에서 동료 루비스트와 채팅할 수 있습니다.
 
 [Ruby 코어](ruby-core/)

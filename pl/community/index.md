@@ -26,11 +26,9 @@ poniżej znajdziesz kilka propozycji:
   jakieś pytania, to najprędzej otrzymasz na nie odpowiedź na liście
   wysyłkowej
 
-[Ruby na IRC (#ruby)](irc://irc.freenode.net/ruby)
+[Ruby na IRC (#ruby)](https://web.libera.chat/#ruby)
 : Jeśli masz ochotę porozmawiać z innymi użytkownikami (nie tylko z
   Polski), bez wychodzenia z domu, wypróbuj IRC.
-  Istnieje też polski kanał IRC na serwerze irc.freenode.net
-  ([#ruby.pl](irc://irc.eu.freenode.net/ruby.pl)).
 
 [Ruby Core](/en/community/ruby-core/)
 : Jeśli masz ochotę zaangażować się w tworzenie i rozwijanie samego
