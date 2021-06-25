@@ -17,6 +17,7 @@ lang: ja
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
+  * [chruby](#chruby)
   * [Homebrew](#homebrew)
   * [ソースからのビルド](#building-from-source)
 
@@ -24,6 +25,7 @@ lang: ja
 
   * [rbenv](#rbenv)
   * [RVM](#rvm)
+  * [chruby](#chruby)
   * [パッケージ管理システム](#package-management-systems)
   * [ソースからのビルド](#building-from-source)
 
@@ -47,13 +49,13 @@ lang: ja
 rbenv では複数の Ruby を管理することができます。
 
 rbenv は Ruby のインストール自体はサポートしていませんが、
-ruby-build というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
+[ruby-build](https://github.com/rbenv/ruby-build) というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
 
 それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
 
 rbenv をインストールする方法は [rbenvのページ][rbenv] に記述されています。
 
-rbenv と似たツールとして、次に説明する RVM があります。
+rbenv と似たツールとして、次に説明する RVM や chruby があります。
 そちらも確認して、良い方を選んでください。
 
 
@@ -64,6 +66,18 @@ RVM は複数の Ruby のインストールと管理を行うことができま�
 このツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
+
+### chruby
+{: #chruby}
+
+chruby では複数の Ruby を管理することができます。
+
+chruby は Ruby のインストール自体はサポートしていませんが、
+[ruby-install](https://github.com/postmodern/ruby-install) や [ruby-build](https://github.com/rbenv/ruby-build) というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
+
+それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
+
+chruby をインストールする方法は [chrubyのページ][chruby] に記述されています。
 
 ### RubyInstaller
 {: #rubyinstaller}
@@ -232,6 +246,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
+[chruby]: https://github.com/postmodern/chruby
 [active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/

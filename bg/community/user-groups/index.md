@@ -20,11 +20,7 @@ lang: bg
 Информация за Ruby потребителски групи можете да намерите на следните
 сайтове:
 
-[rubyusergroups.org][1]
-: Публичен списък с Ruby групи по света. Позволява на Ruby програмисти да се
-  поставят на световната карта.
-
-[Ruby Meetup Groups][2]
+[Ruby Meetup Groups][1]
 : Meetup предоставя: частни форуми, място за съобщения и публикации,
   напомняне за събирания и RSVP система.
 
@@ -37,5 +33,4 @@ lang: bg
 
 
 
-[1]: http://www.rubyusergroups.org/
-[2]: http://ruby.meetup.com
+[1]: https://ruby.meetup.com

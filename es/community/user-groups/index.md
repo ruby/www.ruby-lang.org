@@ -32,10 +32,7 @@ Algunos grupos que pueden resultar de tu interés:
 [RUGUY][3]
 : Grupo de Usuarios de Ruby del Uruguay.
 
-[Ruby User Groups][4]
-: Directorio global de grupos de usuarios de Ruby.
-
-[Ruby Meetup Groups][5]
+[Ruby Meetup Groups][4]
 : Varios grupos de usuarios Ruby han hecho de Meetup su hogar. Meetup
   provee una cantidad de herramientas para grupos de usuarios,
   incluyendo: foros privados, un lugar para anuncios, recordatorios
@@ -46,5 +43,4 @@ Algunos grupos que pueden resultar de tu interés:
 [1]: http://rubysur.org/
 [2]: http://ruby.com.ar/
 [3]: http://ruguy.org/
-[4]: http://www.rubyusergroups.org/
-[5]: http://ruby.meetup.com
+[4]: https://ruby.meetup.com

@@ -20,10 +20,6 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   Ländern. Hilfestellungen für Neulinge werden ebenso gern gegeben wie
   ausschweifende Diskussionen über Ruby-Interna geführt.
 
-[Ruby im IRC (#ruby-de)](irc://irc.freenode.net/ruby-de)
-: Der deutschsprachige IRC-Channel zu Ruby ist zwar lange nicht so
-  aktiv wie der englische (siehe unten), aber deswegen noch nicht uninteressant.
-
 [Ruby User Groups](user-groups/)
 : Ihre lokale Ruby User Group ist der beste Ort, um sich mit anderen
   Ruby-Programmierern auszutauschen. Ruby-Benutzergruppen organisieren sich
@@ -54,7 +50,7 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   sollte diese in einer Mailingliste stellen, um eine Antwort zu
   bekommen.
 
-[Ruby im IRC (#ruby)](irc://irc.freenode.net/ruby)
+[Ruby im IRC (#ruby)](https://web.libera.chat/#ruby)
 : Der Ruby Language IRC-Channel ist eine hervorragende Möglichkeit mit
   anderen Rubyisten zu chatten.
 

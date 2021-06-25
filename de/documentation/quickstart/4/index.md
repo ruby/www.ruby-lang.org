@@ -156,12 +156,3 @@ Falls ja, schau doch einfach in unsere
 [Dokumentations-Abteilung](/de/documentation/). Dort gibt es Links zu
 Handbüchern und Anleitungen, die alle kostenlos und online verfügbar
 sind.
-
-Oder wenn Du lieber in Büchern schmökerst, ist die
-[Bücherliste][1] einen Blick wert. Sie listet
-Buchtitel auf, die Du online oder bei Deinem örtlichen Buchhändler
-kaufen kannst.
-
-
-
-[1]: http://www.ruby-doc.org/bookstore

@@ -106,7 +106,7 @@ ruby -v
 
 ### 扩展阅读
 
-[Ruby-Doc.org][34] 网站中有完整的 Ruby 英文文档。此外，还有很多 [Ruby 的书籍][35]。如果有 Ruby 相关的问题，可以参加[邮件列表](/zh_cn/community/mailing-lists/)中的讨论。
+[Ruby-Doc.org][34] 网站中有完整的 Ruby 英文文档。如果有 Ruby 相关的问题，可以参加[邮件列表](/zh_cn/community/mailing-lists/)中的讨论。
 
 
 
@@ -142,7 +142,6 @@ ruby -v
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

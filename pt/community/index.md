@@ -23,8 +23,8 @@ Se está interessado em colaborar, seguem alguns lugares para começar:
   Se tiver dúvidas sobre o Ruby, perguntá-las em listas de e-mail é um
   grande jeito de conseguir respostas.
 
-[Ruby no IRC (#ruby)](irc://irc.freenode.net/ruby)
-: O canal de IRC do Ruby é um óptimo meio de comunicar com outros
+[Ruby no IRC (#ruby)](https://web.libera.chat/#ruby)
+: O canal de IRC do Ruby é um ótimo meio de se comunicar com outros
   programadores de Ruby.
 
 [Núcleo do Ruby](ruby-core/)

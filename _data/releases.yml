@@ -21,6 +21,30 @@
 
 # 3.0 series
 
+- version: 3.0.1
+  date: 2021-04-05
+  post: /en/news/2021/04/05/ruby-3-0-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.1.tar.xz
+  size:
+    gz:  19664598
+    zip: 24014727
+    xz:  14486780
+  sha1:
+    gz:  60c72f3e501a3be9616385cad3e48bc89d6150a1
+    zip: 311164da8f68abb58f8590356bf492fc2ab80192
+    xz:  3c5443960fe860ff7055bc02a4793140b9fb9b28
+  sha256:
+    gz:  369825db2199f6aeef16b408df6a04ebaddb664fb9af0ec8c686b0ce7ab77727
+    zip: c8703c33904c79613a41a750cc62d210c3c57fec0728476d66b0a9031a499d68
+    xz:  d06bccd382d03724b69f674bc46cd6957ba08ed07522694ce44b9e8ffc9c48e2
+  sha512:
+    gz:  cb81db2c9b698cf8159b2ca6507f4c7f171e4eb387f5730c4b658ed632b7900a169808e6fbec0ee80598d937030ad5d9c56b63a2a339373ec5d9e1c06b7661d0
+    zip: 395cdbd7fd42f0d2b42208c390db7ac2ed8d3e247d9b7fdaa43347a815b108a3680cbebf2ab8f05ec468ff02c832e2f3c1399e616f0f3e3016f6a6e894811b01
+    xz:  97d2e883656060846b304368d9d836e2f3ef39859c36171c9398a0573818e4ed75bfd7460f901a9553f7f53518c505327a66e74f83704a881469f5ac61fe13d7
+
 - version: 3.0.0
   tag: v3_0_0
   date: 2020-12-25
@@ -140,6 +164,35 @@
     xz:  dca5dcc965c434371947c100864090e29e649e19ae24b8bb2e88a534ebd8220c5a086035a999b1e8b1cd5ec154a6985a8d8dfea56095d712d62aeea7a2054f7d
 
 # 2.7 series
+
+- version: 2.7.3
+  date: 2021-04-05
+  post: /en/news/2021/04/05/ruby-2-7-3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.3.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.3.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.3.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.3.tar.xz
+  size:
+    gz:  16912725
+    zip: 20697429
+    bz2: 14792727
+    xz:  12073568
+  sha1:
+    gz:  1fef38fbb31134e6e14df63ee6ce673e118d64ce
+    zip: 384cd3a915ad666d7f6b51b2babbe08285433202
+    bz2: 4f4a47465b48a91d43fb557b70e47d79f6727a29
+    xz:  ce3d5203d5ab734df01e602c05f68f25249dc3e0
+  sha256:
+    gz:  8925a95e31d8f2c81749025a52a544ea1d05dad18794e6828709268b92e55338
+    zip: 42b56a95e9016bee468af00db49456ee4720d3f9916dda726cdaf83597158376
+    bz2: 3e90e5a41d4df90e19c307ab0fb41789992c0b0128e6bbaa669b89ed44a0b68b
+    xz:  5e91d1650857d43cd6852e05ac54683351e9c301811ee0bef43a67c4605e7db1
+  sha512:
+    gz:  1d036d08016351e8f9e7506a6abaf490fe226cf2ff9c2f9df582b57bff22a960dbaf271a8a167ac09f864613b9b8b14191bb79f8a6900ad5ca24131ecf571d54
+    zip: 527c8ba425b75f13b5837863735811d00b4af49132df13c65fe71a6e04a83d3780a5b2b54b43a95f5b33592f3d689da3f18cefbecef86bcdb0c5e5fc51c7b037
+    bz2: e9236138be3e61380140f2e0d42f8fb82ad8f5219d454de2f6c2ec546bb208acc8b0f2020f23e6446660d2b3b9ae873cdd8298471f166a5f1efba8e80b05e746
+    xz:  b755d418b3bab2f9f6a8893afd13869269f17065643dde78b9e85ae3538a6d0617893db6e9c3908e00a40c7577a5c912a7c822d8f245cdcfb857be76dfb66c1e
 
 - version: 2.7.2
   date: 2020-10-02
@@ -358,6 +411,35 @@
 
 # 2.6 series
 
+- version: 2.6.7
+  date: 2021-04-05
+  post: /en/news/2021/04/05/ruby-2-6-7-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.7.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.7.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.7.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.7.tar.xz
+  size:
+    gz:  16198982
+    zip: 19866856
+    bz2: 14136831
+    xz:  11591404
+  sha1:
+    gz:  c37ba0b0699540bbd46116c2f7440c9e7cd16553
+    zip: 762f76f2d09339862f0de18a6603cf7cbe804ec8
+    bz2: 826bcbe83fde9c813a88e5d42155ea8fa6ffb017
+    xz:  1fd1448125a00cd7b9994637b5e561506de6a6d3
+  sha256:
+    gz:  e4227e8b7f65485ecb73397a83e0d09dcd39f25efd411c782b69424e55c7a99e
+    zip: 3facc52602ff1f1958b9e82a0c1837ce8b3f39c665d7ff01b9bc62f9b7a9d852
+    bz2: 775a5d47b73ce3ee5d600f993badd7b640a2caca138573326db6632858517710
+    xz:  f43ead5626202d5432d2050eeab606e547f0554299cc1e5cf573d45670e59611
+  sha512:
+    gz:  11689cb9a48d9a588c5526dc2581f11bcf56496ecf96a93d4bddc3e92327be29a9e7806fe19c1a774d5b9d681010936577738aae872d08950d472d04fa6c4dfa
+    zip: 9c3a098a7a6133e46dbfa0208461b31a5e4eaa4a9cc3d3eed28e4d29bd2ca97bc1a90e3e433a3832e8bbd4a5bac03d0494a15e1b20237536bde2861d5e1e1cd1
+    bz2: 311ec56d23d0de7a163f66c1ef4e5369b822f8409f8e1f3a25785c803f01c68dd13aa8ddcfb3a0fe6a97bf321950f8d6cd75b2babcb04158e791601914666f7a
+    xz:  ba6fc0a36af2a08cf1b008851e805f59ea1047724fc7b61d4bc674533b8f123cb12fa0969e9a3f57290477c0d75f974ca7e304836e4905bd96a737211df9bd21
+
 - version: 2.6.6
   date: 2020-03-31
   post: "/en/news/2020/03/31/ruby-2-6-6-released/"
@@ -557,6 +639,35 @@
     xz:  1d99139116e4e245ce543edb137b2a8873c26e9f0bde88d8cee6789617cc8d0e
 
 # 2.5 series
+
+- version: 2.5.9
+  date: 2021-04-05
+  post: /en/news/2021/04/05/ruby-2-5-9-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.9.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.9.zip
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.9.tar.bz2
+    xz:  https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.9.tar.xz
+  size:
+    gz:  15687501
+    zip: 19064704
+    bz2: 13805484
+    xz:  11314448
+  sha1:
+    gz:  5408671f2ba4f3124ab99ea6edb6d62887d7e5a0
+    zip: 5f39cfb7a73c7321b65706617275c3c7452281a9
+    bz2: 6ac21486996aa38a71f858d28d01ada5593d0b45
+    xz:  7be8dc2e6e534eb36bfdf9f017af512996ec99a6
+  sha256:
+    gz:  f5894e05f532b748c3347894a5efa42066fd11cc8d261d4d9788ff71da00be68
+    zip: 14db683c6ba6a863ef126718269758de537571b675231ec43f03b987739e3ce1
+    bz2: bebbe3fe7899acd3ca2f213de38158709555e88a13f85ba5dc95239654bcfeeb
+    xz:  a87f2fa901408cc77652c1a55ff976695bbe54830ff240e370039eca14b358f0
+  sha512:
+    gz:  5c9a6703b4c8d6e365856d7815e202f24659078d4c8e7a5059443453032b73b28e7ab2b8a6fa995c92c8e7f4838ffa6f9eec31593854e2fc3fc35532cb2db788
+    zip: c4a34678d280a99fde28cc33ba12d164be8a484f43b09495f9c22c48d2b963424c38470020c057cf346f8cc050ab4289a90a8d516b2a79245dea4e6de79cb75f
+    bz2: 12f58e14cfa6337065b0e82941e39b167813920eb54cbdb4ac4a680dd0cb75d2684d341059e7b4d0da1292bfc4e53041443bd14891a66f50991858b440a835c8
+    xz:  239f73eb4049ae2654b648ab927b1f74643d38a5f29572e4bd4e6aa3c53c1df29e0a995fd90d4ab9d4b2ff073fd809b12df820ccb1ddf395684bba6be1855b7a
 
 - version: 2.5.8
   date: 2020-03-31

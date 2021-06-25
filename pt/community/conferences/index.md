@@ -35,7 +35,7 @@ inscrições.
 
 [EuRuKo <small>(European Ruby Conference)</small>][4]
 : A primeira Conferência Ruby Europeia (EuRuKo) teve lugar em Karlsruhe,
-  na Alemanha, em 2003. Organizada por uma equipa alemã de programadores
+  na Alemanha, em 2003. Organizada por uma equipe alemã de programadores
   Ruby incluindo Armin Roehrl e Michael Neumann, a EuRuKo tornou-se o
   segundo evento anual de Ruby, começando dois anos após a RubyConf.
 

@@ -154,10 +154,3 @@ lanjut.
 Jika Anda ingin menjelajahi Ruby lebih lanjut, silakan ke
 [Dokumentasi](/en/documentation/) yang punya banyak link ke manual dan
 tutorial, semua tersedia gratis secara online.
-
-Atau, jika Anda benar-benar ingin buku, silakan ke [daftar buku][1]
-(link eksternal) (dalam bahasa Inggris)
-
-
-
-[1]: http://www.ruby-doc.org/bookstore

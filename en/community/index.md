@@ -23,11 +23,12 @@ to start:
   languages. If you have questions about Ruby, asking them on a mailing
   list is a great way to get answers.
 
-[Ruby Discord Server](https://discord.gg/UyQnKrT)
-: The Ruby Language Discord Server is a place where you can: chat with other other Rubyist, get help with Ruby questions or help others.
- Discord is a good entrypoint for younger developers and it's easy to join.
+[Ruby Discord Server (invite link)][ruby-discord]
+: The Ruby Language Discord Server is a place where you can
+  chat with other Rubyists, get help with Ruby questions, or help others.
+  Discord is a good entry point for new developers and it is easy to join.
 
-[Ruby on IRC (#ruby)](irc://irc.freenode.net/ruby)
+[Ruby on IRC (#ruby)](https://web.libera.chat/#ruby)
 : The Ruby Language IRC Channel is a wonderful way to chat with fellow
   Rubyists.
 
@@ -60,5 +61,6 @@ General Ruby Information
 
 
 [ruby-central]: http://rubycentral.org/
+[ruby-discord]: https://discord.gg/EnSevaRfct
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
 [rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

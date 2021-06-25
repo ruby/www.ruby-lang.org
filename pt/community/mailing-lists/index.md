@@ -15,7 +15,7 @@ Ruby-Talk
   o Ruby. ([Arquivos][3])
 
 Ruby-Core
-: Esta lsta trata do núcleo e tópicos da implementação do Ruby.
+: Esta lista trata do núcleo e tópicos da implementação do Ruby.
   Normalmente é usada para enviar *patches* para revisão. ([Aquivos][4])
 
 Ruby-Doc

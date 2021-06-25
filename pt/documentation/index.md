@@ -134,7 +134,7 @@ programadores Ruby:
 ### Leitura Complementar
 
 [Ruby-Doc.org][34] mantém uma lista completa de fontes de documentação
-em inglês. Também existem vários [livros sobre Ruby][35]. Se você tiver
+em inglês. Se você tiver
 perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 é um ótimo lugar para começar.
 
@@ -171,7 +171,6 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
-[35]: http://www.ruby-doc.org/bookstore
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/

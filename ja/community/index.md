@@ -26,9 +26,6 @@ Rubyコミュニティに興味があるのなら、ぜひ以下のコミュニ�
     プログラムが楽しく、エンジニアであることに生き甲斐を感じられるような行動を続けていきたいと思っております。
     みなさん、よろしくお願いします。
 
-* [rubyusergroups.org][4]
-  * rubyusergroups.orgは世界中のRubyistとRubyistの集まりを地図上にプロットして公開するサービスです。日本のRubyistやRubyistの集まりもどんどんリストに追加していくとよいでしょう。
-
 ## IRC
 
 * IRCNetの[#ruby-ja](irc://irc.ircnet.ne.jp/%23ruby-ja?charset=iso-2022-jp)
@@ -40,11 +37,8 @@ Rubyコミュニティに興味があるのなら、ぜひ以下のコミュニ�
   * Rubyの開発用兼、簡単な質疑応答用のチャンネルです。
   * 最近は上述の#ruby-jaがよく利用されています。
 
-* freenodeの[#ruby](irc://freenode/%23ruby?charset=utf-8)
+* Libera Chatの[#ruby](https://web.libera.chat/#ruby)
   * Rubyの利用者の交流、質問のためのチャンネルです。(英語)
-
-* freenodeの[#ruby-core](irc://freenode/%23ruby-core?charset=utf-8)
-  * Rubyの開発用のチャンネルです。(英語)
 
 ## メーリングリスト
 
@@ -68,7 +62,6 @@ Posted by Shugo Maeda on 26 May 2006
 [1]: http://ruby-no-kai.org/
 [2]: http://www.ruby.or.jp/
 [3]: http://facebook.com/rubybizcommons
-[4]: http://www.rubyusergroups.org/
 [5]: http://rubykaigi.org
 [6]: http://www.rubyconf.org/
 [7]: http://euruko.org

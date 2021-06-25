@@ -174,12 +174,6 @@ avant-goût vous aura donné envie de poursuivre plus avant.
 
 Si tel est le cas, rendez-vous sur notre
 [documentation](/fr/documentation), qui rassemble des liens vers des
-manuels et tutoriels disponibles gratuitement en ligne. Si vous êtes
-tentés par l’achat d’un livre au contenu plus conséquent, voyez une
-[liste][1] (en anglais, relativement exhaustive)
+manuels et tutoriels disponibles gratuitement en ligne.
 
 Bonne continuation !
-
-
-
-[1]: http://www.ruby-doc.org/bookstore
