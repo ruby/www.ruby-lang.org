@@ -66,8 +66,6 @@ Rubyのソースコードは、世界各国の[ミラーサイト][mirrors]か�
 
 Windows向けのバイナリが有志により配布されています。
 
-* [ActiveScriptRuby][active-script-ruby]
-  安定版に幾つかの便利なライブラリを加え、さらにRubyをCOMサーバとしても利用可能にしたもの。ベースはmswin32版
 * [RubyInstaller][rubyinstaller] (英語)
   安定版に多数の便利なライブラリを加えたもの。ベースはmingw32版
 * [RailsInstaller][railsinstaller] (英語)
@@ -78,7 +76,6 @@ Windows向けのバイナリが有志により配布されています。
 [license]: {{ site.license.url }}
 [installation]: /ja/documentation/installation/
 [mirrors]: /en/downloads/mirrors/
-[active-script-ruby]: http://www.artonx.org/data/asr/
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rvm]: http://rvm.io/

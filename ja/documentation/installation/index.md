@@ -32,7 +32,6 @@ lang: ja
 * Windows
 
   * [WSL](#apt-wsl)
-  * [ActiveScriptRuby](#activescriptruby)
   * [RubyInstaller](#rubyinstaller)
   * [RailsInstaller](#railsinstaller)
 
@@ -79,11 +78,6 @@ chruby は Ruby のインストール自体はサポートしていませんが�
 それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
 
 chruby をインストールする方法は [chrubyのページ][chruby] に記述されています。
-
-### ActiveScriptRuby
-{: #activescriptruby }
-
-[ActiveScriptRuby][active-script-ruby] はインストーラを実行するだけで Windows 上に Ruby 開発環境を構築します。安定版 Ruby に幾つかの便利なライブラリを加え、さらに Ruby を COM サーバとしても利用可能にしたものです。
 
 ### RubyInstaller
 {: #rubyinstaller}
