@@ -5,7 +5,7 @@ author: "aycabta"
 translator: "vtamara"
 date: 2021-05-02 09:00:00 +0000
 tags: security
-lang: en
+lang: es
 ---
 
 Hay una vulnerabilidad de Inyección de Ordenes en el RDoc que se
@@ -53,4 +53,3 @@ por reportar el problema.
 ## Historia
 
 * Publicado originalmente el 2021-05-02 09:00:00 UTC
-
