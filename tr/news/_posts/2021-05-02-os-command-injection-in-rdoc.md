@@ -35,6 +35,8 @@ Zaafiyeti düzeltmek amacıyla RDoc'u en son sürüme (6.3.1 ya da sonrası) gü
 gem install rdoc
 ```
 
+Eğer bundler kullanıyorsanız, lütfen `gem "rdoc", ">= 6.3.1"` satırını `Gemfile` dosyanıza ekleyin.
+
 ## Teşekkürler
 
 Bu sorunu bildirdiği için [Alexandr Savca](https://hackerone.com/chinarulezzz)'ya teşekkür ederiz.
