@@ -14,7 +14,7 @@ Ruby 3.0.1 がリリースされました。
 
 * [CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
 * [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
-* [CVE-2021-31799: RDoc におけるコマンドインジェクションの脆弱性について](%link ja/news/2021/05/02/os-command-injection-in-rdoc/ %})
+* [CVE-2021-31799: RDoc におけるコマンドインジェクションの脆弱性について](%link ja/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
 その他の変更については [commit log](https://github.com/ruby/ruby/compare/v3_0_1...v3_0_2) を参照してください。
 

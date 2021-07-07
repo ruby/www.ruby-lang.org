@@ -14,7 +14,7 @@ Please check the topics below for details.
 
 * [CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
 * [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
-* [CVE-2021-31799: A command injection vulnerability in RDoc](%link en/news/2021/05/02/os-command-injection-in-rdoc/ %})
+* [CVE-2021-31799: A command injection vulnerability in RDoc](%link en/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
 We ordinally do not fix Ruby 2.6 except security fixes, but this release also includes some regressed bugs and build problem fixes.
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_7...v2_6_8) for details.

@@ -14,7 +14,7 @@ Ruby 2.6.8 がリリースされました。
 
 * [CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
 * [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
-* [CVE-2021-31799: RDoc におけるコマンドインジェクションの脆弱性について](%link ja/news/2021/05/02/os-command-injection-in-rdoc/ %})
+* [CVE-2021-31799: RDoc におけるコマンドインジェクションの脆弱性について](%link ja/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
 通常、Ruby 2.6 には脆弱性修正以外の修正は行いませんが、今回のリリースでは、いくつかのリグレッションバグおよびビルド時の問題に対する修正が含まれています。
 詳しくは [commit log](https://github.com/ruby/ruby/compare/v2_6_7...v2_6_8) を参照してください。
