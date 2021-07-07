@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.7.4 Released"
+title: "Ruby 2.7.4 リリース"
 author: "usa"
 translator:
 date: 2021-07-07 09:00:00 +0000
-lang: en
+lang: ja
 ---
 
-Ruby 2.7.4 has been released.
+Ruby 2.7.4 がリリースされました。
 
-This release includes security fixes.
-Please check the topics below for details.
+このリリースでは以下の脆弱性修正が含まれています。
+詳しくは以下の記事などを参照してください。
 
 * [CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
 * [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
-* [CVE-2021-31799: A command injection vulnerability in RDoc](%link en/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
+* [CVE-2021-31799: RDoc におけるコマンドインジェクションの脆弱性について](%link ja/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_3...v2_7_4) for details.
+その他の変更については [commit log](https://github.com/ruby/ruby/compare/v2_7_3...v2_7_4) を参照してください。
 
-## Download
+## ダウンロード
 
 {% assign release = site.data.releases | where: "version", "2.7.4" | first %}
 
@@ -50,9 +50,8 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_3...v2_7_4) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## リリースコメント
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Ruby 開発者の皆様、バグや脆弱性を報告してくれたユーザーの皆様のご協力により本リリースは行われています。 皆様のご協力に感謝します。
 
-The maintenance of Ruby 2.7, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+本リリースを含む Ruby 2.7 のメンテナンスは Ruby アソシエーションの「Ruby 安定版保守事業」に基づき行われています。
