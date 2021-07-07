@@ -54,4 +54,4 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_3...v2_7_4) for 
 Many committers, developers, and users who provided bug reports helped us make this release.
 Thanks for their contributions.
 
-The maintenance of Ruby 2.6, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+The maintenance of Ruby 2.7, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
