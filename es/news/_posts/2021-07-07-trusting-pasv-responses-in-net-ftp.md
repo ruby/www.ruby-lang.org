@@ -5,7 +5,7 @@ author: "shugo"
 translator:
 date: 2021-07-07 09:00:00 +0000
 tags: security
-lang: en
+lang: es
 ---
 
 Se ha descubierto una vulnerabilidad en Net::FTP por confiar en respuestas
