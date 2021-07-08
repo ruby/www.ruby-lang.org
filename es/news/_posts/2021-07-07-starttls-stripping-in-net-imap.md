@@ -9,7 +9,7 @@ lang: es
 ---
 
 Se descubrió una vulnerabilidad de recortado de StartTLS en Net::IMAP.
-A esta vulnerabilidad se le ha asignado el identificador CVE 
+A esta vulnerabilidad se le ha asignado el identificador CVE
 [CVE-2021-32066](https://nvd.nist.gov/vuln/detail/CVE-2021-32066).
 Recomendamos enfáticamente actualizar Ruby.
 
