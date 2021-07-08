@@ -12,9 +12,9 @@ Ruby 3.0.2 ha sido publicado.
 Esta versión incluye correcciones de seguridad.
 Por favor vea detalles en los siguientes tópicos.
 
-* [CVE-2021-31810: Vulnerabilidad al confiar en respuestas FTP PASV en Net::FTP]({%link es/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
-* [CVE-2021-32066: Vulnerabilidad de recortado de StartTLS en Net::IMAP]({%link es/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
-* [CVE-2021-31799: Vulnerabilidad de inyección de ordenes en RDoc]({%link en/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
+* [CVE-2021-31810: Vulnerabilidad al confiar en respuestas FTP PASV en Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
+* [CVE-2021-32066: Vulnerabilidad de recortado de StartTLS en Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
+* [CVE-2021-31799: Vulnerabilidad de inyección de ordenes en RDoc]({%link es/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
 Vea detalles en la [bitacora de contribuciones](https://github.com/ruby/ruby/compare/v3_0_1...v3_0_2).
 
