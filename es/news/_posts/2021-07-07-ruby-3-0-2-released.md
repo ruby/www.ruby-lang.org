@@ -49,4 +49,3 @@ Vea detalles en la [bitacora de contribuciones](https://github.com/ruby/ruby/com
 Muchos contribuyentes, desarrolladores y usuarios que reportaron fallas
 nos ayudaron a hacer esta versión.
 Gracias por sus contribuciones.
-
