@@ -8,7 +8,7 @@ tags: security
 lang: en
 ---
 
-A StartTLS stripping vulnerability was discovered in Net::FTP.
+A StartTLS stripping vulnerability was discovered in Net::IMAP.
 This vulnerability has been assigned the CVE identifier [CVE-2021-32066](https://nvd.nist.gov/vuln/detail/CVE-2021-32066).
 We strongly recommend upgrading Ruby.
 
