@@ -9,7 +9,7 @@ lang: en
 
 Dear Ruby Enthusiasts,
 
-The Government of Fukuoka, Japan together with "Matz" Matsumoto would like to invite you to enter the following Ruby competition.If you have developed an interesting Ruby program, please be encouraged to apply.
+The Government of Fukuoka, Japan together with "Matz" Matsumoto would like to invite you to enter the following Ruby competition. If you have developed an interesting Ruby program, please be encouraged to apply.
 
 2022 Fukuoka Ruby Award Competition - Grand Prize - 1 Million Yen!
 
@@ -29,4 +29,4 @@ Please email the application form to award@f-ruby.com
 
 "Matz will be testing and reviewing your source code thoroughly, so it's very meaningful to apply! The competition is free to enter."
 
- Thanks！
+Thanks！
