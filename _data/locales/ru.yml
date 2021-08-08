@@ -74,9 +74,9 @@ sidebar:
     issue_tracking:
       text: Решение проблем
       url: https://bugs.ruby-lang.org/
-      description: Сообщайте или помогите решить проблемы в Ruby.
+      description: Сообщайте или помогайте решать проблемы в Ruby.
   syndicate:
-    text: Синдикат
+    text: Подписаться
     recent_news:
       text: Последние новости (RSS)
       url: /ru/feeds/news.rss
