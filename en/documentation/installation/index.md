@@ -218,7 +218,7 @@ $ pkg install runtime/ruby
 However, the third-party tools might be a good way to obtain the
 latest version of Ruby.
 
-### Winget
+### WinGet
 {: #winget}
 
 On Windows, you can use the [Windows Package Manager CLI](https://github.com/microsoft/winget-cli)
