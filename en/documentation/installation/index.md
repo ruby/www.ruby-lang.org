@@ -46,6 +46,7 @@ Here are available installation methods:
   * [FreeBSD](#freebsd)
   * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
+  * [Windows Package Manager](#winget)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
   * [ruby-build](#ruby-build)
@@ -217,6 +218,15 @@ $ pkg install runtime/ruby
 However, the third-party tools might be a good way to obtain the
 latest version of Ruby.
 
+### Windows Package Manager
+{: #winget}
+
+On Windows, you can use the [Windows Package Manager CLI](https://github.com/microsoft/winget-cli)
+to install Ruby:
+
+{% highlight sh %}
+> winget install Ruby
+{% endhighlight %}
 
 ### Other Distributions
 {: #other-systems}
