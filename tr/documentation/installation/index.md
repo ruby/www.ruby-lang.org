@@ -46,6 +46,7 @@ sistemde var olan kurulum yöntemlerinden herhangi birini kullanmak için
   * [FreeBSD](#freebsd)
   * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
+  * [Windows Package Manager](#winget)
   * [Diğer Dağıtımlar](#other-systems)
 * [Kurucular](#installers)
   * [ruby-build](#ruby-build)
@@ -211,6 +212,14 @@ $ pkg install runtime/ruby
 Fakat üçüncü taraf araçlar, Ruby'nin en son sürümünü elde etmek için iyi bir
 yol olabilir.
 
+### Windows Paket Yöneticisi
+{: #winget}
+
+Windows'ta Ruby'yi kurmak için [Windows Paket Yöneticisi CLI](https://github.com/microsoft/winget-cli)'ını kullanabilirsiniz:
+
+{% highlight sh %}
+> winget install Ruby
+{% endhighlight %}
 
 ### Diğer Dağıtımlar
 {: #other-systems}
