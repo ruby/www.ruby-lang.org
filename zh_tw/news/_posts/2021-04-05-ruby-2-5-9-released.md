@@ -1,15 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 2.5.9 Released"
+title: "Ruby 2.5.9 發佈"
 author: "usa"
 translator: "twlixin"
 date: 2021-04-05 12:00:00 +0000
 lang: zh_tw
 ---
 
-我們很高興宣布 Ruby 3.0.0 發布了。從 2015 年開始開發，目標是提高效能、支援並行性並提供型態檢查。Matz 表示「Ruby 3 將會比 Ruby 2 快 3 倍」，即 [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3)。
-
-Ruby 2.5.9 發布了。
+Ruby 2.5.9 發佈了。
 
 這個版本包含以下的脆弱性修正。
 請參照以下的詳細記事。
