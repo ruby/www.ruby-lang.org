@@ -18,4 +18,4 @@ commit comments, etc.).
 
  * Participants must ensure that their language and actions are free of personal attacks and disparaging personal remarks.
  * Participants should speak and act with good intentions, but understand that intent and impact are not equivalent.
- * Behaviour which can be reasonably considered harassment will not be tolerated.
+ * Behaviour which can be considered harassment against protected classes will not be tolerated.
