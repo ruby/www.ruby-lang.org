@@ -9,9 +9,7 @@ You should follow these guidelines when posting to the ruby-talk mailing list.
 
 
 1. **Always** be friendly, considerate, tactful, and tasteful. We want to
-   keep this list hospitable to the growing ranks of newbies, very
-   young people, and their teachers, as well as cater to fire breathing
-   wizards. :-)
+   keep this list hospitable and safe for everyone.
 
 2. Keep your content relevant and easy to follow. Try to keep your
    content brief and to the point, but also try to include all relevant
