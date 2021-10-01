@@ -33,7 +33,7 @@ the [installation guide](installation/) for help on installing Ruby.
   constructs.
 
 [Ruby Essentials][7]
-: Ruby Essentials is a free on-line book designed to provide a concise
+: A free on-line book designed to provide a concise
   and easy to follow guide to learning Ruby.
 
 [Learn to Program][8]
