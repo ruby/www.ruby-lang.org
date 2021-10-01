@@ -19,4 +19,5 @@ commit comments, etc.).
  * Participants will be tolerant of opposing views.
  * Participants must ensure that their language and actions are free of personal attacks and disparaging personal remarks.
  * When interpreting the words and actions of others, participants should always assume good intentions.
+ * Participants will do their best to not start or advance political or otherwise divisive conversations.
  * Behaviour which can be reasonably considered harassment will not be tolerated.
