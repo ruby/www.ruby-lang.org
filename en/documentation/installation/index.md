@@ -47,6 +47,7 @@ Here are available installation methods:
   * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
   * [Windows Package Manager](#winget)
+  * [Chocolatey package manager for Windows](#chocolatey)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
   * [ruby-build](#ruby-build)
@@ -227,6 +228,18 @@ to install Ruby:
 {% highlight sh %}
 > winget install Ruby
 {% endhighlight %}
+
+### Chocolatey package manager for Windows
+{: #chocolatey}
+
+Also on Windows, you can use the [Chocolatey Package Manager](https://chocolatey.org/install)
+to install Ruby:
+
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+It will reuse existing `msys2`, or install own for complete Ruby development environment
 
 ### Other Distributions
 {: #other-systems}
