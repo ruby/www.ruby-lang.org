@@ -1,59 +1,59 @@
 ---
 layout: news_post
-title: "Ruby 3.0.0 Released"
+title: "Ruby 3.0.0 릴리스"
 author: "naruse"
-translator:
+translator: "yous"
 date: 2020-12-25 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
-We are pleased to announce the release of Ruby 3.0.0. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
+Ruby 3.0.0 릴리스를 알리게 되어 기쁩니다. 우리는 2015년부터 성능, 동시성, 타입 기능을 목표로 한 Ruby 3을 위해 열심히 개발해 왔습니다. 특히 성능 부분에서, Matz 씨는 "Ruby3는 Ruby2보다 3배 더 빠를 것"이라고 해 [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3)으로 알려지기도 했습니다.
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-With [Optcarrot benchmark](https://github.com/mame/optcarrot), which measures single thread performance based on NES's game emulation workload, it achieved 3x faster performance than Ruby 2.0! <details>These were measured at the environment noted in [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) was used as Ruby 3.0. It may not be 3x faster depending on your environment or benchmark.</details>
+NES의 게임 에뮬레이션 작업을 통해 싱글 스레드 성능을 측정한 [optcarrot 벤치마크](https://github.com/mame/optcarrot)를 보면, Ruby 2.0보다 3배 더 빠른 성능을 달성했습니다! <details>이 벤치마크는 [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html)에 표기된 환경에서 측정되었습니다. [8c510e4095 커밋](https://github.com/ruby/ruby/commit/8c510e4095)이 Ruby 3.0 코드로 사용되었습니다. 환경과 벤치마크에 따라 3배 빠르지 않을 수도 있습니다.</details>
 
-Ruby 3.0.0 covers those goals by
-* Performance
+Ruby 3.0.0의 목표는 다음 항목을 통해 다루고 있습니다.
+* 성능
   * MJIT
-* Concurrency
+* 동시성
   * Ractor
-  * Fiber Scheduler
-* Typing (Static Analysis)
+  * Fiber 스케줄러
+* 타입 (정적 분석)
   * RBS
   * TypeProf
 
-With the above performance improvement, Ruby 3.0 introduces several new features described below.
+위의 성능 향상과 함께, Ruby 3.0에 몇 가지 새 기능이 도입됩니다.
 
-## Performance
+## 성능
 
-> When I first declared "Ruby3x3" in the conference keynote, many including members of the core team felt "Matz is a boaster". In fact, I felt so too. But we did. I am honored to see the core team actually accomplished to make Ruby3.0 three times faster than Ruby2.0 (in some benchmarks). -- Matz
+> 제가 콘퍼런스 키노트에서 처음 "Ruby3x3"을 선언했을 때, 코어 팀 구성원을 포함한 많은 사람들은 "Matz 씨는 허풍쟁이"라고 느꼈습니다. 사실 저도 그렇게 느꼈어요. 하지만 우리는 해냈습니다. (일부 벤치마크에서) Ruby3.0을 Ruby2.0보다 세 배 빠르게 만드는 데 성공한 코어 팀이 자랑스럽습니다. -- Matz
 
 ### MJIT
 
-Many improvements were implemented in MJIT. See NEWS for details.
+MJIT의 많은 개선이 추가되었습니다. 자세한 내용은 NEWS를 확인하세요.
 
-As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends the majority of time in calling a few methods many times.
+Ruby 3.0에서 JIT는 게임([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), 적은 메서드를 여러 번 호출하는 데 대부분의 시간을 사용하는 애플리케이션 등의 제한적인 작업 성능을 향상시킵니다.
 
-Although Ruby 3.0 [significantly decreased the size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffer from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
+Ruby 3.0이 [JIT이 적용된 코드 크기를 현저히 줄였지만](https://twitter.com/k0kubun/status/1256142302608650244), Rails와 같은 작업에 대해서는 아직 준비되지 않았습니다. 굉장히 많은 메서드에 시간을 사용하는 Rails의 경우 JIT으로 인해 명령어 캐시 미스가 더 악화됩니다. 이 문제에 대한 추후 개선은 Ruby 3.1 소식을 기다려주세요.
 
-## Concurrency / Parallel
+## 동시성 / 병렬성
 
-> It's multi-core age today. Concurrency is very important. With Ractor, along with Async Fiber, Ruby will be a real concurrent language. --- Matz
+> 지금은 멀티코어 시대입니다. 동시성은 아주 중요합니다. Ruby는 Ractor, Async Fiber와 함께 진정한 동시성 언어가 될 것입니다. --- Matz
 
-### Ractor (experimental)
+### Ractor (실험적)
 
-Ractor is an Actor-model like concurrent abstraction designed to provide a parallel execution feature without thread-safety concerns.
+Ractor는 스레드 안전에 대한 걱정이 없는 병렬 실행을 제공하기 위해 설계된 액터 모델과 비슷한 동시 실행 추상화 모델입니다.
 
-You can make multiple ractors and you can run them in parallel. Ractor enables you to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors is supported by exchanging messages.
+여러 개의 Ractor를 만들고 병렬로 실행할 수 있습니다. Ractor는 일반 객체를 공유할 수 없기 때문에 스레드 안전한 병렬 프로그램을 만들 수 있습니다. Ractor 간의 통신은 메시지 넘기기를 통해서 지원됩니다.
 
-To limit the sharing of objects, Ractor introduces several restrictions to Ruby's syntax (without multiple Ractors, there is no restriction).
+객체 공유를 제한하기 위해, Ractor는 Ruby 문법에 여러 제한을 추가했습니다(여러 개의 Ractor를 사용하지 않는다면 제한은 없습니다).
 
-The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and shows the "experimental feature" warning when the first `Ractor.new` occurs.
+명세와 구현은 아직 완성되지 않았으므로 앞으로 변경될 수 있습니다. 그러므로 이 기능은 실험적으로 제공되며 처음 `Ractor.new`를 실행하면 "실험적 기능"이라는 경고를 표시합니다.
 
-The following small program measures the execution time of the famous benchmark tak function ([Tak (function) - Wikipedia](https://en.wikipedia.org/wiki/Tak_(function))), by executing it 4 times sequentially or 4 times in parallel with ractors.
+다음은 유명한 벤치마크 tak 함수([Tak (function) - Wikipedia](https://en.wikipedia.org/wiki/Tak_(function)))의 실행 시간을 측정하는 작은 프로그램입니다. 4번 순차적으로 실행하거나, Ractor를 통해 4번 병렬로 실행합니다.
 
 ``` ruby
 def tarai(x, y, z) =
@@ -62,10 +62,10 @@ def tarai(x, y, z) =
                      tarai(z-1, x, y))
 require 'benchmark'
 Benchmark.bm do |x|
-  # sequential version
+  # 순차적 버전
   x.report('seq'){ 4.times{ tarai(14, 7, 0) } }
 
-  # parallel version
+  # 병렬 버전
   x.report('par'){
     4.times.map do
       Ractor.new { tarai(14, 7, 0) }
@@ -81,15 +81,15 @@ seq  64.560736   0.001101  64.561837 ( 64.562194)
 par  66.422010   0.015999  66.438009 ( 16.685797)
 ```
 
-The result was measured on Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). It shows that the parallel version is 3.87 times faster than the sequential version.
+이 결과는 Ubuntu 20.04, Intel(R) Core(TM) i7-6700(4 코어, 8 하드웨어 스레드)에서 측정되었습니다. 이는 병렬 버전이 순차적 버전보다 3.87배 빠르다는 것을 보여줍니다.
 
-See [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) for more details.
+더 자세한 내용은 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html)를 확인하세요.
 
-### Fiber Scheduler
+### Fiber 스케줄러
 
-`Fiber#scheduler` is introduced for intercepting blocking operations. This allows for light-weight concurrency without changing existing code. Watch ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc) for an overview of how it works.
+블로킹 작업에 끼어들 수 있는 `Fiber#scheduler`가 도입됩니다. 이는 기존에 존재하는 코드를 변경하지 않고 가벼운 동시성을 지원할 수 있게 합니다. 어떻게 동작하는지 궁금하다면 ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc)을 보세요.
 
-Currently supported classes/methods:
+현재 지원되는 클래스와 메서드는 다음과 같습니다.
 
 - `Mutex#lock`, `Mutex#unlock`, `Mutex#sleep`
 - `ConditionVariable#wait`
@@ -97,10 +97,10 @@ Currently supported classes/methods:
 - `Thread#join`
 - `Kernel#sleep`
 - `Process.wait`
-- `IO#wait`, `IO#read`, `IO#write`, and related methods (e.g. `#wait_readable`, `#gets`, `#puts`, and so on).
-- `IO#select` is *not supported*.
+- `IO#wait`, `IO#read`, `IO#write`와 관련 메서드(예: `#wait_readable`, `#gets`, `#puts` 등).
+- `IO#select`는 *지원되지 않습니다*.
 
-This example program will perform several HTTP requests concurrently:
+이 예제 프로그램은 HTTP 요청 몇 개를 동시에 수행합니다.
 
 ``` ruby
 require 'async'
@@ -116,24 +116,24 @@ Async do
 end
 ```
 
-It uses [async](https://github.com/socketry/async) which provides the event loop. This event loop uses the `Fiber#scheduler` hooks to make `Net::HTTP` non-blocking. Other gems can use this interface to provide non-blocking execution for Ruby, and those gems can be compatible with other implementations of Ruby (e.g. JRuby, TruffleRuby) which can support the same non-blocking hooks.
+이 코드는 이벤트 루프를 지원하는 [async](https://github.com/socketry/async)를 사용합니다. 이 이벤트 루프는 `Net::HTTP`를 논블로킹 작업으로 만들기 위해 `Fiber#scheduler` 훅을 사용합니다. Ruby의 논블로킹 실행을 제공하기 위해 다른 gem도 이 인터페이스를 사용할 수 있습니다. 그리고 이러한 gem은 논블로킹 훅을 지원하는 Ruby의 다른 구현체(예: JRuby, TruffleRuby)와도 호환됩니다.
 
-## Static Analysis
+## 정적 분석
 
-> 2010s were an age of statically typed programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first step to the future. More steps to come. --- Matz
+> 2010년대는 정적 타입 프로그래밍 언어의 시대였습니다. Ruby는 추상 해석을 통해, 타입 선언 없이 정적 타입 체크를 하여 미래를 추구합니다. RBS와 TypeProf는 미래를 향한 첫걸음입니다. 다음 단계도 기대해주세요. --- Matz
 
 ### RBS
 
-RBS is a language to describe the types of Ruby programs.
+RBS는 Ruby 프로그램의 타입을 기술하기 위한 언어입니다.
 
-Type checkers including TypeProf and other tools supporting RBS will understand Ruby programs much better with RBS definitions.
+TypeProf와 다른 도구들을 포함해서, RBS를 지원하는 타입 검사기는 RBS 정의를 통해 Ruby 프로그램을 더 잘 이해합니다.
 
-You can write down the definition of classes and modules: methods defined in the class, instance variables and their types, and inheritance/mix-in relations.
+클래스나 모듈에 정의된 메서드, 인스턴스 변수와 타입, 상속이나 믹스인 관계에 대한 정의를 작성할 수 있습니다.
 
-The goal of RBS is to support commonly seen patterns in Ruby programs and it allows writing advanced types including union types, method overloading, and generics. It also supports duck typing with _interface types_.
+RBS의 목표는 Ruby 프로그램에서 흔히 보이는 패턴을 지원하는 것과 유니언 타입, 메서드 오버로딩, 제네릭을 포함하는 고급 타입을 작성할 수 있도록 하는 것입니다. 또한 _인터페이스 타입_을 이용해 덕타이핑을 지원합니다.
 
-Ruby 3.0 ships with the `rbs` gem, which allows parsing and processing type definitions written in RBS.
-The following is a small example of RBS with class, module, and constant definitions.
+Ruby 3.0은 RBS로 작성된 타입 정의를 해석하고 처리하는 `rbs` gem을 포함합니다.
+다음은 클래스, 모듈, 상수 정의를 포함하는 RBS의 작은 예시입니다.
 
 ``` rbs
 module ChatApp
@@ -141,27 +141,27 @@ module ChatApp
   class Channel
     attr_reader name: String
     attr_reader messages: Array[Message]
-    attr_reader users: Array[User | Bot]              # `|` means union types, `User` or `Bot`.
+    attr_reader users: Array[User | Bot]              # `|`는 유니언 타입을 의미합니다. 여기에서는 `User` 또는 `Bot`이라는 의미입니다.
     def initialize: (String) -> void
-    def post: (String, from: User | Bot) -> Message   # Method overloading is supported.
+    def post: (String, from: User | Bot) -> Message   # 메서드 오버로딩을 지원합니다.
             | (File, from: User | Bot) -> Message
   end
 end
 ```
 
-See [README of rbs gem](https://github.com/ruby/rbs) for more detail.
+더 자세한 내용은 [rbs gem의 README](https://github.com/ruby/rbs)를 확인하세요.
 
 ### TypeProf
 
-TypeProf is a type analysis tool bundled in the Ruby package.
+TypeProf는 Ruby 패키지에 포함된 타입 분석 도구입니다.
 
-Currently, TypeProf serves as a kind of type inference.
+지금의 TypeProf는 타입 추론 도구 역할을 합니다.
 
-It reads plain (non-type-annotated) Ruby code, analyzes what methods are defined and how they are used, and generates a prototype of type signature in RBS format.
+TypeProf는 타입 어노테이션이 없는 일반적인 Ruby 코드를 읽어서, 어떤 메서드가 정의되어 있고 어떻게 사용되는지 분석하고, RBS 형식으로 타입 시그니처의 프로토타입을 생성합니다.
 
-Here is a simple demo of TypeProf.
+다음은 TypeProf의 간단한 데모입니다.
 
-An example input:
+예제 입력입니다.
 
 ``` ruby
 # test.rb
@@ -174,7 +174,7 @@ end
 User.new(name: "John", age: 20)
 ```
 
-An example output:
+예제 출력입니다.
 
 ```
 $ typeprof test.rb
@@ -186,19 +186,19 @@ class User
 end
 ```
 
-You can run TypeProf by saving the input as "test.rb" and invoking the command "typeprof test.rb".
+입력을 "test.rb"에 저장하고 "typeprof test.rb" 커맨드를 통해 TypeProf를 실행할 수 있습니다.
 
-You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (It runs TypeProf on the server side, so sorry if it is out!)
+[TypeProf를 온라인에서 사용](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=)해볼 수도 있습니다. (TypeProf를 서버 쪽에서 실행하는 거라서, 잠시 동작하지 않을 수도 있습니다!)
 
-See the [TypeProf documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) for details.
+더 자세한 내용은 [TypeProf 문서](https://github.com/ruby/typeprof/blob/master/doc/doc.md)와 [데모](https://github.com/ruby/typeprof/blob/master/doc/demo.md)를 확인하세요.
 
-TypeProf is experimental and not so mature yet; only a subset of the Ruby language is supported, and the detection of type errors is limited. But it is still growing rapidly to improve the coverage of language features, the analysis performance, and usability. Any feedback is very welcome.
+TypeProf는 실험적이고 아직 완성되지 않았습니다. Ruby 언어의 일부만 지원되고, 타입 오류 감지 기능은 제한적입니다. 하지만 언어 기능의 지원 범위, 분석 성능, 사용성이 빠르게 개선되고 있는 중입니다. 어떤 종류의 피드백이든 환영합니다.
 
-## Other Notable New Features
+## 그 이외의 주목할 만한 기능
 
-* One-line pattern matching is redesigned.  (experimental)
+* 한 줄 패턴 매칭을 재설계했습니다. (실험적)
 
-    * `=>` is added. It can be used like a rightward assignment.
+    * `=>`가 추가됩니다. 오른 방향 대입처럼 사용할 수 있습니다.
 
       ```ruby
       0 => a
@@ -208,17 +208,17 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
       p b #=> 0
       ```
 
-    * `in` is changed to return `true` or `false`.
+    * `in`이 `true` 또는 `false`를 반환하도록 변경됩니다.
 
       ```ruby
-      # version 3.0
+      # 버전 3.0
       0 in 1 #=> false
 
-      # version 2.7
+      # 버전 2.7
       0 in 1 #=> raise NoMatchingPatternError
       ```
 
-* Find pattern is added. (experimental)
+* 검색 패턴이 추가됩니다. (실험적)
 
   ``` ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
@@ -230,26 +230,26 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   end
   ```
 
-* Endless method definition is added.
+* end 없는 메서드 정의가 추가됩니다.
 
   ``` ruby
   def square(x) = x * x
   ```
 
-* `Hash#except` is now built-in.
+* `Hash#except`가 내장됩니다.
 
   ``` ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
   ```
 
-* Memory view is added as an experimental feature
+* 메모리 뷰가 실험적인 기능으로 추가됩니다.
 
-    * This is a new C-API set to exchange a raw memory area, such as a numeric array or a bitmap image, between extension libraries.  The extension libraries can share also the metadata of the memory area that consists of the shape, the element format, and so on.  Using these kinds of metadata, the extension libraries can share even a multidimensional array appropriately.  This feature is designed by referring to Python's buffer protocol.
+    * 이는 숫자 배열이나 비트맵 이미지와 같은 메모리 공간을 확장 라이브러리 간에 교환하기 위한 새로운 C-API 집합입니다. 확장 라이브러리는 모양, 요소의 형식 등으로 구성된 메모리 공간의 메타데이터를 공유할 수 있습니다. 이러한 메타데이터를 사용하여 확장 라이브러리는 다차원 배열을 적절하게 공유할 수 있습니다. 이 기능은 Python의 버퍼 프로토콜을 참고하여 설계되었습니다.
 
-## Performance improvements
+## 성능 향상
 
-* Pasting long code to IRB is 53 times faster than in the version bundled with Ruby 2.7.0. For example, the time required to paste [this sample code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) goes from 11.7 seconds to 0.22 seconds.
+* IRB에 긴 코드를 붙여 넣는 속도가 Ruby 2.7.0에 포함된 버전보다 53배 빨라졌습니다. 예를 들어, [이 샘플 코드](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b)를 붙여 넣는 데 드는 시간이 11.7초에서 0.22초로 줄어들었습니다.
 
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
@@ -257,7 +257,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 </video>
 
 
-* The `measure` command has been added to IRB. It allows simple execution time measurement.
+* IRB에 `measure` 커맨드가 추가되었습니다. 간단한 실행 시간 측정이 가능합니다.
 
   ```
   irb(main):001:0> 3
@@ -274,11 +274,11 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   => 3
   ```
 
-## Other notable changes since 2.7
+## 그 이외의 2.7 이후로 주목할 만한 변경
 
-* Keyword arguments are separated from other arguments.
-  * In principle, code that prints a warning on Ruby 2.7 won't work.  See [this document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) for details.
-  * By the way, arguments forwarding now supports leading arguments.
+* 키워드 인자가 다른 인자들로부터 분리됩니다.
+  * 원칙적으로 Ruby 2.7에서 경고를 출력하는 코드는 동작하지 않습니다. 자세한 내용은 [이 문서](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)를 확인하세요.
+  * 한편, 인자를 전달할 때 앞쪽 인자를 사용할 수 있습니다.
 
     ``` ruby
     def method_missing(meth, ...)
@@ -286,11 +286,11 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     end
     ```
 
-* Pattern matching (`case`/`in`) is no longer experimental.
-  * See the [pattern matching documentation](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) for details.
-* The `$SAFE` feature was completely removed; now it is a normal global variable.
-* The order of backtraces had been reversed with Ruby 2.5; this change has been reverted.  Now backtraces behave like in Ruby 2.4: an error message and the line number where the exception occurs are printed first, and its callers are printed later.
-* Some standard libraries are updated.
+* 패턴 매칭(`case`/`in`)은 이제 실험적이지 않습니다.
+  * 더 자세한 내용은 [패턴 매칭 문서](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)를 확인하세요.
+* `$SAFE` 기능이 완전히 제거됩니다. 이 값은 이제 일반 전역 변수입니다.
+* Ruby 2.5에서 백트레이스의 순서가 역순이 되었습니다만, 이를 취소합니다. 이제 백트레이스는 Ruby 2.4처럼 동작합니다. 예외가 발생한 곳의 오류 메시지와 줄 번호가 가장 먼저 출력되며, 이를 호출한 곳의 정보가 그 뒤에 출력됩니다.
+* 표준 라이브러리를 업데이트했습니다.
   * RubyGems 3.2.3
   * Bundler 2.2.3
   * IRB 1.3.0
@@ -304,17 +304,17 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   * Fiddle 1.0.6
   * StringIO 3.0.0
   * StringScanner 3.0.0
-  * etc.
-* The following libraries are no longer bundled gems or standard libraries.
-  Install the corresponding gems to use these features.
+  * 등
+* 다음 라이브러리는 이제 내장 gem이나 표준 라이브러리가 아닙니다.
+  각 기능이 필요한 경우에는 해당하는 gem을 설치해주세요.
   * sdbm
   * webrick
   * net-telnet
   * xmlrpc
-* The following default gems are now bundled gems.
+* 다음 기본 gem은 이제 내장 gem이 됩니다.
   * rexml
   * rss
-* The following stdlib files are now default gems and are published on rubygems.org.
+* 다음 표준 라이브러리가 기본 gem이 되고, rubygems.org에 배포됩니다.
   * English
   * abbrev
   * base64
@@ -350,18 +350,18 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   * syslog
   * win32ole
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }})
-for more details.
+더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }})를
+확인해주세요.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)
-since Ruby 2.7.0!
+이러한 변경사항에 따라, Ruby 2.7.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
-> Ruby3.0 is a milestone. The language is evolved, keeping compatibility. But it's not the end. Ruby will keep progressing, and become even greater. Stay tuned! --- Matz
+> Ruby3.0은 마일스톤입니다. 언어는 진화했고, 호환성은 유지했습니다. 이게 끝이 아닙니다. Ruby는 계속 진보하고, 더 대단해질 것입니다. 기대해주세요! --- Matz
 
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
+메리 크리스마스, 해피 홀리데이, Ruby 3.0과 함께 프로그래밍을 즐겨보세요!
 
-## Download
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -384,8 +384,8 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby는 1993년에 Matz(마츠모토 유키히로) 씨가 처음 개발했고,
+현재는 오픈 소스로서 개발되고 있습니다. 여러 플랫폼에서 동작하며,
+특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
