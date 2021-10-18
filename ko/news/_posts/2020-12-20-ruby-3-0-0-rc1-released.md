@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 3.0.0 Preview 2 릴리스"
+title: "Ruby 3.0.0 RC1 릴리스"
 author: "naruse"
 translator: "yous"
-date: 2020-12-08 00:00:00 +0000
+date: 2020-12-20 00:00:00 +0000
 lang: ko
 ---
 
-Ruby 3.0.0-preview2 릴리스를 알리게 되어 기쁩니다.
+Ruby 3.0.0-rc1 릴리스를 알리게 되어 기쁩니다.
 
 이번 버전은 많은 새 기능과 성능 향상을 포함하고 있습니다.
 
@@ -86,6 +86,7 @@ end
 TypeProf는 실험적이고 아직 완성되지 않았습니다. Ruby 언어의 일부만 지원되고, 타입 오류 감지 기능은 제한적입니다. 하지만 언어 기능의 지원 범위, 분석 성능, 사용성이 빠르게 개선되고 있는 중입니다. 어떤 종류의 피드백이든 환영합니다.
 
 ## Ractor (실험적)
+
 Ractor는 스레드 안전에 대한 걱정이 없는 병렬 실행을 제공하기 위해 설계된 액터 모델과 비슷한 동시 실행 추상화 모델입니다.
 
 여러 개의 Ractor를 만들고 병렬로 실행할 수 있습니다. Ractor는 일반 객체를 공유할 수 없기 때문에 스레드 안전한 병렬 프로그램을 만들 수 있습니다. Ractor 간의 통신은 메시지 넘기기를 통해서 지원됩니다.
@@ -101,7 +102,7 @@ require 'prime'
 # r1, r2에 보낸 정수들로 n.prime?을 병렬 실행
 r1, r2 = *(1..2).map do
   Ractor.new do
-    n = Ractor.recv
+    n = Ractor.receive
     n.prime?
   end
 end
@@ -129,7 +130,9 @@ p r2.take #=> true
 - `Process.wait`
 - `IO#wait`, `IO#read`, `IO#write`와 관련 메서드(예: `#wait_readable`, `#gets`, `#puts` 등).
 - `IO#select`는 *지원되지 않습니다*.
+
 (Async gem에 대해 링크와 함께 설명하기). 이 예제는 몇 가지 HTTP 요청을 동시에 수행합니다.
+
 (다음을 설명하기:)
 1. async는 외부 gem이다.
 2. async는 다음 새 기능을 사용한다.
@@ -149,35 +152,55 @@ end
 
 ## 그 이외의 주목할 만한 기능
 
-* 한 줄 패턴 매칭이 `in` 대신 `=>`를 사용합니다.
-    ``` ruby
-    # 버전 3.0
-    {a: 0, b: 1} => {a:}
-    p a # => 0
-    # 버전 2.7
-    {a: 0, b: 1} in {a:}
-    p a # => 0
-    ```
-* 검색 패턴이 추가됩니다.
-    ``` ruby
-    case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
-    in [*pre, String => x, String => y, *post]
-      p pre  #=> ["a", 1]
-      p x    #=> "b"
-      p y    #=> "c"
-      p post #=> [2, "d", "e", "f", 3]
-    end
-    ```
+* 한 줄 패턴 매칭을 재설계했습니다. (실험적)
+
+    * `=>`가 추가됩니다. 오른 방향 대입처럼 사용할 수 있습니다.
+
+      ```ruby
+      0 => a
+      p a #=> 0
+
+      {b: 0, c: 1} => {b:}
+      p b #=> 0
+      ```
+
+    * `in`이 `true` 또는 `false`를 반환하도록 변경됩니다.
+
+      ```ruby
+      # 버전 3.0
+      0 in 1 #=> false
+
+      # 버전 2.7
+      0 in 1 #=> raise NoMatchingPatternError
+      ```
+
+* 검색 패턴이 추가됩니다. (실험적)
+
+  ``` ruby
+  case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
+  in [*pre, String => x, String => y, *post]
+    p pre  #=> ["a", 1]
+    p x    #=> "b"
+    p y    #=> "c"
+    p post #=> [2, "d", "e", "f", 3]
+  end
+  ```
+
 * end 없는 메서드 정의가 추가됩니다.
-    ``` ruby
-    def square(x) = x * x
-    ```
+
+  ``` ruby
+  def square(x) = x * x
+  ```
+
 * `Hash#except`가 내장됩니다.
-    ``` ruby
-    h = { a: 1, b: 2, c: 3 }
-    p h.except(:a) #=> {:b=>2, :c=>3}
-    ```
+
+  ``` ruby
+  h = { a: 1, b: 2, c: 3 }
+  p h.except(:a) #=> {:b=>2, :c=>3}
+  ```
+
 * 메모리 뷰가 실험적인 기능으로 추가됩니다.
+
     * 이는 숫자 배열이나 비트맵 이미지와 같은 메모리 공간을 확장 라이브러리 간에 교환하기 위한 새로운 C-API 집합입니다. 확장 라이브러리는 모양, 요소의 형식 등으로 구성된 메모리 공간의 메타데이터를 공유할 수 있습니다. 이러한 메타데이터를 사용하여 확장 라이브러리는 다차원 배열을 적절하게 공유할 수 있습니다. 이 기능은 Python의 버퍼 프로토콜을 참고하여 설계되었습니다.
 
 ## 성능 향상
@@ -190,18 +213,29 @@ end
 * 키워드 인자가 다른 인자들로부터 분리됩니다.
   * 원칙적으로 Ruby 2.7에서 경고를 출력하는 코드는 동작하지 않습니다. 자세한 내용은 [문서](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)를 확인하세요.
   * 한편, 인자를 전달할 때 앞쪽 인자를 사용할 수 있습니다.
+
     ``` ruby
     def method_missing(meth, ...)
       send(:"do_#{ meth }", ...)
     end
     ```
+
+* 패턴 매칭(`case`/`in`)은 이제 실험적이지 않습니다.
 * `$SAFE` 기능이 완전히 제거됩니다. 이 값은 이제 일반 전역 변수입니다.
 * Ruby 2.5에서 백트레이스의 순서가 역순이 되었습니다만, 이를 취소합니다. 이제 백트레이스는 Ruby 2.4처럼 동작합니다. 예외가 발생한 곳의 오류 메시지와 줄 번호가 가장 먼저 출력되며, 이를 호출한 곳의 정보가 그 뒤에 출력됩니다.
 * 표준 라이브러리를 업데이트했습니다.
-  * RubyGems 3.2.0.rc.1
-  * Bundler 2.2.0.rc.1
+  * RubyGems 3.2.2
+  * Bundler 2.2.2
   * IRB 1.2.6
   * Reline 0.1.5
+  * Psych 3.2.1
+  * JSON 2.4.1
+  * BigDecimal 3.0.0
+  * CSV 3.1.9
+  * Digest 3.0.0
+  * Fiddle 1.0.4
+  * StringIO 3.0.0
+  * StringScanner 3.0.0
 * 다음 라이브러리는 이제 기본으로 포함되지 않습니다.
   각 기능이 필요한 경우에는 해당하는 gem을 설치해주세요.
   * net-telnet
@@ -210,42 +244,51 @@ end
   * rexml
   * rss
 * 다음 표준 라이브러리가 기본 gem이 되고, rubygems.org에 배포됩니다.
+  * English
   * abbrev
   * base64
-  * English
+  * drb
+  * debug
   * erb
   * find
-  * io-nonblock
-  * io-wait
   * net-ftp
   * net-http
   * net-imap
   * net-protocol
-  * nkf
   * open-uri
   * optparse
-  * resolv
+  * pp
+  * prettyprint
   * resolv-replace
+  * resolv
   * rinda
-  * securerandom
   * set
+  * securerandom
   * shellwords
   * tempfile
-  * time
   * tmpdir
+  * time
   * tsort
+  * un
   * weakref
+  * digest
+  * io-nonblock
+  * io-wait
+  * nkf
+  * pathname
+  * syslog
+  * win32ole
 
-더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview2/NEWS.md)나
-[커밋 로그](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview2)를
+더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_rc1/NEWS.md)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_rc1)를
 확인해주세요.
 
-{% assign release = site.data.releases | where: "version", "3.0.0-preview2" | first %}
+{% assign release = site.data.releases | where: "version", "3.0.0-rc1" | first %}
 
 이러한 변경사항에 따라, Ruby 2.7.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0)가
 이루어졌습니다!
 
-Ruby 3.0.0-preview2를 사용해보시고, 피드백을 보내주세요!
+Ruby 3.0.0-rc1을 사용해보시고, 피드백을 보내주세요!
 
 ## 다운로드
 
