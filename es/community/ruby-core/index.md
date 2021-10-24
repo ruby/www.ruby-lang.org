@@ -34,9 +34,9 @@ $ git clone https://github.com/ruby/ruby.git
 El directorio `ruby` ahora contendrá el último código fuente
 para la versión de desarrollo de Ruby (ruby-trunk).
 
-Vease también [Cómo unirse a nuestro desarrollo como Non-committer][noncommitterhowto].
+Vease también [Cómo unirse a nuestro desarrollo como no contribuyente de código fuente][noncommitterhowto].
 
-Si tienes acceso de confirmación y deseas empujar cambios,
+Si tienes permisos de contribución al código fuente y deseas empujar cambios,
 deberías usar el repositorio principal.
 
 {% highlight sh %}
@@ -82,7 +82,7 @@ En resumen, los pasos para crear un parche son:
     a la [lista de distribución de Ruby-Core][mailing-lists] con un registro de ChangeLog
     describiendo tu parche.
 
-5.  Si no surgen problemas sobre el parche, los commiteadores darán
+5.  Si no surgen problemas sobre el parche, los contribuyentes darán
     la aprobación para aplicarlo.
 
 **Por favor ten en cuenta:** los parches deben enviarse como una [diferencia unificada][12].
@@ -122,7 +122,7 @@ $ git checkout ruby_X_X
 
 X_X debe ser reemplazado por la versión que desees revisar.
 
-Si deseas modificar las ramas, por favor, abra una incidencia en nuestro [rastreador de problemas][10].
+Si deseas modificar las ramas, por favor, abre una incidencia en nuestro [rastreador de problemas][10].
 Ver también la siguiente sección.
 
 [gitrlo]: https://git.ruby-lang.org/ruby.git

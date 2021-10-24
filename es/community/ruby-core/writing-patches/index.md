@@ -35,7 +35,7 @@ en la lista de distribución de Ruby-Core:
 
   Preferimos los parches de diferencias unificados de estilo `diff -u` a diferencia de `diff -c`
   o cualquier otro estilo de parches. Son mucho más fáciles de revisar.
-  No envíe archivos modificados, no queremos hacer una diferencia por nosotros mismos.
+  No envíes archivos modificados, no queremos hacer un diff por nosotros mismos.
 
 * Proporciona casos de prueba (opcional)
 
@@ -44,4 +44,4 @@ en la lista de distribución de Ruby-Core:
 
 Podríamos pasar a un flujo de trabajo push/pull estilo Git en el futuro..
 Pero hasta entonces, seguir las pautas anteriores te ayudaría a evitar
-frustración.
+una frustración.
