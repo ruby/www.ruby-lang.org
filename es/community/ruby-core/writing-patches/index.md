@@ -45,4 +45,3 @@ en la lista de distribución de Ruby-Core:
 Podríamos pasar a un flujo de trabajo push/pull estilo Git en el futuro..
 Pero hasta entonces, seguir las pautas anteriores te ayudaría a evitar
 frustración.
-
