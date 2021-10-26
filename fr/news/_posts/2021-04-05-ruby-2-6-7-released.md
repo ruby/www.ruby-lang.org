@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.6.7 est disponible"
 author: "usa"
-translator: "Manaleak2d"
+translator: "Kevin Rosaz"
 date: 2021-04-05 12:00:00 +0000
 lang: fr
 ---
@@ -20,7 +20,7 @@ Voir les [logs de commit](https://github.com/ruby/ruby/compare/v2_6_6...v2_6_7) 
 A partir de cette version, nous terminons la phase de maintenance standard de la branche 2.6 et entrons dans la phase de maintenance de sécurité.
 Cela signifie qu'il n'y aura plus de _backports_ de correctifs pour Ruby 2.6 sauf pour ceux concernant la sécurité.
 Cette phase de maintenance réduite se terminera dans un an. La branche 2.6 de Ruby ne sera alors plus officiellement supportée.
-Nous vous recommandons donc passer vers Ruby 2.7 ou 3.0.
+Nous vous recommandons donc de passer vers Ruby 2.7 ou 3.0.
 
 ## Téléchargement
 

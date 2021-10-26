@@ -2,7 +2,7 @@
 layout: news_post
 title: "CVE-2021-31799: Faille d'injection de commandes dans RDoc"
 author: "aycabta"
-translator: "Manaleak2d"
+translator: "Kevin Rosaz"
 date: 2021-05-02 09:00:00 +0000
 tags: security
 lang: fr
