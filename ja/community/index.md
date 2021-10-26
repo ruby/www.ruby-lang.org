@@ -40,6 +40,10 @@ Rubyコミュニティに興味があるのなら、ぜひ以下のコミュニ�
 * Libera Chatの[#ruby](https://web.libera.chat/#ruby)
   * Rubyの利用者の交流、質問のためのチャンネルです。(英語)
 
+## Slack
+
+* Slack上には[ruby-jp](https://ruby-jp.github.io/)コミュニティがあります。3000人を超えるユーザーと100を超えるチャンネルが存在し、初歩的な質問からCRubyについての高度な質問まで、多種多様な質問と回答が飛び交っています。
+
 ## メーリングリスト
 
 * [メーリングリスト](/ja/community/mailing-lists/) のページを参照してください。
