@@ -31,15 +31,13 @@ Information about Ruby user groups can be found on various websites:
 : A number of user groups can also be found  at OnRuby. OnRuby is an
   open source platform written in Ruby that can be used to organize
   meetups. It is available on [GitHub][3].
-  
+
 ### Organizing Your Own Group
 
 If you are interested in forming your own group, be sure to find out if
 there is already a Ruby user group in your area. Larger meetings are
 usually much more fun, so starting your own group may not be the best
 option if there is already one nearby.
-
-
 
 [1]: https://ruby.meetup.com
 [2]: https://www.onruby.eu/
