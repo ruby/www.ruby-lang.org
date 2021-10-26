@@ -20,9 +20,9 @@ Net::IMAP ne lève pas d'exception lorsque StartTLS échoue avec une réponse in
 
 ## Versions concernées
 
-* Toutes les versions de Ruby 2.6 antérieures à Ruby 2.6.7 
-* Toutes les versions de Ruby 2.7 antérieures à Ruby 2.7.3 
-* Toutes les versions de Ruby 3.0 antérieures à Ruby 3.0.1 
+* Toutes les versions de Ruby 2.6 antérieures à Ruby 2.6.7
+* Toutes les versions de Ruby 2.7 antérieures à Ruby 2.7.3
+* Toutes les versions de Ruby 3.0 antérieures à Ruby 3.0.1
 
 ## Remerciements
 

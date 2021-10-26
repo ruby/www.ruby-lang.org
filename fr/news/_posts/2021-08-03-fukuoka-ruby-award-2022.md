@@ -11,7 +11,7 @@ Chers passionnés de Ruby,
 
 Le gouvernement de Fukuoka au Japon et « Matz » Matsumoto aimeraient vous inviter à participer au concours Ruby suivant. Si vous avez développé un programme Ruby intéressant, vous êtes encouragés à postuler.
 
-Concours 2022 Fukuoka Ruby Award - Grand Prix - 1 Million de Yens!
+Concours 2022 Fukuoka Ruby Award - Grand Prix - 1 Million de Yens !
 
 Date limite d'inscription : 3 décembre 2021
 
@@ -29,4 +29,4 @@ Veuillez envoyer le formulaire de candidature à award@f-ruby.com
 
 « Matz testera et révisera votre code source de manière approfondie, il est donc très intéressant de postuler ! Le concours est gratuit. »
 
-Merci!
+Merci !
