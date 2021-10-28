@@ -14,7 +14,7 @@ CONFIG = "_config.yml"
 task default: [:build]
 
 desc "Run tests (test-linter, lint, build)"
-task test: %i[test-linter lint build]
+task test: %i[test-news-plugin test-linter lint build]
 
 desc "Build the Jekyll site"
 task :build do
@@ -134,5 +134,13 @@ Rake::TestTask.new(:"test-linter") do |t|
   t.description = "Run tests for the Linter library"
   t.libs = ["test", "lib"]
   t.test_files = FileList['test/test_linter_*.rb']
+  t.verbose = true
+end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-news-plugin") do |t|
+  t.description = "Run tests for the news archive plugin"
+  t.libs = ["test"]
+  t.test_files = FileList['test/test_plugin_news.rb']
   t.verbose = true
 end
