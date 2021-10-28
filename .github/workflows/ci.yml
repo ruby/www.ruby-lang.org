@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: [2.7]
+        ruby: ["3.0"]
         os: [ubuntu-latest]
       fail-fast: false
 
