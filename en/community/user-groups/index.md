@@ -21,16 +21,16 @@ to giving people a chance to write Ruby code).
 
 Information about Ruby user groups can be found on various websites:
 
-[Ruby Meetup Groups][1]
+[Ruby Meetup Groups][meetup]
 : A substantial number of Ruby User Groups have chosen to make Meetup
   their home. Meetup provides a number of tools for user groups,
   including: private forums, a place for announcements, automated
   meeting reminders, and a nice RSVP system.
 
-[OnRuby][2]
-: A number of user groups can also be found  at OnRuby. OnRuby is an
+[OnRuby][onruby]
+: A number of user groups can also be found at OnRuby. OnRuby is an
   open source platform written in Ruby that can be used to organize
-  meetups. It is available on [GitHub][3].
+  meetups. It is [available on GitHub][onruby-github].
 
 ### Organizing Your Own Group
 
@@ -39,6 +39,8 @@ there is already a Ruby user group in your area. Larger meetings are
 usually much more fun, so starting your own group may not be the best
 option if there is already one nearby.
 
-[1]: https://ruby.meetup.com
-[2]: https://www.onruby.eu/
-[3]: https://github.com/phoet/on_ruby
+
+
+[meetup]: https://ruby.meetup.com
+[onruby]: https://www.onruby.eu/
+[onruby-github]: https://github.com/phoet/on_ruby
