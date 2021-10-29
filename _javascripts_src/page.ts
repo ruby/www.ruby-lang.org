@@ -1,4 +1,3 @@
-"use strict";
 var Page = {
     SiteLinks: {
         highlight: function () {
@@ -8,8 +7,10 @@ var Page = {
                     $(this).addClass('selected');
                 }
             });
+
             $("#home-page-layout #header div.site-links a.home").addClass('selected');
         },
+
         menu: function () {
             $("#header div.site-links a.menu").on('click touchstart', function (event) {
                 $(this).closest("div.site-links").toggleClass("open");
@@ -18,5 +19,6 @@ var Page = {
         }
     }
 };
+
 $(Page.SiteLinks.highlight);
 $(Page.SiteLinks.menu);

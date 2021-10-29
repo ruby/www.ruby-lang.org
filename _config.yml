@@ -18,6 +18,7 @@ exclude:
   - lib
   - test
   - vendor
+  - tsconfig.json
 
 url: https://www.ruby-lang.org
 
