@@ -30,7 +30,7 @@ pour le partage des connaissances et, si vous êtes chanceux, des
 réunions et conférences (la mode étant aux barcamp, rencontres autour
 d’un verre dans un lieu adapté aux présentations).
 
-[Meetup][2]
+[Meetup][meetup]
 : Un nombre non négligeable de groupes ont choisi de promouvoir leurs
   évènements chez Meetup. Cet outil propose des services variés
   concernant la gestion d’un groupe, notamment un forum privé, un
@@ -102,8 +102,8 @@ détail [comment organiser un apéro Ruby][19].
 
 
 
-[2]: http://ruby.meetup.com
-[3]: http://www.meetup.com/parisrb/
+[meetup]: https://ruby.meetup.com
+[3]: https://www.meetup.com/parisrb/
 [4]: http://groups.google.com/group/parisrb
 [5]: http://lyonrb.fr/
 [6]: http://rulu.eu/
@@ -118,5 +118,5 @@ détail [comment organiser un apéro Ruby][19].
 [15]: http://rivierarb.fr/
 [16]: http://www.facebook.com/AperoRubyMontpellier
 [17]: http://rubybdx.org/
-[18]: http://www.meetup.com/Orleans-rb/
+[18]: https://www.meetup.com/Orleans-rb/
 [19]: http://www.camilleroux.com/2011/09/15/comment-organiser-un-apero-ruby/

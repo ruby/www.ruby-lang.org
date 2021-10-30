@@ -19,7 +19,7 @@ Ruby 유저 그룹은 전적으로 Ruby에만 전념합니다. 일반적으로 �
 
 Ruby 유저 그룹에 관한 정보는 여러 웹 사이트에서 얻을 수 있습니다.
 
-[Ruby Meetup Groups][1]
+[Ruby Meetup Groups][meetup]
 : Ruby 유저 그룹의 상당수는 Meetup 사이트를 홈페이지로 합니다. Meetup은
 유저 그룹을 위한 몇 가지 툴을 제공하고 있습니다. 비공개 포럼, 공지를 위한 장소,
 자동 리마인더, 훌륭한 RSVP(참석여부 체크) 시스템 등등이 그것이죠.
@@ -32,4 +32,4 @@ Ruby 유저 그룹에 관한 정보는 여러 웹 사이트에서 얻을 수 있
 
 
 
-[1]: https://ruby.meetup.com
+[meetup]: https://ruby.meetup.com

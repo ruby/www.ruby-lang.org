@@ -20,7 +20,7 @@ lang: bg
 Информация за Ruby потребителски групи можете да намерите на следните
 сайтове:
 
-[Ruby Meetup Groups][1]
+[Ruby Meetup Groups][meetup]
 : Meetup предоставя: частни форуми, място за съобщения и публикации,
   напомняне за събирания и RSVP система.
 
@@ -33,4 +33,4 @@ lang: bg
 
 
 
-[1]: https://ruby.meetup.com
+[meetup]: https://ruby.meetup.com

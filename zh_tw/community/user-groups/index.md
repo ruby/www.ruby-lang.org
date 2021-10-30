@@ -13,7 +13,7 @@ lang: zh_tw
 
 關於 Ruby 使用者群組的資訊可以在許多網站找到：
 
-[Ruby Meetup Groups][1]
+[Ruby Meetup Groups][meetup]
 : 許多 Ruby 使用者群組選擇在 Meetup 建立自己的家， Meetup 提供許多群組工具，包含：私密論壇、公佈欄、自動聚會提醒、還有一個很棒的 RSVP 系統。
 
 ### 組織您自己的使用者群組
@@ -22,4 +22,4 @@ lang: zh_tw
 
 
 
-[1]: https://ruby.meetup.com
+[meetup]: https://ruby.meetup.com

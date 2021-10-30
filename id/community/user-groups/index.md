@@ -39,7 +39,7 @@ Kelompok pengguna Ruby dapat ditemukan di situs-situs berikut ini:
   dan informasi singkat mengenai masing-masing kelompok. Situs ini
   bersifat seperti wiki dan dapat diedit oleh siapa saja.
 
-[Kelompok Ruby di Meetup][4]
+[Kelompok Ruby di Meetup][meetup]
 : Sejumlah besar kelompok pengguna Ruby bergabung dalam Meetup. Meetup
   menyediakan banyak fasilitas untuk kelompok pengguna, seperti forum
   internal, pengumuman, pengingat otomatis, dan sistem RSVP.
@@ -61,5 +61,5 @@ Ruby yang Anda ikuti dapat kita sampaikan di sini.
 [1]: http://tech.groups.yahoo.com/group/id-ruby/
 [2]: http://wiki.rubygarden.org/Ruby/page/show/RubyUserGroups
 [3]: http://www.rubyholic.com/
-[4]: http://ruby.meetup.com
+[meetup]: https://ruby.meetup.com
 [5]: http://groups.google.com/group/Ruby-Brigades

@@ -34,7 +34,7 @@ poniższych stronach:
   grupy. Ta strona przypomina Wiki, czyli każdy może edytować dowolne
   informacje znajdujące się na niej.
 
-[Ruby Meetup Groups][3]
+[Ruby Meetup Groups][meetup]
 : Spora liczba grup użytkowników Rubiego zdecydowała sie wykorzystać
   serwis meetup.com jako swoje miejsce w sieci. Meetup zapewnia zestaw
   narzędzi dla grup użytkowników m.in.: prywatne fora dyskusyjne,
@@ -53,5 +53,5 @@ ludzi, którzy chcą dowiedzieć się co się dzieje w innych grupach.
 
 [1]: http://wiki.rubygarden.org/Ruby/page/show/RubyUserGroups
 [2]: http://www.rubyholic.com/
-[3]: http://ruby.meetup.com
+[meetup]: https://ruby.meetup.com
 [4]: http://groups.google.com/group/Ruby-Brigades
