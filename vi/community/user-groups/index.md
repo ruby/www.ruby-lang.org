@@ -22,7 +22,7 @@ buổi thảo luận này dành cho mọi người cơ hội để viết code R
 
 Thông tin về các nhóm người dùng Ruby có thể tìm thấy trên những website khác nhau như:
 
-[Các nhóm Ruby Meetup][1]
+[Các nhóm Ruby Meetup][meetup]
 : Đa số các nhóm người dùng Ruby đều chọn Meetup làm ngôi nhà chung.  Meetup
   cung cấp một số công cụ cho những nhóm người dùng bao gồm: diễn đàn riêng, nơi
   thông báo cho nhóm, tự động nhắc nhở khi có cuộc thảo luận nhóm nào được tổ
@@ -37,4 +37,4 @@ nếu đã có một nhóm trong khu vực đó rồi.
 
 
 
-[1]: https://ruby.meetup.com
+[meetup]: https://ruby.meetup.com

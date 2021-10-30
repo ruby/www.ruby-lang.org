@@ -23,7 +23,7 @@ dedicadas a dar a oportunidade aos membros de escrever código em Ruby).
 Informações sobre grupos de usuários de Ruby podem ser encontrados pelo
 menos em vários websites:
 
-[Ruby Meetup Groups][1]
+[Ruby Meetup Groups][meetup]
 : Um número substancial de Grupos de Usuários de Ruby decidiram usar o
   Meetup como o seu lar. O Meetup oferece um número de ferramentas
   incluindo: fóruns privados, um local para colocar anúncios, lembretes
@@ -38,4 +38,4 @@ não ser a melhor opção se já existir um por perto.
 
 
 
-[1]: https://ruby.meetup.com
+[meetup]: https://ruby.meetup.com
