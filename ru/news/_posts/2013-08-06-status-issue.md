@@ -40,7 +40,7 @@ lang:   ru
 
 ## Обновление (2013-08-07 05:08 UTC)
 
-Мы подтвердили, что следующие пакеты сломаны. Эти покеты доступны на http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
+Мы подтвердили, что следующие пакеты сломаны. Эти пакеты доступны на http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/
 <pre>
 ruby-1.9.3-p426.tar.bz2
 ruby-1.9.3-p426.tar.gz

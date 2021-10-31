@@ -49,7 +49,7 @@ lang: ru
 * "literal".freeze теперь оптимизирован [#9042](https://bugs.ruby-lang.org/issues/9042)
 * добавлен Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * обновлены библиотеки, такие как json, nkf, rake, RubyGems, и RDoc.
-* удалена бибиотека curses. [#8584](https://bugs.ruby-lang.org/issues/8584)
+* удалена библиотека curses. [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 Смотри больше подробностей об изменениях: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_preview2/NEWS).
 
