@@ -9,8 +9,8 @@ lang: ru
 
 **[Barcelona Ruby Conference][1]** – это конференция, которая проходит в сердце
 **Каталонии, Испания** 14-15 сентября. Выступают [спикеры мирового
-класса][2], такие как **Aaron Patterson** (кортим rails и ruby),
-**David Chelimsky** (автор *The RSpec book*, RSpec кортим),
+класса][2], такие как **Aaron Patterson** (ключевой разработчик rails и ruby),
+**David Chelimsky** (автор *The RSpec book*, ключевой разработчик RSpec),
 **Charles Nutter** (JRuby ментейнер), **Sandi Metz** (автор *Practical
 Object-Oriented Design in Ruby*) или **Yukihiro Matz** (создатель языка Ruby
 ), и многие другие.
