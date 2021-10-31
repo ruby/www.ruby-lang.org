@@ -8,3 +8,4 @@ vendor
 .env
 bin
 .jekyll*
+yaspeller_report.json
