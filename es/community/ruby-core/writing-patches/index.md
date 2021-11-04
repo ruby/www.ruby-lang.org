@@ -42,6 +42,9 @@ en la lista de distribución de Ruby-Core:
   Un parche que proporciona casos de prueba (preferiblemente un parche para `test/*/test_*.rb`)
   nos ayudaría a comprender el parche y su intención.
 
-Podríamos pasar a un flujo de trabajo push/pull estilo Git en el futuro..
+Podríamos pasar a un flujo de trabajo push/pull estilo Git en el futuro.
 Pero hasta entonces, seguir las pautas anteriores te ayudaría a evitar
 una frustración.
+
+
+[ruby-core-post]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139

@@ -67,8 +67,8 @@ sidebar:
       url: /en/community/weblogs/
       description: Entérate de lo que está sucediendo en la comunidad.
     ruby_core:
-      text: Ruby Core (en inglés)
-      url: /en/community/ruby-core/
+      text: Ruby Core
+      url: /es/community/ruby-core/
       description: Ayuda a mejorar el futuro de Ruby.
     issue_tracking:
       text: Reportes de errores
