@@ -13,7 +13,7 @@ Rilis ini mencakup beberapa perbaikan keamanan.
 Mohon cek topik-topik di bawah ini untuk lebih detail.
 
 * [CVE-2020-25613: Potensi Kerentanan HTTP Request Smuggling pada WEBrick]({%link id/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
-* [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
+* [CVE-2021-28965: Kerentanan XML round-trip pada REXML]({% link id/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
 
 Lihat [commit logs](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) untuk
 detail.
