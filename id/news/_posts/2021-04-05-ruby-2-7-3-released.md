@@ -13,7 +13,7 @@ Rilis ini mencakup perbaikan keamanan.
 Mohon cek topik-topik di bawah ini untuk lebih detail.
 
 * [CVE-2021-28965: Kerentanan XML round-trip pada REXML]({% link id/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
-* [CVE-2021-28966: Path traversal in Tempfile on Windows]({% link en/news/_posts/2021-04-05-tempfile-path-traversal-on-windows-cve-2021-28966.md %})
+* [CVE-2021-28966: Path traversal pada Tempfile di Windows]({% link id/news/_posts/2021-04-05-tempfile-path-traversal-on-windows-cve-2021-28966.md %})
 
 Cek [commit logs](https://github.com/ruby/ruby/compare/v2_7_2...v2_7_3) untuk
 detail.
