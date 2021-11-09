@@ -17,11 +17,11 @@ We are pleased to announce the release of Ruby {{ release.version }}.
 
 Ruby 3.1 merges YJIT, a new in-process JIT compiler developed by Shopify.
 
-Since [Ruby 2.6 introduced MJIT in 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), its performance greatly improved, and finaly [we achieved Ruby3x3 last year](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). But even though Optcarrot has shown impressive speedups, the JIT hasn't benefited real world business applications.
+Since [Ruby 2.6 introduced MJIT in 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), its performance greatly improved, and finally [we achieved Ruby3x3 last year](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). But even though Optcarrot has shown impressive speedups, the JIT hasn't benefited real world business applications.
 
 Recently Shopify contributed many Ruby improvements to speed up their Rails application. YJIT is an important contribution, and aims to improve the performance of Rails applications.
 
-Though MJIT is a method-based JIT compiler and uses an external C compiler, YJIT uses Basic Block Versioning and includes JIT compiler inside it. With Lazy Basic Block Versioning (LBBV) it first compiles the beggining of a method, and incrementaly compiles the rest when the type of arguments and variables are dynamically determined. See [YJIT: a basic block versioning JIT compiler for CRuby](https://dl.acm.org/doi/10.1145/3486606.3486781) for a detailed introduction.
+Though MJIT is a method-based JIT compiler and uses an external C compiler, YJIT uses Basic Block Versioning and includes JIT compiler inside it. With Lazy Basic Block Versioning (LBBV) it first compiles the beginning of a method, and incrementally compiles the rest when the type of arguments and variables are dynamically determined. See [YJIT: a basic block versioning JIT compiler for CRuby](https://dl.acm.org/doi/10.1145/3486606.3486781) for a detailed introduction.
 
 With this technology, YJIT achieves both fast warmup time and performance improvements on most real-world software, up to 22% on railsbench, 39% on liquid-render.
 
