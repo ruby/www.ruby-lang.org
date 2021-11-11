@@ -24,7 +24,7 @@
 - version: 3.1.0-preview1
   date: 2021-11-09
   post: /en/news/2021/11/09/ruby-3-1-0-preview1-released/
-  tag: ruby_3_1_0_preview1
+  tag: v3_1_0_preview1
   stats:
     files_changed: 2963
     insertions: 529321
