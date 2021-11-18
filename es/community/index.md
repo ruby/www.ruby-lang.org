@@ -29,7 +29,7 @@ donde empezar:
 : El canal IRC The Ruby Language es un buen lugar para chatear con otros
   compañeros Rubyistas.
 
-[El Core de Ruby](/en/community/ruby-core/) (en inglés)
+[El Core de Ruby](/es/community/ruby-core/)
 : Con Ruby 2.0 en camino, ahora es un buen momento para seguir cómo va
   su desarrollo. Si estás interesado en ayudar con Ruby, comienza por
   aquí.

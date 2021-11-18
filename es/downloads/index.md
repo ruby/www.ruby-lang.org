@@ -63,7 +63,7 @@ antes mencionadas. Pueden servirte de ayuda.
     Puede contener errores, ¡úsalo bajo tu responsabilidad!
 
 Para información sobre los repositorios de Subversion y Git, consulta
-nuestra página [Ruby core](/en/community/ruby-core/) (en inglés).
+nuestra página [Ruby Core](/es/community/ruby-core/).
 
 El código fuente de Ruby está disponible desde un conjunto
 de [sitios espejo][mirrors] a lo largo del mundo.
