@@ -52,6 +52,30 @@
 
 # 3.0 series
 
+- version: 3.0.3
+  date: '2021-11-24'
+  post: "/en/news/2021/11/24/ruby-3-0-3-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.3.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.3.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.3.zip
+  size:
+    gz: 20242729
+    xz: 14991880
+    zip: 24627744
+  sha1:
+    gz: '049317b7c6246d6ea86564c3f73a629b766ff634'
+    xz: c1e6dac2b8c08afbbee39e25e325c84e1cab7c17
+    zip: 5341ed1602a3289c4857560ead53191895e5c586
+  sha256:
+    gz: 3586861cb2df56970287f0fd83f274bd92058872d830d15570b36def7f1a92ac
+    xz: 88cc7f0f021f15c4cd62b1f922e3a401697f7943551fe45b1fdf4f2417a17a9c
+    zip: 0b8370e404550bf736f46307a14eb9306a7868fb8d54e1418ecdaccbaa8ac06f
+  sha512:
+    gz: 39dab51a0d784a38302372b99f96205817d466245202586d22123745761e9cb39db128ec2b984ebc3919b9faf2adf828d19c97d3fb1e56d44be0a81dc5d11b87
+    xz: bb9ea426278d5a7ac46595296f03b82d43df8b7db41045cdf85611e05e26c703c53f700494cd7cf5d4c27fa953bdc5c144317d7720812db0a6e3b6f4bc4d2e00
+    zip: 24c2a4f455f90e54f85d9565e392519833b36aefce32dc707e6693994d175c82e84ee6c37ed4a9ddf8840479e7cdfaae714c12bc6923368bb00346d4edd434d8
+
 - version: 3.0.2
   date: '2021-07-07'
   post: "/en/news/2021/07/07/ruby-3-0-2-released/"
@@ -219,6 +243,35 @@
     xz:  dca5dcc965c434371947c100864090e29e649e19ae24b8bb2e88a534ebd8220c5a086035a999b1e8b1cd5ec154a6985a8d8dfea56095d712d62aeea7a2054f7d
 
 # 2.7 series
+
+- version: 2.7.5
+  date: '2021-11-24'
+  post: "/en/news/2021/11/24/ruby-2-7-5-released/"
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.5.tar.bz2
+    gz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.5.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.5.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.5.zip
+  size:
+    bz2: 14805180
+    gz: 16923709
+    xz: 12072980
+    zip: 20702176
+  sha1:
+    bz2: 2a179b601f45172b1cb38e8f157c4e6ce272c22c
+    gz: c2d0f6c793f9e673f9fb22276d32f8c395ec5581
+    xz: 1d04fbf24150eaa1297a7ef4c7057ec0a9dca527
+    zip: 541b34fa5e7e55b6269a2bfa67e2a06ad0dcb571
+  sha256:
+    bz2: d6b444341a5e06fcd6eaf1feb83a1c0c2da4705dbe4f275ee851761b185f4bd1
+    gz: 2755b900a21235b443bb16dadd9032f784d4a88f143d852bc5d154f22b8781f1
+    xz: d216d95190eaacf3bf165303747b02ff13f10b6cfab67a9031b502a49512b516
+    zip: 3793d764ec8da68203eba1a7fe338fae9bafa8226cce911c8648c1b7c32ba9c2
+  sha512:
+    bz2: 0aa2ac44bc22859a39c43d08b7c7f457df05c2dc36b2574fd70ca399143ef1000dc5e496212db9eb055bc4258523d47d26db3c57a1a5a5d63cf1b3de9f81645a
+    gz: '09e029b5cc15b6e4e37bcf15adb28213eaedec3ea22106d63095b37ea6b2a2b68e82e74e6b50746c87dd77e5185795d014e0db118bf0f45ffa0b0a307f5f65da'
+    xz: 21c8a713e3ce115fc4c405113ac691ddcefc3419f528b93ca1ac59e7052c1b6e9e241da0e570e291e567f28f3d840824dbcc5967b216cbe7d6ca7a05580fa311
+    zip: fe9a706f8139e59a40ab205dc88cdc613c9c69186cb2daeb5adc80bdf45290a523fa7e3fd0866fa12325039ba413ff1e1f4233073d352da08079dc903063b31a
 
 - version: 2.7.4
   date: '2021-07-07'
@@ -494,6 +547,35 @@
     xz:  540f11753f5805c1bf560c54a44d1ea04414217c7d319cac165de964e269399f
 
 # 2.6 series
+
+- version: 2.6.9
+  date: '2021-11-24'
+  post: "/en/news/2021/11/24/ruby-2-6-9-released/"
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.9.tar.bz2
+    gz: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.9.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.9.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.9.zip
+  size:
+    bz2: 14137792
+    gz: 16202802
+    xz: 11590064
+    zip: 19869379
+  sha1:
+    bz2: a482c36645e7ff4596c6aca2cf96d15481fcfc5e
+    gz: 00e69747e7e2b87155c65b4003470313e4403b0a
+    xz: fc67ca162010aac4af49d73a8c48be5cb2fb5907
+    zip: 41a60c783306f4b47b867bd19d16688b546b8e3a
+  sha256:
+    bz2: a0639060c4519572e51828eb742f09dd40f154c820f6007246de7a2090e3ee45
+    gz: eb7bae7aac64bf9eb2153710a4cafae450ccbb62ae6f63d573e1786178b0efbb
+    xz: 6a041d82ae6e0f02ccb1465e620d94a7196489d8a13d6018a160da42ebc1eece
+    zip: 2480dbdc72d3dc832d8254e938e4861ca54a5337edd6f358e5202fd2a5339eec
+  sha512:
+    bz2: ff067ebc059094c0a9a0debf54a37aad2c85f7ed47be59299041c9c03a7701529f5063ff32a1b8c56d48ee8585015acba63602ed0176b2797d263d43d67aa241
+    gz: 24bd6c8f528907349bcf392ed75a2d767b93a35a9f4c839267873d1dde862d3292d1682e0edc56c078a2690de76a045ef866f54eab8a330a18771f0b234c5993
+    xz: f60aa89e685cea324185eb0d13e6b44caef4e4f761cbf9ea1386ae70e39faf3866ac01e4bb5354574f2583e74290b8c80eaf63d126040d52368be6c771476451
+    zip: 9073e0fc5040434f15158f24c6a551286bc5f1c4c1cb54d6e3debb4ac039187a4f274a217bdb5c8489c72360c65d708f89eb0f2472a1f9232fcfee8e296dec57
 
 - version: 2.6.8
   date: '2021-07-07'

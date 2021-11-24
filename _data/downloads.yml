@@ -8,13 +8,13 @@ preview:
 
 stable:
 
-  - 3.0.2
-  - 2.7.4
+  - 3.0.3
+  - 2.7.5
 
 # optional
 security_maintenance:
 
-  - 2.6.8
+  - 2.6.9
 
 # optional
 eol:
