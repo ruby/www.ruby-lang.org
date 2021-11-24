@@ -65,10 +65,10 @@ sidebar:
       text: 日本Rubyの会
       url: http://ruby-no-kai.org/
       description: Rubyの利用者/開発者の支援を目的としたグループです。
-    weblogs:
-      text: 更新順リンク
-      url: http://www.rubyist.net/~kazu/samidare/
-      description: Ruby関連のサイトのリンクを更新順に並べたものです。
+    # weblogs:
+    #   text: 更新順リンク
+    #   url: http://www.rubyist.net/~kazu/samidare/
+    #   description: Ruby関連のサイトのリンクを更新順に並べたものです。
     # ruby_core:
     #   text: Ruby Core
     #   url: /ja/community/ruby-core/
