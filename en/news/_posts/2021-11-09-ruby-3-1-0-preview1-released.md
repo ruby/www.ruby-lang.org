@@ -104,7 +104,7 @@ Updates since Ruby 3.0.0:
 ## Other notable changes since 3.0
 
 * One-line pattern matching, e.g., `ary => [x, y, z]`, is no longer experimental.
-* Multiple assignment evaluation order has been changed slightly. [Bug #4443]]
+* Multiple assignment evaluation order has been changed slightly. [[Bug #4443]](https://bugs.ruby-lang.org/issues/4443)
   * `foo[0], bar[0] = baz, qux` was evaluated in order `baz`, `qux`, `foo`, and then `bar` in Ruby 3.0. In Ruby 3.1, it is evaluated in order `foo`, `bar`, `baz`, and then `qux`.
 * Variable Width Allocation: Strings (experimental) [[Bug #18239]](https://bugs.ruby-lang.org/issues/18239)
 
