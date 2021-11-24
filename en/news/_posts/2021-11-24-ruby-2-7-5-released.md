@@ -12,9 +12,9 @@ Ruby 2.7.5 has been released.
 This release includes security fixes.
 Please check the topics below for details.
 
-* [CVE-2021-41817: Regular Expression Denial of Service Vulnerability of Date Parsing Methods]({%link 2021-11-15-date-parsing-method-regexp-dos-cve-2021-41817.md %})
-* [CVE-2021-41816: Buffer Overrun in CGI.escape_html]({%link 2021-11-24-buffer-overrun-in-cgi-escape_html-cve-2021-41816.md %})
-* [CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse]({%link 2021-11-24-cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819.md %})
+* [CVE-2021-41817: Regular Expression Denial of Service Vulnerability of Date Parsing Methods]({%link en/news/_posts/2021-11-15-date-parsing-method-regexp-dos-cve-2021-41817.md %})
+* [CVE-2021-41816: Buffer Overrun in CGI.escape_html]({%link en/news/_posts/2021-11-24-buffer-overrun-in-cgi-escape_html-cve-2021-41816.md %})
+* [CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse]({%link en/news/_posts/2021-11-24-cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819.md %})
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_4...v2_7_5) for details.
 
