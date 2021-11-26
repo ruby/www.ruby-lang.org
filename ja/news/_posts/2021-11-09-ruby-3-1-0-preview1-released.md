@@ -7,9 +7,9 @@ date: 2021-11-09 00:00:00 +0000
 lang: ja
 ---
 
-Ruby 3.1 に向けてフィードバックを得るためのリリースである、Ruby 3.1.0-preview1 が公開されました。
-
 {% assign release = site.data.releases | where: "version", "3.1.0-preview1" | first %}
+
+Ruby 3.1 に向けてフィードバックを得るためのリリースである、Ruby {{ release.version }} が公開されました。
 
 ## YJIT： 新しいインプロセス JIT コンパイラ (experimental)
 
