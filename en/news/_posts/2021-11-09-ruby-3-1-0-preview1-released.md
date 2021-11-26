@@ -7,10 +7,9 @@ date: 2021-11-09 00:00:00 +0000
 lang: en
 ---
 
-We are pleased to announce the release of Ruby {{ release.version }}.
-
 {% assign release = site.data.releases | where: "version", "3.1.0-preview1" | first %}
 
+We are pleased to announce the release of Ruby {{ release.version }}.
 
 ## YJIT: New experimental in-process JIT compiler
 
