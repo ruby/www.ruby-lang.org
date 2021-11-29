@@ -347,7 +347,7 @@ foo() #=> Ruby 2.6以前: [{}]
       #=> Ruby 2.7以降:  []
 {% endhighlight %}
 
-`foo()`には引数がありませんが、Ruby 2.6では空のハッシュ引数が`target`に渡されます。理由は、メソッド`foo`が明示的にキーワード（`**kwargs`）を委譲しているためです。`foo()`が呼び出されると、`args`は空のArrayになり、`kwargs`は空のHashになり、blockはnilになります。。そして`target(*args, **kwargs, &block)`は空のHashを引数として1つ渡します。理由は、`**kwargs`が自動的にHash位置引数に変換されるためです。
+`foo()`には引数がありませんが、Ruby 2.6では空のハッシュ引数が`target`に渡されます。理由は、メソッド`foo`が明示的にキーワード（`**kwargs`）を委譲しているためです。`foo()`が呼び出されると、`args`は空のArrayになり、`kwargs`は空のHashになり、`block`は`nil`になります。そして`target(*args, **kwargs, &block)`は空のHashを引数として1つ渡します。理由は、`**kwargs`が自動的にHash位置引数に変換されるためです。
 
 自動変換は開発者を混乱させるのみならず、メソッドの拡張性も弱めてしまいます。振る舞いが変更された理由や、特定の実装が選択された理由について詳しくは[Feature #14183](https://bugs.ruby-lang.org/issues/14183)をご覧ください。
 
