@@ -24,7 +24,7 @@
 - version: 3.1.0
   date: 2021-12-25
   post: /en/news/2021/12/25/ruby-3-1-0-released/
-  tag: ruby_3_1_0
+  tag: v3_1_0
   stats:
     files_changed: 3124
     insertions: 551760
