@@ -70,7 +70,9 @@ IRB にオートコンプリート機能が実装され、コードを入力す�
 
 また、補完候補を選択している時に、ドキュメントがインストールされている場合、補完候補ダイアログの横にドキュメントダイアログが表示され、内容が一部表示されます。Alt+d を押すことでドキュメント全文を読むことができます。
 
-
+<video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby310_irb_dialog.png">
+  <source src="https://cache.ruby-lang.org/pub/media/ruby310_irb_dialog.mp4" type="video/mp4">
+</video>
 
 ## その他の主要な新機能
 
