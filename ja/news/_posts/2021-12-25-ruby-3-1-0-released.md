@@ -7,7 +7,7 @@ date: 2021-12-25 00:00:00 +0000
 lang: ja
 ---
 
-Ruby 3.1系初のリリースである、Ruby 3.1.0 が公開されました。
+Ruby 3.1系初のリリースである、Ruby 3.1.0 が公開されました。Ruby 3.1は3.0と高い互換性を保ちながら、多くの機能を追加しています。
 
 {% assign release = site.data.releases | where: "version", "3.1.0" | first %}
 
