@@ -24,6 +24,11 @@
 - version: 3.1.0
   date: 2021-12-25
   post: /en/news/2021/12/25/ruby-3-1-0-released/
+  tag: ruby_3_1_0
+  stats:
+    files_changed: 3123
+    insertions: 551754
+    deletions: 99153
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.0.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.0.zip
