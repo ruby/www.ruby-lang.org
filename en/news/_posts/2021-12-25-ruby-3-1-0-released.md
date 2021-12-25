@@ -9,7 +9,7 @@ lang: en
 
 {% assign release = site.data.releases | where: "version", "3.1.0" | first %}
 
-We are pleased to announce the release of Ruby {{ release.version }}.
+We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.1 keeps compatibility with Ruby 3.0 and also adds many features.
 
 
 ## YJIT: New experimental in-process JIT compiler
