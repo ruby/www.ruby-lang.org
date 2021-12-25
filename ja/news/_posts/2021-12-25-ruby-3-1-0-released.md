@@ -60,7 +60,7 @@ test.rb:1:in `<main>': undefined method `time' for 1:Integer (NoMethodError)
 Did you mean?  times
 ```
 
-現在のところ、位置が表示されるのは`NameError`のみです。
+現在のところ、位置が表示されるのは`NoMethodError`のみです。
 
 このgemはデフォルトで有効になっています。`--disable-error_highlight`コマンドラインオプションを指定することで無効化できます。詳しくは[ruby/error_highlightリポジトリ](https://github.com/ruby/error_highlight)を見てください。
 

@@ -61,7 +61,7 @@ test.rb:1:in `<main>': undefined method `time' for 1:Integer (NoMethodError)
 Did you mean?  times
 ```
 
-Currently, only `NameError` is supported.
+Currently, only `NoMethodError` is supported.
 
 This gem is enabled by default. You can disable it by using a command-line option `--disable-error_highlight`. See [the repository](https://github.com/ruby/error_highlight) in detail.
 
