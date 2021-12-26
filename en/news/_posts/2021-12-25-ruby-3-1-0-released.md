@@ -40,7 +40,7 @@ A completely rewritten debugger [debug.gem](https://github.com/ruby/debug) is bu
 * Support rich debugging frontend (VSCode and Chrome browser are supported now)
 * Support multi-process/multi-thread debugging
 * Colorful REPL
-* And other useful features like recod & replay feature, tracing feature and so on.
+* And other useful features like record & replay feature, tracing feature and so on.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby310_debug_demo.jpg">
   <source src="https://cache.ruby-lang.org/pub/media/ruby310_debug_demo.mp4" type="video/mp4">
