@@ -142,7 +142,7 @@ Ruby 3.0.0からの主なアップデートは、"TypeProf for IDE"という実�
 * 一行パターンマッチ（たとえば `ary => [x, y, z]`）が実験的機能ではなくなりました。
 
 * 多重代入の評価順序が若干変更されました。[[Bug #4443]](https://bugs.ruby-lang.org/issues/4443)
-  * `foo[0], bar[0] = baz, qux` は、Ruby 3.0 では `baz`, `qux`, `foo`, `bar` という順序で評価されていましたが、Ruby 3.1 では `foo`, `bar`, `baz`, `qux` の順で表kされます。
+  * `foo[0], bar[0] = baz, qux` は、Ruby 3.0 では `baz`, `qux`, `foo`, `bar` という順序で評価されていましたが、Ruby 3.1 では `foo`, `bar`, `baz`, `qux` の順で評価されます。
 
 * 可変幅アロケーション（Variable Width Allocation）が実装されました。現在は試験的にStringが対応しています。 [[Bug #18239]](https://bugs.ruby-lang.org/issues/18239)
 
