@@ -14,14 +14,13 @@ We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.1 k
 
 ## YJIT: New experimental in-process JIT compiler
 
-
 Ruby 3.1 merges YJIT, a new in-process JIT compiler developed by Shopify.
 
-Since [Ruby 2.6 introduced MJIT in 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), its performance greatly improved, and finally [we achieved Ruby3x3 last year](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). But even though Optcarrot has shown impressive speedups, the JIT hasn't benefited real world business applications.
+Since [Ruby 2.6 introduced MJIT in 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), its performance greatly improved, and finally [we achieved Ruby3x3 last year](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). But even though Optcarrot has shown impressive speedups, the JIT has not benefited real world business applications.
 
 Recently Shopify contributed many Ruby improvements to speed up their Rails application. YJIT is an important contribution, and aims to improve the performance of Rails applications.
 
-Though MJIT is a method-based JIT compiler and uses an external C compiler, YJIT uses Basic Block Versioning and includes JIT compiler inside it. With Lazy Basic Block Versioning (LBBV) it first compiles the beginning of a method, and incrementally compiles the rest when the type of arguments and variables are dynamically determined. See [YJIT: a basic block versioning JIT compiler for CRuby](https://dl.acm.org/doi/10.1145/3486606.3486781) for a detailed introduction.
+While MJIT is a method-based JIT compiler and uses an external C compiler, YJIT uses Basic Block Versioning and includes a JIT compiler inside it. With Lazy Basic Block Versioning (LBBV) it first compiles the beginning of a method, and incrementally compiles the rest when the type of arguments and variables are dynamically determined. See [YJIT: a basic block versioning JIT compiler for CRuby](https://dl.acm.org/doi/10.1145/3486606.3486781) for a detailed introduction.
 
 With this technology, YJIT achieves both fast warmup time and performance improvements on most real-world software, up to 22% on railsbench, 39% on liquid-render.
 
@@ -35,22 +34,22 @@ YJIT is still an experimental feature, and as such, it is disabled by default. I
 
 A completely rewritten debugger [debug.gem](https://github.com/ruby/debug) is bundled. debug.gem has the following features:
 
-* Improve the debugging performance (it does not slow down the application even with the debugger)
-* Support remote debugging
-* Support rich debugging frontend (VSCode and Chrome browser are supported now)
-* Support multi-process/multi-thread debugging
-* Colorful REPL
+* Improve the debugging performance (it does not slow down the application even with the debugger).
+* Support remote debugging.
+* Support rich debugging frontend (VS Code and Chrome browser are supported currently).
+* Support multi-process/multi-thread debugging.
+* Colorful REPL.
 * And other useful features like record & replay feature, tracing feature and so on.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby310_debug_demo.jpg">
   <source src="https://cache.ruby-lang.org/pub/media/ruby310_debug_demo.mp4" type="video/mp4">
 </video>
 
-Ruby had bundled lib/debug.rb, but it was not well maintained and it had issues about performance and features. debug.gem replaced lib/debug.rb completely.
+Ruby had bundled lib/debug.rb, but it was not well maintained and it had issues about performance and features. debug.gem replaces lib/debug.rb completely.
 
 ## error_highlight: Fine-grained error location in backtrace
 
-A built-in gem, error_highlight, has been introduced. It includes fine-grained error location in backtrace:
+A built-in gem, error_highlight, has been introduced. It includes fine-grained error location in backtraces:
 
 ```
 $ ruby test.rb
@@ -63,7 +62,7 @@ Did you mean?  times
 
 Currently, only `NameError` is supported.
 
-This gem is enabled by default. You can disable it by using a command-line option `--disable-error_highlight`. See [the repository](https://github.com/ruby/error_highlight) in detail.
+This gem is enabled by default. You can disable it by using the command-line option `--disable-error_highlight`. See the [repository](https://github.com/ruby/error_highlight) for details.
 
 ## IRB Autocomplete and Document Display
 
@@ -80,10 +79,10 @@ If documents are installed when you select a completion candidate, the documenta
 ### Language
 
 * Values in Hash literals and keyword arguments can be omitted. [Feature #14579]
-  * `{x:, y:}` is a syntax sugar of `{x: x, y: y}`.
-  * `foo(x:, y:)` is a syntax sugar of `foo(x: x, y: y)`.
+  * `{x:, y:}` is syntax sugar for `{x: x, y: y}`.
+  * `foo(x:, y:)` is syntax sugar for `foo(x: x, y: y)`.
 
-* Pin operator in pattern matching now takes an expression. [Feature #17411]
+* The pin operator in pattern matching now takes an expression. [Feature #17411]
 
 ```ruby
 Prime.each_cons(2).lazy.find_all{_1 in [n, ^(n + 2)]}.take(3).to_a
@@ -101,7 +100,7 @@ y #=> 2
 
 ### RBS
 
-RBS is a language to describe the structure of Ruby programs. See [the repository](https://github.com/ruby/rbs) for details.
+RBS is a language to describe the structure of Ruby programs. See the [repository](https://github.com/ruby/rbs) for details.
 
 Updates since Ruby 3.0.0:
 
@@ -111,17 +110,17 @@ Updates since Ruby 3.0.0:
 * Many signatures for built-in and standard libraries have been added/updated.
 * It includes many bug fixes and performance improvements too.
 
-See [the CHANGELOG.md](https://github.com/ruby/rbs/blob/master/CHANGELOG.md) for more information.
+See the [changelog](https://github.com/ruby/rbs/blob/master/CHANGELOG.md) for more information.
 
 ### TypeProf
 
-TypeProf is a static type analyzer for Ruby. It generates a prototype of RBS from non-type-annotated Ruby code. See [the document](https://github.com/ruby/typeprof/blob/master/doc/doc.md) for detail.
+TypeProf is a static type analyzer for Ruby. It generates a prototype of RBS from non-type-annotated Ruby code. See the [document](https://github.com/ruby/typeprof/blob/master/doc/doc.md) for details.
 
-The main updates since Ruby 3.0.0 is an experimental IDE support called "TypeProf for IDE".
+The main update since Ruby 3.0.0 is an experimental IDE support called "TypeProf for IDE".
 
 ![Demo of TypeProf for IDE](https://cache.ruby-lang.org/pub/media/ruby310_typeprof_ide_demo.png)
 
-The vscode extension shows a guessed (or explicitly written in a RBS file) method signature above each method definition, draws a red underline under the code that may cause a name error or type error, and completes method names (i.e., shows method candidates). See [the document](https://github.com/ruby/typeprof/blob/master/doc/ide.md) in detail.
+The VS Code extension shows a guessed (or explicitly written in an RBS file) method signature above each method definition, draws a red underline under the code that may cause a name error or type error, and completes method names (i.e., shows method candidates). See the [document](https://github.com/ruby/typeprof/blob/master/doc/ide.md) for details.
 
 Also, the release includes many bug fixes and performance improvements.
 
@@ -138,15 +137,15 @@ Also, the release includes many bug fixes and performance improvements.
 * One-line pattern matching, e.g., `ary => [x, y, z]`, is no longer experimental.
 * Multiple assignment evaluation order has been changed slightly. [[Bug #4443]](https://bugs.ruby-lang.org/issues/4443)
   * `foo[0], bar[0] = baz, qux` was evaluated in order `baz`, `qux`, `foo`, and then `bar` in Ruby 3.0. In Ruby 3.1, it is evaluated in order `foo`, `bar`, `baz`, and then `qux`.
-* Variable Width Allocation: Strings (experimental) [[Bug #18239]](https://bugs.ruby-lang.org/issues/18239)
+* Variable Width Allocation: Strings (experimental). [[Bug #18239]](https://bugs.ruby-lang.org/issues/18239)
 
-* Psych 4.0 changes `Psych.load` as `safe_load` by the default.
+* Psych 4.0 changes `Psych.load` to use `safe_load` by default.
   You may need to use Psych 3.3.2 for migrating to this behavior.
   [[Bug #17866]](https://bugs.ruby-lang.org/issues/17866)
 
 ### Standard libraries updates
 
-*   The following default gem are updated.
+*   The following default gems are updated.
     * RubyGems 3.3.3
     * base64 0.1.1
     * benchmark 0.2.0
@@ -220,7 +219,7 @@ Also, the release includes many bug fixes and performance improvements.
     * debug 1.4.0
 
 See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_0_0...{{ release.tag }})
+or the [commit logs](https://github.com/ruby/ruby/compare/v3_0_0...{{ release.tag }})
 for more details.
 
 With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_0_0...{{ release.tag }}#file_bucket)
