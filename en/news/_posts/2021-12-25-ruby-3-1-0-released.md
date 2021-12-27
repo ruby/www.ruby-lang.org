@@ -64,11 +64,11 @@ Currently, only `NameError` is supported.
 
 This gem is enabled by default. You can disable it by using the command-line option `--disable-error_highlight`. See the [repository](https://github.com/ruby/error_highlight) for details.
 
-## IRB Autocomplete and Document Display
+## IRB Autocomplete and Documentation Display
 
 The IRB now has an autocomplete feature, where you can just type in the code, and the completion candidates dialog will appear. You can use Tab and Shift+Tab to move up and down.
 
-If documents are installed when you select a completion candidate, the documentation dialog will appear next to the completion candidates dialog, showing part of the content. You can read the full document by pressing Alt+d.
+If documentation is installed when you select a completion candidate, the documentation dialog will appear next to the completion candidates dialog, showing part of the content. You can read the full documentation by pressing Alt+d.
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby310_irb_dialog.png">
   <source src="https://cache.ruby-lang.org/pub/media/ruby310_irb_dialog.mp4" type="video/mp4">
@@ -114,13 +114,13 @@ See the [changelog](https://github.com/ruby/rbs/blob/master/CHANGELOG.md) for mo
 
 ### TypeProf
 
-TypeProf is a static type analyzer for Ruby. It generates a prototype of RBS from non-type-annotated Ruby code. See the [document](https://github.com/ruby/typeprof/blob/master/doc/doc.md) for details.
+TypeProf is a static type analyzer for Ruby. It generates a prototype of RBS from non-type-annotated Ruby code. See the [documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) for details.
 
 The main update since Ruby 3.0.0 is an experimental IDE support called "TypeProf for IDE".
 
 ![Demo of TypeProf for IDE](https://cache.ruby-lang.org/pub/media/ruby310_typeprof_ide_demo.png)
 
-The VS Code extension shows a guessed (or explicitly written in an RBS file) method signature above each method definition, draws a red underline under the code that may cause a name error or type error, and completes method names (i.e., shows method candidates). See the [document](https://github.com/ruby/typeprof/blob/master/doc/ide.md) for details.
+The VS Code extension shows a guessed (or explicitly written in an RBS file) method signature above each method definition, draws a red underline under the code that may cause a name error or type error, and completes method names (i.e., shows method candidates). See the [documentation](https://github.com/ruby/typeprof/blob/master/doc/ide.md) for details.
 
 Also, the release includes many bug fixes and performance improvements.
 
