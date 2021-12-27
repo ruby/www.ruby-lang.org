@@ -78,25 +78,25 @@ If documentation is installed when you select a completion candidate, the docume
 
 ### Language
 
-* Values in Hash literals and keyword arguments can be omitted. [Feature #14579]
+* Values in Hash literals and keyword arguments can be omitted. [[Feature #14579]](https://bugs.ruby-lang.org/issues/14579)
   * `{x:, y:}` is syntax sugar for `{x: x, y: y}`.
   * `foo(x:, y:)` is syntax sugar for `foo(x: x, y: y)`.
 
-* The pin operator (`^`) in pattern matching now takes an expression. [Feature #17411]
+* The pin operator (`^`) in pattern matching now takes an expression. [[Feature #17411]](https://bugs.ruby-lang.org/issues/17411)
 
-```ruby
-Prime.each_cons(2).lazy.find_all{_1 in [n, ^(n + 2)]}.take(3).to_a
-#=> [[3, 5], [5, 7], [11, 13]]
-```
+  ```ruby
+  Prime.each_cons(2).lazy.find_all{_1 in [n, ^(n + 2)]}.take(3).to_a
+  #=> [[3, 5], [5, 7], [11, 13]]
+  ```
 
-* Parentheses can be omitted in one-line pattern matching. [Feature #16182]
+* Parentheses can be omitted in one-line pattern matching. [[Feature #16182]](https://bugs.ruby-lang.org/issues/16182)
 
-```ruby
-[0, 1] => _, x
-{y: 2} => y:
-x #=> 1
-y #=> 2
-```
+  ```ruby
+  [0, 1] => _, x
+  {y: 2} => y:
+  x #=> 1
+  y #=> 2
+  ```
 
 ### RBS
 
