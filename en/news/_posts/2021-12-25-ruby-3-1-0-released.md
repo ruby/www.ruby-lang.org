@@ -16,7 +16,7 @@ We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.1 k
 
 Ruby 3.1 merges YJIT, a new in-process JIT compiler developed by Shopify.
 
-Since [Ruby 2.6 introduced MJIT in 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), its performance greatly improved, and finally [we achieved Ruby3x3 last year](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). But even though Optcarrot has shown impressive speedups, the JIT has not benefited real world business applications.
+Since [Ruby 2.6 introduced MJIT in 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), its performance greatly improved, and finally [we achieved Ruby3x3 last year](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). But even though the Optcarrot benchmark has shown impressive speedups, the JIT has not benefited real world business applications.
 
 Recently Shopify contributed many Ruby improvements to speed up their Rails application. YJIT is an important contribution, and aims to improve the performance of Rails applications.
 
@@ -62,7 +62,7 @@ Did you mean?  times
 
 Currently, only `NameError` is supported.
 
-This gem is enabled by default. You can disable it by using the command-line option `--disable-error_highlight`. See the [repository](https://github.com/ruby/error_highlight) for details.
+This gem is enabled by default. You can disable it by using the command-line option `--disable-error_highlight`. See the [error_highlight repository](https://github.com/ruby/error_highlight) for details.
 
 ## IRB Autocomplete and Documentation Display
 
@@ -82,7 +82,7 @@ If documentation is installed when you select a completion candidate, the docume
   * `{x:, y:}` is syntax sugar for `{x: x, y: y}`.
   * `foo(x:, y:)` is syntax sugar for `foo(x: x, y: y)`.
 
-* The pin operator in pattern matching now takes an expression. [Feature #17411]
+* The pin operator (`^`) in pattern matching now takes an expression. [Feature #17411]
 
 ```ruby
 Prime.each_cons(2).lazy.find_all{_1 in [n, ^(n + 2)]}.take(3).to_a
@@ -100,7 +100,7 @@ y #=> 2
 
 ### RBS
 
-RBS is a language to describe the structure of Ruby programs. See the [repository](https://github.com/ruby/rbs) for details.
+RBS is a language to describe the structure of Ruby programs. See the [RBS repository](https://github.com/ruby/rbs) for details.
 
 Updates since Ruby 3.0.0:
 
@@ -110,7 +110,7 @@ Updates since Ruby 3.0.0:
 * Many signatures for built-in and standard libraries have been added/updated.
 * It includes many bug fixes and performance improvements too.
 
-See the [changelog](https://github.com/ruby/rbs/blob/master/CHANGELOG.md) for more information.
+See the [RBS changelog](https://github.com/ruby/rbs/blob/master/CHANGELOG.md) for more information.
 
 ### TypeProf
 
