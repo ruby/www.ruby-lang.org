@@ -26,9 +26,9 @@ MJITがメソッドベースのJITコンパイラであり、外部のCコンパ
 
 YJITはまだ実験的機能なため、デフォルトでは無効化されています。試してみたい場合には `--yjit` コマンドラインオプションを指定することでYJITを有効化出来ます。現在YJITはx86-64上のUnix系プラットフォームでのみ実行出来ます。
 
-* https://bugs.ruby-lang.org/issues/18229
-* https://shopify.engineering/yjit-just-in-time-compiler-cruby
-* https://www.youtube.com/watch?v=PBVLf3yfMs8
+* <https://bugs.ruby-lang.org/issues/18229>
+* <https://shopify.engineering/yjit-just-in-time-compiler-cruby>
+* <https://www.youtube.com/watch?v=PBVLf3yfMs8>
 
 ## debug gem: 新しいデバッガ
 

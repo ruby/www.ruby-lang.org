@@ -27,9 +27,9 @@ With this technology, YJIT achieves both fast warmup time and performance improv
 
 YJIT is still an experimental feature, and as such, it is disabled by default. If you want to use this, specify the `--yjit` command-line option to enable YJIT. It is also limited to Unix-like x86-64 platforms for now.
 
-* https://bugs.ruby-lang.org/issues/18229
-* https://shopify.engineering/yjit-just-in-time-compiler-cruby
-* https://www.youtube.com/watch?v=PBVLf3yfMs8
+* <https://bugs.ruby-lang.org/issues/18229>
+* <https://shopify.engineering/yjit-just-in-time-compiler-cruby>
+* <https://www.youtube.com/watch?v=PBVLf3yfMs8>
 
 ## debug gem: A new debugger
 
