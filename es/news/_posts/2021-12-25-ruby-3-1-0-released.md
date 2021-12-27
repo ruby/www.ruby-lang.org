@@ -47,9 +47,9 @@ está deshabilitado de manera predeterminada.  Si quiere usarlo,
 especifique la opción `--yjit` en la línea de ordenes para habilitar
 YJIT.  Por ahora está limitado a plataformas tipo Unix sobre x86-64.
 
-* https://bugs.ruby-lang.org/issues/18229
-* https://shopify.engineering/yjit-just-in-time-compiler-cruby
-* https://www.youtube.com/watch?v=PBVLf3yfMs8
+* <https://bugs.ruby-lang.org/issues/18229>
+* <https://shopify.engineering/yjit-just-in-time-compiler-cruby>
+* <https://www.youtube.com/watch?v=PBVLf3yfMs8>
 
 
 ## Gema debug: Un nuevo depurador
