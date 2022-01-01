@@ -82,7 +82,7 @@ IRB는 이제 그냥 코드를 입력하기만 하면 완성 후보 다이얼로
   * `{x:, y:}`는 `{x: x, y: y}`의 편의 문법입니다.
   * `foo(x:, y:)`는 `foo(x: x, y: y)`의 편의 문법입니다.
 
-* 패턴 매칭에서 핀 연산자 (`^`)에 표현식을 사용할 수 있습니다. [[Feature #17411]](https://bugs.ruby-lang.org/issues/17411)
+* 패턴 매칭에서 핀 연산자(`^`)에 표현식을 사용할 수 있습니다. [[Feature #17411]](https://bugs.ruby-lang.org/issues/17411)
 
   ```ruby
   Prime.each_cons(2).lazy.find_all{_1 in [n, ^(n + 2)]}.take(3).to_a
@@ -107,7 +107,7 @@ Ruby 3.0.0 이후의 업데이트:
 * 제네릭 타입 파라미터를 제한할 수 있습니다. ([PR](https://github.com/ruby/rbs/pull/844))
 * 제네릭 타입 별명을 지원합니다. ([PR](https://github.com/ruby/rbs/pull/823))
 * `rbs collection`이 gem들의 RBS를 관리하기 위해 도입되었습니다. ([doc](https://github.com/ruby/rbs/blob/master/docs/collection.md))
-* 기본으로 제공되는 표준 라이브러리들의 서명이 추가되어나 갱신되었습니다.
+* 빌트인 및 표준 라이브러리의 시그니처가 추가되거나 갱신되었습니다.
 * 많은 버그 수정과 성능 향상도 포함합니다.
 
 더 많은 정보는 [RBS changelog](https://github.com/ruby/rbs/blob/master/CHANGELOG.md)를 참고하세요.
