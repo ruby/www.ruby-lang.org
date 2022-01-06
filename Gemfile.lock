@@ -40,7 +40,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    lanyon (0.4.2)
+    lanyon (0.4.3)
       jekyll (>= 2.0)
       rack (>= 1.6, < 3.0)
     liquid (4.0.3)
