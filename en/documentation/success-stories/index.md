@@ -72,7 +72,7 @@ you’ll find a small sample of real world usage of Ruby.
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
 [8]: http://www.level3.com/
-[9]: http://www.basecamp.com
+[9]: https://www.basecamp.com
 [10]: http://www.basecamp.com
 [11]: https://www.inc.com/magazine/201403/jason-fried/basecamp-focus-one-product-only.html
 [12]: http://www.alistapart.com
