@@ -30,7 +30,7 @@ Quelques liens à visiter:
   d'autres rubyistes, obtenir de l'aide pour vos questions sur Ruby ou
   aider les autres. Discord est un bon point d'entrée pour les nouveaux
   développeurs et il est facile à rejoindre.
-  
+
 [IRC (#ruby)](https://web.libera.chat/#ruby)
 : Le canal IRC anglophone #ruby est un endroit fantastique pour
   discuter en temps réel avec d’autres rubyistes.
