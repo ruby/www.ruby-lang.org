@@ -45,10 +45,9 @@ you’ll find a small sample of real world usage of Ruby.
 
 #### Web Applications
 
-* [Basecamp][9], a web-based project management application developed by
-  [37signals][10], is programmed entirely in Ruby.
+* [Basecamp][9], a web-based project management application, is programmed entirely in Ruby.
 
-* [A List Apart][11], a magazine for people who make websites that has
+* [A List Apart][10], a magazine for people who make websites that has
   been around since 1997, has recently been revamped and uses a custom
   application built with Ruby on Rails.
 
@@ -72,9 +71,9 @@ you’ll find a small sample of real world usage of Ruby.
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
 [8]: http://www.level3.com/
-[9]: http://www.basecamphq.com
-[10]: http://www.37signals.com
-[11]: http://www.alistapart.com
+[9]: https://www.basecamp.com
+[10]: http://www.alistapart.com
+  
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com
 [arachni]: http://www.arachni-scanner.com/
