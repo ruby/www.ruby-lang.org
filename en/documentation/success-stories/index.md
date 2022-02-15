@@ -73,7 +73,7 @@ you’ll find a small sample of real world usage of Ruby.
 [8]: http://www.level3.com/
 [9]: https://www.basecamp.com
 [10]: http://www.alistapart.com
-  
+
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com
 [arachni]: http://www.arachni-scanner.com/
