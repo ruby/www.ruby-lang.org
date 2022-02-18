@@ -21,6 +21,30 @@
 
 # 3.1 series
 
+- version: 3.1.1
+  date: 2022-02-18
+  post: /en/news/2022/02/18/ruby-3-1-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.1.tar.xz
+  size:
+    gz:  20562492
+    zip: 24843623
+    xz:  15103808
+  sha1:
+    gz:  289cbb9eae338bdaf99e376ac511236e39be83a3
+    zip: 9afab3231e99835dbbdad93c96a240ce90a1f2f5
+    xz:  af6afead0e5509c459a580fc260bec2608b46750
+  sha256:
+    gz:  fe6e4782de97443978ddba8ba4be38d222aa24dc3e3f02a6a8e7701c0eeb619d
+    zip: de1cc26c18c6fb838b75f3e700621339cf09d557a15c0b1457720f7c441a1e68
+    xz:  7aefaa6b78b076515d272ec59c4616707a54fc9f2391239737d5f10af7a16caa
+  sha512:
+    gz:  a60d69d35d6d4ad8926b324a6092f962510183d9759b096ba4ce9db2e254e0f436030c2a62741352efe72aec5ca2329b45edd85cca8ad3254a9c57e3d8f66319
+    zip: 0eac755cd9883659dbd9ab9b2c2e5608112030d96ad14c22e1f21712d870f97ba7dfbd74cc03b1892faacb37958f100df484e4944c90b4a834e27e4c03b8e895
+    xz:  8877fa9a458964a59a11529cd10b3d25b5f6238cd4678b6dcea0bd4b750499cf8ff39d8824053b4ab26c5cd0cfb604a57807ce61580175857fcf00b2cff3e55f
+
 - version: 3.1.0
   date: 2021-12-25
   post: /en/news/2021/12/25/ruby-3-1-0-released/
