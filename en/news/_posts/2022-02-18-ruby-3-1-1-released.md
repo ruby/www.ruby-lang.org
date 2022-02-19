@@ -15,7 +15,7 @@ This is the first TEENY version release of the stable 3.1 series.
 * [YJIT breaks Rails collection caching](https://bugs.ruby-lang.org/issues/18453)
 * [Segmentation fault when missing Warning#warn method](https://bugs.ruby-lang.org/issues/18458)
 * [Fix Pathname dot directory globbing](https://bugs.ruby-lang.org/issues/18436)
-* [Backport c764e368bd9c0487e6cc97f8a62e0e0e99a0d7c5](https://bugs.ruby-lang.org/issues/18469)
+* [Fix default --jit-max-cache in ruby --help](https://bugs.ruby-lang.org/issues/18469)
 * [3.1.0-dev `include` cause Module to be marked as initialized](https://bugs.ruby-lang.org/issues/18292)
 * [Tutorial Link for Optionparser is broken](https://bugs.ruby-lang.org/issues/18468)
 * [Yielding an element for Enumerator in another thread dumps core](https://bugs.ruby-lang.org/issues/18475)
