@@ -20,7 +20,7 @@ This is the first TEENY version release of the stable 3.1 series.
 * [Tutorial Link for Optionparser is broken](https://bugs.ruby-lang.org/issues/18468)
 * [Yielding an element for Enumerator in another thread dumps core](https://bugs.ruby-lang.org/issues/18475)
 * [Segmentation fault with ruby 3.1.0 in `active_decorator`](https://bugs.ruby-lang.org/issues/18489)
-* [Fiber内でProcess.daemonをするとSegmentation faultが起こる](https://bugs.ruby-lang.org/issues/18497)
+* [Segfault on use of Process.daemon in a Fiber](https://bugs.ruby-lang.org/issues/18497)
 * [0 << (2\*\*40) is NoMemoryError but 0 << (2\*\*80) is 0](https://bugs.ruby-lang.org/issues/18517)
 * [IO read/write/wait hook bug fixes.](https://bugs.ruby-lang.org/issues/18443)
 * [Memory leak on aliasing method to itself](https://bugs.ruby-lang.org/issues/18516)
