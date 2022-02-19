@@ -30,7 +30,7 @@ This is the first TEENY version release of the stable 3.1 series.
 * [Please Backport 77fe1fca0abb56f7f07725c0a3803d53a315c853 from the ipaddr gem to Ruby 3.1](https://bugs.ruby-lang.org/issues/18570)
 * [Fixed path for ipaddr.rb](https://github.com/ruby/ruby/pull/5533)
 * [Merge RubyGems-3.3.7 and Bundler-2.3.7](https://github.com/ruby/ruby/pull/5543)
-* [Hash#shift を繰り返していると ruby が無応答になる。](https://bugs.ruby-lang.org/issues/18578)
+* [Hang when repeating Hash#shift against a empty Hash](https://bugs.ruby-lang.org/issues/18578)
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v3_1_0...v3_1_1) for further details.
 
