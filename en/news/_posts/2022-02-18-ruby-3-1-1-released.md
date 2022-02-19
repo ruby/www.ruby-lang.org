@@ -27,7 +27,7 @@ This is the first TEENY version release of the stable 3.1 series.
 * [error: use of undeclared identifier 'MAP_ANONYMOUS'](https://bugs.ruby-lang.org/issues/18556)
 * [\[BUG\] try to mark T_NONE object in RubyVM::InstructionSequence. load_from_binary](https://bugs.ruby-lang.org/issues/18501)
 * [throw_data passed to rescue through require](https://bugs.ruby-lang.org/issues/18562)
-* [Please Backport 77fe1fca0abb56f7f07725c0a3803d53a315c853 from the ipaddr gem to Ruby 3.1](https://bugs.ruby-lang.org/issues/18570)
+* [Fix `IpAddr#to_range` on frozen `IpAddr` instances.](https://bugs.ruby-lang.org/issues/18570)
 * [Fixed path for ipaddr.rb](https://github.com/ruby/ruby/pull/5533)
 * [Merge RubyGems-3.3.7 and Bundler-2.3.7](https://github.com/ruby/ruby/pull/5543)
 * [Hang when repeating Hash#shift against a empty Hash](https://bugs.ruby-lang.org/issues/18578)
