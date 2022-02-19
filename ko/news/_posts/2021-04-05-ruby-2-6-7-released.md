@@ -1,30 +1,30 @@
 ---
 layout: news_post
-title: "Ruby 2.6.7 Released"
+title: "Ruby 2.6.7 릴리스"
 author: "usa"
-translator:
+translator: "yous"
 date: 2021-04-05 12:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.6.7 has been released.
+Ruby 2.6.7이 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick]({%link en/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
-* [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
+* [CVE-2020-25613: WEBrick의 잠재적인 HTTP 요청 스머글링 취약점]({%link ko/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
+* [CVE-2021-28965: REXML의 XML 왕복 변환(round-trip) 취약점]({% link ko/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_6...v2_6_7) for details.
+자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_6_6...v2_6_7)를 확인해주세요.
 
-By this release, we end the normal maintenance phase of Ruby 2.6,
-and Ruby 2.6 enters the security maintenance phase.
-This means that we will no longer backport any bug fixes to Ruby 2.6 except security fixes.
-The term of the security maintenance phase is scheduled for a year.
-Ruby 2.6 reaches EOL and its official support ends by the end of the security maintenance phase.
-Therefore, we recommend that you start to plan upgrade to Ruby 2.7 or 3.0.
+이 릴리스 이후로 Ruby 2.6은 일반 유지보수 단계가 종료되고,
+보안 유지보수 단계가 됩니다.
+즉, 보안 수정을 제외한 버그 수정은 Ruby 2.6으로 백포트되지 않습니다.
+보안 유지보수 단계의 기간은 1년으로 계획되어 있습니다.
+이 기간이 끝나면 Ruby 2.6의 공식 지원도 종료됩니다.
+그러므로 Ruby 2.7이나 3.0으로 업그레이드할 계획을 세우기 바랍니다.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "2.6.7" | first %}
 
@@ -56,9 +56,9 @@ Therefore, we recommend that you start to plan upgrade to Ruby 2.7 or 3.0.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
 
-The maintenance of Ruby 2.6, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+이 릴리스를 포함한 Ruby 2.6의 유지보수는 Ruby Association의 "Ruby 안정 버전에 관한 협의"에 기반해 이루어집니다.

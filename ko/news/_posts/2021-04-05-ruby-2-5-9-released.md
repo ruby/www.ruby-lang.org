@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 2.5.9 Released"
+title: "Ruby 2.5.9 릴리스"
 author: "usa"
-translator:
+translator: "yous"
 date: 2021-04-05 12:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.5.9 has been released.
+Ruby 2.5.9가 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick]({%link en/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
-* [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
+* [CVE-2020-25613: WEBrick의 잠재적인 HTTP 요청 스머글링 취약점]({%link ko/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
+* [CVE-2021-28965: REXML의 XML 왕복 변환(round-trip) 취약점]({% link ko/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) for details.
+자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9)를 확인해주세요.
 
-After this release, Ruby 2.5 reaches EOL. In other words, this is the last release of Ruby 2.5 series.
-We will not release Ruby 2.5.10 even if a security vulnerability is found.
-We recommend all Ruby 2.5 users to upgrade to Ruby 3.0, 2.7 or 2.6 immediately.
+이 릴리스 이후로 Ruby 2.5의 지원이 종료됩니다. 즉, 이는 Ruby 2.5 버전대의 마지막 릴리스입니다.
+보안 취약점이 발견되어도 Ruby 2.5.10이 릴리스되지 않습니다.
+모든 Ruby 2.5 사용자는 Ruby 3.0, 2.7, 2.6으로 즉시 업그레이드하기 바랍니다.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "2.5.9" | first %}
 
@@ -53,6 +53,6 @@ We recommend all Ruby 2.5 users to upgrade to Ruby 3.0, 2.7 or 2.6 immediately.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+이 릴리스를 만드는 데 도움을 준 모든 분, 특히 취약점을 보고해 준 분에게 감사드립니다.
