@@ -12,7 +12,7 @@ Ruby 3.1.1 has been released.
 This is the first TEENY version release of the stable 3.1 series.
 
 * [error_highlight does not work for -e option](https://bugs.ruby-lang.org/issues/18434)
-* [YJIT breaks Rails collection caching](https://bugs.ruby-lang.org/issues/18453)
+* [Fix YJIT passing method arguments in the wrong order when keyword argument and default arguments are mixed. Breaks Rails collection caching](https://bugs.ruby-lang.org/issues/18453)
 * [Segmentation fault when missing Warning#warn method](https://bugs.ruby-lang.org/issues/18458)
 * [Fix Pathname dot directory globbing](https://bugs.ruby-lang.org/issues/18436)
 * [Fix default --jit-max-cache in ruby --help](https://bugs.ruby-lang.org/issues/18469)
