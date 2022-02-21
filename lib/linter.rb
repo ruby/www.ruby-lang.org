@@ -3,6 +3,7 @@
 require "bundler/setup"
 require "pathname"
 require "yaml"
+require "date"
 
 require_relative "linter/document"
 require_relative "linter/release"
@@ -69,7 +70,7 @@ class Linter
 
   def load_releases
     releases_yaml = if Pathname.new(RELEASES_FILE).exist?
-                      YAML.load_file(RELEASES_FILE, fallback: [])
+                      YAML.load_file(RELEASES_FILE, fallback: [], permitted_classes: [Date])
                     else
                       []
                     end
