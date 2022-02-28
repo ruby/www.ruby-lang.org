@@ -14,14 +14,10 @@ yang dia miliki dan akan menunjukkan kepada siapapun tentang manfaat
 resource dalam Ruby yang masih belum terlalu memikat hingga saat ini.
 Presentasi Bruce menjelaskan banyak hal dari perubahan penunjuk.
 
-Berikut [interview dengan Bruce][3] oleh Satish Talim dari
-[RubyLearning.com][3] baru-baru ini.
-
-Sumber: [Ruby Inside: Migrating to Ruby 1.9][4]
+Sumber: [Ruby Inside: Migrating to Ruby 1.9][3]
 
 
 
 [1]: http://codefluency.com/articles/2008/04/13/migrating-to-ruby-1-9/
 [2]: http://scotlandonrails.com/
-[3]: http://rubylearning.com/blog/2008/04/18/ruby-interview-bruce-williams-of-fiveruns/
-[4]: http://www.rubyinside.com/migrating-to-ruby-19-876.html
+[3]: http://www.rubyinside.com/migrating-to-ruby-19-876.html
