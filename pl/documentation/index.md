@@ -35,11 +35,6 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   od tego czy jest to C, C++, Java, Perl, PHP lub Python, ten artykuł z
   pewnością Ci pomoże!
 
-[Learning Ruby][6]
-: Przekrojowa kolekcja notatek o Rubim dla nowych w stosunku
-  do języka, a także poszukujących solidnego wprowadzenia do koncepcji
-  i konstrukcji Rubiego.
-
 [Ruby Essentials][7]
 : Ruby Essentials to darmowa książka zaprojektowana by dostarczać
   zwięzłe i łatwe do naśladowania porady do nauki Rubiego.
@@ -135,7 +130,6 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

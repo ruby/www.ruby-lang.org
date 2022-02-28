@@ -24,9 +24,6 @@ lang: zh_tw
 : 非比尋常但玩味無窮的書，透過故事、幽默與漫畫來教會你 Ruby。由 *why the lucky
   stiff* 創作，本書是學習 Ruby 的經典大作。
 
-[Learning Ruby][6]
-: 蒐集了許多 Ruby 上手的經驗談，紮實的介紹了 Ruby 的概念與如何建構 Ruby 程式。
-
 [Ruby Essentials][7]
 : 免費的線上電子書，讓你可以一步步地學習 Ruby。
 
@@ -108,7 +105,6 @@ lang: zh_tw
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

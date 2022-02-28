@@ -34,11 +34,6 @@ isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
   tarafından yazılmıştır, bu kılavuz Ruby’ye yeni başlayanlar için bir
   klasiktir.
 
-[Learning Ruby][6]
-: Dile yeni olanlar ve Ruby’nin kavramlarına ve yapısına sağlam bir
-  giriş yapmak isteyenler için Ruby öğrenci notlarından derlenmiş
-  mükemmel bir koleksiyon.
-
 [Ruby Essentials][7]
 : Ruby Essentials, Ruby öğrenmek için öz ve takip etmesi kolay şekilde
   tasarlanan ücretsiz bir çevrimiçi kitaptır.
@@ -144,7 +139,6 @@ olacaktır.
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

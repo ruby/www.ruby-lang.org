@@ -45,10 +45,6 @@ ruby -v
 : Идвате от друг език? Независимо дали е C, C++, Java, Perl, PHP или
   Python, тази страница е за вас!
 
-[Learning Ruby][6]
-: Обширно ръководство за начинаещи, което дава солидна основа за
-  концепциите и конструкциите в Ruby.
-
 [Ruby Essentials][7]
 : Ruby Essentials е безплатна on-line книга, предоставяща лесен начин за
   научаването на Ruby.
@@ -132,7 +128,6 @@ ruby -v
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

@@ -28,11 +28,6 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
   melalui cerita, humor cerdas, dan komik. Awalnya dibuat oleh *why the lucky
   stiff*, panduan ini tetap klasik untuk pelajar Ruby.
 
-[Learning Ruby][6]
-: Sebuah koleksi menyeluruh dari catatan pelajaran Ruby bagi mereka yang baru ke
-  bahasa Ruby dan sedang mencari pengenalan konsep dan konstruksi
-  Ruby.
-
 [Ruby Essentials][7]
 : Ruby Essentials adalah buku *online* gratis yang dirancang untuk memberikan
   panduan singkat dan mudah diikuti untuk belajar Ruby.
@@ -131,7 +126,6 @@ adalah tempat yang baik untuk memulai.
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
