@@ -35,9 +35,6 @@ ruby -v
 [从其它语言转到 Ruby](/zh_cn/documentation/ruby-from-other-languages/)
 : 你是从其他语言转到 Ruby 的吗？不管是 C、C++、Java、Perl、PHP，还是 Python，这里都有介绍！
 
-[学习 Ruby][6]
-: 这里汇集了许多 Ruby 初学者的学习笔记，对 Ruby 的概念和结构有全面的介绍。
-
 [Ruby Essentials][7]
 : Ruby Essentials 是一本免费在线书籍，旨在提供简洁易懂的 Ruby 学习指南。
 
@@ -113,7 +110,6 @@ ruby -v
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

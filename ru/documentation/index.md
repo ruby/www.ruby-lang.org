@@ -47,10 +47,6 @@ ruby -v
 : Пришли в мир Ruby из другого языка? Будь это C, C++, Java, Perl, PHP
   или Python – этот раздел вам поможет!
 
-[Learning Ruby][6]
-: Учебник по Ruby для тех, кто только пришел в мир Ruby и ищет
-  полноценное введение в концепты и конструкции языка.
-
 [Ruby Essentials][7]
 : Бесплатная онлайн-книга, предоставляющая краткое и легкое руководство
   для изучения Ruby.
@@ -141,7 +137,6 @@ ruby -v
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

@@ -47,11 +47,6 @@ việc cài đặt Ruby.
 : Bạn đến với Ruby từ ngôn ngữ khác? Bất kể nó là C, C++, Java,
   Perl, PHP hay Python, bài viết này sẽ giải quyết cho bạn.
 
-[Học về Ruby][6]
-: Một bộ sưu tập toàn diện về Ruby dành cho những người mới làm
-  quen với ngôn ngữ và tìm kiếm một sự giới thiệu vững chắc về các
-  khái niệm và cấu trúc của Ruby.
-
 [Ruby Essentials][7]
 : Ruby Essentials là một cuốn sách trực tuyến miễn phí hướng dẫn học Ruby dễ
   dàng và ngắn gọn.
@@ -141,7 +136,6 @@ là một nơi tuyệt vời.
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
