@@ -185,6 +185,10 @@ iframe {
   width: 100%;
 }
 
+#main img {
+  max-width: 100%;
+}
+
 #content-wrapper {
   width: 70%;
   display: table-cell;
