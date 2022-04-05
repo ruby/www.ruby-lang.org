@@ -21,7 +21,6 @@ WASI에 기반해 웹어셈블리를 지원하는 첫 이식판입니다. 이를
 
 [웹어셈블리 (WASM)](https://webassembly.org/)는 본래 웹 브라우저에서 프로그램을 안전하고 빠르게 실행하기 위해서 만들어졌습니다. 하지만 그 목적 중 하나인 프로그램을 다양한 환경에서 안전하고 효율적으로 실행하는 것은 웹 뿐만이 아니라 일반적인 애플리케이션도 바라던 것입니다.
 
-[WASI (The WebAssembly System Interface)](https://wasi.dev/) is designed for such use cases. Though such applications need to communicate with operating systems, WebAssembly runs on a virtual machine which didn't have a system interface. WASI standardizes it.
 [WASI (The WebAssembly System Interface)](https://wasi.dev/)는 이러한 용도를 위해 설계되었습니다. 이러한 애플리케이션은 운영체제와 통신해야합니다만, 웹어셈블리는 시스템 인터페이스를 가지지 않는 가상 머신 위에서 동작합니다. WASI는 이 인터페이스를 표준화합니다.
 
 Ruby의 웹어셈블리/WASI 지원은 이러한 프로젝트들을 활용하기 위함입니다. 이를 통해 Ruby 개발자들이 기대받는 플랫폼에서 움직이는 애플리케이션을 작성할 수 있습니다.
