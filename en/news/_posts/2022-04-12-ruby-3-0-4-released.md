@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 3.0.4 Released"
-author: "usa and mame"
+author: "nagachika and mame"
 translator:
 date: 2022-04-12 12:00:00 +0000
 lang: en

@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 3.1.2 Released"
-author: "nagachika and mame"
+author: "naruse and mame"
 translator:
 date: 2022-04-12 12:00:00 +0000
 lang: en
