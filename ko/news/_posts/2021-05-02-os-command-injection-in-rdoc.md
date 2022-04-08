@@ -2,43 +2,43 @@
 layout: news_post
 title: "CVE-2021-31799: A command injection vulnerability in RDoc"
 author: "aycabta"
-translator:
+translator: "yous"
 date: 2021-05-02 09:00:00 +0000
 tags: security
-lang: en
+lang: ko
 ---
 
-There is a vulnerability about Command Injection in RDoc which is bundled in Ruby.
-It is recommended that all Ruby users update RDoc to the latest version that fixes this issue.
+Ruby에 포함된 RDoc에 명령 주입 취약점이 있습니다.
+문제 해결을 위해 모든 Ruby 사용자는 RDoc을 최신 버전으로 업데이트하시기 바랍니다.
 
-## Details
+## 세부 내용
 
-The following vulnerability has been reported.
+다음 취약점이 보고되었습니다.
 
 * [CVE-2021-31799](https://nvd.nist.gov/vuln/detail/CVE-2021-31799)
 
-RDoc used to call `Kernel#open` to open a local file. If a Ruby project has a file whose name starts with `|` and ends with `tags`, the command following the pipe character is executed. A malicious Ruby project could exploit it to run an arbitrary command execution against a user who attempts to run `rdoc` command.
+RDoc은 로컬 파일을 열기 위해 `Kernel#open`을 호출했습니다. Ruby 프로젝트에 `|`로 시작하고 `tags`로 끝나는 이름을 가진 파일이 있다면, 파이프 문자 뒤의 명령이 실행되었습니다. 악의적인 Ruby 프로젝트가 `rdoc` 명령을 실행하려고 하는 사용자에 대해 임의의 명령을 실행할 수 있습니다.
 
-Ruby users whose version of RDoc is affected by this issue should update to the latest version of RDoc.
+이 문제에 영향을 받는 RDoc 버전을 사용 중인 Ruby 사용자는 RDoc을 최신 버전으로 업데이트해야 합니다.
 
-## Affected Versions
+## 해당 버전
 
-* All releases of RDoc from 3.11 to 6.3.0
+* RDoc 3.11 이상 6.3.0 이하
 
-## How to Update
+## 업데이트 방법
 
-Run the following command to update RDoc to the latest version (6.3.1 or later) to fix the vulnerability.
+취약점 해결을 위해 RDoc을 최신 버전(6.3.1 이상)으로 업데이트하려면 다음 명령을 실행하세요.
 
 ```
 gem install rdoc
 ```
 
-If you are using bundler, please add `gem "rdoc", ">= 6.3.1"` to your `Gemfile`.
+bundler를 사용한다면 `Gemfile`에 `gem "rdoc", ">= 6.3.1"`을 추가하세요.
 
-## Credits
+## 도움을 준 사람
 
-Thanks to [Alexandr Savca](https://hackerone.com/chinarulezzz) for reporting the issue.
+이 문제를 보고해 준 [Alexandr Savca](https://hackerone.com/chinarulezzz)에게 감사를 표합니다.
 
-## History
+## 수정 이력
 
-* Originally published at 2021-05-02 09:00:00 UTC
+* 2021-05-02 09:00:00 UTC 최초 공개
