@@ -9,10 +9,9 @@ lang: en
 
 Ruby 2.7.6 has been released.
 
-This release includes security fixes.
+This release includes a security fix.
 Please check the topics below for details.
 
-* [CVE-2022-28738: Double free in Regexp compilation]({%link en/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %})
 * [CVE-2022-28739: Buffer overrun in String-to-Float conversion]({%link en/news/_posts/2022-04-12-buffer-overrun-in-strtod-cve-2022-28739.md %})
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_5...v2_7_6) for further details.
