@@ -13,7 +13,7 @@ This release includes security fixes.
 Please check the topics below for details.
 
 * [CVE-2022-28738: Double free in Regexp compilation]({%link en/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %})
-* [CVE-2022-28739: Buffer overrun in String-to-Float conversion]({%link en/news/_posts/2022-04-12-buffer-overrun-in-strtod-cve-2022-28739.md %})
+* [CVE-2022-28739: Buffer overrun in String-to-Float conversion]({%link en/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
 
 See the [commit logs](https://github.com/ruby/ruby/compare/v3_1_1...v3_1_2) for further details.
 
