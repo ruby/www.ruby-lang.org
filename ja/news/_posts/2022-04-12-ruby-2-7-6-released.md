@@ -4,7 +4,7 @@ title: "Ruby 2.7.6 リリース"
 author: "usa and mame"
 translator: "jinroq"
 date: 2022-04-12 12:00:00 +0000
-lang: en
+lang: ja
 ---
 
 Ruby 2.7.6 がリリースされました。
