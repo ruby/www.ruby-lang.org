@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Publicación de Ruby 3.0.3"
+title: "Publicado Ruby 3.0.3"
 author: "nagachika"
 translator: vtamara
 date: 2021-11-24 12:00:00 +0000
