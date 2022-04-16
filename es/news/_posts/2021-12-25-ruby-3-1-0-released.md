@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.1.0 Publicado"
+title: "Publicado Ruby 3.1.0"
 author: "naruse"
 translator: vtamara
 date: 2021-12-25 00:00:00 +0000
