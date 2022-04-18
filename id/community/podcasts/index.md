@@ -22,5 +22,5 @@ Ruby untuk dibagi, hubungi pembuat *podcast* tersebut.
 Anda juga dapat memulai *podcast* Ruby sendiri and menambahkan pada daftar
 berikut!
 
-[rorpodcast]: http://5by5.tv/rubyonrails
-[rogues]: https://devchat.tv/ruby-rogues
+[rorpodcast]: https://www.therubyonrailspodcast.com
+[rogues]: https://rubyrogues.com

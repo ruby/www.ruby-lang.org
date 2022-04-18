@@ -12,5 +12,5 @@ lang: zh_tw
 [Ruby on Rails Podcast][rorpodcast]
 : Ruby on Rails Podcast，每週更新的談話性節目，討論有關 Ruby on Rails、開源軟體和工程師的專業。
 
-[rorpodcast]: http://5by5.tv/rubyonrails
-[rogues]: https://devchat.tv/ruby-rogues
+[rorpodcast]: https://www.therubyonrailspodcast.com
+[rogues]: https://rubyrogues.com

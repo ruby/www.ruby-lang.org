@@ -26,5 +26,5 @@ wisdom to share, get in touch with the creators of these shows.
 You can also start your own Ruby podcast and get added to this list!
 
 [remote_ruby]: https://remoteruby.transistor.fm/
-[rorpodcast]: http://5by5.tv/rubyonrails
-[rogues]: https://devchat.tv/ruby-rogues
+[rorpodcast]: https://www.therubyonrailspodcast.com
+[rogues]: https://rubyrogues.com

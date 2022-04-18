@@ -21,5 +21,5 @@ Ruby와 Ruby 커뮤니티에 대한 뉴스, 인터뷰, 토론을 들어보세요
 
 당신의 Ruby 팟캐스트를 시작하고 이 목록에 추가할 수도 있습니다!
 
-[rorpodcast]: http://5by5.tv/rubyonrails
-[rogues]: https://devchat.tv/ruby-rogues
+[rorpodcast]: https://www.therubyonrailspodcast.com
+[rogues]: https://rubyrogues.com

@@ -25,6 +25,6 @@ Ruby bilgisine sahipseniz, bu gösterilerin sahipleri ile temasa geçin.
 
 Ayrıca kendi Ruby podcast'inizi başlatıp bu listeye ekleyebilirsiniz.
 
-[rorpodcast]: http://5by5.tv/rubyonrails
-[rogues]: https://devchat.tv/ruby-rogues
+[rorpodcast]: https://www.therubyonrailspodcast.com
+[rogues]: https://rubyrogues.com
 [yakut]: https://yakutrb.com/
