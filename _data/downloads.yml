@@ -15,12 +15,10 @@ stable:
 # optional
 security_maintenance:
 
-  - 2.6.10
-
 # optional
 eol:
 
-  - 2.5.9
+  - 2.6.10
 
 stable_snapshots:
 
