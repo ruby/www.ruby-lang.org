@@ -45,13 +45,6 @@ stable_snapshots:
       zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_7.zip
     version: '2.7'
 
-  - branch: ruby_2_6
-    url:
-      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.zip
-    version: '2.6'
-
 nightly_snapshot:
 
   url:
