@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 3.1.2 發布"
-author: "naruse and mame"
+title: "Ruby 3.0.4 發布"
+author: "nagachika and mame"
 translator: "Vincent Lin"
 date: 2022-04-12 12:00:00 +0000
 lang: zh_tw
 ---
 
-Ruby 3.1.2 已經發布了。
+Ruby 3.0.4 已經發布了。
 
 本次發布版本包含安全性修正。
 細節請參考下列內容。
@@ -15,11 +15,11 @@ Ruby 3.1.2 已經發布了。
 * [CVE-2022-28738: Regexp 編譯時雙重釋放風險]({%link zh_tw/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %})
 * [CVE-2022-28739: String 轉換 Float 時緩衝區溢位]({%link zh_tw/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
 
-詳細的變動請參閱[提交紀錄](https://github.com/ruby/ruby/compare/v3_1_1...v3_1_2)。
+詳細的變動請參閱[提交紀錄](https://github.com/ruby/ruby/compare/v3_0_3...v3_0_4)。
 
 ## 下載
 
-{% assign release = site.data.releases | where: "version", "3.1.2" | first %}
+{% assign release = site.data.releases | where: "version", "3.0.4" | first %}
 
 * <{{ release.url.gz }}>
 
