@@ -226,7 +226,7 @@ On Windows, you can use the [Windows Package Manager CLI](https://github.com/mic
 to install Ruby:
 
 {% highlight sh %}
-> winget install Ruby
+> winget install RubyInstallerTeam.Ruby
 {% endhighlight %}
 
 ### Chocolatey package manager for Windows

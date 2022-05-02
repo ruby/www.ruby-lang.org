@@ -218,7 +218,7 @@ yol olabilir.
 Windows'ta Ruby'yi kurmak için [Windows Paket Yöneticisi CLI](https://github.com/microsoft/winget-cli)'ını kullanabilirsiniz:
 
 {% highlight sh %}
-> winget install Ruby
+> winget install RubyInstallerTeam.Ruby
 {% endhighlight %}
 
 ### Diğer Dağıtımlar
