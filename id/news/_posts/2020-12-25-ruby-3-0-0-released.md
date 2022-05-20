@@ -122,7 +122,7 @@ Hasil diukur pada Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 *cores*, 8
 *hardware threads*). Ini menunjukkan versi paralel 3.87 kali lebih cepat
 dibanding versi berurutan.
 
-Lihat [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html)
+Lihat [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html)
 untuk lebih detail.
 
 ### Fiber Scheduler
@@ -355,7 +355,7 @@ bekerja. Lihat [dokumen](https://www.ruby-lang.org/id/news/2019/12/12/separation
     ```
 
 * *Pattern matching* (`case`/`in`) tidak lagi eksperimental.
-  * Lihat [dokumentasi pattern matching](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) untuk detail.
+  * Lihat [dokumentasi pattern matching](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html) untuk detail.
 * Fitur `$SAFE` telah dihilangkan; sekarang adalah sebuah variabel global.
 * Urutan dari *backtrace* telah dibalik pada Ruby 2.5, tetapi itu dibatalkan. Sekarang urutan berperilaku seperti Ruby 2.4; pesan *error* dan nomor baris di mana *exception* terjadi dicetak terlebih dahulu dan pemanggilnya baru dicetak kemudian.
 * Beberapa pustaka standar yang diperbarui.

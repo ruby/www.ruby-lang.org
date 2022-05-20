@@ -87,7 +87,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 結果は Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads) で実行したものになります。逐次実行したときよりも、並列化によって3.87倍の高速化していることがわかります。
 
 
-より詳細は、[doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) をご覧ください。
+より詳細は、[doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html) をご覧ください。
 
 ### Fiber Scheduler
 
@@ -287,7 +287,7 @@ end
     ```
 
 * パターンマッチ(`case`/`in`)が実験的な機能ではなくなりました。
-  * 詳しくは[ドキュメント](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)を見てください。
+  * 詳しくは[ドキュメント](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html)を見てください。
 * `$SAFE` の機能が完全に削除され、ただのグローバル変数となりました。
 * バックトレースの順序は2.5で逆転しましたが、3.0ではこれを取りやめることになりました。例外が起きた行が先に表示され、呼び出し元が後に表示されるように戻ります。
 * いくつかの標準ライブラリがアップデートされました。

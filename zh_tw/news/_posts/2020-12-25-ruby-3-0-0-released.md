@@ -83,7 +83,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 測試在 Ubuntu 20.04、Intel(R) Core(TM) i7-6700 (4 核心、8 硬體線程）下量測。並行的版本比序行的版本快 3.87 倍。
 
-參見 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) 來了解更多。
+參見 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html) 來了解更多。
 
 ### Fiber Scheduler
 
@@ -284,7 +284,7 @@ TypeProf 仍是實驗性質功能尚未成熟，只支援 Ruby 的部分語法�
     ```
 
 * 模式匹配（`case`/`in`）不再是實驗性質。
-  * 參見[模式匹配文件](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)來了解更多。
+  * 參見[模式匹配文件](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html)來了解更多。
 * 完全移除了 `$SAFE` 功能，現在只是個單純的全域變數。
 * 錯誤訊息的順序在 Ruby 2.5 被顛倒了，現在又改回來了。現在錯誤訊息和 Ruby 2.4 一樣：先顯示錯誤訊息行號，再來才是所有的呼叫者。
 * 更新了某些標準函式庫
