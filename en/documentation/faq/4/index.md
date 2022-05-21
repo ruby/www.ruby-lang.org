@@ -361,6 +361,9 @@ the method is invoked. It is evaluated using the scope of the method.
 
 ### How do I pass arguments to a block?
 
+Typically, arguments are passed to a block using `yield` (or an iterator
+that calls `yield`), or by using the `Proc.call` method.
+
 The formal parameters of a block appear between vertical bars at the start
 of the block:
 
@@ -368,12 +371,10 @@ of the block:
 proc {|a, b| a <=> b }
 ~~~
 
-These parameters are actually local variables. If an existing local variable
-of the same name exists when the block executes, that variable will be
-modified by the call to the block. This may or may not be a good thing.
-
-Typically, arguments are passed to a block using `yield` (or an iterator that
-calls `yield`), or by using the `Proc.call` method.
+These parameters are actually local variables, scoped to that block.  If a
+local variable with the same name as a block parameter exists when the
+block is defined, that outer variable will be "shadowed" (hidden) inside the
+block by the block parameter.  This may or may not be a good thing.
 
 ### Why did my object change unexpectedly?
 
