@@ -139,7 +139,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
