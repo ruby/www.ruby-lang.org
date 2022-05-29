@@ -37,4 +37,4 @@ nếu đã có một nhóm trong khu vực đó rồi.
 
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/

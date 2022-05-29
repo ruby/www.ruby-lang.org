@@ -24,4 +24,4 @@ Ruby 的，他们最典型的特征是有月度聚会、邮件列表、 web 站�
 如果你对创建自己的用户组感兴趣，一定要看看在你的区域是否已经有一个。通常越大的聚会越有趣，如果在你的附近已经有一个用户组，创建你自己的用户组也许不是一个非常好的选择。
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/

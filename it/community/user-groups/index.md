@@ -41,4 +41,4 @@ già uno nella tua area.
 
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/

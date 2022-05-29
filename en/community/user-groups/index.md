@@ -41,6 +41,6 @@ option if there is already one nearby.
 
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/
 [onruby]: https://www.onruby.eu/
 [onruby-github]: https://github.com/phoet/on_ruby
