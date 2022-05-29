@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 3.0.2 Released"
+title: "Ruby 3.0.2 릴리스"
 author: "nagachika"
-translator:
+translator: "yous"
 date: 2021-07-07 09:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.0.2 has been released.
+Ruby 3.0.2가 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
-* [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
-* [CVE-2021-31799: A command injection vulnerability in RDoc]({%link en/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
+* [CVE-2021-31810: Net::FTP의 FTP PASV 응답 신뢰 취약점]({%link ko/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
+* [CVE-2021-32066: Net::IMAP의 StartTLS 스트립 취약점]({%link ko/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
+* [CVE-2021-31799: RDoc의 명령 주입 취약점]({%link ko/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_1...v3_0_2) for details.
+자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v3_0_1...v3_0_2)를 확인해주세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.0.2" | first %}
 
@@ -43,7 +43,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_1...v3_0_2) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
