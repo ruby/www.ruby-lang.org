@@ -48,11 +48,6 @@ diversas maneiras de obter o Ruby.
 : Chegou ao Ruby por outra linguagem? Quer seja C, C++, Java, Perl,
   PHP ou Python, este artigo é para você!
 
-[Learning Ruby][6]
-: Uma coleção completa de estudos e notas sobre Ruby, para os
-  principiantes na linguagem e à procura de uma introdução sólida aos
-  conceitos e construtores de Ruby.
-
 [Ruby Essentials][7]
 : Ruby Essentials é um livro digital gratuito projetado para prover um
   guia conciso e fácil de seguir para o aprendiz de Ruby.
@@ -143,7 +138,6 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: http://why.carlosbrando.com/
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://aprendaaprogramar.rubyonrails.com.br/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

@@ -30,11 +30,6 @@ como instalar Ruby.
   *por qué la tenaz suerte*, esta guía sigue siendo un clásico para
   quienes aprenden Ruby.
 
-[Aprendiendo Ruby][6] (en inglés)
-: Una completa colección de notas de estudio para aquellos que son nuevos
-  en el lenguaje y que buscan una introducción solida a los conceptos
-  de Ruby y sus construcciones.
-
 [Lo esencial de Ruby][7] (en inglés)
 : Lo esencial de Ruby es un libro en línea libre, diseñado para dar una
   guía concisa y fácil de seguir para aprender Ruby.
@@ -146,7 +141,6 @@ comenzar.
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
@@ -155,7 +149,7 @@ comenzar.
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/

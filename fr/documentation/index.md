@@ -71,11 +71,6 @@ pour les nombreuses façons d'obtenir Ruby.
   vous n’avez aucunes notions de programmation, commencez par là. Une
   traduction française est [disponible en PDF][7]
 
-[*Learning Ruby*][9]
-: Un ensemble cohérent de notes introductives sur la structure et la
-  logique qui prévalent en Ruby. Tout à fait indiqué pour se
-  familiariser avec le langage Ruby, ses us et coutumes, ses astuces.
-
 [*Ruby Essentials*][10]
 : Un *ebook* gratuit qui se veut synthétique et facile d’accès.
 
@@ -133,7 +128,6 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [5]: https://poignant.guide
 [6]: http://pine.fm/LearnToProgram/
 [7]: http://www.ruby-doc.org/docs/ApprendreProgrammer/Apprendre_%E0_Programmer.pdf
-[9]: http://rubylearning.com/
 [10]: http://www.techotopia.com/index.php/Ruby_Essentials
 [11]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
 [12]: http://www.ruby-doc.org/docs/ProgrammingRuby/
@@ -142,7 +136,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [16]: http://www.ruby-doc.org/core
 [17]: https://ruby.github.io/rdoc/
 [18]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [20]: http://rubydoc.info/
 [21]: http://rubydocs.org/
 [22]: http://ruby-doc.org

@@ -8,9 +8,14 @@
 #   date:     date of first stable release (YYYY-MM-DD)
 #   eol_date: date of EOL (YYYY-MM-DD)
 
-- name: 3.1
+- name: 3.2
   status: preview
   date:
+  eol_date:
+
+- name: 3.1
+  status: normal maintenance
+  date: 2021-12-25
   eol_date:
 
 - name: 3.0
@@ -19,19 +24,19 @@
   eol_date:
 
 - name: 2.7
-  status: normal maintenance
+  status: security maintenance
   date: 2019-12-25
   eol_date:
 
 - name: 2.6
-  status: security maintenance
+  status: eol
   date: 2018-12-25
-  eol_date: 2022-03-31
+  eol_date: 2022-04-12
 
 - name: 2.5
   status: eol
   date: 2017-12-25
-  eol_date: 2021-03-31
+  eol_date: 2021-04-05
 
 - name: 2.4
   status: eol

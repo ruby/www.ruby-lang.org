@@ -137,7 +137,7 @@ class Linter
       content = File.read(filename)
 
       matchdata = content.match(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m)
-      yaml = YAML.load(matchdata[1])  if matchdata
+      yaml = YAML.load(matchdata[1], permitted_classes: [Date, Time])  if matchdata
 
       [yaml || {}, content || ""]
     end

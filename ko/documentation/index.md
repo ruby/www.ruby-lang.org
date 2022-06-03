@@ -31,10 +31,6 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
   책입니다. *Why the Lucky Stiff*의 저작물로 Ruby를 배우는 사람을 위한
   고전입니다.
 
-[Learning Ruby][6] (영문)
-: 새로 언어를 배우는 사람이나 Ruby의 개념과 구조를 검색하려는 사람들을 위한
-  Ruby 스터디 노트들입니다.
-
 [Ruby Essentials][7] (영문)
 : Ruby 에센셜은 간결하고 따라 하기 쉬운 가이드를 제공하도록 디자인된 무료
   온라인 책입니다.
@@ -135,7 +131,6 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
@@ -144,7 +139,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/

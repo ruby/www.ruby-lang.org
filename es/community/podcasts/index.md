@@ -23,5 +23,5 @@ shows.
 ¡También puedes comenzar tu propio podcast sobre Ruby y ser agregado
 a esta lista!
 
-[rorpodcast]: http://5by5.tv/rubyonrails
-[rogues]: https://devchat.tv/ruby-rogues
+[rorpodcast]: https://www.therubyonrailspodcast.com
+[rogues]: https://rubyrogues.com

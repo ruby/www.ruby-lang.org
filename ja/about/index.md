@@ -179,7 +179,7 @@ MRI以外のRuby処理系には以下のようなものがあります。
 
 ### 参照リンク
 
-<sup>1</sup> Matz, ruby-talk メーリンクリスト上での会話, [2000年5月12日][blade]。
+<sup>1</sup> Matz, ruby-talk メーリングリスト上での会話, [2000年5月12日][blade]。
 {: #fn1}
 
 <sup>2</sup> Matz, [An Interview with the Creator of Ruby][linuxdevcenter]から, 2001年11月29日。

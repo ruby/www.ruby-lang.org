@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: ["3.0"]
+        ruby: ["3.1"]
         os: [ubuntu-latest]
       fail-fast: false
 
@@ -18,7 +18,7 @@ jobs:
       - name: Dump environment
         run: env | sort
       - name: Checkout ruby/www.ruby-lang.org
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 1
       - name: Setup Ruby

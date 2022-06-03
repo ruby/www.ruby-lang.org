@@ -22,4 +22,4 @@ lang: zh_tw
 
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/

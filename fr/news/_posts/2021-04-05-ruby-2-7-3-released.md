@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 2.7.3 est disponible"
 author: "nagachika"
-translator: "Manaleak2d"
+translator: "Kevin Rosaz"
 date: 2021-04-05 12:00:00 +0000
 lang: fr
 ---

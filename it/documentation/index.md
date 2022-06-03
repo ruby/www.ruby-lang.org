@@ -36,11 +36,6 @@ potrà venire comodo quando vorrai programmare in Ruby.
   programmazione? Sia che sia C, C++, Java, Perl PHP o Python, questo
   articolo è quello che fa per te.
 
-[Learning Ruby][6]
-: Una raccolta di appunti riguardanti Ruby per coloro che non conoscono
-  il linguaggio e sono alla ricerca di una solida introduzione ai
-  concetti e ai costrutti di Ruby. \[in inglese\]
-
 [Ruby Essentials][7]
 : Ruby Essentials è un libro gratuito online, pensato per essere una
   concisa guida facile da seguire per imparare Ruby. \[in inglese\]
@@ -131,7 +126,6 @@ iniziare.
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/

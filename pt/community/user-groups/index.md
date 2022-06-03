@@ -38,4 +38,4 @@ não ser a melhor opção se já existir um por perto.
 
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/

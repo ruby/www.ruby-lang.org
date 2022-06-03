@@ -102,7 +102,7 @@ détail [comment organiser un apéro Ruby][19].
 
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/
 [3]: https://www.meetup.com/parisrb/
 [4]: http://groups.google.com/group/parisrb
 [5]: http://lyonrb.fr/

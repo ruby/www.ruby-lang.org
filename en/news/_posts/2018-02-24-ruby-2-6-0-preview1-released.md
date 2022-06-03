@@ -72,7 +72,7 @@ With those changes,
 [1115 files changed, 23023 insertions(+), 14748 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview1)
 since Ruby 2.5.0!
 
-Today, Feburary 24th, is Ruby's 25th birthday.
+Today, February 24th, is Ruby's 25th birthday.
 Happy birthday Ruby, and enjoy programming with Ruby 2.6.0-preview1!
 
 ## Download

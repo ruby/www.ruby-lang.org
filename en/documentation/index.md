@@ -27,11 +27,6 @@ the [installation guide](installation/) for help on installing Ruby.
   through stories, wit, and comics. Originally created by *why the lucky
   stiff*, this guide remains a classic for Ruby learners.
 
-[Learning Ruby][6]
-: A thorough collection of Ruby study notes for those who are new to the
-  language and in search of a solid introduction to Ruby’s concepts and
-  constructs.
-
 [Ruby Essentials][7]
 : A free on-line book designed to provide a concise
   and easy to follow guide to learning Ruby.
@@ -132,7 +127,6 @@ If you have questions about Ruby the
 [1]: https://try.ruby-lang.org/
 [2]: http://rubykoans.com/
 [5]: https://poignant.guide
-[6]: http://rubylearning.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
@@ -141,7 +135,7 @@ If you have questions about Ruby the
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/

@@ -61,5 +61,5 @@ Ruby yang Anda ikuti dapat kita sampaikan di sini.
 [1]: http://tech.groups.yahoo.com/group/id-ruby/
 [2]: http://wiki.rubygarden.org/Ruby/page/show/RubyUserGroups
 [3]: http://www.rubyholic.com/
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/
 [5]: http://groups.google.com/group/Ruby-Brigades

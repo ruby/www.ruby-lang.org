@@ -129,7 +129,7 @@ Dieses Ergebnis wurde gemessen auf Ubuntu 20.04, Intel(R) Core(TM)
 i7-6700 (4 Kerne, 8 Hardware-Threads). Es zeigt, dass die parallele
 Version 3,87-mal so schnell ist wie die sequentielle Version.
 
-Siehe [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) für weitere Details.
+Siehe [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html) für weitere Details.
 
 ### Fiber Scheduler
 
@@ -384,7 +384,7 @@ willkommen.
 
 * Musterabgleiche (`case`/`in`) sind nicht länger experimentell.
   * Siehe die
-    [Pattern-Matching-Dokumentation](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)
+    [Pattern-Matching-Dokumentation](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html)
     für weitere Informationen.
 * Die Besonderheiten von `$SAFE` wurden vollständig entfernt.
   Es handelt sich nun um eine normale globale Variable.
