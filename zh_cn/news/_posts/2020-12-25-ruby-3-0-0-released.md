@@ -83,7 +83,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 该测试在 Ubuntu 20.04，Intel(R) Core(TM) i7-6700（4 核心 8 线程）下完成。测量显示其比起顺序执行，有约 3.87 倍的性能提升。
 
-详见 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html)。
+详见 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html)。
 
 ### Fiber 调度器
 
@@ -287,7 +287,7 @@ TypeProf 目前是实验特性，还不够成熟。只有 Ruby 语言的一个�
     ```
 
 * 模式匹配 (`case`/`in`) 不再是实验性特性。
-  * 详见[模式匹配文档](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)。
+  * 详见[模式匹配文档](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html)。
 * `$SAFE` 特性被彻底移除，现在它就是一个普通的全部常量。
 * backtrace 的顺序在 Ruby 2.5 中被颠倒，现在倒了回来。现在其行为和 2.4 一致，先打印错误信息，再以此打印其调用者。
 * 一些标准库被升级
