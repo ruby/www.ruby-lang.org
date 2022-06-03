@@ -28,7 +28,7 @@ WebAssembly/WASI Support in Ruby intends to leverage those projects. It enables 
 
 ### Use case
 
-This support encourages developers can utilize CRuby in WebAssembly environment. An example use case of it is [TryRuby playground](https://try.ruby-lang.org/playground/)'s CRuby support. Now you can try original CRuby in your web browser.
+This support enables developers to utilize CRuby in a WebAssembly environment. An example use case is [TryRuby playground](https://try.ruby-lang.org/playground/)'s CRuby support. Now you can try original CRuby in your web browser.
 
 ### Technical points
 
@@ -77,7 +77,7 @@ The original proposal is https://bugs.ruby-lang.org/issues/17837
 
 * We no longer bundle 3rd party sources like `libyaml`, `libffi`.
 
-    * libyaml source has been removed from psych. You may need to install `libyaml-dev` with Ubuntu/Debian platform. The package name is different each platforms.
+    * libyaml source has been removed from psych. You may need to install `libyaml-dev` with Ubuntu/Debian platform. The package name may differ on other platforms.
 
     * libffi will be removed from `fiddle` at preview2
 
