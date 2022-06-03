@@ -4,144 +4,132 @@ title: "Ruby Core"
 lang: de
 ---
 
-Jetzt ist die beste Zeit, die weitere Entwicklung von Ruby zu verfolgen,
-denn Ruby 2.0 ist in Arbeit. Durch das erhöhte Interesse an Ruby,
-das sich in den letzten Jahren entwickelt hat, besteht ein
-steigender Bedarf an Talenten, die bei der Verbesserung von Ruby und der
-Dokumentation seiner Teile mitwirken. Also, womit willst Du anfangen?
+Jetzt ist die beste Zeit, die weitere Entwicklung von Ruby zu verfolgen.
+Durch das in den letzten Jahren gestiegene Interesse an Ruby besteht ein
+wachsender Bedarf an Talenten, die bei der Verbesserung von Ruby und der
+Dokumentation seiner Bestandteile mitwirken. Also, womit willst Du anfangen?
 {: .summary}
 
 Die hier behandelten Themen zur Entwicklung von Ruby sind Folgende:
 
-* [Subversion zur Entwicklung von Ruby nutzen](#following-ruby)
-* [Mit Git arbeiten](#git-ruby)
+* [Die Ruby-Entwicklung über Git verfolgen](#following-ruby)
 * [Ruby verbessern, Patch für Patch](#patching-ruby)
-* [Regeln für Core-Entwickler](#coding-standards)
+* [Hinweis zu Branches](#branches-ruby)
 
-### Subversion zur Entwicklung von Ruby nutzen
+### Die Ruby-Entwicklung über Git verfolgen
 {: #following-ruby}
 
-Mit dem folgenden Kommandozeilenbefehl kannst du den aktuellsten
-Quelltext von Ruby über Subversion herunterladen (auschecken):
+Das aktuelle Haupt-Repository mit dem neuesten Ruby-Quellcode ist
+[git.ruby-lang.org/ruby.git][gitrlo].
+Zusätzlich existiert auch ein [Mirror auf GitHub][7].  Verwende im Allgemeinen bitte diesen Mirror.
+
+Du kannst über Git den neuesten Quellcode von Ruby beziehen.
+Von deiner Kommandozeile:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
-Das Verzeichnis `ruby` enthält nun den vollständigen Quelltext der
-Entwicklerversion Ruby 1.9. Bitte bedenke, dass es sich bei dieser
-Version um die absolut neuste Variante von Ruby handelt. Sie wird
-ständig weiterentwickelt und wird erst am Ende des Jahres 2007 offiziell
-veröffentlicht.
+Der Ordner `ruby` wird jetzt den neuesten Quellcode für die Entwicklungsversion von Ruby beinhalten (ruby-trunk).
 
-Wenn du Interesse an der Verbesserung von Ruby 1.8 hast, solltest du dir
-den Branch `ruby_1_8` genauer anschauen. Über den folgenden
-Kommandozeilenbefehl kannst du den Quelltext auschecken:
+Siehe dazu auch das Dokument [Non-committer’s HOWTO to join our development][noncommitterhowto].
+
+Wenn du Commit-Berechtigung hast und etwas pushen möchtest, solltest du
+das Haupt-Repository verwenden.
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+$ git clone git@git.ruby-lang.org:ruby.git
 {% endhighlight %}
-
-Damit hast du die aktuelle Entwicklerversion des offiziellen Ruby 1.8
-Zweiges in das Verzeichnis `ruby_1_8` heruntergeladen. Entwickler, die
-einen Patch für diese Version entwickeln, werden darum gebeten ebenfalls
-einen Patch für die Entwicklerversion 1.9 zu erstellen. Aufgrund dessen
-sollten die Versionen 1.8 und 1.9 sich einander ähneln, mit der Ausnahme
-von Erweiterungen an der Sprache Ruby selbst.
-
-Bei Interesse besteht die Möglichkeit das [Ruby-Repository über den
-Webbrowser][1] zu begutachten.
-
-Für weiterführende Informationen bezüglich Subversion bietet sich die
-englischsprachige [Subversion-FAQ][2] und das ebenfalls
-englischsprachige [Subversion-Buch][3] an.
-
-### Mit Git arbeiten
-{: #git-ruby}
-
-Diejenigen, die [Git][4] bevorzugen, können einen [Mirror auf GitHub][5]
-nutzen. Dieser kann von [offiziellen Committern][6] und [allen
-Anderen][7] benutzt werden.
 
 ### Ruby verbessern, Patch für Patch
 {: #patching-ruby}
 
-Rubyforge bietet einen [Bug-Tracker][8] für das Melden von Fehlern und
-Übersenden von Patches an Matz und die Anderen. Die Fehlerreports gehen
-parallel auch zur Diskussion an die Ruby-Core-Mailingliste, wodurch keine
-Fehlermeldung unbeachtet bleibt.
+Das Kernteam betreibt einen [Issue-Tracker][10] für das Beisteuern von Patches
+und Fehlerberichte an Matz und die Gang. Diese Berichte werden auch an die [Ruby-Core Mailingliste][mailing-lists] zur Diskussion gesendet. So kannst du
+sicher sein, dass deine Anfrage nicht unbemerkt bleibt.
+Du kannst Patches auch direkt an die Mailingliste senden. Wie auch immer,
+du bist herzlich eingeladen an der entstehenden Diskussion teilzunehmen.
 
-Zusammenfassend sind folgende Schritte für das Erstellen eines Patches
-erforderlich:
+Bitte schau dir den [Leitfaden für Patch-Autoren][writing-patches] an.
+Dort findest du einige Tips direkt von Matz dazu, wie deine Patches berücksichtigt werden können.
 
-1.  Eine Kopie von Ruby 1.8 auschecken. Dabei das Tag
-    `ruby_1_8` verwenden.
+Als Zusammenfassung, die Schritte zur Erstellung eines Patches sind:
 
-         $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src \
-             co -r ruby_1_8 -d ruby-1.8 ruby
+1.  Checke den Ruby-Quellcode von GitHub aus.
+    Patches für Bugfixes oder neue Features sollten für den `trunk` von
+    Rubys Quellcode abgegeben werden.
 
-2.  Hinzufügen der eigenen Verbesserungen (im Verzeichnis `ruby-1.8`).
-3.  Einen Patch erstellen.
+        $ git clone https://github.com/ruby/ruby.git
 
-         $ cvs diff > ruby-1.8-changes.patch
+    Wenn du einen Bug in einem Maintenance-Branch fixen willst, dann checke
+    eine Kopie dieses Branches aus.
 
-4.  [Abschicken][9] des neuen Patches.
+        $ git checkout ruby_X_X
 
-**Bitte beachten:** Patches sollten als [unified diff][10] abgeschickt
-werden. Wer mehr über das Zusammenführen (Merge) der Patches wissen will,
-sollte sich die [diffutils-Referenz][11] ansehen.
+    X_X sollte durch die auszucheckende Version ersetzt werden.
 
-Diskussionen zum Thema Ruby-Entwicklung werden in der
-[Ruby-Core-Mailingliste][mailing-lists] gebündelt.
-Wer herausfinden will, ob sein Patch Sinn macht oder nur eine Diskussion
-über die Zukunft von Ruby anfangen will, sollte nicht zögern an Bord zu
-kommen. Es wird an dieser Stelle davor gewarnt, Off-Topic Diskussionen
-zu führen, da diese in der Liste nicht akzeptiert werden. Es sollte klar
-kommuniziert und aussagekräftige Überschriften verwendet werden.
-Schließlich wird hier der Erfinder von Ruby angesprochen, daher lasst
-uns ein wenig Respekt haben.
+2.  Füge deine Verbesserungen zum Code hinzu.
 
-Es sollte klar sein, dass das Kernteam in Japan lebt. Obwohl die meisten
-sehr gut Englisch sprechen, gibt es aber auch noch einen signifikanten
-Unterschied in der Zeitzone zu beachten. Es existieren übrigens auch
-komplett japanischsprachige Listen neben den englischen Pendants. Man
-sollte nur die Ruhe bewahren, wenn eine Antwort nicht sofort
-zurückkommt. Notfalls kann die gleiche Anfrage ein paar Tage später
-nochmal gestellt werden.
+3.  Erstelle einen Patch.
 
-### Regeln für Core-Entwickler
-{: #coding-standards}
+        $ git diff > ruby-changes.patch
 
-Allgemein sollten Entwickler von Ruby mit den Quelltexten und dem
-Entwicklungstil des Teams vertraut sein. Zum besseren Verständnis
-sollten die folgenden Richtlinien beim Einchecken ins
-Subversion-Repository beachtet werden:
+4.  Erstelle ein Ticket im [Issue-Tracker][10] oder maile deinen Patch an
+    die [Ruby-Core Mailingliste][mailing-lists] mit einem ChangeLog-Eintrag
+    zu deinem Patch.
 
-* Alle Änderungen sollten im `ChangeLog` gemäß den
-  [GNU-Konventionen][12] erfasst werden. (Viele Core-Entwickler von Ruby
-  nutzen den `add-log` Modus von Emacs: `C-x 4 a`.)
-* Der Check-in Zeitstempel sollte in Japan Standard Time (UTC+9)
-  angegeben werden.
-* Die Punkte im ChangeLog sollten als Kommentar beim Einchecken
-  verwendet werden. Dieser Kommentar wird automatisch nach einem Commit
-  an die Ruby-CVS-Liste gemailt.
-* Funktionsprototypen werden überall im Ruby-Quelltext verwendet.
-* Bitte keine C++-Kommentare (`//`) verwenden. Das Ruby-Wartungsteam
-  bevorzugt stattdessen die Mehrzeilenkommentare von Standard-C
-  (`/* .. */`).
+5.  Wenn zu dem Patch keine Bedenken angemeldet werden, dann wird den
+    Committern die Berechtigung erteilt, ihn zu übernehmen.
+
+**Bitte beachte:** Patches sollten als [unified diff][12] abgegeben werden.
+Siehe [die diffutils Referenz][13] für mehr Informationen dazu, wie Patches übernommen werden.
+
+Die Diskussion zur Ruby-Entwicklung findet auf der
+[Ruby-Core Mailingliste][mailing-lists] statt. Wenn du also neugierig bist,
+ob sich dein Patch lohnt oder du eine Diskussion zur Zukunft von Ruby
+starten möchtest, dann zögere nicht, an Bord zu kommen.
+Sei gewarnt: Off-Topic-Diskussionen werden auf dieser Liste nicht toleriert.
+Der Lärmpegel sollte niedrig, Themen sollten pointiert, gut durchdacht
+und formuliert sein. Da wir uns an den Schöpfer von Ruby wenden, sollten
+wir etwas Ehrfurcht an den Tag legen.
+
+Behalte im Hinterkopf, dass viele Kernentwickler von Ruby in Japan leben.
+Viele sprechen hervorragendes Englisch, aber trotzdem bleibt ein erheblicher
+Zeitzonen-Unterschied.
+Außerdem gibt es neben den englischen auch eine ganze Menge japanische Entwicklungs-Mailinglisten. Sei geduldig. Wenn deine Anfrage nicht gelöst wird,
+dann bleib dran - versuch es ein paar Tage später nochmal.
+
+### Hinweis zu Branches
+{: #branches-ruby}
+
+Der Ruby-Quellcode wurde bis zum 22. April 2019 über Subversion verwaltet.
+Daher werden manche Zweige immer noch über Subversion gepflegt.
+Du kannst das SVN-Repository betrachten.
+
+* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+
+Normalerweise musst du dich darum aber nicht kümmern (außer wenn du ein
+Branch-Maintainer bist).
+Du kannst Branches in deiner Git-Arbeitskopie auschecken,
+zum Beispiel über folgendes Kommando.
+
+{% highlight sh %}
+$ git checkout ruby_X_X
+{% endhighlight %}
+
+X_X sollte durch die auszucheckende Version ersetzt werden.
+
+Wenn du die Zweige modifizieren möchtest, dann öffne bitte ein Issue im
+[Issue-Tracker][10].
+Siehe auch den nachfolgenden Abschnitt.
 
 
-
+[gitrlo]: https://git.ruby-lang.org/ruby.git
 [mailing-lists]: /de/community/mailing-lists/
-[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[2]: http://subversion.apache.org/faq.html
-[3]: http://svnbook.org
-[4]: http://git-scm.com/
-[5]: https://github.com/ruby/ruby
-[6]: https://github.com/shyouhei/ruby/wiki/committerhowto
-[7]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[8]: http://rubyforge.org/tracker/?func=browse&amp;group_id=426&amp;atid=1698
-[9]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700
-[10]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
-[11]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
-[12]: http://www.gnu.org/prep/standards/standards.html#Change-Logs
+[writing-patches]: /de/community/ruby-core/writing-patches/
+[noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[7]: https://github.com/ruby/ruby
+[10]: https://bugs.ruby-lang.org/
+[12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
+[13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
