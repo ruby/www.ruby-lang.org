@@ -17,9 +17,9 @@ Ruby 3.1 menjaga kompatibilitas dengan Ruby 3.0 dan menambahkan banyak fitur.
 Ruby 3.1 menggabungkan YJIT, sebuah *compiler* JIT baru yang dikembangkan oleh
 Shopify.
 
-Sejak [Ruby 2.6 mengenalkan MJIT pada 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/),
+Sejak [Ruby 2.6 mengenalkan MJIT pada 2018](https://www.ruby-lang.org/id/news/2018/12/25/ruby-2-6-0-released/),
 kinerjanya sangat meningkat dan akhirnya
-[kami mecapai Ruby3x3 tahun lalu](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/).
+[kami mecapai Ruby3x3 tahun lalu](https://www.ruby-lang.org/id/news/2020/12/25/ruby-3-0-0-released/).
 Meskipun *Optcarrot* telah menunjukkan peningkatan luar biasa, JIT belum
 memberikan manfaat untuk aplikasi dunia nyata.
 
@@ -150,7 +150,7 @@ untuk lebih detail.
 *TypeProf* adalah sebuah *static type analyzer* untuk Ruby.
 *TypeProf* menghasilkan sebuah prototipe RBS dari kode Ruby yang
 *non-type-annotated*.
-Lihat [dokumen](https://github.com/ruby/typeprof/blob/master/doc/doc.md)
+Lihat [dokumentasi](https://github.com/ruby/typeprof/blob/master/doc/doc.md)
 untuk detail.
 
 Perubahan utama sejak Ruby 3.0.0 adalah sebuah dukungan IDE eksperimental yang
@@ -163,7 +163,7 @@ pada sebuah berkas RBS) *method signature* di atas setiap definisi *method*,
 menggarisbawahi kode yang mungkin menyebabkan *name error* atau *type error*
 dengan garis merah, dan melengkapi nama *method* (seperti menampilkan kandidat
 *method*).
-Lihat [dokumen](https://github.com/ruby/typeprof/blob/master/doc/ide.md)
+Lihat [dokumentasi](https://github.com/ruby/typeprof/blob/master/doc/ide.md)
 untuk detail.
 
 Rilis ini juga berisi banyak perbaikan *bug* dan peningkatan kinerja.
