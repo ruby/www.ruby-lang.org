@@ -101,7 +101,7 @@ month_names:
 - Ноябрь
 - Декабрь
 
-posted_by: Опубликовал AUTHOR %Y-%m-%d
+posted_by: Опубликовал AUTHOR %d-%m-%Y
 translated_by: 'Перевел:'
 
 feed:
@@ -112,7 +112,7 @@ feed:
 news:
   other_news: Другие новости
   more_news: Больше новостей...
-  continue: Узнать больше...
+  continue: Продолжить чтение...
   back_to_year: Вернуться к архивам %Y года
   recent_news: Последние новости
   yearly_archive_title: Архивы %Y года
@@ -126,7 +126,7 @@ subscription_form:
   list: Почтовая рассылка
   first_name: Имя
   last_name: Фамилия
-  email: Email
+  email: Эл. почта
   action: Действие
   subscribe: Подписаться
   unsubscribe: Отписаться
