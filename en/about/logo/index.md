@@ -9,7 +9,7 @@ lang: en
 The Ruby logo is Copyright &copy; 2006, Yukihiro Matsumoto.
 
 It is licensed under the terms of the
-[Creative Commons Attribution-ShareAlike 2.5 License][cc-by-sa] agreement.
+[Creative Commons Attribution-ShareAlike 2.5][cc-by-sa] License agreement.
 
 
 ## Download

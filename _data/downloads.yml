@@ -15,12 +15,10 @@ stable:
 # optional
 security_maintenance:
 
-  - 2.6.10
-
 # optional
 eol:
 
-  - 2.5.9
+  - 2.6.10
 
 stable_snapshots:
 
@@ -44,13 +42,6 @@ stable_snapshots:
       xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_7.tar.xz
       zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_7.zip
     version: '2.7'
-
-  - branch: ruby_2_6
-    url:
-      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_6.zip
-    version: '2.6'
 
 nightly_snapshot:
 

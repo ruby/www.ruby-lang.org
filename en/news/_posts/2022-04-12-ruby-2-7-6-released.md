@@ -19,6 +19,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_5...v2_7_6) for 
 
 After this release, we end the normal maintenance phase of Ruby 2.7, and Ruby 2.7 enters the security maintenance phase.
 This means that we will no longer backport any bug fixes to Ruby 2.7 except security fixes.
+
 The term of the security maintenance phase is scheduled for a year.
 Ruby 2.7 reaches EOL and its official support ends by the end of the security maintenance phase.
 Therefore, we recommend that you start to plan upgrade to Ruby 3.0 or 3.1.

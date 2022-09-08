@@ -17,12 +17,12 @@ our program before reporting an issue. Any valid reported problems
 will be published after fixes.
 
 If you have found an issue affecting one of our websites, please
-report it [via GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new).
+report it [via GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new) or you can check our [Google Groups](https://groups.google.com/g/ruby-security-ann) for security announcements.
 
 If you have found an issue that affects a specific Ruby gem, follow the
 [instructions on RubyGems.org](http://guides.rubygems.org/security/#reporting-security-vulnerabilities).
 
-If you need to get in touch with the security team directly outside
+To get in touch with the security team directly outside
 of HackerOne, you can send email to security@ruby-lang.org
 ([the PGP public key](/security.asc)), which is a private mailing list.
 

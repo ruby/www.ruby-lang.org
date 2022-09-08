@@ -32,4 +32,4 @@ Ruby 유저 그룹에 관한 정보는 여러 웹 사이트에서 얻을 수 있
 
 
 
-[meetup]: https://ruby.meetup.com
+[meetup]: https://www.meetup.com/topics/ruby/

@@ -83,7 +83,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 이 결과는 Ubuntu 20.04, Intel(R) Core(TM) i7-6700(4 코어, 8 하드웨어 스레드)에서 측정되었습니다. 이는 병렬 버전이 순차적 버전보다 3.87배 빠르다는 것을 보여줍니다.
 
-더 자세한 내용은 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html)를 확인하세요.
+더 자세한 내용은 [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html)를 확인하세요.
 
 ### Fiber 스케줄러
 
@@ -287,7 +287,7 @@ TypeProf는 실험적이고 아직 완성되지 않았습니다. Ruby 언어의 
     ```
 
 * 패턴 매칭(`case`/`in`)은 이제 실험적이지 않습니다.
-  * 더 자세한 내용은 [패턴 매칭 문서](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html)를 확인하세요.
+  * 더 자세한 내용은 [패턴 매칭 문서](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html)를 확인하세요.
 * `$SAFE` 기능이 완전히 제거됩니다. 이 값은 이제 일반 전역 변수입니다.
 * Ruby 2.5에서 백트레이스의 순서가 역순이 되었습니다만, 이를 취소합니다. 이제 백트레이스는 Ruby 2.4처럼 동작합니다. 예외가 발생한 곳의 오류 메시지와 줄 번호가 가장 먼저 출력되며, 이를 호출한 곳의 정보가 그 뒤에 출력됩니다.
 * 표준 라이브러리를 업데이트했습니다.

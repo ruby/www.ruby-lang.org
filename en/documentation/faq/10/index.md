@@ -101,7 +101,7 @@ You might also want to have a look at the source of the interpreter itself,
 and at the various supplied extensions in the `ext/` directory
 (you can browse the [Ruby repository on GiHub][ruby-github]).
 
-[extension-rdoc]: https://docs.ruby-lang.org/en/master/doc/extension_rdoc.html
+[extension-rdoc]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [rubygems-guide]: http://guides.rubygems.org/gems-with-extensions/
 [ruby-github]:    https://github.com/ruby/ruby
 

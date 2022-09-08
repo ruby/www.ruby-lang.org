@@ -84,7 +84,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 Les résultats sont mesurés sur Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). Cela montre que la version exécutée en parallèle est 3.87 fois plus rapide que la version séquentielle.
 
-Voir [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) pour plus de détails.
+Voir [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html) pour plus de détails.
 
 ### Fiber Scheduler
 
@@ -288,7 +288,7 @@ TypeProf est expérimental et n'est pas encore mature. Seulement un sous ensembl
     ```
 
 - Le filtrage par motif (`case`/`in`) n'est plus expérimentale.
-  - Voir la [documentation du filtrage par motif](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) pour plus de détails.
+  - Voir la [documentation du filtrage par motif](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html) pour plus de détails.
 - La fonctionnalité `$SAFE` a été completement supprimée. C'est désormais une variable globale.
 - L'ordre de la backtrace a été inversé depuis la version 2.5 de Ruby, mais cela a été remis comme avant. Cela se comporte comme la version 2.4 de Ruby. Le message d'erreur et le numéro de ligne où l'exception apparait sont affichés en premiers. Les appelants sont affichés après.
 - Plusieurs bibliothèques standard ont été mises à jour.

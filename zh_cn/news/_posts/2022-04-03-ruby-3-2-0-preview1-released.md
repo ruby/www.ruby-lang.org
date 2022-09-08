@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.2.0 Preview 1 Released"
+title: "Ruby 3.2.0 Preview 1 已发布"
 author: "naruse"
 translator: GAO Jun
 date: 2022-04-03 00:00:00 +0000

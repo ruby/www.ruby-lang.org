@@ -83,7 +83,7 @@ par  66.422010   0.015999  66.438009 ( 16.685797)
 
 The result was measured on Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). It shows that the parallel version is 3.87 times faster than the sequential version.
 
-See [doc/ractor.md](https://docs.ruby-lang.org/en/3.0.0/doc/ractor_md.html) for more details.
+See [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html) for more details.
 
 ### Fiber Scheduler
 
@@ -287,7 +287,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     ```
 
 * Pattern matching (`case`/`in`) is no longer experimental.
-  * See the [pattern matching documentation](https://docs.ruby-lang.org/en/3.0.0/doc/syntax/pattern_matching_rdoc.html) for details.
+  * See the [pattern matching documentation](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html) for details.
 * The `$SAFE` feature was completely removed; now it is a normal global variable.
 * The order of backtraces had been reversed with Ruby 2.5; this change has been reverted.  Now backtraces behave like in Ruby 2.4: an error message and the line number where the exception occurs are printed first, and its callers are printed later.
 * Some standard libraries are updated.
