@@ -20,7 +20,7 @@ This is an initial port of WASI based WebAssembly support. This enables a CRuby 
 
 ### Background
 
-[WebAssembly (WASM)](https://webassembly.org/) is originally introduced to run programs safely and fast in web browsers. But its objective - running programs efficinently with security on various environment - is long wanted not only by web but also by general applications.
+[WebAssembly (Wasm)](https://webassembly.org/) is originally introduced to run programs safely and fast in web browsers. But its objective - running programs efficinently with security on various environment - is long wanted not only by web but also by general applications.
 
 [WASI (The WebAssembly System Interface)](https://wasi.dev/) is designed for such use cases. Though such applications need to communicate with operating systems, WebAssembly runs on a virtual machine which didn't have a system interface. WASI standardizes it.
 
