@@ -21,7 +21,7 @@ lang: zh_cn
 
 ### 背景
 
-[WebAssembly (WASM)](https://webassembly.org/) 希望能够在浏览器中提供安全快速的运行程序的方式。但其目标，也就是在不同环境中安全高效的运行程序，不仅是 web 应用长期以来的目标，也是其他一般程序所需要的。
+[WebAssembly (Wasm)](https://webassembly.org/) 希望能够在浏览器中提供安全快速的运行程序的方式。但其目标，也就是在不同环境中安全高效的运行程序，不仅是 web 应用长期以来的目标，也是其他一般程序所需要的。
 
 [WASI (The WebAssembly System Interface)](https://wasi.dev/) 被设计用于此类应用场景。尽管此类应用需要与操作系统进行通信，WebAssembly 却运行在一个没有系统接口的虚拟机之上。WASI 使之标准化。
 

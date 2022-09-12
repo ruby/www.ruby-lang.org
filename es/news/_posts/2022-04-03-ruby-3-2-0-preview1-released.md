@@ -24,7 +24,7 @@ que no usan el API de Threads.
 
 ### Trasfondo
 
-[WebAssembly (WASM)](https://webassembly.org/) fue introducido inicialmente
+[WebAssembly (Wasm)](https://webassembly.org/) fue introducido inicialmente
 para ejecutar programas de manera segura y rápida en navegadores web.
 Pero buena parte de su objetivo --ejecutar programar eficientemente y con
 seguridad-- es anhelado hace tiempo no sólo para el web sino para aplicaciones

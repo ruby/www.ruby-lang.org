@@ -25,7 +25,7 @@ tidak menggunakan *Thread* API.
 
 ### Latar belakang
 
-[WebAssembly (WASM)](https://webassembly.org/) semula diperkenalkan untuk
+[WebAssembly (Wasm)](https://webassembly.org/) semula diperkenalkan untuk
 menjalankan program dengan aman dan cepat pada *web browser*. Tetapi sasarannya
 - menjalankan program secara efisien dengan keamanan pada berbagai macam
 *environment* - diinginkan sejak lama tidak hanya oleh *web*, akan tetapi oleh
