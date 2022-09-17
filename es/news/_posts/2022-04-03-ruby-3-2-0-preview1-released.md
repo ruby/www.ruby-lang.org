@@ -12,7 +12,7 @@ lang: es
 Nos complace anunciar la publicación de Ruby {{ release.version }}. Ruby 3.2
 agrega muchas características y mejoras en desempeño.
 
-## Sporte para WebAssembly basado en WASI
+## Soporte para WebAssembly basado en WASI
 
 Esta es un porte inicial del soporte para WebAssembly basado en WASI.
 Esto permite que un binario de CRuby esté disponible en navegadores Web,
@@ -86,7 +86,7 @@ Denegación de servicio por expresiones regulares o ReDoS).
 
 El riesgo de Denegaciones de Servicio (DoS) puede prevenirse o mitigarse
 significativamente al configurar `Regexp.timeout` de acuerdo a los
-requerimientos de su aplicación Ruby.  Por favor pruebelo en su aplicación,
+requerimientos de su aplicación Ruby.  Por favor pruébelo en su aplicación,
 después le damos la bienvenida a su retroalimentación.
 
 Observe que `Regexp.timeout` es una configuración global. Si quiere usar una
@@ -210,6 +210,6 @@ desde Ruby 3.1.0!
 
 ## Lo que es Ruby
 
-Ruby fue desarrollado inicialmente pof Matz (Yukihiro Matsumoto) en 1993,
+Ruby fue desarrollado inicialmente por Matz (Yukihiro Matsumoto) en 1993,
 y ahora es desarrollado como Código Abierto. Corre en múltiples plataformas
 y se usa en todo el mundo especialmente para desarrollo web.
