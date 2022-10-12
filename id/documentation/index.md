@@ -10,7 +10,7 @@ lebih lanjut
 
 ### Memasang Ruby
 
-Meskipun Anda dapat dengan mudah [try Ruby pada browser Anda][1], Anda juga
+Meskipun Anda dapat dengan mudah [mencoba Ruby pada browser Anda][1], Anda juga
 dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
 
 ### Mulai
@@ -29,7 +29,7 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
   stiff*, panduan ini tetap klasik untuk pelajar Ruby.
 
 [Ruby Essentials][7]
-: Ruby Essentials adalah buku *online* gratis yang dirancang untuk memberikan
+: Sebuah buku *online* gratis yang dirancang untuk memberikan
   panduan singkat dan mudah diikuti untuk belajar Ruby.
 
 [Learn to Program][8]
@@ -58,7 +58,7 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
 
 [Ruby Core Reference][13]
 : Diambil langsung dari *source code* Ruby menggunakan [RDoc][14],
-  referensi ini mendokumentasikan seluruh *class* dan *module core*
+  referensi ini mendokumentasikan seluruh *core class* dan *core module*
   (seperti String, Array, Symbol, dll.).
 
 [Ruby Standard Library Reference][15]
@@ -121,7 +121,7 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby:
 
 [Ruby-Doc.org][34] merawat daftar lengkap dokumentasi Bahasa Inggris.
 Jika Anda memiliki pertanyaan
-tentang Ruby, [mailing list](/id/community/mailing-lists/)
+tentang Ruby, [milis](/id/community/mailing-lists/)
 adalah tempat yang baik untuk memulai.
 
 
