@@ -19,116 +19,114 @@ header: |
 
 Bagaimana jika kita ingin mengatakan “Hello” sekaligus banyak tanpa
 membuat jari dan tangan kita semua kelelahan? Kita perlu mendefinisikan
-metode!
+sebuah *method*!
 
 {% highlight irb %}
-irb(main):010:0> def h
-irb(main):011:1>   puts "Hello World!"
+irb(main):010:0> def hi
+irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
-=> nil
+=> :hi
 {% endhighlight %}
 
-Kode `def h` memulai definisi suatu metode. Kode tersebut berkata pada
-Ruby bahwa kita sedang mendefinisikan sebuah metode, yang bernama `h`.
-Baris selanjutnya adalah body (badan) metode, baris yang sama seperti
+Kode `def hi` memulai definisi suatu *method*. Kode tersebut berkata pada
+Ruby bahwa kita sedang mendefinisikan sebuah *method*, yang bernama `hi`.
+Baris selanjutnya adalah *body* (badan) *method*, baris yang sama seperti
 yang sudah kita lihat sebelumnya: `puts "Hello World"`. Baris terakhir
-`end` memberitahu Ruby bahwa kita sudah selesai mendefinisikan metode.
-Ruby merespon `=> nil` memberitahu kita bahwa Ruby sudah mengetahui
-kalau kita sudah selesai mendefinisikan metode `h` tersebut.
+`end` memberi tahu Ruby bahwa kita sudah selesai mendefinisikan metode.
+Ruby merespons `=> :hi` yang mana memberi tahu kita bahwa kita sudah selesai
+mendefinisikan *method*. Respons bisa jadi `=> nil` pada Ruby 2.0 dan versi
+sebelumnya. Tetapi, ini bukanlah hal yang penting di sini. Mari kita lanjut.
 
-## Ringkasan, Kehidupan Metode yang Berulang-ulang
+## Ringkasan, Kehidupan Berulang-ulang dari Sebuah Method
 
-Sekarang mari kita coba menjalankan metode tersebut berulang kali:
+Sekarang mari kita coba menjalankan *method* tersebut berulang kali:
 
 {% highlight irb %}
-irb(main):013:0> h
+irb(main):013:0> hi
 Hello World!
 => nil
-irb(main):014:0> h()
+irb(main):014:0> hi()
 Hello World!
 => nil
 {% endhighlight %}
 
-Nah, mudah khan?! Pemanggilan metode di Ruby memang semudah menyebut
-nama metode yang bersangkutan ke Ruby. Jika metode tidak menerima
-parameter berarti ya memang itu saja yang Anda butuhkan. Anda bisa
-menambahkan buka dan tutup kurung jika Anda suka, tetapi buka dan tutup
-kurung tersebut tidak diperlukan.
+Nah, mudah bukan? Pemanggilan *method* di Ruby memang semudah menyebut
+nama *method* yang bersangkutan. Jika *method* tidak menerima
+parameter berarti memang itu saja yang Anda butuhkan. Anda bisa
+menambahkan tanda kurung jika Anda suka, tetapi tanda kurung tersebut
+tidak diperlukan.
 
-Bagaimana kalau kita ingin bilang hello ke orang, dan bukan bilang hello
-ke seluruh dunia? Caranya, Anda tinggal mendefinisikan ulang metode `h`
+Bagaimana kalau kita ingin mengatakan *hello* ke satu orang, tetapi bukan
+ke seluruh dunia? Caranya, Anda tinggal mendefinisikan ulang *method* `hi`
 agar menerima `name` sebagai parameter.
 
 {% highlight irb %}
-irb(main):015:0> def h(name)
-irb(main):016:1>   puts "Hello #{name}!"
+irb(main):015:0> def hi(name)
+irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
-=> nil
-irb(main):018:0> h("Matz")
+=> :hi
+irb(main):018:0> hi("Matz")
 Hello Matz!
 => nil
 {% endhighlight %}
 
 Sukses… tetapi coba kita lihat dulu sebentar apa yang terjadi disini.
 
-## Variabel dalam String
+## Variabel dalam Sebuah String
 
-Apa itu tadi artinya `#{name}` ? Tanda pagar dan kurung kurawal tadi
-adalah cara Ruby untuk insert sesuatu ke dalam string. Jadi obyek
-diantara kurung kurawal menjadi string (jika belum berbentuk String)
-kemudian diganti dengan string di luar kurung kurawal tersebut. Anda
-juga bisa menggunakan tanda pagar dan kurung kurawal ini untuk
-memastikan nama seseorang tersebut telah diubah menjadi kapital huruf
-depannya (singkatnya, dikapitalkan, bahasa Inggrisnya, di-capitalize):
+Apa itu tadi artinya `#{name}`? Tanda pagar dan kurung kurawal tadi
+adalah cara Ruby untuk menyisipkan sesuatu ke dalam sebuah *string*.
+Jadi objek di antara kurung kurawal menjadi sebuah *string*
+(jika belum berbentuk String) kemudian diganti dengan string di luar
+kurung kurawal tersebut. Anda juga bisa menggunakan tanda pagar dan
+kurung kurawal ini untuk memastikan nama seseorang telah diubah menjadi
+kapital huruf depannya (*capitalized*):
 
 {% highlight irb %}
-irb(main):019:0> def h(name = "World")
-irb(main):020:1>   puts "Hello #{name.capitalize}!"
+irb(main):019:0> def hi(name = "World")
+irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
+=> :hi
+irb(main):022:0> hi "chris"
+Hello Chris!
 => nil
-irb(main):022:0> h "arie"
-Hello Arie!
-=> nil
-irb(main):023:0> h
+irb(main):023:0> hi
 Hello World!
 => nil
 {% endhighlight %}
 
-Ada beberapa trik di metode barusan. Trik pertama, kita panggil metode
-tanpa menggunakan buka dan tutup kurung lagi. Jika sudah jelas apa yang
-Anda lakukan, maka buka dan tutup kurung boleh dihilangkan (opsional).
-Trik lainnya adalah secara default parameter `World`. Jadi apa yang
-metode `h` katakan adalah “Jika name tidak ada, maka gunakan name
-default yaitu `"World"`”.
+Ada beberapa trik yang bisa dilihat di sini. Trik pertama, kita panggil *method*
+tanpa menggunakan tanda kurung lagi. Jika sudah jelas apa yang Anda lakukan,
+maka tanda kurung boleh dihilangkan (opsional). Trik lainnya adalah
+menggunakan *default parameter* `World`. Jadi apa yang *method* `hi` katakan
+adalah “Jika parameter name tidak ada, maka gunakan default name
+yaitu `"World"`”.
 
-## Halo Dunia Menjadi TukangSapa
+## Hello World Berkembang Menjadi Penyapa
 
-Bagaimana jika kita ingin membuat TukangSapa, jadi satu yang mengingat
-nama Anda dan menyambut Anda dengan ucapan selamat datang dan juga yang
-selalu memperlakukan Anda dengan hormat. Anda akan membutuhkan obyek
-untuk keperluan itu. Maka, mari kita buat kelas “TukangSapa”.
+Bagaimana jika kita ingin membuat penyapa, yang mengingat nama Anda dan
+menyambut serta selalu memperlakukan Anda dengan hormat. Anda akan membutuhkan
+sebuah objek untuk ini. Mari kita buat sebuah kelas “Greeter”.
 
 {% highlight irb %}
-irb(main):024:0> class TukangSapa
-irb(main):025:1>   def initialize(name = "Dunia")
+irb(main):024:0> class Greeter
+irb(main):025:1>   def initialize(name = "World")
 irb(main):026:2>     @name = name
 irb(main):027:2>   end
-irb(main):028:1>   def say_hai
-irb(main):029:2>     puts "Hai #{@name}!"
+irb(main):028:1>   def say_hi
+irb(main):029:2>     puts "Hi #{@name}!"
 irb(main):030:2>   end
 irb(main):031:1>   def say_bye
-irb(main):032:2>     puts "Bye #{@name}, datang lagi ya."
+irb(main):032:2>     puts "Bye #{@name}, come back soon."
 irb(main):033:2>   end
 irb(main):034:1> end
-=> nil
+=> :say_bye
 {% endhighlight %}
 
-Keyword baru disini adalah `class`. Keyword ini mendifinisikan kelas
-baru yang disebut TukangSapa dan beberapa metode untuk kelas TukangSapa
-tersebut. Juga perhatikan `@name`. Ini adalah variabel instan, dan juga
-tersedia di semua metode di kelas TukangSapa. Seperti yang bisa Anda
-lihat variabel instan `@name` digunakan di metode `say_hai` dan metode
-`say_bye`.
+*Keyword* baru di sini adalah `class`. *Keyword* ini mendefinisikan kelas
+baru yang disebut Greeter dan beberapa *method* untuk kelas tersebut.
+Perhatikan juga `@name`. Ini adalah variabel objek, yang tersedia
+di semua *method*. Seperti yang bisa Anda lihat, variabel objek `@name`
+digunakan pada *method* `say_hai` dan `say_bye`.
 
-Lalu, bagaimana caranya kita menjalan kelas TukangSapa ? [Membuat
-obyek.](../3/)
+Lalu, bagaimana cara menjalankan kelas Greeter? [Membuat sebuah objek](../3/).

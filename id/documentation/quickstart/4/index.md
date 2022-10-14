@@ -17,23 +17,23 @@ header: |
 
 ---
 
-Sekarang kita melihat lebih jelas lagi pada program baru kita,
-perhatikan baris yang paling pertama, dimulai dengan tanda pagar (#). Di
-Ruby, semua tulisan yang ada sesudah tanda pagar (#) merupakan komentar
-(comment) dan tidak dipedulikan (di ignore) oleh interpreter. Baris
-pertama file adalah hal khusus, dan untuk Sistem Operasi Unix biasanya
-kita menentukan bagaimana menjalankan file. Kemudian komentar
-selanjutnya untuk penjelasan.
+Kita lihat lebih dalam program baru kita, perhatikan baris awal,
+dimulai dengan tanda pagar (#). Di Ruby, baris apapun setelah
+tanda pagar merupakan sebuah komentar (*comment*) dan
+diabaikan (*ignore*) oleh *interpreter*. Baris pertama dari
+program tersebut adalah kasus khusus dari komentar yang dijalankan pada
+sistem operasi *Unix-like* untuk memberi tahu bagaimana menjalankan program.
+Kemudian komentar berikutnya merupakan penjelasan.
 
-Metode `say_hai` kita sudah punya trik sedikit:
+*Method* `say_hi` sekarang menjadi sedikit lebih rumit:
 
 {% highlight ruby %}
-# Bilang Hai buat semua
-def say_hai
+# Katakan hai kepada semua orang
+def say_hi
   if @names.nil?
     puts "..."
   elsif @names.respond_to?("each")
-    # @names adalah list, iterate!
+    # @names adalah sebuah list dari elemen sejenis, lakukan perulangan!
     @names.each do |name|
       puts "Hello #{name}!"
     end
@@ -43,19 +43,19 @@ def say_hai
 end
 {% endhighlight %}
 
-Sekarang kelas memperhatikan parameter `@names` untuk menentukan
-pilihan. Jika parameter nil, maka print tiga dot (...). Ya karena memang
-tidak ada yang perlu disapa, khan?!
+Sekarang perhatikan variable objek `@names` yang menentukan pilihan.
+Jika memiliki nilai nil, maka cetak tiga titik (...). Tidak ada yang perlu
+disapa, bukan?
 
-## Perulangan—a.k.a. Iteration
+## Perputaran dan Perulangan—alias Iteration
 
-Jika obyek `@names` merespon metode `each`, berarti obyek ini merupakan
-sesuatu yang bisa Anda iterate, jadi iterate lah dan sapalah orang-orang
-bergantian. Kemudian, jika `@names` merupakan sesuatu yang lain,
-biarkanlah obyek ini otomatis menjadi string dan melakukan sapaan secara
-default.
+Jika objek `@names` memberikan respons kepada *method* `each`, berarti
+objek ini mendukung perulangan, jadi lakukan perulangan dan sapalah
+setiap orang secara bergantian. Kemudian, jika `@names` merupakan sesuatu
+yang lain, biarkanlah objek ini secara otomatis menjadi sebuah *string* dan
+menyapa secara *default*.
 
-Mari kita perhatikan iterator lebih dalam lagi:
+Mari kita lihat pengulangan lebih dalam lagi:
 
 {% highlight ruby %}
 @names.each do |name|
@@ -63,94 +63,93 @@ Mari kita perhatikan iterator lebih dalam lagi:
 end
 {% endhighlight %}
 
-`each` merupakan metode yang menerima blok kode yang kemudian
-menjalankan blok kode tersebut untuk setiap elemen dalam list, dan
-diantara `do` dan `end` itulah yang dinamakan blok. Blok juga bisa
-berupa function anonim atau `lambda`. Variabel diantara karakter pipa
-itu adalah parameter untuk blok tersebut.
+`each` merupakan sebuah *method* yang menerima blok kode yang kemudian
+menjalankan blok kode tersebut untuk setiap elemen dalam *list* dan
+di antara `do` dan `end` itulah yang dinamakan blok. Sebuah blok juga bisa
+berupa *anonymous function* atau `lambda`. Variabel di antara karakter pipa
+adalah parameter untuk blok tersebut.
 
-Yang terjadi disini adalah untuk setiap entri dalam list, `name` terkait
-dengan elemen list, kemudian ekspresi `puts "Hello #{name}!"` dijalankan
+Apa yang terjadi di sini adalah untuk setiap entri dalam *list*, `name` terikat
+pada elemen *list*, kemudian ekspresi `puts "Hello #{name}!"` dijalankan
 dengan name tersebut.
 
-Kebanyakan bahasa-bahasa pemrograman lain menangani list dengan
-menggunakan perulangan `for`, kalau di C seperti ini:
+Kebanyakan bahasa pemrograman lain menangani perulangan dengan
+menggunakan `for`, kalau di bahasa pemograman C seperti ini:
 
 {% highlight c %}
-for (i=0; i<total_elemen; i++)
+for (i=0; i<number_of_elements; i++)
 {
-  lakukan_sesuatu_dengan(elemen[i]);
+  do_something_with(element[i]);
 }
 {% endhighlight %}
 
-Kode diatas memang jalan, tetapi tidak begitu elegan. Anda perlu
-variabel `i`, untuk mencari tahu berapa panjang/total list, dan juga
-harus menjelaskan bagaimana menjalani perulangan lewat list tersebut.
-Ruby way jauh lebih elegan, semua detil disembunyikan di metode `each`,
+Kode di atas memang jalan, tetapi tidak begitu elegan. Anda perlu
+variabel `i`, untuk mencari tahu berapa jumlah elemen *list* dan juga
+harus menjelaskan bagaimana menjalankan perulangan terhadap *list* tersebut.
+Cara Ruby jauh lebih elegan, semua detail disembunyikan pada *method* `each`,
 semua yang perlu Anda lakukan hanyalah memberitahukan apa yang perlu
-dilakukan dengan elemen each. Secara internal, metode `each` akan
-memanggil `yield "Steven"`, kemudian `yield "Anton"`, kemudian `yield
-"Ridho"`, dan seterusnya.
+dilakukan terhadap setiap elemen. Secara internal, *method* `each` akan
+memanggil `yield "Albert"`, kemudian `yield "Brenda"`, kemudian `yield
+"Charles"`, dan seterusnya.
 
 ## Blok, Kekuatan Ruby
 
-Kekuatan sesungguhnya tentang blok adalah ketika berhadapan dengan yang
-lebih rumit ketimbang list. Selain dari berhubungan dengan list, Anda
-juga bisa menangani setup, teardown dan error (yang mana semua itu
-diluar dari sepengatahuan user)
+Kekuatan sesungguhnya tentang blok adalah ketika berhadapan dengan hal yang
+lebih rumit ketimbang *list*. Di luar penanganan detail dari sebuah *method*,
+Anda juga bisa menangani *setup*, *teardown*, dan *error*—semua ini disembunyikan
+dari pengguna.
 
 {% highlight ruby %}
-# Bilang "sampai jumpa" buat semua
+# Katakan selamat tinggal kepada semua orang
 def say_bye
   if @names.nil?
     puts "..."
   elsif @names.respond_to?("join")
-    # Gabung (Join) elemen list dengan koma
-    puts "Sampai jumpa #{@names.join(", ")}. Datang lagi ya!"
+    # Gabungkan elemen list dengan tanda koma
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
   else
-    puts "Sampai jumpa #{@names}. Datang lagi ya!"
+    puts "Goodbye #{@names}.  Come back soon!"
   end
 end
 {% endhighlight %}
 
-Metode `say_bye` tidak menggunakan `each`, tetapi memeriksa apakah
-`@names` merespon metode `join`, jika Ya, maka gunakan join. Tetapi jika
-tidak, maka print variabel sebagai string. Metode tidak peduli terhadap
-*type* aktual dari variabel, hanya bersandar pada metode-metode yang
+*Method* `say_bye` tidak menggunakan `each`, tetapi memeriksa apakah
+`@names` merespons *method* `join`, jika Ya, maka *method* digunakan. Apabila
+tidak, maka cetak variabel sebagai sebuah *string*. *Method* ini tidak peduli
+dengan tipe variabel sebenarnya, hanya bersandar pada *method* yang
 didukung dikenal sebagai “Duck Typing”, jadi seperti “jalannya seperti
-bebek dan berbunyi wek wek wek seperti bebek…”. Keuntungan dari cara
-duck typing ini adalah kita tidak perlu membatasi tipe-tipe variabel apa
-saja yang didukung. Kalau ada orang yang datang dengan kelas list baru,
-sepanjang obyek tersebut mengimplementasikan metode `join` dengan
-semantik yang sama seperti list, maka semua tetap berjalan sama persis
-seperti yang sudah direncanakan sebelumnya.
+seekor bebek dan berbunyi wek wek wek seperti bebek…”. Keuntungan dari
+*duck typing* adalah kita tidak perlu membatasi tipe-tipe variabel apa
+saja yang didukung. Kalau seseorang datang dengan kelas *list* baru,
+selama objek tersebut mengimplementasikan *method* `join` dengan
+semantik yang sama seperti *list*, maka semua tetap berjalan sama seperti
+yang diharapkan.
 
-## Script Ruby Mulai!
+## Memulai Script Ruby!
 
-Begitulah akhir cerita kelas BosTukangSapa, akhir dari file hanya
-memanggil metode-metode pada kelas tersebut. Ada satu trik yang perlu
-diperhatikan di baris:
+Begitulah akhir cerita dari kelas MegaGreeter, program hanya memanggil
+*method* pada kelas tersebut. Ada satu trik yang perlu diperhatikan
+pada baris berikut:
 
 {% highlight ruby %}
 if __FILE__ == $0
 {% endhighlight %}
 
-`__FILE__` adalah variabel magic yang berisi nama file saat ini. `$0`
-adalah nama file yang dipakai ketika memulai program. Pemeriksaan ini
-seolah berkata “Jika file ini merupakan file utama yang digunakan …”
-Pemeriksaan ini dapat berguna untuk file yang digunakan sebagai library,
-jadi bukan untuk mengeksekusi kode, tetapi jika file digunakan sebagai
-executable (file yang bisa dieksekusi/execute) maka eksekusi kode
-tersebut.
+`__FILE__` adalah *magic variable* yang berisi nama dari berkas saat ini.
+`$0` adalah nama berkas yang digunakan ketika memulai program. Pemeriksaan
+ini seolah berkata “Jika berkas ini merupakan berkas utama yang digunakan…”
+Pemeriksaan ini dapat berguna untuk berkas yang digunakan sebagai pustaka,
+jadi bukan untuk mengeksekusi kode, tetapi jika berkas digunakan sebagai
+*executable* (berkas yang bisa dieksekusi) maka eksekusi kode tersebut.
 
 ## Perdalamlah Kekuatan Ruby Anda
 
-Demikianlah tutorial mini Ruby kita. Masih banyak lagi hal-hal yang bisa
+Demikianlah tutorial mini Ruby ini. Masih banyak hal-hal yang bisa
 dijelajahi, kontrol struktur berbeda yang Ruby tawarkan, penggunaan blok
-dan `yield`, module sebagai mixin, dan banyak lagi yang lain. Saya harap
+dan `yield`, *module* sebagai *mixin*, dan banyak lagi. Saya harap
 tutorial mini ini dapat membuat Anda untuk menjelajahi Ruby lebih
 lanjut.
 
 Jika Anda ingin menjelajahi Ruby lebih lanjut, silakan ke
-[Dokumentasi](/en/documentation/) yang punya banyak link ke manual dan
-tutorial, semua tersedia gratis secara online.
+[Dokumentasi](/id/documentation/) yang memiliki banyak tautan ke manual dan
+tutorial, semua tersedia gratis secara *online*.
