@@ -323,7 +323,7 @@ $ sudo make install
 기본적으로, 이 명령어는 Ruby를 `/usr/local`에 설치합니다.
 변경하시려면 `./configure` 스크립트에 `--prefix=DIR` 옵션을 넘기세요.
 
-[Ruby README 파일][readme]에서 소스로부터 Ruby를 설치하는 법에 관련된
+[Ruby 빌드하기 문서][readme]에서 소스로부터 Ruby를 설치하는 법에 관련된
 추가 정보를 얻을 수 있습니다.
 
 서드파티 도구나 패키지 관리자를 사용하시는 것이 더 좋습니다.
