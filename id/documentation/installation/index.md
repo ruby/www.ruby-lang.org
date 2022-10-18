@@ -348,5 +348,5 @@ diatur oleh alat bantu apapun.
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /id/downloads/
 [installers]: /id/documentation/installation/#installers
-[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[readme]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
