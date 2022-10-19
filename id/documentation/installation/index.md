@@ -324,7 +324,7 @@ Secara otomatis, ini akan memasang Ruby pada `/usr/local`.
 Untuk mengubahnya, tambahkan opsi `--prefix=DIR` di dalam skrip `./configure`.
 
 Anda dapat menemukan informasi lebih lanjut terkait membangun dari kode
-sumber pada [Ruby README file][readme].
+sumber pada [instruksi membangun Ruby][readme].
 
 Meskipun begitu, menggunakan alat bantu pihak ketiga atau *package manager*
 mungkin adalah solusi yang terbaik, karena Ruby yang terpasang tidak akan
