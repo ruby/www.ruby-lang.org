@@ -346,8 +346,8 @@ $ sudo make install
 Por defecto este comando va a instala Ruby en `/usr/local`. Para cambiar esto
 usa la opción `--prefix=DIR` con el script `./configure`.
 
-Puedes encontrar más información acerca de compilar desde fuente en el
-[archivo Ruby README][readme].
+Puedes encontrar más información acerca de cómo compilar el código fuente en las
+[Instrucciones de compilación de Ruby][readme].
 
 Usar herramientas de terceros o gestores de paquetes puede ser una mejor idea,
 ya que las versiones instaladas de esta manera no serán manejadas
@@ -369,7 +369,7 @@ por ninguna otra herramienta.
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /en/downloads/
 [installers]: /en/documentation/installation/#installers
-[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[readme]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
