@@ -344,7 +344,7 @@ Varsayılan olarak, bu, Ruby'yi `/usr/local` içine kuracaktır. Değiştirmek i
 `./configure` betiğine `--prefix=DIR` seçeneğini geçirin.
 
 Kaynaktan inşa etme hakkında daha fazla bilgiyi
-[Ruby README dosyası][readme]nda bulabilirsiniz.
+[Ruby oluşturma talimatları][readme]nda bulabilirsiniz.
 
 Üçüncü taraf araçlar ya da paket yöneticileri kullanmak daha iyi bir fikir
 olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecektir.
