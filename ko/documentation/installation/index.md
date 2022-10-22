@@ -47,6 +47,7 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
   * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
   * [Windows 패키지 관리자](#winget)
+  * [Chocolatey 패키지 관리자](#chocolatey)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
   * [ruby-build](#ruby-build)
@@ -214,6 +215,19 @@ Windows에서 [Windows 패키지 관리자 CLI](https://github.com/microsoft/win
 {% highlight sh %}
 > winget install Ruby
 {% endhighlight %}
+
+### Chocolatey 패키지 관리자
+{: #chocolatey}
+
+또한 Windows에서 [Chocolatey 패키지 관리자](https://chocolatey.org/install)를
+사용해서 Ruby를 설치할 수 있습니다.
+
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+`msys2`가 이미 설치되어 있다면 이를 그대로 사용하고, 아니면 완전한 Ruby 개발
+환경을 위해서 새로 설치합니다.
 
 ### 다른 배포판
 
