@@ -46,6 +46,7 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
   * [FreeBSD](#freebsd)
   * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
+  * [Windows 패키지 관리자](#winget)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
   * [ruby-build](#ruby-build)
@@ -204,6 +205,15 @@ $ pkg install runtime/ruby
 
 하지만, 서드파티 도구를 사용하는 것이 최신 버전의 Ruby를 얻는 더 좋은 방법입니다.
 
+### Windows 패키지 관리자
+{: #winget}
+
+Windows에서 [Windows 패키지 관리자 CLI](https://github.com/microsoft/winget-cli)를
+사용해서 Ruby를 설치할 수 있습니다.
+
+{% highlight sh %}
+> winget install Ruby
+{% endhighlight %}
 
 ### 다른 배포판
 
