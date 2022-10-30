@@ -27,6 +27,11 @@ Los miembros de la lista de correo son personas que proveen Ruby (contribuyentes
 
 ## Problemas conocidos
 
+_See the [English page](/en/security/) for a complete and up-to-date
+list of security vulnerabilities.
+The following list only includes the as yet translated
+security announcements, it might be incomplete or outdated._
+
 A continuación una lista de los problemas conocidos más recientes:
 
 {% include security_posts.html %}

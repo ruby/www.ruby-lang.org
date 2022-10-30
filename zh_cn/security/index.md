@@ -21,6 +21,11 @@ lang: zh_cn
 
 ## 已知漏洞
 
+_See the [English page](/en/security/) for a complete and up-to-date
+list of security vulnerabilities.
+The following list only includes the as yet translated
+security announcements, it might be incomplete or outdated._
+
 以下是最近发现的一些漏洞。
 
 {% include security_posts.html %}

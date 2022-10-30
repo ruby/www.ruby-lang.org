@@ -21,6 +21,11 @@ security@ruby-lang.org は非公開 ML で、報告された問題が確認さ�
 
 ## 既知のセキュリティ問題
 
+_See the [English page](/en/security/) for a complete and up-to-date
+list of security vulnerabilities.
+The following list only includes the as yet translated
+security announcements, it might be incomplete or outdated._
+
 新しいものから順に並べています。
 
 {% include security_posts.html %}
