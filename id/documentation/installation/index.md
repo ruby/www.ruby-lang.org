@@ -324,7 +324,7 @@ Secara otomatis, ini akan memasang Ruby pada `/usr/local`.
 Untuk mengubahnya, tambahkan opsi `--prefix=DIR` di dalam skrip `./configure`.
 
 Anda dapat menemukan informasi lebih lanjut terkait membangun dari kode
-sumber pada [instruksi membangun Ruby][readme].
+sumber pada [instruksi membangun Ruby][building-ruby].
 
 Meskipun begitu, menggunakan alat bantu pihak ketiga atau *package manager*
 mungkin adalah solusi yang terbaik, karena Ruby yang terpasang tidak akan
@@ -348,5 +348,5 @@ diatur oleh alat bantu apapun.
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /id/downloads/
 [installers]: /id/documentation/installation/#installers
-[readme]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
