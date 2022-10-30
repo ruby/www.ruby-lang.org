@@ -19,6 +19,11 @@ security@ruby-lang.org ([the PGP public key](/security.asc))로 메일을 보내
 
 ## 알려진 취약점
 
+_See the [English page](/en/security/) for a complete and up-to-date
+list of security vulnerabilities.
+The following list only includes the as yet translated
+security announcements, it might be incomplete or outdated._
+
 다음과 같은 보안 취약점이 보고된 바 있습니다.
 
 {% include security_posts.html %}
