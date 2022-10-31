@@ -19,7 +19,7 @@ will be published after fixes.
 If you have found an issue affecting one of our websites, please
 report it [via GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new) or you can check our [Google Groups](https://groups.google.com/g/ruby-security-ann) for security announcements.
 
-If you have found an issue that affects a specific Ruby gem, follow the
+If you have found an issue that affects a specific Ruby community’s gem, follow the
 [instructions on RubyGems.org](http://guides.rubygems.org/security/#reporting-security-vulnerabilities).
 
 To get in touch with the security team directly outside
