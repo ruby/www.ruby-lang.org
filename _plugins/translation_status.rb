@@ -83,7 +83,6 @@ module Jekyll
       end
     end
 
-
     class Tag < Liquid::Tag
 
       def initialize(tag_name, path, tokens)
