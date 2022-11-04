@@ -240,6 +240,8 @@ $ sudo make install
 デフォルトでは、Ruby は `/usr/local` にインストールされます。
 これを変更するには、`--prefix=DIR` オプションを `./configure` スクリプト実行時に付けてください。
 
+ソースからのビルドに関する詳しい情報は [Building Ruby instructions][building-ruby] で見ることができます。
+
 しかしながら、サードパーティ製ツールかパッケージマネージャを使う方が良い考えです。
 何故なら、ソースからインストールされた Ruby はどのツールからも管理されないからです。
 
@@ -255,3 +257,4 @@ $ sudo make install
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
+[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
