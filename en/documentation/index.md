@@ -99,6 +99,7 @@ Here is a list of popular tools used by Rubyists:
   * [Eric][eric]
   * [Geany][23]
   * [gedit][24]
+  * [Kate][kate]
   * [KDevelop][kdevelop]
   * [NetBeans][36]
   * [RubyMine][27]
@@ -167,3 +168,4 @@ If you have questions about Ruby the
 [vscode]: https://code.visualstudio.com/
 [eric]: https://eric-ide.python-projects.org/
 [kdevelop]: https://www.kdevelop.org/
+[kate]https://kate-editor.org/
