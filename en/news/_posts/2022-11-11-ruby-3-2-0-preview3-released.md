@@ -62,7 +62,7 @@ The improved matching algorithm allows most of Regexp matching (about 90% in our
 
 (For preview users: this optimization may consume memory proportional to the input length for each matching. We expect no practical problems to arise because this memory allocation is usually delayed, and a normal Regexp matching should consume at most 10 times as much memory as the input length. If you run out of memory when matching Regexps in a real-world application, please report it.)
 
-The original proposal is https://bugs.ruby-lang.org/issues/19104
+The original proposal is <https://bugs.ruby-lang.org/issues/19104>
 
 ### Regexp timeout
 
@@ -86,7 +86,7 @@ long_time_re = Regexp.new("^a*b?a*()\1$", timeout: Float::INFINITY)
 long_time_re =~ "a" * 50000 + "x" # never interrupted
 ```
 
-The original proposal is https://bugs.ruby-lang.org/issues/17837
+The original proposal is <https://bugs.ruby-lang.org/issues/17837>
 
 ## Other Notable New Features
 

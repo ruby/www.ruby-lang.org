@@ -61,7 +61,7 @@ Ruby 3.2から、Regexpのマッチングアルゴリズム自体がメモ化の
 
 （プレビューリリースのユーザへ：この最適化は、マッチングのたびに入力長に比例したメモリを消費することがあります。このメモリ確保は通常遅延され、また、通常の正規表現であれば入力長のたかだか10倍程度のメモリを消費するだけなので、実用上の問題は発生しないと考えています。もし実アプリの正規表現マッチングでメモリ不足に陥った場合は報告してください）
 
-提案チケットは https://bugs.ruby-lang.org/issues/19104 です。
+提案チケットは <https://bugs.ruby-lang.org/issues/19104> です。
 
 ### Regexpのタイムアウトの導入
 
@@ -85,7 +85,7 @@ long_time_re = Regexp.new("^a*b?a*()\1$", timeout: Float::INFINITY)
 long_time_re =~ "a" * 50000 + "x" # never interrupted
 ```
 
-提案チケットは https://bugs.ruby-lang.org/issues/17837 です。
+提案チケットは <https://bugs.ruby-lang.org/issues/17837> です。
 
 ## その他の主要な新機能
 
