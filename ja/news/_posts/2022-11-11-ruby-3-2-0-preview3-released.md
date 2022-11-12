@@ -7,7 +7,7 @@ date: 2022-11-11 00:00:00 +0000
 lang: ja
 ---
 
-Ruby 3.2系最初のプレビューリリースである、Ruby 3.2.0 Preview 3 が公開されました。Ruby 3.2では多くの機能を追加しています。
+Ruby 3.2系のプレビューリリースである、Ruby 3.2.0 Preview 3 が公開されました。Ruby 3.2では多くの機能を追加しています。
 
 {% assign release = site.data.releases | where: "version", "3.2.0-preview3" | first %}
 
