@@ -168,4 +168,4 @@ If you have questions about Ruby the
 [vscode]: https://code.visualstudio.com/
 [eric]: https://eric-ide.python-projects.org/
 [kdevelop]: https://www.kdevelop.org/
-[kate]https://kate-editor.org/
+[kate]: https://kate-editor.org/
