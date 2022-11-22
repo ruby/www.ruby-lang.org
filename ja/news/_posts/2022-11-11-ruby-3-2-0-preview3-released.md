@@ -243,4 +243,4 @@ Rubyはまつもとゆきひろ (Matz) によって1993年に開発が始めら�
 [Feature #18809]: https://bugs.ruby-lang.org/issues/18809
 [Feature #18481]: https://bugs.ruby-lang.org/issues/18481
 [Bug #19100]:     https://bugs.ruby-lang.org/issues/19100
-[Bug #19013]:     https://bugs.ruby-lang.org/issues/19013
+[Feature #19013]: https://bugs.ruby-lang.org/issues/19013
