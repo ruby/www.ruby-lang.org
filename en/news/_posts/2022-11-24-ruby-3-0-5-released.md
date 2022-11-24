@@ -14,6 +14,7 @@ Please check the topics below for details.
 
 * [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
+This release also includes some bug fixes.
 See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_4...v3_0_5) for further details.
 
 ## Download
@@ -46,4 +47,4 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_4...v3_0_5) for 
 Many committers, developers, and users who provided bug reports helped us make this release.
 Thanks for their contributions.
 
-The maintenance of Ruby 2.7, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+The maintenance of Ruby 3.0, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
