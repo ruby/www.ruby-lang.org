@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.1.2 リリース"
+title: "Ruby 3.1.3 リリース"
 author: "nagachika"
 translator:
 date: 2022-11-24 12:00:00 +0000
