@@ -250,21 +250,21 @@
     xz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.5.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.5.zip
   size:
-    gz: 
-    xz: 
-    zip: 
+    gz: 21312118
+    xz: 15880196
+    zip: 25691385
   sha1:
-    gz: 
-    xz: 
-    zip: 
+    gz: 95e69c79c0cf173f87727b76994ddf0725d5fafc
+    xz: 844ede3938c652f5f9bf5dbf1b99f5a6c41b11b6
+    zip: 5511c7b30e203ff0b3528453898b62781e97154b
   sha256:
-    gz: 
-    xz: 
-    zip: 
+    gz: 9afc6380a027a4fe1ae1a3e2eccb6b497b9c5ac0631c12ca56f9b7beb4848776
+    xz: cf7cb5ba2030fe36596a40980cdecfd79a0337d35860876dc2b10a38675bddde
+    zip: 4b63c59ebdc0abcea139a561d67dfa9770af2d9619390f34b8a53f9625a1090d
   sha512:
-    gz: 
-    xz: 
-    zip: 
+    gz: ea45fcd2ca53b87f18fd8696d00a1e340d2495443216aaf87d3f643cb5bd8bb614a1faacd82d07e7f2b72172397c728316a82d7c34a7b4566191268ea517ccf7
+    xz: 1c69d18210a2156f7696c678a8d54bf05c4dc49a1401c1ecc5760b1c23fb6ac14053873a225564664d6a327cda274ce72f47d112a6ad8d378f978de4e507e9a0
+    zip: 953cef1dd97395e04059cc76ee2a74348f2c9da0b2727c5406af26e88072e8c0bde91835354cb9f1b44f3a81a49ea7b807d7f048d138fd74ba3cabbf7859f2b3
 
 - version: 3.0.4
   date: '2022-04-12'
@@ -491,25 +491,25 @@
     xz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.7.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.7.zip
   size:
-    bz2: 
-    gz: 
-    xz: 
-    zip: 
+    bz2: 14852360
+    gz: 16945354
+    xz: 12087848
+    zip: 20729996
   sha1:
-    bz2: 
-    gz: 
-    xz: 
-    zip: 
+    bz2: ae4c13d151d9d296abebf7b3f07ac016619f59f5
+    gz: a8639ba56dd84232d943b772dc8c805a27389dd8
+    xz: 2e841063140485e20c1257e63ca2f010e8d70709
+    zip: fc3969fcbd5bb1340947380ea7e8525557dff28f
   sha256:
-    bz2: 
-    gz: 
-    xz: 
-    zip: 
+    bz2: 040c9fccfa302866b07b9cc7f6c977a0bddaeafc5cd4ed3f8ef3db6e2814d41c
+    gz: c18fa203e85cc2fd38c291f18aed5eefbd5e5259cd00e3edf1163f609d8e470f
+    xz: 8aa22d404d7019396a3c9e89f163350097b59daedbee9d83d8971765d0b78534
+    zip: e67e91718b8ad9aced459cec8ff8647756185ecb234664dcf78df27617f548cf
   sha512:
-    bz2: 
-    gz: 
-    xz: 
-    zip: 
+    bz2: 3dbda3326a2dc7b2cc8cece8b71a5663b5b70f4350ba42af9e49e8b3d78beb3744aa136b2596f6d102fa28e91f991df1a35643c443f769eedac3c7df17c0daee
+    gz: 83cd89e39eb7b468bf88b25fe9a3671c4ee7a6f3581e660cb4a703c89acf95581d6d9696f8349c8ef275fdb09404863cb28a6f088a82393f52004e8b7d8043e2
+    xz: 4a74d902da832fd8d1c4e17dca2b10c45fe4d79918304fabcad92cea5d7c112a0fed1a5426ce57ea3194ca17529b66a1fac1fa9ebaba482b6c7a294005500860
+    zip: ca637b019dd637c3dce1b3bcea79816e80753d6a1e0c79f907b337a84709ac346a44851adff84787d9834e1b21a80d1381d6527a4e01fe3712c5f1df33a7310b
 
 - version: 2.7.6
   date: '2022-04-12'
