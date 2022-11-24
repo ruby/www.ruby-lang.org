@@ -14,6 +14,9 @@ Please check the topics below for details.
 
 * [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
+This release also includes a fix for build failure with Xcode 14 and macOS 13 (Ventura).
+See [the related ticket](https://bugs.ruby-lang.org/issues/18912) for more details.
+
 See the [commit logs](https://github.com/ruby/ruby/compare/v3_1_2...v3_1_3) for further details.
 
 ## Download

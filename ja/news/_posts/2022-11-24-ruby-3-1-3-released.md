@@ -14,6 +14,9 @@ Ruby 3.1.3 がリリースされました。
 
 * [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
+またこのリリースでは Xcode 14 や macOS 13 (Ventura) でのビルドがうまくいかない問題に対する対策も含まれています。
+詳しくは [関連チケット](https://bugs.ruby-lang.org/issues/18912) を参照してください。
+
 その他の変更点について詳しくは [commit logs](https://github.com/ruby/ruby/compare/v3_1_2...v3_1_3) を参照してください。
 
 ## ダウンロード
