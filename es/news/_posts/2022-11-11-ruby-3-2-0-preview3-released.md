@@ -107,8 +107,8 @@ La propuesta original es <https://bugs.ruby-lang.org/issues/19104>
 
 La optimización anterior no puede aplicarse a algunos tipos de expresiones
 regulares, como las que incluyen características avanzadas (e.g.,
-referencias-anteriores --back-references-- y mirar-alrededor --look-arond--), 
-o con un número inmenso y fijo de repeticiones.  Como medida alternativa, 
+referencias-anteriores --back-references-- y mirar-alrededor --look-arond--),
+o con un número inmenso y fijo de repeticiones.  Como medida alternativa,
 también se introduce un temporizador para expresiones regulares.
 
 ```ruby
@@ -120,7 +120,7 @@ Regexp.timeout = 1.0
 
 Tenga en cuenta que `Regexp.timeout` es una configuración global. Si quiere
 emplear configuraciones del temporizadores diferentes para algunas
-expresiones regulares especiales, puede usar la palabra clave `timeout` 
+expresiones regulares especiales, puede usar la palabra clave `timeout`
 de `Regexp.new`.
 
 ```ruby
@@ -176,7 +176,7 @@ La propuesta original es <https://bugs.ruby-lang.org/issues/17837>
 
 * El orden de evaluación de la asignación de constantes para constantes
   establecidas en objetos explícitos se ha hecho consistente con el
-  orden de evaluación de la asignación de atributos. Por ejemplo con 
+  orden de evaluación de la asignación de atributos. Por ejemplo con
   este código:
 
     ```ruby
@@ -271,7 +271,7 @@ La propuesta original es <https://bugs.ruby-lang.org/issues/17837>
     * Se ha añadido `Refinement#refined_class`. [[Característica #12737]]
 
 * RubyVM::AbstractSyntaxTree
-    * Se agrega la opción `error_tolerant` a `parse`, `parse_file` y `of`. 
+    * Se agrega la opción `error_tolerant` a `parse`, `parse_file` y `of`.
       [[Característica #19013]]
 
 
@@ -282,16 +282,16 @@ La propuesta original es <https://bugs.ruby-lang.org/issues/17837>
       llamada a `Enumerable#to_set`.
 
 * Cadenas
-    * Se han añadido `String#byteindex` y `String#byterindex`. 
+    * Se han añadido `String#byteindex` y `String#byterindex`.
       [[Característica #13110]]
-    * Se actualizó Unicode a la versión 14.0.0 y Emoji a la version 14.0. 
+    * Se actualizó Unicode a la versión 14.0.0 y Emoji a la version 14.0.
       [[Característica #18037]]
       (también aplica para Regexp)
     * Se ha añadido `String#bytesplice`.  [[Característica #18598]]
 
 * `Struct`
     * Una clase `Struct` también puede inicializarse con argumentos de
-      palabra clave sin `keyword_init: true` en `Struct.new` 
+      palabra clave sin `keyword_init: true` en `Struct.new`
       [[Característica #16806]]
 
 ## Asuntos de compatibilidad
