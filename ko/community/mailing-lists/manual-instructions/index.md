@@ -4,7 +4,7 @@ title: "수동 메일링 리스트 조작"
 lang: ko
 ---
 
-NOTE: 구독할 수 없는 경우 [lists.ruby-lang.org](http://lists.ruby-lang.org)를
+NOTE: 구독할 수 없는 경우 [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)를
 참고하세요.
 
 메일링 리스트를 구독하려면 다음 내용의 평문 이메일을 제목 없이
