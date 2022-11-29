@@ -38,7 +38,7 @@ comp.lang.ruby (Newsgroup)
   [comp.lang.ruby](news:comp.lang.ruby)-Newsgroup eine gute Anlaufstelle.
   ([FAQ][clrFAQ])
 
-Siehe [lists.ruby-lang.org](http://lists.ruby-lang.org)
+Siehe [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 für weitere Informationen über alle Mailinglisten bei ruby-lang.org,
 einschließlich der Listen in japanischer Sprache.
 

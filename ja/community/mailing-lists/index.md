@@ -6,7 +6,7 @@ lang: ja
 
 以下のようなメーリングリストで情報交換や議論が行われています。
 
-参加希望の方は、[lists.ruby-lang.org](http://lists.ruby-lang.org)
+参加希望の方は、[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 より登録を行ってください。
 
 また、メールでも登録・解除ができます。

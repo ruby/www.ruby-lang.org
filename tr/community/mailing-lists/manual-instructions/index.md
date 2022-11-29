@@ -5,7 +5,7 @@ lang: tr
 ---
 
 NOT: Eğer abone olamazsanız, lütfen
-[lists.ruby-lang.org](http://lists.ruby-lang.org) adresine gidin.
+[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/) adresine gidin.
 
 Bir e-posta listesine abone olmak için lütfen aşağıdaki e-posta gövdesini (konu
 değil) düz metin olarak otomatik “denetçi” adrese gönderin:

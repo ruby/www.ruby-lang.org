@@ -26,7 +26,7 @@ apabila ada pertanyaan, saran, maupun komentar seputar milis.
 ### Milis Berbahasa Inggris
 
 CATATAN: Jika Anda tidak dapat berlangganan, mohon mengacu pada
-[lists.ruby-lang.org](http://lists.ruby-lang.org).
+[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/).
 
 Untuk berlangganan sebuah milis berbahasa Inggris, silakan kirim e-mail
 ke alamat *controller* milis yang Anda inginkan berikut dengan isi pesan

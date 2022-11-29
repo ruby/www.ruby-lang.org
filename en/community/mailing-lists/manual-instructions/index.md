@@ -5,7 +5,7 @@ lang: en
 ---
 
 NOTE: If you cannot subscribe, please refer to
-[lists.ruby-lang.org](http://lists.ruby-lang.org).
+[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/).
 
 To subscribe to a mailing list, please send a plain text mail
 with the following mail body (not the subject) to the automated
