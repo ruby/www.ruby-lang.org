@@ -9,30 +9,6 @@ lang: ja
 参加希望の方は、[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 より登録を行ってください。
 
-また、メールでも登録・解除ができます。
-
-『(ML名)-request@ruby-lang.org』(例えばruby-list
-MLに参加する場合はruby-list-request@ruby-lang.org)宛に、*本文に*
-
-    subscribe
-{: .code}
-
-と書いて送って下さい。
-Subject(件名)は、空のままでかまいません。
-しばらく待つと、確認のためのメールが届きますので、そのメールに書かれた指示に従うとメーリングリストへの参加登録が完了します。
-
-購読をやめたい場合は、先ほどと同じく(ML名)-request@ruby-lang.org宛に、本文に
-
-    unsubscribe
-{: .code}
-
-と書いて送ってください。その他のコマンドの使い方を知りたい場合も、同様に、(ML名)-request@ruby-lang.org宛に、本文に
-
-    help
-{: .code}
-
-と書いて送ってください。
-
 ## ruby-list(日本語)
 
 Rubyを使ってプログラムを書く人たちが情報交換を行うためのメーリングリストです。
