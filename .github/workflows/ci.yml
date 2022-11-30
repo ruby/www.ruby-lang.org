@@ -2,6 +2,9 @@ name: ci
 
 on: [push, pull_request]
 
+permissions:  # added using https://github.com/step-security/secure-workflows
+  contents: read
+
 jobs:
   build:
     name: build (${{ matrix.ruby }} / ${{ matrix.os }})
@@ -18,11 +21,11 @@ jobs:
       - name: Dump environment
         run: env | sort
       - name: Checkout ruby/www.ruby-lang.org
-        uses: actions/checkout@v3
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3.1.0
         with:
           fetch-depth: 1
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@c7079efafd956afb5d823e8999c2506e1053aefa # v1.126.0
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
