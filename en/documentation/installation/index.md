@@ -339,10 +339,10 @@ UNIX-like operating systems.
 ### rbenv for Windows
 {: #rbenv-for-windows}
 
-[rbenv for Windows][rbenv-for-windows] allows you to install and 
-manage multiple installations of Ruby on Windows. It's written in 
-PowerShell thus providing a native way to use Ruby for Windows users. 
-Besides, the command line interface is compatible with [rbenv][rbenv] 
+[rbenv for Windows][rbenv-for-windows] allows you to install and
+manage multiple installations of Ruby on Windows. It's written in
+PowerShell thus providing a native way to use Ruby for Windows users.
+Besides, the command line interface is compatible with [rbenv][rbenv]
 on UNIX-like systems.
 
 
