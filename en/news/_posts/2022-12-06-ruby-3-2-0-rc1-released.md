@@ -239,14 +239,14 @@ sum = ary[0] + ary[1]
 * Rename `--mjit-min-calls` to `--mjit-call-threshold`.
 * Change default `--mjit-max-cache` back from 10000 to 100.
 
-### PubGrab
+### PubGrub
 
-* Bundler 2.4 now uses [PubGrab](https://github.com/jhawthorn/pub_grub) resolver instead of [Molinillo](https://github.com/CocoaPods/Molinillo).
+* Bundler 2.4 now uses [PubGrub](https://github.com/jhawthorn/pub_grub) resolver instead of [Molinillo](https://github.com/CocoaPods/Molinillo).
 
-  * PubGrab is the next generation solving algorithm used by `pub` package manager for the Dart programming language.
+  * PubGrub is the next generation solving algorithm used by `pub` package manager for the Dart programming language.
   * You may get different resolution result after this change. Please report such cases to [RubyGems/Bundler issues](https://github.com/rubygems/rubygems/issues)
 
-* RubyGems still uses Molinillo resolver in Ruby 3.2. We plan to replace it with PubGrab in the future.
+* RubyGems still uses Molinillo resolver in Ruby 3.2. We plan to replace it with PubGrub in the future.
 
 ## Other notable changes since 3.1
 
