@@ -18,7 +18,7 @@ Esta versión también incluye una corrección a una falla de compilación con
 Xcode 14 y macOS 13 (Ventura).
 Ver detalles en el [incidente relacionado](https://bugs.ruby-lang.org/issues/18912).
 
-Ver más detalles en la [bitácora de cambios] commit logs](https://github.com/ruby/ruby/compare/v3_1_2...v3_1_3).
+Ver más detalles en la [bitácora de cambios](https://github.com/ruby/ruby/compare/v3_1_2...v3_1_3).
 
 ## Descargas
 

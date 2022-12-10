@@ -15,7 +15,7 @@ Por favor revise los temas siguientes para ver detalles.
 * [CVE-2021-33621: División de respuesta HTTP en CGI]({%link es/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
 Esta versión también incluye algunas correcciones a fallas.
-Ver más detalles en la [bitacora de cambios](https://github.com/ruby/ruby/compare/v3_0_4...v3_0_5).
+Ver más detalles en la [bitácora de cambios](https://github.com/ruby/ruby/compare/v3_0_4...v3_0_5).
 
 ## Descargas
 
