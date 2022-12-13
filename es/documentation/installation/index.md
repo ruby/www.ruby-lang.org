@@ -335,6 +335,15 @@ Ambas herramientas están disponibles para macOS, Linux y otros sistemas
 operativos UNIX.
 
 
+### rbenv para Windows
+{: #rbenv-for-windows}
+
+[rbenv para Windows][rbenv-for-windows] te permite instalar y manejar varias instalaciones de Ruby en Windows. Está escrito en
+PowerShell proporcionando así una forma nativa de usar Ruby para usuarios de Windows.
+Además, la interfaz de línea de comandos es compatible con [rbenv][rbenv]
+en sistemas operativos UNIX.
+
+
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
@@ -372,6 +381,7 @@ ya que las versiones instaladas de esta manera no serán manejadas por ninguna o
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
