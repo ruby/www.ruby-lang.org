@@ -81,7 +81,7 @@ Note that `Regexp.timeout` is a global configuration. If you want to use differe
 Regexp.timeout = 1.0
 
 # This regexp has no timeout
-long_time_re = Regexp.new("^a*b?a*()\1$", timeout: Float::INFINITY)
+long_time_re = Regexp.new('^a*b?a*()\1$', timeout: Float::INFINITY)
 
 long_time_re =~ "a" * 50000 + "x" # never interrupted
 ```
