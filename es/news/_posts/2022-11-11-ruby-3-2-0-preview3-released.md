@@ -127,7 +127,7 @@ de `Regexp.new`.
 Regexp.timeout = 1.0
 
 # Esta regexp no tiene tiempo límite
-long_time_re = Regexp.new("^a*b?a*()\1$", timeout: Float::INFINITY)
+long_time_re = Regexp.new('^a*b?a*()\1$', timeout: Float::INFINITY)
 
 long_time_re =~ "a" * 50000 + "x" # nunca se interrumpe
 ```
