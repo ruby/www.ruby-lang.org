@@ -50,8 +50,7 @@ RubyのWebAssembly/WASIサポートは、このようなプロジェクトを活
 * YJIT は x86-64 と arm64/aarch64 の CPU アーキテクチャと Linux, MacOS, BSD とその他の UNIX プラットフォームをサポートしました
     * このリリースでは Mac の M1/M2, AWS Graviton と Raspberry Pi 4 の ARM64 プロセッサに対応してます。
 * YJIT をビルドするためには Rust 1.58.0 以降が必要となります [[Feature #18481]]
-    * CRuby を YJIT を有効としてビルドするためには、rustc >= 1.58.0 をインストールした上で、
-      `./configure` を `--enable-yjit` オプションを付与して実行する必要があります
+    * CRuby を YJIT を有効としてビルドするためには、rustc >= 1.58.0 をインストールした上で `./configure` を実行する必要があります
     * もし、実行時に何かしらの問題に遭遇した場合は YJIT チームに連絡してください
 * Ruby 3.2 の YJIT は Ruby 3.1 よりも速くなりました。またメモリのオーバーヘッドが 1/3 となりました。
   * YJIT は [yjit-bench](https://github.com/Shopify/yjit-bench) にあるように通常の Ruby インタプリタより 41% 速くなりました
