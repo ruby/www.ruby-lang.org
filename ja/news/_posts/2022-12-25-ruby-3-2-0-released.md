@@ -110,12 +110,12 @@ Regexp.timeout = 1.0
 Regexp.timeout = 1.0
 
 # This regexp has no timeout
-long_time_re = Regexp.new("^a*b?a*()\1$", timeout: Float::INFINITY)
+long_time_re = Regexp.new('^a*b?a*()\1$', timeout: Float::INFINITY)
 
 long_time_re =~ "a" * 50000 + "x" # never interrupted
 ```
 
-提案チケットは https://bugs.ruby-lang.org/issues/17837 です。
+提案チケットは <https://bugs.ruby-lang.org/issues/17837> です。
 
 ## その他の主要な新機能
 
