@@ -21,6 +21,35 @@
 
 # 3.2 series
 
+- version: 3.2.0
+  date: 2022-12-25
+  post: /en/news/2022/12/25/ruby-3-2-0-released/
+  tag: v3_2_0
+  stats:
+    files_changed: 3048
+    insertions: 218253
+    deletions: 131067
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0.tar.xz
+  size:
+    gz:  20440715
+    zip: 24583271
+    xz:  15058364
+  sha1:
+    gz:  fb4ab2ceba8bf6a5b9bc7bf7cac945cc94f94c2b
+    zip: 581ec7b9289c2a85abf4f41c93993ecaa5cf43a5
+    xz:  bcdae07183d66fd902cb7bf995545a472d2fefea
+  sha256:
+    gz:  daaa78e1360b2783f98deeceb677ad900f3a36c0ffa6e2b6b19090be77abc272
+    zip: cca9ddbc958431ff77f61948cb67afa569f01f99c9389d2bbedfa92986c9ef09
+    xz:  d2f4577306e6dd932259693233141e5c3ec13622c95b75996541b8d5b68b28b4
+  sha512:
+    gz:  94203051d20475b95a66660016721a0457d7ea57656a9f16cdd4264d8aa6c4cd8ea2fab659082611bfbd7b00ebbcf0391e883e2ebf384e4fab91869e0a877d35
+    zip: b7d2753825cc0667e8bb391fc7ec59a53c3db5fa314e38eee74b6511890b585ac7515baa2ddac09e2c6b6c42b9221c82e040af5b39c73e980fbd3b1bc622c99d
+    xz:  733ecc6709470ee16916deeece9af1c76220ae95d17b2681116aff7f381d99bc3124b1b11b1c2336b2b29e468e91b90f158d5ae5fca810c6cf32a0b6234ae08e
+
 - version: 3.2.0-rc1
   date: 2022-12-06
   post: /en/news/2022/12/06/ruby-3-2-0-rc1-released/

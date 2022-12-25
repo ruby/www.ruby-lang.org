@@ -9,8 +9,8 @@
 #   eol_date: date of EOL (YYYY-MM-DD)
 
 - name: 3.2
-  status: preview
-  date:
+  status: normal maintenance
+  date: 2022-12-25
   eol_date:
 
 - name: 3.1
