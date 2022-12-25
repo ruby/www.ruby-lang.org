@@ -90,7 +90,7 @@ Ruby 3.2から、Regexpのマッチングアルゴリズム自体がメモ化の
 
 （プレビューリリースのユーザへ：この最適化は、マッチングのたびに入力長に比例したメモリを消費することがあります。このメモリ確保は通常遅延され、また、通常の正規表現であれば入力長のたかだか10倍程度のメモリを消費するだけなので、実用上の問題は発生しないと考えています。もし実アプリの正規表現マッチングでメモリ不足に陥った場合は報告してください）
 
-提案チケットは https://bugs.ruby-lang.org/issues/19104 です。
+提案チケットは <https://bugs.ruby-lang.org/issues/19104> です。
 
 ### Regexpのタイムアウトの導入
 
@@ -241,7 +241,7 @@ sum = ary[0] + ary[1]
 
 * Bundler 2.4 は利用する依存解決ライブラリを [Molinillo](https://github.com/CocoaPods/Molinillo) から [PubGrub](https://github.com/jhawthorn/pub_grub) に変更しました。
 
-  * PubGrub は次世代の Dart 言語のパッケージマネージャである `pub` で使われている次世代の依存解決アルゴリズムです。
+  * PubGrub は Dart 言語のパッケージマネージャである `pub` で使われている次世代の依存解決アルゴリズムです。
   * この変更により、bundler を実行後に異なるライブラリの依存解決結果となる可能性があります。もし、不具合や気になる点を見つけた方は [RubyGems/Bundler issues](https://github.com/rubygems/rubygems/issues) までご報告ください。
 
 * RubyGems は Ruby 3.2 では引き続き Molinillo ライブラリを利用しています。今後、RubyGems も PubGrub に変更し、Bundler と同じライブラリを使う予定です。
