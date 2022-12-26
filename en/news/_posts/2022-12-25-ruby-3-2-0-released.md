@@ -93,7 +93,7 @@ Since Ruby 3.2, Regexp's matching algorithm has been greatly improved by using a
 
 The improved matching algorithm allows most Regexp matching (about 90% in our experiments) to be completed in linear time.
 
-this optimization may consume memory proportional to the input length for each match. We expect no practical problems to arise because this memory allocation is usually delayed, and a normal Regexp match should consume at most 10 times as much memory as the input length. If you run out of memory when matching Regexps in a real-world application, please report it.
+This optimization may consume memory proportional to the input length for each match. We expect no practical problems to arise because this memory allocation is usually delayed, and a normal Regexp match should consume at most 10 times as much memory as the input length. If you run out of memory when matching Regexps in a real-world application, please report it.
 
 The original proposal is <https://bugs.ruby-lang.org/issues/19104>
 
