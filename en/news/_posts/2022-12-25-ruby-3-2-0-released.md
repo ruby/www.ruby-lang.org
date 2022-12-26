@@ -240,7 +240,7 @@ sum = ary[0] + ary[1]
 ### MJIT
 
 * The MJIT compiler is re-implemented in Ruby as `ruby_vm/mjit/compiler`.
-* MJIT compiler is executed under a forked Ruby process instead of
+* MJIT compiler is executed under a forked process instead of
   doing it in a native thread called MJIT worker. [[Feature #18968]]
     * As a result, Microsoft Visual Studio (MSWIN) is no longer supported.
 * MinGW is no longer supported. [[Feature #18824]]

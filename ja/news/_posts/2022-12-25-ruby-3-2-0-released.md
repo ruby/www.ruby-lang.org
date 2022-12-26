@@ -231,7 +231,7 @@ sum = ary[0] + ary[1]
 
 * MJIT コンパイラが `ruby_vm/mjit/compiler` として Ruby で再実装されました。
 * MJIT コンパイラは MJIT ワーカーによって呼ばれた native スレッドの代わりに
-  fork された Ruby プロセス によって実行されるようになりました。 [[Feature #18968]]
+  fork されたプロセスによって実行されるようになりました。 [[Feature #18968]]
     * そのため、Microsoft Visual Studio (MSWIN) はサポート対象外となりました
 * MinGW はサポート対象外となりました [[Feature #18824]]
 * `--mjit-min-calls` は `--mjit-call-threshold` にリネームされました
