@@ -16,10 +16,6 @@ lang: zh_tw
 [官方 FAQ](/en/documentation/faq/)
 : 官方常見問題與解答。
 
-[Ruby Koans][2]
-: Ruby Koans 導引你走上學習 Ruby 的啟蒙之路。可以學到 Ruby 語言、語法、結構、常用函數與函式庫。
-  當然也少不了 Ruby 的文化。
-
 [Why’s (Poignant) Guide to Ruby][5]
 : 非比尋常但玩味無窮的書，透過故事、幽默與漫畫來教會你 Ruby。由 *why the lucky
   stiff* 創作，本書是學習 Ruby 的經典大作。
@@ -103,7 +99,6 @@ lang: zh_tw
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
