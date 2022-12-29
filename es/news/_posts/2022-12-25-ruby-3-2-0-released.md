@@ -76,7 +76,7 @@ que permite empaquetar con facilidad aplicación Ruby en un sólo archivo
   * Se ha probado con cargas de producción por más de un año y a demostrado ser
     estable.
 * YJIT ahora soporta tanto CPUs x86-64 como arm64/aarch64 en Linux, MacOS,
-  BSD and otras plataformas UNIX.
+  BSD y otras plataformas UNIX.
   * Esta versión trae soporte para procesadores Mac M1/M2, AWS Graviton,
     Raspberry Pi 4 y más.
 * La compilación de YJIT ahora requiere Rust 1.58.0+. [[Característica #18481]]
@@ -86,7 +86,7 @@ que permite empaquetar con facilidad aplicación Ruby en un sólo archivo
     algún inconveniente.
 * La versión 3.2 es más veloz que la 3.1, y tiene alrededor de 1/3 de
   sobrecarga de memoria.
-  * En generla YJIT es 41% más rápido (media geométrica) que el interpret
+  * En general YJIT es 41% más rápido (media geométrica) que el intérprete
     de Ruby en  [yjit-bench](https://github.com/Shopify/yjit-bench).
   * La memoria física para el código JIT se localiza tardiamente. A diferencia
     de Ruby 3.1, el RSS de un proceso Ruby se minimiza porque las páginas
@@ -120,17 +120,17 @@ Es conocido que la correspondencia de expresiones regulares puede tomar
 un tiempo inesperadamente largo. Si su código intenta hacer corresponder una
 expresión regular ineficiente con un entrada no confiable, un atacante
 puede explotarlo y producir efectivamente una Denegación de Servicio (también
-llamada Denegación de Servicio por Expersión Regular o ReDoS).
+llamada Denegación de Servicio por Expresión Regular o ReDoS).
 
 Hemos introducido dos mejoras que mitigan significativamente un ReDoS.
 
-### Algoritmo de correspondecia mejorado
+### Algoritmo de correspondencia mejorado
 
 Desde Ruby 3.2, el algoritmo de correspondencia de expresiones regulares ha
-sido ejorado significativamente empleando técnicas de memorización.
+sido mejorado significativamente empleando técnicas de memorización.
 
 ```
-# Esta corresponencia tarda 10 seg. en Ruby 3.1, y 0.003 seg. en Ruby 3.2
+# Esta correspondencia tarda 10 segundos. en Ruby 3.1, y 0.003 seg. en Ruby 3.2
 
 /^a*b?a*$/ =~ "a" * 50000 + "x"
 ```
@@ -232,7 +232,7 @@ sum = ary[0] + ary[1]
     ```
 
 * Un proc que acepte un solo argumento posicional y palabras clave
-  ya no hará splat automaticamente. [[Falla #18633]]
+  ya no hará splat automáticamente. [[Falla #18633]]
 
   ```ruby
   proc{|a, **k| a}.call([1, 2])
@@ -282,7 +282,7 @@ sum = ary[0] + ary[1]
   Ruby 3+. Antes, la opción `ruby2_keywords`
   se mantenía si el método receptor tomaba `*args`, pero esto
   era una falla y una inconsistencia.  Una buena técnica para encontrar
-  donde puede faltar `ruby2_keywords` es ejecutar la suite de pruebas,
+  dónde puede faltar `ruby2_keywords` es ejecutar la suite de pruebas,
   y donde falle buscar el último método que debe recibir
   argumentos de palabra clave , usar `puts nil, caller, nil` allí.
   Después revisar que cada método/bloque en la cadena de llamados que delegue
@@ -315,7 +315,7 @@ sum = ary[0] + ary[1]
 
 * El compilador MJIT se ha vuelto a implementar en Ruby como
   `ruby_vm/mjit/compiler`.
-* El compilador MJIT se ejecuta en un proceso Ruby bifurcado en lugar de
+* El compilador MJIT se ejecuta en un proceso bifurcado en lugar de
   hacerlo en un hilo (thread) nativo llamado trabajador MJIT
   [[Característica #18968]]
     * Como resultado de esto, ya no soporta Microsoft Visual Studio (MSWIN).
@@ -330,7 +330,7 @@ sum = ary[0] + ary[1]
   * PubGrub es la siguiente generación de algoritmos de resolución usado
     por el manejador de paquetes `pub` para el lenguaje de programación Dart.
   * Puede obtener resultados de resolución diferentes tras este cambio.
-    Por favor reportenos tales casos como [Incidentes de RubyGems/Bundler](https://github.com/rubygems/rubygems/issues)
+    Por favor reporte tales casos como [Incidentes de RubyGems/Bundler](https://github.com/rubygems/rubygems/issues)
 
 * RubyGems seguirá usando el resolvedor Molinillo en Ruby 3.2.
   Planeamos remplazarlo por PubGrub en el futuro.
@@ -340,11 +340,11 @@ sum = ary[0] + ary[1]
 
 * Data
     * Nueva clase central para representar un objeto con valor inmutable.
-      La clase es similar a Struct y comparte parcialment la implementación,
+      La clase es similar a Struct y comparte parcialmente la implementación,
       pero tiene una API más limpia y estricta [[Característica #16122]]
 
         ```ruby
-        Medicion = Data.define(:cantidad, :undad)
+        Medicion = Data.define(:cantidad, :unidad)
         distancia = Medicion.new(100, 'km')             #=> #<data Medicion cantidad=100, unidad="km">
         peso = Medicion.new(cantidad: 50, unidad: 'kg') #=> #<data Medicion cantidad=50, unidad="kg">
         peso.with(cantidad: 40)                         #=> #<data Medicion cantidad=40, unidad="kg">
@@ -457,7 +457,7 @@ Nota: Excluyendo arreglos de fallas.
 
 ### Constantes eliminadas
 
-Las siguientes constantes despreciadas han sido eliminados.
+Las siguientes constantes en desuso han sido eliminadas.
 
 * `Fixnum` y `Bignum` [[Característica #12005]]
 * `Random::DEFAULT` [[Característica #17351]]
@@ -466,7 +466,7 @@ Las siguientes constantes despreciadas han sido eliminados.
 
 ### Métodos eliminados
 
-Los siguientes métodos despreciados han sido eliminados.
+Los siguientes métodos en desuso han sido eliminados.
 
 * `Dir.exists?` [[Característica #17391]]
 * `File.exists?` [[Característica #17391]]
@@ -499,7 +499,7 @@ Los siguientes métodos despreciados han sido eliminados.
     $ ./configure --with-libyaml-source-dir=/path/to/libyaml-0.2.5
     ```
 
-    Y puede compilar fifdel con libffi-3.4.4 así:
+    Y puede compilar fiddle con libffi-3.4.4 así:
 
     ```bash
     $ ./configure --with-libffi-source-dir=/path/to/libffi-3.4.4
