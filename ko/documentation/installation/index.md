@@ -316,6 +316,13 @@ rbenv 자체는 Ruby 설치를 지원하지 않습니다만, [ruby-build](#ruby-
 유명한 플러그인에서 Ruby를 설치할 수 있습니다.
 rbenv, ruby-build 모두 macOS, Linux나 다른 UNIX-계열 운영체제에서 사용가능합니다.
 
+### rbenv for windows
+{: #rbenv-for-windows}
+
+[rbenv for Windows][rbenv-for-windows]는 여러 종류의 Ruby on Windows를 설치하고
+관리할 수 있도록 합니다. 이는 PowerShell로 작성되었으므로 Windows에서 루비를
+이용하는 사용자들에게 자연스러운 수단을 제공합니다. 나아가, 커맨드 라인 인터페이스는
+UNIX-계열 운영체제의 [rbenv][rbenv]와 호환됩니다.
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
@@ -356,6 +363,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
