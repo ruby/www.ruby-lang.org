@@ -457,7 +457,7 @@ Nota: Excluyendo arreglos de fallas.
 
 ### Constantes eliminadas
 
-Las siguientes constantes despreciadas han sido eliminadas.
+Las siguientes constantes en desuso han sido eliminadas.
 
 * `Fixnum` y `Bignum` [[Característica #12005]]
 * `Random::DEFAULT` [[Característica #17351]]
@@ -466,7 +466,7 @@ Las siguientes constantes despreciadas han sido eliminadas.
 
 ### Métodos eliminados
 
-Los siguientes métodos despreciados han sido eliminados.
+Los siguientes métodos en desuso han sido eliminados.
 
 * `Dir.exists?` [[Característica #17391]]
 * `File.exists?` [[Característica #17391]]
