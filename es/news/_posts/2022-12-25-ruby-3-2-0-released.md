@@ -457,7 +457,7 @@ Nota: Excluyendo arreglos de fallas.
 
 ### Constantes eliminadas
 
-Las siguientes constantes deprecadas han sido eliminadas.
+Las siguientes constantes despreciadas han sido eliminadas.
 
 * `Fixnum` y `Bignum` [[Característica #12005]]
 * `Random::DEFAULT` [[Característica #17351]]
