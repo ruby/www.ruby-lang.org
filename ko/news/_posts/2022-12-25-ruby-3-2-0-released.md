@@ -365,7 +365,7 @@ sum = ary[0] + ary[1]
 
 폐기 예정이었던 상수가 삭제됩니다.
 
-* `Fixnum` and `Bignum` [[Feature #12005]]
+* `Fixnum`, `Bignum` [[Feature #12005]]
 * `Random::DEFAULT` [[Feature #17351]]
 * `Struct::Group`
 * `Struct::Passwd`
