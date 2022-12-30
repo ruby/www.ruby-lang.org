@@ -32,7 +32,7 @@ Ruby의 웹어셈블리/WASI 지원은 이러한 프로젝트들을 활용하기
 
 ### 기술적인 부분
 
-현재 WASI와 웹어셈블리 자체에는 Fiber, 예외 처리, GC를 구현하기 위한 일부 기능이 부족합니다. 이는 여전히 개발중이라는 점도 있지만, 보안 때문이기도 합니다. 그래서 CRuby는 사용자 공간에서의 실행을 제어하기 위한 바이너리 변환 기술인 Asyncify를 사용해 그 차이를 메꿉니다.
+현재 WASI와 웹어셈블리 자체에는 Fiber, 예외 처리, GC를 구현하기 위한 일부 기능이 부족합니다. 이는 여전히 개발 중이라는 점도 있지만, 보안 때문이기도 합니다. 그래서 CRuby는 사용자 공간에서의 실행을 제어하기 위한 바이너리 변환 기술인 Asyncify를 사용해 그 차이를 메꿉니다.
 
 나아가서 Ruby 앱을 간단하게 단일 .wasm 파일로 패키징할 수 있도록 [WASI 상에 VFS](https://github.com/kateinoigakukun/wasi-vfs/wiki/Getting-Started-with-CRuby)를 구현했습니다. 이는 Ruby 앱의 배포를 쉽게 해줄 것입니다.
 
@@ -48,23 +48,23 @@ Ruby의 웹어셈블리/WASI 지원은 이러한 프로젝트들을 활용하기
 
 * YJIT은 이제 정식 기능입니다.
     * 1년 이상의 기간에 실제 환경의 부하로 테스트되었으며, 안정적임이 증명되었습니다.
-* YJIT은 x86-64와 arm64/aarch64 CPU에서 움직이는 Linux, MacOS, BSD와 같은 UNIX 환경을 지원합니다.
-    * 이번 릴리스는 Apple M1/M2, AWS Graviton, Raspberry Pi 4등을 추가로 지원합니다.
+* YJIT은 x86-64와 arm64/aarch64 CPU에서 동작하는 Linux, MacOS, BSD, 그 외 UNIX 환경을 지원합니다.
+    * 이번 릴리스는 Apple M1/M2, AWS Graviton, Raspberry Pi 4 등을 추가로 지원합니다.
 * YJIT을 빌드하기 위해서는 Rst 1.58.0 이상을 요구합니다. [[Feature #18481]]
     * CRuby를 YJIT과 함께 빌드하기 위해서는 `./configure` 스크립트를 실행하기 전에 1.58.0 이상의 `rustc`를 설치해주세요.
-    * 문제에 빠진 경우에는 YJIT 팀에 연락해주세요.
+    * 문제가 생긴 경우에는 YJIT 팀에 연락해주세요.
 * YJIT 3.2 릴리스는 3.1보다 빠르며, 메모리 오버헤드는 약 1/3이 되었습니다.
-    * [yjit-bench](https://github.com/Shopify/yjit-bench)에서 YJIT을 사용하면 그렇지 않은 Ruby 인터프리터보다 41% 빠릅니다.
+    * [yjit-bench](https://github.com/Shopify/yjit-bench)에서 YJIT을 사용하면 그렇지 않은 Ruby 인터프리터보다 41% 빠릅니다(기하 평균).
     * JIT 코드의 물리 메모리는 지연되어 할당됩니다. Ruby 3.1과는 다르게,
       `--yjit-exec-mem-size`는 JIT 코드에 의해서 실제로 최적화될 때까지
       물리 메모리 페이지에 할당되지 않기 때문에 Ruby 프로세스의 RSS는
       최소화됩니다.
     * JIT 코드로 인한 메모리 소비가 `--yjit-exec-mem-size`에 도달했을 때
-      모든 코드 페이지를 해방하는 코드 GC를 도입했습니다.
+      모든 코드 페이지를 할당 해제하는 코드 GC를 도입했습니다.
     * `RubyVM::YJIT.runtime_stats`는 기존의 `inline_code_size`, `outlined_code_size`에
       더해 코드 GC 정보인 `code_gc_count`, `live_page_count`, `freed_page_count`,
       `freed_code_size`를 반환합니다.
-* `RubyVM::YJIT.runtime_stats`가 제공하는 통계 정보가 이번 릴리스부터 이용가능합니다.
+* `RubyVM::YJIT.runtime_stats`가 제공하는 통계 정보가 이번 릴리스부터 이용 가능합니다.
     * 통계 정보를 계산하고 얻기 위해서는 Ruby를 `--yjit-stats`와 함께 실행하세요(약간의 실행시간 오버헤드가 발생합니다).
 * YJIT은 Object shape를 이용해 최적화합니다. [[Feature #18776]]
 * 상수를 무효화하는 단위를 작게 하여 새 상수를 정의할 때 더 적은 코드를 무효화합니다. [[Feature #18589]]
@@ -140,7 +140,7 @@ long_time_re =~ "a" * 50000 + "x" # 타임아웃이 발생하지 않습니다.
 
 ### ErrorHighlight
 
-* TypeError와 ArgumentError의 인수를 가리킬 수 있습니다.
+* TypeError와 ArgumentError가 발생한 인수를 가리킵니다.
 
 ```
 test.rb:2:in `+': nil can't be coerced into Integer (TypeError)
@@ -163,7 +163,7 @@ sum = ary[0] + ary[1]
     end
     ```
 
-* 1개의 인수와 나머지를 키워드로 받는 프록은 인수를 자동으로 전개하지
+* 1개의 위치 인수와 나머지를 키워드로 받는 프록은 인수를 자동으로 전개하지
   않습니다. [[Bug #18633]]
 
   ```ruby
@@ -238,14 +238,14 @@ sum = ary[0] + ary[1]
 * MJIT 컴파일러는 `ruby_vm/mjit/compiler`라는 이름으로 Ruby를 사용해 재구현되었습니다.
 * MJIT 컴파일러는 MJIT 워커에 의해 실행된 네이티브 스레드 대신
   포크된 프로세스에서 실행됩니다. [[Feature #18968]]
-    * 이 영향으로 Microsoft Visual Studio (MSWIN)이 더이상 지원되지 않습니다.
+    * 이 영향으로 Microsoft Visual Studio(MSWIN)가 더이상 지원되지 않습니다.
 * MinGW는 더이상 지원되지 않습니다. [[Feature #18824]]
 * `--mjit-min-calls`를 `--mjit-call-threshold`로 변경했습니다.
 * `--mjit-max-cache`의 기본값을 10000에서 100으로 되돌렸습니다.
 
 ### PubGrub
 
-* Bundler 2.4는 [Molinillo](https://github.com/CocoaPods/Molinillo) 대신에 [PubGrub](https://github.com/jhawthorn/pub_grub) 의존해결기를 사용합니다.
+* Bundler 2.4는 [Molinillo](https://github.com/CocoaPods/Molinillo) 대신에 [PubGrub](https://github.com/jhawthorn/pub_grub) 의존성 해결기를 사용합니다.
   * PubGrub은 Dart 프로그래밍 언어의 `pub` 패키지 매니저에서 사용하고 있는 차세대 의존성 해결 알고리즘입니다.
   * 이 변경으로 지금과는 다른 해결 결과를 얻을 수 있습니다. 그런 경우에는 [RubyGems/Bundler issues](https://github.com/rubygems/rubygems/issues)에 보고해주세요.
 
@@ -254,7 +254,7 @@ sum = ary[0] + ary[1]
 ## 3.1 이후로 주목할 만한 변경
 
 * Data
-    * 단순하며 변경불가능한 값 객체를 표현하기 위한 새 주요 클래스입니다.
+    * 단순한 불변 값 객체를 표현하기 위한 새 주요 클래스입니다.
       이 클래스는 Struct와 비슷하며, 부분적으로 구현을 공유하고 있습니다만,
       더 간결하며 한정적인 API를 제공합니다. [[Feature #16122]]
 
@@ -290,8 +290,8 @@ sum = ary[0] + ary[1]
 * RubyVM::AbstractSyntaxTree
     * `parse`, `parse_file`, `of`에 `error_tolerant` 옵션이 추가되었습니다. [[Feature #19013]]
       이 옵션을 사용하면,
-        1. SyntaxError가 발생하지 않습니다
-        2. 올바르지 않은 입력에 대해서도 AST가 반환됩니다
+        1. SyntaxError가 발생하지 않습니다.
+        2. 올바르지 않은 입력에 대해서도 AST가 반환됩니다.
         3. 파서가 입력의 마지막에 도달했지만 `end`가 부족한 상태일 경우, 부족한 `end`를 추가합니다.
         4. 들여쓰기를 참고해 `end`를 키워드로 취급합니다.
 
@@ -314,7 +314,7 @@ sum = ary[0] + ary[1]
         RUBY
         p root # => #<RubyVM::AbstractSyntaxTree::Node:SCOPE@1:0-4:3>
 
-        # `end` 는 들여쓰기를 참고해 키워드로 취급됩니다
+        # `end`는 들여쓰기를 참고해 키워드로 취급됩니다
         root = RubyVM::AbstractSyntaxTree.parse(<<~RUBY, error_tolerant: true)
         module Z
           class Foo
@@ -360,7 +360,7 @@ sum = ary[0] + ary[1]
 
 ## 호환성 문제
 
-주의: 기능 개선, 버그 수정은 포함되어 있지 않습니다.
+주의: 기능 버그 수정은 포함되어 있지 않습니다.
 
 ### 삭제된 상수
 
@@ -414,7 +414,7 @@ sum = ary[0] + ary[1]
 다음 API가 갱신됩니다.
 
 * PRNG 갱신
-  * `rb_random_interface_t`가 갱신되어 새 버전이 되었습니다.
+  * `rb_random_interface_t`가 갱신되어 이제 버전을 가집니다.
     이 인터페이스를 구버전으로 사용하고 있다면 새 인터페이스를 사용해야합니다.
     또한 `init_int32` 함수를 정의할 필요가 있습니다.
 
@@ -543,8 +543,8 @@ sum = ary[0] + ary[1]
 [커밋 로그](https://github.com/ruby/ruby/compare/v3_1_0...{{ release.tag }})를
 확인해주세요.
 
-이러한 변경사항에 따라, Ruby 3.1.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_1_0...{{ release.tag }}#file_bucket)
-가 이루어졌습니다!
+이러한 변경사항에 따라, Ruby 3.1.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_1_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
 메리 크리스마스, 해피 홀리데이, 그리고 Ruby 3.2과 함께 프로그래밍을 즐겨보세요!
 
