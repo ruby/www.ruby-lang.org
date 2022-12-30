@@ -429,7 +429,7 @@ sum = ary[0] + ary[1]
 
 * Bundler
 
-    * Rust 확장을 사용하는 젬을 위한 젬 생성 명령에 --ext=rust 옵션을 추가했습니다.
+    * Rust 확장을 사용하는 gem 생성을 위해 bundle gem 명령에 --ext=rust 옵션을 추가했습니다.
       [[GH-rubygems-6149]]
     * Git 저장소 클론이 빨라집니다. [[GH-rubygems-4475]]
 
