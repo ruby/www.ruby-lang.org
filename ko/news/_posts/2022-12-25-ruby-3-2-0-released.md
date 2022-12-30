@@ -1,8 +1,8 @@
 ---
 layout: news_post
 title: "Ruby 3.2.0 릴리스"
-author: "shia"
-translator:
+author: "naruse"
+translator: "shia"
 date: 2022-12-25 00:00:00 +0000
 lang: ko
 ---
