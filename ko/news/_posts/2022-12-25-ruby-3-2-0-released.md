@@ -200,26 +200,25 @@ sum = ary[0] + ary[1]
 * 검색 패턴은 이제 정식 기능입니다.
   [[Feature #18585]]
 
-* Methods taking a rest parameter (like `*args`) and wishing to delegate keyword
-  arguments through `foo(*args)` must now be marked with `ruby2_keywords`
-  (if not already the case). In other words, all methods wishing to delegate
-  keyword arguments through `*args` must now be marked with `ruby2_keywords`,
-  with no exception. This will make it easier to transition to other ways of
-  delegation once a library can require Ruby 3+. Previously, the `ruby2_keywords`
-  flag was kept if the receiving method took `*args`, but this was a bug and an
-  inconsistency. A good technique to find potentially missing `ruby2_keywords`
-  is to run the test suite, find the last method which must
-  receive keyword arguments for each place where the test suite fails, and use `puts nil, caller, nil` there. Then check that each
-  method/block on the call chain which must delegate keywords is correctly marked
-  with `ruby2_keywords`. [[Bug #18625]] [[Bug #16466]]
+* `*args`와 같은 나머지 인수를 받는 메서드에서 `foo(*args)`를 통해 키워드 인수를
+  위임하고 싶은 경우, 반드시 `ruby2_keywords`를 사용해야 합니다. 다르게 말하면,
+  `*args`를 사용해 키워드 인수를 위임하고 싶은 모든 메서드는 예외 없이
+  `ruby2_keywords`를 사용해야 합니다. 이 변경으로 라이브러리가 Ruby 3 이상을
+  요구하게 되었을 때 다른 위임 방식으로의 마이그레이션이 간단해집니다.
+  지금까지 메서드가 `*args`를 넘겨받았을 때, `ruby2_keywords` 플래그가 유지되었습니다만,
+  이는 의도치 않은 동작이었으며, 일관성이 없었습니다. 빠져있었던 `ruby2_keywords`를
+  찾아내기 위한 좋은 방법 중 한 가지로 테스트를 실행한 뒤, 실패하는 각각의 테스트에서
+  키워드 인수를 받는 마지막 메서드를 찾고, 그곳에서 `puts nil, caller, nil`를 사용하세요.
+  그리고 나서 호출 체인의 각 메서드/블록이 키워드를 위임할 때 `ruby2_keywords`를
+  올바르게 사용하고 있는지 확인하세요. [[Bug #18625]] [[Bug #16466]]
 
     ```ruby
     def target(**kw)
     end
 
-    # Accidentally worked without ruby2_keywords in Ruby 2.7-3.1, ruby2_keywords
-    # needed in 3.2+. Just like (*args, **kwargs) or (...) would be needed on
-    # both #foo and #bar when migrating away from ruby2_keywords.
+    # 의도치 않게 Ruby 2.7-3.1에서 ruby2_keywords 없이 동작했습니다만,
+    # Ruby 3.2+에서는 ruby2_keywords가 필요합니다. ruby2_keywords를 사용하지 않는 경우,
+    # #foo, #bar 양쪽에 (*args, &&kwargs)나 (...)이 필요합니다.
     ruby2_keywords def bar(*args)
       target(*args)
     end
