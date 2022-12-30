@@ -442,7 +442,7 @@ sum = ary[0] + ary[1]
         * 이스케이프가 필요한 문자열이 없는 경우, String 객체를 생성하지 않습니다.
         * 인수가 String 객체일 경우, `#to_s` 메서드를 호출하지 않습니다.
         * `ERB::Util.html_escape`의 별명으로 `ERB::Escape.html_escape`가 추가됩니다.
-          더이상 Rails에서 몽키패치를 할 필요가 없습니다.
+          이 함수는 Rails에서 몽키패치를 하지 않았습니다.
 
 * IRB
 
