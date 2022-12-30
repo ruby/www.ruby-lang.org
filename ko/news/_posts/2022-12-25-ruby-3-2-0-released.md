@@ -457,7 +457,7 @@ sum = ary[0] + ary[1]
         * `show_source`의 별명으로 `$`가 추가되었으며, 이제 인수를 이스케이프하지 않아도 됩니다.
         * `whereami`의 별명으로 `@`가 추가됩니다.
 
-*   다음 기본 젬이 갱신되었습니다.
+*   다음 기본 gem이 갱신되었습니다.
 
     * RubyGems 3.4.1
     * abbrev 0.1.1
@@ -524,7 +524,7 @@ sum = ary[0] + ary[1]
     * yaml 0.2.1
     * zlib 3.0.0
 
-*   다음 내장 젬이 갱신되었습니다.
+*   다음 내장 gem이 갱신되었습니다.
 
     * minitest 5.16.3
     * power_assert 2.0.3
@@ -537,7 +537,7 @@ sum = ary[0] + ary[1]
     * typeprof 0.21.3
     * debug 1.7.1
 
-기본 젬과 내정 젬의 상세한 설명은 [logger의 GitHub 릴리스](https://github.com/ruby/logger/releases)와 같은 GitHub 릴리스 또는 Changelog를 참조해주세요.
+기본 gem과 내장 gem의 상세한 설명은 [logger의 GitHub 릴리스](https://github.com/ruby/logger/releases)와 같은 GitHub 릴리스 또는 Changelog를 참조해주세요.
 
 더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
 [커밋 로그](https://github.com/ruby/ruby/compare/v3_1_0...{{ release.tag }})를
