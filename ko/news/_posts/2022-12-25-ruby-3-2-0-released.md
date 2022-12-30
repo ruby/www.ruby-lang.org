@@ -371,9 +371,9 @@ sum = ary[0] + ary[1]
 * `Struct::Group`
 * `Struct::Passwd`
 
-### 삭제된 메소드
+### 삭제된 메서드
 
-폐기 예정이었던 메소드가 삭제됩니다.
+폐기 예정이었던 메서드가 삭제됩니다.
 
 * `Dir.exists?` [[Feature #17391]]
 * `File.exists?` [[Feature #17391]]
@@ -441,7 +441,7 @@ sum = ary[0] + ary[1]
 
     * `ERB::Util.html_escape`가 `CGI.escapeHTML`보다 빨라졌습니다.
         * 이스케이프가 필요한 문자열이 없는 경우, String 객체를 생성하지 않습니다.
-        * 인수가 String 객체일 경우, `#to_s` 메소드를 호출하지 않습니다.
+        * 인수가 String 객체일 경우, `#to_s` 메서드를 호출하지 않습니다.
         * `ERB::Util.html_escape`의 별명으로 `ERB::Escape.html_escape`가 추가됩니다.
           더이상 Rails에서 몽키패치를 할 필요가 없습니다.
 
