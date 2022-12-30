@@ -200,7 +200,7 @@ sum = ary[0] + ary[1]
 * 검색 패턴은 이제 정식 기능입니다.
   [[Feature #18585]]
 
-* `*args`와 같은 나머지 인수를 받는 메서드에서 `foo(*args)`를 통해 키워드 인수를
+* `*args`와 같은 나머지 파라미터를 받는 메서드에서 `foo(*args)`를 통해 키워드 인수를
   위임하고 싶은 경우, 반드시 `ruby2_keywords`를 사용해야 합니다. 다르게 말하면,
   `*args`를 사용해 키워드 인수를 위임하고 싶은 모든 메서드는 예외 없이
   `ruby2_keywords`를 사용해야 합니다. 이 변경으로 라이브러리가 Ruby 3 이상을
@@ -218,7 +218,7 @@ sum = ary[0] + ary[1]
 
     # 의도치 않게 Ruby 2.7-3.1에서 ruby2_keywords 없이 동작했습니다만,
     # Ruby 3.2+에서는 ruby2_keywords가 필요합니다. ruby2_keywords를 사용하지 않는 경우,
-    # #foo, #bar 양쪽에 (*args, &&kwargs)나 (...)이 필요합니다.
+    # #foo, #bar 양쪽에 (*args, **kwargs)나 (...)이 필요합니다.
     ruby2_keywords def bar(*args)
       target(*args)
     end
