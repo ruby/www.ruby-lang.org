@@ -20,7 +20,7 @@ Ruby 프로그래밍 언어의 보안 취약점은 [HackerOne의 바운티 프�
 Ruby 커뮤니티의 특정 gem에 영향을 주는 문제를 발견했다면, [RubyGems.org의 안내](http://guides.rubygems.org/security/#reporting-security-vulnerabilities)를 따라주세요.
 
 HackerOne 이외의 방법으로 보안팀에 연락하고 싶다면,
-비공개 메일링 리스트인 security@ruby-lang.org ([the PGP public key](/security.asc))로 메일을 보내주십시오.
+비공개 메일링 리스트인 security@ruby-lang.org([PGP public key](/security.asc))로 메일을 보내주십시오.
 
 이 메일링 리스트의 멤버는 Ruby를 제공하는 사람들(Ruby 커미터, Ruby 구현부의
 저자, 배포 담당자, PaaS 플랫폼 관리자)입니다.
