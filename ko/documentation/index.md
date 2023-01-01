@@ -98,15 +98,18 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 
 * Linux, 크로스 플랫폼
   * [Aptana Studio][19]
+  * [Atom][atom]
   * [Emacs][20], [Ruby mode][21], [Rsense][22]
+  * [Eric][eric]
   * [Geany][23]
   * [gedit][24]
-  * [Vim][25], [vim-ruby][26] 플러그인, [Rsense][22]
+  * [Kate][kate]
+  * [KDevelop][kdevelop]
+  * [NetBeans][36]
   * [RubyMine][27]
   * [SciTe][28]
-  * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Vim][25], [vim-ruby][26] 플러그인, [Rsense][22]
   * [Visual Studio Code][vscode]
 
 * Windows
@@ -166,6 +169,9 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
+[eric]: https://eric-ide.python-projects.org/
+[kdevelop]: https://www.kdevelop.org/
+[kate]: https://kate-editor.org/
 
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [ko-2]: https://web.archive.org/web/20190521035426/http://beyond.daesan.com/pages/ruby-faq
