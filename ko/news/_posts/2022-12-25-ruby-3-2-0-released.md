@@ -237,8 +237,8 @@ sum = ary[0] + ary[1]
 * MJIT 컴파일러는 `ruby_vm/mjit/compiler`라는 이름으로 Ruby를 사용해 재구현되었습니다.
 * MJIT 컴파일러는 MJIT 워커에 의해 실행된 네이티브 스레드 대신
   포크된 프로세스에서 실행됩니다. [[Feature #18968]]
-    * 이 영향으로 Microsoft Visual Studio(MSWIN)가 더이상 지원되지 않습니다.
-* MinGW는 더이상 지원되지 않습니다. [[Feature #18824]]
+    * 이 영향으로 Microsoft Visual Studio(MSWIN)가 더 이상 지원되지 않습니다.
+* MinGW는 더 이상 지원되지 않습니다. [[Feature #18824]]
 * `--mjit-min-calls`를 `--mjit-call-threshold`로 변경했습니다.
 * `--mjit-max-cache`의 기본값을 10000에서 100으로 되돌렸습니다.
 
@@ -386,7 +386,7 @@ sum = ary[0] + ary[1]
 
 ### 서드파티 소스 코드의 동봉을 폐기
 
-* `libyaml`, `libffi`와 같은 서드파티 라이브러리의 소스 코드를 더이상 포함하지 않습니다.
+* `libyaml`, `libffi`와 같은 서드파티 라이브러리의 소스 코드를 더 이상 포함하지 않습니다.
 
     * libyaml의 소스 코드는 psych로부터 제거되었습니다. Ubuntu/Debian 환경에서는 `libyaml-dev`가 필요합니다. 패키지 이름은 각 환경별로 다를 수 있습니다.
 
