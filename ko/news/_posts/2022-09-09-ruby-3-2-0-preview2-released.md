@@ -72,7 +72,7 @@ long_time_re =~ "a" * 50000 + "x" # never interrupted
 
 ## 그 이외의 주목할 만한 새 기능
 
-### 서드파티 소스 코드를 더이상 내장하지 않음
+### 서드파티 소스 코드를 더 이상 내장하지 않음
 
 * `libyaml`이나 `libffi`와 같은 서드파티의 소스 코드를 내장하지 않기로 결정했습니다.
 
@@ -229,7 +229,7 @@ long_time_re =~ "a" * 50000 + "x" # never interrupted
 * `Kernel#trust`, `Kernel#untrust`, `Kernel#untrusted?`
   [[Feature #16131]]
 
-## Stdlib compatibility issues
+## Stdlib 호환성 문제
 
 * `Psych`는 더 이상 `libyaml` 소스 코드를 포함하지 않습니다.
   이용자는 패키지 매니저를 사용해서 스스로 `libyaml` 라이브러리를 설치해야합니다. [[Feature #18571]]

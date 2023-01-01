@@ -205,9 +205,9 @@ sum = ary[0] + ary[1]
 ### YJIT
 
 * YJIT은 x86-64와 arm64/aarch64 CPU에서 동작하는 Linux, MacOS, BSD, 그 외 UNIX 환경을 지원합니다.
-    * 이번 릴리스는 Apple M1/M2, AWS Graviton, Raspberry Pi 4 등을 추가로 지원합니다.
+    * 이번 릴리스는 Apple M1/M2, AWS Graviton, Raspberry Pi 4 ARM64 프로세서 등을 추가로 지원합니다.
 * YJIT을 빌드하기 위해서는 Rust 1.58.0 이상을 요구합니다. [[Feature #18481]]
-    * CRuby를 YJIT과 함께 빌드하기 위해서는 `./configure` 스크립트를 실행하기 전에 1.58.0 이상의 `rustc`를 설치해 주세요.
+    * CRuby를 YJIT과 함께 빌드하기 위해서는 1.58.0 이상의 `rustc`를 설치한 후 `./configure` 스크립트를 `--enable-yjit`과 함께 실행해주세요.
     * 문제가 생긴 경우에는 YJIT 팀에 연락해 주세요.
 * JIT 코드의 물리 메모리는 지연되어 할당됩니다. Ruby 3.1과는 다르게,
   `--yjit-exec-mem-size`는 JIT 코드에 의해서 실제로 최적화될 때까지
