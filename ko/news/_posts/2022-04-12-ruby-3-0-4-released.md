@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 3.0.4 Released"
+title: "Ruby 3.0.4 릴리스"
 author: "nagachika and mame"
-translator:
+translator: "shia"
 date: 2022-04-12 12:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.0.4 has been released.
+Ruby 3.0.4가 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해보세요.
 
-* [CVE-2022-28738: Double free in Regexp compilation]({%link en/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %})
-* [CVE-2022-28739: Buffer overrun in String-to-Float conversion]({%link en/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
+* [CVE-2022-28738: 정규표현식 컴파일에서의 중복 할당 해제]({%link ko/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %})
+* [CVE-2022-28739: String에서 Float로 변환할 때의 버퍼 오버런]({%link ko/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_3...v3_0_4) for further details.
+자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v3_0_3...v3_0_4)를 확인해주세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.0.4" | first %}
 
@@ -42,7 +42,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_3...v3_0_4) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.

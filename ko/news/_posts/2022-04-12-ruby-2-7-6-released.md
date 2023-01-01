@@ -1,30 +1,29 @@
 ---
 layout: news_post
-title: "Ruby 2.7.6 Released"
+title: "Ruby 2.7.6 릴리스"
 author: "usa and mame"
-translator:
+translator: "shia"
 date: 2022-04-12 12:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 2.7.6 has been released.
+Ruby 2.7.6이 릴리스되었습니다.
 
-This release includes a security fix.
-Please check the topics below for details.
+이 릴리스는 보안 수정을 포함합니다.
+자세한 사항은 아래 글을 확인해 보세요.
 
-* [CVE-2022-28739: Buffer overrun in String-to-Float conversion]({%link en/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
+* [CVE-2022-28739: String에서 Float로 변환할 때의 버퍼 오버런]({%link ko/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
 
-This release also includes some bug fixes.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_5...v2_7_6) for further details.
+이 릴리스는 몇몇 버그 수정을 포함합니다.
+자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v2_7_5...v2_7_6)를 확인해 주세요.
 
-After this release, we end the normal maintenance phase of Ruby 2.7, and Ruby 2.7 enters the security maintenance phase.
-This means that we will no longer backport any bug fixes to Ruby 2.7 except security fixes.
+이 릴리스 이후로 Ruby 2.7은 일반 유지보수 단계가 종료되고, 보안 유지보수 단계가 됩니다.
+즉, 보안 수정을 제외한 버그 수정은 Ruby 2.7으로 백포트되지 않습니다.
+보안 유지보수 단계의 기간은 1년으로 계획되어 있습니다.
+이 기간이 끝나면 Ruby 2.7의 공식 지원도 종료됩니다.
+그러므로 Ruby 3.0이나 3.1으로 업그레이드할 계획을 세우기 바랍니다.
 
-The term of the security maintenance phase is scheduled for a year.
-Ruby 2.7 reaches EOL and its official support ends by the end of the security maintenance phase.
-Therefore, we recommend that you start to plan upgrade to Ruby 3.0 or 3.1.
-
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "2.7.6" | first %}
 
@@ -56,9 +55,9 @@ Therefore, we recommend that you start to plan upgrade to Ruby 3.0 or 3.1.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
 
-The maintenance of Ruby 2.7, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+이 릴리스를 포함한 Ruby 2.7의 유지보수는 Ruby Association의 "Ruby 안정 버전에 관한 협의"에 기반해 이루어집니다.
