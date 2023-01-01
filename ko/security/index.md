@@ -32,4 +32,4 @@ HackerOne 이외의 방법으로 보안팀에 연락하고 싶다면,
 
 {% include security_posts.html %}
 
-좀 더 자세한 사항은 [영문 페이지](/en/security/)를 참조하시기 바랍니다.
+아직 번역되지 않은 최근 취약점 및 자세한 사항은 [영문 페이지](/en/security/)를 참조하시기 바랍니다.
