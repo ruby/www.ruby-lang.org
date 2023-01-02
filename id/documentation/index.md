@@ -96,15 +96,18 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby:
 
 * Kakas pada Linux dan lintas *platform*:
   * [Aptana Studio][19]
+  * [Atom][atom]
   * [Emacs][20] dengan [Ruby mode][21] dan [Rsense][22]
+  * [Eric][eric]
   * [Geany][23]
   * [gedit][24]
-  * [Vim][25] dengan *plugin* [vim-ruby][26] dan [Rsense][22]
+  * [Kate][kate]
+  * [KDevelop][kdevelop]
+  * [NetBeans][36]
   * [RubyMine][27]
   * [SciTe][28]
-  * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Vim][25] dengan *plugin* [vim-ruby][26] dan [Rsense][22]
   * [Visual Studio Code][vscode]
 
 * Pada Windows:
@@ -165,3 +168,6 @@ adalah tempat yang baik untuk memulai.
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
+[eric]: https://eric-ide.python-projects.org/
+[kdevelop]: https://www.kdevelop.org/
+[kate]: https://kate-editor.org/
