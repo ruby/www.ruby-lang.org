@@ -17,11 +17,6 @@ the [installation guide](installation/) for help on installing Ruby.
 [Official FAQ](/en/documentation/faq/)
 : The official frequently asked questions.
 
-[Ruby Koans][2]
-: The Koans walk you along the path to enlightenment in order to learn
-  Ruby. The goal is to learn the Ruby language, syntax, structure, and
-  some common functions and libraries. We also teach you culture.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : An unconventional but interesting book that will teach you Ruby
   through stories, wit, and comics. Originally created by *why the lucky
@@ -128,7 +123,6 @@ If you have questions about Ruby the
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
