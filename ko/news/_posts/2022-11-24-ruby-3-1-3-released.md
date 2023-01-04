@@ -7,7 +7,7 @@ date: 2022-11-24 12:00:00 +0000
 lang: ko
 ---
 
-Ruby 3.1.3가 릴리스되었습니다.
+Ruby 3.1.3이 릴리스되었습니다.
 
 이 릴리스는 보안 수정을 포함합니다.
 자세한 사항은 아래 글을 확인해 보세요.
@@ -17,7 +17,7 @@ Ruby 3.1.3가 릴리스되었습니다.
 이 릴리스는 Xcode 14와 macOS 13(Ventura)에서의 빌드 실패에 대한 수정을 포함합니다.
 자세한 사항은 [관련 티켓](https://bugs.ruby-lang.org/issues/18912)을 확인해 주세요.
 
-자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v3_0_4...v3_0_5)를 확인해 주세요.
+자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v3_1_2...v3_1_3)를 확인해 주세요.
 
 ## 다운로드
 
