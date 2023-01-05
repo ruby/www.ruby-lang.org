@@ -10,7 +10,7 @@ lebih lanjut
 
 ### Memasang Ruby
 
-Meskipun Anda dapat dengan mudah [try Ruby pada browser Anda][1], Anda juga
+Meskipun Anda dapat dengan mudah [mencoba Ruby pada browser Anda][1], Anda juga
 dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
 
 ### Mulai
@@ -18,18 +18,13 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
 [Official FAQ](/en/documentation/faq/)
 : *Frequently asked questions* resmi.
 
-[Ruby Koans][2]
-: Ruby Koans memandu Anda sepanjang jalan menuju pencerahan untuk belajar
-  Ruby. Tujuannya adalah untuk belajar bahasa Ruby, sintaks, struktur, dan
-  beberapa fungsi umum dan library. Kami juga mengajarkan budaya Ruby.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Ini sebuah buku tak konvensional tapi menarik yang akan mengajarkan Anda Ruby
   melalui cerita, humor cerdas, dan komik. Awalnya dibuat oleh *why the lucky
   stiff*, panduan ini tetap klasik untuk pelajar Ruby.
 
 [Ruby Essentials][7]
-: Ruby Essentials adalah buku *online* gratis yang dirancang untuk memberikan
+: Sebuah buku *online* gratis yang dirancang untuk memberikan
   panduan singkat dan mudah diikuti untuk belajar Ruby.
 
 [Learn to Program][8]
@@ -57,12 +52,12 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
   belum rilis (*trunk*) saat ini.
 
 [Ruby Core Reference][13]
-: Diambil langsung dari source code Ruby menggunakan [RDoc][14],
-  referensi ini mendokumentasikan seluruh *class* dan *module core*
+: Diambil langsung dari *source code* Ruby menggunakan [RDoc][14],
+  referensi ini mendokumentasikan seluruh *core class* dan *core module*
   (seperti String, Array, Symbol, dll.).
 
 [Ruby Standard Library Reference][15]
-: Juga diambil langsung dari source code menggunakan RDoc, referensi ini
+: Juga diambil langsung dari *source code* menggunakan RDoc, referensi ini
   mendokumentasikan *library* standar.
 
 [Ruby C API Reference][extensions]
@@ -71,21 +66,24 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
   atau membantu pengembangan Ruby.
 
 [RubyDoc.info][16]
-: Situs *web* lengkap untuk dokumentasi referensi tentang gem Ruby dan
+: Situs *web* lengkap untuk dokumentasi referensi tentang Ruby *gem* dan
   proyek Ruby yang di-*host* di GitHub.
 
 [Ruby & Rails Searchable API Docs][17]
 : Dokumentasi Rails dan Ruby yang dilengkapi dengan pencarian cerdas.
 
 [APIdock][18]
-: Dokumentasi Ruby, Rails dan RSpec dengan catatan para pengguna.
+: Dokumentasi Ruby, Rails, dan RSpec dengan catatan para pengguna.
+
+[RubyAPI.org][rubyapi-org]
+: Pencarian dan penelusuran Ruby *class*, *module*, dan *method* dengan mudah.
 
 ### Editor dan IDE
 
 Untuk memprogram Ruby, Anda dapat menggunakan *default editor* dari sistem
 operasi Anda. Supaya lebih efektif, alangkah sangat berguna untuk memilih
 *editor* dengan dukungan Ruby dasar (misalnya
-*highlight* sintaks, *browsing file*) atau *integrated development environment*
+*syntax-highlighting*, *file browsing*) atau *integrated development environment*
 yang memiliki fitur canggih (misalnya *code completion*, *refactoring*,
 *testing support*).
 
@@ -93,15 +91,18 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby:
 
 * Kakas pada Linux dan lintas *platform*:
   * [Aptana Studio][19]
+  * [Atom][atom]
   * [Emacs][20] dengan [Ruby mode][21] dan [Rsense][22]
+  * [Eric][eric]
   * [Geany][23]
   * [gedit][24]
-  * [Vim][25] dengan *plugin* [vim-ruby][26] dan [Rsense][22]
+  * [Kate][kate]
+  * [KDevelop][kdevelop]
+  * [NetBeans][36]
   * [RubyMine][27]
   * [SciTe][28]
-  * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Vim][25] dengan *plugin* [vim-ruby][26] dan [Rsense][22]
   * [Visual Studio Code][vscode]
 
 * Pada Windows:
@@ -118,13 +119,12 @@ Berikut adalah daftar kakas populer yang digunakan oleh para pengguna Ruby:
 
 [Ruby-Doc.org][34] merawat daftar lengkap dokumentasi Bahasa Inggris.
 Jika Anda memiliki pertanyaan
-tentang Ruby, [mailing list](/id/community/mailing-lists/)
+tentang Ruby, [milis](/id/community/mailing-lists/)
 adalah tempat yang baik untuk memulai.
 
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
@@ -138,6 +138,7 @@ adalah tempat yang baik untuk memulai.
 [16]: http://www.rubydoc.info/
 [17]: http://rubydocs.org/
 [18]: http://apidock.com/
+[rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -161,3 +162,6 @@ adalah tempat yang baik untuk memulai.
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
+[eric]: https://eric-ide.python-projects.org/
+[kdevelop]: https://www.kdevelop.org/
+[kate]: https://kate-editor.org/

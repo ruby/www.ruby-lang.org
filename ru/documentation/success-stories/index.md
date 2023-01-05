@@ -12,7 +12,7 @@ lang: ru
 #### Моделирование
 
 * [NASA Langley Research Center][1] использует Ruby для проведения
-  моделирования
+  моделирования.
 
 * Исследовательская группа в [Motorola][2] использует Ruby скрипты для
   моделирования, одновременно для генерации сценариев и для обработки
@@ -48,10 +48,9 @@ lang: ru
 
 #### Веб-приложения
 
-* [Basecamp][9], веб-сервис для управления проектами, разработанный
-  компанией [37signals][10], написан целиком на Ruby.
+* [Basecamp][9], веб-сервис для управления проектами, написан целиком на Ruby.
 
-* [A List Apart][11], журнал для людей, которые создают веб-сайты,
+* [A List Apart][10], журнал для людей, которые создают веб-сайты,
   который работает с 1997 года. Недавно был обновлен и приложение было
   написано на Ruby on Rails.
 
@@ -73,8 +72,8 @@ lang: ru
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
 [8]: http://www.level3.com/
-[9]: http://www.basecamphq.com
-[10]: http://www.37signals.com
-[11]: http://www.alistapart.com
+[9]: https://www.basecamp.com
+[10]: http://www.alistapart.com
+
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com

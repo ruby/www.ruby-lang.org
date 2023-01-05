@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-ruby "~> 3.1.1"
+ruby "~> 3.1.3"
 
 gem "rake"
-gem "jekyll", "~> 4.0"
+gem "jekyll", "~> 4.2.0"
 gem "rouge"
 
 gem "unicorn"

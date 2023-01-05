@@ -5,7 +5,7 @@ lang: zh_cn
 ---
 
 注意: 如果无法订阅，请参考
-[lists.ruby-lang.org](http://lists.ruby-lang.org).
+[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/).
 
 订阅邮件列表，请发送一个带有以下邮件主体（不是标题）的纯文本邮件到自动的 “控制器” 地址。
 

@@ -5,7 +5,7 @@ lang: ru
 ---
 
 ВНИМАНИЕ: Если вы не можете подписаться, пожалуйста посмотрите
-[lists.ruby-lang.org](http://lists.ruby-lang.org).
+[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/).
 
 Для того, чтобы подписаться на почтовую рассылку, пожалуйста пришлите
 письмо со следующим содержимом (не темой) на **адрес робота рассылки**:

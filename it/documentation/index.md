@@ -15,12 +15,6 @@ potrà venire comodo quando vorrai programmare in Ruby.
   direttamente nel tuo browser. Questo tutorial di 15 minuti è orientato
   a principianti che vogliono dare un’occhiata al linguaggio.
 
-[Ruby Koans][2]
-: I Koan ti accompagneranno lungo il sentiero illuminato
-  dell’apprendimento di Ruby. Lo scopo è imparare il linguaggio Ruby, la
-  sua sintassi, struttura e qualche funzionalità e libreria comune. E
-  anche un po’ di cultura.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Un libro poco convenzionale ma interessante che ti insegna ad usare
   Ruby attraverso storie, battute argute e fumetti. Originariamente
@@ -124,7 +118,6 @@ iniziare.
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

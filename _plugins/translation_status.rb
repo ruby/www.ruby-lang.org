@@ -8,7 +8,7 @@ module Jekyll
   # Outputs HTML.
   module TranslationStatus
 
-    LANGS = %w[en de es id ja ko pt ru tr zh_cn zh_tw].freeze
+    LANGS = %w[en bg de es fr id it ja ko pl pt ru tr vi zh_cn zh_tw].freeze
     START_DATE = "2013-04-01"
 
     OK_CHAR      = "✓"
@@ -83,7 +83,6 @@ module Jekyll
       end
     end
 
-
     class Tag < Liquid::Tag
 
       def initialize(tag_name, path, tokens)
@@ -123,7 +122,7 @@ module Jekyll
 
         remove_completed_posts
 
-        ignored = ignored_langs.sort.join(", ")
+        ignored = ignored_langs.empty? ? "none" : ignored_langs.sort.join(", ")
         posts = @posts.sort.reverse.map {|_name, post| post }
 
         ERB.new(TEMPLATE, trim_mode: "-").result(binding)

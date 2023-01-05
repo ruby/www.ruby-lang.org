@@ -28,7 +28,7 @@ comp.lang.ruby 뉴스그룹
   [comp.lang.ruby](news:comp.lang.ruby) 뉴스그룹에서 체크아웃하세요. ([FAQ][clrFAQ])
 
 ruby-lang.org의 일본어 리스트를 포함한 모든 메일링 리스트에 대해 자세히 알고
-싶다면 [lists.ruby-lang.org](http://lists.ruby-lang.org)를 참조하세요.
+싶다면 [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)를 참조하세요.
 
 ## 구독과 해지
 

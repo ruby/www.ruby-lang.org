@@ -17,11 +17,6 @@ the [installation guide](installation/) for help on installing Ruby.
 [Official FAQ](/en/documentation/faq/)
 : The official frequently asked questions.
 
-[Ruby Koans][2]
-: The Koans walk you along the path to enlightenment in order to learn
-  Ruby. The goal is to learn the Ruby language, syntax, structure, and
-  some common functions and libraries. We also teach you culture.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : An unconventional but interesting book that will teach you Ruby
   through stories, wit, and comics. Originally created by *why the lucky
@@ -94,15 +89,18 @@ Here is a list of popular tools used by Rubyists:
 
 * Linux and cross-platform tools:
   * [Aptana Studio][19]
+  * [Atom][atom]
   * [Emacs][20] with [Ruby mode][21] and [Rsense][22]
+  * [Eric][eric]
   * [Geany][23]
   * [gedit][24]
-  * [Vim][25] with [vim-ruby][26] plugin and [Rsense][22]
+  * [Kate][kate]
+  * [KDevelop][kdevelop]
+  * [NetBeans][36]
   * [RubyMine][27]
   * [SciTe][28]
-  * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Vim][25] with [vim-ruby][26] plugin and [Rsense][22]
   * [Visual Studio Code][vscode]
 
 * On Windows:
@@ -125,7 +123,6 @@ If you have questions about Ruby the
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
@@ -163,3 +160,6 @@ If you have questions about Ruby the
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
+[eric]: https://eric-ide.python-projects.org/
+[kdevelop]: https://www.kdevelop.org/
+[kate]: https://kate-editor.org/

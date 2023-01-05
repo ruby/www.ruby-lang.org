@@ -21,6 +21,93 @@
 
 # 3.2 series
 
+- version: 3.2.0
+  date: 2022-12-25
+  post: /en/news/2022/12/25/ruby-3-2-0-released/
+  tag: v3_2_0
+  stats:
+    files_changed: 3048
+    insertions: 218253
+    deletions: 131067
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0.tar.xz
+  size:
+    gz:  20440715
+    zip: 24583271
+    xz:  15058364
+  sha1:
+    gz:  fb4ab2ceba8bf6a5b9bc7bf7cac945cc94f94c2b
+    zip: 581ec7b9289c2a85abf4f41c93993ecaa5cf43a5
+    xz:  bcdae07183d66fd902cb7bf995545a472d2fefea
+  sha256:
+    gz:  daaa78e1360b2783f98deeceb677ad900f3a36c0ffa6e2b6b19090be77abc272
+    zip: cca9ddbc958431ff77f61948cb67afa569f01f99c9389d2bbedfa92986c9ef09
+    xz:  d2f4577306e6dd932259693233141e5c3ec13622c95b75996541b8d5b68b28b4
+  sha512:
+    gz:  94203051d20475b95a66660016721a0457d7ea57656a9f16cdd4264d8aa6c4cd8ea2fab659082611bfbd7b00ebbcf0391e883e2ebf384e4fab91869e0a877d35
+    zip: b7d2753825cc0667e8bb391fc7ec59a53c3db5fa314e38eee74b6511890b585ac7515baa2ddac09e2c6b6c42b9221c82e040af5b39c73e980fbd3b1bc622c99d
+    xz:  733ecc6709470ee16916deeece9af1c76220ae95d17b2681116aff7f381d99bc3124b1b11b1c2336b2b29e468e91b90f158d5ae5fca810c6cf32a0b6234ae08e
+
+- version: 3.2.0-rc1
+  date: 2022-12-06
+  post: /en/news/2022/12/06/ruby-3-2-0-rc1-released/
+  tag: v3_2_0_rc1
+  stats:
+    files_changed: 2846
+    insertions: 203950
+    deletions: 127153
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0-rc1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0-rc1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0-rc1.tar.xz
+  size:
+    gz:  20253652
+    zip: 24473024
+    xz:  14934012
+  sha1:
+    gz:  9b45af61ef1ae3c21ab88d7c9e30b80060116ac3
+    zip: 8fdc85363ce61e0b8f04da36e709d49028d04a75
+    xz:  5576e304786d466410f27a345dc1cb66f2c773f6
+  sha256:
+    gz:  3bb9760c1ac1b66416aaa4899809f6ccd010e57038eaaeca19a383fd56275dac
+    zip: 7ff32473be108534548e401aaa9092c37a27f73323ea4091c33901c714c87ee5
+    xz:  0d45b3af14e84337882a2021235a091ae5dcfc0baaf31dccc479b71d96dd07bc
+  sha512:
+    gz:  798157d785ebae94cb128d3c134fa35e0e90c654972e531cb6562823042f3fb68a270226f7b1cf0c42572ef2b1488a1a3e44f88389ad2a6f9ca4b280a2a8e759
+    zip: 07adf6a9c89fdcf420e7b131f40f2b1f4aca036aa6f28539ade26ca552f84a75e0698f77a8b774d2ea52b8c756c4982ef319bda5afa786c081a31dd9873c5ef7
+    xz:  d38fcb1e09eb9984f3b2347e65ae7406129c2578d068a25d33b5b4f021ec3b567a9abe56c2acbec6d07a3c2b4bc7b485dbd330cbfbb3a96350f60a2bb94d016e
+
+- version: 3.2.0-preview3
+  date: 2022-11-11
+  post: /en/news/2022/11/11/ruby-3-2-0-preview3-released/
+  tag: v3_2_0_preview3
+  stats:
+    files_changed: 2719
+    insertions: 191269
+    deletions: 120315
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0-preview3.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0-preview3.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.0-preview3.tar.xz
+  size:
+    gz:  20086542
+    zip: 24426893
+    xz:  14799804
+  sha1:
+    gz:  dafca8116d36ceaa32482ab38359768de8c3ae5e
+    zip: 346c051c4be7ab8d0b551fd2ff8169785697db62
+    xz:  c94e2add05502cb5c39afffc995b7c8f000f7df0
+  sha256:
+    gz:  c041d1488e62730d3a10dbe7cf7a3b3e4268dc867ec20ec991e7d16146640487
+    zip: cf49aa70e7ebd8abebffd5e49cd3bd92e5b9f3782d587cc7ed88c98dd5f17069
+    xz:  d3f5619de544240d92a5d03aa289e71bd1103379622c523a0e80ed029a74b3bb
+  sha512:
+    gz:  860634d95e4b9c48f18d38146dfbdc3c389666d45454248a4ccdfc3a5d3cd0c71c73533aabf359558117de9add1472af228d8eaec989c9336b1a3a6f03f1ae88
+    zip: 4f22b5ea91be17ef5f68cf0acb1e3a226dcc549ad71cc9b40e623220087c4065ca9bea942710f668e5c94ca0323da8d2ccd565f95a9085c1a0e38e9c0543b22f
+    xz:  c1864e2e07c3711eaa17d0f85dfbcc6e0682b077782bb1c155315af45139ae66dc4567c73682d326975b0f472111eb0a70f949811cb54bed0b3a816ed6ac34df
+
 - version: 3.2.0-preview2
   date: 2022-09-09
   post: /en/news/2022/09/09/ruby-3-2-0-preview2-released/
@@ -80,6 +167,30 @@
     xz:  0eca2c346b995d265df2659b4215ff96e515c29926c2a6256caad99db9c4c51fec1a2d899ca63a00010d4111060dc0fdd4f591be84c0a2c43b6303879de3c5de
 
 # 3.1 series
+
+- version: 3.1.3
+  date: '2022-11-24'
+  post: "/en/news/2022/11/24/ruby-3-1-3-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.3.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.3.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.3.zip
+  size:
+    gz: 20906051
+    xz: 15300224
+    zip: 25226279
+  sha1:
+    gz: bd35f56a1cc1760ea582c67cbf669556dc7ae2fd
+    xz: 12998178c3d17fa8a9d8300c7caab460b0e698c0
+    zip: fdc6186085b78536936dff7141e5d0f6fbdfe3bb
+  sha256:
+    gz: 5ea498a35f4cd15875200a52dde42b6eb179e1264e17d78732c3a57cd1c6ab9e
+    xz: 4ee161939826bcdfdafa757cf8e293a7f14e357f62be7144f040335cc8c7371a
+    zip: 9e5de00a1d259a2c6947605825ecf6742d5216bd389af28f9ed366854e59b09e
+  sha512:
+    gz: 550cfda2ae492312009a58316e18fd77ea92852718b37443bcd76aac84ba6694fb841fe19bf23bee099f96f5aeed9d03e77c8c02fb194e414eca5f707adbbf90
+    xz: 4b0fd334ae56132ba98b8a69adad54bdcf7f7aeabd5eba5b0f0399a3868e2054f9026ca1b1cb2dbb197a9e9b0610b263481949c0623a62071546bc5adff8ca69
+    zip: 3901380a27157639dee72f80231790886d269cc741a6c9e0f6472554855be86bdb93f71577ed8d93e817ef0c8d9a168fcd6f6d426fabb465dd0dd22b5a56cfc9
 
 - version: 3.1.2
   date: '2022-04-12'
@@ -188,6 +299,30 @@
     xz:  bdbd7c624197ca478658280d84123a8c12ae72425bc566dcc75989c5b5ef114dd57e64efc09e2413ed615d9b47621a70ace0f3612e8ca7ba853822ad9e88c0b0
 
 # 3.0 series
+
+- version: 3.0.5
+  date: '2022-11-24'
+  post: "/en/news/2022/11/24/ruby-3-0-5-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.5.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.5.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.5.zip
+  size:
+    gz: 21312118
+    xz: 15880196
+    zip: 25691385
+  sha1:
+    gz: 95e69c79c0cf173f87727b76994ddf0725d5fafc
+    xz: 844ede3938c652f5f9bf5dbf1b99f5a6c41b11b6
+    zip: 5511c7b30e203ff0b3528453898b62781e97154b
+  sha256:
+    gz: 9afc6380a027a4fe1ae1a3e2eccb6b497b9c5ac0631c12ca56f9b7beb4848776
+    xz: cf7cb5ba2030fe36596a40980cdecfd79a0337d35860876dc2b10a38675bddde
+    zip: 4b63c59ebdc0abcea139a561d67dfa9770af2d9619390f34b8a53f9625a1090d
+  sha512:
+    gz: ea45fcd2ca53b87f18fd8696d00a1e340d2495443216aaf87d3f643cb5bd8bb614a1faacd82d07e7f2b72172397c728316a82d7c34a7b4566191268ea517ccf7
+    xz: 1c69d18210a2156f7696c678a8d54bf05c4dc49a1401c1ecc5760b1c23fb6ac14053873a225564664d6a327cda274ce72f47d112a6ad8d378f978de4e507e9a0
+    zip: 953cef1dd97395e04059cc76ee2a74348f2c9da0b2727c5406af26e88072e8c0bde91835354cb9f1b44f3a81a49ea7b807d7f048d138fd74ba3cabbf7859f2b3
 
 - version: 3.0.4
   date: '2022-04-12'
@@ -404,6 +539,35 @@
     xz:  dca5dcc965c434371947c100864090e29e649e19ae24b8bb2e88a534ebd8220c5a086035a999b1e8b1cd5ec154a6985a8d8dfea56095d712d62aeea7a2054f7d
 
 # 2.7 series
+
+- version: 2.7.7
+  date: '2022-11-24'
+  post: "/en/news/2022/11/24/ruby-2-7-7-released/"
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.7.tar.bz2
+    gz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.7.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.7.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.7.zip
+  size:
+    bz2: 14850886
+    gz: 16947579
+    xz: 12101804
+    zip: 20730295
+  sha1:
+    bz2: dfcd86b459a9d4bbdf2d4eb82ad3476cb9820892
+    gz: a038ab04e9d6dff7f9e7187b65497b29d4400597
+    xz: 28e2b97728bf89f64a1b787821660d5412657057
+    zip: bf41b294f428a4f8a38894f8fa613dd6f889c317
+  sha256:
+    bz2: cf800820c9e69cdd31a8cdab920391f74ed935db2397a905afabd48961913658
+    gz: e10127db691d7ff36402cfe88f418c8d025a3f1eea92044b162dd72f0b8c7b90
+    xz: b38dff2e1f8ce6e5b7d433f8758752987a6b2adfd9bc7571dbc42ea5d04e3e4c
+    zip: 7b48a8411bb79a06e9edbbb7380bd82527697b7d8f62840b985111003317bae0
+  sha512:
+    bz2: 24cc772ac1b56d3bb423f1b33716f221bf534f3717a506bf8235a698f8a454db7d79d94ae9a84067153c2f737b3f8f6085f34e36cc04be0d75ae2fdd57718870
+    gz: 7e6259f0e7a5687d12fded914dcb93e283e956022be40ef8fc6a27f66be14e057d8101b05c7b042b43fc24e3b5c4092d1675917a814d74b08adb63a3388baed2
+    xz: a19be3f0dfce040fe79f439e606f179d6750d2cc6e7b64fd65933edd487f5995573f7d0730beec9d3edadf942f8e9216f01ab3fff189d6cbe9d46a9add3e2683
+    zip: 90dabc0fcedc25e3e46d5e9f2dff01c56e142c2e71b95c4c5f4da056f1e47cb320ef8b949282fd9594869e91cd76eab27ad70061be6c26b0d0d8837ae0fb8309
 
 - version: 2.7.6
   date: '2022-04-12'

@@ -22,12 +22,6 @@ isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
 : Sıtkı Bağdat'ın 2014 yılındaki Akademik Bilişim Konferansı'nda düzenlediği
   Ruby eğitimindeki notların Leyla Kapı tarafından düzenlenmiş hali.
 
-[Ruby Koans][2]
-: Koans Ruby öğrenmek için bir aydınlanma yolu üzerinden yürümenizi
-  sağlar. Amaç Ruby dilini, deyimlerini, yapısını ve birkaç çok
-  kullanılan yapılarını öğrenmek ama bununla beraber size kültürünü de
-  öğretiyor.
-
 [Why’s (Poignant) Guide to Ruby][5]
 : Ruby’nin hikayelerle, nüktelerle ve karikatürlerle anlatıldığı
   sıradışı ama ilginç bir kitap. Orjinali *why the lucky stiff*
@@ -137,7 +131,6 @@ olacaktır.
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

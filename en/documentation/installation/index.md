@@ -336,6 +336,16 @@ plugin can. Both tools are available for macOS, Linux, or other
 UNIX-like operating systems.
 
 
+### rbenv for Windows
+{: #rbenv-for-windows}
+
+[rbenv for Windows][rbenv-for-windows] allows you to install and
+manage multiple installations of Ruby on Windows. It's written in
+PowerShell thus providing a native way to use Ruby for Windows users.
+Besides, the command line interface is compatible with [rbenv][rbenv]
+on UNIX-like systems.
+
+
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
@@ -367,7 +377,7 @@ By default, this will install Ruby into `/usr/local`.
 To change, pass the `--prefix=DIR` option to the `./configure` script.
 
 You can find more information about building from source in the
-[Ruby README file][readme].
+[Building Ruby instructions][building-ruby].
 
 Using the third-party tools or package managers might be a better idea,
 though, because the installed Ruby won't be managed by any tools.
@@ -375,6 +385,7 @@ though, because the installed Ruby won't be managed by any tools.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
@@ -389,7 +400,7 @@ though, because the installed Ruby won't be managed by any tools.
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /en/downloads/
 [installers]: /en/documentation/installation/#installers
-[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby

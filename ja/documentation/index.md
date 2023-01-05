@@ -10,7 +10,7 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 
 ### マニュアル
 
-各環境にRubyをインストールする方法は、 [ダウンロード](/ja/downloads) 及び [インストールガイド](/ja/installation) で解説しています。
+各環境にRubyをインストールする方法は、 [ダウンロード][downloads] 及び [インストールガイド][installation] で解説しています。
 
 また、現在有志の手により[リファレンスマニュアルの整備][rurema-wiki]が進行中です。
 成果物を[&lt;URL:https://docs.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
@@ -166,3 +166,5 @@ Posted by Shugo Maeda on 26 May 2006
 [39]: http://kapeli.com/dash
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
+[downloads]: /ja/downloads/
+[installation]: /ja/documentation/installation/

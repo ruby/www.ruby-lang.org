@@ -178,6 +178,12 @@ $ pkg install runtime/ruby
 [rbenv][rbenv] 用于管理系统中安装的多个 Ruby 版本。它不能直接安装 Ruby，但有个流行的插件叫 [ruby-build](#ruby-build) 能够安装 Ruby。这两个工具都支持 macOS、Linux 和其它类 UNIX 操作系统。
 
 
+### rbenv for Windows
+{: #rbenv-for-windows}
+
+[rbenv for Windows][rbenv-for-windows] 用于在Windows上下载安装并管理系统中的多个 Ruby 版本。它使用PowerShell编写，由此为Windows用户提供了一个使用Ruby的原生方法。除此之外，它的命令行接口与类 UNIX 系统上的 [rbenv][rbenv] 兼容。
+
+
 ### RVM（“Ruby Version Manager”）
 {: #rvm}
 
@@ -208,6 +214,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme

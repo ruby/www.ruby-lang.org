@@ -344,7 +344,7 @@ Varsayılan olarak, bu, Ruby'yi `/usr/local` içine kuracaktır. Değiştirmek i
 `./configure` betiğine `--prefix=DIR` seçeneğini geçirin.
 
 Kaynaktan inşa etme hakkında daha fazla bilgiyi
-[Ruby README dosyası][readme]nda bulabilirsiniz.
+[Ruby oluşturma talimatları][building-ruby]nda bulabilirsiniz.
 
 Üçüncü taraf araçlar ya da paket yöneticileri kullanmak daha iyi bir fikir
 olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecektir.
@@ -366,7 +366,7 @@ olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecekti
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /tr/downloads/
 [installers]: /tr/documentation/installation/#installers
-[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby

@@ -21,19 +21,13 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [공식 FAQ](/en/documentation/faq/) (영문)
 : 자주 묻는 질문들을 모았습니다.
 
-[Ruby Koans][2] (영문)
-: Koans는 Ruby를 배우는 깨달음의 길로 여러분을 안내합니다. Koans의 목표는
-  Ruby 언어, 문법, 구조, 일반적인 함수들과 라이브러리를 배우는 것입니다.
-  Koans에서는 문화도 가르칩니다.
-
 [Why’s (Poignant) Guide to Ruby][5] (영문)
 : 이야기, 재치, 만화를 통해 Ruby를 가르쳐주는 틀에 얽매이지 않는 재미있는
   책입니다. *Why the Lucky Stiff*의 저작물로 Ruby를 배우는 사람을 위한
   고전입니다.
 
 [Ruby Essentials][7] (영문)
-: Ruby 에센셜은 간결하고 따라 하기 쉬운 가이드를 제공하도록 디자인된 무료
-  온라인 책입니다.
+: 간결하고 따라 하기 쉬운 Ruby 가이드를 제공하는 무료 온라인 책입니다.
 
 [Learn to Program][8] (영문)
 : Chris Pine 님이 작성한 초보자를 위한 작고 멋진 튜토리얼입니다.
@@ -99,15 +93,18 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 
 * Linux, 크로스 플랫폼
   * [Aptana Studio][19]
+  * [Atom][atom]
   * [Emacs][20], [Ruby mode][21], [Rsense][22]
+  * [Eric][eric]
   * [Geany][23]
   * [gedit][24]
-  * [Vim][25], [vim-ruby][26] 플러그인, [Rsense][22]
+  * [Kate][kate]
+  * [KDevelop][kdevelop]
+  * [NetBeans][36]
   * [RubyMine][27]
   * [SciTe][28]
-  * [NetBeans][36]
   * [Sublime Text][37]
-  * [Atom][atom]
+  * [Vim][25], [vim-ruby][26] 플러그인, [Rsense][22]
   * [Visual Studio Code][vscode]
 
 * Windows
@@ -129,7 +126,6 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 있습니다.
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
@@ -167,6 +163,9 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
+[eric]: https://eric-ide.python-projects.org/
+[kdevelop]: https://www.kdevelop.org/
+[kate]: https://kate-editor.org/
 
 [ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
 [ko-2]: https://web.archive.org/web/20190521035426/http://beyond.daesan.com/pages/ruby-faq

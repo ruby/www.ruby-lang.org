@@ -29,7 +29,7 @@ def create_file(path, content)
 
   dir = File.dirname(path)
   FileUtils.mkdir_p(dir)
-  File.open(path, "w") {|f| f.write content }
+  File.write(path, content)
 end
 
 def linter_output
@@ -39,11 +39,11 @@ def linter_output
 end
 
 def file_must_exist(filename)
-    assert File.exist?(filename),
-               "Expected file `#{filename}' to exist."
+  assert File.exist?(filename),
+         "Expected file `#{filename}' to exist."
 end
 
 def file_wont_exist(filename)
-    assert !File.exist?(filename),
-               "Expected file `#{filename}' to not exist."
+  assert !File.exist?(filename),
+         "Expected file `#{filename}' to not exist."
 end

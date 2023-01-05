@@ -22,9 +22,6 @@ ruby -v
 [Try Ruby！][1]
 : 可以在浏览器内体验 Ruby 的交互式教程。这个 15 分钟的教程主要面向想尝试这门语言的初学者。
 
-[Ruby Koans][2]
-: Ruby Koans 可以指引你走过学习 Ruby 的启蒙之路。在这里可以学到 Ruby 语言的语法、结构、常用函数和库。当然，还有 Ruby 文化。
-
 [Why’s (Poignant) Guide to Ruby][5]
 : 一本不同寻常但是非常有趣的书，通过故事、幽默和漫画教你 Ruby。由 *why the luckystiff* 创作, 本书始终是学习 Ruby 的经典之作。
 
@@ -108,7 +105,6 @@ ruby -v
 
 
 [1]: https://try.ruby-lang.org/
-[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

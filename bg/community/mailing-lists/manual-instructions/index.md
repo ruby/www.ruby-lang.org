@@ -5,7 +5,7 @@ lang: bg
 ---
 
 ЗАБЕЛЕЖКА: Ако не можете да се запишете към пощенските списъци, моля
-погледнете [lists.ruby-lang.org](http://lists.ruby-lang.org).
+погледнете [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/).
 
 За да се запишете към пощенски списък, моля изпратете електронно писмо
 със следното съдържание (не "относно") към автоматизираният "контролен"

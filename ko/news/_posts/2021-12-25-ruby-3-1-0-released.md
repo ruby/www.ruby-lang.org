@@ -16,7 +16,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.1�
 
 Ruby 3.1은 Shopify에서 개발한 새로운 인프로세스 JIT 컴파일러인 YJIT를 포함합니다.
 
-[Ruby 2.6이 2018년도에 MJIT를 발표](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/)한 뒤, 성능은 굉장히 향상되었으며 [작년에 드디어 Ruby3x3](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/)을 달성했습니다. 하지만 Optcarrot이 인상적인 속도 향상을 보여줬음에도 JIT는 실제 세계의 비즈니스 애플리케이션들에 도움을 주지는 못했습니다.
+[Ruby 2.6이 2018년도에 MJIT를 발표](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/)한 뒤, 성능은 굉장히 향상되었으며 [작년에 드디어 Ruby3x3](https://www.ruby-lang.org/ko/news/2020/12/25/ruby-3-0-0-released/)을 달성했습니다. 하지만 Optcarrot이 인상적인 속도 향상을 보여줬음에도 JIT는 실제 세계의 비즈니스 애플리케이션들에 도움을 주지는 못했습니다.
 
 최근에 Shopify는 그들의 Rails 애플리케이션의 속도를 높이기 위해 Ruby에 많은 기여를 했습니다. YJIT는 중요한 기여로, Rails 애플리케이션의 성능 향상을 목표로 합니다.
 
@@ -129,8 +129,8 @@ VS Code 확장이 각 메서드 정의 위에 추측된(혹은 RBS 파일에 명
 * MJIT
   * Rails와 같은 작업량을 위하여 `--jit-max-cache`의 기본 값이 100에서 10000으로 변경되었습니다.
     JIT 컴파일러는 더 이상 1000개의 명령어보다 긴 메서드의 컴파일을 건너뛰지 않습니다.
-  * Rails의 Zeitwerk를 지원하기 위하여, 클래스 이벤트의 TracePoint가 활성화되어도
-    JIT된 코드를 더 이상 취소하지 않습니다.
+  * Rails의 Zeitwerk를 지원하기 위하여, 클래스 이벤트의 TracePoint가
+    활성화되었을 때 JIT된 코드를 더 이상 취소하지 않습니다.
 
 ## 그 외 3.0 이후 주목할 만한 변화
 

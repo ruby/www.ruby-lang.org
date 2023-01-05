@@ -44,10 +44,10 @@ lang: ko
 
 #### 웹 애플리케이션
 
-* [Basecamp][9]는 [37signals][10]에서 개발한 웹기반 프로젝트 관리 툴입니다.
+* [Basecamp][9]는 웹기반 프로젝트 관리 툴입니다.
   코드는 전부 Ruby로 되어있습니다.
 
-* [A List Apart][11]는 1997년부터 발행된 웹 사이트를 만드는 사람들을 위한
+* [A List Apart][10]는 1997년부터 발행된 웹 사이트를 만드는 사람들을 위한
   메거진입니다. 최근에 Ruby on Rails로 만들어진 독자적인 애플리케이션으로
   리뉴얼하였습니다.
 
@@ -68,8 +68,8 @@ lang: ko
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
 [8]: http://www.level3.com/
-[9]: http://www.basecamphq.com
-[10]: http://www.37signals.com
-[11]: http://www.alistapart.com
+[9]: https://www.basecamp.com
+[10]: http://www.alistapart.com
+
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com

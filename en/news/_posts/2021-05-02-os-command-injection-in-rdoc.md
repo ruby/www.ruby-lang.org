@@ -24,6 +24,7 @@ Ruby users whose version of RDoc is affected by this issue should update to the 
 ## Affected Versions
 
 * All releases of RDoc from 3.11 to 6.3.0
+* Ruby 3.0.2 (bundles RDoc 6.3.1), Ruby 2.7.4 (bundles RDoc 6.2.1.1) and Ruby 2.6.8 (bundles RDoc 6.1.2.1) include fixes and not affected
 
 ## How to Update
 
@@ -42,3 +43,4 @@ Thanks to [Alexandr Savca](https://hackerone.com/chinarulezzz) for reporting the
 ## History
 
 * Originally published at 2021-05-02 09:00:00 UTC
+* Mention about Ruby 3.0.2, Ruby 2.7.4 and Ruby 2.6.8 at 2021-07-16 00:02:00 UTC

@@ -18,6 +18,11 @@ Członkami listy mailingowej są ludzie, którzy dostarczają Rubiego
 
 ## Znane problemy
 
+_See the [English page](/en/security/) for a complete and up-to-date
+list of security vulnerabilities.
+The following list only includes the as yet translated
+security announcements, it might be incomplete or outdated._
+
 Tutaj są ostatnie problemy.
 
 {% include security_posts.html %}

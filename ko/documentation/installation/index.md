@@ -46,6 +46,8 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
   * [FreeBSD](#freebsd)
   * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
+  * [Windows 패키지 관리자](#winget)
+  * [Chocolatey 패키지 관리자](#chocolatey)
   * [다른 배포판](#other-systems)
 * [인스톨러](#installers)
   * [ruby-build](#ruby-build)
@@ -204,6 +206,28 @@ $ pkg install runtime/ruby
 
 하지만, 서드파티 도구를 사용하는 것이 최신 버전의 Ruby를 얻는 더 좋은 방법입니다.
 
+### Windows 패키지 관리자
+{: #winget}
+
+Windows에서 [Windows 패키지 관리자 CLI](https://github.com/microsoft/winget-cli)를
+사용해서 Ruby를 설치할 수 있습니다.
+
+{% highlight sh %}
+> winget install Ruby
+{% endhighlight %}
+
+### Chocolatey 패키지 관리자
+{: #chocolatey}
+
+또한 Windows에서 [Chocolatey 패키지 관리자](https://chocolatey.org/install)를
+사용해서 Ruby를 설치할 수 있습니다.
+
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+`msys2`가 이미 설치되어 있다면 이를 그대로 사용하고, 아니면 완전한 Ruby 개발
+환경을 위해서 새로 설치합니다.
 
 ### 다른 배포판
 
@@ -292,6 +316,13 @@ rbenv 자체는 Ruby 설치를 지원하지 않습니다만, [ruby-build](#ruby-
 유명한 플러그인에서 Ruby를 설치할 수 있습니다.
 rbenv, ruby-build 모두 macOS, Linux나 다른 UNIX-계열 운영체제에서 사용가능합니다.
 
+### rbenv for Windows
+{: #rbenv-for-windows}
+
+[rbenv for Windows][rbenv-for-windows]는 Windows에서 여러 종류의 Ruby를 설치하고
+관리할 수 있도록 합니다. 이는 PowerShell로 작성되었으므로 Windows에서 Ruby를
+이용하는 사용자들에게 자연스러운 수단을 제공합니다. 또한 커맨드 라인 인터페이스는
+UNIX-계열 운영체제의 [rbenv][rbenv]와 호환됩니다.
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
@@ -323,7 +354,7 @@ $ sudo make install
 기본적으로, 이 명령어는 Ruby를 `/usr/local`에 설치합니다.
 변경하시려면 `./configure` 스크립트에 `--prefix=DIR` 옵션을 넘기세요.
 
-[Ruby README 파일][readme]에서 소스로부터 Ruby를 설치하는 법에 관련된
+[Ruby 빌드하기 문서][building-ruby]에서 소스로부터 Ruby를 설치하는 법에 관련된
 추가 정보를 얻을 수 있습니다.
 
 서드파티 도구나 패키지 관리자를 사용하시는 것이 더 좋습니다.
@@ -332,6 +363,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
@@ -346,7 +378,7 @@ $ sudo make install
 [terminal]: https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90_%EC%97%90%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0_%EB%AA%A9%EB%A1%9D
 [download]: /ko/downloads/
 [installers]: /ko/documentation/installation/#installers
-[readme]: https://github.com/ruby/ruby#how-to-compile-and-install
+[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
 [wsl]: https://docs.microsoft.com/ko-kr/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
