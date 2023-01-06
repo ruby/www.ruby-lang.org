@@ -30,6 +30,11 @@ diversas maneiras de obter o Ruby.
   seu browser. Este tutorial de 15 minutos é destinado para iniciantes que
   queiram ter uma ideia de como é a linguagem.
 
+[Ruby Koans][2]
+: Os Koans te conduzem pelo caminho da iluminação de modo a aprender Ruby.
+  O objetivo é aprender a linguagem, sintaxe, estrutura algumas funções e
+  bibliotecas comuns do Ruby. Também ensinamos cultura.
+
 [O Guia (Comovente) de Ruby do Why][5]
 : UM livro inconveniente, porém interessante, que te ensinará Ruby através
   de histórias, humor e quadrinhos. Originalmente criado por *why the lucky
@@ -131,6 +136,7 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 
 
 [1]: https://try.ruby-lang.org/
+[2]: http://rubykoans.com/
 [5]: http://why.carlosbrando.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://aprendaaprogramar.rubyonrails.com.br/

@@ -19,6 +19,11 @@ como instalar Ruby.
 [FAQ oficial](/en/documentation/faq/) (en inglés)
 : Respuestas oficiales a las preguntas formuladas con frecuencia.
 
+[Koans en Ruby][2] (en inglés)
+: Los Koans te llevan por una ruta de iluminación para aprender Ruby.
+  La meta es aprender el lenguaje Ruby, su sintaxis, estructura y algunas
+  funciones y librerías comunes.  También te enseñamos cultura.
+
 [Guía Por qué (Poignant) de Ruby][5] (en inglés)
 : Un libro no convencional pero interesante que te enseñará Ruby mediante
   cuentos, ingenio y dibujos.  Es una creación original de
@@ -134,6 +139,7 @@ comenzar.
 
 
 [1]: https://try.ruby-lang.org/
+[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

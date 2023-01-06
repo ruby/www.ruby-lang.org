@@ -21,6 +21,11 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [공식 FAQ](/en/documentation/faq/) (영문)
 : 자주 묻는 질문들을 모았습니다.
 
+[Ruby Koans][2] (영문)
+: Koans는 Ruby를 배우는 깨달음의 길로 여러분을 안내합니다. Koans의 목표는
+  Ruby 언어, 문법, 구조, 일반적인 함수들과 라이브러리를 배우는 것입니다.
+  Koans에서는 문화도 가르칩니다.
+
 [Why’s (Poignant) Guide to Ruby][5] (영문)
 : 이야기, 재치, 만화를 통해 Ruby를 가르쳐주는 틀에 얽매이지 않는 재미있는
   책입니다. *Why the Lucky Stiff*의 저작물로 Ruby를 배우는 사람을 위한
@@ -126,6 +131,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 있습니다.
 
 [1]: https://try.ruby-lang.org/
+[2]: http://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
