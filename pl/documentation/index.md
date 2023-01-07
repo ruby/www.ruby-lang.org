@@ -15,6 +15,11 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
   w twojej przeglądarce internetowej. Ten 15 minutowy tutorial jest
   przeznaczony dla początkujących, którzy chcą zorientować się w języku.
 
+[Ruby Koans][2]
+: Koany poprowadzą cię wzdłuż ścieżki do oświecenia, aby poznać Rubiego.
+  Celem jest nauczenie się języka Ruby, składni, struktury i
+   pewnych popularnych funkcji i bibliotek. Nauczenie również kultury.
+
 [Why’s (Poignant) Guide to Ruby][5]
 : Niekonwencjonalna ale interesująca książka, która nauczy cię Rubiego
   poprzez historyjki, dowcipy i komiks. Oryginalnie stworzona przez
@@ -123,6 +128,7 @@ angielskim).
 Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 
 [1]: https://try.ruby-lang.org/
+[2]: https://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
