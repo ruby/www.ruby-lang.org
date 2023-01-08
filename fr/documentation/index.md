@@ -52,6 +52,13 @@ pour les nombreuses façons d'obtenir Ruby.
   navigateur. Ce tutoriel de 15 minutes est destiné aux débutants qui
   veulent avoir un premier aperçu du langage.
 
+[Ruby Koans][4]
+: Les Koans vous emmènent le long du chemin de l’illumination pour vous
+  apprendre Ruby. Le but est de vous apprendre le langage Ruby, sa
+  syntaxe, sa structure et ses fonctions et bibliothèques courantes. Il
+  vous enseignera aussi quelques points « culturels » (bonnes pratiques,
+  état d’esprit du programmeur Ruby…)
+
 [Why’s (Poignant) Guide to Ruby][5]
 : Ce livre, à la frontière entre tutoriel, roman et œuvre d’art, vous
   propose une manière non conventionnelle mais intéressante d’apprendre
@@ -117,6 +124,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 
 [2]: http://jeveuxapprendreruby.fr/
 [3]: https://try.ruby-lang.org/
+[4]: https://rubykoans.com/
 [5]: https://poignant.guide
 [6]: http://pine.fm/LearnToProgram/
 [7]: http://www.ruby-doc.org/docs/ApprendreProgrammer/Apprendre_%E0_Programmer.pdf

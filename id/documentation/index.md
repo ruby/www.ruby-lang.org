@@ -18,6 +18,11 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
 [Official FAQ](/en/documentation/faq/)
 : *Frequently asked questions* resmi.
 
+[Ruby Koans][2]
+: Ruby Koans memandu Anda sepanjang jalan menuju pencerahan untuk belajar
+  Ruby. Tujuannya adalah untuk belajar bahasa Ruby, sintaks, struktur, dan
+  beberapa fungsi dan pustaka umum. Kami juga mengajarkan budaya Ruby.
+
 [Why’s (Poignant) Guide to Ruby][5]
 : Ini sebuah buku tak konvensional tapi menarik yang akan mengajarkan Anda Ruby
   melalui cerita, humor cerdas, dan komik. Awalnya dibuat oleh *why the lucky
@@ -125,6 +130,7 @@ adalah tempat yang baik untuk memulai.
 
 
 [1]: https://try.ruby-lang.org/
+[2]: https://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
