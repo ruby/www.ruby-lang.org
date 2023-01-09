@@ -9,17 +9,17 @@ lang: ko
 
 Ruby 3.1.1이 릴리스되었습니다.
 
-3.1 안정 버전 시리즈의 첫 TEENY 버전입니다.
+3.1 안정 버전대의 첫 TEENY 버전입니다.
 
 * [error_highlight가 -e 옵션과 함께 동작하지 않음](https://bugs.ruby-lang.org/issues/18434)
-* [YJIT 이 메서드 기본 인수와 키워드 인수를 함께 사용할 때 잘못된 순서로 메서드 인수를 넘기는 문제 수정](https://bugs.ruby-lang.org/issues/18453)
+* [YJIT이 메서드 기본 인수와 키워드 인수를 함께 사용할 때 잘못된 순서로 메서드 인수를 넘기는 문제 수정](https://bugs.ruby-lang.org/issues/18453)
 * [Warning#warn 메서드를 찾을 수 없을 때 세그멘테이션 폴트가 발생함](https://bugs.ruby-lang.org/issues/18458)
-* [Pathname이 디렉터리 글로빙에서 ".."를 반환하지 않음](https://bugs.ruby-lang.org/issues/18436)
+* [Pathname이 디렉터리 glob 수행 시 ".."를 반환하지 않음](https://bugs.ruby-lang.org/issues/18436)
 * [ruby --help의 --jit-max-cache 기본값 설명을 변경](https://bugs.ruby-lang.org/issues/18469)
-* [3.1.0-dev `include`를 호출하면 Module이 초기화 완료로 취급됨](https://bugs.ruby-lang.org/issues/18292)
+* [3.1.0-dev에서 `include`를 호출하면 Module이 초기화 완료로 취급됨](https://bugs.ruby-lang.org/issues/18292)
 * [Optionparser의 튜토리얼 링크가 깨짐](https://bugs.ruby-lang.org/issues/18468)
-* [다른 스레드에서 Enumerator의 요소를 yield로 호출하면 세그멘테이션 폴트가 발생함](https://bugs.ruby-lang.org/issues/18475)
-* [`active_decorator`가 Ruby 3.1.0에서 세그멘테이션 폴트가 발생함](https://bugs.ruby-lang.org/issues/18489)
+* [다른 스레드에서 Enumerator의 요소를 yield 하면 세그멘테이션 폴트가 발생함](https://bugs.ruby-lang.org/issues/18475)
+* [`active_decorator`가 Ruby 3.1.0에서 세그멘테이션 폴트를 일으킴](https://bugs.ruby-lang.org/issues/18489)
 * [Fiber에서 Process.daemon을 호출하면 세그멘테이션 폴트가 발생함](https://bugs.ruby-lang.org/issues/18497)
 * [0 << (2\*\*40)는 NoMemoryError가 발생하지만 0 << (2\*\*80)는 0을 반환함](https://bugs.ruby-lang.org/issues/18517)
 * [IO read/write/wait 훅 버그 수정](https://bugs.ruby-lang.org/issues/18443)
@@ -27,7 +27,7 @@ Ruby 3.1.1이 릴리스되었습니다.
 * [에러: 선언하지 않은 식별자 'MAP_ANONYMOUS' 사용](https://bugs.ruby-lang.org/issues/18556)
 * [\[버그\] RubyVM::InstructionSequence.load_from_binary에서 T_NONE 객체에 마킹을 시도](https://bugs.ruby-lang.org/issues/18501)
 * [require를 통해 던져진 throw_data의 예외 처리](https://bugs.ruby-lang.org/issues/18562)
-* [`IpAddr` 인스턴스의 `IpAddr#to_range` 호출을 수정](https://bugs.ruby-lang.org/issues/18570)
+* [`IpAddr` 프로즌 인스턴스의 `IpAddr#to_range` 호출을 수정](https://bugs.ruby-lang.org/issues/18570)
 * [ipaddr.rb의 경로 수정](https://github.com/ruby/ruby/pull/5533)
 * [RubyGems-3.3.7, Bundler-2.3.7을 병합](https://github.com/ruby/ruby/pull/5543)
 * [비어있는 해시에 Hash#shift를 반복해서 호출하면 Ruby가 무응답 상태에 빠짐](https://bugs.ruby-lang.org/issues/18578)
