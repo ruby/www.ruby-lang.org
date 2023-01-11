@@ -26,9 +26,7 @@ comp.lang.ruby新闻组
 
 ## 订阅或退订
 
-{% include subscription-form.html %}
-
-如果您使用此表单订阅后接收不到邮件，请使用[手工方式](manual-instructions/)订阅。
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

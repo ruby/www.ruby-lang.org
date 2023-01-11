@@ -45,10 +45,7 @@ Email: <input type="text" name="email" required="required" />
 
 ## Inscrever ou Desinscrever
 
-{% include subscription-form.html %}
-
-Se você não receber um e-mail de confirmação após utilizar o formulário,
-tente se inscrever [manualmente](manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

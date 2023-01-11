@@ -35,10 +35,7 @@ listeleri hakkında daha fazla bilgi için
 
 ## Abone Olun ya da Abonelikten Ayrılın
 
-{% include subscription-form.html %}
-
-Eğer formu kullanarak bir onay e-postası alamadıysanız,
-[manuel yol](manual-instructions/)la abone olmayı deneyin.
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

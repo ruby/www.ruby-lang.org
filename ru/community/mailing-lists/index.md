@@ -32,10 +32,7 @@ Ruby-CVS
 
 ## Подписаться или не подписаться
 
-{% include subscription-form.html %}
-
-Если вы не получили письма с подтверждением используя форму выше,
-попробуйте подписаться [вручную](manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

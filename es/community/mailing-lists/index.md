@@ -28,10 +28,7 @@ Ruby-CVS
 
 ## Suscribirse o desuscribirse
 
-{% include subscription-form.html %}
-
-Si no recibes el correo de confirmación usando este formulario de
-suscripción, intenta suscribirte de la [forma manual](manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

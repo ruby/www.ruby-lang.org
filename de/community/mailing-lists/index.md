@@ -44,10 +44,7 @@ einschließlich der Listen in japanischer Sprache.
 
 ## An- oder Abmelden
 
-{% include subscription-form.html %}
-
-Sofern die Anmeldung über das Webformular nicht klappt, kannst du dich
-auch [manuell anmelden](manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

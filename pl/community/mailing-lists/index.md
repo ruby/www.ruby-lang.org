@@ -33,11 +33,7 @@ listy:
 
 ## Subscribe or Unsubscribe
 
-{% include subscription-form.html %}
-
-If you fail to receive a confirmation e-mail using the form, try
-subscribing the [manual
-way](/en/community/mailing-lists/manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

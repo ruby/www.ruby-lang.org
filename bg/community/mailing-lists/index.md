@@ -32,10 +32,7 @@ comp.lang.ruby дискусионна група.
 
 ## Абониране
 
-{% include subscription-form.html %}
-
-Ако имате проблем с потвърждаването на заявката, можете да използвате
-[ръчно записване](manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

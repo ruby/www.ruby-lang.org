@@ -33,8 +33,7 @@ See [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.or
 for more information about all mailing lists on ruby-lang.org,
 including the lists in Japanese language.
 
-If you fail to receive a confirmation e-mail using the form, try
-subscribing the [manual way](manual-instructions/).
+
 
 [guidelines]: ruby-talk-guidelines/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html

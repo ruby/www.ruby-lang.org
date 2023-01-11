@@ -32,10 +32,7 @@ The comp.lang.ruby Newsgroup
 
 ## Đăng ký theo dõi hoặc Hủy đăng ký
 
-{% include subscription-form.html %}
-
-Nếu như bạn chưa nhận được thư xác nhận khi đăng ký qua mẫu trên,
-vui lòng thử lại theo cách [thủ công](manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

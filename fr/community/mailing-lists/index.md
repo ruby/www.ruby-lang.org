@@ -29,10 +29,7 @@ Ruby-CVS
 
 ## S’inscrire ou résilier son inscription
 
-{% include subscription-form.html %}
-
-Si vous ne recevez pas d’e-mail de confirmation en validant le
-formulaire, essayez la [méthode manuelle](manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

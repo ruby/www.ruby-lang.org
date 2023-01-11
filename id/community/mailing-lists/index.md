@@ -42,11 +42,7 @@ termasuk daftar milis dalam bahasa Jepang.
 
 ## Mulai atau Berhenti Berlangganan
 
-{% include subscription-form.html %}
-
-Apabila Anda tidak menerima e-mail konfirmasi, Anda bisa mencoba
-berlangganan menggunakan [cara
-manual](/id/community/mailing-lists/manual-instructions/).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

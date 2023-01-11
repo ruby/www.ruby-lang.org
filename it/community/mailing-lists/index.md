@@ -28,11 +28,7 @@ Ruby-CVS
 
 ## Iscriviti o annulla la tua iscrizione
 
-{% include subscription-form.html %}
-
-In caso di mancata ricezione della conferma email usando questo form,
-prova a iscriverti seguendo la [procedura
-manuale](/en/community/mailing-lists/manual-instructions/) (in inglese).
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
 
 

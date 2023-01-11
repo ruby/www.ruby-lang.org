@@ -27,9 +27,8 @@ The comp.lang.ruby 新聞組
 
 ## 立即訂閱或是取消訂閱
 
-{% include subscription-form.html %}
+https://ml.ruby-lang.org/mailman3/postorius/lists/
 
-如果您送出表格後無法收到確認信件，請嘗試以[手動方式](manual-instructions/)訂閱。
 
 
 [1]: https://www.ruby-forum.com/
