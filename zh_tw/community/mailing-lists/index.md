@@ -27,7 +27,7 @@ The comp.lang.ruby 新聞組
 
 ## 立即訂閱或是取消訂閱
 
-https://ml.ruby-lang.org/mailman3/postorius/lists/
+[立即訂閱或是取消訂閱](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 

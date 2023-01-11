@@ -42,7 +42,7 @@ termasuk daftar milis dalam bahasa Jepang.
 
 ## Mulai atau Berhenti Berlangganan
 
-https://ml.ruby-lang.org/mailman3/postorius/lists/
+[Mulai atau Berhenti Berlangganan](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 

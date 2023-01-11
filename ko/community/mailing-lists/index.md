@@ -32,7 +32,7 @@ ruby-lang.org의 일본어 리스트를 포함한 모든 메일링 리스트에 
 
 ## 구독과 해지
 
-https://ml.ruby-lang.org/mailman3/postorius/lists/
+[구독과 해지](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 

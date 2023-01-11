@@ -33,7 +33,7 @@ listy:
 
 ## Subscribe or Unsubscribe
 
-https://ml.ruby-lang.org/mailman3/postorius/lists/
+[Subscribe or Unsubscribe](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 

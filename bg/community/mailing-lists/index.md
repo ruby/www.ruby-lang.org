@@ -32,7 +32,7 @@ comp.lang.ruby дискусионна група.
 
 ## Абониране
 
-https://ml.ruby-lang.org/mailman3/postorius/lists/
+[Абониране](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 

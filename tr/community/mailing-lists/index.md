@@ -35,7 +35,7 @@ listeleri hakkında daha fazla bilgi için
 
 ## Abone Olun ya da Abonelikten Ayrılın
 
-https://ml.ruby-lang.org/mailman3/postorius/lists/
+[Abone Olun ya da Abonelikten Ayrılın](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 

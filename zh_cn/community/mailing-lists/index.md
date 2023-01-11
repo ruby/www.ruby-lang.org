@@ -26,7 +26,7 @@ comp.lang.ruby新闻组
 
 ## 订阅或退订
 
-https://ml.ruby-lang.org/mailman3/postorius/lists/
+[订阅或退订](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 
