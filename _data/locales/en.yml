@@ -122,13 +122,4 @@ news:
   monthly_archives: Archives by Month
   yearly_archive_link: "%Y Archives"
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Mailing List
-  first_name: First Name
-  last_name: Last Name
-  email: Email Address
-  action: Action
-  subscribe: Subscribe
-  unsubscribe: Unsubscribe
-  submit: Submit Form
+  

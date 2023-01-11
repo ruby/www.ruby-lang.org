@@ -121,13 +121,3 @@ news:
   monthly_archives: Archives par mois
   yearly_archive_link: Actualités de %Y
   monthly_archive_link: "%m/%Y"
-
-subscription_form:
-  list: Liste de diffusion
-  first_name: Prénom
-  last_name: Nom
-  email: e-mail
-  action: Action
-  subscribe: Subscribe
-  unsubscribe: Unsubscribe
-  submit: Valider

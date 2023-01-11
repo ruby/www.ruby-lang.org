@@ -122,13 +122,3 @@ news:
   monthly_archives: Aylara göre Arşivler
   yearly_archive_link: "%Y Arşivleri"
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: E-posta Listesi
-  first_name: Ad
-  last_name: Soyad
-  email: E-posta Adresi
-  action: Eylem
-  subscribe: Abone Ol
-  unsubscribe: Abonelikten Çık
-  submit: Formu Gönder

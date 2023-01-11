@@ -123,13 +123,4 @@ news:
   monthly_archives: Noticias por mes
   yearly_archive_link: Noticias de %Y
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Lista de correo
-  first_name: Nombre
-  last_name: Apellidos
-  email: Correo electrónico
-  action: Acción
-  subscribe: Subscribe
-  unsubscribe: Unsubscribe
-  submit: Enviar
+  

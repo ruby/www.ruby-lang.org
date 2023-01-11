@@ -118,13 +118,3 @@ news:
   monthly_archives: Archivio Mensile
   yearly_archive_link: Archivio dell'anno %Y
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Lista di discussione
-  first_name: Nome
-  last_name: Cognome
-  email: Indirizzo e-mail
-  action: Azione
-  subscribe: Subscribe
-  unsubscribe: Unsubscribe
-  submit: Invia

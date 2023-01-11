@@ -44,7 +44,7 @@ Eğer formu kullanarak bir onay e-postası alamadıysanız,
 
 [guidelines]: ruby-talk-guidelines/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
-[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
 [rubytalk]: https://rubytalk.org/

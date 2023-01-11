@@ -36,6 +36,6 @@ formulaire, essayez la [méthode manuelle](manual-instructions/).
 
 
 
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[6]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[6]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/

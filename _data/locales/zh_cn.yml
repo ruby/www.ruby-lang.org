@@ -107,13 +107,3 @@ news:
   monthly_archives: 按月归档
   yearly_archive_link: "%Y年归档"
   monthly_archive_link: "%Y年%-m月归档"
-
-subscription_form:
-  list: 邮件列表
-  first_name: 名
-  last_name: 姓
-  email: 电子邮件
-  action: 操作
-  subscribe: 订阅
-  unsubscribe: 退订
-  submit: 提交表单
