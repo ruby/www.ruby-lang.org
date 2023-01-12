@@ -29,6 +29,8 @@ The comp.lang.ruby Newsgroup
 : Those who prefer Usenet over mailing lists will want to checkout the
   [comp.lang.ruby](news:comp.lang.ruby) newsgroup. ([FAQ][clrFAQ])
 
+## Subscribe or Unsubscribe
+
 See [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 for more information about all mailing lists on ruby-lang.org,
 including the lists in Japanese language.
