@@ -148,7 +148,7 @@ programming language newer (and hopefully better) than Perl.
 (Based on an explanation from Matz in [\[ruby-talk:00394\]][ruby-talk:00394]
 on June 11, 1999.)
 
-[ruby-talk:00394]: https://web.archive.org/web/20220516220807/http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/394
+[ruby-talk:00394]: https://blade.ruby-lang.org/ruby-talk/394
 
 ### What is the history of Ruby?
 
@@ -180,7 +180,7 @@ The following is a summary of a posting made by Matz in
 > Since then, highly active mailing lists have been established and
 > web pages formed.
 
-[ruby-talk:00382]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382
+[ruby-talk:00382]: https://blade.ruby-lang.org/ruby-talk/382
 [ruby-list:15977]: https://blade.ruby-lang.org/ruby-list/15977
 
 ### Where is the Ruby Home Page?

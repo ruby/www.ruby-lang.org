@@ -19,4 +19,4 @@ seiner EMail.)
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/65418
+[1]: https://blade.ruby-lang.org/ruby-talk/65418

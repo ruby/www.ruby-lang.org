@@ -17,4 +17,4 @@ guidelines for potential authors.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/123137
+[1]: https://blade.ruby-lang.org/ruby-talk/123137
