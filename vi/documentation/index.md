@@ -29,6 +29,11 @@ việc cài đặt Ruby.
   duyệt. 15 phút của bài hướng dẫn này dành cho những người mới bắt đầu và
   muốn có cảm nhận về Ruby.
 
+[Ruby Koans][2]
+: Koans sẽ khai sáng con đường của bạn đến với Ruby. Chúng tôi sẽ hướng dẫn
+  bạn kiến thức về ngôn ngữ, cú pháp, cấu trúc và một số hàm và thư viện phổ
+  dụng của Ruby.
+
 [Why’s (Poignant) Guide to Ruby][5]
 : Một cuốn sách thú vị và độc đáo, dạy bạn Ruby qua các mẩu truyện tranh vui
   nhộn. Ban đầu được tạo ra bởi *why the lucky stiff*. Sách này được xem là
@@ -129,6 +134,7 @@ là một nơi tuyệt vời.
 
 
 [1]: https://try.ruby-lang.org/
+[2]: https://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

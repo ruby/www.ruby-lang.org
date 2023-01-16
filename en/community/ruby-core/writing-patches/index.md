@@ -49,4 +49,4 @@ But until then, following the above guidelines would help you to avoid
 frustration.
 
 
-[ruby-core-post]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
+[ruby-core-post]: https://blade.ruby-lang.org/ruby-core/25139

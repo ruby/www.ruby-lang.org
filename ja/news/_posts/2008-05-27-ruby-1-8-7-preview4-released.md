@@ -46,7 +46,7 @@ lang: ja
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/34848
+[1]: https://blade.ruby-lang.org/ruby-dev/34848
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.zip

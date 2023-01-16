@@ -21,19 +21,18 @@ Ini seharusnya mengeluarkan informasi versi Ruby yang terpasang.
 
 Ada banyak jalan untuk memasang Ruby:
 
-* Saat Anda menggunakan sistem operasi UNIX-like, menggunakan **package manager**
-  sistem adalah jalan paling mudah untuk memulai.
-  Namun, versi Ruby yang akan dipasang biasanya bukan yang terbaru.
+* Pada sebuah sistem operasi *UNIX-like*, menggunakan **package manager**
+  sistem adalah jalan paling mudah.
+  Namun, versi Ruby yang akan terpasang biasanya bukan yang terbaru.
 * **Installers** dapat digunakan untuk memasang versi Ruby tertentu
   atau banyak versi Ruby. Ada juga sebuah *installer* untuk Windows.
-* **Managers** membantu Anda untuk berpindah antar instalasi Ruby yang berbeda
+* **Managers** membantu Anda untuk berpindah antar versi Ruby yang berbeda
   pada sistem Anda.
 * Dan terakhir, Anda juga dapat **membangun Ruby dari kode sumbernya**.
 
 Pada Windows 10, Anda juga dapat menggunakan [Windows Subsystem untuk Linux][wsl]
 untuk memasang satu dari distribusi Linux yang didukung dan metode instalasi
-[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
-apapun yang tersedia pada sistem tersebut.
+apa pun yang tersedia pada sistem tersebut.
 
 Berikut adalah daftar metode instalasi yang tersedia:
 
@@ -45,14 +44,18 @@ Berikut adalah daftar metode instalasi yang tersedia:
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
   * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
+  * [Windows Package Manager](#winget)
+  * [Chocolatey package manager for Windows](#chocolatey)
   * [Other Distributions](#other-systems)
 * [Installers](#installers)
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller and Ruby Stack](#railsinstaller)
+  * [Ruby Stack](#rubystack)
 * [Managers](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
   * [RVM](#rvm)
@@ -63,7 +66,7 @@ Berikut adalah daftar metode instalasi yang tersedia:
 ## Package Management Systems
 {: #package-management-systems}
 
-Jika Anda tidak dapat mengkompilasi Ruby sendiri, dan tidak ingin menggunakan
+Jika Anda tidak dapat mengkompilasi Ruby sendiri dan tidak ingin menggunakan
 sebuah alat bantu pihak ketiga, Anda dapat menggunakan *package manager*
 sistem untuk memasang Ruby.
 
@@ -71,7 +74,7 @@ Beberapa anggota komunitas Ruby sangat menyarankan Anda untuk tidak
 menggunakan *package manager* saat memasang Ruby dan sebaiknya menggunakan
 alat bantu.
 
-Ini sangat mungkin sebagaian besar *package manager* akan memasang versi Ruby
+Ini mungkin sebagian besar *package manager* akan memasang versi Ruby
 lama ketimbang versi terbaru. Untuk menggunakan versi Ruby terbaru,
 cek nama *package* yang cocok dengan nomor versinya. Atau gunakan sebuah
 [installer][installers].
@@ -132,7 +135,7 @@ Gentoo menggunakan *portage package manager*.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-Untuk memasang versi tertentu, atur `RUBY_TARGETS` di dalam `make.conf` Anda.
+Untuk memasang versi tertentu, atur `RUBY_TARGETS` pada `make.conf` Anda.
 Lihat [Gentoo Ruby Project website][gentoo-ruby] untuk detail.
 
 
@@ -140,7 +143,7 @@ Lihat [Gentoo Ruby Project website][gentoo-ruby] untuk detail.
 {: #pacman}
 
 Arch Linux menggunakan sebuah *package manager* bernama *pacman*.
-Untuk mendapatkan Ruby, lakukan ini:
+Untuk memasang Ruby, lakukan ini:
 
 {% highlight sh %}
 $ sudo pacman -S ruby
@@ -184,13 +187,33 @@ Informasi lebih lanjut terkait Ruby dan ekosistem sekelilingnya pada FreeBSD
 dapat ditemukan di [FreeBSD Ruby Project website][freebsd-ruby].
 
 
+### OpenBSD
+{: #openbsd}
+
+OpenBSD beserta distribusinya adJ memiliki *package* untuk tiga versi *major*
+dari Ruby. Perintah berikut memperbolehkan Anda untuk melihat versi yang
+tersedia dan untuk memasangnya:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+Anda dapat memasang lebih dari satu versi *major* satu sama lain karena
+setiap versi memiliki *binary* dengan nama yang berbeda
+(contoh `ruby27`, `ruby26`).
+
+*Branch* `HEAD` dari OpenBSD *port collection* mungkin memiliki versi Ruby
+terbaru setelah beberapa hari dirilis, lihat
+[directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports].
+
+
 ### Ruby pada OpenIndiana
 {: #openindiana}
 
 Untuk memasang Ruby pada [OpenIndiana][openindiana], mohon gunakan
 Image Package Systems (IPS) *client*.
 Ini akan memasang *binary* Ruby terbaru dan RubyGems secara langsung
-dari *repository* OpenSolaris. Ini mudah:
+dari *repository* OpenIndiana. Ini mudah:
 
 {% highlight sh %}
 $ pkg install runtime/ruby
@@ -199,6 +222,30 @@ $ pkg install runtime/ruby
 Namun demikian, alat bantu pihak ketiga mungkin adalah jalan terbaik untuk
 mendapatkan versi Ruby terbaru.
 
+### Windows Package Manager
+{: #winget}
+
+Pada Windows, Anda dapat menggunakan
+[Windows Package Manager CLI](https://github.com/microsoft/winget-cli) untuk
+memasang Ruby:
+
+{% highlight sh %}
+> winget install RubyInstallerTeam.Ruby
+{% endhighlight %}
+
+### Chocolatey package manager untuk Windows
+{: #chocolatey}
+
+Pada Windows juga, Anda dapat menggunakan
+[Chocolatey Package Manager](https://chocolatey.org/install) untuk
+memasang Ruby:
+
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+Perintah di atas akan menggunakan `msys2` yang telah ada atau memasang sendiri
+untuk Ruby *development environment* yang lengkap.
 
 ### Distribusi Lainnya
 {: #other-systems}
@@ -219,7 +266,7 @@ dalam sistem yang sama; *manager* yang bersesuaian dapat membantu beralih
 antar versi Ruby yang berbeda.
 
 Jika Anda sedang merencanakan untuk mengunakan [RVM](#rvm) sebagai
-*version manager* Anda tidak perlu *installer* terpisah, ini sudah ada dengan
+*version manager*, Anda tidak perlu *installer* terpisah. Ini sudah ada dengan
 sendirinya.
 
 
@@ -229,7 +276,7 @@ sendirinya.
 [ruby-build][ruby-build] adalah sebuah *plugin* untuk [rbenv](#rbenv) yang
 memperbolehkan Anda untuk mengkompilasi dan memasang versi Ruby yang berbeda.
 ruby-build juga dapat digunakan sebagai *standalone program* tanpa rbenv.
-ruby-build tersedia untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
+ruby-build tersedia untuk macOS, Linux, dan sistem operasi *UNIX-like* lainnya.
 
 
 ### ruby-install
@@ -239,27 +286,24 @@ ruby-build tersedia untuk macOS, Linux, dan sistem operasi UNIX-like lainnya.
 dan memasang versi Ruby yang berbeda ke dalam *directory* pilihan Anda.
 [chruby](#chruby) adalah sebuah alat bantu pelengkap yang digunakan untuk
 beralih ke versi Ruby yang berbeda. ruby-install tersedia untuk macOS, Linux,
-dan sistem operasi UNIX-like lainnya.
+dan sistem operasi *UNIX-like* lainnya.
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
-Pada Windows, [RubyInstaller][rubyinstaller] memberikan apapun yang Anda
+Pada Windows, [RubyInstaller][rubyinstaller] memberikan apa pun yang Anda
 butuhkan untuk memasang Ruby *development environment* sepenuhnya.
 
 Unduh, jalankan, dan selesai!
 
 
-### RailsInstaller dan Ruby Stack
-{: #railsinstaller}
+### Ruby Stack
+{: #rubystack}
 
 Jika Anda sedang memasang Ruby untuk menggunakan Ruby on Rails,
 Anda dapat menggunakan *installer* berikut:
 
-* [RailsInstaller][railsinstaller] menggunakan [RubyInstaller][rubyinstaller]
-  tetapi memberikan alat bantu tambahan untuk pengembangan dengan Rails.
-  RailsInstaller mendukung OS X dan Windows.
 * [Bitnami Ruby Stack][rubystack] menyediakan *development environment*
   lengkap untuk Rails. Bitnami Ruby Stack mendukung macOS, Linux, Windows,
   *virtual machines*, dan *cloud images*.
@@ -268,17 +312,26 @@ Anda dapat menggunakan *installer* berikut:
 ## Managers
 {: #managers}
 
-Banyak Rubyists menggunakan Ruby *manager* untuk mengatur banyak versi Ruby.
-*Manager* memperbolehkan Anda untuk berpindah antar versi Ruby dengan mudah
+Banyak Rubyist menggunakan Ruby *manager* untuk mengatur banyak versi Ruby.
+*Manager* memperbolehkan Anda untuk beralih antar versi Ruby dengan mudah
 bahkan otomatis pada proyek dan kelebihan lainnya yang tidak didukung secara
 resmi. Meskipun demikian, Anda dapat menemukan dukungan dalam komunitas
 masing-masing.
 
 
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] adalah sebuah *extendable version manager* yang dapat
+mengatur banyak versi *language runtime* berdasarkan sebuah proyek.
+Anda akan membutuhkan *plugin* [asdf-ruby][asdf-ruby] (dimana menggunakan
+[ruby-build](#ruby-build)) untuk memasang Ruby.
+
+
 ### chruby
 {: #chruby}
 
-[chruby][chruby] memperbolehkan Anda untuk berpindah antar banyak versi Ruby.
+[chruby][chruby] memperbolehkan Anda untuk beralih antar banyak versi Ruby.
 chruby dapat mengatur Ruby yang terpasang dengan [ruby-install](#ruby-install)
 atau bahkan dari kode sumber.
 
@@ -289,7 +342,17 @@ atau bahkan dari kode sumber.
 [rbenv][rbenv] memperbolehkan Anda untuk mengatur banyak instalasi Ruby.
 Selagi rbenv tidak dapat memasang Ruby secara *default*, *plugin*
 [ruby-build](#ruby-build) dapat. Kedua alat bantu ini tersedia untuk macOS,
-Linux, atau sistem operasi UNIX-like lainnya.
+Linux, atau sistem operasi *UNIX-like* lainnya.
+
+
+### rbenv untuk Windows
+{: #rbenv-for-windows}
+
+[rbenv untuk Windows][rbenv-for-windows] memperbolehkan Anda untuk memasang
+dan mengatur banyak instalasi Ruby pada Windows. Alat bantu ini ditulis dalam
+PowerShell sehingga menyediakan sebuah jalan asli untuk menggunakan Ruby
+bagi pengguna Windows. Di samping itu, *command line interface* kompatibel
+dengan [rbenv][rbenv] pada sistem *UNIX-like*.
 
 
 ### RVM ("Ruby Version Manager")
@@ -297,7 +360,7 @@ Linux, atau sistem operasi UNIX-like lainnya.
 
 [RVM][rvm] memperbolehkan Anda untuk memasang dan mengatur banyak instalasi
 Ruby pada sistem Anda. RVM juga dapat mengatur *gemsets* yang berbeda.
-RVM tersedia untuk macOS, Linux, atau sistem operasi UNIX-like lainnya.
+RVM tersedia untuk macOS, Linux, atau sistem operasi *UNIX-like* lainnya.
 
 
 ### uru
@@ -324,21 +387,21 @@ Secara otomatis, ini akan memasang Ruby pada `/usr/local`.
 Untuk mengubahnya, tambahkan opsi `--prefix=DIR` di dalam skrip `./configure`.
 
 Anda dapat menemukan informasi lebih lanjut terkait membangun dari kode
-sumber pada [instruksi membangun Ruby][building-ruby].
+sumber pada [instruksi Building Ruby][building-ruby].
 
 Meskipun begitu, menggunakan alat bantu pihak ketiga atau *package manager*
-mungkin adalah solusi yang terbaik, karena Ruby yang terpasang tidak akan
-diatur oleh alat bantu apapun.
+mungkin adalah ide yang lebih baik, karena Ruby yang terpasang tidak akan
+diatur oleh alat bantu apa pun.
 
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
@@ -350,3 +413,6 @@ diatur oleh alat bantu apapun.
 [installers]: /id/documentation/installation/#installers
 [building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD

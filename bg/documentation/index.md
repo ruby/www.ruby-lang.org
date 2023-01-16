@@ -29,6 +29,10 @@ ruby -v
 : Интерактивно ръководство за Ruby в твоят браузър. Препоръчва се за начинаещи,
   които искат да се запознаят с езика.
 
+[Ruby Koans][2]
+: Коаните помагат с научаването на синтаксиса и структурата на Ruby,
+  както и със запознаването с някои основни функции и библиотеки.
+
 [Why’s (Poignant) Guide to Ruby][5]
 : Необичайна, но интересна книга, която ще ви научи на Ruby чрез
   истории, шеги и рисунки. Първоначално създадено от *why the lucky stiff*,
@@ -122,6 +126,7 @@ ruby -v
 е чудесно място да ги зададете.
 
 [1]: https://try.ruby-lang.org/
+[2]: https://rubykoans.com/
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

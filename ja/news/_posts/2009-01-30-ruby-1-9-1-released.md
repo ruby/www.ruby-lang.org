@@ -56,7 +56,7 @@ Ruby 1.9.1は1.8から数多くの改良が加えられています。 1.8.7以�
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45836
+[1]: https://blade.ruby-lang.org/ruby-list/45836
 [2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS
 [3]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=11
 [4]: https://bugs.ruby-lang.org
