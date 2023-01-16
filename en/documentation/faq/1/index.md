@@ -181,7 +181,7 @@ The following is a summary of a posting made by Matz in
 > web pages formed.
 
 [ruby-talk:00382]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382
-[ruby-list:15977]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/15977
+[ruby-list:15977]: https://blade.ruby-lang.org/ruby-list/15977
 
 ### Where is the Ruby Home Page?
 

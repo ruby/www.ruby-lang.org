@@ -56,11 +56,11 @@ RC1ではまだ対応が行われていない課題は、以下のURLです。
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45758
+[1]: https://blade.ruby-lang.org/ruby-list/45758
 [2]: https://cache.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/ruby-1.9.1-rc1.zip
-[5]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45759
+[5]: https://blade.ruby-lang.org/ruby-list/45759
 [6]: http://arton.no-ip.info/data/asr/Ruby-1.9.1.msi
 [7]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=9
 [8]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=7

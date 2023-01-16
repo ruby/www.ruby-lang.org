@@ -43,7 +43,7 @@ RC2のリリースのアナウンスがありました。
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45801
+[1]: https://blade.ruby-lang.org/ruby-list/45801
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip

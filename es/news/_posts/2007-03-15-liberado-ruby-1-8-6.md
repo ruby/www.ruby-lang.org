@@ -44,7 +44,7 @@ actualizarse a Ruby 1.8.6.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/43267
+[1]: https://blade.ruby-lang.org/ruby-list/43267
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.zip

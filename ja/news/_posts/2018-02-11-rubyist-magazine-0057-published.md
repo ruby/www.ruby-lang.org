@@ -26,4 +26,4 @@ lang: ja
 [1]: http://ruby-no-kai.org
 [2]: http://magazine.rubyist.net/
 [3]: http://magazine.rubyist.net/?0057
-[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/50654
+[4]: https://blade.ruby-lang.org/ruby-list/50654
