@@ -148,7 +148,7 @@ programming language newer (and hopefully better) than Perl.
 (Based on an explanation from Matz in [\[ruby-talk:00394\]][ruby-talk:00394]
 on June 11, 1999.)
 
-[ruby-talk:00394]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/394
+[ruby-talk:00394]: https://web.archive.org/web/20220516220807/http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/394
 
 ### What is the history of Ruby?
 
