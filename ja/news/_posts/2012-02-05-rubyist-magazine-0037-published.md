@@ -13,4 +13,4 @@ Magazine][2]の[0037号][3]がリリースされました([\[ruby-list:48616\]][
 [1]: https://github.com/ruby-no-kai/official/wiki
 [2]: http://jp.rubyist.net/magazine/
 [3]: http://jp.rubyist.net/magazine/?0037
-[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/48616
+[4]: https://blade.ruby-lang.org/ruby-list/48616

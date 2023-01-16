@@ -17,4 +17,4 @@ Inc][1] and RubyConf 2003!. See [\[ruby-talk:65632\]][2].
 
 
 [1]: http://rubycentral.org
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/65632
+[2]: https://blade.ruby-lang.org/ruby-talk/65632

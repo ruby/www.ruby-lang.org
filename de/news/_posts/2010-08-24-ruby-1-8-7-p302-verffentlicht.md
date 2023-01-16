@@ -57,7 +57,7 @@ Ich empfehle allen Ruby-1.8.7-Nutzern, auf p302 zu updaten.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/367769
+[1]: https://blade.ruby-lang.org/ruby-talk/367769
 [2]: {{ site.url }}/de/news/2010/08/24/xss-in-webrick-cve-2010-0541/
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz

@@ -48,4 +48,4 @@ Bu kılavuz Ruby-Core e-posta listesindeki
 kılavuza uymak düş kırıklığına uğramamanız için önemlidir.
 
 
-[ruby-core-post]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
+[ruby-core-post]: https://blade.ruby-lang.org/ruby-core/25139

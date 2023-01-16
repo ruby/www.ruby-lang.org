@@ -40,7 +40,7 @@ Ruby 1.8.7がリリースされました。 (リリースについてのアナ�
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/44986
+[1]: https://blade.ruby-lang.org/ruby-list/44986
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip

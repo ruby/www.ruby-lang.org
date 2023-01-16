@@ -52,5 +52,5 @@ Rubyコア開発陣はいくつかのプラットフォームにおけるRuby 1.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45267
-[2]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/45345
+[1]: https://blade.ruby-lang.org/ruby-list/45267
+[2]: https://blade.ruby-lang.org/ruby-list/45345

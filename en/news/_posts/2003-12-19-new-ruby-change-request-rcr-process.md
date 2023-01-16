@@ -17,7 +17,7 @@ process 3 years ago.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/88503
+[1]: https://blade.ruby-lang.org/ruby-talk/88503
 [2]: http://www.rubyconf.org
 [3]: http://www.rubyist.net/%7Ematz/slides/rc2003
 [4]: http://rcrchive.net

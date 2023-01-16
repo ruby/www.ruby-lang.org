@@ -13,5 +13,5 @@ two weeks. Non-full may continue past that, but not forever. Go to the
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/154337
+[1]: https://blade.ruby-lang.org/ruby-talk/154337
 [2]: http://www.rubyconf.org

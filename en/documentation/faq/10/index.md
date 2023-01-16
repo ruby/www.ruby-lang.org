@@ -69,7 +69,7 @@ then invoke it using:
 ruby -r eval -e0
 ~~~
 
-[ruby-talk:444]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/444
+[ruby-talk:444]: https://blade.ruby-lang.org/ruby-talk/444
 
 ### Is there a debugger for Ruby?
 

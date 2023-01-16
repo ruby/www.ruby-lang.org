@@ -13,4 +13,4 @@ lang: ja
 [1]: http://ruby-no-kai.org
 [2]: http://jp.rubyist.net/magazine/
 [3]: http://jp.rubyist.net/magazine/?0050
-[4]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/50151
+[4]: https://blade.ruby-lang.org/ruby-list/50151

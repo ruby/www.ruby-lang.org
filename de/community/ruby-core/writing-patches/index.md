@@ -47,4 +47,4 @@ auf der Ruby-Core Mailingliste übernommen und angepasst:
 In Zukunft wechseln wir vielleicht auf einen Git-Workflow mit Pull-Requests.
 Aber bis dahin wird das Befolgen dieser Richtlinien Frustration vermeiden.
 
-[ruby-core-post]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
+[ruby-core-post]: https://blade.ruby-lang.org/ruby-core/25139

@@ -141,7 +141,7 @@ $ CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
 There may also be problems with HP's native `sed`.
 He recommends installing the GNU equivalent.
 
-[ruby-talk:5041]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/5401
+[ruby-talk:5041]: https://blade.ruby-lang.org/ruby-talk/5401
 
 ### Are precompiled binaries available?
 
