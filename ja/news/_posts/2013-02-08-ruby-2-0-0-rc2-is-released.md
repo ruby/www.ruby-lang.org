@@ -107,6 +107,6 @@ preview と rc1 を試してくれた皆さんに感謝します。 相変わら
 [10]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy
 [11]: https://bugs.ruby-lang.org/issues/6679
 [12]: https://blade.ruby-lang.org/ruby-dev/46547
-[13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
-[14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
+[13]: https://blade.ruby-lang.org/ruby-core/48984
+[14]: https://blade.ruby-lang.org/ruby-core/49119
 [15]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft

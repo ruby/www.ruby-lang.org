@@ -45,4 +45,4 @@ lang: ko
 위의 지침을 따른다면 낙심할 일을 줄일 수 있을 겁니다.
 
 
-[ruby-core-post]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
+[ruby-core-post]: https://blade.ruby-lang.org/ruby-core/25139

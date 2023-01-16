@@ -130,6 +130,6 @@ chaleureusement.
 [9]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy
 [10]: https://bugs.ruby-lang.org/issues/6679
 [11]: https://blade.ruby-lang.org/ruby-dev/46547
-[12]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
-[13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
+[12]: https://blade.ruby-lang.org/ruby-core/48984
+[13]: https://blade.ruby-lang.org/ruby-core/49119
 [14]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
