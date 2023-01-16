@@ -157,7 +157,7 @@ Xem thêm thông tin về [Ruby’s issue tracker][10].
 [8]: https://github.com/shyouhei/ruby/wiki/committerhowto
 [9]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/
-[11]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/25139
+[11]: https://blade.ruby-lang.org/ruby-core/25139
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
 [14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

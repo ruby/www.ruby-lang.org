@@ -189,4 +189,4 @@ def primes(limit)
 end
 ~~~
 
-[ruby-talk:4482]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/4482
+[ruby-talk:4482]: https://blade.ruby-lang.org/ruby-talk/4482

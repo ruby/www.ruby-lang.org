@@ -42,7 +42,7 @@ The Ruby Visual Identity Team의 구성원을 소개합니다.
 
 
 
-[1]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/131284
+[1]: https://blade.ruby-lang.org/ruby-talk/131284
 [2]: http://redhanded.hobix.com/redesign2005/
 [3]: http://radiantcms.org
 [4]: http://rubyforge.org/mailman/listinfo/vit-discuss/

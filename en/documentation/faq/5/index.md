@@ -234,4 +234,4 @@ combine(:it1, :it2) do |x|
 end
 ~~~
 
-[ruby-talk:5252]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/5252
+[ruby-talk:5252]: https://blade.ruby-lang.org/ruby-talk/5252

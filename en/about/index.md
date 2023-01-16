@@ -224,7 +224,7 @@ For a more complete list, see [Awesome Rubies][awesome-rubies].
 
 
 [matz]: http://www.rubyist.net/~matz/
-[blade]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2773
+[blade]: https://blade.ruby-lang.org/ruby-talk/2773
 [ror]: http://rubyonrails.org/
 [linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [artima]: http://www.artima.com/intv/closures2.html
