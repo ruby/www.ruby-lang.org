@@ -217,7 +217,7 @@ Merci à tous et à toutes !
 [11]: http://www.infoq.com/news/2012/11/ruby-20-preview1
 [12]: http://jp.rubyist.net/magazine/?0041-200Special
 [13]: https://bugs.ruby-lang.org/issues/6679
-[14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
+[14]: https://blade.ruby-lang.org/ruby-dev/46547
 [15]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [16]: https://bugs.ruby-lang.org/issues/6670
 [17]: https://bugs.ruby-lang.org/issues/2152

@@ -142,7 +142,7 @@ mir bei dieser Veröffentlichung geholfen haben, sehr dankbar.
 [10]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html
 [11]: https://speakerdeck.com/nagachika/rubyist-enumeratorlazy
 [12]: https://bugs.ruby-lang.org/issues/6679
-[13]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46547
+[13]: https://blade.ruby-lang.org/ruby-dev/46547
 [14]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/48984
 [15]: http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/49119
 [16]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
