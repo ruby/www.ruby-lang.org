@@ -9,7 +9,7 @@ lang: pt
 
 {% assign release = site.data.releases | where: "version", "3.2.0" | first %}
 
-Estamos contentes em anunciar o lançamento do Ruby. Ruby 3.2 adiciona muitas funcionalidades e melhorias de desempenho.
+Estamos contentes em anunciar o lançamento do Ruby {{ release.version }}. Ruby 3.2 adiciona muitas funcionalidades e melhorias de desempenho.
 
 ## Suporte a WebAssembly com WASI
 
