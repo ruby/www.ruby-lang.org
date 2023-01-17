@@ -118,13 +118,3 @@ news:
   monthly_archives: Archiv nach Monat
   yearly_archive_link: Archiv für %Y
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Mailingliste
-  first_name: Vorname
-  last_name: Nachname
-  email: E-Mail
-  action: Vorgang
-  subscribe: Anmelden
-  unsubscribe: Abmelden
-  submit: Absenden

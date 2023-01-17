@@ -33,14 +33,10 @@ listy:
 
 ## Subscribe or Unsubscribe
 
-{% include subscription-form.html %}
-
-If you fail to receive a confirmation e-mail using the form, try
-subscribing the [manual
-way](/en/community/mailing-lists/manual-instructions/).
+[Subscribe or Unsubscribe](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[5]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[6]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[6]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/

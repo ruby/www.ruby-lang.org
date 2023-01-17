@@ -205,7 +205,7 @@ There are several mailing lists talking about Ruby. See the
 page for more information.
 
 You can search the mailing list archives using
-[http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml](http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml).
+[https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/](https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/).
 (This is the URL for the ruby-talk list, munge as required for the others).
 
 ### How can I thread the mailing list in mutt?

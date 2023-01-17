@@ -481,51 +481,6 @@ hr.hidden-modern { display: none; }
           box-shadow: 0 2px 0 #c2c2b8;
 }
 
-/* Subscription Form */
-
-#subscriptions-form table input {
-  -webkit-appearance: none;
-  font-size: 13px;
-  line-height: 13px;
-  padding: 6px 6px;
-  border: 1px solid #b0b0a4;
-  background-position: 6px center !important;
-  outline: none;
-  -webkit-box-shadow: 0 1px 2px #ddd inset;
-     -moz-box-shadow: 0 1px 2px #ddd inset;
-          box-shadow: 0 1px 2px #ddd inset;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-}
-
-#subscriptions-form { margin: 20px 0 30px 0; }
-
-#subscriptions-form table input {
-  width: 260px;
-  font-size: 14px;
-}
-
-#subscriptions-form table input,
-#subscriptions-form table select {
-  margin-left: 15px;
-  min-width: 260px;
-}
-
-#subscriptions-form table td {
-  padding: 0;
-  min-width: 120px;
-}
-
-#subscriptions-form table tr {
-  font-size: 14px;
-  margin-top: 2px;
-  background: #f6f6f6;
-  padding: 10px 2%;
-  color: #666;
-  float: left;
-}
-
 .release-list th,
 .release-list td {
   padding: 2px 2em 2px 0px;
