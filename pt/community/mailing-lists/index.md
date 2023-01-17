@@ -33,26 +33,13 @@ Ruby &lt;&lt; portuguese
 : Esta é a lista de discussão oficial de ruby em Portugal.
   ([Arquivos no Google Groups][ruby-pt])
 
-**Subscreva o ruby &lt;&lt; portuguese**
-
-<form action="http://groups-beta.google.com/group/ruby-pt/boxsubscribe" markdown="1">
-Email: <input type="text" name="email" required="required" />
-
-<div class="buttons">
-<input class="button" type="submit" name="sub" value="Subscrever" />
-</div>
-</form>
-
 ## Inscrever ou Desinscrever
 
-{% include subscription-form.html %}
-
-Se você não receber um e-mail de confirmação após utilizar o formulário,
-tente se inscrever [manualmente](manual-instructions/).
+[Inscrever ou Desinscrever](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 
-[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
 [ruby-pt]: http://groups.google.com/group/ruby-pt

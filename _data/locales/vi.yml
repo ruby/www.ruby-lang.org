@@ -120,13 +120,3 @@ news:
   monthly_archives: Lưu trữ bằng Tháng
   yearly_archive_link: Lưu trữ %Y
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Mailing List
-  first_name: Tên
-  last_name: Họ
-  email: Email
-  action: Hành động
-  subscribe: Đăng kí
-  unsubscribe: Hủy đăng kí
-  submit: Nộp đơn
