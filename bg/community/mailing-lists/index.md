@@ -32,13 +32,10 @@ comp.lang.ruby дискусионна група.
 
 ## Абониране
 
-{% include subscription-form.html %}
-
-Ако имате проблем с потвърждаването на заявката, можете да използвате
-[ръчно записване](manual-instructions/).
+[Абониране](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 
-[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/

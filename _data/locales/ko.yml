@@ -107,13 +107,3 @@ news:
   monthly_archives: 월별 아카이브
   yearly_archive_link: "%Y년"
   monthly_archive_link: "%Y년 %m월"
-
-subscription_form:
-  list: 메일링 리스트
-  first_name: 이름
-  last_name: 성
-  email: 이메일 주소
-  action: 할일
-  subscribe: 구독하기
-  unsubscribe: 구독 해지
-  submit: 제출하기

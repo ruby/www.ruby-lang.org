@@ -121,13 +121,3 @@ news:
   monthly_archives: Архивы по месяцам
   yearly_archive_link: Архивы %Y
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Почтовая рассылка
-  first_name: Имя
-  last_name: Фамилия
-  email: Эл. почта
-  action: Действие
-  subscribe: Подписаться
-  unsubscribe: Отписаться
-  submit: Отправить

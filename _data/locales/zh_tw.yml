@@ -107,13 +107,3 @@ news:
   monthly_archives: 按月份彙整
   yearly_archive_link: "%Y 年彙整"
   monthly_archive_link: "%Y 年 %-m 月彙整"
-
-subscription_form:
-  list: 郵件論壇
-  first_name: 名
-  last_name: 姓
-  email: 電子郵件
-  action: Action
-  subscribe: 訂閱
-  unsubscribe: 退訂
-  submit: 送出表格
