@@ -118,13 +118,3 @@ news:
   monthly_archives: Архив по месец
   yearly_archive_link: "%Y"
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Пощенски списък
-  first_name: Име
-  last_name: Фамилия
-  email: Email адрес
-  action: Действие
-  subscribe: Записване
-  unsubscribe: Отписване
-  submit: Изпрати

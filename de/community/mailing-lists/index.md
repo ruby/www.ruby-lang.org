@@ -44,18 +44,15 @@ einschließlich der Listen in japanischer Sprache.
 
 ## An- oder Abmelden
 
-{% include subscription-form.html %}
-
-Sofern die Anmeldung über das Webformular nicht klappt, kannst du dich
-auch [manuell anmelden](manual-instructions/).
+[An- oder Abmelden](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 
 [guidelines]: /en/community/mailing-lists/ruby-talk-guidelines/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
-[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
 [6]: http://lists.ruby-lang.org/cgi-bin/mailman/listinfo/ruby-de
 [7]: http://lists.ruby-lang.org/pipermail/ruby-de/
 [8]: http://planet.ruby-portal.de/ruby-de.html

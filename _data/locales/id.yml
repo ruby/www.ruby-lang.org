@@ -121,13 +121,3 @@ news:
   monthly_archives: Arsip Bulanan
   yearly_archive_link: Tahun %Y
   monthly_archive_link: "%B %Y"
-
-subscription_form:
-  list: Nama Milis
-  first_name: Nama Depan
-  last_name: Nama Belakang
-  email: Alamat E-mail
-  action: Tindakan
-  subscribe: Subscribe
-  unsubscribe: Unsubscribe
-  submit: Kirim

@@ -32,16 +32,13 @@ ruby-lang.org의 일본어 리스트를 포함한 모든 메일링 리스트에 
 
 ## 구독과 해지
 
-{% include subscription-form.html %}
-
-만약 확인 이메일을 받지 못하셨다면,
-[수동으로](manual-instructions/) 구독하세요.
+[구독과 해지](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 
 [guidelines]: /en/community/mailing-lists/ruby-talk-guidelines/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
-[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
 [rubytalk]: https://rubytalk.org/

@@ -32,13 +32,10 @@ Ruby-CVS
 
 ## Подписаться или не подписаться
 
-{% include subscription-form.html %}
-
-Если вы не получили письма с подтверждением используя форму выше,
-попробуйте подписаться [вручную](manual-instructions/).
+[Подписаться или не подписаться](https://ml.ruby-lang.org/mailman3/postorius/lists/)
 
 
 
-[3]: http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml
-[4]: http://blade.nagaokaut.ac.jp/ruby/ruby-core/index.shtml
-[5]: http://lists.ruby-lang.org/pipermail/ruby-doc/
+[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
