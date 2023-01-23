@@ -108,13 +108,18 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 
 このページには以下のパッケージマネージャが記述されています。
 
-* [apt (Debian or Ubuntu)](#apt)
-* [apt (Windows WSL Ubuntu)](#apt-wsl)
-* [yum (CentOS, Fedora, or RHEL)](#yum)
-* [portage (Gentoo)](#gentoo)
-* [pacman (Arch Linux)](#pacman)
-* [Homebrew (macOS)](#homebrew)
-* [Solaris, OpenIndiana](#solaris)
+  * [Debian, Ubuntu](#apt)
+	* [CentOS, Fedora,RHEL](#yum)
+	* [Snap](#snap)
+	* [Gentoo](#portage)
+	* [Arch Linux](#pacman)
+	* [macOS](#homebrew)
+	* [FreeBSD](#pkg)
+	* [OpenBSD](#doas)
+	* [OpenIndiana](#openindiana)
+	* [Windows Package manager](#winget)
+	* [Chocolatey package manager for Windows](#choco)
+	* [Other Distribution](#other)
 
 
 ### apt (Debian or Ubuntu)
@@ -124,17 +129,8 @@ Debian GNU/Linux および Ubuntu は apt というパッケージマネージ�
 これはこのように実行することができます:
 
 {% highlight sh %}
-$ sudo apt-get install ruby
+$ sudo apt-get install ruby-full
 {% endhighlight %}
-
-これを書いている時点では、 Debian と Ubuntu の `ruby` パッケージは古い Ruby 2.3.1 を提供しています。
-
-### apt (Windows WSL Ubuntu)
-{: #apt-wsl }
-
-WSL(Windows Subsystem for Linux)を使うとWindows上でLinux環境をインストールすることができます。インストールしたLinux上で、前述の [rbenv](#rbenv) やパッケージ管理システム [apt](#apt) など、Linux/UNIX向けツールを利用することでRuby開発環境を構築できます。
-
-WSLをインストールする方法は [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) のページに書かれています。
 
 ### yum (CentOS, Fedora, or RHEL)
 {: #yum}
@@ -148,6 +144,22 @@ $ sudo yum install ruby
 
 インストールされるバージョンは、一般に、特定のディストリビューションのバージョンがリリースされた時点での、Ruby の最新バージョンです。
 
+### snap(Ubuntu または他のLinux distribution)
+{: #snap}
+
+SnapはCanonialによって開発されたパッケージ管理システムです。こちらはUbuntu上で利用が可能な点に加えて他の多数のLinuc distributionでも動かすことができます。
+以下のように実行します。
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+Rubyにはいくつかのマイナーシリーズがあります。例えば以下のように実行するとRuby2.3に切り替えることが可能です。
+
+{% highlight sh %}
+$ sudo snap switch ruby --channnell=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 ### portage (Gentoo)
 {: #portage}
@@ -173,57 +185,80 @@ Ruby を手に入れるには、次のようにしてください:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
+こちらはRubyの最新の安定版をインストールすることを推奨します。
 
 ### Homebrew (macOS)
 {: #homebrew}
 
-Ruby 2.0.0 は OS X El Capitan、Yosemite および Mavericks に含まれています。
-また、OS X Mountain Lion、Lion および Snow Leopard には 1.8.7 が含まれています。
+Ruby2.0以降はEI Capian(10.11)のリリース以降よりMacOSに始めから含まれています。
+[Homebrew](https://brew.sh/)はmacOSで利用されているパッケージ管理システムです。
+Homebrewを使うことでRubyを簡単にインストールできます。
 
-すでに 2.0 も 1.8 も古いバージョンです。
-そのため、Ruby の最新バージョンをインストールするためのいくつかの方法があります。
-
-Ruby コミュニティにいる大半の macOS ユーザは Ruby をインストールするためにサードパーティ製のツールを使用しています。
-しかし、いくつかのパッケージマネージャが Ruby をサポートしています。
-
-多くの macOS ユーザはパッケージマネージャとして [Homebrew][homebrew] を使っています。
-これを使うと本当に簡単に Ruby を手に入れることができます:
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-また、 macOS は Unix ベースなので、ソースコードをダウンロードしてインストールするのも、
-他の方法と同じように簡単で効果的な方法です。
-macOS 上で新しい Ruby のバージョンをインストールする手助けのために、
-サードパーティ製ツールを使うことも良い方法だと考えられます。
+こちらはRubyの最新の安定版をインストールすることを推奨します。
 
-
-### Solaris と OpenIndiana での Ruby
-{: #solaris}
-
-[Sunfreeware][sunfreeware] で Solaris 8 から 10 用の Ruby 1.8.7 が使用できます。
-Blastwave で Ruby 1.8.7 が使用できます。
-[Sunfreeware][sunfreeware] で Ruby 1.9.2p0 も使用できますが、これは古いバージョンです。
-サードパーティ製ツールを使用することで最新バージョンの Ruby を手に入れることができます。
-
-[OpenIndiana][openindiana] で Ruby をインストールするには、
-[Image Packaging System (IPS)][opensolaris-pkg] クライアントを使ってください。
-これは Ruby バイナリと RubyGems を直接 OpenSolaris ネットワークリポジトリからインストールします:
+### FreeBSD
+{: #pkg}
+FreeBSDでは、Rubyをインストールする方法として、パッケージ化されたものとソースベースのものの両方が用意されています。プリビルドパッケージはpkgツールでインストールできます。
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install ruby
 {% endhighlight %}
 
-前述の通り、サードパーティツールを使うことが最新バージョンの Ruby を手に入れるための良い方法です。
+[Ports Collection](https://docs.freebsd.org/en/books/handbook/ports/#ports-using)を使用してRubyをインストールする場合、ソースベースの方法を使用することが可能です。
+こちらはビルドの設定ツールをカスタマイズしたい場合に便利です。
 
+FreeBSDにおけるRubyと関連するエコシステムのもっと詳しい情報は[FreeBSD Ruby Projects website](https://wiki.freebsd.org/Ruby) で確認が可能です。 
 
-### 他のディストリビューション
+### OpenBSD
+{: #doas}
+OpenBSDやそのディストリビューションであるadJには、Rubyの3つの主要なバージョンに対応したパッケージが用意されています。以下のコマンドで、利用可能なバージョンを確認し、インストールすることができます。
 
-他のシステム上でも、あなたの Linux ディストリビューションのパッケージマネージャ用のパッケージリポジトリから
-Ruby を探すことができる可能性があります。
-また、サードパーティ製ツールを使うことがおそらくは正しい選択です。
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
 
+複数のメジャーバージョンを並列でインストールすることができます。なぜかというと、それらのバイナリは異なる名前を持っているからです (例: ruby27, ruby26)。
+
+`OpenBSD` のportsコレクションの `HEAD` ブランチには、このプラットフォーム用のRubyの最新版がリリースされてから一定期間経ったものが含まれている可能性があり、[directory lang/ruby in the most recent ports collection](https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD)を確認してください。
+
+### Ruby on OpenIndiana
+{: #openindiana}
+[OpenIndiana](https://www.openindiana.org/)にRubyをインストールするには、ImagePackagingSystem(IPS)クライアントを利用してください。これは、RubyバイナリとRubyGemsをOpenIndianaのリポジトリから直接インストールするものです。簡単です。
+
+{% highlight sh %}
+$ pkg install runtime/ruby
+{% endhighlight %}
+
+しかし、最新版のRubyをインストールするにはサードパーティツールを使う方が良いかもしれません。
+
+### Windows Package Manager
+{: #winget}
+WindowsでRubyをインストールするには[Windows Package Manager CLI](https://github.com/microsoft/winget-cli)を利用します。
+
+{% highlight sh %}
+> winget install RubyInstallTeam.Ruby
+{% endhighlight %}
+
+### Chocolatey package manager for Windows
+{: #choco}
+同じくWindowsでは[Chocolatey Package Manager](https://chocolatey.org/install) を利用してRubyのインストールが可能です。
+ 
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+既存のmsys2を再利用するか、独自のものをインストールして完全なRuby開発環境を構築します。
+
+### その他のディストリビューション
+{: #other}
+その他のシステムでは，お使いのLinuxディストリビューションのマネージャのパッケージリポジトリを検索して，Rubyを探すことができます。
+もしくはサードパーティのインストーラを使うこともできます．
+ 
 
 ## ソースからのビルド
 {: #building-from-source}
