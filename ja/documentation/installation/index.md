@@ -109,17 +109,17 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 このページには以下のパッケージマネージャが記述されています。
 
   * [Debian, Ubuntu](#apt)
-  * [CentOS, Fedora,RHEL](#yum)
-  * [Snap](#snap)
-  * [Gentoo](#portage)
-  * [Arch Linux](#pacman)
-  * [macOS](#homebrew)
-  * [FreeBSD](#pkg)
-  * [OpenBSD](#doas)
-  * [OpenIndiana](#openindiana)
-  * [Windows Package manager](#winget)
-  * [Chocolatey package manager for Windows](#choco)
-  * [Other Distribution](#other)
+	* [CentOS, Fedora,RHEL](#yum)
+	* [Snap](#snap)
+	* [Gentoo](#portage)
+	* [Arch Linux](#pacman)
+	* [macOS](#homebrew)
+	* [FreeBSD](#pkg)
+	* [OpenBSD](#doas)
+	* [OpenIndiana](#openindiana)
+	* [Windows Package manager](#winget)
+	* [Chocolatey package manager for Windows](#choco)
+	* [Other Distribution](#other)
 
 
 ### apt (Debian or Ubuntu)
@@ -144,20 +144,20 @@ $ sudo yum install ruby
 
 インストールされるバージョンは、一般に、特定のディストリビューションのバージョンがリリースされた時点での、Ruby の最新バージョンです。
 
-### snap (Ubuntu やその他の Linux distribution)
+### snap(Ubuntu または他のLinux distribution)
 {: #snap}
 
-SnapはCanonialによって開発されたパッケージ管理システムです。こちらはUbuntu上で利用が可能な点に加えて他の多数のLinux distributionでも動かすことができます。
-以下のように利用できます:
+SnapはCanonialによって開発されたパッケージ管理システムです。こちらはUbuntu上で利用が可能な点に加えて他の多数のLinuc distributionでも動かすことができます。
+以下のように実行します。
 
 {% highlight sh %}
 $ sudo snap install ruby --classic
 {% endhighlight %}
 
-マイナーシリーズごとの channel が用意されています。例えば以下を実行するとRuby 2.3に切り替えることが可能です。
+Rubyにはいくつかのマイナーシリーズがあります。例えば以下のように実行するとRuby2.3に切り替えることが可能です。
 
 {% highlight sh %}
-$ sudo snap switch ruby --channnel=2.3/stable
+$ sudo snap switch ruby --channnell=2.3/stable
 $ sudo snap refresh
 {% endhighlight %}
 
@@ -190,8 +190,9 @@ $ sudo pacman -S ruby
 ### Homebrew (macOS)
 {: #homebrew}
 
-El Capitan (10.11) のリリース以降、macOS には Ruby 2.0 以上が同梱されています。
-[Homebrew](https://brew.sh/) は macOS で広く利用されているパッケージ管理システムです。Homebrew で Ruby をインストールするのは下記のように簡単です:
+Ruby2.0以降はEI Capian(10.11)のリリース以降よりMacOSに始めから含まれています。
+[Homebrew](https://brew.sh/)はmacOSで利用されているパッケージ管理システムです。
+Homebrewを使うことでRubyを簡単にインストールできます。
 
 
 {% highlight sh %}
@@ -208,9 +209,10 @@ FreeBSDでは、Rubyをインストールする方法として、パッケージ
 $ pkg install ruby
 {% endhighlight %}
 
-ports を利用してソースコードからインストールする場合、[Ports Collection](https://docs.freebsd.org/en/books/handbook/ports/#ports-using) を利用してください。この方法はビルド設定をカスタマイズする場合に便利です。
+[Ports Collection](https://docs.freebsd.org/en/books/handbook/ports/#ports-using)を使用してRubyをインストールする場合、ソースベースの方法を使用することが可能です。
+こちらはビルドの設定ツールをカスタマイズしたい場合に便利です。
 
-FreeBSDにおけるRubyとそのエコシステムの詳しい情報は [FreeBSD Ruby Projects website](https://wiki.freebsd.org/Ruby) で確認できます。
+FreeBSDにおけるRubyと関連するエコシステムのもっと詳しい情報は[FreeBSD Ruby Projects website](https://wiki.freebsd.org/Ruby) で確認が可能です。 
 
 ### OpenBSD
 {: #doas}
@@ -220,13 +222,13 @@ OpenBSDやそのディストリビューションであるadJには、Rubyの3�
 $ doas pkg_add ruby
 {% endhighlight %}
 
-複数のメジャーバージョンを共存させインストールすることができます。それらのバイナリは異なる名前を持っているからです (例: ruby27, ruby26)。
+複数のメジャーバージョンを並列でインストールすることができます。なぜかというと、それらのバイナリは異なる名前を持っているからです (例: ruby27, ruby26)。
 
-リリース間も無い最新版の Ruby は OpenBSD の ports collection の `HEAD` ブランチで提供されている場合があります。 [最新 ports collections の lang/ruby](https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD) もあわせて確認してください。
+`OpenBSD` のportsコレクションの `HEAD` ブランチには、このプラットフォーム用のRubyの最新版がリリースされてから一定期間経ったものが含まれている可能性があり、[directory lang/ruby in the most recent ports collection](https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD)を確認してください。
 
 ### Ruby on OpenIndiana
 {: #openindiana}
-[OpenIndiana](https://www.openindiana.org/) に Ruby をインストールするには、Image Packaging System (IPS) クライアントを利用してください。これは、 Ruby バイナリと RubyGems  をOpenIndiana のリポジトリから直接インストールするものです。簡単です:
+[OpenIndiana](https://www.openindiana.org/)にRubyをインストールするには、ImagePackagingSystem(IPS)クライアントを利用してください。これは、RubyバイナリとRubyGemsをOpenIndianaのリポジトリから直接インストールするものです。簡単です。
 
 {% highlight sh %}
 $ pkg install runtime/ruby
@@ -245,7 +247,7 @@ WindowsでRubyをインストールするには[Windows Package Manager CLI](htt
 ### Chocolatey package manager for Windows
 {: #choco}
 同じくWindowsでは[Chocolatey Package Manager](https://chocolatey.org/install) を利用してRubyのインストールが可能です。
-
+ 
 {% highlight sh %}
 > choco install ruby
 {% endhighlight %}
@@ -256,7 +258,7 @@ WindowsでRubyをインストールするには[Windows Package Manager CLI](htt
 {: #other}
 その他のシステムでは，お使いのLinuxディストリビューションのマネージャのパッケージリポジトリを検索して，Rubyを探すことができます。
 もしくはサードパーティのインストーラを使うこともできます．
-
+ 
 
 ## ソースからのビルド
 {: #building-from-source}
