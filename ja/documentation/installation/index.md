@@ -109,17 +109,17 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
 このページには以下のパッケージマネージャが記述されています。
 
   * [Debian, Ubuntu](#apt)
-	* [CentOS, Fedora,RHEL](#yum)
-	* [Snap](#snap)
-	* [Gentoo](#portage)
-	* [Arch Linux](#pacman)
-	* [macOS](#homebrew)
-	* [FreeBSD](#pkg)
-	* [OpenBSD](#doas)
-	* [OpenIndiana](#openindiana)
-	* [Windows Package manager](#winget)
-	* [Chocolatey package manager for Windows](#choco)
-	* [Other Distribution](#other)
+  * [CentOS, Fedora,RHEL](#yum)
+  * [Snap](#snap)
+  * [Gentoo](#portage)
+  * [Arch Linux](#pacman)
+  * [macOS](#homebrew)
+  * [FreeBSD](#pkg)
+  * [OpenBSD](#doas)
+  * [OpenIndiana](#openindiana)
+  * [Windows Package manager](#winget)
+  * [Chocolatey package manager for Windows](#choco)
+  * [Other Distribution](#other)
 
 
 ### apt (Debian or Ubuntu)
