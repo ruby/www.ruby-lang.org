@@ -220,7 +220,7 @@ OpenBSDやそのディストリビューションであるadJには、Rubyの3�
 $ doas pkg_add ruby
 {% endhighlight %}
 
-複数のメジャーバージョンを並列でインストールすることができます。なぜかというと、それらのバイナリは異なる名前を持っているからです (例: ruby27, ruby26)。
+複数のメジャーバージョンを共存させインストールすることができます。それらのバイナリは異なる名前を持っているからです (例: ruby27, ruby26)。
 
 `OpenBSD` のportsコレクションの `HEAD` ブランチには、このプラットフォーム用のRubyの最新版がリリースされてから一定期間経ったものが含まれている可能性があり、[directory lang/ruby in the most recent ports collection](https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD)を確認してください。
 
