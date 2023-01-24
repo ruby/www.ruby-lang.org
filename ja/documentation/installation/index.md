@@ -147,7 +147,7 @@ $ sudo yum install ruby
 ### snap (Ubuntu やその他の Linux distribution)
 {: #snap}
 
-SnapはCanonialによって開発されたパッケージ管理システムです。こちらはUbuntu上で利用が可能な点に加えて他の多数のLinuc distributionでも動かすことができます。
+SnapはCanonialによって開発されたパッケージ管理システムです。こちらはUbuntu上で利用が可能な点に加えて他の多数のLinux distributionでも動かすことができます。
 以下のように実行します。
 
 {% highlight sh %}
