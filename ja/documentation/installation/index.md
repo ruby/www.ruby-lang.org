@@ -144,7 +144,7 @@ $ sudo yum install ruby
 
 インストールされるバージョンは、一般に、特定のディストリビューションのバージョンがリリースされた時点での、Ruby の最新バージョンです。
 
-### snap(Ubuntu または他のLinux distribution)
+### snap (Ubuntu やその他の Linux distribution)
 {: #snap}
 
 SnapはCanonialによって開発されたパッケージ管理システムです。こちらはUbuntu上で利用が可能な点に加えて他の多数のLinuc distributionでも動かすことができます。
