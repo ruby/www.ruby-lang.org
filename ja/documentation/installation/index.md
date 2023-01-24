@@ -191,8 +191,7 @@ $ sudo pacman -S ruby
 {: #homebrew}
 
 El Capitan (10.11) のリリース以降、macOS には Ruby 2.0 以上が同梱されています。
-[Homebrew](https://brew.sh/)はmacOSで利用されているパッケージ管理システムです。
-Homebrewを使うことでRubyを簡単にインストールできます。
+[Homebrew](https://brew.sh/) は macOS で広く利用されているパッケージ管理システムです。Homebrew で Ruby をインストールするのは下記のように簡単です:
 
 
 {% highlight sh %}
