@@ -226,7 +226,7 @@ $ doas pkg_add ruby
 
 ### Ruby on OpenIndiana
 {: #openindiana}
-[OpenIndiana](https://www.openindiana.org/)にRubyをインストールするには、ImagePackagingSystem(IPS)クライアントを利用してください。これは、RubyバイナリとRubyGemsをOpenIndianaのリポジトリから直接インストールするものです。簡単です。
+[OpenIndiana](https://www.openindiana.org/) に Ruby をインストールするには、Image Packaging System (IPS) クライアントを利用してください。これは、 Ruby バイナリと RubyGems  をOpenIndiana のリポジトリから直接インストールするものです。簡単です:
 
 {% highlight sh %}
 $ pkg install runtime/ruby
