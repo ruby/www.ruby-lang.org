@@ -210,7 +210,7 @@ $ pkg install ruby
 
 ports を利用してソースコードからインストールする場合、[Ports Collection](https://docs.freebsd.org/en/books/handbook/ports/#ports-using) を利用してください。この方法はビルド設定をカスタマイズする場合に便利です。
 
-FreeBSDにおけるRubyと関連するエコシステムのもっと詳しい情報は[FreeBSD Ruby Projects website](https://wiki.freebsd.org/Ruby) で確認が可能です。 
+FreeBSDにおけるRubyとそのエコシステムの詳しい情報は [FreeBSD Ruby Projects website](https://wiki.freebsd.org/Ruby) で確認できます。
 
 ### OpenBSD
 {: #doas}
