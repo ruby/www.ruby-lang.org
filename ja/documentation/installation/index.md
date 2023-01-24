@@ -154,7 +154,7 @@ SnapはCanonialによって開発されたパッケージ管理システムで�
 $ sudo snap install ruby --classic
 {% endhighlight %}
 
-Rubyにはいくつかのマイナーシリーズがあります。例えば以下のように実行するとRuby2.3に切り替えることが可能です。
+マイナーシリーズごとの channel が用意されています。例えば以下を実行するとRuby 2.3に切り替えることが可能です。
 
 {% highlight sh %}
 $ sudo snap switch ruby --channnell=2.3/stable
