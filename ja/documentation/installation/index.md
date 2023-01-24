@@ -157,7 +157,7 @@ $ sudo snap install ruby --classic
 マイナーシリーズごとの channel が用意されています。例えば以下を実行するとRuby 2.3に切り替えることが可能です。
 
 {% highlight sh %}
-$ sudo snap switch ruby --channnell=2.3/stable
+$ sudo snap switch ruby --channnel=2.3/stable
 $ sudo snap refresh
 {% endhighlight %}
 
