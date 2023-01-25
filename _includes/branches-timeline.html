@@ -1,0 +1,17 @@
+<figure>
+  <figcaption>
+    <h3>Ruby Lifecycle Timelines</h3>
+  </figcaption>
+  <style>
+    rect[fill="#ff0000"] {
+      transform: translate(0,-9px);
+      height: calc(5 * 41px);
+      width: 1px;
+    }
+  </style>
+  <div id="lifecycle-timeline" style="height: 344px"></div>
+</figure>
+
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/javascripts/branch-timeline.js"></script>
+{% include branches.json.html %}
