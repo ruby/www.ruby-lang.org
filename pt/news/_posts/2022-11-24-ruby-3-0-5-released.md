@@ -42,7 +42,7 @@ Veja o [log de commits](https://github.com/ruby/ruby/compare/v3_0_4...v3_0_5) pa
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Comentário da Release
 
 Muitos committers, desenvolvedores, e usuários que forneceram bug reports ajudaram-nos a fazer esta release.
 Obrigado por suas contribuições.
