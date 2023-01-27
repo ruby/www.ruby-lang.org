@@ -14,7 +14,7 @@ lang: zh_cn
 
 * Linux/UNIX 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）或使用系统中的包管理系统。
 * macOS 平台，可以使用第三方工具（如 [rbenv][rbenv] 或 [RVM][rvm]）。
-* Windows 平台，可以使用 [RubyInstaller][rubyinstaller]。
+* Windows 平台，可以使用 [RubyInstaller][rubyinstaller]。中国大陆用户可以访问 [RubyInstaller.cn][rubyinstaller.cn]，其中下载链接全部来自国内镜像站，无需再担心网络问题。
 
 使用包管理系统或第三方工具的详细说明，参见[安装页面][installation]。
 
@@ -69,3 +69,4 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
+[rubyinstaller.cn]: https://rubyinstaller.cn/

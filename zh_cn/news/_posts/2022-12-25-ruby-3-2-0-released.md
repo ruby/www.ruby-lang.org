@@ -44,35 +44,31 @@ lang: zh_cn
 * [An Update on WebAssembly/WASI Support in Ruby](https://itnext.io/final-report-webassembly-wasi-support-in-ruby-4aface7d90c9)
 
 
-## Production-ready YJIT
+## YJIT 已可用于生产环境
 
 ![](https://i.imgur.com/X9ulfac.png)
 
-* YJIT is no longer experimental
-    * Has been tested on production workloads for over a year and proven to be quite stable.
-* YJIT now supports both x86-64 and arm64/aarch64 CPUs on Linux, MacOS, BSD and other UNIX platforms.
-    * This release brings support for Apple M1/M2, AWS Graviton, Raspberry Pi 4 and more.
-* Building YJIT now requires Rust 1.58.0+. [[Feature #18481]]
-    * In order to ensure that CRuby is built with YJIT, please install `rustc` >= 1.58.0
-      before running the `./configure` script.
-    * Please reach out to the YJIT team should you run into any issues.
-* The YJIT 3.2 release is faster than 3.1, and has about 1/3 as much memory overhead.
-  * Overall YJIT is 41% faster (geometric mean) than the Ruby interpreter on [yjit-bench](https://github.com/Shopify/yjit-bench).
-  * Physical memory for JIT code is lazily allocated. Unlike Ruby 3.1,
-    the RSS of a Ruby process is minimized because virtual memory pages
-    allocated by `--yjit-exec-mem-size` will not be mapped to physical
-    memory pages until actually utilized by JIT code.
-  * Introduce Code GC that frees all code pages when the memory consumption
-    by JIT code reaches `--yjit-exec-mem-size`.
-  * `RubyVM::YJIT.runtime_stats` returns Code GC metrics in addition to
-    existing `inline_code_size` and `outlined_code_size` keys:
-    `code_gc_count`, `live_page_count`, `freed_page_count`, and `freed_code_size`.
-* Most of the statistics produced by `RubyVM::YJIT.runtime_stats` are now available in release builds.
-    * Simply run ruby with `--yjit-stats` to compute and dump stats (incurs some run-time overhead).
-* YJIT is now optimized to take advantage of object shapes. [[Feature #18776]]
-* Take advantage of finer-grained constant invalidation to invalidate less code when defining new constants. [[Feature #18589]]
-* The default `--yjit-exec-mem-size` is changed to 64 (MiB).
-* The default `--yjit-call-threshold` is changed to 30.
+* YJIT 不再是实验性的
+    * 已在生产环境的负载下测试超过一年，并被证明非常稳定。
+* YJIT 现在支持 x86-64 和 arm64/aarch64 CPU，支持 Linux，MacOS，BSD 和其他 UNIX 平台。
+    * 本次发布新增支持 Apple M1/M2，AWS Graviton，Raspberry Pi 4 及更多。
+* 编译 YJIT 现在需要 Rust 1.58.0+ 。 [[Feature #18481]]
+    * 为了确保 YJIT 被编译入 CRuby，请在运行 `./configure` 脚本前确认安装了 `rustc` >= 1.58.0 。
+    * 当遇到问题时，请联系 YJIT 小组。
+* YJIT 3.2 比 3.1 更快，并节省约 1/3 的内存。
+  * 总体上，YJIT 在 [yjit-bench](https://github.com/Shopify/yjit-bench) 测试中，比 Ruby 解释器快 41% （几何平均）。
+  * JIT 代码的物理内存是延迟分配的。不同于 Ruby 3.1，因为由 `--yjit-exec-mem-size`
+    分配的虚拟内存页在 JIT 代码实际使用之前不会映射到物理内存页，Ruby 进程的 RSS 被最小化了。
+  * 当内存消耗达到 `--yjit-exec-mem-size` 时，触发释放所有代码页的 Code GC。
+  * `RubyVM::YJIT.runtime_stats` 除了返回既有的代码 GC 指标
+    `inline_code_size` 和 `outlined_code_size` 之外，新增
+    `code_gc_count`，`live_page_count`，`freed_page_count` 和 `freed_code_size`。
+* 绝大多数由 `RubyVM::YJIT.runtime_stats` 产生的统计信息都可在发布版中获得。
+    * 只需要在运行 ruby 时使用 `--yjit-stats` 就可以计算和导出统计信息（会增加一些运行时开销）。
+* YJIT 现在可以利用对象形状进行优化。 [[Feature #18776]]
+* 在定义新常量时，利用更好颗粒度的常量错误校验来使更少的代码无效化。 [[Feature #18589]]
+* `--yjit-exec-mem-size` 默认值调整为 64 (MiB)。
+* `--yjit-call-threshold` 默认值调整为 30。
 
 ## Regexp 用于防御 ReDoS 攻击的改进
 
