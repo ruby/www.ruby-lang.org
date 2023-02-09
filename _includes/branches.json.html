@@ -1,0 +1,10 @@
+<script type="ruby-lang-org-data" id="branches.json">
+[
+{%- assign n = 0 -%}
+{%- for branch in site.data.branches -%}
+  {%- if n > 0 -%},{%- endif %}
+  {"name":"{{ branch.name }}","status":"{{ branch.status }}","date":"{{ branch.date }}"{% if branch.security_maintenance_date %},"security_maintenance_date":"{{ branch.security_maintenance_date }}"{% endif %}{% if branch.eol_date %},"eol_date":"{{ branch.eol_date }}"{% endif %}}
+  {%- assign n = n |plus: 1 -%}
+{%- endfor -%}
+]
+</script>
