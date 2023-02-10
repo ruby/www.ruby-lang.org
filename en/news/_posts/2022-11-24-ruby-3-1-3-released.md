@@ -17,7 +17,7 @@ Please check the topics below for details.
 This release also includes a fix for build failure with Xcode 14 and macOS 13 (Ventura).
 See [the related ticket](https://bugs.ruby-lang.org/issues/18912) for more details.
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v3_1_2...v3_1_3) for further details.
+See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_3) for further details.
 
 ## Download
 

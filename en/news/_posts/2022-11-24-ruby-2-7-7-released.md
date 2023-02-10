@@ -15,7 +15,7 @@ Please check the topics below for details.
 * [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
 This release also includes some build problem fixes. They are not considered to affect compatibility with previous versions.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_6...v2_7_7) for further details.
+See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_7) for further details.
 
 ## Download
 

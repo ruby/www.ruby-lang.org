@@ -11,7 +11,7 @@ Ruby 3.2.1 がリリースされました。
 
 これは 3.2 シリーズにおける最初の TEENY リリースになります。
 
-詳しい変更については [commit log](https://github.com/ruby/ruby/compare/v3_2_0...v3_2_1) を参照してください。
+詳しい変更については [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_1) を参照してください。
 
 ## ダウンロード
 
