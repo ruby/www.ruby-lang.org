@@ -15,7 +15,7 @@ Ruby 2.7.7 がリリースされました。
 * [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
 このリリースには、いくつかのビルド上の問題への対応も含まれています。これらの変更は以前のバージョンとの互換性には影響しないと判断されています。
-詳しくは [commit logs](https://github.com/ruby/ruby/compare/v2_7_6...v2_7_7) を参照してください。
+詳しくは [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_7) を参照してください。
 
 ## ダウンロード
 

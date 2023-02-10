@@ -17,7 +17,7 @@ Ruby 3.1.3 がリリースされました。
 またこのリリースでは Xcode 14 や macOS 13 (Ventura) でのビルドがうまくいかない問題に対する対策も含まれています。
 詳しくは [関連チケット](https://bugs.ruby-lang.org/issues/18912) を参照してください。
 
-その他の変更点について詳しくは [commit logs](https://github.com/ruby/ruby/compare/v3_1_2...v3_1_3) を参照してください。
+その他の変更点について詳しくは [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_3) を参照してください。
 
 ## ダウンロード
 
