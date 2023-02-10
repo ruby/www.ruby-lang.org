@@ -12,7 +12,7 @@
           ...e,
           date: new Date(e.date),
           security_maintenance_date: e.security_maintenance_date ? new Date(e.security_maintenance_date) : null,
-          eol_date: e.eol_date ? new Date(e.eol_date) : null
+          eol_date: e.eol_date ? new Date(e.eol_date) : e.expected_eol_date ? new Date(e.expected_eol_date) : null
         };
       });
     const container = document.getElementById('lifecycle-timeline');
