@@ -40,6 +40,6 @@ the following phases:
 status: {{ branch.status }}<br>
 release date: {{ branch.date }}<br>
 normal maintenance until: {% if branch.security_maintenance_date %}{{ branch.security_maintenance_date }}{% else %}TBD{% endif %}<br>
-EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}TBD{% endif %}
+EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}{% if branch.expected_eol_date %}{{ branch.expected_eol_date }} (expected){% else %}TBD{% endif %}{% endif %}
 
 {% endfor %}
