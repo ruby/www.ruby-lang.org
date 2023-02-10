@@ -11,59 +11,75 @@
 - name: 3.2
   status: normal maintenance
   date: 2022-12-25
+  security_maintenance_date: 
   eol_date:
+  expected_eol_date: 2026-03-31
 
 - name: 3.1
   status: normal maintenance
   date: 2021-12-25
+  security_maintenance_date: 
   eol_date:
+  expected_eol_date: 2025-03-31
 
 - name: 3.0
   status: normal maintenance
   date: 2020-12-25
+  security_maintenance_date: 
   eol_date:
+  expected_eol_date: 2024-03-31
 
 - name: 2.7
   status: security maintenance
   date: 2019-12-25
+  security_maintenance_date: 2022-04-01
   eol_date:
+  expected_eol_date: 2023-03-31
 
 - name: 2.6
   status: eol
   date: 2018-12-25
+  security_maintenance_date: 2021-04-01
   eol_date: 2022-04-12
 
 - name: 2.5
   status: eol
   date: 2017-12-25
+  security_maintenance_date: 2020-04-01
   eol_date: 2021-04-05
 
 - name: 2.4
   status: eol
   date: 2016-12-25
+  security_maintenance_date: 2019-04-01
   eol_date: 2020-03-31
 
 - name: 2.3
   status: eol
   date: 2015-12-25
+  security_maintenance_date: 2018-03-28
   eol_date: 2019-03-31
 
 - name: 2.2
   status: eol
   date: 2014-12-25
+  security_maintenance_date: 2017-03-28
   eol_date: 2018-03-31
 
 - name: 2.1
   status: eol
   date: 2013-12-25
+  security_maintenance_date: 2016-03-31
   eol_date: 2017-03-31
 
 - name: 2.0.0
   status: eol
   date: 2013-02-24
+  security_maintenance_date: 2016-02-24
   eol_date: 2016-02-24
 
 - name: 1.9.3
   status: eol
   date: 2011-10-31
+  security_maintenance_date: 2014-02-24
   eol_date: 2015-02-23

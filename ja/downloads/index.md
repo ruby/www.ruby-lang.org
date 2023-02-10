@@ -80,3 +80,15 @@ Windows向けのバイナリが有志により配布されています。
 [railsinstaller]: http://railsinstaller.org/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
+
+{% include branches-timeline.html %}
+
+{% for branch in site.data.branches %}
+### Ruby {{ branch.name }}
+
+ステータス: {{ branch.status }}<br>
+リリース: {{ branch.date }}<br>
+通常メンテナンス終了: {% if branch.security_maintenance_date %}{{ branch.security_maintenance_date }}{% else %}TBD{% endif %}<br>
+EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}{% if branch.expected_eol_date %}{{ branch.expected_eol_date }}（見込み）{% else %}TBD{% endif %}{% endif %}
+
+{% endfor %}
