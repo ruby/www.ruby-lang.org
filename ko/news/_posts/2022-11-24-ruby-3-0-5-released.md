@@ -15,7 +15,7 @@ Ruby 3.0.5가 릴리스되었습니다.
 * [CVE-2021-33621: CGI에서의 HTTP 응답 분할]({%link ko/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
 이 릴리스는 몇몇 버그 수정을 포함합니다.
-자세한 사항은 [커밋 로그](https://github.com/ruby/ruby/compare/v3_0_4...v3_0_5)를 확인해 주세요.
+자세한 사항은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_0_5)를 확인해 주세요.
 
 ## 다운로드
 
