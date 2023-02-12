@@ -4,14 +4,14 @@ title: "Publicado Ruby 3.2.1"
 author: "naruse"
 translator: vtamara
 date: 2023-02-08 12:00:00 +0000
-lang: en
+lang: es
 ---
 
-Ruby 3.2.1 ha sido publicado
+Ruby 3.2.1 ha sido publicado.
 
 Esta es la primera versión PEQUEÑA de la serie estable 3.2.
 
-Ver más detalles de las [versiones en GitHub](https://github.com/ruby/ruby/releases/tag/v3_2_1).
+Puedes ver la [página de lanzamientos en GitHub](https://github.com/ruby/ruby/releases/tag/v3_2_1) para obtener más detalles.
 
 ## Descargas
 
