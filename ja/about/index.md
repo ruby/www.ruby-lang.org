@@ -173,6 +173,7 @@ MRI以外のRuby処理系には以下のようなものがあります。
   JVMの最適化されたJITコンパイラやGC、並行スレッド、ツール群、そして膨大なコレクションのライブラリを使うことができます。
 * [Rubinius][rubinius]は「Rubyで書かれたRuby」です。LLVM上に構築されています。LLVMは他の言語も構築されるよくできた仮想マシンです。
 * [mruby][mruby]はRubyの軽量実装です。アプリケーションにリンクし、組み込むことができます。Rubyの作者であるまつもと ゆきひろ氏によって開発が進められています。
+* [truffleruby][truffleruby]はGraalVM上に構築された高速なRuby実装です。
 
 ### 参照リンク
 
@@ -195,3 +196,4 @@ MRI以外のRuby処理系には以下のようなものがあります。
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [mruby]: http://www.mruby.org/
+[truffleruby]: https://github.com/oracle/truffleruby
