@@ -171,9 +171,15 @@ MRI以外のRuby処理系には以下のようなものがあります。
 
 * [JRuby][jruby]は、JVM(Java仮想マシン)上に構築されたRubyです。
   JVMの最適化されたJITコンパイラやGC、並行スレッド、ツール群、そして膨大なコレクションのライブラリを使うことができます。
-* [Rubinius][rubinius]は「Rubyで書かれたRuby」です。LLVM上に構築されています。LLVMは他の言語も構築されるよくできた仮想マシンです。
 * [mruby][mruby]はRubyの軽量実装です。アプリケーションにリンクし、組み込むことができます。Rubyの作者であるまつもと ゆきひろ氏によって開発が進められています。
 * [truffleruby][truffleruby]はGraalVM上に構築された高速なRuby実装です。
+
+#### 以下のバージョンはここ数年ほとんどまたは全く更新されていませんが、引き続き利用可能です。
+
+* [Rubinius][rubinius]は「Rubyで書かれたRuby」です。LLVM上に構築されています。LLVMは他の言語も構築されるよくできた仮想マシンです。
+* [IronRuby][ironruby]は、.Netフレームワークにしっかりと統合されたRuby処理系です。
+* [MagLev][maglev]は、オブジェクトの永続化と分散共有キャッシュを持った、高速で安定したRuby処理系です。
+* [Cardinal][cardinal]はPerl6用の仮想マシンである[Parrot][parrot]上のRubyコンパイラです。
 
 ### 参照リンク
 
@@ -197,3 +203,7 @@ MRI以外のRuby処理系には以下のようなものがあります。
 [rubinius]: http://rubini.us
 [mruby]: http://www.mruby.org/
 [truffleruby]: https://github.com/oracle/truffleruby
+[ironruby]: http://www.ironruby.net
+[maglev]: http://maglev.github.io
+[cardinal]: https://github.com/parrot/cardinal
+[parrot]: http://parrot.org
