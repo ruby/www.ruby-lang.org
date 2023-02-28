@@ -77,6 +77,8 @@ Windows向けのバイナリが有志により配布されています。
 
 [license]: {{ site.license.url }}
 [installation]: /ja/documentation/installation/
+[releases]: /en/downloads/releases/
+[branches]: /ja/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
