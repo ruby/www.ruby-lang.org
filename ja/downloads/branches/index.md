@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ruby のメンテナンスバージョン"
+title: "Ruby ブランチごとのメンテナンス状況"
 lang: ja
 ---
 
