@@ -4,10 +4,6 @@ title: "Ruby Maintenance Branches"
 lang: en
 ---
 
-{% comment %}
-In development. Not to be translated yet.
-{% endcomment %}
-
 This page lists the current maintenance status of the various Ruby branches.
 {: .summary}
 
@@ -28,9 +24,6 @@ the following phases:
 * **eol** (end-of-life):
   Branch is not supported by the ruby-core team any longer and does
   not receive any fixes. No further patch release will be released.
-* **preview**:
-  Only previews or release candidates have been released for
-  this branch so far.
 
 {% include branches-timeline.html %}
 
