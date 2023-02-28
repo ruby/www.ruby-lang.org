@@ -57,7 +57,7 @@ lang: ja
     毎晩Gitから作成しているtarballです。
     バグやその他の問題があるかもしれません。利用する場合は自己責任でお願いします！
 
-Ruby の Gitリポジトリについての情報は、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。
+Ruby の Git リポジトリについての情報は、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。
 
 リリースごとの詳しい情報や古いリリース、プレビューなどの情報については[リリースページ][releases]を見てください。
 
