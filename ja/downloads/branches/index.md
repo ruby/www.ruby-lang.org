@@ -7,7 +7,7 @@ lang: ja
 このページでは Ruby の各ブランチについてメンテナンス状況を記載します。
 {: .summary}
 
-より詳細な情報については[リリースページ](../releases/)を見てください。
+より詳細な情報については[リリースページ][releases]を見てください。
 
 以下は Ruby のブランチとそのメンテナンス状況の暫定リストです。
 EOL の日付等は予定として掲載しています。
@@ -32,3 +32,5 @@ Ruby の各ブランチは以下のフェーズに別れてメンテナンスさ
 EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}{% if branch.expected_eol_date %}{{ branch.expected_eol_date }}（見込み）{% else %}TBD{% endif %}{% endif %}
 
 {% endfor %}
+
+[releases]: /en/downloads/releases/
