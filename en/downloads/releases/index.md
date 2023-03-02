@@ -26,6 +26,7 @@ actual creation dates of the source tarballs.
 <tr>
 <th>Release Version</th>
 <th>Release Date</th>
+<th>Download URL</th>
 <th>Release Notes</th>
 </tr>
 {% assign releases = site.data.releases | reverse | sort: "date" | reverse %}
@@ -33,6 +34,7 @@ actual creation dates of the source tarballs.
 <tr>
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
+<td><a href="{{ release.url.gz }}">download</a></td>
 <td><a href="{{ release.post }}">more...</a></td>
 </tr>{% endfor %}
 </table>
