@@ -483,7 +483,7 @@ hr.hidden-modern { display: none; }
 
 .release-list th,
 .release-list td {
-  padding: 2px 2em 2px 0px;
+  padding: 2px 1em 2px 0px;
 }
 
 .buttons .button {
