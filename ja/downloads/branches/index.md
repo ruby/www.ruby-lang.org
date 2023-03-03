@@ -33,4 +33,4 @@ EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}{% if branch.expecte
 
 {% endfor %}
 
-[releases]: /en/downloads/releases/
+[releases]: /ja/downloads/releases/
