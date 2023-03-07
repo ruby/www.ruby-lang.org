@@ -29,7 +29,7 @@ Ruby 브랜치 또는 릴리스 시리즈는 밑에 나열된 단계로 분류�
 
 상태: {{ branch.status }}<br>
 릴리스 날짜: {{ branch.date }}<br>
-일반 유지보수 종료: {% if branch.security_maintenance_date %}{{ branch.security_maintenance_date }}{% else %}TBD{% endif %}<br>
-EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}{% if branch.expected_eol_date %}{{ branch.expected_eol_date }} (expected){% else %}TBD{% endif %}{% endif %}
+일반 유지보수 종료: {% if branch.security_maintenance_date %}{{ branch.security_maintenance_date }}{% else %}미정{% endif %}<br>
+EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}{% if branch.expected_eol_date %}{{ branch.expected_eol_date }} (expected){% else %}미정{% endif %}{% endif %}
 
 {% endfor %}
