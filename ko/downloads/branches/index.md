@@ -20,7 +20,7 @@ Ruby 브랜치 또는 릴리스 시리즈는 밑에 나열된 단계로 분류�
   보안 수정 사항만 이 브랜치에 백포트됩니다.
 * **eol** (end-of-life 수명 종료):
   Branch는 더 이상 ruby-core 팀에서 지원하지 않으며
-  어떠한 수정 사항도 받지 않습니다. 
+  어떠한 수정 사항도 받지 않습니다.
 
 {% include branches-timeline.html %}
 
