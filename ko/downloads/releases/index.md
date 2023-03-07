@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ruby Releases"
+title: "Ruby 릴리스"
 lang: ko
 ---
 
@@ -18,8 +18,8 @@ Ruby 릴리스 목록입니다.
 
 <table class="release-list">
 <tr>
-<th>출시 버전</th>
-<th>출시일</th>
+<th>릴리스 버전</th>
+<th>릴리스 날짜</th>
 <th>다운로드 URL</th>
 <th>릴리스 노트</th>
 </tr>
@@ -28,7 +28,7 @@ Ruby 릴리스 목록입니다.
 <tr>
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
-<td><a href="{{ release.url.gz }}">download</a></td>
-<td><a href="{{ release.post }}">more...</a></td>
+<td><a href="{{ release.url.gz }}">다운로드</a></td>
+<td><a href="{{ release.post }}">더 보기...</a></td>
 </tr>{% endfor %}
 </table>
