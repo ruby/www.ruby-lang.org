@@ -131,15 +131,15 @@ long_time_re =~ "a" * 50000 + "x" # 타임아웃이 발생하지 않습니다.
 
 *   다음 기본 젬이 갱신되었습니다.
 
-    * TBD
+    * 미정
 
 *   다음 내장 젬이 갱신되었습니다.
 
-    * TBD
+    * 미정
 
 *   다음 기본 gem은 이제 내장 gem이 됩니다. 사용하려면 번들러 환경에서 `Gemfile`에 다음 라이브러리들을 추가해야 합니다.
 
-    * TBD
+    * 미정
 
 더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
 [커밋 로그](https://github.com/ruby/ruby/compare/v3_1_0...{{ release.tag }})를

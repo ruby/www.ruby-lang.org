@@ -34,7 +34,7 @@ C#, 그루비, 스위프트 언어에 있습니다.
 
 ## 2.2 이후의 주목할 만한 변경
 
-* TBD(확정되지 않아 나중에 발표)
+* 미정
 
 자세한 내용은 [뉴스](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS)와
 [변경기록](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog)을

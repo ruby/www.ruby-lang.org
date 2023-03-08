@@ -78,8 +78,8 @@ Ruby 소스는 전세계의 [미러 사이트][mirrors]에서 사용할 수 있�
 
 [license]: {{ site.license.url }}
 [installation]: /ko/documentation/installation/
-[releases]: /en/downloads/releases/
-[branches]: /en/downloads/branches/
+[releases]: /ko/downloads/releases/
+[branches]: /ko/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
