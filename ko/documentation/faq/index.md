@@ -7,27 +7,27 @@ header: |
   <div class="multi-page">
     <strong>콘텐츠</strong>
     <span class="separator"> | </span>
-    <a href="1/" title="Part 1">1</a>
+    <a href="1/" title="파트 1">1</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/2/" title="Part 2">2</a>
+    <a href="/en/documentation/faq/2/" title="파트 2">2</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/3/" title="Part 3">3</a>
+    <a href="/en/documentation/faq/3/" title="파트 3">3</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/4/" title="Part 4">4</a>
+    <a href="/en/documentation/faq/4/" title="파트 4">4</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/5/" title="Part 5">5</a>
+    <a href="/en/documentation/faq/5/" title="파트 5">5</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/6/" title="Part 6">6</a>
+    <a href="/en/documentation/faq/6/" title="파트 6">6</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/7/" title="Part 7">7</a>
+    <a href="/en/documentation/faq/7/" title="파트 7">7</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/8/" title="Part 8">8</a>
+    <a href="/en/documentation/faq/8/" title="파트 8">8</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/9/" title="Part 9">9</a>
+    <a href="/en/documentation/faq/9/" title="파트 9">9</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/10/" title="Part 10">10</a>
+    <a href="/en/documentation/faq/10/" title="파트 10">10</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/11/" title="Part 11">11</a>
+    <a href="/en/documentation/faq/11/" title="파트 11">11</a>
   </div>
   <h1>공식 Ruby FAQ</h1>
 
