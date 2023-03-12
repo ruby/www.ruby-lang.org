@@ -36,8 +36,8 @@ header: |
 이 문서에는 Ruby에 대한 자주 묻는 질문과 답변이 포함되어 있습니다.
 {: .summary}
 
-이 FAQ는 원래 Shugo Maeda가 편집하고 Kentaro Goto가 영어로 번역한 "[The Ruby
-Language FAQ][original-faq]"를 기반으로 합니다.
+이 FAQ는 원래 Shugo Maeda가 편집하고 Kentaro Goto가 영어로 번역한
+"[The Ruby Language FAQ][original-faq]"를 기반으로 합니다.
 FAQ를 사이트에 통합하고 콘텐츠를 대대적으로 점검한 Zachary Scott과 Marcus
 Stollsteimer에게 감사드립니다.
 
@@ -57,6 +57,6 @@ Stollsteimer에게 감사드립니다.
 * [구문](/en/documentation/faq/6/)
 * [메서드](/en/documentation/faq/7/)
 * [클래스 및 모듈](/en/documentation/faq/8/)
-* [내장 라이브러리](/en/documentation/faq/9/)
+* [빌트인 라이브러리](/en/documentation/faq/9/)
 * [확장 라이브러리](/en/documentation/faq/10/)
 * [기타 기능](/en/documentation/faq/11/)
