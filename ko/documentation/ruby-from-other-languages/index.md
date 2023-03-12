@@ -16,10 +16,10 @@ Java나 다른 언어들과 유사합니다. 다른 언어를 사용한 적이 �
 
 ## 차이점들: *어떤 언어*에서 Ruby로
 
-* [C나 C++에서 Ruby로](/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/)
+* [C나 C++에서 Ruby로](to-ruby-from-c-and-cpp/)
 * [Java에서 Ruby로](to-ruby-from-java/)
-* [Perl에서 Ruby로](/en/documentation/ruby-from-other-languages/to-ruby-from-perl/)
-* [PHP에서 Ruby로](/en/documentation/ruby-from-other-languages/to-ruby-from-php/)
+* [Perl에서 Ruby로](to-ruby-from-perl/)
+* [PHP에서 Ruby로](to-ruby-from-php/)
 * [Python에서 Ruby로](to-ruby-from-python/)
 
 ## 언어의 중요한 기능과 알아둘 점
