@@ -26,8 +26,8 @@ tidak menggunakan *Thread* API.
 ### Latar Belakang
 
 [WebAssembly (Wasm)](https://webassembly.org/) semula diperkenalkan untuk
-menjalankan program dengan aman dan cepat pada *web browser*. Tetapi sasarannya
-- menjalankan program secara efisien dengan keamanan pada berbagai macam
+menjalankan program dengan aman dan cepat pada *web browser*. Tetapi
+sasarannya - menjalankan program secara efisien dengan keamanan pada berbagai macam
 *environment* - diinginkan sejak lama tidak hanya oleh *web*, akan tetapi oleh
 aplikasi umum.
 
@@ -74,14 +74,14 @@ Sebuah fitur *timeout* pada *Regexp matching* diperkenalkan.
 Regexp.timeout = 1.0
 
 /^a*b?a*$/ =~ "a" * 50000 + "x"
-#=> Regexp::TimeoutError is raised in one second
+#=> Regexp::TimeoutError akan muncul dalam waktu satu detik
 ```
 
 Diketahui bahwa *Regexp matching* mungkin membutuhkan waktu yang lama. Jika
 kode Anda mencoba untuk mencocokkan sebuah *Regexp* yang tidak efisien dengan
 sebuah masukan yang tidak terpercaya, seorang penyerang bisa mengeksploitasi
-ini untuk *Denial of Service* (disebut *Regular expression DoS* atau *ReDoS*)
-yang efisien.
+ini untuk *Denial of Service* yang efisien (disebut *Regular expression DoS*
+atau *ReDoS*).
 
 Risiko dari *DoS* dapat dicegah atau dikurangi secara signifikan dengan mengatur
 `Regexp.timeout` berdasarkan kebutuhan dari aplikasi Ruby Anda. Mohon coba fitur
@@ -94,10 +94,10 @@ menggunakan kata kunci `timeout` pada `Regexp.new`.
 ```ruby
 Regexp.timeout = 1.0
 
-# This regexp has no timeout
+# regexp ini tidak memiliki timeout
 long_time_re = Regexp.new("^a*b?a*$", timeout: nil)
 
-long_time_re =~ "a" * 50000 + "x" # never interrupted
+long_time_re =~ "a" * 50000 + "x" # tidak pernah diinterupsi
 ```
 
 Proposal asli https://bugs.ruby-lang.org/issues/17837
@@ -135,9 +135,9 @@ Proposal asli https://bugs.ruby-lang.org/issues/17837
 
   ```ruby
   proc{|a, **k| a}.call([1, 2])
-  # Ruby 3.1 and before
+  # Ruby 3.1 dan sebelumnya
   # => 1
-  # Ruby 3.2 and after
+  # Ruby 3.2 dan setelahnya
   # => [1, 2]
   ```
 
@@ -185,9 +185,10 @@ Proposal asli https://bugs.ruby-lang.org/issues/17837
     def target(**kw)
     end
 
-    # Accidentally worked without ruby2_keywords in Ruby 2.7-3.1, ruby2_keywords
-    # needed in 3.2+. Just like (*args, **kwargs) or (...) would be needed on
-    # both #foo and #bar when migrating away from ruby2_keywords.
+    # Secara tidak sengaja, berjalan tanpa ruby2_keywords pada Ruby 2.7-3.1,
+    # ruby2_keywords dibutuhkan pada 3.2+. Sama halnya dengan (*args, **kwargs)
+    # atau (...) yang juga dibutuhkan baik #foo maupun #bar ketika migrasi
+    # dari ruby2_keywords.
     ruby2_keywords def bar(*args)
       target(*args)
     end
@@ -213,28 +214,28 @@ Proposal asli https://bugs.ruby-lang.org/issues/17837
       mengembalikan nilai *default* atau memanggil *default proc*. [[Bug #16908]]
 
 * MatchData
-    * MatchData#byteoffset telah ditambakan. [[Feature #13110]]
+    * MatchData#byteoffset telah ditambahkan. [[Feature #13110]]
 
 * Module
-    * Module.used_refinements telah ditambakan. [[Feature #14332]]
-    * Module#refinements telah ditambakan. [[Feature #12737]]
-    * Module#const_added telah ditambakan. [[Feature #17881]]
+    * Module.used_refinements telah ditambahkan. [[Feature #14332]]
+    * Module#refinements telah ditambahkan. [[Feature #12737]]
+    * Module#const_added telah ditambahkan. [[Feature #17881]]
 
 * Proc
     * Proc#dup mengembalikan sebuah *instance* dari *subclass*. [[Bug #17545]]
     * Proc#parameters sekarang menerima kata kunci *lambda*. [[Feature #15357]]
 
 * Refinement
-    * Refinement#refined_class telah ditambakan. [[Feature #12737]]
+    * Refinement#refined_class telah ditambahkan. [[Feature #12737]]
 
 * Set
     * Set sekarang tersedia sebagai sebuah *builtin class* tanpa membutuhkan `require "set"`. [[Feature #16989]]
       Ini dimuatkan secara otomatis melalui *constant* `Set` atau sebuah pemanggilan `Enumerable#to_set`.
 
 * String
-    * String#byteindex dan String#byterindex telah ditambakan. [[Feature #13110]]
+    * String#byteindex dan String#byterindex telah ditambahkan. [[Feature #13110]]
     * Memperbarui versi *Unicode* ke 14.0.0 dan *Emoji* ke 14.0. [[Feature #18037]]
-      (juga diterapkan pada *Regexp*)
+      (juga diaplikasikan pada *Regexp*)
     * String#bytesplice telah ditambahkan. [[Feature #18598]]
 
 * Struct
@@ -245,7 +246,7 @@ Proposal asli https://bugs.ruby-lang.org/issues/17837
 
 Catatan: tidak termasuk perbaikan *bug*.
 
-### Removed constant
+### Constant terhapus
 
 Berikut ini adalah *constant* yang telah dihapus.
 
@@ -254,7 +255,7 @@ Berikut ini adalah *constant* yang telah dihapus.
 * `Struct::Group`
 * `Struct::Passwd`
 
-### Removed method
+### Method terhapus
 
 Berikut ini adalah *method* yang telah dihapus.
 
@@ -274,7 +275,7 @@ Berikut ini adalah *method* yang telah dihapus.
 
 ## Pembaruan C API
 
-### Removed C APIs
+### C API terhapus
 
 Berikut ini adalah API yang telah dihapus.
 
