@@ -1631,21 +1631,33 @@
 - version: 2.4.1
   date: 2017-03-22
   post: /en/news/2017/03/22/ruby-2-4-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.gz
 - version: 2.4.0
   date: 2016-12-25
   post: /en/news/2016/12/25/ruby-2-4-0-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0.tar.gz
 - version: 2.4.0-rc1
   date: 2016-12-12
   post: /en/news/2016/12/12/ruby-2-4-0-rc1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.gz
 - version: 2.4.0-preview3
   date: 2016-11-09
   post: /en/news/2016/11/09/ruby-2-4-0-preview3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview3.tar.gz
 - version: 2.4.0-preview2
   date: 2016-09-08
   post: /en/news/2016/09/08/ruby-2-4-0-preview2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.gz
 - version: 2.4.0-preview1
   date: 2016-06-20
   post: /en/news/2016/06/20/ruby-2-4-0-preview1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview1.tar.gz
 
 # 2.3 series
 
@@ -1708,24 +1720,38 @@
 - version: 2.3.4
   date: 2017-03-30
   post: /en/news/2017/03/30/ruby-2-3-4-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.gz
 - version: 2.3.3
   date: 2016-11-21
   post: /en/news/2016/11/21/ruby-2-3-3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.3.tar.gz
 - version: 2.3.2
   date: 2016-11-15
   post: /en/news/2016/11/15/ruby-2-3-2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.tar.gz
 - version: 2.3.1
   date: 2016-04-26
   post: /en/news/2016/04/26/ruby-2-3-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
 - version: 2.3.0
   date: 2015-12-25
   post: /en/news/2015/12/25/ruby-2-3-0-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.gz
 - version: 2.3.0-preview2
   date: 2015-12-11
   post: /en/news/2015/12/11/ruby-2-3-0-preview2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview2.tar.gz
 - version: 2.3.0-preview1
   date: 2015-11-11
   post: /en/news/2015/11/11/ruby-2-3-0-preview1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0-preview1.tar.gz
 
 # 2.2 series
 
@@ -1774,36 +1800,58 @@
 - version: 2.2.7
   date: 2017-03-28
   post: /en/news/2017/03/28/ruby-2-2-7-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.7.tar.gz
 - version: 2.2.6
   date: 2016-11-15
   post: /en/news/2016/11/15/ruby-2-2-6-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.gz
 - version: 2.2.5
   date: 2016-04-26
   post: /en/news/2016/04/26/ruby-2-2-5-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.gz
 - version: 2.2.4
   date: 2015-12-16
   post: /en/news/2015/12/16/ruby-2-2-4-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz
 - version: 2.2.3
   date: 2015-08-18
   post: /en/news/2015/08/18/ruby-2-2-3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz
 - version: 2.2.2
   date: 2015-04-13
   post: /en/news/2015/04/13/ruby-2-2-2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.2.tar.gz
 - version: 2.2.1
   date: 2015-03-03
   post: /en/news/2015/03/03/ruby-2-2-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.1.tar.gz
 - version: 2.2.0
   date: 2014-12-25
   post: /en/news/2014/12/25/ruby-2-2-0-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz
 - version: 2.2.0-rc1
   date: 2014-12-18
   post: /en/news/2014/12/18/ruby-2-2-0-rc1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-rc1.tar.gz
 - version: 2.2.0-preview2
   date: 2014-11-28
   post: /en/news/2014/11/28/ruby-2-2-0-preview2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-preview2.tar.gz
 - version: 2.2.0-preview1
   date: 2014-09-18
   post: /en/news/2014/09/18/ruby-2-2-0-preview1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-preview1.tar.gz
 
 # 2.1 series
 
@@ -1824,279 +1872,431 @@
 - version: 2.1.9
   date: 2016-03-30
   post: /en/news/2016/03/30/ruby-2-1-9-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.gz
 - version: 2.1.8
   date: 2015-12-16
   post: /en/news/2015/12/16/ruby-2-1-8-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.8.tar.gz
 - version: 2.1.7
   date: 2015-08-18
   post: /en/news/2015/08/18/ruby-2-1-7-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.gz
 - version: 2.1.6
   date: 2015-04-13
   post: /en/news/2015/04/13/ruby-2-1-6-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.6.tar.gz
 - version: 2.1.5
   date: 2014-11-13
   post: /en/news/2014/11/13/ruby-2-1-5-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.gz
 - version: 2.1.4
   date: 2014-10-27
   post: /en/news/2014/10/27/ruby-2-1-4-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz
 - version: 2.1.3
   date: 2014-09-19
   post: /en/news/2014/09/19/ruby-2-1-3-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.3.tar.gz
 - version: 2.1.2
   date: 2014-05-09
   post: /en/news/2014/05/09/ruby-2-1-2-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.gz
 - version: 2.1.1
   date: 2014-02-24
   post: /en/news/2014/02/24/ruby-2-1-1-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.gz
 - version: 2.1.0
   date: 2013-12-25
   post: /en/news/2013/12/25/ruby-2-1-0-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.gz
 - version: 2.1.0-rc1
   date: 2013-12-20
   post: /en/news/2013/12/20/ruby-2-1-0-rc1-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.gz
 - version: 2.1.0-preview2
   date: 2013-11-22
   post: /en/news/2013/11/22/ruby-2-1-0-preview2-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview2.tar.gz
 - version: 2.1.0-preview1
   date: 2013-09-23
   post: /en/news/2013/09/23/ruby-2-1-0-preview1-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.gz
 
-# 2.0.0 series
+# older releases
 
 - version: 2.0.0-p648
   date: 2015-12-16
   post: /en/news/2015/12/16/ruby-2-0-0-p648-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p648.tar.gz
 - version: 2.0.0-p647
   date: 2015-08-18
   post: /en/news/2015/08/18/ruby-2-0-0-p647-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p647.tar.gz
 - version: 2.0.0-p645
   date: 2015-04-13
   post: /en/news/2015/04/13/ruby-2-0-0-p645-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p645.tar.gz
 - version: 2.0.0-p643
   date: 2015-02-25
   post: /en/news/2015/02/25/ruby-2-0-0-p643-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p643.tar.gz
 - version: 2.0.0-p598
   date: 2014-11-13
   post: /en/news/2014/11/13/ruby-2-0-0-p598-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.gz
 - version: 2.0.0-p594
   date: 2014-10-27
   post: /en/news/2014/10/27/ruby-2-0-0-p594-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.gz
 - version: 2.0.0-p576
   date: 2014-09-19
   post: /en/news/2014/09/19/ruby-2-0-0-p576-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p576.tar.gz
 - version: 2.0.0-p481
   date: 2014-05-09
   post: /en/news/2014/05/09/ruby-2-0-0-p481-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.gz
 - version: 2.0.0-p451
   date: 2014-02-24
   post: /en/news/2014/02/24/ruby-2-0-0-p451-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.tar.gz
 - version: 2.0.0-p353
   date: 2013-11-22
   post: /en/news/2013/11/22/ruby-2-0-0-p353-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.gz
 - version: 2.0.0-p247
   date: 2013-06-27
   post: /en/news/2013/06/27/ruby-2-0-0-p247-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
 - version: 2.0.0-p195
   date: 2013-05-14
   post: /en/news/2013/05/14/ruby-2-0-0-p195-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.gz
 - version: 2.0.0
   date: 2013-02-24
   post: /en/news/2013/02/24/ruby-2-0-0-p0-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0.tar.gz
 - version: 2.0.0-rc2
   date: 2013-02-08
   post: /en/news/2013/02/08/ruby-2-0-0-rc2-is-released/
-
-# 1.9.3 series
-
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz
 - version: 1.9.3-p551
   date: 2014-11-13
   post: /en/news/2014/11/13/ruby-1-9-3-p551-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.gz
 - version: 1.9.3-p550
   date: 2014-10-27
   post: /en/news/2014/10/27/ruby-1-9-3-p550-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.gz
 - version: 1.9.3-p547
   date: 2014-05-16
   post: /en/news/2014/05/16/ruby-1-9-3-p547-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.gz
 - version: 1.9.3-p545
   date: 2014-02-24
   post: /en/news/2014/02/24/ruby-1-9-3-p545-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz
 - version: 1.9.3-p484
   date: 2013-11-22
   post: /en/news/2013/11/22/ruby-1-9-3-p484-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.gz
 - version: 1.9.3-p448
   date: 2013-06-27
   post: /en/news/2013/06/27/ruby-1-9-3-p448-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
 - version: 1.9.3-p429
   date: 2013-05-14
   post: /en/news/2013/05/14/ruby-1-9-3-p429-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.gz
 - version: 1.9.3-p392
   date: 2013-02-22
   post: /en/news/2013/02/22/ruby-1-9-3-p392-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
 - version: 1.9.3-p385
   date: 2013-02-06
   post: /en/news/2013/02/06/ruby-1-9-3-p385-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.gz
 - version: 1.9.3-p374
   date: 2013-01-17
   post: /en/news/2013/01/17/ruby-1-9-3-p374-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p374.tar.gz
 - version: 1.9.3-p362
   date: 2012-12-25
   post: /en/news/2012/12/25/ruby-1-9-3-p362-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.gz
 - version: 1.9.3-p327
   date: 2012-11-09
   post: /en/news/2012/11/09/ruby-1-9-3-p327-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.gz
 - version: 1.9.3-p286
   date: 2012-10-12
   post: /en/news/2012/10/12/ruby-1-9-3-p286-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz
 - version: 1.9.3-p194
   date: 2012-04-20
   post: /en/news/2012/04/20/ruby-1-9-3-p194-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.gz
 - version: 1.9.3-p125
   date: 2012-02-16
   post: /en/news/2012/02/16/ruby-1-9-3-p125-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz
 - version: 1.9.3
   date: 2011-10-31
   post: /en/news/2011/10/31/ruby-1-9-3-p0-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3.tar.gz
 - version: 1.9.3-rc1
   date: 2011-09-24
   post: /en/news/2011/09/24/ruby-1-9-3-rc1-has-been-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz
 - version: 1.9.3-preview1
   date: 2011-08-01
   post: /en/news/2011/08/01/ruby-1-9-3-preview1-has-been-released/
-
-# 1.9.2 series
-
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz
 - version: 1.9.2-p330
   date: 2014-08-19
   post: /en/news/2014/08/19/ruby-1-9-2-p330-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p330.tar.gz
 - version: 1.9.2-p320
   date: 2012-04-21
   post: /en/news/2012/04/21/ruby-1-9-2-p320-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
 - version: 1.9.2-p290
   date: 2011-07-15
   post: /en/news/2011/07/15/ruby-1-9-2-p290-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
 - version: 1.9.2-p136
   date: 2010-12-25
   post: /en/news/2010/12/25/ruby-1-9-2-p136-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
 - version: 1.9.2
   date: 2010-08-18
   post: /en/news/2010/08/18/ruby-1-9-2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2.tar.gz
 - version: 1.9.2-rc2
   date: 2010-07-11
   post: /en/news/2010/07/11/ruby-1-9-2-rc2-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz
 - version: 1.9.2-rc1
   date: 2010-07-02
   post: /en/news/2010/07/02/ruby-1-9-2-rc1-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.gz
 - version: 1.9.2-preview1
   date: 2009-07-20
   post: /en/news/2009/07/20/ruby-1-9-2-preview-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz
 
 # 1.9.1 series
 
 - version: 1.9.1-p430
   date: 2010-08-16
   post: /en/news/2010/08/16/ruby-1-9-1-p430-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.gz
 - version: 1.9.1-p429
   date: 2010-07-02
   post: /en/news/2010/07/02/ruby-1-9-1-p429-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz
 - version: 1.9.1-p376
   date: 2009-12-07
   post: /en/news/2009/12/07/ruby-1-9-1-p376-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz
 - version: 1.9.1-p243
   date: 2009-07-20
   post: /en/news/2009/07/20/ruby-1-9-1-p243-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p243.tar.gz
 - version: 1.9.1-p129
   date: 2009-05-12
   post: /en/news/2009/05/12/ruby-1-9-1-p129-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p129.tar.gz
 - version: 1.9.1
   date: 2009-01-30
   post: /en/news/2009/01/30/ruby-1-9-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1.tar.gz
 - version: 1.9.1-preview1
   date: 2008-10-28
   post: /en/news/2008/10/28/ruby-1-9-1-preview-1-released/
-
-# 1.9.0
-
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
 - version: 1.9.0
   date: 2007-12-25
   post: /en/news/2007/12/25/ruby-1-9-0-released/
-
-# 1.8.7 series
-
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0.tar.gz
 - version: 1.8.7-p374
   date: 2013-06-27
   post: /en/news/2013/06/27/ruby-1-8-7-p374-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p374.tar.gz
 - version: 1.8.7-p370
   date: 2012-06-29
   post: /en/news/2012/06/29/ruby-1-8-7-p370-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz
 - version: 1.8.7-p352
   date: 2011-07-02
   post: /en/news/2011/07/02/ruby-1-8-7-p352-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p352.tar.gz
 - version: 1.8.7-p330
   date: 2010-12-25
   post: /en/news/2010/12/25/ruby-1-8-7-p330-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p330.tar.gz
 - version: 1.8.7-p302
   date: 2010-08-16
   post: /en/news/2010/08/16/ruby-1-8-7-p302-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz
 - version: 1.8.7-p299
   date: 2010-06-23
   post: /en/news/2010/06/23/ruby-1-8-7-p299-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p299.tar.gz
 - version: 1.8.7-p248
   date: 2009-12-25
   post: /en/news/2009/12/25/ruby-1-8-7-p248-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p248.tar.gz
 - version: 1.8.7-p160
   date: 2009-04-18
   post: /en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz
 - version: 1.8.7-p72
   date: 2008-08-11
   post: /en/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz
 - version: 1.8.7
   date: 2008-05-31
   post: /en/news/2008/05/31/ruby-1-8-7-has-been-released/
-
-# 1.8.6 series
-
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
 - version: 1.8.6-p368
   date: 2009-04-18
   post: /en/news/2009/04/18/ruby-1-8-7-p160-and-1-8-6-p368-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz
 - version: 1.8.6-p287
   date: 2008-08-11
   post: /en/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz
 - version: 1.8.6
   date: 2007-03-12
   post: /en/news/2007/03/12/ruby-1-8-6-released/
-
-# older releases
-
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.gz
 - version: 1.8.5
   date: 2006-08-29
   post: /en/news/2006/08/29/ruby-1-8-5-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5.tar.gz
 - version: 1.8.4
   date: 2005-12-24
   post: /en/news/2005/12/24/ruby-184-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.4.tar.gz
 - version: 1.8.4-preview2
   date: 2005-12-14
   post: /en/news/2005/12/14/ruby-184-preview-2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.4-preview2.tar.gz
 - version: 1.8.3
   date: 2005-09-21
   post: /en/news/2005/09/21/ruby-183-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.3.tar.gz
 - version: 1.8.2
   date: 2004-12-26
   post: /en/news/2004/12/26/ruby-182-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2.tar.gz
 - version: 1.8.2-preview4
   date: 2004-12-22
   post: /en/news/2004/12/22/182-preview4-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2-preview4.tar.gz
 - version: 1.8.2-preview3
   date: 2004-11-08
   post: /en/news/2004/11/08/182-preview3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2-preview3.tar.gz
 - version: 1.8.2-preview2
   date: 2004-07-30
   post: /en/news/2004/07/30/ruby-182-preview2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2-preview2.tar.gz
 - version: 1.8.2-preview1
   date: 2004-07-21
   post: /en/news/2004/07/21/ruby-182-preview1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2-preview1.tar.gz
 - version: 1.8.0
   date: 2003-08-04
   post: /en/news/2003/08/04/ruby-180-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.0.tar.gz
 - version: 1.6.7
   date: 2002-03-01
   post: /en/news/2002/03/01/167-is-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/1.6/ruby-1.6.7.tar.gz

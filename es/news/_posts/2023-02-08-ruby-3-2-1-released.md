@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 3.2.1 릴리스"
+title: "Publicado Ruby 3.2.1"
 author: "naruse"
-translator: "shia"
+translator: vtamara
 date: 2023-02-08 12:00:00 +0000
-lang: ko
+lang: es
 ---
 
-Ruby 3.2.1이 릴리스되었습니다.
+Ruby 3.2.1 ha sido publicado.
 
-3.2 안정 버전대의 첫 TEENY 버전입니다.
+Esta es la primera versión PEQUEÑA de la serie estable 3.2.
 
-자세한 사항은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_2_1)를 확인해 주세요.
+Puedes ver la [página de lanzamientos en GitHub](https://github.com/ruby/ruby/releases/tag/v3_2_1) para obtener más detalles.
 
-## 다운로드
+## Descargas
 
 {% assign release = site.data.releases | where: "version", "3.2.1" | first %}
 
@@ -38,7 +38,8 @@ Ruby 3.2.1이 릴리스되었습니다.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## 릴리스 코멘트
+## Comentario de la versión
 
-많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
-그들의 기여에 감사드립니다.
+Muchos contribuidores, desarrolladores y usuarios que proveyeron
+reportes de fallas nos ayudaron a darle forma a esta versión.
+Gracias por sus contribuciones.

@@ -57,7 +57,11 @@ lang: ja
     毎晩Gitから作成しているtarballです。
     バグやその他の問題があるかもしれません。利用する場合は自己責任でお願いします！
 
-RubyのSubversionやGitリポジトリについての情報は、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。
+Ruby の Git リポジトリについての情報は、[リポジトリガイド](/ja/documentation/repository-guide)を参照してください。
+
+リリースごとの詳しい情報や古いリリース、プレビューなどの情報については[リリースページ][releases]を参照してください。
+
+各 Ruby バージョンのメンテナンス方針、各ブランチの状況・予定については[ブランチごとのメンテナンス状況][branches]を参照してください。
 
 Rubyのソースコードは、世界各国の[ミラーサイト][mirrors]からダウンロードできます。
 お近くのミラーサイトをお使いください。
@@ -71,24 +75,12 @@ Windows向けのバイナリが有志により配布されています。
 * [RailsInstaller][railsinstaller] (英語)
   RubyInstaller に Rails の開発に必要なものを加えたもの。
 
-
-
 [license]: {{ site.license.url }}
 [installation]: /ja/documentation/installation/
+[releases]: /ja/downloads/releases/
+[branches]: /ja/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
-
-{% include branches-timeline.html %}
-
-{% for branch in site.data.branches %}
-### Ruby {{ branch.name }}
-
-ステータス: {{ branch.status }}<br>
-リリース: {{ branch.date }}<br>
-通常メンテナンス終了: {% if branch.security_maintenance_date %}{{ branch.security_maintenance_date }}{% else %}TBD{% endif %}<br>
-EOL: {% if branch.eol_date %}{{ branch.eol_date }}{% else %}{% if branch.expected_eol_date %}{{ branch.expected_eol_date }}（見込み）{% else %}TBD{% endif %}{% endif %}
-
-{% endfor %}
