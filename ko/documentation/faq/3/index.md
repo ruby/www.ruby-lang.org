@@ -175,7 +175,7 @@ rbcw 버전은 [http://www.cygwin.com](http://www.cygwin.com) 또는 Ruby 다운
 가장 많은 기능을 제공하는 Ruby의 Cygwin 버전을 사용하기를 원할 것입니다.
 
 rbcw 버전을 사용하려면 cygwin .dll을 별도로 설치해야 합니다. 컴퓨터에 cygwin을
-설치한 후, 사이버윈 배포의 `bin` 하위 디렉터리에 있는 `cygwin1.dll`
+설치한 후, Cygwin 배포의 `bin` 하위 디렉터리에 있는 `cygwin1.dll`
 을 `Windows\System32` 폴더(또는 다른 경로에 있는 폴더)에 복사합니다.
 
 
