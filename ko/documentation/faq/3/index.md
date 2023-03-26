@@ -85,8 +85,8 @@ $ make test
 $ make install
 ~~~
 
-기본 설치 위치(`/usr/local`)를 바꾸지 않고 Ruby를 설치하려면 수퍼유저 권한이
-필요할 수 있습니다. 다음 명령을 사용하여 `configure` 옵션의 전체 목록 을 얻을 수
+기본 설치 위치(`/usr/local`)를 바꾸지 않고 Ruby를 설치하려면 슈퍼유저 권한이
+필요할 수 있습니다. 다음 명령을 사용하여 `configure` 옵션의 전체 목록을 얻을 수
 있습니다.
 
 ~~~
@@ -174,7 +174,7 @@ rbcw 버전은 [http://www.cygwin.com](http://www.cygwin.com) 또는 Ruby 다운
 의 일부)에서 처음 제작한 유틸리티 세트입니다. 대부분의 프로그래머는 Windows에서
 가장 많은 기능을 제공하는 Ruby의 Cygwin 버전을 사용하기를 원할 것입니다.
 
-rbcw 버전을 사용하려면 cygwin .dll을 별도로 설치해야 합니다. 컴퓨터에 cygwin을
+rbcw 버전을 사용하려면 cygwin.dll을 별도로 설치해야 합니다. 컴퓨터에 cygwin을
 설치한 후, Cygwin 배포의 `bin` 하위 디렉터리에 있는 `cygwin1.dll`
 을 `Windows\System32` 폴더(또는 다른 경로에 있는 폴더)에 복사합니다.
 
