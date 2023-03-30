@@ -9,13 +9,18 @@ lang: en
 
 Ruby 2.7.8 has been released.
 
-This release includes a security fix.
+This release includes security fixes.
 Please check the topics below for details.
 
 * [CVE-2023-28755: ReDoS vulnerability in URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
 * [CVE-2023-28755: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
+This release also includes some build problem fixes.
 See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_8) for further details.
+
+After this release, Ruby 2.7 reaches EOL. In other words, this is expected to be the last release of Ruby 2.7 series.
+We will not release Ruby 2.7.9 even if a security vulnerability is found (but could release if a severe regression is found).
+We recommend all Ruby 2.7 users to start migration to Ruby 3.2, 3.1, or 3.0 immediately.
 
 ## Download
 

@@ -9,7 +9,7 @@ lang: en
 
 Ruby 3.0.6 has been released.
 
-This release includes a security fix.
+This release includes security fixes.
 Please check the topics below for details.
 
 * [CVE-2023-28755: ReDoS vulnerability in URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
