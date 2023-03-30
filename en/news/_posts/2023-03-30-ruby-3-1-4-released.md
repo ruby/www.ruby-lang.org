@@ -19,7 +19,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_4) for 
 
 ## Download
 
-{% assign release = site.data.releases | where: "version", "3.1.3" | first %}
+{% assign release = site.data.releases | where: "version", "3.1.4" | first %}
 
 * <{{ release.url.gz }}>
 
