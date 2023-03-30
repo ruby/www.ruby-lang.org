@@ -21,6 +21,30 @@
 
 # 3.2 series
 
+- version: 3.2.2
+  date: '2023-03-30'
+  post: "/en/news/2023/03/30/ruby-3-2-2-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.zip
+  size:
+    gz: 
+    xz: 
+    zip: 
+  sha1:
+    gz: 
+    xz: 
+    zip: 
+  sha256:
+    gz: 
+    xz: 
+    zip: 
+  sha512:
+    gz: 
+    xz: 
+    zip: 
+
 - version: 3.2.1
   date: '2023-02-08'
   post: "/en/news/2023/02/08/ruby-3-2-1-released/"
@@ -192,6 +216,30 @@
 
 # 3.1 series
 
+- version: 3.1.4
+  date: '2023-03-30'
+  post: "/en/news/2023/03/30/ruby-3-1-4-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.4.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.4.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.4.zip
+  size:
+    gz: 
+    xz: 
+    zip: 
+  sha1:
+    gz: 
+    xz: 
+    zip: 
+  sha256:
+    gz: 
+    xz: 
+    zip: 
+  sha512:
+    gz: 
+    xz: 
+    zip: 
+
 - version: 3.1.3
   date: '2022-11-24'
   post: "/en/news/2022/11/24/ruby-3-1-3-released/"
@@ -323,6 +371,30 @@
     xz:  bdbd7c624197ca478658280d84123a8c12ae72425bc566dcc75989c5b5ef114dd57e64efc09e2413ed615d9b47621a70ace0f3612e8ca7ba853822ad9e88c0b0
 
 # 3.0 series
+
+- version: 3.0.6
+  date: '2023-03-30'
+  post: "/en/news/2023/03/30/ruby-3-0-6-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.6.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.6.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.6.zip
+  size:
+    gz: 
+    xz: 
+    zip: 
+  sha1:
+    gz: 
+    xz: 
+    zip: 
+  sha256:
+    gz: 
+    xz: 
+    zip: 
+  sha512:
+    gz: 
+    xz: 
+    zip: 
 
 - version: 3.0.5
   date: '2022-11-24'
@@ -563,6 +635,35 @@
     xz:  dca5dcc965c434371947c100864090e29e649e19ae24b8bb2e88a534ebd8220c5a086035a999b1e8b1cd5ec154a6985a8d8dfea56095d712d62aeea7a2054f7d
 
 # 2.7 series
+
+- version: 2.7.8
+  date: '2023-03-30'
+  post: "/en/news/2023/03/30/ruby-2-7-8-released/"
+  url:
+    bz2: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.8.tar.bz2
+    gz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.8.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.8.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.8.zip
+  size:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
+  sha1:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
+  sha256:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
+  sha512:
+    bz2: 
+    gz: 
+    xz: 
+    zip: 
 
 - version: 2.7.7
   date: '2022-11-24'
