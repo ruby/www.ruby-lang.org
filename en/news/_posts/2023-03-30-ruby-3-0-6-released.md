@@ -18,6 +18,13 @@ Please check the topics below for details.
 This release also includes some bug fixes.
 See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_6) for further details.
 
+After this release, we end the normal maintenance phase of Ruby 3.0, and Ruby 3.0 enters the security maintenance phase.
+This means that we will no longer backport any bug fixes to Ruby 3.0 except security fixes.
+
+The term of the security maintenance phase is scheduled for a year.
+Ruby 3.0 reaches EOL and its official support ends by the end of the security maintenance phase.
+Therefore, we recommend that you start to plan upgrade to Ruby 3.1 or 3.2.
+
 ## Download
 
 {% assign release = site.data.releases | where: "version", "3.0.6" | first %}
