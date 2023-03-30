@@ -13,9 +13,9 @@ This release includes security fixes.
 Please check the topics below for details.
 
 * [CVE-2023-28755: ReDoS vulnerability in URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
-* [CVE-2023-28755: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+* [CVE-2023-28756: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_1) for further details.
+See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_2) for further details.
 
 ## Download
 

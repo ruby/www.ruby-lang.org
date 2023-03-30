@@ -13,7 +13,7 @@ This release includes security fixes.
 Please check the topics below for details.
 
 * [CVE-2023-28755: ReDoS vulnerability in URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
-* [CVE-2023-28755: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+* [CVE-2023-28756: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
 This release also includes a fix for build failure with Xcode 14 and macOS 13 (Ventura).
 See [the related ticket](https://bugs.ruby-lang.org/issues/18912) for more details.
