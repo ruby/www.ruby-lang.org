@@ -139,7 +139,7 @@ $ CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
 HP의 기본 `sed`에도 문제가 있을 수 있습니다. 그는 GNU 버전을 설치할
 것을 권장합니다.
 
-[ruby-talk:5041]: https://blade.ruby-lang.org/ruby-talk/5401
+[ruby-talk:5041]: https://blade.ruby-lang.org/ruby-talk/5041
 
 ### 미리 컴파일된 바이너리를 사용할 수 있나요?
 
