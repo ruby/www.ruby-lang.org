@@ -7,91 +7,51 @@ lang: ja
 いくつかのツールを使ってRubyをインストールできます。
 このページでは、Rubyの管理とインストールのための、メジャーなパッケージ管理ツールとサードパーティツールについて解説します。
 
+あなたのコンピューターにはすでにRubyがインストールされているかもしれません。[ターミナルソフト][terminal]で以下のように打つと確認することができます。
 
-## システムごとのインストール方法
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
 
-利用可能なインストール方法を解説します。
-お好みの使いやすい方法を選んでください。
+インストールされているRubyのバージョンに関する情報が出力されるはずです。
+## インストール方法を選択
+Rubyをインストールするには、いくつかの方法があります。
 
-* macOS
+* UNIX系のOSでは、システムの ***パッケージマネージャ*** を利用するのが最も簡単です。ただし、パッケージ化されたRubyのバージョンが最新であるとは限りません。
+* ***インストーラ*** を使えば、特定の、あるいは複数のRubyバージョンをインストールすることができます。また、Windows用のインストーラもあります。
+* ***マネージャ*** は、システム上で複数のRubyのバージョンを切り替えるのに役立ちます。
+* 最後に、***Rubyをソースからビルドする***こともできます。
 
-  * [rbenv](#rbenv)
-  * [RVM](#rvm)
+Windows 10 では、[Windows Subsystem for Linux][wsl] を使用して、サポートされている Linux ディストリビューションの 1 つをインストールし、そのシステムで利用可能なインストール方法のいずれかを使用することもできます。
+
+以下は、利用可能なインストール方法です。
+
+* [Package Management Systems](#package-management-systems)
+  * [Debian, Ubuntu](#apt)
+  * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
+  * [Gentoo](#portage)
+  * [Arch Linux](#pacman)
+  * [macOS](#homebrew)
+  * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
+  * [OpenIndiana](#openindiana)
+  * [Windows Package Manager](#winget)
+  * [Chocolatey package manager for Windows](#chocolatey)
+  * [Other Distributions](#other-systems)
+* [Installers](#installers)
+  * [ruby-build](#ruby-build)
+  * [ruby-install](#ruby-install)
+  * [RubyInstaller](#rubyinstaller) (Windows)
+  * [Ruby Stack](#rubystack)
+* [Managers](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
-  * [Homebrew](#homebrew)
-  * [ソースからのビルド](#building-from-source)
-
-* Linux/UNIX
-
   * [rbenv](#rbenv)
+  * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
-  * [chruby](#chruby)
-  * [パッケージ管理システム](#package-management-systems)
-  * [ソースからのビルド](#building-from-source)
-
-* Windows
-
-  * [WSL](#apt-wsl)
-  * [RubyInstaller](#rubyinstaller)
-  * [RailsInstaller](#railsinstaller)
-
-## サードパーティツール
-
-多くのRubyistたちは様々な特徴を持つサードパーティツールを使ってRubyをインストールしています。
-
-各ツールには様々な利点がありますが、オフィシャルにサポートしている方法ではありません。
-しかし、それぞれのコミュニティが心強い助けになるでしょう。
-
-
-### rbenv
-{: #rbenv}
-
-rbenv では複数の Ruby を管理することができます。
-
-rbenv は Ruby のインストール自体はサポートしていませんが、
-[ruby-build](https://github.com/rbenv/ruby-build) というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
-
-それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
-
-rbenv をインストールする方法は [rbenvのページ][rbenv] に記述されています。
-
-rbenv と似たツールとして、次に説明する RVM や chruby があります。
-そちらも確認して、良い方を選んでください。
-
-
-### RVM ("Ruby Version Manager")
-{: #rvm}
-
-RVM は複数の Ruby のインストールと管理を行うことができます。
-このツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
-
-RVM をインストールする方法は [rvm.io][rvm] に記述されています。
-
-### chruby
-{: #chruby}
-
-chruby では複数の Ruby を管理することができます。
-
-chruby は Ruby のインストール自体はサポートしていませんが、
-[ruby-install](https://github.com/postmodern/ruby-install) や [ruby-build](https://github.com/rbenv/ruby-build) というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
-
-それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
-
-chruby をインストールする方法は [chrubyのページ][chruby] に記述されています。
-
-### RubyInstaller
-{: #rubyinstaller}
-
-もしあなたが Windows を使っているなら [RubyInstaller][rubyinstaller] を使って Ruby をインストールすることができます。
-これは、完全な Ruby 開発環境を Windows 上にセットアップしてくれます。
-
-RubyInstaller を使うには、[RubyInstaller のページ][rubyinstaller] からダウンロードしてください。
-そしてこのインストーラを実行するだけです！
-
-### RailsInstaller
-{: #railsinstaller}
-
-[RailsInstaller][railsinstaller] を利用すると、インストーラを実行するだけで Windows 上に Rails 開発環境を構築できます。
+  * [uru](#uru)
+* [Building from source](#building-from-source)
 
 ## パッケージ管理システム
 {: #package-management-systems}
@@ -255,8 +215,91 @@ WindowsでRubyをインストールするには[Windows Package Manager CLI](htt
 ### その他のディストリビューション
 {: #other}
 その他のシステムでは，お使いのLinuxディストリビューションのマネージャのパッケージリポジトリを検索して，Rubyを探すことができます。
-もしくはサードパーティのインストーラを使うこともできます．
+もしくはサードパーティのインストーラを使うこともできます。
 
+## インストーラ
+{: #installers}
+
+システムやパッケージマネージャが提供するRubyのバージョンが古い場合、サードパーティ製のインストーラを使って新しいものをインストールすることができます。
+
+インストーラの中には、同じシステム上に複数のバージョンをインストールできるものもあり、関連するマネージャは、異なるRubyを切り替えるのに役立ちます。
+
+[RVM](#rvm)をバージョン管理として使用する場合は、別途インストーラを用意する必要はなく、インストーラが付属しています。
+
+### ruby-build
+{: #ruby-build}
+
+[ruby-build][ruby-build]は[rbenv](#rbenv)のプラグインで、異なるバージョンのRubyのコンパイルとインストールを可能にします。ruby-buildはrbenvなしでスタンドアロンプログラムとして使用することも可能です。macOS、Linux、その他のUNIX系OSで利用可能です。
+
+### ruby-install
+{: #ruby-install}
+
+[ruby-install][ruby-install]は、異なるバージョンのRubyをコンパイルし、任意のディレクトリにインストールすることができます。 [chruby](#chruby) は、Rubyのバージョンを切り替えるために使用される補完的なツールです。macOS、Linux、その他のUNIX系OSで利用可能です。
+### RubyInstaller
+{: #rubyinstaller}
+
+もしあなたが Windows を使っているならRubyInstallerを使って Ruby をインストールすることができます。
+これは、完全な Ruby 開発環境を Windows 上にセットアップしてくれます。
+
+RubyInstaller を使うには、[RubyInstaller のページ][rubyinstaller] からダウンロードしてください。
+そしてインストーラを実行するだけです！
+### Ruby Stack
+{: #rubystack}
+
+Ruby on Railsを利用するためにRubyをインストールする場合は、以下のインストーラを利用することができます。
+
+* [Bitnami Ruby Stack][rubystack]は、Railsのための完全な開発環境を提供します。macOS、Linux、Windows、仮想マシン、クラウドイメージをサポートしています。
+
+## マネージャ
+{: #managers}
+
+多くのRubyistは、複数のRubyを管理するためにRubyマネージャを使用しています。プロジェクトに応じてRubyのバージョンを簡単に、あるいは自動的に切り替えることができるなどの利点がありますが、公式にはサポートされていません。しかし、それぞれのコミュニティでサポートを見つけることができます。
+
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm]は拡張可能なバージョンマネージャで、複数の言語のランタイムバージョンをプロジェクト単位で管理することができる。Rubyをインストールするには、[asdf-ruby][asdf-ruby]プラグイン（これは[ruby-build][ruby-build]を使用します）が必要です。
+### chruby
+{: #chruby}
+
+chruby では複数の Ruby を管理することができます。
+
+chruby は Ruby のインストール自体はサポートしていませんが、
+[ruby-install](https://github.com/postmodern/ruby-install) や [ruby-build][ruby-build] というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
+
+それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
+
+chruby をインストールする方法は [chrubyのページ][chruby] に記述されています。
+
+### rbenv
+{: #rbenv}
+
+rbenv では複数の Ruby を管理することができます。
+
+rbenv は Ruby のインストール自体はサポートしていませんが、
+[ruby-build][ruby-build] というポピュラーなプラグインを使うことで Ruby をインストールすることができます。
+
+それぞれのツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
+
+rbenv をインストールする方法は [rbenvのページ][rbenv] に記述されています。
+
+### rbenv for Windows
+{: #rbenv-for-windows}
+
+[rbenv for Windows][rbenv-for-windows]は、WindowsにRubyを複数インストールし、管理することができます。PowerShellで書かれているため、WindowsユーザーにとってRubyを使うためのネイティブな方法を提供します。また、コマンドラインインターフェースはUNIX系システムの[rbenv][rbenv]と互換性があります。
+
+### RVM ("Ruby Version Manager")
+{: #rvm}
+
+RVM は複数の Ruby のインストールと管理を行うことができます。
+このツールは macOS、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。
+
+RVM をインストールする方法は [rvm.io][rvm] に記述されています。
+
+### uru
+{: #uru}
+
+[Uru][uru]は、macOS、Linux、Windowsシステム上で複数のRubieを使用するのに役立つ、軽量でマルチプラットフォーム対応のコマンドラインツールです。
 
 ## ソースからのビルド
 {: #building-from-source}
@@ -291,3 +334,13 @@ $ sudo make install
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
 [building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
+[wsl]: https://learn.microsoft.com/ja-jp/windows/wsl/about
+[ruby-build]: https://github.com/rbenv/ruby-build#readme
+[ruby-install]: https://github.com/postmodern/ruby-install#readme
+[rubyinstaller]: https://rubyinstaller.org/
+[rubystack]: https://bitnami.com/stack/ruby/virtual-machine
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
+[uru]: https://bitbucket.org/jonforums/uru/src/master/
