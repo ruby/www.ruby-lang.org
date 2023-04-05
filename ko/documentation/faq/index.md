@@ -13,7 +13,7 @@ header: |
     <span class="separator"> | </span>
     <a href="3/" title="파트 3">3</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/4/" title="파트 4">4</a>
+    <a href="4/" title="파트 4">4</a>
     <span class="separator"> | </span>
     <a href="/en/documentation/faq/5/" title="파트 5">5</a>
     <span class="separator"> | </span>
@@ -51,8 +51,8 @@ Stollsteimer에게 감사드립니다.
 
 * [일반적인 질문](1/)
 * [Ruby의 경쟁 상대는...?](2/)
-* [Ruby 설치하기](/en/documentation/faq/3/)
-* [변수, 상수 및 인수](/en/documentation/faq/4/)
+* [Ruby 설치하기](3/)
+* [변수, 상수, 인수](4/)
 * [이터레이터](/en/documentation/faq/5/)
 * [구문](/en/documentation/faq/6/)
 * [메서드](/en/documentation/faq/7/)
