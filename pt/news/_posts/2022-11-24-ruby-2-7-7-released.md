@@ -1,7 +1,7 @@
 ---
 layout: news_post
-title: "Lançado Ruby 2.7.7
-"author: "usa"
+title: "Lançado Ruby 2.7.7"
+author: "usa"
 translator: "guicruzzs"
 date: 2022-11-24 12:00:00 +0000
 lang: pt
