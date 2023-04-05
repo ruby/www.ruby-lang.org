@@ -205,7 +205,7 @@ WindowsでRubyをインストールするには[Windows Package Manager CLI](htt
 ### Chocolatey package manager for Windows
 {: #choco}
 同じくWindowsでは[Chocolatey Package Manager](https://chocolatey.org/install) を利用してRubyのインストールが可能です。
- 
+
 {% highlight sh %}
 > choco install ruby
 {% endhighlight %}
