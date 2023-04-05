@@ -28,7 +28,7 @@ lang: ko
 * Onigmo를 6.1.1로 병합했습니다.
   [absence operator](https://github.com/k-takata/Onigmo/issues/87)를 추가했습니다.
   루비 2.4.1은 이미 이 사항을 포함하였습니다.
-* 번들러를 표준 라이브러리로 병합했습니다.
+* bundler를 표준 라이브러리로 병합했습니다.
 * rubygems-2.6.13 병합했습니다.
 * rdoc-6.0.0.beta2 병합했습니다.
   IRB 구문 분석기를 Ripper로 교체,
