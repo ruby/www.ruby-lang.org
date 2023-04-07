@@ -173,7 +173,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [kdevelop]: https://www.kdevelop.org/
 [kate]: https://kate-editor.org/
 
-[ko-1]: http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2
+[ko-1]: https://docs.google.com/document/d/15yEpi2ZMB2Lld5lA1TANt13SJ_cKygP314cqyKhELwQ/preview
 [ko-2]: https://web.archive.org/web/20190521035426/http://beyond.daesan.com/pages/ruby-faq
 [ko-3]: https://groups.google.com/forum/#!forum/rubykr
 [ko-4]: https://www.facebook.com/groups/rubykr/
