@@ -33,8 +33,7 @@
   status: security maintenance
   date: 2019-12-25
   security_maintenance_date: 2022-04-01
-  eol_date:
-  expected_eol_date: 2023-03-31
+  eol_date: 2023-03-30
 
 - name: 2.6
   status: eol
