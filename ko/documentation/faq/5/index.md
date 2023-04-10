@@ -17,7 +17,7 @@ header: |
     <span class="separator"> | </span>
     <strong>5</strong>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/6/" title="파트 6">6</a>
+    <a href="../6/" title="파트 6">6</a>
     <span class="separator"> | </span>
     <a href="/en/documentation/faq/7/" title="파트 7">7</a>
     <span class="separator"> | </span>
