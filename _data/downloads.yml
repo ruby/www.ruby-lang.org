@@ -14,12 +14,11 @@ stable:
 # optional
 security_maintenance:
 
-  - 2.7.8
 
 # optional
 eol:
 
-  - 2.6.10
+  - 2.7.8
 
 stable_snapshots:
 
