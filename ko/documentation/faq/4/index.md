@@ -17,7 +17,7 @@ header: |
     <span class="separator"> | </span>
     <a href="../5/" title="파트 5">5</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/6/" title="파트 6">6</a>
+    <a href="../6/" title="파트 6">6</a>
     <span class="separator"> | </span>
     <a href="/en/documentation/faq/7/" title="파트 7">7</a>
     <span class="separator"> | </span>
@@ -52,7 +52,7 @@ header: |
 않습니다. 숫자 `42` 또는 상수 `true`를 보유한 변수는 실제로 값을 보유하는
 것이지 참조를 보유하는 것이 아닙니다. 따라서 대입은 물리적으로 이러한
 유형의 객체의 복사본을 생성합니다. 이에 대해서는
-[즉시 객체와 참조 객체](/en/documentation/faq/6/#immediate)에서 자세히 설명합니다.
+[즉시 객체와 참조](../6/#immediate)에서 자세히 설명합니다.
 
 
 ### 지역 변수의 스코프는 무엇인가요?
