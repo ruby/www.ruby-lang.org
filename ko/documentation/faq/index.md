@@ -19,7 +19,7 @@ header: |
     <span class="separator"> | </span>
     <a href="6/" title="파트 6">6</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/7/" title="파트 7">7</a>
+    <a href="7/" title="파트 7">7</a>
     <span class="separator"> | </span>
     <a href="/en/documentation/faq/8/" title="파트 8">8</a>
     <span class="separator"> | </span>
@@ -55,7 +55,7 @@ Stollsteimer에게 감사드립니다.
 * [변수, 상수, 인수](4/)
 * [이터레이터](5/)
 * [구문](6/)
-* [메서드](/en/documentation/faq/7/)
+* [메서드](7/)
 * [클래스 및 모듈](/en/documentation/faq/8/)
 * [빌트인 라이브러리](/en/documentation/faq/9/)
 * [확장 라이브러리](/en/documentation/faq/10/)
