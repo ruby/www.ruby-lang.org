@@ -23,7 +23,7 @@ header: |
     <span class="separator"> | </span>
     <a href="../8/" title="파트 8">8</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/9/" title="파트 9">9</a>
+    <a href="../9/" title="파트 9">9</a>
     <span class="separator"> | </span>
     <a href="/en/documentation/faq/10/" title="파트 10">10</a>
     <span class="separator"> | </span>
