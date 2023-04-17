@@ -25,7 +25,7 @@ header: |
     <span class="separator"> | </span>
     <a href="../9/" title="파트 9">9</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/10/" title="파트 10">10</a>
+    <a href="../10/" title="파트 10">10</a>
     <span class="separator"> | </span>
     <a href="/en/documentation/faq/11/" title="파트 11">11</a>
   </div>
@@ -310,7 +310,7 @@ Ruby의 구문은 Ruby 1.0 이후 상당히 안정적이지만 때때로 새로�
 
 문제가 있는 소스 코드와 함께 `ruby -v`의 출력을 첨부하세요.
 
-[`irb`](/en/documentation/faq/10/#irb)를 사용하는 데 문제가 있는 경우 몇 가지
+[`irb`](../10/#irb)를 사용하는 데 문제가 있는 경우 몇 가지
 제한 사항이 있다는 점에 유의하세요. `irb --single-irb`를 사용하거나 `ruby`
 명령을 직접 사용하여 스크립트를 사용해 보세요.
 
