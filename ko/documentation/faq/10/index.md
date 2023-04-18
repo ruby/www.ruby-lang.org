@@ -42,25 +42,25 @@ header: |
 
 {% include faq-out-of-date.html %}
 
-`irb`를 사용해 보세요. 다음은 고토 Kentaro Goto(Gotoken)의 글을 의역한 것으로,
+`irb`를 사용해 보세요. 다음은 고토 켄타로(Gotoken)의 글을 의역한 것으로,
 원래는 [\[ruby-talk:444\]][ruby-talk:444]에 실린 내용입니다.
 
 1. Ruby 아카이브의 [contrib 디렉토리](ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/)에서
    `irb`의 최신 타볼을 가져옵니다.
 2. `irb` 디렉토리 트리를 압축해제합니다.
 3. `irb/` 디렉터리 위치를 `$RUBYLIB` 환경 변수에 추가합니다.
-4. `$RUBYLIB/irb/irb.rb`에서 `irb`라는 파일에 심볼릭 링크를 경로 어딘가에
+4. 경로 어딘가에 `$RUBYLIB/irb/irb.rb`를 가리키는 `irb`라는 심볼릭 링크를 
    만듭니다.
 5. `chmod +x $RUBYLIB/irb/irb.rb`
 6. 'rehash'를 사용하여 로그인 셸에 새 명령에 대해 알려줄 수 있습니다.
-7. `IRB`를 입력합니다.
+7. `irb`를 입력합니다.
 
 readline 확장 모듈이 인터프리터와 함께 작동하면 `irb`를 훨씬 더 재미있게 사용할
 수 있습니다.
 
-Ruby 배포판의 `samples/` 디렉토리에 `eval`이라는 간단한 프로그램도 있습니다.
+Ruby 배포판의 `samples/` 디렉터리에 `eval`이라는 간단한 프로그램도 있습니다.
 이 프로그램을 사용하면 표현식을 입력하고 그 값을 볼 수 있습니다. `eval`을
-Ruby 트리의 `site_ruby` 디렉터리에 복사한 다음 다음을 사용하여 호출할 수
+Ruby 트리의 `site_ruby` 디렉터리에 복사하고 다음을 통해 호출할 수
 있습니다.
 
 ~~~
@@ -96,7 +96,7 @@ ruby -r debug your_program
 링크도 있습니다.
 
 인터프리터 자체의 소스와 `ext/` 디렉터리에서 제공되는 다양한 확장기능을
-살펴볼 수도 있습니다(GiHub에서 [Ruby 저장소][ruby-github]를 찾아볼 수 있습니다).
+살펴볼 수도 있습니다(GitHub에서 [Ruby 저장소][ruby-github]를 찾아볼 수 있습니다).
 
 [extension-rdoc]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [rubygems-guide]: http://guides.rubygems.org/gems-with-extensions/
