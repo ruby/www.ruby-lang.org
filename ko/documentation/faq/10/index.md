@@ -45,11 +45,11 @@ header: |
 `irb`를 사용해 보세요. 다음은 고토 켄타로(Gotoken)의 글을 의역한 것으로,
 원래는 [\[ruby-talk:444\]][ruby-talk:444]에 실린 내용입니다.
 
-1. Ruby 아카이브의 [contrib 디렉토리](ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/)에서
+1. Ruby 아카이브의 [contrib 디렉터리](ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/)에서
    `irb`의 최신 타볼을 가져옵니다.
-2. `irb` 디렉토리 트리를 압축해제합니다.
+2. `irb` 디렉터리 트리를 압축해제합니다.
 3. `irb/` 디렉터리 위치를 `$RUBYLIB` 환경 변수에 추가합니다.
-4. 경로 어딘가에 `$RUBYLIB/irb/irb.rb`를 가리키는 `irb`라는 심볼릭 링크를 
+4. 경로 어딘가에 `$RUBYLIB/irb/irb.rb`를 가리키는 `irb`라는 심볼릭 링크를
    만듭니다.
 5. `chmod +x $RUBYLIB/irb/irb.rb`
 6. 'rehash'를 사용하여 로그인 셸에 새 명령에 대해 알려줄 수 있습니다.
