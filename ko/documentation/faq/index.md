@@ -27,7 +27,7 @@ header: |
     <span class="separator"> | </span>
     <a href="10/" title="파트 10">10</a>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/11/" title="파트 11">11</a>
+    <a href="11/" title="파트 11">11</a>
   </div>
   <h1>공식 Ruby FAQ</h1>
 
@@ -59,4 +59,4 @@ Stollsteimer에게 감사드립니다.
 * [클래스 및 모듈](8/)
 * [내장 라이브러리](9/)
 * [확장 라이브러리](10/)
-* [기타 기능](/en/documentation/faq/11/)
+* [기타 기능](11/)

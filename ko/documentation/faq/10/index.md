@@ -27,7 +27,7 @@ header: |
     <span class="separator"> | </span>
     <strong>10</strong>
     <span class="separator"> | </span>
-    <a href="/en/documentation/faq/11/" title="파트 11">11</a>
+    <a href="../11/" title="파트 11">11</a>
   </div>
   <h1>공식 Ruby FAQ</h1>
 
