@@ -99,7 +99,7 @@ to further reading.
 
 You might also want to have a look at the source of the interpreter itself,
 and at the various supplied extensions in the `ext/` directory
-(you can browse the [Ruby repository on GiHub][ruby-github]).
+(you can browse the [Ruby repository on GitHub][ruby-github]).
 
 [extension-rdoc]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [rubygems-guide]: http://guides.rubygems.org/gems-with-extensions/
