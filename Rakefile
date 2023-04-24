@@ -18,41 +18,16 @@ task test: %i[test-news-plugin test-linter lint build]
 
 desc "Build the Jekyll site"
 task :build do
-  require "lanyon"
+  require "jekyll"
 
-  Lanyon.build
-end
-
-namespace :build do
-
-  def build_subpage(lang)
-    require "yaml"
-    require "lanyon"
-
-    exclude_config = YAML.load_file(CONFIG)["exclude"]
-    exclude_langs  = (LANGUAGES - [lang]).map {|x| "#{x}/" }
-
-    exclude = exclude_config + exclude_langs
-
-    Lanyon.build(exclude: exclude)
-  end
-
-  desc "Build the Jekyll site (`lang' language part only)"
-  task :lang do
-    puts "Please specify one of the valid language codes:"
-    puts LANGUAGES.join(", ") << "."
-  end
-
-  LANGUAGES.each do |lang|
-    task lang.to_sym do
-      build_subpage(lang)
-    end
-  end
+  Jekyll::Commands::Build.process({})
 end
 
 desc "Serve the Jekyll site locally"
 task :serve do
-  sh "rackup config.ru"
+  require "jekyll"
+
+  Jekyll::Commands::Serve.process({})
 end
 
 namespace :new_post do
