@@ -6,12 +6,6 @@ gem "rake"
 gem "jekyll", "~> 4.2.0"
 gem "rouge"
 
-gem "unicorn"
-gem "lanyon"
-gem "rack-rewrite"
-gem "rack-ssl"
-gem "rack-protection"
-
 group :development do
   gem "minitest"
   gem "spidr", "~> 0.6"
