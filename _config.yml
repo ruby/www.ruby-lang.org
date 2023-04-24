@@ -8,13 +8,10 @@ kramdown:
   auto_ids: false
 
 exclude:
-  - config.ru
   - Gemfile
   - Gemfile.lock
-  - Procfile
   - Rakefile
   - README.md
-  - unicorn.rb
   - lib
   - test
   - vendor

@@ -35,14 +35,10 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.6.3)
-    kgio (2.11.4)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    lanyon (0.4.4)
-      jekyll (>= 2.0)
-      rack (>= 1.6, < 3.0)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -62,13 +58,6 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (5.0.1)
     racc (1.6.2)
-    rack (2.2.6.4)
-    rack-protection (3.0.6)
-      rack
-    rack-rewrite (1.5.1)
-    rack-ssl (1.4.1)
-      rack
-    raindrops (0.20.1)
     rake (13.0.6)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
@@ -86,9 +75,6 @@ GEM
     tidy_ffi (1.0.1)
       ffi (~> 1.2)
     unicode-display_width (1.8.0)
-    unicorn (6.1.0)
-      kgio (~> 2.6)
-      raindrops (~> 0.7)
     validate-website (1.12.0)
       crass (~> 1)
       nokogiri (~> 1.12)
@@ -111,15 +97,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.2.0)
-  lanyon
   minitest
-  rack-protection
-  rack-rewrite
-  rack-ssl
   rake
   rouge
   spidr (~> 0.6)
-  unicorn
   validate-website (~> 1.6)
 
 RUBY VERSION
