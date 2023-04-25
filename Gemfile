@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "~> 3.2.2"
 
 gem "rake"
-gem "jekyll", "~> 4.2.0"
+gem "jekyll"
 gem "rouge"
 
 group :development do
