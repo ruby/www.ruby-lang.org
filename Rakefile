@@ -89,12 +89,22 @@ end
 
 namespace :check do
 
-  localport = 9292
-
-  desc "Check for broken internal links on http://localhost:#{localport}/"
+  desc "Check for broken internal links"
   task :links do
-    require_relative "lib/link_checker"
-    LinkChecker.new.check(localport: localport, languages: LANGUAGES)
+    require "html-proofer"
+    options = {
+      checks: [
+        'Links',
+        'Images',
+        'Scripts',
+      ],
+      ignore_empty_alt: true,
+      ignore_missing_alt: true,
+      check_external_hash: false,
+      check_internal_hash: false,
+    }
+
+    HTMLProofer.check_directory('_site', options).run
   end
 
   desc "Validate _site markup with validate-website"

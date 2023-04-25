@@ -6,6 +6,6 @@ gem "rouge"
 
 group :development do
   gem "minitest"
-  gem "spidr", "~> 0.6"
+  gem "html-proofer"
   gem "validate-website", "~> 1.6"
 end
