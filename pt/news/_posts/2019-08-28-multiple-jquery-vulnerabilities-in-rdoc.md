@@ -15,8 +15,8 @@ Todas as pessoas usuárias de Ruby são orientadas a atualizar Ruby para a últi
 
 As seguintes vulnerabilidades foram reportadas.
 
-- [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-- [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+- [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+- [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 É fortemente recomendado para todas as pessoas usuárias de Ruby que atualizem sua instalação de Ruby ou tome uma das seguintes soluções alternativas assim que possível.
 Você também deve regerar toda documentação existente de RDoc para mitigar completamente as vulnerabilidades.

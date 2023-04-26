@@ -15,7 +15,7 @@ Tüm Ruby kullanıcılarına bu zaafiyeti çözen son RDoc sürümüne güncelle
 
 Aşağıdaki zaafiyet bildirilmiştir.
 
-* [CVE-2021-31799](https://nvd.nist.gov/vuln/detail/CVE-2021-31799)
+* [CVE-2021-31799](https://www.cve.org/CVERecord?id=CVE-2021-31799)
 
 RDoc yerel bir dosyayı açmak için `Kernel#open` metodunu çağırıyordu.
 Eğer bir Ruby projesi `|` ile başlayan ve `tags` ile biten bir dosyaya sahipse, boru karakterini takip eden komut çalıştırılır.

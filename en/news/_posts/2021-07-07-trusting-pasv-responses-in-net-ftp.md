@@ -9,7 +9,7 @@ lang: en
 ---
 
 A trusting FTP PASV responses vulnerability was discovered in Net::FTP.
-This vulnerability has been assigned the CVE identifier [CVE-2021-31810](https://nvd.nist.gov/vuln/detail/CVE-2021-31810).
+This vulnerability has been assigned the CVE identifier [CVE-2021-31810](https://www.cve.org/CVERecord?id=CVE-2021-31810).
 We strongly recommend upgrading Ruby.
 
 net-ftp is a default gem in Ruby 3.0.1 but it has a packaging issue, so please upgrade Ruby itself.

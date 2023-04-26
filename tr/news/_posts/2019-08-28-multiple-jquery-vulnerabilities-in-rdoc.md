@@ -17,8 +17,8 @@ düzeltilmiş sürümünün bulunduğu son sürüme güncelleme yapmaları öner
 
 Aşağıdaki güvenlik açıkları bildirildi.
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 Tüm Ruby kullanıcılarının en kısa zamanda Ruby kurulumlarını yükseltmeleri ya
 da aşağıdaki geçici çözümlerden birini kullanmaları şiddetle tavsiye edilir.

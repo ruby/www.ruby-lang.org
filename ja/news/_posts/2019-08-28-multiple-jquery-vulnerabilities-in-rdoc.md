@@ -15,8 +15,8 @@ Ruby の標準添付ライブラリである RDoc に含まれる jQuery にお�
 
 以下の脆弱性が報告されています。
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 この問題の影響を受けるバージョンの Ruby のユーザーは、最新の Ruby に更新するか、下記の回避策を取ってください。
 また、問題を完全に修正するためには、既に生成されている RDoc ドキュメントを再生成する必要があります。

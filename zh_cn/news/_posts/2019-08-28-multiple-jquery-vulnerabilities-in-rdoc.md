@@ -15,8 +15,8 @@ Ruby 内置的 RDoc 所附带的 jQuery 存在关于跨站脚本攻击（XSS）�
 
 以下为被报告的缺陷。
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 强烈建议所有 Ruby 使用者升级你的 Ruby，或尽快采用下述临时解决方案。你还需要重新生成现有的 RDoc 文档以完全解决问题。
 

@@ -9,7 +9,7 @@ lang: en
 ---
 
 A StartTLS stripping vulnerability was discovered in Net::IMAP.
-This vulnerability has been assigned the CVE identifier [CVE-2021-32066](https://nvd.nist.gov/vuln/detail/CVE-2021-32066).
+This vulnerability has been assigned the CVE identifier [CVE-2021-32066](https://www.cve.org/CVERecord?id=CVE-2021-32066).
 We strongly recommend upgrading Ruby.
 
 net-imap is a default gem in Ruby 3.0.1 but it has a packaging issue, so please upgrade Ruby itself.

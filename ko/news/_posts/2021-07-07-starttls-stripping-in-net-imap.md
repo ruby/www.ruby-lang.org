@@ -9,7 +9,7 @@ lang: ko
 ---
 
 Net::IMAP에서 StartTLS 스트립 취약점이 발견되었습니다.
-이 취약점은 CVE 번호 [CVE-2021-32066](https://nvd.nist.gov/vuln/detail/CVE-2021-32066)에 할당되었습니다.
+이 취약점은 CVE 번호 [CVE-2021-32066](https://www.cve.org/CVERecord?id=CVE-2021-32066)에 할당되었습니다.
 Ruby를 업그레이드하시길 강력히 권합니다.
 
 net-imap은 Ruby 3.0.1의 기본 gem이지만, 패키징 문제가 있으므로 Ruby 자체를 업그레이드하시기 바랍니다.

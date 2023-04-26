@@ -10,7 +10,7 @@ lang: es
 
 Se descubrió una vulnerabilidad de recortado de StartTLS en Net::IMAP.
 A esta vulnerabilidad se le ha asignado el identificador CVE
-[CVE-2021-32066](https://nvd.nist.gov/vuln/detail/CVE-2021-32066).
+[CVE-2021-32066](https://www.cve.org/CVERecord?id=CVE-2021-32066).
 Recomendamos enfáticamente actualizar Ruby.
 
 net-imap es una gema predeterminada en Ruby 3.0.1 pero tiene un problema

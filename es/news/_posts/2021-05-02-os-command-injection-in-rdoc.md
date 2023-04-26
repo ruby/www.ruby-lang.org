@@ -17,7 +17,7 @@ la versión más reciente que resuelve el problema.
 
 Se ha reportado la siguiente vulnerabilidad.
 
-* [CVE-2021-31799](https://nvd.nist.gov/vuln/detail/CVE-2021-31799)
+* [CVE-2021-31799](https://www.cve.org/CVERecord?id=CVE-2021-31799)
 
 RDoc solía llamar `Kernel#open` para abrir un archivo local.
 Si un proyecto Ruby tiene un archivo cuyo nombre comience con `|`

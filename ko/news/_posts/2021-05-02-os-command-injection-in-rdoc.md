@@ -15,7 +15,7 @@ Ruby에 포함된 RDoc에 명령 주입 취약점이 있습니다.
 
 다음 취약점이 보고되었습니다.
 
-* [CVE-2021-31799](https://nvd.nist.gov/vuln/detail/CVE-2021-31799)
+* [CVE-2021-31799](https://www.cve.org/CVERecord?id=CVE-2021-31799)
 
 RDoc은 로컬 파일을 열기 위해 `Kernel#open`을 호출했습니다. Ruby 프로젝트에 `|`로 시작하고 `tags`로 끝나는 이름을 가진 파일이 있다면, 파이프 문자 뒤의 명령이 실행되었습니다. 악의적인 Ruby 프로젝트가 `rdoc` 명령을 실행하려고 하는 사용자에 대해 임의의 명령을 실행할 수 있습니다.
 

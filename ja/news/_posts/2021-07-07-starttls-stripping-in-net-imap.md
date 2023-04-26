@@ -9,7 +9,7 @@ lang: ja
 ---
 
 Net::IMAP 内の StartTLS ストリッピングに脆弱性が発見されました。
-この脆弱性は [CVE-2021-32066](https://nvd.nist.gov/vuln/detail/CVE-2021-32066) として登録されています。
+この脆弱性は [CVE-2021-32066](https://www.cve.org/CVERecord?id=CVE-2021-32066) として登録されています。
 Ruby をアップグレードすることを強く推奨します。
 
 net-imap は Ruby 3.0.1 の デフォルト gem ですが、パッケージ化に問題があるため、Ruby 自体をアップグレードしてください。
