@@ -131,7 +131,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 있습니다.
 
 [1]: https://try.ruby-lang.org/
-[2]: https://rubykoans.com/
+[2]: https://github.com/edgecase/ruby_koans
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/

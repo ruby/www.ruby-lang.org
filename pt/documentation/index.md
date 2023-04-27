@@ -136,7 +136,7 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 
 
 [1]: https://try.ruby-lang.org/
-[2]: https://rubykoans.com/
+[2]: https://github.com/edgecase/ruby_koans
 [5]: http://why.carlosbrando.com/
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://aprendaaprogramar.rubyonrails.com.br/

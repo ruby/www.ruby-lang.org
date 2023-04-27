@@ -103,7 +103,7 @@ lang: zh_tw
 
 
 [1]: https://try.ruby-lang.org/
-[2]: https://rubykoans.com/
+[2]: https://github.com/edgecase/ruby_koans
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
