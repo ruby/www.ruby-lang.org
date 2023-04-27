@@ -9,7 +9,7 @@ lang: ja
 ---
 
 信頼性のある FTP PASV 応答の脆弱性が Net::FTP で発見されました。
-この脆弱性は [CVE-2021-31810](https://nvd.nist.gov/vuln/detail/CVE-2021-31810) として登録されています。
+この脆弱性は [CVE-2021-31810](https://www.cve.org/CVERecord?id=CVE-2021-31810) として登録されています。
 Ruby をアップグレードすることを強く推奨します。
 
 net-ftp は Ruby 3.0.1 の デフォルト gem ですが、パッケージ化の問題があるため、Ruby 自体をアップグレードしてください。

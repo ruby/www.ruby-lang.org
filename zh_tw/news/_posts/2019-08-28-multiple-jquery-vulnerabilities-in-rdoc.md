@@ -16,8 +16,8 @@ lang: zh_tw
 
 以下為已回報的安全性風險
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 強烈建議所有 Ruby 使用者升級你的 Ruby，或盡快採用以下解決方法。
 你仍須重新產生現有的 RDoc 文件，以完全緩解風險。

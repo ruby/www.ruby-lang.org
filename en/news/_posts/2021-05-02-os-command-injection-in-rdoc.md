@@ -15,7 +15,7 @@ It is recommended that all Ruby users update RDoc to the latest version that fix
 
 The following vulnerability has been reported.
 
-* [CVE-2021-31799](https://nvd.nist.gov/vuln/detail/CVE-2021-31799)
+* [CVE-2021-31799](https://www.cve.org/CVERecord?id=CVE-2021-31799)
 
 RDoc used to call `Kernel#open` to open a local file. If a Ruby project has a file whose name starts with `|` and ends with `tags`, the command following the pipe character is executed. A malicious Ruby project could exploit it to run an arbitrary command execution against a user who attempts to run `rdoc` command.
 

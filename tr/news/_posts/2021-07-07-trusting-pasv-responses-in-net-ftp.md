@@ -9,7 +9,7 @@ lang: tr
 ---
 
 Net::FTP'de bir FTP PASV yanıtlarına güvenme zaafiyeti keşfedildi.
-Bu zaafiyete [CVE-2021-31810](https://nvd.nist.gov/vuln/detail/CVE-2021-31810) CVE belirteci atanmıştır.
+Bu zaafiyete [CVE-2021-31810](https://www.cve.org/CVERecord?id=CVE-2021-31810) CVE belirteci atanmıştır.
 Şiddetle Ruby'yi güncellemenizi tavsiye ederiz.
 
 net-ftp Ruby 3.0.1 ile gelen varsayılan bir gem'dir fakat paketleme sorunlarına sahiptir, yani lütfen Ruby'nin kendisini güncelleyin.

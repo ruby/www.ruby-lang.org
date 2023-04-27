@@ -55,6 +55,6 @@ um CVE-2011-3389 durchlesen.
 
 
 [1]: http://www.openssl.org/~bodo/tls-cbc.txt
-[2]: http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-3389
+[2]: https://www.cve.org/CVERecord?id=CVE-2011-3389
 [3]: https://bugs.ruby-lang.org/5353
 [4]: http://mla.n-z.jp/?ruby-talk=393484

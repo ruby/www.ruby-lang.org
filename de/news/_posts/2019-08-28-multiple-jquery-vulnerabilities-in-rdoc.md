@@ -18,8 +18,8 @@ wurde.
 
 Es wurden die folgenden Schwachstellen gemeldet:
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 Es wird allen Ruby-Nutzern nachdrücklich empfohlen, die Ruby-Version
 zu aktualisieren oder wenigstens einen der nachfolgenden Workarounds

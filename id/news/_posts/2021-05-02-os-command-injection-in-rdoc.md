@@ -16,7 +16,7 @@ terbaru untuk memperbaiki kerentanan ini.
 
 Berikut adalah kerentanan yang telah dilaporkan.
 
-* [CVE-2021-31799](https://nvd.nist.gov/vuln/detail/CVE-2021-31799)
+* [CVE-2021-31799](https://www.cve.org/CVERecord?id=CVE-2021-31799)
 
 RDoc sebelumnya memanggil `Kernel#open` untuk membuat sebuah berkas lokal. Jika
 sebuah proyek Ruby memiliki sebuah berkas yang mana nama berkas dimulai dengan

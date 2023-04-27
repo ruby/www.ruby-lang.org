@@ -16,8 +16,8 @@ lang: ko
 
 아래와 같은 취약점이 보고되었습니다.
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 모든 루비 사용자는 가능한 빨리 설치된 루비를 업그레이드하거나 아래 해결 방법으로 조치하기 바랍니다.
 취약점을 완전히 해소하려면 기존의 RDoc 문서를 다시 생성해야 합니다.

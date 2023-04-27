@@ -18,8 +18,8 @@ mana berisi perbaikan versi RDoc.
 
 Kerentanan berikut ini telah dilaporkan.
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 Semua pengguna Ruby sangat disarankan untuk memperbarui Ruby atau mengambil
 salah satu solusi berikut segera mungkin.

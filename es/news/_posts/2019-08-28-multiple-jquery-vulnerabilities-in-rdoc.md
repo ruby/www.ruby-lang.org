@@ -18,8 +18,8 @@ más reciente que incluye la versión reparada de RDoc.
 
 Se han reportado las siguientes vulnerabilidades.
 
-* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
-* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
+* [CVE-2012-6708](https://www.cve.org/CVERecord?id=CVE-2012-6708)
+* [CVE-2015-9251](https://www.cve.org/CVERecord?id=CVE-2015-9251)
 
 Se recomienda de manera especial a todos los usuarios de Ruby actualizar
 la instalación de Ruby o emplear tan pronto sea posible una de las

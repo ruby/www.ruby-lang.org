@@ -10,7 +10,7 @@ lang: id
 
 Sebuah kerentanan StartTLS *stripping* telah ditemukan pada Net::IMAP.
 Kerentanan ini telah ditetapkan dengan penanda CVE
-[CVE-2021-32066](https://nvd.nist.gov/vuln/detail/CVE-2021-32066).
+[CVE-2021-32066](https://www.cve.org/CVERecord?id=CVE-2021-32066).
 Kami sangat merekomendasikan untuk memperbarui Ruby.
 
 net-imap adalah sebuah *default gem* pada Ruby 3.0.1, tetapi *gem* tersebut
