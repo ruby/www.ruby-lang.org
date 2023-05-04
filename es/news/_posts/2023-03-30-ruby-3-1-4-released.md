@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Publicado Ruby 3.1.4 Released"
+title: "Publicado Ruby 3.1.4"
 author: "nagachika"
 translator: vtamara
 date: 2023-03-30 12:00:00 +0000

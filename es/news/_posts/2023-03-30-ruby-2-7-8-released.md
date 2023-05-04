@@ -12,13 +12,13 @@ Se ha publicado Ruby 2.7.8.
 Esta versión incluye correcciones de seguridad.
 Por favor revise detalles en los siguientes temas.
 
-* [CVE-2023-28755: Vulnerabilidad ReDoS en URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
-* [CVE-2023-28756: Vulnerabilidad ReDoS en Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+* [CVE-2023-28755: Vulnerabilidad ReDoS en URI]({%link es/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
+* [CVE-2023-28756: Vulnerabilidad ReDoS en Time]({%link es/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
 Esta versión también incluye correcciones a problemas de construcción.
 Ver más detalles en la [publicación en GitHub](https://github.com/ruby/ruby/releases/tag/v2_7_8).
 
-Después de esta versión, Ruby 2.7 llega a su EOL (Fin de vida).
+Después de esta versión, Ruby 2.7 llega a su EOL (fin de vida).
 En otras palabras, se espera que esta sea la última versión de la serie
 Ruby 2.7.
 No publicaremos Ruby 2.7.9 incluso si se encuentra una vulnerabilidad

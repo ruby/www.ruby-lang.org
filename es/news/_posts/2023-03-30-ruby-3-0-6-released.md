@@ -12,8 +12,8 @@ Se ha publicado Ruby 3.0.6.
 Esta versión incluye correcciones de seguridad.
 Por favor vea detalles en los siguientes temas.
 
-* [CVE-2023-28755: Vulnerabilidad ReDoS en URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
-* [CVE-2023-28756: Vulnerabilidad ReDoS en Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+* [CVE-2023-28755: Vulnerabilidad ReDoS en URI]({%link es/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
+* [CVE-2023-28756: Vulnerabilidad ReDoS en Time]({%link es/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
 Esta versión también incluye algunas soluciones a fallas.
 Ver más detalles en la [publicación en GitHub](https://github.com/ruby/ruby/releases/tag/v3_0_6).
@@ -28,7 +28,7 @@ un año.
 Ruby 3.0 llegará a su EOL (fin de vida) y su soporte oficial terminará
 al final de la fase de mantenimiento.
 Por tanto, le recomendamos comenzar a planear la actualización a Ruby 3.1
-o 3.2
+o 3.2.
 
 ## Descargas
 
