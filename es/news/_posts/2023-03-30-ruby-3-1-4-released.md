@@ -11,6 +11,13 @@ Se ha publicado Ruby 3.1.4.
 
 Ver detalles en la [publicación en GitHub](https://github.com/ruby/ruby/releases/tag/v3_1_4).
 
+Esta versión incluye correcciones de seguridad.
+Por favor vea detalles en los siguientes temas.
+
+* [CVE-2023-28755: Vulnerabilidad ReDoS en URI]({%link es/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
+* [CVE-2023-28756: Vulnerabilidad ReDoS en Time]({%link es/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+
+Ver más detalles en la [publicación en GitHub](https://github.com/ruby/ruby/releases/tag/v3_1_4).
 
 ## Descargas
 
