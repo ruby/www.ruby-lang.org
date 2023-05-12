@@ -8,6 +8,11 @@
 #   date:     date of first stable release (YYYY-MM-DD)
 #   eol_date: date of EOL (YYYY-MM-DD)
 
+- name: 3.3
+  status: preview
+  date:
+  eol_date:
+
 - name: 3.2
   status: normal maintenance
   date: 2022-12-25
