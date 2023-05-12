@@ -9,7 +9,7 @@ lang: en
 
 {% assign release = site.data.releases | where: "version", "3.3.0-preview1" | first %}
 
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 adds a new pure-Ruby JIT compiler named RJIT, uses lrama as a parser generator, and many performance improvements especially YJIT.
+We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 adds a new pure-Ruby JIT compiler named RJIT, uses Lrama as a parser generator, and many performance improvements especially YJIT.
 
 ## RJIT
 
@@ -22,7 +22,7 @@ We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 a
 
 ## Use Lrama instead of Bison
 
-* Replace Bison with [Lrama LALR parser generator](https://github.com/yui-knk/lrama) [Feature #19637]
+* Replace Bison with [Lrama LALR parser generator](https://github.com/yui-knk/lrama) [Feature #19637](https://bugs.ruby-lang.org/issues/19637)
   * If you have interest, please see [The future vision of Ruby Parser](https://rubykaigi.org/2023/presentations/spikeolaf.html)
 
 ## YJIT
@@ -136,8 +136,6 @@ for more details.
 
 With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)
 since Ruby 3.2.0!
-
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.3!
 
 ## Download
 
