@@ -2,106 +2,106 @@
 layout: news_post
 title: "Ruby 3.3.0-preview1 Released"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2023-05-12 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "3.3.0-preview1" | first %}
 
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 adds a new pure-Ruby JIT compiler named RJIT, uses Lrama as a parser generator, and many performance improvements especially YJIT.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3은 RJIT으로 명명된 새로운 순수 Ruby JIT 컴파일러를 추가하고, 파서 생성기로 Lrama를 사용하며, 특히 YJIT에서 많은 성능 향상이 있습니다.
 
 ## RJIT
 
-* Introduced a pure-Ruby JIT compiler RJIT and replaced MJIT.
-  * RJIT supports only x86\_64 architecture on Unix platforms.
-  * Unlike MJIT, it doesn't require a C compiler at runtime.
-* RJIT exists only for experimental purposes.
-  * You should keep using YJIT in production.
-* If you are interested in developing JIT for Ruby, please check out [k0kubun's presentation on Day 3 of RubyKaigi](https://rubykaigi.org/2023/presentations/k0kubun.html#day3).
+* 순수 Ruby JIT 컴파일러 RJIT을 도입하고 MJIT을 대체했습니다.
+  * RJIT는 유닉스 플랫폼에서 x86\_64 아키텍처만 지원합니다.
+  * MJIT와 달리 런타임에 C 컴파일러가 필요하지 않습니다.
+* RJIT는 실험 목적으로 존재합니다.
+  * 프로덕션 환경에서는 YJIT을 계속 사용해야 합니다.
+* Ruby용 JIT 개발에 관심이 있다면 [RubyKaigi 2023 3일차에 있었던 k0kubun의 발표](https://rubykaigi.org/2023/presentations/k0kubun.html#day3)를 확인하세요.
 
-## Use Lrama instead of Bison
+## Bison을 Lrama  대체
 
-* Replace Bison with [Lrama LALR parser generator](https://github.com/yui-knk/lrama) [Feature #19637](https://bugs.ruby-lang.org/issues/19637)
-  * If you have interest, please see [The future vision of Ruby Parser](https://rubykaigi.org/2023/presentations/spikeolaf.html)
+* Bison 대신 [Lrama LALR 파서 생성기](https://github.com/yui-knk/lrama) [Feature #19637](https://bugs.ruby-lang.org/issues/19637)로 변경했습니다.
+  * 관심이 있다면 [루비 파서의 미래 비전](https://rubykaigi.org/2023/presentations/spikeolaf.html)을 참고하세요.
 
 ## YJIT
 
-* Significant performance improvements over 3.2
-  * Splat and rest arguments support has been improved.
-  * Registers are allocated for stack operations of the virtual machine.
-  * More calls with optional arguments are compiled.
+* 3.2 버전 대비 성능 대폭 향상
+  * 스플랫과 나머지 인자 지원이 개선되었습니다.
+  * 가상 머신의 스택 연산을 위해 레지스터가 할당됩니다.
+  * 선택적 인수가 포함된 더 많은 호출이 컴파일됩니다.
   * `Integer#!=`, `String#!=`, `Kernel#block_given?`, `Kernel#is_a?`,
-    `Kernel#instance_of?`, `Module#===` are specially optimized.
-  * Instance variables no longer exit to the interpreter
-    with megamorphic Object Shapes.
-* Metadata for compiled code uses a lot less memory.
-* Improved code generation on ARM64
-* Option to start YJIT in paused mode and then later enable it manually
-  * `--yjit-pause` and `RubyVM::YJIT.resume`
-  * This can be used to enable YJIT only once your application is done booting
-* Exit tracing option now supports sampling
+    `Kernel#instance_of?`, `Module#===`은 특별히 최적화되었습니다.
+  * 클래스의 인스턴스 변수가 가지는 오브젝트 쉐이프의 조합이 매우 많은 경우에도
+    컴파일되기 전의 바이트 코드로 전환되지 않습니다.
+* 컴파일된 코드의 메타데이터가 훨씬 적은 메모리를 사용합니다.
+* ARM64에서의 코드 생성 개선
+* 일시 중지 모드에서 YJIT을 시작한 다음 나중에 수동으로 재개하는 옵션 추가
+  * `--yjit-pause`와 `RubyVM::YJIT.resume`
+  * 애플리케이션 부팅이 완료된 후에만 YJIT을 재개할 수 있습니다.
+* 종료 추적 옵션이 이제 샘플링을 지원합니다.
   * `--trace-exits-sample-rate=N`
-* Multiple bug fixes
+* 여러 버그 수정
 
 
 
-## Other Notable New Features
+## 그 이외의 주목할 만한 새 기능
 
-### Language
-
-
-
-## Performance improvements
-
-* `defined?(@ivar)` is optimized with Object Shapes.
-
-## Other notable changes since 3.2
+### 언어
 
 
 
-## Compatibility issues
+## 성능 향상
 
-Note: Excluding feature bug fixes.
+* `defined?(@ivar)`가 오브젝트 쉐이프에 맞게 최적화되었습니다.
 
-### Removed constants
-
-The following deprecated constants are removed.
+## 그 이외의 3.2 이후로 주목할 만한 변경
 
 
 
-### Removed methods
+## 호환성 문제
 
-The following deprecated methods are removed.
+주의: 기능 버그 수정은 포함되어 있지 않습니다.
 
+### 삭제된 상수
 
-
-## Stdlib compatibility issues
-
-### `ext/readline` is retired
-
-* We have `reline` that is pure Ruby implementation compatible with `ext/readline` API. We rely on `reline` in the future. If you need to use `ext/readline`, you can install `ext/readline` via rubygems.org with `gem install readline-ext`.
-* We no longer need to install libraries like `libreadline` or `libedit`.
-
-## C API updates
-
-### Updated C APIs
-
-The following APIs are updated.
+폐기 예정이었던 상수가 삭제됩니다.
 
 
 
-### Removed C APIs
+### 삭제된 메서드
 
-The following deprecated APIs are removed.
-
-
-
-## Standard library updates
+폐기 예정이었던 메서드가 삭제됩니다.
 
 
 
-The following default gems are updated.
+## Stdlib 호환성 문제
+
+### `ext/readline` 폐기
+
+* 우리는 `ext/readline` API와 호환되는 순수 루비 구현인 `reline`을 가지고 있습니다. 앞으로는 `reline`에 의존할 것입니다. `ext/readline`을 사용해야 하는 경우, `gem install readline-ext`를 사용하여 rubygems.org를 통해 `ext/readline`을 설치할 수 있습니다.
+* 이제 더 이상 `libreadline` 또는 `libedit`과 같은 라이브러리를 설치할 필요가 없습니다.
+
+## C API 변경
+
+### 갱신된 C API
+
+다음 API가 갱신됩니다.
+
+
+
+### 삭제된 C API
+
+다음 폐기 예정인 API가 삭제됩니다.
+
+
+
+### 표준 라이브러리 갱신
+
+
+
+다음 기본 gem이 갱신되었습니다.
 
 * RubyGems 3.5.0.dev
 * bigdecimal 3.1.4
@@ -120,24 +120,24 @@ The following default gems are updated.
 * timeout 0.3.2
 * uri 0.12.1
 
-The following bundled gems are updated.
+다음 내장 gem이 갱신되었습니다.
 
 * minitest 5.18.0
 * rbs 3.1.0
 * typeprof 0.21.7
 * debug 1.8.0
 
-See GitHub releases like [Logger](https://github.com/ruby/logger/releases) or
-changelog for details of the default gems or bundled gems.
+기본 젬에 대한 자세한 내용은 [Logger](https://github.com/ruby/logger/releases)와 같은 GitHub 릴리스 또는
+변경 로그에서 기본 젬 또는 내장 젬에 대한 내용을 확인하세요.
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }})
-for more details.
+더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }})를
+확인해 주세요.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)
-since Ruby 3.2.0!
+이러한 변경사항에 따라, Ruby 3.2.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
-## Download
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -160,8 +160,8 @@ since Ruby 3.2.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby는 1993년에 Matz(마츠모토 유키히로) 씨가 처음 개발했고,
+현재는 오픈 소스로서 개발되고 있습니다. 여러 플랫폼에서 동작하며,
+특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
