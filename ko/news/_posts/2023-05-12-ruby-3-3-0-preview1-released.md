@@ -14,16 +14,16 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 ## RJIT
 
 * 순수 Ruby JIT 컴파일러 RJIT을 도입하고 MJIT을 대체했습니다.
-  * RJIT는 유닉스 플랫폼에서 x86\_64 아키텍처만 지원합니다.
-  * MJIT와 달리 런타임에 C 컴파일러가 필요하지 않습니다.
-* RJIT는 실험 목적으로 존재합니다.
+  * RJIT은 Unix 플랫폼에서 x86\_64 아키텍처만 지원합니다.
+  * MJIT과 달리 런타임에 C 컴파일러가 필요하지 않습니다.
+* RJIT은 실험 목적으로 존재합니다.
   * 프로덕션 환경에서는 YJIT을 계속 사용해야 합니다.
 * Ruby용 JIT 개발에 관심이 있다면 [RubyKaigi 2023 3일차에 있었던 k0kubun의 발표](https://rubykaigi.org/2023/presentations/k0kubun.html#day3)를 확인하세요.
 
-## Bison을 Lrama  대체
+## Bison을 Lrama로 대체
 
-* Bison 대신 [Lrama LALR 파서 생성기](https://github.com/yui-knk/lrama) [Feature #19637](https://bugs.ruby-lang.org/issues/19637)로 변경했습니다.
-  * 관심이 있다면 [루비 파서의 미래 비전](https://rubykaigi.org/2023/presentations/spikeolaf.html)을 참고하세요.
+* Bison 대신 [Lrama LALR 파서 생성기](https://github.com/yui-knk/lrama)를 사용하도록 변경했습니다. [Feature #19637](https://bugs.ruby-lang.org/issues/19637)
+  * 관심이 있다면 [Ruby 파서의 미래 비전](https://rubykaigi.org/2023/presentations/spikeolaf.html)을 참고하세요.
 
 ## YJIT
 
@@ -33,7 +33,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
   * 선택적 인수가 포함된 더 많은 호출이 컴파일됩니다.
   * `Integer#!=`, `String#!=`, `Kernel#block_given?`, `Kernel#is_a?`,
     `Kernel#instance_of?`, `Module#===`은 특별히 최적화되었습니다.
-  * 클래스의 인스턴스 변수가 가지는 오브젝트 쉐이프의 조합이 매우 많은 경우에도
+  * 클래스의 인스턴스 변수가 가지는 객체 형상의 조합이 매우 복잡한 경우에도
     컴파일되기 전의 바이트 코드로 전환되지 않습니다.
 * 컴파일된 코드의 메타데이터가 훨씬 적은 메모리를 사용합니다.
 * ARM64에서의 코드 생성 개선
@@ -54,7 +54,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 
 ## 성능 향상
 
-* `defined?(@ivar)`가 오브젝트 쉐이프에 맞게 최적화되었습니다.
+* `defined?(@ivar)`가 객체 형상에 맞게 최적화되었습니다.
 
 ## 그 이외의 3.2 이후로 주목할 만한 변경
 
@@ -80,7 +80,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 
 ### `ext/readline` 폐기
 
-* 우리는 `ext/readline` API와 호환되는 순수 루비 구현인 `reline`을 가지고 있습니다. 앞으로는 `reline`에 의존할 것입니다. `ext/readline`을 사용해야 하는 경우, `gem install readline-ext`를 사용하여 rubygems.org를 통해 `ext/readline`을 설치할 수 있습니다.
+* 우리는 `ext/readline` API와 호환되는 순수 Ruby 구현인 `reline`을 가지고 있습니다. 앞으로는 `reline`에 의존할 것입니다. `ext/readline`을 사용해야 하는 경우, `gem install readline-ext`를 사용하여 rubygems.org를 통해 `ext/readline`을 설치할 수 있습니다.
 * 이제 더 이상 `libreadline` 또는 `libedit`과 같은 라이브러리를 설치할 필요가 없습니다.
 
 ## C API 변경
@@ -127,8 +127,8 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 * typeprof 0.21.7
 * debug 1.8.0
 
-기본 젬에 대한 자세한 내용은 [Logger](https://github.com/ruby/logger/releases)와 같은 GitHub 릴리스 또는
-변경 로그에서 기본 젬 또는 내장 젬에 대한 내용을 확인하세요.
+기본 gem 또는 내장 gem에 대한 자세한 내용은 [Logger](https://github.com/ruby/logger/releases)와 같은
+GitHub 릴리스 또는 변경 로그에서 확인하세요.
 
 더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
 [커밋 로그](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }})를
