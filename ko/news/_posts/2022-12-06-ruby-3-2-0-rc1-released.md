@@ -220,7 +220,7 @@ sum = ary[0] + ary[1]
       `freed_code_size`를 반환합니다.
 * `RubyVM::YJIT.runtime_stats`가 제공하는 통계 정보가 이번 릴리스부터 이용 가능합니다.
     * 통계 정보를 계산하고 얻기 위해서는 Ruby를 `--yjit-stats`와 함께 실행하세요(약간의 실행시간 오버헤드가 발생합니다).
-* YJIT은 Object shape를 이용해 최적화합니다. [[Feature #18776]]
+* YJIT은 객체 형상을 이용해 최적화합니다. [[Feature #18776]]
 * 상수를 무효화하는 단위를 작게 하여 새 상수를 정의할 때 더 적은 코드를 무효화합니다. [[Feature #18589]]
 
 ### MJIT
