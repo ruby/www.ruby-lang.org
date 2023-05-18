@@ -26,7 +26,7 @@ de desempeño especialmente de YJIT.
 
 ## Usa Lrama en lugar de Bison
 
-* Remplaza Bison con [el generador de analizadores sintácticos LALR Lrama](https://github.com/yui-knk/lrama) [Feature #19637]
+* Remplaza Bison con [el generador de analizadores sintácticos LALR Lrama](https://github.com/yui-knk/lrama) [Característica #19637](https://bugs.ruby-lang.org/issues/19637)
   * Si tiene interés por favor vea [la visión futura de los analizadores sintácticos de Ruby](https://rubykaigi.org/2023/presentations/spikeolaf.html)
 
 ## YJIT
@@ -58,7 +58,7 @@ de desempeño especialmente de YJIT.
 
 ## Mejoras en desempeño
 
-* `defined?(@ivar)` se optimiza con Formas de Objetos
+* `defined?(@ivar)` se optimiza con Formas de Objetos.
 
 ## Otros cambios notables desde 3.2
 
@@ -100,7 +100,7 @@ Los siguientes APIs han sido actualizados.
 
 Los siguientes APIs despreciados han sido eliminados.
 
-## Actualizaciones a la librería estándar.
+## Actualizaciones a la librería estándar
 
 
 Las siguientes gemas predeterminadas se han actualizado.
@@ -133,15 +133,12 @@ Ve la publicación en GitHub com [Logger](https://github.com/ruby/logger/release
 ben la bitácora de cambios con detalles de las gemas predeterminadas
 y las gemas incluidas.
 
-
 Ver detalles en el archivo
 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
 o en [la bitácora de cambios](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}).
 
-Con estos cambios, [{{ release.stats.files_changed }} archivos cambiados, {{ release.stats.insertions }} inserciones(+), {{ release.stats.deletions }} eliminaciones(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)
+¡Con estos cambios, [{{ release.stats.files_changed }} archivos cambiados, {{ release.stats.insertions }} inserciones(+), {{ release.stats.deletions }} eliminaciones(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)
 desde Ruby 3.2.0!
-
-¡Feliz Navidad, Felices Fiestas, y disfruten programando con Ruby 3.3!
 
 ## Descargas
 
