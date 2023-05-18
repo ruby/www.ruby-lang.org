@@ -10,17 +10,17 @@ lang: es
 {% assign release = site.data.releases | where: "version", "3.3.0-preview1" | first %}
 
 Nos complace anunciar la publicación de Ruby {{ release.version }}. Ruby 3.3
-añade un nuevo compilador JIT en ruby puro llamado RJIT, usa lrama
+añade un nuevo compilador JIT en puro Ruby llamado RJIT, usa Lrama
 como generador del analizador sintáctico así como muchas mejoras
 de desempeño especialmente de YJIT.
 
 ## RJIT
 
-* Se introdujo RJIT un compilador JIT en Ruby puro que remplaza a MJIT.
+* Se introdujo RJIT un compilador JIT en puro Ruby que remplaza a MJIT.
   * RJIT soporta sólo la arquitectura x86\_64 en plataformas Unix.
   * A diferencia de MJIT, no require de un compilador C en tiempo de ejecución.
 * RJIT existe sólo con propósitos experimentales.
-  * Debe seguir usando YJIT en producción.
+  * Debería seguir usando YJIT en producción.
 * Si le interesa desarrollar un compilador JIT para Ruby, por favor
   revise la [presentación de k0kubun en el día 3 de RubyKaigi](https://rubykaigi.org/2023/presentations/k0kubun.html#day3).
 
