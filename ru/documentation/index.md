@@ -116,6 +116,7 @@ ruby -v
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Visual Studio Code][39] с [Ruby][40] плагином
 
 * На Windows:
   * [Notepad++][29]
@@ -168,3 +169,5 @@ ruby -v
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
+[39]: https://code.visualstudio.com/
+[40]: https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
