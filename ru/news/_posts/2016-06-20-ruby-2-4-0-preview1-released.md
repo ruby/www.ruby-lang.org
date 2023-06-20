@@ -13,7 +13,7 @@ Ruby 2.4.0-preview1 – это первое превью Ruby 2.4.0.
 Этот preview1 вышел раньше, чем обычно, так как он содержит очень много
 нововведений и улучшений.
 Пожалуйста, присылайте
-[отзывы](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
+[отзывы](https://github.com/ruby/ruby/wiki/How-To-Report),
 так как вы все еще можете повлиять на нововведения.
 
 ## [Объединение Fixnum и Bignum в Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -65,7 +65,7 @@ Ruby игнорирует ошибки в тредах, если другой т
 бектрейсами и зависимыми потоками.
 
 Пробуйте и наслаждайтесь программированием на Ruby 2.4.0-preview1, и присылайте,
-пожалуйста, нам [отзывы](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+пожалуйста, нам [отзывы](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Значительные изменения от версии 2.3
 

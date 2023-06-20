@@ -13,7 +13,7 @@ lang: ko
 이 프리뷰는 많은 새 기능과 개선들을 포함하고 있어서
 이례적으로 이르게 릴리스 되었습니다.
 아직 기능이 확정되지 않았으니, 자유롭게
-[피드백](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)을 보내주세요.
+[피드백](https://github.com/ruby/ruby/wiki/How-To-Report)을 보내주세요.
 
 ## [Fixnum과 Bignum을 Integer로 통합](https://bugs.ruby-lang.org/issues/12005)
 
@@ -63,7 +63,7 @@ ASCII 대/소문자 대응 대신에 유니코드 대/소문자 대응을 지원
 루비 2.4의 교착상태 탐지는 스레드의 백트레이스와 의존하고 있는 스레드에 대한 정보를 보여주게 됩니다.
 
 루비 2.4.0-preview1로 즐겁게 프로그램을 작성해보세요.
-그리고 여러분의 [느낀 점을 알려주세요](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+그리고 여러분의 [느낀 점을 알려주세요](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## 2.3 이후의 주목할 만한 변경
 

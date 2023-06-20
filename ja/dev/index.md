@@ -9,7 +9,7 @@ lang: ja
 
 ## Wiki
 
-Rubyの開発に関連する文書は現在主に[Redmine(問題追跡システム)のWiki][1]に集められています。
+Rubyの開発に関連する文書は現在主に[GitHubのWiki][1]に集められています。
 
 ## 質疑応答
 
@@ -20,7 +20,7 @@ Rubyの開発についての議論は、主に、メーリングリストruby-de
 
 Rubyの不具合や機能追加の要望などは[Redmine(問題追跡システム)][2]で管理されています。
 
-また、[RedmineのWiki][1]では、Rubyの開発を追いかけるにあたって役に立つ情報が集積されています。 そちらも参照してください。
+また、[GitHubのWiki][1]では、Rubyの開発を追いかけるにあたって役に立つ情報が集積されています。 そちらも参照してください。
 
 ## ソースコード
 
@@ -49,7 +49,7 @@ Posted by usa on 13 Aug 2008
 
 
 
-[1]: https://bugs.ruby-lang.org/projects/ruby/wiki
+[1]: https://github.com/ruby/ruby/wiki
 [2]: https://bugs.ruby-lang.org/
 [3]: {{ site.data.downloads.nightly_snapshot.url.gz }}
 [4]: {{ site.data.downloads.stable_snapshots[0].url.gz }}

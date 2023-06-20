@@ -11,7 +11,7 @@ lang: zh_tw
 
 Ruby 2.4.0-preview1 是 Ruby 2.4.0 的首個預覽版。
 這個預覽版發佈的比平常早，因為包含了許多新功能和改良。
-有任何想修改的功能，敬請給我們[建議](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)。
+有任何想修改的功能，敬請給我們[建議](https://github.com/ruby/ruby/wiki/How-To-Report)。
 
 ## [Fixnum 和 Bignum 統整為 Integer](https://bugs.ruby-lang.org/issues/12005)
 
@@ -52,7 +52,7 @@ Ruby 2.4 還包括以下效能優化及語法變更：
 Ruby 在等待線程執行時會進行死鎖檢查，但檢查結果沒有足夠的資訊來除錯。
 Ruby 2.4 的死鎖檢查會顯示錯誤資訊及相依的線程。
 
-請嘗試並享受與 Ruby 2.4.0-preview1 的編碼時光，有任何問題敬請[不吝指出](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)！
+請嘗試並享受與 Ruby 2.4.0-preview1 的編碼時光，有任何問題敬請[不吝指出](https://github.com/ruby/ruby/wiki/How-To-Report)！
 
 ## 自 2.3 起重要的變化
 

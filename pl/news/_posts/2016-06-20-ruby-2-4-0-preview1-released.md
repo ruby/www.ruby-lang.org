@@ -12,7 +12,7 @@ Jest nam miło ogłosić wydanie Rubiego 2.4.0-preview1.
 Ruby 2.4.0-preview1 jest pierwszym wydaniem wstępnym Rubiego 2.4.0.
 Wydanie preview1 pojawiło się wcześniej niż zwykle ponieważ zawiera
 dużo usprawnień oraz funkcjonalności.
-[Podziel się](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[Podziel się](https://github.com/ruby/ruby/wiki/How-To-Report)
 z nami swoimi uwagami poniważ Ruby 2.4.0 jest nadal w trakcie rozwoju
 
 ## [Połączenie Fixnum i Bignum do klasy Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -64,7 +64,7 @@ na debugowanie. Od Rubiego 2.4 pokazywane będą zrzuty stosu oraz
 zależności oczekujących wątków.
 
 Wypróbuj Rubiego 2.4.0-preview1 i
-[podziel się](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[podziel się](https://github.com/ruby/ruby/wiki/How-To-Report)
 z nami swoimi spostrzeżeniami!
 
 ## Znaczące zmiany w stosunku do wersji 2.3

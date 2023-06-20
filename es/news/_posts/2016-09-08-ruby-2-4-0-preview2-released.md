@@ -12,7 +12,7 @@ Nos complace anunciar el lanzamiento de Ruby 2.4.0-preview2.
 Ruby 2.4.0-preview2 es la segunda vista previa de Ruby 2.4.0.
 Este preview2 es liberado para obtener retroalimentación de la comunidad.
 Siéntete libre de
-[enviar tus comentarios](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[enviar tus comentarios](https://github.com/ruby/ruby/wiki/How-To-Report)
 ya que aún puedes influir en las funcionalidades.
 
 ## [Unificación de Fixnum y Bignum en Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -67,7 +67,7 @@ no incluye suficiente información para depuración.
 La detección de deadlocks en Ruby 2.4 muestra los hilos con sus respectivas trazas e hilos dependientes.
 
 ¡Prueba y disfruta programar con Ruby 2.4.0-preview2, y
-[envíanos retroalimentación](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[envíanos retroalimentación](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Otros cambios notables desde 2.3
 

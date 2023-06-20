@@ -12,7 +12,7 @@ Chúng tôi rất hân hạnh được thông báo về việc phát hành Ruby 
 Phiên bản 2.4.0-rc1 là phiên bản release candidate đầu tiên của Ruby 2.4.0.
 Phiên bản rc1 này được phát hành để nhận phản hồi từ cộng đồng.
 Hãy thoải mái
-[gửi phản hồi](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[gửi phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report)
 vì bạn vẫn có thể sửa những tính năng.
 
 ## [Giới thiệu cải tiến hash table (bởi Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
@@ -76,7 +76,7 @@ Ruby đã có cơ chế phát hiện deadlock của các threads, tuy nhiên cá
 Từ bản 2.4 trở đi, khi phát hiện ra Deadlock, Ruby sẽ hiển thị các thread cùng với backtrace và các threads liên quan.
 
 Mời mọi người dùng thử và cảm nhận việc lập trình với Ruby 2.4.0-rc1, và
-[gửi phản hồi cho chúng tôi](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[gửi phản hồi cho chúng tôi](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Thay đổi đáng chú ý so với phiên bản 2.3
 

@@ -12,7 +12,7 @@ Kami dengan senang hati mengumumkan rilis dari Ruby 2.4.0-preview2.
 Ruby 2.4.0-preview2 adalah *preview* kedua dari Ruby 2.4.0.
 Preview2 ini dirilis untuk mendapatkan umpan balik dari komunitas.
 Jangan ragu untuk
-[mengirimkan umpan balik](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[mengirimkan umpan balik](https://github.com/ruby/ruby/wiki/How-To-Report)
 karena Anda masih dapat mengubah fitur-fitur ini.
 
 ## [Menyatukan Fixnum dan Bignum ke dalam Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -69,7 +69,7 @@ Pendeteksi *deadlock* Ruby 2.4 menunjukkan *thread* dengan *backtrace* dan
 *dependency thread*.
 
 Coba dan nikmati memprogram dengan Ruby 2.4.0-preview2, dan
-[kirim umpan balik ke kami](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[kirim umpan balik ke kami](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Perubahan Penting sejak 2.3
 

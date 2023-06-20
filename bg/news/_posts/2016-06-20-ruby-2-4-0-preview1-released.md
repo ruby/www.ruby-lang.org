@@ -12,7 +12,7 @@ lang: bg
 Това е първият предварителен преглед на Ruby 2.4.0.
 Излиза по-рано от обикновено, защото включва много новости и подобрения.
 Не се колебайте да
-[изпращате обратна връзка](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
+[изпращате обратна връзка](https://github.com/ruby/ruby/wiki/How-To-Report),
 тъй като все още имате възможност да повлияете на промените.
 
 ## [Обединяване на Fixnum и Bignum в Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -64,7 +64,7 @@ Ruby 2.4 показва нишките заедно с техният backtrace,
 зависят от тях.
 
 Приятно ползване на Ruby 2.4.0-preview1!
-[Свържете се с нас](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[Свържете се с нас](https://github.com/ruby/ruby/wiki/How-To-Report)
 с вашите коментари и преложения.
 
 ## Важни промени от 2.3

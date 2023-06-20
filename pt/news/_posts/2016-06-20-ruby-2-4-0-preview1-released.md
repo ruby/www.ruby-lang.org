@@ -13,7 +13,7 @@ Ruby 2.4.0-preview1 é o primeiro *preview* do Ruby 2.4.0.
 Este preview1 está sendo lançado antes do usual porque ele inclui várias
 funcionalidades novas e melhorias.
 Sinta-se a vontade para
-[enviar comentários](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[enviar comentários](https://github.com/ruby/ruby/wiki/How-To-Report)
 já que você ainda pode mudar as funcionalidades.
 
 
@@ -67,7 +67,7 @@ A detecção de *deadlock* no Ruby 2.4 mostrar *threads* com seu histórico e
 *threads* dependentes.
 
 Experimente e aproveite programando com Ruby 2.4.0-preview1, e
-[nos envie comentários](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[nos envie comentários](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Mudanças notáveis desde 2.3
 

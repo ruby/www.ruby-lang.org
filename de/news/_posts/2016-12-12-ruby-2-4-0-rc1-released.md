@@ -12,7 +12,7 @@ zu können.
 
 Ruby 2.4.0-rc1 ist der erste Veröffentlichungskandidat von Ruby 2.4.0
 und dient dazu, Rückmeldungen aus der Community zu
-sammeln. Bitte [geben Sie uns Feedback](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
+sammeln. Bitte [geben Sie uns Feedback](https://github.com/ruby/ruby/wiki/How-To-Report),
 da noch immer die Möglichkeit besteht, Einfluss auf die Features zu
 nehmen.
 
@@ -96,7 +96,7 @@ sinnvolles Debugging.
 Die Deadlock-Erkennung von Ruby 2.4 listet Threads nun mit ihrem
 Backtrace und abhängigen Threads.
 
-Versuchen Sie Ruby 2.4.0-rc1, haben Sie Spaß daran und [geben Sie Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+Versuchen Sie Ruby 2.4.0-rc1, haben Sie Spaß daran und [geben Sie Rückmeldung](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Sonstige wesentliche Änderungen seit 2.3
 

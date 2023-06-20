@@ -13,7 +13,7 @@ Ruby 2.4.0-preview1 adalah *preview* pertama dari Ruby 2.4.0.
 Preview1 ini dirilis lebih awal dari biasanya karena versi ini mencakup
 banyak fitur baru dan perbaikan.
 Jangan ragu untuk
-[mengirimkan umpan balik](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[mengirimkan umpan balik](https://github.com/ruby/ruby/wiki/How-To-Report)
 karena Anda masih bisa mengubah fitur-fitur ini.
 
 ## [Menyatukan Fixnum dan Bignum ke dalam Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -67,7 +67,7 @@ mencakup informasi yang cukup untuk *debugging*.
 *dependency*-nya.
 
 Coba dan nikmati memprogram dengan Ruby 2.4.0-preview1, dan
-[kirimkan umpan balik ke kami](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[kirimkan umpan balik ke kami](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Perubahan Penting sejak 2.3
 

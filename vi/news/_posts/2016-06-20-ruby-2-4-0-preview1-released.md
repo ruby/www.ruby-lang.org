@@ -13,7 +13,7 @@ Chúng tôi rất hân hạnh được thông báo về việc phát hành Ruby 
 Phiên bản Ruby 2.4.0-preview1 là phiên bản preview đầu tiên của Ruby 2.4.0.
 Bản preview1 lần này được phát hành sớm hơn so với thông thường vì nó bao gồm rất
 nhiều chức năng và cải tiến. Mọi người đừng ngại
-[phản hồi](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport) lại cho
+[phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report) lại cho
 chúng tôi về phiên bản này, vì các chức năng vẫn có thể được thay đổi và cập nhật.
 
 ## [Hợp nhất Fixnum và Bignum vào Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -69,7 +69,7 @@ khi phát hiện ra Deadlock, Ruby sẽ hiển thị các thread cùng với bac
 và các threads liên quan.
 
 Mời mọi người dùng thử và cảm nhận việc lập trình với Ruby 2.4.0-preview1,
-đồng thời [gửi phản hồi cho chúng tôi](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+đồng thời [gửi phản hồi cho chúng tôi](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Thay đổi đáng chú ý so với phiên bản 2.3
 

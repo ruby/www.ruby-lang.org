@@ -12,7 +12,7 @@ Nos complace anunciar el lanzamiento de Ruby 2.4.0-rc1.
 Ruby 2.4.0-rc1 es el primer candidato a lanzamiento de Ruby 2.4.0.
 Esta versión rc1 es liberada para obtener retroalimentación de la comunidad.
 Siéntete libre de
-[enviar tu retroalimentación](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[enviar tu retroalimentación](https://github.com/ruby/ruby/wiki/How-To-Report)
 ya que aún puedes arreglar las funcionalidades.
 
 ## [Presentamos una mejora a las tablas de hash por Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
@@ -87,7 +87,7 @@ de deadlocks en Ruby 2.4 muestra los hilos con sus respectivas trazas e hilos
 dependientes.
 
 ¡Prueba y disfruta programar con Ruby 2.4.0-rc1, y
-[envíanos retroalimentación](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[envíanos retroalimentación](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Otros cambios notables desde 2.3
 

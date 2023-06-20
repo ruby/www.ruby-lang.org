@@ -11,7 +11,7 @@ lang: zh_cn
 
 Ruby 2.4.0-rc1 是 Ruby 2.4.0 的第一个候选版本。
 发布 rc1 版本是为了从社区得带更多反馈。
-请[发送反馈](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)，
+请[发送反馈](https://github.com/ruby/ruby/wiki/How-To-Report)，
 因为你可以帮助修复这些功能。
 
 ## [哈希表的提升（由 Vladimir Makarov 提供）](https://bugs.ruby-lang.org/issues/12142)
@@ -69,7 +69,7 @@ Ruby 忽视线程中的异常，除非另一个线程显式地执行直至结束
 Ruby 在线程等待地时候会进行死锁检查，但是检查的结果没有足够的信息用来调试。
 Ruby 2.4 死锁检查会显示他们的栈信息和依赖线程。
 
-尝试并且享受用与 Ruby 2.4.0-rc1 的编码时光，有任何问题，敬请[反馈](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+尝试并且享受用与 Ruby 2.4.0-rc1 的编码时光，有任何问题，敬请[反馈](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## 其他自 2.3 起显著的改变
 
