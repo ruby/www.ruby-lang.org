@@ -12,7 +12,7 @@ Nos complace anunciar la entrega de Ruby 2.4.0-preview1.
 Esta versión es la primera vista previa a Ruby 2.4.0 y ha sido liberada antes
 de lo usual porque incluye muchas mejoras y características nuevas.
 Por favor no olvides enviar
-[tus comentarios](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[tus comentarios](https://github.com/ruby/ruby/wiki/How-To-Report)
 ya que aún estamos a buen tiempo de hacer cambios.
 
 ## [Integrar Fixnum y Bignum en Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -66,7 +66,7 @@ La detección de puntos muertos en Ruby 2.4 ahora muestra los threads con su
 traza inversa y los threads dependientes.
 
 Esperamos que disfrutes programar con Ruby 2.4.0-preview1 y no olvides
-[enviar tus comentarios](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[enviar tus comentarios](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Cambios significantes desde 2.3
 

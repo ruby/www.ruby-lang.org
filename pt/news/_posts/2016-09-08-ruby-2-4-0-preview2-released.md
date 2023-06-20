@@ -12,7 +12,7 @@ Estamos satisfeitos em anunciar o lançamento do Ruby 2.4.0-preview2.
 Ruby 2.4.0-preview2 é o segundo *preview* do Ruby 2.4.0.
 Este preview2 está sendo lançado para receber comentários da comunidade.
 Sinta-se a vontade para
-[enviar comentários](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[enviar comentários](https://github.com/ruby/ruby/wiki/How-To-Report)
 sendo que você ainda pode mudar as funcionalidades.
 
 ## [Unificação de Fixnum e Bignum em Integer](https://bugs.ruby-lang.org/issues/12005)
@@ -69,7 +69,7 @@ A detecção de *deadlock* no Ruby 2.4 mostrar *threads* com seu histórico e
 *threads* dependentes.
 
 Experimente e aproveite programando com Ruby 2.4.0-preview2, e
-[nos envie comentários](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[nos envie comentários](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Mudanças notáveis desde de 2.3
 

@@ -11,7 +11,7 @@ lang: ko
 
 루비 2.4.0-preview3은 루비 2.4.0의 세 번째 프리뷰입니다.
 이 프리뷰는 커뮤니티의 반응을 살펴보기 위해 릴리스되었습니다.
-기능에서 혼란을 느낀다면 부담없이 [피드백](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)을 보내주세요.
+기능에서 혼란을 느낀다면 부담없이 [피드백](https://github.com/ruby/ruby/wiki/How-To-Report)을 보내주세요.
 
 ## [Vladimir Makarov의 해시 테이블 개선을 도입](https://bugs.ruby-lang.org/issues/12142)
 
@@ -75,7 +75,7 @@ ASCII 대/소문자 대응 대신에 유니코드 대/소문자 대응을 지원
 루비 2.4의 교착상태 탐지는 스레드의 백트레이스와 의존하고 있는 스레드에 대한 정보를 보여주게 됩니다.
 
 루비 2.4.0-preview3으로 즐겁게 프로그램을 작성해보세요.
-그리고 여러분이 [느낀 점을 알려주세요](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+그리고 여러분이 [느낀 점을 알려주세요](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## 2.3 이후의 주목할 만한 변경
 

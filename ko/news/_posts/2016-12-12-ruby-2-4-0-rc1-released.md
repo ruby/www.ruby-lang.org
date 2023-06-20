@@ -12,7 +12,7 @@ lang: ko
 루비 2.4.0-rc1은 루비 2.4.0의 첫 번째 릴리스 후보입니다.
 rc1은 커뮤니티의 피드백을 받기 위해 릴리스되었습니다.
 아직 기능을 고칠 수 있으니 자유롭게
-[피드백을 보내주세요](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport).
+[피드백을 보내주세요](https://github.com/ruby/ruby/wiki/How-To-Report).
 
 ## [해시 테이블의 성능을 향상시켰습니다(Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
 
@@ -84,7 +84,7 @@ Fixnum이나 Bignum 클래스를 변경하는 모든 C 확장을 고쳐야 합�
 스레드를 보여줍니다.
 
 루비 2.4.0-rc1로 프로그래밍 해보고
-[의견을 보내주세요](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[의견을 보내주세요](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## 그 외의 중요한 2.3 이후의 변경 사항
 

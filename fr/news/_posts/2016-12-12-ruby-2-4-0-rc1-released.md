@@ -11,7 +11,7 @@ Nous sommes heureux d'annoncer la sortie de Ruby 2.4.0-rc1.
 
 Ruby 2.4.0-rc1 est la première *release candidate* pour la version stable 2.4.0
 Le but de cette version est d'obtenir des retours de la communauté : n'hésitez
-pas à nous [envoyer vos remarques](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport).
+pas à nous [envoyer vos remarques](https://github.com/ruby/ruby/wiki/How-To-Report).
 
 ## [Améliorations de la table de hachage (par Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
 
@@ -91,7 +91,7 @@ Ruby 2.4 ajoute la backtrace au rapport, ainsi qu'une liste des threads
 dépendants.
 
 Nous vous invitons à essayer tous ces changements apportés par Ruby 2.4.0-rc1
-et à nous [faire vos retours](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport) !
+et à nous [faire vos retours](https://github.com/ruby/ruby/wiki/How-To-Report) !
 
 ## Autres changements notables depuis la version 2.3
 

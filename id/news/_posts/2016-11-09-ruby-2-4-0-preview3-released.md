@@ -12,7 +12,7 @@ Kami dengan senang hati mengumumkan rilis dari Ruby 2.4.0-preview3.
 Ruby 2.4.0-preview3 adalah *preview* ketiga dari Ruby 2.4.0.
 Preview3 ini dirilis untuk mendapatkan umpan balik dari komunitas.
 Jangan ragu untuk
-[mengirimkan umpan balik](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[mengirimkan umpan balik](https://github.com/ruby/ruby/wiki/How-To-Report)
 karena Anda masih bisa mengubah fitur-fitur ini.
 
 ## [Memperkenalkan penyempurnaan hash table oleh Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
@@ -87,7 +87,7 @@ tidak mengandung cukup informasi untuk *debugging*.
 *backtrace* dan *dependency*-nya.
 
 Coba dan nikmati memprogram dengan Ruby 2.4.0-preview3, dan
-[kirimkan umpan balik ke kami](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[kirimkan umpan balik ke kami](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Perubahan penting lainnya sejak 2.3
 

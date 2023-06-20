@@ -13,7 +13,7 @@ ankündigen zu können.
 Ruby 2.4.0-preview3 ist die dritte Vorschau auf Ruby 2.4.0 und wird in
 der Absicht veröffentlicht, Feedback von der Gemeinschaft zu
 erhalten. Bitte
-[geben Sie uns Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport),
+[geben Sie uns Rückmeldung](https://github.com/ruby/ruby/wiki/How-To-Report),
 da Sie immer noch Einfluss auf die Features nehmen können.
 
 ## [Verbesserung der Hash-Tabellen (von Wladimir Makarow)](https://bugs.ruby-lang.org/issues/12142)
@@ -96,7 +96,7 @@ sinnvolles Debugging.
 Die Deadlock-Erkennung von Ruby 2.4 listet Threads nun mit ihrem
 Backtrace und abhängigen Threads.
 
-Versuchen Sie Ruby 2.4.0-preview3, haben Sie Spaß daran und [geben Sie Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+Versuchen Sie Ruby 2.4.0-preview3, haben Sie Spaß daran und [geben Sie Rückmeldung](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Sonstige wesentliche Änderungen seit 2.3
 

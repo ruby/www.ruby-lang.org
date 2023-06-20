@@ -13,7 +13,7 @@ geben zu können.
 Ruby 2.4.0-preview1 ist die erste Vorschau auf Ruby 2.4.0 und sie
 kommt früher als üblich, weil sie zahlreiche neue Features und
 Verbesserungen enthält. Wenn Sie noch Einfluss auf die Zukunft nehmen
-wollen, dann [geben Sie uns Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport).
+wollen, dann [geben Sie uns Rückmeldung](https://github.com/ruby/ruby/wiki/How-To-Report).
 
 ## [Zusammenführung von Fixnum und Bignum in Integer](https://bugs.ruby-lang.org/issues/12005)
 
@@ -71,7 +71,7 @@ Die Deadlock-Erkennung von Ruby 2.4 listet Threads nun mit ihrem
 Backtrace und abhängigen Threads.
 
 Versuchen Sie Ruby 2.4.0-preview1, haben Sie Spaß daran und [geben Sie
-Rückmeldung](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+Rückmeldung](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Wesentliche Änderungen seit 2.3
 

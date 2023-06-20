@@ -13,7 +13,7 @@ A versão 2.4.0-preview3 do Ruby é a terceira *preview* do Ruby 2.4.0,
 lançada com o fim de obter *feedback* da comunidade.
 
 Poderão
-[enviar *feedback*](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[enviar *feedback*](https://github.com/ruby/ruby/wiki/How-To-Report)
 uma vez que ainda podem influenciar das funcionalidades.
 
 ## [Introdução de melhorias nas hash tables por Vladimir Makarov](https://bugs.ruby-lang.org/issues/12142)
@@ -78,7 +78,7 @@ inclui informação suficiente para depuração.
 A deteção de *deadlocks* no Ruby 2.4 mostra *threads* com o seu *backtrace* e *threads* dependentes.
 
 Experimente e desfrute a programação com o Ruby 2.4.0-preview3 e
-[envie-nos o seu *feedback*](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+[envie-nos o seu *feedback*](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Outras alterações importantes desde a versão 2.3
 

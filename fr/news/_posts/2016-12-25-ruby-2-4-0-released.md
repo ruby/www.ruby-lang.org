@@ -90,7 +90,7 @@ Ruby 2.4 ajoute la backtrace au rapport, ainsi qu'une liste des threads
 dépendants.
 
 Nous vous invitons à essayer tous ces changements apportés par Ruby 2.4.0-rc1
-et à nous [faire vos retours](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport) !
+et à nous [faire vos retours](https://github.com/ruby/ruby/wiki/How-To-Report) !
 
 ## Autres changements notables depuis la version 2.3
 

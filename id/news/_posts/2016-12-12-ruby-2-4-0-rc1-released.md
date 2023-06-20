@@ -12,7 +12,7 @@ Kami dengan senang hati mengumumkan rilis dari Ruby 2.4.0-rc1.
 Ruby 2.4.0-rc1 adalah kandidat rilis pertama dari Ruby 2.4.0.
 rc1 ini dirilis untuk mendapatkan umpan balik dari komunitas.
 Jangan ragu untuk
-[mengirimkan umpan balik](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)
+[mengirimkan umpan balik](https://github.com/ruby/ruby/wiki/How-To-Report)
 karena Anda masih bisa memperbaiki fitur-fitur.
 
 ## [Memperkenalkan penyempurnaan hash table (oleh Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
@@ -85,7 +85,7 @@ tidak mengandung cukup informasi untuk *debugging*.
 *backtrace* dan *dependency*-nya.
 
 Coba dan nikmati memprogram dengan Ruby 2.4.0-rc1, dan [kirimkan umpan balik ke
-kami](https://bugs.ruby-lang.org/projects/ruby/wiki/HowToReport)!
+kami](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
 ## Perubahan penting lainnya sejak 2.3
 
