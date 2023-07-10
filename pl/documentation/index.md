@@ -107,6 +107,7 @@ Oto lista popularnych narzędzi używanych przez rubistów:
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Visual Studio Code][vscode] z wtyczką [Ruby LSP][40]
 
 * Dla Windows:
   * [Notepad++][29]
@@ -163,3 +164,5 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [39]: http://kapeli.com/dash
 [pl-1]: http://www.apohllo.pl/dydaktyka/ruby/intro/
 [pl-2]: http://forum.rubyonrails.pl/
+[vscode]: https://code.visualstudio.com/
+[40]: https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp
