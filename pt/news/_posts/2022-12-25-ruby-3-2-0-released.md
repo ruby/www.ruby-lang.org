@@ -212,7 +212,7 @@ sum = ary[0] + ary[1]
   `ruby2_keywords` foi mantida se o método recebedor levava `*args`, mas isso era
   um bug de inconsistência. Uma boa técnica pra encontrar potenciais `ruby2_keywords`
   faltantes é rodar a suíte de testes, encontrar o último método que deve receber
-  argumentos para cada lugar onte a suíte de teste falha, e usar `puts nil, caller, nil`
+  argumentos para cada lugar onde a suíte de teste falha, e usar `puts nil, caller, nil`
   lá. Então verifique que cada método/bloco da cadeia de chamada que deve delegar
   palavras-chave está corretamente marcado com `ruby2_keywords`. [[Bug #18625]] [[Bug #16466]]
 
