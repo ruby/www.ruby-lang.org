@@ -6,7 +6,7 @@
 
   function drawChart() {
     const source =
-      JSON.parse(document.getElementById("branches.json").innerHTML).slice(0, 5).reverse()
+      JSON.parse(document.getElementById("branches.json").innerHTML).filter(e=>e.status != "preview").slice(0, 5).reverse()
       .map(e => {
         return {
           ...e,
