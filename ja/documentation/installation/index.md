@@ -74,12 +74,12 @@ Ruby コミュニティの中の一部のメンバーは Ruby をインストー
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
-  * [FreeBSD](#pkg)
-  * [OpenBSD](#doas)
+  * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
   * [OpenIndiana](#openindiana)
   * [Windows Package manager](#winget)
-  * [Chocolatey package manager for Windows](#choco)
-  * [Other Distribution](#other)
+  * [Chocolatey package manager for Windows](#chocolatey)
+  * [Other Distribution](#other-systems)
 
 
 ### apt (Debian or Ubuntu)
@@ -161,7 +161,7 @@ $ brew install ruby
 こちらはRubyの最新の安定版をインストールすることを推奨します。
 
 ### FreeBSD
-{: #pkg}
+{: #freebsd}
 FreeBSDでは、Rubyをインストールする方法として、パッケージ化されたものとソースベースのものの両方が用意されています。プリビルドパッケージはpkgツールでインストールできます。
 
 {% highlight sh %}
@@ -173,7 +173,7 @@ ports を利用してソースコードからインストールする場合、[P
 FreeBSDにおけるRubyとそのエコシステムの詳しい情報は [FreeBSD Ruby Projects website](https://wiki.freebsd.org/Ruby) で確認できます。
 
 ### OpenBSD
-{: #doas}
+{: #openbsd}
 OpenBSDやそのディストリビューションであるadJには、Rubyの3つの主要なバージョンに対応したパッケージが用意されています。以下のコマンドで、利用可能なバージョンを確認し、インストールすることができます。
 
 {% highlight sh %}
@@ -203,7 +203,7 @@ WindowsでRubyをインストールするには[Windows Package Manager CLI](htt
 {% endhighlight %}
 
 ### Chocolatey package manager for Windows
-{: #choco}
+{: #chocolatey}
 同じくWindowsでは[Chocolatey Package Manager](https://chocolatey.org/install) を利用してRubyのインストールが可能です。
 
 {% highlight sh %}
@@ -213,7 +213,7 @@ WindowsでRubyをインストールするには[Windows Package Manager CLI](htt
 既存のmsys2を再利用するか、独自のものをインストールして完全なRuby開発環境を構築します。
 
 ### その他のディストリビューション
-{: #other}
+{: #other-systems}
 その他のシステムでは，お使いのLinuxディストリビューションのマネージャのパッケージリポジトリを検索して，Rubyを探すことができます。
 もしくはサードパーティのインストーラを使うこともできます。
 
