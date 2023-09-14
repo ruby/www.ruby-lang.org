@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.3.0-preview1 Released"
+title: "Ruby 3.3.0-preview1 릴리스"
 author: "naruse"
 translator: "shia"
 date: 2023-05-12 00:00:00 +0000
