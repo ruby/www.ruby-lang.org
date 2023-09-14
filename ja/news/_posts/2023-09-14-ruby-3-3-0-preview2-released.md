@@ -7,7 +7,7 @@ date: 2023-09-14 00:00:00 +0000
 lang: ja
 ---
 
-Ruby 3.3.0-preview1 が公開されました。Ruby 3.3ではRJITという新たなJITの仕組みを追加するとともに、YJITの高速化など様々な改善が行われています。
+Ruby 3.3.0-preview2 が公開されました。Ruby 3.3ではRJITという新たなJITの仕組みを追加するとともに、YJITの高速化など様々な改善が行われています。
 
 {% assign release = site.data.releases | where: "version", "3.3.0-preview2" | first %}
 
