@@ -27,7 +27,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 
 ## YJIT
 
-* 3.2 버전 대비 성능 대폭 향상
+* 3.2 버전 대비 주요 성능 개선 사항
   * 스플랫과 나머지 인자 지원이 개선되었습니다.
   * 가상 머신의 스택 연산을 위해 레지스터가 할당됩니다.
   * 선택적 인수가 포함된 더 많은 호출이 컴파일됩니다.
@@ -39,11 +39,11 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
     `Kernel#instance_of?`, `Module#===`은 특별히 최적화되었습니다.
   * 이제 optcarrot에서 인터프리터보다 3배 이상 빠릅니다!
 * 컴파일된 코드의 메타데이터가 훨씬 적은 메모리를 사용합니다.
-* ARM64에서의 코드 생성 개선
+* ARM64에서 더 작은 코드 생성
 * 일시 중지 모드에서 YJIT을 시작한 다음 나중에 수동으로 재개하는 옵션 추가
   * `--yjit-pause`와 `RubyVM::YJIT.resume`
   * 애플리케이션 부팅이 완료된 후에만 YJIT을 재개할 수 있습니다.
-* `--yjit-stats`로부터 생성된 `ratio_in_yjit` 통계는 릴리스 빌드에서도 이용가능하며,
+* `--yjit-stats`로부터 생성된 `ratio_in_yjit` 통계는 릴리스 빌드에서도 이용 가능하며,
   특수한 통계나 개발 빌드는 더 이상 필요하지 않습니다.
 * 종료 추적 옵션이 이제 샘플링을 지원합니다.
   * `--trace-exits-sample-rate=N`
@@ -65,13 +65,13 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 
 ### IRB
 
-IRB에 여러 기능 강화가 있습니다. 다음과 같은 내용이 포함됩니다.
+IRB에 여러 개선 사항이 추가됩니다. 다음과 같은 내용이 포함됩니다.
 
-- 고급 `irb:rdbg` 통합 기능은 `pry-byebug`와 동등한 디버깅 경험을 제공합니다. ([doc](https://github.com/ruby/irb#debugging-with-irb)).
+- 고급 `irb:rdbg` 통합 기능은 `pry-byebug`와 동등한 디버깅 경험을 제공합니다. ([문서](https://github.com/ruby/irb#debugging-with-irb)).
 - `ls`와 `show_cmds`와 같은 명령어에서 페이징을 지원합니다.
 - `ls`와 `show_source` 명령어에서 더 정확하고 유용한 정보를 제공합니다.
 
-또한, IRB는 앞으로의 개선을 더 쉽게 하기 위해 방대한 리팩토링과 수십 개의 버그를 수정했습니다.
+또한, IRB는 앞으로의 개선을 더 쉽게 하기 위해 방대한 리팩토링을 진행했고 수십 개의 버그를 수정했습니다.
 
 ## 호환성 문제
 
