@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.2.0 Preview 2 Released"
+title: "Ruby 3.2.0 Preview 2 發布"
 author: "naruse"
 translator: "Bear Su"
 date: 2022-09-09 00:00:00 +0000
