@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 3.3.0-preview1 릴리스"
+title: "Ruby 3.3.0-preview2 릴리스"
 author: "naruse"
 translator: "shia"
-date: 2023-05-12 00:00:00 +0000
+date: 2023-09-14 00:00:00 +0000
 lang: ko
 ---
 
-{% assign release = site.data.releases | where: "version", "3.3.0-preview1" | first %}
+{% assign release = site.data.releases | where: "version", "3.3.0-preview2" | first %}
 
 Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3은 RJIT으로 명명된 새로운 순수 Ruby JIT 컴파일러를 추가하고, 파서 생성기로 Lrama를 사용하며, 특히 YJIT에서 많은 성능 향상이 있습니다.
 
@@ -31,18 +31,23 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
   * 스플랫과 나머지 인자 지원이 개선되었습니다.
   * 가상 머신의 스택 연산을 위해 레지스터가 할당됩니다.
   * 선택적 인수가 포함된 더 많은 호출이 컴파일됩니다.
-  * `Integer#!=`, `String#!=`, `Kernel#block_given?`, `Kernel#is_a?`,
-    `Kernel#instance_of?`, `Module#===`은 특별히 최적화되었습니다.
+  * 예외 처리기도 컴파일됩니다.
   * 클래스의 인스턴스 변수가 가지는 객체 형상의 조합이 매우 복잡한 경우에도
     컴파일되기 전의 바이트 코드로 전환되지 않습니다.
+  * 지원되지 않는 호출 타입은 이제 컴파일되기 전의 바이트 코드로 전환되지 않습니다.
+  * `Integer#!=`, `String#!=`, `Kernel#block_given?`, `Kernel#is_a?`,
+    `Kernel#instance_of?`, `Module#===`은 특별히 최적화되었습니다.
+  * 이제 optcarrot에서 인터프리터보다 3배 이상 빠릅니다!
 * 컴파일된 코드의 메타데이터가 훨씬 적은 메모리를 사용합니다.
-* ARM64에서의 코드 생성 개선
+* ARM64에서 더 작은 코드 생성
 * 일시 중지 모드에서 YJIT을 시작한 다음 나중에 수동으로 재개하는 옵션 추가
   * `--yjit-pause`와 `RubyVM::YJIT.resume`
   * 애플리케이션 부팅이 완료된 후에만 YJIT을 재개할 수 있습니다.
+* `--yjit-stats`로부터 생성된 `ratio_in_yjit` 통계는 릴리스 빌드에서도 이용 가능하며,
+  특수한 통계나 개발 빌드는 더 이상 필요하지 않습니다.
 * 종료 추적 옵션이 이제 샘플링을 지원합니다.
   * `--trace-exits-sample-rate=N`
-* 여러 버그 수정
+* 보다 철저한 테스트와 여러 버그 수정
 
 
 
@@ -58,7 +63,15 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 
 ## 그 이외의 3.2 이후로 주목할 만한 변경
 
+### IRB
 
+IRB에 여러 개선 사항이 추가됩니다. 다음과 같은 내용이 포함됩니다.
+
+- 고급 `irb:rdbg` 통합 기능은 `pry-byebug`와 동등한 디버깅 경험을 제공합니다. ([문서](https://github.com/ruby/irb#debugging-with-irb)).
+- `ls`와 `show_cmds`와 같은 명령어에서 페이징을 지원합니다.
+- `ls`와 `show_source` 명령어에서 더 정확하고 유용한 정보를 제공합니다.
+
+또한, IRB는 앞으로의 개선을 더 쉽게 하기 위해 방대한 리팩토링을 진행했고 수십 개의 버그를 수정했습니다.
 
 ## 호환성 문제
 
@@ -99,33 +112,44 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 
 ### 표준 라이브러리 갱신
 
-
+사용자가 미래의 Ruby 버전에서 내장될 예정의 gem을 직접 불러올 때 RubyGems와 Bundler가 경고 문구를 출력합니다.
 
 다음 기본 gem이 갱신되었습니다.
 
 * RubyGems 3.5.0.dev
 * bigdecimal 3.1.4
 * bundler 2.5.0.dev
-* csv 3.2.7
+* csv 3.2.8
+* erb 4.0.3
 * fiddle 1.1.2
 * fileutils 1.7.1
-* irb 1.6.4
+* irb 1.7.4
+* nkf 0.1.3
 * optparse 0.4.0.pre.1
 * psych 5.1.0
-* reline 0.3.3
-* stringio 3.0.7
+* reline 0.3.8
+* stringio 3.0.9
 * strscan 3.0.7
-* syntax_suggest 1.0.4
+* syntax_suggest 1.1.0
 * time 0.2.2
-* timeout 0.3.2
-* uri 0.12.1
+* timeout 0.4.0
+* uri 0.12.2
+* yarp 0.9.0
 
 다음 내장 gem이 갱신되었습니다.
 
-* minitest 5.18.0
-* rbs 3.1.0
-* typeprof 0.21.7
+* minitest 5.19.0
+* test-unit 3.6.1
+* rexml 3.2.6
+* rss 0.3.0
+* net-imap 0.3.7
+* rbs 3.2.1
+* typeprof 0.21.8
 * debug 1.8.0
+
+다음 기본 gem이 내장됩니다.
+
+* racc 1.7.1
 
 기본 gem 또는 내장 gem에 대한 자세한 내용은 [Logger](https://github.com/ruby/logger/releases)와 같은
 GitHub 릴리스 또는 변경 로그에서 확인하세요.
@@ -136,6 +160,7 @@ GitHub 릴리스 또는 변경 로그에서 확인하세요.
 
 이러한 변경사항에 따라, Ruby 3.2.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)가
 이루어졌습니다!
+
 
 ## 다운로드
 
