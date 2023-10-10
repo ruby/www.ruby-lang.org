@@ -225,8 +225,14 @@ latest version of Ruby.
 On Windows, you can use the [Windows Package Manager CLI](https://github.com/microsoft/winget-cli)
 to install Ruby:
 
-{% highlight sh %}
-> winget install RubyInstallerTeam.Ruby
+{% highlight ps1 %}
+> winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
+# Example
+> winget install RubyInstallerTeam.Ruby.3.2
+# To see all versions avaliable
+> winget search RubyInstallerTeam.Ruby
+# Note: if you are installing ruby for projects, you may want to install RubyWithDevKit
+> winget install RubyInstallerTeam.RubyWithDevKit.3.2
 {% endhighlight %}
 
 ### Chocolatey package manager for Windows
