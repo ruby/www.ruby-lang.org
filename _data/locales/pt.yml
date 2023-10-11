@@ -3,7 +3,7 @@ ruby: Ruby
 slogan: O melhor amigo do programador
 
 sitelinks:
-- text: Home
+- text: Início
   url: /pt
   home: true
 - text: Downloads
