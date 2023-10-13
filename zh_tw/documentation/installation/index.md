@@ -202,7 +202,13 @@ $ pkg install runtime/ruby
 在 Windows 上您可以使用 [Windows Package Manager CLI](https://github.com/microsoft/winget-cli) 來安裝 Ruby：
 
 {% highlight sh %}
-> winget install RubyInstallerTeam.Ruby
+> winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
+# 範例
+> winget install RubyInstallerTeam.Ruby.3.2
+# 查看所有可用的版本
+> winget search RubyInstallerTeam.Ruby
+# 注意：如果你正在為專案安裝 ruby，你可能也希望安裝 RubyWithDevKit
+> winget install RubyInstallerTeam.RubyWithDevKit.3.2
 {% endhighlight %}
 
 ### Chocolatey package manager for Windows
