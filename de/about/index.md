@@ -180,13 +180,9 @@ Ruby hat eine Fülle weiterer Features, unter ihnen folgende:
 * Ruby kann Erweiterungen dynamisch laden, wenn es das Betriebssystem
   erlaubt.
 
-* Ruby hat plattformunabhängige Threads. Damit steht unter allen Systemen,
-  die Ruby unterstützen, auch Multithreading zur Verfügung, sogar unter
-  MS-DOS!
-
 * Ruby ist in hohem Maße portabel: Es wird vorrangig auf GNU/Linux
   entwickelt, arbeitet aber auf vielen UNIX-Varianten wie macOS,
-  auf Windows, DOS, BeOS, OS/2, usw.
+  und auf Windows.
 
 ### Alternative Ruby-Implementierungen
 
@@ -213,12 +209,6 @@ Hier ist eine Liste:
   gelinkt und in Anwendungen eingebunden werden kann.
   Die Entwicklung von mruby wird von Yukihiro “Matz” Matsumoto geleitet,
   dem Schöpfer von Ruby.
-* [IronRuby][ironruby] integriert sich gut in die .NET-Plattform.
-* [MagLev][maglev] definiert sich selbst als „eine schnelle, stabile
-  Ruby-Implementierung mit integrierter Objektpersistenz und verteiltem
-  Shared Cache“.
-* [Cardinal][cardinal] ist ein „Ruby-Compiler für die
-  [Parrot][parrot] Virtual Machine“ (Perl 6).
 
 ### Referenzen
 
@@ -244,7 +234,3 @@ November 2001.
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

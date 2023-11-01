@@ -110,9 +110,7 @@ Ruby 还有其他众多特性，下面列举一些：
 
 * 如果操作系统允许，Ruby 可以动态加载扩展库。
 
-* Ruby 提供不依赖操作系统的线程。所以，不管操作系统是否支持，Ruby 支持的所有操作系统都可以使用多线程，甚至是 MS-DOS!
-
-* Ruby 高度可移植：它主要在 GNU/Linux 上开发，但也支持很多类型的 UNIX，以及 macOS，Windows，DOS，BeOS，OS/2 等。
+* Ruby 高度可移植：它主要在 GNU/Linux 上开发，但也支持很多类型的 UNIX，以及 macOS，Windows 等。
 
 ### Ruby 的其他实现
 
@@ -123,9 +121,6 @@ Ruby 还有其他众多特性，下面列举一些：
 * [JRuby][jruby] 是基于 JVM（Java Virtual Machine）的 Ruby 实现，利用了 JVM 中优秀的 JIT 编译器、垃圾回收程序、并发线程、工具生态系统和大量的库。
 * [Rubinius][rubinius] 是用“Ruby 编写的 Ruby”。构建于 LLVM 之上，Rubinius 跑在一个很灵活的虚拟机上，别的语言也可以构建于这个虚拟机上。
 * [mruby][mruby] 是 Ruby 语言的轻量级实现，可以链接或嵌入到程序之中。mruby 由 Ruby 的创建者松本行弘（Matz）领导开发。
-* [IronRuby][ironruby] 是一个“与 .NET 框架紧密集成”的实现。
-* [MagLev][maglev] 是“一个快速、稳定的 Ruby 实现，支持集成对象持久化和分布式共享缓存”。
-* [Cardinal][cardinal] 是一个“为 [Parrot][parrot] 虚拟机 （Perl 6）编写的 Ruby 编译器”。
 
 ### 参考资料
 
@@ -149,7 +144,3 @@ Ruby 还有其他众多特性，下面列举一些：
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

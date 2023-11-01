@@ -162,12 +162,8 @@ phần mềm để sử dụng như là một ngôn ngữ scripting. Một giao 
 
 * Ruby có thể đọc các thư viện mở rộng (extension library) kiểu động nếu OS cho phép.
 
-* Ruby có threading độc lập với cả hệ điều hành. Thế nên, tất cả nền tảng khác
-mà Ruby chạy trên sẽ có multithreading bất kể hệ đấy có hỗ trợ hay không. Ngay
-cả MSDOS còn hỗ trợ!
-
 * Ruby rất dễ port: nó được phát triển chủ yếu cho GNU/Linux, nhưng có làm việc
-với các hệ UNIX khác, như macOS, Windows, DOS, BeOS, OS/2, vân vân.
+với các hệ UNIX khác, như macOS, Windows, vân vân.
 
 ### Tham khảo
 
