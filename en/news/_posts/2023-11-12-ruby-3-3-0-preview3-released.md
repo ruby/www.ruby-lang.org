@@ -8,7 +8,6 @@ lang: en
 ---
 
 {% assign release = site.data.releases | where: "version", "3.3.0-preview3" | first %}
-
 We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 adds a new parser named Prism, uses Lrama as a parser generator, adds a new pure-Ruby JIT compiler named RJIT, and many performance improvements especially YJIT.
 
 ## Prism

@@ -8,7 +8,6 @@ lang: ja
 ---
 
 {% assign release = site.data.releases | where: "version", "3.3.0-preview3" | first %}
-
 Ruby {{ release.version }} が公開されました。Ruby 3.3ではPrismという新しいパーサーの追加、新しいパーサージェネレーターであるLramaによるBisonの置き換え、RJITという新たなJITの仕組みを追加、YJITの高速化など様々な改善が行われています。
 
 ## Prism
