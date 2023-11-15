@@ -63,8 +63,8 @@ Ruby 源代码可从世界各地的[镜像站][mirrors]获得。请尝试离您�
 
 [license]: {{ site.license.url }}
 [installation]: /zh_cn/documentation/installation/
-[releases]: /en/downloads/releases/
-[branches]: /en/downloads/branches/
+[releases]: /zh_cn/downloads/releases/
+[branches]: /zh_cn/downloads/branches/
 [mirrors]: /en/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
