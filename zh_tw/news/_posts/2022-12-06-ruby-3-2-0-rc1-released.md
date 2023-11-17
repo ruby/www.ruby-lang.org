@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.2.0 RC 1 Released"
+title: "Ruby 3.2.0 RC 1 發布"
 author: "naruse"
 translator: "Bear Su"
 date: 2022-12-06 00:00:00 +0000
