@@ -20,6 +20,6 @@ We use GitHub Pages for www.ruby-lang.org. Please refer [Usage limits of GitHub 
 
 Some sites under ruby-lang.org (e.g. bugs.ruby-lang.org) uses cookies to keep track of user preferences. Unless you login on the site, the cookies will not be used to store personal information and we do not give away the information from the cookies.
 
-## Ascknowledgements
+## Acknowledgements
 
 This privacy policy is based on the [php.net privacy policy](https://www.php.net/privacy.php).
