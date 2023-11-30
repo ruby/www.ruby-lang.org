@@ -12,7 +12,7 @@ We will not give away your email address to anyone, who is not related to the op
 
 ## Logfiles
 
-ruby-lang.org record access logs of the requests that reach the web servers, but we use those files for issue investigation and statistical purposes.
+ruby-lang.org records access logs of the requests that reach the web servers, but we use those files for debugging and statistical purposes.
 
 ## Cookies
 
