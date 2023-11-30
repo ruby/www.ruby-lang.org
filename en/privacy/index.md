@@ -16,7 +16,7 @@ ruby-lang.org records access logs of the requests that reach the web servers, bu
 
 ## Cookies
 
-ruby-lang.org uses cookies to keep track of user preferences. Unless you login on the site, the cookies will not be used to store personal information and we do not give away the information from the cookies.
+Some sites under ruby-lang.org (e.g. bugs.ruby-lang.org) uses cookies to keep track of user preferences. Unless you login on the site, the cookies will not be used to store personal information and we do not give away the information from the cookies.
 
 ## Ascknowledgements
 
