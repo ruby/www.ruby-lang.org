@@ -13,5 +13,5 @@ layout: null
 #
 # Here is the Code:
 
-puts "Hello World!"
+puts 'Hello World!'
 {% endhighlight %}
