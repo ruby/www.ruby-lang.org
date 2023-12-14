@@ -64,7 +64,7 @@ After the release of RC1, we will avoid introducing ABI incompatibilities wherev
     done booting. `--yjit-disable` can be used if you want to use other
     YJIT options while disabling YJIT at boot.
 * Code GC is now disabled by default, and `--yjit-exec-mem-size` is treated
-  as a hard limit where copilation of new code stops.
+  as a hard limit where compilation of new code stops.
   * Better copy-on-write behavior on servers using unicorn and forking
   * No sudden drops in performance due to code GC.
   * You can still enable code GC if desired with `--yjit-code-gc`
