@@ -8,9 +8,9 @@ lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "3.3.0-rc1" | first %}
-Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3은 Prism이라고 명명된 새 파서를 추가하고, 파서 생성기로 Lrama를 사용하며, RJIT으로 명명된 새로운 순수 Ruby JIT 컴파일러를 추가하고, 특히 YJIT에서 많은 성능 향상이 있습니다.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3은 Prism이라는 이름의 새 파서를 추가하고, 파서 생성기로 Lrama를 사용하며, RJIT으로 명명된 새로운 순수 Ruby JIT 컴파일러를 추가하고, 특히 YJIT에서 많은 성능 향상이 있습니다.
 
-RC1 릴리스 이후로 ABI의 호환성을 깨트리는 변경은 가급적 피할 것입니다. 그래야 한다면, 릴리스 노트에서 해당 내용을 발표할 예정입니다.
+RC1 릴리스 이후로 ABI의 하위호환성을 깨트리는 변경은 가급적 피할 것입니다. 그래야 한다면, 릴리스 노트에서 해당 내용을 발표할 예정입니다.
 
 ## Prism
 
