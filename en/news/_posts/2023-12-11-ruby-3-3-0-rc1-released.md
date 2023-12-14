@@ -21,7 +21,7 @@ After the release of RC1, we will avoid introducing ABI incompatibilities wherev
     * Prism is both a C library that will be used internally by CRuby and a Ruby gem that can be used by any tooling which needs to parse Ruby code
     * Notable methods in the Prism API are:
         * `Prism.parse(source)` which returns the AST as part of a ParseResult
-        * `Prism.dump(source, filepath)` which returns the serialized AST as a String
+        * `Prism.dump(source)` which returns the serialized AST as a String
         * `Prism.parse_comments(source)` which returns the comments
 * You can make pull requests or issues directly on [the Prism repository](https://github.com/ruby/prism) if you are interested in contributing
 

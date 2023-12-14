@@ -22,7 +22,7 @@ Ruby 3.3 新增了 Prism 解析器，使用 Lrama 作为解析生成器，新增
   * Prism 既是 CRuby 内部使用的 C 库，也是任何需要解析 Ruby 代码的工具可以使用的 Ruby gem
   * Prism API 中值得注意的方法有：
     * `Prism.parse(source)` 返回 AST 作为 ParseResult 的一部分
-    * `Prism.dump(source, filepath)` 将序列化的 AST 以字符串形式返回
+    * `Prism.dump(source)` 将序列化的 AST 以字符串形式返回
     * `Prism.parse_comments(source)` 返回注释
 * 如果您有兴趣贡献，可以直接在 [Prism 代码库](https://github.com/ruby/prism) 上提出拉取请求或报告问题
 
