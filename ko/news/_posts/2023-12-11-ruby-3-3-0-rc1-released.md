@@ -21,7 +21,7 @@ RC1 릴리스 이후로 ABI의 하위호환성을 깨트리는 변경은 가급�
     * Prism은 CRuby에서 내부적으로 사용하는 C 라이브러리이자 Ruby 코드를 구문 분석해야 하는 모든 도구에서 사용할 수 있는 Ruby gem입니다.
     * Prism API에서 주목할 만한 메서드는 다음과 같습니다.
         * `Prism.parse(source)`는 ParseResult의 일부로 AST를 반환합니다.
-        * `Prism.dump(source, filepath)`는 문자열로 직렬화된 AST를 반환합니다.
+        * `Prism.dump(source)`는 문자열로 직렬화된 AST를 반환합니다.
         * `Prism.parse_comments(source)`는 주석을 반환합니다.
 * 기여에 관심이 있다면 [Prism 저장소](https://github.com/ruby/prism)에서 직접 풀 리퀘스트나 이슈를 만들 수 있습니다.
 

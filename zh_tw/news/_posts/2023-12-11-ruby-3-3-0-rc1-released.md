@@ -21,7 +21,7 @@ RC1 版本發布後，我們會盡可能避免加入 ABI 不相容的功能。�
     * Prism 是 CRuby 內部使用的 C 函式庫，同時也是任何需要解析 Ruby 程式碼的工具鏈可以使用的 Ruby gem。
     * Prism API 中值得注意的方法為:
         * `Prism.parse(source)` 回傳 AST 作為 ParseResult 的一部分。
-        * `Prism.dump(source, filepath)` 回傳字串型別的序列化的 AST。
+        * `Prism.dump(source)` 回傳字串型別的序列化的 AST。
         * `Prism.parse_comments(source)` 回傳註解。
 * 如果您有興趣貢獻，您可以直接在 [the Prism repository](https://github.com/ruby/prism) 上建立 pull requests 或 issues。
 
