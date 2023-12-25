@@ -155,7 +155,7 @@ The following deprecated methods are removed.
 
 RubyGems and Bundler warn if users do `require` the following gems without adding them to Gemfile or gemspec. This is because they will become the bundled gems in the future version of Ruby.
 
-This warning is suppressed if you use bootsnap gem. We recoomend to run your application with `DISABLE_BOOTSNAP=1` environmental variable at least once. This is limitation of this version.
+This warning is suppressed if you use bootsnap gem. We recommend to run your application with `DISABLE_BOOTSNAP=1` environment variable at least once. This is limitation of this version.
 
 Targeted libraries are:
   * abbrev
