@@ -152,7 +152,7 @@ The following deprecated methods are removed.
 
 ### Removed environment variables
 
-The following deprecated methods are removed.
+The following deprecated environment variables are removed.
 
 * Environment variable `RUBY_GC_HEAP_INIT_SLOTS` has been deprecated and is a no-op. Please use environment variables `RUBY_GC_HEAP_{0,1,2,3,4}_INIT_SLOTS` instead. [Feature #19785](https://bugs.ruby-lang.org/issues/19785)
 
