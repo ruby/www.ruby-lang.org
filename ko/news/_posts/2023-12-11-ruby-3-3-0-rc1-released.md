@@ -27,7 +27,7 @@ RC1 릴리스 이후로 ABI의 하위호환성을 깨트리는 변경은 가급�
 
 ## Bison을 Lrama로 대체
 
-* Bison 대신 [Lrama LALR 파서 생성기](https://github.com/yui-knk/lrama)를 사용하도록 변경했습니다. [Feature #19637](https://bugs.ruby-lang.org/issues/19637)
+* Bison 대신 [Lrama LALR 파서 생성기](https://github.com/ruby/lrama)를 사용하도록 변경했습니다. [Feature #19637](https://bugs.ruby-lang.org/issues/19637)
   * 관심이 있다면 [Ruby 파서의 미래 비전](https://rubykaigi.org/2023/presentations/spikeolaf.html)을 참고하세요.
   * 유지보수성을 위해 Lrama 내부 구문 분석기가 Racc에서 생성한 LR 구문 분석기로 대체되었습니다.
   * 매개변수화 규칙 `(?, *, +)`를 지원하며, Ruby의 parse.y에서 사용될 예정입니다.
@@ -39,7 +39,7 @@ RC1 릴리스 이후로 ABI의 하위호환성을 깨트리는 변경은 가급�
   * MJIT과 달리 런타임에 C 컴파일러가 필요하지 않습니다.
 * RJIT은 실험 목적으로 존재합니다.
   * 프로덕션 환경에서는 YJIT을 계속 사용해야 합니다.
-* Ruby용 JIT 개발에 관심이 있다면 [RubyKaigi 2023 3일 차에 있었던 k0kubun의 발표](https://rubykaigi.org/2023/presentations/k0kubun.html#day3)를 확인하세요.
+* Ruby용 JIT 개발에 관심이 있다면 [RubyKaigi 2023 3일차에 있었던 k0kubun의 발표](https://rubykaigi.org/2023/presentations/k0kubun.html#day3)를 확인하세요.
 
 ## YJIT
 
@@ -102,18 +102,18 @@ RC1 릴리스 이후로 ABI의 하위호환성을 깨트리는 변경은 가급�
   * 오래된 객체가 참조하는 어린 객체는 이제 즉시 오래된 객체로 마킹되지 않습니다.
     이 동작은 메이저 GC의 빈도를 상당히 낮춰줍니다.
     [[Feature #19678]](https://bugs.ruby-lang.org/issues/19678)
-  * 메이져 GC를 야기하는 보호받지 않은 객체의 숫자를 제어하는
+  * 메이저 GC를 야기하는 보호받지 않은 객체의 숫자를 제어하는
     새로운 변수 `REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO`가 추가되었습니다.
-    기본값은 `0.01` (1%)입니다. 이는 메이저 GC의 빈도를 상당히 낮춰줍니다.
+    기본값은 `0.01`(1%)입니다. 이는 메이저 GC의 빈도를 상당히 낮춰줍니다.
     [[Feature #19571]](https://bugs.ruby-lang.org/issues/19571)
   * `Time`, `Enumerator`, `MatchData`, `Method`, `File::Stat`, `BigDecimal` 등의
-    주요 타입에 부족했던 쓰기 보호가 구현되었습니다.
+    주요 타입에 부족했던 쓰기 배리어가 구현되었습니다.
     이는 마이너 GC에 걸리는 시간과 메이저 GC 빈도를 상당히 줄여줍니다.
   * `Hash`, `Time`, `Thread::Backtrace`, `Thread::Backtrace::Location`,
     `File::Stat`, `Method` 등의 대부분의 주요 클래스는 이제 가변 폭 할당을 사용합니다.
     이는 해당 클래스의 할당 및 할당 해제 속도를 빠르게 만들며, 메모리 사용량과
     힙 파편화를 줄여줍니다.
-  * 가비지 컬렉터에 약한 참조가 추가됩니다. [Feature #19783](https://bugs.ruby-lang.org/issues/19783)
+  * 가비지 컬렉터에 약한 참조가 추가됩니다. [[Feature #19783]](https://bugs.ruby-lang.org/issues/19783)
 
 
 ## 그 이외의 3.2 이후로 주목할 만한 변경
