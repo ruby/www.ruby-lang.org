@@ -122,13 +122,15 @@ We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 a
 
 IRB has received several enhancements, including but not limited to:
 
-- Advanced `irb:rdbg` integration that provides an equivalent debugging experience to `pry-byebug` ([doc](https://github.com/ruby/irb#debugging-with-irb)).
-- Pager support for `ls`, `show_source` and `show_cmds` commands.
-- More accurate and helpful information provided by the `ls` and `show_source` commands.
-- Experimental autocompletion using type analysis ([doc](https://github.com/ruby/irb#type-based-completion)).
-- It is now possible to change the font color and font style in the completion dialog by a newly introduced class Reline::Face ([doc](https://github.com/ruby/ruby/blob/master/doc/reline/face.md))
+* Advanced `irb:rdbg` integration that provides an equivalent debugging experience to `pry-byebug` ([doc](https://github.com/ruby/irb#debugging-with-irb)).
+* Pager support for `ls`, `show_source` and `show_cmds` commands.
+* More accurate and helpful information provided by the `ls` and `show_source` commands.
+* Experimental autocompletion using type analysis ([doc](https://github.com/ruby/irb#type-based-completion)).
+* It is now possible to change the font color and font style in the completion dialog by a newly introduced class Reline::Face ([doc](https://github.com/ruby/ruby/blob/master/doc/reline/face.md))
 
 In addition, IRB has also undergone extensive refactoring and received dozens of bug fixes to facilitate easier future enhancements.
+
+For more detailed updates, please refer to [Unveiling the big leap in Ruby 3.3's IRB](https://railsatscale.com/2023-12-19-irb-for-ruby-3-3/).
 
 ## Compatibility issues
 
