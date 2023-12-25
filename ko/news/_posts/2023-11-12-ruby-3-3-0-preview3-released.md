@@ -69,9 +69,9 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 * Linux perf로 프로파일링을 용이하게 할 수 있도록 `--yjit-perf`가 추가됩니다.
 * 보다 철저한 테스트와 여러 버그 수정
 
-### M:N 스레드 스케쥴러
+### M:N 스레드 스케줄러
 
-* M:N 스레드 스케쥴러가 추가됩니다. [[Feature #19842]](https://bugs.ruby-lang.org/issues/19842)
+* M:N 스레드 스케줄러가 추가됩니다. [[Feature #19842]](https://bugs.ruby-lang.org/issues/19842)
   * M개의 Ruby 스레드를 N개의 네이티브 스레드(OS 스레드)로 관리하므로 스레드의 생성, 관리 비용이 절감됩니다.
   * C 확장 호환성에 문제가 발생할 가능성이 있으므로, 주 Ractor에서의 기본 설정은 비활성입니다.
       * `RUBY_MN_THREADS=1` 환경 변수를 사용해 주 Ractor에서 M:N 스레드를 활성화할 수 있습니다.
