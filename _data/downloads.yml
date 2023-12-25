@@ -4,10 +4,10 @@
 # optional
 preview:
 
-  - 3.3.0-rc1
 
 stable:
 
+  - 3.3.0
   - 3.2.2
   - 3.1.4
 
