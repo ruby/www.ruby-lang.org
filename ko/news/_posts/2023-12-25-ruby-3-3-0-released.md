@@ -121,13 +121,15 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.3�
 
 IRB에 여러 개선 사항이 추가됩니다. 다음과 같은 내용이 포함됩니다.
 
-- 고급 `irb:rdbg` 통합 기능은 `pry-byebug`와 동등한 디버깅 경험을 제공합니다. ([문서](https://github.com/ruby/irb#debugging-with-irb)).
-- `ls`와 `show_source`, `show_cmds`와 같은 명령어에서 페이징을 지원합니다.
-- `ls`, `show_source` 명령에서 더 정확하고 유용한 정보를 제공합니다.
-- 타입 분석을 사용하는 실험적인 자동 완성 기능을 제공합니다. ([문서](https://github.com/ruby/irb#type-based-completion)).
-- Reline::Face 클래스의 도입으로 자동완성 다이얼로그의 글씨 색과 스타일이 변경 가능합니다. ([문서](https://github.com/ruby/ruby/blob/master/doc/reline/face.md))
+* 고급 `irb:rdbg` 통합 기능은 `pry-byebug`와 동등한 디버깅 경험을 제공합니다. ([문서](https://github.com/ruby/irb#debugging-with-irb)).
+* `ls`와 `show_source`, `show_cmds`와 같은 명령어에서 페이징을 지원합니다.
+* `ls`, `show_source` 명령에서 더 정확하고 유용한 정보를 제공합니다.
+* 타입 분석을 사용하는 실험적인 자동 완성 기능을 제공합니다. ([문서](https://github.com/ruby/irb#type-based-completion)).
+* Reline::Face 클래스의 도입으로 자동완성 다이얼로그의 글씨 색과 스타일이 변경 가능합니다. ([문서](https://github.com/ruby/ruby/blob/master/doc/reline/face.md))
 
 또한, IRB는 광범위한 리팩토링을 거쳤으며, 향후 개선이 용이하도록 많은 버그 수정이 이루어졌습니다.
+
+더 자세한 변경은 [Ruby 3.3에서 IRB의 큰 도약을 공개합니다](https://railsatscale.com/2023-12-19-irb-for-ruby-3-3/)를 참조하세요.
 
 ## 호환성 문제
 
