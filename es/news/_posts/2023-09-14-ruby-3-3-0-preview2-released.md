@@ -199,5 +199,5 @@ desde Ruby 3.2.0!
 ## Qué es Ruby
 
 Ruby primero fue desarrollado por Matz (Yukihiro Matsumoto) en 1993,
-y ahora es desarrollado como Código Abieto. Corre en múltiples
+y ahora es desarrollado como Código Abierto. Corre en múltiples
 plataformas y es usado en todo el mundo especialmente para desarrollo web.
