@@ -23,6 +23,13 @@ eol:
 
 stable_snapshots:
 
+  - branch: ruby_3_3
+    url:
+      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_3.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_3.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_3.zip
+    version: '3.3'
+
   - branch: ruby_3_2
     url:
       gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_2.tar.gz

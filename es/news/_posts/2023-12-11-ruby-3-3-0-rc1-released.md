@@ -1,18 +1,22 @@
 ---
 layout: news_post
-title: "Publicado Ruby 3.3.0-preview3"
+title: "Publicado Ruby 3.3.0-rc1"
 author: "naruse"
 translator: vtamara
-date: 2023-11-12 00:00:00 +0000
+date: 2023-12-11 00:00:00 +0000
 lang: es
 ---
 
-{% assign release = site.data.releases | where: "version", "3.3.0-preview3" | first %}
+{% assign release = site.data.releases | where: "version", "3.3.0-rc1" | first %}
 
 Nos complace anunciar la publicación de Ruby {{ release.version }}. Ruby 3.3
 añade un nuevo analizador sintáctico llamado Prism, usa Lrama como
 generador de analizadores, añade un nuevo compilador JIT en puro Ruby
 llamado RJIT, e incluye muchas mejoras de desempeño especialmente de YJIT.
+
+Tras la publicación de RC1, evitaremos introducir incompatibilidades en la ABI
+siempre que sea posible.  Si requerimos hacerlo, lo anunciaremos en las
+notas de publicación.
 
 ## Prism
 
@@ -39,7 +43,7 @@ llamado RJIT, e incluye muchas mejoras de desempeño especialmente de YJIT.
 
 ## Uso de Lrama en lugar de Bison
 
-* Se remplazó Bison por [el generador de analizadores LALR Lrama](https://github.com/yui-knk/lrama)
+* Se remplazó Bison por [el generador de analizadores LALR Lrama](https://github.com/ruby/lrama)
   [Característica #19637](https://bugs.ruby-lang.org/issues/19637)
   * Si tiene interés, por favor vea
     [The future vision of Ruby Parser](https://rubykaigi.org/2023/presentations/spikeolaf.html)
@@ -82,10 +86,15 @@ llamado RJIT, e incluye muchas mejoras de desempeño especialmente de YJIT.
     aplicación haya completado el arranque. `--yjit-disable` puede usarse
     si quiere usar otras opciones YJIT mientras deshabilita YJIT durante
     el arranque.
-* Opción para deshabilitar el recolectar de basura codíficado y tratar
-  `--yjit-exec-mem-size` como un límite duro.
-  * Puede producir un mejor comportamiento de copiar-al-escribir en
+* El recolector de basura en el código ahora está deshabilitado de manera
+  predeterminada, y `--yjit-exec-mem-size` se trata como un límite fuerte
+  en el que se detendrá la compilación de nuevo código.
+  * Esto produce un mejor comportamiento de copiar-al-escribir en
     servidores que usen unicorn y bifurcación de procesos (forking)
+  * No hay disminuciones inesperadas en el desempeño debidas al
+    recolector de código basura.
+  * Aún puede habilitar el recolector de basura en el código si lo
+    desea con `--yjit-code-gc`
 * La estadística `ratio_in_yjit` producida por `--yjit-stats` ahora está
   disponible en compilaciones publicadas, ya no se requiere una
   estadística especial o una compilación de desarrollo para acceder
@@ -137,13 +146,29 @@ llamado RJIT, e incluye muchas mejoras de desempeño especialmente de YJIT.
     sea un problema para la mayoría de aplicaciones, pero si lo nota,
     o si ve efectos inesperados que crea que pueden deberse a este
     cambio, por favor reportelos.
-* Se ha añadido la variable de ambiente `RUBY_GC_HEAP_REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO`.
-  [Característica #19571](https://bugs.ruby-lang.org/issues/19571)
-* Los hijos de objetos antiguos ya no son promovidos de inmediato a la
-  antigua generación en el recolector de basura.
-  [Característica #19678](https://bugs.ruby-lang.org/issues/19678)
-* Se ha agregado soporte para referencias débiles al recolector de basura.
-  [Característica #19783](https://bugs.ruby-lang.org/issues/19783)
+* Diversas mejoras de desempeño al Recolector de Basura
+  * Los objetos jóvenes referenciados por objetos viejos ya no se promueve
+    de inmediato a la generación vieja.  Esto reduce significativamente la
+    frecuencia de recolección del Recolector de Basura (GC).
+    [[Característica #19678]](https://bugs.ruby-lang.org/issues/19678)
+  * Se introdujo la nueva variable de ajuste
+    `REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO`
+    para controlar el número de objetos no protegidos que activan una
+    recolección del.  De manera predeterminada se establece en `0.01` (1%).
+    Esto reduce significativamente la frecuencia de las recolecciones
+    mayores del GC. [[Característica #19571]](https://bugs.ruby-lang.org/issues/19571)
+  * Se implementaron Barreras de Escritura para muchos tipos básicos a los que
+    les hacia falta, son notables `Time`, `Enumerator`, `MatchData`,
+    `Method`, `File::Stat`, `BigDecimal` y muchos otros. Esto reduce
+    significativamente el tiempo de las recolecciones menores del GC
+    y la frecuencia de las recolecciones mayores.
+  * La mayoría de clases ahora usan Localización de Ancho Variable,
+    son notables `Hash`, `Time`, `Thread::Backtrace`,
+    `Thread::Backtrace::Location`, `File::Stat`, `Method`.
+    Esto hace más veloces estas clases para reservar y liberar, que
+    usen menos memoria y reduce la fragmentación en el montón (*heap*).
+  * Se ha agregado soporte para referencias débiles en el recolector
+    de basura.  [[Característica #19783]](https://bugs.ruby-lang.org/issues/19783)
 
 
 ## Otros cambios notables desde 3.2
@@ -169,7 +194,12 @@ docenas de correcciones a fallas que facilitan ampliaciones futuras.
 
 ## Incidentes de compatibilidad
 
-Nota: Correciones a falla que excluía características.
+Nota: Excluyendo correcciones a errores en características
+
+* Se desprecian llamadas a `it` sin argumentos en bloques sin parámetros
+  ordinarios. `it` será una referencia al primer parámetro de bloque en
+  Ruby 3.4.
+  [Característica #18980](https://bugs.ruby-lang.org/issues/18980)
 
 ### Constantes elminadas
 
@@ -184,7 +214,7 @@ Los siguientes métodos que eran despreciados han sido eliminados.
 ### Variables de ambientes eliminadas
 
 * La variable de ambiente `RUBY_GC_HEAP_INIT_SLOTS` es despreciada
-  y es operación de no hacer nada. En su remplazo por favor use las
+  y representa la operación de no hacer nada. En su remplazo por favor use las
   variables de ambiente `RUBY_GC_HEAP_{0,1,2,3,4}_INIT_SLOTS`.
   [Característica #19785](https://bugs.ruby-lang.org/issues/19785)
 
