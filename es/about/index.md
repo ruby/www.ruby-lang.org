@@ -191,7 +191,7 @@ encuentran las siguientes:
 
 Ruby, como lenguaje, tiene algunas implementaciones diferentes. Esta página ha estado discutiendo la implementación de referencia, en la comunidad a menudo referida como **MRI** ("Matz’s Ruby Interpreter") o **CRuby** (ya que está escrito en C), pero también hay otros.
 
-Ellos on útiles en ciertas situaciones, proporcionan una integración adicional a otros lenguajes o entornos, o tienen características especiales que **MRI** no tiene.
+Ellos son útiles en ciertas situaciones, proporcionan una integración adicional a otros lenguajes o entornos, o tienen características especiales que **MRI** no tiene.
 
 Aquí hay una lista:
 
