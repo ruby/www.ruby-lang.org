@@ -54,7 +54,7 @@ Also many thanks to the organizations that support us:
 
 <img src="../../../images/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
 
-[DataDog][datadog] (server monitoring)
+[Datadog][datadog] (server monitoring)
 
 <img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
 
