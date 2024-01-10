@@ -50,7 +50,7 @@ Also many thanks to the organizations that support us:
 
 <img src="../../../images/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
 
-[Hatena][hatena] ([mackerel][mackerel], server monitoring)
+[Hatena][hatena] ([Mackerel][mackerel], server monitoring)
 
 <img src="../../../images/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
 
