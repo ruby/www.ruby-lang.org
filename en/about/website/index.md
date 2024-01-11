@@ -36,7 +36,11 @@ Also many thanks to the organizations that support us:
 
 [Ruby Association][rubyassociation] (hosting)
 
+<img src="../../../images/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
+
 [Ruby no Kai][rubynokai] (build server)
+
+<img src="../../../images/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
 
 [AWS][aws] (hosting)
 
