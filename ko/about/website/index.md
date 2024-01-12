@@ -60,7 +60,7 @@ lang: ko
 
 <img src="../../../images/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
 
-[Datadog][datadog] (server monitoring)
+[Datadog][datadog] (서버 모니터링)
 
 <img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
 
