@@ -168,6 +168,30 @@
 
 # 3.2 series
 
+- version: 3.2.3
+  date: '2024-01-18'
+  post: "/en/news/2024/01/18/ruby-3-2-3-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.3.zip
+  size:
+    gz: 
+    xz: 
+    zip: 
+  sha1:
+    gz: 
+    xz: 
+    zip: 
+  sha256:
+    gz: 
+    xz: 
+    zip: 
+  sha512:
+    gz: 
+    xz: 
+    zip: 
+
 - version: 3.2.2
   date: '2023-03-30'
   post: "/en/news/2023/03/30/ruby-3-2-2-released/"
