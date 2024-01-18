@@ -10,7 +10,7 @@ lang: ja
 Ruby 3.2.3 がリリースされました。
 
 このリリースでは多くの不具合修正を行なっています。
-詳しくは [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_2) を参照してください。
+詳しくは [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_3) を参照してください。
 
 このリリースでは default gem の uri.gem のバージョンを脆弱性修正を含む 0.12.2 に更新しています。
 詳しくは以下の記事を参照してください。
