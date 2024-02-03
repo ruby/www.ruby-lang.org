@@ -36,7 +36,7 @@ lang: ko
 
 지원해주신 단체들에게도 감사드립니다.
 
-[Ruby Association][rubyassociation] (호스트)
+[Ruby Association][rubyassociation] (호스팅)
 
 <img src="../../../images/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
 
@@ -44,13 +44,17 @@ lang: ko
 
 <img src="../../../images/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
 
-[AWS][aws] (호스트)
+[AWS][aws] (호스팅)
 
 <img src="../../../images/sponsor/aws.png" alt="AWS" width="200" height="120" />
 
-[Heroku][heroku] (호스트)
+[Heroku][heroku] (호스팅)
 
 <img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
+
+[Works on Arm][works-on-arm] (호스팅)
+
+<img src="../../../images/sponsor/works-on-arm.png" alt="Works on Arm" width="300" height="26" />
 
 [Fastly][fastly] (CDN)
 
@@ -73,6 +77,7 @@ lang: ko
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
+[works-on-arm]: https://www.arm.com/markets/computing-infrastructure/works-on-arm
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
