@@ -52,6 +52,10 @@ lang: ko
 
 <img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
 
+[Works on Arm][works-on-arm] (hosting)
+
+<img src="../../../images/sponsor/works-on-arm.png" alt="Works on Arm" width="300" height="26" />
+
 [Fastly][fastly] (CDN)
 
 <img src="../../../images/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
@@ -73,6 +77,7 @@ lang: ko
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
+[works-on-arm]: https://www.arm.com/markets/computing-infrastructure/works-on-arm
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
