@@ -77,7 +77,6 @@ llamado RJIT, e incluye muchas mejoras de desempeño especialmente de YJIT.
     * `--yjit-cold-threshold` se agrega para saltarse la compilación
       de ISEQs en frio.
     * Generación de código más compacto en ARM64
-* La velocidad de compilación es ahora un poco más rápida que en 3.2.
 * El recolector de basura en el código (code GC) ahora está deshabilitado
   de manera predeterminada
   * `--yjit-exec-mem-size` es tratado como un límite fuerte
