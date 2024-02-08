@@ -220,7 +220,7 @@ For a more complete list, see [Awesome Rubies][awesome-rubies].
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: https://github.com/rubinius/rubinius
 [truffleruby]: https://github.com/oracle/truffleruby
 [mruby]: http://www.mruby.org/
 [awesome-rubies]: https://github.com/planetruby/awesome-rubies

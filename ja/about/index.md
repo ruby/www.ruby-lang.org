@@ -190,6 +190,5 @@ MRI以外のRuby処理系には以下のようなものがあります。
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
 [mruby]: http://www.mruby.org/
 [truffleruby]: https://github.com/oracle/truffleruby

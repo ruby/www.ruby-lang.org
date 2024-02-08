@@ -142,5 +142,5 @@ Ruby 还有其他众多特性，下面列举一些：
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: https://github.com/rubinius/rubinius
 [mruby]: http://www.mruby.org/
