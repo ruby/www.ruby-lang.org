@@ -194,10 +194,6 @@ Aquí hay una lista:
 * [TruffleRuby][truffleruby] una implementación de Ruby de alto rendimiento sobre GraalVM.
 * [mruby][mruby] es una implementación ligera del lenguaje Ruby que se puede vincular e incrustar dentro de una aplicación.
 Su desarrollo es liderado por el creador de Ruby, Yukihiro "Matz" Matsumoto.
-* [IronRuby][ironruby] es una implementación "estrechamente integrada con el marco de trabajo .NET".
-* [MagLev][maglev] es "una implementación de Ruby rápida y estable con persistencia de objetos integrada y caché compartida distribuida".
-* [Cardinal][cardinal] es un "compilador Ruby para la máquina virtual [Parrot][parrot]”
-  (Perl 6).
 
 Para una lista más completa, vea [Awesome Rubies][awesome-rubies].
 
@@ -224,11 +220,7 @@ del 2003.
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]:	https://github.com/rubinius/rubinius
 [truffleruby]: https://github.com/oracle/truffleruby
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org
 [awesome-rubies]: https://github.com/planetruby/awesome-rubies
