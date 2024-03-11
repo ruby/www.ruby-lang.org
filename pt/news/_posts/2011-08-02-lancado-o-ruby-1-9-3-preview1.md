@@ -32,7 +32,7 @@ Ver [ChangeLogs][1] e [NEWS][2] para descrições.
 
 As versões anteriores do Ruby encontravam-se sob a licença \"GPLv2\" e
 \"Ruby\". No entanto, nesta versão foi substituida pela licença
-\"2-clause BSDL\"(AKA Simplfied BSD License) e \"Ruby\".
+\"2-clause BSDL\"(AKA Simplified BSD License) e \"Ruby\".
 
 ### Encoding
 
