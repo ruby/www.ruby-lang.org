@@ -95,7 +95,7 @@ We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 a
 * Name resolution such as `Socket.getaddrinfo` can now be interrupted (in environments where pthreads are available). [Feature #19965](https://bugs.ruby-lang.org/issues/19965)
   * For this purpose, a pthread is now created whenever calling getaddrinfo or getnameinfo. This incurs some overhead in name resolution (about 2.5x in our experiments). We do not expect the name resolution overhead to be a problem for most applications, but if you observe such, or if you see unexpected affects that you believe are due to this change, please report them.
 * Environment variable `RUBY_GC_HEAP_REMEMBERED_WB_UNPROTECTED_OBJECTS_LIMIT_RATIO` has been added. [Feature #19571](https://bugs.ruby-lang.org/issues/19571)
-* Children of old objects are no longer immedately promoted to the old generation in the garbage collector. [Feature #19678](https://bugs.ruby-lang.org/issues/19678)
+* Children of old objects are no longer immediately promoted to the old generation in the garbage collector. [Feature #19678](https://bugs.ruby-lang.org/issues/19678)
 * Support for weak references has been added to the garbage collector. [Feature #19783](https://bugs.ruby-lang.org/issues/19783)
 
 ## Other notable changes since 3.2
