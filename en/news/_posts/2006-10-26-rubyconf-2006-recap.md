@@ -16,7 +16,7 @@ If there was a theme to this year’s conference, I would have to say it’s
 Ruby implementations. Two presentations focused on alternate Ruby
 implementations and a third challenged us to get our planned m17n
 additions to Ruby just right. Apple dropped in to show their plans for
-Ruby integration in Mac OS X and the first Ruby Implementors Summit was
+Ruby integration in Mac OS X and the first Ruby Implementers Summit was
 held. Koichi brought us up to speed on YARV, which plans are currently
 underway to merge into the core at long last. As a teaser, he even
 showed it running Rails.
