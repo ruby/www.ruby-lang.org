@@ -64,7 +64,7 @@ Ruby {{ release.version }} が公開されました。Ruby 3.3ではPrismとい�
     YJIT options while disabling YJIT at boot.
 * Option to disable code GC and treat `--yjit-exec-mem-size` as a hard limit
   * Can produce better copy-on-write behavior on servers using unicorn and forking
-* `ratio_in_yjit` stat produced by `--yjit-stats` is now avaiable in release builds,
+* `ratio_in_yjit` stat produced by `--yjit-stats` is now available in release builds,
   a special stats or dev build is no longer required to access most stats.
 * Exit tracing option now supports sampling
   * `--trace-exits-sample-rate=N`
