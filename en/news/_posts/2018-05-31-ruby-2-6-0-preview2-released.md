@@ -66,7 +66,7 @@ This module has `parse` method which parses a given ruby code of string and retu
 
 ## Performance improvements
 
-* Speedup `Proc#call` because we dont' need to care about `$SAFE` any more.
+* Speedup `Proc#call` because we don't need to care about `$SAFE` any more.
   [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
   With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
