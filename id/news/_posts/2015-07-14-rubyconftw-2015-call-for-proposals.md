@@ -16,7 +16,7 @@ September di Taipei, Taiwan, sebuah pulau tropis yang berlokasi di jantung Benua
 dan [Ruddy Lee](https://ruddyblog.wordpress.com) dikonfirmasi menjadi pembicara utama.
 [CFP is open](http://rubytaiwan.kktix.cc/events/rubyconftw2015-cfp)
 hingga 20 Juli (GMT +8) dan
-[Lightening talk CFP](http://rubytaiwan.kktix.cc/events/rubyconftw2015-ltcfp)
+[Lightning talk CFP](http://rubytaiwan.kktix.cc/events/rubyconftw2015-ltcfp)
 dibuka hingga 10 Agustus (GMT +8).
 
 Jika Anda ingin memberikan sebuah seminar, mohon ajukan proposal Anda. Semua topik yang berkaitan dengan
