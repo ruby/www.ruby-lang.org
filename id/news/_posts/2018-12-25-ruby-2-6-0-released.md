@@ -68,7 +68,7 @@ eksperimental.
   Sebuah endless range, `(1..)`, berjalan tanpa ada akhirnya. Biasanya digunakan untuk kasus:
 
       ary[1..]                          # identik dengan ary[1..-1] tanpa magical -1
-      (1..).each {|index| ... }         # inifinite loop dari indeks 1
+      (1..).each {|index| ... }         # infinite loop dari indeks 1
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * Menambahkan `Enumerable#chain` dan `Enumerator#+`. [[Feature #15144]](https://bugs.ruby-lang.org/issues/15144)

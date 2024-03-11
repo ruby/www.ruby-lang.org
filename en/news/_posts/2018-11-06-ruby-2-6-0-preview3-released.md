@@ -50,7 +50,7 @@ This module has `parse` method which parses a given ruby code of string and retu
   An endless range, `(1..)`, is introduced. It works as it has no end. This shows typical use cases:
 
       ary[1..]                          # identical to ary[1..-1] without magical -1
-      (1..).each {|index| ... }         # inifinite loop from index 1
+      (1..).each {|index| ... }         # infinite loop from index 1
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * Add `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)

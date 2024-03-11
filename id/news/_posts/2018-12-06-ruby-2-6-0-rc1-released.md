@@ -68,7 +68,7 @@ eksperimental. Kesesuaian struktur dari AST *node* tidak dijamin.
   Sebuah endless range, `(1..)`, diperkenalkan. Ini berjalan tanpa ada akhirnya. Biasanya digunakan untuk kasus:
 
       ary[1..]                          # identik dengan ary[1..-1] tanpa magical -1
-      (1..).each {|index| ... }         # inifinite loop dari indeks 1
+      (1..).each {|index| ... }         # infinite loop dari indeks 1
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
 * Menambahkan `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
