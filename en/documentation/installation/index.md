@@ -229,7 +229,7 @@ to install Ruby:
 > winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
 # Example
 > winget install RubyInstallerTeam.Ruby.3.2
-# To see all versions avaliable
+# To see all versions available
 > winget search RubyInstallerTeam.Ruby
 # Note: if you are installing ruby for projects, you may want to install RubyWithDevKit
 > winget install RubyInstallerTeam.RubyWithDevKit.3.2
