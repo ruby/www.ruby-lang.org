@@ -63,7 +63,7 @@ We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 a
     YJIT options while disabling YJIT at boot.
 * Option to disable code GC and treat `--yjit-exec-mem-size` as a hard limit
   * Can produce better copy-on-write behavior on servers using unicorn and forking
-* `ratio_in_yjit` stat produced by `--yjit-stats` is now avaiable in release builds,
+* `ratio_in_yjit` stat produced by `--yjit-stats` is now available in release builds,
   a special stats or dev build is no longer required to access most stats.
 * Exit tracing option now supports sampling
   * `--trace-exits-sample-rate=N`
