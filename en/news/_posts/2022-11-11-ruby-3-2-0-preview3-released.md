@@ -94,7 +94,7 @@ The original proposal is <https://bugs.ruby-lang.org/issues/17837>
 
 * We no longer bundle 3rd party sources like `libyaml`, `libffi`.
 
-    * libyaml source has been removed from psych. You may need to install `libyaml-dev` with Ubuntu/Debian platfrom. The package name is different each platforms.
+    * libyaml source has been removed from psych. You may need to install `libyaml-dev` with Ubuntu/Debian platform. The package name is different each platforms.
 
     * bundled libffi source is also removed from `fiddle`
 
