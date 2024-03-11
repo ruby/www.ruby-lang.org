@@ -33,7 +33,7 @@ Ruby Inside has published [a review of this release][3].
 ## Differences from previous version
 
 Previous Ruby versions was licensed under \"GPLv2\" and \"Ruby\" license
-but \"2-clause BSDL\"(AKA Simplfied BSD License) and \"Ruby\" license
+but \"2-clause BSDL\"(AKA Simplified BSD License) and \"Ruby\" license
 been replacement of them.
 
 ### Encoding
