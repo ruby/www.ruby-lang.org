@@ -5,7 +5,7 @@ author: "NaHi"
 lang: de
 ---
 
-Matz desided to remove the page.
+Matz decided to remove the page.
 
 
 
