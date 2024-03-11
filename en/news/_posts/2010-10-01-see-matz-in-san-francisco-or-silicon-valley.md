@@ -5,7 +5,7 @@ author: "James Edward Gray II"
 lang: en
 ---
 
-Matz is visiting San Francisco and Silicon Vally on October 7th and
+Matz is visiting San Francisco and Silicon Valley on October 7th and
 11th. He will be talking about new opportunities for Ruby such as
 embedded applications, cloud computing, and super computing. Keynote
 Speech is “Ruby 2.0 What we want to accomplish in the near future.” Not
