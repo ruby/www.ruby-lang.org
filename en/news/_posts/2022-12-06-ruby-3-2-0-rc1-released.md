@@ -318,7 +318,7 @@ The following deprecated methods are removed.
 
 * We no longer bundle 3rd party sources like `libyaml`, `libffi`.
 
-    * libyaml source has been removed from psych. You may need to install `libyaml-dev` with Ubuntu/Debian platfrom. The package name is different for each platform.
+    * libyaml source has been removed from psych. You may need to install `libyaml-dev` with Ubuntu/Debian platform. The package name is different for each platform.
 
     * Bundled libffi source is also removed from `fiddle`
 
