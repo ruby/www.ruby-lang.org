@@ -110,9 +110,7 @@ Ruby 還具有以下的特點：
 
 * 如果作業系統支援，Ruby 可以動態的載入擴充函式庫。
 
-* Ruby 具有與作業系統無關的多線程（threading）能力。可以在所有可以執行 Ruby 的平台上都能夠達到多線程的目標，而不必管作業系統是否支援，就算是 MS-DOS 也行。
-
-* Ruby 具有高度的移植性：它大部份是在 GNU/Linux 上發展出來，但是可以執行於多種的作業系統如： UNIX、macOS、Windows、DOS、BeOS、OS/2 等。
+* Ruby 具有高度的移植性：它大部份是在 GNU/Linux 上發展出來，但是可以執行於多種的作業系統如： UNIX、macOS、Windows 等。
 
 ### 參考資料
 

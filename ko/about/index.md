@@ -132,10 +132,7 @@ Ruby는 개발자의 편의를 위해 많은 기능을 제공합니다. 그 중 
 
 * OS가 지원한다면 확장 기능을 동적으로 로드할 수 있습니다.
 
-* Ruby는 운영체제에 의존하지 않는 스레딩 기능을 제공합니다. 그리고 이는 Ruby가 동작하는 모든 플랫폼에 적용되어서 스레드를
-  지원하지 않는 MS-DOS에서도 다중 스레드 프로그램을 작성할 수 있습니다.
-
-* Ruby는 이식성이 매우 높습니다. 대부분 GNU Linux에서 개발되었지만 대부분의 UNIX, macOS, Windows, DOS, BeOS, OS/2 등에서 동작합니다.
+* Ruby는 이식성이 매우 높습니다. 대부분 GNU Linux에서 개발되었지만 대부분의 UNIX, macOS, Windows 등에서 동작합니다.
 
 ### Ruby의 다른 구현체들
 
@@ -153,9 +150,6 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
   Rubinius는 다른 언어 역시 구축된 멋진 가상 머신 위에서 활동합니다.
 * [mruby][mruby]는 Ruby의 경량 구현체로 애플리케이션 안에 링크되거나 포함시킬 수 있습니다.
   Ruby의 창시자인 유키히로 “Matz” 마츠모토가 개발을 이끌고 있습니다.
-* [IronRuby][ironruby]는 “.NET Framework과 강력하게 통합된” 구현체입니다.
-* [MagLev][maglev]는 “통합된 개체 지속성과 분산 공유 캐시를 가진 빠르고, 안정적인 Ruby 구현체”입니다.
-* [Cardinal][cardinal]는 “[Parrot][parrot] 가상 기기을 위한 Ruby 컴파일러”(Perl 6)입니다.
 
 ### 참조
 
@@ -180,9 +174,5 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: https://github.com/rubinius/rubinius
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

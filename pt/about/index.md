@@ -181,14 +181,9 @@ seguintes:
 * O Ruby pode carregar bibliotecas de extensão (_extension libraries_)
   dinamicamente se o Sistema Operacional permitir.
 
-* O Ruby tem um sistema de _threading_ independente do Sistema Operacional.
-  Portanto, para todas as plataformas nas quais o Ruby roda, temos
-  _multithreading_ independentemente de o Sistema Operacional suportar ou
-  não, temos _multithreading_ até em MS-DOS!
-
 * O Ruby é altamente portável: é desenvolvido principalmente em ambiente
   GNU/Linux, mas trabalha em muitos tipos de ambientes UNIX, macOS,
-  Windows, DOS, BeOS, OS/2, etc.
+  Windows, etc.
 
 ### Outras Implementações do Ruby
 
@@ -212,12 +207,6 @@ Segue uma lista:
 * [mruby][mruby] é uma implementação leve da linguagem Ruby que pode ser
   vinculada e embutida em uma aplicação. Seu desenvolvimento é conduzido
   pelo criador do Ruby, Yukihiro “Matz” Matsumoto.
-* [IronRuby][ironruby] é uma implementação “fortemente integrada ao .NET
-  Framework”.
-* [MagLev][maglev] é “uma implementação rápida e estável do Ruby, com
-  persitência de objetos integrada e cache compartilhado distribuído”.
-* [Cardinal][cardinal] é um “compilador Ruby para a Máquina Virtual
-  [Parrot][parrot]” (Perl 6).
 
 ### Referências
 
@@ -242,9 +231,5 @@ Nov. 2001.
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: https://github.com/rubinius/rubinius
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

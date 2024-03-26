@@ -329,7 +329,6 @@ Thread and fork have the following characteristics:
 * `fork` is slow, `thread` is not.
 * `fork` does not share the memory space.
 * `thread` does not cause thrashing.
-* `thread` works on DOS.
 * When `thread` gets in a deadlock, the whole process stops.
 * `fork` can take advantage of pauses waiting for I/O to complete,
   `thread` does not (at least not without some help).
