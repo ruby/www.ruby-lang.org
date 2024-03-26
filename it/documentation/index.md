@@ -103,6 +103,7 @@ Questa è una lista dei tool più comunemente usati dagli sviluppatori Ruby:
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Visual Studio Code][vscode] con [Ruby LSP][41] plugin
 
 * Per Windows:
   * [Notepad++][29]
@@ -158,3 +159,5 @@ iniziare.
 [38]: https://learncodethehardway.org/ruby/
 [39]: https://corsidia.com/materia/programmazione/imparare-a-programmare
 [40]: http://kapeli.com/dash
+[vscode]: https://code.visualstudio.com/
+[41]: https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp

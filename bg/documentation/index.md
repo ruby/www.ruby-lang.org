@@ -107,6 +107,7 @@ ruby -v
   * [SciTe][28]
   * [NetBeans][36]
   * [Sublime Text][37]
+  * [Visual Studio Code][vscode] с плъгина [Ruby LSP][40]
 
 * За Windows:
   * [Notepad++][29]
@@ -159,3 +160,5 @@ ruby -v
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: http://kapeli.com/dash
+[vscode]: https://code.visualstudio.com/
+[40]: https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp
