@@ -140,6 +140,9 @@ Note: Excluding feature bug fixes.
   deprecated. `it` will be a reference to the first block parameter in Ruby 3.4.
   [[Feature #18980]](https://bugs.ruby-lang.org/issues/18980)
 
+* `Regexp::new` now only accepts up to 2 arguments instead of 3. This was
+   deprecated in Ruby 3.2. [[Bug #18797]](https://bugs.ruby-lang.org/issues/18797)
+
 ### Removed environment variables
 
 The following deprecated methods are removed.
