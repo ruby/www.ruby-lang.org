@@ -32,7 +32,7 @@ should not be world writable except when the sticky bit set.
 
 ### Updates
 
-* Fixed typo. (vulnerable -&gt; vulnerable)
+* Fixed typo. (vulnerabile -&gt; vulnerable)
 * 1\.8.7-334 was released to fix this issue. 1.8.7 users are encouraged
   to upgrade.
   * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p334.tar.gz][1]
