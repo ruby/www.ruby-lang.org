@@ -7,19 +7,18 @@ preview:
 
 stable:
 
-  - 3.3.0
-  - 3.2.3
-  - 3.1.4
+  - 3.3.1
+  - 3.2.4
 
 # optional
 security_maintenance:
 
-  - 3.0.6
+  - 3.1.5
 
 # optional
 eol:
 
-  - 2.7.8
+  - 3.0.7
 
 stable_snapshots:
 
@@ -44,17 +43,10 @@ stable_snapshots:
       zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_1.zip
     version: '3.1'
 
-  - branch: ruby_3_0
-    url:
-      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_0.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_0.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_0.zip
-    version: '3.0'
-
 nightly_snapshot:
 
   url:
     gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.gz
     xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.zip
-  version: '3.3'
+  version: '3.4'
