@@ -201,21 +201,21 @@
     xz: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.4.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.4.zip
   size:
-    gz: 
-    xz: 
-    zip: 
+    gz:  20581711
+    zip: 24739492
+    xz:  15175656
   sha1:
-    gz: 
-    xz: 
-    zip: 
+    gz:  a177e809102270f1cd77bf23c6df30c50ee7c107
+    zip: e81354859b904711ce18eda1f42960a53caf3019
+    xz:  2806593a486f54ce56e5ba83c152f397e48eb416
   sha256:
-    gz: 
-    xz: 
-    zip: 
+    gz:  c72b3c5c30482dca18b0f868c9075f3f47d8168eaf626d4e682ce5b59c858692
+    zip: 7edc0163bb033e895a8a97392be0146daec03769c1a6c7f8d084b6e8dc7f7299
+    xz:  e7f1653d653232ec433472489a91afbc7433c9f760cc822defe7437c9d95791b
   sha512:
-    gz: 
-    xz: 
-    zip: 
+    gz:  b695b98dac7bb2c8755a106d949cb1b1b91551092fad263765171ddf8a4d86585259ffab5f7cc9bace70143d645dbe5932cfc61c6dba7817177de391d76bcd79
+    zip: b52a95b19d98ff5bd29aa74cb7d2cbad58f1ccad75892ad966aec35eef1a57f7c9727b8fd2a51c5c6a1677eaf67226afceee8ce079e523c7b264e841790ddcae
+    xz:  fb0af37be4b6ad7b98ab9f8a508952238ee68b5828e3926331e4db52e2ebc1e6046f31114069322db0cd3bea7c9b82ace91c8564573ddcfa1f960877b237dbff
 
 - version: 3.2.3
   date: 2024-01-18
