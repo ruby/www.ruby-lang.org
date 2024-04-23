@@ -55,4 +55,3 @@ la migración hacía Ruby 3.3, 3.2, o 3.1.
 
 Muchos contribuyentes, desarrolladores, y usuarios que proveyeron reportes de
 fallas nos ayudaron a hacer esta versión. Gracias por sus contribuciones.
-

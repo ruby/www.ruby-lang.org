@@ -48,4 +48,3 @@ Ver más detalles en la [publicación en Github](https://github.com/ruby/ruby/re
 
 Muchos contribuyentes, desarrolladores, y usuarios que proveyeron reportes de
 fallas nos ayudaron a hacer esta versión. Gracias por sus contribuciones.
-
