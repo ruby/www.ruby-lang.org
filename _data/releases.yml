@@ -437,28 +437,28 @@
 # 3.1 series
 
 - version: 3.1.5
-  date: 2024-04-23
+  date: '2024-04-23'
   post: "/en/news/2024/04/23/ruby-3-1-5-released/"
   url:
     gz: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.5.tar.gz
     xz: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.5.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.5.zip
   size:
-    gz: 
-    xz: 
-    zip: 
+    gz: 20884264
+    xz: 15293020
+    zip: 25208327
   sha1:
-    gz: 
-    xz: 
-    zip: 
+    gz: e3387c8fa2b6faf20beade2239ebdfc701ee6268
+    xz: 807bf2b261cf71e7fe58641a6b5dac61fdeb05ea
+    zip: 83c6b2f26a35a1b23fef091e6db5c60ad0f52bf9
   sha256:
-    gz: 
-    xz: 
-    zip: 
+    gz: 3685c51eeee1352c31ea039706d71976f53d00ab6d77312de6aa1abaf5cda2c5
+    xz: f9375a45bdf1cc41298558e7ac6c367f7b6cdcccf7196618b21f0886ff583b91
+    zip: e5eefbd95844b0322f6b2650cdef4d884d31c08856df7362375d26360cca9ba4
   sha512:
-    gz: 
-    xz: 
-    zip: 
+    gz: 23661cb1b61013d912b7433f8707bbcd723391694d91f413747c71428e74f8c7385c1304de7d08b70c9fa3bd649e4eb5e9acb472d89dc2ad5678cc54855a24ae
+    xz: a9883f4d074825bb1f54ef3429a9a71341274bd2de1aa8ea32bce19b6b9c1bac5e5dc4c34a92b8e7caa73ba71d7ed7c546a6fec6f1fd3d8986974dce214f6d49
+    zip: 390e6f99b101aa80de924532bfb0b9fc29702b1e14b92e12cc596e9c76f9a2e52ba0e72eb95accb4bac16d5d10d81900a2e8afba80aa514ef870f52cfd50b4fd
 
 - version: 3.1.4
   date: 2023-03-30
@@ -617,28 +617,28 @@
 # 3.0 series
 
 - version: 3.0.7
-  date: 2024-04-23
+  date: '2024-04-23'
   post: "/en/news/2024/04/23/ruby-3-0-7-released/"
   url:
     gz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.7.tar.gz
     xz: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.7.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.7.zip
   size:
-    gz: 
-    xz: 
-    zip: 
+    gz: 21268288
+    xz: 15848768
+    zip: 25652209
   sha1:
-    gz: 
-    xz: 
-    zip: 
+    gz: ec95aee1364fc4d0ca0e8f83c525127016e05c86
+    xz: efc97e609868a19f89653068c4915c162117b721
+    zip: b258a1bfcd49fb801b83a0aec90a8bb3989e9e42
   sha256:
-    gz: 
-    xz: 
-    zip: 
+    gz: 2a3411977f2850431136b0fab8ad53af09fb74df2ee2f4fb7f11b378fe034388
+    xz: 1748338373c4fad80129921080d904aca326e41bd9589b498aa5ee09fd575bab
+    zip: 163d752070a2ba1a015f004ae75e38ac9aa44bc4ebfafb55d5ff184cc72db5be
   sha512:
-    gz: 
-    xz: 
-    zip: 
+    gz: 66e5116ddd027ab1b27d466104a5b440889318b4f2f74b5fdf3099812bf5f7ef77be62fe1df37e0dc7cd5b2f5efe7fee5b9096910ce815ca4126577cb2abfaa7
+    xz: 4760dc7d1345279b53cff30f3dd015b67f6a505e5028357f046dbf23b15a52d09f7d91fcfe5cb75d6c3222e7283aad12b97b36f5de0ff959f824bd42073f9c48
+    zip: ed5e6d827ba981808bc4d914e400963b4443d522d52dd5d3f645db0cf38b50ab6c9baafac1b5e348e677500a16ceef1a5ac15c6a67003c2b2037cb86c1bd3654
 
 - version: 3.0.6
   date: 2023-03-30
