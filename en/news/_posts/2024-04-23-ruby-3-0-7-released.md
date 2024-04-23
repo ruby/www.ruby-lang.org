@@ -26,13 +26,6 @@ We recommend all Ruby 3.0 users to start migration to Ruby 3.3, 3.2, or 3.1 imme
 
 {% assign release = site.data.releases | where: "version", "3.0.7" | first %}
 
-* <{{ release.url.bz2 }}>
-
-      SIZE: {{ release.size.bz2 }}
-      SHA1: {{ release.sha1.bz2 }}
-      SHA256: {{ release.sha256.bz2 }}
-      SHA512: {{ release.sha512.bz2 }}
-
 * <{{ release.url.gz }}>
 
       SIZE: {{ release.size.gz }}
