@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Publicación de Ruby 3.1.5"
+title: "Publicado Ruby 3.1.5"
 author: "hsbt"
 translator: vtamara
 date: 2024-04-23 10:00:00 +0000
