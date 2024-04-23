@@ -10,7 +10,7 @@ lang: en
 Ruby 3.1.5 has been released.
 
 This release includes security fixes.
-Please check the topic below for details.
+Please check the topics below for details.
 
 * [CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search]({%link en/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
 * [CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc](https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/)
