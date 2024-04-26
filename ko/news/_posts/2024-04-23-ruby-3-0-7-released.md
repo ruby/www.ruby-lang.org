@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 3.0.7 Released"
+title: "Ruby 3.0.7 릴리스"
 author: "hsbt"
-translator:
+translator: "shia"
 date: 2024-04-23 10:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.0.7 has been released.
+Ruby 3.0.7이 릴리스되었습니다.
 
-This release includes security fixes.
-Please check the topics below for details.
+이번 릴리스에는 보안 수정 사항이 포함되어 있습니다.
+자세한 내용은 아래 항목을 참조하세요.
 
-* [CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search]({%link en/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
-* [CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc](https://www.ruby-lang.org/en/news/2024/03/21/rce-rdoc-cve-2024-27281/)
-* [CVE-2024-27280: Buffer overread vulnerability in StringIO](https://www.ruby-lang.org/en/news/2024/03/21/buffer-overread-cve-2024-27280/)
+* [CVE-2024-27282: 정규표현식 검색의 임의의 메모리 주소 읽기 취약점]({%link ko/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
+* [CVE-2024-27281: RDoc에서 .rdoc_options 사용 시의 RCE 취약점](https://www.ruby-lang.org/ko/news/2024/03/21/rce-rdoc-cve-2024-27281/)
+* [CVE-2024-27280: StringIO에서 버퍼 초과 읽기 취약점](https://www.ruby-lang.org/ko/news/2024/03/21/buffer-overread-cve-2024-27280/)
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_7) for further details.
+자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_0_7)을 참조하세요.
 
-After this release, Ruby 3.0 reaches EOL. In other words, this is expected to be the last release of Ruby 3.0 series.
-We will not release Ruby 3.0.8 even if a security vulnerability is found (but could release if a severe regression is found).
-We recommend all Ruby 3.0 users to start migration to Ruby 3.3, 3.2, or 3.1 immediately.
+이 릴리스가 끝나면 Ruby 3.0은 EOL에 도달합니다. 즉, 이번 릴리스가 Ruby 3.0 버전대의 마지막 릴리스가 될 것입니다.
+보안 취약점이 발견되더라도 Ruby 3.0.8는 릴리스되지 않을 것입니다. (심각한 회귀 버그가 발생하는 경우는 예외입니다.)
+모든 Ruby 3.0 사용자는 즉시 Ruby 3.3, 3.2, 3.1로 마이그레이션할 것을 권장합니다.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.0.7" | first %}
 
@@ -47,7 +47,7 @@ We recommend all Ruby 3.0 users to start migration to Ruby 3.3, 3.2, or 3.1 imme
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
