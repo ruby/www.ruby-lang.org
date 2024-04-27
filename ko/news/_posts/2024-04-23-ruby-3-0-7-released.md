@@ -16,10 +16,10 @@ Ruby 3.0.7이 릴리스되었습니다.
 * [CVE-2024-27281: RDoc에서 .rdoc_options 사용 시의 RCE 취약점](https://www.ruby-lang.org/ko/news/2024/03/21/rce-rdoc-cve-2024-27281/)
 * [CVE-2024-27280: StringIO에서 버퍼 초과 읽기 취약점](https://www.ruby-lang.org/ko/news/2024/03/21/buffer-overread-cve-2024-27280/)
 
-자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_0_7)을 참조하세요.
+자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_0_7)를 참조하세요.
 
-이 릴리스가 끝나면 Ruby 3.0은 EOL에 도달합니다. 즉, 이번 릴리스가 Ruby 3.0 버전대의 마지막 릴리스가 될 것입니다.
-보안 취약점이 발견되더라도 Ruby 3.0.8는 릴리스되지 않을 것입니다. (심각한 회귀 버그가 발생하는 경우는 예외입니다.)
+이 릴리스 후에 Ruby 3.0은 EOL에 도달합니다. 즉, 이번 릴리스가 Ruby 3.0 버전대의 마지막 릴리스가 될 것입니다.
+보안 취약점이 발견되더라도 Ruby 3.0.8은 릴리스되지 않을 것입니다. (심각한 회귀 버그가 발생하는 경우는 예외입니다.)
 모든 Ruby 3.0 사용자는 즉시 Ruby 3.3, 3.2, 3.1로 마이그레이션할 것을 권장합니다.
 
 ## 다운로드
