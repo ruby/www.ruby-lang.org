@@ -13,8 +13,8 @@ Ruby 3.3.1이 릴리스되었습니다.
 자세한 내용은 아래 항목을 참조하세요.
 
 * [CVE-2024-27282: 정규표현식 검색의 임의의 메모리 주소 읽기 취약점]({%link ko/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
-* [CVE-2024-27281: RDoc에서 .rdoc_options 사용 시의 RCE 취약점](https://www.ruby-lang.org/ko/news/2024/03/21/rce-rdoc-cve-2024-27281/)
-* [CVE-2024-27280: StringIO에서 버퍼 초과 읽기 취약점](https://www.ruby-lang.org/ko/news/2024/03/21/buffer-overread-cve-2024-27280/)
+* [CVE-2024-27281: RDoc에서 .rdoc_options 사용 시의 RCE 취약점]({%link ko/news/_posts/2024-03-21-rce-rdoc-cve-2024-27281.md %})
+* [CVE-2024-27280: StringIO에서 버퍼 초과 읽기 취약점]({%link ko/news/_posts/2024-03-21-buffer-overread-cve-2024-27280.md %})
 
 자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_3_1)를 참조하세요.
 
