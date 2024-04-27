@@ -139,6 +139,9 @@ IRB에 여러 개선 사항이 추가됩니다. 다음과 같은 내용이 포�
   Ruby 3.4부터 `it`은 첫 번째 블록 인수를 가리킵니다.
   [[Feature #18980]](https://bugs.ruby-lang.org/issues/18980)
 
+* `Regexp::new` now only accepts up to 2 arguments instead of 3. This was
+   deprecated in Ruby 3.2. [[Bug #18797]](https://bugs.ruby-lang.org/issues/18797)
+
 ### 삭제된 환경 변수
 
 폐기 예정이었던 환경 변수가 삭제됩니다.
