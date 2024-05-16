@@ -19,6 +19,37 @@
 # In order to get the release listed on the downloads page,
 # you also need to add an entry to `_data/downloads.yml'.
 
+# 3.4 series
+
+- version: 3.4.0-preview1
+  date: 2024-05-16
+  post: /en/news/2024/05/16/ruby-3-4-0-preview1-released/
+  tag: v3_4_0_preview1
+  stats:
+    files_changed: 3283
+    insertions: 107449
+    deletions: 115380
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.0-preview1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.0-preview1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.0-preview1.tar.xz
+  size:
+    gz:  22507726
+    zip: 27731060
+    xz:  16709536
+  sha1:
+    gz:  1619cbe06b5a8c774711b3351d18bb0f84f1d017
+    zip: 5d79834050369ea9241d86467bf93e9e89e2ab7a
+    xz:  6041ad2651527d01c36106de3d3cdab680ed3132
+  sha256:
+    gz:  1a3c322e90cb22e5fba0b5d257bb2be9988affa3867eba7642ed981fdde895bb
+    zip: bd2a6c0e8396698e6f6768c00b0f155510859bb6fb92420f7b7abec610e71dbb
+    xz:  4ee4ec44366050d4b2ee1d88034cc63e0b9174a1a6650285777f3d3447213a97
+  sha512:
+    gz:  29c0e32179f7b823b6708f5328e495cd333fe8dd88f7df7d9051deab47add67b14d899bba565bba1a77e1b04c9693d9708541445c112925777bb6891cb7b2b62
+    zip: 36ea6897e6ad769141516f4c1bb18989fbde27a76f0f3abcce947f8b6b79639846ba93907e085181f7d305ab06ad73f1bbb37928049c8c951d33176ee444abbf
+    xz:  4ce306b9beb1e2d88c76d7f809724b66bed17e354c07a2b54aa050fc2035652e4d83deadc8dbf7a375bbdb1c816f2996334bb8e7ff5e6c24b71a858bf6b0cb7c
+
 # 3.3 series
 
 - version: 3.3.1
