@@ -15,10 +15,7 @@ Please try to use a mirror that is near you.
 ### Mirror sites via HTTP
 
 * [CDN][mirror-https-cdn] (fastly.com)
-* Japan (RingServer)
-  * [shibaura-it.ac.jp][mirror-http-jp-ring-shibaura-it]
-  * [u-toyama.ac.jp][mirror-http-jp-ring-u-toyama]
-  * [airnet.ne.jp][mirror-http-jp-ring-airnet]
+* [Japan][mirror-http-jp-ring] (RingServer)
 * [Holland][mirror-http-nl] (XS4ALL) - only release packages
 * [France][mirror-http-fr] (cyberbits.eu)
 * [China 2][mirror-http-cn2] (Ruby China)
@@ -26,10 +23,7 @@ Please try to use a mirror that is near you.
 
 ### Mirror sites via FTP
 
-* Japan (RingServer)
-  * [shibaura-it.ac.jp][mirror-ftp-jp-ring-shibaura-it]
-  * [u-toyama.ac.jp][mirror-ftp-jp-ring-u-toyama]
-  * [airnet.ne.jp][mirror-ftp-jp-ring-airnet]
+* [Japan][mirror-ftp-jp-ring] (RingServer)
 * [Japan 3][mirror-ftp-jp3] (IIJ)
 * [South Korea][mirror-ftp-kr] (Korea FreeBSD Users Group)
 * [Germany][mirror-ftp-de] (FU Berlin)
@@ -41,17 +35,12 @@ Please try to use a mirror that is near you.
 * [South Korea][mirror-rsync-kr] (Korea FreeBSD Users Group)
 
 [mirror-https-cdn]: https://cache.ruby-lang.org/pub/ruby/
-[mirror-http-jp-ring-shibaura-it]: http://ring.shibaura-it.ac.jp/archives/lang/ruby/
-[mirror-http-jp-ring-u-toyama]: http://ring.u-toyama.ac.jp/archives/lang/ruby/
-[mirror-http-jp-ring-airnet]: http://ring.airnet.ne.jp/archives/lang/ruby/
+[mirror-http-jp-ring]: http://www.ring.gr.jp/pub/lang/ruby/
 [mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
 [mirror-http-fr]: https://mirror.cyberbits.eu/ruby/
 [mirror-http-cn2]: https://cache.ruby-china.com/pub/ruby/
 [mirror-http-kr]: http://ftp.kr.freebsd.org/pub/ruby/
-[mirror-ftp-jp-ring-shibaura-it]: ftp://ring.shibaura-it.ac.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-u-toyama]: ftp://ring.u-toyama.ac.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-airnet]: ftp://ring.airnet.ne.jp/pub/lang/ruby/
-[mirror-ftp-jp-ring-maffin]: ftp://ring.maffin.ad.jp/pub/lang/ruby/
+[mirror-ftp-jp-ring]: ftp://ftp.ring.gr.jp/pub/lang/ruby/
 [mirror-ftp-jp3]: ftp://ftp.iij.ad.jp/pub/lang/ruby/
 [mirror-ftp-kr]: ftp://ftp.kr.freebsd.org/pub/ruby/
 [mirror-ftp-de]: ftp://ftp.fu-berlin.de/unix/languages/ruby/
