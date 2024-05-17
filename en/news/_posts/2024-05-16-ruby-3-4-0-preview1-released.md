@@ -51,6 +51,7 @@ Note: Excluding feature bug fixes.
   * Use a single quote instead of a backtick as a opening quote. [[Feature #16495]]
   * Display a class name before a method name (only when the class has a permanent name). [[Feature #19117]]
   * `Kernel#caller`, `Thread::Backtrace::Location`'s methods, etc. are also changed accordingly.
+
   ```
   Old:
   test.rb:1:in `foo': undefined method `time' for an instance of Integer
