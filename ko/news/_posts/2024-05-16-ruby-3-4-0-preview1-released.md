@@ -12,15 +12,15 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
 
 ## 언어 변경
 
-* 파일에 `frozen_string_literal` 코멘트가 없다면, 리터럴 문자열은 이제 얼린 것처럼
-  동작합니다. 해당 문자열이 변경되는 경우에도 폐기 예정 경고는 생략됩니다.
-  이 경고는 `-W:deprecated`나 `Warning[:deprecated] = true` 설정을 통해 출력할 수 있습니다.
+* 파일에 `frozen_string_literal` 주석이 없는 경우, 문자열 리터럴은 이제 얼린 것처럼
+  동작합니다. 해당 문자열이 변경되는 경우에는 폐기 예정 경고가 발생합니다.
+  이 경고는 `-W:deprecated`나 `Warning[:deprecated] = true` 설정을 통해 활성화할 수 있습니다.
   이 변경을 무효화하고 싶다면 Ruby를 실행할 때 `--disable-frozen-string-literal` 커맨드라인 인수를
   사용하세요. [[Feature #20205]]
 
 * 블록 인자를 가리키는 `it`이 추가됩니다. [[Feature #18980]]
 
-* 메서드 호출시에 `nil`에 키워드 스플랫을 지원합니다.
+* 메서드 호출 시에 `nil`에 키워드 스플랫을 지원합니다.
   `**nil`은 `**{}`와 비슷하게 동작하며, 키워드를 넘기지 않으며,
   어떤 변환 메서드도 호출하지 않습니다. [[Bug #20064]]
 
@@ -40,7 +40,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
 
 * Range
 
-  * Range#size는 이제 범위가 열거 가능하지 않다면 TypeError를 던집니다. [[Misc #18984]]
+  * Range#size는 이제 범위가 순회 가능하지 않다면 TypeError를 던집니다. [[Misc #18984]]
 
 
 
@@ -51,7 +51,8 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
 * 에러 메시지와 백트레이스의 출력 결과가 변경됩니다.
   * 인용 시작 부분을 나타내던 백틱 대신 작은 따옴표를 사용합니다. [[Feature #16495]]
   * 메서드 이름 앞에 클래스 이름을 출력합니다(클래스가 불변하는 이름을 가지고 있다면). [[Feature #19117]]
-  * `Kernel#caller`, `Thread::Backtrace::Location`의 메서드들도 마찬가지로 변경됩니다.
+  * `Kernel#caller`, `Thread::Backtrace::Location`의 메서드 등도 마찬가지로 변경됩니다.
+
   ```
   Old:
   test.rb:1:in `foo': undefined method `time' for an instance of Integer
@@ -79,8 +80,8 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
   [[Feature #15554]]
 
 * `String.freeze`나 `Integer#+`처럼 인터프리터와 JIT이 특별히 최적화하는
-  몇몇 코어 메서드를 재정의하면 성능 클래스 경고
-  (`-W:performance`나 `Warning[:performance] = true`)를 출력합니다.
+  몇몇 코어 메서드를 재정의하면 성능 클래스
+  경고(`-W:performance`나 `Warning[:performance] = true`)를 출력합니다.
   [[Feature #20429]]
 
 기본 gem 또는 내장 gem에 대한 자세한 내용은 [Logger](https://github.com/ruby/logger/releases)와 같은
