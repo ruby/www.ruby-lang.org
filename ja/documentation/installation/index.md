@@ -296,6 +296,13 @@ RVM は複数の Ruby のインストールと管理を行うことができま�
 
 RVM をインストールする方法は [rvm.io][rvm] に記述されています。
 
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows]はWindowsにRubyを複数インストールし、管理することができます。
+オリジナルのRVMのクローンであり、オリジナルのRVMと同じコマンドラインインタフェースを提供することで、
+Powershellだけでなく、古典的なコマンドラインもサポートしています。
+
 ### uru
 {: #uru}
 
@@ -323,6 +330,7 @@ $ sudo make install
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv
 [chruby]: https://github.com/postmodern/chruby
 [active-script-ruby]: http://www.artonx.org/data/asr/

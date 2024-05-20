@@ -32,6 +32,7 @@ Wybierz najbardziej odpowiednią.
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
+  * [RVM 4 Windows](#rvm-windows)
 
 
 ## Narzędzia osób trzecich
@@ -65,6 +66,15 @@ systemie. Jest dostępny wyłącznie na system macOS, Linux, lub dowolny system
 bazujący na systemie UNIX.
 
 Po najaktualniejszą instrukcję instalacji RVM zajrzyj na [rvm.io][rvm].
+
+
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] umożliwia instalację i zarządzanie wieloma instalacjami 
+Ruby w systemie Windows. Jest to klon oryginalnego RVM i obsługuje klasyczny wiersz 
+poleceń, a także Powershell, zapewniając ten sam interfejs wiersza poleceń, co 
+oryginalny RVM.
 
 
 ### RubyInstaller
@@ -227,6 +237,7 @@ pomysłem, ponieważ zainstalowany Ruby nie będzie zarządzany przez żadne z n
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
 [sunfreeware]: http://www.sunfreeware.com

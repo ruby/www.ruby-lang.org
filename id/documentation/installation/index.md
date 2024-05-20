@@ -363,6 +363,15 @@ Ruby pada sistem Anda. RVM juga dapat mengatur *gemsets* yang berbeda.
 RVM tersedia untuk macOS, Linux, atau sistem operasi *UNIX-like* lainnya.
 
 
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] memungkinkan Anda untuk menginstal dan mengelola 
+beberapa instalasi Ruby pada Windows. Ini adalah tiruan dari RVM asli dan 
+mendukung baris perintah klasik serta Powershell dengan menyediakan antarmuka 
+baris perintah yang sama dengan RVM asli.
+
+
 ### uru
 {: #uru}
 
@@ -395,6 +404,7 @@ diatur oleh alat bantu apa pun.
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
 [rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme

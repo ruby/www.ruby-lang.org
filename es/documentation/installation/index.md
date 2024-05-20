@@ -352,6 +352,15 @@ También puede manejar varios gemsets. Está disponible para macOS, Linux y otro
 sistemas operativos UNIX.
 
 
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows]  te permite instalar y administrar múltiples 
+instalaciones de Ruby en Windows. Es un clon del RVM original y soporta la línea 
+de comandos clásica así como Powershell proporcionando la misma interfaz de línea 
+de comandos que el RVM original.
+
+
 ### uru
 {: #uru}
 
@@ -380,6 +389,7 @@ ya que las versiones instaladas de esta manera no serán manejadas por ninguna o
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
 [rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme

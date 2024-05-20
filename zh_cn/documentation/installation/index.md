@@ -190,6 +190,12 @@ $ pkg install runtime/ruby
 [RVM][rvm] 能在系统中安装和管理多个 Ruby 版本。同时还能管理不同的 gem 集。支持 macOS、Linux 和其它类 UNIX 操作系统。
 
 
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows]允许您在 Windows 上安装和管理多个 Ruby 安装。它是原始 RVM 的克隆版，通过提供与原始 RVM 相同的命令行界面，支持经典命令行和 Powershell。
+
+
 ### uru
 {: #uru}
 
@@ -213,6 +219,7 @@ $ sudo make install
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
 [rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme

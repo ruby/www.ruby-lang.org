@@ -34,6 +34,7 @@ Scegli il modo più comodo per te.
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
+  * [RVM 4 Windows](#rvm-windows)
 
 
 ## Tool di terze parti
@@ -59,6 +60,15 @@ UNIX-like.
 [RVM][rvm] ti permette di installare e gestire multiple installazioni di Ruby
 sul tuo sistema. Ti permette anche di gestire gemsets differenti.
 È disponibile solo per macOS, Linux, o gli altri sistemi operativi UNIX-like.
+
+
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] consente di installare e gestire installazioni 
+multiple di Ruby su Windows. È un clone dell'RVM originale e supporta la linea 
+di comando classica e Powershell, fornendo la stessa interfaccia della linea 
+di comando dell'RVM originale.
 
 
 ### RubyInstaller
@@ -231,6 +241,7 @@ perchè la versione installata non verrebbe gestita da nessun tool.
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/

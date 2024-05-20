@@ -279,6 +279,15 @@ UNIX-подобных операционных систем.
 Доступен для macOS, Linux и других UNIX-подобных операционных систем.
 
 
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] позволяет устанавливать и управлять несколькими 
+установками Ruby под Windows. Он является клоном оригинального RVM и поддерживает 
+классическую командную строку, а также Powershell, предоставляя тот же интерфейс 
+командной строки, что и оригинальный RVM.
+
+
 ### uru
 {: #uru}
 
@@ -306,6 +315,7 @@ $ sudo make install
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme

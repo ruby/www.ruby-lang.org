@@ -338,6 +338,14 @@ RVM은 다른 gemset도 관리해 줍니다.
 macOS, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 
 
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows]를 사용하면 Windows에 여러 개의 루비 설치를 
+설치하고 관리할 수 있습니다. 이 도구는 원본 RVM의 복제본으로, 원본 RVM과 
+동일한 명령줄 인터페이스를 제공하여 클래식 명령줄은 물론 파워쉘도 지원합니다.
+
+
 ### uru
 {: #uru}
 
@@ -368,6 +376,7 @@ $ sudo make install
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
 [rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme

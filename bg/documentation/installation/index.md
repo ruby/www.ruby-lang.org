@@ -249,6 +249,15 @@ Ruby. Също така позволява и създаването на gemset
 Налично е за macOS, Linux и други UNIX системи.
 
 
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] ви позволява да инсталирате и управлявате множество 
+инсталации на Ruby в Windows. Той е клонинг на оригиналния RVM и поддържа 
+класическия команден ред, както и Powershell, като предоставя същия интерфейс 
+на командния ред като оригиналния RVM.
+
+
 ### uru
 {: #uru}
 
@@ -273,6 +282,7 @@ $ sudo make install
 За да промените това, подайте опцията `--prefix=DIR` към `./configure` скрипта.
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme

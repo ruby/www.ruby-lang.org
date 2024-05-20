@@ -33,6 +33,7 @@ für die gebräuchlichsten Plattformen.
 * Windows
 
   * [RubyInstaller](#rubyinstaller)
+  * [RVM 4 Windows](#rvm-windows)
 
 
 ## Drittanbieter-Werkzeuge
@@ -66,6 +67,15 @@ Es ist verfügbar für macOS, Linux oder andere UNIX-ähnliche Betriebssysteme.
 
 Die aktuellsten Installationsanweisungen für RVM können auf der
 [Installationsseite von RVM][rvm] nachgelesen werden.
+
+
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] ermöglicht es Ihnen, mehrere Installationen von Ruby 
+unter Windows zu installieren und zu verwalten. Es ist ein Klon des ursprünglichen 
+RVM und unterstützt sowohl die klassische Kommandozeile als auch Powershell, 
+indem es die gleiche Kommandozeilenschnittstelle wie das ursprüngliche RVM bietet.
 
 
 ### RubyInstaller
@@ -246,6 +256,7 @@ verwaltet wird.
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
 [railsinstaller]: http://railsinstaller.org/
