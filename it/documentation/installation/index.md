@@ -65,9 +65,9 @@ sul tuo sistema. Ti permette anche di gestire gemsets differenti.
 ### RVM 4 Windows
 {: #rvm-windows}
 
-[RVM 4 Windows][rvm-windows] consente di installare e gestire installazioni 
-multiple di Ruby su Windows. È un clone dell'RVM originale e supporta la linea 
-di comando classica e Powershell, fornendo la stessa interfaccia della linea 
+[RVM 4 Windows][rvm-windows] consente di installare e gestire installazioni
+multiple di Ruby su Windows. È un clone dell'RVM originale e supporta la linea
+di comando classica e Powershell, fornendo la stessa interfaccia della linea
 di comando dell'RVM originale.
 
 

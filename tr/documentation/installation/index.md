@@ -324,9 +324,9 @@ Linux, ve diğer UNIX benzeri işletim sistemlerinde kullanılabilir.
 ### RVM 4 Windows
 {: #rvm-windows}
 
-[RVM 4 Windows][rvm-windows] Windows üzerinde Ruby'nin birden fazla kurulumunu 
-yüklemenizi ve yönetmenizi sağlar. Orijinal RVM'nin bir klonudur ve orijinal RVM 
-ile aynı komut satırı arayüzünü sağlayarak klasik komut satırının yanı sıra 
+[RVM 4 Windows][rvm-windows] Windows üzerinde Ruby'nin birden fazla kurulumunu
+yüklemenizi ve yönetmenizi sağlar. Orijinal RVM'nin bir klonudur ve orijinal RVM
+ile aynı komut satırı arayüzünü sağlayarak klasik komut satırının yanı sıra
 Powershell'i de destekler.
 
 

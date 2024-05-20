@@ -256,9 +256,9 @@ macOS, Linux ou outros sistemas operacionais do tipo UNIX.
 ### RVM 4 Windows
 {: #rvm-windows}
 
-O [RVM 4 Windows][rvm-windows] permite-lhe instalar e gerir múltiplas 
-instalações de Ruby no Windows. É um clone do RVM original e suporta 
-a linha de comando clássica, bem como o Powershell, fornecendo a mesma 
+O [RVM 4 Windows][rvm-windows] permite-lhe instalar e gerir múltiplas
+instalações de Ruby no Windows. É um clone do RVM original e suporta
+a linha de comando clássica, bem como o Powershell, fornecendo a mesma
 interface de linha de comando que o RVM original.
 
 

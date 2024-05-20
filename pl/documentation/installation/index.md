@@ -71,9 +71,9 @@ Po najaktualniejszą instrukcję instalacji RVM zajrzyj na [rvm.io][rvm].
 ### RVM 4 Windows
 {: #rvm-windows}
 
-[RVM 4 Windows][rvm-windows] umożliwia instalację i zarządzanie wieloma instalacjami 
-Ruby w systemie Windows. Jest to klon oryginalnego RVM i obsługuje klasyczny wiersz 
-poleceń, a także Powershell, zapewniając ten sam interfejs wiersza poleceń, co 
+[RVM 4 Windows][rvm-windows] umożliwia instalację i zarządzanie wieloma instalacjami
+Ruby w systemie Windows. Jest to klon oryginalnego RVM i obsługuje klasyczny wiersz
+poleceń, a także Powershell, zapewniając ten sam interfejs wiersza poleceń, co
 oryginalny RVM.
 
 

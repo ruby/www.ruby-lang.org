@@ -72,9 +72,9 @@ Die aktuellsten Installationsanweisungen für RVM können auf der
 ### RVM 4 Windows
 {: #rvm-windows}
 
-[RVM 4 Windows][rvm-windows] ermöglicht es Ihnen, mehrere Installationen von Ruby 
-unter Windows zu installieren und zu verwalten. Es ist ein Klon des ursprünglichen 
-RVM und unterstützt sowohl die klassische Kommandozeile als auch Powershell, 
+[RVM 4 Windows][rvm-windows] ermöglicht es Ihnen, mehrere Installationen von Ruby
+unter Windows zu installieren und zu verwalten. Es ist ein Klon des ursprünglichen
+RVM und unterstützt sowohl die klassische Kommandozeile als auch Powershell,
 indem es die gleiche Kommandozeilenschnittstelle wie das ursprüngliche RVM bietet.
 
 

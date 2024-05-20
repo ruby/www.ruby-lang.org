@@ -276,9 +276,9 @@ systèmes basés sur UNIX.
 ### RVM 4 Windows
 {: #rvm-windows}
 
-[RVM 4 Windows][rvm-windows] permet d'installer et de gérer plusieurs installations 
-de Ruby sous Windows. C'est un clone du RVM original qui supporte la ligne de commande 
-classique ainsi que Powershell en fournissant la même interface de ligne de commande 
+[RVM 4 Windows][rvm-windows] permet d'installer et de gérer plusieurs installations
+de Ruby sous Windows. C'est un clone du RVM original qui supporte la ligne de commande
+classique ainsi que Powershell en fournissant la même interface de ligne de commande
 que le RVM original.
 
 ### uru
