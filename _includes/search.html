@@ -1,8 +1,12 @@
-{% if site.data.locales[page.lang].search %}
-  {% assign cx_id = site.data.locales[page.lang].search.cx_id %}
+{% if site.data.locales[page.lang].search.text %}
   {% assign text = site.data.locales[page.lang].search.text %}
 {% else %}
   {% assign text = site.data.locales['en'].search.text %}
+{% endif%}
+{% if site.data.locales[page.lang].search.cx_id %}
+  {% assign cx_id = site.data.locales[page.lang].search.cx_id %}
+{% else %}
+  {% assign cx_id = site.data.locales['en'].search.cx_id %}
 {% endif%}
 <form id="search-form" action="https://www.google.com/cse">
   <table class="fieldset">
