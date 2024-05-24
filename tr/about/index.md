@@ -165,13 +165,8 @@ bahsedilmiştir:
 * İşletim sistemi izin verdiği sürece harici dinamik kütüphaneler
   yükleyebilirsiniz.
 
-* Ruby işletim sisteminden bağımsız iş parçacığı özelliği sunar.Yani
-  işletim sisteminin desteklemesine bakmaksızın, MS-DOS üzerinde olsanız
-  bile çoklu iş parçacıkları kullanabilirsiniz!
-
 * Ruby yüksek taşınabilirliğe sahiptir. GNU/Linux üzerinde geliştirilmiş
-  olsa dahi, UNIX’in bir çok çeşidi, macOS,
-  Windows, DOS, BeOS, OS/2, vb. üzerinde çalışmaktadır.
+  olsa dahi, UNIX’in bir çok çeşidi, macOS ve Windows üzerinde çalışmaktadır.
 
 ### Ruby'nin Diğer Gerçeklemeleri
 
@@ -187,9 +182,6 @@ Bunlar belirli durumlarda kullanışlıdır, diğer dil ya da ortamlara fazladan
 * [TruffleRuby][truffleruby], GraalVM'in üstünde çalışan yüksek performanslı bir Ruby gerçeklemesidir.
 * [mruby][mruby], bir uygulamaya bağlanıp gömülebilen hafif bir Ruby gerçeklemesidir.
   Geliştirilmesine Ruby'nin yaratıcısı Yukihiro “Matz” Matsumoto tarafından önderlik edilmektedir.
-* [IronRuby][ironruby], “.NET Web Çatısı'yla sıkı sıkıya bağlı” bir gerçeklemedir.
-* [MagLev][maglev], “bütünleşik nesne sürekliliği ve dağıtılmış paylaşılan önbellekli hızlı, kararlı bir Ruby gerçeklemesidir”.
-* [Cardinal][cardinal], [Parrot][parrot] Sanal Makinesi için bir Ruby derleyicisidir” (Perl 6).
 
 Daha tam bir liste için, [Müthiş Ruby'ler][awesome-rubies]e bakın.
 
@@ -213,11 +205,7 @@ Daha tam bir liste için, [Müthiş Ruby'ler][awesome-rubies]e bakın.
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: https://github.com/rubinius/rubinius
 [truffleruby]: https://github.com/oracle/truffleruby
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org
 [awesome-rubies]: https://github.com/planetruby/awesome-rubies

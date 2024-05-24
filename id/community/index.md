@@ -61,7 +61,7 @@ untuk memulai petualangan Anda:
   Indonesia, baik yang bertempat tinggal di seluruh penjuru Indonesia,
   juga orang Indonesia yang sedang tinggal di luar negeri). Berdiskusi
   tentang Ruby berikut semua varian-varian Ruby (seperti JRuby,
-  Rubinius, XRuby, IronRuby, dan lain sebagainya) termasuk juga
+  Rubinius, XRuby, dan lain sebagainya) termasuk juga
   aplikasi-aplikasi yang dibuat dengan Ruby seperti Rails. Anda bisa
   bergabung ke grup [Slack][ruby-id-slack] Ruby Indonesia untuk saling berbagi
   dengan komunitas.

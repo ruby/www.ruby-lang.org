@@ -177,13 +177,8 @@ Ruby posiada bogactwo innych właściwości, niektóre z nich to:
 * Jeśli system operacyjny na to pozwala, Ruby pozwala na dynamiczne
   ładowanie bibliotek.
 
-* Ruby posiada wątki, które są niezależne od systemu operacyjnego. To
-  znaczy, że są one dostępne na każdej platformie, niezależnie od tego,
-  czy sama platforma wspiera wątki, można ich używać nawet w MS-DOS!
-
 * Ruby jest bardzo przenośny: rozwijany głównie na platformie GNU/Linux,
-  ale może być używany na wielu typach UNIXów, macOS,
-  Windows, DOS, BeOS, OS/2, itd.
+  ale może być używany na wielu typach UNIXów, macOS, Windows, itd.
 
 ### Inne implementacje Rubiego
 
@@ -203,12 +198,6 @@ Tu jest lista:
   języki.
 * [mruby][mruby] jest lekką implementacją języka Ruby, która może być połączona
   i osadzona w aplikacji.
-+  Its development is lead by Ruby’s creator Yukihiro “Matz” Matsumoto.
-* [IronRuby][ironruby] jest implementacją “ściśle zintegrowaną z frameworkiem .NET”.
-* [MagLev][maglev] jest “szybką, stabilną, implementacją Rubiego ze zintegrowaną
-  trwałością obiektów i rozproszonym wpsółdzielonym cachem”.
-* [Cardinal][cardinal] jest “kompilatorem Rubiego dla [Parrot][parrot] Virtual Machine”
-  (Perl 6).
 
 ### Odnośniki
 
@@ -231,9 +220,5 @@ Tu jest lista:
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: https://github.com/rubinius/rubinius
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

@@ -153,11 +153,8 @@ Rubyは次に示すような豊富な機能を持っています。
 
 * OSが許すなら、Rubyは動的なライブラリ拡張をロードすることもできます。
 
-* RubyはOSに依存しないスレッド機構を備えています。これによって、Rubyが動作するすべてのプラットフォーム上で、
-  OSのサポートなしに(MS-DOSだとしても！)マルチスレッド処理を扱えます。
-
 * Rubyにはとても高い可搬性があります。Rubyは主にGNU/Linux上で開発されていますが、
-  UNIX、macOS、Windows、DOS、BeOS、OS/2など、多くのOSで動作します。
+  UNIX、macOS、Windows、多くのOSで動作します。
 
 ### さまざまなRuby処理系
 
@@ -173,13 +170,6 @@ MRI以外のRuby処理系には以下のようなものがあります。
   JVMの最適化されたJITコンパイラやGC、並行スレッド、ツール群、そして膨大なコレクションのライブラリを使うことができます。
 * [mruby][mruby]はRubyの軽量実装です。アプリケーションにリンクし、組み込むことができます。Rubyの作者であるまつもと ゆきひろ氏によって開発が進められています。
 * [truffleruby][truffleruby]はGraalVM上に構築された高速なRuby実装です。
-
-#### 以下のバージョンはここ数年ほとんどまたは全く更新されていませんが、引き続き利用可能です。
-
-* [Rubinius][rubinius]は「Rubyで書かれたRuby」です。LLVM上に構築されています。LLVMは他の言語も構築されるよくできた仮想マシンです。
-* [IronRuby][ironruby]は、.Netフレームワークにしっかりと統合されたRuby処理系です。
-* [MagLev][maglev]は、オブジェクトの永続化と分散共有キャッシュを持った、高速で安定したRuby処理系です。
-* [Cardinal][cardinal]はPerl6用の仮想マシンである[Parrot][parrot]上のRubyコンパイラです。
 
 ### 参照リンク
 
@@ -200,10 +190,5 @@ MRI以外のRuby処理系には以下のようなものがあります。
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
 [mruby]: http://www.mruby.org/
 [truffleruby]: https://github.com/oracle/truffleruby
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org
