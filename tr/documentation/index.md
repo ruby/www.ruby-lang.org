@@ -176,5 +176,5 @@ olacaktır.
 [atom]: https://atom.io/
 [vscode]: https://code.visualstudio.com/
 [ruby-kullanici-kilavuzu]: http://www.belgeler.org/uygulamalar/ruby/ruby-ug.html
-[ruby-101-kitabi]: https://vigo.gitbooks.io/ruby-101/
+[ruby-101-kitabi]: https://vigo.github.io/ruby101-kitap/
 [ab2014-ruby-notlari]: https://github.com/leylaKapi/AB2014-Ruby-Programlama-Dili/blob/master/Ruby_AB2014.md
