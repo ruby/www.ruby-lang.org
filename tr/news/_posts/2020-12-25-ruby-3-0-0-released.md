@@ -46,7 +46,7 @@ Yukarıda anlatılan performans artışı ile birlikte, Ruby 3.0 aşağıda anla
 Birçok iyileştirme MJIT'te gerçeklenmiştir.
 Ayrıntılar için NEWS'e bakınız.
 
-Ruby 3.0 itibariyle, JIT'in sınırlı işyüklerinde performans iyileştirmeleri vermesi gerekiyor; oyunlar ([Optcarrot](https://github.com/mame/optcarrot)), yapay zeka ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)) ya da zamanının çoğunu birkaç metodu birçok kez çağırarak geçiren herhangi bir uygulama gibi.
+Ruby 3.0 itibariyle, JIT'in sınırlı işyüklerinde performans iyileştirmeleri vermesi gerekiyor; oyunlar ([Optcarrot](https://github.com/mame/optcarrot)), yapay zeka ([Rubykon](https://github.com/benchmark-driver)) ya da zamanının çoğunu birkaç metodu birçok kez çağırarak geçiren herhangi bir uygulama gibi.
 
 
 Ruby 3.0 [JIT'lenmiş kodun boyutunu önemli ölçüde düşürmüş olsa da](https://twitter.com/k0kubun/status/1256142302608650244), Rails gibi optimize eden işyükleri için hala hazır değildir.
