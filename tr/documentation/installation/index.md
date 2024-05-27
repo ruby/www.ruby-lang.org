@@ -366,7 +366,7 @@ olabilir, çünkü kurulan Ruby herhangi bir araç tarafından yönetilmeyecekti
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /tr/downloads/
 [installers]: /tr/documentation/installation/#installers
-[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[github-ruby]: https://github.com/ruby/ruby
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby

@@ -22,8 +22,6 @@ Matz ve bir grup oturum katılımcısı Fukuoka Yarışmasının kazananlarını
 Fukuoka Yarışması için büyük ödül 1 milyon yen'dir.
 Önceki büyük ödül sahipleri arasında Rhomobile (ABD) ve APEC İklim Merkezi (Kore) bulunmaktadır.
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
-
 Yarışmaya giren programlar tümüyle Ruby ile yazılmak zorunda değildir fakat Ruby'nin eşsiz karakteristiklerinden faydalanmalıdır.
 
 Projeler, değerlendirmeye alınabilmeleri için, son 12 ayda geliştirilmiş ya da tamamlanmış olmalıdır.

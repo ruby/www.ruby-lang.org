@@ -27,4 +27,3 @@ Ayrıca kendi Ruby podcast'inizi başlatıp bu listeye ekleyebilirsiniz.
 
 [rorpodcast]: https://www.therubyonrailspodcast.com
 [rogues]: https://rubyrogues.com
-[yakut]: https://yakutrb.com/

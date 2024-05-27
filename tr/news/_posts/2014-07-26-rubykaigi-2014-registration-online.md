@@ -51,7 +51,7 @@ gelen Rubyciler için mükemmel bir ortam sağlayacağız.
 ## Daha fazla bilgi için:
 
 * [http://rubykaigi.org/2014](http://rubykaigi.org/2014)
-* [http://blog.rubykaigi.org](http://blog.rubykaigi.org)
+* [https://rubykaigi.org](https://rubykaigi.org)
 * [@rubykaigi](https://twitter.com/rubykaigi)
 * [http://lanyrd.com/2014/rubykaigi/](http://lanyrd.com/2014/rubykaigi)
 
