@@ -17,7 +17,7 @@ Ruby 3.0.0'ın yayınlandığını duyurmaktan memnuniyet duyuyoruz.
 
 NES'in oyun emulasyonu işyükü temelli tek threadde performansı ölçen [Optcarrot kıyaslaması](https://github.com/mame/optcarrot) ile Ruby3, Ruby 2.0'dan 3 kat daha hızlı olduğunu kanıtladı!
 <details>
-  Bunlar şurada not edilen ortama göre ölçülmüştür: [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html)
+  Bunlar şurada not edilen ortama göre ölçülmüştür: [benchmark-driver.github.io/hardware.html](https://github.com/benchmark-driver/benchmark-driver)
   [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095), Ruby 3.0 olarak kullanıldı.
   Ortamınıza ya da kıyaslamanıza göre 3 kat hız ölçemeyebilirsiniz.
 </details>
@@ -46,7 +46,7 @@ Yukarıda anlatılan performans artışı ile birlikte, Ruby 3.0 aşağıda anla
 Birçok iyileştirme MJIT'te gerçeklenmiştir.
 Ayrıntılar için NEWS'e bakınız.
 
-Ruby 3.0 itibariyle, JIT'in sınırlı işyüklerinde performans iyileştirmeleri vermesi gerekiyor; oyunlar ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), yapay zeka ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)) ya da zamanının çoğunu birkaç metodu birçok kez çağırarak geçiren herhangi bir uygulama gibi.
+Ruby 3.0 itibariyle, JIT'in sınırlı işyüklerinde performans iyileştirmeleri vermesi gerekiyor; oyunlar ([Optcarrot](https://github.com/mame/optcarrot)), yapay zeka ([Rubykon](https://github.com/benchmark-driver)) ya da zamanının çoğunu birkaç metodu birçok kez çağırarak geçiren herhangi bir uygulama gibi.
 
 
 Ruby 3.0 [JIT'lenmiş kodun boyutunu önemli ölçüde düşürmüş olsa da](https://twitter.com/k0kubun/status/1256142302608650244), Rails gibi optimize eden işyükleri için hala hazır değildir.

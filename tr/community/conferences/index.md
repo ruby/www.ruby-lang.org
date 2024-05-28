@@ -69,5 +69,5 @@ Ayrıca Ruby Central'in [RailsConf][12]'u, RailsConf Avrupa (2006'da Ruby Centra
 [14]: http://www.skillsmatter.com
 [16]: http://steelcityruby.org/
 [19]: http://goruco.com/
-[20]: http://www.deccanrubyconf.org/
+[20]: https://github.com/deccanrubyconf
 [21]: https://southeastruby.com/

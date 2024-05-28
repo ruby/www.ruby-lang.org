@@ -67,6 +67,6 @@ Genel Ruby Kaynakları
 
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-opendir]: https://dmoztools.net
+[rails-opendir]: https://dmoztools.net
 [ruby-turkiye-slack]: https://rubytr.herokuapp.com/
