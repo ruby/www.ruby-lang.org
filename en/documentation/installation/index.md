@@ -406,7 +406,7 @@ though, because the installed Ruby won't be managed by any tools.
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /en/downloads/
 [installers]: /en/documentation/installation/#installers
-[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[github-ruby]: https://github.com/ruby/ruby
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby

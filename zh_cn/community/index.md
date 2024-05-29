@@ -39,6 +39,4 @@ Ruby 的一般信息
 
 
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
 [ruby-china]: https://ruby-china.org

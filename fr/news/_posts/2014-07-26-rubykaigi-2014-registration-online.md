@@ -56,7 +56,7 @@ accès à une réduction sur le prix de votre ticket de convention.
 ## Pour plus d'informations:
 
 * [http://rubykaigi.org/2014](http://rubykaigi.org/2014)
-* [http://blog.rubykaigi.org](http://blog.rubykaigi.org)
+* [https://rubykaigi.org](https://rubykaigi.org)
 * [@rubykaigi](https://twitter.com/rubykaigi)
 * [http://lanyrd.com/2014/rubykaigi/](http://lanyrd.com/2014/rubykaigi)
 

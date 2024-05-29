@@ -185,4 +185,3 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

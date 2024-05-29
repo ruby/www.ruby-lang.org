@@ -25,7 +25,6 @@ auswählen; der Große Preis ist mit einer Million Yen (ca. 7.300 €)
 dotiert. Frühere Preisträger waren unter anderem Rhomobile (USA) und
 das APEC Climate Center (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Die zum Wettbwerb eingereichten Programme müssen nicht gänzlich in Ruby
 geschrieben sein, sollten aber Gebrauch von Rubys einzigartigen

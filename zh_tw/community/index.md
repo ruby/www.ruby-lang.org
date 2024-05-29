@@ -47,5 +47,3 @@ Ruby 的一般消息
 [railsfun]: http://railsfun.tw/index.php
 
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

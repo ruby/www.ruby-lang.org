@@ -35,7 +35,7 @@ gem install rdoc
 
 ## Remerciements
 
-Merci à [Alexandr Savca](https://hackerone.com/chinarulezzz) d'avoir signalé cette faille.
+Merci à [Alexandr Savca](https://hackerone.com/sighook) d'avoir signalé cette faille.
 
 ## Historique
 

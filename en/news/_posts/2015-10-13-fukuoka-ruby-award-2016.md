@@ -22,7 +22,6 @@ Matz and a group of panelists will select the winners of the Fukuoka Competition
 The grand prize for the Fukuoka Competition is 1 million yen.
 Past grand prize winners include Rhomobile (USA) and APEC Climate Center (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Programs entered in the competition do not have to be written entirely in Ruby
 but should take advantage of the unique characteristics of Ruby.

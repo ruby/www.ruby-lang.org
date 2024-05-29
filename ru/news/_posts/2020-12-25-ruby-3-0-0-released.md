@@ -13,7 +13,7 @@ lang: ru
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-С помощью [бенчмарка Optcarrot](https://github.com/mame/optcarrot), который замеряет скорость одного потока на примере эмуляции NES игры, мы достигли трехкратного ускорения производительности по сравнению с Ruby 2.0! <details>Замеры производились в окружении, описанном в [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) стал отметкой Ruby 3.0. В вашем окружении или бенчмарке результат может быть не трехкратным.</details>
+С помощью [бенчмарка Optcarrot](https://github.com/mame/optcarrot), который замеряет скорость одного потока на примере эмуляции NES игры, мы достигли трехкратного ускорения производительности по сравнению с Ruby 2.0! <details>Замеры производились в окружении, описанном в [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) стал отметкой Ruby 3.0. В вашем окружении или бенчмарке результат может быть не трехкратным.</details>
 
 Ruby 3.0.0 включает в себя следующие цели
 * Производительность
@@ -35,7 +35,7 @@ Ruby 3.0.0 включает в себя следующие цели
 
 Многие улучшения были реализованы в MJIT. См. NEWS.
 
-В Ruby версии 3.0 подразумевается, что JIT улучшит производительность в некоторых задачах, таких как игры ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), ИИ ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)) или любое другое приложение, которое тратит большую часть времени вызывая одни и те же методы много раз.
+В Ruby версии 3.0 подразумевается, что JIT улучшит производительность в некоторых задачах, таких как игры ([Optcarrot](https://github.com/mame/optcarrot)), ИИ ([Rubykon](https://github.com/benchmark-driver)) или любое другое приложение, которое тратит большую часть времени вызывая одни и те же методы много раз.
 
 Не смотря на то, что Ruby 3.0 [значительно уменьшил размер JIT кода](https://twitter.com/k0kubun/status/1256142302608650244), он все еще не готов к оптимизации таких задач, как Rails, где так много методов, что происходит промах в i-cache, особенно при JIT. Следите за новостями о дальнейших улучшениях в Ruby 3.1 на этот счет.
 

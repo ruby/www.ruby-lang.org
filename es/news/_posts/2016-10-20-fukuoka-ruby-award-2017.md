@@ -23,7 +23,6 @@ Matz y un grupo de panelistas eligirán a los ganadores de la Fukuoka Competitio
 El gran premio para Fukuoka Competition es de un millón de yens.
 Ganadores anteriores de este premio incluyen a Rhomobile (EUA) y APEC Climate Center (Corea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Los programas inscritos a la competencia no necesitan ser escritos completamente en Ruby
 pero deben aprovechar las características únicas de Ruby.

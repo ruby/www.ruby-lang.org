@@ -32,7 +32,7 @@ yang seharusnya privat dan tidak boleh terbuka (contohnya, penyerang melakukan
 
 ## Rujukan
 
-Terima kasih kepada [Alexandr Savca](https://hackerone.com/chinarulezzz) yang
+Terima kasih kepada [Alexandr Savca](https://hackerone.com/sighook) yang
 telah melaporkan kerentanan ini.
 
 ## Riwayat

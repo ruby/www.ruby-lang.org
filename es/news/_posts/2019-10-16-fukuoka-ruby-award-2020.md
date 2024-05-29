@@ -24,7 +24,6 @@ Fukuoka.  El premio mayor de la Compentencia Fukuoka es de 1 millón de yenes.
 Los ganadores del premio mayor en versiones anteriores incluyen a
 Rhomobile (USA) y Centro de Clima APEC (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Los programas que ingresen a la competencia no tienen que estar escritos
 enteramente en Ruby, pero debo aprovechar las características únicas de Ruby.

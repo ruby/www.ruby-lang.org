@@ -60,5 +60,3 @@ Ruby의 장점, 특징에 대한 설명에서 빠지지 않고 등장하는 것�
 
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

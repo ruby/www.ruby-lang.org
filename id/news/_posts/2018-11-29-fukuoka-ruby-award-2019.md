@@ -23,7 +23,6 @@ Matz dan sebuah grup panelis akan memilih pemenang kompetisi ini. Hadiah utama
 dari kompetisi ini adalah 1 juta Yen. Hadiah pemenang sebelumnya termasuk
 *Rhomobile* (USA) dan APEC *Climate Center* (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Program-program yang masuk di kompetisi ini tidak harus sepenuhnya ditulis
 dalam bahasa Ruby, tetapi harus mengambil kemudahan dari karakteristik unik

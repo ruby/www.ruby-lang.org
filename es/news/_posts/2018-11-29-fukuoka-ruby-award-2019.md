@@ -21,7 +21,6 @@ Fecha límite para participar: Enero 31, 2019
 
 Matz y un grupo de panelistas elegirán los ganadores de la Competencia Fukuoka.  El premio mayor de la Competencia Fukuoka es 1 millon de yenes.  Los ganadores del premio mayor anteriores incluyen a Rhomobile (USA) y al Centro Climático APEC (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Los programas que entren en la competencia no tiene que estar escritos enteramente en Ruby pero deben aprovechar las ventajas de las características únicas de Ruby.
 

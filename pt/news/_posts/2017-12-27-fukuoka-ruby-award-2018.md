@@ -24,7 +24,6 @@ Fukuoka Competition. O grande prêmio da Fukuoka Competition
 é 1 milhão de ienes. Vencedores anteriores incluem Rhomobile (USA)
 e APEC Climate Center (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Programas inscritos na competição não necessariamente precisam ser escritos inteiramente
 em Ruby, mas devem utilizar como vantagem alguma característica única de Ruby.

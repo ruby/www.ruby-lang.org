@@ -23,7 +23,6 @@ premio è di 1 milione di yen (circa 7500 euro).
 Tra i vincitori delle edizioni passate ci sono Rhomobile (USA) e APEC Climate
 Center (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Le applicazioni proposte a questo concorso non dovranno essere state scritte
 interamente in Ruby, ma dovrebbero trarre vantaggio delle peculiarità di questo

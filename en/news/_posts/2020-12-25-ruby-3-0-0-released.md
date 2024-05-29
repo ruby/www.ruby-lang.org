@@ -13,7 +13,7 @@ We are pleased to announce the release of Ruby 3.0.0. From 2015 we developed har
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-With [Optcarrot benchmark](https://github.com/mame/optcarrot), which measures single thread performance based on NES's game emulation workload, it achieved 3x faster performance than Ruby 2.0! <details>These were measured at the environment noted in [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) was used as Ruby 3.0. It may not be 3x faster depending on your environment or benchmark.</details>
+With [Optcarrot benchmark](https://github.com/mame/optcarrot), which measures single thread performance based on NES's game emulation workload, it achieved 3x faster performance than Ruby 2.0! <details>These were measured at the environment noted in [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) was used as Ruby 3.0. It may not be 3x faster depending on your environment or benchmark.</details>
 
 Ruby 3.0.0 covers those goals by
 * Performance
@@ -35,7 +35,7 @@ With the above performance improvement, Ruby 3.0 introduces several new features
 
 Many improvements were implemented in MJIT. See NEWS for details.
 
-As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends the majority of time in calling a few methods many times.
+As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://github.com/mame/optcarrot)), AI ([Rubykon](https://github.com/benchmark-driver)), or whatever application that spends the majority of time in calling a few methods many times.
 
 Although Ruby 3.0 [significantly decreased the size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffer from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
 

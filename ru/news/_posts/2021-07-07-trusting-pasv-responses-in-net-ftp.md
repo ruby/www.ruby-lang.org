@@ -29,7 +29,7 @@ net-ftp является встроенным гемом Ruby 3.0.1, но т.к.
 
 ## Авторство
 
-Благодарим [Alexandr Savca](https://hackerone.com/chinarulezzz) за сообщение о проблеме.
+Благодарим [Alexandr Savca](https://hackerone.com/sighook) за сообщение о проблеме.
 
 ## История
 

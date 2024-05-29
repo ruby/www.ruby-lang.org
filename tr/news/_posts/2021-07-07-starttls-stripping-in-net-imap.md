@@ -27,7 +27,7 @@ Net::IMAP, StartTLS başarısız olduğunda bir istisna yükseltmemektedir, ki b
 
 ## Teşekkürler
 
-[Alexandr Savca](https://hackerone.com/chinarulezzz)'ya bu zaafiyeti bildirdiği için teşekkür ederiz.
+[Alexandr Savca](https://hackerone.com/sighook)'ya bu zaafiyeti bildirdiği için teşekkür ederiz.
 
 ## Geçmiş
 

@@ -39,7 +39,7 @@ Eğer bundler kullanıyorsanız, lütfen `gem "rdoc", ">= 6.3.1"` satırını `G
 
 ## Teşekkürler
 
-Bu sorunu bildirdiği için [Alexandr Savca](https://hackerone.com/chinarulezzz)'ya teşekkür ederiz.
+Bu sorunu bildirdiği için [Alexandr Savca](https://hackerone.com/sighook)'ya teşekkür ederiz.
 
 ## Geçmiş
 

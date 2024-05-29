@@ -77,5 +77,3 @@ Allgemeine Information zu Ruby
 
 
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

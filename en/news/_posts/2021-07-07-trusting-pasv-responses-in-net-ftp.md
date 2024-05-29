@@ -30,7 +30,7 @@ and service banner extractions).
 
 ## Credits
 
-Thanks to [Alexandr Savca](https://hackerone.com/chinarulezzz) for reporting the issue.
+Thanks to [Alexandr Savca](https://hackerone.com/sighook) for reporting the issue.
 
 ## History
 

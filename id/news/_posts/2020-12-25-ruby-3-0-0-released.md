@@ -20,7 +20,7 @@ cepat dibanding Ruby2" yang juga dikenal dengan
 Dengan [Optcarrot benchmark](https://github.com/mame/optcarrot), yang mengukur
 kinerja *single thread* berdasarkan beban kerja NES's *game emulation*, kinerja
 Ruby 3.0 mencapai 3x lebih cepat dibanding Ruby 2.0! <details>Ini dihitung pada
-*environment* yang dicatat dalam [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095)
+*environment* yang dicatat dalam [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095)
 yang digunakan sebagai *benchmark* ini. Kinerja mungkin tidak 3x lebih cepat
 karena bergantung pada *environment* atau *benchmark* Anda.</details>
 
@@ -52,8 +52,8 @@ detail.
 
 Pada Ruby 3.0, JIT seharusnya memberikan perbaikan kinerja pada beban kerja
 terbatas, seperti permainan
-([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)),
-AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)),
+([Optcarrot](https://github.com/mame/optcarrot)),
+AI ([Rubykon](https://github.com/benchmark-driver)),
 atau aplikasi apapun yang mayoritas menghabiskan waktu saat memanggil beberapa
 *method* berkali-kali.
 

@@ -13,7 +13,7 @@ lang: zh_tw
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-從 [Optcarrot 指標](https://github.com/mame/optcarrot)（量測了單線程在 NES 遊戲模擬器的效能）來看，我們得到了比 Ruby 2.0 高三倍的效能！<details>在這裡 [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html) 所記載的硬體環境下實測。Ruby 3.0 測的是這個 [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095)。但在你的機器上跑起來可能沒有三倍快。</details>
+從 [Optcarrot 指標](https://github.com/mame/optcarrot)（量測了單線程在 NES 遊戲模擬器的效能）來看，我們得到了比 Ruby 2.0 高三倍的效能！<details>在這裡 [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark) 所記載的硬體環境下實測。Ruby 3.0 測的是這個 [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095)。但在你的機器上跑起來可能沒有三倍快。</details>
 
 Ruby 3.0.0 達成各項目標的功能
 * 效能

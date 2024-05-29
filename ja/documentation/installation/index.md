@@ -333,7 +333,7 @@ $ sudo make install
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
-[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[github-ruby]: https://github.com/ruby/ruby
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [wsl]: https://learn.microsoft.com/ja-jp/windows/wsl/about
 [ruby-build]: https://github.com/rbenv/ruby-build#readme

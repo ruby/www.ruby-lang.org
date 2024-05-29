@@ -51,7 +51,7 @@ JA -> EN 통역이 있습니다! 세계 각국에서 온 루비스트를 위해 
 ## 더 자세한 정보:
 
 * [http://rubykaigi.org/2014](http://rubykaigi.org/2014)
-* [http://blog.rubykaigi.org](http://blog.rubykaigi.org)
+* [https://rubykaigi.org](https://rubykaigi.org)
 * [@rubykaigi](https://twitter.com/rubykaigi)
 * [http://lanyrd.com/2014/rubykaigi/](http://lanyrd.com/2014/rubykaigi)
 

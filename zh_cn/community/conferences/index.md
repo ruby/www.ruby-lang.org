@@ -77,4 +77,4 @@ Ruby 相关的内容都在逐年增加。许多研讨会都以 [Ruby on Rails][1
 [17]: http://ruby.onales.com/
 [18]: http://burlingtonrubyconference.com
 [19]: http://goruco.com/
-[20]: http://www.deccanrubyconf.org/
+[20]: https://github.com/deccanrubyconf

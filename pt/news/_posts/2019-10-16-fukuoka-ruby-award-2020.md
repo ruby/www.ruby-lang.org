@@ -19,7 +19,6 @@ Prazo para inscrição: 11 de dezembro de 2019
 
 Matz e um grupo de painelistas selecionarão os(as) vencedores(as) da Fukuoka Competition. O grande prêmio da Fukuoka Competition será 1 milhão de ienes. Ganhedores anteriores incluem Rhomobile (USA) e APEC Climate Center (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Programas inscritos na competição não precisam ser escritos inteiramente em Ruby, mas deve se aproveitar das características únicas de Ruby.
 

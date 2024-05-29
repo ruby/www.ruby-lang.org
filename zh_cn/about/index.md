@@ -152,4 +152,3 @@ Ruby 还有其他众多特性，下面列举一些：
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

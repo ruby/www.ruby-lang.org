@@ -26,7 +26,7 @@ Un serveur FTP malveillant peut utiliser la réponse PASV pour tromper Net::FTP 
 
 ## Remerciements
 
-Merci à [Alexandr Savca](https://hackerone.com/chinarulezzz) pour la découverte de ce problème.
+Merci à [Alexandr Savca](https://hackerone.com/sighook) pour la découverte de ce problème.
 
 ## Historique
 

@@ -247,4 +247,3 @@ Nov. 2001.
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org

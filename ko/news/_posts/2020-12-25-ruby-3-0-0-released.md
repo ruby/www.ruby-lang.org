@@ -13,7 +13,7 @@ Ruby 3.0.0 릴리스를 알리게 되어 기쁩니다. 우리는 2015년부터 �
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-NES의 게임 에뮬레이션 작업을 통해 싱글 스레드 성능을 측정한 [optcarrot 벤치마크](https://github.com/mame/optcarrot)를 보면, Ruby 2.0보다 3배 더 빠른 성능을 달성했습니다! <details>이 벤치마크는 [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html)에 표기된 환경에서 측정되었습니다. [8c510e4095 커밋](https://github.com/ruby/ruby/commit/8c510e4095)이 Ruby 3.0 코드로 사용되었습니다. 환경과 벤치마크에 따라 3배 빠르지 않을 수도 있습니다.</details>
+NES의 게임 에뮬레이션 작업을 통해 싱글 스레드 성능을 측정한 [optcarrot 벤치마크](https://github.com/mame/optcarrot)를 보면, Ruby 2.0보다 3배 더 빠른 성능을 달성했습니다! <details>이 벤치마크는 [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark)에 표기된 환경에서 측정되었습니다. [8c510e4095 커밋](https://github.com/ruby/ruby/commit/8c510e4095)이 Ruby 3.0 코드로 사용되었습니다. 환경과 벤치마크에 따라 3배 빠르지 않을 수도 있습니다.</details>
 
 Ruby 3.0.0의 목표는 다음 항목을 통해 다루고 있습니다.
 * 성능
@@ -35,7 +35,7 @@ Ruby 3.0.0의 목표는 다음 항목을 통해 다루고 있습니다.
 
 MJIT의 많은 개선이 추가되었습니다. 자세한 내용은 NEWS를 확인하세요.
 
-Ruby 3.0에서 JIT는 게임([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), 적은 메서드를 여러 번 호출하는 데 대부분의 시간을 사용하는 애플리케이션 등의 제한적인 작업 성능을 향상시킵니다.
+Ruby 3.0에서 JIT는 게임([Optcarrot](https://github.com/mame/optcarrot)), AI([Rubykon](https://github.com/benchmark-driver)), 적은 메서드를 여러 번 호출하는 데 대부분의 시간을 사용하는 애플리케이션 등의 제한적인 작업 성능을 향상시킵니다.
 
 Ruby 3.0이 [JIT이 적용된 코드 크기를 현저히 줄였지만](https://twitter.com/k0kubun/status/1256142302608650244), Rails와 같은 작업에 대해서는 아직 준비되지 않았습니다. 굉장히 많은 메서드에 시간을 사용하는 Rails의 경우 JIT으로 인해 명령어 캐시 미스가 더 악화됩니다. 이 문제에 대한 추후 개선은 Ruby 3.1 소식을 기다려주세요.
 

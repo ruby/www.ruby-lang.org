@@ -21,7 +21,7 @@ der auch bekannt ist als [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 Im [Optcarrot-Benchmark](https://github.com/mame/optcarrot), der die Performanz eines einzelnen
 Threads anhand der Emulation eines NES-Spiels misst, erreichte Ruby 3
 die dreifache Performanz von Ruby 2.0! <details>Dies wurde mit der
-unter [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html)
+unter [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark)
 beschriebenen Umgebung mit
 [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) als Ruby 3.0 gemessen.
 Möglicherweise ist es in Ihrer Umgebung oder Ihrem Benchmark nicht drei mal so schnell.</details>
@@ -54,7 +54,7 @@ eine Reihe neuer Features ein, die nachfolgend beschrieben werden.
 Der MJIT hat viele Verbesserungen gesehen. Siehe die NEWS für Details.
 
 Mit Ruby 3.0 ist es Aufgabe des JIT, in bestimmten, abgrenzbaren Umgebungen wie in
-Spielen ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), KI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)) oder sonstigen
+Spielen ([Optcarrot](https://github.com/mame/optcarrot)), KI ([Rubykon](https://github.com/benchmark-driver)) oder sonstigen
 Anwendungen, die den Großteil ihrer Zeit mit dem oft wiederholten Aufruf
 einiger weniger Methoden verbringen, Performanzverbesserungen
 herbeizuführen.

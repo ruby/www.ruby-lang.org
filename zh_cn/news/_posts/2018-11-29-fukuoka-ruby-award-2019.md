@@ -20,7 +20,6 @@ lang: zh_cn
 本次福冈竞赛由松本行弘与其他专家评选获胜者。本次福冈竞赛大奖是一百万日元。
 历届获奖者包括 Rhomobile（美国） 和 APEC Climate Center（韩国）
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 参赛之程序不必完全由 Ruby 写成，但必须从 Ruby 独特的特性中受益。
 
