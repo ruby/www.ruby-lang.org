@@ -15,7 +15,7 @@ Ruby 3.0系初のリリースである、Ruby 3.0.0 が公開されました。
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-Ruby 3.0では開発の指標の一つとしてきた[Optcarrotベンチマーク](https://github.com/mame/optcarrot)で3倍を達成するとともに、以下のような取り組みが行われています。<details>[https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark) に書かれている環境で計測されました。 [8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) が Ruby 3.0 として使われています。環境やベンチマークによっては3倍にならないかもしれません。</details>
+Ruby 3.0では開発の指標の一つとしてきた[Optcarrotベンチマーク](https://github.com/mame/optcarrot)で3倍を達成するとともに、以下のような取り組みが行われています。<details>[github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark) に書かれている環境で計測されました。 [8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) が Ruby 3.0 として使われています。環境やベンチマークによっては3倍にならないかもしれません。</details>
 
 
 Ruby 3 では以下の目標を達成しました。

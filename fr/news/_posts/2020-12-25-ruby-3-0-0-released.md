@@ -13,7 +13,7 @@ Nous avons le plaisir de vous annoncer la sortie de Ruby 3.0.0. Nous avons trava
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-Avec [Optcarrot benchmark](https://github.com/mame/optcarrot) qui mesure les performances d'un seul thread basé sur la charge de travail de l'émulation d'un jeu NES, Ruby 3.0 a atteint des performances trois fois plus rapide que Ruby 2.0 ! <details>Les mesures ont été réalisées dans l'environnement suivant : [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) a été utilisé comme Ruby 3.0. Cela peut ne pas être trois fois plus rapide en fonction de votre environnement ou benchmark.</details>
+Avec [Optcarrot benchmark](https://github.com/mame/optcarrot) qui mesure les performances d'un seul thread basé sur la charge de travail de l'émulation d'un jeu NES, Ruby 3.0 a atteint des performances trois fois plus rapide que Ruby 2.0 ! <details>Les mesures ont été réalisées dans l'environnement suivant : [github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) a été utilisé comme Ruby 3.0. Cela peut ne pas être trois fois plus rapide en fonction de votre environnement ou benchmark.</details>
 
 Ruby 3.0.0 couvre les objectifs de :
 

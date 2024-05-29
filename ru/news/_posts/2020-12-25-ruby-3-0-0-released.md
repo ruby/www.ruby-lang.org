@@ -13,7 +13,7 @@ lang: ru
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-С помощью [бенчмарка Optcarrot](https://github.com/mame/optcarrot), который замеряет скорость одного потока на примере эмуляции NES игры, мы достигли трехкратного ускорения производительности по сравнению с Ruby 2.0! <details>Замеры производились в окружении, описанном в [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) стал отметкой Ruby 3.0. В вашем окружении или бенчмарке результат может быть не трехкратным.</details>
+С помощью [бенчмарка Optcarrot](https://github.com/mame/optcarrot), который замеряет скорость одного потока на примере эмуляции NES игры, мы достигли трехкратного ускорения производительности по сравнению с Ruby 2.0! <details>Замеры производились в окружении, описанном в [github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) стал отметкой Ruby 3.0. В вашем окружении или бенчмарке результат может быть не трехкратным.</details>
 
 Ruby 3.0.0 включает в себя следующие цели
 * Производительность

@@ -13,7 +13,7 @@ Ruby 3.0.0 릴리스를 알리게 되어 기쁩니다. 우리는 2015년부터 �
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-NES의 게임 에뮬레이션 작업을 통해 싱글 스레드 성능을 측정한 [optcarrot 벤치마크](https://github.com/mame/optcarrot)를 보면, Ruby 2.0보다 3배 더 빠른 성능을 달성했습니다! <details>이 벤치마크는 [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark)에 표기된 환경에서 측정되었습니다. [8c510e4095 커밋](https://github.com/ruby/ruby/commit/8c510e4095)이 Ruby 3.0 코드로 사용되었습니다. 환경과 벤치마크에 따라 3배 빠르지 않을 수도 있습니다.</details>
+NES의 게임 에뮬레이션 작업을 통해 싱글 스레드 성능을 측정한 [optcarrot 벤치마크](https://github.com/mame/optcarrot)를 보면, Ruby 2.0보다 3배 더 빠른 성능을 달성했습니다! <details>이 벤치마크는 [github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark)에 표기된 환경에서 측정되었습니다. [8c510e4095 커밋](https://github.com/ruby/ruby/commit/8c510e4095)이 Ruby 3.0 코드로 사용되었습니다. 환경과 벤치마크에 따라 3배 빠르지 않을 수도 있습니다.</details>
 
 Ruby 3.0.0의 목표는 다음 항목을 통해 다루고 있습니다.
 * 성능

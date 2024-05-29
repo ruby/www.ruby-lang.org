@@ -17,7 +17,7 @@ Ruby 3.0.0'ın yayınlandığını duyurmaktan memnuniyet duyuyoruz.
 
 NES'in oyun emulasyonu işyükü temelli tek threadde performansı ölçen [Optcarrot kıyaslaması](https://github.com/mame/optcarrot) ile Ruby3, Ruby 2.0'dan 3 kat daha hızlı olduğunu kanıtladı!
 <details>
-  Bunlar şurada not edilen ortama göre ölçülmüştür: [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark)
+  Bunlar şurada not edilen ortama göre ölçülmüştür: [github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark)
   [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095), Ruby 3.0 olarak kullanıldı.
   Ortamınıza ya da kıyaslamanıza göre 3 kat hız ölçemeyebilirsiniz.
 </details>

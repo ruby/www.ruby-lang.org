@@ -20,7 +20,7 @@ que Ruby2", afirmación también conocida como
 
 Con [el punto de referencia Optcarrot](https://github.com/mame/optcarrot), que
 mide desempeño con un solo hilo de ejecución con la carga de emular juegos para NES,
-¡logra un desempeño 3 veces más rápido que Ruby 2.0! <details>Se midió en el ambiente anotado en [https://github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). La [contribución 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) se usó como Ruby 3.0. Podría no resultar 3 veces más rápido en de su ambiente o con otros punto de referencia.</details>
+¡logra un desempeño 3 veces más rápido que Ruby 2.0! <details>Se midió en el ambiente anotado en [github.com/ruby/ruby/tree/master/benchmark](https://github.com/ruby/ruby/tree/master/benchmark). La [contribución 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) se usó como Ruby 3.0. Podría no resultar 3 veces más rápido en de su ambiente o con otros punto de referencia.</details>
 
 Ruby 3.0.0 cubre esas metas asi
 * Desempeño
