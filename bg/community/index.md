@@ -44,6 +44,4 @@ Oбщността, която се образува около един език
   * [Ruby в Open Directory Project][ruby-opendir]
   * [Rails в Open Directory Project][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/

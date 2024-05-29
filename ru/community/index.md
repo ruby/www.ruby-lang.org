@@ -46,6 +46,4 @@ lang: ru
   * [Ruby на Open Directory Project][ruby-opendir]
   * [Rails на Open Directory Project][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/

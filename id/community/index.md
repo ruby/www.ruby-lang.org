@@ -71,8 +71,6 @@ Informasi Umum Tentang Ruby
   * [Ruby at Open Directory Project][ruby-opendir]
   * [Rails at Open Directory Project][rails-opendir]
 
-
-
 [ruby-discord]: https://discord.gg/ad2acQFtkh
 [ruby-id-group]: http://tech.groups.yahoo.com/group/id-ruby/
 [ruby-central]: http://rubycentral.org/

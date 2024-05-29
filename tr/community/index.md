@@ -63,8 +63,6 @@ Genel Ruby Kaynakları
   * [Açık Dizin Projesinde Ruby][ruby-opendir]
   * [Açık Dizin Projesinde Rails][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
 [ruby-turkiye-slack]: https://rubytr.herokuapp.com/

@@ -36,7 +36,5 @@ Ruby 的一般信息
   * [Ruby at Open Directory Project][ruby-opendir]
   * [Rails at Open Directory Project][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/
 [ruby-china]: https://ruby-china.org

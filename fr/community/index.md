@@ -56,7 +56,5 @@ Informations générales
   * [Ruby sur le projet Open Directory][ruby-opendir]
   * [Rails sur le projet Open Directory][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh

@@ -55,6 +55,4 @@ Información general sobre Ruby
   * [Ruby en el Open Directory Project][ruby-opendir]
   * [Rails en el Open Directory Project][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/
