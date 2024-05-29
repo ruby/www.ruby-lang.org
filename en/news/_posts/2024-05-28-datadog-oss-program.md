@@ -17,7 +17,7 @@ cache.ruby-lang.org provided by Fastly is most important infrastructure of Ruby 
 
 ## Unified Data Visualization
 
-We have various web services for ruby-lang.org. Datadog allows to visualize log analytics data alongside metrics and application performance monitoring (APM) data in the same dashboards. 
+We have various web services for ruby-lang.org. Datadog allows to visualize log analytics data alongside metrics and application performance monitoring (APM) data in the same dashboards.
 
 ## JIT Trace Visibility
 
