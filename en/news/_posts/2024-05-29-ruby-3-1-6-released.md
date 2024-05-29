@@ -9,7 +9,7 @@ lang: en
 
 Ruby 3.1.6 has been released.
 
-Ruby 3.1 series is now in the security maintenance phase. In general, we will fix sonly ecurity issues in this phase. But we have several build failure issues after the release of Ruby 3.1.5. We decided to release Ruby 3.1.6 to fix these issues.
+Ruby 3.1 series is now in the security maintenance phase. In general, we will fix only security issues in this phase. But we have several build failure issues after the release of Ruby 3.1.5. We decided to release Ruby 3.1.6 to fix these issues.
 
 Please check the topics below for details.
 
