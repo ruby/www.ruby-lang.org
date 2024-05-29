@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.1.5 Released"
+title: "Ruby 3.1.6 Released"
 author: "hsbt"
 translator:
 date: 2024-05-29 9:00:00 +0000
