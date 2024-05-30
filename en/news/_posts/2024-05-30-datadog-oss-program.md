@@ -3,7 +3,7 @@ layout: news_post
 title: "Datadog provides OSS community support for ruby-lang.org"
 author: "hsbt"
 translator:
-date: 2024-05-28 00:00:00 +0000
+date: 2024-05-30 00:00:00 +0000
 lang: en
 ---
 
