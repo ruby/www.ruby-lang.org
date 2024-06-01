@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 3.1.6 Released"
+title: "Ruby 3.1.6 릴리스"
 author: "hsbt"
-translator:
+translator: "shia"
 date: 2024-05-29 9:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.1.6 has been released.
+Ruby 3.1.6이 릴리스되었습니다.
 
-Ruby 3.1 series is now in the security maintenance phase. In general, we will fix only security issues in this phase. But we have several build failure issues after the release of Ruby 3.1.5. We decided to release Ruby 3.1.6 to fix these issues.
+Ruby 3.1 버전대는 이제 보안 유지보수 단계에 들어갔습니다. 일반적으로 이 단계에서는 보안 문제만 수정합니다. 그러나 Ruby 3.1.5 릴리스 이후 빌드 실패 문제가 여럿 발생했습니다. 이 문제들을 해결하기 위해 Ruby 3.1.6을 릴리스하기로 결정했습니다.
 
-Please check the topics below for details.
+아래 항목에서 자세한 내용을 확인하세요.
 
-* [Bug #20151: Can't build Ruby 3.1 on FreeBSD 14.0](https://bugs.ruby-lang.org/issues/20151)
-* [Bug #20451: Bad Ruby 3.1.5 backport causes fiddle to fail to build](https://bugs.ruby-lang.org/issues/20451)
-* [Bug #20431: Ruby 3.3.0 build fail with make: *** \[io_buffer.o\] Error 1](https://bugs.ruby-lang.org/issues/20431)
+* [Bug #20151: FreeBSD 14.0에서 Ruby 3.1을 빌드할 수 없음](https://bugs.ruby-lang.org/issues/20151)
+* [Bug #20451: 좋지 않은 Ruby 3.1.5 백포트로 fiddle 빌드에 실패함](https://bugs.ruby-lang.org/issues/20451)
+* [Bug #20431: Ruby 3.3.0 빌드 실패 make: *** \[io_buffer.o\] Error 1](https://bugs.ruby-lang.org/issues/20431)
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_6) for further details.
+자세한 사항은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_1_6)를 확인해 주세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.1.6" | first %}
 
@@ -44,7 +44,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_6) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
