@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Datadog provides OSS community support for ruby-lang.org"
+title: "Datadog가 ruby-lang.org의 OSS 커뮤니티 지원을 제공합니다"
 author: "hsbt"
-translator:
+translator: "shia"
 date: 2024-05-30 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
-We are excited to announce that Ruby's official website, ruby-lang.org, has adopted Datadog for monitoring by [Datadog OSS community support](https://opensource.datadoghq.com/projects/oss-program/).
+우리는 루비의 공식 웹사이트인 ruby-lang.org가 [Datadog OSS 커뮤니티 지원](https://opensource.datadoghq.com/projects/oss-program/)을 통한 Datadog 모니터링을 채택했다는 것을 알려드립니다.
 
-This allows us to effectively monitor the performance and availability of the site in real time for Ruby users. This key benefits of using Datadog include the following.
+Datadog은 루비 사용자를 위해 실시간으로 사이트의 성능과 가용성을 효과적으로 모니터링할 수 있도록 도와줍니다. Datadog 사용의 주요 이점은 다음과 같습니다.
 
-## CDN Visibility
+## CDN 가시성
 
-cache.ruby-lang.org provided by Fastly is most important infrastructure of Ruby ecosystem. Datadog enables monitoring of Content Delivery Network (CDN) performance. It tracks cache coverage, error rate, enhancing user experiences.
+Fastly가 제공하는 cache.ruby-lang.org는 루비 생태계의 가장 중요한 인프라입니다. Datadog를 통해 콘텐츠 전송 네트워크(CDN) 성능을 감시할 수 있습니다. 캐시 커버리지, 에러율을 추적하여 사용자 경험을 향상시킵니다.
 
-## Unified Data Visualization
+## 통합된 데이터 시각화
 
-We have various web services for ruby-lang.org. Datadog allows to visualize log analytics data alongside metrics and application performance monitoring (APM) data in the same dashboards.
+ruby-lang.org에는 다양한 웹 서비스가 있습니다. Datadog는 로그 분석 데이터를 메트릭 및 애플리케이션 성능 모니터링(APM) 데이터와 함께 동일한 대시보드에서 시각화할 수 있습니다.
 
-## JIT Trace Visibility
+## JIT 추적 가시성
 
-By utilizing Datadog’s tracing capabilities, we can capture traces as requests flow through web servers and databases. This helps identify bottlenecks and problematic requests.
+Datadog의 트레이싱 기능을 활용하여 웹 서버 및 데이터베이스를 통하는 요청의 흐름을 트레이스로 기록할 수 있습니다. 이를 통해 병목과 문제가 있는 요청을 확인할 수 있습니다.
 
-We published the [public dashboard](https://p.ap1.datadoghq.com/sb/1271b83e-af90-11ee-9072-da7ad0900009-01633a8fa8c0b0c0051f1889afdf55dc) of our key metrics. We will update the dashboard as we continue to improve our monitoring especially YJIT performance.
+주요 메트릭의 [공개 대시보드](https://p.ap1.datadoghq.com/sb/1271b83e-af90-11ee-9072-da7ad0900009-01633a8fa8c0b0c0051f1889afdf55dc)를 게시했습니다. 모니터링, 특히 YJIT 성능을 개선하면서 대시보드를 계속 개선할 것입니다.
 
-We hope that this adoption of Datadog will contribute to improved site performance for the Ruby community. Please continue to use ruby-lang.org and enjoy an enhanced user experience.
+Datadog 채택이 루비 커뮤니티의 사이트 성능 향상에 이바지하길 바랍니다. 계속해서 ruby-lang.org를 이용하고 향상된 사용자 경험을 즐기시기 바랍니다.
