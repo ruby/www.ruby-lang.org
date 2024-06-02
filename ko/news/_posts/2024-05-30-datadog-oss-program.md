@@ -7,9 +7,9 @@ date: 2024-05-30 00:00:00 +0000
 lang: ko
 ---
 
-우리는 Ruby의 공식 웹사이트인 ruby-lang.org가 모니터링을 위해 Datadog을 적용했다는 것을 알려드립니다. 이는 [Datadog OSS 커뮤니티 지원](https://opensource.datadoghq.com/projects/oss-program/)을 통해 이루어졌습니다.
+우리는 Ruby의 공식 웹사이트인 ruby-lang.org가 모니터링을 위해 Datadog를 적용했다는 것을 알려드립니다. 이는 [Datadog OSS 커뮤니티 지원](https://opensource.datadoghq.com/projects/oss-program/)을 통해 이루어졌습니다.
 
-Datadog은 Ruby 사용자를 위해 실시간으로 사이트의 성능과 가용성을 효과적으로 모니터링할 수 있도록 도와줍니다. Datadog 사용의 주요 이점은 다음과 같습니다.
+Datadog는 Ruby 사용자를 위해 실시간으로 사이트의 성능과 가용성을 효과적으로 모니터링할 수 있도록 도와줍니다. Datadog 사용의 주요 이점은 다음과 같습니다.
 
 ## CDN 가시성
 
