@@ -2,7 +2,7 @@
 layout: news_post
 title: "Выпуск Ruby 3.3.0-rc1"
 author: "naruse"
-translator:
+translator: "suban05"
 date: 2023-12-11 00:00:00 +0000
 lang: ru
 ---
