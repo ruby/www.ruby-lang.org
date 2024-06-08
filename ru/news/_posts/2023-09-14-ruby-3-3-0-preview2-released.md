@@ -4,7 +4,7 @@ title: "Выпуск Ruby 3.3.0-preview2"
 author: "naruse"
 translator: "suban05"
 date: 2023-09-14 00:00:00 +0000
-lang: en
+lang: ru
 ---
 
 {% assign release = site.data.releases | where: "version", "3.3.0-preview2" | first %}
