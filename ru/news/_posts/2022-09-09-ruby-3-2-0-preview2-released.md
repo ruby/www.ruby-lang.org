@@ -325,4 +325,3 @@ Ruby был впервые разработан Мацумото (Юкихиро
 [Feature #18788]: https://bugs.ruby-lang.org/issues/18788
 [Feature #18809]: https://bugs.ruby-lang.org/issues/18809
 [Feature #18481]: https://bugs.ruby-lang.org/issues/18481
-
