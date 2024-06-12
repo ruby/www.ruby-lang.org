@@ -19,7 +19,7 @@ lang: ru
 
 Подробности смотрите в [релизах на GitHub](https://github.com/ruby/ruby/releases/tag/v3_1_6).
 
-## Загрузка
+## Скачать
 
 {% assign release = site.data.releases | where: "version", "3.1.6" | first %}
 

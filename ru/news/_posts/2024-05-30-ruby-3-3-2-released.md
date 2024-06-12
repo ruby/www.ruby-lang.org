@@ -12,7 +12,7 @@ lang: ru
 Этот выпуск включает множество исправлений ошибок.
 См. подробности на [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_2).
 
-## Загрузка
+## Скачать
 
 {% assign release = site.data.releases | where: "version", "3.3.2" | first %}
 
