@@ -16,10 +16,9 @@ Ruby 3.3.3이 릴리스되었습니다.
 * REXML 3.2.8
 * strscan 3.0.9
 * `--dump=prism_parsetree`는 `--parser=prism --dump=parsetree`로 대체되었습니다.
-* Invalid encoding symbols raise `SyntaxError` instead of `EncodingError`
 * 잘못된 인코딩 기호는 이제 `EncodingError` 대신 `SyntaxError`를 던집니다.
 * Ripper 파싱 중의 메모리 누수 문제 수정
-* YJIT의 버그 수정, `**{}`, `Ripper.tokenize`, `RubyVM::InstructionSequence#to_binary`, `--with-gmp`, 여러 빌드 환경 수정
+* YJIT, `**{}`, `Ripper.tokenize`, `RubyVM::InstructionSequence#to_binary`, `--with-gmp`, 몇몇 빌드 환경의 버그 수정
 
 자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_3_3)를 참조하세요.
 
