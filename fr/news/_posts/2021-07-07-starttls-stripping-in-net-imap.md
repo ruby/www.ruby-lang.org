@@ -26,7 +26,7 @@ Net::IMAP ne lève pas d'exception lorsque StartTLS échoue avec une réponse in
 
 ## Remerciements
 
-Merci à [Alexandr Savca](https://hackerone.com/chinarulezzz) pour la découverte de ce problème.
+Merci à [Alexandr Savca](https://hackerone.com/sighook) pour la découverte de ce problème.
 
 ## Historique
 

@@ -28,7 +28,7 @@ net-ftp は Ruby 3.0.1 の デフォルト gem ですが、パッケージ化の
 
 ## クレジット
 
-この脆弱性情報は、[Alexandr Savca](https://hackerone.com/chinarulezzz) 氏によって報告されました。
+この脆弱性情報は、[Alexandr Savca](https://hackerone.com/sighook) 氏によって報告されました。
 
 ## 更新履歴
 

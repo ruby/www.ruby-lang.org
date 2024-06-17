@@ -46,8 +46,4 @@ lang: ru
   * [Ruby на Open Directory Project][ruby-opendir]
   * [Rails на Open Directory Project][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

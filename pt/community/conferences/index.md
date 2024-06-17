@@ -88,4 +88,4 @@ O’Reilly) e, para finalizar a Canada on Rails.
 [13]: http://www.skillsmatter.com
 [14]: http://steelcityruby.org/
 [15]: http://goruco.com/
-[16]: http://www.deccanrubyconf.org/
+[16]: https://github.com/deccanrubyconf

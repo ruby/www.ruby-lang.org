@@ -47,8 +47,4 @@ Thông tin chung về Ruby
   * [Ruby at Open Directory Project][ruby-opendir]
   * [Rails at Open Directory Project][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

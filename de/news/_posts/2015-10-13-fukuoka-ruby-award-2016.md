@@ -24,7 +24,6 @@ Fukuoka-Wettbewerbs ermitteln; sie erhalten den Großen Preis von
 1.000.000 ¥ (ca. 7.500 €). Frühere Gewinner waren Rhomobile (USA) und
 das APEC Climate Center (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Die eingesandten Programme müssen nicht ausschließlich in Ruby
 geschrieben sein, sollten aber Gebrauch von Rubys einzigartigen

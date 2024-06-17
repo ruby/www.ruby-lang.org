@@ -236,5 +236,4 @@ For a more complete list, see [Awesome Rubies][awesome-rubies].
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org
 [awesome-rubies]: https://github.com/planetruby/awesome-rubies

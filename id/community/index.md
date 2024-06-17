@@ -71,11 +71,7 @@ Informasi Umum Tentang Ruby
   * [Ruby at Open Directory Project][ruby-opendir]
   * [Rails at Open Directory Project][rails-opendir]
 
-
-
 [ruby-discord]: https://discord.gg/ad2acQFtkh
 [ruby-id-group]: http://tech.groups.yahoo.com/group/id-ruby/
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
 [ruby-id-slack]: http://ruby.id/slack/

@@ -19,7 +19,6 @@ Data máxima para aplicação: 31 de Janeiro de 2019
 
 Matz e um grupo de jurados selecionarão os vencedores da competição de Fukuoka. O grande prêmio para essa competição é 1 milhão de ienes. Fora o grande prêmio, outras premiações incluem Rhomobile (EUA) and APEC Climate Center (Coréia).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Os programas que entrarem na competição não precisam ser inteiramente escritos em Ruby, porém devem utilizar as características únicas do Ruby.
 

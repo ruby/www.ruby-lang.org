@@ -37,7 +37,7 @@ gem install rdoc
 
 ## Авторство
 
-Благодарим [Alexandr Savca](https://hackerone.com/chinarulezzz) за сообщение о проблеме.
+Благодарим [Alexandr Savca](https://hackerone.com/sighook) за сообщение о проблеме.
 
 ## История
 

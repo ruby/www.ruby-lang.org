@@ -19,7 +19,6 @@ lang: zh_tw
 
 Matz 與評審委員小組會選出本次大賽的優勝者。福岡 Ruby 大賽的最大獎是壹百萬日圓。過去的優勝者有來自美國的 Rhomobile 公司以及韓國釜山的亞太經貿氣候中心。
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 參賽的作品不需要完全是用 Ruby 寫的，但需要用到 Ruby 獨一無二的特色。
 

@@ -27,7 +27,7 @@ Net::IMAP は、StartTLS が不明な応答で失敗した場合に例外を発�
 
 ## クレジット
 
-この脆弱性情報は、[Alexandr Savca](https://hackerone.com/chinarulezzz) 氏によって報告されました。
+この脆弱性情報は、[Alexandr Savca](https://hackerone.com/sighook) 氏によって報告されました。
 
 ## 更新履歴
 

@@ -252,5 +252,4 @@ di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
-[parrot]: http://parrot.org
 [awesome-rubies]: https://github.com/planetruby/awesome-rubies

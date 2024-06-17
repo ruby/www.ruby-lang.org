@@ -28,7 +28,7 @@ Bu muhtemelen Net::FTP'nin normalde gizli olan bilgileri dışarı çıkarmasın
 
 ## Teşekkürler
 
-[Alexandr Savca](https://hackerone.com/chinarulezzz)'ya bu zaafiyeti bildirdiği için teşekkür ederiz.
+[Alexandr Savca](https://hackerone.com/sighook)'ya bu zaafiyeti bildirdiği için teşekkür ederiz.
 
 ## Geçmiş
 

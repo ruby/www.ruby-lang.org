@@ -339,7 +339,7 @@ $ sudo make install
 [freebsd-ports-collection]: https://docs.freebsd.org/en/books/handbook/ports/#ports-using
 [homebrew]: http://brew.sh/
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
-[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[github-ruby]: https://github.com/ruby/ruby
 [wsl]: https://learn.microsoft.com/zh-tw/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby

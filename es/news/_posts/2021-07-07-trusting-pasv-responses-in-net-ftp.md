@@ -33,7 +33,7 @@ conducir escaneo de puertos y extraer anuncios de los servicios).
 
 ## Creditos
 
-Agradecemos a [Alexandr Savca](https://hackerone.com/chinarulezzz) por
+Agradecemos a [Alexandr Savca](https://hackerone.com/sighook) por
 reportar este problema.
 
 ## Historia

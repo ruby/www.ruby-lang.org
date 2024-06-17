@@ -32,7 +32,7 @@ el registro para bloquear la orden StartTLS, es decir un
 
 ## Creditos
 
-Agradecimientos a [Alexandr Savca](https://hackerone.com/chinarulezzz)
+Agradecimientos a [Alexandr Savca](https://hackerone.com/sighook)
 por reportar este problema.
 
 ## Historia

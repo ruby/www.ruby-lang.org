@@ -28,7 +28,7 @@ net-ftp는 Ruby 3.0.1의 기본 gem이지만, 패키징 문제가 있으므로 R
 
 ## 도움을 준 사람
 
-이 문제를 보고해 준 [Alexandr Savca](https://hackerone.com/chinarulezzz)에게 감사를 표합니다.
+이 문제를 보고해 준 [Alexandr Savca](https://hackerone.com/sighook)에게 감사를 표합니다.
 
 ## 수정 이력
 

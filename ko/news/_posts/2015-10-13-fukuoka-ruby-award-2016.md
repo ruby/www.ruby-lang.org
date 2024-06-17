@@ -21,7 +21,6 @@ lang: ko
 경진대회의 대상 상금은 1백만 엔입니다. Rhomobile(미국)과 APEC 기후
 센터(대한민국)는 대상을 수상한 바 있습니다.
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 경진대회에 등록할 프로그램을 루비로만 작성할 필요는 없지만, 루비만의 독특한
 특징을 잘 활용해야 합니다.

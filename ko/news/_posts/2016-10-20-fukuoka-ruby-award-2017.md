@@ -21,7 +21,6 @@ Matz를 포함한 패널들이 후쿠오카 경진대회의 우승자를 선택�
 후쿠오카 경진대회의 대상에게는 백만 엔의 상금이 주어집니다.
 이전 이 대회의 우승자로는 Rhomobile (USA)과 APEC 기후 센터(Korea)가 있습니다.
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 대회에 참가하는 프로그램은 완전히 루비로 작성될 필요는 없습니댜. 하지만 루비의
 특징을 살려야 합니다.

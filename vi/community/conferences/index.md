@@ -100,4 +100,4 @@ và Canada on Rails.
 [17]: http://ruby.onales.com/
 [18]: http://burlingtonrubyconference.com
 [19]: http://goruco.com/
-[20]: http://www.deccanrubyconf.org/
+[20]: https://github.com/deccanrubyconf

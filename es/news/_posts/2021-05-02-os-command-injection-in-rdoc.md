@@ -47,7 +47,7 @@ Si usa bundler, por favor añada `gem "rdoc", ">= 6.3.1"` a su Gemfile.
 
 ## Creditos
 
-Agradecemos a [Alexandr Savca](https://hackerone.com/chinarulezzz)
+Agradecemos a [Alexandr Savca](https://hackerone.com/sighook)
 por reportar el problema.
 
 ## Historia

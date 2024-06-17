@@ -37,7 +37,7 @@ gem install rdoc
 
 ## クレジット
 
-この脆弱性情報は、[Alexandr Savca](https://hackerone.com/chinarulezzz) 氏によって報告されました。
+この脆弱性情報は、[Alexandr Savca](https://hackerone.com/sighook) 氏によって報告されました。
 
 ## 更新履歴
 

@@ -25,7 +25,6 @@ Hadiah utama kompetisi ini adalah 1 juta yen.
 Hadiah utama pemenang sebelumnya termasuk *Rhomobile* (USA) dan *APEC
 Climate Center* (Korea).
 
-[http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
 Program-program yang masuk dalam kompetisi tidak harus ditulis seluruhnya
 dengan Ruby, tetapi harus mengambil kemudahan dari karateristik unik yang

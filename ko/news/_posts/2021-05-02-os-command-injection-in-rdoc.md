@@ -37,7 +37,7 @@ bundler를 사용한다면 `Gemfile`에 `gem "rdoc", ">= 6.3.1"`을 추가하세
 
 ## 도움을 준 사람
 
-이 문제를 보고해 준 [Alexandr Savca](https://hackerone.com/chinarulezzz)에게 감사를 표합니다.
+이 문제를 보고해 준 [Alexandr Savca](https://hackerone.com/sighook)에게 감사를 표합니다.
 
 ## 수정 이력
 

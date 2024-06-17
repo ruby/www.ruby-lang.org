@@ -49,9 +49,5 @@ Ogólne informacje o Rubim
   * [Ruby w Open Directory Project][ruby-opendir]
   * [Rails w Open Directory Project][rails-opendir]
 
-
-
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
 [6]: http://forum.rubyonrails.pl/
