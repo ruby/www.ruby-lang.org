@@ -9,3 +9,7 @@ group :development do
   gem "html-proofer"
   gem "validate-website", "~> 1.6"
 end
+
+# Jekyll need them for Ruby 3.4+
+gem "csv"
+gem "base64"
