@@ -68,6 +68,10 @@ Also many thanks to the organizations that support us:
 
 <img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
 
+[1password](https://1password.com/) (password manager)
+
+<img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
+
 [logo]: /en/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
@@ -85,3 +89,4 @@ Also many thanks to the organizations that support us:
 [rubynokai]: http://ruby-no-kai.org/
 [aws]: https://aws.amazon.com/
 [datadog]: https://www.datadoghq.com/
+[1password]: https://1password.com/
