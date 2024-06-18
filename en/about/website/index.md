@@ -68,7 +68,7 @@ Also many thanks to the organizations that support us:
 
 <img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
 
-[1Password](1password) (password manager)
+[1Password][1password] (password manager)
 
 <img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
 
