@@ -8,7 +8,8 @@ In the programming community, user groups form support networks for
 people interested in certain topics. They are a great place to increase
 your skills and network with other programmers. User groups are informal
 and their structure varies from group to group. Anyone can form their
-own group and set their own rules and schedule{: .summary}
+own group and set their own rules and schedule
+{: .summary}
 
 ### Ruby User Groups
 
