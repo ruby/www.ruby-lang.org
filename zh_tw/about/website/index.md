@@ -65,7 +65,7 @@ lang: zh_tw
 
 <img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
 
-[1password](https://1password.com/) (密碼管理器)
+[1Password][1password] (密碼管理器)
 
 <img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
 
