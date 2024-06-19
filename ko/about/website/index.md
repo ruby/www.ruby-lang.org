@@ -70,7 +70,7 @@ lang: ko
 
 <img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
 
-[1password](https://1password.com/) (비밀번호 관리자)
+[1Password][1password] (비밀번호 관리자)
 
 <img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
 
