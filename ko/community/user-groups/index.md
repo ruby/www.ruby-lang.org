@@ -20,9 +20,9 @@ Ruby 유저 그룹은 전적으로 Ruby에만 전념합니다. 일반적으로 �
 Ruby 유저 그룹에 관한 정보는 여러 웹 사이트에서 얻을 수 있습니다.
 
 - [Ruby Meetup Groups on meetup.com][meetup]. Ruby 유저 그룹의 상당수는
-  Meetup 사이트를 홈페이지로 합니다. Meetup은 유저 그룹을 위한 몇 가지 툴을
+  Meetup 사이트를 홈페이지로 삼습니다. Meetup은 유저 그룹을 위한 몇 가지 툴을
   제공하고 있습니다. 비공개 포럼, 공지를 위한 장소, 자동 리마인더, 훌륭한
-  RSVP(참석여부 체크) 시스템 등등이 그것이죠.
+  RSVP(참석여부 체크) 시스템 등이 그것이죠.
 - [rubyconferences.org/meetups][rc-meetups]는 전세계의 Ruby 미트업 이벤트 일람을
   제공합니다.
 - Ruby 미트업 주최자들이 모이는 [Google 그룹][meetups-google-group]이 있습니다.
@@ -34,7 +34,7 @@ Ruby 유저 그룹에 관한 정보는 여러 웹 사이트에서 얻을 수 있
 
 직접 그룹을 만들기 원하시면 지역에 Ruby 그룹이 있는지를 먼저 확인하셔야 합니다.
 자신의 그룹을 시작하는 방법에 대한 조언을 구하고 싶다면,
-주최자 그룹을 방문해보세요.
+미트업 주최자 그룹을 방문해보세요.
 
 [meetup]: https://www.meetup.com/topics/ruby/
 [onruby]: https://www.onruby.eu/
