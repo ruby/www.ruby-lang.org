@@ -23,7 +23,7 @@ Ruby 유저 그룹에 관한 정보는 여러 웹 사이트에서 얻을 수 있
   Meetup 사이트를 홈페이지로 삼습니다. Meetup은 유저 그룹을 위한 몇 가지 툴을
   제공하고 있습니다. 비공개 포럼, 공지를 위한 장소, 자동 리마인더, 훌륭한
   RSVP(참석여부 체크) 시스템 등이 그것이죠.
-- [rubyconferences.org/meetups][rc-meetups]는 전세계의 Ruby 미트업 이벤트 일람을
+- [rubyconferences.org/meetups][rc-meetups]는 전 세계의 Ruby 미트업 이벤트 일람을
   제공합니다.
 - Ruby 미트업 주최자들이 모이는 [Google 그룹][meetups-google-group]이 있습니다.
 - [OnRuby][onruby] - OnRuby에서도 유저 그룹을 발견할 수 있습니다. OnRuby는
