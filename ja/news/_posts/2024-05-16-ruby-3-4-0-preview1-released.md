@@ -36,7 +36,7 @@ Ruby {{ release.version }}がリリースされました。
 
 * Range
 
-  * rangeがイテラブルでない場合、`Range#size`がTypeErrorを発生させるようになりました。[[Misc #18984]]
+  * rangeが列挙可能でない場合、`Range#size`がTypeErrorを発生させるようになりました。[[Misc #18984]]
 
 
 
@@ -63,7 +63,7 @@ Ruby {{ release.version }}がリリースされました。
 ## C API更新
 
 * `rb_newobj`と`rb_newobj_of` (および対応するマクロ `RB_NEWOBJ`、`RB_NEWOBJ_OF`、`NEWOBJ`、`NEWOBJ_OF`)が削除されました。 [[Feature #20265]]
-* 廃止された関数`rb_gc_force_recycle`が削除されました。 [[Feature #18290]]
+* 廃止予定だった関数`rb_gc_force_recycle`が削除されました。 [[Feature #18290]]
 
 ## 実装の改善
 
@@ -75,7 +75,7 @@ Ruby {{ release.version }}がリリースされました。
 
 * `String.freeze`や`Integer#+`のようなインタプリタやJITによって特別に最適化されたコアメソッドを再定義すると、パフォーマンスクラスの警告（`-W:performance`または`Warning[:performance] = true`）が出るようになりました。　[[Feature #20429]]
 
-デフォルトのgemsやバンドルされているgemの詳細については、[Logger](https://github.com/ruby/logger/releases)などのGitHubのリリースやchangelogを参照してください。
+default gemやbundled gemの詳細については、[Logger](https://github.com/ruby/logger/releases)などのGitHubのリリースやchangelogを参照してください。
 
 詳細は[NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
 か[commit logs](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})を参照してください。
@@ -106,7 +106,7 @@ Ruby {{ release.version }}がリリースされました。
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Rubyとは
+## Ruby とは
 
 Rubyはまつもとゆきひろ (Matz) によって1993年に開発が始められ、今もオープンソースソフトウェアとして開発が続けられています。Rubyは様々なプラットフォームで動き、世界中で、特にWebアプリケーション開発のために使われています。
 
