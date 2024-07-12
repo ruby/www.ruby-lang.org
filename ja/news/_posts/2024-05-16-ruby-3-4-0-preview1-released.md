@@ -10,7 +10,7 @@ lang: ja
 {% assign release = site.data.releases | where: "version", "3.4.0-preview1" | first %}
 Ruby {{ release.version }}がリリースされました。
 
-## 言語の変更
+## 言語機能の変更
 
 * `frozen_string_literal`のコメントがないファイルで文字列リテラルが凍結されたように振る舞うようになりました。
   文字列リテラルが破壊的に変更された場合、非推奨の警告が表示されます。
@@ -40,7 +40,7 @@ Ruby {{ release.version }}がリリースされました。
 
 
 
-## 互換性の問題
+## 互換性に関する変更
 
 注：バグフィックスは掲載していません。
 
@@ -60,7 +60,7 @@ Ruby {{ release.version }}がリリースされました。
   ```
 
 
-## CのAPI更新
+## C API更新
 
 * `rb_newobj`と`rb_newobj_of` (および対応するマクロ `RB_NEWOBJ`、`RB_NEWOBJ_OF`、`NEWOBJ`、`NEWOBJ_OF`)が削除されました。 [[Feature #20265]]
 * 廃止された関数`rb_gc_force_recycle`が削除されました。 [[Feature #18290]]
@@ -83,7 +83,7 @@ Ruby {{ release.version }}がリリースされました。
 これらの変更により、Ruby 3.3.0から[{{ release.stats.files_changed }} ファイルが変更され、{{ release.stats.insertions }} 行が追加され、 {{ release.stats.deletions }} 行が削除されました！](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
 
 
-## Download
+## ダウンロード
 
 * <{{ release.url.gz }}>
 
@@ -108,8 +108,7 @@ Ruby {{ release.version }}がリリースされました。
 
 ## Rubyとは
 
-Rubyは1993年にMatz（まつもとゆきひろ）によって開発され、現在はオープンソースとして開発されています。
-オープンソースとして開発されており、複数のプラットフォームで動作し、特にウェブ開発において世界中で利用されています。
+Rubyはまつもとゆきひろ (Matz) によって1993年に開発が始められ、今もオープンソースソフトウェアとして開発が続けられています。Rubyは様々なプラットフォームで動き、世界中で、特にWebアプリケーション開発のために使われています。
 
 [Feature #13557]: https://bugs.ruby-lang.org/issues/13557
 [Feature #15554]: https://bugs.ruby-lang.org/issues/15554
