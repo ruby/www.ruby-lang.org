@@ -189,7 +189,7 @@ Thanks to Anders Schneiderman for the basis of this description.
 {% include faq-out-of-date.html %}
 
 Is Tk installed correctly on your Windows box? Go to
-[http://dev.scriptics.com/software/tcltk/](http://dev.scriptics.com/software/tcltk/)
+[https://wiki.tcl-lang.org/page/Binary+Distributions](https://wiki.tcl-lang.org/page/Binary+Distributions#85b8647b1ec80c2fa1698c3c7e76204a944a95db2487347c51773f26b9dad6ae)
 to find a precompiled binary Tcl/Tk distribution for your box.
 
 Are the environment variables `TCL_LIBRARY` and `TK_LIBRARY` pointing to the
