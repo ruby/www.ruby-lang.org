@@ -101,7 +101,7 @@ truy xuất dữ liệu tới các biến của một đối tượng.
 irb(main):044:0> class ChàoMừng
 irb(main):045:1>   attr_accessor :tên
 irb(main):046:1> end
-=> nil
+=> [:tên, :tên=]
 {% endhighlight %}
 
 Trong Ruby, bạn có thể mở một lớp ở phía trên và sửa nó. Sự thay đổi sẽ xuất

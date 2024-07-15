@@ -35,9 +35,7 @@ Bye Pat, come back soon.
 
 {% highlight irb %}
 irb(main):038:0> g.@name
-SyntaxError: compile error
-(irb):52: syntax error
-        from (irb):52
+SyntaxError: (irb):38: syntax error, unexpected tIVAR, expecting '('
 {% endhighlight %}
 
 Неа, не можем этого сделать.
@@ -53,16 +51,19 @@ SyntaxError: compile error
 
 {% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
-=> ["method", "send", "object_id", "singleton_methods",
-    "__send__", "equal?", "taint", "frozen?",
-    "instance_variable_get", "kind_of?", "to_a",
-    "instance_eval", "type", "protected_methods", "extend",
-    "eql?", "display", "instance_variable_set", "hash",
-    "is_a?", "to_s", "class", "tainted?", "private_methods",
-    "untaint", "say_hi", "id", "inspect", "==", "===",
-    "clone", "public_methods", "respond_to?", "freeze",
-    "say_bye", "__id__", "=~", "methods", "nil?", "dup",
-    "instance_variables", "instance_of?"]
+=> [:say_hi, :say_bye, :instance_of?, :public_send,
+    :instance_variable_get, :instance_variable_set,
+    :instance_variable_defined?, :remove_instance_variable,
+    :private_methods, :kind_of?, :instance_variables, :tap,
+    :is_a?, :extend, :define_singleton_method, :to_enum,
+    :enum_for, :<=>, :===, :=~, :!~, :eql?, :respond_to?,
+    :freeze, :inspect, :display, :send, :object_id, :to_s,
+    :method, :public_method, :singleton_method, :nil?, :hash,
+    :class, :singleton_class, :clone, :dup, :itself, :taint,
+    :tainted?, :untaint, :untrust, :trust, :untrusted?, :methods,
+    :protected_methods, :frozen?, :public_methods,
+    :singleton_methods, :!, :==, :!=, :__send__, :equal?,
+    :instance_eval, :instance_exec, :__id__]
 {% endhighlight %}
 
 Ого! Это куча методов. А мы объявили всего два. Что здесь происходит?
@@ -102,7 +103,7 @@ irb(main):043:0> g.respond_to?("to_s")
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 В Ruby вы можете открыть класс снова и изменить его. Изменения будут
