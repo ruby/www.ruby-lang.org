@@ -35,7 +35,7 @@ Ruby &lt;&lt; portuguese
 
 ## Inscrever ou Desinscrever
 
-[Inscrever ou Desinscrever](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+[Inscrever ou Desinscrever](https://ml.ruby-lang.org/mailman3/lists/)
 
 
 

@@ -31,7 +31,7 @@ The comp.lang.ruby Newsgroup
 
 ## Subscribe or Unsubscribe
 
-See [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+See [https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)
 for more information about all mailing lists on ruby-lang.org,
 including the lists in Japanese language.
 
