@@ -28,7 +28,7 @@ Ruby-CVS
 
 ## Iscriviti o annulla la tua iscrizione
 
-(Iscriviti o annulla la tua iscrizione)[https://ml.ruby-lang.org/mailman3/postorius/lists/]
+(Iscriviti o annulla la tua iscrizione)[https://ml.ruby-lang.org/mailman3/lists/]
 
 
 

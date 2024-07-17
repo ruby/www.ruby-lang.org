@@ -32,7 +32,7 @@ Ruby-CVS
 
 ## Подписаться или не подписаться
 
-[Подписаться или не подписаться](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+[Подписаться или не подписаться](https://ml.ruby-lang.org/mailman3/lists/)
 
 
 

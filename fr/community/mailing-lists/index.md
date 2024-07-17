@@ -29,7 +29,7 @@ Ruby-CVS
 
 ## S’inscrire ou résilier son inscription
 
-[S’inscrire ou résilier son inscription](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+[S’inscrire ou résilier son inscription](https://ml.ruby-lang.org/mailman3/lists/)
 
 
 

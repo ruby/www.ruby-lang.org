@@ -31,11 +31,11 @@ comp.lang.ruby Haber Grubu
 
 Japonca dilindeki listeler de dahil olmak üzere ruby-lang.org'daki tüm e-posta
 listeleri hakkında daha fazla bilgi için
-[https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)'a göz atın.
+[https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)'a göz atın.
 
 ## Abone Olun ya da Abonelikten Ayrılın
 
-[Abone Olun ya da Abonelikten Ayrılın](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+[Abone Olun ya da Abonelikten Ayrılın](https://ml.ruby-lang.org/mailman3/lists/)
 
 
 

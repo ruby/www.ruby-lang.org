@@ -32,7 +32,7 @@ The comp.lang.ruby Newsgroup
 
 ## Đăng ký theo dõi hoặc Hủy đăng ký
 
-[Đăng ký theo dõi hoặc Hủy đăng ký](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+[Đăng ký theo dõi hoặc Hủy đăng ký](https://ml.ruby-lang.org/mailman3/lists/)
 
 
 

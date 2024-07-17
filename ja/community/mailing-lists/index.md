@@ -8,12 +8,12 @@ lang: ja
 
 参加希望の方は、それぞれのリンク先のページより登録を行ってください。
 
-## [ruby-list](https://ml.ruby-lang.org/mailman3/postorius/lists/ruby-list.ml.ruby-lang.org/)(日本語)
+## [ruby-list](https://ml.ruby-lang.org/mailman3/lists/ruby-list.ml.ruby-lang.org/)(日本語)
 
 Rubyを使ってプログラムを書く人たちが情報交換を行うためのメーリングリストです。
 Rubyを使う上での疑問点についての相談や、Rubyを利用したアプリケーションやライブラリなどのリリース情報の紹介、Rubyに関連するイベントの紹介などが行われています。
 
-## [ruby-dev](https://ml.ruby-lang.org/mailman3/postorius/lists/ruby-dev.ml.ruby-lang.org/)(日本語)
+## [ruby-dev](https://ml.ruby-lang.org/mailman3/lists/ruby-dev.ml.ruby-lang.org/)(日本語)
 
 Rubyの開発者向け公式メーリングリストです。
 こちらではRuby自体のバグの報告とそれに対する対応や、将来の仕様拡張や実装上の問題などについての議論が行われています。
@@ -22,11 +22,11 @@ Rubyの開発者向け公式メーリングリストです。
 
 また、セキュリティ関連のバグや脆弱性については後述する非公開メーリングリストへ報告してください。
 
-## [ruby-talk](https://ml.ruby-lang.org/mailman3/postorius/lists/ruby-talk.ml.ruby-lang.org/)(英語)
+## [ruby-talk](https://ml.ruby-lang.org/mailman3/lists/ruby-talk.ml.ruby-lang.org/)(英語)
 
 英語で一般的な話題を取り扱っています。 上記ruby-listの英語版という位置づけになります。
 
-## [ruby-core](https://ml.ruby-lang.org/mailman3/postorius/lists/ruby-core.ml.ruby-lang.org/)(英語)
+## [ruby-core](https://ml.ruby-lang.org/mailman3/lists/ruby-core.ml.ruby-lang.org/)(英語)
 
 英語でRubyの実装について話し合っています。 上記ruby-devの英語版という位置づけになります。
 

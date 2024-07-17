@@ -38,13 +38,13 @@ comp.lang.ruby (Newsgroup)
   [comp.lang.ruby](news:comp.lang.ruby)-Newsgroup eine gute Anlaufstelle.
   ([FAQ][clrFAQ])
 
-Siehe [https://ml.ruby-lang.org/mailman3/postorius/lists/](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+Siehe [https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)
 für weitere Informationen über alle Mailinglisten bei ruby-lang.org,
 einschließlich der Listen in japanischer Sprache.
 
 ## An- oder Abmelden
 
-[An- oder Abmelden](https://ml.ruby-lang.org/mailman3/postorius/lists/)
+[An- oder Abmelden](https://ml.ruby-lang.org/mailman3/lists/)
 
 
 
