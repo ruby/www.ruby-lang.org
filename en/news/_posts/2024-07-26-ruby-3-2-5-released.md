@@ -10,7 +10,7 @@ lang: en
 Ruby 3.2.5 has been released.
 
 This release include many bug-fixes.
-And we updated the version of bundled gem `rexml` to include the following security fix..
+And we updated the version of bundled gem `rexml` to include the following security fix.
 [CVE-2024-39908 : DoS in REXML](({%link en/news/_posts/2024-07-16-dos-rexml-cve-2024-39908.md %}).
 
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_5) for further details.
