@@ -50,10 +50,6 @@ Also many thanks to the organizations that support us:
 
 <img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
 
-[Works on Arm][works-on-arm] (hosting)
-
-<img src="../../../images/sponsor/works-on-arm.png" alt="Works on Arm" width="300" height="26" />
-
 [IBM][ibm] (hosting)
 
 [Fastly][fastly] (CDN)
@@ -81,7 +77,6 @@ Also many thanks to the organizations that support us:
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[works-on-arm]: https://www.arm.com/markets/computing-infrastructure/works-on-arm
 [ibm]: https://www.ibm.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
