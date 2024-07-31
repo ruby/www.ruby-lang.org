@@ -47,10 +47,6 @@ lang: zh_tw
 
 <img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
 
-[Works on Arm][works-on-arm] (網站托管)
-
-<img src="../../../images/sponsor/works-on-arm.png" alt="Works on Arm" width="300" height="26" />
-
 [IBM][ibm] (網站托管)
 
 [Fastly][fastly] (CDN)
@@ -78,7 +74,6 @@ lang: zh_tw
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[works-on-arm]: https://www.arm.com/markets/computing-infrastructure/works-on-arm
 [ibm]: https://www.ibm.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/

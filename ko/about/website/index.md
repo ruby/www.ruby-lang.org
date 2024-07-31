@@ -52,10 +52,6 @@ lang: ko
 
 <img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
 
-[Works on Arm][works-on-arm] (호스팅)
-
-<img src="../../../images/sponsor/works-on-arm.png" alt="Works on Arm" width="300" height="26" />
-
 [IBM][ibm] (호스팅)
 
 [Fastly][fastly] (CDN)
@@ -83,7 +79,6 @@ lang: ko
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[works-on-arm]: https://www.arm.com/markets/computing-infrastructure/works-on-arm
 [ibm]: https://www.ibm.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
