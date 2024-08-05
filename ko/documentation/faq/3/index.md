@@ -184,7 +184,7 @@ rbcw 버전을 사용하려면 Cygwin의 .dll을 별도로 설치해야 합니�
 
 {% include faq-out-of-date.html %}
 
-Windows에 Tk가 올바르게 설치되었나요? <http://dev.scriptics.com/software/tcltk/>로
+Windows에 Tk가 올바르게 설치되었나요? [https://wiki.tcl-lang.org/page/Binary+Distributions](https://wiki.tcl-lang.org/page/Binary+Distributions#85b8647b1ec80c2fa1698c3c7e76204a944a95db2487347c51773f26b9dad6ae)로
 이동하여 해당 운영 체제에 대해 미리 컴파일된 Tcl/Tk 바이너리 배포판을 찾아보세요.
 
 환경 변수 `TCL_LIBRARY` 및 `TK_LIBRARY`가 tcl 및 tk가 포함된 디렉터리를 가리키고
