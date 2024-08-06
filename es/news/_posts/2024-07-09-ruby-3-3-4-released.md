@@ -11,7 +11,7 @@ Ruby 3.3.4 ha sido publicado.
 
 Esta versión corrige una regresión en Ruby 3.3.3 de dependencias
 que faltaban en el gemspec de algunas gemas incluidas: `net-pop`,
-`net-ftp`, `net-imap`, y `prime` 
+`net-ftp`, `net-imap`, y `prime`
 [[Falla #20581]](https://bugs.ruby-lang.org/issues/20581).
 
 Esta corrección permite que Bundler instale correctamente esas gemas
