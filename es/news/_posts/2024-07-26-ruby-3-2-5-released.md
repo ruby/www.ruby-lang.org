@@ -4,7 +4,7 @@ title: "Publicado Ruby 3.2.5"
 author: "nagachika"
 translator: vtamara
 date: 2024-07-26 10:00:00 +0000
-lang: en
+lang: es
 ---
 
 Ruby 3.2.5 ha sido publicado.
