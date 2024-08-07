@@ -1,0 +1,45 @@
+name: Create draft release
+
+on:
+  repository_dispatch:
+    types:
+      - release
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version of the Ruby package to release'
+        required: true
+        default: '3.3.4'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.4
+
+      - name: Generate draft release entry
+        run: |
+          ruby lib/draft-release.rb ${{ github.event.client_payload.version || github.event.inputs.version }}
+
+      - name: Create Commit
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Create release for ${{ github.event.client_payload.version || github.event.inputs.version }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.MATZBOT_GITHUB_WORKFLOW_TOKEN }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.MATZBOT_GITHUB_WORKFLOW_TOKEN }}
+          branch: releases/${{ github.event.client_payload.version || github.event.inputs.version }}
+          delete-branch: true
+          title: "Create release for ${{ github.event.client_payload.version || github.event.inputs.version }}"
+          body: "This is an automated pull request to create a release"
+          draft: true
