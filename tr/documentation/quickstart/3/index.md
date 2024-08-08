@@ -102,7 +102,7 @@ nesnenin değişkenlerine erişmek için kolay bir yol sunar.
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 Ruby’de bir sınıfı açıp değiştirebilirsiniz. Yapılan değişiklikler
