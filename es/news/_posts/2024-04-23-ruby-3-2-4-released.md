@@ -14,7 +14,6 @@ revise detalles en los temas siguientes.
 
 * [CVE-2024-27282: Lectura de direcciones de memoria arbitrarias al buscar Regex]({%link es/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
 * [CVE-2024-27281: Vulnerabilidad RCE con .rdoc_options en RDoc](https://www.ruby-lang.org/es/news/2024/03/21/rce-rdoc-cve-2024-27281/)
-* [CVE-2024-27280: Vulnerabilidad de sobre-lectura de buffer en StringIO](https://www.ruby-lang.org/es/news/2024/03/21/buffer-overread-cve-2024-27280/)
 
 Ver más detalles en la [publicación en Github](https://github.com/ruby/ruby/releases/tag/v3_2_4).
 

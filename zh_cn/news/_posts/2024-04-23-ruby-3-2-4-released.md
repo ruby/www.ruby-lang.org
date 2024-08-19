@@ -14,7 +14,6 @@ Ruby 3.2.4 已发布。
 
 * [CVE-2024-27282: Regex 搜索中的任意地址读取漏洞]({%link zh_cn/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
 * [CVE-2024-27281: RDoc 中 .rdoc_options 的 RCE 漏洞](https://www.ruby-lang.org/zh_cn/news/2024/03/21/rce-rdoc-cve-2024-27281/)
-* [CVE-2024-27280: StringIO 中的缓存过读漏洞](https://www.ruby-lang.org/zh_cn/news/2024/03/21/buffer-overread-cve-2024-27280/)
 
 您可以通过 [发布说明](https://github.com/ruby/ruby/releases/tag/v3_2_4) 获取进一步信息。
 
