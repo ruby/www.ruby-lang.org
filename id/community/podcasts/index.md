@@ -31,6 +31,6 @@ Anda juga dapat memulai *podcast* Ruby sendiri and menambahkan pada daftar
 berikut!
 
 [rooftop_ruby]: https://www.rooftopruby.com
-[remote_ruby]: https://remoteruby.transistor.fm/
+[remote_ruby]: https://www.remoteruby.com
 [rorpodcast]: https://www.therubyonrailspodcast.com
 [rogues]: https://rubyrogues.com
