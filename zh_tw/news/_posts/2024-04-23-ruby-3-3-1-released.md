@@ -14,7 +14,6 @@ Ruby 3.3.1 已經發布了。
 
 * [CVE-2024-27282: Regex 搜尋的任意記憶體位址讀取漏洞]({%link zh_tw/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
 * [CVE-2024-27281: RDoc 中 .rdoc_options 的 RCE 漏洞](https://www.ruby-lang.org/zh_tw/news/2024/03/21/rce-rdoc-cve-2024-27281/)
-* [CVE-2024-27280: StringIO 中的緩衝區 overread 漏洞](https://www.ruby-lang.org/zh_tw/news/2024/03/21/buffer-overread-cve-2024-27280/)
 
 詳細的變動請參閱 [GitHub 發布](https://github.com/ruby/ruby/releases/tag/v3_3_1)。
 
