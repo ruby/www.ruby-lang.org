@@ -143,7 +143,7 @@ If you have questions about Ruby the
 [39]: http://kapeli.com/dash
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
-[vscode]: https://code.visualstudio.com/
+[vscode]: https://code.visualstudio.com/docs/languages/ruby
 [eric]: https://eric-ide.python-projects.org/
 [kdevelop]: https://www.kdevelop.org/
 [kate]: https://kate-editor.org/
