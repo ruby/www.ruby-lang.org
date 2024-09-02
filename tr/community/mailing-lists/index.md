@@ -41,7 +41,7 @@ listeleri hakkında daha fazla bilgi için
 
 [guidelines]: ruby-talk-guidelines/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
-[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
-[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
-[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
+[3]: https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/archives/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/archives/list/ruby-doc@ml.ruby-lang.org/
 [rubytalk]: https://rubytalk.org/
