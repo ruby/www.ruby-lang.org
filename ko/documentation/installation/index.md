@@ -57,6 +57,7 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
 * [관리자](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
+  * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
   * [uru](#uru)
 * [소스에서 빌드하기](#building-from-source)
@@ -369,7 +370,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
-[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme

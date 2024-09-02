@@ -342,5 +342,5 @@ $ sudo make install
 [rubystack]: https://bitnami.com/stack/ruby/virtual-machine
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
-[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [uru]: https://bitbucket.org/jonforums/uru/src/master/
