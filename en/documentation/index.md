@@ -55,15 +55,6 @@ the [installation guide](installation/) for help on installing Ruby.
 : The official Ruby API documentation for different versions including
   the currently unreleased (trunk) version.
 
-[Ruby Core Reference][13]
-: Pulled straight from the source code using [RDoc][14], this reference
-  work documents all of the core classes and modules (like String,
-  Array, Symbol, etc…).
-
-[Ruby Standard Library Reference][15]
-: Also pulled from the source code using RDoc, this reference work
-  documents the standard library.
-
 [Ruby C API Reference][extensions]
 : The official introduction to Ruby's C API.
   Great if you want to write C extensions
@@ -72,12 +63,6 @@ the [installation guide](installation/) for help on installing Ruby.
 [RubyDoc.info][16]
 : The one-stop web site for reference documentation about Ruby gems and
   GitHub-hosted Ruby projects.
-
-[Ruby & Rails Searchable API Docs][17]
-: Rails and Ruby documentation with smart searching.
-
-[APIdock][18]
-: Ruby, Rails and RSpec documentation with users’ notes.
 
 [RubyAPI.org][rubyapi-org]
 : Easily find and browse Ruby classes, modules, and methods.
@@ -125,8 +110,6 @@ documentation sources.
 If you have questions about Ruby the
 [mailing list](/en/community/mailing-lists/) is a great place to start.
 
-
-
 [1]: https://try.ruby-lang.org/
 [2]: https://rubykoans.com/
 [5]: https://poignant.guide
@@ -135,13 +118,8 @@ If you have questions about Ruby the
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[13]: http://www.ruby-doc.org/core
-[14]: https://ruby.github.io/rdoc/
-[15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
-[18]: http://apidock.com/
 [rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
@@ -165,7 +143,7 @@ If you have questions about Ruby the
 [39]: http://kapeli.com/dash
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
-[vscode]: https://code.visualstudio.com/
+[vscode]: https://code.visualstudio.com/docs/languages/ruby
 [eric]: https://eric-ide.python-projects.org/
 [kdevelop]: https://www.kdevelop.org/
 [kate]: https://kate-editor.org/
