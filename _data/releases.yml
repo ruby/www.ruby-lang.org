@@ -54,7 +54,7 @@
 
 - version: 3.3.5
   date: 2024-09-03
-  post: /en/news/2024/09/03/ruby-3-3-5-released/
+  post: /en/news/2024/09/03/3-3-5-released/
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.5.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.5.zip
