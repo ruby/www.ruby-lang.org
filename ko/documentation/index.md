@@ -62,14 +62,6 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [공식 API 문서][docs-rlo-en]
 : 아직 릴리스되지 않은 트렁크를 포함한 여러 Ruby 버전의 공식 API 문서입니다.
 
-[Ruby 코어 레퍼런스][13] (영문)
-: [RDoc][14]을 이용해 소스에서 추출한 레퍼런스입니다. String, Array,
-  Symbol 등 모든 코어 클래스와 모듈에 대한 문서를 찾아볼 수 있습니다.
-
-[Ruby 표준 라이브러리][15] (영문)
-: 마찬가지로 RDoc을 이용해 소스에서 추출한 것으로 표준 라이브러리에
-  대한 레퍼런스입니다.
-
 [Ruby C API 레퍼런스][extensions] (영문)
 : Ruby의 공식 C API 문서입니다.
   Ruby 개발에 참여하거나, C 확장을 개발할 때 도움이 될 것입니다.
@@ -77,12 +69,6 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [RubyDoc.info][16] (영문)
 : Ruby gem과 GitHub에서 호스팅 되는 Ruby 프로젝트의 레퍼런스 문서들을
   모아놓은 사이트입니다.
-
-[Ruby & Rails Searchable API Docs][17] (영문)
-: 스마트 검색이 가능한 Ruby, Rails 문서입니다.
-
-[APIdock][18] (영문)
-: 유저의 댓글이 달린 Ruby, Rails, RSpec의 문서입니다.
 
 [Ruby API][40] (영문)
 : Ruby 클래스, 모듈, 메서드를 편하게 찾고 탐색하세요.
@@ -138,13 +124,8 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[13]: http://www.ruby-doc.org/core
-[14]: https://ruby.github.io/rdoc/
-[15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
-[18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
 [21]: http://www.emacswiki.org/emacs/RubyMode
@@ -168,7 +149,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [40]: https://rubyapi.org/
 [docs-rlo-en]: https://docs.ruby-lang.org/en/
 [atom]: https://atom.io/
-[vscode]: https://code.visualstudio.com/
+[vscode]: https://code.visualstudio.com/docs/languages/ruby
 [eric]: https://eric-ide.python-projects.org/
 [kdevelop]: https://www.kdevelop.org/
 [kate]: https://kate-editor.org/
