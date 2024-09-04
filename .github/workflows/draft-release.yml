@@ -16,6 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          path: www
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ruby/ruby
+          path: ruby
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -24,6 +31,11 @@ jobs:
       - name: Generate draft release entry
         run: |
           ruby lib/draft-release.rb ${{ github.event.client_payload.version || github.event.inputs.version }}
+
+      - name: Update data files
+        run: |
+          tool/format-release ../www ${{ github.event.client_payload.version || github.event.inputs.version }} .
+        working-directory: ruby
 
       - name: Create Commit
         run: |
@@ -43,3 +55,5 @@ jobs:
           title: "Create release for ${{ github.event.client_payload.version || github.event.inputs.version }}"
           body: "This is an automated pull request to create a release"
           draft: true
+
+      working-directory: www
