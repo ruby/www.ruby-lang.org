@@ -193,7 +193,7 @@ comp.lang.ruby는 2000년 5월에 설립되었습니다.
 Ruby에 대해 이야기하는 여러 메일링 리스트가 있습니다.
 자세한 내용은 [메일링 리스트](/ko/community/mailing-lists/) 페이지를 참조하세요.
 
-<https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/>를
+<https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/>를
 사용하여 메일링 리스트 아카이브를 검색할 수 있습니다. (이것은 ruby-talk 메일링 리스트의
 URL이며, 다른 메일링 리스트를 원하면 변경해서 사용하세요.)
 

@@ -51,7 +51,7 @@ termasuk daftar milis dalam bahasa Jepang.
 [1]: http://id.wikipedia.org/wiki/Milis "Group diskusi di internet dimana setiap orang bisa berlangganan dan berpartisipasi didalamnya."
 [2]: http://groups.yahoo.com/group/id-ruby/
 [3]: http://www.mail-archive.com/id-ruby@yahoogroups.com/
-[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
-[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
-[6]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/archives/list/ruby-core@ml.ruby-lang.org/
+[6]: https://ml.ruby-lang.org/archives/list/ruby-doc@ml.ruby-lang.org/
 [rubytalk]: https://rubytalk.org/

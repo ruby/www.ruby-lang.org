@@ -50,9 +50,9 @@ einschließlich der Listen in japanischer Sprache.
 
 [guidelines]: /en/community/mailing-lists/ruby-talk-guidelines/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
-[3]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-talk@ml.ruby-lang.org/
-[4]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-core@ml.ruby-lang.org/
-[5]: https://ml.ruby-lang.org/mailman3/hyperkitty/list/ruby-doc@ml.ruby-lang.org/
+[3]: https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/archives/list/ruby-core@ml.ruby-lang.org/
+[5]: https://ml.ruby-lang.org/archives/list/ruby-doc@ml.ruby-lang.org/
 [6]: http://lists.ruby-lang.org/cgi-bin/mailman/listinfo/ruby-de
 [7]: http://lists.ruby-lang.org/pipermail/ruby-de/
 [8]: http://planet.ruby-portal.de/ruby-de.html

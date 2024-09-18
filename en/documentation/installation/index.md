@@ -58,6 +58,7 @@ Here are available installation methods:
   * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
+  * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
   * [uru](#uru)
 * [Building from source](#building-from-source)
@@ -391,7 +392,7 @@ though, because the installed Ruby won't be managed by any tools.
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
-[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme

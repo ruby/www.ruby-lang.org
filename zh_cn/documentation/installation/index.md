@@ -35,6 +35,7 @@ lang: zh_cn
 * [管理工具](#managers)
   * [chruby](#chruby)
   * [rbenv](#rbenv)
+  * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
   * [uru](#uru)
 * [通过源码编译安装](#building-from-source)
@@ -214,7 +215,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv#readme
-[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme

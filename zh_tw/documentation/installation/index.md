@@ -325,7 +325,7 @@ $ sudo make install
 
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
-[rbenv-for-windows]: https://github.com/ccmywish/rbenv-for-windows#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby
