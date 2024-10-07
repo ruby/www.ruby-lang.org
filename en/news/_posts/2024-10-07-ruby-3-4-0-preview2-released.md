@@ -9,7 +9,6 @@ lang: en
 
 {% assign release = site.data.releases | where: "version", "3.4.0-preview2" | first %}
 We are pleased to announce the release of Ruby {{ release.version }}.
-In
 
 ## Prism
 
