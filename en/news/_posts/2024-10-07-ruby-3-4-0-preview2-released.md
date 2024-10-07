@@ -17,8 +17,8 @@ Switch the default parser from parse.y to Prism. [[Feature #20564]]
 
 ## Language changes
 
-* String literals in files without a `frozen_string_literal` comment now behave
-  as if they were frozen. If they are mutated a deprecation warning is emitted.
+* String literals in files without a `frozen_string_literal` comment now emit a deprecation warning
+  when they are mutated.
   These warnings can be enabled with `-W:deprecated` or by setting `Warning[:deprecated] = true`.
   To disable this change, you can run Ruby with the `--disable-frozen-string-literal`
   command line argument. [[Feature #20205]]
@@ -66,6 +66,9 @@ Note: Excluding feature bug fixes.
           from test.rb:2:in `<main>'
   ```
 
+* `Hash#inspect` rendering has changed. [[Bug #20433]]
+  * Symbol keys are displayed using the modern symbol key syntax: `"{user: 1}"`
+  * Other keys now have spaces around `=>`: `'{"user" => 1}'`, while previously they didn't: `'{"user"=>1}'`
 
 ## C API updates
 
@@ -142,3 +145,4 @@ and is used all over the world especially for web development.
 [Feature #20265]: https://bugs.ruby-lang.org/issues/20265
 [Feature #20429]: https://bugs.ruby-lang.org/issues/20429
 [Feature #20564]: https://bugs.ruby-lang.org/issues/20564
+[Bug #20433]:     https://bugs.ruby-lang.org/issues/20433
