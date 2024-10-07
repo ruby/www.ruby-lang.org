@@ -21,6 +21,35 @@
 
 # 3.4 series
 
+- version: 3.4.0-preview2
+  date: 2024-10-07
+  post: /en/news/2024/10/07/ruby-3-4-0-preview2-released/
+  tag: v3_4_0_preview2
+  stats:
+    files_changed: 4422
+    insertions: 163889
+    deletions: 243380
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.0-preview2.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.0-preview2.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.0-preview2.tar.xz
+  size:
+    gz:  22722332
+    zip: 28101194
+    xz:  16878876
+  sha1:
+    gz:  c23265acf6c07b4c1df1e41eebf8b4cf2f25b97b
+    zip: 479bd223bca3225fb3a15984e3eae4efb9a40189
+    xz:  dbff404b969012702dc500cac72f4d6b3822068e
+  sha256:
+    gz:  443cd7ec54ade4786bc974ce9f5d49f172a60f8edc84b597b7fe2bd2a94b8371
+    zip: e00a6fbf6f9e25a725711a8aac7e38be6bed61de4db9862a405172b96bf38b5b
+    xz:  626bf4fe952323c15ec9a8999f470ec136ef91c0fc34c484646aaaa9a0b62ca7
+  sha512:
+    gz:  0946d256587597bdf13437a50f7a3298c151133edea161a1c4806a04dcbd8c2e8a7fd617f3eda16c5c05f6e6346317562cc30ba67698f1fdd92237c03bdbd23e
+    zip: 0d9ee1c41920e4d594b0f2c40d02339b4e9a2cd5232f5ee914cab5a685cb4a2279fbbfd8fbad40ef0a53866db4e1de96068c62580ede6d8fab02550393bcbe81
+    xz:  f23257896a35d3a581cbf5e8c94fe28e45725e39608a7669f47f31085338b1b4929a4db40d826d8fee628afb97b0c25b2f9e7bda4cd42e80c1208c46caf54265
+
 - version: 3.4.0-preview1
   date: 2024-05-16
   post: /en/news/2024/05/16/ruby-3-4-0-preview1-released/
