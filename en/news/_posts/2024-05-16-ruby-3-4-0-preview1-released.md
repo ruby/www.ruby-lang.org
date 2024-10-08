@@ -59,7 +59,7 @@ Note: Excluding feature bug fixes.
 
   New:
   test.rb:1:in 'Object#foo': undefined method 'time' for an instance of Integer
-          from test.rb:2:in `<main>'
+          from test.rb:2:in '<main>'
   ```
 
 
