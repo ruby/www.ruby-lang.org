@@ -114,7 +114,7 @@ If you have questions about Ruby the
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
 [9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
-[10]: http://pragmaticprogrammer.com/titles/ruby/index.html
+[10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
