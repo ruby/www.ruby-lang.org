@@ -54,7 +54,7 @@ lang: zh_tw
 
   新:
   test.rb:1:in 'Object#foo': undefined method 'time' for an instance of Integer
-          from test.rb:2:in `<main>'
+          from test.rb:2:in '<main>'
   ```
 
 

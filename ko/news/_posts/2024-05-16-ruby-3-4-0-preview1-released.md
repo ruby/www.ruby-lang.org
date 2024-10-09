@@ -60,7 +60,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
 
   New:
   test.rb:1:in 'Object#foo': undefined method 'time' for an instance of Integer
-          from test.rb:2:in `<main>'
+          from test.rb:2:in '<main>'
   ```
 
 
