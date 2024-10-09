@@ -9,10 +9,10 @@ layout: null
 # Son superfluos:
 #
 # * Un método "main"
-# * Nueva linea
+# * Nueva línea
 # * Punto y coma
 #
-# Aqui esta el código:
+# Aquí está el código:
 
 puts "¡Hola Mundo!"
 {% endhighlight %}
