@@ -100,8 +100,6 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 
 * Windows
   * [Notepad++][29]
-  * [E-TextEditor][30]
-  * [Ruby In Steel][31]
 
 * macOS
   * [TextMate][32]
@@ -137,8 +135,6 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 [27]: http://www.jetbrains.com/ruby/
 [28]: http://www.scintilla.org/SciTE.html
 [29]: http://notepad-plus-plus.org/
-[30]: http://www.e-texteditor.com/
-[31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org
