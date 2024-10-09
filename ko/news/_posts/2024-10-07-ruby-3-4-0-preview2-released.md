@@ -1,60 +1,60 @@
 ---
 layout: news_post
-title: "Ruby 3.4.0 preview2 Released"
+title: "Ruby 3.4.0 preview2 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2024-10-07 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "3.4.0-preview2" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
 
 ## Prism
 
-Switch the default parser from parse.y to Prism. [[Feature #20564]]
+parse.y에서 Prism으로 기본 파서를 변경했습니다. [[Feature #20564]]
 
-## Language changes
+## 언어 변경
 
-* String literals in files without a `frozen_string_literal` comment now emit a deprecation warning
-  when they are mutated.
-  These warnings can be enabled with `-W:deprecated` or by setting `Warning[:deprecated] = true`.
-  To disable this change, you can run Ruby with the `--disable-frozen-string-literal`
-  command line argument. [[Feature #20205]]
+* 파일에 `frozen_string_literal` 주석이 없을 때, 문자열 리터럴이 변경되면
+  폐기 예정 경고를 출력합니다.
+  이 경고는 `-W:deprecated`나 `Warning[:deprecated] = true` 설정을 통해 활성화할 수 있습니다.
+  이 변경을 무효화하고 싶다면 Ruby를 실행할 때 `--disable-frozen-string-literal` 커맨드라인 인수를
+  사용하세요. [[Feature #20205]]
 
-* `it` is added to reference a block parameter. [[Feature #18980]]
+* 블록 인자를 가리키는 `it`이 추가됩니다. [[Feature #18980]]
 
-* Keyword splatting `nil` when calling methods is now supported.
-  `**nil` is treated similarly to `**{}`, passing no keywords,
-  and not calling any conversion methods.  [[Bug #20064]]
+* 메서드 호출 시에 `nil`에 키워드 스플랫을 지원합니다.
+  `**nil`은 `**{}`와 비슷하게 동작하며, 키워드를 넘기지 않으며,
+  어떤 변환 메서드도 호출하지 않습니다. [[Bug #20064]]
 
-* Block passing is no longer allowed in index.  [[Bug #19918]]
+* 블록을 인덱스로 사용할 수 없게 됩니다. [[Bug #19918]]
 
-* Keyword arguments are no longer allowed in index.  [[Bug #20218]]
+* 키워드 인수를 인덱스로 사용할 수 없게 됩니다. [[Bug #20218]]
 
-## Core classes updates
+## 코어 클래스 변경
 
-Note: We're only listing outstanding class updates.
+주의: 눈에 띄는 클래스 변경만을 포함합니다.
 
 * Exception
 
-  * `Exception#set_backtrace` now accepts an array of `Thread::Backtrace::Location`.
-    `Kernel#raise`, `Thread#raise` and `Fiber#raise` also accept this new format. [[Feature #13557]]
+  * `Exception#set_backtrace`는 이제 `Thread::Backtrace::Location`의 배열을 입력으로 받을 수 있습니다.
+    `Kernel#raise`, `Thread#raise`와 `Fiber#raise`도 같은 형식의 입력을 받습니다. [[Feature #13557]]
 
 * Range
 
-  * `Range#size` now raises `TypeError` if the range is not iterable. [[Misc #18984]]
+  * `Range#size`는 이제 범위가 순회 가능하지 않다면 `TypeError`를 던집니다. [[Misc #18984]]
 
 
 
-## Compatibility issues
+## 호환성 문제
 
-Note: Excluding feature bug fixes.
+주의: 기능 버그 수정은 포함되어 있지 않습니다.
 
-* Error messages and backtrace displays have been changed.
-  * Use a single quote instead of a backtick as a opening quote. [[Feature #16495]]
-  * Display a class name before a method name (only when the class has a permanent name). [[Feature #19117]]
-  * `Kernel#caller`, `Thread::Backtrace::Location`'s methods, etc. are also changed accordingly.
+* 에러 메시지와 백트레이스의 출력 결과가 변경됩니다.
+  * 인용 시작 부분을 나타내던 백틱 대신 작은 따옴표를 사용합니다. [[Feature #16495]]
+  * 메서드 이름 앞에 클래스 이름을 출력합니다(클래스가 불변하는 이름을 가지고 있다면). [[Feature #19117]]
+  * `Kernel#caller`, `Thread::Backtrace::Location`의 메서드 등도 마찬가지로 변경됩니다.
 
   ```
   Old:
@@ -66,42 +66,42 @@ Note: Excluding feature bug fixes.
           from test.rb:2:in '<main>'
   ```
 
-* `Hash#inspect` rendering has changed. [[Bug #20433]]
-  * Symbol keys are displayed using the modern symbol key syntax: `"{user: 1}"`
-  * Other keys now have spaces around `=>`: `'{"user" => 1}'`, while previously they didn't: `'{"user"=>1}'`
+* `Hash#inspect` 결과가 변경되었습니다. [[Bug #20433]]
+  * 심볼 키는 최신 심볼 키 구문을 사용하여 표시됩니다. 예시: `"{user: 1}"`
+  * 다른 키는 `=>` 주변에 공백이 추가되었습니다. 예시: `'{"user" => 1}'`. 이전에는 그렇지 않았습니다. 예시: `'{"user"=>1}'`.
 
-## C API updates
+## C API 변경
 
-* `rb_newobj` and `rb_newobj_of` (and corresponding macros `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`) have been removed. [[Feature #20265]]
-* Removed deprecated function `rb_gc_force_recycle`. [[Feature #18290]]
+* `rb_newobj`와 `rb_newobj_of`(그리고 대응하는 매크로인 `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`)가 삭제됩니다. [[Feature #20265]]
+* 폐기 예정인 `rb_gc_force_recycle` 함수가 삭제됩니다. [[Feature #18290]]
 
-## Implementation improvements
+## 구현 개선
 
-* `Array#each` is rewritten in Ruby for better performance [[Feature #20182]].
+* `Array#each`를 더 나은 성능을 위해 Ruby로 재작성했습니다. [[Feature #20182]]
 
-## Miscellaneous changes
+## 그 이외의 변경
 
-* Passing a block to a method which doesn't use the passed block will show
-  a warning on verbose mode (`-w`).
+* 상세 모드(`-w`)에서 메서드에 넘긴 블록이 사용되지 않았을 때
+  경고를 출력합니다.
   [[Feature #15554]]
 
-* Redefining some core methods that are specially optimized by the interpeter
-  and JIT like `String.freeze` or `Integer#+` now emits a performance class
-  warning (`-W:performance` or `Warning[:performance] = true`).
+* `String.freeze`나 `Integer#+`처럼 인터프리터와 JIT이 특별히 최적화하는
+  몇몇 코어 메서드를 재정의하면 성능 클래스
+  경고(`-W:performance`나 `Warning[:performance] = true`)를 출력합니다.
   [[Feature #20429]]
 
-See GitHub releases like [Logger](https://github.com/ruby/logger/releases) or
-changelog for details of the default gems or bundled gems.
+기본 gem 또는 내장 gem에 대한 자세한 내용은 [Logger](https://github.com/ruby/logger/releases)와 같은
+GitHub 릴리스 또는 변경 로그에서 확인하세요.
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
-for more details.
+더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})를
+확인해 주세요.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
-since Ruby 3.3.0!
+이러한 변경사항에 따라, Ruby 3.3.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
 
-## Download
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -124,11 +124,11 @@ since Ruby 3.3.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby는 1993년에 Matz(마츠모토 유키히로) 씨가 처음 개발했고,
+현재는 오픈 소스로서 개발되고 있습니다. 여러 플랫폼에서 동작하며,
+특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
 
 [Feature #13557]: https://bugs.ruby-lang.org/issues/13557
 [Feature #15554]: https://bugs.ruby-lang.org/issues/15554
