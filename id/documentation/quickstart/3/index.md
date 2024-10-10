@@ -106,7 +106,7 @@ Ruby menyediakan cara yang mudah untuk mengakses variabel objek.
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 Di Ruby, Anda dapat membuka lagi sebuah kelas dan memodifikasi kelas tersebut.

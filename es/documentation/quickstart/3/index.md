@@ -104,7 +104,7 @@ una forma fácil para permitir acceder a las variables de un objeto.
 irb(main):044:0> class Anfitrion
 irb(main):045:1>   attr_accessor :nombre
 irb(main):046:1> end
-=> nil
+=> [:nombre, :nombre=]
 {% endhighlight %}
 
 En Ruby, puedes volver a abrir una clase y modificarla. Eso no cambia
