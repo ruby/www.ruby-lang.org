@@ -240,7 +240,7 @@ Nov. 2001.
 [ror]: http://rubyonrails.org/
 [linuxdevcenter]: http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html
 [artima]: http://www.artima.com/intv/closures2.html
-[tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[tiobe]: https://www.tiobe.com/tiobe-index/
 [jruby]: http://jruby.org
 [rubinius]: http://rubini.us
 [mruby]: http://www.mruby.org/
