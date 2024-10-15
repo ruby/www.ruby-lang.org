@@ -12,6 +12,10 @@ Guides, tutorials, and reference material to help you learn more about Ruby
 Although you can easily [try Ruby in your browser][1], you can also read
 the [installation guide](installation/) for help on installing Ruby.
 
+### Ruby Language Documentation
+
+The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-en] is the place to start if you want to understand Ruby. It covers all aspects of the language and should be the first place you look when learning or referencing Ruby programming language. Other resources listed below are complementary to the official language documentation or they present Ruby documentation in a different format/style/flavor.
+
 ### Getting Started
 
 [Official FAQ](/en/documentation/faq/)
@@ -52,7 +56,7 @@ the [installation guide](installation/) for help on installing Ruby.
 ### Reference Documentation
 
 [Official API Documentation][docs-rlo-en]
-: The official Ruby API documentation for different versions including
+: The official Ruby language documentation for different versions including
   the currently unreleased (trunk) version.
 
 [Ruby C API Reference][extensions]
