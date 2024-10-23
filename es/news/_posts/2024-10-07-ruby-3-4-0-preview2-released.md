@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.4.0 preview2 Released"
+title: "Publicado Ruby 3.4.0 preview2"
 author: "naruse"
 translator: vtamara
 date: 2024-10-07 00:00:00 +0000
@@ -108,8 +108,9 @@ Nota: Excluyendo correcciones a fallas.
   (`-W:performance` o `Warning[:performance] = true`).
   [[Característica #20429]]
 
-En la publicación en Github como [Logger](https://github.com/ruby/logger/releases) o en la bitácora de cambios pueden verse detalles de las gemas
-predeterminadas y las gemas incluidas.
+Ver publicaciones de nuevas versiones en Github de 
+[Logger](https://github.com/ruby/logger/releases) o la bitácora de cambios 
+para ver detalles de las gemas predeterminadas y las gemas incluidas.
 
 Ver más detalles en
 [NOTICIAS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
