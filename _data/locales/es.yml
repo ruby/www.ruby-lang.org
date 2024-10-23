@@ -27,7 +27,7 @@ search:
 
 sidebar:
   get_started:
-    text: <strong>Iníciate</strong>, ¡es fácil!
+    text: <strong>Comienza</strong>, ¡es fácil!
     try_ruby:
       text: ¡Prueba Ruby! (en tu navegador)
       url: https://try.ruby-lang.org/
