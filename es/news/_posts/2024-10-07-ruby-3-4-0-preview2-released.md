@@ -108,8 +108,8 @@ Nota: Excluyendo correcciones a fallas.
   (`-W:performance` o `Warning[:performance] = true`).
   [[Característica #20429]]
 
-Ver publicaciones de nuevas versiones en Github de 
-[Logger](https://github.com/ruby/logger/releases) o la bitácora de cambios 
+Ver publicaciones de nuevas versiones en Github de
+[Logger](https://github.com/ruby/logger/releases) o la bitácora de cambios
 para ver detalles de las gemas predeterminadas y las gemas incluidas.
 
 Ver más detalles en
