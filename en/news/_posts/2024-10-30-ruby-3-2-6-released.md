@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 3.2.6 Released"
 author: nagachika
 translator:
-date: 2024-10-30 19:27:22 +0900
+date: 2024-10-30 10:00:00 +0000
 lang: en
 ---
 
