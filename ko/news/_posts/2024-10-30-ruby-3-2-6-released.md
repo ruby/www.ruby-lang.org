@@ -9,7 +9,7 @@ lang: ko
 
 Ruby 3.2.6이 릴리스되었습니다.
 
-자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_2_6)을 참조하세요.
+자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_2_6)를 참조하세요.
 
 ## 다운로드
 
