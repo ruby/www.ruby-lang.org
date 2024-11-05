@@ -1,15 +1,17 @@
 ---
 layout: news_post
 title: "Ruby 3.3.6 Released"
-author:
+author: k0kubun
 translator:
-date: 2024-11-05 01:53:45 +0000
+date: 2024-11-05 04:25:00 +0000
 lang: en
 ---
 
 Ruby 3.3.6 has been released.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_6) for further details.
+This is a routine update that includes minor bug fixes.
+It also stops warning missing default gem dependencies that will be bundled gems in Ruby 3.5.
+For more details, please refer to the [GitHub release notes](https://github.com/ruby/ruby/releases/tag/v3_3_6).
 
 ## Download
 
