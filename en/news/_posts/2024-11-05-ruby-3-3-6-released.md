@@ -13,6 +13,12 @@ This is a routine update that includes minor bug fixes.
 It also stops warning missing default gem dependencies that will be bundled gems in Ruby 3.5.
 For more details, please refer to the [GitHub release notes](https://github.com/ruby/ruby/releases/tag/v3_3_6).
 
+## Release Schedule
+
+As previously [announced](https://www.ruby-lang.org/en/news/2024/07/09/ruby-3-3-4-released/), we intend to release the latest stable Ruby version (currently Ruby 3.3) every 2 months following a `.1` release.
+
+We expect to release Ruby 3.3.7 on January 7th. If any significant changes arise that impact a large number of users, we may release a new version earlier than scheduled.
+
 ## Download
 
 {% assign release = site.data.releases | where: "version", "3.3.6" | first %}
