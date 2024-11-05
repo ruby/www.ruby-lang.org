@@ -11,7 +11,7 @@ Ruby 3.3.6 has been released.
 
 This is a routine update that includes minor bug fixes.
 It also stops warning missing default gem dependencies that will be bundled gems in Ruby 3.5.
-For more details, please refer to the [GitHub release notes](https://github.com/ruby/ruby/releases/tag/v3_3_6).
+For more details, please refer to [the release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_6).
 
 ## Release Schedule
 
