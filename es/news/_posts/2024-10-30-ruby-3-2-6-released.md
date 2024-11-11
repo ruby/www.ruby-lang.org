@@ -38,7 +38,7 @@ Por favor vea detalles en la [publicación en GitHub](https://github.com/ruby/ru
 
 ## Comentario de la versión
 
-Muchos contribuidores, desarrolladores y usuarios que proveyeron reportes de 
+Muchos contribuidores, desarrolladores y usuarios que proveyeron reportes de
 fallas nos ayudaron a producir esta versión.
 
 Gracias por sus contribuciones.
