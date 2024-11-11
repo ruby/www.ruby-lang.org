@@ -10,7 +10,7 @@ lang: es
 Ruby 3.3.6 ha sido publicado.
 
 Esta es una actualización de rutina que incluye soluciones a fallas menores.
-También detiene las advertencias sobre dependencias faltantes de gemas 
+También detiene las advertencias sobre dependencias faltantes de gemas
 predeterminadas que serán gemas incluidas en Ruby 3.5.
 
 Para ver más detalles, por favor refiérase a
