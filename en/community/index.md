@@ -36,10 +36,8 @@ to start:
 : Now is a fantastic time to follow Ruby’s development.
   If you are interested in helping with Ruby, start here.
 
-[Ruby Blogs](weblogs/)
-: Very little happens in the Ruby community that is not talked about on
-  the blogs. We’ve got a nice list of suggestions for you here for
-  getting plugged in.
+[Ruby Blogs and Newsletters](weblogs/)
+: Most activities and updates in the Ruby community are discussed through blogs and newsletters. Here’s a curated list to help you stay connected and informed.
 
 [Ruby Conferences](conferences/)
 : Ruby programmers around the world are getting involved in more and

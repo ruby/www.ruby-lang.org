@@ -65,7 +65,7 @@ sidebar:
       url: /en/community/user-groups/
       description: Get in contact with Rubyists in your area.
     weblogs:
-      text: Blogs
+      text: Blogs and Newsletters
       url: /en/community/weblogs/
       description: Read about what’s happening right now in the Ruby community.
     ruby_core:
