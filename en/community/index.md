@@ -53,14 +53,8 @@ to start:
   use their podcasts to cover new releases, community news, and
   interview their fellow Ruby developers.
 
-General Ruby Information
-: * [Ruby Central][ruby-central]
-  * [Ruby at Open Directory Project][ruby-opendir]
-  * [Rails at Open Directory Project][rails-opendir]
-
-
+[Ruby Central][ruby-central]
+: Ruby Central is a non-profit organization dedicated to supporting the worldwide Ruby community.
 
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
