@@ -30,7 +30,7 @@ updates.
 * [**DEV Ruby Tag**][dev-ruby-tag] is the collection of all posts
   tagged Ruby within the DEV Community. DEV is a network of thousands
   of software developers who blog about and discuss code.
-* [**Riding Rails**][riding-rails] is the official group blog of the
+* [**Ruby on Rails Blog**][ruby-on-rails-blog] is the official group blog of the
   Ruby on Rails team. If you are running Rails, this blog is essential
   for notification of security updates and an overall view of the wide
   Rails community.
@@ -49,7 +49,7 @@ out there, be sure to share!
 [rubyland]: http://rubyland.news/
 [ruby-weekly]: https://rubyweekly.com/
 [dev-ruby-tag]: https://dev.to/t/ruby
-[riding-rails]: https://rubyonrails.org/blog/
+[ruby-on-rails-blog]: https://rubyonrails.org/blog/
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/
 [short-ruby-newsletter]: https://newsletter.shortruby.com/
