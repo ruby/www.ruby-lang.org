@@ -10,7 +10,7 @@ lang: zh_tw
 Ruby 3.3.6 已經發布了。
 
 這是包括修復小型錯誤的例行更新。
-此版本會停止警告缺少預設 gems 的依賴項目，如果這些項目將在 Ruby 3.5 被 bundled。
+此版本也停止有關缺少預設 gem 依賴項目的警告，這些 gems 將在 Ruby 3.5 成為 bundled gems。
 詳細的變動請參閱 [GitHub 發布](https://github.com/ruby/ruby/releases/tag/v3_3_6)。
 
 ## 發布時程
