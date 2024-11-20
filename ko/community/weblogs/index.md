@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "Blogs and Newsletters"
+title: "블로그와 뉴스레터"
 lang: ko
 ---
 
-Ruby blogs and newsletters have exploded over the past years and given
-sufficient hunting, you can unearth hundreds of blogs sharing bits of
-Ruby code, describing new techniques, or speculating on Ruby’s future.
+Ruby 블로그와 뉴스레터는 지난 몇 년간 폭발적으로 많아졌고, 풍부한 읽을거리를
+제공합니다. 당신은 수백 개의 블로그에서 제공하는 Ruby 코드조각,
+새로운 기술에 대한 설명, Ruby의 미래에 대한 추측 등을 발굴할 수 있습니다.
 {: .summary}
 
-### Newsletters
+### 뉴스레터
 
-* [**Ruby Weekly**][ruby-weekly]: A newsletter that curates the most interesting Ruby articles and news each week.
-* [**Short Ruby Newsletter**][short-ruby-newsletter]: A weekly summary of the articles, discussions, and news from the Ruby community.
+* [**Ruby Weekly**][ruby-weekly]는 매주 흥미로운 Ruby 기사나 뉴스를 엄선해 제공하는 뉴스레터입니다.
+* [**Short Ruby Newsletter**][short-ruby-newsletter]는 Ruby 커뮤니티의 기사, 토론 및 뉴스를 주간 요약입니다.
 
 ### Ruby 블로그 발굴하기
 
@@ -29,10 +29,9 @@ Ruby code, describing new techniques, or speculating on Ruby’s future.
 * [**DEV Ruby Tag**][dev-ruby-tag]는 DEV 커뮤니티에서 Ruby 태그가 붙어있는 모든
   글의 모음입니다. DEV는 코드에 대해서 글을 쓰거나 토론하는 수천 명의
   개발자들의 모임입니다.
-* [**Ruby on Rails Blog**][ruby-on-rails-blog] is the official group blog of the
-  Ruby on Rails team. If you are running Rails, this blog is essential
-  for notification of security updates and an overall view of the wide
-  Rails community.
+* [**Ruby on Rails Blog**][ruby-on-rails-blog]는 Ruby on Rails 팀의 공식 그룹
+  블로그입니다. Rails를 이용하고 있다면 이 블로그는 보안 업데이트 알림과
+  광범위한 Rails 커뮤니티에 대한 전반적인 정보를 얻는 데 필수입니다.
 
 ### 널리 알리기
 
