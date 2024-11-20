@@ -1,14 +1,18 @@
 ---
 layout: page
-title: "블로그"
+title: "Blogs and Newsletters"
 lang: ko
 ---
 
-Ruby 블로그들은 지난 몇 년간 폭발적으로 많아졌고, 풍부한 읽을거리를
-제공합니다. 당신은 수백 개의 블로그에서 제공하는 Ruby 코드조각,
-새로운 기술에 대한 설명, Ruby의 미래에 대한 추측 등을 발굴할 수
-있습니다.
+Ruby blogs and newsletters have exploded over the past years and given
+sufficient hunting, you can unearth hundreds of blogs sharing bits of
+Ruby code, describing new techniques, or speculating on Ruby’s future.
 {: .summary}
+
+### Newsletters
+
+* [**Ruby Weekly**][ruby-weekly]: A newsletter that curates the most interesting Ruby articles and news each week.
+* [**Short Ruby Newsletter**][short-ruby-newsletter]: A weekly summary of the articles, discussions, and news from the Ruby community.
 
 ### Ruby 블로그 발굴하기
 
@@ -22,14 +26,13 @@ Ruby 블로그들은 지난 몇 년간 폭발적으로 많아졌고, 풍부한 �
 
 업데이트 빈도나 속도에 주목할 만한 블로그들
 
-* [**Ruby Weekly**][ruby-weekly]는 블로그라기보다는 뉴스레터에 가까움에도
-  불구하고, Ruby Weekly는 매주 흥미로운 Ruby 기사나 뉴스를 제공합니다.
 * [**DEV Ruby Tag**][dev-ruby-tag]는 DEV 커뮤니티에서 Ruby 태그가 붙어있는 모든
   글의 모음입니다. DEV는 코드에 대해서 글을 쓰거나 토론하는 수천 명의
   개발자들의 모임입니다.
-* [**Riding Rails**][riding-rails]는 Ruby on Rails 팀의 공식 그룹 블로그입니다.
-  Rails를 이용하고 있다면, 이 블로그는 보안 업데이트를 받아 보거나 넓은 Rails 커뮤니티를
-  전망하기에 필수입니다.
+* [**Ruby on Rails Blog**][ruby-on-rails-blog] is the official group blog of the
+  Ruby on Rails team. If you are running Rails, this blog is essential
+  for notification of security updates and an overall view of the wide
+  Rails community.
 
 ### 널리 알리기
 
@@ -43,6 +46,7 @@ Ruby는 [reddit][reddit], [Hacker News][hn]의 프로그래밍 뉴스에서도
 [rubyland]: http://rubyland.news/
 [ruby-weekly]: https://rubyweekly.com/
 [dev-ruby-tag]: https://dev.to/t/ruby
-[riding-rails]: http://weblog.rubyonrails.org/
+[ruby-on-rails-blog]: https://rubyonrails.org/blog/
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/
+[short-ruby-newsletter]: https://newsletter.shortruby.com/
