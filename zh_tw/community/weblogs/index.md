@@ -20,7 +20,7 @@ Ruby 部落格與電子報在過去幾年成爆炸性成長，你可以在網路
 
 ### 著名的部落格
 
-一些因為更新頻率與即時性的著名部落格
+時常更新的著名部落格
 
 * [**DEV Ruby Tag**][dev-ruby-tag]: 在 DEV 社群中標記為 Ruby 的文章列表。 DEV 有上千名軟體開發人員發布與討論程式碼文章。
 * [**Ruby on Rails Blog**][ruby-on-rails-blog]: Ruby on Rails 團隊的官方部落格。如果你正在使用 Rails，這個部落格可以獲得安全更新通知與 Rails 社群的發展願景。
