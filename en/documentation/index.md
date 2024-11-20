@@ -18,48 +18,56 @@ The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-e
 
 ### Getting Started
 
-[Official FAQ](/en/documentation/faq/)
-: The official frequently asked questions.
-
-[Ruby Koans][2]
-: The Koans walk you along the path to enlightenment in order to learn
-  Ruby. The goal is to learn the Ruby language, syntax, structure, and
-  some common functions and libraries. We also teach you culture.
-
-[Why’s (Poignant) Guide to Ruby][5]
-: An unconventional but interesting book that will teach you Ruby
-  through stories, wit, and comics. Originally created by *why the lucky
-  stiff*, this guide remains a classic for Ruby learners.
-
-[Ruby Essentials][7]
-: A free on-line book designed to provide a concise
-  and easy to follow guide to learning Ruby.
+[Try Ruby][1]
+: You can try Ruby right in your browser.
 
 [Learn to Program][8]
 : A wonderful little tutorial by Chris Pine for programming newbies. If
   you don’t know how to program, start here.
 
-[Learn Ruby the Hard Way][38]
-: A very good set of exercises with explanations that guide you from
-  the absolute basics of Ruby all the way to OOP and web development.
+[Ruby in Twenty Minutes][rubyin20]
+: A small Ruby tutorial that should take no more than 20 minutes to
+  complete.
 
-### Manuals
+[The Odin Project][odin]
+: An open source full stack curriculum
 
-[Programming Ruby][9]
-: The seminal work on Ruby in English, this first edition of the
-  [Pragmatic Programmers’ book][10] is available for free online.
+[excercism][exercism]
+: 120 exercises with automatic analysis and personal mentoring.
 
-[The Ruby Programming Wikibook][12]
-: A free online manual with beginner and intermediate content plus a
-  thorough language reference.
+[Codecademy][codecademy]
+: Online code bootcamp with a variety of topics. Freeish.
+
+### Manuals / Books
+
+#### Beginner
+
+[Programming Ruby 3.3][pickaxe]
+: The seminal work on Ruby in English. Recently updated to Ruby 3.3.
+
+[The Well-Grounded Rubyist][grounded]
+: A tutorial that begins with your first Ruby program and takes you all the way to sophisticated topics like reflection, threading, and recursion.
+
+#### Intermediate
+
+[Practical OOD in Ruby (POODR)][poodr]
+: A programmer's tale about how to write object-oriented code.
+
+#### Expert
+
+[Metaprogramming][meta]
+: Explains metaprogramming in a down-to-earth style.
+
+[Ruby Under a Microscope (RUM)][microscope]
+: An illustrated guide to Ruby internals.
 
 ### Reference Documentation
 
-[Official API Documentation][docs-rlo-en]
+[Official API Documentation][docs-rlo-en] [(JP)][docs-rlo-jp]
 : The official Ruby language documentation for different versions including
   the currently unreleased (trunk) version.
 
-[Ruby C API Reference][extensions]
+[Ruby C API Reference][extensions] [(JP)][extensions-jp]
 : The official introduction to Ruby's C API.
   Great if you want to write C extensions
   or contribute to Ruby’s development.
@@ -71,6 +79,61 @@ The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-e
 [RubyAPI.org][rubyapi-org]
 : Easily find and browse Ruby classes, modules, and methods.
 
+[ruby-doc.org][39]
+: Online API documentation
+
+[DevDocs.io][40]
+: Online API documentation
+
+[Ruby QuickRef][42]
+: The Ruby quick reference
+
+[rubyreferences][43]
+: A full language reference + detailed language changelog. Fantastic.
+
+### Style Guides
+
+[rubystyle.guide][44]
+: RuboCop's Ruby style guide
+
+[RuboCop][45]
+: Automated enforcement of their style guide.
+
+[Shopify][46]
+: Shopify's Ruby style guide
+
+[GitLab][47]
+: Gitlab's Ruby style guide
+
+[Airbnb][48]
+: Airbnb's Ruby style guide
+
+[w3resource][49]
+: W3's Ruby style guide
+
+# Tools
+
+[IRB][50]
+: The interactive Ruby Read-Eval-Print-Loop (REPL)
+
+[Pry][51]
+: An alternative Ruby REPL
+
+[Rake][52]
+: A make-like build utility for Ruby.
+
+[RI][53]
+: (Ruby Information) is the Ruby command-line utility that gives fast and easy on-line access to Ruby documentation.
+
+[RBS][54]
+: Type Signature for Ruby
+
+[TypeProf][55]
+: An experimental type-level Ruby interpreter for testing and understanding Ruby code.
+
+[Steep][56]
+: Static type checker for Ruby.
+
 ### Editors and IDEs
 
 For coding in Ruby, you can use the default editor of your operating
@@ -79,71 +142,106 @@ syntax-highlighting, file browsing) or an integrated development
 environment with advanced features (e.g. code completion, refactoring,
 testing support).
 
-Here is a list of popular tools used by Rubyists:
+Here is a list of popular editors used by Rubyists, broken up by
+learning curve:
 
-* Linux and cross-platform tools:
-  * [Aptana Studio][19]
-  * [Atom][atom]
-  * [Emacs][20] with [Ruby mode][21] and [Rsense][22]
-  * [Eric][eric]
-  * [Geany][23]
-  * [gedit][24]
-  * [Kate][kate]
-  * [KDevelop][kdevelop]
-  * [NetBeans][36]
-  * [RubyMine][27]
-  * [SciTe][28]
-  * [Sublime Text][37]
-  * [Vim][25] with [vim-ruby][26] plugin and [Rsense][22]
+* Days
+  * [Sublime Text][37] (paid)
   * [Visual Studio Code][vscode]
+  * [Zed][zed]
+* Months
+  * [RubyMine][27] (paid)
+* "Years" (as in, you'll spend years still learning things about it)
+  * [Emacs][20] with [Ruby mode][21] or [Enhanced Ruby mode][enh-ruby-mode]
+  * [Vim][25] with [vim-ruby][26] plugin
+  * [NeoVim][neovim]
 
-* On Windows:
-  * [Notepad++][29]
+All of these editors support the Language Server Protocol (LSP),
+either by default or through their LSP plugins. Shopify's
+[ruby-lsp][ruby-lsp] is one of the most popular language servers for
+Ruby and [supports all of the above editors][shopify_lsp].
 
-* On macOS:
-  * [TextMate][32]
-  * [BBEdit][33]
-  * [Dash][39] (documentation browser)
+### Older Reading / Resources
 
-### Further Reading
+These links were more prominent but haven't been updated in ages.
 
-[Ruby-doc.org][34] maintains a comprehensive list of English
-documentation sources.
-If you have questions about Ruby the
-[mailing list](/en/community/mailing-lists/) is a great place to start.
+[Ruby Koans][2]
+: The Koans walk you along the path to enlightenment in order to learn
+  Ruby. The goal is to learn the Ruby language, syntax, structure, and
+  some common functions and libraries. We also teach you culture.
+
+[Ruby Essentials][7]
+: A free on-line book designed to provide a concise
+  and easy to follow guide to learning Ruby.
+
+[Why’s (Poignant) Guide to Ruby][5]
+: An unconventional but interesting book that will teach you Ruby
+  through stories, wit, and comics. Originally created by *why the lucky
+  stiff*, this guide remains a classic for Ruby learners.
+
+[Learn Ruby the Hard Way][38]
+: A very good set of exercises with explanations that guide you from
+  the absolute basics of Ruby all the way to OOP and web development.
+
+[Programming Ruby][9]
+: The seminal work on Ruby in English, this first edition of the
+  [Pragmatic Programmers’ book][10] is available for free online.
+
+[The Ruby Programming Wikibook][12]
+: A free online manual with beginner and intermediate content plus a
+  thorough language reference.
 
 [1]: https://try.ruby-lang.org/
 [2]: https://rubykoans.com/
 [5]: https://poignant.guide
-[7]: http://www.techotopia.com/index.php/Ruby_Essentials
-[8]: http://pine.fm/LearnToProgram/
-[9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[7]: https://www.techotopia.com/index.php/Ruby_Essentials
+[8]: https://pine.fm/LearnToProgram/
+[9]: https://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
-[12]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
-[16]: http://www.rubydoc.info/
-[rubyapi-org]: https://rubyapi.org/
-[19]: http://www.aptana.com/
-[20]: http://www.gnu.org/software/emacs/
-[21]: http://www.emacswiki.org/emacs/RubyMode
-[22]: http://rsense.github.io/
-[23]: http://www.geany.org/
-[24]: http://projects.gnome.org/gedit/screenshots.html
-[25]: http://www.vim.org/
+[12]: https://en.wikibooks.org/wiki/Ruby_programming_language
+[16]: https://www.rubydoc.info/
+[20]: https://www.gnu.org/software/emacs/
+[21]: https://www.emacswiki.org/emacs/RubyMode
+[25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
-[27]: http://www.jetbrains.com/ruby/
-[28]: http://www.scintilla.org/SciTE.html
-[29]: http://notepad-plus-plus.org/
-[32]: http://macromates.com/
-[33]: https://www.barebones.com/products/bbedit/
-[34]: http://ruby-doc.org
-[36]: https://netbeans.org/
-[37]: http://www.sublimetext.com/
+[27]: https://www.jetbrains.com/ruby/
+[34]: https://ruby-doc.org/
+[37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: http://kapeli.com/dash
-[docs-rlo-en]: https://docs.ruby-lang.org/en/
-[atom]: https://atom.io/
+[39]: https://www.ruby-doc.org/
+[40]: https://devdocs.io/ruby/
+[42]: https://www.zenspider.com/ruby/quickref.html
+[43]: https://rubyreferences.github.io/
+[44]: https://rubystyle.guide/
+[45]: https://github.com/rubocop/ruby-style-guide
+[46]: https://ruby-style-guide.shopify.dev/
+[47]: https://docs.gitlab.com/ee/development/backend/ruby_style_guide.html
+[48]: https://github.com/airbnb/ruby
+[49]: https://www.w3resource.com/ruby/ruby-style-guide.php
+[50]: https://github.com/ruby/irb
+[51]: https://github.com/pry/pry
+[52]: https://github.com/ruby/rake
+[53]: https://ruby.github.io/rdoc/RI_md.html
+[54]: https://github.com/ruby/rbs
+[55]: https://github.com/ruby/typeprof
+[56]: https://github.com/soutaro/steep
+[codecademy]: https://www.codecademy.com/learn/learn-ruby
+[docs-rlo-en]: https://docs.ruby-lang.org/en/latest
+[docs-rlo-jp]: https://docs.ruby-lang.org/ja/latest
+[enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
+[exercism]: https://exercism.org/tracks/ruby
+[extensions-jp]: https://docs.ruby-lang.org/jp/master/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
+[grounded]: https://www.manning.com/books/the-well-grounded-rubyist-third-edition
+[meta]: https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/
+[microscope]: https://patshaughnessy.net/ruby-under-a-microscope
+[neovim]: https://neovim.io/
+[odin]: https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby
+[pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
+[poodr]: https://www.poodr.com/
+[ruby-lsp]: https://github.com/Shopify/ruby-lsp
+[rubyapi-org]: https://rubyapi.org/
+[rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
+[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html)
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
-[eric]: https://eric-ide.python-projects.org/
-[kdevelop]: https://www.kdevelop.org/
-[kate]: https://kate-editor.org/
+[zed]: https://zed.dev/
