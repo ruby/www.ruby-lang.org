@@ -9,7 +9,7 @@ lang: zh_tw
 
 如果你有興趣參與，可以從這幾個地方開始：
 
-[Ruby Taiwan 社群][1]
+[Ruby Taiwan Discord 伺服器 (邀請連結)][ruby-tw-discord]
 : Ruby Taiwan 社群成立於 2008 年 10 月，主要是針對 Ruby
   程式語言及軟體開發，進行業界的交流及分享，提昇開發人員的技術深度與廣度。
 
@@ -18,14 +18,13 @@ lang: zh_tw
   使用者群組都是自發性的，通常會有每月的聚會、郵件論壇以及一個社群網站。運氣好的話，也許還會有編程節 (codefests)。
 
 [Ruby 郵件論壇和新聞群組](/zh_tw/community/mailing-lists/)
-: Ruby 擁有各種不同主題及語言的郵件論壇。如果你有 Ruby 的問題，透過論壇發問是個不錯的方式。台灣的 Ruby 論壇則有
-  [RailsFun][railsfun] 以及 [PTT](telnet://ptt.cc) Ruby 版。
+: Ruby 擁有各種不同主題及語言的郵件論壇。如果你有 Ruby 的問題，透過論壇發問是個不錯的方式。
 
 [Ruby Discord 伺服器 (邀請連結)][ruby-discord]
 : Ruby 語言 Discord 伺服器是一個你可以與其他 Rubyists 聊天、互助的地方。
   Discord 對於新開發者是一個很好的進入點，而且很容易加入。
 
-[Ruby 的 IRC (#ruby)](https://web.libera.chat/#ruby)
+[Ruby 的 IRC (#ruby)][ruby-irc]
 : 您可以在 Ruby 的 IRC 頻道上與其他 Ruby 愛好者聊天。
 
 [Ruby 核心](/zh_tw/community/ruby-core)
@@ -42,12 +41,10 @@ lang: zh_tw
 : 比起閱讀，如果你更喜歡用聆聽的方式接收 Ruby 的資訊，你可以收聽這些 Podcasts。
   內容包括 Ruby 或是 gem 的新發佈消息，還有 Ruby 使用者、貢獻者和維護者之間的討論與訪談。
 
-
 [Ruby Central][ruby-central]
 : Ruby Central 是一個非營利組織，致力於支持全球 Ruby 社群。
 
-[1]: http://ruby.tw
-[railsfun]: http://railsfun.tw/index.php
-
+[ruby-tw-discord]: https://discord.gg/yaYHWQsmcz
+[ruby-irc]: https://web.libera.chat/#ruby
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
