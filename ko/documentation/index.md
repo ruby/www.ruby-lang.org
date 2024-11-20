@@ -16,6 +16,10 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [Ruby를 브라우저에서 시험해 볼 수도 있지만][1], Ruby를 설치하기 위해서
 [설치 설명서](installation/)를 읽어보아도 좋습니다.
 
+### Ruby Language Documentation
+
+The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-en] is the place to start if you want to understand Ruby. It covers all aspects of the language and should be the first place you look when learning or referencing Ruby programming language. Other resources listed below are complementary to the official language documentation or they present Ruby documentation in a different format/style/flavor.
+
 ### 초보자용 문서
 
 [공식 FAQ](faq/)
@@ -60,7 +64,7 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 ### 참조
 
 [공식 API 문서][docs-rlo-en]
-: 아직 릴리스되지 않은 트렁크를 포함한 여러 Ruby 버전의 공식 API 문서입니다.
+: 아직 릴리스되지 않은 트렁크를 포함한 여러 Ruby 버전의 공식 language 문서입니다.
 
 [Ruby C API 레퍼런스][extensions] (영문)
 : Ruby의 공식 C API 문서입니다.
