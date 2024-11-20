@@ -1,13 +1,18 @@
 ---
 layout: page
-title: "Blogs"
+title: "Blogs and Newsletters"
 lang: en
 ---
 
-Ruby blogs have exploded over the past years and given sufficient
-hunting, you can unearth hundreds of blogs sharing bits of Ruby code,
-describing new techniques, or speculating on Ruby’s future.
+Ruby blogs and newsletters have exploded over the past years and given
+sufficient hunting, you can unearth hundreds of blogs sharing bits of
+Ruby code, describing new techniques, or speculating on Ruby’s future.
 {: .summary}
+
+### Newsletters
+
+* [**Ruby Weekly**][ruby-weekly]: A newsletter that curates the most interesting Ruby articles and news each week.
+* [**Short Ruby Newsletter**][short-ruby-newsletter]: A weekly summary of the articles, discussions, and news from the Ruby community.
 
 ### Mining for Ruby Blogs
 
@@ -22,13 +27,10 @@ describing new techniques, or speculating on Ruby’s future.
 A few notable blogs stand out for the frequency and immediacy of their
 updates.
 
-* [**Ruby Weekly**][ruby-weekly]: Although more of a newsletter than a
-  blog, Ruby Weekly is a distillation of the most interesting Ruby
-  articles and news each week.
 * [**DEV Ruby Tag**][dev-ruby-tag] is the collection of all posts
   tagged Ruby within the DEV Community. DEV is a network of thousands
   of software developers who blog about and discuss code.
-* [**Riding Rails**][riding-rails] is the official group blog of the
+* [**Ruby on Rails Blog**][ruby-on-rails-blog] is the official group blog of the
   Ruby on Rails team. If you are running Rails, this blog is essential
   for notification of security updates and an overall view of the wide
   Rails community.
@@ -47,6 +49,7 @@ out there, be sure to share!
 [rubyland]: http://rubyland.news/
 [ruby-weekly]: https://rubyweekly.com/
 [dev-ruby-tag]: https://dev.to/t/ruby
-[riding-rails]: http://weblog.rubyonrails.org/
+[ruby-on-rails-blog]: https://rubyonrails.org/blog/
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/
+[short-ruby-newsletter]: https://newsletter.shortruby.com/

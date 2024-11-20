@@ -36,10 +36,8 @@ to start:
 : Now is a fantastic time to follow Ruby’s development.
   If you are interested in helping with Ruby, start here.
 
-[Ruby Blogs](weblogs/)
-: Very little happens in the Ruby community that is not talked about on
-  the blogs. We’ve got a nice list of suggestions for you here for
-  getting plugged in.
+[Ruby Blogs and Newsletters](weblogs/)
+: Most activities and updates in the Ruby community are discussed through blogs and newsletters. Here’s a curated list to help you stay connected and informed.
 
 [Ruby Conferences](conferences/)
 : Ruby programmers around the world are getting involved in more and
@@ -47,20 +45,16 @@ to start:
   work-in-progress, discuss the future of Ruby, and welcome newcomers to
   the Ruby community.
 
+  Additionally, you can visit [rubyvideo.dev](https://www.rubyvideo.dev/) to find videos of Ruby conferences and talks.
+
 [Podcasts](podcasts/)
 : If you prefer to listen to discussions about Ruby rather than read,
   you can tune into one of these awesome Ruby podcasts. These Rubyists
   use their podcasts to cover new releases, community news, and
   interview their fellow Ruby developers.
 
-General Ruby Information
-: * [Ruby Central][ruby-central]
-  * [Ruby at Open Directory Project][ruby-opendir]
-  * [Rails at Open Directory Project][rails-opendir]
-
-
+[Ruby Central][ruby-central]
+: Ruby Central is a non-profit organization dedicated to supporting the worldwide Ruby community.
 
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
