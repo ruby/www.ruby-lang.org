@@ -21,14 +21,18 @@ lang: zh_tw
 : Ruby 擁有各種不同主題及語言的郵件論壇。如果你有 Ruby 的問題，透過論壇發問是個不錯的方式。台灣的 Ruby 論壇則有
   [RailsFun][railsfun] 以及 [PTT](telnet://ptt.cc) Ruby 版。
 
+[Ruby Discord 伺服器 (邀請連結)][ruby-discord]
+: Ruby 語言 Discord 伺服器是一個你可以與其他 Rubyists 聊天、互助的地方。
+  Discord 對於新開發者是一個很好的進入點，而且很容易加入。
+
 [Ruby 的 IRC (#ruby)](https://web.libera.chat/#ruby)
 : 您可以在 Ruby 的 IRC 頻道上與其他 Ruby 愛好者聊天。
 
 [Ruby 核心](/zh_tw/community/ruby-core)
 : 現在正是加入開發 Ruby 行列的好時機。如果您有興趣幫忙，可以從這裡開始。
 
-[關於 Ruby 的部落格](/zh_tw/community/weblogs/)
-: Ruby 社群中有著各式各樣的部落格。這裡是一份推薦清單。
+[關於 Ruby 的部落格與電子報](/zh_tw/community/weblogs/)
+: Ruby 社群中的大多數活動和更新都是透過部落格和電子報進行討論。這裡是一份推薦清單可協助你了解最新情況。
 
 [Ruby 研討會](/zh_tw/community/conferences/)
 : 全世界有越來越多的研討會讓 Ruby 程式設計師可以參與，分享他們的工作經驗、討論 Ruby 的未來，同時也歡迎新成員的加入。台灣的
@@ -38,14 +42,12 @@ lang: zh_tw
 : 比起閱讀，如果你更喜歡用聆聽的方式接收 Ruby 的資訊，你可以收聽這些 Podcasts。
   內容包括 Ruby 或是 gem 的新發佈消息，還有 Ruby 使用者、貢獻者和維護者之間的討論與訪談。
 
-Ruby 的一般消息
-: * [Ruby Central][ruby-central]
-  * [Ruby at Open Directory Project][ruby-opendir]
-  * [Rails at Open Directory Project][rails-opendir]
+
+[Ruby Central][ruby-central]
+: Ruby Central 是一個非營利組織，致力於支持全球 Ruby 社群。
 
 [1]: http://ruby.tw
 [railsfun]: http://railsfun.tw/index.php
 
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-discord]: https://discord.gg/ad2acQFtkh

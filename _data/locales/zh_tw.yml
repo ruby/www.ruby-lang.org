@@ -63,7 +63,7 @@ sidebar:
       url: /zh_tw/community/user-groups/
       description: 與身旁的 Ruby 使用者接觸
     weblogs:
-      text: 部落格
+      text: 部落格與電子報
       url: /zh_tw/community/weblogs/
       description: 了解 Ruby 社群中的最新消息
     ruby_core:
