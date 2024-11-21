@@ -37,6 +37,8 @@ lang: zh_tw
 : 全世界有越來越多的研討會讓 Ruby 程式設計師可以參與，分享他們的工作經驗、討論 Ruby 的未來，同時也歡迎新成員的加入。台灣的
   Ruby 年度研討會為 [RubyConf Taiwan](http://rubyconf.tw)。
 
+  你也可以在 [rubyvideo.dev][rubyvideo] 找到 Ruby 研討會與演講的影片。
+
 [Podcasts](/zh_tw/community/podcasts/)
 : 比起閱讀，如果你更喜歡用聆聽的方式接收 Ruby 的資訊，你可以收聽這些 Podcasts。
   內容包括 Ruby 或是 gem 的新發佈消息，還有 Ruby 使用者、貢獻者和維護者之間的討論與訪談。
@@ -48,3 +50,4 @@ lang: zh_tw
 [ruby-irc]: https://web.libera.chat/#ruby
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
+[rubyvideo]: https://rubyvideo.dev
