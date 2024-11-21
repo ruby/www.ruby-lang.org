@@ -63,7 +63,7 @@ sidebar:
       url: /ko/community/user-groups/
       description: 근처의 루비스트와 연락하기
     weblogs:
-      text: 웹로그
+      text: 블로그와 뉴스레터
       url: /ko/community/weblogs/
       description: Ruby 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
     ruby_core:

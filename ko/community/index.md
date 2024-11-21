@@ -39,26 +39,23 @@ Ruby의 장점, 특징에 대한 설명에서 빠지지 않고 등장하는 것�
 : Ruby 개발 과정에 참여하고 싶다면 바로 지금이 최고의 타이밍입니다.
   Ruby를 도와주는데 관심이 있으시다면 여기서 시작하세요.
 
-[Ruby에 관한 블로그](weblogs/)
-: Ruby 커뮤니티에서 블로그에 관한 이야기를 빼놓을 수 없죠. 여기에
-  구독할 만한 추천 블로그 목록이 있습니다.
+[Ruby 블로그와 뉴스레터](weblogs/)
+: Ruby 커뮤니티의 대부분의 활동과 업데이트는 블로그와 뉴스레터를 통해 논의됩니다. 다음은 연결 상태를 유지하고 정보를 얻는 데 도움이 되는 엄선된 목록입니다.
 
 [Ruby 콘퍼런스](conferences/)
 : 세계의 Ruby 개발자들은 더욱더 활발하게 콘퍼런스에 참여하고 있습니다.
   콘퍼런스에서는 Ruby에서 작업 중인 내용의 공유, Ruby의 미래에 대한 토론, Ruby
   커뮤니티의 뉴비의 환영 등을 함께합니다.
 
+  또한 [rubyvideo.dev](https://www.rubyvideo.dev/)를 방문하면 Ruby 컨퍼런스 및 강연 동영상을 확인할 수 있습니다.
+
 [팟캐스트](podcasts/)
 : Ruby에 대해 듣고 싶다면 다음 Ruby 팟캐스트 중 하나를 들어보세요. 루비스트들이
   팟캐스트를 통해 새 릴리스, 커뮤니티 소식, 동료 Ruby 개발자와의 인터뷰를
   다룹니다.
 
-일반적인 Ruby 정보(영문)
-: * [Ruby Central][ruby-central]
-  * [Ruby at Open Directory Project][ruby-opendir]
-  * [Rails at Open Directory Project][rails-opendir]
+[Ruby Central][ruby-central]
+: Ruby Central은 전 세계의 Ruby 커뮤니티를 지원하는 비영리 단체입니다.
 
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
