@@ -34,6 +34,8 @@ updates.
   Ruby on Rails team. If you are running Rails, this blog is essential
   for notification of security updates and an overall view of the wide
   Rails community.
+* [**Rails at Scale**][rails-at-scale] contains posts discussing much
+  of the recent work being done to advance both Ruby and Rails.
 
 ### Spreading the Word
 
@@ -53,3 +55,4 @@ out there, be sure to share!
 [reddit]: http://www.reddit.com/r/ruby
 [hn]: http://news.ycombinator.com/
 [short-ruby-newsletter]: https://newsletter.shortruby.com/
+[rails-at-scale]: https://railsatscale.com/
