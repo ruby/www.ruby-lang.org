@@ -342,10 +342,10 @@ macOS, Linux나 다른 UNIX-계열 운영체제에서만 사용 가능합니다.
 ### RVM 4 Windows
 {: #rvm-windows}
 
-[RVM 4 Windows][rvm-windows] allows you to install and manage multiple
-installations of Ruby on Windows. It is a clone of the original RVM and
-supports the classic command line as well as Powershell by providing
-the same command line interface as the original RVM.
+[RVM 4 Windows][rvm-windows]는 Windows에서 여러 종류의 Ruby를 설치하고
+관리할 수 있게 해줍니다. 이는 오리지널 RVM의 복제로, 오리지널 RVM과
+동일한 커맨드 라인 인터페이스를 제공하며, 기존 커맨드 라인 인터페이스와
+PowerShell을 모두 지원합니다.
 
 
 ### uru
