@@ -118,8 +118,6 @@ Rubiceros:
 
 * En Windows:
   * [Notepad++][29]
-  * [E-TextEditor][30]
-  * [Ruby In Steel][31]
 
 * En macOS:
   * [TextMate][32]
@@ -165,8 +163,6 @@ comenzar.
 [27]: http://www.jetbrains.com/ruby/
 [28]: http://www.scintilla.org/SciTE.html
 [29]: http://notepad-plus-plus.org/
-[30]: http://www.e-texteditor.com/
-[31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [34]: http://ruby-doc.org

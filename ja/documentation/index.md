@@ -96,8 +96,6 @@ Rubyistに人気のあるソフトウェアには次のようなものがあり�
 
 * Windows
   * [Notepad++][29]
-  * [E-TextEditor][30]
-  * [Ruby In Steel][31]
 
 * macOS
   * [TextMate][32]
@@ -153,8 +151,6 @@ Posted by Shugo Maeda on 26 May 2006
 [27]: http://www.jetbrains.com/ruby/
 [28]: http://www.scintilla.org/SciTE.html
 [29]: http://notepad-plus-plus.org/
-[30]: http://www.e-texteditor.com/
-[31]: http://www.sapphiresteel.com/
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
 [36]: https://netbeans.org/
