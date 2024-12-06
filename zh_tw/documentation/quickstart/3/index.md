@@ -92,7 +92,7 @@ irb(main):043:0> g.respond_to?("to_s")
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 在 Ruby
