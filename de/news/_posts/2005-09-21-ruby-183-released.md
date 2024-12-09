@@ -10,4 +10,4 @@ Ruby 1.8.3 has been released. The source is [here][1], and the md5sum is
 
 
 
-[1]: https://cache.ruby-lang.org/pub/ruby/ruby-1.8.3.tar.gz
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.3.tar.gz

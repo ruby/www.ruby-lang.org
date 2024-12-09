@@ -7,7 +7,7 @@ lang: ko
 
 루비 1.8.5 버전이 배포되었습니다.
 
-소스 코드는 [https://cache.ruby-lang.org/pub/ruby/ruby-1.8.5.tar.gz][1]에서 다운로드할
+소스 코드는 [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5.tar.gz][1]에서 다운로드할
 수 있고, md5sum은 3fbb02294a8ca33d4684055adba5ed6f입니다. 용량은 4,438,603
 바이트입니다.
 
@@ -15,5 +15,5 @@ lang: ko
 
 
 
-[1]: https://cache.ruby-lang.org/pub/ruby/ruby-1.8.5.tar.gz
+[1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5.tar.gz
 [2]: http://eigenclass.org/hiki.rb?ruby+1.8.5+changelog
