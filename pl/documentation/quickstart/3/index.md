@@ -101,7 +101,7 @@ nam łatwy dostępn do zmiennych obiektu.
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 W Rubim możesz ponownie otworzyć klasę i zmodyfikować ją. To nie zmienia
