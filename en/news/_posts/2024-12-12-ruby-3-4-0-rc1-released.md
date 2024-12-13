@@ -36,8 +36,8 @@ Switch the default parser from parse.y to Prism. [[Feature #20564]]
 
 ## Language changes
 
-* String literals in files without a `frozen_string_literal` comment now behave
-  as if they were frozen. If they are mutated a deprecation warning is emitted.
+* String literals in files without a `frozen_string_literal` comment now emit a deprecation warning
+  when they are mutated.
   These warnings can be enabled with `-W:deprecated` or by setting `Warning[:deprecated] = true`.
   To disable this change, you can run Ruby with the `--disable-frozen-string-literal`
   command line argument. [[Feature #20205]]
