@@ -1,112 +1,111 @@
 ---
 layout: news_post
-title: "Ruby 3.4.0 rc1 Released"
+title: "Ruby 3.4.0 rc1 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2024-12-12 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "3.4.0-rc1" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
 
 ## Prism
 
-Switch the default parser from parse.y to Prism. [[Feature #20564]]
+parse.y에서 Prism으로 기본 파서를 변경했습니다. [[Feature #20564]]
 
-## Modular GC
+## 모듈러 GC
 
-* Alternative garbage collector (GC) implementations can be loaded dynamically
-  through the modular garbage collector feature. To enable this feature,
-  configure Ruby with `--with-modular-gc` at build time. GC libraries can be
-  loaded at runtime using the environment variable `RUBY_GC_LIBRARY`.
+* 다른 가비지 컬렉터(GC) 구현을 모듈러 가비지 컬렉터 기능을 통해 동적으로 로드할 수 있습니다.
+  이 기능을 활성화하려면 Ruby 빌드 시에 `--with-modular-gc`를 설정하세요. GC 라이브러리는
+  환경 변수 `RUBY_GC_LIBRARY`를 사용하여 런타임에 로드할 수 있습니다.
   [[Feature #20351]]
 
-* Ruby's built-in garbage collector has been split into a separate file at
-  `gc/default/default.c` and interacts with Ruby using an API defined in
-  `gc/gc_impl.h`. The built-in garbage collector can now also be built as a
-  library using `make modular-gc MODULAR_GC=default` and enabled using the
-  environment variable `RUBY_GC_LIBRARY=default`. [[Feature #20470]]
+* Ruby의 내장 가비지 컬렉터는 `gc/default/default.c`에 분리되어 있으며,
+  `gc/gc_impl.h`에 정의된 API를 사용하여 Ruby와 상호 작용합니다.
+  내장 가비지 컬렉터는 `make modular-gc MODULAR_GC=default`를 사용하여
+  라이브러리로서 빌드하고 환경 변수 `RUBY_GC_LIBRARY=default`를
+  사용하여 활성화할 수 있습니다. [[Feature #20470]]
 
-* An experimental GC library is provided based on [MMTk](https://www.mmtk.io/).
-  This GC library can be built using `make modular-gc MODULAR_GC=mmtk` and
-  enabled using the environment variable `RUBY_GC_LIBRARY=mmtk`. This requires
-  the Rust toolchain on the build machine. [[Feature #20860]]
+* [MMTk](https://www.mmtk.io/)를 기반으로 한 실험적인 GC 라이브러리가 제공됩니다.
+  이 GC 라이브러리는 `make modular-gc MODULAR_GC=mmtk`를 사용하여 빌드하고
+  환경 변수 `RUBY_GC_LIBRARY=mmtk`를 사용하여 활성화할 수 있습니다.
+  이는 빌드 머신에 Rust 도구 체인이 필요합니다. [[Feature #20860]]
 
 
-## Language changes
+## 언어 변경
 
-* String literals in files without a `frozen_string_literal` comment now emit a deprecation warning
-  when they are mutated.
-  These warnings can be enabled with `-W:deprecated` or by setting `Warning[:deprecated] = true`.
-  To disable this change, you can run Ruby with the `--disable-frozen-string-literal`
-  command line argument. [[Feature #20205]]
+* 파일에 `frozen_string_literal` 주석이 없을 때, 문자열 리터럴이 변경되면
+  폐기 예정 경고를 출력합니다.
+  이 경고는 `-W:deprecated`나 `Warning[:deprecated] = true` 설정을 통해 활성화할 수 있습니다.
+  이 변경을 무효화하고 싶다면 Ruby를 실행할 때 `--disable-frozen-string-literal` 커맨드라인 인수를
+  사용하세요. [[Feature #20205]]
 
-* `it` is added to reference a block parameter. [[Feature #18980]]
+* 블록 인자를 가리키는 `it`이 추가됩니다. [[Feature #18980]]
 
-* Keyword splatting `nil` when calling methods is now supported.
-  `**nil` is treated similarly to `**{}`, passing no keywords,
-  and not calling any conversion methods.  [[Bug #20064]]
+* 메서드 호출 시에 `nil`에 키워드 스플랫을 지원합니다.
+  `**nil`은 `**{}`와 비슷하게 동작하며, 키워드를 넘기지 않으며,
+  어떤 변환 메서드도 호출하지 않습니다. [[Bug #20064]]
 
-* Block passing is no longer allowed in index.  [[Bug #19918]]
+* 블록을 인덱스로 사용할 수 없게 됩니다. [[Bug #19918]]
 
-* Keyword arguments are no longer allowed in index.  [[Bug #20218]]
+* 키워드 인수를 인덱스로 사용할 수 없게 됩니다. [[Bug #20218]]
 
 ## YJIT
 
 TL;DR:
-* Better performance on most benchmarks on both x86-64 and arm64 platforms.
-* Reduced memory usage of compilation metadata
-* Multiple bug fixes. YJIT is now even more robust and better tested.
+* x86-64와 arm64 플랫폼에서 대부분의 벤치마크에서 성능이 향상되었습니다.
+* YJIT 메타 데이터 컴파일의 메모리 사용량이 줄었습니다.
+* 여러 버그가 수정되었습니다. YJIT는 이제 더 견고하고 잘 테스트되었습니다.
 
-New features:
-* Add unified memory limit via `--yjit-mem-size` command-line option (default 128MiB)
-  which tracks total YJIT memory usage and is more intuitive than the
-  old `--yjit-exec-mem-size`.
-* More statistics now always available via `RubyVM::YJIT.runtime_stats`
-* Add compilation log to track what gets compiled via `--yjit-log`
-  * Tail of the log also available at run-time via `RubyVM::YJIT.log`
-* Add support for shareable consts in multi-ractor mode
-* Can now trace counted exits with `--yjit-trace-exits=COUNTER`
+새 기능:
+* YJIT의 메모리 사용량을 추적하는 통합 메모리 제한을 `--yjit-mem-size`
+  커맨드 라인 옵션(기본값 128 MiB)으로 추가했습니다.
+  이는 이전 `--yjit-exec-mem-size`보다 직관적이며, YJIT의 전체 메모리 사용량을 추적합니다.
+* 이제 `RubyVM::YJIT.runtime_stats`를 통해 항상 더 많은 통계가 사용 가능합니다.
+* `--yjit-log`를 통해 무엇이 컴파일되었는지 추적하는 컴파일 로그를 추가했습니다.
+  * 실행 중에도 로그의 마지막 부분을 `RubyVM::YJIT.log`로 확인할 수 있습니다.
+* 멀티 Ractor 모드에서 공유 가능한 상수를 지원합니다.
+* `--yjit-track-exits=COUNTER`로 종료한 횟수를 추적할 수 있습니다.
 
-New optimizations:
-* Compressed context reduces memory needed to store YJIT metadata
-* Improved allocator with ability to allocate registers for local variables
-* When YJIT is enabled, use more Core primitives written in Ruby:
-  * `Array#each`, `Array#select`, `Array#map` rewritten in Ruby for better performance [[Feature #20182]].
-* Ability to inline small/trivial methods such as:
-  * Empty methods
-  * Methods returning a constant
-  * Methods returning `self`
-  * Methods directly returning an argument
-* Specialized codegen for many more runtime methods
-* Optimize `String#getbyte`, `String#setbyte` and other string methods
-* Optimize bitwise operations to speed up low-level bit/byte manipulation
-* Various other incremental optimizations
+새 최적화:
+* YJIT 메타 데이터를 저장하는 데 필요한 메모리를 줄이는 콘텍스트 압축.
+* 로컬 변수를 위한 레지스터를 할당할 수 있는 개선된 할당기.
+* YJIT을 사용할 때 Ruby로 작성된 더 많은 코어 프리미티브를 사용합니다.
+  * 성능을 높이기 위해 Ruby로 다시 작성된 `Array#each`, `Array#select`, `Array#map` [[Feature #20182]].
+* 작고 사소한 메서드를 인라인으로 변환하는 능력.
+  * 빈 메서드
+  * 상수를 반환하는 메서드
+  * `self`를 반환하는 메서드
+  * 인수를 직접 반환하는 메서드
+* 더 많은 실행시간 메서드에 대한 특별한 코드 생성
+* `String#getbyte`, `String#setbyte` 및 다른 문자열 메서드를 최적화
+* 저 레벨 비트/바이트 조작을 빠르게 하기 위한 비트 연산 최적화
+* 다양한 다른 점진적 최적화
 
-## Core classes updates
+## 코어 클래스 변경
 
-Note: We're only listing outstanding class updates.
+주의: 눈에 띄는 클래스 변경만을 포함합니다.
 
 * Exception
 
-  * `Exception#set_backtrace` now accepts an array of `Thread::Backtrace::Location`.
-    `Kernel#raise`, `Thread#raise` and `Fiber#raise` also accept this new format. [[Feature #13557]]
+  * `Exception#set_backtrace`는 이제 `Thread::Backtrace::Location`의 배열을 입력으로 받을 수 있습니다.
+    `Kernel#raise`, `Thread#raise`와 `Fiber#raise`도 같은 형식의 입력을 받습니다. [[Feature #13557]]
 
 * Range
 
-  * `Range#size` now raises `TypeError` if the range is not iterable. [[Misc #18984]]
+  * `Range#size`는 이제 범위가 순회 가능하지 않다면 `TypeError`를 던집니다. [[Misc #18984]]
 
 
 
-## Compatibility issues
+## 호환성 문제
 
-Note: Excluding feature bug fixes.
+주의: 기능 버그 수정은 포함되어 있지 않습니다.
 
-* Error messages and backtrace displays have been changed.
-  * Use a single quote instead of a backtick as a opening quote. [[Feature #16495]]
-  * Display a class name before a method name (only when the class has a permanent name). [[Feature #19117]]
-  * `Kernel#caller`, `Thread::Backtrace::Location`'s methods, etc. are also changed accordingly.
+* 에러 메시지와 백트레이스의 출력 결과가 변경됩니다.
+  * 여는 따옴표로 백틱 대신 작은따옴표를 사용합니다. [[Feature #16495]]
+  * 메서드 이름 앞에 클래스 이름을 출력합니다(클래스가 불변하는 이름을 가지고 있는 경우만). [[Feature #19117]]
+  * `Kernel#caller`, `Thread::Backtrace::Location`의 메서드 등도 마찬가지로 변경됩니다.
 
   ```
   Old:
@@ -118,34 +117,34 @@ Note: Excluding feature bug fixes.
           from test.rb:2:in '<main>'
   ```
 
-## C API updates
+## C API 변경
 
-* `rb_newobj` and `rb_newobj_of` (and corresponding macros `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`) have been removed. [[Feature #20265]]
-* Removed deprecated function `rb_gc_force_recycle`. [[Feature #18290]]
+* `rb_newobj`와 `rb_newobj_of`(그리고 대응하는 매크로인 `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`)가 삭제됩니다. [[Feature #20265]]
+* 폐기 예정인 `rb_gc_force_recycle` 함수가 삭제됩니다. [[Feature #18290]]
 
-## Miscellaneous changes
+## 그 이외의 변경
 
-* Passing a block to a method which doesn't use the passed block will show
-  a warning on verbose mode (`-w`).
+* 상세 모드(`-w`)에서 메서드에 넘긴 블록이 사용되지 않았을 때
+  경고를 출력합니다.
   [[Feature #15554]]
 
-* Redefining some core methods that are specially optimized by the interpeter
-  and JIT like `String.freeze` or `Integer#+` now emits a performance class
-  warning (`-W:performance` or `Warning[:performance] = true`).
+* `String.freeze`나 `Integer#+`처럼 인터프리터와 JIT이 특별히 최적화하는
+  몇몇 코어 메서드를 재정의하면 성능 클래스
+  경고(`-W:performance`나 `Warning[:performance] = true`)를 출력합니다.
   [[Feature #20429]]
 
-See GitHub releases like [Logger](https://github.com/ruby/logger/releases) or
-changelog for details of the default gems or bundled gems.
+기본 gem 또는 내장 gem에 대한 자세한 내용은 [Logger](https://github.com/ruby/logger/releases)와 같은
+GitHub 릴리스 또는 변경 로그에서 확인하세요.
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
-for more details.
+더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})를
+확인해 주세요.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
-since Ruby 3.3.0!
+이러한 변경사항에 따라, Ruby 3.3.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
 
-## Download
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -168,11 +167,11 @@ since Ruby 3.3.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby는 1993년에 Matz(마츠모토 유키히로) 씨가 처음 개발했고,
+현재는 오픈 소스로서 개발되고 있습니다. 여러 플랫폼에서 동작하며,
+특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
 
 [Feature #13557]: https://bugs.ruby-lang.org/issues/13557
 [Feature #15554]: https://bugs.ruby-lang.org/issues/15554
