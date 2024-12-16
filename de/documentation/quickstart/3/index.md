@@ -104,7 +104,7 @@ die Variablen eines Objekts zu gewähren.
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 In Ruby kann man eine Klasse jederzeit verändern. Die Änderungen werden

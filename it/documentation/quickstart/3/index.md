@@ -101,7 +101,7 @@ per permetterci di accedere alle variabili di un oggetto.
 irb(main):044:0> class PersonaCordiale
 irb(main):045:1>   attr_accessor :nome
 irb(main):046:1> end
-=> nil
+=> [:nome, :nome=]
 {% endhighlight %}
 
 In Ruby, puoi aprire una classe e modificarla. I cambiamenti vengono
