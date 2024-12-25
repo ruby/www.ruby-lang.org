@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 3.4.1 Released"
 author: "naruse"
 translator:
-date: 2024-12-25 10:00:00 +0000
+date: 2024-12-25 00:00:00 +0000
 lang: en
 ---
 
