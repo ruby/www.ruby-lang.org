@@ -157,7 +157,7 @@ Ruby 3.3 までは上記の2つのメソッドは名前解決と接続試行を�
 
 * Tempfile
 
-    * `Tempfile.create` に `anonymous: true` キーワードが追加されました。is implemented for .
+    * `Tempfile.create` に `anonymous: true` キーワードが追加されました。
       `Tempfile.create(anonymous: true)` は作成した一時ファイルを即座に削除します。この機能を用いることで、アプリケーションは独自にファイル削除を行う必要がなくなります。 [[Feature #20497]]
 
 * win32/sspi.rb
