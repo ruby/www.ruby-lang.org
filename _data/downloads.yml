@@ -23,6 +23,13 @@ eol:
 
 stable_snapshots:
 
+  - branch: ruby_3_4
+    url:
+      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_4.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_4.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_4.zip
+    version: '3.4'
+
   - branch: ruby_3_3
     url:
       gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_3.tar.gz
@@ -50,4 +57,4 @@ nightly_snapshot:
     gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.gz
     xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.tar.xz
     zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-master.zip
-  version: '3.4'
+  version: '3.5'
