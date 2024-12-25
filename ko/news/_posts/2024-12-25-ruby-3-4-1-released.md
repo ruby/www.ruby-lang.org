@@ -2,18 +2,18 @@
 layout: news_post
 title: "Ruby 3.4.1 Released"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2024-12-25 10:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.4.1 has been released.
+Ruby 3.4.1이 릴리스되었습니다.
 
-This fixes the version description.
+이번 릴리스는 버전 설명을 수정합니다.
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_1) for further details.
+자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v3_4_1)를 참조하세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.4.1" | first %}
 
