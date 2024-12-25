@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby 3.4.0 Released"
+title: "Ruby 3.4.0 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2024-12-25 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "3.4.0" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.4 adds `it` block parameter reference,
-change Prism as default parser, adds Happy Eyeballs Version 2 support to socket library, improves YJIT,
-adds Modular GC, and so on.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
+Ruby 3.4는 `it` 블록 파라미터 참조, Prism을 기본 파서로 변경, 소켓 라이브러리에
+Happy Eyeballs Version 2 지원 추가, YJIT 개선, 모듈러 GC 추가 등을 포함하고 있습니다.
 
-## `it` is introduced
+## `it` 추가
 
-`it` is added to reference a block parameter with no variable name. [[Feature #18980]]
+`it`은 변수 이름 없이 블록 파라미터를 참조하기 위해 추가되었습니다. [[Feature #18980]]
 
 ```ruby
 ary = ["foo", "bar", "baz"]
@@ -22,177 +22,176 @@ ary = ["foo", "bar", "baz"]
 p ary.map { it.upcase } #=> ["FOO", "BAR", "BAZ"]
 ```
 
-`it` very much behaves the same as `_1`. When the intention is to only use `_1` in a block, the potential for other numbered parameters such as `_2` to also appear imposes an extra cognitive load onto readers. So `it` was introduced as a handy alias. Use `it` in simple cases where `it` speaks for itself, such as in one-line blocks.
+`it`은 `_1`과 거의 동일하게 동작합니다. 블록에서 `_1`만 사용할 때 다른 번호 파라미터인 `_2` 등이 나타날 가능성이 읽는 사람에게  추가적인 인지 부담을 주게 됩니다. 따라서 `it`은 편리한 별칭으로 추가되었습니다. `it`은 `it` 자체로 충분히 명확한 경우에 사용하세요. 예를 들어, 인라인 블록에서 사용하세요.
 
-## Prism is now the default parser
+## 기본 파서를Prism으로 변경
 
-Switch the default parser from parse.y to Prism. [[Feature #20564]]
+parse.y에서 Prism으로 기본 파서를 변경했습니다. [[Feature #20564]]
 
-This is an internal improvement and there should be little change visible to the user. If you notice any compatibility issues, please report them to us.
+이는 내부적인 개선이며 사용자에게는 거의 변화가 없어야 합니다. 호환성 문제가 발생하면 보고해 주세요.
 
-To use the conventional parser, use the command-line argument `--parser=parse.y`.
+기존 파서를 사용하려면 `--parser=parse.y` 커맨드 라인 인수를 사용하세요.
 
-## The socket library now features Happy Eyeballs Version 2 (RFC 8305)
+## 소켓 라이브러리가 Happy Eyeballs Version 2 (RFC 8305) 대응
 
-The socket library now features [Happy Eyeballs Version 2 (RFC 8305)](https://datatracker.ietf.org/doc/html/rfc8305), the latest standardized version of a widely adopted approach for better connectivity in many programming languages, in `TCPSocket.new` (`TCPSocket.open`) and `Socket.tcp`.
-This improvement enables Ruby to provide efficient and reliable network connections, adapted to modern internet environments.
+소켓 라이브러리는 이제 [happy eyeballs version 2 (rfc 8305)](https://datatracker.ietf.org/doc/html/rfc8305)를 지원합니다. 이는 `TCPSocket.new` (`TCPSocket.open`)와 `Socket.tcp`에서 네트워크 연결을 효율적이고 안정적으로 제공하기 위해 많은 언어에서 널리 사용되는 방법의 최신 표준화 버전입니다.
+이 개선 사항은 Ruby가 현대적인 인터넷 환경에 적응된 효율적이고 신뢰할 수 있는 네트워크 연결을 제공할 수 있도록 합니다.
 
-Until Ruby 3.3, these methods performed name resolution and connection attempts serially. With this algorithm, they now operate as follows:
+Ruby 3.3까지 이러한 메서드는 이름 해결과 연결 시도를 직렬로 수행했습니다. 해당 알고리즘 도입으로 이제 다음과 같이 작동합니다.
 
-1. Performs IPv6 and IPv4 name resolution concurrently
-2. Attempt connections to the resolved IP addresses, prioritizing IPv6, with parallel attempts staggered at 250ms intervals
-3. Return the first successful connection while canceling any others
+1. IPv6와 IPv4 이름 해결을 동시에 수행
+2. IPv6를 우선하며 병렬로 연결을 시도하되 250ms 간격으로 순차적으로 시도
+3. 성공한 연결을 반환하고 다른 연결을 취소
 
-This ensures minimized connection delays, even if a specific protocol or IP address is delayed or unavailable.
-This feature is enabled by default, so additional configuration is not required to use it. To disable it globally, set the environment variable `RUBY_TCP_NO_FAST_FALLBACK=1` or call `Socket.tcp_fast_fallback=false`. Or to disable it on a per-method basis, use the keyword argument `fast_fallback: false`.
+이는 특정 프로토콜이나 IP 주소가 지연되거나 사용할 수 없는 경우에도 연결 지연을 최소화합니다.
+이 기능은 기본적으로 활성화되어 있으므로 추가 구성은 필요하지 않습니다. 전역으로 비활성화하려면 환경 변수 `RUBY_TCP_NO_FAST_FALLBACK=1`을 설정하거나 `Socket.tcp_fast_fallback=false`를 호출하세요. 또는 메서드별로 비활성화하려면 키워드 인수 `fast_fallback: false`를 사용하세요.
 
 ## YJIT
 
 ### TL;DR
 
-* Better performance across most benchmarks on both x86-64 and arm64 platforms.
-* Reduced memory usage through compressed metadata and a unified memory limit.
-* Various bug fixes: YJIT is now more robust and thoroughly tested.
+* x86-64와 arm64 플랫폼에서 대부분의 벤치마크에서 성능이 향상되었습니다.
+* YJIT 메타 데이터 압축과 통합 메모리 제한을 통해 컴파일의 메모리 사용량이 줄었습니다.
+* 여러 버그가 수정되었습니다. YJIT는 이제 더 견고하고 잘 테스트되었습니다.
 
-### New features
+### 새 기능
 
-* Command-line options
-    * `--yjit-mem-size` introduces a unified memory limit (default 128MiB) to track total YJIT memory usage,
-      providing a more intuitive alternative to the old `--yjit-exec-mem-size` option.
-    * `--yjit-log` enables a compilation log to track what gets compiled.
+* 커맨드 라인 옵션
+    * `--yjit-mem-size` 커맨드 라인 옵션(기본값 128 MiB)을 통해 YJIT의 통합 메모리 제한을 추가했습니다.
+      이는 이전 `--yjit-exec-mem-size`보다 직관적이며, YJIT의 전체 메모리 사용량을 추적합니다.
+    * `--yjit-log`를 통해 무엇이 컴파일되었는지 추적하는 컴파일 로그를 추가했습니다.
 * Ruby API
-    * `RubyVM::YJIT.log` provides access to the tail of the compilation log at run-time.
-* YJIT stats
-    * `RubyVM::YJIT.runtime_stats` now always provides additional statistics on
-       invalidation, inlining, and metadata encoding.
+    * `RubyVM::YJIT.log`로 실행 중에 컴파일 로그의 마지막 부분을 확인할 수 있습니다.
+* YJIT 통계 정보
+    * `RubyVM::YJIT.runtime_stats`는 이제 언제나 무효화, 인라인, 메타 정보 인코딩에 대한
+       추가 통계 정보를 제공합니다.
 
-### New optimizations
+### 새 최적화
 
-* Compressed context reduces memory needed to store YJIT metadata
-* Allocate registers for local variables and Ruby method arguments
-* When YJIT is enabled, use more Core primitives written in Ruby:
-    * `Array#each`, `Array#select`, `Array#map` rewritten in Ruby for better performance [[Feature #20182]].
-* Ability to inline small/trivial methods such as:
-    * Empty methods
-    * Methods returning a constant
-    * Methods returning `self`
-    * Methods directly returning an argument
-* Specialized codegen for many more runtime methods
-* Optimize `String#getbyte`, `String#setbyte` and other string methods
-* Optimize bitwise operations to speed up low-level bit/byte manipulation
-* Support shareable constants in multi-ractor mode
-* Various other incremental optimizations
+* YJIT 메타 데이터를 저장하는 데 필요한 메모리를 줄이는 콘텍스트 압축.
+* 로컬 변수와 Ruby 메서드 인수를 위한 레지스터를 할당합니다.
+* YJIT을 사용할 때 Ruby로 작성된 더 많은 코어 프리미티브를 사용합니다.
+    * 성능을 높이기 위해 Ruby로 다시 작성된 `Array#each`, `Array#select`, `Array#map` [[Feature #20182]].
+* 작고 사소한 메서드를 인라인으로 변환하는 능력.
+    * 빈 메서드
+    * 상수를 반환하는 메서드
+    * `self`를 반환하는 메서드
+    * 인수를 직접 반환하는 메서드
+* 더 많은 런타임 메서드에 대한 특별한 코드 생성
+* `String#getbyte`, `String#setbyte` 및 다른 문자열 메서드를 최적화
+* 저레벨 비트/바이트 조작을 빠르게 하기 위한 비트 연산 최적화
+* 멀티 Ractor 모드에서 공유 가능한 상수 지원
+* 다양한 다른 점진적 최적화
 
-## Modular GC
+## 모듈러 GC
 
-* Alternative garbage collector (GC) implementations can be loaded dynamically
-  through the modular garbage collector feature. To enable this feature,
-  configure Ruby with `--with-modular-gc` at build time. GC libraries can be
-  loaded at runtime using the environment variable `RUBY_GC_LIBRARY`.
+* 다른 가비지 컬렉터(GC) 구현을 모듈러 가비지 컬렉터 기능을 통해 동적으로
+  로드할 수 있습니다. 이 기능을 활성화하려면 Ruby 빌드 시에
+  `--with-modular-gc`를 설정하세요. GC 라이브러리는 환경 변수 `RUBY_GC_LIBRARY`를
+  사용하여 런타임에 로드할 수 있습니다.
   [[Feature #20351]]
 
-* Ruby's built-in garbage collector has been split into a separate file at
-  `gc/default/default.c` and interacts with Ruby using an API defined in
-  `gc/gc_impl.h`. The built-in garbage collector can now also be built as a
-  library using `make modular-gc MODULAR_GC=default` and enabled using the
-  environment variable `RUBY_GC_LIBRARY=default`. [[Feature #20470]]
+* Ruby의 내장 가비지 컬렉터는 `gc/default/default.c`에 분리되어 있으며,
+  `gc/gc_impl.h`에 정의된 API를 사용하여 Ruby와 상호 작용합니다.
+  내장 가비지 컬렉터는 `make modular-gc MODULAR_GC=default`를 사용하여
+  라이브러리로서 빌드하고 환경 변수 `RUBY_GC_LIBRARY=default`를
+  사용하여 활성화할 수 있습니다. [[Feature #20470]]
 
-* An experimental GC library is provided based on [MMTk](https://www.mmtk.io/).
-  This GC library can be built using `make modular-gc MODULAR_GC=mmtk` and
-  enabled using the environment variable `RUBY_GC_LIBRARY=mmtk`. This requires
-  the Rust toolchain on the build machine. [[Feature #20860]]
+* [MMTk](https://www.mmtk.io/)를 기반으로 한 실험적인 GC 라이브러리가 제공됩니다.
+  이 GC 라이브러리는 `make modular-gc MODULAR_GC=mmtk`를 사용하여 빌드하고
+  환경 변수 `RUBY_GC_LIBRARY=mmtk`를 사용하여 활성화할 수 있습니다.
+  이는 빌드 머신에 Rust 툴체인이 필요합니다. [[Feature #20860]]
 
-## Language changes
+## 언어 변경
 
-* String literals in files without a `frozen_string_literal` comment now emit a deprecation warning
-  when they are mutated.
-  These warnings can be enabled with `-W:deprecated` or by setting `Warning[:deprecated] = true`.
-  To disable this change, you can run Ruby with the `--disable-frozen-string-literal`
-  command line argument. [[Feature #20205]]
+* 파일에 `frozen_string_literal` 주석이 없을 때, 문자열 리터럴이 변경되면
+  폐기 예정 경고를 출력합니다.
+  이 경고는 `-W:deprecated`나 `Warning[:deprecated] = true` 설정을 통해 활성화할 수 있습니다.
+  이 변경을 무효화하고 싶다면 Ruby를 실행할 때 `--disable-frozen-string-literal`
+  커맨드 라인 인수를 사용하세요. [[Feature #20205]]
 
-* Keyword splatting `nil` when calling methods is now supported.
-  `**nil` is treated similarly to `**{}`, passing no keywords,
-  and not calling any conversion methods.  [[Bug #20064]]
+* 메서드 호출 시에 `nil`에 키워드 스플랫을 지원합니다.
+  `**nil`은 `**{}`와 비슷하게 동작하며, 키워드를 넘기지 않으며,
+  어떤 변환 메서드도 호출하지 않습니다. [[Bug #20064]]
 
-* Block passing is no longer allowed in index.  [[Bug #19918]]
+* 블록을 인덱스로 사용할 수 없게 됩니다. [[Bug #19918]]
 
-* Keyword arguments are no longer allowed in index.  [[Bug #20218]]
+* 키워드 인수를 인덱스로 사용할 수 없게 됩니다. [[Bug #20218]]
 
-* The toplevel name `::Ruby` is reserved now, and the definition will be warned when `Warning[:deprecated]`.  [[Feature #20884]]
+* 최상위 이름 `::Ruby`은 예약되었으며, 이를 정의할 경우 `Warning[:deprecated]`가 발생합니다. [[Feature #20884]]
 
-## Core classes updates
+## 코어 클래스 변경
 
-Note: We're only listing notable updates of Core class.
+주의: 눈에 띄는 클래스 변경만을 포함합니다.
 
 * Exception
 
-  * `Exception#set_backtrace` now accepts an array of `Thread::Backtrace::Location`.
-    `Kernel#raise`, `Thread#raise` and `Fiber#raise` also accept this new format. [[Feature #13557]]
+  * `Exception#set_backtrace`는 이제 `Thread::Backtrace::Location`의 배열을 입력으로 받을 수 있습니다.
+    `Kernel#raise`, `Thread#raise`와 `Fiber#raise`도 같은 형식의 입력을 받습니다. [[Feature #13557]]
 
 * GC
 
-    * `GC.config` added to allow setting configuration variables on the Garbage
-      Collector. [[Feature #20443]]
+    * `GC.config`가 추가되어 가비지 컬렉터(GC)에 설정을 변경할 수 있습니다.
+      [[Feature #20443]]
 
-    * GC configuration parameter `rgengc_allow_full_mark` introduced.  When `false`
-      GC will only mark young objects. Default is `true`.  [[Feature #20443]]
+    * GC 설정 `rgengc_allow_full_mark`가 추가되었습니다. `false`일 때
+      GC는 젊은 객체만 마킹합니다. 기본값은 `true`입니다. [[Feature #20443]]
 
 * Ractor
 
-    * `require` in Ractor is allowed. The requiring process will be run on
-      the main Ractor.
-      `Ractor._require(feature)` is added to run requiring process on the
-      main Ractor.
+    * Ractor 내부에서 `require`가 허용됩니다. 해당 처리는 주 Ractor에서
+      실행됩니다. 불러오는 처리를 주 Ractor 에서 실행하는
+      `Ractor._require(feature)`가 추가되었습니다.
       [[Feature #20627]]
 
-    * `Ractor.main?` is added. [[Feature #20627]]
+    * `Ractor.main?`이 추가되었습니다. [[Feature #20627]]
 
-    * `Ractor.[]` and `Ractor.[]=` are added to access the ractor local storage
-      of the current Ractor. [[Feature #20715]]
+    * 현재 Ractor의 Ractor 로컬 저장소에 접근하는 `Ractor.[]`와 `Ractor.[]=`가 추가되었습니다.
+      [[Feature #20715]]
 
-    * `Ractor.store_if_absent(key){ init }` is added to initialize ractor local
-      variables in thread-safty. [[Feature #20875]]
+    * Ractor 로컬 변수를 스레드 안전하게 초기화하는 `Ractor.store_if_absent(key){ init }`가
+      추가되었습니다. [[Feature #20875]]
 
 * Range
 
-  * `Range#size` now raises `TypeError` if the range is not iterable. [[Misc #18984]]
+  * `Range#size`는 이제 범위가 순회 가능하지 않다면 `TypeError`를 던집니다. [[Misc #18984]]
 
 
-## Standard Library updates
+## 표준 라이브러리 변경
 
-Note: We're only listing notable updates of Standard librarires.
+주의: 눈에 띄는 표준 라이브러리 변경만을 포함합니다.
 
 * RubyGems
-    * Add `--attestation` option to gem push. It enabled to store signature to [sigstore.dev]
+    * `--attestation` 옵션을 gem push에 추가했습니다. [sigstore.dev]에 서명을 저장할 수 있습니다.
 
 * Bundler
-    * Add a `lockfile_checksums` configuration to include checksums in fresh lockfiles
-    * Add bundle lock `--add-checksums` to add checksums to an existing lockfile
+    * 새 lockfile 생성시에 체크섬을 포함하는 `lockfile_checksums` 설정을 추가합니다.
+    * 기존 lockfile에 체크섬을 추가하는 `--add-checksums`를 추가합니다.
 
 * JSON
 
-    * Performance improvements of `JSON.parse` about 1.5 times faster than json-2.7.x.
+    * `JSON.parse`의 성능이 json-2.7.x보다 약 1.5배 빨라졌습니다.
 
 * Tempfile
 
-    * The keyword argument `anonymous: true` is implemented for Tempfile.create.
-      `Tempfile.create(anonymous: true)` removes the created temporary file immediately.
-      So applications don't need to remove the file.
+    * `Tempfile.create`에 `anonymous: true` 키워드 인수가 구현되었습니다.
+      `Tempfile.create(anonymous: true)`는 즉시 생성된 임시 파일을 제거합니다.
+      따라서 애플리케이션에서 파일을 제거할 필요가 없습니다.
       [[Feature #20497]]
 
 * win32/sspi.rb
 
-    * This library is now extracted from the Ruby repository to [ruby/net-http-sspi].
+    * 이 라이브러리는 이제 Ruby 저장소에서 [ruby/net-http-sspi]로 추출되었습니다.
       [[Feature #20775]]
 
-## Compatibility issues
+## 호환성 문제
 
-Note: Excluding feature bug fixes.
+주의: 기능 버그 수정은 포함되어 있지 않습니다.
 
-* Error messages and backtrace displays have been changed.
-  * Use a single quote instead of a backtick as a opening quote. [[Feature #16495]]
-  * Display a class name before a method name (only when the class has a permanent name). [[Feature #19117]]
-  * `Kernel#caller`, `Thread::Backtrace::Location`'s methods, etc. are also changed accordingly.
+* 에러 메시지와 백트레이스의 출력 결과가 변경됩니다.
+  * 여는 따옴표로 백틱 대신 작은따옴표를 사용합니다. [[Feature #16495]]
+  * 메서드 이름 앞에 클래스 이름을 출력합니다(클래스가 불변하는 이름을 가지고 있는 경우만). [[Feature #19117]]
+  * `Kernel#caller`, `Thread::Backtrace::Location`의 메서드 등도 마찬가지로 변경됩니다.
 
   ```
   Old:
@@ -204,36 +203,36 @@ Note: Excluding feature bug fixes.
           from test.rb:2:in '<main>'
   ```
 
-* Hash#inspect rendering have been changed. [[Bug #20433]]
+* `Hash#inspect` 렌더링이 변경되었습니다. [[Bug #20433]]
 
-    * Symbol keys are displayed using the modern symbol key syntax: `"{user: 1}"`
-    * Other keys now have spaces around `=>`: `'{"user" => 1}'`, while previously they didn't: `'{"user"=>1}'`
+    * 심볼 키는 최신 심볼 키 구문을 사용하여 표시됩니다. 예시: `"{user: 1}"`
+    * 다른 키는 `=>` 주변에 공백이 표시됩니다. 예시: `'{"user" => 1}'`. 이전에는 없었습니다. 예시: `'{"user"=>1}'`
 
-* Kernel#Float() now accepts a decimal string with decimal part omitted. [[Feature #20705]]
+* `Kernel#Float()`는 이제 소수 부분이 생략된 소수 문자열을 허용합니다. [[Feature #20705]]
 
   ```rb
-  Float("1.")    #=> 1.0 (previously, an ArgumentError was raised)
-  Float("1.E-1") #=> 0.1 (previously, an ArgumentError was raised)
+  Float("1.")    #=> 1.0 (이전에는 ArgumentError가 발생했습니다)
+  Float("1.E-1") #=> 0.1 (이전에는 ArgumentError가 발생했습니다)
   ```
 
-* String#to_f now accepts a decimal string with decimal part omitted. Note that the result changes when an exponent is specified. [[Feature #20705]]
+* `String#to_f`는 이제 소수 부분이 생략된 소수 문자열을 허용합니다. 지수가 지정된 경우 결과가 변경됩니다. [[Feature #20705]]
 
   ```rb
   "1.".to_f    #=> 1.0
-  "1.E-1".to_f #=> 0.1 (previously, 1.0 was returned)
+  "1.E-1".to_f #=> 0.1 (이전에는 1.0이 반환되었습니다)
   ```
 
-* Refinement#refined_class has been removed. [[Feature #19714]]
+* `Refinement#refined_class`가 삭제되었습니다. [[Feature #19714]]
 
-## Standard library compatibility issues
+## 표준 라이브러리 호환성 문제
 
 * DidYouMean
 
-    * `DidYouMean::SPELL_CHECKERS[]=` and `DidYouMean::SPELL_CHECKERS.merge!` are removed.
+    * `DidYouMean::SPELL_CHECKERS[]=`과 `DidYouMean::SPELL_CHECKERS.merge!`가 삭제됩니다.
 
 * Net::HTTP
 
-    * Removed the following deprecated constants:
+    * 폐기 예정이었던 상수가 삭제됩니다.
         * `Net::HTTP::ProxyMod`
         * `Net::NetPrivate::HTTPRequest`
         * `Net::HTTPInformationCode`
@@ -246,43 +245,43 @@ Note: Excluding feature bug fixes.
         * `Net::HTTPResponseReceiver`
         * `Net::HTTPResponceReceiver`
 
-      These constants were deprecated from 2012.
+      이 상수들은 2012년부터 폐기 예정이었습니다.
 
 * Timeout
 
-    * Reject negative values for Timeout.timeout. [[Bug #20795]]
+    * `Timeout.timeout`은 음수 값을 거부합니다. [[Bug #20795]]
 
 * URI
 
-    * Switched default parser to RFC 3986 compliant from RFC 2396 compliant.
+    * 기본 파서를 RFC 2396 호환에서 RFC 3986 호환으로 변경했습니다.
       [[Bug #19266]]
 
-## C API updates
+## C API 변경
 
-* `rb_newobj` and `rb_newobj_of` (and corresponding macros `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`) have been removed. [[Feature #20265]]
-* Removed deprecated function `rb_gc_force_recycle`. [[Feature #18290]]
+* `rb_newobj`와 `rb_newobj_of`(그리고 대응하는 매크로인 `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`)가 삭제됩니다. [[Feature #20265]]
+* 폐기 예정이던 `rb_gc_force_recycle` 함수를 삭제했습니다. [[Feature #18290]]
 
-## Miscellaneous changes
+## 그 이외의 변경
 
-* Passing a block to a method which doesn't use the passed block will show
-  a warning on verbose mode (`-w`).
+* 상세 모드(`-w`)에서 메서드에 넘긴 블록이 사용되지 않았을 때
+  경고를 출력합니다.
   [[Feature #15554]]
 
-* Redefining some core methods that are specially optimized by the interpeter
-  and JIT like `String.freeze` or `Integer#+` now emits a performance class
-  warning (`-W:performance` or `Warning[:performance] = true`).
+* `String.freeze`나 `Integer#+`처럼 인터프리터와 JIT이 특별히 최적화하는
+  몇몇 코어 메서드를 재정의하면 성능 클래스
+  경고(`-W:performance`나 `Warning[:performance] = true`)를 출력합니다.
   [[Feature #20429]]
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
-for more details.
+더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})를
+확인해 주세요.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
-since Ruby 3.3.0!
+이러한 변경사항에 따라, Ruby 3.3.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.4!
+메리 크리스마스, 해피 홀리데이, 그리고 Ruby 3.4와 함께 프로그래밍을 즐겨보세요!
 
-## Download
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -305,11 +304,11 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.4!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby는 1993년에 Matz(마츠모토 유키히로) 씨가 처음 개발했고,
+현재는 오픈 소스로서 개발되고 있습니다. 여러 플랫폼에서 동작하며,
+특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
 
 [Feature #13557]: https://bugs.ruby-lang.org/issues/13557
 [Feature #15554]: https://bugs.ruby-lang.org/issues/15554
