@@ -273,7 +273,7 @@ Note: Excluding feature bug fixes.
   warning (`-W:performance` or `Warning[:performance] = true`).
   [[Feature #20429]]
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+See [NEWS](https://docs.ruby-lang.org/en/3.4/NEWS_md.html)
 or [commit logs](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
 for more details.
 
