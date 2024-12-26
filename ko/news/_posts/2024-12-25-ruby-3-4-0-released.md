@@ -34,7 +34,7 @@ parse.y에서 Prism으로 기본 파서를 변경했습니다. [[Feature #20564]
 
 ## 소켓 라이브러리가 Happy Eyeballs Version 2 (RFC 8305) 대응
 
-소켓 라이브러리는 이제 [happy eyeballs version 2 (rfc 8305)](https://datatracker.ietf.org/doc/html/rfc8305)를 지원합니다. 이는 `TCPSocket.new` (`TCPSocket.open`)와 `Socket.tcp`에서 네트워크 연결을 효율적이고 안정적으로 제공하기 위해 많은 언어에서 널리 사용되는 방법의 최신 표준화 버전입니다.
+소켓 라이브러리는 이제 [Happy Eyeballs Version 2(RFC 8305)](https://datatracker.ietf.org/doc/html/rfc8305)를 지원합니다. 이는 `TCPSocket.new`(`TCPSocket.open`)와 `Socket.tcp`에서 네트워크 연결을 효율적이고 안정적으로 제공하기 위해 많은 언어에서 널리 사용되는 방법의 최신 표준화 버전입니다.
 이 개선 사항은 Ruby가 현대적인 인터넷 환경에 적응된 효율적이고 신뢰할 수 있는 네트워크 연결을 제공할 수 있도록 합니다.
 
 Ruby 3.3까지 이러한 메서드는 이름 해석과 연결 시도를 직렬로 수행했습니다. 해당 알고리즘 도입으로 이제 다음과 같이 작동합니다.
