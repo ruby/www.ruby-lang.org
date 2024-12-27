@@ -9,7 +9,7 @@ lang: en
 
 {% assign release = site.data.releases | where: "version", "3.4.0" | first %}
 We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.4 adds `it` block parameter reference,
-change Prism as default parser, adds Happy Eyeballs Version 2 support to socket library, improves YJIT,
+changes Prism as default parser, adds Happy Eyeballs Version 2 support to socket library, improves YJIT,
 adds Modular GC, and so on.
 
 ## `it` is introduced
@@ -160,7 +160,7 @@ Note: We're only listing notable updates of Core class.
 
 ## Standard Library updates
 
-Note: We're only listing notable updates of Standard librarires.
+Note: We're only listing notable updates of Standard libraries.
 
 * RubyGems
     * Add `--attestation` option to gem push. It enabled to store signature to [sigstore.dev]
@@ -268,7 +268,7 @@ Note: Excluding feature bug fixes.
   a warning on verbose mode (`-w`).
   [[Feature #15554]]
 
-* Redefining some core methods that are specially optimized by the interpeter
+* Redefining some core methods that are specially optimized by the interpreter
   and JIT like `String.freeze` or `Integer#+` now emits a performance class
   warning (`-W:performance` or `Warning[:performance] = true`).
   [[Feature #20429]]
