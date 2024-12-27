@@ -272,7 +272,7 @@ Ruby 3.3까지 이러한 메서드는 이름 해석과 연결 시도를 직렬�
   경고(`-W:performance`나 `Warning[:performance] = true`)를 출력합니다.
   [[Feature #20429]]
 
-더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
+더 자세한 내용은 [NEWS](https://docs.ruby-lang.org/en/3.4/NEWS_md.html)나
 [커밋 로그](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})를
 확인해 주세요.
 
