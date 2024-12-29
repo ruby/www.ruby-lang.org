@@ -99,7 +99,7 @@ Diese Funktion ist standardmäßig aktiviert, sodass keine zusätzliche Konfigur
 
 - Keyword-Argumente sind im Index nicht mehr erlaubt. [[Bug #20218]]
 
-- Der Toplevel-Name `::Ruby` ist jetzt reserviert, und die Definition wird vewarnt, wenn `Warning[:deprecated]` aktiviert ist. [[Feature #20884]]
+- Der Toplevel-Name `::Ruby` ist jetzt reserviert, und die Definition wird verwarnt, wenn `Warning[:deprecated]` aktiviert ist. [[Feature #20884]]
 
 ## Updates für Kernklassen
 
@@ -129,7 +129,7 @@ Hinweis: Es werden nur bemerkenswerte Updates der Kernklassen aufgeführt.
 
 - Range
 
-  - `Range#size` löst jetzt `TypeError` aus, wenn der Bereich nicht iterierbar ist. [[Misc #18984]]
+  - `Range#size` löst jetzt einen `TypeError` aus, wenn der Bereich nicht iterierbar ist. [[Misc #18984]]
 
 ## Updates der Standardbibliothek
 
@@ -180,7 +180,7 @@ Hinweis: Ausgenommen Fehlerbehebungen bei Funktionen.
 
 - Die Darstellung von Hash#inspect wurde geändert. [[Bug #20433]]
 
-  - Symbolschlüssel werden im modernen Symbolschlüssel-Syntax angezeigt: `"{user: 1}"`
+  - Symbolschlüssel werden in der modernen Symbolschlüssel-Syntax angezeigt: `"{user: 1}"`
   - Andere Schlüssel haben jetzt Leerzeichen um `=>`: `'{"user" => 1}'`, während vorher keine da waren: `'{"user"=>1}'`
 
 - Kernel#Float() akzeptiert jetzt Dezimalzeichenketten ohne Dezimalteil. [[Feature #20705]]
@@ -255,7 +255,7 @@ seit Ruby 3.3.0!
 
 Frohe Weihnachten, schöne Feiertage und viel Spaß beim Programmieren mit Ruby 3.4!
 
-## Download
+## Herunterladen
 
 - <{{ release.url.gz }}>
 
@@ -278,7 +278,7 @@ Frohe Weihnachten, schöne Feiertage und viel Spaß beim Programmieren mit Ruby 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Was ist Ruby
 
 Ruby wurde erstmals 1993 von Matz (Yukihiro Matsumoto) entwickelt
 und wird jetzt als Open Source entwickelt. Es läuft auf mehreren Plattformen
