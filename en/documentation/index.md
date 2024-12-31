@@ -91,6 +91,7 @@ Here is a list of popular tools used by Rubyists:
   * [Kate][kate]
   * [KDevelop][kdevelop]
   * [NetBeans][36]
+  * [Neovim][neovim] with [Ruby LSP][ruby-lsp-nvim]
   * [RubyMine][27]
   * [SciTe][28]
   * [Sublime Text][37]
@@ -147,3 +148,5 @@ If you have questions about Ruby the
 [eric]: https://eric-ide.python-projects.org/
 [kdevelop]: https://www.kdevelop.org/
 [kate]: https://kate-editor.org/
+[neovim]: https://neovim.io/
+[ruby-lsp-nvim]: https://shopify.github.io/ruby-lsp/editors.html#neovim
