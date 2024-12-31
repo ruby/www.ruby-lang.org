@@ -57,6 +57,7 @@ Here are available installation methods:
 * [Managers](#managers)
   * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
+  * [mise-en-place](#mise-en-place)
   * [rbenv](#rbenv)
   * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
@@ -334,6 +335,13 @@ manage Rubies installed by [ruby-install](#ruby-install) or even built
 from source.
 
 
+### mise-en-place
+{: #mise-en-place}
+
+[mise-en-place][mise-en-place] allows you to switch between multiple Rubies.
+It supports UNIX-like and Windows operating systems.
+
+
 ### rbenv
 {: #rbenv}
 
@@ -421,4 +429,5 @@ though, because the installed Ruby won't be managed by any tools.
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[mise-en-place]: https://mise.jdx.dev
 [openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
