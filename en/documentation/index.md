@@ -36,7 +36,7 @@ The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-e
 : 120 exercises with automatic analysis and personal mentoring.
 
 [Codecademy][codecademy]
-: Online code bootcamp with a variety of topics. Freeish.
+: Online code bootcamp with a variety of topics.
 
 ### Manuals / Books
 
@@ -89,7 +89,7 @@ The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-e
 : The Ruby quick reference
 
 [rubyreferences][43]
-: A full language reference + detailed language changelog. Fantastic.
+: A full language reference + detailed language changelog.
 
 ### Style Guides
 
