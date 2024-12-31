@@ -9,7 +9,7 @@ lang: zh_tw
 
 {% assign release = site.data.releases | where: "version", "3.4.0" | first %}
 我們很高興宣布 Ruby {{ release.version }} 發佈了。 Ruby 3.4 加入了 `it` 區塊參數參考變數，
-將 Prism 作為預設的解析氣，為 socket 函式庫加入 Happy Eyeballs Version 2 支援，改進 YJIT，加入 Modular GC，與其他更多.
+將 Prism 作為預設的解析器，為 socket 函式庫加入 Happy Eyeballs Version 2 支援，改進 YJIT，加入 Modular GC，與其他更多。
 
 ## 導入 `it`
 
