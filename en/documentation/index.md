@@ -18,7 +18,7 @@ the [installation guide](installation/) for help on installing Ruby.
 
 [docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Documentation for Ruby 3.4.
 
-[docs.ruby-lang.org/en/master][docs-rlo-master]: Documentation for the latest Ruby version (master).
+[docs.ruby-lang.org/en/master][docs-rlo-master]: Documentation for Ruby's master branch.
 
 [C Extension Guide][docs-rlo-extension]: In-depth guide for creating C extensions for Ruby.
 
