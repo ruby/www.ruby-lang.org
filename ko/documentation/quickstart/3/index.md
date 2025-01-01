@@ -94,7 +94,7 @@ Ruby는 객체 변수를 접근하게 해주는 편리한 방법을 제공하고
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 Ruby에서는 클래스를 언제나 열어서 정의를 변경할 수 있습니다.

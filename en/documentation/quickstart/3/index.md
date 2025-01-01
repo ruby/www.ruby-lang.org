@@ -102,7 +102,7 @@ provides an easy way of providing access to an object’s variables.
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 In Ruby, you can reopen a class and modify it. The changes will

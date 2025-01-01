@@ -21,28 +21,29 @@ header: |
 создать метод!
 
 {% highlight irb %}
-irb(main):010:0> def h
+irb(main):010:0> def hi
 irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
-=> nil
+=> :hi
 {% endhighlight %}
 
-Код `def h` означает начало объявление метода. Он говорит Ruby, что мы
-определяем метод, имя которого `h`. Следующая строка – тело метода, та
+Код `def hi` означает начало объявление метода. Он говорит Ruby, что мы
+определяем метод, имя которого `hi`. Следующая строка – тело метода, та
 же строка, что мы видели раньше: `puts "Hello World"`. И, наконец,
 последняя строка, `end`, говорит Ruby, что мы завершили объявление
-метода. Ответ от Ruby, `=> nil`, говорит нам, что он понял, что мы
-завершили объявление метода.
+метода. Ответ от Ruby, `=> :hi`, говорит нам, что он понял, что мы
+завершили объявление метода. Ответ может быть таким: `=> nil`, в Ruby
+версии 2.0 и ниже, но это здесь не важно, поэтому двинемся дальше.
 
 ## Кратко о повторяющихся жизнях метода
 
 Теперь давайте попробуем вызвать метод несколько раз:
 
 {% highlight irb %}
-irb(main):013:0> h
+irb(main):013:0> hi
 Hello World!
 => nil
-irb(main):014:0> h()
+irb(main):014:0> hi()
 Hello World!
 => nil
 {% endhighlight %}
@@ -53,14 +54,14 @@ Hello World!
 нравится, но это не обязательно.
 
 Что если мы хотим сказать hello одному человеку, а не всему миру?
-Просто переопределим метод `h`, чтобы он принимал имя как параметр.
+Просто переопределим метод `hi`, чтобы он принимал имя как параметр.
 
 {% highlight irb %}
-irb(main):015:0> def h(name)
+irb(main):015:0> def hi(name)
 irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
-=> nil
-irb(main):018:0> h("Matz")
+=> :hi
+irb(main):018:0> hi("Matz")
 Hello Matz!
 => nil
 {% endhighlight %}
@@ -77,14 +78,14 @@ Hello Matz!
 большой буквы:
 
 {% highlight irb %}
-irb(main):019:0> def h(name = "World")
+irb(main):019:0> def hi(name = "World")
 irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
-=> nil
-irb(main):022:0> h "chris"
+=> :hi
+irb(main):022:0> hi "chris"
 Hello Chris!
 => nil
-irb(main):023:0> h
+irb(main):023:0> hi
 Hello World!
 => nil
 {% endhighlight %}
@@ -114,7 +115,7 @@ irb(main):031:1>   def say_bye
 irb(main):032:2>     puts "Bye #{@name}, come back soon."
 irb(main):033:2>   end
 irb(main):034:1> end
-=> nil
+=> :say_bye
 {% endhighlight %}
 
 Новое ключевое слово здесь - `class`. Оно служит для объявления нового

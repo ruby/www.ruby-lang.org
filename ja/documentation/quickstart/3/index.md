@@ -104,7 +104,7 @@ Rubyはオブジェクトの変数にアクセスできる簡単な方法を用�
 irb(main):044:0> class Greeter
 irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> nil
+=> [:name, :name=]
 {% endhighlight %}
 
 Rubyでは、定義されたクラスをさらに変更できます。
