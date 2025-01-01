@@ -7,7 +7,7 @@ date: 2024-12-12 00:00:00 +0000
 lang: es
 ---
 
-{% assign release = site.data.releases | where: "version", "3.4.0-rc" | first %}
+{% assign release = site.data.releases | where: "version", "3.4.0-rc1" | first %}
 Nos complace anunciar la publicación de Ruby {{ release.version }}.
 
 ## Prism
