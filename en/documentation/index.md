@@ -12,9 +12,15 @@ Guides, tutorials, and reference material to help you learn more about Ruby
 Although you can easily [try Ruby in your browser][1], you can also read
 the [installation guide](installation/) for help on installing Ruby.
 
-### Ruby Language Documentation
+### Official Ruby Documentation
 
-The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-en] is the place to start if you want to understand Ruby. It covers all aspects of the language and should be the first place you look when learning or referencing Ruby programming language. Other resources listed below are complementary to the official language documentation or they present Ruby documentation in a different format/style/flavor.
+[docs.ruby-lang.org/en][docs-rlo]: List of documentation for all Ruby versions released after 2.1.
+
+[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Documentation for Ruby 3.4.
+
+[docs.ruby-lang.org/en/master][docs-rlo-master]: Documentation for Ruby's master branch.
+
+[C Extension Guide][docs-rlo-extension]: In-depth guide for creating C extensions for Ruby.
 
 ### Getting Started
 
@@ -36,7 +42,7 @@ The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-e
 : 120 exercises with automatic analysis and personal mentoring.
 
 [Codecademy][codecademy]
-: Online code bootcamp with a variety of topics. Freeish.
+: Online code bootcamp with a variety of topics.
 
 ### Manuals / Books
 
@@ -61,16 +67,9 @@ The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-e
 [Ruby Under a Microscope (RUM)][microscope]
 : An illustrated guide to Ruby internals.
 
-### Reference Documentation
+### Community Documentation
 
-[Official API Documentation][docs-rlo-en] [(JP)][docs-rlo-jp]
-: The official Ruby language documentation for different versions including
-  the currently unreleased (trunk) version.
-
-[Ruby C API Reference][extensions] [(JP)][extensions-jp]
-: The official introduction to Ruby's C API.
-  Great if you want to write C extensions
-  or contribute to Ruby’s development.
+These documentation sites are maintained by the Ruby community.
 
 [RubyDoc.info][16]
 : The one-stop web site for reference documentation about Ruby gems and
@@ -89,7 +88,7 @@ The authoritative Ruby language documentation at [docs.ruby-lang.org][docs-rlo-e
 : The Ruby quick reference
 
 [rubyreferences][43]
-: A full language reference + detailed language changelog. Fantastic.
+: A full language reference + detailed language changelog.
 
 ### Style Guides
 
@@ -226,12 +225,12 @@ These links were more prominent but haven't been updated in ages.
 [55]: https://github.com/ruby/typeprof
 [56]: https://github.com/soutaro/steep
 [codecademy]: https://www.codecademy.com/learn/learn-ruby
-[docs-rlo-en]: https://docs.ruby-lang.org/en/latest
-[docs-rlo-jp]: https://docs.ruby-lang.org/ja/latest
+[docs-rlo]: https://docs.ruby-lang.org/en
+[docs-rlo-3.4]: https://docs.ruby-lang.org/en/3.4
+[docs-rlo-master]: https://docs.ruby-lang.org/en/master
+[docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
 [exercism]: https://exercism.org/tracks/ruby
-[extensions-jp]: https://docs.ruby-lang.org/jp/master/extension_rdoc.html
-[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [grounded]: https://www.manning.com/books/the-well-grounded-rubyist-third-edition
 [meta]: https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/
 [microscope]: https://patshaughnessy.net/ruby-under-a-microscope
