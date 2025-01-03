@@ -21,18 +21,18 @@ Was machen wir, wenn wir ganz oft “Hallo” sagen wollen, ohne uns die
 Finger wund zu tippen? Wir definieren eine Methode!
 
 {% highlight irb %}
-irb(main):010:0> def h
+irb(main):010:0> def hi
 irb(main):011:1>   puts "Hallo, Welt!"
 irb(main):012:1> end
-=> nil
+=> :hi
 {% endhighlight %}
 
-Mit dem Code `def h` beginnt man die Methodendefinition. Er teilt Ruby
-mit, dass wir eine Methode definieren, deren Name `h` ist. Die nächste
+Mit dem Code `def hi` beginnt man die Methodendefinition. Er teilt Ruby
+mit, dass wir eine Methode definieren, deren Name `hi` ist. Die nächste
 Zeile nennt man Rumpf (“Body”) der Methode. Sie ist identisch zu der
 Zeile, die wir schon von vorhin kennen: `puts "Hallo, Welt!"`. Und
 schließlich teilt die letzte Zeile `end` Ruby mit, dass wir fertig mit
-der Methodendefinition sind. Rubys Antwort `=> nil` sagt uns, dass Ruby
+der Methodendefinition sind. Rubys Antwort `=> :hi` sagt uns, dass Ruby
 das nun weiß.
 
 ## Die kurzen, immer wiederkehrenden Lebenszyklen einer Methode
@@ -40,10 +40,10 @@ das nun weiß.
 Rufen wir nun die Methode ein paar Mal auf:
 
 {% highlight irb %}
-irb(main):013:0> h
+irb(main):013:0> hi
 Hallo, Welt!
 => nil
-irb(main):014:0> h()
+irb(main):014:0> hi()
 Hallo, Welt!
 => nil
 {% endhighlight %}
@@ -55,15 +55,15 @@ Klammer-Paar ans Ende des Methodennamens setzen, aber das ist nicht
 notwendig.
 
 Was, wenn wir nun Hallo zu einer ganz bestimmten Person statt zur ganzen
-Welt sagen möchten? Dann definieren wir `h` einfach neu, so dass ein
+Welt sagen möchten? Dann definieren wir `hi` einfach neu, so dass ein
 Name als Parameter akzeptiert wird:
 
 {% highlight irb %}
-irb(main):015:0> def h(name)
+irb(main):015:0> def hi(name)
 irb(main):016:1>   puts "Hallo, #{name}!"
 irb(main):017:1> end
-=> nil
-irb(main):018:0> h("Matz")
+=> :hi
+irb(main):018:0> hi("Matz")
 Hallo, Matz!
 => nil
 {% endhighlight %}
@@ -81,14 +81,14 @@ man auch dazu benutzen, um sicherzugehen, dass der Name einer Person mit
 einem Großbuchstaben anfängt:
 
 {% highlight irb %}
-irb(main):019:0> def h(name = "Welt")
+irb(main):019:0> def hi(name = "Welt")
 irb(main):020:1>   puts "Hallo, #{name.capitalize}!"
 irb(main):021:1> end
-=> nil
-irb(main):022:0> h "chris"
+=> :hi
+irb(main):022:0> hi "chris"
 Hallo, Chris!
 => nil
-irb(main):023:0> h
+irb(main):023:0> hi
 Hallo, Welt!
 => nil
 {% endhighlight %}
@@ -119,7 +119,7 @@ irb(main):031:1>   def sag_tschuess
 irb(main):032:2>     puts "Tschuess, #{@name}, bis bald!"
 irb(main):033:2>   end
 irb(main):034:1> end
-=> nil
+=> :sag_tschuess
 {% endhighlight %}
 
 Das neue Schlüsselwort hier ist `class`. Damit definieren wir eine neue

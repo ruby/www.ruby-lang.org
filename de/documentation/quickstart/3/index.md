@@ -35,9 +35,7 @@ Hmm, und wenn wir direkt auf den Namen im Objekt zugreifen wollen?
 
 {% highlight irb %}
 irb(main):038:0> g.@name
-SyntaxError: compile error
-(irb):52: syntax error
-        from (irb):52
+<internal:kernel>:187:in `loop': (irb):52: syntax error, unexpected instance variable (SyntaxError)
 {% endhighlight %}
 
 Nö, das geht offensichtlich nicht.
@@ -53,16 +51,21 @@ Welche Methoden existieren nun für Greeter-Objekte?
 
 {% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
-=> ["method", "send", "object_id", "singleton_methods",
-    "__send__", "equal?", "taint", "frozen?",
-    "instance_variable_get", "kind_of?", "to_a",
-    "instance_eval", "type", "protected_methods", "extend",
-    "eql?", "display", "instance_variable_set", "hash",
-    "is_a?", "to_s", "class", "tainted?", "private_methods",
-    "untaint", "sag_hallo", "id", "inspect", "==", "===",
-    "clone", "public_methods", "respond_to?", "freeze",
-    "sag_tschuess", "__id__", "=~", "methods", "nil?", "dup",
-    "instance_variables", "instance_of?"]
+=>
+[:sag_hallo, :sag_tschuess, :to_yaml, :to_json,
+ :pretty_print, :pretty_print_inspect, :pretty_print_cycle,
+ :pretty_print_instance_variables, :Namespace,
+ :singleton_class, :dup, :itself, :methods,
+ :singleton_methods, :protected_methods, :private_methods,
+ :public_methods, :instance_variables, :instance_variable_get,
+ :instance_variable_set, :instance_variable_defined?,
+ :remove_instance_variable, :instance_of?, :kind_of?, :is_a?,
+ :display, :TypeName, :public_send, :extend, :clone, :<=>,
+ :===, :class, :!~, :tap, :frozen?, :yield_self, :then, :nil?,
+ :eql?, :respond_to?, :method, :public_method, :singleton_method,
+ :define_singleton_method, :hash, :freeze, :inspect, :object_id,
+ :send, :to_s, :pretty_inspect, :to_enum, :enum_for, :equal?, :!,
+ :__send__, :==, :!=, :instance_eval, :instance_exec, :__id__]
 {% endhighlight %}
 
 Hoppla, das sind aber ganz schön viele! Wir haben doch nur zwei Methoden
