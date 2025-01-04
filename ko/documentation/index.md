@@ -20,7 +20,7 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 ### 초보자용 문서
 
 [Try Ruby][1]
-: You can try Ruby right in your browser.
+: 브라우저에서 Ruby를 시험해 볼 수 있습니다.
 
 [Learn to Program][8] (영문)
 : Chris Pine 님이 작성한 초보자를 위한 작고 멋진 튜토리얼입니다.
@@ -31,17 +31,16 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
   달린 예제들입니다.
 
 [Ruby in Twenty Minutes][rubyin20]
-: A small Ruby tutorial that should take no more than 20 minutes to
-  complete.
+: 20분 이내에 끝낼 수 있는 작은 Ruby 튜토리얼입니다.
 
 [The Odin Project][odin]
-: An open source full stack curriculum
+: 오픈소스 풀스택 커리큘럼입니다.
 
 [excercism][exercism]
-: 120 exercises with automatic analysis and personal mentoring.
+: 자동 분석과 개인 멘토링이 포함된 120개의 연습문제가 제공됩니다.
 
 [Codecademy][codecademy]
-: Online code bootcamp with a variety of topics. Freeish.
+: 다양한 주제를 다루는 온라인 코드 부트캠프입니다. 무료입니다.
 
 [Ruby For Impatient Nuby][ko-1]
 : 서민구 님이 작성하신 Ruby 초보자를 위한 튜토리얼입니다.
@@ -49,28 +48,28 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [루비 프로그래밍 언어 FAQ][ko-2]
 : 황대산 님이 정리하신 FAQ입니다.
 
-### Manuals / Books
+### 매뉴얼 / 책
 
-#### Beginner
+#### 초보자
 
 [Programming Ruby 3.3][pickaxe]
-: The seminal work on Ruby in English. Recently updated to Ruby 3.3.
+: 영어로 된 독창적인 Ruby 책입니다. 최근에 Ruby 3.3으로 업데이트되었습니다.
 
 [The Well-Grounded Rubyist][grounded]
-: A tutorial that begins with your first Ruby program and takes you all the way to sophisticated topics like reflection, threading, and recursion.
+: 첫 Ruby 프로그램부터 리플렉션, 스레딩, 재귀 등과 같은 고급 주제까지 다루는 튜토리얼입니다.
 
-#### Intermediate
+#### 중급자
 
 [Practical OOD in Ruby (POODR)][poodr]
-: A programmer's tale about how to write object-oriented code.
+: 한 프로그래머의 객체지향 코드를 작성하는 방법에 대한 이야기입니다.
 
-#### Expert
+#### 전문가
 
 [Metaprogramming][meta]
-: Explains metaprogramming in a down-to-earth style.
+: 메타 프로그래밍을 쉽게 설명합니다.
 
 [Ruby Under a Microscope (RUM)][microscope]
-: An illustrated guide to Ruby internals.
+: Ruby 내부를 설명하는 그림이 포함된 가이드입니다.
 
 ### 참조
 
@@ -89,59 +88,59 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 : Ruby 클래스, 모듈, 메서드를 편하게 찾고 탐색하세요.
 
 [ruby-doc.org][39]
-: Online API documentation
+: 온라인 API 문서입니다.
 
 [DevDocs.io][40]
-: Online API documentation
+: 온라인 API 문서입니다.
 
 [Ruby QuickRef][42]
-: The Ruby quick reference
+: 빠른 Ruby 참조 문서입니다.
 
 [rubyreferences][43]
-: A full language reference + detailed language changelog. Fantastic.
+: 완전한 언어 레퍼런스와 상세한 언어 변경 로그입니다. 훌륭합니다.
 
-### Style Guides
+### 스타일 가이드
 
 [rubystyle.guide][44]
-: RuboCop's Ruby style guide
+: RuboCop의 Ruby 스타일 가이드
 
 [RuboCop][45]
-: Automated enforcement of their style guide.
+: Rubocop의 스타일 가이드를 자동으로 적용합니다.
 
 [Shopify][46]
-: Shopify's Ruby style guide
+: Shopify의 Ruby 스타일 가이드
 
 [GitLab][47]
-: Gitlab's Ruby style guide
+: Gitlab의 Ruby 스타일 가이드
 
 [Airbnb][48]
-: Airbnb's Ruby style guide
+: Airbnb의 Ruby 스타일 가이드
 
 [w3resource][49]
-: W3's Ruby style guide
+: W3의 Ruby 스타일 가이드
 
-# Tools
+# 도구
 
 [IRB][50]
-: The interactive Ruby Read-Eval-Print-Loop (REPL)
+: 대화형 Ruby 셸(Read-Eval-Print-Loop, REPL)입니다.
 
 [Pry][51]
-: An alternative Ruby REPL
+: 또 다른 Ruby REPL입니다.
 
 [Rake][52]
-: A make-like build utility for Ruby.
+: Ruby의 make와 비슷한 빌드 유틸리티입니다.
 
 [RI][53]
-: (Ruby Information) is the Ruby command-line utility that gives fast and easy on-line access to Ruby documentation.
+: RI(Ruby Information)는 Ruby의 명령줄 유틸리티로 Ruby 문서에 빠르고 쉽게 접근할 수 있습니다.
 
 [RBS][54]
-: Type Signature for Ruby
+: Ruby의 타입 시그니처입니다.
 
 [TypeProf][55]
-: An experimental type-level Ruby interpreter for testing and understanding Ruby code.
+: Ruby 코드를 테스트하고 이해하기 위한 실험적인 타입 수준의 Ruby 인터프리터입니다.
 
 [Steep][56]
-: Static type checker for Ruby.
+: Ruby의 정적 타입 검사기입니다.
 
 ### 편집기와 IDE
 
@@ -150,54 +149,55 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 파일 브라우징 등등) 편집기나 고급 기능(자동완성, 리팩토링, 테스트
 지원 등등)이 있는 통합 개발 환경도 생각해 볼 만합니다.
 
-Here is a list of popular editors used by Rubyists, broken up by
-learning curve:
+루비스트가 사용하는 인기 있는 편집기 목록을
+학습 곡선에 따라 나누어 놓았습니다.
 
-* Days
+
+* 며칠 안에 익힐 수 있는 편집기
   * [Sublime Text][37] (paid)
   * [Visual Studio Code][vscode]
   * [Zed][zed]
-* Months
+* 몇 개월 정도 걸리는 편집기
   * [RubyMine][27] (paid)
-* "Years" (as in, you'll spend years still learning things about it)
-  * [Emacs][20] with [Ruby mode][21] or [Enhanced Ruby mode][enh-ruby-mode]
-  * [Vim][25] with [vim-ruby][26] plugin
+* "몇 년" (즉, 몇 년 동안 새로운 것을 계속 배울 수 있는 에디터)
+  * [Ruby 모드][21]이나 [향상된 Ruby 모드][enh-ruby-mode]를 사용하는 [Emacs][20]
+  * [vim-ruby][26] 플러그인을 사용하는 [Vim][25]
   * [NeoVim][neovim]
 
-All of these editors support the Language Server Protocol (LSP),
-either by default or through their LSP plugins. Shopify's
-[ruby-lsp][ruby-lsp] is one of the most popular language servers for
-Ruby and [supports all of the above editors][shopify_lsp].
+위에서 언급한 모든 편집기는 기본으로 또는 LSP 플러그인을 통해
+언어 서버 프로토콜(LSP)을 지원합니다. Shopify의 [ruby-lsp][ruby-lsp]는
+Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
+[위에서 언급한 모든 편집기를 지원합니다][shopify_lsp].
 
-### Older Reading / Resources
+### 오래된 문서 / 리소스
 
-These links were more prominent but haven't been updated in ages.
+다음 링크들은 한때 더 주목받았지만 오랫동안 업데이트되지 않았습니다.
 
-[Ruby Koans][2]
-: The Koans walk you along the path to enlightenment in order to learn
-  Ruby. The goal is to learn the Ruby language, syntax, structure, and
-  some common functions and libraries. We also teach you culture.
+[Ruby Koans][2] (영문)
+: Koans는 Ruby를 배우는 깨달음의 길로 여러분을 안내합니다. Koans의 목표는
+  Ruby 언어, 문법, 구조, 일반적인 함수들과 라이브러리를 배우는 것입니다.
+  Koans에서는 문화도 가르칩니다.
 
-[Ruby Essentials][7]
-: A free on-line book designed to provide a concise
-  and easy to follow guide to learning Ruby.
+[Ruby Essentials][7] (영문)
+: 간결하고 따라 하기 쉬운 Ruby 가이드를 제공하는
+  무료 온라인 책입니다.
 
-[Why’s (Poignant) Guide to Ruby][5]
-: An unconventional but interesting book that will teach you Ruby
-  through stories, wit, and comics. Originally created by *why the lucky
-  stiff*, this guide remains a classic for Ruby learners.
+[Why’s (Poignant) Guide to Ruby][5] (영문)
+: 이야기, 재치, 만화를 통해 Ruby를 가르쳐주는 틀에 얽매이지 않는 재미있는
+  책입니다. *Why the Lucky Stiff*의 저작물로 Ruby를 배우는 사람을 위한
+  고전입니다.
 
-[Learn Ruby the Hard Way][38]
-: A very good set of exercises with explanations that guide you from
-  the absolute basics of Ruby all the way to OOP and web development.
+[Learn Ruby the Hard Way][38] (영문)
+: 아주 기초적인 내용부터 OOP에서 웹 개발까지 다루는 매우 좋은 설명이
+  달린 예제들입니다.
 
-[Programming Ruby][9]
-: The seminal work on Ruby in English, this first edition of the
-  [Pragmatic Programmers’ book][10] is available for free online.
+[Programming Ruby][9] (영문)
+: 영어로 된 독창적인 Ruby 책입니다. [Pragmatic Programmers의 책][10]
+  1판이 무료로 온라인에 공개되어 있습니다.
 
-[The Ruby Programming Wikibook][12]
-: A free online manual with beginner and intermediate content plus a
-  thorough language reference.
+[The Ruby Programming Wikibook][12] (영문)
+: 초보자와 중급자를 위한 무료 온라인 매뉴얼과
+  언어 전체 레퍼런스입니다.
 
 [1]: https://try.ruby-lang.org/
 [2]: https://rubykoans.com/
@@ -249,7 +249,7 @@ These links were more prominent but haven't been updated in ages.
 [poodr]: https://www.poodr.com/
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
 [rubyapi-org]: https://rubyapi.org/
-[rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
+[rubyin20]: https://www.ruby-lang.org/ko/documentation/quickstart/
 [shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html)
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
 [zed]: https://zed.dev/
