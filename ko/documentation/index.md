@@ -16,27 +16,11 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [Ruby를 브라우저에서 시험해 볼 수도 있지만][1], Ruby를 설치하기 위해서
 [설치 설명서](installation/)를 읽어보아도 좋습니다.
 
-### Ruby 언어 문서
-
-Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있는 Ruby 언어 문서가 출발점입니다. 이 문서는 언어의 모든 측면을 다루며, Ruby 프로그래밍 언어를 배우거나 참조할 때 처음으로 찾아봐야 하는 곳입니다. 아래 나열된 다른 자료들은 공식 언어 문서를 보완하거나 다른 형식/스타일/맛으로 Ruby 문서를 제공합니다.
 
 ### 초보자용 문서
 
-[공식 FAQ](faq/)
-: 자주 묻는 질문들을 모았습니다.
-
-[Ruby Koans][2] (영문)
-: Koans는 Ruby를 배우는 깨달음의 길로 여러분을 안내합니다. Koans의 목표는
-  Ruby 언어, 문법, 구조, 일반적인 함수들과 라이브러리를 배우는 것입니다.
-  Koans에서는 문화도 가르칩니다.
-
-[Why’s (Poignant) Guide to Ruby][5] (영문)
-: 이야기, 재치, 만화를 통해 Ruby를 가르쳐주는 틀에 얽매이지 않는 재미있는
-  책입니다. *Why the Lucky Stiff*의 저작물로 Ruby를 배우는 사람을 위한
-  고전입니다.
-
-[Ruby Essentials][7] (영문)
-: 간결하고 따라 하기 쉬운 Ruby 가이드를 제공하는 무료 온라인 책입니다.
+[Try Ruby][1]
+: You can try Ruby right in your browser.
 
 [Learn to Program][8] (영문)
 : Chris Pine 님이 작성한 초보자를 위한 작고 멋진 튜토리얼입니다.
@@ -46,27 +30,54 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 : 아주 기초적인 내용부터 OOP에서 웹 개발까지 다루는 매우 좋은 설명이
   달린 예제들입니다.
 
+[Ruby in Twenty Minutes][rubyin20]
+: A small Ruby tutorial that should take no more than 20 minutes to
+  complete.
+
+[The Odin Project][odin]
+: An open source full stack curriculum
+
+[excercism][exercism]
+: 120 exercises with automatic analysis and personal mentoring.
+
+[Codecademy][codecademy]
+: Online code bootcamp with a variety of topics. Freeish.
+
 [Ruby For Impatient Nuby][ko-1]
 : 서민구 님이 작성하신 Ruby 초보자를 위한 튜토리얼입니다.
 
 [루비 프로그래밍 언어 FAQ][ko-2]
 : 황대산 님이 정리하신 FAQ입니다.
 
-### 매뉴얼
+### Manuals / Books
 
-[Programming Ruby][9] (영문)
-: 영어로 된 독창적인 Ruby 책입니다. [Pragmatic Programmers의 책][10]
-  1판이 무료로 온라인에 공개되어 있습니다.
+#### Beginner
 
-[The Ruby Programming Wikibook][12] (영문)
-: 초보자와 중급자를 위한 무료 온라인 매뉴얼과 전 언어 레퍼런스입니다.
+[Programming Ruby 3.3][pickaxe]
+: The seminal work on Ruby in English. Recently updated to Ruby 3.3.
+
+[The Well-Grounded Rubyist][grounded]
+: A tutorial that begins with your first Ruby program and takes you all the way to sophisticated topics like reflection, threading, and recursion.
+
+#### Intermediate
+
+[Practical OOD in Ruby (POODR)][poodr]
+: A programmer's tale about how to write object-oriented code.
+
+#### Expert
+
+[Metaprogramming][meta]
+: Explains metaprogramming in a down-to-earth style.
+
+[Ruby Under a Microscope (RUM)][microscope]
+: An illustrated guide to Ruby internals.
 
 ### 참조
 
-[공식 API 문서][docs-rlo-en]
+[공식 API 문서][docs-rlo-en] [(JP)][docs-rlo-jp]
 : 아직 릴리스되지 않은 트렁크를 포함한 여러 Ruby 버전의 공식 언어 문서입니다.
 
-[Ruby C API 레퍼런스][extensions] (영문)
+[Ruby C API 레퍼런스][extensions] (영문) [(JP)][extensions-jp]
 : Ruby의 공식 C API 문서입니다.
   Ruby 개발에 참여하거나, C 확장을 개발할 때 도움이 될 것입니다.
 
@@ -77,6 +88,61 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 [Ruby API][40] (영문)
 : Ruby 클래스, 모듈, 메서드를 편하게 찾고 탐색하세요.
 
+[ruby-doc.org][39]
+: Online API documentation
+
+[DevDocs.io][40]
+: Online API documentation
+
+[Ruby QuickRef][42]
+: The Ruby quick reference
+
+[rubyreferences][43]
+: A full language reference + detailed language changelog. Fantastic.
+
+### Style Guides
+
+[rubystyle.guide][44]
+: RuboCop's Ruby style guide
+
+[RuboCop][45]
+: Automated enforcement of their style guide.
+
+[Shopify][46]
+: Shopify's Ruby style guide
+
+[GitLab][47]
+: Gitlab's Ruby style guide
+
+[Airbnb][48]
+: Airbnb's Ruby style guide
+
+[w3resource][49]
+: W3's Ruby style guide
+
+# Tools
+
+[IRB][50]
+: The interactive Ruby Read-Eval-Print-Loop (REPL)
+
+[Pry][51]
+: An alternative Ruby REPL
+
+[Rake][52]
+: A make-like build utility for Ruby.
+
+[RI][53]
+: (Ruby Information) is the Ruby command-line utility that gives fast and easy on-line access to Ruby documentation.
+
+[RBS][54]
+: Type Signature for Ruby
+
+[TypeProf][55]
+: An experimental type-level Ruby interpreter for testing and understanding Ruby code.
+
+[Steep][56]
+: Static type checker for Ruby.
+
 ### 편집기와 IDE
 
 Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습니다. 하지만,
@@ -84,78 +150,109 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 파일 브라우징 등등) 편집기나 고급 기능(자동완성, 리팩토링, 테스트
 지원 등등)이 있는 통합 개발 환경도 생각해 볼 만합니다.
 
-루비스트들이 주로 사용하는 도구들의 목록입니다.
+Here is a list of popular editors used by Rubyists, broken up by
+learning curve:
 
-* Linux, 크로스 플랫폼
-  * [Aptana Studio][19]
-  * [Atom][atom]
-  * [Emacs][20], [Ruby mode][21], [Rsense][22]
-  * [Eric][eric]
-  * [Geany][23]
-  * [gedit][24]
-  * [Kate][kate]
-  * [KDevelop][kdevelop]
-  * [NetBeans][36]
-  * [RubyMine][27]
-  * [SciTe][28]
-  * [Sublime Text][37]
-  * [Vim][25], [vim-ruby][26] 플러그인, [Rsense][22]
+* Days
+  * [Sublime Text][37] (paid)
   * [Visual Studio Code][vscode]
+  * [Zed][zed]
+* Months
+  * [RubyMine][27] (paid)
+* "Years" (as in, you'll spend years still learning things about it)
+  * [Emacs][20] with [Ruby mode][21] or [Enhanced Ruby mode][enh-ruby-mode]
+  * [Vim][25] with [vim-ruby][26] plugin
+  * [NeoVim][neovim]
 
-* Windows
-  * [Notepad++][29]
+All of these editors support the Language Server Protocol (LSP),
+either by default or through their LSP plugins. Shopify's
+[ruby-lsp][ruby-lsp] is one of the most popular language servers for
+Ruby and [supports all of the above editors][shopify_lsp].
 
-* macOS
-  * [TextMate][32]
-  * [BBEdit][33]
-  * [Dash][39] (문서 브라우저)
+### Older Reading / Resources
 
-### 더 읽을거리
+These links were more prominent but haven't been updated in ages.
 
-[Ruby-Doc.org][34]는 Ruby 영문 문서를 포괄적으로 관리하는 사이트입니다. Ruby
-[책들][ko-5]도 출판되어 있습니다. Ruby에
-관한 질문이 있다면, [유저 그룹][ko-3]이나 [페이스북 그룹][ko-4]에서 하실 수 있고
-영어가 되신다면 [메일링 리스트](/ko/community/mailing-lists/)를 사용하실 수도
-있습니다.
+[Ruby Koans][2]
+: The Koans walk you along the path to enlightenment in order to learn
+  Ruby. The goal is to learn the Ruby language, syntax, structure, and
+  some common functions and libraries. We also teach you culture.
+
+[Ruby Essentials][7]
+: A free on-line book designed to provide a concise
+  and easy to follow guide to learning Ruby.
+
+[Why’s (Poignant) Guide to Ruby][5]
+: An unconventional but interesting book that will teach you Ruby
+  through stories, wit, and comics. Originally created by *why the lucky
+  stiff*, this guide remains a classic for Ruby learners.
+
+[Learn Ruby the Hard Way][38]
+: A very good set of exercises with explanations that guide you from
+  the absolute basics of Ruby all the way to OOP and web development.
+
+[Programming Ruby][9]
+: The seminal work on Ruby in English, this first edition of the
+  [Pragmatic Programmers’ book][10] is available for free online.
+
+[The Ruby Programming Wikibook][12]
+: A free online manual with beginner and intermediate content plus a
+  thorough language reference.
 
 [1]: https://try.ruby-lang.org/
 [2]: https://rubykoans.com/
 [5]: https://poignant.guide
-[7]: http://www.techotopia.com/index.php/Ruby_Essentials
-[8]: http://pine.fm/LearnToProgram/
-[9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[7]: https://www.techotopia.com/index.php/Ruby_Essentials
+[8]: https://pine.fm/LearnToProgram/
+[9]: https://www.ruby-doc.org/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
-[12]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
-[16]: http://www.rubydoc.info/
-[19]: http://www.aptana.com/
-[20]: http://www.gnu.org/software/emacs/
-[21]: http://www.emacswiki.org/emacs/RubyMode
-[22]: http://rsense.github.io/
-[23]: http://www.geany.org/
-[24]: http://projects.gnome.org/gedit/screenshots.html
-[25]: http://www.vim.org/
+[12]: https://en.wikibooks.org/wiki/Ruby_programming_language
+[16]: https://www.rubydoc.info/
+[20]: https://www.gnu.org/software/emacs/
+[21]: https://www.emacswiki.org/emacs/RubyMode
+[25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
-[27]: http://www.jetbrains.com/ruby/
-[28]: http://www.scintilla.org/SciTE.html
-[29]: http://notepad-plus-plus.org/
-[32]: http://macromates.com/
-[33]: https://www.barebones.com/products/bbedit/
-[34]: http://ruby-doc.org
-[36]: https://netbeans.org/
-[37]: http://www.sublimetext.com/
+[27]: https://www.jetbrains.com/ruby/
+[34]: https://ruby-doc.org/
+[37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: http://kapeli.com/dash
-[40]: https://rubyapi.org/
-[docs-rlo-en]: https://docs.ruby-lang.org/en/
-[atom]: https://atom.io/
+[39]: https://www.ruby-doc.org/
+[40]: https://devdocs.io/ruby/
+[42]: https://www.zenspider.com/ruby/quickref.html
+[43]: https://rubyreferences.github.io/
+[44]: https://rubystyle.guide/
+[45]: https://github.com/rubocop/ruby-style-guide
+[46]: https://ruby-style-guide.shopify.dev/
+[47]: https://docs.gitlab.com/ee/development/backend/ruby_style_guide.html
+[48]: https://github.com/airbnb/ruby
+[49]: https://www.w3resource.com/ruby/ruby-style-guide.php
+[50]: https://github.com/ruby/irb
+[51]: https://github.com/pry/pry
+[52]: https://github.com/ruby/rake
+[53]: https://ruby.github.io/rdoc/RI_md.html
+[54]: https://github.com/ruby/rbs
+[55]: https://github.com/ruby/typeprof
+[56]: https://github.com/soutaro/steep
+[codecademy]: https://www.codecademy.com/learn/learn-ruby
+[docs-rlo-en]: https://docs.ruby-lang.org/en/latest
+[docs-rlo-jp]: https://docs.ruby-lang.org/ja/latest
+[enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
+[exercism]: https://exercism.org/tracks/ruby
+[extensions-jp]: https://docs.ruby-lang.org/jp/master/extension_rdoc.html
+[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
+[grounded]: https://www.manning.com/books/the-well-grounded-rubyist-third-edition
+[meta]: https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/
+[microscope]: https://patshaughnessy.net/ruby-under-a-microscope
+[neovim]: https://neovim.io/
+[odin]: https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby
+[pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
+[poodr]: https://www.poodr.com/
+[ruby-lsp]: https://github.com/Shopify/ruby-lsp
+[rubyapi-org]: https://rubyapi.org/
+[rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
+[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html)
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
-[eric]: https://eric-ide.python-projects.org/
-[kdevelop]: https://www.kdevelop.org/
-[kate]: https://kate-editor.org/
+[zed]: https://zed.dev/
 
 [ko-1]: https://docs.google.com/document/d/15yEpi2ZMB2Lld5lA1TANt13SJ_cKygP314cqyKhELwQ/preview
 [ko-2]: https://web.archive.org/web/20190521035426/http://beyond.daesan.com/pages/ruby-faq
-[ko-3]: https://groups.google.com/forum/#!forum/rubykr
-[ko-4]: https://www.facebook.com/groups/rubykr/
-[ko-5]: http://ruby-korea.github.io/#book
