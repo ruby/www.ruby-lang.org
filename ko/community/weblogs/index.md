@@ -32,7 +32,7 @@ Ruby 블로그와 뉴스레터는 지난 몇 년간 폭발적으로 많아졌고
 * [**Ruby on Rails Blog**][ruby-on-rails-blog]는 Ruby on Rails 팀의 공식 그룹
   블로그입니다. Rails를 이용하고 있다면 이 블로그는 보안 업데이트 알림과
   광범위한 Rails 커뮤니티에 대한 전반적인 정보를 얻는 데 필수입니다.
-* [**Rails at Scale**][rails-at-scale]에는 최근에 Ruby와 Rails의 발전을 위해
+* [**Rails at Scale**][rails-at-scale]에는 Ruby와 Rails의 발전을 위해
   이루어진 최근 작업에 대해 논의한 게시물이 있습니다.
 
 ### 널리 알리기
