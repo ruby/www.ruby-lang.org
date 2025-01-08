@@ -311,8 +311,9 @@ und wird weltweit vor allem für die Webentwicklung verwendet.
 [Feature #20715]: https://bugs.ruby-lang.org/issues/20715
 [Feature #20775]: https://bugs.ruby-lang.org/issues/20775
 [Bug #20795]: https://bugs.ruby-lang.org/issues/20795
+[Bug #20433]: https://bugs.ruby-lang.org/issues/20433
 [Feature #20860]: https://bugs.ruby-lang.org/issues/20860
 [Feature #20875]: https://bugs.ruby-lang.org/issues/20875
 [Feature #20884]: https://bugs.ruby-lang.org/issues/20884
-[sigstore.dev]: sigstore.dev
+[sigstore.dev]: https://www.sigstore.dev
 [ruby/net-http-sspi]: https://github.com/ruby/net-http-sspi
