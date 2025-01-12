@@ -25,7 +25,7 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 [Try Ruby][1]
 : 브라우저에서 Ruby를 시험해 볼 수 있습니다.
 
-[Learn to Program][8] (영문)
+[Learn to Program][8]
 : Chris Pine 님이 작성한 초보자를 위한 작고 멋진 튜토리얼입니다.
   프로그래밍을 모르신다면 여기서 시작하세요.
 
@@ -75,15 +75,15 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 [공식 API 문서][docs-rlo-en] [(JP)][docs-rlo-jp]
 : 아직 릴리스되지 않은 트렁크를 포함한 여러 Ruby 버전의 공식 언어 문서입니다.
 
-[Ruby C API 레퍼런스][extensions] (영문) [(JP)][extensions-jp]
+[Ruby C API 레퍼런스][extensions] [(JP)][extensions-jp]
 : Ruby의 공식 C API 문서입니다.
   Ruby 개발에 참여하거나, C 확장을 개발할 때 도움이 될 것입니다.
 
-[RubyDoc.info][16] (영문)
+[RubyDoc.info][16]
 : Ruby gem과 GitHub에서 호스팅 되는 Ruby 프로젝트의 레퍼런스 문서들을
   모아놓은 사이트입니다.
 
-[Ruby API][40] (영문)
+[Ruby API][40]
 : Ruby 클래스, 모듈, 메서드를 편하게 찾고 탐색하세요.
 
 [ruby-doc.org][39]
@@ -170,29 +170,29 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 
 다음 링크들은 한때 더 주목받았지만 오랫동안 업데이트되지 않았습니다.
 
-[Ruby Koans][2] (영문)
+[Ruby Koans][2]
 : Koans는 Ruby를 배우는 깨달음의 길로 여러분을 안내합니다. Koans의 목표는
   Ruby 언어, 문법, 구조, 일반적인 함수들과 라이브러리를 배우는 것입니다.
   Koans에서는 문화도 가르칩니다.
 
-[Ruby Essentials][7] (영문)
+[Ruby Essentials][7]
 : 간결하고 따라 하기 쉬운 Ruby 가이드를 제공하는
   무료 온라인 책입니다.
 
-[Why’s (Poignant) Guide to Ruby][5] (영문)
+[Why’s (Poignant) Guide to Ruby][5]
 : 이야기, 재치, 만화를 통해 Ruby를 가르쳐주는 틀에 얽매이지 않는 재미있는
   책입니다. *Why the Lucky Stiff*의 저작물로 Ruby를 배우는 사람을 위한
   고전입니다.
 
-[Learn Ruby the Hard Way][38] (영문)
+[Learn Ruby the Hard Way][38]
 : 아주 기초적인 내용부터 OOP에서 웹 개발까지 다루는 매우 좋은 설명이
   달린 예제들입니다.
 
-[Programming Ruby][9] (영문)
+[Programming Ruby][9]
 : 영어로 된 독창적인 Ruby 책입니다. [Pragmatic Programmers의 책][10]
   1판이 무료로 온라인에 공개되어 있습니다.
 
-[The Ruby Programming Wikibook][12] (영문)
+[The Ruby Programming Wikibook][12]
 : 초보자와 중급자를 위한 무료 온라인 매뉴얼과
   언어 전체 레퍼런스입니다.
 
