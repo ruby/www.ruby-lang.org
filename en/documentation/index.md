@@ -241,6 +241,6 @@ These links were more prominent but haven't been updated in ages.
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
 [rubyapi-org]: https://rubyapi.org/
 [rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
-[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html)
+[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
 [zed]: https://zed.dev/
