@@ -247,7 +247,7 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
 [rubyapi-org]: https://rubyapi.org/
 [rubyin20]: https://www.ruby-lang.org/ko/documentation/quickstart/
-[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html)
+[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
 [zed]: https://zed.dev/
 
