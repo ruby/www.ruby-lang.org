@@ -29,10 +29,6 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 : Chris Pine 님이 작성한 초보자를 위한 작고 멋진 튜토리얼입니다.
   프로그래밍을 모르신다면 여기서 시작하세요.
 
-[Learn Ruby the Hard Way][38] (영문)
-: 아주 기초적인 내용부터 OOP에서 웹 개발까지 다루는 매우 좋은 설명이
-  달린 예제들입니다.
-
 [Ruby in Twenty Minutes][rubyin20]
 : 20분 이내에 끝낼 수 있는 작은 Ruby 튜토리얼입니다.
 
