@@ -60,12 +60,12 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 #### 중급자
 
 [Practical OOD in Ruby (POODR)][poodr]
-: 한 프로그래머의 객체지향 코드를 작성하는 방법에 대한 이야기입니다.
+: 객체지향 코드를 작성하는 방법에 대한 프로그래머의 이야기입니다.
 
 #### 전문가
 
 [Metaprogramming][meta]
-: 메타 프로그래밍을 쉽게 설명합니다.
+: 메타 프로그래밍을 실용적인 방식으로 설명합니다.
 
 [Ruby Under a Microscope (RUM)][microscope]
 : Ruby 내부를 설명하는 그림이 포함된 가이드입니다.
@@ -104,13 +104,13 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 : RuboCop의 Ruby 스타일 가이드
 
 [RuboCop][45]
-: Rubocop의 스타일 가이드를 자동으로 적용합니다.
+: RuboCop의 스타일 가이드를 자동으로 적용합니다.
 
 [Shopify][46]
 : Shopify의 Ruby 스타일 가이드
 
 [GitLab][47]
-: Gitlab의 Ruby 스타일 가이드
+: GitLab의 Ruby 스타일 가이드
 
 [Airbnb][48]
 : Airbnb의 Ruby 스타일 가이드
@@ -150,16 +150,14 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 
 루비스트가 사용하는 인기 있는 편집기 목록을
 학습 곡선에 따라 나누어 놓았습니다.
-
-
 * 며칠 안에 익힐 수 있는 편집기
-  * [Sublime Text][37] (paid)
+  * [Sublime Text][37] (유료)
   * [Visual Studio Code][vscode]
   * [Zed][zed]
 * 몇 개월 정도 걸리는 편집기
-  * [RubyMine][27] (paid)
+  * [RubyMine][27] (유료)
 * "몇 년" (즉, 몇 년 동안 새로운 것을 계속 배울 수 있는 에디터)
-  * [Ruby 모드][21]이나 [향상된 Ruby 모드][enh-ruby-mode]를 사용하는 [Emacs][20]
+  * [Ruby 모드][21]나 [향상된 Ruby 모드][enh-ruby-mode]를 사용하는 [Emacs][20]
   * [vim-ruby][26] 플러그인을 사용하는 [Vim][25]
   * [NeoVim][neovim]
 
