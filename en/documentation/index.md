@@ -239,8 +239,8 @@ These links were more prominent but haven't been updated in ages.
 [pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [poodr]: https://www.poodr.com/
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
+[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html
 [rubyapi-org]: https://rubyapi.org/
 [rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
-[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
 [zed]: https://zed.dev/
