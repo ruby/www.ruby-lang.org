@@ -15,6 +15,7 @@ Rubyでプログラミングする際に役立つドキュメントを紹介し�
 また、現在有志の手により[リファレンスマニュアルの整備][rurema-wiki]が進行中です。
 成果物を[&lt;URL:https://docs.ruby-lang.org/ja/&gt;][doc-r-l-o]から閲覧できます。
 
+* [Rubyリファレンスマニュアル Ruby 3.4版][man-34]
 * [Rubyリファレンスマニュアル Ruby 3.3版][man-33]
 * [Rubyリファレンスマニュアル Ruby 3.2版][man-32]
 * [Rubyリファレンスマニュアル Ruby 3.1版][man-31]
@@ -123,6 +124,7 @@ Posted by Shugo Maeda on 26 May 2006
 [man-31]: https://docs.ruby-lang.org/ja/3.1/doc/index.html
 [man-32]: https://docs.ruby-lang.org/ja/3.2/doc/index.html
 [man-33]: https://docs.ruby-lang.org/ja/3.3/doc/index.html
+[man-34]: https://docs.ruby-lang.org/ja/3.4/doc/index.html
 [man-search]: https://docs.ruby-lang.org/ja/search/
 [man-xz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.xz
 [man-gz]: https://cache.ruby-lang.org/pub/ruby/doc/ruby-refm-1.9.3-dynamic-20120829.tar.gz
