@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 3.3.7 Released"
-author:
+author: k0kubun
 translator:
 date: 2025-01-15 07:51:59 +0000
 lang: en
@@ -9,7 +9,8 @@ lang: en
 
 Ruby 3.3.7 has been released.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_7) for further details.
+This is a routine update that includes minor bug fixes.
+Please refer to [the release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_7) for further details.
 
 ## Download
 
