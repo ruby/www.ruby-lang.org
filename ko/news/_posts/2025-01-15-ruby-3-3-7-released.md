@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Ruby 3.3.7 Released"
+title: "Ruby 3.3.7 릴리스"
 author: k0kubun
-translator:
+translator: shia
 date: 2025-01-15 07:51:59 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.3.7 has been released.
+Ruby 3.3.7이 릴리스되었습니다.
 
-This is a routine update that includes minor bug fixes.
-Please refer to [the release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_7) for further details.
+이번 릴리스는 일반적인 업데이트로, 사소한 버그 수정이 포함되어 있습니다.
+자세한 내용은 [GitHub 릴리스 노트](https://github.com/ruby/ruby/releases/tag/v3_3_7)를 참조하세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.3.7" | first %}
 
@@ -37,7 +37,7 @@ Please refer to [the release notes on GitHub](https://github.com/ruby/ruby/relea
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
