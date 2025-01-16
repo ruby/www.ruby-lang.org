@@ -158,7 +158,7 @@ learning curve:
 All of these editors support the Language Server Protocol (LSP),
 either by default or through their LSP plugins. Shopify's
 [ruby-lsp][ruby-lsp] is one of the most popular language servers for
-Ruby and [supports all of the above editors][shopify_lsp].
+Ruby and [supports all of the above editors][ruby-lsp-supported-editors].
 
 ### Older Reading / Resources
 
@@ -239,8 +239,8 @@ These links were more prominent but haven't been updated in ages.
 [pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [poodr]: https://www.poodr.com/
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
+[ruby-lsp-supported-editors]: https://shopify.github.io/ruby-lsp/editors.html
 [rubyapi-org]: https://rubyapi.org/
 [rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
-[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html)
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
 [zed]: https://zed.dev/
