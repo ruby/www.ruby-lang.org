@@ -164,7 +164,7 @@ Ruby를 코딩할 때 운영체제의 기본 편집기를 사용할 수 있습�
 위에서 언급한 모든 편집기는 기본으로 또는 LSP 플러그인을 통해
 언어 서버 프로토콜(LSP)을 지원합니다. Shopify의 [ruby-lsp][ruby-lsp]는
 Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
-[위에서 언급한 모든 편집기를 지원합니다][shopify_lsp].
+[위에서 언급한 모든 편집기를 지원합니다][ruby-lsp-supported-editors].
 
 ### 오래된 문서 / 리소스
 
@@ -245,9 +245,9 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 [pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [poodr]: https://www.poodr.com/
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
+[ruby-lsp-supported-editors]: https://shopify.github.io/ruby-lsp/editors.html
 [rubyapi-org]: https://rubyapi.org/
 [rubyin20]: https://www.ruby-lang.org/ko/documentation/quickstart/
-[shopify_lsp]: https://shopify.github.io/ruby-lsp/editors.html
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
 [zed]: https://zed.dev/
 
