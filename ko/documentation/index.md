@@ -16,15 +16,15 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [Ruby를 브라우저에서 시험해 볼 수도 있지만][1], Ruby를 설치하기 위해서
 [설치 설명서](installation/)를 읽어보아도 좋습니다.
 
-### Official Ruby Documentation
+### 공식 Ruby 문서
 
-[docs.ruby-lang.org/en][docs-rlo]: List of documentation for all Ruby versions released after 2.1.
+[docs.ruby-lang.org/en][docs-rlo]: Ruby 2.1 이후의 모든 버전에 대한 문서 목록입니다.
 
-[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Documentation for Ruby 3.4.
+[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Ruby 3.4 버전에 대한 문서입니다.
 
-[docs.ruby-lang.org/en/master][docs-rlo-master]: Documentation for Ruby's master branch.
+[docs.ruby-lang.org/en/master][docs-rlo-master]: Ruby의 마스터 브랜치의 문서입니다.
 
-[C Extension Guide][docs-rlo-extension]: In-depth guide for creating C extensions for Ruby.
+[C Extension Guide][docs-rlo-extension]: Ruby의 C 확장을 만드는 방법에 대한 상세 가이드입니다.
 
 ### 초보자용 문서
 
@@ -45,7 +45,7 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 : 자동 분석과 개인 멘토링이 포함된 120개의 연습문제가 제공됩니다.
 
 [Codecademy][codecademy]
-: Online code bootcamp with a variety of topics.
+: 다양한 주제를 다루는 온라인 코드 부트캠프입니다.
 
 [Ruby For Impatient Nuby][ko-1]
 : 서민구 님이 작성하신 Ruby 초보자를 위한 튜토리얼입니다.
@@ -76,9 +76,9 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [Ruby Under a Microscope (RUM)][microscope]
 : Ruby 내부를 설명하는 그림이 포함된 가이드입니다.
 
-### Community Documentation
+### 커뮤니티 문서
 
-These documentation sites are maintained by the Ruby community.
+다음은 Ruby 커뮤니티에 의해 유지되고 있는 문서입니다.
 
 [RubyDoc.info][16]
 : Ruby gem과 GitHub에서 호스팅 되는 Ruby 프로젝트의 레퍼런스 문서들을
@@ -97,7 +97,7 @@ These documentation sites are maintained by the Ruby community.
 : 빠른 Ruby 참조 문서입니다.
 
 [rubyreferences][43]
-: A full language reference + detailed language changelog.
+: 완전한 언어 레퍼런스와 상세한 언어 변경 로그입니다.
 
 ### 스타일 가이드
 
