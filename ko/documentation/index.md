@@ -22,7 +22,7 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 
 [docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Ruby 3.4 버전에 대한 문서입니다.
 
-[docs.ruby-lang.org/en/master][docs-rlo-master]: Ruby의 마스터 브랜치의 문서입니다.
+[docs.ruby-lang.org/en/master][docs-rlo-master]: Ruby의 master 브랜치의 문서입니다.
 
 [C Extension Guide][docs-rlo-extension]: Ruby의 C 확장을 만드는 방법에 대한 상세 가이드입니다.
 
