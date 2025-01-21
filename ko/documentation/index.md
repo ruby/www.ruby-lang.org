@@ -16,9 +16,15 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [Ruby를 브라우저에서 시험해 볼 수도 있지만][1], Ruby를 설치하기 위해서
 [설치 설명서](installation/)를 읽어보아도 좋습니다.
 
-### Ruby 언어 문서
+### 공식 Ruby 문서
 
-Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있는 Ruby 언어 문서가 출발점입니다. 이 문서는 언어의 모든 측면을 다루며, Ruby 프로그래밍 언어를 배우거나 참조할 때 처음으로 찾아봐야 하는 곳입니다. 아래 나열된 다른 자료들은 공식 언어 문서를 보완하거나 다른 형식/스타일/맛으로 Ruby 문서를 제공합니다.
+[docs.ruby-lang.org/en][docs-rlo]: Ruby 2.1 이후의 모든 버전에 대한 문서 목록입니다.
+
+[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Ruby 3.4 버전에 대한 문서입니다.
+
+[docs.ruby-lang.org/en/master][docs-rlo-master]: Ruby의 master 브랜치의 문서입니다.
+
+[C Extension Guide][docs-rlo-extension]: Ruby의 C 확장을 만드는 방법에 대한 상세 가이드입니다.
 
 ### 초보자용 문서
 
@@ -39,7 +45,7 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 : 자동 분석과 개인 멘토링이 포함된 120개의 연습문제가 제공됩니다.
 
 [Codecademy][codecademy]
-: 다양한 주제를 다루는 온라인 코드 부트캠프입니다. 무료입니다.
+: 다양한 주제를 다루는 온라인 코드 부트캠프입니다.
 
 [Ruby For Impatient Nuby][ko-1]
 : 서민구 님이 작성하신 Ruby 초보자를 위한 튜토리얼입니다.
@@ -70,14 +76,9 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 [Ruby Under a Microscope (RUM)][microscope]
 : Ruby 내부를 설명하는 그림이 포함된 가이드입니다.
 
-### 참조
+### 커뮤니티 문서
 
-[공식 API 문서][docs-rlo-en] [(JP)][docs-rlo-jp]
-: 아직 릴리스되지 않은 트렁크를 포함한 여러 Ruby 버전의 공식 언어 문서입니다.
-
-[Ruby C API 레퍼런스][extensions] [(JP)][extensions-jp]
-: Ruby의 공식 C API 문서입니다.
-  Ruby 개발에 참여하거나, C 확장을 개발할 때 도움이 될 것입니다.
+다음은 Ruby 커뮤니티에 의해 유지되고 있는 문서입니다.
 
 [RubyDoc.info][16]
 : Ruby gem과 GitHub에서 호스팅 되는 Ruby 프로젝트의 레퍼런스 문서들을
@@ -96,7 +97,7 @@ Ruby를 이해하고 싶다면, [docs.ruby-lang.org][docs-rlo-en]의 권위 있�
 : 빠른 Ruby 참조 문서입니다.
 
 [rubyreferences][43]
-: 완전한 언어 레퍼런스와 상세한 언어 변경 로그입니다. 훌륭합니다.
+: 완전한 언어 레퍼런스와 상세한 언어 변경 로그입니다.
 
 ### 스타일 가이드
 
@@ -231,12 +232,12 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 [55]: https://github.com/ruby/typeprof
 [56]: https://github.com/soutaro/steep
 [codecademy]: https://www.codecademy.com/learn/learn-ruby
-[docs-rlo-en]: https://docs.ruby-lang.org/en/latest
-[docs-rlo-jp]: https://docs.ruby-lang.org/ja/latest
+[docs-rlo]: https://docs.ruby-lang.org/en
+[docs-rlo-3.4]: https://docs.ruby-lang.org/en/3.4
+[docs-rlo-master]: https://docs.ruby-lang.org/en/master
+[docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
 [exercism]: https://exercism.org/tracks/ruby
-[extensions-jp]: https://docs.ruby-lang.org/jp/master/extension_rdoc.html
-[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [grounded]: https://www.manning.com/books/the-well-grounded-rubyist-third-edition
 [meta]: https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/
 [microscope]: https://patshaughnessy.net/ruby-under-a-microscope
