@@ -57,6 +57,7 @@ Here are available installation methods:
 * [Managers](#managers)
   * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
+  * [mise-en-place](#mise-en-place)
   * [rbenv](#rbenv)
   * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
@@ -334,6 +335,18 @@ manage Rubies installed by [ruby-install](#ruby-install) or even built
 from source.
 
 
+### mise-en-place
+{: #mise-en-place}
+
+[mise-en-place][mise-en-place] allows you to switch between multiple Rubies.
+It uses [ruby-build](#ruby-build) under the hood but can also be configured to use [ruby-install](#ruby-install)
+—neither of which needs to be manually installed first. mise-en-place is a polyglot
+version manager supporting many programming languages including [ruby][mise-en-place-ruby].
+mise-en-place also has a [gem backend](https://mise.jdx.dev/dev-tools/backends/gem.html) which can be used to manage
+versions of CLIs written in ruby.
+It supports UNIX-like and Windows operating systems.
+
+
 ### rbenv
 {: #rbenv}
 
@@ -421,4 +434,6 @@ though, because the installed Ruby won't be managed by any tools.
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[mise-en-place]: https://mise.jdx.dev
+[mise-en-place-ruby]: https://mise.jdx.dev/lang/ruby.html
 [openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
