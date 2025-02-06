@@ -338,12 +338,8 @@ from source.
 ### mise-en-place
 {: #mise-en-place}
 
-[mise-en-place][mise-en-place] allows you to switch between multiple Rubies.
-It uses [ruby-build](#ruby-build) under the hood but can also be configured to use [ruby-install](#ruby-install)
-—neither of which needs to be manually installed first. mise-en-place is a polyglot
-version manager supporting many programming languages including [ruby][mise-en-place-ruby].
-mise-en-place also has a [gem backend](https://mise.jdx.dev/dev-tools/backends/gem.html) which can be used to manage
-versions of CLIs written in ruby.
+[mise-en-place][mise-en-place] allows you to switch between multiple Rubies without requiring additional tools.
+It manages installations automatically and includes a [gem backend](https://mise.jdx.dev/dev-tools/backends/gem.html) to manage versions of CLIs written in Ruby.
 It supports UNIX-like and Windows operating systems.
 
 
