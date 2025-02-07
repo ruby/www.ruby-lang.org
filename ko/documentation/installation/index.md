@@ -57,6 +57,7 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
 * [관리자](#managers)
   * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
+  * [mise-en-place](#mise-en-place)
   * [rbenv](#rbenv)
   * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
@@ -334,6 +335,14 @@ chruby는 [ruby-install](#ruby-install)로 설치된 Ruby뿐만
 아니라 소스에서 빌드 된 Ruby도 관리할 수 있습니다.
 
 
+### mise-en-place
+{: #mise-en-place}
+
+[mise-en-place][mise-en-place] allows you to switch between multiple Rubies without requiring additional tools.
+It manages installations automatically and includes a [gem backend](https://mise.jdx.dev/dev-tools/backends/gem.html) to manage versions of CLIs written in Ruby.
+It supports UNIX-like and Windows operating systems.
+
+
 ### rbenv
 {: #rbenv}
 
@@ -421,4 +430,6 @@ $ sudo make install
 [wsl]: https://docs.microsoft.com/ko-kr/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[mise-en-place]: https://mise.jdx.dev
+[mise-en-place-ruby]: https://mise.jdx.dev/lang/ruby.html
 [openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
