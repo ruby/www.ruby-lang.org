@@ -338,9 +338,9 @@ chruby는 [ruby-install](#ruby-install)로 설치된 Ruby뿐만
 ### mise-en-place
 {: #mise-en-place}
 
-[mise-en-place][mise-en-place] allows you to switch between multiple Rubies without requiring additional tools.
-It manages installations automatically and includes a [gem backend](https://mise.jdx.dev/dev-tools/backends/gem.html) to manage versions of CLIs written in Ruby.
-It supports UNIX-like and Windows operating systems.
+[mise-en-place][mise-en-place]는 추가 도구 없이 여러 Ruby 간의 전환을 할 수 있게 합니다.
+설치를 자동으로 관리하며 Ruby로 작성된 CLI의 버전을 관리하기 위한 [gem 백엔드](https://mise.jdx.dev/dev-tools/backends/gem.html)를 포함합니다.
+UNIX-계열 운영체제와 Windows 운영체제를 지원합니다.
 
 
 ### rbenv
