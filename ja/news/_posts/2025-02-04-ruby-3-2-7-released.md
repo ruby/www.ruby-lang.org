@@ -2,16 +2,16 @@
 layout: news_post
 title: "Ruby 3.2.7 Released"
 author: nagachika
-translator:
+translator: shia
 date: 2025-02-04 12:00:00 +0000
-lang: en
+lang: ja
 ---
 
-Ruby 3.2.7 has been released.
+Ruby 3.2.7 がリリースされました。
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_7) for further details.
+詳しくは [GitHub release notes](https://github.com/ruby/ruby/releases/tag/v3_2_7) を参照してください。
 
-## Download
+## ダウンロード
 
 {% assign release = site.data.releases | where: "version", "3.2.7" | first %}
 
@@ -36,7 +36,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## リリースコメント
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Ruby 開発者の皆様、バグや脆弱性を報告してくれたユーザーの皆様のご協力により本リリースは行われています。
+皆様のご協力に感謝します。
