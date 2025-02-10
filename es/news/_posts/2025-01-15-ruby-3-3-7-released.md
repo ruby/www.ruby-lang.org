@@ -40,5 +40,8 @@ Por favor revise  más detalles en las
 
 ## Comentario de la versión
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+
+Muchos contribuidores, desarrolladores y usuarios que proveyeron reportes de
+fallas nos ayudaron a producir esta versión.
+
+Gracias por sus contribuciones.
