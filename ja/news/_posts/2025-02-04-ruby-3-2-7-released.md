@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.2.7 Released"
+title: "Ruby 3.2.7 リリース"
 author: nagachika
 translator: shia
 date: 2025-02-04 12:00:00 +0000
