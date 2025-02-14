@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 3.4.2 Released"
-author:
+author: k0kubun
 translator:
 date: 2025-02-14 21:55:17 +0000
 lang: en
@@ -9,7 +9,14 @@ lang: en
 
 Ruby 3.4.2 has been released.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_2) for further details.
+This is a routine update that includes bug fixes. Please refer to the
+[release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_2) for further details.
+
+## Release Schedule
+
+We intend to release the latest stable Ruby version (currently Ruby 3.4) every 2 months.
+Ruby 3.4.3 will be released in April, 3.4.4 in June, 3.4.5 in August, 3.4.6 in October, and 3.4.7 in December.
+If there's any change that affects a considerable amount of people, those versions may be released earlier than expected.
 
 ## Download
 
