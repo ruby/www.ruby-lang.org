@@ -16,6 +16,7 @@ This is a routine update that includes bug fixes. Please refer to the
 
 We intend to release the latest stable Ruby version (currently Ruby 3.4) every 2 months.
 Ruby 3.4.3 will be released in April, 3.4.4 in June, 3.4.5 in August, 3.4.6 in October, and 3.4.7 in December.
+
 If there's any change that affects a considerable amount of people, those versions may be released earlier than expected.
 
 ## Download
