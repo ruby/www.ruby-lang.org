@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 3.4.2 Released"
+title: "Ruby 3.4.2 릴리스"
 author: k0kubun
-translator:
+translator: "shia"
 date: 2025-02-14 21:55:17 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.4.2 has been released.
+Ruby 3.4.2가 릴리스되었습니다.
 
-This is a routine update that includes bug fixes. Please refer to the
-[release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_2) for further details.
+이번 릴리스는 일반적인 업데이트로, 사소한 버그 수정이 포함되어 있습니다.
+자세한 내용은 [GitHub 릴리스 노트](https://github.com/ruby/ruby/releases/tag/v3_4_2)를 참조하세요.
 
-## Release Schedule
+## 릴리스 일정
 
-We intend to release the latest stable Ruby version (currently Ruby 3.4) every 2 months.
-Ruby 3.4.3 will be released in April, 3.4.4 in June, 3.4.5 in August, 3.4.6 in October, and 3.4.7 in December.
+최신 안정화 버전(현재 Ruby 3.4)을 2개월마다 릴리스할 계획입니다.
+Ruby 3.4.3은 4월에 릴리스될 예정이며, 3.4.4는 6월, 3.4.5는 8월, 3.4.6은 10월, 3.4.7은 12월에 릴리스될 예정입니다.
 
-If there's any change that affects a considerable amount of people, those versions may be released earlier than expected.
+만약 많은 사람들에게 영향을 미치는 변경 사항이 있을 경우, 해당 버전은 예상보다 빨리 릴리스될 수 있습니다.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.4.2" | first %}
 
@@ -44,7 +44,7 @@ If there's any change that affects a considerable amount of people, those versio
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
