@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 3.4.2 Released"
+title: "Ruby 3.4.2 リリース"
 author: k0kubun
-translator:
+translator: shia
 date: 2025-02-14 21:55:17 +0000
-lang: en
+lang: ja
 ---
 
-Ruby 3.4.2 has been released.
+Ruby 3.4.2がリリースされました。
 
-This is a routine update that includes bug fixes. Please refer to the
-[release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_2) for further details.
+これは定期的なアップデートであり、バグ修正を含みます。
+詳しくは[GitHub release notes](https://github.com/ruby/ruby/releases/tag/v3_4_2)を参照してください。
 
-## Release Schedule
+## リリーススケジュール
 
-We intend to release the latest stable Ruby version (currently Ruby 3.4) every 2 months.
-Ruby 3.4.3 will be released in April, 3.4.4 in June, 3.4.5 in August, 3.4.6 in October, and 3.4.7 in December.
+最新の安定版Ruby（現在はRuby 3.4）を2ヶ月おきにリリースする予定です。
+Ruby 3.4.3は4月にリリースされ、3.4.4は6月、3.4.5は8月、3.4.6は10月、3.4.7は12月にリリースされます。
 
-If there's any change that affects a considerable amount of people, those versions may be released earlier than expected.
+多くのユーザーに影響を与えるような変更があった場合、予定よりも早く新しいバージョンをリリースすることがあります。
 
-## Download
+## ダウンロード
 
 {% assign release = site.data.releases | where: "version", "3.4.2" | first %}
 
@@ -44,7 +44,7 @@ If there's any change that affects a considerable amount of people, those versio
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## リリースコメント
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Ruby 開発者の皆様、バグや脆弱性を報告してくれたユーザーの皆様のご協力により本リリースは行われています。
+皆様のご協力に感謝します。
