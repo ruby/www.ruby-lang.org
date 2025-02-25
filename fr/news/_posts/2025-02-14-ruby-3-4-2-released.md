@@ -10,7 +10,7 @@ lang: fr
 Ruby 3.4.2 est disponible.
 
 Ceci est une mise à jour de routine incluant des corrections de bugs.
-Veuillez vous référer aux [release notes sur GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_2) for further details.
+Veuillez vous référer aux [release notes sur GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_2) pour plus de détails.
 
 ## Calendrier de publication
 
