@@ -1,70 +1,70 @@
 ---
 layout: news_post
-title: "Security advisories: CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221"
+title: "보안 권고 CVE-2025-27219, CVE-2025-27220, CVE-2025-27221"
 author: "hsbt"
-translator:
+translator: "shia"
 date: 2025-02-26 07:00:00 +0000
 tags: security
-lang: en
+lang: ko
 ---
 
-We published security advisories for CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221. Please read the details below.
+CVE-2025-27219, CVE-2025-27220 및 CVE-2025-27221에 대한 보안 권고를 발표했습니다. 아래 내용을 확인해 주세요.
 
-## CVE-2025-27219: Denial of Service in `CGI::Cookie.parse`.
+## CVE-2025-27220: `CGI::Cookie.parse`에서의 서비스 거부
 
-There is a possibility for DoS by in the cgi gem.  This vulnerability has been assigned the CVE identifier [CVE-2025-27219](https://www.cve.org/CVERecord?id=CVE-2025-27219). We recommend upgrading the cgi gem.
+cgi gem에서 DoS가 발생할 수 있습니다. 이 취약점은 CVE 식별자 [CVE-2025-27219](https://www.cve.org/CVERecord?id=CVE-2025-27219)가 할당되었습니다. cgi gem을 업그레이드하기를 추천합니다.
 
-### Details
+### 세부 내용
 
-`CGI::Cookie.parse` took super-linear time to parse a cookie string in some cases. Feeding a maliciously crafted cookie string into the method could lead to a Denial of Service.
+`CGI::Cookie.parse`는 특정 쿠키 문자열을 구문 분석할 때 초선형(super-linear) 시간이 걸렸습니다. 이 메서드에 악의적으로 조작된 쿠키 문자열을 넘기면 서비스 거부가 발생할 수 있습니다.
 
-Please update CGI gem to version 0.3.5.1, 0.3.7, 0.4.2 or later.
+CGI gem의 버전을 0.3.5.1, 0.3.7, 0.4.2 또는 그 이상으로 업데이트하세요.
 
-### Affected versions
+### 해당 버전
 
-* cgi gem versions <= 0.3.5, 0.3.6, 0.4.0 and 0.4.1.
+* cgi gem 버전 <= 0.3.5, 0.3.6, 0.4.0 및 0.4.1
 
-### Credits
+### 도움을 준 사람
 
-Thanks to [lio346](https://hackerone.com/lio346) for discovering this issue. Also thanks to [mame](https://github.com/mame) for fixing this vulnerability.
+이 문제를 발견해 준 [lio346](https://hackerone.com/lio346)에게 감사를 표합니다. 또한 이 취약점을 수정한 [mame](https://github.com/mame)에게도 감사를 표합니다.
 
-## CVE-2025-27220: ReDoS in `CGI::Util#escapeElement`.
+## CVE-2025-27220: `CGI::Util#escapeElement`에서의 ReDoS
 
-There is a possibility for Regular expression Denial of Service(ReDoS) by in the cgi gem.  This vulnerability has been assigned the CVE identifier [CVE-2025-27220](https://www.cve.org/CVERecord?id=CVE-2025-27220). We recommend upgrading the cgi gem.
+cgi gem에서 정규 표현식 거부 서비스(ReDoS)가 발생할 수 있습니다. 이 취약점은 CVE 식별자 [CVE-2025-27220](https://www.cve.org/CVERecord?id=CVE-2025-27220)가 할당되었습니다. cgi gem을 업그레이드하기를 추천합니다.
 
-### Details
+### 세부 내용
 
-The regular expression used in `CGI::Util#escapeElement` is vulnerable to ReDoS. The crafted input could lead to a high CPU consumption.
+`CGI::Util#escapeElement`에서 사용된 정규 표현식이 ReDoS에 취약합니다. 정교하게 만들어진 입력은 높은 CPU 소비로 이어질 수 있습니다.
 
-This vulnerability only affects Ruby 3.1 and 3.2. If you are using these versions, please update CGI gem to version 0.3.5.1, 0.3.7, 0.4.2 or later.
+이 취약점은 Ruby 3.1 및 3.2에서만 영향을 미칩니다. 이러한 버전을 사용 중이라면 CGI gem을 버전을 0.3.5.1, 0.3.7, 0.4.2 또는 그 이상으로 업데이트하세요.
 
-### Affected versions
+### 해당 버전
 
-* cgi gem versions <= 0.3.5, 0.3.6, 0.4.0 and 0.4.1.
+* cgi gem 버전 <= 0.3.5, 0.3.6, 0.4.0 및 0.4.1
 
-### Credits
+### 도움을 준 사람
 
-Thanks to [svalkanov](https://hackerone.com/svalkanov) for discovering this issue. Also thanks to [nobu](https://github.com/nobu) for fixing this vulnerability.
+이 문제를 발견해 준 [svalkanov](https://hackerone.com/svalkanov)에게 감사를 표합니다. 또한 이 취약점을 수정한 [nobu](https://github.com/nobu)에게도 감사를 표합니다.
 
 
-## CVE-2025-27221: userinfo leakage in `URI#join`, `URI#merge` and `URI#+`.
+## CVE-2025-27221: `URI#join`, `URI#merge` 및 `URI#+`에서의 사용자 정보 유출
 
-There is a possibility for userinfo leakage by in the uri gem.  This vulnerability has been assigned the CVE identifier [CVE-2025-27221](https://www.cve.org/CVERecord?id=CVE-2025-27221). We recommend upgrading the uri gem.
+uri gem에서 사용자 정보 유출이 발생할 수 있습니다. 이 취약점은 CVE 식별자 [CVE-2025-27221](https://www.cve.org/CVERecord?id=CVE-2025-27221)가 할당되었습니다. uri gem을 업그레이드하기를 추천합니다.
 
-### Details
+### 세부 내용
 
-The methods `URI#join`, `URI#merge`, and `URI#+` retained userinfo, such as `user:password`, even after the host is replaced. When generating a URL to a malicious host from a URL containing secret userinfo using these methods, and having someone access that URL, an unintended userinfo leak could occur.
+`URI#join`, `URI#merge`, `URI#+` 메서드는 호스트 정보를 교체하더라도  `user:password`와 같은 사용자 정보를유지합니다. 이러한 메서드를 사용하여 비밀인 사용자 정보를 포함하는 URL에서 악의적인 호스트로 URL을 생성하고, 누군가가 해당 URL에 액세스하면 의도하지 않은 사용자 정보 유출이 발생할 수 있습니다.
 
-Please update URI gem to version 0.11.3, 0.12.4, 0.13.2, 1.0.3 or later.
+URI gem을 버전 0.11.3, 0.12.4, 0.13.2, 1.0.3 또는 그 이상으로 업데이트하세요.
 
-### Affected versions
+### 해당 버전
 
-* uri gem versions < 0.11.3, 0.12.0 to 0.12.3, 0.13.0, 0.13.1 and 1.0.0 to 1.0.2.
+* uri gem 버전 < 0.11.3, 0.12.0부터 0.12.3까지, 0.13.0, 0.13.1 및 1.0.0부터 1.0.2까지
 
-### Credits
+### 도움을 준 사람
 
-Thanks to [Tsubasa Irisawa (lambdasawa)](https://hackerone.com/lambdasawa) for discovering this issue. Also thanks to [nobu](https://github.com/nobu) for additional fixes of this vulnerability.
+이 문제를 발견해 준 [Tsubasa Irisawa (lambdasawa)](https://hackerone.com/lambdasawa)에게 감사를 표합니다. 또한 이 취약점을 수정한 [nobu](https://github.com/nobu)에게도 감사를 표합니다.
 
-## History
+## 수정 이력
 
-* Originally published at 2025-02-26 7:00:00 (UTC)
+* 2025-02-26 7:00:00 (UTC) 최초 공개
