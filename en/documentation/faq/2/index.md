@@ -56,7 +56,7 @@ argument automagically becomes a reference to the receiver.
 Ruby is a pure OO language that can masquerade as a procedural one. It has no
 functions, only method calls. In a Ruby method the receiver, also called
 `self`, is a hidden argument like `this` in C++. A `def` statement outside of
-a class definition, which is a function in Python, is actually a method call
+a class definition, which defines a function in Python, actually defines a method
 in Ruby. These ersatz functions become private methods of class Object, the
 root of the Ruby class hierarchy. Procedural programming is neatly solved from
 the other direction---everything is an object. If the user doesn't grok
