@@ -12,7 +12,7 @@ lang: ko
 
 이 릴리스에는 RubyGems 도메인 이름 확인 취약점에 관한 보안 수정이 포함됩니다.
 
-* [CVE-2015-3900 RubyGems 2.4.6 이전의 요청 가로채기 취약점](http://ruby-korea.github.io/rubygems-blog/2015/05/14/CVE-2015-3900.html)
+* [CVE-2015-3900 RubyGems 2.4.6 이전의 요청 가로채기 취약점](https://rubykr.github.io/rubygems-blog/2015/05/14/CVE-2015-3900.html)
 
 버그 수정도 조금 있었습니다.
 자세한 내용은
