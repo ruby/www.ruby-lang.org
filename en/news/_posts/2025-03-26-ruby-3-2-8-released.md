@@ -1,15 +1,19 @@
 ---
 layout: news_post
 title: "Ruby 3.2.8 Released"
-author:
+author: hsbt
 translator:
 date: 2025-03-26 04:45:01 +0000
 lang: en
 ---
 
-Ruby 3.2.8 has been released.
+Ruby 3.2.8 has been released. This release includes [CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221 fixes](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/).
 
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_8) for further details.
+
+This version is a last version of normal maintenance for Ruby 3.2 series. We will fix only security issues for Ruby 3.2 series until end of March 2026.
+
+Please consider upgrading to Ruby 3.3 or 3.4 series.
 
 ## Download
 
