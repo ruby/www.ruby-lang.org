@@ -7,9 +7,13 @@ date: 2025-03-26 04:44:27 +0000
 lang: en
 ---
 
-Ruby 3.1.7 has been released.
+Ruby 3.1.7 has been released. This release includes [CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221 fixes](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/) and update bundled REXML and RSS gems.
 
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_7) for further details.
+
+This version is a final release of Ruby 3.1 series. We will not provide any further updates including security fixes for Ruby 3.1 series.
+
+We recommend you to upgrade to Ruby 3.3 or 3.4 series.
 
 ## Download
 
