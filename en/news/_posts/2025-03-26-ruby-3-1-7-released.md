@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 3.1.7 Released"
-author:
+author: hsbt
 translator:
 date: 2025-03-26 04:44:27 +0000
 lang: en
