@@ -3,7 +3,7 @@ layout: news_post
 title: "Ruby 3.3.8 Released"
 author:
 translator:
-date: 2025-04-09 10:38:51 +0000
+date: 2025-04-09 11:00:00 +0000
 lang: en
 ---
 
