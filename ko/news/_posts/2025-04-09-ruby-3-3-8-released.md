@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ruby 3.3.8 Released"
+title: "Ruby 3.3.8 릴리스"
 author: nagachika
-translator:
+translator: shia
 date: 2025-04-09 11:00:00 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 3.3.8 has been released.
+Ruby 3.3.8이 릴리스되었습니다.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_8) for further details.
+자세한 내용은 [GitHub 릴리스 노트](https://github.com/ruby/ruby/releases/tag/v3_3_8)를 참조하세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "3.3.8" | first %}
 
@@ -36,7 +36,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
