@@ -39,7 +39,7 @@ Por favor vea detalles en la
 
 ## Comentarios de la versión
 
-Muchas contribuyentes, desarrolladores y usuarios que proveyeron
+Muchos contribuyentes, desarrolladores y usuarios que proveyeron
 reportes de fallas nos ayudaron a producir esta versión.
 
 Gracias por sus contribuciones.
