@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.4.2 Publicado"
+title: "Publicado Ruby 3.4.2"
 author: k0kubun
 translator: vtamara
 date: 2025-02-14 21:55:17 +0000

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.1.7 Publicado"
+title: "Publicado Ruby 3.1.7"
 author: hsbt
 translator: vtamara
 date: 2025-03-26 04:44:27 +0000
@@ -46,7 +46,7 @@ Le recomendamos actualizar a las series Ruby 3.3 o 3.4.
 
 ## Comentario de la versión
 
-Muchas contribuyentes, desarrolladores y usuarios que proveyeron reportes de
+Muchos contribuyentes, desarrolladores y usuarios que proveyeron reportes de
 fallas nos ayudaron a producir esta versión.
 
 Gracias por sus contribuciones.
