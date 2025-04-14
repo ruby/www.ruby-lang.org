@@ -9,8 +9,7 @@ lang: en
 
 Ruby 3.4.3 has been released.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_3) for further details.
-[release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_3) for further details.
+Please see the [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_3) for further details.
 
 ## Release Schedule
 
