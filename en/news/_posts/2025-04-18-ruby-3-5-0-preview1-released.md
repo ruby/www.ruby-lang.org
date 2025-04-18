@@ -8,7 +8,7 @@ lang: en
 ---
 
 {% assign release = site.data.releases | where: "version", "3.5.0-preview1" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.4 updates its Unicode version to 15.1.0, and so on.
+We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.5 updates its Unicode version to 15.1.0, and so on.
 
 ## Language changes
 
