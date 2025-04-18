@@ -19,6 +19,37 @@
 # In order to get the release listed on the downloads page,
 # you also need to add an entry to `_data/downloads.yml'.
 
+# 3.5 series
+
+- version: 3.5.0-preview1
+  date: 2025-04-18
+  post: /en/news/2025/04/18/ruby-3-5-0-preview1-released/
+  tag: v3_5_0_preview1
+  stats:
+    files_changed: 2065
+    insertions: 36581
+    deletions: 203037
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.xz
+  size:
+    gz:  23146162
+    zip: 28548713
+    xz:  17443928
+  sha1:
+    gz:  ee0fcfe1342116f05060279ff0c9eb1e215db0b9
+    zip: bd0c32bc84ac1ce9edbc9c0a50e8c72e56b1229d
+    xz:  8a78a9189afa20cde42207a466bcf7d421ee144b
+  sha256:
+    gz:  ecf09c7eb902e91cdaf9cc553cd00cca9b848b3fc0e14297850f9ab08cdd46f0
+    zip: 3e1d9df578c69976a01a69b961819d00c4e8942f8b5fe4fb8e135fca4f7e7e5e
+    xz:  c6cc1e9f23fe4719b024b8305345ca0cff4e1bc159f3ebff86cb5b87969863aa
+  sha512:
+    gz:  d718973648705636eff5933a0919132fd1f6b9afea432e09cce1265c6e0125e11cc94dbff84cba1caefc03190c48d8af4a27337d2af031f3f1660ca3a3531211
+    zip: 47057e1615b2b59d5bbd0d6629e1320ed74f3d70748f1db4e8b88d6c8a3ecd255eacc7dac0cccd01923fae4b4dff9e6b9457a9858c81dab81c1ab9ee514b15fa
+    xz:  835bd0b65d546722c83b0ab454256357b48898a0de9aa8e38966f53d2370a6e99552eeaff76a0b680aefbbe7491e701e5e7357797e50f063c53e79d9561c1dac
+
 # 3.4 series
 
 - version: 3.4.3
