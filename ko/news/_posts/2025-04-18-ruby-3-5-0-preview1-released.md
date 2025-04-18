@@ -1,44 +1,44 @@
 ---
 layout: news_post
-title: "Ruby 3.5.0 preview1 Released"
+title: "Ruby 3.5.0-preview1 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2025-04-18 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "3.5.0-preview1" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.4 updates its Unicode version to 15.1.0, and so on.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 3.5는 유니코드 버전을 15.1.0으로 업데이트했으며, 더 많은 것들이 있습니다.
 
-## Language changes
+## 언어 변경
 
-* `*nil` no longer calls `nil.to_a`, similar to how `**nil` does
-  not call `nil.to_hash`.  [[Feature #21047]]
+* `**nil`과 비슷하게 `*nil`은 더 이상 `nil.to_a`를 호출하지 않습니다.
+  [[Feature #21047]]
 
-## Core classes updates
+## 코어 클래스 변경
 
-Note: We're only listing notable updates of Core class.
+주의: 눈에 띄는 클래스 변경만을 포함합니다.
 
 * Binding
 
-    * `Binding#local_variables` does no longer include numbered parameters.
-      Also, `Binding#local_variable_get` and `Binding#local_variable_set` reject to handle numbered parameters.
+    * `Binding#local_variables`는 더 이상 번호가 매겨진 매개변수를 포함하지 않습니다.
+      또한, `Binding#local_variable_get`과 `Binding#local_variable_set`은 번호가 매겨진 매개변수를 처리하지 않습니다.
       [[Bug #21049]]
 
 * IO
 
-    * `IO.select` accepts +Float::INFINITY+ as a timeout argument.
+    * `IO.select`는 타임아웃 인수로 +Float::INFINITY+를 허용합니다.
       [[Feature #20610]]
 
 * String
 
-    * Update Unicode to Version 15.1.0 and Emoji Version 15.1. [[Feature #19908]]
-        (also applies to Regexp)
+    * Unicode 15.1.0 및 이모지 버전 15.1로 업데이트합니다. [[Feature #19908]]
+        (Regexp에도 적용됩니다)
 
 
-## Standard Library updates
+## 표준 라이브러리 변경
 
-Note: We're only listing notable updates of Standard librarires.
+주의: 눈에 띄는 표준 라이브러리 변경만을 포함합니다.
 
 * ostruct 0.6.1
 * pstore 0.2.0
@@ -51,31 +51,31 @@ Note: We're only listing notable updates of Standard librarires.
 * readline 0.0.4
 * fiddle 1.1.6
 
-## Compatibility issues
+## 호환성 문제
 
-Note: Excluding feature bug fixes.
-
-
-
-## Standard library compatibility issues
-
-
-## C API updates
+주의: 기능 버그 수정은 포함되어 있지 않습니다.
 
 
 
-## Miscellaneous changes
+## 표준 라이브러리 호환성 문제
+
+
+## C API 변경
 
 
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
-for more details.
+## 그 이외의 변경
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
-since Ruby 3.4.0!
 
-## Download
+
+더 자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)나
+[커밋 로그](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})를
+확인해 주세요.
+
+이러한 변경사항에 따라, Ruby 3.4.0 이후로 [파일 {{ release.stats.files_changed }}개 수정, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
+
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -98,8 +98,13 @@ since Ruby 3.4.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby는 1993년에 Matz(마츠모토 유키히로) 씨가 처음 개발했고,
+현재는 오픈 소스로서 개발되고 있습니다. 여러 플랫폼에서 동작하며,
+특히 웹 개발에서 전 세계적으로 이용되고 있습니다.
+
+[Feature #21047]: https://bugs.ruby-lang.org/issues/21047
+[Bug #21049]: https://bugs.ruby-lang.org/issues/21049
+[Feature #20610]: https://bugs.ruby-lang.org/issues/20610
+[Feature #19908]: https://bugs.ruby-lang.org/issues/19908
