@@ -103,3 +103,8 @@ since Ruby 3.4.0!
 Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
 and is now developed as Open Source. It runs on multiple platforms
 and is used all over the world especially for web development.
+
+[Feature #21047]: https://bugs.ruby-lang.org/issues/21047
+[Bug #21049]: https://bugs.ruby-lang.org/issues/21049
+[Feature #20610]: https://bugs.ruby-lang.org/issues/20610
+[Feature #19908]: https://bugs.ruby-lang.org/issues/19908
