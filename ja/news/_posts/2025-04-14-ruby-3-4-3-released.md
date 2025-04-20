@@ -10,7 +10,7 @@ lang: ja
 Ruby 3.4.3がリリースされました。
 
 これは定期的なアップデートであり、バグ修正を含みます。
-詳しくは[GitHub release notes](https://github.com/ruby/ruby/releases/tag/v3_4_2)を参照してください。
+詳しくは[GitHub release notes](https://github.com/ruby/ruby/releases/tag/v3_4_3)を参照してください。
 
 ## リリーススケジュール
 
