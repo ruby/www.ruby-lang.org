@@ -77,8 +77,8 @@ point. You can also use this to make sure that someone’s name is
 properly capitalized:
 
 {% highlight irb %}
-irb(main):019:0> def hi(name = "World")
-irb(main):020:1> puts "Hello #{name.capitalize}!"
+irb(main):019:0> def hi(var = "World")
+irb(main):020:1> puts "Hello #{var.capitalize}!"
 irb(main):021:1> end
 => :hi
 irb(main):022:0> hi "chris"
@@ -103,8 +103,8 @@ an object for that. Let’s create a “Greeter” class.
 
 {% highlight irb %}
 irb(main):024:0> class Greeter
-irb(main):025:1>   def initialize(name = "World")
-irb(main):026:2>     @name = name
+irb(main):025:1>   def initialize(var = "World")
+irb(main):026:2>     @name = var
 irb(main):027:2>   end
 irb(main):028:1>   def say_hi
 irb(main):029:2>     puts "Hi #{@name}!"
