@@ -57,8 +57,8 @@ What if we want to say hello to one person, and not the whole world?
 Just redefine `hi` to take a name as a parameter.
 
 {% highlight irb %}
-irb(main):015:0> def hi(name)
-irb(main):016:1> puts "Hello #{name}!"
+irb(main):015:0> def hi(text)
+irb(main):016:1> puts "Hello #{text}!"
 irb(main):017:1> end
 => :hi
 irb(main):018:0> hi("Matz")
@@ -70,15 +70,15 @@ So it works… but let’s take a second to see what’s going on here.
 
 ## Holding Spots in a String
 
-What’s the `#{name}` bit? That’s Ruby’s way of inserting something into
+What’s the `#{text}` bit? That’s Ruby’s way of inserting something into
 a string. The bit between the braces is turned into a string (if it
 isn’t one already) and then substituted into the outer string at that
 point. You can also use this to make sure that someone’s name is
 properly capitalized:
 
 {% highlight irb %}
-irb(main):019:0> def hi(var = "World")
-irb(main):020:1> puts "Hello #{var.capitalize}!"
+irb(main):019:0> def hi(text = "World")
+irb(main):020:1> puts "Hello #{text.capitalize}!"
 irb(main):021:1> end
 => :hi
 irb(main):022:0> hi "chris"
@@ -103,9 +103,9 @@ an object for that. Let’s create a “Greeter” class.
 
 {% highlight irb %}
 irb(main):024:0> class Greeter
-irb(main):025:1>   def initialize(var = "World")
-irb(main):026:2>     @name = var
-irb(main):027:2>   end
+irb(main):025:1>   def initialize(text = "World")
+irb(main):026:2>     @name = text
+irb(main):027:2>   en
 irb(main):028:1>   def say_hi
 irb(main):029:2>     puts "Hi #{@name}!"
 irb(main):030:2>   end
