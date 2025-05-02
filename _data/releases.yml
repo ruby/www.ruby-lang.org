@@ -19,7 +19,62 @@
 # In order to get the release listed on the downloads page,
 # you also need to add an entry to `_data/downloads.yml'.
 
+# 3.5 series
+
+- version: 3.5.0-preview1
+  date: 2025-04-18
+  post: /en/news/2025/04/18/ruby-3-5-0-preview1-released/
+  tag: v3_5_0_preview1
+  stats:
+    files_changed: 2065
+    insertions: 36581
+    deletions: 203037
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.5/ruby-3.5.0-preview1.tar.xz
+  size:
+    gz:  23146162
+    zip: 28548713
+    xz:  17443928
+  sha1:
+    gz:  ee0fcfe1342116f05060279ff0c9eb1e215db0b9
+    zip: bd0c32bc84ac1ce9edbc9c0a50e8c72e56b1229d
+    xz:  8a78a9189afa20cde42207a466bcf7d421ee144b
+  sha256:
+    gz:  ecf09c7eb902e91cdaf9cc553cd00cca9b848b3fc0e14297850f9ab08cdd46f0
+    zip: 3e1d9df578c69976a01a69b961819d00c4e8942f8b5fe4fb8e135fca4f7e7e5e
+    xz:  c6cc1e9f23fe4719b024b8305345ca0cff4e1bc159f3ebff86cb5b87969863aa
+  sha512:
+    gz:  d718973648705636eff5933a0919132fd1f6b9afea432e09cce1265c6e0125e11cc94dbff84cba1caefc03190c48d8af4a27337d2af031f3f1660ca3a3531211
+    zip: 47057e1615b2b59d5bbd0d6629e1320ed74f3d70748f1db4e8b88d6c8a3ecd255eacc7dac0cccd01923fae4b4dff9e6b9457a9858c81dab81c1ab9ee514b15fa
+    xz:  835bd0b65d546722c83b0ab454256357b48898a0de9aa8e38966f53d2370a6e99552eeaff76a0b680aefbbe7491e701e5e7357797e50f063c53e79d9561c1dac
+
 # 3.4 series
+
+- version: 3.4.3
+  date: 2025-04-14
+  post: /en/news/2025/04/14/ruby-3-4-3-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.3.tar.xz
+  size:
+    gz:  23194448
+    zip: 28356998
+    xz:  17230984
+  sha1:
+    gz:  c269cd122ab9d4620a1e0e6a8f4de378deec3799
+    zip: 87cb747a766660cf487a2e9dbbc7a18a8f6b65d9
+    xz:  d0d86fdfe6bcf9f2eb3b450f3209f655ceda86da
+  sha256:
+    gz:  55a4cd1dcbe5ca27cf65e89a935a482c2bb2284832939266551c0ec68b437f46
+    zip: 06b8bf2ddf2642327c992d30f5d414ffa5a5df0c4c706d7b2507b42509fb5055
+    xz:  174dcd8c516694f833fd3c93ea227fa6c3321464577a3882a6fc7e4fe20237fd
+  sha512:
+    gz:  7019889939713c3e649003fed4d973dced36239fc354cfdee2d01dbdeb7e8512881a31b00efc3d5017f08cd492aed7914d15927bc8d076c0cae7534273e471e9
+    zip: b25289c899318ce5071b075fc1b75f602e0a543faeefa44df7e8064933500f9c357685fe21d09abc4034d481c22c89491c841f596d07e1cd269d800e6266cc24
+    xz:  b30aad675cdcc1bdfe9e5fffe9d1925db3b3ac854a5e34180c368bc6e66f73e29ba5d802fea249353b7d799c01384c58bdd763fd1b679303158baa7824b9c08e
 
 - version: 3.4.2
   date: 2025-02-14
@@ -186,6 +241,30 @@
     xz:  4ce306b9beb1e2d88c76d7f809724b66bed17e354c07a2b54aa050fc2035652e4d83deadc8dbf7a375bbdb1c816f2996334bb8e7ff5e6c24b71a858bf6b0cb7c
 
 # 3.3 series
+
+- version: 3.3.8
+  date: '2025-04-09'
+  post: "/en/news/2025/04/09/ruby-3-3-8-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.zip
+  size:
+    gz: 22197497
+    xz: 16435924
+    zip: 27628937
+  sha1:
+    gz: 71b8362d413f58ed5aef2ecd132769210c45f058
+    xz: 9ee07098fd930744d8df5d4945b5f99d2fecb9ef
+    zip: 4c0d938d2791ab696e921557aec19613bb364a67
+  sha256:
+    gz: 5ae28a87a59a3e4ad66bc2931d232dbab953d0aa8f6baf3bc4f8f80977c89cab
+    xz: 44ae70fee043da3ce48289b7a52618ebe32dc083253993d486211c7e445c8642
+    zip: 389b8deae02849e769855dea892c921d3387b6548209189837a00f1cdf353797
+  sha512:
+    gz: c5005ba4019fbae19650a9a9ce139e13608345065da9e2277dbeac9d0ac9e3b07b666816afe7be690088080c8c9cf88a8c372971d429479dcebea80d6c2e3883
+    xz: 71c2f3ac9955e088fa885fd2ff695e67362a770a5d33e5160081eda3dd298ca2c692e299b03d757caecfbc94043fedc4ad093de84c505585d480cb36bbf978b9
+    zip: 1aa6a0412760d0d1f423cd5f02533696b7c952c04f567b89aa875997e1d53a548c294c0b771a9e06e666daab038e3481a6251e361163449f92b02ab3a89a6373
 
 - version: 3.3.7
   date: 2025-01-15

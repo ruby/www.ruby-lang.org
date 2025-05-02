@@ -1,20 +1,19 @@
 ---
 layout: news_post
-title: "Publicado Ruby 3.2.7"
+title: "Ruby 3.3.8 릴리스"
 author: nagachika
-translator: vtamara
-date: 2025-02-04 12:00:00 +0000
-lang: es
+translator: shia
+date: 2025-04-09 11:00:00 +0000
+lang: ko
 ---
 
-Ruby 3.2.7 ha sido publicado.
+Ruby 3.3.8이 릴리스되었습니다.
 
-Por favor vea detalles en la
-[publiación en GitHub](https://github.com/ruby/ruby/releases/tag/v3_2_7).
+자세한 내용은 [GitHub 릴리스 노트](https://github.com/ruby/ruby/releases/tag/v3_3_8)를 참조하세요.
 
-## Descargas
+## 다운로드
 
-{% assign release = site.data.releases | where: "version", "3.2.7" | first %}
+{% assign release = site.data.releases | where: "version", "3.3.8" | first %}
 
 * <{{ release.url.gz }}>
 
@@ -37,9 +36,7 @@ Por favor vea detalles en la
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Comentarios de la versión
+## 릴리스 코멘트
 
-Muchos contribuyentes, desarrolladores y usuarios que proveyeron
-reportes de fallas nos ayudaron a producir esta versión.
-
-Gracias por sus contribuciones.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.

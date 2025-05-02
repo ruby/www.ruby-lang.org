@@ -4,22 +4,22 @@
 # optional
 preview:
 
+  - 3.5.0-preview1
 
 stable:
 
-  - 3.4.2
-  - 3.3.7
-  - 3.2.7
+  - 3.4.3
+  - 3.3.8
+  - 3.2.8
 
 # optional
 security_maintenance:
 
-  - 3.1.6
 
 # optional
 eol:
 
-  - 3.0.7
+  - 3.1.7
 
 stable_snapshots:
 
@@ -43,13 +43,6 @@ stable_snapshots:
       xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_2.tar.xz
       zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_2.zip
     version: '3.2'
-
-  - branch: ruby_3_1
-    url:
-      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_1.tar.gz
-      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_1.tar.xz
-      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_1.zip
-    version: '3.1'
 
 nightly_snapshot:
 

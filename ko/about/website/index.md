@@ -52,8 +52,6 @@ lang: ko
 
 <img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
 
-[IBM][ibm] (호스팅)
-
 [Fastly][fastly] (CDN)
 
 <img src="../../../images/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
@@ -79,7 +77,6 @@ lang: ko
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
 [rubyassociation]: http://www.ruby.or.jp
 [heroku]: https://www.heroku.com/
-[ibm]: https://www.ibm.com
 [fastly]: http://www.fastly.com
 [hatena]: http://hatenacorp.jp/
 [mackerel]: https://mackerel.io/
