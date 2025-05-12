@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "セキュリティアドバイザリ: CVE-2025-27219, CVE-2025-27220 および CVE-2025-27221"
+title: "セキュリティアドバイザリ: CVE-2025-27219、CVE-2025-27220、および CVE-2025-27221"
 author: "hsbt"
 translator: "teeta32"
 date: 2025-02-26 07:00:00 +0000
