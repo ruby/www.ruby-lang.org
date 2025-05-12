@@ -12,7 +12,7 @@ CVE-2025-27219, CVE-2025-27220 および CVE-2025-27221 のセキュリティア
 
 ## CVE-2025-27219: `CGI::Cookie.parse` におけるDOS脆弱性
 
-cgi gem に DoS 脆弱性が発見されました。本脆弱性に CVE ID[CVE-2025-27219](https://www.cve.org/CVERecord?id=CVE-2025-27219) が割り当てられています。cgi gem のアップグレードを推奨します。
+cgi gem に DoS 脆弱性が発見されました。本脆弱性には [CVE-2025-27219](https://www.cve.org/CVERecord?id=CVE-2025-27219) が割り当てられています。cgi gem のアップグレードを推奨します。
 
 ### 詳細
 
