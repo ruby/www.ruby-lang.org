@@ -243,7 +243,7 @@
 # 3.3 series
 
 - version: 3.3.8
-  date: '2025-04-09'
+  date: 2025-04-09
   post: "/en/news/2025/04/09/ruby-3-3-8-released/"
   url:
     gz: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.8.tar.gz
@@ -583,7 +583,7 @@
 # 3.2 series
 
 - version: 3.2.8
-  date: '2025-03-26'
+  date: 2025-03-26
   post: "/en/news/2025/03/26/ruby-3-2-8-released/"
   url:
     gz: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.8.tar.gz
@@ -921,7 +921,7 @@
 # 3.1 series
 
 - version: 3.1.7
-  date: '2025-03-26'
+  date: 2025-03-26
   post: "/en/news/2025/03/26/ruby-3-1-7-released/"
   url:
     gz: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.7.tar.gz
