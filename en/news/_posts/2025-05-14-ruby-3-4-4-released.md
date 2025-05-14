@@ -1,15 +1,15 @@
 ---
 layout: news_post
 title: "Ruby 3.4.4 Released"
-author:
+author: k0kubun
 translator:
-date: 2025-05-14 05:37:09 +0000
+date: 2025-05-14 18:20:00 +0000
 lang: en
 ---
 
 Ruby 3.4.4 has been released.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_4) for further details.
+Please see the [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_4) for further details.
 
 ## Download
 
