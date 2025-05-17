@@ -4,7 +4,7 @@ title: "Ruby 3.1.7 Released"
 author: hsbt
 translator: Florent Drousset
 date: 2025-03-26 04:44:27 +0000
-lang: en
+lang: fr
 ---
 
 Ruby 3.1.7 est sorti. Cette version inclut les [correctifs pour CVE-2025-27219, CVE-2025-27220 et CVE-2025-27221](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/) ainsi qu’une mise à jour des gems REXML et RSS intégrés.
@@ -42,5 +42,5 @@ Nous vous recommandons de passer à la série Ruby 3.3 ou 3.4.
 
 ## Commentaire de publication
 
-De nombreux contributeurs, développeurs et utilisateurs ayant signalé des bugs nous ont aidés à réaliser cette version.  
+De nombreux contributeurs, développeurs et utilisateurs ayant signalé des bugs nous ont aidés à réaliser cette version.
 Merci à tous pour leurs contributions.
