@@ -20,7 +20,7 @@ den folgenden Änderungen:
   unterstützt
 * `Time` wurde neu implementiert. Es gibt kein Jahr-2038-Problem mehr.
 * Einige Verbesserungen bei Regulären Ausdrücken
-* `$:` enthält das aktuelle Verzeichnis (”.”) nicht mehr
+* `$:` enthält das aktuelle Verzeichnis (“.”) nicht mehr
 * dl ist neu implementiert worden; es setzt nun auf libffi auf.
 * Eine neue Library namens “psych” wrappt libyaml. Du kannst diese
   Library anstatt von syck verwenden.
@@ -81,7 +81,7 @@ die Library in diesem Verzeichnis.
 
 #### Es gibt mir einen `LoadError`!
 
-`$:` beinhaltet das aktuelle Verzeichnis (”.”) nicht mehr, weswegen
+`$:` beinhaltet das aktuelle Verzeichnis (“.”) nicht mehr, weswegen
 einige Skripte nachgebessert werden müssen. Wie auch immer, dein Skripte
 sollte ohnehin so wenig wie möglich vom aktuellen Verzeichnis abhängig
 sein.

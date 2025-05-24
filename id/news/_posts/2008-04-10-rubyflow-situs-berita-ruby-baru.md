@@ -14,7 +14,7 @@ dua tulisan “Anda harus baca!” setiap hari, sementara [RubyFlow][1] akan
 menjadi tempat untuk sesuatu yang instan/cepat (mirip seperti ketika
 kita menggunakan Delicious dengan library Ruby dengan seketika). Anda
 tidak perlu signup untuk posting walau disana ada CAPTCHA dan gunakan
-rel=”nofollow” pada link link Anda jika Anda tidak menggunakannya (untuk
+rel=“nofollow” pada link link Anda jika Anda tidak menggunakannya (untuk
 menghindari spam).
 
 [RubyFlow][1] dikembangkan karena Peter banyak melihat dan mendapatkan

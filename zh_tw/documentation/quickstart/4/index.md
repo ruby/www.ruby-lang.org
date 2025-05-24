@@ -70,7 +70,7 @@ for (i=0; i<number_of_elements; i++)
 
 這樣也行，只是沒這麼漂亮。你需要一個用過即丟的 `i` 變數、需要計算容器的長度、檢查離開迴圈的條件。而 Ruby
 的方式漂亮多了，所有的工作都被包裝在 `each` 方法裡。在 `each` 內部會去輪流呼叫 `yield "Albert"`、`yield
-"Brenda"`、`yield "Charles"` 等等。(譯註：yield 的意思是”轉交”，也就是跳去執行程式區塊)
+"Brenda"`、`yield "Charles"` 等等。(譯註：yield 的意思是“轉交”，也就是跳去執行程式區塊)
 
 ## 讓 Ruby 發光發亮的程式區塊(Blocks)
 

@@ -66,7 +66,7 @@ end
 `each` ist eine Methode, die einen Code-Block akzeptiert und diesen für
 jedes einzelne Element der Liste ausführt. Das Stück zwischen `do` und
 `end` ist ein solcher Block. Man kann ihn als eine anonyme Funktion oder
-`lambda` ansehen. Die Variable zwischen den Pipe-Zeichen (”\|”) ist der
+`lambda` ansehen. Die Variable zwischen den Pipe-Zeichen (“\|”) ist der
 Parameter für diesen Block.
 
 Was hier passiert, ist dass für jeden Eintrag in einer Liste `name` an
