@@ -99,8 +99,8 @@ Contah dengan Array:
 {% highlight ruby %}
 a = %w{a b}
 b = %w{c d}
-[ a + b ]   # => [[”a”, “b”, “c”, “d”]]
-[ *a + b ]  # => [”a”, “b”, “c”, “d”]
+[ a + b ]   # => [["a", "b", "c", "d"]]
+[ *a + b ]  # => ["a", "b", "c", "d"]
 {% endhighlight %}
 
 Contoh dengan Hash:
