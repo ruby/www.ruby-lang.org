@@ -63,7 +63,7 @@ Ruby 的運算元其實就是個方法（method）。你也可以重新定義運
 
 Ruby 的區塊可說是強大靈活性的來源。 程式設計師可以為任何的方法加上閉包（closure），來描述這個方法該做什麼。此處的閉包稱為 *block* 同時這也是從指令式程式設計語言如 PHP 或 Visual Basic 轉換到 Ruby 的新手最喜歡的功能。
 
-區塊的靈感是由函數式程式設計語言而來。Matz 說到：”在 Ruby 的閉包之中，我要向 Lisp 文化致敬<sup>[3](#fn3)</sup>”。
+區塊的靈感是由函數式程式設計語言而來。Matz 說到：“在 Ruby 的閉包之中，我要向 Lisp 文化致敬<sup>[3](#fn3)</sup>”。
 
 {% highlight ruby %}
 search_engines =
@@ -104,7 +104,7 @@ Ruby 還具有以下的特點：
 
 * Ruby 具有例外處理（exception handling）的能力。就如 Java 或 Python 一樣，可以讓使用者輕鬆的處理錯誤狀況。
 
-* Ruby 對於所有的物件具有一個真正的標記-清除（mark and sweep）式的垃圾收集器（garbage collector）。使用者不必去維護擴充函式庫中的 參考計數器(reference counts)。如 Matz 說的：”這樣有益健康”。
+* Ruby 對於所有的物件具有一個真正的標記-清除（mark and sweep）式的垃圾收集器（garbage collector）。使用者不必去維護擴充函式庫中的 參考計數器(reference counts)。如 Matz 說的：“這樣有益健康”。
 
 * 在 Ruby 中撰寫 C 的擴充程式比在 Perl 或 Python 中方便，擁有許多方便的 API 可以讓 C 呼叫 Ruby。這樣可以將 Ruby 當成腳本語言，嵌入到其他軟體之中。它也具有 SWIG 的呼叫界面。
 

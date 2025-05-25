@@ -34,7 +34,7 @@ Ruby 與 Python 不同的地方...
   （expression substitution）語法（可以讓你直接在字串裡直接插入 Ruby
   運算後的結果，而不用像 `"add " + "strings " + "together"`
   的字串組合）。單引號字串則跟 Python 的 `r"raw strings"` 是一樣的。
-* 沒有什麼”新式”或”舊式”的類別寫法，Ruby 的類別就只有一種寫法。
+* 沒有什麼“新式”或“舊式”的類別寫法，Ruby 的類別就只有一種寫法。
 * 你不能直接存取物件的屬性。在 Ruby 裡指能透過方法呼叫。
 * 方法呼叫時的小括號通常是可以省略。
 * 有 `public`、`private`、以及 `protected`。
