@@ -38,7 +38,7 @@ the [installation guide](installation/) for help on installing Ruby.
 [The Odin Project][odin]
 : An open source full stack curriculum
 
-[excercism][exercism]
+[Exercism][exercism]
 : 120 exercises with automatic analysis and personal mentoring.
 
 [Codecademy][codecademy]
