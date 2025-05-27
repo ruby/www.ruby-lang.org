@@ -204,7 +204,6 @@ These links were more prominent but haven't been updated in ages.
 [25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
 [27]: https://www.jetbrains.com/ruby/
-[34]: https://ruby-doc.org/
 [37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: https://www.ruby-doc.org/
