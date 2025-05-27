@@ -206,7 +206,7 @@ These links were more prominent but haven't been updated in ages.
 [27]: https://www.jetbrains.com/ruby/
 [37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: https://www.ruby-doc.org/
+[39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
 [42]: https://www.zenspider.com/ruby/quickref.html
 [43]: https://rubyreferences.github.io/
