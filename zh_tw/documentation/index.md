@@ -38,7 +38,7 @@ lang: zh_tw
 [The Odin Project][odin]
 : 開源的全端課程。
 
-[excercism][exercism]
+[Exercism][exercism]
 : 包含 120 個題目、自動分析與個人指導。
 
 [Codecademy][codecademy]
