@@ -41,7 +41,7 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [The Odin Project][odin]
 : 오픈소스 풀스택 커리큘럼입니다.
 
-[excercism][exercism]
+[Exercism][exercism]
 : 자동 분석과 개인 멘토링이 포함된 120개의 연습문제가 제공됩니다.
 
 [Codecademy][codecademy]
