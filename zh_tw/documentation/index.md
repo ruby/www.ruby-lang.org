@@ -162,10 +162,6 @@ lang: zh_tw
 
 部分編輯器支援 Language Server Protocol (LSP)，Shopify 的 [ruby-lsp][ruby-lsp] 是最受歡的的 Ruby LSP 之一。
 
-### 進階閱讀
-
-[Ruby-Doc.org][34] 維護了一份簡單易懂的英文文件列表。如有任何 Ruby 相關的問題，[郵件論壇](/en/community/mailing-lists/)是個問問題的好地方。
-
 ### 較舊的閱讀資源
 
 這些連結內容也很突出，但已經很久沒有更新了。
@@ -195,7 +191,7 @@ lang: zh_tw
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
-[9]: https://www.ruby-doc.org/docs/ProgrammingRuby/
+[9]: https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
@@ -216,11 +212,10 @@ lang: zh_tw
 [29]: http://notepad-plus-plus.org/
 [32]: http://macromates.com/
 [33]: https://www.barebones.com/products/bbedit/
-[34]: http://ruby-doc.org
 [36]: https://netbeans.org/
 [37]: http://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: https://www.ruby-doc.org/
+[39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
 [42]: https://www.zenspider.com/ruby/quickref.html
 [43]: https://rubyreferences.github.io/
