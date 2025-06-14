@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.repository_owner == 'ruby'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,6 +38,7 @@ jobs:
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
 
   deploy:
+    if: github.repository_owner == 'ruby'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
