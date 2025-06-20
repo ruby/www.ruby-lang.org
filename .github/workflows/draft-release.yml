@@ -46,12 +46,12 @@ jobs:
           git add .
           git commit -m "Create release for ${{ github.event.client_payload.version || github.event.inputs.version }}"
         env:
-          GITHUB_TOKEN: ${{ secrets.MATZBOT_GITHUB_WORKFLOW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MATZBOT_AUTO_UPDATE_TOKEN }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.MATZBOT_GITHUB_WORKFLOW_TOKEN }}
+          token: ${{ secrets.MATZBOT_AUTO_UPDATE_TOKEN }}
           branch: releases/${{ github.event.client_payload.version || github.event.inputs.version }}
           delete-branch: true
           title: "Create release for ${{ github.event.client_payload.version || github.event.inputs.version }}"
