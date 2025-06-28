@@ -170,6 +170,22 @@ socket 库在 `TCPSocket.new` (`TCPSocket.open`) 和 `Socket.tcp` 中添加了�
 
     * 此库现在从 Ruby 代码仓库抽取到独立的代码仓库 [ruby/net-http-sspi]。[[Feature #20775]]
 
+以下默认 gem 成为绑定 gem
+
+- mutex_m 0.3.0
+- getoptlong 0.2.1
+- base64 0.2.0
+- bigdecimal 3.1.8
+- observer 0.1.2
+- abbrev 0.1.2
+- resolv-replace 0.1.1
+- rinda 0.2.0
+- drb 2.2.1
+- nkf 0.2.0
+- syslog 0.2.0
+- csv 3.3.2
+- repl_type_completor 0.1.9
+
 ## 兼容性问题
 
 注意：不包括问题补丁。
