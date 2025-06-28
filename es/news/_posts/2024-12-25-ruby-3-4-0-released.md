@@ -241,7 +241,7 @@ Nota: Listamos sólo actualizaciones notables a las librerías estándar.
     * Se extrajo esta librería del repositorio Ruby a [ruby/net-http-sspi].
       [[Característica #20775]]
 
-La siguiente gema incluida ha sido promovida a gema predeterminada.
+Las siguientes gemas incluidas han sido promovidas a gemas predeterminadas:
 
 - mutex_m 0.3.0
 - getoptlong 0.2.1
