@@ -158,6 +158,22 @@ Hinweis: Es werden nur erwähnenswerte Updates der Standardbibliotheken aufgefü
 
   - Diese Bibliothek wurde aus dem Ruby-Repository nach [ruby/net-http-sspi] extrahiert. [[Feature #20775]]
 
+Das folgende mitinstallierten Gem wird von Standard-Gems gefördert.
+
+- mutex_m 0.3.0
+- getoptlong 0.2.1
+- base64 0.2.0
+- bigdecimal 3.1.8
+- observer 0.1.2
+- abbrev 0.1.2
+- resolv-replace 0.1.1
+- rinda 0.2.0
+- drb 2.2.1
+- nkf 0.2.0
+- syslog 0.2.0
+- csv 3.3.2
+- repl_type_completor 0.1.9
+
 ## Kompatibilitätsprobleme
 
 Hinweis: Ausgenommen Fehlerbehebungen bei Funktionen.
