@@ -335,7 +335,7 @@ Las siguientes gemas predeterminadas se han actualizado.
 * yaml 0.3.0
 * zlib 3.1.0
 
-La siguiente gema incluida ha sido promovida a gema predeterminada.
+La siguiente gema incluida ha sido promovida de gema predeterminada.
 
 * racc 1.7.3
 
