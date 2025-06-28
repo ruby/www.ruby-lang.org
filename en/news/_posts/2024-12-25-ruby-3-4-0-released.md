@@ -185,7 +185,7 @@ Note: We're only listing notable updates of Standard libraries.
     * This library is now extracted from the Ruby repository to [ruby/net-http-sspi].
       [[Feature #20775]]
 
-The following bundled gem is promoted from default gems.
+The following bundled gems are promoted from default gems.
 
 - mutex_m 0.3.0
 - getoptlong 0.2.1
