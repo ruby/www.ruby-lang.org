@@ -158,7 +158,7 @@ Hinweis: Es werden nur erwähnenswerte Updates der Standardbibliotheken aufgefü
 
   - Diese Bibliothek wurde aus dem Ruby-Repository nach [ruby/net-http-sspi] extrahiert. [[Feature #20775]]
 
-Das folgende mitinstallierten Gem wird von Standard-Gems gefördert.
+Die folgenden Standard-Gems sind ab nun Bundled-Gems:
 
 - mutex_m 0.3.0
 - getoptlong 0.2.1
