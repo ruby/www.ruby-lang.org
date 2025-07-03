@@ -168,22 +168,6 @@ socket 函式庫引入新功能[Happy Eyeballs 版本2 (RFC 8305)](https://datat
     * 這個函式庫已從 Ruby 儲存庫分離至 [ruby/net-http-sspi]。
       [[Feature #20775]]
 
-下列的預設 gem 現在是 bundled gems。
-
-- mutex_m 0.3.0
-- getoptlong 0.2.1
-- base64 0.2.0
-- bigdecimal 3.1.8
-- observer 0.1.2
-- abbrev 0.1.2
-- resolv-replace 0.1.1
-- rinda 0.2.0
-- drb 2.2.1
-- nkf 0.2.0
-- syslog 0.2.0
-- csv 3.3.2
-- repl_type_completor 0.1.9
-
 ## 相容性問題
 
 注意：不包含功能問題的修正。
