@@ -22,11 +22,11 @@ salto de línea).
 * Los corchetes son para listas, y las llaves para diccionarios
   (los cuales son llamdos “hashes” en Ruby).
 * Los Arreglos funcionan de forma similar (al sumarlos se hace uno
- mas grande, pero una composición como ésta
+ más grande, pero una composición como esta
  `a3 = [ a1, a2 ]` crea un arreglo de arreglos).
 * Los objetos están fuerte y dinámicamente tipados.
 * Todo es un objeto, las variables son sólo referencias a objetos.
-* Anque las palabras claves son un poco diferentes, las excepciones
+* Aunque las palabras claves son un poco diferentes, las excepciones
   funcionan casi del mismo modo.
 * Tiene herramientas de documentación embebidas (la de Ruby se llama
   RDoc).
@@ -39,16 +39,16 @@ A diferencia de Python, en Ruby...
 
 * Las cadenas son mutables.
 * Puedes tener constantes (variables cuyo valor no pretendes sea modificado).
-* Existen algunas convenciones sobre mayúsculas o minísculas (por ejemplo, los
+* Existen algunas convenciones sobre mayúsculas o minúsculas (por ejemplo, los
   nombres de las clases empiezan con mayúscula, las variables comienzan con
   minúscula).
-* Existe solo un tipo de contenedores para listas (Array), y es mutable.
+* Existe sólo un tipo de contenedores para listas (Array), y es mutable.
 * Las cadenas con doble comilla permiten secuencias de escape (como `\t`)
   y una sintaxis especial de "expresiones de substitución" (lo que permite
   insertar los resultados de una expresión Ruby directamente en otra cadena
   sin tener que `"sumar" + "cadenas " + "con operadores"`). Las cadenas
   con comilla sencilla son idénticas a los `r"raw strings"` de Python.
-* No existe un “nuevo” o “viejo” estilo para definir clases. Solo uno.
+* No existe un “nuevo” o “viejo” estilo para definir clases. Sólo uno.
   (Python 3+ no tiene este problema, pero no es completamente compatible
   con Python 2).
 * Nunca tienes acceso directo a atributos. En Ruby todo se basa en ejecutar
@@ -71,7 +71,7 @@ A diferencia de Python, en Ruby...
 * El estilo habitual de comentarios es *sobre* la(s) línea(s)
   (en vez de los docstrings debajo de estas) para generar la documentación.
 * Hay un cierto número de atajos que, a pesar de que tendrías más cosas
-  que recordar, aprenderas rápido. Estos tienden a hacer Ruby divertido y
+  que recordar, aprenderás rápido. Estos tienden a hacer Ruby divertido y
   muy productivo.
 * No existe una forma de quitar una variable una vez que ha sido establecida
   (como el comando `del` de Python). Puedes poner una variable a `nil`,

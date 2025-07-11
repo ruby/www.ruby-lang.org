@@ -17,10 +17,10 @@ header: |
 
 ---
 
-Así que, investigando nuestro programa, notarás que las primeras lineas
+Así que, investigando nuestro programa, notarás que las primeras líneas
 comienzan con un numeral (#). En Ruby, todo lo que esté detrás de un
-numeral es un comentario y es ignorado por el intérprete. La primer
-linea del archivo es un caso especial y en los sistemas operativos del
+numeral es un comentario y es ignorado por el intérprete. La primera
+línea del archivo es un caso especial y en los sistemas operativos del
 estilo Unix determina cómo ejecutar el archivo. El resto de los
 comentarios están únicamente para aportar claridad al significado del
 código.
@@ -44,7 +44,7 @@ def decir_hola
 end
 {% endhighlight %}
 
-Ahora usa el atributo `@nombres` para tomar decisiones. Si es nil, sólo
+Ahora usa el atributo `@nombres` para tomar decisiones. Si es `nil`, sólo
 imprime tres puntos. No hay razón para saludar a nadie, ¿cierto?
 
 ## Iterando
@@ -128,7 +128,7 @@ otras listas, todo funcionará como fue planeado.
 
 Así que eso es la clase MegaAnfitrion, el resto del archivo sólo llama a
 los métodos de la clase. Hay un último truco para tener en cuenta, y es
-la linea:
+la línea:
 
 {% highlight ruby %}
 if __FILE__ == $0
@@ -144,10 +144,10 @@ está siendo usado como un ejecutable, entonces ejecuta ese código.
 ## Considérate iniciado
 
 Eso es todo en este rápido paseo por Ruby. Hay mucho más por explorar,
-las estructuras de control diferentes que ofrece Ruby; el uso e los
+las estructuras de control diferentes que ofrece Ruby; el uso de los
 bloques y `yield`; módulos como mixins; y más. Espero que esta pequeña
 muestra de Ruby te despierte el interés por saber más.
 
-Si es así, por favor dirígete a nuestra area de
+Si es así, por favor dirígete a nuestra área de
 [Documentación](/es/documentation/), donde encontrarás vínculos a cursos
 y manuales, todos disponibles gratuitamente en internet.
