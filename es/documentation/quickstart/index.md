@@ -55,7 +55,7 @@ irb(main):001:0> "Hola Mundo"
 ## ¡Ruby te obedeció!
 
 ¿Qué fue lo que pasó? ¿Acaso acabamos de escribir el programa “Hola
-Mundo” más corto del mundo? No exactamente. La segunda linea sólo es la
+Mundo” más corto del mundo? No exactamente. La segunda línea sólo es la
 forma que tiene IRB para decirnos el resultado de la última expresión
 evaluada. Si queremos que el programa escriba “Hola Mundo” necesitamos
 un poco más:
@@ -83,7 +83,7 @@ irb(main):003:0> 3+2
 Tres más dos. Bastante fácil. ¿Y qué tal tres *veces* dos? Podrías
 escribirlo, es bastante corto, pero también podrías subir y simplemente
 cambiar lo que ya ingresaste. Prueba presionando la **flecha hacia
-arriba** en tu teclado y verifica si aparece la linea con `3+2` escrito.
+arriba** en tu teclado y verifica si aparece la línea con `3+2` escrito.
 Si es así, puedes usar la **flecha hacia la izquierda** para
 posicionarte junto al signo `+` y cambiarlo por un `*`.
 
