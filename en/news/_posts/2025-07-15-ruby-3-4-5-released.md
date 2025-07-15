@@ -1,15 +1,23 @@
 ---
 layout: news_post
 title: "Ruby 3.4.5 Released"
-author:
+author: k0kubun
 translator:
-date: 2025-07-15 17:02:28 +0000
+date: 2025-07-15 17:00:00 +0000
 lang: en
 ---
 
 Ruby 3.4.5 has been released.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_5) for further details.
+This is a routine update that includes bug fixes and GCC 15 support. Please refer to the
+[release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_5) for further details.
+
+## Release Schedule
+
+We intend to release the latest stable Ruby version (currently Ruby 3.4) every two months following the most recent release.
+Ruby 3.4.6 is scheduled for September, 3.4.7 for November, and 3.4.8 for January.
+
+If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
 
 ## Download
 
