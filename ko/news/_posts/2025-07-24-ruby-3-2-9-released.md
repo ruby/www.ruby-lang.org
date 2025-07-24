@@ -14,7 +14,7 @@ Ruby 3.2.9가 릴리스되었습니다.
 * [CVE-2025-24294: resolv gem의 DoS 가능성](https://www.ruby-lang.org/ko/news/2025/07/08/dos-resolv-cve-2025-24294/)
 * [CVE-2025-43857: net-imap의 DoS 취약점](https://www.ruby-lang.org/ko/news/2025/04/28/dos-net-imap-cve-2025-43857/)
 
-그리고 다음과 같은 빌드 문제 수정 사항이 포함되어 있습니다:
+그리고 다음과 같은 빌드 문제 수정 사항이 포함되어 있습니다.
 
 * GCC 15.1
 * Visual Studio 2022 Version 17.14
