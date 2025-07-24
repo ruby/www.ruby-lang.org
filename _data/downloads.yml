@@ -10,7 +10,7 @@ stable:
 
   - 3.4.5
   - 3.3.9
-  - 3.2.8
+  - 3.2.9
 
 # optional
 security_maintenance:
