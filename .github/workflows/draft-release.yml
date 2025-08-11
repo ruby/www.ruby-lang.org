@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository == 'ruby/www.ruby-lang.org'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           repository: ruby/ruby
           path: ruby
