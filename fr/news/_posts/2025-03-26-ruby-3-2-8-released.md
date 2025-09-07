@@ -42,5 +42,5 @@ Veuillez envisager de mettre à jour vers Ruby 3.3 ou 3.4.
 
 ## Commentaire sur la version
 
-De nombreux contributeurs, développeurs et utilisateurs ayant fourni des rapports de bugs nous ont aidés à réaliser cette version.  
+De nombreux contributeurs, développeurs et utilisateurs ayant fourni des rapports de bugs nous ont aidés à réaliser cette version.
 Merci pour leurs contributions.
