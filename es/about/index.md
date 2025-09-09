@@ -37,7 +37,7 @@ importante sobre el lenguaje Ruby creció hasta lograr un promedio de
 200 mensajes por día en el 2006. Se ha reducido en los últimos años a medida que el tamaño de la comunidad movió la discusión de una lista central a muchos grupos más pequeños.
 
 El [índice TIOBE][tiobe], que mide el crecimiento de los lenguajes de
-programación, ubica a Ruby entre los diez mejore del ranking mundial.
+programación, ubica a Ruby entre los diez mejores del ranking mundial.
 Gran parte del crecimiento se atribuye a la
 popularidad del software escrito en Ruby, particularmente el
 framework [Ruby on Rails] [ror].
