@@ -53,8 +53,8 @@
 # 3.4 series
 
 - version: 3.4.6
-  date: 2025-09-15
-  post: /en/news/2025/09/15/ruby-3-4-6-released/
+  date: 2025-09-16
+  post: /en/news/2025/09/16/ruby-3-4-6-released/
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.6.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.6.zip
