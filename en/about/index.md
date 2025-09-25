@@ -190,20 +190,11 @@ Here’s a list:
 * [JRuby][jruby] is Ruby atop the JVM (Java Virtual Machine), utilizing the
   JVM’s optimizing JIT compilers, garbage collectors, concurrent
   threads, tool ecosystem, and vast collection of libraries.
-* [Rubinius][rubinius] is ‘Ruby written in Ruby’. Built on top of LLVM,
-  Rubinius sports a nifty virtual machine that other languages are being
-  built on top of, too.
 * [TruffleRuby][truffleruby] is a high performance Ruby implementation on top of
   GraalVM.
 * [mruby][mruby] is a lightweight implementation of the Ruby language
   that can be linked and embedded within an application.
   Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.
-* [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
-  Framework”.
-* [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
-  object persistence and distributed shared cache”.
-* [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
-  (Perl 6).
 
 For a more complete list, see [Awesome Rubies][awesome-rubies].
 
@@ -230,11 +221,7 @@ For a more complete list, see [Awesome Rubies][awesome-rubies].
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
 [truffleruby]: https://github.com/oracle/truffleruby
 [mruby]: http://www.mruby.org/
-[ironruby]: http://www.ironruby.net
-[maglev]: http://maglev.github.io
-[cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
 [awesome-rubies]: https://github.com/planetruby/awesome-rubies
