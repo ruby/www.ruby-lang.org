@@ -7,8 +7,10 @@ lang: en
 Listen to news, interviews, and discussions about Ruby and its community.
 
 [On Rails][onrails]
-: On Rails invites Rails developers to share real-world technical 
-  challenges  and solutions, architectural decisions, and lessons learned while building with Ruby on Rails.
+: Ruby on Rails developers share real-world technical challenges, 
+  architectural decisions, and scaling strategies. Join experienced 
+  engineers for technical deep-dives and retrospectives on building 
+  production Rails applications.
 
 [Ruby Rogues][rogues]
 : The Ruby Rogues podcast is a panel discussion about topics relating to
