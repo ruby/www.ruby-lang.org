@@ -7,9 +7,9 @@ lang: en
 Listen to news, interviews, and discussions about Ruby and its community.
 
 [On Rails][onrails]
-: Ruby on Rails developers share real-world technical challenges, 
-  architectural decisions, and scaling strategies. Join experienced 
-  engineers for technical deep-dives and retrospectives on building 
+: Ruby on Rails developers share real-world technical challenges,
+  architectural decisions, and scaling strategies. Join experienced
+  engineers for technical deep-dives and retrospectives on building
   production Rails applications.
 
 [Ruby Rogues][rogues]
@@ -18,7 +18,7 @@ Listen to news, interviews, and discussions about Ruby and its community.
 
 [Ruby on Rails Podcast][rorpodcast]
 : The Ruby on Rails Podcast, a weekly conversation about Ruby on Rails,
-  open source software, and the programming profession. 
+  open source software, and the programming profession.
 
 [Remote Ruby][remote_ruby]
 : Virtual meetup turned podcast, Remote Ruby celebrates and highlights
