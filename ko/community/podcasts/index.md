@@ -6,6 +6,11 @@ lang: ko
 
 Ruby와 Ruby 커뮤니티에 대한 뉴스, 인터뷰, 토론을 들어보세요.
 
+[On Rails][onrails]
+: Ruby on Rails 개발자들이 실제 기술적 과제, 아키텍처 관련 결정 사항, 확장 전략을
+  공유합니다. 숙련된 엔지니어들과 함께 프로덕션 Rails 애플리케이션 구축에 대한 기술
+  심층 분석 및 회고를 나눕니다.
+
 [Ruby Rogues][rogues]
 : Ruby 로그 팟캐스트는 프로그래밍, 업계, 커뮤니티, Ruby와 관련된 주제로 진행되는
   공개 토론회입니다.
@@ -29,6 +34,7 @@ Ruby와 Ruby 커뮤니티에 대한 뉴스, 인터뷰, 토론을 들어보세요
 
 당신의 Ruby 팟캐스트를 시작하고 이 목록에 추가할 수도 있습니다!
 
+[onrails]: https://onrails.buzzsprout.com/
 [rooftop_ruby]: https://www.rooftopruby.com
 [remote_ruby]: https://www.remoteruby.com
 [rorpodcast]: https://www.therubyonrailspodcast.com

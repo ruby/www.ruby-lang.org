@@ -6,6 +6,12 @@ lang: en
 
 Listen to news, interviews, and discussions about Ruby and its community.
 
+[On Rails][onrails]
+: Ruby on Rails developers share real-world technical challenges,
+  architectural decisions, and scaling strategies. Join experienced
+  engineers for technical deep-dives and retrospectives on building
+  production Rails applications.
+
 [Ruby Rogues][rogues]
 : The Ruby Rogues podcast is a panel discussion about topics relating to
   programming, careers, community, and Ruby.
@@ -29,6 +35,7 @@ wisdom to share, get in touch with the creators of these shows.
 
 You can also start your own Ruby podcast and get added to this list!
 
+[onrails]: https://onrails.buzzsprout.com/
 [rooftop_ruby]: https://www.rooftopruby.com
 [remote_ruby]: https://www.remoteruby.com
 [rorpodcast]: https://www.therubyonrailspodcast.com

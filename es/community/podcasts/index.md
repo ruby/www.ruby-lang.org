@@ -6,6 +6,12 @@ lang: es
 
 Escucha las noticias, entrevistas y debates sobre Ruby y su comunidad.
 
+[On Rails][onrails]
+: Desarrolladores de Ruby on Rails comparten desafíos técnicos reales, decisiones
+  arquitectónicas y estrategias de escalado. Únase a ingenieros experimentados
+  para profundizar en la tecnología y asistir a retrospectivas sobre el desarrollo
+  de aplicaciones Rails de producción.
+
 [Ruby Rogues][rogues]
 : El podcast Ruby Rogues es un panel de discusión sobre temas relacionados con
   programación, la profesión, comunidad y Ruby.
@@ -23,5 +29,6 @@ shows.
 ¡También puedes comenzar tu propio podcast sobre Ruby y ser agregado
 a esta lista!
 
+[onrails]: https://onrails.buzzsprout.com/
 [rorpodcast]: https://www.therubyonrailspodcast.com
 [rogues]: https://rubyrogues.com
