@@ -138,7 +138,7 @@ lang: zh_tw
 * 幾天內上手：
   * [Sublime Text][37]（付費）
   * [Visual Studio Code][vscode]
-	* [Zed][zed]
+  * [Zed][zed]
 * 幾個月內熟悉：
 	*	[RubyMine][27]（付費）
 * 需要「幾年」才能掌握（真的會一直有東西可以學）：
