@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./_layouts/**/*.html",
@@ -35,6 +37,35 @@ module.exports = {
           800: '#b8a44b',  // gold-10
           900: '#655a27',  // gold-5
         },
+        // Theme colors
+        primary: {
+          50: '#fdeae9',   // primary-90 -> ruby-90
+          100: '#fadad3',  // primary-80 -> ruby-80
+          200: '#f8bfbd',  // primary-70 -> ruby-70
+          300: '#f5a9a7',  // primary-60 -> ruby-60
+          400: '#f07f7b',  // primary-50 -> ruby-50
+          500: '#eb544f',  // primary-40 -> ruby-40
+          600: '#e62923',  // primary-30 -> ruby-30
+          700: '#b8211c',  // primary-20 -> ruby-20
+          800: '#8a1915',  // primary-10 -> ruby-10
+          900: '#5c100e',  // primary-5 -> ruby-5
+        },
+        secondary: {
+          50: '#fcfaef',   // secondary-90 -> gold-90
+          100: '#f9f4df',  // secondary-80 -> gold-80
+          200: '#f6efce',  // secondary-70 -> gold-70
+          300: '#f3e9be',  // secondary-60 -> gold-60
+          400: '#eddf9e',  // secondary-50 -> gold-50
+          500: '#e5d37f',  // secondary-40 -> gold-40
+          600: '#e1c95d',  // secondary-30 -> gold-30
+          700: '#ccb758',  // secondary-20 -> gold-20
+          800: '#b8a44b',  // secondary-10 -> gold-10
+          900: '#655a27',  // secondary-5 -> gold-5
+        },
+        // Using Tailwind defaults for semantic colors
+        danger: colors.red,     // Tailwind's red palette
+        success: colors.emerald, // Tailwind's emerald palette
+        warning: colors.amber,   // Tailwind's amber palette
         border: {
           light: '#ddd',
           medium: '#ccc',
