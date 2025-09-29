@@ -6,6 +6,12 @@ lang: tr
 
 Ruby ve topluluğu ile ilgili haberleri, röportajları ve tartışmaları dinleyin.
 
+[On Rails][onrails]
+: Ruby on Rails geliştiricileri gerçek dünyadan teknik zorlukları, mimari
+  kararları ve ölçeklendirme stratejilerini paylaşıyor. Üretim ortamında
+  Rails uygulamaları geliştirme konusunda teknik derinlemesine incelemeler
+  ve retrospektifler için deneyimli mühendislere katılın.
+
 [Ruby Rogues][rogues]
 : Ruby Rogues podcast'i programlama, kariyer, topluluk ve Ruby ile ilgili
   konuların tartışıldığı bir açık oturumdur.
@@ -25,5 +31,6 @@ Ruby bilgisine sahipseniz, bu gösterilerin sahipleri ile temasa geçin.
 
 Ayrıca kendi Ruby podcast'inizi başlatıp bu listeye ekleyebilirsiniz.
 
+[onrails]: https://onrails.buzzsprout.com/
 [rorpodcast]: https://www.therubyonrailspodcast.com
 [rogues]: https://rubyrogues.com
