@@ -8,3 +8,5 @@ vendor
 .env
 bin
 .jekyll*
+node_modules/
+package-lock.json
