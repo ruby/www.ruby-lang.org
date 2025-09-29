@@ -1,0 +1,87 @@
+/* Semantic color CSS variables for light and dark modes */
+
+/* Light mode (default) */
+:root {
+  /* Code highlighting colors */
+  --code-blue: theme('colors.blue.700');
+  --code-green: theme('colors.emerald.700');
+  --code-orange: theme('colors.amber.600');
+  --code-purple: theme('colors.purple.700');
+  --code-red: theme('colors.red.600');
+
+  /* Background colors */
+  --color-background-default: theme('colors.white');
+  --color-background-subtle: theme('colors.gray.100');
+  --color-background-subtler: theme('colors.gray.200');
+  --color-background-primary-action-enabled: theme('colors.ruby.600');
+  --color-background-primary-action-hovered: theme('colors.ruby.700');
+  --color-background-primary-action-pressed: theme('colors.ruby.800');
+  --color-background-secondary-action-enabled: theme('colors.gray.50');
+  --color-background-secondary-action-hovered: theme('colors.gray.100');
+  --color-background-secondary-action-pressed: theme('colors.gray.200');
+
+  /* Border colors */
+  --color-border-bold: theme('colors.gray.700');
+  --color-border-default: theme('colors.gray.900');
+  --color-border-inverse: theme('colors.gray.50');
+  --color-border-subtle: theme('colors.gray.300');
+  --color-border-primary-action-focused: theme('colors.ruby.600');
+  --color-border-secondary-action-enabled: theme('colors.gray.400');
+  --color-border-secondary-action-focused: theme('colors.gray.700');
+
+  /* Text colors */
+  --color-text-danger: theme('colors.red.600');
+  --color-text-default: theme('colors.gray.900');
+  --color-text-hovered: theme('colors.ruby.600');
+  --color-text-link: theme('colors.ruby.600');
+  --color-text-link-hovered: theme('colors.ruby.700');
+  --color-text-primary: theme('colors.ruby.600');
+  --color-text-primary-action: theme('colors.white');
+  --color-text-secondary: theme('colors.gold.700');
+  --color-text-secondary-action: theme('colors.gray.900');
+  --color-text-subtle: theme('colors.gray.600');
+  --color-text-success: theme('colors.emerald.700');
+}
+
+/* Dark mode */
+.dark {
+  /* Code highlighting colors */
+  --code-blue: theme('colors.blue.400');
+  --code-green: theme('colors.emerald.400');
+  --code-orange: theme('colors.amber.400');
+  --code-purple: theme('colors.purple.400');
+  --code-red: theme('colors.red.400');
+
+  /* Background colors */
+  --color-background-default: theme('colors.gray.900');
+  --color-background-subtle: theme('colors.gray.800');
+  --color-background-subtler: theme('colors.gray.700');
+  --color-background-primary-action-enabled: theme('colors.ruby.500');
+  --color-background-primary-action-hovered: theme('colors.ruby.400');
+  --color-background-primary-action-pressed: theme('colors.ruby.300');
+  --color-background-secondary-action-enabled: theme('colors.gray.900');
+  --color-background-secondary-action-hovered: theme('colors.gray.800');
+  --color-background-secondary-action-pressed: theme('colors.gray.700');
+
+  /* Border colors */
+  --color-border-bold: theme('colors.gray.100');
+  --color-border-default: theme('colors.gray.600');
+  --color-border-inverse: theme('colors.gray.900');
+  --color-border-subtle: theme('colors.gray.700');
+  --color-border-primary-action-focused: theme('colors.ruby.700');
+  --color-border-secondary-action-enabled: theme('colors.gray.600');
+  --color-border-secondary-action-focused: theme('colors.gray.100');
+
+  /* Text colors */
+  --color-text-danger: theme('colors.red.400');
+  --color-text-default: theme('colors.white');
+  --color-text-hovered: theme('colors.ruby.500');
+  --color-text-link: theme('colors.ruby.500');
+  --color-text-link-hovered: theme('colors.ruby.400');
+  --color-text-primary: theme('colors.ruby.500');
+  --color-text-primary-action: theme('colors.white');
+  --color-text-secondary: theme('colors.gold.600');
+  --color-text-secondary-action: theme('colors.gray.50');
+  --color-text-subtle: theme('colors.gray.200');
+  --color-text-success: theme('colors.emerald.400');
+}

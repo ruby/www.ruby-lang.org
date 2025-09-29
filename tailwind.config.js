@@ -2,6 +2,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  darkMode: 'class', // Enable dark mode via class
   content: [
     "./_layouts/**/*.html",
     "./_includes/**/*.html",
@@ -13,6 +14,48 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // Semantic colors using CSS variables
+        'semantic': {
+          // Backgrounds
+          'bg-default': 'var(--color-background-default)',
+          'bg-subtle': 'var(--color-background-subtle)',
+          'bg-subtler': 'var(--color-background-subtler)',
+          'bg-primary-enabled': 'var(--color-background-primary-action-enabled)',
+          'bg-primary-hovered': 'var(--color-background-primary-action-hovered)',
+          'bg-primary-pressed': 'var(--color-background-primary-action-pressed)',
+          'bg-secondary-enabled': 'var(--color-background-secondary-action-enabled)',
+          'bg-secondary-hovered': 'var(--color-background-secondary-action-hovered)',
+          'bg-secondary-pressed': 'var(--color-background-secondary-action-pressed)',
+
+          // Borders
+          'border-bold': 'var(--color-border-bold)',
+          'border-default': 'var(--color-border-default)',
+          'border-inverse': 'var(--color-border-inverse)',
+          'border-subtle': 'var(--color-border-subtle)',
+          'border-primary-focused': 'var(--color-border-primary-action-focused)',
+          'border-secondary-enabled': 'var(--color-border-secondary-action-enabled)',
+          'border-secondary-focused': 'var(--color-border-secondary-action-focused)',
+
+          // Text
+          'text-danger': 'var(--color-text-danger)',
+          'text-default': 'var(--color-text-default)',
+          'text-hovered': 'var(--color-text-hovered)',
+          'text-link': 'var(--color-text-link)',
+          'text-link-hovered': 'var(--color-text-link-hovered)',
+          'text-primary': 'var(--color-text-primary)',
+          'text-primary-action': 'var(--color-text-primary-action)',
+          'text-secondary': 'var(--color-text-secondary)',
+          'text-secondary-action': 'var(--color-text-secondary-action)',
+          'text-subtle': 'var(--color-text-subtle)',
+          'text-success': 'var(--color-text-success)',
+
+          // Code highlighting
+          'code-blue': 'var(--code-blue)',
+          'code-green': 'var(--code-green)',
+          'code-orange': 'var(--code-orange)',
+          'code-purple': 'var(--code-purple)',
+          'code-red': 'var(--code-red)',
+        },
         ruby: {
           50: '#fdeae9',   // ruby-90
           100: '#fadad3',  // ruby-80
