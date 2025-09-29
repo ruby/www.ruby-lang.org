@@ -7,10 +7,10 @@ lang: tr
 Ruby ve topluluğu ile ilgili haberleri, röportajları ve tartışmaları dinleyin.
 
 [On Rails][onrails]
-: Ruby on Rails geliştiricileri, gerçek dünyadaki teknik zorlukları, mimari
-  kararları ve ölçeklendirme stratejilerini paylaşıyor. Üretim Rails uygulamaları
-  oluşturma konusunda teknik derinlemesine incelemeler ve retrospektifler için
-  deneyimli mühendislere katılın.
+: Ruby on Rails geliştiricileri gerçek dünyadan teknik zorlukları, mimari
+  kararları ve ölçeklendirme stratejilerini paylaşıyor. Üretim ortamında
+  Rails uygulamaları geliştirme konusunda teknik derinlemesine incelemeler
+  ve retrospektifler için deneyimli mühendislere katılın.
 
 [Ruby Rogues][rogues]
 : Ruby Rogues podcast'i programlama, kariyer, topluluk ve Ruby ile ilgili
