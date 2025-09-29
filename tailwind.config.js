@@ -99,13 +99,6 @@ module.exports = {
         'code': '23.4375rem',     // 375px
         'search': '11.25rem',      // 180px
       },
-      screens: {
-        'xs': '23.75rem',   // 380px
-        'sm': '43.75rem',   // 700px
-        'md': '48rem',      // 768px
-        'lg': '61.25rem',   // 980px
-        'xl': '75rem',      // 1200px
-      },
       gridTemplateColumns: {
         'layout': '70% 30%',
         'intro': '1fr 23.4375rem',  // 1fr 375px
