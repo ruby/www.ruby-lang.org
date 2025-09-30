@@ -2,6 +2,29 @@
 
 /* Light mode (default) */
 :root {
+  /* Ruby color palette */
+  --color-ruby-50: #fdeae9;   /* ruby-90 */
+  --color-ruby-100: #fadad3;  /* ruby-80 */
+  --color-ruby-200: #f8bfbd;  /* ruby-70 */
+  --color-ruby-300: #f5a9a7;  /* ruby-60 */
+  --color-ruby-400: #f07f7b;  /* ruby-50 */
+  --color-ruby-500: #eb544f;  /* ruby-40 */
+  --color-ruby-600: #e62923;  /* ruby-30 */
+  --color-ruby-700: #b8211c;  /* ruby-20 */
+  --color-ruby-800: #8a1915;  /* ruby-10 */
+  --color-ruby-900: #5c100e;  /* ruby-5 */
+
+  /* Gold color palette */
+  --color-gold-50: #fcfaef;   /* gold-90 */
+  --color-gold-100: #f9f4df;  /* gold-80 */
+  --color-gold-200: #f6efce;  /* gold-70 */
+  --color-gold-300: #f3e9be;  /* gold-60 */
+  --color-gold-400: #eddf9e;  /* gold-50 */
+  --color-gold-500: #e5d37f;  /* gold-40 */
+  --color-gold-600: #e1c95d;  /* gold-30 */
+  --color-gold-700: #ccb758;  /* gold-20 */
+  --color-gold-800: #b8a44b;  /* gold-10 */
+  --color-gold-900: #655a27;  /* gold-5 */
   /* Code highlighting colors */
   --code-blue: theme('colors.blue.700');
   --code-green: theme('colors.emerald.700');

@@ -56,54 +56,55 @@ module.exports = {
           'code-purple': 'var(--code-purple)',
           'code-red': 'var(--code-red)',
         },
+        // Primitive colors using CSS variables
         ruby: {
-          50: '#fdeae9',   // ruby-90
-          100: '#fadad3',  // ruby-80
-          200: '#f8bfbd',  // ruby-70
-          300: '#f5a9a7',  // ruby-60
-          400: '#f07f7b',  // ruby-50
-          500: '#eb544f',  // ruby-40
-          600: '#e62923',  // ruby-30
-          700: '#b8211c',  // ruby-20
-          800: '#8a1915',  // ruby-10
-          900: '#5c100e',  // ruby-5
+          50: 'var(--color-ruby-50)',
+          100: 'var(--color-ruby-100)',
+          200: 'var(--color-ruby-200)',
+          300: 'var(--color-ruby-300)',
+          400: 'var(--color-ruby-400)',
+          500: 'var(--color-ruby-500)',
+          600: 'var(--color-ruby-600)',
+          700: 'var(--color-ruby-700)',
+          800: 'var(--color-ruby-800)',
+          900: 'var(--color-ruby-900)',
         },
         gold: {
-          50: '#fcfaef',   // gold-90
-          100: '#f9f4df',  // gold-80
-          200: '#f6efce',  // gold-70
-          300: '#f3e9be',  // gold-60
-          400: '#eddf9e',  // gold-50
-          500: '#e5d37f',  // gold-40
-          600: '#e1c95d',  // gold-30
-          700: '#ccb758',  // gold-20
-          800: '#b8a44b',  // gold-10
-          900: '#655a27',  // gold-5
+          50: 'var(--color-gold-50)',
+          100: 'var(--color-gold-100)',
+          200: 'var(--color-gold-200)',
+          300: 'var(--color-gold-300)',
+          400: 'var(--color-gold-400)',
+          500: 'var(--color-gold-500)',
+          600: 'var(--color-gold-600)',
+          700: 'var(--color-gold-700)',
+          800: 'var(--color-gold-800)',
+          900: 'var(--color-gold-900)',
         },
-        // Theme colors
+        // Theme colors (alias to primitive colors)
         primary: {
-          50: '#fdeae9',   // primary-90 -> ruby-90
-          100: '#fadad3',  // primary-80 -> ruby-80
-          200: '#f8bfbd',  // primary-70 -> ruby-70
-          300: '#f5a9a7',  // primary-60 -> ruby-60
-          400: '#f07f7b',  // primary-50 -> ruby-50
-          500: '#eb544f',  // primary-40 -> ruby-40
-          600: '#e62923',  // primary-30 -> ruby-30
-          700: '#b8211c',  // primary-20 -> ruby-20
-          800: '#8a1915',  // primary-10 -> ruby-10
-          900: '#5c100e',  // primary-5 -> ruby-5
+          50: 'var(--color-ruby-50)',
+          100: 'var(--color-ruby-100)',
+          200: 'var(--color-ruby-200)',
+          300: 'var(--color-ruby-300)',
+          400: 'var(--color-ruby-400)',
+          500: 'var(--color-ruby-500)',
+          600: 'var(--color-ruby-600)',
+          700: 'var(--color-ruby-700)',
+          800: 'var(--color-ruby-800)',
+          900: 'var(--color-ruby-900)',
         },
         secondary: {
-          50: '#fcfaef',   // secondary-90 -> gold-90
-          100: '#f9f4df',  // secondary-80 -> gold-80
-          200: '#f6efce',  // secondary-70 -> gold-70
-          300: '#f3e9be',  // secondary-60 -> gold-60
-          400: '#eddf9e',  // secondary-50 -> gold-50
-          500: '#e5d37f',  // secondary-40 -> gold-40
-          600: '#e1c95d',  // secondary-30 -> gold-30
-          700: '#ccb758',  // secondary-20 -> gold-20
-          800: '#b8a44b',  // secondary-10 -> gold-10
-          900: '#655a27',  // secondary-5 -> gold-5
+          50: 'var(--color-gold-50)',
+          100: 'var(--color-gold-100)',
+          200: 'var(--color-gold-200)',
+          300: 'var(--color-gold-300)',
+          400: 'var(--color-gold-400)',
+          500: 'var(--color-gold-500)',
+          600: 'var(--color-gold-600)',
+          700: 'var(--color-gold-700)',
+          800: 'var(--color-gold-800)',
+          900: 'var(--color-gold-900)',
         },
         // Using Tailwind defaults for semantic colors
         danger: colors.red,     // Tailwind's red palette
