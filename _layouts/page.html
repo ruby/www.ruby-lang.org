@@ -2,18 +2,58 @@
 layout: default
 ---
 
-<article id="content-wrapper" class="prose">
-  {% include title.html %}
+<div class="container px-4 md:px-6 lg:px-8">
+  <!-- Main 3-column layout -->
+  <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
+    <!-- Desktop Navigation (hidden on mobile) -->
+    <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0">
+      {% include navigation.html %}
+    </div>
 
-  <div id="content">
-    {{ content }}
+    <!-- Main content and TOC wrapper -->
+    <div class="flex-1 min-w-0 flex flex-col gap-6">
+      <!-- Navigation toggle button -->
+      <button id="nav-toggle" class="md:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
+        <span class="material-icons text-base">menu</span>
+        Navigation
+      </button>
+
+      <!-- Mobile Navigation Panel -->
+      <div id="nav-mobile-panel" class="md:hidden hidden">
+        {% include navigation.html %}
+      </div>
+
+      <!-- TOC toggle button -->
+      <button id="toc-toggle" class="lg:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
+        <span class="material-icons text-base">toc</span>
+        TOC
+      </button>
+
+      <!-- Mobile/Tablet TOC Panel -->
+      <div id="toc-mobile-panel" class="lg:hidden hidden">
+        {% include toc.html %}
+      </div>
+
+      <!-- Main content -->
+      <article id="content-wrapper" class="prose md:px-4 lg:px-6">
+        {% include title.html %}
+
+        <div id="content">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+
+    <!-- Desktop TOC (hidden below lg) -->
+    <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0">
+      {% include toc.html %}
+    </div>
   </div>
-</article>
-<hr class="hidden-modern" />
+</div>
 
-<div id="sidebar-wrapper">
+<!-- Legacy sidebar for compatibility -->
+<div id="sidebar-wrapper" class="hidden">
   <div id="sidebar">
     {% include sidebar.html %}
   </div>
 </div>
-<hr class="hidden-modern" />

@@ -6,14 +6,6 @@
           box-sizing: border-box;
  }
 
-body {
-  background: #fff;
-  color: #111;
-  font-size: 16px;
-  line-height: 20px;
-  font-family: "Noto Sans JP", "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
-  text-align: center;
-}
 
 /* a {
   color: #445488;
@@ -38,18 +30,9 @@ iframe {
 
 /* Layout  */
 
-.container {
-  max-width: 980px;
-  margin: 0 auto;
-  text-align: left;
-}
-
 #main-wrapper { padding: 0; }
 
 #main {
-  display: table;
-  table-layout: fixed;
-  border-collapse: collapse;
   width: 100%;
 }
 
@@ -57,22 +40,15 @@ iframe {
   max-width: 100%;
 }
 
-#content-wrapper {
-  width: 70%;
-  display: table-cell;
-  vertical-align: top;
-  padding: 0 48px;
-}
-
 #content { margin: 0 0 48px 0; }
 
 /* Sidebar */
 
-#sidebar-wrapper {
+/* #sidebar-wrapper {
   display: table-cell;
   vertical-align: top;
   width: 30%;
-}
+} */
 
 #sidebar {
   border-bottom: 1px solid #ccc;
