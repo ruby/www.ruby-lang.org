@@ -151,24 +151,41 @@ module.exports = {
             color: theme('colors.stone.900'),
             maxWidth: 'none',
             'h1, h2, h3, h4, h5, h6': {
+              color: theme('colors.stone.900'),
               '@media (prefers-color-scheme: dark)': {
                 color: theme('colors.stone.50'),
               },
             },
             'p, li, td, th': {
+              color: theme('colors.stone.900'),
               '@media (prefers-color-scheme: dark)': {
                 color: theme('colors.stone.300'),
               },
             },
             'strong': {
+              color: theme('colors.stone.900'),
               '@media (prefers-color-scheme: dark)': {
                 color: theme('colors.stone.100'),
               },
             },
             'blockquote': {
+              color: theme('colors.stone.700'),
+              borderLeftColor: theme('colors.stone.300'),
               '@media (prefers-color-scheme: dark)': {
                 color: theme('colors.stone.300'),
                 borderLeftColor: theme('colors.stone.700'),
+              },
+            },
+            'ul > li::marker': {
+              color: theme('colors.stone.400'),
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.500'),
+              },
+            },
+            'ol > li::marker': {
+              color: theme('colors.stone.500'),
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.400'),
               },
             },
             '.summary': {

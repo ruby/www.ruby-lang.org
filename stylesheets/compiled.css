@@ -654,7 +654,7 @@ body {
 }
 
 .prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: var(--tw-prose-bold);
+  color: #1c1917;
   font-weight: 600;
 }
 
@@ -728,11 +728,23 @@ body {
 
 .prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
   font-weight: 400;
-  color: var(--tw-prose-counters);
+  color: #78716c;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
+    color: #a8a29e;
+  }
 }
 
 .prose :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
-  color: var(--tw-prose-bullets);
+  color: #a8a29e;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
+    color: #78716c;
+  }
 }
 
 .prose :where(dt):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -751,13 +763,14 @@ body {
 .prose :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   font-weight: 500;
   font-style: italic;
-  color: var(--tw-prose-quotes);
+  color: #44403c;
   border-inline-start-width: 0.25rem;
   border-inline-start-color: var(--tw-prose-quote-borders);
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
   padding-inline-start: 1em;
+  border-left-color: #d6d3d1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1174,11 +1187,21 @@ body {
   margin-bottom: 0;
 }
 
+.prose :where(h1, h2, h3, h4, h5, h6):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: #1c1917;
+}
+
 @media (prefers-color-scheme: dark) {
   .prose :where(h1, h2, h3, h4, h5, h6):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
     color: #fafaf9;
   }
+}
 
+.prose :where(p, li, td, th):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: #1c1917;
+}
+
+@media (prefers-color-scheme: dark) {
   .prose :where(p, li, td, th):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
     color: #d6d3d1;
   }
