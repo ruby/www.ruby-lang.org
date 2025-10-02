@@ -47,6 +47,7 @@ module.exports = {
           'text-secondary': 'var(--color-text-secondary)',
           'text-secondary-action': 'var(--color-text-secondary-action)',
           'text-subtle': 'var(--color-text-subtle)',
+          'text-subtler': 'var(--color-text-subtler)',
           'text-success': 'var(--color-text-success)',
 
           // Code highlighting
@@ -119,7 +120,7 @@ module.exports = {
       },
       fontFamily: {
         'default': ['"Noto Sans JP"', '"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
-        'code': ['Courier', 'ui-monospace', 'SFMono-Regular', 'Consolas', 'monospace'],
+        'code': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
         'icon': ['"Material Icons"', 'sans-serif'],
       },
       maxWidth: {
@@ -128,6 +129,57 @@ module.exports = {
         'sidebar': '30%',
         'code': '23.4375rem',     // 375px
         'search': '11.25rem',      // 180px
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            '.summary': {
+              marginTop: '1rem',        // 16px
+              marginBottom: '4rem',     // 48px
+              fontSize: '1.2rem',       // 20px
+              lineHeight: '1.8rem',     // 26px
+            },
+            'a': {
+              color: '#e62923',  // ruby-600
+              textDecoration: 'underline',
+              '&:hover, &:focus, &:active': {
+                color: '#b8211c',  // ruby-700
+              },
+            },
+            'pre': {
+              backgroundColor: '#f3f4f6',  // Tailwind gray-100
+              color: '#111827',            // Tailwind gray-900 (black)
+              fontWeight: 'bold',
+              fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+            },
+            'pre code': {
+              color: '#111827',            // Tailwind gray-900 (black)
+              fontWeight: 'bold',
+              fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+            },
+            'code': {
+              display: 'inline-block',
+              backgroundColor: '#f3f4f6',  // Tailwind gray-100
+              color: '#111827',            // Tailwind gray-900 (black)
+              fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+              margin: '0 0.125rem',        // 0 2px
+              padding: '0 0.3125rem',      // 0 5px
+              borderRadius: '0.1875rem',   // 3px
+            },
+            'code::before': {
+              content: '""',
+            },
+            'code::after': {
+              content: '""',
+            },
+            '.post-info': {
+              color: '#78716c',            // text-subtle (stone-500)
+              fontSize: '0.8125rem',       // 13px
+              lineHeight: '1rem',          // 16px
+              margin: '0',
+            },
+          },
+        },
       }
     },
   },
