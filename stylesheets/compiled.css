@@ -1108,8 +1108,7 @@ video {
   color: #9ca3af;
   font-size: 0.8125rem;
   line-height: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .visible {

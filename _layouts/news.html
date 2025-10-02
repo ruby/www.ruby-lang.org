@@ -8,12 +8,12 @@ layout: default
   {% assign locales = site.data.locales['en'].news %}
 {% endif %}
 
-<div id="content-wrapper">
+<div id="content-wrapper" class="prose">
   {% include title.html %}
 
   <div id="content">
     {% for post in page.posts %}
-    <div class="post">
+    <div class="post prose">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
       {{ post.excerpt | markdownify }}

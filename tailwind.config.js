@@ -157,8 +157,7 @@ module.exports = {
               color: '#9ca3af',            // text-subtler (gray-400)
               fontSize: '0.8125rem',       // 13px
               lineHeight: '1rem',          // 16px
-              marginTop: '2rem',           // 16px
-              marginBottom: '0',
+              margin: '0',
             },
           },
         },

@@ -88,17 +88,6 @@ iframe {
 
 #content { margin: 0 0 48px 0; }
 
-div.post p { margin: 0; }
-div.post p.post-link { margin: 6px 0; }
-
-div.post h3 a {
-  color: #CC342D;
-  text-decoration: none;
-}
-
-div.post h3 a:hover { text-decoration: underline; }
-
-
 /* Sidebar */
 
 #sidebar-wrapper {
