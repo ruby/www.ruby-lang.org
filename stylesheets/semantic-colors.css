@@ -62,7 +62,7 @@
   --color-text-primary-action: theme('colors.white');
   --color-text-secondary: theme('colors.gold.700');
   --color-text-secondary-action: theme('colors.gray.900');
-  --color-text-subtle: theme('colors.gray.600');
+  --color-text-subtle: theme('colors.gray.500');
   --color-text-subtler: theme('colors.gray.400');
   --color-text-success: theme('colors.emerald.700');
 }
