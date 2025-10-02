@@ -1,11 +1,16 @@
-<aside id="table-of-contents" class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0">
-  <div class="sticky top-4">
-    <h3 class="font-bold mb-4">Table of Contents</h3>
-    <!-- TOC content will go here -->
-    <ul class="space-y-2 text-sm">
-      <li><a href="#" class="text-semantic-text-link hover:text-semantic-text-link-hovered">Section 1</a></li>
-      <li><a href="#" class="text-semantic-text-link hover:text-semantic-text-link-hovered">Section 2</a></li>
-      <li><a href="#" class="text-semantic-text-link hover:text-semantic-text-link-hovered">Section 3</a></li>
-    </ul>
+<div class="bg-stone-50 dark:bg-stone-800 rounded-lg p-4 lg:bg-transparent lg:dark:bg-transparent lg:p-0 border border-stone-200 dark:border-stone-700 lg:border-0">
+  <div class="flex justify-between items-center mb-4 lg:block">
+    <h3 class="font-bold">Table of Contents</h3>
+    <!-- Close button for mobile -->
+    <button id="toc-close-btn" class="lg:hidden p-2 hover:bg-stone-200 dark:hover:bg-stone-700 rounded-md">
+      <span class="material-icons text-base">close</span>
+    </button>
   </div>
-</aside>
+
+  <!-- TOC content will go here -->
+  <ul class="space-y-2 text-sm">
+    <li><a href="#" class="text-semantic-text-link hover:text-semantic-text-link-hovered">Section 1</a></li>
+    <li><a href="#" class="text-semantic-text-link hover:text-semantic-text-link-hovered">Section 2</a></li>
+    <li><a href="#" class="text-semantic-text-link hover:text-semantic-text-link-hovered">Section 3</a></li>
+  </ul>
+</div>
