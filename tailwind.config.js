@@ -122,16 +122,6 @@ module.exports = {
         'code': ['Courier', 'ui-monospace', 'SFMono-Regular', 'Consolas', 'monospace'],
         'icon': ['"Material Icons"', 'sans-serif'],
       },
-      fontSize: {
-        'xs': ['0.8125rem', '0.8125rem'],  // 13px
-        'sm': ['0.875rem', '1.0625rem'],   // 14px, 17px
-        'base': ['1rem', '1.25rem'],       // 16px, 20px
-        'lg': ['1.1875rem', '1.5625rem'],  // 19px, 25px
-        'xl': ['1.25rem', '1.5rem'],       // 20px, 24px
-        '2xl': ['1.5rem', '1.75rem'],      // 24px, 28px
-        '3xl': ['1.875rem', '1.2'],        // 30px
-        '4xl': ['2.25rem', '1.1'],         // 36px
-      },
       spacing: {
         '1': '0.3125rem',   // 5px
         '1.5': '0.375rem',  // 6px
