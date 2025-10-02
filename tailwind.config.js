@@ -179,6 +179,12 @@ module.exports = {
                 borderLeftColor: theme('colors.stone.700'),
               },
             },
+            'dl, dt, dd': {
+              color: theme('colors.stone.900'),
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.300'),
+              },
+            },
             'ul > li::marker': {
               color: theme('colors.stone.400'),
               '@media (prefers-color-scheme: dark)': {
