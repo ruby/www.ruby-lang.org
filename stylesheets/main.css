@@ -12,7 +12,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-family: "Noto Sans JP", "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
-  text-align: center;
 }
 
 /* a {
@@ -38,18 +37,9 @@ iframe {
 
 /* Layout  */
 
-.container {
-  max-width: 980px;
-  margin: 0 auto;
-  text-align: left;
-}
-
 #main-wrapper { padding: 0; }
 
 #main {
-  display: table;
-  table-layout: fixed;
-  border-collapse: collapse;
   width: 100%;
 }
 
@@ -68,11 +58,11 @@ iframe {
 
 /* Sidebar */
 
-#sidebar-wrapper {
+/* #sidebar-wrapper {
   display: table-cell;
   vertical-align: top;
   width: 30%;
-}
+} */
 
 #sidebar {
   border-bottom: 1px solid #ccc;

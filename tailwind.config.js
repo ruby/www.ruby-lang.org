@@ -12,6 +12,21 @@ module.exports = {
     "!./node_modules/**/*"
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1.5rem',
+        lg: '2rem',
+      },
+      screens: {
+        sm: '100%',
+        md: '42rem',    // 672px
+        lg: '56rem',    // 896px
+        xl: '64rem',    // 1024px
+        '2xl': '72rem', // 1152px
+      },
+    },
     extend: {
       colors: {
         // Semantic colors using CSS variables
