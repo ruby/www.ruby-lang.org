@@ -118,8 +118,9 @@ module.exports = {
         }
       },
       fontFamily: {
-        'sans': ['Noto Sans', 'Helvetica Neue', 'Helvetica', 'sans-serif'],
-        'mono': ['Consolas', 'Liberation Mono', 'Courier', 'monospace'],
+        'default': ['"Noto Sans JP"', '"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+        'code': ['Courier', 'ui-monospace', 'SFMono-Regular', 'Consolas', 'monospace'],
+        'icon': ['"Material Icons"', 'sans-serif'],
       },
       fontSize: {
         'xs': ['0.8125rem', '0.8125rem'],  // 13px
