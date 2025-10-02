@@ -2,7 +2,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  darkMode: 'class', // Enable dark mode via class
+  darkMode: 'media', // Enable dark mode via OS preference
   content: [
     "./_layouts/**/*.html",
     "./_includes/**/*.html",
@@ -145,9 +145,32 @@ module.exports = {
         'code': '23.4375rem',     // 375px
         'search': '11.25rem',      // 180px
       },
-      typography: {
+      typography: (theme) => ({
         DEFAULT: {
           css: {
+            color: theme('colors.stone.900'),
+            maxWidth: 'none',
+            'h1, h2, h3, h4, h5, h6': {
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.50'),
+              },
+            },
+            'p, li, td, th': {
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.300'),
+              },
+            },
+            'strong': {
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.100'),
+              },
+            },
+            'blockquote': {
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.300'),
+                borderLeftColor: theme('colors.stone.700'),
+              },
+            },
             '.summary': {
               marginTop: '1rem',        // 16px
               marginBottom: '4rem',     // 48px
@@ -155,31 +178,48 @@ module.exports = {
               lineHeight: '1.8rem',     // 26px
             },
             'a': {
-              color: '#e62923',  // ruby-600
+              color: '#e62923',  // ruby-600 (light mode)
               textDecoration: 'underline',
               '&:hover, &:focus, &:active': {
-                color: '#b8211c',  // ruby-700
+                color: '#b8211c',  // ruby-700 (light mode)
+              },
+              '@media (prefers-color-scheme: dark)': {
+                color: '#eb544f',  // ruby-500 (dark mode)
+                '&:hover, &:focus, &:active': {
+                  color: '#f07f7b',  // ruby-400 (dark mode)
+                },
               },
             },
             'pre': {
-              backgroundColor: '#f3f4f6',  // Tailwind gray-100
-              color: '#111827',            // Tailwind gray-900 (black)
+              backgroundColor: theme('colors.stone.100'),  // stone-100 (light mode)
+              color: theme('colors.stone.900'),            // stone-900 (light mode)
               fontWeight: 'bold',
               fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+              '@media (prefers-color-scheme: dark)': {
+                backgroundColor: theme('colors.stone.700'),  // stone-800 (dark mode)
+                color: theme('colors.stone.50'),             // stone-50 (dark mode)
+              },
             },
             'pre code': {
-              color: '#111827',            // Tailwind gray-900 (black)
+              color: theme('colors.stone.900'),            // stone-900 (light mode)
               fontWeight: 'bold',
               fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+              '@media (prefers-color-scheme: dark)': {
+                color: theme('colors.stone.50'),  // stone-50 (dark mode)
+              },
             },
             'code': {
               display: 'inline-block',
-              backgroundColor: '#f3f4f6',  // Tailwind gray-100
-              color: '#111827',            // Tailwind gray-900 (black)
+              backgroundColor: theme('colors.stone.100'),  // stone-100 (light mode)
+              color: theme('colors.stone.900'),            // stone-900 (light mode)
               fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
               margin: '0 0.125rem',        // 0 2px
               padding: '0 0.3125rem',      // 0 5px
               borderRadius: '0.1875rem',   // 3px
+              '@media (prefers-color-scheme: dark)': {
+                backgroundColor: theme('colors.stone.700'),  // stone-800 (dark mode)
+                color: theme('colors.stone.50'),             // stone-50 (dark mode)
+              },
             },
             'code::before': {
               content: '""',
@@ -188,14 +228,17 @@ module.exports = {
               content: '""',
             },
             '.post-info': {
-              color: '#78716c',            // text-subtle (stone-500)
+              color: '#78716c',            // stone-500 (light mode)
               fontSize: '0.8125rem',       // 13px
               lineHeight: '1rem',          // 16px
               margin: '0',
+              '@media (prefers-color-scheme: dark)': {
+                color: '#e7e5e4',  // stone-200 (dark mode)
+              },
             },
           },
         },
-      }
+      }),
     },
   },
   plugins: [
