@@ -11,7 +11,7 @@ body {
   color: #111;
   font-size: 16px;
   line-height: 20px;
-  font-family: 'Noto Sans', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Noto Sans JP", "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
   text-align: center;
 }
 
