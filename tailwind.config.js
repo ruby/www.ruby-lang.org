@@ -120,7 +120,7 @@ module.exports = {
       },
       fontFamily: {
         'default': ['"Noto Sans JP"', '"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
-        'code': ['Courier', 'ui-monospace', 'SFMono-Regular', 'Consolas', 'monospace'],
+        'code': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
         'icon': ['"Material Icons"', 'sans-serif'],
       },
       maxWidth: {
@@ -149,9 +149,28 @@ module.exports = {
             'pre': {
               backgroundColor: '#f3f4f6',  // Tailwind gray-100
               color: '#111827',            // Tailwind gray-900 (black)
+              fontWeight: 'bold',
+              fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
             },
             'pre code': {
               color: '#111827',            // Tailwind gray-900 (black)
+              fontWeight: 'bold',
+              fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+            },
+            'code': {
+              display: 'inline-block',
+              backgroundColor: '#f3f4f6',  // Tailwind gray-100
+              color: '#111827',            // Tailwind gray-900 (black)
+              fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+              margin: '0 0.125rem',        // 0 2px
+              padding: '0 0.3125rem',      // 0 5px
+              borderRadius: '0.1875rem',   // 3px
+            },
+            'code::before': {
+              content: '""',
+            },
+            'code::after': {
+              content: '""',
             },
             '.post-info': {
               color: '#9ca3af',            // text-subtler (gray-400)

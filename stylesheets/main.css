@@ -15,28 +15,6 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 40px 0 5px;
-  text-rendering: optimizeLegibility;
-  color: #CC342D;
-}
-
-h1 {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 20px;
-  line-height: 24px;
-}
-
-h4 { font-style: italic; }
-
 /* a {
   color: #445488;
   text-decoration: underline;

@@ -810,17 +810,23 @@ video {
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: var(--tw-prose-code);
+  color: #111827;
   font-weight: 600;
   font-size: 0.875em;
+  display: inline-block;
+  background-color: #f3f4f6;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  margin: 0 0.125rem;
+  padding: 0 0.3125rem;
+  border-radius: 0.1875rem;
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
-  content: "`";
+  content: "";
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
-  content: "`";
+  content: "";
 }
 
 .prose :where(a code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -857,7 +863,7 @@ video {
   color: #111827;
   background-color: #f3f4f6;
   overflow-x: auto;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 0.875em;
   line-height: 1.7142857;
   margin-top: 1.7142857em;
@@ -867,6 +873,7 @@ video {
   padding-inline-end: 1.1428571em;
   padding-bottom: 0.8571429em;
   padding-inline-start: 1.1428571em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .prose :where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -874,10 +881,10 @@ video {
   border-width: 0;
   border-radius: 0;
   padding: 0;
-  font-weight: inherit;
+  font-weight: bold;
   color: #111827;
   font-size: inherit;
-  font-family: inherit;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   line-height: inherit;
 }
 
