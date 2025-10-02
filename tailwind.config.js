@@ -21,10 +21,10 @@ module.exports = {
       },
       screens: {
         sm: '100%',
-        md: '42rem',    // 672px
-        lg: '56rem',    // 896px
-        xl: '64rem',    // 1024px
-        '2xl': '72rem', // 1152px
+        md: '100%',
+        lg: '100%',
+        xl: '80rem',     // 1280px
+        '2xl': '90rem',  // 1440px
       },
     },
     extend: {
@@ -144,6 +144,9 @@ module.exports = {
         'sidebar': '30%',
         'code': '23.4375rem',     // 375px
         'search': '11.25rem',      // 180px
+        'nav': '18rem',            // 288px - Navigation max width
+        'toc': '16rem',            // 256px - TOC max width
+        'content-3col': '72rem',   // 1152px - Main content max width in 3-column layout
       },
       typography: (theme) => ({
         DEFAULT: {

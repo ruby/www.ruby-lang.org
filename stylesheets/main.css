@@ -40,13 +40,6 @@ iframe {
   max-width: 100%;
 }
 
-#content-wrapper {
-  width: 70%;
-  display: table-cell;
-  vertical-align: top;
-  padding: 0 48px;
-}
-
 #content { margin: 0 0 48px 0; }
 
 /* Sidebar */
