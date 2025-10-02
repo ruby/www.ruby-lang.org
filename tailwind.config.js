@@ -128,6 +128,25 @@ module.exports = {
         'sidebar': '30%',
         'code': '23.4375rem',     // 375px
         'search': '11.25rem',      // 180px
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            '.summary': {
+              marginTop: '1rem',        // 16px
+              marginBottom: '4rem',     // 48px
+              fontSize: '1.2rem',       // 20px
+              lineHeight: '1.8rem',     // 26px
+            },
+            'pre': {
+              backgroundColor: '#f3f4f6',  // Tailwind gray-100
+              color: '#111827',            // Tailwind gray-900 (black)
+            },
+            'pre code': {
+              color: '#111827',            // Tailwind gray-900 (black)
+            },
+          },
+        },
       }
     },
   },

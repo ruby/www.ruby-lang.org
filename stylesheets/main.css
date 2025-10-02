@@ -42,8 +42,6 @@ a {
   text-decoration: underline;
 }
 
-a:hover { color: #0086b3; }
-
 p {
   margin: 20px 0;
   text-rendering: optimizeLegibility;
@@ -55,114 +53,6 @@ p.warning {
 
 :target { background: #ffc; }
 
-h1 + p,
-h2 + p,
-h3 + p,
-h4 + p,
-h1 + ol,
-h2 + ol,
-h3 + ol,
-h4 + ol,
-h1 + ul,
-h2 + ul,
-h3 + ul,
-h4 + ul,
-h1 + dl,
-h2 + dl,
-h3 + dl,
-h4 + dl {
-  margin-top: 5px;
-}
-
-#content p.summary {
-  margin-top: 8px;
-  font-size: 20px;
-  line-height: 26px;
-}
-
-blockquote {
-  font-style: italic;
-  color: #555;
-  margin: 0;
-  padding: 0 20px;
-}
-
-ul {
-  margin: 20px 0;
-  list-style: square outside;
-}
-
-ol {
-  margin: 20px 0;
-  list-style: decimal outside;
-}
-
-ul ul,
-ol ol,
-ul ol,
-ol ul {
-  margin: 6px 0 0;
-}
-
-li {
-  margin-bottom: 6px;
-  text-rendering: optimizeLegibility;
-}
-
-ul li:last-child,
-ol li:last-child {
-  margin-bottom: 0;
-}
-
-dl dd {
-  margin: 6px 0 20px;
-  text-rendering: optimizeLegibility;
-}
-
-dl dt {
-  margin: 20px 0 6px;
-  text-rendering: optimizeLegibility;
-}
-
-h1, h2, h3, h4, p, li, dt, dd, a, code, pre {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-code {
-  margin: 0 2px;
-  padding: 0px 5px;
-  border: 1px solid #ddd;
-  background-color: #f8f8f8;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  text-shadow: 0 1px 0 #fff;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-}
-
-pre {
-  box-shadow: 0 0 4px rgba(0,0,0,0.4) inset;
-  background: #f8f8f8;
-  text-shadow: 0 1px 0 #fff;
-  display: block;
-  padding: 12px 16px;
-  font-size: 14px;
-  line-height: 16px;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-}
-
-pre code {
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: transparent;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
-}
 
 iframe {
   border: none;
