@@ -47,6 +47,7 @@ module.exports = {
           'text-secondary': 'var(--color-text-secondary)',
           'text-secondary-action': 'var(--color-text-secondary-action)',
           'text-subtle': 'var(--color-text-subtle)',
+          'text-subtler': 'var(--color-text-subtler)',
           'text-success': 'var(--color-text-success)',
 
           // Code highlighting
@@ -138,12 +139,26 @@ module.exports = {
               fontSize: '1.2rem',       // 20px
               lineHeight: '1.8rem',     // 26px
             },
+            'a': {
+              color: '#e62923',  // ruby-600
+              textDecoration: 'underline',
+              '&:hover, &:focus, &:active': {
+                color: '#b8211c',  // ruby-700
+              },
+            },
             'pre': {
               backgroundColor: '#f3f4f6',  // Tailwind gray-100
               color: '#111827',            // Tailwind gray-900 (black)
             },
             'pre code': {
               color: '#111827',            // Tailwind gray-900 (black)
+            },
+            '.post-info': {
+              color: '#9ca3af',            // text-subtler (gray-400)
+              fontSize: '0.8125rem',       // 13px
+              lineHeight: '1rem',          // 16px
+              marginTop: '2rem',           // 16px
+              marginBottom: '0',
             },
           },
         },

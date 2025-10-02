@@ -37,10 +37,10 @@ h2 {
 
 h4 { font-style: italic; }
 
-a {
+/* a {
   color: #445488;
   text-decoration: underline;
-}
+} */
 
 p {
   margin: 20px 0;
@@ -98,12 +98,6 @@ div.post h3 a {
 
 div.post h3 a:hover { text-decoration: underline; }
 
-.post-info {
-  color: grey;
-  font-size: 13px;
-  line-height: 16px;
-  margin: 0;
-}
 
 /* Sidebar */
 

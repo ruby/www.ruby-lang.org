@@ -63,6 +63,7 @@
   --color-text-secondary: theme('colors.gold.700');
   --color-text-secondary-action: theme('colors.gray.900');
   --color-text-subtle: theme('colors.gray.600');
+  --color-text-subtler: theme('colors.gray.400');
   --color-text-success: theme('colors.emerald.700');
 }
 
@@ -106,5 +107,6 @@
   --color-text-secondary: theme('colors.gold.600');
   --color-text-secondary-action: theme('colors.gray.50');
   --color-text-subtle: theme('colors.gray.200');
+  --color-text-subtler: theme('colors.gray.400');
   --color-text-success: theme('colors.emerald.400');
 }
