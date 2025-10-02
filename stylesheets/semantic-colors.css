@@ -62,8 +62,8 @@
   --color-text-primary-action: theme('colors.white');
   --color-text-secondary: theme('colors.gold.700');
   --color-text-secondary-action: theme('colors.gray.900');
-  --color-text-subtle: theme('colors.gray.500');
-  --color-text-subtler: theme('colors.gray.400');
+  --color-text-subtle: theme('colors.stone.500');
+  --color-text-subtler: theme('colors.stone.400');
   --color-text-success: theme('colors.emerald.700');
 }
 
@@ -106,7 +106,7 @@
   --color-text-primary-action: theme('colors.white');
   --color-text-secondary: theme('colors.gold.600');
   --color-text-secondary-action: theme('colors.gray.50');
-  --color-text-subtle: theme('colors.gray.200');
-  --color-text-subtler: theme('colors.gray.400');
+  --color-text-subtle: theme('colors.stone.200');
+  --color-text-subtler: theme('colors.stone.400');
   --color-text-success: theme('colors.emerald.400');
 }

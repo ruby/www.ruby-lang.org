@@ -173,7 +173,7 @@ module.exports = {
               content: '""',
             },
             '.post-info': {
-              color: '#6b7280',            // gray-500
+              color: '#78716c',            // text-subtle (stone-500)
               fontSize: '0.8125rem',       // 13px
               lineHeight: '1rem',          // 16px
               margin: '0',
