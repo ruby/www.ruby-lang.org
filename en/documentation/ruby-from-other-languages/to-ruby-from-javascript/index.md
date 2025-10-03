@@ -59,8 +59,7 @@ Unlike JavaScript, in Ruby,...
 * Ruby methods can end with `?` (for predicates) or `!` (for
   destructive operations).
 * Parentheses for method calls are usually optional.
-* You use `require` or `require_relative` instead of `import` or
-  `require()`.
+* You use `require` or `require_relative` in Ruby, whereas in JavaScript you use ES6 `import` (or Node.js's `require()`).
 * Classes are defined with `class...end` blocks rather than constructor
   functions or class expressions.
 * Ruby has built-in support for operator overloading.
