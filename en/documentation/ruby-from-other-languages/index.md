@@ -24,7 +24,7 @@ with.
 * [To Ruby From Perl](to-ruby-from-perl/)
 * [To Ruby From PHP](to-ruby-from-php/)
 * [To Ruby From Python](to-ruby-from-python/)
-* [To Ruby From Javascript](to-ruby-from-javascript/)
+* [To Ruby From JavaScript](to-ruby-from-javascript/)
 
 ## Important Language Features And Some Gotchas
 
