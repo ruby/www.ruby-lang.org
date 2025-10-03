@@ -50,7 +50,8 @@ Unlike JavaScript, in Ruby,...
   template literals or concatenation.
 * Ruby blocks with `do...end` or `{...}` are more powerful than
   JavaScript arrow functions and are used extensively for iteration.
-* Minimal punctuation: semicolons are optional and rarely used; blocks are delimited with `end` (or `do...end`) rather than `{}`.
+* Minimal punctuation: semicolons are optional and rarely used.
+* Blocks are delimited with `end` (or `do...end`) rather than `{}`.
 * It's `elsif` instead of `else if`.
 * Ruby has symbols (`:symbol`) which are immutable strings often used
   as identifiers.
