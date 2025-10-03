@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "To Ruby From Javascript"
+title: "To Ruby From JavaScript"
 lang: en
 ---
 
