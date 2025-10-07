@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 3.4.7 Released"
-author:
+author: k0kubun
 translator:
 date: 2025-10-07 17:14:11 +0000
 lang: en
@@ -9,7 +9,17 @@ lang: en
 
 Ruby 3.4.7 has been released.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_7) for further details.
+This release contains a uri gem update for CVE-2025-61594 and other bug fixes.
+See also: [CVE-2025-61594: URI Credential Leakage Bypass previous fixes](https://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/).
+
+Please refer to the [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_7) for further details.
+
+## Release Schedule
+
+We intend to release the latest stable Ruby version (currently Ruby 3.4) every two months following the most recent release.
+Ruby 3.4.8 is scheduled for December and 3.4.9 for February.
+
+If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
 
 ## Download
 
