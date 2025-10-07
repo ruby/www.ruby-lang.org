@@ -9,10 +9,10 @@ lang: en
 
 Ruby 3.4.7 has been released.
 
-This release contains a uri gem update for CVE-2025-61594 and other bug fixes.
-See also: [CVE-2025-61594: URI Credential Leakage Bypass previous fixes](https://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/).
+This release includes [an update to the uri gem addressing CVE-2025-61594](https://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/),
+along with other bug fixes. Please refer to [the release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_7) for further details.
 
-Please refer to the [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_7) for further details.
+We recommend updating your version of the uri gem. This release has been made for the convenience of those who wish to continue using it as a default gem.
 
 ## Release Schedule
 
