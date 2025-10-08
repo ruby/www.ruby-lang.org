@@ -238,7 +238,7 @@ Ruby как язык имеет несколько разных реализац
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: http://rubinius.com
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
