@@ -24,6 +24,114 @@ sitelinks:
 search:
   text: 搜尋
 
+header_navigation:
+- text: 下載安裝
+  url: /zh_tw/documentation/installation/
+  submenu:
+  - text: 下載安裝
+    url: /zh_tw/downloads/
+  - text: 套件管理器
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: 關於 Ruby
+  url: /zh_tw/about/
+- text: 文件
+  url: /zh_tw/documentation/
+  submenu:
+  - text: 上手入門
+    submenu:
+    - text: 20 分鐘 Ruby 體驗
+      url: /zh_tw/documentation/quickstart/
+    - text: 從其他語言到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+  - text: 探索
+    submenu:
+    - text: 文件
+      url: /zh_tw/documentation/
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: 函式庫
+  url: /zh_tw/libraries/
+  submenu:
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: 熱門 Gems
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: 貢獻
+  url: /zh_tw/community/ruby-core/
+  submenu:
+  - text: 郵件論壇
+    url: /zh_tw/community/mailing-lists/
+  - text: ruby/ruby
+    url: https://github.com/ruby/ruby
+    external: true
+  - text: Wiki
+    url: https://github.com/ruby/ruby/wiki
+    external: true
+  - text: Ruby Issue Tracking System
+    url: https://bugs.ruby-lang.org/
+    external: true
+- text: 新聞
+  url: /zh_tw/news/
+- text: 社群
+  url: /zh_tw/community/
+  submenu:
+  - text: 社群
+    submenu:
+    - text: 郵件論壇
+      url: /zh_tw/community/mailing-lists/
+    - text: 使用者群組
+      url: /zh_tw/community/user-groups/
+    - text: 部落格與電子報
+      url: /zh_tw/community/weblogs/
+  - text: 活動
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Conferences
+      url: https://rubyconferences.org/
+      external: true
+
 sidebar:
   get_started:
     text: <strong>上手入門</strong>，一點都不難!

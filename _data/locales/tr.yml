@@ -25,6 +25,114 @@ search:
   text: Ara
   cx_id: '011743037637077038592:5tuc9cqilws'
 
+header_navigation:
+- text: İndirin
+  url: /tr/documentation/installation/
+  submenu:
+  - text: İndirin
+    url: /tr/downloads/
+  - text: Paket Yöneticileri
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: Ruby Hakkında
+  url: /tr/about/
+- text: Belgeler
+  url: /tr/documentation/
+  submenu:
+  - text: Başlamak
+    submenu:
+    - text: Yirmi Dakikada Ruby
+      url: /tr/documentation/quickstart/
+    - text: Diğer Dillerden Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+  - text: Keşfedin
+    submenu:
+    - text: Belgeler
+      url: /tr/documentation/
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Kütüphaneler
+  url: /tr/libraries/
+  submenu:
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Popüler Gem'ler
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Katkıda Bulunun
+  url: /tr/community/ruby-core/
+  submenu:
+  - text: Mail Listeleri
+    url: /tr/community/mailing-lists/
+  - text: ruby/ruby
+    url: https://github.com/ruby/ruby
+    external: true
+  - text: Wiki
+    url: https://github.com/ruby/ruby/wiki
+    external: true
+  - text: Ruby Issue Tracking System
+    url: https://bugs.ruby-lang.org/
+    external: true
+- text: Haberler
+  url: /tr/news/
+- text: Topluluk
+  url: /tr/community/
+  submenu:
+  - text: Topluluk
+    submenu:
+    - text: Mail Listeleri
+      url: /tr/community/mailing-lists/
+    - text: Kullanıcı Grupları
+      url: /tr/community/user-groups/
+    - text: Web günlükleri
+      url: /tr/community/weblogs/
+  - text: Etkinlikler
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Conferences
+      url: https://rubyconferences.org/
+      external: true
+
 sidebar:
   get_started:
     text: <strong>Başlamak</strong>, çok kolay!

@@ -24,6 +24,114 @@ sitelinks:
 search:
   text: Cerca
 
+header_navigation:
+- text: Scarica
+  url: /it/documentation/installation/
+  submenu:
+  - text: Scarica
+    url: /it/downloads/
+  - text: Gestori di Pacchetti
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: A proposito di Ruby
+  url: /it/about/
+- text: Documentazione
+  url: /it/documentation/
+  submenu:
+  - text: Per iniziare
+    submenu:
+    - text: Ruby in venti minuti
+      url: /it/documentation/quickstart/
+    - text: Ruby a partire da altri linguaggi
+      url: /it/documentation/ruby-from-other-languages/
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+  - text: Esplora
+    submenu:
+    - text: Documentazione
+      url: /it/documentation/
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Librerie
+  url: /it/libraries/
+  submenu:
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Gem Popolari
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Contribuire
+  url: /it/community/ruby-core/
+  submenu:
+  - text: Liste di Discussione
+    url: /it/community/mailing-lists/
+  - text: ruby/ruby
+    url: https://github.com/ruby/ruby
+    external: true
+  - text: Wiki
+    url: https://github.com/ruby/ruby/wiki
+    external: true
+  - text: Ruby Issue Tracking System
+    url: https://bugs.ruby-lang.org/
+    external: true
+- text: Notizie
+  url: /it/news/
+- text: Comunità
+  url: /it/community/
+  submenu:
+  - text: Comunità
+    submenu:
+    - text: Liste di Discussione
+      url: /it/community/mailing-lists/
+    - text: Gruppi di Utenti
+      url: /it/community/user-groups/
+    - text: Blog
+      url: /it/community/weblogs/
+  - text: Eventi
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Conferences
+      url: https://rubyconferences.org/
+      external: true
+
 sidebar:
   get_started:
     text: <strong>Per iniziare</strong>, è facile!
