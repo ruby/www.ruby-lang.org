@@ -180,7 +180,7 @@ MRI가 지원하지 않는 특별한 기능을 가지거나 합니다.
 [artima]: http://www.artima.com/intv/closures2.html
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
-[rubinius]: http://rubinius.com
+[rubinius]: https://rubinius.com
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io

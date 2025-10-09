@@ -26,5 +26,5 @@ Sumber: [Ruby Inside-A Fresh Overview of Rubinius][3]
 
 
 [1]: http://programblings.com/2008/04/01/rubinius-for-the-layman-part-1-rubies-all-the-way-down/
-[2]: http://rubinius.com/
+[2]: https://rubinius.com/
 [3]: http://www.rubyinside.com/a-fresh-overview-of-rubinius-835.html
