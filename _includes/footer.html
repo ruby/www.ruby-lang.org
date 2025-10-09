@@ -4,6 +4,12 @@
   {% assign footer = site.data.locales['en'].footer %}
 {% endif %}
 
+{% if site.data.locales[page.lang].credits %}
+  {% assign credits = site.data.locales[page.lang].credits %}
+{% else %}
+  {% assign credits = site.data.locales['en'].credits %}
+{% endif %}
+
 <footer class="bg-white dark:bg-stone-900 border-t border-stone-200 dark:border-stone-700 py-8">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
     <!-- Social & Links Section -->
@@ -66,6 +72,13 @@
         </a>
         {% endif %}
       </nav>
+    </div>
+
+    <!-- Credits Section -->
+    <div class="pt-6 mt-6">
+      <p class="text-xs text-stone-600 dark:text-stone-400">
+        {{ credits }}
+      </p>
     </div>
   </div>
 </footer>
