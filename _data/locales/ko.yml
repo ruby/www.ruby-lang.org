@@ -215,3 +215,24 @@ news:
   monthly_archives: 월별 아카이브
   yearly_archive_link: "%Y년"
   monthly_archive_link: "%Y년 %m월"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: 메일링 리스트
+      url: /ko/community/mailing-lists/
+    about_website:
+      text: 이 웹사이트에 대해서
+      url: /ko/about/website/
+    news_rss:
+      text: 뉴스 RSS
+      url: /ko/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

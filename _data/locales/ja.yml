@@ -240,3 +240,24 @@ news:
   monthly_archives: 月毎のアーカイブ
   yearly_archive_link: "%Y年のアーカイブ"
   monthly_archive_link: "%Y年%m月"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: メーリングリスト
+      url: /ja/community/mailing-lists/
+    about_website:
+      text: このウェブサイトについて
+      url: /ja/about/website/
+    news_rss:
+      text: ニュースRSS
+      url: /ja/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

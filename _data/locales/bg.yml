@@ -226,3 +226,24 @@ news:
   monthly_archives: Архив по месец
   yearly_archive_link: "%Y"
   monthly_archive_link: "%B %Y"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Пощенски списъци
+      url: /bg/community/mailing-lists/
+    about_website:
+      text: За този сайт
+      url: /bg/about/website/
+    news_rss:
+      text: Новини RSS
+      url: /bg/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

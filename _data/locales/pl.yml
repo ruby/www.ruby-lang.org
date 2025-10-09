@@ -232,3 +232,24 @@ news:
   monthly_archives: Archiwum według miesiąca
   yearly_archive_link: "%Y"
   monthly_archive_link: "%B %Y"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Listy dyskusyjne
+      url: /pl/community/mailing-lists/
+    about_website:
+      text: O tej stronie internetowej
+      url: /pl/about/website/
+    news_rss:
+      text: Wiadomości RSS
+      url: /pl/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt
