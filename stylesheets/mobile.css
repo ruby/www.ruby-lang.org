@@ -38,15 +38,6 @@
     padding-right: 24px;
     padding-left: 24px;
   }
-
-  #footer {
-    margin: 0;
-    border: none;
-    border-top: 1px solid #ddd;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
-  }
 }
 
 @media screen and (max-width: 700px) {
@@ -90,9 +81,6 @@
   div.multi-page strong {
     padding: 10px 17px;
   }
-
-  #footer { background: #fff; }
-  #footer div.site-links { display: none; }
 }
 
 @media screen and (max-width: 380px) {
