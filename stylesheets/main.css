@@ -133,76 +133,6 @@ iframe {
   margin: 12px 48px 12px 0;
 }
 
-/* Page header */
-
-#header {
-  border-bottom: 1px solid #ccc;
-  background: #fff;
-}
-
-#header_content {
-  padding: 30px 24px 24px 24px;
-  position: relative;
-}
-
-#header h1 {
-  font-size: 36px;
-  margin: 0;
-  color: black;
-}
-
-#header h2 {
-  margin: 5px 0 0;
-  color: black;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #585450;
-}
-
-#header_content > a {
-  text-decoration: none;
-  color: black;
-  background: url(/images/header-ruby-logo.png) no-repeat left 8px;
-  display: inline-block;
-  padding: 15px 0 0 74px;
-  margin: 0 0 15px -4px;
-}
-
-#header div.site-links {
-  overflow: hidden;
-  border-top: 5px solid #CC342D;
-  background: #585450;
-  padding: 0 0 0 8px;
-  -webkit-border-bottom-left-radius:  6px;
-     -moz-border-radius-bottomleft:   6px;
-          border-bottom-left-radius:  6px;
-  -webkit-border-bottom-right-radius: 6px;
-     -moz-border-radius-bottomright:  6px;
-          border-bottom-right-radius: 6px;
-}
-
-#header div.site-links a {
-  color: #F6F6F3;
-  text-shadow: 0 1px 0 #000;
-  background-color: #585450;
-  display: inline-block;
-  padding: 9px 12px;
-  font-weight: normal;
-  text-decoration: none;
-  float: left;
-  font-size: 15px;
-}
-
-#header div.site-links a.home,
-#footer div.site-links a.home,
-#header div.site-links a.menu { display: none; }
-
-#header div.site-links a.selected {
-  color: white;
-  font-weight: bold;
-}
-
 div.multi-page { margin: 20px 0 0; }
 div.multi-page span.separator { display: none; }
 
@@ -262,51 +192,7 @@ div.multi-page + h1 { margin-top: 20px; }
 
 hr.hidden-modern { display: none; }
 
-#search-box {
-  text-align: left;
-  position: absolute;
-  top: 54px;
-  right: 24px;
-}
-
-#search-box .fieldset { float: right; }
-
-#search-form .field {
-  -webkit-appearance: none;
-  font-size: 13px;
-  line-height: 13px;
-  padding: 6px 6px;
-  border: 1px solid #b0b0a4;
-  width: 180px;
-  background-position: 6px center !important;
-  -webkit-box-shadow: 0 1px 2px #ddd inset;
-     -moz-box-shadow: 0 1px 2px #ddd inset;
-          box-shadow: 0 1px 2px #ddd inset;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-}
-
-#search-form .button {
-  -webkit-appearance: none;
-  display: inline-block;
-  background: #ebebe4;
-  color: #585450;
-  padding: 7px 12px;
-  font-size: 13px;
-  line-height: 13px;
-  text-decoration: none;
-  margin: 0 0 0 6px;
-  text-shadow: 0 1px 0 #fff;
-  border: 1px solid #c2c2b8;
-  font-weight: normal;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-box-shadow: 0 2px 0 #c2c2b8;
-     -moz-box-shadow: 0 2px 0 #c2c2b8;
-          box-shadow: 0 2px 0 #c2c2b8;
-}
+/* Search box - Removed: Old header search functionality */
 
 .release-list th,
 .release-list td {
@@ -346,10 +232,5 @@ hr.hidden-modern { display: none; }
   #home-page-layout #intro-container {
     background-image: url(/images/ruby_pattern@2x.png);
     background-size: 412px 412px;
-  }
-
-  #header_content > a {
-    background-image: url(/images/header-ruby-logo@2x.png);
-    background-size: 62px 62px;
   }
 }
