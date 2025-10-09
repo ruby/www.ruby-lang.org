@@ -28,7 +28,7 @@ search:
   cx_id: '008288045305770251182:fvruzsaknew'
 
 header_navigation:
-- text: Install
+- text: インストール
   url: /ja/documentation/installation/
   submenu:
   - text: ダウンロード
@@ -47,9 +47,9 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: What's Ruby
+- text: Rubyとは
   url: /ja/about/
-- text: Docs
+- text: ドキュメント
   url: /ja/documentation/
   submenu:
   - text: はじめよう
@@ -74,7 +74,7 @@ header_navigation:
     - text: The Ruby Bibliography
       url: https://rubybib.org/
       external: true
-- text: Libraries
+- text: ライブラリ
   url: /ja/libraries/
   submenu:
   - text: RubyGems
@@ -102,7 +102,7 @@ header_navigation:
     - text: RSpec
       url: https://github.com/rspec/rspec
       external: true
-- text: Contribution
+- text: コントリビューション
   url: /ja/dev/
   submenu:
   - text: メーリングリスト
@@ -116,9 +116,9 @@ header_navigation:
   - text: Ruby Issue Tracking System
     url: https://bugs.ruby-lang.org/
     external: true
-- text: News
+- text: ニュース
   url: /ja/news/
-- text: Community
+- text: コミュニティ
   url: /ja/community/
   submenu:
   - text: コミュニティ
