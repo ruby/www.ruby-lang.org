@@ -1,0 +1,149 @@
+{% if site.data.locales[page.lang].header_navigation %}
+  {% assign nav_items = site.data.locales[page.lang].header_navigation %}
+{% else %}
+  {% assign nav_items = site.data.locales['en'].header_navigation %}
+{% endif %}
+
+<header class="bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-700">
+  <div class="container mx-auto">
+    <div class="flex items-center justify-between h-16 px-4">
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <a href="/{{ page.lang }}/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <img src="/images/header-ruby-logo.png" alt="Ruby" class="h-8 w-8">
+          <span class="text-xl font-bold text-stone-900 dark:text-stone-50">Ruby</span>
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex items-center gap-1">
+        {% for item in nav_items %}
+        <div class="relative group">
+          {% if item.submenu %}
+          <!-- Menu with dropdown -->
+          <button class="flex items-center gap-1 px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+            {{ item.text }}
+            <span class="material-icons text-base">expand_more</span>
+          </button>
+
+          <!-- Dropdown menu -->
+          <div class="absolute left-0 mt-1 w-56 bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <div class="py-2">
+              {% for subitem in item.submenu %}
+              {% if subitem.submenu %}
+              <!-- Nested submenu -->
+              <div class="relative group/nested">
+                <button class="w-full flex items-center justify-between px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+                  {{ subitem.text }}
+                  <span class="material-icons text-base">chevron_right</span>
+                </button>
+
+                <!-- Nested dropdown -->
+                <div class="absolute left-full top-0 ml-1 w-56 bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible transition-all duration-200">
+                  <div class="py-2">
+                    {% for nesteditem in subitem.submenu %}
+                    <a href="{{ nesteditem.url }}"
+                       class="flex items-center justify-between px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
+                       {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                      {{ nesteditem.text }}
+                      {% if nesteditem.external %}
+                      <span class="material-icons text-xs">open_in_new</span>
+                      {% endif %}
+                    </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+              {% else %}
+              <!-- Regular submenu item -->
+              <a href="{{ subitem.url }}"
+                 class="flex items-center justify-between px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
+                 {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                {{ subitem.text }}
+                {% if subitem.external %}
+                <span class="material-icons text-xs">open_in_new</span>
+                {% endif %}
+              </a>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          {% else %}
+          <!-- Simple link -->
+          <a href="{{ item.url }}"
+             class="block px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+            {{ item.text }}
+          </a>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </nav>
+
+      <!-- Right section: Language selector + Mobile menu button -->
+      <div class="flex items-center gap-2">
+        <!-- Language Selector -->
+        {% include language-selector.html %}
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-toggle" class="lg:hidden p-2 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md">
+          <span class="material-icons">menu</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden border-t border-stone-200 dark:border-stone-700">
+    <nav class="container mx-auto px-4 py-4">
+      {% for item in nav_items %}
+      <div class="mb-2">
+        {% if item.submenu %}
+        <!-- Accordion style menu for mobile -->
+        <button class="mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+          {{ item.text }}
+          <span class="material-icons text-base">expand_more</span>
+        </button>
+        <div class="mobile-nav-submenu hidden pl-4 mt-1">
+          {% for subitem in item.submenu %}
+          {% if subitem.submenu %}
+          <div class="mb-1">
+            <button class="mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+              {{ subitem.text }}
+              <span class="material-icons text-base">expand_more</span>
+            </button>
+            <div class="mobile-nav-submenu hidden pl-4 mt-1">
+              {% for nesteditem in subitem.submenu %}
+              <a href="{{ nesteditem.url }}"
+                 class="flex items-center justify-between px-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors"
+                 {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                {{ nesteditem.text }}
+                {% if nesteditem.external %}
+                <span class="material-icons text-xs">open_in_new</span>
+                {% endif %}
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+          {% else %}
+          <a href="{{ subitem.url }}"
+             class="flex items-center justify-between px-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors"
+             {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            {{ subitem.text }}
+            {% if subitem.external %}
+            <span class="material-icons text-xs">open_in_new</span>
+            {% endif %}
+          </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% else %}
+        <a href="{{ item.url }}"
+           class="block px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+          {{ item.text }}
+        </a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

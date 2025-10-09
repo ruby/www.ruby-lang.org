@@ -1,0 +1,42 @@
+{% comment %}
+Language Selector Component
+Displays current language and dropdown menu for switching languages
+{% endcomment %}
+
+{% assign current_lang = page.lang | default: 'en' %}
+{% assign current_language = nil %}
+
+{% for lang in site.data.languages %}
+  {% if lang.code == current_lang %}
+    {% assign current_language = lang %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="relative group">
+  <button class="flex items-center gap-1 px-3 py-1.5 text-sm border border-stone-300 dark:border-stone-600 rounded-md hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
+    <span class="text-stone-700 dark:text-stone-300">
+      {% if current_language %}
+        {{ current_language.native_name }} ({{ current_language.code }})
+      {% else %}
+        English (en)
+      {% endif %}
+    </span>
+    <span class="material-icons text-base text-stone-700 dark:text-stone-300">expand_more</span>
+  </button>
+
+  <!-- Language dropdown -->
+  <div class="absolute right-0 mt-1 w-56 max-h-96 overflow-y-auto bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+    <div class="py-2">
+      {% for lang in site.data.languages %}
+      <a href="/{{ lang.code }}{{ page.url | remove_first: '/' | replace_first: page.lang, '' }}"
+         class="flex items-center justify-between px-4 py-2 text-sm {% if lang.code == current_lang %}bg-stone-100 dark:bg-stone-700 text-stone-900 dark:text-stone-50 font-medium{% else %}text-stone-700 dark:text-stone-300{% endif %} hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+        <span>{{ lang.native_name }}</span>
+        {% if lang.code == current_lang %}
+        <span class="material-icons text-base">check</span>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

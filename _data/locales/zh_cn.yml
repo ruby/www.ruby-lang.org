@@ -24,6 +24,114 @@ sitelinks:
 search:
   text: 搜索
 
+header_navigation:
+- text: 下载
+  url: /zh_cn/documentation/installation/
+  submenu:
+  - text: 下载
+    url: /zh_cn/downloads/
+  - text: 包管理器
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: 关于 Ruby
+  url: /zh_cn/about/
+- text: 文档
+  url: /zh_cn/documentation/
+  submenu:
+  - text: 入门
+    submenu:
+    - text: 20 分钟体验 Ruby
+      url: /zh_cn/documentation/quickstart/
+    - text: 从其它语言转到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+  - text: 探索
+    submenu:
+    - text: 文档
+      url: /zh_cn/documentation/
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: 代码库
+  url: /zh_cn/libraries/
+  submenu:
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: 热门 Gems
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: 贡献
+  url: /zh_cn/community/ruby-core/
+  submenu:
+  - text: 邮件列表
+    url: /zh_cn/community/mailing-lists/
+  - text: ruby/ruby
+    url: https://github.com/ruby/ruby
+    external: true
+  - text: Wiki
+    url: https://github.com/ruby/ruby/wiki
+    external: true
+  - text: Ruby Issue Tracking System
+    url: https://bugs.ruby-lang.org/
+    external: true
+- text: 新闻
+  url: /zh_cn/news/
+- text: 社区
+  url: /zh_cn/community/
+  submenu:
+  - text: 社区
+    submenu:
+    - text: 邮件列表
+      url: /zh_cn/community/mailing-lists/
+    - text: 用户组
+      url: /zh_cn/community/user-groups/
+    - text: 博客
+      url: /zh_cn/community/weblogs/
+  - text: 活动
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Conferences
+      url: https://rubyconferences.org/
+      external: true
+
 sidebar:
   get_started:
     text: <strong>试用</strong>，其实很简单！

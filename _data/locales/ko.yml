@@ -24,6 +24,114 @@ sitelinks:
 search:
   text: 찾기
 
+header_navigation:
+- text: 다운로드
+  url: /ko/documentation/installation/
+  submenu:
+  - text: 다운로드
+    url: /ko/downloads/
+  - text: 패키지 관리자
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: Ruby에 대해서
+  url: /ko/about/
+- text: 문서
+  url: /ko/documentation/
+  submenu:
+  - text: 시작하기
+    submenu:
+    - text: 20분 가이드
+      url: /ko/documentation/quickstart/
+    - text: 다른 언어에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+  - text: 탐색하기
+    submenu:
+    - text: 문서
+      url: /ko/documentation/
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: 라이브러리
+  url: /ko/libraries/
+  submenu:
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: 인기 Gem
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: 기여하기
+  url: /ko/community/ruby-core/
+  submenu:
+  - text: 메일링 리스트
+    url: /ko/community/mailing-lists/
+  - text: ruby/ruby
+    url: https://github.com/ruby/ruby
+    external: true
+  - text: Wiki
+    url: https://github.com/ruby/ruby/wiki
+    external: true
+  - text: Ruby Issue Tracking System
+    url: https://bugs.ruby-lang.org/
+    external: true
+- text: 뉴스
+  url: /ko/news/
+- text: 커뮤니티
+  url: /ko/community/
+  submenu:
+  - text: 커뮤니티
+    submenu:
+    - text: 메일링 리스트
+      url: /ko/community/mailing-lists/
+    - text: 유저 그룹
+      url: /ko/community/user-groups/
+    - text: 블로그와 뉴스레터
+      url: /ko/community/weblogs/
+  - text: 이벤트
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Conferences
+      url: https://rubyconferences.org/
+      external: true
+
 sidebar:
   get_started:
     text: <strong>시작하기</strong>

@@ -24,6 +24,114 @@ sitelinks:
 search:
   text: Търси
 
+header_navigation:
+- text: За сваляне
+  url: /bg/documentation/installation/
+  submenu:
+  - text: За сваляне
+    url: /bg/downloads/
+  - text: Мениджъри на пакети
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: Относно
+  url: /bg/about/
+- text: Документация
+  url: /bg/documentation/
+  submenu:
+  - text: Започнете
+    submenu:
+    - text: Ruby в 20 минути
+      url: /bg/documentation/quickstart/
+    - text: Ruby от други езици
+      url: /bg/documentation/ruby-from-other-languages/
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+  - text: Изследвайте
+    submenu:
+    - text: Документация
+      url: /bg/documentation/
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Библиотеки
+  url: /bg/libraries/
+  submenu:
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Популярни Gem-ове
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Принос
+  url: /bg/community/ruby-core/
+  submenu:
+  - text: Пощенски списъци
+    url: /bg/community/mailing-lists/
+  - text: ruby/ruby
+    url: https://github.com/ruby/ruby
+    external: true
+  - text: Wiki
+    url: https://github.com/ruby/ruby/wiki
+    external: true
+  - text: Ruby Issue Tracking System
+    url: https://bugs.ruby-lang.org/
+    external: true
+- text: Новини
+  url: /bg/news/
+- text: Общност
+  url: /bg/community/
+  submenu:
+  - text: Общност
+    submenu:
+    - text: Пощенски списъци
+      url: /bg/community/mailing-lists/
+    - text: Потребителски групи
+      url: /bg/community/user-groups/
+    - text: Блогове
+      url: /bg/community/weblogs/
+  - text: Събития
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Conferences
+      url: https://rubyconferences.org/
+      external: true
+
 sidebar:
   get_started:
     text: <strong>Започнете</strong> лесно е!

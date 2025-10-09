@@ -39,25 +39,6 @@
     padding-left: 24px;
   }
 
-  #header_content { padding: 20px 24px 0; }
-
-  #header div.site-links {
-    padding: 0 0 0 14px;
-    margin: 0 -24px;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
-  }
-
-  #header div.site-links a {
-    padding: 8px;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
-  }
-
-  #search-box { top: 44px; }
-
   #footer {
     margin: 0;
     border: none;
@@ -93,62 +74,6 @@
             border-radius: 0;
   }
 
-  #search-box {
-    text-align: left;
-    position: static;
-    display: none;
-    padding: 12px 24px 12px 60px;
-    margin: 0 -24px;
-    overflow: hidden;
-    top: auto;
-    right: auto;
-    text-align: right;
-    background: #585450;
-    border-top: 1px solid #7c7874;
-  }
-
-  #search-box .fieldset { float: none; }
-
-  #search-form .field { width: 160px; }
-
-  #header div.site-links.open + #search-box { display: block; }
-
-  #header div.site-links {
-    padding: 0;
-    position: relative;
-  }
-
-  #header div.site-links a {
-    float: none;
-    display: none;
-    padding: 12px 24px 12px 80px;
-    font-size: 16px;
-    border-top: 1px solid #585450;
-    border-bottom: 1px solid #585450;
-  }
-
-  #header div.site-links.open a,
-  #header div.site-links a.menu,
-  #header div.site-links a.selected {
-    display: block;
-  }
-
-  #header div.site-links a.menu {
-    background: #585450 url(/images/hamburger@2x.png) no-repeat 50% 50%;
-    background-size: 20px 20px;
-    width: 68px;
-    height: 0;
-    padding: 45px 0 0;
-    overflow: hidden;
-    border: none;
-    position: absolute;
-    left: 0;
-    top: 1px;
-  }
-
-  #header div.site-links a + a { border-top-color: #7c7874; }
-  #header div.site-links.open a.menu { background-color: #433f3c; }
-
   #sidebar {
     border: none;
     border-top: 1px solid #ccc;
@@ -171,25 +96,6 @@
 }
 
 @media screen and (max-width: 380px) {
-  #header h1 { font-size: 30px; }
-
-  #header h2 {
-    font-size: 13px;
-    margin: 0;
-  }
-
-  #header_content { padding-top: 10px; }
-
-  #header_content > a {
-    background-size: 44px 44px;
-    background-position: left 10px;
-    padding: 15px 0 0 50px;
-    margin: 0 0 15px -12px;
-  }
-
-  #header div.site-links a.menu { width: 44px; }
-  #header div.site-links a { padding-left: 60px; }
-
   .buttons .button {
     display: block;
     width: 100%;

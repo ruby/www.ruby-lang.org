@@ -33,6 +33,7 @@
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/page.js"></script>
     <script type="text/javascript" src="/javascripts/navigation-toggle.js" defer></script>
+    <script type="text/javascript" src="/javascripts/header-navigation.js" defer></script>
     {% if layout.javascript != null %}
     {% for javascript in layout.javascript %}
     <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
@@ -43,23 +44,7 @@
   {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
   <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
-    <div id="header">
-      <div id="header_content" class="container">
-        <a href="/{{ page.lang }}/">
-          <h1>{{ site.data.locales[page.lang].ruby }}</h1>
-          <h2>{{ site.data.locales[page.lang].slogan }}</h2>
-        </a>
-
-        <div class="site-links">
-          {% include sitelinks.html %}
-          <a href="#" class="menu selected">Menu</a>
-        </div>
-
-        <div id="search-box">
-          {% include search.html %}
-        </div>
-      </div>
-    </div>
+    {% include header.html %}
 
     <div id="page">
       {% include intro.html %}
