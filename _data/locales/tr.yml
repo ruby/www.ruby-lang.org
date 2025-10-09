@@ -230,3 +230,24 @@ news:
   monthly_archives: Aylara göre Arşivler
   yearly_archive_link: "%Y Arşivleri"
   monthly_archive_link: "%B %Y"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Mail Listeleri
+      url: /tr/community/mailing-lists/
+    about_website:
+      text: Bu Web Sitesi Hakkında
+      url: /tr/about/website/
+    news_rss:
+      text: Haberler RSS
+      url: /tr/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

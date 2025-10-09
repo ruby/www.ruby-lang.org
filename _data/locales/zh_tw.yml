@@ -215,3 +215,24 @@ news:
   monthly_archives: 按月份彙整
   yearly_archive_link: "%Y 年彙整"
   monthly_archive_link: "%Y 年 %-m 月彙整"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: 郵件論壇
+      url: /zh_tw/community/mailing-lists/
+    about_website:
+      text: 關於本網站
+      url: /zh_tw/about/website/
+    news_rss:
+      text: 新聞 RSS
+      url: /zh_tw/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

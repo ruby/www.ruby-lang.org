@@ -228,3 +228,24 @@ news:
   monthly_archives: Lưu trữ bằng Tháng
   yearly_archive_link: Lưu trữ %Y
   monthly_archive_link: "%B %Y"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Mailing Lists
+      url: /vi/community/mailing-lists/
+    about_website:
+      text: Về Trang Web Này
+      url: /vi/about/website/
+    news_rss:
+      text: Tin tức RSS
+      url: /vi/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

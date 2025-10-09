@@ -219,7 +219,7 @@ feed:
 
 news:
   other_news: Autres actualités
-  more_news: Plus d’actualités...
+  more_news: Plus d'actualités...
   continue: Lire la suite...
   back_to_year: Retour aux %Y archives
   recent_news: Actualité récente
@@ -229,3 +229,24 @@ news:
   monthly_archives: Archives par mois
   yearly_archive_link: Actualités de %Y
   monthly_archive_link: "%m/%Y"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Listes de diffusion
+      url: /fr/community/mailing-lists/
+    about_website:
+      text: À propos de ce site web
+      url: /fr/about/website/
+    news_rss:
+      text: Actualités RSS
+      url: /fr/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt
