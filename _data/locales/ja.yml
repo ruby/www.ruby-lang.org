@@ -27,6 +27,136 @@ search:
   text: 検索
   cx_id: '008288045305770251182:fvruzsaknew'
 
+header_navigation:
+- text: Install
+  url: /ja/documentation/installation/
+  submenu:
+  - text: ダウンロード
+    url: /ja/downloads/
+  - text: パッケージマネージャー
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: What's Ruby
+  url: /ja/about/
+- text: Docs
+  url: /ja/documentation/
+  submenu:
+  - text: はじめよう
+    submenu:
+    - text: 20分ではじめるRuby
+      url: /ja/documentation/quickstart/
+    - text: 他言語からのRuby入門
+      url: /ja/documentation/ruby-from-other-languages/
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+  - text: 探求しよう
+    submenu:
+    - text: ドキュメント
+      url: /ja/documentation/
+    - text: Ruby リファレンスマニュアル
+      url: https://docs.ruby-lang.org/ja/3.4/doc/index.html
+      external: true
+    - text: るりまサーチ
+      url: https://docs.ruby-lang.org/ja/search/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Libraries
+  url: /ja/libraries/
+  submenu:
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: 代表的なGem
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Contribution
+  url: /ja/dev/
+  submenu:
+  - text: メーリングリスト
+    url: /ja/community/mailing-lists/
+  - text: ruby/ruby
+    url: https://github.com/ruby/ruby
+    external: true
+  - text: Wiki
+    url: https://github.com/ruby/ruby/wiki
+    external: true
+  - text: Ruby Issue Tracking System
+    url: https://bugs.ruby-lang.org/
+    external: true
+- text: News
+  url: /ja/news/
+- text: Community
+  url: /ja/community/
+  submenu:
+  - text: コミュニティ
+    submenu:
+    - text: Slack (ruby-jp)
+      url: https://ruby-jp.github.io/
+      external: true
+    - text: Scrapbox (ruby-jp)
+      url: https://scrapbox.io/ruby-jp/
+      external: true
+    - text: メーリングリスト
+      url: /ja/community/mailing-lists/
+    - text: Rubyコミュニティ (Doorkeeper)
+      url: https://www.doorkeeper.jp/topics/ruby/groups
+      external: true
+  - text: イベント
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Conferences
+      url: https://rubyconferences.org/
+      external: true
+    - text: 地域 Ruby会議
+      url: https://regional.rubykaigi.org/
+      external: true
+  - text: 団体
+    submenu:
+    - text: 日本Rubyの会
+      url: https://ruby-no-kai.org/
+      external: true
+    - text: Rubyアソシエーション
+      url: https://www.ruby.or.jp/ja/
+      external: true
+    - text: Rubyビジネス・コモンズ
+      url: https://www.facebook.com/rubybizcommons
+      external: true
+
 sidebar:
   get_started:
     text: <strong>はじめよう!</strong>
