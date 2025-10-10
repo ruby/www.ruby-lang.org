@@ -28,7 +28,7 @@
   }
 
   function buildTOCHTML(headings) {
-    let html = '<ul class="space-y-2 text-sm list-none pl-0">';
+    let html = '<ul class="space-y-2 text-sm list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">';
     let currentLevel = 2;
 
     headings.forEach(heading => {
@@ -37,12 +37,12 @@
       const id = heading.id;
 
       if (level > currentLevel) {
-        html += '<ul class="pl-4 mt-1">';
+        html += '<ul class="space-y-2 pl-4 mt-2 list-disc marker:text-stone-400 dark:marker:text-stone-500">';
       } else if (level < currentLevel) {
         html += '</ul>';
       }
 
-      html += `<li class="mb-1"><a href="#${id}" class="text-ruby-600 dark:text-ruby-400 hover:text-ruby-700 dark:hover:text-ruby-300 no-underline">${text}</a></li>`;
+      html += `<li class="mb-2"><a href="#${id}" class="text-stone-700 dark:text-stone-300 hover:text-ruby-600 dark:hover:text-ruby-400 no-underline transition-colors">${text}</a></li>`;
       currentLevel = level;
     });
 
