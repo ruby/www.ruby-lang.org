@@ -1401,6 +1401,10 @@ body {
   resize: both;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1630,6 +1634,10 @@ body {
   color: rgb(28 25 23 / var(--tw-text-opacity, 1));
 }
 
+.text-ruby-600 {
+  color: var(--color-ruby-600);
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1769,6 +1777,10 @@ body {
 .hover\:text-stone-900:hover {
   --tw-text-opacity: 1;
   color: rgb(28 25 23 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-ruby-700:hover {
+  color: var(--color-ruby-700);
 }
 
 .hover\:opacity-80:hover {
@@ -1958,6 +1970,10 @@ body {
     color: rgb(250 250 249 / var(--tw-text-opacity, 1));
   }
 
+  .dark\:text-ruby-400 {
+    color: var(--color-ruby-400);
+  }
+
   .dark\:hover\:bg-stone-700:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(68 64 60 / var(--tw-bg-opacity, 1));
@@ -1981,6 +1997,10 @@ body {
   .dark\:hover\:text-stone-50:hover {
     --tw-text-opacity: 1;
     color: rgb(250 250 249 / var(--tw-text-opacity, 1));
+  }
+
+  .dark\:hover\:text-ruby-300:hover {
+    color: var(--color-ruby-300);
   }
 }
 
