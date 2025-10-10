@@ -27,10 +27,11 @@ Ruby의 장점, 특징에 대한 설명에서 빠지지 않고 등장하는 것�
 : Ruby는 여러 언어에 걸쳐 다른 주제를 다루는 다양한 메일링 리스트를 가지고 있습니다.
   Ruby에 관해 질문이 있다면, 메일링 리스트에 질문하시면 됩니다.
 
-[Ruby Discord 서버 (초대 링크)][ruby-discord]
-: Ruby 언어 Discord 서버에서 다른 Ruby 사용자와 채팅하고, Ruby 질문을 통해
-  도움을 받고, 다른 사람을 도울 수 있습니다.
-  Discord는 초보 개발자가 시작하기 좋은 곳이고, 참여하기도 쉽습니다.
+[Ruby Discord 서버][ruby-discord] / [오픈 Ruby Discord 서버][open-ruby-discord]
+: 여러 개의 Ruby Discord 서버가 있어서 다른 Ruby 사용자와 채팅하고,
+  Ruby 관련 질문에 대한 도움을 얻거나 다른 사람을 도울 수 있습니다.
+  Discord는 초보 개발자가 시작하기 좋은 진입점이며 참여하기도 쉽습니다.
+  각각을 둘러보고 본인에게 맞는 곳을 선택해 보세요.
 
 [IRC에서의 Ruby(#ruby)](https://web.libera.chat/#ruby)
 : Ruby 언어 IRC 채널에서 동료 루비스트와 채팅할 수 있습니다.
@@ -59,3 +60,4 @@ Ruby의 장점, 특징에 대한 설명에서 빠지지 않고 등장하는 것�
 
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
+[open-ruby-discord]: https://discord.gg/bvbpn85dt2

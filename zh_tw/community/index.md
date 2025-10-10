@@ -20,9 +20,10 @@ lang: zh_tw
 [Ruby 郵件論壇和新聞群組](/zh_tw/community/mailing-lists/)
 : Ruby 擁有各種不同主題及語言的郵件論壇。如果你有 Ruby 的問題，透過論壇發問是個不錯的方式。
 
-[Ruby Discord 伺服器 (邀請連結)][ruby-discord]
-: Ruby 語言 Discord 伺服器是一個你可以與其他 Rubyists 聊天、互助的地方。
-  Discord 對於新開發者是一個很好的進入點，而且很容易加入。
+[Ruby Discord 伺服器][ruby-discord] / [Open Ruby Discord 伺服器][open-ruby-discord]
+: 有許多 Ruby 的 Discord 伺服器，你可以在那裡與其他 Rubyists 聊天、提問或互相幫助。
+  Discord 對新手開發者來說是很好的入門平台，而且加入也非常簡單。
+  不妨都去看看，選擇你最喜歡的伺服器吧！
 
 [Ruby 的 IRC (#ruby)][ruby-irc]
 : 您可以在 Ruby 的 IRC 頻道上與其他 Ruby 愛好者聊天。
@@ -50,4 +51,5 @@ lang: zh_tw
 [ruby-irc]: https://web.libera.chat/#ruby
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh
+[open-ruby-discord]: https://discord.gg/bvbpn85dt2
 [rubyvideo]: https://rubyvideo.dev
