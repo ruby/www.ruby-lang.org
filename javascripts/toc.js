@@ -42,7 +42,7 @@
         html += '</ul>';
       }
 
-      html += `<li class="mb-2"><a href="#${id}" class="text-stone-700 dark:text-stone-300 hover:text-ruby-600 dark:hover:text-ruby-400 no-underline transition-colors">${text}</a></li>`;
+      html += `<li class="mb-2"><a href="#${id}" class="text-stone-700 dark:text-stone-300 no-underline transition-colors">${text}</a></li>`;
       currentLevel = level;
     });
 

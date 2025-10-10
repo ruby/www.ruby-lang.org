@@ -40,16 +40,6 @@ iframe {
   max-width: 100%;
 }
 
-#content { margin: 0 0 48px 0; }
-
-/* Sidebar */
-
-/* #sidebar-wrapper {
-  display: table-cell;
-  vertical-align: top;
-  width: 30%;
-} */
-
 #sidebar {
   border-bottom: 1px solid #ccc;
   background: #f6f6f3;

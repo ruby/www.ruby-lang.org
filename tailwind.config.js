@@ -21,8 +21,6 @@ module.exports = {
     'mt-2',
     'text-stone-700',
     'dark:text-stone-300',
-    'hover:text-ruby-600',
-    'dark:hover:text-ruby-400',
     'transition-colors',
   ],
   theme: {

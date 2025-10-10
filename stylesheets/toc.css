@@ -1,0 +1,10 @@
+/* Table of Contents hover styles */
+.toc-content a:hover {
+  color: #e62923; /* ruby-600 for light mode */
+}
+
+@media (prefers-color-scheme: dark) {
+  .toc-content a:hover {
+    color: #f07f7b; /* ruby-400 for dark mode */
+  }
+}
