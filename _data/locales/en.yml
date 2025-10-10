@@ -197,6 +197,9 @@ sidebar:
 
 languages_heading: 'This site in other languages:'
 
+toc:
+  heading: Table of Contents
+
 credits:
   <a href="/en/about/website/">This website</a>
   is proudly maintained by members of the Ruby community.

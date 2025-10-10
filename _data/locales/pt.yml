@@ -188,6 +188,8 @@ sidebar:
 
 languages_heading: 'Este site em outros idiomas:'
 
+toc:
+  heading: Índice
 credits:
   <a href="/pt/about/website/">Este website</a>
   é mantido com orgulho por membros da comunidade Ruby.

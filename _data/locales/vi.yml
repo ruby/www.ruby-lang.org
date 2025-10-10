@@ -187,6 +187,8 @@ sidebar:
 
 languages_heading:
 
+toc:
+  heading: Mục lục
 credits:
   Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
   Trang được bảo trì bởi các thành viên của cộng đồng Ruby. Xin đóng góp

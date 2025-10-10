@@ -215,6 +215,9 @@ sidebar:
 
 languages_heading:
 
+toc:
+  heading: 目次
+
 credits:
   <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
 

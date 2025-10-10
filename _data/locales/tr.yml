@@ -192,6 +192,8 @@ sidebar:
 
 languages_heading: 'Diğer dillerde bu site:'
 
+toc:
+  heading: İçindekiler
 credits:
   <a href="/tr/about/website/">Bu web sitesi</a>
   Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.

@@ -191,6 +191,8 @@ sidebar:
 
 languages_heading: 'Этот сайт на других языках:'
 
+toc:
+  heading: Содержание
 credits:
   <a href="/ru/about/website/">Этот сайт</a>
   с гордостью поддерживается членами сообщества Ruby.
