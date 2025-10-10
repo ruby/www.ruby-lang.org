@@ -1336,12 +1336,12 @@ body {
   height: 4rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-6 {
   height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .max-h-96 {
@@ -1350,6 +1350,10 @@ body {
 
 .w-56 {
   width: 14rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-8 {
@@ -1363,10 +1367,6 @@ body {
 
 .w-full {
   width: 100%;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .min-w-0 {
@@ -1425,12 +1425,12 @@ body {
   gap: 0.5rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .gap-x-6 {
@@ -1555,10 +1555,6 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-base {
@@ -1977,14 +1973,14 @@ body {
     color: rgb(147 197 253 / var(--tw-text-opacity, 1));
   }
 
-  .dark\:hover\:text-stone-50:hover {
-    --tw-text-opacity: 1;
-    color: rgb(250 250 249 / var(--tw-text-opacity, 1));
-  }
-
   .dark\:hover\:text-stone-100:hover {
     --tw-text-opacity: 1;
     color: rgb(245 245 244 / var(--tw-text-opacity, 1));
+  }
+
+  .dark\:hover\:text-stone-50:hover {
+    --tw-text-opacity: 1;
+    color: rgb(250 250 249 / var(--tw-text-opacity, 1));
   }
 }
 
