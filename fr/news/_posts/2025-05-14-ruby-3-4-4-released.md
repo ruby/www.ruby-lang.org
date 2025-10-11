@@ -17,7 +17,7 @@ Veuillez consulter les [notes de version sur GitHub](https://github.com/ruby/rub
 
 ## Calendrier des sorties
 
-Nous avons pour objectif de publier la dernière version stable de Ruby (actuellement Ruby 3.4) tous les deux mois suivant la dernière sortie.  
+Nous avons pour objectif de publier la dernière version stable de Ruby (actuellement Ruby 3.4) tous les deux mois suivant la dernière sortie.
 Après cette version (3.4.4), Ruby 3.4.5 est prévue pour juillet, 3.4.6 pour septembre, 3.4.7 pour novembre et 3.4.8 pour janvier.
 
 Si un changement ayant un impact significatif sur les utilisateurs survient, une version pourra être publiée plus tôt que prévu, et le calendrier suivant pourra être ajusté en conséquence.
