@@ -9,7 +9,7 @@ lang: ko
 
 Ruby 3.4.7이 릴리스되었습니다.
 
-이 릴리스는 [CVE-2025-61594에 대응하는 uri gem 업데이트](https://www.ruby-lang.org/ko/news/2025/10/07/uri-cve-2025-61594/)를 포함한,
+이 릴리스는 [CVE-2025-61594에 대응하는 uri gem 업데이트](https://www.ruby-lang.org/ko/news/2025/10/07/uri-cve-2025-61594/) 및
 기타 버그 수정이 포함되어 있습니다. 자세한 내용은 [GitHub 릴리스 노트](https://github.com/ruby/ruby/releases/tag/v3_4_7)를 참조하세요.
 
 uri gem을 업데이트할 것을 권장합니다. 이 릴리스는 기본 gem으로 계속 사용하려는 분들의 편의를 위해 제공됩니다.
