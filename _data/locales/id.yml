@@ -191,6 +191,8 @@ sidebar:
 
 languages_heading: 'Situs ini dalam bahasa lain:'
 
+toc:
+  heading: Daftar Isi
 credits:
   <a href="/id/about/website/">Situs ini</a>
   dengan bangga dirawat oleh anggota komunitas Ruby.

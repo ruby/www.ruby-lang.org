@@ -5,7 +5,7 @@ highlighter: rouge
 timezone: UTC
 
 kramdown:
-  auto_ids: false
+  auto_ids: true  # Enable auto IDs for TOC links
 
 exclude:
   - Gemfile

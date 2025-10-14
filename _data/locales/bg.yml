@@ -188,6 +188,8 @@ sidebar:
 
 languages_heading: 'Този сайт на други езици:'
 
+toc:
+  heading: Съдържание
 credits:
   <a href="/bg/about/website/">Този сайт</a>
   се поддържа от членове на Ruby обществото.

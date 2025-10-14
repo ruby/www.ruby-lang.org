@@ -188,6 +188,9 @@ sidebar:
 
 languages_heading: 'Diese Website in anderen Sprachen:'
 
+toc:
+  heading: Inhaltsverzeichnis
+
 credits:
   <a href="/de/about/website/">Diese Website</a>
   wird mit Stolz von Mitgliedern der Ruby-Community gepflegt.

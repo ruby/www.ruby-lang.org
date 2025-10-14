@@ -190,6 +190,8 @@ sidebar:
 
 languages_heading:
 
+toc:
+  heading: 목차
 credits:
   <a href="/ko/about/website/">이 사이트</a>는 Ruby 커뮤니티의 구성원들이 직접 관리합니다.
 

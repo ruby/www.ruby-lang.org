@@ -191,6 +191,9 @@ sidebar:
 
 languages_heading:
 
+toc:
+  heading: Tabla de contenidos
+
 credits:
   Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
   y es orgullosamente mantenido por miembros de la comunidad. Si quieres

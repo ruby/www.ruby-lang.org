@@ -2,16 +2,34 @@
 layout: default
 ---
 
-<div class="container px-4 md:px-6 lg:px-8">
-  <!-- Main 3-column layout -->
-  <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
-    <!-- Desktop Navigation (hidden on mobile) -->
-    <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0">
-      {% include navigation.html %}
-    </div>
+{% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
+{% assign is_homepage = false %}
+{% if page.url == homepage_url %}
+  {% assign is_homepage = true %}
+{% endif %}
 
-    <!-- Main content and TOC wrapper -->
-    <div class="flex-1 min-w-0 flex flex-col gap-6">
+<div class="container px-4 md:px-6 lg:px-8 py-6 md:py-8 lg:py-12">
+  {% if is_homepage %}
+    <!-- Home page: Single column layout -->
+    <div class="max-w-4xl mx-auto">
+      <article id="content-wrapper" class="prose">
+        {% include title.html %}
+
+        <div id="content">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  {% else %}
+    <!-- Other pages: 3-column layout -->
+    <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
+      <!-- Desktop Navigation (hidden on mobile) -->
+      <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0">
+        {% include navigation.html %}
+      </div>
+
+      <!-- Main content and TOC wrapper -->
+      <div class="flex-1 min-w-0 flex flex-col gap-6">
       <!-- Navigation toggle button -->
       <button id="nav-toggle" class="md:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
         <span class="material-icons text-base">menu</span>
@@ -23,15 +41,30 @@ layout: default
         {% include navigation.html %}
       </div>
 
-      <!-- TOC toggle button -->
-      <button id="toc-toggle" class="lg:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
-        <span class="material-icons text-base">toc</span>
-        TOC
-      </button>
+      <!-- TOC Section (Mobile/Tablet) -->
+      {% if site.data.locales[page.lang].toc %}
+        {% assign toc = site.data.locales[page.lang].toc %}
+      {% else %}
+        {% assign toc = site.data.locales['en'].toc %}
+      {% endif %}
+      <div class="lg:hidden bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 overflow-hidden mb-6 md:ml-4">
+        <!-- TOC toggle header -->
+        <button id="toc-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+          <span class="flex items-center gap-2 font-bold text-stone-900 dark:text-stone-100">
+            <span class="material-icons text-base">list</span>
+            {{ toc.heading }}
+          </span>
+          <span id="toc-chevron" class="material-icons text-base text-stone-500 dark:text-stone-400 transition-transform">expand_more</span>
+        </button>
 
-      <!-- Mobile/Tablet TOC Panel -->
-      <div id="toc-mobile-panel" class="lg:hidden hidden">
-        {% include toc.html %}
+        <!-- TOC content panel -->
+        <div id="toc-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
+          <div class="px-4 pt-4 pb-6">
+            <div class="toc-content not-prose">
+              <!-- TOC will be dynamically generated here -->
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Main content -->
@@ -44,11 +77,12 @@ layout: default
       </article>
     </div>
 
-    <!-- Desktop TOC (hidden below lg) -->
-    <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0">
-      {% include toc.html %}
+      <!-- Desktop TOC (hidden below lg) -->
+      <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0 sticky top-4 self-start max-h-[calc(100vh-2rem)] overflow-y-auto">
+        {% include toc.html %}
+      </div>
     </div>
-  </div>
+  {% endif %}
 </div>
 
 <!-- Legacy sidebar for compatibility -->

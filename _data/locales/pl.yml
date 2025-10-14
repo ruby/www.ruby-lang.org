@@ -188,6 +188,8 @@ sidebar:
 
 languages_heading: 'Ta strona w innych językach:'
 
+toc:
+  heading: Spis treści
 credits:
   <a href="/pl/about/logo/">Logo Rubiego</a> jest Zastrzeżone &copy; 2006,
   Yukihiro Matsumoto; licencjonowane na warunkach <a href="http://creativecommons.org/licenses/by-sa/2.5/">CC

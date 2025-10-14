@@ -190,6 +190,8 @@ sidebar:
 
 languages_heading:
 
+toc:
+  heading: 目錄
 credits:
   <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。
 

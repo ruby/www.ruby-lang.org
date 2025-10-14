@@ -190,6 +190,9 @@ sidebar:
 
 languages_heading: 本站其他语言版本：
 
+toc:
+  heading: 目录
+
 credits:
   <a href="/zh_cn/about/website/">本站</a>由 Ruby 社区的成员共同维护。
 
