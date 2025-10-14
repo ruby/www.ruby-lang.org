@@ -8,27 +8,83 @@ layout: default
   {% assign translated_by = site.data.locales['en'].translated_by %}
 {% endif %}
 
-<div id="content-wrapper" class="prose">
-  {% include title.html %}
+<div class="container px-4 md:px-6 lg:px-8 py-6 md:py-8 lg:py-12">
+  <!-- 3-column layout -->
+  <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
+    <!-- Desktop Navigation (hidden on mobile) -->
+    <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0">
+      {% include navigation.html %}
+    </div>
 
-  <div id="content">
-    <p class="post-info">{{ page.date | posted_by:page.author }}{% if page.translator %}<br>
-                         {{ translated_by }} {{ page.translator }}{% endif %}</p>
+    <!-- Main content and TOC wrapper -->
+    <div class="flex-1 min-w-0 flex flex-col gap-6">
+      <!-- Navigation toggle button -->
+      <button id="nav-toggle" class="md:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
+        <span class="material-icons text-base">menu</span>
+        Navigation
+      </button>
 
-    {{ content }}
+      <!-- Mobile Navigation Panel -->
+      <div id="nav-mobile-panel" class="md:hidden hidden">
+        {% include navigation.html %}
+      </div>
+
+      <!-- TOC Section (Mobile/Tablet) -->
+      {% if site.data.locales[page.lang].toc %}
+        {% assign toc = site.data.locales[page.lang].toc %}
+      {% else %}
+        {% assign toc = site.data.locales['en'].toc %}
+      {% endif %}
+      <div class="lg:hidden bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 overflow-hidden mb-6 md:ml-4">
+        <!-- TOC toggle header -->
+        <button id="toc-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+          <span class="flex items-center gap-2 font-bold text-stone-900 dark:text-stone-100">
+            <span class="material-icons text-base">list</span>
+            {{ toc.heading }}
+          </span>
+          <span id="toc-chevron" class="material-icons text-base text-stone-500 dark:text-stone-400 transition-transform">expand_more</span>
+        </button>
+
+        <!-- TOC content panel -->
+        <div id="toc-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
+          <div class="px-4 pt-4 pb-6">
+            <div class="toc-content">
+              <!-- TOC will be dynamically generated here -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main content -->
+      <article id="content-wrapper" class="prose md:px-4 lg:px-6">
+        {% include title.html %}
+
+        <div id="content">
+          <p class="post-info">{{ page.date | posted_by:page.author }}{% if page.translator %}<br>
+                               {{ translated_by }} {{ page.translator }}{% endif %}</p>
+
+          {{ content }}
+        </div>
+      </article>
+    </div>
+
+    <!-- Desktop TOC (hidden below lg) -->
+    <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0 sticky top-4 self-start max-h-[calc(100vh-2rem)] overflow-y-auto">
+      {% include toc.html %}
+    </div>
   </div>
 </div>
-<hr class="hidden-modern" />
 
-<div id="sidebar-wrapper">
+<!-- Legacy sidebar for compatibility -->
+<div id="sidebar-wrapper" class="hidden">
   <div id="sidebar">
-    <div class="navigation">
-      {% if site.data.locales[page.lang].news %}
-        {% assign news = site.data.locales[page.lang].news %}
-      {% else %}
-        {% assign news = site.data.locales['en'].news %}
-      {% endif %}
+    {% if site.data.locales[page.lang].news %}
+      {% assign news = site.data.locales[page.lang].news %}
+    {% else %}
+      {% assign news = site.data.locales['en'].news %}
+    {% endif %}
 
+    <div class="navigation">
       <h3><strong>{{ news.recent_news }}</strong></h3>
 
       <ul class="menu">
@@ -48,4 +104,3 @@ layout: default
     <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
   </div>
 </div>
-<hr class="hidden-modern" />
