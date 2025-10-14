@@ -22,16 +22,19 @@
   // TOC toggle
   const tocToggle = document.getElementById('toc-toggle');
   const tocMobilePanel = document.getElementById('toc-mobile-panel');
+  const tocChevron = document.getElementById('toc-chevron');
 
   if (tocToggle && tocMobilePanel) {
     tocToggle.addEventListener('click', function() {
-      tocMobilePanel.classList.toggle('hidden');
-    });
+      const isHidden = tocMobilePanel.classList.toggle('hidden');
 
-    // Use event delegation to handle close button inside the mobile panel
-    tocMobilePanel.addEventListener('click', function(e) {
-      if (e.target.closest('#toc-close-btn')) {
-        tocMobilePanel.classList.add('hidden');
+      // Rotate chevron icon
+      if (tocChevron) {
+        if (isHidden) {
+          tocChevron.style.transform = 'rotate(0deg)';
+        } else {
+          tocChevron.style.transform = 'rotate(180deg)';
+        }
       }
     });
   }
@@ -44,6 +47,10 @@
       }
       if (tocMobilePanel && !tocMobilePanel.classList.contains('hidden')) {
         tocMobilePanel.classList.add('hidden');
+        // Reset chevron when closed
+        if (tocChevron) {
+          tocChevron.style.transform = 'rotate(0deg)';
+        }
       }
     }
   });
