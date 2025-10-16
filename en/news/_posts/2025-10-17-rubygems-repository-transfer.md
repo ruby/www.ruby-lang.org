@@ -18,7 +18,7 @@ To provide the community with long-term stability and continuity, the Ruby core 
 
 We want to emphasize the following important points:
 
-* Repository ownership and governance will transition to the Ruby core team to ensure long-term stability and alignment with the broader Ruby ecosystem.
+* Repository ownership will transition to the Ruby core team to ensure long-term stability and alignment with the broader Ruby ecosystem. It will continue being managed by Ruby Central, now jointly with the Ruby core team.
 * RubyGems and Bundler will remain open source under their current licenses, with no changes to licensing terms.
 * All existing contributors retain full copyright and authorship of their code contributions. This transition does not affect any contributor's intellectual property rights.
 * The collaborative, community-driven development process will continue as before, and we welcome contributions from all community members.
