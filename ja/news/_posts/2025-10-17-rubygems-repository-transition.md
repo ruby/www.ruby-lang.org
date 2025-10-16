@@ -1,9 +1,9 @@
 ---
 layout: news_post
-title: "RubyGems repository transfer"
+title: "The Transition of RubyGems Repository Ownership"
 author: "matz"
 translator:
-date: 2025-10-17 00:00:00 +0000
+date: 2025-10-17 12:00:00 +0000
 tags:
 lang: ja
 ---
