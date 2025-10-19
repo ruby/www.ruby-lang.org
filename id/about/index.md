@@ -246,7 +246,7 @@ di Ruby, dalam Bahasa Inggris), 22 Desember 2003.
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [sigil]: http://en.wikipedia.org/wiki/Sigil_%28computer_programming%29
 [jruby]: http://jruby.org
-[rubinius]: http://rubini.us
+[rubinius]: https://rubinius.com
 [truffleruby]: https://github.com/oracle/truffleruby
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net

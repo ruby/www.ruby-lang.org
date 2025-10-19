@@ -1,27 +1,29 @@
 ---
 layout: news_post
-title: "Ruby 3.4.6 已发布"
+title: "Ruby 3.4.7 已发布"
 author: k0kubun
 translator: "GAO Jun"
-date: 2025-09-16 00:00:00 +0000
+date: 2025-10-07 17:14:11 +0000
 lang: zh_cn
 ---
 
-Ruby 3.4.6 已发布。
+Ruby 3.4.7 已发布。
 
-此次定期更新修复了若干问题。
-详情可参考 [GitHub 发布说明](https://github.com/ruby/ruby/releases/tag/v3_4_6)。
+此次更新包含了 [修复导致 CVE-2025-61594 的 uri gem](/zh_cn/news/2025/10/07/uri-cve-2025-61594/)，
+详情可参考 [GitHub 发布说明](https://github.com/ruby/ruby/releases/tag/v3_4_7)。
+
+我们建议您更新 `uri` gem 版本。此次发布为那些想继续将其作为默认 gem 的用户提供了便利。
 
 ## 发布计划
 
 我们计划每2个月发布最新的 Ruby 稳定版本（目前是 Ruby 3.4）。
-Ruby 3.4.7 将发布于十一月，3.4.8 将发布于明年一月。
+Ruby 3.4.8 将于十二月发布，3.4.9 将于明年二月发布。
 
 如果存在会影响到大量用户的变更，我们可能会提前发布新版本，后续版本的发布计划也将进行相应变更。
 
 ## 下载
 
-{% assign release = site.data.releases | where: "version", "3.4.6" | first %}
+{% assign release = site.data.releases | where: "version", "3.4.7" | first %}
 
 * <{{ release.url.gz }}>
 
