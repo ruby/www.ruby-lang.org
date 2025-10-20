@@ -1,6 +1,6 @@
-/* Material Symbols Outlined */
-.material-symbols-outlined {
-  font-family: 'Material Symbols Outlined';
+/* Material Symbols Rounded */
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -20,7 +20,7 @@
 /* Dropdown icon */
 .icon-dropdown::before {
   content: 'keyboard_arrow_down';
-  font-family: 'Material Symbols Outlined';
+  font-family: 'Material Symbols Rounded';
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
