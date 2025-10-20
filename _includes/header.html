@@ -38,23 +38,17 @@
               <!-- Nested items with indent -->
               {% for nesteditem in subitem.submenu %}
               <a href="{{ nesteditem.url }}"
-                 class="flex items-center justify-between pl-8 pr-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
+                 class="flex items-center pl-8 pr-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
                  {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                {{ nesteditem.text }}
-                {% if nesteditem.external %}
-                <span class="material-icons text-xs">open_in_new</span>
-                {% endif %}
+                {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-semantic-icon-default" aria-hidden="true"></span>{% endif %}
               </a>
               {% endfor %}
               {% else %}
               <!-- Regular submenu item -->
               <a href="{{ subitem.url }}"
-                 class="flex items-center justify-between px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
+                 class="flex items-center px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
                  {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                {{ subitem.text }}
-                {% if subitem.external %}
-                <span class="material-icons text-xs">open_in_new</span>
-                {% endif %}
+                {{ subitem.text }}{% if subitem.external %}<span class="icon-external text-semantic-icon-default" aria-hidden="true"></span>{% endif %}
               </a>
               {% endif %}
               {% endfor %}
@@ -105,22 +99,16 @@
           <!-- Nested items with indent -->
           {% for nesteditem in subitem.submenu %}
           <a href="{{ nesteditem.url }}"
-             class="flex items-center justify-between pl-6 pr-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors"
+             class="flex items-center pl-6 pr-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors"
              {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-            {{ nesteditem.text }}
-            {% if nesteditem.external %}
-            <span class="material-icons text-xs">open_in_new</span>
-            {% endif %}
+            {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-semantic-icon-default" aria-hidden="true"></span>{% endif %}
           </a>
           {% endfor %}
           {% else %}
           <a href="{{ subitem.url }}"
-             class="flex items-center justify-between px-3 py-2 text-sm font-semibold text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
+             class="flex items-center px-3 py-2 text-sm font-semibold text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
              {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-            {{ subitem.text }}
-            {% if subitem.external %}
-            <span class="material-icons text-xs">open_in_new</span>
-            {% endif %}
+            {{ subitem.text }}{% if subitem.external %}<span class="icon-external text-semantic-icon-default" aria-hidden="true"></span>{% endif %}
           </a>
           {% endif %}
           {% endfor %}
