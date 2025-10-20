@@ -1,31 +1,31 @@
 ---
 layout: news_post
-title: "The Transition of RubyGems Repository Ownership"
+title: "RubyGems 저장소 소유권 이관"
 author: "matz"
-translator:
+translator: "shia"
 date: 2025-10-17 12:00:00 +0000
 tags:
-lang: en
+lang: ko
 ---
 
-Dear Ruby community,
+Ruby 커뮤니티 여러분께,
 
-RubyGems and Bundler are essential official clients for rubygems.org and the Ruby ecosystem, bundled with the Ruby language for many years and functioning as part of the standard library.
+RubyGems와 Bundler는 rubygems.org와 Ruby 생태계를 위한 필수적인 공식 클라이언트로, 수년간 Ruby 언어와 함께 번들로 제공되어 표준 라이브러리의 일부로 기능해 왔습니다.
 
-Despite this crucial role, RubyGems and Bundler have historically been developed outside the Ruby organization on GitHub, unlike other major components of the Ruby ecosystem.
+이러한 중요한 역할에도 불구하고, RubyGems와 Bundler는 Ruby 생태계의 다른 주요 구성 요소와는 달리, 역사적으로 GitHub의 Ruby 조직 외부에서 개발되어 왔습니다.
 
-To provide the community with long-term stability and continuity, the Ruby core team, led by Matz, has decided to assume stewardship of these projects from Ruby Central. We will continue their development in close collaboration with Ruby Central and the broader community.
+커뮤니티에 장기적인 안정성과 지속성을 제공하기 위해, Matz가 이끄는 Ruby 코어 팀은 Ruby Central로부터 이 프로젝트들의 관리를 맡기로 결정했습니다. 앞으로도 Ruby Central 및 더 넓은 커뮤니티와 긴밀히 협력하여 개발을 지속할 것입니다.
 
-We want to emphasize the following important points:
+다음과 같은 중요한 사항을 강조하고자 합니다:
 
-* Repository ownership will transition to the Ruby core team to ensure long-term stability and alignment with the broader Ruby ecosystem. It will continue being managed by Ruby Central, now jointly with the Ruby core team.
-* RubyGems and Bundler will remain open source under their current licenses, with no changes to licensing terms.
-* All existing contributors retain full copyright and authorship of their code contributions. This transition does not affect any contributor's intellectual property rights.
-* The collaborative, community-driven development process will continue as before, and we welcome contributions from all community members.
+* 저장소 소유권은 장기적인 안정성과 더 넓은 Ruby 생태계와의 조화를 보장하기 위해 Ruby 코어 팀으로 이관됩니다. 이는 Ruby Central이 계속 관리하되, 이제 Ruby 코어 팀과 함께 관리하게 됩니다.
+* RubyGems와 Bundler는 현재의 라이선스 하에서 오픈 소스로 유지되며, 라이선스 조항에는 변경 사항이 없습니다.
+* 기존의 모든 기여자는 자신의 코드 기여에 대한 저작권과 저작자 표시를 완전히 보유합니다. 이번 이관은 기여자의 지적 재산권에 영향을 미치지 않습니다.
+* 협력적이고 커뮤니티 주도적인 개발 프로세스는 이전과 같이 계속될 것이며, 모든 커뮤니티 구성원의 기여를 환영합니다.
 
-This transition represents our commitment to ensuring the continued health, stability, and growth of the Ruby ecosystem for years to come. We are grateful to Ruby Central for their years of dedicated stewardship, and we look forward to working together with all members of the Ruby community to build an even brighter future for Ruby.
+이번 이관은 앞으로도 수년간 Ruby 생태계의 지속적인 건강, 안정성, 성장을 보장하려는 우리의 약속을 나타냅니다. Ruby Central의 수년간 헌신적인 관리에 감사드리며, Ruby 커뮤니티의 모든 구성원과 함께 Ruby의 더욱 밝은 미래를 만들어가기를 기대합니다.
 
-Thank you for your continued support and contributions.
+지속적인 지원과 기여에 감사드립니다.
 
 Sincerely,
 
