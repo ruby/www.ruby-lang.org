@@ -21,7 +21,7 @@
         <div class="relative group h-full">
           {% if item.submenu %}
           <!-- Menu with dropdown -->
-          <button class="flex items-center gap-1 px-3 h-full text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
+          <button class="flex items-center gap-1 px-3 h-full text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
             {{ item.text }}
             <span class="icon-dropdown text-base text-semantic-icon-default" aria-hidden="true"></span>
           </button>
@@ -57,7 +57,7 @@
           {% else %}
           <!-- Simple link -->
           <a href="{{ item.url }}"
-             class="flex items-center px-3 h-full text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
+             class="flex items-center px-3 h-full text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
             {{ item.text }}
           </a>
           {% endif %}
@@ -85,7 +85,7 @@
       <div class="mb-2">
         {% if item.submenu %}
         <!-- Accordion style menu for mobile -->
-        <button class="mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+        <button class="mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm font-bold text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
           {{ item.text }}
           <span class="icon-dropdown text-base text-semantic-icon-default" aria-hidden="true"></span>
         </button>
@@ -115,7 +115,7 @@
         </div>
         {% else %}
         <a href="{{ item.url }}"
-           class="block px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+           class="block px-3 py-2 text-sm font-bold text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
           {{ item.text }}
         </a>
         {% endif %}
