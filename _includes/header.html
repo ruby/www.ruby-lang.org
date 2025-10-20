@@ -16,19 +16,19 @@
       </div>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-center gap-1">
+      <nav class="hidden lg:flex items-stretch gap-1 h-16">
         {% for item in nav_items %}
-        <div class="relative group">
+        <div class="relative group h-full">
           {% if item.submenu %}
           <!-- Menu with dropdown -->
-          <button class="flex items-center gap-1 px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+          <button class="flex items-center gap-1 px-3 h-full text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
             {{ item.text }}
             <span class="icon-dropdown text-base text-semantic-icon-default" aria-hidden="true"></span>
           </button>
 
           <!-- Dropdown menu -->
-          <div class="absolute left-0 mt-1 w-56 bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-            <div class="py-2">
+          <div class="absolute left-0 top-full w-64 bg-white dark:bg-stone-800 rounded-b-lg shadow-lg border border-t-0 border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <div class="pb-2">
               {% for subitem in item.submenu %}
               {% if subitem.submenu %}
               <!-- Section heading -->
@@ -38,7 +38,7 @@
               <!-- Nested items with indent -->
               {% for nesteditem in subitem.submenu %}
               <a href="{{ nesteditem.url }}"
-                 class="flex items-center pl-8 pr-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
+                 class="flex items-center pl-8 pr-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors {% if forloop.last %}mb-2{% endif %}"
                  {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
                 {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-semantic-icon-default" aria-hidden="true"></span>{% endif %}
               </a>
@@ -57,7 +57,7 @@
           {% else %}
           <!-- Simple link -->
           <a href="{{ item.url }}"
-             class="block px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+             class="flex items-center px-3 h-full text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
             {{ item.text }}
           </a>
           {% endif %}
@@ -99,7 +99,7 @@
           <!-- Nested items with indent -->
           {% for nesteditem in subitem.submenu %}
           <a href="{{ nesteditem.url }}"
-             class="flex items-center pl-6 pr-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors"
+             class="flex items-center pl-6 pr-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors {% if forloop.last %}mb-2{% endif %}"
              {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
             {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-semantic-icon-default" aria-hidden="true"></span>{% endif %}
           </a>
