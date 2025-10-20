@@ -1607,6 +1607,10 @@ body {
   padding-top: 1.5rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
