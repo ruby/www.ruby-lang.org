@@ -32,7 +32,7 @@
               {% for subitem in item.submenu %}
               {% if subitem.submenu %}
               <!-- Section heading -->
-              <div class="px-4 py-2 text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
+              <div class="px-4 py-3 text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
                 {{ subitem.text }}
               </div>
               <!-- Nested items with indent -->
@@ -99,7 +99,7 @@
           {% for subitem in item.submenu %}
           {% if subitem.submenu %}
           <!-- Section heading -->
-          <div class="px-3 py-2 text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
+          <div class="px-3 py-3 text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
             {{ subitem.text }}
           </div>
           <!-- Nested items with indent -->
