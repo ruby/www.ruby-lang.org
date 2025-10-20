@@ -23,7 +23,7 @@
           <!-- Menu with dropdown -->
           <button class="flex items-center gap-1 px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
             {{ item.text }}
-            <span class="material-icons text-base">expand_more</span>
+            <span class="icon-dropdown text-base text-semantic-icon-default" aria-hidden="true"></span>
           </button>
 
           <!-- Dropdown menu -->
@@ -93,7 +93,7 @@
         <!-- Accordion style menu for mobile -->
         <button class="mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
           {{ item.text }}
-          <span class="material-icons text-base">expand_more</span>
+          <span class="icon-dropdown text-base text-semantic-icon-default" aria-hidden="true"></span>
         </button>
         <div class="mobile-nav-submenu hidden pl-4 mt-1">
           {% for subitem in item.submenu %}

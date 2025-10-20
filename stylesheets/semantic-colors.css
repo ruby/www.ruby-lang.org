@@ -65,6 +65,9 @@
   --color-text-subtle: theme('colors.stone.500');
   --color-text-subtler: theme('colors.stone.400');
   --color-text-success: theme('colors.emerald.700');
+
+  /* Icon colors */
+  --color-icon-default: theme('colors.stone.500');
 }
 
 /* Dark mode */
@@ -109,4 +112,7 @@
   --color-text-subtle: theme('colors.stone.200');
   --color-text-subtler: theme('colors.stone.400');
   --color-text-success: theme('colors.emerald.400');
+
+  /* Icon colors */
+  --color-icon-default: theme('colors.stone.400');
 }

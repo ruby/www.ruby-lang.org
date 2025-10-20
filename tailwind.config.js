@@ -79,6 +79,9 @@ module.exports = {
           'text-subtler': 'var(--color-text-subtler)',
           'text-success': 'var(--color-text-success)',
 
+          // Icon colors
+          'icon-default': 'var(--color-icon-default)',
+
           // Code highlighting
           'code-blue': 'var(--code-blue)',
           'code-green': 'var(--code-green)',

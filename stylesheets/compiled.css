@@ -1259,16 +1259,8 @@ body {
   left: 0px;
 }
 
-.left-full {
-  left: 100%;
-}
-
 .right-0 {
   right: 0px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .top-4 {
@@ -1284,20 +1276,6 @@ body {
   margin-right: auto;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1308,10 +1286,6 @@ body {
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
 }
 
 .mt-1 {
@@ -1609,28 +1583,28 @@ body {
   padding-left: 1.25rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .pl-8 {
   padding-left: 2rem;
 }
 
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
-.pr-3 {
-  padding-right: 0.75rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-base {
@@ -1682,10 +1656,6 @@ body {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
 .text-semantic-text-link {
   color: var(--color-text-link);
 }
@@ -1713,6 +1683,10 @@ body {
 .text-stone-900 {
   --tw-text-opacity: 1;
   color: rgb(28 25 23 / var(--tw-text-opacity, 1));
+}
+
+.text-semantic-icon-default {
+  color: var(--color-icon-default);
 }
 
 .underline {
@@ -1874,16 +1848,8 @@ body {
   opacity: 0.8;
 }
 
-.group\/nested:hover .group-hover\/nested\:visible {
-  visibility: visible;
-}
-
 .group:hover .group-hover\:visible {
   visibility: visible;
-}
-
-.group\/nested:hover .group-hover\/nested\:opacity-100 {
-  opacity: 1;
 }
 
 .group:hover .group-hover\:opacity-100 {
