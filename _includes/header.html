@@ -6,17 +6,17 @@
 
 <header class="bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-700">
   <div class="container mx-auto">
-    <div class="flex items-center justify-between h-16 px-4">
+    <div class="flex items-center justify-between h-20 px-4">
       <!-- Logo -->
       <div class="flex items-center gap-2">
         <a href="/{{ page.lang }}/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <img src="/images/header-ruby-logo.png" alt="Ruby" class="h-8 w-8">
-          <span class="text-xl font-bold text-stone-900 dark:text-stone-50">Ruby</span>
+          <img src="/images/header-ruby-logo.svg" alt="Ruby" class="h-12 w-12">
+          <span class="text-4xl font-bold text-stone-900 dark:text-stone-50">Ruby</span>
         </a>
       </div>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-stretch gap-1 h-16">
+      <nav class="hidden lg:flex items-stretch gap-1 h-20">
         {% for item in nav_items %}
         <div class="relative group h-full">
           {% if item.submenu %}
