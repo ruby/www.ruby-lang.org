@@ -124,14 +124,14 @@ header_navigation:
   url: /zh_cn/community/
   submenu:
   - text: 社区
+    url: /zh_cn/community/
+  - text: 在线社区
     submenu:
-    - text: 邮件列表
-      url: /zh_cn/community/mailing-lists/
     - text: 用户组
       url: /zh_cn/community/user-groups/
     - text: 博客
       url: /zh_cn/community/weblogs/
-  - text: 活动
+  - text: 活动与会议
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/

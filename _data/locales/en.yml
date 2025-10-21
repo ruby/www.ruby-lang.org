@@ -125,14 +125,14 @@ header_navigation:
   url: /en/community/
   submenu:
   - text: Community
+    url: /en/community/
+  - text: Online Community
     submenu:
-    - text: Mailing Lists
-      url: /en/community/mailing-lists/
     - text: User Groups
       url: /en/community/user-groups/
     - text: Blogs and Newsletters
       url: /en/community/weblogs/
-  - text: Events
+  - text: Events & Conferences
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/

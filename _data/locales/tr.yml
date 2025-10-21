@@ -125,14 +125,14 @@ header_navigation:
   url: /tr/community/
   submenu:
   - text: Topluluk
+    url: /tr/community/
+  - text: Çevrimiçi Topluluk
     submenu:
-    - text: Mail Listeleri
-      url: /tr/community/mailing-lists/
     - text: Kullanıcı Grupları
       url: /tr/community/user-groups/
     - text: Web günlükleri
       url: /tr/community/weblogs/
-  - text: Etkinlikler
+  - text: Etkinlikler ve Konferanslar
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/

@@ -124,14 +124,14 @@ header_navigation:
   url: /id/community/
   submenu:
   - text: Komunitas
+    url: /id/community/
+  - text: Komunitas Online
     submenu:
-    - text: Mailing List
-      url: /id/community/mailing-lists/
     - text: Komunitas Pengguna
       url: /id/community/user-groups/
     - text: Blog
       url: /id/community/weblogs/
-  - text: Acara
+  - text: Acara & Konferensi
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/

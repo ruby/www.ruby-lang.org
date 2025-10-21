@@ -124,14 +124,14 @@ header_navigation:
   url: /bg/community/
   submenu:
   - text: Общност
+    url: /bg/community/
+  - text: Онлайн общност
     submenu:
-    - text: Пощенски списъци
-      url: /bg/community/mailing-lists/
     - text: Потребителски групи
       url: /bg/community/user-groups/
     - text: Блогове
       url: /bg/community/weblogs/
-  - text: Събития
+  - text: Събития и конференции
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/

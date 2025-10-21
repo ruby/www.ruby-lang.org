@@ -124,14 +124,14 @@ header_navigation:
   url: /vi/community/
   submenu:
   - text: Cộng đồng
+    url: /vi/community/
+  - text: Cộng đồng Trực tuyến
     submenu:
-    - text: Mailing Lists
-      url: /vi/community/mailing-lists/
     - text: Nhóm người dùng
       url: /vi/community/user-groups/
     - text: Weblogs
       url: /vi/community/weblogs/
-  - text: Sự kiện
+  - text: Sự kiện & Hội nghị
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/

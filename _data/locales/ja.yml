@@ -130,6 +130,8 @@ header_navigation:
   url: /ja/community/
   submenu:
   - text: コミュニティ
+    url: /ja/community/
+  - text: オンラインコミュニティ
     submenu:
     - text: Slack (ruby-jp)
       url: https://ruby-jp.github.io/
@@ -137,12 +139,10 @@ header_navigation:
     - text: Scrapbox (ruby-jp)
       url: https://scrapbox.io/ruby-jp/
       external: true
-    - text: メーリングリスト
-      url: /ja/community/mailing-lists/
     - text: Rubyコミュニティ (Doorkeeper)
       url: https://www.doorkeeper.jp/topics/ruby/groups
       external: true
-  - text: イベント
+  - text: イベント・カンファレンス
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/
