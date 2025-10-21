@@ -103,17 +103,23 @@ header_navigation:
 - text: Вклад
   url: /ru/community/ruby-core/
   submenu:
+  - text: Ядро Ruby
+    url: /ru/community/ruby-core/
+  - text: Руководство по репозиторию
+    url: /ru/documentation/repository-guide/
   - text: Почтовые рассылки
     url: /ru/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: Прочее
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Сообщество
   url: /ru/community/
   submenu:

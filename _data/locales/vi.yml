@@ -103,17 +103,23 @@ header_navigation:
 - text: Đóng góp
   url: /vi/community/ruby-core/
   submenu:
+  - text: Lõi Ruby
+    url: /vi/community/ruby-core/
+  - text: Hướng dẫn kho lưu trữ
+    url: /vi/documentation/repository-guide/
   - text: Mailing Lists
     url: /vi/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: Khác
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Cộng đồng
   url: /vi/community/
   submenu:

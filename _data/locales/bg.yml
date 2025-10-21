@@ -103,17 +103,23 @@ header_navigation:
 - text: Принос
   url: /bg/community/ruby-core/
   submenu:
+  - text: Ruby ядро
+    url: /bg/community/ruby-core/
+  - text: Ръководство за хранилището
+    url: /bg/documentation/repository-guide/
   - text: Пощенски списъци
     url: /bg/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: Други
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Общност
   url: /bg/community/
   submenu:

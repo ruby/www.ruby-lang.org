@@ -104,17 +104,23 @@ header_navigation:
 - text: Contribution
   url: /en/community/ruby-core/
   submenu:
+  - text: Ruby Core
+    url: /en/community/ruby-core/
+  - text: Repository Guide
+    url: /en/documentation/repository-guide/
   - text: Mailing Lists
     url: /en/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: Other
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Community
   url: /en/community/
   submenu:

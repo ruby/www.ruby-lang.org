@@ -104,17 +104,23 @@ header_navigation:
 - text: Katkıda Bulunun
   url: /tr/community/ruby-core/
   submenu:
+  - text: Ruby Core
+    url: /tr/community/ruby-core/
+  - text: Depo Rehberi
+    url: /tr/documentation/repository-guide/
   - text: Mail Listeleri
     url: /tr/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: Diğer
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Topluluk
   url: /tr/community/
   submenu:

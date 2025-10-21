@@ -103,17 +103,23 @@ header_navigation:
 - text: 기여하기
   url: /ko/community/ruby-core/
   submenu:
+  - text: Ruby 코어
+    url: /ko/community/ruby-core/
+  - text: 저장소 가이드
+    url: /ko/documentation/repository-guide/
   - text: 메일링 리스트
     url: /ko/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: 기타
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: 커뮤니티
   url: /ko/community/
   submenu:

@@ -103,17 +103,23 @@ header_navigation:
 - text: 贡献
   url: /zh_cn/community/ruby-core/
   submenu:
+  - text: Ruby 核心
+    url: /zh_cn/community/ruby-core/
+  - text: 仓库指南
+    url: /zh_cn/documentation/repository-guide/
   - text: 邮件列表
     url: /zh_cn/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: 其他
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: 社区
   url: /zh_cn/community/
   submenu:

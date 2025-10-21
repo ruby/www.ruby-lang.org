@@ -109,17 +109,23 @@ header_navigation:
 - text: コントリビューション
   url: /ja/dev/
   submenu:
+  - text: コア開発
+    url: /ja/dev/
+  - text: リポジトリガイド
+    url: /ja/documentation/repository-guide/
   - text: メーリングリスト
     url: /ja/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
+  - text: その他
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: コミュニティ
   url: /ja/community/
   submenu:
