@@ -18,6 +18,10 @@
 }
 
 /* Dropdown icon */
+.icon-dropdown {
+  color: transparent !important; /* Block text color inheritance */
+}
+
 .icon-dropdown::before {
   content: 'keyboard_arrow_down';
   font-family: 'Material Symbols Rounded';
@@ -33,6 +37,7 @@
   direction: ltr;
   position: relative;
   top: 3px;
+  color: var(--color-icon-default) !important; /* Default icon color */
   font-variation-settings:
     'FILL' 0,
     'wght' 200,
@@ -40,7 +45,16 @@
     'opsz' 20;
 }
 
+/* Hover state via group */
+.group:hover .icon-dropdown::before {
+  color: var(--color-text-hovered) !important;
+}
+
 /* External link icon */
+.icon-external {
+  color: inherit; /* Keep current link text color by default */
+}
+
 .icon-external::before {
   content: 'open_in_new';
   font-family: 'Material Symbols Rounded';
@@ -57,11 +71,17 @@
   position: relative;
   top: 2px;
   margin-left: 4px;
+  color: var(--color-icon-default); /* Default icon color */
   font-variation-settings:
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
     'opsz' 14;
+}
+
+/* Hover state via group */
+.group:hover .icon-external::before {
+  color: var(--color-text-hovered);
 }
 
 /* Check icon */
