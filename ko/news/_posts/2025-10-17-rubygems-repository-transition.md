@@ -10,7 +10,7 @@ lang: ko
 
 Ruby 커뮤니티 여러분께,
 
-RubyGems와 Bundler는 rubygems.org와 Ruby 생태계를 위한 필수적인 공식 클라이언트로, 수년간 Ruby 언어와 함께 번들로 제공되어 표준 라이브러리의 일부로 기능해 왔습니다.
+RubyGems와 Bundler는 rubygems.org와 Ruby 생태계를 위한 필수적인 공식 클라이언트로, 수년간 Ruby 언어와 함께 제공되어 표준 라이브러리의 일부로 기능해 왔습니다.
 
 이러한 중요한 역할에도 불구하고, RubyGems와 Bundler는 Ruby 생태계의 다른 주요 구성 요소와는 달리, 역사적으로 GitHub의 Ruby 조직 외부에서 개발되어 왔습니다.
 
