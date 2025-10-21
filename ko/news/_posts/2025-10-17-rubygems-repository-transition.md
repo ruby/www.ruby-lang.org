@@ -27,6 +27,6 @@ RubyGems와 Bundler는 rubygems.org와 Ruby 생태계를 위한 필수적인 공
 
 지속적인 지원과 기여에 감사드립니다.
 
-Sincerely,
+마음을 담아,
 
 Yukihiro Matsumoto, a.k.a. Matz
