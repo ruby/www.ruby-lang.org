@@ -51,6 +51,13 @@
 
       <!-- Footer Links -->
       <nav class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
+        {% if footer.links.security %}
+        <a href="{{ footer.links.security.url }}"
+           class="text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100 transition-colors">
+          {{ footer.links.security.text }}
+        </a>
+        {% endif %}
+
         {% if footer.links.about_website %}
         <a href="{{ footer.links.about_website.url }}"
            class="text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100 transition-colors">

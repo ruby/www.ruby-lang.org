@@ -253,6 +253,9 @@ footer:
     mailing_list:
       text: Почтовые рассылки
       url: /ru/community/mailing-lists/
+    security:
+      text: Безопасность
+      url: /ru/security/
     about_website:
       text: Об этом сайте
       url: /ru/about/website/

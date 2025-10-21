@@ -250,6 +250,9 @@ footer:
     mailing_list:
       text: Liste di Discussione
       url: /it/community/mailing-lists/
+    security:
+      text: Sicurezza
+      url: /it/security/
     about_website:
       text: Informazioni su questo sito web
       url: /it/about/website/

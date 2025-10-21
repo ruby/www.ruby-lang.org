@@ -250,6 +250,9 @@ footer:
     mailing_list:
       text: Пощенски списъци
       url: /bg/community/mailing-lists/
+    security:
+      text: Сигурност
+      url: /bg/security/
     about_website:
       text: За този сайт
       url: /bg/about/website/

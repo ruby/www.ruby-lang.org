@@ -254,6 +254,9 @@ footer:
     mailing_list:
       text: Mail Listeleri
       url: /tr/community/mailing-lists/
+    security:
+      text: Güvenlik
+      url: /tr/security/
     about_website:
       text: Bu Web Sitesi Hakkında
       url: /tr/about/website/

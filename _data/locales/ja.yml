@@ -265,6 +265,9 @@ footer:
     mailing_list:
       text: メーリングリスト
       url: /ja/community/mailing-lists/
+    security:
+      text: セキュリティ
+      url: /ja/security/
     about_website:
       text: このウェブサイトについて
       url: /ja/about/website/

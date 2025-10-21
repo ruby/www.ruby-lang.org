@@ -250,6 +250,9 @@ footer:
     mailing_list:
       text: Listas de E-mail
       url: /pt/community/mailing-lists/
+    security:
+      text: Segurança
+      url: /pt/security/
     about_website:
       text: Sobre Este Website
       url: /pt/about/website/

@@ -252,6 +252,9 @@ footer:
     mailing_list:
       text: Mailing Lists
       url: /vi/community/mailing-lists/
+    security:
+      text: Bảo mật
+      url: /vi/security/
     about_website:
       text: Về Trang Web Này
       url: /vi/about/website/

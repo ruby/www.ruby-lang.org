@@ -256,6 +256,9 @@ footer:
     mailing_list:
       text: Listy dyskusyjne
       url: /pl/community/mailing-lists/
+    security:
+      text: Bezpieczeństwo
+      url: /pl/security/
     about_website:
       text: O tej stronie internetowej
       url: /pl/about/website/

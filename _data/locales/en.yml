@@ -260,6 +260,9 @@ footer:
     mailing_list:
       text: Mailing Lists
       url: /en/community/mailing-lists/
+    security:
+      text: Security
+      url: /en/security/
     about_website:
       text: About This Website
       url: /en/about/website/

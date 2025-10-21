@@ -239,6 +239,9 @@ footer:
     mailing_list:
       text: 메일링 리스트
       url: /ko/community/mailing-lists/
+    security:
+      text: 보안
+      url: /ko/security/
     about_website:
       text: 이 웹사이트에 대해서
       url: /ko/about/website/

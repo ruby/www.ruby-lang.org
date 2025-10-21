@@ -251,6 +251,9 @@ footer:
     mailing_list:
       text: Listes de diffusion
       url: /fr/community/mailing-lists/
+    security:
+      text: Sécurité
+      url: /fr/security/
     about_website:
       text: À propos de ce site web
       url: /fr/about/website/

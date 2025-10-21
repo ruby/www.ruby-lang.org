@@ -239,6 +239,9 @@ footer:
     mailing_list:
       text: 郵件論壇
       url: /zh_tw/community/mailing-lists/
+    security:
+      text: 安全
+      url: /zh_tw/security/
     about_website:
       text: 關於本網站
       url: /zh_tw/about/website/

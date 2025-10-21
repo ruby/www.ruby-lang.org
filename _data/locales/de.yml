@@ -251,6 +251,9 @@ footer:
     mailing_list:
       text: Mailing-Listen
       url: /de/community/mailing-lists/
+    security:
+      text: Sicherheit
+      url: /de/security/
     about_website:
       text: Über diese Website
       url: /de/about/website/

@@ -240,6 +240,9 @@ footer:
     mailing_list:
       text: 邮件列表
       url: /zh_cn/community/mailing-lists/
+    security:
+      text: 安全
+      url: /zh_cn/security/
     about_website:
       text: 关于本网站
       url: /zh_cn/about/website/
