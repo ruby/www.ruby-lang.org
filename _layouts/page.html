@@ -42,29 +42,8 @@ layout: default
       </div>
 
       <!-- TOC Section (Mobile/Tablet) -->
-      {% if site.data.locales[page.lang].toc %}
-        {% assign toc = site.data.locales[page.lang].toc %}
-      {% else %}
-        {% assign toc = site.data.locales['en'].toc %}
-      {% endif %}
-      <div class="lg:hidden bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 overflow-hidden mb-6 md:ml-4">
-        <!-- TOC toggle header -->
-        <button id="toc-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
-          <span class="flex items-center gap-2 font-bold text-stone-900 dark:text-stone-100">
-            <span class="material-icons text-base">list</span>
-            {{ toc.heading }}
-          </span>
-          <span id="toc-chevron" class="material-icons text-base text-stone-500 dark:text-stone-400 transition-transform">expand_more</span>
-        </button>
-
-        <!-- TOC content panel -->
-        <div id="toc-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
-          <div class="px-4 pt-4 pb-6">
-            <div class="toc-content not-prose">
-              <!-- TOC will be dynamically generated here -->
-            </div>
-          </div>
-        </div>
+      <div class="lg:hidden mb-6 md:ml-4">
+        {% include toc.html %}
       </div>
 
       <!-- Main content -->
@@ -78,7 +57,7 @@ layout: default
     </div>
 
       <!-- Desktop TOC (hidden below lg) -->
-      <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0 sticky top-24 self-start max-h-[calc(100vh-8rem)] overflow-y-auto">
+      <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0 sticky top-24 self-start max-h-[calc(100vh-6rem)] overflow-y-auto">
         {% include toc.html %}
       </div>
     </div>
