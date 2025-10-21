@@ -50,6 +50,8 @@ header_navigation:
   submenu:
   - text: Ruby Hakkında
     url: /tr/about/
+  - text: Belgeler
+    url: /tr/documentation/
   - text: Başlamak
     submenu:
     - text: Yirmi Dakikada Ruby

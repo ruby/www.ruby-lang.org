@@ -49,6 +49,8 @@ header_navigation:
   submenu:
   - text: 關於 Ruby
     url: /zh_tw/about/
+  - text: 文件
+    url: /zh_tw/documentation/
   - text: 上手入門
     submenu:
     - text: 20 分鐘 Ruby 體驗

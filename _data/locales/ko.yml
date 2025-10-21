@@ -49,6 +49,8 @@ header_navigation:
   submenu:
   - text: Ruby에 대해서
     url: /ko/about/
+  - text: 문서
+    url: /ko/documentation/
   - text: 시작하기
     submenu:
     - text: 20분 가이드

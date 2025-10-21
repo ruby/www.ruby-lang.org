@@ -49,6 +49,8 @@ header_navigation:
   submenu:
   - text: Относно
     url: /bg/about/
+  - text: Документация
+    url: /bg/documentation/
   - text: Започнете
     submenu:
     - text: Ruby в 20 минути

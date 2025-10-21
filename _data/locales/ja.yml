@@ -52,6 +52,8 @@ header_navigation:
   submenu:
   - text: Rubyとは
     url: /ja/about/
+  - text: ドキュメント
+    url: /ja/documentation/
   - text: はじめよう
     submenu:
     - text: 20分ではじめるRuby

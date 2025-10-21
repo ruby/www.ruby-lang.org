@@ -49,6 +49,8 @@ header_navigation:
   submenu:
   - text: Về Ruby
     url: /vi/about/
+  - text: Tài liệu
+    url: /vi/documentation/
   - text: Nhập môn
     submenu:
     - text: Ruby trong 20 phút

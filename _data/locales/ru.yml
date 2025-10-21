@@ -49,6 +49,8 @@ header_navigation:
   submenu:
   - text: О Ruby
     url: /ru/about/
+  - text: Документация
+    url: /ru/documentation/
   - text: Начните сейчас
     submenu:
     - text: Ruby за двадцать минут

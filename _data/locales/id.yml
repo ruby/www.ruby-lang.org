@@ -49,6 +49,8 @@ header_navigation:
   submenu:
   - text: Tentang Ruby
     url: /id/about/
+  - text: Dokumentasi
+    url: /id/documentation/
   - text: Coba Sekarang
     submenu:
     - text: Menguasai Ruby dalam 20 Menit

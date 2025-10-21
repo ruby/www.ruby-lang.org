@@ -49,6 +49,8 @@ header_navigation:
   submenu:
   - text: A proposito di Ruby
     url: /it/about/
+  - text: Documentazione
+    url: /it/documentation/
   - text: Per iniziare
     submenu:
     - text: Ruby in venti minuti
