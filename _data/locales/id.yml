@@ -44,24 +44,22 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: Tentang Ruby
-  url: /id/about/
 - text: Dokumentasi
   url: /id/documentation/
   submenu:
-  - text: Coba Sekarang
+  - text: Dokumentasi
+    url: /id/documentation/
+  - text: Tentang Ruby
+    url: /id/about/
+  - text: Menguasai Ruby dalam 20 Menit
+    url: /id/documentation/quickstart/
+  - text: Dari Bahasa Pemrograman Lain ke Ruby
+    url: /id/documentation/ruby-from-other-languages/
+  - text: Coba Sekarang & Jelajahi
     submenu:
-    - text: Menguasai Ruby dalam 20 Menit
-      url: /id/documentation/quickstart/
-    - text: Dari Bahasa Pemrograman Lain ke Ruby
-      url: /id/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Jelajahi
-    submenu:
-    - text: Dokumentasi
-      url: /id/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true
@@ -71,6 +69,8 @@ header_navigation:
 - text: Pustaka
   url: /id/libraries/
   submenu:
+  - text: Pustaka
+    url: /id/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org
@@ -99,31 +99,35 @@ header_navigation:
 - text: Kontribusi
   url: /id/community/ruby-core/
   submenu:
+  - text: Ruby Core
+    url: /id/community/ruby-core/
+  - text: Panduan Repositori
+    url: /id/documentation/repository-guide/
   - text: Mailing List
     url: /id/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
-- text: Berita
-  url: /id/news/
+  - text: Lainnya
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Komunitas
   url: /id/community/
   submenu:
   - text: Komunitas
+    url: /id/community/
+  - text: Komunitas Online
     submenu:
-    - text: Mailing List
-      url: /id/community/mailing-lists/
     - text: Komunitas Pengguna
       url: /id/community/user-groups/
     - text: Blog
       url: /id/community/weblogs/
-  - text: Acara
+  - text: Acara & Konferensi
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/
@@ -131,6 +135,8 @@ header_navigation:
     - text: Ruby Conferences
       url: https://rubyconferences.org/
       external: true
+- text: Berita
+  url: /id/news/
 
 sidebar:
   get_started:
@@ -243,6 +249,9 @@ footer:
     mailing_list:
       text: Mailing List
       url: /id/community/mailing-lists/
+    security:
+      text: Keamanan
+      url: /id/security/
     about_website:
       text: Tentang Situs Web Ini
       url: /id/about/website/

@@ -44,24 +44,22 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: О Ruby
-  url: /ru/about/
 - text: Документация
   url: /ru/documentation/
   submenu:
-  - text: Начните сейчас
+  - text: Документация
+    url: /ru/documentation/
+  - text: О Ruby
+    url: /ru/about/
+  - text: Ruby за двадцать минут
+    url: /ru/documentation/quickstart/
+  - text: В Ruby из других языков
+    url: /ru/documentation/ruby-from-other-languages/
+  - text: Начните сейчас & Исследуйте
     submenu:
-    - text: Ruby за двадцать минут
-      url: /ru/documentation/quickstart/
-    - text: В Ruby из других языков
-      url: /ru/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Исследуйте
-    submenu:
-    - text: Документация
-      url: /ru/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true
@@ -71,6 +69,8 @@ header_navigation:
 - text: Библиотеки
   url: /ru/libraries/
   submenu:
+  - text: Библиотеки
+    url: /ru/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org
@@ -99,31 +99,35 @@ header_navigation:
 - text: Вклад
   url: /ru/community/ruby-core/
   submenu:
+  - text: Ядро Ruby
+    url: /ru/community/ruby-core/
+  - text: Руководство по репозиторию
+    url: /ru/documentation/repository-guide/
   - text: Почтовые рассылки
     url: /ru/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
-- text: Новости
-  url: /ru/news/
+  - text: Прочее
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Сообщество
   url: /ru/community/
   submenu:
   - text: Сообщество
+    url: /ru/community/
+  - text: Онлайн-сообщество
     submenu:
-    - text: Почтовые рассылки
-      url: /ru/community/mailing-lists/
     - text: Группы пользователей
       url: /ru/community/user-groups/
     - text: Блоги
       url: /ru/community/weblogs/
-  - text: События
+  - text: События и конференции
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/
@@ -131,6 +135,8 @@ header_navigation:
     - text: Ruby Conferences
       url: https://rubyconferences.org/
       external: true
+- text: Новости
+  url: /ru/news/
 
 sidebar:
   get_started:
@@ -243,6 +249,9 @@ footer:
     mailing_list:
       text: Почтовые рассылки
       url: /ru/community/mailing-lists/
+    security:
+      text: Безопасность
+      url: /ru/security/
     about_website:
       text: Об этом сайте
       url: /ru/about/website/

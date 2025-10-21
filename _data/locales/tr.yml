@@ -45,24 +45,22 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: Ruby Hakkında
-  url: /tr/about/
 - text: Belgeler
   url: /tr/documentation/
   submenu:
-  - text: Başlamak
+  - text: Belgeler
+    url: /tr/documentation/
+  - text: Ruby Hakkında
+    url: /tr/about/
+  - text: Yirmi Dakikada Ruby
+    url: /tr/documentation/quickstart/
+  - text: Diğer Dillerden Ruby'ye
+    url: /tr/documentation/ruby-from-other-languages/
+  - text: Başlamak & Keşfedin
     submenu:
-    - text: Yirmi Dakikada Ruby
-      url: /tr/documentation/quickstart/
-    - text: Diğer Dillerden Ruby'ye
-      url: /tr/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Keşfedin
-    submenu:
-    - text: Belgeler
-      url: /tr/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true
@@ -72,6 +70,8 @@ header_navigation:
 - text: Kütüphaneler
   url: /tr/libraries/
   submenu:
+  - text: Kütüphaneler
+    url: /tr/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org
@@ -100,31 +100,35 @@ header_navigation:
 - text: Katkıda Bulunun
   url: /tr/community/ruby-core/
   submenu:
+  - text: Ruby Core
+    url: /tr/community/ruby-core/
+  - text: Depo Rehberi
+    url: /tr/documentation/repository-guide/
   - text: Mail Listeleri
     url: /tr/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
-- text: Haberler
-  url: /tr/news/
+  - text: Diğer
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Topluluk
   url: /tr/community/
   submenu:
   - text: Topluluk
+    url: /tr/community/
+  - text: Çevrimiçi Topluluk
     submenu:
-    - text: Mail Listeleri
-      url: /tr/community/mailing-lists/
     - text: Kullanıcı Grupları
       url: /tr/community/user-groups/
     - text: Web günlükleri
       url: /tr/community/weblogs/
-  - text: Etkinlikler
+  - text: Etkinlikler ve Konferanslar
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/
@@ -132,6 +136,8 @@ header_navigation:
     - text: Ruby Conferences
       url: https://rubyconferences.org/
       external: true
+- text: Haberler
+  url: /tr/news/
 
 sidebar:
   get_started:
@@ -244,6 +250,9 @@ footer:
     mailing_list:
       text: Mail Listeleri
       url: /tr/community/mailing-lists/
+    security:
+      text: Güvenlik
+      url: /tr/security/
     about_website:
       text: Bu Web Sitesi Hakkında
       url: /tr/about/website/

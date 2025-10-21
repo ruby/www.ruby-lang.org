@@ -44,24 +44,22 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: Ruby에 대해서
-  url: /ko/about/
 - text: 문서
   url: /ko/documentation/
   submenu:
-  - text: 시작하기
+  - text: 문서
+    url: /ko/documentation/
+  - text: Ruby에 대해서
+    url: /ko/about/
+  - text: 20분 가이드
+    url: /ko/documentation/quickstart/
+  - text: 다른 언어에서 Ruby로
+    url: /ko/documentation/ruby-from-other-languages/
+  - text: 시작하기 & 탐색하기
     submenu:
-    - text: 20분 가이드
-      url: /ko/documentation/quickstart/
-    - text: 다른 언어에서 Ruby로
-      url: /ko/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: 탐색하기
-    submenu:
-    - text: 문서
-      url: /ko/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true
@@ -71,6 +69,8 @@ header_navigation:
 - text: 라이브러리
   url: /ko/libraries/
   submenu:
+  - text: 라이브러리
+    url: /ko/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org
@@ -99,31 +99,35 @@ header_navigation:
 - text: 기여하기
   url: /ko/community/ruby-core/
   submenu:
+  - text: Ruby 코어
+    url: /ko/community/ruby-core/
+  - text: 저장소 가이드
+    url: /ko/documentation/repository-guide/
   - text: 메일링 리스트
     url: /ko/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
-- text: 뉴스
-  url: /ko/news/
+  - text: 기타
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: 커뮤니티
   url: /ko/community/
   submenu:
   - text: 커뮤니티
+    url: /ko/community/
+  - text: 온라인 커뮤니티
     submenu:
-    - text: 메일링 리스트
-      url: /ko/community/mailing-lists/
     - text: 유저 그룹
       url: /ko/community/user-groups/
     - text: 블로그와 뉴스레터
       url: /ko/community/weblogs/
-  - text: 이벤트
+  - text: 이벤트 & 컨퍼런스
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/
@@ -131,6 +135,8 @@ header_navigation:
     - text: Ruby Conferences
       url: https://rubyconferences.org/
       external: true
+- text: 뉴스
+  url: /ko/news/
 
 sidebar:
   get_started:
@@ -229,6 +235,9 @@ footer:
     mailing_list:
       text: 메일링 리스트
       url: /ko/community/mailing-lists/
+    security:
+      text: 보안
+      url: /ko/security/
     about_website:
       text: 이 웹사이트에 대해서
       url: /ko/about/website/

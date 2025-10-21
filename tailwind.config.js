@@ -79,6 +79,9 @@ module.exports = {
           'text-subtler': 'var(--color-text-subtler)',
           'text-success': 'var(--color-text-success)',
 
+          // Icon colors
+          'icon-default': 'var(--color-icon-default)',
+
           // Code highlighting
           'code-blue': 'var(--code-blue)',
           'code-green': 'var(--code-green)',
@@ -148,7 +151,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        'default': ['"Noto Sans JP"', '"Plus Jakarta Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+        'default': ['"Plus Jakarta Sans"', '"Noto Sans JP"', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+        'logo': ['"Plus Jakarta Sans"', '"Noto Sans JP"', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
         'code': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
         'icon': ['"Material Icons"', 'sans-serif'],
       },

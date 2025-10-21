@@ -22,7 +22,7 @@ Displays current language and dropdown menu for switching languages
         English (en)
       {% endif %}
     </span>
-    <span class="material-icons text-base text-stone-700 dark:text-stone-300">expand_more</span>
+    <span class="icon-dropdown text-base" aria-hidden="true"></span>
   </button>
 
   <!-- Language dropdown -->
@@ -33,7 +33,7 @@ Displays current language and dropdown menu for switching languages
          class="flex items-center justify-between px-4 py-2 text-sm {% if lang.code == current_lang %}bg-stone-100 dark:bg-stone-700 text-stone-900 dark:text-stone-50 font-medium{% else %}text-stone-700 dark:text-stone-300{% endif %} hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
         <span>{{ lang.native_name }}</span>
         {% if lang.code == current_lang %}
-        <span class="material-icons text-base">check</span>
+        <span class="icon-check" aria-hidden="true"></span>
         {% endif %}
       </a>
       {% endfor %}

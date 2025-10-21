@@ -26,87 +26,95 @@
   --color-gold-800: #b8a44b;  /* gold-10 */
   --color-gold-900: #655a27;  /* gold-5 */
   /* Code highlighting colors */
-  --code-blue: theme('colors.blue.700');
-  --code-green: theme('colors.emerald.700');
-  --code-orange: theme('colors.amber.600');
-  --code-purple: theme('colors.purple.700');
-  --code-red: theme('colors.red.600');
+  --code-blue: #1d4ed8;
+  --code-green: #047857;
+  --code-orange: #d97706;
+  --code-purple: #7e22ce;
+  --code-red: #dc2626;
 
   /* Background colors */
-  --color-background-default: theme('colors.white');
-  --color-background-subtle: theme('colors.gray.100');
-  --color-background-subtler: theme('colors.gray.200');
-  --color-background-primary-action-enabled: theme('colors.ruby.600');
-  --color-background-primary-action-hovered: theme('colors.ruby.700');
-  --color-background-primary-action-pressed: theme('colors.ruby.800');
-  --color-background-secondary-action-enabled: theme('colors.gray.50');
-  --color-background-secondary-action-hovered: theme('colors.gray.100');
-  --color-background-secondary-action-pressed: theme('colors.gray.200');
+  --color-background-default: #ffffff;
+  --color-background-subtle: #f3f4f6;
+  --color-background-subtler: #e5e7eb;
+  --color-background-primary-action-enabled: #e62923;
+  --color-background-primary-action-hovered: #b8211c;
+  --color-background-primary-action-pressed: #8a1915;
+  --color-background-secondary-action-enabled: #f9fafb;
+  --color-background-secondary-action-hovered: #f3f4f6;
+  --color-background-secondary-action-pressed: #e5e7eb;
 
   /* Border colors */
-  --color-border-bold: theme('colors.gray.700');
-  --color-border-default: theme('colors.gray.900');
-  --color-border-inverse: theme('colors.gray.50');
-  --color-border-subtle: theme('colors.gray.300');
-  --color-border-primary-action-focused: theme('colors.ruby.600');
-  --color-border-secondary-action-enabled: theme('colors.gray.400');
-  --color-border-secondary-action-focused: theme('colors.gray.700');
+  --color-border-bold: #374151;
+  --color-border-default: #111827;
+  --color-border-inverse: #f9fafb;
+  --color-border-subtle: #d1d5db;
+  --color-border-primary-action-focused: #e62923;
+  --color-border-secondary-action-enabled: #9ca3af;
+  --color-border-secondary-action-focused: #374151;
 
   /* Text colors */
-  --color-text-danger: theme('colors.red.600');
-  --color-text-default: theme('colors.gray.900');
-  --color-text-hovered: theme('colors.ruby.600');
-  --color-text-link: theme('colors.ruby.600');
-  --color-text-link-hovered: theme('colors.ruby.700');
-  --color-text-primary: theme('colors.ruby.600');
-  --color-text-primary-action: theme('colors.white');
-  --color-text-secondary: theme('colors.gold.700');
-  --color-text-secondary-action: theme('colors.gray.900');
-  --color-text-subtle: theme('colors.stone.500');
-  --color-text-subtler: theme('colors.stone.400');
-  --color-text-success: theme('colors.emerald.700');
+  --color-text-danger: #dc2626;
+  --color-text-default: #111827;
+  --color-text-hovered: #e62923;
+  --color-text-link: #e62923;
+  --color-text-link-hovered: #b8211c;
+  --color-text-primary: #e62923;
+  --color-text-primary-action: #ffffff;
+  --color-text-secondary: #ccb758;
+  --color-text-secondary-action: #111827;
+  --color-text-subtle: #78716c;
+  --color-text-subtler: #a8a29e;
+  --color-text-success: #047857;
+
+  /* Icon colors */
+  --color-icon-default: #78716c;
 }
 
 /* Dark mode */
-.dark {
-  /* Code highlighting colors */
-  --code-blue: theme('colors.blue.400');
-  --code-green: theme('colors.emerald.400');
-  --code-orange: theme('colors.amber.400');
-  --code-purple: theme('colors.purple.400');
-  --code-red: theme('colors.red.400');
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Code highlighting colors */
+    --code-blue: #60a5fa;
+    --code-green: #34d399;
+    --code-orange: #fbbf24;
+    --code-purple: #c084fc;
+    --code-red: #f87171;
 
-  /* Background colors */
-  --color-background-default: theme('colors.gray.900');
-  --color-background-subtle: theme('colors.gray.800');
-  --color-background-subtler: theme('colors.gray.700');
-  --color-background-primary-action-enabled: theme('colors.ruby.500');
-  --color-background-primary-action-hovered: theme('colors.ruby.400');
-  --color-background-primary-action-pressed: theme('colors.ruby.300');
-  --color-background-secondary-action-enabled: theme('colors.gray.900');
-  --color-background-secondary-action-hovered: theme('colors.gray.800');
-  --color-background-secondary-action-pressed: theme('colors.gray.700');
+    /* Background colors */
+    --color-background-default: #111827;
+    --color-background-subtle: #1f2937;
+    --color-background-subtler: #374151;
+    --color-background-primary-action-enabled: #eb544f;
+    --color-background-primary-action-hovered: #f07f7b;
+    --color-background-primary-action-pressed: #f5a9a7;
+    --color-background-secondary-action-enabled: #111827;
+    --color-background-secondary-action-hovered: #1f2937;
+    --color-background-secondary-action-pressed: #374151;
 
-  /* Border colors */
-  --color-border-bold: theme('colors.gray.100');
-  --color-border-default: theme('colors.gray.600');
-  --color-border-inverse: theme('colors.gray.900');
-  --color-border-subtle: theme('colors.gray.700');
-  --color-border-primary-action-focused: theme('colors.ruby.700');
-  --color-border-secondary-action-enabled: theme('colors.gray.600');
-  --color-border-secondary-action-focused: theme('colors.gray.100');
+    /* Border colors */
+    --color-border-bold: #f3f4f6;
+    --color-border-default: #4b5563;
+    --color-border-inverse: #111827;
+    --color-border-subtle: #374151;
+    --color-border-primary-action-focused: #b8211c;
+    --color-border-secondary-action-enabled: #4b5563;
+    --color-border-secondary-action-focused: #f3f4f6;
 
-  /* Text colors */
-  --color-text-danger: theme('colors.red.400');
-  --color-text-default: theme('colors.white');
-  --color-text-hovered: theme('colors.ruby.500');
-  --color-text-link: theme('colors.ruby.500');
-  --color-text-link-hovered: theme('colors.ruby.400');
-  --color-text-primary: theme('colors.ruby.500');
-  --color-text-primary-action: theme('colors.white');
-  --color-text-secondary: theme('colors.gold.600');
-  --color-text-secondary-action: theme('colors.gray.50');
-  --color-text-subtle: theme('colors.stone.200');
-  --color-text-subtler: theme('colors.stone.400');
-  --color-text-success: theme('colors.emerald.400');
+    /* Text colors */
+    --color-text-danger: #f87171;
+    --color-text-default: #ffffff;
+    --color-text-hovered: #eb544f;
+    --color-text-link: #eb544f;
+    --color-text-link-hovered: #f07f7b;
+    --color-text-primary: #eb544f;
+    --color-text-primary-action: #ffffff;
+    --color-text-secondary: #e1c95d;
+    --color-text-secondary-action: #f9fafb;
+    --color-text-subtle: #e7e5e4;
+    --color-text-subtler: #a8a29e;
+    --color-text-success: #34d399;
+
+    /* Icon colors */
+    --color-icon-default: #a8a29e;
+  }
 }

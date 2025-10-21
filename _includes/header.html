@@ -4,65 +4,51 @@
   {% assign nav_items = site.data.locales['en'].header_navigation %}
 {% endif %}
 
-<header class="bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-700">
+<header class="fixed top-0 left-0 right-0 w-full bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-700 z-50">
   <div class="container mx-auto">
-    <div class="flex items-center justify-between h-16 px-4">
+    <div class="flex items-center justify-between h-20 px-4">
       <!-- Logo -->
       <div class="flex items-center gap-2">
         <a href="/{{ page.lang }}/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <img src="/images/header-ruby-logo.png" alt="Ruby" class="h-8 w-8">
-          <span class="text-xl font-bold text-stone-900 dark:text-stone-50">Ruby</span>
+          <img src="/images/header-ruby-logo.svg" alt="Ruby" class="h-12 w-12">
+          <span class="text-4xl font-extrabold font-logo text-stone-900 dark:text-stone-50">Ruby</span>
         </a>
       </div>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-center gap-1">
+      <nav class="hidden lg:flex items-stretch gap-1 h-20">
         {% for item in nav_items %}
-        <div class="relative group">
+        <div class="relative group h-full">
           {% if item.submenu %}
           <!-- Menu with dropdown -->
-          <button class="flex items-center gap-1 px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+          <button class="group flex items-center gap-1 px-3 h-full text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered group-hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
             {{ item.text }}
-            <span class="material-icons text-base">expand_more</span>
+            <span class="icon-dropdown text-base" aria-hidden="true"></span>
           </button>
 
           <!-- Dropdown menu -->
-          <div class="absolute left-0 mt-1 w-56 bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-            <div class="py-2">
+          <div class="absolute left-0 top-full w-64 bg-white dark:bg-stone-800 rounded-b-lg shadow-lg border border-t-0 border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <div class="pb-2">
               {% for subitem in item.submenu %}
               {% if subitem.submenu %}
-              <!-- Nested submenu -->
-              <div class="relative group/nested">
-                <button class="w-full flex items-center justify-between px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
-                  {{ subitem.text }}
-                  <span class="material-icons text-base">chevron_right</span>
-                </button>
-
-                <!-- Nested dropdown -->
-                <div class="absolute left-full top-0 ml-1 w-56 bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible transition-all duration-200">
-                  <div class="py-2">
-                    {% for nesteditem in subitem.submenu %}
-                    <a href="{{ nesteditem.url }}"
-                       class="flex items-center justify-between px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
-                       {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                      {{ nesteditem.text }}
-                      {% if nesteditem.external %}
-                      <span class="material-icons text-xs">open_in_new</span>
-                      {% endif %}
-                    </a>
-                    {% endfor %}
-                  </div>
-                </div>
+              <!-- Section heading -->
+              <div class="px-4 pt-4 pb-2 text-xs font-semibold text-stone-500 dark:text-stone-400 {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
+                {{ subitem.text }}
               </div>
+              <!-- Nested items with indent -->
+              {% for nesteditem in subitem.submenu %}
+              <a href="{{ nesteditem.url }}"
+                 class="group flex items-center pl-8 pr-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors {% if forloop.last %}mb-2{% endif %}"
+                 {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
+              </a>
+              {% endfor %}
               {% else %}
               <!-- Regular submenu item -->
               <a href="{{ subitem.url }}"
-                 class="flex items-center justify-between px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
+                 class="group flex items-center px-4 py-4 text-sm font-semibold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
                  {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                {{ subitem.text }}
-                {% if subitem.external %}
-                <span class="material-icons text-xs">open_in_new</span>
-                {% endif %}
+                {{ subitem.text }}{% if subitem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
               </a>
               {% endif %}
               {% endfor %}
@@ -71,7 +57,7 @@
           {% else %}
           <!-- Simple link -->
           <a href="{{ item.url }}"
-             class="block px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-stone-50 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+             class="flex items-center px-3 h-full text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
             {{ item.text }}
           </a>
           {% endif %}
@@ -86,7 +72,7 @@
 
         <!-- Mobile menu button -->
         <button id="mobile-menu-toggle" class="lg:hidden p-2 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md">
-          <span class="material-icons">menu</span>
+          <span class="icon-menu" aria-hidden="true"></span>
         </button>
       </div>
     </div>
@@ -99,46 +85,37 @@
       <div class="mb-2">
         {% if item.submenu %}
         <!-- Accordion style menu for mobile -->
-        <button class="mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+        <button class="group mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
           {{ item.text }}
-          <span class="material-icons text-base">expand_more</span>
+          <span class="icon-dropdown text-base" aria-hidden="true"></span>
         </button>
         <div class="mobile-nav-submenu hidden pl-4 mt-1">
           {% for subitem in item.submenu %}
           {% if subitem.submenu %}
-          <div class="mb-1">
-            <button class="mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
-              {{ subitem.text }}
-              <span class="material-icons text-base">expand_more</span>
-            </button>
-            <div class="mobile-nav-submenu hidden pl-4 mt-1">
-              {% for nesteditem in subitem.submenu %}
-              <a href="{{ nesteditem.url }}"
-                 class="flex items-center justify-between px-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors"
-                 {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                {{ nesteditem.text }}
-                {% if nesteditem.external %}
-                <span class="material-icons text-xs">open_in_new</span>
-                {% endif %}
-              </a>
-              {% endfor %}
-            </div>
+          <!-- Section heading -->
+          <div class="px-3 pt-4 pb-2 text-xs font-semibold text-stone-500 dark:text-stone-400 {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
+            {{ subitem.text }}
           </div>
+          <!-- Nested items with indent -->
+          {% for nesteditem in subitem.submenu %}
+          <a href="{{ nesteditem.url }}"
+             class="group flex items-center pl-6 pr-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors {% if forloop.last %}mb-2{% endif %}"
+             {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
+          </a>
+          {% endfor %}
           {% else %}
           <a href="{{ subitem.url }}"
-             class="flex items-center justify-between px-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors"
+             class="group flex items-center px-3 py-4 text-sm font-semibold text-stone-600 dark:text-stone-400 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
              {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-            {{ subitem.text }}
-            {% if subitem.external %}
-            <span class="material-icons text-xs">open_in_new</span>
-            {% endif %}
+            {{ subitem.text }}{% if subitem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
           </a>
           {% endif %}
           {% endfor %}
         </div>
         {% else %}
         <a href="{{ item.url }}"
-           class="block px-3 py-2 text-sm font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+           class="block px-3 py-2 text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
           {{ item.text }}
         </a>
         {% endif %}

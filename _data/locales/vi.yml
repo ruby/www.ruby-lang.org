@@ -44,24 +44,22 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: Về Ruby
-  url: /vi/about/
 - text: Tài liệu
   url: /vi/documentation/
   submenu:
-  - text: Nhập môn
+  - text: Tài liệu
+    url: /vi/documentation/
+  - text: Về Ruby
+    url: /vi/about/
+  - text: Ruby trong 20 phút
+    url: /vi/documentation/quickstart/
+  - text: Ruby từ những ngôn ngữ khác
+    url: /vi/documentation/ruby-from-other-languages/
+  - text: Nhập môn & Khám phá
     submenu:
-    - text: Ruby trong 20 phút
-      url: /vi/documentation/quickstart/
-    - text: Ruby từ những ngôn ngữ khác
-      url: /vi/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Khám phá
-    submenu:
-    - text: Tài liệu
-      url: /vi/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true
@@ -71,6 +69,8 @@ header_navigation:
 - text: Thư viện
   url: /vi/libraries/
   submenu:
+  - text: Thư viện
+    url: /vi/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org
@@ -99,31 +99,35 @@ header_navigation:
 - text: Đóng góp
   url: /vi/community/ruby-core/
   submenu:
+  - text: Lõi Ruby
+    url: /vi/community/ruby-core/
+  - text: Hướng dẫn kho lưu trữ
+    url: /vi/documentation/repository-guide/
   - text: Mailing Lists
     url: /vi/community/mailing-lists/
-  - text: ruby/ruby
-    url: https://github.com/ruby/ruby
-    external: true
-  - text: Wiki
-    url: https://github.com/ruby/ruby/wiki
-    external: true
-  - text: Ruby Issue Tracking System
-    url: https://bugs.ruby-lang.org/
-    external: true
-- text: Tin tức
-  url: /vi/news/
+  - text: Khác
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
 - text: Cộng đồng
   url: /vi/community/
   submenu:
   - text: Cộng đồng
+    url: /vi/community/
+  - text: Cộng đồng Trực tuyến
     submenu:
-    - text: Mailing Lists
-      url: /vi/community/mailing-lists/
     - text: Nhóm người dùng
       url: /vi/community/user-groups/
     - text: Weblogs
       url: /vi/community/weblogs/
-  - text: Sự kiện
+  - text: Sự kiện & Hội nghị
     submenu:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/
@@ -131,6 +135,8 @@ header_navigation:
     - text: Ruby Conferences
       url: https://rubyconferences.org/
       external: true
+- text: Tin tức
+  url: /vi/news/
 
 sidebar:
   get_started:
@@ -242,6 +248,9 @@ footer:
     mailing_list:
       text: Mailing Lists
       url: /vi/community/mailing-lists/
+    security:
+      text: Bảo mật
+      url: /vi/security/
     about_website:
       text: Về Trang Web Này
       url: /vi/about/website/
