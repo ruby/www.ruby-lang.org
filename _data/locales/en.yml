@@ -45,11 +45,11 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: What's Ruby
-  url: /en/about/
 - text: Docs
   url: /en/documentation/
   submenu:
+  - text: What's Ruby
+    url: /en/about/
   - text: Get Started
     submenu:
     - text: Ruby in Twenty Minutes

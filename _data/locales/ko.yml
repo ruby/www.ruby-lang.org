@@ -44,11 +44,11 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: Ruby에 대해서
-  url: /ko/about/
 - text: 문서
   url: /ko/documentation/
   submenu:
+  - text: Ruby에 대해서
+    url: /ko/about/
   - text: 시작하기
     submenu:
     - text: 20분 가이드

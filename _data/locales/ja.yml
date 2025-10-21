@@ -47,11 +47,11 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: Rubyとは
-  url: /ja/about/
 - text: ドキュメント
   url: /ja/documentation/
   submenu:
+  - text: Rubyとは
+    url: /ja/about/
   - text: はじめよう
     submenu:
     - text: 20分ではじめるRuby

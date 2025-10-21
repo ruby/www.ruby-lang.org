@@ -44,11 +44,11 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: Về Ruby
-  url: /vi/about/
 - text: Tài liệu
   url: /vi/documentation/
   submenu:
+  - text: Về Ruby
+    url: /vi/about/
   - text: Nhập môn
     submenu:
     - text: Ruby trong 20 phút

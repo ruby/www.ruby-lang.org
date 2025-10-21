@@ -44,11 +44,11 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: O języku Ruby
-  url: /pl/about/
 - text: Dokumentacja
   url: /pl/documentation/
   submenu:
+  - text: O języku Ruby
+    url: /pl/about/
   - text: Zacznij
     submenu:
     - text: Ruby w 20 Minut

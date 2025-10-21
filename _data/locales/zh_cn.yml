@@ -44,11 +44,11 @@ header_navigation:
     - text: Bundler
       url: https://bundler.io/
       external: true
-- text: 关于 Ruby
-  url: /zh_cn/about/
 - text: 文档
   url: /zh_cn/documentation/
   submenu:
+  - text: 关于 Ruby
+    url: /zh_cn/about/
   - text: 入门
     submenu:
     - text: 20 分钟体验 Ruby
