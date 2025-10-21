@@ -73,6 +73,8 @@ header_navigation:
 - text: Thư viện
   url: /vi/libraries/
   submenu:
+  - text: Thư viện
+    url: /vi/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org

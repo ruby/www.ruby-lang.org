@@ -73,6 +73,8 @@ header_navigation:
 - text: Módulos
   url: /pt/libraries/
   submenu:
+  - text: Módulos
+    url: /pt/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org

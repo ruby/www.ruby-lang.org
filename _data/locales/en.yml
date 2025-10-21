@@ -74,6 +74,8 @@ header_navigation:
 - text: Libraries
   url: /en/libraries/
   submenu:
+  - text: Libraries
+    url: /en/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org

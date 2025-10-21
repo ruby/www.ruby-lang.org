@@ -79,6 +79,8 @@ header_navigation:
 - text: ライブラリ
   url: /ja/libraries/
   submenu:
+  - text: ライブラリ
+    url: /ja/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org

@@ -73,6 +73,8 @@ header_navigation:
 - text: Библиотеки
   url: /bg/libraries/
   submenu:
+  - text: Библиотеки
+    url: /bg/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org

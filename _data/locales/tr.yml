@@ -74,6 +74,8 @@ header_navigation:
 - text: Kütüphaneler
   url: /tr/libraries/
   submenu:
+  - text: Kütüphaneler
+    url: /tr/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org

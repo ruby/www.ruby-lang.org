@@ -73,6 +73,8 @@ header_navigation:
 - text: 代码库
   url: /zh_cn/libraries/
   submenu:
+  - text: 代码库
+    url: /zh_cn/libraries/
   - text: RubyGems
     submenu:
     - text: RubyGems.org
