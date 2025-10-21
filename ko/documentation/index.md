@@ -93,6 +93,9 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [DevDocs.io][40]
 : 온라인 API 문서입니다.
 
+[Dash][41]
+: 오프라인 API 문서 브라우저입니다 (macOS)
+
 [Ruby QuickRef][42]
 : 빠른 Ruby 참조 문서입니다.
 
@@ -215,6 +218,7 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 [38]: https://learncodethehardway.org/ruby/
 [39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
+[41]: https://kapeli.com/dash
 [42]: https://www.zenspider.com/ruby/quickref.html
 [43]: https://rubyreferences.github.io/
 [44]: https://rubystyle.guide/

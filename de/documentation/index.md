@@ -64,10 +64,13 @@ Ruby-Programmieren sicher nützlich sein werden.
 : Die Referenzdokumentation für Ruby, Gems und auf GitHub gehostete
   Ruby-Projekte.
 
+[Dash][13]
+: Offline-API-Dokumentationsbrowser (macOS)
+
 ### Weitere Informationen
 
-[Ruby-Doc.org][13] ist eine große Quelle von englischsprachigen
-Dokumenten zum Thema Ruby. Das [Rubywiki][14] ist ein Wiki mit vielen
+[Ruby-Doc.org][14] ist eine große Quelle von englischsprachigen
+Dokumenten zum Thema Ruby. Das [Rubywiki][15] ist ein Wiki mit vielen
 deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [Community](/de/community/) zur Verfügung.
 
@@ -83,5 +86,6 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [10]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [12]: http://www.rubydoc.info/
-[13]: http://ruby-doc.org
-[14]: http://wiki.ruby-portal.de
+[13]: https://kapeli.com/dash
+[14]: http://ruby-doc.org
+[15]: http://wiki.ruby-portal.de
