@@ -1271,6 +1271,14 @@ body {
   top: 100%;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -1350,6 +1358,10 @@ body {
 
 .max-h-\[calc\(100vh-2rem\)\] {
   max-height: calc(100vh - 2rem);
+}
+
+.max-h-\[calc\(100vh-8rem\)\] {
+  max-height: calc(100vh - 8rem);
 }
 
 .w-12 {
@@ -1634,6 +1646,10 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .font-logo {

@@ -6,6 +6,11 @@
           box-sizing: border-box;
  }
 
+/* Fixed header scroll offset */
+html {
+  scroll-padding-top: 6rem; /* 96px - header height (80px) + extra spacing */
+}
+
 
 /* a {
   color: #445488;
