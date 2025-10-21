@@ -116,8 +116,6 @@ header_navigation:
   - text: Ruby Issue Tracking System
     url: https://bugs.ruby-lang.org/
     external: true
-- text: ニュース
-  url: /ja/news/
 - text: コミュニティ
   url: /ja/community/
   submenu:
@@ -156,6 +154,8 @@ header_navigation:
     - text: Rubyビジネス・コモンズ
       url: https://www.facebook.com/rubybizcommons
       external: true
+- text: ニュース
+  url: /ja/news/
 
 sidebar:
   get_started:

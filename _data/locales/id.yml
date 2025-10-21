@@ -110,8 +110,6 @@ header_navigation:
   - text: Ruby Issue Tracking System
     url: https://bugs.ruby-lang.org/
     external: true
-- text: Berita
-  url: /id/news/
 - text: Komunitas
   url: /id/community/
   submenu:
@@ -131,6 +129,8 @@ header_navigation:
     - text: Ruby Conferences
       url: https://rubyconferences.org/
       external: true
+- text: Berita
+  url: /id/news/
 
 sidebar:
   get_started:
