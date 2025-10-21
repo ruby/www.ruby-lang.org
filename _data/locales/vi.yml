@@ -47,23 +47,19 @@ header_navigation:
 - text: Tài liệu
   url: /vi/documentation/
   submenu:
-  - text: Về Ruby
-    url: /vi/about/
   - text: Tài liệu
     url: /vi/documentation/
-  - text: Nhập môn
+  - text: Về Ruby
+    url: /vi/about/
+  - text: Ruby trong 20 phút
+    url: /vi/documentation/quickstart/
+  - text: Ruby từ những ngôn ngữ khác
+    url: /vi/documentation/ruby-from-other-languages/
+  - text: Nhập môn & Khám phá
     submenu:
-    - text: Ruby trong 20 phút
-      url: /vi/documentation/quickstart/
-    - text: Ruby từ những ngôn ngữ khác
-      url: /vi/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Khám phá
-    submenu:
-    - text: Tài liệu
-      url: /vi/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true

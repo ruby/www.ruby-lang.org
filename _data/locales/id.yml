@@ -47,23 +47,19 @@ header_navigation:
 - text: Dokumentasi
   url: /id/documentation/
   submenu:
-  - text: Tentang Ruby
-    url: /id/about/
   - text: Dokumentasi
     url: /id/documentation/
-  - text: Coba Sekarang
+  - text: Tentang Ruby
+    url: /id/about/
+  - text: Menguasai Ruby dalam 20 Menit
+    url: /id/documentation/quickstart/
+  - text: Dari Bahasa Pemrograman Lain ke Ruby
+    url: /id/documentation/ruby-from-other-languages/
+  - text: Coba Sekarang & Jelajahi
     submenu:
-    - text: Menguasai Ruby dalam 20 Menit
-      url: /id/documentation/quickstart/
-    - text: Dari Bahasa Pemrograman Lain ke Ruby
-      url: /id/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Jelajahi
-    submenu:
-    - text: Dokumentasi
-      url: /id/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true

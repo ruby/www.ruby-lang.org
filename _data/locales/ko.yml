@@ -47,23 +47,19 @@ header_navigation:
 - text: 문서
   url: /ko/documentation/
   submenu:
-  - text: Ruby에 대해서
-    url: /ko/about/
   - text: 문서
     url: /ko/documentation/
-  - text: 시작하기
+  - text: Ruby에 대해서
+    url: /ko/about/
+  - text: 20분 가이드
+    url: /ko/documentation/quickstart/
+  - text: 다른 언어에서 Ruby로
+    url: /ko/documentation/ruby-from-other-languages/
+  - text: 시작하기 & 탐색하기
     submenu:
-    - text: 20분 가이드
-      url: /ko/documentation/quickstart/
-    - text: 다른 언어에서 Ruby로
-      url: /ko/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: 탐색하기
-    submenu:
-    - text: 문서
-      url: /ko/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true

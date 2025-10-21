@@ -48,23 +48,19 @@ header_navigation:
 - text: Belgeler
   url: /tr/documentation/
   submenu:
-  - text: Ruby Hakkında
-    url: /tr/about/
   - text: Belgeler
     url: /tr/documentation/
-  - text: Başlamak
+  - text: Ruby Hakkında
+    url: /tr/about/
+  - text: Yirmi Dakikada Ruby
+    url: /tr/documentation/quickstart/
+  - text: Diğer Dillerden Ruby'ye
+    url: /tr/documentation/ruby-from-other-languages/
+  - text: Başlamak & Keşfedin
     submenu:
-    - text: Yirmi Dakikada Ruby
-      url: /tr/documentation/quickstart/
-    - text: Diğer Dillerden Ruby'ye
-      url: /tr/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Keşfedin
-    submenu:
-    - text: Belgeler
-      url: /tr/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true

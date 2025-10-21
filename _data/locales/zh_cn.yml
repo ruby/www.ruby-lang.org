@@ -47,23 +47,19 @@ header_navigation:
 - text: 文档
   url: /zh_cn/documentation/
   submenu:
-  - text: 关于 Ruby
-    url: /zh_cn/about/
   - text: 文档
     url: /zh_cn/documentation/
-  - text: 入门
+  - text: 关于 Ruby
+    url: /zh_cn/about/
+  - text: 20 分钟体验 Ruby
+    url: /zh_cn/documentation/quickstart/
+  - text: 从其它语言转到 Ruby
+    url: /zh_cn/documentation/ruby-from-other-languages/
+  - text: 入门 & 探索
     submenu:
-    - text: 20 分钟体验 Ruby
-      url: /zh_cn/documentation/quickstart/
-    - text: 从其它语言转到 Ruby
-      url: /zh_cn/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: 探索
-    submenu:
-    - text: 文档
-      url: /zh_cn/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true

@@ -47,23 +47,19 @@ header_navigation:
 - text: Documentação
   url: /pt/documentation/
   submenu:
-  - text: Sobre Ruby
-    url: /pt/about/
   - text: Documentação
     url: /pt/documentation/
-  - text: Primeiros passos
+  - text: Sobre Ruby
+    url: /pt/about/
+  - text: Ruby em Vinte Minutos
+    url: /pt/documentation/quickstart/
+  - text: Ruby a partir de outras linguagens
+    url: /pt/documentation/ruby-from-other-languages/
+  - text: Primeiros passos & Explorar
     submenu:
-    - text: Ruby em Vinte Minutos
-      url: /pt/documentation/quickstart/
-    - text: Ruby a partir de outras linguagens
-      url: /pt/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Explorar
-    submenu:
-    - text: Documentação
-      url: /pt/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true

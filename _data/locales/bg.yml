@@ -47,23 +47,19 @@ header_navigation:
 - text: Документация
   url: /bg/documentation/
   submenu:
-  - text: Относно
-    url: /bg/about/
   - text: Документация
     url: /bg/documentation/
-  - text: Започнете
+  - text: Относно
+    url: /bg/about/
+  - text: Ruby в 20 минути
+    url: /bg/documentation/quickstart/
+  - text: Ruby от други езици
+    url: /bg/documentation/ruby-from-other-languages/
+  - text: Започнете & Изследвайте
     submenu:
-    - text: Ruby в 20 минути
-      url: /bg/documentation/quickstart/
-    - text: Ruby от други езици
-      url: /bg/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: Изследвайте
-    submenu:
-    - text: Документация
-      url: /bg/documentation/
     - text: Ruby Reference Manual
       url: https://docs.ruby-lang.org/en/3.4/
       external: true

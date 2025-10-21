@@ -50,23 +50,19 @@ header_navigation:
 - text: ドキュメント
   url: /ja/documentation/
   submenu:
-  - text: Rubyとは
-    url: /ja/about/
   - text: ドキュメント
     url: /ja/documentation/
-  - text: はじめよう
+  - text: Rubyとは
+    url: /ja/about/
+  - text: 20分ではじめるRuby
+    url: /ja/documentation/quickstart/
+  - text: 他言語からのRuby入門
+    url: /ja/documentation/ruby-from-other-languages/
+  - text: はじめよう・探求しよう
     submenu:
-    - text: 20分ではじめるRuby
-      url: /ja/documentation/quickstart/
-    - text: 他言語からのRuby入門
-      url: /ja/documentation/ruby-from-other-languages/
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-  - text: 探求しよう
-    submenu:
-    - text: ドキュメント
-      url: /ja/documentation/
     - text: Ruby リファレンスマニュアル
       url: https://docs.ruby-lang.org/ja/3.4/doc/index.html
       external: true
