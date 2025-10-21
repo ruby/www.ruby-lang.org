@@ -18,10 +18,6 @@
 }
 
 /* Dropdown icon */
-.icon-dropdown {
-  color: transparent !important; /* Block text color inheritance */
-}
-
 .icon-dropdown::before {
   content: 'keyboard_arrow_down';
   font-family: 'Material Symbols Rounded';
@@ -37,7 +33,7 @@
   direction: ltr;
   position: relative;
   top: 3px;
-  color: var(--color-icon-default) !important; /* Default icon color */
+  color: var(--color-icon-default); /* Default icon color */
   font-variation-settings:
     'FILL' 0,
     'wght' 200,
@@ -47,14 +43,10 @@
 
 /* Hover state via group */
 .group:hover .icon-dropdown::before {
-  color: var(--color-text-hovered) !important;
+  color: var(--color-text-hovered);
 }
 
 /* External link icon */
-.icon-external {
-  color: inherit; /* Keep current link text color by default */
-}
-
 .icon-external::before {
   content: 'open_in_new';
   font-family: 'Material Symbols Rounded';
@@ -77,6 +69,7 @@
     'wght' 400,
     'GRAD' 0,
     'opsz' 14;
+
 }
 
 /* Hover state via group */
@@ -123,5 +116,29 @@
     'FILL' 0,
     'wght' 200,
     'GRAD' 0,
-    'opsz' 20;
+    'opsz' 24;
+}
+
+/* Lists icon for TOC */
+.icon-lists::before {
+  content: 'lists';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  color: var(--color-icon-default);
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24;
 }

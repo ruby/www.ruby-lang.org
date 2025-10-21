@@ -31,7 +31,7 @@
   }
 
   function buildTOCHTML(headings) {
-    let html = '<ul class="space-y-2 text-sm list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">';
+    let html = '<ul class="space-y-3 text-sm list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">';
     let currentLevel = 2;
 
     headings.forEach(heading => {
@@ -40,12 +40,12 @@
       const id = heading.id;
 
       if (level > currentLevel) {
-        html += '<ul class="space-y-2 pl-4 mt-2 list-disc marker:text-stone-400 dark:marker:text-stone-500">';
+        html += '<ul class="space-y-3 pl-4 mt-2 list-disc marker:text-stone-400 dark:marker:text-stone-500">';
       } else if (level < currentLevel) {
         html += '</ul>';
       }
 
-      html += `<li class="mb-2"><a href="#${id}" class="toc-link text-stone-700 dark:text-stone-300 no-underline transition-colors" data-heading-id="${id}">${text}</a></li>`;
+      html += `<li class="mb-3"><a href="#${id}" class="toc-link text-stone-700 dark:text-stone-300 no-underline transition-colors" data-heading-id="${id}">${text}</a></li>`;
       currentLevel = level;
     });
 
