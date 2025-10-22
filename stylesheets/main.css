@@ -11,17 +11,6 @@ html {
   scroll-padding-top: 6rem; /* 96px - header height (80px) + extra spacing */
 }
 
-
-/* a {
-  color: #445488;
-  text-decoration: underline;
-} */
-
-p {
-  margin: 20px 0;
-  text-rendering: optimizeLegibility;
-}
-
 p.warning {
   color: #CC342D;
 }
