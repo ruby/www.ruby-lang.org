@@ -223,6 +223,7 @@ news:
   monthly_archives: 按月份彙整
   yearly_archive_link: "%Y 年彙整"
   monthly_archive_link: "%Y 年 %-m 月彙整"
+  select_year: "--- 選擇年份 ---"
 
 footer:
   links:

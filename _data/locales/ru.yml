@@ -237,6 +237,7 @@ news:
   monthly_archives: Архивы по месяцам
   yearly_archive_link: Архивы %Y
   monthly_archive_link: "%B %Y"
+  select_year: "--- Выберите год ---"
 
 footer:
   links:

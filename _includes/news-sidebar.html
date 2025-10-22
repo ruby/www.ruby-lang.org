@@ -1,0 +1,51 @@
+{% if site.data.locales[page.lang].news %}
+  {% assign locales = site.data.locales[page.lang].news %}
+{% else %}
+  {% assign locales = site.data.locales['en'].news %}
+{% endif %}
+
+{% if site.data.locales[page.lang].sidebar %}
+  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
+{% else %}
+  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
+{% endif %}
+
+<div class="bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 lg:bg-transparent lg:dark:bg-transparent lg:border-0 lg:rounded-none p-4 pb-6 lg:p-0">
+  <!-- Yearly Archives Section -->
+  <div class="pb-8 border-b border-stone-200 dark:border-stone-700">
+    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+      <span class="icon-calendar" aria-hidden="true"></span>
+      {{ locales.yearly_archives }}
+    </h3>
+    <div class="relative group">
+      <button class="flex items-center justify-between w-full px-4 py-2 text-sm border border-stone-300 dark:border-stone-600 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
+        <span class="text-stone-700 dark:text-stone-300">{{ locales.select_year }}</span>
+        <span class="icon-dropdown text-base" aria-hidden="true"></span>
+      </button>
+
+      <!-- Archive year dropdown -->
+      <div class="absolute left-0 mt-1 w-full max-h-96 overflow-y-auto bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+        <div class="py-2">
+          {% for year in page.years %}
+          <a href="{{ year[0] }}/" class="block px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+            {{ year[1] }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Syndicate Section -->
+  <div class="pt-6">
+    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+      <span class="icon-rss-feed" aria-hidden="true"></span>
+      {{ syndicate.text }}
+    </h3>
+    <p>
+      <a href="{{ syndicate.recent_news.url }}" class="text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered transition-colors">
+        {{ syndicate.recent_news.text }}
+      </a>
+    </p>
+  </div>
+</div>

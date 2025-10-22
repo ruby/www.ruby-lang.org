@@ -234,6 +234,7 @@ news:
   monthly_archives: Arquivos por Mês
   yearly_archive_link: Arquivos de %Y
   monthly_archive_link: "%B %Y"
+  select_year: "--- Selecionar ano ---"
 
 footer:
   links:

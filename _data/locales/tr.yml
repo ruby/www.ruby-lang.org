@@ -238,6 +238,7 @@ news:
   monthly_archives: Aylara göre Arşivler
   yearly_archive_link: "%Y Arşivleri"
   monthly_archive_link: "%B %Y"
+  select_year: "--- Yıl seçin ---"
 
 footer:
   links:

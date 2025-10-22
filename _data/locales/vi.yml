@@ -236,6 +236,7 @@ news:
   monthly_archives: Lưu trữ bằng Tháng
   yearly_archive_link: Lưu trữ %Y
   monthly_archive_link: "%B %Y"
+  select_year: "--- Chọn năm ---"
 
 footer:
   links:

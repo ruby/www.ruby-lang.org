@@ -1350,14 +1350,14 @@ body{
 
 .prose :where(.post-info):not(:where([class~="not-prose"],[class~="not-prose"] *)){
   color: #78716c;
-  font-size: 0.8125rem;
-  line-height: 1rem;
-  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 1rem;
 }
 
 @media (prefers-color-scheme: dark){
   .prose :where(.post-info):not(:where([class~="not-prose"],[class~="not-prose"] *)){
-    color: #e7e5e4;
+    color: #a8a29e;
   }
 }
 
@@ -1438,6 +1438,10 @@ body{
   margin-bottom: 1.5rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .mt-1{
   margin-top: 0.25rem;
 }
@@ -1446,8 +1450,16 @@ body{
   margin-top: 0.5rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .block{
@@ -1460,6 +1472,10 @@ body{
 
 .flex{
   display: flex;
+}
+
+.inline-flex{
+  display: inline-flex;
 }
 
 .table{
@@ -1496,6 +1512,10 @@ body{
 
 .max-h-\[calc\(100vh-8rem\)\]{
   max-height: calc(100vh - 8rem);
+}
+
+.min-h-\[calc\(100vh-10rem\)\]{
+  min-height: calc(100vh - 10rem);
 }
 
 .w-12{
@@ -1545,6 +1565,11 @@ body{
 
 .border-collapse{
   border-collapse: collapse;
+}
+
+.rotate-90{
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform{
@@ -1807,6 +1832,16 @@ body{
   font-family: "Plus Jakarta Sans", "Noto Sans JP", ui-sans-serif, system-ui, -apple-system, sans-serif;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -2021,6 +2056,30 @@ body{
   color: rgb(168 162 158 );
 }
 
+.first\:mt-8:first-child{
+  margin-top: 2rem;
+}
+
+.first\:border-t:first-child{
+  border-top-width: 1px;
+}
+
+.first\:pt-8:first-child{
+  padding-top: 2rem;
+}
+
+.last\:mb-0:last-child{
+  margin-bottom: 0px;
+}
+
+.last\:border-b-0:last-child{
+  border-bottom-width: 0px;
+}
+
+.last\:pb-0:last-child{
+  padding-bottom: 0px;
+}
+
 .hover\:bg-stone-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity, 1));
@@ -2147,6 +2206,10 @@ body{
 
   .lg\:bg-transparent{
     background-color: transparent;
+  }
+
+  .lg\:p-0{
+    padding: 0px;
   }
 
   .lg\:px-0{

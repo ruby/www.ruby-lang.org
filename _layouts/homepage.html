@@ -18,29 +18,45 @@ javascript:
 {% endif %}
 
 {% for post in site.categories[page.lang] limit:number_of_excerpts %}
-<div class="post">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<div class="not-prose pb-8 mb-8 border-b border-stone-200 dark:border-stone-700 first:pt-8 first:mt-8 first:border-t last:border-b-0 last:mb-0 last:pb-0">
+  <h3 class="text-3xl font-bold mb-4">
+    <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered transition-colors">
+      {{ post.title }}
+    </a>
+  </h3>
 
-  {{ post.excerpt | markdownify }}
+  <div class="text-stone-900 dark:text-stone-300">
+    {{ post.excerpt | markdownify }}
+  </div>
 
-  <p class="post-link"><a href="{{ post.url }}">{{ news.continue }}</a></p>
+  <p class="mt-1">
+    <a href="{{ post.url }}" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center">
+      <span class="icon-double-arrow-right" aria-hidden="true"></span>
+      {{ news.continue }}
+    </a>
+  </p>
 
-  <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+  <p class="text-sm text-stone-500 dark:text-stone-400 mt-4">{{ post.date | posted_by:post.author }}</p>
 </div>
 {% endfor %}
 
-<div id="news">
-  <h3>{{ news.other_news }}</h3>
-  <ul>
+<div id="news" class="not-prose mt-8">
+  <h3 class="text-2xl font-bold text-stone-900 dark:text-stone-100 mb-4">{{ news.other_news }}</h3>
+  <ul class="space-y-3 list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500 mb-6">
     {% for post in site.categories[page.lang] offset:number_of_excerpts limit:number_of_other %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br>
-      <span class="post-info">{{ post.date | posted_by:post.author }}</span>
+      <a href="{{ post.url }}" class="text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered transition-colors">
+        {{ post.title }}
+      </a><br>
+      <span class="text-sm text-stone-500 dark:text-stone-400">{{ post.date | posted_by:post.author }}</span>
     </li>
     {% endfor %}
   </ul>
 
-  <p class="more">
-    <a href="news/">{{ news.more_news }}</a>
+  <p>
+    <a href="news/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center">
+      <span class="icon-double-arrow-right" aria-hidden="true"></span>
+      {{ news.more_news }}
+    </a>
   </p>
 </div>

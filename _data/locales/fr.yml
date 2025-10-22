@@ -235,6 +235,7 @@ news:
   monthly_archives: Archives par mois
   yearly_archive_link: Actualités de %Y
   monthly_archive_link: "%m/%Y"
+  select_year: "--- Sélectionner une année ---"
 
 footer:
   links:
