@@ -273,6 +273,15 @@ module.exports = {
             'code::after': {
               content: '""',
             },
+            '.post-info': {
+              color: '#78716c',            // stone-500 (light mode)
+              fontSize: '0.875rem',        // 14px (text-sm)
+              lineHeight: '1.25rem',       // 20px
+              marginTop: '1rem',           // 16px (mt-4)
+              '@media (prefers-color-scheme: dark)': {
+                color: '#a8a29e',          // stone-400 (dark mode)
+              },
+            },
           },
         },
       }),

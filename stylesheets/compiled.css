@@ -1348,6 +1348,19 @@ body{
   line-height: 1.8rem;
 }
 
+.prose :where(.post-info):not(:where([class~="not-prose"],[class~="not-prose"] *)){
+  color: #78716c;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 1rem;
+}
+
+@media (prefers-color-scheme: dark){
+  .prose :where(.post-info):not(:where([class~="not-prose"],[class~="not-prose"] *)){
+    color: #a8a29e;
+  }
+}
+
 .visible{
   visibility: visible;
 }
