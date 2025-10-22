@@ -190,3 +190,27 @@
     'GRAD' 0,
     'opsz' 24;
 }
+
+/* Double arrow right icon for "Continue reading" link */
+.icon-double-arrow-right::before {
+  content: 'keyboard_double_arrow_right';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 20;
+}

@@ -43,9 +43,14 @@ layout: default
 
             {{ post.excerpt | markdownify }}
 
-            <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
+            <p class="mt-1">
+              <a href="{{ post.url }}" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center">
+                <span class="icon-double-arrow-right" aria-hidden="true"></span>
+                {{ locales.continue }}
+              </a>
+            </p>
 
-            <p>{{ post.date | posted_by:post.author }}</p>
+            <p class="text-sm text-stone-500 dark:text-stone-400 mt-4">{{ post.date | posted_by:post.author }}</p>
           </div>
           {% endfor %}
         </div>
