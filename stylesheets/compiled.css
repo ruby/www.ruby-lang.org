@@ -2055,6 +2055,18 @@ body{
   color: rgb(168 162 158 );
 }
 
+.first\:mt-8:first-child{
+  margin-top: 2rem;
+}
+
+.first\:border-t:first-child{
+  border-top-width: 1px;
+}
+
+.first\:pt-8:first-child{
+  padding-top: 2rem;
+}
+
 .last\:mb-0:last-child{
   margin-bottom: 0px;
 }
