@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "The Transition of RubyGems Repository Ownership"
+title: "RubyGemsリポジトリ所有権の移行"
 author: "matz"
 translator:
 date: 2025-10-17 12:00:00 +0000
