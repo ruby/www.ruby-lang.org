@@ -41,7 +41,9 @@ layout: default
               </a>
             </h3>
 
-            {{ post.excerpt | markdownify }}
+            <div class="text-stone-900 dark:text-stone-300">
+              {{ post.excerpt | markdownify }}
+            </div>
 
             <p class="mt-1">
               <a href="{{ post.url }}" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center">
