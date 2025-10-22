@@ -4,7 +4,12 @@
     <meta charset="utf-8">
 
     {% if page.title != null %}
+      {% capture homepage_path %}/{{ page.lang }}/{% endcapture %}
+      {% if page.url == homepage_path %}
     <title>{{ page.title }}</title>
+      {% else %}
+    <title>{{ page.title }} | Ruby</title>
+      {% endif %}
     {% else %}
     <title>Ruby Programming Language</title>
     {% endif %}
