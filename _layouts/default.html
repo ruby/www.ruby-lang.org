@@ -37,11 +37,26 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     {% include rss_discovery.html %}
 
+    <!-- Apply theme immediately to prevent flash -->
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme-preference') || 'auto';
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else if (theme === 'light') {
+          document.documentElement.classList.remove('dark');
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/page.js"></script>
     <script type="text/javascript" src="/javascripts/navigation-toggle.js" defer></script>
     <script type="text/javascript" src="/javascripts/header-navigation.js" defer></script>
     <script type="text/javascript" src="/javascripts/toc.js" defer></script>
+    <script type="text/javascript" src="/javascripts/theme-toggle.js" defer></script>
     {% if layout.javascript != null %}
     {% for javascript in layout.javascript %}
     <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
