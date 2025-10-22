@@ -43,9 +43,9 @@ layout: default
 
             {{ post.excerpt | markdownify }}
 
-            <p class="post-link"><a href="{{ post.url }}">{{ locales.continue }}</a></p>
+            <p><a href="{{ post.url }}">{{ locales.continue }}</a></p>
 
-            <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+            <p>{{ post.date | posted_by:post.author }}</p>
           </div>
           {% endfor %}
         </div>
