@@ -2039,11 +2039,6 @@ body{
   color: var(--color-text-link-hovered);
 }
 
-.hover\:text-stone-900:hover{
-  --tw-text-opacity: 1;
-  color: rgb(28 25 23 / var(--tw-text-opacity, 1));
-}
-
 .hover\:opacity-80:hover{
   opacity: 0.8;
 }
@@ -2267,9 +2262,8 @@ body{
     color: rgb(147 197 253 / var(--tw-text-opacity, 1));
   }
 
-  .dark\:hover\:text-stone-100:hover{
-    --tw-text-opacity: 1;
-    color: rgb(245 245 244 / var(--tw-text-opacity, 1));
+  .dark\:hover\:text-semantic-text-hovered:hover{
+    color: var(--color-text-hovered);
   }
 }
 
