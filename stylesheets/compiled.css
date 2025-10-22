@@ -1434,6 +1434,10 @@ body{
   margin-bottom: 1rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .mb-6{
   margin-bottom: 1.5rem;
 }
@@ -2037,6 +2041,10 @@ body{
 
 .hover\:text-semantic-text-link-hovered:hover{
   color: var(--color-text-link-hovered);
+}
+
+.hover\:underline:hover{
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-80:hover{

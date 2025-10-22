@@ -162,7 +162,31 @@
   color: var(--color-icon-default);
   font-variation-settings:
     'FILL' 0,
-    'wght' 400,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* RSS Feed icon for News sidebar */
+.icon-rss-feed::before {
+  content: 'rss_feed';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  color: var(--color-icon-default);
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
     'GRAD' 0,
     'opsz' 24;
 }

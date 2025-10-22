@@ -12,15 +12,15 @@
 
 <div class="bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 lg:bg-transparent lg:dark:bg-transparent lg:border-0 lg:rounded-none p-4 lg:p-0">
   <!-- Yearly Archives Section -->
-  <div class="mb-6">
-    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-4 flex items-center gap-2">
+  <div class="pb-8 border-b border-stone-200 dark:border-stone-700">
+    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
       <span class="icon-calendar" aria-hidden="true"></span>
       {{ locales.yearly_archives }}
     </h3>
-    <ul class="space-y-2">
+    <ul class="space-y-3 list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">
       {% for year in page.years %}
       <li>
-        <a href="{{ year[0] }}/" class="text-semantic-link hover:text-semantic-link-hover hover:underline transition-colors">
+        <a href="{{ year[0] }}/" class="text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered transition-colors">
           {{ year[1] }}
         </a>
       </li>
@@ -29,10 +29,13 @@
   </div>
 
   <!-- Syndicate Section -->
-  <div>
-    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-4">{{ syndicate.text }}</h3>
+  <div class="pt-6">
+    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+      <span class="icon-rss-feed" aria-hidden="true"></span>
+      {{ syndicate.text }}
+    </h3>
     <p>
-      <a href="{{ syndicate.recent_news.url }}" class="text-semantic-link hover:text-semantic-link-hover hover:underline transition-colors">
+      <a href="{{ syndicate.recent_news.url }}" class="text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered transition-colors">
         {{ syndicate.recent_news.text }}
       </a>
     </p>
