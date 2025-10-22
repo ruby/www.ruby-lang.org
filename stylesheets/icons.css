@@ -221,7 +221,7 @@
   font-family: 'Material Symbols Rounded';
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
+  font-size: 24px;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -229,8 +229,10 @@
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  position: relative;
+  top: 2px;
   font-variation-settings:
-    'FILL' 0,
+    'FILL' 1,
     'wght' 300,
     'GRAD' 0,
     'opsz' 24;
@@ -241,7 +243,7 @@
   font-family: 'Material Symbols Rounded';
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
+  font-size: 24px;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -249,8 +251,10 @@
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  position: relative;
+  top: 2px;
   font-variation-settings:
-    'FILL' 0,
+    'FILL' 1,
     'wght' 300,
     'GRAD' 0,
     'opsz' 24;
@@ -261,7 +265,7 @@
   font-family: 'Material Symbols Rounded';
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
+  font-size: 24px;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -269,8 +273,10 @@
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  position: relative;
+  top: 2px;
   font-variation-settings:
-    'FILL' 0,
+    'FILL' 1,
     'wght' 300,
     'GRAD' 0,
     'opsz' 24;
