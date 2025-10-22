@@ -8,38 +8,54 @@ layout: default
   {% assign locales = site.data.locales['en'].news %}
 {% endif %}
 
-<div id="content-wrapper" class="prose">
-  {% include title.html %}
-
-  <div id="content">
-    {% for post in page.posts %}
-    <div class="post prose">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-      {{ post.excerpt | markdownify }}
-
-      <p class="post-link"><a href="{{ post.url }}">{{ locales.continue }}</a></p>
-
-      <p class="post-info">{{ post.date | posted_by:post.author }}</p>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-<hr class="hidden-modern" />
-
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    <div class="navigation">
-      <h3><strong>{{ locales.yearly_archives }}</strong></h3>
-
-      <ul class="menu">
-      {% for year in page.years %}
-      <li><a href="{{ year[0] }}/">{{ year[1] }}</a></li>
-      {% endfor %}
-      </ul>
+<div class="container px-4 md:px-6 lg:px-8 py-6 md:py-8 lg:py-12">
+  <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
+    <!-- Desktop Navigation (hidden on mobile) -->
+    <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0">
+      {% include navigation.html %}
     </div>
 
-    {% include syndicate.html %}
+    <!-- Main content and mobile sidebar wrapper -->
+    <div class="flex-1 min-w-0 flex flex-col gap-6">
+      <!-- Navigation toggle button -->
+      <button id="nav-toggle" class="md:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
+        <span class="material-icons text-base">menu</span>
+        Navigation
+      </button>
+
+      <!-- Mobile Navigation Panel -->
+      <div id="nav-mobile-panel" class="md:hidden hidden">
+        {% include navigation.html %}
+      </div>
+
+      <!-- Main content -->
+      <article id="content-wrapper" class="prose md:px-4 lg:px-6">
+        {% include title.html %}
+
+        <div id="content">
+          {% for post in page.posts %}
+          <div class="post prose">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+            {{ post.excerpt | markdownify }}
+
+            <p class="post-link"><a href="{{ post.url }}">{{ locales.continue }}</a></p>
+
+            <p class="post-info">{{ post.date | posted_by:post.author }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </article>
+
+      <!-- Mobile sidebar (below content) -->
+      <div class="lg:hidden md:px-4 lg:px-6">
+        {% include news-sidebar.html %}
+      </div>
+    </div>
+
+    <!-- Desktop sidebar (right side, TOC style) -->
+    <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0 sticky top-24 self-start max-h-[calc(100vh-6rem)] overflow-y-auto">
+      {% include news-sidebar.html %}
+    </div>
   </div>
 </div>
-<hr class="hidden-modern" />

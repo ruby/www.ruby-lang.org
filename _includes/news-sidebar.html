@@ -1,0 +1,40 @@
+{% if site.data.locales[page.lang].news %}
+  {% assign locales = site.data.locales[page.lang].news %}
+{% else %}
+  {% assign locales = site.data.locales['en'].news %}
+{% endif %}
+
+{% if site.data.locales[page.lang].sidebar %}
+  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
+{% else %}
+  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
+{% endif %}
+
+<div class="bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 lg:bg-transparent lg:dark:bg-transparent lg:border-0 lg:rounded-none p-4 lg:p-0">
+  <!-- Yearly Archives Section -->
+  <div class="mb-6">
+    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-4 flex items-center gap-2">
+      <span class="icon-calendar" aria-hidden="true"></span>
+      {{ locales.yearly_archives }}
+    </h3>
+    <ul class="space-y-2">
+      {% for year in page.years %}
+      <li>
+        <a href="{{ year[0] }}/" class="text-semantic-link hover:text-semantic-link-hover hover:underline transition-colors">
+          {{ year[1] }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Syndicate Section -->
+  <div>
+    <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-4">{{ syndicate.text }}</h3>
+    <p>
+      <a href="{{ syndicate.recent_news.url }}" class="text-semantic-link hover:text-semantic-link-hover hover:underline transition-colors">
+        {{ syndicate.recent_news.text }}
+      </a>
+    </p>
+  </div>
+</div>
