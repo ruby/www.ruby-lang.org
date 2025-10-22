@@ -1454,6 +1454,10 @@ body{
   margin-top: 1.5rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -1847,6 +1851,16 @@ body{
   line-height: 1rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -2039,6 +2053,18 @@ body{
 
 .marker\:text-stone-400::marker{
   color: rgb(168 162 158 );
+}
+
+.last\:mb-0:last-child{
+  margin-bottom: 0px;
+}
+
+.last\:border-b-0:last-child{
+  border-bottom-width: 0px;
+}
+
+.last\:pb-0:last-child{
+  padding-bottom: 0px;
 }
 
 .hover\:bg-stone-100:hover{
