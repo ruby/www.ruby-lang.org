@@ -234,6 +234,7 @@ news:
   monthly_archives: Архив по месец
   yearly_archive_link: "%Y"
   monthly_archive_link: "%B %Y"
+  select_year: "--- Изберете година ---"
 
 footer:
   links:

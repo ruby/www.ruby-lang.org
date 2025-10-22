@@ -240,6 +240,7 @@ news:
   monthly_archives: Archiwum według miesiąca
   yearly_archive_link: "%Y"
   monthly_archive_link: "%B %Y"
+  select_year: "--- Wybierz rok ---"
 
 footer:
   links:

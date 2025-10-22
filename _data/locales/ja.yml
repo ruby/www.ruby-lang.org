@@ -249,6 +249,7 @@ news:
   monthly_archives: 月毎のアーカイブ
   yearly_archive_link: "%Y年のアーカイブ"
   monthly_archive_link: "%Y年%m月"
+  select_year: "--- 年を選択 ---"
 
 footer:
   links:

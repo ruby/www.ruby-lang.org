@@ -244,6 +244,7 @@ news:
   monthly_archives: Archives by Month
   yearly_archive_link: "%Y Archives"
   monthly_archive_link: "%B %Y"
+  select_year: "--- Select a Year ---"
 
 footer:
   links:

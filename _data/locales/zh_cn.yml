@@ -224,6 +224,7 @@ news:
   monthly_archives: 按月归档
   yearly_archive_link: "%Y年归档"
   monthly_archive_link: "%Y年%-m月归档"
+  select_year: "--- 选择年份 ---"
 
 footer:
   links:

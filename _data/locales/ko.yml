@@ -223,6 +223,7 @@ news:
   monthly_archives: 월별 아카이브
   yearly_archive_link: "%Y년"
   monthly_archive_link: "%Y년 %m월"
+  select_year: "--- 연도 선택 ---"
 
 footer:
   links:

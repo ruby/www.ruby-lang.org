@@ -237,6 +237,7 @@ news:
   monthly_archives: Arsip Bulanan
   yearly_archive_link: Tahun %Y
   monthly_archive_link: "%B %Y"
+  select_year: "--- Pilih Tahun ---"
 
 footer:
   links:
