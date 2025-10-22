@@ -38,10 +38,19 @@
 
         {% if footer.links.ruby_license %}
         <a href="{{ footer.links.ruby_license.url }}"
-           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors">
+           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
           {{ footer.links.ruby_license.text }}
         </a>
         {% endif %}
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle"
+                type="button"
+                aria-label="Theme: Auto"
+                title="Theme: Auto (System)"
+                class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors">
+          <span class="icon-theme-auto" aria-hidden="true"></span>
+        </button>
       </nav>
     </div>
 

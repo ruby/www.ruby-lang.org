@@ -2,7 +2,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  darkMode: 'media', // Enable dark mode via OS preference
+  darkMode: 'class', // Enable dark mode via class
   content: [
     "./_layouts/**/*.html",
     "./_includes/**/*.html",
@@ -175,45 +175,45 @@ module.exports = {
             maxWidth: 'none',
             'h1, h2, h3, h4, h5, h6': {
               color: theme('colors.stone.900'),
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.50'),
               },
             },
             'p, li, td, th': {
               color: theme('colors.stone.900'),
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.300'),
               },
             },
             'strong': {
               color: theme('colors.stone.900'),
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.100'),
               },
             },
             'blockquote': {
               color: theme('colors.stone.700'),
               borderLeftColor: theme('colors.stone.300'),
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.300'),
                 borderLeftColor: theme('colors.stone.700'),
               },
             },
             'dl, dt, dd': {
               color: theme('colors.stone.900'),
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.300'),
               },
             },
             'ul > li::marker': {
               color: theme('colors.stone.400'),
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.500'),
               },
             },
             'ol > li::marker': {
               color: theme('colors.stone.500'),
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.400'),
               },
             },
@@ -229,7 +229,7 @@ module.exports = {
               '&:hover, &:focus, &:active': {
                 color: '#b8211c',  // ruby-700 (light mode)
               },
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: '#eb544f',  // ruby-500 (dark mode)
                 '&:hover, &:focus, &:active': {
                   color: '#f07f7b',  // ruby-400 (dark mode)
@@ -241,7 +241,7 @@ module.exports = {
               color: theme('colors.stone.900'),            // stone-900 (light mode)
               fontWeight: 'bold',
               fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 backgroundColor: theme('colors.stone.700'),  // stone-800 (dark mode)
                 color: theme('colors.stone.50'),             // stone-50 (dark mode)
               },
@@ -250,7 +250,7 @@ module.exports = {
               color: theme('colors.stone.900'),            // stone-900 (light mode)
               fontWeight: 'bold',
               fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: theme('colors.stone.50'),  // stone-50 (dark mode)
               },
             },
@@ -262,7 +262,7 @@ module.exports = {
               margin: '0 0.125rem',        // 0 2px
               padding: '0 0.3125rem',      // 0 5px
               borderRadius: '0.1875rem',   // 3px
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 backgroundColor: theme('colors.stone.700'),  // stone-800 (dark mode)
                 color: theme('colors.stone.50'),             // stone-50 (dark mode)
               },
@@ -278,7 +278,7 @@ module.exports = {
               fontSize: '0.875rem',        // 14px (text-sm)
               lineHeight: '1.25rem',       // 20px
               marginTop: '1rem',           // 16px (mt-4)
-              '@media (prefers-color-scheme: dark)': {
+              '.dark &': {
                 color: '#a8a29e',          // stone-400 (dark mode)
               },
             },
