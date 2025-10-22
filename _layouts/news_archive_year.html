@@ -69,7 +69,10 @@ layout: default
         <div class="bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 p-4 pb-6">
           <!-- Monthly Archives Section -->
           <div class="pb-8 border-b border-stone-200 dark:border-stone-700">
-            <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6">{{ locales.monthly_archives }}</h3>
+            <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+              <span class="icon-calendar" aria-hidden="true"></span>
+              {{ locales.monthly_archives }}
+            </h3>
             <ul class="space-y-3 list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">
               {% for month in page.months %}
               <li>
@@ -102,7 +105,10 @@ layout: default
       <div>
         <!-- Monthly Archives Section -->
         <div class="pb-8 border-b border-stone-200 dark:border-stone-700">
-          <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6">{{ locales.monthly_archives }}</h3>
+          <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+            <span class="icon-calendar" aria-hidden="true"></span>
+            {{ locales.monthly_archives }}
+          </h3>
           <ul class="space-y-3 list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">
             {% for month in page.months %}
             <li>
