@@ -2149,6 +2149,10 @@ body{
     background-color: transparent;
   }
 
+  .lg\:p-0{
+    padding: 0px;
+  }
+
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
