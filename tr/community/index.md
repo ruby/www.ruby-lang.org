@@ -25,12 +25,6 @@ başlangıç önerisi var:
   e-posta listeleri cevap aramak için başvuracağınız ilk kaynaklardan
   biridir.
 
-[Ruby Discord Sunucusu][ruby-discord] (İngilizce)
-: Ruby Dili Discord Sunucusu, şunları yapabileceğiniz bir ortamdır:
-  Diğer Rubyciler ile konuşma, Ruby sorularınıza yanıt bulma ya da
-  diğerlerine yardım etme. Discord, genç geliştiriciler için iyi bir
-  giriş noktasıdır ve katılması kolaydır.
-
 [Ruby Türkiye Slack Kanalı][ruby-turkiye-slack]
 : Kendi dilinizde sohbet etmek için IRC kanalına alternatif olarak oldukça
   popüler olan bu Slack kanalını da kullanabilirsiniz.
@@ -66,7 +60,6 @@ Genel Ruby Kaynakları
 
 
 [ruby-central]: http://rubycentral.org/
-[ruby-discord]: https://discord.gg/ad2acQFtkh
 [ruby-opendir]: https://dmoztools.net
 [rails-opendir]: https://dmoztools.net
 [ruby-turkiye-slack]: https://rubytr.herokuapp.com/

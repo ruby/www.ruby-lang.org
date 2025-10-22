@@ -25,12 +25,6 @@ Quelques liens à visiter:
   disponibles. Si vous avez des questions sur Ruby, les poser sur une de
   ces listes est un moyen efficace pour obtenir rapidement des réponses.
 
-[Server Discord Ruby (lien d'invitation)][ruby-discord]
-: Le serveur Discord Ruby est un endroit où vous pouvez discuter avec
-  d'autres rubyistes, obtenir de l'aide pour vos questions sur Ruby ou
-  aider les autres. Discord est un bon point d'entrée pour les nouveaux
-  développeurs et il est facile à rejoindre.
-
 [IRC (#ruby)](https://web.libera.chat/#ruby)
 : Le canal IRC anglophone #ruby est un endroit fantastique pour
   discuter en temps réel avec d’autres rubyistes.
@@ -59,6 +53,5 @@ Informations générales
 
 
 [ruby-central]: http://rubycentral.org/
-[ruby-discord]: https://discord.gg/ad2acQFtkh
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
 [rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/

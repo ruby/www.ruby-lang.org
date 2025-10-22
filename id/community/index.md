@@ -24,12 +24,6 @@ untuk memulai petualangan Anda:
   di beberapa bahasa. Jika Anda memiliki pertanyaan terkait Ruby,
   menanyakannya di milis adalah cara yang bagus untuk mendapatkan jawaban.
 
-[Ruby Discord Server (undangan tautan)][ruby-discord]
-: Ruby Language Discord Server adalah sebuah tempat di mana Anda dapat
-  mengobrol dengan Rubyist, mendapatkan bantuan, atau membantu Rubyist lainnya.
-  *Discord* adalah sebuah pintu masuk yang baik bagi pengembang-pengembang baru
-  karena pengembang dapat bergabung dengan mudah.
-
 **Ruby di IRC**
 : Anda bisa berbincang-bincang (*chatting*) dengan pengguna Ruby lainnya
   di *channel* IRC untuk Ruby. Bergabunglah dengan [#ruby](https://web.libera.chat/#ruby) untuk
@@ -73,7 +67,6 @@ Informasi Umum Tentang Ruby
 
 
 
-[ruby-discord]: https://discord.gg/ad2acQFtkh
 [ruby-id-group]: http://tech.groups.yahoo.com/group/id-ruby/
 [ruby-central]: http://rubycentral.org/
 [ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
