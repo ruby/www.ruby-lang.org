@@ -45,7 +45,7 @@ to start:
   work-in-progress, discuss the future of Ruby, and welcome newcomers to
   the Ruby community.
 
-  Additionally, you can visit [rubyvideo.dev](https://www.rubyvideo.dev/) to find videos of Ruby conferences and talks.
+  Additionally, you can visit [rubyevents.org](https://www.rubyevents.org/) to find videos of Ruby conferences and talks.
 
 [Podcasts](podcasts/)
 : If you prefer to listen to discussions about Ruby rather than read,
