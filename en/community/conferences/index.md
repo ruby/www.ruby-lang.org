@@ -9,7 +9,7 @@ conferences, where they get together to share reports on
 work-in-progress, discuss the future of Ruby, and welcome newcomers to
 the Ruby community.
 
-[RubyConferences.org][rc] is a simple list of Ruby-specific conferences,
+[RubyEvents.org][rc] is a simple list of Ruby-specific conferences,
 published collaboratively with the Ruby community. There you will find
 event dates, location, CFP (Call For Proposals) and Registration information.
 
@@ -34,11 +34,11 @@ event dates, location, CFP (Call For Proposals) and Registration information.
 
 ### Regional Ruby Conferences
 
-An updated list of Regional Ruby Conferences is available at [RubyConferences.org][rc].
+An updated list of Regional Ruby Conferences is available at [RubyEvents.org][rc].
 
 You can also find the GitHub repository link there to add or update information yourself.
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
