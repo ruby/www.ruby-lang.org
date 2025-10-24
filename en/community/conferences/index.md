@@ -9,7 +9,7 @@ conferences, where they get together to share reports on
 work-in-progress, discuss the future of Ruby, and welcome newcomers to
 the Ruby community.
 
-[https://www.rubyevents.org/][rc] is a simple list of Ruby-specific conferences,
+[RubyEvents.org][rc] is a simple list of Ruby-specific conferences,
 published collaboratively with the Ruby community. There you will find
 event dates, location, CFP (Call For Proposals) and Registration information.
 
