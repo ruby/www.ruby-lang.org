@@ -34,7 +34,7 @@ event dates, location, CFP (Call For Proposals) and Registration information.
 
 ### Regional Ruby Conferences
 
-An updated list of Regional Ruby Conferences is available at [https://www.rubyevents.org/][rc].
+An updated list of Regional Ruby Conferences is available at [RubyEvents.org][rc].
 
 You can also find the GitHub repository link there to add or update information yourself.
 
