@@ -18,7 +18,7 @@ Ruby 3.3.9 已发布。
 * GCC 15.1
 * Visual Studio 2022 Version 17.14
 
-详细信息可参考 [GitHub 发布说明](https://github.com/ruby/ruby/releases/tag/v3_3_9) for further details.
+详细信息可参考 [GitHub 发布说明](https://github.com/ruby/ruby/releases/tag/v3_3_9)。
 
 ## 下载
 
