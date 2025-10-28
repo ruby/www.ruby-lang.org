@@ -1,0 +1,134 @@
+{% if site.data.locales[page.lang].header_navigation %}
+  {% assign nav_items = site.data.locales[page.lang].header_navigation %}
+{% else %}
+  {% assign nav_items = site.data.locales['en'].header_navigation %}
+{% endif %}
+
+{% comment %}
+  Determine navigation section from URL pattern
+  Order matters: more specific patterns should come first
+{% endcomment %}
+{% assign nav_section = nil %}
+{% assign current_section_submenu = nil %}
+{% assign current_section_title = nil %}
+
+{% if page.url contains '/news/' %}
+  {% assign nav_section = 'news' %}
+{% elsif page.url contains '/downloads/' or page.url contains '/documentation/installation/' %}
+  {% assign nav_section = 'install' %}
+{% elsif page.url contains '/dev/' or page.url contains '/documentation/repository-guide/' or page.url contains '/community/mailing-lists/' %}
+  {% assign nav_section = 'contribution' %}
+{% elsif page.url contains '/documentation/' or page.url contains '/about/' %}
+  {% assign nav_section = 'documentation' %}
+{% elsif page.url contains '/libraries/' %}
+  {% assign nav_section = 'libraries' %}
+{% elsif page.url contains '/community/' %}
+  {% assign nav_section = 'community' %}
+{% endif %}
+
+{% comment %}
+  Find the matching navigation item and get its submenu
+{% endcomment %}
+{% for item in nav_items %}
+  {% if nav_section == 'install' %}
+    {% if item.url contains '/installation/' %}
+      {% assign current_section_submenu = item.submenu %}
+      {% assign current_section_title = item.text %}
+      {% break %}
+    {% endif %}
+  {% elsif nav_section == 'documentation' %}
+    {% if item.text contains 'ドキュメント' or item.text contains 'Documentation' %}
+      {% unless item.url contains '/installation/' %}
+        {% assign current_section_submenu = item.submenu %}
+        {% assign current_section_title = item.text %}
+        {% break %}
+      {% endunless %}
+    {% endif %}
+  {% elsif nav_section == 'libraries' %}
+    {% if item.url contains '/libraries/' %}
+      {% assign current_section_submenu = item.submenu %}
+      {% assign current_section_title = item.text %}
+      {% break %}
+    {% endif %}
+  {% elsif nav_section == 'contribution' %}
+    {% if item.text contains 'コントリビューション' or item.text contains 'Contribution' %}
+      {% assign current_section_submenu = item.submenu %}
+      {% assign current_section_title = item.text %}
+      {% break %}
+    {% endif %}
+  {% elsif nav_section == 'community' %}
+    {% if item.url contains '/community/' %}
+      {% assign current_section_submenu = item.submenu %}
+      {% assign current_section_title = item.text %}
+      {% break %}
+    {% endif %}
+  {% elsif nav_section == 'news' %}
+    {% if item.url contains '/news/' %}
+      {% assign current_section_submenu = item.submenu %}
+      {% assign current_section_title = item.text %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if nav_section == 'news' %}
+  {% comment %}
+    For news section, show the news sidebar (year archives + RSS)
+  {% endcomment %}
+  {% include news-sidebar.html %}
+{% elsif current_section_submenu %}
+<div class="bg-stone-50 dark:bg-stone-800 rounded-lg p-4 md:bg-transparent md:dark:bg-transparent md:p-0 border border-stone-200 dark:border-stone-700 md:border-0">
+  <div class="flex justify-between items-center mb-4 md:block">
+    <h3 class="font-bold text-stone-900 dark:text-stone-100">{{ current_section_title }}</h3>
+    <!-- Close button for mobile -->
+    <button id="nav-close-btn" class="md:hidden p-2 hover:bg-stone-200 dark:hover:bg-stone-700 rounded-md">
+      <span class="material-icons text-base">close</span>
+    </button>
+  </div>
+
+  {% comment %}
+    Render submenu items
+  {% endcomment %}
+  <nav class="space-y-1">
+    {% for subitem in current_section_submenu %}
+      {% if subitem.submenu %}
+        {% comment %}
+          Section with nested submenu
+        {% endcomment %}
+        <div class="pt-6 {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
+          <h4 class="font-semibold text-sm text-stone-900 dark:text-stone-100 mb-3">{{ subitem.text }}</h4>
+          <ul class="space-y-2">
+            {% for nesteditem in subitem.submenu %}
+            <li>
+              <a href="{{ nesteditem.url }}"
+                 class="block text-sm {% if page.url == nesteditem.url %}text-semantic-text-link font-medium{% else %}text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered{% endif %} transition-colors {% if nesteditem.external %}inline-flex items-center gap-1{% endif %}"
+                 {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                {{ nesteditem.text }}
+                {% if nesteditem.external %}<span class="icon-external text-xs" aria-hidden="true"></span>{% endif %}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% else %}
+        {% comment %}
+          Regular submenu item (top level in sidebar)
+        {% endcomment %}
+        <div>
+          <a href="{{ subitem.url }}"
+             class="block py-2 text-sm {% if page.url == subitem.url %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered{% endif %} transition-colors {% if subitem.external %}inline-flex items-center gap-1{% endif %}"
+             {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            <span class="{% if page.url == subitem.url %}{% else %}{% endif %}">{{ subitem.text }}</span>
+            {% if subitem.external %}<span class="icon-external text-xs" aria-hidden="true"></span>{% endif %}
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</div>
+{% else %}
+  {% comment %}
+    Fallback to original navigation if no section match found
+  {% endcomment %}
+  {% include navigation.html %}
+{% endif %}
