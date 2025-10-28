@@ -8,7 +8,7 @@ lang: ko
 콘퍼런스에서는 Ruby에서 작업 중인 내용의 공유, Ruby의 미래에 대한 토론, Ruby
 커뮤니티의 뉴비의 환영 등을 함께합니다.
 
-[RubyConferences.org][rc]는 Ruby 커뮤니티에서 함께 제작하고 있는
+[RubyEvents.org][rc]는 Ruby 커뮤니티에서 함께 제작하고 있는
 Ruby에 대한 콘퍼런스 목록입니다. 이곳에서는 행사일, 장소, CFP(발표 신청)와
 등록 정보를 찾아볼 수 있습니다.
 
@@ -33,11 +33,11 @@ Ruby에 대한 콘퍼런스 목록입니다. 이곳에서는 행사일, 장소, 
 
 한국에서는 아직 정기적인 Ruby 콘퍼런스는 개최되고 있지 않습니다.
 
-[RubyConferences.org][rc]에서는 지역 Ruby 콘퍼런스의 최신 목록을 확인할 수 있습니다.
+[RubyEvents.org][rc]에서는 지역 Ruby 콘퍼런스의 최신 목록을 확인할 수 있습니다.
 
 정보를 추가하거나 업데이트하려면 해당 페이지에서 GitHub 저장소 링크를 찾아볼 수 있습니다.
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
