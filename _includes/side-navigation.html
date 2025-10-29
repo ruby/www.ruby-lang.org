@@ -4,6 +4,12 @@
   {% assign nav_items = site.data.locales['en'].header_navigation %}
 {% endif %}
 
+{% if site.data.locales[page.lang].sidebar %}
+  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
+{% else %}
+  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
+{% endif %}
+
 {% comment %}
   Determine navigation section from URL pattern
   Order matters: more specific patterns should come first
@@ -131,6 +137,18 @@
       {% endif %}
     {% endfor %}
   </nav>
+
+  <!-- RSS Link Section -->
+  {% if syndicate and syndicate.recent_news %}
+  <div class="pt-6">
+    <p class="pl-1">
+      <a href="{{ syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+        <span class="icon-rss-feed" aria-hidden="true"></span>
+        {{ syndicate.recent_news.text }}<span class="icon-external text-xs" aria-hidden="true"></span>
+      </a>
+    </p>
+  </div>
+  {% endif %}
 </div>
 {% else %}
   {% comment %}
