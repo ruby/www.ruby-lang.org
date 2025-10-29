@@ -80,6 +80,9 @@ lang: zh_tw
 [DevDocs.io][40]
 : 線上 API 文件。
 
+[Dash][41]
+: 離線 API 文件瀏覽器（macOS）
+
 [Ruby QuickRef][42]
 : Ruby 快速參考文件。
 
@@ -190,6 +193,7 @@ lang: zh_tw
 [38]: https://learncodethehardway.org/ruby/
 [39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
+[41]: https://kapeli.com/dash
 [42]: https://www.zenspider.com/ruby/quickref.html
 [43]: https://rubyreferences.github.io/
 [44]: https://rubystyle.guide/

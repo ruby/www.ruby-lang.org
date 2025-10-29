@@ -84,6 +84,9 @@ These documentation sites are maintained by the Ruby community.
 [DevDocs.io][40]
 : Online API documentation
 
+[Dash][41]
+: Offline API documentation browser (macOS)
+
 [Ruby QuickRef][42]
 : The Ruby quick reference
 
@@ -208,6 +211,7 @@ These links were more prominent but haven't been updated in ages.
 [38]: https://learncodethehardway.org/ruby/
 [39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
+[41]: https://kapeli.com/dash
 [42]: https://www.zenspider.com/ruby/quickref.html
 [43]: https://rubyreferences.github.io/
 [44]: https://rubystyle.guide/
