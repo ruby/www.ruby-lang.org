@@ -14,6 +14,8 @@
 
 {% if page.url contains '/news/' %}
   {% assign nav_section = 'news' %}
+{% elsif page.url contains '/security/' %}
+  {% assign nav_section = 'security' %}
 {% elsif page.url contains '/downloads/' or page.url contains '/documentation/installation/' %}
   {% assign nav_section = 'install' %}
 {% elsif page.url contains '/dev/' or page.url contains '/documentation/repository-guide/' or page.url contains '/community/mailing-lists/' %}
@@ -71,9 +73,9 @@
   {% endif %}
 {% endfor %}
 
-{% if nav_section == 'news' %}
+{% if nav_section == 'news' or nav_section == 'security' %}
   {% comment %}
-    For news section, show the news sidebar (year archives + RSS)
+    For news and security sections, show the news sidebar (top nav + year archives + RSS)
   {% endcomment %}
   {% include news-sidebar.html %}
 {% elsif current_section_submenu %}
