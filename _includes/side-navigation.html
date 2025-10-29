@@ -129,9 +129,17 @@
               {% assign is_active = true %}
             {% elsif nesteditem.external == nil or nesteditem.external == false %}
               {% assign url_length = nesteditem.url | size %}
-              {% assign page_url_prefix = page.url | slice: 0, url_length %}
-              {% if page_url_prefix == nesteditem.url %}
-                {% assign is_active = true %}
+              {% if page.url.size > url_length %}
+                {% assign page_url_prefix = page.url | slice: 0, url_length %}
+                {% if page_url_prefix == nesteditem.url %}
+                  {% comment %}Only match if remaining path starts with a digit (pagination){% endcomment %}
+                  {% assign remaining = page.url | remove_first: nesteditem.url %}
+                  {% assign first_char = remaining | slice: 0, 1 %}
+                  {% assign digits = "0123456789" %}
+                  {% if digits contains first_char %}
+                    {% assign is_active = true %}
+                  {% endif %}
+                {% endif %}
               {% endif %}
             {% endif %}
             <li class="{% if nesteditem.external %}list-item{% else %}list-none{% endif %}">
@@ -154,9 +162,17 @@
           {% assign is_active = true %}
         {% elsif subitem.external == nil or subitem.external == false %}
           {% assign url_length = subitem.url | size %}
-          {% assign page_url_prefix = page.url | slice: 0, url_length %}
-          {% if page_url_prefix == subitem.url %}
-            {% assign is_active = true %}
+          {% if page.url.size > url_length %}
+            {% assign page_url_prefix = page.url | slice: 0, url_length %}
+            {% if page_url_prefix == subitem.url %}
+              {% comment %}Only match if remaining path starts with a digit (pagination){% endcomment %}
+              {% assign remaining = page.url | remove_first: subitem.url %}
+              {% assign first_char = remaining | slice: 0, 1 %}
+              {% assign digits = "0123456789" %}
+              {% if digits contains first_char %}
+                {% assign is_active = true %}
+              {% endif %}
+            {% endif %}
           {% endif %}
         {% endif %}
         <div class="border-b border-stone-200 dark:border-stone-700">
