@@ -123,9 +123,20 @@
           <h4 class="text-xs font-semibold text-stone-500 dark:text-stone-400 mb-4 pl-1">{{ subitem.text }}</h4>
           <ul class="space-y-2 list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">
             {% for nesteditem in subitem.submenu %}
+            {% comment %}Check if current page matches this nav item (exact match or starts with the URL for pagination){% endcomment %}
+            {% assign is_active = false %}
+            {% if page.url == nesteditem.url %}
+              {% assign is_active = true %}
+            {% elsif nesteditem.external == nil or nesteditem.external == false %}
+              {% assign url_length = nesteditem.url | size %}
+              {% assign page_url_prefix = page.url | slice: 0, url_length %}
+              {% if page_url_prefix == nesteditem.url %}
+                {% assign is_active = true %}
+              {% endif %}
+            {% endif %}
             <li class="{% if nesteditem.external %}list-item{% else %}list-none{% endif %}">
               <a href="{{ nesteditem.url }}"
-                 class="block py-1 {% unless nesteditem.external %}pl-4{% endunless %} text-sm {% if page.url == nesteditem.url %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
+                 class="block py-1 {% unless nesteditem.external %}pl-4{% endunless %} text-sm {% if is_active %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
                  {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
                 {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-xs inline-block align-baseline ml-0.5" aria-hidden="true"></span>{% endif %}
               </a>
@@ -137,9 +148,20 @@
         {% comment %}
           Regular submenu item (top level in sidebar)
         {% endcomment %}
+        {% comment %}Check if current page matches this nav item (exact match or starts with the URL for pagination){% endcomment %}
+        {% assign is_active = false %}
+        {% if page.url == subitem.url %}
+          {% assign is_active = true %}
+        {% elsif subitem.external == nil or subitem.external == false %}
+          {% assign url_length = subitem.url | size %}
+          {% assign page_url_prefix = page.url | slice: 0, url_length %}
+          {% if page_url_prefix == subitem.url %}
+            {% assign is_active = true %}
+          {% endif %}
+        {% endif %}
         <div class="border-b border-stone-200 dark:border-stone-700">
           <a href="{{ subitem.url }}"
-             class="flex items-center justify-between py-4 pl-1 text-base group {% if page.url == subitem.url %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-bold{% endif %} transition-colors"
+             class="flex items-center justify-between py-4 pl-1 text-base group {% if is_active %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-bold{% endif %} transition-colors"
              {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
             <span class="{% if subitem.external %}inline-flex items-center gap-1{% endif %}">
               {{ subitem.text }}
