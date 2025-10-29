@@ -35,6 +35,8 @@ header_navigation:
     url: /ja/documentation/installation/
   - text: ダウンロード
     url: /ja/downloads/
+  - text: リリース
+    url: /ja/downloads/releases/
   - text: パッケージマネージャー
     submenu:
     - text: rbenv

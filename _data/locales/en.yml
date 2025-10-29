@@ -33,6 +33,8 @@ header_navigation:
     url: /en/documentation/installation/
   - text: Downloads
     url: /en/downloads/
+  - text: Releases
+    url: /en/downloads/releases/
   - text: Package Managers
     submenu:
     - text: rbenv

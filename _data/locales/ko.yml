@@ -32,6 +32,8 @@ header_navigation:
     url: /ko/documentation/installation/
   - text: 다운로드
     url: /ko/downloads/
+  - text: 릴리스
+    url: /ko/downloads/releases/
   - text: 패키지 관리자
     submenu:
     - text: rbenv
