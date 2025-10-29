@@ -58,6 +58,13 @@ header_navigation:
     url: /es/documentation/quickstart/
   - text: Ruby desde otros lenguajes
     url: /es/documentation/ruby-from-other-languages/
+    submenu:
+    - text: A Ruby desde Java
+      url: /es/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: A Ruby desde PHP
+      url: /es/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: A Ruby desde Python
+      url: /es/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Comienza & Explora
     submenu:
     - text: TryRuby

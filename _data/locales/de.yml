@@ -58,6 +58,17 @@ header_navigation:
     url: /de/documentation/quickstart/
   - text: Ruby für Umsteiger
     url: /de/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Von C und C++ zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Von Java zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Von Perl zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Von PHP zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Von Python zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Erste Schritte & Entdecken
     submenu:
     - text: TryRuby

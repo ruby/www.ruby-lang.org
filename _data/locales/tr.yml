@@ -58,6 +58,17 @@ header_navigation:
     url: /tr/documentation/quickstart/
   - text: Diğer Dillerden Ruby'ye
     url: /tr/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C ve C++ dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Java'dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Perl'den Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHP'den Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Python'dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Başlamak & Keşfedin
     submenu:
     - text: TryRuby

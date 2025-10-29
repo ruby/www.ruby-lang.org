@@ -64,6 +64,17 @@ header_navigation:
     url: /ja/documentation/quickstart/
   - text: 他言語からのRuby入門
     url: /ja/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C・C++からRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: JavaからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: PerlからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHPからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: PythonからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: はじめよう・探求しよう
     submenu:
     - text: TryRuby

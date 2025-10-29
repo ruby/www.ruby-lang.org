@@ -61,6 +61,17 @@ header_navigation:
     url: /ko/documentation/quickstart/
   - text: 다른 언어에서 Ruby로
     url: /ko/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C나 C++에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Java에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Perl에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHP에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Python에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: FAQ
     url: /ko/documentation/faq/
   - text: 시작하기 & 탐색하기

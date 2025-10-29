@@ -57,6 +57,17 @@ header_navigation:
     url: /bg/documentation/quickstart/
   - text: Ruby от други езици
     url: /bg/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Oт C/C++ към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Oт Java към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Oт Perl към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Oт PHP към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Oт Python към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Започнете & Изследвайте
     submenu:
     - text: TryRuby

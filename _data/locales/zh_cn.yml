@@ -61,6 +61,17 @@ header_navigation:
     url: /zh_cn/documentation/quickstart/
   - text: 从其它语言转到 Ruby
     url: /zh_cn/documentation/ruby-from-other-languages/
+    submenu:
+    - text: 从 C/C++ 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: 从 Java 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: 从 Perl 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: 从 PHP 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: 从 Python 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: 入门 & 探索
     submenu:
     - text: TryRuby

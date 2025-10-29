@@ -57,6 +57,17 @@ header_navigation:
     url: /vi/documentation/quickstart/
   - text: Ruby từ những ngôn ngữ khác
     url: /vi/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Đến với Ruby từ C và C++
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Đến với Ruby từ Java
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Đến với Ruby từ Perl
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Đến với Ruby từ PHP
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Đến với Ruby từ Python
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Nhập môn & Khám phá
     submenu:
     - text: TryRuby

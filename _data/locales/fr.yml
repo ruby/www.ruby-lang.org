@@ -58,6 +58,17 @@ header_navigation:
     url: /fr/documentation/quickstart/
   - text: Vous venez d'un autre langage?
     url: /fr/documentation/ruby-from-other-languages/
+    submenu:
+    - text: De C/C++ à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: De Java à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: De Perl à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: De PHP à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: De Python à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Lancez-vous & Explorez
     submenu:
     - text: TryRuby

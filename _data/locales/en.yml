@@ -64,6 +64,17 @@ header_navigation:
     url: /en/documentation/quickstart/
   - text: Ruby from Other Languages
     url: /en/documentation/ruby-from-other-languages/
+    submenu:
+    - text: To Ruby From C and C++
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: To Ruby From Java
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: To Ruby From Perl
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: To Ruby From PHP
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: To Ruby From Python
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: FAQ
     url: /en/documentation/faq/
   - text: Get Started & Explore

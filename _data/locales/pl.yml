@@ -57,6 +57,13 @@ header_navigation:
     url: /pl/documentation/quickstart/
   - text: Ruby a inne języki programowania
     url: /pl/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Ruby a Java
+      url: /pl/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Ruby a PHP
+      url: /pl/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Ruby a Python
+      url: /pl/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Zacznij & Poznaj
     submenu:
     - text: TryRuby

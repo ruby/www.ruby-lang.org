@@ -57,6 +57,17 @@ header_navigation:
     url: /id/documentation/quickstart/
   - text: Dari Bahasa Pemrograman Lain ke Ruby
     url: /id/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Dari C dan C++ ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Dari Java ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Dari Perl ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Dari PHP ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Dari Python ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Coba Sekarang & Jelajahi
     submenu:
     - text: TryRuby
