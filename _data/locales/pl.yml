@@ -123,12 +123,10 @@ header_navigation:
   submenu:
   - text: Społeczność
     url: /pl/community/
-  - text: Społeczność Online
-    submenu:
-    - text: Grupy Użytkowników
-      url: /pl/community/user-groups/
-    - text: Blogi
-      url: /pl/community/weblogs/
+  - text: Grupy Użytkowników
+    url: /pl/community/user-groups/
+  - text: Blogi
+    url: /pl/community/weblogs/
   - text: Wydarzenia i Konferencje
     submenu:
     - text: RubyKaigi

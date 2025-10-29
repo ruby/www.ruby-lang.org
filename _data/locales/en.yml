@@ -130,14 +130,12 @@ header_navigation:
   submenu:
   - text: Community
     url: /en/community/
+  - text: User Groups
+    url: /en/community/user-groups/
+  - text: Blogs and Newsletters
+    url: /en/community/weblogs/
   - text: Code of Conduct
     url: /en/conduct/
-  - text: Online Community
-    submenu:
-    - text: User Groups
-      url: /en/community/user-groups/
-    - text: Blogs and Newsletters
-      url: /en/community/weblogs/
   - text: Events & Conferences
     submenu:
     - text: RubyKaigi

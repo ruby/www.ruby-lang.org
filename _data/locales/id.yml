@@ -123,12 +123,10 @@ header_navigation:
   submenu:
   - text: Komunitas
     url: /id/community/
-  - text: Komunitas Online
-    submenu:
-    - text: Komunitas Pengguna
-      url: /id/community/user-groups/
-    - text: Blog
-      url: /id/community/weblogs/
+  - text: Komunitas Pengguna
+    url: /id/community/user-groups/
+  - text: Blog
+    url: /id/community/weblogs/
   - text: Acara & Konferensi
     submenu:
     - text: RubyKaigi

@@ -127,14 +127,12 @@ header_navigation:
   submenu:
   - text: 커뮤니티
     url: /ko/community/
+  - text: 유저 그룹
+    url: /ko/community/user-groups/
+  - text: 블로그와 뉴스레터
+    url: /ko/community/weblogs/
   - text: 행동 지침
     url: /ko/conduct/
-  - text: 온라인 커뮤니티
-    submenu:
-    - text: 유저 그룹
-      url: /ko/community/user-groups/
-    - text: 블로그와 뉴스레터
-      url: /ko/community/weblogs/
   - text: 이벤트 & 컨퍼런스
     submenu:
     - text: RubyKaigi

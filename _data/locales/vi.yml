@@ -123,12 +123,10 @@ header_navigation:
   submenu:
   - text: Cộng đồng
     url: /vi/community/
-  - text: Cộng đồng Trực tuyến
-    submenu:
-    - text: Nhóm người dùng
-      url: /vi/community/user-groups/
-    - text: Weblogs
-      url: /vi/community/weblogs/
+  - text: Nhóm người dùng
+    url: /vi/community/user-groups/
+  - text: Weblogs
+    url: /vi/community/weblogs/
   - text: Sự kiện & Hội nghị
     submenu:
     - text: RubyKaigi

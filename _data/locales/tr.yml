@@ -124,14 +124,12 @@ header_navigation:
   submenu:
   - text: Topluluk
     url: /tr/community/
+  - text: Kullanıcı Grupları
+    url: /tr/community/user-groups/
+  - text: Web günlükleri
+    url: /tr/community/weblogs/
   - text: Davranış Yönergesi
     url: /tr/conduct/
-  - text: Çevrimiçi Topluluk
-    submenu:
-    - text: Kullanıcı Grupları
-      url: /tr/community/user-groups/
-    - text: Web günlükleri
-      url: /tr/community/weblogs/
   - text: Etkinlikler ve Konferanslar
     submenu:
     - text: RubyKaigi

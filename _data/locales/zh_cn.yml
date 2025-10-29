@@ -127,12 +127,10 @@ header_navigation:
   submenu:
   - text: 社区
     url: /zh_cn/community/
-  - text: 在线社区
-    submenu:
-    - text: 用户组
-      url: /zh_cn/community/user-groups/
-    - text: 博客
-      url: /zh_cn/community/weblogs/
+  - text: 用户组
+    url: /zh_cn/community/user-groups/
+  - text: 博客
+    url: /zh_cn/community/weblogs/
   - text: 活动与会议
     submenu:
     - text: RubyKaigi

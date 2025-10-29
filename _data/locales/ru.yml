@@ -123,12 +123,10 @@ header_navigation:
   submenu:
   - text: Сообщество
     url: /ru/community/
-  - text: Онлайн-сообщество
-    submenu:
-    - text: Группы пользователей
-      url: /ru/community/user-groups/
-    - text: Блоги
-      url: /ru/community/weblogs/
+  - text: Группы пользователей
+    url: /ru/community/user-groups/
+  - text: Блоги
+    url: /ru/community/weblogs/
   - text: События и конференции
     submenu:
     - text: RubyKaigi
