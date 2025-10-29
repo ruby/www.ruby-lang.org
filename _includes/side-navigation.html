@@ -30,7 +30,7 @@
   {% assign nav_section = 'documentation' %}
 {% elsif page.url contains '/libraries/' %}
   {% assign nav_section = 'libraries' %}
-{% elsif page.url contains '/community/' %}
+{% elsif page.url contains '/community/' or page.url contains '/conduct/' %}
   {% assign nav_section = 'community' %}
 {% endif %}
 
