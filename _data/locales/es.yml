@@ -126,6 +126,8 @@ header_navigation:
     url: /es/community/
   - text: Grupos de usuarios
     url: /es/community/user-groups/
+  - text: Podcasts
+    url: /es/community/podcasts/
   - text: Eventos y conferencias
     submenu:
     - text: RubyKaigi

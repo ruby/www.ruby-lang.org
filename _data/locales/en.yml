@@ -134,6 +134,8 @@ header_navigation:
     url: /en/community/user-groups/
   - text: Blogs and Newsletters
     url: /en/community/weblogs/
+  - text: Podcasts
+    url: /en/community/podcasts/
   - text: Code of Conduct
     url: /en/conduct/
   - text: Events & Conferences

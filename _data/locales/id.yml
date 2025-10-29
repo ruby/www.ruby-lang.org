@@ -127,6 +127,8 @@ header_navigation:
     url: /id/community/user-groups/
   - text: Blog
     url: /id/community/weblogs/
+  - text: Podcast
+    url: /id/community/podcasts/
   - text: Acara & Konferensi
     submenu:
     - text: RubyKaigi

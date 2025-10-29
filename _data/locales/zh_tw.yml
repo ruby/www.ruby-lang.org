@@ -127,6 +127,8 @@ header_navigation:
     url: /zh_tw/community/user-groups/
   - text: 部落格與電子報
     url: /zh_tw/community/weblogs/
+  - text: Podcast
+    url: /zh_tw/community/podcasts/
   - text: 活動與研討會
     submenu:
     - text: RubyKaigi

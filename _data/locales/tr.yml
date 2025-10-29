@@ -128,6 +128,8 @@ header_navigation:
     url: /tr/community/user-groups/
   - text: Web günlükleri
     url: /tr/community/weblogs/
+  - text: Podcast'ler
+    url: /tr/community/podcasts/
   - text: Davranış Yönergesi
     url: /tr/conduct/
   - text: Etkinlikler ve Konferanslar

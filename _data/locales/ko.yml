@@ -131,6 +131,8 @@ header_navigation:
     url: /ko/community/user-groups/
   - text: 블로그와 뉴스레터
     url: /ko/community/weblogs/
+  - text: 팟캐스트
+    url: /ko/community/podcasts/
   - text: 행동 지침
     url: /ko/conduct/
   - text: 이벤트 & 컨퍼런스
