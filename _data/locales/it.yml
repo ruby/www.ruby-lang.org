@@ -28,6 +28,8 @@ header_navigation:
 - text: Scarica
   url: /it/documentation/installation/
   submenu:
+  - text: Installare Ruby
+    url: /it/documentation/installation/
   - text: Scarica
     url: /it/downloads/
   - text: Gestori di Pacchetti

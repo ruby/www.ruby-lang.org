@@ -28,6 +28,8 @@ header_navigation:
 - text: 下載安裝
   url: /zh_tw/documentation/installation/
   submenu:
+  - text: 安裝 Ruby
+    url: /zh_tw/documentation/installation/
   - text: 下載安裝
     url: /zh_tw/downloads/
   - text: 套件管理器

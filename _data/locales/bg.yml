@@ -28,6 +28,8 @@ header_navigation:
 - text: За сваляне
   url: /bg/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /bg/documentation/installation/
   - text: За сваляне
     url: /bg/downloads/
   - text: Мениджъри на пакети

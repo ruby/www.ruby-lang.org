@@ -31,6 +31,8 @@ header_navigation:
 - text: インストール
   url: /ja/documentation/installation/
   submenu:
+  - text: Rubyのインストール
+    url: /ja/documentation/installation/
   - text: ダウンロード
     url: /ja/downloads/
   - text: パッケージマネージャー

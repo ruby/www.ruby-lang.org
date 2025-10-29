@@ -28,6 +28,8 @@ header_navigation:
 - text: Downloads
   url: /vi/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /vi/documentation/installation/
   - text: Downloads
     url: /vi/downloads/
   - text: Trình quản lý gói

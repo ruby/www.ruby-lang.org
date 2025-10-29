@@ -28,6 +28,8 @@ header_navigation:
 - text: Скачать
   url: /ru/documentation/installation/
   submenu:
+  - text: Установка Ruby
+    url: /ru/documentation/installation/
   - text: Скачать
     url: /ru/downloads/
   - text: Менеджеры пакетов

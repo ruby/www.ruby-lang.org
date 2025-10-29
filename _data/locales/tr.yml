@@ -29,6 +29,8 @@ header_navigation:
 - text: İndirin
   url: /tr/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /tr/documentation/installation/
   - text: İndirin
     url: /tr/downloads/
   - text: Paket Yöneticileri

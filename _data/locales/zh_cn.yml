@@ -28,6 +28,8 @@ header_navigation:
 - text: 下载
   url: /zh_cn/documentation/installation/
   submenu:
+  - text: 安装 Ruby
+    url: /zh_cn/documentation/installation/
   - text: 下载
     url: /zh_cn/downloads/
   - text: 包管理器

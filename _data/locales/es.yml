@@ -29,6 +29,8 @@ header_navigation:
 - text: Descargas
   url: /es/documentation/installation/
   submenu:
+  - text: Instalar Ruby
+    url: /es/documentation/installation/
   - text: Descargas
     url: /es/downloads/
   - text: Gestores de paquetes

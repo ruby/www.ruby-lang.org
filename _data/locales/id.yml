@@ -28,6 +28,8 @@ header_navigation:
 - text: Unduh
   url: /id/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /id/documentation/installation/
   - text: Unduh
     url: /id/downloads/
   - text: Manajer Paket
