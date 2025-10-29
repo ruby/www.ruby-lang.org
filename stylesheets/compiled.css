@@ -1394,6 +1394,10 @@ body:is(.dark *){
   margin-right: auto;
 }
 
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -1416,10 +1420,6 @@ body:is(.dark *){
 
 .mb-8{
   margin-bottom: 2rem;
-}
-
-.ml-1{
-  margin-left: 0.25rem;
 }
 
 .mt-0{

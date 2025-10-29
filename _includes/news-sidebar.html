@@ -30,7 +30,7 @@
 <div class="bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 lg:bg-transparent lg:dark:bg-transparent lg:border-0 lg:rounded-none p-4 pb-6 lg:p-0">
   <!-- Top Navigation Section -->
   <div class="pb-6 mb-6">
-    <h3 class="text-xs font-semibold text-stone-500 dark:text-stone-400 mb-4 border-b border-stone-200 dark:border-stone-700 pb-3">{{ news_link.text }}</h3>
+    <h3 class="text-xs font-semibold text-stone-500 dark:text-stone-400 mb-1 border-b border-stone-200 dark:border-stone-700 pb-3">{{ news_link.text }}</h3>
     <nav class="space-y-0">
       {% if news_link %}
       <div class="border-b border-stone-200 dark:border-stone-700">
@@ -60,7 +60,7 @@
   <!-- Yearly Archives Section (only for news pages) -->
   {% if page.url contains '/news' %}
   <div class="pb-8 border-b border-stone-200 dark:border-stone-700">
-    <h3 class="text-sm font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+    <h3 class="text-sm font-bold text-stone-900 dark:text-stone-100 mb-4 flex items-center gap-2">
       <span class="icon-calendar" aria-hidden="true"></span>
       {{ locales.yearly_archives }}
     </h3>
@@ -86,7 +86,7 @@
 
   <!-- Syndicate Section -->
   <div class="pt-6">
-    <h3 class="text-sm font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+    <h3 class="text-sm font-bold text-stone-900 dark:text-stone-100 mb-4 flex items-center gap-2">
       <span class="icon-rss-feed" aria-hidden="true"></span>
       {{ syndicate.text }}
     </h3>
