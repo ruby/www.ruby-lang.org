@@ -35,6 +35,8 @@ header_navigation:
     url: /en/downloads/
   - text: Releases
     url: /en/downloads/releases/
+  - text: Branches
+    url: /en/downloads/branches/
   - text: Package Managers
     submenu:
     - text: rbenv

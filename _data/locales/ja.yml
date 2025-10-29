@@ -37,6 +37,8 @@ header_navigation:
     url: /ja/downloads/
   - text: リリース
     url: /ja/downloads/releases/
+  - text: ブランチ
+    url: /ja/downloads/branches/
   - text: パッケージマネージャー
     submenu:
     - text: rbenv

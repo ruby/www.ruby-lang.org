@@ -34,6 +34,8 @@ header_navigation:
     url: /zh_cn/downloads/
   - text: 发布版本
     url: /zh_cn/downloads/releases/
+  - text: 分支
+    url: /zh_cn/downloads/branches/
   - text: 包管理器
     submenu:
     - text: rbenv
