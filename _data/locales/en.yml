@@ -37,6 +37,8 @@ header_navigation:
     url: /en/downloads/releases/
   - text: Branches
     url: /en/downloads/branches/
+  - text: Mirrors
+    url: /en/downloads/mirrors/
   - text: Package Managers
     submenu:
     - text: rbenv
