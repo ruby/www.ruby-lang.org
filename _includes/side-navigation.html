@@ -24,7 +24,7 @@
   {% assign nav_section = 'security' %}
 {% elsif page.url contains '/downloads/' or page.url contains '/documentation/installation/' %}
   {% assign nav_section = 'install' %}
-{% elsif page.url contains '/dev/' or page.url contains '/documentation/repository-guide/' or page.url contains '/community/mailing-lists/' %}
+{% elsif page.url contains '/dev/' or page.url contains '/documentation/repository-guide/' or page.url contains '/community/mailing-lists/' or page.url contains '/community/ruby-core/' %}
   {% assign nav_section = 'contribution' %}
 {% elsif page.url contains '/documentation/' or page.url contains '/about/' %}
   {% assign nav_section = 'documentation' %}
@@ -59,13 +59,14 @@
       {% break %}
     {% endif %}
   {% elsif nav_section == 'contribution' %}
-    {% if item.url contains '/dev/' %}
+    {% if item.url contains '/dev/' or item.url contains '/ruby-core/' %}
       {% assign current_section_submenu = item.submenu %}
       {% assign current_section_title = item.text %}
       {% break %}
     {% endif %}
   {% elsif nav_section == 'community' %}
-    {% if item.url contains '/community/' %}
+    {% capture community_url %}/{{ page.lang }}/community/{% endcapture %}
+    {% if item.url == community_url %}
       {% assign current_section_submenu = item.submenu %}
       {% assign current_section_title = item.text %}
       {% break %}

@@ -124,6 +124,8 @@ header_navigation:
   submenu:
   - text: Topluluk
     url: /tr/community/
+  - text: Davranış Yönergesi
+    url: /tr/conduct/
   - text: Çevrimiçi Topluluk
     submenu:
     - text: Kullanıcı Grupları

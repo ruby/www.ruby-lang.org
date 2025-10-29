@@ -127,6 +127,8 @@ header_navigation:
   submenu:
   - text: 커뮤니티
     url: /ko/community/
+  - text: 행동 지침
+    url: /ko/conduct/
   - text: 온라인 커뮤니티
     submenu:
     - text: 유저 그룹

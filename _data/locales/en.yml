@@ -130,6 +130,8 @@ header_navigation:
   submenu:
   - text: Community
     url: /en/community/
+  - text: Code of Conduct
+    url: /en/conduct/
   - text: Online Community
     submenu:
     - text: User Groups

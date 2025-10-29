@@ -133,6 +133,8 @@ header_navigation:
   submenu:
   - text: コミュニティ
     url: /ja/community/
+  - text: 行動規範ガイドライン
+    url: /ja/conduct/
   - text: オンラインコミュニティ
     submenu:
     - text: Slack (ruby-jp)
