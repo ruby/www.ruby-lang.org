@@ -8,12 +8,6 @@ layout: default
   {% assign locales = site.data.locales['en'].news %}
 {% endif %}
 
-{% if site.data.locales[page.lang].sidebar %}
-  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
-{% else %}
-  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
-{% endif %}
-
 <div class="container px-4 md:px-6 lg:px-8 py-6 md:py-8 lg:py-12">
   <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
     <!-- Desktop Navigation (hidden on mobile) -->
@@ -69,7 +63,7 @@ layout: default
         <div class="bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 p-4 pb-6">
           <!-- Monthly Archives Section -->
           <div class="pb-8 border-b border-stone-200 dark:border-stone-700">
-            <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+            <h3 class="text-sm font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
               <span class="icon-calendar" aria-hidden="true"></span>
               {{ locales.monthly_archives }}
             </h3>
@@ -83,19 +77,6 @@ layout: default
               {% endfor %}
             </ul>
           </div>
-
-          <!-- Syndicate Section -->
-          <div class="pt-6">
-            <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
-              <span class="icon-rss-feed" aria-hidden="true"></span>
-              {{ syndicate.text }}
-            </h3>
-            <p>
-              <a href="{{ syndicate.recent_news.url }}" class="text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered transition-colors">
-                {{ syndicate.recent_news.text }}
-              </a>
-            </p>
-          </div>
         </div>
       </div>
     </div>
@@ -105,7 +86,7 @@ layout: default
       <div>
         <!-- Monthly Archives Section -->
         <div class="pb-8 border-b border-stone-200 dark:border-stone-700">
-          <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
+          <h3 class="text-sm font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
             <span class="icon-calendar" aria-hidden="true"></span>
             {{ locales.monthly_archives }}
           </h3>
@@ -118,19 +99,6 @@ layout: default
             </li>
             {% endfor %}
           </ul>
-        </div>
-
-        <!-- Syndicate Section -->
-        <div class="pt-6">
-          <h3 class="font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-2">
-            <span class="icon-rss-feed" aria-hidden="true"></span>
-            {{ syndicate.text }}
-          </h3>
-          <p>
-            <a href="{{ syndicate.recent_news.url }}" class="text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered transition-colors">
-              {{ syndicate.recent_news.text }}
-            </a>
-          </p>
         </div>
       </div>
     </div>
