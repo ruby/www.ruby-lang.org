@@ -45,7 +45,7 @@
       {% break %}
     {% endif %}
   {% elsif nav_section == 'documentation' %}
-    {% if item.text contains 'ドキュメント' or item.text contains 'Documentation' %}
+    {% if item.url contains '/documentation/' %}
       {% unless item.url contains '/installation/' %}
         {% assign current_section_submenu = item.submenu %}
         {% assign current_section_title = item.text %}
@@ -59,7 +59,7 @@
       {% break %}
     {% endif %}
   {% elsif nav_section == 'contribution' %}
-    {% if item.text contains 'コントリビューション' or item.text contains 'Contribution' %}
+    {% if item.url contains '/dev/' %}
       {% assign current_section_submenu = item.submenu %}
       {% assign current_section_title = item.text %}
       {% break %}
@@ -84,7 +84,22 @@
     For news and security sections, show the news sidebar (top nav + year archives + RSS)
   {% endcomment %}
   {% include news-sidebar.html %}
-{% elsif current_section_submenu %}
+{% else %}
+  {% comment %}
+    If no section matched, default to documentation section
+  {% endcomment %}
+  {% unless current_section_submenu %}
+    {% for item in nav_items %}
+      {% if item.url contains '/documentation/' %}
+        {% unless item.url contains '/installation/' %}
+          {% assign current_section_submenu = item.submenu %}
+          {% assign current_section_title = item.text %}
+          {% break %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+
 <div class="bg-stone-50 dark:bg-stone-800 rounded-lg p-4 md:bg-transparent md:dark:bg-transparent md:p-0 border border-stone-200 dark:border-stone-700 md:border-0">
   <div class="flex justify-between items-center mb-1 md:block border-b border-stone-200 dark:border-stone-700 pb-3">
     <h3 class="text-xs font-semibold text-stone-500 dark:text-stone-400">{{ current_section_title }}</h3>
@@ -150,9 +165,4 @@
   </div>
   {% endif %}
 </div>
-{% else %}
-  {% comment %}
-    Fallback to original navigation if no section match found
-  {% endcomment %}
-  {% include navigation.html %}
 {% endif %}
