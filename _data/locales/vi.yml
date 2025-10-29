@@ -101,7 +101,7 @@ header_navigation:
 - text: Đóng góp
   url: /vi/community/ruby-core/
   submenu:
-  - text: Lõi Ruby
+  - text: Phát triển Lõi Ruby
     url: /vi/community/ruby-core/
   - text: Hướng dẫn kho lưu trữ
     url: /vi/documentation/repository-guide/
@@ -180,7 +180,7 @@ sidebar:
       url: /vi/community/weblogs/
       description: Đọc về những gì đang xảy ra với cộng đồng Ruby.
     ruby_core:
-      text: Lõi Ruby
+      text: Phát triển Lõi Ruby
       url: /vi/community/ruby-core/
       description: Giúp hoàn thiện Ruby.
     issue_tracking:

@@ -102,7 +102,7 @@ header_navigation:
 - text: Contribuir
   url: /es/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Desarrollo de Ruby Core
     url: /es/community/ruby-core/
   - text: Guía del repositorio
     url: /es/documentation/repository-guide/
@@ -184,7 +184,7 @@ sidebar:
       url: /en/community/weblogs/
       description: Entérate de lo que está sucediendo en la comunidad.
     ruby_core:
-      text: Ruby Core
+      text: Desarrollo de Ruby Core
       url: /es/community/ruby-core/
       description: Ayuda a mejorar el futuro de Ruby.
     issue_tracking:

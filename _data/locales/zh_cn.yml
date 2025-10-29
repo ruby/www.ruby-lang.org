@@ -101,7 +101,7 @@ header_navigation:
 - text: 贡献
   url: /zh_cn/community/ruby-core/
   submenu:
-  - text: Ruby 核心
+  - text: Ruby 核心开发
     url: /zh_cn/community/ruby-core/
   - text: 仓库指南
     url: /zh_cn/documentation/repository-guide/
@@ -183,7 +183,7 @@ sidebar:
       url: /zh_cn/community/weblogs/
       description: 阅读 Ruby 相关的博客
     ruby_core:
-      text: Ruby 核心
+      text: Ruby 核心开发
       url: /zh_cn/community/ruby-core/
       description: 帮助开发 Ruby 语言
     issue_tracking:

@@ -101,7 +101,7 @@ header_navigation:
 - text: Принос
   url: /bg/community/ruby-core/
   submenu:
-  - text: Ruby ядро
+  - text: Разработка на Ruby ядро
     url: /bg/community/ruby-core/
   - text: Ръководство за хранилището
     url: /bg/documentation/repository-guide/
@@ -180,7 +180,7 @@ sidebar:
       url: /bg/community/weblogs/
       description: Прочетете какво се случва в Ruby обществото.
     ruby_core:
-      text: Ruby ядро
+      text: Разработка на Ruby ядро
       url: /bg/community/ruby-core/
       description: Помогнете за разработката на Ruby.
     issue_tracking:

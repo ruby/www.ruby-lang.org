@@ -101,7 +101,7 @@ header_navigation:
 - text: 기여하기
   url: /ko/community/ruby-core/
   submenu:
-  - text: Ruby 코어
+  - text: Ruby 코어 개발
     url: /ko/community/ruby-core/
   - text: 저장소 가이드
     url: /ko/documentation/repository-guide/
@@ -183,7 +183,7 @@ sidebar:
       url: /ko/community/weblogs/
       description: Ruby 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
     ruby_core:
-      text: Ruby 코어
+      text: Ruby 코어 개발
       url: /ko/community/ruby-core/
       description: 최신 버전 Ruby의 연마를 돕기
     issue_tracking:

@@ -101,7 +101,7 @@ header_navigation:
 - text: Вклад
   url: /ru/community/ruby-core/
   submenu:
-  - text: Ядро Ruby
+  - text: Разработка ядра Ruby
     url: /ru/community/ruby-core/
   - text: Руководство по репозиторию
     url: /ru/documentation/repository-guide/
@@ -184,7 +184,7 @@ sidebar:
       description: Читайте о том, что происходит в сообществе Ruby прямо
         сейчас.
     ruby_core:
-      text: Ядро Ruby
+      text: Разработка ядра Ruby
       url: /ru/community/ruby-core/
       description: Помощь в полировке последней версии Ruby.
     issue_tracking:

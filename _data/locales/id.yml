@@ -101,7 +101,7 @@ header_navigation:
 - text: Kontribusi
   url: /id/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Pengembangan Ruby Core
     url: /id/community/ruby-core/
   - text: Panduan Repositori
     url: /id/documentation/repository-guide/
@@ -184,7 +184,7 @@ sidebar:
       url: /id/community/weblogs/
       description: Ulasan terbaru dari komunitas Ruby.
     ruby_core:
-      text: Ruby Core
+      text: Pengembangan Ruby Core
       url: /id/community/ruby-core/
       description: Silakan berkontribusi untuk versi Ruby terbaru.
     issue_tracking:

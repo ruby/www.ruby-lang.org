@@ -14,7 +14,7 @@ sitelinks:
   url: /ja/libraries
 - text: コミュニティ
   url: /ja/community
-- text: コア開発
+- text: Rubyコア開発
   url: /ja/dev
 - text: ニュース
   url: /ja/news
@@ -107,7 +107,7 @@ header_navigation:
 - text: コントリビューション
   url: /ja/dev/
   submenu:
-  - text: コア開発
+  - text: Rubyコア開発
     url: /ja/dev/
   - text: リポジトリガイド
     url: /ja/documentation/repository-guide/

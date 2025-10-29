@@ -102,7 +102,7 @@ header_navigation:
 - text: Katkıda Bulunun
   url: /tr/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Ruby Core Geliştirme
     url: /tr/community/ruby-core/
   - text: Depo Rehberi
     url: /tr/documentation/repository-guide/
@@ -184,7 +184,7 @@ sidebar:
       url: /tr/community/weblogs/
       description: Ruby'de neler olduğunu takip edin.
     ruby_core:
-      text: Ruby Core
+      text: Ruby Core Geliştirme
       url: /tr/community/ruby-core/
       description: En son Ruby'nin kaba taraflarının parlatılmasına yardımcı
         olun.
