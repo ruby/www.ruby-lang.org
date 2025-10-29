@@ -103,10 +103,9 @@
             {% for nesteditem in subitem.submenu %}
             <li>
               <a href="{{ nesteditem.url }}"
-                 class="block py-1 pl-4 text-sm {% if page.url == nesteditem.url %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors {% if nesteditem.external %}inline-flex items-center gap-1{% endif %}"
+                 class="block py-1 pl-4 text-sm {% if page.url == nesteditem.url %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
                  {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                {{ nesteditem.text }}
-                {% if nesteditem.external %}<span class="icon-external text-xs" aria-hidden="true"></span>{% endif %}
+                {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-xs inline-block align-baseline ml-0.5" aria-hidden="true"></span>{% endif %}
               </a>
             </li>
             {% endfor %}

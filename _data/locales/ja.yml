@@ -65,7 +65,7 @@ header_navigation:
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-    - text: Ruby リファレンスマニュアル
+    - text: Ruby リファレンスマニュアル（るりま）
       url: https://docs.ruby-lang.org/ja/3.4/doc/index.html
       external: true
     - text: るりまサーチ

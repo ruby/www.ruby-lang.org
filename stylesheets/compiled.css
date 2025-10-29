@@ -1422,6 +1422,10 @@ body:is(.dark *){
   margin-bottom: 2rem;
 }
 
+.ml-0\.5{
+  margin-left: 0.125rem;
+}
+
 .mt-0{
   margin-top: 0px;
 }
@@ -1448,6 +1452,10 @@ body:is(.dark *){
 
 .block{
   display: block;
+}
+
+.inline-block{
+  display: inline-block;
 }
 
 .inline{
@@ -1837,6 +1845,10 @@ body:is(.dark *){
 
 .text-center{
   text-align: center;
+}
+
+.align-baseline{
+  vertical-align: baseline;
 }
 
 .font-logo{
