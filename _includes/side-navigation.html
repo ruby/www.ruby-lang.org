@@ -98,12 +98,12 @@
           Section with nested submenu
         {% endcomment %}
         <div class="{% if forloop.first %}pt-0 mt-0{% else %}pt-6 mt-6{% endif %} border-b border-stone-200 dark:border-stone-700 pb-6">
-          <h4 class="text-xs font-semibold text-stone-500 dark:text-stone-400 mb-4">{{ subitem.text }}</h4>
-          <ul class="space-y-2">
+          <h4 class="text-xs font-semibold text-stone-500 dark:text-stone-400 mb-4 pl-1">{{ subitem.text }}</h4>
+          <ul class="space-y-2 list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">
             {% for nesteditem in subitem.submenu %}
-            <li>
+            <li class="{% if nesteditem.external %}list-item{% else %}list-none{% endif %}">
               <a href="{{ nesteditem.url }}"
-                 class="block py-1 pl-4 text-sm {% if page.url == nesteditem.url %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
+                 class="block py-1 {% unless nesteditem.external %}pl-4{% endunless %} text-sm {% if page.url == nesteditem.url %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
                  {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
                 {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-xs inline-block align-baseline ml-0.5" aria-hidden="true"></span>{% endif %}
               </a>
@@ -117,7 +117,7 @@
         {% endcomment %}
         <div class="border-b border-stone-200 dark:border-stone-700">
           <a href="{{ subitem.url }}"
-             class="flex items-center justify-between py-3 text-sm group {% if page.url == subitem.url %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-bold{% endif %} transition-colors"
+             class="flex items-center justify-between py-3 pl-1 text-sm group {% if page.url == subitem.url %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-bold{% endif %} transition-colors"
              {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
             <span class="{% if subitem.external %}inline-flex items-center gap-1{% endif %}">
               {{ subitem.text }}

@@ -1478,6 +1478,10 @@ body:is(.dark *){
   display: contents;
 }
 
+.list-item{
+  display: list-item;
+}
+
 .hidden{
   display: none;
 }
@@ -1582,6 +1586,10 @@ body:is(.dark *){
 
 .list-disc{
   list-style-type: disc;
+}
+
+.list-none{
+  list-style-type: none;
 }
 
 .flex-col{
