@@ -108,6 +108,8 @@ header_navigation:
     url: /de/documentation/repository-guide/
   - text: Mailing-Listen
     url: /de/community/mailing-lists/
+  - text: Patch-Leitfaden
+    url: /de/community/ruby-core/writing-patches/
   - text: Weitere
     submenu:
     - text: ruby/ruby

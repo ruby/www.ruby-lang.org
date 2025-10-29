@@ -110,6 +110,8 @@ header_navigation:
     url: /tr/community/mailing-lists/
   - text: E-posta Listesi Yönergeleri
     url: /tr/community/mailing-lists/ruby-talk-guidelines/
+  - text: Yama Yazma Kılavuzu
+    url: /tr/community/ruby-core/writing-patches/
   - text: Diğer
     submenu:
     - text: ruby/ruby

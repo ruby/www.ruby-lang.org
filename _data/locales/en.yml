@@ -116,6 +116,8 @@ header_navigation:
     url: /en/community/mailing-lists/
   - text: Mailing List Guidelines
     url: /en/community/mailing-lists/ruby-talk-guidelines/
+  - text: Patch Writer's Guide
+    url: /en/community/ruby-core/writing-patches/
   - text: Other
     submenu:
     - text: ruby/ruby

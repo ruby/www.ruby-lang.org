@@ -113,6 +113,8 @@ header_navigation:
     url: /ko/community/mailing-lists/
   - text: 메일링 리스트 가이드라인
     url: /ko/community/mailing-lists/ruby-talk-guidelines/
+  - text: 패치 작성 가이드
+    url: /ko/community/ruby-core/writing-patches/
   - text: 기타
     submenu:
     - text: ruby/ruby
