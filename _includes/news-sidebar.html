@@ -86,13 +86,10 @@
 
   <!-- Syndicate Section -->
   <div class="pt-6">
-    <h3 class="text-sm font-bold text-stone-900 dark:text-stone-100 mb-4 pl-1 flex items-center gap-2">
-      <span class="icon-rss-feed" aria-hidden="true"></span>
-      {{ syndicate.text }}
-    </h3>
-    <p>
-      <a href="{{ syndicate.recent_news.url }}" class="text-stone-700 dark:text-stone-300 hover:text-semantic-text-link-hovered transition-colors">
-        {{ syndicate.recent_news.text }}
+    <p class="pl-1">
+      <a href="{{ syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+        <span class="icon-rss-feed" aria-hidden="true"></span>
+        {{ syndicate.recent_news.text }}<span class="icon-external text-xs" aria-hidden="true"></span>
       </a>
     </p>
   </div>
