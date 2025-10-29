@@ -111,6 +111,8 @@ header_navigation:
     url: /ko/documentation/repository-guide/
   - text: 메일링 리스트
     url: /ko/community/mailing-lists/
+  - text: 메일링 리스트 가이드라인
+    url: /ko/community/mailing-lists/ruby-talk-guidelines/
   - text: 기타
     submenu:
     - text: ruby/ruby

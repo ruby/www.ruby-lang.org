@@ -114,6 +114,8 @@ header_navigation:
     url: /en/documentation/repository-guide/
   - text: Mailing Lists
     url: /en/community/mailing-lists/
+  - text: Mailing List Guidelines
+    url: /en/community/mailing-lists/ruby-talk-guidelines/
   - text: Other
     submenu:
     - text: ruby/ruby

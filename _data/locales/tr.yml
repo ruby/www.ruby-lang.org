@@ -108,6 +108,8 @@ header_navigation:
     url: /tr/documentation/repository-guide/
   - text: Mail Listeleri
     url: /tr/community/mailing-lists/
+  - text: E-posta Listesi Yönergeleri
+    url: /tr/community/mailing-lists/ruby-talk-guidelines/
   - text: Diğer
     submenu:
     - text: ruby/ruby
