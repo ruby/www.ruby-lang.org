@@ -64,6 +64,8 @@ header_navigation:
     url: /en/documentation/quickstart/
   - text: Ruby from Other Languages
     url: /en/documentation/ruby-from-other-languages/
+  - text: FAQ
+    url: /en/documentation/faq/
   - text: Get Started & Explore
     submenu:
     - text: TryRuby

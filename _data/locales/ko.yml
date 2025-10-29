@@ -61,6 +61,8 @@ header_navigation:
     url: /ko/documentation/quickstart/
   - text: 다른 언어에서 Ruby로
     url: /ko/documentation/ruby-from-other-languages/
+  - text: FAQ
+    url: /ko/documentation/faq/
   - text: 시작하기 & 탐색하기
     submenu:
     - text: TryRuby
