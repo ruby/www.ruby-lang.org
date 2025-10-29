@@ -261,6 +261,9 @@ footer:
     about_website:
       text: O tej stronie internetowej
       url: /pl/about/website/
+    logo_page:
+      text: O logo
+      url: /pl/about/logo/
     news_rss:
       text: Wiadomości RSS
       url: /pl/feeds/news.rss

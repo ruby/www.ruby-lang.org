@@ -270,6 +270,9 @@ footer:
     about_website:
       text: このウェブサイトについて
       url: /ja/about/website/
+    logo_page:
+      text: ロゴについて
+      url: /ja/about/logo/
     news_rss:
       text: ニュースRSS
       url: /ja/feeds/news.rss

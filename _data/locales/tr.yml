@@ -259,6 +259,9 @@ footer:
     about_website:
       text: Bu Web Sitesi Hakkında
       url: /tr/about/website/
+    logo_page:
+      text: Logo hakkında
+      url: /tr/about/logo/
     news_rss:
       text: Haberler RSS
       url: /tr/feeds/news.rss

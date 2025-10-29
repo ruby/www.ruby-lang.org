@@ -255,6 +255,9 @@ footer:
     about_website:
       text: За този сайт
       url: /bg/about/website/
+    logo_page:
+      text: За логото
+      url: /bg/about/logo/
     news_rss:
       text: Новини RSS
       url: /bg/feeds/news.rss

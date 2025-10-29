@@ -245,6 +245,9 @@ footer:
     about_website:
       text: 关于本网站
       url: /zh_cn/about/website/
+    logo_page:
+      text: 关于标志
+      url: /zh_cn/about/logo/
     news_rss:
       text: 新闻 RSS
       url: /zh_cn/feeds/news.rss

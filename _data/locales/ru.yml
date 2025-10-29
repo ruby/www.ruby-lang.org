@@ -258,6 +258,9 @@ footer:
     about_website:
       text: Об этом сайте
       url: /ru/about/website/
+    logo_page:
+      text: О логотипе
+      url: /ru/about/logo/
     news_rss:
       text: Новости RSS
       url: /ru/feeds/news.rss

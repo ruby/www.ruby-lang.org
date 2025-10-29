@@ -244,6 +244,9 @@ footer:
     about_website:
       text: 關於本網站
       url: /zh_tw/about/website/
+    logo_page:
+      text: 關於標誌
+      url: /zh_tw/about/logo/
     news_rss:
       text: 新聞 RSS
       url: /zh_tw/feeds/news.rss

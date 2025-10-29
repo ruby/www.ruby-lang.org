@@ -244,6 +244,9 @@ footer:
     about_website:
       text: 이 웹사이트에 대해서
       url: /ko/about/website/
+    logo_page:
+      text: 로고 정보
+      url: /ko/about/logo/
     news_rss:
       text: 뉴스 RSS
       url: /ko/feeds/news.rss

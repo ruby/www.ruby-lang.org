@@ -256,6 +256,9 @@ footer:
     about_website:
       text: À propos de ce site web
       url: /fr/about/website/
+    logo_page:
+      text: À propos du logo
+      url: /fr/about/logo/
     news_rss:
       text: Actualités RSS
       url: /fr/feeds/news.rss

@@ -258,6 +258,9 @@ footer:
     about_website:
       text: Tentang Situs Web Ini
       url: /id/about/website/
+    logo_page:
+      text: Tentang logo
+      url: /id/about/logo/
     news_rss:
       text: Berita RSS
       url: /id/feeds/news.rss

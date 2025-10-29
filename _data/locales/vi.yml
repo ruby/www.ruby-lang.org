@@ -257,6 +257,9 @@ footer:
     about_website:
       text: Về Trang Web Này
       url: /vi/about/website/
+    logo_page:
+      text: Về logo
+      url: /vi/about/logo/
     news_rss:
       text: Tin tức RSS
       url: /vi/feeds/news.rss

@@ -29,6 +29,13 @@
         </a>
         {% endif %}
 
+        {% if footer.links.logo_page %}
+        <a href="{{ footer.links.logo_page.url }}"
+           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
+          {{ footer.links.logo_page.text }}
+        </a>
+        {% endif %}
+
         {% if footer.links.news_rss %}
         <a href="{{ footer.links.news_rss.url }}"
            class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
