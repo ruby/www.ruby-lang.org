@@ -29,6 +29,8 @@ header_navigation:
 - text: İndirin
   url: /tr/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /tr/documentation/installation/
   - text: İndirin
     url: /tr/downloads/
   - text: Paket Yöneticileri
@@ -56,6 +58,17 @@ header_navigation:
     url: /tr/documentation/quickstart/
   - text: Diğer Dillerden Ruby'ye
     url: /tr/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C ve C++ dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Java'dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Perl'den Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHP'den Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Python'dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Başlamak & Keşfedin
     submenu:
     - text: TryRuby
@@ -100,12 +113,16 @@ header_navigation:
 - text: Katkıda Bulunun
   url: /tr/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Ruby Core Geliştirme
     url: /tr/community/ruby-core/
   - text: Depo Rehberi
     url: /tr/documentation/repository-guide/
   - text: Mail Listeleri
     url: /tr/community/mailing-lists/
+  - text: E-posta Listesi Yönergeleri
+    url: /tr/community/mailing-lists/ruby-talk-guidelines/
+  - text: Yama Yazma Kılavuzu
+    url: /tr/community/ruby-core/writing-patches/
   - text: Diğer
     submenu:
     - text: ruby/ruby
@@ -122,12 +139,14 @@ header_navigation:
   submenu:
   - text: Topluluk
     url: /tr/community/
-  - text: Çevrimiçi Topluluk
-    submenu:
-    - text: Kullanıcı Grupları
-      url: /tr/community/user-groups/
-    - text: Web günlükleri
-      url: /tr/community/weblogs/
+  - text: Kullanıcı Grupları
+    url: /tr/community/user-groups/
+  - text: Web günlükleri
+    url: /tr/community/weblogs/
+  - text: Podcast'ler
+    url: /tr/community/podcasts/
+  - text: Davranış Yönergesi
+    url: /tr/conduct/
   - text: Etkinlikler ve Konferanslar
     submenu:
     - text: RubyKaigi
@@ -182,7 +201,7 @@ sidebar:
       url: /tr/community/weblogs/
       description: Ruby'de neler olduğunu takip edin.
     ruby_core:
-      text: Ruby Core
+      text: Ruby Core Geliştirme
       url: /tr/community/ruby-core/
       description: En son Ruby'nin kaba taraflarının parlatılmasına yardımcı
         olun.
@@ -257,6 +276,9 @@ footer:
     about_website:
       text: Bu Web Sitesi Hakkında
       url: /tr/about/website/
+    logo_page:
+      text: Logo hakkında
+      url: /tr/about/logo/
     news_rss:
       text: Haberler RSS
       url: /tr/feeds/news.rss

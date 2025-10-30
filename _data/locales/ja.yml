@@ -14,7 +14,7 @@ sitelinks:
   url: /ja/libraries
 - text: コミュニティ
   url: /ja/community
-- text: コア開発
+- text: Rubyコア開発
   url: /ja/dev
 - text: ニュース
   url: /ja/news
@@ -31,8 +31,14 @@ header_navigation:
 - text: インストール
   url: /ja/documentation/installation/
   submenu:
+  - text: Rubyのインストール
+    url: /ja/documentation/installation/
   - text: ダウンロード
     url: /ja/downloads/
+  - text: リリース
+    url: /ja/downloads/releases/
+  - text: ブランチ
+    url: /ja/downloads/branches/
   - text: パッケージマネージャー
     submenu:
     - text: rbenv
@@ -58,12 +64,23 @@ header_navigation:
     url: /ja/documentation/quickstart/
   - text: 他言語からのRuby入門
     url: /ja/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C・C++からRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: JavaからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: PerlからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHPからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: PythonからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: はじめよう・探求しよう
     submenu:
     - text: TryRuby
       url: https://try.ruby-lang.org/
       external: true
-    - text: Ruby リファレンスマニュアル
+    - text: Ruby リファレンスマニュアル（るりま）
       url: https://docs.ruby-lang.org/ja/3.4/doc/index.html
       external: true
     - text: るりまサーチ
@@ -105,7 +122,7 @@ header_navigation:
 - text: コントリビューション
   url: /ja/dev/
   submenu:
-  - text: コア開発
+  - text: Rubyコア開発
     url: /ja/dev/
   - text: リポジトリガイド
     url: /ja/documentation/repository-guide/
@@ -127,6 +144,8 @@ header_navigation:
   submenu:
   - text: コミュニティ
     url: /ja/community/
+  - text: 行動規範ガイドライン
+    url: /ja/conduct/
   - text: オンラインコミュニティ
     submenu:
     - text: Slack (ruby-jp)
@@ -245,7 +264,7 @@ news:
   recent_news: 最近のニュース
   yearly_archive_title: "%Y年のアーカイブ"
   monthly_archive_title: "%Y年%m月のアーカイブ"
-  yearly_archives: 年毎のアーカイブ
+  yearly_archives: 年毎のニュース
   monthly_archives: 月毎のアーカイブ
   yearly_archive_link: "%Y年のアーカイブ"
   monthly_archive_link: "%Y年%m月"
@@ -268,6 +287,9 @@ footer:
     about_website:
       text: このウェブサイトについて
       url: /ja/about/website/
+    logo_page:
+      text: ロゴについて
+      url: /ja/about/logo/
     news_rss:
       text: ニュースRSS
       url: /ja/feeds/news.rss

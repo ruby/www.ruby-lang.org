@@ -28,8 +28,14 @@ header_navigation:
 - text: 다운로드
   url: /ko/documentation/installation/
   submenu:
+  - text: Ruby 설치
+    url: /ko/documentation/installation/
   - text: 다운로드
     url: /ko/downloads/
+  - text: 릴리스
+    url: /ko/downloads/releases/
+  - text: 브랜치
+    url: /ko/downloads/branches/
   - text: 패키지 관리자
     submenu:
     - text: rbenv
@@ -55,6 +61,19 @@ header_navigation:
     url: /ko/documentation/quickstart/
   - text: 다른 언어에서 Ruby로
     url: /ko/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C나 C++에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Java에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Perl에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHP에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Python에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: FAQ
+    url: /ko/documentation/faq/
   - text: 시작하기 & 탐색하기
     submenu:
     - text: TryRuby
@@ -99,12 +118,16 @@ header_navigation:
 - text: 기여하기
   url: /ko/community/ruby-core/
   submenu:
-  - text: Ruby 코어
+  - text: Ruby 코어 개발
     url: /ko/community/ruby-core/
   - text: 저장소 가이드
     url: /ko/documentation/repository-guide/
   - text: 메일링 리스트
     url: /ko/community/mailing-lists/
+  - text: 메일링 리스트 가이드라인
+    url: /ko/community/mailing-lists/ruby-talk-guidelines/
+  - text: 패치 작성 가이드
+    url: /ko/community/ruby-core/writing-patches/
   - text: 기타
     submenu:
     - text: ruby/ruby
@@ -121,12 +144,14 @@ header_navigation:
   submenu:
   - text: 커뮤니티
     url: /ko/community/
-  - text: 온라인 커뮤니티
-    submenu:
-    - text: 유저 그룹
-      url: /ko/community/user-groups/
-    - text: 블로그와 뉴스레터
-      url: /ko/community/weblogs/
+  - text: 유저 그룹
+    url: /ko/community/user-groups/
+  - text: 블로그와 뉴스레터
+    url: /ko/community/weblogs/
+  - text: 팟캐스트
+    url: /ko/community/podcasts/
+  - text: 행동 지침
+    url: /ko/conduct/
   - text: 이벤트 & 컨퍼런스
     submenu:
     - text: RubyKaigi
@@ -181,7 +206,7 @@ sidebar:
       url: /ko/community/weblogs/
       description: Ruby 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
     ruby_core:
-      text: Ruby 코어
+      text: Ruby 코어 개발
       url: /ko/community/ruby-core/
       description: 최신 버전 Ruby의 연마를 돕기
     issue_tracking:
@@ -242,6 +267,9 @@ footer:
     about_website:
       text: 이 웹사이트에 대해서
       url: /ko/about/website/
+    logo_page:
+      text: 로고 정보
+      url: /ko/about/logo/
     news_rss:
       text: 뉴스 RSS
       url: /ko/feeds/news.rss

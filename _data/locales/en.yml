@@ -29,8 +29,16 @@ header_navigation:
 - text: Install
   url: /en/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /en/documentation/installation/
   - text: Downloads
     url: /en/downloads/
+  - text: Releases
+    url: /en/downloads/releases/
+  - text: Branches
+    url: /en/downloads/branches/
+  - text: Mirrors
+    url: /en/downloads/mirrors/
   - text: Package Managers
     submenu:
     - text: rbenv
@@ -56,6 +64,19 @@ header_navigation:
     url: /en/documentation/quickstart/
   - text: Ruby from Other Languages
     url: /en/documentation/ruby-from-other-languages/
+    submenu:
+    - text: To Ruby From C and C++
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: To Ruby From Java
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: To Ruby From Perl
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: To Ruby From PHP
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: To Ruby From Python
+      url: /en/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: FAQ
+    url: /en/documentation/faq/
   - text: Get Started & Explore
     submenu:
     - text: TryRuby
@@ -100,12 +121,16 @@ header_navigation:
 - text: Contribution
   url: /en/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Ruby Core Development
     url: /en/community/ruby-core/
   - text: Repository Guide
     url: /en/documentation/repository-guide/
   - text: Mailing Lists
     url: /en/community/mailing-lists/
+  - text: Mailing List Guidelines
+    url: /en/community/mailing-lists/ruby-talk-guidelines/
+  - text: Patch Writer's Guide
+    url: /en/community/ruby-core/writing-patches/
   - text: Other
     submenu:
     - text: ruby/ruby
@@ -122,12 +147,14 @@ header_navigation:
   submenu:
   - text: Community
     url: /en/community/
-  - text: Online Community
-    submenu:
-    - text: User Groups
-      url: /en/community/user-groups/
-    - text: Blogs and Newsletters
-      url: /en/community/weblogs/
+  - text: User Groups
+    url: /en/community/user-groups/
+  - text: Blogs and Newsletters
+    url: /en/community/weblogs/
+  - text: Podcasts
+    url: /en/community/podcasts/
+  - text: Code of Conduct
+    url: /en/conduct/
   - text: Events & Conferences
     submenu:
     - text: RubyKaigi
@@ -188,7 +215,7 @@ sidebar:
       url: /en/community/weblogs/
       description: Read about what’s happening right now in the Ruby community.
     ruby_core:
-      text: Ruby Core
+      text: Ruby Core Development
       url: /en/community/ruby-core/
       description: Help polish the rough edges of the latest Ruby.
     issue_tracking:
@@ -263,9 +290,15 @@ footer:
     about_website:
       text: About This Website
       url: /en/about/website/
+    logo_page:
+      text: About the Logo
+      url: /en/about/logo/
     news_rss:
       text: News RSS
       url: /en/feeds/news.rss
+    privacy:
+      text: Privacy Policy
+      url: /en/privacy/
     ruby_license:
       text: Ruby License
       url: /en/about/license.txt

@@ -29,6 +29,8 @@ header_navigation:
 - text: Descargas
   url: /es/documentation/installation/
   submenu:
+  - text: Instalar Ruby
+    url: /es/documentation/installation/
   - text: Descargas
     url: /es/downloads/
   - text: Gestores de paquetes
@@ -56,6 +58,13 @@ header_navigation:
     url: /es/documentation/quickstart/
   - text: Ruby desde otros lenguajes
     url: /es/documentation/ruby-from-other-languages/
+    submenu:
+    - text: A Ruby desde Java
+      url: /es/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: A Ruby desde PHP
+      url: /es/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: A Ruby desde Python
+      url: /es/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Comienza & Explora
     submenu:
     - text: TryRuby
@@ -100,12 +109,14 @@ header_navigation:
 - text: Contribuir
   url: /es/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Desarrollo de Ruby Core
     url: /es/community/ruby-core/
   - text: Guía del repositorio
     url: /es/documentation/repository-guide/
   - text: Listas de correo
     url: /es/community/mailing-lists/
+  - text: Guía de Parches
+    url: /es/community/ruby-core/writing-patches/
   - text: Otros
     submenu:
     - text: ruby/ruby
@@ -122,12 +133,10 @@ header_navigation:
   submenu:
   - text: Comunidad
     url: /es/community/
-  - text: Comunidad en línea
-    submenu:
-    - text: Grupos de usuarios
-      url: /es/community/user-groups/
-    - text: Blogs
-      url: /es/community/weblogs/
+  - text: Grupos de usuarios
+    url: /es/community/user-groups/
+  - text: Podcasts
+    url: /es/community/podcasts/
   - text: Eventos y conferencias
     submenu:
     - text: RubyKaigi
@@ -182,7 +191,7 @@ sidebar:
       url: /en/community/weblogs/
       description: Entérate de lo que está sucediendo en la comunidad.
     ruby_core:
-      text: Ruby Core
+      text: Desarrollo de Ruby Core
       url: /es/community/ruby-core/
       description: Ayuda a mejorar el futuro de Ruby.
     issue_tracking:
@@ -260,6 +269,9 @@ footer:
     about_website:
       text: Acerca de este sitio web
       url: /es/about/website/
+    logo_page:
+      text: Acerca del logo
+      url: /es/about/logo/
     news_rss:
       text: Noticias RSS
       url: /es/feeds/news.rss

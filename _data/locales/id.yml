@@ -28,6 +28,8 @@ header_navigation:
 - text: Unduh
   url: /id/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /id/documentation/installation/
   - text: Unduh
     url: /id/downloads/
   - text: Manajer Paket
@@ -55,6 +57,17 @@ header_navigation:
     url: /id/documentation/quickstart/
   - text: Dari Bahasa Pemrograman Lain ke Ruby
     url: /id/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Dari C dan C++ ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Dari Java ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Dari Perl ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Dari PHP ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Dari Python ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Coba Sekarang & Jelajahi
     submenu:
     - text: TryRuby
@@ -99,7 +112,7 @@ header_navigation:
 - text: Kontribusi
   url: /id/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Pengembangan Ruby Core
     url: /id/community/ruby-core/
   - text: Panduan Repositori
     url: /id/documentation/repository-guide/
@@ -121,12 +134,12 @@ header_navigation:
   submenu:
   - text: Komunitas
     url: /id/community/
-  - text: Komunitas Online
-    submenu:
-    - text: Komunitas Pengguna
-      url: /id/community/user-groups/
-    - text: Blog
-      url: /id/community/weblogs/
+  - text: Komunitas Pengguna
+    url: /id/community/user-groups/
+  - text: Blog
+    url: /id/community/weblogs/
+  - text: Podcast
+    url: /id/community/podcasts/
   - text: Acara & Konferensi
     submenu:
     - text: RubyKaigi
@@ -182,7 +195,7 @@ sidebar:
       url: /id/community/weblogs/
       description: Ulasan terbaru dari komunitas Ruby.
     ruby_core:
-      text: Ruby Core
+      text: Pengembangan Ruby Core
       url: /id/community/ruby-core/
       description: Silakan berkontribusi untuk versi Ruby terbaru.
     issue_tracking:
@@ -256,6 +269,9 @@ footer:
     about_website:
       text: Tentang Situs Web Ini
       url: /id/about/website/
+    logo_page:
+      text: Tentang logo
+      url: /id/about/logo/
     news_rss:
       text: Berita RSS
       url: /id/feeds/news.rss

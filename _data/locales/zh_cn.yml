@@ -28,8 +28,14 @@ header_navigation:
 - text: 下载
   url: /zh_cn/documentation/installation/
   submenu:
+  - text: 安装 Ruby
+    url: /zh_cn/documentation/installation/
   - text: 下载
     url: /zh_cn/downloads/
+  - text: 发布版本
+    url: /zh_cn/downloads/releases/
+  - text: 分支
+    url: /zh_cn/downloads/branches/
   - text: 包管理器
     submenu:
     - text: rbenv
@@ -55,6 +61,17 @@ header_navigation:
     url: /zh_cn/documentation/quickstart/
   - text: 从其它语言转到 Ruby
     url: /zh_cn/documentation/ruby-from-other-languages/
+    submenu:
+    - text: 从 C/C++ 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: 从 Java 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: 从 Perl 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: 从 PHP 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: 从 Python 到 Ruby
+      url: /zh_cn/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: 入门 & 探索
     submenu:
     - text: TryRuby
@@ -99,7 +116,7 @@ header_navigation:
 - text: 贡献
   url: /zh_cn/community/ruby-core/
   submenu:
-  - text: Ruby 核心
+  - text: Ruby 核心开发
     url: /zh_cn/community/ruby-core/
   - text: 仓库指南
     url: /zh_cn/documentation/repository-guide/
@@ -121,12 +138,10 @@ header_navigation:
   submenu:
   - text: 社区
     url: /zh_cn/community/
-  - text: 在线社区
-    submenu:
-    - text: 用户组
-      url: /zh_cn/community/user-groups/
-    - text: 博客
-      url: /zh_cn/community/weblogs/
+  - text: 用户组
+    url: /zh_cn/community/user-groups/
+  - text: 博客
+    url: /zh_cn/community/weblogs/
   - text: 活动与会议
     submenu:
     - text: RubyKaigi
@@ -181,7 +196,7 @@ sidebar:
       url: /zh_cn/community/weblogs/
       description: 阅读 Ruby 相关的博客
     ruby_core:
-      text: Ruby 核心
+      text: Ruby 核心开发
       url: /zh_cn/community/ruby-core/
       description: 帮助开发 Ruby 语言
     issue_tracking:
@@ -243,6 +258,9 @@ footer:
     about_website:
       text: 关于本网站
       url: /zh_cn/about/website/
+    logo_page:
+      text: 关于标志
+      url: /zh_cn/about/logo/
     news_rss:
       text: 新闻 RSS
       url: /zh_cn/feeds/news.rss

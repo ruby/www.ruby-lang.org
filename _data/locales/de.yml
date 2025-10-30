@@ -29,6 +29,8 @@ header_navigation:
 - text: Downloads
   url: /de/documentation/installation/
   submenu:
+  - text: Ruby installieren
+    url: /de/documentation/installation/
   - text: Downloads
     url: /de/downloads/
   - text: Paketmanager
@@ -56,6 +58,17 @@ header_navigation:
     url: /de/documentation/quickstart/
   - text: Ruby für Umsteiger
     url: /de/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Von C und C++ zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Von Java zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Von Perl zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Von PHP zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Von Python zu Ruby
+      url: /de/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Erste Schritte & Entdecken
     submenu:
     - text: TryRuby
@@ -100,12 +113,14 @@ header_navigation:
 - text: Beitragen
   url: /de/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Ruby-Core-Entwicklung
     url: /de/community/ruby-core/
   - text: Repository-Leitfaden
     url: /de/documentation/repository-guide/
   - text: Mailing-Listen
     url: /de/community/mailing-lists/
+  - text: Patch-Leitfaden
+    url: /de/community/ruby-core/writing-patches/
   - text: Weitere
     submenu:
     - text: ruby/ruby
@@ -122,12 +137,10 @@ header_navigation:
   submenu:
   - text: Community
     url: /de/community/
-  - text: Online-Community
-    submenu:
-    - text: User-Groups
-      url: /de/community/user-groups/
-    - text: Weblogs
-      url: /de/community/weblogs/
+  - text: User-Groups
+    url: /de/community/user-groups/
+  - text: Weblogs
+    url: /de/community/weblogs/
   - text: Events & Konferenzen
     submenu:
     - text: RubyKaigi
@@ -179,7 +192,7 @@ sidebar:
       url: /de/community/weblogs/
       description: Lies, was gerade jetzt in der Ruby-Community passiert.
     ruby_core:
-      text: Ruby-Entwicklung
+      text: Ruby-Core-Entwicklung
       url: /de/community/ruby-core/
       description: Hilf mit, die neuesten Ruby-Versionen zu verbessern.
     issue_tracking:
@@ -254,6 +267,9 @@ footer:
     about_website:
       text: Über diese Website
       url: /de/about/website/
+    logo_page:
+      text: Über das Logo
+      url: /de/about/logo/
     news_rss:
       text: Neuigkeiten RSS
       url: /de/feeds/news.rss

@@ -8,26 +8,36 @@ layout: default
   {% assign translated_by = site.data.locales['en'].translated_by %}
 {% endif %}
 
+<!-- Mobile Navigation Panel (collapsible, full width) -->
+{% capture nav_content %}{% include side-navigation.html %}{% endcapture %}
+<div class="md:hidden bg-stone-50 dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
+  <!-- Navigation toggle header -->
+  <button id="nav-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+    <span class="flex items-center gap-2 text-sm font-bold text-stone-900 dark:text-stone-100">
+      <span class="icon-menu text-base relative top-0.5" aria-hidden="true"></span>
+      <span id="nav-section-title"></span>
+    </span>
+    <span id="nav-chevron" class="icon-dropdown text-base text-stone-500 dark:text-stone-400 transition-transform"></span>
+  </button>
+
+  <!-- Navigation content panel -->
+  <div id="nav-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
+    <div class="px-4 pb-6">
+      {{ nav_content }}
+    </div>
+  </div>
+</div>
+
 <div class="container px-4 md:px-6 lg:px-8 py-6 md:py-8 lg:py-12">
   <!-- 3-column layout -->
   <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
     <!-- Desktop Navigation (hidden on mobile) -->
-    <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0">
-      {% include navigation.html %}
+    <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0 sticky top-24 self-start max-h-[calc(100vh-6rem)] overflow-y-auto">
+      {% include side-navigation.html %}
     </div>
 
     <!-- Main content and TOC wrapper -->
     <div class="flex-1 min-w-0 flex flex-col gap-6">
-      <!-- Navigation toggle button -->
-      <button id="nav-toggle" class="md:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
-        <span class="material-icons text-base">menu</span>
-        Navigation
-      </button>
-
-      <!-- Mobile Navigation Panel -->
-      <div id="nav-mobile-panel" class="md:hidden hidden">
-        {% include navigation.html %}
-      </div>
 
       <!-- TOC Section (Mobile/Tablet) -->
       {% if site.data.locales[page.lang].toc %}

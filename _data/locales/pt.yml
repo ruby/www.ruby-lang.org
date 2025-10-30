@@ -28,6 +28,8 @@ header_navigation:
 - text: Downloads
   url: /pt/documentation/installation/
   submenu:
+  - text: Instalar Ruby
+    url: /pt/documentation/installation/
   - text: Downloads
     url: /pt/downloads/
   - text: Gestores de Pacotes
@@ -55,6 +57,17 @@ header_navigation:
     url: /pt/documentation/quickstart/
   - text: Ruby a partir de outras linguagens
     url: /pt/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Para Ruby a partir de C e C++
+      url: /pt/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Para Ruby a partir de Java
+      url: /pt/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Para Ruby a partir de Perl
+      url: /pt/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Para Ruby a partir de PHP
+      url: /pt/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Para Ruby a partir de Python
+      url: /pt/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Primeiros passos & Explorar
     submenu:
     - text: TryRuby
@@ -99,7 +112,7 @@ header_navigation:
 - text: Contribuição
   url: /pt/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Desenvolvimento do Ruby Core
     url: /pt/community/ruby-core/
   - text: Guia do Repositório
     url: /pt/documentation/repository-guide/
@@ -121,12 +134,10 @@ header_navigation:
   submenu:
   - text: Comunidade
     url: /pt/community/
-  - text: Comunidade Online
-    submenu:
-    - text: Grupos de Usuários
-      url: /pt/community/user-groups/
-    - text: Weblogs
-      url: /pt/community/weblogs/
+  - text: Grupos de Usuários
+    url: /pt/community/user-groups/
+  - text: Weblogs
+    url: /pt/community/weblogs/
   - text: Eventos e Conferências
     submenu:
     - text: RubyKaigi
@@ -179,7 +190,7 @@ sidebar:
       description: Leia sobre o que está acontecendo agora na comunidade
         Ruby.
     ruby_core:
-      text: Ruby Core
+      text: Desenvolvimento do Ruby Core
       url: /pt/community/ruby-core/
       description: Ajude a polir as arestas da última versão do Ruby.
     issue_tracking:
@@ -253,6 +264,9 @@ footer:
     about_website:
       text: Sobre Este Website
       url: /pt/about/website/
+    logo_page:
+      text: Sobre o logotipo
+      url: /pt/about/logo/
     news_rss:
       text: Notícias RSS
       url: /pt/feeds/news.rss

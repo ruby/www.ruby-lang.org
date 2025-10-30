@@ -1381,8 +1381,8 @@ body:is(.dark *){
   top: 6rem;
 }
 
-.top-full{
-  top: 100%;
+.top-0\.5{
+  top: 0.125rem;
 }
 
 .z-50{
@@ -1392,6 +1392,14 @@ body:is(.dark *){
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
+.mb-12{
+  margin-bottom: 3rem;
 }
 
 .mb-2{
@@ -1414,6 +1422,14 @@ body:is(.dark *){
   margin-bottom: 2rem;
 }
 
+.ml-0\.5{
+  margin-left: 0.125rem;
+}
+
+.mt-0{
+  margin-top: 0px;
+}
+
 .mt-1{
   margin-top: 0.25rem;
 }
@@ -1434,20 +1450,12 @@ body:is(.dark *){
   margin-top: 2rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
-.mb-12{
-  margin-bottom: 3rem;
-}
-
 .block{
   display: block;
+}
+
+.inline-block{
+  display: inline-block;
 }
 
 .inline{
@@ -1470,6 +1478,10 @@ body:is(.dark *){
   display: contents;
 }
 
+.list-item{
+  display: list-item;
+}
+
 .hidden{
   display: none;
 }
@@ -1482,8 +1494,16 @@ body:is(.dark *){
   height: 5rem;
 }
 
+.h-3{
+  height: 0.75rem;
+}
+
 .h-full{
   height: 100%;
+}
+
+.h-10{
+  height: 2.5rem;
 }
 
 .max-h-96{
@@ -1506,12 +1526,12 @@ body:is(.dark *){
   width: 3rem;
 }
 
-.w-56{
-  width: 14rem;
+.w-3{
+  width: 0.75rem;
 }
 
-.w-64{
-  width: 16rem;
+.w-56{
+  width: 14rem;
 }
 
 .w-fit{
@@ -1521,6 +1541,10 @@ body:is(.dark *){
 
 .w-full{
   width: 100%;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .min-w-0{
@@ -1613,6 +1637,12 @@ body:is(.dark *){
   row-gap: 0.5rem;
 }
 
+.space-y-0 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
 .space-y-1\.5 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1651,11 +1681,6 @@ body:is(.dark *){
   border-radius: 0.375rem;
 }
 
-.rounded-b-lg{
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
 .border{
   border-width: 1px;
 }
@@ -1670,10 +1695,6 @@ body:is(.dark *){
 
 .border-t{
   border-top-width: 1px;
-}
-
-.border-t-0{
-  border-top-width: 0px;
 }
 
 .border-stone-200{
@@ -1719,6 +1740,16 @@ body:is(.dark *){
   padding-right: 1rem;
 }
 
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-1\.5{
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
@@ -1744,8 +1775,8 @@ body:is(.dark *){
   padding-bottom: 1.5rem;
 }
 
-.pb-2{
-  padding-bottom: 0.5rem;
+.pb-3{
+  padding-bottom: 0.75rem;
 }
 
 .pb-6{
@@ -1772,24 +1803,12 @@ body:is(.dark *){
   padding-left: 1.25rem;
 }
 
-.pl-6{
-  padding-left: 1.5rem;
-}
-
-.pl-8{
-  padding-left: 2rem;
-}
-
-.pr-3{
-  padding-right: 0.75rem;
-}
-
-.pr-4{
-  padding-right: 1rem;
-}
-
 .pr-6{
   padding-right: 1.5rem;
+}
+
+.pt-0{
+  padding-top: 0px;
 }
 
 .pt-12{
@@ -1810,6 +1829,10 @@ body:is(.dark *){
 
 .text-center{
   text-align: center;
+}
+
+.align-baseline{
+  vertical-align: baseline;
 }
 
 .font-logo{
@@ -1856,6 +1879,10 @@ body:is(.dark *){
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-normal{
+  font-weight: 400;
 }
 
 .font-semibold{
@@ -2090,10 +2117,6 @@ body:is(.dark *){
   visibility: visible;
 }
 
-.group:hover .group-hover\:text-semantic-text-hovered{
-  color: var(--color-text-hovered);
-}
-
 .group:hover .group-hover\:opacity-100{
   opacity: 1;
 }
@@ -2148,6 +2171,11 @@ body:is(.dark *){
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
 }
 
+.dark\:text-stone-500:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity, 1));
+}
+
 .dark\:marker\:text-stone-500 *:is(.dark *)::marker{
   color: rgb(120 113 108 );
 }
@@ -2173,6 +2201,26 @@ body:is(.dark *){
 
 .dark\:hover\:text-semantic-text-hovered:hover:is(.dark *){
   color: var(--color-text-hovered);
+}
+
+@media (min-width: 640px){
+  .sm\:h-12{
+    height: 3rem;
+  }
+
+  .sm\:w-12{
+    width: 3rem;
+  }
+
+  .sm\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sm\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 768px){
@@ -2297,6 +2345,11 @@ body:is(.dark *){
     padding-bottom: 3rem;
   }
 
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .lg\:pb-0{
     padding-bottom: 0px;
   }
@@ -2317,5 +2370,10 @@ body:is(.dark *){
 
   .xl\:w-64{
     width: 16rem;
+  }
+
+  .xl\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }

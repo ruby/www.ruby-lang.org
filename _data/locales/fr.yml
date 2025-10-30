@@ -29,6 +29,8 @@ header_navigation:
 - text: Téléchargements
   url: /fr/documentation/installation/
   submenu:
+  - text: Installer Ruby
+    url: /fr/documentation/installation/
   - text: Téléchargements
     url: /fr/downloads/
   - text: Gestionnaires de paquets
@@ -56,6 +58,17 @@ header_navigation:
     url: /fr/documentation/quickstart/
   - text: Vous venez d'un autre langage?
     url: /fr/documentation/ruby-from-other-languages/
+    submenu:
+    - text: De C/C++ à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: De Java à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: De Perl à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: De PHP à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: De Python à Ruby
+      url: /fr/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Lancez-vous & Explorez
     submenu:
     - text: TryRuby
@@ -100,7 +113,7 @@ header_navigation:
 - text: Contribuer
   url: /fr/community/ruby-core/
   submenu:
-  - text: Ruby Core
+  - text: Développement de Ruby Core
     url: /fr/community/ruby-core/
   - text: Guide du dépôt
     url: /fr/documentation/repository-guide/
@@ -122,12 +135,10 @@ header_navigation:
   submenu:
   - text: Communauté
     url: /fr/community/
-  - text: Communauté en ligne
-    submenu:
-    - text: Groupes d'utilisateur
-      url: /fr/community/user-groups/
-    - text: Blogs
-      url: /fr/community/weblogs/
+  - text: Groupes d'utilisateur
+    url: /fr/community/user-groups/
+  - text: Blogs
+    url: /fr/community/weblogs/
   - text: Événements et conférences
     submenu:
     - text: RubyKaigi
@@ -179,7 +190,7 @@ sidebar:
       url: /fr/community/weblogs/
       description: suivez toute l’actualité de la communauté Ruby.
     ruby_core:
-      text: Ruby Core
+      text: Développement de Ruby Core
       url: /fr/community/ruby-core/
       description: apportez votre aide à l'élaboration du prochain Ruby.
     issue_tracking:
@@ -254,6 +265,9 @@ footer:
     about_website:
       text: À propos de ce site web
       url: /fr/about/website/
+    logo_page:
+      text: À propos du logo
+      url: /fr/about/logo/
     news_rss:
       text: Actualités RSS
       url: /fr/feeds/news.rss

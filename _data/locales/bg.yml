@@ -28,6 +28,8 @@ header_navigation:
 - text: За сваляне
   url: /bg/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /bg/documentation/installation/
   - text: За сваляне
     url: /bg/downloads/
   - text: Мениджъри на пакети
@@ -55,6 +57,17 @@ header_navigation:
     url: /bg/documentation/quickstart/
   - text: Ruby от други езици
     url: /bg/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Oт C/C++ към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Oт Java към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Oт Perl към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Oт PHP към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Oт Python към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Започнете & Изследвайте
     submenu:
     - text: TryRuby
@@ -99,7 +112,7 @@ header_navigation:
 - text: Принос
   url: /bg/community/ruby-core/
   submenu:
-  - text: Ruby ядро
+  - text: Разработка на Ruby ядро
     url: /bg/community/ruby-core/
   - text: Ръководство за хранилището
     url: /bg/documentation/repository-guide/
@@ -121,12 +134,10 @@ header_navigation:
   submenu:
   - text: Общност
     url: /bg/community/
-  - text: Онлайн общност
-    submenu:
-    - text: Потребителски групи
-      url: /bg/community/user-groups/
-    - text: Блогове
-      url: /bg/community/weblogs/
+  - text: Потребителски групи
+    url: /bg/community/user-groups/
+  - text: Блогове
+    url: /bg/community/weblogs/
   - text: Събития и конференции
     submenu:
     - text: RubyKaigi
@@ -178,7 +189,7 @@ sidebar:
       url: /bg/community/weblogs/
       description: Прочетете какво се случва в Ruby обществото.
     ruby_core:
-      text: Ruby ядро
+      text: Разработка на Ruby ядро
       url: /bg/community/ruby-core/
       description: Помогнете за разработката на Ruby.
     issue_tracking:
@@ -253,6 +264,9 @@ footer:
     about_website:
       text: За този сайт
       url: /bg/about/website/
+    logo_page:
+      text: За логото
+      url: /bg/about/logo/
     news_rss:
       text: Новини RSS
       url: /bg/feeds/news.rss

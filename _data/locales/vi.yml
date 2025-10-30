@@ -28,6 +28,8 @@ header_navigation:
 - text: Downloads
   url: /vi/documentation/installation/
   submenu:
+  - text: Installing Ruby
+    url: /vi/documentation/installation/
   - text: Downloads
     url: /vi/downloads/
   - text: Trình quản lý gói
@@ -55,6 +57,17 @@ header_navigation:
     url: /vi/documentation/quickstart/
   - text: Ruby từ những ngôn ngữ khác
     url: /vi/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Đến với Ruby từ C và C++
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Đến với Ruby từ Java
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Đến với Ruby từ Perl
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Đến với Ruby từ PHP
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Đến với Ruby từ Python
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Nhập môn & Khám phá
     submenu:
     - text: TryRuby
@@ -99,7 +112,7 @@ header_navigation:
 - text: Đóng góp
   url: /vi/community/ruby-core/
   submenu:
-  - text: Lõi Ruby
+  - text: Phát triển Lõi Ruby
     url: /vi/community/ruby-core/
   - text: Hướng dẫn kho lưu trữ
     url: /vi/documentation/repository-guide/
@@ -121,12 +134,10 @@ header_navigation:
   submenu:
   - text: Cộng đồng
     url: /vi/community/
-  - text: Cộng đồng Trực tuyến
-    submenu:
-    - text: Nhóm người dùng
-      url: /vi/community/user-groups/
-    - text: Weblogs
-      url: /vi/community/weblogs/
+  - text: Nhóm người dùng
+    url: /vi/community/user-groups/
+  - text: Weblogs
+    url: /vi/community/weblogs/
   - text: Sự kiện & Hội nghị
     submenu:
     - text: RubyKaigi
@@ -178,7 +189,7 @@ sidebar:
       url: /vi/community/weblogs/
       description: Đọc về những gì đang xảy ra với cộng đồng Ruby.
     ruby_core:
-      text: Lõi Ruby
+      text: Phát triển Lõi Ruby
       url: /vi/community/ruby-core/
       description: Giúp hoàn thiện Ruby.
     issue_tracking:
@@ -255,6 +266,9 @@ footer:
     about_website:
       text: Về Trang Web Này
       url: /vi/about/website/
+    logo_page:
+      text: Về logo
+      url: /vi/about/logo/
     news_rss:
       text: Tin tức RSS
       url: /vi/feeds/news.rss

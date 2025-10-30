@@ -1,0 +1,27 @@
+{% comment %}
+  Helper to check if a navigation item is active
+  Usage: {% assign is_active = false %}{% include nav-helpers/check-active.html item_url=item.url item_external=item.external %}
+  Sets: is_active variable
+{% endcomment %}
+
+{% assign is_active = false %}
+
+{% comment %}Exact URL match{% endcomment %}
+{% if page.url == include.item_url %}
+  {% assign is_active = true %}
+{% elsif include.item_external == nil or include.item_external == false %}
+  {% comment %}Prefix match for pagination{% endcomment %}
+  {% assign url_length = include.item_url | size %}
+  {% if page.url.size > url_length %}
+    {% assign page_url_prefix = page.url | slice: 0, url_length %}
+    {% if page_url_prefix == include.item_url %}
+      {% comment %}Only match if remaining path starts with a digit (pagination){% endcomment %}
+      {% assign remaining = page.url | remove_first: include.item_url %}
+      {% assign first_char = remaining | slice: 0, 1 %}
+      {% assign digits = "0123456789" %}
+      {% if digits contains first_char %}
+        {% assign is_active = true %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endif %}

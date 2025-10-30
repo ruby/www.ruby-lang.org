@@ -28,6 +28,8 @@ header_navigation:
 - text: Скачать
   url: /ru/documentation/installation/
   submenu:
+  - text: Установка Ruby
+    url: /ru/documentation/installation/
   - text: Скачать
     url: /ru/downloads/
   - text: Менеджеры пакетов
@@ -55,6 +57,17 @@ header_navigation:
     url: /ru/documentation/quickstart/
   - text: В Ruby из других языков
     url: /ru/documentation/ruby-from-other-languages/
+    submenu:
+    - text: В Ruby из C и C++
+      url: /ru/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: В Ruby из Java
+      url: /ru/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: В Ruby из Perl
+      url: /ru/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: В Ruby из PHP
+      url: /ru/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: В Ruby из Python
+      url: /ru/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: Начните сейчас & Исследуйте
     submenu:
     - text: TryRuby
@@ -99,7 +112,7 @@ header_navigation:
 - text: Вклад
   url: /ru/community/ruby-core/
   submenu:
-  - text: Ядро Ruby
+  - text: Разработка ядра Ruby
     url: /ru/community/ruby-core/
   - text: Руководство по репозиторию
     url: /ru/documentation/repository-guide/
@@ -121,12 +134,10 @@ header_navigation:
   submenu:
   - text: Сообщество
     url: /ru/community/
-  - text: Онлайн-сообщество
-    submenu:
-    - text: Группы пользователей
-      url: /ru/community/user-groups/
-    - text: Блоги
-      url: /ru/community/weblogs/
+  - text: Группы пользователей
+    url: /ru/community/user-groups/
+  - text: Блоги
+    url: /ru/community/weblogs/
   - text: События и конференции
     submenu:
     - text: RubyKaigi
@@ -182,7 +193,7 @@ sidebar:
       description: Читайте о том, что происходит в сообществе Ruby прямо
         сейчас.
     ruby_core:
-      text: Ядро Ruby
+      text: Разработка ядра Ruby
       url: /ru/community/ruby-core/
       description: Помощь в полировке последней версии Ruby.
     issue_tracking:
@@ -256,6 +267,9 @@ footer:
     about_website:
       text: Об этом сайте
       url: /ru/about/website/
+    logo_page:
+      text: О логотипе
+      url: /ru/about/logo/
     news_rss:
       text: Новости RSS
       url: /ru/feeds/news.rss

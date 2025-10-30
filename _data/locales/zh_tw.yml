@@ -28,6 +28,8 @@ header_navigation:
 - text: 下載安裝
   url: /zh_tw/documentation/installation/
   submenu:
+  - text: 安裝 Ruby
+    url: /zh_tw/documentation/installation/
   - text: 下載安裝
     url: /zh_tw/downloads/
   - text: 套件管理器
@@ -55,6 +57,17 @@ header_navigation:
     url: /zh_tw/documentation/quickstart/
   - text: 從其他語言到 Ruby
     url: /zh_tw/documentation/ruby-from-other-languages/
+    submenu:
+    - text: 從 C 和 C++ 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: 從 Java 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: 從 Perl 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: 從 PHP 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: 從 Python 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: 上手入門 & 探索
     submenu:
     - text: TryRuby
@@ -99,7 +112,7 @@ header_navigation:
 - text: 貢獻
   url: /zh_tw/community/ruby-core/
   submenu:
-  - text: Ruby 核心
+  - text: Ruby 核心開發
     url: /zh_tw/community/ruby-core/
   - text: 儲存庫指南
     url: /zh_tw/documentation/repository-guide/
@@ -121,12 +134,12 @@ header_navigation:
   submenu:
   - text: 社群
     url: /zh_tw/community/
-  - text: 線上社群
-    submenu:
-    - text: 使用者群組
-      url: /zh_tw/community/user-groups/
-    - text: 部落格與電子報
-      url: /zh_tw/community/weblogs/
+  - text: 使用者群組
+    url: /zh_tw/community/user-groups/
+  - text: 部落格與電子報
+    url: /zh_tw/community/weblogs/
+  - text: Podcast
+    url: /zh_tw/community/podcasts/
   - text: 活動與研討會
     submenu:
     - text: RubyKaigi
@@ -181,7 +194,7 @@ sidebar:
       url: /zh_tw/community/weblogs/
       description: 了解 Ruby 社群中的最新消息
     ruby_core:
-      text: Ruby 核心
+      text: Ruby 核心開發
       url: /zh_tw/community/ruby-core/
       description: 幫助開發最新的 Ruby
     issue_tracking:
@@ -242,6 +255,9 @@ footer:
     about_website:
       text: 關於本網站
       url: /zh_tw/about/website/
+    logo_page:
+      text: 關於標誌
+      url: /zh_tw/about/logo/
     news_rss:
       text: 新聞 RSS
       url: /zh_tw/feeds/news.rss
