@@ -8,6 +8,26 @@ layout: default
   {% assign locales = site.data.locales['en'].news %}
 {% endif %}
 
+<!-- Mobile Navigation Panel (collapsible, full width) -->
+{% capture nav_content %}{% include side-navigation.html %}{% endcapture %}
+<div class="md:hidden bg-stone-50 dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
+  <!-- Navigation toggle header -->
+  <button id="nav-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+    <span class="flex items-center gap-2 text-sm font-bold text-stone-900 dark:text-stone-100">
+      <span class="icon-menu text-base" aria-hidden="true"></span>
+      <span id="nav-section-title"></span>
+    </span>
+    <span id="nav-chevron" class="icon-dropdown text-base text-stone-500 dark:text-stone-400 transition-transform"></span>
+  </button>
+
+  <!-- Navigation content panel -->
+  <div id="nav-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
+    <div class="px-4 pt-4 pb-6">
+      {{ nav_content }}
+    </div>
+  </div>
+</div>
+
 <div class="container px-4 md:px-6 lg:px-8 py-6 md:py-8 lg:py-12">
   <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
     <!-- Desktop Navigation (hidden on mobile) -->
@@ -17,25 +37,6 @@ layout: default
 
     <!-- Main content wrapper -->
     <div class="flex-1 min-w-0 flex flex-col gap-6">
-      <!-- Mobile Navigation Panel (collapsible) -->
-      {% capture nav_content %}{% include side-navigation.html %}{% endcapture %}
-      <div class="md:hidden bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 overflow-hidden">
-        <!-- Navigation toggle header -->
-        <button id="nav-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
-          <span class="flex items-center gap-2 text-sm font-bold text-stone-900 dark:text-stone-100">
-            <span class="icon-menu text-base" aria-hidden="true"></span>
-            <span id="nav-section-title"></span>
-          </span>
-          <span id="nav-chevron" class="icon-dropdown text-base text-stone-500 dark:text-stone-400 transition-transform"></span>
-        </button>
-
-        <!-- Navigation content panel -->
-        <div id="nav-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
-          <div class="px-4 pt-4 pb-6">
-            {{ nav_content }}
-          </div>
-        </div>
-      </div>
 
       <!-- Main content -->
       <article id="content-wrapper" class="prose md:px-4 lg:px-6">
