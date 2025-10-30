@@ -16,7 +16,7 @@ layout: default
   <!-- Navigation toggle header -->
   <button id="nav-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
     <span class="flex items-center gap-2 text-sm font-bold text-stone-900 dark:text-stone-100">
-      <span class="icon-menu text-base" aria-hidden="true"></span>
+      <span class="icon-menu text-base relative top-0.5" aria-hidden="true"></span>
       <span id="nav-section-title"></span>
     </span>
     <span id="nav-chevron" class="icon-dropdown text-base text-stone-500 dark:text-stone-400 transition-transform"></span>
@@ -24,7 +24,7 @@ layout: default
 
   <!-- Navigation content panel -->
   <div id="nav-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
-    <div class="px-4 pt-4 pb-6">
+    <div class="px-4 pb-6">
       {{ nav_content }}
     </div>
   </div>

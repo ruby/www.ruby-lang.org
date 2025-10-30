@@ -1381,6 +1381,10 @@ body:is(.dark *){
   top: 6rem;
 }
 
+.top-0\.5{
+  top: 0.125rem;
+}
+
 .z-50{
   z-index: 50;
 }
