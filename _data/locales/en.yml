@@ -296,6 +296,9 @@ footer:
     news_rss:
       text: News RSS
       url: /en/feeds/news.rss
+    privacy:
+      text: Privacy Policy
+      url: /en/privacy/
     ruby_license:
       text: Ruby License
       url: /en/about/license.txt
