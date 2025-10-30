@@ -17,15 +17,24 @@ layout: default
 
     <!-- Main content and mobile sidebar wrapper -->
     <div class="flex-1 min-w-0 flex flex-col gap-6">
-      <!-- Navigation toggle button -->
-      <button id="nav-toggle" class="md:hidden flex items-center gap-2 px-4 py-2 bg-stone-100 dark:bg-stone-800 rounded-md text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 w-fit">
-        <span class="material-icons text-base">menu</span>
-        Navigation
-      </button>
+      <!-- Mobile Navigation Panel (collapsible) -->
+      {% capture nav_content %}{% include side-navigation.html %}{% endcapture %}
+      <div class="md:hidden bg-stone-50 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 overflow-hidden">
+        <!-- Navigation toggle header -->
+        <button id="nav-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+          <span class="flex items-center gap-2 text-sm font-bold text-stone-900 dark:text-stone-100">
+            <span class="icon-menu text-base" aria-hidden="true"></span>
+            <span id="nav-section-title"></span>
+          </span>
+          <span id="nav-chevron" class="icon-dropdown text-base text-stone-500 dark:text-stone-400 transition-transform"></span>
+        </button>
 
-      <!-- Mobile Navigation Panel -->
-      <div id="nav-mobile-panel" class="md:hidden hidden">
-        {% include side-navigation.html %}
+        <!-- Navigation content panel -->
+        <div id="nav-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
+          <div class="px-4 pt-4 pb-6">
+            {{ nav_content }}
+          </div>
+        </div>
       </div>
 
       <!-- Main content -->
