@@ -153,7 +153,7 @@
               </svg>
             </a>
             {% comment %}Show submenu below the parent link{% endcomment %}
-            <ul class="space-y-2 list-disc pl-5 pb-4 marker:text-stone-400 dark:marker:text-stone-500">
+            <ul class="space-y-2 list-disc pl-5 pb-6 marker:text-stone-400 dark:marker:text-stone-500">
               {% for nesteditem in subitem.submenu %}
               {% comment %}Check if current page matches this nav item (exact match or starts with the URL for pagination){% endcomment %}
               {% assign nested_is_active = false %}
@@ -174,9 +174,9 @@
                   {% endif %}
                 {% endif %}
               {% endif %}
-              <li class="{% if nesteditem.external %}list-item{% else %}list-none{% endif %}">
+              <li class="list-item">
                 <a href="{{ nesteditem.url }}"
-                   class="block py-1 {% unless nesteditem.external %}pl-4{% endunless %} text-sm {% if nested_is_active %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
+                   class="block py-1 text-sm {% if nested_is_active %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
                    {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
                   {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-xs inline-block align-baseline ml-0.5" aria-hidden="true"></span>{% endif %}
                 </a>
@@ -209,9 +209,9 @@
                   {% endif %}
                 {% endif %}
               {% endif %}
-              <li class="{% if nesteditem.external %}list-item{% else %}list-none{% endif %}">
+              <li class="list-item">
                 <a href="{{ nesteditem.url }}"
-                   class="block py-1 {% unless nesteditem.external %}pl-4{% endunless %} text-sm {% if is_active %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
+                   class="block py-1 text-sm {% if is_active %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
                    {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
                   {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external text-xs inline-block align-baseline ml-0.5" aria-hidden="true"></span>{% endif %}
                 </a>
