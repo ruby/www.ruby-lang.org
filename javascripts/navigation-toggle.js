@@ -10,7 +10,7 @@
 
   if (navToggle && navMobilePanel) {
     // Get the section title from the navigation content
-    if (navSectionTitle && navMobilePanel) {
+    if (navSectionTitle) {
       const titleElement = navMobilePanel.querySelector('h3');
       if (titleElement) {
         navSectionTitle.textContent = titleElement.textContent;
