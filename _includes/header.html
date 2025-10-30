@@ -18,50 +18,11 @@
       <!-- Desktop Navigation -->
       <nav class="hidden lg:flex items-stretch gap-1 h-20">
         {% for item in nav_items %}
-        <div class="relative group h-full">
-          {% if item.submenu %}
-          <!-- Menu with dropdown -->
-          <button class="group flex items-center gap-1 px-3 h-full text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered group-hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
-            {{ item.text }}
-            <span class="icon-dropdown text-base" aria-hidden="true"></span>
-          </button>
-
-          <!-- Dropdown menu -->
-          <div class="absolute left-0 top-full w-64 bg-white dark:bg-stone-800 rounded-b-lg shadow-lg border border-t-0 border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-            <div class="pb-2">
-              {% for subitem in item.submenu %}
-              {% if subitem.submenu %}
-              <!-- Section heading -->
-              <div class="px-4 pt-4 pb-2 text-xs font-semibold text-stone-500 dark:text-stone-400 {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
-                {{ subitem.text }}
-              </div>
-              <!-- Nested items with indent -->
-              {% for nesteditem in subitem.submenu %}
-              <a href="{{ nesteditem.url }}"
-                 class="group flex items-center pl-8 pr-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors {% if forloop.last %}mb-2{% endif %}"
-                 {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
-              </a>
-              {% endfor %}
-              {% else %}
-              <!-- Regular submenu item -->
-              <a href="{{ subitem.url }}"
-                 class="group flex items-center px-4 py-4 text-sm font-semibold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
-                 {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-                {{ subitem.text }}{% if subitem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
-              </a>
-              {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-          {% else %}
-          <!-- Simple link -->
-          <a href="{{ item.url }}"
-             class="flex items-center px-3 h-full text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
-            {{ item.text }}
-          </a>
-          {% endif %}
-        </div>
+        <!-- Simple link (no dropdown) -->
+        <a href="{{ item.url }}"
+           class="flex items-center px-3 xl:px-5 h-full text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
+          {{ item.text }}
+        </a>
         {% endfor %}
       </nav>
 
@@ -82,44 +43,10 @@
   <div id="mobile-menu" class="hidden lg:hidden border-t border-stone-200 dark:border-stone-700">
     <nav class="container mx-auto px-4 py-4">
       {% for item in nav_items %}
-      <div class="mb-2">
-        {% if item.submenu %}
-        <!-- Accordion style menu for mobile -->
-        <button class="group mobile-nav-toggle w-full flex items-center justify-between px-3 py-2 text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
-          {{ item.text }}
-          <span class="icon-dropdown text-base" aria-hidden="true"></span>
-        </button>
-        <div class="mobile-nav-submenu hidden pl-4 mt-1">
-          {% for subitem in item.submenu %}
-          {% if subitem.submenu %}
-          <!-- Section heading -->
-          <div class="px-3 pt-4 pb-2 text-xs font-semibold text-stone-500 dark:text-stone-400 {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}">
-            {{ subitem.text }}
-          </div>
-          <!-- Nested items with indent -->
-          {% for nesteditem in subitem.submenu %}
-          <a href="{{ nesteditem.url }}"
-             class="group flex items-center pl-6 pr-3 py-2 text-sm text-stone-600 dark:text-stone-400 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors {% if forloop.last %}mb-2{% endif %}"
-             {% if nesteditem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-            {{ nesteditem.text }}{% if nesteditem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
-          </a>
-          {% endfor %}
-          {% else %}
-          <a href="{{ subitem.url }}"
-             class="group flex items-center px-3 py-4 text-sm font-semibold text-stone-600 dark:text-stone-400 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors {% unless forloop.first %}border-t border-stone-200 dark:border-stone-700{% endunless %}"
-             {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-            {{ subitem.text }}{% if subitem.external %}<span class="icon-external" aria-hidden="true"></span>{% endif %}
-          </a>
-          {% endif %}
-          {% endfor %}
-        </div>
-        {% else %}
-        <a href="{{ item.url }}"
-           class="block px-3 py-2 text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
-          {{ item.text }}
-        </a>
-        {% endif %}
-      </div>
+      <a href="{{ item.url }}"
+         class="block px-5 py-2 text-sm font-bold text-stone-700 dark:text-stone-300 hover:text-semantic-text-hovered hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors mb-2">
+        {{ item.text }}
+      </a>
       {% endfor %}
     </nav>
   </div>
