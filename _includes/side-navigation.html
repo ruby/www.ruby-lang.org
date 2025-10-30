@@ -19,10 +19,12 @@
 {% comment %}Detect current section{% endcomment %}
 {% include nav-helpers/detect-section.html %}
 
-{% comment %}Show news sidebar for news/security sections{% endcomment %}
+{% comment %}Render appropriate navigation based on section{% endcomment %}
 {% if nav_section == 'news' or nav_section == 'security' %}
-  {% include news-sidebar.html %}
+  {% comment %}News/Security navigation (simplified two-link nav){% endcomment %}
+  {% include nav-helpers/render-news-nav.html syndicate=syndicate %}
 {% else %}
+  {% comment %}Standard hierarchical navigation{% endcomment %}
   {% comment %}Find submenu for current section{% endcomment %}
   {% include nav-helpers/find-submenu.html nav_section=nav_section nav_items=nav_items %}
 

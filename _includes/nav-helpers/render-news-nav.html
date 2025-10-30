@@ -1,22 +1,16 @@
-{% if site.data.locales[page.lang].news %}
-  {% assign locales = site.data.locales[page.lang].news %}
-{% else %}
-  {% assign locales = site.data.locales['en'].news %}
-{% endif %}
+{% comment %}
+  Helper to render news/security navigation
+  This is a simplified navigation with just News and Security links
+{% endcomment %}
 
-{% if site.data.locales[page.lang].sidebar %}
-  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
-{% else %}
-  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
-{% endif %}
-
+{% comment %}Load locale data{% endcomment %}
 {% if site.data.locales[page.lang].sitelinks %}
   {% assign sitelinks = site.data.locales[page.lang].sitelinks %}
 {% else %}
   {% assign sitelinks = site.data.locales['en'].sitelinks %}
 {% endif %}
 
-{% comment %}Find news and security links from sitelinks{% endcomment %}
+{% comment %}Find news and security links{% endcomment %}
 {% assign news_link = nil %}
 {% assign security_link = nil %}
 {% for link in sitelinks %}
@@ -28,10 +22,12 @@
 {% endfor %}
 
 <div class="lg:bg-transparent lg:dark:bg-transparent lg:border-0 lg:rounded-none lg:p-0">
-  <!-- Top Navigation Section -->
   <div>
+    {% comment %}Section title (desktop only){% endcomment %}
     <h3 class="text-xs font-semibold text-stone-500 dark:text-stone-400 mb-1 border-b border-stone-200 dark:border-stone-700 pb-3 hidden lg:block">{{ news_link.text }}</h3>
+
     <nav class="space-y-0">
+      {% comment %}News link{% endcomment %}
       {% if news_link %}
       <div class="border-b border-stone-200 dark:border-stone-700">
         <a href="{{ news_link.url }}"
@@ -43,6 +39,8 @@
         </a>
       </div>
       {% endif %}
+
+      {% comment %}Security link{% endcomment %}
       {% if security_link %}
       <div class="border-b border-stone-200 dark:border-stone-700">
         <a href="{{ security_link.url }}"
@@ -57,13 +55,15 @@
     </nav>
   </div>
 
-  <!-- Syndicate Section -->
+  {% comment %}RSS feed link{% endcomment %}
+  {% if include.syndicate and include.syndicate.recent_news %}
   <div class="pt-6">
     <p class="pl-1">
-      <a href="{{ syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+      <a href="{{ include.syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
         <span class="icon-rss-feed" aria-hidden="true"></span>
-        {{ syndicate.recent_news.text }}<span class="icon-external text-xs" aria-hidden="true"></span>
+        {{ include.syndicate.recent_news.text }}<span class="icon-external text-xs" aria-hidden="true"></span>
       </a>
     </p>
   </div>
+  {% endif %}
 </div>
