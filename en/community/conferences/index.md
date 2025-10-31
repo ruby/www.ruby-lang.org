@@ -40,5 +40,6 @@ You can also find the GitHub repository link there to add or update information 
 
 [rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
+[2]: http://rubycentral.org/
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
