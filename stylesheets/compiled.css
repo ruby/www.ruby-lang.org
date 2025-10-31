@@ -29,26 +29,16 @@
   --color-ruby-900: #5c100e;
   /* ruby-5 */
   /* Gold color palette */
-  --color-gold-50: #fcfaef;
-  /* gold-90 */
-  --color-gold-100: #f9f4df;
-  /* gold-80 */
-  --color-gold-200: #f6efce;
-  /* gold-70 */
-  --color-gold-300: #f3e9be;
-  /* gold-60 */
-  --color-gold-400: #eddf9e;
-  /* gold-50 */
-  --color-gold-500: #e5d37f;
-  /* gold-40 */
-  --color-gold-600: #e1c95d;
-  /* gold-30 */
-  --color-gold-700: #ccb758;
-  /* gold-20 */
-  --color-gold-800: #b8a44b;
-  /* gold-10 */
-  --color-gold-900: #655a27;
-  /* gold-5 */
+  --color-gold-50: #FAF7F1;
+  --color-gold-100: #F5F0E3;
+  --color-gold-200: #F0E8D5;
+  --color-gold-300: #EBE1C7;
+  --color-gold-400: #E2D1AA;
+  --color-gold-500: #D8C28E;
+  --color-gold-600: #CEB372;
+  --color-gold-700: #A8925C;
+  --color-gold-800: #837147;
+  --color-gold-900: #5D5131;
   /* Code highlighting colors */
   --code-blue: #1d4ed8;
   --code-green: #047857;
@@ -1377,12 +1367,12 @@ body:is(.dark *){
   top: 0px;
 }
 
-.top-24{
-  top: 6rem;
-}
-
 .top-0\.5{
   top: 0.125rem;
+}
+
+.top-24{
+  top: 6rem;
 }
 
 .z-50{
@@ -1486,8 +1476,8 @@ body:is(.dark *){
   display: none;
 }
 
-.h-12{
-  height: 3rem;
+.h-10{
+  height: 2.5rem;
 }
 
 .h-20{
@@ -1500,10 +1490,6 @@ body:is(.dark *){
 
 .h-full{
   height: 100%;
-}
-
-.h-10{
-  height: 2.5rem;
 }
 
 .max-h-96{
@@ -1522,8 +1508,8 @@ body:is(.dark *){
   min-height: calc(100vh - 10rem);
 }
 
-.w-12{
-  width: 3rem;
+.w-10{
+  width: 2.5rem;
 }
 
 .w-3{
@@ -1534,17 +1520,8 @@ body:is(.dark *){
   width: 14rem;
 }
 
-.w-fit{
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .w-full{
   width: 100%;
-}
-
-.w-10{
-  width: 2.5rem;
 }
 
 .min-w-0{
@@ -1847,11 +1824,6 @@ body:is(.dark *){
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-base{
@@ -2212,11 +2184,6 @@ body:is(.dark *){
     width: 3rem;
   }
 
-  .sm\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2330,6 +2297,11 @@ body:is(.dark *){
     padding-right: 0px;
   }
 
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .lg\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2343,11 +2315,6 @@ body:is(.dark *){
   .lg\:py-12{
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .lg\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .lg\:pb-0{
