@@ -15,16 +15,16 @@
   --color-ruby-900: #5c100e;  /* ruby-5 */
 
   /* Gold color palette */
-  --color-gold-50: #fcfaef;   /* gold-90 */
-  --color-gold-100: #f9f4df;  /* gold-80 */
-  --color-gold-200: #f6efce;  /* gold-70 */
-  --color-gold-300: #f3e9be;  /* gold-60 */
-  --color-gold-400: #eddf9e;  /* gold-50 */
-  --color-gold-500: #e5d37f;  /* gold-40 */
-  --color-gold-600: #e1c95d;  /* gold-30 */
-  --color-gold-700: #ccb758;  /* gold-20 */
-  --color-gold-800: #b8a44b;  /* gold-10 */
-  --color-gold-900: #655a27;  /* gold-5 */
+  --color-gold-50: #FAF7F1;
+  --color-gold-100: #F5F0E3;
+  --color-gold-200: #F0E8D5;
+  --color-gold-300: #EBE1C7;
+  --color-gold-400: #E2D1AA;
+  --color-gold-500: #D8C28E;
+  --color-gold-600: #CEB372;
+  --color-gold-700: #A8925C;
+  --color-gold-800: #837147;
+  --color-gold-900: #5D5131;
   /* Code highlighting colors */
   --code-blue: #1d4ed8;
   --code-green: #047857;
