@@ -13,8 +13,8 @@
     const headings = content.querySelectorAll('h2[id], h3[id], h4[id], h5[id], h6[id]');
 
     if (headings.length === 0) {
-      // Hide TOC if no headings found
-      document.querySelectorAll('[id*="toc"]').forEach(el => el.style.display = 'none');
+      // Hide TOC wrappers if no headings found
+      document.querySelectorAll('.toc-wrapper').forEach(el => el.style.display = 'none');
       return;
     }
 
