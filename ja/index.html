@@ -2,25 +2,127 @@
 layout: homepage
 title: "プログラミング言語 Ruby"
 lang: ja
+---
 
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Rubyとは...</h1>
-
-      <p>
-      オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。
-      エレガントな文法を持ち、自然に読み書きができます。
-      </p>
-
-      <a href="downloads/" class="download-link">ダウンロード</a>
-      または
-      <a href="about/">もっと読む...</a>
-    </div>
-    <div id="code"></div>
+<!-- Hero Section -->
+<section class="hero-section bg-gold-300 dark:bg-stone-800 relative overflow-hidden h-[500px] md:h-[600px] lg:h-[730px]">
+  <!-- Background Illustrations -->
+  <div class="absolute inset-0 pointer-events-none overflow-hidden">
+    <img src="/images/home/hero/bg-dummy__light.svg"
+         alt=""
+         class="block dark:hidden absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto">
+    <img src="/images/home/hero/bg-dummy__dark.svg"
+         alt=""
+         class="hidden dark:block absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto">
   </div>
 
----
+  <!-- Ruby Gem Shape with Content -->
+  <div class="relative z-10 flex items-center justify-center pt-16 md:pt-20 lg:pt-28 pb-0 px-4">
+    <div class="relative w-full max-w-xs md:max-w-md lg:max-w-lg">
+      <!-- Ruby Gem SVG Background -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <img src="/images/home/hero/bg-ruby.svg"
+             alt="Ruby"
+             class="w-full h-auto">
+      </div>
+
+      <!-- Content Inside Ruby Gem -->
+      <div class="relative z-10 text-center text-white pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-16 lg:pb-24 px-6 md:px-8">
+        <p class="text-xs md:text-base lg:text-lg mb-0 text-gold-500 tracking-[0.1em]">
+          <span class="font-light">Since</span> <span class="font-semibold">1995</span>
+        </p>
+        <div class="text-7xl md:text-7xl lg:text-[7rem] font-extrabold mb-3 md:mb-4">Ruby</div>
+        <p class="text-xs md:text-base lg:text-lg mb-4 md:mb-6 text-gold-500 tracking-[0.1em]">A Programmers Best Friend</p>
+
+        <div class="mb-4 md:mb-5">
+          <p class="text-xs md:text-base"><span class="font-normal">Latest Version:</span> <span class="font-semibold">4.0.0</span></p>
+        </div>
+
+        <div class="flex flex-col items-center gap-0 md:gap-2">
+          <a href="/ja/downloads/"
+             class="inline-block bg-white text-ruby-600 text-xs md:text-base px-6 md:px-12 py-2 md:py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all">
+            Download
+          </a>
+          <span class="text-white text-[10px] md:text-sm">or</span>
+          <a href="/ja/about/"
+             class="text-white text-[10px] md:text-base font-semibold underline hover:text-gold-500">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Try Ruby Section -->
+<section class="try-ruby-section bg-gold-300 dark:bg-stone-800 pt-0 pb-16 md:pb-20">
+  <div class="container mx-auto px-4">
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4">Try Ruby!</h2>
+      <p class="text-lg md:text-xl text-stone-700 dark:text-stone-300">今すぐ Ruby を試しましょう</p>
+    </div>
+
+    <!-- Code Examples Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 mb-8">
+      <!-- Example 1: I Love Ruby -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 flex flex-col">
+        <div id="try-ruby-example-1" class="code-example mb-4 font-mono text-sm overflow-x-auto flex-grow">
+          <!-- Code will be loaded dynamically -->
+        </div>
+        <a id="try-ruby-button-1"
+           href="https://try.ruby-lang.org/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors mt-auto">
+          TRY!
+          <span class="icon-external text-xs text-white ml-0" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- Example 2: Cities -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 flex flex-col">
+        <div id="try-ruby-example-2" class="code-example mb-4 font-mono text-sm overflow-x-auto flex-grow">
+          <!-- Code will be loaded dynamically -->
+        </div>
+        <a id="try-ruby-button-2"
+           href="https://try.ruby-lang.org/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors mt-auto">
+          TRY!
+          <span class="icon-external text-xs text-white ml-0" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- Example 3: Greeter -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 flex flex-col">
+        <div id="try-ruby-example-3" class="code-example mb-4 font-mono text-sm overflow-x-auto flex-grow">
+          <!-- Code will be loaded dynamically -->
+        </div>
+        <a id="try-ruby-button-3"
+           href="https://try.ruby-lang.org/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors mt-auto">
+          TRY!
+          <span class="icon-external text-xs text-white ml-0" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom Link -->
+    <div class="text-center">
+      <p class="text-stone-700 dark:text-stone-300">
+        ・もっと Ruby を知りたい・試したい方はこちら
+        <a href="https://try.ruby-lang.org/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-ruby-600 dark:text-ruby-400 font-bold hover:underline inline-flex items-center gap-1">
+          → Try Ruby
+          <span class="icon-external text-xs" aria-hidden="true"></span>
+        </a>
+      </p>
+    </div>
+  </div>
+</section>

@@ -77,6 +77,11 @@
   color: var(--color-text-hovered);
 }
 
+/* Allow parent text-white to override icon color */
+.text-white .icon-external::before {
+  color: inherit;
+}
+
 /* Check icon */
 .icon-check::before {
   content: 'check';
