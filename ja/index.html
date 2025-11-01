@@ -55,34 +55,22 @@ lang: ja
 </section>
 
 <!-- Try Ruby Section -->
-<section class="try-ruby-section bg-gold-300 dark:bg-stone-800 py-12 md:py-16">
+<section class="try-ruby-section bg-gold-300 dark:bg-stone-800 pt-0 pb-16 md:pb-20">
   <div class="container mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
-      <h2 class="text-4xl md:text-5xl font-bold text-stone-900 dark:text-white mb-4">Try Ruby!</h2>
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4">Try Ruby!</h2>
       <p class="text-lg md:text-xl text-stone-700 dark:text-stone-300">今すぐ Ruby を試しましょう</p>
     </div>
 
     <!-- Code Examples Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-8">
       <!-- Example 1: I Love Ruby -->
-      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 shadow-lg">
-        <div class="code-example bg-stone-50 dark:bg-stone-800 p-4 rounded-lg mb-4 font-mono text-sm overflow-x-auto">
-          <div class="highlight">
-            <pre><code class="language-ruby"><span class="c1"># Output "I love Ruby"</span>
-<span class="n">say</span> <span class="o">=</span> <span class="s2">"I love Ruby"</span>
-<span class="nb">puts</span> <span class="n">say</span>
-
-<span class="c1"># Output "I *LOVE* RUBY"</span>
-<span class="n">say</span><span class="p">[</span><span class="s1">'love'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"*love*"</span>
-<span class="nb">puts</span> <span class="n">say</span><span class="p">.</span><span class="nf">upcase</span>
-
-<span class="c1"># Output "I *love* Ruby"</span>
-<span class="c1"># five times</span>
-<span class="mi">5</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">say</span> <span class="p">}</span></code></pre>
-          </div>
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6">
+        <div id="try-ruby-example-1" class="code-example mb-4 font-mono text-sm overflow-x-auto">
+          <!-- Code will be loaded dynamically -->
         </div>
-        <a href="https://try.ruby-lang.org/playground/#code=%23+Output+%22I+love+Ruby%22%0Asay+%3D+%22I+love+Ruby%22%0Aputs+say%0A%0A%23+Output+%22I+*LOVE*+RUBY%22%0Asay%5B%27love%27%5D+%3D+%22*love*%22%0Aputs+say.upcase%0A%0A%23+Output+%22I+*love*+Ruby%22%0A%23+five+times%0A5.times+%7B+puts+say+%7D&engine=cruby-3.3.0"
+        <a href="https://try.ruby-lang.org/"
            target="_blank"
            rel="noopener noreferrer"
            class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
@@ -91,24 +79,12 @@ lang: ja
         </a>
       </div>
 
-      <!-- Example 2: I Love Ruby (same) -->
-      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 shadow-lg">
-        <div class="code-example bg-stone-50 dark:bg-stone-800 p-4 rounded-lg mb-4 font-mono text-sm overflow-x-auto">
-          <div class="highlight">
-            <pre><code class="language-ruby"><span class="c1"># Output "I love Ruby"</span>
-<span class="n">say</span> <span class="o">=</span> <span class="s2">"I love Ruby"</span>
-<span class="nb">puts</span> <span class="n">say</span>
-
-<span class="c1"># Output "I *LOVE* RUBY"</span>
-<span class="n">say</span><span class="p">[</span><span class="s1">'love'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"*love*"</span>
-<span class="nb">puts</span> <span class="n">say</span><span class="p">.</span><span class="nf">upcase</span>
-
-<span class="c1"># Output "I *love* Ruby"</span>
-<span class="c1"># five times</span>
-<span class="mi">5</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">say</span> <span class="p">}</span></code></pre>
-          </div>
+      <!-- Example 2: Cities -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6">
+        <div id="try-ruby-example-2" class="code-example mb-4 font-mono text-sm overflow-x-auto">
+          <!-- Code will be loaded dynamically -->
         </div>
-        <a href="https://try.ruby-lang.org/playground/#code=%23+Output+%22I+love+Ruby%22%0Asay+%3D+%22I+love+Ruby%22%0Aputs+say%0A%0A%23+Output+%22I+*LOVE*+RUBY%22%0Asay%5B%27love%27%5D+%3D+%22*love*%22%0Aputs+say.upcase%0A%0A%23+Output+%22I+*love*+Ruby%22%0A%23+five+times%0A5.times+%7B+puts+say+%7D&engine=cruby-3.3.0"
+        <a href="https://try.ruby-lang.org/"
            target="_blank"
            rel="noopener noreferrer"
            class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
@@ -117,24 +93,12 @@ lang: ja
         </a>
       </div>
 
-      <!-- Example 3: I Love Ruby (same) -->
-      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 shadow-lg">
-        <div class="code-example bg-stone-50 dark:bg-stone-800 p-4 rounded-lg mb-4 font-mono text-sm overflow-x-auto">
-          <div class="highlight">
-            <pre><code class="language-ruby"><span class="c1"># Output "I love Ruby"</span>
-<span class="n">say</span> <span class="o">=</span> <span class="s2">"I love Ruby"</span>
-<span class="nb">puts</span> <span class="n">say</span>
-
-<span class="c1"># Output "I *LOVE* RUBY"</span>
-<span class="n">say</span><span class="p">[</span><span class="s1">'love'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"*love*"</span>
-<span class="nb">puts</span> <span class="n">say</span><span class="p">.</span><span class="nf">upcase</span>
-
-<span class="c1"># Output "I *love* Ruby"</span>
-<span class="c1"># five times</span>
-<span class="mi">5</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">say</span> <span class="p">}</span></code></pre>
-          </div>
+      <!-- Example 3: Greeter -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6">
+        <div id="try-ruby-example-3" class="code-example mb-4 font-mono text-sm overflow-x-auto">
+          <!-- Code will be loaded dynamically -->
         </div>
-        <a href="https://try.ruby-lang.org/playground/#code=%23+Output+%22I+love+Ruby%22%0Asay+%3D+%22I+love+Ruby%22%0Aputs+say%0A%0A%23+Output+%22I+*LOVE*+RUBY%22%0Asay%5B%27love%27%5D+%3D+%22*love*%22%0Aputs+say.upcase%0A%0A%23+Output+%22I+*love*+Ruby%22%0A%23+five+times%0A5.times+%7B+puts+say+%7D&engine=cruby-3.3.0"
+        <a href="https://try.ruby-lang.org/"
            target="_blank"
            rel="noopener noreferrer"
            class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
