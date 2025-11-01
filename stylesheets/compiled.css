@@ -1432,10 +1432,6 @@ body:is(.dark *){
   margin-bottom: 2rem;
 }
 
-.ml-0{
-  margin-left: 0px;
-}
-
 .ml-0\.5{
   margin-left: 0.125rem;
 }
@@ -1466,6 +1462,10 @@ body:is(.dark *){
 
 .mt-auto{
   margin-top: auto;
+}
+
+.ml-0{
+  margin-left: 0px;
 }
 
 .block{
@@ -1580,6 +1580,10 @@ body:is(.dark *){
   max-width: 56rem;
 }
 
+.max-w-6xl{
+  max-width: 72rem;
+}
+
 .max-w-xs{
   max-width: 20rem;
 }
@@ -1672,6 +1676,14 @@ body:is(.dark *){
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-x-6{
@@ -2440,16 +2452,16 @@ body:is(.dark *){
     flex-direction: row;
   }
 
-  .md\:gap-10{
-    gap: 2.5rem;
-  }
-
   .md\:gap-2{
     gap: 0.5rem;
   }
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-10{
+    gap: 2.5rem;
   }
 
   .md\:border-0{
