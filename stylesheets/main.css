@@ -17,6 +17,11 @@ p.warning {
 
 :target { background: #ffc; }
 
+/* Dark mode target highlight */
+:target:is(.dark *) {
+  background: #854d0e; /* amber-800 for better contrast with white text */
+}
+
 
 iframe {
   border: none;
