@@ -5,20 +5,20 @@ lang: ja
 ---
 
 <!-- Hero Section -->
-<section class="hero-section bg-gold-300 dark:bg-stone-800 relative overflow-hidden h-[730px]">
+<section class="hero-section bg-gold-300 dark:bg-stone-800 relative overflow-hidden h-[500px] md:h-[600px] lg:h-[730px]">
   <!-- Background Illustrations -->
   <div class="absolute inset-0 pointer-events-none overflow-hidden">
     <img src="/images/home/hero/bg-dummy__light.svg"
          alt=""
-         class="block dark:hidden absolute top-0 left-1/2 -translate-x-1/2 min-w-[1728px] w-[1728px] h-auto">
+         class="block dark:hidden absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto">
     <img src="/images/home/hero/bg-dummy__dark.svg"
          alt=""
-         class="hidden dark:block absolute top-0 left-1/2 -translate-x-1/2 min-w-[1728px] w-[1728px] h-auto">
+         class="hidden dark:block absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto">
   </div>
 
   <!-- Ruby Gem Shape with Content -->
-  <div class="relative z-10 flex items-center justify-center pt-28 pb-0 px-4">
-    <div class="relative w-full max-w-lg">
+  <div class="relative z-10 flex items-center justify-center pt-16 md:pt-20 lg:pt-28 pb-0 px-4">
+    <div class="relative w-full max-w-xs md:max-w-md lg:max-w-lg">
       <!-- Ruby Gem SVG Background -->
       <div class="absolute inset-0 flex items-center justify-center">
         <img src="/images/home/hero/bg-ruby.svg"
@@ -27,25 +27,25 @@ lang: ja
       </div>
 
       <!-- Content Inside Ruby Gem -->
-      <div class="relative z-10 text-center text-white pt-12 md:pt-16 pb-16 md:pb-24 px-8">
-        <p class="text-base md:text-lg mb-0 text-gold-500 tracking-[0.1em]">
+      <div class="relative z-10 text-center text-white pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-16 lg:pb-24 px-6 md:px-8">
+        <p class="text-xs md:text-base lg:text-lg mb-0 text-gold-500 tracking-[0.1em]">
           <span class="font-light">Since</span> <span class="font-semibold">1995</span>
         </p>
-        <div class="text-6xl md:text-8xl lg:text-[7rem] font-extrabold mb-4">Ruby</div>
-        <p class="text-base md:text-lg mb-6 text-gold-500 tracking-[0.1em]">A Programmers Best Friend</p>
+        <div class="text-7xl md:text-7xl lg:text-[7rem] font-extrabold mb-3 md:mb-4">Ruby</div>
+        <p class="text-xs md:text-base lg:text-lg mb-4 md:mb-6 text-gold-500 tracking-[0.1em]">A Programmers Best Friend</p>
 
-        <div class="mb-5">
-          <p class="text-sm md:text-base"><span class="font-normal">Latest Version:</span> <span class="font-semibold">4.0.0</span></p>
+        <div class="mb-4 md:mb-5">
+          <p class="text-xs md:text-base"><span class="font-normal">Latest Version:</span> <span class="font-semibold">4.0.0</span></p>
         </div>
 
-        <div class="flex flex-col items-center gap-2">
+        <div class="flex flex-col items-center gap-0 md:gap-2">
           <a href="/ja/downloads/"
-             class="inline-block bg-white text-ruby-600 px-12 py-3 rounded-full font-bold hover:bg-stone-100 transition-colors">
+             class="inline-block bg-white text-ruby-600 text-xs md:text-base px-6 md:px-12 py-2 md:py-3 rounded-full font-bold hover:bg-stone-100 transition-colors">
             Download
           </a>
-          <span class="text-white text-sm">or</span>
+          <span class="text-white text-[10px] md:text-sm">or</span>
           <a href="/ja/about/"
-             class="text-white font-semibold underline hover:text-gold-500">
+             class="text-white text-[10px] md:text-base font-semibold underline hover:text-gold-500">
             Learn More
           </a>
         </div>
