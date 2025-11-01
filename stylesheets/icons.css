@@ -82,6 +82,12 @@
   color: inherit;
 }
 
+/* Link color inheritance for external icons */
+a .icon-external::before {
+  color: inherit;
+  margin-left: 0;
+}
+
 /* Check icon */
 .icon-check::before {
   content: 'check';
@@ -218,6 +224,30 @@
     'wght' 300,
     'GRAD' 0,
     'opsz' 20;
+}
+
+/* Arrow forward icon */
+.icon-arrow-forward::before {
+  content: 'arrow_forward';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
 }
 
 /* Theme toggle icons */

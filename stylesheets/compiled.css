@@ -1432,10 +1432,6 @@ body:is(.dark *){
   margin-bottom: 2rem;
 }
 
-.ml-0{
-  margin-left: 0px;
-}
-
 .ml-0\.5{
   margin-left: 0.125rem;
 }
@@ -1466,6 +1462,10 @@ body:is(.dark *){
 
 .mt-auto{
   margin-top: auto;
+}
+
+.ml-0{
+  margin-left: 0px;
 }
 
 .block{
@@ -1532,6 +1532,10 @@ body:is(.dark *){
   height: 100%;
 }
 
+.h-\[455px\]{
+  height: 455px;
+}
+
 .max-h-96{
   max-height: 24rem;
 }
@@ -1578,6 +1582,10 @@ body:is(.dark *){
 
 .max-w-4xl{
   max-width: 56rem;
+}
+
+.max-w-6xl{
+  max-width: 72rem;
 }
 
 .max-w-xs{
@@ -1672,6 +1680,14 @@ body:is(.dark *){
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-x-6{
@@ -1786,6 +1802,10 @@ body:is(.dark *){
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-semantic-bg-primary-enabled{
+  background-color: var(--color-background-primary-action-enabled);
 }
 
 .p-2{
@@ -2027,6 +2047,10 @@ body:is(.dark *){
   letter-spacing: 0.1em;
 }
 
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+
 .text-gold-500{
   color: var(--color-gold-500);
 }
@@ -2067,6 +2091,10 @@ body:is(.dark *){
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-semantic-text-link-hovered{
+  color: var(--color-text-link-hovered);
 }
 
 .underline{
@@ -2245,6 +2273,10 @@ body:is(.dark *){
   background-color: rgb(231 229 228 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-semantic-bg-primary-hovered:hover{
+  background-color: var(--color-background-primary-action-hovered);
+}
+
 .hover\:text-gold-500:hover{
   color: var(--color-gold-500);
 }
@@ -2345,6 +2377,10 @@ body:is(.dark *){
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.dark\:text-ruby-600:is(.dark *){
+  color: var(--color-ruby-600);
+}
+
 .dark\:marker\:text-stone-500 *:is(.dark *)::marker{
   color: rgb(120 113 108 );
 }
@@ -2416,6 +2452,10 @@ body:is(.dark *){
     height: 600px;
   }
 
+  .md\:h-\[595px\]{
+    height: 595px;
+  }
+
   .md\:w-40{
     width: 10rem;
   }
@@ -2440,16 +2480,16 @@ body:is(.dark *){
     flex-direction: row;
   }
 
-  .md\:gap-10{
-    gap: 2.5rem;
-  }
-
   .md\:gap-2{
     gap: 0.5rem;
   }
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-10{
+    gap: 2.5rem;
   }
 
   .md\:border-0{
