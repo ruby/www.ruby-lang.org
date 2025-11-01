@@ -2,25 +2,160 @@
 layout: homepage
 title: "プログラミング言語 Ruby"
 lang: ja
+---
 
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Rubyとは...</h1>
-
-      <p>
-      オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。
-      エレガントな文法を持ち、自然に読み書きができます。
-      </p>
-
-      <a href="downloads/" class="download-link">ダウンロード</a>
-      または
-      <a href="about/">もっと読む...</a>
-    </div>
-    <div id="code"></div>
+<!-- Hero Section -->
+<section class="hero-section bg-gold-300 dark:bg-stone-800 relative overflow-hidden">
+  <!-- Background Illustrations -->
+  <div class="absolute inset-0 flex items-start justify-center pointer-events-none">
+    <img src="/images/home/hero/bg-dummy__light.svg"
+         alt=""
+         class="block dark:hidden w-full h-full object-contain"
+         style="max-width: 120vw; max-height: 120vh;">
+    <img src="/images/home/hero/bg-dummy__dark.svg"
+         alt=""
+         class="hidden dark:block w-full h-full object-contain"
+         style="max-width: 120vw; max-height: 120vh;">
   </div>
 
----
+  <!-- Ruby Gem Shape with Content -->
+  <div class="relative z-10 flex items-center justify-center py-20 md:py-32 px-4">
+    <div class="relative w-full max-w-xl">
+      <!-- Ruby Gem SVG Background -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <img src="/images/home/hero/bg-ruby.svg"
+             alt="Ruby"
+             class="w-full h-auto">
+      </div>
+
+      <!-- Content Inside Ruby Gem -->
+      <div class="relative z-10 text-center text-white py-16 md:py-24 px-8">
+        <p class="text-xs md:text-sm font-semibold mb-4">Since 1995</p>
+        <div class="text-5xl md:text-7xl lg:text-8xl font-bold mb-4">Ruby</div>
+        <p class="text-base md:text-lg mb-6">A Programmers Best Friend</p>
+
+        <div class="mb-6">
+          <p class="text-sm md:text-base font-semibold">Latest Version: 4.0.0</p>
+        </div>
+
+        <div class="flex flex-col items-center gap-3">
+          <a href="/ja/downloads/"
+             class="inline-block bg-white text-ruby-600 px-12 py-3 rounded-full font-bold hover:bg-stone-100 transition-colors">
+            Download
+          </a>
+          <span class="text-white text-sm">or</span>
+          <a href="/ja/about/"
+             class="text-white font-semibold hover:underline">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Try Ruby Section -->
+<section class="try-ruby-section bg-gold-300 dark:bg-stone-800 py-12 md:py-16">
+  <div class="container mx-auto px-4">
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-bold text-stone-900 dark:text-white mb-4">Try Ruby!</h2>
+      <p class="text-lg md:text-xl text-stone-700 dark:text-stone-300">今すぐ Ruby を試しましょう</p>
+    </div>
+
+    <!-- Code Examples Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-8">
+      <!-- Example 1: I Love Ruby -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 shadow-lg">
+        <div class="code-example bg-stone-50 dark:bg-stone-800 p-4 rounded-lg mb-4 font-mono text-sm overflow-x-auto">
+          <div class="highlight">
+            <pre><code class="language-ruby"><span class="c1"># Output "I love Ruby"</span>
+<span class="n">say</span> <span class="o">=</span> <span class="s2">"I love Ruby"</span>
+<span class="nb">puts</span> <span class="n">say</span>
+
+<span class="c1"># Output "I *LOVE* RUBY"</span>
+<span class="n">say</span><span class="p">[</span><span class="s1">'love'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"*love*"</span>
+<span class="nb">puts</span> <span class="n">say</span><span class="p">.</span><span class="nf">upcase</span>
+
+<span class="c1"># Output "I *love* Ruby"</span>
+<span class="c1"># five times</span>
+<span class="mi">5</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">say</span> <span class="p">}</span></code></pre>
+          </div>
+        </div>
+        <a href="https://try.ruby-lang.org/playground/#code=%23+Output+%22I+love+Ruby%22%0Asay+%3D+%22I+love+Ruby%22%0Aputs+say%0A%0A%23+Output+%22I+*LOVE*+RUBY%22%0Asay%5B%27love%27%5D+%3D+%22*love*%22%0Aputs+say.upcase%0A%0A%23+Output+%22I+*love*+Ruby%22%0A%23+five+times%0A5.times+%7B+puts+say+%7D&engine=cruby-3.3.0"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
+          TRY!
+          <span class="icon-external text-xs" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- Example 2: I Love Ruby (same) -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 shadow-lg">
+        <div class="code-example bg-stone-50 dark:bg-stone-800 p-4 rounded-lg mb-4 font-mono text-sm overflow-x-auto">
+          <div class="highlight">
+            <pre><code class="language-ruby"><span class="c1"># Output "I love Ruby"</span>
+<span class="n">say</span> <span class="o">=</span> <span class="s2">"I love Ruby"</span>
+<span class="nb">puts</span> <span class="n">say</span>
+
+<span class="c1"># Output "I *LOVE* RUBY"</span>
+<span class="n">say</span><span class="p">[</span><span class="s1">'love'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"*love*"</span>
+<span class="nb">puts</span> <span class="n">say</span><span class="p">.</span><span class="nf">upcase</span>
+
+<span class="c1"># Output "I *love* Ruby"</span>
+<span class="c1"># five times</span>
+<span class="mi">5</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">say</span> <span class="p">}</span></code></pre>
+          </div>
+        </div>
+        <a href="https://try.ruby-lang.org/playground/#code=%23+Output+%22I+love+Ruby%22%0Asay+%3D+%22I+love+Ruby%22%0Aputs+say%0A%0A%23+Output+%22I+*LOVE*+RUBY%22%0Asay%5B%27love%27%5D+%3D+%22*love*%22%0Aputs+say.upcase%0A%0A%23+Output+%22I+*love*+Ruby%22%0A%23+five+times%0A5.times+%7B+puts+say+%7D&engine=cruby-3.3.0"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
+          TRY!
+          <span class="icon-external text-xs" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- Example 3: I Love Ruby (same) -->
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 shadow-lg">
+        <div class="code-example bg-stone-50 dark:bg-stone-800 p-4 rounded-lg mb-4 font-mono text-sm overflow-x-auto">
+          <div class="highlight">
+            <pre><code class="language-ruby"><span class="c1"># Output "I love Ruby"</span>
+<span class="n">say</span> <span class="o">=</span> <span class="s2">"I love Ruby"</span>
+<span class="nb">puts</span> <span class="n">say</span>
+
+<span class="c1"># Output "I *LOVE* RUBY"</span>
+<span class="n">say</span><span class="p">[</span><span class="s1">'love'</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"*love*"</span>
+<span class="nb">puts</span> <span class="n">say</span><span class="p">.</span><span class="nf">upcase</span>
+
+<span class="c1"># Output "I *love* Ruby"</span>
+<span class="c1"># five times</span>
+<span class="mi">5</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">puts</span> <span class="n">say</span> <span class="p">}</span></code></pre>
+          </div>
+        </div>
+        <a href="https://try.ruby-lang.org/playground/#code=%23+Output+%22I+love+Ruby%22%0Asay+%3D+%22I+love+Ruby%22%0Aputs+say%0A%0A%23+Output+%22I+*LOVE*+RUBY%22%0Asay%5B%27love%27%5D+%3D+%22*love*%22%0Aputs+say.upcase%0A%0A%23+Output+%22I+*love*+Ruby%22%0A%23+five+times%0A5.times+%7B+puts+say+%7D&engine=cruby-3.3.0"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
+          TRY!
+          <span class="icon-external text-xs" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom Link -->
+    <div class="text-center">
+      <p class="text-stone-700 dark:text-stone-300">
+        ・もっと Ruby を知りたい・試したい方はこちら
+        <a href="https://try.ruby-lang.org/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-ruby-600 dark:text-ruby-400 font-bold hover:underline inline-flex items-center gap-1">
+          → Try Ruby
+          <span class="icon-external text-xs" aria-hidden="true"></span>
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
