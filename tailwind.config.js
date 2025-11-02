@@ -157,6 +157,11 @@ module.exports = {
         'logo': ['"Plus Jakarta Sans"', '"Noto Sans JP"', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
         'code': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
         'icon': ['"Material Icons"', 'sans-serif'],
+        'handwrite': ['"Playwrite AU TAS"', 'cursive'],
+      },
+      fontSize: {
+        'sm': ['0.875rem', { lineHeight: '1.7' }],
+        'base': ['1rem', { lineHeight: '1.7' }],
       },
       maxWidth: {
         'container': '61.25rem',  // 980px

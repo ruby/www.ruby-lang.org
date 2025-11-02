@@ -58,8 +58,8 @@ lang: ja
 <section class="try-ruby-section bg-gold-300 dark:bg-stone-800 pt-0 pb-16 md:pb-20">
   <div class="container mx-auto px-4">
     <!-- Section Title -->
-    <div class="text-center mb-12">
-      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4">Try Ruby!</h2>
+    <div class="text-center mb-8 sm:mb-12">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4 sm:mb-6">Try Ruby!</h2>
       <p class="text-base md:text-xl text-stone-700 dark:text-stone-300">今すぐ Ruby を試しましょう</p>
     </div>
 
@@ -123,6 +123,107 @@ lang: ja
           <span class="icon-external text-xs" aria-hidden="true"></span>
         </a>
       </p>
+    </div>
+  </div>
+</section>
+
+<!-- Why Ruby Section -->
+{% assign why_ruby = site.data.home.why_ruby.ja.why_ruby %}
+<section class="why-ruby-section bg-white dark:bg-stone-900 py-16 md:py-20 lg:py-24">
+  <div class="container mx-auto px-4">
+    <!-- Section Header -->
+    <div class="text-center mb-8 sm:mb-12">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4 sm:mb-6">
+        {{ why_ruby.title }}
+      </h2>
+      <p class="text-base md:text-xl text-stone-700 dark:text-stone-300">
+        {{ why_ruby.description }}
+      </p>
+    </div>
+
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-20">
+      {% for feature in why_ruby.features %}
+      <!-- {{ feature.title }} -->
+      <div class="why-ruby-card relative self-start{% if forloop.index == 2 or forloop.index == 4 %} lg:top-28{% endif %}">
+        <!-- Background Illustration -->
+        <div class="absolute -top-4 right-0 w-40 md:w-56 lg:w-56 h-40 md:h-56 lg:h-56 pointer-events-none hidden sm:block lg:hidden xl:block">
+          <img src="/images/home/why_ruby/illustration/{{ feature.id }}--light.svg"
+               alt=""
+               class="block dark:hidden w-full h-full object-contain">
+          <img src="/images/home/why_ruby/illustration/{{ feature.id }}--dark.svg"
+               alt=""
+               class="hidden dark:block w-full h-full object-contain">
+        </div>
+
+        <div class="relative z-10">
+          <!-- Title (Handwritten Style) -->
+          <h3 class="relative z-0 text-5xl sm:text-6xl md:text-7xl font-handwrite font-thin text-gold-600 dark:text-gold-400 mb-8 -rotate-[5deg]">
+            {{ feature.title }}
+          </h3>
+
+          <!-- Read Text -->
+          <p class="relative z-10 text-xl sm:text-2xl font-bold text-stone-900 dark:text-white mb-4 leading-relaxed pl-4 md:pl-14 lg:pl-16">
+            {{ feature.read }}
+          </p>
+
+          <!-- Copy Text -->
+          <div class="relative z-10 text-sm sm:text-base text-stone-700 dark:text-stone-300 mb-4 pl-4 md:pl-14 lg:pl-16">
+            {{ feature.copy }}
+          </div>
+
+          <!-- Comment Section -->
+          <div class="relative z-10 flex flex-col md:flex-row lg:flex-col xl:flex-row gap-4 items-center md:items-start lg:items-center xl:items-start ml-0 md:ml-14 lg:ml-16 mt-4">
+            <!-- Left: Avatar and Author Info -->
+            <div class="flex-shrink-0 flex flex-row md:flex-col lg:flex-row xl:flex-col items-center gap-4 md:gap-0 lg:gap-4 xl:gap-0 justify-center">
+              <!-- Avatar with Ruby Gem Mask -->
+              <div class="w-32 h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 relative flex-shrink-0 mb-0 xl:mb-0">
+                <svg class="absolute inset-0 w-full h-full" viewBox="0 0 200 180">
+                  <defs>
+                    <clipPath id="ruby-gem-mask-{{ feature.comment.author.id }}">
+                      <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"/>
+                    </clipPath>
+                  </defs>
+                  <image
+                    href="/images/home/why_ruby/{{ feature.comment.author.id }}.jpeg"
+                    width="200"
+                    height="180"
+                    clip-path="url(#ruby-gem-mask-{{ feature.comment.author.id }})"
+                    preserveAspectRatio="xMidYMid slice"/>
+                </svg>
+              </div>
+
+              <!-- Author Info -->
+              <div class="text-left md:text-center lg:text-left xl:text-center mb-4 md:mb-0 lg:mb-4 xl:mb-0">
+                <a href="{{ feature.comment.author.url }}"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-semantic-text-link hover:text-semantic-text-link-hovered font-bold text-base md:text-lg hover:underline block mb-1">
+                  @{{ feature.comment.author.id }}
+                </a>
+                <p class="text-sm md:text-base text-stone-900 dark:text-white font-semibold mb-1">
+                  {{ feature.comment.author.name }}
+                </p>
+                <p class="text-xs md:text-sm text-stone-600 dark:text-stone-400">
+                  {{ feature.comment.author.title }}
+                </p>
+              </div>
+            </div>
+
+            <!-- Right: Comment Content -->
+            <div class="flex-1 pt-0 md:pt-2 lg:pt-0 xl:pt-2 w-full">
+              <div class="relative text-sm md:text-base text-stone-700 dark:text-stone-300 leading-relaxed bg-stone-100 dark:bg-stone-800 p-6 md:p-8 rounded-3xl">
+                <!-- Fukidashi tail -->
+                <svg class="hidden md:block lg:hidden xl:block absolute -left-6 top-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10" viewBox="0 0 51.37 44.92">
+                  <path class="fill-stone-100 dark:fill-stone-800" d="M49.21,4.28s-10.52,15.66-20.47,17.55c-8.48,1.61-23.4,0-23.4,0,0,0,14.74,18.6,33.28,19.66,8.97.51,10.59-.65,10.59-.65V4.28Z"/>
+                </svg>
+                {{ feature.comment.content }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>

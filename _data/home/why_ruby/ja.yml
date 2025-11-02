@@ -1,0 +1,75 @@
+why_ruby:
+  title: Why Ruby?
+  description: 世界中のプログラマに愛されている Ruby は、なぜ「<strong>たのしい</strong>」のか？
+  features:
+    - id: simple
+      title: Simple
+      read: 書きやすく、読みやすい。<br />自然言語のようなシンプルな文法。
+      copy: |
+        Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+        複雑な記号や冗長な記述を排除し、書きたいことをそのまま表現できる設計思想が貫かれています。
+        無駄な記述が少なく、可読性が高いため、初心者にも優しく、経験豊富な開発者にとってもメンテナンスしやすい言語です。
+      comment:
+        author:
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
+          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+
+    - id: productivity
+      title: Productivity
+      read: 少ないコードで、多くを実現する。<br />直感的な記述が開発を加速させる。
+      copy: |
+        Rubyは表現力豊かな文法により、複雑なロジックも簡潔に記述できます。
+        メタプログラミングやブロック構文などの強力な機能を活用することで、繰り返しを削減し、本質的な問題解決に集中できます。
+        テストフレームワークも充実しており、品質を保ちながら高速な開発サイクルを実現します。
+      comment:
+        author:
+          id: pragdave
+          url: https://github.com/pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
+          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+
+    - id: ecosystem
+      title: Ecosystem
+      read: 豊富なgemが、あらゆる開発を支える。<br />成熟したツール群が即座に使える環境。
+      copy: |
+        Rubyには膨大な数のgemと呼ばれるライブラリが存在し、Web開発からデータ処理まで幅広いニーズに対応します。
+        Railsをはじめとするフレームワークやツールチェーンも充実しており、既存の優れた資産を組み合わせることで、
+        車輪の再発明をせずに高品質なアプリケーションを素早く構築できます。
+      comment:
+        author:
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
+          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+
+    - id: community
+      title: Community
+      read: 世界中の開発者が支え合う。<br />温かく、活発なコミュニティ。
+      copy: |
+        Rubyコミュニティは「Matz is nice so we are nice（Matzが優しいから私たちも優しい）」という文化を持ち、
+        初心者から熟練者まで歓迎する雰囲気があります。世界各地でカンファレンスやミートアップが開催され、知識の共有や交流が盛んです。
+        困ったときには助け合い、共に成長していく、温かく持続可能なコミュニティです。
+      comment:
+        author:
+          id: amatsuda
+          url: https://github.com/amatsuda
+          name: Akira Matsuda
+          title: Chief Organizer of RubyKaigi
+        content: |
+          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
+          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
