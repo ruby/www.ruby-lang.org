@@ -2068,7 +2068,7 @@ body:is(.dark *){
 
 .text-sm{
   font-size: 0.875rem;
-  line-height: 1.25rem;
+  line-height: 1.7;
 }
 
 .text-xl{
@@ -2735,7 +2735,7 @@ body:is(.dark *){
 
   .md\:text-sm{
     font-size: 0.875rem;
-    line-height: 1.25rem;
+    line-height: 1.7;
   }
 
   .md\:text-xl{
