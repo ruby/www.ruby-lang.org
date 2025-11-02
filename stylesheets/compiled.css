@@ -2438,10 +2438,6 @@ body:is(.dark *){
   color: var(--color-gold-400);
 }
 
-.dark\:text-ruby-400:is(.dark *){
-  color: var(--color-ruby-400);
-}
-
 .dark\:text-stone-100:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(245 245 244 / var(--tw-text-opacity, 1));
