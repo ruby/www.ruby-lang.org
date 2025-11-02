@@ -2492,6 +2492,14 @@ body:is(.dark *){
 }
 
 @media (min-width: 640px){
+  .sm\:mb-12{
+    margin-bottom: 3rem;
+  }
+
+  .sm\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
   .sm\:block{
     display: block;
   }
