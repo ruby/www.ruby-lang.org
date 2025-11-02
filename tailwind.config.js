@@ -223,10 +223,16 @@ module.exports = {
               },
             },
             '.summary': {
-              marginTop: '1rem',        // 16px
+              marginTop: '3rem',        // 48px
               marginBottom: '4rem',     // 48px
               fontSize: '1.2rem',       // 20px
-              lineHeight: '1.8rem',     // 26px
+              lineHeight: '1.8',
+              paddingBottom: '4rem',    // 64px
+              borderBottom: '1px solid',
+              borderBottomColor: theme('colors.stone.200'),
+              '.dark &': {
+                borderBottomColor: theme('colors.stone.700'),
+              },
             },
             'a': {
               color: '#e62923',  // ruby-600 (light mode)
