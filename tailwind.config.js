@@ -160,7 +160,7 @@ module.exports = {
         'handwrite': ['"Playwrite AU TAS"', 'cursive'],
       },
       fontSize: {
-        'base': ['1rem', { lineHeight: '1.6' }],
+        'base': ['1rem', { lineHeight: '1.7' }],
       },
       maxWidth: {
         'container': '61.25rem',  // 980px

@@ -685,7 +685,7 @@ body{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   font-family: "Plus Jakarta Sans", "Noto Sans JP", ui-sans-serif, system-ui, -apple-system, sans-serif;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.7;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
   color: rgb(28 25 23 / var(--tw-text-opacity, 1));
@@ -2062,7 +2062,7 @@ body:is(.dark *){
 
 .text-base{
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .text-lg{
@@ -2708,7 +2708,7 @@ body:is(.dark *){
 
   .md\:text-base{
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   .md\:text-lg{
