@@ -1368,8 +1368,8 @@ body:is(.dark *){
   left: -1.5rem;
 }
 
-.-top-8{
-  top: -2rem;
+.-top-4{
+  top: -1rem;
 }
 
 .left-0{
@@ -1543,10 +1543,6 @@ body:is(.dark *){
 
 .h-32{
   height: 8rem;
-}
-
-.h-40{
-  height: 10rem;
 }
 
 .h-8{
@@ -2515,10 +2511,6 @@ body:is(.dark *){
 }
 
 @media (min-width: 768px){
-  .md\:-top-10{
-    top: -2.5rem;
-  }
-
   .md\:mb-4{
     margin-bottom: 1rem;
   }
@@ -2555,8 +2547,8 @@ body:is(.dark *){
     height: 10rem;
   }
 
-  .md\:h-52{
-    height: 13rem;
+  .md\:h-44{
+    height: 11rem;
   }
 
   .md\:h-\[595px\]{
@@ -2571,12 +2563,12 @@ body:is(.dark *){
     width: 10rem;
   }
 
-  .md\:w-48{
-    width: 12rem;
+  .md\:w-44{
+    width: 11rem;
   }
 
-  .md\:w-52{
-    width: 13rem;
+  .md\:w-48{
+    width: 12rem;
   }
 
   .md\:w-\[1400px\]{
@@ -2732,10 +2724,6 @@ body:is(.dark *){
 }
 
 @media (min-width: 1024px){
-  .lg\:-top-12{
-    top: -3rem;
-  }
-
   .lg\:top-28{
     top: 7rem;
   }
@@ -2760,8 +2748,8 @@ body:is(.dark *){
     height: 12rem;
   }
 
-  .lg\:h-64{
-    height: 16rem;
+  .lg\:h-56{
+    height: 14rem;
   }
 
   .lg\:h-\[730px\]{
@@ -2778,10 +2766,6 @@ body:is(.dark *){
 
   .lg\:w-56{
     width: 14rem;
-  }
-
-  .lg\:w-64{
-    width: 16rem;
   }
 
   .lg\:w-\[1728px\]{
