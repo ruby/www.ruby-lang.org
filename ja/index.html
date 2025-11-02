@@ -173,42 +173,51 @@ lang: ja
           </div>
 
           <!-- Comment Section -->
-          <div class="relative z-10 flex gap-4 items-start bg-stone-50 dark:bg-stone-800 p-6 rounded-2xl ml-12 md:ml-14 lg:ml-16">
-            <!-- Avatar with Ruby Gem Mask -->
-            <div class="flex-shrink-0 w-20 h-20 md:w-24 md:h-24 relative">
-              <svg class="absolute inset-0 w-full h-full" viewBox="0 0 200 180">
-                <defs>
-                  <clipPath id="ruby-gem-mask-{{ feature.comment.author.id }}">
-                    <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"/>
-                  </clipPath>
-                </defs>
-                <image
-                  href="/images/home/why_ruby/{{ feature.comment.author.id }}.jpeg"
-                  width="200"
-                  height="180"
-                  clip-path="url(#ruby-gem-mask-{{ feature.comment.author.id }})"
-                  preserveAspectRatio="xMidYMid slice"/>
-              </svg>
-            </div>
-
-            <!-- Comment Content -->
-            <div class="flex-1">
-              <div class="text-xs md:text-sm text-stone-600 dark:text-stone-400 mb-2 leading-relaxed">
-                {{ feature.comment.content }}
+          <div class="relative z-10 flex gap-6 md:gap-8 items-start ml-12 md:ml-14 lg:ml-16 mt-8">
+            <!-- Left: Avatar and Author Info -->
+            <div class="flex-shrink-0 flex flex-col items-center w-40 md:w-48 lg:w-56">
+              <!-- Avatar with Ruby Gem Mask -->
+              <div class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 relative mb-0">
+                <svg class="absolute inset-0 w-full h-full" viewBox="0 0 200 180">
+                  <defs>
+                    <clipPath id="ruby-gem-mask-{{ feature.comment.author.id }}">
+                      <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"/>
+                    </clipPath>
+                  </defs>
+                  <image
+                    href="/images/home/why_ruby/{{ feature.comment.author.id }}.jpeg"
+                    width="200"
+                    height="180"
+                    clip-path="url(#ruby-gem-mask-{{ feature.comment.author.id }})"
+                    preserveAspectRatio="xMidYMid slice"/>
+                </svg>
               </div>
-              <div class="mt-3">
+
+              <!-- Author Info -->
+              <div class="text-center">
                 <a href="{{ feature.comment.author.url }}"
                    target="_blank"
                    rel="noopener noreferrer"
-                   class="text-ruby-600 dark:text-ruby-400 font-bold text-sm hover:underline">
+                   class="text-ruby-600 dark:text-ruby-400 font-bold text-base md:text-lg hover:underline block mb-1">
                   @{{ feature.comment.author.id }}
                 </a>
-                <p class="text-xs text-stone-900 dark:text-white font-semibold">
+                <p class="text-sm md:text-base text-stone-900 dark:text-white font-semibold mb-1">
                   {{ feature.comment.author.name }}
                 </p>
-                <p class="text-xs text-stone-600 dark:text-stone-400">
+                <p class="text-xs md:text-sm text-stone-600 dark:text-stone-400">
                   {{ feature.comment.author.title }}
                 </p>
+              </div>
+            </div>
+
+            <!-- Right: Comment Content -->
+            <div class="flex-1 pt-2">
+              <div class="relative text-sm md:text-base text-stone-700 dark:text-stone-300 leading-relaxed bg-stone-100 dark:bg-stone-800 p-6 md:p-8 rounded-3xl">
+                <!-- Fukidashi tail -->
+                <svg class="absolute -left-6 top-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10" viewBox="0 0 51.37 44.92">
+                  <path class="fill-stone-100 dark:fill-stone-800" d="M49.21,4.28s-10.52,15.66-20.47,17.55c-8.48,1.61-23.4,0-23.4,0,0,0,14.74,18.6,33.28,19.66,8.97.51,10.59-.65,10.59-.65V4.28Z"/>
+                </svg>
+                {{ feature.comment.content }}
               </div>
             </div>
           </div>
