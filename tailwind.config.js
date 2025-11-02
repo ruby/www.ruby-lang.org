@@ -44,6 +44,43 @@ module.exports = {
       },
     },
     extend: {
+      keyframes: {
+        'hero-gem-in': {
+          '0%': {
+            opacity: '0',
+            transform: 'scale(0.8)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'scale(1)',
+          },
+        },
+        'hero-content-in': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-20px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
+        'hero-bg-in': {
+          '0%': {
+            opacity: '0',
+            transform: 'translate(-50%, 0) scale(0.95)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translate(-50%, 0) scale(1)',
+          },
+        },
+      },
+      animation: {
+        'hero-gem-in': 'hero-gem-in 0.6s ease-out forwards',
+        'hero-content-in': 'hero-content-in 0.6s ease-out 0.4s forwards',
+        'hero-bg-in': 'hero-bg-in 0.7s ease-out 0.8s forwards',
+      },
       colors: {
         // Semantic colors using CSS variables
         'semantic': {
