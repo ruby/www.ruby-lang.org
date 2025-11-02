@@ -145,7 +145,7 @@ lang: ja
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-20">
       {% for feature in why_ruby.features %}
       <!-- {{ feature.title }} -->
-      <div class="why-ruby-card relative">
+      <div class="why-ruby-card relative self-start{% if forloop.index == 2 or forloop.index == 4 %} lg:top-28{% endif %}">
         <!-- Background Illustration -->
         <div class="absolute -top-8 md:-top-10 lg:-top-12 right-0 w-40 md:w-52 lg:w-64 h-40 md:h-52 lg:h-64 pointer-events-none">
           <img src="/images/home/why_ruby/illustration/{{ feature.id }}--light.svg"
@@ -168,12 +168,12 @@ lang: ja
           </p>
 
           <!-- Copy Text -->
-          <div class="relative z-10 text-sm md:text-base text-stone-700 dark:text-stone-300 mb-8 pl-12 md:pl-14 lg:pl-16">
+          <div class="relative z-10 text-sm md:text-base text-stone-700 dark:text-stone-300 mb-4 pl-12 md:pl-14 lg:pl-16">
             {{ feature.copy }}
           </div>
 
           <!-- Comment Section -->
-          <div class="relative z-10 flex gap-6 md:gap-8 items-start ml-12 md:ml-14 lg:ml-16 mt-8">
+          <div class="relative z-10 flex gap-6 md:gap-8 items-start ml-12 md:ml-14 lg:ml-16 mt-4">
             <!-- Left: Avatar and Author Info -->
             <div class="flex-shrink-0 flex flex-col items-center w-40 md:w-48 lg:w-56">
               <!-- Avatar with Ruby Gem Mask -->

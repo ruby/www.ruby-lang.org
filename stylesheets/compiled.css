@@ -2736,6 +2736,10 @@ body:is(.dark *){
     top: -3rem;
   }
 
+  .lg\:top-28{
+    top: 7rem;
+  }
+
   .lg\:ml-16{
     margin-left: 4rem;
   }
