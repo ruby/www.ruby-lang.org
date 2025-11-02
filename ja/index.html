@@ -147,7 +147,7 @@ lang: ja
       <!-- {{ feature.title }} -->
       <div class="why-ruby-card relative self-start{% if forloop.index == 2 or forloop.index == 4 %} lg:top-28{% endif %}">
         <!-- Background Illustration -->
-        <div class="absolute -top-4 right-0 w-32 md:w-44 lg:w-56 h-32 md:h-44 lg:h-56 pointer-events-none">
+        <div class="absolute -top-4 right-0 w-40 md:w-56 lg:w-56 h-40 md:h-56 lg:h-56 pointer-events-none hidden sm:block lg:hidden xl:block">
           <img src="/images/home/why_ruby/illustration/{{ feature.id }}--light.svg"
                alt=""
                class="block dark:hidden w-full h-full object-contain">
@@ -158,22 +158,22 @@ lang: ja
 
         <div class="relative z-10">
           <!-- Title (Handwritten Style) -->
-          <h3 class="relative z-0 text-5xl md:text-6xl lg:text-7xl font-handwrite font-thin text-gold-600 dark:text-gold-400 mb-8 -rotate-[5deg]">
+          <h3 class="relative z-0 text-5xl sm:text-6xl md:text-7xl font-handwrite font-thin text-gold-600 dark:text-gold-400 mb-8 -rotate-[5deg]">
             {{ feature.title }}
           </h3>
 
           <!-- Read Text -->
-          <p class="relative z-10 text-xl md:text-2xl font-bold text-stone-900 dark:text-white mb-4 leading-relaxed pl-12 md:pl-14 lg:pl-16">
+          <p class="relative z-10 text-xl sm:text-2xl font-bold text-stone-900 dark:text-white mb-4 leading-relaxed pl-4 md:pl-14 lg:pl-16">
             {{ feature.read }}
           </p>
 
           <!-- Copy Text -->
-          <div class="relative z-10 text-sm md:text-base text-stone-700 dark:text-stone-300 mb-4 pl-12 md:pl-14 lg:pl-16">
+          <div class="relative z-10 text-sm sm:text-base text-stone-700 dark:text-stone-300 mb-4 pl-4 md:pl-14 lg:pl-16">
             {{ feature.copy }}
           </div>
 
           <!-- Comment Section -->
-          <div class="relative z-10 flex flex-col md:flex-row lg:flex-col xl:flex-row gap-4 items-center md:items-start lg:items-center xl:items-start ml-12 md:ml-14 lg:ml-16 mt-4">
+          <div class="relative z-10 flex flex-col md:flex-row lg:flex-col xl:flex-row gap-4 items-center md:items-start lg:items-center xl:items-start ml-0 md:ml-14 lg:ml-16 mt-4">
             <!-- Left: Avatar and Author Info -->
             <div class="flex-shrink-0 flex flex-row md:flex-col lg:flex-row xl:flex-col items-center gap-4 md:gap-0 lg:gap-4 xl:gap-0 justify-center">
               <!-- Avatar with Ruby Gem Mask -->
