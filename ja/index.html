@@ -132,8 +132,8 @@ lang: ja
 <section class="why-ruby-section bg-white dark:bg-stone-900 py-16 md:py-20 lg:py-24">
   <div class="container mx-auto px-4">
     <!-- Section Header -->
-    <div class="text-center mb-16 md:mb-20">
-      <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 dark:text-white mb-4">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4">
         {{ why_ruby.title }}
       </h2>
       <p class="text-base md:text-xl text-stone-700 dark:text-stone-300">
@@ -147,7 +147,7 @@ lang: ja
       <!-- {{ feature.title }} -->
       <div class="why-ruby-card relative">
         <!-- Background Illustration -->
-        <div class="absolute top-0 right-0 w-32 md:w-40 lg:w-48 h-32 md:h-40 lg:h-48 opacity-30 pointer-events-none">
+        <div class="absolute -top-8 md:-top-10 lg:-top-12 right-0 w-40 md:w-52 lg:w-64 h-40 md:h-52 lg:h-64 pointer-events-none">
           <img src="/images/home/why_ruby/illustration/{{ feature.id }}--light.svg"
                alt=""
                class="block dark:hidden w-full h-full object-contain">
@@ -158,22 +158,22 @@ lang: ja
 
         <div class="relative z-10">
           <!-- Title (Handwritten Style) -->
-          <h3 class="text-5xl md:text-6xl lg:text-7xl font-handwrite text-gold-600 dark:text-gold-400 mb-6">
+          <h3 class="relative z-0 text-5xl md:text-6xl lg:text-7xl font-handwrite font-thin text-gold-600 dark:text-gold-400 mb-8 -rotate-[5deg]">
             {{ feature.title }}
           </h3>
 
           <!-- Read Text -->
-          <p class="text-xl md:text-2xl font-bold text-stone-900 dark:text-white mb-6 leading-relaxed">
+          <p class="relative z-10 text-xl md:text-2xl font-bold text-stone-900 dark:text-white mb-4 leading-relaxed pl-12 md:pl-14 lg:pl-16">
             {{ feature.read }}
           </p>
 
           <!-- Copy Text -->
-          <div class="text-sm md:text-base text-stone-700 dark:text-stone-300 mb-8 leading-relaxed">
+          <div class="relative z-10 text-sm md:text-base text-stone-700 dark:text-stone-300 mb-8 pl-12 md:pl-14 lg:pl-16">
             {{ feature.copy }}
           </div>
 
           <!-- Comment Section -->
-          <div class="flex gap-4 items-start bg-stone-50 dark:bg-stone-800 p-6 rounded-2xl">
+          <div class="relative z-10 flex gap-4 items-start bg-stone-50 dark:bg-stone-800 p-6 rounded-2xl ml-12 md:ml-14 lg:ml-16">
             <!-- Avatar with Ruby Gem Mask -->
             <div class="flex-shrink-0 w-20 h-20 md:w-24 md:h-24 relative">
               <svg class="absolute inset-0 w-full h-full" viewBox="0 0 200 180">

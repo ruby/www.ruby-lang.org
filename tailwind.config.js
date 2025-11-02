@@ -159,6 +159,9 @@ module.exports = {
         'icon': ['"Material Icons"', 'sans-serif'],
         'handwrite': ['"Playwrite AU TAS"', 'cursive'],
       },
+      fontSize: {
+        'base': ['1rem', { lineHeight: '1.6' }],
+      },
       maxWidth: {
         'container': '61.25rem',  // 980px
         'content': '70%',
