@@ -173,11 +173,11 @@ lang: ja
           </div>
 
           <!-- Comment Section -->
-          <div class="relative z-10 flex gap-3 md:gap-4 items-start ml-12 md:ml-14 lg:ml-16 mt-4">
+          <div class="relative z-10 flex flex-col md:flex-row lg:flex-col xl:flex-row gap-4 items-center md:items-start lg:items-center xl:items-start ml-12 md:ml-14 lg:ml-16 mt-4">
             <!-- Left: Avatar and Author Info -->
-            <div class="flex-shrink-0 flex flex-col items-center w-40 md:w-48 lg:w-56">
+            <div class="flex-shrink-0 flex flex-row md:flex-col lg:flex-row xl:flex-col items-center gap-4 md:gap-0 lg:gap-4 xl:gap-0 justify-center">
               <!-- Avatar with Ruby Gem Mask -->
-              <div class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 relative mb-0">
+              <div class="w-32 h-32 md:w-40 md:h-40 xl:w-48 xl:h-48 relative flex-shrink-0 mb-0 xl:mb-0">
                 <svg class="absolute inset-0 w-full h-full" viewBox="0 0 200 180">
                   <defs>
                     <clipPath id="ruby-gem-mask-{{ feature.comment.author.id }}">
@@ -194,7 +194,7 @@ lang: ja
               </div>
 
               <!-- Author Info -->
-              <div class="text-center">
+              <div class="text-left md:text-center lg:text-left xl:text-center mb-4 md:mb-0 lg:mb-4 xl:mb-0">
                 <a href="{{ feature.comment.author.url }}"
                    target="_blank"
                    rel="noopener noreferrer"
@@ -211,10 +211,10 @@ lang: ja
             </div>
 
             <!-- Right: Comment Content -->
-            <div class="flex-1 pt-2">
+            <div class="flex-1 pt-0 md:pt-2 lg:pt-0 xl:pt-2 w-full">
               <div class="relative text-sm md:text-base text-stone-700 dark:text-stone-300 leading-relaxed bg-stone-100 dark:bg-stone-800 p-6 md:p-8 rounded-3xl">
                 <!-- Fukidashi tail -->
-                <svg class="absolute -left-6 top-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10" viewBox="0 0 51.37 44.92">
+                <svg class="hidden md:block lg:hidden xl:block absolute -left-6 top-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10" viewBox="0 0 51.37 44.92">
                   <path class="fill-stone-100 dark:fill-stone-800" d="M49.21,4.28s-10.52,15.66-20.47,17.55c-8.48,1.61-23.4,0-23.4,0,0,0,14.74,18.6,33.28,19.66,8.97.51,10.59-.65,10.59-.65V4.28Z"/>
                 </svg>
                 {{ feature.comment.content }}
