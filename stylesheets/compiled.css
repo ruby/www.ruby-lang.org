@@ -3029,6 +3029,10 @@ body:is(.dark *){
     padding-top: 0.5rem;
   }
 
+  .xl\:pt-\[6\.25rem\]{
+    padding-top: 6.25rem;
+  }
+
   .xl\:text-center{
     text-align: center;
   }
