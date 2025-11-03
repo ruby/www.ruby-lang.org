@@ -38,13 +38,12 @@
   <!-- Photo Gallery (Full Width) -->
   <div class="relative overflow-hidden mb-12 md:mb-16" style="height: 280px;">
     <div class="photo-scroll flex gap-8 absolute" style="animation: scroll-left 40s linear infinite;">
-      {% assign photo_dir = "/images/home/community/pics" %}
-      {% assign photos = "G117a0baoAAvhh0.jpg,G11Cy2EaAAAEfbL.jpg,GeGkCD1akAQ-QZP.jpg,GNnL3voaIAAXryK.jpg,GNwg7FBaMAAdN6p.jpg,Go4LNoFbsAAD2QO.jpg,GoqjdTKXwAANrtR.jpg,GugKZKoWcAA_Q9Z.jpg,Gx0kyaAbsAIVKV-.jpg,Gx1g5_cbsAE28TM.jpg,GyKcdgiakAAK9yj.jpg" | split: "," %}
+      {% assign community_photos = site.static_files | where_exp: "file", "file.path contains '/images/home/community/pics/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.png' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.PNG' or file.extname == '.JPEG'" %}
       {% for i in (1..2) %}
         <div class="flex gap-8 photo-scroll-track">
-          {% for photo in photos %}
+          {% for photo in community_photos %}
           <div class="photo-item" style="width: 200px; height: 180px; flex-shrink: 0;">
-            <img src="{{ photo_dir }}/{{ photo }}" alt="Ruby Community" class="w-full h-full object-cover" style="clip-path: url(#ruby-gem-mask);">
+            <img src="{{ photo.path }}" alt="Ruby Community" class="w-full h-full object-cover" style="clip-path: url(#ruby-gem-mask);">
           </div>
           {% endfor %}
         </div>
