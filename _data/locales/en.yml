@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: Install
   url: /en/documentation/installation/
   submenu:

@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: 다운로드
   url: /ko/documentation/installation/
   submenu:

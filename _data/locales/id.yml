@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: Unduh
   url: /id/documentation/installation/
   submenu:

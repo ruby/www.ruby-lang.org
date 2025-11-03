@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: インストール
   url: /ja/documentation/installation/
   submenu:

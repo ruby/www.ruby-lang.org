@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: За сваляне
   url: /bg/documentation/installation/
   submenu:

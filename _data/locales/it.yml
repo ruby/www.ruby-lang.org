@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: Scarica
   url: /it/documentation/installation/
   submenu:

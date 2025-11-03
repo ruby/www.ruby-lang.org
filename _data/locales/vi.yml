@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: Downloads
   url: /vi/documentation/installation/
   submenu:

@@ -4,10 +4,10 @@
 {% endcomment %}
 
 {% comment %}Load locale data{% endcomment %}
-{% if site.data.locales[page.lang].header_navigation %}
-  {% assign header_nav = site.data.locales[page.lang].header_navigation %}
+{% if site.data.locales[page.lang].navigation %}
+  {% assign header_nav = site.data.locales[page.lang].navigation %}
 {% else %}
-  {% assign header_nav = site.data.locales['en'].header_navigation %}
+  {% assign header_nav = site.data.locales['en'].navigation %}
 {% endif %}
 
 {% comment %}Find news and security links{% endcomment %}

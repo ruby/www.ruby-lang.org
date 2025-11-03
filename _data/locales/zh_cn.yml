@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: 下载
   url: /zh_cn/documentation/installation/
   submenu:

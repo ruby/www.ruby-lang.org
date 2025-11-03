@@ -1,6 +1,6 @@
 ---
 
-header_navigation:
+navigation:
 - text: Téléchargements
   url: /fr/documentation/installation/
   submenu:
