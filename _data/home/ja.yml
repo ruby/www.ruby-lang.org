@@ -4,7 +4,6 @@ hero:
   title: "Ruby"
   tagline: "A Programmers Best Friend"
   latest_version_label: "Latest Version:"
-  latest_version: "4.0.0"
   download_button: "Download"
   or: "or"
   learn_more: "Learn More"
