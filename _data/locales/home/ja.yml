@@ -24,6 +24,21 @@ companies:
   heart: "♥"
   subtitle: "Ruby"
 
+community:
+  title: "Join the Community"
+  description_1: "Ruby に「お客さん」以上の気持ちで接する人達は Rubyist と呼ばれます。"
+  description_2: "Ruby を愛する Rubyist はみんなナイスな #rubyfriends。楽しいコミュニティ活動が盛んに開催されています。"
+  motto_prefix: "世界共通の合言葉は"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "──"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "コミュニティについて詳しく"
+      url: "/ja/community/"
+    - text: "開催予定の国際カンファレンス"
+      url: "https://rubyconferences.org"
+      external: true
+
 why_ruby:
   title: Why Ruby?
   description: 世界中のプログラマに愛されている Ruby は、なぜ「<strong>たのしい</strong>」のか？
