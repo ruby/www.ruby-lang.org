@@ -4,16 +4,16 @@
 {% endcomment %}
 
 {% comment %}Load locale data{% endcomment %}
-{% if site.data.locales[page.lang].header_navigation %}
-  {% assign nav_items = site.data.locales[page.lang].header_navigation %}
+{% if site.data.locales[page.lang].navigation %}
+  {% assign nav_items = site.data.locales[page.lang].navigation %}
 {% else %}
-  {% assign nav_items = site.data.locales['en'].header_navigation %}
+  {% assign nav_items = site.data.locales['en'].navigation %}
 {% endif %}
 
-{% if site.data.locales[page.lang].sidebar %}
-  {% assign syndicate = site.data.locales[page.lang].sidebar.syndicate %}
+{% if site.data.locales[page.lang].syndicate %}
+  {% assign syndicate = site.data.locales[page.lang].syndicate %}
 {% else %}
-  {% assign syndicate = site.data.locales['en'].sidebar.syndicate %}
+  {% assign syndicate = site.data.locales['en'].syndicate %}
 {% endif %}
 
 {% comment %}Detect current section{% endcomment %}

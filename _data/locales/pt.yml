@@ -1,30 +1,6 @@
 ---
-ruby: Ruby
-slogan: O melhor amigo do programador
 
-sitelinks:
-- text: Início
-  url: /pt
-  home: true
-- text: Downloads
-  url: /pt/downloads
-- text: Documentação
-  url: /pt/documentation
-- text: Módulos
-  url: /pt/libraries
-- text: Comunidade
-  url: /pt/community
-- text: Notícias
-  url: /pt/news
-- text: Segurança
-  url: /pt/security
-- text: Sobre Ruby
-  url: /pt/about
-
-search:
-  text: Procurar
-
-header_navigation:
+navigation:
 - text: Downloads
   url: /pt/documentation/installation/
   submenu:
@@ -148,60 +124,14 @@ header_navigation:
       external: true
 - text: Notícias
   url: /pt/news/
+- text: Segurança
+  url: /pt/security/
 
-sidebar:
-  get_started:
-    text: <strong>Primeiros passos</strong>, é fácil!
-    try_ruby:
-      text: Try Ruby! (in your browser)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby em Vinte Minutos
-      url: /pt/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby a partir de outras linguagens
-      url: /pt/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Explore</strong> um novo mundo…
-    documentation:
-      text: Documentação
-      url: /pt/documentation/
-    # books:
-    #   text: Livros
-    libraries:
-      text: Bibliotecas
-      url: /pt/libraries/
-    success_stories:
-      text: Histórias de sucesso
-      url: /pt/documentation/success-stories/
-  participate:
-    text: <strong>Participe</strong> de uma comunidade simpática e em crescimento.
-    mailing_lists:
-      text: Listas de E-mail
-      url: /pt/community/mailing-lists/
-      description: Fale sobre Ruby com programadores de todo o mundo.
-    user_groups:
-      text: Grupos de Usuários
-      url: /pt/community/user-groups/
-      description: Entre em contato com colegas da sua área.
-    weblogs:
-      text: Weblogs
-      url: /pt/community/weblogs/
-      description: Leia sobre o que está acontecendo agora na comunidade
-        Ruby.
-    ruby_core:
-      text: Desenvolvimento do Ruby Core
-      url: /pt/community/ruby-core/
-      description: Ajude a polir as arestas da última versão do Ruby.
-    issue_tracking:
-      text: Issue Tracking
-      url: https://bugs.ruby-lang.org/
-      description: Informe ou ajude a resolver problemas do Ruby.
-  syndicate:
-    text: Feeds de notícias (RSS)
-    recent_news:
-      text: Em português
-      url: /pt/feeds/news.rss
+syndicate:
+  text: Feeds de notícias (RSS)
+  recent_news:
+    text: Em português
+    url: /pt/feeds/news.rss
 
 languages_heading: 'Este site em outros idiomas:'
 

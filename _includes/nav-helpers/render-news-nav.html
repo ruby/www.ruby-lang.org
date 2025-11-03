@@ -4,16 +4,16 @@
 {% endcomment %}
 
 {% comment %}Load locale data{% endcomment %}
-{% if site.data.locales[page.lang].sitelinks %}
-  {% assign sitelinks = site.data.locales[page.lang].sitelinks %}
+{% if site.data.locales[page.lang].navigation %}
+  {% assign header_nav = site.data.locales[page.lang].navigation %}
 {% else %}
-  {% assign sitelinks = site.data.locales['en'].sitelinks %}
+  {% assign header_nav = site.data.locales['en'].navigation %}
 {% endif %}
 
 {% comment %}Find news and security links{% endcomment %}
 {% assign news_link = nil %}
 {% assign security_link = nil %}
-{% for link in sitelinks %}
+{% for link in header_nav %}
   {% if link.url contains '/news' %}
     {% assign news_link = link %}
   {% elsif link.url contains '/security' %}

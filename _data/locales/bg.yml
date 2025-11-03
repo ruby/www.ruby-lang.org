@@ -1,30 +1,6 @@
 ---
-ruby: Ruby
-slogan: най-добрият приятел на програмиста
 
-sitelinks:
-- text: Начало
-  url: /bg
-  home: true
-- text: За сваляне
-  url: /bg/downloads
-- text: Документация
-  url: /bg/documentation
-- text: Библиотеки
-  url: /bg/libraries
-- text: Общност
-  url: /bg/community
-- text: Новини
-  url: /bg/news
-- text: Сигурност
-  url: /bg/security
-- text: Относно
-  url: /bg/about
-
-search:
-  text: Търси
-
-header_navigation:
+navigation:
 - text: За сваляне
   url: /bg/documentation/installation/
   submenu:
@@ -148,60 +124,14 @@ header_navigation:
       external: true
 - text: Новини
   url: /bg/news/
+- text: Сигурност
+  url: /bg/security/
 
-sidebar:
-  get_started:
-    text: <strong>Започнете</strong> лесно е!
-    try_ruby:
-      text: Пробвайте Ruby! (в браузъра)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby в 20 минути
-      url: /bg/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby от други езици
-      url: /bg/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Изследвайте</strong> нов свят…
-    documentation:
-      text: Документация
-      url: /bg/documentation/
-    # books:
-    #   text: Книги
-    libraries:
-      text: Библиотеки
-      url: /bg/libraries/
-    success_stories:
-      text: Успешни истории
-      url: /bg/documentation/success-stories/
-  participate:
-    text: <strong>Участвайте</strong> в приятелски настроено общество.
-    mailing_lists:
-      text: Пощенски списъци
-      url: /bg/community/mailing-lists/
-      description: Дискусии относно Ruby с програмисти от цял свят.
-    user_groups:
-      text: Потребителски групи
-      url: /bg/community/user-groups/
-      description: Свържете се с рубисти в твоя район.
-    weblogs:
-      text: Блогове
-      url: /bg/community/weblogs/
-      description: Прочетете какво се случва в Ruby обществото.
-    ruby_core:
-      text: Разработка на Ruby ядро
-      url: /bg/community/ruby-core/
-      description: Помогнете за разработката на Ruby.
-    issue_tracking:
-      text: Следене на бъгове
-      url: https://bugs.ruby-lang.org/
-      description: Докладвайте или помогнете за решаването на проблеми в
-        Ruby.
-  syndicate:
-    text: Новини
-    recent_news:
-      text: Последните новини (RSS)
-      url: /bg/feeds/news.rss
+syndicate:
+  text: Новини
+  recent_news:
+    text: Последните новини (RSS)
+    url: /bg/feeds/news.rss
 
 languages_heading: 'Този сайт на други езици:'
 

@@ -1,33 +1,6 @@
 ---
-ruby: Ruby
-slogan: A Programmer's Best Friend
 
-sitelinks:
-- text: ホーム
-  url: /ja
-  home: true
-- text: ダウンロード
-  url: /ja/downloads
-- text: ドキュメント
-  url: /ja/documentation
-- text: ライブラリ
-  url: /ja/libraries
-- text: コミュニティ
-  url: /ja/community
-- text: Rubyコア開発
-  url: /ja/dev
-- text: ニュース
-  url: /ja/news
-- text: セキュリティ
-  url: /ja/security
-- text: Rubyとは
-  url: /ja/about
-
-search:
-  text: 検索
-  cx_id: '008288045305770251182:fvruzsaknew'
-
-header_navigation:
+navigation:
 - text: インストール
   url: /ja/documentation/installation/
   submenu:
@@ -181,62 +154,14 @@ header_navigation:
       external: true
 - text: ニュース
   url: /ja/news/
+- text: セキュリティ
+  url: /ja/security/
 
-sidebar:
-  get_started:
-    text: <strong>はじめよう!</strong>
-    try_ruby:
-      text: 試してみる! (ブラウザから)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: 20分ではじめるRuby
-      url: /ja/documentation/quickstart/
-    ruby_from_other_languages:
-      text: 他言語からのRuby入門
-      url: /ja/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>探求しよう</strong>
-    documentation:
-      text: ドキュメント
-      url: /ja/documentation/
-    # books:
-    #   text: Books
-    rubybib:
-      text: 学術研究(英語)
-      url: https://rubybib.org/
-    libraries:
-      text: ライブラリ
-      url: /ja/libraries/
-    # success_stories:
-    #   text: Success Stories
-    #   url: /ja/documentation/success-stories/
-  participate:
-    text: <strong>コミュニティに参加しよう</strong>
-    mailing_lists:
-      text: メーリングリスト
-      url: /ja/community/mailing-lists/
-      description: 世界中のプログラマとRubyについて話しましょう。
-    user_groups:
-      text: 日本Rubyの会
-      url: http://ruby-no-kai.org/
-      description: Rubyの利用者/開発者の支援を目的としたグループです。
-    # weblogs:
-    #   text: 更新順リンク
-    #   url: http://www.rubyist.net/~kazu/samidare/
-    #   description: Ruby関連のサイトのリンクを更新順に並べたものです。
-    # ruby_core:
-    #   text: Ruby Core
-    #   url: /ja/community/ruby-core/
-    #   description: Help polish the rough edges of the latest Ruby.
-    # issue_tracking:
-    #   text: Issue Tracking
-    #   url: https://bugs.ruby-lang.org/
-    #   description: Report or help solve issues in Ruby.
-  syndicate:
-    text: Syndicate
-    recent_news:
-      text: 最近のニュース (RSS)
-      url: /ja/feeds/news.rss
+syndicate:
+  text: Syndicate
+  recent_news:
+    text: 最近のニュース (RSS)
+    url: /ja/feeds/news.rss
 
 languages_heading:
 

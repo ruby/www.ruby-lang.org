@@ -1,31 +1,6 @@
 ---
-ruby: Ruby
-slogan: BİR PROGRAMCININ EN İYİ ARKADAŞI
 
-sitelinks:
-- text: Ana Sayfa
-  url: /tr
-  home: true
-- text: İndirin
-  url: /tr/downloads
-- text: Belgeler
-  url: /tr/documentation
-- text: Kütüphaneler
-  url: /tr/libraries
-- text: Topluluk
-  url: /tr/community
-- text: Haberler
-  url: /tr/news
-- text: Güvenlik
-  url: /tr/security
-- text: Ruby Hakkında
-  url: /tr/about
-
-search:
-  text: Ara
-  cx_id: '011743037637077038592:5tuc9cqilws'
-
-header_navigation:
+navigation:
 - text: İndirin
   url: /tr/documentation/installation/
   submenu:
@@ -157,63 +132,14 @@ header_navigation:
       external: true
 - text: Haberler
   url: /tr/news/
+- text: Güvenlik
+  url: /tr/security/
 
-sidebar:
-  get_started:
-    text: <strong>Başlamak</strong>, çok kolay!
-    try_ruby:
-      text: Ruby'yi Deneyin! (tarayıcınızda)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Yirmi Dakikada Ruby
-      url: /tr/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Diğer Dillerden Ruby'ye
-      url: /tr/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Yeni Bir Dünya</strong> keşfedin…
-    documentation:
-      text: Belgeler
-      url: /tr/documentation/
-    # books:
-    #   text: Kitaplar
-    rubybib:
-      text: Akademik Araştırma
-      url: https://rubybib.org/
-    libraries:
-      text: Kütüphaneler
-      url: /tr/libraries/
-    success_stories:
-      text: Başarı Hikayeleri
-      url: /tr/documentation/success-stories/
-  participate:
-    text: <strong>Arkadaşça</strong> ve büyüyen bir topluluğa katılın.
-    mailing_lists:
-      text: Mail Listeleri
-      url: /tr/community/mailing-lists/
-      description: Tüm dünyadan Ruby programcılarıyla görüşün.
-    user_groups:
-      text: Kullanıcı Grupları
-      url: /tr/community/user-groups/
-      description: Bölgenizdeki Ruby'cilerle temas kurun.
-    weblogs:
-      text: Web günlükleri
-      url: /tr/community/weblogs/
-      description: Ruby'de neler olduğunu takip edin.
-    ruby_core:
-      text: Ruby Core Geliştirme
-      url: /tr/community/ruby-core/
-      description: En son Ruby'nin kaba taraflarının parlatılmasına yardımcı
-        olun.
-    issue_tracking:
-      text: Sorun Takibi
-      url: https://bugs.ruby-lang.org/
-      description: Ruby sorunlarını rapor edin ya da çözümüne yardım edin.
-  syndicate:
-    text: Takip Edin
-    recent_news:
-      text: Son Haberler (RSS)
-      url: /tr/feeds/news.rss
+syndicate:
+  text: Takip Edin
+  recent_news:
+    text: Son Haberler (RSS)
+    url: /tr/feeds/news.rss
 
 languages_heading: 'Diğer dillerde bu site:'
 

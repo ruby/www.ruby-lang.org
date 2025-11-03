@@ -1,30 +1,6 @@
 ---
-ruby: Ruby
-slogan: Sahabat Terbaik Programmer
 
-sitelinks:
-- text: Beranda
-  url: /id
-  home: true
-- text: Unduh
-  url: /id/downloads
-- text: Dokumentasi
-  url: /id/documentation
-- text: Pustaka
-  url: /id/libraries
-- text: Komunitas
-  url: /id/community
-- text: Berita
-  url: /id/news
-- text: Keamanan
-  url: /id/security
-- text: Tentang Ruby
-  url: /id/about
-
-search:
-  text: Cari
-
-header_navigation:
+navigation:
 - text: Unduh
   url: /id/documentation/installation/
   submenu:
@@ -150,63 +126,14 @@ header_navigation:
       external: true
 - text: Berita
   url: /id/news/
+- text: Keamanan
+  url: /id/security/
 
-sidebar:
-  get_started:
-    text: <strong>Coba Sekarang</strong>, sangat mudah!
-    try_ruby:
-      text: Try Ruby! (langsung di browser Anda)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Menguasai Ruby dalam 20 Menit
-      url: /id/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Dari Bahasa Pemrograman Lain ke Ruby
-      url: /id/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Jelajahi</strong> sebuah dunia baru…
-    documentation:
-      text: Dokumentasi
-      url: /id/documentation/
-    # books:
-    #   text: Buku-buku
-    rubybib:
-      text: Penelitian Akademis
-      url: https://rubybib.org/
-    libraries:
-      text: Pustaka
-      url: /id/libraries/
-    success_stories:
-      text: Kisah Sukses
-      url: /id/documentation/success-stories/
-  participate:
-    text: <strong>Bergabunglah</strong> dalam komunitas yang ramah dan makin berkembang.
-    mailing_lists:
-      text: Mailing List
-      url: /id/community/mailing-lists/
-      description: Berdiskusi dengan programmer Ruby dari Indonesia dan
-        seluruh dunia.
-    user_groups:
-      text: Komunitas Pengguna
-      url: /id/community/user-groups/
-      description: Berpartisipasilah dengan Rubyist di lokasi Anda.
-    weblogs:
-      text: Blog
-      url: /id/community/weblogs/
-      description: Ulasan terbaru dari komunitas Ruby.
-    ruby_core:
-      text: Pengembangan Ruby Core
-      url: /id/community/ruby-core/
-      description: Silakan berkontribusi untuk versi Ruby terbaru.
-    issue_tracking:
-      text: Laporkan Masalah
-      url: https://bugs.ruby-lang.org/
-      description: Lapor atau bantu memecahkan masalah yang ada di Ruby.
-  syndicate:
-    text: Sindikasi Web
-    recent_news:
-      text: Umpan Web (RSS)
-      url: /id/feeds/news.rss
+syndicate:
+  text: Sindikasi Web
+  recent_news:
+    text: Umpan Web (RSS)
+    url: /id/feeds/news.rss
 
 languages_heading: 'Situs ini dalam bahasa lain:'
 
