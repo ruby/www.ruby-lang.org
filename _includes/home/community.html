@@ -5,14 +5,14 @@
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Section Header -->
     <div class="text-center mb-8 md:mb-12">
-      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-6">
-        {{ home.community.title }}<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+        <a href="{{ home.community.link_about_url }}" class="text-stone-900 dark:text-white hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+          {{ home.community.title }}<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </a>
       </h2>
-      <div class="max-w-4xl mx-auto space-y-2">
+      <div class="max-w-4xl mx-auto">
         <p class="text-base md:text-lg text-stone-800 dark:text-stone-200">
-          {{ home.community.description_1 }}
-        </p>
-        <p class="text-base md:text-lg text-stone-800 dark:text-stone-200">
+          {{ home.community.description_1 }}<br>
           {{ home.community.description_2 }}
         </p>
       </div>
@@ -20,8 +20,8 @@
 
     <!-- Motto -->
     <div class="text-center mb-12 md:mb-16">
-      <p class="text-lg md:text-xl text-ruby-600 dark:text-ruby-400 font-semibold italic">
-        {{ home.community.motto }}
+      <p class="text-lg md:text-xl text-ruby-600 dark:text-ruby-400">
+        {{ home.community.motto_prefix }} "<span class="font-bold">{{ home.community.motto_minaswan }}</span>" {{ home.community.motto_separator }} <span class="italic">{{ home.community.motto_translation }}</span>
       </p>
     </div>
   </div>
@@ -36,13 +36,13 @@
   </svg>
 
   <!-- Photo Gallery (Full Width) -->
-  <div class="relative overflow-hidden mb-12 md:mb-16" style="height: 280px;">
-    <div class="photo-scroll flex gap-8 absolute" style="animation: scroll-left 40s linear infinite;">
+  <div class="relative overflow-hidden mb-12 md:mb-16 pt-2" style="height: 200px;">
+    <div class="flex gap-8 absolute w-max will-change-transform animate-scroll-left">
       {% assign community_photos = site.static_files | where_exp: "file", "file.path contains '/images/home/community/pics/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.png' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.PNG' or file.extname == '.JPEG'" %}
       {% for i in (1..2) %}
-        <div class="flex gap-8 photo-scroll-track">
+        <div class="flex gap-8 flex-shrink-0">
           {% for photo in community_photos %}
-          <div class="photo-item" style="width: 200px; height: 180px; flex-shrink: 0;">
+          <div class="flex-shrink-0 transition-transform duration-300 hover:scale-105" style="width: 200px; height: 180px;">
             <img src="{{ photo.path }}" alt="Ruby Community" class="w-full h-full object-cover" style="clip-path: url(#ruby-gem-mask);">
           </div>
           {% endfor %}
@@ -53,42 +53,16 @@
 
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Links -->
-    <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-sm md:text-base">
-      <a href="{{ home.community.link_about_url }}" class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
-        · {{ home.community.link_about }} ·
-      </a>
-      <a href="{{ home.community.link_events_url }}" target="_blank" rel="noopener noreferrer" class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
-        · {{ home.community.link_events }} <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg> ·
-      </a>
+    <div class="flex justify-center">
+      <ul class="list-disc space-y-2 text-base marker:text-stone-400 dark:marker:text-stone-500">
+        {% for link in home.community.links %}
+        <li>
+          <a href="{{ link.url }}" {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %} class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors{% if link.external %} inline-flex items-center gap-1{% endif %}">
+            {{ link.text }}{% if link.external %} <svg class="w-3 h-3 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>{% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>
-
-<style>
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-50% - 1rem));
-  }
-}
-
-.photo-scroll {
-  width: max-content;
-  will-change: transform;
-}
-
-.photo-scroll-track {
-  flex-shrink: 0;
-}
-
-.photo-item {
-  flex-shrink: 0;
-  transition: transform 0.3s ease;
-}
-
-.photo-item:hover {
-  transform: scale(1.05);
-}
-</style>

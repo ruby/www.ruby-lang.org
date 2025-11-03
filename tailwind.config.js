@@ -75,11 +75,20 @@ module.exports = {
             transform: 'translate(-50%, 0) scale(1)',
           },
         },
+        'scroll-left': {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '100%': {
+            transform: 'translateX(calc(-50% - 1rem))',
+          },
+        },
       },
       animation: {
         'hero-gem-in': 'hero-gem-in 0.6s ease-out forwards',
         'hero-content-in': 'hero-content-in 0.6s ease-out 0.4s forwards',
         'hero-bg-in': 'hero-bg-in 0.7s ease-out 0.8s forwards',
+        'scroll-left': 'scroll-left 40s linear infinite',
       },
       colors: {
         // Semantic colors using CSS variables
