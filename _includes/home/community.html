@@ -1,0 +1,95 @@
+{% assign home = site.data.locales.home[page.lang] %}
+
+<!-- Community Section -->
+<section class="community-section bg-gold-300 dark:bg-stone-800 py-16 md:py-20 lg:py-24">
+  <div class="container mx-auto px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center mb-8 md:mb-12">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-6">
+        {{ home.community.title }}<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+      </h2>
+      <div class="max-w-4xl mx-auto space-y-2">
+        <p class="text-base md:text-lg text-stone-800 dark:text-stone-200">
+          {{ home.community.description_1 }}
+        </p>
+        <p class="text-base md:text-lg text-stone-800 dark:text-stone-200">
+          {{ home.community.description_2 }}
+        </p>
+      </div>
+    </div>
+
+    <!-- Motto -->
+    <div class="text-center mb-12 md:mb-16">
+      <p class="text-lg md:text-xl text-ruby-600 dark:text-ruby-400 font-semibold italic">
+        {{ home.community.motto }}
+      </p>
+    </div>
+  </div>
+
+  <!-- SVG Mask Definition -->
+  <svg width="0" height="0" style="position: absolute;">
+    <defs>
+      <clipPath id="ruby-gem-mask" clipPathUnits="objectBoundingBox" transform="scale(0.005, 0.00556)">
+        <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"/>
+      </clipPath>
+    </defs>
+  </svg>
+
+  <!-- Photo Gallery (Full Width) -->
+  <div class="relative overflow-hidden mb-12 md:mb-16" style="height: 280px;">
+    <div class="photo-scroll flex gap-8 absolute" style="animation: scroll-left 40s linear infinite;">
+      {% assign photo_dir = "/images/home/community/pics" %}
+      {% assign photos = "G117a0baoAAvhh0.jpg,G11Cy2EaAAAEfbL.jpg,GeGkCD1akAQ-QZP.jpg,GNnL3voaIAAXryK.jpg,GNwg7FBaMAAdN6p.jpg,Go4LNoFbsAAD2QO.jpg,GoqjdTKXwAANrtR.jpg,GugKZKoWcAA_Q9Z.jpg,Gx0kyaAbsAIVKV-.jpg,Gx1g5_cbsAE28TM.jpg,GyKcdgiakAAK9yj.jpg" | split: "," %}
+      {% for i in (1..2) %}
+        <div class="flex gap-8 photo-scroll-track">
+          {% for photo in photos %}
+          <div class="photo-item" style="width: 200px; height: 180px; flex-shrink: 0;">
+            <img src="{{ photo_dir }}/{{ photo }}" alt="Ruby Community" class="w-full h-full object-cover" style="clip-path: url(#ruby-gem-mask);">
+          </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container mx-auto px-6 lg:px-8">
+    <!-- Links -->
+    <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-sm md:text-base">
+      <a href="{{ home.community.link_about_url }}" class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
+        · {{ home.community.link_about }} ·
+      </a>
+      <a href="{{ home.community.link_events_url }}" target="_blank" rel="noopener noreferrer" class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
+        · {{ home.community.link_events }} <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg> ·
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 1rem));
+  }
+}
+
+.photo-scroll {
+  width: max-content;
+  will-change: transform;
+}
+
+.photo-scroll-track {
+  flex-shrink: 0;
+}
+
+.photo-item {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.photo-item:hover {
+  transform: scale(1.05);
+}
+</style>
