@@ -2964,12 +2964,12 @@ body:is(.dark *){
     top: 7rem;
   }
 
-  .lg\:mb-12{
-    margin-bottom: 3rem;
-  }
-
   .lg\:mb-4{
     margin-bottom: 1rem;
+  }
+
+  .lg\:mb-6{
+    margin-bottom: 1.5rem;
   }
 
   .lg\:mb-8{
