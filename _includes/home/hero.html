@@ -1,0 +1,51 @@
+{% assign home = site.data.home[page.lang] %}
+
+<!-- Hero Section -->
+<section class="hero-section bg-gold-300 dark:bg-stone-800 relative overflow-hidden h-[455px] md:h-[595px] lg:h-[730px]">
+  <!-- Background Illustrations -->
+  <div class="absolute inset-0 pointer-events-none overflow-hidden">
+    <img src="/images/home/hero/bg-dummy__light.svg"
+         alt=""
+         class="block dark:hidden absolute top-0 left-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto opacity-0 animate-hero-bg-in">
+    <img src="/images/home/hero/bg-dummy__dark.svg"
+         alt=""
+         class="hidden dark:block absolute top-0 left-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto opacity-0 animate-hero-bg-in">
+  </div>
+
+  <!-- Ruby Gem Shape with Content -->
+  <div class="relative z-10 flex items-center justify-center pt-16 md:pt-20 lg:pt-28 xl:pt-[6.25rem] pb-0 px-4">
+    <div class="relative w-full max-w-xs md:max-w-md lg:max-w-lg">
+      <!-- Ruby Gem SVG Background -->
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 animate-hero-gem-in">
+        <img src="/images/home/hero/bg-ruby.svg"
+             alt="Ruby"
+             class="w-full h-auto">
+      </div>
+
+      <!-- Content Inside Ruby Gem -->
+      <div class="relative z-10 text-center text-white pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-16 lg:pb-24 px-6 md:px-8 opacity-0 animate-hero-content-in">
+        <p class="text-xs md:text-base lg:text-lg mb-0 text-gold-500 tracking-[0.1em]">
+          <span class="font-light">{{ home.hero.since }}</span> <span class="font-semibold">{{ home.hero.year }}</span>
+        </p>
+        <div class="text-7xl md:text-7xl lg:text-[7rem] font-extrabold mb-3 md:mb-4">{{ home.hero.title }}</div>
+        <p class="text-xs md:text-base lg:text-lg mb-4 md:mb-6 text-gold-500 tracking-[0.1em]">{{ home.hero.tagline }}</p>
+
+        <div class="mb-4 md:mb-5">
+          <p class="text-xs md:text-base"><span class="font-normal">{{ home.hero.latest_version_label }}</span> <span class="font-semibold">{{ site.data.latest_version.version }}</span></p>
+        </div>
+
+        <div class="flex flex-col items-center gap-0 md:gap-2">
+          <a href="{{ home.hero.download_url }}"
+             class="inline-block bg-white text-ruby-600 text-xs md:text-base px-6 md:px-12 py-2 md:py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all">
+            {{ home.hero.download_button }}
+          </a>
+          <span class="text-white text-[10px] md:text-sm">{{ home.hero.or }}</span>
+          <a href="{{ home.hero.learn_more_url }}"
+             class="text-white text-[10px] md:text-base font-semibold underline hover:text-gold-500">
+            {{ home.hero.learn_more }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
