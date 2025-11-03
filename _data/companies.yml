@@ -1,0 +1,27 @@
+companies:
+  - name: shopify
+    url: https://www.shopify.com/
+  - name: airbnb
+    url: https://www.airbnb.com/
+  - name: cookpad
+    url: https://cookpad.com/
+  - name: note
+    url: https://note.com/
+  - name: basecamp
+    url: https://basecamp.com/
+  - name: andpad
+    url: https://andpad.co.jp/
+  - name: stores
+    url: https://stores.jp/
+  - name: mov
+    url: https://movinc.jp/
+  - name: coinbase
+    url: https://www.coinbase.com/
+  - name: smarthr
+    url: https://smarthr.jp/
+  - name: dely
+    url: https://dely.jp/
+  - name: gitlab
+    url: https://about.gitlab.com/
+  - name: timee
+    url: https://timee.co/
