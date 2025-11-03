@@ -4,7 +4,7 @@
 <section class="community-section bg-gold-300 dark:bg-stone-800 py-16 md:py-20 lg:py-24">
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Section Header -->
-    <div class="text-center mb-8 md:mb-12">
+    <div class="text-center mb-6 lg:mb-8">
       <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
         <a href="{{ home.community.link_about_url }}" class="text-stone-900 dark:text-white hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
           {{ home.community.title }}<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
@@ -19,7 +19,7 @@
     </div>
 
     <!-- Motto -->
-    <div class="text-center mb-12 md:mb-16">
+    <div class="text-center mb-8 lg:mb-12">
       <p class="text-lg md:text-xl text-ruby-600 dark:text-ruby-500">
         {{ home.community.motto_prefix }} "<span class="font-bold">{{ home.community.motto_minaswan }}</span>" {{ home.community.motto_separator }} <span class="italic">{{ home.community.motto_translation }}</span>
       </p>
@@ -36,7 +36,7 @@
   </svg>
 
   <!-- Photo Gallery (Full Width) -->
-  <div class="relative overflow-hidden mb-12 md:mb-16 pt-2 h-[170px] 2xl:h-[200px]">
+  <div class="relative overflow-hidden mb-8 lg:mb-12 pt-2 h-[170px] 2xl:h-[200px]">
     <div class="flex gap-6 2xl:gap-8 absolute w-max will-change-transform animate-scroll-left">
       {% assign community_photos = site.static_files | where_exp: "file", "file.path contains '/images/home/community/pics/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.png' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.PNG' or file.extname == '.JPEG'" %}
       {% for i in (1..2) %}
