@@ -1,0 +1,30 @@
+{% assign home = site.data.home[page.lang] %}
+
+<!-- Companies Section -->
+<section class="companies-section bg-white dark:bg-stone-900 py-16 md:py-20 lg:py-24">
+  <div class="container mx-auto px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center mb-12 md:mb-16">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white">
+        {{ home.companies.title }} <span class="text-ruby-600 dark:text-ruby-500">{{ home.companies.heart }}</span> {{ home.companies.subtitle }}
+      </h2>
+    </div>
+
+    <!-- Companies Container -->
+    <div class="mx-auto p-8 md:p-12 lg:p-16 dark:bg-white dark:rounded-[2rem]">
+      <!-- Companies Flex Layout -->
+      <div class="flex flex-wrap items-center justify-center gap-x-8 md:gap-x-12 lg:gap-x-16 gap-y-6 md:gap-y-8 lg:gap-y-10">
+        {% for company in site.data.companies.companies %}
+        <a href="{{ company.url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="company-logo-link transition-opacity hover:opacity-70">
+          <img src="/images/home/companies/{{ company.name }}.svg"
+               alt="{{ company.name }}"
+               class="h-12 md:h-14 lg:h-16 w-auto">
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,45 @@
+{% assign home = site.data.home[page.lang] %}
+
+<!-- Try Ruby Section -->
+<section class="try-ruby-section bg-gold-300 dark:bg-stone-800 pt-0 pb-16 md:pb-20">
+  <div class="container mx-auto px-6 lg:px-8">
+    <!-- Section Title -->
+    <div class="text-center mb-8 sm:mb-12">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4 sm:mb-6">{{ home.try_ruby.title }}</h2>
+      <p class="text-base md:text-xl text-stone-700 dark:text-stone-300">{{ home.try_ruby.description }}</p>
+    </div>
+
+    <!-- Code Examples Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 mb-12">
+      {% for i in (1..3) %}
+      <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 flex flex-col">
+        <div id="try-ruby-example-{{ i }}" class="code-example mb-4 font-mono text-sm overflow-x-auto flex-grow">
+          <!-- Code will be loaded dynamically -->
+        </div>
+        <a id="try-ruby-button-{{ i }}"
+           href="{{ home.try_ruby.button_url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-4 rounded-lg font-bold tracking-wide transition-colors mt-auto">
+          {{ home.try_ruby.button_text }}
+          <span class="icon-external text-xs text-white ml-0" aria-hidden="true"></span>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Bottom Link -->
+    <div class="text-center">
+      <p class="text-stone-700 dark:text-stone-300">
+        {{ home.try_ruby.bottom_text }}
+        <a href="{{ home.try_ruby.bottom_link_url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-semantic-text-link text-lg font-bold hover:underline inline-flex items-center gap-1">
+          <span class="icon-arrow-forward" aria-hidden="true"></span>{{ home.try_ruby.bottom_link_text }}
+          <span class="icon-external text-xs" aria-hidden="true"></span>
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
