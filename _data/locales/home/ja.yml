@@ -36,8 +36,7 @@ community:
     - text: "コミュニティについて詳しく"
       url: "/ja/community/"
     - text: "開催予定の国際カンファレンス"
-      url: "https://
-      rubyconferences.org"
+      url: "https://rubyconferences.org"
       external: true
 
 why_ruby:
