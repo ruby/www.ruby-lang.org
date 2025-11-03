@@ -1,9 +1,4 @@
 ---
-ruby: Ruby
-slogan: 프로그래머의 단짝 친구
-
-search:
-  text: 찾기
 
 header_navigation:
 - text: 다운로드

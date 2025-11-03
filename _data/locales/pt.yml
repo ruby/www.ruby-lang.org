@@ -1,9 +1,4 @@
 ---
-ruby: Ruby
-slogan: O melhor amigo do programador
-
-search:
-  text: Procurar
 
 header_navigation:
 - text: Downloads
