@@ -26,7 +26,7 @@ Displays current language and dropdown menu for switching languages
   </button>
 
   <!-- Language dropdown -->
-  <div class="absolute right-0 mt-1 w-56 max-h-96 overflow-y-auto bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+  <div class="absolute right-0 mt-1 w-56 max-h-[80vh] overflow-y-auto bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
     <div class="py-2">
       {% for lang in site.data.languages %}
       <a href="/{{ lang.code }}{{ page.url | remove_first: '/' | replace_first: page.lang, '' }}"
