@@ -131,61 +131,11 @@ header_navigation:
 - text: 安全
   url: /zh_cn/security/
 
-sidebar:
-  get_started:
-    text: <strong>试用</strong>，其实很简单！
-    try_ruby:
-      text: 在浏览器中试用 Ruby（英文）
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: 20 分钟体验 Ruby
-      url: /zh_cn/documentation/quickstart/
-    ruby_from_other_languages:
-      text: 从其它语言转到 Ruby
-      url: /zh_cn/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>探索</strong>新的世界
-    documentation:
-      text: 文档
-      url: /zh_cn/documentation/
-    # books:
-    #   text: Books
-    rubybib:
-      text: 学术研究
-      url: https://rubybib.org/
-    libraries:
-      text: 代码库
-      url: /zh_cn/libraries/
-    success_stories:
-      text: 成功案例
-      url: /zh_cn/documentation/success-stories/
-  participate:
-    text: <strong>加入</strong>友善及日益壮大的社区
-    mailing_lists:
-      text: 邮件列表
-      url: /zh_cn/community/mailing-lists/
-      description: 联系喜爱 Ruby 的朋友
-    user_groups:
-      text: 用户组
-      url: /zh_cn/community/user-groups/
-      description: 参与 Ruby 爱好者活动
-    weblogs:
-      text: 博客
-      url: /zh_cn/community/weblogs/
-      description: 阅读 Ruby 相关的博客
-    ruby_core:
-      text: Ruby 核心开发
-      url: /zh_cn/community/ruby-core/
-      description: 帮助开发 Ruby 语言
-    issue_tracking:
-      text: 问题跟踪
-      url: https://bugs.ruby-lang.org/
-      description: 报告或帮助解决 Ruby 的问题
-  syndicate:
-    text: 订阅
-    recent_news:
-      text: 最新消息（RSS）
-      url: /zh_cn/feeds/news.rss
+syndicate:
+  text: 订阅
+  recent_news:
+    text: 最新消息（RSS）
+    url: /zh_cn/feeds/news.rss
 
 languages_heading: 本站其他语言版本：
 

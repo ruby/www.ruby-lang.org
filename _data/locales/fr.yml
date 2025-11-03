@@ -127,58 +127,12 @@ header_navigation:
 - text: Sécurité
   url: /fr/security/
 
-sidebar:
-  get_started:
-    text: <strong>Lancez-vous</strong>, c’est facile !
-    try_ruby:
-      text: Essayez Ruby !
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Apprenez Ruby en vingt minutes
-      url: /fr/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Vous venez d'un autre langage ?
-      url: /fr/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Explorez</strong> un nouvel univers…
-    documentation:
-      text: Documentation
-      url: /fr/documentation/
-    # books:
-    #   text: Livres
-    libraries:
-      text: Bibliothèques
-      url: /fr/libraries/
-    success_stories:
-      text: Témoignages
-      url: /fr/documentation/success-stories/
-  participate:
-    text: <strong>Participez</strong> à la communauté
-    mailing_lists:
-      text: Listes de diffusion
-      url: /fr/community/mailing-lists/
-      description: discutez de Ruby avec des programmeurs du monde entier.
-    user_groups:
-      text: Groupes d’utilisateur
-      url: /fr/community/user-groups/
-      description: entrez en contact avec d’autres rubyistes de votre région.
-    weblogs:
-      text: Blogs
-      url: /fr/community/weblogs/
-      description: suivez toute l’actualité de la communauté Ruby.
-    ruby_core:
-      text: Développement de Ruby Core
-      url: /fr/community/ruby-core/
-      description: apportez votre aide à l'élaboration du prochain Ruby.
-    issue_tracking:
-      text: Rapports de bugs
-      url: https://bugs.ruby-lang.org/
-      description: aidez à corriger et améliorer Ruby.
-  syndicate:
-    text: Syndication
-    recent_news:
-      text: Actualité récente (RSS)
-      url: /fr/feeds/news.rss
+
+syndicate:
+  text: Syndication
+  recent_news:
+    text: Actualité récente (RSS)
+    url: /fr/feeds/news.rss
 
 languages_heading: 'Autres langues disponibles :'
 

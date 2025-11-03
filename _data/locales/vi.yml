@@ -127,58 +127,11 @@ header_navigation:
 - text: Bảo mật
   url: /vi/security/
 
-sidebar:
-  get_started:
-    text: <strong>Nhập môn</strong>, quá dễ!
-    try_ruby:
-      text: Thử Ruby! (trong trình duyệt)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby trong 20 phút
-      url: /vi/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby từ những ngôn ngữ khác
-      url: /vi/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Khám phá</strong> một thề giới mới…
-    documentation:
-      text: Tài liệu
-      url: /vi/documentation/
-    # books:
-    #   text: Sách
-    libraries:
-      text: Thư viện
-      url: /vi/libraries/
-    success_stories:
-      text: Những câu chuyện thành công
-      url: /vi/documentation/success-stories/
-  participate:
-    text: <strong>Tham gia</strong> vào một cộng đồng lớn mạnh và thân thiện.
-    mailing_lists:
-      text: Mailing Lists
-      url: /vi/community/mailing-lists/
-      description: Trao đổi về Ruby với các lập trình viên trên thế giới
-    user_groups:
-      text: Nhóm người dùng
-      url: /vi/community/user-groups/
-      description: Làm quen với những Rubyist trong khu vực của bạn.
-    weblogs:
-      text: Weblogs
-      url: /vi/community/weblogs/
-      description: Đọc về những gì đang xảy ra với cộng đồng Ruby.
-    ruby_core:
-      text: Phát triển Lõi Ruby
-      url: /vi/community/ruby-core/
-      description: Giúp hoàn thiện Ruby.
-    issue_tracking:
-      text: Thông báo lỗi
-      url: https://bugs.ruby-lang.org/
-      description: Báo hoặc giúp xử lý các lỗi trong Ruby.
-  syndicate:
-    text: Syndicate
-    recent_news:
-      text: Tin mới (RSS)
-      url: /vi/feeds/news.rss
+syndicate:
+  text: Syndicate
+  recent_news:
+    text: Tin mới (RSS)
+    url: /vi/feeds/news.rss
 
 languages_heading:
 

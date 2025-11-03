@@ -125,61 +125,11 @@ header_navigation:
 - text: Seguridad
   url: /es/security/
 
-sidebar:
-  get_started:
-    text: <strong>Comienza</strong>, ¡es fácil!
-    try_ruby:
-      text: ¡Prueba Ruby! (en tu navegador)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby en 20 Minutos
-      url: /es/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby desde otros lenguajes
-      url: /es/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Explora</strong> un nuevo mundo…
-    documentation:
-      text: Documentación
-      url: /es/documentation/
-    # books:
-    #   text: Libros
-    rubybib:
-      text: Investigación académica
-      url: https://rubybib.org/
-    libraries:
-      text: Bibliotecas
-      url: /es/libraries/
-    success_stories:
-      text: Casos exitosos (en inglés)
-      url: /en/documentation/success-stories/
-  participate:
-    text: <strong>Participa</strong> en una amistosa y creciente comunidad.
-    mailing_lists:
-      text: Listas de correo
-      url: /es/community/mailing-lists/
-      description: Habla sobre Ruby con desarrolladores alrededor del mundo.
-    user_groups:
-      text: Grupos de usuarios
-      url: /es/community/user-groups/
-      description: Ponte en contacto con otros Rubyistas en tu localidad.
-    weblogs:
-      text: Blogs (en inglés)
-      url: /en/community/weblogs/
-      description: Entérate de lo que está sucediendo en la comunidad.
-    ruby_core:
-      text: Desarrollo de Ruby Core
-      url: /es/community/ruby-core/
-      description: Ayuda a mejorar el futuro de Ruby.
-    issue_tracking:
-      text: Reportes de errores
-      url: https://bugs.ruby-lang.org/
-      description: Reporta o ayuda a resolver problemas en Ruby.
-  syndicate:
-    text: Feeds de noticias (RSS)
-    recent_news:
-      text: En español
-      url: /es/feeds/news.rss
+syndicate:
+  text: Feeds de noticias (RSS)
+  recent_news:
+    text: En español
+    url: /es/feeds/news.rss
 
 languages_heading:
 

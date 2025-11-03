@@ -127,62 +127,11 @@ header_navigation:
 - text: Безопасность
   url: /ru/security/
 
-sidebar:
-  get_started:
-    text: <strong>Начните сейчас</strong>, это легко!
-    try_ruby:
-      text: Попробуйте Ruby! (в своем браузере)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby за двадцать минут
-      url: /ru/documentation/quickstart/
-    ruby_from_other_languages:
-      text: В Ruby из других языков
-      url: /ru/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Исследуйте</strong> новый мир…
-    documentation:
-      text: Документация
-      url: /ru/documentation/
-    # books:
-    #   text: Книги
-    rubybib:
-      text: Научные публикации
-      url: https://rubybib.org/
-    libraries:
-      text: Библиотеки
-      url: /ru/libraries/
-    success_stories:
-      text: Истории успеха
-      url: /ru/documentation/success-stories/
-  participate:
-    text: <strong>Вступайте</strong> в дружелюбное и развивающееся сообщество.
-    mailing_lists:
-      text: Почтовые рассылки
-      url: /ru/community/mailing-lists/
-      description: Разговоры о Ruby в кругу программистов со всего мира.
-    user_groups:
-      text: Группы пользователей
-      url: /ru/community/user-groups/
-      description: Познакомьтесь с рубистами рядом с вами.
-    weblogs:
-      text: Блоги
-      url: /ru/community/weblogs/
-      description: Читайте о том, что происходит в сообществе Ruby прямо
-        сейчас.
-    ruby_core:
-      text: Разработка ядра Ruby
-      url: /ru/community/ruby-core/
-      description: Помощь в полировке последней версии Ruby.
-    issue_tracking:
-      text: Решение проблем
-      url: https://bugs.ruby-lang.org/
-      description: Сообщайте или помогайте решать проблемы в Ruby.
-  syndicate:
-    text: Подписаться
-    recent_news:
-      text: Последние новости (RSS)
-      url: /ru/feeds/news.rss
+syndicate:
+  text: Подписаться
+  recent_news:
+    text: Последние новости (RSS)
+    url: /ru/feeds/news.rss
 
 languages_heading: 'Этот сайт на других языках:'
 

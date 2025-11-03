@@ -148,62 +148,11 @@ header_navigation:
 - text: Security
   url: /en/security/
 
-sidebar:
-  get_started:
-    text: <strong>Get Started</strong>, it's easy!
-    try_ruby:
-      text: Try Ruby! (in your browser)
-      url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby in Twenty Minutes
-      url: /en/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby from Other Languages
-      url: /en/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Explore</strong> a new world…
-    documentation:
-      text: Documentation
-      url: /en/documentation/
-    # books:
-    #   text: Books
-    rubybib:
-      text: Academic Research
-      url: https://rubybib.org/
-    libraries:
-      text: Libraries
-      url: /en/libraries/
-    success_stories:
-      text: Success Stories
-      url: /en/documentation/success-stories/
-  participate:
-    text: <strong>Participate</strong> in a friendly and growing community.
-    mailing_lists:
-      text: Mailing Lists
-      url: /en/community/mailing-lists/
-      description: Talk about Ruby with programmers from all around the
-        world.
-    user_groups:
-      text: User Groups
-      url: /en/community/user-groups/
-      description: Get in contact with Rubyists in your area.
-    weblogs:
-      text: Blogs and Newsletters
-      url: /en/community/weblogs/
-      description: Read about what’s happening right now in the Ruby community.
-    ruby_core:
-      text: Ruby Core Development
-      url: /en/community/ruby-core/
-      description: Help polish the rough edges of the latest Ruby.
-    issue_tracking:
-      text: Issue Tracking
-      url: https://bugs.ruby-lang.org/
-      description: Report or help solve issues in Ruby.
-  syndicate:
-    text: Syndicate
-    recent_news:
-      text: Recent News (RSS)
-      url: /en/feeds/news.rss
+syndicate:
+  text: Syndicate
+  recent_news:
+    text: Recent News (RSS)
+    url: /en/feeds/news.rss
 
 languages_heading: 'This site in other languages:'
 
