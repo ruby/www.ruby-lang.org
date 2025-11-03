@@ -19,26 +19,6 @@ try_ruby:
   bottom_link_text: "Try Ruby"
   bottom_link_url: "https://try.ruby-lang.org/"
 
-companies:
-  title: "Companies"
-  heart: "♥"
-  subtitle: "Ruby"
-
-community:
-  title: "Join the Community"
-  description_1: "Ruby に「お客さん」以上の気持ちで接する人達は Rubyist と呼ばれます。"
-  description_2: "Ruby を愛する Rubyist はみんなナイスな #rubyfriends。楽しいコミュニティ活動が盛んに開催されています。"
-  motto_prefix: "世界共通の合言葉は"
-  motto_minaswan: "MINASWAN"
-  motto_separator: "──"
-  motto_translation: "Matz is nice so we are nice"
-  links:
-    - text: "コミュニティについて詳しく"
-      url: "/ja/community/"
-    - text: "開催予定の国際カンファレンス"
-      url: "https://rubyconferences.org"
-      external: true
-
 why_ruby:
   title: Why Ruby?
   description: 世界中のプログラマに愛されている Ruby は、なぜ「<strong>たのしい</strong>」のか？
@@ -114,3 +94,23 @@ why_ruby:
           100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
           無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
           Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+
+companies:
+  title: "Companies"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Join the Community"
+  description_1: "Ruby に「お客さん」以上の気持ちで接する人達は Rubyist と呼ばれます。"
+  description_2: "Ruby を愛する Rubyist はみんなナイスな #rubyfriends。楽しいコミュニティ活動が盛んに開催されています。"
+  motto_prefix: "世界共通の合言葉は"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "──"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "コミュニティについて詳しく"
+      url: "/ja/community/"
+    - text: "開催予定の国際カンファレンス"
+      url: "https://rubyconferences.org"
+      external: true
