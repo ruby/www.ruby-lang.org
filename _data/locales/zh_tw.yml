@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: 程式設計師的摯友
 
-sitelinks:
-- text: 首頁
-  url: /zh_tw
-  home: true
-- text: 下載安裝
-  url: /zh_tw/downloads
-- text: 文件
-  url: /zh_tw/documentation
-- text: 函式庫
-  url: /zh_tw/libraries
-- text: 社群
-  url: /zh_tw/community
-- text: 新聞
-  url: /zh_tw/news
-- text: 安全
-  url: /zh_tw/security
-- text: 關於 Ruby
-  url: /zh_tw/about
-
 search:
   text: 搜尋
 
@@ -150,6 +131,8 @@ header_navigation:
       external: true
 - text: 新聞
   url: /zh_tw/news/
+- text: 安全
+  url: /zh_tw/security/
 
 sidebar:
   get_started:

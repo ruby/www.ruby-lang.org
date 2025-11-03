@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: O melhor amigo do programador
 
-sitelinks:
-- text: Início
-  url: /pt
-  home: true
-- text: Downloads
-  url: /pt/downloads
-- text: Documentação
-  url: /pt/documentation
-- text: Módulos
-  url: /pt/libraries
-- text: Comunidade
-  url: /pt/community
-- text: Notícias
-  url: /pt/news
-- text: Segurança
-  url: /pt/security
-- text: Sobre Ruby
-  url: /pt/about
-
 search:
   text: Procurar
 
@@ -148,6 +129,8 @@ header_navigation:
       external: true
 - text: Notícias
   url: /pt/news/
+- text: Segurança
+  url: /pt/security/
 
 sidebar:
   get_started:

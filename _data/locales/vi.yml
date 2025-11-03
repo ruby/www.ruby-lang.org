@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: Người bạn tri kỉ của lập trình viên
 
-sitelinks:
-- text: Home
-  url: /vi
-  home: true
-- text: Downloads
-  url: /vi/downloads
-- text: Tài liệu
-  url: /vi/documentation
-- text: Thư viện
-  url: /vi/libraries
-- text: Cộng đồng
-  url: /vi/community
-- text: Tin tức
-  url: /vi/news
-- text: Bảo mật
-  url: /vi/security
-- text: Về Ruby
-  url: /vi/about
-
 search:
   text: Tìm
 
@@ -148,6 +129,8 @@ header_navigation:
       external: true
 - text: Tin tức
   url: /vi/news/
+- text: Bảo mật
+  url: /vi/security/
 
 sidebar:
   get_started:

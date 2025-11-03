@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: Sahabat Terbaik Programmer
 
-sitelinks:
-- text: Beranda
-  url: /id
-  home: true
-- text: Unduh
-  url: /id/downloads
-- text: Dokumentasi
-  url: /id/documentation
-- text: Pustaka
-  url: /id/libraries
-- text: Komunitas
-  url: /id/community
-- text: Berita
-  url: /id/news
-- text: Keamanan
-  url: /id/security
-- text: Tentang Ruby
-  url: /id/about
-
 search:
   text: Cari
 
@@ -150,6 +131,8 @@ header_navigation:
       external: true
 - text: Berita
   url: /id/news/
+- text: Keamanan
+  url: /id/security/
 
 sidebar:
   get_started:

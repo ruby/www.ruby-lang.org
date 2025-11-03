@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: El mejor amigo de un desarrollador
 
-sitelinks:
-- text: Inicio
-  url: /es
-  home: true
-- text: Descargas
-  url: /es/downloads
-- text: Documentación
-  url: /es/documentation
-- text: Bibliotecas
-  url: /es/libraries
-- text: Comunidad
-  url: /es/community
-- text: Noticias
-  url: /es/news
-- text: Seguridad
-  url: /es/security
-- text: Acerca de Ruby
-  url: /es/about
-
 search:
   text: Buscar
   cx_id: '013598269713424429640:g5orptiw95w'
@@ -147,6 +128,8 @@ header_navigation:
       external: true
 - text: Noticias
   url: /es/news/
+- text: Seguridad
+  url: /es/security/
 
 sidebar:
   get_started:

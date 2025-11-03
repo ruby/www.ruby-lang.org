@@ -2,27 +2,6 @@
 ruby: Ruby
 slogan: A Programmer's Best Friend
 
-sitelinks:
-- text: ホーム
-  url: /ja
-  home: true
-- text: ダウンロード
-  url: /ja/downloads
-- text: ドキュメント
-  url: /ja/documentation
-- text: ライブラリ
-  url: /ja/libraries
-- text: コミュニティ
-  url: /ja/community
-- text: Rubyコア開発
-  url: /ja/dev
-- text: ニュース
-  url: /ja/news
-- text: セキュリティ
-  url: /ja/security
-- text: Rubyとは
-  url: /ja/about
-
 search:
   text: 検索
   cx_id: '008288045305770251182:fvruzsaknew'
@@ -181,6 +160,8 @@ header_navigation:
       external: true
 - text: ニュース
   url: /ja/news/
+- text: セキュリティ
+  url: /ja/security/
 
 sidebar:
   get_started:

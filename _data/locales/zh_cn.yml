@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: 程序员最好的朋友
 
-sitelinks:
-- text: 首页
-  url: /zh_cn
-  home: true
-- text: 下载
-  url: /zh_cn/downloads
-- text: 文档
-  url: /zh_cn/documentation
-- text: 代码库
-  url: /zh_cn/libraries
-- text: 社区
-  url: /zh_cn/community
-- text: 新闻
-  url: /zh_cn/news
-- text: 安全
-  url: /zh_cn/security
-- text: 关于 Ruby
-  url: /zh_cn/about
-
 search:
   text: 搜索
 
@@ -152,6 +133,8 @@ header_navigation:
       external: true
 - text: 新闻
   url: /zh_cn/news/
+- text: 安全
+  url: /zh_cn/security/
 
 sidebar:
   get_started:

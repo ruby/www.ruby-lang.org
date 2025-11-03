@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: 프로그래머의 단짝 친구
 
-sitelinks:
-- text: 홈
-  url: /ko
-  home: true
-- text: 다운로드
-  url: /ko/downloads
-- text: 문서
-  url: /ko/documentation
-- text: 라이브러리
-  url: /ko/libraries
-- text: 커뮤니티
-  url: /ko/community
-- text: 뉴스
-  url: /ko/news
-- text: 보안
-  url: /ko/security
-- text: Ruby에 대해서
-  url: /ko/about
-
 search:
   text: 찾기
 
@@ -162,6 +143,8 @@ header_navigation:
       external: true
 - text: 뉴스
   url: /ko/news/
+- text: 보안
+  url: /ko/security/
 
 sidebar:
   get_started:

@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: лучший друг программиста
 
-sitelinks:
-- text: Главная
-  url: /ru
-  home: true
-- text: Скачать
-  url: /ru/downloads
-- text: Документация
-  url: /ru/documentation
-- text: Библиотеки
-  url: /ru/libraries
-- text: Сообщество
-  url: /ru/community
-- text: Новости
-  url: /ru/news
-- text: Безопасность
-  url: /ru/security
-- text: О Ruby
-  url: /ru/about
-
 search:
   text: Поиск
 
@@ -148,6 +129,8 @@ header_navigation:
       external: true
 - text: Новости
   url: /ru/news/
+- text: Безопасность
+  url: /ru/security/
 
 sidebar:
   get_started:

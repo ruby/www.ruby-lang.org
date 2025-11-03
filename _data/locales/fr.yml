@@ -2,25 +2,6 @@
 ruby: Ruby
 slogan: A Programmer's Best Friend
 
-sitelinks:
-- text: Home
-  url: /fr
-  home: true
-- text: Téléchargements
-  url: /fr/downloads
-- text: Documentation
-  url: /fr/documentation
-- text: Bibliothèques
-  url: /fr/libraries
-- text: Communauté
-  url: /fr/community
-- text: Actualités
-  url: /fr/news
-- text: Sécurité
-  url: /fr/security
-- text: À propos de Ruby
-  url: /fr/about
-
 search:
   text: Recherche
   cx_id: '016749562256550695330:efcmgh3a1ac'
@@ -149,6 +130,8 @@ header_navigation:
       external: true
 - text: Actualités
   url: /fr/news/
+- text: Sécurité
+  url: /fr/security/
 
 sidebar:
   get_started:
