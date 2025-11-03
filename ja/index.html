@@ -210,7 +210,7 @@ lang: ja
     </div>
 
     <!-- Companies Container -->
-    <div class="max-w-6xl mx-auto p-8 md:p-12 lg:p-16 dark:bg-white dark:rounded-[2rem]">
+    <div class="mx-auto p-8 md:p-12 lg:p-16 dark:bg-white dark:rounded-[2rem]">
       <!-- Companies Flex Layout -->
       <div class="flex flex-wrap items-center justify-center gap-x-8 md:gap-x-12 lg:gap-x-16 gap-y-6 md:gap-y-8 lg:gap-y-10">
         {% for company in site.data.companies.companies %}
@@ -220,7 +220,7 @@ lang: ja
            class="company-logo-link transition-opacity hover:opacity-70">
           <img src="/images/home/companies/{{ company.name }}.svg"
                alt="{{ company.name }}"
-               class="h-8 md:h-10 lg:h-12 w-auto">
+               class="h-12 md:h-14 lg:h-16 w-auto">
         </a>
         {% endfor %}
       </div>
