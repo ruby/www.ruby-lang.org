@@ -2712,10 +2712,6 @@ body:is(.dark *){
     margin-bottom: 0px;
   }
 
-  .md\:mb-12{
-    margin-bottom: 3rem;
-  }
-
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -2970,6 +2966,14 @@ body:is(.dark *){
 
   .lg\:mb-4{
     margin-bottom: 1rem;
+  }
+
+  .lg\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
+  .lg\:mb-8{
+    margin-bottom: 2rem;
   }
 
   .lg\:ml-16{
