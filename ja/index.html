@@ -209,18 +209,18 @@ lang: ja
       </h2>
     </div>
 
-    <!-- Companies Grid Container -->
+    <!-- Companies Container -->
     <div class="max-w-6xl mx-auto p-8 md:p-12 lg:p-16 dark:bg-white dark:rounded-[2rem]">
-      <!-- Companies Grid -->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-12 lg:gap-16 items-center justify-items-center">
+      <!-- Companies Flex Layout -->
+      <div class="flex flex-wrap items-center justify-center gap-x-8 md:gap-x-12 lg:gap-x-16 gap-y-6 md:gap-y-8 lg:gap-y-10">
         {% for company in site.data.companies.companies %}
         <a href="{{ company.url }}"
            target="_blank"
            rel="noopener noreferrer"
-           class="company-logo-link block w-full max-w-[140px] md:max-w-[160px] lg:max-w-[180px] transition-opacity hover:opacity-70">
+           class="company-logo-link transition-opacity hover:opacity-70">
           <img src="/images/home/companies/{{ company.name }}.svg"
                alt="{{ company.name }}"
-               class="w-full h-auto">
+               class="h-8 md:h-10 lg:h-12 w-auto">
         </a>
         {% endfor %}
       </div>

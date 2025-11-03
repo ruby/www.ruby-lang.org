@@ -1612,6 +1612,10 @@ body:is(.dark *){
   width: 1070px;
 }
 
+.w-auto{
+  width: auto;
+}
+
 .w-full{
   width: 100%;
 }
@@ -1630,10 +1634,6 @@ body:is(.dark *){
 
 .max-w-6xl{
   max-width: 72rem;
-}
-
-.max-w-\[140px\]{
-  max-width: 140px;
 }
 
 .max-w-xs{
@@ -1743,10 +1743,6 @@ body:is(.dark *){
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .flex-row{
   flex-direction: row;
 }
@@ -1775,10 +1771,6 @@ body:is(.dark *){
   justify-content: space-between;
 }
 
-.justify-items-center{
-  justify-items: center;
-}
-
 .gap-0{
   gap: 0px;
 }
@@ -1803,17 +1795,22 @@ body:is(.dark *){
   gap: 1.5rem;
 }
 
-.gap-8{
-  gap: 2rem;
-}
-
 .gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
 }
 
+.gap-x-8{
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
 .gap-y-2{
   row-gap: 0.5rem;
+}
+
+.gap-y-6{
+  row-gap: 1.5rem;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
@@ -2697,10 +2694,6 @@ body:is(.dark *){
     min-width: 1400px;
   }
 
-  .md\:max-w-\[160px\]{
-    max-width: 160px;
-  }
-
   .md\:max-w-md{
     max-width: 28rem;
   }
@@ -2729,10 +2722,6 @@ body:is(.dark *){
     gap: 2.5rem;
   }
 
-  .md\:gap-12{
-    gap: 3rem;
-  }
-
   .md\:gap-16{
     gap: 4rem;
   }
@@ -2743,6 +2732,15 @@ body:is(.dark *){
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-x-12{
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+  }
+
+  .md\:gap-y-8{
+    row-gap: 2rem;
   }
 
   .md\:border-0{
@@ -2888,6 +2886,10 @@ body:is(.dark *){
     display: none;
   }
 
+  .lg\:h-12{
+    height: 3rem;
+  }
+
   .lg\:h-56{
     height: 14rem;
   }
@@ -2912,20 +2914,12 @@ body:is(.dark *){
     min-width: 1728px;
   }
 
-  .lg\:max-w-\[180px\]{
-    max-width: 180px;
-  }
-
   .lg\:max-w-lg{
     max-width: 32rem;
   }
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-5{
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:flex-row{
@@ -2940,10 +2934,6 @@ body:is(.dark *){
     align-items: center;
   }
 
-  .lg\:gap-16{
-    gap: 4rem;
-  }
-
   .lg\:gap-20{
     gap: 5rem;
   }
@@ -2954,6 +2944,15 @@ body:is(.dark *){
 
   .lg\:gap-8{
     gap: 2rem;
+  }
+
+  .lg\:gap-x-16{
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+
+  .lg\:gap-y-10{
+    row-gap: 2.5rem;
   }
 
   .lg\:overflow-visible{
