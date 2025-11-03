@@ -12,7 +12,7 @@
 
     <div class="border-b border-stone-200 dark:border-stone-700">
       <a href="{{ include.subitem.url }}"
-         class="flex items-center justify-between py-4 pl-1 text-base group {% if is_active %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-bold{% endif %} transition-colors"
+         class="flex items-center justify-between py-4 pl-1 text-base group {% if is_active %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 font-bold{% endif %} transition-colors"
          {% if include.subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
         <span class="{% if include.subitem.external %}inline-flex items-center gap-1{% endif %}">
           {{ include.subitem.text }}

@@ -11,7 +11,7 @@
 {% if include.is_nested %}
   <li class="list-item">
     <a href="{{ include.url }}"
-       class="block py-1 text-sm {% if include.is_active %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-normal{% endif %} transition-colors"
+       class="block py-1 text-sm {% if include.is_active %}text-semantic-text-link font-normal{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 font-normal{% endif %} transition-colors"
        {% if include.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
       {{ include.text }}{% if include.external %}<span class="icon-external text-xs inline-block align-baseline ml-0.5" aria-hidden="true"></span>{% endif %}
     </a>
@@ -19,7 +19,7 @@
 {% else %}
   <div class="border-b border-stone-200 dark:border-stone-700">
     <a href="{{ include.url }}"
-       class="flex items-center justify-between py-4 pl-1 text-base group {% if include.is_active %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered font-bold{% endif %} transition-colors"
+       class="flex items-center justify-between py-4 pl-1 text-base group {% if include.is_active %}text-semantic-text-link font-bold{% else %}text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 font-bold{% endif %} transition-colors"
        {% if include.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
       <span class="{% if include.external %}inline-flex items-center gap-1{% endif %}">
         {{ include.text }}
