@@ -1,3 +1,30 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  tagline: "A Programmers Best Friend"
+  latest_version_label: "Latest Version:"
+  latest_version: "4.0.0"
+  download_button: "Download"
+  or: "or"
+  learn_more: "Learn More"
+  download_url: "/ja/downloads/"
+  learn_more_url: "/ja/about/"
+
+try_ruby:
+  title: "Try Ruby!"
+  description: "今すぐ Ruby を試しましょう"
+  button_text: "TRY!"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "もっと Ruby を知りたい・試したい方はこちら"
+  bottom_link_text: "Try Ruby"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+companies:
+  title: "Companies"
+  heart: "♥"
+  subtitle: "Ruby"
+
 why_ruby:
   title: Why Ruby?
   description: 世界中のプログラマに愛されている Ruby は、なぜ「<strong>たのしい</strong>」のか？
