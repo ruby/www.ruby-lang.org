@@ -7,7 +7,7 @@
     <div class="text-center mb-4 lg:mb-6">
       <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
         <a href="{{ home.community.link_about_url }}" class="text-stone-900 dark:text-white hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
-          {{ home.community.title }}<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          {{ home.community.title }}<span class="icon-chevron-right text-4xl" aria-hidden="true"></span>
         </a>
       </h2>
       <div class="max-w-4xl mx-auto">
@@ -57,8 +57,8 @@
       <ul class="list-disc space-y-2 text-sm sm:text-base marker:text-stone-400 dark:marker:text-stone-500">
         {% for link in home.community.links %}
         <li>
-          <a href="{{ link.url }}" {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %} class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors{% if link.external %} inline-flex items-center gap-1{% endif %}">
-            {{ link.text }}{% if link.external %} <svg class="w-3 h-3 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>{% endif %}
+          <a href="{{ link.url }}" {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %} class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
+            {{ link.text }}{% if link.external %}<span class="icon-external text-sm" aria-hidden="true"></span>{% else %}<span class="icon-chevron-right text-sm" aria-hidden="true"></span>{% endif %}
           </a>
         </li>
         {% endfor %}

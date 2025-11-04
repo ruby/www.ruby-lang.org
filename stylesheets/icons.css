@@ -250,6 +250,35 @@ a .icon-external::before {
     'opsz' 24;
 }
 
+/* Chevron right icon */
+.icon-chevron-right::before {
+  content: 'chevron_right';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: inherit;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  color: inherit; /* Inherit color from parent */
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Chevron right icon - adjust position for large text */
+.icon-chevron-right.text-4xl::before {
+  top: 6px;
+}
+
 /* Theme toggle icons */
 .icon-theme-auto::before {
   content: 'brightness_6';
