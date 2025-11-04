@@ -125,6 +125,7 @@ class Linter
       errors[release] << invalid_url_message(release.post)  if release.post_url_invalid?
       errors[release] << "release date and post date do not match"  if release.date_mismatch?
       errors[release] << missing_post_message(release.post_filename)  if release.post_missing?
+      errors[release] << "release date is a string, not a Date object"  if release.date.is_a?(String)
     end
   end
 
