@@ -124,8 +124,11 @@ navigation:
       external: true
 - text: Notícias
   url: /pt/news/
-- text: Segurança
-  url: /pt/security/
+  submenu:
+  - text: Notícias
+    url: /pt/news/
+  - text: Segurança
+    url: /pt/security/
 
 syndicate:
   text: Feeds de notícias (RSS)

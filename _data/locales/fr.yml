@@ -124,8 +124,11 @@ navigation:
       external: true
 - text: Actualités
   url: /fr/news/
-- text: Sécurité
-  url: /fr/security/
+  submenu:
+  - text: Actualités
+    url: /fr/news/
+  - text: Sécurité
+    url: /fr/security/
 
 
 syndicate:

@@ -126,8 +126,11 @@ navigation:
       external: true
 - text: Neuigkeiten
   url: /de/news/
-- text: Sicherheit
-  url: /de/security/
+  submenu:
+  - text: Neuigkeiten
+    url: /de/news/
+  - text: Sicherheit
+    url: /de/security/
 
 syndicate:
   text: Syndication

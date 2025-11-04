@@ -2736,6 +2736,10 @@ body:is(.dark *){
     margin-left: 1rem;
   }
 
+  .md\:mb-12{
+    margin-bottom: 3rem;
+  }
+
   .md\:block{
     display: block;
   }

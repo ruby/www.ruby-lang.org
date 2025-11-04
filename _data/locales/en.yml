@@ -145,8 +145,11 @@ navigation:
       external: true
 - text: News
   url: /en/news/
-- text: Security
-  url: /en/security/
+  submenu:
+  - text: News
+    url: /en/news/
+  - text: Security
+    url: /en/security/
 
 syndicate:
   text: Syndicate

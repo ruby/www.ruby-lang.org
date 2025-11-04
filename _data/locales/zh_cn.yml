@@ -128,8 +128,11 @@ navigation:
       external: true
 - text: 新闻
   url: /zh_cn/news/
-- text: 安全
-  url: /zh_cn/security/
+  submenu:
+  - text: 新闻
+    url: /zh_cn/news/
+  - text: 安全
+    url: /zh_cn/security/
 
 syndicate:
   text: 订阅

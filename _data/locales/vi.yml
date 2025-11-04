@@ -124,8 +124,11 @@ navigation:
       external: true
 - text: Tin tức
   url: /vi/news/
-- text: Bảo mật
-  url: /vi/security/
+  submenu:
+  - text: Tin tức
+    url: /vi/news/
+  - text: Bảo mật
+    url: /vi/security/
 
 syndicate:
   text: Syndicate

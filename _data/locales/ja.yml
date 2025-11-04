@@ -154,8 +154,11 @@ navigation:
       external: true
 - text: ニュース
   url: /ja/news/
-- text: セキュリティ
-  url: /ja/security/
+  submenu:
+  - text: ニュース
+    url: /ja/news/
+  - text: セキュリティ
+    url: /ja/security/
 
 syndicate:
   text: Syndicate

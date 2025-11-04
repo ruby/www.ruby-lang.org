@@ -124,8 +124,11 @@ navigation:
       external: true
 - text: Новости
   url: /ru/news/
-- text: Безопасность
-  url: /ru/security/
+  submenu:
+  - text: Новости
+    url: /ru/news/
+  - text: Безопасность
+    url: /ru/security/
 
 syndicate:
   text: Подписаться
