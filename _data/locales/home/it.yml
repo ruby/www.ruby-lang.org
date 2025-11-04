@@ -1,0 +1,125 @@
+hero:
+  since: "Dal"
+  year: "1995"
+  title: "Ruby"
+  tagline: "Il Migliore Amico del Programmatore"
+  latest_version_label: "Ultima Versione:"
+  download_button: "Scarica"
+  or: "oppure"
+  learn_more: "Scopri di più"
+  download_url: "/it/downloads/"
+  learn_more_url: "/it/about/"
+
+try_ruby:
+  title: "Prova Ruby!"
+  description: "Prova Ruby nel tuo browser adesso"
+  button_text: "PROVA!"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "Vuoi saperne di più o provare Ruby?"
+  bottom_link_text: "Prova Ruby"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Perché Ruby?
+  description: Perché i programmatori di tutto il mondo amano Ruby? Cosa lo rende <strong>divertente</strong>?
+  features:
+    - id: simple
+      title: Semplice
+      read: Facile da scrivere, facile da leggere.<br />Sintassi naturale come il linguaggio parlato.
+      copy: |
+        Ruby ha una sintassi semplice e intuitiva che si legge come il linguaggio naturale.
+        Eliminando simboli complessi e costrutti verbosi, la filosofia di design di Ruby ti permette di esprimere direttamente ciò che vuoi.
+        Con un minimo di codice ripetitivo e alta leggibilità, è adatto ai principianti e mantenibile per gli sviluppatori esperti.
+      comment:
+        author:
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creatore di Ruby
+        content: |
+          Ruby ha una sintassi semplice e intuitiva che si legge come il linguaggio naturale.
+          Con un minimo di codice ripetitivo e alta leggibilità, è un linguaggio adatto ai principianti.
+          La filosofia di design ti permette di esprimere direttamente ciò che vuoi.
+
+    - id: productivity
+      title: Produttività
+      read: Fai di più con meno codice.<br />La sintassi intuitiva accelera lo sviluppo.
+      copy: |
+        La sintassi espressiva di Ruby ti permette di scrivere logiche complesse in modo conciso.
+        Sfruttando funzionalità potenti come metaprogrammazione e blocchi, puoi ridurre le ripetizioni e concentrarti sulla risoluzione dei problemi principali.
+        Con framework di test completi, puoi mantenere la qualità raggiungendo cicli di sviluppo rapidi.
+      comment:
+        author:
+          id: pragdave
+          url: https://github.com/pragdave
+          name: Dave Thomas
+          title: Autore di "The Pragmatic Programmer"
+        content: |
+          La sintassi espressiva di Ruby ti permette di scrivere logiche complesse in modo conciso.
+          Puoi ridurre le ripetizioni e concentrarti sulla risoluzione dei problemi principali.
+          I framework di test completi aiutano a mantenere la qualità durante lo sviluppo rapido.
+
+    - id: ecosystem
+      title: Ecosistema
+      read: Gem ricche supportano tutti i tipi di sviluppo.<br />Strumenti maturi pronti all'uso.
+      copy: |
+        Ruby ha una vasta collezione di librerie chiamate gem, che supportano tutto dallo sviluppo web all'elaborazione dati.
+        Con framework maturi come Rails e toolchain complete, puoi combinare eccellenti risorse esistenti
+        per costruire rapidamente applicazioni di alta qualità senza reinventare la ruota.
+      comment:
+        author:
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creatore di Ruby on Rails
+        content: |
+          Ruby ha un vasto ecosistema di gem che supportano esigenze diverse.
+          Framework maturi e toolchain ti permettono di combinare risorse esistenti
+          per costruire rapidamente applicazioni di qualità senza reinventare la ruota.
+
+    - id: community
+      title: Comunità
+      read: Sviluppatori di tutto il mondo si supportano a vicenda.<br />Una comunità calorosa e attiva.
+      copy: |
+        La comunità Ruby abbraccia la cultura di "Matz is nice so we are nice (MINASWAN),"
+        accogliendo tutti dai principianti agli esperti. Conferenze e meetup in tutto il mondo favoriscono la condivisione delle conoscenze e le connessioni.
+        È una comunità calorosa e sostenibile dove le persone si aiutano a vicenda e crescono insieme.
+      comment:
+        author:
+          id: amatsuda
+          url: https://github.com/amatsuda
+          name: Akira Matsuda
+          title: Organizzatore Capo di RubyKaigi
+        content: |
+          La comunità Ruby accoglie tutti dai principianti agli esperti.
+          Conferenze e meetup in tutto il mondo favoriscono la condivisione delle conoscenze.
+          È una comunità calorosa dove le persone si aiutano a vicenda e crescono insieme.
+
+companies:
+  title: "Le Aziende"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Unisciti alla Comunità"
+  link_about_url: "/it/community/"
+  description_1: "Le persone che si dedicano a Ruby oltre ad essere semplici utenti sono chiamate Rubyisti."
+  description_2: "I Rubyisti che amano Ruby sono tutti simpatici #rubyfriends. Le attività della comunità sono fiorenti e divertenti."
+  motto_prefix: "Il motto universale è"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "Scopri di più sulla comunità"
+      url: "/it/community/"
+    - text: "Conferenze internazionali in programma"
+      url: "https://rubyconferences.org"
+      external: true
+
+news_security:
+  news:
+    title: "Notizie"
+    more_link: "Leggi altre notizie"
+  security:
+    title: "Sicurezza"
+    more_link: "Leggi altra sicurezza"
