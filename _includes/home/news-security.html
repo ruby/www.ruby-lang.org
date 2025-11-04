@@ -4,6 +4,8 @@
 {% endcomment %}
 
 {% comment %}Load locale data{% endcomment %}
+{% assign home = site.data.locales.home[page.lang] %}
+
 {% if site.data.locales[page.lang].news %}
   {% assign news_locale = site.data.locales[page.lang].news %}
 {% else %}
@@ -37,7 +39,7 @@
       <div class="lg:col-span-2">
         <h2 class="text-4xl font-bold mb-8">
           <a href="/{{ page.lang }}/news/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
-            News<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            {{ home.news_security.news.title }}<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
           </a>
         </h2>
 
@@ -71,7 +73,7 @@
       <div>
         <h2 class="text-4xl font-bold mb-8">
           <a href="/{{ page.lang }}/security/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
-            Security<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            {{ home.news_security.security.title }}<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
           </a>
         </h2>
 

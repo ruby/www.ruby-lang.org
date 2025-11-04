@@ -114,3 +114,9 @@ community:
     - text: "開催予定の国際カンファレンス"
       url: "https://rubyconferences.org"
       external: true
+
+news_security:
+  news:
+    title: "News"
+  security:
+    title: "Security"
