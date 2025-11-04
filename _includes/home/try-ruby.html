@@ -5,12 +5,12 @@
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Section Title -->
     <div class="text-center mb-8 sm:mb-12">
-      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4 sm:mb-6">{{ home.try_ruby.title }}</h2>
-      <p class="text-base md:text-xl text-stone-700 dark:text-stone-300">{{ home.try_ruby.description }}</p>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-stone-900 dark:text-white mb-4 sm:mb-6">{{ home.try_ruby.title }}</h2>
+      <p class="text-sm md:text-lg text-stone-700 dark:text-stone-300">{{ home.try_ruby.description }}</p>
     </div>
 
     <!-- Code Examples Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 mb-12">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 mb-12">
       {% for i in (1..3) %}
       <div class="bg-white dark:bg-stone-700 rounded-2xl p-6 flex flex-col">
         <div id="try-ruby-example-{{ i }}" class="code-example mb-4 font-mono text-sm overflow-x-auto flex-grow">
