@@ -35,29 +35,33 @@
 
       {% comment %}News Section (2/3 width){% endcomment %}
       <div class="lg:col-span-2">
-        <h2 class="text-4xl font-bold text-stone-900 dark:text-stone-100 mb-8 flex items-center gap-2">
-          News
-          <a href="/{{ page.lang }}/news/" class="text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors">
-            <span class="icon-chevron-right text-3xl" aria-hidden="true"></span>
+        <h2 class="text-4xl font-bold mb-8">
+          <a href="/{{ page.lang }}/news/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+            News<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
           </a>
         </h2>
 
         <div class="space-y-6">
           {% for post in news_posts %}
-          <article class="pb-6 {% unless forloop.last %}border-b border-dashed border-stone-300 dark:border-stone-700{% endunless %}">
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="text-sm font-semibold text-amber-600 dark:text-amber-500">
-              {{ post.date | date: "%b %-d, %Y" }}
-            </time>
-
-            <h3 class="text-xl font-bold text-stone-900 dark:text-stone-100 mt-2 mb-3">
-              <a href="{{ post.url }}" class="hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors">
+          <article class="pb-6 border-b border-stone-300 dark:border-stone-700">
+            <h3 class="text-2xl font-bold mb-3">
+              <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered transition-colors">
                 {{ post.title }}
               </a>
             </h3>
 
-            <div class="text-sm text-stone-600 dark:text-stone-400 line-clamp-2">
+            <div class="text-stone-900 dark:text-stone-300 text-sm mb-1">
               {{ post.excerpt | strip_html | truncatewords: 30 }}
             </div>
+
+            <p class="mt-1">
+              <a href="{{ post.url }}" class="text-xs text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center">
+                <span class="icon-double-arrow-right" aria-hidden="true"></span>
+                {{ news_locale.continue }}
+              </a>
+            </p>
+
+            <p class="text-xs text-stone-500 dark:text-stone-400 mt-3">{{ post.date | posted_by:post.author }}</p>
           </article>
           {% endfor %}
         </div>
@@ -65,32 +69,29 @@
 
       {% comment %}Security Section (1/3 width){% endcomment %}
       <div>
-        <h2 class="text-4xl font-bold text-stone-900 dark:text-stone-100 mb-8 flex items-center gap-2">
-          Security
-          <a href="/{{ page.lang }}/security/" class="text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors">
-            <span class="icon-chevron-right text-3xl" aria-hidden="true"></span>
+        <h2 class="text-4xl font-bold mb-8">
+          <a href="/{{ page.lang }}/security/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+            Security<svg class="inline-block ml-2 w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
           </a>
         </h2>
 
         <div class="space-y-6">
           {% for post in security_posts %}
-          <article class="pb-6 {% unless forloop.last %}border-b border-dashed border-stone-300 dark:border-stone-700{% endunless %}">
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="text-sm font-semibold text-amber-600 dark:text-amber-500">
-              {{ post.date | date: "%b %-d, %Y" }}
-            </time>
-
-            <h3 class="text-base font-bold text-stone-900 dark:text-stone-100 mt-2">
-              <a href="{{ post.url }}" class="hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors">
+          <article class="pb-6 border-b border-stone-300 dark:border-stone-700">
+            <h3 class="text-lg font-bold mb-3">
+              <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered transition-colors">
                 {{ post.title }}
               </a>
             </h3>
+
+            <p class="text-sm text-stone-500 dark:text-stone-400">{{ post.date | posted_by:post.author }}</p>
           </article>
           {% endfor %}
 
           <p class="pt-2">
-            <a href="/{{ page.lang }}/security/" class="text-sm font-semibold text-amber-600 dark:text-amber-500 hover:text-amber-700 dark:hover:text-amber-400 transition-colors inline-flex items-center gap-1">
-              more
-              <span class="icon-chevron-right text-xs" aria-hidden="true"></span>
+            <a href="/{{ page.lang }}/security/" class="text-xs text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center">
+              <span class="icon-double-arrow-right" aria-hidden="true"></span>
+              {{ news_locale.more_news }}
             </a>
           </p>
         </div>
