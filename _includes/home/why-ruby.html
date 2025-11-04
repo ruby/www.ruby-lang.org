@@ -14,7 +14,7 @@
     </div>
 
     <!-- Features Grid -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-24">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-24">
       {% for feature in home.why_ruby.features %}
       <!-- {{ feature.title }} -->
       <div class="why-ruby-card relative self-start{% if forloop.index == 2 or forloop.index == 4 %} lg:top-40{% endif %}">
@@ -45,7 +45,7 @@
           </div>
 
           <!-- Comment Section -->
-          <div class="relative z-10 flex flex-col md:flex-row lg:flex-col xl:flex-row gap-4 items-center md:items-start lg:items-center xl:items-start ml-0 md:ml-14 lg:ml-16 mt-4">
+          <div class="relative z-10 flex flex-col-reverse md:flex-row lg:flex-col-reverse xl:flex-row gap-2 md:gap-4 lg:gap-2 xl:gap-4 items-center md:items-start lg:items-center xl:items-start ml-0 md:ml-14 lg:ml-16 mt-4">
             <!-- Left: Avatar and Author Info -->
             <div class="flex-shrink-0 flex flex-row md:flex-col lg:flex-row xl:flex-col items-center gap-4 md:gap-0 lg:gap-4 xl:gap-0 justify-center md:w-40 lg:w-auto xl:w-48">
               <!-- Avatar with Ruby Gem Mask -->
