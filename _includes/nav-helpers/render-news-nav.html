@@ -16,6 +16,14 @@
 {% for link in header_nav %}
   {% if link.url contains '/news' %}
     {% assign news_link = link %}
+    {% comment %}Check if security is in news submenu{% endcomment %}
+    {% if link.submenu %}
+      {% for subitem in link.submenu %}
+        {% if subitem.url contains '/security' %}
+          {% assign security_link = subitem %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   {% elsif link.url contains '/security' %}
     {% assign security_link = link %}
   {% endif %}
