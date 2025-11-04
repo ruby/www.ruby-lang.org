@@ -1,0 +1,124 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  tagline: "A Programmer's Best Friend"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
+  or: "or"
+  learn_more: "Learn More"
+  download_url: "/en/downloads/"
+  learn_more_url: "/en/about/"
+
+try_ruby:
+  title: "Try Ruby!"
+  description: "Try Ruby in your browser right now"
+  button_text: "TRY!"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "Want to learn more or try Ruby?"
+  bottom_link_text: "Try Ruby"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Why Ruby?
+  description: Why do programmers around the world love Ruby? What makes it <strong>fun</strong>?
+  features:
+    - id: simple
+      title: Simple
+      read: Easy to write, easy to read.<br />Natural syntax like spoken language.
+      copy: |
+        Ruby has a simple and intuitive syntax that reads like natural language.
+        By eliminating complex symbols and verbose constructs, Ruby's design philosophy allows you to express what you want directly.
+        With minimal boilerplate and high readability, it's friendly to beginners and maintainable for experienced developers.
+      comment:
+        author:
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          Ruby has a simple and intuitive syntax that reads like natural language.
+          With minimal boilerplate and high readability, it's a language that's friendly to beginners.
+          The design philosophy allows you to express what you want directly.
+
+    - id: productivity
+      title: Productivity
+      read: Do more with less code.<br />Intuitive syntax accelerates development.
+      copy: |
+        Ruby's expressive syntax allows you to write complex logic concisely.
+        By leveraging powerful features like metaprogramming and blocks, you can reduce repetition and focus on solving core problems.
+        With rich testing frameworks, you can maintain quality while achieving rapid development cycles.
+      comment:
+        author:
+          id: pragdave
+          url: https://github.com/pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          Ruby's expressive syntax allows you to write complex logic concisely.
+          You can reduce repetition and focus on solving core problems.
+          Rich testing frameworks help maintain quality during rapid development.
+
+    - id: ecosystem
+      title: Ecosystem
+      read: Rich gems support all kinds of development.<br />Mature tooling ready to use.
+      copy: |
+        Ruby has a vast collection of libraries called gems, supporting everything from web development to data processing.
+        With mature frameworks like Rails and comprehensive toolchains, you can combine excellent existing resources
+        to build high-quality applications quickly without reinventing the wheel.
+      comment:
+        author:
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby has a vast ecosystem of gems supporting diverse needs.
+          Mature frameworks and toolchains let you combine existing resources
+          to build quality applications quickly without reinventing the wheel.
+
+    - id: community
+      title: Community
+      read: Developers worldwide support each other.<br />A warm, active community.
+      copy: |
+        The Ruby community embraces the culture of "Matz is nice so we are nice (MINASWAN),"
+        welcoming everyone from beginners to experts. Conferences and meetups around the world foster knowledge sharing and connections.
+        It's a warm, sustainable community where people help each other and grow together.
+      comment:
+        author:
+          id: amatsuda
+          url: https://github.com/amatsuda
+          name: Akira Matsuda
+          title: Chief Organizer of RubyKaigi
+        content: |
+          The Ruby community welcomes everyone from beginners to experts.
+          Conferences and meetups worldwide foster knowledge sharing.
+          It's a warm community where people help each other and grow together.
+
+companies:
+  title: "Companies"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Join the Community"
+  description_1: "People who engage with Ruby beyond being just users are called Rubyists."
+  description_2: "Rubyists who love Ruby are all nice #rubyfriends. Community activities are thriving and fun."
+  motto_prefix: "The universal motto is"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "Learn more about the community"
+      url: "/en/community/"
+    - text: "Upcoming international conferences"
+      url: "https://rubyconferences.org"
+      external: true
+
+news_security:
+  news:
+    title: "News"
+    more_link: "Read more news"
+  security:
+    title: "Security"
+    more_link: "Read more security"

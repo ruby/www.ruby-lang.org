@@ -1496,6 +1496,14 @@ body:is(.dark *){
   margin-top: auto;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -1584,6 +1592,10 @@ body:is(.dark *){
   height: 100%;
 }
 
+.h-6{
+  height: 1.5rem;
+}
+
 .max-h-96{
   max-height: 24rem;
 }
@@ -1647,6 +1659,10 @@ body:is(.dark *){
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-6{
+  width: 1.5rem;
 }
 
 .min-w-0{
@@ -2771,6 +2787,10 @@ body:is(.dark *){
     height: 595px;
   }
 
+  .md\:h-8{
+    height: 2rem;
+  }
+
   .md\:w-10{
     width: 2.5rem;
   }
@@ -2785,6 +2805,10 @@ body:is(.dark *){
 
   .md\:w-\[1400px\]{
     width: 1400px;
+  }
+
+  .md\:w-8{
+    width: 2rem;
   }
 
   .md\:min-w-\[1400px\]{
