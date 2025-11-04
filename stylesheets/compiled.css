@@ -1814,6 +1814,10 @@ body:is(.dark *){
   flex-direction: column;
 }
 
+.flex-col-reverse{
+  flex-direction: column-reverse;
+}
+
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -2811,6 +2815,10 @@ body:is(.dark *){
     height: 8rem;
   }
 
+  .md\:h-12{
+    height: 3rem;
+  }
+
   .md\:w-10{
     width: 2.5rem;
   }
@@ -2881,6 +2889,10 @@ body:is(.dark *){
 
   .md\:gap-12{
     gap: 3rem;
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
   }
 
   .md\:gap-x-12{
@@ -3073,6 +3085,10 @@ body:is(.dark *){
     height: 730px;
   }
 
+  .lg\:h-14{
+    height: 3.5rem;
+  }
+
   .lg\:w-44{
     width: 11rem;
   }
@@ -3113,6 +3129,10 @@ body:is(.dark *){
     flex-direction: column;
   }
 
+  .lg\:flex-col-reverse{
+    flex-direction: column-reverse;
+  }
+
   .lg\:items-center{
     align-items: center;
   }
@@ -3139,6 +3159,10 @@ body:is(.dark *){
 
   .lg\:gap-24{
     gap: 6rem;
+  }
+
+  .lg\:gap-2{
+    gap: 0.5rem;
   }
 
   .lg\:gap-x-16{
@@ -3302,6 +3326,10 @@ body:is(.dark *){
 
   .xl\:gap-0{
     gap: 0px;
+  }
+
+  .xl\:gap-4{
+    gap: 1rem;
   }
 
   .xl\:px-5{
