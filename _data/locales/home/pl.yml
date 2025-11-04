@@ -1,0 +1,125 @@
+hero:
+  since: "Od"
+  year: "1995"
+  title: "Ruby"
+  tagline: "Najlepszy Przyjaciel Programisty"
+  latest_version_label: "Najnowsza Wersja:"
+  download_button: "Pobierz"
+  or: "lub"
+  learn_more: "Czytaj więcej"
+  download_url: "/pl/downloads/"
+  learn_more_url: "/pl/about/"
+
+try_ruby:
+  title: "Wypróbuj Ruby!"
+  description: "Wypróbuj Ruby w przeglądarce teraz"
+  button_text: "WYPRÓBUJ!"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "Chcesz dowiedzieć się więcej lub wypróbować Ruby?"
+  bottom_link_text: "Wypróbuj Ruby"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Dlaczego Ruby?
+  description: Dlaczego programiści na całym świecie kochają Ruby? Co czyni go <strong>zabawnym</strong>?
+  features:
+    - id: simple
+      title: Prosty
+      read: Łatwy do pisania, łatwy do czytania.<br />Naturalna składnia jak mowa.
+      copy: |
+        Ruby ma prostą i intuicyjną składnię, która czyta się jak naturalny język.
+        Eliminując złożone symbole i rozwlekłe konstrukcje, filozofia projektowania Ruby pozwala bezpośrednio wyrażać to, co chcesz.
+        Z minimalnym boilerplate'em i wysoką czytelnością jest przyjazny dla początkujących i łatwy w utrzymaniu dla doświadczonych programistów.
+      comment:
+        author:
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Twórca Ruby
+        content: |
+          Ruby ma prostą i intuicyjną składnię, która czyta się jak naturalny język.
+          Z minimalnym boilerplate'em i wysoką czytelnością jest językiem przyjaznym dla początkujących.
+          Filozofia projektowania pozwala bezpośrednio wyrażać to, co chcesz.
+
+    - id: productivity
+      title: Produktywność
+      read: Rób więcej przy mniejszej ilości kodu.<br />Intuicyjna składnia przyspiesza rozwój.
+      copy: |
+        Ekspresyjna składnia Ruby pozwala pisać złożoną logikę zwięźle.
+        Wykorzystując potężne funkcje takie jak metaprogramowanie i bloki, możesz zredukować powtórzenia i skupić się na rozwiązywaniu głównych problemów.
+        Z kompleksowymi frameworkami testowymi możesz utrzymać jakość osiągając szybkie cykle rozwoju.
+      comment:
+        author:
+          id: pragdave
+          url: https://github.com/pragdave
+          name: Dave Thomas
+          title: Autor "The Pragmatic Programmer"
+        content: |
+          Ekspresyjna składnia Ruby pozwala pisać złożoną logikę zwięźle.
+          Możesz zredukować powtórzenia i skupić się na rozwiązywaniu głównych problemów.
+          Kompleksowe frameworki testowe pomagają utrzymać jakość podczas szybkiego rozwoju.
+
+    - id: ecosystem
+      title: Ekosystem
+      read: Bogate gemy wspierają wszystkie rodzaje rozwoju.<br />Dojrzałe narzędzia gotowe do użycia.
+      copy: |
+        Ruby ma rozległą kolekcję bibliotek zwanych gemami, wspierających wszystko od tworzenia stron web po przetwarzanie danych.
+        Z dojrzałymi frameworkami takimi jak Rails i kompleksowymi toolchainami, możesz łączyć doskonałe istniejące zasoby
+        by szybko budować wysokiej jakości aplikacje nie wymyślając koła na nowo.
+      comment:
+        author:
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Twórca Ruby on Rails
+        content: |
+          Ruby ma rozległy ekosystem gemów wspierających różnorodne potrzeby.
+          Dojrzałe frameworki i toolchainy pozwalają łączyć istniejące zasoby
+          by szybko budować wysokiej jakości aplikacje nie wymyślając koła na nowo.
+
+    - id: community
+      title: Społeczność
+      read: Programiści na całym świecie wspierają się nawzajem.<br />Ciepła, aktywna społeczność.
+      copy: |
+        Społeczność Ruby przyjmuje kulturę "Matz is nice so we are nice (MINASWAN),"
+        witając wszystkich od początkujących po ekspertów. Konferencje i spotkania na całym świecie sprzyjają dzieleniu się wiedzą i nawiązywaniu kontaktów.
+        To ciepła, zrównoważona społeczność, gdzie ludzie pomagają sobie nawzajem i rozwijają się razem.
+      comment:
+        author:
+          id: amatsuda
+          url: https://github.com/amatsuda
+          name: Akira Matsuda
+          title: Główny Organizator RubyKaigi
+        content: |
+          Społeczność Ruby wita wszystkich od początkujących po ekspertów.
+          Konferencje i spotkania na całym świecie sprzyjają dzieleniu się wiedzą.
+          To ciepła społeczność, gdzie ludzie pomagają sobie nawzajem i rozwijają się razem.
+
+companies:
+  title: "Firmy"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Dołącz do Społeczności"
+  link_about_url: "/pl/community/"
+  description_1: "Osoby angażujące się w Ruby poza byciem tylko użytkownikami są nazywane Rubyistami."
+  description_2: "Rubyści kochający Ruby są mili #rubyfriends. Aktywności społeczności kwitną i są zabawne."
+  motto_prefix: "Uniwersalne motto to"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "Dowiedz się więcej o społeczności"
+      url: "/pl/community/"
+    - text: "Nadchodzące międzynarodowe konferencje"
+      url: "https://rubyconferences.org"
+      external: true
+
+news_security:
+  news:
+    title: "Aktualności"
+    more_link: "Czytaj więcej aktualności"
+  security:
+    title: "Bezpieczeństwo"
+    more_link: "Czytaj więcej o bezpieczeństwie"
