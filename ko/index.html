@@ -2,39 +2,16 @@
 layout: homepage
 title: Ruby 프로그래밍 언어
 lang: ko
-
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Ruby는...</h1>
-
-      <p>
-      단순함과 생산성에 초점을 둔 동적
-      오픈 소스 프로그래밍 언어입니다. 자연스럽게 읽히고 쓰기 쉬운
-      우아한 문법을 가지고 있습니다.
-      </p>
-
-      <a href="downloads/" class="download-link">Ruby 다운로드</a>
-      또는
-      <a href="about/">자세히 알아보기...</a>
-
-    </div>
-    <div id="code"><noscript><div class="highlight"><pre><code class="ruby">
-      <span class="c1"># Hello World 프로그램은</span>
-      <span class="c1"># Ruby로 짜면</span>
-      <span class="c1"># 간단합니다. 불필요한 것들:</span>
-      <span class="c1">#</span>
-      <span class="c1"># * &quot;main&quot; 메서드</span>
-      <span class="c1"># * 줄 바꿈</span>
-      <span class="c1"># * 세미콜론</span>
-      <span class="c1">#</span>
-      <span class="c1"># 코드는 이렇습니다:</span>
-
-      <span class="nb">puts</span> <span class="s2">&quot;Hello World!&quot;</span>
-    </code></pre></div></noscript></div>
-  </div>
-
 ---
+
+{% include home/hero.html %}
+
+{% include home/try-ruby.html %}
+
+{% include home/why-ruby.html %}
+
+{% include home/companies.html %}
+
+{% include home/community.html %}
+
+{% include home/news-security.html %}
