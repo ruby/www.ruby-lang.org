@@ -2,27 +2,18 @@
 layout: homepage
 title: "Język programowania Ruby"
 lang: pl
-
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Ruby to...</h1>
-
-      <p>
-      Dynamiczny język programowania skupiający się na prostocie i wydajności.
-      Ma elegancką składnię, którą czyta się naturalnie i jest łatwa w zapisie.
-      </p>
-
-      <a href="downloads/" class="download-link">Pobierz Rubiego</a>
-      lub
-      <a href="about/">Czytaj więcej...</a>
-    </div>
-    <div id="code"></div>
-  </div>
-
 ---
 
+{% include home/hero.html %}
+
+{% include home/try-ruby.html %}
+
 {% include unmaintained.html %}
+
+{% include home/why-ruby.html %}
+
+{% include home/companies.html %}
+
+{% include home/community.html %}
+
+{% include home/news-security.html %}

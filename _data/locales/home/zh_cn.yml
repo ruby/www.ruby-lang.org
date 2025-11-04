@@ -1,0 +1,125 @@
+hero:
+  since: "始于"
+  year: "1995"
+  title: "Ruby"
+  tagline: "程序员的最佳伙伴"
+  latest_version_label: "最新版本："
+  download_button: "下载"
+  or: "或"
+  learn_more: "了解更多"
+  download_url: "/zh_cn/downloads/"
+  learn_more_url: "/zh_cn/about/"
+
+try_ruby:
+  title: "试试 Ruby！"
+  description: "现在就在浏览器中尝试 Ruby"
+  button_text: "试试看！"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "想了解更多或试试 Ruby？"
+  bottom_link_text: "试试 Ruby"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: 为什么选择 Ruby？
+  description: 为什么世界各地的程序员都热爱 Ruby？是什么让它如此<strong>有趣</strong>？
+  features:
+    - id: simple
+      title: Simple
+      read: 易写易读。<br />像说话一样自然的语法。
+      copy: |
+        Ruby 拥有简洁直观的语法，读起来就像自然语言。
+        通过消除复杂的符号和冗长的结构，Ruby 的设计理念让你能够直接表达你的想法。
+        最少的样板代码和高可读性，使其对初学者友好，对有经验的开发者易于维护。
+      comment:
+        author:
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Ruby 创始人
+        content: |
+          Ruby 拥有简洁直观的语法，读起来就像自然语言。
+          最少的样板代码和高可读性，使其成为对初学者友好的语言。
+          设计理念让你能够直接表达你的想法。
+
+    - id: productivity
+      title: Productivity
+      read: 用更少的代码做更多的事。<br />直观的语法加速开发。
+      copy: |
+        Ruby 富有表现力的语法让你能够简洁地编写复杂的逻辑。
+        利用元编程和代码块等强大特性，你可以减少重复，专注于解决核心问题。
+        借助全面的测试框架，你可以在实现快速开发周期的同时保持质量。
+      comment:
+        author:
+          id: pragdave
+          url: https://github.com/pragdave
+          name: Dave Thomas
+          title: 《程序员修炼之道》作者
+        content: |
+          Ruby 富有表现力的语法让你能够简洁地编写复杂的逻辑。
+          你可以减少重复，专注于解决核心问题。
+          全面的测试框架帮助在快速开发过程中保持质量。
+
+    - id: ecosystem
+      title: Ecosystem
+      read: 丰富的 gem 支持各种开发需求。<br />成熟的工具开箱即用。
+      copy: |
+        Ruby 拥有庞大的库集合（称为 gem），支持从 Web 开发到数据处理的一切。
+        借助 Rails 等成熟框架和完善的工具链，你可以结合优秀的现有资源
+        快速构建高质量应用，而无需重新发明轮子。
+      comment:
+        author:
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Ruby on Rails 创始人
+        content: |
+          Ruby 拥有广泛的 gem 生态系统，支持各种需求。
+          成熟的框架和工具链让你能够结合现有资源
+          快速构建高质量应用，而无需重新发明轮子。
+
+    - id: community
+      title: Community
+      read: 世界各地的开发者相互支持。<br />温暖而活跃的社区。
+      copy: |
+        Ruby 社区秉承"Matz is nice so we are nice (MINASWAN)"的文化，
+        欢迎从初学者到专家的所有人。世界各地的会议和聚会促进知识分享和联系。
+        这是一个温暖、可持续的社区，人们互相帮助，共同成长。
+      comment:
+        author:
+          id: amatsuda
+          url: https://github.com/amatsuda
+          name: Akira Matsuda
+          title: RubyKaigi 首席组织者
+        content: |
+          Ruby 社区欢迎从初学者到专家的所有人。
+          世界各地的会议和聚会促进知识分享。
+          这是一个温暖的社区，人们互相帮助，共同成长。
+
+companies:
+  title: "企业们"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "加入社区"
+  link_about_url: "/zh_cn/community/"
+  description_1: "超越用户身份参与 Ruby 的人被称为 Rubyist。"
+  description_2: "热爱 Ruby 的 Rubyist 都是很棒的 #rubyfriends。社区活动蓬勃发展且充满乐趣。"
+  motto_prefix: "通用座右铭是"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "了解更多关于社区的信息"
+      url: "/zh_cn/community/"
+    - text: "即将举行的国际会议"
+      url: "https://rubyconferences.org"
+      external: true
+
+news_security:
+  news:
+    title: "新闻"
+    more_link: "阅读更多新闻"
+  security:
+    title: "安全"
+    more_link: "阅读更多安全信息"

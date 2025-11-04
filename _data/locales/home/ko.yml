@@ -1,0 +1,125 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  tagline: "프로그래머의 가장 친한 친구"
+  latest_version_label: "최신 버전:"
+  download_button: "다운로드"
+  or: "또는"
+  learn_more: "자세히 알아보기"
+  download_url: "/ko/downloads/"
+  learn_more_url: "/ko/about/"
+
+try_ruby:
+  title: "Ruby를 체험해보세요!"
+  description: "지금 브라우저에서 Ruby를 사용해보세요"
+  button_text: "체험하기!"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "더 알아보거나 Ruby를 체험해보고 싶으신가요?"
+  bottom_link_text: "Ruby 체험하기"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: 왜 Ruby인가?
+  description: 전 세계 프로그래머들이 Ruby를 사랑하는 이유는 무엇일까요? 무엇이 Ruby를 <strong>즐겁게</strong> 만들까요?
+  features:
+    - id: simple
+      title: Simple
+      read: 쓰기 쉽고, 읽기 쉽습니다.<br />말하는 것처럼 자연스러운 문법.
+      copy: |
+        Ruby는 자연어처럼 읽히는 간단하고 직관적인 문법을 가지고 있습니다.
+        복잡한 기호와 장황한 구문을 제거하여, Ruby의 디자인 철학은 원하는 것을 직접적으로 표현할 수 있게 해줍니다.
+        최소한의 보일러플레이트 코드와 높은 가독성으로 초보자에게 친숙하며 숙련된 개발자에게는 유지보수가 쉽습니다.
+      comment:
+        author:
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Ruby 창시자
+        content: |
+          Ruby는 자연어처럼 읽히는 간단하고 직관적인 문법을 가지고 있습니다.
+          최소한의 보일러플레이트 코드와 높은 가독성으로 초보자에게 친숙한 언어입니다.
+          디자인 철학은 원하는 것을 직접적으로 표현할 수 있게 해줍니다.
+
+    - id: productivity
+      title: Productivity
+      read: 더 적은 코드로 더 많은 것을 하세요.<br />직관적인 문법이 개발을 가속화합니다.
+      copy: |
+        Ruby의 표현력 있는 문법은 복잡한 로직을 간결하게 작성할 수 있게 해줍니다.
+        메타프로그래밍과 블록 같은 강력한 기능을 활용하여 반복을 줄이고 핵심 문제 해결에 집중할 수 있습니다.
+        포괄적인 테스트 프레임워크로 빠른 개발 주기를 달성하면서도 품질을 유지할 수 있습니다.
+      comment:
+        author:
+          id: pragdave
+          url: https://github.com/pragdave
+          name: Dave Thomas
+          title: '"The Pragmatic Programmer" 저자'
+        content: |
+          Ruby의 표현력 있는 문법은 복잡한 로직을 간결하게 작성할 수 있게 해줍니다.
+          반복을 줄이고 핵심 문제 해결에 집중할 수 있습니다.
+          포괄적인 테스트 프레임워크가 빠른 개발 중에도 품질을 유지하도록 도와줍니다.
+
+    - id: ecosystem
+      title: Ecosystem
+      read: 풍부한 gem이 모든 종류의 개발을 지원합니다.<br />성숙한 도구들이 바로 사용 가능합니다.
+      copy: |
+        Ruby는 웹 개발부터 데이터 처리까지 모든 것을 지원하는 gem이라 불리는 방대한 라이브러리 컬렉션을 가지고 있습니다.
+        Rails 같은 성숙한 프레임워크와 포괄적인 툴체인으로, 우수한 기존 리소스를 결합하여
+        바퀴를 다시 발명하지 않고도 빠르게 고품질 애플리케이션을 구축할 수 있습니다.
+      comment:
+        author:
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Ruby on Rails 창시자
+        content: |
+          Ruby는 다양한 요구를 지원하는 광범위한 gem 생태계를 가지고 있습니다.
+          성숙한 프레임워크와 툴체인으로 기존 리소스를 결합하여
+          바퀴를 다시 발명하지 않고도 빠르게 고품질 애플리케이션을 구축할 수 있습니다.
+
+    - id: community
+      title: Community
+      read: 전 세계의 개발자들이 서로를 지원합니다.<br />따뜻하고 활발한 커뮤니티.
+      copy: |
+        Ruby 커뮤니티는 "Matz is nice so we are nice (MINASWAN)" 문화를 받아들여,
+        초보자부터 전문가까지 모두를 환영합니다. 전 세계의 컨퍼런스와 밋업은 지식 공유와 연결을 장려합니다.
+        사람들이 서로 돕고 함께 성장하는 따뜻하고 지속 가능한 커뮤니티입니다.
+      comment:
+        author:
+          id: amatsuda
+          url: https://github.com/amatsuda
+          name: Akira Matsuda
+          title: RubyKaigi 수석 주최자
+        content: |
+          Ruby 커뮤니티는 초보자부터 전문가까지 모두를 환영합니다.
+          전 세계의 컨퍼런스와 밋업은 지식 공유를 장려합니다.
+          사람들이 서로 돕고 함께 성장하는 따뜻한 커뮤니티입니다.
+
+companies:
+  title: "기업들이"
+  heart: "♥"
+  subtitle: "Ruby를 사랑합니다"
+
+community:
+  title: "커뮤니티에 참여하기"
+  link_about_url: "/ko/community/"
+  description_1: "단순히 사용하는 것을 넘어 Ruby에 참여하는 사람들을 Rubyist라고 부릅니다."
+  description_2: "Ruby를 사랑하는 Rubyist들은 모두 멋진 #rubyfriends입니다. 커뮤니티 활동이 번창하고 즐겁습니다."
+  motto_prefix: "보편적인 모토는"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "커뮤니티에 대해 더 알아보기"
+      url: "/ko/community/"
+    - text: "다가오는 국제 컨퍼런스"
+      url: "https://rubyconferences.org"
+      external: true
+
+news_security:
+  news:
+    title: "뉴스"
+    more_link: "더 많은 뉴스 읽기"
+  security:
+    title: "보안"
+    more_link: "보안에 대해 더 읽기"
