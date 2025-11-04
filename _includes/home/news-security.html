@@ -66,13 +66,13 @@
             <p class="text-xs text-stone-500 dark:text-stone-400 mt-3">{{ post.date | posted_by:post.author }}</p>
           </article>
           {% endfor %}
-
-          <p class="pt-2">
-            <a href="/{{ page.lang }}/news/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
-              {{ news_locale.more_news }}<span class="icon-chevron-right" aria-hidden="true"></span>
-            </a>
-          </p>
         </div>
+
+        <p class="mt-4">
+          <a href="/{{ page.lang }}/news/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+            {{ home.news_security.news.more_link }}<span class="icon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </p>
       </div>
 
       {% comment %}Security Section (1/3 width){% endcomment %}
@@ -95,13 +95,13 @@
             <p class="text-xs text-stone-500 dark:text-stone-400">{{ post.date | posted_by:post.author }}</p>
           </article>
           {% endfor %}
-
-          <p class="pt-2">
-            <a href="/{{ page.lang }}/security/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
-              {{ news_locale.more_news }}<span class="icon-chevron-right" aria-hidden="true"></span>
-            </a>
-          </p>
         </div>
+
+        <p class="mt-4">
+          <a href="/{{ page.lang }}/security/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+            {{ home.news_security.security.more_link }}<span class="icon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </p>
       </div>
 
     </div>

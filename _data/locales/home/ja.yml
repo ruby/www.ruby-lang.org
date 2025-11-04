@@ -118,5 +118,7 @@ community:
 news_security:
   news:
     title: "News"
+    more_link: "ニュースをもっと読む"
   security:
     title: "Security"
+    more_link: "セキュリティをもっと読む"

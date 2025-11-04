@@ -1834,10 +1834,6 @@ body:is(.dark *){
   gap: 1.5rem;
 }
 
-.gap-8{
-  gap: 2rem;
-}
-
 .gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
@@ -2107,6 +2103,10 @@ body:is(.dark *){
 
 .pt-0{
   padding-top: 0px;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
 }
 
 .pt-12{
@@ -2543,10 +2543,6 @@ body:is(.dark *){
   visibility: visible;
 }
 
-.group:hover .group-hover\:text-ruby-600{
-  color: var(--color-ruby-600);
-}
-
 .group:hover .group-hover\:opacity-100{
   opacity: 1;
 }
@@ -2674,10 +2670,6 @@ body:is(.dark *){
 
 .dark\:hover\:text-semantic-text-hovered:hover:is(.dark *){
   color: var(--color-text-hovered);
-}
-
-.group:hover .dark\:group-hover\:text-ruby-400:is(.dark *){
-  color: var(--color-ruby-400);
 }
 
 @media (min-width: 640px){
@@ -3055,8 +3047,8 @@ body:is(.dark *){
     align-items: center;
   }
 
-  .lg\:gap-12{
-    gap: 3rem;
+  .lg\:gap-16{
+    gap: 4rem;
   }
 
   .lg\:gap-20{
@@ -3069,10 +3061,6 @@ body:is(.dark *){
 
   .lg\:gap-8{
     gap: 2rem;
-  }
-
-  .lg\:gap-16{
-    gap: 4rem;
   }
 
   .lg\:gap-x-16{
