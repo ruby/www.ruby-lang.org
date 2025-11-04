@@ -266,6 +266,7 @@ a .icon-external::before {
   direction: ltr;
   position: relative;
   top: 2px;
+  color: inherit; /* Inherit color from parent */
   font-variation-settings:
     'FILL' 0,
     'wght' 200,
