@@ -1596,6 +1596,10 @@ body:is(.dark *){
   height: 1.5rem;
 }
 
+.h-24{
+  height: 6rem;
+}
+
 .max-h-96{
   max-height: 24rem;
 }
@@ -1663,6 +1667,10 @@ body:is(.dark *){
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-24{
+  width: 6rem;
 }
 
 .min-w-0{
@@ -1848,6 +1856,10 @@ body:is(.dark *){
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .gap-x-6{
@@ -2229,6 +2241,10 @@ body:is(.dark *){
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[0\.625rem\]{
+  font-size: 0.625rem;
 }
 
 .font-bold{
@@ -2791,6 +2807,10 @@ body:is(.dark *){
     height: 2rem;
   }
 
+  .md\:h-32{
+    height: 8rem;
+  }
+
   .md\:w-10{
     width: 2.5rem;
   }
@@ -2809,6 +2829,10 @@ body:is(.dark *){
 
   .md\:w-8{
     width: 2rem;
+  }
+
+  .md\:w-32{
+    width: 8rem;
   }
 
   .md\:min-w-\[1400px\]{
@@ -2853,6 +2877,10 @@ body:is(.dark *){
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-12{
+    gap: 3rem;
   }
 
   .md\:gap-x-12{
@@ -2982,6 +3010,11 @@ body:is(.dark *){
     line-height: 2.5rem;
   }
 
+  .md\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
   .md\:dark\:bg-transparent:is(.dark *){
     background-color: transparent;
   }
@@ -2990,6 +3023,10 @@ body:is(.dark *){
 @media (min-width: 1024px){
   .lg\:top-28{
     top: 7rem;
+  }
+
+  .lg\:top-40{
+    top: 10rem;
   }
 
   .lg\:col-span-2{
@@ -3048,6 +3085,10 @@ body:is(.dark *){
     width: 1728px;
   }
 
+  .lg\:w-auto{
+    width: auto;
+  }
+
   .lg\:min-w-\[1728px\]{
     min-width: 1728px;
   }
@@ -3090,6 +3131,14 @@ body:is(.dark *){
 
   .lg\:gap-8{
     gap: 2rem;
+  }
+
+  .lg\:gap-12{
+    gap: 3rem;
+  }
+
+  .lg\:gap-24{
+    gap: 6rem;
   }
 
   .lg\:gap-x-16{
@@ -3180,6 +3229,14 @@ body:is(.dark *){
     padding-top: 7rem;
   }
 
+  .lg\:pb-48{
+    padding-bottom: 12rem;
+  }
+
+  .lg\:pt-24{
+    padding-top: 6rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -3211,6 +3268,10 @@ body:is(.dark *){
     height: 12rem;
   }
 
+  .xl\:h-40{
+    height: 10rem;
+  }
+
   .xl\:w-48{
     width: 12rem;
   }
@@ -3221,6 +3282,10 @@ body:is(.dark *){
 
   .xl\:w-64{
     width: 16rem;
+  }
+
+  .xl\:w-40{
+    width: 10rem;
   }
 
   .xl\:flex-row{
