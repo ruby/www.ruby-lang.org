@@ -2977,6 +2977,11 @@ body:is(.dark *){
     line-height: 1.75rem;
   }
 
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:dark\:bg-transparent:is(.dark *){
     background-color: transparent;
   }
