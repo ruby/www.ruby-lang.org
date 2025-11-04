@@ -102,6 +102,7 @@ companies:
 
 community:
   title: "Join the Community"
+  link_about_url: "/en/community/"
   description_1: "People who engage with Ruby beyond being just users are called Rubyists."
   description_2: "Rubyists who love Ruby are all nice #rubyfriends. Community activities are thriving and fun."
   motto_prefix: "The universal motto is"
