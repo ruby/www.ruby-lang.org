@@ -126,8 +126,11 @@ navigation:
       external: true
 - text: 新聞
   url: /zh_tw/news/
-- text: 安全
-  url: /zh_tw/security/
+  submenu:
+  - text: 新聞
+    url: /zh_tw/news/
+  - text: 安全
+    url: /zh_tw/security/
 
 syndicate:
   text: 訂閱

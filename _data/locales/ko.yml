@@ -138,8 +138,11 @@ navigation:
       external: true
 - text: 뉴스
   url: /ko/news/
-- text: 보안
-  url: /ko/security/
+  submenu:
+  - text: 뉴스
+    url: /ko/news/
+  - text: 보안
+    url: /ko/security/
 
 syndicate:
   text: 구독

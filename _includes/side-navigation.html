@@ -20,37 +20,32 @@
 {% include nav-helpers/detect-section.html %}
 
 {% comment %}Render appropriate navigation based on section{% endcomment %}
-{% if nav_section == 'news' or nav_section == 'security' %}
-  {% comment %}News/Security navigation (simplified two-link nav){% endcomment %}
-  {% include nav-helpers/render-news-nav.html syndicate=syndicate %}
-{% else %}
-  {% comment %}Standard hierarchical navigation{% endcomment %}
-  {% comment %}Find submenu for current section{% endcomment %}
-  {% include nav-helpers/find-submenu.html nav_section=nav_section nav_items=nav_items %}
+{% comment %}Standard hierarchical navigation{% endcomment %}
+{% comment %}Find submenu for current section{% endcomment %}
+{% include nav-helpers/find-submenu.html nav_section=nav_section nav_items=nav_items %}
 
-  <div class="md:bg-transparent md:dark:bg-transparent md:p-0 md:border-0">
-    {% comment %}Section title (desktop only){% endcomment %}
-    <div class="mb-1 hidden md:block border-b border-stone-200 dark:border-stone-700 pb-3">
-      <h3 class="text-xs font-semibold text-stone-500 dark:text-stone-400">{{ current_section_title }}</h3>
-    </div>
-
-    {% comment %}Render navigation menu{% endcomment %}
-    <nav class="space-y-0">
-      {% for subitem in current_section_submenu %}
-        {% include nav-helpers/render-submenu.html subitem=subitem is_first=forloop.first %}
-      {% endfor %}
-    </nav>
-
-    {% comment %}RSS link{% endcomment %}
-    {% if syndicate and syndicate.recent_news %}
-    <div class="pt-6">
-      <p class="pl-1">
-        <a href="{{ syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
-          <span class="icon-rss-feed" aria-hidden="true"></span>
-          {{ syndicate.recent_news.text }}<span class="icon-external text-xs" aria-hidden="true"></span>
-        </a>
-      </p>
-    </div>
-    {% endif %}
+<div class="md:bg-transparent md:dark:bg-transparent md:p-0 md:border-0">
+  {% comment %}Section title (desktop only){% endcomment %}
+  <div class="mb-1 hidden md:block border-b border-stone-200 dark:border-stone-700 pb-3">
+    <h3 class="text-xs font-semibold text-stone-500 dark:text-stone-400">{{ current_section_title }}</h3>
   </div>
-{% endif %}
+
+  {% comment %}Render navigation menu{% endcomment %}
+  <nav class="space-y-0">
+    {% for subitem in current_section_submenu %}
+      {% include nav-helpers/render-submenu.html subitem=subitem is_first=forloop.first %}
+    {% endfor %}
+  </nav>
+
+  {% comment %}RSS link for news section{% endcomment %}
+  {% if nav_section == 'news' and syndicate and syndicate.recent_news %}
+  <div class="pt-6">
+    <p class="pl-1">
+      <a href="{{ syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
+        <span class="icon-rss-feed" aria-hidden="true"></span>
+        {{ syndicate.recent_news.text }}<span class="icon-external text-xs" aria-hidden="true"></span>
+      </a>
+    </p>
+  </div>
+  {% endif %}
+</div>

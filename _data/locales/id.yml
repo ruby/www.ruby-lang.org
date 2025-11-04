@@ -126,8 +126,11 @@ navigation:
       external: true
 - text: Berita
   url: /id/news/
-- text: Keamanan
-  url: /id/security/
+  submenu:
+  - text: Berita
+    url: /id/news/
+  - text: Keamanan
+    url: /id/security/
 
 syndicate:
   text: Sindikasi Web

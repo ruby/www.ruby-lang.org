@@ -120,8 +120,11 @@ navigation:
       external: true
 - text: Wiadomości
   url: /pl/news/
-- text: Bezpieczeństwo
-  url: /pl/security/
+  submenu:
+  - text: Wiadomości
+    url: /pl/news/
+  - text: Bezpieczeństwo
+    url: /pl/security/
 
 syndicate:
   text: Syndicate

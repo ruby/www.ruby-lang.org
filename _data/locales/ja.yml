@@ -155,6 +155,8 @@ navigation:
 - text: ニュース
   url: /ja/news/
   submenu:
+  - text: ニュース
+    url: /ja/news/
   - text: セキュリティ
     url: /ja/security/
 

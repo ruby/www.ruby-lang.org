@@ -124,8 +124,11 @@ navigation:
       external: true
 - text: Новини
   url: /bg/news/
-- text: Сигурност
-  url: /bg/security/
+  submenu:
+  - text: Новини
+    url: /bg/news/
+  - text: Сигурност
+    url: /bg/security/
 
 syndicate:
   text: Новини

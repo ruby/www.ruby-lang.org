@@ -132,8 +132,11 @@ navigation:
       external: true
 - text: Haberler
   url: /tr/news/
-- text: Güvenlik
-  url: /tr/security/
+  submenu:
+  - text: Haberler
+    url: /tr/news/
+  - text: Güvenlik
+    url: /tr/security/
 
 syndicate:
   text: Takip Edin
