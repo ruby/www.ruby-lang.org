@@ -10,49 +10,118 @@
   {% assign credits = site.data.locales['en'].credits %}
 {% endif %}
 
-<footer class="bg-white dark:bg-stone-900 border-t border-stone-200 dark:border-stone-700 pt-12 pb-8">
+<!-- Ruby Gem with Sunburst - Absolutely positioned over footer -->
+<div class="relative w-full pointer-events-none">
+  <div class="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/3 z-20 flex flex-col items-center">
+    <!-- Sunburst Background -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[100px] w-[360px]">
+      <img src="/images/footer/sunburst.svg"
+           alt=""
+           class="w-full h-auto"
+           aria-hidden="true">
+    </div>
+
+    <!-- Ruby Gem Shape with Text -->
+    <div class="relative z-10 w-[140px] h-[126px]">
+      <svg class="w-full h-full" viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <style>
+            /* Upper half - matches footer background color (gold-300) */
+            .gem-upper { fill: #ebe5d5; }
+            @media (prefers-color-scheme: dark) {
+              .gem-upper { fill: #57534e; }
+            }
+            /* Lower half - white */
+            .gem-lower { fill: #ffffff; }
+            @media (prefers-color-scheme: dark) {
+              .gem-lower { fill: #fafaf9; }
+            }
+            .gem-text { fill: #1c1917; }
+            @media (prefers-color-scheme: dark) {
+              .gem-text { fill: #ffffff; }
+            }
+          </style>
+          <!-- Clip path for upper 2/3 -->
+          <clipPath id="upper-half">
+            <rect x="0" y="0" width="200" height="120"/>
+          </clipPath>
+          <!-- Clip path for lower 1/3 -->
+          <clipPath id="lower-half">
+            <rect x="0" y="120" width="200" height="60"/>
+          </clipPath>
+        </defs>
+
+        <!-- Gem Shape - Upper Half (background color) -->
+        <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"
+              class="gem-upper"
+              clip-path="url(#upper-half)"/>
+
+        <!-- Gem Shape - Lower Half (white) -->
+        <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"
+              class="gem-lower"
+              clip-path="url(#lower-half)"/>
+
+        <!-- Text - positioned in upper half -->
+        <text x="100"
+              y="42"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              class="gem-text"
+              style="font-size: 26px; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif;">Enjoy</text>
+        <text x="100"
+              y="70"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              class="gem-text"
+              style="font-size: 26px; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif;">Coding!</text>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-gold-300 dark:bg-stone-800 pt-12 md:pt-14 pb-8 relative">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
     <!-- Footer Links -->
     <div class="mb-6 text-center">
       <nav class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
         {% if footer.links.security %}
         <a href="{{ footer.links.security.url }}"
-           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
+           class="text-stone-900 hover:text-stone-700 dark:text-white dark:hover:text-stone-300 transition-colors border-r border-stone-400 dark:border-stone-600 pr-6">
           {{ footer.links.security.text }}
         </a>
         {% endif %}
 
         {% if footer.links.about_website %}
         <a href="{{ footer.links.about_website.url }}"
-           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
+           class="text-stone-900 hover:text-stone-700 dark:text-white dark:hover:text-stone-300 transition-colors border-r border-stone-400 dark:border-stone-600 pr-6">
           {{ footer.links.about_website.text }}
         </a>
         {% endif %}
 
         {% if footer.links.logo_page %}
         <a href="{{ footer.links.logo_page.url }}"
-           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
+           class="text-stone-900 hover:text-stone-700 dark:text-white dark:hover:text-stone-300 transition-colors border-r border-stone-400 dark:border-stone-600 pr-6">
           {{ footer.links.logo_page.text }}
         </a>
         {% endif %}
 
         {% if footer.links.news_rss %}
         <a href="{{ footer.links.news_rss.url }}"
-           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
+           class="text-stone-900 hover:text-stone-700 dark:text-white dark:hover:text-stone-300 transition-colors border-r border-stone-400 dark:border-stone-600 pr-6">
           {{ footer.links.news_rss.text }}
         </a>
         {% endif %}
 
         {% if footer.links.privacy %}
         <a href="{{ footer.links.privacy.url }}"
-           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
+           class="text-stone-900 hover:text-stone-700 dark:text-white dark:hover:text-stone-300 transition-colors border-r border-stone-400 dark:border-stone-600 pr-6">
           {{ footer.links.privacy.text }}
         </a>
         {% endif %}
 
         {% if footer.links.ruby_license %}
         <a href="{{ footer.links.ruby_license.url }}"
-           class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors border-r border-stone-200 dark:border-stone-700 pr-6">
+           class="text-stone-900 hover:text-stone-700 dark:text-white dark:hover:text-stone-300 transition-colors border-r border-stone-400 dark:border-stone-600 pr-6">
           {{ footer.links.ruby_license.text }}
         </a>
         {% endif %}
@@ -62,7 +131,7 @@
                 type="button"
                 aria-label="Theme: Auto"
                 title="Theme: Auto (System)"
-                class="text-stone-600 hover:text-semantic-text-hovered dark:text-stone-400 dark:hover:text-semantic-text-hovered transition-colors">
+                class="text-stone-900 hover:text-stone-700 dark:text-white dark:hover:text-stone-300 transition-colors">
           <span class="icon-theme-auto" aria-hidden="true"></span>
         </button>
       </nav>
@@ -70,7 +139,7 @@
 
     <!-- Credits Section -->
     <div class="pt-6 mt-6 text-center">
-      <p class="footer-credits text-xs text-stone-600 dark:text-stone-400">
+      <p class="footer-credits text-xs text-stone-900 dark:text-white">
         {{ credits }}
       </p>
     </div>
