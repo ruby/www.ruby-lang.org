@@ -7,6 +7,9 @@ timezone: UTC
 kramdown:
   auto_ids: true  # Enable auto IDs for TOC links
 
+include:
+  - _headers
+
 exclude:
   - Gemfile
   - Gemfile.lock
