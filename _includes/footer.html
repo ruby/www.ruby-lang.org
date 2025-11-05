@@ -25,6 +25,7 @@
 
     <!-- Ruby Gem Shape with Text -->
     <div class="relative z-10 w-[140px] h-[126px]">
+      <!-- Gem SVG -->
       <svg class="w-full h-full" viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <style>
@@ -37,10 +38,6 @@
             .gem-lower { fill: #ffffff; }
             @media (prefers-color-scheme: dark) {
               .gem-lower { fill: #fafaf9; }
-            }
-            .gem-text { fill: #1c1917; }
-            @media (prefers-color-scheme: dark) {
-              .gem-text { fill: #ffffff; }
             }
           </style>
           <!-- Clip path for upper 2/3 -->
@@ -62,21 +59,13 @@
         <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"
               class="gem-lower"
               clip-path="url(#lower-half)"/>
-
-        <!-- Text - positioned in upper half -->
-        <text x="100"
-              y="42"
-              text-anchor="middle"
-              dominant-baseline="middle"
-              class="gem-text"
-              style="font-size: 30px; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif; letter-spacing: 0.5px;">Enjoy</text>
-        <text x="100"
-              y="78"
-              text-anchor="middle"
-              dominant-baseline="middle"
-              class="gem-text"
-              style="font-size: 30px; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif; letter-spacing: 0.5px;">Coding!</text>
       </svg>
+
+      <!-- HTML Text overlaid on gem -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-stone-900 dark:text-white font-extrabold -translate-y-6 text-xl tracking-wide leading-snug font-default">
+        <div>Enjoy</div>
+        <div>Coding!</div>
+      </div>
     </div>
   </div>
   </div>
