@@ -2158,6 +2158,14 @@ body:is(.dark *){
   fill: #1c1917;
 }
 
+.fill-gold-300{
+  fill: var(--color-gold-300);
+}
+
+.fill-white{
+  fill: #fff;
+}
+
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
@@ -2818,6 +2826,14 @@ body:is(.dark *){
 
 .dark\:fill-white:is(.dark *){
   fill: #fff;
+}
+
+.dark\:fill-gray-900:is(.dark *){
+  fill: #111827;
+}
+
+.dark\:fill-stone-900:is(.dark *){
+  fill: #1c1917;
 }
 
 .dark\:text-blue-400:is(.dark *){

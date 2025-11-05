@@ -12,7 +12,7 @@
 
 <!-- Enjoy Coding Section Wrapper -->
 <div class="mt-32">
-  <!-- Ruby Gem with Sunburst - Absolutely positioned over footer -->
+  <!-- Ruby Gem with Sunburst -->
   <div class="relative w-full pointer-events-none">
     <div class="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/3 z-20 flex flex-col items-center">
     <!-- Sunburst Background -->
@@ -28,18 +28,6 @@
       <!-- Gem SVG -->
       <svg class="w-full h-full" viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <style>
-            /* Upper half - matches footer background color (gold-300) */
-            .gem-upper { fill: #ebe5d5; }
-            @media (prefers-color-scheme: dark) {
-              .gem-upper { fill: #57534e; }
-            }
-            /* Lower half - white */
-            .gem-lower { fill: #ffffff; }
-            @media (prefers-color-scheme: dark) {
-              .gem-lower { fill: #fafaf9; }
-            }
-          </style>
           <!-- Clip path for upper 2/3 -->
           <clipPath id="upper-half">
             <rect x="0" y="0" width="200" height="120"/>
@@ -50,14 +38,14 @@
           </clipPath>
         </defs>
 
-        <!-- Gem Shape - Upper Half (background color) -->
+        <!-- Gem Shape - Upper Half (footer background color) -->
         <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"
-              class="gem-upper"
+              class="fill-gold-300 dark:fill-stone-800"
               clip-path="url(#upper-half)"/>
 
-        <!-- Gem Shape - Lower Half (white) -->
+        <!-- Gem Shape - Lower Half (body background) -->
         <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"
-              class="gem-lower"
+              class="fill-white dark:fill-stone-900"
               clip-path="url(#lower-half)"/>
       </svg>
 
