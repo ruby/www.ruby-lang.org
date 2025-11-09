@@ -63,7 +63,7 @@ sidebar:
       url: /ru/community/user-groups/
       description: Познакомьтесь с рубистами рядом с вами.
     weblogs:
-      text: Блоги
+      text: Блоги и новостные рассылки
       url: /ru/community/weblogs/
       description: Читайте о том, что происходит в сообществе Ruby прямо
         сейчас.
