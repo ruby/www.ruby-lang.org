@@ -1341,6 +1341,7 @@ body:is(.dark *){
 .multi-page{
   margin-bottom: 3rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
 }

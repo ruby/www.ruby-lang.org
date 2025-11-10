@@ -5,7 +5,7 @@
 
 @layer components {
   .multi-page {
-    @apply flex items-center gap-2 mb-12;
+    @apply flex flex-wrap items-center gap-2 mb-12;
   }
 
   .multi-page span.separator {
