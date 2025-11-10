@@ -1,0 +1,32 @@
+/**
+ * Multi-page pagination component
+ * Used in: quickstart/, faq/
+ */
+
+@layer components {
+  .multi-page {
+    @apply flex items-center gap-2 mb-12;
+  }
+
+  .multi-page span.separator {
+    @apply hidden;
+  }
+
+  .multi-page a,
+  .multi-page strong {
+    @apply px-3 py-1.5 rounded-lg text-sm text-center font-medium transition-colors;
+  }
+
+  .multi-page a {
+    @apply bg-stone-200 text-stone-500 hover:bg-stone-300 hover:text-stone-900 no-underline;
+    @apply dark:bg-stone-700 dark:text-stone-400 dark:hover:bg-stone-600 dark:hover:text-stone-200;
+  }
+
+  .multi-page strong {
+    @apply bg-ruby-600 text-white font-bold;
+  }
+
+  .multi-page + h1 {
+    @apply mt-5;
+  }
+}

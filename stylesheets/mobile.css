@@ -77,10 +77,7 @@
     margin: 24px 0 0;
   }
 
-  div.multi-page a,
-  div.multi-page strong {
-    padding: 10px 17px;
-  }
+  /* Multi-page pagination styles moved to stylesheets/components/pagination.css */
 }
 
 @media screen and (max-width: 380px) {

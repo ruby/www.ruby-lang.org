@@ -122,25 +122,7 @@ iframe {
   margin: 12px 48px 12px 0;
 }
 
-div.multi-page { margin: 20px 0 0; }
-div.multi-page span.separator { display: none; }
-
-div.multi-page a,
-div.multi-page strong {
-  padding: 5px 12px;
-  display: inline-block;
-  border-radius: 3px;
-  text-align: center;
-  border: 1px solid #ebebe4;
-}
-
-div.multi-page strong {
-  background: #ebebe4;
-  color: #555;
-  border-color: #ddd;
-}
-
-div.multi-page + h1 { margin-top: 20px; }
+/* Multi-page pagination styles moved to stylesheets/components/pagination.css */
 
 hr.hidden-modern { display: none; }
 
