@@ -2,12 +2,15 @@
   {% comment %}
   If the page has a multi-page header, extract and display just the pagination div.
   This automatically shows pagination at the bottom without modifying the .md files.
+  Add 'pagination-footer' class to distinguish from header pagination for styling.
   {% endcomment %}
 
   {% assign header_parts = page.header | split: '</div>' %}
   {% for part in header_parts %}
     {% if part contains 'class="multi-page"' %}
-      {{ part }}</div>
+      <div class="pagination-footer">
+        {{ part }}</div>
+      </div>
       {% break %}
     {% endif %}
   {% endfor %}

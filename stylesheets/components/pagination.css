@@ -29,4 +29,9 @@
   .multi-page + h1 {
     @apply mt-5;
   }
+
+  /* Footer pagination gets extra top margin */
+  .pagination-footer {
+    @apply mt-12;
+  }
 }

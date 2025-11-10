@@ -1405,6 +1405,12 @@ body:is(.dark *){
   margin-top: 1.25rem;
 }
 
+/* Footer pagination gets extra top margin */
+
+.pagination-footer{
+  margin-top: 3rem;
+}
+
 .pointer-events-none{
   pointer-events: none;
 }
