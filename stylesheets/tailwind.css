@@ -4,6 +4,9 @@
 /* Custom fonts if needed */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+/* Import component styles */
+@import './components/pagination.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
