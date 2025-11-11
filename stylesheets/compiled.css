@@ -2604,6 +2604,13 @@ body:is(.dark *){
   ruby-talk: 5252;
 }
 
+/* Global image responsiveness */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .marker\:text-stone-400 *::marker{
   color: rgb(168 162 158 );
 }

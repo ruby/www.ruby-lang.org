@@ -29,15 +29,7 @@ p.warning {
 
 /* Layout  */
 
-#main-wrapper { padding: 0; }
-
-#main {
-  width: 100%;
-}
-
-#main img {
-  max-width: 100%;
-}
+/* Legacy #main-wrapper and #main styles removed - layouts now use Tailwind containers directly */
 
 #sidebar {
   border-bottom: 1px solid #ccc;

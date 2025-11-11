@@ -17,3 +17,9 @@
     @apply dark:bg-stone-900 dark:text-stone-50;
   }
 }
+
+/* Global image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+}
