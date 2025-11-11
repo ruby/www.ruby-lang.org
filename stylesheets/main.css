@@ -27,19 +27,6 @@ p.warning {
   color: #CC342D;
 }
 
-/* Layout  */
-
-/* Legacy #sidebar and #home-page-layout styles removed - now using Tailwind-based layouts */
-
-/* Multi-page pagination styles moved to stylesheets/components/pagination.css */
-
-/* Search box - Removed: Old header search functionality */
-
-.release-list th,
-.release-list td {
-  padding: 2px 1em 2px 0px;
-}
-
 .buttons .button {
   -webkit-appearance: none;
   display: inline-block;

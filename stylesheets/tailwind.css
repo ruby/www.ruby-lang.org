@@ -16,10 +16,17 @@
     @apply bg-white text-stone-900 text-base leading-5 font-default;
     @apply dark:bg-stone-900 dark:text-stone-50;
   }
+
+  /* Global image responsiveness */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-/* Global image responsiveness */
-img {
-  max-width: 100%;
-  height: auto;
+@layer components {
+  .release-list th,
+  .release-list td {
+    padding: 2px 1em 2px 0;
+  }
 }
