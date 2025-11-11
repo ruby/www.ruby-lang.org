@@ -63,33 +63,3 @@ layout: default
     </div>
   </div>
 </div>
-
-<!-- Legacy sidebar for compatibility -->
-<div id="sidebar-wrapper" class="hidden">
-  <div id="sidebar">
-    {% if site.data.locales[page.lang].news %}
-      {% assign news = site.data.locales[page.lang].news %}
-    {% else %}
-      {% assign news = site.data.locales['en'].news %}
-    {% endif %}
-
-    <div class="navigation">
-      <h3><strong>{{ news.recent_news }}</strong></h3>
-
-      <ul class="menu">
-        {% for post in site.categories[page.lang] limit:5 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    {% if site.data.locales[page.lang].sidebar %}
-      {% assign sidebar = site.data.locales[page.lang].sidebar %}
-    {% else %}
-      {% assign sidebar = site.data.locales['en'].sidebar %}
-    {% endif %}
-
-    <h3>{{ sidebar.syndicate.text }}</h3>
-    <p><a href="{{ sidebar.syndicate.recent_news.url }}">{{ sidebar.syndicate.recent_news.text }}</a></p>
-  </div>
-</div>
