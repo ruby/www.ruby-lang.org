@@ -133,6 +133,953 @@
  * Used in: quickstart/, faq/
  */
 
+/* TOC Target highlight */
+
+:target {
+  background: #ffc;
+}
+
+:target:is(.dark *) {
+  background: #854d0e;
+}
+
+/* Table of Contents hover styles */
+
+.toc-content a:hover {
+  color: #e62923;
+  /* ruby-600 for light mode */
+}
+
+.dark .toc-content a:hover {
+  color: #f07f7b;
+  /* ruby-400 for dark mode */
+}
+
+/* Active link highlight */
+
+.toc-content a.toc-active {
+  color: #e62923;
+  /* ruby-600 for light mode */
+  font-weight: 700;
+}
+
+.dark .toc-content a.toc-active {
+  color: #eb544f;
+  /* ruby-500 for dark mode */
+}
+
+/*
+ * GitHub style for Pygments syntax highlighter, for use with Jekyll
+ * Courtesy of GitHub.com
+ */
+
+.highlight .c {
+  color: #999988;
+  font-style: italic;
+}
+
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+.highlight .k {
+  font-weight: bold;
+}
+
+.highlight .o {
+  font-weight: bold;
+}
+
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.highlight .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+
+.highlight .gd .x {
+  color: #000000;
+  background-color: #ffaaaa;
+}
+
+.highlight .ge {
+  font-style: italic;
+}
+
+.highlight .gr {
+  color: #aa0000;
+}
+
+.highlight .gh {
+  color: #999999;
+}
+
+.highlight .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+
+.highlight .gi .x {
+  color: #000000;
+  background-color: #aaffaa;
+}
+
+.highlight .go {
+  color: #888888;
+}
+
+.highlight .gp {
+  color: #555555;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+.highlight .gu {
+  color: #800080;
+  font-weight: bold;
+}
+
+.highlight .gt {
+  color: #aa0000;
+}
+
+.highlight .kc {
+  font-weight: bold;
+}
+
+.highlight .kd {
+  font-weight: bold;
+}
+
+.highlight .kn {
+  font-weight: bold;
+}
+
+.highlight .kp {
+  font-weight: bold;
+}
+
+.highlight .kr {
+  font-weight: bold;
+}
+
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+
+.highlight .m {
+  color: #009999;
+}
+
+.highlight .s {
+  color: #dd1144;
+}
+
+.highlight .n {
+  color: #333333;
+}
+
+.highlight .na {
+  color: teal;
+}
+
+.highlight .nb {
+  color: #0086b3;
+}
+
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+
+.highlight .no {
+  color: teal;
+}
+
+.highlight .ni {
+  color: purple;
+}
+
+.highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+
+.highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+
+.highlight .nn {
+  color: #555555;
+}
+
+.highlight .nt {
+  color: navy;
+}
+
+.highlight .nv {
+  color: teal;
+}
+
+.highlight .ow {
+  font-weight: bold;
+}
+
+.highlight .w {
+  color: #bbbbbb;
+}
+
+.highlight .mf {
+  color: #009999;
+}
+
+.highlight .mh {
+  color: #009999;
+}
+
+.highlight .mi {
+  color: #009999;
+}
+
+.highlight .mo {
+  color: #009999;
+}
+
+.highlight .sb {
+  color: #dd1144;
+}
+
+.highlight .sc {
+  color: #dd1144;
+}
+
+.highlight .sd {
+  color: #dd1144;
+}
+
+.highlight .s2 {
+  color: #dd1144;
+}
+
+.highlight .se {
+  color: #dd1144;
+}
+
+.highlight .sh {
+  color: #dd1144;
+}
+
+.highlight .si {
+  color: #dd1144;
+}
+
+.highlight .sx {
+  color: #dd1144;
+}
+
+.highlight .sr {
+  color: #009926;
+}
+
+.highlight .s1 {
+  color: #dd1144;
+}
+
+.highlight .ss {
+  color: #990073;
+}
+
+.highlight .bp {
+  color: #999999;
+}
+
+.highlight .vc {
+  color: teal;
+}
+
+.highlight .vg {
+  color: teal;
+}
+
+.highlight .vi {
+  color: teal;
+}
+
+.highlight .il {
+  color: #009999;
+}
+
+.highlight .gc {
+  color: #999;
+  background-color: #EAF2F5;
+}
+
+/* Dark mode syntax highlighting */
+
+.dark .highlight .c {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.dark .highlight .err {
+  color: #f85149;
+  background-color: transparent;
+}
+
+.dark .highlight .k {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .o {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .cm {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.dark .highlight .cp {
+  color: #8b949e;
+  font-weight: bold;
+}
+
+.dark .highlight .c1 {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.dark .highlight .cs {
+  color: #8b949e;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dark .highlight .gd {
+  color: #ffa198;
+  background-color: #490202;
+}
+
+.dark .highlight .gd .x {
+  color: #ffa198;
+  background-color: #67060c;
+}
+
+.dark .highlight .ge {
+  font-style: italic;
+}
+
+.dark .highlight .gr {
+  color: #f85149;
+}
+
+.dark .highlight .gh {
+  color: #8b949e;
+}
+
+.dark .highlight .gi {
+  color: #56d364;
+  background-color: #0f5323;
+}
+
+.dark .highlight .gi .x {
+  color: #56d364;
+  background-color: #0f5323;
+}
+
+.dark .highlight .go {
+  color: #8b949e;
+}
+
+.dark .highlight .gp {
+  color: #8b949e;
+}
+
+.dark .highlight .gs {
+  font-weight: bold;
+}
+
+.dark .highlight .gu {
+  color: #d2a8ff;
+  font-weight: bold;
+}
+
+.dark .highlight .gt {
+  color: #f85149;
+}
+
+.dark .highlight .kc {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .kd {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .kn {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .kp {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .kr {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .kt {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .m {
+  color: #a5d6ff;
+}
+
+.dark .highlight .s {
+  color: #a5d6ff;
+}
+
+.dark .highlight .n {
+  color: #c9d1d9;
+}
+
+.dark .highlight .na {
+  color: #79c0ff;
+}
+
+.dark .highlight .nb {
+  color: #79c0ff;
+}
+
+.dark .highlight .nc {
+  color: #f0883e;
+  font-weight: bold;
+}
+
+.dark .highlight .no {
+  color: #79c0ff;
+}
+
+.dark .highlight .ni {
+  color: #d2a8ff;
+}
+
+.dark .highlight .ne {
+  color: #f0883e;
+  font-weight: bold;
+}
+
+.dark .highlight .nf {
+  color: #d2a8ff;
+  font-weight: bold;
+}
+
+.dark .highlight .nn {
+  color: #8b949e;
+}
+
+.dark .highlight .nt {
+  color: #7ee787;
+}
+
+.dark .highlight .nv {
+  color: #79c0ff;
+}
+
+.dark .highlight .ow {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.dark .highlight .w {
+  color: #6e7681;
+}
+
+.dark .highlight .mf {
+  color: #a5d6ff;
+}
+
+.dark .highlight .mh {
+  color: #a5d6ff;
+}
+
+.dark .highlight .mi {
+  color: #a5d6ff;
+}
+
+.dark .highlight .mo {
+  color: #a5d6ff;
+}
+
+.dark .highlight .sb {
+  color: #a5d6ff;
+}
+
+.dark .highlight .sc {
+  color: #a5d6ff;
+}
+
+.dark .highlight .sd {
+  color: #a5d6ff;
+}
+
+.dark .highlight .s2 {
+  color: #a5d6ff;
+}
+
+.dark .highlight .se {
+  color: #a5d6ff;
+}
+
+.dark .highlight .sh {
+  color: #a5d6ff;
+}
+
+.dark .highlight .si {
+  color: #a5d6ff;
+}
+
+.dark .highlight .sx {
+  color: #a5d6ff;
+}
+
+.dark .highlight .sr {
+  color: #7ee787;
+}
+
+.dark .highlight .s1 {
+  color: #a5d6ff;
+}
+
+.dark .highlight .ss {
+  color: #a5d6ff;
+}
+
+.dark .highlight .bp {
+  color: #79c0ff;
+}
+
+.dark .highlight .vc {
+  color: #79c0ff;
+}
+
+.dark .highlight .vg {
+  color: #79c0ff;
+}
+
+.dark .highlight .vi {
+  color: #79c0ff;
+}
+
+.dark .highlight .il {
+  color: #a5d6ff;
+}
+
+.dark .highlight .gc {
+  color: #8b949e;
+  background-color: #1c2128;
+}
+
+/* Material Symbols Rounded */
+
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 20;
+}
+
+/* Dropdown icon */
+
+.icon-dropdown::before {
+  content: 'keyboard_arrow_down';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 3px;
+  color: var(--color-icon-default);
+  /* Default icon color */
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 20;
+}
+
+/* Hover state via group */
+
+.group:hover .icon-dropdown::before {
+  color: var(--color-text-hovered);
+}
+
+/* External link icon */
+
+.icon-external::before {
+  content: 'open_in_new';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  margin-left: 4px;
+  color: var(--color-icon-default);
+  /* Default icon color */
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 14;
+}
+
+/* Hover state via group */
+
+.group:hover .icon-external::before {
+  color: var(--color-text-hovered);
+}
+
+/* Allow parent text-white to override icon color */
+
+.text-white .icon-external::before {
+  color: inherit;
+}
+
+/* Link color inheritance for external icons */
+
+a .icon-external::before {
+  color: inherit;
+  margin-left: 0;
+}
+
+/* Check icon */
+
+.icon-check::before {
+  content: 'check';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20;
+}
+
+/* Menu icon */
+
+.icon-menu::before {
+  content: 'menu';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Lists icon for TOC */
+
+.icon-lists::before {
+  content: 'lists';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  color: var(--color-icon-default);
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Calendar icon for News sidebar */
+
+.icon-calendar::before {
+  content: 'calendar_today';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  color: var(--color-icon-default);
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* RSS Feed icon for News sidebar */
+
+.icon-rss-feed::before {
+  content: 'rss_feed';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  color: var(--color-icon-default);
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Double arrow right icon for "Continue reading" link */
+
+.icon-double-arrow-right::before {
+  content: 'keyboard_double_arrow_right';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 20;
+}
+
+/* Arrow forward icon */
+
+.icon-arrow-forward::before {
+  content: 'arrow_forward';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Chevron right icon */
+
+.icon-chevron-right::before {
+  content: 'chevron_right';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: inherit;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  color: inherit;
+  /* Inherit color from parent */
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Chevron right icon - adjust position for large text */
+
+.icon-chevron-right.text-4xl::before {
+  top: 6px;
+}
+
+/* Theme toggle icons */
+
+.icon-theme-auto::before {
+  content: 'brightness_6';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.icon-theme-dark::before {
+  content: 'dark_mode';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.icon-theme-light::before {
+  content: 'light_mode';
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: relative;
+  top: 2px;
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1437,6 +2384,10 @@ iframe {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.multi-page strong .icon-external::before {
+  color: inherit;
 }
 
 .multi-page + h1{

@@ -6,6 +6,9 @@
 
 /* Import component styles */
 @import './components/pagination.css';
+@import './components/toc.css';
+@import './components/syntax-highlighting.css';
+@import './components/icons.css';
 
 @tailwind base;
 @tailwind components;
