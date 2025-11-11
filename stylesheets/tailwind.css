@@ -28,6 +28,10 @@
     height: auto;
   }
 
+  iframe {
+    border: none;
+  }
+
   /* Footer credits link styles */
   .footer-credits a {
     @apply underline transition-colors duration-200;
