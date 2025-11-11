@@ -1,5 +1,5 @@
-/* Import semantic color CSS variables */
-@import './semantic-colors.css';
+/* Import CSS variables */
+@import './variables.css';
 
 /* Custom fonts if needed */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');

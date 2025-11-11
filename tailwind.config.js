@@ -299,7 +299,7 @@ module.exports = {
               fontWeight: 'bold',
               fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
               '.dark &': {
-                backgroundColor: theme('colors.stone.700'),  // stone-800 (dark mode)
+                backgroundColor: theme('colors.stone.700'),  // stone-700 (dark mode)
                 color: theme('colors.stone.50'),             // stone-50 (dark mode)
               },
             },
