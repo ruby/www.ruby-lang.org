@@ -1,3 +1,12 @@
+/* TOC Target highlight */
+:target {
+  background: #ffc;
+}
+
+:target:is(.dark *) {
+  background: #854d0e;
+}
+
 /* Table of Contents hover styles */
 .toc-content a:hover {
   color: #e62923; /* ruby-600 for light mode */

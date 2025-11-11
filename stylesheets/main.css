@@ -1,22 +1,6 @@
-/* General */
-
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
- }
-
 /* Fixed header scroll offset */
 html {
   scroll-padding-top: 6rem; /* 96px - header height (80px) + extra spacing */
-}
-
-/* TOC Target highlight */
-
-:target { background: #ffc; }
-
-:target:is(.dark *) {
-  background: #854d0e;
 }
 
 iframe {
