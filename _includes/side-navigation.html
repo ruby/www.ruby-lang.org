@@ -37,8 +37,8 @@
     {% endfor %}
   </nav>
 
-  {% comment %}RSS link for news section{% endcomment %}
-  {% if nav_section == 'news' and syndicate and syndicate.recent_news %}
+  {% comment %}RSS link{% endcomment %}
+  {% if syndicate and syndicate.recent_news %}
   <div class="pt-6">
     <p class="pl-1">
       <a href="{{ syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
