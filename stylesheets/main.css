@@ -29,53 +29,7 @@ p.warning {
 
 /* Layout  */
 
-/* Legacy #sidebar styles removed - now using side-navigation.html with Tailwind */
-
-/* Home page */
-
-#home-page-layout #intro-container {
-  background: #EBEBE4 url(/images/ruby_pattern.png) 50% 50%;
-  border-bottom: 1px solid #ccc;
-}
-
-#home-page-layout #intro-wrapper {
-  display: table;
-  margin: 0 0 20px 0;
-}
-
-#home-page-layout #intro {
-  display: table-cell;
-  padding: 24px 48px 24px 48px;
-  text-shadow: 0 1px 0 #fff;
-  vertical-align: middle;
-}
-
-#home-page-layout #intro h1 {
-  font-size: 30px;
-  margin: 12px 0;
-}
-
-#home-page-layout #intro p {
-  margin-top: 12px;
-  font-size: 19px;
-  line-height: 25px;
-}
-
-#home-page-layout #intro a { color: #CC342D; }
-
-#home-page-layout #code {
-  width: 375px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-#home-page-layout #code pre {
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: none;
-  border: 1px solid #999;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-  margin: 12px 48px 12px 0;
-}
+/* Legacy #sidebar and #home-page-layout styles removed - now using Tailwind-based layouts */
 
 /* Multi-page pagination styles moved to stylesheets/components/pagination.css */
 
