@@ -11,20 +11,20 @@ html {
   scroll-padding-top: 6rem; /* 96px - header height (80px) + extra spacing */
 }
 
-p.warning {
-  color: #CC342D;
-}
+/* TOC Target highlight */
 
 :target { background: #ffc; }
 
-/* Dark mode target highlight */
 :target:is(.dark *) {
-  background: #854d0e; /* amber-800 for better contrast with white text */
+  background: #854d0e;
 }
-
 
 iframe {
   border: none;
+}
+
+p.warning {
+  color: #CC342D;
 }
 
 /* Layout  */
