@@ -130,7 +130,12 @@
       const line = document.querySelector(`rect[fill="${todayColor}"]`);
       line.parentElement.appendChild(line);
       active.forEach(a=>{
-        $(`text:contains("${a}")`).css({"font-weight": 900});
+        const textElements = document.querySelectorAll('text');
+        textElements.forEach(text => {
+          if (text.textContent.includes(a)) {
+            text.style.fontWeight = '900';
+          }
+        });
       });
     });
     chart.draw(dataTable, options);
