@@ -719,6 +719,10 @@ img {
   height: auto;
 }
 
+iframe {
+  border: none;
+}
+
 /* Footer credits link styles */
 
 .footer-credits a{
@@ -2465,6 +2469,10 @@ img {
 
 .text-gold-600{
   color: var(--color-gold-600);
+}
+
+.text-ruby-500{
+  color: var(--color-ruby-500);
 }
 
 .text-ruby-600{
