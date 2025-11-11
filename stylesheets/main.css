@@ -33,8 +33,6 @@ p.warning {
 
 /* Multi-page pagination styles moved to stylesheets/components/pagination.css */
 
-hr.hidden-modern { display: none; }
-
 /* Search box - Removed: Old header search functionality */
 
 .release-list th,
