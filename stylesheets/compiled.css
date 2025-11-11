@@ -687,6 +687,13 @@ video {
   display: none;
 }
 
+/* Fixed header scroll offset */
+
+html {
+  scroll-padding-top: 6rem;
+  /* 96px - header height (80px) + extra spacing */
+}
+
 body{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
@@ -703,6 +710,32 @@ body:is(.dark *){
   background-color: rgb(28 25 23 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
+}
+
+/* Global image responsiveness */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer credits link styles */
+
+.footer-credits a{
+  text-decoration-line: underline;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.footer-credits a:hover{
+  --tw-text-opacity: 1;
+  color: rgb(68 64 60 / var(--tw-text-opacity, 1));
+}
+
+.footer-credits a:hover:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity, 1));
 }
 
 .container{
@@ -1410,6 +1443,11 @@ body:is(.dark *){
 
 .pagination-footer{
   margin-top: 3rem;
+}
+
+.release-list th,
+  .release-list td {
+  padding: 2px 1em 2px 0;
 }
 
 .pointer-events-none{
@@ -2602,13 +2640,6 @@ body:is(.dark *){
 
 .\[ruby-talk\:5252\]{
   ruby-talk: 5252;
-}
-
-/* Global image responsiveness */
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .marker\:text-stone-400 *::marker{

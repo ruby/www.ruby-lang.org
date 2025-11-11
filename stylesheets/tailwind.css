@@ -12,6 +12,11 @@
 @tailwind utilities;
 
 @layer base {
+  /* Fixed header scroll offset */
+  html {
+    scroll-padding-top: 6rem; /* 96px - header height (80px) + extra spacing */
+  }
+
   body {
     @apply bg-white text-stone-900 text-base leading-5 font-default;
     @apply dark:bg-stone-900 dark:text-stone-50;
