@@ -26,13 +26,3 @@ iframe {
 p.warning {
   color: #CC342D;
 }
-
-/* Footer credits link styles */
-.footer-credits a {
-  text-decoration: underline;
-  transition: color 0.2s;
-}
-
-.footer-credits a:hover {
-  color: var(--color-text-hovered);
-}

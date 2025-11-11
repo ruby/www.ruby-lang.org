@@ -22,6 +22,15 @@
     max-width: 100%;
     height: auto;
   }
+
+  /* Footer credits link styles */
+  .footer-credits a {
+    @apply underline transition-colors duration-200;
+  }
+
+  .footer-credits a:hover {
+    @apply text-stone-700 dark:text-stone-300;
+  }
 }
 
 @layer components {
