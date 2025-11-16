@@ -26,6 +26,9 @@ module.exports = {
     'text-stone-700',
     'dark:text-stone-300',
     'transition-colors',
+    // SVG fill for custom stone-750 color
+    'fill-stone-750',
+    'dark:fill-stone-750',
   ],
   theme: {
     container: {
@@ -91,6 +94,10 @@ module.exports = {
         'scroll-left': 'scroll-left 40s linear infinite',
       },
       colors: {
+        stone: {
+          ...colors.stone,
+          750: '#36322f', // Custom intermediate shade between stone-700 and stone-800
+        },
         // Semantic colors using CSS variables
         'semantic': {
           // Backgrounds

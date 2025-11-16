@@ -3102,6 +3102,10 @@ iframe {
   fill: #f5f5f4;
 }
 
+.fill-stone-750{
+  fill: #36322f;
+}
+
 .fill-white{
   fill: #fff;
 }
@@ -3721,6 +3725,11 @@ iframe {
   background-color: rgb(68 64 60 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:bg-stone-750:is(.dark *){
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 50 47 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:bg-stone-800:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(41 37 36 / var(--tw-bg-opacity, 1));
@@ -3734,6 +3743,10 @@ iframe {
 .dark\:bg-white:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.dark\:fill-stone-750:is(.dark *){
+  fill: #36322f;
 }
 
 .dark\:fill-stone-800:is(.dark *){
