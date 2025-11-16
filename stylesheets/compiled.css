@@ -3749,10 +3749,6 @@ iframe {
   fill: #322e2b;
 }
 
-.dark\:fill-stone-800:is(.dark *){
-  fill: #292524;
-}
-
 .dark\:fill-stone-900:is(.dark *){
   fill: #1c1917;
 }
