@@ -13,8 +13,8 @@
   </div>
 
   <!-- Ruby Gem Shape with Content -->
-  <div class="relative z-10 flex items-center justify-center pt-16 md:pt-20 lg:pt-28 xl:pt-[6.25rem] pb-0 px-4">
-    <div class="relative w-full max-w-xs md:max-w-md lg:max-w-lg">
+  <div class="relative z-10 flex items-center justify-center pt-20 md:pt-[6.25rem] lg:pt-[7.5rem] pb-0 px-4">
+    <div class="relative w-full max-w-xs md:max-w-[27.5rem] lg:max-w-lg">
       <!-- Ruby Gem SVG Background -->
       <div class="absolute inset-0 flex items-center justify-center opacity-0 animate-hero-gem-in">
         <img src="/images/home/hero/bg-ruby.svg"
@@ -27,21 +27,21 @@
         <p class="text-xs md:text-base lg:text-lg mb-0 text-gold-500 tracking-[0.1em]">
           <span class="font-light">{{ home.hero.since }}</span> <span class="font-semibold">{{ home.hero.year }}</span>
         </p>
-        <div class="text-7xl md:text-7xl lg:text-[7rem] font-extrabold mb-3 md:mb-4">{{ home.hero.title }}</div>
-        <p class="text-xs md:text-base lg:text-lg mb-4 md:mb-6 text-gold-500 tracking-[0.1em]">{{ home.hero.tagline }}</p>
+        <div class="text-7xl md:text-8xl lg:text-[7rem] font-extrabold mb-3 md:mb-4">{{ home.hero.title }}</div>
+        <p class="text-xs md:text-sm lg:text-lg mb-4 text-gold-500 tracking-[0.1em]">{{ home.hero.tagline }}</p>
 
-        <div class="mb-4 md:mb-5">
-          <p class="text-xs md:text-base"><span class="font-normal">{{ home.hero.latest_version_label }}</span> <span class="font-semibold">{{ site.data.latest_version.version }}</span></p>
+        <div class="mb-4 xl:mb-6">
+          <p class="text-xs md:text-sm"><span class="font-normal">{{ home.hero.latest_version_label }}</span> <span class="font-semibold">{{ site.data.latest_version.version }}</span></p>
         </div>
 
-        <div class="flex flex-col items-center gap-0 md:gap-2">
+        <div class="flex flex-col items-center gap-0 xl:gap-2">
           <a href="{{ home.hero.download_url }}"
-             class="inline-block bg-white text-ruby-600 text-xs md:text-base px-6 md:px-12 py-2 md:py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all">
+             class="inline-block bg-white text-ruby-600 text-xs md:text-base px-6 md:px-10 xl:px-12 py-2 md:py-2.5 xl:py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all">
             {{ home.hero.download_button }}
           </a>
           <span class="text-white text-[10px] md:text-sm">{{ home.hero.or }}</span>
           <a href="{{ home.hero.learn_more_url }}"
-             class="text-white text-[10px] md:text-base font-semibold underline hover:text-gold-500">
+             class="text-white text-[10px] md:text-sm font-semibold underline hover:text-gold-500">
             {{ home.hero.learn_more }}
           </a>
         </div>

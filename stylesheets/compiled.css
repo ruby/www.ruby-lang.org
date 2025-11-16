@@ -3884,14 +3884,6 @@ iframe {
     margin-bottom: 1rem;
   }
 
-  .md\:mb-5{
-    margin-bottom: 1.25rem;
-  }
-
-  .md\:mb-6{
-    margin-bottom: 1.5rem;
-  }
-
   .md\:ml-14{
     margin-left: 3.5rem;
   }
@@ -3952,8 +3944,8 @@ iframe {
     min-width: 1400px;
   }
 
-  .md\:max-w-md{
-    max-width: 28rem;
+  .md\:max-w-\[27\.5rem\]{
+    max-width: 27.5rem;
   }
 
   .md\:flex-row{
@@ -3974,10 +3966,6 @@ iframe {
 
   .md\:gap-12{
     gap: 3rem;
-  }
-
-  .md\:gap-2{
-    gap: 0.5rem;
   }
 
   .md\:gap-4{
@@ -4017,9 +4005,9 @@ iframe {
     padding: 2rem;
   }
 
-  .md\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:px-4{
@@ -4037,14 +4025,14 @@ iframe {
     padding-right: 2rem;
   }
 
+  .md\:py-2\.5{
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
   .md\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .md\:py-3{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
   }
 
   .md\:py-8{
@@ -4076,8 +4064,12 @@ iframe {
     padding-top: 0.5rem;
   }
 
-  .md\:pt-20{
-    padding-top: 5rem;
+  .md\:pt-\[6\.5rem\]{
+    padding-top: 6.5rem;
+  }
+
+  .md\:pt-\[6\.25rem\]{
+    padding-top: 6.25rem;
   }
 
   .md\:text-center{
@@ -4091,6 +4083,11 @@ iframe {
 
   .md\:text-7xl{
     font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-8xl{
+    font-size: 6rem;
     line-height: 1;
   }
 
@@ -4329,8 +4326,8 @@ iframe {
     padding-top: 6rem;
   }
 
-  .lg\:pt-28{
-    padding-top: 7rem;
+  .lg\:pt-\[7\.5rem\]{
+    padding-top: 7.5rem;
   }
 
   .lg\:text-left{
@@ -4354,6 +4351,10 @@ iframe {
 @media (min-width: 1280px){
   .xl\:mb-0{
     margin-bottom: 0px;
+  }
+
+  .xl\:mb-6{
+    margin-bottom: 1.5rem;
   }
 
   .xl\:block{
@@ -4396,8 +4397,17 @@ iframe {
     gap: 0px;
   }
 
+  .xl\:gap-2{
+    gap: 0.5rem;
+  }
+
   .xl\:gap-4{
     gap: 1rem;
+  }
+
+  .xl\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .xl\:px-5{
@@ -4405,12 +4415,13 @@ iframe {
     padding-right: 1.25rem;
   }
 
-  .xl\:pt-2{
-    padding-top: 0.5rem;
+  .xl\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
-  .xl\:pt-\[6\.25rem\]{
-    padding-top: 6.25rem;
+  .xl\:pt-2{
+    padding-top: 0.5rem;
   }
 
   .xl\:text-center{
