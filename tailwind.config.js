@@ -26,9 +26,9 @@ module.exports = {
     'text-stone-700',
     'dark:text-stone-300',
     'transition-colors',
-    // SVG fill for custom stone-750 color
-    'fill-stone-750',
-    'dark:fill-stone-750',
+    // SVG fill for custom stone-770 color
+    'fill-stone-770',
+    'dark:fill-stone-770',
   ],
   theme: {
     container: {
@@ -96,7 +96,7 @@ module.exports = {
       colors: {
         stone: {
           ...colors.stone,
-          750: '#36322f', // Custom intermediate shade between stone-700 and stone-800
+          770: '#322e2b', // Custom intermediate shade between stone-700 and stone-800
         },
         // Semantic colors using CSS variables
         'semantic': {
