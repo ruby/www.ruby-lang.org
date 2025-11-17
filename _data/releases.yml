@@ -19,6 +19,37 @@
 # In order to get the release listed on the downloads page,
 # you also need to add an entry to `_data/downloads.yml'.
 
+# 4.0 series
+
+- version: 4.0.0-preview2
+  date: 2025-11-17
+  post: /en/news/2025/11/17/ruby-4-0-0-preview2-released/
+  tag: v4_0_0_preview2
+  stats:
+    files_changed: 3607
+    insertions: 197451
+    deletions: 285607
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.0-preview2.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.0-preview2.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.0-preview2.tar.xz
+  size:
+    gz:  23444451
+    zip: 28933540
+    xz:  17554228
+  sha1:
+    gz:  132e450bbee3f61ed0b463ed1e2bd3a3a324339c
+    zip: 48a235cfbfd4252dce81da870c792e32309e62b9
+    xz:  f8e8b98ea85ac82610ab601a21dc9a90c5c56a97
+  sha256:
+    gz:  0a3330dae710302e11f7f0323e83219ab3c6517984691a312c662f329c5120e1
+    zip: f5c68ee44dfcb76b61c07c437fa945814dfc516570b1c921506ac886960160ca
+    xz:  0b92b15466d77a9d7e59e4a75f050d42cd50fe96c951d2b3b9f8029394cd9a43
+  sha512:
+    gz:  b5e681cc84be59148485b9a2212dcf54d61cfee27431ceddb49bedc8baa913ec8b36da43242cb4f1791b25e4bfc1dcf72b5527288a0656f2933da898d0e0b40f
+    zip: 508c685e46a641c74e2968daf650559503ce2bcaac3403654713adb2345c3ede2bace929294a1367afecac5edd6b2c42fa833f5313456f78c79151d310c860cf
+    xz:  7afaa8d8e832ef0ded28f1caf874da69f16105e1b3aad5947c6911364159b4c6ebd3d7ea5d7d86708e9f2f06a047921b8302ca6e75ec429a3da846845f896976
+
 # 3.5 series
 
 - version: 3.5.0-preview1
