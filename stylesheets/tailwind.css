@@ -9,6 +9,7 @@
 @import './components/toc.css';
 @import './components/syntax-highlighting.css';
 @import './components/icons.css';
+@import './components/hero-illustrations.css';
 
 @tailwind base;
 @tailwind components;

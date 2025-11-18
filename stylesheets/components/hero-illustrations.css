@@ -1,0 +1,208 @@
+/* Hero Section - Main Illustrations Positioning */
+
+/* Top Left */
+.hero-illust-robot {
+  top: 15%;
+  left: 8%;
+  transform: rotate(-5deg);
+}
+
+.hero-illust-dread {
+  top: 12%;
+  left: 18%;
+  transform: rotate(8deg);
+}
+
+.hero-illust-spitz {
+  top: 8%;
+  left: 28%;
+  transform: rotate(-3deg);
+}
+
+/* Top Center */
+.hero-illust-cat {
+  top: 5%;
+  left: 38%;
+  transform: rotate(5deg);
+}
+
+.hero-illust-gem01 {
+  top: 4%;
+  left: 45%;
+  transform: rotate(15deg);
+}
+
+.hero-illust-beer {
+  top: 6%;
+  left: 52%;
+  transform: rotate(-8deg);
+}
+
+.hero-illust-mary {
+  top: 10%;
+  left: 60%;
+  transform: rotate(3deg);
+}
+
+/* Top Right */
+.hero-illust-beanie {
+  top: 12%;
+  left: 70%;
+  transform: rotate(-6deg);
+}
+
+.hero-illust-matz {
+  top: 8%;
+  left: 82%;
+  transform: rotate(4deg);
+}
+
+.hero-illust-gem02 {
+  top: 15%;
+  left: 88%;
+  transform: rotate(-10deg);
+}
+
+/* Middle Left */
+.hero-illust-boxes {
+  top: 35%;
+  left: 12%;
+  transform: rotate(2deg);
+}
+
+.hero-illust-gem03 {
+  top: 32%;
+  left: 22%;
+  transform: rotate(12deg);
+}
+
+.hero-illust-keyboard {
+  top: 45%;
+  left: 5%;
+  transform: rotate(-4deg);
+}
+
+.hero-illust-turban {
+  top: 42%;
+  left: 18%;
+  transform: rotate(6deg);
+}
+
+/* Middle Right */
+.hero-illust-gem04 {
+  top: 28%;
+  left: 72%;
+  transform: rotate(-7deg);
+}
+
+.hero-illust-present {
+  top: 35%;
+  left: 78%;
+  transform: rotate(5deg);
+}
+
+.hero-illust-dachs {
+  top: 42%;
+  left: 85%;
+  transform: rotate(-3deg);
+}
+
+.hero-illust-game {
+  top: 48%;
+  left: 75%;
+  transform: rotate(8deg);
+}
+
+.hero-illust-yukiko {
+  top: 52%;
+  left: 87%;
+  transform: rotate(-5deg);
+}
+
+/* Bottom Left */
+.hero-illust-fire {
+  top: 58%;
+  left: 8%;
+  transform: rotate(3deg);
+}
+
+.hero-illust-sheep {
+  top: 28%;
+  left: 3%;
+  transform: rotate(-8deg);
+}
+
+.hero-illust-pen {
+  top: 68%;
+  left: 15%;
+  transform: rotate(25deg);
+}
+
+.hero-illust-ink {
+  top: 72%;
+  left: 22%;
+  transform: rotate(-5deg);
+}
+
+/* Bottom Center */
+.hero-illust-boy {
+  top: 62%;
+  left: 32%;
+  transform: rotate(4deg);
+}
+
+.hero-illust-coffee {
+  top: 70%;
+  left: 42%;
+  transform: rotate(-6deg);
+}
+
+.hero-illust-kevin {
+  top: 68%;
+  left: 52%;
+  transform: rotate(3deg);
+}
+
+/* Bottom Right */
+.hero-illust-note {
+  top: 66%;
+  left: 65%;
+  transform: rotate(-4deg);
+}
+
+.hero-illust-train {
+  top: 72%;
+  left: 75%;
+  transform: rotate(2deg);
+}
+
+/* Additional gems scattered */
+.hero-illust-gem05 {
+  top: 25%;
+  left: 85%;
+  transform: rotate(20deg);
+}
+
+.hero-illust-gem06 {
+  top: 55%;
+  left: 48%;
+  transform: rotate(-15deg);
+}
+
+.hero-illust-gem07 {
+  top: 38%;
+  left: 58%;
+  transform: rotate(10deg);
+}
+
+.hero-illust-gem08 {
+  top: 78%;
+  left: 8%;
+  transform: rotate(-12deg);
+}
+
+.hero-illust-daisy {
+  top: 62%;
+  left: 18%;
+  transform: rotate(7deg);
+}

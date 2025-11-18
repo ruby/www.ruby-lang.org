@@ -86,11 +86,40 @@ module.exports = {
             transform: 'translateX(calc(-50% - 1rem))',
           },
         },
+        'hero-sunburst-in': {
+          '0%': {
+            opacity: '0',
+            transform: 'translate(-50%, 0) scale(0.5)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translate(-50%, 0) scale(1)',
+          },
+        },
+        'hero-illust-sub-in': {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '1',
+          },
+        },
+        'hero-illust-main-in': {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '1',
+          },
+        },
       },
       animation: {
         'hero-gem-in': 'hero-gem-in 0.6s ease-out forwards',
         'hero-content-in': 'hero-content-in 0.6s ease-out 0.4s forwards',
         'hero-bg-in': 'hero-bg-in 0.7s ease-out 0.8s forwards',
+        'hero-sunburst-in': 'hero-sunburst-in 0.8s ease-out 0.6s forwards',
+        'hero-illust-sub-in': 'hero-illust-sub-in 0.6s ease-out 1.2s forwards',
+        'hero-illust-main-in': 'hero-illust-main-in 0.6s ease-out 1.4s forwards',
         'scroll-left': 'scroll-left 40s linear infinite',
       },
       colors: {
