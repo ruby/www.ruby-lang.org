@@ -8,7 +8,7 @@ lang: ja
 ---
 
 {% assign release = site.data.releases | where: "version", "4.0.0-preview2" | first %}
-Ruby {{ release.version }} が公開されました。Ruby 4.0では、Unicodeバージョンの15.1.0へのアップデートなど様々な改善が行われています。
+Ruby {{ release.version }} が公開されました。Ruby 4.0では、Unicodeバージョンの17.0.0へのアップデートなど様々な改善が行われています。
 
 
 
@@ -36,7 +36,7 @@ Ruby {{ release.version }} が公開されました。Ruby 4.0では、Unicode�
 
 * String
 
-    * Update Unicode to Version 15.1.0 and Emoji Version 15.1. [[Feature #19908]]
+    * Update Unicode to Version 17.0.0 and Emoji Version 17.0. [[Feature #19908]][[Feature #20724]][[Feature #21275]]
         (also applies to Regexp)
 
 

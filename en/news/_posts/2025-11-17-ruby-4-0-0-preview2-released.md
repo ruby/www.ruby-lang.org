@@ -8,7 +8,7 @@ lang: en
 ---
 
 {% assign release = site.data.releases | where: "version", "4.0.0-preview2" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 4.0 updates its Unicode version to 15.1.0, and so on.
+We are pleased to announce the release of Ruby {{ release.version }}. Ruby 4.0 updates its Unicode version to 17,0.0, and so on.
 
 ## Language changes
 
@@ -32,7 +32,7 @@ Note: We're only listing notable updates of Core class.
 
 * String
 
-    * Update Unicode to Version 15.1.0 and Emoji Version 15.1. [[Feature #19908]]
+    * Update Unicode to Version 17.0.0 and Emoji Version 17.0. [[Feature #19908]][[Feature #20724]][[Feature #21275]]
         (also applies to Regexp)
 
 
