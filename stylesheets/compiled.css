@@ -1144,7 +1144,7 @@ a .icon-external::before {
 
 .hero-illust-gem02 {
   top: 25%;
-  left: 30%;
+  left: 3%;
   transform: rotate(-10deg);
 }
 
@@ -1275,9 +1275,9 @@ a .icon-external::before {
 }
 
 .hero-illust-gem06 {
-  top: 55%;
-  left: 80%;
-  transform: rotate(-15deg);
+  top: 24%;
+  left: 72.2%;
+  transform: rotate(25deg);
 }
 
 .hero-illust-gem07 {
@@ -2980,8 +2980,8 @@ iframe {
   width: 51px;
 }
 
-.w-\[55px\]{
-  width: 55px;
+.w-\[53px\]{
+  width: 53px;
 }
 
 .w-\[56px\]{
@@ -3039,10 +3039,6 @@ iframe {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[53px\]{
-  width: 53px;
 }
 
 .min-w-0{
@@ -4282,6 +4278,10 @@ iframe {
     width: 60px;
   }
 
+  .md\:w-\[62px\]{
+    width: 62px;
+  }
+
   .md\:w-\[63px\]{
     width: 63px;
   }
@@ -4290,8 +4290,8 @@ iframe {
     width: 65px;
   }
 
-  .md\:w-\[70px\]{
-    width: 70px;
+  .md\:w-\[67px\]{
+    width: 67px;
   }
 
   .md\:w-\[74px\]{
@@ -4344,10 +4344,6 @@ iframe {
 
   .md\:w-\[98px\]{
     width: 98px;
-  }
-
-  .md\:w-\[67px\]{
-    width: 67px;
   }
 
   .md\:min-w-\[1400px\]{
@@ -4620,6 +4616,10 @@ iframe {
     width: 75px;
   }
 
+  .lg\:w-\[76px\]{
+    width: 76px;
+  }
+
   .lg\:w-\[78px\]{
     width: 78px;
   }
@@ -4632,8 +4632,8 @@ iframe {
     width: 80px;
   }
 
-  .lg\:w-\[85px\]{
-    width: 85px;
+  .lg\:w-\[81px\]{
+    width: 81px;
   }
 
   .lg\:w-\[88px\]{
@@ -4666,14 +4666,6 @@ iframe {
 
   .lg\:w-auto{
     width: auto;
-  }
-
-  .lg\:w-\[77px\]{
-    width: 77px;
-  }
-
-  .lg\:w-\[81px\]{
-    width: 81px;
   }
 
   .lg\:min-w-\[1728px\]{
