@@ -1298,6 +1298,12 @@ a .icon-external::before {
   transform: rotate(0deg);
 }
 
+.hero-illust-gem01-2 {
+  top: 60%;
+  left: 60.5%;
+  transform: rotate(21deg);
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
