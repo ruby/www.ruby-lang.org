@@ -1168,10 +1168,10 @@ a .icon-external::before {
   transform: rotate(-4deg);
 }
 
-.hero-illust-turban {
-  top: 42%;
-  left: 18%;
-  transform: rotate(6deg);
+.hero-illust-mustafa {
+  top: 75%;
+  left: 54%;
+  transform: rotate(12deg);
 }
 
 /* Middle Right */
@@ -2988,6 +2988,10 @@ iframe {
   width: 60px;
 }
 
+.w-\[64px\]{
+  width: 64px;
+}
+
 .w-\[65px\]{
   width: 65px;
 }
@@ -4298,6 +4302,10 @@ iframe {
     width: 80px;
   }
 
+  .md\:w-\[81px\]{
+    width: 81px;
+  }
+
   .md\:w-\[85px\]{
     width: 85px;
   }
@@ -4560,10 +4568,6 @@ iframe {
     width: 111px;
   }
 
-  .lg\:w-\[115px\]{
-    width: 115px;
-  }
-
   .lg\:w-\[125px\]{
     width: 125px;
   }
@@ -4614,6 +4618,10 @@ iframe {
 
   .lg\:w-\[95px\]{
     width: 95px;
+  }
+
+  .lg\:w-\[98px\]{
+    width: 98px;
   }
 
   .lg\:w-auto{
