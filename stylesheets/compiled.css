@@ -1234,10 +1234,10 @@ a .icon-external::before {
 
 /* Bottom Center */
 
-.hero-illust-boy {
-  top: 62%;
-  left: 32%;
-  transform: rotate(4deg);
+.hero-illust-max {
+  top: 29%;
+  left: 80.5%;
+  transform: rotate(20deg);
 }
 
 .hero-illust-coffee {
