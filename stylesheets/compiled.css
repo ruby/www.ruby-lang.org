@@ -1090,9 +1090,9 @@ a .icon-external::before {
   transform: rotate(-5deg);
 }
 
-.hero-illust-dread {
-  top: 12%;
-  left: 18%;
+.hero-illust-justin {
+  top: 18%;
+  left: 19.52%;
   transform: rotate(8deg);
 }
 
@@ -2992,6 +2992,10 @@ iframe {
   width: 70px;
 }
 
+.w-\[74px\]{
+  width: 74px;
+}
+
 .w-\[75px\]{
   width: 75px;
 }
@@ -4238,10 +4242,6 @@ iframe {
     width: 14rem;
   }
 
-  .md\:w-\[100px\]{
-    width: 100px;
-  }
-
   .md\:w-\[105px\]{
     width: 105px;
   }
@@ -4296,6 +4296,10 @@ iframe {
 
   .md\:w-\[90px\]{
     width: 90px;
+  }
+
+  .md\:w-\[92px\]{
+    width: 92px;
   }
 
   .md\:w-\[95px\]{
@@ -4544,12 +4548,12 @@ iframe {
     width: 110px;
   }
 
-  .lg\:w-\[115px\]{
-    width: 115px;
+  .lg\:w-\[111px\]{
+    width: 111px;
   }
 
-  .lg\:w-\[120px\]{
-    width: 120px;
+  .lg\:w-\[115px\]{
+    width: 115px;
   }
 
   .lg\:w-\[125px\]{
