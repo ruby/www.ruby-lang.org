@@ -1183,9 +1183,9 @@ a .icon-external::before {
 }
 
 .hero-illust-present {
-  top: 35%;
-  left: 78%;
-  transform: rotate(5deg);
+  top: 34.8%;
+  left: 67.3%;
+  transform: rotate(10deg);
 }
 
 .hero-illust-dachs {
@@ -1293,9 +1293,9 @@ a .icon-external::before {
 }
 
 .hero-illust-daisy {
-  top: 62%;
-  left: 18%;
-  transform: rotate(7deg);
+  top: 11.4%;
+  left: 72.6%;
+  transform: rotate(0deg);
 }
 
 *, ::before, ::after{
@@ -4300,6 +4300,10 @@ iframe {
 
   .md\:w-\[77px\]{
     width: 77px;
+  }
+
+  .md\:w-\[79px\]{
+    width: 79px;
   }
 
   .md\:w-\[80px\]{
