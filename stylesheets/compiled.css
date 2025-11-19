@@ -1151,8 +1151,8 @@ a .icon-external::before {
 /* Middle Left */
 
 .hero-illust-boxes {
-  top: 37.8%;
-  left: 11.7%;
+  top: 38.3%;
+  left: 11.5%;
   transform: rotate(-5deg);
 }
 
@@ -2940,8 +2940,8 @@ iframe {
   width: 1070px;
 }
 
-.w-\[132px\]{
-  width: 132px;
+.w-\[139px\]{
+  width: 139px;
 }
 
 .w-\[140px\]{
@@ -4262,8 +4262,8 @@ iframe {
     width: 1400px;
   }
 
-  .md\:w-\[159px\]{
-    width: 159px;
+  .md\:w-\[167px\]{
+    width: 167px;
   }
 
   .md\:w-\[250px\]{
@@ -4596,8 +4596,8 @@ iframe {
     width: 1728px;
   }
 
-  .lg\:w-\[185px\]{
-    width: 185px;
+  .lg\:w-\[194px\]{
+    width: 194px;
   }
 
   .lg\:w-\[292px\]{
