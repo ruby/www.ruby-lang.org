@@ -1117,9 +1117,9 @@ a .icon-external::before {
 }
 
 .hero-illust-beer {
-  top: 6%;
-  left: 52%;
-  transform: rotate(-8deg);
+  top: 8%;
+  left: 52.9%;
+  transform: rotate(15deg);
 }
 
 .hero-illust-mary {
@@ -2988,6 +2988,10 @@ iframe {
   width: 56px;
 }
 
+.w-\[59px\]{
+  width: 59px;
+}
+
 .w-\[60px\]{
   width: 60px;
 }
@@ -4294,6 +4298,10 @@ iframe {
     width: 75px;
   }
 
+  .md\:w-\[76px\]{
+    width: 76px;
+  }
+
   .md\:w-\[77px\]{
     width: 77px;
   }
@@ -4626,6 +4634,10 @@ iframe {
 
   .lg\:w-\[90px\]{
     width: 90px;
+  }
+
+  .lg\:w-\[92px\]{
+    width: 92px;
   }
 
   .lg\:w-\[93px\]{
