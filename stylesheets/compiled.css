@@ -1261,9 +1261,9 @@ a .icon-external::before {
 }
 
 .hero-illust-train {
-  top: 72%;
-  left: 75%;
-  transform: rotate(2deg);
+  top: 74.2%;
+  left: 78.3%;
+  transform: rotate(0deg);
 }
 
 /* Additional gems scattered */
@@ -2940,10 +2940,6 @@ iframe {
   width: 1070px;
 }
 
-.w-\[120px\]{
-  width: 120px;
-}
-
 .w-\[132px\]{
   width: 132px;
 }
@@ -2954,6 +2950,10 @@ iframe {
 
 .w-\[160px\]{
   width: 160px;
+}
+
+.w-\[206px\]{
+  width: 206px;
 }
 
 .w-\[330px\]{
@@ -4262,12 +4262,12 @@ iframe {
     width: 1400px;
   }
 
-  .md\:w-\[145px\]{
-    width: 145px;
-  }
-
   .md\:w-\[159px\]{
     width: 159px;
+  }
+
+  .md\:w-\[250px\]{
+    width: 250px;
   }
 
   .md\:w-\[60px\]{
@@ -4592,16 +4592,16 @@ iframe {
     width: 111px;
   }
 
-  .lg\:w-\[170px\]{
-    width: 170px;
-  }
-
   .lg\:w-\[1728px\]{
     width: 1728px;
   }
 
   .lg\:w-\[185px\]{
     width: 185px;
+  }
+
+  .lg\:w-\[292px\]{
+    width: 292px;
   }
 
   .lg\:w-\[75px\]{
