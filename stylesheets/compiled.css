@@ -1241,8 +1241,8 @@ a .icon-external::before {
 }
 
 .hero-illust-coffee {
-  top: 70%;
-  left: 42%;
+  top: 80.2%;
+  left: 42.2%;
   transform: rotate(-6deg);
 }
 
@@ -2996,6 +2996,10 @@ iframe {
   width: 65px;
 }
 
+.w-\[68px\]{
+  width: 68px;
+}
+
 .w-\[70px\]{
   width: 70px;
 }
@@ -4300,6 +4304,10 @@ iframe {
 
   .md\:w-\[81px\]{
     width: 81px;
+  }
+
+  .md\:w-\[84px\]{
+    width: 84px;
   }
 
   .md\:w-\[85px\]{
