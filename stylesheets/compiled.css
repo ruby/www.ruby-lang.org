@@ -1151,9 +1151,9 @@ a .icon-external::before {
 /* Middle Left */
 
 .hero-illust-boxes {
-  top: 35%;
-  left: 12%;
-  transform: rotate(2deg);
+  top: 37.8%;
+  left: 11.7%;
+  transform: rotate(-5deg);
 }
 
 .hero-illust-gem03 {
@@ -2936,16 +2936,16 @@ iframe {
   width: 2rem;
 }
 
-.w-\[100px\]{
-  width: 100px;
-}
-
 .w-\[1070px\]{
   width: 1070px;
 }
 
 .w-\[120px\]{
   width: 120px;
+}
+
+.w-\[132px\]{
+  width: 132px;
 }
 
 .w-\[140px\]{
@@ -4258,16 +4258,16 @@ iframe {
     width: 110px;
   }
 
-  .md\:w-\[120px\]{
-    width: 120px;
-  }
-
   .md\:w-\[1400px\]{
     width: 1400px;
   }
 
   .md\:w-\[145px\]{
     width: 145px;
+  }
+
+  .md\:w-\[159px\]{
+    width: 159px;
   }
 
   .md\:w-\[60px\]{
@@ -4576,16 +4576,16 @@ iframe {
     width: 130px;
   }
 
-  .lg\:w-\[140px\]{
-    width: 140px;
-  }
-
   .lg\:w-\[170px\]{
     width: 170px;
   }
 
   .lg\:w-\[1728px\]{
     width: 1728px;
+  }
+
+  .lg\:w-\[185px\]{
+    width: 185px;
   }
 
   .lg\:w-\[75px\]{
