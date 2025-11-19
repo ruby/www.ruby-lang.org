@@ -1163,9 +1163,9 @@ a .icon-external::before {
 }
 
 .hero-illust-keyboard {
-  top: 45%;
-  left: 5%;
-  transform: rotate(-4deg);
+  top: 54.5%;
+  left: 20.2%;
+  transform: rotate(-24deg);
 }
 
 .hero-illust-mustafa {
@@ -3000,6 +3000,10 @@ iframe {
   width: 70px;
 }
 
+.w-\[72px\]{
+  width: 72px;
+}
+
 .w-\[74px\]{
   width: 74px;
 }
@@ -3010,10 +3014,6 @@ iframe {
 
 .w-\[80px\]{
   width: 80px;
-}
-
-.w-\[85px\]{
-  width: 85px;
 }
 
 .w-\[90px\]{
@@ -4250,10 +4250,6 @@ iframe {
     width: 14rem;
   }
 
-  .md\:w-\[105px\]{
-    width: 105px;
-  }
-
   .md\:w-\[110px\]{
     width: 110px;
   }
@@ -4308,6 +4304,10 @@ iframe {
 
   .md\:w-\[85px\]{
     width: 85px;
+  }
+
+  .md\:w-\[89px\]{
+    width: 89px;
   }
 
   .md\:w-\[90px\]{
@@ -4560,16 +4560,16 @@ iframe {
     width: 105px;
   }
 
+  .lg\:w-\[106px\]{
+    width: 106px;
+  }
+
   .lg\:w-\[110px\]{
     width: 110px;
   }
 
   .lg\:w-\[111px\]{
     width: 111px;
-  }
-
-  .lg\:w-\[125px\]{
-    width: 125px;
   }
 
   .lg\:w-\[130px\]{
