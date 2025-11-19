@@ -1189,9 +1189,9 @@ a .icon-external::before {
 }
 
 .hero-illust-dachs {
-  top: 42%;
-  left: 85%;
-  transform: rotate(-3deg);
+  top: 10%;
+  left: 34%;
+  transform: rotate(25deg);
 }
 
 .hero-illust-game {
