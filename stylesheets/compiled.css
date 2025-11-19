@@ -1143,8 +1143,8 @@ a .icon-external::before {
 }
 
 .hero-illust-gem02 {
-  top: 15%;
-  left: 88%;
+  top: 25%;
+  left: 30%;
   transform: rotate(-10deg);
 }
 
@@ -1177,9 +1177,9 @@ a .icon-external::before {
 /* Middle Right */
 
 .hero-illust-gem04 {
-  top: 28%;
-  left: 72%;
-  transform: rotate(-7deg);
+  top: 80.2%;
+  left: 18.8%;
+  transform: rotate(-27deg);
 }
 
 .hero-illust-present {
@@ -1276,7 +1276,7 @@ a .icon-external::before {
 
 .hero-illust-gem06 {
   top: 55%;
-  left: 48%;
+  left: 80%;
   transform: rotate(-15deg);
 }
 
@@ -1287,9 +1287,9 @@ a .icon-external::before {
 }
 
 .hero-illust-gem08 {
-  top: 78%;
-  left: 8%;
-  transform: rotate(-12deg);
+  top: 7%;
+  left: 41.9%;
+  transform: rotate(-14deg);
 }
 
 .hero-illust-daisy {
@@ -2960,6 +2960,10 @@ iframe {
   width: 330px;
 }
 
+.w-\[44px\]{
+  width: 44px;
+}
+
 .w-\[45px\]{
   width: 45px;
 }
@@ -2974,10 +2978,6 @@ iframe {
 
 .w-\[51px\]{
   width: 51px;
-}
-
-.w-\[52px\]{
-  width: 52px;
 }
 
 .w-\[55px\]{
@@ -3039,6 +3039,10 @@ iframe {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[53px\]{
+  width: 53px;
 }
 
 .min-w-0{
@@ -4270,6 +4274,10 @@ iframe {
     width: 250px;
   }
 
+  .md\:w-\[57px\]{
+    width: 57px;
+  }
+
   .md\:w-\[60px\]{
     width: 60px;
   }
@@ -4280,10 +4288,6 @@ iframe {
 
   .md\:w-\[65px\]{
     width: 65px;
-  }
-
-  .md\:w-\[67px\]{
-    width: 67px;
   }
 
   .md\:w-\[70px\]{
@@ -4340,6 +4344,10 @@ iframe {
 
   .md\:w-\[98px\]{
     width: 98px;
+  }
+
+  .md\:w-\[67px\]{
+    width: 67px;
   }
 
   .md\:min-w-\[1400px\]{
@@ -4604,6 +4612,10 @@ iframe {
     width: 292px;
   }
 
+  .lg\:w-\[70px\]{
+    width: 70px;
+  }
+
   .lg\:w-\[75px\]{
     width: 75px;
   }
@@ -4618,10 +4630,6 @@ iframe {
 
   .lg\:w-\[80px\]{
     width: 80px;
-  }
-
-  .lg\:w-\[82px\]{
-    width: 82px;
   }
 
   .lg\:w-\[85px\]{
@@ -4658,6 +4666,14 @@ iframe {
 
   .lg\:w-auto{
     width: auto;
+  }
+
+  .lg\:w-\[77px\]{
+    width: 77px;
+  }
+
+  .lg\:w-\[81px\]{
+    width: 81px;
   }
 
   .lg\:min-w-\[1728px\]{

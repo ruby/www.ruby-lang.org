@@ -58,8 +58,8 @@
 }
 
 .hero-illust-gem02 {
-  top: 15%;
-  left: 88%;
+  top: 25%;
+  left: 30%;
   transform: rotate(-10deg);
 }
 
@@ -90,9 +90,9 @@
 
 /* Middle Right */
 .hero-illust-gem04 {
-  top: 28%;
-  left: 72%;
-  transform: rotate(-7deg);
+  top: 80.2%;
+  left: 18.8%;
+  transform: rotate(-27deg);
 }
 
 .hero-illust-present {
@@ -185,7 +185,7 @@
 
 .hero-illust-gem06 {
   top: 55%;
-  left: 48%;
+  left: 80%;
   transform: rotate(-15deg);
 }
 
@@ -196,9 +196,9 @@
 }
 
 .hero-illust-gem08 {
-  top: 78%;
-  left: 8%;
-  transform: rotate(-12deg);
+  top: 7%;
+  left: 41.9%;
+  transform: rotate(-14deg);
 }
 
 .hero-illust-daisy {
