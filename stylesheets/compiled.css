@@ -1085,9 +1085,9 @@ a .icon-external::before {
 /* Top Left */
 
 .hero-illust-robot {
-  top: 15%;
-  left: 8%;
-  transform: rotate(-5deg);
+  top: 15.9%;
+  left: 7.2%;
+  transform: rotate(-45deg);
 }
 
 .hero-illust-justin {
@@ -2980,6 +2980,10 @@ iframe {
   width: 55px;
 }
 
+.w-\[56px\]{
+  width: 56px;
+}
+
 .w-\[60px\]{
   width: 60px;
 }
@@ -4282,6 +4286,10 @@ iframe {
     width: 70px;
   }
 
+  .md\:w-\[74px\]{
+    width: 74px;
+  }
+
   .md\:w-\[75px\]{
     width: 75px;
   }
@@ -4598,6 +4606,10 @@ iframe {
 
   .lg\:w-\[90px\]{
     width: 90px;
+  }
+
+  .lg\:w-\[93px\]{
+    width: 93px;
   }
 
   .lg\:w-\[95px\]{
