@@ -1255,9 +1255,9 @@ a .icon-external::before {
 /* Bottom Right */
 
 .hero-illust-note {
-  top: 66%;
-  left: 65%;
-  transform: rotate(-4deg);
+  top: 77.4%;
+  left: 64.3%;
+  transform: rotate(20deg);
 }
 
 .hero-illust-train {
@@ -3024,10 +3024,6 @@ iframe {
   width: 75px;
 }
 
-.w-\[80px\]{
-  width: 80px;
-}
-
 .w-auto{
   width: auto;
 }
@@ -4338,10 +4334,6 @@ iframe {
     width: 92px;
   }
 
-  .md\:w-\[95px\]{
-    width: 95px;
-  }
-
   .md\:min-w-\[1400px\]{
     min-width: 1400px;
   }
@@ -4586,10 +4578,6 @@ iframe {
 
   .lg\:w-\[106px\]{
     width: 106px;
-  }
-
-  .lg\:w-\[110px\]{
-    width: 110px;
   }
 
   .lg\:w-\[111px\]{
