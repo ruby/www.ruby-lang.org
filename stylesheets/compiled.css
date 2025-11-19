@@ -1131,9 +1131,9 @@ a .icon-external::before {
 /* Top Right */
 
 .hero-illust-beanie {
-  top: 12%;
-  left: 70%;
-  transform: rotate(-6deg);
+  top: 65.5%;
+  left: 24.7%;
+  transform: rotate(-25deg);
 }
 
 .hero-illust-matz {
@@ -1163,7 +1163,7 @@ a .icon-external::before {
 }
 
 .hero-illust-keyboard {
-  top: 54.5%;
+  top: 54.3%;
   left: 20.2%;
   transform: rotate(-24deg);
 }
@@ -4626,6 +4626,10 @@ iframe {
 
   .lg\:w-\[85px\]{
     width: 85px;
+  }
+
+  .lg\:w-\[88px\]{
+    width: 88px;
   }
 
   .lg\:w-\[90px\]{

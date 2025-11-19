@@ -46,9 +46,9 @@
 
 /* Top Right */
 .hero-illust-beanie {
-  top: 12%;
-  left: 70%;
-  transform: rotate(-6deg);
+  top: 65.5%;
+  left: 24.7%;
+  transform: rotate(-25deg);
 }
 
 .hero-illust-matz {
@@ -77,7 +77,7 @@
 }
 
 .hero-illust-keyboard {
-  top: 54.5%;
+  top: 54.3%;
   left: 20.2%;
   transform: rotate(-24deg);
 }
