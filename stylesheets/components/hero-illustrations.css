@@ -1,6 +1,5 @@
 /* Hero Section - Main Illustrations Positioning */
 
-/* Top Left */
 .hero-illust-robot {
   top: 15.9%;
   left: 7.2%;
@@ -19,7 +18,6 @@
   transform: rotate(30deg);
 }
 
-/* Top Center */
 .hero-illust-cat {
   top: 74%;
   left: 35.5%;
@@ -44,7 +42,6 @@
   transform: rotate(-15deg);
 }
 
-/* Top Right */
 .hero-illust-beanie {
   top: 65.5%;
   left: 24.7%;
@@ -63,7 +60,6 @@
   transform: rotate(-10deg);
 }
 
-/* Middle Left */
 .hero-illust-boxes {
   top: 38.3%;
   left: 11.5%;
@@ -88,7 +84,6 @@
   transform: rotate(12deg);
 }
 
-/* Middle Right */
 .hero-illust-gem04 {
   top: 80.2%;
   left: 18.8%;
@@ -119,7 +114,6 @@
   transform: rotate(-7deg);
 }
 
-/* Bottom Left */
 .hero-illust-fire {
   top: 64.5%;
   left: 12%;
@@ -144,7 +138,6 @@
   transform: rotate(-5deg);
 }
 
-/* Bottom Center */
 .hero-illust-max {
   top: 29%;
   left: 80.5%;
@@ -163,7 +156,6 @@
   transform: rotate(-15deg);
 }
 
-/* Bottom Right */
 .hero-illust-note {
   top: 77.4%;
   left: 64.3%;
@@ -176,7 +168,6 @@
   transform: rotate(0deg);
 }
 
-/* Additional gems scattered */
 .hero-illust-gem05 {
   top: 44.2%;
   left: 77.8%;
@@ -211,4 +202,10 @@
   top: 60%;
   left: 60.5%;
   transform: rotate(21deg);
+}
+
+.hero-illust-gem01-3 {
+  top: 34%;
+  left: 22%;
+  transform: rotate(-15deg);
 }
