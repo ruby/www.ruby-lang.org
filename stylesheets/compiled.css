@@ -1221,9 +1221,9 @@ a .icon-external::before {
 }
 
 .hero-illust-pen {
-  top: 68%;
-  left: 15%;
-  transform: rotate(25deg);
+  top: 80.3%;
+  left: 26.9%;
+  transform: rotate(10deg);
 }
 
 .hero-illust-ink {
@@ -2972,6 +2972,10 @@ iframe {
   width: 50px;
 }
 
+.w-\[51px\]{
+  width: 51px;
+}
+
 .w-\[52px\]{
   width: 52px;
 }
@@ -4606,6 +4610,10 @@ iframe {
 
   .lg\:w-\[78px\]{
     width: 78px;
+  }
+
+  .lg\:w-\[79px\]{
+    width: 79px;
   }
 
   .lg\:w-\[80px\]{
