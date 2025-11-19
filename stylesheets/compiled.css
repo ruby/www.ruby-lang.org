@@ -1123,9 +1123,9 @@ a .icon-external::before {
 }
 
 .hero-illust-mary {
-  top: 10%;
-  left: 60%;
-  transform: rotate(3deg);
+  top: 60%;
+  left: 79%;
+  transform: rotate(-15deg);
 }
 
 /* Top Right */
@@ -1247,9 +1247,9 @@ a .icon-external::before {
 }
 
 .hero-illust-kevin {
-  top: 68%;
-  left: 52%;
-  transform: rotate(3deg);
+  top: 7%;
+  left: 28.6%;
+  transform: rotate(-15deg);
 }
 
 /* Bottom Right */
@@ -3024,8 +3024,8 @@ iframe {
   width: 74px;
 }
 
-.w-\[75px\]{
-  width: 75px;
+.w-\[81px\]{
+  width: 81px;
 }
 
 .w-auto{
@@ -4334,12 +4334,12 @@ iframe {
     width: 89px;
   }
 
-  .md\:w-\[90px\]{
-    width: 90px;
-  }
-
   .md\:w-\[92px\]{
     width: 92px;
+  }
+
+  .md\:w-\[98px\]{
+    width: 98px;
   }
 
   .md\:min-w-\[1400px\]{
@@ -4580,16 +4580,16 @@ iframe {
     width: 101px;
   }
 
-  .lg\:w-\[105px\]{
-    width: 105px;
-  }
-
   .lg\:w-\[106px\]{
     width: 106px;
   }
 
   .lg\:w-\[111px\]{
     width: 111px;
+  }
+
+  .lg\:w-\[115px\]{
+    width: 115px;
   }
 
   .lg\:w-\[1728px\]{
