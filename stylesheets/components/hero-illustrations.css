@@ -121,9 +121,9 @@
 
 /* Bottom Left */
 .hero-illust-fire {
-  top: 58%;
-  left: 8%;
-  transform: rotate(3deg);
+  top: 64.5%;
+  left: 12%;
+  transform: rotate(-10deg);
 }
 
 .hero-illust-sheep {

@@ -1209,9 +1209,9 @@ a .icon-external::before {
 /* Bottom Left */
 
 .hero-illust-fire {
-  top: 58%;
-  left: 8%;
-  transform: rotate(3deg);
+  top: 64.5%;
+  left: 12%;
+  transform: rotate(-10deg);
 }
 
 .hero-illust-sheep {
@@ -3020,10 +3020,6 @@ iframe {
   width: 80px;
 }
 
-.w-\[90px\]{
-  width: 90px;
-}
-
 .w-auto{
   width: auto;
 }
@@ -4254,10 +4250,6 @@ iframe {
     width: 14rem;
   }
 
-  .md\:w-\[110px\]{
-    width: 110px;
-  }
-
   .md\:w-\[1400px\]{
     width: 1400px;
   }
@@ -4312,6 +4304,10 @@ iframe {
 
   .md\:w-\[85px\]{
     width: 85px;
+  }
+
+  .md\:w-\[86px\]{
+    width: 86px;
   }
 
   .md\:w-\[89px\]{
@@ -4564,6 +4560,10 @@ iframe {
     width: 100px;
   }
 
+  .lg\:w-\[101px\]{
+    width: 101px;
+  }
+
   .lg\:w-\[105px\]{
     width: 105px;
   }
@@ -4578,10 +4578,6 @@ iframe {
 
   .lg\:w-\[111px\]{
     width: 111px;
-  }
-
-  .lg\:w-\[130px\]{
-    width: 130px;
   }
 
   .lg\:w-\[170px\]{
