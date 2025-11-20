@@ -114,3 +114,11 @@ lang: zh_tw
 ## Ruby 是什麼
 
 Ruby 最初由 Matz（Yukihiro Matsumoto）於 1993 年開發的開源軟體。可以在許多平台上執行。使用者來自世界各地，特別活躍於網路開發領域。
+
+
+[Feature #21047]: https://bugs.ruby-lang.org/issues/21047
+[Bug #21049]: https://bugs.ruby-lang.org/issues/21049
+[Feature #20610]: https://bugs.ruby-lang.org/issues/20610
+[Feature #19908]: https://bugs.ruby-lang.org/issues/19908
+[Feature #20724]: https://bugs.ruby-lang.org/issues/20724
+[Feature #21275]: https://bugs.ruby-lang.org/issues/21275
