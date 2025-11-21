@@ -2,55 +2,67 @@
 
 <!-- Hero Section -->
 <section class="hero-section bg-gold-300 dark:bg-stone-770 relative overflow-hidden h-[455px] md:h-[595px] lg:h-[730px]">
+  <!-- Loading Indicator -->
+  <div id="hero-loader" class="absolute inset-0 z-20 flex items-center justify-center bg-gold-300 dark:bg-stone-770">
+    <div id="loader-gem-shape" class="relative w-28 h-28 animate-pulse">
+      <img src="/images/home/hero/bg-ruby.svg" alt="Loading..." class="w-full h-auto">
+      <div id="loader-percentage" class="absolute inset-0 flex items-center justify-center text-white font-semibold text-lg mt-[-16px]">
+        <span id="loader-number">0</span><span class="font-light">%</span>
+      </div>
+    </div>
+  </div>
+
   <!-- Background Illustrations - Multi-layer Structure -->
   <div class="absolute inset-0 pointer-events-none overflow-hidden">
     <!-- Layer 1: Sunburst - Radial lines from center -->
     <img src="/images/home/hero/sunburst.svg"
          alt=""
-         class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto opacity-0 animate-hero-sunburst-in">
+         data-hero-layer="sunburst"
+         class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto opacity-0">
 
     <!-- Layer 2: Sub Illustrations - Decorative elements -->
     <img src="/images/home/hero/illust-sub.svg"
          alt=""
-         class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto opacity-0 animate-hero-illust-sub-in">
+         data-hero-layer="illust-sub"
+         class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-auto opacity-0">
 
     <!-- Layer 3: Main Illustrations - Characters and motifs -->
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-[740px] opacity-0 animate-hero-illust-main-in hero-illust-container">
-      <img src="/images/home/hero/illust-main/robot.svg" alt="" class="absolute w-[56px] md:w-[74px] lg:w-[93px] hero-illust-robot">
-      <img src="/images/home/hero/illust-main/justin.svg" alt="" class="absolute w-[74px] md:w-[92px] lg:w-[111px] hero-illust-justin">
-      <img src="/images/home/hero/illust-main/spitz.svg" alt="" class="absolute w-[59px] md:w-[77px] lg:w-[95px] hero-illust-spitz">
-      <img src="/images/home/hero/illust-main/cat.svg" alt="" class="absolute w-[60px] md:w-[75px] lg:w-[90px] hero-illust-cat">
-      <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] hero-illust-gem01">
-      <img src="/images/home/hero/illust-main/beer.svg" alt="" class="absolute w-[59px] md:w-[76px] lg:w-[92px] hero-illust-beer">
-      <img src="/images/home/hero/illust-main/mary.svg" alt="" class="absolute w-[81px] md:w-[98px] lg:w-[115px] hero-illust-mary">
-      <img src="/images/home/hero/illust-main/beanie.svg" alt="" class="absolute w-[60px] md:w-[74px] lg:w-[88px] hero-illust-beanie">
-      <img src="/images/home/hero/illust-main/matz.svg" alt="" class="absolute w-[60px] md:w-[77px] lg:w-[94px] hero-illust-matz">
-      <img src="/images/home/hero/illust-main/gem02.svg" alt="" class="absolute w-[53px] md:w-[67px] lg:w-[81px] hero-illust-gem02">
-      <img src="/images/home/hero/illust-main/boxes.svg" alt="" class="absolute w-[139px] md:w-[167px] lg:w-[194px] hero-illust-boxes">
-      <img src="/images/home/hero/illust-main/gem03.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] hero-illust-gem03">
-      <img src="/images/home/hero/illust-main/keyboard.svg" alt="" class="absolute w-[72px] md:w-[89px] lg:w-[106px] hero-illust-keyboard">
-      <img src="/images/home/hero/illust-main/mustafa.svg" alt="" class="absolute w-[64px] md:w-[81px] lg:w-[98px] hero-illust-mustafa">
-      <img src="/images/home/hero/illust-main/gem04.svg" alt="" class="absolute w-[51px] md:w-[65px] lg:w-[79px] hero-illust-gem04">
-      <img src="/images/home/hero/illust-main/present.svg" alt="" class="absolute w-[65px] md:w-[80px] lg:w-[95px] hero-illust-present">
-      <img src="/images/home/hero/illust-main/dachs.svg" alt="" class="absolute w-[70px] md:w-[85px] lg:w-[100px] hero-illust-dachs">
-      <img src="/images/home/hero/illust-main/game.svg" alt="" class="absolute w-[68px] md:w-[81px] lg:w-[95px] hero-illust-game">
-      <img src="/images/home/hero/illust-main/yukiko.svg" alt="" class="absolute w-[65px] md:w-[80px] lg:w-[95px] hero-illust-yukiko">
-      <img src="/images/home/hero/illust-main/fire.svg" alt="" class="absolute w-[70px] md:w-[86px] lg:w-[101px] hero-illust-fire">
-      <img src="/images/home/hero/illust-main/sheep.svg" alt="" class="absolute w-[63px] md:w-[77px] lg:w-[90px] hero-illust-sheep">
-      <img src="/images/home/hero/illust-main/pen.svg" alt="" class="absolute w-[51px] md:w-[65px] lg:w-[79px] hero-illust-pen">
-      <img src="/images/home/hero/illust-main/ink.svg" alt="" class="absolute w-[60px] md:w-[75px] lg:w-[90px] hero-illust-ink">
-      <img src="/images/home/hero/illust-main/max.svg" alt="" class="absolute w-[70px] md:w-[85px] lg:w-[100px] hero-illust-max">
-      <img src="/images/home/hero/illust-main/coffee.svg" alt="" class="absolute w-[68px] md:w-[84px] lg:w-[100px] hero-illust-coffee">
-      <img src="/images/home/hero/illust-main/kevin.svg" alt="" class="absolute w-[68px] md:w-[81px] lg:w-[95px] hero-illust-kevin">
-      <img src="/images/home/hero/illust-main/note.svg" alt="" class="absolute w-[68px] md:w-[81px] lg:w-[94px] hero-illust-note">
-      <img src="/images/home/hero/illust-main/train.svg" alt="" class="absolute w-[206px] md:w-[250px] lg:w-[292px] hero-illust-train">
-      <img src="/images/home/hero/illust-main/gem05.svg" alt="" class="absolute w-[45px] md:w-[60px] lg:w-[75px] hero-illust-gem05">
-      <img src="/images/home/hero/illust-main/gem06.svg" alt="" class="absolute w-[48px] md:w-[62px] lg:w-[76px] hero-illust-gem06">
-      <img src="/images/home/hero/illust-main/gem07.svg" alt="" class="absolute w-[48px] md:w-[63px] lg:w-[78px] hero-illust-gem07">
-      <img src="/images/home/hero/illust-main/gem08.svg" alt="" class="absolute w-[44px] md:w-[57px] lg:w-[70px] hero-illust-gem08">
-      <img src="/images/home/hero/illust-main/daisy.svg" alt="" class="absolute w-[63px] md:w-[79px] lg:w-[95px] hero-illust-daisy">
-      <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] hero-illust-gem01-2">
-      <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] hero-illust-gem01-3">
+    <div data-hero-layer="illust-main" data-hero-illustrations class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1070px] w-[1070px] md:min-w-[1400px] md:w-[1400px] lg:min-w-[1728px] lg:w-[1728px] h-[740px] opacity-0 hero-illust-container">
+      <img src="/images/home/hero/illust-main/robot.svg" alt="" class="absolute w-[56px] md:w-[74px] lg:w-[93px] opacity-0 hero-illust-robot rotate-[-45deg]">
+      <img src="/images/home/hero/illust-main/justin.svg" alt="" class="absolute w-[74px] md:w-[92px] lg:w-[111px] opacity-0 hero-illust-justin rotate-[8deg]">
+      <img src="/images/home/hero/illust-main/spitz.svg" alt="" class="absolute w-[59px] md:w-[77px] lg:w-[95px] opacity-0 hero-illust-spitz rotate-[30deg]">
+      <img src="/images/home/hero/illust-main/cat.svg" alt="" class="absolute w-[60px] md:w-[75px] lg:w-[90px] opacity-0 hero-illust-cat rotate-[-5deg]">
+      <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] opacity-0 hero-illust-gem01 rotate-[11deg]">
+      <img src="/images/home/hero/illust-main/beer.svg" alt="" class="absolute w-[59px] md:w-[76px] lg:w-[92px] opacity-0 hero-illust-beer rotate-[15deg]">
+      <img src="/images/home/hero/illust-main/mary.svg" alt="" class="absolute w-[81px] md:w-[98px] lg:w-[115px] opacity-0 hero-illust-mary rotate-[-15deg]">
+      <img src="/images/home/hero/illust-main/beanie.svg" alt="" class="absolute w-[60px] md:w-[74px] lg:w-[88px] opacity-0 hero-illust-beanie rotate-[-25deg]">
+      <img src="/images/home/hero/illust-main/matz.svg" alt="" class="absolute w-[60px] md:w-[77px] lg:w-[94px] opacity-0 hero-illust-matz rotate-[45deg]">
+      <img src="/images/home/hero/illust-main/gem02.svg" alt="" class="absolute w-[53px] md:w-[67px] lg:w-[81px] opacity-0 hero-illust-gem02 rotate-[-10deg]">
+      <img src="/images/home/hero/illust-main/boxes.svg" alt="" class="absolute w-[139px] md:w-[167px] lg:w-[194px] opacity-0 hero-illust-boxes rotate-[-5deg]">
+      <img src="/images/home/hero/illust-main/gem03.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] opacity-0 hero-illust-gem03 rotate-[-20deg]">
+      <img src="/images/home/hero/illust-main/keyboard.svg" alt="" class="absolute w-[72px] md:w-[89px] lg:w-[106px] opacity-0 hero-illust-keyboard rotate-[-24deg]">
+      <img src="/images/home/hero/illust-main/mustafa.svg" alt="" class="absolute w-[64px] md:w-[81px] lg:w-[98px] opacity-0 hero-illust-mustafa rotate-[12deg]">
+      <img src="/images/home/hero/illust-main/gem04.svg" alt="" class="absolute w-[51px] md:w-[65px] lg:w-[79px] opacity-0 hero-illust-gem04 rotate-[-27deg]">
+      <img src="/images/home/hero/illust-main/present.svg" alt="" class="absolute w-[65px] md:w-[80px] lg:w-[95px] opacity-0 hero-illust-present rotate-[10deg]">
+      <img src="/images/home/hero/illust-main/dachs.svg" alt="" class="absolute w-[70px] md:w-[85px] lg:w-[100px] opacity-0 hero-illust-dachs rotate-[25deg]">
+      <img src="/images/home/hero/illust-main/game.svg" alt="" class="absolute w-[68px] md:w-[81px] lg:w-[95px] opacity-0 hero-illust-game rotate-[17deg]">
+      <img src="/images/home/hero/illust-main/yukiko.svg" alt="" class="absolute w-[65px] md:w-[80px] lg:w-[95px] opacity-0 hero-illust-yukiko rotate-[-7deg]">
+      <img src="/images/home/hero/illust-main/fire.svg" alt="" class="absolute w-[70px] md:w-[86px] lg:w-[101px] opacity-0 hero-illust-fire rotate-[-10deg]">
+      <img src="/images/home/hero/illust-main/sheep.svg" alt="" class="absolute w-[63px] md:w-[77px] lg:w-[90px] opacity-0 hero-illust-sheep rotate-[-14deg]">
+      <img src="/images/home/hero/illust-main/pen.svg" alt="" class="absolute w-[51px] md:w-[65px] lg:w-[79px] opacity-0 hero-illust-pen rotate-[10deg]">
+      <img src="/images/home/hero/illust-main/ink.svg" alt="" class="absolute w-[60px] md:w-[75px] lg:w-[90px] opacity-0 hero-illust-ink rotate-[-5deg]">
+      <img src="/images/home/hero/illust-main/max.svg" alt="" class="absolute w-[70px] md:w-[85px] lg:w-[100px] opacity-0 hero-illust-max rotate-[20deg]">
+      <img src="/images/home/hero/illust-main/coffee.svg" alt="" class="absolute w-[68px] md:w-[84px] lg:w-[100px] opacity-0 hero-illust-coffee rotate-[-6deg]">
+      <img src="/images/home/hero/illust-main/kevin.svg" alt="" class="absolute w-[68px] md:w-[81px] lg:w-[95px] opacity-0 hero-illust-kevin rotate-[-15deg]">
+      <img src="/images/home/hero/illust-main/note.svg" alt="" class="absolute w-[68px] md:w-[81px] lg:w-[94px] opacity-0 hero-illust-note rotate-[20deg]">
+      <img src="/images/home/hero/illust-main/train.svg" alt="" class="absolute w-[206px] md:w-[250px] lg:w-[292px] opacity-0 hero-illust-train rotate-[0deg]">
+      <img src="/images/home/hero/illust-main/gem05.svg" alt="" class="absolute w-[45px] md:w-[60px] lg:w-[75px] opacity-0 hero-illust-gem05 rotate-[20deg]">
+      <img src="/images/home/hero/illust-main/gem06.svg" alt="" class="absolute w-[48px] md:w-[62px] lg:w-[76px] opacity-0 hero-illust-gem06 rotate-[25deg]">
+      <img src="/images/home/hero/illust-main/gem07.svg" alt="" class="absolute w-[48px] md:w-[63px] lg:w-[78px] opacity-0 hero-illust-gem07 rotate-[-20deg]">
+      <img src="/images/home/hero/illust-main/gem08.svg" alt="" class="absolute w-[44px] md:w-[57px] lg:w-[70px] opacity-0 hero-illust-gem08 rotate-[-14deg]">
+      <img src="/images/home/hero/illust-main/daisy.svg" alt="" class="absolute w-[63px] md:w-[79px] lg:w-[95px] opacity-0 hero-illust-daisy rotate-[0deg]">
+      <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] opacity-0 hero-illust-gem01-2 rotate-[21deg]">
+      <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[50px] md:w-[65px] lg:w-[80px] opacity-0 hero-illust-gem01-3 rotate-[-15deg]">
     </div>
   </div>
 
@@ -58,14 +70,14 @@
   <div class="relative z-10 flex items-center justify-center pt-20 md:pt-[6.25rem] lg:pt-[7.5rem] pb-0 px-4">
     <div class="relative w-full max-w-xs md:max-w-[27.5rem] lg:max-w-lg">
       <!-- Ruby Gem SVG Background -->
-      <div class="absolute inset-0 flex items-center justify-center opacity-0 animate-hero-gem-in">
+      <div data-hero-layer="gem" class="absolute inset-0 flex items-center justify-center opacity-0">
         <img src="/images/home/hero/bg-ruby.svg"
              alt="Ruby"
              class="w-full h-auto">
       </div>
 
       <!-- Content Inside Ruby Gem -->
-      <div class="relative z-10 text-center text-white pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-16 lg:pb-24 px-6 md:px-8 opacity-0 animate-hero-content-in">
+      <div data-hero-layer="content" class="relative z-10 text-center text-white pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-16 lg:pb-24 px-6 md:px-8 opacity-0">
         <p class="text-xs md:text-base lg:text-lg mb-0 text-gold-500 tracking-[0.1em]">
           <span class="font-light">{{ home.hero.since }}</span> <span class="font-semibold">{{ home.hero.year }}</span>
         </p>
