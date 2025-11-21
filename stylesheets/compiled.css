@@ -2954,6 +2954,10 @@ iframe {
   height: 100%;
 }
 
+.h-\[458px\]{
+  height: 458px;
+}
+
 .max-h-96{
   max-height: 24rem;
 }
@@ -4438,6 +4442,10 @@ iframe {
     height: 595px;
   }
 
+  .md\:h-\[600px\]{
+    height: 600px;
+  }
+
   .md\:w-10{
     width: 2.5rem;
   }
@@ -4762,6 +4770,10 @@ iframe {
 
   .lg\:h-\[730px\]{
     height: 730px;
+  }
+
+  .lg\:h-\[740px\]{
+    height: 740px;
   }
 
   .lg\:w-44{
