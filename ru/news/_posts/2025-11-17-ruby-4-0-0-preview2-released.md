@@ -117,3 +117,10 @@ lang: ru
 Ruby был впервые разработан Matz (Yukihiro Matsumoto) в 1993,
 и сейчас разрабатывается как Open Source. Он работает на множестве платформ
 и используется по всему миру, особенно для веб-разработки.
+
+[Feature #21047]: https://bugs.ruby-lang.org/issues/21047
+[Bug #21049]: https://bugs.ruby-lang.org/issues/21049
+[Feature #20610]: https://bugs.ruby-lang.org/issues/20610
+[Feature #19908]: https://bugs.ruby-lang.org/issues/19908
+[Feature #20724]: https://bugs.ruby-lang.org/issues/20724
+[Feature #21275]: https://bugs.ruby-lang.org/issues/21275
