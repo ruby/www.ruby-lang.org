@@ -2850,6 +2850,14 @@ iframe {
   margin-top: auto;
 }
 
+.mt-\[-20px\]{
+  margin-top: -20px;
+}
+
+.mt-\[-24px\]{
+  margin-top: -24px;
+}
+
 .block{
   display: block;
 }
