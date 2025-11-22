@@ -2842,20 +2842,12 @@ iframe {
   margin-top: 1.5rem;
 }
 
-.mt-\[-16px\]{
-  margin-top: -16px;
+.mt-\[-24px\]{
+  margin-top: -24px;
 }
 
 .mt-auto{
   margin-top: auto;
-}
-
-.mt-\[-20px\]{
-  margin-top: -20px;
-}
-
-.mt-\[-24px\]{
-  margin-top: -24px;
 }
 
 .block{
@@ -2942,8 +2934,8 @@ iframe {
   height: 455px;
 }
 
-.h-\[740px\]{
-  height: 740px;
+.h-\[458px\]{
+  height: 458px;
 }
 
 .h-auto{
@@ -2952,10 +2944,6 @@ iframe {
 
 .h-full{
   height: 100%;
-}
-
-.h-\[458px\]{
-  height: 458px;
 }
 
 .max-h-96{
@@ -3331,6 +3319,22 @@ iframe {
 
 .animate-fade-out{
   animation: fade-out 0.3s ease-in forwards;
+}
+
+@keyframes fade-slide-in{
+  0%{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide-in{
+  animation: fade-slide-in 0.6s ease-out forwards;
 }
 
 @keyframes gem-zoom-in{
