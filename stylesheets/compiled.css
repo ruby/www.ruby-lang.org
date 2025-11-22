@@ -3411,7 +3411,7 @@ iframe {
 }
 
 .animate-zoom-in{
-  animation: zoom-in 0.8s ease-out forwards;
+  animation: zoom-in 0.5s ease-out forwards;
 }
 
 .resize{

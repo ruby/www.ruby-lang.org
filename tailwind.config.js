@@ -99,7 +99,7 @@ module.exports = {
         'scroll-left': 'scroll-left 40s linear infinite',
         'fade-in': 'fade-in 0.6s ease-out forwards',
         'fade-out': 'fade-out 0.3s ease-in forwards',
-        'zoom-in': 'zoom-in 0.8s ease-out forwards',
+        'zoom-in': 'zoom-in 0.5s ease-out forwards',
         'pop-in': 'pop-in 0.4s ease-out forwards',
         'gem-zoom-in': 'gem-zoom-in 0.6s ease-out forwards',
         'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
