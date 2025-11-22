@@ -116,24 +116,32 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 100);
 
       // Main illustrations appear towards the end of the gem animation
+      const mainIllustStartDelay = gemAnimationDuration * 0.6;
+      const mainIllustStaggerDelay = 40; // milliseconds between each illustration
+      let mainIllustCount = 0;
+
       setTimeout(() => {
           if (layers.illustMain) {
               layers.illustMain.classList.add('animate-fade-in');
               const illusts = layers.illustMain.querySelectorAll('img');
+              mainIllustCount = illusts.length;
               illusts.forEach((illust, i) => {
                   setTimeout(() => {
                       illust.classList.add('animate-pop-in');
-                  }, i * 40);
+                  }, i * mainIllustStaggerDelay);
               });
           }
-      }, gemAnimationDuration * 0.6);
+      }, mainIllustStartDelay);
 
-      // Sub illustrations appear after everything else has started
+      // Sub illustrations appear after all main illustrations have finished
+      const mainIllustTotalDuration = mainIllustCount * mainIllustStaggerDelay;
+      const subIllustDelay = mainIllustStartDelay + mainIllustTotalDuration + 100;
+
       setTimeout(() => {
         if (layers.illustSub) {
           layers.illustSub.classList.add('animate-fade-in');
         }
-      }, contentDelay + 200);
+      }, subIllustDelay);
 
       // 10. Clean up transition classes after animation
       layers.finalGem.addEventListener('transitionend', () => {
