@@ -3099,6 +3099,14 @@ iframe {
   width: max-content;
 }
 
+.w-\[62px\]{
+  width: 62px;
+}
+
+.w-\[58px\]{
+  width: 58px;
+}
+
 .min-w-0{
   min-width: 0px;
 }
