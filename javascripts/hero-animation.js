@@ -85,9 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
       layers.finalGem.style.transform = `translate(${deltaX}px, ${deltaY}px) scale(${deltaW}, ${deltaH})`;
       layers.finalGem.style.transformOrigin = 'top left';
 
-      // 7. Play the animation
+      // 7. Play the animation with a spring-like easing
       requestAnimationFrame(() => {
-        layers.finalGem.classList.add('transition-transform', 'duration-1000', 'ease-in-out');
+        layers.finalGem.style.transition = 'transform 800ms cubic-bezier(0.34, 1.56, 0.64, 1)';
         layers.finalGem.style.transform = '';
       });
       
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 300);
 
       // 9. Animate in the rest of the hero content in sequence
-      const gemAnimationDuration = 1000;
+      const gemAnimationDuration = 800;
       const contentDelay = gemAnimationDuration + 100; // After gem + 100ms pause
 
       // Content fades and slides in after gem is in place
@@ -143,9 +143,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }, subIllustDelay);
 
-      // 10. Clean up transition classes after animation
+      // 10. Clean up transition after animation
       layers.finalGem.addEventListener('transitionend', () => {
-        layers.finalGem.classList.remove('transition-transform', 'duration-1000', 'ease-in-out');
+        layers.finalGem.style.transition = '';
       }, { once: true });
 
     }, 200); // 200ms delay before starting the whole sequence
