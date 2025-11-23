@@ -3111,6 +3111,10 @@ iframe {
   width: max-content;
 }
 
+.w-\[60px\]{
+  width: 60px;
+}
+
 .min-w-0{
   min-width: 0px;
 }
@@ -4556,6 +4560,10 @@ iframe {
 
   .md\:w-\[88px\]{
     width: 88px;
+  }
+
+  .md\:w-\[75px\]{
+    width: 75px;
   }
 
   .md\:min-w-\[1400px\]{
