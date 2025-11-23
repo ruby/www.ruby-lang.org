@@ -118,13 +118,16 @@ document.addEventListener('DOMContentLoaded', () => {
       // Main illustrations appear towards the end of the gem animation
       const mainIllustStartDelay = gemAnimationDuration * 0.6;
       const mainIllustStaggerDelay = 40; // milliseconds between each illustration
-      let mainIllustCount = 0;
+
+      // Calculate illustration count before setTimeout
+      const mainIllustCount = layers.illustMain ? layers.illustMain.querySelectorAll('img').length : 0;
+      const mainIllustTotalDuration = mainIllustCount * mainIllustStaggerDelay;
+      const subIllustDelay = mainIllustStartDelay + mainIllustTotalDuration + 100;
 
       setTimeout(() => {
           if (layers.illustMain) {
               layers.illustMain.classList.add('animate-fade-in');
               const illusts = layers.illustMain.querySelectorAll('img');
-              mainIllustCount = illusts.length;
               illusts.forEach((illust, i) => {
                   setTimeout(() => {
                       illust.classList.add('animate-pop-in');
@@ -134,9 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }, mainIllustStartDelay);
 
       // Sub illustrations appear after all main illustrations have finished
-      const mainIllustTotalDuration = mainIllustCount * mainIllustStaggerDelay;
-      const subIllustDelay = mainIllustStartDelay + mainIllustTotalDuration + 100;
-
       setTimeout(() => {
         if (layers.illustSub) {
           layers.illustSub.classList.add('animate-fade-in');
