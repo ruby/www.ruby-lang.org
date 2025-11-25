@@ -2441,16 +2441,12 @@ iframe {
   position: sticky;
 }
 
-.inset-0{
-  inset: 0px;
-}
-
-.-inset-8{
-  inset: -2rem;
-}
-
 .-inset-4{
   inset: -1rem;
+}
+
+.inset-0{
+  inset: 0px;
 }
 
 .-left-6{
@@ -3644,10 +3640,6 @@ iframe {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gold-100{
-  background-color: var(--color-gold-100);
-}
-
 .fill-gold-300{
   fill: var(--color-gold-300);
 }
@@ -4426,10 +4418,6 @@ iframe {
 }
 
 @media (min-width: 768px){
-  .md\:-inset-12{
-    inset: -3rem;
-  }
-
   .md\:-inset-6{
     inset: -1.5rem;
   }
@@ -4768,10 +4756,6 @@ iframe {
 }
 
 @media (min-width: 1024px){
-  .lg\:-inset-16{
-    inset: -4rem;
-  }
-
   .lg\:-inset-8{
     inset: -2rem;
   }
@@ -5121,6 +5105,10 @@ iframe {
 
   .xl\:w-64{
     width: 16rem;
+  }
+
+  .xl\:w-\[1148px\]{
+    width: 1148px;
   }
 
   .xl\:flex-row{
