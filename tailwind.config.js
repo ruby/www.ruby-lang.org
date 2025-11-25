@@ -36,8 +36,6 @@ module.exports = {
     'animate-fade-out',
     'animate-gem-zoom-in',
     'animate-fade-slide-in',
-    'animate-sunburst-rotate',
-    'animate-sunburst-twinkle',
   ],
   theme: {
     container: {
@@ -96,10 +94,6 @@ module.exports = {
           '0%': { opacity: '0', transform: 'translateY(-20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
-        'sunburst-rotate': {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(360deg)' },
-        },
       },
       animation: {
         'scroll-left': 'scroll-left 40s linear infinite',
@@ -109,8 +103,6 @@ module.exports = {
         'pop-in': 'pop-in 0.4s ease-out forwards',
         'gem-zoom-in': 'gem-zoom-in 0.6s ease-out forwards',
         'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
-        'sunburst-rotate': 'sunburst-rotate 120s linear infinite',
-        'sunburst-twinkle': 'sunburst-twinkle 5s ease-in-out infinite',
       },
       colors: {
         stone: {
