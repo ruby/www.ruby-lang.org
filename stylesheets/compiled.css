@@ -2445,6 +2445,14 @@ iframe {
   inset: 0px;
 }
 
+.-inset-8{
+  inset: -2rem;
+}
+
+.-inset-4{
+  inset: -1rem;
+}
+
 .-left-6{
   left: -1.5rem;
 }
@@ -4418,6 +4426,14 @@ iframe {
 }
 
 @media (min-width: 768px){
+  .md\:-inset-12{
+    inset: -3rem;
+  }
+
+  .md\:-inset-6{
+    inset: -1.5rem;
+  }
+
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -4752,6 +4768,14 @@ iframe {
 }
 
 @media (min-width: 1024px){
+  .lg\:-inset-16{
+    inset: -4rem;
+  }
+
+  .lg\:-inset-8{
+    inset: -2rem;
+  }
+
   .lg\:top-40{
     top: 10rem;
   }
