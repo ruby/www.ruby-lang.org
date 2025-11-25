@@ -5123,6 +5123,10 @@ iframe {
     width: 16rem;
   }
 
+  .xl\:w-\[1148px\]{
+    width: 1148px;
+  }
+
   .xl\:flex-row{
     flex-direction: row;
   }
