@@ -3159,6 +3159,14 @@ iframe {
   max-width: 280px;
 }
 
+.max-w-\[17\.5rem\]{
+  max-width: 17.5rem;
+}
+
+.max-w-\[16rem\]{
+  max-width: 16rem;
+}
+
 .flex-1{
   flex: 1 1 0%;
 }
@@ -4622,6 +4630,14 @@ iframe {
     max-width: 400px;
   }
 
+  .md\:max-w-\[25rem\]{
+    max-width: 25rem;
+  }
+
+  .md\:max-w-\[23rem\]{
+    max-width: 23rem;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -4954,6 +4970,14 @@ iframe {
 
   .lg\:max-w-\[480px\]{
     max-width: 480px;
+  }
+
+  .lg\:max-w-\[30rem\]{
+    max-width: 30rem;
+  }
+
+  .lg\:max-w-\[28rem\]{
+    max-width: 28rem;
   }
 
   .lg\:grid-cols-2{
