@@ -29,6 +29,13 @@ module.exports = {
     // SVG fill for custom stone-770 color
     'fill-stone-770',
     'dark:fill-stone-770',
+    // Hero animation classes
+    'animate-fade-in',
+    'animate-zoom-in',
+    'animate-pop-in',
+    'animate-fade-out',
+    'animate-gem-zoom-in',
+    'animate-fade-slide-in',
   ],
   theme: {
     container: {
@@ -48,7 +55,32 @@ module.exports = {
     },
     extend: {
       keyframes: {
-        'hero-gem-in': {
+        'scroll-left': {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '100%': {
+            transform: 'translateX(calc(-50% - 1rem))',
+          },
+        },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'fade-out': {
+          '0%': { opacity: '1' },
+          '100%': { opacity: '0' },
+        },
+        'zoom-in': {
+          '0%': { opacity: '0', transform: 'translate(-50%, 0) scale(0.5)' },
+          '100%': { opacity: '1', transform: 'translate(-50%, 0) scale(1)' },
+        },
+        'pop-in': {
+          '0%': { opacity: '0', transform: 'scale(0.8) rotate(var(--tw-rotate, 0deg))' },
+          '80%': { opacity: '1', transform: 'scale(1.05) rotate(var(--tw-rotate, 0deg))' },
+          '100%': { opacity: '1', transform: 'scale(1) rotate(var(--tw-rotate, 0deg))' },
+        },
+        'gem-zoom-in': {
           '0%': {
             opacity: '0',
             transform: 'scale(0.8)',
@@ -58,40 +90,19 @@ module.exports = {
             transform: 'scale(1)',
           },
         },
-        'hero-content-in': {
-          '0%': {
-            opacity: '0',
-            transform: 'translateY(-20px)',
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translateY(0)',
-          },
-        },
-        'hero-bg-in': {
-          '0%': {
-            opacity: '0',
-            transform: 'translate(-50%, 0) scale(0.95)',
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translate(-50%, 0) scale(1)',
-          },
-        },
-        'scroll-left': {
-          '0%': {
-            transform: 'translateX(0)',
-          },
-          '100%': {
-            transform: 'translateX(calc(-50% - 1rem))',
-          },
+        'fade-slide-in': {
+          '0%': { opacity: '0', transform: 'translateY(-20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
       },
       animation: {
-        'hero-gem-in': 'hero-gem-in 0.6s ease-out forwards',
-        'hero-content-in': 'hero-content-in 0.6s ease-out 0.4s forwards',
-        'hero-bg-in': 'hero-bg-in 0.7s ease-out 0.8s forwards',
         'scroll-left': 'scroll-left 40s linear infinite',
+        'fade-in': 'fade-in 0.6s ease-out forwards',
+        'fade-out': 'fade-out 0.3s ease-in forwards',
+        'zoom-in': 'zoom-in 0.5s ease-out forwards',
+        'pop-in': 'pop-in 0.4s ease-out forwards',
+        'gem-zoom-in': 'gem-zoom-in 0.6s ease-out forwards',
+        'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
       },
       colors: {
         stone: {
