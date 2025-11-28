@@ -36,9 +36,8 @@ Quelques liens à visiter:
   discuter en temps réel avec d’autres rubyistes.
 
 [Ruby Core](ruby-core/)
-: Avec la version 2.0 de Ruby en cours de développement, c’est le moment
-  opportun de suivre l’évolution du projet. Si vous êtes interessé à
-  contribuer à ce dernier, commencez par ici.
+: C’est une période formidable pour suivre l’évolution du projet.
+  Si vous êtes interessé à contribuer à ce dernier, commencez par ici.
 
 [Blogs](weblogs/)
 : Très peu de choses se passent dans la communauté Ruby sans qu’elles ne
