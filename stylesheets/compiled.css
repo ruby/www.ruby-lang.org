@@ -3378,33 +3378,69 @@ iframe {
 
 @keyframes heartbeat{
   0%, 100%{
-    transform: scale(1);
+    transform: scale(1) rotate(var(--tw-rotate, 0deg));
     transform-origin: center center;
   }
 
   1.5%{
-    transform: scale(1.03);
+    transform: scale(1.03) rotate(var(--tw-rotate, 0deg));
     transform-origin: center center;
   }
 
   3%{
-    transform: scale(1);
+    transform: scale(1) rotate(var(--tw-rotate, 0deg));
     transform-origin: center center;
   }
 
   4.5%{
-    transform: scale(1.02);
+    transform: scale(1.02) rotate(var(--tw-rotate, 0deg));
     transform-origin: center center;
   }
 
   6%{
-    transform: scale(1);
+    transform: scale(1) rotate(var(--tw-rotate, 0deg));
     transform-origin: center center;
   }
 }
 
 .animate-heartbeat{
   animation: heartbeat 10s ease-in-out infinite;
+}
+
+@keyframes heartbeat-illust{
+  0%, 100%{
+    opacity: 1;
+    transform: scale(1) rotate(var(--tw-rotate, 0deg));
+    transform-origin: center center;
+  }
+
+  1%{
+    opacity: 1;
+    transform: scale(1.02) rotate(calc(var(--tw-rotate, 0deg) + 2deg));
+    transform-origin: center center;
+  }
+
+  2%{
+    opacity: 1;
+    transform: scale(1.04) rotate(calc(var(--tw-rotate, 0deg) - 2deg));
+    transform-origin: center center;
+  }
+
+  3%{
+    opacity: 1;
+    transform: scale(1.02) rotate(calc(var(--tw-rotate, 0deg) + 1deg));
+    transform-origin: center center;
+  }
+
+  4%{
+    opacity: 1;
+    transform: scale(1) rotate(var(--tw-rotate, 0deg));
+    transform-origin: center center;
+  }
+}
+
+.animate-heartbeat-illust{
+  animation: heartbeat-illust 10s ease-in-out infinite;
 }
 
 @keyframes pop-in{

@@ -156,15 +156,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }, subIllustDelay);
 
-      // Clean up transition after animation and start heartbeat
-      layers.finalGem.addEventListener('transitionend', () => {
+      // Clean up transition after animation
+      setTimeout(() => {
         layers.finalGem.style.transition = '';
         layers.finalGem.style.transform = '';
-        // Start heartbeat animation after gem settles
-        setTimeout(() => {
-          layers.finalGem.classList.add('animate-heartbeat');
-        }, 500);
-      }, { once: true });
+      }, gemAnimationDuration + 50);
+
+      // Start heartbeat animation after all animations complete
+      const heartbeatStartDelay = gemAnimationDuration + mainIllustTotalDuration + 1000;
+      setTimeout(() => {
+        // Add heartbeat to gem
+        layers.finalGem.classList.add('animate-heartbeat');
+        // Sync heartbeat to all main illustrations
+        if (layers.illustMain) {
+          const illusts = layers.illustMain.querySelectorAll('img');
+          illusts.forEach(illust => {
+            // Remove pop-in animation class first to avoid conflict
+            illust.classList.remove('animate-pop-in');
+            // Use illust-specific heartbeat that preserves opacity
+            illust.classList.add('animate-heartbeat-illust');
+          });
+        }
+      }, heartbeatStartDelay);
 
     }, 350); // Wait for percentage to fade out
   }

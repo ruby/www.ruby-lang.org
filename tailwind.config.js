@@ -37,6 +37,7 @@ module.exports = {
     'animate-gem-zoom-in',
     'animate-fade-slide-in',
     'animate-heartbeat',
+    'animate-heartbeat-illust',
   ],
   theme: {
     container: {
@@ -96,11 +97,18 @@ module.exports = {
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         'heartbeat': {
-          '0%, 100%': { transform: 'scale(1)', transformOrigin: 'center center' },
-          '1.5%': { transform: 'scale(1.03)', transformOrigin: 'center center' },
-          '3%': { transform: 'scale(1)', transformOrigin: 'center center' },
-          '4.5%': { transform: 'scale(1.02)', transformOrigin: 'center center' },
-          '6%': { transform: 'scale(1)', transformOrigin: 'center center' },
+          '0%, 100%': { transform: 'scale(1) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
+          '1.5%': { transform: 'scale(1.03) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
+          '3%': { transform: 'scale(1) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
+          '4.5%': { transform: 'scale(1.02) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
+          '6%': { transform: 'scale(1) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
+        },
+        'heartbeat-illust': {
+          '0%, 100%': { opacity: '1', transform: 'scale(1) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
+          '1%': { opacity: '1', transform: 'scale(1.02) rotate(calc(var(--tw-rotate, 0deg) + 2deg))', transformOrigin: 'center center' },
+          '2%': { opacity: '1', transform: 'scale(1.04) rotate(calc(var(--tw-rotate, 0deg) - 2deg))', transformOrigin: 'center center' },
+          '3%': { opacity: '1', transform: 'scale(1.02) rotate(calc(var(--tw-rotate, 0deg) + 1deg))', transformOrigin: 'center center' },
+          '4%': { opacity: '1', transform: 'scale(1) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
         },
       },
       animation: {
@@ -112,6 +120,7 @@ module.exports = {
         'gem-zoom-in': 'gem-zoom-in 0.6s ease-out forwards',
         'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
         'heartbeat': 'heartbeat 10s ease-in-out infinite',
+        'heartbeat-illust': 'heartbeat-illust 10s ease-in-out infinite',
       },
       colors: {
         stone: {
