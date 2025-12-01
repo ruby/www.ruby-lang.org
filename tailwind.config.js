@@ -97,10 +97,10 @@ module.exports = {
         },
         'heartbeat': {
           '0%, 100%': { transform: 'scale(1)', transformOrigin: 'center center' },
-          '4%': { transform: 'scale(1.03)', transformOrigin: 'center center' },
-          '8%': { transform: 'scale(1)', transformOrigin: 'center center' },
-          '12%': { transform: 'scale(1.02)', transformOrigin: 'center center' },
-          '16%': { transform: 'scale(1)', transformOrigin: 'center center' },
+          '1.5%': { transform: 'scale(1.03)', transformOrigin: 'center center' },
+          '3%': { transform: 'scale(1)', transformOrigin: 'center center' },
+          '4.5%': { transform: 'scale(1.02)', transformOrigin: 'center center' },
+          '6%': { transform: 'scale(1)', transformOrigin: 'center center' },
         },
       },
       animation: {
@@ -111,7 +111,7 @@ module.exports = {
         'pop-in': 'pop-in 0.4s ease-out forwards',
         'gem-zoom-in': 'gem-zoom-in 0.6s ease-out forwards',
         'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
-        'heartbeat': 'heartbeat 3s ease-in-out infinite',
+        'heartbeat': 'heartbeat 10s ease-in-out infinite',
       },
       colors: {
         stone: {
