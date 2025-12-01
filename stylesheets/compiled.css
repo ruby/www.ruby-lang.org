@@ -2449,6 +2449,10 @@ iframe {
   inset: 0px;
 }
 
+.-inset-6{
+  inset: -1.5rem;
+}
+
 .-left-6{
   left: -1.5rem;
 }
@@ -3784,6 +3788,11 @@ iframe {
   padding-bottom: 1.5rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-0{
   padding-bottom: 0px;
 }
@@ -3854,6 +3863,14 @@ iframe {
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pb-14{
+  padding-bottom: 3.5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-left{
@@ -4470,6 +4487,10 @@ iframe {
     inset: -1.5rem;
   }
 
+  .md\:-inset-8{
+    inset: -2rem;
+  }
+
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -4820,6 +4841,10 @@ iframe {
     inset: -2rem;
   }
 
+  .lg\:-inset-12{
+    inset: -3rem;
+  }
+
   .lg\:top-40{
     top: 10rem;
   }
@@ -5134,6 +5159,14 @@ iframe {
 
   .lg\:pt-\[7\.5rem\]{
     padding-top: 7.5rem;
+  }
+
+  .lg\:pb-28{
+    padding-bottom: 7rem;
+  }
+
+  .lg\:pt-20{
+    padding-top: 5rem;
   }
 
   .lg\:text-left{
