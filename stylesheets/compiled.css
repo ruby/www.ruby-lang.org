@@ -3376,6 +3376,37 @@ iframe {
   animation: gem-zoom-in 0.6s ease-out forwards;
 }
 
+@keyframes heartbeat{
+  0%, 100%{
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  4%{
+    transform: scale(1.03);
+    transform-origin: center center;
+  }
+
+  8%{
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  12%{
+    transform: scale(1.02);
+    transform-origin: center center;
+  }
+
+  16%{
+    transform: scale(1);
+    transform-origin: center center;
+  }
+}
+
+.animate-heartbeat{
+  animation: heartbeat 3s ease-in-out infinite;
+}
+
 @keyframes pop-in{
   0%{
     opacity: 0;

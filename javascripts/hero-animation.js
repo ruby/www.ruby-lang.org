@@ -156,10 +156,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }, subIllustDelay);
 
-      // Clean up transition after animation
+      // Clean up transition after animation and start heartbeat
       layers.finalGem.addEventListener('transitionend', () => {
         layers.finalGem.style.transition = '';
         layers.finalGem.style.transform = '';
+        // Start heartbeat animation after gem settles
+        setTimeout(() => {
+          layers.finalGem.classList.add('animate-heartbeat');
+        }, 500);
       }, { once: true });
 
     }, 350); // Wait for percentage to fade out

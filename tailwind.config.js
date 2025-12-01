@@ -36,6 +36,7 @@ module.exports = {
     'animate-fade-out',
     'animate-gem-zoom-in',
     'animate-fade-slide-in',
+    'animate-heartbeat',
   ],
   theme: {
     container: {
@@ -94,6 +95,13 @@ module.exports = {
           '0%': { opacity: '0', transform: 'translateY(-20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
+        'heartbeat': {
+          '0%, 100%': { transform: 'scale(1)', transformOrigin: 'center center' },
+          '4%': { transform: 'scale(1.03)', transformOrigin: 'center center' },
+          '8%': { transform: 'scale(1)', transformOrigin: 'center center' },
+          '12%': { transform: 'scale(1.02)', transformOrigin: 'center center' },
+          '16%': { transform: 'scale(1)', transformOrigin: 'center center' },
+        },
       },
       animation: {
         'scroll-left': 'scroll-left 40s linear infinite',
@@ -103,6 +111,7 @@ module.exports = {
         'pop-in': 'pop-in 0.4s ease-out forwards',
         'gem-zoom-in': 'gem-zoom-in 0.6s ease-out forwards',
         'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
+        'heartbeat': 'heartbeat 3s ease-in-out infinite',
       },
       colors: {
         stone: {
