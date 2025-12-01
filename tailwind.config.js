@@ -76,8 +76,8 @@ module.exports = {
           '100%': { opacity: '1', transform: 'translate(-50%, 0) scale(1)' },
         },
         'pop-in': {
-          '0%': { opacity: '0', transform: 'scale(0.8) rotate(var(--tw-rotate, 0deg))' },
-          '80%': { opacity: '1', transform: 'scale(1.05) rotate(var(--tw-rotate, 0deg))' },
+          '0%': { opacity: '0', transform: 'scale(0.8) rotate(calc(var(--tw-rotate, 0deg) - 15deg))' },
+          '80%': { opacity: '1', transform: 'scale(1.05) rotate(calc(var(--tw-rotate, 0deg) + 3deg))' },
           '100%': { opacity: '1', transform: 'scale(1) rotate(var(--tw-rotate, 0deg))' },
         },
         'gem-zoom-in': {
