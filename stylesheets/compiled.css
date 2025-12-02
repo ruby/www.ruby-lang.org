@@ -31,6 +31,7 @@
   /* Gold color palette */
   --color-gold-50: #FAF7F1;
   --color-gold-100: #F6F3EB;
+  --color-gold-150: #F1EEE4;
   --color-gold-200: #EDE9DD;
   --color-gold-300: #ebe5d5;
   --color-gold-400: #E2D1AA;
@@ -3733,8 +3734,8 @@ iframe {
   border-color: rgb(168 162 158 / var(--tw-border-opacity, 1));
 }
 
-.bg-gold-100{
-  background-color: var(--color-gold-100);
+.bg-gold-200{
+  background-color: var(--color-gold-200);
 }
 
 .bg-gold-300{
@@ -3758,6 +3759,10 @@ iframe {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gold-150{
+  background-color: var(--color-gold-150);
 }
 
 .fill-gold-300{

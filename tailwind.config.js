@@ -205,6 +205,7 @@ module.exports = {
         gold: {
           50: 'var(--color-gold-50)',
           100: 'var(--color-gold-100)',
+          150: 'var(--color-gold-150)',
           200: 'var(--color-gold-200)',
           300: 'var(--color-gold-300)',
           400: 'var(--color-gold-400)',
