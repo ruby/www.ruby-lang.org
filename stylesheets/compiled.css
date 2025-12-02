@@ -2774,6 +2774,10 @@ iframe {
   top: 20%;
 }
 
+.-top-2{
+  top: -0.5rem;
+}
+
 .z-0{
   z-index: 0;
 }
@@ -4061,6 +4065,15 @@ iframe {
   line-height: 1rem;
 }
 
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-\[5rem\]{
+  font-size: 5rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -4116,6 +4129,10 @@ iframe {
 
 .leading-snug{
   line-height: 1.375;
+}
+
+.leading-none{
+  line-height: 1;
 }
 
 .tracking-\[0\.1em\]{
@@ -4608,6 +4625,18 @@ iframe {
     top: 17%;
   }
 
+  .md\:-top-5{
+    top: -1.25rem;
+  }
+
+  .md\:-top-3{
+    top: -0.75rem;
+  }
+
+  .md\:top-0{
+    top: 0px;
+  }
+
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -4951,6 +4980,15 @@ iframe {
     line-height: 1rem;
   }
 
+  .md\:text-9xl{
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .md\:text-\[6\.5rem\]{
+    font-size: 6.5rem;
+  }
+
   .md\:dark\:bg-transparent:is(.dark *){
     background-color: transparent;
   }
@@ -4967,6 +5005,18 @@ iframe {
 
   .lg\:top-\[16\%\]{
     top: 16%;
+  }
+
+  .lg\:-top-8{
+    top: -2rem;
+  }
+
+  .lg\:-top-4{
+    top: -1rem;
+  }
+
+  .lg\:top-0{
+    top: 0px;
   }
 
   .lg\:col-span-2{
@@ -5307,6 +5357,19 @@ iframe {
 
   .lg\:text-lg{
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-\[8rem\]{
+    font-size: 8rem;
+  }
+
+  .lg\:text-\[7\.5rem\]{
+    font-size: 7.5rem;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
