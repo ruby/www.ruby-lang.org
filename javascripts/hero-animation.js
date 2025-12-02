@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const loader = document.getElementById('hero-loader');
   const illustContainer = document.querySelector('[data-hero-illustrations]');
-  
+
   // Ensure all required elements are present
   if (!loader || !illustContainer) {
     console.error('Required hero elements not found.');
@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const loadingGem = document.getElementById('loader-gem-shape');
   const percentageText = document.getElementById('loader-percentage');
+  const loaderNumber = document.getElementById('loader-number');
 
   if (!loadingGem || !percentageText || Object.values(layers).some(el => !el)) {
     console.error('One or more hero animation layers are missing.');
@@ -36,13 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const updateProgress = () => {
     loadedImages++;
     const percentage = Math.round((loadedImages / totalImages) * 100);
-    const loaderNumber = document.getElementById('loader-number');
     if (loaderNumber) {
         loaderNumber.textContent = `${percentage}`;
     }
     if (loadedImages === totalImages) {
       // Short delay to ensure 100% is read by the user
-      setTimeout(startAnimation, 150);
+      setTimeout(startAnimation, 300);
     }
   };
 
@@ -60,66 +60,79 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function startAnimation() {
-    // Add a delay before starting the main animation sequence
+    // Phase 1: Fade out percentage text smoothly
+    percentageText.style.transition = 'opacity 300ms ease-out';
+    percentageText.style.opacity = '0';
+
+    // Remove pulse animation for smooth transition
+    loadingGem.classList.remove('animate-pulse');
+
+    // Phase 2: After percentage fades, start the gem transformation
     setTimeout(() => {
-      // 1. Get initial position of the loading gem (First)
+      // Get initial position of the loading gem (First)
       const initialRect = loadingGem.getBoundingClientRect();
 
-      // 2. Hide loading percentage and remove pulse animation
-      percentageText.style.opacity = '0';
-      loadingGem.classList.remove('animate-pulse');
+      // Get the gem image inside the loader
+      const loaderGemImg = loadingGem.querySelector('img');
 
-      // 3. Make the final gem ready for animation
+      // Prepare the final gem - position it exactly where the loader gem is
       layers.finalGem.style.opacity = '1';
 
-      // 4. Get final position of the gem (Last)
+      // Get final position of the gem (Last)
       const finalRect = layers.finalGem.getBoundingClientRect();
 
-      // 5. Calculate the difference (Invert)
+      // Calculate the difference (Invert)
       const deltaX = initialRect.left - finalRect.left;
       const deltaY = initialRect.top - finalRect.top;
-      const deltaW = initialRect.width / finalRect.width;
-      const deltaH = initialRect.height / finalRect.height;
+      const scaleX = initialRect.width / finalRect.width;
+      const scaleY = initialRect.height / finalRect.height;
 
-      // 6. Apply the inverse transform
-      layers.finalGem.style.transform = `translate(${deltaX}px, ${deltaY}px) scale(${deltaW}, ${deltaH})`;
+      // Apply the inverse transform to final gem (start from loader position)
+      layers.finalGem.style.transform = `translate(${deltaX}px, ${deltaY}px) scale(${scaleX}, ${scaleY})`;
       layers.finalGem.style.transformOrigin = 'top left';
 
-      // 7. Play the animation with a spring-like easing
+      // Hide the loader gem immediately (final gem is now in its place)
+      loaderGemImg.style.opacity = '0';
+
+      // Fade out loader background
+      loader.style.transition = 'opacity 400ms ease-out';
+      loader.style.opacity = '0';
+
+      // Start the gem expansion animation
       requestAnimationFrame(() => {
-        layers.finalGem.style.transition = 'transform 800ms cubic-bezier(0.34, 1.56, 0.64, 1)';
-        layers.finalGem.style.transform = '';
+        requestAnimationFrame(() => {
+          // Animate final gem to its destination with smooth easing
+          layers.finalGem.style.transition = 'transform 900ms cubic-bezier(0.22, 1, 0.36, 1)';
+          layers.finalGem.style.transform = 'translate(0, 0) scale(1)';
+        });
       });
-      
-      // 8. Hide the old loader
-      loader.classList.add('animate-fade-out');
+
+      // Hide loader element after fade
       setTimeout(() => {
         loader.style.display = 'none';
-      }, 300);
+      }, 400);
 
-      // 9. Animate in the rest of the hero content in sequence
-      const gemAnimationDuration = 800;
-      const contentDelay = gemAnimationDuration + 100; // After gem + 100ms pause
+      // Phase 3: Animate other elements in sequence
+      const gemAnimationDuration = 900;
 
-      // Content fades and slides in after gem is in place
-      setTimeout(() => {
-        if (layers.content) {
-          layers.content.classList.add('animate-fade-slide-in');
-        }
-      }, contentDelay);
-
-      // Sunburst radiates out, timed to start with the gem
+      // Sunburst starts expanding with the gem
       setTimeout(() => {
         if (layers.sunburst) {
           layers.sunburst.classList.add('animate-zoom-in');
         }
       }, 100);
 
-      // Main illustrations appear towards the end of the gem animation
-      const mainIllustStartDelay = gemAnimationDuration * 0.6;
-      const mainIllustStaggerDelay = 40; // milliseconds between each illustration
+      // Content fades in as gem reaches its destination
+      setTimeout(() => {
+        if (layers.content) {
+          layers.content.classList.add('animate-fade-slide-in');
+        }
+      }, gemAnimationDuration * 0.7);
 
-      // Calculate illustration count before setTimeout
+      // Main illustrations appear towards the end of gem animation
+      const mainIllustStartDelay = gemAnimationDuration * 0.5;
+      const mainIllustStaggerDelay = 35;
+
       const mainIllustCount = layers.illustMain ? layers.illustMain.querySelectorAll('img').length : 0;
       const mainIllustTotalDuration = mainIllustCount * mainIllustStaggerDelay;
       const subIllustDelay = mainIllustStartDelay + mainIllustTotalDuration + 100;
@@ -128,27 +141,62 @@ document.addEventListener('DOMContentLoaded', () => {
           if (layers.illustMain) {
               layers.illustMain.classList.add('animate-fade-in');
               const illusts = layers.illustMain.querySelectorAll('img');
+              const trainExtraDelay = 400; // Extra delay for train to appear 1 beat later
               illusts.forEach((illust, i) => {
                   setTimeout(() => {
-                      illust.classList.add('animate-pop-in');
+                      // Train has a special slide-in animation (no bounce)
+                      if (illust.hasAttribute('data-hero-train')) {
+                          // Train appears later and starts running immediately after slide-in
+                          setTimeout(() => {
+                              illust.classList.add('animate-train-slide-in');
+                              // Start running animation right after slide-in completes (600ms)
+                              setTimeout(() => {
+                                  illust.classList.remove('animate-train-slide-in');
+                                  illust.classList.add('animate-train-running');
+                              }, 600);
+                          }, trainExtraDelay);
+                      } else {
+                          illust.classList.add('animate-pop-in');
+                      }
                   }, i * mainIllustStaggerDelay);
               });
           }
       }, mainIllustStartDelay);
 
-      // Sub illustrations appear after all main illustrations have finished
+      // Sub illustrations appear after main illustrations
       setTimeout(() => {
         if (layers.illustSub) {
           layers.illustSub.classList.add('animate-fade-in');
         }
       }, subIllustDelay);
 
-      // 10. Clean up transition after animation
-      layers.finalGem.addEventListener('transitionend', () => {
+      // Clean up transition after animation
+      setTimeout(() => {
         layers.finalGem.style.transition = '';
-      }, { once: true });
+        layers.finalGem.style.transform = '';
+      }, gemAnimationDuration + 50);
 
-    }, 200); // 200ms delay before starting the whole sequence
+      // Start heartbeat animation after all animations complete
+      const heartbeatStartDelay = gemAnimationDuration + mainIllustTotalDuration + 1000;
+      setTimeout(() => {
+        // Add heartbeat to gem
+        layers.finalGem.classList.add('animate-heartbeat');
+        // Sync heartbeat to all main illustrations
+        if (layers.illustMain) {
+          const illusts = layers.illustMain.querySelectorAll('img');
+          illusts.forEach(illust => {
+            // Train already has running animation, skip it
+            if (illust.hasAttribute('data-hero-train')) {
+              return;
+            }
+            // Remove pop-in animation class first to avoid conflict
+            illust.classList.remove('animate-pop-in');
+            // Use illust-specific heartbeat that preserves opacity
+            illust.classList.add('animate-heartbeat-illust');
+          });
+        }
+      }, heartbeatStartDelay);
+
+    }, 350); // Wait for percentage to fade out
   }
 });
-
