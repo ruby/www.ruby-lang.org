@@ -3488,6 +3488,48 @@ iframe {
   animation: scroll-left 40s linear infinite;
 }
 
+@keyframes train-running{
+  0%, 100%{
+    opacity: 1;
+    transform: translateX(0) rotate(var(--tw-rotate, 0deg));
+  }
+
+  25%{
+    opacity: 1;
+    transform: translateX(2px) rotate(calc(var(--tw-rotate, 0deg) + 0.3deg));
+  }
+
+  50%{
+    opacity: 1;
+    transform: translateX(-1px) rotate(calc(var(--tw-rotate, 0deg) - 0.2deg));
+  }
+
+  75%{
+    opacity: 1;
+    transform: translateX(1.5px) rotate(calc(var(--tw-rotate, 0deg) + 0.2deg));
+  }
+}
+
+.animate-train-running{
+  animation: train-running 0.4s ease-in-out infinite;
+}
+
+@keyframes train-slide-in{
+  0%{
+    opacity: 0;
+    transform: translateX(-30px) rotate(var(--tw-rotate, 0deg));
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0) rotate(var(--tw-rotate, 0deg));
+  }
+}
+
+.animate-train-slide-in{
+  animation: train-slide-in 0.6s ease-out forwards;
+}
+
 @keyframes zoom-in{
   0%{
     opacity: 0;

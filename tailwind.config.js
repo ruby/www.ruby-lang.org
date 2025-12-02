@@ -38,6 +38,8 @@ module.exports = {
     'animate-fade-slide-in',
     'animate-heartbeat',
     'animate-heartbeat-illust',
+    'animate-train-slide-in',
+    'animate-train-running',
   ],
   theme: {
     container: {
@@ -110,6 +112,18 @@ module.exports = {
           '3%': { opacity: '1', transform: 'scale(1.02) rotate(calc(var(--tw-rotate, 0deg) + 1deg))', transformOrigin: 'center center' },
           '4%': { opacity: '1', transform: 'scale(1) rotate(var(--tw-rotate, 0deg))', transformOrigin: 'center center' },
         },
+        // Train slide-in animation (left to right with fade)
+        'train-slide-in': {
+          '0%': { opacity: '0', transform: 'translateX(-30px) rotate(var(--tw-rotate, 0deg))' },
+          '100%': { opacity: '1', transform: 'translateX(0) rotate(var(--tw-rotate, 0deg))' },
+        },
+        // Train running animation (continuous small back-and-forth movement)
+        'train-running': {
+          '0%, 100%': { opacity: '1', transform: 'translateX(0) rotate(var(--tw-rotate, 0deg))' },
+          '25%': { opacity: '1', transform: 'translateX(2px) rotate(calc(var(--tw-rotate, 0deg) + 0.3deg))' },
+          '50%': { opacity: '1', transform: 'translateX(-1px) rotate(calc(var(--tw-rotate, 0deg) - 0.2deg))' },
+          '75%': { opacity: '1', transform: 'translateX(1.5px) rotate(calc(var(--tw-rotate, 0deg) + 0.2deg))' },
+        },
       },
       animation: {
         'scroll-left': 'scroll-left 40s linear infinite',
@@ -121,6 +135,8 @@ module.exports = {
         'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
         'heartbeat': 'heartbeat 10s ease-in-out infinite',
         'heartbeat-illust': 'heartbeat-illust 10s ease-in-out infinite',
+        'train-slide-in': 'train-slide-in 0.6s ease-out forwards',
+        'train-running': 'train-running 0.4s ease-in-out infinite',
       },
       colors: {
         stone: {
