@@ -2410,6 +2410,10 @@ iframe {
   pointer-events: none;
 }
 
+.pointer-events-auto{
+  pointer-events: auto;
+}
+
 .visible{
   visibility: visible;
 }
@@ -2752,6 +2756,22 @@ iframe {
 
 .top-\[83\.6\%\]{
   top: 83.6%;
+}
+
+.top-\[18\%\]{
+  top: 18%;
+}
+
+.left-\[50\%\]{
+  left: 50%;
+}
+
+.top-\[13\%\]{
+  top: 13%;
+}
+
+.top-\[20\%\]{
+  top: 20%;
 }
 
 .z-0{
@@ -3126,6 +3146,14 @@ iframe {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[220px\]{
+  width: 220px;
+}
+
+.w-\[280px\]{
+  width: 280px;
 }
 
 .min-w-0{
@@ -3944,6 +3972,14 @@ iframe {
   padding-top: 1.5rem;
 }
 
+.pt-16{
+  padding-top: 4rem;
+}
+
+.pt-\[4\.5rem\]{
+  padding-top: 4.5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -4169,6 +4205,16 @@ iframe {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.drop-shadow-md{
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-sm{
+  --tw-drop-shadow: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .filter{
@@ -4558,6 +4604,10 @@ iframe {
     inset: -2rem;
   }
 
+  .md\:top-\[17\%\]{
+    top: 17%;
+  }
+
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -4726,6 +4776,14 @@ iframe {
     width: 94px;
   }
 
+  .md\:w-\[300px\]{
+    width: 300px;
+  }
+
+  .md\:w-\[368px\]{
+    width: 368px;
+  }
+
   .md\:min-w-\[1400px\]{
     min-width: 1400px;
   }
@@ -4841,6 +4899,14 @@ iframe {
     padding-top: 6.25rem;
   }
 
+  .md\:pt-20{
+    padding-top: 5rem;
+  }
+
+  .md\:pt-\[5\.5rem\]{
+    padding-top: 5.5rem;
+  }
+
   .md\:text-center{
     text-align: center;
   }
@@ -4897,6 +4963,10 @@ iframe {
 
   .lg\:top-40{
     top: 10rem;
+  }
+
+  .lg\:top-\[16\%\]{
+    top: 16%;
   }
 
   .lg\:col-span-2{
@@ -5063,6 +5133,14 @@ iframe {
     width: auto;
   }
 
+  .lg\:w-\[360px\]{
+    width: 360px;
+  }
+
+  .lg\:w-\[448px\]{
+    width: 448px;
+  }
+
   .lg\:min-w-\[1728px\]{
     min-width: 1728px;
   }
@@ -5209,6 +5287,10 @@ iframe {
 
   .lg\:pt-\[7\.5rem\]{
     padding-top: 7.5rem;
+  }
+
+  .lg\:pt-\[6\.5rem\]{
+    padding-top: 6.5rem;
   }
 
   .lg\:text-left{
