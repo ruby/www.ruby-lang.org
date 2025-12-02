@@ -2454,6 +2454,26 @@ iframe {
   inset: 0px;
 }
 
+.-inset-8{
+  inset: -2rem;
+}
+
+.-inset-12{
+  inset: -3rem;
+}
+
+.-inset-14{
+  inset: -3.5rem;
+}
+
+.-inset-20{
+  inset: -5rem;
+}
+
+.-inset-16{
+  inset: -4rem;
+}
+
 .-left-6{
   left: -1.5rem;
 }
@@ -2776,6 +2796,90 @@ iframe {
 
 .-top-2{
   top: -0.5rem;
+}
+
+.left-\[31\%\]{
+  left: 31%;
+}
+
+.left-\[40\%\]{
+  left: 40%;
+}
+
+.left-\[33\%\]{
+  left: 33%;
+}
+
+.top-\[70\%\]{
+  top: 70%;
+}
+
+.left-\[57\%\]{
+  left: 57%;
+}
+
+.left-\[92\%\]{
+  left: 92%;
+}
+
+.left-\[80\%\]{
+  left: 80%;
+}
+
+.left-\[66\%\]{
+  left: 66%;
+}
+
+.top-\[62\%\]{
+  top: 62%;
+}
+
+.left-\[32\%\]{
+  left: 32%;
+}
+
+.left-\[39\%\]{
+  left: 39%;
+}
+
+.left-\[41\%\]{
+  left: 41%;
+}
+
+.left-\[58\%\]{
+  left: 58%;
+}
+
+.left-\[56\%\]{
+  left: 56%;
+}
+
+.left-\[22\%\]{
+  left: 22%;
+}
+
+.left-\[30\%\]{
+  left: 30%;
+}
+
+.top-\[27\%\]{
+  top: 27%;
+}
+
+.left-\[34\.5\%\]{
+  left: 34.5%;
+}
+
+.top-\[8\.5\%\]{
+  top: 8.5%;
+}
+
+.left-\[67\%\]{
+  left: 67%;
+}
+
+.left-\[65\%\]{
+  left: 65%;
 }
 
 .z-0{
@@ -3174,6 +3278,22 @@ iframe {
 
 .max-w-\[16rem\]{
   max-width: 16rem;
+}
+
+.max-w-\[18rem\]{
+  max-width: 18rem;
+}
+
+.max-w-\[20rem\]{
+  max-width: 20rem;
+}
+
+.max-w-\[22rem\]{
+  max-width: 22rem;
+}
+
+.max-w-\[19rem\]{
+  max-width: 19rem;
 }
 
 .flex-1{
@@ -3984,6 +4104,14 @@ iframe {
   padding-top: 4.5rem;
 }
 
+.pt-\[3\.5rem\]{
+  padding-top: 3.5rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -4074,6 +4202,10 @@ iframe {
   font-size: 5rem;
 }
 
+.text-\[4\.5rem\]{
+  font-size: 4.5rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -4141,6 +4273,18 @@ iframe {
 
 .tracking-wide{
   letter-spacing: 0.025em;
+}
+
+.tracking-tight{
+  letter-spacing: -0.025em;
+}
+
+.tracking-normal{
+  letter-spacing: 0em;
+}
+
+.tracking-\[0\.05em\]{
+  letter-spacing: 0.05em;
 }
 
 .text-gold-500{
@@ -4621,6 +4765,10 @@ iframe {
     inset: -2rem;
   }
 
+  .md\:-inset-10{
+    inset: -2.5rem;
+  }
+
   .md\:top-\[17\%\]{
     top: 17%;
   }
@@ -4635,6 +4783,82 @@ iframe {
 
   .md\:top-0{
     top: 0px;
+  }
+
+  .md\:left-\[34\%\]{
+    left: 34%;
+  }
+
+  .md\:left-\[43\%\]{
+    left: 43%;
+  }
+
+  .md\:left-\[35\.5\%\]{
+    left: 35.5%;
+  }
+
+  .md\:top-\[73\.5\%\]{
+    top: 73.5%;
+  }
+
+  .md\:left-\[26\%\]{
+    left: 26%;
+  }
+
+  .md\:left-\[54\%\]{
+    left: 54%;
+  }
+
+  .md\:left-\[89\.6\%\]{
+    left: 89.6%;
+  }
+
+  .md\:left-\[64\%\]{
+    left: 64%;
+  }
+
+  .md\:top-\[60\%\]{
+    top: 60%;
+  }
+
+  .md\:left-\[62\%\]{
+    left: 62%;
+  }
+
+  .md\:top-\[58\%\]{
+    top: 58%;
+  }
+
+  .md\:left-\[61\%\]{
+    left: 61%;
+  }
+
+  .md\:left-\[31\.5\%\]{
+    left: 31.5%;
+  }
+
+  .md\:top-\[29\.8\%\]{
+    top: 29.8%;
+  }
+
+  .md\:left-\[36\%\]{
+    left: 36%;
+  }
+
+  .md\:top-\[10\%\]{
+    top: 10%;
+  }
+
+  .md\:top-\[6\%\]{
+    top: 6%;
+  }
+
+  .md\:left-\[63\.5\%\]{
+    left: 63.5%;
+  }
+
+  .md\:left-\[67\.8\%\]{
+    left: 67.8%;
   }
 
   .md\:mb-16{
@@ -4908,6 +5132,11 @@ iframe {
     padding-bottom: 2rem;
   }
 
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:pb-20{
     padding-bottom: 5rem;
   }
@@ -4934,6 +5163,10 @@ iframe {
 
   .md\:pt-\[5\.5rem\]{
     padding-top: 5.5rem;
+  }
+
+  .md\:pt-\[4\.5rem\]{
+    padding-top: 4.5rem;
   }
 
   .md\:text-center{
@@ -4987,6 +5220,10 @@ iframe {
 
   .md\:text-\[6\.5rem\]{
     font-size: 6.5rem;
+  }
+
+  .md\:tracking-\[0\.1em\]{
+    letter-spacing: 0.1em;
   }
 
   .md\:dark\:bg-transparent:is(.dark *){
