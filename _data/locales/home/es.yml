@@ -32,17 +32,17 @@ why_ruby:
         Con mínimo código repetitivo y alta legibilidad, es amigable para principiantes y mantenible para desarrolladores experimentados.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creador de Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby tiene una sintaxis simple e intuitiva que se lee como lenguaje natural.
-          Con mínimo código repetitivo y alta legibilidad, es un lenguaje amigable para principiantes.
-          La filosofía de diseño te permite expresar directamente lo que quieres.
+          Ruby es simplemente el lenguaje de programación más hermoso que he visto.<br />
+          Presto bastante atención a los nuevos lenguajes de programación que surgen,
+          nuevos entornos, nuevos frameworks, y todavía no he visto nada que iguale o supere a Ruby en la pureza de su diseño.
 
     - id: productivity
-      title: Productividad
+      title: Productivity
       read: Haz más con menos código.<br />La sintaxis intuitiva acelera el desarrollo.
       copy: |
         La sintaxis expresiva de Ruby te permite escribir lógica compleja de manera concisa.
@@ -53,14 +53,15 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Autor de "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          La sintaxis expresiva de Ruby te permite escribir lógica compleja de manera concisa.
-          Puedes reducir la repetición y concentrarte en resolver los problemas principales.
-          Los frameworks de pruebas completos ayudan a mantener la calidad durante el desarrollo rápido.
+          Ruby convierte las ideas en código rápidamente.
+          Su simplicidad me mantiene enfocado; su expresividad me permite escribir como pienso.<br />
+          Se siente como si el lenguaje se apartara, dejándome solo a mí y al problema.
+          Con excelentes herramientas y bibliotecas, las ideas se convierten rápidamente en código elegante y funcional.
 
     - id: ecosystem
-      title: Ecosistema
+      title: Ecosystem
       read: Gemas ricas soportan todo tipo de desarrollo.<br />Herramientas maduras listas para usar.
       copy: |
         Ruby tiene una vasta colección de bibliotecas llamadas gemas, que soportan todo desde desarrollo web hasta procesamiento de datos.
@@ -73,12 +74,11 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Creador de Ruby on Rails
         content: |
-          Ruby tiene un vasto ecosistema de gemas que soportan diversas necesidades.
-          Frameworks maduros y cadenas de herramientas te permiten combinar recursos existentes
-          para construir aplicaciones de calidad rápidamente sin reinventar la rueda.
+          [MARCADOR] El comentario de la sección Ecosystem está en preparación.
+          Se actualizará cuando llegue el comentario real.
 
     - id: community
-      title: Comunidad
+      title: Community
       read: Desarrolladores de todo el mundo se apoyan mutuamente.<br />Una comunidad cálida y activa.
       copy: |
         La comunidad Ruby abraza la cultura de "Matz is nice so we are nice (MINASWAN),"
@@ -91,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Organizador Principal de RubyKaigi
         content: |
-          La comunidad Ruby da la bienvenida a todos desde principiantes hasta expertos.
-          Conferencias y meetups en todo el mundo fomentan el intercambio de conocimientos.
-          Es una comunidad cálida donde las personas se ayudan mutuamente y crecen juntas.
+          [MARCADOR] El comentario de la sección Community está en preparación.
+          Se actualizará cuando llegue el comentario real.
 
 companies:
   title: "Empresas"

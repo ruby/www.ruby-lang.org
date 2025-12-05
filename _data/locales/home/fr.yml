@@ -32,17 +32,17 @@ why_ruby:
         Avec un minimum de code répétitif et une grande lisibilité, il est convivial pour les débutants et maintenable pour les développeurs expérimentés.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Créateur de Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby a une syntaxe simple et intuitive qui se lit comme le langage naturel.
-          Avec un minimum de code répétitif et une grande lisibilité, c'est un langage convivial pour les débutants.
-          La philosophie de conception vous permet d'exprimer directement ce que vous voulez.
+          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.<br />
+          Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
+          aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
 
     - id: productivity
-      title: Productivité
+      title: Productivity
       read: Faire plus avec moins de code.<br />La syntaxe intuitive accélère le développement.
       copy: |
         La syntaxe expressive de Ruby vous permet d'écrire une logique complexe de manière concise.
@@ -53,14 +53,15 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Auteur de "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          La syntaxe expressive de Ruby vous permet d'écrire une logique complexe de manière concise.
-          Vous pouvez réduire la répétition et vous concentrer sur la résolution des problèmes principaux.
-          Les frameworks de test complets aident à maintenir la qualité pendant le développement rapide.
+          Ruby transforme rapidement les idées en code.
+          Sa simplicité me garde concentré ; son expressivité me permet d'écrire comme je pense.<br />
+          On a l'impression que le langage s'efface, ne laissant que moi et le problème.
+          Avec d'excellents outils et bibliothèques, les idées deviennent rapidement du code élégant et fonctionnel.
 
     - id: ecosystem
-      title: Écosystème
+      title: Ecosystem
       read: Des gems riches supportent tous les types de développement.<br />Des outils matures prêts à l'emploi.
       copy: |
         Ruby possède une vaste collection de bibliothèques appelées gems, supportant tout du développement web au traitement des données.
@@ -73,12 +74,11 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Créateur de Ruby on Rails
         content: |
-          Ruby possède un vaste écosystème de gems supportant des besoins divers.
-          Des frameworks matures et des chaînes d'outils vous permettent de combiner des ressources existantes
-          pour construire rapidement des applications de qualité sans réinventer la roue.
+          [PLACEHOLDER] Le commentaire de la section Ecosystem est en cours de préparation.
+          Il sera mis à jour dès réception du commentaire réel.
 
     - id: community
-      title: Communauté
+      title: Community
       read: Des développeurs du monde entier se soutiennent mutuellement.<br />Une communauté chaleureuse et active.
       copy: |
         La communauté Ruby embrasse la culture de "Matz is nice so we are nice (MINASWAN),"
@@ -91,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Organisateur Principal de RubyKaigi
         content: |
-          La communauté Ruby accueille tout le monde des débutants aux experts.
-          Des conférences et meetups dans le monde entier favorisent le partage des connaissances.
-          C'est une communauté chaleureuse où les gens s'entraident et grandissent ensemble.
+          [PLACEHOLDER] Le commentaire de la section Community est en cours de préparation.
+          Il sera mis à jour dès réception du commentaire réel.
 
 companies:
   title: "Entreprises"

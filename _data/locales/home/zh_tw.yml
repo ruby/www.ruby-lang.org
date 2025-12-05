@@ -32,14 +32,14 @@ why_ruby:
         最少的樣板程式碼和高可讀性，使其對初學者友善，對有經驗的開發者易於維護。
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Ruby 創始人
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby 擁有簡潔直觀的語法，讀起來就像自然語言。
-          最少的樣板程式碼和高可讀性，使其成為對初學者友善的語言。
-          設計理念讓你能夠直接表達你的想法。
+          Ruby 是我見過最美的程式語言。<br />
+          我對新出現的程式語言、新環境、新框架都相當關注，
+          但在設計的純粹性上，我還沒有看到任何能與 Ruby 匹敵或超越它的語言。
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: 《程式設計師修煉之道》作者
+          title: Author of "The Pragmatic Programmer"
         content: |
-          Ruby 富有表現力的語法讓你能夠簡潔地編寫複雜的邏輯。
-          你可以減少重複，專注於解決核心問題。
-          全面的測試框架幫助在快速開發過程中保持品質。
+          Ruby 能快速將想法轉化為程式碼。
+          它的簡潔讓我保持專注，它的表現力讓我能按照自己的思維方式編寫程式碼。<br />
+          感覺語言不會成為障礙，只剩下我和問題本身。
+          藉助優秀的工具和函式庫，想法很快就能變成運行優雅的程式碼。
 
     - id: ecosystem
       title: Ecosystem
@@ -73,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Ruby on Rails 創始人
         content: |
-          Ruby 擁有廣泛的 gem 生態系統，支援各種需求。
-          成熟的框架和工具鏈讓你能夠結合現有資源
-          快速建構高品質應用程式，而無需重新發明輪子。
+          [佔位符] Ecosystem 部分的評論正在準備中。
+          待實際評論到達後將更新。
 
     - id: community
       title: Community
@@ -91,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: RubyKaigi 首席組織者
         content: |
-          Ruby 社群歡迎從初學者到專家的所有人。
-          世界各地的會議和聚會促進知識分享。
-          這是一個溫暖的社群，人們互相幫助，共同成長。
+          [佔位符] Community 部分的評論正在準備中。
+          待實際評論到達後將更新。
 
 companies:
   title: "企業們"

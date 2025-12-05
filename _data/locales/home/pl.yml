@@ -24,7 +24,7 @@ why_ruby:
   description: Dlaczego programiści na całym świecie kochają Ruby? Co czyni go <strong>zabawnym</strong>?
   features:
     - id: simple
-      title: Prosty
+      title: Simple
       read: Łatwy do pisania, łatwy do czytania.<br />Naturalna składnia jak mowa.
       copy: |
         Ruby ma prostą i intuicyjną składnię, która czyta się jak naturalny język.
@@ -32,17 +32,17 @@ why_ruby:
         Z minimalnym boilerplate'em i wysoką czytelnością jest przyjazny dla początkujących i łatwy w utrzymaniu dla doświadczonych programistów.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Twórca Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby ma prostą i intuicyjną składnię, która czyta się jak naturalny język.
-          Z minimalnym boilerplate'em i wysoką czytelnością jest językiem przyjaznym dla początkujących.
-          Filozofia projektowania pozwala bezpośrednio wyrażać to, co chcesz.
+          Ruby to po prostu najpiękniejszy język programowania, jaki kiedykolwiek widziałem.<br />
+          Zwracam sporo uwagi na nowe języki programowania, które się pojawiają,
+          nowe środowiska, nowe frameworki, i wciąż nie widziałem niczego, co dorównuje lub przewyższa Ruby w czystości jego projektu.
 
     - id: productivity
-      title: Produktywność
+      title: Productivity
       read: Rób więcej przy mniejszej ilości kodu.<br />Intuicyjna składnia przyspiesza rozwój.
       copy: |
         Ekspresyjna składnia Ruby pozwala pisać złożoną logikę zwięźle.
@@ -53,14 +53,15 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Autor "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          Ekspresyjna składnia Ruby pozwala pisać złożoną logikę zwięźle.
-          Możesz zredukować powtórzenia i skupić się na rozwiązywaniu głównych problemów.
-          Kompleksowe frameworki testowe pomagają utrzymać jakość podczas szybkiego rozwoju.
+          Ruby szybko zamienia pomysły w kod.
+          Jego prostota pozwala mi pozostać skupionym; jego ekspresyjność pozwala pisać tak, jak myślę.<br />
+          Czuję, jakby język schodził z drogi, zostawiając tylko mnie i problem.
+          Z doskonałymi narzędziami i bibliotekami pomysły szybko stają się działającym, eleganckim kodem.
 
     - id: ecosystem
-      title: Ekosystem
+      title: Ecosystem
       read: Bogate gemy wspierają wszystkie rodzaje rozwoju.<br />Dojrzałe narzędzia gotowe do użycia.
       copy: |
         Ruby ma rozległą kolekcję bibliotek zwanych gemami, wspierających wszystko od tworzenia stron web po przetwarzanie danych.
@@ -73,12 +74,11 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Twórca Ruby on Rails
         content: |
-          Ruby ma rozległy ekosystem gemów wspierających różnorodne potrzeby.
-          Dojrzałe frameworki i toolchainy pozwalają łączyć istniejące zasoby
-          by szybko budować wysokiej jakości aplikacje nie wymyślając koła na nowo.
+          [ZASTĘPCZY] Komentarz do sekcji Ecosystem jest w trakcie przygotowania.
+          Zostanie zaktualizowany, gdy nadejdzie rzeczywisty komentarz.
 
     - id: community
-      title: Społeczność
+      title: Community
       read: Programiści na całym świecie wspierają się nawzajem.<br />Ciepła, aktywna społeczność.
       copy: |
         Społeczność Ruby przyjmuje kulturę "Matz is nice so we are nice (MINASWAN),"
@@ -91,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Główny Organizator RubyKaigi
         content: |
-          Społeczność Ruby wita wszystkich od początkujących po ekspertów.
-          Konferencje i spotkania na całym świecie sprzyjają dzieleniu się wiedzą.
-          To ciepła społeczność, gdzie ludzie pomagają sobie nawzajem i rozwijają się razem.
+          [ZASTĘPCZY] Komentarz do sekcji Community jest w trakcie przygotowania.
+          Zostanie zaktualizowany, gdy nadejdzie rzeczywisty komentarz.
 
 companies:
   title: "Firmy"

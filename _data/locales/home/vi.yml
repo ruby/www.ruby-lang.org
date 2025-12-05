@@ -32,14 +32,14 @@ why_ruby:
         Với mã boilerplate tối thiểu và khả năng đọc cao, nó thân thiện với người mới bắt đầu và dễ bảo trì cho các nhà phát triển có kinh nghiệm.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Người tạo ra Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby có cú pháp đơn giản và trực quan, đọc như ngôn ngữ tự nhiên.
-          Với mã boilerplate tối thiểu và khả năng đọc cao, đây là ngôn ngữ thân thiện cho người mới bắt đầu.
-          Triết lý thiết kế cho phép bạn diễn đạt trực tiếp những gì bạn muốn.
+          Ruby đơn giản là ngôn ngữ lập trình đẹp nhất mà tôi từng thấy.<br />
+          Tôi khá chú ý đến các ngôn ngữ lập trình mới xuất hiện,
+          môi trường mới, framework mới, và tôi vẫn chưa thấy bất cứ thứ gì sánh được hoặc vượt qua Ruby về sự thuần khiết trong thiết kế.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: 'Tác giả của "The Pragmatic Programmer"'
+          title: Author of "The Pragmatic Programmer"
         content: |
-          Cú pháp biểu cảm của Ruby cho phép bạn viết logic phức tạp một cách ngắn gọn.
-          Bạn có thể giảm sự lặp lại và tập trung vào giải quyết các vấn đề cốt lõi.
-          Các framework kiểm thử toàn diện giúp duy trì chất lượng trong quá trình phát triển nhanh.
+          Ruby biến ý tưởng thành mã nhanh chóng.
+          Sự đơn giản giúp tôi tập trung; sự biểu cảm cho phép tôi viết theo cách tôi nghĩ.<br />
+          Cảm giác như ngôn ngữ tự rút lui, chỉ còn lại tôi và vấn đề.
+          Với các công cụ và thư viện tuyệt vời, ý tưởng nhanh chóng trở thành mã thanh lịch và hoạt động.
 
     - id: ecosystem
       title: Ecosystem
@@ -73,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Người tạo ra Ruby on Rails
         content: |
-          Ruby có một hệ sinh thái gem rộng lớn hỗ trợ nhiều nhu cầu đa dạng.
-          Các framework trưởng thành và toolchain cho phép bạn kết hợp các tài nguyên hiện có
-          để nhanh chóng xây dựng các ứng dụng chất lượng mà không cần phát minh lại bánh xe.
+          [GIỮ CHỖ] Bình luận cho phần Ecosystem đang được chuẩn bị.
+          Sẽ được cập nhật khi bình luận thực tế đến.
 
     - id: community
       title: Community
@@ -91,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Trưởng ban tổ chức RubyKaigi
         content: |
-          Cộng đồng Ruby chào đón tất cả mọi người từ người mới bắt đầu đến chuyên gia.
-          Các hội nghị và buổi gặp mặt trên khắp thế giới khuyến khích chia sẻ kiến thức.
-          Đây là một cộng đồng ấm áp, nơi mọi người giúp đỡ lẫn nhau và cùng phát triển.
+          [GIỮ CHỖ] Bình luận cho phần Community đang được chuẩn bị.
+          Sẽ được cập nhật khi bình luận thực tế đến.
 
 companies:
   title: "Các công ty"

@@ -32,15 +32,13 @@ why_ruby:
         無駄な記述が少なく、可読性が高いため、初心者にも優しく、経験豊富な開発者にとってもメンテナンスしやすい言語です。
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-
+          Rubyは私がこれまで見た中で最も美しいプログラミング言語だ。<br />
+          新しい言語、新しい環境、新しいフレームワークにはかなり注意を払っているが、その設計の純粋さにおいてRubyに並ぶもの、ましてや超えるものはまだ見たことがない。
     - id: productivity
       title: Productivity
       read: 少ないコードで、多くを実現する。<br />直感的な記述が開発を加速させる。
@@ -55,10 +53,10 @@ why_ruby:
           name: Dave Thomas
           title: Author of "The Pragmatic Programmer"
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-
+          Rubyはアイデアを素早くコードに変える。
+          そのシンプルさが集中力を保ち、その表現力が思考のままに書くことを可能にする。<br />
+          まるで言語が姿を消して、私と問題だけが残るような感覚。
+          優れたツールとライブラリのおかげで、アイデアはすぐに動く、エレガントなコードになる。
     - id: ecosystem
       title: Ecosystem
       read: 豊富なgemが、あらゆる開発を支える。<br />成熟したツール群が即座に使える環境。
@@ -73,9 +71,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          [ダミー] Ecosystemセクションのコメントは現在準備中です。
+          実際のコメントが届き次第、更新されます。
 
     - id: community
       title: Community
@@ -91,9 +88,8 @@ why_ruby:
           name: Akira Matsuda
           title: Chief Organizer of RubyKaigi
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          [ダミー] Communityセクションのコメントは現在準備中です。
+          実際のコメントが届き次第、更新されます。
 
 companies:
   title: "Companies"
