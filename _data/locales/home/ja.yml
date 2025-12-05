@@ -74,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          [ダミー] Ecosystemセクションのコメントは現在準備中です。
+          実際のコメントが届き次第、更新されます。
 
     - id: community
       title: Community
@@ -92,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Chief Organizer of RubyKaigi
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          [ダミー] Communityセクションのコメントは現在準備中です。
+          実際のコメントが届き次第、更新されます。
 
 companies:
   title: "Companies"

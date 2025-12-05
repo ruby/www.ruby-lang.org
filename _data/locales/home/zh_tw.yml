@@ -74,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Ruby on Rails 創始人
         content: |
-          Ruby 擁有廣泛的 gem 生態系統，支援各種需求。
-          成熟的框架和工具鏈讓你能夠結合現有資源
-          快速建構高品質應用程式，而無需重新發明輪子。
+          [佔位符] Ecosystem 部分的評論正在準備中。
+          待實際評論到達後將更新。
 
     - id: community
       title: Community
@@ -92,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: RubyKaigi 首席組織者
         content: |
-          Ruby 社群歡迎從初學者到專家的所有人。
-          世界各地的會議和聚會促進知識分享。
-          這是一個溫暖的社群，人們互相幫助，共同成長。
+          [佔位符] Community 部分的評論正在準備中。
+          待實際評論到達後將更新。
 
 companies:
   title: "企業們"

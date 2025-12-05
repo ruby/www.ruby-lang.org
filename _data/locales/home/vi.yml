@@ -74,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Người tạo ra Ruby on Rails
         content: |
-          Ruby có một hệ sinh thái gem rộng lớn hỗ trợ nhiều nhu cầu đa dạng.
-          Các framework trưởng thành và toolchain cho phép bạn kết hợp các tài nguyên hiện có
-          để nhanh chóng xây dựng các ứng dụng chất lượng mà không cần phát minh lại bánh xe.
+          [GIỮ CHỖ] Bình luận cho phần Ecosystem đang được chuẩn bị.
+          Sẽ được cập nhật khi bình luận thực tế đến.
 
     - id: community
       title: Community
@@ -92,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Trưởng ban tổ chức RubyKaigi
         content: |
-          Cộng đồng Ruby chào đón tất cả mọi người từ người mới bắt đầu đến chuyên gia.
-          Các hội nghị và buổi gặp mặt trên khắp thế giới khuyến khích chia sẻ kiến thức.
-          Đây là một cộng đồng ấm áp, nơi mọi người giúp đỡ lẫn nhau và cùng phát triển.
+          [GIỮ CHỖ] Bình luận cho phần Community đang được chuẩn bị.
+          Sẽ được cập nhật khi bình luận thực tế đến.
 
 companies:
   title: "Các công ty"

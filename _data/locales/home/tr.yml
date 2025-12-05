@@ -74,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Ruby on Rails'in Yaratıcısı
         content: |
-          Ruby, çeşitli ihtiyaçları destekleyen geniş bir gem ekosistemine sahiptir.
-          Olgun çerçeveler ve araç zincirleri mevcut kaynakları birleştirmenize olanak tanır
-          tekerleği yeniden icat etmeden hızla kaliteli uygulamalar oluşturmak için.
+          [YER TUTUCU] Ecosystem bölümü yorumu hazırlanıyor.
+          Gerçek yorum geldiğinde güncellenecektir.
 
     - id: community
       title: Community
@@ -92,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: RubyKaigi Baş Organizatörü
         content: |
-          Ruby topluluğu yeni başlayanlardan uzmanlara kadar herkesi memnuniyetle karşılar.
-          Dünyanın dört bir yanındaki konferanslar ve buluşmalar bilgi paylaşımını teşvik eder.
-          İnsanların birbirlerine yardım ettiği ve birlikte büyüdüğü sıcak bir topluluktur.
+          [YER TUTUCU] Community bölümü yorumu hazırlanıyor.
+          Gerçek yorum geldiğinde güncellenecektir.
 
 companies:
   title: "Şirketler"

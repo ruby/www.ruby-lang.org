@@ -74,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Créateur de Ruby on Rails
         content: |
-          Ruby possède un vaste écosystème de gems supportant des besoins divers.
-          Des frameworks matures et des chaînes d'outils vous permettent de combiner des ressources existantes
-          pour construire rapidement des applications de qualité sans réinventer la roue.
+          [PLACEHOLDER] Le commentaire de la section Ecosystem est en cours de préparation.
+          Il sera mis à jour dès réception du commentaire réel.
 
     - id: community
       title: Community
@@ -92,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Organisateur Principal de RubyKaigi
         content: |
-          La communauté Ruby accueille tout le monde des débutants aux experts.
-          Des conférences et meetups dans le monde entier favorisent le partage des connaissances.
-          C'est une communauté chaleureuse où les gens s'entraident et grandissent ensemble.
+          [PLACEHOLDER] Le commentaire de la section Community est en cours de préparation.
+          Il sera mis à jour dès réception du commentaire réel.
 
 companies:
   title: "Entreprises"

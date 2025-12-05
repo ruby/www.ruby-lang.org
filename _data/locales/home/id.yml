@@ -74,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Pencipta Ruby on Rails
         content: |
-          Ruby memiliki ekosistem gem yang luas mendukung kebutuhan yang beragam.
-          Framework matang dan toolchain memungkinkan Anda menggabungkan resource yang ada
-          untuk membangun aplikasi berkualitas dengan cepat tanpa menemukan kembali roda.
+          [PLACEHOLDER] Komentar untuk bagian Ecosystem sedang dalam persiapan.
+          Akan diperbarui ketika komentar sebenarnya tiba.
 
     - id: community
       title: Community
@@ -92,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: Chief Organizer RubyKaigi
         content: |
-          Komunitas Ruby menyambut semua orang dari pemula hingga ahli.
-          Konferensi dan meetup di seluruh dunia mendorong berbagi pengetahuan.
-          Ini adalah komunitas yang hangat di mana orang-orang saling membantu dan tumbuh bersama.
+          [PLACEHOLDER] Komentar untuk bagian Community sedang dalam persiapan.
+          Akan diperbarui ketika komentar sebenarnya tiba.
 
 companies:
   title: "Perusahaan"

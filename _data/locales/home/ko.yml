@@ -74,9 +74,8 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Ruby on Rails 창시자
         content: |
-          Ruby는 다양한 요구를 지원하는 광범위한 gem 생태계를 가지고 있습니다.
-          성숙한 프레임워크와 툴체인으로 기존 리소스를 결합하여
-          바퀴를 다시 발명하지 않고도 빠르게 고품질 애플리케이션을 구축할 수 있습니다.
+          [더미] Ecosystem 섹션의 코멘트는 현재 준비 중입니다.
+          실제 코멘트가 도착하면 업데이트됩니다.
 
     - id: community
       title: Community
@@ -92,9 +91,8 @@ why_ruby:
           name: Akira Matsuda
           title: RubyKaigi 수석 주최자
         content: |
-          Ruby 커뮤니티는 초보자부터 전문가까지 모두를 환영합니다.
-          전 세계의 컨퍼런스와 밋업은 지식 공유를 장려합니다.
-          사람들이 서로 돕고 함께 성장하는 따뜻한 커뮤니티입니다.
+          [더미] Community 섹션의 코멘트는 현재 준비 중입니다.
+          실제 코멘트가 도착하면 업데이트됩니다.
 
 companies:
   title: "기업들이"
