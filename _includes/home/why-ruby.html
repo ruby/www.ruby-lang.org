@@ -17,7 +17,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-24">
       {% for feature in home.why_ruby.features %}
       <!-- {{ feature.title }} -->
-      <div class="why-ruby-card relative self-start{% if forloop.index == 2 or forloop.index == 4 %} lg:top-40{% endif %}">
+      <div class="why-ruby-card relative self-start">
         <!-- Background Illustration -->
         <div class="absolute -top-4 right-0 w-40 md:w-56 lg:w-56 h-40 md:h-56 lg:h-56 pointer-events-none hidden sm:block lg:hidden xl:block">
           <img src="/images/home/why_ruby/illustration/{{ feature.id }}--light.svg"
