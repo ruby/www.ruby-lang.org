@@ -2742,6 +2742,14 @@ iframe {
   top: 83.6%;
 }
 
+.-bottom-\[15px\]{
+  bottom: -15px;
+}
+
+.-bottom-\[18px\]{
+  bottom: -18px;
+}
+
 .z-0{
   z-index: 0;
 }
@@ -2937,6 +2945,10 @@ iframe {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[35px\]{
+  height: 35px;
 }
 
 .max-h-96{
