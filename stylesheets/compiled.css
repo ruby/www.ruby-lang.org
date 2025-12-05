@@ -3621,6 +3621,10 @@ iframe {
   row-gap: 1.5rem;
 }
 
+.gap-y-8{
+  row-gap: 2rem;
+}
+
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -5182,6 +5186,10 @@ iframe {
     gap: 2rem;
   }
 
+  .lg\:gap-40{
+    gap: 10rem;
+  }
+
   .lg\:gap-x-16{
     -moz-column-gap: 4rem;
          column-gap: 4rem;
@@ -5189,6 +5197,15 @@ iframe {
 
   .lg\:gap-y-10{
     row-gap: 2.5rem;
+  }
+
+  .lg\:gap-x-40{
+    -moz-column-gap: 10rem;
+         column-gap: 10rem;
+  }
+
+  .lg\:gap-y-12{
+    row-gap: 3rem;
   }
 
   .lg\:overflow-visible{
