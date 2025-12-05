@@ -37,7 +37,7 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
-          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.
+          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.<br />
           Saya cukup memperhatikan bahasa pemrograman baru yang muncul,
           lingkungan baru, framework baru, dan saya belum melihat apa pun yang menyamai atau melampaui Ruby dalam kemurnian desainnya.
 
@@ -56,7 +56,7 @@ why_ruby:
           title: Author of "The Pragmatic Programmer"
         content: |
           Ruby mengubah ide menjadi kode dengan cepat.
-          Kesederhanaannya membuat saya tetap fokus; ekspresivitasnya memungkinkan saya menulis seperti cara saya berpikir.
+          Kesederhanaannya membuat saya tetap fokus; ekspresivitasnya memungkinkan saya menulis seperti cara saya berpikir.<br />
           Rasanya seperti bahasa menyingkir, meninggalkan hanya saya dan masalahnya.
           Dengan tools dan library yang hebat, ide dengan cepat menjadi kode yang elegan dan berjalan.
 

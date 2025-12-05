@@ -37,7 +37,7 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
-          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.
+          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.<br />
           Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
           aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
 
@@ -56,7 +56,7 @@ why_ruby:
           title: Author of "The Pragmatic Programmer"
         content: |
           Ruby transforme rapidement les idées en code.
-          Sa simplicité me garde concentré ; son expressivité me permet d'écrire comme je pense.
+          Sa simplicité me garde concentré ; son expressivité me permet d'écrire comme je pense.<br />
           On a l'impression que le langage s'efface, ne laissant que moi et le problème.
           Avec d'excellents outils et bibliothèques, les idées deviennent rapidement du code élégant et fonctionnel.
 

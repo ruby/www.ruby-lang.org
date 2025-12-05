@@ -37,7 +37,7 @@ why_ruby:
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
-          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.
+          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.<br />
           Ortaya çıkan yeni programlama dillerine, yeni ortamlara, yeni framework'lere oldukça dikkat ediyorum
           ve tasarımının saflığında Ruby'ye eşit veya onu aşan hiçbir şey görmedim.
 
@@ -56,7 +56,7 @@ why_ruby:
           title: Author of "The Pragmatic Programmer"
         content: |
           Ruby fikirleri hızla koda dönüştürür.
-          Sadeliği beni odaklı tutar; ifade gücü düşündüğüm şekilde yazmamı sağlar.
+          Sadeliği beni odaklı tutar; ifade gücü düşündüğüm şekilde yazmamı sağlar.<br />
           Dil sanki yoldan çekiliyor, sadece ben ve problem kalıyor.
           Harika araçlar ve kütüphanelerle fikirler hızla çalışan, zarif koda dönüşür.
 
