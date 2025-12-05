@@ -2750,6 +2750,14 @@ iframe {
   bottom: -18px;
 }
 
+.-bottom-\[20px\]{
+  bottom: -20px;
+}
+
+.-bottom-\[22px\]{
+  bottom: -22px;
+}
+
 .z-0{
   z-index: 0;
 }
@@ -3126,6 +3134,10 @@ iframe {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[280px\]{
+  width: 280px;
 }
 
 .min-w-0{
@@ -4539,6 +4551,10 @@ iframe {
     width: 3rem;
   }
 
+  .sm\:w-\[340px\]{
+    width: 340px;
+  }
+
   .sm\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -4795,6 +4811,10 @@ iframe {
 
   .md\:w-\[94px\]{
     width: 94px;
+  }
+
+  .md\:w-\[430px\]{
+    width: 430px;
   }
 
   .md\:min-w-\[1400px\]{
