@@ -2786,6 +2786,22 @@ iframe {
   top: -30px;
 }
 
+.-top-\[15px\]{
+  top: -15px;
+}
+
+.-left-\[25px\]{
+  left: -25px;
+}
+
+.-top-\[25px\]{
+  top: -25px;
+}
+
+.-top-\[28px\]{
+  top: -28px;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -2801,6 +2817,21 @@ iframe {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mb-0{
@@ -2981,6 +3012,14 @@ iframe {
 
 .h-\[18px\]{
   height: 18px;
+}
+
+.h-40{
+  height: 10rem;
+}
+
+.h-32{
+  height: 8rem;
 }
 
 .max-h-96{
@@ -3164,6 +3203,14 @@ iframe {
   width: 30px;
 }
 
+.w-40{
+  width: 10rem;
+}
+
+.w-32{
+  width: 8rem;
+}
+
 .min-w-0{
   min-width: 0px;
 }
@@ -3341,6 +3388,11 @@ iframe {
 
 .rotate-\[8deg\]{
   --tw-rotate: 8deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-rotate-90{
+  --tw-rotate: -90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -4064,6 +4116,14 @@ iframe {
   font-size: 160px;
 }
 
+.text-\[120px\]{
+  font-size: 120px;
+}
+
+.text-\[140px\]{
+  font-size: 140px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -4568,6 +4628,11 @@ iframe {
 }
 
 @media (min-width: 640px){
+  .sm\:mx-8{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   .sm\:mb-12{
     margin-bottom: 3rem;
   }
@@ -4576,8 +4641,16 @@ iframe {
     margin-bottom: 1.5rem;
   }
 
+  .sm\:block{
+    display: block;
+  }
+
   .sm\:h-12{
     height: 3rem;
+  }
+
+  .sm\:h-40{
+    height: 10rem;
   }
 
   .sm\:w-12{
@@ -4586,6 +4659,10 @@ iframe {
 
   .sm\:w-\[340px\]{
     width: 340px;
+  }
+
+  .sm\:w-40{
+    width: 10rem;
   }
 
   .sm\:text-2xl{
@@ -4606,6 +4683,15 @@ iframe {
   .sm\:text-base{
     font-size: 1rem;
     line-height: 1.7;
+  }
+
+  .sm\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .sm\:text-\[140px\]{
+    font-size: 140px;
   }
 }
 
@@ -4678,6 +4764,19 @@ iframe {
     top: 73.5%;
   }
 
+  .md\:-left-\[30px\]{
+    left: -30px;
+  }
+
+  .md\:-top-\[30px\]{
+    top: -30px;
+  }
+
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -4716,6 +4815,10 @@ iframe {
 
   .md\:h-\[600px\]{
     height: 600px;
+  }
+
+  .md\:h-40{
+    height: 10rem;
   }
 
   .md\:w-10{
@@ -4870,6 +4973,10 @@ iframe {
     gap: 2rem;
   }
 
+  .md\:gap-6{
+    gap: 1.5rem;
+  }
+
   .md\:gap-x-12{
     -moz-column-gap: 3rem;
          column-gap: 3rem;
@@ -4997,6 +5104,10 @@ iframe {
     line-height: 1rem;
   }
 
+  .md\:text-\[160px\]{
+    font-size: 160px;
+  }
+
   .md\:tracking-\[0\.1em\]{
     letter-spacing: 0.1em;
   }
@@ -5017,6 +5128,11 @@ iframe {
 
   .lg\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .lg\:mb-6{
@@ -5049,6 +5165,10 @@ iframe {
 
   .lg\:h-\[740px\]{
     height: 740px;
+  }
+
+  .lg\:h-40{
+    height: 10rem;
   }
 
   .lg\:w-44{
@@ -5171,6 +5291,10 @@ iframe {
     width: auto;
   }
 
+  .lg\:w-40{
+    width: 10rem;
+  }
+
   .lg\:min-w-\[1728px\]{
     min-width: 1728px;
   }
@@ -5239,6 +5363,16 @@ iframe {
 
   .lg\:gap-y-16{
     row-gap: 4rem;
+  }
+
+  .lg\:gap-x-32{
+    -moz-column-gap: 8rem;
+         column-gap: 8rem;
+  }
+
+  .lg\:gap-x-24{
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
   }
 
   .lg\:overflow-visible{
@@ -5324,6 +5458,14 @@ iframe {
     padding-top: 6.5rem;
   }
 
+  .lg\:pb-24{
+    padding-bottom: 6rem;
+  }
+
+  .lg\:pb-16{
+    padding-bottom: 4rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -5368,6 +5510,10 @@ iframe {
     display: block;
   }
 
+  .xl\:hidden{
+    display: none;
+  }
+
   .xl\:h-40{
     height: 10rem;
   }
@@ -5406,6 +5552,16 @@ iframe {
 
   .xl\:gap-4{
     gap: 1rem;
+  }
+
+  .xl\:gap-x-40{
+    -moz-column-gap: 10rem;
+         column-gap: 10rem;
+  }
+
+  .xl\:gap-x-32{
+    -moz-column-gap: 8rem;
+         column-gap: 8rem;
   }
 
   .xl\:px-12{
@@ -5447,5 +5603,10 @@ iframe {
 
   .\32xl\:gap-8{
     gap: 2rem;
+  }
+
+  .\32xl\:gap-x-40{
+    -moz-column-gap: 10rem;
+         column-gap: 10rem;
   }
 }
