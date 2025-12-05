@@ -42,8 +42,12 @@
             <!-- Left: Comment Content -->
             <div class="flex-1 pt-0 md:pt-2 lg:pt-0 xl:pt-2 w-full">
               <div class="relative text-sm md:text-base text-stone-700 dark:text-stone-300 leading-relaxed border border-gold-600 p-6 md:p-8 rounded-3xl">
+                <!-- Quote decoration -->
+                <span class="absolute -top-[30px] -left-[30px] font-default font-medium text-[160px] text-gold-600 leading-none select-none pointer-events-none">&#8220;</span>
                 <!-- Fukidashi tail -->
-                <img src="/images/home/why_ruby/balloon.svg" alt="" class="hidden md:block lg:hidden xl:block absolute -right-[20px] top-1/2 -translate-y-1/2 w-[30px] h-[18px]">
+                <svg class="hidden md:block lg:hidden xl:block absolute -right-[20px] top-1/2 -translate-y-1/2 w-[30px] h-[18px]" viewBox="0 0 30 18">
+                  <path class="fill-white dark:fill-stone-900 stroke-gold-600" stroke-linecap="round" stroke-linejoin="round" d="M9.7,1.78l19.55-.05c-1.69,2.46-4.48,5.85-8.77,8.77C12.54,15.9,4.42,16.36.97,16.35"/>
+                </svg>
                 {{ feature.comment.content }}
               </div>
             </div>
