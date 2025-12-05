@@ -1,5 +1,12 @@
-<p class="text-ruby-500 text-center">
-This page is very out-dated or has been removed due to out-dated content.
-Please visit the <a href="{{ page.url | replace_first:page.lang,'en' }}">English page</a>
-for the most recent information.
-</p>
+<div class="not-prose bg-ruby-100 dark:bg-ruby-800 rounded-lg p-8 mt-12 mb-4">
+  <div class="flex items-start gap-3">
+    <svg class="w-6 h-6 text-ruby-700 dark:text-ruby-200 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+      <path fill-rule="evenodd" d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.347 0-2.189-1.458-1.515-2.625L8.485 2.495zM10 5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 5zm0 9a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+    </svg>
+    <p class="text-sm text-ruby-700 dark:text-ruby-200">
+      This page is very out-dated or has been removed due to out-dated content.
+      Please visit the <a href="{{ page.url | replace_first:page.lang,'en' }}" class="font-medium underline hover:text-ruby-600 dark:hover:text-ruby-300">English page</a>
+      for the most recent information.
+    </p>
+  </div>
+</div>
