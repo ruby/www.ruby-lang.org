@@ -5356,6 +5356,14 @@ iframe {
     margin-bottom: 1.5rem;
   }
 
+  .xl\:mb-2{
+    margin-bottom: 0.5rem;
+  }
+
+  .xl\:mb-1{
+    margin-bottom: 0.25rem;
+  }
+
   .xl\:block{
     display: block;
   }
