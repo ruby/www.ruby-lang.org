@@ -4124,6 +4124,11 @@ iframe {
   font-size: 140px;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -5106,6 +5111,11 @@ iframe {
 
   .md\:text-\[160px\]{
     font-size: 160px;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:tracking-\[0\.1em\]{
