@@ -32,14 +32,14 @@ why_ruby:
         Com código mínimo repetitivo e alta legibilidade, é amigável para iniciantes e de fácil manutenção para desenvolvedores experientes.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Criador do Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby tem uma sintaxe simples e intuitiva que se lê como linguagem natural.
-          Com código mínimo repetitivo e alta legibilidade, é uma linguagem amigável para iniciantes.
-          A filosofia de design permite expressar diretamente o que você quer.
+          Ruby é simplesmente a linguagem de programação mais bonita que já vi.
+          Presto bastante atenção às novas linguagens de programação que surgem,
+          novos ambientes, novos frameworks, e ainda não vi nada que iguale ou supere Ruby na pureza de seu design.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Autor de "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          A sintaxe expressiva do Ruby permite escrever lógica complexa de forma concisa.
-          Você pode reduzir a repetição e se concentrar em resolver os problemas principais.
-          Frameworks de teste abrangentes ajudam a manter a qualidade durante o desenvolvimento rápido.
+          Ruby transforma ideias em código rapidamente.
+          Sua simplicidade me mantém focado; sua expressividade me permite escrever da forma que penso.
+          Parece que a linguagem sai do caminho, deixando apenas eu e o problema.
+          Com ótimas ferramentas e bibliotecas, ideias rapidamente se tornam código elegante e funcional.
 
     - id: ecosystem
       title: Ecosystem

@@ -32,14 +32,14 @@ why_ruby:
         無駄な記述が少なく、可読性が高いため、初心者にも優しく、経験豊富な開発者にとってもメンテナンスしやすい言語です。
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          Rubyは私がこれまで見た中で最も美しいプログラミング言語です。
+          私は新しく登場するプログラミング言語、新しい環境、新しいフレームワークにかなりの注意を払っていますが、
+          その設計の純粋さにおいてRubyに匹敵する、あるいはRubyを超えるものにはまだ出会っていません。
 
     - id: productivity
       title: Productivity
@@ -55,9 +55,10 @@ why_ruby:
           name: Dave Thomas
           title: Author of "The Pragmatic Programmer"
         content: |
-          100-120文字程度インタビュー。Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-          無駄な記述が少なく、可読性が高いため、初心者にも優しい言語です。
-          Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+          Rubyはアイデアを素早くコードに変えてくれます。
+          そのシンプルさが集中力を保ち、表現力豊かな構文が思考をそのままコードに書き出すことを可能にします。
+          言語が邪魔をせず、私と問題だけが残る感覚です。
+          優れたツールとライブラリのおかげで、アイデアはすぐにエレガントに動くコードになります。
 
     - id: ecosystem
       title: Ecosystem

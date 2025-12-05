@@ -32,14 +32,14 @@ why_ruby:
         Con un minimo di codice ripetitivo e alta leggibilità, è adatto ai principianti e mantenibile per gli sviluppatori esperti.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creatore di Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby ha una sintassi semplice e intuitiva che si legge come il linguaggio naturale.
-          Con un minimo di codice ripetitivo e alta leggibilità, è un linguaggio adatto ai principianti.
-          La filosofia di design ti permette di esprimere direttamente ciò che vuoi.
+          Ruby è semplicemente il linguaggio di programmazione più bello che abbia mai visto.
+          Presto molta attenzione ai nuovi linguaggi di programmazione che emergono,
+          ai nuovi ambienti, ai nuovi framework, e non ho ancora visto nulla che eguagli o superi Ruby nella purezza del suo design.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Autore di "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          La sintassi espressiva di Ruby ti permette di scrivere logiche complesse in modo conciso.
-          Puoi ridurre le ripetizioni e concentrarti sulla risoluzione dei problemi principali.
-          I framework di test completi aiutano a mantenere la qualità durante lo sviluppo rapido.
+          Ruby trasforma le idee in codice velocemente.
+          La sua semplicità mi tiene concentrato; la sua espressività mi permette di scrivere come penso.
+          Sembra che il linguaggio si faccia da parte, lasciando solo me e il problema.
+          Con ottimi strumenti e librerie, le idee diventano rapidamente codice elegante e funzionante.
 
     - id: ecosystem
       title: Ecosystem

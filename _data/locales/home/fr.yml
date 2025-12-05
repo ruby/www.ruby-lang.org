@@ -32,14 +32,14 @@ why_ruby:
         Avec un minimum de code répétitif et une grande lisibilité, il est convivial pour les débutants et maintenable pour les développeurs expérimentés.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Créateur de Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby a une syntaxe simple et intuitive qui se lit comme le langage naturel.
-          Avec un minimum de code répétitif et une grande lisibilité, c'est un langage convivial pour les débutants.
-          La philosophie de conception vous permet d'exprimer directement ce que vous voulez.
+          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.
+          Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
+          aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Auteur de "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          La syntaxe expressive de Ruby vous permet d'écrire une logique complexe de manière concise.
-          Vous pouvez réduire la répétition et vous concentrer sur la résolution des problèmes principaux.
-          Les frameworks de test complets aident à maintenir la qualité pendant le développement rapide.
+          Ruby transforme rapidement les idées en code.
+          Sa simplicité me garde concentré ; son expressivité me permet d'écrire comme je pense.
+          On a l'impression que le langage s'efface, ne laissant que moi et le problème.
+          Avec d'excellents outils et bibliothèques, les idées deviennent rapidement du code élégant et fonctionnel.
 
     - id: ecosystem
       title: Ecosystem

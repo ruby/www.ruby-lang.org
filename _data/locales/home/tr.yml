@@ -32,14 +32,14 @@ why_ruby:
         Minimum tekrarlayan kod ve yüksek okunabilirlik ile yeni başlayanlar için dostça ve deneyimli geliştiriciler için sürdürülebilir.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Ruby'nin Yaratıcısı
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby, doğal dil gibi okunan basit ve sezgisel bir sözdizimine sahiptir.
-          Minimum tekrarlayan kod ve yüksek okunabilirlik ile yeni başlayanlar için dostça bir dildir.
-          Tasarım felsefesi istediğinizi doğrudan ifade etmenizi sağlar.
+          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.
+          Ortaya çıkan yeni programlama dillerine, yeni ortamlara, yeni framework'lere oldukça dikkat ediyorum
+          ve tasarımının saflığında Ruby'ye eşit veya onu aşan hiçbir şey görmedim.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: '"The Pragmatic Programmer" Yazarı'
+          title: Author of "The Pragmatic Programmer"
         content: |
-          Ruby'nin etkileyici sözdizimi karmaşık mantığı özlü bir şekilde yazmanıza olanak tanır.
-          Tekrarı azaltabilir ve temel sorunları çözmeye odaklanabilirsiniz.
-          Kapsamlı test çerçeveleri hızlı geliştirme sırasında kaliteyi korumaya yardımcı olur.
+          Ruby fikirleri hızla koda dönüştürür.
+          Sadeliği beni odaklı tutar; ifade gücü düşündüğüm şekilde yazmamı sağlar.
+          Dil sanki yoldan çekiliyor, sadece ben ve problem kalıyor.
+          Harika araçlar ve kütüphanelerle fikirler hızla çalışan, zarif koda dönüşür.
 
     - id: ecosystem
       title: Ecosystem

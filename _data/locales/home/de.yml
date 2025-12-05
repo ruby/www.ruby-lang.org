@@ -32,14 +32,14 @@ why_ruby:
         Mit minimalem Boilerplate-Code und hoher Lesbarkeit ist es anfängerfreundlich und wartbar für erfahrene Entwickler.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Erfinder von Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby hat eine einfache und intuitive Syntax, die wie natürliche Sprache gelesen werden kann.
-          Mit minimalem Boilerplate-Code und hoher Lesbarkeit ist es eine anfängerfreundliche Sprache.
-          Die Designphilosophie ermöglicht es, direkt auszudrücken, was du willst.
+          Ruby ist einfach die schönste Programmiersprache, die ich je gesehen habe.
+          Ich achte sehr genau auf neue Programmiersprachen, die aufkommen,
+          neue Umgebungen, neue Frameworks, und ich habe noch nichts gesehen, das Ruby in der Reinheit seines Designs erreicht oder übertrifft.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Autor von "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          Rubys ausdrucksstarke Syntax ermöglicht es, komplexe Logik prägnant zu schreiben.
-          Du kannst Wiederholungen reduzieren und dich auf die Lösung der Kernprobleme konzentrieren.
-          Umfangreiche Test-Frameworks helfen, die Qualität während der schnellen Entwicklung aufrechtzuerhalten.
+          Ruby verwandelt Ideen schnell in Code.
+          Seine Einfachheit hält mich fokussiert; seine Ausdruckskraft lässt mich so schreiben, wie ich denke.
+          Es fühlt sich an, als würde die Sprache aus dem Weg gehen und nur mich und das Problem zurücklassen.
+          Mit großartigen Tools und Bibliotheken werden Ideen schnell zu laufendem, elegantem Code.
 
     - id: ecosystem
       title: Ecosystem

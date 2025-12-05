@@ -32,14 +32,14 @@ why_ruby:
         Z minimalnym boilerplate'em i wysoką czytelnością jest przyjazny dla początkujących i łatwy w utrzymaniu dla doświadczonych programistów.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Twórca Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby ma prostą i intuicyjną składnię, która czyta się jak naturalny język.
-          Z minimalnym boilerplate'em i wysoką czytelnością jest językiem przyjaznym dla początkujących.
-          Filozofia projektowania pozwala bezpośrednio wyrażać to, co chcesz.
+          Ruby to po prostu najpiękniejszy język programowania, jaki kiedykolwiek widziałem.
+          Zwracam sporo uwagi na nowe języki programowania, które się pojawiają,
+          nowe środowiska, nowe frameworki, i wciąż nie widziałem niczego, co dorównuje lub przewyższa Ruby w czystości jego projektu.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Autor "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          Ekspresyjna składnia Ruby pozwala pisać złożoną logikę zwięźle.
-          Możesz zredukować powtórzenia i skupić się na rozwiązywaniu głównych problemów.
-          Kompleksowe frameworki testowe pomagają utrzymać jakość podczas szybkiego rozwoju.
+          Ruby szybko zamienia pomysły w kod.
+          Jego prostota pozwala mi pozostać skupionym; jego ekspresyjność pozwala pisać tak, jak myślę.
+          Czuję, jakby język schodził z drogi, zostawiając tylko mnie i problem.
+          Z doskonałymi narzędziami i bibliotekami pomysły szybko stają się działającym, eleganckim kodem.
 
     - id: ecosystem
       title: Ecosystem

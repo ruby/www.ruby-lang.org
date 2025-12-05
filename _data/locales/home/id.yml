@@ -32,14 +32,14 @@ why_ruby:
         Dengan kode boilerplate minimal dan keterbacaan tinggi, ramah untuk pemula dan mudah dipelihara untuk pengembang berpengalaman.
       comment:
         author:
-          id: matz
-          url: https://github.com/matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Pencipta Ruby
+          id: dhh
+          url: https://github.com/dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          Ruby memiliki sintaks yang sederhana dan intuitif yang terbaca seperti bahasa natural.
-          Dengan kode boilerplate minimal dan keterbacaan tinggi, ini adalah bahasa yang ramah untuk pemula.
-          Filosofi desain memungkinkan Anda mengekspresikan langsung apa yang Anda inginkan.
+          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.
+          Saya cukup memperhatikan bahasa pemrograman baru yang muncul,
+          lingkungan baru, framework baru, dan saya belum melihat apa pun yang menyamai atau melampaui Ruby dalam kemurnian desainnya.
 
     - id: productivity
       title: Productivity
@@ -53,11 +53,12 @@ why_ruby:
           id: pragdave
           url: https://github.com/pragdave
           name: Dave Thomas
-          title: Penulis "The Pragmatic Programmer"
+          title: Author of "The Pragmatic Programmer"
         content: |
-          Sintaks ekspresif Ruby memungkinkan Anda menulis logika kompleks secara ringkas.
-          Anda dapat mengurangi pengulangan dan fokus pada penyelesaian masalah inti.
-          Framework testing yang komprehensif membantu menjaga kualitas selama pengembangan cepat.
+          Ruby mengubah ide menjadi kode dengan cepat.
+          Kesederhanaannya membuat saya tetap fokus; ekspresivitasnya memungkinkan saya menulis seperti cara saya berpikir.
+          Rasanya seperti bahasa menyingkir, meninggalkan hanya saya dan masalahnya.
+          Dengan tools dan library yang hebat, ide dengan cepat menjadi kode yang elegan dan berjalan.
 
     - id: ecosystem
       title: Ecosystem
