@@ -2742,6 +2742,10 @@ iframe {
   top: 83.6%;
 }
 
+.-right-6{
+  right: -1.5rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -3289,6 +3293,11 @@ iframe {
 
 .rotate-\[8deg\]{
   --tw-rotate: 8deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-x-\[-1\]{
+  --tw-scale-x: -1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
