@@ -4046,6 +4046,18 @@ iframe {
   line-height: 1.375;
 }
 
+.leading-tight{
+  line-height: 1.25;
+}
+
+.\!leading-none{
+  line-height: 1 !important;
+}
+
+.\!leading-tight{
+  line-height: 1.25 !important;
+}
+
 .tracking-\[0\.05em\]{
   letter-spacing: 0.05em;
 }
@@ -4111,6 +4123,10 @@ iframe {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-gold-300{
+  color: var(--color-gold-300);
 }
 
 .underline{
