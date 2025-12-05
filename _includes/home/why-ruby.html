@@ -18,16 +18,6 @@
       {% for feature in home.why_ruby.features %}
       <!-- {{ feature.title }} -->
       <div class="why-ruby-card relative self-start">
-        <!-- Background Illustration -->
-        <div class="absolute -top-4 right-0 w-40 md:w-56 lg:w-56 h-40 md:h-56 lg:h-56 pointer-events-none hidden sm:block lg:hidden xl:block">
-          <img src="/images/home/why_ruby/illustration/{{ feature.id }}--light.svg"
-               alt=""
-               class="block dark:hidden w-full h-full object-contain">
-          <img src="/images/home/why_ruby/illustration/{{ feature.id }}--dark.svg"
-               alt=""
-               class="hidden dark:block w-full h-full object-contain">
-        </div>
-
         <div class="relative z-10">
           <!-- Title (Handwritten Style) -->
           <h3 class="relative z-0 text-5xl sm:text-6xl md:text-7xl font-handwrite font-thin text-gold-600 dark:text-gold-400 mb-8 -rotate-[5deg]">
