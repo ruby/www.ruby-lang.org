@@ -24,7 +24,7 @@ why_ruby:
   description: Mengapa programmer di seluruh dunia menyukai Ruby? Apa yang membuatnya <strong>menyenangkan</strong>?
   features:
     - id: simple
-      title: Sederhana
+      title: Simple
       read: Mudah ditulis, mudah dibaca.<br />Sintaks natural seperti bahasa lisan.
       copy: |
         Ruby memiliki sintaks yang sederhana dan intuitif yang terbaca seperti bahasa natural.
@@ -42,7 +42,7 @@ why_ruby:
           Filosofi desain memungkinkan Anda mengekspresikan langsung apa yang Anda inginkan.
 
     - id: productivity
-      title: Produktivitas
+      title: Productivity
       read: Lakukan lebih banyak dengan lebih sedikit kode.<br />Sintaks intuitif mempercepat pengembangan.
       copy: |
         Sintaks ekspresif Ruby memungkinkan Anda menulis logika kompleks secara ringkas.
@@ -60,7 +60,7 @@ why_ruby:
           Framework testing yang komprehensif membantu menjaga kualitas selama pengembangan cepat.
 
     - id: ecosystem
-      title: Ekosistem
+      title: Ecosystem
       read: Gem yang kaya mendukung semua jenis pengembangan.<br />Tools matang siap digunakan.
       copy: |
         Ruby memiliki koleksi library yang luas yang disebut gem, mendukung segala hal mulai dari pengembangan web hingga pemrosesan data.
@@ -78,7 +78,7 @@ why_ruby:
           untuk membangun aplikasi berkualitas dengan cepat tanpa menemukan kembali roda.
 
     - id: community
-      title: Komunitas
+      title: Community
       read: Developer di seluruh dunia saling mendukung.<br />Komunitas yang hangat dan aktif.
       copy: |
         Komunitas Ruby menganut budaya "Matz is nice so we are nice (MINASWAN),"

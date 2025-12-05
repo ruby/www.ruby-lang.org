@@ -24,7 +24,7 @@ why_ruby:
   description: Dlaczego programiści na całym świecie kochają Ruby? Co czyni go <strong>zabawnym</strong>?
   features:
     - id: simple
-      title: Prosty
+      title: Simple
       read: Łatwy do pisania, łatwy do czytania.<br />Naturalna składnia jak mowa.
       copy: |
         Ruby ma prostą i intuicyjną składnię, która czyta się jak naturalny język.
@@ -42,7 +42,7 @@ why_ruby:
           Filozofia projektowania pozwala bezpośrednio wyrażać to, co chcesz.
 
     - id: productivity
-      title: Produktywność
+      title: Productivity
       read: Rób więcej przy mniejszej ilości kodu.<br />Intuicyjna składnia przyspiesza rozwój.
       copy: |
         Ekspresyjna składnia Ruby pozwala pisać złożoną logikę zwięźle.
@@ -60,7 +60,7 @@ why_ruby:
           Kompleksowe frameworki testowe pomagają utrzymać jakość podczas szybkiego rozwoju.
 
     - id: ecosystem
-      title: Ekosystem
+      title: Ecosystem
       read: Bogate gemy wspierają wszystkie rodzaje rozwoju.<br />Dojrzałe narzędzia gotowe do użycia.
       copy: |
         Ruby ma rozległą kolekcję bibliotek zwanych gemami, wspierających wszystko od tworzenia stron web po przetwarzanie danych.
@@ -78,7 +78,7 @@ why_ruby:
           by szybko budować wysokiej jakości aplikacje nie wymyślając koła na nowo.
 
     - id: community
-      title: Społeczność
+      title: Community
       read: Programiści na całym świecie wspierają się nawzajem.<br />Ciepła, aktywna społeczność.
       copy: |
         Społeczność Ruby przyjmuje kulturę "Matz is nice so we are nice (MINASWAN),"

@@ -24,7 +24,7 @@ why_ruby:
   description: Warum lieben Programmierer auf der ganzen Welt Ruby? Was macht es so <strong>unterhaltsam</strong>?
   features:
     - id: simple
-      title: Einfach
+      title: Simple
       read: Leicht zu schreiben, leicht zu lesen.<br />Natürliche Syntax wie gesprochene Sprache.
       copy: |
         Ruby hat eine einfache und intuitive Syntax, die wie natürliche Sprache gelesen werden kann.
@@ -42,7 +42,7 @@ why_ruby:
           Die Designphilosophie ermöglicht es, direkt auszudrücken, was du willst.
 
     - id: productivity
-      title: Produktivität
+      title: Productivity
       read: Mit weniger Code mehr erreichen.<br />Intuitive Syntax beschleunigt die Entwicklung.
       copy: |
         Rubys ausdrucksstarke Syntax ermöglicht es, komplexe Logik prägnant zu schreiben.
@@ -60,7 +60,7 @@ why_ruby:
           Umfangreiche Test-Frameworks helfen, die Qualität während der schnellen Entwicklung aufrechtzuerhalten.
 
     - id: ecosystem
-      title: Ökosystem
+      title: Ecosystem
       read: Reichhaltige Gems unterstützen alle Arten von Entwicklung.<br />Ausgereifte Werkzeuge sofort einsatzbereit.
       copy: |
         Ruby hat eine umfangreiche Sammlung von Bibliotheken namens Gems, die alles von Webentwicklung bis Datenverarbeitung unterstützen.

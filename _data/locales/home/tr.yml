@@ -24,7 +24,7 @@ why_ruby:
   description: Dünyanın dört bir yanındaki programcılar neden Ruby'yi seviyor? Onu <strong>eğlenceli</strong> yapan nedir?
   features:
     - id: simple
-      title: Basit
+      title: Simple
       read: Yazmak kolay, okumak kolay.<br />Konuşma dili gibi doğal sözdizimi.
       copy: |
         Ruby, doğal dil gibi okunan basit ve sezgisel bir sözdizimine sahiptir.
@@ -42,7 +42,7 @@ why_ruby:
           Tasarım felsefesi istediğinizi doğrudan ifade etmenizi sağlar.
 
     - id: productivity
-      title: Verimlilik
+      title: Productivity
       read: Daha az kodla daha fazlasını yapın.<br />Sezgisel sözdizimi geliştirmeyi hızlandırır.
       copy: |
         Ruby'nin etkileyici sözdizimi karmaşık mantığı özlü bir şekilde yazmanıza olanak tanır.
@@ -60,7 +60,7 @@ why_ruby:
           Kapsamlı test çerçeveleri hızlı geliştirme sırasında kaliteyi korumaya yardımcı olur.
 
     - id: ecosystem
-      title: Ekosistem
+      title: Ecosystem
       read: Zengin gemler her tür geliştirmeyi destekler.<br />Olgun araçlar kullanıma hazır.
       copy: |
         Ruby, web geliştirmeden veri işlemeye kadar her şeyi destekleyen gem adı verilen geniş bir kütüphane koleksiyonuna sahiptir.
@@ -78,7 +78,7 @@ why_ruby:
           tekerleği yeniden icat etmeden hızla kaliteli uygulamalar oluşturmak için.
 
     - id: community
-      title: Topluluk
+      title: Community
       read: Dünyanın dört bir yanındaki geliştiriciler birbirlerini destekler.<br />Sıcak, aktif bir topluluk.
       copy: |
         Ruby topluluğu "Matz is nice so we are nice (MINASWAN)" kültürünü benimser,

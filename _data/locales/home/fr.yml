@@ -42,7 +42,7 @@ why_ruby:
           La philosophie de conception vous permet d'exprimer directement ce que vous voulez.
 
     - id: productivity
-      title: Productivité
+      title: Productivity
       read: Faire plus avec moins de code.<br />La syntaxe intuitive accélère le développement.
       copy: |
         La syntaxe expressive de Ruby vous permet d'écrire une logique complexe de manière concise.
@@ -60,7 +60,7 @@ why_ruby:
           Les frameworks de test complets aident à maintenir la qualité pendant le développement rapide.
 
     - id: ecosystem
-      title: Écosystème
+      title: Ecosystem
       read: Des gems riches supportent tous les types de développement.<br />Des outils matures prêts à l'emploi.
       copy: |
         Ruby possède une vaste collection de bibliothèques appelées gems, supportant tout du développement web au traitement des données.
@@ -78,7 +78,7 @@ why_ruby:
           pour construire rapidement des applications de qualité sans réinventer la roue.
 
     - id: community
-      title: Communauté
+      title: Community
       read: Des développeurs du monde entier se soutiennent mutuellement.<br />Une communauté chaleureuse et active.
       copy: |
         La communauté Ruby embrasse la culture de "Matz is nice so we are nice (MINASWAN),"
