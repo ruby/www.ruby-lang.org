@@ -2858,6 +2858,50 @@ iframe {
   top: 66.5%;
 }
 
+.left-\[36\%\]{
+  left: 36%;
+}
+
+.left-\[34\%\]{
+  left: 34%;
+}
+
+.top-\[72\%\]{
+  top: 72%;
+}
+
+.top-\[74\%\]{
+  top: 74%;
+}
+
+.left-\[41\%\]{
+  left: 41%;
+}
+
+.top-\[61\%\]{
+  top: 61%;
+}
+
+.left-\[66\%\]{
+  left: 66%;
+}
+
+.left-\[43\%\]{
+  left: 43%;
+}
+
+.left-\[42\.5\%\]{
+  left: 42.5%;
+}
+
+.top-\[81\.5\%\]{
+  top: 81.5%;
+}
+
+.top-\[6\%\]{
+  top: 6%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -3280,6 +3324,10 @@ iframe {
 
 .w-\[39px\]{
   width: 39px;
+}
+
+.w-\[60px\]{
+  width: 60px;
 }
 
 .min-w-0{
@@ -4125,6 +4173,10 @@ iframe {
   padding-top: 3.5rem;
 }
 
+.pt-\[2\.5rem\]{
+  padding-top: 2.5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -4839,6 +4891,18 @@ iframe {
 
   .md\:left-\[63\%\]{
     left: 63%;
+  }
+
+  .md\:left-\[42\%\]{
+    left: 42%;
+  }
+
+  .md\:top-\[82\%\]{
+    top: 82%;
+  }
+
+  .md\:top-\[7\%\]{
+    top: 7%;
   }
 
   .md\:mb-16{
