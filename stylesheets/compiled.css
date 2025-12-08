@@ -3338,6 +3338,10 @@ iframe {
   width: 60px;
 }
 
+.w-\[92px\]{
+  width: 92px;
+}
+
 .min-w-0{
   min-width: 0px;
 }
@@ -3535,6 +3539,16 @@ iframe {
 
 .rotate-\[5deg\]{
   --tw-rotate: 5deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[-16deg\]{
+  --tw-rotate: -16deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[-17deg\]{
+  --tw-rotate: -17deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -4913,6 +4927,10 @@ iframe {
     top: 7%;
   }
 
+  .md\:left-\[42\.3\%\]{
+    left: 42.3%;
+  }
+
   .md\:mb-16{
     margin-bottom: 4rem;
   }
@@ -5095,6 +5113,10 @@ iframe {
 
   .md\:w-\[50px\]{
     width: 50px;
+  }
+
+  .md\:w-\[111px\]{
+    width: 111px;
   }
 
   .md\:min-w-\[1400px\]{
