@@ -760,12 +760,6 @@
     'opsz' 20;
 }
 
-/* Hover state via group */
-
-.group:hover .icon-dropdown::before {
-  color: var(--color-text-hovered);
-}
-
 /* External link icon */
 
 .icon-external::before {
@@ -791,12 +785,6 @@
     'wght' 400,
     'GRAD' 0,
     'opsz' 14;
-}
-
-/* Hover state via group */
-
-.group:hover .icon-external::before {
-  color: var(--color-text-hovered);
 }
 
 /* Allow parent text-white to override icon color */
@@ -4428,6 +4416,10 @@ iframe {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:bg-ruby-600:hover{
+  background-color: var(--color-ruby-600);
+}
+
 .hover\:bg-stone-100:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity, 1));
@@ -4455,6 +4447,11 @@ iframe {
   color: rgb(68 64 60 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 .hover\:underline:hover{
   text-decoration-line: underline;
 }
@@ -4469,6 +4466,10 @@ iframe {
 
 .group:hover .group-hover\:visible{
   visibility: visible;
+}
+
+.group:hover .group-hover\:text-semantic-text-link-hovered{
+  color: var(--color-text-link-hovered);
 }
 
 .group:hover .group-hover\:opacity-100{
@@ -4493,10 +4494,6 @@ iframe {
 
 .group:has(a:hover) .group-has-\[a\:hover\]\:text-gold-500{
   color: var(--color-gold-500);
-}
-
-.group:has(a:hover) .group-has-\[a\:hover\]\:text-ruby-600{
-  color: var(--color-ruby-600);
 }
 
 .dark\:rounded-\[2rem\]:is(.dark *){
@@ -4645,6 +4642,10 @@ iframe {
 .dark\:hover\:text-stone-300:hover:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(214 211 209 / var(--tw-text-opacity, 1));
+}
+
+.group:hover .dark\:group-hover\:text-ruby-400:is(.dark *){
+  color: var(--color-ruby-400);
 }
 
 .group:has(a:hover) .dark\:group-has-\[a\:hover\]\:bg-stone-800:is(.dark *){

@@ -41,10 +41,6 @@
     'opsz' 20;
 }
 
-/* Hover state via group */
-.group:hover .icon-dropdown::before {
-  color: var(--color-text-hovered);
-}
 
 /* External link icon */
 .icon-external::before {
@@ -70,11 +66,6 @@
     'GRAD' 0,
     'opsz' 14;
 
-}
-
-/* Hover state via group */
-.group:hover .icon-external::before {
-  color: var(--color-text-hovered);
 }
 
 /* Allow parent text-white to override icon color */
