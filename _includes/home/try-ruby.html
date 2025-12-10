@@ -1,14 +1,8 @@
 {% assign home = site.data.locales.home[page.lang] %}
 
 <!-- Try Ruby Section -->
-<section class="try-ruby-section bg-gold-150 dark:bg-stone-770 pt-8 md:pt-12 lg:pt-16 pb-0 relative">
+<section class="try-ruby-section bg-gold-150 dark:bg-stone-770 pt-4 md:pt-6 lg:pt-8 pb-0 relative">
   <div class="container mx-auto px-6 lg:px-8">
-    <!-- Section Title -->
-    <div class="text-center mb-8 sm:mb-12">
-      <h2 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-white mb-4 sm:mb-6">{{ home.try_ruby.title }}</h2>
-      <p class="text-sm md:text-lg text-stone-700 dark:text-stone-300">{{ home.try_ruby.description }}</p>
-    </div>
-
     <!-- Code Examples Grid -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 2xl:gap-16 mb-16">
       {% for i in (1..3) %}
