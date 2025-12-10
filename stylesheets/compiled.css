@@ -2818,6 +2818,10 @@ iframe {
   left: 81%;
 }
 
+.top-\[1\%\]{
+  top: 1%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -4893,6 +4897,10 @@ iframe {
     top: 7%;
   }
 
+  .sm\:top-\[4\%\]{
+    top: 4%;
+  }
+
   .sm\:mx-8{
     margin-left: 2rem;
     margin-right: 2rem;
@@ -5091,6 +5099,14 @@ iframe {
 
   .sm\:pt-6{
     padding-top: 1.5rem;
+  }
+
+  .sm\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .sm\:pt-10{
+    padding-top: 2.5rem;
   }
 
   .sm\:text-2xl{
