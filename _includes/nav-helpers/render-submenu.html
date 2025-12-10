@@ -16,7 +16,7 @@
          {% if include.subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
         <span class="{% if include.subitem.external %}inline-flex items-center gap-1{% endif %}">
           {{ include.subitem.text }}
-          {% if include.subitem.external %}<span class="icon-external text-xs" aria-hidden="true"></span>{% endif %}
+          {% if include.subitem.external %}<span class="icon-external text-xs group-hover:text-semantic-text-link-hovered dark:group-hover:text-ruby-400" aria-hidden="true"></span>{% endif %}
         </span>
         <svg class="w-3 h-3 text-stone-400 dark:text-stone-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>

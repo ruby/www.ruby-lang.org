@@ -1,7 +1,7 @@
 {% assign home = site.data.locales.home[page.lang] %}
 
 <!-- Try Ruby Section -->
-<section class="try-ruby-section bg-gold-150 dark:bg-stone-770 pt-0 pb-16 md:pb-20">
+<section class="try-ruby-section bg-gold-150 dark:bg-stone-770 pt-8 md:pt-12 lg:pt-16 pb-0 relative">
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Section Title -->
     <div class="text-center mb-8 sm:mb-12">
@@ -10,26 +10,42 @@
     </div>
 
     <!-- Code Examples Grid -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 mb-12">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 2xl:gap-16 mb-16">
       {% for i in (1..3) %}
-      <div class="bg-white dark:bg-stone-900 rounded-2xl p-6 flex flex-col">
-        <div id="try-ruby-example-{{ i }}" class="code-example mb-4 font-mono text-sm overflow-x-auto flex-grow">
+      <div class="group bg-white dark:bg-stone-900 rounded-2xl overflow-hidden flex flex-col shadow-sm border border-gold-400 dark:border-gold-500 has-[a:hover]:border-gold-500 dark:has-[a:hover]:border-gold-400 transition-colors box-border">
+        <!-- Code Area -->
+        <div id="try-ruby-example-{{ i }}" class="code-example p-8 pb-16 font-mono text-sm overflow-x-auto flex-grow bg-[url('/images/home/try_ruby/arrow.svg')] bg-no-repeat bg-[position:center_calc(100%-10px)] bg-[length:44px_auto] group-has-[a:hover]:bg-gold-50 dark:group-has-[a:hover]:bg-stone-800 transition-colors">
           <!-- Code will be loaded dynamically -->
         </div>
-        <a id="try-ruby-button-{{ i }}"
-           href="{{ home.try_ruby.button_url }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="flex items-center justify-center gap-2 w-full bg-ruby-600 hover:bg-ruby-700 text-white text-center py-4 rounded-lg font-bold tracking-wide transition-colors mt-auto">
-          {{ home.try_ruby.button_text }}
-          <span class="icon-external text-xs text-white ml-0" aria-hidden="true"></span>
-        </a>
+
+        <!-- Bottom Section with Wave Border -->
+        <div class="relative">
+          <!-- Wave Border SVG -->
+          <div class="absolute -top-3 left-0 right-0 h-4 text-gold-400 dark:text-gold-500 group-has-[a:hover]:text-gold-500 dark:group-has-[a:hover]:text-gold-600 transition-colors overflow-hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-[200%] h-full group-has-[a:hover]:animate-wave-scroll">
+              <path d="M0,10 C10,0 20,20 30,10 C40,0 50,20 60,10 C70,0 80,20 90,10 C100,0 110,20 120,10 C130,0 140,20 150,10 C160,0 170,20 180,10 C190,0 200,20 210,10 C220,0 230,20 240,10 C250,0 260,20 270,10 C280,0 290,20 300,10 C310,0 320,20 330,10 C340,0 350,20 360,10 C370,0 380,20 390,10 C400,0 410,20 420,10 C430,0 440,20 450,10 C460,0 470,20 480,10 C490,0 500,20 510,10 C520,0 530,20 540,10 C550,0 560,20 570,10 C580,0 590,20 600,10 C610,0 620,20 630,10 C640,0 650,20 660,10 C670,0 680,20 690,10 C700,0 710,20 720,10 C730,0 740,20 750,10 C760,0 770,20 780,10 C790,0 800,20 800,10 L800,20 L0,20 Z" fill="currentColor"/>
+            </svg>
+          </div>
+
+          <!-- Button Area -->
+          <div class="bg-gold-400 dark:bg-gold-500 group-has-[a:hover]:bg-gold-500 dark:group-has-[a:hover]:bg-gold-600 pt-4 pb-5 px-6 flex flex-col items-center transition-colors border-t border-gold-400 dark:border-gold-500 group-has-[a:hover]:border-gold-500 dark:group-has-[a:hover]:border-gold-600">
+            <!-- TRY Button -->
+            <a id="try-ruby-button-{{ i }}"
+               href="{{ home.try_ruby.button_url }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-2 bg-white text-stone-800 hover:bg-ruby-600 hover:text-white text-lg px-8 py-2.5 rounded-full font-bold tracking-wide transition-all duration-200 shadow-sm hover:scale-105">
+              {{ home.try_ruby.button_text }}
+              <span class="icon-external text-xs transition-colors" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
       </div>
       {% endfor %}
     </div>
 
     <!-- Bottom Link -->
-    <div class="text-center">
+    <div class="text-center pb-16 md:pb-20">
       <p class="text-stone-700 dark:text-stone-300">
         {{ home.try_ruby.bottom_text }}
         <a href="{{ home.try_ruby.bottom_link_url }}"
@@ -41,5 +57,12 @@
         </a>
       </p>
     </div>
+  </div>
+
+  <!-- Wave Border to Why Ruby Section -->
+  <div class="absolute -bottom-1 left-0 right-0 h-6 md:h-8 text-white dark:text-stone-900">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-full h-full">
+      <path d="M0,10 C20,0 40,20 60,10 C80,0 100,20 120,10 C140,0 160,20 180,10 C200,0 220,20 240,10 C260,0 280,20 300,10 C320,0 340,20 360,10 C380,0 400,20 400,10 L400,20 L0,20 Z" fill="currentColor"/>
+    </svg>
   </div>
 </section>
