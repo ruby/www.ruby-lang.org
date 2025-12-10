@@ -3921,6 +3921,11 @@ iframe {
   padding-bottom: 0.5rem;
 }
 
+.py-2\.5{
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -4010,6 +4015,10 @@ iframe {
 
 .pt-6{
   padding-top: 1.5rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
 }
 
 .pt-\[2\.5rem\]{
@@ -5073,6 +5082,10 @@ iframe {
     padding-bottom: 5rem;
   }
 
+  .md\:pt-12{
+    padding-top: 3rem;
+  }
+
   .md\:pt-14{
     padding-top: 3.5rem;
   }
@@ -5437,6 +5450,10 @@ iframe {
 
   .lg\:pt-0{
     padding-top: 0px;
+  }
+
+  .lg\:pt-16{
+    padding-top: 4rem;
   }
 
   .lg\:pt-20{
