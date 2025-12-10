@@ -2877,6 +2877,10 @@ iframe {
   margin-top: -24px;
 }
 
+.box-border{
+  box-sizing: border-box;
+}
+
 .block{
   display: block;
 }
@@ -3795,10 +3799,6 @@ iframe {
   border-color: rgb(168 162 158 / var(--tw-border-opacity, 1));
 }
 
-.border-transparent{
-  border-color: transparent;
-}
-
 .bg-gold-150{
   background-color: var(--color-gold-150);
 }
@@ -4481,6 +4481,10 @@ iframe {
 
 .group:has(a:hover) .group-has-\[a\:hover\]\:border-gold-500{
   border-color: var(--color-gold-500);
+}
+
+.group:has(a:hover) .group-has-\[a\:hover\]\:bg-gold-50{
+  background-color: var(--color-gold-50);
 }
 
 .group:has(a:hover) .group-has-\[a\:hover\]\:bg-gold-500{
