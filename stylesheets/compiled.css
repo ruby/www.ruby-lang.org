@@ -4647,6 +4647,11 @@ iframe {
   color: rgb(214 211 209 / var(--tw-text-opacity, 1));
 }
 
+.group:has(a:hover) .dark\:group-has-\[a\:hover\]\:bg-stone-800:is(.dark *){
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 37 36 / var(--tw-bg-opacity, 1));
+}
+
 @media (min-width: 640px){
   .sm\:mx-8{
     margin-left: 2rem;
