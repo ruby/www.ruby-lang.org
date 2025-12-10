@@ -3037,6 +3037,10 @@ iframe {
   width: 160px;
 }
 
+.w-\[200\%\]{
+  width: 200%;
+}
+
 .w-\[203px\]{
   width: 203px;
 }
@@ -4491,6 +4495,20 @@ iframe {
 
 .has-\[a\:hover\]\:border-gold-500:has(a:hover){
   border-color: var(--color-gold-500);
+}
+
+@keyframes wave-scroll{
+  0%{
+    transform: translateX(0);
+  }
+
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
+.group:has(a:hover) .group-has-\[a\:hover\]\:animate-wave-scroll{
+  animation: wave-scroll 2s linear infinite;
 }
 
 .group:has(a:hover) .group-has-\[a\:hover\]\:border-gold-500{

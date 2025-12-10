@@ -124,6 +124,10 @@ module.exports = {
           '50%': { opacity: '1', transform: 'translateX(-1px) rotate(calc(var(--tw-rotate, 0deg) - 0.2deg))' },
           '75%': { opacity: '1', transform: 'translateX(1.5px) rotate(calc(var(--tw-rotate, 0deg) + 0.2deg))' },
         },
+        'wave-scroll': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
       },
       animation: {
         'scroll-left': 'scroll-left 40s linear infinite',
@@ -137,6 +141,7 @@ module.exports = {
         'heartbeat-illust': 'heartbeat-illust 10s ease-in-out infinite',
         'train-slide-in': 'train-slide-in 0.6s ease-out forwards',
         'train-running': 'train-running 0.4s ease-in-out infinite',
+        'wave-scroll': 'wave-scroll 2s linear infinite',
       },
       colors: {
         stone: {
