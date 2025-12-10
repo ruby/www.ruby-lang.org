@@ -2,9 +2,9 @@ hero:
   since: "Since"
   year: "1995"
   title: "Ruby"
-  tagline: "프로그래머의 가장 친한 친구"
-  latest_version_label: "최신 버전:"
-  download_button: "다운로드"
+  tagline: "A Programmer's Best Friend"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
   or: "또는"
   learn_more: "자세히 알아보기"
   download_url: "/ko/downloads/"
@@ -13,10 +13,8 @@ hero:
 try_ruby:
   title: "Ruby를 체험해보세요!"
   description: "지금 브라우저에서 Ruby를 사용해보세요"
-  button_text: "체험하기!"
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "더 알아보거나 Ruby를 체험해보고 싶으신가요?"
-  bottom_link_text: "Ruby 체험하기"
   bottom_link_url: "https://try.ruby-lang.org/"
 
 why_ruby:

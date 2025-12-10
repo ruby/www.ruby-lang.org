@@ -2,7 +2,7 @@ hero:
   since: "Since"
   year: "1995"
   title: "Ruby"
-  tagline: "A Programmers Best Friend"
+  tagline: "A Programmer's Best Friend"
   latest_version_label: "Latest Version:"
   download_button: "Download"
   or: "or"
@@ -13,10 +13,8 @@ hero:
 try_ruby:
   title: "Try Ruby!"
   description: "今すぐ Ruby を試しましょう"
-  button_text: "TRY!"
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "もっと Ruby を知りたい・試したい方はこちら"
-  bottom_link_text: "Try Ruby"
   bottom_link_url: "https://try.ruby-lang.org/"
 
 why_ruby:

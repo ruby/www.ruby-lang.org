@@ -1,10 +1,10 @@
 hero:
-  since: "Từ"
+  since: "Since"
   year: "1995"
   title: "Ruby"
-  tagline: "Người bạn tốt nhất của lập trình viên"
-  latest_version_label: "Phiên bản mới nhất:"
-  download_button: "Tải xuống"
+  tagline: "A Programmer's Best Friend"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
   or: "hoặc"
   learn_more: "Tìm hiểu thêm"
   download_url: "/vi/downloads/"
@@ -13,10 +13,8 @@ hero:
 try_ruby:
   title: "Thử Ruby!"
   description: "Thử Ruby ngay trong trình duyệt của bạn"
-  button_text: "THỬ NGAY!"
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "Bạn muốn tìm hiểu thêm hoặc thử Ruby?"
-  bottom_link_text: "Thử Ruby"
   bottom_link_url: "https://try.ruby-lang.org/"
 
 why_ruby:

@@ -1,10 +1,10 @@
 hero:
-  since: "Sejak"
+  since: "Since"
   year: "1995"
   title: "Ruby"
-  tagline: "Sahabat Terbaik Programmer"
-  latest_version_label: "Versi Terbaru:"
-  download_button: "Unduh"
+  tagline: "A Programmer's Best Friend"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
   or: "atau"
   learn_more: "Tentang Ruby"
   download_url: "/id/downloads/"
@@ -13,10 +13,8 @@ hero:
 try_ruby:
   title: "Coba Ruby!"
   description: "Coba Ruby di browser Anda sekarang"
-  button_text: "COBA!"
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "Ingin belajar lebih lanjut atau mencoba Ruby?"
-  bottom_link_text: "Coba Ruby"
   bottom_link_url: "https://try.ruby-lang.org/"
 
 why_ruby:

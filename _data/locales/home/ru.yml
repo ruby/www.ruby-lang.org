@@ -1,10 +1,10 @@
 hero:
-  since: "С"
+  since: "Since"
   year: "1995"
   title: "Ruby"
-  tagline: "Лучший друг программиста"
-  latest_version_label: "Последняя версия:"
-  download_button: "Скачать"
+  tagline: "A Programmer's Best Friend"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
   or: "или"
   learn_more: "Узнать больше"
   download_url: "/ru/downloads/"
@@ -13,10 +13,8 @@ hero:
 try_ruby:
   title: "Попробуйте Ruby!"
   description: "Попробуйте Ruby в браузере прямо сейчас"
-  button_text: "ПОПРОБОВАТЬ!"
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "Хотите узнать больше или попробовать Ruby?"
-  bottom_link_text: "Попробуйте Ruby"
   bottom_link_url: "https://try.ruby-lang.org/"
 
 why_ruby:

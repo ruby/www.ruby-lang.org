@@ -1,10 +1,10 @@
 hero:
-  since: "始于"
+  since: "Since"
   year: "1995"
   title: "Ruby"
-  tagline: "程序员的最佳伙伴"
-  latest_version_label: "最新版本："
-  download_button: "下载"
+  tagline: "A Programmer's Best Friend"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
   or: "或"
   learn_more: "了解更多"
   download_url: "/zh_cn/downloads/"
@@ -13,10 +13,8 @@ hero:
 try_ruby:
   title: "试试 Ruby！"
   description: "现在就在浏览器中尝试 Ruby"
-  button_text: "试试看！"
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "想了解更多或试试 Ruby？"
-  bottom_link_text: "试试 Ruby"
   bottom_link_url: "https://try.ruby-lang.org/"
 
 why_ruby:
