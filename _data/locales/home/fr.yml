@@ -13,10 +13,8 @@ hero:
 try_ruby:
   title: "Essayez Ruby !"
   description: "Essayez Ruby dans votre navigateur maintenant"
-  button_text: "ESSAYEZ !"
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "Vous voulez en savoir plus ou essayer Ruby ?"
-  bottom_link_text: "Essayez Ruby"
   bottom_link_url: "https://try.ruby-lang.org/"
 
 why_ruby:
