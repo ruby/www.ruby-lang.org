@@ -2,7 +2,6 @@ hero:
   since: "Since"
   year: "1995"
   title: "Ruby"
-  tagline: "A Programmer's Best Friend"
   latest_version_label: "Latest Version:"
   download_button: "Download"
   or: "veya"
