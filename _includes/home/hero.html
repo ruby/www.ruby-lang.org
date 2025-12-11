@@ -76,30 +76,31 @@
       <img src="/images/home/hero/bg-ruby.svg"
            alt="Ruby"
            data-hero-layer="gem"
-           class="absolute w-[33.125rem] h-auto inset-0 m-auto opacity-0">
+           class="absolute w-[30rem] h-auto left-0 right-0 top-0 bottom-0 mx-auto my-auto mt-[7rem] opacity-0">
 
       <!-- Content Inside Ruby Gem -->
-      <div data-hero-layer="content" class="absolute inset-0 flex flex-col items-center opacity-0 pointer-events-auto pt-[52px] sm:pt-[60px]">
+      <div data-hero-layer="content" class="absolute inset-0 flex flex-col items-center opacity-0 pointer-events-auto pt-[10rem]">
         <!-- Since 1995 -->
-        <p class="text-sm sm:text-lg text-gold-400 tracking-[0.2em] drop-shadow-sm whitespace-nowrap">
+        <p class="text-sm sm:text-lg text-gold-400 tracking-[0.2em] drop-shadow-sm whitespace-nowrap mb-3">
           <span class="font-normal">{{ home.hero.since }}</span> <span class="font-semibold">{{ home.hero.year }}</span>
         </p>
 
-        <!-- Ruby Title -->
-        <div class="text-[96px] sm:text-[128px] leading-none font-extrabold text-white tracking-tighter drop-shadow-sm -mt-4 sm:-mt-6">{{ home.hero.title }}</div>
-
-        <!-- Tagline -->
-        <img src="/images/home/hero/a-programmers-best-friend.svg" alt="A Programmer's Best Friend" class="w-[165px] sm:w-[220px] h-auto -mt-2 sm:-mt-4 translate-x-[50px]">
+        <!-- Ruby Title + Tagline -->
+        <div class="relative -mt-4 sm:-mt-6 mb-12">
+          <div class="text-[96px] sm:text-[128px] leading-none font-extrabold text-white tracking-tighter drop-shadow-sm">{{ home.hero.title }}</div>
+          <!-- Tagline -->
+          <img src="/images/home/hero/a-programmers-best-friend.svg" alt="A Programmer's Best Friend" class="absolute top-full left-1/2 -translate-x-[55%] -translate-y-[2.3rem] w-[165px] sm:w-[220px] h-auto">
+        </div>
 
         <!-- Latest Version -->
-        <div class="text-center mt-6 sm:mt-10 relative">
+        <div class="text-center relative">
           <p class="text-sm sm:text-lg tracking-wide text-gold-400 whitespace-nowrap"><span class="font-light text-white">{{ home.hero.latest_version_label }}</span> <span class="font-extrabold text-white relative inline-block">{{ site.data.latest_version.version }}<img src="/images/home/hero/version-line.svg" alt="" class="absolute -bottom-1 left-0 w-full h-auto"></span></p>
-          <img src="/images/home/hero/version-arrow.svg" alt="" class="absolute top-[30px] sm:top-[35px] left-[calc(50%+40px)] sm:left-[calc(50%+50px)] w-[20px] sm:w-[24px] h-auto">
+          <img src="/images/home/hero/version-arrow.svg" alt="" class="absolute top-[24px] sm:top-[28px] left-[calc(50%+40px)] sm:left-[calc(50%+50px)] w-[24px] sm:w-[28px] h-auto">
         </div>
 
         <!-- Download Button -->
         <a href="{{ home.hero.download_url }}"
-           class="mt-8 sm:mt-12 inline-block bg-white text-ruby-600 text-xs sm:text-base px-5 sm:px-7 py-2 sm:py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all uppercase tracking-wide shadow-md whitespace-nowrap">
+           class="mt-4 sm:mt-6 inline-block bg-white text-ruby-600 text-xs sm:text-base px-5 sm:px-7 py-2 sm:py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all uppercase tracking-wide shadow-md whitespace-nowrap">
           {{ home.hero.download_button }}
         </a>
       </div>
