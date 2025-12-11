@@ -4441,6 +4441,10 @@ iframe {
   ruby-talk: 5252;
 }
 
+.\[text-shadow\:-1px_-1px_0_\#e62923\2c 1px_-1px_0_\#e62923\2c -1px_1px_0_\#e62923\2c 1px_1px_0_\#e62923\]{
+  text-shadow: -1px -1px 0 #e62923,1px -1px 0 #e62923,-1px 1px 0 #e62923,1px 1px 0 #e62923;
+}
+
 .marker\:text-stone-400 *::marker{
   color: rgb(168 162 158 );
 }
