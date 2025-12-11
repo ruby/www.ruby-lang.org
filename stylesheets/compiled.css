@@ -2958,6 +2958,10 @@ iframe {
   height: 1.5rem;
 }
 
+.h-8{
+  height: 2rem;
+}
+
 .h-\[126px\]{
   height: 126px;
 }
@@ -3010,6 +3014,10 @@ iframe {
   max-height: calc(100vh - 8rem);
 }
 
+.min-h-\[200px\]{
+  min-height: 200px;
+}
+
 .min-h-\[calc\(100vh-10rem\)\]{
   min-height: calc(100vh - 10rem);
 }
@@ -3036,6 +3044,10 @@ iframe {
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-\[110px\]{
@@ -3563,6 +3575,16 @@ iframe {
   animation: scroll-left 40s linear infinite;
 }
 
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin{
+  animation: spin 1s linear infinite;
+}
+
 @keyframes train-running{
   0%, 100%{
     opacity: 1;
@@ -3803,6 +3825,10 @@ iframe {
   border-width: 1px;
 }
 
+.border-\[3px\]{
+  border-width: 3px;
+}
+
 .border-b{
   border-bottom-width: 1px;
 }
@@ -3813,6 +3839,10 @@ iframe {
 
 .border-t{
   border-top-width: 1px;
+}
+
+.border-gold-300{
+  border-color: var(--color-gold-300);
 }
 
 .border-gold-400{
@@ -3836,6 +3866,10 @@ iframe {
 .border-stone-400{
   --tw-border-opacity: 1;
   border-color: rgb(168 162 158 / var(--tw-border-opacity, 1));
+}
+
+.border-t-gold-500{
+  border-top-color: var(--color-gold-500);
 }
 
 .bg-gold-150{
