@@ -24,7 +24,7 @@
 - version: 4.0.0-preview2
   date: 2025-11-17
   post: /en/news/2025/11/17/ruby-4-0-0-preview2-released/
-  tag: v4_0_0_preview2
+  tag: v4.0.0-preview2
   stats:
     files_changed: 3607
     insertions: 197451
