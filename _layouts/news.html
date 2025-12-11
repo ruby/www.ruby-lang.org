@@ -83,8 +83,8 @@ layout: default
           </button>
 
           <!-- Archive year dropdown -->
-          <div class="absolute left-0 mt-1 w-full max-h-96 overflow-y-auto bg-white dark:bg-stone-800 rounded-lg shadow-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-            <div class="py-2">
+          <div class="absolute left-0 mt-1 w-full bg-white dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <div class="max-h-[calc(100vh-18rem)] overflow-y-auto overflow-x-hidden py-2 rounded-lg">
               {% for year in page.years %}
               <a href="{{ year[0] }}/" class="block px-4 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
                 {{ year[1] }}

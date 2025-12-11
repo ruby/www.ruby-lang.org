@@ -2994,12 +2994,12 @@ iframe {
   height: 100%;
 }
 
-.max-h-96{
-  max-height: 24rem;
-}
-
 .max-h-\[80vh\]{
   max-height: 80vh;
+}
+
+.max-h-\[calc\(100vh-18rem\)\]{
+  max-height: calc(100vh - 18rem);
 }
 
 .max-h-\[calc\(100vh-6rem\)\]{
@@ -3769,6 +3769,10 @@ iframe {
 
 .overflow-y-auto{
   overflow-y: auto;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 
 .whitespace-nowrap{
