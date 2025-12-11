@@ -1,6 +1,9 @@
 "use strict";
 
 var TryRubyExamples = {
+  loadedCount: 0,
+  totalExamples: 3,
+
   extractCodeFromHtml: function(html) {
     // Create a temporary element to parse the HTML
     var temp = document.createElement('div');
@@ -19,6 +22,41 @@ var TryRubyExamples = {
   generateTryRubyUrl: function(code) {
     var encodedCode = encodeURIComponent(code);
     return 'https://try.ruby-lang.org/playground/#code=' + encodedCode + '&engine=cruby-3.3.0';
+  },
+
+  onExampleLoaded: function() {
+    TryRubyExamples.loadedCount++;
+
+    // When all examples are loaded, fade in all content simultaneously
+    if (TryRubyExamples.loadedCount >= TryRubyExamples.totalExamples) {
+      TryRubyExamples.showAllExamples();
+    }
+  },
+
+  showAllExamples: function() {
+    for (var i = 1; i <= TryRubyExamples.totalExamples; i++) {
+      var loader = document.getElementById('try-ruby-loader-' + i);
+      var content = document.getElementById('try-ruby-example-' + i);
+      var bottom = document.getElementById('try-ruby-bottom-' + i);
+
+      if (loader) {
+        loader.classList.add('opacity-0', 'transition-opacity', 'duration-300');
+        // Remove loader after fade out
+        setTimeout(function(el) {
+          return function() { el.style.display = 'none'; };
+        }(loader), 300);
+      }
+
+      if (content) {
+        content.classList.remove('opacity-0');
+        content.classList.add('opacity-100');
+      }
+
+      if (bottom) {
+        bottom.classList.remove('opacity-0');
+        bottom.classList.add('opacity-100');
+      }
+    }
   },
 
   loadExample: function(exampleName, targetId, buttonId) {
@@ -51,10 +89,15 @@ var TryRubyExamples = {
             button.href = tryRubyUrl;
           }
         }
+
+        // Notify that this example has loaded
+        TryRubyExamples.onExampleLoaded();
       })
       .catch(function(error) {
         console.error('Error loading example:', error);
         target.innerHTML = '<p class="text-stone-500">Failed to load example</p>';
+        // Still count as loaded to prevent infinite loading state
+        TryRubyExamples.onExampleLoaded();
       });
   },
 
