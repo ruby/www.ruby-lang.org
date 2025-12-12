@@ -2958,10 +2958,6 @@ iframe {
   height: 1.5rem;
 }
 
-.h-8{
-  height: 2rem;
-}
-
 .h-\[126px\]{
   height: 126px;
 }
@@ -2998,12 +2994,16 @@ iframe {
   height: 100%;
 }
 
-.max-h-\[80vh\]{
-  max-height: 80vh;
+.h-8{
+  height: 2rem;
 }
 
-.max-h-\[calc\(100vh-18rem\)\]{
-  max-height: calc(100vh - 18rem);
+.max-h-96{
+  max-height: 24rem;
+}
+
+.max-h-\[80vh\]{
+  max-height: 80vh;
 }
 
 .max-h-\[calc\(100vh-6rem\)\]{
@@ -3014,12 +3014,24 @@ iframe {
   max-height: calc(100vh - 8rem);
 }
 
-.min-h-\[200px\]{
-  min-height: 200px;
+.max-h-\[calc\(100vh-12rem\)\]{
+  max-height: calc(100vh - 12rem);
+}
+
+.max-h-\[calc\(100vh-16rem\)\]{
+  max-height: calc(100vh - 16rem);
+}
+
+.max-h-\[calc\(100vh-18rem\)\]{
+  max-height: calc(100vh - 18rem);
 }
 
 .min-h-\[calc\(100vh-10rem\)\]{
   min-height: calc(100vh - 10rem);
+}
+
+.min-h-\[200px\]{
+  min-height: 200px;
 }
 
 .w-10{
@@ -3044,10 +3056,6 @@ iframe {
 
 .w-6{
   width: 1.5rem;
-}
-
-.w-8{
-  width: 2rem;
 }
 
 .w-\[110px\]{
@@ -3201,6 +3209,10 @@ iframe {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .min-w-0{
@@ -3575,16 +3587,6 @@ iframe {
   animation: scroll-left 40s linear infinite;
 }
 
-@keyframes spin{
-  to{
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin{
-  animation: spin 1s linear infinite;
-}
-
 @keyframes train-running{
   0%, 100%{
     opacity: 1;
@@ -3641,6 +3643,16 @@ iframe {
 
 .animate-zoom-in{
   animation: zoom-in 0.5s ease-out forwards;
+}
+
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin{
+  animation: spin 1s linear infinite;
 }
 
 .select-none{
@@ -3841,10 +3853,6 @@ iframe {
   border-top-width: 1px;
 }
 
-.border-gold-300{
-  border-color: var(--color-gold-300);
-}
-
 .border-gold-400{
   border-color: var(--color-gold-400);
 }
@@ -3866,6 +3874,10 @@ iframe {
 .border-stone-400{
   --tw-border-opacity: 1;
   border-color: rgb(168 162 158 / var(--tw-border-opacity, 1));
+}
+
+.border-gold-300{
+  border-color: var(--color-gold-300);
 }
 
 .border-t-gold-500{
