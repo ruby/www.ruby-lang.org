@@ -92,14 +92,13 @@
         </div>
 
         <!-- Latest Version -->
-        <div class="text-center relative">
-          <p class="text-lg tracking-wide text-gold-400 whitespace-nowrap"><span class="font-light text-white">{{ home.hero.latest_version_label }}</span> <span class="font-extrabold text-white relative inline-block">{{ site.data.latest_version.version }}<img src="/images/home/hero/version-line.svg" alt="" class="absolute -bottom-1 left-0 w-full h-auto"></span></p>
-          <img src="/images/home/hero/version-arrow.svg" alt="" class="absolute top-[28px] left-[calc(50%+50px)] w-[28px] h-auto">
+        <div class="text-center">
+          <p class="text-xl tracking-wide text-gold-400 whitespace-nowrap"><span class="font-light text-white">{{ home.hero.latest_version_label }}</span> <span class="font-extrabold text-white relative inline-block">{{ site.data.latest_version.version }}<img src="/images/home/hero/version-line.svg" alt="" class="absolute -bottom-[6px] left-0 w-full h-auto"></span></p>
         </div>
 
         <!-- Download Button -->
         <a href="{{ home.hero.download_url }}"
-           class="mt-6 inline-block bg-white text-ruby-600 text-base px-7 py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all uppercase tracking-wide shadow-md whitespace-nowrap">
+           class="relative mt-6 inline-block bg-white text-ruby-600 text-base px-7 py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all uppercase tracking-wide shadow-md whitespace-nowrap before:content-[''] before:absolute before:w-[2.9rem] before:h-[2.9rem] before:bg-[url('/images/home/hero/version-arrow.svg')] before:bg-contain before:bg-no-repeat before:-top-[1.6rem] before:-right-[0.9rem]">
           {{ home.hero.download_button }}
         </a>
       </div>
