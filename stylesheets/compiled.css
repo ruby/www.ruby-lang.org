@@ -4700,6 +4700,14 @@ iframe {
   padding-top: 10rem;
 }
 
+.pb-20{
+  padding-bottom: 5rem;
+}
+
+.pt-16{
+  padding-top: 4rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -5926,6 +5934,14 @@ iframe {
     padding-top: 1.5rem;
   }
 
+  .md\:pb-24{
+    padding-bottom: 6rem;
+  }
+
+  .md\:pt-20{
+    padding-top: 5rem;
+  }
+
   .md\:text-center{
     text-align: center;
   }
@@ -6000,6 +6016,10 @@ iframe {
 
   .lg\:mb-8{
     margin-bottom: 2rem;
+  }
+
+  .lg\:mb-10{
+    margin-bottom: 2.5rem;
   }
 
   .lg\:block{
@@ -6173,6 +6193,10 @@ iframe {
 
   .lg\:pb-24{
     padding-bottom: 6rem;
+  }
+
+  .lg\:pb-28{
+    padding-bottom: 7rem;
   }
 
   .lg\:text-left{
