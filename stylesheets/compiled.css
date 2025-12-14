@@ -4917,6 +4917,10 @@ iframe {
   color: var(--color-gold-300);
 }
 
+.text-gold-150{
+  color: var(--color-gold-150);
+}
+
 .underline{
   text-decoration-line: underline;
 }
