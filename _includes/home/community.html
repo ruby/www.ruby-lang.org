@@ -1,11 +1,14 @@
 {% assign home = site.data.locales.home[page.lang] %}
 
-<!-- Community Section -->
-<section class="community-section bg-gold-300 dark:bg-stone-770 py-16 md:py-20 lg:py-24">
+<!-- Community Section Wrapper -->
+<div class="community-wrapper bg-gold-150 dark:bg-stone-770 relative">
+
+  <!-- Community Section -->
+  <section class="community-section py-16 md:py-20 lg:py-24">
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Section Header -->
-    <div class="text-center mb-4 lg:mb-6">
-      <h2 class="text-3xl md:text-4xl font-extrabold mb-6">
+    <div class="text-center mb-6 lg:mb-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-8">
         <a href="{{ home.community.link_about_url }}" class="text-stone-900 dark:text-white hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
           {{ home.community.title }}<span class="icon-chevron-right text-3xl md:text-4xl" aria-hidden="true"></span>
         </a>
@@ -19,7 +22,7 @@
     </div>
 
     <!-- Motto -->
-    <div class="text-center mb-6 lg:mb-8">
+    <div class="text-center mb-8 lg:mb-10">
       <p class="text-lg md:text-xl text-ruby-600 dark:text-ruby-500">
         {{ home.community.motto_prefix }} "<span class="font-bold">{{ home.community.motto_minaswan }}</span>" {{ home.community.motto_separator }} <span class="italic">{{ home.community.motto_translation }}</span>
       </p>
@@ -30,7 +33,7 @@
   <svg width="0" height="0" style="position: absolute;">
     <defs>
       <clipPath id="ruby-gem-mask" clipPathUnits="objectBoundingBox" transform="scale(0.005, 0.00556)">
-        <path d="M45.79,4.27c1.56-2.34,4.3-3.91,7.42-3.91h93.77c3.13,0,5.86,1.56,7.42,3.91l43.76,59.39c2.73,3.52,2.34,8.6-.39,11.72l-90.64,100.02c-1.95,1.95-4.3,3.13-7.03,3.13s-5.08-1.17-7.03-3.13L2.42,75.38c-3.13-3.13-3.13-8.2-.39-11.72L45.79,4.27Z"/>
+        <path d="M56.6.55h86.84c6.79,0,13.13,3.39,16.9,9.04l36.26,54.34c5.26,7.89,4.37,18.37-2.15,25.25l-79.68,84.14c-8.01,8.46-21.49,8.46-29.51,0L5.59,89.18c-6.52-6.88-7.41-17.36-2.15-25.25L39.7,9.59C43.47,3.94,49.81.55,56.6.55Z"/>
       </clipPath>
     </defs>
   </svg>
@@ -65,4 +68,13 @@
       </ul>
     </div>
   </div>
-</section>
+  </section>
+
+  <!-- Wave Border to next section -->
+  <div class="absolute -bottom-1 left-0 right-0 h-6 md:h-8 text-white dark:text-stone-900">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-full h-full">
+      <path d="M0,10 C20,0 40,20 60,10 C80,0 100,20 120,10 C140,0 160,20 180,10 C200,0 220,20 240,10 C260,0 280,20 300,10 C320,0 340,20 360,10 C380,0 400,20 400,10 L400,20 L0,20 Z" fill="currentColor"/>
+    </svg>
+  </div>
+
+</div>
