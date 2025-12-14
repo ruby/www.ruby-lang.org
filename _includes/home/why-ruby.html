@@ -1,7 +1,10 @@
 {% assign home = site.data.locales.home[page.lang] %}
 
-<!-- Why Ruby Section -->
-<section class="why-ruby-section bg-white dark:bg-stone-900 py-16 md:py-20 lg:pt-24 lg:pb-16">
+<!-- Why Ruby + Companies Wrapper -->
+<div class="why-ruby-companies-wrapper bg-white dark:bg-stone-900 relative">
+
+  <!-- Why Ruby Section -->
+  <section class="why-ruby-section py-16 md:py-20 lg:pt-24 lg:pb-16">
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Section Header -->
     <div class="text-center mb-8 sm:mb-12">
@@ -91,4 +94,9 @@
       {% endfor %}
     </div>
   </div>
-</section>
+  </section>
+
+  <!-- Companies Section (included) -->
+  {% include home/companies.html %}
+
+</div>
