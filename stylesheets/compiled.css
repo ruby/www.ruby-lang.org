@@ -4708,6 +4708,10 @@ iframe {
   padding-top: 4rem;
 }
 
+.pb-4{
+  padding-bottom: 1rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -5196,6 +5200,46 @@ iframe {
   left: -20rem;
 }
 
+.before\:-top-8::before{
+  content: var(--tw-content);
+  top: -2rem;
+}
+
+.before\:left-\[calc\(50\%\+50px\)\]::before{
+  content: var(--tw-content);
+  left: calc(50% + 50px);
+}
+
+.before\:top-\[18px\]::before{
+  content: var(--tw-content);
+  top: 18px;
+}
+
+.before\:left-\[calc\(50\%\+80px\)\]::before{
+  content: var(--tw-content);
+  left: calc(50% + 80px);
+}
+
+.before\:-top-\[2px\]::before{
+  content: var(--tw-content);
+  top: -2px;
+}
+
+.before\:left-\[calc\(50\%\+90px\)\]::before{
+  content: var(--tw-content);
+  left: calc(50% + 90px);
+}
+
+.before\:-top-\[12px\]::before{
+  content: var(--tw-content);
+  top: -12px;
+}
+
+.before\:-top-\[7px\]::before{
+  content: var(--tw-content);
+  top: -7px;
+}
+
 .before\:z-0::before{
   content: var(--tw-content);
   z-index: 0;
@@ -5204,6 +5248,11 @@ iframe {
 .before\:z-\[-1\]::before{
   content: var(--tw-content);
   z-index: -1;
+}
+
+.before\:z-20::before{
+  content: var(--tw-content);
+  z-index: 20;
 }
 
 .before\:hidden::before{
@@ -5251,6 +5300,26 @@ iframe {
   height: 1328px;
 }
 
+.before\:h-11::before{
+  content: var(--tw-content);
+  height: 2.75rem;
+}
+
+.before\:h-12::before{
+  content: var(--tw-content);
+  height: 3rem;
+}
+
+.before\:h-\[53px\]::before{
+  content: var(--tw-content);
+  height: 53px;
+}
+
+.before\:h-\[58px\]::before{
+  content: var(--tw-content);
+  height: 58px;
+}
+
 .before\:w-\[28px\]::before{
   content: var(--tw-content);
   width: 28px;
@@ -5291,6 +5360,26 @@ iframe {
   width: 840px;
 }
 
+.before\:w-11::before{
+  content: var(--tw-content);
+  width: 2.75rem;
+}
+
+.before\:w-12::before{
+  content: var(--tw-content);
+  width: 3rem;
+}
+
+.before\:w-\[53px\]::before{
+  content: var(--tw-content);
+  width: 53px;
+}
+
+.before\:w-\[58px\]::before{
+  content: var(--tw-content);
+  width: 58px;
+}
+
 .before\:translate-x-1\/2::before{
   content: var(--tw-content);
   --tw-translate-x: 50%;
@@ -5303,6 +5392,18 @@ iframe {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.before\:rotate-\[30deg\]::before{
+  content: var(--tw-content);
+  --tw-rotate: 30deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:rotate-\[40deg\]::before{
+  content: var(--tw-content);
+  --tw-rotate: 40deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .before\:bg-\[url\(\'\/images\/home\/hero\/version-arrow\.svg\'\)\]::before{
   content: var(--tw-content);
   background-image: url('/images/home/hero/version-arrow.svg');
@@ -5311,6 +5412,11 @@ iframe {
 .before\:bg-\[url\(\'\/images\/home\/hero\/bg\.svg\'\)\]::before{
   content: var(--tw-content);
   background-image: url('/images/home/hero/bg.svg');
+}
+
+.before\:bg-\[url\(\'\/images\/home\/try_ruby\/arrow\.svg\'\)\]::before{
+  content: var(--tw-content);
+  background-image: url('/images/home/try_ruby/arrow.svg');
 }
 
 .before\:bg-contain::before{
