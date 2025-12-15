@@ -17,9 +17,9 @@ Displays current language and dropdown menu for switching languages
   <button class="flex items-center gap-1 px-3 py-1.5 text-sm border border-stone-300 dark:border-stone-600 rounded-md hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
     <span class="text-stone-700 dark:text-stone-300">
       {% if current_language %}
-        {{ current_language.native_name }} ({{ current_language.code }})
+        {{ current_language.native_name }}
       {% else %}
-        English (en)
+        English
       {% endif %}
     </span>
     <span class="icon-dropdown text-base" aria-hidden="true"></span>
@@ -31,7 +31,7 @@ Displays current language and dropdown menu for switching languages
       {% for lang in site.data.languages %}
       <a href="/{{ lang.code }}{{ page.url | remove_first: '/' | replace_first: page.lang, '' }}"
          class="flex items-center justify-between px-4 py-2 text-sm {% if lang.code == current_lang %}bg-stone-100 dark:bg-stone-700 text-stone-900 dark:text-stone-50 font-medium{% else %}text-stone-700 dark:text-stone-300{% endif %} hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
-        <span>{{ lang.native_name }}</span>
+        <span>{{ lang.native_name }} ({{ lang.code }})</span>
         {% if lang.code == current_lang %}
         <span class="icon-check" aria-hidden="true"></span>
         {% endif %}
