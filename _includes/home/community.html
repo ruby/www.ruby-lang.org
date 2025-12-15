@@ -39,9 +39,11 @@
   </svg>
 
   <!-- Photo Gallery (Full Width) -->
+  {% assign community_photos = site.static_files | where_exp: "file", "file.path contains '/images/home/community/pics/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.png' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.PNG' or file.extname == '.JPEG'" %}
+  {% assign photo_count = community_photos | size %}
+  {% assign scroll_duration = photo_count | times: 2.5 %}
   <div class="relative overflow-hidden mb-6 lg:mb-8 pt-2 h-[170px] 2xl:h-[200px]">
-    <div class="flex gap-6 2xl:gap-8 absolute w-max will-change-transform animate-scroll-left">
-      {% assign community_photos = site.static_files | where_exp: "file", "file.path contains '/images/home/community/pics/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.png' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.PNG' or file.extname == '.JPEG'" %}
+    <div class="flex gap-6 2xl:gap-8 absolute w-max will-change-transform animate-scroll-left [animation-duration:{{ scroll_duration }}s]">
       {% for i in (1..2) %}
         <div class="flex gap-6 2xl:gap-8 flex-shrink-0">
           {% for photo in community_photos %}
