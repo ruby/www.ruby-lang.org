@@ -11,72 +11,76 @@
 {% endif %}
 
 <!-- Footer Section -->
-<footer class="bg-gold-150 dark:bg-stone-770 mt-16 md:mt-24 pt-16 pb-20 md:pb-24 relative">
+<footer class="bg-gold-150 dark:bg-stone-770 mt-16 md:mt-24 pt-2 pb-12 md:pb-16 relative">
   <!-- Wave Border at top -->
   <div class="absolute -top-[23px] md:-top-[31px] left-0 right-0 h-6 md:h-8 text-gold-150 dark:text-stone-770">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-full h-full">
       <path d="M0,10 C20,0 40,20 60,10 C80,0 100,20 120,10 C140,0 160,20 180,10 C200,0 220,20 240,10 C260,0 280,20 300,10 C320,0 340,20 360,10 C380,0 400,20 400,10 L400,20 L0,20 Z" fill="currentColor"/>
     </svg>
   </div>
+
+  <!-- Illustration Pattern Band -->
+  <div class="w-full h-10 mb-12 bg-repeat-x bg-center bg-[url('/images/footer/illust-pattern.svg')] bg-[length:auto_40px]" aria-hidden="true"></div>
+
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
 
-    <!-- Happy Hacking! -->
-    <div class="mb-8 md:mb-10">
-      <h2 class="text-2xl md:text-3xl font-handwritten text-stone-900 dark:text-white">
-        Happy Hacking!
-      </h2>
-      <!-- Decorative underline -->
-      <img src="/images/home/why_ruby/line.svg" alt="" class="w-60 md:w-72 h-auto mt-1" aria-hidden="true">
-    </div>
-
-    <!-- Footer Content: Credits and Links -->
-    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 md:gap-8">
-      <!-- Credits -->
-      <div class="text-sm text-stone-700 dark:text-stone-300 [&_a]:underline [&_a]:hover:text-ruby-600 dark:[&_a]:hover:text-ruby-400 [&_a]:transition-colors">
-        {{ credits }}
+    <!-- Happy Hacking! and Footer Links -->
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 md:gap-8 mb-6 md:mb-8">
+      <!-- Happy Hacking! -->
+      <div>
+        <h2 class="text-2xl md:text-3xl font-handwritten text-stone-900 dark:text-white">
+          Happy Hacking!
+        </h2>
+        <!-- Decorative underline -->
+        <img src="/images/home/why_ruby/line.svg" alt="" class="w-60 md:w-72 h-auto mt-1" aria-hidden="true">
       </div>
 
       <!-- Footer Links -->
-      <nav class="flex flex-wrap items-center gap-x-2 gap-y-2 text-sm">
+      <nav class="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold md:pt-2">
         {% if footer.links.security %}
         <a href="{{ footer.links.security.url }}"
-           class="text-stone-700 hover:text-stone-900 dark:text-stone-300 dark:hover:text-white transition-colors">
+           class="text-stone-700 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.security.text }}
         </a>
-        <span class="text-stone-400 dark:text-stone-600">|</span>
+        <span class="text-stone-200 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.about_website %}
         <a href="{{ footer.links.about_website.url }}"
-           class="text-stone-700 hover:text-stone-900 dark:text-stone-300 dark:hover:text-white transition-colors">
+           class="text-stone-700 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.about_website.text }}
         </a>
-        <span class="text-stone-400 dark:text-stone-600">|</span>
+        <span class="text-stone-200 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.logo_page %}
         <a href="{{ footer.links.logo_page.url }}"
-           class="text-stone-700 hover:text-stone-900 dark:text-stone-300 dark:hover:text-white transition-colors">
+           class="text-stone-700 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.logo_page.text }}
         </a>
-        <span class="text-stone-400 dark:text-stone-600">|</span>
+        <span class="text-stone-200 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.news_rss %}
         <a href="{{ footer.links.news_rss.url }}"
-           class="text-stone-700 hover:text-stone-900 dark:text-stone-300 dark:hover:text-white transition-colors">
+           class="text-stone-700 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.news_rss.text }}
         </a>
-        <span class="text-stone-400 dark:text-stone-600">|</span>
+        <span class="text-stone-200 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.ruby_license %}
         <a href="{{ footer.links.ruby_license.url }}"
-           class="text-stone-700 hover:text-stone-900 dark:text-stone-300 dark:hover:text-white transition-colors">
+           class="text-stone-700 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.ruby_license.text }}
         </a>
         {% endif %}
       </nav>
+    </div>
+
+    <!-- Credits -->
+    <div class="text-sm text-stone-700 dark:text-stone-300 [&_a]:underline [&_a]:hover:text-ruby-600 dark:[&_a]:hover:text-ruby-400 [&_a]:transition-colors">
+      {{ credits }}
     </div>
 
   </div>
