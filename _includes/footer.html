@@ -36,42 +36,38 @@
       </div>
 
       <!-- Footer Links -->
-      <nav class="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold xl:pt-2">
+      <nav class="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold leading-none xl:pt-2">
         {% if footer.links.security %}
         <a href="{{ footer.links.security.url }}"
-           class="text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.security.text }}
         </a>
-        <span class="text-stone-300 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.about_website %}
         <a href="{{ footer.links.about_website.url }}"
-           class="text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.about_website.text }}
         </a>
-        <span class="text-stone-300 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.logo_page %}
         <a href="{{ footer.links.logo_page.url }}"
-           class="text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.logo_page.text }}
         </a>
-        <span class="text-stone-300 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.news_rss %}
         <a href="{{ footer.links.news_rss.url }}"
-           class="text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.news_rss.text }}
         </a>
-        <span class="text-stone-300 dark:text-stone-700 font-normal">|</span>
         {% endif %}
 
         {% if footer.links.ruby_license %}
         <a href="{{ footer.links.ruby_license.url }}"
-           class="text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+           class="mb-2 sm:mb-0 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
           {{ footer.links.ruby_license.text }}
         </a>
         {% endif %}
