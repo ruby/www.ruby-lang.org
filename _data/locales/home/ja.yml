@@ -30,7 +30,6 @@ why_ruby:
       comment:
         author:
           id: dhh
-          url: https://github.com/dhh
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
@@ -46,7 +45,6 @@ why_ruby:
       comment:
         author:
           id: pragdave
-          url: https://github.com/pragdave
           name: Dave Thomas
           title: Author of "The Pragmatic Programmer"
         content: |
@@ -64,7 +62,6 @@ why_ruby:
       comment:
         author:
           id: matz
-          url: https://github.com/matz
           name: Yukihiro "Matz" Matsumoto
           title: Creator of Ruby
         content: |
@@ -81,7 +78,6 @@ why_ruby:
       comment:
         author:
           id: amatsuda
-          url: https://github.com/amatsuda
           name: Akira Matsuda
           title: Chief Organizer of RubyKaigi
         content: |
