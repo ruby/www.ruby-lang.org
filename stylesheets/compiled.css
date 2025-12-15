@@ -3570,6 +3570,10 @@ iframe {
   max-height: calc(100vh - 18rem);
 }
 
+.max-h-0{
+  max-height: 0px;
+}
+
 .min-h-\[calc\(100vh-10rem\)\]{
   min-height: calc(100vh - 10rem);
 }
@@ -5012,6 +5016,18 @@ iframe {
 
 .duration-300{
   transition-duration: 300ms;
+}
+
+.duration-500{
+  transition-duration: 500ms;
+}
+
+.duration-700{
+  transition-duration: 700ms;
+}
+
+.ease-out{
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 .will-change-transform{

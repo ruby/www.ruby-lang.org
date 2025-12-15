@@ -1,7 +1,7 @@
 {% assign home = site.data.locales.home[page.lang] %}
 
 <!-- Try Ruby Section -->
-<section class="try-ruby-section pb-0 relative">
+<section id="try-ruby-section" class="try-ruby-section pb-0 relative opacity-0 max-h-0 overflow-hidden transition-all duration-700 ease-out">
   <div class="container mx-auto px-6 lg:px-8">
     <!-- Code Examples Grid -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 2xl:gap-16 mb-16">
@@ -9,20 +9,14 @@
       <div class="group bg-white dark:bg-stone-900 rounded-2xl overflow-hidden flex flex-col shadow-sm border border-gold-400 dark:border-gold-500 has-[a:hover]:border-gold-500 dark:has-[a:hover]:border-gold-400 transition-colors box-border">
         <!-- Code Area -->
         <div class="code-example-wrapper relative flex-grow min-h-[200px]">
-          <!-- Preloader -->
-          <div id="try-ruby-loader-{{ i }}" class="absolute inset-0 flex items-center justify-center bg-white dark:bg-stone-900 z-10">
-            <div class="flex flex-col items-center gap-3">
-              <div class="w-8 h-8 border-[3px] border-gold-300 border-t-gold-500 rounded-full animate-spin"></div>
-            </div>
-          </div>
           <!-- Code Content -->
-          <div id="try-ruby-example-{{ i }}" class="code-example p-8 pb-6 font-mono text-sm overflow-x-auto h-full group-has-[a:hover]:bg-gold-50 dark:group-has-[a:hover]:bg-stone-800 opacity-0 transition-all duration-300">
+          <div id="try-ruby-example-{{ i }}" class="code-example p-8 pb-6 font-mono text-sm overflow-x-auto h-full group-has-[a:hover]:bg-gold-50 dark:group-has-[a:hover]:bg-stone-800">
             <!-- Code will be loaded dynamically -->
           </div>
         </div>
 
         <!-- Bottom Section with Wave Border -->
-        <div id="try-ruby-bottom-{{ i }}" class="relative opacity-0 transition-all duration-300 before:content-[''] before:absolute before:w-[58px] before:h-[58px] before:bg-[url('/images/home/try_ruby/arrow.svg')] dark:before:bg-[url('/images/home/try_ruby/arrow-dark.svg')] before:bg-no-repeat before:bg-contain before:-top-[7px] before:left-[calc(50%+90px)] before:-translate-x-1/2 before:rotate-[40deg] before:z-20">
+        <div id="try-ruby-bottom-{{ i }}" class="relative before:content-[''] before:absolute before:w-[58px] before:h-[58px] before:bg-[url('/images/home/try_ruby/arrow.svg')] dark:before:bg-[url('/images/home/try_ruby/arrow-dark.svg')] before:bg-no-repeat before:bg-contain before:-top-[7px] before:left-[calc(50%+90px)] before:-translate-x-1/2 before:rotate-[40deg] before:z-20">
           <!-- Wave Border SVG -->
           <div class="absolute -top-3 left-0 right-0 h-4 text-gold-400 dark:text-gold-500 group-has-[a:hover]:text-gold-500 dark:group-has-[a:hover]:text-gold-600 transition-colors overflow-hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-[200%] h-full group-has-[a:hover]:animate-wave-scroll">

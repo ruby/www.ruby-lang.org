@@ -48,28 +48,30 @@ var TryRubyExamples = {
   },
 
   showAllExamples: function() {
-    for (var i = 1; i <= TryRubyExamples.totalExamples; i++) {
-      var loader = document.getElementById('try-ruby-loader-' + i);
-      var content = document.getElementById('try-ruby-example-' + i);
-      var bottom = document.getElementById('try-ruby-bottom-' + i);
+    // Show the entire Try Ruby section with smooth height transition
+    var section = document.getElementById('try-ruby-section');
+    if (section) {
+      // Temporarily remove max-h-0 to measure actual height
+      section.classList.remove('max-h-0');
+      section.style.maxHeight = 'none';
+      var actualHeight = section.scrollHeight;
 
-      if (loader) {
-        loader.classList.add('opacity-0', 'transition-opacity', 'duration-300');
-        // Remove loader after fade out
-        setTimeout(function(el) {
-          return function() { el.style.display = 'none'; };
-        }(loader), 300);
-      }
+      // Reset to 0 and force reflow
+      section.style.maxHeight = '0px';
+      section.offsetHeight; // Force reflow
 
-      if (content) {
-        content.classList.remove('opacity-0');
-        content.classList.add('opacity-100');
-      }
+      // Now animate to actual height
+      requestAnimationFrame(function() {
+        section.style.maxHeight = actualHeight + 'px';
+        section.classList.remove('opacity-0');
+        section.classList.add('opacity-100');
 
-      if (bottom) {
-        bottom.classList.remove('opacity-0');
-        bottom.classList.add('opacity-100');
-      }
+        // After transition completes, remove max-height restriction
+        setTimeout(function() {
+          section.style.maxHeight = 'none';
+          section.classList.remove('overflow-hidden');
+        }, 700);
+      });
     }
   },
 
