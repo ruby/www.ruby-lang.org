@@ -388,6 +388,24 @@ module.exports = {
             'code::after': {
               content: '""',
             },
+            'th': {
+              borderBottomColor: theme('colors.stone.300'),
+              '.dark &': {
+                borderBottomColor: theme('colors.stone.700'),
+              },
+            },
+            'td': {
+              borderBottomColor: theme('colors.stone.200'),
+              '.dark &': {
+                borderBottomColor: theme('colors.stone.700'),
+              },
+            },
+            'tbody tr': {
+              borderTopColor: theme('colors.stone.200'),
+              '.dark &': {
+                borderTopColor: theme('colors.stone.700'),
+              },
+            },
             '.post-info': {
               color: '#78716c',            // stone-500 (light mode)
               fontSize: '0.875rem',        // 14px (text-sm)
