@@ -30,7 +30,6 @@ why_ruby:
       comment:
         author:
           id: dhh
-          url: https://github.com/dhh
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
@@ -48,7 +47,6 @@ why_ruby:
       comment:
         author:
           id: pragdave
-          url: https://github.com/pragdave
           name: Dave Thomas
           title: Author of "The Pragmatic Programmer"
         content: |
@@ -66,10 +64,9 @@ why_ruby:
         за бързо създаване на висококачествени приложения, без да изобретявате колелото отново.
       comment:
         author:
-          id: dhh
-          url: https://github.com/dhh
-          name: David Heinemeier Hansson
-          title: Създател на Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
           [ЗАМЕСТИТЕЛ] Коментарът за секция Ecosystem се подготвя.
           Ще бъде актуализиран, когато пристигне реалният коментар.
@@ -83,10 +80,9 @@ why_ruby:
         Това е топла, устойчива общност, където хората си помагат взаимно и растат заедно.
       comment:
         author:
-          id: amatsuda
-          url: https://github.com/amatsuda
-          name: Akira Matsuda
-          title: Главен организатор на RubyKaigi
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of The Rails Foundation
         content: |
           [ЗАМЕСТИТЕЛ] Коментарът за секция Community се подготвя.
           Ще бъде актуализиран, когато пристигне реалният коментар.

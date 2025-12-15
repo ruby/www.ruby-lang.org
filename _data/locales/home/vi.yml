@@ -30,7 +30,6 @@ why_ruby:
       comment:
         author:
           id: dhh
-          url: https://github.com/dhh
           name: David Heinemeier Hansson
           title: Creator of Ruby on Rails
         content: |
@@ -48,7 +47,6 @@ why_ruby:
       comment:
         author:
           id: pragdave
-          url: https://github.com/pragdave
           name: Dave Thomas
           title: Author of "The Pragmatic Programmer"
         content: |
@@ -66,10 +64,9 @@ why_ruby:
         để nhanh chóng xây dựng các ứng dụng chất lượng cao mà không cần phát minh lại bánh xe.
       comment:
         author:
-          id: dhh
-          url: https://github.com/dhh
-          name: David Heinemeier Hansson
-          title: Người tạo ra Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
           [GIỮ CHỖ] Bình luận cho phần Ecosystem đang được chuẩn bị.
           Sẽ được cập nhật khi bình luận thực tế đến.
@@ -83,10 +80,9 @@ why_ruby:
         Đây là một cộng đồng ấm áp, bền vững, nơi mọi người giúp đỡ lẫn nhau và cùng phát triển.
       comment:
         author:
-          id: amatsuda
-          url: https://github.com/amatsuda
-          name: Akira Matsuda
-          title: Trưởng ban tổ chức RubyKaigi
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of The Rails Foundation
         content: |
           [GIỮ CHỖ] Bình luận cho phần Community đang được chuẩn bị.
           Sẽ được cập nhật khi bình luận thực tế đến.
