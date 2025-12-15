@@ -36,12 +36,12 @@
   }
 
   /* Footer credits link styles */
-  .footer-credits a {
-    @apply underline transition-colors duration-200;
+  .credits a {
+    @apply underline transition-colors;
   }
 
-  .footer-credits a:hover {
-    @apply text-stone-700 dark:text-stone-300;
+  .credits a:hover {
+    @apply text-ruby-600 dark:text-ruby-400;
   }
 }
 
