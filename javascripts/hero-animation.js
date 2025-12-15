@@ -9,9 +9,20 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  const images = [...illustContainer.querySelectorAll('img')];
+  // Collect all hero images including illustrations and background elements
+  const illustImages = [...illustContainer.querySelectorAll('img')];
+  const bgImages = [
+    document.querySelector('[data-hero-layer="gem"]'),
+    document.querySelector('[data-hero-layer="sunburst"]'),
+    document.querySelector('[data-hero-layer="illust-sub"]')
+  ].filter(img => img !== null);
+  const images = [...illustImages, ...bgImages];
   const totalImages = images.length;
   let loadedImages = 0;
+
+  // Track loading states for hero images and Try Ruby
+  let heroImagesReady = false;
+  let tryRubyReady = false;
 
   const layers = {
     finalGem: document.querySelector('[data-hero-layer="gem"]'),
@@ -34,15 +45,27 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  // Check if both hero images and Try Ruby are ready
+  const checkAllReady = () => {
+    if (heroImagesReady && tryRubyReady) {
+      // Update to 100% and start animation
+      if (loaderNumber) {
+        loaderNumber.textContent = '100';
+      }
+      setTimeout(startAnimation, 300);
+    }
+  };
+
   const updateProgress = () => {
     loadedImages++;
-    const percentage = Math.round((loadedImages / totalImages) * 100);
+    // Show progress up to 80% for hero images, reserve 20% for Try Ruby
+    const percentage = Math.round((loadedImages / totalImages) * 80);
     if (loaderNumber) {
         loaderNumber.textContent = `${percentage}`;
     }
     if (loadedImages === totalImages) {
-      // Short delay to ensure 100% is read by the user
-      setTimeout(startAnimation, 300);
+      heroImagesReady = true;
+      checkAllReady();
     }
   };
 
@@ -56,8 +79,27 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   if (totalImages === 0) {
-    setTimeout(startAnimation, 150);
+    heroImagesReady = true;
   }
+
+  // Subscribe to Try Ruby examples loading
+  if (typeof TryRubyExamples !== 'undefined') {
+    TryRubyExamples.setOnReady(() => {
+      tryRubyReady = true;
+      // Update progress to show Try Ruby is loaded (80% -> 95%)
+      if (loaderNumber && !heroImagesReady) {
+        const currentPercent = parseInt(loaderNumber.textContent) || 0;
+        loaderNumber.textContent = `${Math.max(currentPercent, 95)}`;
+      }
+      checkAllReady();
+    });
+  } else {
+    // TryRubyExamples not available, skip waiting for it
+    tryRubyReady = true;
+  }
+
+  // Initial check in case both are already ready
+  checkAllReady();
 
   function startAnimation() {
     // Phase 1: Fade out percentage text smoothly
@@ -169,6 +211,14 @@ document.addEventListener('DOMContentLoaded', () => {
           layers.illustSub.classList.add('animate-fade-in');
         }
       }, subIllustDelay);
+
+      // Try Ruby examples appear after content fades in
+      const tryRubyDelay = gemAnimationDuration * 0.9;
+      setTimeout(() => {
+        if (typeof TryRubyExamples !== 'undefined') {
+          TryRubyExamples.showAllExamples();
+        }
+      }, tryRubyDelay);
 
       // Clean up transition after animation
       setTimeout(() => {

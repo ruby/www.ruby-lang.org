@@ -5773,6 +5773,11 @@ iframe {
   background-image: url('/images/home/hero/bg-dark.svg');
 }
 
+.dark\:before\:bg-\[url\(\'\/images\/home\/try_ruby\/arrow-dark\.svg\'\)\]:is(.dark *)::before{
+  content: var(--tw-content);
+  background-image: url('/images/home/try_ruby/arrow-dark.svg');
+}
+
 .dark\:before\:invert:is(.dark *)::before{
   content: var(--tw-content);
   --tw-invert: invert(100%);

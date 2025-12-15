@@ -3,6 +3,8 @@
 var TryRubyExamples = {
   loadedCount: 0,
   totalExamples: 3,
+  isReady: false,
+  onReadyCallback: null,
 
   extractCodeFromHtml: function(html) {
     // Create a temporary element to parse the HTML
@@ -27,9 +29,21 @@ var TryRubyExamples = {
   onExampleLoaded: function() {
     TryRubyExamples.loadedCount++;
 
-    // When all examples are loaded, fade in all content simultaneously
+    // When all examples are loaded, mark as ready and notify
     if (TryRubyExamples.loadedCount >= TryRubyExamples.totalExamples) {
-      TryRubyExamples.showAllExamples();
+      TryRubyExamples.isReady = true;
+      if (TryRubyExamples.onReadyCallback) {
+        TryRubyExamples.onReadyCallback();
+      }
+    }
+  },
+
+  // Set callback to be called when all examples are ready
+  setOnReady: function(callback) {
+    TryRubyExamples.onReadyCallback = callback;
+    // If already ready, call immediately
+    if (TryRubyExamples.isReady) {
+      callback();
     }
   },
 
