@@ -66,7 +66,7 @@ why_ruby:
         author:
           id: matz
           name: Yukihiro "Matz" Matsumoto
-          title: Ruby on Rails 창시자
+          title: Creator of Ruby
         content: |
           [더미] Ecosystem 섹션의 코멘트는 현재 준비 중입니다.
           실제 코멘트가 도착하면 업데이트됩니다.
@@ -82,7 +82,7 @@ why_ruby:
         author:
           id: amatsuda
           name: Akira Matsuda
-          title: RubyKaigi 수석 주최자
+          title: Chief Organizer of RubyKaigi
         content: |
           [더미] Community 섹션의 코멘트는 현재 준비 중입니다.
           실제 코멘트가 도착하면 업데이트됩니다.

@@ -66,7 +66,7 @@ why_ruby:
         author:
           id: matz
           name: Yukihiro "Matz" Matsumoto
-          title: Ruby on Rails 創始人
+          title: Creator of Ruby
         content: |
           [佔位符] Ecosystem 部分的評論正在準備中。
           待實際評論到達後將更新。
@@ -82,7 +82,7 @@ why_ruby:
         author:
           id: amatsuda
           name: Akira Matsuda
-          title: RubyKaigi 首席組織者
+          title: Chief Organizer of RubyKaigi
         content: |
           [佔位符] Community 部分的評論正在準備中。
           待實際評論到達後將更新。

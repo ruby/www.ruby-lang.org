@@ -66,7 +66,7 @@ why_ruby:
         author:
           id: matz
           name: Yukihiro "Matz" Matsumoto
-          title: Ruby on Rails'in Yaratıcısı
+          title: Creator of Ruby
         content: |
           [YER TUTUCU] Ecosystem bölümü yorumu hazırlanıyor.
           Gerçek yorum geldiğinde güncellenecektir.
@@ -82,7 +82,7 @@ why_ruby:
         author:
           id: amatsuda
           name: Akira Matsuda
-          title: RubyKaigi Baş Organizatörü
+          title: Chief Organizer of RubyKaigi
         content: |
           [YER TUTUCU] Community bölümü yorumu hazırlanıyor.
           Gerçek yorum geldiğinde güncellenecektir.
