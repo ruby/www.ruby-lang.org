@@ -50,6 +50,18 @@
   .release-list td {
     padding: 2px 1em 2px 0;
   }
+
+  .release-list th {
+    @apply border-b border-stone-300 dark:border-stone-700;
+  }
+
+  .release-list td {
+    @apply border-b border-stone-200 dark:border-stone-700;
+  }
+
+  .release-list tr:last-child td {
+    @apply border-b-0;
+  }
 }
 
 /* Print styles */
