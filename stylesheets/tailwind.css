@@ -51,3 +51,175 @@
     padding: 2px 1em 2px 0;
   }
 }
+
+/* Print styles */
+@media print {
+  /* Reset colors for print */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Hide navigation and interactive elements */
+  footer,
+  nav,
+  .mobile-menu,
+  .theme-toggle,
+  .language-selector,
+  .toc-sidebar,
+  .scroll-to-top {
+    display: none !important;
+  }
+
+  /* Header: show logo only */
+  header {
+    position: static !important;
+    border: none !important;
+  }
+
+  header #theme-toggle,
+  header #mobile-menu-toggle,
+  header #mobile-menu {
+    display: none !important;
+  }
+
+  /* Hide decorative elements */
+  [class*="wave-border"],
+  [class*="animate-"],
+  .community-section {
+    display: none !important;
+  }
+
+  /* Hero section: show content only */
+  .hero-section {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .hero-section #hero-loader,
+  .hero-section [data-hero-layer="sunburst"],
+  .hero-section [data-hero-layer="illust-sub"],
+  .hero-section [data-hero-layer="illust-main"],
+  .hero-section [data-hero-layer="gem"],
+  .hero-try-ruby-wrapper::before,
+  .hero-try-ruby-wrapper::after {
+    display: none !important;
+  }
+
+  .hero-section [data-hero-layer="gem-content"],
+  .hero-section [data-hero-layer="content"] {
+    position: relative !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    top: 0 !important;
+    transform: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Hero section: force black text and visibility */
+  .hero-section,
+  .hero-section *,
+  .hero-section [data-hero-layer="content"] * {
+    color: black !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Try Ruby section: show code examples only */
+  .try-ruby-section {
+    opacity: 1 !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .try-ruby-section [id^="try-ruby-bottom-"],
+  .try-ruby-section .text-center.pb-16 {
+    display: none !important;
+  }
+
+  /* Try Ruby: outer border only, no inner border */
+  .try-ruby-section .group {
+    border: 1px solid #ccc !important;
+  }
+
+  .try-ruby-section .code-example-wrapper,
+  .try-ruby-section .code-example,
+  .try-ruby-section pre,
+  .try-ruby-section code {
+    border: none !important;
+  }
+
+  /* Hide wave border in hero-try-ruby-wrapper */
+  .hero-try-ruby-wrapper > div:last-child {
+    display: none !important;
+  }
+
+  /* Reset page container */
+  #page {
+    padding-top: 0 !important;
+  }
+
+  /* Ensure content is readable */
+  * {
+    color: black !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Show link URLs */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666 !important;
+  }
+
+  /* Don't show URL for internal links */
+  a[href^="#"]:after,
+  a[href^="/"]:after {
+    content: "";
+  }
+
+  /* Page break control */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  img, pre, blockquote, table {
+    page-break-inside: avoid;
+  }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Ensure images print */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* Code blocks */
+  pre {
+    border: 1px solid #ccc !important;
+    background: #f5f5f5 !important;
+  }
+
+  /* Inline code only (not inside pre) */
+  code {
+    border: 1px solid #ccc !important;
+    background: #f5f5f5 !important;
+  }
+
+  /* Remove border from code inside pre */
+  pre code {
+    border: none !important;
+    background: transparent !important;
+  }
+}
