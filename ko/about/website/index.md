@@ -7,7 +7,9 @@ lang: ko
 이 웹 사이트는 Ruby와 [Jekyll][jekyll]로 생성되었고,<br>
 소스코드는 [GitHub][github-repo]에서 호스트 됩니다.
 
-이 사이트는 Ruby Visual Identity 팀의 이전 디자인을 기초로
+2025년 사이트 리뉴얼의 비주얼 디자인은 [Taeko Akatsuka][akatsuka] 님이 담당했습니다.
+
+이전 비주얼 디자인은 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.
 
 [Ruby 로고][logo]의 저작권은 &copy; 2006, 마츠모토
@@ -71,6 +73,7 @@ lang: ko
 [logo]: /ko/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
+[akatsuka]: https://x.com/ken_c_lo
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

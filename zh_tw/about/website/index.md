@@ -7,7 +7,9 @@ lang: zh_tw
 本站使用 [Jekyll][jekyll] 透過 Ruby 產生，<br>
 原始碼放在 [GitHub][github-repo]。
 
-視覺設計 [Jason Zimdars][jzimdars]。<br>
+2025年網站改版的視覺設計由 [Taeko Akatsuka][akatsuka] 完成。
+
+原視覺設計 [Jason Zimdars][jzimdars]。<br>
 基於 Ruby Visual Identity 團隊的設計成果。
 
 [Ruby 標誌][logo]版權屬於松本行弘（Copyright &copy; 2006, Yukihiro Matsumoto）。
@@ -66,6 +68,7 @@ lang: zh_tw
 [logo]: /zh_tw/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
+[akatsuka]: https://x.com/ken_c_lo
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

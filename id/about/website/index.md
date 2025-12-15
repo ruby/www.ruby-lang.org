@@ -7,7 +7,9 @@ lang: id
 Situs ini dibuat dengan Ruby menggunakan [Jekyll][jekyll],<br>
 Kode sumber situs ada di [GitHub][github-repo].
 
-Desain visual oleh [Jason Zimdars][jzimdars].<br>
+Desain visual untuk pembaruan situs 2025 oleh [Taeko Akatsuka][akatsuka].
+
+Desain visual sebelumnya oleh [Jason Zimdars][jzimdars].<br>
 Didasarkan pada desain awal oleh Ruby Visual Identity Team.
 
 [Logo Ruby][logo] merupakan hak cipta &copy; 2006, Yukihiro Matsumoto.
@@ -34,17 +36,42 @@ situs ini.
 
 Terima kasih juga kepada organisasi-organisasi yang telah mendukung kami:
 
- * [Ruby Association][rubyassociation] (hosting)
- * [Ruby no Kai][rubynokai] (*build server*)
- * [AWS][aws] (hosting)
- * [Heroku][heroku] (hosting)
- * [Fastly][fastly] (CDN)
- * [Hatena][hatena] ([mackerel][mackerel], pemantauan *server*)
+[Ruby Association][rubyassociation] (hosting)
 
+<img src="../../../images/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
+
+[Ruby no Kai][rubynokai] (*build server*)
+
+<img src="../../../images/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
+
+[AWS][aws] (hosting)
+
+<img src="../../../images/sponsor/aws.png" alt="AWS" width="200" height="120" />
+
+[Heroku][heroku] (hosting)
+
+<img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
+
+[Fastly][fastly] (CDN)
+
+<img src="../../../images/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
+
+[Hatena][hatena] ([Mackerel][mackerel], pemantauan *server*)
+
+<img src="../../../images/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
+
+[Datadog][datadog] (pemantauan *server*)
+
+<img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
+
+[1Password][1password] (pengelola kata sandi)
+
+<img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
 
 [logo]: /id/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
+[akatsuka]: https://x.com/ken_c_lo
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
@@ -56,3 +83,5 @@ Terima kasih juga kepada organisasi-organisasi yang telah mendukung kami:
 [mackerel]: https://mackerel.io/
 [rubynokai]: http://ruby-no-kai.org/
 [aws]: https://aws.amazon.com/
+[datadog]: https://www.datadoghq.com/
+[1password]: https://1password.com/

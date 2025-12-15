@@ -7,7 +7,9 @@ lang: en
 This website was generated with Ruby using [Jekyll][jekyll],<br>
 its source is hosted on [GitHub][github-repo].
 
-Visual design by [Jason Zimdars][jzimdars].<br>
+Visual design for the 2025 site renewal by [Taeko Akatsuka][akatsuka].
+
+Previous visual design by [Jason Zimdars][jzimdars].<br>
 Based on an earlier design by the Ruby Visual Identity Team.
 
 [The Ruby logo][logo] is Copyright &copy; 2006, Yukihiro Matsumoto.
@@ -69,6 +71,7 @@ Also many thanks to the organizations that support us:
 [logo]: /en/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
+[akatsuka]: https://x.com/ken_c_lo
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
