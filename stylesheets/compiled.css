@@ -3426,6 +3426,10 @@ iframe {
   margin-top: -1rem;
 }
 
+.ml-1{
+  margin-left: 0.25rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -4322,6 +4326,10 @@ iframe {
   gap: 2rem;
 }
 
+.gap-0\.5{
+  gap: 0.125rem;
+}
+
 .gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
@@ -5096,6 +5104,10 @@ iframe {
 
 .\[ruby-talk\:5252\]{
   ruby-talk: 5252;
+}
+
+.\[transition-timing-function\:cubic-bezier\(0\.22\2c 1\2c 0\.36\2c 1\)\]{
+  transition-timing-function: cubic-bezier(0.22,1,0.36,1);
 }
 
 .marker\:text-stone-400 *::marker{
@@ -5878,6 +5890,10 @@ iframe {
     margin-bottom: 1.5rem;
   }
 
+  .sm\:ml-0{
+    margin-left: 0px;
+  }
+
   .sm\:h-12{
     height: 3rem;
   }
@@ -5896,6 +5912,10 @@ iframe {
 
   .sm\:w-\[340px\]{
     width: 340px;
+  }
+
+  .sm\:gap-2{
+    gap: 0.5rem;
   }
 
   .sm\:text-2xl{
