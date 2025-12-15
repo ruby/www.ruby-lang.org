@@ -130,7 +130,7 @@ module.exports = {
         },
       },
       animation: {
-        'scroll-left': 'scroll-left 40s linear infinite',
+        'scroll-left': 'scroll-left 60s linear infinite',
         'fade-in': 'fade-in 0.6s ease-out forwards',
         'fade-out': 'fade-out 0.3s ease-in forwards',
         'zoom-in': 'zoom-in 0.5s ease-out forwards',
