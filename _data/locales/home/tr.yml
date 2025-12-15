@@ -66,9 +66,9 @@ why_ruby:
         tekerleği yeniden icat etmeden hızla yüksek kaliteli uygulamalar oluşturabilirsiniz.
       comment:
         author:
-          id: dhh
-          url: https://github.com/dhh
-          name: David Heinemeier Hansson
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
           title: Ruby on Rails'in Yaratıcısı
         content: |
           [YER TUTUCU] Ecosystem bölümü yorumu hazırlanıyor.

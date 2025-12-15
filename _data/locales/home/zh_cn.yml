@@ -66,9 +66,9 @@ why_ruby:
         快速构建高质量应用，而无需重新发明轮子。
       comment:
         author:
-          id: dhh
-          url: https://github.com/dhh
-          name: David Heinemeier Hansson
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
           title: Ruby on Rails 创始人
         content: |
           [占位符] Ecosystem 部分的评论正在准备中。

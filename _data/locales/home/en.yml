@@ -64,10 +64,10 @@ why_ruby:
         to build high-quality applications quickly without reinventing the wheel.
       comment:
         author:
-          id: dhh
-          url: https://github.com/dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
           [PLACEHOLDER] The comment for the Ecosystem section is being prepared.
           It will be updated when the actual comment arrives.

@@ -66,9 +66,9 @@ why_ruby:
         pour construire rapidement des applications de haute qualité sans réinventer la roue.
       comment:
         author:
-          id: dhh
-          url: https://github.com/dhh
-          name: David Heinemeier Hansson
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
           title: Créateur de Ruby on Rails
         content: |
           [PLACEHOLDER] Le commentaire de la section Ecosystem est en cours de préparation.

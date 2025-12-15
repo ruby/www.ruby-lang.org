@@ -63,10 +63,10 @@ why_ruby:
         車輪の再発明をせずに高品質なアプリケーションを素早く構築できます。
       comment:
         author:
-          id: dhh
-          url: https://github.com/dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          url: https://github.com/matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
           [ダミー] Ecosystemセクションのコメントは現在準備中です。
           実際のコメントが届き次第、更新されます。
