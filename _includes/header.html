@@ -26,10 +26,19 @@
         {% endfor %}
       </nav>
 
-      <!-- Right section: Language selector + Mobile menu button -->
-      <div class="flex items-center gap-2">
+      <!-- Right section: Language selector + Theme toggle + Mobile menu button -->
+      <div class="flex items-center gap-0.5 sm:gap-2">
         <!-- Language Selector -->
         {% include language-selector.html %}
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle"
+                type="button"
+                aria-label="Theme: Auto"
+                title="Theme: Auto (System)"
+                class="ml-1 sm:ml-0 p-2 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
+          <span class="icon-theme-auto text-xl" aria-hidden="true"></span>
+        </button>
 
         <!-- Mobile menu button -->
         <button id="mobile-menu-toggle" class="lg:hidden p-2 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md">
