@@ -48,7 +48,9 @@ var TryRubyExamples = {
   },
 
   showAllExamples: function() {
-    // Show the entire Try Ruby section with smooth height transition
+    // Show the entire Try Ruby section with two-phase animation:
+    // Phase 1: Show frames with height animation
+    // Phase 2: Fade in content inside frames
     var section = document.getElementById('try-ruby-section');
     if (section) {
       // Temporarily remove max-h-0 to measure actual height
@@ -60,16 +62,27 @@ var TryRubyExamples = {
       section.style.maxHeight = '0px';
       section.offsetHeight; // Force reflow
 
-      // Now animate to actual height
+      // Phase 1: Animate section height (frames become visible)
       requestAnimationFrame(function() {
         section.style.maxHeight = actualHeight + 'px';
         section.classList.remove('opacity-0');
         section.classList.add('opacity-100');
 
-        // After transition completes, remove max-height restriction
+        // Phase 2: After height animation completes, fade in content
         setTimeout(function() {
+          // Remove max-height restriction
           section.style.maxHeight = 'none';
           section.classList.remove('overflow-hidden');
+
+          // Fade in all content elements inside cards
+          var contentElements = section.querySelectorAll('.try-ruby-content');
+          contentElements.forEach(function(el, index) {
+            // Stagger the fade-in slightly for each element
+            setTimeout(function() {
+              el.classList.remove('opacity-0');
+              el.classList.add('opacity-100');
+            }, index * 100);
+          });
         }, 700);
       });
     }
