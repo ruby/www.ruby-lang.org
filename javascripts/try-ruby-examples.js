@@ -68,7 +68,7 @@ var TryRubyExamples = {
         section.classList.remove('opacity-0');
         section.classList.add('opacity-100');
 
-        // Phase 2: After height animation completes, fade in content
+        // Phase 2: After height animation starts, fade in content
         setTimeout(function() {
           // Remove max-height restriction
           section.style.maxHeight = 'none';
@@ -81,9 +81,9 @@ var TryRubyExamples = {
             setTimeout(function() {
               el.classList.remove('opacity-0');
               el.classList.add('opacity-100');
-            }, index * 100);
+            }, index * 50);
           });
-        }, 700);
+        }, 400);
       });
     }
   },
