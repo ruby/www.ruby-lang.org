@@ -1,10 +1,10 @@
 {% assign home = site.data.locales.home[page.lang] %}
 
 <!-- Hero + Try Ruby Wrapper -->
-<div class="hero-try-ruby-wrapper bg-gold-150 dark:bg-stone-770 relative overflow-hidden isolate before:content-[''] before:hidden before:lg:block before:absolute before:z-[-1] before:w-[840px] before:h-[1328px] before:bg-[url('/images/home/hero/bg.svg')] dark:before:bg-[url('/images/home/hero/bg-dark.svg')] before:bg-no-repeat before:bg-contain before:-left-[20rem] before:-bottom-[20rem] before:pointer-events-none after:content-[''] after:hidden after:lg:block after:absolute after:z-[-1] after:w-[840px] after:h-[1328px] after:bg-[url('/images/home/hero/bg.svg')] dark:after:bg-[url('/images/home/hero/bg-dark.svg')] after:bg-no-repeat after:bg-contain after:-right-[20rem] after:-top-[20rem] after:rotate-180 after:pointer-events-none">
+<div class="hero-try-ruby-wrapper bg-gold-150 dark:bg-stone-770 relative overflow-hidden isolate before:content-[''] before:hidden before:2xl:block before:absolute before:z-[-1] before:w-[840px] before:h-[1328px] before:bg-[url('/images/home/hero/bg.svg')] dark:before:bg-[url('/images/home/hero/bg-dark.svg')] before:bg-no-repeat before:bg-contain before:-left-[20rem] before:-bottom-[20rem] before:pointer-events-none after:content-[''] after:hidden after:2xl:block after:absolute after:z-[-1] after:w-[840px] after:h-[1328px] after:bg-[url('/images/home/hero/bg.svg')] dark:after:bg-[url('/images/home/hero/bg-dark.svg')] after:bg-no-repeat after:bg-contain after:-right-[20rem] after:-top-[20rem] after:rotate-180 after:pointer-events-none">
 
   <!-- Hero Section -->
-  <section class="hero-section relative overflow-hidden h-[620px]">
+  <section class="hero-section relative overflow-hidden h-[496px] md:h-[620px]">
     <!-- Loading Indicator -->
     <div id="hero-loader" class="absolute inset-0 z-20 flex items-center justify-center bg-transparent">
       <div id="loader-gem-shape" class="relative w-28 h-28 animate-pulse">
@@ -17,95 +17,98 @@
 
     <!-- Background Illustrations - Multi-layer Structure -->
     <div class="absolute inset-0 pointer-events-none overflow-hidden">
-      <!-- Layer 1: Sunburst - Radial lines from center -->
+      <!-- Layer 1: Sunburst -->
       <img src="/images/home/hero/sunburst.svg"
            alt=""
            data-hero-layer="sunburst"
-           class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1470px] w-[1470px] h-auto opacity-0">
+           class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1176px] w-[1176px] md:min-w-[1470px] md:w-[1470px] h-auto opacity-0">
 
-      <!-- Layer 2: Sub Illustrations - Decorative elements -->
+      <!-- Layer 2: Sub Illustrations -->
       <img src="/images/home/hero/illust-sub.svg"
            alt=""
            data-hero-layer="illust-sub"
-           class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1470px] w-[1470px] h-auto opacity-0">
+           class="hidden sm:block absolute top-0 left-1/2 -translate-x-1/2 min-w-[1176px] w-[1176px] md:min-w-[1470px] md:w-[1470px] h-auto opacity-0">
 
-      <!-- Layer 3: Main Illustrations - Characters and motifs (sorted by distance from center) -->
-      <div data-hero-layer="illust-main" data-hero-illustrations class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1470px] w-[1470px] h-[620px] opacity-0 hero-illust-container">
-        <img src="/images/home/hero/illust-main/beer.svg" alt="" class="absolute w-[81px] opacity-0 rotate-[-15deg] top-[19%] left-[65%]">
-        <img src="/images/home/hero/illust-main/coffee.svg" alt="" class="absolute w-[81px] opacity-0 rotate-[-6deg] top-[24%] left-[72%]">
-        <img src="/images/home/hero/illust-main/gem08.svg" alt="" class="absolute w-[51px] opacity-0 rotate-[16deg] top-[33.5%] left-[19%]">
-        <img src="/images/home/hero/illust-main/yukiko.svg" alt="" class="absolute w-[99px] opacity-0 rotate-[-15deg] top-[61%] left-[5.5%]">
-        <img src="/images/home/hero/illust-main/gem07.svg" alt="" class="absolute block w-[57px] opacity-0 rotate-[-29deg] top-[61%] left-[77.5%]">
-        <img src="/images/home/hero/illust-main/ivan.svg" alt="" class="absolute w-[87px] opacity-0 rotate-[20deg] top-[65%] left-[64.5%]">
-        <img src="/images/home/hero/illust-main/dachs.svg" alt="" class="absolute w-[69px] opacity-0 rotate-[24deg] top-[26%] left-[31.8%]">
-        <img src="/images/home/hero/illust-main/cat.svg" alt="" class="absolute w-[85px] opacity-0 rotate-[25deg] top-[75%] left-[35.5%]">
-        <img src="/images/home/hero/illust-main/gem03.svg" alt="" class="absolute block w-[55px] opacity-0 rotate-[-20deg] top-[60%] left-[32.2%]">
-        <img src="/images/home/hero/illust-main/present.svg" alt="" class="absolute w-[65px] opacity-0 rotate-[10deg] top-[36.8%] left-[69.8%]">
-        <img src="/images/home/hero/illust-main/gem02.svg" alt="" class="absolute w-[56px] opacity-0 rotate-[-10deg] top-[86%] left-[28%]">
-        <img src="/images/home/hero/illust-main/game.svg" alt="" class="absolute w-[80px] opacity-0 rotate-[17deg] top-[53.1%] left-[71.1%]">
-        <img src="/images/home/hero/illust-main/ink.svg" alt="" class="absolute w-[65px] opacity-0 rotate-[-5deg] top-[82.5%] left-[72%]">
-        <img src="/images/home/hero/illust-main/daisy.svg" alt="" class="absolute w-[99px] opacity-0 rotate-[10deg] top-[10%] left-[75.8%]">
-        <img src="/images/home/hero/illust-main/kevin.svg" alt="" class="absolute w-[93px] opacity-0 rotate-[-15deg] top-[20.5%] left-[24%]">
-        <img src="/images/home/hero/illust-main/gem06.svg" alt="" class="absolute w-[58px] opacity-0 rotate-[25deg] top-[82%] left-[61%]">
-        <img src="/images/home/hero/illust-main/mimi.svg" alt="" class="absolute w-[92px] opacity-0 rotate-[8deg] top-[41%] left-[23%]">
-        <img src="/images/home/hero/illust-main/pen.svg" alt="" class="absolute w-[58px] opacity-0 rotate-[5deg] top-[78%] left-[69.5%]">
-        <img src="/images/home/hero/illust-main/beanie.svg" alt="" class="absolute w-[91px] opacity-0 rotate-[0deg] top-[65%] left-[24.2%]">
-        <img src="/images/home/hero/illust-main/gem05.svg" alt="" class="absolute w-[62px] opacity-0 rotate-[0deg] top-[46.2%] left-[78.3%]">
-        <img src="/images/home/hero/illust-main/mary.svg" alt="" class="absolute w-[116px] opacity-0 rotate-[-15deg] top-[49.5%] left-[85%]">
-        <img src="/images/home/hero/illust-main/keyboard.svg" alt="" class="absolute block w-[73px] opacity-0 rotate-[-24deg] top-[56%] left-[17%]">
-        <img src="/images/home/hero/illust-main/train.svg" alt="" data-hero-train class="absolute w-[246px] opacity-0 rotate-[3deg] top-[67%] left-[82%]">
-        <img src="/images/home/hero/illust-main/max.svg" alt="" class="absolute w-[92px] opacity-0 rotate-[20deg] top-[28%] left-[80.3%]">
-        <img src="/images/home/hero/illust-main/justin.svg" alt="" class="absolute w-[110px] opacity-0 rotate-[8deg] top-[15%] left-[14.5%]">
-        <img src="/images/home/hero/illust-main/matz.svg" alt="" class="absolute w-[86px] opacity-0 rotate-[30deg] top-[12%] left-[87%]">
-        <img src="/images/home/hero/illust-main/fire.svg" alt="" class="absolute w-[86px] opacity-0 rotate-[-10deg] top-[70.5%] left-[13%]">
-        <img src="/images/home/hero/illust-main/spitz.svg" alt="" class="absolute w-[87px] opacity-0 rotate-[30deg] top-[44%] left-[92%]">
-        <img src="/images/home/hero/illust-main/boxes.svg" alt="" class="absolute w-[156px] opacity-0 rotate-[-5deg] top-[41%] left-[9.6%]">
-        <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[55px] opacity-0 rotate-[18deg] top-[30%] left-[89.6%]">
-        <img src="/images/home/hero/illust-main/robot.svg" alt="" class="absolute w-[97px] opacity-0 rotate-[-46deg] top-[15%] left-[4%]">
-        <img src="/images/home/hero/illust-main/sheep.svg" alt="" class="absolute w-[81px] opacity-0 rotate-[-14deg] top-[43.5%] left-[1%]">
+      <!-- Layer 3: Main Illustrations - Characters and motifs  -->
+      <div data-hero-layer="illust-main" data-hero-illustrations class="hidden sm:block absolute top-0 left-1/2 -translate-x-1/2 min-w-[1176px] w-[1176px] md:min-w-[1470px] md:w-[1470px] h-[496px] md:h-[620px] opacity-0 hero-illust-container">
+        <img src="/images/home/hero/illust-main/beer.svg" alt="" class="absolute w-[65px] md:w-[81px] opacity-0 rotate-[-15deg] top-[19%] left-[65%]">
+        <img src="/images/home/hero/illust-main/coffee.svg" alt="" class="absolute w-[62px] md:w-[77px] opacity-0 rotate-[-6deg] top-[24%] left-[72%]">
+        <img src="/images/home/hero/illust-main/gem08.svg" alt="" class="absolute w-[38px] md:w-[48px] opacity-0 rotate-[16deg] top-[33.5%] left-[19%]">
+        <img src="/images/home/hero/illust-main/yukiko.svg" alt="" class="absolute w-[75px] md:w-[94px] opacity-0 rotate-[-15deg] top-[61%] left-[5.5%]">
+        <img src="/images/home/hero/illust-main/gem07.svg" alt="" class="absolute block w-[43px] md:w-[54px] opacity-0 rotate-[-29deg] top-[61%] left-[77.5%]">
+        <img src="/images/home/hero/illust-main/ivan.svg" alt="" class="absolute w-[66px] md:w-[83px] opacity-0 rotate-[20deg] top-[65%] left-[64.5%]">
+        <img src="/images/home/hero/illust-main/dachs.svg" alt="" class="absolute w-[55px] md:w-[69px] opacity-0 rotate-[24deg] top-[26%] left-[31.8%]">
+        <img src="/images/home/hero/illust-main/cat.svg" alt="" class="absolute w-[65px] md:w-[81px] opacity-0 rotate-[25deg] top-[76.5%] left-[34%]">
+        <img src="/images/home/hero/illust-main/gem03.svg" alt="" class="absolute block w-[42px] md:w-[52px] opacity-0 rotate-[-20deg] top-[60%] left-[32.2%]">
+        <img src="/images/home/hero/illust-main/present.svg" alt="" class="absolute w-[50px] md:w-[62px] opacity-0 rotate-[10deg] top-[36.8%] left-[69.8%]">
+        <img src="/images/home/hero/illust-main/gem02.svg" alt="" class="absolute w-[42px] md:w-[53px] opacity-0 rotate-[-10deg] top-[86%] left-[28%]">
+        <img src="/images/home/hero/illust-main/game.svg" alt="" class="absolute w-[61px] md:w-[76px] opacity-0 rotate-[17deg] top-[53.1%] left-[71.1%]">
+        <img src="/images/home/hero/illust-main/ink.svg" alt="" class="absolute w-[52px] md:w-[65px] opacity-0 rotate-[-5deg] top-[82.5%] left-[72%]">
+        <img src="/images/home/hero/illust-main/daisy.svg" alt="" class="absolute w-[75px] md:w-[94px] opacity-0 rotate-[10deg] top-[10%] left-[75.8%]">
+        <img src="/images/home/hero/illust-main/kevin.svg" alt="" class="absolute w-[70px] md:w-[88px] opacity-0 rotate-[-15deg] top-[20.5%] left-[24%]">
+        <img src="/images/home/hero/illust-main/gem06.svg" alt="" class="absolute w-[44px] md:w-[55px] opacity-0 rotate-[25deg] top-[82%] left-[61%]">
+        <img src="/images/home/hero/illust-main/mimi.svg" alt="" class="absolute w-[70px] md:w-[87px] opacity-0 rotate-[8deg] top-[41%] left-[23%]">
+        <img src="/images/home/hero/illust-main/pen.svg" alt="" class="absolute w-[46px] md:w-[58px] opacity-0 rotate-[5deg] top-[78%] left-[69.5%]">
+        <img src="/images/home/hero/illust-main/beanie.svg" alt="" class="absolute w-[69px] md:w-[86px] opacity-0 rotate-[0deg] top-[65%] left-[24.2%]">
+        <img src="/images/home/hero/illust-main/gem05.svg" alt="" class="absolute w-[47px] md:w-[59px] opacity-0 rotate-[0deg] top-[46.2%] left-[78.3%]">
+        <img src="/images/home/hero/illust-main/mary.svg" alt="" class="absolute w-[88px] md:w-[110px] opacity-0 rotate-[-15deg] top-[49.5%] left-[85%]">
+        <img src="/images/home/hero/illust-main/keyboard.svg" alt="" class="absolute block w-[58px] md:w-[73px] opacity-0 rotate-[-24deg] top-[56%] left-[17%]">
+        <img src="/images/home/hero/illust-main/train.svg" alt="" data-hero-train class="absolute w-[197px] md:w-[246px] opacity-0 rotate-[3deg] top-[67%] left-[82%]">
+        <img src="/images/home/hero/illust-main/max.svg" alt="" class="absolute w-[70px] md:w-[87px] opacity-0 rotate-[20deg] top-[28%] left-[80.3%]">
+        <img src="/images/home/hero/illust-main/justin.svg" alt="" class="absolute w-[84px] md:w-[105px] opacity-0 rotate-[8deg] top-[15%] left-[14.5%]">
+        <img src="/images/home/hero/illust-main/matz.svg" alt="" class="absolute w-[66px] md:w-[82px] opacity-0 rotate-[30deg] top-[12%] left-[87%]">
+        <img src="/images/home/hero/illust-main/fire.svg" alt="" class="absolute w-[66px] md:w-[82px] opacity-0 rotate-[-10deg] top-[70.5%] left-[13%]">
+        <img src="/images/home/hero/illust-main/spitz.svg" alt="" class="absolute w-[66px] md:w-[83px] opacity-0 rotate-[30deg] top-[44%] left-[92%]">
+        <img src="/images/home/hero/illust-main/boxes.svg" alt="" class="absolute w-[118px] md:w-[148px] opacity-0 rotate-[-5deg] top-[41%] left-[9.6%]">
+        <img src="/images/home/hero/illust-main/gem01.svg" alt="" class="absolute w-[42px] md:w-[52px] opacity-0 rotate-[18deg] top-[30%] left-[89.6%]">
+        <img src="/images/home/hero/illust-main/robot.svg" alt="" class="absolute w-[74px] md:w-[92px] opacity-0 rotate-[-46deg] top-[15%] left-[4%]">
+        <img src="/images/home/hero/illust-main/sheep.svg" alt="" class="absolute w-[65px] md:w-[81px] opacity-0 rotate-[-14deg] top-[43.5%] left-[1%]">
       </div>
     </div>
 
-    <!-- Layer 4: Ruby Gem Shape with Content (absolute positioning) -->
-    <div data-hero-layer="gem-content" class="absolute top-0 left-1/2 -translate-x-1/2 w-[1470px] h-[620px] z-10 pointer-events-none">
-      <!-- Ruby Gem SVG Background -->
+    <!-- Layer 4: Ruby Gem Shape with Content -->
+    <div data-hero-layer="gem-content" class="absolute top-0 left-1/2 -translate-x-1/2 w-[1176px] md:w-[1470px] h-[496px] md:h-[620px] z-10 pointer-events-none">
+      <!-- Ruby Gem SVG Background  -->
       <img src="/images/home/hero/bg-ruby.svg"
            alt="Ruby"
            data-hero-layer="gem"
-           class="absolute w-[28rem] h-auto left-0 right-0 top-0 bottom-0 mx-auto my-auto mt-[9.5rem] opacity-0">
+           class="absolute w-[22.4rem] md:w-[28rem] h-auto left-0 right-0 top-0 bottom-0 mx-auto my-auto mt-[7.6rem] md:mt-[9.5rem] opacity-0">
 
       <!-- Content -->
       <div data-hero-layer="content" class="absolute inset-0 flex flex-col items-center opacity-0 pointer-events-auto">
         <!-- Tagline -->
-        <div class="h-[9.375rem] flex items-center justify-center mb-10">
+        <div class="h-[7.5rem] md:h-[9.375rem] flex items-center justify-center mb-10">
           <p class="text-lg md:text-2xl font-extrabold text-stone-900 dark:text-stone-100 text-center whitespace-nowrap tracking-[0.2em]"><span class="inline-block bg-gold-150 dark:bg-stone-770">A Programmer's Best Friend</span></p>
         </div>
 
-        <!-- Since 1995 -->
-        <p class="text-lg text-gold-400 tracking-[0.2em] drop-shadow-sm whitespace-nowrap mb-3">
-          <span class="font-normal">{{ home.hero.since }}</span> <span class="font-semibold">{{ home.hero.year }}</span>
-        </p>
+        <!-- Content below tagline -->
+        <div class="flex flex-col items-center">
+          <!-- Since 1995 -->
+          <p class="text-base md:text-lg text-gold-400 tracking-[0.2em] drop-shadow-sm whitespace-nowrap mb-2 md:mb-3">
+            <span class="font-normal">{{ home.hero.since }}</span> <span class="font-semibold">{{ home.hero.year }}</span>
+          </p>
 
-        <!-- Ruby Title -->
-        <div class="relative -mt-6 mb-6">
-          <div class="text-[120px] leading-none font-extrabold text-white tracking-tighter drop-shadow-sm">{{ home.hero.title }}</div>
+          <!-- Ruby Title -->
+          <div class="relative -mt-4 md:-mt-6 mb-4 md:mb-6">
+            <div class="text-[96px] md:text-[120px] leading-none font-extrabold text-white tracking-tighter drop-shadow-sm">{{ home.hero.title }}</div>
+          </div>
+
+          <!-- Latest Version -->
+          <div class="text-center">
+            <p class="text-base md:text-xl tracking-wide text-gold-400 whitespace-nowrap"><span class="font-light text-white">{{ home.hero.latest_version_label }}</span> <span class="font-extrabold text-white relative inline-block">{{ site.data.latest_version.version }}<img src="/images/home/hero/version-line.svg" alt="" class="absolute -bottom-[4px] md:-bottom-[6px] left-0 w-full h-auto"></span></p>
+          </div>
+
+          <!-- Download Button -->
+          <a href="{{ home.hero.download_url }}"
+             class="relative mt-4 md:mt-6 inline-block bg-white text-ruby-600 text-sm md:text-base px-5 md:px-7 py-2 md:py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all uppercase tracking-wide shadow-md whitespace-nowrap before:content-[''] before:absolute before:w-[2.3rem] before:h-[2.3rem] md:before:w-[2.9rem] md:before:h-[2.9rem] before:bg-[url('/images/home/hero/version-arrow.svg')] before:bg-contain before:bg-no-repeat before:-top-[1.3rem] md:before:-top-[1.6rem] before:-right-[0.7rem] md:before:-right-[0.9rem]">
+            {{ home.hero.download_button }}
+          </a>
         </div>
-
-        <!-- Latest Version -->
-        <div class="text-center">
-          <p class="text-xl tracking-wide text-gold-400 whitespace-nowrap"><span class="font-light text-white">{{ home.hero.latest_version_label }}</span> <span class="font-extrabold text-white relative inline-block">{{ site.data.latest_version.version }}<img src="/images/home/hero/version-line.svg" alt="" class="absolute -bottom-[6px] left-0 w-full h-auto"></span></p>
-        </div>
-
-        <!-- Download Button -->
-        <a href="{{ home.hero.download_url }}"
-           class="relative mt-6 inline-block bg-white text-ruby-600 text-base px-7 py-3 rounded-full font-extrabold hover:bg-stone-100 hover:scale-105 transition-all uppercase tracking-wide shadow-md whitespace-nowrap before:content-[''] before:absolute before:w-[2.9rem] before:h-[2.9rem] before:bg-[url('/images/home/hero/version-arrow.svg')] before:bg-contain before:bg-no-repeat before:-top-[1.6rem] before:-right-[0.9rem]">
-          {{ home.hero.download_button }}
-        </a>
       </div>
     </div>
   </section>
 
-  <!-- Try Ruby Section (included) -->
+  <!-- Try Ruby Section -->
   {% include home/try-ruby.html %}
 
   <!-- Wave Border to next section -->
