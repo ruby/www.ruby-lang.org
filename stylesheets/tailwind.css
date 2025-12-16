@@ -77,6 +77,7 @@
   }
 
   .sponsor-table td {
+    @apply text-stone-700 dark:text-stone-300;
     padding: 1.25rem 1rem !important;
   }
 

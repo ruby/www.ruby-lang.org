@@ -2469,6 +2469,16 @@ iframe {
   border-bottom-width: 0px;
 }
 
+.sponsor-table td{
+  --tw-text-opacity: 1;
+  color: rgb(68 64 60 / var(--tw-text-opacity, 1));
+}
+
+.sponsor-table td:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity, 1));
+}
+
 .sponsor-table td {
   padding: 1.25rem 1rem !important;
 }
