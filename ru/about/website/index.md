@@ -12,6 +12,8 @@ lang: ru
 Предыдущий дизайн создан [Jason Zimdars][jzimdars], основываясь на
 прошлом дизайне от команды оформителей Ruby.
 
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Предыдущий дизайн ruby-lang.org" width="400" style="border: 1px solid #d1d5db;" />
+
 Права на [логотип Ruby][logo] принадлежат &copy; 2006, Yukihiro Matsumoto.
 
 

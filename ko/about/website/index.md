@@ -12,6 +12,8 @@ lang: ko
 이전 비주얼 디자인은 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.
 
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="이전 ruby-lang.org 디자인" width="400" style="border: 1px solid #d1d5db;" />
+
 [Ruby 로고][logo]의 저작권은 &copy; 2006, 마츠모토
 유키히로에게 있습니다.
 

@@ -12,6 +12,8 @@ lang: zh_tw
 原視覺設計 [Jason Zimdars][jzimdars]。<br>
 基於 Ruby Visual Identity 團隊的設計成果。
 
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="原 ruby-lang.org 設計" width="400" style="border: 1px solid #d1d5db;" />
+
 [Ruby 標誌][logo]版權屬於松本行弘（Copyright &copy; 2006, Yukihiro Matsumoto）。
 
 

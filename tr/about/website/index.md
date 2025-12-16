@@ -12,6 +12,8 @@ kaynağı [GitHub][github-repo]'da barındırılmaktadır.
 Önceki görsel tasarım [Jason Zimdars][jzimdars] tarafından yapılmıştır.<br>
 Ruby Visual Identity Team'in daha önceki bir tasarımı tabanlıdır.
 
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Önceki ruby-lang.org tasarımı" width="400" style="border: 1px solid #d1d5db;" />
+
 [Ruby logosu][logo] Telif Hakkı &copy; 2006, Yukihiro Matsumoto.
 
 

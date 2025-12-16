@@ -12,6 +12,8 @@ Visual design for the 2025 site renewal by [Taeko Akatsuka][akatsuka].
 Previous visual design by [Jason Zimdars][jzimdars].<br>
 Based on an earlier design by the Ruby Visual Identity Team.
 
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Previous ruby-lang.org design" width="400" style="border: 1px solid #d1d5db;" />
+
 [The Ruby logo][logo] is Copyright &copy; 2006, Yukihiro Matsumoto.
 
 

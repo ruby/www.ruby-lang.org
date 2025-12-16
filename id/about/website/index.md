@@ -12,6 +12,8 @@ Desain visual untuk pembaruan situs 2025 oleh [Taeko Akatsuka][akatsuka].
 Desain visual sebelumnya oleh [Jason Zimdars][jzimdars].<br>
 Didasarkan pada desain awal oleh Ruby Visual Identity Team.
 
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Desain ruby-lang.org sebelumnya" width="400" style="border: 1px solid #d1d5db;" />
+
 [Logo Ruby][logo] merupakan hak cipta &copy; 2006, Yukihiro Matsumoto.
 
 

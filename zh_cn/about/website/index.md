@@ -10,6 +10,8 @@ lang: zh_cn
 
 原视觉设计由 [Jason Zimdars][jzimdars] 完成。基于 Ruby 视觉识别团队之前的设计。
 
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="原 ruby-lang.org 设计" width="400" style="border: 1px solid #d1d5db;" />
+
 [Ruby 徽标][logo]受版权保护。&copy; 2006，Yukihiro Matsumoto。
 
 
