@@ -73,7 +73,7 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
   </tr>
   <tr>
     <td><a href="https://www.datadoghq.com/">Datadog</a> (サーバー監視)</td>
-    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 150px;" /></td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 100px;" /></td>
   </tr>
   <tr>
     <td><a href="https://1password.com/">1Password</a> (パスワードマネージャー)</td>

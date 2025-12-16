@@ -74,7 +74,7 @@ Nous remercions également les organisations qui nous soutiennent :
   </tr>
   <tr>
     <td><a href="https://www.datadoghq.com/">Datadog</a> (surveillance du serveur)</td>
-    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 150px;" /></td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 100px;" /></td>
   </tr>
   <tr>
     <td><a href="https://1password.com/">1Password</a> (gestionnaire de mots de passe)</td>

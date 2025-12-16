@@ -74,7 +74,7 @@ Terima kasih juga kepada organisasi-organisasi yang telah mendukung kami:
   </tr>
   <tr>
     <td><a href="https://www.datadoghq.com/">Datadog</a> (pemantauan *server*)</td>
-    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 150px;" /></td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 100px;" /></td>
   </tr>
   <tr>
     <td><a href="https://1password.com/">1Password</a> (pengelola kata sandi)</td>
