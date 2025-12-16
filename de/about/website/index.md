@@ -9,7 +9,8 @@ der Quelltext wird auf [GitHub][github-repo] gehostet.
 
 ## Design
 
-Visual Design für die Überarbeitung 2025 von [Taeko Akatsuka][akatsuka].
+Das aktuelle visuelle Design stammt von [Taeko Akatsuka][akatsuka].
+Die Website wurde im Dezember 2025 erneuert.
 
 Früheres Visual Design von [Jason Zimdars][jzimdars],<br>
 basierend auf einem früheren Design des Ruby Visual Identity Teams.

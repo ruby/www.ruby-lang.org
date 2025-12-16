@@ -9,7 +9,8 @@ lang: zh_tw
 
 ## 設計
 
-2025年網站改版的視覺設計由 [Taeko Akatsuka][akatsuka] 完成。
+目前的視覺設計由 [Taeko Akatsuka][akatsuka] 完成。
+網站於2025年12月進行了改版。
 
 原視覺設計 [Jason Zimdars][jzimdars]。<br>
 基於 Ruby Visual Identity 團隊的設計成果。

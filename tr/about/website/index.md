@@ -9,7 +9,8 @@ kaynağı [GitHub][github-repo]'da barındırılmaktadır.
 
 ## Tasarım
 
-2025 site yenilemesi için görsel tasarım [Taeko Akatsuka][akatsuka] tarafından yapılmıştır.
+Mevcut görsel tasarım [Taeko Akatsuka][akatsuka] tarafından yapılmıştır.
+Site Aralık 2025'te yenilendi.
 
 Önceki görsel tasarım [Jason Zimdars][jzimdars] tarafından yapılmıştır.<br>
 Ruby Visual Identity Team'in daha önceki bir tasarımı tabanlıdır.

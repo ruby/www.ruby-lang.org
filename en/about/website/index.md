@@ -9,7 +9,8 @@ its source is hosted on [GitHub][github-repo].
 
 ## Design
 
-Visual design for the 2025 site renewal by [Taeko Akatsuka][akatsuka].
+The current visual design is by [Taeko Akatsuka][akatsuka].
+The site was renewed in December 2025.
 
 Previous visual design by [Jason Zimdars][jzimdars].<br>
 Based on an earlier design by the Ruby Visual Identity Team.

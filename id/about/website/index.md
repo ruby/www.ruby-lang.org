@@ -9,7 +9,8 @@ Kode sumber situs ada di [GitHub][github-repo].
 
 ## Desain
 
-Desain visual untuk pembaruan situs 2025 oleh [Taeko Akatsuka][akatsuka].
+Desain visual saat ini dibuat oleh [Taeko Akatsuka][akatsuka].
+Situs ini diperbarui pada Desember 2025.
 
 Desain visual sebelumnya oleh [Jason Zimdars][jzimdars].<br>
 Didasarkan pada desain awal oleh Ruby Visual Identity Team.

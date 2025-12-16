@@ -9,7 +9,8 @@ lang: ko
 
 ## 디자인
 
-2025년 사이트 리뉴얼의 비주얼 디자인은 [Taeko Akatsuka][akatsuka] 님이 담당했습니다.
+현재 비주얼 디자인은 [Taeko Akatsuka][akatsuka] 님이 담당했습니다.
+2025년 12월에 사이트가 리뉴얼되었습니다.
 
 이전 비주얼 디자인은 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.

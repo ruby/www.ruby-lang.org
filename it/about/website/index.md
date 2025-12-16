@@ -9,7 +9,8 @@ il suo codice sorgente è conservato su [GitHub][github-repo].
 
 ## Design
 
-Visual design per il rinnovo del sito 2025 di [Taeko Akatsuka][akatsuka].
+Il design visivo attuale è di [Taeko Akatsuka][akatsuka].
+Il sito è stato rinnovato a dicembre 2025.
 
 Precedente visual design di [Jason Zimdars][jzimdars].<br>
 Basato sul recente design del Ruby Visual Identity Team.

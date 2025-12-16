@@ -9,7 +9,8 @@ jej kod źródłowy jest hostowany na [GitHub][github-repo].
 
 ## Design
 
-Projekt wizualny dla odnowienia strony 2025 autorstwa [Taeko Akatsuka][akatsuka].
+Obecny projekt wizualny jest autorstwa [Taeko Akatsuka][akatsuka].
+Strona została odnowiona w grudniu 2025.
 
 Poprzedni projekt wizualny autorstwa [Jason Zimdars][jzimdars].<br>
 Oparty na wcześniejszym projekcie Ruby Visual Identity Team.

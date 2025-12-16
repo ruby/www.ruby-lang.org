@@ -9,7 +9,8 @@ mã nguồn được lưu trữ trên [GitHub][github-repo].
 
 ## Thiết kế
 
-Thiết kế hình ảnh cho việc làm mới trang web 2025 bởi [Taeko Akatsuka][akatsuka].
+Thiết kế hình ảnh hiện tại được thực hiện bởi [Taeko Akatsuka][akatsuka].
+Trang web đã được làm mới vào tháng 12 năm 2025.
 
 Thiết kế hình ảnh trước đó bởi [Jason Zimdars][jzimdars].<br>
 Dựa trên thiết kế trước đó của Ruby Visual Identity Team.

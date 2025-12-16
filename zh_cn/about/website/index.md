@@ -8,7 +8,8 @@ lang: zh_cn
 
 ## 设计
 
-2025年网站改版的视觉设计由 [Taeko Akatsuka][akatsuka] 完成。
+当前的视觉设计由 [Taeko Akatsuka][akatsuka] 完成。
+网站于2025年12月进行了改版。
 
 原视觉设计由 [Jason Zimdars][jzimdars] 完成。基于 Ruby 视觉识别团队之前的设计。
 
