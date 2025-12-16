@@ -12,7 +12,7 @@ lang: ko
 현재 비주얼 디자인은 [Taeko Akatsuka][akatsuka] 님이 담당했습니다.
 2025년 12월에 사이트가 리뉴얼되었습니다.
 
-이전 비주얼 디자인은 Ruby Visual Identity 팀의 이전 디자인을 기초로
+2025년 12월 이전의 비주얼 디자인은 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="이전 ruby-lang.org 디자인" width="400" style="border: 1px solid #d6d3d1;" />

@@ -12,7 +12,7 @@ lang: zh_tw
 目前的視覺設計由 [Taeko Akatsuka][akatsuka] 完成。
 網站於2025年12月進行了改版。
 
-原視覺設計 [Jason Zimdars][jzimdars]。<br>
+2025年12月之前的視覺設計 [Jason Zimdars][jzimdars]。<br>
 基於 Ruby Visual Identity 團隊的設計成果。
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="原 ruby-lang.org 設計" width="400" style="border: 1px solid #d6d3d1;" />

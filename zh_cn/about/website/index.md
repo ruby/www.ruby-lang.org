@@ -11,7 +11,7 @@ lang: zh_cn
 当前的视觉设计由 [Taeko Akatsuka][akatsuka] 完成。
 网站于2025年12月进行了改版。
 
-原视觉设计由 [Jason Zimdars][jzimdars] 完成。基于 Ruby 视觉识别团队之前的设计。
+2025年12月之前的视觉设计由 [Jason Zimdars][jzimdars] 完成。基于 Ruby 视觉识别团队之前的设计。
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="原 ruby-lang.org 设计" width="400" style="border: 1px solid #d6d3d1;" />
 

@@ -12,7 +12,7 @@ lang: ja
 現在のビジュアルデザインは [Taeko Akatsuka][akatsuka] によるものです。
 2025年12月にリニューアルしました。
 
-以前のビジュアルデザインは [Jason Zimdars][jzimdars] によるものです。<br />
+2025年12月以前のビジュアルデザインは [Jason Zimdars][jzimdars] によるものです。<br />
 Ruby Visual Identity Team による初期のデザインが元になっています。
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="以前のruby-lang.orgデザイン" width="400" style="border: 1px solid #d6d3d1;" />

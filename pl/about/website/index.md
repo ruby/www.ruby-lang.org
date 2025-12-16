@@ -12,7 +12,7 @@ jej kod źródłowy jest hostowany na [GitHub][github-repo].
 Obecny projekt wizualny jest autorstwa [Taeko Akatsuka][akatsuka].
 Strona została odnowiona w grudniu 2025.
 
-Poprzedni projekt wizualny autorstwa [Jason Zimdars][jzimdars].<br>
+Projekt wizualny przed grudniem 2025 autorstwa [Jason Zimdars][jzimdars].<br>
 Oparty na wcześniejszym projekcie Ruby Visual Identity Team.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Poprzedni design ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />

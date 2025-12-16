@@ -12,7 +12,7 @@ mã nguồn được lưu trữ trên [GitHub][github-repo].
 Thiết kế hình ảnh hiện tại được thực hiện bởi [Taeko Akatsuka][akatsuka].
 Trang web đã được làm mới vào tháng 12 năm 2025.
 
-Thiết kế hình ảnh trước đó bởi [Jason Zimdars][jzimdars].<br>
+Thiết kế hình ảnh trước tháng 12 năm 2025 bởi [Jason Zimdars][jzimdars].<br>
 Dựa trên thiết kế trước đó của Ruby Visual Identity Team.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Thiết kế trước đó của ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />

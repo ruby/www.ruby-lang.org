@@ -12,7 +12,7 @@ kaynağı [GitHub][github-repo]'da barındırılmaktadır.
 Mevcut görsel tasarım [Taeko Akatsuka][akatsuka] tarafından yapılmıştır.
 Site Aralık 2025'te yenilendi.
 
-Önceki görsel tasarım [Jason Zimdars][jzimdars] tarafından yapılmıştır.<br>
+Aralık 2025 öncesi görsel tasarım [Jason Zimdars][jzimdars] tarafından yapılmıştır.<br>
 Ruby Visual Identity Team'in daha önceki bir tasarımı tabanlıdır.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Önceki ruby-lang.org tasarımı" width="400" style="border: 1px solid #d6d3d1;" />

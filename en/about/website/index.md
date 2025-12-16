@@ -12,7 +12,7 @@ its source is hosted on [GitHub][github-repo].
 The current visual design is by [Taeko Akatsuka][akatsuka].
 The site was renewed in December 2025.
 
-Previous visual design by [Jason Zimdars][jzimdars].<br>
+Visual design before December 2025 by [Jason Zimdars][jzimdars].<br>
 Based on an earlier design by the Ruby Visual Identity Team.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Previous ruby-lang.org design" width="400" style="border: 1px solid #d6d3d1;" />

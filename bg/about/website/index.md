@@ -12,7 +12,7 @@ lang: bg
 Настоящият визуален дизайн е изготвен от [Taeko Akatsuka][akatsuka].
 Сайтът беше обновен през декември 2025 г.
 
-Предишният визуален дизайн e изготвен от [Jason Zimdars][jzimdars].<br>
+Визуалният дизайн преди декември 2025 г. е изготвен от [Jason Zimdars][jzimdars].<br>
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Предишен дизайн на ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />
 

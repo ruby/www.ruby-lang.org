@@ -12,7 +12,7 @@ lang: ru
 Текущий визуальный дизайн создан [Taeko Akatsuka][akatsuka].
 Сайт был обновлён в декабре 2025 года.
 
-Предыдущий дизайн создан [Jason Zimdars][jzimdars], основываясь на
+Дизайн до декабря 2025 года создан [Jason Zimdars][jzimdars], основываясь на
 прошлом дизайне от команды оформителей Ruby.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Предыдущий дизайн ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />

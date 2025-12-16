@@ -12,7 +12,7 @@ Kode sumber situs ada di [GitHub][github-repo].
 Desain visual saat ini dibuat oleh [Taeko Akatsuka][akatsuka].
 Situs ini diperbarui pada Desember 2025.
 
-Desain visual sebelumnya oleh [Jason Zimdars][jzimdars].<br>
+Desain visual sebelum Desember 2025 oleh [Jason Zimdars][jzimdars].<br>
 Didasarkan pada desain awal oleh Ruby Visual Identity Team.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Desain ruby-lang.org sebelumnya" width="400" style="border: 1px solid #d6d3d1;" />
