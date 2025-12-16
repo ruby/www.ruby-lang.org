@@ -20,22 +20,21 @@ why_ruby:
   title: Perché Ruby?
   description: Perché i programmatori di tutto il mondo amano Ruby? Cosa lo rende <strong>divertente</strong>?
   features:
-    - id: simple
-      title: Simple
-      read: Facile da scrivere, facile da leggere.<br />Sintassi naturale come il linguaggio parlato.
+    - id: ecosystem
+      title: Ecosystem
+      read: Gem ricche supportano tutti i tipi di sviluppo.<br />Strumenti maturi pronti all'uso.
       copy: |
-        Ruby ha una sintassi semplice e intuitiva che si legge come il linguaggio naturale.
-        Eliminando simboli complessi e costrutti verbosi, la filosofia di design di Ruby ti permette di esprimere direttamente ciò che vuoi.
-        Con un minimo di codice ripetitivo e alta leggibilità, è adatto ai principianti e mantenibile per gli sviluppatori esperti.
+        Ruby ha una vasta collezione di librerie chiamate gem, che supportano tutto dallo sviluppo web all'elaborazione dati.
+        Con framework maturi come Rails e toolchain complete, puoi combinare eccellenti risorse esistenti
+        per costruire rapidamente applicazioni di alta qualità senza reinventare la ruota.
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby è semplicemente il linguaggio di programmazione più bello che abbia mai visto.<br />
-          Presto molta attenzione ai nuovi linguaggi di programmazione che emergono,
-          ai nuovi ambienti, ai nuovi framework, e non ho ancora visto nulla che eguagli o superi Ruby nella purezza del suo design.
+          [SEGNAPOSTO] Il commento della sezione Ecosystem è in preparazione.
+          Verrà aggiornato quando arriverà il commento reale.
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           Sembra che il linguaggio si faccia da parte, lasciando solo me e il problema.
           Con ottimi strumenti e librerie, le idee diventano rapidamente codice elegante e funzionante.
 
-    - id: ecosystem
-      title: Ecosystem
-      read: Gem ricche supportano tutti i tipi di sviluppo.<br />Strumenti maturi pronti all'uso.
+    - id: simple
+      title: Simple
+      read: Facile da scrivere, facile da leggere.<br />Sintassi naturale come il linguaggio parlato.
       copy: |
-        Ruby ha una vasta collezione di librerie chiamate gem, che supportano tutto dallo sviluppo web all'elaborazione dati.
-        Con framework maturi come Rails e toolchain complete, puoi combinare eccellenti risorse esistenti
-        per costruire rapidamente applicazioni di alta qualità senza reinventare la ruota.
+        Ruby ha una sintassi semplice e intuitiva che si legge come il linguaggio naturale.
+        Eliminando simboli complessi e costrutti verbosi, la filosofia di design di Ruby ti permette di esprimere direttamente ciò che vuoi.
+        Con un minimo di codice ripetitivo e alta leggibilità, è adatto ai principianti e mantenibile per gli sviluppatori esperti.
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [SEGNAPOSTO] Il commento della sezione Ecosystem è in preparazione.
-          Verrà aggiornato quando arriverà il commento reale.
+          Ruby è semplicemente il linguaggio di programmazione più bello che abbia mai visto.<br />
+          Presto molta attenzione ai nuovi linguaggi di programmazione che emergono,
+          ai nuovi ambienti, ai nuovi framework, e non ho ancora visto nulla che eguagli o superi Ruby nella purezza del suo design.
 
     - id: community
       title: Community

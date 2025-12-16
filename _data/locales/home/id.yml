@@ -20,22 +20,21 @@ why_ruby:
   title: Mengapa Ruby?
   description: Mengapa programmer di seluruh dunia menyukai Ruby? Apa yang membuatnya <strong>menyenangkan</strong>?
   features:
-    - id: simple
-      title: Simple
-      read: Mudah ditulis, mudah dibaca.<br />Sintaks natural seperti bahasa lisan.
+    - id: ecosystem
+      title: Ecosystem
+      read: Gem yang kaya mendukung semua jenis pengembangan.<br />Tools matang siap digunakan.
       copy: |
-        Ruby memiliki sintaks yang sederhana dan intuitif yang terbaca seperti bahasa natural.
-        Dengan menghilangkan simbol kompleks dan konstruksi yang bertele-tele, filosofi desain Ruby memungkinkan Anda mengekspresikan langsung apa yang Anda inginkan.
-        Dengan kode boilerplate minimal dan keterbacaan tinggi, ramah untuk pemula dan mudah dipelihara untuk pengembang berpengalaman.
+        Ruby memiliki koleksi library yang luas yang disebut gem, mendukung segala hal mulai dari pengembangan web hingga pemrosesan data.
+        Dengan framework matang seperti Rails dan toolchain yang komprehensif, Anda dapat menggabungkan resource yang ada dengan baik
+        untuk membangun aplikasi berkualitas tinggi dengan cepat tanpa menemukan kembali roda.
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.<br />
-          Saya cukup memperhatikan bahasa pemrograman baru yang muncul,
-          lingkungan baru, framework baru, dan saya belum melihat apa pun yang menyamai atau melampaui Ruby dalam kemurnian desainnya.
+          [PLACEHOLDER] Komentar untuk bagian Ecosystem sedang dalam persiapan.
+          Akan diperbarui ketika komentar sebenarnya tiba.
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           Rasanya seperti bahasa menyingkir, meninggalkan hanya saya dan masalahnya.
           Dengan tools dan library yang hebat, ide dengan cepat menjadi kode yang elegan dan berjalan.
 
-    - id: ecosystem
-      title: Ecosystem
-      read: Gem yang kaya mendukung semua jenis pengembangan.<br />Tools matang siap digunakan.
+    - id: simple
+      title: Simple
+      read: Mudah ditulis, mudah dibaca.<br />Sintaks natural seperti bahasa lisan.
       copy: |
-        Ruby memiliki koleksi library yang luas yang disebut gem, mendukung segala hal mulai dari pengembangan web hingga pemrosesan data.
-        Dengan framework matang seperti Rails dan toolchain yang komprehensif, Anda dapat menggabungkan resource yang ada dengan baik
-        untuk membangun aplikasi berkualitas tinggi dengan cepat tanpa menemukan kembali roda.
+        Ruby memiliki sintaks yang sederhana dan intuitif yang terbaca seperti bahasa natural.
+        Dengan menghilangkan simbol kompleks dan konstruksi yang bertele-tele, filosofi desain Ruby memungkinkan Anda mengekspresikan langsung apa yang Anda inginkan.
+        Dengan kode boilerplate minimal dan keterbacaan tinggi, ramah untuk pemula dan mudah dipelihara untuk pengembang berpengalaman.
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [PLACEHOLDER] Komentar untuk bagian Ecosystem sedang dalam persiapan.
-          Akan diperbarui ketika komentar sebenarnya tiba.
+          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.<br />
+          Saya cukup memperhatikan bahasa pemrograman baru yang muncul,
+          lingkungan baru, framework baru, dan saya belum melihat apa pun yang menyamai atau melampaui Ruby dalam kemurnian desainnya.
 
     - id: community
       title: Community

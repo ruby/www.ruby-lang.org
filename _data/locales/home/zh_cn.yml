@@ -20,22 +20,21 @@ why_ruby:
   title: 为什么选择 Ruby？
   description: 为什么世界各地的程序员都热爱 Ruby？是什么让它如此<strong>有趣</strong>？
   features:
-    - id: simple
-      title: Simple
-      read: 易写易读。<br />像说话一样自然的语法。
+    - id: ecosystem
+      title: Ecosystem
+      read: 丰富的 gem 支持各种开发需求。<br />成熟的工具开箱即用。
       copy: |
-        Ruby 拥有简洁直观的语法，读起来就像自然语言。
-        通过消除复杂的符号和冗长的结构，Ruby 的设计理念让你能够直接表达你的想法。
-        最少的样板代码和高可读性，使其对初学者友好，对有经验的开发者易于维护。
+        Ruby 拥有庞大的库集合（称为 gem），支持从 Web 开发到数据处理的一切。
+        借助 Rails 等成熟框架和完善的工具链，你可以结合优秀的现有资源
+        快速构建高质量应用，而无需重新发明轮子。
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby 是我见过的最美的编程语言。<br />
-          我对新出现的编程语言、新环境、新框架都相当关注，
-          但在设计的纯粹性上，我还没有看到任何能与 Ruby 匹敌或超越它的语言。
+          [占位符] Ecosystem 部分的评论正在准备中。
+          待实际评论到达后将更新。
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           感觉语言不会成为障碍，只剩下我和问题本身。
           借助优秀的工具和库，想法很快就能变成运行优雅的代码。
 
-    - id: ecosystem
-      title: Ecosystem
-      read: 丰富的 gem 支持各种开发需求。<br />成熟的工具开箱即用。
+    - id: simple
+      title: Simple
+      read: 易写易读。<br />像说话一样自然的语法。
       copy: |
-        Ruby 拥有庞大的库集合（称为 gem），支持从 Web 开发到数据处理的一切。
-        借助 Rails 等成熟框架和完善的工具链，你可以结合优秀的现有资源
-        快速构建高质量应用，而无需重新发明轮子。
+        Ruby 拥有简洁直观的语法，读起来就像自然语言。
+        通过消除复杂的符号和冗长的结构，Ruby 的设计理念让你能够直接表达你的想法。
+        最少的样板代码和高可读性，使其对初学者友好，对有经验的开发者易于维护。
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [占位符] Ecosystem 部分的评论正在准备中。
-          待实际评论到达后将更新。
+          Ruby 是我见过的最美的编程语言。<br />
+          我对新出现的编程语言、新环境、新框架都相当关注，
+          但在设计的纯粹性上，我还没有看到任何能与 Ruby 匹敌或超越它的语言。
 
     - id: community
       title: Community

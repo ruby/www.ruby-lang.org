@@ -20,22 +20,21 @@ why_ruby:
   title: Tại sao Ruby?
   description: Tại sao các lập trình viên trên khắp thế giới yêu thích Ruby? Điều gì khiến nó <strong>thú vị</strong>?
   features:
-    - id: simple
-      title: Simple
-      read: Dễ viết, dễ đọc.<br />Cú pháp tự nhiên như lời nói.
+    - id: ecosystem
+      title: Ecosystem
+      read: Các gem phong phú hỗ trợ mọi loại phát triển.<br />Công cụ trưởng thành sẵn sàng sử dụng.
       copy: |
-        Ruby có cú pháp đơn giản và trực quan, đọc như ngôn ngữ tự nhiên.
-        Loại bỏ các ký hiệu phức tạp và cấu trúc dài dòng, triết lý thiết kế của Ruby cho phép bạn diễn đạt trực tiếp những gì bạn muốn.
-        Với mã boilerplate tối thiểu và khả năng đọc cao, nó thân thiện với người mới bắt đầu và dễ bảo trì cho các nhà phát triển có kinh nghiệm.
+        Ruby có một bộ sưu tập thư viện rộng lớn được gọi là gem, hỗ trợ mọi thứ từ phát triển web đến xử lý dữ liệu.
+        Với các framework trưởng thành như Rails và toolchain toàn diện, bạn có thể kết hợp các tài nguyên tuyệt vời hiện có
+        để nhanh chóng xây dựng các ứng dụng chất lượng cao mà không cần phát minh lại bánh xe.
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby đơn giản là ngôn ngữ lập trình đẹp nhất mà tôi từng thấy.<br />
-          Tôi khá chú ý đến các ngôn ngữ lập trình mới xuất hiện,
-          môi trường mới, framework mới, và tôi vẫn chưa thấy bất cứ thứ gì sánh được hoặc vượt qua Ruby về sự thuần khiết trong thiết kế.
+          [GIỮ CHỖ] Bình luận cho phần Ecosystem đang được chuẩn bị.
+          Sẽ được cập nhật khi bình luận thực tế đến.
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           Cảm giác như ngôn ngữ tự rút lui, chỉ còn lại tôi và vấn đề.
           Với các công cụ và thư viện tuyệt vời, ý tưởng nhanh chóng trở thành mã thanh lịch và hoạt động.
 
-    - id: ecosystem
-      title: Ecosystem
-      read: Các gem phong phú hỗ trợ mọi loại phát triển.<br />Công cụ trưởng thành sẵn sàng sử dụng.
+    - id: simple
+      title: Simple
+      read: Dễ viết, dễ đọc.<br />Cú pháp tự nhiên như lời nói.
       copy: |
-        Ruby có một bộ sưu tập thư viện rộng lớn được gọi là gem, hỗ trợ mọi thứ từ phát triển web đến xử lý dữ liệu.
-        Với các framework trưởng thành như Rails và toolchain toàn diện, bạn có thể kết hợp các tài nguyên tuyệt vời hiện có
-        để nhanh chóng xây dựng các ứng dụng chất lượng cao mà không cần phát minh lại bánh xe.
+        Ruby có cú pháp đơn giản và trực quan, đọc như ngôn ngữ tự nhiên.
+        Loại bỏ các ký hiệu phức tạp và cấu trúc dài dòng, triết lý thiết kế của Ruby cho phép bạn diễn đạt trực tiếp những gì bạn muốn.
+        Với mã boilerplate tối thiểu và khả năng đọc cao, nó thân thiện với người mới bắt đầu và dễ bảo trì cho các nhà phát triển có kinh nghiệm.
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [GIỮ CHỖ] Bình luận cho phần Ecosystem đang được chuẩn bị.
-          Sẽ được cập nhật khi bình luận thực tế đến.
+          Ruby đơn giản là ngôn ngữ lập trình đẹp nhất mà tôi từng thấy.<br />
+          Tôi khá chú ý đến các ngôn ngữ lập trình mới xuất hiện,
+          môi trường mới, framework mới, và tôi vẫn chưa thấy bất cứ thứ gì sánh được hoặc vượt qua Ruby về sự thuần khiết trong thiết kế.
 
     - id: community
       title: Community
