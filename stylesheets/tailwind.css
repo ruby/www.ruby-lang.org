@@ -91,7 +91,7 @@
   }
 
   .sponsor-table a {
-    @apply underline text-ruby-600 hover:text-ruby-700 dark:text-ruby-400 dark:hover:text-ruby-300;
+    @apply underline text-semantic-text-link hover:text-semantic-text-link-hovered;
   }
 }
 
