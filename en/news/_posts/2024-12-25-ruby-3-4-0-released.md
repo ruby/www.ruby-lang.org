@@ -185,6 +185,22 @@ Note: We're only listing notable updates of Standard libraries.
     * This library is now extracted from the Ruby repository to [ruby/net-http-sspi].
       [[Feature #20775]]
 
+The following bundled gems are promoted from default gems.
+
+- mutex_m 0.3.0
+- getoptlong 0.2.1
+- base64 0.2.0
+- bigdecimal 3.1.8
+- observer 0.1.2
+- abbrev 0.1.2
+- resolv-replace 0.1.1
+- rinda 0.2.0
+- drb 2.2.1
+- nkf 0.2.0
+- syslog 0.2.0
+- csv 3.3.2
+- repl_type_completor 0.1.9
+
 ## Compatibility issues
 
 Note: Excluding feature bug fixes.

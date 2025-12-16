@@ -28,9 +28,9 @@ irb(main):012:1> end
 {% endhighlight %}
 
 La expresión `def h` inicia la definición del método. Le dice a Ruby que
-estamos definiendo un método, cuyo nombre es `h`. La siguiente linea es
+estamos definiendo un método, cuyo nombre es `h`. La siguiente línea es
 el cuerpo del método, la misma expresión que vimos anteriormente: `puts
-"Hola Mundo"`. Finalmente, la última linea `end` la dice a Ruby que
+"Hola Mundo"`. Finalmente, la última línea `end` la dice a Ruby que
 terminamos de definir el método. La respuesta de Ruby `=> nil` nos
 comunica que él sabe que terminamos de definir el método.
 
@@ -99,7 +99,7 @@ por defecto `"Mundo"`”.
 
 ¿Qué hacemos si queremos tener un anfitrión más “en serio”? Uno que
 recuerde tu nombre, te dé la bienvenida y te trate con respeto. Puedes
-querer utilizar un objeto para eso. Vamos a crear la clase “Anfitrion”.
+querer utilizar un objeto para eso. Vamos a crear la clase “Anfitrion” (ojo, sin acento)
 
 {% highlight irb %}
 irb(main):024:0> class Anfitrion

@@ -81,7 +81,7 @@ irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
 
-在 Ruby 里 `**` 是”次方”的意思。但如果您想开根号呢？
+在 Ruby 里 `**` 是“次方”的意思。但如果您想开根号呢？
 
 {% highlight irb %}
 irb(main):006:0> Math.sqrt(9)

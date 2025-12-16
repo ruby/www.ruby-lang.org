@@ -410,7 +410,7 @@ method(:puts).call "puts è un oggetto!"
 
 Molti degli operatori sono solamente dello “zucchero sintattico” (con
 alcune regole di precendenza però) per delle chiamate a dei metodi. È
-possibile, per esempio, ridefinire il metodo ”+” della classe Integer:
+possibile, per esempio, ridefinire il metodo “+” della classe Integer:
 
 {% highlight ruby %}
 class Integer

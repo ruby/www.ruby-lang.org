@@ -4,11 +4,10 @@ title: "À propos de Ruby"
 lang: fr
 ---
 
-Indéniablement, Ruby devient de plus en plus populaire. Les « rubyistes
-» qualifient ce langage d’élégant, voire lui prêtent des qualités
-artistiques ; ils soulignent dans le même temps qu’il est pratique à
-utiliser et facile d’accès. Mais tout ça est très éthéré, qu’en est-il
-concrètement parlant ?
+Vous vous demandez pourquoi Ruby est si populaire ?
+Ses fans qualifient ce langage d’élégant, voire lui prêtent des qualités artistiques.
+Et pourtant, ils le décrivent également comme étant pratique et fonctionnel.
+Mais qu'en est-il concrètement ?
 {: .summary}
 
 ### Ruby, une conceptualisation personnelle
