@@ -141,11 +141,8 @@ languages_heading:
 toc:
   heading: Mục lục
 credits:
-  Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
-  Trang được bảo trì bởi các thành viên của cộng đồng Ruby. Xin đóng góp
-  trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> hay
-  liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng
-  tiếng Anh) nếu có câu hỏi hoặc ý kiến phản hồi về trang này.
+  <a href="/vi/about/website/">Trang web này</a>
+  được tự hào duy trì bởi các thành viên của cộng đồng Ruby.
 
 month_names:
 - Tháng một

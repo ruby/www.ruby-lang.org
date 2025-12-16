@@ -140,11 +140,8 @@ toc:
   heading: Tabla de contenidos
 
 credits:
-  Este sitio web está desarrollado con Ruby y <a href="http://www.jekyllrb.com/">Jekyll</a>
-  y es orgullosamente mantenido por miembros de la comunidad. Si quieres
-  contribuir, por favor hazlo en <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
-  o contacta a nuestro <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-  si tienes preguntas o comentarios.
+  <a href="/es/about/website/">Este sitio web</a>
+  es orgullosamente mantenido por miembros de la comunidad Ruby.
 
 month_names:
 - Enero

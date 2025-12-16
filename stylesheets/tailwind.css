@@ -62,6 +62,37 @@
   .release-list tr:last-child td {
     @apply border-b-0;
   }
+
+  /* Sponsor logo table */
+  .sponsor-table {
+    @apply w-full;
+  }
+
+  .sponsor-table tr {
+    @apply border-b border-stone-300 dark:border-stone-700;
+  }
+
+  .sponsor-table tr:last-child {
+    @apply border-b-0;
+  }
+
+  .sponsor-table td {
+    @apply text-stone-700 dark:text-stone-300;
+    padding: 1.25rem 1rem !important;
+  }
+
+  .sponsor-table .sponsor-logo {
+    @apply bg-white rounded p-2;
+  }
+
+  .sponsor-table .sponsor-logo img {
+    width: 300px;
+    height: auto !important;
+  }
+
+  .sponsor-table a {
+    @apply underline text-semantic-text-link hover:text-semantic-text-link-hovered;
+  }
 }
 
 /* Print styles */

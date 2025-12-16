@@ -140,11 +140,8 @@ syndicate:
 languages_heading: 'Autres langues disponibles :'
 
 credits:
-  Ce site est propulsé par Ruby et <a href="http://www.jekyllrb.com/">Jekyll</a>.
-  Il est fièrement maintenu par des membres de la communauté Ruby. Contribuez
-  en vous rendant sur <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a>
-  ou contactez le <a href="mailto:webmaster@ruby-lang.org">webmaster</a>
-  pour toute question ou tout commentaire.
+  <a href="/fr/about/website/">Ce site</a>
+  est fièrement maintenu par des membres de la communauté Ruby.
 
 month_names:
 - Janvier
