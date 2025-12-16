@@ -1,0 +1,51 @@
+---
+layout: news_post
+title: "Ruby 3.3.9 已发布"
+author: nagachika
+translator: "GAO Jun"
+date: 2025-07-24 11:00:00 +0000
+lang: zh_cn
+---
+
+Ruby 3.3.9 已发布。
+
+此版本包含了以下默认 gem 的安全更新：
+
+* [CVE-2025-24294: resolv gem 中的拒绝服务攻击漏洞](https://www.ruby-lang.org/zh_cn/news/2025/07/08/dos-resolv-cve-2025-24294/)
+
+以及以下环境中的构建问题：
+
+* GCC 15.1
+* Visual Studio 2022 Version 17.14
+
+详细信息可参考 [GitHub 发布说明](https://github.com/ruby/ruby/releases/tag/v3_3_9)。
+
+## 下载
+
+{% assign release = site.data.releases | where: "version", "3.3.9" | first %}
+
+* <{{ release.url.gz }}>
+
+      文件大小: {{ release.size.gz }}
+      SHA1: {{ release.sha1.gz }}
+      SHA256: {{ release.sha256.gz }}
+      SHA512: {{ release.sha512.gz }}
+
+* <{{ release.url.xz }}>
+
+      文件大小: {{ release.size.xz }}
+      SHA1: {{ release.sha1.xz }}
+      SHA256: {{ release.sha256.xz }}
+      SHA512: {{ release.sha512.xz }}
+
+* <{{ release.url.zip }}>
+
+      文件大小: {{ release.size.zip }}
+      SHA1: {{ release.sha1.zip }}
+      SHA256: {{ release.sha256.zip }}
+      SHA512: {{ release.sha512.zip }}
+
+## 发布说明
+
+许多提交者、开发人员以及用户提供了问题报告，帮助我们完成了此版本。
+感谢他们的贡献。

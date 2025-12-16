@@ -38,7 +38,7 @@ the [installation guide](installation/) for help on installing Ruby.
 [The Odin Project][odin]
 : An open source full stack curriculum
 
-[excercism][exercism]
+[Exercism][exercism]
 : 120 exercises with automatic analysis and personal mentoring.
 
 [Codecademy][codecademy]
@@ -195,7 +195,7 @@ These links were more prominent but haven't been updated in ages.
 [5]: https://poignant.guide
 [7]: https://www.techotopia.com/index.php/Ruby_Essentials
 [8]: https://pine.fm/LearnToProgram/
-[9]: https://www.ruby-doc.org/docs/ProgrammingRuby/
+[9]: https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [12]: https://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: https://www.rubydoc.info/
@@ -204,10 +204,9 @@ These links were more prominent but haven't been updated in ages.
 [25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
 [27]: https://www.jetbrains.com/ruby/
-[34]: https://ruby-doc.org/
 [37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: https://www.ruby-doc.org/
+[39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
 [42]: https://www.zenspider.com/ruby/quickref.html
 [43]: https://rubyreferences.github.io/

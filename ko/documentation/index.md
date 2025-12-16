@@ -41,7 +41,7 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 [The Odin Project][odin]
 : 오픈소스 풀스택 커리큘럼입니다.
 
-[excercism][exercism]
+[Exercism][exercism]
 : 자동 분석과 개인 멘토링이 포함된 120개의 연습문제가 제공됩니다.
 
 [Codecademy][codecademy]
@@ -202,7 +202,7 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 [5]: https://poignant.guide
 [7]: https://www.techotopia.com/index.php/Ruby_Essentials
 [8]: https://pine.fm/LearnToProgram/
-[9]: https://www.ruby-doc.org/docs/ProgrammingRuby/
+[9]: https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [12]: https://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: https://www.rubydoc.info/
@@ -211,10 +211,9 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 [25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
 [27]: https://www.jetbrains.com/ruby/
-[34]: https://ruby-doc.org/
 [37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: https://www.ruby-doc.org/
+[39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
 [42]: https://www.zenspider.com/ruby/quickref.html
 [43]: https://rubyreferences.github.io/

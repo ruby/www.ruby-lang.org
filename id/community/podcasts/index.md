@@ -6,6 +6,12 @@ lang: id
 
 Dengarkan berita, wawancara, dan diskusi terkait Ruby dan komunitasnya.
 
+[On Rails][onrails]
+: Pengembang Ruby on Rails berbagi tantangan teknis dunia nyata, keputusan
+  arsitektur, dan strategi penskalaan. Bergabunglah dengan insinyur
+  berpengalaman untuk mendalami teknologi dan retrospektif tentang membangun
+  aplikasi Rails produksi.
+
 [Ruby Rogues][rogues]
 : Ruby Rogues podcast adalah sebuah diskusi panel terkait topik yang
   berhubungan dengan pemrograman, karier, komunitas, dan Ruby.
@@ -30,6 +36,7 @@ Ruby untuk dibagi, hubungi pembuat *podcast* tersebut.
 Anda juga dapat memulai *podcast* Ruby sendiri and menambahkan pada daftar
 berikut!
 
+[onrails]: https://onrails.buzzsprout.com/
 [rooftop_ruby]: https://www.rooftopruby.com
 [remote_ruby]: https://www.remoteruby.com
 [rorpodcast]: https://www.therubyonrailspodcast.com

@@ -158,7 +158,7 @@ class MyClass
 end
 {% endhighlight %}
 
-您可能认为 `another_method` 是公有的。并不是这样的，”private” 权限声明会一直应用到类声明底部，
+您可能认为 `another_method` 是公有的。并不是这样的，“private” 权限声明会一直应用到类声明底部，
 或者直到另外一个权限声明开始起作用。函数默认是公开的：
 
 {% highlight ruby %}
