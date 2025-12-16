@@ -37,35 +37,35 @@ lang: ru
 
 [Ruby Association][rubyassociation] (хостинг)
 
-<img src="../../../images/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
+<img src="../../../images/about/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
 
 [Ruby no Kai][rubynokai] (сборка сервера)
 
-<img src="../../../images/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
+<img src="../../../images/about/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
 
 [AWS][aws] (хостинг)
 
-<img src="../../../images/sponsor/aws.png" alt="AWS" width="200" height="120" />
+<img src="../../../images/about/sponsor/aws.png" alt="AWS" width="200" height="120" />
 
 [Heroku][heroku] (хостинг)
 
-<img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
+<img src="../../../images/about/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
 
 [Fastly][fastly] (CDN)
 
-<img src="../../../images/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
+<img src="../../../images/about/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
 
 [Hatena][hatena] ([Mackerel][mackerel], мониторинг сервера)
 
-<img src="../../../images/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
+<img src="../../../images/about/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
 
 [Datadog][datadog] (мониторинг сервера)
 
-<img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
+<img src="../../../images/about/sponsor/dd.png" alt="Datadog" width="200" height="200" />
 
 [1Password][1password] (менеджер паролей)
 
-<img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
+<img src="../../../images/about/sponsor/1password.png" alt="1password" width="300" height="57" />
 
 [logo]: /ru/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
