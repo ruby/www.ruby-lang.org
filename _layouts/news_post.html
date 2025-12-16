@@ -49,7 +49,7 @@ layout: default
         {% include title.html %}
 
         <div id="content">
-          <p class="not-prose text-sm text-stone-500 dark:text-stone-400 mb-12">{{ page.date | posted_by:page.author }}{% if page.translator %}<br>
+          <p class="not-prose text-sm text-stone-500 dark:text-stone-400 pb-12 mb-12 border-b border-stone-200 dark:border-stone-700">{{ page.date | posted_by:page.author }}{% if page.translator %}<br>
                                {{ translated_by }} {{ page.translator }}{% endif %}</p>
 
           {{ content }}
