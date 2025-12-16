@@ -7,12 +7,16 @@ lang: zh_tw
 本站使用 [Jekyll][jekyll] 透過 Ruby 產生，<br>
 原始碼放在 [GitHub][github-repo]。
 
+## 設計
+
 2025年網站改版的視覺設計由 [Taeko Akatsuka][akatsuka] 完成。
 
 原視覺設計 [Jason Zimdars][jzimdars]。<br>
 基於 Ruby Visual Identity 團隊的設計成果。
 
-<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="原 ruby-lang.org 設計" width="400" style="border: 1px solid #d1d5db;" />
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="原 ruby-lang.org 設計" width="400" style="border: 1px solid #d6d3d1;" />
+
+## 標誌
 
 [Ruby 標誌][logo]版權屬於松本行弘（Copyright &copy; 2006, Yukihiro Matsumoto）。
 
@@ -35,37 +39,44 @@ lang: zh_tw
 
 此外感謝下列機構提供支持：
 
-[Ruby Association][rubyassociation] (網站托管)
-
-<img src="../../../images/about/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
-
-[Ruby no Kai][rubynokai] (建置伺服器)
-
-<img src="../../../images/about/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
-
-[AWS][aws] (網站托管)
-
-<img src="../../../images/about/sponsor/aws.png" alt="AWS" width="200" height="120" />
-
-[Heroku][heroku] (網站托管)
-
-<img src="../../../images/about/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
-
-[Fastly][fastly] (CDN)
-
-<img src="../../../images/about/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
-
-[Hatena][hatena] ([Mackerel][mackerel], 伺服器監控)
-
-<img src="../../../images/about/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
-
-[Datadog][datadog] (伺服器監控)
-
-<img src="../../../images/about/sponsor/dd.png" alt="Datadog" width="200" height="200" />
-
-[1Password][1password] (密碼管理器)
-
-<img src="../../../images/about/sponsor/1password.png" alt="1password" width="300" height="57" />
+<table class="not-prose sponsor-table">
+  <tr>
+    <td><a href="http://www.ruby.or.jp">Ruby Association</a> (網站托管)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/ra.png" alt="Ruby Association" /></td>
+  </tr>
+  <tr>
+    <td><a href="http://ruby-no-kai.org/">Ruby no Kai</a> (建置伺服器)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/ruby-no-kai.png" alt="Ruby no Kai" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://aws.amazon.com/">AWS</a> (網站托管)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/aws.png" alt="AWS" style="width: 150px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.heroku.com/">Heroku</a> (網站托管)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/heroku.png" alt="Heroku" style="width: 100px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ibm.com/">IBM</a> (網站托管)</td>
+    <td class="sponsor-logo"></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.fastly.com">Fastly</a> (CDN)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/fastly.png" alt="Fastly" style="width: 200px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="http://hatenacorp.jp/">Hatena</a> (<a href="https://mackerel.io/">Mackerel</a>, 伺服器監控)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/mackerel.png" alt="Mackerel" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.datadoghq.com/">Datadog</a> (伺服器監控)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 150px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://1password.com/">1Password</a> (密碼管理器)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/1password.png" alt="1Password" style="width: 250px;" /></td>
+  </tr>
+</table>
 
 [logo]: /zh_tw/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
@@ -75,12 +86,3 @@ lang: zh_tw
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[rubyassociation]: http://www.ruby.or.jp
-[heroku]: https://www.heroku.com/
-[fastly]: http://www.fastly.com
-[hatena]: http://hatenacorp.jp/
-[mackerel]: https://mackerel.io/
-[rubynokai]: http://ruby-no-kai.org/
-[aws]: https://aws.amazon.com/
-[datadog]: https://www.datadoghq.com/
-[1password]: https://1password.com/
