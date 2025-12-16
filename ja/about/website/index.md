@@ -60,6 +60,10 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/heroku.png" alt="Heroku" style="width: 100px;" /></td>
   </tr>
   <tr>
+    <td><a href="https://www.ibm.com/">IBM</a> (ホスティング)</td>
+    <td class="sponsor-logo"></td>
+  </tr>
+  <tr>
     <td><a href="http://www.fastly.com">Fastly</a> (CDN)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/fastly.png" alt="Fastly" style="width: 200px;" /></td>
   </tr>
