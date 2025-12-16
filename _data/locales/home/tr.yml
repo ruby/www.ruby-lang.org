@@ -20,22 +20,21 @@ why_ruby:
   title: Neden Ruby?
   description: Dünyanın dört bir yanındaki programcılar neden Ruby'yi seviyor? Onu <strong>eğlenceli</strong> yapan nedir?
   features:
-    - id: simple
-      title: Simple
-      read: Yazmak kolay, okumak kolay.<br />Konuşma dili gibi doğal sözdizimi.
+    - id: ecosystem
+      title: Ecosystem
+      read: Zengin gemler her tür geliştirmeyi destekler.<br />Olgun araçlar kullanıma hazır.
       copy: |
-        Ruby, doğal dil gibi okunan basit ve sezgisel bir sözdizimine sahiptir.
-        Karmaşık sembolleri ve ayrıntılı yapıları ortadan kaldırarak, Ruby'nin tasarım felsefesi istediğinizi doğrudan ifade etmenizi sağlar.
-        Minimum tekrarlayan kod ve yüksek okunabilirlik ile yeni başlayanlar için dostça ve deneyimli geliştiriciler için sürdürülebilir.
+        Ruby, web geliştirmeden veri işlemeye kadar her şeyi destekleyen gem adı verilen geniş bir kütüphane koleksiyonuna sahiptir.
+        Rails gibi olgun çerçeveler ve kapsamlı araç zincirleriyle, mükemmel mevcut kaynakları birleştirerek
+        tekerleği yeniden icat etmeden hızla yüksek kaliteli uygulamalar oluşturabilirsiniz.
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.<br />
-          Ortaya çıkan yeni programlama dillerine, yeni ortamlara, yeni framework'lere oldukça dikkat ediyorum
-          ve tasarımının saflığında Ruby'ye eşit veya onu aşan hiçbir şey görmedim.
+          [YER TUTUCU] Ecosystem bölümü yorumu hazırlanıyor.
+          Gerçek yorum geldiğinde güncellenecektir.
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           Dil sanki yoldan çekiliyor, sadece ben ve problem kalıyor.
           Harika araçlar ve kütüphanelerle fikirler hızla çalışan, zarif koda dönüşür.
 
-    - id: ecosystem
-      title: Ecosystem
-      read: Zengin gemler her tür geliştirmeyi destekler.<br />Olgun araçlar kullanıma hazır.
+    - id: simple
+      title: Simple
+      read: Yazmak kolay, okumak kolay.<br />Konuşma dili gibi doğal sözdizimi.
       copy: |
-        Ruby, web geliştirmeden veri işlemeye kadar her şeyi destekleyen gem adı verilen geniş bir kütüphane koleksiyonuna sahiptir.
-        Rails gibi olgun çerçeveler ve kapsamlı araç zincirleriyle, mükemmel mevcut kaynakları birleştirerek
-        tekerleği yeniden icat etmeden hızla yüksek kaliteli uygulamalar oluşturabilirsiniz.
+        Ruby, doğal dil gibi okunan basit ve sezgisel bir sözdizimine sahiptir.
+        Karmaşık sembolleri ve ayrıntılı yapıları ortadan kaldırarak, Ruby'nin tasarım felsefesi istediğinizi doğrudan ifade etmenizi sağlar.
+        Minimum tekrarlayan kod ve yüksek okunabilirlik ile yeni başlayanlar için dostça ve deneyimli geliştiriciler için sürdürülebilir.
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [YER TUTUCU] Ecosystem bölümü yorumu hazırlanıyor.
-          Gerçek yorum geldiğinde güncellenecektir.
+          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.<br />
+          Ortaya çıkan yeni programlama dillerine, yeni ortamlara, yeni framework'lere oldukça dikkat ediyorum
+          ve tasarımının saflığında Ruby'ye eşit veya onu aşan hiçbir şey görmedim.
 
     - id: community
       title: Community

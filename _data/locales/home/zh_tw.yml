@@ -20,22 +20,21 @@ why_ruby:
   title: 為什麼選擇 Ruby？
   description: 為什麼世界各地的程式設計師都熱愛 Ruby？是什麼讓它如此<strong>有趣</strong>？
   features:
-    - id: simple
-      title: Simple
-      read: 易寫易讀。<br />像說話一樣自然的語法。
+    - id: ecosystem
+      title: Ecosystem
+      read: 豐富的 gem 支援各種開發需求。<br />成熟的工具開箱即用。
       copy: |
-        Ruby 擁有簡潔直觀的語法，讀起來就像自然語言。
-        透過消除複雜的符號和冗長的結構，Ruby 的設計理念讓你能夠直接表達你的想法。
-        最少的樣板程式碼和高可讀性，使其對初學者友善，對有經驗的開發者易於維護。
+        Ruby 擁有龐大的函式庫集合（稱為 gem），支援從網頁開發到資料處理的一切。
+        藉助 Rails 等成熟框架和完善的工具鏈，你可以結合優秀的現有資源
+        快速建構高品質應用程式，而無需重新發明輪子。
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby 是我見過最美的程式語言。<br />
-          我對新出現的程式語言、新環境、新框架都相當關注，
-          但在設計的純粹性上，我還沒有看到任何能與 Ruby 匹敵或超越它的語言。
+          [佔位符] Ecosystem 部分的評論正在準備中。
+          待實際評論到達後將更新。
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           感覺語言不會成為障礙，只剩下我和問題本身。
           藉助優秀的工具和函式庫，想法很快就能變成運行優雅的程式碼。
 
-    - id: ecosystem
-      title: Ecosystem
-      read: 豐富的 gem 支援各種開發需求。<br />成熟的工具開箱即用。
+    - id: simple
+      title: Simple
+      read: 易寫易讀。<br />像說話一樣自然的語法。
       copy: |
-        Ruby 擁有龐大的函式庫集合（稱為 gem），支援從網頁開發到資料處理的一切。
-        藉助 Rails 等成熟框架和完善的工具鏈，你可以結合優秀的現有資源
-        快速建構高品質應用程式，而無需重新發明輪子。
+        Ruby 擁有簡潔直觀的語法，讀起來就像自然語言。
+        透過消除複雜的符號和冗長的結構，Ruby 的設計理念讓你能夠直接表達你的想法。
+        最少的樣板程式碼和高可讀性，使其對初學者友善，對有經驗的開發者易於維護。
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [佔位符] Ecosystem 部分的評論正在準備中。
-          待實際評論到達後將更新。
+          Ruby 是我見過最美的程式語言。<br />
+          我對新出現的程式語言、新環境、新框架都相當關注，
+          但在設計的純粹性上，我還沒有看到任何能與 Ruby 匹敵或超越它的語言。
 
     - id: community
       title: Community

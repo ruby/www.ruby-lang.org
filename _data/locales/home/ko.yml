@@ -20,22 +20,21 @@ why_ruby:
   title: 왜 Ruby인가?
   description: 전 세계 프로그래머들이 Ruby를 사랑하는 이유는 무엇일까요? 무엇이 Ruby를 <strong>즐겁게</strong> 만들까요?
   features:
-    - id: simple
-      title: Simple
-      read: 쓰기 쉽고, 읽기 쉽습니다.<br />말하는 것처럼 자연스러운 문법.
+    - id: ecosystem
+      title: Ecosystem
+      read: 풍부한 gem이 모든 종류의 개발을 지원합니다.<br />성숙한 도구들이 바로 사용 가능합니다.
       copy: |
-        Ruby는 자연어처럼 읽히는 간단하고 직관적인 문법을 가지고 있습니다.
-        복잡한 기호와 장황한 구문을 제거하여, Ruby의 디자인 철학은 원하는 것을 직접적으로 표현할 수 있게 해줍니다.
-        최소한의 보일러플레이트 코드와 높은 가독성으로 초보자에게 친숙하며 숙련된 개발자에게는 유지보수가 쉽습니다.
+        Ruby는 웹 개발부터 데이터 처리까지 모든 것을 지원하는 gem이라 불리는 방대한 라이브러리 컬렉션을 가지고 있습니다.
+        Rails 같은 성숙한 프레임워크와 포괄적인 툴체인으로, 우수한 기존 리소스를 결합하여
+        바퀴를 다시 발명하지 않고도 빠르게 고품질 애플리케이션을 구축할 수 있습니다.
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby는 제가 본 것 중 가장 아름다운 프로그래밍 언어입니다.<br />
-          저는 새로 등장하는 프로그래밍 언어, 새로운 환경, 새로운 프레임워크에 상당한 관심을 기울이고 있지만,
-          설계의 순수함에서 Ruby에 필적하거나 Ruby를 능가하는 것은 아직 보지 못했습니다.
+          [더미] Ecosystem 섹션의 코멘트는 현재 준비 중입니다.
+          실제 코멘트가 도착하면 업데이트됩니다.
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           언어가 방해하지 않고, 저와 문제만 남는 느낌입니다.
           훌륭한 도구와 라이브러리 덕분에 아이디어는 금세 우아하게 실행되는 코드가 됩니다.
 
-    - id: ecosystem
-      title: Ecosystem
-      read: 풍부한 gem이 모든 종류의 개발을 지원합니다.<br />성숙한 도구들이 바로 사용 가능합니다.
+    - id: simple
+      title: Simple
+      read: 쓰기 쉽고, 읽기 쉽습니다.<br />말하는 것처럼 자연스러운 문법.
       copy: |
-        Ruby는 웹 개발부터 데이터 처리까지 모든 것을 지원하는 gem이라 불리는 방대한 라이브러리 컬렉션을 가지고 있습니다.
-        Rails 같은 성숙한 프레임워크와 포괄적인 툴체인으로, 우수한 기존 리소스를 결합하여
-        바퀴를 다시 발명하지 않고도 빠르게 고품질 애플리케이션을 구축할 수 있습니다.
+        Ruby는 자연어처럼 읽히는 간단하고 직관적인 문법을 가지고 있습니다.
+        복잡한 기호와 장황한 구문을 제거하여, Ruby의 디자인 철학은 원하는 것을 직접적으로 표현할 수 있게 해줍니다.
+        최소한의 보일러플레이트 코드와 높은 가독성으로 초보자에게 친숙하며 숙련된 개발자에게는 유지보수가 쉽습니다.
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [더미] Ecosystem 섹션의 코멘트는 현재 준비 중입니다.
-          실제 코멘트가 도착하면 업데이트됩니다.
+          Ruby는 제가 본 것 중 가장 아름다운 프로그래밍 언어입니다.<br />
+          저는 새로 등장하는 프로그래밍 언어, 새로운 환경, 새로운 프레임워크에 상당한 관심을 기울이고 있지만,
+          설계의 순수함에서 Ruby에 필적하거나 Ruby를 능가하는 것은 아직 보지 못했습니다.
 
     - id: community
       title: Community

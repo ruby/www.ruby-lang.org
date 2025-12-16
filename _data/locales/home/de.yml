@@ -20,22 +20,21 @@ why_ruby:
   title: Warum Ruby?
   description: Warum lieben Programmierer auf der ganzen Welt Ruby? Was macht es so <strong>unterhaltsam</strong>?
   features:
-    - id: simple
-      title: Simple
-      read: Leicht zu schreiben, leicht zu lesen.<br />Natürliche Syntax wie gesprochene Sprache.
+    - id: ecosystem
+      title: Ecosystem
+      read: Reichhaltige Gems unterstützen alle Arten von Entwicklung.<br />Ausgereifte Werkzeuge sofort einsatzbereit.
       copy: |
-        Ruby hat eine einfache und intuitive Syntax, die wie natürliche Sprache gelesen werden kann.
-        Durch die Eliminierung komplexer Symbole und ausführlicher Konstrukte ermöglicht Rubys Designphilosophie, direkt auszudrücken, was du willst.
-        Mit minimalem Boilerplate-Code und hoher Lesbarkeit ist es anfängerfreundlich und wartbar für erfahrene Entwickler.
+        Ruby hat eine umfangreiche Sammlung von Bibliotheken namens Gems, die alles von Webentwicklung bis Datenverarbeitung unterstützen.
+        Mit ausgereiften Frameworks wie Rails und umfassenden Toolchains kannst du hervorragende vorhandene Ressourcen kombinieren,
+        um schnell hochwertige Anwendungen zu erstellen, ohne das Rad neu zu erfinden.
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby ist einfach die schönste Programmiersprache, die ich je gesehen habe.<br />
-          Ich achte sehr genau auf neue Programmiersprachen, die aufkommen,
-          neue Umgebungen, neue Frameworks, und ich habe noch nichts gesehen, das Ruby in der Reinheit seines Designs erreicht oder übertrifft.
+          [PLATZHALTER] Der Kommentar für den Ecosystem-Bereich wird derzeit vorbereitet.
+          Er wird aktualisiert, sobald der tatsächliche Kommentar eintrifft.
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           Es fühlt sich an, als würde die Sprache aus dem Weg gehen und nur mich und das Problem zurücklassen.
           Mit großartigen Tools und Bibliotheken werden Ideen schnell zu laufendem, elegantem Code.
 
-    - id: ecosystem
-      title: Ecosystem
-      read: Reichhaltige Gems unterstützen alle Arten von Entwicklung.<br />Ausgereifte Werkzeuge sofort einsatzbereit.
+    - id: simple
+      title: Simple
+      read: Leicht zu schreiben, leicht zu lesen.<br />Natürliche Syntax wie gesprochene Sprache.
       copy: |
-        Ruby hat eine umfangreiche Sammlung von Bibliotheken namens Gems, die alles von Webentwicklung bis Datenverarbeitung unterstützen.
-        Mit ausgereiften Frameworks wie Rails und umfassenden Toolchains kannst du hervorragende vorhandene Ressourcen kombinieren,
-        um schnell hochwertige Anwendungen zu erstellen, ohne das Rad neu zu erfinden.
+        Ruby hat eine einfache und intuitive Syntax, die wie natürliche Sprache gelesen werden kann.
+        Durch die Eliminierung komplexer Symbole und ausführlicher Konstrukte ermöglicht Rubys Designphilosophie, direkt auszudrücken, was du willst.
+        Mit minimalem Boilerplate-Code und hoher Lesbarkeit ist es anfängerfreundlich und wartbar für erfahrene Entwickler.
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [PLATZHALTER] Der Kommentar für den Ecosystem-Bereich wird derzeit vorbereitet.
-          Er wird aktualisiert, sobald der tatsächliche Kommentar eintrifft.
+          Ruby ist einfach die schönste Programmiersprache, die ich je gesehen habe.<br />
+          Ich achte sehr genau auf neue Programmiersprachen, die aufkommen,
+          neue Umgebungen, neue Frameworks, und ich habe noch nichts gesehen, das Ruby in der Reinheit seines Designs erreicht oder übertrifft.
 
     - id: community
       title: Community

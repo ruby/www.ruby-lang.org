@@ -20,22 +20,21 @@ why_ruby:
   title: Pourquoi Ruby ?
   description: Pourquoi les programmeurs du monde entier aiment-ils Ruby ? Qu'est-ce qui le rend <strong>amusant</strong> ?
   features:
-    - id: simple
-      title: Simple
-      read: Facile à écrire, facile à lire.<br />Syntaxe naturelle comme le langage parlé.
+    - id: ecosystem
+      title: Ecosystem
+      read: Des gems riches supportent tous les types de développement.<br />Des outils matures prêts à l'emploi.
       copy: |
-        Ruby a une syntaxe simple et intuitive qui se lit comme le langage naturel.
-        En éliminant les symboles complexes et les constructions verbeuses, la philosophie de conception de Ruby vous permet d'exprimer directement ce que vous voulez.
-        Avec un minimum de code répétitif et une grande lisibilité, il est convivial pour les débutants et maintenable pour les développeurs expérimentés.
+        Ruby possède une vaste collection de bibliothèques appelées gems, supportant tout du développement web au traitement des données.
+        Avec des frameworks matures comme Rails et des chaînes d'outils complètes, vous pouvez combiner d'excellentes ressources existantes
+        pour construire rapidement des applications de haute qualité sans réinventer la roue.
       comment:
         author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
         content: |
-          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.<br />
-          Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
-          aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
+          [PLACEHOLDER] Le commentaire de la section Ecosystem est en cours de préparation.
+          Il sera mis à jour dès réception du commentaire réel.
 
     - id: productivity
       title: Productivity
@@ -55,21 +54,22 @@ why_ruby:
           On a l'impression que le langage s'efface, ne laissant que moi et le problème.
           Avec d'excellents outils et bibliothèques, les idées deviennent rapidement du code élégant et fonctionnel.
 
-    - id: ecosystem
-      title: Ecosystem
-      read: Des gems riches supportent tous les types de développement.<br />Des outils matures prêts à l'emploi.
+    - id: simple
+      title: Simple
+      read: Facile à écrire, facile à lire.<br />Syntaxe naturelle comme le langage parlé.
       copy: |
-        Ruby possède une vaste collection de bibliothèques appelées gems, supportant tout du développement web au traitement des données.
-        Avec des frameworks matures comme Rails et des chaînes d'outils complètes, vous pouvez combiner d'excellentes ressources existantes
-        pour construire rapidement des applications de haute qualité sans réinventer la roue.
+        Ruby a une syntaxe simple et intuitive qui se lit comme le langage naturel.
+        En éliminant les symboles complexes et les constructions verbeuses, la philosophie de conception de Ruby vous permet d'exprimer directement ce que vous voulez.
+        Avec un minimum de code répétitif et une grande lisibilité, il est convivial pour les débutants et maintenable pour les développeurs expérimentés.
       comment:
         author:
-          id: matz
-          name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
         content: |
-          [PLACEHOLDER] Le commentaire de la section Ecosystem est en cours de préparation.
-          Il sera mis à jour dès réception du commentaire réel.
+          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.<br />
+          Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
+          aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
 
     - id: community
       title: Community
