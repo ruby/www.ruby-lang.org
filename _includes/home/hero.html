@@ -3,7 +3,7 @@
 <!-- Hero + Try Ruby Wrapper -->
 <div class="hero-try-ruby-wrapper bg-gold-150 dark:bg-stone-770 relative overflow-hidden isolate before:content-[''] before:hidden before:lg:block before:absolute before:z-[-1] before:w-[840px] before:h-[1328px] before:bg-[url('/images/home/hero/bg.svg')] dark:before:bg-[url('/images/home/hero/bg-dark.svg')] before:bg-no-repeat before:bg-contain before:-left-[20rem] before:-bottom-[20rem] before:pointer-events-none after:content-[''] after:hidden after:lg:block after:absolute after:z-[-1] after:w-[840px] after:h-[1328px] after:bg-[url('/images/home/hero/bg.svg')] dark:after:bg-[url('/images/home/hero/bg-dark.svg')] after:bg-no-repeat after:bg-contain after:-right-[20rem] after:-top-[20rem] after:rotate-180 after:pointer-events-none">
 
-  <!-- Hero Section (80% height on xs/sm, 100% on md+) -->
+  <!-- Hero Section -->
   <section class="hero-section relative overflow-hidden h-[496px] md:h-[620px]">
     <!-- Loading Indicator -->
     <div id="hero-loader" class="absolute inset-0 z-20 flex items-center justify-center bg-transparent">
@@ -15,21 +15,21 @@
       </div>
     </div>
 
-    <!-- Background Illustrations - Multi-layer Structure (80% on xs/sm, 100% on md+) -->
+    <!-- Background Illustrations - Multi-layer Structure -->
     <div class="absolute inset-0 pointer-events-none overflow-hidden">
-      <!-- Layer 1: Sunburst - Radial lines from center -->
+      <!-- Layer 1: Sunburst -->
       <img src="/images/home/hero/sunburst.svg"
            alt=""
            data-hero-layer="sunburst"
            class="absolute top-0 left-1/2 -translate-x-1/2 min-w-[1176px] w-[1176px] md:min-w-[1470px] md:w-[1470px] h-auto opacity-0">
 
-      <!-- Layer 2: Sub Illustrations - Decorative elements (hidden on xs) -->
+      <!-- Layer 2: Sub Illustrations -->
       <img src="/images/home/hero/illust-sub.svg"
            alt=""
            data-hero-layer="illust-sub"
            class="hidden sm:block absolute top-0 left-1/2 -translate-x-1/2 min-w-[1176px] w-[1176px] md:min-w-[1470px] md:w-[1470px] h-auto opacity-0">
 
-      <!-- Layer 3: Main Illustrations - Characters and motifs (hidden on xs, sorted by distance from center) -->
+      <!-- Layer 3: Main Illustrations - Characters and motifs  -->
       <div data-hero-layer="illust-main" data-hero-illustrations class="hidden sm:block absolute top-0 left-1/2 -translate-x-1/2 min-w-[1176px] w-[1176px] md:min-w-[1470px] md:w-[1470px] h-[496px] md:h-[620px] opacity-0 hero-illust-container">
         <img src="/images/home/hero/illust-main/beer.svg" alt="" class="absolute w-[65px] md:w-[81px] opacity-0 rotate-[-15deg] top-[19%] left-[65%]">
         <img src="/images/home/hero/illust-main/coffee.svg" alt="" class="absolute w-[62px] md:w-[77px] opacity-0 rotate-[-6deg] top-[24%] left-[72%]">
@@ -66,9 +66,9 @@
       </div>
     </div>
 
-    <!-- Layer 4: Ruby Gem Shape with Content (absolute positioning, 80% on xs/sm, 100% on md+) -->
+    <!-- Layer 4: Ruby Gem Shape with Content -->
     <div data-hero-layer="gem-content" class="absolute top-0 left-1/2 -translate-x-1/2 w-[1176px] md:w-[1470px] h-[496px] md:h-[620px] z-10 pointer-events-none">
-      <!-- Ruby Gem SVG Background (80% on xs/sm, 100% on md+) -->
+      <!-- Ruby Gem SVG Background  -->
       <img src="/images/home/hero/bg-ruby.svg"
            alt="Ruby"
            data-hero-layer="gem"
@@ -76,12 +76,12 @@
 
       <!-- Content -->
       <div data-hero-layer="content" class="absolute inset-0 flex flex-col items-center opacity-0 pointer-events-auto">
-        <!-- Tagline (height 80% on xs/sm, 100% on md+) -->
+        <!-- Tagline -->
         <div class="h-[7.5rem] md:h-[9.375rem] flex items-center justify-center mb-10">
           <p class="text-lg md:text-2xl font-extrabold text-stone-900 dark:text-stone-100 text-center whitespace-nowrap tracking-[0.2em]"><span class="inline-block bg-gold-150 dark:bg-stone-770">A Programmer's Best Friend</span></p>
         </div>
 
-        <!-- Content below tagline (80% sizes on xs/sm, 100% on md+) -->
+        <!-- Content below tagline -->
         <div class="flex flex-col items-center">
           <!-- Since 1995 -->
           <p class="text-base md:text-lg text-gold-400 tracking-[0.2em] drop-shadow-sm whitespace-nowrap mb-2 md:mb-3">
@@ -108,7 +108,7 @@
     </div>
   </section>
 
-  <!-- Try Ruby Section (included) -->
+  <!-- Try Ruby Section -->
   {% include home/try-ruby.html %}
 
   <!-- Wave Border to next section -->
