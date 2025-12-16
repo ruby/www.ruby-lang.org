@@ -6178,6 +6178,16 @@ iframe {
   .xl\:text-center{
     text-align: center;
   }
+
+  .before\:xl\:block::before{
+    content: var(--tw-content);
+    display: block;
+  }
+
+  .after\:xl\:block::after{
+    content: var(--tw-content);
+    display: block;
+  }
 }
 
 @media (min-width: 1536px){
@@ -6204,5 +6214,15 @@ iframe {
   .\32xl\:gap-x-40{
     -moz-column-gap: 10rem;
          column-gap: 10rem;
+  }
+
+  .before\:2xl\:block::before{
+    content: var(--tw-content);
+    display: block;
+  }
+
+  .after\:2xl\:block::after{
+    content: var(--tw-content);
+    display: block;
   }
 }
