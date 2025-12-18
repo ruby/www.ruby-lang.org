@@ -45,6 +45,21 @@
       })();
     </script>
 
+    <!-- Detect icon font loading to prevent FOUT -->
+    <script>
+      (function() {
+        if (document.fonts && document.fonts.load) {
+          document.fonts.load('24px "Material Symbols Rounded"').then(function() {
+            document.documentElement.classList.add('fonts-loaded');
+          }).catch(function() {
+            document.documentElement.classList.add('fonts-loaded');
+          });
+        } else {
+          document.documentElement.classList.add('fonts-loaded');
+        }
+      })();
+    </script>
+
     <script type="text/javascript" src="/javascripts/navigation-toggle.js" defer></script>
     <script type="text/javascript" src="/javascripts/header-navigation.js" defer></script>
     <script type="text/javascript" src="/javascripts/toc.js" defer></script>

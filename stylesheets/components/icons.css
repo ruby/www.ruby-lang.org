@@ -1,3 +1,9 @@
+/* Hide icon text until font is loaded to prevent FOUT */
+html:not(.fonts-loaded) [class^="icon-"]::before,
+html:not(.fonts-loaded) [class*=" icon-"]::before {
+  font-size: 0 !important;
+}
+
 /* Material Symbols Rounded */
 .material-symbols-rounded {
   font-family: 'Material Symbols Rounded';
