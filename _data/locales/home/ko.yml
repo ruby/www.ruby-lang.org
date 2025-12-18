@@ -105,7 +105,7 @@ community:
     - text: "커뮤니티에 대해 더 알아보기"
       url: "/ko/community/"
     - text: "다가오는 국제 컨퍼런스"
-      url: "https://rubyconferences.org"
+      url: "https://www.rubyevents.org"
       external: true
 
 news_security:

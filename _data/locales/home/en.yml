@@ -103,7 +103,7 @@ community:
     - text: "Learn more about the community"
       url: "/en/community/"
     - text: "Upcoming international conferences"
-      url: "https://rubyconferences.org"
+      url: "https://www.rubyevents.org"
       external: true
 
 news_security:

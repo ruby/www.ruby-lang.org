@@ -105,7 +105,7 @@ community:
     - text: "Topluluk hakkında daha fazla bilgi edinin"
       url: "/tr/community/"
     - text: "Yaklaşan uluslararası konferanslar"
-      url: "https://rubyconferences.org"
+      url: "https://www.rubyevents.org"
       external: true
 
 news_security:
