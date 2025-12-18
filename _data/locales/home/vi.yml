@@ -34,6 +34,22 @@ why_ruby:
           [GIỮ CHỖ] Bình luận cho phần Ecosystem đang được chuẩn bị.
           Sẽ được cập nhật khi bình luận thực tế đến.
 
+    - id: simple
+      title: Simple
+      read: Dễ viết, dễ đọc.<br />Cú pháp tự nhiên như lời nói.
+      copy: |
+        Ruby có cú pháp đơn giản và trực quan, đọc như ngôn ngữ tự nhiên.
+        Loại bỏ các ký hiệu phức tạp và cấu trúc dài dòng, triết lý thiết kế của Ruby cho phép bạn diễn đạt trực tiếp những gì bạn muốn.
+        Với mã boilerplate tối thiểu và khả năng đọc cao, nó thân thiện với người mới bắt đầu và dễ bảo trì cho các nhà phát triển có kinh nghiệm.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby đơn giản là ngôn ngữ lập trình đẹp nhất mà tôi từng thấy.<br />
+          Tôi khá chú ý đến các ngôn ngữ lập trình mới xuất hiện,
+          môi trường mới, framework mới, và tôi vẫn chưa thấy bất cứ thứ gì sánh được hoặc vượt qua Ruby về sự thuần khiết trong thiết kế.
     - id: productivity
       title: Productivity
       read: Làm nhiều hơn với ít mã hơn.<br />Cú pháp trực quan tăng tốc phát triển.
@@ -52,23 +68,6 @@ why_ruby:
           Cảm giác như ngôn ngữ tự rút lui, chỉ còn lại tôi và vấn đề.
           Với các công cụ và thư viện tuyệt vời, ý tưởng nhanh chóng trở thành mã thanh lịch và hoạt động.
 
-    - id: simple
-      title: Simple
-      read: Dễ viết, dễ đọc.<br />Cú pháp tự nhiên như lời nói.
-      copy: |
-        Ruby có cú pháp đơn giản và trực quan, đọc như ngôn ngữ tự nhiên.
-        Loại bỏ các ký hiệu phức tạp và cấu trúc dài dòng, triết lý thiết kế của Ruby cho phép bạn diễn đạt trực tiếp những gì bạn muốn.
-        Với mã boilerplate tối thiểu và khả năng đọc cao, nó thân thiện với người mới bắt đầu và dễ bảo trì cho các nhà phát triển có kinh nghiệm.
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Ruby đơn giản là ngôn ngữ lập trình đẹp nhất mà tôi từng thấy.<br />
-          Tôi khá chú ý đến các ngôn ngữ lập trình mới xuất hiện,
-          môi trường mới, framework mới, và tôi vẫn chưa thấy bất cứ thứ gì sánh được hoặc vượt qua Ruby về sự thuần khiết trong thiết kế.
-
     - id: community
       title: Community
       read: Các nhà phát triển trên khắp thế giới hỗ trợ lẫn nhau.<br />Cộng đồng ấm áp, năng động.
@@ -80,10 +79,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [GIỮ CHỖ] Bình luận cho phần Community đang được chuẩn bị.
-          Sẽ được cập nhật khi bình luận thực tế đến.
+          Cộng đồng Ruby tràn đầy tài năng và sự sáng tạo, các nhà phát triển bị thu hút bởi cú pháp thanh lịch của Ruby và lập trình vì niềm vui.
+          Đây là một cộng đồng sôi động, thân thiện, sẵn sàng chia sẻ tình yêu lập trình với mọi người.
+          Tinh thần ấm áp và hợp tác này chắc chắn là tài sản lớn nhất của Ruby.
 
 companies:
   title: "Các công ty"

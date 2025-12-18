@@ -34,6 +34,22 @@ why_ruby:
           [더미] Ecosystem 섹션의 코멘트는 현재 준비 중입니다.
           실제 코멘트가 도착하면 업데이트됩니다.
 
+    - id: simple
+      title: Simple
+      read: 쓰기 쉽고, 읽기 쉽습니다.<br />말하는 것처럼 자연스러운 문법.
+      copy: |
+        Ruby는 자연어처럼 읽히는 간단하고 직관적인 문법을 가지고 있습니다.
+        복잡한 기호와 장황한 구문을 제거하여, Ruby의 디자인 철학은 원하는 것을 직접적으로 표현할 수 있게 해줍니다.
+        최소한의 보일러플레이트 코드와 높은 가독성으로 초보자에게 친숙하며 숙련된 개발자에게는 유지보수가 쉽습니다.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby는 제가 본 것 중 가장 아름다운 프로그래밍 언어입니다.<br />
+          저는 새로 등장하는 프로그래밍 언어, 새로운 환경, 새로운 프레임워크에 상당한 관심을 기울이고 있지만,
+          설계의 순수함에서 Ruby에 필적하거나 Ruby를 능가하는 것은 아직 보지 못했습니다.
     - id: productivity
       title: Productivity
       read: 더 적은 코드로 더 많은 것을 하세요.<br />직관적인 문법이 개발을 가속화합니다.
@@ -52,23 +68,6 @@ why_ruby:
           언어가 방해하지 않고, 저와 문제만 남는 느낌입니다.
           훌륭한 도구와 라이브러리 덕분에 아이디어는 금세 우아하게 실행되는 코드가 됩니다.
 
-    - id: simple
-      title: Simple
-      read: 쓰기 쉽고, 읽기 쉽습니다.<br />말하는 것처럼 자연스러운 문법.
-      copy: |
-        Ruby는 자연어처럼 읽히는 간단하고 직관적인 문법을 가지고 있습니다.
-        복잡한 기호와 장황한 구문을 제거하여, Ruby의 디자인 철학은 원하는 것을 직접적으로 표현할 수 있게 해줍니다.
-        최소한의 보일러플레이트 코드와 높은 가독성으로 초보자에게 친숙하며 숙련된 개발자에게는 유지보수가 쉽습니다.
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Ruby는 제가 본 것 중 가장 아름다운 프로그래밍 언어입니다.<br />
-          저는 새로 등장하는 프로그래밍 언어, 새로운 환경, 새로운 프레임워크에 상당한 관심을 기울이고 있지만,
-          설계의 순수함에서 Ruby에 필적하거나 Ruby를 능가하는 것은 아직 보지 못했습니다.
-
     - id: community
       title: Community
       read: 전 세계의 개발자들이 서로를 지원합니다.<br />따뜻하고 활발한 커뮤니티.
@@ -80,10 +79,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [더미] Community 섹션의 코멘트는 현재 준비 중입니다.
-          실제 코멘트가 도착하면 업데이트됩니다.
+          Ruby 커뮤니티는 재능과 창의성으로 가득 차 있습니다. Ruby의 우아한 문법에 이끌려 프로그래밍의 기쁨을 위해 코딩하는 개발자들이 모여 있습니다.
+          이것은 프로그래밍에 대한 사랑을 모든 사람과 기꺼이 나누려는 활기차고 환영하는 커뮤니티입니다.
+          이러한 따뜻함과 협력의 정신이야말로 Ruby의 가장 큰 자산입니다.
 
 companies:
   title: "기업들이"

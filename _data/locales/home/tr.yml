@@ -34,6 +34,22 @@ why_ruby:
           [YER TUTUCU] Ecosystem bölümü yorumu hazırlanıyor.
           Gerçek yorum geldiğinde güncellenecektir.
 
+    - id: simple
+      title: Simple
+      read: Yazmak kolay, okumak kolay.<br />Konuşma dili gibi doğal sözdizimi.
+      copy: |
+        Ruby, doğal dil gibi okunan basit ve sezgisel bir sözdizimine sahiptir.
+        Karmaşık sembolleri ve ayrıntılı yapıları ortadan kaldırarak, Ruby'nin tasarım felsefesi istediğinizi doğrudan ifade etmenizi sağlar.
+        Minimum tekrarlayan kod ve yüksek okunabilirlik ile yeni başlayanlar için dostça ve deneyimli geliştiriciler için sürdürülebilir.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.<br />
+          Ortaya çıkan yeni programlama dillerine, yeni ortamlara, yeni framework'lere oldukça dikkat ediyorum
+          ve tasarımının saflığında Ruby'ye eşit veya onu aşan hiçbir şey görmedim.
     - id: productivity
       title: Productivity
       read: Daha az kodla daha fazlasını yapın.<br />Sezgisel sözdizimi geliştirmeyi hızlandırır.
@@ -52,23 +68,6 @@ why_ruby:
           Dil sanki yoldan çekiliyor, sadece ben ve problem kalıyor.
           Harika araçlar ve kütüphanelerle fikirler hızla çalışan, zarif koda dönüşür.
 
-    - id: simple
-      title: Simple
-      read: Yazmak kolay, okumak kolay.<br />Konuşma dili gibi doğal sözdizimi.
-      copy: |
-        Ruby, doğal dil gibi okunan basit ve sezgisel bir sözdizimine sahiptir.
-        Karmaşık sembolleri ve ayrıntılı yapıları ortadan kaldırarak, Ruby'nin tasarım felsefesi istediğinizi doğrudan ifade etmenizi sağlar.
-        Minimum tekrarlayan kod ve yüksek okunabilirlik ile yeni başlayanlar için dostça ve deneyimli geliştiriciler için sürdürülebilir.
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.<br />
-          Ortaya çıkan yeni programlama dillerine, yeni ortamlara, yeni framework'lere oldukça dikkat ediyorum
-          ve tasarımının saflığında Ruby'ye eşit veya onu aşan hiçbir şey görmedim.
-
     - id: community
       title: Community
       read: Dünyanın dört bir yanındaki geliştiriciler birbirlerini destekler.<br />Sıcak, aktif bir topluluk.
@@ -80,10 +79,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [YER TUTUCU] Community bölümü yorumu hazırlanıyor.
-          Gerçek yorum geldiğinde güncellenecektir.
+          Ruby topluluğu yetenek ve yaratıcılıkla dolu – Ruby'nin zarif sözdizimine çekilen ve programlamanın zevki için kod yazan geliştiriciler.
+          Programlamaya olan bu sevgiyi herkesle paylaşmaya istekli, canlı ve misafirperver bir topluluk.
+          Bu sıcaklık ve işbirliği ruhu, Ruby'nin tartışmasız en büyük varlığıdır.
 
 companies:
   title: "Şirketler"
