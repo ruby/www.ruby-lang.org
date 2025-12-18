@@ -2222,10 +2222,6 @@ body:is(.dark *){
   right: -20px;
 }
 
-.-top-3{
-  top: -0.75rem;
-}
-
 .-top-\[15px\]{
   top: -15px;
 }
@@ -2709,10 +2705,6 @@ body:is(.dark *){
   height: 8rem;
 }
 
-.h-4{
-  height: 1rem;
-}
-
 .h-6{
   height: 1.5rem;
 }
@@ -2819,10 +2811,6 @@ body:is(.dark *){
 
 .w-\[197px\]{
   width: 197px;
-}
-
-.w-\[200\%\]{
-  width: 200%;
 }
 
 .w-\[22\.4rem\]{
@@ -3599,8 +3587,8 @@ body:is(.dark *){
   background-color: var(--color-gold-150);
 }
 
-.bg-gold-400{
-  background-color: var(--color-gold-400);
+.bg-gold-500{
+  background-color: var(--color-gold-500);
 }
 
 .bg-ruby-100{
@@ -4229,24 +4217,9 @@ body:is(.dark *){
   top: -1.3rem;
 }
 
-.before\:-top-\[7px\]::before{
-  content: var(--tw-content);
-  top: -7px;
-}
-
-.before\:left-\[calc\(50\%\+90px\)\]::before{
-  content: var(--tw-content);
-  left: calc(50% + 90px);
-}
-
 .before\:top-\[18\.75rem\]::before{
   content: var(--tw-content);
   top: 18.75rem;
-}
-
-.before\:z-20::before{
-  content: var(--tw-content);
-  z-index: 20;
 }
 
 .before\:z-\[-1\]::before{
@@ -4269,36 +4242,14 @@ body:is(.dark *){
   height: 2.3rem;
 }
 
-.before\:h-\[58px\]::before{
-  content: var(--tw-content);
-  height: 58px;
-}
-
 .before\:w-\[2\.3rem\]::before{
   content: var(--tw-content);
   width: 2.3rem;
 }
 
-.before\:w-\[58px\]::before{
-  content: var(--tw-content);
-  width: 58px;
-}
-
 .before\:w-\[840px\]::before{
   content: var(--tw-content);
   width: 840px;
-}
-
-.before\:-translate-x-1\/2::before{
-  content: var(--tw-content);
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:rotate-\[40deg\]::before{
-  content: var(--tw-content);
-  --tw-rotate: 40deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .before\:bg-\[url\(\'\/images\/home\/hero\/bg\.svg\'\)\]::before{
@@ -4309,11 +4260,6 @@ body:is(.dark *){
 .before\:bg-\[url\(\'\/images\/home\/hero\/version-arrow\.svg\'\)\]::before{
   content: var(--tw-content);
   background-image: url('/images/home/hero/version-arrow.svg');
-}
-
-.before\:bg-\[url\(\'\/images\/home\/try_ruby\/arrow\.svg\'\)\]::before{
-  content: var(--tw-content);
-  background-image: url('/images/home/try_ruby/arrow.svg');
 }
 
 .before\:bg-contain::before{
@@ -4483,38 +4429,8 @@ body:is(.dark *){
   opacity: 1;
 }
 
-.has-\[a\:hover\]\:border-gold-500:has(a:hover){
-  border-color: var(--color-gold-500);
-}
-
-@keyframes wave-scroll{
-  0%{
-    transform: translateX(0);
-  }
-
-  100%{
-    transform: translateX(-50%);
-  }
-}
-
-.group:has(a:hover) .group-has-\[a\:hover\]\:animate-wave-scroll{
-  animation: wave-scroll 2s linear infinite;
-}
-
-.group:has(a:hover) .group-has-\[a\:hover\]\:border-gold-500{
-  border-color: var(--color-gold-500);
-}
-
-.group:has(a:hover) .group-has-\[a\:hover\]\:bg-gold-50{
-  background-color: var(--color-gold-50);
-}
-
-.group:has(a:hover) .group-has-\[a\:hover\]\:bg-gold-500{
-  background-color: var(--color-gold-500);
-}
-
-.group:has(a:hover) .group-has-\[a\:hover\]\:text-gold-500{
-  color: var(--color-gold-500);
+.has-\[a\:hover\]\:border-ruby-600:has(a:hover){
+  border-color: var(--color-ruby-600);
 }
 
 .dark\:border-gold-500:is(.dark *){
@@ -4570,10 +4486,6 @@ body:is(.dark *){
 .dark\:text-blue-400:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-gold-500:is(.dark *){
-  color: var(--color-gold-500);
 }
 
 .dark\:text-ruby-200:is(.dark *){
@@ -4642,14 +4554,13 @@ body:is(.dark *){
   background-image: url('/images/home/hero/bg-dark.svg');
 }
 
-.dark\:before\:bg-\[url\(\'\/images\/home\/try_ruby\/arrow-dark\.svg\'\)\]:is(.dark *)::before{
-  content: var(--tw-content);
-  background-image: url('/images/home/try_ruby/arrow-dark.svg');
-}
-
 .dark\:after\:bg-\[url\(\'\/images\/home\/hero\/bg-dark\.svg\'\)\]:is(.dark *)::after{
   content: var(--tw-content);
   background-image: url('/images/home/hero/bg-dark.svg');
+}
+
+.dark\:hover\:bg-ruby-600:hover:is(.dark *){
+  background-color: var(--color-ruby-600);
 }
 
 .dark\:hover\:bg-stone-700:hover:is(.dark *){
@@ -4679,25 +4590,8 @@ body:is(.dark *){
   color: var(--color-ruby-400);
 }
 
-.dark\:has-\[a\:hover\]\:border-gold-400:has(a:hover):is(.dark *){
-  border-color: var(--color-gold-400);
-}
-
-.group:has(a:hover) .dark\:group-has-\[a\:hover\]\:border-gold-600:is(.dark *){
-  border-color: var(--color-gold-600);
-}
-
-.group:has(a:hover) .dark\:group-has-\[a\:hover\]\:bg-gold-600:is(.dark *){
-  background-color: var(--color-gold-600);
-}
-
-.group:has(a:hover) .dark\:group-has-\[a\:hover\]\:bg-stone-800:is(.dark *){
-  --tw-bg-opacity: 1;
-  background-color: rgb(41 37 36 / var(--tw-bg-opacity, 1));
-}
-
-.group:has(a:hover) .dark\:group-has-\[a\:hover\]\:text-gold-600:is(.dark *){
-  color: var(--color-gold-600);
+.dark\:has-\[a\:hover\]\:border-ruby-600:has(a:hover):is(.dark *){
+  border-color: var(--color-ruby-600);
 }
 
 @media (min-width: 640px){
