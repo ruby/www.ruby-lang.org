@@ -57,7 +57,7 @@ File.readlines("example").size  # => 3
 
 ### 배열의 요소를 합산하려면 어떻게 해야 하나요?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 특정 문제를 해결하기보다는 일반적인 경우를 해결해 봅시다. 가장 먼저 할 일은
 `Enumerable` 객체를 반복하고 단일 결과를 수집하는 메서드를 생성하는 것입니다.
@@ -94,7 +94,7 @@ end
 
 ### 연속은 어떻게 사용하나요?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 Ruby의 연속을 사용하면 Ruby 프로그램에서 특정 장소를 나타내는 객체를 생성한
 다음 언제든지 해당 장소로 돌아갈 수 있습니다(범위를 벗어난 것처럼 보이

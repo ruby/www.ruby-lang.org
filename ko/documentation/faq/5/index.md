@@ -100,7 +100,7 @@ foobar a, b { ... }     # b가 이터레이터.
 
 ### 블록은 이터레이터에서 어떻게 사용되나요?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 이터레이터 메서드에서 블록을 실행하는 방법에는 세 가지가 있습니다.
 (1) `yield` 제어 구조, (2) `call`을 사용하여 (블록으로 만든) `Proc` 인자를

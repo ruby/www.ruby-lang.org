@@ -4,4 +4,4 @@ title: "Ruby 核心"
 lang: zh_tw
 ---
 
-{% include warnings/out-of-date.html %}
+{% include warnings/out_of_date.html %}

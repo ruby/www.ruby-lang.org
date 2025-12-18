@@ -103,7 +103,7 @@ to the `Proc`.
 
 ### How is a block used in an iterator?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 There are three ways to execute a block from an iterator method:
 (1) the `yield` control structure; (2) calling a `Proc` argument

@@ -25,7 +25,7 @@ the following phases:
   Branch is not supported by the ruby-core team any longer and does
   not receive any fixes. No further patch release will be released.
 
-{% include branches-timeline.html %}
+{% include branches_timeline.html %}
 
 {% for branch in site.data.branches %}
 ### Ruby {{ branch.name }}

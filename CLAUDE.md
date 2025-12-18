@@ -66,7 +66,7 @@ bundle exec rake new_post:fr    # French
 - **16 supported languages**: bg, de, en, es, fr, id, it, ja, ko, pl, pt, ru, tr, vi, zh_cn, zh_tw
 - Language-specific content organized in top-level directories (e.g., `/en/`, `/ja/`)
 - Locale data stored in `_data/locales/*.yml`
-- Language switching handled by `_includes/language-selector.html`
+- Language switching handled by `_includes/language_selector.html`
 
 ### Jekyll Configuration
 

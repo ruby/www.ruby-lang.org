@@ -199,7 +199,7 @@ URL이며, 다른 메일링 리스트를 원하면 변경해서 사용하세요.
 
 ### mutt에서 메일링 리스트를 쓰려면 어떻게 해야 하나요?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 일부 Ruby 메일링 리스트의 경우 메일링 리스트 소프트웨어는 제목 줄에
 `ruby-core:1234`와 같은 접두어를 추가합니다. 이로 인해 일부 메일 사용자
@@ -223,7 +223,7 @@ set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]
 
 ### Ruby 책이 있나요?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 * Ruby 프로그래밍: 실용적인 프로그래머 가이드,
   (곡괭이 책) David Thomas와 Andrew Hunt 저: ISBN 0-20171-089-7,
@@ -243,7 +243,7 @@ set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]
 
 ### 어떤 편집기가 Ruby를 지원하나요?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 * [Emacs](http://www.gnu.org/software/emacs/emacs.html),
   [XEmacs](http://www.xemacs.org/): `ruby-mode.el`이 Ruby 배포판으로 제공됩니다.
@@ -262,7 +262,7 @@ set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]
 
 ### Ruby 코드의 실행 결과를 주석으로 추가하려면 어떻게 해야하나요?
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 사람들은 일반적으로 각 명령문 실행 결과를 해당 명령문에 첨부된 주석으로 표시하여
 Ruby 코드에 주석을 답니다. 예를 들어 다음 코드에서는 할당이 문자열 "Billy Bob"을
@@ -298,7 +298,7 @@ map <M-F10> :!ruby -r xmp -n -e 'xmp($_, "\%l\t\t\# \%r\n")'<CR>
 
 ### Ruby 매뉴얼을 읽어도 이해가 안 돼요!
 
-{% include warnings/faq-out-of-date.html %}
+{% include warnings/faq_out_of_date.html %}
 
 Ruby의 구문은 Ruby 1.0 이후 상당히 안정적이지만 때때로 새로운 기능이 추가됩니다.
 따라서 책과 온라인 설명서가 뒤처질 수 있습니다.

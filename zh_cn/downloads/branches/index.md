@@ -22,7 +22,7 @@ Ruby 分支或版本 分为以下集中状态：
 * **eol** (生命周期终止):
   Ruby 核心团队不再进行支持，不会得到任何修复。也不会发布新的补丁版本。
 
-{% include branches-timeline.html %}
+{% include branches_timeline.html %}
 
 {% for branch in site.data.branches %}
 ### Ruby {{ branch.name }}
