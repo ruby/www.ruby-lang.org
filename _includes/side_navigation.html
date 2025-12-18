@@ -17,12 +17,12 @@
 {% endif %}
 
 {% comment %}Detect current section{% endcomment %}
-{% include nav-helpers/detect-section.html %}
+{% include nav_helpers/detect_section.html %}
 
 {% comment %}Render appropriate navigation based on section{% endcomment %}
 {% comment %}Standard hierarchical navigation{% endcomment %}
 {% comment %}Find submenu for current section{% endcomment %}
-{% include nav-helpers/find-submenu.html nav_section=nav_section nav_items=nav_items %}
+{% include nav_helpers/find_submenu.html nav_section=nav_section nav_items=nav_items %}
 
 <div class="md:bg-transparent md:dark:bg-transparent md:p-0 md:border-0">
   {% comment %}Section title (desktop only){% endcomment %}
@@ -33,7 +33,7 @@
   {% comment %}Render navigation menu{% endcomment %}
   <nav class="space-y-0">
     {% for subitem in current_section_submenu %}
-      {% include nav-helpers/render-submenu.html subitem=subitem is_first=forloop.first %}
+      {% include nav_helpers/render_submenu.html subitem=subitem is_first=forloop.first %}
     {% endfor %}
   </nav>
 

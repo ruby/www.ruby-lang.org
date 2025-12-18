@@ -8,7 +8,7 @@
 
   {% if include.subitem.url %}
     {% comment %}Parent has URL - render as link with nested items{% endcomment %}
-    {% include nav-helpers/check-active.html item_url=include.subitem.url item_external=include.subitem.external %}
+    {% include nav_helpers/check_active.html item_url=include.subitem.url item_external=include.subitem.external %}
 
     <div class="border-b border-stone-200 dark:border-stone-700">
       <a href="{{ include.subitem.url }}"
@@ -25,8 +25,8 @@
 
       <ul class="space-y-2 list-disc pl-5 pb-6 marker:text-stone-400 dark:marker:text-stone-500">
         {% for nesteditem in include.subitem.submenu %}
-          {% include nav-helpers/check-active.html item_url=nesteditem.url item_external=nesteditem.external %}
-          {% include nav-helpers/render-link.html url=nesteditem.url text=nesteditem.text external=nesteditem.external is_active=is_active is_nested=true %}
+          {% include nav_helpers/check_active.html item_url=nesteditem.url item_external=nesteditem.external %}
+          {% include nav_helpers/render_link.html url=nesteditem.url text=nesteditem.text external=nesteditem.external is_active=is_active is_nested=true %}
         {% endfor %}
       </ul>
     </div>
@@ -37,8 +37,8 @@
       <h4 class="text-xs font-semibold text-stone-500 dark:text-stone-400 mb-4 pl-1">{{ include.subitem.text }}</h4>
       <ul class="space-y-2 list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">
         {% for nesteditem in include.subitem.submenu %}
-          {% include nav-helpers/check-active.html item_url=nesteditem.url item_external=nesteditem.external %}
-          {% include nav-helpers/render-link.html url=nesteditem.url text=nesteditem.text external=nesteditem.external is_active=is_active is_nested=true %}
+          {% include nav_helpers/check_active.html item_url=nesteditem.url item_external=nesteditem.external %}
+          {% include nav_helpers/render_link.html url=nesteditem.url text=nesteditem.text external=nesteditem.external is_active=is_active is_nested=true %}
         {% endfor %}
       </ul>
     </div>
@@ -46,6 +46,6 @@
 
 {% else %}
   {% comment %}Regular submenu item (no nesting){% endcomment %}
-  {% include nav-helpers/check-active.html item_url=include.subitem.url item_external=include.subitem.external %}
-  {% include nav-helpers/render-link.html url=include.subitem.url text=include.subitem.text external=include.subitem.external is_active=is_active is_nested=false %}
+  {% include nav_helpers/check_active.html item_url=include.subitem.url item_external=include.subitem.external %}
+  {% include nav_helpers/render_link.html url=include.subitem.url text=include.subitem.text external=include.subitem.external is_active=is_active is_nested=false %}
 {% endif %}
