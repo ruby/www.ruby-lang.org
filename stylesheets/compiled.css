@@ -4680,6 +4680,10 @@ body:is(.dark *){
     display: block;
   }
 
+  .sm\:inline{
+    display: inline;
+  }
+
   .sm\:h-12{
     height: 3rem;
   }
