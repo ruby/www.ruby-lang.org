@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 429.27 35">
-  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
-  <defs>
-    <style>
-      .st0 {
-        fill: #ceb372;
-      }
-    </style>
-  </defs>
-  <path class="st0" d="M3.54,26.52C143.5,6.61,285.44,3.05,426.54,9.6c.28.01.49.25.48.52-.01.27-.25.49-.52.48-140.94-5.12-282.65-.14-422.17,21.14-1.44.22-2.79-.76-3.01-2.2-.23-1.45.78-2.81,2.23-3.02h0Z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" data-name="レイヤー_1" viewBox="0 0 429.27 35"><path d="M3.54 26.52C143.5 6.61 285.44 3.05 426.54 9.6c.28.01.49.25.48.52s-.25.49-.52.48C285.56 5.48 143.85 10.46 4.33 31.74c-1.44.22-2.79-.76-3.01-2.2-.23-1.45.78-2.81 2.23-3.02Z" style="fill:#ceb372"/></svg>
