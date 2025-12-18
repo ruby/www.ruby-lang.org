@@ -4930,10 +4930,6 @@ iframe {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:bg-gold-100:hover{
-  background-color: var(--color-gold-100);
-}
-
 .hover\:bg-ruby-600:hover{
   background-color: var(--color-ruby-600);
 }
@@ -5157,11 +5153,6 @@ iframe {
 .dark\:hover\:bg-stone-700:hover:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(68 64 60 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:hover\:bg-stone-770:hover:is(.dark *){
-  --tw-bg-opacity: 1;
-  background-color: rgb(50 46 43 / var(--tw-bg-opacity, 1));
 }
 
 .dark\:hover\:bg-stone-800:hover:is(.dark *){
