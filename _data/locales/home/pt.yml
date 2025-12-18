@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "ou"
   learn_more: "Leia Mais"
-  download_url: "/pt/downloads/"
-  learn_more_url: "/pt/about/"
 
 try_ruby:
   title: "Experimente Ruby!"
@@ -94,7 +92,6 @@ companies:
 
 community:
   title: "Junte-se à Comunidade"
-  link_about_url: "/pt/community/"
   description_1: "Pessoas que se envolvem com Ruby além de serem apenas usuários são chamadas de Rubyistas."
   description_2: "Rubyistas que amam Ruby são todos agradáveis #rubyfriends. Atividades da comunidade são prósperas e divertidas."
   motto_prefix: "O lema universal é"
@@ -103,7 +100,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "Saiba mais sobre a comunidade"
-      url: "/pt/community/"
+      url: "/community/"
     - text: "Próximas conferências internacionais"
       url: "https://www.rubyevents.org"
       external: true

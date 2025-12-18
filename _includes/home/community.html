@@ -16,7 +16,7 @@
     <!-- Section Header -->
     <div class="text-center mb-6 lg:mb-8">
       <h2 class="text-3xl md:text-4xl font-extrabold mb-8">
-        <a href="{{ home.community.link_about_url }}" class="text-stone-900 dark:text-white hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+        <a href="/{{ page.lang }}/community/" class="text-stone-900 dark:text-white hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
           {{ home.community.title }}<span class="icon-chevron-right text-3xl md:text-4xl" aria-hidden="true"></span>
         </a>
       </h2>
@@ -69,7 +69,7 @@
       <ul class="list-disc space-y-2 text-sm sm:text-base marker:text-stone-400 dark:marker:text-stone-500">
         {% for link in home.community.links %}
         <li>
-          <a href="{{ link.url }}" {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %} class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
+          <a href="{% if link.external %}{{ link.url }}{% else %}/{{ page.lang }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %} class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
             {{ link.text }}{% if link.external %}<span class="icon-external text-sm" aria-hidden="true"></span>{% else %}<span class="icon-chevron-right text-sm" aria-hidden="true"></span>{% endif %}
           </a>
         </li>

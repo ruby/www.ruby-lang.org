@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "或"
   learn_more: "深入了解"
-  download_url: "/zh_tw/downloads/"
-  learn_more_url: "/zh_tw/about/"
 
 try_ruby:
   title: "試試 Ruby！"
@@ -94,7 +92,6 @@ companies:
 
 community:
   title: "加入社群"
-  link_about_url: "/zh_tw/community/"
   description_1: "超越使用者身分參與 Ruby 的人被稱為 Rubyist。"
   description_2: "熱愛 Ruby 的 Rubyist 都是很棒的 #rubyfriends。社群活動蓬勃發展且充滿樂趣。"
   motto_prefix: "通用座右銘是"
@@ -103,7 +100,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "了解更多關於社群的資訊"
-      url: "/zh_tw/community/"
+      url: "/community/"
     - text: "即將舉行的國際會議"
       url: "https://www.rubyevents.org"
       external: true

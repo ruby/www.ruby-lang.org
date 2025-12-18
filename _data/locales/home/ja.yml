@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "or"
   learn_more: "Learn More"
-  download_url: "/ja/downloads/"
-  learn_more_url: "/ja/about/"
 
 try_ruby:
   title: "Try Ruby!"
@@ -91,7 +89,6 @@ companies:
 
 community:
   title: "Join the Community"
-  link_about_url: "/ja/community/"
   description_1: "Ruby に「お客さん」以上の気持ちで接する人達は Rubyist と呼ばれます。"
   description_2: "Ruby を愛する Rubyist はみんなナイスな #rubyfriends。楽しいコミュニティ活動が盛んに開催されています。"
   motto_prefix: "世界共通の合言葉は"
@@ -100,7 +97,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "コミュニティについて詳しく"
-      url: "/ja/community/"
+      url: "/community/"
     - text: "開催予定の国際カンファレンス"
       url: "https://www.rubyevents.org"
       external: true

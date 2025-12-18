@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "veya"
   learn_more: "Devamını Oku"
-  download_url: "/tr/downloads/"
-  learn_more_url: "/tr/about/"
 
 try_ruby:
   title: "Ruby'yi Dene!"
@@ -94,7 +92,6 @@ companies:
 
 community:
   title: "Topluluğa Katılın"
-  link_about_url: "/tr/community/"
   description_1: "Ruby ile sadece kullanıcı olmaktan öteye geçen kişilere Rubyist denir."
   description_2: "Ruby'yi seven Rubyistler hepsi güzel #rubyfriends. Topluluk aktiviteleri gelişiyor ve eğlenceli."
   motto_prefix: "Evrensel sloganımız"
@@ -103,7 +100,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "Topluluk hakkında daha fazla bilgi edinin"
-      url: "/tr/community/"
+      url: "/community/"
     - text: "Yaklaşan uluslararası konferanslar"
       url: "https://www.rubyevents.org"
       external: true
