@@ -3179,7 +3179,7 @@ body:is(.dark *){
 }
 
 .animate-heartbeat{
-  animation: heartbeat 10s ease-in-out infinite;
+  animation: heartbeat 8s ease-in-out infinite;
 }
 
 @keyframes heartbeat-illust{
@@ -3215,7 +3215,7 @@ body:is(.dark *){
 }
 
 .animate-heartbeat-illust{
-  animation: heartbeat-illust 10s ease-in-out infinite;
+  animation: heartbeat-illust 8s ease-in-out infinite;
 }
 
 @keyframes pop-in{
@@ -3261,6 +3261,52 @@ body:is(.dark *){
 
 .animate-scroll-left{
   animation: scroll-left 60s linear infinite;
+}
+
+@keyframes train-heartbeat{
+  0%, 100%{
+    opacity: 1;
+    transform: translateX(0) rotate(var(--tw-rotate, 0deg));
+  }
+
+  0.5%{
+    opacity: 1;
+    transform: translateX(2px) rotate(calc(var(--tw-rotate, 0deg) + 0.4deg));
+  }
+
+  1%{
+    opacity: 1;
+    transform: translateX(-1.5px) rotate(calc(var(--tw-rotate, 0deg) - 0.3deg));
+  }
+
+  1.5%{
+    opacity: 1;
+    transform: translateX(2px) rotate(calc(var(--tw-rotate, 0deg) + 0.3deg));
+  }
+
+  2%{
+    opacity: 1;
+    transform: translateX(-1px) rotate(calc(var(--tw-rotate, 0deg) - 0.2deg));
+  }
+
+  2.5%{
+    opacity: 1;
+    transform: translateX(1.5px) rotate(calc(var(--tw-rotate, 0deg) + 0.2deg));
+  }
+
+  3%{
+    opacity: 1;
+    transform: translateX(-0.5px) rotate(calc(var(--tw-rotate, 0deg) - 0.1deg));
+  }
+
+  3.5%{
+    opacity: 1;
+    transform: translateX(0) rotate(var(--tw-rotate, 0deg));
+  }
+}
+
+.animate-train-heartbeat{
+  animation: train-heartbeat 8s ease-in-out infinite;
 }
 
 @keyframes train-running{

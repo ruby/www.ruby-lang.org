@@ -188,14 +188,9 @@ document.addEventListener('DOMContentLoaded', () => {
                   setTimeout(() => {
                       // Train has a special slide-in animation (no bounce)
                       if (illust.hasAttribute('data-hero-train')) {
-                          // Train appears later and starts running immediately after slide-in
+                          // Train appears later with slide-in animation
                           setTimeout(() => {
                               illust.classList.add('animate-train-slide-in');
-                              // Start running animation right after slide-in completes (600ms)
-                              setTimeout(() => {
-                                  illust.classList.remove('animate-train-slide-in');
-                                  illust.classList.add('animate-train-running');
-                              }, 600);
                           }, trainExtraDelay);
                       } else {
                           illust.classList.add('animate-pop-in');
@@ -235,14 +230,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (layers.illustMain) {
           const illusts = layers.illustMain.querySelectorAll('img');
           illusts.forEach(illust => {
-            // Train already has running animation, skip it
-            if (illust.hasAttribute('data-hero-train')) {
-              return;
-            }
-            // Remove pop-in animation class first to avoid conflict
+            // Remove initial animation classes first to avoid conflict
             illust.classList.remove('animate-pop-in');
-            // Use illust-specific heartbeat that preserves opacity
-            illust.classList.add('animate-heartbeat-illust');
+            illust.classList.remove('animate-train-slide-in');
+            // Train uses its own heartbeat animation with gatagata movement
+            if (illust.hasAttribute('data-hero-train')) {
+              illust.classList.add('animate-train-heartbeat');
+            } else {
+              // Use illust-specific heartbeat that preserves opacity
+              illust.classList.add('animate-heartbeat-illust');
+            }
           });
         }
       }, heartbeatStartDelay);
