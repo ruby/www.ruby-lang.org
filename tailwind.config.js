@@ -40,6 +40,7 @@ module.exports = {
     'animate-heartbeat-illust',
     'animate-train-slide-in',
     'animate-train-running',
+    'animate-train-heartbeat',
   ],
   theme: {
     container: {
@@ -124,6 +125,17 @@ module.exports = {
           '50%': { opacity: '1', transform: 'translateX(-1px) rotate(calc(var(--tw-rotate, 0deg) - 0.2deg))' },
           '75%': { opacity: '1', transform: 'translateX(1.5px) rotate(calc(var(--tw-rotate, 0deg) + 0.2deg))' },
         },
+        // Train heartbeat animation (gatagata movement at 10s intervals)
+        'train-heartbeat': {
+          '0%, 100%': { opacity: '1', transform: 'translateX(0) rotate(var(--tw-rotate, 0deg))' },
+          '0.5%': { opacity: '1', transform: 'translateX(2px) rotate(calc(var(--tw-rotate, 0deg) + 0.4deg))' },
+          '1%': { opacity: '1', transform: 'translateX(-1.5px) rotate(calc(var(--tw-rotate, 0deg) - 0.3deg))' },
+          '1.5%': { opacity: '1', transform: 'translateX(2px) rotate(calc(var(--tw-rotate, 0deg) + 0.3deg))' },
+          '2%': { opacity: '1', transform: 'translateX(-1px) rotate(calc(var(--tw-rotate, 0deg) - 0.2deg))' },
+          '2.5%': { opacity: '1', transform: 'translateX(1.5px) rotate(calc(var(--tw-rotate, 0deg) + 0.2deg))' },
+          '3%': { opacity: '1', transform: 'translateX(-0.5px) rotate(calc(var(--tw-rotate, 0deg) - 0.1deg))' },
+          '3.5%': { opacity: '1', transform: 'translateX(0) rotate(var(--tw-rotate, 0deg))' },
+        },
         'wave-scroll': {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
@@ -137,10 +149,11 @@ module.exports = {
         'pop-in': 'pop-in 0.4s ease-out forwards',
         'gem-zoom-in': 'gem-zoom-in 0.6s ease-out forwards',
         'fade-slide-in': 'fade-slide-in 0.6s ease-out forwards',
-        'heartbeat': 'heartbeat 10s ease-in-out infinite',
-        'heartbeat-illust': 'heartbeat-illust 10s ease-in-out infinite',
+        'heartbeat': 'heartbeat 8s ease-in-out infinite',
+        'heartbeat-illust': 'heartbeat-illust 8s ease-in-out infinite',
         'train-slide-in': 'train-slide-in 0.6s ease-out forwards',
         'train-running': 'train-running 0.4s ease-in-out infinite',
+        'train-heartbeat': 'train-heartbeat 8s ease-in-out infinite',
         'wave-scroll': 'wave-scroll 2s linear infinite',
       },
       colors: {
