@@ -24,7 +24,7 @@
     {% elsif page.excerpt %}
       {% assign meta_description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
     {% else %}
-      {% assign meta_description = content | strip_html | strip_newlines | truncate: 160 %}
+      {% assign meta_description = page.content | strip_html | strip_newlines | truncate: 160 %}
     {% endif %}
 
     {% if page.title %}
