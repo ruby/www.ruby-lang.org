@@ -34,6 +34,22 @@ why_ruby:
           [PLACEHOLDER] Komentar untuk bagian Ecosystem sedang dalam persiapan.
           Akan diperbarui ketika komentar sebenarnya tiba.
 
+    - id: simple
+      title: Simple
+      read: Mudah ditulis, mudah dibaca.<br />Sintaks natural seperti bahasa lisan.
+      copy: |
+        Ruby memiliki sintaks yang sederhana dan intuitif yang terbaca seperti bahasa natural.
+        Dengan menghilangkan simbol kompleks dan konstruksi yang bertele-tele, filosofi desain Ruby memungkinkan Anda mengekspresikan langsung apa yang Anda inginkan.
+        Dengan kode boilerplate minimal dan keterbacaan tinggi, ramah untuk pemula dan mudah dipelihara untuk pengembang berpengalaman.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.<br />
+          Saya cukup memperhatikan bahasa pemrograman baru yang muncul,
+          lingkungan baru, framework baru, dan saya belum melihat apa pun yang menyamai atau melampaui Ruby dalam kemurnian desainnya.
     - id: productivity
       title: Productivity
       read: Lakukan lebih banyak dengan lebih sedikit kode.<br />Sintaks intuitif mempercepat pengembangan.
@@ -52,23 +68,6 @@ why_ruby:
           Rasanya seperti bahasa menyingkir, meninggalkan hanya saya dan masalahnya.
           Dengan tools dan library yang hebat, ide dengan cepat menjadi kode yang elegan dan berjalan.
 
-    - id: simple
-      title: Simple
-      read: Mudah ditulis, mudah dibaca.<br />Sintaks natural seperti bahasa lisan.
-      copy: |
-        Ruby memiliki sintaks yang sederhana dan intuitif yang terbaca seperti bahasa natural.
-        Dengan menghilangkan simbol kompleks dan konstruksi yang bertele-tele, filosofi desain Ruby memungkinkan Anda mengekspresikan langsung apa yang Anda inginkan.
-        Dengan kode boilerplate minimal dan keterbacaan tinggi, ramah untuk pemula dan mudah dipelihara untuk pengembang berpengalaman.
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.<br />
-          Saya cukup memperhatikan bahasa pemrograman baru yang muncul,
-          lingkungan baru, framework baru, dan saya belum melihat apa pun yang menyamai atau melampaui Ruby dalam kemurnian desainnya.
-
     - id: community
       title: Community
       read: Developer di seluruh dunia saling mendukung.<br />Komunitas yang hangat dan aktif.
@@ -80,10 +79,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [PLACEHOLDER] Komentar untuk bagian Community sedang dalam persiapan.
-          Akan diperbarui ketika komentar sebenarnya tiba.
+          Komunitas Ruby dipenuhi dengan bakat dan kreativitas, pengembang yang tertarik dengan sintaks elegan Ruby yang memprogram untuk kesenangan.
+          Ini adalah komunitas yang dinamis dan ramah yang bersedia berbagi kecintaan terhadap pemrograman dengan semua orang.
+          Semangat kehangatan dan kolaborasi ini adalah aset terbesar Ruby.
 
 companies:
   title: "Perusahaan"

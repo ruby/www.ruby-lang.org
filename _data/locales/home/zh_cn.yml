@@ -34,6 +34,22 @@ why_ruby:
           [占位符] Ecosystem 部分的评论正在准备中。
           待实际评论到达后将更新。
 
+    - id: simple
+      title: Simple
+      read: 易写易读。<br />像说话一样自然的语法。
+      copy: |
+        Ruby 拥有简洁直观的语法，读起来就像自然语言。
+        通过消除复杂的符号和冗长的结构，Ruby 的设计理念让你能够直接表达你的想法。
+        最少的样板代码和高可读性，使其对初学者友好，对有经验的开发者易于维护。
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby 是我见过的最美的编程语言。<br />
+          我对新出现的编程语言、新环境、新框架都相当关注，
+          但在设计的纯粹性上，我还没有看到任何能与 Ruby 匹敌或超越它的语言。
     - id: productivity
       title: Productivity
       read: 用更少的代码做更多的事。<br />直观的语法加速开发。
@@ -52,23 +68,6 @@ why_ruby:
           感觉语言不会成为障碍，只剩下我和问题本身。
           借助优秀的工具和库，想法很快就能变成运行优雅的代码。
 
-    - id: simple
-      title: Simple
-      read: 易写易读。<br />像说话一样自然的语法。
-      copy: |
-        Ruby 拥有简洁直观的语法，读起来就像自然语言。
-        通过消除复杂的符号和冗长的结构，Ruby 的设计理念让你能够直接表达你的想法。
-        最少的样板代码和高可读性，使其对初学者友好，对有经验的开发者易于维护。
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Ruby 是我见过的最美的编程语言。<br />
-          我对新出现的编程语言、新环境、新框架都相当关注，
-          但在设计的纯粹性上，我还没有看到任何能与 Ruby 匹敌或超越它的语言。
-
     - id: community
       title: Community
       read: 世界各地的开发者相互支持。<br />温暖而活跃的社区。
@@ -80,10 +79,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [占位符] Community 部分的评论正在准备中。
-          待实际评论到达后将更新。
+          Ruby社区充满了才华和创造力，开发者们被Ruby优雅的语法所吸引，为编程的乐趣而编程。
+          这是一个充满活力、热情好客的社区，愿意与每个人分享对编程的热爱。
+          这种温暖和协作的精神无疑是Ruby最大的财富。
 
 companies:
   title: "企业们"

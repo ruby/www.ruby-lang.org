@@ -33,6 +33,22 @@ why_ruby:
         content: |
           [PLACEHOLDER] The comment for the Ecosystem section is being prepared.
           It will be updated when the actual comment arrives.
+    - id: simple
+      title: Simple
+      read: Easy to write, easy to read.<br />Natural syntax like spoken language.
+      copy: |
+        Ruby has a simple and intuitive syntax that reads like natural language.
+        By eliminating complex symbols and verbose constructs, Ruby's design philosophy allows you to express what you want directly.
+        With minimal boilerplate and high readability, it's friendly to beginners and maintainable for experienced developers.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby is just the most beautiful programming language I have ever seen.<br />
+          And I pay a fair amount of attention to new program language that are coming up,
+          new environments, new frameworks, and I've still yet to see anything that meets or beats Ruby in its pureness of its design.
     - id: productivity
       title: Productivity
       read: Do more with less code.<br />Intuitive syntax accelerates development.
@@ -50,22 +66,6 @@ why_ruby:
           Its simplicity keeps me focused; its expressiveness lets me write the way I think.<br />
           It feels like the language gets out of the way, leaving just me and the problem.
           With great tools and libraries, ideas quickly become running, elegant, code.
-    - id: simple
-      title: Simple
-      read: Easy to write, easy to read.<br />Natural syntax like spoken language.
-      copy: |
-        Ruby has a simple and intuitive syntax that reads like natural language.
-        By eliminating complex symbols and verbose constructs, Ruby's design philosophy allows you to express what you want directly.
-        With minimal boilerplate and high readability, it's friendly to beginners and maintainable for experienced developers.
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Ruby is just the most beautiful programming language I have ever seen.<br />
-          And I pay a fair amount of attention to new program language that are coming up,
-          new environments, new frameworks, and I've still yet to see anything that meets or beats Ruby in its pureness of its design.
 
     - id: community
       title: Community
@@ -78,10 +78,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [PLACEHOLDER] The comment for the Community section is being prepared.
-          It will be updated when the actual comment arrives.
+          The Ruby community is filled with talent and creativity, developers attracted to Ruby's elegant syntax who program for the joy of it.
+          It's a vibrant, welcoming community willing to share this love of programming with everyone.
+          This spirit of warmth and collaboration is hands down Ruby's greatest asset.
 
 companies:
   title: "Companies"

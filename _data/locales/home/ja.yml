@@ -33,6 +33,21 @@ why_ruby:
         content: |
           [ダミー] Ecosystemセクションのコメントは現在準備中です。
           実際のコメントが届き次第、更新されます。
+    - id: simple
+      title: Simple
+      read: 書きやすく、読みやすい。<br />自然言語のようなシンプルな文法。
+      copy: |
+        Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+        複雑な記号や冗長な記述を排除し、書きたいことをそのまま表現できる設計思想が貫かれています。
+        無駄な記述が少なく、可読性が高いため、初心者にも優しく、経験豊富な開発者にとってもメンテナンスしやすい言語です。
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Rubyは私がこれまで見た中で最も美しいプログラミング言語だ。<br />
+          新しい言語、新しい環境、新しいフレームワークにはかなり注意を払っているが、その設計の純粋さにおいてRubyに並ぶもの、ましてや超えるものはまだ見たことがない。
     - id: productivity
       title: Productivity
       read: 少ないコードで、多くを実現する。<br />直感的な記述が開発を加速させる。
@@ -50,21 +65,6 @@ why_ruby:
           そのシンプルさが集中力を保ち、その表現力が思考のままに書くことを可能にする。<br />
           まるで言語が姿を消して、私と問題だけが残るような感覚。
           優れたツールとライブラリのおかげで、アイデアはすぐに動く、エレガントなコードになる。
-    - id: simple
-      title: Simple
-      read: 書きやすく、読みやすい。<br />自然言語のようなシンプルな文法。
-      copy: |
-        Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
-        複雑な記号や冗長な記述を排除し、書きたいことをそのまま表現できる設計思想が貫かれています。
-        無駄な記述が少なく、可読性が高いため、初心者にも優しく、経験豊富な開発者にとってもメンテナンスしやすい言語です。
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Rubyは私がこれまで見た中で最も美しいプログラミング言語だ。<br />
-          新しい言語、新しい環境、新しいフレームワークにはかなり注意を払っているが、その設計の純粋さにおいてRubyに並ぶもの、ましてや超えるものはまだ見たことがない。
 
     - id: community
       title: Community
@@ -77,10 +77,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [ダミー] Communityセクションのコメントは現在準備中です。
-          実際のコメントが届き次第、更新されます。
+          Rubyのコミュニティは、才能と創造性に満ちています。Rubyのエレガントな構文に惹かれ、プログラミングの喜びのためにコードを書く開発者たち。
+          それは活気に満ちた、歓迎的なコミュニティであり、プログラミングへの愛を誰とでも分かち合おうとしています。
+          この温かさと協力の精神こそが、Rubyの最大の資産です。
 
 companies:
   title: "Companies"

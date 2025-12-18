@@ -34,6 +34,22 @@ why_ruby:
           [PLACEHOLDER] Le commentaire de la section Ecosystem est en cours de préparation.
           Il sera mis à jour dès réception du commentaire réel.
 
+    - id: simple
+      title: Simple
+      read: Facile à écrire, facile à lire.<br />Syntaxe naturelle comme le langage parlé.
+      copy: |
+        Ruby a une syntaxe simple et intuitive qui se lit comme le langage naturel.
+        En éliminant les symboles complexes et les constructions verbeuses, la philosophie de conception de Ruby vous permet d'exprimer directement ce que vous voulez.
+        Avec un minimum de code répétitif et une grande lisibilité, il est convivial pour les débutants et maintenable pour les développeurs expérimentés.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.<br />
+          Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
+          aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
     - id: productivity
       title: Productivity
       read: Faire plus avec moins de code.<br />La syntaxe intuitive accélère le développement.
@@ -52,23 +68,6 @@ why_ruby:
           On a l'impression que le langage s'efface, ne laissant que moi et le problème.
           Avec d'excellents outils et bibliothèques, les idées deviennent rapidement du code élégant et fonctionnel.
 
-    - id: simple
-      title: Simple
-      read: Facile à écrire, facile à lire.<br />Syntaxe naturelle comme le langage parlé.
-      copy: |
-        Ruby a une syntaxe simple et intuitive qui se lit comme le langage naturel.
-        En éliminant les symboles complexes et les constructions verbeuses, la philosophie de conception de Ruby vous permet d'exprimer directement ce que vous voulez.
-        Avec un minimum de code répétitif et une grande lisibilité, il est convivial pour les débutants et maintenable pour les développeurs expérimentés.
-      comment:
-        author:
-          id: dhh
-          name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
-        content: |
-          Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.<br />
-          Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
-          aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
-
     - id: community
       title: Community
       read: Des développeurs du monde entier se soutiennent mutuellement.<br />Une communauté chaleureuse et active.
@@ -80,10 +79,11 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of The Rails Foundation
+          title: Executive Director of Rails Foundation
         content: |
-          [PLACEHOLDER] Le commentaire de la section Community est en cours de préparation.
-          Il sera mis à jour dès réception du commentaire réel.
+          La communauté Ruby regorge de talents et de créativité – des développeurs attirés par la syntaxe élégante de Ruby qui programment pour le plaisir.
+          C'est une communauté vibrante et accueillante, prête à partager cet amour de la programmation avec tout le monde.
+          Cet esprit de chaleur et de collaboration est sans conteste le plus grand atout de Ruby.
 
 companies:
   title: "Entreprises"
