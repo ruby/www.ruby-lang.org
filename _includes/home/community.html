@@ -55,7 +55,7 @@
         <div class="flex gap-6 2xl:gap-8 flex-shrink-0">
           {% for photo in community_photos %}
           <div class="flex-shrink-0 transition-transform duration-300 hover:scale-105 w-[160px] h-[144px] 2xl:w-[200px] 2xl:h-[180px]">
-            <img src="{{ photo.path }}" alt="Ruby Community" class="w-full h-full object-cover" style="clip-path: url(#ruby-gem-mask);">
+            <img src="{{ photo.path }}" alt="Ruby Community" class="w-full h-full object-cover" style="clip-path: url(#ruby-gem-mask);" loading="lazy">
           </div>
           {% endfor %}
         </div>
