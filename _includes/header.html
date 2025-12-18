@@ -20,7 +20,7 @@
         {% for item in nav_items %}
         <!-- Simple link (no dropdown) -->
         <a href="{{ item.url }}"
-           class="flex items-center px-3 xl:px-5 h-full text-sm font-bold text-stone-900 dark:text-stone-300 hover:text-semantic-text-hovered dark:hover:text-ruby-400 hover:bg-gold-100 dark:hover:bg-stone-770 transition-colors">
+           class="flex items-center px-3 xl:px-5 h-full text-sm font-bold text-stone-900 dark:text-stone-300 hover:text-semantic-text-hovered dark:hover:text-ruby-400 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
           {{ item.text }}
         </a>
         {% endfor %}
@@ -36,12 +36,12 @@
                 type="button"
                 aria-label="Theme: Auto"
                 title="Theme: Auto (System)"
-                class="ml-1 sm:ml-0 p-2 text-stone-700 dark:text-stone-300 hover:bg-gold-100 dark:hover:bg-stone-770 rounded-md transition-colors">
+                class="ml-1 sm:ml-0 p-2 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors">
           <span class="icon-theme-auto text-xl" aria-hidden="true"></span>
         </button>
 
         <!-- Mobile menu button -->
-        <button id="mobile-menu-toggle" class="lg:hidden p-2 text-stone-700 dark:text-stone-300 hover:bg-gold-100 dark:hover:bg-stone-770 rounded-md">
+        <button id="mobile-menu-toggle" class="lg:hidden p-2 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md">
           <span class="icon-menu" aria-hidden="true"></span>
         </button>
       </div>
@@ -53,7 +53,7 @@
     <nav class="container mx-auto px-4 py-4">
       {% for item in nav_items %}
       <a href="{{ item.url }}"
-         class="block px-5 py-2 text-sm font-bold text-stone-900 dark:text-stone-300 hover:text-semantic-text-hovered dark:hover:text-ruby-400 hover:bg-gold-100 dark:hover:bg-stone-770 rounded-md transition-colors mb-2">
+         class="block px-5 py-2 text-sm font-bold text-stone-900 dark:text-stone-300 hover:text-semantic-text-hovered dark:hover:text-ruby-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors mb-2">
         {{ item.text }}
       </a>
       {% endfor %}
