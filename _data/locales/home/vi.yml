@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "hoặc"
   learn_more: "Tìm hiểu thêm"
-  download_url: "/vi/downloads/"
-  learn_more_url: "/vi/about/"
 
 try_ruby:
   title: "Thử Ruby!"
@@ -94,7 +92,6 @@ companies:
 
 community:
   title: "Tham gia cộng đồng"
-  link_about_url: "/vi/community/"
   description_1: "Những người tham gia Ruby vượt ra ngoài việc chỉ là người dùng được gọi là Rubyists."
   description_2: "Rubyists yêu thích Ruby đều là những #rubyfriends tuyệt vời. Các hoạt động cộng đồng phát triển mạnh mẽ và thú vị."
   motto_prefix: "Khẩu hiệu chung là"
@@ -103,7 +100,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "Tìm hiểu thêm về cộng đồng"
-      url: "/vi/community/"
+      url: "/community/"
     - text: "Các hội nghị quốc tế sắp tới"
       url: "https://www.rubyevents.org"
       external: true

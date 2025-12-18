@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "또는"
   learn_more: "자세히 알아보기"
-  download_url: "/ko/downloads/"
-  learn_more_url: "/ko/about/"
 
 try_ruby:
   title: "Ruby를 체험해보세요!"
@@ -94,7 +92,6 @@ companies:
 
 community:
   title: "커뮤니티에 참여하기"
-  link_about_url: "/ko/community/"
   description_1: "단순히 사용하는 것을 넘어 Ruby에 참여하는 사람들을 Rubyist라고 부릅니다."
   description_2: "Ruby를 사랑하는 Rubyist들은 모두 멋진 #rubyfriends입니다. 커뮤니티 활동이 번창하고 즐겁습니다."
   motto_prefix: "보편적인 모토는"
@@ -103,7 +100,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "커뮤니티에 대해 더 알아보기"
-      url: "/ko/community/"
+      url: "/community/"
     - text: "다가오는 국제 컨퍼런스"
       url: "https://www.rubyevents.org"
       external: true

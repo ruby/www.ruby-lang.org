@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "atau"
   learn_more: "Tentang Ruby"
-  download_url: "/id/downloads/"
-  learn_more_url: "/id/about/"
 
 try_ruby:
   title: "Coba Ruby!"
@@ -94,7 +92,6 @@ companies:
 
 community:
   title: "Bergabung dengan Komunitas"
-  link_about_url: "/id/community/"
   description_1: "Orang-orang yang terlibat dengan Ruby lebih dari sekadar pengguna disebut Rubyist."
   description_2: "Rubyist yang mencintai Ruby adalah #rubyfriends yang menyenangkan. Aktivitas komunitas berkembang dan menyenangkan."
   motto_prefix: "Motto universal adalah"
@@ -103,7 +100,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "Pelajari lebih lanjut tentang komunitas"
-      url: "/id/community/"
+      url: "/community/"
     - text: "Konferensi internasional mendatang"
       url: "https://www.rubyevents.org"
       external: true

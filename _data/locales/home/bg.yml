@@ -6,8 +6,6 @@ hero:
   download_button: "Download"
   or: "или"
   learn_more: "Научете повече"
-  download_url: "/bg/downloads/"
-  learn_more_url: "/bg/about/"
 
 try_ruby:
   title: "Опитайте Ruby!"
@@ -94,7 +92,6 @@ companies:
 
 community:
   title: "Присъединете се към общността"
-  link_about_url: "/bg/community/"
   description_1: "Хората, които се ангажират с Ruby отвъд простото използване, се наричат Rubyists."
   description_2: "Rubyists, обичащи Ruby, са всички мили #rubyfriends. Общностните дейности процъфтяват и са забавни."
   motto_prefix: "Универсалният девиз е"
@@ -103,7 +100,7 @@ community:
   motto_translation: "Matz is nice so we are nice"
   links:
     - text: "Научете повече за общността"
-      url: "/bg/community/"
+      url: "/community/"
     - text: "Предстоящи международни конференции"
       url: "https://www.rubyevents.org"
       external: true
