@@ -6,7 +6,7 @@ lang: tr
 
 Tüm dünyadan Ruby programcıları konferanslara her geçen yıl çok daha kalabalık katılıyor, bu konferanslarda süregelen işlerdeki raporları paylaşmak, Ruby'nin geleceğini tartışmak, ve Ruby topluluğuna yeni katılanları karşılamak için bir araya geliyorlar.
 
-[RubyConferences.org][rc], Ruby'ye özgü konferansların basit bir listesidir, Ruby topluluğu ile yardımlaşarak yayınlanır.
+[RubyEvents.org][rc], Ruby'ye özgü konferansların basit bir listesidir, Ruby topluluğu ile yardımlaşarak yayınlanır.
 Burada etkinlik tarihlerini, konumlarını, CFP'leri (Call For Proposals) ve kayıt bilgilerini bulabilirsiniz.
 
 
@@ -56,7 +56,7 @@ Ayrıca Ruby Central'in [RailsConf][12]'u, RailsConf Avrupa (2006'da Ruby Centra
 
 
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/

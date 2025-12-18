@@ -105,7 +105,7 @@ community:
     - text: "了解更多关于社区的信息"
       url: "/zh_cn/community/"
     - text: "即将举行的国际会议"
-      url: "https://rubyconferences.org"
+      url: "https://www.rubyevents.org"
       external: true
 
 news_security:

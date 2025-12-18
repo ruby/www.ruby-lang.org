@@ -105,7 +105,7 @@ community:
     - text: "Pelajari lebih lanjut tentang komunitas"
       url: "/id/community/"
     - text: "Konferensi internasional mendatang"
-      url: "https://rubyconferences.org"
+      url: "https://www.rubyevents.org"
       external: true
 
 news_security:

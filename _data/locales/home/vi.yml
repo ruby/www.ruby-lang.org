@@ -105,7 +105,7 @@ community:
     - text: "Tìm hiểu thêm về cộng đồng"
       url: "/vi/community/"
     - text: "Các hội nghị quốc tế sắp tới"
-      url: "https://rubyconferences.org"
+      url: "https://www.rubyevents.org"
       external: true
 
 news_security:

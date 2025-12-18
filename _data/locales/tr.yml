@@ -127,8 +127,8 @@ navigation:
     - text: RubyKaigi
       url: https://rubykaigi.org/2025/
       external: true
-    - text: Ruby Conferences
-      url: https://rubyconferences.org/
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
       external: true
 - text: Haberler
   url: /tr/news/

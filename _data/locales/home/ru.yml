@@ -105,7 +105,7 @@ community:
     - text: "Узнайте больше о сообществе"
       url: "/ru/community/"
     - text: "Предстоящие международные конференции"
-      url: "https://rubyconferences.org"
+      url: "https://www.rubyevents.org"
       external: true
 
 news_security:
