@@ -328,10 +328,10 @@ module.exports = {
             },
             '.summary': {
               marginTop: '3rem',        // 48px
-              marginBottom: '4rem',     // 48px
+              marginBottom: '3rem',     // 48px
               fontSize: '1.2rem',       // 20px
               lineHeight: '1.8',
-              paddingBottom: '4rem',    // 64px
+              paddingBottom: '3rem',    // 48px
               borderBottom: '1px solid',
               borderBottomColor: theme('colors.stone.200'),
               '.dark &': {

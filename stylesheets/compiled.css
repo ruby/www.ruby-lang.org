@@ -2032,10 +2032,10 @@ body:is(.dark *){
 
 .prose :where(.summary):not(:where([class~="not-prose"],[class~="not-prose"] *)){
   margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   font-size: 1.2rem;
   line-height: 1.8;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   border-bottom: 1px solid;
   border-bottom-color: #e7e5e4;
 }
