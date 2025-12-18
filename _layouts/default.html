@@ -15,12 +15,46 @@
     {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta itemprop="image" content="https://www.ruby-lang.org/images/header-ruby-logo@2x.png">
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
+
+    {% capture homepage_path %}/{{ page.lang }}/{% endcapture %}
+    {% if page.url == homepage_path %}
+      {% assign meta_description = "A Programmer's Best Friend" %}
+    {% elsif page.description %}
+      {% assign meta_description = page.description %}
+    {% elsif page.excerpt %}
+      {% assign meta_description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
     {% else %}
-    <meta name="description" content="">
+      {% assign meta_description = content | strip_html | strip_newlines | truncate: 160 %}
     {% endif %}
+
+    {% if page.title %}
+      {% assign meta_title = page.title %}
+    {% else %}
+      {% assign meta_title = "Ruby Programming Language" %}
+    {% endif %}
+
+    <meta name="description" content="{{ meta_description }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta property="og:title" content="{{ meta_title }}">
+    <meta property="og:description" content="{{ meta_description }}">
+    <meta property="og:image" content="{{ site.url }}/images/og-image.png">
+    <meta property="og:site_name" content="Ruby Programming Language">
+    <meta property="og:locale" content="{{ page.lang | default: 'en' }}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta name="twitter:title" content="{{ meta_title }}">
+    <meta name="twitter:description" content="{{ meta_description }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/twitter-card-square.png">
+
+    <!-- Schema.org -->
+    <meta itemprop="name" content="{{ meta_title }}">
+    <meta itemprop="description" content="{{ meta_description }}">
+    <meta itemprop="image" content="{{ site.url }}/images/og-image.png">
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/compiled.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,6 +63,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     {% include rss_discovery.html %}
 
     <!-- Apply theme immediately to prevent flash -->
