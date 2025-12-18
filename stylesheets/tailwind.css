@@ -11,6 +11,7 @@
 @import './components/tables.css';
 @import './components/icons.css';
 @import './components/print.css';
+@import './components/syntax-highlighting.css';
 
 /* Tailwind layers */
 @tailwind base;
