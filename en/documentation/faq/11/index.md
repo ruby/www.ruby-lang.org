@@ -58,7 +58,7 @@ the matched data in the original string. See an example in
 
 ### How can I sum the elements in an array?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Rather than solve the specific problem, let's solve the general case.
 The first thing we will do is produce a method that will iterate over
@@ -97,7 +97,7 @@ end
 
 ### How can I use continuations?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby's continuations allow you to create an object representing a place in a
 Ruby program, and then return to that place at any time (even if it has

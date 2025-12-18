@@ -4,7 +4,7 @@ title: "Pobierz Rubiego"
 lang: pl
 ---
 
-{% include warnings/out_of_date.html %}
+{% include warnings/out-of-date.html %}
 
 Tutaj znajdziesz najnowsze dystrybucje języka Ruby. Aktualna stabilna
 wersja to {{ site.data.downloads.stable[0] }}. Pamiętaj aby przeczytać

@@ -21,7 +21,7 @@ Ruby の各ブランチは以下のフェーズに別れてメンテナンスさ
 * **EOL** (end-of-life):
   これらのブランチは Ruby 開発チームによる修正は種類を問わず行われません。
 
-{% include branches_timeline.html %}
+{% include branches-timeline.html %}
 
 {% for branch in site.data.branches %}
 ### Ruby {{ branch.name }}

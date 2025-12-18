@@ -240,7 +240,7 @@ Foo.new.hello     # => "hello"
 
 ### 모듈 함수란 무엇인가요?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 모듈 함수는 모듈에 정의된 비공개 싱글톤 메서드입니다. 사실상
 [클래스 메서드](#class-method)와 유사하며, `Module.method` 표기법을
@@ -357,7 +357,7 @@ end
 
 ### 'include'과 'extend'의 차이점은 무엇인가요?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 `include`는 모듈을 클래스나 다른 모듈에 믹스인합니다. 해당 모듈의 메서드는 함수
 스타일(수신자 없이)로 호출됩니다.

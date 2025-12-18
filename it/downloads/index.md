@@ -4,7 +4,7 @@ title: "Scarica Ruby"
 lang: it
 ---
 
-{% include warnings/out_of_date.html %}
+{% include warnings/out-of-date.html %}
 
 Tramite questa pagina è possibile scaricare le distribuzioni di Ruby più
 recenti nel tuo formato preferito. La versione stabile corrente è la

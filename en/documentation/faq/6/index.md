@@ -40,7 +40,7 @@ header: |
 ### What is the difference between an immediate value and a reference?
 {: #immediate}
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 `Fixnum`, `true`, `nil`, and `false` are implemented as immediate values.
 With immediate values, variables hold the objects themselves, rather than

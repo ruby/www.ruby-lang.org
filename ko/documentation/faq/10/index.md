@@ -40,7 +40,7 @@ header: |
 ### Ruby를 대화형으로 사용하려면 어떻게 해야 하나요?
 {: #irb}
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 `irb`를 사용해 보세요. 다음은 고토 켄타로(Gotoken)의 글을 의역한 것으로,
 원래는 [\[ruby-talk:444\]][ruby-talk:444]에 실린 내용입니다.
@@ -104,7 +104,7 @@ ruby -r debug your_program
 
 ### Ruby에서 Tcl/Tk를 사용할 수 있나요?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 표준 배포판에는 Tcl/Tk에 대한 두 개의 인터페이스가 포함되어 있습니다. 하나는
 `ext/tcltk/` 아래에 있으며 `require "tcltk"`로 로드됩니다. 이 구문은 Tcl
@@ -116,20 +116,20 @@ Perl 및 Python 인터페이스에서 제공하는 Tk 인터페이스 스타일�
 
 ### Tk가 작동하지 않습니다. 왜 그럴까요?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Tk 버전이 오래되었을 수 있으니 최신 버전을 사용해 보세요.
 
 ### Ruby에서 gtk+나 xforms 인터페이스를 사용할 수 있나요?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby ftp 사이트의 `contrib/`에서 `ruby-gtk-x.xx.tar.gz`,
 `ruby-forms-x.x.tar.gz`를 찾을 수 있습니다.
 
 ### 날짜 계산은 어떻게 하나요?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 `Time` 개체는 1970년 1월 1일부터 2038년 1월 19일 사이의 날짜만 표현
 할 수 있습니다.

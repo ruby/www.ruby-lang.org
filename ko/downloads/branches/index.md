@@ -22,7 +22,7 @@ Ruby 브랜치 또는 릴리스 시리즈는 다음 단계로 분류됩니다.
   이 브랜치는 더 이상 ruby-core 팀에서 지원하지 않으며
   어떠한 수정 사항도 받지 않습니다. 더 이상 패치 릴리스가 릴리스되지 않습니다.
 
-{% include branches_timeline.html %}
+{% include branches-timeline.html %}
 
 {% for branch in site.data.branches %}
 ### Ruby {{ branch.name }}

@@ -309,7 +309,7 @@ obj       # => "baz"
 
 ### `thread`와 `fork`의 차이점은 무엇인가요?
 
-{% include warnings/faq_out_of_date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby 스레드는 인터프리터 내에서 구현되는 반면, `fork`는 운영 체제를 호출하여
 별도로 실행되는 서브 프로세스를 생성합니다.
