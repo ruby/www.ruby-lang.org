@@ -35,7 +35,7 @@ principales.
 
 * String
 
-* Actualización a Unicode versión 17.0.0 y Emoji versión 17.0. 
+* Actualización a Unicode versión 17.0.0 y Emoji versión 17.0.
   [[Característica #19908]][[Característica #20724]][[Característica #21275]]
   (también aplica a Regexp)
 
