@@ -31,8 +31,9 @@ why_ruby:
           name: Yukihiro "Matz" Matsumoto
           title: Creator of Ruby
         content: |
-          [PLACEHOLDER] Komentar untuk bagian Ecosystem sedang dalam persiapan.
-          Akan diperbarui ketika komentar sebenarnya tiba.
+          Ketika saya merilis Ruby ke dunia, saya tidak pernah membayangkan ekosistem yang begitu kaya akan tumbuh dari sini.
+          Lebih dari 200.000 gem, Ruby on Rails, RSpec, Bundler—semua ini diciptakan dan dikembangkan oleh komunitas.
+          Keinginan saya untuk "membuat programmer bahagia" telah terwujud dengan cara yang tidak akan pernah bisa saya capai sendiri.
 
     - id: simple
       title: Simple
