@@ -9,9 +9,9 @@ lang: en
 
 {% assign release = site.data.releases | where: "version", "4.0.0-preview3" | first %}
 We are pleased to announce the release of Ruby {{ release.version }}.
-Ruby 4.0 introduces Ruby::BOX and "ZJIT", and adds many improvements.
+Ruby 4.0 introduces Ruby::Box and "ZJIT", and adds many improvements.
 
-## Ruby::BOX
+## Ruby::Box
 
 A new (experimental) feature to provide separation about definitions.
 For the detail of "Ruby Box", see [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
