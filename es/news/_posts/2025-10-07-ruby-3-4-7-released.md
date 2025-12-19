@@ -10,12 +10,12 @@ lang: es
 Ruby 3.4.7 ha sido publicado.
 
 Esta versión incluye [una actualización a la gema uri que resuelve el CVE-2025-61594](https://www.ruby-lang.org/es/news/2025/10/07/uri-cve-2025-61594/),
-junto con otras correcciones a fallas. 
+junto con otras correcciones a fallas.
 Para ver más detalles por favor refiérase a las
 [notas de publicación en Github](https://github.com/ruby/ruby/releases/tag/v3_4_7).
 
-Recomendamos actualizar su versión de la gem uri. Esta versión ha sido 
-publicada por conveniencia de quienes quieren seguir usándola como 
+Recomendamos actualizar su versión de la gem uri. Esta versión ha sido
+publicada por conveniencia de quienes quieren seguir usándola como
 gema predeterminada.
 
 ## Calendario de publicaciones
