@@ -49,5 +49,4 @@ Gracias por su continuo apoyo y contribuciones.
 
 Atentamente,
 
-Yukihiro Matsumoto, también conocido como Matz
-
+Yukihiro Matsumoto, también conocido como Matz.
