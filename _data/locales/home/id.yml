@@ -1,0 +1,114 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
+  or: "atau"
+  learn_more: "Tentang Ruby"
+
+try_ruby:
+  title: "Coba Ruby!"
+  description: "Coba Ruby di browser Anda sekarang"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "Ingin belajar lebih lanjut atau mencoba Ruby?"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Mengapa Ruby?
+  description: Mengapa programmer di seluruh dunia menyukai Ruby? Apa yang membuatnya <strong>menyenangkan</strong>?
+  features:
+    - id: ecosystem
+      title: Ecosystem
+      read: Gem yang kaya mendukung semua jenis pengembangan.<br />Tools matang siap digunakan.
+      copy: |
+        Ruby memiliki koleksi library yang luas yang disebut gem, mendukung segala hal mulai dari pengembangan web hingga pemrosesan data.
+        Dengan framework matang seperti Rails dan toolchain yang komprehensif, Anda dapat menggabungkan resource yang ada dengan baik
+        untuk membangun aplikasi berkualitas tinggi dengan cepat tanpa menemukan kembali roda.
+      comment:
+        author:
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          [PLACEHOLDER] Komentar untuk bagian Ecosystem sedang dalam persiapan.
+          Akan diperbarui ketika komentar sebenarnya tiba.
+
+    - id: simple
+      title: Simple
+      read: Mudah ditulis, mudah dibaca.<br />Sintaks natural seperti bahasa lisan.
+      copy: |
+        Ruby memiliki sintaks yang sederhana dan intuitif yang terbaca seperti bahasa natural.
+        Dengan menghilangkan simbol kompleks dan konstruksi yang bertele-tele, filosofi desain Ruby memungkinkan Anda mengekspresikan langsung apa yang Anda inginkan.
+        Dengan kode boilerplate minimal dan keterbacaan tinggi, ramah untuk pemula dan mudah dipelihara untuk pengembang berpengalaman.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby adalah bahasa pemrograman paling indah yang pernah saya lihat.<br />
+          Saya cukup memperhatikan bahasa pemrograman baru yang muncul,
+          lingkungan baru, framework baru, dan saya belum melihat apa pun yang menyamai atau melampaui Ruby dalam kemurnian desainnya.
+    - id: productivity
+      title: Productivity
+      read: Lakukan lebih banyak dengan lebih sedikit kode.<br />Sintaks intuitif mempercepat pengembangan.
+      copy: |
+        Sintaks ekspresif Ruby memungkinkan Anda menulis logika kompleks secara ringkas.
+        Dengan memanfaatkan fitur-fitur powerful seperti metaprogramming dan blok, Anda dapat mengurangi pengulangan dan fokus pada penyelesaian masalah inti.
+        Dengan framework testing yang komprehensif, Anda dapat menjaga kualitas sambil mencapai siklus pengembangan yang cepat.
+      comment:
+        author:
+          id: pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          Ruby mengubah ide menjadi kode dengan cepat.
+          Kesederhanaannya membuat saya tetap fokus; ekspresivitasnya memungkinkan saya menulis seperti cara saya berpikir.<br />
+          Rasanya seperti bahasa menyingkir, meninggalkan hanya saya dan masalahnya.
+          Dengan tools dan library yang hebat, ide dengan cepat menjadi kode yang elegan dan berjalan.
+
+    - id: community
+      title: Community
+      read: Developer di seluruh dunia saling mendukung.<br />Komunitas yang hangat dan aktif.
+      copy: |
+        Komunitas Ruby menganut budaya "Matz is nice so we are nice (MINASWAN),"
+        menyambut semua orang dari pemula hingga ahli. Konferensi dan meetup di seluruh dunia mendorong berbagi pengetahuan dan koneksi.
+        Ini adalah komunitas yang hangat dan berkelanjutan di mana orang-orang saling membantu dan tumbuh bersama.
+      comment:
+        author:
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of Rails Foundation
+        content: |
+          Komunitas Ruby dipenuhi dengan bakat dan kreativitas, pengembang yang tertarik dengan sintaks elegan Ruby yang memprogram untuk kesenangan.
+          Ini adalah komunitas yang dinamis dan ramah yang bersedia berbagi kecintaan terhadap pemrograman dengan semua orang.
+          Semangat kehangatan dan kolaborasi ini adalah aset terbesar Ruby.
+
+companies:
+  title: "Perusahaan"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Bergabung dengan Komunitas"
+  description_1: "Orang-orang yang terlibat dengan Ruby lebih dari sekadar pengguna disebut Rubyist."
+  description_2: "Rubyist yang mencintai Ruby adalah #rubyfriends yang menyenangkan. Aktivitas komunitas berkembang dan menyenangkan."
+  motto_prefix: "Motto universal adalah"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "Pelajari lebih lanjut tentang komunitas"
+      url: "/community/"
+    - text: "Konferensi internasional mendatang"
+      url: "https://www.rubyevents.org"
+      external: true
+
+news_security:
+  news:
+    title: "Berita"
+    more_link: "Baca berita lainnya"
+  security:
+    title: "Keamanan"
+    more_link: "Baca keamanan lainnya"

@@ -1,0 +1,114 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
+  or: "或"
+  learn_more: "深入了解"
+
+try_ruby:
+  title: "試試 Ruby！"
+  description: "現在就在瀏覽器中嘗試 Ruby"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "想了解更多或試試 Ruby？"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: 為什麼選擇 Ruby？
+  description: 為什麼世界各地的程式設計師都熱愛 Ruby？是什麼讓它如此<strong>有趣</strong>？
+  features:
+    - id: ecosystem
+      title: Ecosystem
+      read: 豐富的 gem 支援各種開發需求。<br />成熟的工具開箱即用。
+      copy: |
+        Ruby 擁有龐大的函式庫集合（稱為 gem），支援從網頁開發到資料處理的一切。
+        藉助 Rails 等成熟框架和完善的工具鏈，你可以結合優秀的現有資源
+        快速建構高品質應用程式，而無需重新發明輪子。
+      comment:
+        author:
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          [佔位符] Ecosystem 部分的評論正在準備中。
+          待實際評論到達後將更新。
+
+    - id: simple
+      title: Simple
+      read: 易寫易讀。<br />像說話一樣自然的語法。
+      copy: |
+        Ruby 擁有簡潔直觀的語法，讀起來就像自然語言。
+        透過消除複雜的符號和冗長的結構，Ruby 的設計理念讓你能夠直接表達你的想法。
+        最少的樣板程式碼和高可讀性，使其對初學者友善，對有經驗的開發者易於維護。
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby 是我見過最美的程式語言。<br />
+          我對新出現的程式語言、新環境、新框架都相當關注，
+          但在設計的純粹性上，我還沒有看到任何能與 Ruby 匹敵或超越它的語言。
+    - id: productivity
+      title: Productivity
+      read: 用更少的程式碼做更多的事。<br />直觀的語法加速開發。
+      copy: |
+        Ruby 富有表現力的語法讓你能夠簡潔地編寫複雜的邏輯。
+        利用元程式設計和程式碼區塊等強大特性，你可以減少重複，專注於解決核心問題。
+        藉助全面的測試框架，你可以在實現快速開發週期的同時保持品質。
+      comment:
+        author:
+          id: pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          Ruby 能快速將想法轉化為程式碼。
+          它的簡潔讓我保持專注，它的表現力讓我能按照自己的思維方式編寫程式碼。<br />
+          感覺語言不會成為障礙，只剩下我和問題本身。
+          藉助優秀的工具和函式庫，想法很快就能變成運行優雅的程式碼。
+
+    - id: community
+      title: Community
+      read: 世界各地的開發者相互支援。<br />溫暖而活躍的社群。
+      copy: |
+        Ruby 社群秉承「Matz is nice so we are nice (MINASWAN)」的文化，
+        歡迎從初學者到專家的所有人。世界各地的會議和聚會促進知識分享和聯繫。
+        這是一個溫暖、可持續的社群，人們互相幫助，共同成長。
+      comment:
+        author:
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of Rails Foundation
+        content: |
+          Ruby社群充滿了才華和創造力，開發者們被Ruby優雅的語法所吸引，為程式設計的樂趣而編程。
+          這是一個充滿活力、熱情好客的社群，願意與每個人分享對程式設計的熱愛。
+          這種溫暖和協作的精神無疑是Ruby最大的資產。
+
+companies:
+  title: "企業們"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "加入社群"
+  description_1: "超越使用者身分參與 Ruby 的人被稱為 Rubyist。"
+  description_2: "熱愛 Ruby 的 Rubyist 都是很棒的 #rubyfriends。社群活動蓬勃發展且充滿樂趣。"
+  motto_prefix: "通用座右銘是"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "了解更多關於社群的資訊"
+      url: "/community/"
+    - text: "即將舉行的國際會議"
+      url: "https://www.rubyevents.org"
+      external: true
+
+news_security:
+  news:
+    title: "新聞"
+    more_link: "閱讀更多新聞"
+  security:
+    title: "安全"
+    more_link: "閱讀更多安全資訊"

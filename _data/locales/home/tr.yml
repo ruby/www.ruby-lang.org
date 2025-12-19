@@ -1,0 +1,114 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
+  or: "veya"
+  learn_more: "Devamını Oku"
+
+try_ruby:
+  title: "Ruby'yi Dene!"
+  description: "Ruby'yi şimdi tarayıcınızda deneyin"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "Daha fazla bilgi edinmek veya Ruby'yi denemek ister misiniz?"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Neden Ruby?
+  description: Dünyanın dört bir yanındaki programcılar neden Ruby'yi seviyor? Onu <strong>eğlenceli</strong> yapan nedir?
+  features:
+    - id: ecosystem
+      title: Ecosystem
+      read: Zengin gemler her tür geliştirmeyi destekler.<br />Olgun araçlar kullanıma hazır.
+      copy: |
+        Ruby, web geliştirmeden veri işlemeye kadar her şeyi destekleyen gem adı verilen geniş bir kütüphane koleksiyonuna sahiptir.
+        Rails gibi olgun çerçeveler ve kapsamlı araç zincirleriyle, mükemmel mevcut kaynakları birleştirerek
+        tekerleği yeniden icat etmeden hızla yüksek kaliteli uygulamalar oluşturabilirsiniz.
+      comment:
+        author:
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          [YER TUTUCU] Ecosystem bölümü yorumu hazırlanıyor.
+          Gerçek yorum geldiğinde güncellenecektir.
+
+    - id: simple
+      title: Simple
+      read: Yazmak kolay, okumak kolay.<br />Konuşma dili gibi doğal sözdizimi.
+      copy: |
+        Ruby, doğal dil gibi okunan basit ve sezgisel bir sözdizimine sahiptir.
+        Karmaşık sembolleri ve ayrıntılı yapıları ortadan kaldırarak, Ruby'nin tasarım felsefesi istediğinizi doğrudan ifade etmenizi sağlar.
+        Minimum tekrarlayan kod ve yüksek okunabilirlik ile yeni başlayanlar için dostça ve deneyimli geliştiriciler için sürdürülebilir.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby, şimdiye kadar gördüğüm en güzel programlama dilidir.<br />
+          Ortaya çıkan yeni programlama dillerine, yeni ortamlara, yeni framework'lere oldukça dikkat ediyorum
+          ve tasarımının saflığında Ruby'ye eşit veya onu aşan hiçbir şey görmedim.
+    - id: productivity
+      title: Productivity
+      read: Daha az kodla daha fazlasını yapın.<br />Sezgisel sözdizimi geliştirmeyi hızlandırır.
+      copy: |
+        Ruby'nin etkileyici sözdizimi karmaşık mantığı özlü bir şekilde yazmanıza olanak tanır.
+        Metaprogramlama ve bloklar gibi güçlü özellikleri kullanarak tekrarı azaltabilir ve temel sorunları çözmeye odaklanabilirsiniz.
+        Kapsamlı test çerçeveleriyle hızlı geliştirme döngülerine ulaşırken kaliteyi koruyabilirsiniz.
+      comment:
+        author:
+          id: pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          Ruby fikirleri hızla koda dönüştürür.
+          Sadeliği beni odaklı tutar; ifade gücü düşündüğüm şekilde yazmamı sağlar.<br />
+          Dil sanki yoldan çekiliyor, sadece ben ve problem kalıyor.
+          Harika araçlar ve kütüphanelerle fikirler hızla çalışan, zarif koda dönüşür.
+
+    - id: community
+      title: Community
+      read: Dünyanın dört bir yanındaki geliştiriciler birbirlerini destekler.<br />Sıcak, aktif bir topluluk.
+      copy: |
+        Ruby topluluğu "Matz is nice so we are nice (MINASWAN)" kültürünü benimser,
+        yeni başlayanlardan uzmanlara kadar herkesi memnuniyetle karşılar. Dünyanın dört bir yanındaki konferanslar ve buluşmalar bilgi paylaşımını ve bağlantıları teşvik eder.
+        İnsanların birbirlerine yardım ettiği ve birlikte büyüdüğü sıcak, sürdürülebilir bir topluluktur.
+      comment:
+        author:
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of Rails Foundation
+        content: |
+          Ruby topluluğu yetenek ve yaratıcılıkla dolu – Ruby'nin zarif sözdizimine çekilen ve programlamanın zevki için kod yazan geliştiriciler.
+          Programlamaya olan bu sevgiyi herkesle paylaşmaya istekli, canlı ve misafirperver bir topluluk.
+          Bu sıcaklık ve işbirliği ruhu, Ruby'nin tartışmasız en büyük varlığıdır.
+
+companies:
+  title: "Şirketler"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Topluluğa Katılın"
+  description_1: "Ruby ile sadece kullanıcı olmaktan öteye geçen kişilere Rubyist denir."
+  description_2: "Ruby'yi seven Rubyistler hepsi güzel #rubyfriends. Topluluk aktiviteleri gelişiyor ve eğlenceli."
+  motto_prefix: "Evrensel sloganımız"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "Topluluk hakkında daha fazla bilgi edinin"
+      url: "/community/"
+    - text: "Yaklaşan uluslararası konferanslar"
+      url: "https://www.rubyevents.org"
+      external: true
+
+news_security:
+  news:
+    title: "Haberler"
+    more_link: "Daha fazla haber oku"
+  security:
+    title: "Güvenlik"
+    more_link: "Daha fazla güvenlik oku"
