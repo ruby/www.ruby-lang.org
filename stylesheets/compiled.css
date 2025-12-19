@@ -3019,8 +3019,8 @@ body:is(.dark *){
   top: 65%;
 }
 
-.top-\[67\%\]{
-  top: 67%;
+.top-\[68\%\]{
+  top: 68%;
 }
 
 .top-\[70\.5\%\]{
@@ -4752,16 +4752,6 @@ body:is(.dark *){
   left: -20rem;
 }
 
-.before\:-right-\[0\.7rem\]::before{
-  content: var(--tw-content);
-  right: -0.7rem;
-}
-
-.before\:-top-\[1\.3rem\]::before{
-  content: var(--tw-content);
-  top: -1.3rem;
-}
-
 .before\:top-\[18\.75rem\]::before{
   content: var(--tw-content);
   top: 18.75rem;
@@ -4782,16 +4772,6 @@ body:is(.dark *){
   height: 1328px;
 }
 
-.before\:h-\[2\.3rem\]::before{
-  content: var(--tw-content);
-  height: 2.3rem;
-}
-
-.before\:w-\[2\.3rem\]::before{
-  content: var(--tw-content);
-  width: 2.3rem;
-}
-
 .before\:w-\[840px\]::before{
   content: var(--tw-content);
   width: 840px;
@@ -4800,11 +4780,6 @@ body:is(.dark *){
 .before\:bg-\[url\(\'\/images\/home\/hero\/bg\.svg\'\)\]::before{
   content: var(--tw-content);
   background-image: url('/images/home/hero/bg.svg');
-}
-
-.before\:bg-\[url\(\'\/images\/home\/hero\/version-arrow\.svg\'\)\]::before{
-  content: var(--tw-content);
-  background-image: url('/images/home/hero/version-arrow.svg');
 }
 
 .before\:bg-contain::before{
@@ -5535,26 +5510,6 @@ body:is(.dark *){
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:before\:-right-\[0\.9rem\]::before{
-    content: var(--tw-content);
-    right: -0.9rem;
-  }
-
-  .md\:before\:-top-\[1\.6rem\]::before{
-    content: var(--tw-content);
-    top: -1.6rem;
-  }
-
-  .md\:before\:h-\[2\.9rem\]::before{
-    content: var(--tw-content);
-    height: 2.9rem;
-  }
-
-  .md\:before\:w-\[2\.9rem\]::before{
-    content: var(--tw-content);
-    width: 2.9rem;
   }
 
   .md\:dark\:bg-transparent:is(.dark *){
