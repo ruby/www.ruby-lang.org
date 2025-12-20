@@ -73,7 +73,7 @@ why_ruby:
       title: Community
       read: 世界各地的开发者相互支持。<br />温暖而活跃的社区。
       copy: |
-        Ruby 社区秉承"Matz is nice so we are nice (MINASWAN)"的文化，
+        Ruby 社区秉承"Matz is nice and so we are nice (MINASWAN)"的文化，
         欢迎从初学者到专家的所有人。世界各地的会议和聚会促进知识分享和联系。
         这是一个温暖、可持续的社区，人们互相帮助，共同成长。
       comment:
@@ -98,7 +98,7 @@ community:
   motto_prefix: "通用座右铭是"
   motto_minaswan: "MINASWAN"
   motto_separator: "—"
-  motto_translation: "Matz is nice so we are nice"
+  motto_translation: "Matz is nice and so we are nice"
   links:
     - text: "了解更多关于社区的信息"
       url: "/community/"

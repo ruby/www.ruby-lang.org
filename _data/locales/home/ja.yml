@@ -71,7 +71,7 @@ why_ruby:
       title: Community
       read: 世界中の開発者が支え合う。<br />温かく、活発なコミュニティ。
       copy: |
-        Rubyコミュニティは「Matz is nice so we are nice（Matzが優しいから私たちも優しい）」という文化を持ち、
+        Rubyコミュニティは「Matz is nice and so we are nice（Matzが優しいから私たちも優しい）」という文化を持ち、
         初心者から熟練者まで歓迎する雰囲気があります。世界各地でカンファレンスやミートアップが開催され、知識の共有や交流が盛んです。
         困ったときには助け合い、共に成長していく、温かく持続可能なコミュニティです。
       comment:
@@ -96,7 +96,7 @@ community:
   motto_prefix: "世界共通の合言葉は"
   motto_minaswan: "MINASWAN"
   motto_separator: "──"
-  motto_translation: "Matz is nice so we are nice"
+  motto_translation: "Matz is nice and so we are nice"
   links:
     - text: "コミュニティについて詳しく"
       url: "/community/"

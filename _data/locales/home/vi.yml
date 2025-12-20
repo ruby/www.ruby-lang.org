@@ -73,7 +73,7 @@ why_ruby:
       title: Community
       read: Các nhà phát triển trên khắp thế giới hỗ trợ lẫn nhau.<br />Cộng đồng ấm áp, năng động.
       copy: |
-        Cộng đồng Ruby chấp nhận văn hóa "Matz is nice so we are nice (MINASWAN)",
+        Cộng đồng Ruby chấp nhận văn hóa "Matz is nice and so we are nice (MINASWAN)",
         chào đón tất cả mọi người từ người mới bắt đầu đến chuyên gia. Các hội nghị và buổi gặp mặt trên khắp thế giới khuyến khích chia sẻ kiến thức và kết nối.
         Đây là một cộng đồng ấm áp, bền vững, nơi mọi người giúp đỡ lẫn nhau và cùng phát triển.
       comment:
@@ -98,7 +98,7 @@ community:
   motto_prefix: "Khẩu hiệu chung là"
   motto_minaswan: "MINASWAN"
   motto_separator: "—"
-  motto_translation: "Matz is nice so we are nice"
+  motto_translation: "Matz is nice and so we are nice"
   links:
     - text: "Tìm hiểu thêm về cộng đồng"
       url: "/community/"

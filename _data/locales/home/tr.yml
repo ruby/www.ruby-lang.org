@@ -73,7 +73,7 @@ why_ruby:
       title: Community
       read: Dünyanın dört bir yanındaki geliştiriciler birbirlerini destekler.<br />Sıcak, aktif bir topluluk.
       copy: |
-        Ruby topluluğu "Matz is nice so we are nice (MINASWAN)" kültürünü benimser,
+        Ruby topluluğu "Matz is nice and so we are nice (MINASWAN)" kültürünü benimser,
         yeni başlayanlardan uzmanlara kadar herkesi memnuniyetle karşılar. Dünyanın dört bir yanındaki konferanslar ve buluşmalar bilgi paylaşımını ve bağlantıları teşvik eder.
         İnsanların birbirlerine yardım ettiği ve birlikte büyüdüğü sıcak, sürdürülebilir bir topluluktur.
       comment:
@@ -98,7 +98,7 @@ community:
   motto_prefix: "Evrensel sloganımız"
   motto_minaswan: "MINASWAN"
   motto_separator: "—"
-  motto_translation: "Matz is nice so we are nice"
+  motto_translation: "Matz is nice and so we are nice"
   links:
     - text: "Topluluk hakkında daha fazla bilgi edinin"
       url: "/community/"
