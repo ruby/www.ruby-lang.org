@@ -8,7 +8,7 @@ expresion = "Yo amo Ruby"
 puts expresion
 
 # Salida "YO *AMO* RUBY"
-expresion['amo'] = "*amo*"
+expresion = expresion.sub("amo", "*amo*")
 puts expresion.upcase
 
 # Salida "Yo *amo* Ruby"
