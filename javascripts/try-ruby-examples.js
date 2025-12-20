@@ -23,7 +23,7 @@ var TryRubyExamples = {
 
   generateTryRubyUrl: function(code) {
     var encodedCode = encodeURIComponent(code);
-    return 'https://try.ruby-lang.org/playground/#code=' + encodedCode + '&engine=cruby-3.3.0';
+    return 'https://try.ruby-lang.org/playground/#code=' + encodedCode + '&engine=cruby-3.4.1';
   },
 
   onExampleLoaded: function() {
