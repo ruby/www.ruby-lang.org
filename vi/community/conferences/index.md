@@ -8,7 +8,7 @@ Các lập trình viên Ruby trên khắp thế giới đang nhận được l�
 hội thảo, nơi mà họ có thể chia sẻ các báo cáo về tiến độ công việc, thảo luận
 về tương lai của Ruby và chào đón những thành viên mới đến với cộng đồng Ruby.
 
-[RubyConferences.org][rc] là một danh sách đơn giản các hội nghị chuyên về
+[RubyEvents.org][rc] là một danh sách đơn giản các hội nghị chuyên về
 Ruby, được công bố một cách hợp tác với cộng đồng Ruby. Ở đó, bạn sẽ tìm thấy
 thời gian, địa điểm, kêu gọi đề xuất và thông tin đăng kí của sự kiện.
 
@@ -82,7 +82,7 @@ và Canada on Rails.
 
 
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/

@@ -1,0 +1,115 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
+  or: "hoặc"
+  learn_more: "Tìm hiểu thêm"
+
+try_ruby:
+  title: "Thử Ruby!"
+  description: "Thử Ruby ngay trong trình duyệt của bạn"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "Bạn muốn tìm hiểu thêm hoặc thử Ruby?"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Tại sao Ruby?
+  description: Tại sao các lập trình viên trên khắp thế giới yêu thích Ruby? Điều gì khiến nó <strong>thú vị</strong>?
+  features:
+    - id: ecosystem
+      title: Ecosystem
+      read: Các gem phong phú hỗ trợ mọi loại phát triển.<br />Công cụ trưởng thành sẵn sàng sử dụng.
+      copy: |
+        Ruby có một bộ sưu tập thư viện rộng lớn được gọi là gem, hỗ trợ mọi thứ từ phát triển web đến xử lý dữ liệu.
+        Với các framework trưởng thành như Rails và toolchain toàn diện, bạn có thể kết hợp các tài nguyên tuyệt vời hiện có
+        để nhanh chóng xây dựng các ứng dụng chất lượng cao mà không cần phát minh lại bánh xe.
+      comment:
+        author:
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          Khi tôi phát hành Ruby ra thế giới, tôi chưa bao giờ tưởng tượng một hệ sinh thái phong phú như vậy sẽ phát triển từ đó.
+          Hơn 200.000 gem, Ruby on Rails, RSpec, Bundler—tất cả những điều này được tạo ra và nuôi dưỡng bởi cộng đồng.
+          Mong muốn "làm cho lập trình viên hạnh phúc" của tôi đã được thực hiện theo những cách mà tôi không bao giờ có thể đạt được một mình.
+
+    - id: simple
+      title: Simple
+      read: Dễ viết, dễ đọc.<br />Cú pháp tự nhiên như lời nói.
+      copy: |
+        Ruby có cú pháp đơn giản và trực quan, đọc như ngôn ngữ tự nhiên.
+        Loại bỏ các ký hiệu phức tạp và cấu trúc dài dòng, triết lý thiết kế của Ruby cho phép bạn diễn đạt trực tiếp những gì bạn muốn.
+        Với mã boilerplate tối thiểu và khả năng đọc cao, nó thân thiện với người mới bắt đầu và dễ bảo trì cho các nhà phát triển có kinh nghiệm.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby đơn giản là ngôn ngữ lập trình đẹp nhất mà tôi từng thấy.<br />
+          Tôi khá chú ý đến các ngôn ngữ lập trình mới xuất hiện,
+          môi trường mới, framework mới, và tôi vẫn chưa thấy bất cứ thứ gì sánh được hoặc vượt qua Ruby về sự thuần khiết trong thiết kế.
+    - id: productivity
+      title: Productivity
+      read: Làm nhiều hơn với ít mã hơn.<br />Cú pháp trực quan tăng tốc phát triển.
+      copy: |
+        Cú pháp biểu cảm của Ruby cho phép bạn viết logic phức tạp một cách ngắn gọn.
+        Sử dụng các tính năng mạnh mẽ như metaprogramming và blocks, bạn có thể giảm sự lặp lại và tập trung vào giải quyết các vấn đề cốt lõi.
+        Với các framework kiểm thử toàn diện, bạn có thể duy trì chất lượng trong khi đạt được các chu kỳ phát triển nhanh.
+      comment:
+        author:
+          id: pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          Ruby biến ý tưởng thành mã nhanh chóng.
+          Sự đơn giản giúp tôi tập trung; sự biểu cảm cho phép tôi viết theo cách tôi nghĩ.<br />
+          Cảm giác như ngôn ngữ tự rút lui, chỉ còn lại tôi và vấn đề.
+          Với các công cụ và thư viện tuyệt vời, ý tưởng nhanh chóng trở thành mã thanh lịch và hoạt động.
+
+    - id: community
+      title: Community
+      read: Các nhà phát triển trên khắp thế giới hỗ trợ lẫn nhau.<br />Cộng đồng ấm áp, năng động.
+      copy: |
+        Cộng đồng Ruby chấp nhận văn hóa "Matz is nice so we are nice (MINASWAN)",
+        chào đón tất cả mọi người từ người mới bắt đầu đến chuyên gia. Các hội nghị và buổi gặp mặt trên khắp thế giới khuyến khích chia sẻ kiến thức và kết nối.
+        Đây là một cộng đồng ấm áp, bền vững, nơi mọi người giúp đỡ lẫn nhau và cùng phát triển.
+      comment:
+        author:
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of Rails Foundation
+        content: |
+          Cộng đồng Ruby tràn đầy tài năng và sự sáng tạo, các nhà phát triển bị thu hút bởi cú pháp thanh lịch của Ruby và lập trình vì niềm vui.
+          Đây là một cộng đồng sôi động, thân thiện, sẵn sàng chia sẻ tình yêu lập trình với mọi người.
+          Tinh thần ấm áp và hợp tác này chắc chắn là tài sản lớn nhất của Ruby.
+
+companies:
+  title: "Các công ty"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Tham gia cộng đồng"
+  description_1: "Những người tham gia Ruby vượt ra ngoài việc chỉ là người dùng được gọi là Rubyists."
+  description_2: "Rubyists yêu thích Ruby đều là những #rubyfriends tuyệt vời. Các hoạt động cộng đồng phát triển mạnh mẽ và thú vị."
+  motto_prefix: "Khẩu hiệu chung là"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "Tìm hiểu thêm về cộng đồng"
+      url: "/community/"
+    - text: "Các hội nghị quốc tế sắp tới"
+      url: "https://www.rubyevents.org"
+      external: true
+
+news_security:
+  news:
+    title: "Tin tức"
+    more_link: "Đọc thêm tin tức"
+  security:
+    title: "Bảo mật"
+    more_link: "Đọc thêm về bảo mật"

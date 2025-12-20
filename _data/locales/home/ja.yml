@@ -1,0 +1,113 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
+  or: "or"
+  learn_more: "Learn More"
+
+try_ruby:
+  title: "Try Ruby!"
+  description: "今すぐ Ruby を試しましょう"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "もっと Ruby を知りたい・試したい方はこちら"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Why Ruby?
+  description: 世界中のプログラマに愛されている Ruby は、なぜ「<strong>たのしい</strong>」のか？
+  features:
+    - id: ecosystem
+      title: Ecosystem
+      read: 豊富なgemが、あらゆる開発を支える。<br />成熟したツール群が即座に使える環境。
+      copy: |
+        Rubyには膨大な数のgemと呼ばれるライブラリが存在し、Web開発からデータ処理まで幅広いニーズに対応します。
+        Railsをはじめとするフレームワークやツールチェーンも充実しており、既存の優れた資産を組み合わせることで、
+        車輪の再発明をせずに高品質なアプリケーションを素早く構築できます。
+      comment:
+        author:
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          Rubyを世に送り出してから、ここまで豊かなエコシステムが育つとは想像していませんでした。
+          20万を超えるgem、Ruby on Rails、RSpec、Bundler——これらを生み出し、育ててくれたのはコミュニティの皆さんです。
+          「プログラマを幸せにする」という願いは、私一人では決して到達できなかった形で実現されています。
+    - id: simple
+      title: Simple
+      read: 書きやすく、読みやすい。<br />自然言語のようなシンプルな文法。
+      copy: |
+        Rubyはシンプルで直感的な文法を持っており、コードが自然な文章のように読めます。
+        複雑な記号や冗長な記述を排除し、書きたいことをそのまま表現できる設計思想が貫かれています。
+        無駄な記述が少なく、可読性が高いため、初心者にも優しく、経験豊富な開発者にとってもメンテナンスしやすい言語です。
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Rubyは私がこれまで見た中で最も美しいプログラミング言語だ。<br />
+          新しい言語、新しい環境、新しいフレームワークにはかなり注意を払っているが、その設計の純粋さにおいてRubyに並ぶもの、ましてや超えるものはまだ見たことがない。
+    - id: productivity
+      title: Productivity
+      read: 少ないコードで、多くを実現する。<br />直感的な記述が開発を加速させる。
+      copy: |
+        Rubyは表現力豊かな文法により、複雑なロジックも簡潔に記述できます。
+        メタプログラミングやブロック構文などの強力な機能を活用することで、繰り返しを削減し、本質的な問題解決に集中できます。
+        テストフレームワークも充実しており、品質を保ちながら高速な開発サイクルを実現します。
+      comment:
+        author:
+          id: pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          Rubyはアイデアを素早くコードに変える。
+          そのシンプルさが集中力を保ち、その表現力が思考のままに書くことを可能にする。<br />
+          まるで言語が姿を消して、私と問題だけが残るような感覚。
+          優れたツールとライブラリのおかげで、アイデアはすぐに動く、エレガントなコードになる。
+
+    - id: community
+      title: Community
+      read: 世界中の開発者が支え合う。<br />温かく、活発なコミュニティ。
+      copy: |
+        Rubyコミュニティは「Matz is nice so we are nice（Matzが優しいから私たちも優しい）」という文化を持ち、
+        初心者から熟練者まで歓迎する雰囲気があります。世界各地でカンファレンスやミートアップが開催され、知識の共有や交流が盛んです。
+        困ったときには助け合い、共に成長していく、温かく持続可能なコミュニティです。
+      comment:
+        author:
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of Rails Foundation
+        content: |
+          Rubyのコミュニティは、才能と創造性に満ちています。Rubyのエレガントな構文に惹かれ、プログラミングの喜びのためにコードを書く開発者たち。
+          それは活気に満ちた、歓迎的なコミュニティであり、プログラミングへの愛を誰とでも分かち合おうとしています。
+          この温かさと協力の精神こそが、Rubyの最大の資産です。
+
+companies:
+  title: "Companies"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Join the Community"
+  description_1: "Ruby に「お客さん」以上の気持ちで接する人達は Rubyist と呼ばれます。"
+  description_2: "Ruby を愛する Rubyist はみんなナイスな #rubyfriends。楽しいコミュニティ活動が盛んに開催されています。"
+  motto_prefix: "世界共通の合言葉は"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "──"
+  motto_translation: "Matz is nice so we are nice"
+  links:
+    - text: "コミュニティについて詳しく"
+      url: "/community/"
+    - text: "開催予定の国際カンファレンス"
+      url: "https://www.rubyevents.org"
+      external: true
+
+news_security:
+  news:
+    title: "News"
+    more_link: "ニュースをもっと読む"
+  security:
+    title: "Security"
+    more_link: "セキュリティをもっと読む"
