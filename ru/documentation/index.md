@@ -124,6 +124,7 @@ ruby -v
 * На macOS:
   * [TextMate][32]
   * [BBEdit][33]
+  * [Dash][40] (браузер документации)
 
 ### Дальнейшее чтение
 
@@ -167,3 +168,4 @@ ruby -v
 [38]: https://learncodethehardway.org/ruby/
 [vscode]: https://code.visualstudio.com/
 [39]: https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp
+[40]: https://kapeli.com/dash

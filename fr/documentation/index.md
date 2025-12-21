@@ -111,6 +111,9 @@ pour les nombreuses façons d'obtenir Ruby.
 : Documentation sur les API Ruby et Ruby On Rails, proposant un système
   de recherche poussé.
 
+[Dash][23]
+: Navigateur de documentation hors ligne (macOS)
+
 ### Lectures additionnelles
 
 [Ruby-Doc.org][22] maintient à jour une liste presque exhaustive de la
@@ -140,4 +143,5 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [20]: http://rubydoc.info/
 [21]: http://rubydocs.org/
 [22]: http://ruby-doc.org
+[23]: https://kapeli.com/dash
 [24]: http://rubyfrance.org/liens/livres/
