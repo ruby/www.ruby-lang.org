@@ -23,4 +23,12 @@
     @apply bg-white text-stone-900 text-base leading-5 font-default;
     @apply dark:bg-stone-900 dark:text-stone-50;
   }
+
+  /* Ensure syntax highlighting colors are not overridden by body color */
+  .highlight code {
+    color: inherit;
+  }
+  .highlight pre {
+    color: var(--color-text-default);
+  }
 }
