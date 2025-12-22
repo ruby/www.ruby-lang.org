@@ -1,0 +1,83 @@
+{% if site.data.locales[page.lang].footer %}
+  {% assign footer = site.data.locales[page.lang].footer %}
+{% else %}
+  {% assign footer = site.data.locales['en'].footer %}
+{% endif %}
+
+{% if site.data.locales[page.lang].credits %}
+  {% assign credits = site.data.locales[page.lang].credits %}
+{% else %}
+  {% assign credits = site.data.locales['en'].credits %}
+{% endif %}
+
+<!-- Footer Section -->
+<footer class="bg-gold-150 dark:bg-stone-770 mt-12 md:mt-16 pt-2 pb-8 md:pb-12 relative">
+  <!-- Wave Border at top -->
+  <div class="absolute -top-[23px] md:-top-[31px] left-0 right-0 h-6 md:h-8 text-gold-150 dark:text-stone-770">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-full h-full">
+      <path d="M0,10 C20,0 40,20 60,10 C80,0 100,20 120,10 C140,0 160,20 180,10 C200,0 220,20 240,10 C260,0 280,20 300,10 C320,0 340,20 360,10 C380,0 400,20 400,10 L400,20 L0,20 Z" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <!-- Illustration Pattern Band -->
+  <div class="w-full h-10 mb-12 bg-repeat-x bg-center bg-[url('/images/footer/illust-pattern.svg')] bg-[length:auto_40px]" aria-hidden="true"></div>
+
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+
+    <!-- Happy Hacking! and Footer Links -->
+    <div class="flex flex-col xl:flex-row xl:items-start xl:justify-between gap-6 xl:gap-8 mb-10">
+      <!-- Happy Hacking! -->
+      <div class="mb-3 xl:mb-0">
+        <h2 class="text-3xl font-handwritten text-stone-900 dark:text-white">
+          Happy Hacking!
+        </h2>
+        <!-- Decorative underline -->
+        <img src="/images/home/why_ruby/line.svg" alt="" class="w-72 h-auto mt-1" aria-hidden="true">
+      </div>
+
+      <!-- Footer Links -->
+      <nav class="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold leading-none xl:pt-2">
+        {% if footer.links.security %}
+        <a href="{{ footer.links.security.url }}"
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+          {{ footer.links.security.text }}
+        </a>
+        {% endif %}
+
+        {% if footer.links.about_website %}
+        <a href="{{ footer.links.about_website.url }}"
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+          {{ footer.links.about_website.text }}
+        </a>
+        {% endif %}
+
+        {% if footer.links.logo_page %}
+        <a href="{{ footer.links.logo_page.url }}"
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+          {{ footer.links.logo_page.text }}
+        </a>
+        {% endif %}
+
+        {% if footer.links.news_rss %}
+        <a href="{{ footer.links.news_rss.url }}"
+           class="mb-2 sm:mb-0 border-r border-stone-300 dark:border-stone-700 pr-3 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+          {{ footer.links.news_rss.text }}
+        </a>
+        {% endif %}
+
+        {% if footer.links.ruby_license %}
+        <a href="{{ footer.links.ruby_license.url }}"
+           class="mb-2 sm:mb-0 text-stone-900 hover:text-ruby-600 dark:text-stone-300 dark:hover:text-ruby-400 transition-colors">
+          {{ footer.links.ruby_license.text }}
+        </a>
+        {% endif %}
+      </nav>
+    </div>
+
+    <!-- Credits -->
+    <div class="credits text-sm text-stone-900 dark:text-stone-300">
+      {{ credits }}
+    </div>
+
+  </div>
+</footer>

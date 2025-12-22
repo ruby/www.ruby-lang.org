@@ -1,0 +1,114 @@
+hero:
+  since: "Since"
+  year: "1995"
+  title: "Ruby"
+  latest_version_label: "Latest Version:"
+  download_button: "Download"
+  or: "or"
+  learn_more: "Learn More"
+
+try_ruby:
+  title: "Try Ruby!"
+  description: "Try Ruby in your browser right now"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "Want to learn more or try Ruby?"
+  bottom_link_url: "https://try.ruby-lang.org/"
+
+why_ruby:
+  title: Why Ruby?
+  description: Why do programmers around the world love Ruby? What makes it <strong>fun</strong>?
+  features:
+    - id: ecosystem
+      title: Ecosystem
+      read: Rich gems support all kinds of development.<br />Mature tooling ready to use.
+      copy: |
+        Ruby has a vast collection of libraries called gems, supporting everything from web development to data processing.
+        With mature frameworks like Rails and comprehensive toolchains, you can combine excellent existing resources
+        to build high-quality applications quickly without reinventing the wheel.
+      comment:
+        author:
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: Creator of Ruby
+        content: |
+          When I released Ruby to the world, I never imagined such a rich ecosystem would grow from it.
+          Over 200,000 gems, Ruby on Rails, RSpec, Bundler—it was the community that created and nurtured all of these.
+          My wish to "make programmers happy" has been realized in ways I could never have achieved alone.
+    - id: simple
+      title: Simple
+      read: Easy to write, easy to read.<br />Natural syntax like spoken language.
+      copy: |
+        Ruby has a simple and intuitive syntax that reads like natural language.
+        By eliminating complex symbols and verbose constructs, Ruby's design philosophy allows you to express what you want directly.
+        With minimal boilerplate and high readability, it's friendly to beginners and maintainable for experienced developers.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: Creator of Ruby on Rails
+        content: |
+          Ruby is just the most beautiful programming language I have ever seen.<br />
+          And I pay a fair amount of attention to new programming languages that are coming up,
+          new environments, new frameworks, and I've still yet to see anything that meets or beats Ruby in its pureness of its design.
+    - id: productivity
+      title: Productivity
+      read: Do more with less code.<br />Intuitive syntax accelerates development.
+      copy: |
+        Ruby's expressive syntax allows you to write complex logic concisely.
+        By leveraging powerful features like metaprogramming and blocks, you can reduce repetition and focus on solving core problems.
+        With rich testing frameworks, you can maintain quality while achieving rapid development cycles.
+      comment:
+        author:
+          id: pragdave
+          name: Dave Thomas
+          title: Author of "The Pragmatic Programmer"
+        content: |
+          Ruby turns ideas into code fast.
+          Its simplicity keeps me focused; its expressiveness lets me write the way I think.<br />
+          It feels like the language gets out of the way, leaving just me and the problem.
+          With great tools and libraries, ideas quickly become running, elegant, code.
+
+    - id: community
+      title: Community
+      read: Developers worldwide support each other.<br />A warm, active community.
+      copy: |
+        The Ruby community embraces the culture of "Matz is nice and so we are nice (MINASWAN),"
+        welcoming everyone from beginners to experts. Conferences and meetups around the world foster knowledge sharing and connections.
+        It's a warm, sustainable community where people help each other and grow together.
+      comment:
+        author:
+          id: amanda
+          name: Amanda Perino
+          title: Executive Director of Rails Foundation
+        content: |
+          The Ruby community is filled with talent and creativity, developers attracted to Ruby's elegant syntax who program for the joy of it.
+          It's a vibrant, welcoming community willing to share this love of programming with everyone.
+          This spirit of warmth and collaboration is hands down Ruby's greatest asset.
+
+companies:
+  title: "Companies"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "Join the Community"
+  description_1: "People who engage with Ruby beyond being just users are called Rubyists."
+  description_2: "Rubyists who love Ruby are all nice #rubyfriends. Community activities are thriving and fun."
+  motto_prefix: "The universal motto is"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz is nice and so we are nice"
+  links:
+    - text: "Learn more about the community"
+      url: "/community/"
+    - text: "Upcoming international conferences"
+      url: "https://www.rubyevents.org"
+      external: true
+
+news_security:
+  news:
+    title: "News"
+    more_link: "Read more news"
+  security:
+    title: "Security"
+    more_link: "Read more security"

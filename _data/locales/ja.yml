@@ -1,89 +1,175 @@
 ---
-ruby: Ruby
-slogan: A Programmer's Best Friend
 
-sitelinks:
-- text: ホーム
-  url: /ja
-  home: true
-- text: ダウンロード
-  url: /ja/downloads
+navigation:
+- text: インストール
+  url: /ja/documentation/installation/
+  submenu:
+  - text: Rubyのインストール
+    url: /ja/documentation/installation/
+  - text: ダウンロード
+    url: /ja/downloads/
+  - text: リリース
+    url: /ja/downloads/releases/
+  - text: ブランチ
+    url: /ja/downloads/branches/
+  - text: パッケージマネージャー
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: ドキュメント
-  url: /ja/documentation
-- text: ライブラリ
-  url: /ja/libraries
-- text: コミュニティ
-  url: /ja/community
-- text: コア開発
-  url: /ja/dev
-- text: ニュース
-  url: /ja/news
-- text: セキュリティ
-  url: /ja/security
-- text: Rubyとは
-  url: /ja/about
-
-search:
-  text: 検索
-  cx_id: '008288045305770251182:fvruzsaknew'
-
-sidebar:
-  get_started:
-    text: <strong>はじめよう!</strong>
-    try_ruby:
-      text: 試してみる! (ブラウザから)
+  url: /ja/documentation/
+  submenu:
+  - text: ドキュメント
+    url: /ja/documentation/
+  - text: Rubyとは
+    url: /ja/about/
+  - text: 20分ではじめるRuby
+    url: /ja/documentation/quickstart/
+  - text: 他言語からのRuby入門
+    url: /ja/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C・C++からRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: JavaからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: PerlからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHPからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: PythonからRubyへ
+      url: /ja/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: はじめよう・探求しよう
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: 20分ではじめるRuby
-      url: /ja/documentation/quickstart/
-    ruby_from_other_languages:
-      text: 他言語からのRuby入門
-      url: /ja/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>探求しよう</strong>
-    documentation:
-      text: ドキュメント
-      url: /ja/documentation/
-    # books:
-    #   text: Books
-    rubybib:
-      text: 学術研究(英語)
+      external: true
+    - text: Ruby リファレンスマニュアル（るりま）
+      url: https://docs.ruby-lang.org/ja/3.4/doc/index.html
+      external: true
+    - text: るりまサーチ
+      url: https://docs.ruby-lang.org/ja/search/
+      external: true
+    - text: The Ruby Bibliography
       url: https://rubybib.org/
-    libraries:
-      text: ライブラリ
-      url: /ja/libraries/
-    # success_stories:
-    #   text: Success Stories
-    #   url: /ja/documentation/success-stories/
-  participate:
-    text: <strong>コミュニティに参加しよう</strong>
-    mailing_lists:
-      text: メーリングリスト
-      url: /ja/community/mailing-lists/
-      description: 世界中のプログラマとRubyについて話しましょう。
-    user_groups:
-      text: 日本Rubyの会
-      url: http://ruby-no-kai.org/
-      description: Rubyの利用者/開発者の支援を目的としたグループです。
-    # weblogs:
-    #   text: 更新順リンク
-    #   url: http://www.rubyist.net/~kazu/samidare/
-    #   description: Ruby関連のサイトのリンクを更新順に並べたものです。
-    # ruby_core:
-    #   text: Ruby Core
-    #   url: /ja/community/ruby-core/
-    #   description: Help polish the rough edges of the latest Ruby.
-    # issue_tracking:
-    #   text: Issue Tracking
-    #   url: https://bugs.ruby-lang.org/
-    #   description: Report or help solve issues in Ruby.
-  syndicate:
-    text: Syndicate
-    recent_news:
-      text: 最近のニュース (RSS)
-      url: /ja/feeds/news.rss
+      external: true
+- text: ライブラリ
+  url: /ja/libraries/
+  submenu:
+  - text: ライブラリ
+    url: /ja/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: 代表的なGem
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: コントリビューション
+  url: /ja/dev/
+  submenu:
+  - text: Rubyコア開発
+    url: /ja/dev/
+  - text: リポジトリガイド
+    url: /ja/documentation/repository-guide/
+  - text: メーリングリスト
+    url: /ja/community/mailing-lists/
+  - text: その他
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
+- text: コミュニティ
+  url: /ja/community/
+  submenu:
+  - text: コミュニティ
+    url: /ja/community/
+  - text: 行動規範ガイドライン
+    url: /ja/conduct/
+  - text: オンラインコミュニティ
+    submenu:
+    - text: Slack (ruby-jp)
+      url: https://ruby-jp.github.io/
+      external: true
+    - text: Scrapbox (ruby-jp)
+      url: https://scrapbox.io/ruby-jp/
+      external: true
+    - text: Rubyコミュニティ (Doorkeeper)
+      url: https://www.doorkeeper.jp/topics/ruby/groups
+      external: true
+  - text: イベント・カンファレンス
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+    - text: 地域 Ruby会議
+      url: https://regional.rubykaigi.org/
+      external: true
+  - text: 団体
+    submenu:
+    - text: 日本Rubyの会
+      url: https://ruby-no-kai.org/
+      external: true
+    - text: Rubyアソシエーション
+      url: https://www.ruby.or.jp/ja/
+      external: true
+    - text: Rubyビジネス・コモンズ
+      url: https://www.facebook.com/rubybizcommons
+      external: true
+- text: ニュース
+  url: /ja/news/
+  submenu:
+  - text: ニュース
+    url: /ja/news/
+  - text: セキュリティ
+    url: /ja/security/
+
+syndicate:
+  text: Syndicate
+  recent_news:
+    text: 最近のニュース (RSS)
+    url: /ja/feeds/news.rss
 
 languages_heading:
+
+toc:
+  heading: 目次
 
 credits:
   <a href="/ja/about/website/">このウェブサイト</a>は Ruby コミュニティのメンバーによって運営されています。
@@ -106,7 +192,35 @@ news:
   recent_news: 最近のニュース
   yearly_archive_title: "%Y年のアーカイブ"
   monthly_archive_title: "%Y年%m月のアーカイブ"
-  yearly_archives: 年毎のアーカイブ
+  yearly_archives: 年毎のニュース
   monthly_archives: 月毎のアーカイブ
   yearly_archive_link: "%Y年のアーカイブ"
   monthly_archive_link: "%Y年%m月"
+  select_year: "--- 年を選択 ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: メーリングリスト
+      url: /ja/community/mailing-lists/
+    security:
+      text: セキュリティ
+      url: /ja/security/
+    about_website:
+      text: このウェブサイトについて
+      url: /ja/about/website/
+    logo_page:
+      text: ロゴについて
+      url: /ja/about/logo/
+    news_rss:
+      text: ニュースRSS
+      url: /ja/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

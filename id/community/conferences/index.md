@@ -9,7 +9,7 @@ jenis konferensi, untuk berkolaborasi dalam berbagi perkembangan
 terbaru, membahas masa depan Ruby, dan menyambut pendatang baru di
 komunitas Ruby.
 
-[RubyConferences.org][rc] adalah sebuah daftar sederhana dari konferensi
+[RubyEvents.org][rc] adalah sebuah daftar sederhana dari konferensi
 khusus Ruby, dipublikasikan atas kerja sama dengan komunitas Ruby.
 Di sana Anda akan menemukan tanggal acara, lokasi, CFP (*Call For Proposals*),
 dan informasi pendaftaran.
@@ -80,7 +80,7 @@ on Rails.
 
 
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/
