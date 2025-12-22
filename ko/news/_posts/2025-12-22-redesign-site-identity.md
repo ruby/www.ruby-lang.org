@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Redesign our Site Identity"
+title: "사이트 아이덴티티 재디자인"
 author: "Hiroshi SHIBATA"
-translator:
+translator: "shia"
 date: 2025-12-22 05:46:09 +0000
-lang: en
+lang: ko
 ---
 
-We are excited to announce a comprehensive redesign of our site. The design for this update was created by [Taeko Akatsuka](https://x.com/ken_c_lo).
+사이트의 전면적인 재디자인을 발표하게 되어 기쁩니다. 이번 업데이트의 디자인은 [Taeko Akatsuka](https://x.com/ken_c_lo)가 제작했습니다.
 
-As part of this update, we have redesigned the site's identity as "A language where people gather, a site where people are visible."
+이번 업데이트의 일환으로, 사이트의 아이덴티티를 "사람들이 모이는 언어, 사람이 보이는 사이트"로 재설계했습니다.
 
-Ruby has been a language centered on "programmer happiness" for 30 years. The new key visual expresses the presence of people surrounding Ruby.
+Ruby는 30년 동안 "프로그래머의 행복"을 중심으로 한 언어였습니다. 새로운 키 비주얼은 Ruby를 둘러싼 사람들의 존재를 표현합니다.
 
-The composition features diverse hand-drawn illustrated characters radiating outward from the central Ruby logo, representing developers around the world connecting through Ruby, creating value in their respective fields, and enjoying Ruby alongside familiar motifs.
+구성은 중앙의 Ruby 로고에서 바깥쪽으로 퍼져나가는 다양한 손그림 일러스트 캐릭터들을 특징으로 하며, 전 세계 개발자들이 Ruby를 통해 연결되고, 각자의 분야에서 가치를 창출하며, 친숙한 모티프와 함께 Ruby를 즐기는 모습을 나타냅니다.
 
-While conveying Ruby's modern strengths of ecosystem, productivity, and community, the warm visual style embodies the unchanged joy, approachability, and tactile quality that have been core to Ruby since its inception. We aimed for an expression unique to Ruby that cannot be found on other programming language sites.
+Ruby의 현대적인 강점인 생태계, 생산성, 커뮤니티를 전달하는 동시에, 따뜻한 비주얼 스타일은 Ruby 탄생 이래 핵심이었던 변함없는 즐거움, 접근성, 친숙한 사용감을 구현합니다. 우리는 다른 프로그래밍 언어 사이트에서는 찾을 수 없는 Ruby만의 표현을 목표로 했습니다.
 
-Matz highlights simplicity of expression as one of Ruby's strengths, in addition to ecosystem, productivity, and community. In the new design, following the key visual, Ruby code is displayed to emphasize its essence as a programming language.
+Matz는 생태계, 생산성, 커뮤니티 외에도 표현의 단순함을 Ruby의 강점 중 하나로 강조합니다. 새로운 디자인에서는 키 비주얼을 따라 Ruby 코드를 표시하여 프로그래밍 언어로서의 본질을 강조합니다.
 
-We also incorporated interviews with community members and photographs, creating a site where you can sense the presence of the many people behind the programming language.
+또한 커뮤니티 구성원들과의 인터뷰와 사진을 포함하여, 프로그래밍 언어 뒤에 있는 많은 사람들의 존재를 느낄 수 있는 사이트를 만들었습니다.
 
-The site-wide update with the new design is still ongoing. There are still many areas for improvement, such as broken links and inconsistencies. We look forward to your feedback.
+새로운 디자인을 적용한 사이트 전체 업데이트는 아직 진행 중입니다. 깨진 링크와 불일치 등 개선할 부분이 아직 많이 남아 있습니다. 여러분의 피드백을 기다리겠습니다.
