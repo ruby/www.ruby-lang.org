@@ -8,6 +8,10 @@
       height: calc(5 * 41px);
       width: 1px;
     }
+    /* Dark mode: make year labels (bottom axis) visible */
+    :is(.dark *) #lifecycle-timeline text[text-anchor="middle"] {
+      fill: #f5f5f4 !important; /* stone-100 for year labels */
+    }
   </style>
   <div id="lifecycle-timeline" style="height: 344px"></div>
 </figure>

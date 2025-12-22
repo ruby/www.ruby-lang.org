@@ -115,6 +115,19 @@ Open the preview in your browser with `heroku open` or
 retrieve the preview URL using `heroku info` and open it in your browser.
 
 
+## Styling with Tailwind CSS
+
+This site uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+After making changes to HTML/Markdown files or Tailwind configuration:
+
+``` sh
+npm run build-css   # build CSS
+npm run watch-css   # watch and rebuild CSS automatically
+```
+
+**Note:** You need to have Node.js installed to run these commands.
+
+
 ## Testing
 
 Besides generating and previewing the site
