@@ -1,0 +1,109 @@
+{% comment %}
+  News and Security section for homepage
+  Displays latest news and security posts side by side
+{% endcomment %}
+
+{% comment %}Load locale data{% endcomment %}
+{% assign home = site.data.locales.home[page.lang] %}
+
+{% if site.data.locales[page.lang].news %}
+  {% assign news_locale = site.data.locales[page.lang].news %}
+{% else %}
+  {% assign news_locale = site.data.locales['en'].news %}
+{% endif %}
+
+{% comment %}Get latest news and security posts{% endcomment %}
+{% assign news_posts = '' | split: '' %}
+{% assign security_posts = '' | split: '' %}
+
+{% for post in site.categories[page.lang] %}
+  {% if post.tags contains 'security' %}
+    {% if security_posts.size < 6 %}
+      {% assign security_posts = security_posts | push: post %}
+    {% endif %}
+  {% else %}
+    {% if news_posts.size < 4 %}
+      {% assign news_posts = news_posts | push: post %}
+    {% endif %}
+  {% endif %}
+  {% if news_posts.size >= 4 and security_posts.size >= 6 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<section class="bg-white dark:bg-stone-900">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8 py-12 lg:py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
+
+      {% comment %}News Section (2/3 width){% endcomment %}
+      <div class="lg:col-span-2">
+        <h2 class="text-3xl md:text-4xl font-bold mb-10">
+          <a href="/{{ page.lang }}/news/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+            {{ home.news_security.news.title }}<span class="icon-chevron-right text-3xl md:text-4xl" aria-hidden="true"></span>
+          </a>
+        </h2>
+
+        <div class="space-y-6">
+          {% for post in news_posts %}
+          <article class="pb-6 border-b border-stone-200 dark:border-stone-700">
+            <h3 class="text-2xl font-bold mb-3">
+              <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            <div class="text-stone-900 dark:text-stone-300 text-sm mb-1">
+              {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </div>
+
+            <p class="mt-1">
+              <a href="{{ post.url }}" class="text-xs text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center">
+                <span class="icon-double-arrow-right" aria-hidden="true"></span>
+                {{ news_locale.continue }}
+              </a>
+            </p>
+
+            <p class="text-xs text-stone-500 dark:text-stone-400 mt-3">{{ post.date | posted_by:post.author }}</p>
+          </article>
+          {% endfor %}
+        </div>
+
+        <p class="mt-4">
+          <a href="/{{ page.lang }}/news/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+            {{ home.news_security.news.more_link }}<span class="icon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </p>
+      </div>
+
+      {% comment %}Security Section (1/3 width){% endcomment %}
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold mb-10">
+          <a href="/{{ page.lang }}/security/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+            {{ home.news_security.security.title }}<span class="icon-chevron-right text-3xl md:text-4xl" aria-hidden="true"></span>
+          </a>
+        </h2>
+
+        <div class="space-y-6">
+          {% for post in security_posts %}
+          <article class="pb-6 border-b border-stone-200 dark:border-stone-700">
+            <h3 class="text-base font-bold mb-3">
+              <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            <p class="text-xs text-stone-500 dark:text-stone-400">{{ post.date | posted_by:post.author }}</p>
+          </article>
+          {% endfor %}
+        </div>
+
+        <p class="mt-4">
+          <a href="/{{ page.lang }}/security/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+            {{ home.news_security.security.more_link }}<span class="icon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,49 @@
+---
+- code: bg
+  name: Български
+  native_name: Български
+- code: de
+  name: German
+  native_name: Deutsch
+- code: en
+  name: English
+  native_name: English
+- code: es
+  name: Spanish
+  native_name: Español
+- code: fr
+  name: French
+  native_name: Français
+- code: id
+  name: Indonesian
+  native_name: Indonesia
+- code: it
+  name: Italian
+  native_name: Italiano
+- code: ja
+  name: Japanese
+  native_name: 日本語
+- code: ko
+  name: Korean
+  native_name: 한국어
+- code: pl
+  name: Polish
+  native_name: polski
+- code: pt
+  name: Portuguese
+  native_name: Português
+- code: ru
+  name: Russian
+  native_name: Русский
+- code: tr
+  name: Turkish
+  native_name: Türkçe
+- code: vi
+  name: Vietnamese
+  native_name: Tiếng Việt
+- code: zh_cn
+  name: Simplified Chinese
+  native_name: 简体中文
+- code: zh_tw
+  name: Traditional Chinese
+  native_name: 繁體中文

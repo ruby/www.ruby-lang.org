@@ -9,7 +9,7 @@ lang: zh_tw
 
 ### 安裝 Ruby
 
-儘管可以輕鬆的[在瀏覽器試玩 Ruby ][1]，你還是可以閱讀[安裝指南](installation/)來幫助你安裝 Ruby。
+除了可以輕鬆[在瀏覽器試玩 Ruby ][1]，你也可以閱讀[安裝指南](installation/)來瞭解如何安裝 Ruby。
 
 ### 官方 Ruby 文件
 
@@ -22,9 +22,6 @@ lang: zh_tw
 [C Extension Guide][docs-rlo-extension]: 為 Ruby 建立 C 延伸套件的深度指南。
 
 ### 入門
-
-[官方 FAQ](/en/documentation/faq/)
-: 官方常見問題與解答。
 
 [Try Ruby][1]
 : 您可以在您的瀏覽器上體驗 Ruby。
@@ -49,7 +46,7 @@ lang: zh_tw
 #### 初學者
 
 [Programming Ruby 3.3][pickaxe]
-: 這是 Ruby 的第一本英文書，最近更新到了 Ruby 3.3 。
+: 這是 Ruby 經典名著，最近更新到了 Ruby 3.3 。
 
 [The Well-Grounded Rubyist][grounded]
 : 本教學從您的第一個 Ruby 程式開始，並帶您逐步了解反射、執行緒和遞迴等複雜主題。
@@ -69,7 +66,7 @@ lang: zh_tw
 
 ### 社群文件
 
-這些文件網站由 Ruby 社群維護。
+以下文件網站是由 Ruby 社群共同維護。
 
 [RubyDoc.info][16]
 : 一站式站點，擁有 RubyGems 與 GitHub 上托管的 Ruby 專案的文件。
@@ -136,35 +133,24 @@ lang: zh_tw
 
 您可以用作業系統內建的編輯器來撰寫 Ruby。為了更有效的寫程式，值得選個 Ruby 基本特性支援良好的編輯器（如：語法高亮、檔案瀏覽）或是有更進階功能的整合開發環境（如：程式碼補齊、重構、支持測試等。）
 
-以下是 Ruby 程式設計師（Rubyist）間流行使用的開發工具清單：
+以下是依學習曲線分類，Ruby 程式設計師（Rubyist）間流行使用的開發工具清單：
 
-* Linux 與跨平台：
-  * [Aptana Studio][19]
-  * [Emacs][20] 用 [Ruby mode][21] 或 [Enhanced Ruby mode][enh-ruby-mode]
-  * [Geany][23]
-  * [gedit][24]
-  * [Vim][25] 用 [vim-ruby][26] 插件
-  * [NeoVim][neovim]
-  * [RubyMine][27]
-  * [SciTe][28]
-  * [NetBeans][36]
-  * [Sublime Text][37]
+* 幾天內上手：
+  * [Sublime Text][37]（付費）
   * [Visual Studio Code][vscode]
   * [Zed][zed]
+* 幾個月內熟悉：
+	*	[RubyMine][27]（付費）
+* 需要「幾年」才能掌握（真的會一直有東西可以學）：
+	*	[Emacs][20]，搭配 [Ruby mode][21] 或 [Enhanced Ruby mode][enh-ruby-mode]
+	*	[Vim][25]，搭配 [vim-ruby][26] 插件
+	*	[NeoVim][neovim]
 
-* Windows 作業系統：
-  * [Notepad++][29]
-
-* macOS 作業系統：
-  * [TextMate][32]
-  * [BBEdit][33]
-  * [Dash][dash] （瀏覽文件用）
-
-部分編輯器支援 Language Server Protocol (LSP)，Shopify 的 [ruby-lsp][ruby-lsp] 是最受歡的的 Ruby LSP 之一。
+不管是透過內建或是插件實現，這些編輯器都支援 Language Server Protocol（LSP）。Shopify 的 [ruby-lsp][ruby-lsp] 是目前最受歡迎的 Ruby 語言伺服器之一，並且[支援上述所有編輯器][ruby-lsp-supported-editors]。
 
 ### 較舊的閱讀資源
 
-這些連結內容也很突出，但已經很久沒有更新了。
+這些連結曾經非常熱門，但已多年未更新。
 
 [Ruby Koans][2]
 : Ruby Koans 導引你走上學習 Ruby 的啟蒙之路。可以學到 Ruby 語言、語法、結構、常用函數與函式庫。
@@ -181,7 +167,7 @@ lang: zh_tw
 : 一系列說明完善的練習，導引你從完全零基礎一直介紹到物件導向程式設計與 Web 開發，
 
 [Programming Ruby][9]
-: 這是 Ruby 的第一本英文書，第一版開放線上免費閱讀 [Pragmatic Programmers' book][10] 。
+: 這是 Ruby 經典名著，第一版開放線上免費閱讀 [Pragmatic Programmers' book][10] 。
 
 [The Ruby Programming Wikibook][12]
 : 給初學者到中等程度的線上手冊以及語言參考。
@@ -189,31 +175,18 @@ lang: zh_tw
 [1]: https://try.ruby-lang.org/
 [2]: https://rubykoans.com/
 [5]: https://poignant.guide
-[7]: http://www.techotopia.com/index.php/Ruby_Essentials
-[8]: http://pine.fm/LearnToProgram/
+[7]: https://www.techotopia.com/index.php/Ruby_Essentials
+[8]: https://pine.fm/LearnToProgram/
 [9]: https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
-[12]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[13]: http://www.ruby-doc.org/core
-[14]: https://ruby.github.io/rdoc/
-[15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
-[16]: http://www.rubydoc.info/
-[rubyapi-org]: https://rubyapi.org/
-[19]: http://www.aptana.com/
-[20]: http://www.gnu.org/software/emacs/
-[21]: http://www.emacswiki.org/emacs/RubyMode
-[23]: http://www.geany.org/
-[24]: https://gedit-text-editor.org/
-[25]: http://www.vim.org/
+[12]: https://en.wikibooks.org/wiki/Ruby_programming_language
+[16]: https://www.rubydoc.info/
+[20]: https://www.gnu.org/software/emacs/
+[21]: https://www.emacswiki.org/emacs/RubyMode
+[25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
-[27]: http://www.jetbrains.com/ruby/
-[28]: http://www.scintilla.org/SciTE.html
-[29]: http://notepad-plus-plus.org/
-[32]: http://macromates.com/
-[33]: https://www.barebones.com/products/bbedit/
-[36]: https://netbeans.org/
-[37]: http://www.sublimetext.com/
+[27]: https://www.jetbrains.com/ruby/
+[37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
 [39]: https://ruby-doc.org/
 [40]: https://devdocs.io/ruby/
@@ -232,26 +205,23 @@ lang: zh_tw
 [54]: https://github.com/ruby/rbs
 [55]: https://github.com/ruby/typeprof
 [56]: https://github.com/soutaro/steep
-
-[docs-rlo]: https://docs.ruby-lang.org/en/
+[codecademy]: https://www.codecademy.com/learn/learn-ruby
+[docs-rlo]: https://docs.ruby-lang.org/en
 [docs-rlo-3.4]: https://docs.ruby-lang.org/en/3.4
 [docs-rlo-master]: https://docs.ruby-lang.org/en/master
 [docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
-
-[rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
-[odin]: https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby
+[enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
 [exercism]: https://exercism.org/tracks/ruby
-[codecademy]: https://www.codecademy.com/learn/learn-ruby
-
-[pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [grounded]: https://www.manning.com/books/the-well-grounded-rubyist-third-edition
-[poodr]: https://www.poodr.com/
 [meta]: https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/
 [microscope]: https://patshaughnessy.net/ruby-under-a-microscope
-
-[enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
 [neovim]: https://neovim.io/
-[vscode]: https://code.visualstudio.com/
-[zed]: https://zed.dev/
-[dash]: http://kapeli.com/dash
+[odin]: https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby
+[pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
+[poodr]: https://www.poodr.com/
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
+[ruby-lsp-supported-editors]: https://shopify.github.io/ruby-lsp/editors.html
+[rubyapi-org]: https://rubyapi.org/
+[rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
+[vscode]: https://code.visualstudio.com/docs/languages/ruby
+[zed]: https://zed.dev/

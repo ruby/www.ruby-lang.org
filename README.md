@@ -123,6 +123,30 @@ If you can't build locally or want to test under production conditions:
 - **Found a bug?** [Open an issue](https://github.com/ruby/www.ruby-lang.org/issues)
 - **Need more info?** Check the [project wiki](https://github.com/ruby/www.ruby-lang.org/wiki)
 
+## Styling with Tailwind CSS
+
+This site uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+After making changes to HTML/Markdown files or Tailwind configuration:
+
+``` sh
+npm run build-css   # build CSS
+npm run watch-css   # watch and rebuild CSS automatically
+```
+
+**Note:** You need to have Node.js installed to run these commands.
+
+
+## Testing
+
+Besides generating and previewing the site
+you can perform additional tests with these tasks:
+
+``` sh
+bundle exec rake lint          # run linter on markdown files
+bundle exec rake check:markup  # check markup for all generated pages
+bundle exec rake check:links   # check for 404's (needs a running local server)
+```
+
 ## 📚 More Information
 
 For detailed contribution guidelines, coding standards, and project structure, see our [wiki](https://github.com/ruby/www.ruby-lang.org/wiki).

@@ -1,0 +1,65 @@
+{% comment %}
+  Helper to find the submenu for a given section
+  Parameters: nav_section, nav_items
+  Sets: current_section_submenu, current_section_title
+{% endcomment %}
+
+{% assign current_section_submenu = nil %}
+{% assign current_section_title = nil %}
+
+{% for item in include.nav_items %}
+  {% case include.nav_section %}
+    {% when 'install' %}
+      {% if item.url contains '/installation/' %}
+        {% assign current_section_submenu = item.submenu %}
+        {% assign current_section_title = item.text %}
+        {% break %}
+      {% endif %}
+    {% when 'documentation' %}
+      {% if item.url contains '/documentation/' and item.url != '/installation/' %}
+        {% unless item.url contains '/installation/' %}
+          {% assign current_section_submenu = item.submenu %}
+          {% assign current_section_title = item.text %}
+          {% break %}
+        {% endunless %}
+      {% endif %}
+    {% when 'libraries' %}
+      {% if item.url contains '/libraries/' %}
+        {% assign current_section_submenu = item.submenu %}
+        {% assign current_section_title = item.text %}
+        {% break %}
+      {% endif %}
+    {% when 'contribution' %}
+      {% if item.url contains '/dev/' or item.url contains '/ruby-core/' %}
+        {% assign current_section_submenu = item.submenu %}
+        {% assign current_section_title = item.text %}
+        {% break %}
+      {% endif %}
+    {% when 'community' %}
+      {% capture community_url %}/{{ page.lang }}/community/{% endcapture %}
+      {% if item.url == community_url %}
+        {% assign current_section_submenu = item.submenu %}
+        {% assign current_section_title = item.text %}
+        {% break %}
+      {% endif %}
+    {% when 'news' %}
+      {% if item.url contains '/news/' %}
+        {% assign current_section_submenu = item.submenu %}
+        {% assign current_section_title = item.text %}
+        {% break %}
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+
+{% comment %}Fallback to documentation if no match{% endcomment %}
+{% unless current_section_submenu %}
+  {% for item in include.nav_items %}
+    {% if item.url contains '/documentation/' %}
+      {% unless item.url contains '/installation/' %}
+        {% assign current_section_submenu = item.submenu %}
+        {% assign current_section_title = item.text %}
+        {% break %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
