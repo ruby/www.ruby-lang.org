@@ -39,5 +39,6 @@ Ruby에 대한 콘퍼런스 목록입니다. 이곳에서는 행사일, 장소, 
 
 [rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
+[2]: https://rubycentral.org/
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
